@@ -1,0 +1,3417 @@
+                                             Multiplicity-free theorems of the Restrictions
+                                             of Unitary Highest Weight Modules with
+
+
+
+
+arXiv:math/0607002v1 [math.RT] 30 Jun 2006
+                                             respect to Reductive Symmetric Pairs
+
+                                             Toshiyuki KOBAYASHI
+
+                                             RIMS, Kyoto University, Kyoto 606-8502, Japan toshi@kurims.kyoto-u.ac.jp
+
+                                             Summary. The complex analytic methods have found a wide range of applications
+                                             in the study of multiplicity-free representations. This article discusses, in particular,
+                                             its applications to the question of restricting highest weight modules with respect
+                                             to reductive symmetric pairs. We present a number of multiplicity-free branching
+                                             theorems that include the multiplicity-free property of some of known results such
+                                             as the Clebsh–Gordan–Pieri formula for tensor products, the Plancherel theorem for
+                                             Hermitian symmetric spaces (also for line bundle cases), the Hua–Kostant–Schmid
+                                             K-type formula, and the canonical representations in the sense of Vershik–Gelfand–
+                                             Graev. Our method works in a uniform manner for both finite and infinite dimen-
+                                             sional cases, for both discrete and continuous spectra, and for both classical and
+                                             exceptional cases.
+
+                                             Key words: multiplicity-free representation, branching rule, symmetric pair, high-
+                                             est weight module, Hermitian symmetric space, reproducing kernel, semisimple Lie
+                                             group.
+                                             Subject Classifications: Primary 22E46, Secondary 32A37, 05E15, 20G05, 53C35.
+
+
+                                             Contents
+                                             1     Introduction and statement of main results . . . . . . . . . . . . . . .                                        2
+                                             2     Main machinery from complex geometry . . . . . . . . . . . . . . . . . . 13
+                                             3     Proof of Theorem A . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+                                             4     Proof of Theorem C . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+                                             5     Uniformly bounded multiplicities — Proof of Theorems B
+                                                   and D . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+                                             6     Counter examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+                                             7     Finite Dimensional Cases — Proof of Theorems E and F . . 41
+                                             8     Generalization of the Hua–Kostant–Schmid Formula . . . . . . 48
+2          Toshiyuki KOBAYASHI
+
+9       Appendix: Associated Bundles on Hermitian Symmetric
+        Spaces . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+
+
+1 Introduction and statement of main results
+The purpose of this article is to give a quite detailed account of the theory
+of multiplicity-free representations based on a non-standard method (visible
+actions on complex manifolds) through its application to branching prob-
+lems. More precisely, we address the question of restricting irreducible highest
+weight representations π of reductive Lie groups G with respect to symmetric
+pairs (G, H). Then, our main goal is to give a simple and sufficient condition
+on the triple (G, H, π) such that the restriction π|H is multiplicity-free. We
+shall see that our method works in a uniform way for both infinite and finite
+dimensional representations, for both classical and exceptional cases, and for
+both continuous and discrete spectra.
+    This article is an outgrowth of the manuscript [44] which I did not publish,
+but which has been circulated as a preprint. From then onwards, we have
+extended the theory, in particular, to the following three directions:
+1) the generalization of our main machinery (Theorem 2.2) to the vector
+bundle case ([49]),
+2) the theory of ‘visible actions’ on complex manifolds ([50, 51, 52]),
+3) ‘multiplicity-free geometry’ for coadjoint orbits ([53]).
+    We refer the reader to our paper [47] for a precise statement of the general
+results and an exposition of the related topics that have recently developed.
+    In this article, we confine ourselves to the line bundle case. On the one
+hand, this is sufficiently general to produce many interesting consequences,
+some of which are new and some others may be regarded as prototypes of
+various multiplicity-free branching theorems (e.g. [5, 10, 46, 54, 58, 66, 68, 81,
+90, 92]). On the other hand, the line bundle case is sufficiently simple, so that
+we can illustrate the essence of our main ideas without going into technical
+details. Thus, keeping the spirit of [44], we have included here the proof of our
+method (Theorem 2.2), its applications to multiplicity-free theorems (Theo-
+rems A–F), and the explicit formulae (Theorems 8.3, 8.4, and 8.11), except
+that we referred to another paper [50] for the proof of some algebraic lemmas
+on the triple of involutions of Lie algebras (Lemmas 3.6 and 7.5).
+
+1.1 Definition of multiplicity-free representations
+
+Let us begin by recalling the concept of the multiplicity-free decomposition of
+a unitary representation.
+   Suppose H is a Lie group of type I in the sense of von Neumann algebras.
+Any reductive Lie group is of type I as well as any algebraic group. We denote
+                           Multiplicity-free restrictions to symmetric pairs     3
+
+by Hb the unitary dual of H, that is, the set of equivalence classes of irreducible
+unitary representations of H. The unitary dual H     b is endowed with the Fell
+topology.
+    Suppose that (π, H) is a unitary representation of H defined on a (sec-
+ond countable) Hilbert space H. By a theorem of Mautner, π is decomposed
+uniquely into irreducible unitary representations of H in terms of the direct
+integral of Hilbert spaces:
+                                Z
+                            π≃       mπ (µ)µ dσ(µ) ,                        (1.1.1)
+                                   b
+                                   H
+
+                                  b and the multiplicity function mπ : H
+where dσ(µ) is a Borel measure on H,                                      b →
+N ∪ {∞} is uniquely defined almost everywhere with respect to the measure
+dσ.
+    Let End(H) be the ring of continuous operators on H, and EndH (H) the
+subring of H-intertwining operators, that is, the commutant of {π(g) : g ∈ H}
+in End(H).
+Definition 1.1. We say that the unitary representation (π, H) is multiplicity-
+free if the ring EndH (H) is commutative.
+   It is not difficult to see that this definition is equivalent to the following
+property:
+                                  b with respect to the measure dσ(µ)
+    mπ (µ) ≤ 1 for almost all µ ∈ H
+
+by Schur’s lemma for unitary representations. In particular, it implies that
+any irreducible unitary representation µ of H occurs at most once as a sub-
+representation of π.
+
+1.2 Multiplicities for inductions and restrictions
+
+With regard to the question of finding irreducible decompositions of uni-
+tary representations, there are two fundamental settings: one is the induced
+representation from smaller groups (e.g. harmonic analysis on homogeneous
+spaces), and the other is the restriction from larger groups (e.g. tensor product
+representations).
+    To be more rigorous, suppose G is a Lie group, and H is a closed sub-
+group of G. The G-irreducible decomposition of the induced representation
+L2 -IndG          b
+       H τ (τ ∈ H) is called the Plancherel formula, while the H-irreducible
+decomposition of the restriction π|H (π ∈ G)  b is referred to as the branching
+law.
+    This subsection examines multiplicities in the irreducible decomposition
+of the induction and the restriction for reductive symmetric pairs (G, H) (see
+Subsection 3.1 for definition).
+    Let us start with the induced representation. Van den Ban [2] proved that
+the multiplicity in the Plancherel formula for L2 -IndG   H τ is finite as far as
+4      Toshiyuki KOBAYASHI
+
+dim τ < ∞. In particular, this is the case if τ is the trivial representation
+1. Over the past several decades, the induced representation L2 -IndG      H 1 has
+developed its own identity (harmonic analysis on reductive symmetric spaces
+G/H) as a rich and meaningful part of mathematics.
+    In contrast, the multiplicities of the branching law of the restriction π|H
+(π ∈ bG) are usually infinite. For instance, we saw in [36] that this is the case
+if (G, H) = (GL(p + q, R), GL(p, R) × GL(q, R)) where min(p, q) ≥ 2, for any
+tempered representation π of G. In this article, we illuminate by Example 6.3
+this wild behavior.
+    In light of such a wild phenomenon of branching laws for reductive sym-
+metric pairs (G, H) with H non-compact, we proposed in [38, 40] to seek for a
+‘nice’ class of the triple (G, H, π) in which a systematic study of the restriction
+π|H could be launched.
+    Finiteness of multiplicities is a natural requirement for this program. By
+also imposing discrete decomposability on the restriction π|H , we established
+the general theory for admissible restriction in [38, 40, 41] and found that
+there exist fairly rich triples (G, H, π) that enjoy this nice property. It is
+noteworthy that new interesting directions of research in the framework of
+admissible restrictions have been recently developed by M. Duflo, D. Gross,
+J.-S. Huang, J.-S. Li, S.-T. Lee, H.-Y. Loke, T. Oda, P. Pandžić, G. Savin,
+B. Speh, J. Vargas, D. Vogan, and N. Wallach (see [45, 48] and references
+therein).
+    Multiplicity-freeness is another ideal situation, in which we may expect an
+especially simple and detailed study of the branching law of π|H . Thus, we
+aim for principles that lead us to abundant family of multiplicity-free cases.
+Among them, a well-known one is the dual pair correspondence, which has
+given fruitful examples in infinite dimensional theory in the following setting:
+    a) G is the metaplectic group, and π is the Weil representation.
+    b) H = H1 · H2 forms a dual pair, that is, H1 is the commutant of H2 in
+       G, and vice versa.
+This paper uses a new principle that generates multiplicity-free represen-
+tations. The general theory discussed in Section 2 brings us to uniformly
+bounded multiplicity theorems (Theorems B and D) and multiplicity-free the-
+orems (Theorems A, C, E and F) in the following setting:
+    a) π is a unitary highest weight representation of G (see Subsection 1.3),
+    b) (G, H) is a symmetric pair (see Subsection 1.4).
+    We note that we allow the case where continuous spectra occur in the
+branching law, and consequently, irreducible summands are not always highest
+weight representations.
+    We remark that our bounded multiplicity theorems for the restriction π|H
+(π: highest weight module) may be regarded as the counterpart of the bounded
+multiplicity theorem for the induction L2 -IndG
+                                              H τ (τ : finite dimensional repre-
+sentation) due to van den Ban.
+                           Multiplicity-free restrictions to symmetric pairs        5
+
+1.3 Unitary highest weight modules
+
+Let us recall the basic notion of highest weight modules.
+   Let G be a non-compact simple Lie group, θ a Cartan involution of G, and
+K := {g ∈ G : θg = g}. We write g = k + p for the Cartan decomposition of
+the Lie algebra g of G, corresponding to the Cartan involution θ.
+   We assume that G is of Hermitian type, that is, the Riemannian sym-
+metric space G/K carries the structure of a Hermitian symmetric space, or
+equivalently, the center c(k) of k is non-trivial. The classification of simple Lie
+algebras g of Hermitian type is given as follows:
+
+           su(p, q) , sp(n, R) , so(m, 2) (m 6= 2) , e6(−14) , e7(−25) .
+
+Such a Lie algebras g satisfies the rank condition:
+
+                               rank G = rank K ,                               (1.3.1)
+
+or equivalently, a Cartan subalgebra of k becomes a Cartan subalgebra of
+g. By a theorem of Harish-Chandra, the rank condition (1.3.1) is equivalent
+to the existence of (relative) discrete series representations of G. Here, an
+irreducible unitary representation (π, H) is called a (relative) discrete series
+representation of G if the matrix coefficient g 7→ (π(g)u, v) is square integrable
+on G (modulo its center) for any u, v ∈ H.
+    If g is a simple Lie algebra of Hermitian type, then there exists a charac-
+teristic element Z ∈ c(k) such that
+
+                          gC := g ⊗ C = kC ⊕ p+ ⊕ p−                           (1.3.2)
+                                                                √           √
+is the eigenspace decomposition of ad(Z) with eigenvalues 0, −1 and − −1,
+respectively. We note that dim c(k) = 1 if g is a simple Lie algebra of Hermitian
+type, and therefore c(k) = RZ.
+    Suppose V is an irreducible (gC , K)-module. We set
+
+                  V p+ := {v ∈ V : Y v = 0 for any Y ∈ p+ } .                  (1.3.3)
+
+Since K normalizes p+ , V p+ is a K-submodule. Further, V p+ is either zero or
+an irreducible finite dimensional representation of K. We say V is a highest
+weight module if V p+ 6= {0}.
+
+Definition 1.3. Suppose π is an irreducible unitary representation of G on a
+Hilbert space H. We set HK := {v ∈ H : dimC C-span{π(k)v : k ∈ K} < ∞}.
+Then, HK is a dense subspace of H, on which the differential action dπ of
+the Lie algebra g (and consequently that of its complexified Lie algebra gC )
+and the action of the compact subgroup K is well-defined. We say HK is the
+underlying (gC , K)-module of (π, H). We say (π, H) is a unitary highest weight
+                        p
+representation of G if HK+ 6= {0}. Then, π is of scalar type (or of scalar min-
+                  p+
+imal K-type) if HK is one dimensional; π is a (relative) holomorphic discrete
+6       Toshiyuki KOBAYASHI
+
+series representation for G if the matrix coefficient g 7→ (π(g)u, v) is square
+integrable on G modulo its center for any u, v ∈ H. Lowest weight modules
+and anti-holomorphic discrete series representations are defined similarly with
+p+ replaced by p− .
+
+    This definition also applies to G which is not simple (see Subsection 8.1).
+    The classification of irreducible unitary highest weight representations was
+accomplished by Enright–Howe–Wallach [12] and H. Jakobsen [30] indepen-
+dently; see also [13]. There always exist infinitely many (relative) holomorphic
+discrete series representations of scalar type for any non-compact simple Lie
+group of Hermitian type.
+
+1.4 Involutions on Hermitian symmetric spaces
+
+Suppose G is a non-compact simple Lie group of Hermitian type. Let τ be an
+involutive automorphism of G commuting with the Cartan involution θ. We
+use the same letter τ to denote its differential. Then τ stabilizes k and also
+c(k). Because τ 2 = id and c(k) = RZ, we have the following two possibilities:
+
+                                    τZ = Z ,                                 (1.4.1)
+                                    τ Z = −Z .                               (1.4.2)
+
+Geometric meanings of these conditions become clear in the context of the
+embedding Gτ /K τ ֒→ G/K, where Gτ := {g ∈ G : τ g = g} and K τ := Gτ ∩K
+(see [14, 27, 28, 35]). The condition (1.4.1) implies:
+    1-a) τ acts holomorphically on the Hermitian symmetric space G/K,
+    1-b) Gτ /K τ ֒→ G/K defines a complex submanifold,
+whereas the condition (1.4.2) implies:
+    2-a) τ acts anti-holomorphically on G/K,
+    2-b) Gτ /K τ ֒→ G/K defines a totally real submanifold.
+
+Definition 1.4. We say the involutive automorphism τ is of holomorphic type
+if (1.4.1) is satisfied, and is of anti-holomorphic type if (1.4.2) is satisfied. The
+same terminology will be applied also to the symmetric pair (G, H) (or its Lie
+algebras (g, h)) corresponding to the involution τ .
+
+     Here, we recall that (G, H) is called a symmetric pair corresponding to τ
+if H is an open subgroup of Gτ (see Subsections 3.1 and 3.2). We note that
+the Lie algebra h of H is equal to gτ := {X ∈ g : τ X = X}. The classification
+of symmetric pairs (g, gτ ) for simple Lie algebras g was accomplished by M.
+Berger [6]. The classification of symmetric pairs (g, gτ ) of holomorphic type
+(respectively, of anti-holomorphic type) is regarded as a subset of Berger’s
+list, and will be presented in Table 3.4.1 (respectively, Table 3.4.2).
+                          Multiplicity-free restrictions to symmetric pairs    7
+
+1.5 Multiplicity-free restrictions — infinite dimensional case
+
+We are ready to state our main results. Let G be a non-compact simple Lie
+group of Hermitian type, and (G, H) a symmetric pair.
+
+Theorem A (multiplicity-free restriction). If π is an irreducible unitary high-
+est weight representation of scalar type of G, then the restriction π|H is
+multiplicity-free.
+
+    The branching law of the restriction π|H may and may not contain discrete
+spectra in Theorem A. If (G, H) is of holomorphic type then the restriction
+π|H is discretely decomposable (i.e. there is no continuous spectrum in the
+branching law); see Fact 5.1. Besides, the following theorem asserts that the
+multiplicities are still uniformly bounded even if we drop the assumption that
+π is of scalar type.
+
+Theorem B (uniformly bounded multiplicities). We assume that the sym-
+metric pair (G, H) is of holomorphic type. Let π be an irreducible unitary
+highest weight representation of G.
+1) The restriction π|H splits into a discrete Hilbert sum of irreducible unitary
+representations of H:
+                                    X⊕
+                            π|H ≃         mπ (µ)µ ,
+                                      b
+                                    µ∈H
+
+and the multiplicities are uniformly bounded:
+
+                          C(π) := sup mπ (µ) < ∞ .
+                                      b
+                                    µ∈H
+
+
+2) C(π) = 1 if π is of scalar type.
+
+    The second statement is a direct consequence of Theorems A and B (1).
+As we shall see in Section 6, such uniform boundedness theorem does not hold
+in general if π is not a highest weight representation (see Examples 6.2 and
+6.3).
+    Here are multiplicity-free theorems for the decomposition of tensor prod-
+ucts, which are parallel to Theorems A and B:
+
+Theorem C (multiplicity-free tensor product). Let π1 and π2 be irreducible
+unitary highest (or lowest) weight representations of scalar type. Then the
+tensor product π1 b
+                 ⊗π2 is multiplicity-free as a representation of G.
+
+    Here, π1 b
+             ⊗π2 stands for the tensor product representation of two unitary
+representations (π1 , H1 ) and (π2 , H2 ) realized on the completion H1 b⊗H2 of
+the pre-Hilbert space H1 ⊗ H2 . (We do not need to take the completion if at
+least one of H1 or H2 is finite dimensional.) Theorem C asserts that multiplici-
+ties in the direct integral of the irreducible decomposition are not greater than
+8      Toshiyuki KOBAYASHI
+
+one in both discrete and continuous spectra. We note that continuous spectra
+appear in the irreducible decomposition of the tensor product representation
+π1 b
+  ⊗π2 only if
+                (
+                  π1 is a highest weight representation, and
+                  π2 is a lowest weight representation,
+
+or in reverse order.
+    If π1 and π2 are simultaneously highest weight representations (or simul-
+taneously lowest weight representations), then the tensor product π1 b
+                                                                     ⊗π2 de-
+composes discretely. Dropping the assumption of “scalar type”, we have still
+a uniform estimate of multiplicities:
+
+Theorem D (uniformly bounded multiplicities). Let π1 and π2 be two irre-
+ducible unitary highest weight representations of G.
+1) The tensor product π1 b⊗π2 splits into a discrete Hilbert sum of irreducible
+unitary representations of G:
+                                    X⊕
+                         π1 b
+                           ⊗π2 ≃          mπ1 ,π2 (µ)µ ,
+                                     b
+                                   µ∈G
+
+and the multiplicities mπ1 ,π2 (µ) are uniformly bounded:
+
+                      C(π1 , π2 ) := sup mπ1 ,π2 (µ) < ∞ .
+                                      b
+                                    µ∈G
+
+
+2) C(π1 , π2 ) = 1 if both π1 and π2 are of scalar type.
+
+Remark 1.5. For classical groups, we can relate the constants C(π) and
+C(π1 , π2 ) to the stable constants of branching coefficients of finite dimen-
+sional representations in the sense of F. Sato [77] by using the see-saw dual
+pair correspondence due to R. Howe [23].
+
+    Our machinery that gives the above multiplicity-free theorems is built on
+complex geometry, and we shall explicate the general theory for the line bun-
+dle case in Section 2. The key idea is to transfer properties on representations
+(e.g. unitarity, multiplicity-freeness) into the corresponding properties of re-
+producing kernels, which we analyze by geometric methods.
+
+1.6 Multiplicity-free restrictions — finite dimensional case
+
+Our method yields multiplicity-free theorems not only for infinite dimensional
+representations but also for finite dimensional representations.
+    This subsection presents multiplicity-free theorems that are regarded as
+‘finite dimensional version’ of Theorems A and C. They give a unified explana-
+tion of the multiplicity-free property of previously known branching formulae
+                           Multiplicity-free restrictions to symmetric pairs      9
+
+obtained by combinatorial methods such as the Littlewood–Richardson rule,
+Koike–Terada’s Young diagrammatic methods, Littelmann’s path method,
+minor summation formulae, etc. (see [25, 55, 62, 68, 73, 80] and references
+therein). They also contain some ‘new’ cases, for which there are, to the best
+of our knowledge, no explicit branching formulae in the literature.
+    To state the theorems, let gC be a complex simple Lie algebra, and j a Car-
+tan subalgebra. We fix a positive root system ∆+ (gC , j), and write α1 , . . . , αn
+for the simple roots. Let ω1 , . . . , ωn be the corresponding fundamental weights.
+We denote by πλ ≡ πλgC the irreducible finite dimensional representation of gC
+with highest weight λ.
+    We say πλ is of pan type if λ is a scalar multiple of some ωi such that the
+nilradical of the maximal parabolic subalgebra corresponding to αi is abelian
+(see Lemma 7.3.1 for equivalent definitions).
+
+Theorem E (multiplicity-free restriction — finite dimensional case). Let π
+be an arbitrary irreducible finite dimensional representation of gC of pan type,
+and (gC , hC ) be any symmetric pair. Then, the restriction π|hC is multiplicity-
+free.
+
+Theorem F (multiplicity-free tensor product — finite dimensional case). The
+tensor product π1 ⊗π2 of any two irreducible finite dimensional representations
+π1 and π2 of pan type is multiplicity-free.
+
+     Theorems E and F are the counterpart to Theorems A and C for finite
+dimensional representations. The main machinery of the proof is again Theo-
+rem 2.2.
+     Alternatively, one could verify Theorems E and F by a classical technique:
+finding an open orbit of a Borel subgroup. For example, Littelmann [61] and
+Panyushev independently classified the pair of maximal parabolic subalgebras
+(p1 , p2 ) such that the diagonal action of a Borel subgroup B of a complex
+simple Lie group GC on GC /P1 × GC /P2 has an open orbit. Here, P1 , P2 are
+the corresponding maximal parabolic subgroups of GC . This gives another
+proof of Theorem F.
+     The advantage of our method is that it enables us to understand (or even
+to discover) the multiplicity-free property simultaneously, for both infinite and
+finite dimensional representations, for both continuous and discrete spectra,
+and for both classical and exceptional cases by the single principle. This is
+because our main machinery (Theorem 2.2) uses only a local geometric as-
+sumption (see Remark 2.3.2 (2)). Thus, we can verify it at the same time for
+both compact and non-compact complex manifolds, and in turn get finite and
+infinite dimensional results, respectively.
+     Once we tell a priori that a representation is multiplicity-free, we may be
+tempted to find explicitly its irreducible decomposition. Recently, S. Okada
+[68] found explicit branching laws for some classical cases that arise in The-
+orems E and F by using minor summation formulae, and H. Alikawa [1] for
+(g, h) = (e6 , f4 ) corresponding to Theorem E. We note that the concept of pan
+10     Toshiyuki KOBAYASHI
+
+type representations includes rectangular-shaped representations of classical
+groups (see [58, 68]).
+    There are also some few cases where π1 ⊗π2 is multiplicity-free even though
+neither π1 nor π2 is of pan type. See the recent papers [46] or [81] for the
+complete list of such pairs (π1 , π2 ) for gC = gl(n, C). The method in [46] to
+find all such pairs is geometric and based on the ‘vector bundle version’ of
+Theorem 2.2 proved in [49], whereas the method in [81] is combinatorial and
+based on case-by-case argument.
+    We refer the reader to our papers [50, 51, 52] for some further results
+relevant to Theorems E and F along the same line of argument here.
+
+1.7 SL2 examples
+We illustrate the above theorems by SL2 examples.
+Example 1.7. 1) We denote by πn the holomorphic discrete series representa-
+tion of G = SL(2, R) with minimal K-type χn (n ≥ 2), where we write χn
+for the character of K = SO(2) parametrized by n ∈ Z. Likewise π−n denotes
+the anti-holomorphic discrete series representation of SL(2, R) with minimal
+K-type χ−n (n ≥ 2). We note that any holomorphic discrete series of SL(2, R)
+is of scalar type.
+    We write π ε√−1ν (ε = ±1, ν ∈ R) for the unitary principal series repre-
+                                                         ε        ε√
+sentations of SL(2, R). We have a unitary equivalence π√   −1ν
+                                                               ≃ π−  −1ν
+                                                                         . We
+write χζ for the unitary character of SO0 (1, 1) ≃ R parametrized by ζ ∈ R.
+    Let m ≥ n ≥ 2. Then, the following branching formulae hold. All of them
+are multiplicity-free, as is ‘predicted’ by Theorems A and C:
+                     Z ∞
+     πn |SO0 (1,1) ≃     χζ dζ ,                                   (1.7.1) (a)
+                    −∞
+                    X⊕
+      πn |SO(2) ≃         χn+2k ,                                      (1.7.1) (b)
+                    k∈N
+                    Z ∞                          X
+                           (−1)m−n
+      πm b
+        ⊗π−n ≃            π√−1ν      dν   ⊕                πm−n−2k ,   (1.7.1) (c)
+                    0                             k∈N
+                                              0≤2k≤m−n−2
+                    X⊕
+       πm b
+         ⊗πn ≃            πm+n+2k .                                    (1.7.1) (d)
+                    k∈N
+
+The key assumption of our main machinery (Theorem 2.2) that leads us to
+Theorems A and C is illustrated by the following geometric results in this SL2
+case:
+i)√ Given any element z in the Poincaré disk D, there exists ϕ ∈ R such that
+e −1ϕ z = z. In fact, one can take ϕ = −2 arg z. This is the geometry that
+explains the multiplicity-free property of (1.7.1) (b).
+ii) Given any two elements z, w ∈ D, there exists a linear fractional transform
+T on D such that T (z) = z and T (w) = w. This is the geometry for (1.7.1) (d).
+                          Multiplicity-free restrictions to symmetric pairs     11
+
+    These are examples of the geometric view point that we pursued in [50]
+for symmetric pairs.
+2) Here is a “finite dimensional version” of the above example. Let πn be
+the irreducible n + 1-dimensional representation of SU (2). Then we have the
+following branching formulae: For m, n ∈ N,
+       πn |SO(2) ≃ χn ⊕ χn−2 ⊕ · · · ⊕ χ−n ,                            (1.7.1) (e)
+
+       πm ⊗ πn ≃ πn+m ⊕ πn+m−2 ⊕ · · · ⊕ π|n−m| .                       (1.7.1) (f)
+
+The formula (1.7.1) (e) corresponds to the character formula, whereas (1.7.1) (f)
+is known as the Clebsch–Gordan formula. The multiplicity-free property of
+these formulae is the simplest example of Theorems E and F.
+
+1.8 Analysis on multiplicity-free representations
+
+Multiplicity-free property arouses our interest in developing beautiful anal-
+ysis on such representations, as we discussed in Subsection 1.6 for finite di-
+mensional cases. This subsection picks up some recent topics about detailed
+analysis on multiplicity-free representations for infinite dimensional cases.
+    Let G be a connected, simple non-compact Lie group of Hermitian type.
+We begin with branching laws without continuous spectra, and then discuss
+branching laws with continuous spectra.
+1) (Discretely decomposable case) Let (G, H) be a symmetric pair of holo-
+morphic type. Then, any unitary highest weight representation π of G decom-
+poses discretely when restricted to H (Fact 5.1).
+    1-a) Suppose now that π is a holomorphic discrete series representation.
+L.-K. Hua [26], B. Kostant, W. Schmid [78] and K. Johnson [32] found an
+explicit formula of the restriction π|K (K-type formula). This turns out to be
+multiplicity-free. Alternatively, the special case of Theorem B (2) by setting
+H = K gives a new proof of this multiplicity-free property.
+    1-b) Furthermore, we consider a generalization of the Hua–Kostant–
+Schmid formula from compact H to noncompact H, for which Theorem B
+(2) still ensures that the generalization will be multiplicity-free. This gener-
+alized formula is stated in Theorem 8.3, which was originally given in [39,
+Theorem C]. In Section 8, we give a full account of its proof. W. Bertram
+and J. Hilgert [7] obtained some special cases independently, and Ben Saı̈d
+[5] studied a quantative estimate of this multiplicity-free H-type formula (see
+also [90, 91] for some singular cases).
+    1-c) The branching formulae of the restriction of singular highest weight
+representations π are also interesting. For instance, the restriction of the
+Segal–Shale–Weil representation ̟ of M p(n, R) with respect to U (p, n − p)
+(more precisely, its double covering) decomposes discretely into a multiplicity-
+free sum of the so called ladder representations of U (p, n − p) (e.g. [33, In-
+troduction]). This multiplicity-free property is a special case of Howe’s corre-
+spondence because (U (p, n − p), U (1)) forms a dual pair in M p(n, R), and also
+12     Toshiyuki KOBAYASHI
+
+is a special case of Theorem A because (sp(n, R), u(p, n − p)) forms a symmet-
+ric pair. Explicit branching laws for most of classical cases corresponding to
+Theorems B (2) and D (2) (see Theorems 8.3, 8.4, 8.11) can be obtained by
+using the “see-saw dual pair”, which we hope to report in another paper.
+2) (Branching laws with continuous spectra) Suppose π1 is a highest weight
+module and π2 is a lowest weight module, and both being of scalar type.
+    2-a) If both π1 and π2 are discrete series representations in addition, then
+the tensor product π1 b  ⊗π2 is unitarily equivalent to the regular representa-
+tion on L2 (G/K, χ), the Hilbert space of L2 -sections of the G-equivalent line
+bundle G ×K Cχ → G/K associated to some unitary character χ of K (R.
+Howe [23], J. Repka [74]). In particular, Theorem C gives a new proof of
+the multiplicity-free property of the Plancherel formula for L2 (G/K, χ). Yet
+another proof of the multiplicity-free property of L2 (G/K, χ) was given in
+[47, Theorem 21] by still applying Theorem 2.2 to the crown domain (equiv-
+alently, the Akhiezer–Gindikin domain) of the Riemannian symmetric space
+G/K. The explicit decomposition of L2 (G/K, χ) was found by J. Heckman
+[20] and N. Shimeno [79] that generalizes the work of Harish-Chandra, S.
+Helgason, and S. Gindikin–F. Karpelevich for the trivial bundle case.
+    In contrast to Riemannian symmetric spaces, it is known that “multiplicity-
+free property” in the Plancherel formula fails for (non-Riemannian) symmetric
+spaces G/H in general (see [3, 8] for the description of the multiplicity of the
+most continuous series representations for G/H in terms of Weyl groups).
+    2-b) Similarly to the case 2-a), the restriction π|H for a symmetric pair
+(G, H) of non-holomorphic type is multiplicity-free and is decomposed into
+only continuous spectra if π is a holomorphic discrete series of scalar type.
+This case was studied by G. Ólafsson–B. Ørsted ([69]).
+    2-c) Theorem C applied to non-discrete series representations π1 and π2
+(i.e. tensor products of singular unitary highest weight representations) pro-
+vides new settings of multiplicity-free branching laws. They might be inter-
+esting from the view point of representation theory because they construct
+“small” representations as discrete summands. (We note that irreducible uni-
+tary representations of reductive Lie groups have not been classified even in
+the spherical case. See [4] for the split case.) They might be interesting also
+from the view point of spectral theory and harmonic analysis which is rele-
+vant to the canonical representation in the sense of Vershik–Gelfand–Graev.
+Once we know the branching law is a priori multiplicity-free, it is promising
+to obtain its explicit formula. Some special cases have been worked on in this
+direction so far, for G = SL(2, R) by V. F. Molchanov [64]; for G = SU (2, 2)
+by B. Ørsted and G. Zhang [70]; for G = SU (n, 1) by G. van Dijk and S. Hille
+[10]; for G = SU (p, q) by Y. Neretin and G. Ol’shanskiı̆ [66, 67]. See also G.
+van Dijk–M. Pevzner [11], M. Pevzner [72] and G. Zhang [92]. Their results
+show that a different family of irreducible unitary representations (sometimes,
+spherical complementary series representations) can occur in the same branch-
+ing laws and each multiplicity is not greater than one.
+                          Multiplicity-free restrictions to symmetric pairs   13
+
+1.9 Organization of this article
+
+This paper is organized as follows: In Section 2, we give a proof of an abstract
+multiplicity-free theorem (Theorem 2.2) in the line bundle setting. This is an
+extension of a theorem of Faraut–Thomas [15], whose idea may go back to
+Gelfand’s proof [17] of the commutativity of the Hecke algebra L1 (K\G/K).
+Theorem 2.2 is a main method in this article to find various multiplicity-free
+theorems. In Section 3, we use Theorem 2.2 to give a proof of Theorem A. The
+key idea is the reduction of the geometric condition (2.2.3) (strongly visible
+action in the sense of [47]) to the existence problem of a “nice” involutive
+automorphism σ of G satisfying a certain rank condition. Section 4 considers
+the multiplicity-free theorem for the tensor product representations of two ir-
+reducible highest (or lowest) weight modules and gives a proof of Theorem C.
+Sections 5 and 6 examine our assumptions in our multiplicity-free theorems
+(Theorems A and C). That is, we drop the assumption of ‘scalar type’ in
+Section 5 and prove that multiplicities are still uniformly bounded (Theo-
+rems B and D). We note that multiplicities can be greater than one in this
+generality. In Section 6, we leave unchanged the assumption that (G, H) is a
+symmetric pair, and relax the assumption that π is a highest weight module.
+We illustrate by examples a wild behavior of multiplicities without this as-
+sumption. In Section 7, analogous results of Theorems A and C are proved for
+finite dimensional representations of compact groups. In Section 8, we present
+explicit branching laws that are assured a priori to be multiplicity-free by The-
+orems A and C. Theorem 8.4 generalizes the Hua–Kostant–Schmid formula.
+In Section 9 (Appendix) we present some basic results on homogeneous line
+bundles for the convenience of the reader, which give a sufficient condition for
+the assumption (2.2.2) in Theorem 2.2.
+
+
+2 Main machinery from complex geometry
+
+J. Faraut and E. Thomas [15], in the case of trivial twisting parameter, gave
+a sufficient condition for the commutativity of EndH (H) by using the theory
+of reproducing kernels, which we extend to the general, twisted case in this
+preliminary section. The proof parallels to theirs, except that we need just
+find an additional condition (2.2.2) when we formalize Theorem 2.2 in the
+line bundle setting.
+
+2.1 Basic operations on holomorphic line bundles
+
+Let L → D be a holomorphic line bundle over a complex manifold D. We
+denote by O(L) ≡ O(D, L) the space of holomorphic sections of L → D. Then
+O(L) carries a Fréchet topology by the uniform convergence on compact sets.
+If a Lie group H acts holomorphically and equivariantly on the holomorphic
+14      Toshiyuki KOBAYASHI
+
+line bundle L → D, then H defines a (continuous) representation on O(L) by
+the pull-back of sections.
+     Let {Uα } be trivializing neighborhoods of D, and gαβ ∈ O× (Uα ∩ Uβ ) the
+transition functions of the holomorphic line bundle L → D. Then an anti-
+holomorphic line bundle L → D is a complex line bundle with the transition
+functions gαβ . We denote by O(L) the space of anti-holomorphic sections for
+L → D.
+     Suppose σ is an anti-holomorphic diffeomorphism of D. Then the pull-back
+σ ∗ L → D is an anti-holomorphic line bundle over D. In turn, σ ∗ L → D is a
+holomorphic line bundle over D (see Appendix for more details).
+
+2.2 Abstract multiplicity-free theorem
+
+Here is the main machinery to prove various multiplicity-free theorems of
+branching laws including Theorems A and C (infinite dimensional represen-
+tations) and Theorems E and F (finite dimensional representations).
+
+Theorem 2.2. Let (π, H) be a unitary representation of a Lie group H. As-
+sume that there exist an H-equivariant holomorphic line bundle L → D and
+an anti-holomorphic involutive diffeomorphism σ of D with the following three
+conditions:
+(2.2.1) There is an injective (continuous) H-intertwining map H → O(L).
+(2.2.2) There exists an isomorphism of H-equivariant holomorphic line bun-
+            ∼
+dles Ψ : L → σ ∗ L.
+(2.2.3) Given x ∈ D, there exists g ∈ H such that σ(x) = g · x.
+    Then, the ring EndH (H) of continuous H-intertwining operators on H is
+commutative. Consequently, (π, H) is multiplicity-free (see Definition 1.1).
+
+2.3 Remarks on Theorem 2.2
+
+This subsection gives brief comments on Theorem 2.2. First, we consider a
+special case, and also a generalization.
+
+Remark 2.3.1 (specialization and generalization). 1) Suppose L → D is the
+trivial line bundle. Then, the condition (2.2.2) is automatically satisfied. In
+this case, Theorem 2.2 was proved in [15].
+2) An extension of Theorem 2.2 to the equivariant vector bundle V → D
+is the main subject of [49], where a more general multiplicity-free theorem
+is obtained under an additional condition that the isotropy representation of
+Hx = {h ∈ H : h · x = x} on the fiber Vx is multiplicity-free for generic x ∈ D.
+Obviously, the Hx -action on Vx is multiplicity-free for the case dim Vx = 1,
+namely, for the line bundle case.
+
+     Next, we examine the conditions (2.2.2) and (2.2.3).
+                          Multiplicity-free restrictions to symmetric pairs   15
+
+Remark 2.3.2. 1) In many cases, the condition (2.2.2) is naturally satisfied.
+We shall explicate how to construct the bundle isomorphism Ψ in Lemma 9.4
+for a Hermitian symmetric space D.
+2) As the proof below shows, Theorem 2.2 still holds if we replace D by an
+H-invariant open subset D′ . Thus, the condition (2.2.3) is local. The concept
+of ‘visible action’ (see [46, 49, 51]) arises from the condition (2.2.3) on the
+base space D.
+3) The condition (2.2.3) is automatically satisfied if H acts transitively on
+D. But we are interested in a more general setting where each H-orbit has
+a positive codimension in D. We find in Lemma 3.3 a sufficient condition for
+(2.2.3) in terms of rank condition for a symmetric space D.
+
+2.4 Reproducing kernel
+
+This subsection gives a quick summary for the reproducing kernel of a Hilbert
+space H realized in the space O(L) of holomorphic sections for a holomorphic
+line bundle L (see [49] for a generalization to the vector bundle case). Since
+the reproducing kernel KH contains all the information on the Hilbert space
+H, our strategy is to make use of KH in order to prove Theorem 2.2.
+    Suppose that there is an injective and continuous map for a Hilbert space
+H into the Fréchet space O(L). Then, the point evaluation map
+
+                     O(L) ⊃ H → Lz ≃ C ,         f 7→ f (z)
+
+is continuous with respect to the Hilbert topology on H.
+    Let {ϕν } be an orthonormal basis of H. We define
+                                   X
+            KH (x, y) ≡ K(x, y) :=    ϕν (x)ϕν (y) ∈ O(L) b
+                                                         ⊗O(L) .
+                                     ν
+
+Then, K(x, y) is well-defined as a holomorphic section of L → D for the
+first variable, and as an anti-holomorphic section of L → D for the second
+variable. The definition is independent of the choice of an orthonormal basis
+{ϕν }. K(x, y) is called the reproducing kernel of H.
+Lemma 2.4. 1) For each y ∈ D, K(·, y) ∈ H⊗Ly (≃ H) and (f (·), K(·, y))H =
+f (y) for any f ∈ H.
+2) Let Ki (x, y) be the reproducing kernels of Hilbert spaces Hi ⊂ O(L) with
+inner products ( , )Hi , respectively, for i = 1, 2. If K1 ≡ K2 , then H1 = H2
+and ( , )H1 = ( , )H2 .
+3) If K1 (x, x) = K2 (x, x) for any x ∈ D, then K1 ≡ K2 .
+Proof. (1) and (2) are standard. We review only the way how to recover H
+together with its inner product from a given reproducing kernel. For each
+y ∈ D, we fix an isomorphism Ly ≃ C. Through this isomorphism, we can
+regard K(·, y) ∈ H ⊗ Ly as an element of H. The Hilbert space H is the
+completion of the C-span of {K(·, y) : y ∈ D} with pre-Hilbert structure
+16     Toshiyuki KOBAYASHI
+
+        (K(·, y1 ), K(·, y2 ))H := K(y2 , y1 ) ∈ Ly2 ⊗ Ly1 (≃ C) .             (2.4.1)
+
+This procedure is independent of the choice of the isomorphism Ly ≃ C.
+Hence, the Hilbert space H together with its inner product is recovered.
+3) We denote by D the complex manifold endowed with the conjugate
+complex structure on D. Then, L → D is a holomorphic line bundle, and
+K(·, ·) ≡ KH (·, ·) is a holomorphic section of the holomorphic line bundle
+L ⊠ L → D × D. As the diagonal embedding ι : D → D × D, z 7→ (z, z) is
+totally real, (K1 − K2 )|ι(D) ≡ 0 implies K1 − K2 ≡ 0 by the unicity theorem
+of holomorphic functions. ⊓   ⊔
+
+2.5 Construction of J
+
+Suppose we are in the setting of Theorem 2.2. We define an anti-linear map
+
+                            J : O(L) → O(L) ,         f 7→ Jf
+
+by Jf (z) := f (σ(z)) (z ∈ D). Jf is regarded as an element of O(L) through
+the isomorphism Ψ∗ : O(L) ≃ O(σ ∗ L) (see (2.2.2)).
+
+Lemma 2.5. In the setting of Theorem 2.2, we identify H with a subspace of
+O(L). Then, the anti-linear map J is an isometry from H onto H.
+              e := J(H), equipped with the inner product
+Proof. We put H
+
+                     (Jf1 , Jf2 )He := (f2 , f1 )H   for f1 , f2 ∈ H .         (2.5.1)
+
+                                            e is a Hilbert space with or-
+If {ϕν } is an orthonormal basis of H, then H
+thonormal basis {Jϕν }. Hence, the reproducing kernel of H e is given by
+KHe (x, y) = KH (σ(y), σ(x)) because
+                X                       X
+ KHe (x, y) =       Jϕν (x)Jϕν (y) =          ϕν (σ(x)) ϕν (σ(y)) = KH (σ(y), σ(x)) .
+                ν                         ν
+                                                                               (2.5.2)
+
+We fix x ∈ D and take g ∈ H such that σ(x) = g · x (see (2.2.3)). Substituting
+x for y in (2.5.2), we have
+
+         KHe (x, x) = KH (σ(x), σ(x)) = KH (g · x, g · x) = KH (x, x) .
+
+Here, the last equality holds because {ϕν (g · )} is also an orthonormal basis
+of H as (π, H) is a unitary representation of H. Then, by Lemma 2.4, the
+Hilbert space He coincides with H and
+
+                     (Jf1 , Jf2 )H = (f2 , f1 )H     for f1 , f2 ∈ H .         (2.5.3)
+
+This is what we wanted to prove. ⊓
+                                 ⊔
+                           Multiplicity-free restrictions to symmetric pairs         17
+
+2.6 Proof of A∗ = JAJ −1
+Lemma 2.6 (see [15]). Suppose A ∈ EndH (H). Then the adjoint operator A∗
+of A is given by
+                                  A∗ = JAJ −1 .                                (2.6.1)
+Proof. We divide the proof into three steps.
+Step 1 (positive self-adjoint case): Assume A ∈ EndH (H) is a positive self-
+adjoint operator. Let HA be the Hilbert completion of H by the pre-Hilbert
+structure
+                   (f1 , f2 )HA := (Af1 , f2 )H   for f1 , f2 ∈ H .            (2.6.2)
+If f1 , f2 ∈ H and g ∈ H, then
+    (π(g)f1 , π(g)f2 )HA = (Aπ(g)f1 , π(g)f2 )H
+                         = (π(g)Af1 , π(g)f2 )H = (Af1 , f2 )H = (f1 , f2 )HA .
+Therefore, (π, H) extends to a unitary representation on HA . Applying (2.5.3)
+to both HA and H, we have
+
+  (Af1 , f2 )H = (f1 , f2 )HA = (Jf2 , Jf1 )HA = (AJf2 , Jf1 )H
+              = (Jf2 , A∗ Jf1 )H = (Jf2 , JJ −1 A∗ Jf1 )H = (J −1 A∗ Jf1 , f2 )H .
+Hence, A = J −1 A∗ J, and (2.6.1) follows.
+Step 2 (self-adjoint
+         R           case): Assume A ∈ EndH (H) is a self-adjoint operator.
+Let A = λdEλ be the spectral decomposition of A. Then every projection
+operator Eλ ∈ End(H) also commutes with π(g) for all g ∈ H, namely,
+Eλ ∈ EndH (H). We define
+                         Z                      Z
+                  A+ :=       λdEλ ,      A− :=   λdEλ .
+                           λ≥0                         λ<0
+
+Then A = A+ + A− . Let I be the identity operator on H. As a positive self-
+adjoint operator A+ + I is an element of EndH (H), we have (A+ + I)∗ =
+J(A+ + I)J −1 by Step 1, whence A∗+ = JA+ J −1 . Applying Step 1 again to
+−A− , we have A∗− = JA− J −1 . Thus,
+   A∗ = A∗+ + A∗− = JA+ J −1 + JA− J −1 = J(A+ + A− )J −1 = JAJ −1 .
+Step 3 (general case): Suppose A ∈ EndH (H). Then A∗ also commutes with
+π(g) (g ∈ H) because π is unitary. We put B := 12 (A + A∗ ) and C :=
+√
+  −1   ∗
+  2 (A − A). Then, both B and C are self-adjoint operators commuting with
+π(g) (g ∈ H). It follows from Step 2 that B ∗ = JBJ −1 and C ∗ = JCJ −1 . As
+J is an anti-linear map, we have
+          √              √           √                √
+         ( −1 C)∗ = − −1 C ∗ = − −1 JCJ −1 = J( −1 C)J −1 .
+                  √
+Hence, A = B + −1 C also satisfies A∗ = JAJ −1 . ⊓   ⊔
+18     Toshiyuki KOBAYASHI
+
+2.7 Proof of Theorem 2.2
+
+We are now ready to complete the proof of Theorem 2.2. Let A, B ∈ EndH (H).
+By Lemma 2.6, we have
+
+              AB = J −1 (AB)∗ J = (J −1 B ∗ J)(J −1 A∗ J) = BA .
+
+Therefore, EndH (H) is commutative. ⊓
+                                    ⊔
+
+
+3 Proof of Theorem A
+This section gives a proof of Theorem A by using Theorem 2.2. The core of the
+proof is to reduce the geometric condition (2.2.3) to an algebraic condition
+(the existence of a certain involution of the Lie algebra). This reduction is
+stated in Lemma 3.3. The reader who is familiar with symmetric pairs can
+skip Subsections 3.1, 3.2, 3.4 and 3.5.
+
+3.1 Reductive symmetric pairs
+
+Let G be a Lie group. Suppose that τ is an involutive automorphism of G.
+We write
+                         Gτ := {g ∈ G : τ g = g}
+for the fixed point subgroup of τ , and denote by Gτ0 its connected component
+containing the unit element. The pair (G, H) (or the pair (g, h) of their Lie
+algebras) is called a symmetric pair if the subgroup H is an open subgroup
+of Gτ , that is, if H satisfies
+
+                                Gτ0 ⊂ H ⊂ Gτ .
+
+It is called a reductive symmetric pair if G is a reductive Lie group; a semisim-
+ple symmetric pair if G is a semisimple Lie group. Obviously, a semisimple
+symmetric pair is a reductive symmetric pair.
+     We shall use the same letter τ to denote the differential of τ . We set
+
+                         g±τ := {Y ∈ g : τ Y = ±Y } .
+
+Then, it follows from τ 2 = id that we have a direct sum decomposition
+
+                                 g = gτ ⊕ g−τ .
+
+    Suppose now that G is a semisimple Lie group. It is known that there
+exists a Cartan involution θ of G commuting with τ . Take such θ, and we
+write K := Gθ = {g ∈ G : θg = g}. Then, K is compact if G is a linear Lie
+group. The direct sum decomposition
+
+                             g = k ⊕ p ≡ gθ ⊕ g−θ
+                             Multiplicity-free restrictions to symmetric pairs       19
+
+is called a Cartan decomposition. Later, we shall allow G to be non-linear,
+in particular, K is not necessarily compact. The real rank of g, denoted by
+R- rank g, is defined to be the dimension of a maximal abelian subspace of
+g−θ .
+    As (τ θ)2 = id, the pair (g, gτ θ ) also forms a symmetric pair. The Lie group
+                         Gτ θ = {g ∈ G : (τ θ)(g) = g}
+is a reductive Lie group with Cartan involution θ|Gτ θ , and its Lie algebra gτ θ
+is reductive with Cartan decomposition
+                     gτ θ = gτ θ,θ ⊕ gτ θ,−θ = gτ,θ ⊕ g−τ,−θ .                   (3.1.1)
+Here, we have used the notation g−τ,−θ and alike, defined as follows:
+                  g−τ,−θ := {Y ∈ g : (−τ )Y = (−θ)Y = Y } .
+Then, the dimension of a maximal abelian subspace a of g−τ,−θ is equal to
+the real rank of gτ θ , which is referred to as the split rank of the semisimple
+symmetric space G/H. We shall write R- rank G/H or R- rank g/gτ for this
+dimension. Thus,
+                          R- rank gθτ = R- rank g/gτ .                           (3.1.2)
+In particular, we have R- rank g = R- rank g/k if we take τ to be θ.
+   The Killing form on the Lie algebra g is non-degenerate on g, and is also
+non-degenerate when restricted to h. Then, it induces an Ad(H)-invariant
+non-degenerate bilinear form on g/h, and therefore a G-invariant pseudo-
+Riemannian structure on the homogeneous space G/H, so that G/H becomes
+a symmetric space with respect to the Levi–Civita connection and is called
+a semisimple symmetric space. In this context, the subspace a has the fol-
+lowing geometric meaning: Let A := exp(a), the connected abelian subgroup
+of G with Lie algebra a. Then, the orbit A · o through o := eH ∈ G/H be-
+comes a flat, totally geodesic submanifold in G/H. Furthermore, we have a
+(generalized) Cartan decomposition:
+Fact 3.1 (see [16, Section 2]). G = KAH.
+Sketch of Proof. The direct sum decomposition of the Lie algebra
+                              g = k ⊕ g−τ,−θ ⊕ gτ,−θ
+lifts to a diffeomorphism:
+                                   ∼
+                g−τ,−θ + gτ,−θ → K\G ,          (X, Y ) 7→ KeX eY .
+Since exp(gτ,−θ ) ⊂ H, the decomposition G = KAH follows if we show
+                              Ad(H ∩ K)a = g−τ,−θ .                              (3.1.3)
+The equation (3.1.3) is well-known as the key ingredient of the original Cartan
+decomposition Gτ θ = K τ AK τ in light of (3.1.1). ⊓⊔
+20     Toshiyuki KOBAYASHI
+
+    Furthermore, suppose that σ is an involutive automorphism of G such that
+σ, τ and θ commute with one another. We set
+
+                 Gσ,τ := Gσ ∩ Gτ = {g ∈ G : σg = τ g = g} .
+
+Then (Gσ , Gσ,τ ) forms a reductive symmetric pair, because σ and τ commute.
+The commutativity of σ and θ implies that the automorphism σ : G → G
+stabilizes K and induces a diffeomorphism of G/K, for which we use the
+same letter σ.
+
+3.2 Examples of symmetric pairs
+
+This subsection presents some basic examples of semisimple (and therefore,
+reductive) symmetric pairs.
+
+Example 3.2.1 (group manifold). Let G′ be a semisimple Lie group, and G :=
+G′ × G′ . We define an involutive automorphism τ of G by τ (x, y) := (y, x).
+Then, Gτ = {(g, g) : g ∈ G′ } is the diagonal subgroup, denoted by diag(G′ ),
+which is isomorphic to G′ . Thus, (G′ × G′ , diag(G′ )) forms a semisimple sym-
+metric pair.
+   We set
+                            z                         
+                                  1      p
+                               
+                               
+                               
+                                }|
+                                    ..
+                                    {  .          0    
+                                                       
+                                                       
+                                         1            
+                               
+                       Ip,q :=                        
+                                           −1       q 
+                                         z
+                                                      
+                               
+                                    0      }|
+                                              ..
+                                                 .{
+                                                       
+                                                       
+                                                   −1
+                                                 
+
+                         J := 
+                                   0       In 
+                                                  
+                                  −In         0
+Example 3.2.2. Let G = SL(n, C), and fix p, q such that p + q = n. Then,
+
+                         τ (g) := Ip,q g ∗ Ip,q   (g ∈ G)
+
+defines an involutive automorphism of G, and Gτ = SU (p, q) (the indefi-
+nite unitary group). Thus, (SL(n, C), SU (p, q)) forms a semisimple symmetric
+pair.
+
+Example 3.2.3. Let G = SL(n, C), and σ(g) := g. Then σ is an involutive
+automorphism of G, and Gσ = SL(n, R). We note that σ commutes with the
+involution τ in the previous example, and
+                           Multiplicity-free restrictions to symmetric pairs       21
+
+
+                  Gσ,τ = {g ∈ SL(n, C) : g = g = Ip,q t g Ip,q }
+
+
+                       = SO(p, q) .
+
+Thus, (SL(n, C), SL(n, R)), (SU (p, q), SO(p, q)), (SL(n, R), SO(p, q)) are ex-
+amples of semisimple symmetric pairs.
+
+Example 3.2.4. Let G := SL(2n, R), and τ (g) := J t g −1 J −1 . Then, Gτ =
+Sp(n, R) (the real symplectic group). Thus, (SL(2n, R), Sp(n, R)) forms a
+semisimple symmetric pair.
+
+3.3 Reduction of visibility to real rank condition
+
+The following lemma gives a sufficient condition for (2.2.3). Then, it plays
+a key role when we apply Theorem 2.2 to the branching problem for the
+restriction from G to Gτ (with the notation of Theorem 2.2, D = G/K and
+H = Gτ0 ). This lemma is also used in reducing ‘visibility’ of an action to an
+algebraic condition ([50, Lemma 2.2]).
+
+Lemma 3.3. Let σ and τ be involutive automorphisms of G. We assume that
+the pair (σ, τ ) satisfies the following two conditions:
+(3.3.1) σ, τ and θ commute with one another.
+(3.3.2) R- rank gτ θ = R- rank gσ,τ θ .
+    Then for any x ∈ G/K, there exists g ∈ Gτ0 such that σ(x) = g · x.
+
+Proof. It follows from the condition (3.3.1) that θ|Gσ is a Cartan involution
+of a reductive Lie group Gσ and that τ |Gσ is an involutive automorphism of
+Gσ commuting with θ|Gσ . Take a maximal abelian subspace a in
+
+               g−θ,σ,τ θ := {Y ∈ g : (−θ)Y = σY = τ θY = Y } .
+
+From definition, we have dim a = R- rank gσ,τ θ , which in turn equals R- rank gτ θ
+by the condition (3.3.2). This means that a is also a maximal abelian subspace
+in
+                   g−θ,τ θ = {Y ∈ g : (−θ)Y = τ θY = Y } .
+Let A = exp(a). Then it follows from Fact 3.1 that we have a generalized
+Cartan decomposition
+
+                                  G = Gτ0 AK .                                 (3.3.3)
+
+Let o := eK ∈ G/K. Fix x ∈ G/K. Then, according to the decomposition
+(3.3.3), we find h ∈ Gτ0 and a ∈ A such that
+
+                                   x = ha · o .
+22      Toshiyuki KOBAYASHI
+
+We set g := σ(h) h−1 . We claim g ∈ Gτ0 . In fact, by using στ = τ σ and
+τ h = h, we have
+
+            τ (g) = τ σ(h) τ (h−1 ) = στ (h) τ (h)−1 = σ(h) h−1 = g .
+
+Hence, g ∈ Gτ . Moreover, since the image of the continuous map
+
+                           Gτ0 → G ,    h 7→ σ(h) h−1
+
+is connected, we have g ∈ Gτ0 .
+    On the other hand, we have σ(a) = a because a ⊂ g−θ,σ,−τ ⊂ gσ . Therefore
+we have
+                σ(x) = σ(h) σ(a) · o = σ(h) h−1 ha · o = g · x ,
+proving the lemma. ⊓
+                   ⊔
+
+3.4 Hermitian Symmetric Space G/K
+
+Throughout the rest of this section, we assume that G is a simple, non-
+compact, Lie group of Hermitian type. We retain the notation of Subsec-
+tion 1.3.
+    Let GC be a connected complex Lie group with Lie algebra gC , and Q− the
+maximal parabolic subgroup of GC with Lie algebra kC + p− . Then we have
+an open embedding G/K ֒→ GC /Q− because gC = g + (kC + p− ). Thus, a
+G-invariant complex structure on G/K is induced from GC /Q− . (We remark
+that the embedding G/K ֒→ GC /Q− is well-defined, even though G is not
+necessarily a subgroup of GC .)
+    Suppose τ is an involutive automorphism of G commuting with θ. We
+recall from Subsection 1.4 that we have either
+
+                      τZ = Z       (holomorphic type),                      (1.4.1)
+
+or
+
+                      τ Z = −Z     (anti-holomorphic type).                 (1.4.2)
+
+Here is the classification of semisimple symmetric pairs (g, gτ ) with g simple
+such that the pair (g, gτ ) satisfies the condition (1.4.1) (respectively, (1.4.2)).
+Table 3.4.2 is equivalent to the classification of totally real symmetric spaces
+Gτ /K τ of the Hermitian symmetric space G/K (see [14, 27, 28, 35]).
+         Multiplicity-free restrictions to symmetric pairs   23
+
+                Table 3.4.1.
+
+
+       (g, gτ ) is of holomorphic type
+   g                      gτ
+su(p, q)            s(u(i, j) + u(p − i, q − j))
+su(n, n)                   so∗ (2n)
+su(n, n)                     sp(n, R)
+so∗ (2n)             so∗ (2p) + so∗ (2n − 2p)
+so∗ (2n)                   u(p, n − p)
+so(2, n)             so(2, p) + so(n − p)
+so(2, 2n)                  u(1, n)
+sp(n, R)                   u(p, n − p)
+sp(n, R)            sp(p, R) + sp(n − p, R)
+ e6(−14)              so(10) + so(2)
+ e6(−14)             so∗ (10) + so(2)
+ e6(−14)             so(8, 2) + so(2)
+ e6(−14)            su(5, 1) + sl(2, R)
+ e6(−14)             su(4, 2) + su(2)
+ e7(−25)              e6(−78) + so(2)
+ e7(−25)              e6(−14) + so(2)
+ e7(−25)           so(10, 2) + sl(2, R)
+ e7(−25)             so∗ (12) + su(2)
+ e7(−25)                  su(6, 2)
+24     Toshiyuki KOBAYASHI
+
+                                  Table 3.4.2.
+
+
+                      (g, gτ ) is of anti-holomorphic type
+                      g                       gτ
+                    su(p, q)                 so(p, q)
+                    su(n, n)            sl(n, C) + R
+                   su(2p, 2q)                sp(p, q)
+                    so∗ (2n)                 so(n, C)
+                    so∗ (4n)            su∗ (2n) + R
+                    so(2, n)            so(1, p) + so(1, n − p)
+                    sp(n, R)                  gl(n, R)
+                   sp(2n, R)                 sp(n, C)
+                    e6(−14)                   f4(−20)
+                    e6(−14)                  sp(2, 2)
+                    e7(−25)              e6(−26) + so(1, 1)
+                    e7(−25)                     su∗ (8)
+
+
+
+
+3.5 Holomorphic realization of highest weight representations
+
+It is well-known that an irreducible highest weight representation π of G can
+be realized as a subrepresentation of the space of global holomorphic sections
+of an equivariant holomorphic vector bundle over the Hermitian symmetric
+space G/K. We supply a proof here for the convenience of the reader in a way
+that we shall use later.
+Lemma 3.5. Let (π, H) be an irreducible unitary highest weight module. We
+                                               p
+write χ for the representation of K on U := HK+ (see Definition 1.3). Let L :=
+G ×K U → G/K be the G-equivariant holomorphic vector bundle associated to
+χ. Then, there is a natural injective continuous G-homomorphism H → O(L).
+Proof. Let ( , )H be a G-invariant inner product on H. We write ( , )U for the
+induced inner product on U . Then, K acts unitarily on H, and in particular
+on U . We consider the map
+
+         G × H × U → C , (g, v, u) 7→ (π(g)−1 v, u)H = (v, π(g)u)H .
+
+For each fixed g ∈ G and v ∈ H, the map U → C, u 7→ (π(g)−1 v, u)H is an
+anti-linear functional on U . Then there exists a unique element Fv (g) ∈ U by
+the Riesz representation theorem for the finite dimensional Hilbert space U
+such that
+                 (Fv (g), u)U = (π(g)−1 v, u)H for any u ∈ U .
+                                                                             −1
+Then it is readily seen that Fv (gk) = χ(k)−1 Fv (g) and Fπ(g′ )v (g) = Fv (g ′ g)
+for any g, g ′ ∈ G, k ∈ K and v ∈ H. As u is a smooth vector in H,
+                          Multiplicity-free restrictions to symmetric pairs   25
+
+(Fv (g), u)U = (v, π(g)u)H is a C ∞ -function on G. Then Fv (g) is a C ∞ -
+function on G with value in U for each fixed v ∈ H. Thus, we have a non-zero
+G-intertwining operator given by
+
+                     F : H → C ∞ (G ×K U ) ,       v 7→ Fv .
+
+As U is annihilated by p+ , Fv is a holomorphic section of the holomorphic
+vector bundle G ×K U → G/K, that is, Fv ∈ O(G ×K U ). Then, the non-zero
+map F : H → O(G ×K U ) is injective because H is irreducible. Furthermore,
+F is continuous by the closed graph theorem. Hence, Lemma 3.6 is proved.
+⊓
+⊔
+
+3.6 Reduction to real rank condition
+
+The next Lemma is a stepping-stone to Theorem A. It becomes also a key
+lemma to the theorem that the action of a subgroup H on the bounded sym-
+metric domain G/K is ‘strongly visible’ for any symmetric pair (G, H) (see
+[50]).
+
+Lemma 3.6. Suppose g is a real simple Lie algebra of Hermitian type. Let τ be
+an involutive automorphism of g, commuting with a fixed Cartan involution θ.
+Then there exists an involutive automorphism σ of g satisfying the following
+three conditions:
+(3.6.1) σ, τ and θ commute with one another.
+(3.6.2) R- rank gτ θ = R- rank gσ,τ θ .
+(3.6.3) σZ = −Z.
+
+Proof. We shall give a proof in the special case τ = θ in Subsection 4.1. For
+the general case, see [50, Lemma 3.1] or [44, Lemma 5.1]. ⊓ ⊔
+
+3.7 Proof of Theorem A
+
+Now, we are ready to complete the proof of Theorem A.
+    Without loss of generality, we may and do assume that G is simply con-
+nected. Let (π, H) be an irreducible unitary highest weight representation of
+                                                                   p
+scalar type. We define a holomorphic line bundle by L := G ×K HK+ over the
+Hermitian symmetric space D := G/K. Then, it follows from Lemma 3.5 that
+there is an injective continuous G-intertwining map H → O(L).
+    Suppose (G, H) is a symmetric pair. We first note that for an involutive
+automorphism τ of G, there exists g ∈ G such that τ g θ = θτ g if we set
+
+                           τ g (x) := gτ (g −1 xg)g −1
+
+for x ∈ G. Then, Gτg = gHg −1 is θ-stable. Since the multiplicity-free property
+of the restriction π|H is unchanged if we replace H by gHg −1 , we may and
+do assume that θH = H, in other words, θτ = τ θ.
+26     Toshiyuki KOBAYASHI
+
+     Now, by applying Lemma 3.6, we can take σ satisfying (3.6.1), (3.6.2)
+and (3.6.3). We use the same letter σ to denote its lift to G. It follows from
+(3.6.3) that the induced involutive diffeomorphism σ : G/K → G/K is anti-
+holomorphic (see Subsection 1.4). In light of the conditions (3.6.1) and (3.6.2),
+we can apply Lemma 3.3 to see that for any x ∈ D there exists g ∈ H such
+that σ(x) = g · x.
+     Moreover, by using Lemma 9.4 in the Appendix, we have an isomorphism
+σ ∗ L ≃ L as G-equivariant holomorphic line bundles over G/K. Therefore,
+all the assumptions of Theorem 2.2 are satisfied. Thus, we conclude that the
+restriction π|H is multiplicity-free by Theorem 2.2. ⊓ ⊔
+
+
+4 Proof of Theorem C
+
+In this section we give a proof of Theorem C.
+    Throughout this section, we may and do assume that G is simply connected
+so that any automorphism of g lifts to G. We divide the proof of Theorem C
+into the following cases:
+Case I. Both π1 and π2 are highest weight modules.
+Case I′ . Both π1 and π2 are lowest weight modules.
+Case II. π1 is a highest weight module, and π2 is a lowest weight module.
+Case II′ . π1 is a lowest weight module, and π2 is a highest weight module.
+
+4.1 Reduction to real rank condition
+
+The following lemma is a special case of Lemma 3.6 with τ = θ. We shall see
+that Theorem C in Case I (likewise, Case I′ ) reduces to this algebraic result.
+
+Lemma 4.1.1. Suppose g is a real simple Lie algebra of Hermitian type. Let
+θ be a Cartan involution. Then there exists an involutive automorphism σ of
+g satisfying the following three conditions:
+(4.1.1) σ and θ commute.
+(4.1.2) R- rank g = R- rank gσ .
+(4.1.3) σZ = −Z.
+
+Proof. We give a proof of the Lemma based on the classification of simple Lie
+algebras g of Hermitian type.
+    We recall that for any involutive automorphism σ of G, there exists g ∈ G
+such that σ g θ = θσ g . Thus, (4.1.1) is always satisfied after replacing σ by
+some σ g . The remaining conditions (4.1.2) and (4.1.3) (cf. Table 3.4.2) are
+satisfied if we choose σ ∈ Aut(G) in the following Table 4.1.2 for each simple
+non-compact Lie group G of Hermitian type:
+                              Multiplicity-free restrictions to symmetric pairs   27
+
+                                     Table 4.1.2.
+
+
+                      (g, gσ ) satisfying (4.1.2) and (4.1.3)
+           g                  gσ                  R- rank g = R- rank gσ
+         su(p, q)          so(p, q)                    min(p, q)
+         so∗ (2n)          so(n, C)                     [ 21 n]
+         sp(n, R)          gl(n, R)                       n
+         so(2, n)     so(1, n − 1) + so(1, 1)          min(2, n)
+         e6(−14)            sp(2, 2)                       2
+         e7(−25)            su∗ (8)                        3
+
+
+
+
+Here, we have proved Lemma. ⊓
+                            ⊔
+
+Remark 4.1.3. The choice of σ in Lemma 4.1.1 is not unique. For example,
+we may choose gσ ≃ e6(−26) ⊕ R instead of the above choice gσ ≃ su∗ (8) for
+g = e7(−25) .
+
+4.2 Proof of Theorem C in Case I
+
+Let G be a non-compact simply-connected, simple Lie group such that G/K
+is a Hermitian symmetric space.
+    Let (π1 , H1 ) and (π2 , H2 ) be two irreducible unitary highest weight rep-
+resentations of scalar type. By Lemma 3.5, we can realize (πi , Hi ) in the
+space O(Li ) of holomorphic sections of the holomorphic line bundle Li :=
+               p
+G ×K (Hi )K+ (i = 1, 2) over the Hermitian symmetric space G/K. We now
+define a holomorphic line bundle L := L1 ⊠ L2 over D := G/K × G/K as
+the outer tensor product of L1 and L2 . Then, we have naturally an injective
+continuous (G × G)-intertwining map H1 ⊗H     b 2 → O(L).
+    Let us take an involution σ of g as in Lemma 4.1.1 (but we use the letter σ ′
+                                   ′
+
+instead of σ), and lift it to G. We set σ := σ ′ × σ ′ . Then it follows from (4.1.3)
+that σ ′ acts anti-holomorphically on G/K, and so does σ on D. Furthermore,
+we have isomorphisms of holomorphic line bundles (σ ′ )∗ Li ≃ Li (i = 1, 2) by
+Lemma 9.4 and thus σ ∗ L ≃ L.
+    We now introduce another involutive automorphism τ of G × G by
+τ (g1 , g2 ) := (g2 , g1 ). Then (G × G)τ = diag(G) := {(g, g) : g ∈ G}. We shall
+use the same letter θ to denote the Cartan involution θ × θ on G × G (and
+θ ⊕ θ on g ⊕ g). Then, we observe the following isomorphisms:
+
+                    (g ⊕ g)τ θ = {(X, θX) : X ∈ g}           ≃ g,
+                           σ,τ θ                        σ′          ′
+                    (g ⊕ g)        = {(X, θX) : X ∈ g } ≃ gσ .
+
+Thus, the condition (4.1.2) implies
+28      Toshiyuki KOBAYASHI
+
+                      R- rank(g ⊕ g)τ θ = R- rank(g ⊕ g)σ,τ θ .
+
+Therefore, given (x1 , x2 ) ∈ D ≃ (G×G)/(K×K), there exists (g, g) ∈ (G×G)τ
+satisfying (g · x1 , g · x2 ) = (σ ′ (x1 ), σ ′ (x2 )) (= σ(x1 , x2 )) by Lemma 3.3.
+    Let us apply Theorem 2.2 to the setting (L → D, H1 b             ⊗H2 , diag(G), σ). Now
+that all the assumptions of Theorem 2.2 are satisfied, we conclude that the
+tensor product π1 b   ⊗π2 is multiplicity-free as a G-module, that is, Theorem C
+holds in the case I. ⊓    ⊔
+
+4.3 Proof of Theorem C in Case II
+
+Let us give a proof of Theorem C in the case II. We use the same τ as in
+Subsection 4.2, that is, τ (g1 , g2 ) := (g2 , g1 ) and define a new involution σ by
+σ := τ θ, that is, σ(g1 , g2 ) = (θg2 , θg1 ) for g1 , g2 ∈ G. Obviously, σ, τ and the
+Cartan involution θ of G × G all commute.
+    We write M for the Hermitian symmetric space G/K, and M for the
+conjugate complex manifold. Then σ acts anti-holomorphically on D := M ×
+M because so does τ and because θ acts holomorphically.
+    By the obvious identity (g ⊕ g)τ θ = (g ⊕ g)σ,τ θ , we have R- rank(g ⊕ g)τ θ =
+R- rank(g ⊕ g)σ,τ θ (= R- rank g). Therefore, it follows from Lemma 3.3 that
+for any (x1 , x2 ) ∈ D there exists (g, g) ∈ (G × G)τ such that σ(x1 , x2 ) =
+(g, g) · (x1 , x2 ).
+    Suppose π1 (respectively, π2 ) is a unitary highest (respectively, low-
+                                                                                p
+est) weight representation of scalar type. We set L1 := G ×K (H1 )K+ and
+                     p−
+L2 := G ×K (H2 )K . Then, L1 → M and L2 → M are both holomorphic
+line bundles, and we can realize π1 in O(M, L1 ), and π2 in O(M , L2 ), respec-
+tively. Therefore, the outer tensor product π1 ⊠ π2 is realized in a subspace
+of holomorphic sections of the holomorphic line bundle L := L1 ⊠ L2 over
+D = M × M.
+    Now, we apply Theorem 2.2 to (L → D, H1 b             ⊗H2 , diag(G), σ). The condi-
+tion (2.2.2) holds by Lemma 9.4. Hence, all the assumptions of Theorem 2.2
+are satisfied, and therefore, Theorem C holds in the case II. ⊓          ⊔
+    Hence, Theorem C has been proved.
+
+
+5 Uniformly bounded multiplicities — Proof of
+Theorems B and D
+
+This section gives the proof of Theorems B and D. Since the proof of Theo-
+rem B parallels to that of Theorem D, we deal mostly with Theorem D here.
+Without loss of generality, we assume G is a non-compact simple Lie group
+of Hermitian type.
+                             Multiplicity-free restrictions to symmetric pairs       29
+
+5.1 General theory of restriction
+
+A unitary representation (π, H) of a group L is discretely decomposable if
+π is unitarily equivalent to the discrete Hilbert sum of irreducible unitary
+representations of L:
+                                  X⊕
+                             π≃        mπ (µ)µ .
+                                        b
+                                      µ∈L
+
+Furthermore, we say π is L-admissible ([38]) if all the multiplicities mπ (µ) are
+finite. In this definition, we do not require mπ (µ) to be uniformly bounded
+with respect to µ.
+    Suppose L′ is a subgroup of L. Then, the restriction of π to L′ is regarded
+as a unitary representation of L′ . If π is L′ -admissible, then π is L-admissible
+([38, Theorem 1.2]).
+    We start with recalling from [42] a discrete decomposability theorem of
+branching laws in the following settings:
+
+Fact 5.1. 1) Suppose τ is of holomorphic type (see Definition 1.4) and set
+H := Gτ0 . If π is an irreducible unitary highest weight representation of G,
+then π is (H ∩K)-admissible. In particular, π is H-admissible. The restriction
+π|H splits into a discrete Hilbert sum of irreducible unitary highest weight
+representations of H:
+                       X⊕
+               π|H ≃          mπ (µ)µ       (discrete Hilbert sum),              (5.1.1)
+                         b
+                       µ∈H
+
+where the multiplicity mπ (µ) is finite for every µ.
+2) Let π1 , π2 be two irreducible unitary highest weight representations of G.
+Then the tensor product π1 b  ⊗π2 is K-admissible under the diagonal action.
+Furthermore, π1 b ⊗π2 splits into a discrete Hilbert sum of irreducible unitary
+highest weight representations of G, each occurring with finite multiplicity.
+Furthermore, if at least one of π1 or π2 is a holomorphic discrete series rep-
+resentation for G, then any irreducible summand is a holomorphic discrete
+series representation.
+
+Proof. See [42, Theorem 7.4] for the proof. The main idea of the proof is taking
+normal derivatives of holomorphic sections, which goes back to S. Martens [63].
+The same idea was also employed in a number of papers including Lipsman
+([60, Theorem 4.2]) and Jakobsen–Vergne ([31, Corollary 2.3]). ⊓   ⊔
+
+Remark 5.1. Fact 5.1 (1) holds more generally for a closed subgroup H satis-
+fying the following two conditions:
+    1) H is θ-stable.
+    2) The Lie algebra h of H contains Z.
+Here, we recall that Z is the generator of the center of k. The proof is essentially
+the same as that of Fact 5.1 (1).
+30     Toshiyuki KOBAYASHI
+
+    Theorem B (2) follows from Theorem A and Fact 5.1 (1). Likewise, The-
+orem D (2) follows from Theorem C and Fact 5.1 (2). What remains to show
+for Theorems B and D is the uniform boundedness of multiplicities.
+
+5.2 Remarks on Fact 5.1
+
+Some remarks on Fact 5.1 are in order.
+Remark 5.2.1. A Cartan involution θ is clearly of holomorphic type because
+θZ = Z. If θ = τ then H = K and any irreducible summand µ is finite
+dimensional. In this case, the finiteness of mπ (µ) in Fact 5.1 (1) is a special
+case of Harish-Chandra’s admissibility theorem (this holds for any irreducible
+unitary representation π of G).
+Remark 5.2.2. Fact 5.1 asserts in particular that there is no continuous spec-
+trum in the irreducible decomposition formula. The crucial assumption for
+this is that (G, H) is of holomorphic type. In contrast, the restriction π|H is
+not discretely decomposable if (G, H) is of anti-holomorphic type and if π is
+a holomorphic discrete series representation of G ([38, Theorem 5.3]). In this
+setting, R. Howe, J. Repka, G. Ólafsson, B. Ørsted, van Dijk, S. Hille, M.
+Pevzner, V. Molchanov, Y. Neretin, G. Zhang and others studied irreducible
+decompositions of the restriction π|H by means of the L2 -harmonic analysis
+on Riemannian symmetric spaces H/H ∩ K ([9, 10, 11, 23, 64, 66, 69, 70, 74]).
+The key idea in Howe and Repka [23, 74] is that a holomorphic function on
+G/K is uniquely determined by its restriction to the totally real submanifold
+H/H ∩ K (essentially, the unicity theorem of holomorphic functions), and
+that any function on H/H ∩ K can be approximated (in a sense) by holomor-
+phic functions on G/K (essentially, the Weierstrass polynomial approximation
+theorem).
+Remark 5.2.3. A finite multiplicity theorem of the branching law (5.1.1) with
+respect to semisimple symmetric pairs (G, H) holds for more general π (i.e.
+π is not a highest weight module), under the assumption that π is discretely
+decomposable as an (hC , H ∩ K)-module (see [41, Corollary 4.3], [45]). How-
+ever, the multiplicity of the branching law can be infinite if the restriction is
+not discretely decomposable (see Example 6.3).
+Remark 5.2.4. Theorems B and D assert that multiplicities mπ (µ) in Fact 5.1
+are uniformly bounded when we vary µ. This is a distinguished feature for
+the restriction of highest weight representations π. A similar statement may
+fail if π is not a highest weight module (see Example 6.2).
+
+5.3 Reduction to the scalar type case
+
+In order to deduce Theorem D (1) from Theorem D (2), we use the idea of
+‘coherent family’ of representations of reductive Lie groups (for example, see
+[85]). For this, we prepare the following Lemma 5.3 and Proposition 5.4.1.
+                           Multiplicity-free restrictions to symmetric pairs       31
+
+Lemma 5.3. Suppose that (π, H) is an irreducible unitary highest weight rep-
+resentation of G. Then there exist an irreducible unitary highest weight rep-
+resentation π ′ of scalar type and a finite dimensional representation F of G
+such that the underlying (gC , K)-module πK occurs as a subquotient of the
+                  ′
+tensor product πK   ⊗ F.
+Proof. Without loss of generality, we may and do assume that G is simply
+connected. Since G is a simple Lie group of Hermitian type, the center c(k) of
+k is one dimensional. We take its generator Z as in Subsection 1.4, and write
+C for the connected subgroup with Lie algebra c(k). Then, K is isomorphic to
+the direct product group of C and a semisimple group K ′ .
+      As (π, H) is an irreducible unitary highest weight representation of G,
+  p
+HK+ is an irreducible (finite dimensional) unitary representation of K. The
+                p                                        b such that σ|C is trivial
+K-module HK+ has an expression σ ⊗ χ0 , where σ ∈ K
+and χ0 is a unitary character of K.
+      Let χ′ be a unitary character of K such that χ′ is trivial on the center
+ZG of G (namely, χ′ is well-defined as a representation
+                                                 √          of AdG (K) ≃ K/ZG ).
+For later purposes, we take χ′ such that − −1 dχ′ (Z) ≫ 0. There exists an
+irreducible finite dimensional representation F of G such that F p+ ≃ σ ⊗ χ′
+as K-modules because σ ⊗ χ′ is well-defined as an algebraic representation of
+AdG (K).                                          √
+      We set χ := χ0 ⊗ (χ′ )∗ of K. Because − −1 dχ(Z) ≪ 0, the irreducible
+highest weight (gC , K)-module V ′ such that (V ′ )p+ ≃ χ is unitarizable. Let
+(π ′ , H′ ) denote the irreducible unitary representation of G whose underlying
+                     ′
+(gC , K)-module HK      is isomorphic to V ′ . Since HK
+                                                      ′
+                                                        is an irreducible (gC , K)-
+              ′                                                                ′
+module, HK ⊗ F is a (gC , K)-module of finite length. Furthermore, as HK         is
+                                                                    ′
+a highest weight module, so are all subquotient modules of HK ⊗ F . Then,
+                                    ′                                 p
+HK arises as a subquotient of HK        ⊗ F because the K-module HK+ occurs as
+                              ′       p+
+a subrepresentation of (HK ⊗ F ) in view of
+         p                                             ′
+       HK+ ≃ σ ⊗ χ0 ≃ χ ⊗ (σ ⊗ χ′ ) ≃ (HK
+                                        ′ p+
+                                          ) ⊗ F p+ ⊂ (HK ⊗ F )p+ .
+Hence, we have shown Lemma 5.3. ⊓
+                                ⊔
+
+5.4 Uniform estimate of multiplicities for tensor products
+Let (π, X) be a (gC , K)-module of finite length. This means that π admits a
+chain of submodules
+                         0 = Y0 ⊂ Y1 ⊂ · · · ⊂ YN = X                          (5.4.1)
+such that Yi /Yi−1 is irreducible for i = 1, . . . , N . The number N is indepen-
+dent of the choice of the chain (5.4.1), and we will write
+                                   m(π) := N .
+That is, m(π) is the number of irreducible (gC , K)-modules (counted with
+multiplicity) occurring as subquotients in π. Here is a uniform estimate of
+m(π) under the operation of tensor products:
+32      Toshiyuki KOBAYASHI
+
+Proposition 5.4.1. Let F be a finite dimensional representation of a real
+reductive connected Lie group G. Then there exists a constant C ≡ C(F ) such
+that
+                               m(π ⊗ F ) ≤ C
+for any irreducible (gC , K)-module π.
+     Before entering the proof, we fix some terminologies:
+Definition 5.4.2. We write F (gC , K) for the category of (gC , K)-modules of
+finite length. The Grothendieck group V(gC , K) of F (gC , K) is the abelian
+group generated by (gC , K)-modules of finite length, modulo the equivalence
+relations
+                                X ∼Y +Z
+whenever there is a short exact sequence
+
+                             0→Y →X →Z→0
+
+of (gC , K)-modules. Then
+
+                                m : F (gC , K) → N
+
+induces a group homomorphism of abelian groups:
+
+                               m : V(gC , K) → Z .
+
+   The Grothendieck group V(gC , K) is isomorphic to the free abelian group
+having irreducible (gC , K)-modules as its set of finite generators.
+   Suppose (π, X) is a (gC , K)-module of finite length. Then, in the Grothendieck
+group V(gC , K), we have the relation
+                                  M
+                              X=      mπ (Y )Y ,                         (5.4.2)
+                                      Y
+
+where the sum is taken over irreducible (gC , K)-modules. Then we have
+                                    X
+                            m(π) =      mπ (Y ) .                    (5.4.3)
+                                           Y
+
+Suppose (π ′ , X ′ ) is also a (gC , K)-modules of finite length. We set
+                                        M             M
+       [π : π ′ ] := dim Hom(gC ,K) (      mπ (Y )Y,      mπ′ (Y )Y )      (5.4.4)
+                                       Y             Y
+                     X
+                 =       mπ (Y )mπ′ (Y ) .                                 (5.4.5)
+                     Y
+
+The definition (5.4.4) makes sense in a more general setting where one of Xor
+X ′ is not of finite length. To be more precise, we recall from [41, Definition
+1.1]:
+                            Multiplicity-free restrictions to symmetric pairs   33
+
+Definition 5.4.3. Let A(gC , K) be the category of (gC , K)-modules (π, X)
+having the following properties:
+1) (K-admissibility) dim HomK (τ, π) < ∞ for any τ ∈ K.    b
+2) (discretely decomposability, see [41, Definition 1.1]) X admits an increas-
+ing filtration
+                           0 = Y0 ⊂ Y1 ⊂ Y2 ⊂ · · ·
+                                                                  S∞
+of gC -modules such that Yi /Yi−1 is of finite length and that X = i=1 Yi .
+    We refer the reader to [41] for algebraic results on discretely decomposable
+(gC , K)-modules such as:
+Lemma 5.4.4. Suppose X ∈ A(gC , K).
+1) Any submodule or quotient of X is an object of A(gC , K).
+2) The tensor product X ⊗ F is also an object of A(gC , K) for any finite
+dimensional (gC , K)-module.
+    For X ∈ A(gC , K), we can take the filtration {Yi } such that Yi /Yi−1 is
+irreducible as a (gC , K)-module for any i. Then, for any irreducible (gC , K)-
+module,
+                       #{i : Yi /Yi−1 is isomorphic to Y }
+is finite and independent of the filtration, which we will denote by mπ (Y ).
+
+Definition 5.4.5. Suppose X ∈ A(gC , K). We say the (gC , K)-module X is
+multiplicity-free if
+
+             mπ (Y ) ≤ 1    for any irreducible (gC , K)-module Y .
+
+   This concept coincides with Definition 1.1 if X is the underlying (gC , K)-
+module of a unitary representation of G. The point of Definition 5.4.5 is that
+we allow the case where X is not unitarizable.
+   Generalizing (5.4.5), we set
+                                       X
+                         [π : π ′ ] :=   mπ (Y )mπ′ (Y )
+                                       Y
+
+for π, π ′ ∈ A(gC , K). Here are immediate results from the definition:
+Lemma 5.4.6. Let π, π ′ ∈ A(gC , K).
+1) [π : π ′ ] < ∞ if at least one of π and π ′ belongs to F (gC , K).
+2) dim Hom(gC ,K) (π, π ′ ) ≤ [π : π ′ ].
+3) [π : π ′ ] = [π ′ : π].
+4) mπ (Y ) = [π : Y ] if Y is an irreducible (gC , K)-module.
+5) [π : π ′ ] ≤ m(π)   if π ′ is multiplicity-free.
+   Now, we return to Proposition 5.4.1.
+34        Toshiyuki KOBAYASHI
+
+Proof of Proposition 5.4.1. We divide the proof into three steps:
+Step 1 (π is a finite dimensional representation): We shall prove
+
+                                  m(π ⊗ F ) ≤ dim F                             (5.4.6)
+
+for any finite dimensional representation π of G.
+     Let b = t + u be a Borel subalgebra of gC with u nilradical. We denote by
+H j (u, V ) the jth cohomology group of the Lie algebra u with coefficients in
+a u-module V . Since the Lie algebra b is solvable, we can choose a b-stable
+filtration
+                        F = Fk ⊃ Fk−1 ⊃ · · · ⊃ F0 = {0}
+such that dim Fi /Fi−1 = 1.
+   Let us show by induction on i that
+
+                                dim H 0 (u, π ⊗ Fi ) ≤ i .                      (5.4.7)
+
+This will imply m(π ⊗ F ) = dim H 0 (u, π ⊗ F ) ≤ k = dim F .
+   The inequality (5.4.7) is trivial if i = 0. Suppose (5.4.7) holds for i − 1.
+The short exact sequence of b-modules
+
+                   0 → π ⊗ Fi−1 → π ⊗ Fi → π ⊗ (Fi /Fi−1 ) → 0
+
+gives rise to a long exact sequence
+
+     0 → H 0 (u, π ⊗ Fi−1 ) → H 0 (u, π ⊗ Fi ) → H 0 (u, π ⊗ (Fi /Fi−1 ))
+                                                         → H 1 (u, π ⊗ Fi−1 ) → . . .
+
+of t-modules. In particular, we have
+
+      dim H 0 (u, π ⊗ Fi ) ≤ dim H 0 (u, π ⊗ Fi−1 ) + dim H 0 (u, π ⊗ (Fi /Fi−1 )) .
+                                                                               (5.4.8)
+
+Because Fi /Fi−1 is trivial as a u-module, we have
+
+                   H 0 (u, π ⊗ (Fi /Fi−1 )) = H 0 (u, π) ⊗ (Fi /Fi−1 ) .        (5.4.9)
+
+By definition H 0 (u, π) is the space of highest weight vectors, and therefore
+the dimension of the right-hand side of (5.4.9) is one. Now, the inductive
+assumption combined with (5.4.8) implies dim H 0 (u, π ⊗ Fi ) ≤ i, as desired.
+Step 2 (π is a principal series representation): In this step, we consider the
+case where π is a principal series representation. We note that π may be
+reducible here.
+    Let P = LN be a Levi decomposition of a minimal parabolic subgroup P
+of G, W an irreducible (finite dimensional) representation of L, and IndGP (W )
+the underlying (gC , K)-module of a principal series representation induced
+from the representation W ⊠ 1 of P = LN (without ρ-shift). Then, the socle
+                           Multiplicity-free restrictions to symmetric pairs       35
+
+filtration is unchanged so far as the parameter lies in the equisingular set,
+and thus, there are only finitely many possibilities of the socle filtration of
+IndG P (W ) for irreducible representations W of L. We denote by m(G) the
+maximum of m(IndG     P (W )) for irreducible representations W of L.
+     Let F be a finite dimensional representation of G. Then we have an iso-
+morphism of (gC , K)-modules
+
+                        IndG               G
+                           P (W ) ⊗ F ≃ IndP (W ⊗ F ) ,
+
+where F is regarded as a P -module on the right-hand side. We take a P -stable
+filtration
+                 Wn := W ⊗ F ⊃ Wn−1 ⊃ · · · ⊃ W0 = {0}
+such that each Wi /Wi−1 is irreducible as a P -module. We notice that n ≤
+dimLF by applying Step 1 to the L-module F |L . As IndG
+                                                      P (W ⊗F ) is isomorphic
+     n
+to i=1 IndGP (W i /Wi−1 ) in the Grothendieck group  V(g C , K), we have shown
+that
+               m(IndG P (W ) ⊗ F ) ≤ n m(G) ≤ (dim F ) m(G)
+
+for any irreducible finite dimensional representation W of L.
+Step 3 (general case): By Casselman’s subrepresentation theorem (see [87,
+Chapter 3]), any irreducible (gC , K)-module π is realized as a subrepresenta-
+tion of some induced representation IndG P (W ). Then
+
+                      m(π ⊗ F ) ≤ m(π ⊗ IndG
+                                           P (W )) ≤ C
+
+by step 2. Thus, Proposition 5.4.1 is proved. ⊓
+                                              ⊔
+
+5.5 Proof of Theorem D
+
+Now let us complete the proof of Theorem D.
+   Let π = π1 ⊠ π2 be an irreducible unitary highest weight representation
+of G′ := G × G. It follows from Lemma 5.3 that there exist an irreducible
+unitary highest weight representation π ′ = π1′ ⊠ π2′ of scalar type and a finite
+dimensional representation F of G′ such that πK occurs as a subquotient of
+ ′
+πK ⊗ F.
+   By using the notation (5.4.4), we set [V1 : V2 ] := [(V1 )K : (V2 )K ] for
+G-modules V1 and V2 of finite length. Then, for µ ∈ b  G, we have
+
+                  mπ1 ,π2 (µ) = dim HomG (µ, π|diag(G) )
+                                             
+                              ≤ µ : π|diag(G)
+                                                      
+                              ≤ µ : (π ′ ⊗ F )|diag(G)
+                                                                  
+                              = µ ⊗ (F ∗ |diag(G) ) : π ′ |diag(G)
+                              ≤ m(µ ⊗ (F ∗ |diag(G) ))                         (5.5.1)
+                                      ∗
+                              ≤ C(F ) .
+36     Toshiyuki KOBAYASHI
+
+Here the inequality (5.5.1) follows from Lemma 5.4.6 (5) because π ′ |diag(G) ≃
+π1′ b
+    ⊗π2′ is multiplicity-free (see Theorem D (2)). In the last inequality, C(F ∗ )
+is the constant in Proposition 5.4.1. This completes the proof of Theorem D
+(1). ⊓  ⊔
+
+Remark 5.5. The argument in Subsections 8.8 and 8.9 gives a different and
+more straightforward proof of Theorem D.
+
+
+6 Counter examples
+
+In this section, we analyze the assumptions in Theorems A and B by coun-
+terexamples, that is, how the conclusions fail if we relax the assumptions on
+the representation π.
+    Let (G, H) be a reductive symmetric pair corresponding to an involutive
+automorphism τ of G, and π an irreducible unitary representation of G. We
+shall see that the multiplicity of an irreducible summand occurring in the
+restriction π|H can be:
+1) greater than one if π is not of scalar type (but we still assume that π
+is a highest weight module);
+2) finite but not uniformly bounded if π is not a highest weight module
+(but we still assume that π|H decomposes discretely);
+3) infinite if π|H contains continuous spectra.
+    Although our concern in this paper is mainly with a non-compact subgroup
+H, we can construct such examples for (1) and (2) even for H = K (a maximal
+compact subgroup modulo the center of G).
+    Case (1) will be discussed in Subsection 6.1, (2) in Subsection 6.2, and (3)
+in Subsection 6.3, respectively. To construct an example for (3), we use those
+for (1) and (2).
+
+6.1 Failure of multiplicity-free property
+
+Let G = Sp(2, R). Then, the maximal compact subgroup K is isomorphic to
+U (2). We√take a compact Cartan subalgebra t. Let {f1 , f2 } be the standard
+basis of −1 t∗ such that ∆(g, t) = {±f1 ± f2 , ±2f1 , ±2f2 }, and we fix a
+positive system ∆+ (k, t) := {f1 −f2 }. In what follows, we shall use the notation
+(λ1 , λ2 ) to denote the character λ1 f1 + λ2 f2 of t.
+                                                   U(2)
+    Given (p, q) ∈ Z2 with p ≥ q, we denote by π(p,q) the irreducible representa-
+                                                                 U(2)
+tion of U (2) with highest weight (p, q) = pf1 +qf2 . Then dim π(p,q) = p−q +1.
+    The set of holomorphic discrete series representations of G is parametrized
+by λ := (λ1 , λ2 ) ∈ N2 with λ1 > λ2 > 0. We set µ ≡ (µ1 , µ2 ) := (λ1 +1, λ2 +2)
+                         Sp(2,R)
+and denote by πµG ≡ π(µ1 ,µ2 ) the holomorphic discrete series representation
+of G characterized by
+                               Multiplicity-free restrictions to symmetric pairs       37
+
+   Z(g)-infinitesimal character = (λ1 , λ2 )         (Harish-Chandra parameter),
+                             U(2)
+   minimal K-type         = π(µ1 ,µ2 )               (Blattner parameter).
+
+We note that πµG is of scalar type if and only if µ1 = µ2 .
+   We know from Theorem B that multiplicities of K-type τ occurring in πµG
+are uniformly bounded for fixed µ = (µ1 , µ2 ). Here is the formula:
+
+Example 6.1 (upper bound of K-multiplicities of holomorphic discrete series).
+
+                                                                   
+                                                        µ1 − µ2 + 2
+                   sup dim HomK (τ, πµG |K ) =                        .            (6.1.1)
+                      b
+                   τ ∈K
+                                                             2
+
+The right side of (6.1.1) = 1 if and only if either of the following two cases
+holds:
+
+  µ1 = µ2         (i.e. πµG is of scalar type),                              (6.1.2) (a)
+  µ1 = µ2 + 1     (i.e. πµG is of two dimensional minimal K-type).           (6.1.2) (b)
+
+Thus, the branching law of the restriction πµG |K is multiplicity-free if and only
+if µ1 = µ2 or µ1 = µ2 + 1. The multiplicity-free property for µ1 = µ2 (i.e.
+for πµG of scalar type) follows from Theorem A. The multiplicity-free property
+for µ1 = µ2 + 1 is outside of the scope of this paper, but can be explained in
+the general framework of the ‘vector bundle version’ of Theorem 2.2 (see [47,
+Theorem 2], [49]).
+
+Proof. It follows from the Blattner formula for a holomorphic discrete series
+representation ([32], [78]) that the K-type formula of πµG is given by
+                                         U(2)
+                          πµG |K ≃ π(µ1 ,µ2 ) ⊗ S(C3 )
+                                    U(2)
+                                                 M      U(2)
+                                 = π(µ1 ,µ2 ) ⊗        π(2a,2b) ,                  (6.1.3)
+                                                 a≥b≥0
+                                                (a,b)∈N2
+
+
+where K = U (2) acts on C3 ≃ S 2 (C2 ) as the symmetric tensor of the natural
+                                                                         U(2)
+representation. We write nµ (p, q) for the multiplicity of the K-type π(p,q)
+                       Sp(2,R)
+occurring in πµG ≡ π(µ1 ,µ2 ) , that is,
+
+                                               K
+                       nµ (p, q) := dim HomK (π(p,q) , πµG |K ) .
+
+Then, applying the Clebsch–Gordan formula (1.7.1) (f) to (6.1.3), we obtain
+
+   nµ (p, q) = #{(a, b) ∈ N2 : (a, b) satisfies a ≥ b ≥ 0, (6.1.4) and (6.1.5)},
+
+where
+38       Toshiyuki KOBAYASHI
+
+                       p + q = µ1 + µ2 + 2a + 2b ,                               (6.1.4)
+                       max(2a + µ2 , 2b + µ1 ) ≤ p ≤ 2a + µ1 .                   (6.1.5)
+
+In particular, for fixed (µ1 , µ2 ) and (p, q), the integer b is determined by a from
+(6.1.4), whereas the integer a satisfies the inequalities p − µ1 ≤ 2a ≤ p − µ2 .
+Therefore,
+                                                                   
+                       (p − µ2 ) − (p − µ1 )             µ1 − µ2 + 2
+         nµ (p, q) ≤                            +1=                     .   ⊓
+                                                                            ⊔
+                                 2                             2
+
+6.2 Failure of uniform boundedness
+
+We continue the setting of Subsection 6.1. Let B be a Borel subgroup of
+GC ≃ Sp(2, C). Then, there exist 4 closed orbits of KC ≃ GL(2, C) on the full
+flag variety GC /B. (By the Matsuki duality, there exist 4 open orbits of G =
+Sp(2, R) on GC /B. This observation will be used in the proof of Example 6.3.)
+By the Beilinson–Bernstein correspondence, we see that there are 4 series
+of discrete series representations of G. Among them, two are holomorphic
+and anti-holomorphic discrete series representations, that is, πµG and (πµG )∗
+(the contragredient representation) with notation as in Subsection 6.1. The
+other two series are non-holomorphic discrete series representations. Let us
+parametrize them. For λ := (λ1 , λ2 ) ∈ Z2 (λ1 > −λ2 > 0), we write Wλ for
+the discrete series representation of G characterized by
+
+     Z(g)-infinitesimal character = (λ1 , λ2 )       (Harish-Chandra parameter),
+                             U(2)
+     minimal K-type = π(λ1 +1,λ2 )                   (Blattner parameter).
+
+Then, non-holomorphic discrete series representations are either Wλ or its
+contragredient representation Wλ∗ for some λ ∈ Z2 with λ1 > −λ2 > 0. We
+define a θ-stable Borel subalgebra q = tC + u of gC = kC + pC such that
+
+        ∆(u ∩ pC , t) := {2f1 , f1 + f2 , −2f2 } ,   ∆(u ∩ kC , t) := {f1 − f2 } .
+
+Then, the Harish-Chandra module (Wλ )K is isomorphic to the cohomologi-
+cal parabolic induction R1q (C(λ1 ,λ2 ) ) of degree 1 as (gC , K)-modules with the
+notation and the normalization as in [86]. We set µ1 := λ1 + 1 and µ2 := λ2 .
+
+Example 6.2 (multiplicity of K-type of non-holomorphic discrete series Wλ ).
+                                                          U(2)
+We write mλ (p, q) for the multiplicity of the K-type π(p,q) occurring in Wλ ,
+that is,
+                                              U(2)
+                    mλ (p, q) := dim HomK (π(p,q) , Wλ |K ) .
+
+Then, mλ (p, q) 6= 0 only if (p, q) ∈ Z2 satisfies
+
+           p ≥ µ1 , p − q ≥ µ1 − µ2 and p − q ∈ 2Z + µ1 + µ2 .                   (6.2.1)
+                               Multiplicity-free restrictions to symmetric pairs              39
+
+Then,
+                                          
+                                     p − µ1 p − q − µ1 + µ2
+               mλ (p, q) = 1 + min(          ,              ).                            (6.2.2)
+                                        2          2
+In particular, for each fixed λ, the K-multiplicity in Wλ is not uniformly
+bounded, namely,
+         sup dim HomK (τ, Wλ |K ) =                     sup             mλ (p, q) = ∞ .
+           b
+        τ ∈K                                  (p,q) satisfies (6.2.1)
+
+Proof. For p, q ∈ Z, we write C(p,q) for the one dimensional representation of
+tC corresponding to the weight pf1 + qf2 ∈ t∗C . According to the tC -module
+isomorphism:
+                      u ∩ pC ≃ C(2,0) ⊕ C(1,1) ⊕ C(0,−2) ,
+the symmetric algebra S(u∩pC ) is decomposed into irreducible representations
+of tC as
+                        M
+         S(u ∩ pC ) ≃       S a (C(2,0) ) ⊗ S b (C(1,1) ) ⊗ S c (C(0,−2) )
+                             a,b,c∈N
+                              M
+                         ≃             C(2a+b,b−2c) .                                     (6.2.3)
+                             a,b,c∈N
+
+We denote by H j (u ∩ kC , π) the jth cohomology group of the Lie algebra
+u ∩ kC with coefficients in the u ∩ kC -module π. If π is a kC -module, then
+H j (u ∩ kC , π) becomes naturally a tC -module. Then, Kostant’s version of the
+Borel–Weil–Bott theorem (e.g. [85, Chapter 3]) shows that
+                                        
+                                        
+                                        C(p,q)     (j = 0) ,
+                    j          U(2)
+                  H (u ∩ kC , π(p,q) ) = C(q−1,p+1) (j = 1) ,           (6.2.4)
+                                        
+                                        
+                                          {0}       (j 6= 0, 1) .
+By using the Blattner formula due to Hecht–Schmid (e.g. [85, Theorem 6.3.12]),
+the K-type formula of Wλ is given by
+                                 U(2)
+  mλ (p, q) = dim HomK (π(p,q) , Wλ |K )
+               1
+               X                                              U(2)
+           =         (−1)j dim HomtC (H j (u ∩ kC , π(p,q) ), S(u ∩ pC ) ⊗ C(µ1 ,µ2 ) ) .
+               j=0
+
+Now, comparing (6.2.3) with the above formula (6.2.4) as tC -modules, we see
+
+  mλ (p, q) = #{(a, b, c) ∈ N3 : p = 2a + b + µ1 , q = b − 2c + µ2 }
+               − #{(a, b, c) ∈ N3 : q − 1 = 2a + b + µ1 , p + 1 = b − 2c + µ2 }
+           = #{(a, b, c) ∈ N3 : p = 2a + b + µ1 , q = b − 2c + µ2 }
+                              
+                        p − µ1 p − q − µ1 + µ2
+           = 1 + min(            ,                  ).
+                           2             2
+Thus, the formula (6.2.2) has been verified. ⊓
+                                             ⊔
+40        Toshiyuki KOBAYASHI
+
+6.3 Failure of finiteness of multiplicities
+
+Multiplicities of the branching laws can be infinite in general even for reductive
+symmetric pairs (G, H). In this subsection, we review from [43, Example 5.5]
+a curious example of the branching law, in which the multiplicity of a discrete
+summand is non-zero and finite and that of another discrete summand is
+infinite. Such a phenomenon happens only when continuous spectra appear.
+
+Example 6.3 (infinite and finite multiplicities). Let (GC , G) be a reductive
+symmetric pair (Sp(2, C), Sp(2, R)). We note that (GC , G) is locally isomor-
+phic to the symmetric pair (SO(5, C), SO(3, 2)). We take a Cartan subgroup
+H = T A of GC . We note that T ≃ T2 and A ≃ R2 , and identify Tb with Z2 .
+               Sp(2,C)
+   Let ̟ ≡ ̟(a,b)      be the unitary principal series representation of GC
+induced unitarily from the character χ of a Borel subgroup B containing
+H = T A such that
+                             χ|H ≃ C(a,b) ⊠ 1 .
+We assume a, b ≥ 0 and set
+
+      c(µ1 , µ2 ; a, b) := #{(s, t, u) ∈ N3 : a = µ1 + 2s + t, b = µ2 + t + 2u} .
+                                                                       Sp(2,C)
+Then, the discrete part of the branching law of the restriction ̟(a,b) |Sp(2,R)
+is given by the following spectra:
+      M                                             ∗   X⊕
+                               Sp(2,R)      Sp(2,R)
+            c(µ1 , µ2 ; a, b)(π(µ1 ,µ2 ) ⊕ π(µ1 ,µ2 ) ) ⊕    ∞(Wλ ⊕ Wλ∗ ) ,
+     µ1 ≥µ2 ≥3                                         λ1 >−λ2 >0
+                                                                                 (6.3.1)
+
+with the notation as in Examples 6.1 and 6.2.
+   The first term of (6.3.1) is a finite sum because there are at most finitely
+many (µ1 , µ2 ) such that c(µ1 , µ2 ; a, b) 6= 0 for each fixed (a, b). For instance,
+the first term of (6.3.1) amounts to
+            M       Sp(2,R)
+                                 M  Sp(2,R) ∗
+                  π(µ1 ,3) ⊕                π(µ1 ,3)     (multiplicity-free)
+           3≤µ1 ≤a              3≤µ1 ≤a
+          µ1 ≡amod2            µ1 ≡amod2
+
+if b = 3.
+     The second term of (6.3.1) is nothing other than the direct sum of all
+non-holomorphic discrete series representations of G = Sp(2, R) with infinite
+multiplicities for any a and b.
+
+Sketch of Proof. There exist 4 open G-orbits on GC /B, for which the isotropy
+subgroups are all isomorphic to T ≃ T2 . By the Mackey theory, the restriction
+  GC
+̟(a,b) |G is unitarily equivalent to the direct sum of the regular representations
+realized on L2 -sections of G-equivariant line bundles G ×T C(±a,±b) → G/T .
+That is,
+                                  Multiplicity-free restrictions to symmetric pairs   41
+                          GC
+                                           M
+                         ̟(a,b) |G ≃                L2 (G/T, C(ε1 a,ε2 b) ) .
+                                       ε1 ,ε2 =±1
+
+Therefore, an irreducible unitary representation σ of G occurs as a dis-
+                         GC
+crete spectrum in ̟(a,b)     |G if and only if σ occurs as a discrete summand
+    2
+in L (G/T, C(ε1 a,ε2 b) ) for some ε1 , ε2 = ±1. Further, the multiplicity is given
+by                                       X
+                            GC
+        dim HomG (σ, ̟(a,b)     |G ) =        dim HomT2 (C(ε1 a,ε2 b) , σ|T2 )
+                                             ε1 ,ε2 =±1
+
+by the Frobenius reciprocity theorem.
+    Since T is compact, σ must be a discrete series representation of G =
+Sp(2, R) if σ occurs in L2 (G/T, C(ε1 a,ε2 b) ) as a discrete summand. We divide
+the computation of multiplicities into the following two cases:
+    Case I. σ is a holomorphic series representation or its contragredient rep-
+                         Sp(2,R)
+resentation. Let σ = πµ          . Combining (6.1.3) with the weight formulae
+                M                                                    M
+ S(C3 )|T2 ≃         S s (C(2,0) ) ⊗ S t (C(1,1) ) ⊗ S u (C(0,2) ) ≃   C(2s+t,t+2u) ,
+                   s,t,u∈N                                                  s,t,u∈N
+ U(2)
+                      M
+π(µ1 ,µ2 ) |T2 ≃                C(p,q) ,
+                   p+q=µ1 +µ2
+                    µ2 ≤p≤µ1
+
+we have
+                     dim HomT2 (C(a,b) , πµSp(2,R) |T2 ) = c(µ1 , µ2 ; a, b) .
+    Case II. σ is a non-holomorphic discrete series representation. Let σ = Wλ .
+It follows from the K-type formula (6.2.2) of Wλ that we have
+                                  X                                U(2)
+   dim HomT2 (C(a,b) , Wλ |T2 ) =   mλ (p, q) dim HomT2 (C(a,b) , π(p,q) ) = ∞ .
+                                           p≥q
+
+Likewise for σ = Wλ∗ (the contragredient representation).
+   Hence, the discrete part of the branching law is given by (6.3.1). ⊓
+                                                                      ⊔
+
+
+7 Finite Dimensional Cases — Proof of Theorems E and
+F
+7.1 Infinite v.s. finite dimensional representations
+
+Our method applied to infinite dimensional representations in Sections 3 and
+4 also applies to finite dimensional representations, leading us to multiplicity-
+free theorems, as stated in Theorems E and F in Section 1, for the restriction
+with respect to symmetric pairs.
+    The comparison with multiplicity-free theorems in the infinite dimensional
+case is illustrated by the following correspondence:
+42      Toshiyuki KOBAYASHI
+
+     a non-compact simple group G               ↔ a compact simple group GU
+     a unitary highest weight module            ↔ a finite dimensional module
+     scalar type (Definition 1.3)               ↔ “pan type” (Definition 7.3.3)
+     Theorems A and B                           ↔ Theorems E and F.
+
+The main goal of this section is to give a proof of Theorems E and F by
+using Theorem 2.2. Geometrically, our proof is built on the fact that the HU
+action on the Hermitian symmetric space is strongly visible if (GU , HU ) is a
+symmetric pair (see [50]).
+
+7.2 Representations associated to maximal parabolic subalgebras
+
+Let gC be a complex simple Lie algebra. We take a Cartan subalgebra j of
+gC , and fix a positive system ∆+ (gC , j). We denote by {α1 , . . . , αn } the set of
+simple roots, and by {ω1 , . . . , ωn } (⊂ j∗ ) the set of the fundamental weights.
+     We denote by πλgCP irreducible finite dimensional representation of gC with
+                          n
+highest weight λ =        i=1 mi ωi for m1 , . . . , mn ∈ N. It is also regarded as
+a holomorphic representation of GC , a simply connected complex Lie group
+with Lie algebra gC .
+     We fix a simple root αi , and define a maximal parabolic subalgebra
+
+                                     p−            −
+                                      iC := liC + niC
+
+such that the nilradical n−
+                          iC and the Levi part liC ( ⊃ j) are given by
+
+                                                    ∧
+             ∆(liC , j) = Z-span of {α1 , . . . , αi , . . . , αn } ∩ ∆(gC , j) ,
+             ∆(n−          −
+                iC , j) = ∆ (gC , j) \ ∆(liC , j) .
+
+We shall see that irreducible finite dimensional representations realized on
+generalized flag varieties GC /PC is multiplicity-free with respect to any sym-
+metric pairs if PC has an abelian unipotent radical.
+                −          −
+    We write PiC   = LiC NiC for the corresponding maximal parabolic subgroup
+of GC .
+    Let Hom(p− iC , C) be the set of Lie algebra homomorphisms over C. Since
+any such homomorphism vanishes on the derived ideal [p−          −          −
+                                                           iC , piC ], Hom(piC , C)
+is naturally identified with
+                                            −
+                           Hom(p−     −
+                                iC /[piC , piC ], C) ≃ Cωi .
+
+                     −
+   Next, let Hom(PiC    , C× ) be the set of complex Lie group homomor-
+                                       −
+phisms. Then, we can regard Hom(PiC      , C× ) ⊂ Hom(p−iC , C). As its subset,
+       −   ×
+Hom(PiC , C ) is identified with Zωi since GC is simply connected.
+                                                                        −
+   For k ∈ Z, we write Ckωi for the corresponding character of PiC        , and
+denote by
+                             Multiplicity-free restrictions to symmetric pairs       43
+                                                     −
+                        Lkωi := GC ×P − Ckωi → GC /PiC                           (7.2.1)
+                                             iC
+
+
+the associated holomorphic line bundle. We naturally have a representation
+of GC on the space of holomorphic sections O (Lkωi ). Then, by the Borel–
+Weil theory, O(Lkωi ) is non-zero and irreducible if k ≥ 0 and we have an
+isomorphism of representations of GC (also of gC ):
+                                    gC
+                                   πkω i
+                                         ≃ O (Lkωi ) .                           (7.2.2)
+
+7.3 Parabolic subalgebra with abelian nilradical
+
+A parabolic subalgebra with abelian nilradical is automatically a maximal
+parabolic subalgebra. Conversely, the nilradical of a maximal parabolic subal-
+gebra is not necessarily abelian. We recall from Richardson–Röhrle–Steinberg
+[75] the following equivalent characterization of such parabolic algebras:
+Lemma 7.3.1. Retain the setting of Subsection 7.2. Then, the following four
+conditions on the pair (gC , αi ) are equivalent:
+i) The nilradical n−   iC is abelian.
+ii) (gC , liC ) is a symmetric pair.
+iii) The simple root αi occurs in the highest root with coefficient one.
+iv) (gC , αi ) is in the following list if we label the simple roots α1 , . . . , αn in
+the Dynkin diagram as in Table 7.3.2.
+(7.3.1)   Type An         α1 , α2 , . . . , αn
+(7.3.2)   Type Bn         α1
+(7.3.3)   Type Cn         αn
+(7.3.4)   Type Dn         α1 , αn−1 , αn
+(7.3.5)   Type E6         α1 , α6
+(7.3.6)   Type E7         α7
+For types G2 , F4 , E8 , there are no maximal parabolic subalgebras with abelian
+nilradicals.
+44      Toshiyuki KOBAYASHI
+
+                                    Table 7.3.2.
+
+
+
+              (An )                ◦−−−−◦−−−−         ···     −−−−◦−−−−◦
+                                   α1 α2                         αn−1 αn
+
+              (Bn )                ◦−−−−◦−−−−         ···     −−−−◦==⇒◦
+                                   α1 α2                         αn−1 αn
+
+              (Cn )                ◦−−−−◦−−−−         ···     −−−−◦⇐==◦
+                                   α1 α2                         αn−1 αn
+                                                                  ◦ αn−1
+                                                                  −−−−
+              (Dn )                ◦−−−−◦−−−−         ···     −−−−◦−−−−◦
+                                   α1 α2                         αn−2 αn
+                                              ◦ α2
+                                              −−−−
+              (E6 )                ◦−−−−◦−−−−◦−−−−◦−−−−◦
+                                   α1 α3 α4 α5 α6
+                                              ◦ α2
+                                              −−−−
+              (E7 )                ◦−−−−◦−−−−◦−−−−◦−−−−◦−−−−◦
+                                   α1 α3 α4 α5 α6 α7
+
+
+
+Proof. See [75] for the equivalence (i) ⇔ (iii) ⇔ (iv). The implication (iv) ⇒
+(ii) is straightforward. For the convenience of the reader, we present a table
+of the symmetric pairs (gC , liC ) corresponding to the index i in (iv).
+
+
+      Type         gC                         liC                           i
+       An    sl(n + 1, C)      sl(i, C) + sl(n + 1 − i, C) + C i = 1, 2, . . . , n
+       Bn so(2n + 1, C)              so(2n − 1, C) + C                    i=1
+       Cn      sp(n, C)                    gl(n, C)                       i=n
+       Dn      so(2n, C)             so(2n − 2, C) + C                    i=1
+               so(2n, C)                   gl(n, C)                 i = n − 1, n
+       E6          e6                  so(10, C) + C                     i = 1, 6
+       E7          e7                      e6 + C                         i=1
+
+If (gC , liC ) is a symmetric pair, then [n−     −       −
+                                           iC , niC ] ⊂ niC ∩ liC = {0}, whence (ii)
+⇒ (i). ⊓   ⊔
+                                                     gC
+Definition 7.3.3. We say the representation πkω         i
+                                                          (k = 0, 1, 2, . . . ) is of pan
+type, or a pan representation if (gC , αi ) satisfies one of (therefore, all of) the
+                           Multiplicity-free restrictions to symmetric pairs    45
+
+equivalent conditions of Lemma 7.3.1. Here, pan stands for a parabolic sub-
+algebra with abelian nilradical.
+
+7.4 Examples of pan representations
+Example 7.4. Let gC = gl(n, C) and λ = (λ1 , . . . , λn ) ∈ Zn with λ1 ≥ λ2 ≥
+· · · ≥ λn . (This gC is not a simple Lie algebra, but the above concept is defined
+similarly.) Then, πλ is of pan type if and only if
+                        λ1 = · · · = λi ≥ λi+1 = · · · = λn
+for some i (1 ≤ i ≤ n − 1). Then, (l)iC ≃ gl(i, C) + gl(n − i, C).
+     In particular, the kth symmetric tensor representations S k (Cn ) (k ∈ N)
+and the kth exterior representations Λk (Cn ) (0 ≤ k ≤ n) are examples of
+pan representations since their highest weights are given by (k, 0, . . . , 0) and
+(1, . . . , 1, 0, . . . , 0), respectively.
+ | {z } | {z }
+    k       n−k
+
+   S. Okada [68] studied branching laws for a specific class of irreducible finite
+dimensional representations of classical Lie algebras, which he referred to as
+“rectangular-shaped representations”. The notion of “pan representations” is
+equivalent to that of rectangular-shaped representations for type (An ), (Bn ),
+and (Cn ). For type (Dn ), πkωn−1 , πkωn (k ∈ N) are rectangular-shaped repre-
+sentations, while πkω1 (k ∈ N) are not.
+
+7.5 Reduction to rank condition
+Suppose (gC , αi ) satisfies the equivalent conditions in Lemma 7.3.1. Let θ be
+the complex involutive automorphism of the Lie algebra gC that defines the
+symmetric pair (gC , liC ). We use the same letter θ to denote the corresponding
+holomorphic involution of a simply connected GC . We take a maximal compact
+subgroup GU of GC such that θGU = GU . Then K := GθU = GU ∩LiC becomes
+a maximal compact subgroup of LiC .
+   Let τ be another complex involutive automorphism of gC , and (gC , hC ) the
+symmetric pair defined by τ . We also use the same letter τ to denote its lift
+to GC . We recall from Subsection 3.7 the ‘twisted’ involution τ g for g ∈ GC is
+given by
+                       τ g (x) = gτ (g −1 xg)g −1 (x ∈ GC ) .
+Lemma 7.5. Let (θ, τ ) be as above.
+1) There exist an involutive automorphism σ of GU and g ∈ GC satisfying
+the following three conditions (by an abuse of notation, we write τ for τ g ):
+(7.5.1) τ gU = gU , σθ = θσ, στ = τ σ.
+(7.5.2) The induced action of σ on GU /K is anti-holomorphic.
+(7.5.3) (gU )σ,−τ,−θ contains a maximal abelian subspace in (gU )−τ,−θ .
+2) For any x ∈ GU /K, there exists h ∈ (GτU )0 such that σ(x) = h · x. In
+particular, each (GτU )0 -orbit on GU /K is preserved by σ.
+46      Toshiyuki KOBAYASHI
+
+Proof. 1) See [50, Lemma 4.1] for the proof.
+2) The second statement follows from the first statement and a similar argu-
+ment of Lemma 3.3.
+
+7.6 Proof of Theorem E
+
+We are now ready to complete the proof of Theorem E in Section 1.
+              gC
+   Let π = πkω   i
+                   be a representation of pan type. As in Subsection 7.2, we
+                                                     −
+consider the holomorphic line bundle Lkωi → GC /PiC     and realize π on the
+space of holomorphic sections O(Lkωi ). We fix a GU -invariant inner product
+on O(Lkωi ). With notation as in Subsection 7.5, we have a diffeomorphism
+                                                −
+                                  GU /K ≃ GC /PiC ,
+                                                              −
+through which the holomorphic line bundle Lkωi → GC /PiC        is naturally iden-
+tified with the GU -equivariant holomorphic line bundle L → D, where we set
+L := GU ×K Ckωi and D := GU /K (a compact Hermitian symmetric space).
+     Now, applying Lemma 7.5, we take σ and set H := (GτU )0 . We note that the
+complexification of the Lie algebra of H is equal to hC up to a conjugation by
+GC . By Lemma 7.5, the condition (2.2.3) in Theorem 2.2 is satisfied. Further-
+more, we see the condition (2.2.2) holds by a similar argument of Lemma 9.4.
+Therefore, the restriction π|(GU )τ0 is multiplicity-free by Theorem 2.2. Hence,
+Theorem E holds by Weyl’s unitary trick. ⊓      ⊔
+
+7.7 Proof of Theorem F
+
+Suppose π1 and π2 are representations of pan type. We realize π1 and π2 on
+the space of holomorphic sections of holomorphic line bundles over compact
+symmetric spaces GU /K1 and GU /K2 , respectively. We write θi for the corre-
+sponding involutive automorphisms of GU that define Ki (i = 1, 2). In light of
+Lemma 7.3.1 (iv), we can assume that θ1 θ2 = θ2 θ1 . Then, applying Lemma 7.5
+to (θ1 , θ2 ) we find an involution σ ′ ∈ Aut(GU ) satisfying the following three
+conditions:
+(7.7.1) σ ′ θi = θi σ ′ (i = 1, 2).
+(7.7.2) The induced action of σ ′ on GU /Ki (i = 1, 2) is anti-holomorphic.
+                   ′
+(7.7.3) (gU )σ ,−θ1 ,−θ2 contains a maximal abelian subspace of (gU )−θ1 ,−θ2 .
+We remark that the condition (7.7.2) for i = 2 is not included in Lemma 7.5,
+but follows automatically by our choice of σ.
+    We define three involutive automorphisms τ , θ and σ on GU × GU by
+τ (g1 , g2 ) := (g2 , g1 ), θ := (θ1 , θ2 ) and σ := (σ ′ , σ ′ ), respectively. Then (GU ×
+GU )τ = diag(GU ). By using the identification
+                                                     ∼
+         (gU ⊕ gU )−τ = {(X, −X) : X ∈ gU } → gU ,             (X, −X) 7→ X ,
+
+we have isomorphisms
+                           Multiplicity-free restrictions to symmetric pairs       47
+
+                        (gU ⊕ gU )−τ,−θ ≃ (gU )−θ1 ,−θ2 ,
+                                                  ′
+                      (gU ⊕ gU )σ,−τ,−θ ≃ (gU )σ ,−θ1 ,−θ2 .
+
+Thus, the condition (7.7.3) implies that (gU ⊕ gU )σ,−τ,−θ contains a maximal
+abelian subspace of (gU ⊕ gU )−τ,−θ . Then, by Lemma 7.5 and by a similar
+argument of Lemma 3.3 again, for any (x, y) ∈ GU /K1 × GU /K2 there exists
+a g ∈ GU such that σ ′ (x) = g · x and σ ′ (y) = g · y simultaneously. Now,
+Theorem F follows readily from Theorem 2.2. ⊓   ⊔
+
+7.8 List of multiplicity-free restrictions
+
+For the convenience of the reader, we present the list of the triple (gC , hC , i)
+for which we can conclude from Theorem E that the irreducible finite dimen-
+                        gC
+sional representation πkω  i
+                             of a simple Lie algebra gC is multiplicity-free when
+restricted to hC for any k ∈ N by Theorem E.
+
+
+                                  Table 7.8.1.
+
+
+           gC                     hC                               i
+       sl(n + 1, C)    sl(p, C) + sl(n + 1 − p, C) + C        1, 2, . . . , n
+       sl(n + 1, C)           so(n + 1, C)                    1, 2, . . . , n
+        sl(2m, C)              sp(m, C)                     1, 2, . . . , 2m − 1
+      so(2n + 1, C)     so(p, C) + so(2n + 1 − p, C)               1
+        sp(n, C)          sp(p, C) + sp(n − p, C)                  n
+        sp(n, C)                gl(n, C)                           n
+        so(2n, C)         so(p, C) + so(2n − p, C)            1, n − 1, n
+        so(2n, C)               gl(n, C)                      1, n − 1, n
+           e6              so(10, C) + so(2, C)                  1, 6
+           e6               sl(6, C) + sl(2, C)                  1, 6
+           e6                     f4                             1, 6
+           e6                   sp(4, C)                         1, 6
+           e7                 e6 + so(2, C)                        7
+           e7              so(12, C) + sl(2, C)                    7
+           e7                   sl(8, C)                           7
+
+
+
+
+   Some of the above cases were previously known to be multiplicity-free by
+case-by-case argument, in particular, for the case rank gC = rank hC . Among
+them, the corresponding explicit branching laws have been studied by S.
+Okada [68] and H. Alikawa [1].
+48     Toshiyuki KOBAYASHI
+
+   There are some few representations π that are not of pan type, but are
+multiplicity-free when restricted to symmetric subgroups H. Our method still
+works to capture such cases, but we do not go into details here (see [46, 51, 52]).
+
+
+8 Generalization of the Hua–Kostant–Schmid Formula
+This section discusses an explicit irreducible decomposition formula of the
+restriction π|H where the triple (π, G, H) satisfies the following two conditions:
+    1) π is a holomorphic discrete series representation of scalar type (Defini-
+tion 1.3).
+    2) (G, H) is a symmetric pair defined by an involution τ of holomorphic
+type (Definition 1.4).
+    We know a priori from Theorem B (1) that the branching law is discrete
+and multiplicity-free. The main result of this section is Theorem 8.3, which
+enriches this abstract property with an explicit multiplicity-free formula. The
+formula for the special case H = K corresponds to the Hua–Kostant–Schmid
+formula ([26, 32, 78]). We also present explicit formulas for the irreducible
+decomposition of the tensor product representation (Theorem 8.4) and of the
+restriction U (p, q) ↓ U (p − 1, q) (Theorem 8.11).
+    Let us give a few comments on our proof of Theorem 8.3. Algebraically,
+our key machinery is Lemma 8.7 which assures that the irreducible G-
+decomposition is determined only by its K-structure. Geometrically, a well-
+known method of taking normal derivatives (e.g. S. Martens [63], Jakobsen–
+Vergne [31]) gives a general algorithm to obtain branching laws for highest
+weight modules. This algorithm yields explicit formulae by using the obser-
+vation that the fiber of the normal bundle for Gτ /K τ ⊂ G/K is the tangent
+space of another Hermitian symmetric space Gτ θ /K τ . The key ingredient of
+the geometry here is the following nice properties of the two symmetric pairs
+(G, Gτ ) and (G, Gτ θ ):
+    a) K ∩ Gτ = K ∩ Gτ θ ,
+    b) p = (p ∩ gτ ) ⊕ (p ∩ gτ θ ).
+    Unless otherwise mentioned, we shall assume H is connected, that is, H =
+Gτ0 throughout this section.
+
+8.1 Notation for highest weight modules
+
+We set up the notation and give a parametrization of irreducible highest
+weight modules for both finite and infinite dimensional cases.
+   First, we consider finite dimensional representations. Let us take a Cartan
+subalgebra t of a reductive Lie algebra k and fix a positive system ∆+ (k, t).
+We denote by πµk the irreducible finite dimensional representation of k with
+highest weight µ, if µ is a dominant integral weight. A k-module πµk will be
+written also as πµK if the action lifts to K.
+                           Multiplicity-free restrictions to symmetric pairs       49
+
+   Next, let G be a connected reductive Lie group, θ a Cartan involution,
+K = {g ∈ G : θg = g}, g = k + p the corresponding Cartan decomposition
+and gC = kC + pC its complexification. We assume that there exists a central
+element Z of k such that
+
+                               gC = kC + p+ + p−                               (8.1.1)
+
+is the eigenspace decomposition of √1−1 ad(Z) with eigenvalues 0, 1, and −1,
+respectively. This assumption is satisfied if and only if G is locally isomorphic
+to a direct product of connected compact Lie groups and non-compact Lie
+groups of Hermitian type (if G is compact, we can simply take Z = 0).
+    We set
+
+                                  e := √1 Z .
+                                  Z                                            (8.1.2)
+                                        −1
+
+   As in Definition 1.3, we say an irreducible (gC , K)-module V is a highest
+weight module if
+
+                   V p+ = {v ∈ V : Y v = 0      for all Y ∈ p+ }
+
+is non-zero. Then, V p+ is irreducible as a K-module, and the (gC , K)-module
+V is determined uniquely by the K-structure on V p+ . If µ is the highest
+weight of V p+ , we write V as πµg . That is, the irreducible (gC , K)-module πµg
+is characterized by the K-isomorphism:
+
+                                  (πµg )p+ ≃ πµk .                             (8.1.3)
+
+An irreducible unitary highest weight representation π of G will be denoted
+by πµG if the underlying (gC , K)-module of π is isomorphic to πµg . Let ΛG be
+the totality of µ such that πµg lifts to an irreducible unitary representation of
+G. For simply connected G, irreducible√unitary highest weight representations
+were classified, that is, the set ΛG (⊂ −1t∗ ) was explicitly found in [12] and
+[30] (see also [13]). In particular, we recall from [12] that
+
+                            e ∈R
+                          λ(Z)          for any λ ∈ ΛG
+
+and
+                                         e <∞
+                             cG := sup λ(Z)                                    (8.1.4)
+                                    λ∈ΛG
+
+if G is semisimple.
+    The highest weight module πµg is the unique quotient of the generalized
+Verma module
+
+                        N g (µ) := U (gC ) ⊗U(kC +p+ ) πµk ,                   (8.1.5)
+50      Toshiyuki KOBAYASHI
+
+where πµk is regarded as a module of the maximal parabolic subalgebra kC +
+p+ by making p+ act trivially. Furthermore, πµg has a Z(gC )-infinitesimal
+character µ + ρg ∈ t∗C via the Harish-Chandra isomorphism
+                          HomC-algebra (Z(gC ), C) ≃ t∗C /W ,
+where Z(gC ) is the center of the enveloping algebra U (gC ), W is the Weyl
+group of the root system ∆(g, t), and ρg is half the sum of positive roots
+∆+ (g, t) := ∆+ (k, t) ∪ ∆(p+ , t).
+
+8.2 Strongly orthogonal roots
+Let G be a non-compact simple Lie group of Hermitian type, and τ an invo-
+lution of holomorphic type which commutes with the Cartan involution θ.
+    We take a Cartan subalgebra tτ of the reductive Lie algebra
+                               kτ := {X ∈ k : τ X = X}
+and extend it to a Cartan subalgebra t of k. We note that tτ = kτ ∩ t. The pair
+(k, kτ ) forms a reductive symmetric pair, and t plays an analogous role to the
+fundamental Cartan subalgebra with respect to this symmetric pair. Thus,
+using the same argument as in [84], we see that if α ∈ ∆(k, t) satisfies α|tτ = 0
+then α = 0. Thus, we can take positive systems ∆+ (k, t) and ∆+ (kτ , tτ ) in a
+compatible way such that
+                         α|tτ ∈ ∆+ (kτ , tτ )   if α ∈ ∆+ (k, t) .                   (8.2.1)
+   Since τ is of holomorphic type, we have τ Z = Z, and therefore τ p+ = p+ .
+                                                        −τ
+Hence, we have a direct sum decomposition p+ = pτ+ ⊕ p+    , where we set
+                            p±τ
+                             + := {X ∈ p+ : τ X = ±X} .
+
+   Let us consider the reductive subalgebra gτ θ . Its Cartan decomposition is
+given by
+                gτ θ = (gτ θ ∩ gθ ) + (gτ θ ∩ g−θ ) = kτ + p−τ ,
+and its complexification is given by
+                                              −τ
+                                gτCθ = kτC ⊕ p+  ⊕ p−τ
+                                                    − .                              (8.2.2)
+The Cartan subalgebra tτ of kτ is also a Cartan subalgebra of gτ θ .
+    Let ∆(p−τ      τ                            −τ                    τ
+              + , t ) be the set of weights of p+ with respect to t . The roots
+α and β are said to be strongly orthogonal if neither α + β nor α − β is a
+root. We take a maximal set of strongly orthogonal roots {ν1 , ν2 , . . . , νl } in
+∆(p−τ     τ
+     + , t ) such that
+                                                          −τ τ
+    i) ν1 is the lowest root among the elements in ∆(p+     , t ),
+    ii) νj+1 is the lowest root among the elements in ∆(p−τ            τ
+                                                                  + , t ) that are
+strongly orthogonal to ν1 , . . . , νj .
+    A special case applied to τ = θ shows kτ = k, tτ = t, p−τ = p, and
+∆(p−τ     τ
+     + , t ) = ∆(p+ , t). In this case, we shall use the notation {ν̄1 , ν̄2 , . . . , ν̄l̄ }
+for a maximal set of strongly orthogonal roots in ∆(p+ , t) such that
+                                Multiplicity-free restrictions to symmetric pairs       51
+
+ i) ν̄1 is the lowest root among ∆(p+ , t),
+ii) ν̄j+1 is the lowest root among the elements in ∆(p+ , t) that are strongly
+    orthogonal to ν̄1 , . . . , ν̄j (1 ≤ j ≤ l̄).
+Then, l¯ = R- rank g by [57]. Likewise, in light of (8.2.2) for the Hermitian sym-
+metric space Gτ θ /Gτ θ ∩ K = Gτ θ /Gτ,θ , we have l = R- rank gτ θ . In general,
+l≤¯l.
+
+8.3 Branching laws for semisimple symmetric pairs
+
+It follows from (8.1.3) that the highest weight module πµg is of scalar type,
+namely, (πµg )p+ is one dimensional, if and only if
+
+                        hµ, αi = 0            for any α ∈ ∆(k, t) .                 (8.3.1)
+
+Furthermore, the representation πµG is a (relative) holomorphic discrete series
+representation of G if and only if
+
+                   hµ + ρg , αi < 0             for any α ∈ ∆(p+ , t) .             (8.3.2)
+
+   We are now ready to state the branching law of holomorphic discrete series
+representations πµG of scalar type with respect to semisimple symmetric pairs
+(G, H):
+
+Theorem 8.3. Let       √ G be a non-compact simple Lie group of Hermitian type.
+Assume that µ ∈ −1 t∗ satisfies (8.3.1) and (8.3.2). Let τ be an involutive
+automorphism of G of holomorphic type, H = Gτ0 (the identity component of
+Gτ ), and {ν1 , . . . , νl } be the set of strongly orthogonal roots in ∆(p−τ   τ
+                                                                           + , t ) as
+                                 G
+in Subsection 8.2. Then, πµ decomposes discretely into a multiplicity-free sum
+of irreducible H-modules:
+                  X⊕
+                                H
+      πµG |H ≃                 πµ| tτ −
+                                        Pl           (discrete Hilbert sum).        (8.3.3)
+                                         j=1 aj νj
+              a1 ≥···≥al ≥0
+               a1 ,...,al ∈N
+
+    The formula for the case H = K (that is, τ = θ) was previously found by
+L.-K. Hua (implicit in the classical case), B. Kostant (unpublished) and W.
+Schmid [78] (see also Johnson [32] for an algebraic proof). In this case, each
+summand in the right side is finite dimensional.
+    For τ 6= θ, some special cases have been also studied by H. Jakobsen, M.
+Vergne, J. Xie, W. Bertram and J. Hilgert [7, 30, 31, 89]. Further, quantitative
+results by means of reproducing kernels are obtained in [5]. The formula (8.3.3)
+in the above generality was first given by the author [39].
+    We shall give a proof of Theorem 8.3 in Subsection 8.8.
+52      Toshiyuki KOBAYASHI
+
+8.4 Irreducible decomposition of tensor products
+As we saw in Example 3.2.1, the pair (G × G, diag(G)) forms a symmetric
+pair. Correspondingly, the tensor product representation can be regarded as
+a special (and easy) case of restrictions of representations with respect to
+symmetric pairs. This subsection provides a decomposition formula of the
+tensor product of two holomorphic discrete series representations of scalar
+type. This is regarded as a counterpart of Theorem 8.3 for tensor product
+representations.
+   We recall from Subsection 8.2 that {ν̄1 , . . . , ν̄l̄ } is a maximal set of strongly
+orthogonal roots in ∆(p+ , t) and l̄ = R- rank g.
+Theorem 8.4. Let G be √     a non-compact simple Lie group of Hermitian type.
+Assume that µ1 , µ2 ∈         −1 t∗ satisfy the conditions (8.3.1) and (8.3.2).
+Then, the tensor product representation πµG1 ⊗π b µG decomposes discretely into
+                                                    2
+a multiplicity-free sum of irreducible G-modules:
+                                     X
+                    πµG1 ⊗π
+                         b µG ≃
+                             2
+                                            πµG +µ −P l̄ a ν̄ .
+                                                     1   2   j=1   j j
+                                  a1 ≥···≥al̄ ≥0
+                                   a1 ,...,al̄ ∈ N
+
+The proof of Theorem 8.4 will be given in Subsection 8.9.
+
+8.5 Eigenvalues of the central element Z
+Our proof of Theorems 8.3 and 8.4 depends on the algebraic lemma that the
+K-type formula determines the irreducible decomposition of the whole group
+(see Lemma 8.7). This is a very strong assertion, which fails in general for non-
+highest weight modules. This subsection collects some nice properties peculiar
+to highest weight modules that will be used in the proof of Lemma 8.7.
+    For a K-module V , we define a subset of C by
+                                                    e on V } ,
+                     SpecZe (V ) := {eigenvalues of Z
+where we set
+                                  e := √1 Z .
+                                  Z
+                                         −1
+For instance, SpecZe (V ) is a singleton if V is an irreducible K-module. We
+also note that SpecZe (gC ) = {0, ±1} by (8.1.1).
+Lemma 8.5. Suppose V is an irreducible (gC , K)-module. Then,
+1) SpecZe (V ) ⊂ a0 + Z for some a0 ∈ C.
+2) If sup Re SpecZe (V ) < ∞, then V is a highest weight module.
+3) If V is a highest weight module πλg , then SpecZe (V ) ⊂ −N + λ(Z)   e and
+                           e
+sup Re SpecZe (V ) = Re λ(Z).
+4) If V is a unitary highest weight module, then SpecZe (V ) ⊂ (−∞, cG ], where
+cG is a constant depending on G.
+5) If both V and F are highest weight modules of finite length, then any irre-
+ducible subquotient W of V ⊗ F is also a highest weight module.
+                           Multiplicity-free restrictions to symmetric pairs       53
+
+                                                e as Va := {v ∈ V : Zv
+Proof. 1) For a ∈ C, we write the eigenspace of Z                   e = av}.
+Then, it follows from the Leibniz rule that
+              p+ Va ⊂ Va+1 ,     kC Va ⊂ Va ,    and p− Va ⊂ Va−1 .
+
+An iteration of this argument shows that
+                           SpecZe (U (gC )Va ) ⊂ a + Z .
+
+Now we take a0 such that Va0 6= {0}. Since V is irreducible, we have V =
+U (gC )Va0 , and therefore SpecZe (V ) ⊂ a0 + Z.
+2) Suppose sup Re SpecZe (V ) < ∞. Since Re SpecZe (V ) is discrete by (1), there
+exists a ∈ SpecZe (V ) such that Re a attains its maximum. Then
+
+                               p+ Va ⊂ Va+1 = {0} .
+Thus, Va ⊂ V p+ . Hence, V is a highest weight module.
+3) The highest weight module πλg is isomorphic to the unique irreducible quo-
+tient of the generalized Verma module N g (λ) = U (gC ) ⊗U(kC +p+ ) πλk . By the
+Poincaré–Birkhoff–Witt theorem, N g (λ) is isomorphic to S(p− ) ⊗ πλk as a
+k-module. Thus, any k-type πµk occurring in πλg is of the form
+                                       X
+                            µ=λ+             mα α
+                                       α∈∆(p− ,t)
+
+
+for some mα ∈ N. As α( e
+                      Z) = −1 for any α ∈ ∆(p− , t), we have
+                                       X
+                         e = λ(Z)
+                      µ(Z)     e −          mα .                               (8.5.1)
+                                             α∈∆(p− ,t)
+
+In particular, we have the following equivalence:
+                            e = Re λ(Z)
+                       Re µ(Z)       e ⇐⇒ µ = λ ,                              (8.5.2)
+and we also have
+                                 X
+                        e −
+     SpecZe (πλg ) ⊂ {λ(Z)                                       e .
+                                           mα : mα ∈ N} = −N + λ(Z)            (8.5.3)
+                              α∈∆(p− ,t)
+
+
+Furthermore, since the k-type πλk occurs in πλg , we have λ( e Z) ∈ SpecZe (πλg ).
+                      g          e
+Here, sup Re SpecZe (πλ ) = Re λ(Z).
+4) This statement follows from (8.1.4) and from (3).
+5) For two subsets A and B in C, we write A+B := {a + b ∈ C : a ∈ A, b ∈ B}.
+Then, SpecZe (V ⊗ F ) ⊂ SpecZe (V ) + SpecZe (F ) . Therefore,
+
+       sup Re SpecZe (W ) ≤ sup Re SpecZe (V )
+                          ≤ sup Re SpecZe (V ) + sup Re SpecZe (F ) < ∞.
+
+Hence, W is also a highest weight module by (2). ⊓
+                                                 ⊔
+54     Toshiyuki KOBAYASHI
+
+8.6 Bottom layer map
+
+The following lemma finds an irreducible summand (‘bottom layer’) from the
+K-type structure.
+
+Lemma 8.6. Let V be a (gC , K)-module. We assume that V decomposes into
+an algebraic direct sum of (possibly, infinitely many) irreducible highest weight
+modules. We set
+                                  √
+               Suppk (V ) := {µ ∈ −1t∗ : Homk (πµk , V ) 6= {0}} .
+
+If the evaluation map
+
+                        Suppk (V ) → R ,              e
+                                            µ 7→ Re µ(Z)
+
+attains its maximum at µ0 , then
+
+                          Hom(gC ,K) (πµg0 , V ) 6= {0} .
+
+Proof. Take a non-zero map q ∈ Homk (πµk 0 , V ). As V is an algebraic direct
+sum of irreducible highest weight modules, there exists a projection p : V →
+πλg for some λ such that p ◦ q 6= 0. This means that πµk 0 occurs in πλg , and
+therefore we have
+                         e ≤ sup Re Spec e (π g ) = Re λ(Z)
+                  Re µ0 (Z)                              e .
+                                        Z λ
+
+Here, the last equality is by Lemma 8.5 (3).
+    Conversely, the maximality of µ0 implies that Re µ0 ( e
+                                                          Z) ≥ Re λ( e
+                                                                    Z). Hence,
+       e           e
+Re µ0 (Z) = Re λ(Z), and we have then µ0 = λ by (8.5.2). Since πλg is an
+irreducible summand of V , we have Hom(gC ,K) (πµg0 , V ) 6= {0}. ⊓
+                                                                  ⊔
+
+8.7 Determination of the gC -structure by K-types
+
+In general, the K-type formula is not sufficient to determine the irreducible
+decomposition of a unitary representation even in the discretely decomposable
+case. However, this is the case if any irreducible summand is a highest weight
+module. Here is the statement that we shall use as a main machinery of the
+proof of Theorems 8.3 and 8.4.
+Lemma 8.7. Suppose (π, H) is a K-admissible unitary representation of G,
+which splits discretely into a Hilbert direct sum of irreducible unitary highest
+weight representations of G. Let HK be the space of K-finite vectors of H.
+Assume that there exists a function nπ : t∗C → N such that HK is isomorphic
+to the following direct sum as k-modules:
+                         M
+                  HK ≃       nπ (λ)πλg (algebraic direct sum).           (8.7.1)
+                         λ
+                              Multiplicity-free restrictions to symmetric pairs       55
+
+Then, nπ (λ) 6= 0 only if λ ∈ ΛG , that is, πλg lifts to an irreducible unitary
+representation πλG of G. Furthermore, the identity (8.7.1) holds as a (gC , K)-
+module isomorphism, and the unitary representation π has the following de-
+composition into irreducible unitary representations of G:
+                        X⊕
+                   π≃          nπ (λ)πλG    (discrete Hilbert sum).               (8.7.2)
+                         λ
+
+Proof. We write an abstract irreducible decomposition of H as
+                         X⊕
+                   H≃            mλ πλG     (discrete Hilbert sum).
+                         λ∈ΛG
+
+Since H is K-admissible, the multiplicity mλ < ∞ for all λ, and we have
+an isomorphism of (gC , K)-modules with the same multiplicity mλ (see [43,
+Theorem 2.7]):
+                        M
+               HK ≃         mλ πλg (algebraic direct sum).         (8.7.3)
+                             λ∈ΛG
+
+Let us show nπ (λ) = mλ for all λ. For this, we begin with an observation that
+                                        [
+                     SpecZe (HK ) =            SpecZe (πλg )
+                                           λ such that
+                                              mλ 6=0
+
+is a subset in R and has an upper bound. This follows from Lemma 8.5 (4)
+applied to each irreducible summand in (8.7.3).
+    First, we consider the case where there exists a ∈ R such that
+
+                λ( e
+                  Z) ≡ a mod Z for any λ satisfying nπ (λ) 6= 0.                  (8.7.4)
+
+Then, the set
+
+                              {λ( e
+                                 Z) : λ ∈ t∗C , nπ (λ) 6= 0}                      (8.7.5)
+
+is contained in SpecZe (HK ) by (8.7.1), and is discrete by (8.7.4). Hence, it is
+a discrete subset of R with an upper bound. Thus, we can find µ0 ∈ t∗C such
+that nπ (µ0 ) 6= 0 and that µ0 ( e
+                                Z) attains its maximum in (8.7.5). In turn, the
+evaluation map Suppk (HK ) → R, µ 7→ µ( e     Z) attains its maximum at µ0 ∈
+Suppk (HK ) by (8.7.1) and Lemma 8.5 (3). Therefore, Hom(gC ,K) (πµg0 , HK ) 6=
+{0} by Lemma 8.6. Thus, we have shown mµ0 6= 0, that is, πµG0 occurs as a
+subrepresentation in H.
+    Next, we consider the unitary representation π ′ on
+                                X⊕
+                        H′ :=           mλ πλG ⊕ (mµ0 − 1)πµG0 ,
+                                λ6=µ0
+56      Toshiyuki KOBAYASHI
+
+the orthogonal complement of a subrepresentation πµG0 in H. Then, the K-type
+formula (8.7.1) for (π ′ , H′ ) holds if we set
+                                    (
+                                      nπ (λ) − 1 (λ = µ0 ) ,
+                       nπ′ (λ) :=
+                                      nπ (λ)     (λ 6= µ0 ) .
+
+Hence, by the downward induction on sup SpecZe (HK ), we have nπ (λ) = mλ
+for all λ.
+    For the general case, let A be the set of complete representatives of {λ( e
+                                                                             Z) ∈
+C mod Z : nπ (λ) 6= 0}. For each a ∈ A, we define a subrepresentation Ha of
+H by
+                          X⊕
+               Ha :=              mλ πλG (discrete Hilbert sum).
+                       e
+                     λ(Z)≡a mod Z
+
+Then, we have an isomorphism of unitary representations of G:
+                                         X⊕
+                                    H≃         Ha .
+                                         a∈A
+
+                                             e ≡ a mod Z by Lemma 8.5 (3),
+Since SpecZe (πλg ) ⊂ a + Z if and only if λ(Z)
+we get from (8.7.1) the following K-isomorphism
+                                       M
+                          (Ha )K ≃            nπ (λ)πλg            (8.7.6)
+                                    λ( e
+                                      Z)≡amodZ
+
+
+for each a ∈ A. Therefore, our proof for the first step assures nπ (λ) = mλ for
+any λ such that λ ≡ a mod Z. Since a ∈ A is arbitrary, we obtain Lemma in
+the general case. ⊓
+                  ⊔
+
+8.8 Proof of Theorem 8.3
+
+In this section, we give a proof of Theorem 8.3. This is done by showing a more
+general formula in Lemma 8.8 without the scalar type assumption (8.3.1).
+Then, Theorem 8.3 follows readily from Lemma 8.8        P because the assumption
+(8.3.1) makes dim πµk = 1 and S(a1 ,...,al ) (µ) = {µ − lj=1 aj νj } (see (8.8.1) for
+notation).
+    For a discussion below, it is convenient to use the concept of a multi-
+set. Intuitively, a multiset is a set counted with multiplicities; for example,
+{a, a, a, b, c, c}. More precisely, a multiset S consists of a set S and a function
+m : S → {0, 1, 2, . . . , ∞}. If S′ = {S, m′ } is another multiset on S such that
+m′ (x) ≤ m(x) for all x ∈ S, we say S′ is a submultiset of S and write S′ ⊂ S.
+    Suppose we are in the setting of Subsection 8.2 and recall τ is an involu-
+tion of holomorphic type. For a ∆+ (k, t)-dominant weight µ, we introduce a
+multiset S(µ) consisting of ∆+ (kτ , tτ )-dominant weights:
+                                Multiplicity-free restrictions to symmetric pairs       57
+                                            [
+                             S(µ) :=                    S(a1 ,...,al ) (µ) ,
+                                       a1 ≥···≥al ≥0
+                                        a1 ,...,al ∈N
+
+where we define the multiset S(a1 ,...,al ) (µ) by
+       {highest weight of irreducible kτ -modules occurring in
+           kτ P
+          π−          ⊗ πµk |kτ counted with multiplicities}.                       (8.8.1)
+                l
+                  a ν
+                j=1    j j
+
+
+
+Because the central element Z      e = √1 Z of kC acts on the irreducible repre-
+                                           −1
+sentation πµk by the scalar µ( e  Z) and because νj ( e
+                                                      Z) = 1 for all j (1 ≤ j ≤ l),
+                                                e     Pl             e Therefore,
+any element ν in S(a1 ,...,al ) (µ) satisfies ν(Z) = − j=1 aj + µ(Z).
+the multiplicity of each element of the multiset S(µ) is finite.
+Lemma 8.8. Let τ be an involution of G of holomorphic type, and H = Gτ0 .
+If πµG is a (relative) holomorphic discrete series representation of G, then it
+decomposes discretely into irreducible H-modules as:
+                            X⊕
+                   πµG |H ≃     πνH (discrete Hilbert sum).
+                               ν∈S(µ)
+
+Proof of Lemma 8.8. It follows from Fact 5.1 (1) that πµG is (H∩K)-admissible,
+and splits discretely into a Hilbert direct sum of irreducible unitary represen-
+tations of H.
+    Applying Lemma 8.7 to H = Gτ0 , we see that Lemma 8.8 is deduced from
+the following kτ -isomorphism:
+                           M       τ
+                    πµg ≃       πνg   (algebraic direct sum).            (8.8.2)
+                              ν∈S(µ)
+
+The rest of the proof is devoted to showing (8.8.2).
+    Since πµG is a holomorphic discrete series, πµg is isomorphic to the gener-
+alized Verma module N g (µ) = U (gC ) ⊗U(kC +p+ ) πµk as a g-module, which in
+turn is isomorphic to the k-module S(p− ) ⊗ πµk .
+    According to the decomposition p− = pτ− ⊕ p−τ          τ
+                                                    − as k -modules, we have
+                     τ
+then the following k -isomorphism:
+                      πµg ≃ S(p− ) ⊗ πµk ≃ S(pτ− ) ⊗ S(p−τ     k
+                                                        − ) ⊗ πµ .                  (8.8.3)
+
+Now, we consider the Hermitian symmetric space Gτ θ /Gτ,θ , for which the
+complex structure is given by the decomposition gτCθ = kτC ⊕ p−τ       −τ
+                                                                + ⊕ p− (see
+(8.2.2)). Then, the Hua–Kostant–Schmid formula ([78, Behauptung c]) ap-
+plied to Gτ θ /Gτ,θ decomposes the symmetric algebra S(p−τ− ) into irreducible
+kτ -modules:
+                                   M
+                                          kτ P
+                       S(p−τ
+                          − )≃           π−    l
+                                                  aj νj
+                                                        .               (8.8.4)
+                                                                 j=1
+                                        a1 ≥···≥al ≥0
+                                         a1 ,...,al ∈N
+58      Toshiyuki KOBAYASHI
+
+It follows from the definition of S(µ) that we have the following irreducible
+decomposition as kτ -modules:
+                                           M      τ
+                              −τ
+                          S(p−   ) ⊗ πµk ≃     πνk .
+                                                    ν∈S(µ)
+
+
+Combining this with (8.8.3), we get a kτ -isomorphism
+                                M                 τ
+                         πµg ≃       S(pτ− ) ⊗ πνk .
+                                       ν∈S(µ)
+
+                                                    τ                        τ
+Next, we consider the Verma module N g (ν) = U (gτC ) ⊗U(kτC +pτ+ ) πνk of the
+                             τ                                                 τ
+subalgebra gτ . Then, πνg is the unique irreducible quotient of N g (ν). We
+                             τ
+shall show later that N g (ν) is irreducible as a gτ -module, but at this stage
+                τ     τ      τ
+we denote by πνg , πνg′ , πνg′′ , . . . the totality of irreducible subquotient modules
+      τ
+of N g (ν). (There are at most finitely many subquotients, and all of them are
+highest weight modules.) Then, as kτ -modules, we have the following isomor-
+phisms:
+                                   τ            τ
+                     S(pτ− ) ⊗ πνk ≃ N g (ν)
+                                             τ          τ    τ
+                                       ≃ πνg ⊕ πνg′ ⊕ πνg′′ ⊕ · · · .
+
+Therefore, we get a kτ -isomorphism:
+                            M       τ     τ      τ
+                    πµg ≃       (πµg ⊕ πνg′ ⊕ πνg′′ ⊕ · · · ) .
+                             ν∈S(µ)
+
+
+Accordingly, the restriction πµG |H splits discretely into irreducible unitary rep-
+resentations of H by Lemma 8.7:
+                                 X⊕
+                     πµG |H ≃            (πνH ⊕ πνH′ ⊕ πνH′′ ⊕ · · · ) .
+                                ν∈S(µ)
+
+
+Since πµG is a (relative) holomorphic discrete series representation of G, all
+irreducible summands in the right-hand side must be (relative) holomorphic
+                                                                            τ
+discrete series representations of H by Fact 5.1 (1). Therefore, N g (ν) is
+                                              τ    τ
+irreducible, and the other subquotients πνg′ , πνg′′ , . . . do not appear. Hence,
+the kτ -structures of the both sides of (8.8.2) are the same. Thus, Lemma 8.8
+is proved. ⊓ ⊔
+
+8.9 Proof of Theorem 8.4
+
+For two irreducible representations πµk 1 and πµk 2 , we define a multiset S(µ1 , µ2 )
+consisting of ∆+ (k, t)-dominant weights by
+                             Multiplicity-free restrictions to symmetric pairs                     59
+                                          [
+                    S(µ1 , µ2 ) :=                     S(a1 ,...,al̄ ) (µ1 , µ2 ) ,
+                                     a1 ≥···≥al̄ ≥0
+                                      a1 ,...,al̄ ∈N
+
+
+where S(a1 ,...,al̄ ) (µ1 , µ2 ) is the multiset consisting of highest weights of irre-
+ducible k-modules occurring in π−        k P
+                                             l̄
+                                                 a ν̄
+                                                      ⊗ πµk 1 ⊗ πµk 2 counted with multi-
+                                             j=1    j j
+
+plicities.
+    Theorem 8.4 is derived from the following more general formula:
+
+Lemma 8.9. The tensor product of two (relative) holomorphic discrete series
+representations πµG1 and πµG2 decomposes as follows:
+                                                    X⊕
+                              πµG1 ⊗
+                                   b πµG ≃
+                                        2
+                                                                πνG .
+                                               ν∈S(µ1 ,µ2 )
+
+Proof. We define two injective maps by:
+
+                     diag : p+ → p+ ⊕ p+ , X 7→ (X, X) ,
+                     diag′ : p+ → p+ ⊕ p+ , X 7→ (X, −X) .
+
+It then follows that we have k-isomorphisms:
+
+           S(p− ) ⊗ S(p− ) ≃ S(p− ⊕ p− )
+                           ≃ S(diag(p− )) ⊗ S(diag′ (p− ))
+                                M
+                                                         k P
+                           ≃            S(diag(p− )) ⊗ π−    l̄                                .
+                                                                                  j=1 aj ν̄j
+                                a1 ≥···≥al̄ ≥0
+                                 a1 ,...,al̄ ∈N
+
+This brings us the following k-isomorphisms:
+
+                     πµg1 ⊗ πµg2 ≃ S(p− ) ⊗ πµk 1 ⊗ S(p− ) ⊗ πµk 2
+                                     M
+                                 ≃           S(diag(p− )) ⊗ πνk
+                                     ν∈S(µ1 ,µ2 )
+                                          M
+                                 ≃                  Nνg .
+                                     ν∈S(µ1 ,µ2 )
+
+The rest of the proof goes similarly to that of Lemma 8.8. ⊓
+                                                           ⊔
+
+8.10 Restriction U (p, q) ↓ U (p − 1, q) and SO(n, 2) ↓ SO(n − 1, 2)
+
+Suppose (G, H) is a reductive symmetric pair whose complexification (gC , hC )
+is one of the following types:
+    (sl(n, C), gl(n − 1, C)) (or (gl(n, C), gl(1, C) + gl(n − 1, C))),
+   (so(n, C), so(n − 1, C)).
+60     Toshiyuki KOBAYASHI
+
+As is classically known (see [83]), for compact (G, H) such as (U (n), U (1) ×
+U (n − 1)) or (SO(n), SO(n − 1)), any irreducible finite dimensional repre-
+sentation π of G is multiplicity-free when restricted to H. For non-compact
+(G, H) such as (U (p, q), U (1) × U (p − 1, q)) or (SO(n, 2), SO(n − 1, 2)), an
+analogous theorem still holds for highest weight representations π:
+Theorem 8.10. If (g, h) = (u(p, q), u(1)+u(p−1, q)) or (so(n, 2), so(n−1, 2)),
+then any irreducible unitary highest weight representation of G decomposes
+discretely into a multiplicity-free sum of irreducible unitary highest weight
+representations of H.
+    In contrast to Theorem A, the distinguishing feature of Theorem 8.10 is
+that π is not necessarily of scalar type but an arbitrary unitary highest weight
+module. The price to pay is that the pair (G, H) is very special. We do not give
+the proof here that uses the vector bundle version of Theorem 2.2 (see [49]).
+Instead, we give an explicit decomposition formula for holomorphic discrete
+series π. The proof of Theorem 8.10 for the case (G, H) = (SO0 (n, 2), SO0 (n−
+1, 2)) can be also found in Jakobsen and Vergne [31, Corollary 3.1].
+
+8.11 Branching law for U (p, q) ↓ U (p − 1, q)
+
+This subsection gives an explicit branching law of a holomorphic discrete series
+representation πµG of G = U (p, q) when restricted to H = U (1) × U (p − 1, q).
+Owing to (8.3.2), such πµG is parametrized by µ = (µ1 , . . . , µp+q ) ∈ Zp+q
+satisfying
+
+              µ1 ≥ · · · ≥ µp , µp+1 ≥ · · · ≥ µp+q , µp+q ≥ µ1 + p + q .
+
+Here is the formula:
+Theorem 8.11 (Branching law U (p, q) ↓ U (p − 1, q)). Retain the above
+setting. Then, the branching law of πµG of the restriction to the subgroup H is
+multiplicity-free for any µ; it is given as follows:
+           ∞
+           X ⊕              X⊕                                               U(p−1,q)
+πµG |H ≃                                      CP pi=1 µi −P pi=1 λi −a ⊠ π(λ2 ,...,λp ,λp+1 ,...,λp+q ) .
+           a=0     µ1 ≥λ2 ≥µ2 ≥···≥λp ≥µp
+                    P≥µ
+                 λp+1
+                      q
+                        p+1 ≥···≥λp+q ≥µp+q
+                      i=1 (λp+i −µp+i )=a
+
+                                                                                         (8.11.1)
+
+Proof. For (G, H) ≡ (G, Gτ ) = (U (p, q), U (1) × U (p − 1, q)), we have
+
+                 Gτ θ                         ≃ U (1, q) × U (p − 1),
+                                τ      τθ
+                 H ∩ K (= K = K ) ≃ U (1) × U (p − 1) × U (q),
+
+tτ = t, and
+                        ∆+ (p−τ   τ
+                             + , t ) = {e1 − ep+i : 1 ≤ i ≤ q}
+                               Multiplicity-free restrictions to symmetric pairs                61
+
+by using the standard basis of ∆(g, t) = {±(ei − ej ) : 1 ≤ i < j ≤ p + q}.
+Thus, l = R- rank Gτ θ = 1 and ν1 = e1 − ep+1 . Hence, the kτ -type formula
+(8.8.4) amounts to
+                                        ∞
+                                        M
+                           S(p−τ
+                              − )≃
+                                               H∩K
+                                              π−a(e1 −ep+1 )
+                                        a=0
+                                        ∞
+                                        M                      U(q)
+                                    ≃         C−a ⊠ 1 ⊠ π(a,0,...,0)                     (8.11.2)
+                                        a=0
+
+as H ∩ K ≃ U (1) × U (p − 1) × U (q) modules. Here, 1 denotes the trivial one
+dimensional representation of U (p − 1).
+   On the other hand, we recall a classical branching formula U (p) ↓ U (p−1):
+   U(p)
+                                  M                                     U(p−1)
+ π(µ1 ,...,µp ) |U(1)×U(p−1) ≃                 CP pi=1 µi −P pi=2 λi ⊗ π(λ2 ,...,λp ) ,
+                                µ1 ≥λ2 ≥µ2 ≥···≥λp ≥µp
+
+whereas the classical Pieri rule says
+       U(q)            U(q)
+                                                       M                   U(q)
+     π(a,0,...,0) ⊗ π(µp+1 ,...,µp+q ) ≃                                 π(λp+1 ,...,λp+q ) .
+                                              P≥µ
+                                           λp+1
+                                                q
+                                                  p+1 ≥···≥λp+q ≥µp+q
+                                                i=1 (λp+i −µp+i )=a
+
+
+These two formulae together with (8.11.2) yield the following kτ -isomorphisms:
+S(p−τ     k
+   − ) ⊗ πµ |kτ
+   ∞
+   M                U(p)                             U(q)           U(q)
+≃     ((C−a ⊠ 1) ⊗ π(µ1 ,...,µp ) |U(1)×U(p−1) ) ⊠ (π(a,0,...,0) ⊗ π(µp+1 ,...,µp+q ) )
+    a=0
+    ∞
+    M                  M                                              U(p−1)          U(q)
+≃                                       CP pi=1 µi −P pi=2 λi −a ⊠ π(λ2 ,...,λp ) ⊠ π(λp+1 ,...,λp+q ) .
+    a=0     µ1 ≥λ2 ≥µ2 ≥···≥λp ≥µp
+             P≥µ
+          λp+1
+               q
+                 p+1 ≥···≥λp+q ≥µp+q
+               i=1 (λp+i −µp+i )=a
+
+
+In view of the kτ -isomorphisms
+                              πµg ≃ S(pτ− ) ⊗ S(p−τ     k
+                                                 − ) ⊗ πµ |kτ
+          τ                     τ
+and N g (ν) ≃ S(pτ− ) ⊗ πνk , we have now shown that the kτ -structure of πµg
+coincides with that of
+     ∞
+     M                   M                      p      p
+                                                       X
+                                             τ X
+                                           Ng (   µi −   λi − a, λ2 , . . . , λp+q ) .
+     a=0        µ1 ≥λ2 ≥µ2 ≥···≥λp ≥µp           i=1        i=2
+                 P≥µ
+              λp+1
+                   q
+                     p+1 ≥···≥λp+q ≥µp+q
+                   i=1 (λp+i −µp+i )=a
+
+
+As in the last part of the proof of Theorem 8.3, we see that any generalized
+Verma module occurring in the right-hand side is irreducible (and is isomor-
+phic to the underlying (gτC , H ∩ K)-module of a holomorphic discrete series of
+H). Therefore, Theorem follows from Lemma 8.7. ⊓     ⊔
+62        Toshiyuki KOBAYASHI
+
+9 Appendix: Associated Bundles on Hermitian
+Symmetric Spaces
+In this Appendix, we explain standard operations on homogeneous vector
+bundles. The results are well-known and elementary, but we recall them briefly
+for the convenience of the reader. The main goal is Lemma 9.4 which is used
+to verify the condition (2.2.2) in Theorem 2.2.
+
+9.1 Homogeneous vector bundles
+
+Let M be a real manifold, and V a (finite dimensional) vector space over
+C. Suppose that we are given an open covering {Uα } of M and transition
+functions
+                       gαβ : Uα ∩ Uβ → GLC (V )
+satisfying the following compatibility conditions:
+
+           gαβ gβγ gγα ≡ id     on Uα ∩ Uβ ∩ Uγ ;       gαα ≡ id    on Uα .
+
+A complex vector bundle
+                     `     V over M with typical fiber V is constructed as the
+equivalence class of α (Uα × V ), where (x, v) ∈ Uβ × V and (y, w) ∈ Uα × V
+are defined to be equivalent if y = x and w = gαβ (x)v. Then, the space of
+sections Γ (M, V) is identified with the collection
+
+     {(fα ) : fα ∈ C ∞ (Uα , V ), fα (x) = gαβ (x)fβ (x), for x ∈ Uα ∩ Uβ } . (9.1.1)
+
+If M is a complex manifold and if every gαβ is holomorphic (or anti-
+holomorphic), then V → M is a holomorphic (or anti-holomorphic, respec-
+tively) vector bundle.
+    Next, let G be a Lie group, K a closed subgroup of G, and M := G/K
+the homogeneous manifold. Then, we can take an open covering {Uα } of M
+such that for each α there is a local section ϕα : Uα → G of the principal
+bundle G → G/K. Given a representation χ : K → GLC (V ), we define the
+homogeneous vector bundle, V := G ×K (χ, V ). Then V is associated with the
+transition functions:
+
+             gαβ : Uα ∩ Uβ → GLC (V ),     gαβ (x) := χ(ϕα (x)−1 ϕβ (x)) .
+
+The section space Γ (M, V) is identified with the following subspace of C ∞ (G, V ):
+
+         {f ∈ C ∞ (G, V ) : f (gk) = χ−1 (k)f (g), for g ∈ G, k ∈ K} .        (9.1.2)
+
+9.2 Pull-back of vector bundles
+
+Let G′ be a Lie group, K ′ a closed subgroup of G′ , and M ′ := G′ /K ′ the ho-
+mogeneous manifold. Suppose that σ : G′ → G is a Lie group homomorphism
+                             Multiplicity-free restrictions to symmetric pairs         63
+
+such that σ(K ′ ) ⊂ K. We use the same letter σ to denote by the induced map
+M ′ → M , g ′ K ′ 7→ σ(g ′ )K. Then the pull-back of the vector bundle V → M ,
+denoted by σ ∗ V → M ′ , is associated to the representation
+
+                               χ ◦ σ : K ′ → GLC (V ) .
+
+Then we have a commuting diagram of the pull-back of sections (see (9.1.2)):
+
+             σ ∗ : Γ (M, V) → Γ (M ′ , σ ∗ V) , (fα )α 7→ (fα ◦ σ)α ,
+                         ∩               ∩
+             σ : C (G, V ) → C (G′ , V ) ,
+               ∗     ∞               ∞
+                                                      f     7→ f ◦ σ .
+
+9.3 Push-forward of vector bundles
+
+Suppose that V and W are complex vector spaces and that ξ : V → W
+is an anti-linear bijective map. Then, we have an anti-holomorphic group
+isomorphism
+
+                   GLC (V ) → GLC (W ) ,      g 7→ g ξ := ξ ◦ g ◦ ξ −1 .
+
+Let V → M be a complex vector bundle with transition functions gαβ : Uα ∩
+Uβ → GLC (V ). Then, one constructs a complex vector bundle ξ∗ V → M
+                               ξ
+with the transition functions gαβ : Uα ∩ Uβ → GLC (W ). We have a natural
+homomorphism
+
+                   ξ∗ : Γ (M, V) → Γ (M, ξ∗ V) ,     (fα ) 7→ (ξ ◦ fα ) ,
+
+which is well-defined because the compatibility condition in (9.1.1) is satisfied
+as follows: If x ∈ Uα ∩ Uβ then
+ ξ
+gαβ (x)(ξ ◦ fβ )(x) = (ξ ◦ gαβ (x) ◦ ξ −1 )(ξ ◦ fβ )(x) = ξ ◦ gαβ (x)fβ (x) = ξ ◦ fα (x) .
+
+    If V is the homogeneous vector bundle G ×K (χ, V ) associated to a rep-
+resentation χ : K → GLC (V ), then ξ∗ V is isomorphic to the homogeneous
+vector bundle G ×K (χξ , W ) associated to the representation
+
+               χξ : K → GLC (W ) ,       k 7→ χξ (k) := ξ ◦ χ(k) ◦ ξ −1 .
+
+9.4 A sufficient condition for the isomorphism ξ∗ σ ∗ V ≃ V
+
+We are particularly interested in the case where G′ = G, K ′ = K, V = W = C
+and ξ(z) := z̄ (the complex conjugate of z) in the setting of Subsections 9.2
+and 9.3.
+   By the identification of GLC (C) with C× , we have g ξ = g for g ∈
+GLC (V ) ≃ C× . Then, χξ coincides with the conjugate representation
+64      Toshiyuki KOBAYASHI
+
+                      χ : K → GLC (W ) ≃ C× ,         k 7→ χ(k)
+for χ ∈ Hom(K, C× ). Thus, we have an isomorphism of G-equivariant holo-
+morphic line bundles:
+                             ξ∗ σ ∗ V ≃ G ×K (χ ◦ σ, C)                       (9.4.1)
+with the following correspondence of sections:
+            ξ∗ ◦ σ ∗ : Γ (M, V) → Γ (M, ξ∗ σ ∗ V) ,    (fα ) 7→ (fα ◦ σ) .
+    We now apply the formula (9.4.1) to the setting where M = G/K is an
+irreducible Hermitian symmetric space.
+Lemma 9.4. Let χ : K → C× be a unitary character. We denote by V the
+homogeneous line bundle G ×K (χ, C). Suppose σ is an involutive automor-
+phism of G of anti-holomorphic type (see Definition 1.4). Then we have an
+isomorphism of G-equivariant holomorphic line bundles: ξ∗ σ ∗ V ≃ V.
+Proof. In view of (9.4.1), it suffices to show χ ◦ σ = χ. As the character χ of
+K is unitary, we have χ(k) = χ(k −1 ) for any k ∈ K. Let Z be a generator of
+the center c(k) of k. Since σ is of anti-holomorphic type, we have σZ = −Z,
+and then
+            χ ◦ σ(exp tZ) = χ(exp(−tZ)) = χ(exp tZ)               (t ∈ R) .
+On the other hand, if k ∈ [K, K], then χ ◦ σ(k) = 1 = χ(k) because [K, K] is
+a connected semisimple Lie group. As K = exp c(k) · [K, K], we have shown
+χ ◦ σ = χ. Hence Lemma. ⊓   ⊔
+
+Acknowledgement. I owe much to J. Faraut for enlightening discussions, in partic-
+ular, for clarifying the idea of his joint work [15] with E. Thomas at an early stage
+on the occasion of the CIMPA school on Invariant Theory in Tunisia organized by
+P. Torasso in 1996, when I formalized Theorem A and gave its proof in the classical
+case.
+    Some of the results of this article were presented in various places including the
+conferences “Representation Theory at Saga” in 1997 (see [39]) organized by K.
+Mimachi, at “Summer Solstice Days at Paris University VI and VII” in 1999, at
+Copenhagen organized by B. Ørsted and H. Schlichtkrull in 1999, and at Oberwol-
+fach organized by A. Huckleberry and K.-H. Neeb and J. Wolf in 2000 and 2004, at
+the MSRI program “Integral Geometry” organized by S. Gindikin, L. Barchini, and
+R. Zierau in 2001, at the workshop “Representation theory of Lie groups, harmonic
+analysis on homogeneous spaces and quantization” at the Lorentz center in Leiden in
+2002 (see [46]) organized by G. van Dijk and V. F. Molchanov, and at the workshop
+“Representation theory and automorphic forms” in Korea in 2005 coorganized by J.
+Yang and W. Schmid with the author. I express my deep gratitude to the organizers
+of these conferences and to the participants for helpful and stimulating comments
+on various occasions. I also thank an anonymous referee who read the manuscript
+very carefully. Special thanks are due to Ms. Suenaga for her help in preparing for
+the final manuscript.
+                           Multiplicity-free restrictions to symmetric pairs      65
+
+References
+ 1. Alikawa H, Multiplicity free branching rules for outer automorphisms of simple
+    Lie algebras, to appear in J. Math. Soc. Japan
+ 2. van den Ban EP (1987) Invariant differential operators on a semisimple symmet-
+    ric space and finite multiplicities in a Plancherel formula. Ark. Mat. 25:175–187
+ 3. van den Ban EP, Schlichtkrull H (1997) The most continuous part of the
+    Plancherel decomposition for a reductive symmetric space. Ann. of Math.
+    145:267–364
+ 4. Barbasch D, The spherical unitary dual of split and p-adic groups, preprint.
+ 5. Ben Saïd, S (2002) Weighted Bergman spaces on bounded symmetric domains.
+    Pacific J. Math. 206:39–68
+ 6. Berger M (1957) Les espaces symétriques non compacts. Ann. Sci. École Norm.
+    Sup. (3) 74:85–177
+ 7. Bertram W, Hilgert J (1998) Hardy spaces and analytic continuation of
+    Bergman spaces. Bull. Soc. Math. France 126:435–482
+ 8. Delorme P (1998) Formule de Plancherel pour les espaces symétriques réductifs.
+    Ann. of Math. 147:417–452
+ 9. van Dijk G (1999) Canonical representations associated to hyperbolic spaces.
+    II. Indag. Math. 10:357–368
+10. van Dijk G, Hille SC (1997) Canonical representations related to hyperbolic
+    spaces. J. Funct. Anal. 147:109–139
+11. van Dijk G, Pevzner M (2001) Berezin kernels of tube domains. J. Funct. Anal.
+    181:189–208
+12. Enright T, Howe R, Wallach N (1983) A classification of unitary highest weight
+    modules. In Representation theory of reductive groups, Progr. Math. 40:97–143,
+    Birkhäuser
+13. Enright T, Joseph A (1990) An intrinsic classification of unitary highest weight
+    modules. Math. Ann. 288:571–594
+14. Faraut J, Ólafsson G (1995) Causal semisimple symmetric spaces, the geometry
+    and harmonic analysis. Semigroups in Algebra, Geometry and Analysis, Walter
+    de Gruyter 3–32
+15. Faraut J, Thomas E (1999) Invariant Hilbert spaces of holomorphic functions.
+    J. Lie Theory 9:383–402
+16. Flensted-Jensen M (1980) Discrete series for semisimple symmetric spaces. Ann.
+    of Math. 111:253–311
+17. Gelfand IM (1950) Spherical functions on symmetric spaces. Dokl. Akad. Nauk.
+    SSSR 70:5–8
+18. Gutkin E (1979) Coefficients of Clebsch-Gordan for the holomorphic discrete
+    series. Lett. Math. Phys. 3:185–192
+19. Harish-Chandra (1953), (1954) Representations of semi-simple Lie groups. I, III.
+    Trans. Amer. Math. Soc. 75:185–243; 76:234–253; (1955) IV. Amer. J. Math.
+    77:743–777
+20. Heckman G, Schlichtkrull H (1994) Harmonic analysis and special functions on
+    symmetric spaces. Perspectives in Mathematics 16, Academic Press
+21. Helgason S (1970), (1976) A duality for symmetric spaces with applications to
+    group representations. I, II. Adv. Math. 5:1–154; 22:187–219
+22. Hilgert J, Reproducing kernels in representation theory, in prepration
+23. Howe R (1983) Reciprocity laws in the theory of dual pairs. Representation The-
+    ory of Reductive Groups, Trombi PC (ed) Progr. Math. 40:159–175, Birkhäuser
+66     Toshiyuki KOBAYASHI
+
+24. Howe R (1989) Transcending classical invariant theory. J. Amer. Math. Soc.
+    2:535–552
+25. Howe R (1995) Perspectives on invariant theory: Schur duality, multiplicity-free
+    actions and beyond. Israel Math. Conf. Proc. 8:1–182
+26. Hua LK (1963) Harmonic Analysis of Functions of Several Complex Variables
+    in the Classical Domains. Amer. Math. Soc.
+27. Jaffee H (1975) Real forms of Hermitian symmetric spaces. Bull. Amer. Math.
+    Soc. 81:456–458
+28. Jaffee H (1978) Anti-holomorphic automorphisms of the exceptional symmetric
+    domains. J. Differential Geom. 13:79–86
+29. Jakobsen HP (1979) Tensor products, reproducing kernels, and power series. J.
+    Funct. Anal. 31:293–305
+30. Jakobsen HP (1983) Hermitian symmetric spaces and their unitary highest
+    weight modules. J. Funct. Anal. 52:385–412
+31. Jakobsen HP, Vergne M (1979) Restrictions and expansions of holomorphic
+    representations. J. Funct. Anal. 34:29–53
+32. Johnson K (1980) On a ring of invariant polynomials on a Hermitian symmetric
+    space. J. Algebra 67:72–81
+33. Kashiwara M, Vergne M (1978) On the Segal–Shale–Weil representations and
+    harmonic polynomials. Invent. Math. 44:1–47
+34. Kobayashi S (1968) Irreducibility of certain unitary representations. J. Math.
+    Soc. Japan 20:638–642
+35. Kobayashi S, Nagano T (1964) On filtered Lie algebras and geometric struc-
+    tures I. J. Math. Mech. 13:875–908
+36. Kobayashi T (1989) Unitary representations realized in L2 -sections of vector
+    bundles over semisimple symmetric spaces. Proceedings of the Joint Symposium
+    of Real Analysis and Functional Analysis (cosponsored by the Mathematical
+    Society of Japan), 39–54, in Japanese
+37. Kobayashi T (1992) A necessary condition for the existence of compact Clifford-
+    Klein forms of homogeneous spaces of reductive type. Duke Math. J. 67:653–664
+38. Kobayashi T (1994) Discrete decomposability of the restriction of Aq (λ) with
+    respect to reductive subgroups and its applications. Invent. Math. 117:181–205
+39. Kobayashi T (1997) Multiplicity free theorem in branching problems of uni-
+    tary highest weight modules. Proceedings of the Symposium on Representation
+    Theory held at Saga, Kyushu 1997, Mimachi K (ed) 9–17
+40. Kobayashi T (1998) Discrete decomposability of the restriction of Aq (λ) with
+    respect to reductive subgroups, Part II — micro-local analysis and asymptotic
+    K-support. Ann. of Math. 147:709–729
+41. Kobayashi T (1998) Discrete decomposability of the restriction of Aq (λ) with
+    respect to reductive subgroups, Part III — restriction of Harish-Chandra mod-
+    ules and associated varieties. Invent. Math. 131:229–256
+42. Kobayashi T (1998) Discrete series representations for the orbit spaces arising
+    from two involutions of real reductive Lie groups. J. Funct. Anal. 152:100–135
+43. Kobayashi T (2000) Discretely decomposable restrictions of unitary represen-
+    tations of reductive Lie groups — examples and conjectures. Adv. Stud. Pure
+    Math., Analysis on Homogeneous Spaces and Representation Theory of Lie
+    Groups, Okayama–Kyoto, 26:98–126
+44. Kobayashi T (2000) Multiplicity-free restrictions of unitary highest weight mod-
+    ules for reductive symmetric pairs, UTMS Preprint Series 2000–1, University
+    of Tokyo, Mathematical Sciences, 39 pages
+                           Multiplicity-free restrictions to symmetric pairs      67
+
+45. Kobayashi T (2002) Branching problems of unitary representations. Proc. of
+    I.C.M. 2002 at Beijing, vol. 2, Higher Ed. Press, Beijing, 615–627
+46. Kobayashi T (2004) Geometry of multiplicity-free representations of GL(n),
+    visible actions on flag varieties, and triunity. Acta Appl. Math. 81:129–146
+47. Kobayashi T (2005) Multiplicity-free representations and visible actions on
+    complex manifolds. Publ. Res. Inst. Math. Sci. 41:497–549
+48. Kobayashi T (2005) Theory of discretely decomposable restrictions of unitary
+    representations of semisimple Lie groups and some applications. Sugaku Expo-
+    sitions 18:1–37, Amer. Math. Soc.
+49. Kobayashi T, Propagation of multiplicity-free property for holomorphic vector
+    bundles, preprint.
+50. Kobayashi T, Visible actions on symmetric spaces, preprint.
+51. Kobayashi T, A generalized Cartan decomposition for the double coset space
+    (U (n1 ) × U (n2 ) × U (n3 ))\U (n)/(U (p) × U (q)), preprint.
+52. Kobayashi T, Visible actions on flag varieties of SO(n) and multiplicity-free
+    representations, in preparation.
+53. Kobayashi T, Nasrin S (2003) Multiplicity one theorem in the orbit method. Lie
+    Groups and Symmetric Spaces: In memory of F. I. Karpelevič, S. Gindikin (ed),
+    Translation Series 2, Amer. Math. Soc. 210:161–169
+54. Kobayashi T, Ørsted B (2003) Analysis on the minimal representation of
+    O(p, q). II. Branching laws. Adv. Math. 180:513–550
+55. Koike K, Terada I (1987) Young diagrammatic methods for the representation
+    theory of the classical groups of type Bn , Cn , Dn . J. Algebra 107:466–511
+56. Koike K, Terada I (1990) Young diagrammatic methods for the restriction
+    of representations of complex classical Lie groups to reductive subgroups of
+    maximal rank. Adv. Math. 79:104–135
+57. Korányi A, Wolf JA (1965) Realization of hermitian symmetric spaces as gen-
+    eralized half-planes. Ann. of Math. 81:265–285
+58. Krattenthaler C (1998) Identities for classical group characters of nearly rect-
+    angular shape, J. Algebra 209:1–61
+59. Lang S (1975) SL2 (R). Addison-Wesley
+60. Lipsman R (1979) On the unitary representation of a semisimple Lie group
+    given by the invariant integral on its Lie algebra. Adv. Math. Suppl. 6:143–158;
+    (1977) II, Canad. J. Math. 29:1217–1222
+61. Littelmann P (1994) On spherical double cones. J. Algebra 166:142–157
+62. Macdonald IG (1997) Symmetric Functions and Hall Polynomials. Oxford Uni-
+    versity Press
+63. Martens S (1975) The characters of the holomorphic discrete series. Proc. Natl.
+    Acad. Sci. USA 72:3275–3276
+64. Molchanov VF (1980) Tensor products of unitary representations of the three-
+    dimensional Lorentz group. Math. USSR, Izv. 15:113–143
+65. Neeb K-H (1997) On some classes of multiplicity free representations.
+    Manuscripta Math. 92:389–407
+66. Neretin YA (2002) Plancherel formula for Berezin deformation of L2 on Rie-
+    mannian symmetric space. J. Funct. Anal. 189:336–408
+67. Neretin YA, Ol’shanskiı̆ GI (1997) Boundary values of holomorphic functions,
+    singular unitary representations of the groups O(p, q) and their limits as q → ∞.
+    J. Math. Sci. (New York) 87:3983–4035
+68. Okada S (1998) Applications of minor summation formulas to rectangular-
+    shaped representations of classical groups. J. Algebra 205:337–367
+68     Toshiyuki KOBAYASHI
+
+69. Ólafsson G, Ørsted B (1996) Generalizations of the Bargmann transform. Lie
+    Theory and its application in physics (Clausthal, 1995) Dobrev and Döbner
+    (eds) World Scientific 3–14
+70. Ørsted B, Zhang G (1997) Tensor products of analytic continuations of holo-
+    morphic discrete series. Canad. J. Math. 49:1224–1241
+71. Pevsner M (1996) Espace de Bergman d’un semi-groupe complexe. C. R. Acad.
+    Sci. Paris Sér. I Math. 322:635–640
+72. Pevzner M (2005) Représentations des groupes de Lie conformes et quantifica-
+    tion des espaces symétriques. Habilitation, l’université de Reims, 36pp.
+73. Proctor RA (1983) Shifted plane partitions of trapezoidal shape. Proc. Amer.
+    Math. Soc. 89:553–559
+74. Repka J (1979) Tensor products of holomorphic discrete series representations.
+    Canad. J. Math. 31:836–844
+75. Richardson R, Röhrle G, Steinberg R (1992) Parabolic subgroup with abelian
+    unipotent radical. Invent. Math. 110:649–671
+76. Rossmann W (1979) The structure of semisimple symmetric spaces. Canad. J.
+    Math. 31:156–180
+77. Sato F (1993) On the stability of branching coefficients of rational representa-
+    tions of reductive groups. Comment. Math. Univ. St. Paul 42:189–207
+78. Schmid W (1969–70) Die Randwerte holomorphe Funktionen auf hermetisch
+    symmetrischen Raumen. Invent. Math. 9:61–80
+79. Shimeno N (1994) The Plancherel formula for spherical functions with a one-
+    dimensional K-type on a simply connected simple Lie group of Hermitian type.
+    J. Funct. Anal. 121:330–388
+80. Stembridge JR (1990) Hall–Littlewood functions, plane partitions, and the
+    Rogers–Ramanujan identities. Trans. Amer. Math. Soc. 319:469–498
+81. Stembridge JR (2001) Multiplicity-free products of Schur functions. Ann.
+    Comb. 5:113–121
+82. Vinberg ÉB (2001) Commutative homogeneous spaces and co-isotropic sym-
+    plectic actions. Russian Math. Surveys 56:1–60
+83. Vinberg ÉB, Kimelfeld BN (1978) Homogeneous domains on flag manifolds and
+    spherical subgroups of semisimple Lie groups. Funct. Anal. Appl. 12:168–174
+84. Vogan, Jr. D (1979) The algebraic structure of the representation of semisimple
+    Lie groups. I. Ann. of Math. 109:1–60
+85. Vogan, Jr. D (1981) Representations of real reductive Lie groups. Progr. Math.
+    15, Birkhäuser
+86. Vogan, Jr. D (1987) Unitary Representations of Reductive Lie Groups. Ann.
+    Math. Stud. 118, Princeton University Press
+87. Wallach N (1988) Real Reductive Groups I, Academic Press
+88. Wolf J (1980) Representations that remain irreducible on parabolic subgroups.
+    Differential geometrical methods in mathematical physics (Proc. Conf., Aix-en-
+    Provence/Salamanca, 1979), pp. 129–144, Lecture Notes in Math. 836, Springer
+89. Xie J (1994) Restriction of discrete series of SU (2, 1) to S(U (1) × U (1, 1)). J.
+    Funct. Anal. 122:478–518
+90. Yamashita H, Wachi A, Isotropy representations for singular unitary highest
+    weight modules, in preparation.
+91. Zhang G (2001) Tensor products of minimal holomorphic representations. Rep-
+    resent. Theory 5:164–190
+92. Zhang G (2002) Branching coefficients of holomorphic representations and
+    Segal-Bargmann transform. J. Funct. Anal. 195:306–349
+

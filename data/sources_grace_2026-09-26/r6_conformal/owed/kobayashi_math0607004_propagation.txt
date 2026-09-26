@@ -1,0 +1,1286 @@
+                                              Propagation of multiplicity-freeness property
+
+
+
+
+arXiv:math/0607004v2 [math.RT] 23 Jul 2011
+                                                    for holomorphic vector bundles∗
+                                                   Dedicated to Joseph Wolf for his seventy-fifth birthday
+
+                                                                 Toshiyuki KOBAYASHI
+                                                   Graduate School of Mathematical Sciences, and IPMU,
+                                                                 The University of Tokyo
+                                                               E-mail address: toshi@ms.u-tokyo.ac.jp
+
+
+
+                                                                                   Abstract
+                                                       We give a complete proof of a propagation theorem of multiplicity-
+                                                   free property from fibers to spaces of global sections for holomorphic
+                                                   vector bundles. The propagation theorem is formalised in three ways,
+                                                   aiming for producing various multiplicity-free theorems in representa-
+                                                   tion theory for both finite and infinite dimensional cases in a system-
+                                                   atic and synthetic manner.
+                                                       The key geometric condition in our theorem is an orbit-preserving
+                                                   anti-holomorphic diffeomorphism on the base space, which brings us
+                                                   to the concept of visible actions on complex manifolds.
+
+                                             Mathematics Subject Classifications (2010): Primary: 22E46,
+                                             Secondary 32M10, 32M05, 46E22.
+                                             Key words: multiplicity-free representation, reproducing kernel, unitary rep-
+                                             resentation, homogeneous space, holomorphic bundle, visible action
+
+
+                                             Contents
+                                             1 Introduction                                                                       2
+                                               ∗
+                                                 This work was partially supported by Grant-in-Aid for Scientific Research 18340037,
+                                             22340026, Japan Society for the Promotion of Science.
+
+                                                                                       1
+2 Complex geometry and multiplicity-free theorem                             5
+
+3 Proof of Theorem 2.2                                                       8
+
+4 Visible actions on complex manifolds                                      15
+
+5 Multiplicity-free theorem for associated bundles                          19
+
+6 Proof of Proposition 5.2                                                  24
+
+7 Concluding remarks                                                        27
+
+
+1    Introduction
+In representation theory, unitarity is an important concept, in particular,
+when we apply the classic philosophy — analysis and synthesis, namely,
+an attempt to understand things built up from the smallest ones. This is
+embodied by a theorem of Mautner and Teleman stating that any unitary
+representation π of a locally compact group G can be decomposed into the
+direct integral of irreducible unitary representations:
+                                 Z ⊕
+(1.1)                        π≃       mπ (τ )τ dµ(τ ),
+                                 b
+                                 G
+
+
+where Gb denotes the set of equivalence classes of irreducible unitary repre-
+                                                    b and m : G
+sentations (‘smallest objects’), µ is a measure on G,            b → N ∪ {∞}
+is a measurable function that stands for ‘multiplicity’.
+    To find elements of G,b basic results are unitarizability theorems estab-
+lished by Mackey [21] for L2 -induced representations in the 1950s and by
+Vogan [32] and Wallach [33] for cohomologically induced representations in
+the 1980s. These results may be thought of as a propagation theory of unitar-
+ity from fibers to spaces of sections (more generally, stalks to cohomologies).
+    Multiplicity-freeness is another important concept in representation the-
+ory that generalizes irreducibility. For a unitary representation π of G, we
+say that π is multiplicity-free if the ring of continuous G-intertwining en-
+domorphisms is commutative. This condition implies that m is not greater
+than 1 almost everywhere with respect to the measure µ in the direct integral
+(1.1).
+
+
+                                      2
+    Multiplicity-free representations are a special class of representations, for
+which one could expect a simple and detailed study, and by which one could
+expect effective applications of representation theory. Multiplicity-free repre-
+sentations arise in broad range of mathematics in connection with expansions
+(Taylor series, Fourier expansion, spherical harmonics, the Gelfand–Tsetlin
+basis, . . . ) and the classical identities (the Capelli identity, various explicit
+formulae for special functions, . . . ), though we may not be aware of even the
+fact that the representation is there.
+    The aim of this paper is to prove a propagation theorem of multiplicity-
+freeness from fibers to spaces of sections for holomorphic vector bundles.
+    To state our main result, let H be a Lie group, and V → D an H-
+equivariant holomorphic vector bundle. We naturally have a representation of
+H on the space O(D, V) of global holomorphic sections. Then, the first form
+of our multiplicity-free theorem is stated briefly as follows (see Theorem 2.2
+for details):
+
+Theorem 1.1. Any unitary representation of H which is realized in O(D, V)
+is multiplicity-free if the H-equivariant bundle V → D satisfies the following
+three conditions:
+(1.2)   (Fiber) For every x ∈ D, the isotropy representation of Hx on the
+        fiber Vx is multiplicity-free.
+
+(1.3)   (Base space) There exists an anti-holomorphic bundle endomor-
+        phism σ, which preserves every H-orbit on the base space D.
+
+(1.4)   (Compatibility) See (2.2.3).
+
+    The compatibility condition (1.4) is less important because it is often
+automatically fulfilled by a natural choice of σ (see Remark 5.2.3 for an
+example of σ; see also [15, Appendix]). Thus, the geometric condition (1.3)
+on the base space D is crucial for our propagation of multiplicity-free property
+from fibers Vx to the space O(D, V) of sections.
+    The condition (1.3) with regard to holomorphic actions on complex man-
+ifolds has become the motivation that we introduced the concept of visible
+actions in [13] . Recently, classification results on visible actions on complex
+manifolds have been obtained in various settings, see [16, 17, 26, 27, 28]. In
+this article, we use a variant of visible actions, namely, S-visible actions; see
+Definition 4.2.
+
+
+                                        3
+    The second form of our multiplicity-free theorem is formalized as Theo-
+rem 4.3 in terms of S-visible actions. Here, S is a slice of the H-action on
+the base space D. An old theorem of S. Kobayashi [11] (see also Wolf [34])
+may be thought of as a propagation theorem of irreducibility from fibers to
+the space of sections when S is a singleton.
+    The third form of our multiplicity-free theorem is formalized in the setting
+where the bundle V → D is associated to a principal bundle K → P → D
+and to a representation (µ, V ) of the structure group K. This is Theorem 5.3.
+This formulation is useful for actual applications, in particular, for branching
+problems (decompositions of irreducible representations when restricted to
+subgroups). In fact, this is the form that was used as a main machinery
+of [13, 14] in finding various multiplicity-free theorems in concrete settings,
+whereas the complete proof of Theorem 5.3 (stated as [13, Theorem 1.3] and
+[14, Theorem 2] loc.cit.) has been postponed until the present article.
+Acknowledgement. A primitive case of Theorem 5.3 (the line bundle case)
+together with its application to branching problems for semisimple symmetric
+pairs (G, H) was announced in [12]. The heart of the proof of Theorem 2.2 is
+based on reproducing kernels, and was inspired by the original idea of Faraut–
+Thomas [6]. I thank J. Faraut for enlightening discussions, in particular, for
+explaining the idea of [6] in an early stage of this work. Substantial part
+of its generalization in the present form was obtained during my visit to
+Harvard University in 2000–2001. I express my gratitude to W. Schmid who
+gave me a wonderful atmosphere of research. M. Duflo suggested me to
+use the terminology “propagation” for Theorem 1.1. Concrete applications
+of Theorem 1.1 and the theory of visible actions were presented in various
+occasions including the Oberwolfach workshops organized by A. Huckleberry,
+K.-H. Neeb and J. Wolf in 2000 and 2004 and at Winter School at Czech
+Republic organized by V. Souček in 2010. A detailed account of the material
+of the present article (the proof of the propagation theorem) was given in
+the graduate course lectures at Harvard University (2008, spring semester)
+and at the University of Tokyo (2008, fall semester), and also in a series
+of lectures at Functional Analysis X in Croatia (2008, summer). I express
+my deep gratitude to the organizers and to the participants for helpful and
+stimulating comments on various occasions. Special thanks are due to Ms.
+Suenaga for her help in preparing for the final manuscript.
+
+
+
+
+                                       4
+2     Complex geometry and multiplicity-free the-
+      orem
+This section gives a first form of our multiplicity-free theorem. We may
+regard it as a propagation theorem of multiplicity-free property from fibers
+to spaces of sections in the setting where there may exist infinitely many
+orbits on base spaces. The main result of this section is Theorem 2.2. We
+shall reformulate it by means of visible actions in Section 4, and furthermore
+present its group theoretic version in Section 5.
+
+2.1    Equivariant holomorphic vector bundle
+Let V = ∐x∈D Vx → D be a Hermitian holomorphic vector bundle over a
+connected complex manifold D. We denote by O(D, V) the space of holo-
+morphic sections of V → D. It carries a Fréchet topology by the uniform
+convergence on compact sets.
+    Suppose a Lie group H acts on the bundle V → D by automorphisms.
+This means that the action of H on the total space, denoted by Lh : V → V,
+and the action on the base space, denoted simply by h : D → D, x 7→ h·x, are
+both biholomorphic for h ∈ H, and that the induced linear map Lh : Vx →
+Vh·x between the fibers is unitary for any x ∈ D. In particular, we have a
+unitary representation of the isotropy subgroup Hx := {h ∈ H : h · x = x}
+on the fiber Vx .
+    The action of H on the bundle V → D gives rise to a continuous repre-
+sentation on O(D, V) by the pull-back of sections, namely, s 7→ Lh s(h−1 · )
+for h ∈ H and s ∈ O(D, V).
+
+Definition 2.1. Suppose π is a unitary representation of H defined on a
+Hilbert space H. We will say π is realized in O(D, V) if there is an injective
+continuous H-intertwining map from H into O(D, V).
+
+   Let {Uα } be trivializing neighborhoods of D, and gαβ : Uα ∩ Uβ →
+GL(n, C) be the transition functions for the holomorphic vector bundle V →
+D. Then, the anti-holomorphic vector bundle V → D is defined to be the
+complex vector bundle with the transition functions gαβ . We denote by
+O(D, V) the space of anti-holomorphic sections for V → D.
+   Suppose σ is an anti-holomorphic diffeomorphism of D. Then the pull-
+back σ ∗ V = ∐x∈D Vσ(x) is an anti-holomorphic vector bundle over D. In
+
+                                      5
+turn, σ ∗ V → D is a holomorphic vector bundle over D. The fiber at x ∈ D
+is identified with Vσ(x) , the complex conjugate vector space of Vσ(x) (see
+Section 3.1).
+     The holomorphic vector bundle σ ∗ V is isomorphic to V if and only if σ
+lifts to an anti-holomorphic endomorphism σ̃ of V. In fact, such σ̃ induces a
+conjugate linear isomorphism σ̃x : Vx → Vσ(x) , which then defines a C-linear
+isomorphism
+
+(2.1.1)                Ψx : Vx → (σ ∗ V)x ,   v 7→ σ̃x (v)
+
+via the identification (σ ∗ V)x ≃ Vσ(x) . Then, Ψ : V → σ ∗ V is an isomorphism
+of holomorphic vector bundles such that its restriction to the base space D
+is the identity. For simplicity, we shall use the letter σ in place of σ̃. For a
+Hermitian vector bundle V, by a bundle endomorphism σ, we mean that σx
+is furthermore isometric (or equivalently, Ψx is unitary) for any x ∈ D.
+
+2.2       Multiplicity-free theorem (first form)
+The following is a first form of our multiplicity-free theorem:
+
+Theorem 2.2. Let V → D be a Hermitian holomorphic vector bundle, on
+which a Lie group H acts by automorphisms. Assume:
+(2.2.1) the isotropy representation of Hx on the fiber Vx is multiplicity-free
+        for any x ∈ D.
+                                                  n(x)
+                                                  L       (i)
+We write its irreducible decomposition as Vx =           Vx . Assume furthermore
+                                                  i=1
+that there exists an anti-holomorphic bundle endomorphism σ satisfying the
+following two conditions: for any x ∈ D,
+(2.2.2) there exists h ∈ H such that σ(x) = h · x, and
+              (i)        (i)
+(2.2.3) σx (Vx ) = Lh (Vx ) for any i (1 ≤ i ≤ n(x)).
+    Then, any unitary representation that is realized in O(D, V) is multiplicity-
+free.
+
+   We shall give a proof of Theorem 2.2 in Section 3.
+
+
+
+
+                                       6
+Remark 2.2.1. 1) The conditions (2.2.1) – (2.2.3) of Theorem 2.2 is local in
+the sense that the same conclusion holds if D ′ is an H-invariant open subset
+of D, and if the conditions (2.2.1) – (2.2.3) are satisfied for x ∈ D ′ . This
+is clear because the restriction map O(D, V) → O(D ′ , V|D′ ) is injective and
+continuous.
+2) The proof in Section 3 shows that one can replace Hx with its arbitrary
+subgroup Hx′ in (2.2.1). (Such a replacement makes (2.2.1) stronger, and
+(2.2.3) weaker.)
+   In the following two subsections, we explain special cases of Theorem 2.2.
+
+2.3    Line bundle case
+We begin with the observation that the assumptions (2.2.1) and (2.2.3) are
+automatically fulfilled if Vx is irreducible, in particular, if V → D is a line
+bundle. Hence, we have:
+
+Corollary 2.3. In the setting of Theorem 2.2, assume V → D is a line
+bundle. If there exists an anti-holomorphic bundle endomorphism satisfy-
+ing (2.2.2), then any unitary representation that is realized in O(D, V) is
+multiplicity-free.
+
+    This case was announced in [12] with a sketch of proof, and its applica-
+tions are extensively discussed in [15] for the branching problems (i.e. the
+decomposition of the restriction of unitary representations) with respect to
+reductive symmetric pairs.
+
+2.4    Trivial bundle case
+If the vector bundle is the trivial line bundle V = D × C, then any anti-
+holomorphic diffeomorphism on D lifts to an anti-holomorphic endomorphism
+of V by (x, u) 7→ (σ(x), ū). Hence, we have:
+
+Corollary 2.4. If there exists an anti-holomorphic diffeomorphism σ of D
+satisfying (2.2.2), then any unitary representation which is realized in O(D)
+is multiplicity-free.
+
+   This result was previously proved in Faraut and Thomas [6] under the
+assumption that σ 2 = id.
+
+
+                                      7
+2.5       Propagation of irreducibility
+The strongest condition on group actions is transitivity. Transitivity on base
+spaces guarantees that even irreducibility propagates from fibers to spaces of
+sections. The following result is due to S. Kobayashi [11].
+Proposition 2.5. In the setting of Theorem 2.2, suppose that H acts tran-
+sitively on D and that Hx acts irreducibly on Vx for some (equivalently, for
+any) x ∈ D. Then, there exists at most one unitary representation π that
+can be realized in O(D, V). In particular, such π is irreducible if exists.
+Proof. This is an immediate consequence of Lemma 3.3 and Proposition 3.4
+(n(x) = 1 case) below, which will be used in the proof of Theorem 2.2 in
+Section 3.
+    We note that the condition (2.2.2) is much weaker than the transitivity
+of the action of the group H on D. Our geometric condition (2.2.2) brings
+us to the concept of visible actions, which we shall discuss in Section 4.
+
+
+3     Proof of Theorem 2.2
+This section is devoted entirely to the proof of Theorem 2.2.
+
+3.1       Some linear algebra
+We begin carefully with basic notations.
+     Given a complex Hermitian vector space V , we define a complex Her-
+mitian vector space V as a collection of the symbol v (v ∈ V ) equipped
+with a scalar multiplication av̄ := av for a ∈ C, and with an inner product
+(ū, v̄) := (v, u).
+                                                           ∼
+     The complex dual space V ∨ is identified with V by V −→ V ∨ , v̄ 7→ (·, v).
+In particular, we have a natural isomorphism of complex vector spaces:
+                                    ∼
+(3.1.1)                      V ⊗ V −→ End(V ).
+
+    Given a unitary map A : V → W between Hermitian vector spaces, we
+define a unitary map A : V → W by v 7→ Av. Then the induced map
+A ⊗ A : V ⊗ V → W ⊗ W gives rise to a complex linear isomorphism:
+
+(3.1.2)                   A♯ : End(V ) → End(W ).
+
+                                       8
+Then, it is readily seen from the unitarity of A that
+(3.1.3)                         A♯ (idV ) = idW .
+In particular, if an endomorphism of V is Ldiagonalized with respect to an
+orthogonal direct sum decomposition V = ni=1 V (i) , then we have the fol-
+lowing formula of A♯ :
+                     n
+                                 !  n
+                    X               X
+(3.1.4)        A♯      λi idV (i) =   λi idA(V (i) ) (λ1 , . . . , λn ∈ C).
+                    i=1               i=1
+
+
+3.2       Reproducing kernel for vector bundles
+This subsection summarizes some basic results on reproducing kernels for
+holomorphic vector bundles. The results here are standard for the trivial
+bundle case.
+   Suppose we are given a continuous embedding H ֒→ O(D, V) of a Hilbert
+space H into the Fréchet space O(D, V) of holomorphic sections of the holo-
+morphic vector bundle V → D. The continuity implies in particular that for
+each y ∈ D the point evaluation map:
+                             H → Vy ,        f 7→ f (y)
+is continuous. Then, by the Riesz representation theorem, there exists uniquely
+KH (·, y) ∈ H ⊗ Vy such that
+(3.2.1)             (f, KH (·, y))H = f (y) for any f ∈ H.
+    We take an orthonormal basis {ϕν } of H, and expand KH as
+                                   X
+(3.2.2)                KH (·, y) =     aν (y)ϕν (·).
+                                         ν
+
+It follows from (3.2.1) that the coefficient aν (y) is given by
+                      aν (y) = (KH (·, y), ϕν (·))H = ϕν (y),
+and the expansion of KH converges in H. By the continuity H ֒→ O(D, V)
+again, (3.2.2) converges uniformly on each compact set for each fixed y ∈ D.
+Thus, KH (x, y) is given by the formula:
+                                    X
+(3.2.3)       KH (x, y) ≡ K(x, y) =     ϕν (x)ϕν (y) ∈ Vx ⊗ Vy ,
+                                        ν
+
+
+                                        9
+and defines a smooth section of the exterior tensor product bundle V ⊠ V →
+D × D which is holomorphic in the first argument and anti-holomorphic in
+the second. We will say KH is the reproducing kernel of the Hilbert space
+H ⊂ O(D, V).
+   For the convenience of the reader, we pin down basic properties of repro-
+ducing kernels for holomorphic vector bundles in a way that we use later.
+
+Lemma 3.2. 1) Let Ki (x, y) be the reproducing kernels of Hilbert spaces
+Hi ⊂ O(D, V) with inner products ( , )Hi , respectively, for i = 1, 2. If
+K1 ≡ K2 , then the two subspaces H1 and H2 coincide and the inner products
+( , )H1 and ( , )H2 are the same.
+2) If K1 (x, x) = K2 (x, x) for all x ∈ D, then K1 ≡ K2 .
+
+Proof. 1) Let us reconstruct the Hilbert space H from the reproducing kernel
+                                      ∨
+K. For each y ∈ D and v ∗ ∈ Vy∗ := Vy , we define ψ(y, v ∗) by
+
+                          ψ(y, v ∗) := hK(·, y), v ∗i ∈ H.
+                                                                             ∨
+Here, h , i denotes the canonical pairing between Vy and Vy . We claim
+that the C-span of {ψ(y, v ∗) : y ∈ D, v ∗ ∈ Vy∗ } is dense in H. This is because
+(f, ψ(y, v ∗))H = hf (y), v ∗i for any f ∈ H by (3.2.1). Thus, the Hilbert space
+H is reconstructed from the pre-Hilbert structure
+
+(3.2.4)         (ψ(y1 , v1∗ ), ψ(y2, v2∗ ))H := hK(y2 , y1 ), v2∗ ⊗ v1∗ i.
+
+
+2) We denote by D the complex manifold endowed with the conjugate com-
+plex structure on the same real manifold D. Then, V → D is a holomorphic
+vector bundle, and we can form a holomorphic vector bundle V ⊠V → D ×D.
+In turn, Ki (·, ·) are regarded as its holomorphic sections. As the diago-
+nal embedding ι : D → D × D, z 7→ (z, z) is totally real, our assumption
+(K1 − K2 )|ι(D) ≡ 0 implies K1 − K2 ≡ 0 by the unicity theorem of holomor-
+phic functions.
+
+3.3       Equivariance of the reproducing kernel
+Next, suppose that the Hermitian holomorphic vector bundle V → D is
+H-equivariant and that (π, H) is a unitary representation of H realized in
+O(D, V). Let KH be the reproducing kernel of the embedding H ֒→ O(D, V).
+
+                                           10
+We shall see how the unitarity of (π, H) is reflected in the reproducing kernel
+KH .
+   We regard KH (x, x) ∈ Vx ⊗ Vx as an element of End(Vx ) via the isomor-
+phism (3.1.1). Then, we have:
+Lemma 3.3. With the notation (3.1.2) applied to Lh : Vx → Vh·x , we have
+              KH (h · x, h · x) = (Lh )♯ KH (x, x)        for any h ∈ H.
+In particular, KH (x, x) ∈ EndHx (Vx ) for any x ∈ D.
+Proof. Let {ϕν } be an orthonormal basis of H. Since (π, H) is a unitary
+representation, {π(h)−1 ϕν } is also an orthonormal basis of H for every fixed
+h ∈ H. Because the formula (3.2.3) of the reproducing kernel is valid for any
+orthonormal basis, we have
+                              X
+(3.3.1)          KH (x, y) =      (π(h)−1 ϕν )(x)(π(h)−1 ϕν )(y)
+                                ν
+                               X
+                           =         Lh−1 ϕν (h · x)Lh−1 ϕν (h · y)
+                                ν
+                           = (Lh−1 ⊗ Lh−1 )KH (h · x, h · y)
+for any x, y ∈ D. Hence, (Lh ⊗ Lh )KH (x, y) = KH (h · x, h · y) and Lemma
+follows.
+
+3.4    Diagonalization of the reproducing kernel
+The reproducing kernel for a holomorphic vector bundle is a matrix valued
+section as we have defined in (3.2.3). The multiplicity-free property of the
+isotropy representation on the fiber diagonalizes the reproducing kernel:
+Proposition 3.4. Suppose (π, H) is a unitary representation of H realized
+in O(D, V). Assume that the isotropy representation of Hx on the fiber Vx
+decomposes as a multiplicity-free sum of irreducible representations of Hx as
+     L
+     n
+         (i)
+Vx =    Vx . (Here, n ≡ n(x) may depend on x ∈ D.) Then, the reproducing
+      i=1
+kernel is of the form
+                                         n
+                                         X
+                          KH (x, x) =           λ(i) (x) idVx(i)
+                                          i=1
+
+for some complex numbers λ (x), . . . , λ(n) (x).
+                               (1)
+
+Proof. A direct consequence of Lemma 3.3 and Schur’s lemma.
+
+                                          11
+3.5       Construction of an anti-linear isometry J
+In the setting of Theorem 2.2, suppose that σ is an anti-holomorphic bundle
+endomorphism. We define a conjugate linear map
+
+(3.5.1)           J : O(D, V) → O(D, V),          f 7→ σ −1 ◦ f ◦ σ,
+
+namely, Jf (x) := σ −1 (f (σ(x)) for x ∈ D.
+Lemma 3.5. If the conditions (2.2.1) – (2.2.3) are satisfied, then J is an
+isometry from H onto H for any unitary representation (π, H) realized in
+O(D, V).
+Proof. We define a Hilbert space H  e := J(H), equipped with the inner prod-
+uct
+                 (Jf1 , Jf2 )He := (f2 , f1 )H for f1 , f2 ∈ H.
+Let us show that the reproducing kernel KHe for He coincides with KH . To see
+this, we take an orthonormal basis {ϕν } of H. Then, {Jϕν } is an orthonormal
+basis of e
+         H, and therefore
+                             X
+                KHe (x, y) =   Jϕν (x)Jϕν (y)
+                                ν
+                                X
+                            =       σx−1 (ϕν (σ(x))) σy−1 (ϕν (σ(y)))
+                             ν        
+                                −1
+                            = σx ⊗ σy KH (σ(x), σ(y)).
+                                    −1
+
+
+For x = y, this formula can be restated as
+
+(3.5.2)                 KHe (x, x) = (σx−1 )♯ KH (σ(x), σ(x))
+
+with the notation (3.1.2) applied to the unitary map σx−1 : Vσ(x) → Vx . We
+fix x ∈ D, and take h ∈ H such that σ(x) = h · x (see (2.2.2)). Then,
+
+(3.5.3)       KHe (x, x) = (σx−1 )♯ KH (h · x, h · x) = (σx−1 )♯ (Lh )♯ KH (x, x).
+
+Here, the last equality follows from Lemma 3.3.
+    Since the action of Hx on Vx is multiplicity-free, it follows from Proposi-
+tion 3.4 that there exist complex numbers λ(i) (x) such that
+                                     X
+                         KH (x, x) =    λ(i) (x) idVx(i) .
+                                           i
+
+
+                                          12
+Then by (3.1.3) we have
+                                               X
+(3.5.4)              (Lh )♯ KH (x, x) =              λ(i) (x) idL (Vx(i) ) .
+                                                                   h
+                                                i
+
+                                 (i)           (i)
+Furthermore, since σx−1 (Lh (Vx )) = Vx by the assumption (2.2.3), it follows
+from (3.1.4) that
+                                               !
+                       X                          X
+(3.5.5)       (σx−1 )♯    λ(i) (x) idL (Vx(i) ) =   λ(i) (x) idVx(i) .
+                                           h
+                          i                                   i
+
+Combining (3.5.3), (3.5.4) and (3.5.5), we get
+
+                               KHe (x, x) = KH (x, x).
+
+                                      e coincides with H and
+Then, by Lemma 3.2, the Hilbert space H
+
+            (Jf1 , Jf2 )H = (Jf1 , Jf2 )He = (f2 , f1 )H           for f1 , f2 ∈ H.
+
+This is what we wanted to prove.
+Remark 3.5.1. In terms of the bundle isomorphism Ψ : V → σ ∗ V (see (2.1.1)),
+J is given by (Jf )(x) = Ψ−1
+                          x (f (σ(x))). We note
+
+                               J 2 = id        on O(D, V)
+
+if σ 2 = idV , or equivalently, if σ 2 = idD and Ψσ(x) ◦ Ψx = idVx for any x ∈ D.
+However, we do not use this condition to prove Theorem 2.2.
+
+3.6       Proof of Theorem 2.2
+As a final step, we need the following lemma which was proved in [6] under
+the assumption that J 2 = id and that V → D is the trivial line bundle. For
+the sake of completeness, we give a proof here.
+
+Lemma 3.6. For A ∈ EndH (H), the adjoint operator A∗ is given by
+
+(3.6.1)                                A∗ = JAJ −1 .
+
+
+
+                                               13
+Proof. We divide the proof into two steps.
+Step 1 (self-adjoint case). We may and do assume that A − I is positive
+definite because neither the assumption nor the conclusion changes if we
+replace A by A + cI (c ∈ R). Here, we note that A + cI is positive definite
+if c is greater than the operator norm kAk.
+    From now, assume A ∈ EndH (H) is a self-adjoint operator such that A−I
+is positive definite. We introduce a pre-Hilbert structure on H by
+
+(3.6.2)             (f1 , f2 )HA := (Af1 , f2 )H   for f1 , f2 ∈ H.
+
+Since A − I is positive definite, we have
+
+                 (f, f )H ≤ (f, f )HA ≤ kAk(f, f )H       for f ∈ H.
+
+Therefore, H is still complete with respect to the new inner product ( , )HA .
+The resulting Hilbert space will be denoted by HA .
+   If f1 , f2 ∈ H and g ∈ H, then
+
+     (π(g)f1 , π(g)f2)HA = (Aπ(g)f1, π(g)f2)H
+                         = (π(g)Af1, π(g)f2)H = (Af1 , f2 )H = (f1 , f2 )HA .
+
+Therefore, π also defines a unitary representation on HA . Applying Lemma 3.5
+to both HA and H, we have
+
+  (Af1 , f2 )H = (f1 , f2 )HA = (Jf2 , Jf1 )HA = (AJf2 , Jf1 )H
+                 = (Jf2 , A∗ Jf1 )H = (Jf2 , JJ −1 A∗ Jf1 )H = (J −1 A∗ Jf1 , f2 )H .
+
+Hence, A = J −1 A∗ J.
+Step 2 (general case). Suppose A ∈ EndH (H). Then A∗ also commutes
+with
+√
+      π(g) (g ∈ H) because π is unitary. We put B := 12 (A + A∗ ) and C :=
+  −1
+ 2
+     (A∗ −A). Then, both B and C are self-adjoint operators commuting with
+π(g) (g ∈ H). It follows from Step 1√that B ∗ = JBJ√
+                                                      −1
+                                                         and C ∗ = JCJ −1 .
+Since√J is conjugate-linear, we have ( −1C)∗ = J( −1C)J −1 . Hence, A =
+B + −1C also satisfies A∗ = JAJ −1 .
+Proof of Theorem 2.2. Let A, B ∈ EndH (H). By Lemma 3.6, we have
+
+                  AB = J −1 (AB)∗ J = J −1 B ∗ JJ −1 A∗ J = BA.
+
+Therefore, the ring EndH (H) is commutative.
+
+                                          14
+4     Visible actions on complex manifolds
+This section analyzes the geometric condition (2.2.2) on the complex man-
+ifold D. We shall introduce the concept of S-visible actions, with which
+Theorem 2.2 is reformulated in a simpler manner (see Theorem 4.3).
+
+4.1    Visible actions on complex manifolds
+Suppose a Lie group H acts holomorphically on a connected complex mani-
+fold D.
+Definition 4.1. We say the action is S-visible if there exist a subset S of D
+such that
+(4.1.1) D ′ := H · S is open in D,
+and an anti-holomorphic diffeomorphism σ of D ′ satisfying the following two
+conditions:
+(4.1.2) σ|S = id,
+(4.1.3) σ preserves every H-orbit in D ′ .
+Remark 4.1.1. The above condition is local in the sense that we may replace
+S by its subset S ′ in Definition 4.1 as far as H · S ′ is open in D.
+Remark 4.1.2. By the definition of D ′ , it is obvious that
+(4.1.4) S meets every H-orbit in D ′ .
+Thus, Definition 4.1 is essentially the same with strong visibility in the sense
+of [14, Definition 3.3.1]. In fact, the difference is only an additional require-
+ment that S is a smooth submanifold in [14]. We note that if S is a smooth
+submanifold in Definition 4.1, then S is totally real by the condition (4.1.2),
+and consequently, the H-action becomes visible in the sense of [13] (see [14,
+Theorem 4.3]).
+
+4.2    Compatible automorphism
+Retain the setting of Definition 4.1. Suppose σ is the anti-holomorphic diffeo-
+morphism of D ′ . Twisting the original H-action by σ, we can define another
+holomorphic action of H on D ′ by
+
+                         D ′ → D ′ , x 7→ σ(h · σ −1 (x)).
+
+                                        15
+If this action can be realized by H, namely, if there exists a group automor-
+phism σ̃ of H such that
+
+                    σ̃(h) · x = σ(h · σ −1 (x)) for any x ∈ D ′ ,
+
+we say σ̃ is compatible with σ. This condition is restated simply as
+
+(4.2.1)               σ̃(h) · σ(y) = σ(h · y) for any y ∈ D ′ .
+
+Definition 4.2. We say an S-visible action has a compatible automorphism
+of the transformation group H if there exists an automorphism σ̃ of the group
+H satisfying the condition (4.2.1).
+
+   We remark that the condition (4.1.3) follows from (4.1.1) and (4.1.2) if
+there exists σ̃ satisfying (4.2.1). In fact, any H-orbit in D ′ is of the form
+H · x for some x ∈ S, and then
+
+                          σ(H · x) = σ̃(H) · σ(x) = H · x
+
+by (4.1.2) and (4.2.1).
+    Suppose V → D is an H-equivariant holomorphic vector bundle. If there
+is a compatible automorphism σ̃ of H with an anti-holomorphic diffeomor-
+phism σ on D, then we have the following isomorphism:
+
+             (σ ∗ V)h·y ≃ V σ(h·y) = V σ̃(h)·σ(y)   for h ∈ H and y ∈ D.
+
+Therefore, we can let H act equivariantly on the holomorphic vector bundle
+σ ∗ V → D by defining the left translation on σ ∗ V as
+
+                               Lσh : (σ ∗ V)y → (σ ∗ V)h·y
+
+via the identification with the left translation Lσ̃(h) : V σ(y) → V σ̃(h)·σ(y) . Then,
+the two H-equivariant holomorphic vector bundles V and σ ∗ V are isomorphic
+if and only if σ lifts to an anti-holomorphic bundle endomorphism σ (we use
+the same letter) which respects the H-action in the sense that
+
+(4.2.2)            Lσ̃(h) ◦ σ = σ ◦ Lh      on V     for any h ∈ H.
+
+
+
+
+                                            16
+4.3    Propagation of multiplicity-free property
+By using the concept of S-visible actions, we give a second form of our main
+theorem as follows:
+Theorem 4.3. Let V → D be an H-equivariant Hermitian holomorphic
+vector bundle. Assume the following three conditions are satisfied:
+(4.3.1) (Base space) The action on the base space D is S-visible with a
+        compatible automorphism of the group H (Definition 4.2).
+(4.3.2) (Fiber) The isotropy representation of Hx on Vx is multiplicity-free
+        for any x ∈ S.
+We write its irreducible decomposition as
+                                            n(x)
+                                            M
+                                 Vx =              Vx(i) .
+                                            i=1
+
+
+(4.3.3) (Compatibility) σ lifts to an anti-holomorphic endomorphism (we
+        use the same letter σ) of the H-equivariant Hermitian holomorphic
+        vector bundle V such that (4.2.2) holds and
+
+(4.3.3)(a)            σx (Vx(i) ) = Vx(i)     for 1 ≤ i ≤ n(x), x ∈ S.
+
+Then, any unitary representation which is realized in O(D, V) is multiplicity-
+free.
+    The difference between the conditions of Theorem 4.3 with the previous
+conditions (2.2.1) and (2.2.3) in Theorem 2.2 is the following: The conditions
+(4.3.2) and (4.3.3)(a) are imposed only on the slice S, while the conditions
+in Theorem 2.2 were imposed on the whole base space D (or at least its open
+subset).
+Remark 4.3.1. We can sometimes find a slice S such that the isotropy sub-
+group Hx is independent of generic x ∈ S. Bearing this in mind, we set
+                        \
+                 HS :=     Hx
+                         x∈S
+                      = {g ∈ H : gx = x for any x ∈ S}.
+
+Theorem 4.3 still holds if we replace Hx with HS (see also Remark 2.2.1(2)).
+
+                                            17
+Proof. We shall reduce Theorem 4.3 to Theorem 2.2 by using the H-equivariance
+of the bundle endomorphism σ. Let us show that the conditions (2.2.1),
+(2.2.2) and (2.2.3) are satisfied for the H-invariant open subset D ′ := H · S
+of D.
+    First we observe that the condition (4.1.3) implies (2.2.2) because σ(x) ∈
+σ(H · x) = H · x for any x ∈ D ′ .
+    Next, take any element x ∈ D ′ and we write x = h · x0 (h ∈ H, x0 ∈ S).
+We set
+                      Vx(i) := Lh (Vx(i)0 ) (1 ≤ i ≤ n(x0 )).
+                                         ∼
+Through the group isomorphism Hx0 −→       Hx , l 7→ hlh−1 and the left transla-
+tion Lh : Vx0 → Vx , we get the isomorphism between the two isotropy repre-
+sentations, Hx0 → GL(Vx0 ) and Hx → GL(Vx ), because Lhlh−1 = Lh ◦Ll ◦L−1     h
+(l ∈ Hx0 ). In particular, the direct sum
+                                              n(x0 )
+                                              M
+                                     Vx =              Vx(i)
+                                               i=1
+
+gives a multiplicity-free decomposition of irreducible representations of Hx .
+Hence, the condition (2.2.1) is satisfied for all x ∈ D ′ .
+    Finally, we set g := σ̃(h)h−1 ∈ H. As σ(x0 ) = x0 , we have
+
+             σ(x) = σ(h · x0 ) = σ̃(h) · σ(x0 ) = σ̃(h) · x0 = g · x.
+
+Besides, we have for any i (1 ≤ i ≤ n(x) = n(x0 )),
+
+            σx (Vx(i) ) = σx (Lh (Vx(i)0 ))
+                       = Lσ̃(h) (σx0 (Vx(i)0 ))                by (4.2.2)
+                                       
+                       = Lσ̃(h) Vx(i)0                         by (4.3.3)(a)
+                       = Lσ̃(h)h−1 Lh (Vx(i)0 )
+                       = Lg (Vx(i) ).
+
+Hence, the condition (2.2.3) holds for any x ∈ D ′ . Therefore, all the assump-
+tions of Theorem 2.2 are satisfied for the open subset D ′ . Now, Theorem 4.3
+follows from Theorem 2.2 and Remark 2.2.1 (1).
+
+
+
+
+                                              18
+5     Multiplicity-free theorem for associated bun-
+      dles
+This section provides a third form of our multiplicity-free theorem (see Theo-
+rem 5.3). It is intended for actual applications to group representation theory,
+especially to branching problems. The idea here is to reformalize the geo-
+metric condition of Theorem 4.3 (second form) in terms of the representation
+of the structure group of an equivariant principal bundle.
+    Theorem 5.3 is used as a main machinery in [13, 14] (referred to as [13,
+Theorem 1.3] and [14, Theorem 2], of which we have postponed the proof
+to this article) for various multiplicity-free theorems including the following
+cases:
+    • tensor product representations of GL(n) [13, Theorem 3.6],
+    • branching problems for GL(n) ↓ GL(n1 ) × GL(n2 ) × GL(n3 ) ([13, The-
+      orem 3.4]),
+    • Plancherel formulae for vector bundles over Riemannian symmetric
+      spaces ([14, Theorems 21 and 30]).
+
+5.1       Automorphisms on equivariant principal bundles
+We begin with the setting where a Hermitian holomorphic vector bundle
+V over a connected complex manifold D is given as the associated bundle
+V ≃ P ×K V to the following data (P, K, µ, V ):
+              K is a Lie group,
+              ̟ : P → D is a principal K-bundle,
+              V is a finite dimensional Hermitian vector space,
+              µ : K → GLC (V ) is a unitary representation.
+    Suppose that a Lie group H acts on P from the left, commuting with the
+right action of K. Then H acts also on the Hermitian vector bundle V → D
+by automorphisms.
+    We take p ∈ P , and set x := ̟(p) ∈ D. If h ∈ Hx , then ̟(hp) = h · x =
+x = ̟(p). Therefore, there is a unique element of K, denoted by ip (h), such
+that
+(5.1.1)                          hp = p ip (h).
+
+                                      19
+The correspondence h 7→ ip (h) gives rise to a Lie group homomorphism
+ip : Hx → K. We set
+
+(5.1.2)                        H(p) := ip (Hx ).
+
+Then, H(p) is a subgroup of K.
+
+Definition 5.1. By an automorphism of the H-equivariant principal K-
+bundle ̟ : P → D, we mean that there exist a diffeomorphism σ : P → P
+and Lie group automorphisms σ : K → K and σ : H → H (by a little abuse
+of notation, we use the same letter σ) such that
+(5.1.3) σ(hpk) = σ(h)σ(p)σ(k) (h ∈ H, k ∈ K, p ∈ P ).
+
+   The condition (5.1.3) immediately implies:
+(5.1.4) σ induces an action (denoted again by σ) on P/K ≃ D,
+
+(5.1.5) the induced action σ on D is compatible with σ ∈ Aut(H) (see
+        (4.2.1) for the definition).
+
+   We write P σ for the set of fixed points by σ, that is,
+
+                          P σ := {p ∈ P : σ(p) = p}.
+
+   Then, we have:
+
+Lemma 5.1. σ(H(p) ) = H(p) if p ∈ P σ .
+
+Proof. Take h ∈ Hx . Applying σ to the equations h · x = x (∈ D) and
+hp = pip (h) (∈ P ), we have σ(h) · x = x and σ(h)p = pσ(ip (h)) from (5.1.3).
+Hence, σ(h) ∈ Hx and ip (σ(h)) = σ(ip (h)). Therefore, σ(Hx ) ⊂ Hx and
+σ(H(p) ) ⊂ H(p) . Likewise, σ −1 (Hx ) ⊂ Hx and σ −1 (H(p) ) ⊂ H(p) . Hence, we
+have proved σ(Hx ) = Hx and σ(H(p) ) = H(p) .
+
+5.2       Multiplicity-free theorem
+For a representation µ of K, we denote by µ∨ the contragredient representa-
+tion of µ. It is isomorphic to the conjugate representation µ if µ is unitary.
+
+
+
+
+                                      20
+Proposition 5.2. Retain the setting of Subsection 5.1. Assume that there
+exist an automorphism σ of the H-equivariant principal K-bundle ̟ : P → D
+such that
+(5.2.1)     the induced action of σ on D is anti-holomorphic,
+and a subset B of P σ satisfying the following two conditions:
+(5.2.2)     HBK contains a non-empty open subset of P .
+(5.2.3)     The restriction µ|H(b) is multiplicity-free as an H(b) -module for
+            any b ∈ B.
+                                                   Ln
+                                                        (i)
+We write its irreducible decomposition as µ|H(b) ≃     νb . Further, we as-
+                                                   i=1
+sume:
+(5.2.4) (a) µ ◦ σ ≃ µ∨ as K-modules.
+                                                 ∨
+(5.2.4) (b) For any b ∈ B and i, ν (i) ◦ σ ≃ ν (i) as H(b) -modules.
+Then, any unitary representation of H that is realized in O(D, V) is multiplicity-
+free.
+   The proof of Proposition 5.2 is given in Section 6
+Remark 5.2.1. Loosely, the conditions (5.2.2) and (5.2.3) mean that the holo-
+morphic bundle V → D cannot be ‘too large’, with respect to the transforma-
+tion group H. The remaining condition (5.2.4) is often automatically fulfilled
+(e.g. Corollary 5.4).
+Remark 5.2.2. As in Remark 2.2.1, Proposition 5.2 still holds if H(b) is re-
+                                  ′
+placed by its arbitrary subgroup H(b) for each b ∈ B in (5.2.3) and (5.2.4) (b).
+Remark 5.2.3. For a connected compact Lie group K, the condition (5.2.4) (a)
+is satisfied for any finite dimensional representation µ of K if we take σ ∈
+Aut(K) to be a Weyl involution. We recall that σ is a Weyl involution if there
+exists a Cartan subalgebra t of the Lie algebra k of K such that dσ = − id
+on t. It is noteworthy that any simply-connected compact Lie group admits
+a Weyl involution.
+
+5.3       Multiplicity-free theorem (third form)
+In the assumption of Proposition 5.2, the subgroups H(b) may depend on b
+(see (5.2.3) and (5.2.4) (b)). For actual applications, we give a weaker but
+
+                                      21
+simpler form by taking just one subgroup M instead of a family of subgroups
+H(b) .
+   For a subset B of P , we define the following subgroup MH (B) of K:
+
+(5.3.1)
+   MH (B) := {k ∈ K : for each b ∈ B, there is h ∈ H such that hb = bk}
+              \
+           =     KHb ,
+              b∈B
+
+where KHb denotes the isotropy subgroup at Kb in the left coset space H\P ,
+which is acted on by K from the right. Then MH (B) is σ-stable if B ⊂ P σ ,
+as is readily seen from (5.1.3).
+Theorem 5.3. Assume that there exist an automorphism σ of the H-equivariant
+principal K-bundle ̟ : P → D satisfying (5.2.1) and a subset B of P σ with
+the following three conditions (5.3.2) – (5.3.4): Let M := MH (B).
+
+(5.3.2)    HBK contains a non-empty open subset of P .
+(5.3.3)    The restriction µ|M is multiplicity-free.
+                                                         L
+                                                         n
+We shall write its irreducible decomposition as µ|M ≃          ν (i) .
+                                                         i=1
+(5.3.4) (a) µ ◦ σ ≃ µ∨ as representations of K.
+                          ∨
+(5.3.4) (b) ν (i) ◦ σ ≃ ν (i) as representations of M for any i (1 ≤ i ≤ n).
+
+Then, any unitary representation of H which is realized in O(D, V) is multiplicity-
+free.
+Remark 5.3.1. Theorem 5.3 still holds if we replace M with an arbitrary
+σ-stable subgroup of MH (B) to verify the conditions (5.3.3) and (5.3.4) (b).
+   Assuming Proposition 5.2, we first complete the proof of Theorem 5.3.
+Proof of Theorem 5.3. In view of Proposition 5.2 and Remark 5.2.2, it is
+sufficient to show MH (B) ⊂ H(b) for all b ∈ B.
+     To see this, take any k ∈ MH (B). By the definition (5.3.1), there exists
+h ∈ H such that hb = bk. Then, h ∈ H̟(b) . Since ib (h) ∈ K is characterized
+by the property hb = b ib (h) (see (5.1.1)), k coincides with ib (h). Hence, k =
+ib (h) ∈ ib (H̟(b) ) = H(b) (see (5.1.2)). Thus, we have proved MH (B) ⊂ H(b)
+for all b ∈ B.
+
+                                      22
+5.4       Line bundle case
+In general, the condition (5.3.2) tends to be fulfilled if B is large, while the
+condition (5.3.3) tends to be fulfilled if B is small (namely, if M is large).
+However, we do not have to consider the condition (5.3.3) if V → D is a line
+bundle. Hence, by taking B to be maximal, that is, by setting B := P σ , we
+get:
+Corollary 5.4. Suppose we are in the setting of Subsection 5.1. Suppose
+furthermore that K is connected and dim µ = 1. Assume that there exists
+an automorphism σ of the H-equivariant principal K-bundle ̟ : P → D
+satisfying (5.2.1) and the following two conditions:
+(5.4.1)       dσ = − id on the center c(k) of the Lie algebra k of K.
+(5.4.2)       HP σ K contains a non-empty open subset of P .
+Then, any unitary representation which can be realized in O(D, V) is multiplicity-
+free.
+Proof of Corollary. As we mentioned, we apply Theorem 5.3 with B := P σ .
+The condition (5.3.3) is trivially satisfied because dim µ = 1.
+    Let us show µ ◦ σ = µ∨ . We write K = [K, K] · C, where [K, K] is the
+commutator subgroup and C = exp(c(k)). Since [K, K] is semisimple, it acts
+trivially on the one dimensional representations µ ◦ σ and µ∨ . By (5.4.1),
+µ ◦ σ(eX ) = µ(e−X ) = µ∨ (eX ) for any X ∈ c(k). Hence µ ◦ σ = µ∨ both on
+[K, K] and C. Therefore, the condition (5.3.4) (a) holds. Then, (5.3.4) (b)
+also holds. Therefore, Corollary follows from Theorem 5.3.
+
+5.5       Multiplicity-free branching laws
+So far, we have not assumed that P has a group structure. Now, we consider
+the case that P is a Lie group which we denote by G, and that H and K are
+closed subgroups of G. This framework enables us to apply Theorem 5.3 to
+the restriction of representations of G (constructed on G/K) to its subgroup
+H. Applications of Corollary 5.5 include multiplicity-free branching theorems
+of highest weight representations for both finite and infinite dimensional cases
+(see [13, 14, 15]).
+    We denote the centralizer of B in H ∩ K by
+             ZH∩K (B) := {l ∈ H ∩ K : lbl−1 = b for any b ∈ B}.
+
+                                      23
+Corollary 5.5. Suppose D = G/K carries a G-invariant complex structure,
+and V = G ×K V is a G-equivariant holomorphic vector bundle over D
+associated to a unitary representation µ : K → GL(V ). We assume there
+exist an automorphism σ of the Lie group G stabilizing H and K such that
+the induced action on D = G/K is anti-holomorphic, and a subset B of Gσ
+satisfying the conditions (5.3.2), (5.3.3), and (5.3.4) (a) and (b) for P := G
+and M := ZH∩K (B). Then, any unitary representation of H which can be
+realized in the G-module O(D, V) is multiplicity-free.
+Proof. Since ZH∩K (B) is contained in MH (B) by the definition (5.3.1), Corol-
+lary 5.5 is a direct consequence of Theorem 5.3 and Remark 5.3.1.
+
+
+6     Proof of Proposition 5.2
+This section gives a proof of Proposition 5.2 by showing that all the conditions
+of Theorem 4.3 are fulfilled. Then, the proof of our third form (Theorem 5.3)
+will be completed.
+
+6.1       Verification of the condition (4.3.1)
+Suppose we are in the setting of Proposition 5.2. Then, HBK contains a
+non-empty open subset of P , and consequently ̟(HBK) contains a non-
+empty open subset, say W , of D. By taking the union of H-translates of W ,
+we get an H-invariant open subset D ′ := H · W of D. We set
+
+                               S := D ′ ∩ ̟(B).
+
+Then, D ′ = H · S. Besides, σ|S = id because B ⊂ P σ . Thus, the H-action
+on D is S-visible with a compatible automorphism σ of H by (5.1.3) in the
+sense of Definition 4.2. Thus, the condition (4.3.1) holds for D ′ .
+
+6.2       Verification of the condition (4.3.2)
+Next, let us prove that Vx is multiplicity-free as an Hx -module for all x in S.
+   Let V ≃ P ×K V be the associated bundle, and P ×V → V, (p, v) 7→ [p, v]
+by the natural quotient map. For p ∈ P we set x := ̟(p) ∈ D. Then, we
+can identify the fiber Vx with V by the bijection
+                                  ∼
+(6.2.1)                   ιp : V −→ Vx ,   v 7→ [p, v].
+
+                                      24
+    Via the bijection (6.2.1) and the group homomorphism ip : Hx → H(p) ,
+the isotropy representation of Hx on Vx factors through the representation
+µ : H(p) → GL(V ), namely, the following diagram commutes for any l ∈ Hx :
+                                          ∼
+                                  V −−−→ Vx
+                                      ιp
+                                         
+                                         L
+(6.2.2)                   µ(ip (l))y      y l
+                                          ∼
+                               V     −−−→ Vx
+                                          ιp
+
+   Now, suppose x ∈ S. We take b ∈ B such that x = ̟(b).
+   According to (5.2.3), we decompose V as a multiplicity-free sum of irre-
+ducible representations of H(b) , for which we write
+                             n
+                             M                       n
+                                                     M
+                                    (i)                        (i)
+(6.2.3)                 µ=         νb ,        V =            Vb .
+                             i=1                     i=1
+
+                                                        (i)          (i)
+Then, it follows from (6.2.2) that if we set Vx := ιb (Vb ), then
+                                          n
+                                          M
+(6.2.4)                            Vx =         Vx(i)
+                                          i=1
+
+is an irreducible decomposition as an Hx -module. Hence, (4.3.2) is verified.
+
+6.3       Verification of the condition (4.3.3)
+Third, let us construct an isomorphism Ψ : V → σ ∗ V. According to the
+assumption (5.2.4) (a), there exists a K-intertwining isomorphism, denoted
+by ψ : V → V , between the two representations µ and µ ◦ σ. As the vector
+bundle V → D is associated to the data (P, K, µ, V ), so is the vector bundle
+σ ∗ V → D to the data (P, K, µ ◦ σ, V ). Hence the map
+                   P ×V →P ×V,                 (p, v) 7→ (p, ψ(v))
+induces the bundle isomorphism
+                                      ∼
+(6.3.1)                        Ψ : V −→ σ ∗ V.
+   In other words, the conjugate linear map defined by
+(6.3.2)                    ϕ : V → V,           v 7→ ψ(v)
+
+                                          25
+satisfies
+                               µ(σ(k)) ◦ ϕ = ϕ ◦ µ(k) for k ∈ K.
+Hence, we can define an anti-holomorphic endomorphism of V by
+
+                                 V → V,        [p, v] 7→ [σ(p), ϕ(v)].
+
+This endomorphism, denoted by the same letter σ, is a lift of the anti-
+holomorphic map σ : D → D, and satisfies (4.2.2) because of (5.1.3).
+   Besides, for x = ̟(p), we have
+
+(6.3.3)                                    ισ(p) ◦ ϕ = σx ◦ ιp .
+
+   Finally, let us verify the condition (4.3.3)(a).
+Step 1. First, let us show
+                                     (i)         (i)
+(6.3.4)                          ϕ(Vb ) = Vb             for 1 ≤ i ≤ n.
+
+Bearing the inclusion H(b) ⊂ K in mind, we consider the representation
+                                                                  (i)
+µ ◦ σ : K → GL(V ) and its subrepresentation realized on ψ(Vb ) (⊂ V )
+                                                    (i) (i)
+as an H(b) -module. Then, this is isomorphic to (νb , Vb ) as H(b) -modules
+because ψ : V → V intertwines the two representations µ and µ ◦ σ of K.
+On the other hand, it follows from the irreducible decomposition (6.2.3) that
+                                                                          (i)
+the representation µ ◦ σ when restricted to the subspace Vb                     is isomorphic
+    (i)                                                                   (i)
+to νb ◦ σ as H(b) -modules. By our assumption (5.2.4) (b), νb is isomorphic
+     (i)
+to νb ◦ σ, which occurs in V exactly once. Therefore, the two subspaces
+     (i)           (i)
+ψ(Vb ) and Vb must coincide. Hence, we have (6.3.4) by (6.3.2).
+Step 2. Next we show that (4.3.3)(a) holds for x = ̟(b) if b ∈ B. We note
+that σ(b) = b and σ(x) = x. Then, it follows from (6.3.3) and (6.3.4) that
+                               (i)                     (i)          (i)   (i)
+                 σx ◦ ιb (Vb ) = ισ(b) ◦ ϕ(Vb ) = ισ(b) (Vb ) = ιb (Vb ).
+           (i)           (i)                                 (i)    (i)
+Since Vx = ιb (Vb ), we have proved σx (Vb ) = Vb .
+    Hence, (4.3.3)(a) holds.
+    Thus, all the conditions of Theorem 4.3 hold for D ′ . Therefore, Propo-
+sition 5.2 follows from Theorem 4.3 and Remark 2.2.1 (2). Hence, the proof
+of Theorem 5.3 is completed.
+
+
+                                                       26
+7     Concluding remarks
+7.1    Applications in concrete settings
+The application of our multiplicity-free theorem ranges from finite dimen-
+sional representations to infinite dimensional ones, from discrete spectrum to
+continuous spectrum, and from classical groups to exceptional groups. Al-
+though concrete applications are not the main issue of the present article, let
+us mention some of them (see [14, 15] for details on this topic).
+    The first paper [12] in this direction (i.e. multiplicity-free theorem for
+the line bundle case) already demonstrated that there are fairly many new
+multiplicity-free representations for which explicit decomposition formulae
+were not known at that time. (See [1, 20, 24] and references therein in the
+finite dimensional cases and to [15, 30] in the infinite dimensional cases for
+some of new explicit branching laws.)
+    More generally, Theorem 5.3 gives a systematic and synthetic proof of the
+multiplicity-free property including the Plancherel formula for Riemannian
+symmetric spaces due to É. Cartan and I. M. Gelfand, its extension to line
+bundles and certain vector bundles (A. Deitmar [4], see also [14, Theorem
+30]), and even its deformation which traces back to the canonical representa-
+tion of Vershik–Gelfand–Graev in the SL(2, R) case ([5], [14, Example 8.3.3]
+for more general groups); the Hua–Kostant–Schmid K-type formula [14, 29],
+and its generalization to semisimple symmetric pairs due to the author ([12],
+see also [15]). Not only these infinite dimensional multiplicity-free repre-
+sentations, but also quite a few multiplicity-free representations even in the
+finite dimensional case where combinatorial argument is usually involved can
+be obtained as a special case of our propagation theorem. For example, we
+have proved in [13] that Theorem 5.3 gives us a new and simple geometric
+explanation about when the tensor product of two representations for GL(n)
+is multiplicity-free (the classification was recently proved by Stembridge [31]
+in the spirit of case-by-case).
+    Least but not last, Theorem 5.3 has raised also a set of new problems
+concerning analysis on multiplicity-free representations beyond (algebraic)
+branching laws, see [15, Section 1.8] for a short summary of developments
+made by Ben Saı̈d, van Dijk, Hille, Ørsted, Neretin, Zhang, and by the author
+among others in the last decade.
+
+
+
+
+                                      27
+7.2    Visible actions and coisotropic actions
+There are the following three concepts on group actions in different geometric
+settings:
+
+ • (Complex geometry) (S-)visible actions (Definition 4.1).
+ • (Symplectic geometry) coisotropic actions.
+ • (Riemannian geometry) polar actions.
+
+See [13, 14] for more details about visible actions on complex manifolds;
+Guillemin and Sternberg [7] or Huckleberry and Wurzbacher [10] for coisotropic
+actions on symplectic manifolds; and Heintze et al [9] or Podestà–Thorbergsson
+[25] for polar actions on Riemannian manifolds. It should be noted that Lie
+groups G are usually assumed to be compact for coisotropic actions and also
+for polar actions in the literature, whereas we allow G to be non-compact for
+visible actions in [13, 14] so that we can apply this concept to the study of
+infinite dimensional representations of G.
+    We may compare the above three concepts assuming that the manifold
+is Kähler so that it is endowed with complex, symplectic, and Riemannian
+structures simultaneously. It should be noted that, according to [10], J.
+Wolf first suggested the terminology “multiplicity-free actions” for coisotropic
+actions in the symplectic setting. Further study on coisotropic actions and
+multiplicity-free representations of compact Lie groups may be found in [10].
+The relation of visible actions with coisotropic actions and polar actions is
+discussed in [14, Section 4].
+    A special case is given by linear actions on Hermitian vector spaces.
+
+Proposition 7.2. Suppose τ : G → GL(V ) is a unitary representation of
+a compact Lie group G on a finite dimensional Hermitian vector space V .
+Then the following two conditions (i) and (ii) are equivalent. Further, the
+condition (iii) implies (i) and (ii).
+
+  (i) G acts strongly visibly on V as a complex manifold.
+
+ (ii) G acts coisotropically on V as a symplectic manifold.
+
+(iii) G acts polarly on V as a Riemannian manifold.
+
+    The equivalence (i) ⇐⇒ (ii) follows from the classification of multiplicity-
+free linear actions by V. Kac (irreducible case), C. Benson–G. Ratcliff and
+
+                                      28
+A. Leahy (reducible cases; see [2] and references therein), Huckleberry and
+Wurzbacher [10], and the classification of multiplicity-free linear visible ac-
+tions by A. Sasaki [26, 28]. The last statement follows from Dadok [3]. The
+converse of the last statement does not hold. A counterexample is the nat-
+ural action of U(3) × Sp(n) on C3 ⊗ C2n , which is not polar but is strongly
+visible and coisotropic.
+
+7.3    Generalization of the main theorem
+So far we have assumed that the base space D and the fiber V are finite
+dimensional, and discussed representations realized in the space of holomor-
+phic sections for an equivariant holomorphic bundle V → D. It may be
+interesting to consider an analog of the propagation theorem of multiplicity-
+free property (Theorem 2.2) in a more general setting. Among others, we
+raise the following two cases for generalization.
+
+    1. Visible actions on infinite dimensional complex manifolds.
+    It is plausible that our framework and its idea would work in the infinite
+dimensional settings by careful analysis (see [23], for example). A general-
+ization to infinite dimensional setting applies to the following objects:
+
+      the fiber V ,
+
+      the complex manifold D (base space),
+
+      the group G.
+
+Here, we have in mind also an application to branching problems of rep-
+resentations of infinite dimensional Lie groups, e.g., an infinite dimensional
+analogue of [15, Theorem A] for those are constructed by a generalized Borel–
+Weil theorem.
+
+    2. Dolbeault cohomologies for equivariant holomorphic vector bundles.
+    The point here is to replace the space O(D, V) of holomorphic sections by
+the Dolbeault cohomology group H j (D, V). In this setting, we highlight irre-
+ducible unitary representations corresponding to a “geometric quantization”
+of elliptic orbits Oλ . For real reductive groups, these representations are re-
+alized in the Dolbeault cohomology groups for equivariant holomorphic line
+bundles Lλ over Oλ , giving the maximal globalization of Zuckerman derived
+
+
+                                      29
+functor modules Aq (λ). (The localization of their contragredient representa-
+tions are KC -equivariant sheaves of D-modules supported on closed KC -orbits
+on the generalized flag variety GC /Q by the Hecht–Miličić–Schmid–Wolf du-
+ality theorem [8].) A generalization of our propagation theorem would yield
+an interesting family of multiplicity-free branching problems, see [19, Con-
+jecture 4.2].
+
+
+References
+ [1] H. Alikawa, Multiplicity-free branching rules for outer automorphisms of sim-
+     ple Lie groups, J. Math. Soc. Japan 59 (2007), 151–177.
+ [2] C. Benson and G. Ratcliff, On multiplicity free actions. Representations of
+     real and p-adic groups, 221–304, Lect. Notes Ser. Inst. Math. Sci. Natl. Univ.
+     Singap., 2, Singapore Univ. Press, Singapore, 2004.
+ [3] J. Dadok, Polar coordinates induced by actions of compact Lie groups, Trans.
+     Amer. Math. Soc. 288 (1985), 125–137.
+ [4] A. Deitmar, Invariant operators on higher K-types. J. Reine Angew. Math.
+     412 (1990), 97–107.
+ [5] G. van Dijk and S. C. Hille, Canonical representations related to hyperbolic
+     spaces, J. Funct. Anal. 147 (1997), 109–139.
+ [6] J. Faraut and E. G. F. Thomas, Invariant Hilbert spaces of holomorphic
+     functions, J. Lie Theory 9 (1999), 383–402.
+ [7] V. Guillemin and S. Sternberg, Multiplicity-free spaces, J. Differential Geom.
+     19 (1984), 31–56.
+ [8] H.Hecht, D. Miličić, W. Schmid, and J. A. Wolf, Localization and standard
+     modules for real semisimple Lie groups. I. The duality theorem, Invent. Math.
+     90 (1987), 297–332.
+ [9] E. Heintze, R. S. Palais, and C.-L. Terng, G. Thorbergsson, Hyperpolar ac-
+     tions on symmetric spaces, in: Geometry, Topology, and Physics, Conf. Proc.
+     Lecture Notes Geom. Topology, IV, International Press, Cambridge, MA,
+     1995, pp. 214–245.
+[10] A. T. Huckleberry and T. Wurzbacher, Multiplicity-free complex manifolds,
+     Math. Ann. 286 (1990), 261–280.
+[11] S. Kobayashi, Irreducibility of certain unitary representations, J. Math. Soc.
+     Japan 20 (1968), 638–642.
+[12] T. Kobayashi, Multiplicity-free theorem in branching problems of unitary
+     highest weight modules, Proceedings of the Symposium on Representation
+     Theory held at Saga, Kyushu 1997 (ed. K. Mimachi), (1997), 9–17.
+
+
+
+                                        30
+[13]         , Geometry of multiplicity-free representations of GL(n), visible ac-
+     tions on flag varieties, and triunity, Acta Appl. Math. 81 (2004), 129–146.
+[14]         , Multiplicity-free representations and visible actions on complex man-
+     ifolds, Publ. Res. Inst. Math. Sci. 41 (2005), 497–549 (a special issue of Pub-
+     lications of RIMS commemorating the fortieth anniversary of the founding of
+     the Research Institute for Mathematical Sciences).
+[15]         , Multiplicity-free theorems of the restriction of unitary highest
+     weight modules with respect to reductive symmetric pairs, Progr. Math. 255
+     Birkhäuser (2007), 45–109.
+[16]         , Visible actions on symmetric spaces, Transform. Group 12 (2007),
+     671–694.
+[17]         , A generalized Cartan decomposition for the double coset space
+     (U (n1 )×U (n2 )×U (n3 ))\U (n)/(U (p)×U (q)), J. Math. Soc. Japan 59 (2007),
+     669–691.
+[18]         , Restrictions of generalized Verma modules to symmetric pairs, sub-
+     mitted, arXiv:1008.4544.
+[19]         , Branching problems of Zuckerman derived functor modules, to ap-
+     pear in Contemporary Mathematics, Amer. Math. Soc., In: Representation
+     Theory and Mathematical Physics Conference in honor of Gregg Zuckerman’s
+     60th birthday, arXiv:1104:4399.
+[20] C. Krattenthaler, Identities for classical group characters of nearly rectangu-
+     lar shape, J. Algebra 209 (1998), 1–64.
+[21] G. W. Mackey, Induced representations of locally compact groups I, Annals
+     of Math. 55 (1952), 101–139.
+[22] K.-H. Neeb, On some classes of multiplicity free representations, Manuscripta
+     Math. 92 (1997), 389–407.
+[23] K-H. Neeb, Towards a Lie theory of locally convex groups, Jpn. J. Math. 1
+     (2006), 291–468.
+[24] S. Okada, Applications of minor summation formulas to rectangular-shaped
+     representations of classical groups, J. Algebra 205 (1998), 337–367.
+[25] F. Podestà and G. Thorbergsson, Polar and coisotropic actions on Kähler
+     manifolds, Trans. Amer. Math. Soc. 354 (2002), 1759–1781.
+[26] A. Sasaki, Visible actions on irreducible multiplicity-free spaces, Int. Math.
+     Res. Not. IMRN 2009, no. 18, 3445–3466.
+[27]         , A characterization of non-tube type Hermitian symmetric spaces by
+     visible actions, Geom. Dedicata 145 (2010), 151–158.
+[28]         , Visible actions on reducible multiplicitiy-free spaces, Int. Math. Res.
+     Not. IMRN 2011, no. 4, 885–929.
+[29] W. Schmid, Die Randwerte holomorpher Funktionen auf hermitesch sym-
+     metrischen Räumen, Invent. Math. 9 (1969-70), 61–80.
+
+
+                                         31
+[30] H. Sekiguchi, Branching rules of Dolbealt cohomology groups over indefinite
+     Grassmannian manifolds, Proc. Japan Acad. Ser A. Math. Sci. 87 (2011),
+     31–34.
+[31] J. R. Stembridge, Multiplicity-free products of Schur functions, Ann. Comb.
+     5 (2001), 113–121.
+[32] D. A. Vogan, Jr., Unitarizability of certain series of representations, Ann.
+     Math. 120 (1984), 141–187.
+[33] N. R. Wallach, On the unitarizability of derived functor modules, Invent.
+     Math. 78 (1984), 131–141.
+[34] J. Wolf, Representations that remain irreducible on parabolic subgroups. Dif-
+     ferential geometrical methods in mathematical physics (Proc. Conf., Aix-
+     en-Provence/Salamanca, 1979), pp. 129–144, Lecture Notes in Math. 836,
+     Springer, Berlin, 1980.
+
+
+
+
+                                       32
+

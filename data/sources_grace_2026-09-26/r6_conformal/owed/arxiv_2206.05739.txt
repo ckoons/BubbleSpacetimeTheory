@@ -1,0 +1,1690 @@
+                                                    THE BIHOLOMORPHIC INVARIANCE OF ESSENTIAL
+                                                    NORMALITY ON BOUNDED SYMMETRIC DOMAINS
+
+
+
+
+arXiv:2206.05739v3 [math.FA] 30 Dec 2023
+                                                                                      LIJIA DING
+
+
+
+
+                                                  Abstract. This paper mainly concerns the biholomorphic invariance of p-essential
+                                                  normality of Hilbert modules on bounded symmetric domains. By establishing new
+                                                  integral formulas concerning rational function kernels for the Taylor functional calcu-
+                                                  lus, we prove a biholomorphic invariance result related to the p-essential normality.
+                                                  Furthermore, for quotient analytic Hilbert submodules determined by analytic va-
+                                                  rieties, we develop an algebraic approach to proving that the p-essential normality
+                                                  is preserved invariant if the coordinate multipliers are replaced by arbitrary auto-
+                                                  morphism multipliers. Moreover, the Taylor spectrum of the compression tuple is
+                                                  calculated under a mild condition, which gives a solvability result of the corona prob-
+                                                  lem for quotient submodules. As applications, we extend the recent results on the
+                                                  equivalence between ∞-essential normality and hyperrigidity.
+
+
+                                                                                  1. Introduction
+                                             The study of p-essentially normal Hilbert modules originates from Arveson’s sem-
+                                           inal works [2, 3, 4] in which it is applied to investigate the dilation theory and the
+                                           geometric invariant theory of the commuting operator tuple. Recently, the p-essential
+                                           normality of Hilbert modules on some bounded pseudoconvex domains has continu-
+                                           ously attracted more attention, for example in the papers [5, 13, 15, 19, 20, 21, 22].
+                                           The results reveal the profound interplay among complex algebraic geometry, index
+                                           theory, operator algebra and operator theory.
+                                             The purpose of this paper is to establish the biholomorphic invariance of p-essential
+                                           normality of Hilbert modules on bounded symmetric domains, and gives some intrinsic
+                                           characterizations of the p-essential normality. Bounded symmetric domains are non-
+                                           compact Hermitian symmetric spaces that are natural generalizations of the usual unit
+                                           ball and play a role in various branches of mathematics, such as arithmetic algebraic
+                                           geometry, differential geometry, and Lie theory. The bounded symmetric domain is
+                                           assumed to be irreducible in this paper unless otherwise stated. It is known that the
+                                           Hardy and weighted Bergman modules are not ∞-essentially normal in the higher
+                                           rank case due to the foliation structure for the Toeplitz C ∗ -algebra [28], but there
+                                           indeed exist plentiful nontrivial quotient submodules that are determined by algebraic
+                                           varieties are p-essentially normal for sufficiently large p; see example for [19, 30, 31].
+                                             Salinas proved in [26, Corollary 3.2] that ∞-essential normality of Bergman modules
+                                           on bounded domains is preserved under proper holomorphic maps, provided the maps
+                                           can be continuously extended to the boundaries. Since proper holomorphic self-maps
+
+                                             2020 Mathematics Subject Classification. Primary 46H25; Secondary 32B15; 32M15; 47A13.
+                                             Key words and phrases. Hilbert module; Essential normality; Corona problem; Hyperrigidity; Sym-
+                                           metric domain.
+                                                                                            1
+2                                        L. DING
+
+on irreducible bounded symmetric domains with higher dimensions must be automor-
+phisms, it follows that ∞-essential normality of Bergman modules is preserved invariant
+if the coordinate multipliers are replaced by arbitrary automorphism multipliers. Re-
+cently, Kennedy and Shalit showed in [21, Theorem 2.1] that the p-essential normality
+preserves invariant under a generalized invertible linear transformation for quotient
+Drury-Arveson submodules, provided the submodules are determined by some homo-
+geneous algebraic varieties in the unit ball. On the other hand, the methodology used
+in [15] enlightens us to develop the p-essentially normal theory of Hilbert modules on
+some complex manifolds. However, once one attempts to consider the p-essentially nor-
+mal theory on complex manifolds, one has to handle the problem that the p-essential
+normality is independent of the choice of holomorphic coordinate charts. These ob-
+servations motivate us to investigate the invariance of p-essential normality for more
+general quotient submodules under biholomorphisms on bounded symmetric domains.
+We shall consider the invariance problem in a more general context of submodules and
+quotient submodules which are determined by analytic varieties.
+   To express our main results clearly, we introduce some terminologies and notations.
+Let H be a Hilbert module over the complex polynomial algebra C[z] = C[z1 , · · · , zn ] in
+n variables and T = (T1 , · · · , Tn ) be the commuting operator n-tuple of the respective
+coordinate operators, which is denoted by (H, T ) in this paper. A closed subspace M ⊂
+H is called a (Hilbert) submodule if T M ⊂ M, which is also denoted by (M, T ). The
+orthogonal complement M ⊥ is a submodule of (H, S), where S = (PM ⊥ T1 , · · · , PM ⊥ Tn )
+is the compression n-tuple of T. Usually, (M ⊥ , S) is called a quotient submodule of
+(H, T ). A submodule (M, T ) of (H, T ) is said to be p-essentially normal if all cross-
+commutators
+                      [Ti |M , (Tj |M )∗ ] = Ti |M (Tj |M )∗ − (Tj |M )∗ Ti |M
+belong to the Schatten p-class Lp (M), p ∈ [1, ∞] for all i, j = 1, · · · , n, where Ti |M
+denotes the restriction of Ti to M and L∞ (M) is interpreted as the compact operator
+ideal. Similarly, one can define the p-essentially normal quotient submodules.
+   Our first main result involves the Taylor functional calculus. Let Ω ⊂ Cn be a
+bounded symmetric domain. Denote by Sb an arbitrary permissive linear transforma-
+                                          b the Taylor functional calculus for S.
+tion for the triple (Ω, M ⊥ , S) and by φ(S)                                    b A linear
+transformation for the n-tuple S is called permissive if its Taylor spectrum is contained
+in the closure Ω̄; see (3.5) for the explicit definition.
+Theorem 1. Suppose φ is an automorphism on Ω. Let (M, T ) be a submodule of a
+Hilbert module (H, T ), then the following are equivalent:
+    (1) (M ⊥ , S) is p-essentially normal.
+               b is p-essentially normal.
+    (2) (M ⊥ , S)
+                  b is p-essentially normal.
+    (3) (M ⊥ , φ(S))
+
+   In particular, if the Taylor spectrum Sp(S) ⊂ Ω̄ then (M ⊥ , S) is p-essentially nor-
+mal if and only if (M ⊥ , φ(S)) is p-essentially normal. It can be checked that quo-
+tient submodules (M ⊥ , S)b and (M ⊥ , φ(S))
+                                         b over the same polynomial algebra are not
+2p-isomorphic in the sense of Arveson in general, hence Theorem 1 differs from the
+invariance result [5, Corollary 4.5].
+                          INVARIANCE OF ESSENTIAL NORMALITY                                    3
+
+   Our second main result deals with the biholomorphic invariance of p-essential nor-
+mality of analytic Hilbert modules. Throughout this paper, we use (Ω, w), (Ω, z) to
+indicate that the bounded symmetric domain Ω is assigned different coordinates w, z,
+respectively. Let (M, Tz ) be a weighted Bergman submodule determined by an ana-
+lytic variety in (Ω, z), equipped with Tz = (Mz1 , · · · , Mzn ), which is the usual coor-
+dinate function multipliers. Its quotient Bergman submodule is denoted by (M ⊥ , Sz )
+where Sz is the compression of Tz . Clearly, Sz coincides with the truncated Toeplitz
+operator n-tuple with the symbol of coordinate functions. For any automorphism
+φ = (φ1 , · · · , φn ) : Ω → Ω, we denote by φ∗ (M ⊥ ), Sφ = (Sφ1 , · · · , Sφn ) the pullback of
+M ⊥ under φ, the truncated Toeplitz operator n-tuple with the symbol of the compo-
+nent functions of φ, respectively. It is known from Section 4 that φ∗ (M ⊥ ) = (φ∗ (M))⊥ .
+Theorem 2. Let M be a weighted Bergman submodule determined by an analytic
+variety in Ω. Suppose that φ = (φ1 , · · · , φn ) : (Ω, w) → (Ω, z) is an automorphism
+with z = φ(w), then the following hold:
+    (1) The C[w]-module (φ∗ (M ⊥ ), Sw ) is p-essentially normal if and only if the C[z]-
+        module (M ⊥ , Sz ) is p-essentially normal.
+    (2) The following two statements are equivalent.
+         (a) [Swi , Sw∗ j ] ∈ Lp (M ⊥ ) for all i, j = 1, · · · , n.
+        (b) [Sφi , Sφ∗j ] ∈ Lp (M ⊥ ) for all i, j = 1, · · · , n.
+   Theorem 2 implies that the p-essential normality of a quotient weighted Bergman
+submodule is preserved invariant if the coordinate multipliers are replaced by arbi-
+trary automorphism multipliers. Theorem 2 gives an intrinsic characterization of the
+p-essential normality of Hilbert modules, namely the p-essential normality is indepen-
+dent of the choice of the holomorphic coordinate charts. This ensures basically that
+one can develop the theory of p-essential normality on complex manifolds once there
+is an appropriate definition of Hilbert modules; further discussion on this issue will
+appear elsewhere. Proposition 4.5 enables us to endow the C[w]-module (φ∗ (M ⊥ ), Sφ )
+with a natural C[z]-module structure which is unitarily equivalent to the C[z]-module
+(M ⊥ , Sz ). However, the C[w]-module (φ∗ (M ⊥ ), Sw ) does not possess this property in
+general, namely the change of holomorphic coordinates does not give rise to the uni-
+tary isomorphism of quotient submodules. With extra effort, similar results on Hilbert
+modules corresponding to the continuous part of the Wallach set are also obtained,
+particularly Hardy and Drury-Arveson modules; see Theorem 5.6.
+   Moreover, we consider the Taylor spectrum of compression operator tuple on the
+quotient submodule. We calculate the Taylor spectrum when the submodule is finitely
+generated and is determined by an analytic variety in an open neighborhood of Ω̄; see
+the Proposition 6.1. As an application, we prove the solvability of the related corona
+problem of the quotient Drury-Arveson submodule for a multiplier subalgebra; see
+Proposition 6.6. When Ω = Bn the solvability result provides supporting evidence for
+the conjecture proposed by Davidson, Ramsey, and Shalit [11, Remarks 5.5].
+   Finally, we present two direct applications of our invariance results. Recently, both
+the Arveson-Douglas conjecture and Arveson’s hyperrigidity conjecture have attracted
+considerable attention; see [7, 20, 22] and references therein. In [22], Kennedy and
+Shalit established a deep connection between hyperrigidity for an operator tuple and
+4                                         L. DING
+
+∞-essential normality, which in fact connects the above two conjectures. First we
+provide an equivalent description of the Geometric Arveson-Douglas conjecture; see
+Conjecture 7.1. As the second application, we extend the Kennedy-Shalit theorem
+[22, Theorem 4.12] to a broader range of compression tuples and quotient submodules,
+which highlights the equivalence between hyperrigidity and ∞-essential normality; see
+Theorem 7.3.
+  The paper is organized as follows. Section 2 reviews some of the standard facts
+about analytic varieties and bounded symmetric domains in terms of the Jordan triple
+Systems. In Section 3, we give the proof of Theorem 1. Section 4 is devoted to proving
+Theorem 2. Section 5 discusses the case of Hilbert modules corresponding to the
+continuous part of the Wallach set. In Section 6, we calculate the Taylor spectrum of
+compression operator tuple on the quotient submodule, and consider the related corona
+problem for the quotient submodule. Section 7 contains two direct applications.
+
+                                    2. preliminaries
+  In this section, we will recall some known facts that will be used later on. Let
+D ⊂ Cn be a domain. A nonempty closed subset A ⊂ D is said to be an analytic
+variety, if for every z0 ∈ A, there exists a neighborhood U of z0 and holomorphic
+functions f1 , · · · , fm ∈ O(U) such that
+                      A ∩ U = {z ∈ U : f1 (z) = · · · = fm (z) = 0}.
+Then f1 , · · · , fm are said to be local equations of A in U. The definition of the analytic
+variety is local. A nontrivial fact is that every analytic variety can be globally defined
+by finitely many holomorphic functions on Stein manifolds [16, Theorem 5.14], espe-
+cially on pseudoconvex domains in Cn . As we shall mention below, bounded symmetric
+domains are always pseudoconvex, so in the following, we need only consider the glob-
+ally defined analytic variety in bounded symmetric domains. It is easy to check that
+if f : Ω1 → Ω2 is a holomorphic map between two domains and A ⊂ Ω2 is an analytic
+variety, so is its preimage f −1 (A) ⊂ Ω1 .
+   We now briefly recall some known facts about bounded symmetric domains and their
+Jordan theoretic description; we refer the reader to [6, 12, 23, 29] for general back-
+ground. A bounded symmetric domain is said to be irreducible if it can not be written
+as a Cartesian product of bounded symmetric domains of lower dimensions up to bi-
+holomorphisms. There only exist six types of irreducible bounded symmetric domains
+up to biholomorphisms due to Cartan, and the others are the Cartesian product of
+irreducible bounded symmetric domains up to biholomorphisms. Let G be the identity
+component of the automorphism group Aut(Ω) of Ω. Then Ω = G/K is a realization of
+Hermitian symmetric space of the non-compact type, where K = {g ∈ G : g(0) = 0}
+is the isotropy subgroup of 0 ∈ Ω. It is well-known [23, 29] that Z can be equipped
+with a Hermitian Jordan triple structure, and then Ω can biholomorphically be real-
+ized as the spectral unit ball in Z, thus we identify Ω with the unit ball in the spectral
+norm. The spectral unit ball in Cn is a bounded balanced convex domain, especially
+a pseudoconvex domain. Note that any two norms of the finite-dimensional complex
+vector space Cn are equivalent, thus the topologies induced by both the spectral norm
+and the usual Euclidean norm coincide on Cn . Since Ω is circular, one can show that
+                         INVARIANCE OF ESSENTIAL NORMALITY                                 5
+
+the isotropy subgroup K = {g ∈ GL(Cn ) : g(Ω) = Ω}. We denote the Jordan triple
+product by
+                      Z × Z × Z → Z, (u, v, w) 7→ {uv ∗ w}
+which is complex linear in u, w and complex conjugate linear in v. For each pair (u, v) ∈
+Z × Z the linear endomorphism
+                       B(u, v)w := w − 2{uv ∗w} + {u{vw ∗v}∗ u}
+is called the Bergman endomorphism associated with (u, v). One can show that
+B(z, ξ) ∈ GL(Z) is invertible whenever z, ξ ∈ Ω. A pair (z, ξ) ∈ Z × Z is said to
+be quasi-invertible if the Bergman endomorphism B(z, ξ) is invertible, in this case
+                                 z ξ := B(z, ξ)−1 (z − {zξ ∗ z})
+is called the quasi-inverse of the pair (z, ξ); see [23, 30] for details. Now fix z0 ∈ Ω, we
+can show that
+                                                          1
+                               gz0 (w) = z0 + B(z0 , z0 ) 2 w −z0
+defines an automorphism gz0 ∈ Aut(Ω) called the Möbius transformation associated
+with z0 . It can be checked that gz0 satisfies
+                                  gz0 (0) = z0 , gz0 (−z0 ) = 0,
+and its inverse is g−z0 .
+  It is well-known that there exists a unique generic polynomial ∆(z, w) in z, w̄ and
+a numerical invariant N satisfying the property that the Bergman kernel of Ω is given
+by
+                               KN (z, w) = ∆(z, w)−N ,                           (2.1)
+where the numerical invariant N is also called the genus of domain Ω, and the generic
+polynomial ∆(z, w) is also called Jordan triple determinant such that ∆(0, 0) = 1. The
+K-invariant probability measure dvγ on Ω is given by
+                                 dvγ (w) = cγ ∆(w, w)γ dv(w)
+for γ > −1, where cγ is the normalized constant and K is the isotropic subgroup as
+above. Let A2 (dvγ ) denote the weighted Bergman space consisting of square-integrable
+holomorphic functions with respect to the measure dvγ on Ω, which is occasionally
+denoted by A2 (Ω, dvγ ). The Bergman kernel Kγ (z, w) of the spectral unit ball is given
+by
+                             KN +γ (z, w) = ∆(z, w)−(N +γ) ,
+which is degenerated to the formula (2.1) when γ = 0. The weighted Bergman space
+A2 (dvγ ) is a reproducing kernel Hilbert function space, since
+                                          Z
+               f (z) = hf, KN +γ,z iγ =        f (w)KN +γ,z (w)dvγ (w),   z∈Ω         (2.2)
+                                           Ω
+
+for every f ∈ A2 (dvγ ), where
+                KN +γ,w (z) = KN +γ (z, w) = ∆(z, w)−(N +γ) ,        z, w ∈ Ω,
+is also called the reproducing kernel of A2 (dvγ ).
+6                                          L. DING
+
+Example 2.1. Type Ir×n . Let Z = Cr×n be the complex (r × n)-matrix space with
+r ≤ n. Then
+                             Ir×n = {u ∈ Z : Idr − uu∗ > 0}
+is an irreducible bounded symmetric domain, where Idr is the (r × r)-unit matrix and
+u∗ is the conjugate matrix of u. The associated Jordan triple product on Z is the
+generalized anti-commutator product
+                                           1
+                               {uv ∗ w} := (uv ∗ w + wv ∗ u)
+                                           2
+for u, v, w ∈ Z, where the multiplication in the right side is the usual matrix mul-
+tiplication. In this case, the Bergman endomorphism associated with (u, v) is given
+by
+                          B(u, v)w = (Idr − uv ∗)w(Idn − v ∗ u)
+and the quasi-inverse of the pair (z, ξ) is
+                                   z ξ = (Idr − zξ ∗ )−1 z.
+It follows that the corresponding generic polynomial ∆(u, v) is
+                                ∆(u, v) = Det(Idr − uv ∗ ).
+The case of r = 1 is the unit ball I1×n = Bn ⊂ C1×n = Cn in the Euclidean norm, in
+this case, ∆(u, v) = 1 − hu, vi, where h·, ·i is the standard Hermitian inner product on
+Cn .
+  From [29], we know that the natural action of K on P(Z) = C[z] induces the Peter-
+Schmid-Weyl decomposition               X
+                               P(Z) =       Pm (Z),
+                                              m≥0
+where m = (m1 , · · · , mr ) ≥ 0 runs over all integer partitions, namely
+                                   m1 ≥ · · · ≥ mr ≥ 0.
+The decomposition is irreducible under the action of K and is orthogonal under the
+Fischer-Fock (or Segal-Bargmann) inner product h·, ·iF ; see [29, Section 2.7]. For a
+r-tuple s = (s1 , · · · , sr ) ∈ Cr , the Gindikin Gamma function [12, 29] is given by
+                                                  r
+                                                  Y
+                                        ar(r−1)             a
+                        ΓΩ (s) = (2π)      4          Γ(sj − (j − 1)),
+                                                  j=1       2
+of the usual Gamma function Γ whenever the right side is well defined, where r is the
+rank of Ω and a, b are two numerical invariants (nonnegative integers) associated with
+the joint Peirce decomposition for a chosen frame e1 , · · · , er of minimal tripotents such
+that the dimension count
+                                         a
+                                n = r + r(r − 1) + br                                   (2.3)
+                                         2
+holds and the genus N is given by
+                                  N := 2 + a(r − 1) + b.
+The multi-variable Pochhammer symbol is
+                                      ΓΩ (λ + s)
+                              (λ)s :=            ,
+                                        ΓΩ (s)
+                         INVARIANCE OF ESSENTIAL NORMALITY                                 7
+
+where λ + s := (λ + s1 , · · · , λ + sr ). And the G-orbit
+                                  S := G · (e1 + · · · + er )
+is called the Shilov boundary of Ω, which is a compact analytic manifold contained in
+the topological boundary ∂Ω. In general the topological boundary ∂Ω is not smooth.
+It can be verified that
+                                     Yr
+                                              a
+                              (λ)s =    (λ − (j − 1))sj                         (2.4)
+                                     j=1      2
+                                                 Q
+of the usual Pochhammer symbols (µ)m = m j=1 (µ + j − 1). It is known from [1, 29]
+that                                 X
+                         ∆(z, w)−λ =   (λ)m Km (z, w)                        (2.5)
+                                            m≥0
+converges compactly and absolutely on Ω × Ω, where Km is the reproducing kernel
+of Pm (Z) in the Fischer-Fock inner product, for all λ ∈ C. The Wallach set WΩ with
+respect to Ω is defined to be the set consists of all λ ∈ C satisfying
+                                          (λ)m ≥ 0
+for all integer partitions m ≥ 0, which is exactly the set of value λ such that ∆(z, w)−λ
+is a positive kernel. The Wallach set WΩ admits the following decomposition
+                                    WΩ = WΩ,d ∪ WΩ,c
+where WΩ,d = {λ = (j − 1) a2 , j = 1, · · · , r} and WΩ,c = {λ > (r − 1) a2 }.
+  The set WΩ,c is called the continuous part, in this case, the function ∆(z, w)−λ is
+the reproducing kernel of the Hilbert holomorphic function space
+                                               X
+                                   Hλ2 (Ω) =         Pm (Z),
+                                               m≥0
+
+whose inner product is induced by
+                                                 1
+                                   (p, q)λ =        hp, qiF                            (2.6)
+                                               (λ)m
+for all p, q ∈ Pm (Z), m ≥ 0. The weighted Bergman space A2 (dvγ ) coincides with
+HN2 +γ (Ω), γ > −1 and the classical Hardy space H 2 (Ω) defined in [29, Definition 2.8.4]
+coincides with H 2n (Ω). When Ω = Bn we know that H12 (Bn ) coincides with the Drury-
+                    r
+Arveson space defined in [2]. Thus in general we define the Drury-Arveson space to
+      2                                                                                   a
+be H(r−1)  a
+           2
+             +1 (Ω). The set WΩ,d is called the discrete part, in the case of λ = (j − 1) 2 ,
+the function ∆(z, w)−λ is the reproducing kernel of the Hilbert holomorphic function
+space                                         X
+                                Hλ2 (Ω) =           Pm (Z),
+                                           m≥0,mj =0
+
+whose inner product is defined similarly to (2.6). The Drury-Arveson space H12(Bn )
+on Bn is complete Nevanlinna-Pick [11]; actually, the reproducing kernel Hilbert holo-
+morphic function space Hλ2 (Bn ) is complete Nevanlinna-Pick if and only if 0 < λ ≤ 1.
+On the contrary, in the higher rank case of r ≥ 2, one can show that Hλ2 (Ω) is not
+complete Nevanlinna-Pick for every λ ∈ WΩ , by the Agler-McCarthy characterization
+of complete Nevanlinna-Pick kernels.
+8                                               L. DING
+
+                                3. The proof of Theorem 1
+   In this section, we will prove Theorem 1. For the special case p = ∞, the proof is
+relatively simple since the compact operator ideal is norm-closed; see details in [26].
+However, the Schatten p-class ideal has no such a property for general p ∈ (0, ∞].
+Our proof for the general case is inspired by Connes’ approach [8] to dealing with
+the Dunford-Riesz functional calculus of Schatten class commutators. Nevertheless,
+the Taylor functional calculus for a commuting operator tuple is originally proved by
+means of the Cauchy-Weil formula for cohomology class and the formula is difficult to
+apply in practice. To handle these difficulties we first establish new integral formulas
+with the rational function (Bergman and Szegö) kernels for Taylor functional calculus
+by the holomorphic function space theory.
+   The following two operator identities are very elementary and can be immediately
+verified by direct calculations.
+Lemma 3.1. Let U, V, W be bounded operators on a Banach space, then the following
+hold:
+   (1) [UV, W ] = U[V, W ] + [U, W ]V.
+   (2) If U is invertible, then
+         [U −m , V ] = U −m [V, U m ]U −m = U −(m+1) [U, V ] − U −(m+1) [U m+1 , V ]U −m ,
+         for every integer m ≥ 0.
+    For a holomorphic polynomial q ∈ C[z], we define Sq by
+                           Sq := q(S1 , · · · , Sn ) = PM ⊥ q(T1 , · · · , Tn ).             (3.1)
+                                  ⊥
+For quotient submodule (M , S) of (H, T ), it is evident that Szi = Si , i = 1, · · · , n.
+Proposition 3.2. The following are equivalent:
+  (1) [Si , Sj∗ ] ∈ Lp (M ⊥ ) for all i, j = 1, · · · , n.
+  (2) [Szi , Sz∗j ] ∈ Lp (M ⊥ ) for all i, j = 1, · · · , n.
+  (3) [Sh , Sq∗] ∈ Lp (M ⊥ ) for all h, q ∈ C[z].
+Proof. This follows from Lemma 3.1(1) and induction on the degree of polynomials. 
+   For a bounded commuting operator n-tuple T = (T1 , · · · , Tn ) on a Hilbert space H,
+we denote by Sp(T ) its Taylor spectrum which is a nonempty compact subset of the
+closed polydisc ∆T = {z ∈ Cn : |zi | ≤ r(Ti), i = 1, · · · , n}, where r(Ti) is the spectral
+radius of Ti . Let B(H) denote the set of bounded linear operators and O(Sp(T ))
+denote the set of holomorphic functions on some neighborhoods of the compact set
+Sp(T ), then there exists a unique continuous algebraic homomorphism
+                                   O(Sp(T )) → (T )′′ ⊂ B(H),
+                                              f 7−→ f (T ),
+which satisfies
+                         1(T ) = Id, zi (T ) = Ti , i = 1, · · · , n,
+and the following spectral mapping theorem, where (T )′′ is the bicommutant algebra
+of T. This is known as the Taylor functional calculus [24]. Suppose f = (f1 , · · · , fm ) :
+                         INVARIANCE OF ESSENTIAL NORMALITY                                9
+
+Ω → Cm is a holomorphic map and Sp(T ) ⊂ Ω. Let f (T ) = (f1 (T ), · · · , fm (T )), then
+the spectral mapping theorem holds:
+                                 f (Sp(T )) = Sp(f (T )).
+The existence of the Taylor functional calculus is proved in [24] by means of Cauchy-
+Weil formulas and its proof is rather involved. In what follows, we provide two simpler
+integral formulas of the Taylor functional calculus concerning rational function kernels.
+We first briefly recall the definition of the Hardy space. The Hardy space H 2 (Ω) is
+consists of all holomorphic functions on Ω satisfying
+                                     Z
+                              sup        |f (Rw)|2dσ(w) < ∞,
+                              R→1−   S
+
+where S is the Shilov boundary of Ω with normalized K-invariant Haar measure dσ.
+There exists a canonical unitary isomorphism between H 2 (Ω) and a closed subspace
+H 2(S) of L2 (S, dσ); see [29, Corollary 2.8.47] for details. Thus we identify H 2 (Ω) with
+H 2(S). The Szegö kernel of Ω is given by
+                                               n
+                        S(z, ξ) = ∆(z, w)− r ,       (z, w) ∈ Ω × S.
+Let O(Ω̄) be the set of holomorphic functions on some neighborhoods of Ω̄. Then the
+following integral formulas of the Taylor functional calculus hold.
+Lemma 3.3. Suppose Sp(T ) ⊂ Ω and f ∈ O(Ω̄), then the following integral formulas
+hold:
+                                  Z
+                                      f (w)
+                         f (T ) =            n dσ(w),                        (3.2)
+                                   S ∆(T, w) r
+                                          Z
+                                              f (w)
+                               f (T ) =              dv(w).                           (3.3)
+                                          Ω ∆(T, w)N
+
+Proof. By the spectral mapping theorem, we have Sp ∆(T, w) = ∆(Sp(T ), w), for every
+w ∈ S ⊂ ∂Ω. It follows from [23, Section 7.5] that ∆(z, ξ) 6= 0 for the pair (z, ξ) ∈ Z ×Z
+whenever the spectral norm satisfying kzk · kξk < 1. Then 0 ∈    / Sp ∆(T, w), and hence
+the map ∆(T, w) is invertible on the Shilov boundary S. Combining the formula (2.5)
+with the uniqueness of the Taylor expansion of analytic functions follows that
+                                              X
+                             ∆(z, w)−λ =           (λ)m Km (z, w)
+                                              m≥0
+
+converges compactly and absolutely on the circular domain tΩ × t−1 Ω for every t > 0,
+where tΩ = {tz : z ∈ Ω}. Thus, by the continuity and uniqueness of the Taylor
+functional calculus, it follows that for all λ ∈ R,
+                                              X
+                            ∆(T, w)−λ =            (λ)m Km (T, w)                     (3.4)
+                                              m≥0
+
+for every w ∈ S, and the convergence is uniform on S since the compactness of S. Let
+     P
+f = m≥0 fm be the Peter-Schmid-Weyl decomposition of f. Clearly, the convergence
+is compactly on Ω ∪ S and the polynomials fm satisfying
+                                Z
+                                         n
+                        fm (z) = f (w)( )m Km (z, w)dσ(w)
+                                 S       r
+10                                            L. DING
+
+for all m ≥ 0. Thus
+                                  X
+                       f (T ) =         fm (T )
+                                  m≥0
+                                  X Z        n
+                             =       fm (w)( )m Km (T, w)dσ(w)
+                               m≥0 S         r
+                               X  Z
+                                           n
+                             =       f (w)( )m Km (T, w)dσ(w)
+                               m≥0 S       r
+                               Z       X n
+                             = f (w)      ( )m Km (T, w)dσ(w)
+                                S     m≥0 r
+                                  Z
+                                     f (w)
+                             =              n dσ(w).
+                                  S ∆(T, w) r
+
+This proves the formula (3.2). Similarly, the formula (3.3) can be proved.                 
+Remark 3.4. If the compact set ∆T ⊂ Ω, then the Dunford-Riesz functional calculus
+for a single operator is enough for our purposes. We now give a brief explanation.
+Since Sp(T ) ⊂ ∆T ⊂ Ω, there exist polydiscs ∆r = {z ∈ Cn : |zi | < ri , i = 1, · · · , n}
+and ∆r′ = {z ∈ Cn : |zi | < ri′ , i = 1, · · · , n} such that
+                           ∆T ( ∆r ⊂ ∆        ¯ r ⊂ ∆r′ ⊂ ∆¯ r′ ⊂ Ω.
+Since a holomorphic function on a circular domain containing the origin has a homo-
+geneous holomorphic polynomial expansion which converges compactly, it follows from
+the continuity and uniqueness of the Taylor functional calculus that
+                               Z              Z
+                          1                               dξ1           dξn
+             f (T ) =    √              · · ·                   · · ·         f (ξ)
+                      (2π −1)n |ξ1 |=r1        |ξn |=rn ξ1 − T1       ξn − Tn
+for f ∈ O(Ω), where the right side repeatedly uses the Cauchy integral formula.
+   In the following, we establish a local extension property of the automorphism on
+bounded symmetric domains. Let Ω1 , Ω2 be two domains, we say that φ : Ω̄1 → Ω2 is
+holomorphic if φ is the restriction of a holomorphic map from an open neighborhood of
+Ω̄1 to Ω2 , namely there exists an open set U ⊃ Ω̄1 and a holomorphic map φ̃ : U → Ω2
+satisfying φ̃|Ω1 = φ. We also say that φ : Ω̄1 → Ω̄2 is biholomorphic if φ is the restriction
+of a biholomorphism between neighborhoods of Ω̄1 , Ω̄2 . The following lemma shows that
+every automorphism on Ω is indeed also a biholomorphism on Ω̄, which generalizes the
+fact [6, Remark 3.2.6] that every Mobius transformation gz0 is indeed biholomorphic
+on Ω̄ for z0 ∈ Ω.
+Lemma 3.5. If φ ∈ Aut(Ω), then φ : Ω̄ → Ω̄ is biholomorhphic.
+Proof. Without loss of generality, we assume that φ(0) = z0 . Note that gz0 (w) =
+                 1
+z0 + B(z0 , z0 ) 2 w −z0 satisfying gz0 (0) = z0 , where z ξ = B(z, ξ)−1 (z − {zξ ∗ z}) is the
+quasi-inverse of the pair (z, ξ) ∈ Ω × Ω. Thus gz−1    0
+                                                         ◦ φ ∈ Aut(Ω) and gz−10
+                                                                                ◦ φ(0) = 0,
+                         −1
+which implies that gz0 ◦ φ ∈ K. This indeed shows that the automorphism φ admits
+the factorization φ = gz0 ◦ k where k ∈ K. Suppose z0 6= 0, define the open spectral
+ball Ωz0 by Ωz0 := {kzk < kz10 k } ⊃ Ω̄. Since k ∈ K ⊂ GL(Z) is linear and k(Ω) = Ω,
+we deduce that k(Ωz0 ) = Ωz0 . It suffices to show that gz0 is biholomorphic on Ωz0 =
+                          INVARIANCE OF ESSENTIAL NORMALITY                                 11
+
+{kzk < kz10 k } ⊃ Ω̄ by the holomorphic version of the inverse function theorem. To
+show that gz0 is biholomorphic on Ωz0 , it is enough to show that the Jacobi matrix
+                                    1
+gz′ 0 of gz0 (z) = z0 + B(z0 , z0 ) 2 z −z0 is nondegenerate on Ωz0 . By [6, Lemma 3.2.25], we
+conclude that
+                                                            1
+                                    gz′ 0 (z) = B(z0 , z0 ) 2 B(z, −z0 )
+for z ∈ Ωz0 . Then the quasi-invertibility of z −z0 on Ωz0 implies that gz′ 0 is nondegenerate
+on Ωz0 . The remaining case of z0 = 0 is trivial, since in this case φ = k ∈ K, which is
+biholomorphic on every open set tΩ = {tz : z ∈ Ω} ⊃ Ω̄ for t > 1.                           
+  The composition law for Taylor functional calculus was proved in [25], in particular,
+the following composition law on bounded symmetric domains holds.
+Lemma 3.6. Suppose that Sp(T ) ⊂ Ω1 and g : Ω̄1 → Ω2 is a holomorphic map
+between two bounded symmetric domains. If f : Ω̄2 → Ω3 is a holomorphic map, then
+                                    (f ◦ g)(T ) = f (g(T )).
+  For every c > 0 and d ∈ Cn , they determine a linear transformation of the operator
+n-tuple T = (T1 , · · · , Tn ) on the Hilbert space H in the form of cT + d, such a linear
+transformation is called permissive for the triple (Ω, H, T ), if the compact set
+                             Sp(cT + d) = c · Sp(T ) + d ⊂ Ω̄.                           (3.5)
+For a given triple (Ω, H, T ), there exist infinitely many permissive linear transforma-
+tions. In the sequel, we denote an arbitrary permissive linear transformation for a
+given triple (Ω, H, T ) by Tb = (Tb1 , · · · , Tbn ). We are now in a position to prove Theorem
+1.
+Proof of Theorem 1. Suppose Sb = cS + d, where c > 0 and d = (d1 , · · · , dn ) ∈ Cn .
+Then
+                             [Sbi , Sbj∗ ] = [cSi + di , cSj∗ + d¯j ] = c2 [Si , Sj∗ ],
+for all i, j = 1, · · · , n. Hence the equivalence between (1) and (2) follows.
+   It remains to prove the equivalence of (2) and (3). Let φ = (φ1 , · · · , φn ). We first
+prove that (2) implies (3). The proof will be divided into two cases. The first case is
+     b
+Sp(S)∩∂Ω      = ∅, namely, Sp(S)        b ⊂ Ω. Since Ω is a bounded symmetric domain with rank
+r, it follows from Lemma 3.5 that every component function φi of the automorphism
+φ belongs to O(Ω̄). Applying the integral formula of Taylor functional calculus (3.3)
+to holomorphic functions φi ∈ O(Ω̄), it follows that
+                                        Z
+                             φi ( b
+                                 S) =        φi (z)∆( b
+                                                     S, z)−N dv(z),                      (3.6)
+                                         Ω
+        b z) is invertible in B(M ⊥ ) for z ∈ Ω̄. Since N is a positive integer, it follows
+where ∆(S,
+from Lemma 3.1 (2) that
+                     b z)−N , S
+                  [∆(S,       b∗ ] = ∆(S,
+                                       b z)−N [∆(S,
+                                                 b z)N , S
+                                                         b∗ ]∆(S,
+                                                               b z)−N .                  (3.7)
+                                j                          j
+
+Since ∆(S, b z) is a polynomial of the S,b it follows from Proposition 3.2 that the map
+z 7−→ φi(z)[∆(S,   b z)−N , S
+                            b∗ ] ∈ Lp (M ⊥ ) is continuous on Ω̄, for i = 1, · · · , n. Thus
+                              j
+    b S
+[φi(S), b∗ ] ∈ Lp (M ⊥ ) by the formula (3.6), for all i, j = 1, · · · , n. This implies that
+         j
+
+                           [Sbj , φi (S)
+                                      b ∗ ] = [φ (S),
+                                                i
+                                                  b S b∗ ]∗ ∈ Lp (M ⊥ ).
+                                                       j
+12                                           L. DING
+
+Similarly, by using the integral formula of Taylor functional calculus (3.3) again, we
+conclude that
+                                b φ (S)
+                           [φi (S),   b ∗ ] = [φ (S),
+                                                  b φ (S)b ∗ ]∗ ∈ Lp (M ⊥ ),
+                                    j           j      i
+
+for all i, j = 1, · · · , n. The second case is Sp(S) b ∩ ∂Ω 6= ∅. This case can be reduced to
+the first case. Since every component function of the automorphism φ = (φ1 , · · · , φn )
+belongs to O(Ω̄), it follows that there exists an open set D which contains the compact
+set Ω̄ such that φ is defined on D. Recall that the open set Ω is the unit ball in the
+spectral norm and the topology induced by the spectral norm is coincide with the
+topology induced by the Euclidean norm, it follows that there exists a δ > 0 satisfying
+                               Ω ( (1 + δ)Ω ( (1 + δ)Ω̄ ( D.                                 (3.8)
+Let φ(δ) = (φ1,δ , · · · , φn,δ ) ∈ O(Ω̄) ⊗ Cn defined by
+                              φi,δ (w) = φi ((1 + δ)w),     ∀w ∈ Ω,
+i = 1, · · · , n. Put Sb(δ) = (Sb1,δ , · · · , Sbn,δ ) = 1+δ
+                                                          1 b
+                                                             S. By the spectral mapping theorem and
+(3.8), we have
+                                                           1
+                                         Sp(Sb(δ) ) ⊆          Ω̄ ( Ω,
+                                                         1+δ
+                                   1 b                                                   b Thus the
+which means that Sb(δ) = 1+δ           S is a permissive linear transformation of S.
+equivalence of (1) and (2) implies that (M ⊥ , Sb(δ) ) is p-essentially normal. From the
+first case, it follows that
+                         b φ (S)
+                     [φi(S),   b ∗ ] = [φ (S b ), φ (S b )∗ ] ∈ Lp (M ⊥ ),
+                             j           i,δ  (δ)  j,δ  (δ)
+
+for all i, j = 1, · · · , n. Hence (2) implies (3).
+   Similarly, the same argument for φ−1 and φ(S)             b = (φ (S),
+                                                                       b · · · , φ (S))
+                                                                                    b follows that
+                                                                     1            n
+  −1       b    −1         b     ∗         p     ⊥       b     b ∗       p   ⊥
+[φ i (φ(S)), φ j (φ(S)) ] ∈ L (M ) if [φi(S), φj (S) ] ∈ L (M ). Then Lemma 3.6
+shows that
+                          [Sbi , Sbj∗ ] = [φ−1 i (φ(S)),
+                                                    b φ−1 (φ(S))
+                                                           j
+                                                              b ∗ ] ∈ Lp (M ⊥ ),
+
+for all i, j = 1, · · · , n. This proves that (3) implies (2), and the proof is complete. 
+Example 3.7. (1) Let Ω be the Lie ball in Cn , n ≥ 3. For the inner function η(w) =
+Pn      2                     2         2
+   i=1 wi , denote Q = H (Ω)/ηH (Ω) by the corresponding Beurling-type quotient
+submodule. It follows from [31] that (Q, Sw ) is ∞-essentially normal and Sp(Sw ) ⊂ Ω̄.
+Let φ : Ω → Ω be an automorphism, it follows from Lemma 5.3 that φ(S) = Sφ , the
+truncated Toeplitz operator n-tuple. Thus Theorem 1 implies that [Sφi , Sφ∗j ] ∈ L∞ (Q)
+for all i, j = 1, · · · , n.
+   (2) Let Ω ⊂ Cn be a bounded symmetric domain with rank r > 2 and Z1 = {z ∈ Cn :
+rank(z) ≤ 1} be a Kepler variety. Denote IZ1 by the corresponding radical homogenous
+polynomail ideal and Q = H 2 (Ω)/Cl[IZ1 ] by the quotient submodule, where Cl[IZ1 ] is
+the closure of IZ1 . It follows from [30, Theorem 4.2 and Proposition 4.4] that (Q, Sw )
+is p-essentially normal for all p > N, where N is the genus. Thus Theorem 1 implies
+that [Sφi , Sφ∗j ] ∈ Lp (Q) for all p > N and i, j = 1, · · · , n.
+     Similarly, the same is also true for the submodule (M, T ).
+Corollary 3.8. Suppose φ is an automorphism on Ω. Let (M, T ) be a submodule of
+a Hilbert module (H, T ), then the following are equivalent:
+                          INVARIANCE OF ESSENTIAL NORMALITY                                 13
+
+   (1) (M, T ) is p-essentially normal.
+   (2) (M, Tb ) is p-essentially normal.
+   (3) (M, φ(Tb )) is p-essentially normal.
+
+                             4. The proof of Theorem 2
+   This section is mainly devoted to the proof of Theorem 2. The seed of our main
+idea lies in the following observations. A closed subspace of the Bergman space on a
+bounded symmetric domain is a submodule over the polynomial algebra if and only if
+it is a submodule over a Noetherian holomorphic function algebra. This implies that
+the categories of Bergman modules over these two function algebras are equivalent; see
+Proposition 4.3 and Remark 4.4 for a more explicit description. Since the p-essential
+normality problem we are concerned with is independent of the choice of the above two
+module categories, we focus on studying p-essential normality within the framework
+of Bergman modules over the holomorphic function algebras rather than polynomial
+algebras. One significant benefit arising from this change in module categories is that
+we no longer need to consider how analytic varieties behave near boundaries.
+   Let O(Ω̄) be the set of holomorphic functions on some neighborhoods of Ω̄. We now
+briefly explain why O(Ω̄) is called an algebra. Two functions f1 , f2 ∈ O(Ω̄) are said to
+be equivalent if there exists an open neighborhood D ⊃ Ω̄ such that the restrictions of
+f1 , f2 on D are equal, i.e., f1 |D = f2 |D , which is denoted by f1 ∼ f2 and its equivalence
+class is denoted by [f1 ]. Suppose f1 is holomorphic on D1 ⊃ Ω̄ and f2 is holomorphic on
+D2 ⊃ Ω̄, where D1 , D2 are open. We can define three binary operations for equivalence
+classes as follows:
+                             [f1 ] + [f2 ] := [f1 |D1 ∩D2 + f2 |D1 ∩D2 ],
+                            [f1 ] · [f2 ] := [f1 |D1 ∩D2 · f2 |D1 ∩D2 ],                 (4.1)
+                            c · [f1 ] := [cf1 ],   ∀c ∈ C.
+It is clear that the definitions in (4.1) are well-defined. Thus O(Ω̄)/∼ becomes a
+complex unit algebra under the operations in (4.1). Note that [1] is its unit where 1
+is the constant function valued 1 in a neighborhood of Ω̄. We see that [f ] is invertible
+in O(Ω̄)/∼ if and only if [f ] has a representative which has no zeros in Ω̄, and its
+inverse is denoted by [f ]−1 . By abuse of notation, we continue to write f, O(Ω̄) instead
+of [f ], O(Ω̄)/∼, respectively, and we also write f −1 instead of [f ]−1 if [f ] is invertible.
+The Noetherianess of O(Ω̄) comes from a theorem due to Frisch and Siu. We can
+equip the weighted Bergman space A2 (dvγ ) with a natural O(Ω̄)-module structure by
+the multiplication of functions, namely
+                                          f · h := f |Ω h,
+for every f ∈ O(Ω̄) and h ∈ A2 (dvγ ), which is well-defined. Let M be an O(Ω̄)-
+submodule and M ⊥ be its orthogonal complement, we define the truncated Toeplitz
+operator Sf : M ⊥ → M ⊥ with symbol f ∈ A(Ω) by
+                               Sf h := PM ⊥ Mf h = PM ⊥ (f h),                           (4.2)
+for every h ∈ M ⊥ , where A(Ω) = C(Ω̄) ∩ O(Ω) is the set of holomorphic functions that
+can be continuously extended to the boundary ∂Ω, Mf is the multiplication operator
+14                                         L. DING
+
+on A2 (dvγ ) with symbol f, and PM ⊥ : A2 (dvγ ) → M ⊥ is the orthogonal projection.
+This coincides with the definition (3.1) when T = (Mz1 , · · · , Mzn ) is the coordinate
+multipliers and f is a polynomial, and in this case Si = Szi , i = 1, · · · , n. The following
+lemma implies that M ⊥ is an O(Ω̄)-submodule, whose module actions are given by
+                                        f · h := Sf h,
+for every h ∈ M ⊥ and f ∈ O(Ω̄).
+Lemma 4.1. Suppose f, g ∈ O(Ω̄), then the following operator identity holds on M ⊥ :
+                                        Sf g = Sf Sg .
+Proof. Suppose h ∈ M ⊥ , by definition we obtain
+                         Sf Sg h = PM ⊥ (f PM ⊥ (gh))
+                                = PM ⊥ (f ((Id − PM )(gh)))
+                                = PM ⊥ (f gh) − PM ⊥ (f (PM (gh)))
+                                = Sf g h,
+where PM ⊥ : A2 (dvγ ) → M ⊥ is the orthogonal projection. The third identity holds
+because that M is an O(Ω̄)-module. This completes the proof.                     
+Corollary 4.2. If f ∈ O(Ω̄) and has no zeros in Ω̄, then Sf is invertible on M ⊥ and
+its inverse is
+                                  Sf−1 = Sf −1 .
+
+Proof. By the definition, we can assume that f is holomorphic on an open set D ⊃ Ω̄.
+Since the set Df = {z ∈ D : f (z) 6= 0} is open and the assumption means that Ω̄ ⊂ Df ,
+it follows that f is invertible on Df and its inverse f −1 ∈ O(Ω̄). Combining this with
+Lemma 4.1, the desired operator identity follows.                                    
+  It is clear that a closed subspace of A2 (dvγ ) is a C[z]-module if it is an O(Ω̄)-
+module, Corollary 4.2 indicates that the O(Ω̄)-module action is more extensive than
+C[z]-module action since a nonconstant polynomial is not invertible in the polynomial
+algebra C[z]. Nevertheless, the following proposition shows that the above two notions
+of weighted Bergman submodules (and quotient submodules) coincide on bounded
+symmetric domains.
+Proposition 4.3. Suppose M is a closed subspace of A2 (dvγ ), then the following hold:
+     (1) M is a C[z]-module if and only if M is an O(Ω̄)-module.
+     (2) Moreover, M ⊥ is a quotient submodule over the algebra C[z] if and only if M ⊥
+         is a quotient submodule over the algebra O(Ω̄).
+Proof. (1) The sufficiency part is clear, it is enough to prove the necessity part. Suppose
+that M is a C[z]-module of A2 (dvγ ) and f ∈ O(Ω̄), we have to prove that f ·g = f |Ω g ∈
+M for every g ∈ M. Since f ∈ O(Ω̄), there exists an open set D which contains the
+compact set Ω̄ such that f is holomorphic on D. Since the open set Ω is the unit
+ball in the spectral norm, and the topology induced by the spectral norm coincides
+with the topology induced by the Euclidean norm, it follows that there exists a δ > 0
+                        INVARIANCE OF ESSENTIAL NORMALITY                               15
+
+satisfying (3.8). Note that (1 + δ)Ω is a circular domain containing the origin. Thus
+f ∈ O(D) ⊂ O((1 + δ)Ω) has a homogeneous expansion
+                                                 ∞
+                                                 X
+                                       f (z) =         fi (z)                        (4.3)
+                                                 i=0
+
+on the domain (1+δ)Ω where each fi is i-homogeneous holomorphic polynomial, which
+converges compactly on (1 + δ)Ω. Hence the expansion (4.3) converges uniformly on Ω
+since Ω ( Ω̄ ( (1 + δ)Ω. Therefore, we have
+                                       i
+                                       X                    i
+                                                            X
+                         f · g = lim         fj · g = lim           fj g ∈ M,        (4.4)
+                                  i                     i
+                                       j=0                  j=0
+
+as M is closed in A2 (dvγ ).
+   (2) It is also enough to prove the necessity part. Since M ⊥ is a quotient submodule
+over the algebra C[z] of A2 (dvγ ), it follows that M is a C[z]-submodule of A2 (dvγ ). It
+follows from (1) that M is an O(Ω̄)-submodule of A2 (dvγ ). Hence M ⊥ is a quotient
+submodule over the algebra O(Ω̄).                                                       
+Remark 4.4. For a moment, we will reinterpret Proposition 4.3 from the point of view
+of the category. Denote by C[z]-Bmod the category of weighted Bergman modules on
+Ω, whose objects are submodules and quotient submodules of weighted Bergman mod-
+ule A2 (dvγ ) over the algebra C[z] for some γ > −1 and morphisms are continuous
+C[z]-module homomorphisms. Similarly, O(Ω̄)-Bmod is denoted by the category of
+weighted Bergman modules on Ω, whose objects are submodules and quotient sub-
+modules of weighted Bergman module A2 (dvγ ) over the algebra O(Ω̄) for some γ > −1
+                                                                          ϕ
+and morphisms are continuous O(Ω̄)-module homomorphisms. Let M1 → M2 be a
+morphism in C[z]-Bmod. Then Proposition 4.3 implies that M1 , M2 are two objects
+in O(Ω̄)-Bmod. Moreover, since ϕ is continuous, combining this with (4.4) follows
+           ϕ
+that M1 → M2 is actually a morphism in O(Ω̄)-Bmod. This introduces a functor ι
+satisfying
+                             ι : C[z]-Bmod → O(Ω̄)-Bmod,
+                                        ϕ          ι            ϕ
+                                 M1 → M2 7−→ M1 → M2 .
+Clearly O(Ω̄)-Bmod is a subcategory of C[z]-Bmod in general, whose injection functor
+is denoted by τ. Then the direct check shows that ιτ = Id and τ ι = Id. The above
+shows that if Ω is an irreducible bounded symmetric domain then
+                               C[z]-Bmod = O(Ω̄)-Bmod
+and ι is the identity functor (or an isomorphism).
+   Note that the operator problems we are concerned with are independent of the choice
+of the two above module categories. Thus in the sequel, we will consider the p-essential
+normality problems in the context of O(Ω̄)-modules rather than C[z]-modules. Suppose
+V is an analytic variety in Ω, as we mentioned before, which can be globally defined,
+namely, there exist finitely many holomorphic functions f1 , · · · , fm ∈ O(Ω) satisfying
+                        V = {z ∈ Ω : f1 (z) = · · · = fm (z) = 0}.
+16                                              L. DING
+
+We define MV by
+                           MV := {f ∈ A2 (dvγ ) : f (z) = 0, ∀z ∈ V },              (4.5)
+
+Since evaluation functionals are continuous on A2 (dvγ ), it follows that MV is an O(Ω̄)-
+submodule of A2 (dvγ ). If one assumes further all f1 , · · · , fm ∈ O(Ω̄), then V can be
+naturally extended to an open neighborhood of Ω̄, this is the most considered case
+in the generalized Geometric Arveson-Douglas conjecture [14, 20]. For I is a (prime)
+proper ideal in C[z], its common zeros Z(I) is an (irreducible) algebraic variety. Let
+VI = Z(I) ∩ Ω, it is clear that the closure Cl[I] ⊂ MVI is a submodule. We denote
+QI by its quotient submodule. In some mild conditions, it can be showed [13] that
+Cl[I] = MVI . However, we do not know the general case.
+   Let φ : Ω1 → Ω2 be a holomorphic map between two bounded symmetric domains.
+The pullback of functions by the holomorphic map φ is given by
+
+                          φ∗ : O(Ω2 ) → O(Ω1 ),          f 7→ φ∗ (f ) = f ◦ φ,
+
+which is a complex algebraic (module) homomorphism, especially a linear operator.
+The measure dvγ can also be pulled back by the holomorphic map φ, which is defined
+by
+                           φ∗ (dvγ )(w) := cγ ∆(φ(w), φ(w))γ dv(φ(w)).
+When φ : Ω1 → Ω2 is biholomorphic, then φ∗ : A2 (Ω2 , dvγ ) → A2 (Ω1 , φ∗ (dvγ )) is
+a unitary operator. Not to be confused with the concept of adjoint of an operator.
+Let M be an O(Ω̄1 )-submodule of A2 (Ω1 , dvγ ) which is determined by an analytic
+variety. In this case, the pullback φ∗ (M) = {φ∗ (f ) : f ∈ M} is an O(Ω̄2 )-submodule
+of A2 (Ω2 , φ∗ (dvγ )), which is determined by the analytic variety φ−1 (V ) = {φ−1 (z) :
+z ∈ V }. Moreover, φ∗ (M) is unitarily equivalent to M. Hence the pullback φ∗ (M ⊥ ) is
+a quotient submodule and unitarily equivalent to M ⊥ , which implies that
+
+                                        φ∗ PM ⊥ = Pφ∗ (M ⊥ ) φ∗ .                   (4.6)
+
+Proposition 4.5. Suppose that φ : (Ω1 , w) → (Ω2 , z) is a biholomorphism with z =
+φ(w), and let M be a submodule of A2 (Ω2 , dvγ ) determined by an analytic variety,
+then the following hold:
+                             φ∗ (M )
+     (1) MzMi = (φ∗ )−1 Mφi (w) φ∗ .
+             ⊥              φ∗ (M ⊥ )
+     (2) SzMi = (φ∗ )−1 Sφi (w) φ∗ .
+
+Proof. (1) Let f ∈ M. Since φ∗ is an algebraic homomorphism and φ∗ (zi ) = wi, it
+follows that
+                        φ∗ (zi f ) = φ∗ (zi )φ∗ (f ) = φi (w)φ∗ (f ) ∈ φ∗ (M),
+which implies
+                                         φ∗ Mzi = Mφi (w) φ∗ ,
+i.e., Mzi = (φ∗ )−1 Mφi (w) φ∗ , for i = 1, · · · , n.
+                           INVARIANCE OF ESSENTIAL NORMALITY                                                      17
+
+  (2) Similarly, combined with (4.6), it follows that
+                                    ⊥
+                              φ∗ SzMi f = φ∗ PM ⊥ Mzi f
+                                        = φ∗ PM ⊥ (φ∗ )−1 φ∗ Mzi f
+                                        = φ∗ PM ⊥ (φ∗ )−1 φ∗ (zi f )
+                                        = φ∗ PM ⊥ (φ∗ )−1 φi (w)φ∗f
+                                        = Pφ∗ (M ⊥ ) φi (w)φ∗ f
+                                                            ⊥                     φ∗ (M ⊥ )
+for every f ∈ M ⊥ and i = 1, · · · , n. Thus SzMi = (φ∗ )−1 Sφi (w) φ∗ , which completes
+the proof.                                                                            
+  We are now in a position to complete the proof of Theorem 2, we first prove a special
+case.
+Lemma 4.6. Let M be a weighted Bergman submodule determined by an analytic
+variety in Ω. Suppose that φ : (Ω, w) → (Ω, z) is a linear automorphism that is φ ∈ K,
+then the C[w]-module (φ∗ (M ⊥ ), Sw ) is p-essentially normal if and only if the C[z]-
+module (M ⊥ , Sz ) is p-essentially normal.
+Proof. Since φ : (Ω, w) → (Ω, z) is a linear automorphism, without loss of generality,
+                             P
+we can assume zi = φi (w) = nj=1 aji wj , where (aji ) is an invertible matrix. It follows
+from Proposition 4.5(2) that
+                      ⊥       ⊥                    φ∗ (M ⊥ )      φ∗ (M ⊥ )
+               φ∗ [SzMi , (SzMj )∗ ](φ∗ )−1 = [Sφi (w) , (Sφj (w) )∗ ]
+                                                   φ∗ (M ⊥ )          φ∗ (M ⊥ )
+                                                                      P             ∗
+                                             = [SPn      a l w
+                                                                 , (S    n
+                                                                             a  mw ) ]
+                                                                                  m
+                                                      l=1 i    l         m=1 j
+                                                   n
+                                                 n X
+                                                 X                    ∗       ⊥          ∗        ⊥
+                                             =              ali ām   φ (M )
+                                                                  j [Swl     , (Swφ m(M ) )∗ ],
+                                                 l=1 m=1
+                                         ⊥          ⊥                                         ∗       ⊥   ∗   ⊥
+where i, j = 1, · · · , n. Hence [SzMi , (SzMj )∗ ] ∈ Lp (M ⊥ ) if [Swφ i (M ) , (Swφ j (M ) )∗ ] ∈
+Lp (φ∗ (M ⊥ )). Thus (M ⊥ , Sz ) is p-essentially normal if (φ∗ (M ⊥ ), Sw ) is p-essentially
+normal. Since the matrix (aji ) is invertible, we denote its inverse by (bji ), it follows that
+       P
+wi = nj=1 bji zj . The same argument shows that (φ∗ (M ⊥ ), Sw ) is p-essentially normal
+if (M ⊥ , Sz ) is p-essentially normal.                                                           
+Proof of Theorem 2. (1) Without loss of generality, we suppose φ(0) = z0 . It
+follows from the proof of Lemma 3.5 that the automorphism φ admits the factorization
+φ = gz0 ◦k where k ∈ K, which means that φ admits the following commutative diagram
+                                                   k /
+                                             Ω❄        Ω
+                                                 ❄❄
+                                                          gz0
+                                                   ❄❄
+                                                     ❄
+                                                  φ ❄❄ 
+                                                        Ω
+   By Lemma 4.6, the p-essential normality of quotient weighted Bergman submodules
+is invariant under the linear automorphism k, so it suffices to prove the conclusion in
+the case of φ = gz0 . On the other hand, by [29, Section 1.5], if the quasi-inverse of the
+18                                                                                L. DING
+
+pair (z, ξ) ∈ Cn × Cn exists, then its quasi-inverse can be written in the rational form
+of
+                                            p(z, ξ)
+                                      zξ =          ,
+                                           ∆(z, ξ)
+                                               ¯ ∆(z, ξ) is the Jordan triple determinant
+where p(z, ξ) is a Cn -valued polynomial in z, ξ,
+and has no common factors with p(z, ξ). Moreover, by [23, Section 7.5], the quasi-
+inverse of the pair (z, ξ) exists whenever the spectrum norm satisfying kzk · kξk < 1,
+and ∆(z, ξ) 6= 0 whenever the quasi-inverse of the pair (z, ξ) exists. Therefore, for
+every z0 ∈ Ω = {kzk < 1}, the biholomorphism gz0 ∈ Aut(Ω) is in fact holomorphic on
+the irreducible bounded symmetric domain Ωz0 = {kzk < kz10 k } ⊃ Ω̄ and gz0 : Ω̄ → Ω̄ is
+biholomorhphic by Lemma 3.5. Thus each component function of gz0 can be uniquely
+extended to a holomorphic function in O(Ωz0 ), it implies that each component function
+of gz0 is a rational function and belongs to O(Ω̄). So, we can write
+                                          p1        pn
+                                   gz0 = ( , · · · , ),
+                                          q1        qn
+where rational functions pqii belong to O(Ω̄) and qi have no zeros in Ω̄. Applying Propo-
+sition 4.5(2) to the case of φ = gz0 , and combining this with Lemma 3.1 and Corollary
+4.2, we obtain
+                ⊥                   ⊥                             φ∗ (M ⊥ )               φ∗ (M ⊥ ) ∗
+        φ∗ [SzMi , (SzMj )∗ ](φ∗ )−1 = [S pi                                      , (S pj                )]
+                                                                  qi                      qj
+                                                                      ∗       ⊥           ∗     ⊥                     ∗       ⊥               ∗   ⊥
+                                                          = [Spφi (M ) (Sqφi (M ) )−1 , (Spφj (M ) )∗ ((Sqφj (M ) )∗ )−1 ]
+                                                                      ∗   ⊥               ∗     ⊥        −1           ∗       ⊥               ∗   ⊥
+                                                          = Spφi (M ) [(Sqφi (M ) ) , (Spφj (M ) )∗ ((Sqφj (M ) )∗ )−1 ]
+                                                                          ∗       ⊥             ∗        ⊥                ∗       ⊥                   ∗       ⊥
+                                                              + [Spφi (M ) , (Spφj (M ) )∗ ((Sqφj (M ) )∗ )−1 ](Sqφi (M ) )−1
+                                                          = U1 + U2 + U3 + U4 ,
+where
+               ∗        ⊥           ∗     ⊥           ∗       ⊥                   ∗   ⊥                      ∗   ⊥                ∗   ⊥
+     U1 = Spφi (M ) Spφj (M ) (Sqφi (M ) )−1 (Sqφj (M ) )−1 [Sqφi (M ) , (Sqφj (M ) )∗ ]
+                    ∗           ⊥                     ∗       ⊥
+           · ((Sqφj (M ) )∗ )−1 (Sqφi (M ) )−1 ,
+                    ∗           ⊥         ∗       ⊥               ∗       ⊥           ∗        ⊥                 ∗        ⊥               ∗       ⊥
+     U2 = −Spφi (M ) (Sqφi (M ) )−1 [Sqφi (M ) , (Spφj (M ) )∗ ](Sqφi (M ) )−1 ((Sqφj (M ) )∗ )−1 ,
+                        ∗       ⊥                 ∗       ⊥                   ∗       ⊥              ∗       ⊥                ∗       ⊥                   ∗       ⊥
+     U3 = −(Spφj (M ) )∗ ((Sqφj (M ) )∗ )−1 [Spφi (M ) , (Sqφj (M ) )∗ ]((Sqφj (M ) )∗ )−1 (Sqφi (M ) )−1 ,
+                ∗           ⊥             ∗   ⊥                   ∗       ⊥                      ∗       ⊥
+     U4 = [Spφi (M ) , (Spφj (M ) )∗ ]((Sqφj (M ) )∗ )−1 (Sqφi (M ) )−1 ,
+for all i, j = 1, · · · , n. Since Lp (φ∗ (M ⊥ )) is an operator ideal, it follows from Proposition
+                ⊥         ⊥                        ∗   ⊥     ∗    ⊥
+3.2 that [SzMi , (SzMj )∗ ] ∈ Lp (M ⊥ ) if [Swφ i (M ) , (Swφ j (M ) )∗ ] ∈ Lp (φ∗ (M ⊥ )). And hence
+(M ⊥ , Sz ) is p-essentially normal if (φ∗ (M ⊥ ), Sw ) is p-essentially normal. Similarly, the
+same argument for the automorphism φ−1 : (Ω, z) → (Ω, w) follows that (φ∗ (M ⊥ ), Sw )
+is p-essentially normal if (M ⊥ , Sz ) is p-essentially normal.
+   (2) Since φ∗ : A2 (Ω2 , dvγ ) → A2 (Ω1 , φ∗ (dvγ )) is a unitary operator, it follows from
+Proposition 4.5 (2) that
+                                              ⊥               ⊥                                φ∗ (M ⊥ )             φ∗ (M ⊥ )
+                                        [SzMi , (SzMj )∗ ] = (φ∗ )−1 [Sφi(w) , (Sφj (w) )∗ ]φ∗
+                         INVARIANCE OF ESSENTIAL NORMALITY                               19
+
+for all i, j = 1, · · · , n. Moreover, (φ∗ (M ⊥ ), Sw ) is p-essentially normal if and only
+if (M ⊥ , Sz ) is p-essentially normal from Theorem 2 (1), and then the desired result
+follows.                                                                                 
+   Theorem 2 provides a result that the p-essential normality is independent of the
+choice of the holomorphic coordinate charts. Theorem 2 can be regarded as a gener-
+alization of [26, Corollary 3.2] for the p-essential normality of quotient submodules,
+since proper holomorphic self-maps on irreducible bounded symmetric domains with
+higher dimensions must be automorphisms. Moreover, it can be checked that quotient
+submodules (φ∗ (M ⊥ ), Sw ) and (φ∗ (M ⊥ ), Sφ ) over the same polynomial algebra C[w]
+are not 2p-isomorphic (in the sense of Arveson [5]) in general.
+Example 4.7. (1) Let h be an irreducible homogeneous polynomial. Suppose that
+the variety V = Z(h) ∩ B is smooth away from the origin, where Z(h) is the set
+of zeros of h. It follows from [13, 20] that the quotient Bergman submodule MV⊥ on
+Bn is p-essentially normal for all p > n. Suppose that φ : (Bn , w) → (Bn , z) is an
+automorphism with z = φ(w), then Theorem 2 implies that [Sφi , Sφ∗j ] ∈ Lp (MV⊥ ) for
+all p > n and i, j = 1, · · · , n.
+   (2) Let Ṽ be an analytic variety in an open neighborhood of B̄n such that Ṽ intersects
+∂Bn transversely and has no singularities on ∂Bn . Denote V = Ṽ ∩ Bn . It follows from
+[20, Theorem 4.3] that the quotient Bergman submodule (MV⊥ , Sw ) is p-essentially
+normal for all p > 2 dimC V. Suppose that φ : (Bn , w) → (Bn , z) is an automorphism
+with z = φ(w), then Theorem 2 implies that [Sφi , Sφ∗j ] ∈ Lp (MV⊥ ) for all p > 2 dimC V
+and i, j = 1, · · · , n.
+Remark 4.8. By the argument of the Taylor functional calculus as we used in the
+proof of Theorem 1, we have the following further result. Let (Ω, z) be a bounded
+symmetric domain in Cn and (M ⊥ , Sz ) be a quotient Bergman submodule determined
+by an analytic variety. If the Taylor spectrum Sp(Sz ) ⊂ Ω̄, then the following are
+equivalent:
+   (1) [Szi , Sz∗j ] ∈ Lp (M ⊥ ) for all i, j = 1, · · · , n;
+   (2) [Sf , Sg∗ ] ∈ Lp (M ⊥ ) for all f, g ∈ O(Ω̄).
+The condition Sp(S) ⊂ Ω̄ is satisfied in many known cases where the Taylor spectrum
+Sp(Sz ) is calculated. A special case is that Sp(Sz ) = Ω̄ when M = 0 by [1, Theo-
+rem 4.1], thus the weighted Bergman module (A2 (dvγ ), Tz ) is p-essentially normal if
+and only if [Tf , Tg∗ ] ∈ Lp (A2 (dvγ )) for all f, g ∈ O(Ω̄). This gives another intrinsic
+characterization of the p-essential normality of weighted Bergman modules.
+
+                         5. The case on the Wallach set
+   In the preceding section, we consider the p-essential normality of weighted Bergman
+modules on bounded symmetric domains. However, as mentioned at the end of Section
+2, the weighted Bergman spaces are special cases of the reproducing kernel Hilbert
+holomorphic function spaces corresponding to the continuous part of the Wallach set.
+In this section, we will consider the biholomorphic invariance of p-essential normality
+of Hilbert modules on the more general holomorphic function space determined by the
+Wallach set.
+20                                          L. DING
+
+   Although we still consider the operator problems in the O(Ω̄)-module category, the
+situation is different in general. When λ > N − 1, it is trivial to equip the weighted
+Bergman spaces Hλ2 (Ω) with module actions by the multiplication of functions over
+algebras P(Z) and O(Ω̄) since those inner products are induced by the integration with
+suitable probability measures. However, for general λ ∈ WΩ,c , we require additional
+effort to equip Hλ2 (Ω) with an O(Ω̄)-module action by the multiplication of functions
+when it is a Hilbert module over the algebra P(Z), since the K-invariant inner product
+on Hλ2 (Ω) can not be induced by the integration with a probability measure supported
+on Ω̄. Moreover, for an arbitrary function f ∈ O(Ω̄), it is nontrivial to determine
+whether f ∈ Hλ2 (Ω) or not for general λ < N − 1.
+   We first show that the holomorphic function space Hλ2 (Ω) on Ω determined by the
+discrete part WΩ,d of the Wallach set is not a Hilbert module over the polynomial
+algebra P(Z) = C[z]. However, for every continuous point λ ∈ WΩ,c , the function
+space (Hλ2 (Ω), Tz ) is always a Hilbert module over P(Z) by the coordinate function
+multipliers, which is a restatement of [1, Theorem 4.1]. We formulate it in the following
+lemma.
+
+Lemma 5.1. Let λ ∈ WΩ , then (Hλ2 (Ω), Tz ) is a Hilbert module over P(Z) with the
+coordinate function multipliers if and only if λ ∈ WΩ,c . Moreover, the Taylor spectrum
+Sp(Tz ) = Ω̄ whenever λ ∈ WΩ,c .
+
+Proof. By [1, Theorem 4.1] the function space (Hλ2 (Ω), Tz ) with the coordinate function
+multipliers is always a Hilbert module over P(Z) and the Taylor spectrum Sp(Tz ) = Ω̄
+whenever λ ∈ WΩ,c . Thus it is sufficient to prove that Hλ2 (Ω) is not a Hilbert module
+over P(Z) by the coordinate function multipliers if λ ∈ WΩ,d . Suppose it was false.
+Then we could find λ0 = a2 (j0 − 1) for some 1 ≤ j0 ≤ r such that Hλ20 (Ω) is a Hilbert
+module over P(Z) by the coordinate function multipliers. By the construction of
+Hλ20 (Ω), we know that
+                                               X
+                               Hλ20 (Ω) =                Pm (Z).
+                                            m≥0,mj0 =0
+
+Since the constant function 1 ∈ Hλ20 (Ω), it follows that
+
+                               P(Z) · 1 = P(Z) ⊂ Hλ20 (Ω),
+                           P
+which contradicts P(Z) =       m≥0 Pm (Z), and the proof is finished.                  
+
+  In Section 4, we define an O(Ω̄)-module action by the function multipliers on the
+weighted Bergman spaces HN2 +γ (Ω) = A2 (dvγ ), γ > −1. Notice that
+                                                      a
+                               N + γ > N − 1 > (r − 1) .
+                                                      2
+  Despite the aforementioned difficulties, we can still define an O(Ω̄)-module action
+by the function multipliers on Hλ2 (Ω) for all λ ∈ WΩ,c = {λ > (r − 1) a2 }. To cover the
+gap {(r − 1) a2 < λ ≤ N − 1}, we need the following embedding lemma between two
+function spaces. To make its proof more precise, we introduce the following notations.
+                          INVARIANCE OF ESSENTIAL NORMALITY                                     21
+
+Let IΩ be the set of all integer partitions with length r. Define
+         IΩ (0) = {0},
+         IΩ (j) = {(m1 , · · · , mj , 0, · · · , 0) : m1 ≥ · · · ≥ mj > 0}, 1 ≤ j ≤ r − 1,
+         IΩ (r) = {(m1 , · · · , mr ) : m1 ≥ · · · ≥ mr > 0}.
+It is obvious that
+                                 r
+                                 [
+                          IΩ =         IΩ (j) and IΩ (i) ∩ IΩ (j) = ∅
+                                 j=0
+
+whenever i 6= j.
+Lemma 5.2. Suppose (r − 1) a2 < λ1 < λ2 , then the imbedding
+                           i : Hλ21 (Ω) → Hλ22 (Ω),    f 7→ i(f ) = f
+is continuous.
+                                                         P
+Proof. Let f ∈ Hλ2(Ω) for λ ∈ WΩ,c and f = m≥0 fm be its Peter-Schmid-Weyl
+decomposition. Then
+                                      X
+                              kf kλ =   kfm kλ .
+                                                m≥0
+
+Hence it suffices to prove that there exists a uniform positive constant C satisfying
+                                        kpm kλ2 ≤ Ckpm kλ1
+for all pm ∈ Pm and m ≥ 0. Combining this with the formula (2.6), it suffices to prove
+that there exists a uniform positive constant C satisfying
+                                            (λ1 )m
+                                                   ≤C                                        (5.1)
+                                            (λ2 )m
+for every m ≥ 0. By the definition of the multi-variable Pochhammer symbol, we
+obtain
+               (λ1 )m   ΓΩ (λ1 + m)    Yr
+                                          Γ(λ1 + mj − (j − 1) a2 )
+                      =             =                              .      (5.2)
+               (λ2 )m   ΓΩ (λ2 + m) j=1 Γ(λ2 + mj − (j − 1) a2 )
+It is easy to see that
+                                 (λ1 )0   Y Γ(λ1 − (j − 1) a )
+                                          r
+                                                            2
+                                        =                       .                            (5.3)
+                                 (λ2 )0 j=1 Γ(λ2 − (j − 1) a2 )
+By Stirling’s formula, there exists an uniform positive constant Cj satisfying
+                            Γ(λ1 + mj − (j − 1) a2 )      1
+                                                a ≤ Cj  λ2 −λ1 ,
+                            Γ(λ2 + mj − (j − 1) 2 )    mj
+for j = 1, · · · , r. Then (5.2) implies that
+                     (λ1 )m   k
+                              Y    r
+                                   Y  Γ(λ1 − (j − 1) a2 ) Y
+                                                          k
+                                                                1
+                            ≤   Cj                   a        λ2 −λ1
+                     (λ2 )m j=1 j=k+1 Γ(λ2 − (j − 1) 2 ) j=1 mj
+                                                                                             (5.4)
+                               k
+                               Y          r
+                                          YΓ(λ1 − (j − 1) a2 )
+                            ≤     Cj                      a
+                              j=1    j=k+1 Γ(λ2 − (j − 1) 2 )
+22                                       L. DING
+
+for every m ∈ IΩ (k), 1 ≤ k ≤ r − 1. Similarly,
+                                              r
+                                              Y
+                                     (λ1 )m
+                                            ≤   Cj                                   (5.5)
+                                     (λ2 )m j=1
+for every m ∈ IΩ (r). Thus (5.1) follows by (5.3), (5.4) and (5.5). This completes the
+proof.                                                                              
+  Lemma 5.2 generalizes the classical fact that the Hardy space is a subspace of the
+Bergman space on the unit ball of rank one.
+Lemma 5.3. Let λ ∈ WΩ,c , then Hλ2 (Ω) is an O(Ω̄)-module whose module actions are
+the multiplication of functions. In particular, O(Ω̄) ⊂ Hλ2 (Ω) is dense.
+Proof. The case of λ > N − 1 is clear, since in this case every Hλ2 (Ω) is a weighted
+Bergman space whose inner product is induced by a finite volume measures on Ω.
+Thus it suffices to consider the case of λ ∈ {(r − 1) a2 < λ ≤ N − 1}. Since the Taylor
+spectrum Sp(Tz ) = Ω̄ by Lemma 5.1, it follows that we can define an O(Ω̄)-module
+action on Hλ2 (Ω) by Taylor functional calculus, namely
+                                     f · h := f (Tz )h                               (5.6)
+for every f ∈ O(Ω̄) and h ∈ Hλ2 (Ω). Since f ∈ O(Ω̄), there exists an open set D which
+contains the compact set Ω̄ such that f is holomorphic on D. It follows from (4.3) that
+there exists a δ > 0 such that
+                             Ω ( (1 + δ)Ω ( (1 + δ)Ω̄ ( D
+and f ∈ O(D) ⊂ O((1 + δ)Ω) has a homogeneous polynomial expansion
+                                               ∞
+                                               X
+                                     f (z) =         fi (z)
+                                               i=0
+
+on the domain (1+δ)Ω where each fi is i-homogeneous holomorphic polynomial, which
+                                                      P
+converges uniformly on (1 + 2δ )Ω. Thus f (Tz ) = limi ij=0 fj (Tz ) in the strong operator
+topology by the Taylor functional calculus, which yields
+                                              i
+                                              X                       i
+                                                                      X
+                     f · h = f (Tz )h = lim         fj (Tz )h = lim         fj h     (5.7)
+                                         i                        i
+                                              j=0                     j=0
+
+for every h ∈ Hλ2 (Ω). On the other hand, it follows from Lemma 5.2 that the imbedding
+                                                                               P
+Hλ2(Ω) ⊂ HN2 (Ω) = A2 (dv) is continuous because (r − 1) a2 < λ < N. Then ij=0 fj h is
+                                               P
+convergent to f · h in HN2 (Ω). Since f = limi ij=0 fj converges uniformly on (1 + 2δ )Ω,
+               P
+it follows that ij=0 fj h converges to f h in HN2 (Ω) by the integral formula of the norm
+with respect to the measure dv, and hence
+                                              i
+                                              X
+                                f · h = lim         fj h = f h.                      (5.8)
+                                          i
+                                              j=0
+
+This implies that we can define an O(Ω̄)-module action by the multiplication of func-
+tions, which coincides with the O(Ω̄)-module action (5.6) defined by the Taylor func-
+tional calculus.                                                                   
+                          INVARIANCE OF ESSENTIAL NORMALITY                                 23
+
+Remark 5.4. Actually (5.8) can be also obtained directly from (5.7) by the continuity
+of the evaluation functional. On the other hand, we know from [2, Theorem 3.3] that
+A(Ω) = C(Ω̄) ∩ O(Ω) is not always contained in Hλ2 (Ω), λ ∈ WΩ,c in general.
+  As a consequence, we can generalize Proposition 4.3 to the following form.
+Corollary 5.5. Suppose M is a closed set of Hλ2 (Ω) for some λ ∈ WΩ,c , then the
+following hold:
+   (1) M is a C[z]-module if and only if M is an O(Ω̄)-module.
+   (2) Moreover, M ⊥ is a quotient submodule over the algebra C[z] if and only if M ⊥
+       is a quotient submodule over the algebra O(Ω̄).
+   Thus all concepts we defined in Section 4 for the weighted Bergman modules can
+be generalized to the current situation of the Hilbert modules Hλ2 (Ω) for (r − 1) a2 <
+λ ≤ N − 1, except the pullback of measures. It is an interesting question to construct
+integral formulas with suitable probability measures dvλ for the K-invariant inner
+products associated with the Wallach points; we refer the reader to [1, 29]. It is known
+that the K-invariant inner product on Hλ2 (Ω) for λ ∈ WΩ,c can be realized as the
+integration with a unique probability measure dvλ supported inside Ω̄ if and only if
+                                        a
+              λ ∈ {λj = N − 1 − (j − 1) , j = 1, · · · , r} ∪ {λ > N − 1}.
+                                        2
+Hence in the spacial case of λ = λj we can still pull back the measures dvλj , j = 1 · · · , r.
+However, in general, we will directly pull back the inner product rather than the
+measure as follows. Let φ : Ω → Ω be an automorphism. The pullback of functions is
+given by
+                        φ∗ : O(Ω) → O(Ω),        f 7→ φ∗ (f ) = f ◦ φ,
+which is a complex algebraic (module) homomorphism and especially a linear operator.
+For Hλ2 (Ω), λ ∈ WΩ,c , its pullback under φ is denoted by φ∗ (Hλ2 (Ω)), we equip with it
+an inner product by
+                                hφ∗ (f ), φ∗(g)iλ,φ∗ := hf, giλ                          (5.9)
+whenever f, g ∈ Hλ2 (Ω), which is called the pullback of the inner product. By direct
+check, we deduce that the inner product (5.9) is K-invariant and φ∗ (Hλ2 (Ω)) is com-
+pleted in this inner product, which coincides with the integration with respect to the
+pull backed measure whenever the inner product of Hλ2 (Ω) can be realized as the in-
+tegration with respect to a probability measure. Thus φ∗ : Hλ2 (Ω) → φ∗ (Hλ2 (Ω)) is a
+unitary operator. Furthermore, if M is an O(Ω̄)-submodule in Hλ2 (Ω) determined by
+an analytic variety, then its pull back φ∗ (M) is also an O(Ω̄)-submodule in φ∗ (Hλ2(Ω))
+determined by the pullback of the analytic variety. The similar is also true for the
+quotient submodule.
+  Now we list the result of the biholomorphic invariance of p-essential normality of
+quotient Hilbert submodules in Hλ2 (Ω) for λ ∈ WΩ,c , the core case of weighted Bergman
+modules of λ > N − 1 is our main Theorem 2 above. Now, with the preceding effort,
+the case of (r − 1) a2 < λ ≤ N − 1 can be proved by the similar method to the case of
+weighted Bergman modules and we left this proof to the reader.
+24                                        L. DING
+
+Theorem 5.6. Let M be a submodule in Hλ2 (Ω), λ ∈ WΩ,c determined by an analytic
+variety. Suppose that φ : (Ω, w) → (Ω, z) is an arbitrary automorphism with z = φ(w),
+then the following hold:
+    (1) The C[w]-module (φ∗ (M ⊥ ), Sw ) is p-essentially normal if and only if the C[w]-
+        module (M ⊥ , Sz ) is p-essentially normal.
+    (2) The following two statements are equivalent.
+         (a) [Swi , Sw∗ j ] ∈ Lp (M ⊥ ) for all i, j = 1, · · · , n.
+         (b) [Sφi , Sφ∗j ] ∈ Lp (M ⊥ ) for all i, j = 1, · · · , n.
+Remark 5.7. (1) Since the unitary coordinate transformations correspond to the
+isometrically algebraic isomorphisms of the universal operator algebras [10, Theorem
+8.2], Theorem 5.6 (1) can be viewed as an extension of [21, Theorem 2.1] for various
+Hilbert modules on bounded symmetric domains; however, the method we used here
+is different from theirs.
+   (2) Let θ be a nonconstant singular inner function on D = B1 and Mθ be the mul-
+tiplication operator with symbol θ on Hardy space H 2 (D). Clearly, Mθ coincides with
+the Toeplitz operator Tθ . By the compactness characterization of semi-commutators of
+Toeplitz operators, we conclude that [Mθ , Mθ∗ ] = Tθ Tθ̄ − Tθθ̄ is not compact on H 2 (D).
+Thus the Hilbert module (H 2 (D), Mθ ) is not ∞-essentially normal. On the other hand,
+we can equip H 2 (D) with a natural H ∞ (D)-module structure by the multiplication of
+functions, where H ∞ (D) is the set of bounded holomorphic functions on D. Clearly,
+we have C[z] ⊂ O(D̄) ⊂ H ∞ (D). The above shows that the larger function algebra
+H ∞ (D) does not preserve the ∞-essential normality of (H 2 (D), Mz ).
+   (3) When the Taylor spectrum of the compression n-tuple Sz on MV⊥ satisfies Sp(Sz ) ⊂
+Ω̄. One can prove Theorem 5.6 by the alternative operator theoretic method based on
+Theorem 1 (taking c = 1, d = 0). However, in the general case, as we mentioned before,
+the primary obstruction in this operator theoretic method is the accurate estimate of
+the Taylor spectrum of S.
+  Similarly, the same is also true for the submodule (M, Tz ), where Tz = (Mz1 , · · · , Mzn )
+can be viewed as the Toeplitz operator n-tuple with the coordinate functions. We de-
+note by Tf the Toeplitz operator with the symbol function f.
+Corollary 5.8. Let M be a submodule in Hλ2 (Ω), λ ∈ WΩ,c determined by an analytic
+variety. Suppose that φ : (Ω, w) → (Ω, z) is a biholomorphism with z = φ(w), then
+the following hold:
+    (1) The C[w]-module (φ∗ (M), Tw ) is p-essentially normal if and only if the C[z]-
+        module (M, Tz ) is p-essentially normal.
+    (2) The following two statements are equivalent.
+         (a) [Twi , Tw∗j ] ∈ Lp (M) for all i, j = 1, · · · , n.
+         (b) [Tφi , Tφ∗j ] ∈ Lp (M) for all i, j = 1, · · · , n.
+
+                  6. The Taylor spectrum of the compression
+  The previous sections have demonstrated the importance of the Taylor spectrum of
+the compression operator tuple in the investigation of the biholomorphic invariance of
+p-essential normality. Moreover, the calculation of the Taylor spectrum for bounded
+                          INVARIANCE OF ESSENTIAL NORMALITY                                  25
+
+holomorphic multipliers is particularly an extension of the corresponding corona prob-
+lem. Thus in this section, we shall calculate the Taylor spectrum of the compression
+operator tuple of the analytic Hilbert quotient submodule on bounded symmetric do-
+mains.
+   Let T = (T1 , · · · , Tn ) be a commuting operator n-tuple on a Hilbert space H. Denote
+by (T ) the commutative Banach subalgebra generated by T1 , · · · , Tn and Id in the
+Banach operator algebra B(H). Let B be a commutative Banach algebra which contains
+T1 , · · · , Tn and Id. Then T is called non-singular relative to B if the operator equation
+                                  T1 U1 + · · · + Tn Un = Id
+has a solution for U1 , · · · , Un ∈ B. The joint spectrum SpB (T ) of T relative to B is
+defined to be the set of all w ∈ Cn such that T − w is singular relative to B. It is known
+that the Taylor spectrum Sp(T ) ⊂ SpB (T ) for every such Banach algebra B; see [24].
+In particular,
+                                     Sp(T ) ⊂ Sp(T ) (T ).                            (6.1)
+                                                           n
+   Since (Ω, z) is a bounded symmetric domain in C , it is the unit ball in the finite-
+dimensional normed linear space (Z, k · k), where Z = Cn is the Jordan triple and
+k · k is the spectrum norm. Let (MV⊥ , Sz ) be a quotient submodule in Hλ2 (Ω), λ ∈ WΩ,c
+determined by an analytic variety V. As we mentioned in Section 2, we can assume
+that there exist finitely many f1 , · · · , fm ∈ A(Ω) satisfying
+                         V = {z ∈ Ω : f1 (z) = · · · = fm (z) = 0}.
+We say that a submodule M ⊂ Hλ2 (Ω), λ ∈ WΩ,c is called finitely generated if there exist
+finitely many g1 , · · · , gm ∈ A(Ω) such that the closure Cl[g1 O(Ω̄)+· · ·+gm O(Ω̄)] = M.
+In this case we say that the submodule M is finitely generated by g1 , · · · , gm . The
+notion of finitely generated O(Ω̄)-module used here can be roughly viewed as the
+replacement of coherent ideal sheaf of an analytic variety in a complex space in the
+global case. The main feature of the coherence is locally finitely generated. Moreover,
+the finitely generated O(Ω̄)-module can be viewed as an analog of the (approximate)
+stable divisible C[z]-module defined in [27].
+   If V = {z ∈ Ω : f1 (z) = · · · = fm (z) = 0} for some f1 , · · · , fm ∈ O(Ω̄) and MV is
+finitely generated by g1 , · · · , gl ∈ O(Ω̄), then V = {z ∈ Ω : g1 (z) = · · · = gl (z) = 0},
+since O(Ω̄) ⊂ Hλ2 (Ω), λ ∈ WΩ,c . Thus in the following discussion, we only consider the
+case that V = {z ∈ Ω : f1 (z) = · · · = fm (z) = 0} for some f1 , · · · , fm ∈ O(Ω̄) and MV
+is finitely generated by f1 , · · · , fm .
+   The following proposition shows that the Taylor spectrum of the compression Sz on
+the quotient submodule MV⊥ is the closure of the analytic variety V if MV is finitely
+generated by some functions in O(Ω̄). Recall that tΩ = {tz : z ∈ Ω} = {z ∈ Z : kzk <
+t} for every t > 0, which is biholomorphic to Ω = {z ∈ Z : kzk < 1}. A complex linear
+functional on a complex commutative Banach algebra is said to be multiplicative if it
+is also a nonzero algebraic (ring) homomorphism.
+Proposition 6.1. Suppose that V = {z ∈ Ω : f1 (z) = · · · = fm (z) = 0} is an analytic
+variety with f1 , · · · , fm ∈ O(Ω̄). If MV is finitely generated by f1 , · · · , fm , then the
+Taylor spectrum of Sz is
+                                         Sp(Sz ) = V̄ .
+26                                            L. DING
+
+Proof. Since f1 , · · · , fm ∈ O(Ω̄), it follows that there exists an open domain D ⊃ Ω̄
+such that f1 , · · · , fm ∈ O(D). As the same proof in (3.8), we know that there exists a
+t0 > 1 such that
+                                      Ω ( tΩ ( tΩ̄ ( D
+for every 1 < t ≤ t0 . Thus f1 , · · · , fm ∈ A(tΩ) for every 0 < t ≤ t0 . For every
+0 < t ≤ t0 , we define Vt by
+                          Vt = {z ∈ tΩ : f1 (z) = · · · = fm (z) = 0}.
+Clearly V1 = V and V̄t = {z ∈ tΩ̄ : f1 (z) = · · · = fm (z) = 0} for every 1 ≤ t ≤ t0 .
+We now fix an arbitrary t ∈ (1, t0 ] and let wt = (wt,1 , · · · , wt,n ) ∈       / V̄t . Denote It by
+the closed ideal generated by f1 , · · · , fm , z1 − wt,1 , · · · , zn − wt,n in the commutative
+Banach algebra A(tΩ) where 1 < t ≤ t0 . We first prove that It = A(tΩ). Otherwise,
+there exists a maximal ideal Jt of A(tΩ) satisfying It ⊂ Jt , since every A(tΩ) is a
+the commutative ring. The one-to-one correspondence between multiplicative linear
+functionals on A(tΩ) and maximal ideals in A(tΩ) implies that there exists a unique
+multiplicative linear functional Φt satisfying It ⊂ Jt = Ker Φt . By the following Lemma
+6.3, we deduce that there exists a unique wt′ ∈ tΩ̄ such that Φt (f ) = f (wt′ ) for every
+f ∈ A(tΩ). Since f1 , · · · , fm ∈ It ⊂ Ker Φt , it follows that f1 (wt′ ) = · · · = fm (wt′ ) = 0,
+namely wt′ ∈ V̄t . On the other hand, the condition that z1 − wt,1 · · · , zn − wt,n ∈ It ⊂
+KerΦt implies wt = wt′ , which contradicts the assumption wt ∈               / V̄t . This proves that
+It = A(tΩ). Thus there exist gt,1 , · · · , gt,m , ht,1 , · · · , ht,n ∈ A(tΩ) ⊂ O(Ω̄) such that
+             f1 gt,1 + · · · + fm gt,m + (z1 − wt,1 )ht,1 + · · · + (zn − wt,n )ht,n = 1
+on tΩ where 1 < t ≤ t0 . Combining this with Lemma 4.1 and the fact f1 , · · · , fm ∈ MV
+follows that
+                         Sz1 −wt,1 Sht,1 + · · · + Szn −wt,n Sht,n = Id              (6.2)
+on MV⊥ . On the other hand, as we proved in Lemma 5.3, the O(Ω̄)-module action given
+by the multiplication of functions coincides with the O(Ω̄)-module action (5.6) defined
+by the Taylor functional calculus. Combining this with the continuity of the Taylor
+functional calculus, it implies that Sf = PMV⊥ f (Tz ) ∈ (Sz ) for all f ∈ O(Ω̄). Therefore
+the identity (6.2) implies that wt ∈ / Sp(Sz ) (Sz ), the joint spectrum of Sz relative to
+the commutative Banach algebra (Sz ). Then the inclusion of spectrums (6.1) and the
+arbitrariness of t follows that Sp(Sz ) ⊂ V̄t for every 1 < t ≤ t0 . Together with the
+definition of Vt yields                      \
+                                 Sp(Sz ) ⊂         V̄t = V̄ .
+                                                1<t≤t0
+
+  It remains to prove the other direction, i.e., Sp(Sz ) ⊃ V̄ . Since the compactness of
+Sp(Sz ), it suffices to prove that w ∈
+                                     / V if w ∈/ Sp(Sz ). Now suppose w ∈   / Sp(Sz ). By
+the definition of the Taylor spectrum, it follows that
+                                             DS −w
+                                Λn−1 (MV⊥ ) −→
+                                             z
+                                               Λn (MV⊥ ) → 0
+is exact, and hence the boundary operator DSz −w is surjective on the above exterior
+product space. Since Λn (MV⊥ ) = MV⊥ ⊗ (η1 ∧ · · · ∧ ηn ) ∼
+                                                          = MV⊥ up to the natural
+isomorphism, we see that
+                            MV⊥ = Sz1 −w1 MV⊥ + · · · + Szn −wn MV⊥ .
+                          INVARIANCE OF ESSENTIAL NORMALITY                                  27
+
+Therefore, for every g ∈ Hλ2 (Ω), λ ∈ WΩ,c , there exist g1 , · · · , gn ∈ MV⊥ and h ∈ MV
+such that
+                 (z1 − w1 )g1 (z) + · · · + (zn − wn )gn (z) + h(z) = g(z).
+                          Q
+If w ∈ Ω, take g(z) = ni=1 (zi − wi ) + 1, we have h(w) = 1 6= 0. Since Cl[f1 O(Ω̄) + · · · +
+fm O(Ω̄)] = MV , it follows that f1 O(Ω̄) + · · · + fm O(Ω̄) is dense in MV , we conclude
+that there exist h1 , · · · , hm ∈ O(Ω̄) satisfying
+                          f1 (w)h1(w) + · · · + fm (w)hm (w) 6= 0,
+which means w ∈
+              / V. When w ∈
+                          / Ω, we see that w ∈
+                                             / V is trivial. The proof is
+complete.                                                              
+Remark 6.2. Proposition 6.1 can be viewed as a generalization of [18, Theorem 5.1]
+and [31, Proposition 4.2]. The spectral result [17, Theorem 2.5] for quotient Beurling-
+type submodules on Bn with n > 1 demonstrates that the analytic continuation as-
+sumption f1 , · · · , fm ∈ O(Ω̄) in Proposition 6.1 is necessary, since every inner function
+on the non-tube type domain Bn with n > 1 is extremely oscillatory near every bound-
+ary point [17, Lemma 2.4].
+Lemma 6.3. Let t > 0, then every complex multiplicative linear functional on A(tΩ)
+is an evaluation at some point of tΩ̄.
+Proof. Clearly A(tΩ) is a commutative Banach algebra and the polynomial algebra
+P(Z) = C[z] is its dense subset for every t > 0. We now fix a t > 0. Let Φ : A(tΩ) → C
+be a multiplicative linear functional. Put w = (Φ(z1 ), · · · , Φ(zn )). We claim that
+w ∈ tΩ̄. Otherwise, w ∈  / tΩ̄, that is kwk > t > 0. Define k · kt by kzkt = 1t kzk for
+every z ∈ Z. It is clear that (Z, k · kt ) is a finite-dimensional normed linear space
+(in fact a Banach space). Moreover, tΩ is the open unit ball in (Z, k · kt ) and the
+norm of w is kwkt = 1t kwk > 1. By the Hahn-Banach theorem, there exists a complex
+linear functional q on (Z, k · kt ) such that q(w) = kwkt > 1 and the operator norm
+kqk = supz∈tΩ̄ |q(z)| = 1. Since Z is finite-dimensional, we see that every complex linear
+functional on Z must be a homogeneous holomorphic polynomial of degree 1. Thus q is
+a holomorphic polynomial such that its maximal modulus kqk∞ = kqk = 1 on the unit
+ball tΩ. Since Φ : A(tΩ) → C is a multiplicative linear functional, it follows that the
+operator norm kΦk = 1 and Φ(h) = h(w) for every polynomial h ∈ P(Z). In particular,
+Φ(q) = q(w) = kwkt > 1, which contradicts the fact that |Φ(q)| ≤ kΦk·kqk∞ = 1. This
+proves that w ∈ tΩ̄. Note that Φ(h) = h(w) for every polynomial h ∈ P(Z). Combining
+the continuity of Φ with the density of P(Z) in A(tΩ), it follows that Φ(f ) = f (w) for
+every f ∈ A(tΩ). This finishes the proof.                                               
+  Combined with the spectral mapping theorem, we have the following corollary.
+Corollary 6.4. As assumed in Proposition 6.1, let φ = (φ1 , · · · , φm ) with φ1 , · · · , φm ∈
+O(Ω̄). Denote Sφ = (Sφ1 , · · · , Sφm ), then the Taylor spectrum of Sφ on MV⊥ is
+                                      Sp(Sφ ) = φ(V̄ ).
+   As an application, we establish a result of the solvability of the corona problem
+for the quotient submodule. Costea, Sawyer, and Wick established a corona theorem
+in [9, Theorem 2] for the multiplier algebra M(H12 (Bn )) of the whole Drury-Arveson
+28                                         L. DING
+
+space H12 (Bn ). Recently, Davidson, Ramsey, and Shalit proposed a conjecture in [11,
+Remarks 5.5]:
+Conjecture 6.5. The corona problem is solvable on the quotient Drury-Arveson sub-
+module MV⊥ for its multiplier algebra M(MV⊥ ), where V is the common zeros of some
+functions in H12 (Bn ).
+  More precisely, the conjecture is that, for every f1 , · · · , fm ∈ M(MV⊥ ) if there exists
+a δ > 0 such that |f1 (z)|2 + · · · + |fm (z)|2 ≥ δ > 0 for every z ∈ V, then for every
+g ∈ MV⊥ there exist g1 , · · · , gm ∈ MV⊥ satisfying
+                                  f1 g1 + · · · + fm gm = g.
+In particular, if the conjecture is true, then it implies that V is dense in the maximal
+ideal space of M(MV⊥ ). We refer the reader to [9, 11] for more details on the corona
+problem. At the end of this section, we will consider this problem in the general
+case of bounded symmetric domains and give a supporting result. We note that if
+V = Ω then the corona problem for the quotient submodule MV⊥ is degenerated to the
+classical corona problem for Hardy space H 2n (Ω), Drury-Arveson space H(r−1)     2
+                                                                                      a
+                                                                                        +1 (Ω)
+                                                   r                                  2
+and weighted Bergman space HN +γ (Ω). As we mentioned in Section 2, the space Hλ2 (Ω)
+                                   2
+
+will not be complete Nevanlinna-Pick for every λ ∈ WΩ whenever its rank r ≥ 2. Thus
+in the general case, it is rather difficult to give a complete answer to the corona problem.
+   We first recall the definition of the multiplier algebra. Let H be a reproducing kernel
+Hilbert holomorphic function space on Ω with reproducing kernel K, we denote by
+M(H) the multiplier algebra of H, i.e., the set of functions f ∈ O(Ω) satisfying f g ∈ H
+for every g ∈ H. It follows from the closed graph theorem that if f is a multiplier then
+multiplication operator Mf with symbol f is a bounded linear operator on H. Thus
+f ∈ O(Ω) is a multiplier if and only if Mf is bounded. We identify the multiplier
+algebra with the bounded multiplication operator algebra. By direct calculations, we
+have Mf∗ Kz = f (z)Kz for every z ∈ Ω. Then the boundedness of Mf implies that
+f ∈ H ∞ (Ω), the set of bounded holomorphic functions. Indeed we obtain a criterion
+that a bounded holomorphic function f is a multiplier if and only if UKz = f (z)Kz
+can be extended to be a bounded linear operator on all of H. In this case U = Mf∗ .
+Note that the constant function 1 ∈ Hλ2 (Ω), λ ∈ WΩ,c . Then Lemma 5.3 follows that
+                         O(Ω̄) ⊂ M(Hλ2(Ω)) ⊂ Hλ2 (Ω) ∩ H ∞ (Ω)
+for λ ∈ WΩ,c . Since MV⊥ = spanz∈V {Kλ,z } ⊂ Hλ2 (Ω) is a closed space, it follows that
+MV⊥ is also a reproducing kernel Hilbert holomorphic function space on Ω. The above
+criterion for the multiplier shows that every f ∈ M(Hλ2(Ω)) induces a multiplier on
+MV⊥ , and we denote it by fV . Clearly, we see that if f, g ∈ M(Hλ2 (Ω)), then fV = gV if
+and only if f (z) = g(z) for all z ∈ V, we define M(Hλ2 (Ω))V by M(Hλ2(Ω))V = {fV :
+f ∈ M(Hλ2 (Ω))}. Similarly, we have
+                      O(Ω̄)V ⊂ M(Hλ2(Ω))V ⊂ M(MV⊥ ) ⊂ H ∞ (Ω),
+where O(Ω̄)V = {fV : f ∈ O(Ω̄)} is a multiplier subalgebra of M(MV⊥ ). When Ω = Bn
+and V is the common zeros of some functions in Drury-Arveson space H12 (Bn ), we know
+from [11, Proposition 2.6] that M(H12 (Bn ))V = M(MV⊥ ) by the complete Nevanlinna-
+Pick property of H12 (Bn ) and the restrictive condition for V is necessary.
+                             INVARIANCE OF ESSENTIAL NORMALITY                                          29
+
+  As assumed in Corollary 6.4. Suppose w = (w1 , · · · , wm ) ∈      / φ(V̄ ), then for every
+g ∈ MV⊥ ⊂ Hλ2 (Ω), λ ∈ WΩ,c , there exist g1 , · · · , gm ∈ MV⊥ such that
+                             (φ1 − w1 )g1 + · · · + (φm − wm )gm = g.
+In particular, if 0 ∈ / Sp(Sφ ) = φ(V̄ ) = φ(V ), equivalently there exists a δ > 0 such
+that |φ1 (z)| + · · · + |φm (z)|2 ≥ δ > 0 for every z ∈ V, which implies that for every
+             2
+
+g ∈ MV⊥ , there exist g1 , · · · , gm ∈ MV⊥ such that
+                                       φ1 g1 + · · · + φm gm = g.
+This shows that the MV⊥ -corona problem is solvable for multipliers belonging to O(Ω̄)V .
+Proposition 6.6. Suppose that V = {z ∈ Ω : f1 (z) = · · · = fm (z) = 0} is an analytic
+variety with f1 , · · · , fm ∈ O(Ω̄). If MV is finitely generated by f1 , · · · , fm , then the
+corona problem of the quotient submodule MV⊥ ⊂ Hλ2 (Ω), λ ∈ WΩ,c is solvable for the
+multiplier subalgebra O(Ω̄)V .
+   Thus, in particular, we have the following corollary that provides supporting evidence
+for Conjecture 7.1.
+Corollary 6.7. Suppose that V = {z ∈ Bn : f1 (z) = · · · = fm (z) = 0} is an
+analytic variety with f1 , · · · , fm ∈ O(B̄n ). If MV is finitely generated by f1 , · · · , fm ,
+then the corona problem of the quotient Drury-Arveson submodule MV⊥ is solvable for
+the multiplier subalgebra O(B̄n )V .
+Example 6.8. (1) Let V = {z1 z2 = 0} ∩ Bn which is an algebraic hypersurface. Then
+the corona problem of the quotient Drury-Arveson submodule MV⊥ is solvable for the
+multiplier subalgebra O(B̄n )V .
+  (2) Suppose that V ⊂ Bn is a homogeneous algebraic hypersurface that is smooth
+away from the origin. Then the corona problem of the quotient Bergman submodule
+MV⊥ is solvable for the multiplier subalgebra O(B̄n )V . An explicit example is the Fermat
+hypersurface V = {z1m + · · · + znm = 0} ∩ Bn for some m ≥ 1.
+Proof. (1) We first claim that the closure Cl[z1 z2 O(B̄n )] = MV . It suffices to prove
+that Cl[z1 z2 O(B̄n )] ⊃ MV . Suppose f ∈ MV ⊂ H12 (Bn ). By the Weierstrass division
+theorem, it implies that f = z1 h1 + g1 in an open neighborhood of the origin, where g1
+is a holomorphic function with respect to the n − 1 variables z2 , · · · , zn . Since f |V = 0,
+it follows that g1 (z2 , · · · , zn ) = 0. Hence
+                                                f = z1 h1                                            (6.3)
+in an open neighborhood of the origin. By the Weierstrass division theorem again,
+h1 = z2 h + g2 in an open neighborhood of the origin, where g2 is a holomorphic
+function with respect to the n − 1 variables z1 , z3 , · · · , zn . The same reason follows
+that g2 (z1 , z3 , · · · , zn ) = 0, namely h1 = z2 h in an open neighborhood of the origin.
+Combining this with (6.3) we know that
+                                               f = z1 z2 h                                           (6.4)
+in an open neighborhood of the origin.
+                      P              P
+   Let f (z) = al z l and h = bl z l be their Taylor expansions at the origin, where l =
+(l1 , · · · , ln ) is the multi-index and z l = z1l1 · · · znln , of course l1 , · · · , ln are nonnegative
+30                                                      L. DING
+
+integers. It follows from (6.4) that a1+l1 ,1+l2 ,··· ,ln = bl1 ,l2 ,··· ,ln for every multi-index. Since
+Bn is circular, we see that the Taylor expansion f at the origin is globally defined in
+                           2       P
+the whole of Bn . Let ∂z∂1 ∂z2 f = cl z l be its Taylor expansion at the origin which is
+globally defined on the whole of Bn because the same reason. Clearly, we have
+
+              |bl1 ,··· ,ln | = |a1+l1 ,1+l2 ,··· ,ln | ≤ (1 + l1 )(1 + l2 )|a1+l1 ,1+l2 ,··· ,ln | = |cl |
+                                                                  P
+for every multi-index. Thus the power series bl z l is defined on the whole of Bn , and
+we denote it by h̃. Clearly, h̃ = h in an open neighborhood of the origin, combining this
+with (6.4) and the identity theorem of holomorphic functions, it follows that f = z1 z2 h̃
+on Bn . Denote ft (z) = f (tz) and h̃t (z) = h̃(tz) for t > 0. Clearly, if 0 < t < 1, then
+
+                              ft = t2 z1 z2 · h̃t = z1 z2 · t2 h̃t ∈ z1 z2 O(B̄n )
+
+and ft (z) = 0 for every z ∈ V. Since O(B̄n ) ⊂ H12 (Bn ), it follows that ft ∈ MV for
+every 0 < t < 1.
+  On the other hand, it follows from the norm formula that
+                                        X                    l!    X         l!
+                         kft k2H 2 =         |al |2 t2|l|        ≤   |al |2      = kf k2H 2 ,
+                                  1
+                                         l                  |l|!   l        |l|!         1
+
+
+
+where l! = l1 ! · · · ln ! and |l| = l1 + · · · + ln . Hence gm = f1− 1 converges pointwise
+                                                                     m+1
+to f and is a bounded sequence in the reproducing kernel Hilbert space MV . By the
+Banach-Alaoglu theorem, the sequence {gm } possesses a subsequence that converges
+weakly. Since gm converges to f pointwise, it follows that the weak limit must coincide
+with f. Thus f belongs to the weak closure of Bf , where
+
+                         Bf = {g ∈ z1 z2 O(B̄n ) : kgkH12 ≤ kf kH12 } ⊂ MV .
+
+Note that Bf is convex, it follows from the Hahn-Banach theorem that the weak
+closure of Bf coincides with the norm closure of Bf . Thus there exists a sequence
+{Fm } ⊂ O(B̄n ) such that z1 z2 Fm converges to f in the norm topology of H12 (Bn ),
+namely f ∈ Cl[z1 z2 O(B̄n )]. Thus Cl[z1 z2 O(B̄n )] ⊃ MV , which proves the claim. Then
+Corollary 6.7 follows the desired result.
+   (2) There exists a homogeneous polynomial h such that V = {h(z) = 0} ∩ Bn . It
+follows from [13, Theorem A.3] that Cl[hO(B̄n )] = MV . Combined with Corollary 6.7,
+we know that the corona problem of the quotient Bergman submodule MV⊥ is solvable
+for the multiplier subalgebra O(B̄n )V .                                              
+
+   When V ⊂ Bn is a homogeneous algebraic variety and IV the corresponding poly-
+nomial radical ideal, then the condition MV = Cl[IV ] implies the finitely generated
+property of MV . In general, it is nontrivial to verify whether condition MV = Cl[IV ]
+holds. The method used in [13] for the case of Bergman space can not be directly ap-
+plied to the Drury-Arveson space since the Drury-Arveson norm can not be uniformly
+controlled by the uniform norm. The method we used here can actually at least handle
+the case of the Drury-Arveson submodule MV for which the algebraic hypersurface V
+is determined by some monomial.
+                         INVARIANCE OF ESSENTIAL NORMALITY                               31
+
+                                     7. applications
+  In this end section, we pay attention to the case of Ω = Bn , n > 1 and give two
+direct applications of the biholomorphic invariance of p-essential normality.
+7.1. Geometric Arveson-Douglas conjecture. The Geometric Arveson-Douglas
+conjecture is a variation of the original Arveson-Douglas conjecture and plays a domi-
+nant role in the development of the p-essential normality theory. We refer the reader
+to the survey [20]. From Theorem 2 or Theorem 5.6, we know that the p-essential
+normality of quotient Hardy and Bergman submodules determined by the affine (ir-
+reducible) homogeneous algebraic variety in Bn is biholomorphic invariant, thus the
+Geometric Arveson-Douglas conjecture is equivalent to the following Conjecture 7.1.
+Let ∅ 6= V ⊂ Bn be an affine homogeneous algebraic variety, which means that
+there exist finitely many holomorphic homogeneous polynomials q1 , · · · , qm satisfy-
+ing V = {z ∈ Bn : q1 (z) = · · · = qm (z) = 0}. Define (MV , Tz ) to be the submodule
+with the coordinate multipliers in the Bergman module (or Hardy module), its quo-
+tient submodule with the compression of the coordinate multipliers Tz is denoted by
+(MV⊥ , Sz ). Let Sφ = (Sφ1 , · · · , Sφn ), for every φ = (φ1 , · · · , φn ) ∈ Aut(Bn ).
+Conjecture 7.1. Let V ⊂ Bn be an affine homogeneous algebraic variety. Then for
+some (every) φ ∈ Aut(Bn ), the quotient submodule (MV⊥ , Sφ ) is p-essentially normal
+for all p > dimC V.
+  Moreover, if the Taylor spectrum Sp(Sz ) ⊂ B̄n , then by Remark 4.8 the Geometric
+Arveson-Douglas conjecture is equivalent to the following conjecture.
+Conjecture 7.2. Let V ⊂ Bn be an affine homogeneous algebraic variety. If the
+Taylor spectrum Sp(Sz ) ⊂ B̄n , then
+                          [Sf , Sg∗ ] ∈ Lp (MV⊥ ),   ∀f, g ∈ O(B̄n ),
+for all p > dimC V.
+7.2. Hyperrigidity and ∞-essential normality. An operator system S is said to be
+hyperrigid if for every non-degenerate representation π : C ∗ (S) → B(H) on a separable
+complex Hilbert space H, then π is the unique unital completely positive extension of
+the restriction π|S , where C ∗ (S) is the C ∗ -algebra generated by S. An operator tuple S
+on a Hilbert space H is said to be hyperrigid if the the operator system S genereted by
+S is hyperrigid. The notion of hyperrigidity for an operator system was first proposed
+by Arveson to study the boundary representation. The hyperrigidity conjecture for
+a separable operator system proposed by Arveson has drawn increased attention in
+recent years; see [7, 22] and references therein.
+   In general, it is typically difficult to determine whether an operator system is hy-
+perrigid, since it requires checking that every non-degenerate representation of the
+corresponding C ∗ -algebra has the unique extension property. Recently, Kennedy and
+Shalit [22, Theorem 4.12] established a deep connection between ∞-essential normality
+and hyperrigidity, i.e., the quotient Drury-Arveson submodule (QI , Sz ) determined by a
+sufficiently nontrivial homogenous polynomial ideal I ⊂ C[z] is ∞-essentially normal if
+and only if the compression n-tuple Sz is hyperrigid. They also confirmed in [22, Corol-
+lary 5.3] that the same is also true on the Hilbert module Hλ2 (Bn ), 1 ≤ λ < d, where
+32                                            L. DING
+
+Hλ2(Bn ) is defined in Section 2. More recently, Clouâtre and Timko [7, Theorem 1.2]
+extended this result to the analytic Hilbert modules with a maximal regular unitarily
+invariant complete Nevanlinna-Pick kernels on Bn . These results provide an approach
+to characterizing hyperrigidity by essential normality. We know from Theorem 1 or
+Theorem 5.6 that (QI , Sφ ) is ∞-essentially normal for some (arbitrary) φ ∈ Aut(Bn ),
+and hence it is intuitive that Sφ should be hyperrigid for every φ ∈ Aut(Bn ). We for-
+mulate it in the following result, which extends the above Kennedy-Shalit theorem to
+a broader range of compression tuples and quotient submodules.
+Theorem 7.3. Let I be a sufficiently nontrivial homogenous polynomial ideal of C[z].
+For the quotient submodule (QI , Sz ) in Hλ2 (Bn ), 1 ≤ λ < d, then the following are
+equivalent:
+   (1) (QI , Sz ) is ∞-essentially normal.
+   (2) (QI , Sφ ) is ∞-essentially normal for every (or some) φ ∈ Aut(Bn ).
+   (3) [Sf , Sg∗ ] ∈ L∞ (QI ) for all f, g ∈ O(B̄n ).
+   (4) [Sf , Sf∗ ] ∈ L∞ (QI ) for all f ∈ O(B̄n ).
+   (5) Sz is hyperrigid.
+   (6) Sφ is hyperrigid for every (or some) φ ∈ Aut(Bn ).
+Proof. (1) ⇐⇒ (2): For the quotient submodule (QI , Sz ), we can show the Taylar
+spectrum Sp(Sz ) = Z(I) ∩ B̄d , by the the similar method used in proof of Proposition
+6.1. Lemma 5.3 implies that φ(Sz ) = Sφ for every φ ∈ Aut(Bn ). Then Theorem 1
+(taking c = 1, d = 0) follows the equivalence.
+  (1) ⇐⇒ (3): It suffices to prove the implication (1) =⇒ (3). Since Sp(Sz ) ⊂ B̄d , the
+same argument of the Taylor functional calculus as we used in the proof of Theorem 1
+(taking c = 1, d = 0) implies that (3) holds.
+  (3) ⇐⇒ (4): It comes from the Fuglede-Putnam theorem.
+  (1) ⇐⇒ (5): This is [22, Corollary 5.3].
+  (5) ⇐⇒ (6) Suppose φ ∈ Aut(Bn ). Let
+                       Sφ = span {Id, Sφ1 , · · · , Sφn , Sφ∗1 , · · · , Sφ∗n }
+be the operator system generated by the operator n-tuple Sφ for every φ ∈ Aut(Bn ).
+Denote A1g(Sφ ) by the clsosure in the operator norm. We first claim that
+               A1g(Sφ ) = A1g(Sz ), C ∗ (Sφ ) = C ∗ (Sz ),           ∀φ ∈ Aut(Bn ).   (7.1)
+It follows from Lemma 3.5 that φ = (φ1 , · · · , φn ) ∈ O(B̄n ) ⊗ Cn , which means that all
+φi are holomorphic on an open ball tBn with radius t > 1, 1 ≤ i ≤ n. Since tBn are
+circular domain, all φi can be uniformly approximated by polynomials on B̄n , 1 ≤ i ≤ n.
+And hence Sφ ⊂ A1g(Sz ) ⊂ C ∗ (Sz ) by the continuity and uniqueness of the Taylor
+functional calculus. It follows that
+                        A1g(Sφ ) ⊂ A1g(Sz ), C ∗ (Sφ ) ⊂ C ∗ (Sz ).
+Note that Sp(Sz ) = Z(I) ∩ B̄d , it follows from Lemma 5.3 that φ(Sz ) = Sφ . Similarly,
+we can deduce that Sz = Sφ−1 ◦φ ⊂ A1g(Sφ ) ⊂ C ∗ (Sφ ). This implies that
+                        A1g(Sz ) ⊂ A1g(Sφ ), C ∗ (Sz ) ⊂ C ∗ (Sφ ).
+Then claim (7.1) is proved.
+                         INVARIANCE OF ESSENTIAL NORMALITY                                  33
+
+  Now suppose Sz is hyperrigid, we prove that Sφ is hyperrigid. Let π : C ∗ (Sφ ) →
+B(H) be a non-degenerate representation on a Hilbert space H. It follows from the
+identity C ∗ (Sφ ) = C ∗ (Sz ) and the hyperrigidity of Sz that there is a unique unital
+completely positive extension of the restriction π|Sz . Then it is clear that π is a unital
+completely positive extension of the restriction π|Sφ . If π ′ is another unital completely
+positive extension of the restriction π|Sφ . Since A1g(Sφ ) = A1g(Sz ) and the the conti-
+nuity of π, π ′, it follows that
+                             π ′ |A1g(Sφ ) = π|A1g(Sφ ) = π|A1g(Sz ) .
+Thus π ′ is a unital completely positive extension of the restriction π|Sz . The uniqueness
+implies that π ′ = π. Thus Sφ is hyperrigid. This shows the implication (5) =⇒ (6).
+Similarly, we can show that Sz is hyperrigid if Sφ is hyperrigid.                        
+  We see from Theorem 7.3 that operator systems Sφ , φ ∈ Aut(Bn ) support Arveson’s
+hyperrigidity conjecture for every, provided (QI , Sz ) satisfies the Arveson-Douglas (or
+Arveson) conjecture.
+
+Acknowledgements.
+  The author would like to thank Prof. Kunyu Guo and Prof. Harald Upmeier for
+their helpful discussions. The author was partially supported by the National Natural
+Science Foundation of China (12201571).
+
+                                        References
+ [1] J. Arazy, G. Zhang, Homogeneous multiplication operators on bounded symmetric do-
+     mains, J. Funct. Anal. 202 (2003), no. 1, 44-66.
+ [2] W. Arveson, Subalgebras of C ∗ -algebras III: Multivariable operator theory, Acta Math.
+     181 (1998), 159-228.
+ [3] W. Arveson,The curvature invariant of a Hilbert module over C[z1 , · · · , zd ], J. Reine
+     Angew. Math. 522 (2000), 173-236.
+ [4] W. Arveson, p-summable commutators in dimension d, J. Oper. Theory 54 (2005), 101-
+     117.
+ [5] W. Arveson, Quotients of standard Hilbert modules, Trans. Amer. Math. Soc. 359 (2007),
+     no.12, 6027-6055.
+ [6] C. Chu, Bounded symmetric domains in Banach spaces, World Scientific, Hackensack,
+     NJ, 2021.
+ [7] R. Clouâtre, E. Timko, Gelfand transforms and boundary representations of complete
+     Nevanlinna-Pick quotients, Trans. Amer. Math. Soc. 374 (2021), 2107-2147.
+ [8] A. Connes, Non-commutative differential geometry, Inst. Hautes Études Sci. Publ. Math.
+     (1985), no. 62, 257-360.
+ [9] S. Costea, E. Sawyer and B. Wick, The Corona Theorem for the Drury-Arveson Hardy
+     space and other holomorphic Besov-Sobolev spaces on the unit ball in C n , Anal. PDE 4
+     (2011), 499-550.
+[10] K. Davidson, C. Ramsey, and O. Shalit, The isomorphism problem for some universal
+     operator algebras, Adv. Math. 228 (2011), 167-218.
+[11] K. Davidson, C. Ramsey and O. Shalit, Operator algebras for analytic varieties, Trans.
+     Amer. Math. Soc. 367 (2015), 1121-1150.
+[12] L. Ding, Schatten class Bergman-type and Szegö-type operators on bounded symmetric
+     domains, Adv. Math. 401 (2022), No. 108314, 27 pp.
+34                                        L. DING
+
+[13] R. Douglas, X. Tang and G. Yu, An analytic Grothendieck Riemann Roch theorem, Adv.
+     Math. 294 (2016), 307-331.
+[14] R. Douglas, Y. Wang, Geometric Arveson-Douglas conjecture and holomorphic exten-
+     sions, Indiana Univ. Math. J. 66 (2017), 1499-1535.
+[15] M. Engliš, J. Eschmeier, Geometric Arveson-Douglas conjecture, Adv. Math. 274 (2015),
+     606-630.
+[16] H. Grauert, K. Fritzsche, Several complex variables, Graduate Texts in Mathematics,
+     Vol. 38. Springer-Verlag, New York-Heidelberg, 1976.
+[17] K. Guo, Y. Duan, Spectral properties of quotients of Beurling-type submodules of the
+     Hardy module over the unit ball, Studia Math. 177 (2006), 141-152.
+[18] K. Guo, K. Wang, Essentially normal Hilbert modules and K-homology, Math. Ann.
+     340 (2008), 907-934.
+[19] K. Guo, P. Wang and C. Zhao, Essentially normal quotient weighted Bergman modules
+     over the bidisk and distinguished varieties, Adv. Math. 432 (2023), no. 109266, 30 pp.
+[20] K. Guo, Y. Wang, A survey on the Arveson-Douglas conjecture, Oper. Theory Adv.
+     Appl. 278 (2020), Birkhäuser/Springer, Cham, 289-311.
+[21] M. Kennedy, O. Shalit, Essential normality and the decomposability of algebraic vari-
+     eties, New York J. Math. 18 (2012), 877-890.
+[22] M. Kennedy, O. Shalit, Essential normality, essential norms and hyperrigidity, J. Funct.
+     Anal. 268 (2015) 2990-3016; Corrigendum: J. Funct. Anal. 270 (2016) 2812-2815.
+[23] O. Loos, Bounded symmetric domains and Jordan Pairs, Mathematical Lectures, The
+     University of California, 1977.
+[24] J. Taylor, The analytic-functional calculus for several commuting operators, Acta Math.
+     125 (1970), 1-38.
+[25] M. Putinar, The superposition property for Taylor’s functional calculus, J. Operator
+     Theory 7 (1982), 149-155.
+[26] N. Salinas, The ∂-formalism and the C ∗ -algebra of the Bergman n-tuple, J. Operator
+     Theory 22 (1989), 325-343.
+[27] O. Shalit, Stable polynomial division and essential normality of graded Hilbert modules,
+     J. Lond. Math. Soc. 83 (2011), 273-289.
+[28] H. Upmeier, Toeplitz C ∗ -algebras on bounded symmetric domains, Ann. of Math. (2)
+     119 (1984), 549-576.
+[29] H. Upmeier, Toeplitz operators and index theory in several complex variables. Operator
+     Theory: Advances and Applications 81, Birkhäuser Verlag, Basel, 1996.
+[30] H. Upmeier, K. Wang, Dixmier trace for Toeplitz operators on symmetric domains, J.
+     Funct. Anal. 271 (2016), 532-565.
+[31] S. Zhang, Essential normality for Beurling-type quotient modules over tube-type domains.
+     Integral Equations Operator Theory 93 (2021), No. 3, 18 pp.
+
+  School of Mathematics and Statistics, Zhengzhou University, Zhengzhou, Henan
+450001, P. R. China
+  Email address: ljding@zzu.edu.cn
+

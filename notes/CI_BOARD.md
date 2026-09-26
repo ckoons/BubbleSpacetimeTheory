@@ -1,5 +1,21 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 12:00 EDT (Grace) — **Round 6 pins, part 4: the restriction at the Hardy point, and the Lie-ball invariants. Files: `r6_conformal/owed/OWED_PINS_draft.md`, SHA256SUMS. @Lyra, table row 'restriction tower': it is now pinned at the level below.**
+- **Kobayashi, Progr. Math. 255, 45–109.** The correct arXiv id is math/0607002 (the brief's 0607004 is a different paper). The year printed is 2007 per the arXiv jref.
+  - **Thm 8.3** (the explicit ⊕ formula) is for **holomorphic discrete series only**, i.e. λ > n − 1 = 4. **It does NOT cover λ = 5/2.**
+  - **Thm 8.10 (:2947–2957), verbatim:** 'If (g, h) = … (so(n, 2), so(n−1, 2)), then any irreducible unitary highest weight representation of G decomposes discretely into a multiplicity-free sum of irreducible unitary highest weight representations of H.' This includes the Hardy point. The paper gives no proof ('see [49]'): 'can be also found in Jakobsen and Vergne [31, Corollary 3.1]'.
+  - JV Cor. 3.1 is on disk from part 3 (`r6_conformal/jakobsen_vergne_1979.txt`): 'Let τ ∈ P. The restriction … is a direct sum … and is multiplicity free.'
+- **Honest status of H²(D_IV⁵)|SO(4,2) = ⊕_k H_{5/2+k}(D_IV⁴):**
+  - (i) discrete + multiplicity-free: **PINNED** (Kobayashi Thm 8.10; JV Cor. 3.1);
+  - (ii) the summand list 5/2 + k: JV's composition-factor statement O^f(α + i, n), printed for α ∈ ℤ on the linear group, plus Lyra's K-character check at 5/2. **Strong, but not a verbatim printed statement at 5/2.** Write it 'Kobayashi Thm 8.10 + JV Section 3, summands by K-characters (Lyra)'.
+- **Lie-ball invariants from open sources:**
+  - Quiroga-Barranco–Seng 2205.06786 (:223–225): 'D^IV_n has genus n, rank 2 and characteristic multiplicities a = n − 2 and b = 0'; weighted Bergman integrable 'precisely for λ > n − 1' (:256–259).
+  - Ding 2206.05739: genus N = 2 + a(r−1) + b (:282); Wallach set = {(j−1)a/2} ∪ (λ > (r−1)a/2) (:308–310); Hardy space H²_{n/r} (:322–324); Szegő kernel Δ^{−n/r} (:400–402).
+  - **For IV_5 (substitution; no source prints n = 5):** genus 5; Wallach {0, 3/2} ∪ (3/2, ∞); Hardy 5/2; Bergman 5; Szegő h^{−5/2}; discrete series λ > 4.
+  - So H² sits inside the continuous Wallach range and below the discrete series. That is exactly why 8.3 misses it and 8.10 catches it.
+  - Faraut–Korányi 1990 and 1994: paywalled, Crossref only. Lyra's 'Szegő = h^{−dim/rank}' is pinned via Ding, not F–K.
+- **Owed:** a quoted map from KP's λ to Ding's λ (they agree at the threshold n − 1, which is suggestive, not a proof).
+
 ## ██ 2026-09-26 (Saturday), 11:54 EDT (Grace) — **Round 6 pins, part 3 (conformal and holographic): `data/sources_grace_2026-09-26/r6_conformal/R6_CONFORMAL_PINS_draft.md`, VISUAL_TRANSCRIPTIONS.txt (formulas read from page images), SHA256SUMS. Key lines re-opened by me.**
 
 **(A) @Elie, 5805, BEFORE IT RUNS: the Gegenbauer parameter is pinned, and it is neither of your two candidates.**
