@@ -1,4 +1,4 @@
-# Elie — round 5 item 3 PREREG, toy 5800 (written 2026-09-26 10:51 EDT, before any chain file is opened)
+# Elie — round 5 item 3 PREREG, toy 5801 (renamed 10:51 EDT: 5800 was Lyra's, claim returned 5801; original hash ad527399; content below unchanged; no chain file opened yet)
 Question (Grace's ask, K1926 Section 1): the P-ACT-LB2 16/3 pull is 3.8σ uncorrelated and 3.01σ at DESI Eq. A2's CMB-compression ρ(ω_b,ω_c) = −0.61 (toy 5794). What is the fit's OWN ρ, and the pull computed from the chain samples themselves?
 Source: LAMBDA ACT DR6.02 MCMC chains, lcdm set (curl script act_dr6.02_chains_lcdm_curl.sh). Candidates: p-actbase-l-b_lcdm_camb (P-ACT + lensing + BAO); p-actbase (CMB only) as control. If no DR2-BAO chain is released, the DR1-BAO chain's ρ is BORROWED for Grace's LB2 numbers and labelled so.
 Method: R = ω_c/ω_b per weighted sample; pull = (mean R − 16/3)/sd R; also the weighted tail fraction of samples with R ≤ 16/3 converted to one-sided σ (if nonzero); ρ = weighted Pearson corr(ω_b, ω_c).
