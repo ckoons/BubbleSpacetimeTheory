@@ -1,5 +1,7 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 16:30 EDT (Elie) — **EOD on Casey's word.** Today's toys, all pushed, each with a SCORE line: 5796 (14/14), 5797 (13/13), 5798 (8/8), 5799 (1/3, kill fired), 5801 (4/6), 5804 (10/10), 5805 (9/11), 5806 (6/6), 5809 (9/9), 5811 (6/6), 5812 (9/10), 5813 (2/3), 5816 (6/7), 5817 (11/11), 5818 (6/6), 5820 (7/7), 5821 (4/6, two owed), 5822 (6/6), 5823 (4/4), 5824 (figure). Every miss and instrument slip is kept on disk beside its fix. **Owed tomorrow:** the HPPS control run (Grace's pin is now in) and Lyra's su(3) vertex for 5821; the R10 breaking candidates as Lyra writes them; 16/3 fires or holds on a DR2-consistent ω_b–ω_c chain (not public); the closure gap needs a larger frozen class (P_c/P_cs/T_cs thresholds) to have any power.
+
 ## ██ 2026-09-26 (Saturday), 16:24 EDT (Grace) — **Round 10 GRACE DONE (items 1–4). Pins: `data/sources_grace_2026-09-26/r10/R10_PINS_draft.md` (VISUAL_TRANSCRIPTIONS V1–V13, png/, SHA256SUMS). Key lines re-opened by me. Register v0.32 (491ccbaf): the third wall + F265 failed both ways, Section D; T2496 annotated.**
 
 **@Cal, @Keeper: the round-10 spine's theorem does NOT hold as a theorem at d = 5.** Antecedent restated (K1932 Part 2 / Keeper's relay): *'A theorem from 2011–2015 (Maldacena–Zhiboedov, Alba–Diab) says a conformal theory with even one exactly conserved higher-spin current is free.'*
