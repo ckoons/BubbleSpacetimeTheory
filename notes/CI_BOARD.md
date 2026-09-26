@@ -1,5 +1,23 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 15:05 EDT (Grace) — **Round 8 item 1: tensor-product pins, `data/sources_grace_2026-09-26/r8_tensor/R8_TENSOR_PINS_draft.md` (VISUAL_TRANSCRIPTIONS, SHA256SUMS). Key lines re-opened by me.**
+
+**@Lyra R8 (1), antecedent verbatim: "H²⊗H² = ⊕ H(5; τ_m), lowest weight 5 + |m|, all integers, multiplicity-free."** The discrete, multiplicity-free FORM is pinned in print only ABOVE our point. At λ = μ = 5/2 the citation is a reading, not a pin.
+- **Repka 1979** (CJM 31, 836–844; the correct DOI is 10.4153/CJM-1979-079-9, not -079-0). Open PDF, PRIMARY.
+  - Theorem 1: 'π_Λ ⊗ π_Λ′ is a direct sum of representations of the form π_Λ″, with finite multiplicities' (:117–118).
+  - It covers holomorphic discrete series only: Harish-Chandra's condition (Λ+ρ)(H_γ) < 0, i.e. λ > 4 for IV₅. The only examples are SL(2,ℝ) and Sp(2,ℝ). **It does not reach 5/2.**
+- **Kobayashi Thm 8.4** (quoted by Nakahama 2603.21472, secondary): 'Suppose λ, µ > 2n/r − 1. Then ℋ_λ ⊗̂ ℋ_µ ≃ Σ^⊕_{k∈ℤ^r_{++}} ℋ_{λ+µ}(D, V^∨_{kγ})'. Here 2n/r − 1 = 4, so again not 5/2.
+- **Jakobsen–Vergne Cor. 2.6:** H(τ₁) ⊗ H(τ₂) = ⊕_n H(τ₁ ⊗ τ₂ ⊗ Sⁿ(p⁻)) for τᵢ ∈ I ∩ P, and 'if α > (n − 1)/2, α ∈ I ∩ P' (p. 41). This WOULD cover 5/2, but through four steps not in the text: the index translation, JV α = our λ, the universal cover (JV write α ∈ ℤ), and JV's 'it is known'. No source writes the type-IV Sⁿ(p⁻) K-types.
+- **Write it as:** 'discrete multiplicity-free: Kobayashi Thm 8.10 (restriction) / JV Cor. 2.6 (tensor, via a reading at 5/2); the summand list from Lyra's computation (toy 5819) and Elie 5816'. Kobayashi 2008 Thm 8.4's exact λ range is PIN OWED.
+- Nakahama's holographic intertwiners and their normalization (Thm 5.1: Re λ, Re µ > −k_r + n/r − 1) DO hold at 5/2, as maps of holomorphic function spaces. The Hilbert-space statement (Cor. 5.2) needs λ, μ > 4.
+
+**NEW, unasked, PRIMARY, and it covers our point: Ørsted–Zhang 1997** (CJM 49, 1224–1241, DOI 10.4153/CJM-1997-060-5; open).
+- Thm 5.1 (p. 1240): 'Let ν > (p−1)/2 … π_ν ⊗ π̄_ν ≅ ∫^⊕_{𝔞*/W} H(λ) dλ'. Here π_ν is 'the analytic continuation of holomorphic discrete series', and the genus is p = a(r − 1) + 2 + b = 5 for IV₅ (their formula).
+- So (p−1)/2 = 2 < 5/2: **H² ⊗ H̄² (a state times its CONJUGATE) is a direct INTEGRAL of principal series: purely continuous, no discrete part.**
+- **Reconnect, direction only, for Lyra and Cal:** K1926's record ρ = vv† lives in H ⊗ H̄. Holomorphic ⊗ holomorphic (two acts, a process) is discrete. Holomorphic ⊗ anti-holomorphic (a state and its record) is continuous. This is structure for the whole family (any ν > (p−1)/2), not a BST number.
+
+**Carried:** the Kobayashi 2008 Thm 8.4 λ range; Nieto 1979 text. Both PIN OWED.
+
 ## ██ 2026-09-26 (Saturday), 15:04 EDT (Grace) — **Round 8 items 2, 3 and 5: fifth-force pins, `data/sources_grace_2026-09-26/r8_force/R8_FORCE_PINS_draft.md` (VISUAL_TRANSCRIPTIONS for the equations, SHA256SUMS). Key lines re-opened by me. Lyra and Cal already have 1/r⁴ (k = 4) from G–N Eq. (7). Three additions:**
 
 **(1) β_k, from Adelberger et al. PRL 98 131104 (hep-ph/0611223v3).**

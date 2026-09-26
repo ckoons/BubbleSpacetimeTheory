@@ -1,0 +1,1113 @@
+                     Can. J. Math. Vol. 49 (6), 1997 pp. 1224–1241
+
+
+
+                               TENSOR PRODUCTS OF ANALYTIC CONTINUATIONS
+                                    OF HOLOMORPHIC DISCRETE SERIES
+
+                                                    BENT ØRSTED AND GENKAI ZHANG
+
+
+                                     ABSTRACT. We give the irreducible decomposition of the tensor product of an an-
+                                  alytic continuation of the holomorphic discrete series of SU(2, 2) with its conjugate.
+
+
+                         0. Introduction. The work of Segal [IES] and Mautner [M] established the abstract
+                     Plancherel theorem for type I groups. This meant that for an arbitrary unitary represen-
+                     tation, one could find its spectral decomposition into irreducibles and a corresponding
+                     spectral measure. To make this program explicit on L2 -spaces on homogeneous spaces is
+                     one of the main subjects of harmonic analysis. Another interesting case is that of decom-
+                     posing a tensor product of irreducible representations; our aim in this paper is to consider
+                     this for certain holomorphic representations.
+                         The problem of finding the irreducible decomposition of tensor products of holomor-
+                     phic discrete series of the group SL(2, R) has been studied by Repka [Re1]. The results
+                     there were used by Howe [How] to give the decomposition of the metaplectic represen-
+                     tation for certain dual pairs. See also [OZ]. For a general semisimple Lie group G of
+                     Hermitian type a similar problem is studied in [Re2]. It is shown that the tensor prod-
+                     uct ôó ôó of a scalar holomorphic discrete series ôó with its conjugate ôó is unitarily
+                     equivalent to the L2 -space on the corresponding Hermitian symmetric space, L2 (GÛK).
+                     Therefore we know its decomposition from the known theory of Harish-Chandra; namely
+                                                                   Zý
+                                                ôó ôó ¾≥ L2(GÛK) ¾≥ µŁ ÛW H (ï)jC(ï)j 2 dï
+                     for ó Ù p 1 where p is an integer, also called genus of GÛK. Here H (ï) is the induced
+                     representation IndP (1 iï 1) from the minimal parabolic P. In the above formula the
+                     isomorphisms are realized by explicit intertwining operators (the second from Harish-
+                     Chandra’s and Helgason’s theory of spherical functions), and our aim in this paper is to
+                     study variants of these isomorphisms and explicit Plancherel measures for a larger range
+                     of the parameter ó.
+                        In this paper we take G ≥ SU(2, 2) with genus p ≥ 4. The scalar discrete series
+                     ôó has an analytic continuation, namely for ó 2 f0, 1g [ (1, 1) we still get a unitary
+                     representation of SU(2, 2); this set of ó is called the Wallach set. See for example the
+
+                        Received by the editors April 20, 1995.
+                        AMS subject classification: 22E45, 43A85, 32M15, 33A65.
+                        Key words and phrases: Holomorphic discrete series, tensor product, spherical function, Clebsch-Gordan
+                     coefficient, Plancherel theorem.
+                         c Canadian Mathematical Society 1997.
+                                                                             1224
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                   ANALYTIC CONTINUATIONS OF HOLOMORPHIC DISCRETE SERIES                                               1225
+
+                     references [EHW] and [Wa]. Our problem in this paper is to study the irreducible de-
+                     composition of ôó ôó for all ó in the Wallach set. For ó ≥ 0, this is a trivial problem
+                     since ô0 is the trivial representation.
+                        In [OZ] we proved the somewhat surprising fact, that the tensor product ôó ôó of
+                     the analytic continuation ôó of the holomorphic discrete series of SU(1, 1) (or rather its
+                     universal covering group) with it conjugate ôó has a complementary series as a discrete
+                     part when ó Ú 12 . (The parameter ó is normalized there so that ôó is the Hardy space
+                     when ó ≥ 1.) The idea there was to study the action of the Casimir operator on the
+                     orthogonal basis of K-invariant subspace and to use certain orthogonality relation of a
+                     class of hypergeometric orthogonal polynomials, also called the continuous dual Hahn
+                     polynomials.
+                        It was observed in [PZ] that the Plancherel measure of the decomposition is the sym-
+                     bol of the Berezin transform viewed as function of the invariant differential operators.
+                     Recently Unterberger and Upmeier [UU] have found the symbol function of the Berezin
+                     transform on any Hermitian symmetric space. This gives us an interesting new aspect of
+                     the tensor product problem.
+                        In this paper we will use similar techniques to study the tensor products ôó ôó
+                     of analytic continuations of (scalar) holomorphic discrete series ôó of SU(2, 2) with its
+                     conjugate ôó . We give a complete answer to the question of finding the explicit Plancherel
+                     decomposition of this tensor product. Let µ be a maximal non-compact abelian subspace
+                     of ª, the Lie algebra of SU(2, 2), and let f1 and f2 be some basis of µŁ . We prove, with
+                     explicit decomposition of the invariant differential operators and measures on the right-
+                     hand side, see Theorem 2.13 and Theorem 3.1, that
+                                                                      Zý
+                     (0. 1)                              ôó ôó ¾≥ ï Ùï Ù0 H (ï1 f1 + ï2f2 ) dï,
+                                                                           1           2
+
+
+                     if ó ½    3
+                               2 ; and
+
+                                                                  Zý
+                                                     ôó ôó ¾≥ ï Ùï Ù0 H (ï1 f1 + ï2 f2) dï
+                                                                      Zý                                     
+                                                                      1        2
+                     (0. 2)
+                                                                  +            H i(2ó               3)f1 + ï2 f2 dï2
+                                                                          R+
+                                                                                          
+                     if 1 Ú ó Ú 32 ; here H i(2ó               3)f1 + ï2 f2 is a subrepresentation of the induced repre-
+                                                                                             
+                     sentation IndP 1           i i(2ó       3)f1 + ï2 f2                      1 with ï ≥ i(2ó    3)f1 + ï2 f2 ; and
+
+                                                                           Zý
+                     (0. 3)                    ôó ôó ¾≥ R H ( if1 + ï2 f2) dï2     +
+
+
+                     if ó ≥ 1. This distinction between the cases of ó intervals comes about using explicit
+                     densities on the real line, see Lemma 1.1 and Lemma 2.10. One can furthermore identify
+                     our representations appearing above with those in the Knapp-Speh classification [KS].
+                        The discrete series here are realized as Hilbert spaces of holomorphic functions over
+                     the corresponding bounded symmetric domain D. The diagonal operator from the tensor
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                     1226                                             ØRSTED AND ZHANG
+
+                     product ôó ôó , realized as the space of functions f (z, w) that are analytic in z and anti-
+                     analytic in w, to C1 (D) is a formal intertwining operator ([Re2] and [PZ]). When ôó is a
+                     discrete series (i.e., ó Ù 3) this operator is bounded from ôó ôó to L2 (D) and has dense
+                     image; thus by polar decomposition we get a unitary intertwining operator onto L2 (D).
+                     However for non-discrete ôó the diagonal operator is no longer a bounded operator. Our
+                     idea is, roughly speaking, to use the diagonal operator to study the action of the invariant
+                     differential operator on the representation space ôó ôó . We proceed to explain our
+                     method.
+                        The ring of invariant differential operators on C1 (D) has two generators. By conju-
+                     gating by the diagonal operator we find a pair of invariant differential operators (t    u1 , tu2)
+                     on the tensor space ôó ôó . Now the K-invariant eigenfunctions have an expansion in
+                     terms of the K-invariant polynomials em with coefficients efm, and em form an orthogonal
+                     basis of (ôó ôó )0 , the space of K-invariant functions in ôó ôó . See         (2.7) below.We
+                     prove that (t
+                                 u1, tu2) acts on em by the same formula as their “symbols” tu1(ï), tu2(ï) on
+                     the polynomials efm(ï). We prove further that efm (ï) are orthonormal basis in a L2 -space
+                     of a suitable measure on µŁC . Thus the spectrum of (t    u1, tu2) is given by the support of the
+                     measure!
+                        An interesting phenomenon occurs when ó ≥ 1. The representation ô1 has one-dimen-
+                     sional K-types and the operator t      u2 acting on ô1 ô1 as a scalar 0. Thus the spectral
+                     decomposition of (t  u1 , tu2) is the same as that of tu1, which is of course one-dimensional.
+                     This gives us (0.3) above.
+                        The paper is organized as follows. In Section 1 we recall some results about spectral
+                     decomposition of some second order differential operators, which appear in the study
+                     of tensor products of analytic continuations of holomorphic discrete series of SU(1, 1),
+                     and we recall some facts about SU(2, 2). Section 2 is devoted to the study of irreducible
+                     decomposition of the tensor product ôó ôó for good values of the parameter ó, ó ½ 32 .
+                     Lemma 2.7 and Corollary 2.8, which gives an expansion of the spherical functions in
+                     terms of the K-invariant polynomials, may be of independent interests. Sections 3 and 4
+                     are devoted to the cases 1 Ú ó  32 and ó ≥ 1 respectively. In Section 5 we give a
+                     generalization of our results to general holomorphic discrete series of a semisimple Lie
+                     group, though the result is less complete.
+                        There remains an open question relating to our work, that is to prove directly (without
+                     using the decomposition of invariant differential operators on K-invariant vectors) the
+                     intertwining property from the tensor product to the spherical principal series or their
+                     submodule. When ó Ù 3, namely when ôó is holomorphic discrete, then this can be
+                     done via the polar decomposition of diagonal map and the spherical transform, see [PZ].
+                     However for ó  3 the diagonal map does not map into L2 (D) and we can not directly use
+                     the spherical transform defined on L2 (D) ([He], Chapter IV, Section 5) as intertwining
+                     operator; see also the remark after Lemma 2.3.
+                        ACKNOWLEDGEMENTS. It is a pleasure to thank the referee for a number of clarifying
+                     comments and useful suggestions, in particular for pointing out that some of our results
+                     are valid in the general setting of Hermitian symmetric spaces. This we have added as
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                   ANALYTIC CONTINUATIONS OF HOLOMORPHIC DISCRETE SERIES                                                 1227
+
+                     the last section 5, where we also point out that if we had Lemma 2.7 in the general
+                     case, then that could be used to give the required generalization of Proposition 2.9. As it
+                     stands, Lemma 2.7 is somewhat of an aside (perhaps of independent interest). We also
+                     would like to thank Jaak Peetre for some helpful discussions. The second author thanks
+                     the Magnuson fund, Royal Swedish Academy of Sciences for supporting his research
+                     during April, 1992 at Department of Mathematics, Stockholm University where part of
+                     this work was done.
+
+                        1. Preliminaries: SU(1, 1) and SU(2, 2).
+                     1.1 Analysis on SU(1, 1) and related orthogonal polynomials. To begin with we recall
+                     some results obtained in [Z], [PZ] and [OZ].
+                        The spherical functions on the unit disk fz 2 C ; jzj Ú 1g are given by
+                                                                                                                     !
+                                                                                                iï 1        iï
+                                                 ûï (z) ≥ (1         t)
+                                                                          1 iï
+                                                                           2
+                                                                                 2 F1
+                                                                                        1
+                                                                                            2
+                                                                                                  ,
+                                                                                                        2
+                                                                                                                 ; 1; t ,
+
+                     where t ≥ jzj2 . See [He].
+                       In [Z] we introduced the function (1                          jzj2 ) î ûï(z), with an extra parameter î. Then
+                     we have the following expansion
+
+                                                                 jzj2) î ûï(z) ≥ X pn,î(Λ)tn ,
+                                                                                            1
+                                                          (1
+                                                                                            n≥0
+
+                                                                                 0                                   1
+                                                                                        ï !2 ; 1 , 1 , 2 î
+                     where
+                                                 pn,î (Λ) ≥
+                                                                                                                    1A
+                                                                  Sn @
+                                                              1
+                                                                                                                         ,
+                                                            (n!)2                       2         2 2        2
+                     and
+
+                                                               Λ ≥ Λ(ï) ≥ î                   (1 + ï2 ).
+                                                                                            1
+                     (1. 0)
+                                                                                            4
+                     It follows from the proof in [Z] that the series converges uniformly on compact sets in D.
+                     Here Sn are the continuous dual Hahn polynomials,
+
+                                 Sn(x2 ; a, b, c) ≥ (a + b)n (a + c)n 3 F2( n, a + ix, a                         ix; a + b, a + c; 1).
+
+                     For further details see the above references.
+                       Consider the following operator,
+                                                                 d2
+                                             Cî ≥ (1                  + ) 2ît(1 t) + î2 t
+                                                                       d            d
+                                                            t)2 (t
+                                                                 0 dt 0 2         1 dt 1
+                                                                 dt 2
+
+
+                                                 ≥ (1       t) î @(1 t)2 @t 2 + A + îA (1
+                                                                           d
+                                                                           dt
+                                                                               d
+                                                                               dt
+                                                                                                                             t)î ,
+
+                     and the functions
+                                                                                   Γ(n + î) n
+                                                                en(t) ≥
+                                                                                 Γ(n + 1) Γ(î)
+                     (1. 1)                                                                    t .
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                     1228                                             ØRSTED AND ZHANG
+
+                     It is proved in [Z] and [PZ] that Cî has the following matrix form on the basis vectors en
+
+                     (1. 2)                                 Cî en ≥ an en+1 + bn en + cn en 1
+                     where
+                                              an ≥ (n + 1)(n + î), bn ≥              n(2n + 2î), cn ≥ an 1 ;
+                     and that the multiplication operator by Λ has the same matrix form on the functions efn
+
+                     (1. 3)                         Λefn(ï) ≥ an eg
+                                                                  n+1 (ï) + bn e
+                                                                               fn (ï) + cneng1 (ï),
+                     where
+                                                                                            0                                 1
+                                 efn (ï) ≥
+                                              n!
+                                                    pn,î (Λ) ≥
+                                                                    1
+                                                                           Sn @
+                                                                                                     ï !2 ; 1 , 1 , 2 î       1A
+                                           Γ(î + n)            n! Γ(î + n)
+                                                                                                                                   .
+                                                                                                         2   2 2          2
+
+                     The above expansion of (1               jzj2) î ûï(z) now reads as follows
+                                                              jzj2 ) îûï (z) ≥ X en(jzj2 )efn(ï).
+                                                                                     1
+                     (1. 4)                            (1
+                                                                                    n≥0
+
+                         We let
+                                                                                2iï Γ(iï)
+                                                                 c(ï) ≥
+                                                                            Γ( 1+i2 ï )Γ( 1+i2 ï )
+                     be the Harish-Chandra c-function of the group SU(1, 1) and let
+                                                                      þþ                        !þþ2
+                                                                            2î      1 + iï
+                                                               bî ≥ þþþΓ                          þþ .
+                                                                                                   þ
+                                                                                    2
+                     (bî is the symbol of Berezin transform, see [PZ].)
+                        By using the Askey-Wilson orthogonality relation [AW] we have the following
+                        LEMMA 1.1. Let H be the Hilbert space of functions on [0, 1] with fen g1
+                                                                                               n≥0 as an
+                     orthonormal basis. Let d ñî be the measure on R defined by
+
+                                                      dñî (ï) ≥ bî (ï)jc(ï)j 2 dï,                   ï 2 R,
+                                                               1
+                                                               2
+                     if î ½ 12 , and let dñî be the measure on R [ fi(1 2î)g with dñî (ï) given as above on
+                     R and                                          Γ(1 î) Γ2 (î)
+                                               dñî ši(1 2î) ≥ 2ô
+                                                                        Γ(1 2î)
+                                                                                    ,
+
+                     if 0 Ú î  12 . Then efn form an orthonormal basis in the subspace L2 (R, ñî )0 of even
+                     functions in L2 (R, ñî ) if î ½ 12 , and in the subspace L2 R [ fši(1 2î)g, ñî 0 of even
+                                                               
+                     functions in L2 R [ fši(1 2î)g, ñî if 0 Ú î Ú 12 . Moreover the map en 7 ! efn gives
+                     a unitary equivalence between the operator     Cî on H and the multiplication
+                                                                                                   operator by
+                     the function Λ(ï) ≥ î 14 (ï2 + 1) on L2 R [ fi(1 2î)g, ñî 0 .
+                        PROOF. The orthogonality relation of Wilson (see [W] p. 697 and [OZ]) shows that
+                     indeed efn are orthogonal and have norm 1 in the space L2 (R, ñî )0 if î ½ 12 , and in
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                   ANALYTIC CONTINUATIONS OF HOLOMORPHIC DISCRETE SERIES                                 1229
+                                                       
+                     L2 R [ fši(1 2î)g, ñî 0 if 0 Ú î Ú 12 . We need to prove that they are dense in the
+                     Hilbert spaces. This will follow from some elementary argument which we sketch below.
+                        Suppose î ½ 12 and suppose f in L2 (R, ñî )0 is perpendicular to all een. Then it is
+                     perpendicular to all ï2n since they are linear combinations of een , that is,
+                                                                    Z
+                                                                            f (ï)ïm dñî (ï) ≥ 0,
+                                                                        R
+                     if m is an nonnegative even integer. However since f (ï) is an even function and the
+                     measure dñî is symmetric under ï ! ï we see that the above is true for all nonnegative
+                     integers m. We define
+                                                                               Z
+                     (1. 5)                                      F(z) ≥                eiïzf (ï) dñî (ï).
+                                                                                   R
+                     We claim that F(z) is a holomorphic function on the strip ô Ú =(z) Ú ô. In fact, using
+                     simple formulas for the Gamma function (see [He., p. 42]), we have
+
+                                               dñî (ï) ≥ Cï tanh
+                                                                                   ôï ! þþþþΓ 2î      1 + iï
+                                                                                                               !þ2
+                                                                                                                þþ dï,
+                                                                                       2       þ      2          þ
+                     and (see [Ma], Chapter I)
+                                                       þþ                              !þþ2
+                                                        þþΓ 2î          1 + iï           þþ ≥ O(jïjî 2 e ôjïj)
+                                                         þ              2                 þ
+                     if jïj ! 1. By using Hölder’s inequality we see that (1.5) is absolute convergent if
+                        ô Ú =(ï) Ú ô and thus that F(z) is analytic in this strip.
+                         Now differentiating F(z) we see that all its derivatives are zero at z ≥ 0, thus F(z) ≥ 0.
+                     In particular taking z 2 R we see that the Fourier transform of
+                                                                      ! þþ                                   !þþ2
+                                                       f (ï)ï tanh
+                                                                   ôï    þþΓ 2î                     1 + iï     þþ
+                     (1. 6)
+                                                                               2           þ        2           þ
+                     is zero; this function is easily seen in L2 (R, dï). Thus it is zero and consequently f (ï) ≥ 0.
+                     That is the map en 7 ! efn is onto.
+                         For the case 0 Ú î Ú 12 we proceed similarly and define the function F(z). F(z) ≥ 0
+                     implies that (1.6) has, up to a nonzero constant, Fourier transform
+                                                                              
+                                                            f i(1           2î) (ez(1 2î) + e z(1 2î) )
+                                                                                          
+                     which is in L2 (R) if and only if f i(1 2î) ≥ 0 and consequently f (ï) ≥ 0.
+                        The remaining claim of our lemma follows from (1.2) and (1.3) and the unitarity of
+                     the map en 7 ! efn .
+                         REMARK. When î ½ 12 the above claim is also equivalent to that the map en ! efn
+                     establishes a unitary equivalence between the operator Cî on H and the multiplication
+                     operator by the function Λ(ï) ≥ î 14 (1 + ï2 ) on the space L2 (R+ , ñî ). When 0 Ú î Ú 12
+                     it is equivalent to that the map en ! efn establishes a unitary equivalence between the
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                     1230                                             ØRSTED AND ZHANG
+
+
+                                                            operator by the function Λ(ï) ≥ î
+                     operator Cî on H and the multiplication                                                                          ï2 )
+                                                                                                                              1
+                                                                                                                              4 (1 +
+                     on the space L2 R+ [ fi(1 2ó)g, ñî .
+                     1.2 Representations of SU(2, 2). We proceed to recall some known facts about irre-
+                     ducible representations of SU(2, 2).
+                        Let G ≥ SU(2, 2) be the group of linear matrices on C4 of determinant one and keeping
+                                 metric jz1 j + jz2 j jz3 j jz4 j invariant. Let ª be the Lie algebra of G.
+                                               2       2     2      2
+                     the indefinite
+                     Let K ≥ S U(2), U(2) , a maximal compact subgroup and ø its Lie algebra and ª ≥ ø + ƒ
+                     the corresponding Cartan decomposition. We take a maximal abelian subspace µ of ƒ as
+                     follows                 (                              !              )
+                                       µ ≥ a ≥ diag(s,   0
+                                                              t)
+                                                                 diag(s, t)
+                                                                      0
+                                                                              , (s, t) 2 R2 ,
+
+                     and define linear functionals on µ by
+
+                                                                   f1 (a) ≥ s, f2 (a) ≥ t.
+
+                        The root system of (ª, µ) consists of š(f1 š f2 ), š2f1 and š2f2 with multiplicities 2,
+                     1 and 1 respectively. Let µŁ be the dual space of µ and let µŁC be its complexification. An
+                     element of µŁC , the complexification of the dual of µ, will be written as ï ≥ ï1 f1 + ï2 f2 .
+                     We choose the ordering on µŁ defined by f1 Ù f2 Ù 0 and let µŁ+ be the set of positive
+                     elements. For ï 2 µŁC we let ûï be the corresponding spherical function. The space of G-
+                     translates of ûï can be completed to a Hilbert space H (ï) and in such a way that H (ï)
+                     forms a unitary representation of G, which is equivalent to the induced representation
+                     IndGP (1  iï 1), where P is the minimal parabolic corresponding to µ. See [Kn, p. 168]
+                     and [He, Chapter IV, Theorem 3.7].
+
+                       2. The tensor products ôó ôó for ó ½ 32 for SU(2, 2).                                 Let D be the bounded
+                     symmetric domain of 2 ð 2 of contractive matrices, that is
+                                                                  n                                   o
+                                                              D ≥ Z 2 M2ð2 (C) , ZŁ Z Ú I2 .
+
+                         We consider the Hilbert space Hó of holomorphic functions on D with the norm
+                                                          Z
+                                                     có
+                                                          D
+                                                              jf (Z)j2 det(1    ZŁ Z)ó 4 dm(Z) Ú 1
+
+                     where ó Ù 3, dm is the Lebesgue measure and có is a constant so that the function 1
+                     is a unit vector. The group G ≥ SU(2, 2) (or rather, its universal covering group) acts
+                     unitarily on the Hilbert space Hó via
+
+                                                                          ó                                      !
+                     (2. 1)         ôó (g): f (Z) 7 ! det(CZ + D)                    1
+                                                                                f (g Z),      g   1
+                                                                                                      ≥   A B
+                                                                                                          C D
+                                                                                                                       2 G,
+                         The reproducing kernel of this space is
+
+                                                               Kó (Z, W) ≥ det(1         WŁ Z) ó .
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                   ANALYTIC CONTINUATIONS OF HOLOMORPHIC DISCRETE SERIES                               1231
+
+                         Furthermore, (Hó , ôó ) has an analytic continuation in ó and for ó ½ 1 we still get a
+                     unitary representation. See [FK]. Moreover (Hó , ôó ) is a highest weight representation
+                     of ªC with highest weight vector the function 1.
+                         The objective of this paper is to give the explicit irreducible decomposition of the
+                     tensor product Hó Hó . (It follows from the general theory that such an irreducible
+                     decomposition exists as a direct integral, see [Pu] and [M].) Here Hó is the complex
+                     conjugate of Hó and the group G acts on it by taking the formal complex conjugate
+                     of (2.1).
+                         Denote (Hó Hó )0 the space of K-fixed vectors. We will study the spectral decompo-
+                     sition of a pair of generators of invariant differential operators on (Hó Hó )0 . We will
+                     prove below that this is indeed sufficient to obtain the decomposition for Hó Hó .
+                         So let temporarily ª be a semisimple Lie algebra of Hermitian type and let ª ≥ ƒ + ø
+                     be the Cartan decomposition. Let º be a Cartan algebra of ø. Let ∆(ªC , ºC ) be the set
+                     of positive roots with respect to an ordering on (iº)Ł , …+ and … be the sum of positive
+                     and negative root spaces, respectively. Let M be a (ªC , øC ) module. M is called a highest
+                     weight module if there exists a weight vector v 2 M of øC so that …+ v ≥ 0. Thus,
+                     assuming this is a cyclic vector, M ≥ U (… )v, by the Birkhoff-Witt theorem, where
+                     U (… ) stands for the universal enveloping algebra of … . Similarly one can define lowest
+                     weight modules.
+                        LEMMA 2.1. Let M1 and M2 be a highest and a lowest weight modules of ªC with the
+                     highest weight and lowest weight vectors v1, v2 , respectively. Then M1 M2 is a cyclic
+                     module with v1 v2 as a cyclic vector. That is U (ªC )(v1 v2 ) ≥ M1 M2 .
+                       PROOF. For any a 2 M1 there exists an element X 2 U (… ), such that Xv1 ≥ a.
+                     Therefore, notice that Yv2 ≥ 0 for any Y 2 U (… ),
+
+                                                          X(v1      v2) ≥ Xv1         v2 ≥ a       v2.
+
+                     That is a v2 2 U (ªC )(v1 v2 ). Similarly using the elements from U (…+ ) we see that
+                     v1 b 2 U (ªC )(v1 v2) for any b 2 M2 .
+                       Now we fix b 2 M2 . If X 2 … then
+
+                                                           X(v1      b) ≥ Xv1        b + v1      Xb.
+
+                     Since v1        Xb 2 U (ªC )(v1         v2 ) we have that
+
+                                              Xv1      b ≥ X(v1         b)     v1    Xb 2 U (ªC )(v1          v2 )
+
+                     Thus … v1 b ² U (ªC )(v1 v2 ). Continuing we get (… )n v1 b ² U (ªC )(v1 v2) for
+                                                               P (… )n v we see that for any a 2 M we
+                     all n ≥ 1, 2, . . .. Since M1 ≥ U (… )v1 ≥ 1
+                                                                n≥0      1                        1
+                     get a b 2 U (ªC )(v1 v2 ). This finishes the proof.
+                         LEMMA 2.2. Suppose
+                                                                               Zý
+                                                               ôó ôó ≥ S ô(s) dõ(s)
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                     1232                                             ØRSTED AND ZHANG
+
+                     is the irreducible decomposition of ôó                    ôó . Then each ô(s) a.e. in S has an one-dimen-
+                     sional subspace of K-fixed vectors.
+                        PROOF. Suppose there exists a set S0 ² S such that õ(S0 ) Â≥ 0 and that for all s 2 S0
+                     the space ô(s) has no nonzero K-fixed vectors. The function 1 1 in ôó ôó is K-invariant
+                     and thus                               Zý g
+                                                   1 1≥          1 1(s) dõ(s).
+                                                                              SnS0
+
+                     Let U (ªC ) act on the equality. It follows from Lemma 2.1 that
+                                                                                Zý
+                                                              ôó ôó ≥ SnS ô(s) dõ(s),0
+
+
+                     which is a contradiction. That is each s 2 S a.e has K-fixed vectors. Now each ô(s)
+                     is irreducible, thus the K-fixed vectors form an one-dimensional subspace ([He, Theo-
+                     rem 3.4]).
+                         Now we briefly recall some results obtained in [PZ]. Define an operator R
+
+                                                                 R: Hó          Hó ! C1 (D)
+                                          R: f (Z, W) 7 ! f (Z, Z)Kó (Z, Z) 1 ≥ f (Z, Z) det(1                       ZŁ Z)ó .
+
+                       Let U0 be the regular action of G on C1 (D). We have as in [PZ] by direct calculation
+                         LEMMA 2.3. R intertwines the action of ôó                             ôó with U0.
+                        It is shown in [PZ] that if ó Ù 3 then R is a bounded operator from Hó Hó to L2 (D)
+                     with respect to the invariant measure. The decomposition of L2 (D) under G is done by
+                     the well-known theory of Harish-Chandra of spherical functions. However for ó  3 the
+                     image of R is not all in L2 (D).
+                        We will however, as mentioned in the introduction, calculate the actions of invariant
+                     differential operators on (Hó Hó )0 .
+                        The algebra of invariant differential operators on C1 (D) is generated by two oper-
+                     ators. We recall these formulas here. See [Hoo]. Here we are using slightly different
+                     coordinates.
+                        The polar coordinates of D are given by KA+ Ð 0, and A+ Ð 0 ≥ f(s1 , s2 ) ; 1 ½ s1 ½
+                     s2 ½ 0g. We perform change of variables t1 ≥ s21 , t2 ≥ s22 . Denote
+
+                                                    Ω(t) ≥ (t1        t2 ),      h(t) ≥ (1        t1 )(1     t2 ).
+
+                     Let                                                          0 2       1
+                                                                                     ∂    ∂ A
+                                                             Li ≥ (1             2@
+                                                                              ti ) ti 2 +     ,
+                                                                                         ∂ti     ∂ti
+                     and
+                                             ∆1 ≥ Ω 1 h(L1 + L2 )Ωh 1 , ∆2 ≥ Ω 1 h(L1 L2 )Ωh 1 .
+                     Then ∆1 and ∆2 generate the algebra of radial parts of invariant differential operators on
+                     C1 (D).
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                   ANALYTIC CONTINUATIONS OF HOLOMORPHIC DISCRETE SERIES                               1233
+
+                         We define
+
+                                   tu1 ≥ 14 R 1∆1R + 2(ó 1), tu2 ≥ 14 R 1∆2R + (ó 1)tu1.
+                     From Lemma 2.3 we see that (t u1, tu2) generates the algebra of invariant differential op-
+                     erators on (Hó Hó )0 . Our objective is to give the spectral decomposition of (t
+                                                                                                    u1, tu2) on
+                     (Hó Hó )0 .
+                       A direct calculation shows that
+
+                     (2. 1)                                 tu1 ≥ Ω 1(C1,ó 1 + C2,ó 1 )Ω,
+                     and
+
+                     (2. 2)                                   tu2 ≥ Ω 1(C1,ó 1 C2,ó 1 )Ω,
+                     where C1,ó 1 and C2,ó 1 are the operator Có 1 in Section 1 with dtd replaced by ddt1 and
+                      d
+                     d t2 respectively.
+                         The following fact is now standard.
+                         LEMMA 2.4. Suppose
+                                                                                 Z
+                                                     ôó ôó ≥ S ô(s) dõ(s)
+                                     decomposition of ôó ôó . Then (t
+                      the irreducible
+                     is                                              u1, tu2) acts on ô(s) by a pair of scalars
+                      tu1(s), tu2(s) and we have the corresponding spectral decomposition of (tu1, tu2),
+                                                                         Z                   
+                                                          (t
+                                                           u1, tu2 ) ≥        tu1 (s), tu2(s) dõ(s)
+                                                                            S
+
+                     counting the multiplicities.
+
+                        For a pair
+                                  of commuting selfadjoint operators (A, B) of a Hilbert space H we denote
+                     õ (A, B), H its spectrum (counting the multiplicities). Clearly (Hó Hó )0 is an invariant
+                     subspace for (t
+                                   u1 , tu2 ).
+                         From Lemma 2.2 we can easily derive
+                         LEMMA 2.5. We have the following formula
+                                                                                                              
+                                               õ (tu1, tu2), Hó        Hó       ≥ õ (tu1, tu2), (Hó      Hó )0
+
+                     That is, restriction to the subspace of K-invariant functions does not change the spectrum
+                     of (t
+                         u1, tu2 ).
+                        We therefore proceed to study the spectrum of (t
+                                                                       u1 , tu2) on (Hó Hó )0 .
+                                                                         the Hilbert structure of Hó . Let P
+                        For this purpose we recall some known facts about
+                     be the space of polynomials on D. The group K ≥ S U(2), U(2) acts on it by changing
+                     of variables. The space P is decomposed as
+                                                                                 X
+                     (2. 3)                                            P≥              Pm ,
+                                                                                 m½0
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                     1234                                             ØRSTED AND ZHANG
+
+                     where Pm has highest weight m mŁ . Here m ≥ (m1 , m2 ), m1 ½ m2 ½ 0 and mŁ is the
+                     contragredient of m. See [FK] and [Or]. We denote dm ≥ (m1 m2 + 1)2 the dimension
+                     of the representation space of Pm . Let üm on U(2) be the character of this representation
+                     m. It extends to a polynomial on the space of 2 ð 2 matrices. On the diagonal matrices
+                     t ≥ diag(t1 , t2 ) it is given by
+                                                         m1 m2 +1
+                                                    m2
+                                                                        t2m1 m2 +1 )                  m2       m1 m2 +1
+                                                                                                                            t2m1 m2 +1 )
+                                 üm (t) ≥ (t1 t2) (t1 Ω(t)                             ≥ (t1 t2 ) (t1 t                t2
+                                                                                                                   1
+
+                         Following the notation in [FK], we let
+                                                         Γ(ã + m1 )Γ(ã + m2
+                                             (ã)m ≥                                             ≥ (ã)m (ã
+                                                                                           1)
+                                                              Γ(ã)Γ(ã 1)
+                     (2. 4)                                                                                    1
+                                                                                                                       1)m2
+
+                     be the generalized Pochhammer’s symbol.
+                         LEMMA 2.6. If ó Ù 1 The functions
+                                                                         (ó)m
+                                                         em(W Ł Z) ≥          üm (WŁ Z), m ½ 0
+                                                                         (2)m
+
+                     form an orthonormal basis of (Hó                  Hó )0 ; if ó ≥ 1 the functions
+
+                                             em (Z, W) ≥             üm (WŁ Z), m ≥ (m1, 0), m1 ½ 0
+                                                                1
+                                                              m1 + 1
+
+                     form an orthonormal basis of (Hó                  Hó )0 .
+                         PROOF. Consider the case ó Ù 1 first. In fact, from Theorem 3.4 and Lemma 3.1
+                     in [FK] we know that the Km function there is given by
+                                                                                  1
+
+
+                                                             Km (Z, W) ≥      üm(WŁ Z).
+                                                                          dm2
+                                                                         (2)m
+
+                     The fact that Km (Z, W) span a dense subspace of (Hó Hó )0 follows easily from the
+                     Schur’s Lemma. Moreover they are orthogonal. It follows from Corollary 3.7 in [FK]
+                     that
+                                                     kKm k2Hó Hó ≥ (ód)m2 ,
+                                                                        m
+
+                     substituting the above formula we find that em has norm 1. This proves the case for ó Ù 1.
+                        If ó ≥ 1 the K-types appearing in the space (H1 , ô1 ) are of the type m ≥ (m1 , 0) with
+                     m1 ½ 0. The rest of the proof can be done similarly.
+                        On diagonal matrices the function em is given by
+                                                                                                          
+                     (2. 5)                               em(t) ≥ Ω(t) 1 det emj +2 j (tk ) .
+
+                     Here en is defined in (1.1) in Section 1 with î ≥ ó                         1.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                   ANALYTIC CONTINUATIONS OF HOLOMORPHIC DISCRETE SERIES                                                1235
+
+                         We define                                                                        
+                                                                             det pmj +2 j,ó 1 (ïk )
+                                                            Pm,ó (ï) ≥
+                                                                                             ï22 ï21
+                     and
+                                                                                                      
+                                             m,ó (ï) ≥           Pm,ó (ï) ≥ 2                      ï
+                                                            (2)m              1
+                                            eg                                             g
+                                                            (ó)m           ï2 ï21
+                     (2. 6)                                                       det   e mj +2 j ( k )  .
+
+                     where efm is defined in (1.3) with î ≥ ó 1. This is the analogue of efm in the case of the
+                     unit disk. Note that the above definition makes sense for all ó ½ 1.
+                        We will find a similar expansion as (1.4) in Section 1. For this purpose we recall more
+                     known facts about spherical functions.
+                        The spherical function on type I domains has been obtained explicitly in [Hoo]. From
+                     [Hoo] we have the spherical function on D is given by
+                                                                                     4                        
+                                                     ûï(s1, s2) ≥ (ï2 2ïh(t)
+                                                                        2 )Ω(t)
+                                                                                det ûï (sk ) ,             j
+                                                                             1           2
+
+                     where t1 ≥       s21, t2   ≥   s22 and where the determinant is that of the 2                   ð 2 matrix in j, k. It
+                     satisfies
+                                            ∆1 ûï ≥ (ï21 + ï22 + 2)ûï , ∆2 ûï ≥ (ï21 + 1)(ï22 + 1)ûï
+                        Lemma 2.7 and Corollary 2.8 below can be used to prove Proposition 2.9, though we
+                     give a more direct proof. We present them since they might be of independent interests.
+                     In view of our main results below (Theorem 2.13, Theorem 3.1 and Theorem 4.2) it gives
+                     the Clebsch-Gordan coefficients of the tensor product decompositions.
+                         LEMMA 2.7. The following formula holds
+                                                                                     X
+                                                       Kó (Z, Z)ûï (Z) ≥                       m,ó (ï)em (Z Z),
+                                                                                              eg           Ł
+                                                                                     m½0
+
+                     and the series converges uniformly on compact sets of D.
+                        PROOF. Both sides are K-invariant so it suffices to prove the Lemma for diagonal
+                     matrices Z ≥ f(s1 , s2); 1 Ù s1 ½ s2 ½ 0g. Now the result follows from Theorem 1.2.1
+                     in [Hu] and (1.4) in Section 1. We omit the details.
+                        When ó ≥ 0 the above expansion gives the expansion of the spherical function.
+                         COROLLARY 2.8. The spherical function has the following expansion
+                                                             ûï(Z) ≥ X Pm,0(ï)üm (ZŁ Z)
+                                                                             m½0
+
+                     where
+                                                1 Y   1 + iïj
+                                                                     !                   iïj
+                                                                                               !
+                                 Pm,0 (ï) ≥
+                                                   2                             1
+                                                2 j≥1
+                                                 4       2                           2
+                                                                                                                                  
+                                                                         2                         2
+                                                                
+                                                     det 3 F2       (mj          2       j) + 2, 1+i2ïk + 2, 1 2iïk + 2; 3, 3; 1
+                                                ð                                            ï22 ï21
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                     1236                                                      ØRSTED AND ZHANG
+
+
+
+
+                        We study now the matrix form of the pair (tu1, tu2) on the orthonormal basis em (WŁ Z)
+                     and find similar formulas as (1.2) and (1.3). We thus define the “symbol” of the differ-
+                     ential operators t
+                                      u1, tu2 by
+                                           n1(ï) ≥ Λ1 + Λ2 ≥ 2(ó                                          (1 + ï21 )          (1 + ï2 )2 ,
+                                                                                                        1                   1
+                                                                                                   1)
+                                                                                                        4                   4
+                     and                                                                                        !                                    !
+                                     n2 (ï) ≥ Λ1 Λ2 ≥ (ó                                     (1 + ï21 )             ó                 (1 + ï2 )2 ,
+                                                                                           1                                        1
+                                                                              1)                                        1
+                                                                                           4                                        4
+                     where Λi ≥ (ó           1)ï2i ), i ≥ 1, 2 as in (1.0).
+                                                       1
+                                                       4 (1 +
+
+                         PROPOSITION 2.9. The pair (t u1, tu2) on em and the pair of multiplication operators
+                     (n1 , n2 ) on eg
+                                    m,ó have the same matrix form.
+
+                        PROOF. This is almost trivial from (1.2)–(1.3) in Section 1, (2.1)–(2.2) and (2.5)–
+                     (2.6) in Section 2. We only check that for t
+                                                                u1 and n1. We have
+                               tu1em (t1 , t2)                                                              
+                              ≥ Ω(t) 1(C1,ó 1 + C2,ó 1) em +1,ó 1(t1 )em ,ó 1(t2 ) em ,ó 1(t1 )em +1,ó 1(t2 )
+                                                                              1                         2                   2                    1
+
+                              ≥ am +1em+¢ (t1 , t2 ) + (bm +1 + bm )em (t1 , t2 ) + cm +1em ¢ (t1 , t2)
+                                     1        1                         1              2                            1           1
+
+                                    + am2 em+¢2 (t1 , t2 ) + cm2 em ¢2 (t1 , t2 )
+                     where in the second equality we use (1.2). Here ¢1 ≥ (1, 0) and ¢2 ≥ (0, 1) and an, bn
+                     and cn are given in Section 1. Note that those terms emš¢j have zero coefficients if m š ¢j
+                     violate the condition for the highest weight. Similarly
+
+                                    n1(ï)eg
+                                          m,ó (ï)
+                                                                                                                                                        
+                                      ≥ ï2 ï2 (Λ1 + Λ2) emg+1(ï1 )egm (ï2 ) egm (ï1 )emg+1(ï1 )
+                                                 1
+                                                                                               1                2           2            1
+                                          2     1
+                                      ≥ am +1em+g¢ ,ó (ï) + (bm +1 + bm )eg
+                                                   1            1         m,ó (ï) + cm +1 emg
+                                                                                           1 ¢ ,ó (ï)       2                   1            1
+
+                                                  g¢ ,ñ(ï) + cm emg¢ ,ó (ï),
+                                           + am em+       2             2                          2    2
+
+
+                     where in the second equality we use (1.3). Thus t u1 and n1 have the same matrix form.
+                       Another proof is to use the expansion (2.7), which we omit.
+                       Note that when ó ≥ 1 the operator tu2 acts on em as the zero operator.
+                       We now recall a result from [KM] about determinants of orthogonal polynomials,
+                     which can also be proved directly.
+                         LEMMA 2.10. Let a 2 R and let †(x) be a distribution function on the semi-axis
+                     [a, 1) with infinitely many points of increase, and with finite moment of all orders. Let
+                     Qn (x), n ≥ 0, 1, 2, . . . be the orthogonal polynomials for the distribution † with
+                                                                Z1
+                                                                            Qi (x)Qj (x) d†(x) ≥ ôi éi,j .
+                                                                    a
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                   ANALYTIC CONTINUATIONS OF HOLOMORPHIC DISCRETE SERIES                                               1237
+
+                     Taking integers 0  i1 Ú i2 we form the determinant
+                                                                                                      
+                                                                    Qi1 ,i2 (x1 , x2 ) ≥ det Qij (xk ) .
+
+                     Then
+                                    ZZ
+                                                    Qi1 ,i2 (x1 , x2 )Qj1 ,j2 (x1 , x2 ) d†(x1 ) d†(x2 ) ≥ ôi1 ôi2 éi1 ,j1 éi2 ,j2 .
+                                         aÚx1 Úx2
+
+
+
+                         The Harish-Chandra C-function of SU(2, 2) is
+
+                                            C(ï) ≥ (ï21               ï22) 1               ï
+                                                                                  2iï1 Γ(i 1 )     2iï2 Γ(i 2 )  ï
+                                                                               Γ( 2 ) Γ( 2 ) Γ( 2 ) Γ( iï22+1 )
+                                                                                 iï1 +1    iï1 +1 iï2 +1
+
+
+                     and C0 is a positive constant. We let
+
+                                                                          Y2 þþþ                    ïj   !þþ2
+                                                                 Bó (ï) ≥      þþΓ ó
+                                                                                               3           þþ
+                                                                          j≥1                  2
+                                                                                                 +i
+                                                                                                    2       þ
+                     (Bó is the symbol of the transform on the domain D, see [UU].) Note that
+
+                                          C(ï) ≥ (ï21               ï22 ) 1 c(ï1)c(ï2 ),        Bó ≥ bó 1 (ï1 )bó 1 (ï2 )
+
+                     where bî and c are the corresponding symbol function and Harish-Chandra c-function
+                     for SU(1, 1) in Section 1.
+                        Using Lemma 2.10 (with x1 ≥ ï21 and x2 ≥ ï22 ) we then get
+                         PROPOSITION 2.11.
+                         (1) If ó ½ 32 then we have the following orthogonality relation
+                                                          Z
+                                                                       eg (ï)em
+                                                                              g0 ,ó(ï)Bó (ï)jC(ï)j 2 dï ≥ ém,m0 ,
+                                                              ï1 Ùï2 Ù0 m,ó
+                                                    C0
+
+                              where C0 is a positive constant.
+                          (2) If 1 Ú ó Ú 32 then we have the following orthogonality relation
+                                                     Z
+                                                                     eg (ï)em
+                                                                            g0 ,ó (ï)Bó (ï)jC(ï)j 2 dï
+                                                         ï1 Ùï2 Ù0 m,ó
+                                               C1
+                                                                Z
+                                                                                       eg (ï)eg
+                                                                                              m0 ,ó (ï)có (y) dy ≥ ém,m0 ,
+                                                                 ï≥i(2ó 3)f1 +yf2 ,yÙ0 m,ó
+                                                     + C2
+
+                               where C1 and C2 are positive constants and
+                                                              þþ                                                        þ
+                                                                                                                  iy+1 þ2
+                                                               þ                      Γ( 2î 23+iy )Γ( iy+1   Γ(   2 þþ
+                                                    có (y) ≥ þþ (2ó
+                                                                                                             )        )
+                                                               þ
+                                                                                 2
+                                                                               3) + y  2
+                                                                                                    Γ(iy)
+                                                                                                          2
+                                                                                                                        þþ .
+
+
+                         Propositions 2.9 and 2.11 now give us
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                     1238                                                ØRSTED AND ZHANG
+
+                         PROPOSITION 2.12.
+                         (1) If ó ½ 32 then the operator pair (t  u1, tu2) on (Hó Hó )0 is unitarily equivalent
+                                                                                       by n1(ï) and n2 (ï)on
+                             to the operator pair (n1 ,n2 ) of multiplication operators
+                             L µ+ , Bó (ï)jC(ï)j dï and thus the spectrum of õ(t
+                               2 Ł                 2
+                                                                                          u1, tu2), (Hó Hó )0 is
+                             n                       o                         
+                                n1(ï), n2 (ï) ; ï 2 µŁ+ . Moreover each point n1(ï), n2 (ï) in the spectrum is
+                             of multiplicity one.                                         
+                         (2) If 1 Ú ó Ú 32 then (1) is true with L2 µŁ+ , Bó (ï)jC(ï)j 2 dï replaced by
+                                                                                                                       
+                                             L2 µŁ+ , Bó (ï)jC(ï)j 2 dï ý L2 i(2ó                3)f1 + R+ f2 , có (y) dy ,
+                               where i(2ó           3)f1 + R+ f2 stands for the subset fi(2ó              3)f1 + yf2 ; y 2 R+ g.
+                         PROOF. We need only to prove that the map em 7 ! eg        m,ó from (Hó     Hó )0 into the
+                     corresponding spaces of ï, is onto. We assume ó ½ 32 . The remaining case is simi-
+                     lar. This is equivalent to that the linear span of the polynomials eg   m,ó are dense in the
+                     corresponding Hilbert space. From Lemma 1.1 (see also the remark thereafter) we see
+                     that the the linear span of the functions em1 (ï1 )em2 (ï2 ) are dense in the space L2 (R+ ð
+                     R+, bó 1 (ï1)bó 1 (ï2 )jc(ï1 )c(ï2 )j 2 dï1dï2 ). Now the map
+                                                          f (ï1 , ï2 ) 7 ! f (ï1 , ï2 )    f (ï2 , ï1 )
+                     is bounded from L2 (R+ ð R+ , bó 1 (ï1 )bó 1 (ï2 )jc(ï1 )c(ï2 )j 2 dï1 dï2 ) into
+                                                                                                              
+                                               L2 µŁ+ , bó 1 (ï1 )bó 1 (ï2 )jc(ï1 )c(ï2 )j 2 dï1 dï2 ;
+                     moreover it is easily seen that the map is onto. Under this map the functions
+                     em1 (ï1 )em2 (ï2 ) are mapped into em1 (ï1 )em2 (ï2 ) em1 (ï2 )em2 (ï1 ). Thus they are dense
+                     in the later space. Moreover they are skew-symmetric in m1 and m2 and if m1 ≥ m2 ≥ 0
+                     they are identically zero. Thus the functions em1 +1 (ï1 )em2 (ï2 ) em1 +1 (ï2 )em2 (ï1 ) with
+                     m1 ½ m2 are dense in the space. This is equivalent to that eg           m,ó (ï) are dense in
+                     L2 µŁ+ , Bó (ï)jC(ï)j 2 dï .
+                         Recall the representation H (ï) defined in Section 1. Combining Lemma 2.4 and
+                     Proposition 2.12 we now get
+                        THEOREM 2.13. Suppose ó ½ 32 . We have the following Plancherel formula and the
+                     decomposition of the representation
+                                                                  Zý
+                                                    ôó ôó ¾≥ ï Ùï Ù0 H (ï)Bó (ï)jC(ï)j 2 dï.
+                                                                     1    2
+
+
+
+
+                        3. The tensor products ôó ôó for 1 Ú ó Ú 32 . Let 1 Ú ó Ú 32 . It follows from
+                                         
+                     Lemma 2.4 and Proposition   2.12 thatfor a. e. ï ≥ i(2ó 3)f1 + yf2 with y 2 R+ there is
+                     a representation H i(2ó 3)f1 + yf2 of G appearing in the decomposition of ôó ôó
+                                                                                                                
+                     so that it has K-fixed vector and (t
+                                                        u1, t
+                                                            u 2 ) acts on it as a pair of scalar n1 (ï), n2 (ï) ,
+                                                                           
+                     ï ≥ i(2ó 3)f1 + yf2. Thus H i(2ó 3)f1 + yf2 can be identified as functions on
+                     D generated by the spherical function ûi(2ó 3)f1 +yf2 and moreover ûi(2ó 3)f1 +yf2 is positive
+                     definite.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                   ANALYTIC CONTINUATIONS OF HOLOMORPHIC DISCRETE SERIES                                         1239
+
+                        THEOREM 3.1. We have the following Plancherel formula and the decomposition of
+                     the representation, for 1 Ú ó Ú 32 ,
+                                          Zý                                                Zý                             
+                           ôó ôó ¾≥ ï Ùï Ù0 H (ï)Bó (ï)jC(ï)j 2 dï ý R H i(2ó
+                                             1   2
+                                                                                              +
+                                                                                                              3)f1 + yf2 có (y) dy.
+
+
+
+                        We note that for the group SU(1, 1) the symbol of the Berezin transform is bó (ï) ≥
+                     Γ(ó 12 + i2ï )Γ(ó 12 i2ï ), and it has a simple pole at the point i( 12 ó) on iR+ when ó Ú 12 .
+                     This gives the discrete part in the decomposition of the tensor product of the analytic
+                     continuation of the holomophic discrete series ôó ôó of SU(1, 1) ([OZ]). However for
+                     SU(2, 2) the symbol of the Berezin transform, Bó (ï), has pole on a line when ó Ú 32 .
+                     This gives us the above continuous decomposition.
+                                                                
+                        We know from the Knapp-Speh classification                  representations of SU(2, 2)
+                                                                           of unitary
+                     ([KS, Main Theorem, (iii)-(c)]) that H i(2ó 3)f1 + ï2 f2 is a unitary submodule of the
+                                                                                                                     
+                     (non-unitary) induced representation Ind P 1                    i i(2ó       3)f1 + ï2 f2         1 and the whole
+                     induced representation is reducible.
+
+                        4. The tensor products ôó ôó for ó ≥ 1. We now consider the case ó ≥ 1. The
+                     K-types appearing in the representation ô1 are of the form m ≥ (m1 , 0) with m1 ½ 0.
+                     The corresponding polynomials em,1 are now
+
+                                                                       pm1 +1,0 (ï1 )       pm1 +1,0 (ï2 )
+                                                        Pm,1 (ï) ≥
+                                                                                  ï22 ï21
+                     and if ï ≥ (ï1 , ï2 ) ≥ ( i, y) then
+
+                                                                      pm1 +1,0 ( i) ≥ 0
+
+                     and
+                                                                            1 + y2                        y 2 3 1 1 !
+                                     pm1 +1,0 (y) ≥
+                                                                 1
+                                                                                   Sm1                         ; , ,
+                                                         (m1 + 1)! (m1 + 1)! 22                           2     2 2 2
+                     where Sm1 is the continuous Hahn polynomials introduced in Section 1. Thus
+                                                                                                    y 2 3 1 1 !
+                                         Pm,1 (ï) ≥ 2       2            1
+                                                                                   Sm                        ; , ,
+                                                                (m1 + 1)! (m1 + 1)! 1                2        2 2 2
+                     where 3 F2 is the hypergeometric function and Sn is the continuous dual Hahn polynomials
+                     as in Section 1.
+                        Lemma 2.8 when ó ≥ 1 takes the following form.
+                         LEMMA 4.1. We have the following orthogonality relation
+                                                                      þþ 3+iy 1+iy 1+iy þþ2
+                                         Z1                            þþ Γ( 2 )Γ( 2 )Γ( 2 ) þþ
+                                      c0
+                                         0
+                                           eg
+                                            m,1 ( i, y)eg
+                                                        m0 ,1 ( i, y) þ
+                                                                        þ        Γ(iy)        þþ dy ≥ ém,m0
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                     1240                                             ØRSTED AND ZHANG
+
+                     for m ≥ (m1 , 0) and m0 ≥ (m01 , 0) with m1 ½ 0 and m01 ½ 0. Here c0 is a positive
+                     constant.
+
+                         PROOF. This is just the Wilson’s orthogonality relation, see (4.4) on p. 697, [W].
+                         Thus the map em 7 ! eg m,1 ( i, y) induces a unitary operator from (ô1    ô1 )K onto the
+                     L2 -space on (0, 1) with the corresponding measure given in Lemma 4.1. That the map is
+                     isometric follows from the Lemma. The onto claim can be proved as Lemma 1.1. Con-
+                                           
+                     sequently this map induces   a unitary equivalence between the pair of operators (t  u1 , tu2)
+                     on (H1 H1 )0 and n1 (ï), n2 (ï)) on the above L2 -space of functions of y 2 (0, 1)
+                     with ï ≥ ( i, y). Note that both t  u2 and n2(ï) are identically zero on the corresponding
+                     spaces. Thus we have the following decomposition for the tensor product ô1 ô1 . Denote
+                     H ( if1 + yf2 ) the representation generated by the spherical function û if1 +yf2 .
+                        THEOREM 4.2. We have the following Plancherel formula and the decomposition of
+                     the representation
+                                                                           þþ 3+iy 1+iy 1+iy þþ2
+                                          ô1          ¾Zý
+                                                  ô1 ≥ R H ( if1 + yf2) þþþþ Γ( 2 )Γ(Γ(iy)
+                                                            +
+                                                                                        2 )Γ( 2 ) þþ
+                                                                                                   þþ dy.
+
+
+                        5. The tensor products of holomorphic discrete series of semisimple Lie group.
+                     We note that much of our calculations above can be generalized to a general bounded
+                     symmetric domain and their holomorphic discrete series. We follow the notation in [FK].
+                     Let D ≥ GÛK be an irreducible bounded symmetric domain of rank r. Let ª ≥ ø + ƒ
+                     be the Cartan decomposition. Let ç1 Ù ç2 Ù Ð Ð Ð Ù çr be the Harish-Chandra strongly
+                     orthogonal roots and let 2f1 , 2f2 , . . . , 2fr be their Cayley transform on a maximal abelian
+                     subspace µ of ƒ. Denote a and b the root multiplicity of fj š fk and fj respectively, and
+                     p ≥ a(r 1) + 2 + b be the genus of the symmetric domain. We let ôó be the analytic
+                     continuation of holomorphic discrete series of a general bounded symmetric domain as
+                     defined in [FK]. An orthogonal expansion of the reproducing kernel in terms of Km has
+                     been found in that paper, which then gives an generalization of our Lemma 2.6. However
+                     we are unable to find a similar expansion as in Lemma 2.7 for a general bounded sym-
+                     metric domain; even for ó ≥ 0, namely the expansion of the spherical function in terms
+                     of Km (which are up to constants the Jack symmetric polynomials), is still an open ques-
+                     tion [Op]. Nevertheless using the intertwining operator R defined in Section 2, the result
+                     of Faraut-Koranyi [FK] and the result of Unterberger-Upmeier [UU] on the symbol of
+                     the Berezin transform RRŁ we can derive the following
+
+                        THEOREM 5.1. Let ó Ù p 2 1 and H (ï) be the principal series representation of G
+                     with parameter ï 2 µŁ . We have the following decomposition formula for the tensor
+                     product ôó ôó :
+                                                                              Zý
+                                                                ôó ôó ¾≥ µŁÛW H (ï)dï
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                   ANALYTIC CONTINUATIONS OF HOLOMORPHIC DISCRETE SERIES                                      1241
+
+
+
+                        It would be interesting to find out the decomposition of ôó                           ôó for other (unitary)
+                     values of ó. We plan to pursue this question in the future.
+
+                                                                        REFERENCES
+                     [AW] R. Askey and J. Wilson, Some basic hypergeometric orthogonal polynomials that generalize Jacobi
+                        polynomials. Mem. Amer. Math. Soc., (319) 54(1985).
+                     [B] F. A. Berezin, General concept of quantization. Commun. Math. Phys. 40(1975) 153–174.
+                     [EHW] T. J. Enright, R. Howe and N. R. Wallach, A classification of unitary highest weight modules. Progr.
+                        Math. 40(1983), 97–143.
+                     [FK] J. Faraut and A. Koranyi, Function spaces and reproducing kernels on bounded symmetric domains. J.
+                        Funct. Anal. 89(1990), 64–89.
+                     [He] S. Helgason, Groups and geometric analysis. Academic Press, London, 1984.
+                     [Hoo] B. Hoogenboom, Spherical functions and differential operators on complex Grassmann manifolds. Ark.
+                        Mat. 20(1982), 69–85.
+                     [How] R. Howe, On Some Results of Strichartz and of Rallis and Schiffman. J. Funct. Anal. 32(1979), 297–303.
+                     [Hu] L. K. Hua, Harmonic analysis of functions of several complex variables in the classical domains. Amer.
+                        Math. Soc., Providence, Rhode Island, 1963.
+                     [KM] S. Karlin and J. McGregor, Some properties of orthogonal polynomials. In: Theory and Application of
+                        Special Functions (Ed. R. Askey), Academic Press, 1975, 521–550.
+                     [Kn] A. W. Knapp, Representation Theory of Semisimple Groups. Princeton University Press, Princeton, New
+                        Jersey, 1986.
+                     [KS] A. W. Knapp and B. Speh, Irreducible Unitary Representations of SU(2, 2). J. Funct. Anal. 45(1982),
+                        41–73.
+                     [Ma] W. Magnus and F. Oberhettinger, Formulas and theorems for the functions of mathematical physics.
+                        Chelsea, New York, 1949.
+                     [M] F. I. Mautner, Unitary representations of locally compact groups. II. Ann. of Math. 52(1950), 528–556.
+                     [Op] E. Opdam, Private communication.
+                     [Or] B. Ørsted, Composition series for analytic continuations of holomorphic discrete series representations
+                        of SU(n, n). Trans. Amer. Math. Soc. 260(1980), 563–573.
+                     [OZ] B. Ørsted and G. Zhang, L2 -versions of the Howe Correspondence I. Math. Scand., to appear.
+                     [PZ] J. Peetre and G. Zhang, A weighted Plancherel formula III. The case of a hyperbolic matrix ball. Collect.
+                        Math. 43(1992), 273–301.
+                     [Pu] L. Pukánszky, On the Kronecker products of irreducible representations of the 2 ð 2 real unimodular
+                        group. Part I. Trans. Amer. Math. Soc. 100(1961), 116–152.
+                     [Re1] J. Repka, Tensor products of unitary representations of SL2 (R). Amer. J. Math. 100(1978), 930–932.
+                     [Re2] J. Repka, Tensor products of holomorphic discrete series. Can. J. Math. 31(1979), 836–844.
+                     [IES] I. E. Segal, An extension of Plancherel’s formula to separable unimodular groups. Ann. of Math. 52
+                        (1950), 272–292.
+                     [UU] A. Unterberger and H. Upmeier, Berezin transform and invariant differential operators. Preprint.
+                     [Wa] N. R. Wallach, The analytic continuation of the discrete series I, II. Trans. Amer. Math. Soc. 251(1979),
+                        1–17, 19–37.
+                     [W] J. Wilson, Some hypergeometric orthogonal polynomials. SIAM. J. Math. Anal. 11(1980), 690–701.
+                     [Z] G. Zhang, Tensor products of weighted Bergman spaces and invariant Ha-plitz operators. Math. Scand.
+                        71(1992), 85–95.
+
+                      Institut for Matematik og Datalogi                           Department of Mathematics
+                      Odense Universitet                                           University of Karlstad
+                      DK-5230 Odense M                                             S-651 88 Karlstad
+                      Denmark                                                      Sweden
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+

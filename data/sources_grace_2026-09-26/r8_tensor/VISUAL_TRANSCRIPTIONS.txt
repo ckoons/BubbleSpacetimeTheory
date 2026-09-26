@@ -1,0 +1,152 @@
+VISUAL TRANSCRIPTIONS -- read by eye from rendered page images (pdftoppm -png) because the text layer
+(pdftotext -layout) garbles formulas, spacing or font encoding at these places.
+Transcriber: Claude (subagent for Grace), 2026-09-26 ~15:00 EDT. Unicode used for sub/superscripts; otherwise verbatim.
+Each block names: source PDF, PDF page index (1-based), printed page, and the PNG saved in this directory.
+
+=== [R1] repka_1979_cjm31.pdf, pdf page 1, printed p. 836  (PNG: repka_p1-1.png) ===
+R1a: "Let 𝔭₊ = Σ_{γ∈Σ₊} ℂX_γ,  𝔭₋ = Σ_{γ∈Σ₊} ℂX₋γ, and let 𝔓₊, 𝔓₋ denote their
+      respective universal enveloping algebras. Let 𝔟 = 𝔨 ⊕ 𝔭₊, a subalgebra of 𝔤."
+R1b: "Suppose Λ ∈ 𝔥* satisfies:
+      (1)   Λ(H_α) is a nonnegative integer, for all α ∈ Σ, α ∉ Σ₊
+      (2)   (Λ + ρ)(H_γ) < 0,   for all γ ∈ Σ₊."
+R1c: "We shall assume that the non-compact positive roots are totally positive, in the terminology of
+      Harish-Chandra"  [Σ₊ = set of non-compact positive roots; 2ρ = sum of all positive roots; α(H_α) = 2]
+
+=== [R3] repka_1979_cjm31.pdf, pdf page 3, printed p. 838  (PNG: repka_p3-3.png) ===
+R3a: "n″(ν) = Σ_{λ+λ′=ν} n_Λ(λ)·n_Λ′(λ′)."
+R3b: "THEOREM 1. π_Λ ⊗ π_Λ′ is a direct sum of representations of the form π_Λ″, with
+      finite multiplicities. The Λ″ which occur are all of the form Λ″ = Λᵢ″ −
+      (m₁γ₁ + ... + m_qγ_q), where Λᵢ″ (0 ≦ i ≦ s) is a weight of L ⊗ L′, and mᵢ
+      are nonnegative integers. The multiplicity M_Λ″, of π_Λ″ is given by the inductive formula
+            M_Λ″ = n″(Λ″) − Σ_{λ≠Λ″} M_λ n_λ(Λ″)."
+R3c: "In particular, π_{Λ+Λ′} occurs with multiplicity one."
+
+=== [R7] repka_1979_cjm31.pdf, pdf page 7, printed p. 842  (PNG: repka_p7-7.png) ===
+R7a: "So if m, n ≧ 2, the weights of T_m ⊗ T_n are m + n, m + n + 2, ..., m + n + 2k, ..., where m + n + 2k
+      occurs with multiplicity k + 1. Consequently, by Theorem 1,
+        T_m ⊗ T_n ≈ T_{m+n} ⊕ T_{m+n+2} ⊕ T_{m+n+4} ⊕ ... = ⊕_{k=0}^{∞} T_{m+n+2k}   and
+        T_{−m} ⊗ T_{−n} ≈ ⊕_{k=0}^{∞} T_{−m−n−2k}."
+R7b: "T_m ⊗ T_{−n} ≈ Ind_{K₀}^{G₀} χ_m ⊗ χ_{−n} = Ind_{K₀}^{G₀} χ_{m−n}."
+R7c: "It is also proved there that the same results (i.e. same formulae) carry over to the "limits of
+      discrete series" or "mock discrete series," i.e. when n and/or m is allowed to equal 1."
+R7d: [Sp(2,ℝ)] "If we write Λ = mα + nγ, with m, 2n ∈ ℤ, then condition (1) of § 2 amounts to m ≧ n,
+      and condition (2) amounts to m < −2, since, by (1), m ≧ n."
+R7e: "... Other representations π_{Λ+Λ′−kα−jγ} also occur (e.g. π_{Λ+Λ′−α−γ} occurs with multiplicity 2)
+      but it gets increasingly messy to calculate the multiplicities."
+
+=== [OZ1] orsted_zhang_1997_cjm49.pdf, pdf page 1, printed p. 1224  (PNG: oz_p-01.png) ===
+(text layer is font-garbled throughout this PDF: Greek letters come out as ô, ó, ï, etc.)
+OZ1a: "ABSTRACT. We give the irreducible decomposition of the tensor product of an analytic continuation
+       of the holomorphic discrete series of SU(2,2) with its conjugate."
+OZ1b: "For a general semisimple Lie group G of Hermitian type a similar problem is studied in [Re2]. It is
+       shown that the tensor product π_ν ⊗ π̄_ν of a scalar holomorphic discrete series π_ν with its
+       conjugate π̄_ν is unitarily equivalent to the L²-space on the corresponding Hermitian symmetric
+       space, L²(G/K). Therefore we know its decomposition from the known theory of Harish-Chandra; namely
+            π_ν ⊗ π̄_ν ≅ L²(G/K) ≅ ∫^⊕_{𝔞*/W} H(λ)|C(λ)|⁻² dλ
+       for ν > p − 1 where p is an integer, also called genus of G/K."
+OZ1c: "In this paper we take G = SU(2,2) with genus p = 4. The scalar discrete series π_ν has an analytic
+       continuation, namely for ν ∈ {0,1} ∪ (1,∞) we still get a unitary representation of SU(2,2);
+       this set of ν is called the Wallach set."
+       [[Re2] = Repka, Can. J. Math. 31 (1979) 836-844, per reference list, text line 1094]
+
+=== [OZ17] orsted_zhang_1997_cjm49.pdf, pdf page 17, printed p. 1240  (PNG: oz_p-17.png) ===
+OZ17a: "Let D = G/K be an irreducible bounded symmetric domain of rank r. ... Let γ₁ > γ₂ > ··· > γ_r be
+        the Harish-Chandra strongly orthogonal roots and let 2f₁, 2f₂, ..., 2f_r be their Cayley transform
+        on a maximal abelian subspace 𝔞 of 𝔭. Denote a and b the root multiplicity of f_j ± f_k and f_j
+        respectively, and p = a(r − 1) + 2 + b be the genus of the symmetric domain. We let π_ν be the
+        analytic continuation of holomorphic discrete series of a general bounded symmetric domain as
+        defined in [FK]."
+OZ17b: "THEOREM 5.1. Let ν > (p−1)/2 and H(λ) be the principal series representation of G with parameter
+        λ ∈ 𝔞*. We have the following decomposition formula for the tensor product π_ν ⊗ π̄_ν:
+            π_ν ⊗ π̄_ν ≅ ∫^⊕_{𝔞*/W} H(λ) dλ"
+OZ17c: [p.1241, text line 1059] "It would be interesting to find out the decomposition of π_ν ⊗ π̄_ν for
+        other (unitary) values of ν. We plan to pursue this question in the future."
+
+=== [JV7] ../r6_conformal/jakobsen_vergne_1979.pdf, pdf page 7, printed p. 35  (PNG: jv_p-07.png) ===
+JV7a: "Consider the following subsets of K̂:
+          I = { τ ∈ K̂ | 𝒰(𝔤^ℂ) ⊗_{𝒰(𝔨^ℂ⊕𝔭⁺)} V_τ is irreducible },
+       and                                                              (2.15)
+          P = { τ ∈ K̂ | W(τ) is unitarisable }."
+JV7b: "PROPOSITION 2.1 [3]. Let τ ∈ P. Then there exists a reproducing kernel Hilbert space H(τ) such that
+       W(τ) ⊆ H(τ) ⊆ 𝒪(G, K, V_τ) and H(τ) is the completion of W(τ)."
+JV7c: "Finally we observe that the set P is not known apart from some special cases [8, 10, 13]."
+JV7d: "... the preceding remark also shows that 𝒪ᶠ(G, K, V_τ) is isomorphic to
+       𝒰(𝔤^ℂ) ⊗_{𝒰(𝔨^ℂ⊕𝔭⁺)} V_τ if and only if the latter is irreducible."
+(Corollary 2.6 itself: see r6_conformal/VISUAL_TRANSCRIPTIONS.txt block [J], lines J3-J4, and
+ the I ∩ P statement for O(2,n+1): block [L], line L8.)
+
+=== [JV24] ../r6_conformal/jakobsen_vergne_1979.pdf, pdf page 24, printed p. 52  (PNG: jv_p-24.png) ===
+JV24a: "PROPOSITION 4.9.
+        T₁(n, −1) ⊗ T₁(m, −1) = ⊕_{q=0}^{min(n,m)} T₁(n + m − 2q, q) ⊕ ⊕_{r=1}^{∞} T₃(n + m + r, r, r + 2);
+        T₂(n, −1) ⊗ T₂(m, −1) = ⊕_{s=0}^{min(n,m)} T₂(n + m − 2q, q) ⊕ ⊕_{r=1}^{∞} T₃(r, n + m + r, n + m + r + 2);
+        T₁(n, −1) ⊗ T₂(m, −1) = ⊕_{r=1}^{∞} T(n + r, m + r, m + r + 2)."
+        [NOTE: the print has summation index "s=0" but summand in q in the second line -- as printed.]
+JV24b: "We conclude this article by observing that several interesting phenomena occur at the decomposition
+        of the tensor product of a mass-zero representation with a mass-zero representation."
+
+=== [N7] ../r6_conformal/arxiv_2603.21472.pdf, pdf page 7  (PNG: nak_p-07.png) ===
+N7a: "If the restricted lowest weight −½Σ_{j=1}^r λ_jγ_j of (τ, V_τ) satisfies λ_r > 2n/r − 1, then the
+      corresponding Hilbert spaces ℋ(D, V_τ) ⊂ 𝒪(D, V_τ), ℋ(T_Ω, V_τ) ⊂ 𝒪(T_Ω, V_τ) are non-zero, and
+      these are called holomorphic discrete series representations."
+N7b: "For µ ∈ ℂ, we also write 𝒪(D, V_τ ⊗ χ^{−µ}) =: 𝒪_µ(D, V_τ), 𝒪(D, χ^{−µ}) =: 𝒪_µ(D)"
+N7c: "⟨f₁, f₂⟩_µ := C_µ ∫_D f₁(x) \overline{f₂(x)} h(x, x̄)^{µ − 2n/r} dx"  (2.2)
+     "C_µ := (1/πⁿ) Π_{j=1}^r Γ(µ − (d/2)(j−1)) / Γ(µ − n/r − (d/2)(j−1))."
+
+=== [N8] ../r6_conformal/arxiv_2603.21472.pdf, pdf page 8  (PNG: nak_p-08.png) ===
+N8a: "Theorem 2.1 (Kobayashi, [16, Lemma 8.9]). Suppose ℋ(D,V_σ), ℋ(D,V_τ) are holomorphic discrete series
+      representations of G̃. If 𝒫(𝔭⁺) ⊗ V_σ ⊗ V_τ is decomposed under K̃ as
+          𝒫(𝔭⁺) ⊗ V_σ ⊗ V_τ ≃ ⊕_ρ V_ρ^{⊕m(ρ)}   (m(ρ) ∈ ℤ_{≥0}),
+      then ℋ(D,V_σ) ⊗̂ ℋ(D,V_τ) is decomposed under G̃ as
+          ℋ(D,V_σ) ⊗̂ ℋ(D,V_τ) ≃ Σ^⊕_ρ ℋ(D,V_ρ)^{⊕m(ρ)}."
+N8b: "ℤ^r_{++} := {k = (k₁,...,k_r) ∈ ℤ^r | k₁ ≥ ··· ≥ k_r ≥ 0}"
+      "𝒫(𝔭⁺) ≃ ⊕_{k∈ℤ^r_{++}} V^∨_{kγ},   𝒫(𝔭⁺)[det⁻¹] ≃ ⊕_{k∈ℤ^r_+} V^∨_{kγ}   (2.3)
+       hold (see [9, Theorem XI.2.4])."
+N8c: "Theorem 2.2 (Kobayashi, [16, Theorem 8.4]). Suppose λ, µ > 2n/r − 1. Then ℋ_λ(D) ⊗̂ ℋ_µ(D) is
+      decomposed under G̃ as
+          ℋ_λ(D) ⊗̂ ℋ_µ(D) ≃ Σ^⊕_{k∈ℤ^r_{++}} ℋ_{λ+µ}(D, V^∨_{kγ})."
+
+=== [N16] ../r6_conformal/arxiv_2603.21472.pdf, pdf page 16  (PNG: nak_p-16.png) ===
+N16a: "Corollary 4.3. Let λ, µ ∈ ℂ, k ∈ ℤ^r_{++}, Re λ, Re µ > −k_r + n/r − 1. We fix a non-zero polynomial
+         K_k(x) ∈ (𝒫(𝔭⁺) ⊗ Hom_ℂ(V^∨_{kγ}, ℂ))^K,
+       which is unique up to a constant multiple. Then the map
+         ℱ^{λ,µ}_{k↑}: 𝒪_{λ+µ}(D, V^∨_{kγ}) → 𝒪_λ(D) ⊗̂ 𝒪_µ(D),
+         (ℱ^{λ,µ}_{k↑} f)(x,y) := det(x−y)^{−λ−µ+n/r} ∫_{C(x,y)} det(w−y)^{λ−n/r} det(x−w)^{µ−n/r}
+                                    × K_k(((w−y)⁻¹ + (x−w)⁻¹)⁻¹) f(w) dw
+       intertwines the G̃-action."
+N16b: "When k = (l,...,l), we have 𝒪_λ(D, V^∨_{kγ}) ≃ 𝒪_{λ+2l}(D), and may assume K_k(x) = det(x)^l."
+
+=== [N30] ../r6_conformal/arxiv_2603.21472.pdf, pdf page 30  (PNG: nak_p-30.png) ===
+N30a: "Theorem 5.1. Let λ, µ ∈ ℂ, k ∈ ℤ^r_{++}, Re λ, Re µ > −k_r + n/r − 1. For constant functions
+       v ∈ V^∨_{kγ}, we have (ℱ^{λ,µ}_{k↑} v)(x,y) = B_r(λ,µ,k) K_k(x−y) v, where
+       B_r(λ,µ,k) := (2π)^{dr(r−1)/4} × Π_{j=1}^r [Γ(λ + k_j − (d/2)(j−1)) Γ(µ + k_j − (d/2)(j−1)) / Γ(λ + µ − (d/2)(j−1))]
+                      × Π_{1≤i<j≤r}(λ + µ − (d/2)(i+j−1))_{k_i+k_j} / Π_{1≤i≤j≤r}(λ + µ − (d/2)(i+j−2))_{k_i+k_j}.  (5.2)"
+N30b: "Corollary 5.2. Let λ, µ ∈ ℝ, k ∈ ℤ^r_{++}, λ, µ > 2n/r − 1. The two holographic operators
+       ℱ^{λ,µ}_{k↑}, ℱ̃^{λ,µ}_{k↑}: ℋ_{λ+µ}(D, V^∨_{kγ}) → ℋ_λ(D) ⊗̂ ℋ_µ(D) in (5.1), (5.3) are related as
+       ℱ^{λ,µ}_{k↑} = B_r(λ,µ,k) ℱ̃^{λ,µ}_{k↑}."
+
+=== [KP7] ../r6_conformal/arxiv_1812.09733.pdf, pdf page 7  (PNG: kp_p-07.png) ===
+KP7a: "For λ ∈ ℤ we define a representation π_λ of SL(2,ℝ) on 𝒪(Π) by
+         π_λ(g)f(z) = (cz + d)^{−λ} f((az + b)/(cz + d))   for g⁻¹ = (a b; c d)."
+KP7b: "For λ > 1 the weighted Bergman space ℋ²(Π)_λ := (𝒪 ∩ L²)(Π, y^{λ−2}dxdy) is nonzero, and the Hilbert
+       space ℋ²(Π)_λ admits a reproducing kernel K_λ(z,w) = ((λ−1)/4π)((z−w̄)/2i)^{−λ}"
+KP7c: "π_λ (λ = 2, 3, ···) is referred to as a holomorphic discrete series representations of SL(2,ℝ), and
+       π_λ (λ > 1) as a relative holomorphic discrete series representation of the covering group SL(2,ℝ)~."
+
+=== [KP9] ../r6_conformal/arxiv_1812.09733.pdf, pdf page 9  (PNG: kp_p-09.png) ===
+KP9a: "Definition 2.1 (holographic operators). For λ′, λ″, λ‴ ∈ ℂ we set ℓ := ½(λ‴ − λ′ − λ″). Assume that
+         (2.5)   Re(λ′ + ℓ) > 0,  Re(λ″ + ℓ) > 0,  and ℓ ∈ ℕ."
+KP9b: "(2.6) (Ψ^{λ‴}_{λ′,λ″} g)(ζ₁,ζ₂) := (ζ₁ − ζ₂)^ℓ / (2^{λ′+λ″+2ℓ−1} ℓ!) ×
+               ∫_{−1}^{1} g(((ζ₂ − ζ₁)v + (ζ₁ + ζ₂))/2) (1 − v)^{λ′+ℓ−1} (1 + v)^{λ″+ℓ−1} dv."
+KP9c: "Theorem 2.2 (holographic operator in the upper half plane). Suppose λ′, λ″, λ‴ ∈ ℂ satisfy (2.5).
+        (1) The map Ψ^{λ‴}_{λ′,λ″}: 𝒪(Π) → 𝒪(Π × Π) intertwines the action of SL(2,ℝ)~ from π_{λ‴} to the
+            tensor product representation π_{λ′} ⊗̂ π_{λ″}.
+        (2) Moreover, if both λ′ and λ″ are real and greater than 1, then the linear map Ψ^{λ‴}_{λ′,λ″}
+            induces an isometric embedding (up to rescaling) of the weighted Bergman space:
+            ℋ²(Π)_{λ‴} → ℋ²(Π × Π)_{(λ′,λ″)}."
+
+=== [KP12] ../r6_conformal/arxiv_1812.09733.pdf, pdf page 12  (PNG: kp_p-12.png) ===
+KP12a: "discrete series representations π_{λ′} and π_{λ″} that decomposes into a multiplicity-free direct
+        Hilbert sum of irreducible unitary representations when λ′, λ″ > 1 [22, 23]:
+          (2.8)   π_{λ′} ⊗̂ π_{λ″} ≃ Σ^⊕_{ℓ∈ℕ} π_{λ′+λ″+2ℓ}."
+        [[22] = Molchanov 1980; [23] = Repka, Can. J. Math. 31 (1979) 836-844 -- text lines 2713-2716]
+KP12b: "Corollary 2.8 (projection operator). Suppose λ′, λ″, λ‴ > 1 and ℓ := ½(λ‴ − λ′ − λ″) ∈ ℕ."
