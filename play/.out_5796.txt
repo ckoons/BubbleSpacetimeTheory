@@ -1,0 +1,18 @@
+[PASS] R5/commutant: commutant of {vv†} in M3(C) is the scalars (real dim 2 = complex dim 1)  real dim 2
+[PASS] R5: kernel of u(3) acting on records is exactly u(1) = iR·1 (dim 1) => faithful algebra dim 8 = su(3)  dim 1
+[PASS] R3/R4: stab of f in u(3) = so(3) ⊕ u(1) (dim 4)  dim 4
+[PASS] R4: stab of f in su(3) = so(3), dim 3, spanned by real antisymmetric matrices  dim 3
+[PASS] R2: tr(rho rho^T) = |q|^2 identically (q = v^T v)  
+[PASS] R1: e^{iθ}v gives the same record, and q changes by e^{2iθ} (q is forgotten)  
+[PASS] group: ω·O (ω^3=1, O∈SO(3)) keeps f; a diagonal SU(3) element that is not real-up-to-phase breaks f  
+[PASS] group: diagonal stab of f in SU(3) is finite (12 = ℤ3 centre × 4 sign matrices in SO(3)); no continuous torus part  12 elements
+[PASS] CONTROL: stab of the real structure in su(3) = real antisymmetric = so(3) (dim 3) = identity component of stab(f)  
+[PASS] Add.3: o(6) ∩ sp(6,R) has dim 9 = dim u(3)  dim 9
+[PASS] Add.3: ω vanishes on position space R^3 = span(x1,x2,x3) (Lagrangian: half of phase space)  
+[PASS] Add.3: stab of R^3 in u(3) has dim 3 (o(3)); dim U(3)/O(3) = 9 - 3 = 6  stab 3
+[PASS] oscillator: Sym^N(C^3) dims = dim (N,0) of SU(3) for N=0..7 (each shell one SU(3) irrep)  [1, 3, 6, 10, 15, 21, 28, 36]
+   baryon 3⊗3⊗3 = 10+8+8+1 (sum 27); oscillator-shell dims among {1,8,10}: [1, 10]; null rate of triangular ≤30: 7/30 = 0.233
+   expected overlap by chance for 3 targets: 0.70; observed 2 — NOT evidence (prereg). The 8 (mixed symmetry) is never an oscillator shell.
+[PASS] oscillator null (prereg direction): overlap 2 of 3 = {1,10}, 8 absent, chance expectation ~0.7 — recorded as structure, not evidence  
+
+SCORE: 14/14

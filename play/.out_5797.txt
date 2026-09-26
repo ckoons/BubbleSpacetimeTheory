@@ -1,0 +1,24 @@
+[PASS] (a) so(4) = Λ+ ⊕ Λ- with [Λ+,Λ-] = 0 (two commuting su(2)s)  
+[PASS] (a) every element of Λ+ squares to -(a²+b²+c²)·1: its unit sphere = orthogonal complex structures  
+[PASS] (a) centralizer of J0=e12+e34 in so(4) = su(2)- ⊕ R·J0 (dim 4 = u(2)); J0 commutes with ALL of Λ-, no other Λ+ element  
+   complex orientation (u,Ju,w,Jw) of the Λ+ structure: det = 1
+   complex orientation (u,Ju,w,Jw) of the Λ- structure: det = -1
+[PASS] (a) a Λ+ structure induces the given orientation, a Λ- structure the opposite (orientation-compatible = Λ+)  
+[PASS] (b) J = 1⊗j is a complex structure on p (J² = -1)  
+[PASS] (b) J commutes with ALL of so(5)⊗1 (10/10 generators)  
+[PASS] (b) KILL FIRES: J commutes with BOTH su(2)+ and su(2)- of the SO(4) stabilizer — J picks no hand there  
+[PASS] (b) J does not preserve that R^4: J(R^4⊗f1) ∩ (R^4⊗f1) = 0 (R^4 is totally real, rank 8 of the pair)  rank 8
+[PASS] (c) plane⊗R² has an orientation independent of either factor's orientation (flips leave it unchanged)  
+[PASS] (c) ...but it DOES depend on the factor ORDER (plane⊗R² vs R²⊗plane flips it): which factor is called Λ+ is a convention  
+   arrow J=1⊗j: in Λ+ True, in Λ- False;  plane rotation j⊗1: in Λ+ False, in Λ- True
+[PASS] (c) on plane⊗R² (canonical orientation) the arrow J and the plane's rotation sit in OPPOSITE su(2) factors  
+[PASS] (c) reversing the arrow (j -> -j) keeps J in the SAME factor: the arrow's sign does not choose the hand  
+[PASS] (d) generic complex 2-plane in C^5: J-invariant, real rank 4; its only intrinsic orientation is J's own (J self-dual by construction — tautology, not a hand)  
+
+READING: an orthogonal complex structure on an R^4 does pick one su(2) (a). But D_IV^5's J is central in K: it commutes
+with all of SO(5), so with BOTH SU(2)s of the SO(4) stabilizer (b), and does not even preserve that R^4 (totally real).
+On the J-invariant planes plane⊗R^2 the arrow and the spatial rotation sit in opposite factors, canonically, and the
+arrow's SIGN does not move J between factors (c). The lead 'the arrow picks the hand' dies as worded; what survives is a
+structural split (complex structure in one SU(2), the plane's rotation in the other) with the L/R label still a convention.
+
+SCORE: 13/13
