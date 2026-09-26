@@ -1,0 +1,20 @@
+   [T_i,T_j] = Σ c_k T_k: {'[T1,T2]': [0, 0, -I], '[T1,T3]': [0, -I, 0], '[T2,T3]': [I, 0, 0]}
+[PASS] hydrogen T1,T2,T3 close into a 3-dim Lie algebra (so(2,1))  
+   Killing form B(T_i,T_j) = [[-2, 0, 0], [0, -2, 0], [0, 0, 2]]
+[PASS] invariant labels: T3 elliptic, T1 hyperbolic, T3±T1 parabolic (the two nilpotent directions r and r p²)  
+   normalised Killing norm of A(E) = -8*Ev
+[PASS] norm(A(E)) ∝ −8E: elliptic iff E<0, parabolic iff E=0, hyperbolic iff E>0 (the sign of E IS the conjugacy type)  
+   tilt angle θ* = []; tilted coefficients (T1,T2,T3) = None
+[FAIL] TILT: e^{θ* ad T2} A(E) = sqrt(−8E)·T3 exactly (E<0)  
+[PASS] sqrt(−8E)·n = 2Zα  ⇒  E_n = −(Zα)²/2n²  
+[PASS] exact hydrogen radial functions (n,ℓ) = (1,0),(2,0),(2,1),(3,0),(3,2),(4,3) satisfy A(E_n)R = 2Zα R  
+   oscillator E/ω for (ℓ,n_r): [(0, 0, 3/2), (0, 1, 7/2), (0, 2, 11/2), (1, 0, 5/2), (1, 1, 9/2), (1, 2, 13/2), (2, 0, 7/2), (2, 1, 11/2), (2, 2, 15/2)]
+[PASS] CONTROL: oscillator spectrum is LINEAR, E = ω(2n_r + ℓ + 3/2) — no 1/n² (E is not inside the coefficients)  
+   BST ladder: ν = [5/2, 7/2, 9/2, 11/2, 13/2]; E(ν)/E(5/2) = [1, 25/49, 25/81, 25/121, 25/169]; E(ν) = −m g²/(2ν²): hydrogen-type with n* = n + 3/2 relative to integer n
+[PASS] BST tilt: ratios E(ν)/E(5/2) = 25/49, 25/81, 25/121 (prereg), the ladder is 1/ν² with ν half-integral  
+   with g = α, m = m_e (two inputs named, not supplied by BST): E(5/2) = -4*Ry/25 = −4/25 Ry = -2.177 eV
+[PASS] KILL (K1878) NOT fired: no free-input-free output of 5 Ry; 5 Ry would need g² = (125/4)α² — a chosen coupling  
+   so(5,2): (1−2E)J + (1+2E)·(boost M05) at E = −0.3, 0, +0.3 -> ['elliptic', 'elliptic', 'hyperbolic']
+[FAIL] the same tilt inside so(5,2) (J = clock, M05 = the boost in span{P0,K0,D}): elliptic/parabolic/hyperbolic by sign of E  
+
+SCORE: 8/10
