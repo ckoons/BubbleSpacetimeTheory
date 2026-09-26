@@ -1,0 +1,13 @@
+[PASS] R intertwines Rac⊗Rac (3/2, 3/2) with the one-body scalar at weight 3 (P, K, D, M exact)  
+[PASS] primaries h_s = (u1 + i u2)^s, s = 0..6: in Rac⊗Rac (each factor harmonic) and lowest (total P kills them)  
+   s:   [0, 1, 2, 3, 4, 5, 6]
+   γ_s ≠ 0: [1, 0, 0, 0, 0, 0, 0]
+[PASS] PATTERN: γ_0 ≠ 0 (the scalar at 3, not a current); γ_s = 0 for s = 1..6 — every conserved current is SPARED  
+[PASS] KILL for this candidate as the breaker FIRES (prereg): γ_s = 0 for all s ≥ 3 — the G-covariant point evaluation cannot break higher spin  
+
+READING: a G-covariant vertex commutes with the conformal algebra, so it can shift a module only by Schur; the diagonal
+restriction sees only the scalar. 'Commit = a write at every point' spares every current, so it cannot be the s > 2 breaker.
+A write at ONE fixed point is a different, non-covariant object; it breaks translations and so T (Cal S999) — it breaks s = 2
+too, i.e. the wrong pattern in the other direction. Other candidates: OWED until Lyra writes them as operators.
+
+SCORE: 4/4

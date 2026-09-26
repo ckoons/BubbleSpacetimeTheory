@@ -1,0 +1,8 @@
+[PASS] CONTROL so(3,2): χ(Rac)² = scalar(1) + Σ_{s≥1} conserved spin-s at s+1, exact to depth 8  
+[PASS] d = 5, SO(5,2): χ(Rac)² = scalar(3) + Σ_{s≥1} conserved spin-s at 3 + s, exact to depth 6  
+[PASS] NEGATIVE CONTROL: with GENERIC (unconserved) characters for every s the identity FAILS (d = 5)  
+[PASS] NEGATIVE CONTROL: with generic characters the so(3,2) identity FAILS too  
+[PASS] NEGATIVE CONTROL: H²⊗H² (5816) has NO component at weight 3 + s for any s (all at >= 5 + s): no conserved current on H²  
+[PASS] Test B (tube model): Rac⊗Rac lowest vectors at degree s = harmonic h_s(u) (dims 1,5,14,30,55 = one spin-s multiplet per s, no Q(u)^n tower)  [1, 5, 14, 30, 55]
+
+SCORE: 6/6

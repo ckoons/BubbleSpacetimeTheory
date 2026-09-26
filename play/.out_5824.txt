@@ -1,0 +1,5 @@
+wrote play/figs/toy_5824_contact_vertex_D_IV5_vs_AdS6.png
+TABLE (text view):
+  AdS6 φ⁴  γ(n,0)/γ(0,0): [1.0, 2.604, 5.234, 8.832, 13.393]  l > 0: all 0
+  D_IV5 holomorphic contact: (0,0) = 1, all else 0
+  Rac level γ_s, s = 0..6: [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
