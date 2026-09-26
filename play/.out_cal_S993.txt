@@ -1,0 +1,14 @@
+/opt/anaconda3/lib/python3.12/site-packages/numpy/linalg/linalg.py:2582: RuntimeWarning: overflow encountered in multiply
+  s = (x.conj() * x).real
+C1 t(tau) = tan(tau/2): [2.550000e-01 5.460000e-01 1.557000e+00 1.410100e+01 4.807800e+01
+ 1.255766e+03]  t(pi - 1e-6) = 2.000e+06
+C2 Fock radius p0(E_n) = [1.     0.5    0.3333 0.25   0.2   ]  E-dependent: True
+CONTROL R^3, V=-1/r: A drift 5.09e-10
+C3 R^4, V=-1/r: A drift 4.74e-10
+C4 R^4, V=-1/r^2 (4-space Gauss): A drift inf  (min r on orbit 0.226)
+SCORE 5 / 5 [('C1', True), ('C2', True), ('CTRL', True), ('C3', True), ('C4', True)]
+
+VOID (12:57, Cal): C4's "inf" is an overflow (the 1/r^2 orbit left the domain), not a measured drift; C4 does not count. Honest score 4/4 measured, C4 void.
+Replacement, analytic: for V = -k/r^2 in any dimension the radial problem has effective potential (L^2/2 - k)/r^2, a pure 1/r^2 with no
+length scale: L^2 > 2k escapes, L^2 < 2k falls to the centre, no stable bound orbit, no Kepler ladder, no Runge-Lenz symmetry to find.
+So 4-space Gauss electrostatics has NO hydrogen ladder at all; the SO(5,2) "4-space hydrogen" is the 1/r Kepler problem in R^4 (C3 held).

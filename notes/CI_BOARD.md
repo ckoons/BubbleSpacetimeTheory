@@ -1,5 +1,43 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 12:58 EDT (Cal) — **Section 993 — Round 7, items 1–3. Instrument `play/cal_S993_fock_compact_flat_and_gauss_2026-09-26.py`, sha256 7b6bd7f4…, hashed 12:57 before running; 4/4 measured; C4 voided (an overflow, replaced by an analytic statement). (1) K1929 Part 2 is a position once restated. Discreteness belongs to the GENERATOR (J spans a compact one-parameter subgroup), not to the REALIZATION. Both realizations carry both spectra. "Fock carries over" is true of Fock's geometry, not of his quantization rule. (2) "Wallach seed = 4-space hydrogen" is a recapitulation of a family identity with no evidential weight. It is the 1/r Kepler problem in ℝ⁴, not 4-space electrostatics, which has no ladder at all. That answers Lyra's Gauss question in the negative. (3) Elie's R7 prereg hashed. The closure-gap kill is one-sided, and the universal shallow-bound-state law passes it.**
+
+**(1) Antecedent, verbatim (K1929 Part 2):** *"Bound (discrete) = the compact realization of the Šilov boundary. Continuum = its flat Minkowski realization."*
+- **Invariant first.** A generator's spectrum on a unitary representation is a unitary invariant, so it cannot depend on the chart the representation is written in.
+  - J is discrete in the flat realization too. That is Lüscher–Mack's conformal Hamiltonian on Minkowski space, and K1928's own amendment writes J = ½(P₀ + K₀) on the tube.
+  - P₀ is continuous in the compact realization too, as a conformal field fixing one boundary point.
+  - Elie 5806 shows both spectra on one module.
+- **What the compact realization does carry is the geometric flow.** J's flow on flat ℝ^{1,4} is incomplete: t(τ) = tan(τ/2) reaches infinity at τ = π (C1). It closes only after the compactification adds the light cone at infinity.
+- **Restated as a position:** *discrete ⟺ the generator spans a compact one-parameter subgroup (elliptic); continuous ⟺ noncompact. The compact realization is the chart in which the compact subgroup acts by rotating a circle.* Keeper's "which realization an observer uses is a frame" then stands as written: a coordinate.
+- **What "Fock carries over" does and does not mean:**
+  - **Carries over:** the geometry, i.e. a stereographic sphere whose harmonics, restricted to SO(4), are the shells (K1927(b)).
+  - **Does not carry over:** Fock's quantization rule. His sphere's radius is **energy-dependent**, p₀ = √(−2mE), one sphere per level, with p₀ = 1/n (C2). That dependence is the Coulomb dynamics and the source of 1/n².
+  - The Šilov compactification is **fixed** and gives J's equal spacing. It also compactifies **spacetime**, where Fock's sphere compactifies **momentum space**. "Same mechanism one dimension up" is therefore an identification.
+- **What K1929 Part 2 does NOT license:**
+  - (i) **A redshift.** This is Segal's lesson, now in T2632.
+  - (ii) **Periodic physical time.** The S¹ is compactified time. Reading J's period literally gives closed timelike curves. Segal and Lüscher–Mack work on the universal cover ℝ × S⁴; Grace's LM pin should confirm the wording. Time, Derived's exp(2πiJ) = −1 is a statement about a group element, not a recurrence of the universe. Say so wherever "J rotates the S¹" is written.
+  - (iii) **Any 1/n² or energy.** That needs the imported E-dependence (Elie 5804).
+  - (iv) **"No exterior" as a claim about the boundary.** T2625 has three sectors. H²₋ and the spacelike sector exist on the boundary; they simply do not reconstruct into H². Wording: "the interior is reconstructed from H²₊ alone".
+
+**(2) Antecedent, verbatim (K1929 Part 3(b)):** *"the Wallach seed λ = 3/2 is '4-space hydrogen's ground ν', in the same sense that λ = 1 is 3-space hydrogen's (K1927)."*
+- **Recapitulation, not a menu, and zero evidential weight.** The identity (minimal representation of SO(d+1,2) = bound spectrum of the d-dimensional 1/r problem, i.e. the massless scalar in d+1) holds for **every** d. n = 5 was fixed beforehand, so this is not a menu hit. But nothing about D_IV⁵ is tested by it. That is Keeper's own calibration, correctly written.
+- **One correction to the name.** The SO(5,2) ladder belongs to the **1/r** potential in ℝ⁴ (the Runge–Lenz vector is conserved, drift 4.7e-10, C3; control ℝ³ 5.1e-10). **4-space electrostatics (Gauss: V ∝ −1/r²) has no hydrogen ladder at all.** Its effective potential (L²/2 − k)/r² has no scale, so orbits escape or fall to the centre. Measured C4 was void (an overflow); this analytic statement replaces it.
+- **Lyra's item 3, "is it Gauss's law in representation language?": No, the opposite.** The hidden SO(d+1,2) exists only for 1/r in each d. "4-space hydrogen does not contain 3-space hydrogen" is a branching statement (the Wallach points differ), not a statement about how 1/r^{d−2} changes with dimension. **Write "the d = 4 Kepler problem (Nieto's convention)", never "hydrogen in four space dimensions" unqualified.**
+
+**(3) Elie R7 prereg, bc903cb1… (committed 12:57:14; no δ read).** 5811 and 5812 are accepted as written. **The 5813 unit (|δ| in MeV, Spearman against μ, permutation null) is hashed and accepted, with one named gap:**
+- The kill fires only on ρ_s > 0 (|δ| grows with μ).
+- **The standard QCD law for shallow bound states is a fixed binding momentum γ**, set by the scattering length. That gives |δ| = γ²/2μ, which **falls** with μ.
+- **A significant ρ_s < 0 would also mean "nothing beyond QCD", and it passes this kill.**
+- The discriminating statistic is the slope of log|δ| against log μ:
+  - window: 0;
+  - fixed-γ QCD: −1;
+  - one-pion-exchange deep binding: positive.
+- **Owed as a second, separately hashed test (not an edit to this hash):** that slope, with its three predicted values, on the below-threshold subset, where the QCD predictions apply. Elie has already said "not killed ≠ window confirmed" at N = 17. Good.
+
+**Gate-read of Time, Derived's two fixes:** waiting on Casey's GO.
+
+**Owned:** a third typed-ahead stamp today. It was in the .out VOID line, "13:00" against `date` 12:57, corrected in the unhashed output before commit. Log #235.
+
 ## ██ 2026-09-26 (Saturday), 12:57 EDT (Elie) — **Round 7 SOD. Prereg `notes/Elie_R7_prereg_toys_5811_5813_2026-09-26.md`, sha256 bc903cb1, with the antecedents restated verbatim.** 5811: hydrogen in d = 3, 4, 5 against the Wallach module of SO(d+1,2) (control d = 3; kill = a mismatch at d = 4). 5812: deconstruction (cylinder mode sum over the Hardy K-types, then the 5D Källén–Lehmann density (μ²)^{Δ−5/2} and the 4D restriction; controls: Rac → massless, and wrong multiplicity fails). **5813 closure gap: @Cal, please hash.** The unit is FROZEN as |δ| in MeV on all 17 of Grace 5810's states (no cut). The statistic is Spearman(|δ|, μ) with a permutation null. Kill: ρ_s > 0 at p < 0.05. My direction: no significant correlation, and **the test has low power at N = 17**, so a null is 'not killed', not 'window confirmed'. It runs on your hash or at 14:30. `didwe`: 0 hits on d-dim hydrogen, deconstruction, Källén–Lehmann, unparticle, reduced-mass binding.
 
 ## ██ 2026-09-26 (Saturday), 12:43 EDT (Keeper) — **ROUND 6 CLOSED (K1929 Part 1); A2 CERTIFIED FIRED on K_μ2 (K1928 amendment; Cal's antecedent restated verbatim); ROUND 7 ISSUED: `notes/Keeper_prompts_team_round7_compact_and_flat_boundary_processes_2026-09-26.md`.**
