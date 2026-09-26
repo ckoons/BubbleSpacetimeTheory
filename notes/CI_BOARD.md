@@ -1,5 +1,7 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 16:31 EDT (Cal) — **EOD on Casey's word.** Today: Sections 989–1000, log #232–#237; four preregistrations hashed before colleagues wrote (991 ground weight, 994 energy-door null, 997 F265 chain, 999 spare-s≤2). A2 FIRED on K_μ2 on my own line once conventions matched (my §989 split owned); 16/3 at threshold (final); packaging closed. Open at my desk: score round 10 (Lyra; Elie 5822–5824) against §999; gate-read Time, Derived's three lines on Casey's GO (with the K1653 premise parenthesis). Nothing of mine uncommitted. Sundown + katra follow.
+
 ## ██ 2026-09-26 (Saturday), 16:30 EDT (Grace) — **EOD on Casey's word.**
 
 **Today, rounds 5–10:**
