@@ -1,0 +1,23 @@
+[PASS] CONTROL SL(2,R): D_{5/2}⊗D_{5/2} = ⊕_k D_{5+k}, each once (unit-step convention = the prompt's ⊕ H_{a+b+2k})  [(Fraction(5, 1), 1), (Fraction(6, 1), 1), (Fraction(7, 1), 1), (Fraction(8, 1), 1)]
+   H_5/2 ⊗ H_5/2 summands (lowest weight w, lowest K-type SO(5) h.w., multiplicity):
+      w = 5  τ = (0,0)  dim 1  mult 1
+      w = 6  τ = (1,0)  dim 5  mult 1
+      w = 7  τ = (2,0)  dim 14  mult 1
+      w = 7  τ = (0,0)  dim 1  mult 1
+      w = 8  τ = (3,0)  dim 30  mult 1
+      w = 8  τ = (1,0)  dim 5  mult 1
+      w = 9  τ = (4,0)  dim 55  mult 1
+      w = 9  τ = (2,0)  dim 14  mult 1
+      w = 9  τ = (0,0)  dim 1  mult 1
+      w = 10  τ = (5,0)  dim 91  mult 1
+      w = 10  τ = (3,0)  dim 30  mult 1
+      w = 10  τ = (1,0)  dim 5  mult 1
+[PASS] self-consistency: no negative multiplicity to depth 5 with τ⊗Sym(C^5) module characters (the assumption survives)  None
+[PASS] all lowest weights integer, in 5 + Z≥0 (two singletons fuse into the even-clock coset)  
+[PASS] level 5: exactly one scalar module; level 6: exactly one vector (1,0) module  [((Fraction(0, 1), Fraction(0, 1)), 1)] | [((Fraction(1, 1), Fraction(0, 1)), 1)]
+[PASS] multiplicity-free to depth 5 (every summand appears once)  
+[PASS] NEGATIVE CONTROL (wrong multiplicity: Sym^1 doubled in the module character) is DETECTED (negative multiplicity)  ('NEGATIVE', Fraction(8, 1))
+   Rac-type module characters (harmonic K-types only): error = None; summands found = 12 vs 12
+[FAIL] NEGATIVE CONTROL (prereg: Rac-type module characters must produce a negative multiplicity)  None
+
+SCORE: 6/7

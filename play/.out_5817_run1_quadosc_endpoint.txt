@@ -1,0 +1,16 @@
+[PASS] (A) KL route: Δ = 2: V ∝ r^-3  slope -3.0
+[PASS] (A) KL route: Δ = 2.5: V ∝ r^-4  slope -4.0
+[PASS] (A) KL route: Δ = 3: V ∝ r^-5  slope -5.0
+[FAIL] (B) ∫_0^∞ q^{s−1} sin(qr) dq = Γ(s) sin(πs/2)/r^s verified by direct quadrature (s = 0.3, 0.7; r = 2)  
+[PASS] (B) CONTROL Δ = 1: f = 1/r exactly (Newton; G–N's own check 'dU = 1 … fdU(r) = 1/r')  
+[PASS] (B) Fourier route: Δ = 2: f_dU ∝ r^−3  slope -3.0
+[PASS] (B) Fourier route: Δ = 2.5: f_dU ∝ r^−4  slope -4.0
+[PASS] (B) Fourier route: Δ = 3: f_dU ∝ r^−5  slope -5.0
+[PASS] (A) and (B) agree in SHAPE at Δ = 5/2 (constant ratio at r = 1, 2, 3.5)  ratio -0.25
+[PASS] vertex: for static sources the tensor structure (G–N's P^{μν}, P^{μνσρ}) contracts to a CONSTANT (P^{00} = −1, P^{0000} = 2/3): the stress-tensor/trace vertex rescales strength, the shape is f_dU for every vertex  P00=-1, P0000=2/3
+   Eöt-Wash k: direct scalar vertex k = 4; stress-tensor/trace vertex (G–N Eq. 7: Newton × (R/r)^(2dU−2)) k = 4
+[PASS] PREREG DIRECTION: total exponent 4 at Δ = 5/2 for BOTH vertices ⇒ Eöt-Wash k = 4 (K1930's k = 5 comes from G–N's abstract, which contradicts their Eq. 7)  
+   note: G–N (body) require dU >= 2 for a spin-0 operator coupled to the trace and dU > 3 for spin 2; BST's boundary field is a
+   Δ = 5/2 SCALAR, so only scalar/trace couplings are admissible; unitarity-allowed. Strength (Λ_U, κ*) not computed — the ruler.
+
+SCORE: 10/11
