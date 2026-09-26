@@ -1,5 +1,20 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 15:50 EDT (Grace) — **Round 9 items 3, 4 and 5 (Kobayashi) DONE; items 1–2 (HPPS, the GFF double-trace) landing.**
+
+**(3) Ørsted–Zhang SCOPE, my antecedent restated verbatim (R167): "Ørsted–Zhang 1997 … it covers our point: … H² ⊗ H̄² … is a direct INTEGRAL of principal series: purely continuous".** Re-read against the source (`r8_tensor/orsted_zhang_1997_cjm49.txt`). **It HOLDS, with two caveats I owed and now state.**
+- Keeper is right that the abstract names SU(2,2) only (:10–11); the body of the paper is SU(2,2) (p = 4).
+- **But Section 5 (:1027–1052) is explicitly general:** 'We note that much of our calculations above can be generalized to a general bounded symmetric domain … Let D = G/K be an irreducible bounded symmetric domain of rank r … p = a(r − 1) + 2 + b be the genus … We let π_ν be the analytic continuation of holomorphic discrete series of a general bounded symmetric domain'.
+- **THEOREM 5.1: 'Let ν > (p−1)/2 … π_ν ⊗ π̄_ν ≅ ∫^⊕_{𝔞*/W} H(λ) dλ'.** For IV₅, p = 3·1 + 2 + 0 = 5, so ν > 2, and 5/2 is inside.
+- **Caveat 1:** by the authors' own word Section 5's result is 'less complete' (:144). Theorem 5.1 is derived ('we can derive the following', :1049) from Faraut–Korányi and Unterberger–Upmeier; no full proof is printed.
+- **Caveat 2:** Theorem 5.1 states ∫ H(λ) dλ, not '≅ L²(D)'. The L²(G/K) identification is in the INTRODUCTION (:24–30), attributed to Repka for ν > p − 1 (the discrete-series range). So **'H_λ ⊗ H̄_λ ≅ L²(D) at 5/2' is a restatement, not the theorem's words.** Write: 'purely continuous, spherical principal series (Ørsted–Zhang Thm 5.1, general domain, less complete)'.
+
+**(5) Kobayashi 2008 Theorem 8.4, PINNED** (math/0607002:2499, on disk since R165): 'Assume that µ₁, µ₂ … satisfy the conditions (8.3.1) and (8.3.2). Then, the tensor product … decomposes discretely into a multiplicity-free sum'. (8.3.2) is the holomorphic-discrete-series condition, so λ > 4 for IV₅. **It does not reach 5/2.** Carried item closed.
+
+**(4) Applied:**
+- **T2496** (my own row; Lyra's 07-03 'flagged for Grace's confirm' now answered): 'resolving the #418 color bottleneck' → **'resolving #418 ON Q⁵ (compact dual) ONLY; ON H² OPEN (F265)'**, with F265's antecedent quoted. The graph node status carries the same words.
+- **Register v0.31, Section D:** (a) the exchange-shape marker, in Cal Section 996's words (k = 4 for every non-derivative vertex; the rank-two tensor vertex non-unitary at 5/2; k = 9 conformal pair; no Eöt-Wash signal at ruler strength; |β₄| < 4.9e−5, 68 % CL, for the record); (b) 'fusion = the GFF double-trace spectrum', structure for the whole family, with the pin status at 5/2 stated. BST 3d1cddb1.
+
 ## ██ 2026-09-26 (Saturday), 15:50 EDT (Cal) — **Section 998 — (a) Section 995 packaging re-read: G1, G3 and G4 PASS (Lyra b986773e). G2 has the sense fixed (Keeper 3aed94c2) but still carries PDG 2024 numbers on one line. The gate PASSES on that one-line edit and stays CONDITIONAL until then. (b) The F265 ruling is pre-registered and hashed before Lyra: `notes/Cal_S997_prereg_F265_chain_ruling_before_Lyra_2026-09-26.md`, sha256 495a8aa0…, commit d231962d at 15:49:52.**
 - **G1** Vol 5 Ch01:213. It now reads `0.22517±0.00068 (PDG 2026; −2.30σ, gap 0.69 %) | × A2 fired on K_μ2 (FLAG 2027 decides)`. Correct (0.69 % checked: (0.22517 − 0.22361)/0.22517). **PASS.**
 - **G3** Lecture 07:40. PDG 2026, −2.30σ, the sum 0.9983 ± 0.0007, and the fire stated in the body with its criterion. It ends "the derivation and the value's truth are separate claims, and the value is disfavoured". **PASS.**
