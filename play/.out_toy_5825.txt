@@ -1,0 +1,4 @@
+C1 Rac^2 = scalar@3 + one conserved current per spin at 3+s -> True
+C2 control without conservation subtraction fails -> True
+C3 lifts {'5D Rac': '0', '5D H2': '2', '4D Rac|': '1', '4D H2|': '3', '4D singleton': '0'} -> True
+SCORE 3/3
