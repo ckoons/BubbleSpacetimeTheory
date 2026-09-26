@@ -33279,7 +33279,7 @@
    "tid": 2496,
    "name": "#418 Color Resolution (su(3)⊂g₂⊂so(7) covariant on compact dual Q⁵; 7=3+3̄+1)",
    "domain": "particle_physics",
-   "status": "proved",
+   "status": "proved ON Q⁵ (compact dual) only; #418 ON H² OPEN (F265) — re-keyed 2026-09-26 Grace/K1931",
    "depth": 0,
    "conflation": null,
    "section": null,
@@ -131466,7 +131466,7 @@
    "tid": 2496,
    "name": "#418 Color Resolution (su(3)⊂g₂⊂so(7) covariant on compact dual Q⁵; 7=3+3̄+1)",
    "domain": "particle_physics",
-   "status": "proved",
+   "status": "proved ON Q⁵ (compact dual) only; #418 ON H² OPEN (F265) — re-keyed 2026-09-26 Grace/K1931",
    "depth": 0,
    "date": "2026-06",
    "registration": "grace_graph_update_2026-07-04 (promoted from stub; registry-backfilled by Lyra)"
