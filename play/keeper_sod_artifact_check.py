@@ -385,7 +385,7 @@ for _p in _fired_sites:
         if ("1/√20" in _l or "1/sqrt(20)" in _l) and not re.search(r"A2[^|]{0,200}fired|fired[^|]{0,200}A2", _l, re.I):
             _unmarked.append(f"{os.path.basename(_p)}:{_n}")
         # widened 09-26: a falsifier LIST names the row as **A2** without the number (Lecture 10:90 slipped the 1/√20 key)
-        for _m in re.finditer(r"\*\*A2\*\*([^*]{0,400})", _l):
+        for _m in re.finditer(r"\*\*A2\*\*(.{0,400}?)(?=\*\*A\d+\*\*|$)", _l):  # window runs to the next full **An** entry marker (09-26 fixes: [^*] stopped at the bold "**A2 fired"; a bare **A\d lookahead matched it too)
             if not re.search(r"fired", _m.group(1), re.I): _unmarked.append(f"{os.path.basename(_p)}:{_n} (**A2** row)")
 if _unmarked:
     findings.append(("DRIFT", "fired", f"{len(_unmarked)} presentation line(s) present A2 (λ = 1/√20 or the **A2** row) without its fired status (K1928/K1930 Section 3(a)): {', '.join(_unmarked[:6])}", "Lyra (applies), Cal (gates)"))
