@@ -1,0 +1,13 @@
+[PASS] CONTROL SL(2,R): D_{5/2}⊗D_{5/2} = ⊕_k D_{5+k}, each once (unit-step convention = the prompt's ⊕ H_{a+b+2k})  [(Fraction(5, 1), 1), (Fraction(6, 1), 1), (Fraction(7, 1), 1), (Fraction(8, 1), 1)]
+[PASS] CONTROL SL(2): Sym² D_a = ⊕ D_{2a+2k}, Λ² D_a = ⊕ D_{2a+2k+1}, each once  Sym² k: [Fraction(0, 1), Fraction(2, 1), Fraction(4, 1), Fraction(6, 1)]  Λ² k: [Fraction(1, 1), Fraction(3, 1), Fraction(5, 1), Fraction(7, 1)]
+   Sym²:  [(5, (0, 0), 1), (7, (2, 0), 1), (7, (0, 0), 1), (9, (4, 0), 1), (9, (2, 0), 1), (9, (0, 0), 1), (11, (6, 0), 1), (11, (4, 0), 1), (11, (2, 0), 1), (11, (0, 0), 1)]
+   Λ²:    [(6, (1, 0), 1), (8, (3, 0), 1), (8, (1, 0), 1), (10, (5, 0), 1), (10, (3, 0), 1), (10, (1, 0), 1)]
+[PASS] (i) Sym² peels cleanly into lowest K-types (l,0) with l EVEN at 5 + 2n + l, each once (to depth 6)  
+[PASS] (i) Λ² peels cleanly into (l,0) with l ODD at 5 + 2n + l, each once  
+[PASS] (i) Sym² ⊕ Λ² = 5816's full list ⊕_{j,m}(j,0) at 5 + j + 2m  
+[PASS] NEGATIVE CONTROL: with the Adams sign exchanged, the 'Sym²' list contains ODD l (detected)  
+Traceback (most recent call last):
+  File "/Users/cskoons/projects/github/BubbleSpacetimeTheory/play/toy_5820_SEP26_Sym2_and_Lambda2_of_H52_even_l_odd_l_double_traces_Adams_characters_and_explicit_lowest_vectors_in_z1_minus_z2.py", line 89, in <module>
+    Mtx[mu*len(lower) + li[mono], j] += c
+                        ~~^^^^^^
+KeyError: 1

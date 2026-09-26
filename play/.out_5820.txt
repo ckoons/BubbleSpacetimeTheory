@@ -1,0 +1,11 @@
+[PASS] CONTROL SL(2): Sym² D_a = ⊕ D_{2a+2k}, Λ² D_a = ⊕ D_{2a+2k+1}, each once  Sym² k: [Fraction(0, 1), Fraction(2, 1), Fraction(4, 1), Fraction(6, 1)]  Λ² k: [Fraction(1, 1), Fraction(3, 1), Fraction(5, 1), Fraction(7, 1)]
+   Sym²:  [(5, (0, 0), 1), (7, (2, 0), 1), (7, (0, 0), 1), (9, (4, 0), 1), (9, (2, 0), 1), (9, (0, 0), 1), (11, (6, 0), 1), (11, (4, 0), 1), (11, (2, 0), 1), (11, (0, 0), 1)]
+   Λ²:    [(6, (1, 0), 1), (8, (3, 0), 1), (8, (1, 0), 1), (10, (5, 0), 1), (10, (3, 0), 1), (10, (1, 0), 1)]
+[PASS] (i) Sym² peels cleanly into lowest K-types (l,0) with l EVEN at 5 + 2n + l, each once (to depth 6)  
+[PASS] (i) Λ² peels cleanly into (l,0) with l ODD at 5 + 2n + l, each once  
+[PASS] (i) Sym² ⊕ Λ² = 5816's full list ⊕_{j,m}(j,0) at 5 + j + 2m  
+[PASS] NEGATIVE CONTROL: with the Adams sign exchanged, the 'Sym²' list contains ODD l (detected)  
+[PASS] (ii) lowest vectors of degree N = polynomials in u = z1−z2 (kernel dim = C(N+4,4)), N ≤ 3  [(0, 1, 1), (1, 5, 5), (2, 15, 15), (3, 35, 35)]
+[PASS] (ii) swap σ acts by (−1)^N = (−1)^l on them (Q(u)^n h_l(u), N = 2n + l): Sym² ⇔ even l, Λ² ⇔ odd l  
+
+SCORE: 7/7

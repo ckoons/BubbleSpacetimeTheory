@@ -1,0 +1,15 @@
+[PASS] (b) diagonal restriction R intertwines two-body so(2,5) at (5/2,5/2) with one-body at λ = 5 (P, K, D, M; exact)  None
+   R(primary [φφ]_{n,l}) for sample (n,l): {(0, 0): 1, (0, 1): 0, (0, 2): 0, (1, 0): 0, (1, 1): 0, (0, 3): 0, (2, 0): 0}
+[PASS] (b) R kills every sampled double-trace primary except (0,0); R(1) = 1  
+[PASS] (b) the sampled primaries are lowest vectors (total P annihilates them)  
+[PASS] (b) K-raised descendants of every (n,l) ≠ (0,0) primary also vanish under R ⇒ R†R = c·Π_{0,0}: γ_{0,0} ≠ 0, all other γ_{n,l} = 0  
+[PASS] (a) Schur: with H⊗H multiplicity-free (5816, 5820 — both computed), every G-invariant vertex is Σ c_{n,l}Π_{n,l}; representation theory allows EVERY γ-profile — it constrains nothing until a vertex is named  
+[FAIL] HPPS CONTROL: OWED — Grace's numbered-equation pin had not landed at run time; not reproduced from memory  
+[FAIL] su(3) VERTEX (Lyra): OWED — not written at run time  
+
+CALIBRATION (prereg): a point of D_IV^5 has compact stabilizer K = SO(5)xSO(2); a point of AdS_6 = SO(5,2)/SO(5,1) has
+noncompact stabilizer. The holomorphic contact (b) is NOT HPPS's AdS contact; that it shifts only (0,0) is a DIFFERENCE, to be
+set against HPPS's own statement once pinned. (b) is a named vertex, not a forced one: the kill 'γ ≡ 0 for every BST-named vertex'
+does not fire, and whether BST FORCES any vertex is not answered here (Cal S997: the colour bit picks the group, not whether γ ≠ 0).
+
+SCORE: 5/7
