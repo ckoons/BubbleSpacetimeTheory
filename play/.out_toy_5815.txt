@@ -1,0 +1,7 @@
+S1 d=4 degeneracies [1, 5, 14, 30, 55] == SO(5)(a,0); d=3 control (N+1)^2 -> True
+S2 Rac = (+) D+_{3/2+i} x (i/2,i/2) once each: True  ; H2 needs the 2m tower: True -> True
+S3 r^-(D-2) harmonic in R^D; r^-3 in R^4 -> 3/r**5 -> True
+S4 compact two-point = Fock generating function -> True
+S5 C^(5/2)_N = sum_b c_b C^(3/2)_{N-2b}, c_b>0, floor(N/2)+1 terms -> True
+S6 flat limit rel.err 2.19e-07 -> True
+SCORE 6/6
