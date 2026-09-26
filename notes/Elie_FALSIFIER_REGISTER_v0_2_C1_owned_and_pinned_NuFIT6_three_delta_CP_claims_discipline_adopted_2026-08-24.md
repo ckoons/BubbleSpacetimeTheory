@@ -1,4 +1,4 @@
-# FALSIFIER REGISTER v0.28 (Ext 5's owed) — A2 FIRED on the K_μ2 route (Cal Sections 989/992 criterion, convention-matched; |V_ud| face past 3σ; rescues named, not credited; Keeper certification owed); A13's 16/3 AT THRESHOLD (Cal's final wording); E8 the colour-only-19 prediction FALSIFIED by T192; NEW A14 the T_bb test (Casey option B) with the proximity class fixed before δ — Grace
+# FALSIFIER REGISTER v0.28 (Ext 5's owed) — A2 FIRED on the K_μ2 route (Cal Sections 989/992 criterion, convention-matched; |V_ud| face past 3σ; rescues named, not credited; CERTIFIED by Keeper 12:56 2026-09-26, K1928 second amendment, antecedent restated verbatim); A13's 16/3 AT THRESHOLD (Cal's final wording); E8 the colour-only-19 prediction FALSIFIED by T192; NEW A14 the T_bb test (Casey option B) with the proximity class fixed before δ — Grace
 
 **v0.28 (Grace, 2026-09-26 12:00; A14 added 12:04, round 6 item 3, on Cal Section 992 (A)(B)(F)). Rows A2, A13, A14 (new) and E8 (new). A14 entered after its class was fixed before δ was read (toy 5810, sha 2f0b722a, hashed before its first run), as Section 992(F) required.**
 
