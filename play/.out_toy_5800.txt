@@ -1,0 +1,8 @@
+P1 antilinear aut=True e->ebar=True V1 kept=True tr(rho rho^T)=0.848511 |<sv,v>|^2=0.848511 -> True
+P2 dim u(3)=9 dim commutant of conj=3 -> True
+P3 max|[J, so(4)(x)1]|=0.0e+00 (J central in K) ; F242 element commutes with 4/6 su(2)+-su(2) generators -> False
+P4 J on plane(x)R^2: (SD,ASD)=(True, False) ; plane rotation: (False, True) -> True
+P5 harmonic deg-j on C^5 = SO(5)(j,0) = sum_(i<=j) (i+1)^2 for j<40: True  e.g. j=3: 30 = 1+4+9+16
+P6 weights(H2) cap weights(ladder) = [] ; floors 2.5 vs 1 ; shells (n,n^2,2n^2)=[(1, 1, 2), (2, 4, 8), (3, 9, 18), (4, 16, 32)] -> True
+P7 SU(3) keeps eps=True ; centre phase keeps eps=False ; v^v^w=2.2e-16 -> True
+SCORE 6/7
