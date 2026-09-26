@@ -210,7 +210,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |PMNS $\sin^2\theta_{12}$            |$(3/10)(44/45) = 0.2933$ (T1446)|$0.2935\pm0.012$ |$\checkmark$ 0.06%    |
 |PMNS $\sin^2\theta_{23}$            |$(4/7)(44/45) = 0.5587$ (T1446) |$0.561\pm0.018$  |$\checkmark$ 0.40%    |
 |PMNS $\sin^2\theta_{13}$            |$1/(N_c^2 n_C) = 1/45 = 0.02222$|$0.02203\pm0.00056$|$\checkmark$ 0.9%|
-|CKM Cabibbo angle $\sin\theta_C$    |$1/\sqrt{20} = 0.22361$ (T2530, DERIVED blind 2026-07-29; the $2/\sqrt{79}$/T1444 form is retired) — exactly first-row unitary|$0.22501\pm0.00068$|$\checkmark$ 0.004%|
+|CKM Cabibbo angle $\sin\theta_C$    |$1/\sqrt{20} = 0.22361$ (T2530, DERIVED blind 2026-07-29; the $2/\sqrt{79}$/T1444 form is retired) — exactly first-row unitary|$0.22517\pm0.00068$ (PDG 2026; $-2.30\sigma$, gap 0.69 %)|$\times$ A2 fired on $K_{\mu 2}$ (FLAG 2027 decides)|
 |CKM CP phase $\gamma$               |$\arctan(\sqrt{n_C}) = \arctan(\sqrt{5}) = 65.91°$|$65.5° \pm 2.5°$|$\checkmark$ 0.6%|
 |Wolfenstein $\bar\rho$              |$1/(2\sqrt{2n_C}) = 1/(2\sqrt{10}) = 0.158$|$0.159\pm0.010$|$\checkmark$ 0.6%|
 |Wolfenstein $\bar\eta$              |$1/(2\sqrt{2}) = 0.354$|$0.349\pm0.010$|$\checkmark$ 1.3%|
