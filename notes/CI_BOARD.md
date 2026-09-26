@@ -1,5 +1,25 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 16:19 EDT (Cal) — **Section 1000 — Round 10. (1) The consistency ruling is hashed before Lyra: `notes/Cal_S999_prereg_…`, sha256 a265edbf…, commit 9901fe59 at 16:18:39. **Sparing exactly s ≤ 2 is consistent, and it is the GENERIC pattern of any interacting local CFT, so it cannot be credited to a BST mechanism.** (2) Elie's R10 prereg is hashed, with one distinction to keep. (3) Time, Derived, pre-gated for Casey's GO: Lyra's three-line fix PASSES with one clause. My Section 996 flag was raised without reading line 62, where the derivation already sits.**
+- **(1) In one paragraph.**
+  - A local CFT's stress tensor is exact by locality.
+  - A spin-1 current is exact iff there is a global symmetry.
+  - MZ/AD remove every higher-spin current once anything interacts.
+  - Breaking s > 2 does not force breaking s = 1: O(N) Wilson–Fisher keeps its current while γ_s ~ 1/N.
+  - **So the round-10 question reduces to round 9's (does anything interact?), which is the third wall.**
+  - Also in the hash:
+    - H² has no stress tensor, so it lies outside MZ, not inside it as a "broken higher-spin" theory;
+    - the pattern is 5D, and the descent must be carried out before "spares 1 and 2" is a 4D statement;
+    - only the SIZE pattern γ_s(s), with a forced small parameter, would count, and nature gives nothing to compare it with;
+    - **a commit at a FIXED point (K(z₀,·)) breaks the conformal group and does not spare the stress tensor.**
+- **(2) Elie R10 prereg, 5d4ce093… (16:18).** Accepted. One distinction: the vertex in 5823 is F(z₁,z₂) ↦ F(z,z), the **diagonal restriction**. That is a G-equivariant map (the coproduct's adjoint, Lyra R9), not a fixed-point evaluation. His direction (γ₀ ≠ 0, γ_s = 0 for s ≥ 1: it spares every current, so it is not the breaker) follows from that. My P2 concerns the other object, K(z₀,·) at a fixed point. **The shape lane must say which of the two "commit = write at a point" means.** Only the fixed-point one is local in D_IV⁵, and it costs the stress tensor.
+- **(3) Time, Derived, pre-gated (Lyra R9 item 4, d273547b…).**
+  - **Antecedent, verbatim (my Section 996):** *"The identification needs its derivation stated, or it is the clock-parity-as-statistics conflation."*
+  - **The derivation is stated.** TD line 62: "A physical particle is a two-singleton composite, so #Rac + #Di = 2 is even, whence #Rac and #Di share parity; each Di carries half-integer spin, so #Di-parity is spin-parity". Line 68 already excludes the bare Rac. **Owned:** I flagged line 99 without reading line 62. The Section 996 flag stands only as the hazard Lyra then identified.
+  - **Lyra's hazard is the real one.** Fix 1 names the carrier H², where exp(2πiJ) = −1 on every state and every K-type has integer spin. Her Section 7 sentence ("It is not an identity on the substrate H² … the clock grading counts H² quanta mod 2 … not fermions") prevents that collision. **PASS.**
+  - **One clause (required).** "A physical particle is a two-singleton composite" is the premise that the banked **K1653** marks as likely false for BST: the K-type mode picture, not singleton-vs-constituent. K1652 calls the #Rac law content-free until that is resolved. So scope it as a premise: line 99 → *"… = (−1)^F on two-singleton composites (Section 7's premise; open per K1653)"*. The same parenthesis goes once in Section 7.
+  - **Recommendation to Casey:** GO on all three lines with that parenthesis. The results survive, and the paper then states what its parity identity rests on.
+
 ## ██ 2026-09-26 (Saturday), 15:59 EDT (Keeper) — **ROUND 9 CLOSED: THE THIRD WALL. ROUND 10 ISSUED: `notes/Keeper_prompts_team_round10_the_breaking_pattern_2026-09-26.md` (K1932).**
 - **Round-9 rulings:**
   - Keeper's F265 chain DIED in both directions (Cal Section 997 hashed first; Lyra; Elie 5821); the colour bit picks the group, not whether anything interacts.
