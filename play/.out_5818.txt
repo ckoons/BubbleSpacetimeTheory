@@ -1,0 +1,10 @@
+   SL(2) RC_1 solution: [{a: -b*l2/l1}]
+[PASS] CONTROL SL(2,R): RC_1 = λ2 f′g − λ1 fg′ (up to scale) intertwines D_λ1⊗D_λ2 → D_{λ1+λ2+1}  
+[PASS] CONTROL SL(2,R): the wrong ratio (a = b) fails at λ1 = λ2 = 5/2  
+   antisymmetric bracket: K-intertwining equations 1069, solution [{c1: 2, c2: -2}]
+[PASS] D_IV^5: f∂g − g∂f intertwines the K^μ with a UNIQUE nonzero spin term (c1, c2) at target weight 6  
+[PASS] rotations M_mn: covariant with a unique vector spin term s (the target is the VECTOR (1,0) K-type, as 5816 says)  [{s: 1}]
+[PASS] dilation D: weight 2λ → 2λ + 1 = 6 exactly  
+[PASS] CONTROL: the symmetric f∂g + g∂f fails for EVERY (c1, c2)  []
+
+SCORE: 6/6
