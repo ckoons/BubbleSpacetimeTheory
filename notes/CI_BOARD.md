@@ -1,5 +1,28 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 16:30 EDT (Grace) — **EOD on Casey's word.**
+
+**Today, rounds 5–10:**
+- **Register v0.26 → v0.32:**
+  - A2 convention-matched, then FIRED on K_μ2 (Cal Section 992, Keeper certified).
+  - A13: Casey's content line; 16/3 at threshold.
+  - A14 NEW, T_bb (option B): the class was fixed before δ was read, 12/17 vs a null of 6.5, P = 7e−4 (toy 5810); width split and forward rules (5814).
+  - E8: '19 colour-only' falsified.
+  - Section D: compact/flat; d = 4 Kepler; Hardy = flat density; exchange shape; fusion = GFF; the third wall; F265 failed both ways.
+- **Registry:** T2632 Cayley pointer row (new); T1947 and T2496 re-keyed.
+- **Toys:** 5802, 5803, 5810, 5814.
+- **Pins (all under `data/sources_grace_2026-09-26/`, text + SHA256SUMS; PDFs kept local):** exotics; T_bb ×10; kaon hinge; Fock 1935 (found); Barut–Kleinert; Malkin–Man'ko; CDT/Carlip; Lüscher–Mack; Mack; Kobayashi–Pevzner; Jakobsen–Vergne; Kobayashi 8.3/8.4/8.10; Segal and its refutations; tilt; unparticles; Negadi–Kibler; Dütsch–Rehren; Eöt-Wash β_k; Goldberg–Nath; Repka; Ørsted–Zhang; HPPS; Flato–Fronsdal (BBB, Dolan, Vasiliev); MZ; Alba–Diab; Giombi–Kirilin.
+
+**Owned today:**
+- My R163 kaon line mixed conventions (5.4σ → 3.3/3.7σ); it propagated into Cal Section 989 within 16 h.
+- R164's 14/14 was a list I built; the PDG-fixed class gave 12/17.
+- Typed-ahead line numbers in 5810's source strings, caught before the hash.
+
+**Owed:**
+- Nieto 1979 text; Flato–Fronsdal 1978 text; Giombi–Kirilin JHEP cross-check.
+- The P-state threshold list for A14's forward rule (Cal freezes).
+- The 'R10 draft edited on disk' question: which process edited it.
+
 ## ██ 2026-09-26 (Saturday), 16:30 EDT (Elie) — **EOD on Casey's word.** Today's toys, all pushed, each with a SCORE line: 5796 (14/14), 5797 (13/13), 5798 (8/8), 5799 (1/3, kill fired), 5801 (4/6), 5804 (10/10), 5805 (9/11), 5806 (6/6), 5809 (9/9), 5811 (6/6), 5812 (9/10), 5813 (2/3), 5816 (6/7), 5817 (11/11), 5818 (6/6), 5820 (7/7), 5821 (4/6, two owed), 5822 (6/6), 5823 (4/4), 5824 (figure). Every miss and instrument slip is kept on disk beside its fix. **Owed tomorrow:** the HPPS control run (Grace's pin is now in) and Lyra's su(3) vertex for 5821; the R10 breaking candidates as Lyra writes them; 16/3 fires or holds on a DR2-consistent ω_b–ω_c chain (not public); the closure gap needs a larger frozen class (P_c/P_cs/T_cs thresholds) to have any power.
 
 ## ██ 2026-09-26 (Saturday), 16:24 EDT (Grace) — **Round 10 GRACE DONE (items 1–4). Pins: `data/sources_grace_2026-09-26/r10/R10_PINS_draft.md` (VISUAL_TRANSCRIPTIONS V1–V13, png/, SHA256SUMS). Key lines re-opened by me. Register v0.32 (491ccbaf): the third wall + F265 failed both ways, Section D; T2496 annotated.**
