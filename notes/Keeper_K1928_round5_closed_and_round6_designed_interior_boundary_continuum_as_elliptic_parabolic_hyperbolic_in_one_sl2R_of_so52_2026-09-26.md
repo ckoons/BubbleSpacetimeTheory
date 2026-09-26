@@ -90,3 +90,25 @@ Take so(5,2) on ℝ^{2,5} with coordinates (x₀ = Minkowski time, x₁…x₄ =
 - **Mass gap:** K1714 already rules that the boundary gap 6/a² is a **Kaluza–Klein gap, not the Clay gap**. Part 3's "mass gap needs SO(4,2) → Poincaré × scale" is the same statement from the representation side, and the tower k in ⊕_k H_{5/2+k} is the KK index. KK is owed in the corpus (Lyra T2523 addendum: "a KK reduction, transverse S³ compact"). Round 6 pays it.
 - **Continuum:** T2564 (08-14): BST is a causal set with a derived order; the continuum dimension and metric are OPEN. T2429 (a continuum limit at ~10⁹⁶ ticks) is old and unaudited; audit it before citing. Grace R164: BST's d_eff = 6 (T655) is a different object from the diffusion spectral dimension.
 - **Literature gaps (0 corpus hits):** Segal, Lüscher–Mack, Juhl, Pevzner, Kobayashi symmetry-breaking operators. They enter the corpus this round, pinned from the source.
+
+---
+
+## ADDENDUM 11:38 EDT — Casey's T_bb decision and the closure-gap question (verbatim)
+> "On my decision, we don't yet have enough to know with reasonable certainty. The fact that the exotic is always below a threshold seems to say we had a partial winding in one component, so 'what is missing' or was it a glitch in the commit (I doubt in the information write) or a glitch in the projection from the Shilov Boundary or a lack of energy causing an early cutoff. It seems the Shilov boundary has a 'window' of possible energy ranges and sometimes a partial winding slips through, I wonder how far the winding made it i.e. what is the winding closure gap? Lets take option B for now until we have more data/information."
+
+**Ruling recorded: OPTION B, provisional.** The proximity rule is scoped to what the data show: observed exotics sit at their two-hadron thresholds. T_bb is named as the discriminating test, BST's QCD versus something beyond it. It is registered before LHCb Upgrade II. Grace words the register line and Cal hashes it.
+
+**One correction to the premise, from Grace's R164 table (pinned there):** the exotics are not always *below* threshold. They sit **at** threshold, on both sides:
+- **7 below:** X(3872), T_cc⁺, P_c(4312/4440/4457), T*_cs0(2870), P_cs(4459).
+- **7 above:** Z_c(3900/4020), Z_b(10610/10650), T_cs̄0(2900), T*_cs1(2900), P_ψs(4338).
+- The sign of X(3872) is not settled (pole +0.01 MeV).
+- X(6900) is 704 MeV above di-J/ψ with no natural threshold.
+
+**So Casey's "winding closure gap" becomes the SIGNED offset δ = M − M_threshold.** It straddles zero, with |δ| ≤ 30 MeV for every thresholded state. In the winding reading, "below" and "above" would be a winding that fell short of closure and one that overshot it. That is a two-sided window, which is what Casey's "the Šilov boundary has a window" says.
+
+**The lane (round 6, Addendum 1):**
+- **Direction first:** a boundary window predicts that |δ| is bounded by a scale **independent of the constituents' masses**.
+- **Ordinary QCD molecules** (one-pion exchange, heavy-quark symmetry) predict binding that grows with the reduced mass. That is why T_bb, with the heaviest reduced mass, is predicted deep.
+- **Kill line:** if |δ| (or the binding momentum √(2μ|δ|)) tracks the reduced mass as one-pion exchange predicts, the window adds nothing beyond QCD.
+- **Menu risk named:** the unit for "how far the winding made it" is chosen BEFORE the table is read again: δ/M_thr, δ/m_π, or the binding momentum/Λ_QCD. Elie freezes the choice and Cal hashes it.
+- Casey's three candidate causes (a commit glitch, a projection glitch at the Šilov boundary, an energy cutoff) are recorded as readings, not claims. The one that makes a mass-independent prediction is the testable one.

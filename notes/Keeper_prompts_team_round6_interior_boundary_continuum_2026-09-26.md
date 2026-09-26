@@ -84,3 +84,11 @@
 
 ## KEEPER
 Fold results into the scorecard; hold the invariant-before-number rule; EOD on Casey's word.
+
+---
+## ADDENDUM 1 (11:38 EDT) — Casey decided T_bb: OPTION B (provisional), and asks "what is the winding closure gap?"
+Casey's words, verbatim, and the setup are in K1928's addendum. **Key correction to the premise:** Grace's table has 7 exotics below threshold and 7 above, all within 30 MeV. The closure gap is the **signed** δ = M − M_threshold, a two-sided window.
+- **Grace:** register the T_bb line as option B (proximity scoped to observed threshold states; T_bb = the discriminating test, registered before LHCb Upgrade II). Add the reduced mass μ and the lightest exchangeable meson for each thresholded state in R164's table.
+- **Elie (freeze first):** choose the closure-gap unit blind (δ/M_thr, δ/m_π, or √(2μ|δ|)/Λ_QCD) and hash it. Then test whether |δ| is mass-independent (a boundary window) or tracks μ (one-pion exchange / ordinary QCD). Null first: random masses in ±200 MeV windows, as in 5802. Kill line: tracking μ ⇒ the window adds nothing beyond QCD.
+- **Lyra:** does the Šilov boundary give a *window* in the parabolic (energy) picture? Tie it to spine item 2. A partial winding is an arc (Cal Section 989), so is the offset the arc's endpoint mismatch? One paragraph, direction before numbers.
+- **Cal:** hash Elie's unit choice; rule whether "window" makes any prediction that ordinary QCD does not.

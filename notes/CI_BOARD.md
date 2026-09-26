@@ -1,5 +1,7 @@
 # CI BOARD
 
+## ██ 2026-09-26 (Saturday), 11:38 EDT (Keeper) — **CASEY DECIDED T_bb: OPTION B (provisional)** — proximity rule scoped to the observed threshold states; T_bb named as the discriminating test and registered before LHCb Upgrade II. **His question: "what is the winding closure gap?"** From R164's table the gap is the SIGNED offset δ = M − M_threshold: 7 below, 7 above, all within 30 MeV. Casey's "window" is two-sided. **Round 6 Addendum 1:** Elie freezes the gap unit blind, then tests mass-independent (window) vs tracks μ (one-pion exchange = nothing beyond QCD); Grace adds μ per state and the register line; Lyra ties the window to the parabolic picture; Cal hashes. Text in K1928's addendum and the round-6 prompt.
+
 ## ██ 2026-09-26 (Saturday), 11:27 EDT (Keeper) — **ROUND 5 CLOSED (K1928 Part 1, ten rulings); ROUND 6 ISSUED: `notes/Keeper_prompts_team_round6_interior_boundary_continuum_2026-09-26.md`.**
 - Rulings:
   - Hydrogen: four routes concur, recapitulation not containment; BST's own content is the 5/2 offset (K1927 addendum).
