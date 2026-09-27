@@ -1,0 +1,4027 @@
+                                                  A geometric quantization of the
+                                          Kostant–Sekiguchi correspondence for scalar type
+                                               unitary highest weight representations
+
+
+
+
+arXiv:1205.5171v4 [math.RT] 19 Jun 2013
+                                                                          Jan Möllers
+                                                                         June 18, 2013
+
+
+                                                                             Abstract
+                                                 For any Hermitian Lie group G of tube type we give a geometric quan-
+                                             tization procedure of certain KC -orbits in p∗C to obtain all scalar type
+                                             highest weight representations. Here KC is the complexification of a max-
+                                             imal compact subgroup K ⊆ G with corresponding Cartan decomposition
+                                             g = k + p of the Lie algebra of G. We explicitly realize every such repre-
+                                             sentation π on a Fock space consisting of square integrable holomorphic
+                                             functions on its associated variety Ass(π) ⊆ p∗C .
+                                                 The associated variety Ass(π) is the closure of a single nilpotent KC -
+                                             orbit OKC ⊆ p∗C which corresponds by the Kostant–Sekiguchi correspon-
+                                             dence to a nilpotent coadjoint G-orbit OG ⊆ g∗ . The known Schrödinger
+                                             model of π is a realization on L2 (O), where O ⊆ OG is a Lagrangian sub-
+                                             manifold. We construct an intertwining operator from the Schrödinger
+                                             model to the new Fock model, the generalized Segal–Bargmann trans-
+                                             form, which gives a geometric quantization of the Kostant–Sekiguchi cor-
+                                             respondence (a notion invented by Hilgert, Kobayashi, Ørsted and the
+                                             author).
+                                                 The main tool in our construction are multivariable I- and K-Bessel
+                                             functions on Jordan algebras which appear in the measure of OKC , as
+                                             reproducing kernel of the Fock space and as integral kernel of the Segal–
+                                             Bargmann transform. As a corollary to our construction we also obtain
+                                             the integral kernel of the unitary inversion operator in the Schrödinger
+                                             model in terms of a multivariable J-Bessel function as well as explicit
+                                             Whittaker vectors.
+
+                                                2010 Mathematics Subject Classification: Primary 22E45; Secondary
+                                             17C30, 30H20, 33C70, 44A15, 46E22.
+
+                                                Key words and phrases: unitary highest weight representation, orbit
+                                             method, Schrödinger model, Fock model, Jordan algebra, Segal-Bargmann
+                                             transform, Bessel function, Bessel operator, unitary inversion operator,
+                                             Whittaker vectors, branching law.
+
+
+
+
+                                                                                 1
+Contents
+Introduction                                                                   3
+
+1 Preliminaries                                                                11
+  1.1 Simple Euclidean Jordan algebras . . . . . . . . . . . . . . . . . . 11
+  1.2 The structure group and its orbits . . . . . . . . . . . . . . . . . 12
+  1.3 Conformal group and KKT algebra . . . . . . . . . . . . . . . . . 15
+  1.4 Complexifications . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+  1.5 Nilpotent orbits and the Kostant–Sekiguchi correspondence . . . 20
+  1.6 Differential operators . . . . . . . . . . . . . . . . . . . . . . . . . 21
+  1.7 Bounded symmetric domains of tube type . . . . . . . . . . . . . 23
+  1.8 Polynomials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+
+2 Three different realizations of unitary highest weight represen-
+  tations of scalar type                                                     29
+  2.1 The Schrödinger model . . . . . . . . . . . . . . . . . . . . . . . . 29
+  2.2 The tube domain model . . . . . . . . . . . . . . . . . . . . . . . 29
+  2.3 The bounded symmetric domain model . . . . . . . . . . . . . . 30
+  2.4 k-type decompositions . . . . . . . . . . . . . . . . . . . . . . . . 31
+  2.5 Complexification of the Schrödinger model . . . . . . . . . . . . . 32
+
+3 Bessel functions on Jordan algebras                                         35
+  3.1 J-Bessel function . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+  3.2 I-Bessel function . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+  3.3 K-Bessel function . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+
+4 A Fock model for unitary highest weight representations of
+  scalar type                                                              45
+  4.1 Construction of the Fock space . . . . . . . . . . . . . . . . . . . 45
+  4.2 The Bessel–Fischer inner product . . . . . . . . . . . . . . . . . . 47
+  4.3 Unitary action on the Fock space . . . . . . . . . . . . . . . . . . 48
+  4.4 The reproducing kernel . . . . . . . . . . . . . . . . . . . . . . . 50
+  4.5 Rings of differential operators and associated varieties . . . . . . 51
+
+5 The Segal–Bargmann transform                                         54
+  5.1 Construction of the Segal–Bargmann transform . . . . . . . . . . 54
+  5.2 Intertwiner to the bounded symmetric domain model . . . . . . . 59
+
+6 The unitary inversion operator                                              61
+  6.1 The integral kernel of Uλ . . . . . . . . . . . . . . . . . . . . . . . 61
+  6.2 Whittaker vectors . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+
+7 Application to branching problems                                           67
+
+
+
+
+                                       2
+Introduction
+The unitary highest weight representations of a semisimple Lie group G were
+classified by Enright–Howe–Wallach [13] and Jakobsen [29] independently (see
+also [14]). Among them are the scalar type representations which were first
+completely described by Berezin [6] for the classical groups and by Wallach
+[52] in the general case and are parameterized by the so-called Wallach set
+(sometimes also referred to as the Berezin–Wallach set). There are various
+different realizations of these representations, e.g. on spaces of holomorphic
+functions on a bounded symmetric domain. Rossi–Vergne [49] gave a realization
+which can by the work of Hilgert–Neeb–Ørsted [25, 26, 27] be understood as the
+geometric quantization of a nilpotent coadjoint G-orbit. More precisely, their
+model lives on the space L2 (O) of square integrable functions on a Lagrangian
+submanifold O ⊆ OG of a nilpotent coadjoint G-orbit OG ⊆ g∗ in the dual of
+the Lie algebra g of G. We refer to this realization as the Schrödinger model.
+    The Kostant–Sekiguchi correspondence asserts a bijection between the set
+of nilpotent coadjoint G-orbits in g∗ and the set of nilpotent KC -orbits in p∗C ,
+where KC is the complexification of a maximal compact subgroup K ⊆ G of G
+with corresponding Cartan decomposition g = k + p. Under this bijection OG
+corresponds to a nilpotent KC -orbit OKC in p∗C . Harris–Jakobsen [19] obtained
+a realization of each scalar type unitary highest weight representation of g on
+regular functions on the corresponding associated variety in p∗C (see also [30]).
+However, their construction is not explicit and of purely algebraic nature. They
+neither give a geometric construction of the invariant inner product nor do they
+analytically describe the representation space for the group action.
+    However, for the special case of the even part of the metaplectic represen-
+tation, which is a highest weight representation of scalar type of g = sp(k, R),
+a geometric quantization of the corresponding KC -orbit is well-known. It gives
+the even part Feven(Ck ) of the classical Fock space, consisting of even holo-
+morphic functions on Ck which are square integrable with respect to the Gaus-
+                    2
+sian measure e−|z| dz. In this case also the intertwining operator between the
+Schrödinger model on L2even (Rk ), the space of even L2 -functions on Rk , and the
+Fock model Feven(Ck ) is explicit. It is given by the classical Segal–Bargmann
+                                                                ∼
+transform which is the unitary isomorphism B : L2even (Rk ) → Feven (Ck ) given
+by
+                       Z
+                   1 2             2
+       Bψ(z) = e− 2 z     e2z·x e−x ψ(x) dx.                                  (0.1)
+                       Rk
+
+    For Hermitian groups of tube type, we construct in a completely analytic and
+geometric way analogues of the Fock space and the Segal–Bargmann transform
+for any unitary highest weight representation of scalar type. The generalized
+Fock space consists of holomorphic functions on OKC which are square integrable
+with respect to a certain measure. This establishes a geometric quantization of
+the nilpotent KC -orbit OKC . We further find explicitly the intertwining operator
+between this new Fock model and the Schrödinger model, the generalized Segal–
+Bargmann transform. This integral transform can be understood as a geometric
+quantization of the Kostant–Sekiguchi correspondence, a notion invented in [23].
+We remark that the special case of the minimal nilpotent KC -orbit was treated
+in [23] which was in fact the starting point of our investigations.
+
+
+                                        3
+    Although some of our proofs are obvious generalizations of the proofs in
+[23] for the rank 1 case (the minimal scalar type highest weight representation),
+the general case requires new techniques. Whereas in [23] it was possible to
+work with classical one-variable Bessel functions, we have to use multivariable
+J-, I- and K-Bessel functions on Jordan algebras in the general case. These
+were studied before in [8, 10, 11, 12, 16], partly in a different context. We
+systematically investigate them further, proving asymptotic expansions, growth
+estimates, invariance properties, differential equations, integral formulas and
+their restrictions to the KC -orbits OKC . We then use the K-Bessel functions
+in the construction of the measures on the orbits OKC and the I-Bessel func-
+tions as reproducing kernels of the Fock spaces and as integral kernels of the
+Segal–Bargmann transforms. Additional results not studied in [23] involve a
+detailed analysis of corresponding KC -orbits and rings of differential operators
+on them (Section 4.5), the intertwining operator to the bounded symmetric do-
+main model (Section 5.2), Whittaker vectors in the Schrödinger model (Section
+6.2) and applications to branching laws (Section 7). We further believe that
+our more general construction extends the known realizations of unitary high-
+est weight representations in a natural and organic way.
+
+    We now explain our results in more detail. Let G be a simple connected
+Hermitian Lie group of tube type with trivial center. Then G occurs as the
+identity component of the conformal group of a simple Euclidean Jordan algebra
+V . Its Lie algebra g acts on V by vector fields up to order 2. More precisely,
+we have a decomposition
+      g = n + l + n,                                                           (0.2)
+where n ∼
+        = V acts on V by translations, l = str(V ) is the structure algebra of V
+acting by linear transformations and n acts by quadratic vector fields. There is
+a natural Cartan involution ϑ on G given in terms of the inversion in the Jordan
+algebra. Denote by K = Gϑ the corresponding maximal compact subgroup of
+G and by g = k + p the associated Cartan decomposition. Then k has a one-
+dimensional center Z(k) = RZ0 . Let KC be a complexification of K, acting
+on pC . Then pC decomposes into two irreducible KC -modules p+ and p− and
+Z0 ∈ Z(k) can be chosen such that p± is the ±i eigenspace of ad(Z0 ) on pC . We
+have the well-known decomposition
+      gC = p− + kC + p+ .                                                      (0.3)
+There is a Cayley type transform C ∈ Int(gC ) (see (1.6) for the precise definition)
+which interchanges the decompositions (0.2) and (0.3) in the sense that
+      C(p− ) = nC ,             C(kC ) = lC ,            C(p+ ) = nC .
+
+Unitary highest weight representations
+Let (π, H) be an irreducible unitary representation of the universal cover G  e of G
+                                             e              e    e
+and denote by ( dπ, HKe ) its underlying (g, K)-module, K ⊆ G being the univer-
+sal cover of K. We say that (π, H) or ( dπ, HKe ) is a highest weight representation
+if
+         +
+       p                  +
+       e := {v ∈ HK : dπ(p )v = 0} 6= 0.
+      HK
+
+
+                                         4
+               +                                                           +
+             p                                                       p
+The space HK  e is an irreducible k-representation. If further dim HK e = 1 we
+say that (π, H) is of scalar type. In this case only the center Z(k) = RZ0 of k
+                          p+
+can act nontrivially on HK e and the scalar type highest weight representations
+   e
+of G are parameterized by this scalar. More precisely, we define the Wallach set
+                                               
+               d                  d           d
+      W=     0, , . . . , (r − 1)    ∪ (r − 1) , ∞ ,
+               2                  2           2
+
+where d is a certain root multiplicity of g and r denotes the rank of the Hermitian
+symmetric space G/K. Then for each λ ∈ W there is exactly one scalar type
+                                                                    +
+highest weight representation H of G    e in which Z0 acts on Hp by the scalar
+                                                                  Ke
+−i rλ
+    2 .
+
+
+Nilpotent orbits
+We identify g∗ with g and p∗C with pC via the Killing form of gC . By the
+Kostant–Sekiguchi correspondence the nilpotent adjoint G-orbits in g are in
+bijection with the nilpotent KC -orbits in pC . For a certain class of orbits we
+make this correspondence more precise. The analytic subgroup L of G with Lie
+algebra l acts on V ∼= n via the adjoint representation. It has finitely many
+orbits, among them an open orbit Ω ⊆ V (the orbit of the identity element in
+the Jordan algebra) which is a symmetric cone. Its closure has a stratification
+into lower dimensional orbits O0 , . . . , Or−1 with Ok ⊆ Ok+1 . Put Or := Ω.
+These orbits in n generate nilpotent adjoint G-orbits
+
+      OkG := G · Ok ⊆ g,                         k = 0, . . . , r.
+
+Via the Kostant–Sekiguchi correspondence these G-orbits correspond to nilpo-
+tent KC -orbits O0KC , . . . , OrKC in p+ ⊆ pC . Under the Cayley type transform
+C ∈ Int(gC ) these KC -orbits map to
+
+      Xk := C(OkKC ) ⊆ nC ∼
+                          = VC ,                      k = 0, . . . , r.
+
+Since C(kC ) = lC each Xk is an LC orbit in VC , where LC is a complexification
+of L, acting linearly on VC . Under the identifications described above Ok ⊆ Xk
+is a totally real submanifold.
+
+The Schrödinger model
+Rossi–Vergne [49] showed that the scalar type unitary highest weight represen-
+tation corresponding to the Wallach point λ ∈ W can be realized on a space
+of L2 -functions on the orbit Ok for λ = k d2 , k = 0, . . . , r − 1, and on the orbit
+Or = Ω for λ > (r − 1) 2d . For convenience we put Oλ := Ok where either
+λ = k d2 , 0 ≤ k ≤ r − 1, or k = r for λ > (r − 1) 2d . For each λ ∈ W there is a
+certain L-equivariant measure dµλ on Oλ (see Section 1.2 for details). Then the
+natural irreducible unitary representation of L ⋉ exp(n) on L2 (Oλ , dµλ ) extends
+to an irreducible unitary representation πλ of G e which is the scalar type highest
+weight representation belonging to the Wallach point λ ∈ W. The differential
+representation dπλ of g in this realization was computed in [22] and is given by
+differential operators on Oλ up to order 2 with polynomial coefficients. A special
+
+                                          5
+role is played by the second order vector-valued Bessel operator Bλ which gives
+the differential action of n (see Section 1.6 for its definition). This operator was
+first introduced by Dib [10] and studied further in [22].
+
+Bessel functions on Jordan algebras
+For each λ ∈ W we construct Bessel functions Jλ (z, w) and Iλ (z, w) for z, w ∈
+Xλ := LC · Oλ (see Sections 3.1 and 3.2). Both Jλ (z, w) and Iλ (z, w) can be ex-
+tended to functions on VC × Xλ which are holomorphic in z and antiholomorphic
+in w. They solve the differential equations
+      (Bλ )z Jλ (z, w) = −wJλ (z, w),         (Bλ )z Iλ (z, w) = wIλ (z, w).
+For w = e the identity element and λ > (r − 1) d2 the corresponding one-variable
+functions Jλ (x) = Jλ (x, e) and Iλ (x) = Iλ (x, e) on Ω were first studied by
+Herz [21] for real symmetric matrices and later for the more general case in
+[10, 11, 12, 15, 16]. We further define a K-Bessel function Kλ (x) on Oλ for every
+λ ∈ W which solves the same differential equation as Iλ (x), but has a different
+asymptotic behaviour (see Section 3.3). These functions were introduced by Dib
+[10] and studied further in [8, 15].
+
+The Fock space
+The closure of Xk ∼    K
+                   = Ok C is an affine algebraic variety and hence the space C[Xk ]
+of regular functions on Xk equals the space P(Xk ) of restrictions of holomorphic
+polynomials on VC to Xk . We construct measures on Xk in two steps. Fix
+λ ∈ W. First the L-equivariant measure dµλ on Oλ ⊆ Xλ gives rise to an
+LC -equivariant measure dνλ on Xλ for every λ ∈ W. In the second step we
+extend the function
+                     
+                       x 2
+      ωλ (x) := Kλ           ,                       x ∈ Oλ ,
+                       2
+uniquely to a positive density on Xλ = LC · Oλ which, under the identification of
+Xλ with a KC -orbit, is invariant under the action of K. Then every polynomial
+F ∈ P(Xλ ) is square integrable on Xλ with respect to the measure ωλ dνλ and
+we let Fλ be the closure of P(Xλ ) with respect to the inner product
+                          Z
+      hF, GiFλ := const ·     F (z)G(z)ωλ (z) dνλ (z),    F, G ∈ P(Xλ ).
+                           Xλ
+
+Theorem A (see Proposition 4.4 & Theorems 4.15 & 5.7). For each λ ∈ W
+the space Fλ is a Hilbert space of holomorphic functions on Xλ with reproducing
+kernel
+                     z w
+      Kλ (z, w) = Iλ    ,    ,                    z, w ∈ Xλ .
+                       2 2
+We further have the following intrinsic description:
+
+      Fλ = {F |Xλ : F : VC → C holomorphic and
+                                           Z                                    
+                                                            2
+                                                      |F (z)| ωλ (z) dνλ (z) < ∞ .
+                                                 Xλ
+
+    In Section 4.2 we prove that the inner product on Fλ can also be expressed
+as a Fischer type inner product involving the Bessel operator Bλ .
+
+                                         6
+Unitary action on the Fock space
+Complexifying the differential operators dπλ (X), X ∈ g, in the differential
+representation of the Schrödinger model one obtains a Lie algebra representation
+dπλC of g on holomorphic functions on Xλ by polynomial differential operators
+(see Section 2.5 for details). We define a g-module structure on P(Xλ ) by
+composing this action with the Cayley type transform C ∈ Int(gC ):
+      dρλ (X) := dπλC (C(X)),                         X ∈ g.
+Theorem B (see Propositions 4.9, 4.10 & 4.17 & Theorem 4.11). For each
+                                                            e
+λ ∈ W the g-module ( dρλ , P(Xλ )) is an irreducible (g, K)-module       which is
+infinitesimally unitary with respect to the inner product on Fλ . It integrates to
+an irreducible unitary representation ρλ of G e on Fλ with associated variety
+
+      Ass(ρλ ) = OkKC ,
+where k ∈ {0, . . . , r} is such that Xλ = Xk .
+    The group action of K    e in the Fock model is induced by the geometric action
+of KC on the orbits Xk ∼    = OkKC up to multiplication with a character (see Propo-
+                                e
+sition 4.12). Therefore the K-type     decomposition of ρλ equals the decomposition
+of the space of polynomials on OkKC ⊆ p+ with respect to the natural KC -action
+which is essentially the Hua–Kostant–Schmid decomposition (see Proposition
+4.8).
+    In Section 4.5 we use the Fock model to give explicit generators for the rings
+D(Xk ) of differential operators on the singular affine algebraic varieties Xk ⊆ VC ,
+k = 0, . . . , r − 1, in terms of the Bessel operator Bλ .
+    Although there are already known explicit realizations for highest weight rep-
+resentations on spaces of holomorphic functions our construction has a certain
+advantage. In the realization on holomorphic functions on the corresponding
+bounded symmetric domain G/K the group action is quite explicit, but the rep-
+resentation space as well as the inner product are defined in a rather abstract
+way, at least for the singular highest weight representations. In our Fock model
+the representation space is by Theorem A explicitly given by holomorphic func-
+tions on VC which are square integrable with respect to a certain measure on
+the orbit Xλ . Although our group action is less explicit we still have a useful ex-
+pression of the Lie algebra action in terms of the Bessel operators which allows
+e.g. the study of discrete branching laws as done in Theorem E.
+
+The Segal–Bargmann transform
+The unitary representations (πλ , L2 (Oλ , dµλ )) and (ρλ , Fλ ) are isomorphic and
+we explicitly find the integral kernel of the intertwining operator which resembles
+the classical Segal–Bargmann transform (0.1). For this let tr ∈ VC∗ denote the
+Jordan trace of the complex Jordan algebra VC and recall the I-Bessel function
+Iλ (z, w).
+Theorem C (see Proposition 5.1 & Theorem 5.4). Let λ ∈ W, then for ψ ∈
+L2 (Oλ , dµλ ) the formula
+                          Z
+                     1
+     Bλ ψ(z) = e− 2 tr(z)   Iλ (z, x)e− tr(x) ψ(x) dµλ (x), z ∈ Xλ ,
+                            Oλ
+
+
+
+                                          7
+defines a function Bλ ψ ∈ Fλ . This gives a unitary isomorphism Bλ : L2 (Oλ , dµλ ) →
+Fλ which intertwines the representations πλ and ρλ .
+    The k-finite vectors in the Fock model and in the bounded symmetric domain
+model have the same realization as polynomials on VC and therefore also the
+intertwiner between these two models is worth studying. In Theorem 5.10 we
+find an explicit formula for it in terms of its integral kernel.
+    We remark that Brylinski–Kostant [7] construct a Fock space realization for
+minimal representations of non-Hermitian Lie groups as geometric quantization
+of the minimal nilpotent KC -orbit in p∗C (see also [2]). Apart from the fact that
+their cases are disjoint to ours they do not construct an intertwining operator
+between the known Schrödinger model and their Fock model such as our gen-
+eralized Segal–Bargmann transform. Further their measure on the KC -orbit is
+not positive whereas our measure is explicitly given in terms of the K-Bessel
+function and hence positive. Moreover, the Lie algebra action in their picture
+is given by pseudodifferential operators while in our model the Lie algebra acts
+by differential operators up to second order.
+    Recently Achab [1] also constructed a Fock space realization for the minimal
+representation of Hermitian groups. Her construction looks different from ours
+and it would be interesting to find a connection between her model and our
+model.
+
+The unitary inversion operator
+The explicit integral formula for the Segal–Bargmann transform can be used to
+find the integral kernel of the unitary inversion operator Uλ in the Schrödinger
+model. This operator Uλ is a unitary automorphism on L2 (Oλ , dµλ ) of order
+2 (see Section 6 for its precise definition). The action of Uλ together with the
+relatively simple action of a maximal parabolic subgroup generates the whole
+group action in the Schrödinger model. To describe its integral kernel recall the
+J-Bessel function Jλ (z, w).
+Theorem D (see Theorem 6.3). For each λ ∈ W the unitary inversion operator
+Uλ is given by
+                     Z
+      Uλ ψ(x) = 2−rλ   Jλ (x, y)ψ(y) dµλ (y),     ψ ∈ Cc∞ (Oλ ).
+                       Oλ
+
+    In various special cases Theorem D was proved earlier. Ding–Gross [11,
+Theorem 4.10 (iii)] and Faraut–Koranyi [15, Theorem XV.4.1] established The-
+orem D for the relative holomorphic discrete series, i.e. λ is contained in the
+continuous part of the Wallach set and is ‘large enough’. (In fact Ding–Gross
+proved an analogous version of Theorem D for all holomorphic discrete series
+representations.) For g = su(k, k) and λ in the discrete part of the Wallach
+set Theorem D was proved by Ding–Gross–Kunze–Richards [12, Theorem 5.7].
+For g = so(2, n) and λ the minimal non-zero discrete Wallach point Kobayashi–
+Mano gave two different proofs for this result (see [33, Theorem 6.1.1] and [34,
+Theorem 5.1.1]). The case of the minimal non-zero discrete Wallach point was
+systematically treated in [23]. The proof we present for the general case is quite
+simple, once the Bargmann transform is established, and works in the same way
+for all scalar type unitary highest weight representations.
+
+
+                                        8
+   In Section 6.2 we use the integral kernel of Uλ to construct explicit algebraic
+and smooth Whittaker vectors in the Schrödinger model.
+
+Application to branching laws
+We demonstrate the use of our Fock model in one specific example, the branch-
+ing so(2, n) ց so(2, m) ⊕ so(n − m) of the minimal unitary highest weight
+representation of so(2, n). Note that the subalgebra h := so(2, m) ⊕ so(n − m)
+of g = so(2, n) is symmetric and of holomorphic type, i.e. the corresponding
+involution of g acts as the identity on the center of k. Kobayashi [32] proved
+that any highest weight representation of scalar type if restricted to a holo-
+morphic type subalgebra is discretely decomposable and the decomposition is
+multiplicity free. He further determined the explicit decomposition for represen-
+tations in the relative holomorphic discrete series. For arbitrary highest weight
+representation he gives a general algorithm to find the explicit branching law.
+We find the explicit decomposition for the non-zero discrete Wallach point by
+                                                                            so(2,j)
+an easy computation in the Fock model. For j = m, n we denote by dπλ
+the unitary highest weight representation of so(2, j) of scalar type with Wallach
+parameter λ as constructed above. Further we let Hk (Rn−m ) be the irreducible
+representation of so(n − m) on the space of spherical harmonics on Rn−m of
+degree k.
+Theorem E (see Theorem 7.2). The unitary highest weight representation of
+g = so(2, n) belonging to the minimal non-zero discrete Wallach point λ = n−2
+                                                                           2
+decomposes under restriction to the subalgebra h = so(2, m) ⊕ so(n − m) as
+follows:
+                       ∞
+                       M
+         so(2,n)               so(2,m)
+      dπλ          =         dπλ+k       ⊠ Hk (Rn−m ).
+                       k=0
+                                                         so(2,n)
+    We remark that for odd n the representation dπλ         cannot be obtained via
+the theta correspondence and hence also the branching law cannot be obtained
+in this way.
+    For even n this branching law was proved by Kobayashi–Ørsted in [35, The-
+orem A] and, as pointed out to the author by B. Ørsted, their proof actually
+carries over also to the case of odd n, although it is not explicitly stated in their
+paper. However, the techniques they use are more involved than the computa-
+tion we do in Section 7 to prove Theorem E.
+    In the general case of a Hermitian Lie algebra g Kobayashi–Oshima [36]
+recently classified all symmetric subalgebras of g such that the restriction of
+the minimal scalar type unitary highest weight representation of g is discretely
+decomposable. In [43] the explicit decompositions in these cases are determined.
+
+Organization of the paper
+This paper is organized as follows: In Section 1 we recall the necessary back-
+ground of Euclidean Jordan algebras, their corresponding groups and nilpotent
+orbits. We also study polynomials and differential operators such as the Bessel
+operators on Jordan algebras. Section 2 describes three known models for uni-
+tary highest weight representations of scalar type, the bounded symmetric do-
+main model, the tube domain model and the Schrödinger model. We further
+
+                                               9
+investigate a natural complexification of the latter one. Section 3 deals with
+Bessel functions on Jordan algebras. We introduce J-, I- and K-Bessel func-
+tions and discuss their properties. In Section 4 the Fock model for unitary
+highest weight representations of scalar type is constructed. We calculate the
+reproducing kernel of the Fock space and investigate rings of differential oper-
+ators on the associated varieties. The Segal–Bargmann transform intertwining
+the Fock model and the Schrödinger model is introduced in Section 5. Here we
+also give a formula for the intertwiner between Fock model and bounded sym-
+metric domain model. In Section 6 we use the Bargmann transform to obtain
+the integral kernel of the unitary inversion operator. We then describe Whit-
+taker vectors in the Schrödinger model in terms of this integral kernel. Finally
+we use the Fock model in Section 7 to obtain in a very simple way the branching
+law for the smallest non-zero highest weight representation of so(2, n) restricted
+to so(2, m) ⊕ so(n − m).
+
+    Acknowledgements: We thank T. Kobayashi and B. Ørsted for helpful
+discussions on the topic of this paper.
+
+     Notation: N = {1, 2, 3, . . .}, N0 = N ∪ {0}, R× = R \ {0}, R+ = {x ∈ R :
+x > 0}, C× = C \ {0}, T = {z ∈ C : |z| = 1},
+V ∗ : algebraic dual of a vector space V , V ′ : topological dual of a topological
+vector space V .
+
+
+
+
+                                       10
+1     Preliminaries
+In this section we set up the notation and recall the construction of three known
+models for unitary highest weight representations of Hermitian Lie groups of
+tube type. For this we use the theory of Euclidean Jordan algebras which
+formalizes various aspects in a simple fashion. We mostly follow the notation
+of [15].
+
+1.1    Simple Euclidean Jordan algebras
+Let V be a simple Euclidean Jordan algebra of dimension n = dim V with unit
+element e. For x ∈ V we denote by L(x) ∈ End(V ) the multiplication by x and
+by
+
+        P (x) = 2L(x)2 − L(x2 )
+
+the quadratic representation. Its polarized version is given by
+
+      P (x, y) = L(x)L(y) + L(y)L(x) − L(xy),               x, y ∈ V.
+
+For x, y ∈ V we also define the box operator xy ∈ End(V ) by
+
+        xy := L(xy) + [L(x), L(y)]
+
+and note the identity (xy)z = P (x, z)y for x, y, z ∈ V .
+   The generic minimal polynomial of V provides the Jordan trace tr ∈ V ∗
+and the Jordan determinant ∆, a homogeneous polynomial of degree r = rk V ,
+the rank of V . Both can be expressed in terms of L(x) and P (x) (see [15,
+Proposition III.4.2]):
+                    n                                        2n
+      Tr L(x) =       tr(x),                Det P (x) = ∆(x) r ,
+                    r
+for x ∈ V ( nr is always an integer). Here we use Tr and Det for the trace and
+determinant of a linear operator. Using the Jordan trace we define the trace
+form
+
+      (x|y) := tr(xy),                          x, y ∈ V,
+
+which is positive definite since V is Euclidean. Both L(x) and P (x) are sym-
+metric operators with respect to the trace form (see [15, Proposition II.4.3]).
+For any orthonormal basis (eα )α ⊆ V with respect to the trace form we have
+the identity (see [15, Exercise III.6])
+      X            n
+           e2α =     e.                                                     (1.1)
+       α
+                   r
+
+We use the trace form to normalize the Lebesgue measure dx on V . The trace
+form also defines a norm on V by
+            p
+     |x| := (x|x),                          x ∈ V.
+
+
+
+                                       11
+   Let c ∈ V be an idempotent, i.e. c2 = c. The only possible eigenvalues of the
+symmetric operator L(c) are 1, 12 and 0. Denote by V (c, 1), V (c, 21 ) and V (c, 0)
+the corresponding eigenspaces. The decomposition
+
+      V = V (c, 1) ⊕ V (c, 12 ) ⊕ V (c, 0)
+
+is called Peirce decomposition. The subspaces V (c, 1) and V (c, 0) are themselves
+simple Euclidean Jordan algebras with identity elements c and e−c, respectively.
+An idempotent c ∈ V is called primitive if it is non-zero and cannot be written
+as a nontrivial sum of two idempotents. Further, two idempotents c1 , c2 ∈ V
+are called orthogonal if c1 c2 = 0. (This implies (c1 |c2 ) = 0.) A set of primitive
+orthogonal idempotents which add up to the identity e is called a Jordan frame.
+The cardinality of every Jordan frame is equal to the rank r of V . Further we
+say that an idempotent c ∈ V has rank k if it can be written as the sum of k
+primitive orthogonal idempotents. From now on we fix a Jordan frame c1 , . . . , cr .
+The symmetric operators L(c1 ), . . . , L(cr ) commute pairwise and therefore we
+obtain the mutual Peirce decomposition
+               M
+        V =          Vij ,
+               1≤i≤j≤r
+
+
+where
+
+        Vii = V (ci , 1),                          1 ≤ i ≤ r,
+      Vij = V (ci , 12 ) ∩ V (cj , 21 ),           1 ≤ i < j ≤ r.
+
+The spaces Vii are one-dimensional and spanned by ci whereas the spaces Vij ,
+1 ≤ i < j ≤ r have a common dimension d. In particular, this implies the
+dimension formula
+        n              d
+          = 1 + (r − 1) .
+        r              2
+
+1.2      The structure group and its orbits
+The structure group Str(V ) of V is defined to be the group of g ∈ GL(V ) such
+that
+
+      P (gx) = gP (x)g # ,                          x ∈ V,
+
+where g # denotes the adjoint with respect to the trace form. This is by [15,
+Exercise VIII.5] equivalent to the existence of a scalar χ(g) ∈ R× such that
+
+      ∆(gx) = χ(g)∆(x),                             x ∈ V.
+
+The map χ : Str(V ) → R× defines a character of Str(V ) which is on the identity
+component L := Str(V )0 given by (see [15, Proposition III.4.3])
+                            r
+      χ(g) = Det(g) n ,                            g ∈ L.
+
+Let O(V ) denote the orthogonal group of V with respect to the trace form.
+Then
+
+      K L := L ∩ O(V )
+
+                                             12
+is a maximal compact subgroup of L, the corresponding Cartan involution being
+ϑ(g) = (g −1 )# . The group K L coincides with the identity component of the
+group of Jordan algebra automorphisms, i.e.
+
+      K L = {g ∈ L : g(x · y) = gx · gy ∀x, y ∈ V }.
+
+At the same time K L is the stabilizer subgroup of the unit element e, i.e.
+
+      K L = {g ∈ L : ge = e}.
+
+The Lie algebra l = str(V ) of L has the Cartan decomposition (see [15, Propo-
+sition VIII.2.6])
+
+       l = kl ⊕ pl ,
+
+where kl is the Lie algebra of K L consisting of all derivations of V and pl is the
+space of multiplication operators:
+
+      kl = {D ∈ gl(V ) : D(x · y) = Dx · y + x · Dy, ∀x, y ∈ V },
+      pl = L(V ) = {L(x) : x ∈ V }.
+
+   The group L acts on V with finitely many orbits. The orbit Ω := L · e is a
+symmetric cone and is isomorphic to the Riemannian symmetric space L/K L .
+The Lebesgue measure dx on V clearly restricts to Ω. The following integral
+formula due to J.-L. Clerc [8, Proposition 2.7] is used in Section 3.3 to calculate
+K-Bessel functions on boundary orbits:
+Lemma 1.1. Let c ∈ V be an idempotent of rank k and let Ω1 and Ω0 denote the
+symmetric cones in the Euclidean subalgebras V (c, 1) and V (c, 0), respectively.
+Further we let ∆0 (x) be the determinant function of the Euclidean Jordan alge-
+bra V (c, 0). Then the following integral formula holds:
+      Z                              Z    Z              Z                            
+              f (x) dx = 2−k(r−k)d                             f exp(cx 21 )(x1 + x0 )
+          Ω                          Ω1     V (c, 12 )   Ω0
+
+                                                                           ∆0 (x0 )kd dx0 dx 12 dx1 .
+
+Proof. Let Φ : Ω1 ×V (c, 21 )×Ω0 → V be defined by Φ(x1 , x 12 , x0 ) = exp(cx 21 )(x1 +
+x0 ). By [38, Proposition 3] this map is a diffeomorphism onto Ω and is explicitly
+given by
+                               1
+      Φ(x1 , x 21 , x0 ) = x1 + c(x 12 (x 12 x0 )) + x 21 x0 + x0 .
+                               2 {z                  | {z }    |{z}
+                           |                     }            ∈V (c,0)
+                                 ∈V (c,1)                    ∈V (c, 21 )
+
+
+Hence, in the Peirce decomposition V = V (c, 1) ⊕ V (c, 12 ) ⊕ V (c, 0) the Jacobian
+of Φ takes the form
+                                                   
+                              1       ∗           ∗
+      DΦ(x1 , x 12 , x0 ) =  0 L(x0 )|V (c, 21 ) ∗  .
+                              0       0           1
+
+
+                                                  13
+By [15, Propositions IV.4.1 & IV.4.2] we have
+
+      Det(L(x0 )|V (c, 21 ) ) = 2−k(r−k)d ∆0 (x0 )kd
+
+and hence
+
+        Det(DΦ(x1 , x 12 , x0 )) = 2−k(r−k)d ∆0 (x0 )kd .
+
+Now the claimed integral formula follows from the transformation formula.
+   The boundary ∂Ω of the symmetric cone Ω has a stratification into lower
+dimensional orbits. In fact
+
+      Ω = O0 ∪ O1 ∪ . . . ∪ Or ,                                                 (1.2)
+
+where
+
+      Oj := L · ej                   with              e j = c1 + · · · + cj .
+
+(We use the convention e0 = 0 here.) Note that Or = Ω. Each x ∈ Oj has a
+                                                      Pj
+polar decomposition x = ka with k ∈ K L and a = i=1 ai ci , a1 , . . . , aj > 0
+(see [15, Chapter VI.2]). Assuming a1 ≥ . . . ≥ aj > 0 the element a is unique.
+                                                                  Pj
+We define complex powers of x = ka ∈ Ok by xs := kas , as = i=1 asi ci for
+s ∈ C. Note that for s ∈ N this definition agrees with the usual definition of
+powers by the Jordan algebra multiplication. Since every k ∈ K L is a Jordan
+algebra automorphism the identity xs · xt = xs+t holds for s, t ∈ C.
+    The Gamma function of Ω is for Re λ > (r − 1) d2 defined by the absolutely
+converging integral
+                Z
+                                   n
+      ΓΩ (λ) :=    e− tr(x) ∆(x)λ− r dx
+                    Ω
+
+and is extended meromorphically to the whole complex plane by the identity
+(see [15, Theorem VII.1.1])
+
+                              r
+                              Y                 
+                        n−r                    d
+        ΓΩ (λ) = (2π)    2        Γ λ − (j − 1) .
+                              j=1
+                                               2
+
+Using the Gamma function we define the Riesz distributions Rλ ∈ S ′ (V ) by
+                              Z
+                     2rλ                     n
+      hRλ , ϕi :=                 ϕ(x)∆(x)λ− r dx,               ϕ ∈ S(V ).
+                    ΓΩ (λ)    Ω
+
+This integral converges for λ > (r − 1) d2 and defines a tempered distribution
+Rλ ∈ S ′ (V ) which has an analytic continuation to all λ ∈ C (see [15, Proposition
+VII.2.1 & Theorem VII.2.2]). The distribution Rλ is positive if and only if λ
+belongs to the Wallach set (sometimes referred to as the Berezin–Wallach set,
+see [15, Theorem VII.3.1])
+                                               
+                 d             d             d
+      W = 0, , . . . , (r − 1)    ∪ (r − 1) , ∞ .
+                 2             2             2
+
+
+                                            14
+Note that the Wallach set consists of a discrete part Wdisc and a continuous
+part Wcont given by
+                                                              
+                  d               d                          d
+     Wdisc = 0, , . . . , (r − 1)     ,     Wcont = (r − 1) , ∞ .
+                  2               2                          2
+
+For λ ∈ Wcont in the continuous part the distribution Rλ is an L-equivariant
+measure dµλ supported on Ω which is absolutely continuous with respect to the
+Lebesgue measure dx. Hence the boundary ∂Ω = Or−1 is a set of measure zero.
+For λ = k d2 ∈ Wdisc in the discrete part the distribution Rλ is an L-equivariant
+measure dµλ supported on Ok for which ∂Ok = Ok−1 is a set of measure zero
+(see [15, Proposition VII.2.3]). If we put
+             (
+               Ok for λ = k d2 , 0 ≤ k ≤ r − 1,
+      Oλ :=
+               Ω    for λ > (r − 1) 2d ,
+
+then we obtain measure spaces (Oλ , dµλ ) for λ ∈ W. The L-equivariant mea-
+sures dµλ transform by
+
+       dµλ (gx) = χ(g)λ dµ(x),                                          g ∈ L.
+
+Note that with this normalization of the measures dµλ the function ψ0 (x) =
+e− tr(x) always has norm 1 in L2 (Oλ , dµλ ). In fact, for λ > (r − 1) d2 we find
+      Z                             Z
+                               2rλ                      n
+                    2
+           |ψ0 (x)| dµλ (x) =          e−2 tr(x) ∆(x)λ− r dx
+        Oλ                    ΓΩ (λ) Ω
+                                    Z
+                                1                      n
+                            =          e− tr(x) ∆(x)λ− r dx = 1,
+                              ΓΩ (λ) Ω
+
+and the general case follows by analytic continuation.
+    In terms of the polar decomposition of each orbit Ok we have the following
+integral formula (cf. [22, Proposition 1.8])
+      Z                            Z Z
+           f (x) dµλ (x) = const ·            f (ket )Jλ (t) dt dk,       (1.3)
+        Oλ                                    KL     t1 >...>tk
+
+where we use the notation t = (t1 , . . . , tk ),
+                  k
+                  X
+           et =         eti ci ,                                                 (1.4)
+                  i=1
+                        Pk            Y                           
+                   rλ
+                           j=1 tj                  d       ti − tj
+      Jλ (t) = e    k                         sinh                  ,            (1.5)
+                                                              2
+                                    1≤i<j≤k
+
+and k ∈ {0, . . . , r} such that Oλ = Ok .
+
+1.3       Conformal group and KKT algebra
+For a ∈ V let na be the translation by a, i.e.
+
+      na (x) = x + a,                                             x ∈ V.
+
+
+                                                       15
+Denote by N := {na : a ∈ V } the group of all translations. Further define the
+conformal inversion j by
+
+      j(x) := −x−1 ,                        for x ∈ V invertible.
+
+The map j defines a rational transformation of V of order 2. The conformal
+group Co(V ) of V is defined as the subgroup of all rational transformations of
+V generated by N , Str(V ) and j:
+
+      Co(V ) := hN, Str(V ), jigrp .
+
+We let G := Co(V )0 be its identity component. G is a connected simple Her-
+mitian Lie group of tube type with trivial center and every such group occurs
+in this fashion (see Table 1 for a classification).
+    Conjugation with j defines a Cartan involution ϑ of G by
+
+      ϑ(g) = j ◦ g ◦ j,                              g ∈ G.
+
+Its restriction to L agrees with the previously introduced Cartan involution
+ϑ(g) = (g −1 )# , g ∈ L. Let K := Gϑ be the corresponding maximal compact
+subgroup of K.
+    The Lie algebra g of G is called Kantor–Koecher–Tits algebra. It acts on V
+by quadratic vector fields of the form
+
+      X(z) = u + T z − P (z)v,                            z ∈ V,
+
+with u, v ∈ V and T ∈ l. For convenience we write X = (u, T, v) ∈ g for short.
+In this notation the Lie bracket of Xj = (uj , Tj , vj ), j = 1, 2, is given by (see
+[15, Proposition X.5.8])
+
+     [X1 , X2 ] = (T1 u2 − T2 u1 , [T1 , T2 ] + 2(u1 v2 ) − 2(u2 v1 ), −T1#v2 + T2#v1 ).
+
+This yields the grading
+
+      g = n ⊕ l ⊕ n,
+
+where n ∼
+        = V is the Lie algebra of N and n = ϑn. Thus,
+
+      n = {(u, 0, 0) : u ∈ V }
+
+acts via constant vector fields, l via linear vector fields and
+
+      n = {(0, 0, v) : v ∈ V }
+
+by quadratic vector fields. Note that the abelian subalgebras n and n together
+generate g as a Lie algebra.
+   On g the Cartan involution ϑ acts via
+
+      ϑ(u, D + L(a), v) = (−v, D − L(a), −u)
+
+and hence gives the Cartan decomposition g = k ⊕ p with
+
+      k = {(u, D, −u) : u ∈ V, D ∈ kl },
+      p = {(u, L(a), u) : u, a ∈ V }.
+
+
+                                           16
+The Lie algebra k of K has a one-dimensional center (see [42, Lemma 1.6.2])
+
+     Z(k) = RZ0 ,                             Z0 = − 21 (e, 0, −e),
+
+and hence the universal cover Ke of K is the direct product of R with a compact
+connected simply-connected semisimple group. Therefore the deck transforma-
+                                  e of G is a finite extension of Z.
+tion group of the universal cover G
+    Under the action of K the space pC decomposes into two irreducible compo-
+nents
+
+     pC = p+ ⊕ p− .
+
+In fact, p± is the ±i eigenspace of ad(Z0 ) on pC and is explicitly given by
+
+     p± = {(u, ±2iL(u), u) : u ∈ VC }.
+
+   We set
+
+     E := (e, 0, 0),            H := (0, 2 id, 0),              F := (0, 0, e).
+
+Then (E, F, H) forms an sl2 -triple in g. We define a Cayley type transform
+C ∈ Int(gC ) by the formula
+
+     C := exp(− 12 i ad(E)) exp(−i ad(F )).                                         (1.6)
+
+It is then routine to check the following formulas:
+
+             C(a, 0, 0) = ( a4 , iL(a), a),                                         (1.7)
+     C(0, L(a) + D, 0) = (i a4 , D, −ia),                                           (1.8)
+              C(0, 0, a) = ( a4 , −iL(a), a).                                       (1.9)
+
+From these formulas it is easy to see that the transform C induces isomorphisms
+         ∼
+      kC → lC , (u, D, −u) 7→ D + 2iL(u),
+         ∼
+     p+ → nC , (u, 2iL(u), u) 7→ (0, 0, 4u),
+         ∼
+     p− → nC , (u, −2iL(u), u) 7→ (u, 0, 0).
+
+Since n and n together generate g as a Lie algebra it is now immediate that
+p+ + p− generates gC as a Lie algebra. Hence the real form {(a, L(b), a) : a, b ∈
+V } of p+ + p− generates g.
+
+           V                 co(V )         str(V )                n        r      d
+           R               sl(2, R)            R                    1       1      0
+                                                               1
+   Sym(k, R) (k ≥ 2)       sp(k, R)      sl(k, R) ⊕ R          2 k(k + 1)   k      1
+   Herm(k, C) (k ≥ 2)      su(k, k)      sl(k, C) ⊕ R              k2       k      2
+   Herm(k, H) (k ≥ 2)      so∗ (4k)      su∗ (2k) ⊕ R          k(2k − 1)    k      4
+     R1,k−1 (k ≥ 3)        so(2, k)    so(1, k − 1) ⊕ R             k       2     k−2
+      Herm(3, O)            e7(−25)      e6(−26) ⊕ R               27       3      8
+
+Table 1: Simple Euclidean Jordan algebras, corresponding groups and structure
+constants
+
+
+                                          17
+1.4    Complexifications
+The complexification VC of V is a complex Jordan algebra. The Jordan trace
+of VC is given by the C-linear extension of the Jordan trace tr of V . The same
+holds for the trace form which is the C-bilinear extension of the trace form of
+V . By abuse of notation we use the same notation tr and (−|−) for the complex
+objects. A norm on VC is given by
+             p
+      |z| := (z|z),                           z ∈ VC .
+
+    VC can also be considered as a real Jordan algebra and we write W = VC
+for it. As real Jordan algebra W is simple since V is simple Euclidean. The
+trace form (−|−)W of W is of signature (n, n) and explicitly given by (see [42,
+Lemma 1.2.3 (1)])
+
+      (z|w)W = 2 ((Re(z)| Re(w)) − (Im(z)| Im(w))) = 2 Re(z|w),       z, w ∈ W.
+
+Note that (−|−)W is not C-linear.
+    The identity component LC := Str(VC )0 of the structure group of the com-
+plex Jordan algebra VC is a natural complexification of L (see [15, Proposition
+VIII.2.6]). As a real Lie group it is the same as Str(W )0 , the identity component
+of the structure group of the real Jordan algebra W . Let U ⊆ LC denote the
+analytic subgroup of LC with Lie algebra
+
+      u := kl + ipl,
+
+then U is a maximal compact subgroup of LC . The isomorphism C : kC → lC
+                                                        ∼
+introduced in Section 1.3 restricts to an isomorphism k → u which integrates to
+a covering map η : Ke → U ⊆ LC with differential
+
+      dη(u, D, −u) = D + 2iL(u).
+
+Since uC = lC the subgroup U is totally real in LC .
+   For g ∈ LC we denote by g # the adjoint of g with respect to the C-bilinear
+trace form (−|−) of VC . Since (−|−)W = 2 Re(−|−) this is also the adjoint with
+respect to the trace form (−|−)W of W . Further put
+
+      g ∗ := g # ,                           g ∈ LC .
+
+Then g 7→ (g −1 )∗ defines a Cartan involution of LC with corresponding maximal
+compact subgroup U .
+    The determinant function ∆W of the real Jordan algebra W is a polynomial
+of degree 2r. As in the Euclidean case an element g ∈ Str(W ) is characterized
+by the property that there exists a scalar χW (g) ∈ R× such that
+
+      ∆W (gz) = χW (g)∆W (z),                           z ∈ W.
+
+This defines a real character χW : LC → R+ .
+   The group LC has only one open orbit LC · e (see [31, Theorem 4.2]). Its
+boundary again has a stratification by lower-dimensional orbits. More precisely
+we have
+
+      LC · e = X0 ∪ X1 ∪ . . . ∪ Xr ,
+
+
+                                        18
+where Xk = LC · ek (see [31, Theorem 4.2]). Note that Ok ⊆ Xk is totally real
+and Xk is closed under conjugation. The closure Xk of each LC -orbit is an affine
+algebraic subvariety of VC (see [17, Theorem 2.9]). From [42, Section 1.5.2] it is
+easy to deduce the following formula for the dimension of Xk :
+                                           d
+      dimC Xk = dimR Ok = k + k(2r − k − 1) .                                                        (1.10)
+                                           2
+As in the P
+          real case every z ∈ Xk has a polar decomposition z = ua with u ∈ U
+            k
+and a = i=1 ai ci , a1 ≥ . . . ≥ ak > 0, the element a being unique with this
+property (see [15, Proposition X.3.2]).
+   For λ ∈ W and k ∈ {0, . . . , r} such that Oλ = Ok we similarly put Xλ := Xk .
+Proposition 1.2. For every λ ∈ W the measure dνλ on Xλ defined by
+    Z                   Z Z
+                                   1
+        f (z) dνλ (z) =      f (ux 2 ) dµλ (x) du                 (1.11)
+       Xλ                        U    Oλ
+
+is the unique (up to scalar multiples) LC -equivariant measure on Xλ which trans-
+forms by χλW .
+
+Proof. Except for the integral formula (1.11) this is essentially [22, Proposition
+1.8]. By [22, Proposition 1.8] a χλW -equivariant measure on Xλ is given by
+           Z Z
+      f 7→              f (uet )JλW (t) dt du,
+            U   t1 >...>tk
+
+where et is as in (1.4),
+                       Pk              Y                                                 
+                 2rλ
+                        j=1 tj
+                                                   d       ti − tj          d       ti − tj
+      JλW (t) = e k                            sinh                      cosh                ,
+                                                              2                        2
+                                     1≤i<j≤k
+
+
+and k ∈ {0, . . . , r} such that Xk = Xλ . Using sinh x · cosh x = 21 sinh 2x we find
+                             d   rλ
+                                      Pk              Y                                          d
+      JλW (t) = 2−k(k−1) 2 e k          j=1 2tj              sinhd (ti − tj ) = 2−k(k−1) 2 Jλ (2t)
+                                                  1≤i<j≤k
+
+                                                                                1          1
+with Jλ (s) as in (1.5). Now note that K L ⊆ U and (ket ) 2 = ke 2 t for k ∈ K L
+and hence
+         Z Z
+                       f (uet )JλW (t) dt du
+          U t1 >...>tk
+                Z Z Z
+     = const ·                        f (uket )Jλ (2t) dt dk du
+                 U K   L   t >...>tk
+                Z Z Z1
+                                             1
+     = const ·                        f (uke 2 s )Jλ (s) ds dk du
+                 U K   L   s1 >...>sk
+                Z Z
+                                1
+     = const ·           f (ux 2 ) dµλ (x) du,
+                 U     Oλ
+
+where we have used the integral formula (1.3) for the last equality.
+
+
+
+                                                   19
+1.5    Nilpotent orbits and the Kostant–Sekiguchi correspon-
+       dence
+Nilpotent coadjoint G-orbits
+We identify g∗ with g by means of the Killing form and view coadjoint G-orbits
+on g∗ as adjoint G-orbits on g. Further we use the embedding V ֒→ g, u 7→
+(u, 0, 0) to identify the L-orbits Ok ⊆ V , k = 0, . . . , r, with L-orbits in n ∼
+                                                                                 = V.
+Since n is nilpotent, the G-orbits
+
+      OkG := G · (ek , 0, 0)
+
+are nilpotent adjoint orbits in g. Since further Ok = L · (ek , 0, 0) we clearly have
+Ok ⊆ OkG . As usual we endow OkG with the Kirillov–Kostant–Souriau symplectic
+form. The following result was proved in [22, Theorem 2.9 (4)] for the minimal
+orbit O1 . For the general case the author could not find the statement in the
+existing literature.
+Proposition 1.3. Ok ⊆ OkG is a Lagrangian subvariety.
+Proof. Since Ok ⊆ n and n is abelian the symplectic form vanishes on O and it
+remains to show that dim OkG = 2 dim Ok . By (1.10) we have
+                                d
+      dim Ok = k + k(2r − k − 1) .
+                                2
+To determine dim OkG we note that
+
+      0 = [(u, T, v), (ek , 0, 0)] = (T ek , −2ek v, 0)
+
+if and only if T ek = 0 and v ∈ V (ek , 0). Hence
+
+      dim OkG = dim Ok + dim(V /V (ek , 0))
+               = dim Ok + dim V (ek , 1) + dim V (ek , 12 )
+               = dim Ok + (k + k(k − 1) d2 ) + k(r − k)d
+               = 2 dim Ok .
+
+Nilpotent KC -orbits
+Via the Kostant–Sekiguchi correspondence the nilpotent adjoint G-orbits OkG ⊆
+g∗ correspond to nilpotent KC -orbits OkKC ⊆ p∗C . Identifying p∗ with p by means
+of the Killing form we view OkKC as KC -orbits in pC = p+ + p− . Following [48]
+we let (Ek , Fk , Hk ) be the strictly normal sl2 -triple in g given by
+
+      Ek := (ek , 0, 0),        Hk := (0, 2L(ek ), 0),        Fk := (0, 0, ek ).
+
+We form a new sl2 -triple (Ekd , Fkd , Hkd ) by putting
+             1                       1
+      Ekd :=   (Ek + Fk + iHk ) = (ek , 2iL(ek ), ek ),
+             2                       2
+      Hkd := i(Ek − Fk ) = i(ek , 0, −ek ),
+             1                       1
+      Fkd := (Ek + Fk − iHk ) = (ek , −2iL(ek ), ek ).
+             2                       2
+
+                                            20
+Then Ekd ∈ p+ and the KC orbit OkKC corresponding to OkG is given by
+
+      OkKC = KC · Ekd .
+
+Since p+ is KC -stable we have OkKC ⊆ p+ .
+   If we use the embedding VC ֒→ gC , u 7→ (0, 0, u) to identify the LC -orbits
+Xk ⊆ VC , k = 0, . . . , r, with LC -orbits in nC ∼
+                                                  = VC we obtain the following result:
+Proposition 1.4. The Cayley type transform C ∈ Int(gC ) is a bijection from
+the KC -orbit OkKC ⊆ p+ onto the LC -orbit Xk ⊆ nC for every k ∈ {0, . . . , r}.
+Proof. Observe that C(Ekd ) = (0, 0, 4ek ). Since the Lie algebra homomorphism
+C is a bijection from kC onto lC it gives a bijection between the orbits OkKC =
+KC · Ekd and Xk = LC · (0, 0, 4ek ) which shows the claim.
+
+1.6    Differential operators
+General notation
+For a map f : X → X on a (real or complex) vector space X we write Df (x) :
+X → X for its (real or complex) Jacobian at the point x ∈ X. For a complex-
+valued function g : X → C we denote the directional derivative in the direction
+of a ∈ X by ∂a g:
+                    d
+      ∂a g(x) =            g(x + ta).
+                    dt t=0
+
+Bessel operators - the real case
+Let J be a real semisimple Jordan algebra with trace form (−|−)J . The gradient
+                                           ∂
+with respect to (−|−)J will be denoted by ∂x . If (eα )α ⊆ J is a basis of J with
+dual basis (beα )αP⊆ J with respect to the trace form then the gradient is in
+coordinates x = α xα eα ∈ J expressed as
+
+      ∂    X ∂
+         =       ebα .
+      ∂x   α
+             ∂xα
+
+In terms
+        of the directional derivative the gradient isJ characterized by the identity
+     ∂
+ a ∂x    J
+           = ∂a for a ∈ J. The Bessel operator Bλ with parameter λ ∈ C is a
+vector-valued second order differential operator on J given by
+                 
+                  ∂           ∂
+       BλJ := P        x+λ .
+                 ∂x          ∂x
+In coordinates it is given by
+              X       ∂2                       X ∂
+      BλJ =                    eα , ebβ )x + λ
+                            P (b                     ebα .
+                    ∂xα ∂xβ                    α
+                                                 ∂xα
+              α,β
+
+Denote by ℓ the left-action of Str(J) on functions on J given by ℓ(g)f (x) =
+f (g −1 x). Then the Bessel operator satisfies the following equivariance property:
+
+      ℓ(g)BλJ ℓ(g −1 ) = g # BλJ ,                     g ∈ Str(J),             (1.12)
+
+
+                                             21
+where g # denotes the adjoint with respect to the trace form of J. We further
+have the following product rule:
+                                                     
+                                                ∂f ∂g
+      BλJ [f (x)g(x)] = BλJ f (x) · g(x) + 2P     ,     x + f (x) · BλJ g(x). (1.13)
+                                                ∂x ∂x
+
+   For either J = V or J = W = VC the operator BλJ is tangential to the orbit
+Str(J)0 · ek if λ = k d2 , 0 ≤ k ≤ r − 1, and hence defines a differential operator
+on this orbit (see [42, Theorem 1.7.5]). On K L -invariant (resp. U -invariant)
+functions on V (resp. W ) we have the following formulas:
+                                                                ∞    L
+Proposition 1.5. (1) ([15, Theorem XV.2.7])    Pr Let f ∈ C (V ) be K -invariant.
+    Then with F (a1 , . . . , ar ) = f (a), a = i=1 ai ci , we have
+                            r
+                            X
+              BλV f (a) =         (BλV )i F (a1 , . . . , ar )ci ,
+                            i=1
+
+      where
+                                                           
+                          ∂2                           d        ∂
+              (BλV )i = ai 2 +             λ − (r − 1)
+                          ∂ai                          2       ∂ai
+                                                                                                      
+                                                              dX            1              ∂        ∂
+                                                          +                            ai     − aj      .
+                                                              2          ai − aj          ∂ai      ∂aj
+                                                                  j6=i
+
+
+ (2) ([44])PLet f ∈ C ∞ (W ) be U -invariant. Then with F (a1 , . . . , ar ) = f (a),
+            r
+     a = i=1 ai ci , we have
+                            r
+                            X
+              BλW f (a) =         (BλW )i F (a1 , . . . , ar )ci ,
+                            i=1
+
+      where
+
+                          1   ∂2                         ∂
+              (BλW )i =     ai 2 + (2λ − 1 − (r − 1)d)
+                          4   ∂ai                      ∂ai
+                                                                        !
+                                dX       1          1          ∂        ∂
+                              +               +            ai     − aj        .
+                                2     ai − aj    ai + aj      ∂ai      ∂aj
+                                           j6=i
+
+
+   For J = V we will write Bλ := BλV for short.
+
+Bessel operators - the complex case
+We also need the Bessel operator of the complex Jordan algebra VC . It is a
+holomorphic vector-valued differential operator on VC which is defined in the
+same way as the Bessel operator of V . More precisely, if (eα )α ⊆ VC is a C-basis
+of VC with dual basis (beα )α ⊆ VC with respect to the trace form (−|−) (which
+is C-bilinear) we define the gradient of VC by
+       ∂    X ∂
+          =       ebα ,
+       ∂z   α
+              ∂zα
+
+
+                                                     22
+where
+                                  
+         ∂    1        ∂      ∂
+            =             −i
+        ∂zα   2       ∂xα    ∂yα
+                                         P
+is the Wirtinger derivative and z = α zα eα with zα = xα + iyα . The Bessel
+operator BλVC of VC is then defined by
+                
+       VC         ∂          ∂
+      Bλ = P          z+λ
+                 ∂z         ∂z
+             X ∂2                           X ∂
+          =                 eα , ebβ )z + λ
+                         P (b                     ebα .
+                 ∂zα ∂zβ                    α
+                                              ∂zα
+             α,β
+
+For a holomorphic function f on VC we have
+             
+       BλVC f   = BλV (f |V )
+                  V
+
+and hence BλVC  is a natural complexification of the Bessel operator Bλ of V .
+Therefore, by abuse of notation, we also abbreviate Bλ = BλVC .
+
+1.7     Bounded symmetric domains of tube type
+Let TΩ := V + iΩ ⊆ VC be the tube domain associated with the symmetric
+cone Ω. Each rational transformation g ∈ G extends to a holomorphic auto-
+morphism of TΩ . This establishes an isomorphism between G and the identity
+component Aut(TΩ )0 of the group of all holomorphic automorphisms of TΩ (see
+[15, Theorem X.5.6]). Under this isomorphism the maximal compact subgroup
+K ⊆ G corresponds to the stabilizer subgroup of the element ie ∈ TΩ so that
+TΩ ∼ = G/K. We identify an element g ∈ G with its holomorphic extension to
+TΩ .
+     Let
+      p : TΩ → VC , p(z) := (z − ie)(z + ie)−1 ,
+                                                                              ∼
+and define D := p(TΩ ). Then p restricts to a holomorphic isomorphism p : TΩ →
+D with inverse the Cayley transform (see [15, Theorem X.4.3])
+            ∼
+      c : D → TΩ , c(w) = i(e + w)(e − w)−1 .                             (1.14)
+The open set D ⊆ VC is a bounded symmetric domain of tube type and every
+such domain occurs in this fashion. Clearly G is also isomorphic to the identity
+component Aut(D)0 of the group of all holomorphic automorphisms of D via
+the conjugation map
+      α : G → Aut(D)0 , g 7→ p ◦ g ◦ p−1 = c−1 ◦ g ◦ c.                   (1.15)
+The stabilizer subgroup of the origin 0 ∈ D corresponds to the maximal compact
+subgroup K ⊆ G and also D ∼   = G/K.
+    Denote by Σ ⊆ ∂D the Shilov boundary of D. The group U acts transitively
+on Σ and the stabilizer of e ∈ Σ is equal to K L ⊆ U (see [15, Proposition X.3.1
+& Theorem X.4.6]). Hence Σ ∼   = U/K L is a compact symmetric space. Denote
+by dσ the normalized U -invariant measure on Σ ∼  = U/K L . We write L2 (Σ) for
+  2                                         2
+L (Σ, dσ) and denote the corresponding L -inner product by h−, −iΣ .
+
+                                        23
+1.8    Polynomials
+In this Section we recall known properties for the space of polynomials on VC .
+
+Principal minors and decompositions
+Let P(VC ) denote the space of holomorphic polynomials on VC . The space P(VC )
+carries a natural representation ℓ of LC given by
+
+      ℓ(g)p(z) = p(g −1 z),                  g ∈ LC , p ∈ P(VC ).
+
+Since L and U are both real forms of the complex group LC the decomposi-
+tions of P(VC ) into irreducible L- and U -representations are the same. This
+decomposition can be described as follows:
+    For j ∈ {1, . . . , r} we denote by Pj the orthogonal projection V → V (ej , 1).
+Let ∆V (ej ,1) be the Jordan determinant of the Euclidean Jordan algebra V (ej , 1).
+We define a polynomial ∆j on V by the formula
+
+      ∆j (x) := ∆V (ej ,1) (Pj x),                    x ∈ V,
+
+and extend it to a holomorphic polynomial on VC . The polynomials ∆1 , . . . , ∆r
+are called principal minors of V . Note that ∆r = ∆ is the Jordan determinant
+of V . For m ∈ Nr0 we write m ≥ 0 if m1 ≥ . . . ≥ mr ≥ 0. If m ≥ 0 we define a
+polynomial ∆m on VC by
+
+      ∆m (z) := ∆1 (z)m1 −m2 · · · ∆r−1 (z)mr−1 −mr ∆r (z)mr ,      z ∈ VC .
+
+The polynomials ∆m (z) are called generalized power functions. Define Pm (VC )
+to be the subspace of P(VC ) spanned by ℓ(g)∆m for g ∈ L. (Equivalently one
+can let g ∈ U or g ∈ LC .) We write dm := dim Pm (VC ) for its dimension.
+Theorem 1.6 (Hua–Kostant–Schmid, see e.g. [15, Theorem XI.2.4]). For each
+m ≥ 0 the space Pm (VC ) is an irreducible L-module and the space P(VC ) de-
+composes into irreducible L-modules as
+               M
+     P(VC ) =      Pm (VC ).
+                 m≥0
+
+    The same spaces Pm (VC ) occur in the decomposition of L2 (Σ) into irre-
+ducible U -representations. To make this precise let Zr+ be the set of all m ∈ Zr
+with m1 ≥ . . . ≥ mr . For m ∈ Zr+ we define another tuple m′ := (m1 −
+mr , . . . , mr−1 − mr , 0). Then m′ ≥ 0 and we define
+
+      Pm (Σ) := {∆mr p|Σ : p ∈ Pm′ (VC )}.
+
+If m ≥ 0 then Pm (Σ) coincides with the space of restrictions of polynomials in
+Pm (VC ) to Σ.
+Theorem 1.7 (Cartan–Helgason, see e.g. [15, Theorem XII.2.2]). For each
+m ∈ Zr+ the space Pm (Σ) is an irreducible unitary U -representation and the
+space L2 (Σ) decomposes into the direct Hilbert space sum
+                 M
+                 d
+      L2 (Σ) =           Pm (Σ).
+                 m∈Zr+
+
+
+
+                                        24
+   We now study the restriction of polynomials to the orbits Xk ⊆ VC and
+Ok ⊆ V . Note that for m ≥ 0 and k ∈ {0, . . . , r − 1} the condition mk+1 = 0
+means mk+1 = . . . = mr = 0. For convenience we also use this notation for
+k = r. In this case mk+1 = 0 should mean no restriction on m.
+Proposition 1.8 ([24, Proposition I.7 (vi) (a)]). For x ∈ Xk we have ∆k+1 (x) =
+. . . = ∆r (x) = 0. In particular, ∆m vanishes on Xk iff mk+1 6= 0, m ≥ 0.
+   For 0 ≤ k ≤ r let P(Xk ) and Pm (Xk ) be the images of P(VC ) and Pm (VC )
+under the restriction map C ∞ (VC ) → C ∞ (Xk ). Similar we define P(Ok ) and
+Pm (Ok ) to be the images of P(VC ) and Pm (VC ) under the restriction map
+C ∞ (VC ) → C ∞ (Ok ).
+Corollary 1.9. Let k ∈ {0, . . . , r} and m ≥ 0. Then Pm (Xk ) (resp. Pm (Ok ))
+is non-trivial if and only if mk+1 = 0. In this case the restriction from VC to
+Xk (resp. Ok ) induces an isomorphism Pm (VC ) ∼  = Pm (Xk ) (resp. Pm (VC ) ∼
+                                                                             =
+Pm (Ok )) of L-modules (resp. LC -modules). In particular we have the following
+decompositions:
+                    M                                   M
+      P(Xk ) =               Pm (Xk ),     P(Ok ) =              Pm (Ok ).
+                m≥0, mk+1 =0                          m≥0, mk+1 =0
+
+   For λ ∈ C and m ≥ 0 we define the Pochhammer symbol (λ)m by
+                Yr               
+                                d
+      (λ)m :=       λ − (i − 1)      ,
+                i=1
+                                2 mi
+
+where (a)n = a(a + 1) · · · (a + n − 1) denotes the classical Pochhammer symbol
+for a ∈ C, n ∈ N0 .
+Lemma 1.10 ([15, Lemma XI.2.3]). For p ∈ Pm (VC ) and λ ∈ W we have
+   Z
+      e−(x|y) p(x) dµλ (x) = 2rλ (λ)m ∆(y)−λ p(y −1 ),    y ∈ Ω.
+       Oλ
+
+
+Spherical polynomials
+The representations Pm (VC ) of L (resp. U ) are K L -spherical. The K L -spherical
+vectors in Pm (VC ) are spanned by (see [15, Proposition XI.3.1])
+               Z
+      Φm (z) =       ∆m (kz) dk,                       z ∈ VC .
+                  KL
+
+The L2 (Σ)-norm of these functions are given by (see [15, Proposition XI.4.1 (i)])
+                   1
+      kΦm k2Σ =      ,                          m ≥ 0.                      (1.16)
+                  dm
+   By [15, Corollary XI.3.4] there exists a unique polynomial Φm (z, w) on VC ×
+VC holomorphic in z and antiholomorphic in w such that
+
+      Φm (gz, w) = Φm (z, g ∗ w),                    ∀ g ∈ LC ,
+                          2
+       Φm (x, x) = Φm (x ),                          ∀ x ∈ V.
+
+
+                                         25
+Lemma 1.11.       (1) For all z ∈ VC we have
+
+           Φm (z, e) = Φm (z).
+
+ (2) For x ∈ V and y ∈ Ω we have
+                                     1
+           Φm (x, y) = Φm (P (y 2 )x).
+
+ (3) For z, w ∈ VC we have
+
+           Φm (z, w) = Φm (w, z).
+
+Proof. (1) First let x ∈ Ω. Recall the complex powers xs , s ∈ C, defined in
+      Section 1.2. Then
+                                     1           1            1           1
+           Φm (x, e) = Φm (P (x 4 )x 2 , e) = Φm (x 2 , P (x 4 )e)
+                                 1       1
+                      = Φm (x 2 , x 2 ) = Φm (x).
+
+     Since both sides are holomorphic in x and Ω ⊆ VC is totally real, this also
+     holds for x ∈ VC .
+ (2) Let x ∈ V and y ∈ Ω. Then by (1) we obtain
+                                             1                    1                 1
+           Φm (x, y) = Φm (x, P (y 2 )e) = Φm (P (y 2 )x, e) = Φm (P (y 2 )x).
+
+     Now both sides are continuous in y ∈ Ω and the claim follows.
+ (3) First let x, y ∈ Ω. Then by [15, Lemma XIV.1.2] there exists k ∈ K L such
+               1            1
+     that P (y 2 )x = kP (x 2 )y. Using (2) and the K L -invariance of Φm we find
+     that
+                                     1                    1
+           Φm (x, y) = Φm (P (y 2 )x) = Φm (P (x 2 )y) = Φm (y, x).
+
+     Since Φm (x, y) ∈ R for x, y ∈ V , we obtain
+
+           Φm (z, w) = Φm (w, z)                                      ∀ z, w ∈ Ω.
+
+     Both sides are holomorphic in z and antiholomorphic in w and Ω ⊆ VC is
+     totally real. Hence, the formula also holds for z, w ∈ VC .
+Lemma 1.12. If m ≥ 0 with mk+1 6= 0, then Φm (z, w) = 0 for all z ∈ VC and
+w ∈ Xk .
+Proof. Write w = hek with g ∈ LC . Then
+
+     Φm (z, w) = Φm (z, gek ) = Φm (g ∗ z, ek ).
+
+Therefore, it suffices to show that Φm (−, ek ) = 0 as a polynomial on VC .
+Since Φm (z, w) is holomorphic in the first variable it suffices to show that
+Φm (−, ek ) = 0 as a polynomial on V and since Ω ⊆ V is open it is enough
+to prove Φm (x, ek ) = 0 for x ∈ Ω. But for x ∈ Ω we have by Lemma 1.11 (2)
+and (3)
+                             1
+     Φm (x, ek ) = Φm (P (x 2 )ek ).
+
+
+                                                     26
+               1
+Now write x 2 = ge with g ∈ L, then
+           1
+     P (x 2 )ek = P (ge)ek = gP (e)g # ek = gg # ek
+                   1
+and hence P (x 2 )ek ∈ Ok = L · ek . But by Corollary 1.9 we have Φm |Ok = 0
+since mk+1 6= 0 and the proof is complete.
+Example 1.13. On the rank 1 orbit X1 the spherical polynomials Φm (z, w) are
+non-zero if and only if m = (m, 0, . . . , 0), m ∈ N0 , and in this case
+
+                       ( nr )m
+     Φm (z, w) =               (z|w)m ,               z, w ∈ X1 .
+                       dm m!
+
+(This can e.g. be derived from the expansion of tr(x)k into the polynomials
+Φm (x), see [15, Chapter XI.5].)
+
+The Fischer inner product
+We equip P(VC ) with the Fischer inner product
+                  
+                  ∂
+     [p, q] := p     q(z)     ,                p, q ∈ P(VC ),
+                  ∂z      z=0
+
+where q(z) := q(z), z ∈ VC . The action of U on P(VC ) is unitary with respect to
+this inner product and hence the irreducible constituents Pm (VC ) are pairwise
+orthogonal. Since U also acts unitarily on P(VC ) with respect to the inner
+product on L2 (Σ) the two inner products are proportional on each irreducible
+constituent Pm (VC ) (see [15, Corollary XI.4.2]):
+               n
+      [p, q] =       hp, qiΣ ,                 p, q ∈ Pm (VC ).            (1.17)
+                r m
+Denote by K m (z, w) the reproducing kernel of Pm (VC ) with respect to the
+Fischer inner product. By [15, Propositions XI.3.3 & XI.4.1] we have
+
+                           dm
+     K m (z, w) =                Φm (z, w),            z, w ∈ VC .
+                         ( nr )m
+
+Since by [15, Proposition XI.1.1] the completion of P(VC ) with respect to the
+Fischer inner product is a Hilbert space with reproducing kernel K(z, w) = e(z|w)
+we obtain the following expansion:
+                   X dm
+     e(z|w) =               Φm (z, w),                 z, w ∈ VC .         (1.18)
+                    ( nr )m
+                   m≥0
+
+Lemma 1.14. For m, n ≥ 0 and p ∈ Pm (VC ), q ∈ Pn (VC ):
+   Z
+     p(uz)q(uw) du = Φm (z, w)hp, qiΣ             ∀ z, w ∈ VC .
+       U
+
+
+
+
+                                              27
+Proof. Using the reproducing kernel property and the Schur orthogonality rela-
+tions we obtain
+      Z                  Z
+         p(uz)q(uw) du =    [p, K m (−, uz)][q, K n(−, uw)] du
+       U                  U
+                         Z
+                       =    [ℓ(u−1 )p, K m (−, z)][ℓ(u−1 )q, K n (−, w)] du
+                               U
+                             1
+                          =    [p, q][K m (−, z), K n(−, w)].
+                            dm
+With (1.17) and
+
+                                                      dm
+      [K m (−, z), K n(−, w)] = δmn K m (w, z) = δmn n Φm (z, w)
+                                                    ( r )m
+
+the claimed identity follows.
+
+Laguerre functions
+For m ≥ 0 the polynomial Φm (e + x) is K L -invariant of degree |m| and can
+hence be written as a linear combination of the K L -invariant polynomials Φn (x)
+for |n| ≤ |m|. Following [15, Chapter XV.4] we define the generalized binomial
+coefficients mn by the formula
+
+                      X m
+       Φm (e + x) =              Φn (x),                  x ∈ V.
+                              n
+                     |n|≤|m|
+
+Using the generalized binomial coefficients we define the generalized Laguerre
+polynomials Lλm (x) by
+                       X m 1
+       λ
+     Lm (x) := (λ)m                   Φn (−x),             x ∈ V,       (1.19)
+                            n (λ)n
+                       |n|≤|m|
+
+
+and the generalized Laguerre functions ℓλm (x) by
+
+      ℓλm (x) := e− tr(x) Lλm (2x),                             x ∈ V.        (1.20)
+
+Both Lλm (x) and ℓλm (x) are K L -invariant. Note that for λ > (r − 1) d2 we have
+(λ)n 6= 0 for all n ≥ 0 and hence Lλm (x) and ℓλm (x) are defined on V . For
+x ∈ Ok , k = 0, . . . , r − 1, we further have Φn (x) = 0 if nk+1 6= 0. Therefore the
+sum in (1.19) reduces to a sum over n with nk+1 = . . . = nr = 0. For such n
+we have (λ)n 6= 0 for λ = k d2 and hence the expression (1.19) is defined. This
+gives Laguerre polynomials Lλm (x) and Laguerre functions ℓλm (x) on Oλ for each
+λ ∈ W.
+   Properties of the generalized Laguerre functions have been studied in [4, 9].
+
+
+
+
+                                         28
+2     Three different realizations of unitary highest
+      weight representations of scalar type
+We describe three known realizations of highest weight representations of scalar
+type: the bounded symmetric domain model, the tube domain model and the
+Schrödinger model. We further discuss a complexification of the Schrödinger
+model which we use in Section 4.3 to construct yet another model, the Fock
+model.
+
+2.1    The Schrödinger model
+The highest weight representation of the universal cover G      e belonging to the
+                                              2
+Wallach point λ ∈ W can be realized on L (Oλ , dµλ ). We sketch the construc-
+tion here (see e.g. [42] for details). First, there is a Lie algebra representation
+dπλ of g on C ∞ (Oλ ) for every λ ∈ W given by
+
+      dπλ (u, 0, 0) = i(u|x),
+                                  rλ
+      dπλ (0, T, 0) = ∂T # x +       Tr(T # ),
+                                  2n
+      dπλ (0, 0, v) = i(v|Bλ ).
+
+Note that for λ = k d2 , k = 0, . . . , r − 1, the Bessel operator Bλ is tangential
+to the orbit Ok and hence defines a differential operator acting on C ∞ (Ok )
+(see Section 1.6). The representation dπλ is further infinitesimally unitary with
+respect to the L2 -inner product on L2 (Oλ , dµλ ).
+    The subrepresentation of ( dπλ , C ∞ (Oλ )) generated by the function
+
+      ψ0 (x) = e− tr(x) ,                                  x ∈ Oλ ,
+
+defines a (g, e
+              K)-module ( dπλ , W λ ) whose underlying vector space turns out to
+be (see e.g. [15, Proposition XIII.3.2])
+
+      W λ = P(Oλ )e− tr(x) .
+         e
+The (g, K)-module    ( dπλ , W λ ) integrates to an irreducible unitary representa-
+            2                e The minimal K-type
+tion (πλ , L (Oλ , dµλ )) of G.                 e       is spanned by the function
+ψ0 which is e K-equivariant:
+
+      πλ (k)ψ0 = ξλ (k)ψ0 ,                                  k∈ e
+                                                                K,
+
+where ξλ : K  e → T is the character of K   e with differential dξλ (u, T, −u) =
+iλ tr(u). This implies that the representation πλ descends to a finite cover of G
+if and only if λ ∈ Q (which holds in particular for λ ∈ Wdisc ). For λ > 2n r −1
+the representation πλ belongs to the relative holomorphic discrete series of eG.
+
+2.2    The tube domain model
+For λ ∈ C consider the function
+                                                −λ
+                                         z−w
+      TΩ × TΩ → C, (z, w) 7→ ∆                         .
+                                          2i
+
+
+                                            29
+It is of positive type if and only if λ ∈ W (see [15, Proposition XIII.1.2 & Theo-
+rem XIII.2.4]). Denote by Hλ2 (TΩ ) the Hilbert space of holomorphic functions on
+                                      −λ
+TΩ which has the function ∆( z−w 2i )    as reproducing kernel. For λ > 1+(r−1)d
+this space coincides with the space of holomorphic functions F on TΩ such that
+       Z
+                            2n
+           |F (z)|2 ∆(y)λ− r dx dy < ∞,
+       TΩ
+
+where z = x + iy ∈ TΩ (see [15, Chapter XIII.1]). For every λ ∈ W there is an
+                                           e on H2 (TΩ ). Note that G
+irreducible unitary representation πλTΩ of G                        e acts on
+                                                  λ
+TΩ by composition of the action of G = Aut(TΩ )0 on TΩ with the covering map
+Ge → G. Then the representation π TΩ is given by
+                                   λ
+
+      πλTΩ (g)F (z) = µTλΩ (g −1 , z)F (g −1 z),            e z ∈ TΩ ,
+                                                        g ∈ G,
+
+where the cocycle µTλΩ (g, z) is given by
+                                  rλ
+      µTλΩ (g, z) = Det(Dg(z)) 2n ,                    e z ∈ TΩ ,
+                                                   g ∈ G,
+
+the powers being well-defined on the universal cover G.e
+                            2              2
+   The representations Hλ (TΩ ) and L (Oλ , dµλ ) are isomorphic, the inter-
+twining operator being the Laplace transform (see [15, Theorems XIII.1.1 &
+XIII.3.4])
+                                                  Z
+      Lλ : L2 (Oλ , dµλ ) → Hλ2 (TΩ ), Lλ ψ(z) :=   ei(z|x) ψ(x) dµλ (x). (2.1)
+                                                   Oλ
+
+The Laplace transform Lλ is a unitary isomorphism (up to a scalar) intertwining
+the group actions.
+
+2.3    The bounded symmetric domain model
+The polynomial h(x) := ∆(e − x2 ), x ∈ V , is K L -invariant and therefore by
+[15, Corollary XI.3.4] there exists a unique polynomial h(z, w) holomorphic in
+z ∈ VC and antiholomorphic in w ∈ VC such that
+
+      h(gz, w) = h(z, g ∗ w),                      ∀ g ∈ LC ,
+       h(x, x) = h(x),                              ∀ x ∈ V.
+
+We also write h(z) := h(z, z) for z ∈ VC . Consider the powers h(z, w)−λ for
+λ ∈ C as functions on D × D. Then h(z, w)−λ is positive definite on D × D
+if and only if λ ∈ W (see [15, Theorem XIII.2.7]). The corresponding Hilbert
+space of holomorphic functions on D with reproducing kernel h(z, w)−λ will be
+denoted by Hλ2 (D). For λ > 1 + (r − 1)d this space coincides with the space of
+holomorphic functions f on D such that
+      Z
+                        2n
+         |f (w)|2 h(w)λ− r du dv < ∞,
+       D
+
+where w = u + iv ∈ D (see [15, Proposition XIII.1.4]). For each λ ∈ W there
+                                                e on H2 (D). To give an explicit
+is an irreducible unitary representation πλD of G     λ
+
+
+                                             30
+formula recall the isomorphism α : G → Aut(D)0 defined in (1.15) and view it
+as a covering map α : Ge → Aut(D)0 . Then the representation π D is given by
+                                                              λ
+
+      πλD (g)f (w) = µD
+                      λ (g
+                           −1
+                              , w)f (α(g)−1 w),             g∈ e
+                                                               G, w ∈ D,
+
+where the cocycle µD
+                   λ (g, w) is given by
+                                            rλ
+      µD
+       λ (g, w) = Det(D(α(g))(w))
+                                  2n ,                   g∈ e
+                                                            G, w ∈ D,
+
+                                                     e
+the powers being well-defined on the universal cover G.
+                           2          2
+   The representations Hλ (D) and Hλ (TΩ ) are isomorphic, the intertwining
+operator being given by
+
+      γλ : Hλ2 (TΩ ) → Hλ2 (D), γλ F (w) := ∆(e − w)−λ F (c(w)),
+
+where c(w) is the Cayley transform defined in (1.14) (see [15, Proposition
+XIII.1.3 & Theorem XIII.3.4]). The operator γλ is unitary (up to a scalar)
+and intertwines the group actions.
+
+2.4    k-type decompositions
+                                            e
+In the bounded symmetric domain model the K-type    decomposition is very ex-
+plicit. Let λ ∈ W and 0 ≤ k ≤ r such that Oλ = Ok . Then Hλ2 (D) decomposes
+into the direct Hilbert space sum
+                        M
+                        d
+      Hλ2 (D) =                      Pm (VC ),
+                    m≥0, mk+1 =0
+
+                                                           e and on it the
+each summand Pm (VC ) is irreducible under the action πλD (K)
+norm is given by (see [15, Theorem XIII.2.7])
+                   n
+                     
+      kpk2H2 (D) =      r m
+                                kpk2Σ ,               p ∈ Pm (VC ).          (2.2)
+            λ         (λ)m
+                                          e
+Further, the kl -spherical vector in each K-type Pm (VC ) is the spherical polyno-
+mial Φm (z) which has norm
+                          ( nr )m
+      kΦm k2H2 (D) =              .
+                λ        dm (λ)m
+                                       e
+   Correspondingly the underlying (g, K)-module W λ of the Schrödinger model
+L (Oλ , dµλ ) decomposes into e
+ 2
+                               K-types
+                 M
+     Wλ =               Wm λ
+                             ,
+                m≥0, mk+1 =0
+
+
+where Wmλ
+           = L−1    −1                 l                      λ
+              λ ◦ γλ (Pm (VC )). The k -spherical vector in Wm is given by the
+                   λ
+Laguerre function ℓm (x) defined in Section 1.8 (see [15, Proposition XV.4.2])
+which has norm (see [15, Corollary XV.4.3 (i)])
+                                ( nr )m (λ)m
+      kℓλm k2L2 (Oλ , dµλ ) =                .                               (2.3)
+                                      dm
+
+
+                                                 31
+2.5      Complexification of the Schrödinger model
+The infinitesimal action dπλ in the Schrödinger model is given by second order
+differential operators on Oλ with polynomial coefficients. Hence the action
+can be extended to an action dπλC of g on C ∞ (Xλ ) by holomorphic differential
+operators. More precisely, let D be a differential operator on V with
+                                                                  Pn polynomial
+coefficients. Choose some basis e1 , . . . , en of V and write x = j=1 xj ej ∈ V .
+Then D is in coordinates given by
+              X                    ∂ |α|
+      D=            cα (x)               αn
+                             ∂xα
+                               1 · · · ∂xn
+                                1
+             α∈Nn
+                0
+
+
+with polynomials cα (x) of which only finitely many are non-zero. The coeffi-
+cients extend uniquely to holomorphic polynomials cα (z) on VC . We define the
+complexification DC of D to a holomorphic differential operator on VC by
+                X                    ∂ |α|
+      DC :=           cα (z)                     ,
+                               ∂z1α1 · · · ∂znαn
+               α∈Nn
+                  0
+
+
+where
+                                    
+         ∂    1        ∂      ∂
+            =             −i
+        ∂zj   2       ∂xj    ∂yj
+                                                                    Pn
+denotes the Wirtinger derivative for zj = xj +iyj in coordinates z = j=1 zj ej ∈
+VC . The operator DC is a complexification of D in the sense that for a holo-
+morphic function f on VC we have
+      (DC f )|V = D(f |V ).
+Applying this procedure to dπλ (X) for X ∈ g we put
+        dπλC (X) := dπλ (X)C .
+It remains to show that these holomorphic differential operators are actually
+tangential to the orbit Xλ and hence define an action dπλC of g on C ∞ (Xλ ).
+For this we use the Schrödinger model of certain unipotent representations of
+the complex group GC = Co(VC ) (the conformal group of the complex Jordan
+algebra VC ), viewed as a real Lie group.
+    In [22, Proposition 2.14] the authors construct a representation dτλ of gC ,
+viewed as a real Lie algebra, on C ∞ (Xλ ) for each λ ∈ W. It is explicitly given
+by
+        dτλ (u, 0, 0) = i(u|z)W ,
+                                 rλ
+        dτλ (0, T, 0) = ∂T # z +     TrW (T # ),
+                                 2n
+        dτλ (0, 0, v) = i(v|BλW )W .
+By TrW we mean the real trace of an operator on the real vector space W .
+Note that dτλ does not act via holomorphic differential operators, but via real
+differential operators up to second order on Xλ . Further, its is shown in [22,
+Theorem 1.12] that the representation dτλ is infinitesimally unitary with respect
+to the inner product of L2 (Xλ , dνλ ).
+    We have the following result relating dτλ to the complexification dπλC :
+
+                                                     32
+Proposition 2.1. For X ∈ g we have
+                     1
+      dπλC (X) =       ( dτλ (X) − i dτλ (iX)) .                                           (2.4)
+                     2
+In particular, for every X = (u, T, v) ∈ g and all F, G ∈ C ∞ (Xλ ) we have
+     Z                                        Z
+            C
+          dπλ (u, T, v)F (z) · G(z) dνλ (z) =   F (z) · dπλC (u, −T, v)G(z) dνλ (z).
+      Xλ                                           Xλ
+
+Remark 2.2. The formula (2.4) can be understood as an analog of the Wirtinger
+derivative
+                      
+       ∂    1 ∂     ∂
+          =      −i      .
+      ∂z    2 ∂x    ∂y
+Proof of Proposition 2.1. First note that since n and n together generate g as a
+Lie algebra it suffices to show (2.4) for X ∈ n and X ∈ n. Further note that for
+z ∈ VC we have
+                 1
+      (a|z) =      ((a|z)W − i(ia|z)W ) ,                        a ∈ V.                    (2.5)
+                 2
+Then (2.4) is immediate for X ∈ n. Now let X = (0, 0, a) ∈ n. Let (eα )
+be any
+    P orthonormal basis of V with respect to the trace form (−|−). Write
+x = α xα eα . We view W = VC as a real Jordan algebra. The vectors
+             1                                                      1
+      fα := √ eα                      and                    gα := √ ieα
+              2                                                      2
+constitute an R-basis of W . Its dual basis with respect to the P      trace form
+                         bα := fα )α ∪ (b
+(−|−)
+P     W  is given  by  (f               g α := −g α )α . We write z =    α zα eα =
+                                                √1 (aα + ibα ). Hence,
+  α (aα fα + bα gα ) with aα , bα ∈ R and zα =    2
+
+       ∂     1 ∂                                             ∂    1 ∂
+          = √                           and                     =√
+      ∂aα     2 ∂xα                                         ∂bα    2 ∂yα
+with zα = xα + iyα , xα , yα ∈ R. With (2.5) we have
+       1                                 i                           
+          ( dτλ (X) − i dτλ (iX)) =           (a|BλW ) − i(ia|BλW )
+       2                                 2
+         X        ∂2                                 ∂2
+      =i                (a|P (fbα , fbβ )z) + 2            (a|P (fbα , gbβ )z)
+                ∂aα ∂aβ                            ∂aα ∂bβ
+         α,β
+                                                    !                                  !
+                         ∂2                                 X        ∂ b        ∂
+                    +          (a|P (b  gα , gbβ )z) + iλ                 fα +     gbα
+                      ∂bα ∂bβ                                α
+                                                                   ∂aα         ∂bα
+
+           iX        ∂2                             ∂2
+      =                    (a|P (eα , eβ )z) − 2i         (a|P (eα , eβ )z)
+           4       ∂xα ∂xβ                        ∂xα ∂yβ
+           α,β
+                                                !                                  !
+                         ∂2                          iλ X       ∂            ∂
+                    −          (a|P (eα , eβ )z) +                  eα − i      eα
+                       ∂yα ∂yβ                        2 α     ∂xα           ∂yα
+           X       ∂2                           X ∂
+      =i                 (a|P (eα , eβ )z) + iλ        eα = dπλC (X).
+                 ∂zα ∂zβ                        α
+                                                  ∂z α
+           α,β
+
+
+
+                                              33
+This shows (2.4) for X ∈ n and hence it follows for all X ∈ g.
+The stated integral formula now follows from (2.4) using the fact that dτλ (X)
+is given by skew-adjoint real differential operators operators on L2 (Xλ , dνλ )
+with real coefficients if X = (0, T, 0) ∈ g and purely imaginary coefficients if
+X = (u, 0, v) ∈ g.
+   Since dτλ restricts to an action on C ∞ (Xλ ) by differential operators, the
+same is true for dπλC by the previous proposition. Therefore, dπλC is a repre-
+sentation of g on C ∞ (Xλ ) by holomorphic polynomial differential operators of
+order at most 2.
+
+
+
+
+                                      34
+3     Bessel functions on Jordan algebras
+In this section we study J-, I- and K-Bessel functions on symmetric cones and
+their boundary orbits. These functions play a fundamental role in the study of
+Schrödinger and Fock models and the intertwining operators between them.
+
+3.1    J-Bessel function
+For λ ∈ C with (λ)m 6= 0 for all m ≥ 0 and z, w ∈ VC we put
+                     X                 dm
+      Jλ (z, w) :=         (−1)|m| n          Φm (z, w).
+                                  ( r )m (λ)m
+                     m≥0
+
+(This notation agrees with the one used in [15, Chapter XV.2].) One problem
+is that for a discrete Wallach point λ = k d2 , k = 0, . . . , r − 1, we have (λ)m = 0
+for all m ≥ 0 with mk+1 6= 0. However, by Lemma 1.12 we find that for z ∈ Xk
+or w ∈ Xk :
+                        X                      dm
+      Jλ (z, w) =                  (−1)|m| n          Φm (z, w).
+                                          ( r )m (λ)m
+                    m≥0,mk+1 =0
+
+
+In this expression the coefficients are non-singular at λ = k d2 since (λ)m 6= 0
+for all m ≥ 0 with mk+1 = 0. Therefore we obtain for each λ ∈ W a J-Bessel
+function Jλ (z, w) on VC × Xλ . It only remains to show convergence of the
+defining series.
+Lemma 3.1. For λ ∈ W the series for Jλ (z, w) converges absolutely for all
+z ∈ VC and w ∈ Xλ and the following estimate holds:
+                                   r(2n−1)
+                                           √
+     |Jλ (z, w)| ≤ C(1 + |z| · |w|) 4 e2r |z|·|w|   ∀ z ∈ VC , w ∈ Xλ
+
+for some constant C > 0 which depends only on the structure constants of V
+and λ.
+Proof. Let z, w ∈ VC . Then by [15, Proposition X.3.2] there exist u ∈ U and
+    P                                                              1
+a = rj=1 aj cj with a1 ≥ . . . ≥ ar ≥ 0 such that w = ua = uP (a 2 )e. With
+Lemma 1.11 (2) we find
+                                   1                1                      1
+      Φm (z, w) = Φm (z, uP (a 2 )e) = Φm (P (a 2 )u−1 z, e) = Φm (P (a 2 )u−1 z).
+
+Now suppose further that w ∈ Xk , 0 ≤ k ≤ r, and mk+1 = 0. Then ak+1 =
+                              1
+. . . = ar = 0 and hence P (a 2 ) projects onto V (ek , 1) ⊆ Xk . Thus we find that
+      1
+P (a 2 )u−1 z ∈ Xk and again by [15, Proposition X.3.2] we can write
+          1
+      P (a 2 )u−1 z = u′ b,
+                              Pk
+where u′ ∈ U and b =           j=1 bj cj , b1 ≥ . . . ≥ bk ≥ 0.   Now, by [15, Theorem
+XII.1.1 (i)] we obtain
+
+      |Φm (z, w)| = |Φm (u′ b)| ≤ bm        mk
+                                   1 · · · bk .
+                                     1
+
+
+
+
+                                            35
+We further have the following obvious inequalities (assuming mk+1 = 0 for
+λ = k d2 )
+                                           
+                                 n + |m| − 1
+          dm ≤ dim P|m| (VC ) =               ≤ C1 (1 + |m|)n−1
+                                    n−1
+              ≤ C1 (1 + m1 )n−1 · · · (1 + mk )n−1 ,
+                Yr                          r
+                                            Y
+      ( nr )m =     ( nr − (j − 1) d2 )mj ≥    (1)mj = m!,
+                j=1                                j=1
+                k
+                Y                                  r
+                                                   Y
+      (λ)m =          (λ − (j − 1) d2 )mj ≥              (λ − (k − 1) d2 )mj .
+                j=1                               j=1
+
+We abbreviate λ′ := λ − (k − 1) d2 > 0. Putting things together gives
+                             X                   dm
+      |Jλ (z, w)| ≤                                     |Φm (z, w)|
+                                           ( nr )m (λ)m
+                      m≥0,mk+1 =0
+                             X (1 + m1 )n−1 · · · (1 + mk )n−1                       mk
+                  ≤ C1                                                     bm
+                                                                            1 · · · bk
+                                                                              1
+
+                               m!(λ′ )m1 · · · (λ′ )mk
+                       m∈Nk
+                          0
+
+                        k   ∞
+                                                !
+                       Y    X  (1 + m)n−1 m
+                  = C1                      b       .
+                       j=1 m=0
+                                 m!(λ′ )m j
+
+                       d
+Now note that mbm = (b db )bm , so
+      ∞
+      X                                      n−1 X ∞
+        (1 + m)n−1               m         d                  1
+                             b       = 1+b                          bm
+      m=0
+             m!(λ′ )m                      db      m=0
+                                                         m!(λ   ′)
+                                                                  m
+                                             n−1
+                                           d              ′
+                                     = 1+b         0 F1 (λ ; b),
+                                           db
+where 0 F1 (β; z) denotes the hypergeometric function. For 0 F1 (β; z) we have the
+obvious identity
+      d                1
+        0 F1 (β; z) =    0 F1 (β + 1; z)
+     dz                β
+                     
+                   d n−1           ′
+and hence 1 + b db          0 F1 (λ ; b) is a linear combination of functions of the
+type
+
+      bk 0 F1 (λ′ + k; b),                                k = 0, . . . , n − 1.
+
+Now by [3, equations (4.5.2) & (4.8.5)] the asymptotic behaviour of the hyper-
+geometric function as z → ∞ can be estimated by
+                            1−2β          1
+      |0 F1 (β; z)| . |z|     4      e2|z| 2
+
+and hence we obtain
+              n−1                                         √
+             d                                  2n−2λ′ −1
+       1+b                 ′
+                    0 F1 (λ ; b) ≤ C2 (1 + |b|)    4      e2 b                    ∀ b ∈ [0, ∞),
+            db
+
+
+                                                   36
+the constant C2 > 0 only depending on n and λ′ . Inserting this into the estimate
+for Jλ (z, w) gives
+                                  k 
+                                  Y              2n−2λ′ −1
+                                                             √ 
+      |Jλ (z, w)| ≤ C1 C2k           (1 + |bj |)    4      e2 bj .
+                                  j=1
+
+Now note that
+                              1                      1                              1
+      |b| = |u′ b| = |P (a 2 )u−1 z| ≤ kP (a 2 )k · |u−1 z| = kP (a 2 )k · |z|,
+             1                                                      1           1              1
+where kP (a 2 )k2 is the largest eigenvalue of P (a 2 )# P (a 2 ) = P (a 2 )2 . Since
+     1
+P (a 2 )2 acts on Vij by ai aj , its largest eigenvalue is a21 . Hence
+
+      |b| ≤ a1 |z| ≤ |a| · |z| = |w| · |z|.
+
+Altogether we finally obtain
+                                                     2n−2λ
+                                                          4
+                                                             ′ −1
+
+                                      k
+                                      Y                                   √             √
+      |Jλ (z, w)| ≤ C1 C2k                 (1 + |bj |)            e2( b1 +···+ br )
+                                      j=1
+                                                           r(2n−2λ′ −1)       √ √
+                  ≤ C1 C2k (1 + b1 + · · · + br )              e2 r b1 +···+br
+                                                                4
+
+                             r(2n−2λ′ −1)           r(2n−2λ′ −1)
+                                                                    √
+                  ≤ C1 C2k r      8       (1 + |b|)      4       e2r |b|
+                                       r(2n−1)
+                                                  √
+                  ≤ C(1 + |z| · |w|) 4 e2r |z|·|w|
+                    r(2n−1)
+with C = C1 C2k r      8          > 0 which gives the claim.
+   The estimate obtained in Lemma 3.1 is not sharp, but suffices for most of
+our purposes. Recently, Nakahama [45] obtained a sharper estimate which we
+use in Section 6.2 to find explicit Whittaker vectors:
+Proposition 3.2 ([45, Corollary 1.2]). For λ ∈ W and k ∈ N0 with Re λ + k >
+2n
+ r − 1 there exists a constant Cλ,k > 0 such that
+
+     |Jλ (z 2 , e)| ≤ Cλ,k (1 + |z|k1 )e2| Im z|1 ,      z ∈ Xλ ,
+               Pr                 Pr
+where |z|1 = j=1 |aj |, z = u j=1 aj cj , u ∈ U , aj ∈ R.
+Example 3.3. On the rank 1 orbit we have, using Lemma 1.12 and Example
+1.13
+                    ∞
+                    X                                                   p
+                      (−1)m
+      Jλ (z, w) =                         (z|w)m = Γ(λ)Jeλ−1 (2          (z|w)),            z, w ∈ X1 ,
+                    m=0
+                          m!(λ)m
+
+where Jeα (z) = ( z2 )−α Jα (z) is the classical renormalized J-Bessel function which
+is an even entire function on C.
+   The following proposition is clear with the results of Section 1.8:
+Proposition 3.4. The J-Bessel function Jλ (z, w) has the following properties:
+ (1) Jλ (z, w) = Jλ (w, z) for z ∈ VC , w ∈ Xλ ,
+
+                                                     37
+ (2) Jλ (gz, w) = Jλ (z, g ∗ w) for z ∈ VC , w ∈ Xλ , g ∈ LC .
+   To prove the differential equation for Jλ (z, w) we use the same method as
+Faraut–Koranyi [15, Theorem XV.2.6] for the one-variable J-Bessel function
+J (x, e). The first step is to calculate the Laplace transform as defined in (2.1).
+Lemma 3.5. Fix w ∈ Xλ and consider the function Jλ (−, w) on V given by
+x 7→ Jλ (x, w). The Laplace transform of Jλ (−, w) is given by
+                                                        −1
+      (Lλ Jλ (−, w)) (z) = 2rλ ∆(−iz)−λ e−i(z                |w)
+                                                                   ,               z ∈ TΩ .
+
+Proof. Let 0 ≤ k ≤ r be such that Oλ = Ok . The we find, using Lemma 1.10
+and (1.18):
+
+        (Lλ Jλ (−, w)) (z)
+        Z
+      =     ei(z|x) Jλ (x, w) dµλ (x)
+           Oλ
+                X                                  Z
+                             |m|          dm
+      =                 (−1)                            ei(z|x) Φm (x, w) dµλ (x)
+                                    ( nr )m (λ)m   Oλ
+          m≥0,mk+1 =0
+               X              dm
+      = 2rλ          (−1)|m| n ∆(−iz)−λ Φm (iz −1 , w)
+                            ( r )m
+               m≥0
+                               −1
+      = 2 ∆(−iz)−λ e−i(z
+          rλ                        |w)
+                                          .
+
+Proposition 3.6. For λ ∈ W the function Jλ (z, w) solves the following differ-
+ential equation:
+
+      (Bλ )z Jλ (z, w) = −wJλ (z, w),                                  z ∈ VC , w ∈ Xλ .
+
+Proof. First note that it suffices to show the differential equation for λ > (r −
+1) d2 , then the general case follows by analytic continuation. Further, it suffices
+to show the differential equation for z ∈ Ω as Jλ (z, w) is holomorphic in z ∈ VC .
+Since the Laplace transform Lλ is injective on functions on Ω the differential
+equation is equivalent to the identity
+
+      Lλ (Bλ Jλ (−, w)) = −wLλ Jλ (−, w).                                                     (3.1)
+
+Let z ∈ TΩ , then using the symmetry of the Bessel operator Bλ we find
+
+        (Lλ (Bλ Jλ (−, w))) (z)
+        Z
+      =      ei(z|x) (Bλ )x Jλ (x, w) dµλ (x)
+         Oλ
+        Z
+      =      (Bλ )x ei(z|x) Jλ (x, w) dµλ (x)
+         Oλ
+        Z
+      =      (P (iz)x + iλz)ei(z|x) Jλ (x, w) dµλ (x)
+         Oλ
+                          
+                  ∂
+      = i P (z)       + λz ((Lλ Jλ (−, w)) (z).
+                 ∂z
+
+
+
+                                               38
+                                                                       −1
+Now by Lemma 3.5 we have (Lλ Jλ (−, w)) (z) = 2rλ ∆(−iz)−λ e−i(z            |w)
+                                                                                  . Using
+D(x−1 ) = −P (x)−1 and ∂y ∆(x) = ∆(x)(y|x−1 ) we find
+                      h                    i
+                ∂                       −1
+        i P (z)    + λz ∆(−iz)−λ e−i(z |w)
+                ∂z
+                                                        −1
+    = i −λP (z)z −1 + iP (z)P (z)−1 w + λz ∆(−iz)−λ e−i(z |w)
+                              −1
+      = − w∆(−iz)−λ e−i(z          |w)
+
+
+and (3.1) follows.
+
+3.2    I-Bessel function
+For λ ∈ W, z, w ∈ VC and z ∈ Xλ or w ∈ Xλ we put
+                                            X      dm
+     Iλ (z, w) := Jλ (−z, w) = Jλ (z, −w) =     n         Φm (z, w).
+                                              ( r )m (λ)m
+                                               m≥0
+
+By definition the I-Bessel function Iλ (z, w) also satisfies the estimates in Propo-
+sition 3.1 and has the same properties as in Proposition 3.4
+Example 3.7. By Example 3.3 it is immediate that on the rank 1 orbit we
+have
+                             p
+     Iλ (z, w) = Γ(λ)Ieλ−1 (2 (z|w)),          z, w ∈ X1 ,
+
+where Ieα (z) = ( z2 )−α Iα (z) is the classical renormalized I-Bessel function which
+is an even entire function on C.
+Lemma 3.8. For λ ∈ W and y ∈ Ω, z ∈ VC
+   Z
+                                                −1
+      e−(x|y) Iλ (x, z) dµλ (x) = 2rλ ∆(y)−λ e(y |z) .
+       Oλ
+
+Proof. This follows immediately from Lemma 3.5.
+Proposition 3.9. For λ ∈ W the function Iλ (z, w) solves the following differ-
+ential equation:
+      (Bλ )z Iλ (z, w) = wIλ (z, w),                  z, w ∈ Xλ .
+Proof. Since Iλ (z, w) = Jλ (z, −w) this is equivalent to Proposition 3.6.
+
+3.3    K-Bessel function
+For λ ∈ C and x ∈ Ω we put
+               Z
+                         −1              2n
+     Kλ (x) :=    e− tr(u )−(x|u) ∆(u)λ− r du                                       (3.2)
+               ZΩ
+                              −1
+            =    e− tr(v)−(x|v ) ∆(v)−λ dv.                                         (3.3)
+                 Ω
+
+Note that our normalization of the parameter λ differs from the one used in [8]
+and [15, Chapter XVI.3]. By [15, Proposition XVI.3.1] these integrals converge
+for all λ ∈ C and x ∈ Ω. Since the integrand is positive on Ω we have Kλ (x) > 0
+for x ∈ Ω. To extend the K-Bessel function also to lower rank orbits we need
+the following result due to J.-L. Clerc [8, Théorème 4.1]:
+
+                                         39
+Proposition 3.10. Let c ∈ V be an idempotent of rank k. Let Ω1 and Ω0
+be the symmetric cones in the Euclidean Jordan algebras V (c, 1) and V (c, 0),
+respectively. Further, let Kλ1 be the K-Bessel function of Ω1 , ΓΩ0 the Gamma
+function of Ω0 and n0 and r0 the dimension and rank of V (c, 0). Then for
+x1 ∈ Ω1
+                                              
+                            d       n0    d
+      Kλ (x1 ) = (2π)k(r−k) 2 ΓΩ0      + k − λ Kλ1 (x1 ).                 (3.4)
+                                    r0    2
+
+Proof. Denote by ∆1 (x) and ∆0 (x) the determinant functions of V (c, 1) and
+V (c, 0), respectively. Using Lemma 1.1 we obtain
+                  Z
+                                     −1
+       Kλ (x1 ) =     e− tr(u)−(x1 |u ) ∆(u)−λ du
+                   Ω
+                             Z Z         Z
+                                                                    −1
+                =2 −k(r−k)d
+                                             e− tr(φ(u)) e−(x1 |φ(u) )
+                                Ω1   V (c, 12 )   Ω0
+
+                                                       ∆0 (u0 )kd ∆(φ(u))−λ du0 du 21 du1
+
+with φ(u) = exp(cu 12 )(u1 + u0 ). Note that
+
+      (cu 21 ) : V (c, 1) → 0,
+     (cu 21 ) : V (c, 12 ) → V (c, 1), x 7→ c(u 12 x),
+      (cu 21 ) : V (c, 0) → V (c, 12 ), x 7→ u 21 x,
+
+and hence
+                                           
+                         1
+          φ(u) =     u1 + c(u 21 (u 12 u0 )) ) + (u 21 u0 ) + u0 ,
+                         2                                    |{z}
+                   |        {z               } | {z 1} ∈V (c,0)
+                                                        ∈V (c, 2 )
+                              ∈V (c,1)
+
+
+whence
+
+                         1
+     tr(φ(u)) = tr(u1 ) + (L(u0 )u 12 |u 21 ) + tr(u0 ).
+                         4
+Further, we have
+
+            φ(u)−1 = exp(cu 21 )−# (u1 + u0 ) = exp((e − c)(−u 12 ))(u−1   −1
+                                                                        1 + u0 )
+
+
+and by the same argument as above
+
+     (φ(u)−1 |x1 ) = (u1−1 |x1 ).
+
+Finally
+
+     ∆(φ(u)) = ∆(exp(cu 21 )(u1 + u0 ))
+                                         r
+                = Det(exp(cu 21 )) n ∆(u1 + u0 )
+                      r             
+                = exp    Tr(cu 21 ) ∆1 (u1 )∆0 (u0 )
+                       n
+
+
+                                                  40
+and since Tr(cu 12 ) = 21 tr(u 21 ) = 0 we obtain
+
+                        = ∆1 (u1 )∆0 (u0 ).
+
+We now first calculate the integral over Ω1 :
+    Z
+                          −1
+         e− tr(u1 )−(x1 |u1 ) ∆1 (u1 )−λ du1 = Kλ1 (x1 ).
+       Ω1
+
+Next we calculate the integral over V (c, 12 ):
+      Z                                                                                                      − 12
+                        − 41 (L(u0 )u 1 |u 1 )               1           1               1
+                    e                 2    2     du 12 = π   2 dim V (c, 2 )   Det         L(u0 )V (c, 21 )
+       V (c, 12 )                                                                        4
+
+by the well-known integral formula for Gaussians. Further,
+
+      Det(2L(u0 )|V (c, 12 ) ) = ∆0 (u0 )kd
+
+by [15, Propositions IV.4.1 & IV.4.2]. Finally we deal with the integral over Ω0 :
+      Z                                                  
+                              kd                n0   kd
+           e− tr(u0 ) ∆0 (u0 ) 2 −λ du0 = ΓΩ0      +    −λ .
+        Ω0                                      r0    2
+
+Putting all together we obtain the claimed formula.
+   This shows that for λ near k 2d the Bessel function Kλ (x) is defined for x ∈ Ok
+and hence we obtain Bessel functions Kλ on Oλ for λ ∈ W. Note that by (3.4)
+the function Kλ is positive on Oλ .
+Example 3.11.                  (1) For V = R we have by [18, formula 3.471 (9)]
+                                √
+                        e λ−1 (2 x),
+              Kλ (x) = 2K                                                       x ∈ Ω = R+ ,
+                                       
+                                     z −α
+            e α (z) =
+      where K                             Kα (z) is the classical renormalized K-Bessel func-
+                                     2
+      tion.
+ (2) In the general case the Bessel function Kλ is by Proposition 3.10 on the
+     rank 1 orbit O1 given by
+                                                         p
+                                                 e λ−1 (2 |x|),
+           Kλ (x) = const ·Kλ1 (|x|c1 ) = const ·K              x ∈ O1 .
+
+Lemma 3.12. For λ ∈ W and m ≥ 0 we have
+   Z
+      p(x)Kλ (x) dµλ (x) = 2rλ ΓΩ ( nr )( nr )m (λ)m p(e),                                       p ∈ Pm (VC ).
+       Oλ
+
+In particular, for every N > 0 we have
+      Z
+          (1 + |x|)N Kλ (x) dµλ (x) < ∞.
+       Oλ
+
+
+
+
+                                                             41
+Proof. It suffices to show the claim for λ > (r − 1) d2 . The general case then
+follows by analytic continuation. For λ > (r − 1) d2 we have, using Lemma 1.10
+         Z
+             p(x)Kλ (x) dµλ (x)
+          Oλ
+              Z
+         2rλ                         n
+     =            p(x)Kλ (x)∆(x)λ− r dx
+       ΓΩ (λ) Ω
+              Z Z
+         2rλ                    −1              2n       n
+     =               p(x)e− tr(u )−(x|u) ∆(u)λ− r ∆(x)λ− r du dx
+       ΓΩ (λ) Ω Ω
+                Z
+                           −1             2n
+     = 2rλ (λ)m     e− tr(u ) p(u−1 )∆(u)− r du
+                    Ω
+
+                                                         2n
+and under the coordinate change v = u−1 , dv = ∆(u)− r du, this is
+                  Z
+         rλ
+     = 2 (λ)m           e− tr(v) p(v) dv
+                    Ω
+     = 2rλ (λ)m ΓΩ ( nr )( nr )m p(e),
+
+where we have again used Lemma 1.10 for the last equality. This shows the
+desired integral formula.
+For the second claim we observe that by the previous calculations every polyno-
+mial can be integrated against the positive measure Kλ (x) dµλ (x) since P(VC ) =
+L
+  m≥0 Pm (VC ) and hence the claim follows.
+
+Proposition 3.13. The function Kλ (x) solves the following differential equa-
+tion:
+
+     Bλ Kλ (x) = eKλ (x).
+
+Proof. Differentiating under the integral we obtain
+
+       Bλ Kλ (x)
+       Z
+                                     −1               2n
+     =    (P (−u)x + λ(−u))e− tr(u )−(x|u) ∆(u)λ− r du
+       ZΩ                    
+                     ∂                         −1        2n
+     =    − P (u)        + λu e−(x|u) · e− tr(u ) ∆(u)λ− r du
+        Ω           ∂u
+       XZ                           
+                             ∂                        −1       2n
+     =        − P (u)eα         + λu e−(x|u) · e− tr(u ) ∆(u)λ− r du
+        α   Ω               ∂uα
+       XZ                                 h                    i
+                            ∂                        −1       2n
+     =        e −(x|u)
+                       ·       P (u)eα − λu e− tr(u ) ∆(u)λ− r du.
+        α   Ω              ∂uα
+
+
+
+
+                                           42
+Using ∂y P (x) = 2P (x, y), D(x−1 ) = −P (x)−1 and ∂y ∆(x) = ∆(x)(y|x−1 ) we
+obtain
+        XZ            
+     =         e−(x|u) 2P (eα , u)eα + P (u)eα tr(P (u)−1 eα )
+            α     Ω
+                                                      −1       2n
+                             −1
+          + (λ − 2n
+                  r )(e α |u    )P (u)e α − λu  e− tr(u ) ∆(u)λ− r du
+          Z          X 
+        =    e−(x|u) 2        e2α u + P (u)P (u)−1 e
+             Ω                      α
+                                                       −1                 2n
+                              −1
+            + (λ − 2n
+                    r )P (u)u    − λu           e− tr(u      )
+                                                                 ∆(u)λ− r du.
+
+By (1.1) this is
+            Z                                                             −1              2n
+        =        e−(x|u)       2n              2n
+                                r u + e + (λ − r )u − λu              e− tr(u    )
+                                                                                     ∆(u)λ− r du
+             Ω
+        = eKλ (x).
+                                                                                       Pr
+      Now let λ ∈ W. For z ∈ Xλ , z = ua with u ∈ U , a =                                i=1 ti ci , ti ≥ 0, we
+put
+                             
+                             a 2
+        ωλ (z) := Kλ                    .
+                                2
+
+We note that ωλ is positive on Xλ .
+Proposition 3.14. The function ωλ (z) solves the following differential equa-
+tion:
+                       z
+        Bλ ωλ (z) =      ωλ (z),                                       z ∈ Xλ .
+                       4
+Proof. Recall the operators BλV and BλW acting on functions
+                                                         Pr    of r variables (see
+Proposition 1.5). Let F (a1 , . . . , ar ) = Kλ (a), a =  i=1 i ci , then F solves
+                                                             a
+the system (BλV )i F = F , i = 1, . . . , r by Propositions 1.5 and 3.13. Put
+
+
+
+
+                                                   43
+G(a1 , . . . , ar ) := ωλ (a) = F (( a21 )2 , . . . , ( a2r )2 ). Then
+
+           (BλW )i G(a1 , . . . , ar )
+         1      ∂2                                 ∂
+       =    ai 2 + (2λ − 1 − (r − 1)d)
+         4     ∂ai                                ∂ai
+                                                                  !
+            dX             1            1             ∂           ∂
+         +                       +                ai      − aj          G(a1 , . . . , ar )
+            2         ai − aj       ai + aj          ∂ai         ∂aj
+              j6=i
+                2 2                  
+         1        ai ∂          1 ∂          ai                          ∂
+       =    ai               +            + (2λ − 1 − (r − 1)d)
+         4         4 ∂a2i       2 ∂ai         2                         ∂ai
+                                                                       !! 
+            dX
+                   
+                           1            1
+                                              
+                                                  a2i ∂        a2j ∂            a 2                a 2 
+                                                                                    1                  r
+         +                       +                         −              F               ,...,
+            2         ai − aj       ai + aj        2 ∂ai       2 ∂aj              2                   2
+              j6=i
+                                                 
+         ai     ai  2 ∂ 2                       d     ∂
+       =                       + λ − (r − 1)
+         4       2      ∂a2i                     2 ∂ai
+                                                                         ! 
+            dX               1
+                                       
+                                           ai 2 ∂          a 2 ∂             a 2                a 2 
+                                                             j                      1                   r
+         +                      a                     −                   F               , . . . ,
+            2      ( a2i )2 − ( 2j )2      2     ∂ai        2      ∂aj             2                   2
+              j6=i
+
+         ai
+                       
+                           a1 2          a 2  a  a 2                    a 2 
+                                            r           i          1            r
+       = (BλV )i F                ,...,            = F                 ,...,
+         4                  2              2           4          2            2
+         ai
+       = G(a1 , . . . , ar ).
+         4
+Hence we obtain BλW ωλ (z) = z4 ωλ (z) for z = a. Since ωλ (z)Pis further U -
+                                                                r
+invariant, we obtain with (1.12) for z = ua with u ∈ U and a = i=1 ai ci :
+                                          a        z
+       BλW ωλ (z) = (u−1 )# BλW ωλ (a) = u ωλ (a) = ωλ (z)
+                                          4        4
+since u# = u−1 for u ∈ U . Finally we use Proposition 2.1 to find for every
+a∈V:
+       i(a|Bλ )ωλ (z) = dπλC (0, 0, a)ωλ (z)
+                        1
+                      = ( dτλ (0, 0, a)ωλ (z) − i dτλ (0, 0, ia)ωλ (z))
+                        2
+                        1                                          
+                      = i (a|BλW )W ωλ (z) − i(ia|BλW )W ωλ (z)
+                        2
+                        1                        
+                      = i (a| z4 )W − i(ia| z4 )W ωλ (z)
+                        2
+                      = i(a| z4 )ωλ (z).
+
+Since this holds for any a ∈ V we find Bλ ωλ (z) = z4 ωλ (z) and the proof is
+complete.
+Example 3.15. On the rank 1 orbit the function ωλ takes by Example 3.11 (2)
+the form
+                                 2 
+                                 |z|             e λ−1 (|z|).
+      ωλ (z) = ωλ (|z|c1 ) = Kλ      c1 = const ·K
+                                  4
+
+
+
+                                                    44
+4     A Fock model for unitary highest weight rep-
+      resentations of scalar type
+In this section we construct a Fock space Fλ = F (Xλ , ωλ dνλ ) of holomorphic
+functions on the orbit Xλ for every λ ∈ W, calculate its reproducing kernel and
+find a realization on Fλ of the unitary highest weight representation correspond-
+ing to the Wallach point λ.
+
+4.1    Construction of the Fock space
+Let λ ∈ W. Recall the positive function ωλ ∈ C ∞ (Xλ ) from Section 3.3. We
+endow the space P(Xλ ) of polynomials on Xλ with the L2 -inner product of
+L2 (Xλ , ωλ dνλ ):
+                      Z
+                    1
+      hF, GiFλ :=         F (z)G(z)ωλ (z) dνλ (z), F, G ∈ P(Xλ )        (4.1)
+                   cλ X λ
+with cλ = 23rλ ΓΩ ( nr ). This turns P(Xλ ) into a pre-Hilbert space. Its completion
+Fλ := F (Xλ , ωλ dνλ ) will be called the Fock space on Xλ .
+    It remains to show that the integral in (4.1) converges. Using the polarization
+principle the following lemma suffices:
+Lemma 4.1. For F ∈ P(VC ) we have
+   Z
+      |F (z)|2 ωλ (z) dνλ (z) < ∞.
+       Xλ
+
+Proof. Using the integral formula (1.11) we obtain
+      Z                            Z Z
+                                               1
+         |F (z)|2 ωλ (z) dνλ (z) =      |F (ux 2 )|2 Kλ (x) dµλ (x) du.
+       Xλ                           U   Oλ
+
+Now put
+                Z
+      p(x) :=       |F (ux)|2 du.
+                U
+Clearly p is a polynomial on V , so there are constants C1 > 0 and N ∈ N such
+                          N
+that |p(x)| ≤ C1 (1 +P|x|)  . Now, every x ∈ Ω has a decomposition x = ka with
+        L              r
+k ∈ K and a = j=1 aj cj , aj ≥ 0. In this decomposition the square root
+                   1     1           1    Pr       1
+is of the form x 2 = ka 2 with a 2 = j=1 aj2 cj . Since the norm | − | on V is
+K L -invariant we obtain
+            1
+                                            1
+                                               N           √                   1
+                                                                                   N
+       |p(x 2 )| ≤ C1 1 + (a1 + · · · + ar ) 2    ≤ C1 1 + r(a21 + · · · + a2r ) 4
+                     √         1
+                                  N           √ √             1
+                                                                  N
+                 ≤ C1 r 1 + |x| 2      ≤ C1 r        2(1 + |x|) 2
+                               N
+             = C2 (1 + |x|) 2
+             √ N
+with C2 = C1 r2 2 . Hence, we find
+     Z                             Z
+         |F (z)|2 ωλ (z) dνλ (z) =      p(x)Kλ (x) dµλ (x)
+      Xλ                             Oλ
+                                      Z
+                                                    N
+                                 ≤ C2      (1 + |x|) 2 Kλ (x) dµλ (x).
+                                        Oλ
+
+
+
+                                         45
+The latter integral is finite by Lemma 3.12 and the proof is complete.
+   We explicitly calculate the norms on the finite-dimensional subspaces Pm (Xλ ).
+Proposition 4.2. Let m, n ≥ 0 and F ∈ Pm (Xλ ), G ∈ Pn (Xλ ). Then
+
+      hF, GiFλ = 4|m| ( nr )m (λ)m hF, GiΣ .
+
+In particular the subspaces Pm (Xλ ) ⊆ P(Xλ ) are pairwise orthogonal with re-
+spect to the inner product h−, −iFλ and for F = Φm we have
+
+                   4|m| ( nr )m (λ)m
+      kΦm k2Fλ =                     .
+                           dm
+Proof. Using the integral formula (1.11), Lemma 1.14 and Lemma 3.12 we ob-
+tain
+                    Z
+                  1
+      hF, GiFλ =        F (z)G(z)ωλ (z) dνλ (z)
+                 cλ X λ
+                    Z Z
+                  1               1       1        1
+               =            F (ux 2 )G(ux 2 )ωλ (x 2 ) dµλ (x) du
+                 cλ O λ U
+                            Z
+                  1
+               = hF, GiΣ        Φm (x)Kλ ( x4 ) dµλ (x)
+                 cλ          Oλ
+                                 Z
+                 4rλ+|m|
+               =         hF, GiΣ       Φm (y)Kλ (y) dµλ (y)
+                    cλ              Oλ
+
+                = 4|m| ( nr )m (λ)m hF, GiΣ .
+
+Since kΦm k2Σ = d1m by (1.16) this finishes the proof.
+
+Remark 4.3. Comparing the norm on Fλ with the norm on the space Hλ2 (D)
+gives by (2.2)
+
+      kF k2Fλ = 4|m| (λ)2m kF k2H2 (D)             ∀ F ∈ Pm (VC ).
+                                  λ
+
+
+  If we denote by O(Xλ ) the space of holomorphic functions on the complex
+manifold Xλ , we obtain the following result:
+Proposition 4.4. O(Xλ )∩L2 (Xλ , ωλ dνλ ) is a closed subspace of L2 (Xλ , ωλ dνλ )
+and the point evaluation O(Xλ ) ∩ L2 (Xλ , ωλ dνλ ) → C, F 7→ F (z), is continuous
+for every z ∈ Xλ . In particular, Fλ ⊆ O(Xλ ) ∩ L2 (Xλ , ωλ dνλ ) and the point
+evaluation Fλ → C, F 7→ F (z) is continuous for every z ∈ Xλ .
+Proof. This is a local statement and hence, we may transfer it with a chart map
+to an open domain U ⊆ Ck . Here the measure ωλ dνλ is absolutely continuous
+with respect to the Lebesgue measure dz and hence it suffices to show that
+O(Ck ) ∩ L2 (Ck , dz) ⊆ L2 (Ck , dz) is a closed subspace with continuous point
+evaluations. This is done e.g. in [20, Proposition 3.1 and Corollary 3.2].
+   The particular choice of the density ωλ yields the following result:
+
+Proposition 4.5. The adjoint of Bλ on Fλ is z4 .
+
+
+
+                                           46
+Proof. Let F and G be holomorphic functions on Xλ . Then by Proposition 2.1
+we know that
+      Z                               Z        h          i
+         Bλ F (z)G(z)ωλ (z) dνλ (z) =   F (z)Bλ G(z)ωλ (z) dνλ (z).
+       Xλ                                      Xλ
+
+
+The function G(z) is antiholomorphic and hence
+                                               Z
+                                           =        F (z)G(z)Bλ ωλ (z) dνλ (z).
+                                               Xλ
+
+
+By Proposition 3.14 we have Bλ ωλ (z) = z4 ωλ (z) and therefore
+                                               Z
+                                                       z
+                                           =      F (z) G(z)ωλ (z) dνλ (z).
+                                               Xλ      4
+
+4.2    The Bessel–Fischer inner product
+We introduce another inner product on the space P(Xλ ) of polynomials, the
+Bessel–Fischer inner product. For two polynomials p and q it is defined by
+
+      [p, q]λ := p(Bλ )q(4z)|z=0 ,
+
+where q(z) = q(z) is obtained by conjugating the coefficients of the polynomial
+q. A priori it is not even clear that this sesquilinear form is positive definite.
+Theorem 4.6. For p, q ∈ P(Xλ ) we have
+
+      [p, q]λ = hp, qiFλ .                                                           (4.2)
+
+   The proof is similar to the proof of [5, Proposition 3.8]
+Proof. First note that for all p, q ∈ P(Xλ )
+
+        [(a| z4 )p, q]λ = [p, (a|Bλ )q]λ                      for a ∈ VC ,
+      h(a| z4 )p, qiFλ = hp, (a|Bλ )qiFλ                      for a ∈ VC .
+
+In fact, the second equation follows from Proposition 4.5. The first equa-
+tion is immediate since the components (a|Bλ ), a ∈ VC , of the Bessel op-
+erator form a commuting family of differential operators on Xλ . Therefore,
+(a|Bλ )p(Bλ )q(4z) = 4p(Bλ )(a|Bλ )q(4z) and the claim follows.
+To prove (4.2) we proceed by induction on deg(q). First, if p = q = 1, the
+constant polynomial with value 1, it is clear that [p, q]λ = 1 and by Proposition
+4.2 we also have hp, qiFλ = 1. Thus, (4.2) holds for deg(p) = deg(q) = 0. If now
+deg(p) is arbitrary and deg(q) = 0 then (a|Bλ )q = 0 and hence
+
+        [(a| z4 )p, q]λ = [p, (a|Bλ )q]λ = 0                         and
+      h(a| z4 )p, qiFλ = hp, (a|Bλ )qiFλ = 0.
+
+Therefore, (4.2) holds if deg(q) = 0. We note that (4.2) also holds if deg(p) = 0
+and deg(q) is arbitrary. In fact,
+
+      [p, q]λ = p(0)q(0) = [q, p]λ                 and         hp, qiFλ = hq, piFλ
+
+
+                                               47
+and (4.2) follows from the previous considerations. Now assume (4.2) holds for
+deg(q) ≤ k. For deg(q) ≤ k + 1 we then have deg((a|Bλ )q) ≤ k and hence, by
+the assumption
+
+      [(a| z4 )p, q]λ = [p, (a|Bλ )q]λ = hp, (a|Bλ )qiFλ = h(a, z4 )p, qiFλ .
+
+This shows (4.2) for deg(q) ≤ k + 1 and p(0) = 0, i.e. without constant term.
+But for constant p, i.e. deg(p) = 0, we have already seen that (4.2) holds and
+therefore the proof is complete.
+
+4.3    Unitary action on the Fock space
+In Section 2.5 we verified that for every λ ∈ W the complexification dπλC of the
+action dπλ defines a Lie algebra representation of g on C ∞ (Xλ ) by holomorphic
+polynomial differential operators in z. It is clear that this action preserves
+the subspace P(Xλ ) of holomorphic polynomials. Using this we now construct
+an action of g on P(Xλ ) by composing the action dπλC with the Cayley type
+transform C ∈ Int(gC ) introduced in Section 1.3.
+Definition 4.7. Let λ ∈ W. On P(Xλ ) we define a g-action dρλ by
+
+      dρλ (X) := dπλC (C(X)),                              X ∈ g.
+
+Proposition 4.8. Let λ ∈ W and k ∈ {0, . . . , r} such that Xλ = Xk . The k-type
+decomposition of ( dρλ , P(Xλ )) is given by
+                      ∞
+                      M
+      P(Xλ ) =                 Pm (Xλ )
+                 m≥0,mk+1 =0
+
+
+and in every k-type Pm (Xλ ) the space of kl -fixed vectors is one-dimensional and
+spanned by the polynomial Φm (z). In particular ( dρλ , P(Xλ )) is an admissible
+(g, k)-module.
+Proof. The Cayley type transform C : gC → gC maps kC to lC and kl to itself.
+The action of lC in the complexified Schrödinger model dπλC is induced by the
+action of LC on the orbit Xλ = LC · ek up to multiplication by a character.
+Hence the k-type decomposition of P(Xλ ) is the same as the decomposition into
+LC -representations under the natural action ℓ of LC . Therefore the claimed
+decomposition is clear by Corollary 1.9. The action of kl is induced by the
+natural action of K L and hence the unique (up to scalar) kl -invariant vector in
+the k-type Pm (Xλ ) is the unique (up to scalar) K L -invariant vector in Pm (Xλ )
+under the natural action ℓ. This finishes the proof.
+Proposition 4.9. For each λ ∈ W the representation ( dρλ , P(Xλ )) is an irre-
+ducible (g, k)-module.
+Proof. Let m, n ≥ 0 be arbitrary and denote by U(g) the universal envelop-
+ing algebra of g. Then it suffices to show that there exists an element of
+dρλ (U(g)) which maps Φm to Φn . Using Theorem 4.6 we have 0 6= kΦm k2Fλ =
+Φm (Bλ )Φm (4z)|z=0 = 4|m| Φm (Bλ )Φm (z)|z=0 . Since Bλ is a differential oper-
+ator of Euler degree −1 the polynomial Φm (Bλ )Φm (z) is constant and by the
+previous observation it is non-zero. Note that dρλ (U(g)) = dπλC (U(g)) contains
+
+                                            48
+multiplication by arbitrary polynomials and differential operators which are
+polynomials in the Bessel operator Bλ . Hence, the operator Φn (z)Φm (Bλ ) ∈
+dρλ (U(g)) maps Φm (z) to a non-zero multiple of Φn (z) and the claim fol-
+lows.
+Proposition 4.10. The (g, k)-module ( dρλ , P(Xλ )) is infinitesimally unitary
+with respect to the L2 -inner product h−, −iFλ .
+Proof. As remarked in Section 1.3 the subspace {(a, L(b), a) : a, b ∈ V } ⊆ g
+generates g as a Lie algebra and therefore it suffices to show that the operators
+                        1                                            1
+      dρλ (a, 0, a) =     i(a|4Bλ + z)   and   dρλ (0, 2L(a), 0) =     (a|4Bλ − z)
+                        2                                            2
+are skew-adjoint on P(Xλ ) with respect to the L2 -inner product h−, −iFλ . But
+this is clear by Proposition 4.5.
+Theorem 4.11. The (g, k)-module ( dρλ , P(Xλ )) integrates to an irreducible
+unitary representation ρλ of the universal cover G   e of G on Fλ . This represen-
+tation factors to a finite cover of G if and only if λ ∈ Q. In particular it factors
+to a finite cover of G if λ ∈ Wdisc .
+
+Proof. By the previous results it only remains to check in which cases the mini-
+mal k-type P0 (Xλ ) = C1 integrates to a finite cover. The k-action on 1 is given
+by
+                                                     rλ
+      dρλ (a, D, −a)1 = dπλC (0, D + 2iL(a), 0)1 =      Tr(2iL(a))1
+                                                     2n
+                         = iλ tr(a)1.
+
+Therefore, the center Z(k) = R(e, 0, −e) acts by
+
+      dρλ (e, 0, −e)1 = irλ1.
+
+In K we have eπ(e,0,−e) = 1 and hence, the claim follows.
+    In the Fock model the action of the maximal compact subgroup is quite
+explicit. For this recall the group homomorphism η : K      e → U ⊆ LC with
+differential dη(u, D, −u) = D + 2iL(u) defined in Section 1.4 and the character
+ξλ : Ke → T of K e with differential dξλ (u, T, −u) = iλ tr(u) defined in Section
+2.1.
+                          e we have
+Proposition 4.12. For k ∈ K
+
+      ρλ (k)F (z) = ξλ (k)F (η(k)# z),                  z ∈ Xλ .
+
+Proof. The action of X = (u, D, −u) ∈ k is given by
+
+                                                   rλ
+      dρλ (X) = dπλC (0, dη(X), 0) = ∂ dη(X)# +       Tr( dη(X)# )
+                                                   2n
+               = ∂ dη(X)# + iλ tr(u)
+
+which implies the claim.
+
+
+                                         49
+4.4    The reproducing kernel
+We now calculate the reproducing kernel Kλ (z, w) of the Hilbert space Fλ . For
+this we first calculate the reproducing kernels Km
+                                                 λ (z, w) on the finite-dimensional
+subspaces Pm (Xλ ) endowed with the inner product of Fλ .
+Lemma 4.13. Let λ ∈ W and m ≥ 0. If λ = k d2 , k = 0, . . . , r − 1, we
+additionally assume that mk+1 = . . . = mr = 0. Then the following invariance
+property holds:
+                           ∗
+      Km            m
+       λ (gz, w) = Kλ (z, g w),                   z, w ∈ Xλ , g ∈ LC .
+
+                                                   e and F ∈ Pm (Xλ ) we have
+Proof. Using Proposition 4.12 we find that for k ∈ K
+
+      ρλ (k)F (z) = hρλ (k)F, Km
+                               λ (−, z)iFλ
+                 = hF, ρλ (k −1 )Km
+                                  λ (−, z)iFλ
+                                          −1 #
+                 = ξλ (k −1 )hF, Km
+                                  λ ((η(k)  ) −, z)iFλ
+                                      −1 #
+                 = ξλ (k)hF, Km
+                              λ ((η(k)  ) −, z)iFλ
+
+and on the other hand
+
+      ρλ (k)F (z) = ξλ (k)F (η(k)# z)
+                                        #
+                 = ξλ (k)hF, Km
+                              λ (−, η(k) z)iFλ .
+
+          e → U is surjective and u−1 = u∗ = u# as well as u ∈ U for u ∈ U
+Since η : K
+we obtain
+                           ∗
+      Km            m
+       λ (uz, w) = Kλ (z, u w),                    z, w ∈ Xλ , u ∈ U.
+
+Now both sides are holomorphic in u ∈ LC and U ⊆ LC is totally real. Hence
+the claim follows.
+Proposition 4.14. Let λ ∈ W and m ≥ 0. If λ = k d2 , k = 0, . . . , r − 1, we
+additionally assume that mk+1 = . . . = mr = 0. Then
+                          dm          z w 
+      Km
+       λ (z, w) =                Φm     ,    ,              z, w ∈ Xλ .         (4.3)
+                    ( nr )m (λ)m       2 2
+
+Proof. First let λ > (r − 1) d2 . By Lemma 4.13 the function Kλm (−, e) ∈
+Pm (Xλ ) is K L -invariant and hence there is a constant cm            m
+                                                          λ such that Kλ (z, e) =
+ m
+cλ Φm (z). Since
+                                                 2
+      1 = Φm (e) = hΦm , Kλm (−, e)iFλ = cm
+                                          λ kΦm kFλ ,
+
+formula (4.3) now follows with Proposition 4.2. Now, for λ > (r − 1) d2 this
+implies the following identity:
+                                      dm
+      p(z) = [p, Km
+                  λ (−, z)]λ =     n         · p(Bλ )w Φm (w, z)|w=0            (4.4)
+                                 ( r )m (λ)m
+
+for z ∈ VC and p ∈ Pm (VC ). The right hand side is clearly meromorphic in λ
+with possible poles at the points where (λ)m = 0. For λ = k 2d , k ∈ {0, . . . , r−1},
+
+                                           50
+and m ≥ 0 with mk+1 = . . . = mr = 0 we have (λ)m 6= 0 and hence the identity
+(4.4) holds for such λ and m by analytic continuation. Since the reproducing
+kernel of Pm (Xλ ) is uniquely determined by (4.4) the claim now follows also for
+λ = k d2 .
+Theorem 4.15. The reproducing kernel Kλ (z, w) of the Hilbert space Fλ is
+given by
+                     z w
+      Kλ (z, w) = Iλ   ,   ,                z, w ∈ Xλ .
+                      2 2
+Proof. Let 0 ≤ k ≤ r be such that Xλ = Xk . By the previous result Kmλ (z, w) is
+the reproducing kernel for the subspace Pm (Xλ ). Further we know by Propo-
+sition 4.2 that the spaces Pm (Xλ ) are pairwise orthogonal. Therefore, by [46,
+Proposition I.1.8], the sum
+          X                                X              dm         z w      z w
+                     Km
+                      λ (z, w) =                                 Φ m   ,   = Iλ   ,
+                                                    ( nr )m (λ)m      2 2        2 2
+      m≥0,mk+1 =0                  m≥0,mk+1 =0
+
+converges pointwise to the reproducing kernel Kλ (z, w) of the direct Hilbert sum
+of all subspaces Pm (Xλ ) with m ≥ 0, mk+1 = 0. But this direct Hilbert sum is
+by definition Fλ and the proof is complete.
+   The following consequence is a standard result for reproducing kernel spaces
+and can e.g. be found in [46, page 9].
+Corollary 4.16. For every F ∈ Fλ and every z ∈ Xλ we have
+                      z z  21
+      |F (z)| ≤ Iλ      ,       kF kFλ .
+                       2 2
+
+4.5    Rings of differential operators and associated varieties
+We recall the definition of the associated variety of an admissible representation
+for the example (ρλ , Fλ ). Let (Uk (g))k∈N0 denote the usual filtration of the
+universal enveloping algebra U(g) and form the corresponding graded algebra
+gr U(g) which is by the Poincare–Birkhoff–Witt theorem naturally isomorphic
+                                                         e
+to the symmetric algebra S(gC ). The underlying (g, K)-module        X λ = P(Xλ )
+                                                                                 λ
+of the representation ρλ carries an action of U(g). For m ∈ N0 further let Xm
+                                                                        λ
+be the subspace of polynomials in P(Xλ ) of degree ≤ m. Then X0 = C1 is
+ e
+K-invariant and generates X λ as a U(g)-module. We further have
+                   λ    λ
+      dρλ (Uk (g))Xm = Xk+m ,                             k, m ∈ N0 ,
+                                     λ
+i.e. the filtrations (Uk (g))k and (Xm )m are compatible. Thus the corresponding
+graded space
+                 ∞
+                 M
+                            λ
+      gr X λ =          λ
+                       Xm /Xm−1
+                 m=0
+
+is a module over gr U(g). Consider the annihilator ideal
+
+      Jλ := Anngr U (g) (gr X λ ) ⊆ gr U(g) ∼
+                                            = S(gC ) ∼
+                                                     = C[g∗C ].
+
+
+                                               51
+Then the associated variety V(ρλ ) of ρλ is by definition the affine subvariety of
+g∗C consisting of the common zeros of Jλ . Since kC lives in degree 1 in gr U(g),
+                   λ
+but leaves each Xm   invariant, every element in V(ρλ ) vanishes on kC and we can
+view V(ρλ ) as a subset of p∗C . Via the Killing form we identify p∗C with pC and
+view V(ρλ ) as a subset of pC . Then V(ρλ ) is a KC -stable closed subvariety of pC
+consisting of nilpotent elements and hence the union of finitely many nilpotent
+KC -orbits (see [51, Corollary 5.23]).
+    Recall from Section 1.5 the KC -orbits OkKC ⊆ p+ which are isomorphic to
+the LC -orbits Xk via the Cayley type transform C ∈ Int(gC ). The following
+result is due to A. Joseph [30, Theorem 7.14]:
+Proposition 4.17. Let λ ∈ W and 0 ≤ k ≤ r such that Xλ = Xk . Then
+V(ρλ ) = OkKC .
+Corollary 4.18. For λ ∈ W let k ∈ {0, . . . , r} such that Xλ = Xk . Then the
+Gelfand–Kirillov dimension of ρλ is k + k(2r − k − 1) d2 .
+Proof. The Gelfand–Kirillov dimension of an irreducible unitary representation
+equals the dimension of its associated variety in p∗C (combine [50, Corollary 4.7]
+and [51, Theorem 8.4]). Therefore the result follows from (1.10).
+   For an algebraic variety X over C denote by C[X] the ring of regular functions.
+Further let D(X) be the ring of algebraic differential operators on X. This
+subring of EndC (C[X]) can be defined inductively as follows: Let D0 (X) := C[X]
+be the ring of multiplication operators and for m ∈ N put
+
+      Dm (X) := {D ∈ EndC (C[X]) : [D, f ] ∈ Dm−1 (X) ∀ f ∈ C[X]}.
+              S
+Then D(X) = m∈N0 Dm (X).
+   Since the varieties Xk are affine it follows that C[Xk ] = P(Xk ). The repre-
+sentation dρλ acts on P(Xλ ) by differential operators and hence it induces a
+map
+
+       dρλ : U(g) → D(Xλ ).
+
+The following result is a qualitative version of [30, Theorem 4.5]:
+Theorem 4.19. For λ = k d2 ∈ Wdisc the map dρλ : U(g) → D(Xk ) is surjective
+and induces an isomorphism U(g)/Jk ∼= D(Xk ), where Jk = AnnU (g) (X λ ).
+Proof. By [30, Theorem 4.5] the map dρλ is surjective onto the space of C-
+endomorphisms of P(Xλ ) = C[Xk ] which are locally finite under the diagonal
+action of p− . Now p− acts by multiplication with coordinate functions and
+hence the condition for D ∈ EndC (C[Xk ]) to be locally finite under the action
+of p− is equivalent to the existence of N ∈ N such that the iterated commutator
+[[. . . [D, f1 (x)], . . . , fN −1 (x)], fN (x)] = 0 for all f1 , . . . , fN ∈ C[Xk ]. This again
+is equivalent to D ∈ D(Xk ) and the proof is complete.
+Remark 4.20. A quantitative version of Theorem 4.19 was obtained by Levasseur–
+Smith–Stafford [39] for the minimal orbit X1 , by Levasseur–Stafford [40] for
+classical g and finally by Joseph [30] for the general case. However, their ver-
+sion is less explicit and does not provide a geometric construction of the unitary
+structure.
+
+                                               52
+Corollary 4.21. For k = 1, . . . , r − 1 the ring D(Xk ) of algebraic differential
+operators on the affine variety Xk is generated by the multiplications with regular
+functions in C[Xk ] and the Bessel operators (u|Bλ ), u ∈ VC , for λ = k d2 .
+
+Proof. By Theorem 4.19 the ring D(Xk ) is generated by the constants and
+dρλ (g). Note that in the decomposition gC = p− ⊕ kC ⊕ p+ the subalgebra
+kC is generated by p+ and p− and hence D(Xk ) is generated by the constants,
+dρλ (p+ ) = {(u|Bλ ) : u ∈ VC } and dρλ (p− ) = {(v|z) : v ∈ VC }.
+Remark 4.22. Neither Theorem 4.19 nor Corollary 4.21 can hold for λ ∈ Wcont
+                                                               ∂
+resp. k = r since in this case Xλ = Xr = VC and D(VC ) = C[x, ∂x ] is a Weyl
+algebra (see [40, Lemma IV.1.5]).
+
+
+
+
+                                        53
+5     The Segal–Bargmann transform
+For every λ ∈ W we explicitly construct an intertwining operator, the Segal–
+Bargmann transform, between the Schrödinger model (πλ , L2 (Oλ , dµλ )) and
+the Fock model (ρλ , Fλ ) in terms of its integral kernel.
+
+5.1    Construction of the Segal–Bargmann transform
+For each λ ∈ W the Segal–Bargmann transform Bλ is defined for ψ ∈ L2 (Oλ , dµλ )
+by
+                              Z
+                   − 12 tr(z)
+      Bλ ψ(z) := e              Iλ (z, x)e− tr(x) ψ(x) dµλ (x), z ∈ VC . (5.1)
+                                 Oλ
+
+Recall the space O(VC ) of holomorphic functions on VC .
+Proposition 5.1. For ψ ∈ L2 (Oλ , dµλ ) the integral in (5.1) converges uni-
+formly on bounded subsets and defines a function Bλ ψ ∈ O(VC ). The Segal–
+Bargmann transform Bλ is a continuous linear operator
+
+      L2 (Oλ , dµλ ) → O(VC ).
+                                            1
+Proof. Since the kernel function e− 2 tr(z) Iλ (z, x)e− tr(x) is analytic in z, it suf-
+fices to show that its L2 -norm in x has a uniform bound for |z| ≤ R, R > 0. By
+Lemma 3.1 there exists C > 0 such that
+                                     r(2n−1)
+                                             √
+       |Iλ (z, x)| ≤ C(1 + |z| · |x|) 4 e2r |z|·|x|.
+
+Then for x ∈ Oλ , z ∈ VC with |z| ≤ R, we find
+          1                                                 r(2n−1)
+                                                                            √
+      |e− 2 tr(z) Iλ (z, x)e− tr(x) | ≤ C ′ (1 + R · |x|)      4      e2r    R·|x| − tr(x)
+                                                                                 e
+                                                            r(2n−1)         √ √
+                                                                          2r R |x|−|x|
+                                      ≤ C ′ (1 + R · |x|)      4      e
+                                 1
+with C ′ = C max|z|≤R |e− 2 tr(z) |. This is certainly L2 as a function of x ∈ Oλ
+with norm independent of z and the claim follows.
+    Next, we show that Bλ intertwines the action dπλ on L2 (Oλ , dµλ ) with the
+action dρλ on Fλ . Recall the Cayley type transform C ∈ Int(gC ) introduced in
+Section 1.3.
+Proposition 5.2. The following intertwining identity holds on L2 (Oλ , dµλ )∞ :
+
+      Bλ ◦ dπλ (X) = dπλC (C(X)) ◦ Bλ ,                                    X ∈ g.            (5.2)
+
+Proof. As remarked in Section 1.3 the subspace {(a, L(b), a) : a, b ∈ V } gen-
+erates g as a Lie algebra. Hence it suffices to prove (5.2) for the elements
+(a, ±2iL(a), a), a ∈ V . We show (5.2) for X = (a, −2iL(a), a), a ∈ V , the
+proof for (a, +2iL(a), a) works similarly. For X = (a, −2iL(a), a) we have
+C(X) = (a, 0, 0) and hence
+
+        ( dπλC (C(X)) ◦ Bλ )ψ(z)
+                         Z
+                  1
+      = i(a|z)e− 2 tr(z)    Iλ (z, x)e− tr(x) ψ(x) dµλ (x).
+                            Oλ
+
+
+
+                                                54
+By Proposition 3.9 we have zIλ (z, x) = (Bλ )x Iλ (z, x). Further the Bessel oper-
+ator Bλ is symmetric on L2 (Oλ , dµλ ) and we obtain
+                            Z
+                 1
+        = ie− 2 tr(z)             (a|Bλ )x Iλ (z, x)e− tr(x) ψ(x) dµλ (x)
+                             O
+                            Z λ                   h             i
+               − 12 tr(z)
+        = ie                      Iλ (z, x)(a|Bλ ) e− tr(x) ψ(x) dµλ (x).
+                             Oλ
+
+By the product rule (1.13) for the Bessel operator we obtain
+          h               i
+       Bλ e− tr(x) ψ(x)
+                                                 
+                                  ∂ − tr(x) ∂ψ
+     = Bλ e − tr(x)
+                    · ψ(x) + 2P      e       ,      x + e− tr(x) · Bλ ψ(x)
+                                  ∂x           ∂x
+                                             ∂ψ
+     = (x − λe)e− tr(x) ψ(x) − 2e− tr(x) x ·     + e− tr(x) Bλ ψ(x)
+                                             ∂x
+since
+
+        Bλ e− tr(x) = (P (−e)x − λe)e− tr(x) = (x − λe)e− tr(x)                  and
+        ∂ − tr(x)
+           e        = −e · e− tr(x) .
+        ∂x
+Hence we have
+            h             i
+     (a|Bλ ) e− tr(x) ψ(x)
+                                = e− tr(x) [(a|x)ψ(x) − λ tr(a)ψ(x) − 2∂ax ψ(x) + Bλ ψ(x)] .
+
+Inserting this into our calculation above we find
+
+          ( dπλC (C(X)) ◦ Bλ )ψ(z)
+                                                       
+                                    rλ
+        = Bλ ◦ i(a|x) − 2i ∂L(a)x +    Tr(L(a)) + i(a|Bλ ) ψ(z)
+                                    2n
+        = (Bλ ◦ dπλ (X))ψ(z).
+
+    To conclude that Bλ is an isomorphism L2 (Oλ , dµλ ) → Fλ , we show that
+it maps the underlying (g, k)-module W λ ⊆ L2 (Oλ , dµλ ) to the (g, k)-module
+P(Xλ ). In order to do so we show that the function
+
+        Ψ0 := Bλ ψ0 ∈ O(VC )
+
+                                              e
+is LC -invariant. In fact, the function ψ0 is K-equivariant by the character ξλ
+(see Section 2.1). By Proposition 5.2 the same has to be true for Ψ0 . But by
+                                                            e # = U . Now U is
+Proposition 4.12 this implies that Ψ0 is invariant under η(K)
+a real form of LC and the action of LC on Ψ0 is holomorphic, whence Ψ0 has to
+be LC -invariant. Therefore it has to be constant on every LC -orbit. Since Ψ0 is
+holomorphic on VC and VC decomposes into finitely many LC -orbits, it follows
+that Ψ0 is constant on VC . It remains to show that Ψ0 is non-zero.
+Proposition 5.3. Ψ0 (0) = 1 and hence Ψ0 = Bλ ψ0 = 1.
+
+
+                                                     55
+Proof. Since Iλ (0, x) = 1 we have
+               Z
+      Ψ0 (0) =      e−2 tr(x) dµλ (x) = kψ0 k2L2 (Oλ , dµλ ) = 1
+                  Oλ
+
+as shown in Section 1.2.
+Theorem 5.4. Bλ is a unitary isomorphism L2 (Oλ , dµλ ) → Fλ intertwining
+the actions πλ and ρλ .
+Proof. Since W λ = L2 (Oλ , dµλ )k is generated by ψ0 , P(Xλ ) = (Fλ )k is gener-
+ated by Ψ0 = 1, Bλ ψ0 = Ψ0 and Bλ intertwines the actions dπλ and dρλ , it
+has to map the irreducible (g, k)-module W λ into the irreducible (g, k)-module
+P(Xλ ) and is therefore, thanks to Schur’s Lemma, an isomorphism between the
+underlying (g, k)-modules. It only remains to show that Bλ is isometric be-
+tween W λ and P(Xλ ), then the statement follows since W λ ⊆ L2 (Oλ , dµλ ) and
+P(Xλ ) ⊆ Fλ are dense.
+Both W λ and P(Xλ ) are irreducible infinitesimally unitary (g, k)-modules and
+hence Bλ is a scalar multiple of a unitary operator. Since further
+
+      kBλ ψ0 kFλ = k1kFλ = 1 = kψ0 kL2 (Oλ , dµλ )
+
+the operator Bλ itself has to be unitary.
+Remark 5.5. The Segal–Bargmann transform can also be obtained via a re-
+striction principle (see [28, 47] for other instances of this principle). The formula
+               1
+Rλ F (x) = e− 2 tr(x) F (x) defines an operator P(Xλ ) → L2 (Oλ , dµλ ) and hence
+we obtain a densely defined unbounded operator Rλ : Fλ → L2 (Oλ , dµλ ). We
+consider its adjoint R∗λ : L2 (Oλ , dµλ ) → Fλ as a densely defined unbounded
+operator. One can show that the Segal–Bargmann transform appears as the
+unitary part in the polar decomposition of the operator R∗λ :
+                  p
+       R∗λ = Bλ ◦ Rλ R∗λ .
+
+For the case of the minimal discrete Wallach point this is done in [23, Proposition
+5.5].
+Corollary 5.6. The inverse Segal–Bargmann transform is given by
+                       − tr(x) Z
+                 e                              1
+      B−1
+       λ F (x) =                    Iλ (x, z)e− 2 tr(z) F (z)ωλ (z) dνλ (z),   F ∈ Fλ .
+                        cλ     Xλ
+
+Proof. Since the Segal–Bargmann transform is a unitary operator we have
+                                                           Z
+                                                        1
+        hBλ−1 F, ψiL2 (Oλ , dµλ ) = hF, Bλ ψiFλ =              F (z)Bλ ψ(z)ωλ (z) dνλ (z)
+                                                       cλ X λ
+            Z Z
+         1                     1
+      =              F (z)e− 2 tr(z) Iλ (z, x)e− tr(x) ψ(x) dµλ (x)ωλ (z) dνλ (z)
+        cλ X λ O λ
+            Z              Z                                            
+         1                           1
+      =           e− tr(x)        e− 2 tr(z) Iλ (x, z)F (z)ωλ (z) dνλ (z) ψ(x) dµλ (x)
+        cλ O λ               Xλ
+
+which implies the claim.
+
+
+                                              56
+    We now use the Segal–Bargmann transform to obtain an intrinsic description
+of the Fock space.
+Theorem 5.7.
+                                     Z                                        
+                                                           2
+             Fλ = F |Xλ : F ∈ O(VC ),                |F (z)| ωλ (z) dνλ (z) < ∞ .
+                                                Xλ
+
+Proof. The Segal–Bargmann transform is an isomorphism Bλ : L2 (Oλ , dµλ ) →
+Fλ and hence by Proposition 5.1 every function in Fλ extends to a holomorphic
+function on VC . This shows the inclusion ⊆.
+For the other inclusion let F ∈ O(VC ) such that
+      Z
+          |F (z)|2 ωλ (z) dνλ (z) < ∞.
+       Xλ
+
+We expand F into a power series which we can arrange as
+         X
+     F =     pm with pm ∈ Pm (VC )
+             m≥0
+
+by Theorem
+     P      1.6. Since pm |Xλ = 0 for mk+1 6= 0 by Corollary 1.9 we may assume
+F = m≥0, mk+1 =0 pm for the study of F |Xλ . This series converges uniformly
+on compact subsets. We show that this series also converges in L2 (Xλ , ωλ dνλ ).
+For R > 0 let
+
+      XλR := {z ∈ Xλ : |z| ≤ R},               OλR := {x ∈ Oλ : |x| ≤ R}.
+
+Note that XλR and OλR are compact
+                               P and hence integration over these sets com-
+mutes with taking the limit F = m≥0, mk+1 =0 pm . With (1.11) we find
+             Z
+      ∞>       |F (z)|2 ωλ (z) dνλ (z)
+              Xλ
+                Z
+         = lim        |F (z)|2 ωλ (z) dνλ (z)
+             R→∞    XλR
+                          X        Z      Z
+                                                       1        1           1
+         = lim                                 pm (ux 2 )pn (ux 2 ) duωλ (x 2 ) dµλ (x).
+             R→∞                      R
+                                     Oλ    U
+                     m,n≥0,
+                   mk+1 =nk+1 =0
+
+
+By Theorem 1.7 and Lemma 1.14 the integrals over U for m 6= n vanish and we
+obtain
+                  X     Z
+       = lim                 |pm (z)|2 ωλ (z) dνλ (z)
+             R→∞                    XλR
+                   m≥0, mk+1 =0
+                   X
+         =                  kpm k2L2 (Xλ ,ωλ dνλ )
+             m≥0, mk+1 =0
+
+
+which shows convergence in L2 (Xλ , ωλ dνλ ). Since Fλ is the closure of the
+space of polynomials with respect to the norm of L2 (Xλ , ωλ dνλ ) it is clear that
+F |Xλ ∈ Fλ which shows the other inclusion.
+
+
+                                                57
+    This intrinsic description leads to the following conjecture which was proved
+in [23, Theorem 2.26] for the minimal orbit, i.e. λ ∈ W with Xλ = X1 :
+Conjecture 5.8.
+                     Z                                         
+    Fλ = F ∈ O(Xλ ) :                |F (z)|2 ωλ (z) dνλ (z) < ∞ .
+                                Xλ
+
+   Recall the Laguerre functions ℓλm introduced in Section 1.8.
+Proposition 5.9. Let λ ∈ W and k ∈ {0, . . . , r} such that Oλ = Ok . Then for
+every m ≥ 0 with mk+1 = 0 we have
+
+                 (−1)|m|
+      Bλ ℓλm =           Φm .
+                   2|m|
+Proof. ℓλm is the unique (up to scalar multiples) kl -invariant vector in the k-
+type Wm   λ
+            ⊆ L2 (Oλ , dµλ ) whereas Φm is the unique (up to scalar multiples)
+kl -invariant vector in the k-type Pm (Xλ ) ⊆ Fλ . Hence
+
+      Bλ ℓλm = const ·Φm .
+
+To find the constant we evaluate B−1            λ
+                                  λ Φm (x) and ℓm (x) at x = 0. First observe
+that
+
+      ℓλm (0) = Lλm (0) = (λ)m .
+
+Next we calculate B−1
+                    λ Φm (0) using Corollary 5.6:
+                      Z
+      −1            1        1
+     Bλ Φm (0) =          e− 2 tr(z) Φm (z)ωλ (z) dνλ (z).
+                   cλ X λ
+
+By (1.18) the function etr(z) has the following expansion:
+                 X dm
+      etr(z) =            Φm (z).
+                  ( nr )m
+                 m≥0
+
+Inserting this yields
+                       X                          Z
+                                     dn      1
+      B−1
+       λ Φm (0) =          (−1)|n| |n| n ·               Φm (z)Φn (z)ωλ (z) dνλ (z)
+                                  2   (  )
+                                        r n
+                                            c λ     Xλ
+                       n≥0
+                       X             dn
+                   =       (−1)|n| |n| n hΦm , Φn iFλ
+                       n≥0
+                                  2   ( r )n
+
+                               dm      4|m| ( nr )m (λ)m
+                   = (−1)|m| |m| n   ·
+                            2 ( r )m           dm
+                   = (−1)|m| 2|m| (λ)m ,
+
+where we have used Proposition 4.2.
+
+
+
+
+                                             58
+5.2    Intertwiner to the bounded symmetric domain model
+The Fock space Fλ and the bounded symmetric domain model Hλ2 (D) have (as
+vector spaces) the same underlying (g, e
+                                      K)-module, namely
+          M
+                  Pm (VC ),
+      m≥0, mk+1 =0
+
+
+where k ∈ {0, . . . , r} is such that Xλ = Xk . However, inner product and group
+action differ. In Remark 4.3 we already compared the norms in the two models.
+To gain a better understanding of the relation between the two models we
+investigate the intertwiner between them.
+    For this we compose the inverse Segal–Bargmann transform B−1     λ with the
+Laplace transform Lλ and the pullback of the Cayley transform γλ to obtain
+an intertwining operator between the Fock space picture and the realization on
+functions on the bounded symmetric domain. (For the definition of Lλ and γλ
+see Sections 2.2 and 2.3.) Let
+
+      Aλ := γλ ◦ Lλ ◦ B−1        2
+                       λ : Fλ → Hλ (D).
+
+The operator Aλ intertwines the actions ρλ and πλD .
+Theorem 5.10. For F ∈ Fλ we have
+                  Z
+                1        1
+    Aλ F (z) =        e− 2 (z|w) F (w)ωλ (w) dνλ (w),                       z ∈ D.
+               cλ X λ
+
+Proof. Using Lemma 3.8 we obtain
+
+        Aλ F (z) = γλ ◦ Lλ ◦ B−1
+                               λ F (z) = ∆(e − z)
+                                                    −λ
+                                                       Lλ ◦ B−1
+                                                             λ F (c(z))
+                    Z
+      = ∆(e − z)−λ      ei(c(z)|u) B−1
+                                    λ F (u) dµλ (u)
+                     Oλ
+                 −λ Z       Z
+          ∆(e − z)                                                 1
+      =                           ei(c(z)|u) e− tr(u) Iλ (u, w)e− 2 tr(w) F (w)
+              cλ       Oλ   Xλ
+                                                                     ωλ (w) dνλ (w) dµλ (u)
+                 −λ Z
+                            Z                                        
+          ∆(e − z)                                                         1
+      =                               e −(u|e−ic(z))
+                                                     Iλ (u, w) dµλ (u) e− 2 tr(w) F (w)
+              cλ       Xλ        Oλ
+                                                                                ωλ (w) dνλ (w)
+           rλ        −λ Z
+          2 ∆(e − z)                                          −1
+                                                                   |w) − 21 tr(w)
+      =                          ∆(e − ic(z))−λ e((e−ic(z))            e            F (w)
+              cλ            Xλ
+                                                                                ωλ (w) dνλ (w).
+
+Now
+
+      e − ic(z) = e + (e + z)(e − z)−1 = 2(e − z)−1
+
+and therefore
+
+      ∆(e − ic(z))−λ = 2−rλ ∆(e − z)λ .
+
+
+                                              59
+This also implies that
+                             1        1
+      ((e − ic(z))−1 |w) =     tr(w) − (z|w)
+                             2        2
+so that altogether we obtain
+                    Z
+                  1        1
+      Aλ F (z) =        e− 2 (z|w) F (w)ωλ (w) dνλ (w).
+                 cλ X λ
+                                                                     |m|
+Corollary 5.11. The operator Aλ acts on Pm (VC ) by the scalar (−1)2|m|(λ)m .
+Proof. Using the expansion (1.18) and Proposition 4.14 we obtain
+               X
+      e(z|w) =    (λ)n Kn
+                        λ (z, w).
+               n≥0
+
+Hence for F ∈ Pm (VC ) we find
+                X
+                                     1
+     Aλ F (z) =    (λ)n hF, Kn
+                             λ (−, − 2 z)iFλ
+                 n≥0
+
+                                     (−1)|m| (λ)m
+               = (λ)m F (− 12 z) =                F (z).
+                                        2|m|
+
+
+
+
+                                          60
+6     The unitary inversion operator
+Using the Segal–Bargmann transform we now calculate the integral kernel of
+the unitary inversion operator Uλ . The unitary inversion operator is essentially
+given by the action πλ (e j) of the inversion element (see [22, Section 3.3])
+                 π           
+      je = expGe    (e, 0, −e) ∈ G.e
+                  2
+More precisely, we put
+                 rλ
+      Uλ := e−iπ 2 πλ (e
+                       j).
+
+The operator Uλ is unitary on L2 (Oλ , dµλ ) of order 2, i.e. Uλ2 = id (see [22,
+Proposition 3.17 (1)]). We also study Whittaker vectors in the Schrödinger
+model. They can be derived from the explicit expression of the integral kernel
+of Uλ .
+
+6.1    The integral kernel of Uλ
+Recall the underlying (g, k)-module W λ = P(Oλ )e− tr(x) of the representation
+(πλ , L2 (Oλ , dµλ )).
+Proposition 6.1. For every ψ ∈ W λ the integral
+                     Z
+                 −rλ
+    Tλ ψ(z) := 2       Jλ (z, x)ψ(x) dµλ (x),               z ∈ VC ,
+                         Oλ
+
+converges uniformly on compact subsets of VC . This defines a linear operator
+Tλ : W λ → C(Oλ ).
+Proof. Let ψ(x) = p(x)e− tr(x) ∈ P(Oλ )e− tr(x) = W λ . Then |p(x)| ≤ C1 (1 +
+|x|)N for some constants C1 , N > 0. Further, by Lemma 3.1 we have
+                                      r(2n−1)
+                                              √
+      |Jλ (z, x)| ≤ C2 (1 + |z| · |x|) 4 e2r |z|·|x|   ∀ x ∈ Oλ , z ∈ VC
+
+for a constant C2 > 0. Hence, for |z| ≤ R, R ≥ 1, we obtain
+         Z
+             |Jλ (z, x)ψ(x)| dµλ (x)
+          Oλ
+              Z                           √ √
+                                  r(2n−1)
+      ≤ C1 C2      (1 + R|x|)N + 4 e2r R |x|−|x| dµλ (x) < ∞
+               Oλ
+
+and the proof is complete.
+Proposition 6.2. The operator Tλ is a unitary isomorphism Tλ : W λ → W λ
+with Tλ ψ0 = ψ0 which intertwines the g-action dπλ with the g-action dπλ ◦
+Ad(j).
+Proof. By Proposition 3.6 the operator Tλ intertwines the Bessel operator Bλ
+with the coordinate multiplication −x and vice versa. Therefore we obtain
+
+      Uλ ◦ dπλ (X) = dπλ (Ad(j)X) ◦ Uλ                                      (6.1)
+
+
+                                       61
+for X ∈ n⊕n. Since n and n together generate g as a Lie algebra the intertwining
+formula (6.1) holds for all X ∈ g. Further, for x ∈ Oλ ⊆ Xλ we find
+                       Z
+      Tλ ψ0 (x) = 2−rλ      Jλ (x, y)e− tr(y) dµλ (y)
+                        Oλ
+                  Z
+                =     Iλ (−2x, y)e−2 tr(y) dµ(y)
+                    Oλ
+                    − tr(x)
+               =e             Bλ ψ0 (−2x) = e− tr(x) = ψ0 (x).
+
+Since W λ = dπλ (U(g))ψ0 , it follows that Tλ W λ ⊆ dπλ (U(g))Tλ ψ0 = W λ . Now,
+since invariant Hermitian forms on the irreducible infinitesimally unitary (g, k)-
+module W λ are unique up to a scalar, we find that Tλ is a unitary isomorphism.
+
+
+Theorem 6.3. Uλ = Tλ .
+Proof. By the previous proposition Uλ ◦ Tλ−1 extends to a unitary isomorphism
+L2 (Oλ , dµλ ) → L2 (Oλ , dµλ ) which commutes with the g-action dπλ . There-
+fore, by Schur’s Lemma, Uλ is a scalar multiple of Tλ . Since Uλ ψ0 = ψ0 = Tλ ψ0
+this gives the claim.
+Remark 6.4. The group G is generated by the conformal inversion j and the
+maximal parabolic subgroup P := L◦ ⋉ N , where
+
+      L◦ = G ∩ Str(V ).
+
+Write Pe for the preimage of P under the covering map G  e → G. The restriction
+of πλ to Pe factors to P and is in the Schrödinger model quite simple. In fact
+
+      πλ (na )ψ(x) = ei(x|a) ψ(x),                           na ∈ N,
+                                  λ
+                                      #
+                              #
+       πλ (g)ψ(x) = χ(g ) ψ(g x), 2                              g ∈ L◦ ,
+
+and by Mackey theory this representation is even irreducible on L2 (Oλ , dµλ ).
+Therefore, together with the action of ej in the Schrödinger model (see Theorem
+6.3) this describes the complete group action πλ .
+For the case of the rank 1 orbit O1 Theorem 6.3 was shown in [23, Theorem 4.3].
+Earlier contributions to special cases are [33] for the case g = so(2, k) and λ the
+minimal discrete Wallach point and [37] for the case g = sl(2, R) and arbitrary
+λ ∈ W.
+Remark 6.5. Since the functions x 7→ Jλ (x, y), y ∈ Oλ , are eigenfunctions
+of the Bessel operator, the inversion formula for Uλ gives an expansion of any
+function ψ ∈ L2 (Oλ , dµλ ) into eigenfunctions of the Bessel operator:
+                  Z
+      ψ(x) = 2−rλ      Jλ (x, y) Uλ ψ(y) dµλ (y),       ψ ∈ L2 (Oλ , dµλ ).
+                      Oλ
+
+
+  Compared to the action of je in the Schrödinger model its action in the Fock
+model is extremely simple. Define (−1)∗ on Fλ by (−1)∗ F (z) = F (−z).
+Proposition 6.6. Bλ ◦ Uλ = (−1)∗ ◦ Bλ .
+
+
+                                             62
+Proof. We have dρλ (t(e, 0, −e)) = dπλC (2it(0, 1, 0)) = 2it(∂z + rλ
+                                                                   2 ). Therefore,
+we obtain
+
+      ρλ (et(e,0,−e) )F (z) = eirλt F (e2it z).
+
+For t = π2 we obtain the action of je which is given by eiπ 2 (−1)∗ .
+                                                                       rλ
+
+
+
+
+   This now allows us to compute the action of the unitary inversion operator
+on the Laguerre functions ℓλm introduced in Section 1.8.
+Proposition 6.7.
+                                   Uλ ℓλm = (−1)|m| ℓλm .
+Proof. Since Bλ ℓλm = const ·Φm and Φm (−z) = (−1)|m| Φm (z) the claim follows
+with Proposition 6.6.
+
+6.2    Whittaker vectors
+The integral kernel of the unitary inversion operator provides us with explicit
+Whittaker vectors for the representations πλ on L2 (Oλ , dµλ ) and hence with
+explicit embeddings into Whittaker models. For this let L2 (Oλ , dµλ )∞ denote
+the space of smooth vectors of the representation πλ endowed with the usual
+Frechet topology. Since πλ leaves L2 (Oλ , dµλ )∞ invariant the representation
+extends to the space L2 (Oλ , dµλ )−∞ = (L2 (Oλ , dµλ )∞ )′ of distribution vectors
+by
+
+      hπλ (g)u, ϕi := hu, πλ (g −1 )ϕi,                             e
+                                                                g ∈ G,
+
+for u ∈ L2 (Oλ , dµλ )−∞ and ϕ ∈ L2 (Oλ , dµλ )∞ . Here we use the complex
+conjugate U of an operator U on L2 (Oλ , dµλ )∞ which is defined by U ϕ := U ϕ
+for ϕ ∈ L2 (Oλ , dµλ )∞ . Further recall that W λ = P(Oλ )e− tr(x) ⊆ L2 (Oλ , dµλ )
+is the underlying (g, k)-module of πλ . It does not carry a representation of the
+group G,e but the representation dπλ of the Lie algebra g restricts to W λ . By
+duality dπλ extends to the algebraic dual (W λ )∗ :
+
+      h dπλ (X)u, ϕi := −hu, dπλ (X)ϕi,                           X ∈ g,
+
+for u ∈ (W λ )∗ and ϕ ∈ W λ . We have the following inclusions:
+
+      W λ ⊆ L2 (Oλ , dµλ )∞ ⊆ L2 (Oλ , dµλ ) ⊆ L2 (Oλ , dµλ )−∞ ⊆ (W λ )∗ .
+
+Note that the unitary inversion operator Uλ leaves each of these spaces invariant.
+Definition 6.8. A distribution u ∈ (W λ )∗ is an algebraic n-Whittaker vector
+of weight η ∈ n∗C (resp. an algebraic n-Whittaker vector of weight η ∈ n∗C ) if
+
+      dπλ (X)u = η(X)u,                      for all X ∈ n (resp. X ∈ n).
+
+If moreover u ∈ L2 (Oλ , dµλ )−∞ we call u a smooth Whittaker vector.
+   For z ∈ VC let ηz ∈ n∗C and η z ∈ n∗C be defined by
+
+      ηz (u, 0, 0) := i(u|z),                               u ∈ nC ,
+      η z (0, 0, v) := −i(v|z),                             v ∈ nC .
+
+
+                                             63
+    Now fix λ ∈ W. In [41, Theorem 1] it is shown that there can only be
+non-trivial algebraic n-Whittaker vectors (resp. n-Whittaker vectors) of weight
+η ∈ n∗C (resp. η ∈ n∗C ) for dπλ if η is contained in the associated variety of dπλ
+in g∗C . The intersection of the associated variety of dπλ with n∗C (resp. n∗C ) is
+equal to Xλ (after identifying n∗C and n∗C with VC ). Hence the existence of a
+non-trivial algebraic n-Whittaker vector (resp. n-Whittaker vector) of weight
+ηz (resp. η z ) implies z ∈ Xλ . We prove the converse of this statement:
+Proposition 6.9. Let z ∈ Xλ .
+ (1) The Dirac delta distribution δλ,z at z is contained in (W λ )∗ and defines
+     an algebraic n-Whittaker vector of weight ηz .
+ (2) The distribution
+
+            φλ,z (x) := Jλ (z, x) dµλ (x),                        x ∈ Oλ ,
+
+      is contained in (W λ )∗ and defines an algebraic n-Whittaker vector of
+      weight η z .
+ (3) The algebraic Whittaker vectors δλ,z and φλ,z are related by
+
+            φλ,z = 2rλ Uλ δλ,z .
+
+Proof. (1) Since W λ = P(Oλ )e− tr(x) and P(Oλ ) ∼    = C[Xλ ] the point evalua-
+      tion of every ϕ ∈ W λ at z ∈ Xλ is well-defined. Now dπλ (u, 0, 0) = i(u|x)
+      and the Whittaker property follows.
+ (2) By Proposition 6.1 the function φλ,z belongs to (W λ )∗ . Since dπλ (0, 0, v) =
+     i(v|Bλ ) the Whittaker property follows from Proposition 3.6.
+ (3) By Theorem 6.3 we have for ϕ ∈ W λ
+                      Z
+         hφλ,z , ϕi =   Jλ (z, x)ϕ(x) dµλ (x) = 2rλ Uλ ϕ(z)
+                            Oλ
+
+                        = 2rλ hδλ,z , Uλ ϕi = 2rλ hUλ δλ,z , ϕi
+
+      since Uλ = Uλ .
+    An interesting question is to determine the set of smooth Whittaker vectors
+for πλ . We find that the algebraic n-Whittaker vector δλ,z (resp. the algebraic
+n-Whittaker vector φλ,z ) is smooth if z ∈ Oλ . For this we first prove estimates
+for δλ,z and φλ,z using the estimate for Jλ (z, w) by Nakahama [45] stated in
+Proposition 3.2.
+Lemma 6.10. For each λ ∈ W and x ∈ Oλ there exist elements X, Y ∈ U(g)
+such that for all ϕ ∈ W λ we have
+
+      |hδλ,x , ϕi| ≤ k dπλ (X)ϕkL2 (Oλ , dµλ ) ,                              (6.2)
+      |hφλ,x , ϕi| ≤ k dπλ (Y )ϕkL2 (Oλ , dµλ ) .                             (6.3)
+
+
+
+
+                                             64
+Proof. We first prove (6.3). From Proposition 3.2 it follows that there exists
+constants C1 > 0 and k ∈ N0 such that
+
+      |Jλ (x, y)| ≤ C1 (1 + |y|2 )k                              ∀ y ∈ Oλ .
+
+Now there exists an N ∈ N0 with
+
+      C2 := k(1 + | · |2 )k−N kL2 (Oλ , dµλ ) < ∞.
+
+Hence we obtain for ϕ ∈ W λ , using Hölder’s inequality:
+                       Z
+     |hφλ,x , ϕi| ≤ C1     (1 + |y|2 )k |ϕ(y)| dµλ (y)
+                        Oλ
+                       Z
+                  = C1     (1 + |y|2 )k−N · |(1 + |y|2 )N ϕ(y)| dµλ (y)
+                          Oλ
+                  ≤ C1 C2 k(1 + | · |2 )N ϕkL2 (Oλ , dµλ ) .
+
+Since dπλ (U(g)) contains all polynomials there exists X ∈ U(g) such that
+
+      dπλ (X)ϕ(y) = C1 C2 (1 + |y|2 )N ϕ(y)
+
+which shows (6.3). Now by Proposition 6.9 (3) we have
+
+      δλ,x = 2−rλ Uλ φλ,x
+
+and we obtain
+
+      |hδλ,x , ϕi| = 2−rλ |hUλ φλ,x , ϕi| = 2−rλ |hφλ,x , Uλ ϕi|
+                 ≤ 2−rλ k dπλ (X)Uλ ϕkL2 (Oλ , dµλ )
+                 = 2−rλ k dπλ (X)πλ (e
+                                     j)ϕkL2 (O , dµ )λ       λ
+
+                 = 2−rλ kπ(e
+                           j) dπλ (Ad(je−1 )X)ϕkL2 (Oλ , dµλ )
+                 = 2−rλ k dπλ (Ad(ej −1 )X)ϕkL2 (O , dµ ) .
+                                                         λ       λ
+
+
+Hence (6.2) follows with Y = 2−rλ Ad(je−1 )X.
+Theorem 6.11. Let λ ∈ W. Then for every x ∈ Oλ the algebraic Whittaker
+vectors δλ,x and φλ,x are smooth, i.e. δλ,x , φλ,x ∈ L2 (Oλ , dµλ )−∞ .
+Proof. Recall that for X ∈ U(g) the map
+
+      L2 (Oλ , dµλ ) → [0, ∞), ϕ 7→ k dπλ (X)ϕkL2 (Oλ , dµλ )
+
+is a continuous seminorm on L2 (Oλ , dµλ )∞ . Since W λ ⊆ L2 (Oλ , dµλ )∞ is
+dense the claim now follows from (6.2) and (6.3)
+Remark 6.12. For x ∈ Oλ it is easy to see that δλ,x , φλ,x ∈ L2 (Oλ , dµλ )−∞ .
+In fact, by the Sobolev embedding theorem it follows that there is a continuous
+linear embedding L2 (Oλ , dµλ )∞ ֒→ C ∞ (Oλ ) and hence it is immediate that
+δλ,x ∈ L2 (Oλ , dµλ )−∞ . Further φλ,x = 2rλ Uλ δλ,x ∈ L2 (Oλ , dµλ )−∞ as Uλ
+is an automorphism of L2 (Oλ , dµλ )−∞ . However, it is a priori not clear that
+every function ϕ ∈ L2 (Oλ , dµλ )∞ extends to Oλ and that δλ,x is defined on
+L2 (Oλ , dµλ )∞ for x ∈ ∂Oλ . In [37, Theorems 5.15, 5.18 & 5.19] the statements
+of Theorem 6.11 are shown for the special case V = R, i.e. g ∼= sl(2, R).
+
+                                             65
+Remark 6.13. Note that since Jλ (0, y) = 1 for all y ∈ V we have φλ,0 = 1 dµλ ,
+the constant function on Oλ with value 1, and hence
+
+     Uλ δλ,0 = 2rλ 1 dµλ .
+
+This formula resembles the fact that the Euclidean Fourier transform maps the
+Dirac delta distribution at the origin to a constant function.
+
+
+
+
+                                      66
+7     Application to branching problems
+                                                                        so(2,n)
+For g = so(2, n) we consider the representation dπλ        belonging to the min-
+imal non-zero discrete Wallach point λ = d2 = n−2
+                                                2 . We   consider the restriction
+      so(2,n)
+of dπλ        to the symmetric subalgebra h = so(2, m) ⊕ so(n − m) of g. Note
+that the pair (g, h) is a symmetric pair of holomorphic type and hence the
+                                                   so(2,n)
+restriction of the lowest weight representation dπλ        to h is discretely de-
+composable with multiplicity one and the representations of h appearing in the
+decomposition will again be lowest weight representations (see [32]).
+    Consider the Jordan algebra V = R1,n−1 which is the vector space R × Rn−1
+endowed with the multiplication
+      (x1 , x′ ) · (y1 , y ′ ) := (x1 y1 + x′ · y ′ , x1 y ′ + y1 x′ )
+for x1 , y1 ∈ R, x′ , y ′ ∈ Rn−1 , where x′ · y ′ denotes the standard inner product
+on Rn−1 . We have der(V ) = so(n − 1), acting on the last n − 1 variables, and
+str(V ) = so(1, n−1)⊕R. The conformal Lie algebra of V is given by g = so(2, n).
+The subalgebra so(2, m), 1 ≤ m ≤ n, can be viewed as the conformal Lie
+algebra of the Jordan subalgebra U = {x ∈ V : xm+1 = . . . = xn = 0} ∼                    =
+R1,m−1 . Then so(2, m) consists of the elements (u, L(a) + D, v) with u, a, v ∈ U
+and D ∈ so(m − 1) acting on the coordinates x2 , . . . , xm . The centralizer of
+so(2, m) in g is so(n−m) acting linearly on the coordinates xm+1 , . . . , xn . Hence
+so(n − m) ⊆ kl = so(n − 1). Finally let h = so(2, m) ⊕ so(n − m) ⊆ g be the
+corresponding subalgebra of g.
+                                      so(2,n)                              so(2,n)
+    To study the restriction dπλ              |h we use the Fock model ( dρλ       , Fλ ) of
+                           so(2,n)
+the representation dπλ             . In this case
+         so(2,n)
+      X1           = {z ∈ Cn : z12 − z22 − · · · − zn2 = 0} \ {0},
+         so(2,n)
+      X2           = {z ∈ Cn : z12 − z22 − · · · − zn2 6= 0},
+realized in the ambient space VC = Cn , and hence
+            so(2,n)
+      P(X1            ) = C[Z1 , . . . , Zn ]/(Z12 − Z22 − · · · − Zn2 ),
+            so(2,n)
+      P(X2            ) = C[Z1 , . . . , Zn ].
+                                                              so(2,n)
+For arbitrary λ ∈ W the representation dρλ                              of gC acts by
+                                       n
+                                       X                                                      
+                                                                                         λ
+        dρλ (a, −2iL(a), a) = 2i            aj z j ,            dρλ (a, 0, −a) = 2i ∂az + tr(a) ,
+                                       j=1
+                                                                                         2
+                                         Xn
+         dρλ (a, 2iL(a), a) = −2i                aj Bλn,j ,      dρλ (0, D, 0) = −∂Dz ,
+                                          j=1
+
+where
+                                                                         n
+                                                                         X
+                                              ∂                                     ∂2
+      Bλn,j = εj zj n − 2(E n + λ)              ,              n =           εj        ,
+                                             ∂zj                         j=1
+                                                                                    ∂zj2
+                n
+                                                                      (
+                X           ∂                                          +1            for j = 1,
+         En =         zj       ,                                 εj =
+                j=1
+                           ∂zj                                         −1            for 2 ≤ j ≤ n.
+
+
+                                                       67
+   We first consider the action of the compact part so(n − m) which acts nat-
+urally on the coordinates zm+1 , . . . , zn . Note that
+      C[Z1 , . . . , Zn ] = C[Z1 , . . . , Zm ] ⊗ C[Zm+1 , . . . , Zn ].
+Every polynomial in Zm+1 , . . . , Zn can be written as a sum of spherical har-
+                                          2                          so(2,n)
+monics multiplied with powers of (Zm+1        + · · · + Zn2 ). In P(X1       ) we have
+ 2
+Zm+1 + · · · + Zn2 = Z12 − Z22 − · · · − Zm2
+                                             and hence
+
+                      )∼
+            so(2,n)
+      P(X1             = C[Z1 , . . . , Zn ]/(Z12 − Z22 − · · · − Zn2 )
+                         ∞
+                         M
+                       ∼
+                       =    C[Z1 , . . . , Zm ] ⊗ Hk (Cn−m ),
+                           k=0
+
+which gives the decomposition into irreducible so(n − m)-representations.
+   Next we have to examine the action of so(2, m) on each of the summands.
+For this we use the notation VC = Cn = Cm ⊕ Cn−m = UC ⊕ UC⊥ .
+Lemma 7.1. For k ∈ N0 and X ∈ so(2, m) we have
+         so(2,n)                                            so(2,m)
+      dρλ          (X)|C[Z1 ,...,Zm ]⊗Hk (Cn−m ) = dρλ+k              (X) ⊗ id .
+
+Proof. On C[Z1 , . . . , Zm ]⊗Hk (Cn−m ) we check four exhaustive cases separately:
+ (1) X = (0, D, 0), D ∈ so(m − 1). The action is given by
+                 so(2,n)                          so(2,m)
+              dρλ          (X) = −∂Dz = dρλ+k               (X) ⊗ id
+      since D only acts on the coordinates z2 , . . . , zm .
+ (2) X = (a, −2iL(a), a), a ∈ U . Since a ∈ U ⊆ Cm it is immediate that
+                                      m
+                                      X
+                 so(2,n)                               so(2,m)
+              dρλ          (X) = 2i         aj zj = dρλ+k        (X) ⊗ id .
+                                      j=1
+
+
+ (3) X = (a, 0, −a), a ∈ U . Assume first that a1 = 0. Then L(a) annihilates
+     Cn−m and hence
+                 so(2,n)                         so(2,m)
+              dρλ          (X) = 2i∂az = dρλ+k             (X) ⊗ id .
+      For a = e we consider X = (e, 0, −e) which acts by
+                 so(2,n)                                                           so(2,m)
+              dρλ  (X) = 2i(E n + λ) = 2i(E m + λ + k) = dρλ+k (X) ⊗ id
+                   Pn
+      since E n−m = j=m+1 zj ∂z∂ j acts on Hk (Cn−m ) by the scalar k.
+
+ (4) X = (a, 2iL(a), a), a ∈ U . It suffices to check the claimed formula for
+     a = ej , j = 1, . . . , m. We then have
+                                                       
+               so(2,n)                    n     n    ∂
+           dρλ         (X) = −2i εj zj  − 2(E + λ)
+                                                    ∂zj
+                                                             
+                                          m     m          ∂
+                             = −2i εj zj  − 2(E + λ + k)
+                                                          ∂zj
+                                      so(2,m)
+                                 = dρλ+k        (X) ⊗ id
+
+
+                                                 68
+     since
+
+             n [f (z1 , . . . , zm )g(zm+1 , . . . , zn )]
+             = m f (z1 , . . . , zm ) · g(zm+1 , . . . , zn )
+                                               + f (z1 , . . . , zm ) · ∆n−m g(zm+1 , . . . , zn ),
+
+     where ∆n−m denotes the Laplacian on Cn−m and E n−m the Euler oper-
+     ator on Cn−m which acts on Hk (Cn−m ) by the scalar k.
+   This shows the following theorem:
+Theorem 7.2. For λ = n−2
+                      2  the minimal non-zero discrete Wallach point for
+so(2, n) we have
+                      ∞
+                      M
+        so(2,n)               so(2,m)
+      dπλ         =         dπλ+k       ⊠ Hk (Rn−m ).
+                      k=0
+
+   For m < n we have λ + k = n+2k−2  2    > m−2
+                                              2   for k ∈ N0 and hence the
+                  so(2,m)
+representations dπλ+k     belong to Wallach points in the continuous part of
+                                                                       so(2,m)
+the Wallach set. For 2k > 2m − n the representation dπλ+k        are holomorphic
+discrete series. In particular, if 2m ≥ n then there occur representations in the
+branching law which are not holomorphic discrete series.
+
+
+
+
+                                                69
+References
+ [1] D. Achab, Minimal representations of simple real Lie groups of Hermitian
+     type - The Fock model, (2012), preprint, available at arXiv:1206.1737.
+ [2] D. Achab and J. Faraut, Analysis of the Brylinski-Kostant model for spher-
+     ical minimal representations, Canad. J. Math. 64 (2012), no. 4, 721–754.
+ [3] G. E. Andrews, R. Askey, and R. Roy, Special functions, Encyclopedia of
+     Mathematics and its Applications, vol. 71, Cambridge University Press,
+     Cambridge, 1999.
+ [4] M. Aristidou, M. Davidson, and G. Ólafsson, Differential recursion re-
+     lations for Laguerre functions on symmetric cones, Bull. Sci. Math. 130
+     (2006), no. 3, 246–263.
+ [5] S. Ben Saı̈d and B. Ørsted, Segal–Bargmann transforms associated with
+     finite Coxeter groups, Math. Ann. 334 (2006), no. 2, 281–323.
+ [6] F. A. Berezin, Quantization in complex symmetric spaces, Izv. Akad. Nauk
+     SSSR Ser. Mat. 39 (1975), no. 2, 363–402, 472.
+ [7] R. Brylinski and B. Kostant, Minimal representations, geometric quan-
+     tization, and unitarity, Proc. Nat. Acad. Sci. U.S.A. 91 (1994), no. 13,
+     6026–6029.
+ [8] J.-L. Clerc, Fonctions K de Bessel pour les algèbres de Jordan, Harmonic
+     analysis (Luxembourg, 1987), Lecture Notes in Math., vol. 1359, Springer,
+     Berlin, 1988, pp. 122–134.
+ [9] M. Davidson, G. Ólafsson, and G. Zhang, Laplace and Segal–Bargmann
+     transforms on Hermitian symmetric spaces and orthogonal polynomials, J.
+     Funct. Anal. 204 (2003), no. 1, 157–195.
+[10] H. Dib, Fonctions de Bessel sur une algèbre de Jordan, J. Math. Pures
+     Appl. (9) 69 (1990), no. 4, 403–448.
+[11] H. Ding and K. I. Gross, Operator-valued Bessel functions on Jordan alge-
+     bras, J. Reine Angew. Math. 435 (1993), 157–196.
+[12] H. Ding, K. I. Gross, R. A. Kunze, and D. St. P. Richards, Bessel functions
+     on boundary orbits and singular holomorphic representations, The mathe-
+     matical legacy of Harish-Chandra (Baltimore, MD, 1998), Proc. Sympos.
+     Pure Math., vol. 68, Amer. Math. Soc., Providence, RI, 2000, pp. 223–254.
+[13] T. Enright, R. Howe, and N. Wallach, A classification of unitary high-
+     est weight modules, Representation theory of reductive groups (Park City,
+     Utah, 1982), Progr. Math., vol. 40, Birkhäuser Boston, Boston, MA, 1983,
+     pp. 97–143.
+[14] T. Enright and A. Joseph, An intrinsic analysis of unitarizable highest
+     weight modules, Math. Ann. 288 (1990), no. 4, 571–594.
+[15] J. Faraut and A. Korányi, Analysis on symmetric cones, The Clarendon
+     Press, Oxford University Press, New York, 1994.
+
+                                      70
+[16] J. Faraut and G. Travaglini, Bessel functions associated with representa-
+     tions of formally real Jordan algebras, J. Funct. Anal. 71 (1987), no. 1,
+     123–141.
+[17] S. Gindikin and S. Kaneyuki, On the automorphism group of the generalized
+     conformal structure of a symmetric R-space, Differential Geom. Appl. 8
+     (1998), no. 1, 21–33.
+[18] I. S. Gradshteyn and I. M. Ryzhik, Table of integrals, series, and products,
+     Academic Press, New York, 1965.
+[19] M. Harris and H. P. Jakobsen, Singular holomorphic representations and
+     singular modular forms, Math. Ann. 259 (1982), no. 2, 227–244.
+[20] S. Helgason, Differential geometry and symmetric spaces, Pure and Applied
+     Mathematics, Vol. XII, Academic Press, New York, 1962.
+[21] C. S. Herz, Bessel functions of matrix argument, Ann. of Math. (2) 61
+     (1955), 474–523.
+[22] J. Hilgert, T. Kobayashi, and J. Möllers, Minimal representations via
+     Bessel operators, (2012), to appear in J. Math. Soc. Japan, available at
+     arXiv:1106.3621.
+[23] J. Hilgert, T. Kobayashi, J. Möllers, and B. Ørsted, Fock model and Segal–
+     Bargmann transform for minimal representations of Hermitian Lie groups,
+     J. Funct. Anal. 263 (2012), no. 11, 3492–3563.
+[24] J. Hilgert and K.-H. Neeb, Vector valued Riesz distributions on Euclidian
+     Jordan algebras, J. Geom. Anal. 11 (2001), no. 1, 43–75.
+[25] J. Hilgert, K.-H. Neeb, and B. Ørsted, The geometry of nilpotent coadjoint
+     orbits of convex type in Hermitian Lie algebras, J. Lie Theory 4 (1994),
+     no. 2, 185–235.
+[26]         , Conal Heisenberg algebras and associated Hilbert spaces, J. Reine
+       Angew. Math. 474 (1996), 67–112.
+[27]           , Unitary highest weight representations via the orbit method. I. The
+       scalar case, Acta Appl. Math. 44 (1996), no. 1-2, 151–184, Representations
+       of Lie groups, Lie algebras and their quantum analogues.
+[28] J. Hilgert and G. Zhang, Segal–Bargmann and Weyl transforms on compact
+     Lie groups, Monatsh. Math. 158 (2009), no. 3, 285–305.
+[29] H. P. Jakobsen, Hermitian symmetric spaces and their unitary highest
+     weight modules, J. Funct. Anal. 52 (1983), no. 3, 385–412.
+[30] A. Joseph, Annihilators and associated varieties of unitary highest weight
+     modules, Ann. Sci. École Norm. Sup. (4) 25 (1992), no. 1, 1–45.
+[31] S. Kaneyuki, The Sylvester’s law of inertia in simple graded Lie algebras,
+     J. Math. Soc. Japan 50 (1998), no. 3, 593–614.
+
+
+
+
+                                         71
+[32] T. Kobayashi, Multiplicity-free theorems of the restrictions of unitary high-
+     est weight modules with respect to reductive symmetric pairs, Representa-
+     tion theory and automorphic forms, Progr. Math., vol. 255, Birkhäuser
+     Boston, Boston, MA, 2008, pp. 45–109.
+[33] T. Kobayashi and G. Mano, The inversion formula and holomorphic ex-
+     tension of the minimal representation of the conformal group, Harmonic
+     analysis, group representations, automorphic forms and invariant theory,
+     Lect. Notes Ser. Inst. Math. Sci. Natl. Univ. Singap., vol. 12, World Sci.
+     Publ., Hackensack, NJ, 2007, pp. 151–208.
+[34]           , The Schrödinger model for the minimal representation of the indef-
+       inite orthogonal group O(p, q), Memoirs of the AMS 213 (2011), no. 1000.
+[35] T. Kobayashi and B. Ørsted, Analysis on the minimal representation of
+     O(p, q). II. Branching laws, Adv. Math. 180 (2003), no. 2, 513–550.
+[36] T. Kobayashi and Y. Oshima, Classification of symmetric pairs with dis-
+     cretely decomposable restrictions of (g, k)-modules, (2012), preprint, avail-
+     able at arXiv:1202.5743.
+[37] B. Kostant, On Laguerre polynomials, Bessel functions, Hankel transform
+     and a series in the unitary dual of the simply-connected covering group of
+     Sl(2, R), Represent. Theory 4 (2000), 181–224 (electronic).
+[38] M. Lassalle, Algèbre de Jordan et ensemble de Wallach, Invent. Math. 89
+     (1987), no. 2, 375–393.
+[39] T. Levasseur, S. P. Smith, and J. T. Stafford, The minimal nilpotent orbit,
+     the Joseph ideal, and differential operators, J. Algebra 116 (1988), no. 2,
+     480–501.
+[40] T. Levasseur and J. T. Stafford, Rings of differential operators on classical
+     rings of invariants, Mem. Amer. Math. Soc. 81 (1989), no. 412.
+[41] H. Matumoto, Whittaker vectors and associated varieties, Invent. Math. 89
+     (1987), no. 1, 219–224.
+[42] J. Möllers, Minimal representations of conformal groups and generalized
+     Laguerre functions, Ph.D. thesis, University of Paderborn, 2010, available
+     at arXiv:1009.4549.
+[43] J. Möllers and Y. Oshima, Branching laws for minimal holomorphic repre-
+     sentations, in preparation.
+[44] J. Möllers and B. Schwarz, Bessel operators on Jordan pairs and L2 -models
+     for small representations, in preparation.
+[45] R. Nakahama, Integral formula and upper estimate of I- and J-Bessel func-
+     tions on Jordan algebras, (2012), preprint, available at arXiv:1211.4702.
+[46] K.-H. Neeb, Holomorphy and convexity in Lie theory, de Gruyter Exposi-
+     tions in Mathematics, vol. 28, Walter de Gruyter & Co., Berlin, 2000.
+
+
+
+                                         72
+[47] G. Ólafsson and B. Ørsted, Generalizations of the Bargmann transform, Lie
+     theory and its applications in physics (Clausthal, 1995), World Sci. Publ.,
+     River Edge, NJ, 1996, pp. 3–14.
+[48] J. Sekiguchi, Remarks on real nilpotent orbits of a symmetric pair, J. Math.
+     Soc. Japan 39 (1987), no. 1, 127–138.
+[49] M. Vergne and H. Rossi, Analytic continuation of the holomorphic discrete
+     series of a semi-simple Lie group, Acta Math. 136 (1976), no. 1-2, 1–59.
+[50] D. A. Vogan, Jr., Gel′ fand-Kirillov dimension for Harish-Chandra modules,
+     Invent. Math. 48 (1978), no. 1, 75–98.
+[51]          , Associated varieties and unipotent representations, Harmonic anal-
+       ysis on reductive groups (Brunswick, ME, 1989), Progr. Math., vol. 101,
+       Birkhäuser Boston, Boston, MA, 1991, pp. 315–388.
+[52] N. R. Wallach, The analytic continuation of the discrete series. I, II, Trans.
+     Amer. Math. Soc. 251 (1979), 1–17, 19–37.
+
+
+
+
+   Jan Möllers
+Institut for Matematiske Fag, Aarhus Universitet, Ny Munkegade
+118, 8000 Aarhus C, Danmark.
+E-mail address: moellers@imf.au.dk
+
+
+
+
+                                        73
+

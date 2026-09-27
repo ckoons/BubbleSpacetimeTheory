@@ -1,0 +1,1839 @@
+                                               UNITARY HIGHEST WEIGHT MODULES FOR su(p, q) AND
+                                           so∗ (2n) WITH FIXED INTEGRAL INFINITESIMAL CHARACTER
+
+
+                                                    PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+
+
+arXiv:2604.20566v1 [math.RT] 22 Apr 2026
+                                                    Abstract. We classify unitary highest weight modules with a given integral
+                                                    infinitesimal character for the real Lie algebras su(p, q) and so∗ (2n). We treat
+                                                    both regular and singular cases. For su(p, q) we identify the unitarizable
+                                                    modules in the Hasse diagrams of the highest weight orbit. Analogous results
+                                                    for the other Hermitian Lie algebras were given in our earlier publications.
+
+
+
+
+                                                                                 1. Introduction
+                                           Studying unitary highest weight modules is a classical topic in representation theory
+                                           of simple real Lie groups. Typical examples of unitary highest weight modules include
+                                           holomorphic discrete series representations, but also interesting small representations
+                                           like the Weil representation of the metaplectic group. These modules appear in
+                                           many applications, and they are also good examples of unitary modules because they
+                                           are very concrete, unlike some other families of modules which are rather abstract.
+                                           Unitary highest weight modules were first studied by Harish-Chandra [HC1, HC2],
+                                           who constructed the holomorphic discrete series and proved that nontrivial unitary
+                                           highest weight modules exist precisely when G is of Hermitian type, i.e., the
+                                           symmetric space G/K admits a Hermitian structure (here K is a maximal compact
+                                           subgroup of G).
+                                           In the 1970s several authors were working towards classification of unitary highest
+                                           weight modules; see for example [KV], [RV], [W] and [P2]. The full classification
+                                           was obtained in 1983, independently by Enright-Howe-Wallach [EHW] and Jakobsen
+                                           [J]. This did not close the topic and many authors continued to investigate various
+                                           features of unitary highest weight modules, including [A], [BGG], [DES], [E], [EJ],
+                                           [ES], [EW], [HPP], [HPZ], [NOT] and [Sa].
+                                           Recently we revisited the issue of classification, in part joint with G.Savin, in
+                                           [PPST1, PPST2, PPST3, PPSST]. Our approach differs from the previous ones in
+                                           that we make more use of the Dirac inequality, and less use of the K-type structure
+                                           of highest weight modules. The Dirac inequality of Parthasarathy, [P1, P2], is a
+                                           basic tool in all of the classification schemes, but [EHW] and [J] use it in a minimal
+
+                                               2010 Mathematics Subject Classification. primary: 22E47.
+                                               P. Pandžić and A. Prlić were supported by the QuantiXLie Center of Excellence, a project
+                                           co-financed by the Croatian Government and European Union through the European Regional Devel-
+                                           opment Fund - the Competitiveness and Cohesion Operational Programme (grant PK.1.1.02.0004),
+                                           by the Croatian Science Foundation (HRZZ), grant no. IP-2025-02-6514, and by the European
+                                           Union – NextGenerationEU through the National Recovery and Resilience Plan 2021-2026. Insti-
+                                           tutional grant of University of Zagreb Faculty of Science (IK IA 1.1.3. Impact4Math). V. Tuček
+                                           was supported by the QuantiXLie Center of Excellence and by the grant GX19-28628X. V. Souček
+                                           was supported by the grants GX19-28628X and GA24-10887S of GAČR.
+                                                                                           1
+2          PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+fashion, while we use it to the full extent. Some details about this inequality and
+its refinements can be found in [HP1, HP2].
+Other basic tools used to some extent in all approaches to the classification include
+Howe’s theory of dual pair correspondences [H1, H2, H3] as well as Schmid’s
+description of K-types in S(p− ) [Sch], where g = k ⊕ p+ ⊕ p− is the decomposition
+of the complexified Lie algebra of G into eigenspaces for a nontrivial element of the
+(one-dimensional) center of the complexified Lie algebra k of K.
+Our main motivation for trying to get a better understanding of the classification of
+unitary highest weight modules is the fact that the classifications of [EHW] and [J]
+are expressed in terms of certain lines in the dual Cartan algebra, with infinitesimal
+character varying along each line. It is thus not immediately clear how to obtain a
+more usual classification scheme where one first fixes an infinitesimal character, and
+then tries to classify modules with that infinitesimal character. We addressed and
+resolved this issue when the Lie algebra g0 of G is sp(2n, R) in [PPST3], and when
+g0 is so(2, n), e6(−14) , or e7(−25) in [PPSST].
+In this paper we study the remaining cases, g0 = su(p, q) (in Section 2) and
+g0 = so∗ (2n) (in Section 3). We restrict our attention to the case of integral
+infinitesimal character, because the most interesting modules in these cases have
+integral infinitesimal characters (these are the discrete points in the classification,
+i.e., those modules that are not full generalized Verma modules).
+Throughout the paper we work with the concept of the parameter of a highest weight
+module L(λ) with highest weight λ. This is a special conjugate of the infinitesimal
+character, which is equal to Λ = λ + ρ, where ρ is the half sum of positive roots for
+the root system which is used to define the concept of highest weight modules. (Here,
+as usual, infinitesimal characters are expressed in terms of elements of the dual
+Cartan algebra modulo the Weyl group, using results of Harish-Chandra.) By string
+we mean a sequence of numbers which decrease by one, i.e. (x, x − 1, . . . , x − y).
+Highest weights and parameters are clearly in bijection, so we can identify the
+module L(λ) with its parameter Λ, and talk about “unitary parameters”. Each of
+our main results, Theorem 2.2, Theorem 2.9, Theorem 2.20, Theorem 3.4, Theorem
+3.5, Theorem 3.21 and Theorem 3.22, gives a list of unitary parameters Λ conjugate
+to a fixed dominant representative Λdom of the infinitesimal character.
+
+                           2. The case of su(p, q), p ≤ q
+In this case, the complexification of the Lie algebra g0 = su(p, q) is g = sl(p + q, C)
+and k = s(gl(p, C)⊕gl(q, C)). We use standard coordinates and the standard positive
+root system. The positive compact roots are
+                   εi − εj ,    1 ≤ i < j ≤ p or p + 1 ≤ i < j ≤ n,
+where n = p + q, and the positive noncompact roots are
+                       εi − ε j ,   1 ≤ i ≤ p and p + 1 ≤ j ≤ n.
+Therefore, the half sum of positive roots is
+                                                       
+                              n−1 n−3               n−1
+                        ρ=           ,       ,...,−       .
+                                 2      2            2
+By definition, the parameter of the irreducible highest weight (g, K)-module L(λ) is
+                                       Λ = λ + ρ.
+                               FIXED INFINITESIMAL CHARACTER                                          3
+
+
+If λ is g-dominant, then any irreducible highest weight (g, K)-module with the same
+infinitesimal character as L(λ) is of the form
+                                                  
+                                  L w(λ + ρ) − ρ
+for some
+                         w ∈ W 1 = { w ∈ Wg | wρ is k-dominant }.
+The corresponding parameter is w(λ + ρ).
+As in [PPST3] and [PPSST], we will denote by Λdom the g–dominant representative
+of the infinitesimal character Λ, i. e., we have
+                                   Λdom
+                                    1   ≥ Λdom
+                                           2   ≥ . . . ≥ Λdom
+                                                          n   .
+All parameters Λ corresponding to highest weight (g, K)-modules must be dominant
+regular for k. Therefore, we have
+                    Λ1 > Λ2 > . . . > Λp ;              Λp+1 > Λp+2 > . . . > Λn .
+                                                  dom
+The integrality of the parameter Λ means that Λi − Λj ∈ Z 1 ≤ i < j ≤ n.
+Theorems [PPST3, Theorem 4.6. and Theorem 4.9.] imply that L(λ) is unitary if
+and only if λ is of the form
+             λ = (λ1 , . . . , λ1 , λp′ +1 , . . . , λp | λp+1 , . . . , λn−q′ , λn , . . . , λn ),
+                  | {z }                                                         | {z }
+                          p′                                                            q′
+
+where p′ and q ′ are integers such that 1 ≤ p′ ≤ p, 1 ≤ q ′ ≤ q and λ1 − λn ≤
+−n + p′ + q ′ − min(p′ , q ′ ) + 1 = −n + max(p′ , q ′ ) + 1 or λ1 − λn = −n + p′ + q ′ − i for
+some integer i ∈ [0, min(p′ , q ′ ) − 1]. Since we assumed λ1 − λn ∈ Z, L(λ) is unitary
+if and only if λ1 − λn ≤ −n + p′ + q ′ . In terms of Λ = λ + ρ, L(λ) is unitary if and
+only if Λ is of the form
+                Λ = ( Λ1 , Λ1 − 1, . . . , Λ1 − (p′ − 1), Λp′ +1 , . . . , Λp |
+                      |                {z              }
+                                             p′
+
+                         Λp+1 , . . . , Λn−q′ , Λn + (q ′ − 1), . . . , Λn + 1, Λn ).
+                                                |             {z                 }
+                                                                      q′
+
+where Λp′ +1 < Λ1 − p′ , Λn−q′ > Λn + q ′ and
+                                       Λ1 − Λn ≤ p′ + q ′ − 1.
+The last condition can be written equivalently as
+(2.1)                                     Λp′ − Λn−q′ +1 ≤ 1.
+This description of unitarity will be used throughout this section. We will call the
+first p′ coordinates of Λ p′ –string and the remaining coordinates (Λp′ +1 , ..., Λp ) will
+be called (p − p′ )–part and analogously for the q ′ –string and (q − q ′ )–part.
+
+2.1. Regular case. First, we consider the case when Λdom is regular. This means
+that no coordinates of Λ repeat.
+Theorem 2.2. Suppose Λdom is regular integral. Then:
+   (a) If Λdom
+           q   = Λdom
+                   q+1 + 1, then there exists 1 ≤ s ≤ q, q + 1 − s ≤ r ≤ n − s such
+             dom
+       that Λ    is of the form (2.4). The unitary conjugates of Λdom are
+                       Λ = (Λdom    dom            dom
+                             q+1 , Λq+2 , . . . , Λn   | Λdom
+                                                          1   , . . . , Λdom
+                                                                         q   )
+4             PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+          and
+    Λ = (Λdom
+          s   − a, . . . , Λdom
+                            s   − b; Λdom
+                                      s   − c − 1, . . . , Λdom
+                                                            s   − r; Λdom              dom
+                                                                      s+r+1 , . . . , Λn   |
+           Λdom
+            1   , . . . , Λdom    dom
+                           s−1 ; Λs   , . . . , Λdom
+                                                 s   − a + 1; Λdom
+                                                               s   − b − 1, . . . , Λdom
+                                                                                     s   − c),
+         where 0 ≤ a ≤ q − s, 0 ≤ b − a ≤ (s + r − 1) − q and c = b − a − s + q + 1.
+         In this case Λp′ = Λdom
+                               s   − b, Λn−q′ +1 = Λdom  s   − b − 1, p′ = b − a + 1, and
+          ′
+         q = c − b. If a = 0, then the string Λs , . . . , Λdom
+                                               dom
+                                                             s   − a + 1 in (2.5) is empty.
+         If c = r then the string Λdom
+                                    s   − c − 1, . . . , Λdom
+                                                           s  − r in (2.5) is empty.
+     (b) If Λdom
+              q   ̸= Λdom
+                      q+1 + 1, then the only unitary conjugate is
+
+                         Λ = (Λdom    dom            dom
+                               q+1 , Λq+2 , . . . , Λn   | Λdom
+                                                            1   , . . . , Λdom
+                                                                           q   ).
+
+Proof. If Λ ∈ W 1 Λdom is unitary, then the unitarity condition (2.1) and the fact
+that Λ has no repeated coordinates imply that
+                          either Λp′ < Λn−q′ +1 , or Λp′ = Λn−q′ +1 + 1.
+If Λp′ < Λn−q′ +1 , then, since Λ has no repeated coordinates, we must have Λ1 < Λn .
+Therefore, we have
+ Λp+1 > . . . > Λn−q′ > Λn−q′ +1 > . . . > Λn > Λ1 > . . . > Λp′ > Λp′ +1 > . . . > Λp .
+and we see that Λn = Λdom
+                       q    ̸= Λdom
+                                q+1 + 1. Since the coordinates of Λ are obtained by
+                     dom
+permuting those of Λ     , we have
+(2.3)                    Λ = (Λdom    dom            dom
+                               q+1 , Λq+2 , . . . , Λn   | Λdom
+                                                            1   , . . . , Λdom
+                                                                           q   ).
+If Λp′ = Λn−q′ +1 + 1, then the sequence Λ1 , . . . , Λp′ , Λn−q′ +1 , . . . , Λn forms a string
+(a sequence of integers descending by 1). Since Λp′ > Λp′ +1 and Λ has no repeated
+coordinates, we have Λp′ +1 < Λn . Similarly, since Λn−q′ > Λn−q′ +1 and Λ has no
+repeated coordinates, we have Λn−q′ > Λ1 . Therefore, we have
+ Λp+1 > . . . > Λn−q′ > Λ1 > . . . > Λp′ > Λn−q′ +1 > . . . > Λn > Λp′ +1 > . . . > Λp .
+Since the coordinates of Λ are obtained by permuting those of Λdom , we have
+Λ = (Λdom                 dom          dom                dom
+      q−q ′ +1 , . . . , Λq−q ′ +p′ , Λq+p′ +1 , . . . , Λn   | Λdom
+                                                                 1   , . . . , Λdom      dom                     dom
+                                                                                q−q ′ , Λq−q ′ +p′ +1 , . . . , Λq+p′ ),
+
+where the sequence Λdom                   dom          dom                     dom
+                      q−q ′ +1 , . . . , Λq−q ′ +p′ , Λq−q ′ +p′ +1 , . . . , Λq+p′ forms a string such
+      dom                                       dom
+that Λq belongs to this string and Λq does not lie on the right end of the string
+                                   ′
+(namely Λdom
+          q    ̸= Λdom
+                   q+p′ since p ≥ 1). In particular, we have Λq
+                                                                                dom
+                                                                                     = Λdom
+                                                                                        q+1 + 1 which
+proves (b).
+Therefore, there exist s and r as in the statement of the theorem (namely s = q−q ′ +1
+and r = p′ + q ′ − 1) such that Λdom is of the form
+(2.4) Λdom = (Λdom
+               1   , . . . , Λdom    dom
+                              s−1 ; Λs   , Λdom
+                                            s   − 1 . . . , Λdom
+                                                             s   − r; Λdom              dom
+                                                                       s+r+1 , . . . , Λn   ),
+where Λdom
+        s−1 ≥ Λs
+                  dom
+                       + 2 if s > 1, Λdoms+r+1 ≤ Λs
+                                                    dom
+                                                        − r − 2 if n > s + r, and
+s ≤ q ≤ s + r − 1.
+If Λdom is not of the form (2.4), i.e. if Λdom
+                                            q   ̸= Λdom
+                                                     q+1 + 1, then the only unitary
+                          dom
+parameter conjugate to Λ       is (2.3).
+If Λdom is of the form (2.4), i.e. if Λdom
+                                         q    = Λdom
+                                                  q+1 + 1, then besides the unitary
+                   dom
+parameter (2.3), Λ     has unitary conjugates satisfying Λp′ = Λn−q′ +1 + 1. These
+                            FIXED INFINITESIMAL CHARACTER                                        5
+
+
+unitary conjugates are given by:
+(2.5)
+ Λ = (Λdom
+       s   − a, . . . , Λdom
+                         s   − b; Λdom
+                                   s   − c − 1, . . . , Λdom
+                                                         s   − r; Λdom              dom
+                                                                   s+r+1 , . . . , Λn   |
+               Λdom
+                1   , . . . , Λdom    dom
+                               s−1 ; Λs   , . . . , Λdom
+                                                     s   − a + 1; Λdom
+                                                                   s   − b − 1, . . . , Λdom
+                                                                                         s   − c),
+
+where 0 ≤ a ≤ b < c ≤ r and c = b − a − s + q + 1. (The last equation comes from
+the fact that there are exactly p coordinates to the left of the bar and q coordinates
+to the right of the bar.) Now b < c and c ≤ r imply that
+
+                       a≤q−s          and     b − a ≤ (s + r − 1) − q.
+
+In this case Λp′ = Λdom
+                     s      − b, Λn−q′ +1 = Λdom  s    − b − 1, p′ = b − a + 1, and q ′ = c − b.
+If a = 0, then the string Λdom s  , . . . , Λdom
+                                             s   − a + 1 in (2.5) is empty. If c = r then the
+string Λdom
+         s   − c − 1, . . . , Λdom
+                               s   −    r  in (2.5) is empty.                                □
+
+Example 2.6. If Λdom = ρ = n−1             n−3        n−1
+                                                          
+                                     2 , 2 ,...,− 2         , then ρ is of the form (2.4),
+where s = 1, r = n − 1 and Λdom
+                             1      = n−1 2  . Therefore, unitary  parameters are
+                                                                                      
+       n−1       n−1                      n−1 n−1 n−1                         n−1
+ρ̃ =        − q,       − q − 1, . . . , −              ,         − 1, . . . ,     −q+1
+        2          2                        2       2        2                 2
+and the parameters of the form
+            n − 1               n−1       n−1                      n−1
+(2.7)   Λ=          − a, . . . ,      − b;       − c − 1, . . . , −
+               2                  2          2                       2
+                     n−1           n−1            n−1                    n−1   
+                            ,...,        − a + 1;       − b − 1, . . . ,     −c ,
+                       2            2               2                     2
+where 0 ≤ a ≤ q − 1, 0 ≤ b − a ≤ n − 1 − q = p − 1 and c = b − a + q. In this case
+                                            ′                    ′
+Λp′ = n−1                     n−1
+        2 − b, Λn−q +1 = 2 − b − 1, p = b − a + 1, and q = c − b. If a = 0,
+                        ′
+                   n−1     n−1
+then the string 2 , . . . , 2 − a + 1 in (2.7) is empty. If c = n − 1 then the string
+n−1                   n−1
+  2 − c − 1, . . . , − 2 in (2.7) is empty.
+In case a = 0 and c = n − 1, i.e. b = p − 1 the parameter (2.7) is equal to ρ.
+
+To get a better understanding of these unitary points (other than ρ̃), we give them
+a geometric interpretation as “edge points” of the Hasse diagram. For this, it is
+useful to attach a Young diagram YDw to each wρ. For 1 ≤ k ≤ p, we let the k-th
+row of YDw consist of
+                                          (wρ)k − ρ̃k
+boxes. In this way we clearly get a Young diagram with at most p rows and with
+each row of length at most r − (k − 1) − (p − r − k) = q. Note that ρ̃ corresponds
+to the empty diagram, while ρ corresponds to the maximal diagram with pq boxes
+arranged in a p × q rectangle.
+We say that wρ is the i-th point on the j-th edge of the Hasse diagram if YDw has
+j nonzero rows, each with i boxes. This means that wρ is equal to Λ in (2.7), with
+i = q ′ = c − b and j = p′ = b − a + 1.
+
+Example 2.8. Let p = 2 and q = 3. Then ρ = (2, 1, 0, −1, −2). The Hasse diagram
+is
+6             PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+
+
+    (2, 1 | 0, −1, −2) ←−−−−− (2, 0 | 1, −1, −2) ←−−−−− (2, −1 | 1, 0, −2) ←−−−−− (2, −2 | 1, 0, −1)
+                                       x                        x                         x
+                                                                                        
+                                                                                        
+
+                              (1, 0 | 2, −1, −2) ←−−−−− (1, −1 | 2, 0, −2) ←−−−−− (1, −2 | 2, 0, −1)
+                                                                x                         x
+                                                                                         
+                                                                                         
+
+                                                         (0, −1 | 2, 1, −2) ←−−−−− (0, −2 | 2, 1, −1)
+                                                                                           x
+                                                                                           
+                                                                                           
+
+                                                                                     (−1, −2 | 2, 1, 0)
+
+
+with arrows pointing to larger elements in Bruhat order. The corresponding Young
+diagrams are
+
+
+                           ←−−−−−−             ←−−−−−−             ←−−−−−−
+
+                                         x                   x                   x
+                                                                               
+                                                                               
+
+                                               ←−−−−−−             ←−−−−−−
+
+                                                             x                   x
+                                                                                
+                                                                                
+
+                                                                   ←−−−−−−
+
+                                                                                 x
+                                                                                 
+                                                                                 
+
+                                                                                 ∅
+
+
+
+The first edge is the last column, and the second edge is the diagonal, both excluding
+the smallest point ρ̃. The points on each edge are counted in the direction of arrows.
+We now go back to general regular integral parameters. As mentioned earlier, they
+are all of the form
+                       w(ρ + µ),        w ∈ W 1 , µ a g-dominant weight.
+Theorem 2.9. The parameter w(ρ + µ) is unitary if and only if the following two
+conditions are satisfied:
+      (1) wρ is a unitary point in the Hasse diagram of ρ, i.e., either wρ = ρ̃, or wρ
+          is an edge point;
+      (2) If wρ is the i-th point on the j-th edge of the Hasse diagram, then
+                     (wµ)1 = · · · = (wµ)j = (wµ)n−i+1 = · · · = (wµ)n ,
+           with dots standing for consecutive coordinates.
+In other words, if wρ is the i-th point on the j-th edge of the Hasse diagram of ρ,
+then the regular integral modules with parameters in the Weyl chamber of wρ are
+unitary exactly in the reduced translation cone of dimension p + q − i − j, described
+by condition (2). In the chamber of ρ̃, the full translation cone consists of unitary
+modules.
+                               FIXED INFINITESIMAL CHARACTER                                              7
+
+
+Proof. It follows from Theorem 2.2 that if Λdom
+                                            q   = Λdom
+                                                   q+1 + 1, then the unitary
+parameters are
+(2.10)          w(ρ + µ) = Λ = (Λdom    dom            dom
+                                 q+1 , Λq+2 , . . . , Λn   | Λdom
+                                                              1   , . . . , Λdom
+                                                                             q   )
+and
+(2.11)
+w(ρ + µ) = Λ = (Λdom
+                 s   − a, . . . , Λdom
+                                   s   − b; Λdom
+                                             s   − c − 1, . . . , Λdom
+                                                                   s   − r; Λdom              dom
+                                                                             s+r+1 , . . . , Λn   |
+                      Λdom
+                       1   , . . . , Λdom    dom
+                                      s−1 ; Λs   , . . . , Λdom
+                                                            s   − a + 1; Λdom
+                                                                          s   − b − 1, . . . , Λdom
+                                                                                                s   − c)
+                 = (Λdom            dom    dom              dom
+                     s+a , . . . , Λs+b ; Λs+c+1 , . . . , Λn   | Λdom
+                                                                   1   , . . . , Λdom      dom              dom
+                                                                                  s+a−1 ; Λs+b+1 , . . . , Λs+c ),
+
+where 0 ≤ a ≤ q − s, 0 ≤ b − a ≤ (s + r − 1) − q and c = b − a − s + q + 1, p′ = b − a + 1,
+and q ′ = c − b.
+In case w(ρ + µ) is given by (2.10), we have
+                                                wρ = ρ̃.
+If w(ρ + µ) is given by (2.11), then
+      wµ = (µs+a , . . . , µs+b ; µs+c+1 , . . . , µn | µ1 , . . . , µs+a−1 ; µs+b+1 , . . . , µs+c ).
+Therefore, we have
+ Λ = wρ + wµ
+     n − 1                         n−1                             n−1                         n−1
+   =        − (s + a) + 1, . . . ,             − (s + b) + 1;              − (s + c), . . . , −
+        2                              2                              2                             2
+      n−1          n−1                          n−1                         n−1                       
+            ,...,          − (s + a) + 2;               − (s + b), . . . ,         − (s + c) + 1
+        2              2                          2                           2
+      + (µs+a , . . . , µs+b ; µs+c+1 , . . . , µn | µ1 , . . . , µs+a−1 ; µs+b+1 , . . . , µs+c ).
+Comparing with (2.11), it follows that
+                                  n−1
+                          µs+a +      − s − a + 1 = Λdom
+                                                     s   −a
+                                   2
+                                                 ..
+                                                  .
+                                  n−1
+                           µs+b +     − s − b + 1 = Λdom
+                                                     s   −b
+                                   2
+                                     n−1
+                            µs+b+1 +      − s − b = Λdom
+                                                     s   −b−1
+                                      2
+                                                  ..
+                                                   .
+                                  n−1
+                           µs+c +     − s − c + 1 = Λdom
+                                                     s   − c.
+                                   2
+Therefore we have
+                                                                               n−1
+         µs+a = . . . = µs+b = µs+b+1 = . . . = µs+c = Λdom
+                                                        s   −                      + s − 1.
+                                                                                2
+Since i = q ′ = c − b and j = p′ = b − a + 1, we have
+                     (wµ)1 = · · · = (wµ)j = (wµ)n−i+1 = · · · = (wµ)n .
+                                                                                                          □
+8             PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+2.2. Singular case. The singular parameters are those Λdom which have at least
+one repeated coordinate. If a coordinate is repeated more than twice then there is
+no paramater in its orbit that would be dominant regular for k.
+First we will prove that in order to have any unitary conjugate, Λdom must be of
+the form
+                                       ′      ′                ′
+(2.12)            Λdom = (D1 ; C1 A1 B1 A2 B2 · · · Br−1 Ar C2 ; D2 ),           r≥1
+where the middle part
+                                        ′     ′                ′
+                               C1 A1 B1 A2 B2 · · · Br−1 Ar C2
+is a weakly decreasing string and it decreases strictly except for the repetitions
+                       ′                   ′
+inside the blocks Ai . Each substring Ai consists of coordinates that appear exactly
+twice, while all coordinates in the substrings Bi , C1 , and C2 are non-repeated.
+Moreover:
+                  ′
+      • Each Ai ̸= ∅ is a weakly decreasing string of pairs of repeated coordinates.
+                       ′
+      • For each Ai , we will denote by Ai the underlying strictly decreasing string
+         of
+         Prdistinct coordinates. The number of repeated coordinates is equal to
+            i=1 |Ai |, and this number is at most p, since in a unitary conjugate each
+         repeated coordinate must appear on both the left and the right sides of the
+         bar, and p ≤ q.
+      • Each Bi ̸= ∅ consists of (strictly decreasing) string non-repeated coordinates.
+        (It is possible that r = 1; in that case, there are no Bi strings.)
+      • C1 and C2 are, possibly empty, strictly decreasing strings such that there is
+                          ′       ′
+         no gap with A1 and Ar , respectively.
+      • The sequences D1 and D2 are (possibly empty) decreasing sequences of
+         non-repeated coordinates, not necessarily strings. There is a gap of at least
+         two between D1 and C1 when D1 , C1 ̸= ∅, or between D1 and A′1 when
+         D1 ̸= ∅, C1 = ∅. Likewise, there is a gap of at least two between C2 and D2
+        when C2 , D2 ̸= ∅, or between A′r and D2 when D2 ̸= ∅, C2 = ∅.
+Example 2.13. We have
+    (18, 16, 15; 12, 11, 10, 10, 9, 9, 8, 8, 7, 6 , 5, 5 , |{z}              1 , 0, 0, −1, −1; −5 )
+                                                            4 , 3, 3, 2, 2, |{z}
+     | {z } | {z } |            {z        } |{z} |{z}           | {z }           |     {z   } |{z}
+         D1        C1            ′          B1      ′   B2          ′      B3            ′    D2
+                                A1                A2               A3                   A4
+
+with
+              A1 = (10, 9, 8), A2 = (5), A3 = (3, 2), A4 = (0, −1), C2 = ∅.
+The claimed form (2.12) follows from the following three lemmas. Recall that any
+unitary conjugate Λ of Λdom must satisfy the unitarity condition (2.1).
+Lemma 2.14. If Λ is unitary, then:
+(1) The (p − p′ )–part and (q − q ′ )–part of Λ do not share any coordinates.
+(2) Every repeated coordinate must appear in the union of the p′ –string and the
+q ′ –string.
+Proof. (1) follows from the following chain of inequalities
+       Λp < . . . < Λp′ +1 < Λp′ ≤ Λn−q′ +1 + 1 < Λn−q′ < Λn−q′ −1 < . . . < Λp+1 ,
+       |       {z        }                        |            {z               }
+           (p−p′ )−part                                                 (q−q ′ )−part
+
+where the ≤ inequality is the unitarity condition (2.1) and the other inequalities
+are obvious.
+(2) follows immediately from (1).                                               □
+                           FIXED INFINITESIMAL CHARACTER                                   9
+
+
+Let us denote by I the set of shared coordinates of the p′ –string and the (q −q ′ )–part.
+If the p′ –string and the q ′ –string share some coordinates, then they share the entire
+string between the highest and the lowest coordinates that appear in both the
+p′ –string and the q ′ –string. Let us denote that string by II.
+Let us denote by III the set of shared coordinates of the (p − p′ )–part and the
+q ′ –string. Some of the sets I, II, III may be empty, but I ∪ II ∪ III ̸= ∅, since we
+are considering the singular case. If all three of them are not empty, we have
+                                      I > II > III,
+meaning that all elements of I are greater than all elements of II and all elements
+of II are greater than all elements of III.
+Now we will determine what form do the unitary conjugates of Λdom take. The
+answer is that in the case of II ̸= ∅ the only freedom can be in distribution of
+elements of C1 and C2 to the left and right of the bar. In the case of II = ∅, there
+can be additional freedom in distribution of elements of Bi where i is maximal such
+that A1 B1 . . . Ai Bi forms a string.
+Lemma 2.15. Assume that Λdom is singular and that Λ is a unitary conjugate of
+Λdom . Then:
+(1) Either Λp′ − Λn−q′ +1 ≤ 0 or Λp′ − Λn−q′ +1 = 1.
+(2) If Λp′ − Λn−q′ +1 ≤ 0, then the set II is not empty.
+(3) If Λp′ − Λn−q′ +1 = 1, then the sequence Λ1 , . . . , Λp′ , Λn−q′ +1 , . . . , Λn forms a
+string, and II = ∅.
+Proof. (1) is immediate from 2.1.
+(2) Suppose that II is empty. Then Λp′ is not contained in the q ′ –string, and since
+by assumption Λp′ ≤ Λn−q′ +1 , it follows that Λp′ < Λn .
+Likewise, Λn is not contained in the p′ –string, and thus Λn > Λ1 . Consequently, we
+have
+           (q − q ′ ) − part > q ′ − string > p′ − string > (p − p′ ) − part,
+which is a contradiction with Λdom being singular.
+(3) This statement is obvious.                                                             □
+
+Lemma 2.16. Suppose that Λdom is singular and that Λ is a unitary conjugate of
+Λdom . Then:
+(1) By arranging the coordinates of Λ in the union of the p′ –string and the q ′ –string
+in decreasing order, we obtain one large string in which some coordinates appear
+twice and some only once.
+(2) The part of Λdom between the highest and lowest repeated coordinates must consist
+of a string in which some coordinates appear twice and some only once.
+Proof. (1) By Lemma 2.15, there are two cases. Either II is not empty, meaning
+that a substring of the p′ –string will overlap with the q ′ –string, so the union forms
+a string with overlapping coordinates repeating twice, or II = ∅ and the union of
+the p′ –string and the q ′ –string consists of one large string with no repetitions.
+(2) follows from (1) and the fact that every repeated coordinate must appear in the
+union of the p′ –string and the q ′ –string (Lemma 2.14).                              □
+
+This concludes the proof of (2.12). Now we will identify which parts of Λ are
+contained where in the decomposition of Λdom given by (2.12).
+10          PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+Lemma 2.17. Suppose that Λdom is singular and that Λ is a unitary conjugate of
+Λdom . Then both the p′ –string and the q ′ –string of Λ are contained in the string
+(2.18)                        (C1 A1 B1 A2 B2 . . . Br−1 Ar C2 )
+(the notation as above).
+Proof. Suppose that the p′ –string is not contained in the string (2.18). Then either
+Λ1 ∈ D1 or Λp′ ∈ D2 . (See (2.12).) Recall that there is a gap between D1 and C1
+(or between D1 and A1 if C1 = ∅), and between C2 and D2 (or between Ar and D2
+if C2 = ∅). Therefore, if Λ1 ∈ D1 , then the p′ –string is contained inside D1 , and if
+Λp′ ∈ D2 , then the p′ –string is contained inside D2 .
+If the p′ –string is contained in D2 , then the substrings A1 , . . . , Ar do not lie on the
+left-hand side of the bar in Λ, being bigger than Λ1 . This is a contradiction, since
+repeated coordinates must appear on both sides of the bar. Hence the p′ –string
+cannot be contained in D2 .
+If the p′ –string is contained in D1 , then the substrings A1 , . . . , Ar lie in the (p − p′ )–
+part, and therefore, since Λ is unitary, the substrings A1 , . . . , Ar must lie inside
+the q ′ –string (because the (p − p′ )–part and the (q − q ′ )–part do not share any
+coordinates, see Lemma 2.14). Hence, the q ′ –string must be contained in the string
+(2.18). But then Λp′ − Λn−q′ +1 ≥ 2, which contradicts the assumption that Λ is
+unitary, by the unitarity condition (2.1).
+Therefore, the p′ –string is contained in the string (C1 A1 B1 A2 B2 . . . Br−1 Ar C2 ).
+Using a similar argument, we conclude that the q ′ –string is also contained inside
+the string (C1 A1 B1 A2 B2 . . . Br−1 Ar C2 ).                                               □
+
+Corollary 2.19. Suppose that Λdom is singular and that Λ is a unitary conjugate
+of Λdom . Let D1 , D2 be as in (2.12). Then D1 is contained in the (q − q ′ )–part of Λ
+and D2 is contained in the (p − p′ )–part of Λ.
+Proof. This follows immediately from Lemma 2.17, since this lemma implies that
+the coordinates in D1 are bigger than both the p′ –string and the q ′ –string of Λ,
+while the coordinates in D2 are smaller than both the p′ –string and the q ′ –string of
+Λ.                                                                                   □
+
+Now we can restrict the form of parameters for singular unitary modules.
+Theorem 2.20. If Λdom is not of the form (2.12), then Λdom does not have any
+unitary conjugates. If Λdom is of the form (2.12), then the unitary conjugates
+of Λdom are exactly those among the candidates (2.21)–(2.27) that have exactly p
+coordinates on the left-hand side of the bar.                                 □
+Proof. Given the last corollary, we know that D2 must form the last coordinates
+left of the bar and D1 must form the first coordinates right of the bar, i.e. Λ =
+(. . . D2 |D1 . . .). As we will see in the next paragraph, placement of Ai coordinates
+is quite restricted so the rest of the proof is occupied by discussing the remaining
+freedom in the placement of coordinates from C1 and C2 .
+If, for some i, the string Ai and the p′ –string share at least one coordinate, then all
+coordinates of Ai must lie in the p′ –string, since Ai has to appear on the left-hand
+side of the bar and there is a gap between the p′ –string and the (p − p′ )–part. Using
+a similar argument, we conclude that if, for some i, the string Ai and the q ′ –string
+share at least one coordinate, then all coordinates of Ai must lie in the q ′ –string.
+                                FIXED INFINITESIMAL CHARACTER                                          11
+
+
+If for some i, j ∈ {1, . . . , r} with i < j, both substrings Ai and Aj lie inside the
+p′ –string (resp. the q ′ –string), then the p′ –string (resp. the q ′ –string) must also
+contain all substrings that lie between Ai and Aj . Also, note that the intersection
+of the p′ – and q ′ –strings, if nonempty, is equal to exactly one of the substrings Ai ,
+since the coordinates between different Ai are nonrepeated.
+Case of II ̸= ∅: We have II = Ai for some i ∈ {1, . . . , r}. Then the substrings
+A1 , . . . , Ai are contained in the p′ –string, the substrings Ai+1 , . . . , Ar are contained
+in the (p − p′ )–part, the substrings A1 , . . . , Ai−1 are contained in the (q − q ′ )–part,
+and the substrings Ai , Ai+1 , . . . , Ar are contained in the q ′ –string.
+Therefore, the string
+                                       A1 B1 . . . Bi−1 Ai
+                          ′
+is contained in the p –string, and the string
+                                             Ai Bi . . . Br−1 Ar
+                        ′
+is contained in the q –string. Hence, if Λp′ ≥ Λn , then Λ must be of the form
+(2.21)        Λ =(C12 A1 B1 . . . Bi−1 Ai ; Ai+1 . . . Ar C22 D2 |
+                  |        {z           }
+                                p′ −string
+                                               D1 C11 A1 . . . Ai−1 ; Ai Bi . . . Br−1 Ar C21 ),
+                                                                      |           {z        }
+                                                                                q ′ −string
+
+or of the form
+(2.22)       Λ=(      A1 ; A2 . . . Ar C22 D2 | D1 ; C1 A1 B1 . . . Br−1 Ar C21 ),
+                     |{z}                            |            {z          }
+                   p′ −string                                           q ′ −string
+
+where C1 = (C11 , C12 ) and C2 = (C21 , C22 ), with some of the Cij possibly empty.
+If i = r and C2 is not an empty string, then C22 ̸= C2 , since there is a gap between
+the p′ –string and the (p − p′ )–part. Similarly, if i = 1 and C1 is not an empty string,
+then in (2.21) C11 ̸= C1 , since there is a gap between the (q − q ′ )–part and the
+q ′ –string.
+If Λp′ < Λn , then Λ must be of the form
+(2.23)        Λ = (C12 A1 B1 . . . Br−1 Ar C2 ; D2 | D1 C11 A1 . . . Ar−1 ; Ar ).
+                   |          {z            }                               |{z}
+                                  p′ −string                                             q ′ −string
+
+If r = 1 and C1 is not an empty string, then C11 ̸= C1 , since there is a gap between
+the (q − q ′ )–part and the q ′ –string. Also, if r = 1, we have one more possibility
+(2.24)                           Λ = ( A1 C2 ; D2 | D1 ; C1 A1 ).
+                                       | {z }            | {z }
+                                         p′ −string           q ′ −string
+
+Case of II = ∅: In this case Λ1 , . . . , Λp′ , Λn−q′ +1 , . . . , Λn form a strictly decreas-
+ing string. If none of the Ai is contained in the p′ –string, then the substrings
+A1 , A2 , . . . , Ar are contained in the (p − p′ )–part and the q ′ –string. In that case Λ
+is of the form
+(2.25)      Λ = ( C11 ; A1 A2 . . . Ar C22 D2 | D1 ; C12 A1 B1 . . . Br−1 Ar C21 ),
+                  |{z}                               |            {z           }
+                   p′ -string                                                  q ′ -string
+
+where C11 ̸= C1 , since there is a gap between the p –string and the (p − p′ )–part.
+                                                                    ′
+
+Also, we have C11 ̸= ∅. Therefore, if |C1 | ≤ 1, then the above candidate is not
+unitary.
+12          PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+Now we consider the case when some of the Ai are contained in the p′ –string. Let
+i ∈ {1, . . . , r} be the maximal index such that the substring Ai is contained in the
+p′ –string. Then the substrings A1 , . . . , Ai are contained in the p′ –string and the
+(q − q ′ )–part, while the substrings Ai+1 , . . . , Ar are contained in the (p − p′ )–part
+and the q ′ –string.
+If i ̸= r, then Λ is of the form
+(2.26)         Λ = ( C12 A1 B1 . . . Bi−1 Ai Bi1 ; Ai+1 . . . Ar C22 D2 |
+                     |           {z            }
+                                 p′ -string
+                                       D1 C11 A1 . . . Ai ; Bi2 Ai+1 . . . Br−1 Ar C21 ),
+                                                            |            {z          }
+                                                                      q ′ -string
+
+where Bi = (Bi1 , Bi2 ), and both Bi1 and Bi2 are nonempty strings, since there is a
+gap between the p′ –string and the (p − p′ )–part, and between the (q − q ′ )–part and
+the q ′ –string. Therefore, if |Bi | = 1, then the above candidate is not unitary.
+If i = r, then Λ is of the form
+(2.27)       Λ = (C12 A1 B1 . . . Br−1 Ar C21 ; D2 | D1 C11 A1 . . . Ar ; C22 ),
+                  |           {z            }                             |{z}
+                              p′ −string                                    q ′ −string
+
+where C22 ̸= C2 , since there is a gap between the (q − q ′ )–part and the q ′ –string.
+Therefore, if |C2 | ≤ 1, then the above candidate is not unitary.                    □
+Example 2.28. Let p = 10, q = 16 and let
+  Λdom = (18, 16, 15; 12, 11, 10, 10, 9, 9, 8, 8, 7, 6, 5, 5, 4, 3, 3, 2, 2, 1, 0, 0, −1, −1; −5).
+Then
+                 ′                                          ′
+               A1 = (10, 10, 9, 9, 8, 8), B1 = (7, 6), A2 = (5, 5), B2 = (4),
+                 ′                               ′
+               A3 = (3, 3, 2, 2), B3 = (1), A4 = (0, 0, −1, −1),
+and A1 = (10, 9, 8), A2 = (5), A3 = (3, 2), A4 = (0, −1), C1 = (12, 11), C2 = ∅, D1 =
+(18, 16, 15), and D2 = (−5). Since |A1 | + |A2 | + |A3 | + |A4 | = 8 and p = 10, and
+since D2 must appear on the left-hand side of the bar if Λ is unitary, it follows that,
+besides the coordinates 10, 9, 8, 5, 3, 2, 0, −1, −5, there is room for only one more
+coordinate on the left-hand side. Therefore, the string B1 cannot be contained in
+the p′ –string, and either the p′ -string contains only A1 while A2 , A3 , A4 lie in the
+(p − p′ )–part, or all substrings A1 , A2 , A3 , A4 lie in the (p − p′ )–part.
+If all the substrings A1 , A2 , A3 , A4 are inside the (p − p′ )–part, then the p′ –string
+has only one coordinate. Since D1 is inside the (q − q ′ )–part, the p′ –string can be
+either (12) or (11). However, there must be a gap between the p′ –string and the
+(p − p′ )–part, so the p′ –string must be (12). So
+Λ = (12; 10, 9, 8, 5, 3, 2, 0, −1, −5 | 18, 16, 15; 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, −1).
+This parameter is of type (2.25).
+If the p′ –string contains A1 while A2 , A3 , A4 lie in the (p − p′ )–part, then, since
+B1 is not entirely contained in the p′ –string, the p′ –string must be (10, 9, 8, 7), or
+(11, 10, 9, 8), or (10, 9, 8).
+If the p′ –string is (10, 9, 8, 7), then
+Λ = (10, 9, 8, 7; 5, 3, 2, 0, −1, −5 | 18, 16, 15, 12, 11, 10, 9, 8; 6, 5, 4, 3, 2, 1, 0, −1).
+This parameter is of type (2.26).
+                             FIXED INFINITESIMAL CHARACTER                                       13
+
+
+If the p′ –string is (11, 10, 9, 8), then
+Λ = (11, 10, 9, 8; 5, 3, 2, 0, −1, −5 | 18, 16, 15, 12; 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, −1).
+This parameter is of type (2.21).
+If the p′ –string is (10, 9, 8), then 18, 16, 15, 12, 11 are on the right-hand side of the
+bar. Also 7 must be on the right-hand side of the bar; namely, 7 is not contained
+in the p′ –string and there is a gap between the p′ -string and the (p − p′ )–part, so
+7 cannot be on the left-hand side of the bar. This means that exactly one of the
+coordinates 6, 4, 1 must be on the left-hand side of the bar. Therefore
+ Λ ∈ {(10, 9, 8; 6, 5, 3, 2, 0, −1, −5 | 18, 16, 15, 12, 11, 10, 9, 8, 7; 5, 4, 3, 2, 1, 0, −1),
+         (10, 9, 8; 5, 4, 3, 2, 0, −1, −5 | 18, 16, 15, 12, 11, 10, 9, 8, 7, 6, 5; 3, 2, 1, 0, −1)
+      (10, 9, 8; 5, 3, 2, 1, 0, −1, −5 | 18, 16, 15, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2; 0, −1), }
+but none of these is unitary. Hence, there are no unitary parameters for which
+p′ = (10, 9, 8).
+Therefore, among the 10
+                          
+                         2 = 45 k–dominant regular integral parameters conjugate
+to Λdom , only three are unitary.
+
+                                  3. The case of so∗ (2n)
+In this case g = so(2n, C) and k = gl(n, C). We use standard coordinates and the
+standard positive root system. The positive compact roots are
+                                   εi − ε j ,   1≤i<j≤n
+and the positive noncompact roots are
+                                  εi + ε j ,    1 ≤ i < j ≤ n.
+Therefore, the half sum of positive roots is
+                                  ρ = (n − 1, n − 2, . . . , 0) .
+As before, we will denote by Λdom the g–dominant representative of the infinitesimal
+character Λ, i. e., we have
+                          Λdom
+                           1   ≥ Λdom
+                                  2   ≥ . . . ≥ Λdom     dom
+                                                 n−1 ≥ |Λn   |.
+All parameters Λ corresponding to highest weight (g, K)-modules must be dominant
+regular for k. Therefore, we have1
+                                     Λ1 > Λ2 > . . . > Λn .
+Remark 3.1. It will be convenient to consider as candidates not only conjugates
+of the parameter Λdom , but all Λ whose coordinates have the same absolute values
+as those of Λdom . Among these, we will select the unitary ones, and for each such
+unitary Λ we will determine whether it is conjugate to Λdom by counting the number
+of sign changes between Λdom and Λ; this number has to be even.2
+The integrality of the parameter Λdom means that either all its coordinates are
+integers, or all its coordinates are half-integers.
+   1Note that this condition allows only for up to two nonzero coordinates to have the same
+absolute value.
+   2Of course sign change acts trivially on zero: −0 = 0 and therefore the number of visible sign
+changes can be odd.
+14          PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+3.1. Integer coordinates. We will first deal with integer coordinates. In [PPST3]
+it is shown that there are two series of unitary parameters – the “q-case” and the
+“p-case”. We first characterize these unitary parameters in a more convenient way
+depending on whether 0 is among the coordinates or not and then determine which
+Weyl-group conjugates of a given Λdom are unitary. We conclude this subsection
+with distinguishing the unitary points in the Hasse diagram.
+[PPST3, Theorem 5.6.] implies that if λ is in Case 1, that is, such that
+                            λ1 > λ2 = . . . = λq ,     q ∈ [2, . . . , n]
+and λq > λq+1 in case q < n, then L(λ) is unitary if and only if
+                                   λ1 + λ2 ≤ −2n + q + 2.
+We will refer to this case as the “q-case”. In terms of Λ = λ + ρ, Λ is of the form
+                  Λ = (Λ1 , Λ2 , Λ2 − 1, . . . , Λ2 − (q − 2), Λq+1 , . . . , Λn )
+                            |               {z              }
+                                            q−1
+
+for some q ∈ [2, n], with Λ1 > Λ2 + 1 and Λq > Λq+1 + 1 if q < n . Then Λ is unitary
+if and only if
+                                  Λ1 + Λ2 ≤ q − 1.
+Now we have two cases.
+Case 1.1: There does not exist a coordinate equal to 0 in Λdom . Then (Λ2 , . . . , Λq )
+is a string that does not contain 0. Therefore, either all Λ2 , . . . , Λq are positive, or all
+are negative. If Λ2 , . . . , Λq are positive, or equivalently Λq > 0, then Λ2 − (q − 2) ≥ 1
+and
+                    Λ1 + Λ2 ≥ Λ2 + 2 + Λ2 ≥ 2(q − 1) + 2 > q − 1.
+Therefore, Λ is not unitary.
+If Λ2 , . . . , Λq are all negative, or equivalently Λ2 < 0, then Λ is unitary if and only
+if Λ1 + Λ2 ≤ q − 1, or equivalently Λ1 ∈ {Λ2 + 2, . . . , −Λq + 1}.
+Case 1.2: There exists a coordinate equal to 0 in Λdom . Let x be the maximal
+number such that the coordinates of Λdom include 0, 1, 1, . . . , x, x (x = 0 if Λdom
+does not include coordinates 1, 1). Then Λ has to contain the string x, x − 1, . . . , −x.
+Now we have three cases.
+Case 1.2.1: If Λ1 = 0, then x = 0, Λ2 ≤ −2 and Λ1 + Λ2 ≤ −2 < q − 1, so Λ is
+unitary.
+Case 1.2.2: If q < n and the string x, x − 1, . . . , −x occurs within the group
+of coordinates Λq+1 , . . . , Λn , then Λq ≥ Λq+1 + 2 ≥ x + 2 ≥ 2 and then Λ2 =
+Λq + (q − 2) ≥ q. Therefore,
+                           Λ1 + Λ2 ≥ 2Λ2 + 2 ≥ 2q + 2 > q − 1,
+so Λ is not unitary.
+Case 1.2.3: If the string x, x − 1, . . . , −x occurs inside the string Λ2 , . . . , Λq , then
+due to the maximality of the number x, the string x, x − 1, . . . , −x is either the
+rightmost part of Λ2 , . . . , Λq , or the leftmost part of Λ2 , . . . , Λq . In case the string
+x, x − 1, . . . , −x is the rightmost part of Λ2 , . . . , Λq , then Λq = −x and 2x + 1 ≤ q − 1.
+Therefore we have
+        Λ1 + Λ2 ≥ Λ2 + 2 + Λ2 = 2(Λq + (q − 2)) + 2 = 2q − 2 − 2x > q − 1,
+so Λ is nonunitary.
+                             FIXED INFINITESIMAL CHARACTER                                     15
+
+
+In case the string x, x − 1, . . . , −x is the leftmost part of, and not all of, Λ2 , . . . , Λq ,
+then Λ2 = x and 2x + 1 ≤ q − 2 and the unitarity condition Λ1 + Λ2 ≤ q − 1 is
+equivalent to Λ1 ∈ {Λ2 + 2, . . . , 1 − Λq }.
+We have proved the following proposition.
+Proposition 3.2. Suppose the coordinates of Λdom are integers. Let Λ be a k–regular
+conjugate of Λdom of the form
+                  Λ = (Λ1 , Λ2 , Λ2 − 1, . . . , Λ2 − (q − 2), Λq+1 , . . . , Λn )
+                            |               {z              }
+                                             q−1
+
+for some q ∈ [2, n], with Λ1 > Λ2 + 1 and Λq > Λq+1 + 1 if q < n.
+    (1) If 0 is not a coordinate of Λdom , then Λ is unitary if and only if Λ2 < 0 and
+        Λ1 ∈ {Λ2 + 2, . . . , 1 − Λq }.
+    (2) If 0 is a coordinate of Λdom , let x be the maximal number such that the
+        coordinates of Λdom include 0, 1, 1, . . . , x, x (x = 0 if Λdom does not include
+        coordinates 1, 1). Then Λ is unitary if and only if Λ1 = x = 0 or the
+        string x, x − 1, . . . , −x is the leftmost part of, and not all of, Λ2 , . . . , Λq and
+        Λ1 ∈ {Λ2 + 2, . . . , 1 − Λq }.
+
+On the other hand, [PPST3, Theorem 5.9. and Theorem 5.12.] imply that if λ is in
+Case 2, that is, such that
+                               λ = (λ1 , . . . , λ1 , λp+1 , . . . , λn )
+                                    | {z }
+                                            p
+
+for some p ∈ [2, n], with λ1 > λp+1 if p < n, then L(λ) is unitary if and only if
+                                                          
+                                   hpi                p+1
+                     λ1 < −n + p −      + 1 = −n +           +1
+                                    2                  2
+                                             p
+or λ1 = −n + p − i + 1 for some 1 ≤ i ≤ 2 . We will refer to this case as the
+“p-case”. Since we assumed λ1 ∈ Z, L(λ) is unitary if and only if λ1 ≤ −n + p. In
+terms of Λ = λ + ρ, Λ is of the form
+                    Λ = (Λ1 , Λ1 − 1, . . . , Λ1 − (p − 1), Λp+1 , . . . , Λn )
+                         |               {z              }
+                                            p
+
+for some p ∈ [2, n], with Λ1 − p > Λp+1 if p < n. Then Λ is unitary if and only if
+                                           Λ1 ≤ p − 1.
+We have two subcases.
+Case 2.1: 0 is not a coordinate of Λdom . In this case, for a k–regular Λ ∈ W 1 Λdom ,
+either all coordinates of Λ are negative, or there is at least one positive coordinate
+of Λ.
+If all coordinates of Λ are negative, then
+                                        Λ1 < 0 ≤ p − 1,
+so Λ is unitary.
+If there is at least one positive coordinate of Λ, then since the coordinates of Λ
+decrease, Λ1 must be positive and since Λ1 , . . . , Λp is a string that does not contain
+0, then Λp > 0. Therefore we have
+                           Λ1 = Λp + (p − 1) ≥ 1 + (p − 1) = p.
+16            PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+We conclude that Λ is nonunitary in this case.
+Case 2.2: 0 is a coordinate of Λdom . If the string Λ1 , . . . , Λp contains 0, then Λp ≤ 0,
+i.e. Λ1 − (p − 1) ≤ 0. Therefore Λ1 ≤ p − 1 so Λ is unitary. If the string Λ1 , . . . , Λp
+does not contain 0, then 0 ∈ {Λp+1 , . . . , Λn }. Therefore we have Λp+1 ≥ 0 and
+Λ1 − p > Λp+1 ≥ 0. Therefore, Λ1 > p and Λ is not unitary.
+
+Proposition 3.3. Suppose the coordinates of Λdom are integers. Let Λ be a k–regular
+conjugate of Λdom of the form
+
+                       Λ = (Λ1 , Λ1 − 1, . . . , Λ1 − (p − 1), Λp+1 , . . . , Λn ),
+                            |               {z              }
+                                              p
+
+for some p ∈ [2, n], with Λ1 − p > Λp+1 if p < n.
+       (1) If 0 is not a coordinate of Λdom , then Λ is unitary if and only if all coordinates
+           of Λ are negative.
+       (2) If 0 is a coordinate of Λdom , then Λ is unitary if and only if the string
+           Λ1 , . . . , Λp contains 0.
+
+Theorem 3.4. Suppose the coordinates of Λdom are integers, and that 0 is a
+coordinate of Λdom . Let x be the maximal integer such that 0, 1, 1, . . . , x, x occur
+among the coordinates of Λdom (x = 0 if Λdom does not include coordinates 1, 1).
+Let u ≥ 0 be the maximal integer such that x + 1, . . . , x + u are coordinates of Λdom
+(with u = 0 when x + 1 is not a coordinate of Λdom ).
+       (1) If there is a repeated coordinate among the coordinates of Λdom that are
+           greater than x + u, then Λdom has no unitary conjugates.
+       (2) Suppose that among the coordinates x + 2, . . . , x + u the repeated ones are
+           x+v1 , . . . , x+vr with r ≥ 2, and that among the coordinates of Λdom greater
+           than x + u there are no repeated coordinates. Then the unitary parameters
+           are of the form
+
+              Λ = (x + a, . . . , x, x − 1, . . . , −x; −x − v1 , . . . , −x − vr ,
+                      − x − a − 1, . . . , −x − u, −Λdom                      dom
+                                                     n−(2x+u+r+1) , . . . , −Λ1   ),
+
+           where vr ≤ a ≤ u. If a = u, then the string −x − a − 1, . . . , −x − u is empty.
+       (3) If among the coordinates x + 2, . . . , x + u there is exactly one repeated
+           coordinate x + v (with v ̸= 1), and if among the coordinates of Λdom greater
+           than x + u there are no repeated coordinates, then the unitary parameters
+           are of the form
+
+     Λ = (x + v; x, x − 1, . . . , −x, −x − 1, . . . , −x − u; −Λdom                    dom
+                                                                 n−(2x+u+2) , . . . , −Λ1   )
+
+           and
+
+                 Λ = (x + a, . . . , x, x − 1, . . . , −x; −x − v,
+                        − x − a − 1, . . . , −x − u, −Λdom                    dom
+                                                       n−(2x+u+2) , . . . , −Λ1   ),
+
+           where v ≤ a ≤ u. If a = u, then the string −x − a − 1, . . . , −x − u is empty.
+       (4) If none of the coordinates greater than x is repeated, then the unitary
+           parameters are of one of the following four forms:
+                             FIXED INFINITESIMAL CHARACTER                                 17
+
+
+            (a) If u > 1, then for every a ∈ [1, u − 1] there is a unitary parameter in
+         the q-case:
+         Λ =(x + a + 1; x, . . . , −x, −x − 1, . . . , −x − a;
+                         − x − a − 2, . . . , −x − u, −Λdom                    dom
+                                                        n−(2x+u+1) , . . . , −Λ1   )
+
+            (b) If x = 0 and Λdom
+                              n−1 > 1 (so u = 0), then there is one unitary parameter
+         in the q-case:
+                             Λ = (0; −Λdom              dom
+                                        n−1 , . . . , −Λ1   ).
+            (c) If u ≥ 1, then for any a ∈ [1, u] there is a unitary parameter in the
+         p-case
+           Λ =(x + a, . . . , x, x − 1, . . . , −x;
+                      − x − a − 1, . . . , −x − u, −Λdom                    dom
+                                                     n−(2x+u+1) , . . . , −Λ1   ).
+
+            (d) For any remaining cases of Λdom such that 0 is among its coordinates,
+         there is a unitary parameter in the p-case
+      Λ = (x, x − 1, . . . , −x, −x − 1, . . . , −x − u; −Λdom                    dom
+                                                           n−(2x+u+1) , . . . , −Λ1   ).
+
+Proof. (1) If among the coordinates of Λdom that are greater than x + u there is a
+repeated coordinate, then all of them must appear in the k-regular conjugate Λ with
+both the + and the − sign.
+If Λ is a unitary conjugate belonging to the q–case, then Λ1 ̸= 0, the string
+x, x − 1, . . . , −x is the leftmost part of, but not the entire string Λ2 , . . . , Λq , and
+Λ1 ∈ {Λ2 + 2, . . . , 1 − Λq }. Therefore, Λ1 must be a repeated coordinate greater
+than x + u, while the q–string is of the form
+                      x, x − 1, . . . , −x, . . . , −x − a,   0 ≤ a ≤ u.
+But then
+                  Λ1 + Λq ≥ (x + u + 2) + (−x − a) = u + 2 − a ≥ 2,
+which implies Λ1 + Λ2 ≥ q, and we conclude Λ is not unitary.
+If Λ is a unitary conjugate belonging to the p–case, then the string x, x − 1, . . . , −x
+cannot be the leftmost part of the p–string, since there are repeated coordinates of
+Λdom which are greater than x. Hence, it must be the rightmost part of the p–string.
+But then all repeated coordinates of Λdom that are greater than x + u must appear
+in the p–string with the + sign. This forces the p–string to contain the coordinate
+x + u + 1, so x + u + 1 is a coordinate of Λdom which contradicts maximality of u.
+Therefore, Λdom has no unitary conjugates in this case.
+(2) Suppose that among the coordinates x + 2, . . . , x + u the repeated ones are
+x + v1 , . . . , x + vr with r ≥ 2, and that among the coordinates of Λdom greater than
+x+u there are no repeated coordinates. Then all of the coordinates x+v1 , . . . , x+vr
+must appear in the k-regular conjugate Λ with both the + and the − sign.
+If Λ is a unitary conjugate belonging to the q–case, then Λ1 ̸= 0, the string
+x, x − 1, . . . , −x is the leftmost part of, but not the entire string Λ2 , . . . , Λq , and
+Λ1 ∈ {Λ2 + 2, . . . , 1 − Λq }.
+The coordinates x + v1 , . . . , x + vr must appear among the coordinates of Λ, but
+there is room for at most one coordinate in the first position. Therefore, in this case
+there are no unitary parameters belonging to the q–case.
+18          PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+If Λ is a unitary conjugate belonging to the p–case, then the string x, x − 1, . . . , −x
+cannot be the leftmost part of the p–string, since there are repeated coordinates of
+Λdom greater than x. Hence, it must be the rightmost part of the p–string.
+Therefore, the unitary parameters are as in the statement (2) of the Theorem, i.e.,
+of the form
+            Λ = (x + a, . . . , x, x − 1, . . . , −x; −x − v1 , . . . , −x − vr ,
+                   − x − a − 1, . . . , −x − u, −Λdom                      dom
+                                                  n−(2x+u+r+1) , . . . , −Λ1   ),
+where vr ≤ a ≤ u. If a = u, then the string −x − a − 1, . . . , −x − u is empty.
+(3) If among the coordinates x + 2, . . . , x + u there is exactly one repeated coordinate
+x + v (with v ̸= 1), and if among the coordinates of Λdom greater than x + u there
+are no repeated coordinates, then, using the same argument as in the previous case
+(r = 1), we conclude that the unitary parameters in the p–case are
+             Λ = (x + a, . . . , x, x − 1, . . . , −x; −x − v,
+                    − x − a − 1, . . . , −x − u, −Λdom                    dom
+                                                   n−(2x+u+2) , . . . , −Λ1   ),
+where v ≤ a ≤ u. If a = u, then the string −x − a − 1, . . . , −x − u is empty.
+If Λ is a unitary parameter in the q–case, then Λ1 ̸= 0, the string x, x−1, . . . , −x is the
+leftmost part of, but not the entire string Λ2 , . . . , Λq , and Λ1 ∈ {Λ2 + 2, . . . , 1 − Λq }.
+Since x + v is a repeated coordinate, it must appear in Λ with both + and the −
+sign. Therefore, the parameter is of the form
+  Λ = (x + v; x, x − 1, . . . , −x, −x − 1, . . . , −x − u; −Λdom                    dom
+                                                              n−(2x+u+2) , . . . , −Λ1   ).
+
+
+(4) Suppose that none of the coordinates greater than x is repeated.
+If Λ is a unitary parameter in the q–case and u > 0, then the q–string is of the form
+                 x, x − 1, . . . , −x, −x − 1, . . . , −x − a,        1 ≤ a ≤ u.
+Since Λ1 + Λq ≤ 1, we have
+                                   x + 2 ≤ Λ1 ≤ x + a + 1.
+Because none of the coordinates x + 2, . . . , x + a is a repeated coordinate of Λdom ,
+we must have
+                            Λ1 ∈/ {x + 2, . . . , x + a}.
+Therefore Λ1 = x + a + 1 for some 1 ≤ a < u (the case a = u is impossible, since
+x + u + 1 is not a coordinate of Λdom ), and Λ is as in (a), i.e.,
+           Λ =(x + a + 1; x, . . . , −x, −x − 1, . . . , −x − a;
+                      − x − a − 2, . . . , −x − u, −Λdom                    dom
+                                                     n−(2x+u+1) , . . . , −Λ1   ).
+If a = u − 1, then the string −x − a − 2, . . . , −x − u is empty.
+If x = 0 and Λdom
+                n−1 > 1, then there is only one unitary parameter in the q–case,
+namely the one from (b):
+                                Λ = (0; −Λdom             dom
+                                          n−1 , . . . , −Λ1   ).
+If Λ is a unitary parameter belonging to the p–case, then the string x, x − 1, . . . , −x
+is either the rightmost or the leftmost part of the p–string.
+                              FIXED INFINITESIMAL CHARACTER                                        19
+
+
+If it is the rightmost part of the p–string, then Λ is as in (c):
+              Λ = (x + a, . . . , x, x − 1, . . . , −x;
+                     − x − a − 1, . . . , −x − u, −Λdom                    dom
+                                                    n−(2x+u+1) , . . . , −Λ1   ),
+where 1 ≤ a ≤ u if u ≥ 1. If a = u, then the string −x − a − 1, . . . , −x − u is empty.
+If the string x, x − 1, . . . , −x is the leftmost part of the p–string, then Λ is as in (d):
+      Λ = (x, x − 1, . . . , −x, −x − 1, . . . , −x − u; −Λdom                    dom
+                                                           n−(2x+u+1) , . . . , −Λ1   ).
+                                                                                                   □
+Theorem 3.5. Suppose the coordinates of Λdom are integers, and that 0 is not a
+coordinate of Λdom .
+    (1) If among the coordinates Λdom       1    , Λdom
+                                                     2  , . . . , Λdom      dom
+                                                                    n−1 , |Λn   | at least two are re-
+                            dom
+        peated, then Λ            has no unitary conjugates.
+    (2) If among the coordinates Λdom         1    , Λdom
+                                                      2   , . . . , Λdom     dom
+                                                                     n−1 , |Λn   | exactly one is re-
+                               dom
+        peated, and if Λ           satisfies the following two conditions:
+          (i) (Λdom
+                 1   , . . . , Λdom      dom
+                                 n−1 , |Λn   |) ends with a string in which the repeated coor-
+              dinate appears twice;
+         (ii) either Λdomn      > 0 and n is odd, or Λdom     n      < 0 and n is even,
+                dom
+        then Λ       has exactly one unitary conjugate: the one that starts with the
+        repeated coordinate, followed by the remaining coordinates of
+                               Λdom
+                                1   , Λdom
+                                       2   , . . . , Λdom     dom
+                                                      n−1 , |Λn   |
+         taken with a negative sign and arranged in strictly decreasing order.
+             If Λdom does not satisfy the above two conditions, then it has no unitary
+         conjugates.
+     (3) If none of the coordinates Λdom 1  , Λdom
+                                               2   , . . . , Λdom     dom
+                                                              n−1 , |Λn   | is repeated, i.e.,
+           dom
+         Λ      is regular for g, then:
+           (i) If Λdom
+                    n   > 0 and n is even, or Λdom
+                                                 n       < 0 and n is odd, then there is
+               exactly one unitary conjugate of Λdom :
+                           Λ = (−|Λdom
+                                   n   |, −Λdom             dom
+                                            n−1 , . . . , −Λ1   ).
+          (ii) If Λdom
+                   n    > 0 and n is odd, or Λdom
+                                                n     < 0 and n is even, let S denote the
+               longest string at the end of (Λdom
+                                              1   , . . . , Λdom     dom
+                                                             n−1 , |Λn   |). Then the unitary
+                               dom
+               conjugates of Λ      are exactly those parameters that begin with one of
+               the coordinates in S, followed by the remaining coordinates of
+                               Λdom
+                                1   , Λdom
+                                       2   , . . . , Λdom     dom
+                                                      n−1 , |Λn   |
+               taken with a negative sign and arranged in strictly decreasing order.
+Proof. (1) If among the coordinates Λdom
+                                       1    , Λdom
+                                                 2   , . . . , Λdom      dom
+                                                                 n−1 , |Λn   | at least two are
+repeated, then all of these repeated coordinates must appear in any k–regular
+conjugate Λ of Λdom with both the plus and the minus sign. Since 0 is not
+a coordinate of Λdom , every unitary parameter may have at most one positive
+coordinate, because by Propositions 3.2 and 3.3, the coordinates Λ2 , . . . , Λn must
+be negative. Therefore, Λdom has no unitary conjugates in this case.
+(2) If among the coordinates Λdom
+                              1   , Λdom
+                                     2   , . . . , Λdom
+                                                    n−1 , |Λn
+                                                                dom
+                                                                    | exactly one is repeated,
+then there are no unitary conjugates in the p–case, since by Proposition 3.3(1) all
+unitary parameters in the p–case have all coordinates negative, while the repeated
+20          PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+coordinate a must appear in any k–regular conjugate of Λdom with both the plus
+and the minus sign.
+If Λ is a unitary conjugate of Λdom belonging to the q–case, then using Proposition
+3.2(1) we see that Λ1 must be equal to a, and since Λ1 +Λq ≤ 1, we have Λq ≤ −a+1.
+If Λq = −a + 1, then −a does not appear in the q–string. Since −a must occur
+as a coordinate of Λ, it must lie among Λq+1 , . . . , Λn ; in fact, Λq+1 = −a, and
+therefore there is no gap between the q–string and the tail (Λq+1 , . . . , Λn ), which is
+a contradiction.
+Therefore, Λq ̸= −a + 1, and hence Λq = −a − l for some nonnegative integer l, and
+the q–string is of the form
+                                (−a + r, . . . , −a, . . . , −a − l),
+for some nonnegative integers r and l, where −a + r < 0, since Λ2 is negative.
+Therefore, Λq+1 ≤ −a − l − 2. We conclude that the coordinates a + l, . . . , a − r
+occur, while the coordinates a−r−1 and a+l+1 do not occur among the coordinates
+Λdom
+  1   , Λdom
+         2   , . . . , Λdom     dom
+                        n−1 , |Λn   |. Furthermore, a−r is the lowest among the coordinates
+Λ1 , Λ2 , . . . , Λn−1 , |Λdom
+  dom    dom            dom
+                                n   |, i.e. a − r = |Λdom
+                                                      n   |. Therefore, to have any unitary
+               dom
+conjugate, Λ           must end with the coordinates (a + l, . . . , a + 1, a, a, a − 1, . . . , a −
+r + 1, a − r) or with the coordinates (a + l, . . . , a + 1, a, a, a − 1, . . . , a − r + 1, −a + r).
+Therefore, Λ must be of the form
+                 Λ = (a; −a + r, . . . , −a + 1, −a, −a − 1, . . . , −a − l; R),
+where r and l are the maximal integers such that
+                             a + l, . . . , a, a, a − 1, . . . , a − r
+all appear among Λdom
+                  1   , Λdom
+                         2   , . . . , Λdom     dom
+                                        n−1 , |Λn   |, a − r = |Λdom
+                                                                 n   | and R denotes the
+                                                         dom
+sequence consisting of the remaining coordinates of Λ , written with a negative sign
+and arranged in strictly decreasing order. Hence, R = (−Λdom                       dom
+                                                             n−(l+r+2) , . . . , −Λ1   )
+and
+(3.6) Λ = (Λdom        dom
+            n−r−1 ; −|Λn   |, . . . , −Λdom       dom     dom               dom
+                                        n−r+1 , −Λn−r , −Λn−r−2 , . . . , −Λn−(l+r+1) ;
+
+                                           − Λdom                   dom
+                                              n−(l+r+2) , . . . , −Λ1   ),
+where Λdom      dom
+       n−r−1 = Λn−r = a,
+
+                    Λdom                  dom      dom    dom               dom
+                     n−(l+r+1) , . . . , Λn−r−2 , Λn−r , Λn−r+1 , . . . , |Λn   |
+is a string and Λdom           dom
+                  n−(l+r+2) − Λn−(l+r+1) ≥ 2.
+Since the Weyl group W consists of permutations together with an even number
+of sign changes, the parameter (3.6) is a unitary conjugate of Λdom if and only if
+the number of sign changes from Λdom to Λ is even. If Λdom      n    > 0, then the number
+of sign changes is equal to n − 1 and the parameter (3.6) is a unitary conjugate of
+Λdom if and only if n is odd.
+If Λdom
+     n    < 0, then the number of sign changes is equal to n − 2 and the (unitary)
+parameter (3.6) is a conjugate of Λdom if and only if n is even.
+(3) If none of the coordinates Λdom
+                                 1   , Λdom
+                                        2   , . . . , Λdom     dom
+                                                       n−1 , |Λn   | is repeated, then one
+candidate for a unitary parameter is
+(3.7)                      Λ = (−|Λdom
+                                   n   |, −Λdom             dom
+                                            n−1 , . . . , −Λ1   ).
+The parameter (3.7) is a unitary conjugate of Λdom if and only if the number of
+sign changes from Λdom to Λ is even.
+                              FIXED INFINITESIMAL CHARACTER                                   21
+
+
+If Λdom
+    n   > 0, then the number of sign changes is n, and (3.7) is a unitary conjugate
+of Λdom if and only if n is even.
+If Λdom
+    n    < 0, then the number of sign changes is n − 1, and (3.7) is a unitary
+conjugate of Λdom if and only if n is odd. The parameter (3.7) is in the p–case if
+Λdom
+  n−1 = |Λn
+           dom
+               | + 1. If Λdom      dom
+                          n−1 ̸= |Λn   | + 1, then (3.7) is in the q–case.
+Since by Proposition 3.3(1) there are no further unitary candidates in the p–case,
+we now derive a criterion for determining which of the remaining conjugates in the
+q–case are unitary. All other unitary candidates are of the form
+                       Λ = (a; −b, −b − 1, . . . , −b − r; Λr+3 , . . . , Λn ),
+where a, b, b + 1, . . . , b + r are among coordinates Λdom
+                                                        1   , Λdom
+                                                               2   , . . . , Λdom     dom
+                                                                              n−1 , |Λn   |, such
+that:
+      • a > 0 (since we already treated the case with all coordinates of Λ negative);
+      • Λr+3 ≤ −b − r − 2 (since we are assuming that −b − r is the end of the
+        q-string, i.e., q = r + 2);
+      • a ≥ −b + 2, a − b − r ≤ 1 (since by Proposition 3.3(1), Λ1 ∈ [Λ2 + 2, 1 − Λq ]).
+It follows that a ≤ b+r+1. Since none of the coordinates Λdom  1   , Λdom
+                                                                      2   , . . . , Λdom     dom
+                                                                                     n−1 , |Λn   |
+is repeated, it follows that a ∈
+                               / {b, b + 1, . . . , b + r}. Therefore, either 0 < a < b or
+a = b + r + 1. If 0 < a < b, then a has the smallest absolute value among all of the
+coordinates of Λdom . Therefore, a = |Λdomn     | and
+(3.8)                         Λ = (|Λdom
+                                     n   |; −Λdom             dom
+                                              n−1 , . . . , −Λ1   ).
+If Λdom
+     n   > 0, then the number of sign changes from Λdom to Λ is n − 1, and (3.8) is
+a unitary conjugate of Λdom if and only if n is odd.
+If Λdom
+     n   < 0, then the number of sign changes is n, and (3.8) is a unitary conjugate
+of Λdom if and only if n is even.
+If a = b + r + 1, then Λ is of the form
+                Λ = (b + r + 1; −b, −b − 1, . . . , −b − r; Λr+3 , . . . , Λn ),
+where Λr+3 ≤ −b − r − 2. Hence, b has the smallest absolute value among all
+coordinates of Λ, and therefore b = |Λdom
+                                        n   |.
+Let k be the largest integer such that all coordinates b, b + 1, . . . , b + k occur among
+Λdom
+ 1   , . . . , , Λdom     dom
+                  n−1 , |Λn   |. Then
+        b = |Λdom
+              n   |,    b + 1 = Λdom                    dom
+                                 n−1 , . . . , b + k = Λn−k ,        b + k + 1 < Λdom
+                                                                                  n−k−1 .
+
+All unitary conjugates are therefore of the form
+(3.9)      Λ = (b + r + 1; −b, −b − 1, . . . , −b − r;
+                              − b − r − 2, . . . , −b − k, −Λdom               dom
+                                                             n−k−1 , . . . , −Λ1   )
+               =(Λdom        dom
+                  n−r−1 ; −|Λn   |, −Λdom             dom     dom               dom
+                                      n−1 , . . . , −Λn−r , −Λn−r−2 , . . . , −Λ1   ),
+where 0 ≤ r ≤ k − 1.
+If Λdom
+     n   > 0, then the number of sign changes from Λdom to Λ is n − 1, and (3.9) is
+a unitary conjugate of Λdom if and only if n is odd. If Λdom
+                                                           n   < 0, then the number
+of sign changes is n − 2, and (3.9) is a unitary conjugate of Λdom if and only if n is
+even.                                                                               □
+Example 3.10. Let Λdom = (9, 4, 3, 3, 2, 1, 1, 0). Then each k–dominant regular
+conjugate of Λdom must contain coordinates 3, 1, 0, −1, −3, while the nonrepeated
+22          PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+coordinates 9, 4 and 2 can appear with the positive or negative sign (23 = 8
+possibilities). Therefore, k–dominant regular conjugates of Λdom are
+               (9 | 4, 3, 2, 1, 0, −1 | − 3), (9 | 4, 3 | 1, 0, −1, −2, −3),
+               (9 | 3, 2, 1, 0, −1 | − 3, −4), (9 | 3 | 1, 0, −1, −2, −3, −4),
+               (4, 3, 2, 1, 0, −1 | − 3, −9), (4, 3 | 1, 0, −1, −2, −3, −9),
+               (3, 2, 1, 0, −1 | − 3, −4, −9), (3 | 1, 0, −1, −2, −3, −4 | − 9)
+We now apply Theorem 3.4. Since in this case x = 1, u = 3 and v = 2, uni-
+tary conjugates are (3 | 1, 0, −1, −2, −3, −4 | − 9), (4, 3, 2, 1, 0, −1 | − 3, −9) and
+(3, 2, 1, 0, −1 | − 3, −4, −9). All other conjugates are nonunitary.
+Example 3.11. Let Λdom = (3, 2, 1, 0). Then k–dominant regular conjugates of
+Λdom are
+                       (3, 2, 1, 0), (3, 2 | 0, −1), (3 | 1, 0 | − 2)
+                       (2, 1, 0 | − 3), (3 | 0, −1, −2), (2 | 0, −1 | − 3)
+                       (1, 0 | − 2, −3), (0, −1, −2, −3)
+We now apply Theorem 3.4. Since in this case x = 0, u = 3, unitary conju-
+gates are (3 | 0, −1, −2), (2 | 0, −1 | − 3), (3, 2, 1, 0), (2, 1, 0 | − 3), (1, 0 | − 2, −3) and
+(0, −1, −2, −3). All other conjugates are nonunitary.
+Now we will generalize this example to an arbitrary ρ and describe unitarity in
+terms of the Young diagrams.
+Example 3.12. Let Λdom = ρ = (n − 1, n − 2, . . . , 0). Then all k-dominant
+W -conjugates of ρ are of the form
+                          Λ = wρ = (i1 , . . . , ik , 0, −jm , . . . , −j1 )
+for various choices of integers k, m ∈ [0, n − 1] and i1 > · · · > ik , j1 > · · · > jm ,
+such that k + m = n − 1 and
+                       {i1 , . . . , ik } ∪ {j1 , . . . , jm } = {1, . . . , n − 1}.
+Following [H2], we express these parameters in terms of Young diagrams with at
+most n rows, with each row of length at most n−1, and with the additional condition
+that the diagrams can be built from hooks. Here by a hook (of size k) we mean the
+Young diagram with row lengths
+                          k, 1, . . . , 1     for some       k ∈ [1, n − 1].
+                             | {z }
+                                  k
+By inverted hook we mean the diagram that is obtained from a hook by mirroring
+along “antidiagonal”. A Young diagram Y is built from hooks if it is either a hook,
+or the first row and column of Y form a hook, and after removing that hook the
+resulting Young diagram can still be built from hooks.
+If the Young diagram Y has row lengths y1 ≥ · · · ≥ yn , some of them possibly zero,
+we will write Y = (y1 , . . . , yn ). The corresponding parameter Λ and highest weight
+λ are
+                Λ = ρ − (yn , . . . , y1 );    λ = Λ − ρ = −(yn , . . . , y1 ).
+
+
+Let n = 4. The Hasse diagram of ρ is
+                            FIXED INFINITESIMAL CHARACTER                                    23
+
+
+
+         (3, 2, 1, 0) ←−−−−− (3, 2, 0, −1) ←−−−−− (3, 1, 0, −2) ←−−−−− (3, 0, −1, −2)
+                                                        x                     x
+                                                                             
+                                                                             
+
+                                                   (2, 1, 0, −3) ←−−−−− (2, 0, −1, −3)
+                                                                               x
+                                                                               
+                                                                               
+
+                                                                           (1, 0, −2, −3)
+                                                                                  x
+                                                                                  
+                                                                                  
+
+                                                                           (0, −1, −2, −3)
+
+with arrows pointing to larger elements in Bruhat order. The corresponding Young
+diagrams are
+
+                     ∅ ←−−−−−−       ←−−−−−−             ←−−−−−−
+
+
+
+                                                  x                    x
+                                                                      
+                                                                      
+
+                                                         ←−−−−−−
+
+
+
+
+                                                                       x
+                                                                       
+                                                                       
+
+
+
+
+                                                                       x
+                                                                       
+                                                                       
+
+
+
+
+To determine the unitary points in the Hasse diagram of ρ, let us first assume that
+                 Λ = (Λ1 , Λ2 , Λ2 − 1, . . . , Λ2 − (q − 2), Λq+1 , . . . , Λn )
+                           |               {z              }
+                                           q−1
+
+for some q ∈ [2, n], with Λ1 > Λ2 + 1 and Λq > Λq+1 + 1 if q < n. i.e.
+                                 yn < yn−1 = · · · = yn−q+1 .
+It follows from Theorem 3.4, where x = 0, u = n − 1 that Λ is unitary if and only if
+Λ is of the form
+(3.13)               Λ = (q − 1 | 0, . . . , −q + 2 | − q, . . . , −n + 1),
+where 3 ≤ q ≤ n, with the dots standing for integers decreasing by one. We call the
+set of these points the q-edge of the Hasse diagram of ρ.
+Geometrically, each of the corresponding Young diagrams Y is the full n × (n − 1)
+box with an inverted hook of size q − 1 taken out from the lower right corner. In
+Example (3.11), there are two such diagrams, on top of the last column of the Hasse
+24         PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+diagram. The other two diagrams in the last column of the Hasse diagram also
+follow the same pattern, with the inverted hook removed being of size 1, respectively
+0; we do not include them here because the corresponding λ does not belong to the
+q-case, but to the p-case that we will study next.
+Let us now assume that
+                  Λ = (Λ1 , Λ1 − 1, . . . , Λ1 − (p − 1), Λp+1 , . . . , Λn ),
+                       |               {z              }
+                                         p
+
+for some p ∈ [2, n], with Λ1 − p > Λp+1 if p < n, i.e.
+                                    yn = · · · = yn−p+1 .
+Then Λ is unitary if and only if Λ is of the form
+(3.14)              Λ = (p − 1, . . . , 1, 0 | − p, −p − 1, . . . , −n + 1)
+p ∈ [2, n] or Λ = (0, −1, . . . , −n + 1). We call the set of these points the p-edge of
+the Hasse diagram of ρ. Note also that for p = n, Y is the empty diagram, Λ = ρ,
+and the corresponding module is the trivial module C.
+In the remaining case, yn = n − 1, so Y has all n rows of length n − 1, i.e., it is the
+n × (n − 1) box. The corresponding parameter is
+(3.15)                          Λ = (0, −1, . . . , −n + 1).
+This is of course ρ̃, the smallest element in the Hasse diagram. It is in the continuous
+part of its line, since [PPST3, Theorem 5.9 (3)] is clearly satisfied.
+We have proved
+Proposition 3.16. The unitary points of the Hasse diagram of ρ belonging to the
+q-case are the points of the q-edge, given by (3.13) (these points are the last points
+of unitarity on their lines). The unitary points of the Hasse diagram of ρ belonging
+to the p-case are:
+    (1) ρ̃, given by (3.15) (this point belongs to the continuous part of its line);
+    (2) the points of the p-edge, given by (3.14) (these points are the last points of
+        unitarity on their lines).                                                   □
+3.2. Half–integer coordinates. Finally, assume that all coordinates of Λdom are
+half–integers. In the q–case, unitarity is equivalent to the condition
+                                     Λ1 + Λ2 ≤ q − 1.
+We distinguish two cases.
+Case 3.1. Λdom does not contain two coordinates whose absolute value is equal
+to 12 . In this case (Λ2 , . . . , Λq ) is a string that does not contain both 12 and − 21 .
+Therefore, either all coordinates Λ2 , . . . , Λq are positive, or all are negative.
+If all coordinates Λ2 , . . . , Λq are positive, then Λq ≥ 21 , Λ2 = Λq + (q − 2) and
+                                                       1
+            Λ1 + Λ2 ≥ Λ2 + 2 + Λ2 ≥ 2(q − 2 +            + 1) = 2q − 1 > q − 1.
+                                                       2
+Therefore, Λ is not unitary.
+If all coordinates Λ2 , . . . , Λq are negative, then Λ is unitary if and only if Λ1 + Λ2 ≤
+q − 1, or equivalently if and only if Λ1 ∈ {Λ2 + 2, . . . , −Λq + 1}.
+                                 FIXED INFINITESIMAL CHARACTER                                               25
+
+
+Case 3.2. Λdom contains two coordinates whose absolute value is equal to 12 . Let
+x be either 12 , or the maximal coordinate such that Λdom contains coordinates
+x, x, . . . , 12 , 21 or x, x, . . . , 21 , − 12 , where x > 21 . If x is in the tail (Λq+1 , . . . , Λn ), then
+                                                                          1
+                        Λ2 = Λq + (q − 2) ≥ Λq+1 + q ≥ x + q ≥ q +
+                                                                          2
+and Λ1 + Λ2 ≥ 2Λ2 + 2 ≥ 2q + 3 > q − 1. Therefore, Λ is not unitary.
+If x is in the q–string, then the q–string has to contain the coordinates x, x −
+1, . . . , 12 , − 21 , . . . , −x. Due to the maximality of the number x, the string
+                                             x, x − 1, . . . , −x
+is either the rightmost part of (Λ2 , . . . , Λq ) or the leftmost part of (Λ2 , . . . , Λq ).
+If the string x, x − 1, . . . , −x is the rightmost part of (Λ2 , . . . , Λq ), then Λq = −x
+and 2x + 1 ≤ q − 1. Therefore, we have
+      Λ1 + Λ2 ≥ Λ2 + 2 + Λ2 = 2(Λq + (q − 2)) + 2 = 2q − 2 − 2x ≥ q > q − 1,
+so Λ is nonunitary.
+If the string x, x − 1, . . . , −x is the leftmost part of, but not equal to, (Λ2 , . . . , Λq ),
+then Λ2 = x and 2x + 1 ≤ q − 2. In this case, the unitarity condition Λ1 + Λ2 ≤ q − 1
+is equivalent to
+                                  Λ1 ∈ {Λ2 + 2, . . . , 1 − Λq }.
+We have proved
+Proposition 3.17. Assume that the coordinates of Λdom are half-integers. Let Λ
+be a k–regular conjugate of Λdom of the form
+                     Λ = (Λ1 , Λ2 , Λ2 − 1, . . . , Λ2 − (q − 2), Λq+1 , . . . , Λn )
+                               |               {z              }
+                                                 q−1
+
+for some q ∈ [2, n], with Λ1 > Λ2 + 1 and Λq > Λq+1 + 1 if q < n.
+     (1) If Λdom does not contain two coordinates whose absolute value is equal to 12 ,
+         then Λ is unitary if and only if Λ2 < 0 and Λ1 ∈ {Λ2 + 2, . . . , 1 − Λq }.
+     (2) If Λdom contains two coordinates whose absolute value is equal to 12 and if
+         x is either 12 , or the maximal number such that the coordinates of Λdom
+         include x, x, . . . , 12 , 12 or x, x, . . . , 12 , − 21 , with x > 21 , then Λ is unitary if
+         and only if the string x, x − 1, . . . , −x is the leftmost part of, and not all of,
+         Λ2 , . . . , Λq and Λ1 ∈ {Λ2 + 2, . . . , 1 − Λq }.                                        □
+If the coordinates of Λdom are half-integers and if Λ is in the p–case, then Λ is
+unitary if and only if                       
+                                         p+1
+                                Λ1 ≤            .
+                                          2
+Since Λ1 ∈ 12 + Z, the last condition is equivalent to
+                                               p
+                                        Λ1 ≤ .
+                                               2
+Either all coordinates in the p–string are negative, or the p–string contains both 12
+and − 21 . (We ignore the possibility that all coordinates in the p–string are positive,
+because in that case Λ cannot be unitary.)
+If all coordinates in the p–string are negative, then, obviously, Λ is unitary.
+26          PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+Let us assume that Λdom contains two coordinates whose absolute value is equal
+to 12 and, as before, let x be either 12 , or the maximal number such that the
+coordinates of Λdom include x, x, . . . , 21 , 12 or x, x, . . . , 12 , − 12 , such that x > 12 . Any
+k–regular conjugate Λ has to contain the string x, x − 1, . . . , −x. If x is in the tail
+(Λp+1 , . . . , Λn ), then Λp ≥ x + 2 and Λ1 ≥ x + p + 1 > p + 1. Therefore, Λ is not
+unitary.
+If the string x, x − 1, . . . , −x is contained in the p–string, then, by the maximality
+of x, the string x, x − 1, . . . , −x must be either the leftmost or the rightmost part of
+the p–string.
+If the string x, x − 1, . . . , −x is the rightmost part of the p–string, then Λp = −x and
+Λ1 = Λp + (p − 1) = −x + (p − 1). Since the length of the string x, x − 1, . . . , −x is
+2x + 1, we have 2x + 1 ≤ p. Unitarity condition is equivalent to Λ1 ≤ p2 . Therefore,
+if Λ is unitary, we have
+                                                                  p
+                                     −x + (p − 1) = Λ1 ≤ ,
+                                                                  2
+which implies 2x + 2 ≥ p. Hence p ∈ {2x + 1, 2x + 2} and the p–string is equal to
+the string
+                                                                   
+                                                   1 1
+(3.18)                            x, x − 1, . . . , , − , . . . , −x ,
+                                                   2 2
+or to the string
+                                                                       
+                                                       1 1
+(3.19)                         x + 1, x, x − 1, . . . , , − , . . . , −x .
+                                                       2 2
+If the p-string is (3.18), i.e., p = 2x + 1, then
+                                                        1  p
+                                      Λ1 = x < x +        = ,
+                                                        2  2
+and Λ is unitary.
+If the p-string is (3.19), i.e., p = 2x + 2, then
+                                                          p
+                                         Λ1 = x + 1 =       ,
+                                                          2
+and Λ is unitary.
+If the string x, x − 1, . . . , −x is the leftmost part of, but not all of, the p–string, then
+Λ1 = x and 2x + 1 < p. Therefore,
+                                                   p−1  p
+                                      Λ1 = x <         < .
+                                                    2   2
+Therefore, Λ is unitary.
+We have proved
+Proposition 3.20. Assume that the coordinates of Λdom are half-integers. Let Λ
+be a k–regular conjugate of Λdom of the form
+                    Λ = (Λ1 , Λ1 − 1, . . . , Λ1 − (p − 1), Λp+1 , . . . , Λn ),
+                         |               {z              }
+                                             p
+
+for some p ∈ [2, n], with Λ1 − p > Λp+1 if p < n.
+     (1) If Λdom does not contain two coordinates whose absolute value is equal to 12 ,
+         then Λ is unitary if and only if all coordinates of Λ are negative.
+                             FIXED INFINITESIMAL CHARACTER                                         27
+
+
+    (2) If Λdom contains two coordinates whose absolute value is equal to 12 , let x be
+        either 12 , or the maximal number such that the coordinates of Λdom include
+        x, x, . . . , 12 , 12 or x, x, . . . , 12 , − 12 , such that x > 12 .
+           Then Λ is unitary if and only if the string x, x − 1, . . . , −x is the leftmost
+        part of the string Λ1 , . . . , Λp , or if
+                                                                             
+                                                              1 1
+        (Λ1 , . . . , Λp ) = x + 1, x, x − 1, . . . , , − , . . . , −x .         □
+                                                              2 2
+Theorem 3.21. Assume that the coordinates of Λdom are half-integers and that
+Λdom does not contain two coordinates whose absolute value is equal to 12 .
+    (1) If among the coordinates Λdom       1    , Λdom
+                                                     2  , . . . , Λdom      dom
+                                                                    n−1 , |Λn   | at least two are re-
+                            dom
+        peated, then Λ            has no unitary conjugates.
+    (2) If among the coordinates Λdom         1    , Λdom
+                                                      2   , . . . , Λdom     dom
+                                                                     n−1 , |Λn   | exactly one is re-
+                               dom
+        peated, and if Λ           satisfies the following two conditions:
+          (i) (Λdom
+                 1   , . . . , Λdom      dom
+                                 n−1 , |Λn   |) ends with a string in which the repeated coor-
+              dinate appears twice;
+         (ii) either Λdomn      > 0 and n is odd, or Λdom     n      < 0 and n is even,
+                dom
+        then Λ       has exactly one unitary conjugate: the one that starts with the
+        repeated coordinate, followed by the remaining coordinates of
+                              Λdom
+                               1   , Λdom
+                                      2   , . . . , Λdom     dom
+                                                     n−1 , |Λn   |
+        taken with negative signs and arranged in strictly decreasing order.
+            If Λdom does not satisfy the above two conditions, then it has no unitary
+        conjugates.
+    (3) If none of the coordinates Λdom 1  , Λdom
+                                              2   , . . . , Λdom     dom
+                                                             n−1 , |Λn   | is repeated, i.e.,
+          dom
+        Λ      is regular for g, then:
+          (i) If Λdom
+                   n   > 0 and n is even, or Λdom
+                                                n       < 0 and n is odd, then there is
+              exactly one unitary conjugate of Λdom :
+                          Λ = (−|Λdom
+                                  n   |, −Λdom             dom
+                                           n−1 , . . . , −Λ1   ).
+          (ii) If Λdom
+                   n    > 0 and n is odd, or Λdom
+                                                n     < 0 and n is even, let S denote the
+               longest string at the end of (Λdom
+                                              1   , . . . , Λdom     dom
+                                                             n−1 , |Λn   |). Then the unitary
+                               dom
+               conjugates of Λ      are exactly those parameters that begin with one of
+               the coordinates in S, followed by the remaining coordinates of
+                              Λdom
+                               1   , Λdom
+                                      2   , . . . , Λdom     dom
+                                                     n−1 , |Λn   |
+              taken with negative signs and arranged in strictly decreasing order.
+Proof. The proof follows the same arguments as the proof of Theorem 3.5 and is
+therefore omitted.                                                          □
+Theorem 3.22. Assume that the coordinates of Λdom are half-integers and that
+Λdom contains two coordinates whose absolute value is equal to 12 . Let x be either
+1
+2 , or the maximal number such that the coordinates of Λ
+                                                               dom
+                                                                   include x, x, . . . , 12 , 12
+                 1     1                 1
+or x, x, . . . , 2 , − 2 , such that x > 2 . Let u ≥ 0 be the maximal integer such that
+x + 1, . . . , x + u are coordinates of Λdom (with u = 0 when x + 1 is not a coordinate
+of Λdom ).
+     (1) If among the coordinates of Λdom that are greater than x + u there is a
+          repeated coordinate, then Λdom has no unitary conjugates.
+28            PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+       (2) Suppose that among the coordinates of Λdom greater than x + u there are no
+           repeated coordinates, and that among the coordinates x + 2, . . . , x + u the
+           repeated ones are x + v1 , . . . , x + vr with r ≥ 2. Then Λdom has no unitary
+           conjugates.
+       (3) Suppose that among the coordinates of Λdom greater than x + u there are no
+           repeated coordinates, and that among the coordinates x + 2, . . . , x + u there
+           is exactly one repeated coordinate x + v (with 2 ≤ v ≤ u). Then the only
+           possible unitary conjugate of Λdom is
+     Λ = (x + v; x, x − 1, . . . , −x, −x − 1, . . . , −x − u; −Λdom                    dom
+                                                                 n−(2x+u+2) , . . . , −Λ1   )
+           Moreover, this parameter is unitary if and only if the number of sign changes
+           from Λdom to Λ is even. In particular, if the number of sign changes is odd,
+           then Λdom has no unitary conjugates.
+       (4) If none of the coordinates greater than x is repeated, the only possible unitary
+           parameters are of one of the following forms.
+             (i) If u > 1, then for every a ∈ [1, u−1] there is a possible unitary conjugate
+                 of Λdom in the q-case:
+           Λ =(x + a + 1; x, . . . , −x, −x − 1, . . . , −x − a;
+                           − x − a − 2, . . . , −x − u, −Λdom                    dom
+                                                          n−(2x+u+1) , . . . , −Λ1   ).
+                 If a = u − 1, then the string −x − a − 2, . . . , −x − u is an empty string.
+            (ii) If u ≥ 1, then there is a possible unitary conjugate of Λdom in the
+                 p-case of the form
+     Λ = (x + 1, x, x − 1, . . . , −x; −x − 2, . . . , −x − u, −Λdom                    dom
+                                                                 n−(2x+u+1) , . . . , −Λ1   ).
+                 If u = 1, then the string −x − 2, . . . , −x − u is an empty string.
+           (iii) For any Λdom there is a possible unitary conjugate of Λdom in the p-case
+        Λ = (x, x − 1, . . . , −x, −x − 1, . . . , −x − u; −Λdom                    dom
+                                                             n−(2x+u+1) , . . . , −Λ1   ).
+                If u = 0, then the string −x − 1, . . . , −x − u is an empty string.
+           In each of the cases above, a parameter of the indicated form is a unitary
+           conjugate of Λdom if and only if the number of sign changes from Λdom to Λ
+           is even.
+Proof. (1) The proof follows the same arguments as the proof of Theorem 3.4 (1)
+and is therefore omitted.
+(2) As in Theorem 3.4 (2), we conclude that in this case there are no unitary
+parameters belonging to the q-case. Suppose that Λ is a unitary conjugate belonging
+to the p-case. By Proposition 3.20 (2), either the string
+(3.23)                                      x, x − 1, . . . , −x
+is the leftmost part of the p-string of Λ, or
+                    (Λ1 , . . . , Λp ) = x + 1, x, x − 1, . . . , 12 , − 12 , . . . , −x .
+                                                                                        
+(3.24)
+However, (3.23) cannot form the leftmost part of the p-string, since there are repeated
+coordinates of Λdom greater than x. So (3.24) must hold, but this contradicts the
+assumption that there are at least two repeated coordinates greater than x, and
+both of these must occur in Λ with both the plus and the minus sign.
+(3) Assume that Λ is a unitary conjugate of Λdom . Since x + v is a repeated
+coordinate, it must appear in Λ with both + and the − sign.
+                              FIXED INFINITESIMAL CHARACTER                                     29
+
+
+If Λ is in the p–case, then by Proposition 3.20 (2), either the string x, x−1, . . . , −x is
+the leftmost part of the p–string or (3.24) holds. Both cases lead to a contradiction,
+since the coordinate x + v must appear in Λ and v ̸= 1. Therefore, there are no
+unitary conjugates in the p–case.
+If Λ is a unitary parameter in the q–case, then by Proposition 3.17, the string
+x, x − 1, . . . , −x is the leftmost part of, but not the entire string, Λ2 , . . . , Λq , and
+                                  Λ1 ∈ {Λ2 + 2, . . . , 1 − Λq }.
+Since x + v is a repeated coordinate, it must appear in Λ with both + and the −
+sign. Therefore, the parameter is of the form
+  Λ = x + v; x, x − 1, . . . , −x, −x − 1, . . . , −x − u; −Λdom                    dom
+                                                                                        
+                                                             n−(2x+u+2) , . . . , −Λ1     .
+
+(4) Suppose that none of the coordinates greater than x is repeated.
+If Λ is a unitary parameter in the q–case and u > 0, then by Proposition 3.17, the
+q–string Λ2 , . . . , Λq is of the form
+           x, x − 1, . . . , −x, −x − 1, . . . , −x − a,        for some     1 ≤ a ≤ u.
+Furthermore, Λ1 + Λq ≤ 1, so we have
+                                    x + 2 ≤ Λ1 ≤ x + a + 1.
+Since none of the coordinates x + 2, . . . , x + a is a repeated coordinate of Λdom , we
+must have
+                                    Λ1 ∈
+                                       / {x + 2, . . . , x + a}.
+Therefore Λ1 = x + a + 1 for some 1 ≤ a < u (the case a = u is impossible, since
+x + u + 1 is not a coordinate of Λdom ), and Λ is as in (a), i.e.,
+            Λ =(x + a + 1; x, . . . , −x, −x − 1, . . . , −x − a;
+                       − x − a − 2, . . . , −x − u, −Λdom                    dom
+                                                      n−(2x+u+1) , . . . , −Λ1   ).
+
+If a = u − 1, then the string −x − a − 2, . . . , −x − u is empty.
+If u = 0, then there are no unitary conjugates of Λdom in the q–case.
+If Λ is a unitary conjugate of Λdom belonging to the p–case, then by Proposition
+3.20, the string x, x − 1, . . . , −x is either the leftmost part of the p–string Λ1 , . . . , Λp ,
+or
+                 (Λ1 , . . . , Λp ) = x + 1, x, x − 1, . . . , 12 , − 12 , . . . , −x .
+                                                                                     
+
+If the p–string is x + 1, x, x − 1, . . . , 12 , − 12 , . . . , −x, then Λ is as in (b):
+
+  Λ = (x + 1, x, x − 1, . . . , −x; −x − 2, . . . , −x − u, −Λdom                    dom
+                                                              n−(2x+u+1) , . . . , −Λ1   ).
+
+If the string x, x − 1, . . . , −x is the leftmost part of the p–string, then Λ is as in (c):
+
+      Λ = (x, x − 1, . . . , −x, −x − 1, . . . , −x − u; −Λdom                    dom
+                                                           n−(2x+u+1) , . . . , −Λ1   ).
+
+                                                                                                □
+
+Example 3.25. Let Λdom = 13         9 7 5 5 3 3 1                 1            5
+                                                                    
+                                2 , 2 , 2 , 2 , 2 , 2 , 2 , 2 , − 2 . Here x = 2 , u = 2 and
+from Theorem 3.22 it follows that the candidates for the unitary conjugates of Λdom
+30        PAVLE PANDŽIĆ, ANA PRLIĆ, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+are
+                                                  
+                           9 5 3 1 1 3 5 7 13
+                            ; , , ,− ,− ,− ,− ;−     ,
+                           2 2 2 2 2 2 2 2       2
+                                                  
+                           7 5 3 1 1 3 5 9 13
+                            , , , ,− ,− ,− ;− ,−     ,
+                           2 2 2 2 2 2 2 2       2
+                                                    
+                           5 3 1 1 3 5 7 9 13
+                            , , ,− ,− ,− ,− ,− ;−      .
+                           2 2 2 2 2 2 2 2         2
+
+Since the first two have an even number of sign changes with respect to Λdom , they
+are unitary conjugates of Λdom . The third one is not a unitary conjugate of Λdom ,
+since the number of sign changes is odd.
+
+
+                                         References
+[A]     J. Adams, Unitary highest weight modules, Adv. Math. 63 (1987), 113–137.
+[BGG]   I. N. Bernstein, I. M. Gelfand, S. I. Gelfand, Differential operators on the base affine space
+        and a study of g-modules, in Lie Groups and their Representations (ed. I.M. Gelfand),
+        Adam Hilger, 1975, 21–64.
+[DES]   M. Davidson, T. Enright, R. Stanke: Differential operators and highest weight represen-
+        tations, Memoirs of AMS, 455, 1991.
+[E]     T. Enright, Analogues of Kostant’s u-cohomology formulas for unitary highest weight
+        modules, J. Reine. Angew. Math. 392 (1988), 27–36.
+[EHW]   T. Enright, R. Howe, N. Wallach, A classification of unitary highest weight modules, in
+        Representation theory of reductive groups, Park City, Utah, 1982, Birkhäuser, Boston,
+        1983, 97–143.
+[EJ]    T. Enright, A. Joseph, An intrinsic analysis of unitarizable highest weight modules,
+        Math. Ann. 288 (1990), no. 4, 571–594.
+[ES]    T. J. Enright, B. Shelton, Categories of highest weight modules: applications to classical
+        Hermitian symmetric pairs, Mem. Amer. Math. Soc. 67 (1987), no. 367, iv+94.
+[EW]    T. Enright and J. Willenbring, Hilbert series, Howe duality and branching rules for
+        classical groups, Annals of Math. 159 (2004), no.1, 337–375.
+[HC1]   Harish-Chandra, Representations of semisimple Lie groups, IV, Amer. J. Math., 77
+        (1955), 743–777.
+[HC2]   Harish-Chandra, Representations of semisimple Lie groups, V, Amer. J. Math., 78 (1956),
+        1–41.
+[H1]    R. Howe, Remarks on classical invariant theory, Trans. Amer. Math. Soc. 313 (1989),
+        no.2, 539–570.
+[H2]    R. Howe, Perspectives on invariant theory: Schur duality, multiplicity-free actions and
+        beyond, The Schur lectures (1992), Israel Math. Conf. Proc., Bar-Ilan Univ., Ramat Gan,
+        1995, 1–182.
+[H3]    R. Howe, Transcending classical invariant theory, J. Amer. Math. Soc. 2 (1989), no.3,
+        535–552.
+[HP1]   J.-S. Huang, P. Pandžić, Dirac cohomology, unitary representations and a proof of a
+        conjecture of Vogan, J. Amer. Math. Soc. 15 (2002), 185–202.
+[HP2]   J.-S. Huang, P. Pandžić, Dirac Operators in Representation Theory, Mathematics:
+        Theory and Applications, Birkhäuser, 2006.
+[HPP]   J.-S. Huang, P. Pandžić, V. Protsak, Dirac cohomology of Wallach representations,
+        Pacific J. Math. 250 (2011), no. 1, 163–190.
+[HPZ]   J.-S. Huang, P. Pandžić, F. Zhu, Dirac cohomology, K-characters and branching laws,
+        Amer. J. Math. 135 (2013), no.5, 1253–1269.
+[J]     H.P. Jakobsen, Hermitian symmetric spaces and their unitary highest weight modules, J.
+        Funct. Anal. 52 (1983), 385–412.
+[KV]    M. Kashiwara, M. Vergne, On the Segal-Shale-Weil representations and harmonic
+        polynomials, Invent. Math. 44 (1978), no. 1, 1–47.
+                               FIXED INFINITESIMAL CHARACTER                                           31
+
+
+[NOT]   K. Nishiyama, H. Ochiai, K. Taniguchi, Bernstein degree and associated cycles of Harish-
+        Chandra modules – Hermitian symmetric case. Nilpotent orbits, associated cycles and
+        Whittaker models for highest weight representations. Astérisque 273 (2001), 13–80.
+[PPSST] P. Pandžić, A. Prlić, G. Savin, V. Souček, V. Tuček, On the classification of unitary highest
+        weight modules in the exceptional cases and the cases so(2, n), preprint, arXiv:2412.06317
+        (2024).
+[PPST1] P. Pandžić, A. Prlić, V. Souček, V. Tuček, Dirac inequality for highest weight Harish-
+        Chandra modules I, Math. Inequalities Appl. 26 (1) (2023), 233–265.
+[PPST2] P. Pandžić, A. Prlić, V. Souček, V. Tuček, Dirac inequality for highest weight Harish-
+        Chandra modules II, Math. Inequalities Appl. 26 (3) (2023), 729–760.
+[PPST3] P. Pandžić, A. Prlić, V. Souček, V. Tuček, On the classification of unitary highest weight
+        modules, https://arxiv.org/abs/2305.15892
+[P1]    R. Parthasarathy, Dirac operator and the discrete series, Ann. of Math. 96 (1972), 1–30.
+[P2]    R. Parthasarathy, Criteria for the unitarizability of some highest weight modules, Proc.
+        Indian Acad. Sci. 89 (1980), 1–24.
+[RV]    H. Rossi, M. Vergne, Analytic continuation of the holomorphic discrete series of a
+        semisimple Lie group, Acta Math. 136 (1976), 1–59.
+[Sch]   W. Schmid, Die Randwerte holomorpher Funktionen auf hermitesch symmetrischen
+        Räumen, Invent. Math. 9 (1969/1970), 61—80.
+[Sa]    S. Sahi, Unitary representations on the Shilov boundary of a symmetric tube domain.
+        In: Representation theory of groups and algebras, Contemp. Math., 145, American
+        Mathematical Society, Providence, RI, (1993), 275–286.
+[W]     N.R. Wallach, The analytic continuation of the discrete series. I,II, Trans. Amer. Math.
+        Soc. 251 (1979), 1–17, 19–37.
+
+(Pandžić) Department of Mathematics, Faculty of Science, University of Zagreb, Bi-
+jenička 30, 10000 Zagreb, Croatia
+Email address: pandzic@math.hr
+
+(Prlić) Department of Mathematics, Faculty of Science, University of Zagreb, Bijenička
+30, 10000 Zagreb, Croatia
+Email address: anaprlic@math.hr
+
+(Souček) Matematický ústav UK, Sokolovská 83, 186 75 Praha 8, Czech Republic
+Email address: soucek@karlin.mff.cuni.cz
+
+(Tuček) Department of Mathematics, Faculty of Science, University of Zagreb, Bijenička
+30, 10000 Zagreb, Croatia
+Email address: vit.tucek@gmail.com
+

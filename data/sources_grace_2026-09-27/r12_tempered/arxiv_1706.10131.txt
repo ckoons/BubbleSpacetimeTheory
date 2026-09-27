@@ -1,0 +1,1399 @@
+                                                        Tempered homogeneous spaces II
+
+
+
+
+arXiv:1706.10131v2 [math.RT] 26 Jul 2021
+                                                             Yves Benoist and Toshiyuki Kobayashi
+                                                                                                             Dedicated to G. Margulis.
+
+                                                                                    Abstract
+                                                  Let G be a connected semisimple Lie group with finite center and H a
+                                                  connected closed subgroup. We establish a geometric criterion which
+                                                  detects whether the representation of G in L2 (G/H) is tempered.
+
+                                           Contents
+                                           1 Introduction                                                                               2
+                                             1.1 Tempered representations . . . . . . . . . . . . . . . . . . . . . . . . . . . .       2
+                                             1.2 The regular representation in L2 (G/H) . . . . . . . . . . . . . . . . . . . .         3
+                                             1.3 Strategy of proof . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    5
+                                             1.4 Organization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     7
+                                             1.5 Dedication . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   8
+
+                                           2 Definition and main result                                                              8
+                                             2.1 Regular and induced representations . . . . . . . . . . . . . . . . . . . . . . 8
+                                             2.2 Decay of matrix coefficients . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+                                             2.3 The function ρV . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+                                             2.4 Temperedness criterion for L2 (G/H) . . . . . . . . . . . . . . . . . . . . . . 15
+
+                                           3 Preliminary proofs                                                                         15
+                                             3.1 The Herz majoration principle . . . . . . . . . . . . . . . . . . . . . . . . .        15
+                                             3.2 A strengthening of the main theorem . . . . . . . . . . . . . . . . . . . . . .        17
+                                             3.3 The direct implication . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     18
+                                             3.4 Equivalence of the main theorems . . . . . . . . . . . . . . . . . . . . . . . .       19
+
+                                           4 Using parabolic subgroups                                                                  20
+                                             4.1 The intermediate subgroups . . . . . . . . . . . . . . . . . . . . . . . . . . .       20
+                                             4.2 Bounding volume of compact sets . . . . . . . . . . . . . . . . . . . . . . . .        21
+                                             4.3 Matrix coefficients of induced representations . . . . . . . . . . . . . . . . .       25
+                                             4.4 Proof of the temperedness criterion . . . . . . . . . . . . . . . . . . . . . . .      26
+
+
+
+
+                                                                                         1
+5 Examples                                                                                28
+  5.1 Examples of tempered homogeneous spaces . . . . . . . . . . . . . . . . . .         28
+  5.2 Subgroups of SL(n, R) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   29
+  5.3 Tensor product of non-tempered representations . . . . . . . . . . . . . . .        31
+
+
+
+1     Introduction
+This article is the sequel of our paper [3] dealing with harmonic analysis on
+homogeneous spaces G/H of semisimple Lie groups G. In the first paper [3]
+we studied the regular representation of G in L2 (G/H) when both G and H
+are semisimple groups. The main result of [3] is a geometric criterion which
+detects whether the representation of G in L2 (G/H) is tempered. The aim of
+the present paper is to extend this geometric criterion to the whole generality
+that H is an arbitrary closed connected subgroup.
+   In this introduction we will discuss the following questions:
+
+    • Why to care about tempered representations of semisimple Lie groups?
+
+    • What is our temperedness criterion for the homogeneous space G/H?
+
+    • What are the main ideas and ingredients in the proof of this criterion?
+
+1.1     Tempered representations
+ Let G be a semisimple Lie group with finite center and K a maximal com-
+pact subgroup of G. Understanding unitary representations of G in Hilbert
+spaces is a major topic of research since the beginning of the 20th century.
+Its history includes the works of Cartan, Weyl, Gelfand, Harish-Chandra,
+Helgason, Langlands, Vogan and many others. The main motivations came
+from quantum physics, analysis and number theory.
+    Among unitary representations of G a smaller class called tempered rep-
+resentations plays a crucial role. Let us recall why they are so useful.
+
+    • By definition tempered representations are those which are weakly con-
+      tained in the regular representation of G in L2 (G). Therefore a unitary
+      representation of G is tempered if and only if its disintegration into
+ Key words: Lie groups, homogeneous spaces, tempered representations, matrix coeffi-
+cients, unitary representations
+MSC (2010): Primary 22E46; Secondary 43A85, 22F30.
+
+
+                                             2
+      irreducible unitary representations involves only tempered representa-
+      tions.
+
+   • Tempered representations are those for which K-finite matrix coeffi-
+     cients belong to L2+ε (G) for all ε > 0. This definition does not look so
+     enlightening but equivalently these matrix coefficients are bounded by
+     an explicit multiple of an explicit spherical function Ξ, see [8].
+
+   • Classification of irreducible tempered representations of G was accom-
+     plished by Knapp and Zuckerman in [16], while non-tempered irre-
+     ducible unitary representations have not yet been completely under-
+     stood.
+
+   • Tempered representations are a cornerstone of the Langlands classifi-
+     cation of admissible irreducible representations of G in [20], see also
+     [15].
+
+   • Irreducible tempered representations π can be characterized in term
+     of the leading exponents: these exponents must be a positive linear
+     combination of negative roots, see [15, Chap. 8].
+
+   • One can also characterize them in terms of the distribution character
+     of π: this character must be a tempered distribution on G, see [15,
+     Chap. 12].
+
+   • Tempered representations are closed under induction, restriction, ten-
+     sor product, and direct integral of unitary representations.
+
+   • The Kirilov–Kostant orbit methods works fairly well for tempered rep-
+     resentations, see [13] for example.
+
+1.2    The regular representation in L2(G/H)
+One of the most studied representations of G is the natural unitary repre-
+sentations of G in L2 (G/H) where H is a closed subgroup of G. When H is
+unimodular, the space G/H is implicitly endowed with a G-invariant mea-
+sure and G acts naturally by translation on L2 -functions. When H is not
+assumed to be unimodular, the representation of G in L2 (G/H) might involve
+an extra factor (2.2) and is nothing but the (unitarily) induced representation
+IndGH (1).
+
+
+                                      3
+   The disintegration of L2 (G/H) is sometimes called the Plancherel formula
+or L2 -harmonic analysis on G/H.
+
+   • For instance, Harish-Chandra’s celebrated Plancherel formula [12] deals
+     with the case where H = {e}.
+
+   • Another case which attracted a lot of interest in the late 20th century is
+     the case where G/H is a symmetric space, for which the disintegration
+     of L2 (G/H) is proved up to the classification of (singular) discrete series
+     representations for symmetric spaces [9, 27].
+
+   • Even when H is not unimodular, the regular representation of G in
+     L2 (G/H) is still interesting. For instance, when H is a parabolic sub-
+     group of G, this representation is known to be a finite sum of irreducible
+     representations of G. This follows from Bruhat’s theory for minimal
+     parabolic and is due to Harish-Chandra in general (see [15, Prop. 8.4]).
+
+   • The decomposition of the tensor product (fusion rule) is sometimes
+     equivalent to the Plancherel formula for G/H where H is not necessarily
+     unimodular (see Section 5.3).
+
+    We refer to [3, Intro.] for more remarks on the historical developments of
+the disintegration of the regular representation of G in L2 (G/H). Getting a
+priori information on this disintegration was one of the main motivations in
+our search for such a general criterion. To the best of our knowledge there
+does not exist yet any general theorem involving simultaneously all these
+regular representations in L2 (G/H) with H connected. Our temperedness
+criterion below seems to be the first one in that direction.
+
+   In this series of papers, we address the following question: What kind
+of unitary representations occur in the disintegration of L2 (G/H)? More
+precisely, when are all of them tempered?
+
+    As noted in [3], this question has not been completely solved even for
+reductive symmetric spaces G/H, because the Plancherel formula involves
+a delicate algebraic problem on discrete series representations for (sub)sym-
+metric spaces with singular infinitesimal characters (see Example 5.5).
+    We give a geometric necessary and sufficient condition on G/H under
+which all these irreducible unitary representations in the Plancherel formula
+are tempered, or equivalently under which the regular representation of G in
+
+                                       4
+L2 (G/H) is tempered. This criterion was first discovered in our paper [3] in
+the special case where H is a reductive subgroup of G.
+    In the present paper we extend this criterion to any closed subgroup H
+with finitely many connected components.
+    Formally the extended criterion is exactly the same as for H reductive.
+Here is a short way to state our criterion (see Theorem 2.9).
+
+      L2 (G/H) is tempered    ⇐⇒     ρh(Y ) ≤ ρg/h(Y ) for all Y ∈ h.      (1.1)
+
+Here g and h are the Lie algebras of G and H, and, for an h-module V and
+Y ∈ h, the quantity ρV (Y ) is half the sum of the absolute values of the real
+part of the eigenvalues of Y in V (see Section 2.3). We note that our criterion
+holds beyond the (real) spherical case ([18], cf. [28] for non-archimedean field)
+so that the disintegration of L2 (G/H) may involve infinite multiplicities. We
+will give an explicit example of calculations of functions ρV in Corollary 5.8.
+    Our criterion (1.1) detects also whether or not L2 (X) is tempered for
+any real algebraic G-variety X: L2 (X) is unitarily equivalent to the direct
+integral of the regular representations for generic orbits, and one just has to
+check (1.1) at almost all orbits.
+
+1.3     Strategy of proof
+The proof of (1.1) relies on the uniform decay of matrix coefficients as in [3],
+but the main techniques are different from those in [3].
+    To avoid any confusion we will sometimes say G-tempered for tempered
+as a representation of G.
+    Dealing with non-unimodular subgroups H and dealing with the finitely
+many components of H will not be a problem because one proves in Corollary
+3.3 the equivalence
+
+         L2 (G/H) is tempered      ⇐⇒       L2 (G/[H, H]) is tempered
+                                   ⇐⇒       L2 (G/He ) is tempered ,
+
+where [H, H] is the derived subgroup which is always unimodular and where
+He is the identity component of H which is always connected! Therefore
+the temperedness of L2 (G/H) depends only on h and we can assume that
+h = [h, h]. Then the homogeneous space G/H admits a G-invariant Radon
+measure vol and, according to Corollary 2.7, the temperedness of L2 (G/H)
+
+                                       5
+means that the compact subsets C of G/H intersect their translates gC in a
+set whose volume is bounded by a multiple of the Harish-Chandra function
+Ξ:
+                 vol(g C ∩ C) ≤ MC Ξ(g) for all g in G.              (1.2)
+    To prove the direct implication “L2 (G/H) tempered =⇒ ρh ≤ ρg/h”, we
+will just estimate in Proposition 3.7 this volume (1.2) when C is a small
+neighborhood of the base point of the space G/H.
+    As in [3], the converse implication “ρh ≤ ρg/h =⇒ L2 (G/H) tempered”,
+is much harder to prove. Using again Corollary 3.3, we can also assume
+that both G and H are Zariski connected algebraic groups. We proceed by
+induction on the dimension of G. We introduce in Definition-Lemma 4.1 two
+intermediate subgroups F and P :
+
+                             H ⊂ F ⊂ P ⊂ G.                            (1.3)
+
+The group P is a parabolic subgroup of minimal dimension that contains H.
+We write P = LU and H = SV where U is the unipotent radical of P , L is
+a maximal reductive subgroup of P , V ⊂ U is the unipotent radical of H,
+and S ⊂ L a maximal semisimple subgroup of H. The group F is given by
+F := SU.
+    When P is equal to G, the group H is semisimple and we apply the main
+result of [3]. We now assume that P is a proper parabolic subgroup of G. Let
+Z be the homogeneous space Z = F/H ≃ U/V endowed with the natural
+F -action. We denote
+- by τ the regular representation of F in L2 (F/H),
+- by π the regular representation of P in L2 (P/H),
+- by Π the regular representation of G in L2 (G/H).
+    Let Z0 be the same space Z0 = U/V but endowed with another F -action,
+where U acts trivially and where S acts by conjugation.
+    We denote
+- by τ0 the regular representation of F in L2 (Z0 ),
+- by π0 the regular representation of P in L2 (P ×F Z0 ),
+- by Π0 the regular representation of G in L2 (G ×F Z0 ).
+    Note that both the G-manifolds X := G/H ≃ G×F Z and X0 := G×F Z0
+have a G-equivariant fiber bundle structure over the same space G/F with
+fiber Z ≃ Z0 , but that the unitary representations of G in L2 (X) and in
+L2 (X0 ) are different. We want to study the representation of G in L2 (X),
+whereas the induction hypothesis will give us information on L2 (X0 ). This
+
+                                     6
+is why we will need to compare in (1.5) below the volumes in the fibers Z
+and Z0 .
+    More precisely, the induction hypothesis combined with a reformulation
+of our criterion in Proposition 3.8 and a simple computation in Lemma 4.2
+tell us that the representation π is L-tempered. If we knew that π were a
+P -tempered representation it would be easy to conclude, using Lemma 2.3,
+that the representation Π = IndG P π is G-tempered. However, what we know
+is the temperedness of π0 and IndG  P π0 , and Corollary 2.7 gives us, for any
+compact subset C0 of G ×F Z0 , a bound:
+
+                 vol(g C0 ∩ C0 ) ≤ MC0 Ξ(g)      for all g in G.            (1.4)
+
+In order to deduce (1.2) from (1.4), we first focus on the representations τ
+in L2 (Z) and τ0 in L2 (Z0 ). We prove in Proposition 4.4, for every compact
+subset D of the fiber Z = F/H, a uniform estimate of vol(f D ∩ D) with
+respect to translates of the element f ∈ F by elements of the unipotent
+subgroup U. Namely, there exists a compact subset D0 ⊂ Z0 such that
+
+               vol(f D ∩ D) ≤ vol(f D0 ∩ D0 )      for all f in F .         (1.5)
+
+Since Π = IndG                 G
+               F τ and Π0 = IndF τ0 , we deduce from (1.5) in Proposition 4.9
+that for every compact subset C ⊂ G/H ≃ G ×F Z, there exists a compact
+subset C0 ⊂ G ×F Z0 such that
+
+                vol(g C ∩ C) ≤ vol(g C0 ∩ C0 )    for all g in G.           (1.6)
+
+And (1.2) follows from (1.4) and (1.6). This ends the sketch of the proof of
+the criterion (1.1). The details are explained below.
+
+1.4    Organization
+Here is the organization of the paper.
+    In Section 2 we recall the basic definition and state precisely our criterion.
+    In Sections 3 we collect the parts of the proof which do not involve the
+intermediate parabolic subgroup P . It includes the proof for the necessity of
+the inequality ρh ≤ ρg/h, and a formulation of the temperedness criterion for
+IndG    2
+    H (L (V )) (Theorem 3.6).
+    In Section 4 we introduce the intermediate subgroups F and P in (1.3),
+and detail how they work to conclude the proof for the hard part, i.e., the
+proof that the inequality ρh ≤ ρg/h is sufficient.
+
+                                        7
+    In Section 5 we give a few examples which illustrate the efficiency of our
+criterion.
+
+
+1.5    Dedication
+The notion of tempered representations plays an important role in quite a
+few papers of G.Margulis. As we have seen the tempered representations is
+one of the main tools in order to obtain uniform estimates for coefficients
+of unitary representations. G. Margulis found many very different and very
+ingenious applications of these uniform estimates all along his mathematical
+career.
+    For instance to the construction of expanders in [22], to the non-existence
+of compact quotient of homogeneous spaces in [23], to a pointwise ergodic
+theorem for probability measure preserving actions of semisimple Lie groups
+in [24], to a local rigidity phenomenon for actions of higher rank lattices in
+[11], to an effective rate of equidistribution of closed orbits of semisimple Lie
+groups in finite volume spaces in [10], to a uniform estimate on the smallest
+integral base change between two equivalent non-singular integral quadratic
+forms in [21], . . .
+    One inspiration for Theorem 2.9 came from Lemma 6.5.4 of [10] which
+says that for a connected semisimple Lie group G with no compact factor and
+a proper closed connected subgroup H, the representation of G in L2 (G/H)
+always has a spectral gap.
+
+    We are proud to dedicate this paper to G. Margulis.
+
+
+2     Definition and main result
+We collect in this chapter a few well-known facts on tempered representations,
+on almost L2 representations, and on uniform decay of matrix coefficients.
+
+2.1    Regular and induced representations
+         We first recall the construction of the regular representations
+      and the induced representations.
+
+
+
+                                       8
+2.1.1   Regular representations
+Let G be a separable locally compact group, X be a separable locally compact
+space endowed with a continuous action of G and let νX be a Radon measure
+on X.
+   When the G-action preserves the measure νX , one has a natural unitary
+representation λX of G in the Hilbert space L2 (X) := L2 (X, νX ) called the
+regular representation and given by
+
+        (λX (g)ϕ)(x) = ϕ(g −1 x) for g in G, ϕ in L2 (X) and x in X.
+
+    When the class of the measure νX is G-invariant, one still has a natu-
+ral unitary representation π of G in the Hilbert space L2 (X) := L2 (X, νX )
+also called the regular representation. The formula will involve the Radon–
+Nikodym cocycle c(g, x) which is defined, for all g in G and νX -almost all x
+in X by the equality
+                             g∗ νX = c(g −1 , x) νX .                   (2.1)
+   The regular representation of G in L2 (X) is then given by
+
+ (λX (g)ϕ)(x) = c(g −1 , x)1/2 ϕ(g −1 x) for g in G, ϕ in L2 (X), x in X. (2.2)
+
+2.1.2   Induced representations
+Assume now that X is a homogeneous space G/H where H is a closed sub-
+group of G. One can choose a G-invariant Radon measure on G/H if and
+only if the modular function of G coincides on H with that of H,
+
+                      ∆G (h) = ∆H (h) for all h in H.
+
+In general there always exists a measure ν on G/H whose class is G-invariant,
+and the regular representation of G in L2 (G/H) is the induced representation
+of the trivial representation of H
+
+                              λG/H = IndG
+                                        H (1).
+
+More generally, for any unitary representation π of H, one defines the (uni-
+tarily) induced representation Π := IndG
+                                       H (π) in the following way. The pro-
+jection
+                                G −→ G/H
+
+
+                                      9
+is a principal bundle with structure group H. We fix a G-equivariant Borel
+measurable trivialization of this principal bundle
+
+                                  G ≃ G/H × H                                  (2.3)
+
+which sends relatively compact subsets to relatively compact subsets. The
+action of G by left multiplication through this trivialization can be read as
+
+        g (x, h) = (gx, σ(g, x)h)    for all g ∈ G, x ∈ G/H and h ∈ H,
+
+where σ : G × G/H → H is a Borel measurable cocycle.
+   The space of the representation Π is the space HΠ := L2 (G/H; Hπ ) of
+Hπ -valued L2 -functions on G/H and the action of G is given, for g in G, ψ
+in HΠ , x in G/H, by
+
+               (Π(g)ψ)(x) = c(g −1 , x)1/2 π(σ(g, g −1x))ψ(g −1 x),
+
+where c is again the Radon–Nikodym cocycle (2.1).
+
+2.1.3   Induced actions
+When the closed subgroup H of G is acting continuously on a locally compact
+space Z one can define the induced action of G on the fibered space
+
+                             G ×H Z := (G × Z)/H
+
+where the quotient is taken for the right H-action (g, z)h = (gh, h−1 z) and
+where the G-action is given by g0 (g, z) = (g0 g, z), for all g0 , g in G, z in Z and
+h in H. Using (2.3), one gets a G-equivariant Borel measurable trivialization
+of this fibered space
+                            G ×H Z ≃ G/H × Z.
+Through this identification, the G-action is given by
+
+         g(x, z) = (gx, σ(g, x)z) for all g ∈ G, x ∈ G/H and z ∈ Z.
+
+When the H-action preserves the class of a measure νZ on Z, the G-action
+preserves the class of the measure νX := ν ⊗ νZ . In this case the regular
+representation of G in L2 (G ×H Z) is unitarily equivalent to the induced
+representation of the regular representation of H in Z:
+
+     L2 (G ×H Z) ≃ IndG   2
+                      H (L (Z)) as unitary representations of G.               (2.4)
+
+                                         10
+2.2      Decay of matrix coefficients
+           We now recall the control of the matrix coefficients of tem-
+        pered representations of a semisimple Lie group.
+
+2.2.1     Tempered representations
+Let G be a locally compact group and π be a unitary representation of G
+in a Hilbert space Hπ . All representations π of G will be assumed to be
+continuous i.e. the map G → Hπ , g 7→ π(g)v is continuous for all v in Hπ .
+The notion of tempered representation is due to Harish-Chandra.
+Definition 2.1. The unitary representation π is said to be tempered or G-
+tempered if π is weakly contained in the regular representation λG of G in
+L2 (G) i.e. if every matrix coefficient of π is a uniform limit on every compact
+subset of G of a sequence of sums of matrix coefficients of λG .
+   We refer to [1, Appendix F] for more details on weak containments.
+Remark 2.2. The notion of temperedness is stable by passage to a finite index
+subgroup G′ of G, i.e. a unitary representation π of G is tempered if and
+only if π is tempered as a representation of G′ .
+   This notion is also preserved by induction.
+Lemma 2.3. Let G be a locally compact group, H be a closed subgroup of G
+and π be a unitary representation of H. If π is H-tempered then the induced
+representation IndG
+                  H (π) is G-tempered.
+
+Proof. Since the H-representation π is weakly contained in the regular rep-
+resentation λH of H, the G-representation IndG   H (π) is weakly contained in
+the regular representation λG = IndG
+                                   H (λ H ), and hence is G-tempered.
+Remark 2.4. 1) When G is amenable, according to the Hulanicki–Reiter
+theorem in [1, Th. G.3.2], every unitary representation of G is tempered.
+2) When G is a product of two closed subgroups G = SZ with Z central, a
+unitary representation π of G is G-tempered if and only if it is S-tempered.
+Indeed the regular representation of G in L2 (G) is clearly S-tempered. Con-
+versely, we want to prove that any unitary representation π of G which is
+S-tempered is also G-tempered. We can assume that π is G-irreducible. The
+action of Z in this representation is given by a unitary character χ and π is
+weakly contained in the representation IndG  Z χ. Since χ is Z-tempered, this
+representation is G-tempered.
+
+                                      11
+2.2.2   Matrix coefficients
+Let now G be a semisimple Lie group (always implicitly assumed to be real
+Lie groups with finitely many connected components and whose identity
+component has finite center).
+Definition 2.5. A unitary representation π of G is said to be almost L2
+if there exists a dense subset D ⊂ Hπ for which the matrix coefficients
+g 7→ hπ(g)v1, v2 i are in L2+ε (G) for all ε > 0 and all v1 , v2 in D.
+   We fix a maximal compact subgroup K of G. Let Ξ be the Harish-
+Chandra spherical function on G (see [8]). By definition, Ξ is the matrix
+coefficient of a normalized K-invariant vector v0 of the spherical unitary prin-
+cipal representation π0 = IndG Pmin (1Pmin ) where Pmin is a minimal parabolic
+subgroup of G. That is
+                     Ξ(g) = hπ0 (g)v0, v0 i for all g in G.                (2.5)
+Since Pmin is amenable, the representation π0 is G-tempered. Moreover, the
+function Ξ belongs to L2+ε (G) for all ε > 0 (see [15, Prop. 7.15]). We will
+need the following much more precise version of this fact.
+Proposition 2.6 (Cowling, Haagerup and Howe [8]). Let G be a connected
+semisimple Lie group with finite center and π be a unitary representation of
+G. The following are equivalent:
+(i) the representation π is tempered,
+(ii) the representation π is almost L2 ,
+(iii) for every K-finite vectors v, w in Hπ , for every g in G, one has
+                                                    1            1
+            |hπ(g)v, wi| ≤ Ξ(g)kvkkwk(dimhKvi) 2 (dimhKwi) 2 .
+    See [8, Thms. 1, 2 and Cor.]. See also [14], [25] and [26] for other appli-
+cations of Proposition 2.6.
+    For regular representations this proposition becomes:
+Corollary 2.7. Let G be a connected semisimple Lie group with finite cen-
+ter and X a locally compact space endowed with a continuous action of G
+preserving a Radon measure vol. The regular representation of G in L2 (X)
+is tempered if and only if, for any compact subset C of X, the function
+g 7→ vol(g C ∩ C) belongs to L2+ε (G) for all ε > 0.
+    In this case, when C is K-invariant, one has
+                 vol(g C ∩ C) ≤ vol(C) Ξ(g) for all g in G.                (2.6)
+
+                                      12
+   Recall that the notation g C denotes the set g C := {gx ∈ X : x ∈ C}.
+Proof. Note that a compact subset C of X is always included in a K-invariant
+compact subset C0 , that the function 1C0 is a K-invariant vector in L2 (X)
+and that
+             hλX (g)1C0 , 1C0 i = vol(g C0 ∩ C0 ) for all g in G.
+Note also that the functions 1C span a dense subspace in L2 (X).
+
+2.3    The function ρV
+         We now define the functions ρh and ρg/h occuring in the tem-
+      peredness criterion, explain how to compute them and emphasize
+      their geometric meaning.
+
+    When H is a Lie group we denote by the corresponding gothic letter h
+the Lie algebra of H. Let V be a real finite-dimensional representation of
+H. For an element Y in h, we consider the eigenvalues of Y in V (more
+precisely in the complexification VC ) and we denote by V+ , V0 and V− the
+largest vector subspaces of V on which the real part of all the eigenvalues of
+Y are respectively positive, zero and negative. One has the decomposition
+V = V+ ⊕ V0 ⊕ V− . We define the non-negative functions ρ+  V and ρV on h by
+
+                     ρ+
+                      V (Y ) := Tr(Y |V+ ),
+                     ρV (Y ) := 21 ρ+        1 +
+                                    V (Y ) + 2 ρV (−Y ),
+
+where Tr denotes the trace of a matrix. Note that one has the equality
+Tr(Y |V− ) = −ρ+
+               V (−Y ).
+   By definition, one always has the equality ρV (−Y ) = ρV (Y ). Moreover,
+when the action of H on V is volume preserving one has the equality
+
+                              ρV (Y ) = ρ+
+                                         V (Y ).
+
+The function called ρV in [3, Sec. 3.1] is what we call now ρ+V . It coincides
+with our ρV since in [3] we only need to consider volume preserving actions.
+   Since this function ρV : h → R≥0 plays a crucial role in our criterion, we
+begin by a few trivial but useful comments, which make it easy to compute
+when dealing with examples. To simplify these comments, we assume that
+H is an algebraic subgroup of GL(V ). Let a = ah be a maximal split abelian
+Lie subalgebra of h i.e. the Lie subalgebra of a maximal split torus A of H.
+
+                                     13
+Any element Y in h admits a unique Jordan decomposition Y = Ye + Yh + Yn
+as a sum of three commuting elements of h where Ye is a semisimple matrix
+with imaginary eigenvalues, Yh is a semisimple matrix with real eigenvalues
+and Yn is a nilpotent matrix (see for instance [19, 2.1]). Moreover there exists
+an element λY in a which is H conjugate to Yh . Then one has the equality
+
+                       ρV (Y ) = ρV (λY ) for all Y in h.
+
+This equality tells us that the function ρV is completely determined by its
+restriction to a.
+     This function ρV : a → R≥0 is continuous and is piecewise linear i.e. there
+exist finitely many convex polyhedral cones which cover a and on which ρV
+is linear. Indeed, let PV be the set of weights of a in V and, for all α in PV ,
+let mα := dim Vα be the dimension of the corresponding weight space. Then
+one has the equality
+                                X
+                   ρV (Y ) = 12    mα |α(Y )| for all Y in a.              (2.7)
+                              α∈PV
+
+    For example, when h is semisimple and V = h via the adjoint action,
+our function ρh is equal on each positive Weyl chamber a+ of a to the sum
+of the corresponding positive roots i.e. to twice the usual “ρ” linear form.
+For other representations V , the maximal convex polyhedral cones on which
+ρV is linear are most often much smaller than the Weyl chambers. Explicit
+computations of the functions ρV will be given in Section 5.
+
+  The geometric meaning of this function ρV is given by the following ele-
+mentary Lemma as in [3, Prop. 3.6].
+Lemma 2.8. Let V = Rd . Let a be an abelian split Lie subalgebra of End(V )
+and C be a compact neighborhood of 0 in V . Then there exist constants
+mC > 0 , MC > 0 such that
+
+    mC e−ρV (Y ) ≤ e−Trace(Y )/2 vol(eY C ∩ C) ≤ MC e−ρV (Y ) for all Y ∈ a.
+
+   Such a factor e−Trace(Y )/2 occurs in computing the matrix coefficient of
+the vector 1C in the regular representation L2 (V ) when the action on V does
+not preserve the volume. Here vol denotes the volume with respect to the
+Lebesgue measure on V . The proof of Lemma 2.8 goes similarly to that of [3,
+Prop. 3.6] which deals with the case where the action is volume preserving.
+
+                                       14
+2.4    Temperedness criterion for L2(G/H)
+         We can now state precisely our temperedness criterion.
+
+    Let G be a semisimple Lie group and H a closed subgroup of G. Let g
+and h be the Lie algebras of G and H. The temperedness criterion for the
+regular representation of G in L2 (G/H) will involve the functions ρh and ρg/h
+for the H-modules V = h and V = g/h.
+
+Theorem 2.9. Let G be a connected semisimple Lie group with finite center,
+H a closed connected subgroup of G. Then, one has the equivalence :
+                L2 (G/H) is G-tempered ⇐⇒ ρh ≤ ρg/h.
+
+Remark 2.10. The assumption that G and H are connected are not very
+important. As we shall explain in Corollary 3.3, Theorem 2.9 is still true
+when G and H have finitely many connected components as soon as the
+identity component Ge has finite center.
+Remark 2.11. When H is algebraic and a is a maximal abelian split Lie
+subalgebra of h, Inequality ρh ≤ ρg/h holds on h if and only if it holds on a.
+Remark 2.12. When H is a minimal parabolic subgroup of G the represen-
+tation of G in L2 (G/H) is tempered because the group H is amenable. Our
+criterion is easy to check in this case since the functions ρh and ρg/h are equal.
+This example explains why, when H is non-unimodular, our temperedness
+criterion involves the functions ρV instead of the functions ρ+  V.
+
+
+
+3     Preliminary proofs
+In this section we state a useful reformulation of Theorem 2.9 and prove the
+direct implication in Theorem 2.9.
+
+3.1    The Herz majoration principle
+         We first explain how to reduce the proof of Theorem 2.9 to
+      the case where both G and H are algebraic and how to deal with
+      groups having finitely many connected components.
+
+Proposition 3.1. Let G be a semisimple Lie group with finitely many compo-
+nents such that the identity component Ge has finite center and H ′ ⊂ H two
+
+                                       15
+closed subgroups of G.
+1) If L2 (G/H) is G-tempered then L2 (G/H ′) is G-tempered.
+2) The converse is true when H ′ is normal in H and H/H ′ is amenable (for
+instance finite, compact, or abelian).
+Lemma 3.2. Let G be a semisimple Lie group with finitely many connected
+components such that Ge has finite center, and H be a closed subgroup of G.
+If the regular representation in L2 (G/H) is G-tempered then the induced rep-
+resentation Π = IndG  H (π) is also G-tempered for any unitary representation
+π of H.
+Proof of Lemma 3.2. This classical lemma is called “Herz majoration prin-
+ciple” (see [2, Chap. 6]). We recall the short argument since it will be very
+useful in Proposition 4.9. We use freely the notation of Section 2. For a func-
+tion ϕ in the space L2 (G/H, Hπ ) of the induced representation Π = IndG       H (π),
+                                                  2
+we denote by |ϕ| the function in the space L (G/H) of the regular represen-
+tation Π0 = IndG H (1) given by |ϕ|(x) := kϕ(x)k for x in G/H. The space D
+of bounded functions with compact support is dense in L2 (G/H, Hπ ). For ϕ
+and ψ in D, one can compute the matrix coefficients
+                      Z
+     hΠ(g)ϕ, ψi =           c(g −1 , x)1/2 hπ(σ(g, g −1x))ϕ(g −1 x), ψ(x)i dν(x),
+                        G/H
+                      Z
+   |hΠ(g)ϕ, ψi| ≤           c(g −1 , x)1/2 kϕ(g −1x)k kψ(x)k dν(x)
+                        G/H
+                  ≤ hΠ0 (g)|ϕ|, |ψ|i.
+
+Since Π0 is tempered, these matrix coefficients belong to L2+ε (G) for all
+ε > 0. Therefore the representation Π is almost L2 and hence is G-tempered
+by Proposition 2.6.
+Proof of Proposition 3.1. 1) This follows from Lemma 3.2 applied to the reg-
+ular representation π of H in L2 (H/H ′).
+    2) Since H/H ′ is amenable, the trivial representation of H is weakly con-
+tained in the regular representation of H in L2 (H/H ′ ). Therefore, inducing
+to G, the regular representation of G in L2 (G/H) is weakly contained in the
+regular representation of G in L2 (G/H ′) and hence is G-tempered.
+    The following corollary tells us that the temperedness of L2 (G/H) de-
+pends only on the Lie algebras g, h and does not change if we replace h by
+its derived Lie algebra [h, h].
+
+                                         16
+Corollary 3.3. Let G be a semisimple Lie group with finitely many connected
+components such that Ge has a finite center ZG and H be a closed subgroup
+with finitely many connected components. Then the following are equivalent.
+     (i) L2 (G/H) is G-tempered ⇐⇒ (ii) L2 (Ge /He ) is Ge -tempered ⇐⇒
+ (iii) L2 (G/HZG ) is G/ZG -tempered ⇐⇒ (iv) L2 (G/[H, H]) is G-tempered.
+
+Proof. This follows from Proposition 3.1 and Remark 2.2 since the quotients
+H/He , HZG /H and H/[H, H] are amenable groups.
+Remark 3.4. Corollary 3.3 is useful to reduce the proof of Theorem 2.9 to
+the case where both G and H are algebraic groups.
+   Indeed, every semisimple Lie algebra g is the Lie algebra of an algebraic
+group: the group Aut(g). Therefore, using (i) ⇔ (ii) ⇔ (iii), we can assume
+that G is algebraic.
+   Moreover, by Chevalley’s “théorie des repliques” in [6], for any closed
+subgroup H of an algebraic group G, there exists two algebraic subgroups
+H1 and H2 of G whose Lie algebras satisfy
+
+                   h1 ⊂ h ⊂ h2 and h1 = [h, h] = [h2 , h2 ].
+
+Therefore, using (i) ⇔ (iv), we can assume that H is an algebraic subgroup.
+Remark 3.5. Since the group [H, H] is unimodular, Corollary 3.3 is also useful
+to reduce the proof of Theorem 2.9 to the case where H is unimodular.
+
+3.2    A strengthening of the main theorem
+          Theorem 2.9 will be proven by induction on the dimension
+      of G. This induction process forces us to prove simultaneously
+      an apparently stronger theorem which involves L2 (V )-valued sec-
+      tions over G/H associated to a finite-dimensional H-module V .
+
+Theorem 3.6. Let G be an algebraic semisimple Lie group, H an algebraic
+subgroup of G and V a real finite-dimensional algebraic representation of H.
+Then, one has the equivalence :
+           IndG   2
+              H (L (V )) is G-tempered   ⇐⇒ ρh ≤ ρg/h + 2 ρV .
+
+   Again, we only need to check this inequality on a maximal split abelian
+Lie subalgebra a of h. Note also that, by Remark 3.4, Theorem 2.9 is the
+special case of Theorem 3.6 where V = {0}.
+
+                                      17
+3.3      The direct implication
+           We first prove the direct implication in Theorems 2.9 and 3.6.
+
+   From now on, we will set q := g/h.
+
+Proposition 3.7. Let G be an algebraic semisimple Lie group, H an alge-
+braic subgroup of G and V an algebraic representation of H. If the represen-
+tation Π = IndG    2
+               H (L (V )) is G-tempered then one has ρh ≤ ρq + 2ρV .
+
+Proof. By (2.4) this representation Π is also the regular representation of the
+G-space X := G ×H V . Let A be a maximal split torus of H and a be the
+Lie algebra of A. We choose an A-invariant decomposition g = h ⊕ q0 and
+small closed balls B0 ⊂ q0 and BV ⊂ V centered at 0. We can see BV as a
+subset of X and the map
+
+                B0 × BV −→ G ×H V,             (u, v) 7→ exp(u)v
+
+is a homeomorphism onto its image C. Since Π is tempered one has a bound
+as in (2.6)
+                hΠ(g)1C , 1C i ≤ MC Ξ(g) for all g in G.            (3.1)
+We will exploit this bound for elements g = eY with Y in a. In our coordinate
+system (3.1) we can choose the measure νX to coincide with the Lebesgue
+measure on q0 ⊕ V . Taking into account the Radon–Nykodim derivative and
+the A-invariance of q0 , one computes
+
+hΠ(eY )1C , 1C i ≥ e−T rq0 (Y )/2 e−T rV (Y )/2 volq0 (eY B0 ∩ B0 ) volV (eY BV ∩ BV ),
+
+and therefore, using Lemma 2.8, one deduces
+
+             hΠ(eY )1C , 1C i ≥ mC e−ρq(Y ) e−ρV (Y ) for all Y in a.             (3.2)
+
+Combining (3.1) and (3.2) with known bounds for the spherical function Ξ
+as in [15, Prop 7.15], one gets, for suitable positive constants d, C,
+      mC −ρq(Y )−ρV (Y )
+         e               ≤ Ξ(eY ) ≤ M0 (1 + kY k)d e−ρg(Y )/2 for all Y in a.
+      MC
+Therefore one has ρg ≤ 2 ρq + 2 ρV , and hence ρh ≤ ρq + 2 ρV as required.
+
+
+
+                                          18
+3.4    Equivalence of the main theorems
+         We have already noticed that Theorem 2.9 is a special case of
+      Theorem 3.6. We explain now why Theorem 3.6 is a consequence
+      of Theorem 2.9.
+
+Proposition 3.8. Let G be an algebraic semisimple Lie group. If the con-
+clusion of Theorem 2.9 is true for all algebraic subgroups H of G, then the
+conclusion of Theorem 3.6 is also true for all algebraic subgroups H of G.
+
+   The proof relies on the following lemma.
+
+Lemma 3.9. Let H be a Lie group and V a finite-dimensional representation
+of H. Let v ∈ V be a point whose orbit Hv has maximal dimension and Hv
+be the stabilizer of v in H. Then the action of Hv on V /hv is trivial.
+
+Proof of Lemma 3.9. Assume by contradiction that there exist Y in h and w
+in V such that the vector Y w does not belong to hv.
+    Choose a complementary subspace m of hv in h so that h = hv ⊕ m.
+Choose also a point vε = v + εw near v. For ε small, the tangent space h vε
+to the orbit H vε contains both the subspace m vε which is near m v = h v
+and the vector ε−1 Y vε = Y w. Therefore, for ε small, one has the inequality
+dim hvε > dim hv which gives us a contradiction.
+Proof of Proposition 3.8. We assume that ρh ≤ ρq + 2 ρV and we want to
+prove, using Theorem 2.9, that the regular representation of G in L2 (G×H V )
+is tempered. Since the action is algebraic, there exists a Borel measurable
+subset T ⊂ V which meets each of these H-orbits in exactly one point.
+Let νV be a probability measure on V with positive density and νT be the
+probability measure on T ≃ H\V given as the image of νV . One has a direct
+integral decomposition of the regular representation
+                                   Z ⊕
+                     2
+                    L (G ×H V ) =       L2 (G/Hv ) dνT (v)
+                                    T
+
+where Hv is the stabilizer of v in H. Since the direct integral of tempered
+representations is tempered, we only need to prove that, for νT -almost all v
+in T ,
+                         L2 (G/Hv ) is G-tempered.                      (3.3)
+
+
+
+                                     19
+Our assumption implies that
+
+                  ρh(Y ) ≤ ρq(Y ) + 2 ρV (Y ) for all Y in hv            (3.4)
+
+For νT -almost all v in T , the orbit Hv has maximal dimension, hence, by
+Lemma 3.9, the action of h on the quotient V /hv is trivial, and therefore one
+has the equality
+
+                  ρV (Y ) = ρh(Y ) − ρhv (Y ) for all Y in hv            (3.5)
+
+Combining (3.4) and (3.5), one gets, for νT -almost all v in T ,
+
+             2 ρhv (Y ) ≤ ρq(Y ) + ρh(Y ) = ρg(Y ) for all Y in hv
+
+which can be rewritten as the temperedness criterion ρhv (Y ) ≤ ρqv (Y ) for
+L2 (G/Hv ) in Theorem 2.9 and hence proves (3.3).
+
+
+4     Using parabolic subgroups
+The aim of this section is to prove the converse implication in Theorem
+2.9. As we have seen in Remarks 3.4 and 3.5, we can assume that G is a
+Zariski connected algebraic group and that H is a Zariski connected algebraic
+subgroup such that h = [h, h].
+    The proof relies on the presence of two nice intermediate subgroups
+
+                              H ⊂ F ⊂ P ⊂ G.
+
+4.1    The intermediate subgroups
+         We first explain the construction of these intermediate sub-
+      groups F and P .
+
+   Let G be an algebraic semisimple Lie group and H a Zariski connected
+algebraic subgroup of G such that h = [h, h].
+Lemma-Definition 4.1. We fix a parabolic subgroup P of G of minimal
+dimension that contains H and denote by U the unipotent radical of P . There
+exists a reductive subgroup L ⊂ P such that P = LU and H = (L∩H)(U ∩H).
+Moreover the group S := L ∩ H is semisimple and the group V := U ∩ H is
+the unipotent radical of H. We denote by F the group F = SU.
+
+                                      20
+Proof. The group V := U ∩H is a unipotent normal subgroup of H. The quo-
+tient S ′ := H/V is a Zariski connected subgroup of the reductive group P/U
+which is not contained in any proper parabolic subgroup of P/U. Therefore,
+by [5, Sec. VIII.10] this group S ′ is reductive. Since h = [h, h], this group
+S ′ is semisimple and there exists a semisimple subgroup S ⊂ H such that
+H = SV . Since S is semisimple, the group V is the unipotent radical of H.
+Since maximal reductive subgroups L of P are U-conjugate, one can choose
+L containing S and therefore one has S = L ∩ H.
+   The following two lemmas will be useful in our induction process.
+Lemma 4.2. With the notation of Definition 4.1, the following two functions
+on s are equal :
+                    ρg/h − ρh = ρl/s + 2 ρu/v − ρs.                   (4.1)
+Proof. Since ρg/p = ρu, one has the equalities of functions on s,
+              ρg/h = ρu + ρl/s + ρu/v and ρh = ρs + ρv.
+Lemma 4.3. Let P = LU be a real algebraic group which is a semidirect
+product of a reductive subgroup L and its unipotent radical U. Let π0 be a
+unitary representation of P which is L-tempered and trivial on U. Then the
+representation π0 is also P -tempered.
+Proof. The weak containment π0 ≺ L2 (L) as unitary representations of L
+implies the weak containment π0 ≺ L2 (P/U) as unitary representations of
+P because U acts trivially on the both sides. Since U is amenable, the
+trivial representation of U is U-tempered, therefore by Lemma 2.3 the regular
+representation of P in L2 (P/U) is P -tempered, and π0 is also P -tempered.
+
+
+
+4.2    Bounding volume of compact sets
+          The proof of Theorem 2.9 relies on a control of the volume
+      of the intersection of translates of compact sets in X = G/H.
+      We first explain how to bound such volumes in Z = F/H. This
+      bound is quite general.
+
+Proposition 4.4. Let F = SU be a real algebraic group which is a semidirect
+product of a reductive subgroup S and its unipotent radical U. Let H = SV
+be an algebraic subgroup of F containing S where V = U ∩ H. Let Z be
+
+                                     21
+the F -space Z = F/H = U/V endowed with a U-invariant Radon measure.
+Then for every compact subset D ⊂ Z, there exists a compact subset D0 ⊂ Z
+such that for all s ∈ S and u ∈ U, one has
+
+                       vol(suD ∩ D) ≤ vol(sD0 ∩ D0 ).                     (4.2)
+
+   Here is the reformulation of Proposition 4.4 that will be used later on.
+
+Definition 4.5. Let Z0 be the same space Z0 = U/V as Z but endowed with
+another F -action where U acts trivially and where S acts by conjugation.
+
+Corollary 4.6. Same notation as in Proposition 4.4. Then for every com-
+pact subset D ⊂ Z, there exists a compact subset D0 ⊂ Z0 such that for every
+f ∈ F , one has
+                      vol(f D ∩ D) ≤ vol(f D0 ∩ D0 ).                  (4.3)
+
+    The proof of Proposition 4.4 is by induction on the dimension of Z. It
+relies only on geometric arguments and uses no representation theory.
+
+    Before studying the proof of Proposition 4.4 the reader could as an exer-
+cise focus on the following very simple example whereZ =R2 is the affine
+                                                     a r     t
+2-plane and F is the group of affine bijections                   that preserve
+                                                     0 b     s
+the horizontal foliation. In this case S is the 2-dimensional group of diagonal
+matrices and U is the 3-dimensional Heisenberg group. The proof for this
+example relies on the same ideas while being very concrete.
+Proof of Proposition 4.4. First case: S is a split torus.
+   We denote by C the center of U and CV = V ∩ C. Let W be the closed
+subgroup W := V C ⊂ U. The projection
+
+                          Z = U/V −→ Z ′ := U/W
+
+is a principal bundle of group CW := C/CV = W/V . According to Lemma
+4.7 below, there exists a continuous trivialization of this principal bundle
+
+                                  Z ≃ Z ′ × CW                            (4.4)
+
+such that the action of U and S through this trivialization can be read as
+
+                    su (z ′ , c) = (su z ′ , s c + s c0 (u, z ′ ))        (4.5)
+
+                                         22
+for all s ∈ S, u ∈ U, z ′ ∈ Z ′ , c ∈ CW , where c0 is a continuous cocycle
+c0 : U × Z ′ → CW . We fix three compatible invariant measures volZ , volZ ′
+and vol on Z, Z ′ , and CW .
+    We start with a compact set D ⊂ Z. Through the trivialization (4.4),
+this set D is included in a product of two compact sets D ′ ⊂ Z ′ and B ⊂ CW
+
+                                    D ⊂ D′ × B ,
+
+where B is a symmetric convex set in the group CW seen as a real vector
+space. By the induction hypothesis, there exists a compact set D0′ ⊂ Z ′
+which satisfies the bound (4.2) for D ′ , i.e. such that
+
+       volZ ′ (suD ′ ∩ D ′ ) ≤ volZ ′ (sD0′ ∩ D0′ ) for all s ∈ S, u ∈ U .              (4.6)
+
+We compute using (4.5) and Lemma 4.8 below, for all s ∈ S and u ∈ U,
+
+                             Z
+     volZ (suD ∩ D) ≤                       vol((sB + s c0 (u, (su)−1z ′ )) ∩ B) dz ′
+                             Z suD ′ ∩D ′
+
+                         ≤                  vol(sB ∩ B) dz ′
+                               suD ′ ∩D ′
+
+where dz ′ also denotes the U-invariant measure on Z ′ . Hence, using (4.6),
+we go on
+
+              volZ (suD ∩ D) ≤ volZ ′ (suD ′ ∩ D ′ ) vol(sB ∩ B)
+                             ≤ volZ ′ (sD0′ ∩ D0′ ) vol(sB ∩ B)
+                             = volZ (sD0 ∩ D0 ),
+
+where D0 is the compact subset of Z given by D0 := D0′ × B.
+
+    Second case: S is a reductive group.
+    This general case will be deduced from the first case. Indeed any reductive
+group admits a Cartan decomposition S = KS AS KS where KS is a maximal
+compact subgroup of S and where AS is a maximal split torus of S. We
+start with a compact set D of Z. According to the first case, there exists a
+KS -invariant compact set D0 ⊂ Z such that, for all a ∈ AS and u ∈ U, one
+has
+                    vol(auKS D ∩ KS D) ≤ vol(aD0 ∩ D0 ).
+
+                                              23
+Therefore, for all s in S and u in U, writing s = k1 ak2 with k1 , k2 in KS and
+a in AS , one has
+
+               vol(suD ∩ D) ≤ vol(a(k2 uk2−1 )k2 D ∩ k1−1 D)
+                            ≤ vol(aD0 ∩ D0 )
+                            = vol(sD0 ∩ D0 ),
+
+as required.
+   In the proof of Proposition 4.4, we have used the following two lemmas.
+
+Lemma 4.7. Let U be a unipotent group, V ⊂ U a unipotent subgroup, C
+be the center of U, W := V C and CV := C ∩ V . Let S ⊂ Aut(U) be a split
+torus which preserves V . Then there exists a continuous trivialization of the
+U-equivariant principal bundle U/V → U/W with structure group C/CV
+
+                            U/V ≃ U/W × C/CV
+
+such that the action of U and S through this trivialization can be read as
+
+                     su (y, c) = (su y , s c + s c0 (u, y))
+
+for all u ∈ U, s ∈ S, y ∈ U/W , c ∈ C/CV , where c0 is a continuous cocycle
+c0 : U × U/W → C/CV .
+
+Proof of Lemma 4.7. These claims are a variation of a classical result of
+Chevalley–Rosenlicht (see for instance [7, Thm. 3.1.4]). The proof relies
+on the existence of “an adapted basis in a nilpotent Lie algebra”. Here is a
+sketch of proof of these claims.
+     As usual, let u, v, c and w be the Lie algebras of the groups U, V , C and
+W . Let I be the ordered set I = {1, . . . , n}, where n = dim u. We fix a basis
+(ei )i∈I of u, such that
+- for every i ≥ 1, the vector space spanned by the ej for j ≥ i is an ideal;
+- for every i ≥ 1, the line Rei is invariant by S;
+- there exists a subset IV ⊂ I such that v is spanned by ei for i ∈ IV ;
+- there exists a subset IC ⊂ I such that c is spanned by ei for i ∈ IC ;
+- the Lie algebra w is spanned by ei for i ∈ IW := IC ∪ IV .
+     Then, the map
+
+                  Ψ : RI −→ U (ti )i∈I 7→ i∈I exp(ti ei ),
+                                               Q
+
+
+                                      24
+where the product is performed using the order on I, is a diffeomorphism
+and one has
+              Ψ(RIV ) = V , Ψ(RIC ) = C and Ψ(RIW ) = W.
+Setting JV := I r IV and JW := I r IW , the map
+          ΨV : RJV −→ U/V, (ti )i∈JV 7→ i∈JV exp(ti ei )V
+                                            Q
+
+is also a diffeomorphism and the restriction of this map to the subset RJW
+gives an S-equivariant section of the bundle U/V → U/W .
+   Here is the second basic lemma used in the proof of Proposition 4.4.
+Lemma 4.8. Let B, B ′ be two symmetric convex sets of Rd , then one has
+             vol((B + v) ∩ B ′ )) ≤ vol(B ∩ B ′ ) for all v ∈ Rd .
+Proof. By the Brunn–Minkowski inequality (see [4, Sec. 11]), the map v 7→
+vol((B + v) ∩ B ′ )1/d is concave on the convex set B ′ − B and hence achieves
+its maximum value at v = 0.
+
+4.3    Matrix coefficients of induced representations
+          We now explain how to control the volume of the intersection
+      of translates of compact sets in the G-space X = G/H with those
+      in X0 := G ×F Z0 .
+Proposition 4.9. Let G be an algebraic semisimple Lie group and H a
+Zariski connected algebraic subgroup such that h = [h, h]. Let P = LU,
+F = SU and H = SV be the groups introduced in Definition 4.1. Let Z0 be
+the F -space introduced in Definition 4.5 and X0 the G-space X0 := G ×F Z0 .
+Then, for every compact subset C ⊂ G/H, there exists a compact subset
+C0 ⊂ X0 such that
+               vol(g C ∩ C) ≤ vol(g C0 ∩ C0 )    for all g in G.         (4.7)
+    In Proposition 4.9 the assumption h = [h, h] can be removed but the
+conclusion (4.7) becomes slightly more technical when there is no G-invariant
+measure on G/H. Indeed, when h 6= [h, h], one has to replace the bound
+(4.7) by a bound of K-finite matrix coefficients of the induced representation
+Π = IndG     2
+         F (L (F/H)) thanks to K-finite matrix coefficients of the induced
+representation Π0 = IndG     2
+                        F (L (Z0 )).
+
+
+                                      25
+Proof of Proposition 4.9. The projection
+
+                                    G → X ′ := G/F
+
+is a G-equivariant principal bundle with structure group F . As in Section
+2.1, we fix a Borel measurable trivialization of this principal bundle
+
+                                       G ≃ X′ × F                                      (4.8)
+
+which sends relatively compact subsets to relatively compact subsets. The
+action of G by left multiplication through this trivialization can be read as
+
+       g (x′ , f ) = (gx′ , σF (g, x′)f )        for all g ∈ G, x′ ∈ X ′ and f ∈ F ,
+
+where σF : G × X ′ → F is a Borel measurable cocycle. This trivialization
+(4.8) induces a trivialization of the associated bundles
+
+                             X = G ×F Z ≃ X ′ × Z ,
+                            X0 = G ×F Z0 ≃ X ′ × Z0 .
+
+We start with a compact set C of X. Through the first trivialization, this
+compact set is included in a product of two compact sets C ′ ⊂ X ′ and D ⊂ Z
+
+                                      C ⊂ C′ × D .                                     (4.9)
+
+We denote by D0 ⊂ Z0 the compact set given by Corollary 4.6 and we
+compute using (4.3), for g in G,
+                             Z
+        volX (g C ∩ C) ≤              volZ (σF (g, g −1x′ )D ∩ D) dx′
+                             ZgC ∩C
+                                 ′  ′
+
+
+
+                         ≤            volZ0 (σF (g, g −1x′ )D0 ∩ D0 ) dx′
+                                     gC ′ ∩C ′
+                              ≤ volX0 (g C0 ∩ C0 ),
+
+where dx′ is a G-invariant measure on X ′ and C0 is a compact subset of
+X0 ≃ X ′ × Z0 which contains C ′ × D0 .
+
+4.4    Proof of the temperedness criterion
+         We conclude the proof of Theorem 2.9.
+
+                                                 26
+Proof of the converse implication in Theorem 2.9. We prove it by induction
+on the dimension of G. By Remarks 3.4 and 3.5, we can assume that G
+is a Zariski connected semisimple algebraic group and that H is a Zariski
+connected algebraic subgroup such that h = [h, h]. Let
+
+                    H = SV ⊂ F = SU ⊂ P = LU ⊂ G
+
+be the groups introduced in Definition 4.1. Let Z0 = U/V be the F -space
+introduced in Definition 4.5 and X0 be the G-space X0 = G ×F Z0 .
+    When P is equal to G, the group H is semisimple and we apply [3, Thm
+3.1]. We now assume that P is a proper parabolic subgroup of G.
+    By assumption one has ρh ≤ ρg/h on h. Therefore, by Lemma 4.2, one
+has the inequality on s
+                              ρs ≤ ρl/s + 2 ρu/v.                   (4.10)
+    We introduce the regular representation π0 of P in L2 (P ×F Z0 ) which
+is unitarily equivalent to IndPF (L2 (u/v)) by the isomorphism (2.4). As a
+representation of L, one has
+
+                           π0 |L = IndLS (L2 (u/v)).
+
+Using our induction hypothesis on the dimension of G to the derived sub-
+group of L, Proposition 3.8 and Remark 2.4 tell us that the representation
+π0 is L-tempered by (2.4). Therefore, by Lemma 4.3, the representation π0
+is P -tempered. The regular representation Π0 of G in L2 (G ×F Z0 ) is uni-
+                                                      G     P
+tarily equivalent to Π0 = IndG                                  2
+                              P (π0 ) because Π0 ≃ IndP (IndF (L (u/v))). Now,
+Lemma 2.3 implies that this representation Π0 is G-tempered. Therefore, by
+Corollary 2.7, for any K-invariant compact subset C0 of G ×F Z0 , one has a
+bound:
+                vol(g C0 ∩ C0 ) ≤ vol(C0 ) Ξ(g) for all g in G.
+Hence, by Proposition 4.9, for any compact subset C of G/H, one also has
+a bound
+                vol(g C ∩ C) ≤ MC Ξ(g) for all g in G.
+Again by Corollary 2.7, this tells us that the representation of G in L2 (G/H)
+is G-tempered.
+
+
+
+
+                                      27
+5     Examples
+The criterion given in Theorem 2.9 allows to easily detect for a given homo-
+geneous space G/H whether the unitary representation of a semisimple Lie
+group G in L2 (G/H) is tempered or not. We collect in this chapter a few
+examples, omitting the details of the computational verifications.
+
+5.1    Examples of tempered homogeneous spaces
+         We first recall a few examples extracted from [3] where H is
+      reductive.
+
+Example 5.1. L2 (SL(p + q, R)/SO(p, q)) is always tempered.
+L2 (SL(2m, R)/Sp(m, R)) is never tempered.
+L2 (SL(m + n, C)/SL(m, C) × SL(n, C)) is tempered iff |m − n| ≤ 1.
+L2 (SO(m + n, C)/SO(m, C)) × SO(n, C)) is tempered iff |m − n| ≤ 2.
+L2 (Sp(m + n, C)/Sp(m, C) × Sp(n, C)) is tempered iff m = n.
+
+Example 5.2.QLet n = n1 + · · · + nr with n1 ≥ · · · ≥ nr ≥ 1, r ≥ 2.
+L2 (SL(n, R)/Q SL(ni , R)) is tempered iff 2n1 ≤ n + 1.
+L2 (Sp(n, R)/ Sp(ni , R)) is tempered iff 2n1 ≤ n.
+Let p = p1 + p2 , q = q1 + q2 with p1 , p2 , q1 , q2 ≥ 1.
+L2 (SO(p, q)/SO(p1, q1 ) × SO(p2 , q2 )) is tempered iff |p1 + q1 − p2 − q2 | ≤ 2.
+
+Example 5.3. Let G be an algebraic semisimple Lie group and K a maximal
+compact subgroup. L2 (GC /KC ) is GC -tempered iff G is quasisplit.
+
+Remark 5.4. A way to justify this last example is to notice that our criterion
+2 ρkC ≤ ρgC means that the trivial K-type is a small K-type of G in the
+terminology of Vogan’s paper [29, Def. 6.1], see also in Knapp’s book [15,
+Chap. XV], and to use the following equivalences due to Vogan in the same
+paper [29, Thm. 6.4]:
+
+ G has a small K-type ⇐⇒ the trivial K-type is small ⇐⇒ G is quasisplit.
+
+    Here is a delicate example for semisimple symmetric spaces.
+
+Example 5.5. Let G/H := Sp(2, 1)/Sp(1) × Sp(1, 1). The Plancherel for-
+mmula [9, 27] tells that both the continuous part and a “generic portion” of
+the discrete part of L2 (G/H) are tempered, however, our criterion (1.1) tells
+
+                                       28
+that L2 (G/H) is non-tempered because ρh (Y ) = 32 ρq (Y ) > ρq (Y ) if Y is a
+nonzero hyperbolic element of h. In fact, the discrete part of L2 (G/H) consist
+of Harish-Chandra’s discrete series representations, say πn (n = 1, 2, ...), and
+two more non-vanishing representations π0 and π−1 in the coherent family,
+where π0 is still tempered but π−1 is non-tempered ([17, Thm. 1]).
+   Here is another direct application of our criterion (1.1) where H is not
+anymore assumed to be reductive.
+Corollary 5.6. Let G be an algebraic semisimple Lie group, and H an al-
+gebraic subgroup.
+1) If the representation of GC in L2 (GC /HC ) is tempered, then the represen-
+tation of G in L2 (G/H) is tempered.
+2) The converse is true under if H contains a maximal torus which is split.
+
+5.2    Subgroups of SL(n, R)
+         We now explain how to check our criterion (1.1) on a very
+      concrete example.
+    In Table 1, we specify our criterion (1.1) when G = SL(Rp ⊕ Rq ) and H
+is a subgroup of G normalized by the group SL(Rp ) × SL(Rq ).
+                                                          
+                ∗ 0            ∗ ∗             ∗ ∗          ∗ 0
+         H1 :            H2 :            H3 :         H4 :
+                0 I            0 I              0 ∗          0 ∗
+
+           p≤q+1              p=1           p=q=1           p≤q+1
+                                                            q ≤p+1
+
+          Table 1: The criterion ρh ≤ ρg/h when G = SL(p + q, R)
+
+   In Table 2, we specify our criterion (1.1) when G = SL(Rp ⊕ Rq ⊕ Rr )
+and H is a subgroup of G normalized by the group SL(Rp ) × SL(Rq ) ×
+SL(Rr ). Note that in these two tables, the center of the diagonal blocks is
+not important by Corollary 3.3.
+Remark 5.7. It is rather easy to guess the inequalities in Table 2. Here is the
+heuristic recipe: there is one inequality for each non-identity diagonal block.
+The left-hand side of this inequality is given by the size of this diagonal block,
+while the right-hand side can be guessed by looking at the size of the zero
+blocks on the right and on the top of it.
+
+                                       29
+                                                                 
+       ∗ 0 ∗              I 0 ∗                 I ∗ ∗            ∗ ∗ ∗
+ H1 :  0 I 0      H2 :  0 ∗ 0         H3 :  0 ∗ 0    H4 :  0 ∗ ∗
+        0 0 I              0 0 I                 0 0 I            0 0 ∗
+
+    p≤q+1            q ≤p+r+1                q ≤r+1         p=q=r=1
+                                                                
+        ∗ 0 0             ∗ 0 ∗                 ∗ ∗ ∗            ∗ 0 ∗
+ H5 :  0 ∗ 0      H6 :  0 ∗ 0         H7 : 0 ∗ 0     H8 : 0 I 0
+        0 0 I              0 0 I                0 0 I            0 0 ∗
+
+  p≤q+r+1              p≤q+1                 p=1              p≤q+1
+  q ≤p+r+1           q ≤p+r+1             q ≤r+1              r ≤q+1
+                                                                  
+       I ∗ ∗               ∗ 0 0              ∗ 0 ∗                ∗ ∗ ∗
+ H9 :  0 ∗ 0      H10 : 0 ∗ 0      H11 : 0 ∗ 0       H12 : 0 ∗ 0
+        0 0 ∗              0 0 ∗              0 0 ∗                0 0 ∗
+
+    q ≤r+1            p≤q+r+1                p≤q+1                 p=1
+    r ≤q+1            q ≤p+r+1             q ≤p+r+1              q ≤r+1
+                      r ≤p+q+1               r ≤q+1              r ≤q+1
+
+       Table 2: The criterion ρh ≤ ρg/h when G = SL(p + q + r, R)
+
+   We will just explain the proof for the group H = H11 in Table 2. The
+other cases are similar.
+Corollary
+        5.8. Let G = SL(p + q + r, R) and H the subgroup of matrices
+ α 0 z
+ 0 β 0  with α ∈ GL(p, R), β ∈ GL(q, R), γ ∈ GL(r, R), z ∈ M(p, r; R).
+  0 0 γ
+Then L2 (G/H) is G-tempered if and only if p ≤ q+1, q ≤ p+r+1, r ≤ q+1.
+Proof of Corollary 5.8. We denote by a the Lie algebra of diagonal matrices
+            a = {Y = (x, y, z) ∈ Rp ⊕ Rq ⊕ Rr | Trace(Y ) = 0}.
+We only need to check the criterion (1.1) on the chamber
+  a+ = {Y = (x, y, z) ∈ a | x, y and z have non-decreasing coordinates}.
+We recall that q = g/h and we compute for Y ∈ a+ ,
+               ρh(Y ) = pi=1 ai xi + qj=1 bj yj + rk=1 ck zk ,
+                        P           P            P
+
+
+                                     30
+where ai := 2i − p − 1, bj := 2j − q − 1, ck := 2k − r − 1, and
+                          P               P
+                 ρq(Y ) = i,j |xi − yj | + j,k |yj − zk | .
+
+    Assume first that the criterion ρh ≤ ρq is satisfied on a. It is then also
+satisfied on Rp+q+r . Applying it successively to the three vectors Y = ep ,
+Y = ep+q and Y = ep+q+r of the standard basis e1 , . . . , ep+q+r of Rp+q+r , one
+gets successively the three inequalities p ≤ q+1, q ≤ p+r+1, r ≤ q+1.
+
+   Assume now that these three inequalities are satisfied. Note that
+         P                   P                     P                    P
+ρq(Y ) ≥  a >b (x i −y j ) +   bj >ai(y j −x i ) +   bj >ck(y j −zk ) +  ck >bj(zk −yj )
+         Ppi j         Pq                 Pr
+       =   i=1 ℓi xi +     j=1 mj yj +     k=1 nk zk , where
+
+
+
+   ℓi = |{j | bj < ai }| − |{j | bj > ai }|
+  mj = |{i | ai < bj }| − |{i | ai > bj }| + |{k | ck < bj }| − |{k | ck > bj }|
+  nk = |{j | bj < ck }| − |{j | bj > ck }|.
+
+   Since p ≤ q + 1, one has ℓi = ai for all 1 ≤ i ≤ p.
+   Since r ≤ q + 1, one has nk = ck for all 1 ≤ k ≤ r.
+   For 1 ≤ j ≤ q, one has mq+1−j = −mj and, when j > q/2,
+
+                           mj = min(bj , p) + min(bj , r).
+
+Since q ≤ p + r + 1, one has mj ≥ bj for all j > q/2. Then using the fact
+that the yj s are non-decreasing functions of j, one gets, for Y in a+ ,
+
+                    ρq(Y ) − ρh(Y ) = qj=1 (mj − bj )yj ≥ 0.
+                                     P
+
+This proves that the criterion ρh ≤ ρq is satisfied.
+   Some of the subgroups in Table 2 appear naturally in analyzing the tensor
+product representations of SL(n, R) as below.
+
+5.3     Tensor product of non-tempered representations
+Suppose Π and Π′ are unitary representations of G. The tensor product
+representation Π ⊗ Π′ is tempered if Π or Π′ is tempered. In contrast, Π ⊗ Π′
+may be and may not be tempered when both Π and Π′ are non-tempered.
+
+                                          31
+     For instance, let n = n1 + · · · + nk be a partition, and we consider
+the (degenerate) principal series representation Πn1 ,··· ,nk := IndG Pn1 ,··· ,nk (1)
+of G = SL(n, R), where Pn1 ,··· ,nk is the standard parabolic subgroup with
+Levi subgroup S(GL(n1 , R) × · · · × GL(nk , R)). Then Πn1 ,··· ,nk is tempered
+iff k = n and n1 = · · · = nk = 1. Here are some examples of the temperedness
+criterioin (1.1) applied to the tensor product of two such representations.
+Proposition 5.9. Let 0 ≤ k, l ≤ n and a + b + c = n.
+ (1) Πk,n−k ⊗ Πn−l,l is tempered iff |k − l| ≤ 1 and |k + l − n| ≤ 1.
+ (2) Πa,b,c ⊗ Πb+c,a is tempered iff max(b, c) − 1 ≤ a ≤ b + c + 1.
+ (3) Πa,b,c ⊗ Πc,b,a is tempered iff 2 max(a, b, c) ≤ n + 1.
+Proof. For any parabolic subgroups P and P ′ of G, there exists an element
+w ∈ G such that P wP ′ is open dense in G, and thus the tensor product
+IndG           G
+    P (1) ⊗ IndP ′ (1) is unitarily equivalent to the regular representation in
+L2 (G/H) by the Mackey theory, where H = w −1 P w ∩ P ′ . In the above
+cases, we have the following unitary equivalences:
+Πk,n−k ⊗ Πn−l,l ≃ L2 (G/H12 ) with (p, q, r) = (|k−l|, min(k, l), n−max(k, l)),
+ Πa,b,c ⊗ Πb+c,a ≃ L2 (G/H11 ) with (p, q, r) = (b, a, c),
+ Πa,b,c ⊗ Πc,b,a ≃ L2 (G/H10 ) with (p, q, r) = (a, b, c),
+whence Proposition follows from Table 2 in Section 5.2.
+
+Acknowledgments
+The authors are grateful to the IHES and to the University of Tokyo for
+its support through the GCOE program. The second author was partially
+supported by Grant-in-Aid for Scientific Research (A) (25247006) JSPS.
+
+
+References
+ [1] B. Bekka, P. de la Harpe, and A. Valette. Kazhdan’s Property (T). Camb.
+     Univ. Press, 2008.
+ [2] B. Bekka and Y. Guivarc’h. On the spectral theory of groups of affine trans-
+     formations of compact nilmanifolds. Ann. Sci. Éc. Norm. Supér., 48:607–645,
+     2015.
+
+                                         32
+ [3] Y. Benoist and T. Kobayashi. Tempered reductive homogeneous spaces. J.
+     Eur. Math. Soc., 17:3015–3036, 2015.
+
+ [4] T. Bonnesen and W. Fenchel. Theory of Convex Bodies. Springer, 1974.
+
+ [5] N. Bourbaki. Lie Groups and Lie Algebras. Chapters 7–9. Springer, 2005.
+
+ [6] C. Chevalley. Algebraic Lie algebras. Ann. of Math., 48:91–100, 1947.
+
+ [7] L. Corwin and F. Greenleaf. Representations of Nilpotent Lie Groups and
+     their Applications. Camb. Univ. Press, 1990.
+
+ [8] M. Cowling, U. Haagerup, and R. Howe. Almost L2 matrix coefficients. J.
+     Reine Angew. Math., 387:97–110, 1988.
+
+ [9] P. Delorme. Formule de Plancherel pour les espaces symétriques réductifs.
+     Ann. of Math., 147:417–452, 1998.
+
+[10] M. Einsiedler, G. Margulis, and A. Venkatesh. Effective equidistribution for
+     closed orbits of semisimple groups on homogeneous spaces. Invent. Math.,
+     177(1):137–212, 2009.
+
+[11] D. Fisher and G. Margulis. Local rigidity of affine actions of higher rank
+     groups and lattices. Ann. of Math. (2), 170(1):67–122, 2009.
+
+[12] Harish-Chandra. Harmonic analysis on real reductive groups. III. Ann. of
+     Math., 104:117–201, 1976.
+
+[13] B. Harris and T. Weich. Wave front sets of reductive lie group representations
+     iii. Adv. Math., 313:176–236, 2017.
+
+[14] R. Howe and E.-C. Tan.       Nonabelian Harmonic Analysis.        Universitext.
+     Springer, 1992.
+
+[15] A. Knapp. Representation Theory of Semisimple Groups. Princeton Land-
+     marks in Mathematics. Princeton University Press, Princeton, NJ, 2001.
+
+[16] A. Knapp and G. Zuckerman. Classification of irreducible tempered repre-
+     sentations of semisimple groups. Ann. of Math., 116:389–455, 1982.
+
+[17] T. Kobayashi. Singular Unitary Representations and Discrete Series for In-
+     definite Stiefel Manifolds U (p, q; F )/U (p − m, q; F ). Mem. Amer. Math. Soc.,
+     95(462), 1992.
+
+[18] T. Kobayashi and T. Oshima. Finite multiplicity theorems for induction and
+     restriction. Adv. Math., 248:921–944, 2013.
+
+                                         33
+[19] B. Kostant. On convexity, the Weyl group and the Iwasawa decomposition.
+     Ann. Sci. École Norm. Sup., 6:413–455, 1973.
+
+[20] R. Langlands. On the classification of irreducible representations of real al-
+     gebraic groups. volume 31 of Math. Surv. Mon., pages 101–170. AMS, 1989.
+
+[21] H. Li and G. Margulis. Effective estimates on integral quadratic forms:
+     Masser’s conjecture, generators of orthogonal groups, and bounds in reduction
+     theory. Geom. Funct. Anal., 26(3):874–908, 2016.
+
+[22] G. Margulis. Explicit constructions of expanders. Problemy Peredači Infor-
+     macii, 9(4):71–80, 1973.
+
+[23] G. Margulis. Existence of compact quotients of homogeneous spaces, measur-
+     ably proper actions, and decay of matrix coefficients. Bull. Soc. Math. France,
+     125(3):447–456, 1997.
+
+[24] G. Margulis, A. Nevo, and E. Stein. Analogs of Wiener’s ergodic theorems
+     for semisimple Lie groups. II. Duke Math. J., 103(2):233–259, 2000.
+
+[25] A. Nevo. Spectral transfer and pointwise ergodic theorems for semi-simple
+     Kazhdan groups. Math. Res. Lett., 5:305–325, 1998.
+
+[26] H. Oh. Uniform pointwise bounds for matrix coefficients of unitary represen-
+     tations and applications. Duke Math. J., 113:133–192, 2002.
+
+[27] T. Oshima. A method of harmonic analysis on semisimple symmetric spaces.
+     In Algebraic Analysis, Vol. II, pages 667–680. Academic Press, 1988.
+
+[28] Y. Sakellaridis and A. Venkatesh. Periods and harmonic analysis on spherical
+     varieties. Astérisque, (396):viii+360, 2017.
+
+[29] D. Vogan, Jr. The algebraic structure of the representation of semisimple Lie
+     groups. I. Ann. of Math., 109:1–60, 1979.
+
+Y. Benoist : CNRS-Université Paris-Saclay, Orsay, France
+e-mail : yves.benoist@math.u-psud.fr
+T. Kobayashi : Graduate School of Mathematical Sciences and Kavli IPMU-
+University of Tokyo, Komaba, Japan
+e-mail : toshi@ms.u-tokyo.ac.jp
+
+
+
+
+                                        34
+

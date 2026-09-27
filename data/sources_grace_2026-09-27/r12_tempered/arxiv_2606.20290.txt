@@ -1,0 +1,2117 @@
+                                           FOURIER–HELGASON TRANSFORM AS INFINITE GEODESIC
+                                                 TIME LIMIT IN GEOMETRIC QUANTIZATION
+
+                                                    A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+                                                 Abstract. The Fourier–Helgason (FH) transform for a noncompact symmet-
+
+
+
+
+arXiv:2606.20290v1 [math.SG] 18 Jun 2026
+                                                 ric space G/K establishes the direct integral decomposition of the unitary rep-
+                                                 resentation of G on L2 (G/K) into irreducible principal series representations.
+                                                     By applying techniques of geometric quantization to the symplectic manifold
+                                                 T ∗ (G/K), Lisiecki in 1987 gave a geometric interpretation of the FH transform
+                                                 in the case when G is complex. He defined for general G a “horizontal” po-
+                                                 larization on T ∗ (G/K) and showed that, for complex G, the Blattner-Kostant-
+                                                 Sternberg (BKS) pairing between the Schrödinger vertical polarization Hilbert
+                                                 space, L2 (G/K), and the Hilbert space of horizontally polarized functions co-
+                                                 incides with the FH transform. However, in the same paper, Lisiecki showed
+                                                 that for noncomplex Lie groups the BKS pairing is nonequivalent to the FH
+                                                 transform and nonunitary in general.
+                                                     In the present paper, we resolve this discrepancy between the FH transform
+                                                 and geometric quantization in the case when G is not complex.
+                                                     First, we show that the horizontal polarization is the infinite-time limit of
+                                                 the push-forward of the vertical polarization with respect to the geodesic flow
+                                                 for a G–invariant Riemannian metric. Then we lift the geodesic flow to an
+                                                 intertwining unitary parallel transport on the quantum bundle that we call
+                                                 quantum geodesic transform (QGT). Finally we show that the QGT has a well-
+                                                 defined limit, as the geodesic time goes to infinity, and that it is equal, up to
+                                                 the phase of the Harish-Chandra c–function and an irrelevant multiplicative
+                                                 constant, to the FH transform.
+
+
+
+
+                                            Date: June 19, 2026.
+                                                                                        1
+2            A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+                                    Contents
+    1. Introduction and main results                                          2
+    2. Preliminaries                                                          4
+    2.1. Notation                                                             4
+    2.2. Basic definitions                                                    5
+    2.3. T ∗ X as symplectic reduction of T ∗ G                               6
+    2.4. Hamiltonian geometry on T ∗ X                                        6
+                                        ∗
+    2.5. The Fourier polarization for T X                                     7
+    3. Geodesic flow and a family of polarizations on T ∗ X                   9
+    3.1. Strategy                                                             9
+    3.2. Geodesic flow from the vertical to the Fourier polarization         10
+    3.3. Evolution of the canonical form along the geodesic flow             16
+    4. Lifting the geodesic flow to the quantum bundle: the Fourier-Helgason
+                   transform and geometric quantization                      21
+    4.1. The Fourier-Helgason transform                                      22
+    4.2. The quantum bundle and the quantum geodesic transform               24
+    4.3. The limit t → +∞ and the Fourier-Helgason transform                 27
+    Appendix A. Volume forms and normalizing constants                       31
+    References                                                               41
+
+
+
+                     1. Introduction and main results
+  The Fourier–Helgason (FH) transform for a noncompact symmetric space G/K
+corresponds to the direct integral decomposition of the unitary representation of
+G on square integrable functions on G/K into irreducible principal series repre-
+sentations                              Z
+                          2
+                        L (G/K, dν) =         Hπ db
+                                                  ν (π) ,                     (1)
+                                           G
+                                           b sph
+
+where dν is a suitably normalized G-invariant measure on X = G/K, G          bsph is
+the spherical unitary dual of G, i.e. equivalence classes of irreducible unitary
+representations (π, Hπ ) that contain a nonzero K-fixed vector and db   ν (π) is the
+(spherical) Plancherel measure corresponding to dν.
+   With the aim of giving a geometric quantization interpretation of the FH
+transform, in [Lis87] Lisiecki identified a “horizontal” polarization (which we
+call Fourier) on T ∗ (G/K), transverse to the vertical Schrödinger polarization,
+for which polarized functions are functions on a∗+ × K/M , just as the image of the
+FH transform.
+   Lisiecki, however, identified a problem, which was the fact that the geometric
+quantization Blattner-Kostant-Sternberg (BKS) pairing map between the Schrö-
+dinger Hilbert space and the Hilbert space for the Fourier polarization is not
+equivalent to the FH transform and nonunitary in general, except if the group G
+                              FH = INFINITE-TIME QGT                                 3
+
+is complex (the complexification of K) in which case it does coincide with the FH
+transform.
+   In the present paper we resolve this problem and give a geometric quantization
+interpretation of the FH transform for general semisimple connected Lie groups
+G. First, we show that Lisiecki’s Fourier polarization is the infinite-time limit of
+a family of polarizations Pt , t ≥ 0, obtained by the push-forward of the vertical
+polarization, P0 , with respect to the geodesic flow for a G-invariant Riemannian
+metric on T ∗ (G/K).
+
+Theorem A (Theorem 2, in Section 3.2) On the open dense subset (T ∗ X)reg ⊂
+T ∗ X (see Section 2.4), the push-forward of the vertical polarization by the geodesic
+flow gives in the infinite-time limit the Fourier polarization PF .
+
+   We then lift the geodesic flow to an intertwining unitary parallel transport on
+the quantum bundle that we call quantum geodesic transform (QGT). That is, we
+find a G-equivariant unitary isomorphism between the Hilbert space for the (half-
+form corrected) vertically polarized functions and the Hilbert space of (half-form
+corrected) Pt −polarized functions, which lifts the geodesic flow and intertwines
+the two quantizations
+                                                 ∼
+                     Ut : HP0 ∼
+                              = L2 (G/K, dx) −→ HPt , t ≥ 0.
+   Finally we show that the QGT has a well-defined limit as the geodesic time
+goes to infinity. The limit is given by a transform U (see Definition 4) that
+is unitarily equivalent (equal up to an irrelevant constant and the phase of the
+Harish-Chandra c–function) to the FH transform. Our second main result reads:
+
+Theorem B (Theorem 5, in Section 4.3) Let Utϵ be the regularized quantum
+geodesic transform (see Definition 3) at time t. One has
+                                                                
+                   ϵ           2                  2   ∗   dλdb
+         lim lim Ut = κ U : L (G/K, dx) −→ L a+ × K/M,
+         ϵ→0 t→+∞                                        |c(λ)|2
+where κ ̸= 0 is a constant.
+
+
+Remark 1. The fact that both the Schrödinger Hilbert space and the Hilbert
+space for the Fourier polarization are L2 –spaces (on X = G/K = π(T ∗ X) and
+on a∗+ × K/M = π b((T ∗ X)reg ), respectively (see Proposition 1)) means that they
+correspond to two Schrödinger models for T ∗ X. The unitarity (up to constant)
+of the quantum geodesic transform shows that the quantizations corresponding
+to these two models are equivalent, with equivalence given by the FH transform
+rotated by the phase of the Harish-Chandra c–function.
+   This result could be of interest to the theory of transfer operators in the
+Langlands program, when these operators are viewed as intertwining different
+4            A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+Schrödinger models for the cotangent bundle of X = (X × X) /G, realized as
+symplectic quotient of T ∗ (X × X) with respect to the diagonal action of G,
+
+                            T ∗ X = (T ∗ X ×g∗ T ∗ X) /G ,
+
+(see Section 5 of [Sak23]). It would also be of interest to relate the horospherical
+limits in [Sak25] with the quantum geodesic transform at infinite geodesic time.
+
+   The QGT considered in this paper is an analog, for real-time Hamiltonian
+evolution, of the generalized coherent state transforms that describe the relation
+between quantizations related to each other by Hamiltonian flows in imaginary
+time. See [Bai+25b] for the case of T ∗ K, where K is a compact Lie group and
+[Bai+25a] for the case of cotangent bundles of symmetric spaces of compact type.
+In the present paper we study the case dual to the one in [Bai+25a], namely that
+of Riemannian symmetric spaces of noncompact type.
+
+
+                                2. Preliminaries
+2.1. Notation. The following standard notation will be used throughout the pa-
+per.
+  G denotes a (not necessarily complex) noncompact, connected, semisimple Lie
+group with finite center
+  e denotes the identity element of G
+  g denotes its Lie algebra
+  σ : G −→ G is a fixed Cartan involution
+  g = k + s is a fixed Cartan decomposition of g (with respect to de σ : g −→ g)
+  a is a fixed maximal abelian subalgebra of s
+  m is the centralizer of a in k
+  a∗+ is a fixed open Weyl chamber
+  Σ is the set of restricted roots of (g, a): for α ∈ Σ, gα is the corresponding root
+space
+                                                           ∗
+  Σ+ isPthe subset of positive
+                            P roots corresponding to a+
+  n = α∈Σ+ gα and n̄ = −α∈Σ+ gα
+  g = k + a + n is the Iwasawa decomposition of g.
+  K is the analytic subgroup of G with Lie algebra k (a maximal compact sub-
+group of G)
+  A = exp a
+  N = exp n
+  M is the centralizer of A in K
+  M AN is the minimal parabolic subgroup of G (its Lie algebra equals m + a + n)
+  X = G/K (Riemannian symmetric space of noncompact type), xo = e · K (the
+“origin” of X)
+  B = G/M AN = K/M , bo = e · M AN = e · M
+                              FH = INFINITE-TIME QGT                               5
+
+  Throughout the paper, we will use the Iwasawa decompositions of G, G = KAN
+and G = N AK and we will write
+                   G ∋ g = k1 (g)eH(g) n1 (g) = n2 (g)eA(g) k2 (g),             (2)
+where, for j = 1, 2, kj (g) ∈ K, nj (g) ∈ N and H(g), A(g) ∈ a.
+  Since G is connected and semisimple, it is also unimodular and we fix a left-
+and right-invariant Haar measure dg on G. The induced left-G-invariant measure
+on X is denoted by dx. More precisely, we let dg, and therefore also dx, be
+normalized as in [Hel08], Chapter II, Paragraph 3, Section 1. We will denote by
+db the normalized K-invariant measure on B. The invariant measures on K and
+M will be denoted, respectively, by dk and dm, so that, from Theorem I.1.9 in
+[Hel84], one has         Z            Z Z             
+                            f (x)dk =             f (km)dm db.
+                        K                B    M
+The Lebesgue measure on a∗+ with normalization induced by the Killing form, and
+                                     1
+then multiplied by a factor of (2π)− 2 dim a , will be denoted by dλ, as in [Hel08],
+Chapter 2, Paragraph 3, Section 1.
+2.2. Basic definitions. Let G be a noncompact connected semisimple Lie group
+with finite center and
+                                      σ:G→G
+an involutive automorphism such that X = G/K is a symmetric space of non-
+compact type, where K is a maximal compact subgroup of G and a relatively open
+subgroup of the set Gσ of fixed points. Note that K is automatically connected,
+see [HN12, § 13.3].
+  One has for the Lie algebra g of G, and for its dual g∗ , orthogonal Cartan
+decompositions with respect to a fixed AdG -invariant nondegenerate indefinite
+pseudo-inner product, ⟨·, ·⟩g , on g,
+                               g = k ⊕ s, g∗ = k∗ ⊕ s∗ ,
+where, for the derived automorphism of g, now also denoted by σ,
+                                σ|k = Idk , σ|s = −Ids ,
+with [k, s] ⊂ s and [s, s] ⊂ k.
+  The exponential map along s followed by the canonical projection onto X,
+                                        exp
+                                   s −→ G → X,
+is a diffeomorphism so that, in particular, X is simply-connected.
+   The cotangent bundle T ∗ X has the structure of a homogeneous vector bundle
+associated to the principal K-bundle G → X,
+                                  T ∗ X = G ×K s∗ ,
+where
+                   [g, ξ] = [gk, Ad∗k−1 (ξ)], g ∈ G, ξ ∈ s∗ , k ∈ K.
+6            A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+2.3. T ∗ X as symplectic reduction of T ∗ G. Here, we will recall briefly standard
+facts about the symplectic geometry of the cotangent bundles T ∗ G and T ∗ X,
+realized as the symplectic quotient
+                                   T ∗ X = (T ∗ G) //K .
+   Recall that there is a Hamiltonian right action of G on T ∗ G with moment map
+    (R)
+µ . The moment map of the corresponding right action of the subgroup K ⊂ G
+is
+                          µK = πk∗ ◦ µ(R) ,    πk∗ : g∗ → k∗ .                (3)
+                               ∗   ∼        ∗
+Using the left-trivialization T G = G × g one finds that
+                     −1
+                 µK      (0) = G × s∗ and
+                                     −1
+                (T ∗ G) //K = µK          (0)/K = G ×K s∗ = T ∗ X.            (4)
+   The moment map of the left G-action on T ∗ X, which we will denote µ, descends
+from T ∗ G through this quotient,
+                                       µ
+                  G    ⟳    T ∗X            g∗ ,         µ([g, ξ]) = Ad∗g ξ,       (5)
+where [g, ξ] denotes the K-orbit through the point (g, ξ) in G × s∗ .
+2.4. Hamiltonian geometry on T ∗ X. Let us recall some results of Lisiecki
+[Lis87] which will be useful below. Let g∗h denote the set of so-called hyperbolic
+elements in g∗ , that is for a coadjoint orbit Oλ , one has
+                                Oλ ⊂ g∗h iff Oλ ∩ s∗ ̸= ∅.
+There is then a bijection of orbit spaces for the coadjoint action of G and K
+                                            ∼
+                                     g∗h /G → s∗ /K,
+leading to an identification
+                                            ∼
+                               g∗h /G ∋ Oλ 7→ λ ∈ ā∗+ \ {0}
+where ā∗+ denotes the closure of a∗+ . Under this identification, regular coadjoint
+orbits (that is, of maximal dimension) correspond to λ ∈ a∗+ . We denote by
+(g∗h )reg ⊂ g∗h the union of all regular coadjoint orbits.
+   One then obtains a G-equivariant diffeomorphism
+                                                   ∼
+                                 a∗+ × G/M A → (g∗h )reg
+given by (λ, g · M A) 7→ Ad∗g (λ). Note that, for each fixed λ ∈ a∗+ , this map gives a
+G-equivariant diffeomorphism between the regular coadjoint orbit Oλ and G/M A.
+  Recall from (5) the moment map µ for the Hamiltonian G-action on T ∗ X. One
+obtains, see Paragraph (2.1) of [Lis87], from G-equivariance of µ and from the
+natural identification Tx∗o X ∼
+                              = s∗ , where xo = e · K,
+                                      µ(T ∗ X) = g∗h .
+                             FH = INFINITE-TIME QGT                               7
+
+  Let
+                              (T ∗ X)reg := µ−1 ((g∗h )reg )
+denote the open dense subset of T ∗ X where the moment map takes values in
+regular coadjoint orbits. Note that (T ∗ X)reg is a multiplicity free Hamiltonian
+space (that is, the values of the moment map µ separate G-orbits) with G-orbits
+being diffeomorphic to G/M .
+  Recall that each point in (T ∗ X)reg can be uniquely represented as [g, λ] ∈
+G ×K s∗ , for some g ∈ G and λ ∈ a∗+ . From Section 4 in [Lis87], we then have a
+G-equivariant diffeomorphism
+                                        ∼
+                          φ : (T ∗ X)reg −→ X × a∗+ × B,                       (6)
+given by
+              φ([g, λ]) := (g · K, λ, g · M AN ) = (g · K, λ, k1 (g) · M ).
+We have g · M AN = k1 (g) · M ∈ B, where we recall the Iwasawa decomposition
+g = k1 (g)eH(g) n1 (g) in (2). The inverse of φ can be used to pull-back the sym-
+plectic structure from (T ∗ X)reg to X × a∗+ × B so that Hamiltonian geometry and
+geometric quantization of (T ∗ X)reg can be naturally described on X × a∗+ × B.
+  Let A : X × B → a be defined by
+                        A(x, b) := A(k −1 g) = −H(g −1 k),
+where x = g · K, b = k · M with k ∈ K, g ∈ G. (See, Theorem 4.2 in [Lis87].)
+Below, we will still use the same notation
+                         A := A ◦ φX×B : (T ∗ X)reg → a,
+where φX×B is the component of φ along X × B, so that
+                        A(x, b) = −H(g −1 k1 (g)) = H(g).                      (7)
+2.5. The Fourier polarization for T ∗ X. Geometric quantizations of T ∗ X pre-
+serving symmetries require G-invariant polarizations of the symplectic manifold
+T ∗ X.
+   One such polarization, called the vertical polarization which will be denoted by
+P0 , is canonically given by the fibers of the cotangent bundle. The corresponding
+polarized sections are simply the functions factorizing through the bundle projec-
+tion π : T ∗ X → X, that is functions on X. This leads to the Hilbert space of
+vertically polarized quantum states
+                                  HP ∼
+                                   0   = L2 (X, dx),
+with G acting by the regular representation.
+  The goal of this paper is to improve on the current understanding of the de-
+scription of the (unitary) Fourier-Helgason transform
+                                                         
+                         2            2   ∗        dλdb
+                        L (X, dx) → L a+ × B,               ,
+                                                  |c(λ)|2
+8            A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+where c is the Harish-Chandra c–function (see [Hel08, Thm. III.1.5]), as an in-
+tertwiner map between Hilbert spaces of quantum states induced by a change of
+polarization. For this purpose, one is interested in a “Fourier polarization” for
+which the space of leaves is measure-isomorphic to a∗+ × B.
+   In [Lis87], Lisiecki found such a polarization, which he called “horizontal” (and
+which we will also call “Fourier”). In the case when G is complex, he proved that
+the Blattner-Kostant-Sternberg (BKS) pairing map between the Hilbert spaces
+for the quantizations in the vertical and horizontal polarizations is unitary and
+that it indeed coincides with the Fourier-Helgason transform.
+   Our aim is to generalize this result to more general G, so that G is not nec-
+essarily complex, by using a “quantum geodesic transform” instead of the BKS
+pairing. The idea is to connect the vertical and Fourier polarizations through a
+continuous family of polarizations generated by an appropriate Hamiltonian flow
+(in real time). The quantum geodesic transform is an analog of the generalized
+coherent state transforms, which are associated to Hamiltonian flows in imaginary
+time, and which have been used in [Bai+25b] and [Bai+25a] to describe families
+of quantizations for Kähler polarizations on cotangent bundles of compact Lie
+groups and of compact symmetric spaces, respectively.
+   Let us recall briefly some of the results of Lisiecki. Recall from (6) that the open
+dense subset (T ∗ X)reg ⊂ T ∗ X is G-equivariantly diffeomorphic to X × a∗+ × B so
+that quantizations can be described on the latter.
+
+Proposition 1 (Lisiecki, Proposition (3.3) [Lis87]). Let
+
+                      b = pa∗+ ×B ◦ φ : (T ∗ X)reg −→ a∗+ × B,
+                      π
+
+where pa∗+ ×B : X × a∗+ × B → a∗+ × B is the natural projection.
+  The fibers of π̂ define a Lagrangian foliation of (T ∗ X)reg . The corresponding
+polarization, PF , is called the “horizontal” or “Fourier” polarization.
+
+   Note that on the symplectic manifold X × a∗+ × B, whose symplectic structure
+is induced by φ from the canonical symplectic structure on (T ∗ X)reg , the vertical
+and horizontal polarizations are simply given by the projections X × a∗+ × B → X
+and X × a∗+ × B → a∗+ × B, respectively.
+   Since G acts on T ∗ X by symplectomorphisms, and since π     b is G-equivariant,
+                                                                     b over (λ, bo ), λ ∈
+Proposition 1 can be proved by checking explicitly that the fiber of π
+a∗+ , is Lagrangian. (See [Lis87].)
+   Consider now the function
+
+                         S : X × a∗+ × B → R
+                                 (x, λ, b) 7→ ⟨λ, A(x, b)⟩,                         (8)
+
+where A(x, b) is given in (7). One obtains
+                               FH = INFINITE-TIME QGT                                     9
+
+Theorem 1 (Lisiecki, Paragraph 6 [Lis87]). The Hilbert space of PF -polarized
+quantum states is                                  
+                               ∼   2   ∗     dλdb
+                          HPF = L a+ × B,             ,
+                                            |c(λ)|2
+where PF -polarized functions have the form
+                                          f eiS ,
+                           
+for f ∈ L2 a∗+ × B, |c(λ)|
+                     dλdb
+                           2 and S in (8).
+
+
+
+        3. Geodesic flow and a family of polarizations on T ∗ X
+3.1. Strategy. Polarizations on symplectic manifolds evolve naturally under push-
+forward by Hamiltonian flows. In the cases of cotangent bundles of compact Lie
+groups, or of symmetric spaces of compact type, as well as for other families of
+symplectic manifolds, in fact, Hamiltonian flows generated by Casimir functions
+on the Lie algebra, can be used to describe very interesting continuous families of
+quantizations. In these examples, the analytic continuation to imaginary time of
+these Hamiltonian flows allows for a continuous interpolation between the quan-
+tization in the vertical polarization and interesting polarizations of mixed type,
+with rich geometric properties and relations to representation theory. In this way,
+one obtains, for example, a geometric interpretation of the Peter-Weyl theorem by
+relating it to the Borel-Weil realization of irreducible representations of a compact
+Lie group in terms of holomorphic line bundles over coadjoint orbits. In these ex-
+amples, the path of polarizations, induced by the Hamiltonian flow in imaginary
+time, corresponds to a geodesic in the space of Kähler metrics, with the mixed
+polarization corresponding to the limit of infinite geodesic time. Over this path
+of polarizations one can consider the corresponding “quantum” bundle of Hilbert
+spaces of polarized (or quantum) states. The so-called generalized coherent state
+transform, of which the Segal-Bargmann transform is the paradigmatic example,
+provides the natural intertwining map between the Hilbert spaces for the different
+quantizations along the family.1 (See [Bai+25b; Bai+25a].)
+   In the present case, as will be described below, due to the fact that X = G/K
+is of noncompact type, this strategy needs to be adapted. In fact, in the present
+case, one needs to consider Hamiltonian flows in real-time. We will consider, then,
+the Hamiltonian flow generated by the quadratic Casimir
+                            h : T ∗ X −→ R,         h := |µ|2 /2,                       (9)
+where µ is the moment map for the Hamiltonian G-action in (5). This coincides
+with the usual “energy function” defined on T ∗ M , for a Riemannian manifold M ,
+and whose Hamiltonian flow (with respect to the canonical symplectic structure
+  1In some examples, the gCST coincides with the BKS pairing map but this is not usually the
+case.
+10            A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+on T ∗ M ) coincides with the geodesic flow (under the identification T M ∼
+                                                                          = T ∗M
+induced by the Riemannian structure).
+  Therefore, the Hamiltonian flow of the Hamiltonian vector field of h, Xh , is the
+geodesic flow for the G-invariant metric on X. It is given by
+                                φX               tξ̃
+                                 t ([g, ξ]) = [ge , ξ],
+                                  h
+                                                                               (10)
+where ξ˜ ∈ g is the image of ξ ∈ g∗ under the isomorphism given by the Killing
+form.
+   The geodesic flow on (T ∗ X)reg becomes
+                       ηt := φX                 tH
+                              t ([g, λH ]) = [ge , λH ], t ∈ R,
+                               h
+                                                                               (11)
+with H ∈ a+ and where λH ∈ a∗+ is the corresponding element under the identi-
+fication g ∼
+           = g∗ , using the Killing form so that the map H 7→ λH is the inverse of
+     ˜ λ̃H = H.
+ξ 7→ ξ,
+Remark 2. Recall that, associated with the inclusions a ,→ s ,→ g ←- k we have
+the restriction maps a∗ ← s∗ ← g∗ → k∗ . Using the Killing form κ , we get on
+each level the isomorphism h∗ → h, ξ 7→ ξ˜ = Hξ with inverse h → h∗ , H 7→ λH via
+                ˜ H) = κ(Hξ , H) = ξ(H) and κ(H, H ′ ) = λH (H ′ ).
+              κ(ξ,
+These isomorphisms yield splittings for the restrictions, so we get injections a∗ ,→
+s∗ ,→ g∗ ←- k∗ commuting with the isomorphisms.
+     We set
+                             xt := π(ηt ) = getH · K ∈ X.
+   Below, we will first show that the geodesic flow continuously interpolates be-
+tween the vertical polarization P0 , at t = 0, and the Fourier polarization PF of
+Proposition 1 in the limit t → +∞. We will then use a real-time analog of the
+generalized coherent state transform, which we call the “quantum geodesic trans-
+form”, to lift the flow to the bundle of Hilbert spaces of quantum states, showing
+that in the limit t → +∞ we obtain the unitary Fourier-Helgason transform.
+3.2. Geodesic flow from the vertical to the Fourier polarization. Let us
+now study the evolution of the vertical polarization under the Hamiltonian flow
+generated by h.
+  A P0 -polarized function is a function on X (pulled-back to T ∗ X)
+                       (π ∗ f )([g, ξ]) = f (g · K), f ∈ C ∞ (X).
+Note that, from the definition of the canonical symplectic form on T ∗ X, the po-
+larization P0 is generated by the Hamiltonian vector fields of smooth P0 -polarized
+functions. Then we have
+Proposition 2. On (T ∗ X)reg , the polarization Pt := (φX −t )∗ P0 is generated by
+                                                           h
+
+
+the functions
+                 Ft ([g, λH ]) := f (getH · K), f ∈ C ∞ (X).
+                                   FH = INFINITE-TIME QGT                                   11
+
+Proof. We have that
+  ((φXh ∗ ∗                      Xh                       tH
+     t ) π f )([g, λH ]) = f (π(φt ([g, λH ]))) = f (π([ge , λH ])) = f (ge
+                                                                            tH
+                                                                               · K).
+                                                                                            □
+  Let us now show that when t → +∞, with the limit being taken pointwise in the
+Lagrangian Grassmannian bundle on (T ∗ X)reg , there exists a limit polarization
+and that it coincides with the Fourier polarization in Proposition 1, that is
+                                         ∃ lim Pt = PF .                                  (12)
+                                           t→∞
+
+  Recall that a regular coadjoint orbit Oλ , λ ∈ a∗+ , is a symplectic manifold with
+canonical symplectic structure given by the Kostant-Kirillov-Souriau form. One
+defines a real polarization POλ on Oλ to be the G-invariant real polarization of
+Oλ defined by the fibers of the canonical projection
+                          Oλ ∼
+                             = G/M A → B = G/M AN,
+as in Paragraph 3 in [Lis87]. More precisely, for λ ∈ a∗+ , let
+                                       αλ : G/M A → Oλ
+be the G-equivariant diffeomorphism given by
+                                     αλ (g · M A) := Ad∗g λ.                              (13)
+  From the Bruhat decomposition g = n̄ + m + a + n, we have an identification
+                         Te·M A (G/M A) ∼= n̄ + n.
+Let D ⊂ T (G/M A) be the half-dimensional G-invariant distribution given at the
+identity coset by
+                                De·M A := n.
+Denote by D ⊂ T (G/M A) the complementary G-invariant distribution such that
+                                           De·M A := n̄.
+  Then the polarization POλ can be obtained as follows.
+Lemma 1. For λ ∈ a∗+
+                                         POλ = (αλ )∗ D.
+Proof. From equation (3.1.2) in [Lis87], we have that POλ is the G-invariant po-
+larization on Oλ which at λ ∈ Oλ is given by the subspace
+            (m + a + n)⊥ = {ξ ∈ g∗ : ξ(µ̃) = 0, ∀µ̃ ∈ m + a + n} ⊂ g∗ .
+Let ξ˜ ∈ n, ϵ > 0, and consider the curve γ(t) = etξ̃ · M A, t ∈ (−ϵ, ϵ), through the
+identity coset in G/M A. Then,
+                d                            d                          ˜ µ̃]⟩, µ̃ ∈ g.
+            ⟨           Ad∗etξ̃ λ, µ̃⟩ = ⟨λ,        Ad −tξ̃ µ̃⟩ = ⟨λ, −[ξ,
+                dt |t=0                      dt |t=0 e
+12            A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+Since ξ˜ ∈ n, this is zero if µ̃ ∈ m + a + n, so that at e · M A indeed
+                              (αλ )∗ n = (m + a + n)⊥ .
+                                                                                    □
+   Therefore, for every λ ∈ a∗+ , the polarization POλ on Oλ can be obtained by
+push-forward from a fixed G-invariant distribution on G/M A.
+   Let â∗+ be the set of ν ∈ a∗+ which occur as highest weights of finite dimensional
+irreducible spherical representations of G in the sense of [Hel84, Thm. V.4.1]. We
+denote the representation of G corresponding to ν by (πν , Hν ) and fix a highest
+weight vector vν ∈ Hν . The derived representation of πν extends to gC , which
+in turn integrates to a representation π̂ν of the simply connected complex Lie
+group ĜC with Lie algebra gC . We may assume that this representation is unitary
+on the maximal compact subgroup U = exp(k + is) of ĜC . Thus, the derived
+representation is skew-Hermitian on k + is. Hence, the restriction of πν from G to
+K is unitary.
+Lemma 2. Let ν ∈ â∗+ . For any v ∈ Hν , the functions on G
+                               Hvν (g) := ⟨v, πν (g)vν ⟩,                        (14)
+satisfy the following properties:
+    (i) They are A-equivariant, that is for all a ∈ a,
+                         ⟨v, πν (gea )vν ⟩ = e⟨ν,a⟩ ⟨v, πν (g)vν ⟩
+     (ii) They are M N -invariant, that is, for all m ∈ M, n ∈ N
+                           ⟨v, πν (gmn)vν ⟩ = ⟨v, πν (g)vν ⟩.
+Proof. The only part that is not immediate is the M -invariance but this is guar-
+anteed by [Hel84, Thm. V.4.1(i)].                                              □
+Remark 3. From (i) in Lemma 2, we conclude that the functions Hvν in (14) define
+sections of a line bundle
+                           Lν := (G ×A C · vν ) −→ G/A.
+Point (ii) in Lemma 2 then gives that Lν is actually a pull-back of a line bundle
+                           L̃ν := (G ×M AN C · vν ) −→ B,
+and that the functions Hvν are actually pull-backs of sections of L̃ν under the
+projection G/A → B = G/M AN .
+Lemma 3. For each non-zero ξ˜ ∈ n̄ and ν ∈ â∗+ we have πν (ξ)v
+                                                            ˜ ν ̸= 0.
+
+Proof. Lemma 2 implies that, for ν ∈ â∗+ , m + n is in the annihilator of vν and a is
+in the stabilizer of Cvν . Thus the stabilizer of Cvν contains the minimal parabolic
+subalgebra m + a + n. Now [Kna96, § VII.7] yields that the stabilizer of Cvν is a
+real parabolic subalgebra of g of the form m + a + n + ū with u a subalgebra of
+                                 FH = INFINITE-TIME QGT                                     13
+
+n. Any element ξ˜ ∈ n̄ stabilizing Cvν has to annihilate it because any gα maps vν
+into the weight space of ν + α. Thus the annihilator of vν contains m + n + ū. If
+ū ̸= 0, then it contains a root vector ζ̃ ∈ g−α with α ∈ Σ+ . By [Kna96, Prop. 6.52]
+we have
+                            cHα = [ζ̃, σ ζ̃] ∈ (m + a) ∩ s = a
+with c < 0. But πν (σ ζ̃)vν = 0 as σ ζ̃ ∈ ga , so we also have πν ([ζ̃, σ ζ̃])vν = 0. But
+then Lemma 2(i) says that ⟨ν, [ζ̃, σ ζ̃]⟩ = 0 which contradicts ν ∈ a∗+ . Thus, we
+have shown that ū = 0.
+  We now know that only elements of m + a + n can stabilize Cvν . In particular,
+no element of n̄ can stabilize Cvν , let alone annihilate it.
+                                                                                       □
+Lemma 4. Whenever well-defined, on open sets U ⊂ G/M A, consider the func-
+tions
+                                          ν
+                                         Fv,ṽ :U →C
+given by
+                               ν                    ⟨v, πν (g)vν ⟩
+                              Fv,ṽ (g · M A) :=                    .                 (15)
+                                                    ⟨ṽ, πν (g)vν ⟩
+   Then
+           ν
+     (i) Fv,ṽ is constant along the distribution D ⊂ T (G/M A) of Lemma 1.
+    (ii) For each non-zero tangent vector u ∈ Dg·M A , there exists ν ∈ â∗+ , v, ṽ ∈ Hν ,
+         such that
+                                            ν
+                                         dFv,ṽ (u) ̸= 0.
+   (iii) For λ ∈ a∗+ , the Hamiltonian vector fields of the set of functions (αλ−1 )∗ Fv,ṽ
+                                                                                       ν
+
+         generate the polarization POλ .
+Proof. Let ξ˜ ∈ n and consider the curve γ(t) = getξ̃ · M A, t ∈ (−ϵ, ϵ), ϵ > 0, so
+                                                          ˜ ν = 0, a simple explicit
+that γ̇(0) ∈ Dg·M A . To prove (i), note that, since πν (ξ)v
+calculation gives that
+                                 d
+                                        F ν (γ(t)) = 0.
+                                 dt |t=0 v,ṽ
+  To prove (ii), let u = γ̇(0), where γ(t) = getξ̃ with ξ˜ ∈ n̄. We have
+                              ˜ ν ⟩⟨ṽ, πν (g)vν ⟩ − ⟨v, πν (g)vν ⟩⟨ṽ, πν (g)πν (ξ)v
+               ⟨v, πν (g)πν (ξ)v                                                  ˜ ν⟩
+      ν
+    dFv,ṽ (u) =                                                                         .
+                                            ⟨ṽ, πν (g)vν ⟩2
+From Lemma 3, for each such ξ˜ ∈ n̄, one can find ν ∈ â∗+ such that πν ( ˜        ξ)vν ̸= 0.
+  Let then v = πν (g)πν ( ˜
+                         ξ)vν and ṽ = πν (g)vν . Then,
+                       ν
+                           (u) = ||ṽ||−2 ||v||2 ||ṽ||2 − |⟨v, ṽ⟩|2 .
+                                                                     
+                    dFv,ṽ
+                               ˜ ν is proportional to vν which will not happen if
+The numerator vanishes iff πν (ξ)v
+ξ˜ ∈ n̄.
+14             A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+   Given the description of POλ in Lemma 1, one immediately obtains that (i)
+and (ii) imply (iii). Note that the differential of (αλ−1 )∗ Fv,ṽ
+                                                              ν
+                                                                   vanishes along vectors
+lying in the distribution POλ , so that the Hamiltonian vector field of (αλ−1 )∗ Fv,ṽ ν
+
+is in POλ .                                                                            □
+
+  Let µKir : (T ∗ X)reg → a∗+ be the Kirwan moment map which is obtained by
+rotating the values of the moment map µ in (5) to the positive Weyl chamber by
+acting with the Weyl group. Let
+                     r := rank(G/K) = dim µKir (T ∗ X)reg = dim A.
+Proposition 3. The Fourier polarization PF on (T ∗ X)reg is uniquely defined by
+the following two properties
+       (i) The Hamiltonian vector fields of the components of µKir define an r-di-
+           mensional subspace of the directions in PF .
+      (ii) Consider
+                µ̃ : (T ∗ X)reg → G/M A,       [g, ξ] 7→ αµ−1Kir ([g,ξ]) ◦ µ([g, ξ]).
+
+          The pull-backs under µ̃ of functions factorizing through G/M A → G/M AN
+          are PF -polarized.
+Proof.         (i) Recall that, under the identification (T ∗ X)reg ∼
+                                                                    = X×a∗+ ×B given by
+           the map φ in (6), the Fourier polarization PF is defined by the projection
+           X×a∗+ ×B → a∗+ ×B. The coordinates of µKir are then given directly by the
+           component along a∗+ that is, under the above identification µKir (x, λ, b) =
+           λ. This is clearly constant along the fibers of the projection defining PF ,
+           which proves (i).
+      (ii) Note that the projection defining PF , (T ∗ X)reg → a∗+ × B, factorizes
+           through µ : (T ∗ X)reg → (g∗h )reg ∼
+                                              = a∗+ × G/M A, with the projection onto
+           B being the projection Oλ ∼  = G/M A → B which defines POλ , as follows
+           from Lemmas 1, 2 and 4. As µ̃ is the composition of µ with the projection
+           onto the second factor if we use the identification (g∗h )reg ∼
+                                                                         = a∗+ × G/M A
+           in the description of
+                                  µ : (T ∗ X)reg → (g∗h )reg ,
+          then (ii) follows.
+                                                                                        □
+
+     We are now ready to prove our main result (12) of this section.
+Theorem 2. The limit polarization on (T ∗ X)reg in (12) exists and it coincides
+with the Fourier polarization,
+                               lim Pt = lim (φX
+                                              −t )∗ P0 = PF .
+                                               h
+                               t→∞       t→∞
+                                     FH = INFINITE-TIME QGT                                     15
+
+Proof. For ν ∈ â∗+ , a spherical vector vνK ∈ Hν and v ∈ Hν , consider the linear
+functional v ∗ on Hν defined by v ∗ (w) = ⟨w, v⟩Hν and the rank one operator
+                           vνK ⊗ v ∗ : Hν → Hν ,         w 7→ ⟨w, v⟩vνK .
+Then the function fν,v : (T ∗ X)reg → C defined by
+                    fν,v ([g, ξ]) = tr(πν (g)(vνK ⊗ v ∗ )),       g ∈ G, ξ ∈ a∗+              (16)
+is vertically polarized, so its Hamiltonian vector field lies in P0 .
+   Let {wj }j=1,... dim Hν , be a basis of weight vectors for Hν , where wj corresponds
+to the weight νj = ν − βj where βj is a linear combination of positive roots with
+positive coefficients. Let us fix w1 = vν so that β1 = 0. From Proposition 2, the
+time t evolution of fν,v under the geodesic flow is
+            t
+           fν,v ([g, ξ]) := tr(πν (g)πν (etξ̃ ) vνK ⊗ v ∗ )
+                                                P Hν                           
+                         = tr πν (g)πν (etξ̃ ) dim  j=1     w j ⊗ w ∗ K
+                                                                     (v
+                                                                    j ν ) ⊗ v ∗
+
+                           Pdim Hν t(ν−βj )(ξ̃)
+                         = j=1 e                  tr(πν (g)wj ⊗ wj∗ (vνK ) ⊗ v ∗ )
+                         = etν(ξ̃) (tr(πν (g) ◦ (vν ⊗ vν∗ ) ◦ (vνK ⊗ v ∗ ))) + o(etν(ξ̃) ),
+
+where for the last equality we have used that ξ˜ ∈ a+ and ν ∈ a∗+ so that ν(ξ)
+                                                                            ˜ =
+    ˜ > ⟨ν − βj , ξ⟩
+⟨ν, ξ⟩            ˜ > 0. Thus we have
+                     t
+                    fν,v ([g, ξ]) = etν(ξ̃) ⟨vν , vνK ⟩⟨v, πν (g)vν ⟩ + o(etν(ξ̃) ) .         (17)
+and find
+                                   t
+              ν
+                                  fν,v  ([g, ξ])   ⟨v, πν (g)vν ⟩ (15) ν
+            F̂v,ṽ ([g, ξ]) := lim t
+                                                 =                 = Fv,ṽ (g · M A).
+                              t→∞ f ([g, ξ])
+                                   ν,ṽ            ⟨ṽ, πν (g)vν ⟩
+                          t
+Also, away from zeros of fν,v , for any choice of branch for log, we have
+         1                                1
+                t
+                    ([g, ξ]) = ν( ˜         log ⟨vν , vνK ⟩⟨v, πν (g)vν ⟩ + o(1)
+                                                                                
+     lim   log fν,v              ξ) + lim
+     t→∞ t                            t→∞ t
+                                  ˜
+                             = ν(ξ).
+These limits imply the existence of the limit polarization, limt→∞ Pt in (12) and
+show that it is generated by the Hamiltonian vector fields of the components of
+the Kirwan moment map
+                                     µKir ([g, ξ]) = ξ, ξ ∈ a∗+ ,
+                                                 ν
+together with the Hamiltonian vector fields of F̂v,ṽ .
+  In view of (13) we have
+                   ν
+                 F̂v,ṽ             ν
+                        ([g, ξ]) = Fv,ṽ ◦ (αξ )−1 ◦ µ([g, ξ]) = Fv,ṽ
+                                                                  ν
+                                                                       ◦ µ̃([g, ξ]).
+16           A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+                                             ν
+Moreover, by Lemma 2(ii) the function Fv,ṽ      : G/M A → C factors through
+                                                              ν
+G/M A → G/M AN . Thus, Proposition 3(ii) implies that F̂v,ṽ     is PF -polarized.
+This shows that the limit polarization is contained in and hence equal to PF . □
+Remark 4. There exists a Weyl group action on the space of real G-invariant
+polarizations on Oλ .
+   To define a polarization which is “rotated” relative to POλ by the Weyl group
+element w ∈ W = NK (A)/ZK (A), one uses in Lemma 4 the Hamiltonian vector
+fields of the functions
+        wν                ν w                 ν                 ν
+       Fv,ṽ ([g, ξ]) = (Fv,ṽ ) ([g, ξ]) := Fv,ṽ ([g, wξ]) = Fv,ṽ ([ggw , ξ])
+                                             ⟨v, πν (g)πν (gw )vν ⟩
+                                                  =                  ,
+                                             ⟨ṽ, πν (g)πν (gw )vν ⟩
+where gw is a representative in NK (A) ⊆ G of w.
+  Note that the elements g, ξ, vν depend on the choice of positive Weyl chamber.
+3.3. Evolution of the canonical form along the geodesic flow. In this sec-
+tion, we will describe how the canonical form for the vertical polarization P0
+evolves along the geodesic flow. This will be important later for the consideration
+of the crucial contribution of the half-form correction in the geometric quantiza-
+tion description of the Fourier-Helgason transform.
+   Recall that a canonical form associated to a polarization P on a symplectic
+manifold (M 2n , ω) is a n-form which is annihilated by P. A canonical form for the
+polarizations Pt , t ≥ 0, described in Proposition 2, is given by
+                                            ∗
+                                dηt := φXt
+                                           h
+                                                ◦ π ∗ dx,                      (18)
+where dx is the G-invariant dim(X)-form on X associated with the measure dx
+introduced in Subsection 2.1. Note that the canonical form for the vertical polar-
+ization P0 is dη0 = π ∗ dx.
+   The main result in this section is Proposition 4, below, which describes the
+asymptotic behavior of dηt as t → ∞. We will consider some preparatory material
+before stating and proving it.
+   Recall the Lie algebra notations introduced in Subsection 2.1. We will denote
+generators for n given by root vectors {Eα }α∈Σ+ , where the positive restricted
+roots will always be counted with multiplicities in what follows. We consider the
+root vectors
+                            E−α := σ(Eα ), α ∈ Σ+ ,
+where σ is the Cartan involution, as the generators of n̄. We have
+                               M                      M
+                     k=m⊕         kα and s = a ⊕           sα ,
+                                 α∈Σ+                         α∈Σ+
+
+where kα := k∩(gα +g−α ) and sα := s∩(gα +g−α ). We will consider the generators
+               EαK := Eα + E−α        and Eαs := Eα − E−α ,           α ∈ Σ+ ,
+                               FH = INFINITE-TIME QGT                                  17
+
+of kα and sα respectively. For m we take generators {Mi }i=1,...,m , where m :=
+dim m. Let us recall a basic result.
+  Let Θ be the (left-invariant) g-valued Maurer-Cartan form on G, so that
+                               Θg (g · Y ) = Y, Y ∈ Te G
+where we will denote by g · Y the push-forward of Y ∈ Te G by the left-translation
+Lg : G → G, g ∈ G.
+Lemma 5. Under right translation by g ∈ G, Rg : G → G, Rg u = ug, u ∈ G, we
+have
+                             Rg∗ Θ = Adg−1 Θ.
+Proof. The proof is standard, but let us include it for completeness. Let Y ∈ Te G.
+Then
+          (Rg∗ Θ)u (u · Y ) = Θug (u · Y · g) = Θug (ug · Adg−1 Y ) = Adg−1 Y,
+where we denote by Y · g the push-forward of Y ∈ Te G by Rg .                         □
+  In order to prove Proposition 4 it will be useful to recall the diffeomorphism
+                            (T ∗ X)reg ∼
+                                       = G/M × a∗ ,               +
+
+which assigns to the point [g, ξ] ∈ (T X)reg , g ∈ G, ξ ∈ a∗+ , the pair (g · M, ξ) ∈
+                                           ∗
+
+G/M ×a∗+ , c.f. (6) and the diffeomorphism G/M ∼  = G/K ×K/M . Lift the geodesic
+flow given in (10) to G × a+ through the natural projection G × a∗+ → G/M × a∗+ .
+                            ∗
+
+This means, for t ∈ R, we let Φt : G × a∗+ → G × a∗+ be the map
+                                 Φt (g, ξ) := (getξ̃ , ξ),
+where, as before, ξ˜ ∈ a+ is the image of ξ ∈ a∗+ under the identification g∗ ∼
+                                                                              = g.
+We will denote also by Θ the pull-back of Θ from G by the natural projection
+                                  pG : G × a∗+ → G.
+                                                                           
+  We also consider a Killing orthonormal basis {Aj }j=1,...,r for a and let η̂jA j=1,...r
+denote the translation invariant 1-forms on a∗ such that η̂jA (ξ) = ξ˜j where ξ˜ =:
+Pr ˜
+  j=1ξj Aj . If we equip a∗ with the dual metric of the Killing form and write
+{ρj }j=1,...,r for the (orthonormal) dual basis of {Aj }j=1,...,r , then η̂jA ∈ a∗ ∗ = a
+form the dual basis of {ρj }j=1,...,r , whence
+                                                   r
+                                                   ^
+                                    dvola∗     =         η̂jA ,                     (19)
+                                                   j=1
+
+is the volume form on the Riemannian manifold a∗ (see Appendix A for a more
+detailed discussion of volume forms).
+   According to the normalization of measures in Chapter II, Paragraph 3, Section
+1 of [Hel08], we have
+                                          r
+                               dλ = (2π)− 2 dvola∗ ,
+18                A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+as mentioned at the end of Section 2.1. We will also use the same notation η̂jA for
+the pull-back of this one-form to G × a∗+ by the natural projection pa∗+ : G × a∗+ →
+a∗+ .
+Lemma 6. We have
+                                                                  r
+                                                                  X
+                                   (Φ∗t Θ)(g,ξ) = Ade−tξ̃ Θ + t         η̂jA Aj .                      (20)
+                                                                  j=1
+
+Proof. Let (Y, ξ ′ ) be a tangent vector to G × a∗+ at the point (e, ξ). We have
+                                d                                   d                      ′
+     (DΦt )(g,ξ) (g · Y, ξ ′ ) =         Φt (gesY , ξ + sξ ′ ) =            (gesY et(ξ̃+sξ̃ ) , ξ + sξ ′ )
+                                                              
+                               ds |s=0                              ds |s=0
+                             = (getξ̃ · (Ad −tξ̃ Y + tξ˜′ ), ξ ′ ).
+                                                  e
+
+Then
+                               (Φ∗t Θ)(g,ξ) (g · Y, ξ ′ ) = Ade−tξ̃ Y + tξ˜′ ,
+from which the result follows immediately.                                                                   □
+Remark 5 (Expansions of the Maurer-Cartan form). We view the Maurer-Cartan
+form Θg at g ∈ G as an element of
+ hom(Tg G, Te G) = hom(dLg (e)(g), g) = (dLg (e)(g))∗ ⊗ g = (dLg (e)∗ )−1 (g∗ ) ⊗ g
+with the dual map dLg (e)∗ : Tg∗ G → g∗ of the derivative dLg (e) : g = Te G → Tg G
+of the left translation Lg : G → G by g at e. Note that G acts on T ∗ G by
+              ∀g, h ∈ G, ν ∈ ThG :          g · ν = (dLg (e)∗ )−1 ν ∈ hom(Tgh
+                                                                           ∗
+                                                                              G, Th∗ G).
+This means the left G-invariant g-valued form g 7→ Θg can be viewed as an element
+Ω1 (G)G ⊗ g, where Ω1 (G)G is the space of left G-invariant 1-forms on G. If now
+(Yj )j is a basis for g, then we have an expansion
+                                  X            X
+                              Θ=      ηj Yj :=   ηj ⊗ Yj
+                                              j             j
+
+with ηj ∈ Ω1 (G)G such that the (ηj (e))j form the dual basis of (Yj )j as Θe = idg .
+     We apply Remark 5 to the Cartan and Bruhat decompositions of g,
+                                       g = k ⊕ s = n̄ ⊕ m ⊕ a ⊕ n,
+from Subsections 2.2 and 3.2. Using the Bruhat decomposition, the Maurer-
+Cartan form can be written as
+                   X                       r
+                                           X         m
+                                                     X
+             Θ=       (ηα Eα + η−α E−α ) +    A
+                                             ηj Aj +   ηiM Mi ,      (21)
+                           α∈Σ+                             j=1               i=1
+                               FH = INFINITE-TIME QGT                                                  19
+
+where the coefficients ηα , η−α , ηjA , ηjM are left-invariant one-forms on G. Using the
+Cartan decomposition, on the other hand, we have
+                    X                 m
+                                      X                X                      r
+                                                                              X
+              Θ=          ηαK EαK +         ηiM Mi +          ηαs Eαs +             ηjA Aj ,       (22)
+                   α∈Σ+               i=1              α∈Σ+                   j=1
+
+where ηαK , ηαs are left-invariant one-forms on G. We have the equalities
+         1                      1
+    ηαK = (ηα + η−α ),     ηαs = (ηα − η−α ),           ηα = ηαK + ηαs ,             η−α = ηαK − ηαs
+         2                      2
+for α ∈ Σ+ .
+   We will henceforth use the same notation for the pull-back to G × a∗+ under pG
+of the forms ηα , η−α , ηjA , ηjM , ηαK , ηαs .
+   Let pX : G → X = G/K be the canonical projection.
+Lemma 7. We have on G × a∗+ , for a nonzero constant c0 ,
+                                                 ^              r
+                                                                ^
+                                      ∗
+                          (pX ◦ pG ) dx = c0            ηαs ∧         ηjA .                        (23)
+                                                 α∈Σ+           j=1
+
+Remark 6. The lemma also holds on G if in (23) we take p∗X dx on the left-hand
+side and on the right-hand side the corresponding forms on G.
+Proof. Note that the form p∗X dx is a basic form (see [KW16]) with respect to
+the right K-action on G, that is, it is K-invariant and it is annihilated by vec-
+tors tangent to the K-orbits. Now, note that, under the K-action, the left
+G-invariant form on the right-hand side of (23), transforms by a factor given
+by det (AdK : s → s) which is equal to 1, since K is connected. (Note that
+K ∋ x 7→ det (Adx : s → s) ∈ R× gives a group homomorphism K → R× whose
+image is a compact connected subgroup of R× .) Therefore, the right-hand side of
+(23) is K-invariant.
+   In addition, if Oe denotes the K-orbit through e ∈ G, for the right K-action on
+G, then Te Oe = k ⊂ g and vectors tangent to Oe at e annihilate the right-hand
+side of (23). Since this form is left G-invariant and the left action of G commutes
+with the right K-action we obtain that the right-hand side of (23) is annihilated
+by tangent vectors to the K-orbits at every point.
+   It follows (see, for example, Theorem 1.1 of [KW16]) that there exists a unique
+top form on the symmetric space X of which the right-hand side of (23) is the
+pull-back under the projection pX . Since pX commutes with the left G-action we
+conclude that this top form is also left G-invariant and therefore corresponds, up
+to scale, to the G-invariant measure on X, dx.                                   □
+
+  Let pB : G → B = G/M AN ∼     = K/M be the canonical projection. The K-
+invariant dim(B)-form db on B, which is associated with the measure db defined
+20             A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+at the end of Section 2.1, is not left G-invariant but, from Proposition I.5.1 in
+[Hel84], we have that
+                                  e2ρ(A(x,b)) p∗B db
+is left G-invariant, where ρ is the Weyl vector given by the half-sum of the re-
+stricted roots (counted with multiplicities) and A(x, b) is defined in (7).
+Lemma 8. We have, for a nonzero constant c1 ,
+                                                                   ^
+                           (pB ◦ pG )∗ db = c1 e−2ρ(A(x,b))                η−α .
+                                                                   α∈Σ+
+
+Remark 7. The lemma also holds on G if we take p∗B db on the left-hand side and
+on the right-hand side the corresponding forms on G.
+Proof. We have that e2ρ(A(x,b)) p∗B db is left G-invariant and at e ∈ G it vanishes
+along Ker (DpB )e = m + a + n. It follows that p∗B db at e ∈ G must be proportional
+to                                      ^
+                                             η−α .
+                                            α∈Σ+
+The result then follows by the transitive left action of G on itself.                         □
+   Recall now that every equivalence class in (T ∗ X)reg has a unique representative
+of the form [g, λ], where g · M ∈ G/M and λ ∈ a∗+ , and that the Hamiltonian flow
+on (T ∗ X)reg is given by φX                tξ̃
+                            t ([g, ξ]) = [ge , ξ], and let
+                               h
+
+
+
+                          p̂ : G × a∗ → T ∗ X ∼
+                                        +       = G/M × a∗                 +
+
+be the canonical projection.
+Lemma 9. We have
+                                                               r
+                                                                           !
+                                                ^              ^
+                             p̂∗ dηt = c0 Φ∗t          ηαs ∧         ηjA       .
+                                                α∈Σ+           j=1
+
+Proof. We have,
+                                        π ◦ p̂ = pX ◦ pG
+and
+                                       p̂ ◦ Φt = φX
+                                                  t ◦ p̂.
+                                                   h
+
+
+Therefore,
+            p̂∗ dηt = (π ◦ φX      ∗                   ∗                    ∗
+                            t ◦ p̂) dx = (π ◦ p̂ ◦ Φt ) dx = (pX ◦ pG ◦ Φt ) dx.
+                             h
+
+
+
+The result then follows from Lemma 7.                                                         □
+Lemma 10. We have
+                                                               +
+      lim t−r e−2ρ(A(x,b)) e−2tρ(ξ̃) p̂∗ dηt = c0 c−1
+                                                   1 (−2)
+                                                         |Σ |
+                                                              ((pB ◦ pG )∗ db) ∧ dvola∗ .   (24)
+     t→+∞
+                              FH = INFINITE-TIME QGT                             21
+
+Proof. We have
+
+                 Ade−tξ̃ Eα = e−tα(ξ̃) Eα , Ade−tξ̃ E−α = e+tα(ξ̃) E−α .
+From the expressions for the Maurer-Cartan form in (21) and (22) we see that
+Lemma 6 gives, explicitly in terms of the one-form coefficients of Θ, that
+
+                       Φ∗t ηα = e−tα(ξ̃) ηα , Φ∗t η−α = etα(ξ̃) η−α
+and
+                                  Φ∗t ηjA = ηjA + tη̂jA .
+                      ˜ > 0 for all α ∈ Σ+ , the result now follows from Lemmas
+Using the fact that α(ξ)
+8, 9 and from (19).                                                          □
+
+  The form p∗B db on G is a basic form for the quotient
+                                   p1 : G → G/M,
+since B = G/M AN . Therefore,
+
+                                     p∗1 db
+                                         b = p∗ db,
+                                              B
+
+for a differential form db
+                        b on G/M .
+   We are now ready to state the main result in this section.
+Proposition 4. Under the identification (T ∗ X)reg ∼
+                                                   = G/M × a∗+ , we have
+
+              lim t−r e−2(ρ(A(x,b))+tρ(ξ̃)) dηt = c0 c−1    |Σ | +
+                                                      1 (−2)     db ∧ dλ .
+             t→+∞
+
+Proof. This follows from the fact that the form on G × a∗+ given by (24) is basic
+with respect to the projection p̂ : G × a∗+ → (T ∗ X)reg ∼
+                                                         = G/M × a∗+ . Note that if
+p2 : G/M → G/M AN is the natural projection then pB = p2 ◦ p1 .                 □
+
+  For completeness, we compute the constants c0 and c1 in Appendix A.
+
+
+      4. Lifting the geodesic flow to the quantum bundle: the
+       Fourier-Helgason transform and geometric quantization
+   In the present section we will describe how the evolution of the spaces of po-
+larized functions along the family of polarizations Pt , t ≥ 0, can be described by
+a transform which we call quantum geodesic transform. This is an analog, for
+Hamiltonian evolution in real time, of the Segal-Bargmann-Hall coherent state
+transform for Lie groups of compact type. The relation to the Fourier-Helgason
+transform is obtained in the limit t → +∞.
+22               A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+4.1. The Fourier-Helgason transform. Recall that, as in Section 2.1, we use
+the convenient notation of Chapter II, 3.4 of [Hel08], for the Iwasawa decomposi-
+tions, G = KAN and G = N AK,
+                           g = k1 (g)eH(g) n1 (g) = n2 (g)eA(g) k2 (g) .
+The following functions are joint (generalized) eigenfunctions of G–invariant dif-
+ferential operators on X = G/K (see Proposition 3.14 in Paragraph 3, Chapter
+II in [Hel08])
+                              eλ,b (x) := e(iλ+ρ)(A(x,b)) ,                     (25)
+where A(x, b) is defined in (7). For the Laplace-Beltrami operator on X with
+respect to the invariant metric 2 given by the inner product ⟨·, ·⟩ on g, ∆, we have
+                         −∆ eλ,b (x) = |λ|2 + |ρ|2 eλ,b (x).
+                                                     
+                                                                                (26)
+     Let us also, for later convenience, introduce the pull-back of eλ,b to T ∗ X,
+                       Eλ,b ([g, ξ]) := πT∗ X (eλ,b )([g, ξ]) = e(iλ+ρ)(A(x,b)) ,            (27)
+where again x = g · K, b = k1 (g)bo .
+   We have a∗+ ∼
+               =G bsph (the space of equivalence classes of unitary spherical repre-
+sentations of G) and the generalized eigenfunctions (25) are the building blocks
+of the spectral and isotypical decomposition (1), which takes the form
+                                        Z
+                             2                     dλ
+                           L (X, dx) =        Hλ         ,                      (28)
+                                          a∗+    |c(λ)|2
+where c is the Harish-Chandra c–function, with Hλ being given by the image of
+the Poisson transform defined on L2 (B, db) by
+                                         Z
+                ∀x ∈ X : Pλ (F )(x) =       e(iλ+ρ)(A(x,b)) F (b)db .    (29)
+                                                       B
+
+Definition 1. The Fourier–Helgason (FH) transform is the following map
+                                                            
+                      2                2   ∗        dλdb
+                F : L (X, dx) −→ L a+ × B,
+                                                   |c(λ)|2
+                              f 7→ fe                                                        (30)
+                                     Z
+                        f (λ, b) =
+                        e                e(−iλ+ρ)(A(x,b)) f (x) dx .
+                                                   X
+
+     From Chapter III, Section 1 of [Hel08], we have the following.
+Theorem 3 (Helgason). The FH transform is a unitary isomorphism and its
+inverse is given by
+                            Z
+                                                              dλdb
+                    f (x) =         e(iλ+ρ)(A(x,b)) fe(λ, b)         . (31)
+                             a∗+ ×B                          |c(λ)|2
+     2If κ denotes the Killing form we have ⟨v, w⟩ = −κ(v, σ(w)) where σ is the Cartan involution.
+See, for instance, Section 1 in [AO03].
+                                   FH = INFINITE-TIME QGT                                        23
+
+  We will also need the following result from Chapter II, Theorem, 3.16.
+Theorem 4 (Helgason). Let λ ∈ a∗C be such that Re(⟨iλ, α⟩) > 0 for α ∈ Σ+ .
+Then if H ∈ a+ , at := etH ,
+                              Z
+                  (−iλ+ρ)(tH)
+            lim e               e(iλ+ρ)(A(at xo ,b)) F (b) db = c(λ) F (bo ) , (32)
+               t→∞                   B
+where F ∈ C(B).
+  This implies the following.
+Corollary 1. Let λ ∈ a∗C be such that Re(⟨iλ, α⟩) > 0 for α ∈ Σ+ . Let H ∈ a+
+and xt := g0 etH · K, for a fixed g0 ∈ G. Then,
+                       Z
+           (−iλ+ρ)(tH)
+      lim e                e(iλ+ρ)(A(xt ,b)) F (b) db = c(λ) F (g0 · bo ) e(iλ−ρ)(H(g0 )) .
+       t→∞                  B
+Proof. We will need the following identity (see Chapter II, Paragraph 3, Section
+5 in [Hel08]),
+              ∀x ∈ X, g ∈ G, b ∈ B :           A(gx, gb) = A(x, b) + A(gK, gb) .               (33)
+Then we find
+         A(g0 etH K, b) = A(g0 etH K, g0 (g0−1 b)) = A(etH K, g0−1 b) + A(g0 K, b),
+and therefore, writing b′ := g0−1 b and J(g0 ; b′ ) := db db    ′
+                                                            ′ (b ),
+                Z
+                                  tH
+                    e(iλ+ρ)(A(g0 e K,b)) F (b) db
+                ZB
+                               tH    −1
+            =       e(iλ+ρ)(A(e K,g0 b)) e(iλ+ρ)(A(g0 K,b)) F (b) db
+                ZB
+                               tH    ′                    ′
+            =       e(iλ+ρ)(A(e K,b )) e(iλ+ρ)(A(g0 K,g0 b )) F (g0 b′ )J(g0 ; b′ ) db′ .
+                     B
+With
+                                                         ′
+                 Fg0 (b′ ) := e(iλ+ρ)(A(g0 K,g0 b )) F (g0 b′ )J(g0 ; b′ )
+Theorem 4 shows that                  Z
+                                                                     tH K,b))
+                          lim e(−iλ+ρ)(tH)          e(iλ+ρ)(A(g0 e              F (b) db
+                          t→∞                   B
+                                               Z
+                                                                  tH K,b′ ))
+                     = lim e     (−iλ+ρ)(tH)
+                                                    e(iλ+ρ)(A(e                Fg0 (b′ ) db′
+                          t→∞                   B
+                     = c(λ) Fg0 (bo )
+                     = c(λ) e(iλ+ρ)(A(g0 K,g0 bo )) F (g0 bo )J(g0 ; bo ) .
+Recall the expression for the Jacobian J(g0 ; bo ) in terms of the function A(x, b)
+given by (see (51) in Chapter II, Paragraph 3, Section 5 in [Hel08]):
+                                   d(g −1 (b′ ))             ′
+
+                                          ′
+                                                 = e2ρ(A(gK,b )) .
+                                       db
+24                A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+Applying this with g −1 = g0 gives
+                                         −1                 −1
+                    J(g0 ; bo ) = e2ρ(A(g0 K,bo )) = e2ρ(A(g0 )) = e−2ρ(H(g0 )) .
+On the other hand, writing g0 = k0 a0 n0 so that H(g0 ) = log a0 , we have
+        A(g0 K, g0 bo ) = A(g0 K, k0 bo ) = A(k0−1 g0 ) = A(a0 n0 ) = log a0 = H(g0 ).
+Inserting the last two formulas into the result for the limit now proves the claim.
+                                                                                 □
+
+4.2. The quantum bundle and the quantum geodesic transform. We will
+now study the geometric quantization of T ∗ X along the family of polarizations
+Pt , t ≥ 0. The prequantum line bundle, in this case, is just the trivial bundle
+L = T ∗ X × C, equipped with the standard Hermitian structure and prequantum
+connection
+                                  ∇ = d − iθ,
+where θ is the Liouville (or tautological) one-form on T ∗ X, so that dθ = ω and
+the curvature of ∇ is −iω. Sections of L are identified with functions on T ∗ X,
+where the open dense subset of regular points is (T ∗ X)reg ∼ = X × a∗+ × B. The
+Hilbert space of half-form corrected P0 -polarized functions is then
+                        n     √                    o
+                HP0 = f ⊗ dx | f ∈ L (X, dx) ∼
+                                           2
+                                                     = L2 (X, dx).
+The Hilbert space of PF -polarized functions is described by Lisiecki as recalled in
+Theorem 1,
+                               √
+                                                                
+                          iS                  2   ∗        dλdb
+              HPF = f e ⊗ dλdb | f ∈ L a+ × B,
+                                                          |c(λ)|2
+                                          
+                   ∼ L2 a∗ × B, dλdb .
+                   =         +
+                                   |c(λ)|2
+   Recall that the polarizations Pt , t > 0, are obtained from the vertical polariza-
+tion P0 by push-forward3 under the one-parameter group of diffeomorphisms φX       t
+                                                                                     h
+
+
+in (10), giving the Hamiltonian flow of Xh , where h in (9) is given by
+                                     |µ([g, ξ])|2   |ξ|2
+                         h([g, ξ]) =              =      .                   (34)
+                                          2          2
+ The Hilbert space of Pt -polarized half-form corrected functions is given by
+                                                          Z             
+             p
+                           ∞         ∗                           2
+ HPt = f ⊗ dηt | f ∈ C (X × a+ × B), ∇Pt f = 0,              |f | dηt < ∞ , (35)
+                                                                        Xt
+
+     3We have P      Xh                                        ∗
+               t = (φ−t )∗ P0 in terms of distributions on T (T X) which corresponds to the fact
+that Pt -polarized functions are obtained from P0 -polarized functions by pull-back under φX t ,
+                                                                                              h
+
+
+as described in Section 3.2.
+                             FH = INFINITE-TIME QGT                                25
+
+where the bar denotes norm completion and where Xt = φX                ∗
+                                                              t (X) ⊂ T X is the
+                                                               h
+
+                                                                  ∗
+space of leaves of Pt . (Here, the space of leaves of P0 is X ,→ T X, where X is
+identified with the zero section of T ∗ X.)
+  The evolution of polarized sections of the prequantum bundle along families of
+polarizations generated by Hamiltonian flow is described as follows. Consider the
+(half-form corrected) Kostant-Souriau prequantum operator for h, prQ(h), and
+the operator Q(h) which we call the quantum operator for h:
+                prQ(h) := (−i∇Xh + h) ⊗ 1 + 1 ⊗ (−iLXh )
+                          = (−iXh − h) ⊗ 1 + 1 ⊗ (−iLXh )
+                              1
+                                 −∆ − |ρ|2 ⊗ 1,
+                                           
+                  Q(h) :=                                                       (36)
+                              2
+where LXh denotes the Lie derivative along Xh .
+Lemma 11. The operator
+                               eitprQ(h) : HP0 → HPt
+is a unitary isomorphism of Hilbert spaces.
+Proof. This is a general feature holding for quantizations along families of real
+polarizations obtained by push-forward under Hamiltonian flow. Let ψ = f ⊗
+√
+  dx ∈ HP0 . Then, it is well-known that (see Chapter 9 in [Woo91])
+                                    eitprQ(h) · ψ
+is Pt -polarized, which is straightforward to verify explicitly. Since the geodesic
+flow is analytic in t (see (11)), on real-analytic functions on T ∗ X the operator
+etXh acts simply as the pull-back (φX  h ∗
+                                      t ) . For f ∈ C(X) we have therefore (if the
+reader prefers, this can be taken as a definition)
+                itprQ(h)
+                             √        −ith tXh     tLXh
+                                                                √ 
+               e         · f ⊗ dx = e e           ⊗e      · f ⊗ dx
+                                                       p
+                                     = e−ith (φX  h ∗
+                                                 t ) f ⊗     dηt .
+  Notice now that
+                           √                            p
+           ||eitprQ(h) · f ⊗ dx ||HPt = ||e−ith (φX
+                                                  t
+                                                    h ∗
+                                                     )  f  ⊗ dηt ||HPt
+
+where the Hermitian structure in HPt , in (35), is given by the integral of a form of
+top-degree on Xt which√ is obtained from the form of top-degree on X giving the
+usual L2 -norm of f ⊗ dx in L2 (X, dx) by pulling-back under the diffeomorphism
+φXt . It follows, from the invariance of the integral under orientation-preserving
+   h
+
+
+diffeomorphisms, that the operator
+                               eitprQ(h) : HP0 → HPt
+is a unitary isomorphism.                                                          □
+26           A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+Lemma 12. The operator
+                                e−itQ(h) : HP0 → HP0
+is a unitary isomorphism.
+Proof. We have that (for a G-invariant Riemannian structure) X is a complete Rie-
+mannian space. It follows from Theorem 2.4 in [Str83] that the Laplace-Beltrami
+operator on L2 (X, dx) is essentially self-adjoint admitting, therefore, a unique
+self-adjoint extension. The lemma then follows from Stone’s theorem on one-
+parameter groups of unitary isomorphisms on Hilbert spaces (see, for instance,
+Chapter 10 in [Hal13]).                                                        □
+  The collection of Hilbert spaces {HPt }t≥0 forms a bundle of Hilbert spaces over
+the half-line [0, +∞),
+                                    H → [0, +∞).
+We call it the quantum bundle.
+  Lifting the geodesic flow to the quantum bundle means finding natural maps
+between the Hilbert spaces HPt1 and HPt2 , for different values t1 ̸= t2 , thus giving
+a natural identification between the quantizations of T ∗ X in the polarizations Pt1
+and Pt2 . To lift the geodesic flow to the quantum bundle, in analogy with several
+examples which involve Hamiltonian flows in complex time (see, for instance,
+[Bai+25b; Bai+25a]) we now define the quantum geodesic transform. This is
+an analog, for real-time Hamiltonian evolution, of the Segal-Bargmann-Hall and
+generalized coherent state transforms. Note that in the description above, we may
+as well take t ∈ R and the quantum bundle
+                                       H → R.
+Definition 2. The quantum geodesic transform is the lifting of the geodesic flow
+on T ∗ X to the Hilbert bundle given by the following family of operators
+                                (Ut : HP0 → HPt )t∈R ,
+where
+            Ut := eitprQ(h) ◦ e−itQ(h)
+                         ∗                         it (∆+|ρ|2 )    
+               = φX    t
+                         h
+                              ⊗ e tLXh
+                                         ◦ e −ith
+                                                  ⊗ 1 ◦ e 2           ⊗ 1  .     (37)
+
+Remark 8. The convention of signs in the exponents in (37) differs from the
+one in [Bai+25b; Bai+25a] and corresponds also to the different choice of sign
+for the ∇Xh term in the definition of the prequantum operator in (36). This is
+the convention that agrees with the usual conventions for the Fourier-Helgason
+transform, as shown in Section 4.3.
+Proposition 5. Ut : HP0 → HPt is, for every t ∈ R, a G-equivariant unitary
+isomorphism.
+                                     FH = INFINITE-TIME QGT                                    27
+
+Proof. The symplectic structure, the Hamiltonian h, Xh , the operator LXh and
+∆ are G-invariant. The unitarity of Ut follows since, from Lemmas 11, 12, it is a
+composition of unitary operators.                                              □
+  Note that the operators Ut , t ∈ R, define a one-parameter family of G-equivariant
+parallel transport operators on the quantum bundle H given by
+                              Ut1 ,t2 := Ut2 ◦ Ut−1
+                                                 1
+                                                    : HPt1 → HPt2 ,
+so that
+                                    Ut2 ,t3 ◦ Ut1 ,t2 = Ut1 ,t3 .
+ These parallel transport operators define, therefore, a G-invariant unitary (flat)
+connection on H → R.
+   Using the inverse Fourier transform (31), from (37), we obtain that the quantum
+geodesic transform can be written as
+                   √ 
+         Ut f ⊗ dx (ηt ) =
+         Z              ∗
+                                                  it                      dλdb
+                           (Eλ,b ) ([g, λH ]) e− 2 (|λ| +|λH | ) fe(λ, b)
+                     Xh                                2        2                   p
+                    φt                                                            ⊗  dηt ,
+           a∗+ ×B                                                         |c(λ)|2
+                                                                                    √     √
+where dηt is defined in (18), dx is the G-invariant measure on X and dx, dηt
+denote the half-forms associated to dx, dηt , respectively. Also, λH ∈ a∗+ is defined
+by ⟨λ, λH ⟩ = λ(H), H ∈ a+ , where ⟨·, ·⟩ denotes the inner product on a∗ induced
+from the one on a.
+4.3. The limit t → +∞ and the Fourier-Helgason transform. In order to
+use Theorem 4 and Corollary 1 we consider the following
+Definition 3. For ϵ ∈ a∗C such that Re (i⟨ϵ, α⟩) > 0 for α ∈ Σ+ , define the regular-
+ized quantum geodesic transform
+    Utϵ : HP0 −→ HPt
+              √ 
+    Utϵ f ⊗ dx (ηt ) :=
+    Z             ∗
+                                                     it                        dλdb
+                     (Eλ+ϵ,b ) ([g, λH ]) e−itϵ(H) e− 2 (|λ| +|λH | ) fe(λ, b)
+               Xh                                           2      2                     p
+              φt                                                                       ⊗  dηt .
+     a∗+ ×B                                                                    |c(λ)|2
+Definition 4. Let U be the following map
+                        U : HP0 −→ HPF                                                       (38)
+                                                                             s
+                  √                        c(λ)                                   dλ db
+          U(f ⊗       dx)(x, λ, b)   :=          F(f )(λ, b) eiλ(A(x,b)) ⊗               .
+                                          |c(λ)|                                 |c(λ)|2
+   Note that, as recalled in Theorem 1, from Theorem 4.2 and Section 6 (Paragraph
+6.3) of [Lis87] it follows that the phase function, eiλ(A(x,b)) , in the right-hand side
+of (38), occurs as a factor in the expression for Fourier-polarized functions so that
+28             A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+the right-hand side indeed belongs to HPF . Note also that U is unitarily equivalent
+to the Fourier transform in the sense that they differ by a phase function.
+   Let S(X) and S(a∗+ × B) denote the space of Schwartz functions on X and
+on a∗+ × B as defined in [EO77]. (We say that ϕ ∈ S(a∗+ ) if ϕ extends to a W -
+invariant ϕ̃ ∈ S(a∗ ).) Recall that the Fourier-Helgason transform is a topological
+isomorphism between these spaces of rapidly decaying functions which is also an
+isometry with respect to the L2 metric (see Theorem 5 in [EO77]). Our main
+result in this section is the following:
+Theorem 5. One has,
+                                                            q
+                                            πr       +
+                    lim lim Utϵ = (−1)r/2 ei 4 (−2)|Σ |/2    c0 c−1
+                                                                 1 U,
+                    ϵ→0 t→∞
+                           √
+in the sense that, for f ⊗ dx ∈ HP0 , with f ∈ S(X),
+                         √               πr       +
+                                                      q            √
+        lim lim Utϵ (f ⊗ dx) = (−1)r/2 ei 4 (−2)|Σ |/2 c0 c−1
+                                                           1 U(f ⊗  dx),
+          ϵ→0 t→∞
+
+where the limit is taken in the compact-open topology in C ∞ (X ×a∗+ ×B)⊗C ∞ (L)
+where L is the (trivial) square-root of the (trivializable) bundle of G-invariant
+(dim X)-forms on (T ∗ X)reg ∼ = G/M × a∗+ .
+     For the proof of Theorem 5 we will need several lemmas.
+     We have the following variation of Lemma 3.5 in Chapter II of [Hel08].
+Lemma 13. Let ϵ ∈ a∗C be such that Re (i⟨ϵ, α⟩) > 0, for α ∈ Σ+ . Both functions
+                     λ 7→ c(λ + ϵ) and λ 7→ c(λ + ϵ)−1 , λ ∈ a∗+ ,
+have slow growth, that is, each of their derivatives is bounded by a polynomial.
+Proof. We follow the proof of Lemma 3.5 in Chapter II of [Hel08]. Helgason’s
+variable z now becomes z = ⟨iλ+iϵ, α0 ⟩ for α0 a positive root. Since Re ⟨iϵ, α0 ⟩ > 0
+we also obtain that both c(λ + ϵ) and c(λ + ϵ)−1 are obtained as products of one-
+variable functions of the form
+                                Γ(a + ix)
+                                          , x ∈ R,
+                                Γ(b + ix)
+for constant a, b > 0. (See also the proof of Proposition 7.2 in Chapter IV of
+[Hel84].) The proof then follows exactly as in [Hel08].                             □
+Lemma 14. Let S(a∗+ ) be the Schwartz space of rapidly decreasing functions on
+a∗+ . Let {gt } ⊂ S(a∗+ ) be a sequence such that limt→∞ gt = g ∈ S(a∗+ ) and such
+that |gt | < ϕ ∈ S(a∗+ ).
+   Then, for 0 ̸= λH ∈ a∗+ ,
+                  Z
+                          it       2       c(λ + ϵ)          r/2 i πr       c(λH + ϵ)
+        lim t r/2
+                       e− 2 |λ−λH | gt (λ)          dλ = (−1)   e   4 g(λ )
+                                                                         H             ,
+       t→+∞        a∗+                      |c(λ)|2                          |c(λH )|2
+where ϵ ∈ a∗C is such that Re (i⟨ϵ, α⟩) > 0, for α ∈ Σ+ .
+                                      FH = INFINITE-TIME QGT                                           29
+
+Proof. From Lemma 3.5 in Chapter II in [Hel08], c(λ)−1 is of slow growth, so that
+it and each of its derivatives are bounded by polynomials, and it therefore defines
+a tempered distribution. From Lemma 13 the same holds for c(λ + ϵ), so that the
+function
+                                          c(λ + ϵ)
+                                            c(λ)
+has slow growth.
+   It follows that, for each t, the integral exists since gt is Schwartz. Therefore,
+we can take a decomposition of a∗+ as a union of almost disjoint compact subsets
+  Kj ⊂ a∗+ j∈N0 such that λH ∈ Interior(K0 ) and
+
+
+                                Z
+                                        it       2       c(λ + ϵ)
+                      lim t r/2
+                                     e− 2 |λ−λH | gt (λ)          dλ =
+                     t→+∞        a∗+                      |c(λ)|2
+                                      ∞ Z
+                                      X                    it        2         c(λ + ϵ)
+                    = lim t     r/2
+                                                     e− 2 |λ−λH | gt (λ)                dλ =
+                       t→+∞
+                                      j=0       Kj                              |c(λ)|2
+
+                    ∞                       Z                                              !
+                    X
+                                                         − it |λ−λH |2          c(λ + ϵ)
+                             lim tr/2                e     2             gt (λ)          dλ ,
+                     j=0
+                            t→+∞            Kj                                   |c(λ)|2
+since under the hypothesis of the lemma we can apply the theorem of dominated
+convergence. Suppose now that we had the fixed g instead of gt in the integrands
+for the integrals over the compact sets Kj . From Lemma 2.8 in [Var97], the
+contribution of the integral over Kj would vanish if j ̸= 0 while the integral over
+K0 would give the desired result. (Note that in [Var97] the Lebesgue measure is
+used while dλ differs from it by a factor of (2π)−r/2 .) Since, for any ϵj > 0, for
+sufficiently large t we will have that
+                Z
+                       it       2                c(λ + ϵ)
+                    e− 2 |λ−λH | (gt (λ) − g(λ))          dλ < ϵj Vol(Kj ),
+                 Kj                               |c(λ)|2
+the lemma follows.                                                                                     □
+Proof. (of Theorem 5) From Definition 3, equations (11) and (27) we have
+          ϵ
+                   √ 
+        Ut f ⊗ dx (ηt ) =
+        Z
+                                                     it    2      2             dλdb̃    p
+   =              e−itϵ(H) e(i(λ+ϵ)+ρ)(A(xt ,b̃)) e− 2 (|λ| +|λH | ) fe(λ, b̃)         ⊗    dηt
+         a∗+ ×B                                                                |c(λ)|2
+        Z
+                                                               it    2       2                dλdb̃
+   =              e(−i(λ+ϵ)+ρ)(tH) e(i(λ+ϵ)+ρ)(A(xt ,b̃)) e− 2 (|λ| +|λH | −2λ(H)) fe(λ, b̃)
+         a∗+ ×B                                                                              |c(λ)|2
+                r                                            rp
+              t 2 eρ(A(x,b)) ⊗ e−(ρ(A(x,b))+tρ(H)) t− 2           dηt
+30             A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+     Proposition 4 then gives
+                                                 √ 
+                                lim lim Utϵ f ⊗ dx (ηt ) =
+                                ϵ→0 t→∞
+                                Z
+                   r                                                              it        2
+         lim lim t 2 eρ(A(x,b))        e(−i(λ+ϵ)+ρ)(tH) e(i(λ+ϵ)+ρ)(A(xt ,b̃)) e− 2 |λ−λH |
+         ϵ→0 t→∞                    a∗+ ×B
+
+                              dλdb̃
+                                                     q
+                                             |Σ+ |/2
+                                                               p
+                                                            −1
+                   f (λ, b̃)
+                   e                 ⊗ (−2)           c 0 c 1     dλH db.
+                             |c(λ)|2
+  If f ∈ S(X) then f˜ ∈ S(a∗+ × B) [EO77]. The integral over B produces a
+smooth rapidly decreasing function of λ, for each t, that is
+                   Z
+         gt (λ) :=     e(−i(λ+ϵ)+ρ)(tH) e(i(λ+ϵ)+ρ)(A(xt ,b̃)) fe(λ, b̃)db̃ ∈ S(a∗+ ).
+                           B
+
+Moreover, for fixed λ, the integral over B can be transformed to an integral over N̄
+such that one can apply the theorem of dominated convergence as in the proof of
+Theorem 3.16 in Chapter II of [Hel08], so that the integrand over N̄ is dominated
+by
+                                   e(δϵ−ρ)H(n̄) ξ(λ),
+for some choice of 0 < δ < 1, where ξ(λ) := supλ×B |f˜| and where f˜ decreases
+rapidly along a∗+ . It follows that |gt | < ϕ for a t-independent ϕ ∈ S(a∗+ ) and
+Corollary 1 gives that
+                    lim gt (λ) = c(λ + ϵ)e(i(λ+ϵ)−ρ)(A(x,b)) f˜(λ, b).
+                          t→+∞
+
+     We can then apply Lemma 14 and take the limit t → ∞ inside the integral over
+a∗+ . By Corollary 1, this gives
+                           √ 
+           lim Utϵ       f ⊗ dx =
+          t→∞
+                                                      c(λH + ϵ)
+                                                                                q
+               r/2 i πr                                                  +
+                                                                                        p
+      = (−1)         e4 e f (λH , b)ei(λH +ϵ)(A(x,b))          2
+                                                                 ⊗ (−2)|Σ |/2    c0 c−1
+                                                                                     1   dλH db.
+                                                       |c(λH )|
+  Since the function λ 7→ c(λ) is continuous on the open Weyl chamber a∗+ (see
+Theorem 6.14 in Chapter IV of [Hel84]), the theorem follows by taking ϵ → 0,
+                            √ 
+           lim lim Utϵ f ⊗ dx (ηt ) =
+           ϵ→0 t→∞
+                                                 1
+                                                                   q
+                     πr                                        +
+                                                                            p
+       = (−1)r/2 ei 4 fe(λH , b)eiλH (A(x,b))         ⊗ (−2)|Σ |/2 c0 c−1 1   dλH db.
+                                              c̄(λH )
+That is, we obtain,
+                          √ 
+          lim lim Utϵ f ⊗ dx (x, λ, b) =
+          ϵ→0 t→∞
+                                                                            s
+                                            c(λ)                                dλ db
+                                 q
+                    πr       +
+      = (−1)r/2 ei 4 (−2)|Σ |/2 c0 c−1 1           F(f )(λ, b)eiλ(A(x,b)) ⊗            ,
+                                           |c(λ)|                              |c(λ)|2
+                                    FH = INFINITE-TIME QGT                                    31
+
+where ηt was defined in (11), we have set λH = λ and (x, λ, b) are related by (6).
+                                                                                □
+Remark 9. The image of U, which is the Fourier transform up to a constant,
+is the Hilbert space HPF of half-form corrected polarized sections for the Fourier
+polarization PF . Note that the functions in the image of U have precisely the form
+given in Theorem 1 and, as recalled in Section 2.5, from Section 6, paragraph 6.3
+in [Lis87], there is an isomorphism
+                                                       
+                                ∼   2   ∗        dλdb
+                           HPF = L a+ × B,                .
+                                                |c(λ)|2
+
+          Appendix A. Volume forms and normalizing constants
+   The purpose of this appendix is to calculate the constants c0 and c1 showing
+up in Lemmas 7 and 8 as a consequence of the uniqueness of invariant measures
+up to scalars. As we mentioned in Section 2.1, we follow the normalizations of
+invariant measures chosen in [Hel08, § II.3.1]. Our calculations are of a differential
+geometric nature, so we need to see what these normalizations mean in terms of
+volume forms4. This will allow us to keep track of the constants in the arguments
+providing integral formulas via the transformation formula for Lebesgue measures.
+   In order to describe suitable volume forms for G and the subgroups K, A, N , N̄ ,
+M , the homogeneous spaces G/K, K/M , and the subspaces a, s of g, we introduce
+the inner product Bσ (v, w) = −κ(v, σw), where κ denotes the Killing form of g.
+It defines a left invariant Riemannian metric on G.
+Remark 10 (Volume forms of Riemannian manifolds). Given a Riemannian man-
+ifold M the tangent bundle T M and the cotangent bundle T ∗ M are isomor-
+phic Euclidean vector bundles (the real counterpart of Hermitian vector bundles).
+Given an orthonormal local frame for T M the dual local frame, consisting of
+1-forms, is also orthonormal. The exterior product of these 1-forms is the local
+volume form on M. All these local volume forms are independent of the choice
+of orthonormal frames and agree on overlaps. Thus they define a global form
+dvolM on M which is called the volume form of the Riemannian manifold M.
+(For standard references, see Chapter VI of [Boo75] or Chapter I of [BT82].)
+Remark 11 (Volume forms on Lie groups). Let G be a Lie group and B : g×g → R
+a Euclidean inner product. By left translation this defines a Riemannian metric
+on G. Consider the linear isomorphism
+                                        g∗ → g,      λ 7→ λ♭
+defined by
+                                 ∀Y ∈ g :      λ(Y ) = B(λ♭ , Y ).
+  4In the following, we ignore signs, i.e. orders of orthonormal bases; it is enough to assume an
+ordering consistent with the various constants c0 , c1 , cG , etc being all positive.
+32            A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+Then the dual metric B ∗ : g∗ × g∗ → R for B is defined by
+                               B ∗ (λ1 , λ2 ) = λ1 (λ♭2 ) = B(λ♭1 , λ♭2 ).
+Given a B-orthonormal basis (Yj )j for g, the dual basis (λj )j for g∗ is B ∗ -orthonor-
+mal. Further, left translating the Yj yields a left G-invariant orthonormal frame
+for T G, which we still denote by (Yj )j . The dual orthonormal frame (ηj )j then
+consists of the left G-invariant 1-forms (cf. Remark 5) for which (ηj (e))j is the
+dual basis for (Yj )j . Thus the volume form on G with respect to B is given by
+                                            ^
+                                    dvolG =    ηj .
+                                                          j
+
+Remark 12 (Decomposition of volume forms).
+   (i) Volume forms on closed subgroups H of G are obtained as exterior prod-
+       ucts of dual bases of orthonormal bases for h. Given orthonormal bases
+       for Bσ -orthogonal subalgebras h1 , . . . , hr , the union of the r bases is an or-
+       thonormal basis for h1 ⊕. . .⊕hr . Now suppose that h1 ⊕. . .⊕hr = g. Then
+       this decomposition of g induces isometric embeddings h∗ℓ ,→ g∗ , where the
+       inner products on the h∗ℓ and g∗ are obtained from the respective restric-
+       tions of Bσ via duality. Let (Yjℓ )j=1,...,dim hℓ be an orthonormal basis for hℓ
+       and (ηjℓ )j=1,...,dim hℓ its dual basis for h∗ℓ . Then (ηjℓ )j=1,...,dim hℓ is orthonor-
+       mal. If we assume that each hℓ is the Lie algebra of a closed subgroup Hℓ
+       of G the volume form for Hℓ is given by
+                                                    dim hℓ
+                                                         ^
+                                       dvolHℓ =                ηjℓ,Hℓ ,
+                                                        j=1
+
+         where ηjℓ,Hℓ is the Hℓ -invariant 1-form on Hℓ with ηjℓ,Hℓ (e) = ηjℓ ∈ h∗ℓ . This
+         volume form extends to a G-invariant dim hℓ -form
+                                                     dim hℓ
+                                                         ^
+                                        dvolG
+                                            Hℓ =               ηjℓ,G ,
+                                                         j=1
+
+         on G, where ηjℓ,G is the G-invariant 1-form on G with ηjℓ,G (e) = ηjℓ ∈ g∗
+         (using the isometric embedding h∗ℓ ,→ g∗ ). But then
+                       dim h1                   dim hr
+                        ^                        ^
+             dvolG =            ηjℓ,G
+                                   1
+                                      ∧ ... ∧            ηjℓ,G
+                                                            r
+                                                               = dvolG                G
+                                                                     H1 ∧ . . . ∧ dvolHr .
+                       j1 =1                    jr =1
+
+     (ii) Now suppose conversely that for each Hℓ we have a left Haar measure
+          µHℓ . This left Haar measure is given by a left Hℓ -invariant dim hℓ -form
+          dµHℓ , which has to be a multiple of the volume form dvolHℓ . We define
+          the proportionality constant by
+                                        cHℓ dvolHℓ = dµHℓ .
+                                  FH = INFINITE-TIME QGT                                    33
+
+        By definition we have dµHℓ (e) ∈ dim hℓ h∗ℓ , but the isometric embedding
+                                           V
+        h∗ℓ ,→ g∗ induces embeddings on exterior products. Thus we may say that
+        dµHℓ (e) ∈ dim hℓ g∗ , which in turn defines a left G-invariant dim hℓ -form
+                    V
+        dµG Hℓ on G. But then
+
+                                       dµG              G
+                                         H1 ∧ . . . ∧ dµHr
+
+        is a left G-invariant dim g-form on G, i.e. a multiple of the left G-invariant
+        dim g-form dµG on G defining the Haar measure µG of G. Comparing the
+        values of the various forms at e we obtain
+                                              1                1
+                  dvolG
+                      Hℓ (e) = dvolHℓ (e) =       dµHℓ (e) =       dµG (e),
+                                             cH ℓ             cHℓ Hℓ
+        which implies
+                                    cHℓ dvolG
+                                            Hℓ = dµHℓ
+                                                     G
+
+        and therefore
+                           Y r
+                               cHℓ dvolG = dµG                G
+                                               H1 ∧ . . . ∧ dµHr .
+                            ℓ=1
+
+  It is known (see e.g. [Hel84, Chap. VI] or [Kna96, Chap. VI]) g = n̄ ⊕ m ⊕
+a ⊕ n is an orthogonal decomposition with respect to this inner product and the
+decomposition of n into root spaces for different restricted roots is orthogonal as
+well. Note that, on the other hand, the Iwasawa decomposition g = k ⊕ a ⊕ n is
+only a direct vector space decomposition for which k and n are not orthogonal.
+Remark 13 (Bruhat decomposition of the Haar measure). Recall the formula
+            Z            Z
+              f (g) dg =           f (n̄man)e2ρ(log a) dn̄ dm da dn
+                 G                N̄ ×M ×A×N
+
+from [Hel84, Prop. I.5.21].
+    (i) In order to identify the left G-invariant form underlying this Haar measure
+        we rewrite the formula as
+  Z                  Z Z Z Z
+     f (g) dµG (g) =               f (n̄man)e2ρ(log a) dµN̄ (n̄)dµM (m)dµA (a)dµN (n),
+   G                    N   A     M   N̄
+       where the right-hand side is an iterated integral of forms. Now we use
+       projections prN̄ , prM , prA , prN to pull back the forms dµN̄ , dµM , dµA , dµN
+       to forms dµ̃N̄ , dµ̃M , dµ̃A , dµ̃N on N̄ × M × A × N . The exterior product
+       of these forms gives the product measure (see, for instance, Chapter I of
+       [BT82]), so we have
+ Z                 Z
+   f (g) dµG (g) =            f (g)e2ρ(log prA (g)) dµ̃N̄ (g) ∧ dµ̃M (g) ∧ dµ̃A (g) ∧ dµ̃N (g).
+  G                     N̄ M AN
+        Thus the left G-invariant dim g-form dµG on G satisfies
+                     dµG (e) = dµ̃N̄ (e) ∧ dµ̃M (e) ∧ dµ̃A (e) ∧ dµ̃N (e).
+34             A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+          As the single forms are pull-backs by the projections, the values at e are
+          the forms dµN̄ (e), dµM (e), dµA (e), dµN (e) on the respective subalgebras
+          n̄, m, a, n extended by zero on the complementary factors. But since g
+          is the orthogonal sum of these subalgebras, we can use the embeddings
+          n̄∗ , m∗ , a∗ , n∗ ,→ g∗ and obtain that
+                            dµ̃N̄ (e) = dµN̄ (e) = cN̄ dvolN̄ (e),
+                            dµ̃M (e) = dµM (e) = cM dvolM (e),
+                            dµ̃A (e) = dµA (e) = cA dvolA (e),
+                            dµ̃N (e) = dµN (e) = cN dvolN (e).
+          On the other hand the considerations in Remark 12 show that
+                dvolG (e) = dvolN̄ (e) ∧ dvolM (e) ∧ dvolA (e) ∧ dvolN (e).
+          Writing
+                                      dµG = cG dvolG
+          we now find
+                                      cG = cN̄ cM cA cN .                              (39)
+          Note that the Cartan involution σ acts isometrically on G and interchanges
+          N and N̄ . Moreover the normalization of N is derived from the normal-
+          ization of dn̄ by applying σ. This implies cN = cN̄ .
+     (ii) The above integral formula implies that the form
+                        dµG = e2ρ(log prA ) dµ̃N̄ ∧ dµ̃M ∧ dµ̃A ∧ dµ̃N
+          is left G-invariant hence equal to the left G-invariant extension of
+     dµ̃N̄ (e) ∧ dµ̃M (e) ∧ dµ̃A (e) ∧ dµ̃N (e) = dµN̄ (e) ∧ dµM (e) ∧ dµA (e) ∧ dµN (e).
+          Thus we have
+                             dµG = dµG      G     G     G
+                                     N̄ ∧ dµM ∧ dµA ∧ dµN .
+
+Remark 14 (The volume form of G). For a closer analysis of the relation between
+volume forms and Haar measures we recall the left G-invariant 1-forms coming
+from the Maurer-Cartan form via (21) and (22).
+    (i) Note that in view of the orthogonality of the Bruhat decomposition g =
+        n̄ ⊕ m ⊕ a ⊕ n in Section 3.3 we may assume that Eα , Aj , Mi together
+        with the σEα = E−α form an orthonormal basis for g. Then the √12 EαK =
+        √1 (Eα + E−α ) form an orthonormal basis for the orthogonal complement
+           2
+        m⊥Bσ ∩ k of m in k. Similarly, the √12 Eαs = √12 (Eα − E−α ) form an or-
+        thonormal basis for the orthogonal complement a⊥Bσ ∩ s of a in s. Thus
+        the √12 EαK , Mi , √12 Eαs , Aj form another orthonormal basis for g, which is
+                                 FH = INFINITE-TIME QGT                                                    35
+
+      adapted to the Cartan decomposition g = k + s. In view of Remarks 5 and
+      11 as well as (21) and (22) this shows
+                        ^         ^         ^r       m
+                                                     ^
+             dvolG =        ηα ∧      η−α ∧    ηjA ∧   ηiM
+                          α∈Σ+        α∈Σ+             j=1            i=1
+                          ^ √                m
+                                             ^                 ^ √              r
+                                                                                ^
+                     =             2 ηαK ∧       ηiM ∧                2 ηαs ∧         ηjA
+                          α∈Σ+               i=1           α∈Σ+                j=1
+                                  ^            ^m               ^             r
+                                                                              ^
+                     = 2dim n           ηαK ∧         ηiM ∧           ηαs ∧         ηjA .
+                                 α∈Σ+           i=1            α∈Σ+           j=1
+
+      In the notation of Remark 12 we obtain
+            ^                  m
+                               ^               r
+                                               ^                                             ^
+       G                   G                G
+   dvolN̄ =     η−α , dvolM =      M
+                                  ηi , dvolA =   ηjA ,                          dvolG
+                                                                                    N =             ηα .
+            α∈Σ+                      i=1                         j=1                        α∈Σ+
+
+  (ii) Note that under the assumptions made in (i), interpreting ηjA (e) ∈ a∗ ⊆ g∗
+       as a translation invariant form on a, we obtain
+                                        ^r
+                                dvola =    ηjA (e).
+                                                j=1
+
+  (iii) Using the orthogonal decomposition k = m + (m⊥Bσ ∩ k) we obtain
+                       m                              m
+              1                              1
+                       ^         ^                    ^          ^
+   dvolK = 2  2
+                dim(n)    M
+                         ηi |K ∧    K
+                                   ηα |K = 2 2
+                                               dim(n)
+                                                        ι∗ ηiM ∧   ι∗ ηαK ,                            (40)
+                    i=1            α∈Σ+                             i=1               α∈Σ+
+
+      where we denote the inclusion of K into G by ι. We introduce the corre-
+      sponding proportionality factor cK by
+                                    dµK = cK dvolK .
+  (iv) As µK = dk and µM = dm are normalized to be probability measures (see
+       Subsection 2.1) we get
+                                          Z
+                            −1
+                           cK = vol(K) :=   dvolK
+                                                           K
+      and                                              Z
+                            c−1
+                             M = vol(M ) :=                    dvolM
+                                                        M
+   (v) Recall that we cannot apply the arguments for the Bruhat decomposition
+       to the Iwasawa decomposition as g = k + a + n is not orthogonal, so there
+       is no a priori reason why cG = cK cA cN should hold, which in view of (39)
+       would imply cK = cM cN̄ .
+
+
+Remark 15 (Homogeneous spaces).
+36             A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+      (i) Note that the group theoretic way to construct invariant measures on the
+          homogeneous spaces G/K and K/M is via the formulas
+                     Z              Z   Z
+                         f (g) dg =        f (gk) dk dµG/K (gK)               (41)
+                         G                G/K     K
+
+         and        Z                 Z       Z
+                         f (k) dk =                    f (km) dm dµK/M (kM ),            (42)
+                     K                  K/M      M
+
+         see [Hel84, Thm. I.1.9]. From this we get
+              Z                       Z  Z
+                                   cK
+                 f (g) dvolG (g) =          f (gk) dvolK (k) dµG/K (gK)
+               G                   cG G/K K
+         and
+          Z                               Z       Z
+                                cM
+              f (k) dvolK (k) =                          f (km) dvolM (m) dµK/M (kM ).
+            K                   cK        K/M        M
+
+     (ii) The fact that K is compact with normalized Haar measure allows us to
+          identify dµG/K as the push-forward of dg with respect to the projection
+          pX : G → X = G/K. In fact, applying (41) to a sequence of right K-
+          invariant smooth functions fn approximating the indicator function Ip−1 (E)
+                                                                               X
+          of a compact K-saturated set p−1
+                                         X (E) ⊆ G  with E  ⊆ G/K    compact  yields
+                        µG/K (E) = µG (p−1
+                                        X (E)) = ((pX )∗ µG )(E),
+
+           where as before dµG (g) = dg. Similarly, dµK/M is the push-forward of dk
+           with respect to the projection pB |K : K → B = K/M .
+     (iii) The uniqueness statement in [Hel84, Thm. I.1.9] says that there exist
+           constants cG/K and cK/M such that
+                dµG/K = cG/K dvolG/K              and dµK/M = cK/M dvolK/M
+         for the (invariant) volume forms of the homogeneous Riemannian mani-
+         folds G/K and K/M .
+Remark 16 (The volume forms of G/K and K/M ).
+   (i) As the √12 Eαs form an orthonormal basis for the orthogonal complement
+                                                                √
+       a⊥Bσ ∩ s of a in s, whose dual basis is formed by the 2 ηαs , the volume
+       form dvols , viewed as a translation invariant dim s-form on s, is given by
+                                                 r
+                                      1
+                                                 ^                 ^
+                                        dim(n)
+                         dvols = 2    2                ηjA (e) ∧          ηαs (e).
+                                                 j=1               α∈Σ+
+
+     (ii) The compact and connected group K preserves s∗ and its metric. There-
+          fore dvols is K-invariant. Identifying TeK (G/K) with s we derive from it
+                                   FH = INFINITE-TIME QGT                                             37
+
+       a G-invariant dim(G/K)-form on G/K which is nothing but the volume
+       form dvolG/K . Thus we have
+                                                           r
+                                               1
+                                                           ^              ^
+                                                 dim(n)
+                             dvolG/K = 2       2                 ηjA ∧           ηαs ,              (43)
+                                                           j=1           α∈Σ+
+
+        where we identify right K-invariant forms on G with forms on G/K.
+  (iii) By (40) the compact group M preserves the subspace (m⊥Bσ ∩ k)∗ of k∗
+        spanned by the ηαK (e), so we have
+                                        1
+                                                 ^
+                        dvolm⊥Bσ ∩k = 2 2 dim(n)   ηαK (e).
+                                                                 α∈Σ+
+
+       and
+                                  1                                  1
+                                                ^                                  ^
+                   dvolK/M = 2 2 dim(n)              ηαK |K = 2 2 dim(n)                 ι∗ ηαK ,
+                                            α∈Σ+                                 α∈Σ+
+                                  K
+                        V
+       noting that          α∈Σ+ ηα is right M -invariant.
+
+Remark 17 (The constants cG/K and cK/M ).
+   (i) In order to relate dvolG/K and dµG/K we consider the left-invariant form
+                                                     m
+                                        1
+                                                     ^               ^
+                                β := 2 2 dim(n)            ηiM ∧           ηαK
+                                                     i=1           α∈Σ+
+
+       on G and recall that (40) implies ι∗ (β) = dvolK . Moreover, (43) together
+       with Remark 14(i) gives
+                                    m
+                                    ^         ^        ^r       ^
+               ∗             dim(n)               K
+          β ∧ pX dvolG/K = 2           M
+                                      ηi ∧       ηα ∧     ηjA ∧     ηαs
+                                               i=1            α∈Σ+             j=1          α∈Σ+
+                                = dvolG .
+       Integration over the fibers of pX yields
+            Z             Z                     Z
+                                    ∗
+               f dvolG =     f β ∧ pX dvolG/K =                                I(f β) dvolG/K ,
+               G                 G                                       G/K
+
+       where
+                                 Z                        Z               Z
+          (I(f β))(gK) :=                       fβ =             fβ =          f (gk) dvolK (k).
+                                     p−1
+                                      X (gK)               gK              K
+
+       Together we obtain
+              Z            Z                Z
+                 f dvolG =                         f (gk) dvolK (k) dvolG/K (gK),
+                    G                 G/K      K
+
+       which is the volume form analog of (41). Thus, we finally see that
+                    cG                                 cG
+                       dvolG/K = dµG/K and cG/K =          .
+                    cK                                 cK
+38             A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+      (ii) Similarly, we find
+                 cK                                                      cK   vol(M )
+                    dvolK/M = dµK/M                and cK/M =               =         .
+                 cM                                                      cM   vol(K)
+          As K is compact and µK/M is a probability measure we can conclude
+          c−1
+           K/M = vol(K/M ), so that
+
+                                                          vol(K)
+                                         vol(K/M ) =              .
+                                                          vol(M )
+Remark 18. A comparison of (23) and its proof with (43) shows that
+                                                              1
+                           cG/K dvolG/K = dx = c0 2− 2 dim(n) dvolG/K
+and, using Remark 17,
+                                          1                   1           cG
+                               c0 = 2 2 dim(n) cG/K = 2 2 dim(n)             .
+                                                                          cK
+  Next we analyze the consequences of the chosen normalization of dn̄ for the
+value of cN = cN̄ . To this end we have a closer look at the proof of [Hel84,
+Thm. I.5.20].
+Remark 19 (Calculating cN ). Consider the map φ : N̄ → K/M, n̄ 7→ k1 (n̄)M ,
+see (2). This is a diffeomorphism onto an open dense subset of K/M . Therefore
+there exists a smooth function ψ̃ on N̄ such that
+                                         ψ̃ dvolN̄ = φ∗ dvolK/M .
+     Then for F : K/M → C we have
+              Z               Z                    Z
+          −1
+         cK/M       F dµK/M =        F dvolK/M =       φ∗ (F dvolK/M )
+               K/M             K/M                  N̄
+                              Z                         Z
+                            =       ∗    ∗
+                                  (φ F )φ dvolK/M =          (F ◦ φ)φ∗ dvolK/M
+                              ZN̄                         N̄
+                                                          Z
+                                                       −1
+                            =     (F ◦ φ)ψ̃ dvolN̄ = cN̄      (F ◦ φ)ψ̃ dµN̄ .
+                                           N̄                                N̄
+[Hel84, Thm. I.5.20] yields the equality
+                     Z                 Z
+                           F dµK/M =     (F ◦ φ)e−2ρ◦H dµN̄ .
+                             K/M                     N̄
+
+Together we get
+                                                       cK/M
+                    Z                                         Z
+                                      −2ρ◦H
+                           (F ◦ φ)e             dµN̄ =                 (F ◦ φ)ψ̃ dµN̄ ,
+                      N̄                                cN̄       N̄
+so that
+                                   cN̄
+                    ψ̃(n̄) =             e−2ρ(H(n̄)) = cN̄ vol(K/M )e−2ρ(H(n̄))
+                                cK/M
+                                FH = INFINITE-TIME QGT                           39
+
+and in particular
+                                               ψ̃(e)
+                                    cN̄ =
+                                            vol(K/M )
+  In order to calculate ψ̃(e) we need to determine φ∗ dvolK/M (e), so we want to
+calculate the derivative dφ(e) : n̄ → k. The derivative of the Iwasawa projection
+k1 : G = KAN → K in e is the projection g = k + a + n → k along a + n. The
+derivative of φ in e is the restriction of the composition of this projection with
+the canonical projection k → k/m. Note that
+                     E−α = Eα + E−α − Eα = EαK − Eα ∈ k + n,
+so that dφ(e)(E−α ) = EαK + m. As the EαK span m⊥ ⊆ k whereas the E−α span n̄
+this gives a complete description of dφ(e). Note that φ∗ ηαK (e) = ηαK ◦ dφ(e) and
+            φ∗ ηαK (e)(E−α′ ) = ηαK (e)(Eα′ + E−α′ ) = ηαK (e)(EαK′ ) = δαα′ .
+This shows that φ∗ ηαK (e) = η−α (e) and hence by Remark 16(iii)
+                                                       1
+                          (φ∗ dvolK/M )(e) = 2 2 dim n dvolN̄ (e).
+Now the defining equation of ψ̃ gives
+                                                   1
+                                     ψ̃(e) = 2 2 dim n ,
+so that we finally obtain
+                                               1
+                                            2 2 dim n
+                                    cN̄ =             ,
+                                          vol(K/M )
+which agrees with the normalization obtained from [GV88, Prop. 2.5.7].
+  Finally we can calculate also c1 .
+Remark 20. Combining Remark 13 with Remark 19 yields
+                                                c 2
+                                                  K                  cA cK 2
+        cG = cN̄ cM cA cN = c2N cA cM = 2dim n        cM cA = 2dim n         .
+                                                 cM                   cM
+On the other hand, let ιN̄ : N̄ → G be the inclusion. Since
+  dpB (e) : n̄ → g/m + a + n ∼
+                             = k/m, E−α 7→ E−α + m + a + n ∼
+                                                           = Eα + E−α + m,
+we get
+                       cK                      cK           cK
+            (pB ◦ ιN̄ )∗ db =
+                          (pB ◦ ιN̄ )∗ dvolB =    dvolN̄ =       dn̄.
+                       cM                      cM          cM cN
+Comparing this to Lemma 8 and its proof shows now that
+                                1
+                 cK     2− 2 dim n vol(K/M )      1            1
+           c1 =       =                      = 2− 2 dim n = 2− 2 dim(K/M ) .
+                cM cN        vol(K/M )
+40           A.C. FERREIRA, J. HILGERT, J. M. MOURÃO, AND J. P. NUNES
+
+Recalling the formula for c0 in Remark 18, the formula for cN = cN̄ in Remark 19,
+the product formula (39) and the formula for cK/M from Remark 17 we get
+               dim(n) cG
+                                            2 c c                     cA
+             1              1
+                              dim(n) dim(n) cK   M A       3
+      c0 = 2 2           =2 2       2                  = 2 2 dim(n)           .
+                      cK                    cM   cK                 vol(K/M )
+The normalization for da given in [Hel08, § II.3.1] is such that
+                                                   1                     r
+                                cA = (2π)− 2 dim a = (2π)− 2 ,
+so that
+                                                                               1         3
+                  1       3              1           1           2− 2 rank(G/K)+ 2 dim(n)
+     c0 = (2π)− 2 dim a 2 2 dim(n)             = π − 2 rank(G/K)                          .
+                                     vol(K/M )                         vol(K/M )
+The constant c0 c−1
+                 1 showing up in Theorem 5 is given by
+
+                                  2dim n         rank(G/K) 2
+                                                            dim(K/M )
+                  c0 c−1
+                      1 = cA              = (2π)− 2
+                                vol(K/M )                  vol(K/M )
+Remark 21. We apply the integral formula in [Hel84, Thm. I.5.17] to rewrite the
+integral               Z
+                                             2                       1
+                                     e−|H| d vols (H) = π 2 dim s ,
+                                 s
+where the norm on s comes from the inner product Bσ which on s agrees with the
+Killing form. Note here that
+                              dim s = dim X = dim n + dim a.
+The integral formula yields
+                     Z    Z
+           1                      2
+                                    Y
+          π2 dim s
+                   =        e−|H|     |α(H)|mα d vola (H) d volK/M (k)
+                         K/M    a+               α∈Σ+
+                                      Z
+                                                       2
+                                                           Y
+                      = vol(K/M )            e−|H|                |α(H)|mα d vola (H).
+                                        a+                 α∈Σ+
+
+Thus we have written vol(K/M ) purely in terms of root data.
+
+  Acknowledgements: The research of ACF was financed by Portuguese Funds
+through FCT (Fundação para a Ciência e a Tecnologia, I.P.) within the Project
+UID/00013/2025 (https://doi.org/10.54499/UID/00013/2025). JH was partially
+funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foun-
+dation) – Project-ID 491392403 – TRR 358. JM and JN were supported by
+FCT/Portugal and the Recovery and Resilience Plan (PRR) through projects
+UID/04459/2025 and UID/PRR/04459/2025.
+                                  REFERENCES                                   41
+
+                                 References
+[AO03]    J.P. Anker and P. Ostellari. “The heat kernel on noncompact symmet-
+          ric spaces”. Lie groups and symmetric spaces (dedicated to the memory
+          of F.I. Karpelevich) Ed. S. G. Gindikin. Vol. 210, AMS Transl. Ser.
+          2. Amer. Math. Soc., Providence, RI, 2003, pp. 27–46.
+[Bai+25a] T. Baier, A.C. Ferreira, J. Hilgert, J.M. Mourão, and J.P. Nunes.
+          “Fibering polarizations and Mabuchi rays on symmetric spaces of
+          compact type”. Anal. Math. Phys. 15 (2025), Paper no. 21.
+[Bai+25b] T. Baier, J. Hilgert, O. Kaya, J.M. Mourão, and J.P. Nunes. “Quan-
+          tization in fibering polarizations, Mabuchi rays and geometric Peter–
+          Weyl theorem”. J. Geom. Phys. 207 (2025), Paper no. 105355.
+[Boo75]   W. M. Boothby. An introduction to differentiable manifolds and Rie-
+          mannian geometry. Academic Press, 1975.
+[BT82]    R. Bott and L. W. Tu. Differential forms in algebraic topology.
+          Springer-Verlag, 1982.
+[EO77]    M. Eguchi and K. Okamoto. “The Fourier transform of the Schwartz
+          space on a symmetric space”. Proc. Japanese Acad. 53 (1977), pp. 237–
+          241.
+[GV88]    R. Gangolli and V. S. Varadarajan. Harmonic analysis of spherical
+          functions on real reductive groups. Vol. 101. Ergebnisse der Mathe-
+          matik und ihrer Grenzgebiete. Results in Mathematics and Related
+          Areas. Springer-Verlag, 1988.
+[Hal13]   B. Hall. Quantum Theory for Mathematicians. Springer-Verlag, 2013.
+[Hel08]   S. Helgason. Geometric analysis on symmetric spaces. Vol. 39. Math-
+          ematical Surveys and Monographs. American Mathematical Society,
+          Providence, RI, 2008.
+[Hel84]   S. Helgason. Groups and geometric analysis. Integral geometry, invari-
+          ant differential operators, and spherical functions. Pure and Applied
+          Mathematics. Academic Press, 1984.
+[HN12]    J. Hilgert and K.H. Neeb. Structure and geometry of Lie groups.
+          Springer Monographs in Mathematics. Springer, New York, 2012,
+          pp. x+744.
+[Kna96]   A. Knapp. Lie groups beyond an introduction. Vol. 140. Progress in
+          Mathematics. Birkhäuser, 1996.
+[KW16]    Y. Karshon and J. Watts. “Basic forms and orbit spaces: a diffeological
+          approach”. SIGMA Symmetry Integrability Geom. Methods Appl. 12
+          (2016), Paper no. 026, 19 pp.
+[Lis87]   W. Lisiecki. “Blattner-Kostant-Sternberg pairing and Fourier trans-
+          form on symmetric spaces”. Proceedings of the Winter School on Ge-
+          ometry and Physics (Srnı́, 1987). 16. 1987, pp. 173–189.
+42                                REFERENCES
+
+[Sak23]    Y. Sakellaridis. “Spherical varieties, functoriality, and quantization”.
+           ICM—International Congress of Mathematicians. Vol. 4. Sections 5–
+           8. EMS Press, Berlin, 2023, pp. 2998–3037.
+[Sak25]    Y. Sakellaridis. “Transfer operators and Hankel transforms: horo-
+           spherical limits and quantization”. Symmetry in geometry and anal-
+           ysis. Vol. 1. Festschrift in honor of Toshiyuki Kobayashi. Vol. 357.
+           Progr. Math. Birkhäuser/Springer, Singapore, 2025, pp. 435–495.
+[Str83]    R. Strichartz. “Analysis of the Laplacian on the complete Riemannian
+           manifold”. J. Funct. Anal. 52 (1983), pp. 48–79.
+[Var97]    V.S. Varadarajan. “The method of stationary phase and applications
+           to geometry and analysis on Lie groups”. Algebraic and analytical
+           methods in representation theory, Chapter 4 (1997).
+[Woo91]    N. Woodhouse. Geometric Quantization. Vol. 28. Oxford University
+           Press, 1991.
+  Ana Cristina Ferreira, Centro de Matemática, Universidade do Minho, Campus
+de Gualtar, 4710-057 Braga, Portugal.
+  Email address: anaferreira@math.uminho.pt
+
+  Joachim Hilgert, Department of Mathematics, Paderborn University, Pader-
+born, Germany.
+  Email address: joachim.hilgert@upb.de
+
+   José M. Mourão, Department of Mathematics and Center for Mathematical
+Analysis, Geometry and Dynamical Systems, Instituto Superior Técnico, Av. Ro-
+visco Pais 1, 1049-001, Lisbon, Portugal.
+   Email address: jmourao@tecnico.ulisboa.pt
+
+   João P. Nunes, Department of Mathematics and Center for Mathematical
+Analysis, Geometry and Dynamical Systems, Instituto Superior Técnico, Av. Ro-
+visco Pais 1, 1049-001, Lisbon, Portugal.
+   Email address: jpnunes@math.tecnico.ulisboa.pt
+

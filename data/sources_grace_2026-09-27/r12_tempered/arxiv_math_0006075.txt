@@ -1,0 +1,1862 @@
+                                                                        Unitary spherical highest weight representations                        1
+
+
+
+
+arXiv:math/0006075v1 [math.RT] 9 Jun 2000
+                                                           Unitary spherical highest weight representations
+
+
+                                                                   Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+
+
+                                                                                      Introduction
+
+                                            Let G/H be a semisimple symmetric space attached to an involution τ : G → G. Then in order
+                                            for a unitary irreducible representations (π, H) of G to be realized in Lp (G/H), 1 ≤ p ≤ ∞,
+                                            or more generally in D′ (G/H), it is necessary that (π, H) is H -spherical, i.e., the space of
+                                            H -invariant distribution vectors (H−∞ )H has to be non-zero.
+                                                   Two classes of representations in the unitary dual G      b of G are of special interest: The
+                                            unitary principal series and the discrete series. For the unitary principal series induced from a
+                                            parabolic subgroup we have for almost all parameters a complete description of (H−∞ )H (cf.
+                                            [Ba88], [Ól87] for the θτ -stable minimal parabolics and [BrDe92] for the general case). Discrete
+                                            series on G/H were constructed in [FJ80] (see also [MaOs84]) and in [Bi90] it was shown that
+                                            (H−∞ )H is one-dimensional for all discrete series on G/H except for four types of exceptional
+                                            symmetric spaces. Holomorphic discrete series, i.e., unitary highest weight representation of G
+                                            which can be realized in L2 (G/H) were constructed in [ÓØ88, 91] (this construction is essentially
+                                            different than the one in [FJ80]) and it was shown that (H−∞ )H is always one-dimensional (this
+                                            also covers half of the exceptional spaces in [Bi90]).
+                                                   In this paper we address the problem of classifying all H -spherical unitary highest weight
+                                            representations for a simply connected hermitian Lie group G. We write g = h ⊕ q for the τ -
+                                            eigenspace decomposition of g: = Lie(G) and choose a τ -stable Cartan decomposition g = k ⊕ p .
+                                            Set K: = exp(k). Note that z(k) is one-dimensional since G is hermitian and that H is connected
+                                            since G is simply connected. Now non-trivial H -spherical highest weight representations exist
+                                            if and only if z(k) ⊆ q which means that G/H is compactly causal (cf. [HiÓl96]).
+                                                   The unitary highest weight representations (πλ , Hλ ) of G can be parametrized by the
+                                            highest weight λ of the corresponding finite-dimensional unitary representation (πλK , F (λ)) of K .
+                                            In the scalar case, i.e., dim F (λ) = 1 , the classification of unitary highest weight representations
+                                            was accomplished in [Wal79] and [VR76] while the general case has been treated in [EHW83]
+                                            and [Jak83]. The generalized Verma module N (λ) = U(gC ) ⊗U (kC +p+ ) F (λ) is a highest weight
+                                            module for g with highest weight λ. It has a unique irreducible quotient L(λ) which is (g, K)-
+                                            isomorphic to the space of K -finite vectors of (πλ , Hλ ). We call λ singular if the kernel J(λ) of
+                                            the natural map N (λ) → L(λ) is non-zero and regular otherwise.
+                                                   If (πλ , Hλ ) is spherical, then L(λ) trivially is spherical, but the converse is not obvious
+                                            because there is no a priori reason for an h-invariant linear functional on L(λ) to extend to
+                                            a continuous functional on Hλ∞ . That this is nevertheless the case follows from [BaDe88] and
+                                            [BrDe92] (see also [Kr99a] for the hyperfunction version). In the light of this result we only
+
+                                                  ∗
+                                                   Part of the work was supported by the Erwin-Schrödinger-Institut, Vienna
+                                                  ∗∗
+                                                    Part of the work was done on a visit supported by the Research Institute of The Ohio
+                                            State University
+2                              Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+have to deal with the question whether L(λ) is h-spherical. It is easy to see that a necessary
+condition is that F (λ) is H ∩ K -spherical. Further elementary considerations show that N (λ)
+is h-spherical if and only if F (λ) is H ∩ K -spherical. This already completes the classification
+for all regular parameters. For singular parameters it was first observed in [Kr99a] that the
+condition of F (λ) being H ∩ K -spherical is not sufficient by showing that the even metaplectic
+representation of Sp(n, R), n ≥ 2 , is not H -spherical (see also [KNÓ99, Cor. II.10]).
+      If λ is singular, then we can attach to L(λ) the level le(λ) which is a natural number
+ranging from 1 to at most the real rank of G. Algebraic considerations using the fact that the
+maximal submodule of N (λ) is cyclic (cf. [DES91]) yield the following half of the classification:
+Theorem II.8. Suppose that L(λ) has odd reduction level. Then (πλ , Hλ ) is H -spherical if
+and only if F (λ) is H ∩ K -spherical.
+      Besides the algebraic approach to classify H -spherical unitary highest weight representa-
+tions one can also attack the problem in an analytic way by using a realization of (πλ , Hλ ), where
+the H -action is transparent. In the sequel we assume that G/K is of tube type, i.e., G/K is
+biholomorphic to a tube domain V + iΩ with V an euclidean Jordan algebra and Ω ⊆ V the
+open cone of squares. Then it follows from [HiNe99] that Hλ can be realized as an L2 -space of
+F (λ)-valued functions on Ω, given by
+                              n                    Z                          o
+                L2 (Ω, Rλ ): = f : Ω → F (λ) meas.: hdRλ (x).f (x), f (x)i < ∞ ,
+                                                          Ω
+
+
+where Rλ is a certain measure on Ω with values in the cone Herm+ (F (λ)) of positive operators
+on F (λ). We call L2 (Ω, Rλ ) the cone realization of (πλ , Hλ ). The H -action is then given by
+
+               (πλ (h).f )(x) = τλ (θ(h)).f (θ(h)−1 .x)       for   h ∈ H, f ∈ L2 (Ω, Rλ )),
+
+where τλ denotes the natural H -representation on F (λ) associated to the corresponding repre-
+sentation of KC by a Cayley transform mapping H into KC . The K -action however is completely
+invisible in the cone realization L2 (Ω, Rλ ). Therefore the following description of the K -finite
+vectors is surprisingly explicit and simple:
+Theorem IV.5. The K -finite vectors in L2 (Ω, Rλ ) are given by e− tr Pol(V, F (λ)) |Ω , where tr
+denotes the Jordan algebra trace of V .
+      We even obtain a natural identification of N (λ) with the space e− tr Pol(V, F (λ)), such that
+the restriction map to L2 (Ω, Rλ ) corresponds to the quotient map N (λ) → L(λ). Using Theorem
+IV.5 and the results of [HiNe99], we obtain a description of the (up to scalar multiples) unique H -
+invariant F (λ)-valued tempered distribution RλH supported by Ω. Now L(λ) is spherical if and
+only if RλH vanishes on the maximal submodule J(λ) of N (λ), realized as e− tr Pol(V, F (λ)).
+This requirement leads to the necessary condition supp(RλH ) ⊆ supp(Rλ ), but unfortunately
+this condition is not sufficient for L(λ) to be spherical. Nevertheless, if supp(Rλ ) is strictly
+smaller than Ω, then the information on J(λ) and RλH is explicit enough to obtain the following
+Classification Theorem:
+Theorem V.11. Let G be a simply connected hermitian Lie group of tube type and (πλ , Hλ ) be
+a unitary highest weight representation with F (λ)H∩K 6= {0} and supp(Rλ ) 6= Ω. Then (πλ , Hλ )
+is H -spherical if and only if le(λ) is odd.
+      We will see in Section V that among the singular unitary highest weight representations with
+spherical F (λ) the condition that supp(Rλ ) is smaller than Ω is satisfied in about half of all cases.
+In the scalar case F (λ) is always H ∩ K -spherical and λ is singular if and only supp(Rλ ) 6= Ω.
+Therefore the Classification Theorem covers in particular the scalar case. It therefore implies
+                           Unitary spherical highest weight representations                       3
+
+that the most singular scalar type highest weight representation which has reduction level 2 is
+never spherical. This covers the even metaplectic representation of G = Sp(n, R).
+      In the vector case (i.e. dim F (λ) > 1 ) the situation is much more complicated if supp(Rλ ) =
+Ω and λ is singular. Here we do not know of any example with even reduction level, where L(λ)
+is spherical.
+      We conclude the paper with an appendix where we give a simple algebraic proof of the
+fact that parameters λ which belong to the relative holomorphic discrete series representations
+of G/H are always regular. This means that these representations do not provide any further
+information on the question whether a singular unitary highest weight representation L(λ) with
+spherical lowest K -type F (λ) is spherical or not.
+
+
+
+                    I. Generalities on highest weight modules
+
+In this section we recall some concepts and results related to spherical highest weight modules.
+
+
+
+                                    Hermitian Lie algebras
+
+      Let g be a simple real Lie algebra and θ a Cartan involution of g with Cartan decomposition
+g = k⊕p . We call g hermitian if z(k) 6= {0} . We now collect some basic facts concerning hermitian
+Lie algebras (cf. [Hel78, Ch. VIII]). The center of k is one-dimensional, i.e., z(k) = RiZ0 for some
+0 6= Z0 ∈ iz(k). We can normalize Z0 such that Spec(Z0 ) = {1, 0, −1} . Further, every Cartan
+subalgebra t of k is a Cartan subalgebra of g and z(k) ⊆ t . Let gC be the complexification of g
+and b∆ the root system of gC with respect to tC .
+      A root αb∈∆   b is called compact if αb(Z0 ) = 0 and non-compact otherwise. We denote by
+b          b
+∆k , resp. ∆n , the set of compact, resp. non-compact roots. We fix a positive system ∆     b+ ⊆ ∆ b
+such that
+                              b
+                              ∆+      b    b+
+                                n : = ∆n ∩ ∆ = {b  α∈∆  b n: α
+                                                             b(Z0 ) = 1}.
+
+We set p± : = {X ∈ gC : [Z0 , X] = ±X} and note that
+
+                                        gC = p+ ⊕ kC ⊕ p− .
+
+As Spec(Z0 ) = {1, 0, −1} and Z0 ∈ z(kC ), it follows that [kC , p± ] ⊆ p± , [p+ , p− ] ⊆ kC ,
+[p+ , p+ ] = {0} and [p− , p− ] = {0} .
+
+
+
+                                 Generalized Verma modules
+
+      In this subsection we collect some basic facts concerning highest weight modules from an
+abstract algebraic point of view. References for the fact used in this subsection are [EHW83] or
+[Ne99, Ch. IX].
+      Let X 7→ X denote the conjugation in gC with respect to the real form g. Then the map
+X 7→ X ∗ : = −X extends to an involutive antilinear antiautomorphism D 7→ D∗ of U(gC ). A
+hermitian form h·, ·i on a gC -module V is called contravariant if
+
+                          (∀X ∈ gC )(∀v, w ∈ V ) hX.v, wi = hv, X ∗ .wi.
+4                              Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+                                                        b + and write F (λ) for the corresponding
+       Let λ ∈ it∗ be dominant integral with respect to ∆ k
+finite-dimensional unitary irreducible kC -module. Let q := p+ ⋊ kC and turn F (λ) into a q -
+module by letting p+ act trivially. We define the generalized Verma module associated to λ
+by
+                                   N (λ) = U(gC ) ⊗U (q) F (λ).
+Then N (λ) is a highest weight module with respect to ∆  b + and highest weight λ which contains
+F (λ) as a k-submodule which is called the lowest k-type. Therefore it has a unique maximal
+submodule J(λ) and hence a unique simple quotient L(λ) := N (λ)/J(λ). The positive definite
+form on F (λ) has a unique extension to N (λ) called the Shapovalov form. The radical of this form
+is the maximal submodule J(λ). In particular, the Shapovalov form factors to a contravariant
+form on L(λ) which we also denote by h·, ·iλ . We call L(λ) unitarizable if h·, ·iλ is positive
+definite on L(λ).
+       The canonical mapping U(p− ) ⊗ F (λ) → N (λ) gives rise to an isomorphism
+                                     U(p− ) ⊗ F (λ) ∼= N (λ)
+of kC ⋉ p− -modules, where kC ⋉ p− acts on U(p− ) ⊗ F (λ) via
+                          (∀X ∈ kC )       X.(p ⊗ v): = X.p ⊗ v + p ⊗ X.v
+(1.1)
+                          (∀Y ∈ p− )       Y.(p ⊗ v): = Y p ⊗ v
+for all p ∈ U(p− ) and v ∈ F (λ).
+
+
+
+                                        Symmetric structures
+       We now endow g with a symmetric structure, i.e., with an involutive automorphism
+τ : g → g. The pair (g, τ ) is called a symmetric Lie algebra. We write
+                   h: = {X ∈ g: τ (X) = X} and q: = {X ∈ g: τ (X) = −X}
+for the τ -eigenspaces and note that g = h ⊕ q . We assume that τ commutes with the Cartan
+involution θ .
+
+Definition I.1.      A hermitian symmetric Lie algebra (g, τ ) is called compactly causal, if
+z(k) ⊆ q .
+
+Remark I.2. For later reference we collect here the basic structural facts concerning compactly
+causal symmetric Lie algebras. Let (g, τ ) be compactly causal. We denote the complex linear
+extensions of τ and θ to gC by the same symbols. The c-dual (gc , τ c ) of (g, τ ) is defined by
+gc : = h + iq and τ c : = τ |gc . Then θc : = θτ |gc defines a Cartan involution on gc and we write
+gc = kc ⊕ pc for the corresponding Cartan decomposition.
+       As (g, τ ) is compactly causal, we find a maximal abelian subspace a ⊆ (iq) ∩ pc which
+is already maximal abelian in pc (cf. [HiÓl96, Prop. 3.1.11]). We write ∆ = ∆(gc , a) for the
+restricted root system of gc with respect to a and write
+                                                         M
+                                      gc = a ⊕ zh (a) ⊕      (gc )α
+                                                       α∈∆
+for the corresponding root space decomposition. We now choose the compact Cartan subalgebra
+                                                                 b + such that the prescription
+t of g such that t = (t ∩ h) ⊕ ia . Since z(k) ⊆ q we can choose ∆
+  +     b +                                     +
+∆ : = ∆ | a \{0} defines a positive system ∆ of ∆. Similarly we define compact and non-
+compact roots ∆k and ∆n . Finally we define subalgebras
+                               M                             M
+                        n+ : =      (gc )α     and    n− : =     (gc )α .
+                                α∈∆+                           α∈−∆+
+            c             +         ±     ±    c
+Note that g = h ⊕ a ⊕ n       and n = p ∩ g .
+                            Unitary spherical highest weight representations                     5
+
+
+
+
+                              Spherical highest weight modules
+
+Definition I.3.        (a) If h is a Lie algebra and V a complex a -module, then we write V h for
+the submodule of V which is annihilated by h. We denote by V ♯ the algebraic antidual of V ,
+i.e., the space of antilinear functionals V → C.
+(b) If (g, τ ) is a hermitian symmetric Lie algebra and L(λ) an irreducible highest weight module,
+then we call L(λ) spherical if there exists 0 6= ν ∈ L(λ)♯ which is annihilated by h, i.e.,
+(L(λ)♯ )h 6= {0} .
+
+Proposition I.4.      If the hermitian symmetric Lie algebra (g, τ ) has a non-trivial spherical
+unitarizable highest weight module, then (g, τ ) is compactly causal.
+Proof.    [Kr99b, Lemma B.1].
+
+Proposition I.5.        Let V be a highest weight module of the compactly causal symmetric Lie
+algebra (g, τ ) with highest weight λ and let vλ denote a highest weight vector. Then
+
+                                            U(hC ).vλ = V.
+
+If, in addition, V is spherical, then the lowest kC -type F (λ) := {v ∈ V : p+ .v = {0}} of V is
+spherical for (k, τ ), i.e., F (λ)h∩k 6= {0} .
+Proof.    Since (g, τ ) is compactly causal, the decomposition gc = h ⊕ a ⊕ n implies that
+gC = hC ⊕ aC ⊕ n+                                         +
+                  C . Therefore U(gC ) = U(hC )U(aC )U(nC ) by the Poincaré-Birkhoff-Witt
+Theorem, and therefore
+
+                       V = U(gC ).vλ = U(hC )U(aC )U(n+
+                                                      C ).vλ = U(hC ).vλ .
+
+
+      Now we assume that V is spherical and consider ν ∈ (V ♯ )h \ {0} . Then the first part
+implies that hν, vλ i 6= 0 . Thus ν |F (λ) defines a non-zero h ∩ k-fixed element.
+
+     The following lemma provides some refined information on the h-module structure of N (λ).
+
+Lemma I.6. If (g, τ ) is compactly causal, then we have an isomorphism of U(hC )-modules:
+
+            U(hC ) ⊗U (hC ∩kC ) F (λ) → N (λ) = U(gC ) ⊗U (kC ⊕p+ ) F (λ), u ⊗ v 7→ u ⊗ v.
+
+
+Proof.    [HiKr98, Lemma 3.1.1].
+
+Proposition I.7.      If (g, τ ) is compactly causal, then the restriction map
+
+                              (N (λ)♯ )h → (F (λ)♯ )h∩k ,    ν 7→ ν |F (λ)
+
+is a bijection. In particular, dim(N (λ)♯ )h ≤ 1 and N (λ) is spherical if and only if F (λ) is. If
+F (λ) is spherical, then L(λ) is spherical if and only a non-zero element ν ∈ (N (λ)♯ )h vanishes
+on the kernel J(λ) of the map N (λ) →  → L(λ).
+Proof.    (cf. [HiKr98, Lemma 3.1.2]) This is a direct consequence of Lemma I.6.
+6                                Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+
+
+
+                    II. The classification for odd reduction levels
+
+We are interested in a description of those unitary highest weight modules L(λ) which are
+spherical. In Proposition I.7 we have seen that it is necessary that F (λ) is spherical, and that
+this is sufficient provided that N (λ) ∼
+                                       = L(λ). Therefore the question becomes interesting for the
+situations where the kernel J(λ) of the quotient map N (λ) →     → L(λ) is non-trivial. In this case
+we will assign to L(λ) a natural number le(λ), called its reduction level. The main result of
+this section is that if le(λ) is odd and F (λ) is spherical, then L(λ) is spherical. This is done by
+analyzing the tC -Fourier series of the spherical vector ν of L(λ). In the following sections we
+will take a closer look at the cases with even reduction level.
+
+
+
+                  The classification of unitarizable highest weight modules
+
+      Let g be a hermitian Lie algebra, t ⊆ k a Cartan subalgebra, and identify z(k)∗ with the
+                                                                                      b + a long
+subspace (t ∩ [k, k])⊥ ⊆ t∗ . Let ζ ∈ iz(k)∗ ⊆ it∗ be normalized by ζ(γ̌) = 1 for γ ∈ ∆ n
+root. Fix λ ∈ it dominant integral with respect to b
+           0      ∗                                      +
+                                                       ∆k . For u ∈ R we set
+
+                                              λu = λ0 − uζ.
+
+Further we define
+                                l(λ0 ): = {u ∈ R: L(λu ) is unitarizable}.
+
+Theorem II.1.       (Enright–Howe–Wallach, Jakobsen) Let λ0 ∈ it∗0 be dominant integral with
+           b +
+respect to ∆k .
+  (i) There exists a real number um such that
+
+                                        l(λ0 ) = {u0 , . . . , um } ˙∪]um , ∞[
+
+         where uj = u0 + j d2 for j = 0, . . . , m and d is the multiplicity of the restricted roots of g
+         which are the second longest.
+    (ii) For u ∈ l(λ0 ) we have L(λu ) ∼
+                                       = N (λu ) if and only if u > um .
+Proof.       [EHW83, Th. 2.4].
+
+      The eigenspace decomposition of the symmetric algebra U(p− ) with respect
+                                                                            L∞ to the   action
+                                                                      −              − n
+of Z0 by derivations yield the grading by homogeneous elements
+                                                            L∞    U(p   ) =  n=0 U(p  )  . For
+each n ∈ N0 we set N (λ)n : = U(p− )n ⊗ F (λ). Then N (λ) = n=0 N (λ)n as kC -modules, and
+(1.1) shows that Z0 acts on N (λ)n by multiplication with λ(Z0 ) − n.
+
+                                                                           b + and let J(λ)
+Definition II.2. Suppose that λ ∈ it∗ is dominant integral with respect to ∆ k
+be the maximal
+            L∞ submodule of N (λ). We call λ regular if J(λ) = {0} and singular otherwise.
+Let J(λ) = n=0 J(λ)n be the natural grading induced from the one on N (λ). If λ is singular,
+then we call the number
+                           le(λ): = min{n ∈ N0 : J(λ)n 6= {0}}
+
+the level of reduction of L(λ).
+                           Unitary spherical highest weight representations                       7
+
+Remark II.3. From the classification of unitary highest weight modules, we know that the
+points u0 , . . . , um from Theorem II.1 are related to reduction levels by
+
+                                           le(λuj ) = 1 + j
+
+(cf. [EJ90]). So we see that approximately half of the singular points u0 , . . . , um correspond to
+even and half to odd reduction levels.
+
+Theorem II.4.       (Davidson–Enright–Stanke) Suppose that N (λ) is reducible and L(λ) is
+unitarizable. Then the maximal submodule J(λ) is a highest weight module, i.e., there exist an
+                                                            b + such that J(λ) ∼
+element λJ ∈ it∗ which is dominant integral with respect to ∆                  = N (λJ ).
+                                                              k
+Proof.   This follows from [DES91, Th. 3.1]. Note that, since N (λ) is a free U(p− )-module,
+the maximal submodule J(λ) is isomorphic to N (λJ ) if λJ is its highest weight.
+
+
+
+
+                                    Some algebraic criteria
+
+      Let σ: = exp(πiZ0 ) ∈ G. Then the Cartan involution θ on G is given by θ(g) = σgσ −1
+for g ∈ G.
+
+Lemma II.5. (Parity Lemma) Let N (λ) be spherical and ν ∈ (N (λ)♯ )h be a non-zero spherical
+vector. For n ∈ N0 we set ν n : = ν |N (λ)n . Then ν n = 0 for n odd.
+Proof.     Since the action of k on N (λ) is locally finite, it integrates a representation of the
+simply connected group K ⊆ G. Hence, in particular, σ acts on N (λ) in such a way that
+σ(X.v) = θ(X).(σ.v) for X ∈ g, v ∈ N (λ). Since h is θ -invariant,
+                                                              P       ν ◦ σ = cν for some c ∈ C×
+follows from (N (λ)♯ )h∩k = Cν (Proposition I.7). From ν = ∞    n=0 ν n
+                                                                        and (1.1) we thus get
+
+                                                      ∞
+                                                      X
+                                    σ.ν = eπiλ(Z0 )       (−1)n ν n .
+                                                      n=0
+
+
+Therefore c = eπiλ(Z0 ) and ν n = 0 for n odd.
+
+     From now on we suppose that (g, τ ) is compactly causal, that L(λ) is unitarizable, and
+that F (λ) is spherical, so that N (λ) is spherical by Proposition I.7. Let 0 6= ν ∈ (N (λ)♯ )h .
+
+Lemma II.6. If J(λ) is not spherical, then L(λ) is spherical.
+Proof.      If J(λ) is not spherical, then ν | J(λ) = 0 . Thus ν factors to a non-zero h-fixed
+antilinear functional on L(λ), showing that L(λ) is spherical.
+
+Proposition II.7.      Let 0 6= ν ∈ (N (λ)♯ )h and F (λJ ) the highest k-type of J(λ). Then the
+following assertions are equivalent:
+  (1) L(λ) is spherical.
+  (2) ν |F (λJ ) = 0 .
+Proof.      Note that L(λ) is spherical if and only if ν |J(λ) = 0 . We recall from Theorem II.4
+that J(λ) is a highest weight module with highest weight λJ . Thus Proposition I.5 implies that
+ν |J(λ) = 0 if and only if ν |F (λJ ) = 0 .
+8                              Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+Theorem II.8.       (Classification for odd reduction levels) If L(λ) 6∼= N (λ) is unitarizable and
+le(λ) is odd, then L(λ) is spherical if and only if F (λ) is spherical.
+Proof. If L(λ) is spherical, then F (λ) is spherical by Proposition I.5.
+      Assume, conversely, that F (λ) is spherical. Then N (λ) is spherical (Proposition I.7), so
+that there exists a non-zero element ν ∈ (N (λ)♯ )h . In view of Proposition II.7, we have to show
+that ν |F (λJ ) = 0 . Since le(λ) is odd, this follows from Lemma II.5.
+
+Example II.9. In the following we give an example where both L(λ) and J(λ) are spherical.
+      Let (g, h) = (sp(n, R), gl(n, R)). We choose λ0 = 0 and set λ: = λun−1 for the first
+reduction point which has reduction level n. Then it follows from [EJ90] that the highest weight
+λJ of the maximal submodule J(λ) is contained in iz(k)∗ . In particular, F (λJ ) is h∩k-spherical.
+Since λ is a first reduction point, we have J(λ) = N (λJ ). Hence J(λ) is spherical by Proposition
+I.7. Further if n is odd, then Theorem II.8 implies that L(λ) is spherical too. More details on
+the composition series of the modules N (λ) in this case can be found in [FaKo90].
+
+
+
+       III. Realization of representations in spaces of distributions
+
+In this section we realize simple highest weight modules of the important special case of Cayley
+type compactly causal symmetric Lie algebras in spaces of vector-valued distributions supported
+by a closed convex cone in a euclidean Jordan algebra. For the constructions in this section
+unitarizability will play no role at all. In the next section we will see how this picture can
+be used to get refined information on unitary highest weight modules because in this case the
+corresponding realization by distributions can also be viewed as a subspace of a suitable L2 -space
+with respect to an operator-valued measure.
+
+
+
+                                     Algebraic preliminaries
+
+Definition III.1.       A compactly causal symmetric Lie algebra (g, τ ) is said to be of Cayley
+type if z(h) 6= {0} .
+
+Remark III.2. (a) If (g, τ ) is of Cayley type, then z(h) ⊆ h ∩ p and dim z(h) = 1 (cf. [HiÓl96,
+Th. 1.3.11]).
+(b) Cayley type symmetric spaces are classified (cf. [HiÓl96, Th. 3.2.8]). Up to isomorphy, the
+corresponding pairs (g, h) are given by
+
+                (su(n, n), sl(n, C) ⊕ R), (so∗ (4n), su∗ (2n) ⊕ R), (sp(n, R), gl(n, R)),
+
+                         (so(2, n), so(1, n − 1) ⊕ R), (e7(−25) , e6(−26) ⊕ R).
+
+(b) If (g, τ ) is of Cayley type, then the Lie algebra g is hermitian and of tube type (cf. [HiÓl96],
+[KoWo65]), i.e., the hermitian symmetric space G/K attached to g is biholomorphically equiv-
+alent to a tube domain TΩ = V + iΩ over the convex open cone Ω of invertible squares in a
+finite-dimensional simple euclidean Jordan algebra V .
+      In the following V denotes a simple euclidean Jordan algebra with unit element e and
+Ω ⊆ V the open cone of invertible squares. Having Remark III.2(b) in mind, from now on
+G stands for the simply connected covering group of Aut(TΩ )0 and K = {g ∈ G: g.ie = ie}
+is the analytic subgroup corresponding to k. The corresponding Cartan involution θ satisfies
+                             Unitary spherical highest weight representations                         9
+
+η(g.η −1 (z)) = θ(g).z for z ∈ TΩ , where η(z) = −z −1 . As a subgroup of G, the group H
+consists of all those elements of G acting by linear maps on TΩ . This implies in particular that
+H preserves V and also Ω. Geometrically the involution τ is determined by ζ(g.ζ −1 (z)) = τ (g).z
+for z ∈ TΩ , where ζ(z) = −z . Since G is simply connected, the subgroup Gτ is connected,
+hence coincides with H . Let KC denote the universal complexification of K . Since KC has a
+polar decomposition KC = K exp(ik), this group is also simply connected.
+
+Definition III.3. (a) We follow the notation of [FaKo94]. We define L(z) ∈ End(VC ), z ∈ VC ,
+by L(z).w = zw and write
+
+                          P : VC → End(VC ), z 7→ P (z) = 2L(z)2 − L(z 2 )
+
+for the the quadratic representation of VC . Let {c1 , . . . , cr } be a Jordan frame of V (cf. [FaKo94,
+p. 44]) and set ek : = c1 + . . . + ck for 0 ≤ k ≤ r with the conventions e0 = 0 and e = er . Then
+Ω = H.er and
+                                                  ˙ 1 ∪˙ . . . ∪O
+                                          Ω = O0 ∪O            ˙ r
+
+with Oj = H.ej and Oj = ∪i<j Oi is the H -orbit decomposition of Ω (cf. [FaKo94, Prop.
+IV.3.1]). The number r is called the rank of the Jordan algebra V .
+       Note that h ∩ k ∼
+                       = der(V ) and h ∩ p ∼ = {L(x): x ∈ V } (cf. [FaKo94, Th. III.5.1]). Then
+        r
+b := ⊕j=1 RL(cj ) is a maximal abelian subspace of h ∩ p . Define εj ∈ b∗ by εj (L(ck )) = δjk and
+          P
+set ε: = rj=1 εj . Then the restricted root system of h is given by
+
+                                 Σ = { 12 (εj − εi ): i 6= j, 1 ≤ i, j ≤ r}.
+
+We consider the positive system Σ+ = { 21 (εj − εi ): i < j}.
+                                                           PrThemcoroot corresponding to 21 (εj − εi )
+                                                                 j
+is 2(L(cj ) − L(ci )). Therefore a linear functional λ = j=1 2 εj is dominant integral, i.e., can
+occur as a restricted highest weight of a finite-dimensional representation of h if and only if
+
+                                          mj − mi ∈ N0 , i < j,
+
+which implies in particular that m1 ≤ m2 ≤ . . . ≤ mr . For real highest weight representations
+which are the same as spherical representations of H , one has the stronger condition that
+mj − mi ∈ 2N0 for i < j (cf. [HiNe99, App. A] and [Hel84, Th. 5.1]).
+(b) Let
+                         D = {z ∈ VC : I − P (z)P (z) >> 0} ⊆ p+ ∼
+                                                                 = VC
+be the Harish Chandra realization of G/K as a bounded symmetric domain (cf. [FaKo94, Prop.
+X.4.2, Th. X.4.3]). Then the Cayley transform
+
+                                c: D → TΩ ,     z 7→ −i(z + e)(z − e)−1
+
+is biholomorphic.
+      The universal complexification GC of G acts by meromorphic mappings on VC and gC can
+be viewed as a Lie algebra of holomorphic vector fields on VC . In this sense the Cayley transform
+can be considered as obtained by an element of GC , which implies that it induces an isomorphism
+                                                                                    π
+cg ∈ Aut(gC ) mapping the Lie algebra g    e of Aut(D) onto g. Note that cg = ei 2 ad T for some
+h ∩ k-fixed element T ∈ q ∩ p with Spec(ad T ) = {−1, 0, 1} (cf. [HiÓl96]). The subalgebra ek ⊆ g
+                                                                                                 e
+consisting of all vector fields vanishing in 0 is maximal compact, and furthermore we have
+
+                                         ek = (h ∩ k) ⊕ i(h ∩ p)
+10                             Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+(cf. [FaKo94, Prop. X.3.1, Th. X.5.3]). It follows in particular that ekC = hC and that ek is a
+compact real form of hC . Therefore complex h-modules are equivalent to complex ek-modules.
+In addition, we have
+                               k = cg (ek) = (h ∩ k) ⊕ icg (h ∩ p)
+and icg (h ∩ p) = q ∩ k. We choose a compactly embedded Cartan subalgebra t ⊆ g containing
+icg (b), which is then automatically adapted to the above decomposition of k. We choose a positive
+system b  ∆+                                       b                           b+             +
+           k of the corresponding root system ∆k = ∆(kC , tC ) such that ∆k ◦ cg |b ⊆ Σ ∪ {0} .
+            k
+       If (πλ , F (λ)) is a highest weight representation of k, resp., kC we obtain a representation
+of hC = ekC by τλh := πλk ◦ cg . We call λ ◦ cg |b the restricted highest weight of this representation
+(cf. (a)).
+       On the group level the inclusion c−1 g : h → kC yields the identity on H ∩ K . Therefore the
+Cartan decomposition H = (H ∩ K) exp(h ∩ p) leads to a homomorphism H → KC which, in
+view of the simple connectedness of KC , is the universal complexification of H , i.e., HC ∼    = KC .
+
+
+
+                    Polynomial differential operators and distributions
+       For a finite-dimensional complex Hilbert vector space F , let SΩ′ (F ) denote the space of
+F -valued tempered distributions on V supported by the closed convex cone Ω. For z ∈ VC
+let ez : V → C be defined by ez (x) := e(z,x) , where (·, ·): VC × VC → C is the complex bilinear
+extension of the scalar product on V . According to Lemma B.1 in [HiNe99], for each z ∈ TΩ
+and D ∈ SΩ′ (F ) we have eiz D ∈ SΩ′ (F ) and eiz |Ω extends to a Schwartz function on V , so that
+the Fourier transform F (D) extends uniquely to a holomorphic function
+
+                                   F (D): TΩ → F,      z 7→ D(eiz ),
+
+(cf. [Sch66, Ch. VIII, Prop. 6]). We thus obtain an injective map
+
+                                      F : SΩ′ (F ) → Hol(TΩ , F ).
+
+For a characterization of the image we refer to [Sch66, Ch. VIII]. Here we will only need that
+this map is injective.
+      In the following we will consider the space S ′ (V, F ) = S ′ (V ) ⊗ V of F -valued distributions
+as the topological antidual space of S(V, F ), the F -valued Schwartz space, where the pairing is
+given by
+                                  hD ⊗ v, ϕ ⊗ wi := D(ϕ)hv, wi.
+     Now we turn to the action of the algebra of polynomial differential operators on these
+spaces. To fix the notation, for v ∈ V we define on C ∞ (V, F ) the operators
+
+                      (∂v .ϕ)(x) = dϕ(x)(v)     and     (mv .ϕ)(x) = (v, x)ϕ(x).
+
+It is also clear that End(F ) acts naturally on C ∞ (V, F ) by A.ϕ := A ◦ ϕ. We write PD(V, F )
+for the algebra generated by the operators ∂v , mv and End(F ). The elements of this algebra are
+sums of operators of the type P (x)∂v1 · · · ∂vn , where P : V → End(F ) is a polynomial function.
+We define an antilinear involution ∗ on PD(V, F ) by prescribing on the generators that
+
+                            m∗v := mv ,   ∂v∗ := −∂v     and     A∗ := A∗ ,
+
+where A∗ for A ∈ End(F ) denotes the operator adjoint. Then we obtain a natural action of
+PD(V, F ) on SΩ′ (F ) by
+                                 hP.D, ϕi := hD, P ∗ .ϕi.
+                              Unitary spherical highest weight representations                           11
+
+Here we use that the elements of PD(V, F ) restrict to continuous operators on the Schwartz
+space S(V, F ). In particular we have
+
+                      h∂v .D, ϕi = hD, −∂v .ϕi         and      hmv .D, ϕi = hD, mv .ϕi.
+
+     It is also clear how the algebra PD(V, F ) acts on the space Hol(TΩ , F ). In this sense we
+obtain directly from the definitions:
+
+(3.1)        F (∂v .D) = −imv .F (D),       F (mv .D) = −i∂v .F (D)          and     F (A.D) = A.F (D)
+
+for v ∈ V and A ∈ End(F ). The preceding relations describe in which way the natural action of
+the algebra PD(V, F ) on SΩ′ (F ) is intertwined with its natural action on the space Hol(TΩ , V ).
+The Fourier transform defines an algebra automorphism F : PD(V, F ) → PD(V, F ) which satisfies
+for all P ∈ PD(V, F ) and D ∈ S ′ (V, F )
+
+(3.2)                                       F (P.D) = F (P )F (D).
+
+Now (3.1) can be written as
+
+                         F (∂v ) = −imv ,      F (mv ) = −i∂v          and   F (A) = A.
+
+
+
+
+                                            Lie algebra actions
+      Recall that we consider G as the universal covering group of Aut(TΩ )0 . We write Str(VC )
+for the structure group of the complex Jordan algebra VC (cf. [FaKo94,p. 147]). Then the natural
+homomorphism H → Str(VC ), coming from the inclusion H ⊆ G, induces a holomorphic covering
+HC → Str(VC )0 , where HC denotes the universal Lie group complexification of H . The group
+G naturally acts on TΩ and
+                                                                                ∂(g.z)
+                          J: G × TΩ → Str(VC )0 ,        (g, z) 7→ J(g, z): =
+                                                                                  ∂z
+defines a cocycle (cf. [FaKo94, Prop. XIII.4.1]). Using the simply connectedness of TΩ , it is not
+hard to see that there is a unique lifting of J to a cocycle
+                                 e G × T Ω → HC
+                                 J:                      with      e
+                                                                   J(1, z) = 1.
+
+Let (τ, F ) be a holomorphic representation of HC . Then we obtain by
+
+                        Jτ : G × TΩ → GL(F ),         (g, z) 7→ Jτ (g, z): = τ (Je(g, z))
+
+a GL(F )-valued cocycle which leads to a representation of G on Hol(TΩ , F ) given by
+
+                (πτ (g).f )(z) = Jτ (g −1 , z)−1 .f (g −1 .z)    for     g ∈ G, f ∈ Hol(TΩ , F ).
+
+For v ∈ V and h ∈ H we obtain in particular the simple formulas
+
+                   (πτ (v).f )(z) = f (z − v)      and       (πτ (h).f )(z) = τ (h).f (h−1 .z).
+
+        The derived action dπτ of the Lie algebra g on Hol(TΩ , F ) is then given by
+                                                                       
+                         dπτ (X).f (z) = d1 Jτ (1, z)(X).f (z) + σ̇(X).f (z),
+                   d
+where σ̇(X)(z) := dt |t=0 exp(−tX).z is the holomorphic vector field on TΩ corresponding to the
+action of the one-parameter subgroup exp(RX) ⊆ G (cf. [Ne99, Prop. IV.1.9(ii)]).
+12                               Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+Lemma III.4. The action of g on Hol(TΩ , F ) is given explicitely by polynomial differential
+operators as follows:
+   (i) (v.f )(z) = −df (z)(v) for v ∈ V ∼= n+ ,
+  (ii) (X.f )(z) = dτ (X).f (z) − df (z)(X.z) for X ∈ h, and
+                                                    
+ (iii) θ(v).f (z) = 2dτ (zv).f (z) − df (z) P (z).v for v ∈ V , where zv ∈ str(VC ) ∼
+                                                                                      = hC is
+       defined by ab: = L(ab) + [L(a), L(b)].
+Proof.      In this proof we assume that v ∈ V , X ∈ h and h ∈ H . According to [FaKo94,
+p.209], the vector fields corresponding to the action of g on TΩ are given by
+
+                   σ̇(v)(z) = −v,   σ̇(X)(z) = −X.z         and    σ̇(θ.v)(z) = −P (z).v,
+
+where the last assertion follows from the fact that the inverion η: TΩ → TΩ , η(z) = −z −1 satisfies
+η(g.z) = θ(g).η(z) for g ∈ G and z ∈ TΩ .
+      We further have
+                                                                                                 
+          Jτ (v, z) = 1,    Jτ (h, z) = τ (h)     and    Jτ (θ.v, z) = τ Pe(v − z −1 )−1 Pe (z)−1 .
+
+Here the first two formulas are clear from the definitions, and the last one follows from θ(v).z =
+η(v + η(z)), dη(z) = P (z)−1 ([FaKo94, Prop. II.3.3]) and the chain rule. This leads to
+d1 Jτ (1, z).v = 0 and d1 Jτ (1, z).X = dτ (X), so that it only remains to verify
+
+                                       d1 Jτ (1, z).θv = 2dτ (zv).
+
+We have
+
+                 d                                               d
+ d1 J(1, z).θv =        P (z −1 − tv)−1 P (z)−1 = −P (z −1 )−1         P (z −1 − tv)P (z −1 )−1 P (z)−1
+                 dt t=0                                         dt t=0
+                        d
+               = −P (z)        P (z −1 − tv) = 2P (z)P (z −1 , v),
+                        dt t=0
+
+so that the assertion follows from Lemma III.5 below.
+
+Lemma III.5. For each z ∈ VC× and u ∈ V we have P (z)P (z −1 , u) = zu.
+Proof.     In view of [FaKo94, p. 147], we have for all x, y ∈ VC and g ∈ Str(VC ) the identities
+
+                    P (g.x, g.y) = gP (x, y)g ⊤    and     (g.xθ(g).y) = g(xy)g −1 .
+
+For z = g.e we thus get
+                                                   
+           P (z)P (z −1 , u) = P (g.e)P (g.e)−1 , u = gP (e)g ⊤ P (θ(g).e, u)
+                             = gg ⊤ θ(g)P (e, g ⊤ .u)g −1 = gP (e, g ⊤.u)g −1 = gL(g ⊤ .u)g −1 .
+
+On the other hand ex = L(x) implies
+
+                zu = (g.e)u = g(eg ⊤.u)g −1 = gL(g ⊤ .u)g −1 = P (z)P (z −1 , u).
+
+Now the assertion follows from VC× = Str(VC ).e ([FK94, Prop. VIII.3.5(i)]).
+                            Unitary spherical highest weight representations                         13
+
+      The main point in the formulas of Lemma III.4 is that they show that dπτ (g) ⊆ PD(V, F ),
+acting on Hol(TΩ , V ). We therefore obtain a representation of g on SΩ′ (F ) by
+
+                                       X.D := F −1 (dπτ (X)).D
+and further a representation ρτ on C ∞ (V, F ) which on S(V, F ) is given by
+(3.3)                 hD, ρτ (X).ϕi = h−X.D, ϕi          for   ϕ ∈ S(V, F ), X ∈ g.
+Remark III.6. For each linear function α ∈ V ∗ the subspace eα Pol(V, F ) ⊆ C ∞ (V, F ) is
+invariant under the action of g because this space is invariant under the whole algebra PD(V, F ) .
+We will see below that the most important space of this type arises for α = − tr.
+      The following lemma makes the action of the parabolic subalgebra n+ ⋊h ⊆ g quite explicit.
+In priciple it is also possible to obtain formulas for the action of n− = θ(n+ ), but it seems that
+this can only be done in coordinates. Fortunately, for our arguments below it will suffice to have
+direct access to the action of h and n+ .
+
+Lemma III.7. For ϕ ∈ C ∞ (V, F ) we have:
+  (i) ρτ (v).ϕ = −imv ϕ for v ∈ V ∼
+                                  = n+ . In particular, ρτ (U(n+ )).ϕ = Pol(V ) · ϕ.
+                
+ (ii) ρτ (X).ϕ (x) = dτ (θ(X)).ϕ(x) − dϕ(x).(θ(X).x).
+Proof.      (i) We have dπτ (v) = −∂v (Lemma III.4(i)), hence F −1 (dπτ (v)) = −imv , and
+therefore
+                   hD, ρτ (v).ϕi = −h(−imv ).D, ϕi = himv .D, ϕi = hD, −imv ϕi
+because the pairing h·, ·i is sesquilinear.
+(ii) Let v1 , . . . , vn be a basis of V , mj := mvj , and ∂j := ∂vj . Then the differential operator on
+Hol(TΩ , F ) corresponding to X ∈ h is given by
+                                                                          X n              
+        (dπτ (X).f )(z) = dτ (X).f (z) − df (z)(X.z) = dτ (X).f (z) −           xjk mk ∂j .f (z),
+                                                                                j,k=1
+               Pn                             −1
+where X.vj =      k=1 xkj vk . The map F           maps this operator to
+                                   n
+                                   X                                n
+                                                                    X
+                        dτ (X) −           xjk i∂k imj = dτ (X) +           xjk ∂k mj ,
+                                   j,k=1                            j,k=1
+
+and the corresponding action on smooth functions is given by
+                                      n
+                                      X                                          n
+                                                                                 X
+                                                      
+    hD, ρτ (X).ϕi = h − dτ (X) −             xjk ∂k mj .D, ϕi = hD, −τ (X)∗ .ϕ +   xjk mj ∂k .ϕi
+                                     j,k=1                                                j,k=1
+
+                    = hD, −τ (X)∗ .ϕ + dϕ(·)(X ∗ ·)i.
+We therefore obtain for X ∈ h the formula
+               
+       ρτ (X).ϕ (x) = −dτ (X)∗ .ϕ(x) + dϕ(x)(X ∗ .x) = dτ (θ(X)).ϕ(x) − dϕ(x)(θ(X).x).
+       From now on we specialize to the case where F := F (λ) and the representation τ :=
+τλ : h → End(F (λ)) is τλ := πλk ◦ cg , where (πλk , F (λ)) is a unitary highest weight representation
+of kC and cg ∈ Aut(gC ) is the Cayley transform (cf.     Definition III.3(b)).
+       In the following we equip e− tr Pol V, F (λ) with the g-module structure given by the
+representation ρτλ of g on C ∞ (V, F (λ))described in (3.3).
+       If g is a Lie algebra, then we define a filtration of U(g) by
+                      U(g)(n) = spanC {X1 · . . . · Xk : k ≤ n, Xi ∈ g},        n ∈ N0 .
+For all n ∈ N0 we write Pol(V )(n) for the space of polynomials on V of degree at most n.
+14                              Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+Lemma III.8. There exists a unique isomorphism of h-modules
+
+                                    Φ: N (λ) → e− tr Pol(V ) ⊗ F (λ)
+
+with Φ(v) = e− tr v for v ∈ F (λ). Morover, Φ satisfies Φ(U (n) (h).F (λ)) = e− tr Pol(V )(n) ⊗ F (λ)
+for all n ∈ N0 .
+Proof.      To prove the existence of Φ as a homomorphism of h-modules, in view of the
+description of N (λ) as a module induced from the (h ∩ k)-module F (λ) (Lemma I.6), it suffices
+to observe that the map
+
+                            F (λ) → e− tr F (λ) ⊆ C ∞ (V, F ),    v 7→ e− tr .v
+
+is a homomorphism of h ∩ k-modules. This is an immediate consequence of the fact that the
+function e− tr is invariant under H ∩ K ⊆ Aut(V ) because (h ∩ k).e = {0} .
+      Next we show that Φ is injective. Let v1 , . . . , vm denote a basis of V , so that the Jordan
+left multiplications L(vj ) form a basis of h ∩ p . And write U(h ∩ p) for the subspace of U(h)
+spanned by the ordered products of the form L(v1 )k1 · · · L(vm )km . We will use the vector space
+isomorphism
+                                = U(h) ⊗U (h∩k) F (λ) ∼
+                          N (λ) ∼                        = U(h ∩ p) ⊗ F (λ).
+For X ∈ h and p ∈ Pol(V ) ⊗ F (λ) we obtain from Lemma II.7(i) for all v ∈ V the formula
+
+                 dπλ (X).(e− tr p)(y)
+(3.4)
+              = dτλ (θ(X)).e− tr(y) p(y) − (y, X.e)e− tr(y) p(y) − e− tr(y) dp(y).(θ(X).y).
+
+Inductively this leads for u = L(x1 ) · . . . · L(xn ), xj ∈ V , to
+                                          Y
+                                            n                                        
+(3.5)           Φ(u ⊗ v)(y) = e− tr(y)           (y, xj ) v + polynomials of order < n .
+                                           j=1
+
+
+From (3.5) we deduce that Φ is injective.
+     We also conclude inductively with (3.5) that
+
+                             Φ(U (n) (h) ⊗ F (λ)) = e− tr Pol(V )(n) ⊗ F (λ)
+
+for all n ∈ N0 , and this implies in particular that Φ is surjective.
+
+Remark III.9. There are several actions of the group H which will be used in the following.
+(a) First we recall the action on Hol(TΩ , F (λ)) given by
+
+                                    (πτ (h).f )(z) = τλ (h).f (h−1 .z),
+
+and on the space C ∞ (V, F (λ)) we consider the action given by
+
+                                   (h.ϕ)(x) = τλ (θ(h)).f (θ(h)−1 .x)
+
+which is the integrated form of the representation ρτ of h (Lemma III.7). On the space C ∞ (V )
+we consider the action given by (h.ϕ)(x) := ϕ(h−1 .x). Via (h.D)(ϕ) := D(h−1 .ϕ) we further
+obtain an action on D′ (V, F (λ)) which is compatible with the action of h and given on D ⊗ v
+by
+           hh.(D ⊗ v), ϕ ⊗ wi = hD ⊗ v, h−1 .(ϕ ⊗ w)i = hD ⊗ v, θ(h)−1 .ϕ ⊗ τλ (h)∗ .wi
+                              = hθ(h).D ⊗ τλ (h).v, ϕ ⊗ wi,
+                               Unitary spherical highest weight representations                          15
+
+i.e.,
+                                      h.(D ⊗ w) = θ(h).D ⊗ τλ (h).v.
+This action preserves the subspace SΩ′ (F (λ)), and the Fourier transform
+
+                                       F : SΩ′ (F (λ)) → Hol(TΩ , F (λ))
+
+intertwines the H -actions on both spaces. On the level of the derived representation this is
+satisfied by definition, and on the group level it either follows from the connectedness of H and
+the smoothness of the actions, or directly by calculation.
+(b) Further we consider on the space End(F (λ)) the H -action given by h.A := τλ (h)Aτλ (h)∗ ,
+and the induced action on SΩ′ (End(F (λ)) given by
+
+                                        h.(D ⊗ A) = θ(h).D ⊗ h.A.
+
+(c) We also have a natural map
+                         
+           SΩ′ End(F (λ)) × C ∞ (V, F (λ)) → D′ (V, F (λ)),         (D ⊗ A).(ϕ ⊗ v) 7→ ϕD ⊗ A.v.
+
+The observation that h.(ϕD) = (h.ϕ)(h.D) holds for the multiplication of distributions with
+smooth functions, together with (a) and (b), shows that this map is H -equivariant.
+                                                                                        
+Theorem III.10.           There exists a unique tempered distribution Rλ ∈ SΩ′ End(F (λ) with
+                                                       
+                               F (Rλ )(z) = τλ Pe (−iz)       for all     z ∈ TΩ .
+
+This distribution is H -invariant.
+Proof. The existence of Rλ follows from [HiNe99, Th. V.8]. The formula P (h.x) = hP (x)h⊤
+for h ∈ Str(V ) and x ∈ V implies that
+
+                      F (Rλ )(z) = τλ (h)F (Rλ )(h−1 .z)τλ (h)∗     for    z ∈ TΩ , h ∈ H.
+
+It is easy to see that the action of H on Hol(TΩ , End(F (λ))) given by the formula on the right
+hand side is intertwined by the Fourier transform with the action on SΩ′ End(F (λ)) , so that
+the injectivity of the Fourier transform implies that Rλ is fixed by H .
+
+Theorem III.11.           (Equivariance Theorem) The map
+
+                                  Ψ: N (λ) → SΩ′ (F (λ)),      v 7→ Rλ .Φ(v)
+
+is g-equivariant, and its range Rλ .e− tr Pol(V, F (λ)) is isomorphic to L(λ).
+Proof. Since the Fourier transform F : SΩ′ (F (λ)) → Hol(TΩ , F (λ)) is by definition equivariant
+with respect to the action of g on both sides, it suffices to show that the composition
+
+                                       F ◦ Ψ: N (λ) → Hol(TΩ , F (λ))
+
+is equivariant. The operator
+                                                                   z + ie 
+        Cλ : Hol(D, F (λ)) → Hol(TΩ , F (λ)),    (Cλ .f )(z): = τλ Pe        ).f ((z − ie)(z + ie)−1 )
+                                                                      2i
+16                            Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+intertwines the natural representations of the covering group of Aut(D)0 , resp. G, on both spaces
+(cf. [FaKo94, Lemma X.4.4]). The subspace F (λ), as a ek -module is embedded into Hol(D, F (λ))
+as the subspace of the constant functions, the lowest ek -type, and this subspace generates a simple
+highest weight module of g e of highest weight λ (cf. [Ne99, Prop. XII.2.2]). Let dλ > 0 be the
+number determined by τλ ( 14 1) = dλ 1. Then we obtain for v ∈ F (λ) ⊆ Hol(D, F (λ)) the formula
+                           z + ie                      z + ie 
+           Cλ (v)(z) = τλ Pe            .v = τλ ( 41 1)τλ Pe           .v
+                                 2i                            i
+                     = dλ F (Rλ )(z + ie).v = dλ F (Rλ .v)(z + ie) = dλ F (Rλ .e− tr v)(z).
+
+This implies that the lowest K -type for the G-representation in Hol(TΩ , F (λ)) is given by the
+subspace F ◦ Ψ F (λ)) which is annihilated by p+ .
+      Now the definition of N (λ) as a g-module induced from the p+ ⋊ kC -module F (λ) implies
+the existence of a g-equivariant map Ψ1 : N (λ) → Hol(TΩ , F (λ)). Its range is the g-module
+generated by F ◦ Ψ F (λ)) which is a simple highest weight module of highest weight λ, hence
+isomorphic to L(λ).
+      Since Rλ is H -invariant (Theorem III.10), the multiplication map
+
+                           e− tr Pol(V, F (λ)) → SΩ′ (F (λ)),   ϕ 7→ Rλ .ϕ
+
+is H -equivariant (cf. Remark III.9(c)). Now Lemma III.8 implies that Ψ is h-equivariant.
+In view of Proposition I.5, this shows that F ◦ Ψ maps N (λ) = U(h).F (λ) surjectively onto
+U(h).(F ◦ Ψ)(F (λ)) ∼= L(λ). Therefore F ◦ Ψ and Ψ1 can be viewed as two h-equivariant
+linear maps N (λ) → F (λ) which coincide on F (λ). Now ker(F ◦ Ψ − Ψ1 ) is an h-invariant
+subspace of N (λ) containing F (λ), hence coincides with N (λ) (Proposition I.5). This proves
+that F ◦ Ψ = Φ1 is g-equivariant.
+     The Equivariance Theorem has several interesting consequences.
+
+Corollary III.12.      (a) The subspace Rλ .e− tr Pol(V, F (λ)) is a g-submodule of SΩ′ (F (λ))
+isomorphic to L(λ).
+(b) ker Ψ = J(λ) is the maximal submodule of N (λ).
+(c) J(λ) = {ϕ ∈ N (λ) ∼
+                      = e− tr Pol(V, F (λ)): Rλ .ϕ = 0} .
+                            Pn
+Lemma III.13. Let f = j=0 fj ∈ J(λ) with fj = e− tr pj and pj ∈ Pol(V, F (λ)) homoge-
+neous of degree j . Then we have fj ∈ J(λ) for all 0 ≤ j ≤ n.
+Proof.    Recall that L(e) is the generator of z(h) ⊆ h ∩ p . From (3.4) we obtain for all
+x ∈ supp Rλ :
+                                                                         n
+                                                                         X
+                  dρλ (L(e).f )(x) = −dτλ (L(e)).f (x) − (x, e)f (x) +         jfj (x).
+                                                                         j=0
+
+
+Clearly we have dτλ (L(e)).f
+                      Pn     (x) ∈ Cf (x) ⊆ J(λ), and by Corollary III.12(c) we also have
+tr ·f ∈ J(λ), so that  j=0 jf j ∈ J(λ). This means that J(λ) is invariant under the operator
+         Pn
+E(f ) := j=0 jfj , hence adapted to the eigenspace decomposition of E .
+                           Unitary spherical highest weight representations                               17
+
+
+
+
+  IV. Unitary highest weight representations for Cayley type spaces
+
+In this section we now turn to unitary highest weight representations in the setup studied in
+Section II. We will recall the realization of unitary highest weight representations in spaces of
+vector valued square integrable functions on a homogeneous cone. Then we give a new and quite
+explicit characteriztion of the K -finite vectors in the cone realization which will easily follow
+from the more general results in Section II.
+       We keep the notation from Section III. In particular G is the simply connected covering
+group of Aut(TΩ )0 and K and H are connected subgroups of G.
+       Let (πλ , Hλ ) be a unitary highest weight representation of G with highest weight λ ∈
+it∗ and with respect to ∆    b + . We write (π K , F (λ)) for the corresponding irreducible KC -
+                               k                λ
+representation with highest weight λ. Thus Definition III.3(b) implies that the prescription
+dτλ : = dπλK ◦ c−1
+                g   integrates to a holomorphic representation (τλ , F (λ)) of HC .
+
+Theorem IV.1.        Let Rλ ∈ SΩ′ (End(F (λ)) denote the distribution with
+
+                                L(Rλ )(z) = τλ (Pe (−iz)),         z ∈ TΩ .
+
+Then the highest weight module L(λ) of g is unitarizable if and only if Rλ is a measure with
+values in the cone Herm+ (F (λ)) of positive operators on F (λ). If this is the case, then the
+following assertions hold:
+  (i) Let                                            Z
+                                n                                               o
+                     2
+                   L (Ω, Rλ ): = f : Ω → F (λ) meas.: hdRλ (x).f (x), f (x)i < ∞ .
+                                                             Ω
+
+      Then the Fourier transform
+                                                                              Z
+             Fλ : L2 (Ω, Rλ ) → Hλ ⊆ Hol(TΩ , F (λ)),        Fλ (f )(w): =        ei(w,x) dRλ (x).f (x)
+                                                                              Ω
+
+      yields an isomorphism on the reproducing kernel Hilbert space Hλ with kernel
+                                                          z−w   
+                                             τλ        Pe (            .
+                                                             2i
+
+ (ii) If we realize the unitary highest weight representation (πλ , Hλ ) of G in the space L2 (Ω, Rλ )
+      as in (i), then the action of the parabolic subgroup V ⋊ H is given by
+
+                             (πλ (v, h).f )(x) = e−i(v,x) τλ (θ(h)).f (θ(h)−1 .x).
+
+Proof.      For the first statement we have to combine several results. First [Ne99, Th. XII.2.6]
+says that L(λ) is unitarizable if the natural End(F (λ))-valued kernel on D is positive definite,
+which by the Cayley transform is equivalent to the positive definiteness of the function τλ ◦ Pe
+on TΩ . This in turn is equivalent to Rλ being a Herm+ (F (λ))-valued measure ([HiNe99, Th.
+V.12], see also [Cl95, Th. 3.3]).
+(i) [Cl95, p. 233]
+(ii) This is immediate from [Cl95, Th. 3.4].
+      The preceding result is the appropriate version of Clerc’s results that we need in our context.
+For the scalar case (dim F (λ) = 1 ), similar results were obtained by Vergne and Rossi in [VR76].
+18                            Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+Remark IV.2. Suppose that Rλ is a Herm+ (F (λ))-valued measure. Then for each element
+ϕ ∈ L2 (Ω, Rλ ) we can view Rλ .ϕ as an element of SΩ′ (F (λ)) and obtain
+                                        F (Rλ .ϕ) = Fλ (ϕ).
+Since the maps F and Fλ are g-equivariant, it follows from Lemma III.7 and Theorem III.11
+that the action of g on the subspace L2 (Ω, Rλ )∞ of smooth vectors is given by the natural action
+on SΩ′ (F (λ)). For the subalgebra n+ ⋊ h it is given by the formulas in Lemma III.7.
+     In the following lemma the assumption that L(λ) is unitarizable is used to ensure that
+J(λ) is a cyclic module.
+
+Lemma IV.3. Suppose that N (λ) is unitarizable and of reduction level k . Then there exists
+an element vk ∈ U(h)(k) .vλ \U(h)(k−1) .vλ such that the maximal submodule J(λ) ⊆ N (λ) is given
+by J(λ) = U(h).vk .
+Proof. In view of Lemma III.8, we may identify in the following the h-module N (λ) with the
+space e− tr Pol(V ) ⊗ F (λ). Comparing dimensions in the following chain of inclusions
+           U(p− )(n) ⊗ F (λ) = U(g)(n) .F (λ) ⊇ U(h)(n) .F (λ) = e− tr Pol(V )(n) ⊗ F (λ)
+yields equality, so that the assertion follows from Proposition I.5 and Theorem II.4.
+
+
+
+                             Identification on central half lines
+           0
+      Let λ be the highest weight of πλk 0 with respect to the Cartan subalgebra t . Then
+                                 Xr
+                                     mj
+(4.1)               λ0 ◦ cg |b =        εj with mj − mi ∈ N0 , i < j
+                                 j=1
+                                     2
+(Definition III.3(b)). We assume, in addition, that mr = 0 . Then mj ∈ −N0 for all j . For
+u ∈ R we then set
+                                       λ: = λu : = λ0 − uζ,
+                                                P
+where ζ ∈ [k, k] is determined by ζ ◦ cg |b = 1
+                ⊥
+                                               2   jεj which is equivalent to ζ(γ̌) = 1 for γ ∈ b
+                                                                                                ∆+n
+                                      b + the corresponding restricted root is εr with the coroots
+long because for the highest root γ ∈ ∆ n
+2L(cr ) (cf. [Kr99b, Sect. IV]). Then λ is the highest weight of a finite-dimensional irreducible
+representation (τλ , F (λ)) of H which can be written as
+                                         τλ = τλ0 ⊗ τ− u2 ε ,
+where τ− u2 ε is a one-dimensional representation. Accordingly, we may identify F (λu ) for all
+u ∈ C with the fixed vector space F0 : = F (λ0 ).
+      Recall the definition of the Jordan algebra determinant ∆: = det from [FaKo94, p. 29].
+For each u ∈ R we denote by Ru the Riesz distribution with parameter u ∈ C on Ω which are
+uniquely determined by
+                             F (Ru )(z) = ∆(−iz)−u , z ∈ TΩ , u ∈ C
+(cf. [FaKo94, Sect. VII.2]). By a theorem of Gindikin (cf. [FaKo94, Th. VII.3.2]), Ru is a positive
+measure if and only if
+                                      n d               do          d
+                                  u ∈ 0, , . . . (r − 1) ∪](r − 1) , ∞[,
+                                           2            2           2
+                  1
+where d: = dim g 2 (εi +εj ) , i 6= j , is obtained from the restricted root decomposition of g with
+respect to b . Moreover we have supp(Ru ) = Ω with Ru (Ω\Ω) = 0 for u > (r − 1) d2 and
+supp(Ru ) = Ok with Ru (Ok \Ok ) = 0 for u = k d2 , 0 ≤ k ≤ r − 1 .
+       By a more detailed study of the vector valued measure Rλ , one can retrieve useful infor-
+mation on Rλ which we collect in the next theorem.
+                           Unitary spherical highest weight representations                        19
+
+Theorem IV.4. If Rλu is a Herm+ (F (λu ))-valued measure, then:
+  (i) There exists a polynomial map Du : V → Herm+ (F (λu )) with Rλ = Du Ru .
+ (ii) u ∈ {0, d2 , . . . , (r − 1) d2 }∪](r − 1) d2 , ∞[.
+                                         
+                                            Ω      for u > (r − 1) d2
+(iii) supp(Rλu ) = supp(Ru ) =                                                       .
+                                            Ok for u = k 2d , k ∈ {0, . . . , r − 1}
+Proof.     [HiNe99, Th. V.17]
+
+
+
+
+                                 The space of K -finite vectors
+       We now determine explicitely the space of K -finite vectors for a unitary highest weight
+representations of G realized in L2 (Ω, Rλ ). Since the K -action in the cone realization is rather
+nasty (cf. [DG93]), there is no obvious description of this space. Our approach is based on the
+action of the maximal parabolic subalgebra h ⋉ n+ which led in Section II already to the right
+subspace of SΩ′ (F (λ)).
+       Recall the decomposition of the ring Pol(V ) of polynomials into irreducible H -modules
+(cf. [FaKo90, Th. 2.1], [FaKo94, Th. XI.2.4]): The H -decomposition is muliplicity free and given
+by
+                                                   M
+(4.2)                                  Pol(V ) =         Pol(V )m
+                                                   m≥0
+
+
+where m = (m1 , . . . , mr ) and the condition m ≥ 0 means that m1 ≥ m2 ≥ . . . ≥ mr ≥ 0
+and mP  i ∈ Z. The space Pol(V )m is a real highest weight module of H with highest weight
+          r
+λm = j=1 mj εj ∈ b∗ w.r.t. −Σ+ which is generated by the highest weight vector ∆m (for the
+definition of the generalized power functions ∆m we refer to [FaKo94, p. 122]).
+      Recall that the Jordan algebra trace tr on V satisfies tr(x) = (x, e) for all x ∈ V .
+
+Theorem IV.5.          (Description of K -finite vectors) Suppose that (πλ , Hλ ) is a unitary high-
+est weight representation of the simply connected hermitian group G of tube type realized as
+L2 (Ω, Rλ ). Then the space L2 (Ω, Rλ )K of K -finite vectors of (πλ , Hλ ) is the image of the space
+e− tr Pol(V, F (λ)) in L2 (Ω, Rλ ), and a highest weight vector of (πλ , Hλ ) is given by the function
+e− tr .vλ , where vλ is a highest weight vector of (τλ , F (λ)).
+Proof.     We identify L2 (Ω, Rλ ) with the subspace
+
+                                     Rλ .L2 (Ω, Rλ ) ⊆ SΩ′ (F (λ))
+
+which is compatible with the g-action on the space of smooth vectors, because the Fourier
+transform
+                            F : Rλ .L2 (Ω, Rλ )∞ → Hol(TΩ , F (λ))
+
+is g-equivariant (cf. Remark IV.2).
+      Since Rλ is a tempered distribution, all restrictions of the functions in e− tr Pol(V, F (λ))
+are contained in L2 (Ω, Rλ ). In view of Theorem III.11, the subspace Rλ .e− tr Pol(V, F (λ)) is a
+g-module isomorphic to L(λ), hence contained in L2 (Ω, Rλ )∞ , and therefore in L2 (Ω, Rλ )K .
+On the other hand, the fact that the representation of G on L2 (Ω, Rλ ) is a unitary highest
+weight representation implies that L2 (Ω, Rλ )K is a simple g-module, which yields equality. The
+description of the highest weight vector follows from Theorem III.11.
+20                                                 Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+      In the scalar case Theorem IV.5 has been proved by completely different methods by
+J. Faraut and A. Korányi (cf. [FaKo94, Prop. XIII.3.2].)
+      For every 0 ≤ k ≤ r − 1 we write
+                                M
+                     Ik :=             Pol(V )m = {f ∈ Pol(V ): f |Ok = 0}
+                                                m≥0,mk+1 >0
+
+for the ideal defined by Ok . For the asserted equality, we note that the ideal defined by Ok is
+H -invariant, hence adapted to the H -decomposition (4.2) of Pol(V ). Therefore one only has to
+note that for m ≥ 0 the function ∆m vanishes on Ok if and only if mk+1 > 0 (cf. [HiNe99,
+Prop. I.4]).
+      The following proposition provides a description of the maximal submodule J(λ) ⊆ N (λ)
+in the picture of Theorem IV.5.
+
+Proposition IV.6.        Suppose that L(λ) is unitarizable and write Rλ = Du Ru with the
+polynomial density function Du . Identifying N (λ) with e− tr Pol(V, F (λ)), we have
+
+                                          J(λ) = {e− tr f ∈ N (λ): Du .f = 0 on supp(Ru ) }.
+
+For λ = λu , u = k d2 , k ∈ {0, . . . , r − 1} , we obtain in particular J(λ) ⊇ e− tr Ik ⊗ F (λ).
+Proof.            In view of Theorem IV.5, the natural g-contravariant hermitian form on
+                                                                   
+                                         N (λ) ∼
+                                               = e− tr Pol(V, F (λ)
+
+is given by
+                                      Z                                            Z
+                                              −2 tr(x)
+     he   − tr
+                 f, e   − tr
+                               gi =       e              hdRλ (x).f (x), g(x)i =       e−2 tr(x) hDu (x).f (x), g(x)i dRu (x).
+                                      Ω                                            Ω
+
+This implies the assertion because J(λ) = {e− tr f ∈ N (λ): he− tr f, e− tr f i = 0}.
+      For the special case described in the second part of the statement, we only have to observe
+that supp(Rλ ) = Ok which implies that Rλ .e− tr Ik ⊗ F (λ) = {0} in this case. This completes
+the proof.
+
+
+
+                                V. The classification for Cayley type spaces
+In this section we give an explicit description of the H -fixed distribution vector of a spherical
+unitary highest weight representation (πλ , Hλ ) of a simply connected hermitian group G of tube
+type (cf. Theorem V.1). In the case where supp(Rλ ) is smaller than Ω our approach yields a
+complete classification of all spherical unitary highest weight representations of G.
+
+
+
+                                                    The H -invariant distributions
+      In this section we assume that (τλ , F (λ)) is a H ∩ K -spherical representation of H . In
+view of the Appendix A in [HiNe99], this means that it can be viewed as a real highest weight
+representation with respected to the restricted root decomposition of h with respect to b . We
+write
+                                                                         r
+                                                                         X mj − s
+(5.1)                                                        λ = λs :=                 εj
+                                                                         j=1
+                                                                               2
+                               Unitary spherical highest weight representations                 21
+
+with m1 ≤ . . . ≤ mk < mk+1 r= . . . = mr = 0 and s ∈ R. Then the corresponding representation
+satisfies τλs = τλ0 ⊗ det−s 2 dim V (cf. [HiNe99, Sect. I]), so that we may identify all the spaces
+F (λs ) with F0 := F (λ0 ).
+       According to [KNÓ97, Th. II.11], there exists for each v0 ∈ F (λs )h∩k ∼= F0
+                                                                                      h∩k
+                                                                                           a unique
+H -invariant holomorphic function
+
+                                  fs : TΩ → F (λs )      with      fs (ie) = v0 .
+
+Note that the H -invariance of f with respect to the action (h.f )(z) = τλs (h).f (h−1 .z) means
+that f is an H -equivariant map. The uniqueness of f is a direct consequence of the fact that f
+is uniquely determined by its restriction to iΩ = H.ie ⊆ TΩ .
+                                                                              
+Theorem V.1.          There exists a weakly holomorphic map C → S ′ V, F (λ0 ) , s 7→ RλHs with
+F (RλHs ) |TΩ = fs and RλHs is supported by Ω. Suppose that
+
+                                 m1 ≤ . . . ≤ mk < mk+1 = . . . = mr = 0.
+
+Then the tempered distribution RλHs is a measure if and only if
+
+                                 s                                               
+                                   ∈ {k d2 , . . . , (r − 1) d2 } ∪ (r − 1) 2d , ∞ .
+                                 2
+If this is the case, then
+                                             RλHs = ( 2s )−1
+                                                          −m η · R 2 ,
+                                                                   s
+
+
+
+where
+                         r −m j −1                    Y k −m j −1                 
+                         Y  Y        s            d          Y        s          d
+            ( 2s )−m =                   − (j − 1) + l =                − (j − 1) + l ,
+                         j=1
+                                       2          2      j=1
+                                                                      2          2
+                               l=0                                       l=0
+
+η: V → F (λ0 ) is a polynomial map with η(g.e) = τλ0 (θ(g)).v0 for g ∈ H , and Rs , s ∈ C, are
+the Riesz measures on Ω with F (Rs )(z) = ∆(−iz)−s .
+Proof.     The existence of the weakly holomorphic family RλHs , s ∈ C, follows from [HiNe99,
+Prop. V.2]. The characterization of those parameters for which RλHs is a measure is a consequence
+of [HiNe99, Props. III.8 and V.5]. That the density η is a polynomial follows from [HiNe99, Props.
+II.8].
+
+Remark V.2. (a) The polynomial ( 2s )−m vanishes in the points of the form (j − 1) d2 − l , where
+1 ≤ j ≤ k and 0 ≤ l ≤ −mj − 1 . Therefore the maximal zero is s = (k − 1)d, which is the place,
+where the distribution RλHs no longer is a measure. The values s = jd correspond to measures
+on the boundary components Oj , k ≤ j ≤ r − 1 . For j < k the density function η vanishes on
+Oj ([HiNe99, Prop. II.12]), which somehow cancels with the zero of ( 2s )−m , but the resulting
+distribution is not a measure.
+(b) Since the Fourier transform F : SΩ′ (V, F (λ)) → Hol(TΩ , F (λ)) is injective and equivariant
+with respect to the H -actions on both sides (Remark III.9), the uniqueness of an H -invariant
+holomorphic function implies that
+
+                                           dim SΩ′ (V, F (λ))H = 1.
+
+      Let F (λ) be a spherical H -representation with highest weight λ and 0 6= v0 ∈ F (λ)h∩k . We
+have seen in the preceding section that there exists a unique H -invariant tempered distribution
+RλH ∈ SΩ′ (V, F (λ)) with F (RλH )(ie) = v0 .
+22                             Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+Lemma V.3. The prescription
+
+                    ν: N (λ) ∼
+                             = e− tr Pol(V, F (λ)) → C,       e− tr f 7→ hRλH , e− tr f i
+                                  h
+is a non-zero element of N (λ)♯        .
+Proof.    It follows from [HiNe99, Lemma B.1] that ν is well defined because e− tr |Ω extends
+to a Schwartz function on V . Finally ν is annihilitad by h since RλH is H -fixed.
+
+Corollary V.4.       L(λ) is spherical if and only if hRλH , J(λ)i = {0}.
+
+
+
+
+        The classification of unitary highest weight modules with spherical F (λ)
+      Let γ1 , . . . , γr ∈ b
+                            ∆+n be a maximal system of orthogonal roots, where γr is the highest
+root and γj−1 is maximal among all positive non-compact roots orthogonal to γj , . . . , γr . Then
+a linear functional λ ∈ it∗ is invariant under (−τ ) if and only if λ ∈ span{γj : j = 1, . . . , r}
+because the real rank of g equals r (cf. Definition III.3(b)). Therefore it is of the form
+                                                r
+                                                X   λ(γ̌j )
+                                           λ=               γj .
+                                                j=1
+                                                      2
+
+Since γj ◦ cg |b = εj ∈ b∗ , we have
+                                                        r
+                                                        X   λ(γ̌j )
+                                    λb := λ ◦ cg |b =               εj .
+                                                        j=1
+                                                              2
+
+     That F (λ) is a h ∩ k-spherical highest weight module of k is equivalent to −τ.λ = λ and
+the condition that λb ∈ b∗ is the highest weight of a spherical representation of h which is
+equivalent to
+
+(5.2)                            λ(γ̌j ) − λ(γ̌i ) ∈ 2N0     for    i<j
+
+(cf. Definition III.3(a)). For λ = λu as in (5.1) this means that mj = λ(γ̌j ).
+      The following theorem shows that the classification of unitary highest weight modules with
+spherical F (λ) is much simpler than the general case.
+                                                               Pr      mj
+Theorem V.5.      If F (λ0 ) is h ∩ k-spherical, λb =              j=1 2 εj , and    k ∈ {0, . . . , r − 1} is
+determined by m1 ≤ . . . ≤ mk < mk+1 = . . . = mr , then
+                          n            d                      do i            d   h
+                  l(λ0 ) = kd, (2k + 1) , . . . , (k + r − 1)   ˙∪ (k + r − 1) , ∞ .
+                                       2                      2               2
+
+Proof.     First [EJ90, 6.6] implies that l(λ0 ) = {u0 , . . . , um } ˙∪]um , ∞[ with m = r − k − 1, so
+that it remains to determine u0 .
+      Let u := u0 . To compute this parameter, we recall from [EJ90] that le(λ) = 1 , and that
+the highest weight of J(λ) is given by the unique dominant integral functional µ0 conjugate
+to λ − γr under the Weyl group of ∆   b k . Since in our context λ and γr can be identified with
+               ∗
+elements of b and the Weyl group contains in particular the permutations σij for two element
+γi and γj , it follows that
+                                µ0 = σr,k+1 .(λ − γr ) = λ − γk+1 .
+                             Unitary spherical highest weight representations                   23
+
+That this functional is dominant is a consequence of the fact that mk+1 − 2 ≥ mk which follows
+from (5.2).
+      To calculate u0 , we use the fact that L(λu0 ) and L(µ0 ) correspond to the same eigenvalues
+of the Casimir operator of g, which implies that
+
+                               kλ + ρbk2 = kµ0 + ρbk2 = kλ + ρb − γk+1 k2
+               P
+for ρb: = 21   b∈ b
+               α ∆+
+                      b . This means that 2hλ + ρb, γk+1 i = kγk+1 k2 which is the same as
+                      α
+
+                                           (λ + ρb)(γ̌k+1 ) = 1.
+
+Since λ(γ̌k+1 ) = λ(γ̌r ) = −u0 , we obtain u0 = ρb(γ̌k+1 ) − 1.
+      To compute this number, we first observe that it equals one half of the trace of γ̌k+1 on the
+positive root spaces in gC . Since γ̌k+1 corresponds to the element 2L(ck+1 ) under the Cayley
+transform, the contribution of the non-compact root spaces is given by
+
+                                                            d
+                                      trV L(ck+1 ) = (r − 1) + 1
+                                                            2
+(this is a consequence of the Peirce decomposition of V ; see [FaKo94, Th. IV.2.1]).          The
+contribution of the compact roots equals
+
+  1 X                          dX                          d                                d
+       (dim hα )α(2L(ck+1 )) =       (εj − εi )(L(ck+1 )) = (k − (r − k − 1)) = (2k − r + 1) .
+  2  +
+                               2 i<j                       2                                2
+    α∈Σ
+
+
+Summing up, we obtain
+
+                                                                         d
+                           u0 = ρb(γ̌k+1 ) − 1 = (r − 1 + 2k − r + 1)      = kd.
+                                                                         2
+
+
+
+                                         Support properties
+
+Lemma V.6. Let D ∈ S ′ (V ) be a tempered distribution whose support is contained in Ω. Let
+further I ⊆ Pol(V ) be an ideal such that hD, e− tr Ii = {0}. Then
+
+                                supp(D) ⊆ {x ∈ V : (∀f ∈ I)f (x) = 0}.
+
+Proof. Since D is supported by Ω, the product De− tr defines a tempered distribution on V
+(cf. [HiNe99, Lemma B.1]). Let f ∈ I . We claim that f D = 0 . For all polynomials p ∈ Pol(V )
+we have
+                               hf D, e− tr pi = hD, e− tr pf i = 0.
+On the other hand, the Fourier transform F (f D) ∈ Hol(TΩ ) (cf. Section II) satisfies
+                               ∂         
+                               p    F (f D) (ie) = hf D, e− tr p(i·)i = 0.
+                                 ∂z
+Since F (f D) is a holomorphic function on TΩ and p was arbitrary, we conclude that F (f D) = 0 ,
+and hence that f D = 0 . This implies that supp(D) ⊆ f −1 (0) ([HiNe99, Lemma B.4]), hence
+yields the lemma.
+24                             Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+Lemma V.7. Let D ∈ S ′ (V ) ⊗ F (λ) be a tempered distribution whose support is contained in
+Ω. If
+                               hD, e− tr Ik ⊗ F (λ)i = {0},
+then supp(D) ⊆ Ok .
+Proof.    Let α ∈ F (λ)∗ . Our assumption implies that hα ◦ D, e− tr Ik i = {0}, so that Lemma
+V.6 implies that then supp(α ◦ D) ⊆ Ok . Since α was arbitrary, the assertion follows.
+
+Proposition V.8. If L(λ) is unitarizable and spherical, then supp(RλH ) ⊆ supp(Rλ ).
+Proof.     If supp(Rλ ) = Ω, there is nothing to show. So we may assume that u = k d2 and
+supp(Rλ ) = Ok (Theorem IV.4). Then
+                                       e− tr Ik ⊗ F (λ) ⊆ J(λ),
+so that the assumption that L(λ) is spherical implies that RλH vanishes on this space. Hence
+the assertion follows from Lemma V.7.
+      As the preceding proposition suggests, information on the support of RλH might provide
+information on whether L(λ) is spherical or not.
+
+Proposition V.9. About the support of the distributions RλH , λ = λs , we have the following
+information:
+   (i) If s = jd, j ∈ {k, . . . , r − 1} , then RλH is a measure supported by Ok for which Ok−1 is
+       zero set.
+  (ii) If s > (r − 1)d, then RλH is a measure supported by Ω for which ∂Ω is a zero set.
+ (iii) If s 6∈ {0, . . . , (r − 1)d} − 2N0 and s ≤ (r − 1)d, then RλH is not a measure and its support
+       is all of Ω .
+ (iv) If s = jd − 2m with m ∈ N and j ∈ {k, . . . , r − 1} , then supp(RλH ) ⊆ Oj .
+Proof. (i) follows directly from Theorem V.1 and [HiNe99, Prop. III.6].
+(ii) This is a consequence of the fact that the density of RλH with respect to the H -semiinvariant
+measure R 2s on Ω does not vanish anywhere.
+(iii) In view of the relation
+                                        ∆l Rs = (s)l Rs+l , s ∈ C, l ∈ N
+([HiNe99, Prop. III.1]), we obtain for s > (r − 1)d the relation
+                               s −1 l           s −1 s
+                    ∆l RλHs =     −m
+                                     ∆ ηR 2s =          ( )l ηR s+2l
+                               2                 2 −m 2          2
+
+                               s −1 s s + 2l                     s    
+                            =     −m
+                                     ( )l          −m
+                                                      RλHs+2l =      − m l RλHs+2l .
+                               2      2       2                   2
+       Since both sides are weakly holomorphic functions with values in S ′ (V, F0 ), we conclude
+that
+                                                   s
+(5.3)                                   ∆l RλHs = ( )l RλHs+2l
+                                                   2
+holds for all s ∈ C. Now the hypotheses shows that ( s2 )l 6= 0 for any l ∈ N0 . Therefore (i) and
+(ii) together with (5.3) imply that Ω ⊆ supp(RλHs ), hence equality.
+(iv) From the proof of [HiNe99, Prop. V.2] we get
+                                            ∂
+                                        ∆( )RλHs = RλHs−2 ,
+                                           ∂x
+so that (iv) follows from (i).
+      The situation is particularly simple for λ0 = 0 , where k = 0 , so that Proposition V.9 gives
+complete information on the support of RλHs = R 2s . Fortunately the classification in Theorem
+V.5 shows that the information from Proposition V.9 suffices to deal with all those distributions
+RλH for which F (λ) is spherical and L(λ) is unitary. This is made precise by the following result:
+                              Unitary spherical highest weight representations                             25
+
+Proposition V.10.         Suppose that F (λ0 ) is h ∩ k-spherical and that L(λ) is singular and
+unitary. Then the following assertions hold:
+  (i) RλH is a measure if and only if le(λ) is odd.
+ (ii) If u = j d2 with j ≤ r − 1 odd, then RλH does not vanish on e− tr Ij ⊗ F (λ).
+                                                     u            
+Proof. (i) Let λ = λuj . Then le(λ) = j + 1 and 2j = k + 2j d2 (Theorem V.5). Since
+
+                         uj      r − k − 1d   r+k−1d          d
+                            ≤ k+             =        ≤ (r − 1) ,
+                         2           2     2     2  2          2
+the corollary follows from Proposition V.9(i).
+(ii) The ideal Ij contains in particular the polynomial ∆j+1 for j + 1 = ( 1, . . . , 1 , 0, . . . , 0),
+                                                                           | {z }
+                                                                                          (j+1)−times
+so that it suffices to show that
+                                              hRλH , e− tr ∆j+1 vλ i 6= 0,
+                                                                                     Pr
+where vλ ∈ F (λ) is a real highest weight vector for h with highest weight λb = i=1 mi2−u εi .
+     Let s := (s1 , . . . , sr ) ∈ Cr and Rs ∈ SΩ (C) the multiparameter Riesz distribution which is
+uniquely determined by
+                                    F (Rs )(ix) = ∆s (x−1 ) for x ∈ Ω
+(cf. [FaKo94, Ch. VII]). Now [HiNe99, Lemma V.4] yields
+
+                                             hRλH , vλ i = hv0 , vλ iR u−m .
+                                                                        2
+
+
+On the other hand we have
+                                                         u−m
+                                    ∆j+1 .R u−m = (          )j+1 R u−m +j+1
+                                                 2        2          2
+
+
+
+with
+                                               Y  u − ml           d
+                                                      j+1
+                                    u−m
+                                (       )j+1 =            − (l − 1)
+                                     2                2             2
+                                                      l=1
+
+([HiNe99, Prop. III.1(iii)]). This eventually leads to
+
+                                                                       u−m
+        hRλH , e− tr ∆j+1 vλ i = F (∆j+1 hRλH , vλ i)(−ie) = (             )j+1 ∆ u−m +j+1 (e)hv0 , vλ i
+                                                                        2          2
+
+                                     u−m
+                              =(         )j+1 hv0 , vλ i.
+                                      2
+
+Since hv0 , vλ i 6= 0 (cf. [HiNe99, Lemma II.1]), it remains to show that ( u−m
+                                                                             2 )j+1 does not vanish
+if j is odd. In view of ml = 0 for l > k , we have
+                       j+1
+                       Y      u − m                   d
+                                                            j+1
+                                                            Y d j            
+                                         l
+                                             − (l − 1)    =         − (l − 1) 6= 0.
+                                     2                 2        2 2
+                      l=k+1                                    l=k+1
+
+
+For l ≤ k we use j ≥ 2k (Theorem V.5) to obtain
+
+                              u          d u         d d
+                    −ml +       − (l − 1) ≥ − (l − 1) ≥ (k − (l − 1)) > 0.
+                              2          2 2         2 2
+
+Therefore all factors in ( u−m
+                            2 )j+1 are non-zero.
+26                             Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+Theorem V.11. (Classification for singular supports) Let G be a simply connected hermitian
+Lie group of tube type and G/H an associated symmetric space of Cayley type. Suppose that
+F (λ) is h ∩ k-spherical and that L(λ) is unitary with supp(Rλ ) 6= Ω. Then L(λ) is spherical if
+and only if le(λ) is odd.
+Proof.      Since supp(Rλ ) is smaller than Ω, we have u = j d2 for some j ≤ r − 1 (Theorem
+IV.4). Moreover, in view of Remark II.3, Theorem V.5 shows that le(λ) is odd if and only if j
+is even. If this is the case, then L(λ) is spherical by Theorem II.8. If j is odd, then Proposition
+V.10 shows that RλH does not vanish on e− tr Ij ⊗ F (λ) which is contained in J(λ) (Proposition
+IV.6). Therefore Corollary V.4 implies that L(λ) is not spherical.
+
+Corollary V.12. (Classification for the scalar case) If L(λ) is singular, unitary and of scalar
+type, then L(λ) is spherical if and only if le(λ) is odd.
+Proof.      In the scalar case F (λ) is always H ∩ K -spherical and λ is singular if and only
+supp(Rλ ) 6= Ω. Therefore the assertion follows from Theorem V.11.
+
+Lemma V.13. If L(λ) and L(µ) are unitary and spherical, then the same holds for L(λ + µ).
+Proof. Since L(λ) and L(µ) are unitary, the highest weight module L(λ+µ) can be embedded
+into the unitary module L(λ) ⊗ L(µ) as the submodule generated by vλ ⊗ vµ , where vλ and
+vµ are highest weight vectors ([Ne99, Prop. IX.1.15]). It follows in particular that L(λ + µ) is
+                                   h                    h
+unitary. Moreover, if νλ ∈ L(λ)♯      and νµ ∈ L(µ)♯ are non-trivial h-invariant antilinear
+functionals, then νλ ⊗ νµ is an h-invariant antilinear functional on L(λ) ⊗ L(µ) with
+
+                              (νλ ⊗ νµ )(vλ ⊗ vµ ) = νλ (vλ )νµ (vµ ) 6= 0
+
+(Proposition I.5). This shows that the restriction of νλ ⊗ νµ to L(λ + µ) is non-zero and hence
+that this module is spherical.
+
+Remark V.14. Let u0 = kd as in Theorem V.5. Then Theorem V.11 shows that L(λ) is
+spherical for u = uj = kd + j d2 if j is even (which corresponds to odd reduction level) and not
+spherical if j is odd, provided uj ≤ (r − 1) d2 . This means that
+
+                                           j ≤ r − 1 − 2k.
+
+For an odd j ∈ {r − 2k, . . . , r − k − 1} Theorem V.11 gives no information.
+     Suppose that for some j the module L(λuj ) is spherical. We know from Corollary V.12
+that L(dζ) is spherical, so that Lemma V.13 and
+
+                                          λuj+2 = λuj + dζ
+
+imply that L(λuj+2 ) is spherical. This argument can be iterated, and it shows that if for one
+odd value of j the module L(λuj ) is spherical, then it is true for all larger (odd) values of j .
+       We have already seen in Corollar V.12 that for singular support of Rλ and even reduction
+level the scalar type highest weight modules are not spherical. It is instructive to observe that this
+in general not ruled out by the support condition in Proposition V.8. The following proposition
+shows that the support behavior is actually quite complicated.
+
+Proposition V.15.            For s > (r − 1) d2 we always have supp(R 2s ) ⊆ supp(Rs ). For s = kd
+                                                                                                 2 ,
+k ∈ {0, 1, . . . , r − 1} we have:
+  (i) If k is even, then supp(R s2 ) ⊆ supp(Rs ).
+ (ii) If k is odd, then we have:
+                               Unitary spherical highest weight representations                   27
+
+       (a) If d = 1, 2 , then supp(R 2s ) 6⊆ supp(Rs ).
+       (b) If d = 4 , then supp(R s2 ) ⊆ supp(Rs ).
+       (c) If d = 8 and r = 3 , then supp(R 2s ) ⊆ supp(Rs ).
+       (d) If d = n − 2 and r = 2 , then supp(R s2 ) ⊆ supp(Rs ) if and only if n ≡ 2 mod 4 .
+Proof. (i) This follows from supp(R s2 ) = O k ⊆ Ok = supp(Rs ).
+                                             2
+(ii) (a) d = 1 : Then
+                           kd   k
+                              = 6∈ {j d2 : j = 0, . . . , r − 1} − N0
+                            4   4
+because k 6≡ 2j mod 4 for each j . Hence Proposition V.8 implies that
+
+                                         supp(R 2s ) = Ω 6⊆ supp(Rs )
+
+in this case.
+d = 2 : If k is odd, then
+
+                   kd  k
+                      = 6∈ {j d2 : j = 0, . . . , r − 1} − N0 = {j: j = 0, . . . , r − 1} − N0
+                    4  2
+
+because k2 is not an integer.
+(iii) d = 4 : If k is odd, then
+
+                kd
+                   = k ∈ {j d2 : j = 0, . . . , r − 1} − N0 = {2j: j = 0, . . . , r − 1} − N0
+                 4
+
+and the minimal j with k ∈ 2j − N0 is given by j = k+1
+                                                     2 ≤ k . We conclude that in this case we
+always have supp(R 2 ) ⊆ Oj ⊆ Ok = supp(Rs ).
+                    s
+
+(iv) d = 8 and r = 3 : Then k odd implies that k = 1 . Now
+
+             kd
+                = 2 = 4 · 1 − 2 ∈ {j d2 : j = 0, . . . , r − 1} − N0 = {4j: j = 0, 1, 2} − N0 .
+              4
+
+Hence supp(R s2 ) ⊆ O1 = supp(Rs ).
+(v) d = n − 2 and r = 2 : Then k = 1 and therefore
+
+       kd   n−2                                                                     n−2
+          =     ∈ {j d2 : j = 0, . . . , r − 1} − N0 = {j d2 : j = 0, 1} − N0 = {0,     } − N0
+        4    4                                                                       2
+
+is equivalent to
+                                        n−2 n−2   n−2
+                                           −    =     ∈ N.
+                                         2   4     4
+Thus supp(R 2s ) 6⊆ supp(Rs ) for n 6≡ 2 mod 4 , and for n ≡ 2 mod 4 we have supp(R 2s ) ⊆ O1 =
+supp(Rs ).
+
+Example V.16. We consider the Lie algebra g = su(r, r) corresponding to the Jordan algebra
+V = Herm(r, C). Here h ∼   = R ⊕ sl(r, C), which we consider as a quotient of gl(r, C) modulo iR.
+This is most natural because gl(r, C) acts naturally on V by X.A = XA + AX ∗ , and the kernel
+of this representation is iR. The complexification of h is
+
+                                        hC ∼
+                                           = C ⊕ sl(r, C) ⊕ sl(r, C)
+28                             Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+which we consider as a quotient of gl(r, C) ⊕ gl(r, C) acting on VC ∼
+                                                                    = End(Cr ) by (X1 , X2 ).A =
+          ∗
+X1 A + AX2 . Accordingly we write the highest weights of simple hC modules as
+                                    λ = (λ1 , . . . , λ2r ) = (λ+ , λ− )
+with respect to the positive system
+                        b + = {εi − εj : 1 ≤ i < j ≤ r; r + 1 ≤ i < j ≤ 2r}
+                        ∆ k
+
+of roots of sl(r, C) ⊕ sl(r, C).
+      The corresponding representation space F (λ) has the structure
+                                                       e− )∗ ∼
+              F (λ) = F (λ+ ) ⊗ F (λ− ) = F (λ+ ) ⊗ F (λ              e− ), F (λ+ )),
+                                                             = Hom(F (λ
+      e− = (−λ2r , . . . , −λr+1 ). The action of h on this space is given by
+where λ
+                                                           ∗
+                                  X.A = πλ+ (X)A + Aπλ
+                                                     e− (X) .
+Therefore a fixed vector for h ∩ k ∼
+                                   = su(r, C) corresponds to an intertwining operator for su(r, C),
+and hence for sl(r, C), in Hom(F (e λ− ), F (λ+ )). This means that F (λ) is spherical if and only if
+F (λ+ ) ∼
+        = F (λe− ) as sl(r, C)-modules. With µ := λ+ we therefore get F (λ) ∼   = End(F (µ)) with
+sl(r, C) acting by X.A = πµ (X)A + Aπµ (X)∗ .
+       The restricted highest weight of this representation with respect to the subspace b of real
+diagonal elements in h is given by
+                                    r
+                                    X                r
+                                                     X
+                                      mj               λr+1−j − λr+j
+                             λb =             εj =                         εj .
+                                    j=1
+                                          2          j=1
+                                                                 2
+
+The normalization mr = 0 leads to λ1 = λ2r , and for the spherical representations further to
+                                                 r
+                                                 X
+                                          λb =         λr+1−j εj
+                                                 j=1
+
+because λ+ = −λ   e− in this case. We determine k ∈ {0, . . . , r − 1} by λ1 = λ2 = . . . = λr−k >
+λr−k+1 . Then Theorem V.5 implies that m = r − 1 − k and u0 = 2k because d = 2 holds for
+g = su(r, r).
+      It is interesting to observe that the relation F (λ) ∼
+                                                           = End(F (µ)) as representations of H
+implies that τµ ◦ Pe : TΩ → End(F (µ)) is H -equivariant, so that the injectivity of the Fourier
+transform implies for v0 = 1 ∈ End(F (µ)) the relation
+                                               Rµ = RλH ,
+where F (µ) is interpreted as a module of hC which is trivial on the second sl(r, C)-factor. It
+has been shown by J. L. Clerc in [Cl95] that for these representations L(µ) is unitary if and only
+if u2 ∈ {k, k + 1, . . . , r − 1} or u > (r − 1). According to Proposition V.8, these are the cases
+where Rµ = RλH is a measure, and they correspond to the cases with odd reduction level. Then
+the unitary g-module L(µ) ⊗ L(µ)∗ ⊆ End(L(µ)) contains a g-submodule isomorphic to L(λ),
+and the trace is an h-invariant linear functional on L(λ). This construction can also be used to
+prove that the representations L(λ) are spherical for odd reduction levels.
+       Our results in this section suggest that for even reduction level a singular highest weight
+representation is never spherical. At least we do not know of any counterexample.
+       Similarly, in all cases of singular representation where we could decide whether L(λ) is
+spherical or not, this happens if and only if the distribution RλH is a measure. In the scalar case
+this follows from Proposition V.9 and Theorem V.5.
+                            Unitary spherical highest weight representations                        29
+
+
+
+
+                Appendix: Regularity of the holomorphic discrete series
+      In this appendix we show that the highest weight modules L(λ) corresponding to the
+discrete series of a compactly causal symmetric space G/H are regular in the sense that N (λ) ∼=
+L(λ). This shows in particular that these representations do not provide any further information
+on sphericalness of singular highest weight representations.
+      Let g be a hermitian Lie algebra, t ⊆ g a compactly embedded Cartan subalgebra and
+b = b
+∆     ∆(gC , tC ) the corresponding   root system.     We choose a positive       b+     b
+                          P                      P                      P system ∆ of ∆ as in
+Section I and set ρb: = 12 αb∈ b
+                              ∆+
+                                  α
+                                  b ,  ρ k : = 1
+                                               2  αb∈ b
+                                                     ∆+
+                                                        α
+                                                        b and ρ
+                                                              b n : = 1
+                                                                      2  b∈∆+
+                                                                         α
+                                                                              α
+                                                                              b .
+                                                       k                       n
+
+      If λ ∈ it∗ is dominant integral w.r.t. ∆b + , then the condition for L(λ) to correspond to
+                                                k
+the relative holomorphic discrete series of G is given by Harish Chandra’s condition (cf. [HC56])
+
+DS(G)                                 α∈ b
+                                    (∀b  ∆+n)         hλ + ρb, α
+                                                               bi < 0.
+
+Elementary algebraic considerations involving the Parthasarathy inequality (cf. [EHW83, Prop.
+3.9]) or [Jan79,p. 35] imply that DS(G) implies that λ is regular, i.e, N (λ) = L(λ).
+      Equip now g with an involution τ such that (g, τ ) becomes compactly causal. Recall the
+root system ∆ = ∆(gc , a). The fact that z(k) ⊆ q implies that we can choose ∆            b + such that
+−τ ∆b+ ⊆ ∆ b + ∪a⊥ . Then ∆+ : = b  ∆+P|a \{0} is a positive system                              of ∆+
+                                                                 P of ∆. Recall the definition
+                                                                                           P         n
+and ∆+ k  from  Section I. Set ρ: = 1
+                                    2    α∈∆+  m α α , ρ k : = 1
+                                                               2     +
+                                                                  α∈∆k m α α and ρ n : = 1
+                                                                                         2   α∈∆n mα α
+                                                                                                 +
+
+with mα = dim(gc )α .
+      Let p: tC → aC denote the orthogonal projection with respect to the Cartan–Killing form.
+Then the adjoint map p∗ : a∗C → t∗C is injective and via this inclusion mapping we identify in the
+sequel a∗C with a subspace of t∗C .
+      For a H ∩ K -spherical highest weight λ ∈ a∗ ⊆ it∗ the condition for L(λ) to belong to the
+relative holomorphic discrete series of G/H is given by
+
+
+DS(G/H)                             (∀α ∈ ∆+
+                                           n)         hλ + ρ, αi < 0
+
+(cf. [ÓØ91], [HÓØ91]; see also [Kr99b]). It follows easily from the fact that b
+                                                                                ∆+ and ∆+ are
+compatible that DS(G/H) implies DS(G). Conversely it was observed in [ÓØ88, Lemma 7.4]
+that DS(G) is a weaker condition than DS(G/H) for H ∩K -spherical highest weights λ. Hence
+the following result is of interest.
+
+Theorem A.1.                                           b + and assume that DS(G/H) holds.
+                   Let λ ∈ a∗ be dominant integral for ∆ k
+Then λ is regular, i.e., L(λ) = N (λ).
+     We are going to give a simple algebraic proof of Theorem A.1 using the Parthasarathy
+inequality.
+
+Lemma A.2. We have ρbn = ρn .
+Proof.                                                   b+
+           This follows from ρbn ∈ iz(k)∗ , z(k) ⊆ a and ∆        +
+                                                          n |a ⊆ ∆ .
+
+
+Lemma A.3. If λ ∈ a∗ and µ ∈ it∗ , then
+
+                   kλ + ρbk2 − kµ + ρbk2 = kλ + ρk2 − kµ + ρk2 − 2hb
+                                                                   ρk − ρk , µi.
+30                             Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+Proof.     By Lemma A.2 we have
+
+                   kλ + ρbk2 − kµ + ρbk2 = kλ + ρ + (b
+                                                     ρ − ρ)k2 − kµ + ρ + (b
+                                                                          ρ − ρ)k2
+                            ρk − ρk )k2 − kµ + ρ + (b
+                = kλ + ρ + (b                       ρk − ρk )k2
+                = kλ + ρk2 + 2hλ + ρ, ρbk − ρk i − kµ + ρk2 − 2hµ + ρ, ρbk − ρk i
+                = kλ + ρk2 − kµ + ρk2 − 2hµ, ρbk − ρk i,
+
+where the last equality comes from ρbk − ρk ∈ a⊥ .
+                                                        P
+Lemma A.4. We have ρbk = ρk + ρ0k with ρ0k : = 21           α∈ b
+                                                              ∆+   ∩a⊥
+                                                                         α ∈ a⊥ .
+                                                                 k
+
+Proof. Let α ∈ ∆   b + and rewrite α as α = αq + αh with αq = α |t∩q and αh = α |t∩h . Assume
+                     k
+                          b+ ⊆ ∆
+that αq 6= 0 . Then (−τ ).∆      b + ∪ a⊥ and the fact that ∆
+                                                            b + and ∆+ are compatible yield
+                            k      k                          k        k
+−τ.α = αq − αh ∈ b   +
+                  ∆k . Hence we get
+
+                                           1 X
+                                                   α = ρk
+                                           2
+                                               bk
+                                             α∈∆
+                                                 +
+
+                                              αq 6=0
+
+                                                        P
+Now the assertion of the lemma follows from ρbk = 21        α∈∆b+ α + ρk . 0
+                                                                k
+                                                             αq 6=0
+
+
+Proof of Theorem A.1. In view of Parthasarathy’s condition (cf. [EHW83, Prop. 3.9]), we
+only have to check that
+                             kλ + ρbk2 − kµ + ρbk2 < 0
+holds for all kC -highest weights µ 6= λ of N (λ). Note that µ can be written as µ = λ −
+P
+  α∈ b
+     ∆+
+         kα α with kα ∈ N0 . By Lemma A.2 we then have have
+       n
+
+
+         kλ + ρbk2 − kµ + ρbk2 = kλ + ρk2 − kµ + ρk2 − 2hb  ρk − ρk , µi
+                                     X                 X                  
+                               = −k        kα αk2 + 2         kα hλ + ρ, αi − 2hb
+                                                                                ρk − ρk , µi.
+                                    α∈ b
+                                      ∆n +
+                                                       α∈ b
+                                                         ∆n +
+
+
+
+In the bottom line the first summand is clearly negative, the second one by assumption, and
+the non-positivity of the third one follows from Lemma A.4 since µ is dominant with respect to
+b+.
+∆ k
+
+
+
+
+                                            References
+
+[Ba88]          van den Ban, E., The principal series for a reductive symmetric space. I. H -fixed
+                distribution vectors, Ann. Sci. École Norm. Sup. (4) 21:3 (1988), 359–412.
+[BaDe88]        van den Ban, E., and P. Delorme, Quelques propriétés des représentations
+                sphériques pour les espaces symétriques réductifs, J. Funct. Anal. 80 (1988),
+                284–307.
+[Bi90]          Bien, F., “ D -modules and spherical representations,” Mathematical Notes 39,
+                Princeton University Press, Princeton, NJ, 1990.
+[BrDe92]        Brylinski, J.L., and P. Delorme, Vecteurs distributions H-Invariants pur les
+                séries principales généralisées d’espaces symétriques reductifs et prolongement
+                meromorphe d’intégrales d’Eisenstein, Invent. math. 109 (1992), 619–664.
+                       Unitary spherical highest weight representations                     31
+
+[Cl95]      Clerc, J.–L., Laplace transform and unitary highest weight modules, J. Lie The-
+            ory 5 (1995), 225–240.
+[DES91]     M. G. Davidson, T. J. Enright, and R. J. Stanke, “Differential operators and
+            highest weight representations,” Memoirs of the Amer. Math. Soc., Providence,
+            1991.
+[DG93]      Ding, H., and K. Gross, Operator-valued Bessel functions on Jordan algebras,
+            J. reine ang. Math. 435 (1993), 157–196.
+[EJ90]      Enright, T. J., and A. Joseph, An intrinsic analysis of unitarizable highest
+            weight modules, Math. Ann. 288 (1990), 571–594.
+[EHW83]     Enright, T. J., R. Howe, and N. Wallach, A classification of unitary highest
+            weight modules in “Representation Theory of Reductive Groups,” Park City,
+            UT, 1982, pp. 97–149; Progr. Math. 40 (1983), 97–143.
+[FaKo90]    Faraut, J., and A. Koranyi, Function Spaces and Reproducing Kernels on
+            Bounded Symmetric Domains, J. Funct. Anal. 88:1 (1990), 64–89.
+[FaKo94]    —, “Analysis on Symmetric Cones,” Oxford Mathematical Monographs, Oxford
+            University Press, 1994.
+[FJ80]      Flensted-Jensen, M., Discrete series for semisimple symmetric spaces, Ann. of
+            Math. 111:2 (1980), 253–311.
+[HC56]      Harish-Chandra, Representations of semi-simple Lie groups, VI, Amer. J. Math.
+            78 (1956), 564–628.
+[Hel78]     Helgason, S., “Differential Geometry, Lie Groups, and Symmetric Spaces,”
+            Acad. Press, London, 1978.
+[Hel84]     —, “Groups and Geometric Analysis,” Acad. Press, London, 1984.
+[HiKr98]    Hilgert, J., and B. Krötz, The Plancherel Theorem for invariant Hilbert spaces,
+            Math. Z., to appear.
+[HiNe99]    Hilgert, J., and K.–H. Neeb, Vector valued Riesz distributions on Euclidean
+            Jordan algebras, J. Geom. Analysis, to appear.
+[HiÓl96]   Hilgert, J. and G. Ólafsson, “Causal Symmetric Spaces, Geometry and Har-
+            monic Analysis,” Acad. Press, 1996.
+[HÓØ91]    Hilgert, J., G. Olafsson, and B. Ørsted, Hardy Spaces on Affine Symmetric
+            Spaces, J. reine angew. Math. 415(1991), 189–218.
+[Jak83]     Jakobsen, H. P., Hermitian symmetric spaces and their unitary highest weight
+            modules, J. Funct. Anal. 52 (1983), 385–412.
+[Jan79]     Jantzen, J. C., “Moduln mit einem höchsten Gewicht,” Lecture Notes in Math.
+            750, Springer, 1979.
+[KoWo65]    Korányi, A., and J. A. Wolf, Realization of hermitean symmetric spaces as
+            generalized half planes, Ann. of. Math. 81 (1965), 265–288.
+[Kr99a]     Krötz, B., Norm estimates for unitary highest weight modules, Ann. Inst. Fourier
+            49:4) (1999), 1242–1264.
+[Kr99b]     —, Formal dimension for semisimple symmetric spaces, Comp. Math., to ap-
+            pear.
+[KNÓ97]    Krötz, B., K. - H. Neeb, and G. Ólafsson, Spherical representations and mixed
+            symmetric spaces, Represent. Theory 1 (1997), 424–461.
+[Lo69]      Loos, O., “Symmetric Spaces I : General Theory,” Benjamin, New York, Ams-
+            terdam, 1969.
+32                           Bernhard Krötz ∗ and Karl–Hermann Neeb ∗∗
+
+[MaOs84]     Matsuki, T., and T. Oshima, A description of discrete series for semisimple
+             symmetric spaces, Adv. Stud. Pure Math. 4 (1984), 229–390.
+[Ne99]       Neeb, K.–H., “Holomorphy and Convexity in Lie Theory,” Expositions in Math-
+             ematics 28, de Gruyter, Berlin, 1999.
+[Ól87]      Ólafsson, G., Fourier and Poisson transformation associated to a semsisimple
+             symmetric space, Invent. math. 90 (1987), 605–629.
+[ÓØ88]      Ólafsson, G., and B. Ørsted, The holomorphic discrete series for affine sym-
+             metric spaces. I, J. Funct. Anal. 81:1 (1988), 126–159.
+[ÓØ91]      —, The holomorphic discrete series of affine symmetric spaces and representa-
+             tions with reproducing kernels, Trans. Amer. Math. Soc. 326 (1991), 385-405.
+[VR76]       Vergne, M., and H. Rossi, Analytic continuation of the holomorphic discrete
+             series of a semisimple Lie group, Acta Math. 136 (1976), 1–59.
+[Wal79]      Wallach, N., The analytic continuation of the discrete series I, II, Transactions
+             of the Amer. Math. Soc. 251 (1979), 1–17, 19–37.
+
+
+
+Bernhard Krötz                                     Karl–Hermann Neeb
+The Ohio State University                           Fachbereich Mathematik
+Department of Mathematics                           Technische Universität Darmstadt
+231 West 18th Avenue                                Schloßgartenstr. 7
+Columbus, OH 43210-1174                             D-64289 Darmstadt
+USA                                                 Germany
+kroetz@math.ohio-state.edu                          neeb@mathematik.tu-darmstadt.de
+

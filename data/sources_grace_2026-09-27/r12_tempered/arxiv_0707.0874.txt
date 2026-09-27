@@ -1,0 +1,1598 @@
+                                                Isometry theorem for the Segal–Bargmann
+                                             transform on a noncompact symmetric space of
+
+
+
+
+arXiv:0707.0874v2 [math-ph] 1 Aug 2007
+                                                            the complex type
+                                                             Brian C. Hall∗and Jeffrey J. Mitchell
+                                                             bhall@nd.edu and mitchellj@rmu.edu
+                                                                             August 2007
+
+
+                                                                                Abstract
+                                                    We consider the Segal–Bargmann transform on a noncompact sym-
+                                                metric space of the complex type. We establish isometry and surjectivity
+                                                theorems for the transform, in a form as parallel as possible to the results
+                                                in the dual compact case. The isometry theorem involves integration over
+                                                a tube of radius R in the complexification, followed by analytic continua-
+                                                tion with respect to R. A cancellation of singularities allows the relevant
+                                                integral to have a nonsingular extension to large R, even though the func-
+                                                tion being integrated has singularities.
+
+
+                                         1      Introduction
+                                         1.1     Euclidean and compact cases
+                                         The Segal–Bargmann transform for the Euclidean space Rd , in a form conve-
+                                         nient for the present paper, can be expressed as follows. Let t be a fixed positive
+                                         number and let et∆/2 be the time-t forward heat operator for Rd . It is not hard
+                                         to show that for any f in L2 (Rd , dx), et∆/2 f admits an entire analytic contin-
+                                         uation in the space variable from Rd to Cd . The Segal–Bargmann transform
+                                         [Ba, Se] is then the map associating to each f ∈ L2 (Rd ) the holomorphic func-
+                                         tion obtained by analytically continuing et∆/2 f from Rd to Cd . Basic properties
+                                         of this transform are encoded in the following theorem. (See [H10] for more
+                                         information.)
+                                         Theorem 1 The isometry formula. Fix f in L2 (Rd , dx). Then the function
+                                         F := et∆/2 f has an analytic continuation to Cd satisfying
+                                                                                               −|y|2 /t
+                                                                                           2 e
+                                                        Z                 Z
+                                                                    2
+                                                             |f (x)| dx =     |F (x + iy)|              dy dx. (1)
+                                                          Rd               Cd                (πt)d/2
+                                             ∗ Supported in part by NSF grants DMS-0200649 and DMS-0555862
+
+
+
+
+                                                                                     1
+    The surjectivity theorem. Given any holomorphic function F on Cd for
+which the right-hand side of (1) is finite, there exists a unique f ∈ L2 (Rd ) with
+F |Rd = et∆/2 f.
+    The inversion formula. If f ∈ L2 (Rd ) is sufficiently regular and F :=
+  t∆/2
+e      f, then
+                                                    2
+                                               e−|y| /2t
+                               Z
+                       f (x) =     F (x + iy)            dy.
+                                Rd             (2πt)d/2
+                            2                                    2
+    Note that we have e−|y| /t in the isometry formula but e−|y| /2t in the inver-
+sion formula. From the point of view of harmonic analysis, the Segal–Bargmann
+transform may be thought of as a way of combining information about a func-
+tion f (x) on Rd with information about the Fourier transform fˆ(y) of f into a
+single (holomorphic) function F (x + iy) on Cd = R2d . From the point of view
+of quantum mechanics, F may be thought of as the phase space wave function
+corresponding to the position space wave function f. For more information, see
+[Ba, H4, H7, Fo].
+    Analogous results for compact symmetric spaces have been obtained by Hall
+[H1, H2] in the compact group case and by Stenzel [St1] in the general case.
+(See [H6, H10] for more information. See also [KTX] for surprising results in
+the case of the Heisenberg group.) Let X denote a compact symmetric space,
+assumed for simplicity to be simply connected. Then X can be expressed as
+X = U/K, where U is a simply connected compact Lie group and K is the
+fixed-point subgroup of an involution. We may define the complexification of
+U/K to be UC /KC , where UC is the unique simply connected Lie group whose
+Lie algebra is u + iu and where KC is the connected Lie subgroup of UC whose
+Lie algebra is k + ik. Then UC /KC may be identified diffeomorphically with the
+tangent bundle T (U/K) by means of the map Φ : T (U/K) → UC /KC given by
+
+                                Φ(x, Y ) → expx (iY ),                         (2)
+
+where Y is a tangent vector to U/K at x and where expx (iY ) refers to the
+analytic continuation of the geometric exponential map for U/K. See [HM1,
+Eq. 2] for a simple explicit formula for Φ(x, Y ) in the case that U/K is a
+sphere.
+    If the Lie algebra u of U is decomposed in the usual way as u = k + p, then
+let G be the connected Lie subgroup of UC whose Lie algebra is g = k + ip.
+The dual noncompact symmetric space to U/K is the manifold G/K, equipped
+with an appropriate G-invariant Riemannian metric. The identification (2) of
+T (U/K) with UC /KC gives rise to an identification of each fiber in T (U/K) with
+G/K. Specifically, if x0 is the identity coset in U/K, then the image of Tx0 (U/K)
+under Φ is precisely the G-orbit of the identity coset in UC /KC . Furthermore, the
+stabilizer in G of the identity coset is precisely K, and so Φ(Tx0 (U/K)) ∼= G/K.
+Any other fiber in T (U/K) is then identified with Tx0 (U/K) ∼      = G/K by the
+action of U. See [St1, H10] for details.
+    Having identified each tangent space Tx (U/K) with the noncompact sym-
+metric space G/K, we have on each tangent space the heat kernel density ν nc     t
+
+
+
+                                          2
+(based at the origin) and the Jacobian j nc of the exponential map with respect
+to the Riemannian metric for G/K. Here the superscript “nc” indicates a quan-
+tity associated to the noncompact symmetric space G/K dual to the original
+compact symmetric space U/K. The result is then the following. (See [St1];
+compare [H1, H2] in the compact group case.)
+Theorem 2 The isometry formula. Fix f in L2 (U/K). Then the function
+F := et∆/2 f has an analytic continuation to UC /KC satisfying
+Z                  Z       Z
+             2                                         2
+      |f (x)| dx =                     |F (expx (iY ))| ν nc       nc      d
+                                                          2t (2Y )j (2Y ) 2 dY dx.
+ U/K                  x∈U/K    Y ∈Tx (U/K)
+                                                                                (3)
+Here d = dim(U/K), dY is the Lebesgue measure on Tx (U/K), and dx is the
+Riemannian volume measure on U/K.
+    The surjectivity theorem. Given any holomorphic function F on UC /KC
+for which the right-hand side of (3) is finite, there exists a unique f ∈ L2 (U/K)
+with F |U/K = et∆/2 f.
+    The inversion formula. If f ∈ L2 (U/K) is sufficiently regular and F :=
+  t∆/2
+e      f, then
+                         Z
+                                                         nc
+                 f (x) =          F (expx (iY ))ν nc
+                                                  t (Y )j (Y ) dY.              (4)
+                           Tx (U/K)
+
+    Note that in the inversion formula we have ν t (Y )j(Y ) whereas in the isom-
+etry formula we have ν 2t (2Y )j(2Y ). Note also that the isometry and inver-
+sion formulas for Euclidean space are of the same form as Theorem 2, with
+                                                           2
+expx (iy) = x + iy, j(y) ≡ 1, and ν t (y) = (2πt)−d/2 e−|y| /2t .
+    An important special case of Theorem 2 is the compact group case considered
+in [H1, H2], i.e., the case in which K is the diagonal subgroup of U = K × K.
+This case is connected to stochastic analysis and the Gross ergodicity theorem
+[GM, HS, H9] and to the quantization of Yang–Mills theory on a spacetime
+cylinder [Wr, DH, H5]. Furthermore, in this case the isometry formula can be
+understood as a unitary pairing map in the context of geometric quantization
+[H8, FMMN1, FMMN2, Ty].
+    In the compact group case, the dual noncompact symmetric space is of the
+“complex type,” and in this case there is a simple explicit formula for the heat
+kernel ν nc
+         t , namely,
+
+                                                           −|Y |2 /2t
+                                   −|ρ|2 t/2 nc        e
+                      ν nc
+                        t (Y ) = e          j (Y )−1/2                  .           (5)
+                                                       (2πt)d/2
+Here ρ is half the sum (with multiplicity) of the positive roots for G/K and
+there is a simple explicit expression for j nc (change sin to sinh in (32)). Thus,
+in the compact group case, the isometry formula takes the form
+                                                                                       2
+                                                                                 e−|Y | /t
+ Z                           Z     Z
+             2       −|ρ|2 t
+      |f (x)| dx = e                             |F (expx (iY ))|2 j nc (2Y )1/2           dY dx
+  U/K                         x∈U/K Y ∈Tx (U/K)                                  (πt)d/2
+                                                                                     (6)
+
+                                             3
+and the inversion formula takes the form
+                                                                       2
+                                                                 e−|Y | /2t
+                           Z
+                      2
+         f (x) = e−|ρ| t/2            F (expx (iY ))j nc (Y )1/2            dY.   (7)
+                             Tx (U/K)                            (2πt)d/2
+
+1.2    The complex case
+Since we have nice theories for the Euclidean and compact cases, the natural
+next step is to consider symmetric spaces of the noncompact type. This would
+mean applying the heat operator to a function on a symmetric space of the
+form G/K, where G is a noncompact semisimple Lie group (connected with
+finite center) and K is a maximal compact subgroup. If we attempt to imitate
+the constructions in the compact and Euclidean cases, we rapidly encounter
+difficulties. As in the compact case, we can define a smooth map Φ : T (G/K) →
+GC /KC by
+                               Φ(x, Y ) = expx (iY ).
+However, in the noncompact case, Φ is not a global diffeomorphism; Φ is not
+globally injective and the differential of Φ becomes degenerate at certain points.
+The map Φ gives rise to a local identification of each fiber in T (G/K) with
+the dual compact symmetric space, but this identification cannot possibly be
+global, since Tx (G/K) is not compact. In addition to the (global) breakdown of
+the desired identifications, we have a problem with analytic continuation. For
+a typical function f in L2 (G/K), the function et∆/2 f does not have a global
+analytic continuation to GC /KC , but rather becomes both singular and multiple
+valued once one moves far enough from G/K.
+    The paper [HM2] takes a first step in overcoming these obstacles. (Re-
+lated but nonoverlapping results were obtained by Krötz, Ólafsson, and Stan-
+ton [KOS]. We discuss [KOS] in detail in Section 1.4 and Section 8. See
+also [OO, DOZ1, DOZ2] for a different approach, not involving the heat equa-
+tion.) In [HM2], we consider the simplest case, that of noncompact symmet-
+ric spaces of the “complex type.” Here complex type does not mean that the
+symmetric space is a complex manifold, but rather that the group G admits
+a complex structure, which means that G is the complexification of K. The
+complex case is nothing but the noncompact dual of the compact group case.
+The simplest symmetric space of the complex type is hyperbolic 3-space, where
+G∼ = SO(3, 1)e ∼ = P SL(2, C).
+    In the complex case, we develop in [HM2] (1) an isometry formula for “radial”
+(i.e., left-K-invariant) functions on G/K and (2) an inversion formula for general
+functions (sufficiently regular but not necessarily radial). Suppose f is a radial
+function in L2 (G/K) and let F = et∆/2 f. Then the isometry formula of [HM2,
+Thm. 2] states that the map Y → F (expx0 Y ) has a meromorphic extension to
+pC and that the L2 norm of F over pC with respect to a certain measure µ is
+equal to the L2 norm of f over G/K. See also [OS1, Thm. 2.8].
+
+
+
+
+                                            4
+   The inversion formula of [HM2], meanwhile, reads
+                                                                       2
+                                                                 e−|Y | /2t
+                            Z
+                       2
+   f (x) = “ lim ” e|ρ| t/2              F (expx iY )j c (Y )1/2            dY.                (8)
+            R→∞              Y ∈Tx (G/K)                         (2πt)d/2
+                                       |Y |≤R
+
+(See [HM2, Thm. 4]. A different approach to inversion formulas is taken in
+[St2].) Here j c is the Jacobian of the exponential mapping for the compact
+symmetric space U/K dual to G/K and c = |ρ|2 , where ρ is half the sum (with
+multiplicities) of the positive roots for G/K. Moreover, “limR→∞ ” means that
+the integral on the right-hand side of (8) is well-defined for all sufficiently small
+R and admits a real-analytic continuation in R to (0, ∞). The right-hand side of
+(8) then is equal to the limit as R tends to infinity of this analytic continuation.
+That is, a limit with quotation marks means the limit as R tends to infinity of
+the real-analytic extension of the indicated quantity.
+    It should be noted that although F (expx iY ) develops singularities once Y
+gets sufficiently large, the integral on the right-hand side of (8) does not develop
+singularities; it has a real-analytic extension to R ∈ (0, ∞). There is a delicate
+“cancellation of singularities” going on here, which is explained in [HM2], [H10],
+and the next subsection.
+    Leaving aside the analytic continuation in R, which is unnecessary in the
+compact case, (8) is “dual” to the inversion formula (7) for the compact group
+case. That is, (8) is obtained from (7) by changing j nc to j c and changing
+     2           2                       2
+e−|ρ| t/2 to e|ρ| t/2 . (The constant |ρ| is related to the scalar curvature, which
+is positive in the compact case and negative in the noncompact case.)
+    The main result of the present paper is an isometry formula which bears the
+same relationship to the inversion formula (8) as (6) bears to (7).
+Theorem 3 For any f in L2 (G/K) (G complex) we have
+    Z
+                2
+         |f (x)| dx
+        G/K
+                                                                                 −|Y |2 /t
+                                                                         1/2 e
+                           Z       Z
+                  |ρ|2 t                                         2 c
+  = “ lim ” e                                       |F (expx iY )| j (2Y )                   dY dx.
+                                                                                                (9)
+         R→∞               x∈G/K
+                                   Y ∈Tx (G/K)                               (πt)d/2
+                                      |Y |≤R
+
+    As in the inversion formula, the integral on the right-hand side of (9) is to
+be taken literally for small R and interpreted by means of analytic continuation
+in R for large R. See Theorem 7 in Section 6 for a more precise statement. We
+will also prove a surjectivity theorem (Theorem 8 in Section 7); roughly, if F is
+any holomorphic function on a G-invariant neighborhood of G/K inside GC /KC
+for which the right-hand side of (9) makes sense and is finite, then there exists
+a unique f ∈ L2 (G/K) with F |G/K = et∆/2 f.
+    In the case of hyperbolic 3-space, with the usual normalization of the metric,
+the isometry formula takes the following explicit form (see also [H10, Sect. 5]):
+                                                                               −|Y |2 /t
+                                                                 2 sin |2Y | e
+ Z                              Z     Z
+            2                 t
+     |f (x)| dx = “ lim ” e                       |F (expx iY )|                         dY dx.
+  H3                 R→∞
+                                               3
+                                 x∈H 3 Y ∈Tx (H )                    |2Y | (πt)3/2
+                                                |Y |≤R
+                                                                                              (10)
+
+                                                5
+    The isometry formula of Krötz, Ólafsson, and Stanton [KOS], when spe-
+cialized to the complex case, is not the same as the formula in 3. We discuss
+the relationship between the two results in Section 1.4 and in Section 8. If f
+just happens to be radial, then there is another isometry formula, established
+in [HM2, Thm. 2] (see also [OS1, Thm. 2.8]). For radial functions, it is not
+immediately obvious how to see directly that the isometry formula in Theorem
+3 agrees with the isometry formula of [HM2].
+
+1.3    Cancellation of singularities
+Let T R (G/K) denote the set of (x, Y ) ∈ T (G/K) with |Y | < R. The inversion
+and isometry formulas assert that for noncompact symmetric spaces of the com-
+plex type, certain integrals (those on the right-hand side of (8) and (9)) involving
+F (expx iY ) over T R (G/K) are “nonsingular,” in that they extend in a real an-
+alytic way to all positive values of R. On the other hand, F (expx iY ) itself does
+in fact become singular (and multiple-valued) once Y gets sufficiently large, as
+can be seen, for example, from the formula [Ga, Prop. 3.2] for the heat kernel
+on G/K. If F (expx iY ) itself becomes singular for large Y but certain integrals
+involving F remain nonsingular, then some “cancellation of singularities” must
+be taking place in the process of integration.
+    In the case of the inversion formula, the cancellation of singularities oc-
+curs because the integral on the right-hand side of (8) only “sees” the part of
+F (expx iY ) that is “radial” in Y (i.e., invariant under the adjoint action of K).
+Meanwhile, the radial part of F (expx iY ) can be expanded in terms of ana-
+lytically continued spherical functions. In the complex case, the analytically
+continued spherical functions have only a very simple sort of singularity, a cer-
+tain denominator function (the same one for all spherical functions) that can
+become zero. (See Section 8 for precise formulas.) The zeros of this denominator
+function are canceled by the zeros of the function j c in the integrand of (8).
+                                                              2
+    Meanwhile, in the isometry formula, the integral of |F | over T R (G/K) can
+                                     2
+be expressed as an integral of |F | over G-orbits, followed by an integration
+                                 R
+over the space of G-orbits in T (G/K). Meanwhile, the Gutzmer-type formula
+of Faraut [Far1, Far2] (also used in an important way in [KOS]) shows that
+                             2
+the orbital integrals of |F | can again be expressed in terms of the analytically
+continued spherical functions. As in the case of the inversion formula, the
+singularities coming from the analytically continued spherical functions are (in
+the complex case) canceled by the zeros of j c in the integrand in (9). See (33)
+and the discussion following it. In the H 3 case, the integral of |F (expx iY )|2
+over the set of (x, Y ) with |Y | = R blows up at R = π/2 like 1/ sin 2R. This
+blow-up is canceled by the factor of sin |2Y | in (10).
+    From a more philosophical point of view, we note work of R. Szőke [Sz2].
+Szőke has shown that although the differential of the map Φ : T (G/K) →
+GC /KC becomes degenerate at certain points, the pullback of the (1, 0) sub-
+bundle of TC (GC /KC ) by means of Φ has a real-analytic extension to the whole
+of T (X). The problem is that this bundle has nonzero intersection with its
+
+
+
+                                         6
+complex-conjugate at certain points. Nevertheless, Szőke’s result suggests that
+things do not break down entirely when the differential of Φ becomes degenerate.
+
+1.4    The results of Krötz, Ólafsson, and Stanton
+We now give a quick comparison of our isometry formula to the one of B. Krötz,
+G. Ólafsson, and R. Stanton established in [KOS]; details are provided in Section
+8. The paper [KOS] establishes an isometry formula for the Segal–Bargmann
+transform on an arbitrary globally symmetric space G/K of the noncompact
+type, with G not necessarily complex. The authors of [KOS] consider the integral
+        2
+of |F | over G-orbits in a certain open subset Ξ of GC /KC . These G-orbits
+are parameterized by points in a certain open subset 2iΩ of ia, where a is
+a maximal commutative subspace of p. Thus, we obtain the orbital integral
+                                           2
+O|F |2 (iY ), denoting the integral of |F | over the G-orbit parameterized by iY ∈
+2iΩ ⊂ ia. Krötz, Ólafsson, and Stanton then show that there is a certain “shift
+operator” D such that DO|F |2 has a real-analytic extension from 2iΩ to all of ia.
+                                                                   R           2
+The isometry formula, Theorem 3.3 of [KOS], then asserts that G/K |f (x)| dx
+is equal to the integral of DO|F |2 over ia with respect to a certain Gaussian
+measure.
+    In the complex case, the isometry formula of [KOS] does not coincide with
+the one we establish in this paper. Nevertheless, the two isometry formulas are
+equivalent in a sense that we explain in Section 8. Specifically, in the complex
+case, D is a differential operator and we will show that an integration by parts
+can turn the isometry formula of [KOS] into the one we prove here. (See also
+the recent preprint [OS2], which gives a another description of the image of the
+Segal–Bargmann, different from both [KOS] and the present paper.)
+    In the complex case, the form of the isometry formula in (9) seems preferable
+to the form in [KOS], simply because (9) is more parallel to what one has in the
+dual compact case (6). On the other hand, the result of [KOS] is more general,
+because it holds for arbitrary symmetric spaces of the noncompact type, not just
+the complex case. It would be desirable to attempt to carry out this integration
+by parts in general (not just in the complex case), so as to recast the isometry
+formula of [KOS] into a form more parallel to what one has in the general
+compact case in (3). However, because the singularities in the orbital integral
+are more complicated once one moves away from the complex case, it remains
+to be seen whether this integration by parts can be carried out in general.
+
+
+2     Preliminaries
+Although our main result holds only for the complex case, it is instructive to
+begin in the setting of a general symmetric space of the noncompact type and
+then specialize when necessary to the complex case. We consider, then, a con-
+nected semisimple Lie group G with finite center, together with a fixed maximal
+compact subgroup K of G. For our purposes, there is no harm in assuming that
+
+
+
+                                        7
+G is contained in a simply connected complexification GC . There is a unique
+involution of G whose fixed points are K, and this leads to a decomposition of
+the Lie algebra g of G as g = k + p, where p is the subspace of g on which the
+associated Lie algebra involution acts as −I. The spaces k and p satisfy [k, p] ⊂ p
+and [p, p] ⊂ k.
+    We choose on p an inner product invariant under the adjoint action of K.
+We then consider the manifold G/K and we let x0 denote the identity coset
+in G/K. We identify the tangent space to G/K at x0 with p. The choice of
+an Ad-K-invariant inner product on p gives rise to a Riemannian metric on
+G/K that is invariant under the left action of G. The manifold G/K, together
+with a metric of this form, is a symmetric space of the noncompact type, in the
+terminology of [He1].
+    In the Lie algebra gC of GC , we consider the subalgebra u := k + ip. We
+let U denote the connected Lie subgroup of GC whose Lie algebra is u. The
+inner product on p induces an inner product on ip in an obvious way. This
+inner product determines a Riemannian metric on U/K invariant under the left
+action of U , and U/K with this metric is a Riemannian symmetric space of the
+compact type, known as the “compact dual” of G/K.
+    Let a be any maximal commutative subspace of p. Let Σ ⊂ a denote the
+set of (restricted) roots for the pair (g, k), where we use the inner product on p,
+restricted to a, to identify a with a∗ . Let Σ+ denote a set of positive roots. Let
+W denote the Weyl group, that is, the subgroup of the orthogonal group of a
+generated by the reflections associated to α ∈ R. It is known that any vector in
+p can be moved into a by the adjoint action of K, and that the resulting vector
+in a is unique up to the action of W. We let a+ denote the closed fundamental
+Weyl chamber, that is, the set of points Y in a with α(Y ) ≥ 0 for all α ∈ R+ .
+Then each Weyl-group orbit contains exactly one point in a+ .
+    We let Ω denote the Weyl-invariant domain in a given by
+                         n                     π              o
+                    Ω = Y ∈ a |hα, Y i| <        for all α ∈ Σ .               (11)
+                                               2
+We may think of Ω as a subset of p = Tx0 (G/K). We then define a set Λ by
+                              Λ = G · Ω ⊂ T (G/K);                            (12)
+that is, Λ is the smallest G-invariant set in T (G/K) containing Ω. Thus, to
+determine if a point Y ∈ Tx (G/K) belongs to Λ, we move Y to a vector Y ′ ∈
+Tx0 (G/K) by the action of G and then move Y ′ to a vector Y ′′ ∈ a by the action
+of K. Then Y ∈ Λ if and only if Y ′′ ∈ Ω.
+    We now consider a map Φ : T (G/K) → GC /KC given by
+                Φ(x, Y ) = expx (iY ),   x ∈ G/K, Y ∈ Tx (G/K).               (13)
+Explicitly, we may identify T (G/K) with (G×p)/K, where K acts on G by right-
+multiplication and on p by Y → k −1 Y k. In that case, the geometric exponential
+map from T (G/K) to G/K is given by (g, Y ) → geY KC and so Φ may also be
+expressed as
+                      Φ(g, Y ) = geiY KC , g ∈ G, Y ∈ p.                   (14)
+
+                                         8
+Here we observe that for k ∈ K, Φ(gk, k −1 Y k) = Φ(g, Y ), so that Φ, written
+as a map of G × p into GC /KC descends to a map of (G × p)/K into GC /KC .
+From (14) we can see that Φ is a globally defined smooth map of T (G/K) into
+GC /KC .
+    In contrast to the analogous map in the compact case, Φ is not a diffeo-
+morphism of T (G/K) onto GC /KC . Indeed, Φ is not globally injective and Φ is
+not even a local diffeomorphism near certain points in T (G/K). Nevertheless,
+Φ maps Λ diffeomorphically onto its image in GC /KC . This image, denoted Ξ
+in [KOS], is the Akhiezer–Gindikin “crown domain” [AG]. That is,
+
+                     Ξ = { expx (iY ) ∈ GC /KC | (x, Y ) ∈ Λ} .               (15)
+
+We will consistently parameterize points z ∈ Ξ as z = expx (iY ) with (x, Y ) ∈ Λ.
+We let
+                        T R (G/K) = { (x, Y )| |Y | < R} .
+Then T R (G/K) is contained in Λ for all sufficiently small R. We let Rmax denote
+the largest R with this property:
+
+                      Rmax = max R T R (G/K) ⊂ Λ .
+                                   
+                                                                             (16)
+
+   The complex structure on Ξ (as an open subset of the complex manifold
+GC /KC ) can be transferred to Λ by the diffeomorphism Φ. This complex struc-
+ture on Λ ⊂ T (G/K) is in fact the “adapted complex structure” developed in
+[GS1, GS2, LS, Sz1]. Indeed, Λ is the maximal connected domain in T (G/K)
+containing the zero section on which the adapted complex structure is defined.
+See [AG, BHH, KS1, KS2] for more information.
+
+
+3    Partial isometry for general symmetric spaces
+     of the noncompact type
+We continue to work on G/K, with G arbitrary real semisimple (connected with
+finite center), not necessarily complex.
+    Given a function f ∈ L2 (G/K), let fˆ denote the Helgason Fourier transform
+of f , so that fˆ is a square-integrable function on a∗ × B invariant under the
+action of the Weyl group on a∗ . Here B = K/M, where M is the centralizer of
+a in K. (See Section III.2 of [He3].) It is convenient to think of fˆ as a function
+on a∗ with values in L2 (B). Thus for ξ ∈ a∗ , we will let fˆ(ξ) be the L2 norm
+of the corresponding element of L2 (B); that is,
+                                 2               2
+                                     Z
+                           fˆ(ξ) =       fˆ(ξ, b) db.
+                                         B
+
+The Plancherel theorem for the Fourier transform states that for f ∈ L2 (G/K)
+                                            2   dξ
+                                Z
+                             2
+                         kf k =       fˆ(ξ)          2.                   (17)
+                                  a∗          |c(ξ)|
+
+                                         9
+Here c is the Harish-Chandra c-function, the norm of f is the L2 norm with re-
+spect to the Riemannian volume measure on G/K, and dξ denotes the Lebesgue
+measure on a∗ (suitably normalized).
+    Meanwhile, let ∆ denote the Laplacian on G/K, and let et∆/2 denote the
+time-t (forward) heat operator. (We take the Laplacian to be a negative opera-
+tor.) For f ∈ L2 (G/K), let F = et∆/2 f. In that case, F is also in L2 (G/K) and
+the Fourier transform of F is related to the Fourier transform of f by
+                                              2   2
+                           F̂ (ξ) = e−t(|ξ| +|ρ| )/2 fˆ(ξ),                    (18)
+where ρ is half the sum of the positive roots (with multiplicity).
+   According to Section 6 of [KS2], the function F admits an analytic contin-
+uation (also denoted F ) to the domain Ξ ⊂ GC /KC defined in (15). We now
+                               2
+consider the integrals of |F | over various G-orbits inside Λ. A Gutzmer-type
+formula, due to J. Faraut [Far1, Far2], tells us that these orbital integrals can
+computed as follows. Each G-orbit in Λ contains exactly one point of the form
+expx0 (iZ), where Z belongs to Ω+ := Ω ∩ a+ . Let dg denote the Haar measure
+on G, normalized so that the push-forward of dg to G/K coincides with the
+Riemannian volume measure on G/K. Then the Gutzmer formula for F takes
+the form (in light of (18))
+                                             2                          dξ
+   Z                               Z
+                             2                      2    2
+        F (g · expx0 (iY /2)) dg =     fˆ(ξ) e−t(|ξ| +|ρ| ) φξ (eiY )        2, (19)
+     G                              a∗                                |c(ξ)|
+for all Y ∈ 2Ω+ . Here φξ is the spherical function normalized to equal 1 at
+Y = 0. Note that if Y = 0, then (19) simply reduces to (17). Note also that on
+the left-hand side of (19) we have the G-orbit through the point expx0 (iY /2),
+whereas on the right-hand side we have the spherical function evaluated at
+exp(iY ). This factor of 2 is the origin of the factors of 2 in the isometry formula
+relative to the inversion formula. See Appendix A for more details about the
+Gutzmer formula and the hypotheses under which it holds.
+    According to Lemma 2.1 of [KOS], for each ξ ∈ a∗ , φξ (iY ) is defined and
+real-analytic for Y ∈ 2Ω. Furthermore, for a fixed Y ∈ 2Ω, φξ (eiY ) grows at
+most exponentially with ξ, with bounds that are uniform on each compact subset
+of 2Ω. Thus, given f ∈ L2 (G/K), the right-hand side of (19) is a bounded as a
+function of Y on each compact subset of 2Ω.
+    We now fix some bounded positive Ad-K-invariant density α on p2Rmax ⊂
+Tx0 (G/K). Using the action of G, we can identify every tangent space Tx (G/K)
+with p, and this identification is unique up to the adjoint action of K on p. Since
+α is Ad-K-invariant, we may unambiguously think of α as a function on each
+of the tangent spaces Tx (G/K). We then consider the integral
+                    Z         Z
+                                                              2
+         GF (R) :=                          |F (expx (iY /2))| α(Y ) dY dx,     (20)
+                     x∈G/K    Y ∈Tx2R (G/K)
+
+where Tx2R (G/K) denotes the vectors in Tx (G/K) with magnitude less than
+2R. As we shall see shortly, this integral will be well defined and finite for all
+R < Rmax .
+
+                                         10
+   Now, for each x ∈ G/K, we choose gx ∈ G so that gx · x0 = x, and we
+arrange for gx to be a measurable function of x. (We may take, for example,
+gx ∈ P := exp p.) Then we obtain a measurable trivialization of the tangent
+bundle, with each tangent space Tx (G/K) identified with p = Tx0 (G/K) by
+means of the action of gx . The integral in (20) then becomes an integral over
+(G/K) × p2R , where p2R denotes the set of points in p with magnitude less than
+2R. We now use generalized polar coordinates to change the integration over
+p2R into one over a+                  +
+                   2R × K, where a2R = a ∩ p
+                                             +     2R
+                                                      . This gives, after applying
+Fubini’s Theorem,
+              Z   Z     Z
+    GF (R) =                |F (expx (iAdk Y /2))|2 dk dx α(Y )µ(Y ) dY,      (21)
+                a+
+                 2R   G/K    K
+
+where µ is the density appearing in the generalized polar coordinates (e.g., [He2,
+Thm. I.5.17]).
+    Since each coset x in G/K contains a unique element of the form gx , each
+element g of G can be decomposed uniquely as g = gx k, where x = g · x0 = gK
+and k is an element of K. In this way, we can identify G measurably with
+(G/K)× K. Let us consider the measure dx dk on (G/K)× K, where dx denotes
+the Riemannian volume measure and dk is the normalized Haar measure on K. If
+we transfer this measure to G by the above identification, the resulting measure
+on G is invariant under the left action of G. To see this, note that for h ∈ G
+and x ∈ G/K, there exists a unique kh,x ∈ K such that hgx = gh·x kh,x . Thus,
+the left action of G on itself, transferred to (G/K) × K, corresponds to the map
+(x, k) → (h · x, kh,x k), and this action preserves dx dk. Thus, dx dk corresponds,
+under our identification, to a Haar measure dg on the (unimodular) group G.
+Furthermore, by considering the case Y = 0 in the Gutzmer formula (19), we
+can see that this Haar measure is normalized the same way as the one in the
+Gutzmer formula.
+    Now, we have identified Tx (G/K) with p in such a way that gx · (x0 , Y ) =
+(x, Y ). Since the map Φ in (13) intertwines the action of G on Λ ⊂ T (G/K)
+with the action of G on Ξ ⊂ GC /KC , we have that gx ·expx0 (iY /2) = expx (iY /2)
+for all Y ∈ p. Thus,
+         (gx k) · expx0 (iY /2) = gx · expx0 (iAdk Y /2) = expx (iAdk Y /2).
+This means that the integrals over G/K and over K in (21) combine into an
+integral over a G-orbit, giving
+                     Z     Z
+                                                    2
+            GF (R) =           F (g · expx0 (iY /2)) dg α(Y )µ(Y ) dY. (22)
+                       a+
+                        2R   G
+
+
+
+   We may then evaluate the integral over the G-orbits by Faraut’s Gutzmer-
+type formula (19). After another application of Fubini’s Theorem, this gives
+                                        "Z                         #
+                     2                                                 dξ
+           Z
+                ˆ       −t(|ξ|2 +|ρ|2 )            iY
+  GF (R) =     f (ξ) e                        φξ (e )µ(Y )α(Y ) dY          2 . (23)
+             a                             +
+                                          a2R                        |c(ξ)|
+
+                                         11
+We now use polar coordinates in the opposite direction to turn the integral in
+square brackets back into an integral over p2R :
+             Z                              Z
+                       iY
+                  φξ (e )µ(Y )α(Y ) dY =         φξ (eiY )α(Y ) dY.
+                 a+
+                  2R                                  p2R
+
+Since, as we have noted earlier, φξ (iY ) grow at most exponentially as a function
+of ξ with Y fixed, with estimates that are locally uniform in Y (Lemma 2.1 of
+[KOS]), it follows that GF (R) is finite for all R < Rmax . (The growth of the
+quantity in square brackets on the right-hand side of (23) is less rapid than the
+                   2     2
+decay of exp[−t(|ξ| + |ρ| )].)
+    We have established, then, the following result.
+
+Proposition 4 For f ∈ L2 (G/K) (G not necessarily complex), let F = et∆/2 f
+and let α be a bounded, Ad-K-invariant, positive density on p2Rmax . Then for
+all R < Rmax the function
+                   Z      Z
+                                                        2
+         GF (R) :=                    |F (expx (iY /2))| α(Y ) dY dx
+                       x∈G/K    Y ∈Tx2R (G/K)
+
+is well-defined and finite and given by
+                                            Z                          
+                          2                                                   dξ
+                Z
+                    ˆ       −t(|ξ|2 +|ρ|2 )                 iY
+     GF (R) =      f (ξ) e                            φξ (e )α(Y ) dY                 .   (24)
+                  a                             p2R                         |c(ξ)|2
+
+   Clearly, the quantity in square brackets on the right-hand side of (24),
+                             Z
+                                  φξ (eiY )α(Y ) dY,                        (25)
+                                  p2R
+
+is of vital importance in understanding Proposition 4. We call this result a “par-
+                                                                          2
+tial” isometry formula, in that it involves integration of |F (expx (iY )| only over
+a tube of finite radius in T (G/K). The “global” isometry formula, established
+in Section 6 in the complex case, will involve a (suitably interpreted) limit of
+such partial isometries as the radius R goes to infinity.
+    To close this section, we wish to discuss why it is necessary to let the radius
+tend to infinity. (Compare Section 4 of [KOS].) The goal, in the end, is to
+have the right-hand side of (24) be equal to kf k2 . To achieve greater flexibility
+in obtaining this goal, we could replace p2R by any convex K-invariant set in
+p whose intersection with a is contained in the domain 2Ω. The largest such
+domain is Γ := AdK (2Ω). Even if we replace p2R by Γ, the evidence strongly
+suggests that there does exist any Ad-K-invariant density α on Γ for which the
+right-hand side of (24) is equal to kf k2 .
+                                         2
+    In order to have (24) equal to kf k for all f, α would have to satisfy
+                         Z
+                                                      2    2
+                            φξ (eiY )α(Y ) dY = et(|ξ| +|ρ| )                   (26)
+                           Γ
+
+
+
+                                           12
+for almost every ξ. (Essentially the same condition was obtained in a slightly
+different way by Krötz, Ólafsson, and Stanton in [KOS, Eq. 4.29].) At least in
+the complex case (but almost certainly also in general), a weight satisfying (26)
+does not exist, as demonstrated in Section 4 of [KOS].
+    Let us consider, for example, the case of hyperbolic 3-space. Then Γ is just
+a ball of radius π and the explicit formulas for the spherical functions turns (26)
+into
+                       sinh(ξ |Y |)
+                Z
+                                                     2    2
+                                    α(Y ) dY = et(|ξ| +|ρ| ) , ξ ∈ R.          (27)
+                  Y ∈R3 ξ sin |Y |
+                |Y |≤π
+
+Suppose α is any non-negative, rotationally invariant density for which the left-
+hand side of (27) is finite for almost all ξ. Then it is not hard to see that the
+left-hand side of (27) grows at most like eπ|ξ| , and thus cannot equal the right-
+hand side of (27). A similar argument applies to all symmetric spaces of the
+complex type, as explained in [KOS, Sect. 4].
+    This argument shows that (at least in the complex case), it is not possible to
+            2                                 2
+express kf k as a G-invariant integral of |F | over the domain Ξ. Thus, to obtain
+our isometry formula in the complex case, we extend the integration beyond Ξ,
+using analytic continuation and a cancellation of singularities, as explained in
+Section 6.
+
+
+4      Strategy for a global isometry formula
+If we work by analogy to the results of Hall [H1, H2] and Stenzel [St1] in the
+compact case (see Theorem 2 in the introduction), then we want to take α
+to be something related to the heat kernel for the compact symmetric space
+U/K dual to G/K. Specifically, according to [LGS, St1], there is a natural local
+identification of the fibers in T (G/K) with the dual compact symmetric space
+U/K. We would like, if possible, to choose α so that α(Y )dY is the heat kernel
+measure on U/K, based at the identity coset and evaluated at time 2t. More
+precisely, the results of [HM2] indicate that one should take α(Y )dY to be a
+sort of “unwrapped” version of this heat kernel measure. (See Theorem 5 of
+[HM2] and Section 5 below for further discussion of the unwrapping concept.)
+This means that we would like to take
+
+                              α(Y ) = ν c2t (Y )j c (Y ),                     (28)
+
+where ν ct is the unwrapped heat kernel density for U/K and j c is the Jacobian
+of the exponential mapping for U/K.
+    With α as given above, the quantity in (25) is given by
+               Z                        Z
+                    φξ (eiY )α(Y ) dY =   φξ (eiY )ν c2t (Y )j c (Y ) dY.  (29)
+               p2R                        p2R
+
+                                                                               2
+Now, φξ is an eigenfunction of the Laplacian on G/K with eigenvalue −(|ξ| +
+   2
+|ρ| ). It then follows that the the (locally defined) function on U/K given by
+
+                                          13
+f (eY ) = φξ (eiY ) is an eigenfunction of the Laplacian for U/K with eigenvalue
+   2      2
+|ξ| + |ρ| . (This assertion can be verified by direct computation but also follows
+from Theorem 1.16, Proposition 1.17, Proposition 1.19 and Theorem 8.5 of
+[LGS].) If, by letting R tend to infinity, we could somehow make Proposition
+4 into a global result (with α given by (28)), then we would be integrating an
+eigenfunction of the Laplacian for U/K against the heat kernel for U/K. Thus,
+                                                                2   2
+the limit as R tends to infinity of (29) “ought” to be et(|ξ| +|ρ| ) φξ (x0 ). Since
+the spherical functions are normalized so that φξ (x0 ) = 1, we would get that
+the right-hand side of (24) tends to kf k2 as R tends to infinity.
+     If we could actually implement this program, we would then obtain an isom-
+                                                               2
+etry formula analogous to the one in the compact case: kf k would be equal to
+                     2
+the integral of |F | first over the fibers with respect to the heat kernel measure
+for the dual symmetric space and then over the base with respect to the Rieman-
+nian volume measure. Unfortunately, because of the singularities that occur in
+the analytically continued spherical functions and because the identification of
+p with U/K is only local, we do not know how to carry out the above strategy
+in general.
+     By contrast, J. Faraut has shown, using a Gutzmer-type formula due to
+Lasalle [Las], that one can carry out a similar line of reasoning if one starts
+on a compact symmetric space. This leads [Far3] to a new proof of Stenzel’s
+isometry formula for compact symmetric spaces.
+     In the noncompact case, the case in which G is complex is the most tractable
+one and we now specialize to this case. We will first work out very explicitly
+the partial isometry formula in this case, by evaluating the quantity in square
+brackets in (24), with α given by (28). Then we let the radius tend to infinity,
+using an appropriate cancellation of singularities.
+
+
+5    Partial isometry in the complex case
+We now assume that G is a connected complex semisimple group and K a
+maximal compact subgroup. The assumption that G is complex is equivalent
+to the assumption that the (restricted) roots for (G, K) form a reduced root
+system with all roots having multiplicity 2. The complex case is nothing but
+the noncompact dual to the compact group case studied in [H1, H2].
+    We make use of several (closely related) results that are specific to the com-
+plex case and do not hold for general symmetric spaces of the noncompact type.
+First, in the complex case, the dual compact symmetric space U/K is isometric
+to a compact group with a bi-invariant metric. There is, as a result, a particular
+simple formula for the heat kernel on U/K, due to Èskin [E]. (See also [U].)
+We use an “unwrapped” version of the heat kernel density on U/K, given by
+                                                           −|Y |2 /4t
+                                         2             e
+                       ν c2t (Y ) = et|ρ| j c (Y )−1/2                  .      (30)
+                                                      (4πt)d/2
+
+
+
+
+                                           14
+    This means that we want to take α in Proposition 4 to be (as in 28)
+                                                                           −|Y |2 /4t
+                                                     2            e
+                   α(Y ) = ν c2t (Y )j c (Y ) = et|ρ| j c (Y )1/2                       ,   (31)
+                                                                           (4πt)d/2
+
+where on a we have, explicitly,
+                                                      Y sin α(Y )
+                                   j c (Y )1/2 =                  .                         (32)
+                                                       +
+                                                          α(Y )
+                                                     α∈R
+
+As shown in [HM2, Thm. 5], the signed measure ν c2t (Y )j c (Y ) dY on p is an
+“unwrapped” version of the heat kernel measure for U/K. This means that the
+push-forward of this measure by exp : p → U/K is precisely the heat kernel
+measure on U/K at time 2t, based at the identity coset.
+   With α given by (31), the expression in (25) is given by
+                                                                       2
+                                                                  e−|Y | /4t
+                                   Z
+                           t|ρ|2
+                       e                   φξ (eiY )j c (Y )1/2              dY.            (33)
+                                   p2R                            (4πt)d/2
+
+Our next task is to compute (33) as explicitly as possible. Although there is an
+explicit formula for φξ in the complex case (see (52) in Section 8), it is not quite
+straightforward to compute (33) using that formula. We use instead a more
+geometric argument, which will also be useful in studying the Segal–Bargmann
+transform on compact quotients of symmetric spaces of the complex type.
+    It is known that the function φξ is an eigenfunction for the (non-Euclidean)
+Laplacian on G/K with eigenvalue −(|ξ|2 + |ρ|2 ). In the complex case, we have
+special “intertwining formulas” for the Laplacian; see Proposition V.5.1 in [He3]
+and the calculations for the complex case on p. 484. These formulas tell us that
+the function Y → φξ (eY )j nc (Y )1/2 is an eigenfunction of the Euclidean Lapla-
+cian for p with eigenvalue − |ξ|2 . (Here j nc is the Jacobian of the exponential
+mapping for the noncompact symmetric space G/K.) Since j nc (iY ) = j c (Y ) (as
+is easily verified from the formulas for these Jacobians) we see that the function
+
+                                       Ψξ (Y ) := φξ (eiY )j c (Y )1/2                      (34)
+
+is an eigenfunction of the Euclidean Laplacian on pR with eigenvalue |ξ|2 .
+
+Lemma 5 Let Ψ be a smooth function on the ball B(2R0 , 0) in Rd satisfying
+∆Ψ = σΨ for some constant σ ∈ R, where ∆ is the Euclidean Laplacian. Let
+β be a non-negative, bounded, measurable, rotationally invariant function on
+B(2R0 , 0). Then for all R < R0 we have
+                                                  √
+             Z                            Z
+                     Ψ(Y )β(Y ) dY = Ψ(0)        e σy1 β(Y ) dY.         (35)
+                |Y |≤2R                                      |Y |≤2R
+                                       √
+Here Y = (y1 , . . . , yd ) and         σ is either of the two square roots of σ.
+
+
+                                                     15
+Proof. We let Ψ̃ denote the radialization of Ψ in the Euclidean sense, that
+is, the average of Ψ with respect to the action of the rotation group. Then Ψ̃
+is also an eigenfunction of the Euclidean Laplacian with the same eigenvalue σ,
+and Ψ̃(0) = Ψ(0). Since β is rotationally invariant, replacing Ψ with Ψ̃ does not
+change the value of the integral. But since Ψ̃ is radial, it satisfies differential
+equation
+                             d2 Ψ̃ (d − 1) dΨ̃
+                                  +            = σ Ψ̃,                        (36)
+                             dr2       r    dr
+with Ψ̃(0) finite and dΨ̃/dr             = 0.
+                                   r=0
+    When d = 1, the equation (36) is nonsingular at the origin and standard
+uniqueness results show that Ψ̃ is determined by Ψ̃(0). When d ≥ 2, (36) is
+a second-order, linear, nonconstant-coefficient equation, with a regular singular
+point at r = 0. A simple calculation with the theory of regular singular points
+shows that there is, up to a constant, only one solution of this equation that is
+nonsingular at the origin.
+                       √
+    Now let γ(Y ) = e σy1 , which is also an eigenfunction of the Laplacian with
+eigenvalue σ. If γ̃ denotes the Euclidean radialization of γ, then γ̃(0) = 1 and
+γ̃ also solves the equation (36) above. Thus we must have Ψ̃ = Ψ̃(0)γ̃ = Ψ(0)γ̃.
+So in the integral on the left-hand side of (35) we may replace Ψ by Ψ̃ and then
+by Ψ̃(0)γ̃ and finally by Ψ(0)γ, which establishes the lemma.
+    We are now ready to put everything together. We apply Proposition 4 with α
+                                                                                  2
+as given in (31). We make use of Lemma 5 with β(Y ) equal to (4πt)−d/2 exp(− |Y | /4t),
+                                                      2
+Ψ equal to the function Ψξ in (34), and σ equal to |ξ| . We also make the change
+of variable Y → 2Y (for cosmetic reasons) in the integral that defines GF (R).
+The result is the following.
+
+Theorem 6 (Partial Isometry Formula) Let f be in L2 (G/K) (G complex)
+and let F = et∆/2 f . Then for all R < Rmax the function GF (R) defined by
+              Z        Z
+                                                    2
+    GF (R) =                        |F (expx (iY ))| ν c2t (2Y )j c (2Y ) 2d dY dx
+                 x∈G/K        Y ∈TxR (G/K)
+
+may be computed as
+                                                                                         
+                         2                                                  −|Y |2 /4t
+                                                                          e                   dξ
+            Z                                            Z
+                                   2     2           2
+ GF (R) =        fˆ(ξ)       e−t(|ξ| +|ρ| ) et|ρ|                 e|ξ|y1              dy         2,
+             a                                               Y ∈Rd        (4πt)d/2          |c(ξ)|
+                                                         |Y |≤2R
+                                                                               (37)
+where Y = (y1 , . . . , yd ). Here TxR (G/K) is the set of vectors in Tx (G/K) with
+magnitude less than R and ν c2t and j c are as in (30) and (32).
+
+    Note that for a given R, the expression in square brackets on the right-hand
+side of (37) depends only on |ξ|. Since the effect of the Laplacian on the Fourier
+transform of f is to multiply fˆ(ξ) by −(|ξ|2 + |ρ|2 ), we can rewrite (37) as
+
+                             GF (R) = hf, β R (−∆)f iL2 (G/K) ,                                   (38)
+
+                                                 16
+where β R is the function given by
+                                                 q            −|y|2 /4t
+                                                               e
+                                    Z
+                        −tλ t|ρ|2                         2
+          β R (λ) = e      e                 exp   λ − |ρ| y1             dy   (39)
+                                        y∈Rd                   (4πt)d/2
+                                    |y|≤2R
+
+
+Note that the L2 spectrum of −∆ is [|ρ|2 , ∞), so that the argument of the
+square root on the right-hand side of (39) is always non-negative.
+
+
+6    Global isometry in the complex case
+Our goal now is to “let R tend to infinity” in our partial isometry formula for the
+complex case (Theorem 6). That it is possible to do so reflects a cancellation of
+singularities. The function F (expx iY ) becomes singular (and multiple-valued)
+                                                           2
+for large Y. Reflecting this, the orbital integrals of |F | become unbounded as
+the orbits approach the boundary of the domain Ξ. However, Faraut’s Gutzmer-
+type formula tells us that the singularities in the orbital integrals are controlled
+by the singularities in the analytically continued spherical functions. In the
+complex case, the singularities of the analytically continued spherical functions
+are of a particularly simple sort (see (52) in Section 8). These singularities are
+cancelled by the zeros in the density against which we are integrating the orbital
+integrals, namely, the function α given in (31). (Compare (32) to (52).) This
+cancellation of singularities allows GF (R) to be nonsingular, even though both
+                                          2
+F itself and the orbital integrals of |F | are singular.
+    In the proof of Theorem 6, the above-described cancellation of singularities
+is reflected in the fact that the expression in square brackets on the right-hand
+side of (37) is well defined and finite for all R. It is not hard, then, to show
+that GF (R) admits a real-analytic extension to the whole positive half-line.
+Furthermore, the limit as R tends to infinity of this analytic extension is easily
+evaluated by setting R = ∞ on the right-hand side of (37) and evaluating a
+standard Gaussian integral. This will lead to the following result.
+
+Theorem 7 (Global Isometry Formula) Let f be in L2 (G/K), with G com-
+plex, and let F = et∆/2 f. Then for all R < Rmax , the quantity
+               Z       Z
+                                                    2
+     GF (R) :=                      |F (expx (iY ))| ν c2t (2Y )j c (2Y ) 2d dY dx
+                 x∈G/K      Y ∈TxR (G/K)
+
+is defined and finite. Furthermore, the function GF has a real-analytic extension
+from (0, Rmax ) to (0, ∞) and this extension (also denoted GF ) satisfies
+
+                               lim GF (R) = kf k2L2 (G/K) .
+                               R→∞
+
+Proof. We consider the right-hand side of (37) and wish to show that this
+expression is finite for all R ∈ (0, ∞) and that it is real-analytic in R. The
+quantity in square brackets in (37) is bounded by its limit as R tends to infinity,
+
+
+                                               17
+                            2        2
+which is equal to et(|ξ| +|ρ| ) . (This is a simple Gaussian integral.) Thus the
+right-hand side of (37) is bounded by
+                                    2   dξ
+                         Z
+                                                     2
+                              fˆ(ξ)          2 = kf k < ∞.
+                          a           |c(ξ)|
+
+   To see that the right-hand side of (37) is real-analytic as a function of R, we
+reverse the order of integration (since everything is positive) and write it as
+              "Z                                                  #      2
+                          2                                 dξ      e−|y| /4t
+      Z
+                    ˆ         −t(|ξ|2 +|ρ|2 ) t|ρ|2 |ξ|y1
+                    f (ξ)   e                e     e            2             dy. (40)
+         y∈Rd    a                                        |c(ξ)| (4πt)d/2
+        |y|≤2R
+
+                                                                     2
+Now, for any complex number y1 , the quantity e−t|ξ| e|ξ|y1 is a bounded function
+of ξ. It is therefore not hard to see (using Morera’s Theorem) that the expression
+in square brackets in (40) admits an extension (given by the same formula) to an
+entire function of y1 . It follows that the whole integrand in (40) is a real-analytic
+function of y. It is then a straightforward exercise to verify that the integral of
+a real-analytic function over a ball of radius R is a real-analytic function of R.
+    To evaluate the limit as R tends to infinity of the right-hand side of (37),
+we use monotone convergence to put the limit inside. The quantity in square
+brackets then becomes an easily evaluated Gaussian integral:
+                                                         2
+                                                    e−|y| /4t
+                                Z
+                            2                                           2     2
+                    et|ρ|                  e|ξ|y1         d/2
+                                                              dy = et|ρ| et|ξ| .   (41)
+                                    y∈Rd            (4πt)
+
+Thus, the right-hand side of (37) converges as R tends to infinity to
+                               2
+                     Z
+                         fˆ(ξ) dξ/ |c(ξ)|2 = kf k2L2 (G/K) ,
+                        a
+
+which is what we want.
+
+
+7     Surjectivity theorem in the complex case
+Our goal is to show that if F is any holomorphic function for which the isometry
+formula makes sense and is finite, then F is the analytic continuation of et∆/2 f,
+for some unique f ∈ L2 (G/K). In contrast to the surjectivity result in [KOS],
+we do not assume that the restriction of F to G/K is in L2 (G/K) with rapidly
+decaying Fourier transform. Rather, this property of F holds automatically, in
+light of the strong form of the Gutzmer formula established in [Far2]. (See also
+Appendix A.)
+
+Theorem 8 Suppose F is a holomorphic function on a domain of the form
+
+                   expx (iY ) ∈ Ξ| (x, Y ) ∈ T R0 (G/K)
+                 
+                                                                    (42)
+
+
+
+                                                       18
+for some R0 ≤ Rmax and suppose that the function
+            Z     Z
+  GF (R) :=                   |F (expx (iY ))|2 ν c2t (2Y )j c (2Y ) 2d dY dx (43)
+              x∈G/K   Y ∈Tx2R (G/K)
+
+is finite for all sufficiently small R. Suppose further that GF has a real-analytic
+extension to (0, ∞) and that
+                                      lim GF (R)
+                                      R→∞
+
+exists and is finite. Then there exists a unique f ∈ L2 (G/K) with F |G/K =
+et∆/2 f.
+
+    Although we initially assume that F is holomorphic only on a domain of
+the form (42), after the fact we see that the function F , being the analytic
+continuation of a function of the form et∆/2 f, can be extended holomorphically
+to all of Ξ. Furthermore, once F = et∆/2 f, the isometry theorem tells us that
+                                       2
+the limit as R → ∞ of GF (R) is kf k .
+Proof. The uniqueness of f follows from the injectivity of the heat operator
+et∆/2 , which in turn follows from the spectral theorem or from the Fourier
+transform or from the isometry formula.
+    We turn now to proving the existence of f. According to results of Faraut
+[Far2], the assumption that F is square-integrable over the domain in (42) im-
+plies that the restriction of F to G/K is in L2 (G/K), that the orbital integrals
+       2
+of |F | inside this domain are finite, and that these orbital integrals are given
+by the Gutzmer formula (19). Thus, if we compute the right-hand side of (43)
+by method of the previous section (as in the proof of (40)), we conclude that
+                            "Z                                  #      2
+                                         2                 dξ     e−|y| /4t
+                   Z
+         GF (R) =                F\|       e t|ρ|2 |ξ|y1
+                                                  e                         dy (44)
+                                     G/K
+                      y∈Rd     a                         |c(ξ)|2 (4πt)d/2
+                    |y|≤2R
+
+for R < R0 .
+    We now wish to show that the analytic continuation of GF must be given
+(for all R ∈ (0, ∞)) by the expression on the right-hand side of (44). Since
+the Gaussian factor on the right-hand side of (44) is rotationally invariant,
+the whole integral is unchanged if we replace the quantity in square brackets
+(viewed a function of y) by its average over the action of the rotation group.
+This averaging can be put inside the integral over a, at which point it affects
+only e|ξ|y1 . Averaging this function gives (after interchanging an integral with a
+uniformly convergent sum)
+                           X 1        n    n
+                                             Z
+                                   |ξ| |y|        (u · e1 )n du,               (45)
+                         n even
+                                n!            S d
+
+
+
+where du is the normalized volume measure on S d and where the terms for n
+odd are zero.
+   If we replace e|ξ|y1 by (45) on the right-hand side of (44), all quantities
+involved will be positive, so by Fubini’s Theorem we may freely rearrange the
+
+                                        19
+sums and integrals. Rearranging and using polar coordinates on the integral
+over Rd gives
+            Z 2R " X                                                                           #     2
+                                                                      2                  dξ       e−r /4t
+                              Z                  Z
+GF (R) =                  r n               n
+                                   (u · e1 ) du         \
+                                                       F |G/K e          t|ρ| 2
+                                                                                |ξ| n
+                                                                                                          c rd−1 dr,
+                                                                                             2
+                                                                                                 (4πt) d/2 d
+             0     n even      S d                 a                                  |c(ξ)|
+                                                                                                    (46)
+where cd is the volume of the unit sphere in Rd . Differentiating with respect to
+R and moving some factors to the other side gives
+                                                                                                    2             dξ
+                                                                Z                     Z
+              d/2 R2 /4t −1
+                                                                                            F\
+                                                                                                          2
+                                                                                              |G/K et|ρ| |ξ|n
+                                               X
+  ′                                 1−d                     n                  n
+GF (R)(4πt) e           cd (2R)          =2          (2R)             (u·e1 ) du
+                                              n even             S d                   a                       |c(ξ)|2
+                                                                                                    (47)
+for R < R0 .
+    Now, since GF (R) admits a real-analytic extension to all of (0, ∞), so does
+the right-hand side of (47). Since the coefficient of Rn in (47) is non-negative
+for all n, it follows (see Lemma 9 below) that the series on the right-hand side
+of (47) must have infinite radius of convergence. Then both sides of (47) are
+defined and real-analytic for all positive R; since they are equal for small R, they
+must be equal for all R. It then follows that (46) also holds for all R. Undoing
+the reasoning that led to (46), we conclude that (44) also holds for all R.
+    Now that we know that the analytic continuation of GF (R) is given by (44)
+for all R, the Monotone Convergence Theorem tells us that
+                        Z "Z                                                    #         2
+
+                                      \ (ξ) e
+                                                   2
+                                                      t|ρ| 2
+                                                               |ξ|y     dξ         e−|y| /4t
+        lim GF (R) =                 F|  G/K                 e      1
+                                                                              2                 dy.
+       R→∞                Rd     a                                    |c(ξ)| (4πt)d/2
+
+Reversing the order of integration and using again the Gaussian integral (41)
+will then give
+                            2               dξ
+              Z
+                 F\
+                                 2      2
+                   |G/K (ξ) et|ρ| et|ξ|          2 = R→∞
+                                                      lim G(R) < ∞.      (48)
+               a                          |c(ξ)|
+
+We may then conclude that F |G/K is of the form et∆/2 f, where f is the function
+whose Fourier transform is given by
+
+                                       \ (ξ)et(|ρ|2 +|ξ|2 )/2 .
+                               fˆ(ξ) = F | G/K
+
+(That there really is an L2 function f with this Fourier transform follows from
+(48)).
+   This concludes the proof of surjectivity, except for the following elementary
+lemma about power series with non-negative terms.
+
+Lemma 9 Suppose H is a real-analytic function P   on (0, ∞) such that on (0, ε),
+                                                    ∞
+H is given by a convergent power series H(R) =P n=0 an Rn . Suppose also the
+                                                   ∞
+coefficients an are non-negative. Then the series n=0 an Rn has infinite radius
+of convergence.
+
+                                                 20
+                                                          an xn has radius of con-
+                                                       P
+Proof. Assume, to the contrary, thatPthe series
+                                                  n
+vergence S < ∞. Since both H(R) and           an R are real analytic on (0, S) and
+they are equal on (0, ε), they are equal on (0, S).We may then differentiate H(R)
+term by term for R < S. Since H (k) is continuous on (0, ∞), letting R approach
+S gives, by Monotone Convergence,
+                                        ∞
+                            H (k) (S) X
+                                               
+                                                n n−k
+                                     =     an      S   ,
+                               k!      n=0
+                                                k
+
+where nk is defined to be 0 for k > n.
+         
+
+   Using Fubini’s theorem (since all terms are non-negative) and the binomial
+theorem, we have for any δ > 0,
+                   ∞                      ∞       ∞  
+                  X    H (k) (S) k       X       X   n n−k k
+                                 δ   =       an          S    δ
+                           k!            n=0
+                                                     k
+                  k=0                           k=0
+                                        ∞
+                                        X
+                                   =          an (S + δ)n = ∞,
+                                        n=0
+
+            an Rn has radius of convergence S. This shows that the Taylor series
+         P
+because
+of H at S has radius of convergence zero, contradicting the assumption that H
+is real-analytic on (0, ∞).
+
+
+8    Comparison with the results of Krötz, Ólafsson,
+     and Stanton
+As we have already pointed out in Section 1.4, the isometry formula of Krötz,
+Ólafsson, and Stanton (Theorem 3.3 of [KOS]), when specialized to the complex
+case, does not reduce to our isometry formula. We now explain the relationship
+between the two formulas. Since both formulas already have complete proofs,
+we will not attempt to give a completely rigorous reduction of one formula to
+the other. Rather, we will show formally how the isometry formula in [KOS]
+can be reduced to the one we prove here, by means of an integration by parts.
+    Let us begin in the setting of [KOS], which means that we consider a sym-
+metric space of the form G/K, where G is a real connected semisimple group
+with finite center and K is a maximal compact subgroup. At the moment, we do
+not assume that G is complex. After adjusting for differences of normalization
+of the heat operator (et∆ in [KOS] versus et∆/2 here), the isometry formula of
+[KOS, Thm. 3.3] can be written as
+                                 2
+                           et|ρ|
+                                     Z                    2
+                kf k2 =            n   D O|F |2 (iY ) e−|Y | /4t dY,      (49)
+                        |W | (4πt) 2 a
+where n = dim a is the rank of G/K. Here O|F |2 (iY ) denotes the “orbital
+integral” of |F |2 appearing in (19), namely,
+                                    Z
+                                                            2
+                     O|F |2 (iY ) =    F (g · expx0 (iY /2)) dg      (50)
+                                  G
+
+
+                                       21
+and D is a pseudodifferential “shift operator” that takes the spherical functions
+to their Euclidean counterparts. Although O|F |2 (iY ) itself is defined only for
+small Y, the shift operator D cancels out all the singularities and produces a
+function that is defined real-analytically on all of a.
+    (There appears to be a slight inconsistency in the way the orbital integral is
+defined in [KOS], as in (50) in the original definition, but with Y /2 replaced by Y
+in Equation (3.19) in the proof of the isometry formula. We have maintained the
+original definition (Equation (1.2) of [KOS]) of the orbital integral and adjusted
+the isometry formula accordingly. This adjustment along with the difference in
+normalization of the heat equation account for the differences between (49) and
+Theorem 3.3 of [KOS].)
+    If we ignored the singularities in O|F |2 , we could formally move the operator
+D off of the orbital integral, at the expense of applying the adjoint operator
+D∗ to the Gaussian factor. We could then use Weyl invariance to reduce the
+domain of integration from a to a+ , giving the nonrigorous expression
+                                  2
+                             et|ρ|
+                                       Z                            
+                        ?                                        2
+                 kf k2 =           n        O|F |2 (iY )D∗ e−|Y | /4t dY.          (51)
+                            (4πt) 2    a+
+
+    The idea is that D∗ is also a sort of shift operator (or Abel transform) and
+                                                                             2
+should have the effect of turning the Euclidean heat kernel exp(− |Y | /4t) into
+the non-Euclidean heat kernel for the compact symmetric space dual to G/K.
+                                                       2                        2
+If (51) were really correct it would express kf k as an integral of |F | as an
+integral over G-orbits followed by an integral over the space of G-orbits, which
+is just the sort of thing we have in this paper.
+    In general, it is not at all clear that the right-hand side of (51) makes sense.
+                                       2
+Even assuming that D∗ (exp(− |Y | /4t)) is well defined, there will be singulari-
+ties in the orbital integral O|F |2 (iY ), which are related to the singularities in the
+analytically continued spherical functions that appear in the Gutzmer formula.
+Examples show that in general, the singularities in the orbital integral will not
+be canceled by zeros in D∗ (exp(− |Y |2 /4t)) and so the right-hand side of (51)
+will not be well defined without some further “interpretation.”
+    In the complex case, however, D is a simple differential operator and taking
+its adjoint amounts to integrating by parts. We will now compute D∗ explicitly
+                                              2
+and see that, in this case, D∗ (exp(− |Y | /4t)) has zeros in all the places that
+the orbital integral is singular, so that (51) is actually nonsingular. Indeed, in
+the complex case, (51) is essentially just our isometry formula (Theorem 7).
+    In this calculation, there are various constants, depending only on the choice
+of symmetric space, whose values are not worth keeping track of. In the remain-
+der of this section, C will denote such a constant whose value changes from line
+to line.
+    In the complex case, the explicit formula for the spherical function (e.g.,
+Theorem 5.7, p. 432, of [He3]) implies that
+
+                                                 (det w)e−hw·ξ,Y i
+                                          P
+                                   C
+                      φξ (eiY ) =       · w∈W                      ,                (52)
+                                  π(ξ)       Πα∈Σ+ sin hα, Y i
+
+                                              22
+                                                              Q
+where π is the Weyl-alternating polynomial given by π(Y ) = α∈Σ+ hα, Y i .
+Meanwhile, D is supposed to be the operator that takes the spherical functions
+to their Euclidean counterparts ψ ξ , which satisfy
+                                               X
+                                ψ ξ (iY ) =          e−hw·ξ,Y i .
+                                              w∈W
+
+(Note that, following [KOS], we normalize the Euclidean spherical functions to
+have the value |W | at the origin.)
+   Let Dα denote the directional derivative in the direction of α and observe
+that
+              !                               !
+   Y                            Y
+                  −hξ,w·Y i
+       (−Dα ) e             =       hw · ξ, αi e−hξ,w·Y i = (det w)π(ξ)e−hξ,w·Y i
+  α∈Σ+                             α∈Σ+
+
+because the polynomial π is alternating. Thus, we can see that
+                                       !                  !
+                            Y              Y
+                 D=C            (−Dα )         sin hα, Y i .                           (53)
+                                α∈Σ+                  α∈Σ+
+
+(To be precise, the operator that we are here calling D is the operator that takes
+the analytic continuation of the spherical function φξ for G/K to the analytic
+continuation of the Euclidean spherical function ψ ξ . The operator that takes φξ
+itself to ψ ξ would involve hyperbolic sines instead of ordinary sines. With our
+definition of D, it is correct to write D(O|F |2 (iY )) rather than (DO|F |2 )(iY ) as
+in ([KOS]).)
+    Taking the adjoint of (53), we obtain
+                                                 !            !
+                                  Y                   Y
+                        ∗
+                      D =C            sin hα, Y i          Dα .
+                                   α∈Σ+                      α∈Σ+
+
+We now claim that
+                            !                                       !
+                  Y                  2              Y − hα, Y i               2
+                       Dα       e−|Y | /4t =                            e−|Y | /4t .   (54)
+                                                     +
+                                                         2t
+                α∈Σ+                            α∈Σ
+
+To see this, we first observe that the Fourier transform of the left-hand side of
+(54) is a constant times a Gaussian times the polynomial π. Since π is alternating
+with respect to the action of the Weyl group and since the Fourier transform
+commutes with the action of the Weyl group, it follows that the left-hand side
+of (54) is also alternating. The left-hand side of (54) is a polynomial h(Y )
+             2
+times e−|Y | /4t , and the polynomial h must be alternating. Furthermore, the
+leading order term in h is easily seen to be the polynomial appearing on the
+right-hand side of (54). The lower-order terms in h are also alternating, and an
+alternating polynomial whose degree is less than the number of positive roots
+must be identically zero. (Compare Lemma 4 of [U].)
+
+                                               23
+   In the complex case, then, (51) takes the form
+                 2 Z
+                                                !                            !2
+      2    et|ρ|                    Y sin α(Y )         2         Y
+  kf k = C d/2         O|F |2 (iY )               e−|Y | /4t            α(Y )     dY,
+            t       a+                  α(Y )
+                                     +
+                                    α∈Σ                          α∈Σ+
+                                                                               (55)
+where we have rearranged the polynomial factors in a convenient way and where
+d = dim(G/K). (In the complex case, dim(G/K) = dim a + 2 |Σ+ | .) We claim
+that in this case, (55) actually makes sense. Specifically, O|F |2 (iY ) may be
+computed by the Gutzmer formula (19) and the explicit formula (52) for the
+spherical functions then indicates that sine factors on the right-hand side of (55)
+cancel all the singularities in O|F |2 .
+    Meanwhile, in the complex case the density for generalized polar coordinates
+(integration of Ad-K-invariant functions on p) is given by
+                                                   !2
+                                         Y
+                            µ(Y ) = C         α(Y ) .
+                                          α∈Σ+
+
+(This is Theorem I.5.17 of [He2] in the case where each mα is equal to 2.) Also,
+the product over Σ+ of sin α(Y )/α(Y ) is just the Jacobian factor j c (Y )1/2 of
+(32). Thus, if we rewrite (55) as a limit of integrals over a+ R and use the equality
+of (20) and (21) we see that (51) becomes
+              2 Z
+         et|ρ|
+                       Z
+                                                        2                  2
+  lim C d/2                           |F (expx (iY /2))| j c (Y )1/2 e−|Y | /4t dY dx.
+ R→∞      t      x∈G/K Y ∈Tx2R (G/K)
+
+This is nothing but the isometry formula established in Theorem 7, disguised
+by the change of variable Y → Y /2.
+    Presumably, this line of reasoning could be used to give a rigorous reduction
+of our isometry formula to that of [KOS]. However, some care would have to be
+given to the boundary terms in the integration by parts.
+
+
+A      The Gutzmer-type formula of Faraut
+In this appendix, we discuss Faraut’s Gutzmer-type formula, established in
+[Far1] and then in a stronger form in [Far2]. We are particularly concerned with
+the conditions under which this formula can be applied. In [Far1], Faraut estab-
+lished the Gutzmer formula under the assumption that the Fourier transform of
+the restriction of F to G/K has compact support. We will show that this result
+can easily be extended to any F of the form F = et∆/2 f, with f ∈ L2 (G/K),
+something we require in the proof of the isometry formula. Meanwhile, in [Far2],
+Faraut established the Gutzmer formula under the assumption that F is square-
+integrable over (a domain in) Ξ with respect to a nice G-invariant measure. We
+require the result of [Far2] in the proof of the surjectivity theorem.
+    First, fix f ∈ L2 (G/K) and let F := et∆/2 f. If the Fourier transform of f
+    ˆ
+is f (in the notation established in Section 3), then the Fourier transform of
+
+                                          24
+F is given by F̂ (ξ) = fˆ(ξ)e−t(|ξ| +|ρ| )/2 . Let Fn be the function whose Fourier
+                                  2    2
+
+
+transform is given by
+                                              2    2
+                        F̂n (ξ) = fˆ(ξ)e−t(|ξ| +|ρ| )/2 χn (ξ),                (56)
+
+where χn is the indicator function of the ball of radius n in a∗ . Since the Fourier
+transform of Fn has compact support, the hypotheses of the Gutzmer formula
+in [Far1] hold. Thus, Fn has a holomorphic extension to Ξ and the Gutzmer
+formula in (19) holds.
+    Meanwhile, according to Lemma 2.1 and Remark 2.2 of [KOS], for each Y
+in Ω, there exists CY such that
+
+                               φξ (eiY ) ≤ CY e|ξ||Y | ,
+
+for all ξ ∈ a, and CY may be taken to be a locally bounded function of Y. Then,
+using the Gutzmer formula and (56), we see that Fn converges in L2 on each
+G-orbit G · eiY , and the L2 convergence is locally uniform as a function of Y.
+This means that the Fn ’s are converging in L2loc , which then implies that the
+limiting function Φ is holomorphic. Since also the restriction of Φ to G/K is
+the L2 limit of the Fn ’s, namely, F, we conclude that Φ = F. By the continuity
+of the L2 norm, then, we conclude that the Gutzmer formula holds for F.
+    Meanwhile, the paper [Far2] establishes the Gutzmer formula for weighted
+Bergman spaces. This means that we assume F is holomorphic on a G-invariant
+domain D ⊂ Ξ that contains G/K and with the property that the intersection
+of Γ with each Tx (G/K) is convex. We then assume that F is square-integrable
+over D with respect to a G-invariant measure p that has a positive density
+that is locally bounded away from zero. We let B 2 (D, p) denote (in Faraut’s
+notation) the space of holomorphic functions on D that are square-integrable
+with respect to p. Faraut proves that if F ∈ B 2 (D, p), then: (1) the restriction
+of F to G/K is square-integrable, (2) the restriction of F to each G-orbit inside
+D is square-integrable, and (3) the Gutzmer formula holds.
+    Let us elaborate briefly on one point that is used in the proof of this form
+of the Gutzmer formula. The result is that given F ∈ B 2 (D, p), there exists a
+sequence Fn ∈ B 2 (D, p) converging to F in the norm topology of B 2 (D, p) such
+that the Fourier transform of Fn |G/K has compact support. The argument for
+the existence of such a sequence is implicit in [Far2], but we felt it might be
+helpful to spell it out explicitly, since this is the key to extending the Gutzmer
+formula to functions in B 2 (D, p).
+    Faraut shows (Proposition 3.1) that the restriction map R : B 2 (Γ, α) →
+L2 (G/K) is bounded and injective. It follows that the adjoint map R∗ :
+L2 (G/K) → B 2 (D, p) is bounded with dense image. Thus, since functions
+whose Fourier transform has compact support are dense in L2 (G/K), given
+F ∈ B 2 (D, p), we can choose gn ∈ L2 (G/K) with compactly supported Fourier
+transform such that R∗ gn → F in B 2 (D, p). Meanwhile, the operator RR∗ is
+a convolution operator on L2 (G/K) (see p. 104 in [Far2]), which preserves
+the space of functions with compactly supported Fourier transform. Thus the
+
+
+                                           25
+Fourier transform of RR∗ gn has compact support, which means that Fn := R∗ gn
+is the desired sequence in B 2 (D, p).
+       In the surjectivity theorem, we wish to apply the Gutzmer formula in the
+case D = T R0 (G/K) and p is the measure associated to the density α(Y ) =
+ν c2t (Y )j c (Y ) as in Proposition 4.
+
+
+References
+[AG]      D. N. Akhiezer and S. G. Gindikin, On Stein extensions of real sym-
+          metric spaces, Math. Ann. 286 (1990), 1–12.
+[Ba]      V. Bargmann, On a Hilbert space of analytic functions and an as-
+          sociated integral transform, Comm. Pure Appl. Math. 14 (1961),
+          187–214.
+[BHH]     D. Burns, S. Halverscheid, and R. Hind, The geometry of Grauert
+          tubes and complexification of symmetric spaces, Duke Math. J. 118
+          (2003), 465–491.
+[DOZ1]    M. Davidson, G. Ólafsson, and G. Zhang, Laguerre polynomials,
+          restriction principle, and holomorphic representations of SL(2, R),
+          Acta Appl. Math. 71 (2002), 261–277.
+[DOZ2]    M. Davidson, G. Ólafsson, and G. Zhang, Laplace and Segal-
+          Bargmann transforms on Hermitian symmetric spaces and orthog-
+          onal polynomials, J. Funct. Anal. 204 (2003), 157–195.
+[DH]      B. K. Driver and B. C. Hall, Yang-Mills theory and the Segal-
+          Bargmann transform, Comm. Math. Phys. 201 (1999), 249–290.
+[E]       L. D. Èskin, Heat equation on Lie groups. (Russian) In: In Memo-
+          riam: N. G. Chebotarev, 113–132, Izdat. Kazan. Univ., Kazan, Rus-
+          sia, 1964.
+[Far1]    J. Faraut, Formule de Gutzmer pour la complexification d’un espace
+          riemannien symétrique. Harmonic analysis on complex homogeneous
+          domains and Lie groups (Rome, 2001). Atti Accad. Naz. Lincei Cl.
+          Sci. Fis. Mat. Natur. Rend. Lincei (9) Mat. Appl. 13 (2002), no.
+          3-4, 233–241.
+[Far2]    J. Faraut, Analysis on the crown of a Riemannian symmetric space.
+          Lie groups and symmetric spaces, 99–110, Amer. Math. Soc. Transl.
+          Ser. 2, 210, Amer. Math. Soc., Providence, RI, 2003.
+[Far3]    J. Faraut, Espaces hilbertiens invariants de fonctions holomorphes. In
+          Analyse sur les groupes de Lie et théorie des représentations (Kénitra,
+          1999), 101–167, Sémin. Congr., 7, Soc. Math. France, Paris, 2003
+
+
+
+                                       26
+[Fo]      G. B. Folland, “Harmonic analysis in phase space.” Annals of Mathe-
+          matics Studies, 122. Princeton University Press, Princeton, NJ, 1989.
+[FMMN1] C. A. Florentino, P. Matias, J. M. Mourão, and J. P. Nunes, Geomet-
+        ric quantization, complex structures, and the coherent state trans-
+        form, J. Funct. Anal. 221 (2005), 303–322.
+[FMMN2] C. A. Florentino, P. Matias, J. M. Mourão, and J. P. Nunes, On the
+        BKS pairing for Kähler quantizations of the cotangent bundle of a
+        Lie group, J. Funct. Anal. 234 (2006), 180–198.
+[Ga]      R. Gangolli, Asymptotic behavior of spectra of compact quotients of
+          certain symmetric spaces, Acta Math. 121 (1968), 151–192.
+[GM]      L. Gross and P. Malliavin, Hall’s transform and the Segal-Bargmann
+          map, In: Itô’s stochastic calculus and probability theory, (M.
+          Fukushima, N. Ikeda, H. Kunita, and S. Watanabe, Eds.), Springer-
+          Verlag, Berlin/New York, 1996, pp. 73-116.
+[GS1]     V. Guillemin and M. B. Stenzel, Grauert tubes and the homogeneous
+          Monge-Ampère equation, J. Differential Geom. 34 (1991), 561–570.
+[GS2]     V. Guillemin and M. B. Stenzel, Grauert tubes and the homogeneous
+          Monge-Ampère equation. II, J. Differential Geom. 35 (1992), 627–
+          641.
+[H1]      B. C. Hall, The Segal-Bargmann “coherent state” transform for com-
+          pact Lie groups, J. Funct. Anal. 122 (1994), 103–151.
+
+[H2]      B. C. Hall, The inverse Segal-Bargmann transform for compact Lie
+          groups, J. Funct. Anal. 143 (1997), 98–116.
+[H3]      B. C. Hall, A new form of the Segal-Bargmann transform for Lie
+          groups of compact type, Canad. J. Math. 51 (1999), 816–834.
+[H4]      B. C. Hall, Holomorphic methods in analysis and mathematical
+          physics. In: First Summer School in Analysis and Mathematical
+          Physics (S. Pérez-Esteva and C. Villegas-Blas, Eds.), 1–59, Contemp.
+          Math., 260, Amer. Math. Soc., Providence, RI, 2000.
+[H5]      B. C. Hall, Coherent states and the quantization of (1+1)-
+          dimensional Yang-Mills theory, Rev. Math. Phys. 13 (2001), 1281–
+          1305.
+[H6]      B. C. Hall, Harmonic analysis with respect to heat kernel measure,
+          Bull. Amer. Math. Soc. (N.S.) 38 (2001), 43–78.
+[H7]      B. C. Hall, Bounds on the Segal-Bargmann transform of Lp functions.
+          J. Fourier Anal. Appl. 7 (2001), no. 6, 553–569.
+
+
+
+                                     27
+[H8]    B. C. Hall, Geometric quantization and the generalized Segal–
+        Bargmann transform for Lie groups of compact type, Comm. Math.
+        Phys. 226 (2002), 233-268.
+[H9]    B. C. Hall, The Segal-Bargmann transform and the Gross ergodic-
+        ity theorem. In: Finite and infinite dimensional analysis in honor
+        of Leonard Gross (H.-H. Kuo and A. N. Sengupta, Eds.), 99–116,
+        Contemp. Math., 317, Amer. Math. Soc., Providence, RI, 2003.
+[H10]   B. C. Hall, The range of the heat operator. The ubiquitous heat ker-
+        nel, 203–231, Contemp. Math., 398, Amer. Math. Soc., Providence,
+        RI, 2006.
+[HM1]   B. C. Hall and J. J. Mitchell, Coherent states on spheres, J. Math.
+        Phys. 43 (2002), 1211–1236.
+[HM2]   B. C. Hall and J. J. Mitchell, The Segal-Bargmann transform for
+        noncompact symmetric spaces of the complex type, J. Funct. Anal.
+        227 (2005), 338–371.
+
+[HS]    B. C. Hall and A. N. Sengupta, The Segal–Bargmann transform for
+        path-groups, J. Funct. Anal. 152 (1998), 220-254.
+[He1]   S. Helgason, “Differential geometry, Lie groups, and symmetric
+        spaces.” Corrected reprint of the 1978 original. Graduate Studies in
+        Mathematics, 34. American Mathematical Society, Providence, RI,
+        2001.
+[He2]   S. Helgason, “Groups and geometric analysis. Integral geometry, in-
+        variant differential operators, and spherical functions.” Corrected
+        reprint of the 1984 original. Mathematical Surveys and Monographs,
+        83. American Mathematical Society, Providence, RI, 2000.
+[He3]   S. Helgason, “Geometric analysis on symmetric spaces.” Mathemat-
+        ical Surveys and Monographs, 39. American Mathematical Society,
+        Providence, RI, 1994.
+[KOS]   B. Krötz, G. Ólafsson, and R. Stanton, The image of the heat kernel
+        transform on Riemannian symmetric spaces of the non-compact type,
+        Int. Math. Res. Not. 2005, 1307–1329..
+[KS1]   B. Krötz and R. J. Stanton, Holomorpic extensions of representa-
+        tions: (I) automorphic functions, Ann. Math. 159 (2004), 641-724.
+[KS2]   B. Krötz and R. J. Stanton, Holomorphic extension of representa-
+        tions: (II) geometry and harmonic analysis, Geom. Funct. Anal. 15
+        (2005), 190–245.
+[KTX]   B. Krötz, S. Thangavelu, and Y. Xu, The heat kernel transform for
+        the Heisenberg group, J. Funct. Anal. 225 (2005), 301–336.
+
+                                   28
+[Las]   M. Lassalle, Series de Laurent des fonctions holomorphes dans la
+        complexication d’un espace symetrique compact, Ann. Scient. École
+        Norm. Sup. 11 (1978), 167-210.
+[LGS]   É. Leichtnam, F. Golse, and M. B. Stenzel, Intrinsic microlocal anal-
+        ysis and inversion formulae for the heat equation on compact real-
+        analytic Riemannian manifolds, Ann. Sci. École Norm. Sup. (4) 29
+        (1996), 669–736.
+[LS]    L. Lempert and R. Szőke, Global solutions of the homogeneous com-
+        plex Monge-Ampère equation and complex structures on the tangent
+        bundle of Riemannian manifolds, Math. Ann. 290 (1991), 689–712.
+[OO]    G. Ólafsson and B. Ørsted, Generalizations of the Bargmann trans-
+        form. In: Lie theory and its applications in physics (Clausthal, 1995),
+        3–14, World Sci. Publishing, River Edge, NJ, 1996.
+[OS1]   G. Ólafsson and H. Schlichtkrull, The Segal–Bargmann transform
+        for the heat equation associated with root systems, Adv. Math. 208
+        (2007), 422-437.
+[OS2]   G. Ólafsson and H. Schlichtkrull, Representation theory, Radon
+        transform and the heat equation on a Riemannian symmetric space,
+        arXiv:0707.0803v1.
+[Se]    I. E. Segal, The complex-wave representation of the free Boson field.
+        In: “Topics in Functional Analysis” (I. Gohberg and M. Kac, Eds.),
+        Advances in Mathematics Supplementary Studies, Vol. 3, Academic
+        Press, New York, 1978.
+[St1]   M. B. Stenzel, The Segal-Bargmann transform on a symmetric space
+        of compact type, J. Funct. Anal. 165 (1999), 44–58.
+[St2]   M. B. Stenzel, An inversion formula for the Segal-Bargmann trans-
+        form on a symmetric space of non-compact type, J. Funct. Anal. 240
+        (2006), 592–608.
+[Sz1]   R. Szőke, Complex structures on tangent bundles of Riemannian
+        manifolds, Math. Ann. 291 (1991), 409–428.
+[Sz2]   R. Szőke, Adapted complex structures and geometric quantization,
+        Nagoya Math. J. 154 (1999), 171–183.
+[Ty]    A. Tyurin, “Quantization, classical and quantum field theory and
+        theta functions.” With a foreword by Alexei Kokotov. CRM Mono-
+        graph Series, 21. American Mathematical Society, Providence, RI,
+        2003.
+[U]     H. Urakawa, The heat equation on compact Lie group, Osaka J.
+        Math. 12 (1975), 285–297.
+
+                                    29
+[Wr]   K. K. Wren, Constrained quantisation and θ-angles. II, Nuclear Phys.
+       B. 521 (1998), 471–502.
+
+
+
+
+                                  30
+

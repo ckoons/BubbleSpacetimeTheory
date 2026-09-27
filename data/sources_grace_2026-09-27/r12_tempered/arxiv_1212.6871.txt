@@ -1,0 +1,918 @@
+                                          Varna Lecture on L2 -Analysis of Minimal
+                                          Representations
+
+                                          Toshiyuki Kobayashi
+
+
+
+
+arXiv:1212.6871v1 [math.RT] 31 Dec 2012
+                                          Abstract Minimal representations of a real reductive group G are the ‘small-
+                                          est’ irreducible unitary representations of G. The author suggests a program
+                                          of global analysis built on minimal representations from the philosophy:
+                                          small representation of a group = large symmetries in a representation
+                                          space.
+                                          This viewpoint serves as a driving force to interact algebraic representation
+                                          theory with geometric analysis of minimal representations, yielding a rapid
+                                          progress on the program. We give a brief guidance to recent works with em-
+                                          phasis on the Schrödinger model.
+
+
+
+                                          1 What are Minimal Representations?
+
+                                          Minimal representations of reductive groups G are the ‘smallest’ infinite di-
+                                          mensional irreducible unitary representations.
+                                             The Weil (metaplectic, oscillator, the Segal–Shale–Weil, harmonic) rep-
+                                          resentation, known by a prominent role in number theory, consists of two
+                                          minimal representations of the metaplectic group M p(n, R). The minimal
+                                          representation of a conformal group SO(4, 2) arises on the Hilbert space of
+                                          bound states of the Hydrogen atom.
+                                             Minimal representations are distinguished among other (continuously many)
+                                          irreducible unitary representations of G by the following properties that I
+                                          state loosely.
+                                          • ‘Smallest’ infinite dimensional representations of G.
+                                          • One of the ‘building blocks’ of unitary representations of Lie groups.
+
+
+                                          Toshiyuki Kobayashi
+                                          Kavli IPMU and Graduate School of Mathematical Sciences, The University of Tokyo,
+                                          3-8-1 Komaba, Meguro, 153-8914 Tokyo, Japan
+
+
+                                                                                                                         1
+2                                                                    Kobayashi
+
+• ‘Closest’ to the trivial one dimensional representation of G.
+• ‘Quantization’ of minimal nilpotent coadjoint orbits of G.
+• Matrix coefficients have a ‘slow decay’ at infinity.
+   In algebraic representation theory, there is a distinguished ideal J intro-
+duced by Joseph [14] in the enveloping algebra of a complex simple Lie algebra
+other than type A (see also [8]). An irreducible representation of a real re-
+ductive Lie group G is called minimal if its infinitesimal representation is
+annihilated by J . Thus the terminology ‘minimal representations’ is defined
+inside representation theory. We remark that not all reductive groups admit
+minimal representations. Further, minimal representations are not always
+highest weight modules. Beyond the case of highest weight modules, there
+has been an active study on minimal representations of reductive groups, in
+particular, by algebraic approaches, see e.g., [8, 14, 15, 30, 37, 39, 42, 43].
+   In contrast, my program focuses on global analysis inspired by minimal
+representations. For this, we switch the viewpoint, led by
+Guiding principle 1.1 ([24])
+
+                 small representations of a group
+               = large symmetries in a representation space.
+
+    An extremal case of ‘large symmetries’ might be stated as
+
+           dimension of Ξ < dimension of any non-trivial G-space          (1.1)
+
+when the representation of G is realized on the space of functions on the
+geometry Ξ. An obvious implication of (1.1) is that G cannot act on Ξ.
+   The latter point of view, served as a driving force, has brought us to a
+new line of investigation of geometric analysis modeled on minimal represen-
+tations. In this program we are trying to dig out new interactions with other
+areas of mathematics even outside representation theory:
+• conformal geometry for general pseudo-Riemannian manifolds [21, 31],
+• Dolbeault cohomologies on open complex manifolds [23, 30].
+• conservative quantities for PDEs [21, 33],
+• breaking symmetries and discrete branching laws [32, 34, 36, 38, 39],
+• Schrödinger model and the unitary inversion operator [11, 27, 28],
+• deformation of the Fourier transform [3],
+• geometric quantization of nilpotent orbits [11, 28],
+• holomorphic semigroup with a generalized Mehler kernel [3, 26, 27],
+• new orthogonal polynomials for fourth order differential operators [9, 10,
+  29],
+• a generalization of the Fock model and Bargmann transforms [12].
+
+  The aim of this article is to provide a brief guidance to the rapid progress
+on our program, [3, 9, 10, 11, 12, 23, 24, 28, 29, 34, 38]. We should mention
+Varna Lecture on L2 -Analysis of Minimal Representations                     3
+
+that in order to avoid an overlap with a recent publication [24], we do not
+include here some other constructions such as a conformal model of minimal
+representations (e.g. the construction of the intrinsic conservative quantities
+for the conformally invariant differential equations). Instead, we highlight an
+L2 -model (Schrödinger model ) of the minimal representations and its variant.
+We apologize for not being able to mention some other important works on
+minimal representations, e.g., see [8] and references therein. For a comparison
+of the L2 -model with the conformal model, we refer to [28, Introduction].
+
+
+
+2 More Symmetric than Symmetric Spaces
+
+The traditional geometric construction of representations of Lie groups G is
+given in the following two steps:
+Step 1. The group G acts on a geometry X.
+Step 2. By the translation, G acts linearly on the space Γ (X) of functions
+(sections of equivariant bundles, or cohomologies, · · · ).
+   Naı̈vely, the Gelfand–Kirillov dimension of the representation on Γ (X) is
+supposed to be the dimension of X. Thus we may expect that the repre-
+sentation on the function space Γ (X) is ‘small’ if the geometry X itself is
+small.
+   First of all, we ask when the geometry X is ‘small’.
+   For this we may begin with the case when G acts transitively on X, or
+equivalently, X is a homogeneous space G/H. Further, if we compare two
+homogeneous spaces X1 = G/H1 and X2 = G/H2 with H1 ⊂ H2 , we may
+think that X2 is smaller than X1 . Hence ‘smaller’ representations on Γ (X)
+should be attained if X = G/H where H is a maximal subgroup of G.
+   Here are two typical settings for real reductive Lie groups G:
+• (G, H) is a symmetric pair.
+  In this case, the Lie algebra h of H is maximal reductive in g. Analysis
+  on reductive symmetric spaces G/H has been largely developed in par-
+  ticular, since 1950s by the Gelfand school, Harish-Chandra, Shintani, Hel-
+  gason, Takahashi, Molchanov, Faraut, Flensted-Jensen, Matsuki–Oshima–
+  Sekiguchi, Delorme, van den Ban, Schlichtkrull, among others.
+• H is a Levi subgroup of G.
+  In this case, there exists a G-invariant polarization on G/H, and its geo-
+  metric quantization obtained by the combination of the Mackey induction
+  (real polarization) and the Dolbeault cohomologies (complex polarization)
+  produces a ‘generic part’ of irreducible unitary representations of G. The
+  resulting representations are the ‘smallest’ if H is a maximal Levi sub-
+  group.
+These two typical examples are related: Tempered representations for reduc-
+tive symmetric spaces (i.e. irreducible unitary representations that contribute
+4                                                                     Kobayashi
+
+to L2 (G/H)) are given by the combination of the ordinary and cohomological
+parabolic inductions. A missing picture in the above two settings is so called
+‘unipotent representations’ including minimal representations.
+   On the other hand, it is rare but still happens that the representation of G
+on the function space Γ (X) extends to a representation of a group G   e which
+contains G, even when the G-action on the geometry X does not extend to G     e
+(in particular, Step 1 does not work for the whole group e  G). We discuss this
+phenomenon in the Schrödinger model of minimal representations when G is
+a maximal parabolic subgroup (the notation (G, e   G) here will be replaced by
+(P, G) in Section 3). Such a phenomenon also occurs when G is reductive.
+Thus the analysis of minimal representations may be thought of as ‘analysis
+with more symmetries’ than the traditional analysis on homogeneous spaces.
+Here is a typical example:
+Example 2.1 ([21, Theorem 5.3]) The minimal representation of the in-
+                          e = O(p, q) (p + q:even) is realized in function
+definite orthogonal group G
+spaces on symmetric spaces of the subgroups G = O(p − 1, q) or O(p, q − 1)
+on which the whole group Ge cannot act geometrically.
+
+Example 2.2 ([34]) The restriction of the most degenerate principal series
+representations of Ge = GL(n, R) to the subgroup G = O(p, q) (p + q = n)
+reduces to the analysis of the symmetric space of G on which the whole group
+Ge cannot act transitively.
+
+   Further examples and explicit branching rules can be found in [21, 32,
+34] where the restriction of minimal representations to subgroups (broken
+symmetries) reduce to analysis on certain semisimple symmetric spaces.
+
+
+
+3 Schrödinger Model of Minimal Representations
+
+Any coadjoint orbit of a Lie group is naturally a symplectic manifold endowed
+with the Kirillov–Kostant–Souriau symplectic form. For a reductive Lie group
+G, ‘geometric quantization’ of semisimple coadjoint orbits has been consid-
+erably well-understood — this corresponds to the ordinary or cohomological
+parabolic induction in representation theory, whereas ‘geometric quantiza-
+tion’ of nilpotent coadjoint orbits is more mysterious (see [4, 12, 23]).
+   In this section we explain a recent work [11] with Hilgert and Möllers on the
+L2 -construction of minimal representations built on a Lagrangian subvariety
+of a real minimal nilpotent orbit, which continues a part of the earlier works
+[33] with Ørsted, and [28] with Mano.
+   Suppose that V is a simple Jordan algebra over R. We assume that its
+maximal Euclidean Jordan subalgebra is also simple. Let G and L be the
+identity components of the conformal group and the structure group of the
+Jordan algebra V , respectively. Then the Lie algebra g is a real simple Lie
+Varna Lecture on L2 -Analysis of Minimal Representations                        5
+
+algebra and has a Gelfand–Naimark decomposition g = n+l+n, where n ≃ V
+is regarded as an Abelian Lie algebra, l ≃ str(V ) the structure algebra, and
+n acts on V by quadratic vector fields.
+   Let OGmin be a (real) minimal nilpotent coadjoint orbit. By identifying
+           R
+
+
+g with the dual g∗ , we consider the intersection V ∩ OG  min , which may be
+                                                            R
+
+
+disconnected (this happens in the case (3.2) below). Let Ξ be any connected
+component of V ∩ OG min . We note that the group L acts on Ξ but G does not.
+                      R
+
+
+There is a natural L-invariant Radon measure on Ξ, and we write L2 (Ξ) for
+the Hilbert space consisting of square integrable functions on Ξ. Then we
+can define a unitary representation on L2 (Ξ) (Schrödinger model) built on a
+Lagrangian submanifold Ξ in this generality [11], see also [5, 33].
+Theorem 3.1 (Schrödinger model) Suppose V 6≃ Rp,q with p + q odd.
+1) Ξ is a Lagrangian submanifold of OG   min .
+                                           R
+
+
+2) There is a finite covering group Geof G such that Geacts on L2 (Ξ) as an
+irreducible unitary representation.
+3) The Gelfand–Kirillov dimension of π attains its minimum among all in-
+finite dimensional representations of Ge, i.e. DIM(π) = 12 dim OG  min .
+                                                                    R
+
+
+4) The annihilator of the differential representation dπ is the Joseph ideal in
+the enveloping algebra U (g) if V is split and g is not of type A.
+  The simple Lie algebras arisen in Theorem 3.1 are listed as follows:
+
+               sl(2k, R), so(2k, 2k), so(p + 1, q + 1), e7(7) ,             (3.1)
+               sp(k, R), su(k, k), so∗ (4k), so(2, k), e7(−25) ,            (3.2)
+               sp(k, C), sl(2k, C), so(4k, C), so(k + 2, C), e7 (C),        (3.3)
+               sp(k, k), su∗ (4k), so(k, 1).                                (3.4)
+
+Remark 1. In the case where V is an Euclidean Jordan algebra, G is the
+automorphism group of a Hermitian symmetric space of tube type (see (3.2))
+and there are two real minimal nilpotent orbits. The resulting representations
+π are highest (or lowest) weight modules.
+
+Remark 2. If the complex minimal nilpotent orbit OG    min intersects with g, then
+                                                        C
+
+
+Omin is equal to Omin ∩g or its connected component. We notice that OG
+  GR                GC
+                                                                            min ∩g
+                                                                             C
+
+
+may be an empty set depending on the real form g. In the setting of Theorem
+3.1, this occurs for (3.4). In this case, the representation π in Theorem 3.1 is
+not a minimal representation as the annihilator of dπ is not the Joseph ideal,
+but π is still one of the ‘smallest’ infinite dimensional representations in the
+sense that the Gelfand–Kirillov dimension attains its minimum.
+
+Remark 3. There is no minimal representation for any group with Lie algebra
+o(p + 1, q + 1) with p + q odd, p, q ≥ 3 (see [43, Theorem 2.13]).
+
+Example 3.2 Let V = Sym(m, R). Then G = Sp(m, R) and
+
+             V ∩ OG                         t
+                  min = {X ∈ M (m, R) : X = X, rank X = 1}.
+                    R
+                                                                            (3.5)
+6                                                                         Kobayashi
+
+Let Ξ := {X ∈ V ∩ OG
+                   min : Trace X > 0}. Then the double covering map
+                     R
+
+
+(folding map)
+                     Rm \ {0} → Ξ, v 7→ v tv
+induces an isomorphism between L2 (Ξ) and the Hilbert space L2 (Rm )even of
+even square integrable functions on Rm . Thus our representation π on L2 (Ξ)
+is nothing but the Schrödinger model of the even part of the Segal–Shale–Weil
+representation of the metaplectic group M p(m, R) [7, 13].
+Example 3.3 Let V = Rp,q with p + q even. Then g = o(p + 1, q + 1), and
+
+    V ∩ OG
+         min = {ξ ∈ R
+           R          p+q
+                          : ξ12 + · · · + ξp2 − ξp+1
+                                                 2              2
+                                                     − · · · − ξp+q = 0} \ {0}. (3.6)
+
+If p = 1, V ∩ OG    min consists of two connected components according to the
+                      R
+
+
+signature of ξ1 , i.e. the past and future cones. They yield highest/lowest weight
+modules. For p, q ≥ 2, V ∩ OG     min is connected, and our representation π on
+                                    R
+
+  2
+L (Ξ) is the Schrödinger model of the minimal representation of O(p+1, q+1)
+constructed in [33], which is a neither highest nor lowest weight module.
+   As we discussed in Section 2 in contrast to traditional analysis on homoge-
+neous spaces, the group G in our setting is too large to act geometrically on
+Ξ. This very feature in the Schrödinger model is illustrated by the fact that
+the Lie algebra n acts as differential operators on Ξ of second order. They
+are fundamental differential operators [28] in the setting of Example 3.3 (see
+also Bargmann–Todorov [2]). In [11], these differential operators are said to
+be Bessel operators, and serve as a basic tool to study the Schrödinger model
+π in the setting of Theorem 3.1.
+
+
+
+4 Special Functions to 4th order Differential Operators
+
+Guiding Principle 1.1 suggests that there should exist plentiful functional
+equations in the representation spaces for minimal representations. Classi-
+cally, it is well-known that Hermite polynomials form an orthogonal basis
+for the radial part of the Schrödinger model of the Weil representation [7],
+whereas Laguerre polynomials arise in the minimal representation of the con-
+formal group SO(n, 2) ([41]).
+   These classical minimal representations are highest weight modules. How-
+ever, for more general reductive groups, minimal representations do not
+always have highest weight vectors, and the corresponding ‘special func-
+tions’ do not necessarily satisfy second order differential equations. We
+found in [28] that Meijer’s G-functions G20 04 (x|b1 , b2 , b3 , b4 ) play an analo-
+gous role in the minimal representation of O(p, q). Here Meijer’s G-functions
+G20 04 (x|b1 , b2 , b3 , b4 ) satisfy a fourth order ordinary differential equation
+Varna Lecture on L2 -Analysis of Minimal Representations                           7
+
+                            4
+                            Y           d
+                                  (x      − bj )u(x) = xu(x).
+                            j=1
+                                       dx
+
+     More generally, the following fourth order differential operators
+
+              1                                               (µ − ν)(µ + ν + 2)
+    Dµ,ν :=      ((θ + ν)(θ + µ + ν) − x2 )(θ(θ + µ) − x2 ) −
+              x2                                                      2
+appear naturally in the Schrödinger model of minimal representations in the
+                                      d
+setting of Theorem 3.1. Here θ = x dx   .
+   The subject of [9, 10, 29] is the study of eigenfunctions of Dµ,ν including
+•    generating functions for eigenfunctions of Dµ,ν ,
+•    asymptotic behavior near the singularities,
+•    L2 -eigenfunctions and concrete formulas of L2 -norms,
+•    integral representations of eigenfunctions,
+•    recurrence relations among eigenfunctions,
+•    (local) monodromy.
+The L2 -eigenfunctions of Dµ,ν arise as K-finite vectors in the Schrödinger
+model of the minimal representations constructed in Theorem 3.1 in a uniform
+fashion. These ‘special functions’ with certain integral parameters yield or-
+thogonal polynomials (the Mano polynomials Mjµ,l (x)) satisfying again fourth
+order differential equations [10], which include Hermite polynomials and La-
+guerre polynomials as special cases. We note that the fourth order differential
+equation Dλ,µ f = νf reduces to a differential equation of second order when
+G/K is a tube domain (see (3.2)). See also Kowata–Moriwaki [38] for further
+analysis of the fundamental differential operators on Ξ.
+
+
+
+5 Broken Symmetries and Branching Laws
+
+As indicated in Guiding Principle 1.1, the ‘large symmetries’ in representation
+spaces of minimal representations produce also fruitful examples of branching
+laws which we can expect a simple and detailed study.
+   Suppose π is a unitary representation of a real reductive Lie group G.
+We consider π as a representation of a subgroup G′ of G, referring it as
+the restriction π|G′ . In general, the restriction π|G′ decomposes into a direct
+integral of irreducible representations of G′ (branching law ). It often happens
+that the branching law contains continuous spectrum if G′ is non-compact.
+Even worse, each irreducible representation of G′ may occur in the branching
+law with infinite multiplicities. See [20] for such wild examples even when
+(G, G′ ) is a symmetric pair. In [16, 17], we raised the following:
+Program 5.1 1) Determine the triple (G, G′ , π) for which the restriction
+π|G′ decompose discretely with finite multiplicities.
+8                                                                     Kobayashi
+
+2) Find branching laws for (1).
+   Program 5.1 intends to single out a nice framework of branching prob-
+lems for which we can expect a detailed and explicit study of the restriction.
+Concerning Program 5.1 (1) for Zuckerman’s derived functor modules π, a
+necessary and sufficient condition for discrete decomposition with finite mul-
+tiplicities was proved in [17, 19], and a complete classification was given with
+Oshima [35] when (G, G′ ) is a reductive symmetric pair.
+   As such, the local theta correspondence with respect to compact dual pairs
+is a classic example for minimal representations π:
+Example 5.2 Suppose that π is the Weil representation, and that G′ = G′1 ·
+G′2 is a dual pair in G = M p(n, R) with G′2 compact. Then the restriction
+π|G′ decomposes discretely and multiplicity-freely. The resulting branching
+laws yield a large part of unitarizable highest weight modules of G′1 (Enright–
+Howe–Wallach [6]).
+In order to discuss Program 5.1 for minimal representations, we recall from
+[17, 18, 19] the general theory. Let K be a maximal compact subgroup of
+G, T a maximal torus of K, and t, k the Lie algebras of T , K, respectively.
+We choose the set√∆+ (k, t) of positive roots, and denote by t+ the dominant
+Weyl chamber
+       √        in −1t∗ . We also √ fix a K-invariant inner product on k, and
+regard −1t as a subspace of −1k∗ .
+             ∗
+
+   First, suppose that K ′ is a closed subgroup of K. The group K acts on the
+cotangent bundle T ∗ (K/K ′ ) of the homogeneous space K/K ′ in a Hamilto-
+nian fashion. We write
+                                              √
+                            µ : T ∗ (K/K ′ ) → −1k∗
+
+for the momentum map, and define the following closed cone by
+
+                           CK (K ′ ) := Image µ ∩ t+ .
+
+   Second, let SuppK (π) be the set of highest weights of finite dimensional
+irreducible representations of K occurring in a K-module π. The asymptotic
+K-support ASK (π) is defined to be the asymptotic cone of SuppK (π). It is
+a closed cone in t+ . There are only finitely many possibilities of ASK (π) for
+the restriction π|K of irreducible representations π of G.
+   The asymptotic cone ASK (π) tends to be a ‘small’ subset in t+ if π is a
+‘small’ representation. For example,
+
+            ASK (π) ={0}          if dim π < ∞,
+            ASK (π) =R+ β         if π is a minimal representation,        (5.1)
+
+where β is the highest root of the K-module pC := gC /kC . The formula (5.1)
+holds in a slightly more general setting where the associated variety of π is
+the closure of a single minimal nilpotent KC -orbit on pC [36]. Concerning
+Program 5.1, we established an easy-to-check criterion in [18]:
+Varna Lecture on L2 -Analysis of Minimal Representations                      9
+
+Theorem 5.3 Suppose G′ is a reductive subgroup of G such that K ′ :=
+G′ ∩ K is a maximal compact subgroup of G′ . If
+
+                          CK (K ′ ) ∩ ASK (π) = {0},                       (5.2)
+
+then the restriction π|G′ decomposes discretely into a direct sum of irreducible
+unitary representations of G′ with finite multiplicities.
+   As was observed in [22], we can expect from the formula (5.1) and from the
+criterion (5.2) that there is plenty of subgroups G′ for which the restriction
+of the minimal representation of G decomposes discretely and with finite
+multiplicities. Reductive symmetric pairs (G, G′ ) for which the restriction
+π|G′ is (infinitesimally) discretely decomposable for a minimal representation
+π of G has been recently classified in [36].
+
+
+
+6 Generalized Fourier Transform as a Unitary Inversion
+
+In the L2 -model of the minimal representation π of G on L2 (Ξ), the action of
+the maximal parabolic subgroup P with Lie algebra l + n is simple, namely,
+it is given just by translations and multiplications. Let w be the conformal
+inversion of the Jordan algebra. In light of the Bruhat decomposition
+
+                                G = P ∐ P wP,
+
+it is enough to find π(w) in order to give a global formula of the G-action on
+L2 (Ξ). We highlight this specific unitary operator, and set
+
+                                 FΞ := cπ(w),                              (6.1)
+
+where c is a complex number of modulus one (the phase factor). We call FΞ
+the unitary inversion operator. We studied in a series of papers [26, 27, 28]
+with Mano the following:
+Problem 6.1 Find an explicit formula of the integral kernel of FΞ .
+    The kernel of the Euclidean Fourier transform is given by e−ihx,ξi , which
+is locally integrable. It is plausible that this analytic feature happens if and
+only if the corresponding minimal representation is of highest weight. Thus
+we raise the following:
+Question 6.2 Let (π, L2 (Ξ)) be the L2 -model of a minimal representation π
+of a simple Lie group Geconstructed on a Lagrangian submanifold Ξ of OG min
+as in Theorem 3.1 [11]. Are the following two conditions equivalent?
+ (i) The kernel of the unitary inversion operator FΞ is locally integrable.
+(ii) π is a highest/lowest weight module.
+10                                                                                 Kobayashi
+
+Here we have excluded the case where the simple Lie algebra g is of type An
+(the Joseph ideal is not defined for gC = sln (C)). In the case G = O(p+1, q+1)
+with p + q even > 2, it was proved in [28] that (i) holds if and only if
+either min(p, q) = 1 (equivalently, (ii) holds) or (p, q) = (3, 3) (equivalently,
+g = o(3, 3) ≃ sl(4, R) is of type A3 ). The implication (ii) ⇒ (i) was proved
+in [12] for tube type, see (8.5). The implication (i) ⇒ (ii) is an open problem
+except for the above mentioned case g = o(p + 1, q + 1).
+   When G = O(p + 1, q + 1) (see Example 3.3), FΞ intertwines the mul-
+tiplication of coordinate functions ξj (1 ≤ j ≤ p + q) with the operators
+Rj (1 ≤ j ≤ p + q) which are mutually commuting differential operators of
+second order on Ξ (see Bargmann–Todorov [2], [28, Chapter 1]).
+   This algebraic feature is similar to the classical fact that the Euclidean
+Fourier transform FR√  m intertwines the multiplication operators ξj and the
+
+differential operators −1∂j (1 ≤ j ≤ m) (see Example 3.2). In the setting of
+Theorem 3.1, FΞ intertwines the multiplication of coordinate functions with
+Bessel operators. Actually, this algebraic feature determines uniquely FΞ up
+to a scalar [11, 28].
+   Concerning Problem 6.1, the first case is well-known (see [7] for example):
+1) g = sp(m, R).
+   FΞ = the Euclidean Fourier transform on Rm .
+   Here are some recent results on a closed formula of the integral kernel:
+2) g = o(p + 1, q + 1) (with Mano [27]).
+3) The associated Riemannian symmetric space G/K is of tube type (see
+(8.5)).
+   We note that minimal representations in the cases 1) and 3) are highest
+(or lowest) weight modules, whereas minimal representations in the case 2)
+do not have highest weights when p, q ≥ 2 and p + q is odd.
+   Problem 6.1 is open for other cases, in particular, for minimal representa-
+tions without highest weights except for the case G = O(p + 1, q + 1).
+
+
+
+7 SL2 -triple in the Schrödinger Model
+                        Pm        1        Pm
+On Rm , we set |x| := ( j=1 x2j ) 2 , E := j=1 xj ∂x
+                                                   ∂
+                                                     j
+                                                       (Euler operator) and
+     Pm ∂ 2
+∆ = j=1 ∂x2 (Laplacian). Then it is classically known (e.g., [7, 13]) that
+              j
+the operators
+                                      √                √
+                e ′      m     ′       −1 2     e′       −1
+                h := E + , ee :=          |x| , f :=        ∆          (7.1)
+                         2             2                2
+form an sl2 -triple, namely, the following commutation relation holds:
+
+                [e
+                 h′ , ee′ ] = 2e′ ,   [e
+                                       h′ , fe′ ] = −2fe′ ,   [e′ , fe′ ] = e
+                                                                            h′ .
+Varna Lecture on L2 -Analysis of Minimal Representations                                 11
+
+   On the other hand, we showed in [27] that the following operators
+                                                      √
+                                     √                 −1
+            e
+            h := 2E + m − 1, ee := 2 −1|x|, fe :=          |x|∆                        (7.2)
+                                                       2
+
+also forms an sl2 -triple, i.e., [e
+                                  h, ee] = 2e,     [e
+                                                    h, fe] = −2f,
+                                                               e        [e, fe] = e
+                                                                                  h.
+   Further the differential operator
+                              1                ∆
+                        D := √ (−e + fe) = |x|( − 1)
+                            2 −1               4
+                                                                             dx
+extends to a self-adjoint operator and has only discrete spectra on L2 (Rm , |x| )
+                              m−1
+which are given by {−(j + 2 ) : j = 0, 1, 2, · · · } (see [27]), whereas the
+Hermite operator
+                             1              1
+                       D := √ (−e′ + fe′ ) = (∆ − |x|2 )
+                           2 −1             4
+
+extends to a self-adjoint operator and has only discrete spectra on L2 (Rm , dx)
+which are given by {− 21 (j + m
+                              2 ) : j = 0, 1, 2, · · · } (see [7, 13]). Hence, one can
+define for Re t ≥ 0:
+                                 ∞ k
+                                 X t                           dx
+                        etD :=              Dk   on L2 (Rm ,       ),
+                                       k!                      |x|
+                                 k=0
+                                 ∞ k
+                                 X t
+                        etD :=              Dk   on L2 (Rm , dx).
+                                       k!
+                                 k=0
+
+They are holomorphic one-parameter semigroups consisting of Hilbert–Schmidt
+operators for Re t > 0, and are unitary operators for Re t = 0.
+   A closed formula for both etD and etD is known. That is, the holomorphic
+semigroup etD has the classical Mehler kernel given by the Gaussian √     kernel
+     2
+e−|x| and reduces to the Euclidean Fourier transform when t = −1π ([13,
+§5] ), whereas the integral kernel of the holomorphic√semigroup etD is given
+by the I-Bessel function and the special value at t = −1π is by the J-Bessel
+function (see [27, Theorem A and Corollary B] for concrete formulas).
+   We can study these holomorphic semigroups by using the theory of dis-
+cretely decomposable unitary representations (e. g. [16, 17, 18]). Actually, the
+aforementioned sl2 -triple arises as the differential action of the Schrödinger
+model of the minimal representations of M p(m, R) on L2 (Rm , dx) and
+                            dx
+SO0 (m + 1, 2) on L2 (Rm , |x| ), respectively via
+
+                        sl(2, R) ≃ sp(1, R) ⊂ sp(m, R),
+                        sl(2, R) ≃ so(1, 2) ⊂ so(m + 1, 2),
+
+for which we write as dι : sl(2, R) ֒→ g.
+12                                                                     Kobayashi
+
+   In both cases, the Lie algebra g contains a subalgebra commuting with
+ι(sl(2, R)), which is isomorphic to o(m). Then the minimal representations
+decompose as the representation of the direct product group SL(2, R)×O(m)
+(up to coverings and connected groups) as follows:
+
+                                     ∞
+                             dx     X   ⊕ SL(2,R)
+                  L2 (Rm ,       )≃      π2j+m−1 ⊠ Hj (Rm ).
+                             |x|    j=0
+                                    ∞
+                                    X ⊕      SL(2,R)
+                   L2 (Rm , dx) ≃           πj+ m       ⊠ Hj (Rm ),
+                                                2
+                                    j=0
+
+
+where Hj (Rm ) denotes the natural representation of O(m) (or SO(m)) on
+                                                               SL(2,R)
+the space of harmonic polynomials on Rm of degree j and πb             stands
+for the irreducible unitary lowest weight representation of SL(2, R) (or its
+covering group) with minimal K-type b.
+   These considerations bring us to interpolate operators occurring two min-
+imal representations of SO0 (m + 1, 2)eand Sp(m, R). For this, we take a > 0
+to be a deformation parameter, and define
+                                       √                 √
+      e      2     m+a−2                 −1 a      e       −1 2−a
+      ha := E +               , eea :=      |x| , fa :=       |x|    ∆.
+             a          a                a                 a
+The operators (7.1) in the Weil representation corresponds to the case a = 2,
+and the operators (7.2) for SO0 (m+1, 2)ecorresponds to the case a = 1. They
+extend to self-adjoint operators on the Hilbert space L2 (Rm , |a|a−2 dx), form
+an sl2 -triple, and lift to a unitary representation of the universal covering
+group SL(2, R)eof SL(2, R) for every a > 0. The Hilbert space decomposes
+into a multiplicity-free discrete sum of irreducible unitary representations of
+SL(2, R)e× O(m) as follows:
+                                      ∞
+                                      X ⊕     SL(2,R)
+              L2 (Rm , |x|a−2 dx) ≃          π 2j+m−2 +1 ⊠ Hj (Rm ).
+                                                    a
+                                      j=0
+
+   The discrete decomposition of sl2 -modules becomes a tool to generalize the
+study of the unitary inversion operator FΞ and the holomorphic semigroup
+in [26, 27] to the following settings:
+• Dunkl operators (with Ben Saı̈d and Ørsted [3]),
+• Conformal group of Euclidean Jordan algebras (with Hilgert and Möllers
+  [12]).
+Varna Lecture on L2 -Analysis of Minimal Representations                       13
+
+8 Quantization of Kostant–Sekiguchi Correspondence
+
+In this section we discuss Theorem 3.1 in a special case where V is Eu-
+clidean, equivalently, G/K is a tube domain, and explain a recent work [12]
+with Hilgert, Möllers, and Ørsted on the construction of a new model (a
+Fock-type model) of minimal representations with highest weights and a
+generalization of the classical Segal–Bargmann transform, which we called
+a ‘geometric quantization’ of the Kostant–Sekiguchi correspondence. In the
+underlying idea, the discretely decomposable restriction of sl(2, R), which
+appeared in [26], plays again an important role.
+   We recall (e.g., [7, 13]) that the classical Fock space F (Cm ) is a Hilbert
+space in the space O(Cm ) of holomorphic functions defined by
+                                        Z
+                                                           2
+                 m
+             F (C ) := {f ∈ O(C ) :m
+                                             |f (z)|2 e−|z| dz < ∞},
+                                         Cm
+
+and that the Segal–Bargmann transform is a unitary operator
+                                              Z
+                   ∼
+      B : L2 (Rm ) → F (Cm ), u 7→ (Bu)(z) :=     KB (x, z)f (x)dx,
+                                                     Rm
+
+with the kernel
+                                    1
+                  KB (x, z) := exp(− hz, zi + 2hz, xi − hx, xi).
+                                    2
+From a representation theoretic viewpoint, the classical Segal–Bargmann
+transform intertwines the two models of the Weil representation of the meta-
+plectic group M p(m, R), namely, the Schrödinger model on L2 (Rm ) and the
+Fock model on F (Cm ).
+   In order to find a natural generalization of this classical theory, we begin by
+examining how one may rediscover the classical Fock model. Our idea is to use
+the action of sl2 , more precisely, a ‘holomorphically extended representation’
+of an open semigroup of SL(2, C) rather than a unitary representation of
+SL(2, R) itself. For this, we take a standard basis of sl(2, R) as
+                                                      
+                         1 0               01              00
+                  h :=          , e :=          , f :=           .           (8.1)
+                         0 −1              00              10
+
+They satisfy the following Lie bracket relations: [h, e] = 2e,          [h, f ] =
+−2f, [e, f ] = h. We set
+                                    
+                               0 −i
+             k :=i(−e + f ) =          ,
+                                i 0
+                                                
+                    1 −i         2i 0    1 − 2i   0 −1   1i
+            c1 :=           =                               .               (8.2)
+                   − 2i 12          1
+                                 0 2i    0 1      1 0    01
+14                                                                      Kobayashi
+
+     By a simple matrix computation we have:
+                                          
+                          t            0 −1
+                    exp(− k)|t=iπ =          ∈ SL(2, R).                     (8.3)
+                          2            1 0
+
+The formula Ad(c1 )k = h shows that c1 ∈ SL(2, C) gives a Cayley transform.
+Correspondingly, the Bargmann transform may be interpreted as
+
+                                 B = ‘π ◦ ι(c1 )’.
+
+The right-hand side is not well-defined. We need an analytic continuation in
+the Schrödinger model and a lift in the diagram below:
+                                             ι       π
+                                  SL(2, R)e→ G → GL(L2 (Ξ))
+                                     ↓
+                c1 ∈ SL(2, C) ⊃SL(2, R)
+
+   To be more precise, we write w ∈ G for the lift of (8.3) via dι : sl(2, R) ֒→ g.
+Since the action of the maximal parabolic subgroup P on L2 (Ξ) is given by
+the translation and the multiplication of functions, it is easy to see what ‘π(p)’
+should look like for p ∈ PC . Therefore, we could give an explicit formula for
+the (generalized) Bargmann transform B = ‘π ◦ ι(c1 )’ if we know the closed
+formula of the unitary inversion:
+                                                    
+                                               0 −1
+                        FΞ = F (w) ≡ F ◦ ι              .
+                                               1 0
+
+Of course, this is not a rigorous argument, and π(p) does not leave L2 (Ξ)
+invariant. However, the formula (8.2) suggests what the function space π ◦
+ι(c1 )(L2 (Ξ)) ought to be, and led us to an appropriate generalization of the
+classical Fock space as follows:
+                                  Z
+           KC               KC
+     F (Omin ) := {F ∈ O(Omin ) : K |F (z)|2 K e λ−1 (|z|)dν(z) < ∞}.    (8.4)
+                                      C
+                                    Omin
+
+
+Here OKmin is the minimal nilpotent KC -orbit in pC which is the counterpart
+         C
+
+
+of the minimal (real) nilpotent coadjoint orbit OG             ∗
+                                                       min in g ≃ g under the
+                                                        R
+
+
+Kostant–Sekiguchi correspondence [40], see Figure 8.1. Thus the generalized
+Fock space F (OK                                        2
+                min ) is a Hilbert space consisting of L -holomorphic functions
+                  C
+
+                              KC
+on the complex manifold Omin against the measure given by a renormalized
+K-Bessel function K e λ−1 (|z|)dν(z) (see the comments after (8.5)).
+Varna Lecture on L2 -Analysis of Minimal Representations                         15
+
+                            g                     pC
+                            ∪                     ∪
+                                  Kostant–Sekiguchi
+                            OG R
+                             min   ←−−−−−→ OK C
+                                            min
+                            ∪ Lagrangian
+                            Ξ
+                 Figure 8.1 (minimal nilpotent orbits in g and pC )
+
+
+   We recall that Ξ is a Lagrangian submanifold of OG    min , and KC acts holo-
+                                                            R
+
+                  KC
+morphically on Omin . Then as a ‘quantization’ of the Kostant–Sekiguchi cor-
+respondence, we define the generalized Bargmann transform B : L2 (Ξ) →
+F (OK
+    min ) by
+      C
+
+
+                                 Z         p
+                         1
+            f 7→ Γ (λ)e− 2 tr(z)   Ieλ−1 (2 (z|x))e− tr(x) f (x)dµ(x),
+                                 Ξ
+
+whereas the unitary inversion operator FΞ is given by
+                                    Z         p
+            (FΞ f )(y) = 2−rλ Γ (λ)   Jeλ−1 (2 (x|y))f (x)dµ(x).              (8.5)
+                                       Ξ
+
+Here r = rank G/K, ( | ) denotes the trace form of the Jordan algebra V ,
+and λ = 21 dimR F if V = Herm(k, F) with F = R, C, quaternion H, or the
+                                                         e
+octonion O (and k = 3) or λ = 21 (k − 2) if V = R1,k−1 . J(t), e
+                                                               I(t),     e
+                                                                     and K(t)
+are the renormalization of the J-, I-, and K-Bessel function, respectively,
+following the convention of [28].
+
+Acknowledgements The author warmly thanks Professor Vladimir Dobrev for his
+hospitality during the ninth International Workshop: Lie Theory and its Applications
+in Physics in Varna, Bulgaria, 20-26 June 2011. Thanks are also due to anonymous
+referees for careful readings.
+The author was partially supported by Grant-in-Aid for Scientific Research (B)
+(22340026), Japan Society for the Promotion of Sciences.
+
+
+
+
+References
+
+ 1. D. Achab and J. Faraut, Analysis of the Brylinski–Kostant model for spherical
+    minimal representations, to appear in Canad. J. Math., arXiv:1101.4402.
+ 2. V. Bargmann and I. T. Todorov, Spaces of analytic functions on a complex cone
+    as carriers for the symmetric tensor representations of SO(n), J. Math. Phys. 18
+    (1977), 1141–1148.
+ 3. S. Ben Saı̈d, T. Kobayashi, and B. Ørsted, Laguerre semigroup and Dunkl op-
+    erators, Composition Math. 148 (2012), pp. 1265–1336 (cf. arXiv:0907.3749 ).
+ 4. R. Brylinski and B. Kostant, Minimal representations, geometric quantization,
+    and unitarity, Proc. Nat. Acad. Sci. U.S.A., 91 (1994), 6026–6029.
+16                                                                          Kobayashi
+
+ 5. A. Dvorsky and S. Sahi, Explicit Hilbert spaces for certain unipotent represen-
+    tations. II, Invent. Math. 138 (1999), no. 1, 203–224.
+ 6. T. Enright, R. Howe, and N. Wallach, A classification of unitary highest weight
+    modules. Representation theory of reductive groups (Park City, Utah, 1982), pp.
+    97–143, Progr. Math., 40, Birkhäuser, MA, 1983.
+ 7. G. B. Folland, Harmonic analysis in phase space, Annals of Mathematics Stud-
+    ies, Princeton University Press 122, Princeton, NJ, 1989.
+ 8. W.-T. Gan and G. Savin, On minimal representations definitions and properties,
+    Represent. Theory 9 (2005), 46–93.
+ 9. J. Hilgert, T. Kobayashi, G. Mano, and J. Möllers, Special functions associated to
+    a certain fourth order differential operator, The Ramanujan Journal 26 (2011),
+    1–34, (cf. arXiv:0907.2608 ).
+10. J. Hilgert, T. Kobayashi, G. Mano, and J. Möllers, Orthogonal polynomials
+    associated to a certain fourth order differential equation, The Ramanujan Journal
+    26 (2011), 295–310, (cf. arXiv:0907.2612 ).
+11. J. Hilgert, T. Kobayashi and J. Möllers, Minimal representations via Bessel op-
+    erators, to appear in J. Math. Soc. Japan (cf. arXiv:1106.3621 ).
+12. J. Hilgert, T. Kobayashi, J. Möllers, and B. Ørsted, Segal–Bargmann transform
+    and Fock space realization for minimal holomorphic representations, J. of Funct.
+    Anal. 263 (2012), pp.3492–3563 (cf. arXiv:1203.5462 )
+13. R. Howe, The oscillator semigroup, Proc. Sympos. Pure Math. 48, Amer. Math.
+    Soc., 1988, 61–132.
+14. A. Joseph, The minimal orbit in a simple lie algebra and its associated maximal
+    ideal, Ann. Scient. Ec. Norm. Sup. 9 (1976), 1–30.
+15. D. Kazhdan, The minimal representation of D4 , Operator algebras, unitary
+    representations, enveloping algebras, and invariant theory (Paris, 1989), Progr.
+    Math., vol.92, Birkhäuser, Boston, 1990, pp. 125–158.
+16. T. Kobayashi, The restriction of Aq (λ) to reductive subgroups, Proc. Japan
+    Acad., 69 (1993), 262–267.
+17. T. Kobayashi, Discrete decomposability of the restriction of Aq (λ) with respect
+    to reductive subgroups and its application, Invent. Math. 117 (1994), 181–205.
+18. T. Kobayashi, Discrete decomposability of the restriction of Aq (λ), II. — micro-
+    local analysis and asymptotic K-support, Annals of Math. 147 (1998), 709–729.
+19. T. Kobayashi, Discrete decomposability of the restriction of Aq (λ), III. — re-
+    strcition of Harish-Chandra modules and associated varieties, Invent. Math. 131
+    (1998), 229–256.
+20. T. Kobayashi, Discretely decomposable restrictions of unitary representations
+    of reductive Lie groups — examples and conjectures, Advanced Study in Pure
+    Math., vol. 26, (2000), pp. 98–126.
+21. T. Kobayashi, Conformal geometry and global solutions to the Yamabe equa-
+    tions on classical pseudo-Riemannian manifolds, Proceedings of the 22nd Win-
+    ter School “Geometry and Physics” (Srnı́, 2002), Rend. Circ. Mat. Palermo (2)
+    Suppl. 71, 2003, pp. 15–40.
+22. T. Kobayashi, Restrictions of unitary representations of real reductive groups,
+    Progress in Mathematics 229, Birkhäuser, 2005, pp. 139–207
+23. T. Kobayashi, Geometric quantization, limits, and restrictions —some examples
+    for elliptic and nilpotent orbits, In: Geometric Quantization in the Non-compact
+    Setting, Oberwolfach Reports, Volume 8, Issue 1, 2011, pp. 39–42, (eds. by L. Jef-
+    frey, X. Ma and M. Vergne). European Mathematical Society, Publishing House,
+    DOI: 10.4171/OWR/2011/09.
+24. T. Kobayashi, Algebraic analysis of minimal representations, Publ. Res. Inst.
+    Math. Sci. 47 (2011), 585–611, Special issue in commemoration of the golden
+    jubilee of algebraic analysis, (cf. arXiv:1001.0224).
+Varna Lecture on L2 -Analysis of Minimal Representations                           17
+
+25. T. Kobayashi, Branching problems of Zuckerman derived functor modules, In:
+    Representation Theory and Mathematical Physics, Contemporary Mathematics,
+    vol. 557, (eds. J. Adams, B. Lian, and S. Sahi), pp. 23–40, Amer. Math. Soc.,
+    Providence, RI, 2011 (cf. arXiv:1104.4399).
+26. T. Kobayashi and G. Mano, Integral formulas for the minimal representation of
+    O(p, 2), Acta Appl. Math. 86 (2005), 103–113.
+27. T. Kobayashi and G. Mano, The inversion formula and holomorphic extension
+    of the minimal representation of the conformal group, In: Harmonic Analysis,
+    Group Representations, Automorphic Forms and Invariant Theory: In honor of
+    Roger E. Howe (J.-S. Li, E.-C. Tan, N. Wallach, and C.-B. Zhu, eds.), Singa-
+    pore University Press and World Scientific Publishing, 2007, pp. 159–223 (cf.
+    math.RT/0607007).
+28. T. Kobayashi and G. Mano, The Schrödinger model for the minimal representa-
+    tion of the indefinite orthogonal group O(p, q), Mem. Amer. Math. Soc. (2011),
+    212, no. 1000 , vi+132 pp.
+29. T. Kobayashi and J. Möllers, An integral formula for L2 -eigenfunctions of a
+    fourth order Bessel-type differential operator , Integral Transforms and Special
+    Functions 22 (2011), 521–531.
+30. T. Kobayashi and B. Ørsted, Conformal geometry and branching laws for unitary
+    representations attached to minimal nilpotent orbits, C. R. Acad. Sci. Paris, 326
+    (1998), 925–930.
+31. T. Kobayashi and B. Ørsted, Analysis on the minimal representation of O(p, q).
+    I. Realization via conformal geometry , Adv. Math. 180 (2003), 486–512.
+32. T. Kobayashi and B. Ørsted, Analysis on the minimal representation of O(p, q).
+    II. Branching laws, Adv. Math. 180 (2003), 513–550.
+33. T. Kobayashi and B. Ørsted, Analysis on the minimal representation of O(p, q).
+    III. Ultrahyperbolic equations on Rp−1,q−1 , Adv. Math. 180 (2003), 551–595.
+34. T. Kobayashi, B. Ørsted, and M. Pevzner, Geometric analysis on small unitary
+    representations of GL(N, R), J. Funct. Analy. 260 (2011), 1682–1720.
+35. T. Kobayashi and Y. Oshima, Classification of discretely decomposable Aq (λ)
+    with respect to reductive symmetric pairs, Advances in Mathematics, 231,
+    (2012), pp. 2013–2047, (cf. arXiv:1104.4400).
+36. T. Kobayashi and Y. Oshima, Classification of symmetric pairs that admit dis-
+    cretely decomposable (g, K)-modules, 18pp. preprint (cf. arXiv:1202.5743 ).
+37. B. Kostant, The vanishing of scalar curvature and the minimal representation of
+    SO(4, 4), Operator algebras, unitary representations, enveloping algebras, and in-
+    variant theory (Paris, 1989) (A. Connes, M. Duflo, A. Joseph, and R. Rentschler,
+    eds.), Progr. Math., vol. 92, Birkhäuser, Boston, 1990, pp. 85–124.
+38. A. Kowata and M. Moriwaki, Invariant differential operators on the Schrödinger
+    model for the minimal representation of the conformal group, J. Math. Sci. Univ.
+    Tokyo, 18 (2011), 355–395.
+39. M. Moriwaki, Multiplicity-free decompositions of the minimal representation of
+    the indefinite orthogonal group, Int. J. Math. 19 (2008), 1187–1201.
+40. J. Sekiguchi, Remarks on real nilpotent orbits of a symmetric pair, J. Math. Soc.
+    Japan 39 (1987), 127–138.
+41. I. T. Todorov, Derivation and solution of an infinite-component wave equation
+    for the relativistic Coulomb problem, Lecture Notes in Physics, Group repre-
+    sentations in mathematics and physics (Rencontres, Battelle Res. Inst., Seattle,
+    1969), 6, Springer, 1970, pp. 254–278.
+42. P. Torasso, Méthode des orbites de Kirillov–Duflo et représentations minimales
+    des groupes simples sur un corps local de caractéristique nulle, Duke Math. J.
+    90 (1997), 261–377.
+43. D. A. Vogan, Jr., Singular unitary representations, Noncommutative harmonic
+    analysis and Lie groups (Marseille, 1980), Lecture Notes in Math., vol. 880,
+    Springer, Berlin, 1981, pp. 506–535.
+

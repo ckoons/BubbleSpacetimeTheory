@@ -1,0 +1,1327 @@
+                                                            Bounded multiplicity branching
+
+
+
+
+arXiv:2210.13146v1 [math.RT] 24 Oct 2022
+                                                                 for symmetric pairs
+
+                                           Dedicated to Dr. Karl H. Hofmann with admiration and heartfelt gratitude
+
+                                            for his contributions to mathematics and his devotion to the community
+
+                                                                        Toshiyuki KOBAYASHI ∗
+
+
+                                                                                    Abstract
+                                                        We prove that any simply connected non-compact semisimple Lie
+                                                     group G admits an infinite-dimensional irreducible representation Π
+                                                     with bounded multiplicity property of the restriction Π|G′ for all sym-
+                                                     metric pairs (G, G′ ). We also discuss which irreducible representations
+                                                     Π satisfy the bounded multiplicity property.
+
+                                              2020 MSC. Primary 22E46; Secondary 22E45, 53C35, 32M15, 53C15.
+                                              Key words and phrases: branching problem, symmetric pair, reductive
+                                           group, visible action, spherical variety, multiplicity, minimal representation.
+
+
+                                           1         Introduction
+                                           We initiated in [18, 19] the general study of multiplicities in the branching
+                                           problem of reductive groups, and this article is a continuation of the work
+                                           [27, 29, 31, 32, 33, 38]. The goal is to prove the following theorem.
+                                           Theorem 1.1. Any simply connected non-compact semisimple Lie group G
+                                           admits an infinite-dimensional irreducible representation Π with the bounded
+                                           multiplicity property of the restriction Π|G′ for all symmetric pairs (G, G′ ):
+                                                                               sup [Π|G′ : π] < ∞.                              (1.1)
+                                                                             π∈Irr(G′ )
+                                               ∗
+                                                   Graduate School of Mathematical Sciences, The University of Tokyo, Japan.
+
+                                                                                          1
+    Let us explain some terminologies. We denote by Irr(G) the set of irre-
+ducible objects in the category M(G) of smooth admissible representations
+of a real reductive Lie group G of finite length with moderate growth, which
+are defined on Fréchet topological vector spaces [51, Chap. 11].
+    Suppose that G′ is a reductive subgroup of G. For Π ∈ M(G), the
+multiplicity of π ∈ Irr(G′ ) in the restriction Π|G′ is defined by
+
+               [Π|G′ : π] := dimC HomG′ (Π|G′ , π) ∈ N ∪ {∞},              (1.2)
+
+where HomG′ (Π|G′ , π) denotes the space of symmetry breaking operators, i.e.,
+continuous G′ -homomorphisms between the Fréchet representations.
+    By a symmetric pair (G, G′), we mean that G′ is an open subgroup of
+the fixed point group Gσ of an involutive automorphism σ of G. The Rie-
+mannian symmetric pair (G, K) with σ being a Cartan involution θ and
+the group manifold case (8 G × 8 G, diag 8 G) are typical examples. The pair
+(SL(n, R), SO(p, q)) with p + q = n is another example of symmetric pairs.
+The infinitesimal classification of irreducible symmetric pairs was accom-
+plished by Berger [2].
+    Theorem 1.1 may look quite surprising, in view of the theorem [27] re-
+vealing that for “many” symmetric pairs (G, G′) with G′ non-compact
+
+            [Π|G′ : π] = ∞ for some Π ∈ Irr(G) and π ∈ Irr(G′ ).           (1.3)
+
+See [34] for the classification of such symmetric pairs (G, G′ ).
+    We refer to [28] and [33, Sect. 2] for some motivation and perspectives of
+the general branching problems and the role of bounded multiplicity property.
+    The tensor product of two representations is a special case of the restric-
+tion with respect to a symmetric pair (G × G, diag G). We also prove:
+Theorem 1.2. For any simply connected, non-compact semisimple Lie group
+G, there exist infinite-dimensional representations Π1 , Π2 ∈ Irr(G) such that
+the tensor product representation has the bounded multiplicity property:
+
+                            sup [Π1 ⊗ Π2 : Π] < ∞.                         (1.4)
+                          Π∈Irr(G)
+
+     When Π is a unitary representation of G, the restriction Π|G′ decomposes
+into the direct integral of irreducible unitary representations of the subgroup
+G′ :                               Z ⊕
+                           Π|G′ ≃       mΠ (π)πdµ(π),                      (1.5)
+                                     c′
+                                     G
+
+                                          2
+where Gc′ denotes the set of equivalence classes of irreducible unitary rep-
+resentations (unitary dual) of G′ equipped with Fell topology, µ is a Borel
+measure on Gc′ , and mΠ : c
+                          G′ → N ∪ {∞} is a measurable function. The irre-
+ducible decomposition (1.5) is called the branching law of the restriction Π|G′ .
+By the theory of nuclear spaces, the multiplicity in the category of admissi-
+ble representations of moderate growth dominates the one in the category of
+unitary representations, namely, one has the inequality
+
+           mΠ (π) ≤ [Π∞ |G′ : π ∞ ] a.e. π ∈ c
+                                             G′ with respect to µ,         (1.6)
+
+where Π∞ ∈ Irr(G) and π ∞ ∈ Irr(G′ ) denote the Fréchet representations
+of smooth vectors of Π ∈ G  b and π ∈ G c′ , respectively. Since we can take
+unitarizable representations in Theorems 1.1 and 1.2 as the proof in Sections
+3–6 below shows, one has the following:
+
+Corollary 1.3. (1) Any simply connected non-compact semisimple Lie group
+G admits an infinite-dimensional irreducible unitary representation Π such
+that the branching law (1.5) of the restriction Π|G′ satisfies the bounded mul-
+tiplicity property for all symmetric pairs (G, G′): there exists C > 0 such
+that
+                  mΠ (π) ≤ C a.e. π ∈ c  G′ with respect to µ.
+
+(2) For any simple connected, non-compact semisimple Lie group G, there
+exist infinite-dimensional irreducible unitary representations Π1 and Π2 such
+that the tensor product representation decomposes into the direct integral
+                                   Z ⊕
+                       Π1 ⊗ Π2 ≃       mΠ1 ,Π2 (Π)dµ(Π),
+                                    b
+                                    G
+
+with the bounded multiplicity property: there exists C > 0 such that
+
+               mΠ1 ,Π2 (Π) ≤ C             b with respect to µ.
+                                  a.e. Π ∈ G
+
+    These results concern with the restriction. On the other hand, the mul-
+tiplicity occurring in the induction IndG          ∞      ′
+                                         G′ (1) ≃ C (G/G ) is finite for any
+                                  ′
+reductive symmetric pair (G, G ), where 1 denotes the one-dimensional triv-
+ial representation of G′ , see van den Ban [1]:
+
+           dimC HomG (Π, C ∞ (G/G′ )) < ∞ for every Π ∈ Irr(G).            (1.7)
+
+                                        3
+More generally, it was proved in [38, Thm. A] that the finite multiplicity
+property (1.7) is characterized by the real sphericity (see Section 2.4 for the
+definition). We note that any reductive symmetric space is real spherical.
+When G/G′ is a symmetric space, one has a stronger estimate than (1.7),
+namely, the following bounded multiplicity property holds:
+
+                    sup dimC HomG (Π, C ∞ (G/G′ )) < ∞.                    (1.8)
+                   Π∈Irr(G)
+
+    More broadly, it was proved in [38, Thm. B] that the bounded multiplic-
+ity property (1.8) is characterized by the sphericity of the complexification
+GC /G′C . We note that GC /G′C is spherical when G/G′ is a symmetric space.
+    By Frobenius reciprocity HomG (Π, C ∞ (G/G′)) ≃ HomG′ (Π|G′ , 1), the es-
+timate (1.8) is equivalent to
+
+                               sup [Π|G′ : 1] < ∞,
+                              Π∈Irr(G)
+
+which may be compared with (1.1) and (1.3).
+    We prove Theorems 1.1 and 1.2 as well as Corollary 1.3 not merely as the
+existence theorem but also by exhibiting explicitly which Π ∈ Irr(G) satisfies
+the bounded multiplicity property (1.1) for (G, G′ ) in scope of further detailed
+analysis (e.g., “Stages B and C” in the branching program [28], see Section
+2.1).
+    The proof of Theorems 1.1 and 1.2 is reduced to the case where g is
+simple. We explore in more details in the setting that G satisfies one of the
+following:
+    • automorphism groups of Hermitian symmetric spaces (Section 3);
+    • automorphism groups of para-Hermitian symmetric spaces (Section 4);
+    • the complex minimal nilpotent orbit has real points (Section 5);
+    • the complex minimal nilpotent orbit has no real point (Section 6).
+    Correspondingly, we shall see the bounded multiplicity property holds for
+the restriction Π|G′ when Π is a “geometric quantization” of certain elliptic,
+hyperbolic, or (real) minimal nilpotent coadjoint orbits, see Theorem 3.2,
+Corollary 4.5, and Theorems 5.5 and 6.1, respectively.
+    The paper is organized as follows. Section 2 explains some basic notions
+and known results as preliminaries, and Sections 3–6 provide a family of irre-
+ducible representations Π of G that satisfy the bounded multiplicity property
+(1.1) of the restriction of Π. Theorems 1.1 and 1.2 will be proved in Section
+5 except for g = sp(p, q) or f4(−20) , which will be treated in Section 6.
+
+                                         4
+2     Preliminaries
+In this section, we explain some background, basic notions, and known the-
+orems in proving our main results.
+
+2.1    Branching problems
+By branching problems in representation theory, we mean the broad problem
+of understanding how irreducible representations of a group behave when
+restricted to a subgroup. As viewed in [28], we may divide the branching
+problems into the following three stages:
+Stage A. Abstract features of the restriction;
+Stage B. Branching law;
+Stage C. Construction of symmetry breaking operators.
+    The role of Stage A is to develop a theory on the restriction of repre-
+sentations as generally as possible. In turn, we may expect a detailed study
+of the restriction in Stages B (decomposition of representations) and C (de-
+composition of vectors) in the “promising” settings that are suggested by the
+general theory in Stage A.
+    Theorems 1.1 and 1.2 answer a question in Stage A of branching problems.
+In turn, we may expect a detailed analysis on the restriction Π|G′ in Stages B
+and C. See [7, 29, 35, 36, 41, 42] e.g., for some recent developments in Stage
+C in the setting where the bounded multiplicity (1.1) holds.
+
+2.2    Harish-Chandra’s admissibility theorem
+Harish-Chandra’s admissibility theorem plays a fundamental role in the al-
+gebraic study of representations of real reductive linear Lie groups G, which
+guarantees a finiteness property of multiplicities for the restriction G ↓ G′ if
+G′ is a maximal compact subgroup K of G. That is, one has the following:
+
+Fact 2.1 ([51, Thm. 3.4.10]). Let G′ = K. For any irreducible unitary
+representation Π of G, one has
+
+                      [Π|G′ : π] < ∞ for all π ∈ Irr(G′ ).                  (2.1)
+
+    We explain two directions for generalizations of Fact 2.1.
+    One is to highlight G′ -admissible restriction (Definition 2.2), namely, dis-
+crete decomposability as well as finite multiplicity property, see Fact 2.3 below.
+
+                                        5
+The other direction is to focus on the finiteness property of the multiplicity,
+as we shall treat in Fact 2.6 (1).
+
+2.3    Discretely decomposable restrictions
+The notion and the results of this section will be used in Sections 3.3 and
+6.4 for the proof of the bounded multiplicity results.
+
+Definition 2.2 ([18, Sect. 1]). A unitary representation Π of G is G′ -
+admissible if the restriction Π|G′ splits into a direct sum of irreducible unitary
+representations of G′ :
+                                      X⊕
+                              Π|G′ ≃        mΠ (π)π,                         (2.2)
+                                       c′
+                                     π∈G
+
+with multiplicity mΠ (π) < ∞ for all π ∈ c
+                                         G′ .
+                                   b is K-admissible. We begin with the case
+    Fact 2.1 tells us that any Π ∈ G
+         ′
+where G is compact but is not necessarily a maximal compact subgroup K.
+In this case, discrete decomposability is obvious because G′ is compact, and
+the finiteness of mΠ (π) is non-trivial. We review a necessary and sufficient
+condition for (2.1) when G′ is compact. In the following statement, we use
+the letter K ′ instead of G′ to emphasize that K ′ is compact.
+
+Fact 2.3 ([20, 30]). Suppose that K ′ is a subgroup of K. Let Π ∈ M(G).
+Then the following two conditions on the triple (G, K ′ , Π) are equivalent:
+(i) The finite multiplicity property (2.1) holds.
+(ii) ASK (Π) ∩ CK (K ′ ) = {0}.
+
+    Here ASK (Π) is the asymptotic K-support of Π. There are only finitely
+many possibilities of asymptotic K-supports ASK (Π) for Π ∈ M(G). The
+closed cone CK (K ′ ) is the momentum set for the Hamiltonian action on the
+cotangent bundle T ∗ (K/K ′ ). There are two proofs for the implication (ii) ⇒
+(i): by using the singularity spectrum (or the wave front set) of the character
+[20] and by using symplectic geometry [30]. The proof for the implication (i)
+⇒ (ii) is given in [30].
+    Fact 2.3 plays a crucial role in the study of discretely decomposable re-
+striction with respect to non-compact reductive subgroups G′ [18, 20, 21, 30].
+
+
+
+
+                                        6
+Proposition 2.4 ([28, Thm. 4.5]). Let G ⊃ G′ be a pair of real reductive Lie
+groups, and K ⊃ K ′ maximal compact subgroups modulo centers. For an irre-
+ducible unitary representation Π of G, we denote by Π∞ ∈ Irr(G) the Fréchet
+representation of smooth vectors, and by ΠK the underlying (g, K)-module.
+If one of the equivalent conditions in Fact 2.3 holds, then the restriction Π|G′
+is G′ -admissible.
+    Moreover, the multiplicity mΠ (π) = dimC HomG′ (π, Π|G′ ) of the discrete
+spectrum is finite, and satisfies the following equalities.
+
+              mΠ (π) = [Π∞ |G′ : π ∞ ] = dimC Homg′ ,K ′ (ΠK , πK ′ ).       (2.3)
+
+Remark 2.5. (1) The bounded multiplicity property (1.1) does not hold in
+general even for the case G′ = K. We shall see in Theorem 6.1 that (1.1)
+holds if Π ∈ Irr(G) is “small” in the sense that the Gelfand–Kirillov dimen-
+sion of Π equals half the dimension of a real minimal coadjoint orbit.
+(2) The first equality in (2.3) is not true in general when there is continuous
+spectrum in the restriction Π|G′ .
+(3) ([25, Ex. 6.3]) The multiplicity mΠ (π) of discrete spectrum may be in-
+finite even for reductive symmetric pairs (G, G′ ) if one of the equivalent
+conditions in Fact 2.3 fails.
+   See [10, 39, 40] for a classification theory of the triple (G, G′, Π) satisfying
+the equivalent conditions in Fact 2.3.
+
+2.4    Spherical spaces and real spherical spaces
+In [27] and [38, Thms. C and D] we proved the following geometric criteria
+that concern all Π ∈ Irr(G) and all π ∈ Irr(G′ ):
+Fact 2.6. Let G ⊃ G′ be a pair of real reductive algebraic Lie groups.
+(1) Finite multiplicity for a pair (G, G′ ):
+                                       ∀
+                  [Π|G′ : π] < ∞,          Π ∈ Irr(G), ∀ π ∈ Irr(G′ )
+
+if and only if (G × G′ )/ diag G′ is real spherical.
+(2) Bounded multiplicity for a pair (G, G′ ):
+
+                           sup       sup         [Π|G′ : π] < ∞              (2.4)
+                         Π∈Irr(G) π∈Irr(G′ )
+
+if and only if (GC × G′C )/ diag G′C is spherical.
+
+                                             7
+     Here a complex GC -manifold X is called spherical if a Borel subgroup of
+GC has an open orbit in X, and that a G-manifold Y is called real spherical
+([19]) if a minimal parabolic subgroup of G has an open orbit in Y .
+     A remarkable discovery in [38] includes that the bounded multiplicity
+property (2.4) is determined only by the complexified Lie algebras gC and
+g′C . In particular, the classification of such pairs (G, G′ ) is quite simple,
+because it is reduced to a classical result when G is compact [43]: the pair
+(gC , g′C ) is the direct sum of the following ones up to abelian ideals:
+
+                   (sln , gln−1 ), (son , son−1 ), or (so8 , spin7 ).      (2.5)
+
+    On the other hand, the finite multiplicity property in Fact 2.6 (1) de-
+pends on real forms G and G′ . For instance, it is fulfilled for any Rieman-
+nian symmetric pair (G, K) because the Iwasawa decomposition tells us that
+(G × G′ )/ diag G′ is real spherical if G′ = K, whereas the finiteness of the
+K-multiplicity traces back to Harish-Chandra’s admissibility theorem (Fact
+2.1). (Actually, [38] in this specific case gives a proof that a quasi-simple
+irreducible representation of G is K-admissible by using the boundary value
+problem of a system of partial differential equations.)
+
+2.5    Visible actions on complex manifolds
+Suppose a (real) Lie group G acts holomorphically on a connected complex
+manifold D.
+Definition 2.7 ([23, Def. 3.3.1]). The action is called strongly visible if there
+exist a non-empty G-invariant open subset D ′ of D, a totally real submanifold
+S, and an anti-holomorphic diffeomorphism σ of D ′ such that
+
+         D ′ = G · S, σ|S = id, and σ preserves each G-orbit in D ′ .
+
+    Loosely speaking, the significance of this definition is that, for any G-
+equivariant holomorphic vector bundle V → D on which G acts strongly
+visibly on D, the multiplicity-free property propagates from fibers to sections,
+see [23, Thm. 4] for a rigorous formulation.
+    We shall utilize the following results in Sections 3 and 4.
+Fact 2.8 ([24, Thm. 1.5]). Let G/K be a Hermitian symmetric space, either
+of compact type or of non-compact type. Then the G′ -action on G/K is
+strongly visible for any symmetric pair (G, G′ ).
+
+                                           8
+2.6    Coisotropic action on coadjoint orbits
+Let V be a vector space equipped with a symplectic form ω. A subspace W
+is called coisotropic if {v ∈ V : ω(v, ·) vanishes on W } is contained in W .
+    The concept of coisotropic actions is defined infinitesimally as follows.
+Definition 2.9 (Huckleberry–Wurzbacher [13]). Let H be a connected Lie
+group, and X a Hamiltonian H-manifold. The H-action is called coisotropic
+if there is an H-stable open dense subset U of X such that Tx (H · x) is a
+coisotropic subspace in the tangent space Tx X for all x ∈ U.
+    Suppose that O is a coadjoint orbit of a connected Lie group G through
+λ ∈ g∗ . Denote by Gλ the stabilizer subgroup of λ in G, and by Zg (λ) its Lie
+algebra. The Kirillov–Kostant–Souriau symplectic form ω on O ≃ G/Gλ is
+given at the tangent space Tλ O ≃ g/Zg (λ) by
+             ω : g/Zg (λ) × g/Zg (λ) → R,     (X, Y ) 7→ λ([X, Y ]).
+  Suppose G is semisimple. Then the Killing form induces an isomorphism
+ ∗ ∼
+g → g, λ 7→ Xλ . The following result is useful in later argument.
+Lemma 2.10 ([33, Lem. 2]). Let H be a connected subgroup with Lie algebra
+h. The H-action on a coadjoint orbit O is coisotropic if there exists a subset
+S (slice) in O with the following two properties:
+                  Ad∗ (H)S is open dense in O,
+                  (h + Zg (λ))⊥ ⊂ [Xλ , h]      for any λ ∈ S.              (2.6)
+Here ⊥ stands for the orthogonal subspace with respect to the Killing form.
+    The original proof of Fact 2.6 in [38] utilized hyperfunction boundary
+maps for the “if” part (i.e., the sufficiency of the finite multiplicity property)
+and a generalized Poisson transform [27] for the “only if” part. An alternative
+approach in [32, 50] for the proof of the ‘if’ part of Fact 2.6 (2) used a theory
+of holonomic D-modules, which is also the method of Theorems 4.1 and 4.2
+below. Our proof in this article still uses a theory of D-modules, and more
+precisely, the following:
+Theorem 2.11 ([17]). Let Ann Π be the annihilator of Π ∈ M(G) in the
+universal enveloping algebra U(gC ). Assume that the G′C -action on the as-
+sociated variety V(Ann Π) is coisotropic. Then the restriction Π|G′ has the
+bounded multiplicity property (1.1).
+
+                                        9
+    The associated variety V(Ann Π) is the closure of a single nilpotent coad-
+joint orbit if Π ∈ Irr(G) [4, 15]. We note that the assumption in Theorem
+2.11 depends only on the pair (gC , g′C ) of the complexified Lie algebras as in
+Fact 2.6 (2).
+
+
+3     Restriction of highest weight modules
+In this section we discuss the bounded multiplicity property (1.1) for a sym-
+metric pair (G, G′ ) when Π is a highest weight module of G. We shall see
+Theorem 3.2 implies Theorems 1.1 and 1.2 when G is the automorphism
+group of a Hermitian symmetric space, see (3.1) below for the list of such
+simple Lie algebras g.
+
+3.1     Preliminaries for highest weight modules
+Let G be a non-compact simple Lie group, θ a Cartan involution of G, and
+K := {g ∈ G : θg = g}. We write g = k + p for the corresponding Cartan
+decomposition of the Lie algebra g of G.
+   We assume that G is of Hermitian type, that is, the Riemannian sym-
+metric space G/K carries the structure of a Hermitian symmetric space, or
+equivalently, the center c(k) of k is non-trivial. The classification of simple
+Lie algebras g of Hermitian type is given as follows:
+
+    su(p, q) , sp(n, R) , so∗ (2m) , so(m, 2) (m 6= 2) , e6(−14) , e7(−25) .   (3.1)
+
+    In this case, there exists a characteristic element Z ∈ c(k) such that
+
+                           gC := g ⊗ C = kC ⊕ p+ ⊕ p−                (3.2)
+                                                            √        √
+is the eigenspace decomposition of ad(Z) with eigenvalues 0, −1 and − −1,
+respectively, and that c(k) = RZ.
+    Suppose V is an irreducible (gC , K)-module. We set
+
+                  V p+ := {v ∈ V : Y v = 0 for any Y ∈ p+ } .                  (3.3)
+
+Since K normalizes p+ , V p+ is a K-submodule. Further, V p+ is either zero or
+an irreducible finite-dimensional representation of K. We say V is a highest
+weight module if V p+ 6= {0}, and of scalar type if dimC V p+ = 1. For any
+
+
+                                         10
+non-compact simple Lie group G of Hermitian type, there exist infinitely
+many irreducible unitary highest weight representations of scalar type.
+   For any symmetric pair (G, G′ ), the G′ -action on the Hermitian symmetric
+space G/K is strongly visible (Fact 2.8). Correspondingly, we proved in [25,
+Thms. A and C] the following multiplicity-free theorems.
+
+Fact 3.1 (multiplicity-free theorem). Let G be a non-compact simple Lie
+group of Hermitian type, and Π, Π1 , Π2 irreducible unitary highest weight
+representations of scalar type.
+(1) The restriction Π|G′ is multiplicity-free for any symmetric pair (G, G′ ).
+(2) The tensor product Π1 ⊗ Π2 is multiplicity-free.
+
+   The following theorem asserts that the multiplicities are still uniformly
+bounded even if we drop the assumption that π is of scalar type.
+
+Theorem 3.2 (uniformly bounded multiplicities). Let Π, Π1 , Π2 be the
+smooth representations of irreducible unitary highest weight representations
+of G.
+(1) The restriction Π|G′ satisfies bounded multiplicity property (1.1) for any
+symmetric pair (G, G′ ).
+(2) The tensor product Π1 ⊗ Π2 satisfies the bounded multiplicity property
+(1.4).
+
+3.2    Involutions on Hermitian symmetric spaces
+The branching law in Fact 3.1 formulated in the category of unitary rep-
+resentations may and may not contain discrete spectra. To clarify this, we
+observe that there are two types of involutions σ of a non-compact simple
+Lie group G of Hermitian type. Without loss of generality, we may assume
+that σ commutes with the Cartan involution θ. We use the same letter σ to
+denote its differential. Then σ stabilizes k and also c(k). Because σ 2 = id
+and c(k) = RZ, there are two possibilities:
+
+                                 σZ = Z ,                                (3.4)
+                                 σZ = −Z .                               (3.5)
+
+Geometrically, the condition (3.4) implies:
+   1-a) σ acts holomorphically on the Hermitian symmetric space G/K,
+   1-b) Gσ /K σ ֒→ G/K defines a complex submanifold,
+
+                                     11
+whereas the condition (3.5) implies:
+   2-a) σ acts anti-holomorphically on G/K,
+   2-b) Gσ /K σ ֒→ G/K defines a totally real submanifold.
+Definition 3.3. We say the involutive automorphism σ is of holomorphic
+type if (3.4) is satisfied, and is of anti-holomorphic type if (3.5) is satisfied.
+The same terminology will be applied also to the symmetric pair (G, G′ ) (or
+its Lie algebras (g, g′ )) corresponding to the involution σ.
+    The restriction Π|G′ is discretely decomposable if (G, G′ ) is of holomorphic
+type for any unitary highest weight representation Π of G ([20] or [22, Thm.
+7.4]).
+
+3.3    Proof of Theorem 3.2
+The bounded multiplicity property for symmetric pairs (g, g′ ) of holomorphic
+type was established in [25, Thm. B] in the category of unitary representa-
+tions. Since Theorem 3.2 is formulated in the category of smooth admissible
+representations, we need some additional argument.
+Proof of Theorem 3.2. First, suppose that the symmetric pair (G, G′ ) is of
+holomorphic type. In this case, any irreducible highest weight module of G is
+K ′ -admissible, hence G′ -admissible (Definition 2.2), see [20] or [22, Thm. 7.4].
+In turn, the bounded multiplicity theorem ([25, Thm. B]) in the category of
+unitary representations implies the one in the category of smooth admissible
+representations by Proposition 2.4.
+     Next suppose that (G, G′ ) is of anti-holomorphic type. Via the iden-
+tification g∗ ≃ g, the associated variety is the closure of an adjoint orbit
+Ad(GC )X for some X ∈ p+ . Then Theorem 3.2 reduces to the following
+geometric results owing to Theorem 2.11.
+Theorem 3.4. Let G be a non-compact simple Lie group of Hermitian type.
+Retain the notation as in (3.2).
+(1) If σ is of anti-holomorphic type, then the GσC -action on Ad(GC )X is
+coisotropic for any X ∈ p+ .
+(2) The diagonal GC -action on Ad(GC )X × Ad(GC )Y is coisotropic for any
+X ∈ p+ and Y ∈ p− .
+Proof. (1) For any non-zero X ∈ p+ , one can take Y ∈ p− and H ∈ kC
+such that {X, H, Y } forms an sl2 -triple. We write slX
+                                                      2 for the corresponding
+complex subalgebra in gC .
+
+                                        12
+   Since σZ = −Z, one has σp+ = p− . Moreover, one has ZgC (X) ⊃ p+
+because p+ is abelian. Hence the decomposition (3.2) yields
+                         gC =σp+ + kC + p+
+                            =σ(ZgC (X)) + kC + ZgC (X)
+                            =gσC + kC + ZgC (X).                               (3.6)
+We set S := Ad(KC )X. The equality (3.6) implies that Ad(GσC )S is open in
+Ad(GC )X. By Lemma 2.10, it suffices to show
+                  (gσC + ZgC (W ))⊥ ⊂ [W, gσC ] for all W ∈ S.
+Without loss of generality, we may replace W = Ad(k)X (∈ p+ ) with X.
+   We claim the following equality
+                            [X, p− ] = ZkC (X)⊥      in kC ,                   (3.7)
+where the right-hand side stands for the orthogonal complement of ZkC (X)
+in kC with respect to the Killing form B of gC . The inclusion [X, p− ] ⊂
+ZkC (X)⊥ is direct because B([X, p− ], W ) = B([X, W ], p− ) = {0} for any
+W ∈ ZkC (X). On the other hand, since dim Ad(GC )X = 2 dim Ad(KC )X,
+one has dim[X, pC ] = dim kC − dim ZkC (X). As X is an element of the abelian
+subalgebra p+ , one has [X, p− ] = [X, pC ], and thus the equality (3.7) is
+proved.
+    Since p− = σ(p+ ) and p+ ⊂ ZpC (X), one has
+                         pC = p− ⊕ p+ = pσC + ZpC (X),
+hence gσC + ZgC (X) = pC + kσC + ZkC (X). Therefore
+                   (gσC + ZgC (X))⊥ =(kσC + ZkC (X))⊥          in kC
+                                    =[X, p− ]−σ .                              (3.8)
+Since [X, p− ] = {[X, W + σW ] : W ∈ p− } = [X, pσC ], we have shown the
+desired inclusive relation (gσC + ZgC (X))⊥ ⊂ [X, gσC ].
+(2) We apply the same argument as in (1) and obtain
+         gC ⊕ gC = diag gC + (kC ⊕ kC ) + (ZgC (X) ⊕ ZgC (Y ))
+                 = diag gC + [diag gC , (X, Y )] + (ZgC (X) ⊕ ZgC (Y )).
+Thus, by setting a submanifold S := Ad(KC × KC )(X, Y ), one sees that
+Ad(diag GC )S is open in Ad(GC × GC )(X, Y ) and that
+            (diag gC + (ZgC (X ′ ) ⊕ ZgC (Y ′ ))⊥ ⊂ [(X ′ , Y ′ ), diag gC ]
+for any (X ′ , Y ′ ) ∈ S. Now the second assertion follows from Lemma 2.10.
+
+                                          13
+4     Degenerate principal series representations
+In this section we discuss which degenerate principal series representation Π
+of G satisfies the bounded multiplicity property (1.1) for a symmetric pair
+(G, G′ ). In particular, we shall see that Theorems 1.1 and 1.2 hold if G is
+the automorphism group of a para-Hermitian symmetric space, see Table 4.1
+below for the list of such simple Lie algebras g.
+
+4.1     Bounded multiplicity theorems for the restriction
+        of degenerate principal series representations
+For a reductive Lie group G, we write GU for the compact real form of the
+complex Lie group GC with Lie algebra gC = Lie(G) ⊗R C.
+    For a Lie group P , we write Char(P ) for the set of the equivalence
+classes of one-dimensional representations of P , and Irr(P )f for that of finite-
+dimensional irreducible representations of P .
+    The following theorems are special cases of the general results [32, Thm.
+1.4].
+Theorem 4.1 ([32, Ex. 4.5]). Let G ⊃ G′ be a pair of real reductive algebraic
+Lie groups, and P a parabolic subgroup of G. Then one has the equivalence
+on the triple (G, G′ ; P ) :
+(i) One has
+                        sup  sup [IndGP (χ)|G′ : π] < ∞.
+                        χ∈Char(P ) π∈Irr(G′ )
+
+(ii) There exists C > 0 such that
+                             sup [IndG
+                                     P (ξ)|G′ : π] < C dim ξ
+                           π∈Irr(G′ )
+
+for any ξ ∈ Irr(P )f .
+(iii) GC /PC is strongly G′U -visible (Definition 2.7).
+(iv) GC /PC is G′C -spherical.
+Theorem 4.2 ([32, Cor. 4.10]). Let G be a real reductive algebraic Lie group,
+and Pj (j = 1, 2) parabolic subgroups. Then the following four conditions on
+the triple (G, P1 , P2 ) are equivalent:
+(i) One has
+                                                         G
+          sup          sup         sup [IndG
+                                           P1 (χ1 ) ⊗ IndP2 (χ2 ) : Π] < ∞.   (4.1)
+      χ1 ∈Char(P1 ) χ2 ∈Char(P2 ) Π∈Irr(G)
+
+
+                                                14
+(ii) There exists C > 0 such that
+
+               sup [IndG             G
+                       P1 (ξ1 ) ⊗ IndP2 (ξ2 ) : Π] ≤ C dim ξ1 dim ξ2
+             Π∈Irr(G)
+
+
+for any ξ1 , ξ2 ∈ Irr(P )f .
+(iii) (GC × GC )/(P1C × P2C ) is diag(GU )-strongly visible.
+(iv) (GC × GC )/(P1C × P2C ) is diag(GC )-spherical.
+
+Remark 4.3. (1) A distinguished feature in Theorem 4.1 is that the nec-
+essary and sufficient condition of the bounded multiplicity property is given
+only by the triple (gC , g′C , pC ) of complexified Lie algebras, which traces back
+to [19, 38].
+(2) For each complex symmetric pair (GC , G′C ), parabolic subgroups PC sat-
+isfying the sphericity condition (iv) were classified in [12]. See also [23, 49]
+for some classification of strongly visible actions.
+(3) Littelmann [44] classified the pairs of parabolic subgroups (P1 C , P2 C ) sat-
+isfying (iv) in Theorem 4.2 under the assumption that P1C and P2C are maxi-
+mal, whereas all the pairs (P1C , P2C ) satisfying the strong visibility condition
+(iii) in Theorem 4.2 were classified in [23] for type A and in Tanaka [49] for
+the other cases.
+
+   By Theorem 4.1, we are interested in the following question in connection
+with Theorem 1.1.
+
+Question 4.4. For which simple Lie group G, does there exist a parabolic
+subgroup P such that GC /PC is G′U -strongly visible (or equivalently, G′C -
+spherical) for all symmetric pairs (G, G′)?
+
+    We give an affirmative answer to this question if G is the automorphism
+group of a para-Hermitian symmetric space.
+    Let P = LN be a Levi decomposition of a parabolic subgroup P . Without
+loss of generality, we may and do assume that both G′ and L are stable under
+the Cartan involution θ of G. We write GU√      , G′U , and LU for the connected
+subgroups of GC with Lie algebra gU = k + −1p, g′U := g′C ∩ gU , and lU :=
+lC ∩ gU . We note that LU = PC ∩ GU . If the unipotent radical N is abelian,
+or equivalently, if (G, L) is a para-Hermitian symmetric pair, then GU /LU
+is a compact Hermitian symmetric space and the strong visibility condition
+(ii) in Theorem 4.1 for GU /LU ≃ GC /PC is satisfied for all symmetric pairs
+(GU , G′U ) by Fact 2.8. Similarly the strong visibility condition (ii) in Theorem
+
+                                        15
+4.2 for the tensor product case is satisfied if the unipotent radicals of P1 and
+P2 are abelian [24, Thm. 1.7].
+    Thus we have proved the following in answer to Question 4.4:
+Corollary 4.5. Let G be a non-compact simple Lie group, and G/L a para-
+Hermitian symmetric space. Then Theorem 1.1 holds for any symmetric pair
+(G, G′ ) by taking Π to be IndG
+                              P (ξ) for ξ ∈ Irr(P )f . Likewise, Theorem 1.2
+                                                    G
+holds by taking Π1 and Π2 to be IndG P (ξ1 ) and IndP (ξ2 ) for ξ1 , ξ2 ∈ Irr(P )f .
+
+
+4.2    Para-Hermitian symmetric spaces
+Kaneyuki–Kozai [16] gave a classification of para-Hermitian symmetric pairs
+(g, l) for simple Lie algebras g as in Table 4.1 below.
+
+                              g                   l
+                      sl(p + q, R)   sl(p, R) + sl(q, R) + R
+                        ∗
+                     su (2p + 2q)    su∗ (2p) + su∗ (2q) + R
+                      sl(p + q, C)   sl(p, C) + sl(q, C) + C
+                        su(n, n)           sl(n, C) + R
+                        so(n, n)           sl(n, R) + R
+                            ∗
+                        so (4n)            su∗ (2n) + R
+                       so(2n, C)           sl(n, C) + C
+                    so(p + 1, q + 1)       so(p, q) + R
+                     so(n + 2, C)          so(n, C) + C
+                        sp(n, R)           sl(n, R) + R
+                        sp(n, n)           su∗ (2n) + R
+                        sp(n, C)           sl(n, C) + C
+                           e6(6)           so(5, 5) + R
+                          e6(−26)          so(1, 9) + R
+                           e6,C           so(10, C) + C
+                           e7(7)             e6(6) + R
+                          e7(−25)           e6(−26) + R
+                           e7,C              e6,C + C
+
+
+      Table 4.1: List of para-Hermitian symmetric pairs with g simple
+
+    In particular, Theorem 1.1 holds if g is in Table 4.1. Similarly, Theorem
+1.2 for the tensor product representations hold if g is in Table 4.1 (see [32,
+
+                                        16
+Cor. 4.11]).
+
+
+5     Restriction of “smallest” representations
+This section provides a bounded multiplicity theorem for the restriction Π|G′
+when the associated variety V(Ann Π) of Π ∈ Irr(G) is the closure of the
+complex minimal nilpotent orbits. The main result of this section is Theorem
+5.5 which was proved in [33] under the assumption that g is absolutely simple.
+We shall see that the same line of argument works when g is a complex simple
+Lie algebra. At the end of this section, we give a proof of Theorems 1.1 and
+1.2 for simple Lie algebras g except for sp(p, q) and f4(−20) .
+
+5.1     Complex minimal nilpotent orbits Omin,C
+Let gC be a complex simple Lie algebra. There exists a unique non-zero
+minimal nilpotent (Int gC )-orbit in g∗C , which we denote by Omin,C . We write
+n(gC ) for half the (complex) dimension of Omin,C . Here is the formula of
+n(gC ), see [9] for example.
+
+         gC      An   Bn (n ≥ 2) Cn      Dn      gC2   fC4   eC6 eC7 eC8
+        n(gC )   n      2n − 2   n      2n − 3    3     8    11 17 29
+
+
+    Let G be a non-compact connected simple Lie group with Lie algebra
+g. We set gC := g ⊗R C. We note that gC is simple if g does not have
+a complex structure. For a complex simple Lie algebra g, we set n(gC ) :=
+2n(g). To see its meaning, we write J for the complex structure on g, and
+decompose gC = g ⊗R √C into the direct
+                                 √     sum of the eigenspaces ghol and ganti
+of J with eigenvalues −1 and − −1, respectively. Then one has a direct
+sum decomposition:
+
+          ∼                                 1    √         √
+    g ⊕ g → ghol ⊕ ganti = gC ,   (X, Y ) 7→ (X − −1JX, Y + −1JY ).
+                                            2
+Accordingly, the complexification GC of the complex Lie group G is given by
+the totally real embedding
+
+                           diag : G ֒→ G × G =: GC ,                       (5.1)
+
+                                      17
+where the second factor is equipped with the reverse complex structure. In
+this case, we set Omin,C := Omin × Omin where Omin is the minimal nilpotent
+orbit for g.
+
+5.2    Real minimal nilpotent orbits
+Let G be a connected non-compact simple Lie group. Denote by N the
+nilpotent cone in g, and N /G the set of nilpotent orbits, which may be
+identified with nilpotent coadjoint orbits in g∗ via the Killing form. The
+finite set N /G is a poset with respect to the closure ordering, and there
+are at most two minimal elements in (N \ {0})/G, which we refer to as real
+minimal nilpotent (coadjoint) orbits. See [5, 9, 40, 45] and references therein.
+The relationship with the complex minimal nilpotent orbits Omin,C in gC is
+summarized as below.
+Fact 5.1 (see e.g., [45]). Let g = k+p be a Cartan decomposition of a simple
+Lie algebra g. Then exactly one of the following cases occurs.
+(1) (g, k) is not of Hermitian type, and Omin,C ∩ g = ∅.
+(2) (g, k) is not of Hermitian type, and Omin,C ∩ g is a single orbit of G.
+(3) (g, k) is of Hermitian type, and Omin,C ∩ g consists of two orbits of G.
+    Correspondingly, we write Omin,C ∩ g = {Omin,R } in Case (2) of Fact
+5.1, Omin,C ∩ g = {O+          −
+                      min,R , Omin,R } in Case (3). Then they exhaust all real
+minimal nilpotent orbits in Cases (2) and (3). Real minimal nilpotent orbits
+are unique in Case (1), to be denoted by Omin,R . We set
+             (
+               1
+                 dim Omin,R                       in Cases (1) and (2),
+    m(g) := 12         +        1        −
+                                                                         (5.2)
+               2
+                 dim Omin,R = 2 dim Omin,R        in Case (3).
+
+                (
+                    Ad(GC )Omin,R                    in Cases (1) and (2),
+   OCmin,R :=
+                    Ad(GC )O+               −
+                            min,R = Ad(GC )Omin,R    in Case (3).
+
+Then m(g) = n(gC ) in Cases (2) and (3), and m(g) > n(gC ) in Case (1). The
+formula of m(g) in Case (1) is given in [45] as follows.
+
+         g      su∗ (2n) so(n − 1, 1)   sp(m, n)   f4(−20)       e6(−26)
+        m(g)    4n − 4      n−2       2(m + n) − 1   11            16
+
+
+                                        18
+   Here is a summary about when m(g) > n(gC ).
+
+Fact 5.2 ([5], [40, Cor. 5.9], [45, Prop. 4.1]). Suppose that g is absolutely
+simple. Then the following six conditions on g are equivalent:
+
+  (i) Omin ∩ g = ∅.
+
+ (ii) Omin,C 6= OCmin,R .
+
+(iii) θβ 6= −β.
+
+(iv) m(g) > n(gC ).
+
+ (v) g is compact or is isomorphic to su∗ (2n), so(n − 1, 1) (n ≥ 5), sp(m, n),
+     f4(−20) , or e6(−26) .
+
+(vi) gC = kC or the pair (gC , kC ) is isomorphic to (sl(2n, C), sp(n, C)),
+     (so(n, C), so(n − 1, C)) (n ≥ 5), (sp(m + n, C), sp(m, C) ⊕ sp(n, C)),
+     (fC4 , so(9, C)), or (eC6 , fC4 ).
+
+Remark 5.3. The equivalence (i) ⇐⇒ (v) was stated in [5, Prop. 4.1]
+without proof. One may find a proof in [45].
+
+5.3    Gelfand–Kirillov dimension
+The Gelfand–Kirillov dimension serves as a coarse measure of the “size” of
+representations. Let G be a real reductive Lie group. We recall from Section 2
+that for Π ∈ M(G), we denote by Ann Π the annihilator of Π in the universal
+enveloping algebra U(gC ) of the complexified Lie algebra gC . The associated
+variety V(Ann Π) is the closure of a single nilpotent coadjoint orbit in g∗C
+if Π ∈ Irr(G). The Gelfand–Kirillov dimension DIM(Π) of Π is defined to
+be half the dimension of V(Ann Π). The same notation will be applied for
+Harish-Chandra modules of finite length.
+    By definition, the Gelfand–Kirillov dimension has the following property:
+
+                  DIM(Π) = 0 ⇐⇒ Π is finite-dimensional.
+
+   For any infinite-dimensional Π ∈ Irr(G), one has
+
+                            (n(gC ) ≤) m(g) ≤ DIM(Π).                     (5.3)
+
+
+                                       19
+5.4    Coisotropic action on Omin,C
+As we saw in Section 2.6, any coadjoint orbit of a Lie group G is a Hamil-
+tonian G-manifold with the Kirillov–Kostant–Souriau symplectic form. We
+consider the holomorphic setting, and have proved in [33, Thm. 23] the fol-
+lowing:
+Fact 5.4. Let Omin,C be the minimal nilpotent coadjoint orbit of a connected
+complex simple Lie group GC .
+ (1) For any symmetric pair (GC , KC ), the KC -action on Omin,C is coisotropic.
+
+ (2) The diagonal action of GC on Omin,C × Omin,C is coisotropic.
+   In Section 6, we give a generalization of this statement, see Theorems 6.7
+and 6.8.
+
+5.5    Bounded multiplicity theorems
+In view of the inequality (5.3), one may think of Π ∈ Irr(G) satisfying
+DIM(Π) = n(gC ) as the “smallest” amongst infinite-dimensional irreducible
+representations of G. Minimal representations [11, 14, 48] are unitarizable
+and have this property. For G = SL(n, R), SL(n, C), or SU(p, q) (p, q > 0),
+the Joseph ideal is not defined, but there exist infinitely many irreducible
+unitary representations Π with DIM(Π) = n(gC ). In general, the coherent
+continuation of such representations obtained by the tensor product with
+finite-dimensional representations also satisfy DIM(Π) = n(gC ).
+    The restriction of such Π to arbitrary symmetric pairs (G, G′ ) has a
+bounded multiplicity property as follows.
+Theorem 5.5. Let G be a connected simple Lie group, and Π, Π1 , Π2 ∈
+Irr(G).
+ (1) If DIM(Π) = n(gC ), then for any symmetric pair (G, G′), one has
+
+                                sup [Π|G′ : π] < ∞.
+                              π∈Irr(G′ )
+
+
+ (2) If DIM(Π1 ) = DIM(Π2 ) = n(gC ), then one has
+
+                              sup [Π1 ⊗ Π2 : Π] < ∞.
+                            Π∈Irr(G)
+
+
+                                       20
+Remark 5.6. (1) When (G, G′ ) is a Riemannian symmetric pair, namely,
+G′ = K, Theorem 5.5 (1) for minimal representations Π is known by Kostant
+in a stronger from that the supremum is one, see [11, Prop. 4.10].
+(2) Theorem 5.5 was proved in [33, Thms. 7 and 8] by using Fact 5.4 when
+g is absolutely simple.
+Remark 5.7. We shall see in Theorem 6.1 and Remark 6.3 that Theorem
+5.5 still holds by replacing n(gC ) with m(g).
+Proof of Theorem 5.5. As we saw in Remark 5.6, it suffices to consider when
+G is a complex Lie group. In this case there are two types of involutions σ
+of G:
+    (1) (σ is holomorphic)      Gσ is a complex subgroup of G,
+    (2) (σ is anti-holomorphic) Gσ is a real form of G.
+    For simplicity, suppose that G′ is the identity component of Gσ . Then
+via the identification GC ≃ G × G in (5.1), one has
+                G′C ≃G′ × G′                        for (1),
+                 ′
+                GC ≃ diagσ (G) := {(g, σg) : g ∈ G} for (2).
+    Then G′C acts on Omin,C × Omin,C coisotropically in both cases (1) and
+(2) by Fact 5.4 (1) and (2), respectively. This implies the first statement
+of Theorem 5.5 by Theorem 2.11. On the other hand, GC × GC acts on
+(Omin,C × Omin,C ) × (Omin,C × Omin,C ) coisotropically by Fact 5.4 (2), whence
+the second statement of Theorem 5.5 follows.
+
+5.6    Proof of Theorems 1.1–1.2 except sp(p, q) and f4(−20)
+In order to apply Theorem 5.5, we need the existence of Π ∈ Irr(G) satisfying
+DIM(Π) = n(gC ). However, we know from the inequality (5.3) that there is
+no such Π if m(g) > n(gC ), namely, if g is in the list of Fact 5.2 (v). The
+converse is not true, but “almost” holds as follows.
+Lemma 5.8. Let G be a simply-connected non-compact simple Lie group.
+Then there exist an infinite-dimensional irreducible and unitarizable repre-
+sentation Π of G such that DIM(Π) = n(gC ), if g is not isomorphic to the
+following:
+
+
+             so(n, 1) (n ≥ 6), so(p, q) (p, q ≥ 4, p + q odd),
+             su∗ (2n), sp(p, q) (p, q ≥ 1), e6(−26) , f4(−20) .
+
+                                      21
+Proof. When g is of type A, one may take Π to be a degenerate principal
+series representation induced from a mirabolic subgroup for g = sl(n, F)
+(F = R, C), and a highest weight module of the smallest Gelfand–Kirillov
+dimension for g = su(p, q). When g is not of type A, one may take Π to be
+a minimal representation [48].
+Proof of Theorems 1.1 and 1.2 except for g = sp(p, q) and f4(−20) . If g is not
+in the list of Lemma 5.8, there exists Π ∈ Irr(G) such that DIM(Π) = n(gC ).
+Hence Theorem 5.5 applies. For g = su∗ (2n), so(p, q) or e6(−26) , one sees from
+Table 4.1 that G is the transformation group of a para-Hermitian symmetric
+space, hence Corollary 4.5 applies.
+
+
+6     Restriction of “small” representations
+This section completes the proof of Theorems 1.1 and 1.2. As we have seen,
+the remaining cases are when g = sp(p, q) and f4(−20) , for which there is
+no Π ∈ Irr(G) with DIM(Π) = n(gC ) and for which G does not admit a
+Hermitian or para-Hermitian symmetric space, hence none of Theorem 3.2,
+Corollary 4.5, or Theorem 5.5 applies. By the classification of irreducible
+symmetric pairs (Berger [2]), we need to treat the following symmetric pairs
+(g, g′ ):
+
+                   g                          g′
+               sp(p, q) u(p, q), sp(p1 , q1 ) + sp(p − p1 , q − q1 )
+                f4(−20)    so(9), so(8, 1), sp(2, 1) + sp(1)
+
+
+                   Table 6.1: Remaining symmetric pairs
+
+    The main results of this section is Theorem 6.1, which guarantees the
+bounded multiplicity property for the restriction Π|G′ for any Π ∈ Irr(G)
+satisfies DIM(Π) = m(g) (> n(gC )), and we complete the proof of Theorems
+1.1 and 1.2 in the end.
+
+6.1    Bounded multiplicity theorems
+Suppose that (G, G′ ) is a symmetric pair defined by an involution σ of G.
+We use the same letter σ to denote its holomorphic extension to a simply
+
+                                        22
+connected complexification GC , and also its differential. We set g−σ := {Y ∈
+g : σY = −Y }. We take a Cartan involution θ commuting with σ, and
+write g = k + p for the Cartan decomposition. We take a maximal split
+abelian subspace a to be σ-split, namely, a−σ := a ∩ g−σ is a maximal abelian
+subspace in p ∩ g−σ , and Σ+ (g, a) to be compatible with a positive system
+Σ+ (g, a−σ ). Let µ be the highest element in Σ+ (g, a). We prove:
+Theorem 6.1. Suppose Π ∈ Irr(G) satisfies DIM(Π) = m(g). If σµ = −µ,
+then the restriction Π|G′ has the bounded multiplicity property (1.1).
+    This theorem extends [33, Thm. 34], which treated σ = θ (Cartan invo-
+lution) or its conjugation by Int(gC ).
+Example 6.2. (1) The assumption σµ = −µ in Theorem 6.1 is automati-
+cally satisfied if a−σ = a, namely, if rankR G/G′ = rankR G. This is the case
+(g, g′ ) = (sp(p, q), u(p, q)) or g = f4(−20) .
+(2) A direct computation shows σµ = −µ for (g, g′ ) = (sp(p, q), sp(p1 , q1 ) +
+sp(p − p1 , q − q1 )).
+Remark 6.3. (1) If m(g) = n(gC ), the conclusion of Theorem 6.1 holds
+without the assumption σµ = −µ, see Theorem 5.5.
+(2) Okuda [46] verified that the assumption σµ = −µ is satisfied for all
+symmetric pairs (g, g′ ) if g is one of the five simple Lie algebras in Fact 5.2
+(v), namely, if m(g) > n(gC ).
+Remark 6.4. When m(g) = n(gC ), it may happen that σµ 6= −µ. Here are
+examples of such symmetric pairs.
+(1) (sl(2n, R), sp(n, R))
+(2) (su(2p, 2q), sp(p, q)), (su(n, n), sp(n, R))
+(3) (sp(p + q, R), sp(p, R) ⊕ sp(q, R)), (sp(2n, R), sp(n, C)),
+(4) (so(p, q), so(p − 1, q)) or (so(p, q), so(p, q − 1)) for “p ≥ q ≥ 4 and p ≡ q
+mod 2”, “p ≥ 5 and q = 2”, or “p ≥ 4 and q = 3”.
+(5) (f4(4) , so(5, 4)),
+(6) (e6(6) , f4(4) ), (e6(2) , f4(4) ), or (e6(−14) , f4(−20) ),
+(7) complex symmetric pairs in Fact 5.2 (vi).
+    The condition σµ 6= −µ yields an interesting phenomenon that the re-
+striction Π|G′ stays almost irreducible ([33, Thm. 10]) for any Π ∈ Irr(G) such
+that DIM(Π) = n(gC ). (Such Π exists in the above cases (1)–(7).) This gives
+a uniform explanation of the phenomena that have been observed in various
+literatures, for instance, as a well-known property of the Segal–Shale–Weil
+
+                                       23
+representation of the metaplectic group for the pair (3), the branching law
+of the minimal representation of O(p, q) in [35, Thm. A] for (4), that of a
+degenerate principal series representation from a mirabolic in [37, Thm. 7.3]
+for (1) (see also [6] for the complex case), that of a cohomological parabolic
+induction Aq (λ) in [26, Thm. 3.5] for (2), and that of a minimal highest
+weight module in Binegar–Zierau [3] for (e6(−14) , f4(−20) ) of (6), etc.
+
+6.2    Structural results on real minimal nilpotent orbits
+Retain the notation as in Section 5.2. The assumption DIM(Π) = m(g)
+means that the associated variety V(Ann Π) of Π is the closure of OCmin,R . In
+this section, we recall some basic facts on real minimal nilpotent orbits.
+    Let g = k + p be a Cartan decomposition of a simple Lie algebra g. We
+take a maximal abelian subspace a of p, and fix a positive system Σ+ (g, a) of
+the restricted root system Σ(g, a). Let m be the centralizer of a in k. Denote
+by µ the highest element in Σ+ (g, a), and Aµ ∈ a the coroot of µ. Any (real)
+minimal nilpotent coadjoint orbit O is of the form O = Ad(G)X for some
+non-zero element
+
+          X ∈ g(a; µ) := {X ∈ g : [H, X] = µ(H)X for all H ∈ a}
+
+via the identification g∗ ≃ g, and vice versa (e.g., [45]). Let GX be the
+stabilizer subgroup of X in G, and Zg (X) its Lie algebra. We take Y ∈
+g(a; −µ) such that {X, Aµ , Y } forms an sl2 -triple. We write slX  2 for the
+corresponding subalgebra in g. Since µ is the highest root in Σ+ (g, a), the
+representation theory of sl2 (R) tells us that possible eigenvalues of ad(Aµ )
+are 0, ±1, or ±2. Hence one has the eigenspace decomposition of ad(Aµ ) as
+
+                       g = g−2 ⊕ g−1 ⊕ g0 ⊕ g1 ⊕ g2 ,                    (6.1)
+
+where gj := Ker(ad(Aµ )−j). We note that g±2 = g(a; ±µ). Let a := dimR g1
+                                                                X
+and b := dimR g2 . We denote by Zg (slX
+                                      2 ) the centralizers of sl2 in g.
+
+Example 6.5. (1) For g = sp(p, q), a = 4(p + q − 2), b = 3, Zg (slX
+                                                                  2 ) ≃
+    sp(p − 1, q − 1) ⊕ R, and g0 ≃ sp(p − 1, q − 1) ⊕ sp(1) ⊕ R.
+
+ (2) For g = f4(−20) , one has a = 8, b = 7, Zg (slX
+                                                   2 ) ≃ spin(6), and g0 ≃
+     spin(7) ⊕ R.
+
+
+
+                                     24
+Lemma 6.6.      (1) The Lie algebra g decomposes as an slX
+                                                         2 -module:
+
+                                              2    3
+                            g ≃ Zg (slX
+                                      2 ) ⊕ aR ⊕ bR ,                    (6.2)
+      where R2 and R3 stand for the natural representation and the adjoint
+      representation of sl2 (R), respectively.
+ (2) One has a direct sum decomposition as a vector space:
+                            Zg (X) = Zg (slX
+                                           2 ) ⊕ g1 ⊕ g2 .               (6.3)
+
+ (3) The dimension of the adjoint orbit Ad(G)X is equal to a + 2b.
+ (4) g0 = Zg (slX
+                2 ) + (m ⊕ RAµ ).
+
+Proof. The first two assertions are immediate consequences of the repre-
+sentation theory of sl2 (R), whence the dimension formula of g/Zg (X). For
+the last assertion, the inclusion g0 ⊃ Zg (slX
+                                             2 ) + (m ⊕ RAµ ) is obvious. By
+the irreducible decomposition (6.2) of g as an slX    2 -module, one sees that
+g0 = Zg (slX
+           2 ) ⊕ [X, g(a; −µ)].  Since [g(a; µ), g(a; −µ)] ⊂ m + a and since
+                 X
+a ⊂ RAµ + Zg (sl2 ), the opposite inclusion follows.
+
+6.3    Coisotropic actions of GσC on OC
+                                      min,R .
+The proof of Theorem 6.1 is reduced to the following geometric properties
+by Theorem 2.11.
+Theorem 6.7. Assume σ satisfies σµ = −µ as in Theorem 6.1. Then the
+GσC -action on OCmin,R is coisotropic.
+Theorem 6.8. The diagonal action of GC on OCmin,R × OCmin,R is coisotropic.
+Remark 6.9. (1) Theorem 6.7 generalizes [33, Thm. 29] which treats the
+case σ = θ (Cartan involution).
+(2) Theorem 6.8 generalizes Fact 5.4 (2) which treats the case m(g) = n(gC ).
+   We take X ∈ g(a; µ) such that Omin,R = Ad(G)X, hence OCmin,R =
+Ad(GC )X via the isomorphism g∗C ≃ gC .
+   For the proof of Theorem 6.7, we begin with the following:
+Lemma 6.10. If σµ = −µ then
+          g = gσ + (m + RAµ ) + Zg (X) = gσ + Zg (X) + [X, g−2 ].
+
+                                      25
+Proof. Since σ(Aµ ) = −Aµ , one has σ(gj ) = g−j (j = 0, 1, 2). We set
+Y := σX ∈ g−2 = g(a; −µ). Then [X, Y ] ∈ g(a; 0) ∩ g−σ = a−σ . Hence,
+after an appropriate normalization, {X, σX, [X, σX]} forms an sl2 -triple. In
+particular, [X, g−2 ] = [Y, g2 ] is σ-stable. Since Zg (X) ⊃ g1 ⊕ g2 by Lemma
+6.6 (2), the decomposition (6.1) yields
+
+                          g =σ(Zg (X)) + g0 + Zg (X)
+                            =gσ + g0 + Zg (X).
+
+By Lemma 6.6 (4), the first equality of Lemma 6.10 follows because Zg (X) ⊃
+Zg (slX
+      2 ). Since g0 +Zg (X) = [X, g−2 ]+Zg (X) by the irreducible decomposition
+(6.2), the second equality holds.
+   We now give a proof of Theorems 6.7 and 6.8. For a complex simple Lie
+algebra g, the statement is reduced to Fact 5.4 as we have seen in the proof
+of Theorem 5.5. So it suffices to treat the case where g is absolutely simple.
+Proof of Theorem 6.7. We set L := M exp(RAµ ), and
+
+                     S := Ad(L)X ⊂ Omin,R = Ad(G)X.
+
+Then Ad(Gσ )S is open in Omin,R by Lemma 6.10. We now verify the condition
+of Lemma 2.10:
+
+                (gσ + Zg (W ))⊥ ⊂ [W, gσ ]     for all W ∈ S.             (6.4)
+
+Since S ⊂ g(a; µ), it suffices to show (6.4) for W = X. By the second
+equality in Lemma 6.10, one has (gσ + Zg (X))⊥ ⊂ [X, g−2 ]. Since σ(g−2 ) = g2
+is abelian, one has
+
+              [X, g−2 ] = {[X, V + σ(V )] : V ∈ g−2 } ⊂ [X, gσ ].
+
+Thus (6.4) is shown.
+Proof of Theorem 6.8. The coadjoint orbit OCmin,R is of the form OCmin,R =
+Ad(GC )X ≃ GC /(GC )X for any non-zero X ∈ g(a; µ) via the identification
+g∗C ≃ gC . We take Y ∈ g(a; −µ) such that {X, Aµ , Y } forms an sl2 -triple as
+before. Since OCmin,R contains Y , one can also write as OCmin,R = Ad(GC )Y ≃
+GC /(GC )Y . Then Lemma 6.6 implies that
+
+                       g = Zg (Y ) + (m + RAµ ) + Zg (X).                 (6.5)
+
+                                      26
+   We take any nonzero Y ′ ∈ g(a; −µ). We claim
+
+                 (diag g + Zg⊕g (X, Y ′ ))⊥ ⊂ [(X, Y ′ ), diag g].         (6.6)
+
+In fact, by using the decomposition (6.1) via the sl2 -triple {X, Aµ , Y }, one
+has Zg (Y ′ ) ⊃ g−1 ⊕ g−2 , hence
+
+   (Zg (X) + Zg (Y ′ ))⊥ ⊂ (Zg (X) ⊕ g−1 ⊕ g−2 )⊥ = [X, g−2 ] = [X, g(a; −µ)]
+
+by the representation theory of slX                                ′
+                                  2 . Switching the role of X and Y , one sees
+
+                      (Zg (X) + Zg (Y ′ ))⊥ ⊂ [Y ′ , g(a; µ)].
+
+Hence the left-hand side of (6.6) is contained in
+
+                 {(Z, −Z) : Z ∈ [X, g(a; −µ)] ∩ [Y ′ , g(a; µ)]},
+
+which is a subspace of [(X, Y ′ ), diag g] because both g(a; µ) and g(a; −µ) are
+abelian. Hence (6.6) is shown.
+    We set LC := MC exp(CAµ ) and S := {(Ad(ℓ)X, Ad(ℓ−1 )Y ) : ℓ ∈ LC }.
+By (6.5), diag(GC )S is open dense in OCmin,R × OCmin,R in light of the identifi-
+cation diag(GC )\(GC × GC ) ≃ GC , (x, y) 7→ x−1 y.
+    Similarly to (6.6), one obtains the following inclusion:
+
+(diag(gC ) + ZgC ⊕gC (Ad(ℓ)X, Ad(ℓ−1 )Y ))⊥ ⊂ [(Ad(ℓ)X, Ad(ℓ−1 )Y ), diag(gC )]
+
+for any ℓ ∈ LC . Thus Theorem 6.8 follows from Lemma 2.10.
+
+6.4    Singular representations of Sp(p, q) and F4(−20)
+In this section, we verify the existence of Π ∈ Irr(G) satisfying DIM(Π) =
+m(g) for g = sp(p, q) or f4(−20) . Actually, one can take Π to be the globaliza-
+tion of Zuckerman’s module Aq (λ), a cohomological parabolic induction for
+some θ-stable parabolic subalgebra q in gC .
+    In what follows, we write q = lC + u for the Levi decomposition of a θ-
+stable parabolic subalgebra q of gC = kC +pC , where lC is the complexified Lie
+algebra of L = NG (q), the normalizer of q in G. Then the Gelfand–Kirillov
+dimension of Aq (λ) is the complex dimension of Ad(KC )(u ∩ pC ), see e.g.,
+[21].
+
+
+                                        27
+Lemma 6.11. Let G = Sp(p, q), and q be a θ-stable parabolic subalgebra with
+L ≃ T × Sp(p − 1, q) or Sp(p, q − 1) × T. Then DIM(Aq (λ)) = 2(p + q) − 1.
+
+Proof. We identify pC ≃ M(2p, 2q; C). Then Ad(KC )(u ∩ pC ) is contained in
+the variety of rank one matrices for the above parabolic subalgebra q, which
+is of complex dimension 2(p + q) − 1. Hence DIM(Aq (λ)) ≤ 2(p + q) − 1.
+Since DIM(Aq (λ)) ≥ m(g) = 2(p + q) − 1, we obtain the desired equality.
+
+Lemma 6.12. Let G = F4(−20) , and q be one of θ-stable parabolic subalgebras
+of gC in [39, Table C.4]. Then DIM(Aq (λ)) = 11.
+
+Proof. For g = f4(−20) , there are three real nilpotent coadjoint orbits, and
+their dimensions are 0, 22, 30. This implies that DIM(Π) ∈ {0, 11, 15} for
+any Π ∈ Irr(G).
+    The asymptotic K-support (Section 2.3) of Aq (λ) has the following upper
+estimate ASK (Aq (λ)) ⊂ R+ hu∩pC i, see [20, Ex. 3.2] and the notation therein.
+    As we saw in [39], the asymptotic K-support ASK (Aq (λ)) for the parabolic
+subalgebra q under consideration is strictly smaller than that of a principal
+series representation of G. In turn, by [30, Prop. 2.6], we conclude that
+DIM(Aq (λ)) < m(g) = 15. Hence DIM(Aq (λ)) = 11.
+
+Remark 6.13. The Gelfand–Kirillov dimensions of irreducible representa-
+tions are known for the group of real rank one. In particular, one may observe
+from [8, Fig. 8.16] that DIM : Irr(F4(−20) ) → {0, 11, 15} is surjective.
+
+Proof of Theorems 1.1 and 1.2. We have shown at the end of Section 5 that
+the remaining cases are g = sp(p, q) or f4(−20) . For these Lie algebras, the
+assumption σµ = −µ in Theorem 6.1 is satisfied (see Example 6.2). On
+the other hand, we also have verified that there exists Π ∈ Irr(G) with
+DIM(Π) = m(g) for these Lie algebras g. Hence Theorem 6.1 covers the
+remaining cases, and completes the proof of Theorems 1.1 and 1.2.
+
+   hAcknowledgementi This work was partially supported by Grant-in-
+Aid for Scientific Research (A) (18H03669), JSPS. The author would like to
+thank the anonymous referee for making helpful comments. Thanks are also
+due to Toshihisa Kubo for reading carefully the first draft of this paper.
+
+
+
+
+                                      28
+References
+ [1] E. P. van den Ban, Invariant differential operators on a semisimple symmetric
+     space and finite multiplicities in a Plancherel formula, Ark. Mat., 25 (1987)
+     175–187.
+
+ [2] M. Berger, Les espaces symétriques non-compacts, Ann. Sci. École Norm.
+     Sup. (3) 74 (1957), 85–177.
+
+ [3] B. Binegar, R. Zierau, A singular representation of E6 , Trans. Amer. Math.
+     Soc., 341 (1994), 771–785.
+
+ [4] W. Borho, J. Brylinski, Differential operators on homogeneous spaces I:
+     irreducibility of the associated variety, Invent. Math., 69 (1982), 437–476,
+
+ [5] R. Brylinski, Geometric quantization of real minimal nilpotent orbits, Differ-
+     ential Geom. Appl. 9 (1998), 5–58.
+
+ [6] P. Clare, On the degenerate principal series of complex symplectic groups, J.
+     Funct. Anal. 262 (2012), 4160–4180.
+
+ [7] J.-L. Clerc, Singular conformally invariant trilinear forms, I: The multiplicity
+     one theorem, Transform. Groups 21 (2016), 619–652.
+
+ [8] D. H. Collingwood, Representations of Rank One Lie Groups, Research Notes
+     in Mathematics, 137, Pitman, 1985, vii+244pp.
+
+ [9] D. H. Collingwood, W. M. McGovern, Nilpotent Orbits in Semisimple Lie Al-
+     gebras, Van Nostrand Reinhold Mathematics Series, Van Nostrand Reinhold
+     Co., New York, 1993, xiv+186pp.
+
+[10] M. Duflo, E. Galina, J. A. Vargas, Square integrable representations of re-
+     ductive Lie groups with admissible restriction to SL2 (R), J. Lie Theory, 27,
+     (2017), 1033–1056.
+
+[11] W. T. Gan, G. Savin, On minimal representations definitions and properties,
+     Represent. Theory 9 (2005), 46–93.
+
+[12] X. He, K. Nishiyama, H. Ochiai, Y. Oshima, On orbits in double flag varieties
+     for symmetric pairs, Transform. Groups, 18 (2013), 1091–1136.
+
+[13] A. T. Huckleberry, T. Wurzbacher, Multiplicity-free complex manifolds,
+     Math. Ann. 286 (1990), 261–280.
+
+
+                                        29
+[14] A. Joseph, The minimal orbit in a simple Lie algebra and its associated max-
+     imal ideal, Ann. Sci. Ecole Norm. Sup. 9 (1976), 1–29.
+
+[15] A. Joseph, On the associated variety of a primitive ideal, J. Algebra, 93
+     (1985), 509–523.
+
+[16] S. Kaneyuki, M. Kozai, Paracomplex structures and affine symmetric spaces,
+     Tokyo J. Math., 8 (1985), 81–98.
+
+[17] M. Kitagawa, Uniformly bounded multiplicities, polynomial identities and
+     coisotropic actions, arXiv:2109.05555v2.
+
+[18] T. Kobayashi, Discrete decomposability of the restriction of Aq (λ) with re-
+     spect to reductive subgroups and its applications, Invent. Math., 117 (1994),
+     181–205.
+
+[19] T. Kobayashi, Introduction to harmonic analysis on real spherical homoge-
+     neous spaces, In: Proceedings of the 3rd Summer School on Number Theory
+     “Homogeneous Spaces and Automorphic Forms” in Nagano, (ed. F. Sato),
+     1995, 22–41.
+
+[20] T. Kobayashi, Discrete decomposability of the restriction of Aq (λ) with respect
+     to reductive subgroups II—micro-local analysis and asymptotic K-support,
+     Ann. of Math., 147 (1998), 709–729.
+
+[21] T. Kobayashi, Discrete decomposability of the restriction of Aq (λ) with re-
+     spect to reductive subgroups III—restriction of Harish-Chandra modules and
+     associated varieties, Invent. Math., 131 (1998), 229–256.
+
+[22] T. Kobayashi, Discrete series representations for the orbit spaces arising from
+     two involutions of real reductive Lie groups, J. Funct. Anal. 152 (1998), 100–
+     135.
+
+[23] T. Kobayashi, Multiplicity-free representations and visible actions on complex
+     manifolds, Publ. Res. Inst. Math. Sci., 41 (2005), 497–549, special issue
+     commemorating the fortieth anniversary of the founding of RIMS.
+
+[24] T. Kobayashi, Visible actions on symmetric spaces, Transform. Groups, 12
+     (2007), 671–694.
+
+[25] T. Kobayashi, Multiplicity-free theorems of the restrictions of unitary highest
+     weight modules with respect to reductive symmetric pairs, Progr. Math., 255
+     (2007), 45–109.
+
+
+                                         30
+[26] T. Kobayashi, Branching problems of Zuckerman derived functor modules, In:
+     Representation Theory and Mathematical Physics —In Honor of G. Zucker-
+     man, (eds. J. Adams, B. Lian, and S. Sahi), Contemp. Math., 557, 23–40,
+     Amer. Math. Soc., Providence, RI, 2011.
+
+[27] T. Kobayashi, Shintani functions, real spherical manifolds, and symmetry
+     breaking operators, Dev. Math., 37 (2014), 127–159.
+
+[28] T. Kobayashi, A program for branching problems in the representation theory
+     of real reductive groups, In: Representations of Reductive Groups—In Honor
+     of the 60th Birthday of David A. Vogan, Jr., Progr. Math., 312, Birkhäuser,
+     2015, 277–322.
+
+[29] T. Kobayashi, Branching laws of unitary representations associated to min-
+     imal elliptic orbits for indefinite orthogonal group O(p, q), Adv. Math., 388
+     (2021), Paper No. 107862, 38pp.
+
+[30] T. Kobayashi, Admissible restrictions of irreducible representations of re-
+     ductive Lie groups: Symplectic geometry and discrete decomposability, Pure
+     Appl. Math. Q. 17 (2021), 1321–1343, Special volume in memory of Bertram
+     Kostant.
+
+[31] T. Kobayashi, Multiplicity in restricting small representations, Proc. Japan
+     Acad. Ser. A, 98 (2022), 19–24.
+
+[32] T. Kobayashi, Bounded multiplicity theorems for induction and restriction.
+     J. Lie Theory 32 (2022), 197–238.
+
+[33] T. Kobayashi, Multiplicity in restricting minimal representations, Springer
+     Proc. Math. Stat. 396 (2022), 1–18. Available also at arXiv:2204.05079.
+
+[34] T. Kobayashi, T. Matsuki, Classification of finite-multiplicity symmetric
+     pairs, Transform. Groups, 19 (2014), 457–493, Special issue in honor of
+     Dynkin for his 90th birthday.
+
+[35] T. Kobayashi, B. Ørsted, Analysis on the minimal representation of O(p, q).
+     II. Branching laws. Adv. Math. 180 (2003), 513–550.
+
+[36] T. Kobayashi, B. Ørsted, M. Pevzner, Geometric analysis on small unitary
+     representations of GL(N, R), J. Funct. Anal. 260 (2011), 1682–1720.
+
+[37] T. Kobayashi, B. Ørsted, M. Pevzner, A. Unterberger, Composition formulas
+     in the Weyl calculus, J. Funct. Anal., 257 (2009), 948–991.
+
+
+                                       31
+[38] T. Kobayashi, T. Oshima, Finite multiplicity theorems for induction and re-
+     striction, Adv. Math., 248 (2013), 921–944.
+
+[39] T. Kobayashi, Y. Oshima, Classification of discretely decomposable Aq (λ) with
+     respect to reductive symmetric pairs, Adv. Math., 231 (2012), 2013–2047.
+
+[40] T. Kobayashi, Y. Oshima, Classification of symmetric pairs with discretely de-
+     composable restrictions of (g, K)-modules. J. Reine Angew. Math. 703 (2015),
+     201–223.
+
+[41] T. Kobayashi, B. Speh, Symmetry Breaking for Representations of Rank One
+     Orthogonal Groups, (2015), Mem. Amer. Math. Soc. 238 no.1126, 118 pages.
+
+[42] T. Kobayashi, B. Speh, Symmetry Breaking for Representations of Rank One
+     Orthogonal Groups, Part II, Lecture Notes in Math., 2234 Springer, 2018.
+     xv+342 pages.
+
+[43] M. Krämer, Multiplicity free subgroups of compact connected Lie groups,
+     Arch. Math. (Basel) 27, (1976), 28–36.
+
+[44] P. Littelmann, On spherical double cones, J. Algebra, 166 (1994), 142–157.
+
+[45] T. Okuda, Smallest complex nilpotent orbits with real points. J. Lie Theory
+     25 (2015), 507–533.
+
+[46] T. Okuda, Some remarks on real minimal nilpotent orbits and symmetric
+     pairs, in preparation.
+
+[47] B. Sun, C.-B. Zhu, Multiplicity one theorems: the Archimedean case, Ann. of
+     Math. (2), 175 (2012), 23–44.
+
+[48] H. Tamori, Classification of minimal representations of real simple Lie groups.
+     Math. Z. 292 (2019), 387–402.
+
+[49] Y. Tanaka, Classification of visible actions on flag varieties, Proc. Japan
+     Acad. Ser. A Math. Sci., 88 (2012), 91–96.
+
+[50] T. Tauchi, A generalization of the Kobayashi–Oshima uniformly bounded mul-
+     tiplicity theorem, Internat. J. Math., 32 (2021), 2150107.
+
+[51] N. R. Wallach, Real reductive groups. I, II, Pure Appl. Math. 132 Academic
+     Press, Inc., Boston, MA, 1988; 132-II, ibid, 1992.
+
+
+
+
+                                        32
+

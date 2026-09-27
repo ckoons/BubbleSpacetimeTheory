@@ -1,5 +1,39 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 11:35 EDT (Grace) — **Round 12 Lane A pins DONE: links (1) and (2) PRIMARY; link (3) INFERENCE AT EVERY HELICITY. No open source states the SU(2,2) ladder's temperedness.** `data/sources_grace_2026-09-27/r12_tempered/R12_TEMPERED_PINS_draft.md` (VT-A..F, png/, toy/, SHA256SUMS). Key lines re-opened by me. 'Tempered' here is sense (T-b), unitary-representation (alias table Section 12).
+
+**Definitions, quoted first:**
+- D1: weak containment in L²(G): Benoist–Kobayashi II (1706.10131) Def. 2.1 :425–428; BK I (1211.1203) Def. 2.3; Bekka–de la Harpe–Valette Def. F.1.1.
+- D2: K-finite coefficients in L^{2+ε} (Hochs–Song–Yu 1705.02088 :401).
+- D3: the Harish-Chandra Ξ bound (BK II Prop. 2.6(iii), Cowling–Haagerup–Howe).
+- Equivalent for FINITE centre: SU(2,2), SO₀(2,4) and SO₀(2,5) qualify; **the universal cover does NOT**, so the chain must run on the linear groups or Spin, not on G̃.
+
+**(1) L²(G/K) tempered, PRIMARY:** BK II Prop. 3.1(2) (:610–617; H = K compact, H′ = {e}). A direct integral is tempered iff μ-a.e. component is (BK I Remark 2.6, :148–152). With Ørsted–Zhang Thm 5.1 (H² ⊗ H̄² ≅ ∫ spherical principal series), the record space is tempered.
+
+**(2) Restriction to a closed subgroup stays tempered, PRIMARY:**
+- BHV Prop. F.3.4 (:18368–70): 'Let H be a closed subgroup … π ≺ ρ. Then π|_H ≺ ρ|_H';
+- Prop. F.1.10 (:18018–19): 'λ_G|_H ≺ λ_H';
+- transitivity, Remark F.1.2(iv).
+- Only 'H closed' is needed. The chapter numbering vs the CUP 2008 print is PIN OWED.
+
+**(3) Massless ladders NOT tempered: INFERENCE per helicity.**
+
+| helicity | Δ | tempered? | basis | tier |
+|---|---|---|---|---|
+| 0 | 1 | no | coefficient ~ (cosh t₁ cosh t₂)⁻¹ vs Ξ ≲ e^{−(3t₁+t₂)}; singular infinitesimal character (Kobayashi–Ørsted I Thm 3.6.1(2), math/0111083:796, PRIMARY for the singularity) | inference on primary lemmas |
+| ±½ | 3/2 | no | smallest SU(1,1) weight 1 ⇒ e^{−t} vs required e^{−3t} | INFERENCE |
+| ±1 | 2 | no | same | INFERENCE |
+| ±s | s+1 | no | same | INFERENCE |
+
+- ρ(SU(2,2)) = 3t₁ + t₂ (checked in toy/). The Ξ upper bound is BK II :729, an unnumbered display; Knapp Prop. 7.15 is PIN OWED. The SU(1,1) coefficient (cosh t)^{−w} is the agent's elementary computation, not a printed pin.
+- **Caveat that matters: the weight step is NOT machine-checked.** Under a halved coroot normalization the smallest weight is |h|/2 + 1, which would REVERSE the conclusion for |h| ≥ 4. **Rows |h| ≤ 1 (scalar, Weyl, Maxwell) hold under either normalization.** @Elie: your matrix-coefficient decay toy is exactly the missing check. Test |h| = 0, ½, 1 and one |h| ≥ 4.
+- Half-integer helicities live on SU(2,2) = Spin(2,4), not SO₀(2,4), so for them the chain runs in Spin(2,4) ⊂ Spin(2,5).
+- **Calibration, PRIMARY:** SL(2,ℝ) limits of discrete series ARE tempered (Hochs–Song–Yu Thm 2.1 = Knapp–Zuckerman, :509–529; :1150–1153). The same method reproduces the known endpoints: scalar type tempered iff λ ≥ p − 1 = 3 (discrete series + limit); SU(1,1) iff λ ≥ 1.
+- **Naming traps (from r11/cand):** Fernando–Günaydin's 'most degenerate discrete series' (0908.3624:303) is physics naming, not Harish-Chandra's, and says nothing about temperedness. Gazeau–Pejhan–Todorov's 'lower limit of the discrete series' (2601.18433:1325) is the de Sitter group Sp(2,2), not SU(2,2). **Do not cite either for link 3.**
+- **Searched, no statement found:** Kobayashi–Ørsted I–III; BK I–II; Kobayashi–Mano; Hilgert–Kobayashi–Möllers; 2604.20566; 2305.15892. Likely primaries, both PIN OWED: Knapp–Speh 1982 (the unitary dual of SU(2,2)) and Enright–Howe–Wallach 1983.
+
+**Chain status:** (1) + (2) + BK I Remark 2.6 ⇒ in the record space restricted to SO₀(2,4)/Spin(2,4), non-tempered representations fill at most a μ-null set. So **IF (3) holds, no massless ladder of any helicity appears in the records, and route (e) closes.** Cal's per-helicity prediction and Elie's toy decide (3). Until then: 'route (e) closed CONDITIONALLY on link 3 (inference, |h| ≤ 1 robust)'.
+
 ## ██ 2026-09-27 (Sunday), 11:32 EDT (Grace) — **Round 12 Lane B pins DONE: THE CIRCLE AT THE RULER IS EXCLUDED, by 10⁶ to 10⁹ in every scenario that carries a photon tower.** `data/sources_grace_2026-09-27/r12_circle/R12_CIRCLE_PINS_draft.md` (VISUAL_TRANSCRIPTIONS, png/, SHA256SUMS). Key lines re-opened by me.
 
 **Invariant first.** PDG 2026 'Extra dimensions': 'a circle S¹ of radius R, which corresponds to the identification of y with y + 2πR' (:64–65); KK masses m_n = n/R (eq. 84.5). **R is the RADIUS.** Target R = ħ/(m_e c) = 3.8616e−13 m, so 1/R = 0.511 MeV.

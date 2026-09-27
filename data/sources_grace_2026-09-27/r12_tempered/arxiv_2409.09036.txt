@@ -1,0 +1,1090 @@
+                                             A Paley-Wiener theorem for the Joint-Eigenspace Fourier
+                                                    transform on noncompact symmetric spaces.
+
+                                                                    Olufemi O. Oyadare
+
+
+
+
+arXiv:2409.09036v1 [math.FA] 20 Aug 2024
+                                                                  Department of Mathematics,
+                                                                  Obafemi Awolowo University,
+                                                                   Ile-Ife, 220005, NIGERIA.
+                                                                  E-mail: femi oya@yahoo.com
+
+                                                Abstract. This paper conducts a geometric analysis of the Joint-
+                                                Eigenspace Fourier transform of the symmetric space of the non-
+                                                compact type. Our study shows how the Poisson transform builds
+                                                up the well-known Helgason Fourier transform for an analysis
+                                                of the complete duality of the underlying symetric space. Among
+                                                other results, we establish an inversion formula, a Plancherel for-
+                                                mula and (as our main result) a Paley-Wiener theorem for the
+                                                Joint-Eigenspace Fourier transform on any noncompact symmet-
+                                                ric space.
+
+
+
+
+                                           2020 Mathematics Subject Classification: 53C35, 43A90, 42A38
+                                           Keywords: Fourier Transform: Noncompact symmetric spaces: Harish-Chandra
+                                           spherical transform: Helgason Fourier transform.
+§1. Introduction.
+    This paper considers another aspect of the duality of the symmetric spaces
+of the noncompact type in which the Poisson transform builds up the Hel-
+gason Fourier transform into the Joint-Eigenspace Fourier transform, thus
+leading to a complete duality of these spaces.
+    We consider a noncompact connected semisimple Lie groups G with a
+maximal compact subgroup K whose Iwasawa decomposition is G = KAN.
+The structure theory of G may be found in [30.] and [53.]. The quotient
+space X = G/K is then called the symmetric space of the noncompact type
+on which is defined the well-known Helgason Fourier transform. The Joint-
+Eigenspace Fourier transform is the Fourier transform on X which factors
+into the Helgason Fourier transform on X and the Poisson transform on
+B = K/M (for the centralizer M of A in K). In this respect, we see the
+Joint-Eigenspace Fourier transform on X as the completion of the Helgason
+Fourier transform on X onto the joint-eigenspace of the underlying symmet-
+ric space. This crucial observation makes the fine structure of the joint-
+eigenspace representations to be readily available to the Joint-Eigenspace
+Fourier transform for further understanding of the symmetric spaces X via
+the Joint-Eigenspace Fourier transform on X.
+    The Joint-Eigenspace Fourier transform was passively noticed and briefly
+mentioned in relation to the compact symmetric space in Helgason [30.], p.
+327, and referred to as “a genuine Fourier transform” on X whose range
+questions “have significant applications to differential equations.” This gen-
+uine Fourier transform was however never extracted nor studied out of the
+unfounded fear of having to deal with two genuine Fourier transforms on
+X, when the Helgason Fourier transform on X had already performed well
+enough to the satisfaction of many. The present paper shows the need not
+to entertain any such fear as the Joint-Eigenspace Fourier transform on X is
+here shown to simply complete the journey of the Helgason Fourier transform
+on X onto being a full joint-eigenspace Fourier transform on X, by general-
+izing the Paley-Wiener theorem ([23.]) for the Helgason Fourier transform to
+the Paley-Wiener theorem for the Joint-Eigenspace Fourier transform.
+    The topic of Paley-Wiener type theorems via the Helgason Fourier trans-
+form on nocompact symmetric spaces and its applications into diverse fields
+of research is a vast and very active research area of mathematics since it
+was first considered by Paley and Wiener in the context of the Fourier trans-
+form on a space of functions of a complex variable. The more recent works
+
+                                      2
+of Alberti, G. S., Bartolucci, F., De Mari, F., De Vito, E. [1.] developed
+a variation of the Helgason’s theory of dual G−homogeneous pairs leading
+to the establishment of intertwining properties and inversion formulae for
+some Radon transforms and to an application to classical Radon and X−ray
+transforms in R3 . The paper of Arcozzi, N., Monguzzi, A., Peloso, M. M.,
+Salvatori, M. [2.] proved the Paley-Wiener type theorems for some spaces
+of holomorphic functions on the Siegel upper half space, which included the
+Hardy space, the weighted Bergmann spaces, the weighted Dirichlet spaces,
+the Drury-Arveson spaces and the Dirichlet spaces, as well as some structure
+theorems and applications.
+     Asta, D. M. [6.] establishes the minimax rate of convergence for the ker-
+nel density estimate on symmetric spaces of noncompact type through the
+abstraction of the vector space operations on Euclidean spaces to symmetric
+spaces and a reparametrization of the Helgason Fourier transform on such
+spaces. The subject of reproducing kernels also gets the attention of geome-
+ters as Baranov, A., Belov, Y., Borichev, A. [7.] generalizes a theorem of
+Young and Belov on the reproducing kernels in the Paley-Wiener space by
+showing the completeness of a biorthogonal system (to a complete system)
+and that of a minimal system of reproducing kernels. Indeed for other trans-
+forms, Bardaro, C., Butzer, P. L., Mantellini, I., Schmeisser, G. [8.] contains
+a new approach to the subject of Paley-Wiener theorem for the Mellin trans-
+forms based on the Riemannian surfaces of the logarithm in Mellin-Bernstein
+spaces. Knowing fully well that the theory of the Helgason Fourier trans-
+form essentially involves other notable transforms, Bartolucci, F., De Mari,
+F., Monti, M. [11.] studied the unitarity of the Horocyclic Radon transform
+on symmetric spaces in the general case where the quasi regular representa-
+tion of the group of isometries of the symmetric space is not irreducible nor
+is it square-integrable.
+     The reader may wish to consult recent works by Bernstein, S., Faustino,
+N. [12.], Dalai, R. K., Ghosh, S., Srivastava, R. K. [13.], Din, A. Y. [14.],
+Dong, C.-P. [15.], Eichinger, B., Woracek, H. [23.], Gimperlein, H., Krotz,
+B., Kuit, J. J., Schlichtkrull, H. [24.], Heins, M., Moucha, A., Roth, O.
+[26.], Li, J., Lu, G., Yang, Q. [31.], Lu, G., Yang, Q. [32.], Pesenson, I.
+Z. [39.], [40.], Picardello, M. A., Salvatori, M., Woess, W. [41.], Sadiq, K.,
+Tamasan, A. [42.], Sherman, A. [43.], Sonoda, S., Ishikawa, I., Ikeda, M. [44.],
+Suzuki, K. [45.] and Weiske, C., Yu, J., Zhang, G. [56.] for various uses of the
+Helgason Fourier transform on different symmetric spaces and the necessity
+of the Paley-Wiener results in theory and applications.
+
+                                       3
+    The paper is organised as follows. §2. contains some preliminaries on
+G and its symmetric space X = G/K. Here the necessity of having the
+Joint-Eigenspace Fourier transform on X was motivated from the structure
+of the Harish-Chandra spherical transform on G as an extension and a gen-
+eralization of the Harish-Chandra spherical transform on G, extended in
+order to encapsulate the Helgason Fourier transform of X. We also prove an
+inversion and a Plancherel formulae for the Joint-Eigenspace Fourier trans-
+form and give its corresponding c−function in terms of the Harish-Chandra
+c−function. The image of the Helgason Fourier transform under the Poisson
+transform is the subject considered in some details in §3. Here we justify
+the choice of the name “Joint-Eigenspace Fourier transform,” verify that the
+Joint-Eigenspace Fourier transform is a Fourier transform on the whole of
+X, which factors into the Helgason Fourier transform on X and the Poisson
+transform on B = K/M, state a functional equation satisfied by this trans-
+form and prove the main result which gives a Paley-Wiener theorem for the
+Joint-Eigenspace Fourier transform on X.
+
+§2. The Joint-Eigenspace Fourier transform on a symmetric space.
+    Let G be a connected semisimple Lie group with finite center, we denote
+its Lie algebra by g whose Cartan decomposition is given as g = t⊕p. Denote
+by θ the Cartan involution on g whose collection of fixed points is t. We also
+denote by K the analytic subgroup of G with Lie algebra t. K is then a
+maximal compact subgroup of G, [50.]. Choose a maximal abelian subspace
+a of p with algebraic dual a∗ and set A = exp a. For every λ ∈ a∗ put
+                  gλ = {X ∈ g : [H, X] = λ(H)X, ∀H ∈ a},
+and call λ a restricted root of (g, a) whenever gλ 6= {0} ([30.]). Denote by a′
+the open subset of a where all restricted roots are 6= 0, and call its connected
+components the Weyl chambers. Let a+ be one of the Weyl chambers, define
+the restricted root λ positive whenever it is positive on a+ and denote by △+
+the set of all restricted positive roots. Members of △+ which form a basis for
+△ and can not be written as a linear combination of other members of △+
+are called simple, [50.]. We then have the Iwasawa decompositionP G = KAN,
+where N is the analytic subgroup of G corresponding to n = λ∈△+ gλ , and
+the polar decomposition G = K · cl(A+ ) · K, with A+ = exp a+ , and cl(A+ )
+denoting the closure of A+ .
+    If we set M = {k ∈ K : Ad(k)H = H, H ∈ a} and M ′ = {k ∈
+K : Ad(k)a ⊂ a} and call them the centralizer and normalizer of a in K,
+
+                                       4
+respectively, then (see [27.]); (i) M and M ′ are compact and have the same
+Lie algebra and (ii) the factor w = M ′ /M is a finite group called the Weyl
+group. w acts on a∗C as a group of linear transformations by the requirement
+
+                              (sλ)(H) = λ(s−1 H),
+
+H ∈ a, s ∈ w, λ ∈ a∗C , the complexification of a∗ . We then have the Bruhat
+decomposition                       G
+                               G=       Bms B
+                                      s∈w
+
+where B = MAN is a closed subgroup of G and ms ∈ M ′ is the representative
+of s (i.e., s = ms M). The Weyl group invariant members of a space shall be
+denoted by the superscript w .
+    Some of the most important functions on G are the spherical functions
+which we now discuss as follows. A non-zero continuous function ϕ on G shall
+be called a (zonal) spherical function whenever ϕ(e) = 1, ϕ ∈ C(G//K) :=
+{g ∈ C(G): g(k1xk2 ) = g(x), k1 , k2 ∈ K, x ∈ G}
+                                              R and f ∗−1ϕ = (f ∗ ϕ)(e) · ϕ
+for every f ∈ Cc (G//K), where (f ∗ g)(x) := G f (y)g(y x)dy ([9.]). This
+leads to the existence of a homomorphism λ : Cc (G//K) → C given as
+λ(f ) = (f ∗ ϕ)(e). This definition is equivalent to the satisfaction of the
+functional relation
+                   Z
+                     ϕ(xky)dk = ϕ(x)ϕ(y), x, y ∈ G, [29.].
+                   K
+
+    It has been shown by Harish-Chandra that spherical functions on G can
+be parametrized by members of a∗C . Indeed every spherical function on G is
+of the form                  Z
+                    ϕλ (x) =    e(iλ−p)H(xk) dk, λ ∈ a∗C ,
+                                 K
+         P
+ρ = 21   λ∈△+ mλ · λ, where mλ = dim(gλ ), and that ϕλ = ϕµ iff λ = sµ for
+some s ∈ w ([3.]). Some of the well-known properties of spherical functions
+are ϕ−λ (x−1 ) = ϕλ (x), ϕ−λ (x) = ϕ̄λ̄ (x), | ϕλ (x) |≤ ϕℜλ (x), | ϕλ (x) |≤
+ϕiℑλ (x), ϕ−iρ (x) = 1, λ ∈ a∗C , while | ϕλ (x) |≤ ϕ0 (x), λ ∈ ia∗ , x ∈ G, [50.].
+Also if Ω is the Casimir operator on G then
+
+                          Ωϕλ = −(hλ, λi + hρ, ρi)ϕλ ,
+
+where λ ∈ a∗C and hλ, µi := tr(adHλ adHµ ) for elements Hλ , Hµ ∈ a ([55.]).
+The elements Hλ , Hµ ∈ a are uniquely defined by the requirement that
+
+                                        5
+λ(H) = tr(adH adHλ ) and µ(H) = tr(adH adHµ ) for every H ∈ a ([27.],
+Theorem 4.2). Clearly Ωϕ0 = 0, [35.].
+    Due to a hint dropped by Dixmier in his discussion of some functional cal-
+culus, it is necessary to recall the notion of a ‘positive-definite’ function and
+then discuss the situation for positive-definite spherical functions. We call
+a continuous function f : G → C (algebraically) positive-definite whenever,
+for all x1 , . . . , xm in G and all α1 , . . . , αm in C, we have
+                             m
+                             X
+                                     αi ᾱj f (x−1
+                                                i xj ) ≥ 0.
+                             i,j=1
+
+
+It can be shown (cf. [27.]) that f (e) ≥ 0 and |f (x)| ≤ f (e) for every x ∈ G
+implying that the space ℘ of all positive-definite spherical functions on G is
+a subset of the space F1 of all bounded spherical functions on G, [14.].
+    We know, by the Helgason-Johnson theorem (See [29.]), that
+
+                                     F1 = a∗ + iCρ
+
+where Cρ is the convex hull of {sρ : s ∈ w} in a∗ ([15.]). Defining the
+involution f ∗ of f as f ∗ (x) = f (x−1 ), it follows that f = f ∗ for every f ∈ ℘,
+and if ϕλ ∈ ℘, then λ and λ̄ are Weyl group conjugate, leading to a realization
+of ℘ as a subset of w \ a∗C . ℘ becomes a locally compact Hausdorff space when
+endowed with the weak ∗ −topology as a subset of L∞ (G).
+    We shall refer to X = G/K as the symmetric space (of the groups G of
+isometries) of the noncompact type. For λ ∈ a∗C , we denote Cc (X) by E(X)
+and define the joint-eigenspace corresponding to λ as
+
+          Eλ(X) := {f ∈ E(X) : Df = Γ(D)(iλ)f for D ∈ D(X)},
+
+where D(X) is the algebra of differential operators on X that are invari-
+ant under all translations. See also [51.] and [54.]. Given that g ∈ G let
+H(g), A(g) ∈ a be determined the Iwasawa decompositions of g as
+
+                      g = k1 exp H(g)n1 = n2 exp A(g)k2
+
+in which k1 , k2 ∈ K and n1 , n2 ∈ N. It follows therefore that A(g) = −H(g −1 )
+as a function on G and, as a function on G/K × K/M, we have that
+
+                     A(gK, kM) = A(k −1 g) = −H(g −1 k).
+
+                                            6
+    Let the notation be as specified above. The fundamental theorem of
+harmonic analysis on any such group G is the explicit computation and/or
+characterization of a well-defined Fourier map on space Cc∞ (G) of test func-
+tions or on the Harish-Chandra Schwartz space C(G), (See [3.], [4.], [5.]),
+or on C p (G) (for 0 < p ≤ 2), (See [46.], [48.], [49.]). The two types being
+commonly considered are the scalar-valued Fourier transform map and the
+vector-valued Fourier transform map. The scalar-valued map is the well-
+known Harish-Chandra spherical Fourier transform on G (also called the
+spherical transform) given as f 7→ f˜ on C p (G) and defined as
+                                   Z
+                           ˜
+                           f (λ) =   f (g)ϕ−λ(g)dg,
+                                        G
+
+whenever the integral is absolutely convergent. Several authors have consid-
+ered different aspect of the image of this map and the reader may see Oyadare
+[35.] for an orientation. Notable results were established by Ehrenpreis and
+Mautner (20., [21.], [22.]), Arthur ([3.], [4.], [5.]), Trombi-Varadarajan ([25],
+[50.]), Trombi ([46.], [48.], [49]), Eguchi ([16.], [17.], [18.], [19.]) and Oyadare
+([33.], [34.], [35.], [36.], [37.], [38.]).
+    The major result concerning the scalar-valued Harish-Chandra Fourier
+transform f 7→ f˜ on G is the following which gives explicit for he map.
+    2.1 Theorem (Oyadare [35.]). The scalar-valued Harish-Chandra Fourier
+transform f 7→ f˜ is a Fréchet linear topological Schwartz algebra isomor-
+phism of C p (G) with
+                                                                b
+                 {(Hξ1 )−1 · h · (Hξ1 )−1 : h ∈ Z̄(Fǫ )} ( C p (G),
+where Z̄(Fǫ ) is the Trombi-Varadarajan image . 
+     Notations are as in [25.] and [35.]. Following the trend of results around
+the works of Trombi, it became also necessary to seek the fundamental the-
+orem of harmonic analysis on G via the operator-valued Harish-Chandra
+Fourier transform f 7→ F (f ) on G. Employing a technique of L. Garding it
+bcame possible to characterize and to use a basis to explicitly compute its
+image. This was fully achieved by Oyadare [38.]
+     2.2 Theorem (Oyadare [38.]). The operator-valued Harish-Chandra
+Fourier transform f 7→ F f is a Fréchet linear topological Schwartz alge-
+bra isomorphism of C p (G) with the Schwartz Fréchet multiplication algebra
+     b consisting of block matrices of the form
+C p (G)
+       ((FB (ᾰ)(γ,m) (Λ) ⊗ FH (ᾰ)(γ,l) (Q : χ : ν))γ∈F,(l,m)∈Z2 )F ⊂K̂,|F |<∞. 
+
+                                            7
+    Notations are as in [10.] and [38.]. The case of G = SL(2, R) is contained
+in [10.] and [52.], while the symmetric space was considered in [19.].
+    It is clear from the comparison of these major landmarks (Theorems 2.1
+and 2.2) that the scalar-valued transform is an entry in the countable-matrix
+realization of the operator-valued transform, via the basis employed.
+    A closer consideration of the properties of the elementary spherical func-
+tions (used in the definition of the scalar-valued Harish-Chandra Fourier
+transform) shows that
+                               ϕ−λ (g) = ϕλ (g −1 ),
+for all g ∈ G, λ ∈ a∗C . This equality allows us to re-write the scalar-valued
+Fourier transform formula as
+                                   Z
+                           ˜
+                           f (λ) =    f (g)ϕ−λ(g)dg
+                                      G
+                                    Z
+                                =           f (g)ϕλ(g −1)dg
+                                        G
+                                    Z
+                                =           f (g)ϕλ(eg −1)dg
+                                        G
+
+                                 = (f ∗ ϕλ )(e),
+where we have written e for the identity element of G and ∗ for the con-
+volution of functions on G. This computation shows that the scalar-valued
+Harish-Chandra Fourier transform is actually a convolution of every member
+of of the space C p (G) with each of the elementary spherical functions on G
+and that this convolution is then evaluated at e. It would therefore be of gen-
+eral importance if we could consider a convolution of members of the space
+C p (G) with each of the elementary spherical functions on G (or with each of
+the Eisenstein integral on G) evaluated at any point of G, which may not
+necessarily be at the identity element e.
+     Our first motivation is to therefore consider the map
+
+                                    f 7→ Hg f,
+
+for every g ∈ G, f ∈ C p (G), where
+
+                           (Hg f )(λ) = (f ∗ ϕλ )(g).
+
+
+
+                                            8
+It is clear that (He f )(λ) = (f ∗ϕλ )(e) = f˜(λ). This is the Fourier transform on
+G earlier considered (and named the spherical-convolution transform) in Oy-
+adare [33.] where some of its properties were discussed leading to a Placherel
+formula with the computation of its corresponding measure.
+     The natural map π : G → G/K also suggests an extension of the
+spherical-convolution Fourier map f 7→ Hg f (for g ∈ G) to the map f 7→ Hx f
+(for x ∈ G/K). This may be termed the group-to-symmetric-space extension
+of the spherical-convolution Fourier transform. It would also be of consid-
+erable importance to study this group-to-symmetric-space extension of the
+Fourier transform and relate it with the known Fourier transform on G/K.
+This is our aim in this paper.
+     It is well known that a Fourier transform has already been defined and
+studied on G/K, called the Helgason Fourier transform. Explicitly, if f is a
+function defined on X = G/K, then its Helgason Fourier transform
+
+                                        f 7→ fˆ
+
+is given as                         Z
+                       fˆ(λ, b) =       f (x)e(−iλ+ρ)(A(x,b)) dx
+                                    X
+
+for all λ ∈ a∗C , b ∈ B = K/M for which the integral exists [29.]. The Helgason
+Fourier transform is itself an extension (but not a generalization) of the
+Harish-Chandra Fourier transform as given in the following.
+    2.3 Lemma (Helgason [29.], p. 224). The Helgason Fourier transform
+is an extension of the Harish-Chandra (spherical) Fourier transform from
+K−invariant functions on X to not-necessarily K−invariant functions on X.
+    Proof. Consider any K−invariant function f (on X) in the Helgason
+Fourier transform. We could then replace f with its translations f τ (k) and
+recall that
+                   A(τ (k)x, b) = A(k · x, b) = A(x, k −1 b),
+[27.]. This makes the above formula of the Helgason Fourier transform to be
+independent of b,
+                R which  when integrated over b and using the elementary fact
+                    (iλ+ρ)(A(kg))
+that ϕλ (gK) = K e                dk, leads to the formula of the Harish-Chandra
+Fourier transform. 
+    This means that the Helgason Fourier transform on X reduces to the for-
+mula for the Harish-Chandra spherical Fourier transform when K−invariant
+functions are under consideration. This lemma then suggests explicitly that,
+
+
+                                           9
+for K−invariant functions f on X, the Helgason Fourier transform f 7→ fˆ is
+explicitly given as
+
+                  fˆ(λ, b) = f˜(λ) = (f ∗ ϕλ )(e) = (He f )(λ).
+
+   Just as the spherical-convolution transform on G generalizes the Harish-
+Chandra Fourier transform on G (which has now been extended to the Hel-
+gason Fourier transform on X), one would like to seek a generalization of the
+Helgason Fourier transform on X via the spherical-convolution transform’s
+extension from G to X = G/K. This quest leads us to the consideration of
+the map
+                                 f 7→ Hx f
+for x ∈ G/K = X defined as
+
+                          (Hx f )(λ) = (f × ϕλ )(x),
+
+where ϕλ is the elementary spherical functions on X and × is the convolution
+of functions on X defined as
+
+                      (f1 × f2 ) ◦ π := (f1 ◦ π) ∗ (f2 ◦ π)
+
+for the natural map π : G → G/K [28.]. The following is a cautionary
+observation in relation to the extensions mentioned above.
+    2.4 Lemma. The transformation map f 7→ Hx f defined above for x ∈ X,
+f ∈ C(X), does not restrict to the Helgason Fourier transform on X.
+    Proof. Denote the identity of X by ē. Then
+                                                 Z
+   (Hē f )(λ) = (f × ϕλ )(ē) = (f × ϕλ )(eK) =   f (g · eK)ϕλ (g −1 · eK)dg,
+                                                  G
+
+which is not equal to fˆ(λ, b). 
+    The above lemma does not erode the fact of Lemma 2.3 and does not
+preclude the possibility of the transformation map f 7→ Hx f coinciding with
+the Helgason Fourier transform on a special class of functions on X, but it
+however reveals that we now have a completely different transform on X at
+hand which we now christen as follows.
+    2.5 Defnition. Let x ∈ X = G/K. We shall refer to the transformation
+map f 7→ Hx f as the Joint-Eigenspace Fourier transform on X which is
+given as
+                           (Hx f )(λ) = (f × ϕλ )(x),
+
+                                       10
+for f ∈ Cc (X), λ ∈ a∗C and the elementary spherical functions ϕλ on X. 
+    The choice of this name will be made clear after Theorem 3.4 ahead
+while more would still be said about the relationship between the Helgason
+Fourier transform on X and the Joint-Eigenspace Fourier transform on X
+after Theorem 2.8 below. Specific examples and their detailed computations
+for the Joint-Eigenspace Fourier trasform on X is to be found in [8.], [29.]
+and [32.].
+    For 0 < p ≤ 2 and x ∈ X, the image of the Joint-Eigenspace Fourier
+transform on X is given as the set
+
+               Cxp (a∗C ) := {Hx f : λ 7→ (Hx f )(λ), f ∈ C p (X)}}.
+
+It is thus very important to give explicit description of Cxp (a∗C ). The beauty
+inherent in the Joint-Eigenspace Fourier transform on X (over and above the
+Helgason Fourier transform) is that the map f 7→ Hx f could be considered
+both as a functions of x in X and as a function of λ in a∗C .
+    The defining convolution of the Joint-Eigenspace Fourier transform on X
+was briefly considered as a function of X by Helgason [29.] (but not as a
+Fourier transform on X) leading to its integral representation in terms of the
+Helgason Fourier transform on X given as follows.
+    2.6 Lemma (Helgason [29], p. 225). Given that f ∈ D(X) := Cc∞ (X)
+and λ ∈ a∗C , then
+                                 Z
+                    (Hx f )(λ) =    e(iλ+ρ)(A(x,b)) fˆ(λ, b)db.
+                                     B
+                                         R
+    Proof. (Hx f )(λ) = (f × ϕλ )(x) = G f (g · ē)ϕλ (g −1 · x)dg as an integral
+over G. Using the symmetry    of the spherical function ϕλ (as a function on G)
+                      R (iλ+ρ)(A(kh))
+               −1
+given as ϕλ (g h) = K e                e(−iλ+ρ)(A(kg)) dk (Helgason [29], p. 224)
+and the identity A(gK, kM) = A(k −1 g) (for g ∈ G, k ∈ K) we have the
+result. 
+    When further considered as a function of x, Helgason computed the Hel-
+gason Fourier transform of the Joint-Eigenspace Fourier transform showing
+the intimate interconnection between the two Fourier transforms on X which
+is restated in the notation of Definition 2.5 as follows.
+    2.7 Lemma. Let f ∈ D(X). Then
+
+                         (Hˆx f )(λ, b) = fˆ(λ, b) · ϕˆµ (λ),
+
+λ, µ ∈ a∗C .
+
+                                         11
+    Proof. We already know that (Hx f )(µ) = (f × ϕµ )(x), whose Helgason
+Fourier transform is given as Lemma 1.4 in Helgason [29], p. 226. 
+    It is clear that the elementary spherical function ϕµ are K−bi-invariant as
+functions on X. In particular, each ϕµ is K−invariant, so that ϕˆµ (λ) = ϕ˜µ (λ).
+The import of the result of Lemma 2.7 is that the Helgason Fourier transform
+of the Joint-Eigenspace Fourier transform (of f ∈ Cc (X), when the Joint-
+Eigenspace Fourier transform is considered as a function on X = G/K) is
+a non-zero constant multiple (by the constant c = ϕ˜µ (λ)) of the (oridinary)
+Helgason Fourier transform of f. This connection would help to deduce results
+for the Joint-Eigenspace Fourier transform from results already established
+for the Helgason Fourier transform
+                                                 1
+                       f 7→ fˆ(λ, b) =                (Hˆx f )(λ, b).
+                                              ϕ˜µ (λ)
+
+    It appears that there was no much interest in any consideration of the
+Joint-Eigenspace Fourier transform on X as a function of λ ∈ a∗C in much
+similarity with the detailed treatments of both the Harish-Chandra spherical
+Fourier transform f 7→ f˜(λ) and the Helgason Fourier transform f 7→ fˆ(λ, b),
+as such a treatment of the Joint-Eigenspace Fourier transform on X (as a
+map f 7→ (Hx f )(λ) of λ) could have led to a better understanding of the
+joint-eigenspaces on X. Our aim is to kick-start this study. It is however of
+interest to further note the striking similarity between the inversion formulae
+for both the Harish-Chandra spherical Fourier transform on G (Barker [10])
+and the Joint-Eigenspace Fourier transform on X established as follows.
+    2.8 Theorem. For every f ∈ D(X) we always have
+                                   Z
+                      f (x) = w −1
+                                      (Hx f )(λ)|c(λ)|−2dλ,
+                                         a∗
+
+where w is the order of the Weyl group and c(λ) is the Harish-Chandra
+c−function.
+   Proof. It has been shown in Theorem 1.3 of Helgason [29.], p. 225, that
+                         Z Z
+            f (x) = w −1
+                             e(iλ+ρ)(A(x,b)) fˆ(λ, b))|c(λ)|−2dλdb.
+                              a∗   B
+
+Hence,                        Z Z
+             f (x) = w   −1
+                                       e(iλ+ρ)(A(x,b)) fˆ(λ, b))|c(λ)|−2 dλdb
+                              a∗   B
+
+                                              12
+                         Z         Z
+               =w   −1
+                               (           e(iλ+ρ)(A(x,b)) fˆ(λ, b))db)|c(λ)|−2 dλ
+                          a∗           B
+                                            Z
+                             =w        −1
+                                                     (Hx f )(λ)|c(λ)|−2dλ,
+                                                a∗
+by the use of Lemma 2.6 above. 
+    The inversion formula for the Joint-Eigenspace Fourier transform on X,
+given in Theorem 2.8 above, was curiously notes in [29.], p. 327, as the non-
+compact analogue of the convergent expansion of an arbitrary function on a
+compact symmetric space and, with the perspective of the Harish-Chandra’s
+inversion formula for the K−bi-invariant functions
+                           Z
+                   F (h) =     f (ghkK)dk (f ∈ Cc (X)),
+                                           K
+
+we have that                                   Z
+                         F (h) = c                    F̂ (λ)ϕλ (h)|c(λ)|−2dλ
+                                                 a∗
+
+into which we could insert F̂ (λ) = (f × ϕλ )(gK) = (f × ϕλ )(x) = (Hx f )(λ).
+Hence Theorem 2.8 Our proof in Theorem 2.8 above is however from the in-
+dependent recognition of the Joint-Eigenspace Fourier transform as a Fourier
+transform on X.
+    This now makes it clear that, just as the Helgason Fourier transform is an
+extension of the Harish-Chandra spherical Fourier transform from K−invariant
+functions on X to not necessarily K−invariant functions on X (Recall Lemma
+2.3), the following is the two way bridge between the Helgason Fourier trans-
+form on X and the Joint-Eigenspace Fourier transform on X.
+    2.9 Theorem.
+         R           Let f ∈ D(X) and consider the K−bi-invariant functions
+F (h) = K f (ghkK)dk in D(G). Then the Joint-Eigenspace Fourier trans-
+form on X of any f ∈ D(X) is exactly the Helgason Fourier transform of
+F (on G) as an extension of the Harish-Chandra spherical transform to X.
+That is,
+                          (Hx f )(λ) = F̂ (λ), λ ∈ a∗ . 
+   It is clear that the Helgason Fourier transform F̂ (λ) in the above Theorem
+2.9 is essentially the extended Harish-Chandra spherical transform of the
+K−bi-invariant functions F. This theorem gives a formal link between these
+two genuine Fourier transforms on a noncompact symmetric space and is the
+two-way correspondence between them.
+
+
+                                                         13
+   Theorem 2.8 directly leads to the Plancherel formula for the Joint-Eigenspace
+Fourier transform on X for which we set
+
+                           a∗+ = {λ ∈ a : Aλ ∈ a+ },
+
+where Aλ is characterized by the Killing form requirement that B(Aλ , H) =
+λ(H) for all H ∈ a.
+    2.10 Theorem. The Joint-Eigenspace Fourier transform f 7→ (Hx f )(λ)
+on X extends to an isometry of L2 (X) onto L2 (a∗+ × B), whose measure is
+given as |ϕˆµ (λ)|−2 |c(λ)|−2 dλdb on a∗+ × B. Moreover,
+          Z                 Z
+                      2
+               |f (x)| dx =        |(Hˆx f )(λ, b)|2 |ϕˆµ (λ)|−2 |c(λ)|−2dλdb.
+           X                a∗+ ×B
+
+
+    Proof. The Helgason Fourier transform f 7→ fˆ(λ, b) extends to an isom-
+etry of L2 (X) onto L2 (a∗+ × B), whose measure is given as |c(λ)|−2dλdb on
+a∗+ × B ([29], p. 227), from where it is known that
+                 Z               Z
+                           2
+                    |f (x)| dx =        |fˆ(λ, b)|2 |c(λ)|−2 dλdb.
+                  X                  a∗+ ×B
+
+Using the fact of Lemma 2.7 above establishes the result. 
+   Theorem 2.10 above gives the group-to-symmetric-space extension of the
+Plancherel formula for the spherical convolution transform on G established
+in Oyadare [33.] as Theorem 4.7. It is observed that we still have on X (as we
+had on G in [33.]) that |ϕˆµ (λ)|−2 |c(λ)|−2 dλdb is the Plancherel measure of the
+Joint-Eigenspace Fourier transform on a∗+ ×B. This observation confirms that
+the c−function that is associated with the inversion of the Joint-Eigenspace
+Fourier transform on X is simply given as ϕˆµ (λ)c(λ).
+
+§3. Poisson image of the Helgason Fourier transform.
+                                                             ′
+    A horocycle in X = G/K is defined to be any orbit N · x, where x ∈ X
+        ′
+and N is any subgroup of G = KAN conjugate to N. We shall denote
+the collection of horocycles on X as Ξ and endow it with the differentiable
+structure of G/MN. Ξ would be seen as the dual space of X ([1.], [11.]) under
+a very general transform on X defined as follows.
+    3.1 Definition.
+           R          The Radon transform of a function f on X is defined
+    ˆ
+as f (ξ) = ξ f (x)ds(x), for all ξ ∈ Ξ for which the integral exists.
+    The Radon transform is an injective map as explicitly stated below.
+
+                                          14
+    3.2 Theorem ([29], p. 104). If f ∈ L1 (X), then fˆ(ξ) exists for almost
+all ξ ∈ Ξ and if fˆ(ξ) = 0 for almost all ξ ∈ Ξ then f (x) = 0 for almost all
+x ∈ X. 
+    Now let ξ(x, b) denote the horocycle passing through the point x ∈ X
+with normal b ∈ B = K/M. We shall denote by A(x, b) ∈ a the composite
+metric from the origin to ξ(x, b). For λ ∈ a∗C , b ∈ B, the function
+
+                      eλ,b : x 7→ eλ,b (x) := e(iλ+ρ)(A(x,b))
+
+is a joint-eigenfunction of D(X) and belongs to the joint-eigenspace E(X).
+Considering g ∈ G for which x = gK ∈ G/K, the integral
+                            Z             Z
+                   ϕλ (g) =   eλ,b (gK) =   e(iλ+ρ)(A(gK,b))
+                             B                 B
+
+is an elementary spherical function on G while
+
+                      us (x) = e−isρ,b (x) = e(sρ+ρ)(A(x,b))
+
+is a harmonic function on X for each s ∈ W. We the harmonic function
+us=1(x) = u1 (x) = e2ρ(A(x,b)) is known as the Poisson kernel ([6.]) and this
+informed the use of eλ,b (x) as a kernel to create a map C(B) → Eλ (X) defined
+as follows.
+    3.3 Definition. The Poisson transform Pλ of a function F on B is
+defined as                        Z
+                        Pλ (x) =     e(iλ+ρ)(A(x,b)) F (b)db,
+                                  B
+x ∈ X.
+   The Poisson transform Pλ maps C(B) into the joint-eigenspace Eλ (X).
+The first connection of the Poisson transform with the Joint-Eigenspace
+Fourier transform is via Lemma 2.6 above, giving the Joint-Eigenspace Fourier
+transform on X as a composition of the Poisson transform on the Helgason
+Fourier transform on X given as follows.
+   3.4 Theorem. Given that f ∈ D(X) and λ ∈ a∗C then
+
+                         (Hx f )(λ) = (Pλ fˆ(λ, ·))(x),
+
+where fˆ(λ, ·) ∈ C(B), for each λ. In particular, the Joint-Eigenspace Fourier
+transform on X maps C(X) into the joint-eihenspace Eλ (X).
+
+
+                                        15
+   Proof. It is already known, from Lemma 2.6, that
+                                 Z
+                    (Hx f )(λ) =   e(iλ+ρ)(A(x,b)) fˆ(λ, b)db,
+                                    B
+
+which by Definition 3.3, may be seen as the Poisson transform of the function
+F = fˆ(λ, ·) in C(B). That is,
+                         (Hx f )(λ) = (Pλ fˆ(λ, ·))(x). 
+    In other words, the Joint-Eigenspace Fourier transform on X is a Fourier
+transform on the whole of X (as a lift of the Harish-Chandra spherical Fourier
+transform on G to the symmetric space X = G/K) which does not restrict
+to the Helgason Fourier transform on X, for all of the entire function space
+D(X). It may however be possible to extract a non-empty subspace of D(X)
+on which we have the identity (Hx f )(λ) ≡ fˆ(λ, b), for all x ∈ X and for all
+b ∈ B = K/M. Such a subspace of D(X), if it exists, would contain exactly
+those f ∈ D(X) on which Pλ ≡ 1, the identity map on C(B). Let us therefore
+set O(X) to be defined as
+     O(X) = {f ∈ D(X) : (Hx f )(λ) ≡ fˆ(λ, b), x ∈ X, b ∈ B = K/M},
+whenever it exists ([29.], [51.]).
+   A summary of the (inter-)relationships among the Helgason Fourier trans-
+form, the Poisson transform and the Joint-Eigenspace Fourier transform is
+presented by the following diagram:
+                               ˆ
+                     C(X) →f (λ,b) → C(B) →Pλ → Eλ (X),
+whose composition is the Joint-Eigenspace Fourier transform on X.
+    The diagram justifies the choice of the name in Definition 2.5 above. It
+explains how the Poisson transform completes the duality of the Helgason
+Fourier transform into a the joint-eigenspace Eλ (X) all of which are embodied
+in the Joint-Eigenspace Fourier transform on X. This observation had also
+been made for the spherical convolution transform on G in Oyadare [33.]. It is
+therefore clear from Theorem 3.4 how the surjectivity of the Joint-Eigenspace
+Fourier transform on X could be deduced from the properties of the Helgason
+Fourier transform and the Poisson transform.                      P
+    If, in particular, λ ∈ a∗C satisfies Re(< iλ, α >) > 0 for α ∈ + , bo is the
+origin eM in B = K/M then, for H ∈ a+ and at = exp tH, we have
+                  lim e(−iλ+ρ)(tH) (Hat ·o f )(λ) = c(λ)fˆ(λ, bo ).
+                  t→∞
+
+
+                                        16
+Indeed,
+                                                               Z
+   lim e  (−iλ+ρ)(tH)
+                        (Hat ·o f )(λ) = lim e   (−iλ+ρ)(tH)
+                                                                       e(iλ+ρ)(A(at ·o,b)) fˆ(λ, b)db
+  t→∞                                      t→∞                     B
+
+
+                                          = c(λ)fˆ(λ, bo ),
+by Theorem 3.16 of [29.], p. 120.                            P+
+   3.5 Lemma. Given that Re(< iλ, α >) > 0 for α ∈                and some
+     ∗                               +
+λ ∈ aC , then, for at = exp tH, H ∈ a and bo as the origin eM in B = K/M,
+we have that
+
+                   lim e(−iλ+ρ)(tH) (Hat ·o f )(λ) = c(λ)fˆ(λ, bo ). 
+                   t→∞
+
+   We equally have a functional equation for the Joint-Eigenspace Fourier
+transform on X given as
+                   Z
+                     (Hgk·x f )(λ)dk = ϕλ (x)(Hg·ē f )(λ)
+                            K
+
+for x ∈ X, g ∈ G, f ∈ Cc∞ (X).
+    In order to now establish a Paley-Wiener theorem for the Joint-Eigenspace
+Fourier transform on X we shall examine closely both the Paley-Wiener the-
+orem for the Helgason Fourier transform on X and the bijectivity of the
+Poisson transform. To this end, we shall refer to a C ∞ function ψ(λ, b),
+λ ∈ a∗C , b ∈ B, as being a holomorphic function of uniform exponential type
+and hence belonging to the space HR (a∗ × B), if it is holomorphic in λ and
+if there exists a constant R ≥ 0 such that for each N ∈ Z+ ,
+
+                          sup        e−R|Imλ| (1 + |λ|)N |ψ(λ, b)| < ∞,
+                        λ∈a∗C ,b∈B
+
+
+where Imλ is the imaginary part of λ and |λ| is its modulus. We set
+                                    [
+                      H(a∗ × B) =      HR (a∗ × B)
+                                                 R>0
+
+and denote by H(a∗ × B)W as members of H(a∗ × B) which are Weyl group
+invariant. Members of H(a∗ × B)W may be viewed as being of the form
+ψ(λ, b) = ψλ (b), so that H(a∗ × B)W ⊂ C(B) = the domain of the Poisson
+transform, Pλ . Thus the Weyl group invariance of members ψ(λ, b) = ψλ (b) ∈
+
+                                                 17
+H(a∗ × B)W may be stated in terms of Pλ as Psλ (ψsλ ) = Pλ (ψλ ) for each
+s ∈ W. That is,
+            Z                                Z
+                 (isλ+ρ)(A(x,b))
+                e                ψsλ (b)db =   e(iλ+ρ)(A(x,b)) ψλ (b)db
+              B                              B
+
+for each s ∈ W. The following is the crucial Paley-Wiener theorem for the
+Helgason Fourier transform.
+    3.6 Theorem ([29.], p. 270). The Helgason Fourier transform f 7→
+f (λ, b) is a bijection of Cc∞ (X) onto H(a∗ × B)W . Moreover, ψ = fˆ is in
+ ˆ
+H(a∗ × B)W iff supp(f ) ⊂ Cl(BR (0)). 
+    The earlier diagram connecting the three transforms of this paper now
+becomes refined as
+                           ˆ
+                Cc∞ (X) →f (λ,b) → H(a∗ × B)W →Pλ → Eλ (X).
+
+   It is now very clear that it is not a coincidence that the Poisson trans-
+form is naturally included in the definition of the Paley-Wiener space for the
+Helgason Fourier transform on X. Our contribution in this respect is to ex-
+plore this fact to complement the journey of the Helgason Fourier transform
+on X. We believe that this natural involvement of the Poisson transform in
+the image-construction of the Paley-Wiener space for the Helgason Fourier
+transform on X is meant to complement the Helgason Fourier transform and
+to build it up into the status of a Joint-Eigenspace Fourier transform on X.
+We now embark on the completion of the building up of Helgason Fourier
+transform on X.
+   Let eβ be the es∗ −function for Gβ /Kβ in which
+                                           Y
+                         es∗ (λ) = const ·      eβ (λβ ).
+                                              P
+                                            β∈ +o
+
+
+We know, from [29], p. 269, that Pλ is injective iff es∗ (λ) 6= 0. On the sur-
+jectivity of Pλ we note that if ν : D(G) → E(X) denote the homomorphism
+induced by the action f 7→ f τ (g) of G on E(X) and if
+
+Eλ∞ (X) = {f ∈ Eλ (X) : (ν(D)f )(x) = O(eA d(0,x) ), ∀D ∈ D(G) and some A > 0},
+
+then for each λ ∈ a∗C for which es∗ (λ) 6= 0, we have that
+
+                               Pλ (E(B)) = Eλ∞ (X).
+
+                                       18
+   Since the H(a∗ × B)W ⊂ C(B) we can now restrict Pλ to H(a∗ × B)W .
+Clearly Pλ (H(a∗ ×B)W ) ⊂ Eλ∞ (X) and if we define the Hilbert space Hλ∞ (X)
+as                                        \
+                      Hλ∞ (X) := Hλ (X) Eλ∞ (X),
+from the Hilbert space
+                                          Z
+      Hλ (X) := {h ∈ Eλ (X) : h(x) =           e(iλ+ρ)(A(x,b)) F (b), F ∈ L2 (B)}
+                                           B
+
+([29.], p. 531), then
+
+                         Pλ (H(a∗ × B)W ) = Hλ∞ (X),
+
+where λ ∈ a∗C is simple. Thus a Paley-Wiener theorem for the Joint-Eigenspace
+Fourier transform is immediate and is as given in the following main result
+of the paper.
+    3.7 Theorem. Let λ ∈ a∗C be simple. The Joint-Eigenspace Fourier
+transform on X is a bijection of Cc∞ (X) onto Hλ∞ (X). Moreover, we have
+that ψ(x) = (Hx f )(λ) is in Hλ∞ (X) iff supp(f ) ⊂ Cl(BR (0)).
+    Proof. The first part of this result is proven from the earlier computa-
+tions when combined with Theorem 3.6. The second assertion is established
+as follows.
+    supp(f ) ⊂ Cl(BR (0)) iff ψ = fˆ is in H(a∗ × B)W (Theorem 3.6)
+
+       iff ψ(λ, b) = fˆ(λ, b) is in H(a∗ × B)W , b ∈ B, for λ ∈ a∗C simple
+        iff ψλ (b) = fˆ(λ, b) is in H(a∗ × B)W , b ∈ B, for λ ∈ a∗ simple
+                                                                     C
+
+         iff ψλ (·) = fˆ(λ, ·) is in H(a
+                                    ∗
+                                        × B)W , for λ ∈ a∗C simple
+iff Pλ (ψλ (·)) = Pλ (fˆ(λ, ·)) is in Pλ (H(a∗ ×B)W ) = H ∞ (X), for λ ∈ a∗ simple
+                                                           λ                  C
+
+   (which follows from the injectivity of Pλ [29.], p. 268 − 269)
+
+        iff Pλ (ψλ (·)) = (Hx f )(λ) is in Hλ∞ (X), for λ ∈ a∗C simple. 
+
+   It may be interesting to investigate Theorem 3.7 for all λ ∈ a∗C or on the
+Siegel upper-half plane. More properties of the Paley-Wiener space Hλ∞ (X)
+may be studied in the light of results in [7.], [12.], [13.] and [14.]. We are
+now in a position to characterize the earlier defined O(X)−subspace of the
+domain D(X) of the Joint-Eigenspace Fourier transform on X.
+
+                                          19
+    3.8 Corollary. Let λ ∈ a∗C be simple. Then the subspace O(X) exists
+iff H(a∗ × B)W = Hλ∞ (X).
+    Proof. O(X) 6= ∅ iff (Hx f )(λ) = fˆ(λ, b), for all f ∈ O(X), x ∈ X, b ∈ B
+
+                   iff Pλ ≡ 1, the identity map on H(a∗ × B)W
+            iff Hλ∞ (X) = Pλ (H(a∗ ×B)W ) = I(H(a∗ ×B)W ) = H(a∗ ×B)W . 
+    The Paley-Wiener version of our diagram is now commutative and is
+finally given (for λ ∈ a∗C simple) as
+                          ˆ
+               Cc∞ (X) →f (λ,b) → H(a∗ × B)W →Pλ → Eλ (X).
+
+
+
+§4. Conclusion.
+    The Poisson transform was shown here to be the appropriate comple-
+ment to build up the Helgason Fourier on a noncompact symmetric space X
+into the Joint-Eigenspace Fourier transform on X. In specific terms, we have
+proved that the Joint-Eigenspace Fourier transform on X is the Fourier trans-
+form on X which factors into the Helgason Fourier transform (on X = G/K)
+and the Poisson transform (on B = K/B). The beautiful advantage of
+the Joint-Eigenspace Fourier transform on X over and above the Helgason
+Fourier transform on X is that the Joint-Eigenspace Fourier transform on X
+naturally has its image in the joint-eigenspace Eλ (X) of X whose fine differ-
+ential structure and representations could now be fully developed (as against
+the development of only the joint-eigensubspaces of Eλ (X)) and would fur-
+ther enhance the understanding of the Joint-Eigenspace Fourier transform
+on X.
+    The initial fear of having to deal with two genuine Fourier transforms on
+a noncompact symmetric space X (each having distinct formulae, distinct
+inversion formulae, distinct Plancherel formulae, distinct c−functions and
+distinct Paley-Wiener theorems), is now allayed by factoring of the Joint-
+Eigenspace Fourier transform on X as the Fourier transform on X which
+factors into the Helgason Fourier transform (on X = G/K) and the Poisson
+transform (on B = K/B). This is to show that both the Joint-Eigenspace
+Fourier transform on X and the Helgason Fourier transform on X are gen-
+uine Fourier transforms on X in which is seen that the Poisson transform
+on B = K/M serves as the completion-transform to the Helgason Fourier
+
+
+                                     20
+transform in order to get it lifted to attain the beautiful status of the Joint-
+Eigenspace Fourier transform on X. It is therefore appropriate to refer to
+the Helgason Fourier transform as the Weyl group-invariant Poisson-space
+Fourier transform on X as against the present Joint-Eigenspace Fourier trans-
+form on X.
+    In explicit terms, the greatest advantage of the Joint-Eigenspace Fourier
+transform on X above the Helgason Fourier transform on X is that the Helga-
+son Fourier transform on X has to be (artificially) imported into the impor-
+tant analysis of differential equations of functions on X in the consideration
+of the joint-eigenspace functions on X while (on the other hand) the Joint-
+Eigenspace Fourier transform on X naturally lives in the joint-eigenspace
+Eλ (X), λ ∈ a∗ simple, and naturally satisfies the differential equations
+
+                     D((Hx f )(λ)) = Γ(D)(iλ)(Hx f )(λ),
+
+for D ∈ D(X), x ∈ X ([26.] and [29.]). It is now a matter of one’s targeted
+destination of the needed Fourier transform on X (whether the Weyl group-
+invariant Poisson-space H(a∗ × B)W or the Joint-Eigensubspace Hλ∞ (X)),
+which Fourier transform on X (whether the Helgason Fourier transform or
+the Joint-Eigenspace Fourier transform, respectively) a researcher wishes to
+employ to achieve the aims of the research. It is however clear that the
+Joint-Eigenspace Fourier transform on X does not just have significant con-
+tributions or applications to differential equations on X but that the Joint-
+Eigenspace Fourier transform on X naturally lives in the joint-eigenspace
+Eλ (X) and auromatically satisfies the aforementioned differential equations
+on X. Our knowledge of the classical Euclidean case helps us to make bold
+to say that the Fourier transform on any noncompact symmetric space X
+is to be that of the Joint-Eigenspace Fourier transform of this paper. This
+equally gives a complete version of the duality on such symmetric spaces.
+    An operator form of this theory may be conducted for the Joint-Eigenspace
+Fourier transform f 7→ (Hx f )(λ), x ∈ X, where
+
+                         (Hx f )(λ) := (f × Φλ,δ )(x),
+
+with δ ∈ KM , λ ∈ a∗C and Φλ,δ is the Eisenstein integral of X ([17.], [47.]).
+We shall consider the contribution of the Joint-Eigenspace Fourier transform
+to the theory of Eigenspace representation of functions and distributions on
+X and the Lp −version of these results in another paper.
+
+
+                                      21
+References.
+[1.] Alberti, G. S., Bartolucci, F., De Mari, F., De Vito, E., Radon trans-
+      form: Dual Pairs and Irreducible Representations, arXiv:2002.01165v1.
+      [math.FA], 2020.
+[2.] Arcozzi, N., Monguzzi, A., Peloso, M. M., Salvatori, M., Paley-Wiener
+      theorems on the Siegel upper half-space, arXiv:1710.10079v2. [math.CV],
+      2024.
+[3.] Arthur, J. G., Harmonic analysis of tempered distributions on semi-
+      simple Lie groups of real rank one, Ph.D. Dissertation, Yale University,
+      1970.
+[4.] Arthur, J. G., Harmonic analysis of the Schwartz space of a reductive
+      Lie group I, mimeographed note, Yale University, Mathematics Depart-
+      ment, New Haven, Conn.
+[5.] Arthur, J. G., Harmonic analysis of the Schwartz space of a reductive
+      Lie group II, mimeographed note, Yale University, Mathematics De-
+      partment, New Haven, Conn.
+[6.] Asta, D. M., Lower bounds for kernel density estimation on symmetsric
+      spaces, arXiv:2403.10480v1. [math.ST], 2024.
+[7.] Baranov, A., Belov, Y., Borichev, A., The Yong type theorem in weighted
+      Fock spaces, arXiv:1705.05778v1. [math.CV], 2017.
+[8.] Bardaro, C., Butzer, P. L., Mantellini, I., Schmeisser, G., A fresh ap-
+      proach to the Paley-Wiener theorem for Mellin transforms and the
+      Mellin-Hardy spaces, arXiv:1706.00285v1. [math.FA], 2017.
+[9.] Bargmann, V., Irreducible unitary representations of the Lorentz group,
+      Ann. of Math. vol. 48, (1947), p. 568 − 640..
+[10.] Barker, W. H., Lp harmonic analysis of SL(2, R), American Mathe-
+      matical Society Memoirs, vol. 76 No. 393, (1988).
+[11.] Bartolucci, F., De Mari, F., Monti, M., Unitarization of the Horocyclic
+      Radon transform on symmetsric spaces, arXiv:2108.04338v1. [math.RT],
+      2021.
+
+                                     22
+[12.] Bernstein, S., Faustino, N., Paley-Wiener type theorems associated to
+      Dirac operators of Riesz-Feller type, arXiv:2405.04989v1. [math.CV],
+      2024.
+
+[13.] Dalai, R. K., Ghosh, S., Srivastava, R. K., Quarternion Weyl transform
+      and some uniqueness results, arXiv:2110.00396v1. [math.FA], 2021.
+
+[14.] Din, A. Y., A Paley-Wiener theorem for spherical p−adic spaces and
+      Bernstein morphisms, arXiv:2002.10063v2. [math.RT], 2020.
+
+[15.] Dong, C.-P., On the Helgason-Johnson bound, arXiv:2012.13474v3.
+      [math.RT], 2021.
+
+[16.] Eguchi, M., The Fourier Transform of the Schwartz space on a semisim-
+      ple Lie group, Hiroshima Math. J., vol. 4, (1974), pp. 133 − 209.
+
+[17.] Eguchi, M., Asymptotic expansions of Eisenstein integrals and Fourier
+      transforms on symmetric spaces, J. Funct. Anal. 34, (1979), pp. 167−
+      216.
+
+[18.] Eguchi, M., Some properties of Fourier transform on Riemannian sym-
+      metric spaces, Lecture on Harmonic Analysis on Lie Groups and related
+      Topics, (T. Hirai and G. Schiffmann (eds.)) Lectures in Mathematics,
+      Kyoto University, No. 4) pp. 9 − 43.
+
+[19.] Eguchi, M. and Kowata, A., On the Fourier transform of rapidly de-
+      creasing function of Lp type on a symmetric space, Hiroshima Math.
+      J. vol. 6, (1976), pp. 143 − 158.
+
+[20.] Ehrenpreis, L. and Mautner, F. I., Some properties of the Fourier trans-
+      form on semisimple Lie groups, I, Ann. Math., vol. 61 (1955), pp.
+      406-439;
+
+[21.] Ehrenpreis, L. and Mautner, F. I., Some properties of the Fourier trans-
+      form on semisimple Lie groups, II, Trans. Amer. Math. Soc., vol. 84
+      (1957), pp. 1 − 55;
+
+[22.] Ehrenpreis, L. and Mautner, F. I., Some properties of the Fourier trans-
+      form on semisimple Lie groups, III, Trans. Amer. Math. Soc., vol. 90
+      (1959), pp. 431 − 484.
+
+
+                                     23
+[23.] Eichinger, B., Woracek, H., Homogeneous spaces of entire functions,
+      arXiv:2407.04979v1. [math.CV], 2024.
+
+[24.] Gimperlein, H., Krotz, B., Kuit, J. J., Schlichtkrull, H., A Paley-
+      Wiener theorem for Harish-Chandra Modules,
+      arXiv:2010.04464v3. [math.RT], 2021.
+
+[25.] Gangolli, R. and Varadarajan, V. S., Harmonic analysis of spherical
+      functions on real reductive groups, Ergebnisse der Mathematik und iher
+      Genzgebiete, vol. 101, Springer-Verlag, Berlin-Heidelberg. 1988.
+
+[26.] Heins, M., Moucha, A., Roth, O., Spectral theory of the invariant
+      Laplacian on the disk and the sphere: a complex analysis approach,
+      arXiv:2312.12900v2. [math.CV], 2023.
+
+[27.] Helgason, S., Differential geometry and symmetric spaces, Academic
+      Press, New York, 1962.
+
+[28.] Helgason, S., A duality for symmetric spaces with applications to group
+      representations, Advances in Mathematics, vol. 5 (1970), pp. 1 − 154.
+
+[29.] Helgason, S., Geometric analysis on symmetric spaces, Mathematical
+      Surveys and Monographs, Providence, Rhode Island, 1994.
+
+[30.] Knapp, A.W., Representation theory of semisimple groups; An overview
+      based on examples, Princeton University Press, Princeton, New Jersey.
+      1986.
+
+[31.] Li, J., Lu, G., Yang, Q., Higher order Brezis-Nirenberg problem on hy-
+      perbolic spaces: Existence, Non-existence and Symmetry of solutions,
+      arXiv:2107.03967v1. [math.AP], 2021.
+
+[32.] Lu, G., Yang, Q., Sharp Hardy-Sobolev-Maz’ya, Adams and Hardy-
+      Adams inequalities on the Siegel domains and complex hyperbolic spaces,
+      arXiv:2106.02103v1. [math.CA], 2021.
+
+[33.] Oyadare, O. O., On harmonic analysis of spherical convolutions on
+      semisimple Lie groups, Theoretical Mathematics and Applications, vol.
+      5, no.: 3. (2015), pp. 19 − 36.
+
+
+
+
+                                     24
+[34.] Oyadare, O. O., Series analysis and Schwartz algebras of spherical con-
+      volutions on semisimple Lie groups Algebras, Groups and Geometries
+      40(1), (2024), p. 41 − 59. See also arXiv.1706.09045 [math.RT].
+
+[35.] Oyadare, O. O., Non-spherical Harish-Chandra Fourier transforms on
+      real reductive groups, J. Fourier Anal. Appl. 28, 15 (2022).
+      http://doi.org/10.1007/s00041-09906-w
+
+[36.] Oyadare, O. O., The full Bochner theorem on real reductive groups,
+      Algebras, Groups and Geometries 39, (2023), p. 207 − 220.
+
+[37.] Oyadare, O. O., Functional analysis of canonical wave-packets on real
+      reductive groups, arXiv:1912.07542v1. [math.FA], 13 Dec. 2019.
+
+[38.] Oyadare, O. O., On the operator-valued Fourier transform of the Harish-
+      Chandra Schwartz Algebra, arXiv:2407.20755v1. [math.RT], 2024.
+
+[39.] Pesenson, I. Z., Sobolev, Besov and Paley-Wiener vectors in Banach
+      and Hilbert spaces, arXiv:1708.07416v2. [math.FA], 2023.
+
+[40.] Pesenson, I. Z., Besov and Paley-Wiener spaces, moduli of continu-
+      ity and Hardy-Steklov opeartors associated with th group “ax+b ”,
+      arXiv:2401.16734v1. [math.FA], 2024.
+
+[41.] Picardello, M. A., Salvatori, M., Woess, W., Polyharmonic potential
+      theory on the Poincare disk, arXiv:2312.05806v1. [math.FA], 2023.
+
+[42.] Sadiq, K., Tamasan, A., On the range of the Planar X−ray transform
+      on the Fourier lattice of the Torus, arXiv:2201.10926v2. [math.AP],
+      2022.
+
+[43.] Sherman, A., The Cartan-Helgason theorem for supersymmestric spaces:
+      spherical weughts for Kac-Moody superalgebras, arXiv:2403.19145v1.
+      [math.RT], 2024.
+
+[44.] Sonoda, S., Ishikawa, I., Ikeda, M., Fully-connected network on non-
+      compact symetric spaces and ridgelet transform based on Helgason-
+      Fourier analysis, arXiv:2203.01631v2. [cs.LG], 2022.
+
+[45.] Suzuki, K., Trace Paley-Wiener theorem for Braverman-Kazhdan’s
+      asymptotic Hecke Algebra, arXiv:2407.02752v1. [math.RT], 2024.
+
+
+                                     25
+[46.] Trombi, P. C., Spherical transforms on symmetric spaces of rank one
+      (or Fourier analysis on semisimple Lie groups of split rank one), Thesis,
+      University of Illinios (1970).
+[47.] Trombi, P. C., On Harish-Chandra’s theory of the Eisenstein integral
+      for real semisimple Lie groups. University of Chicago Lecture Notes in
+      Representation Theory, (1978), pp. 287-350.
+[48.] Trombi, P. C., Harmonic analysis of C p (G : F ) (1 ≤ p < 2) J. Funct.
+      Anal., vol. 40. (1981), pp. 84-125.
+[49.] Trombi, P. C., Invariant harmonic analysis on split rank one groups
+      with applications. Pacific J. Math. vol. 101. no.: 1.(1982), pp. 223 −
+      245.
+[50.] Trombi, P. C. and Varadarajan, V. S., Spherical transforms on semisim-
+      ple Lie groups, Ann. Math., vol. 94. (1971), pp. 246-303.
+[51.] Varadarajan, V. S., Eigenfunction expansions on semisimple Lie groups,
+      in Harmonic Analysis and Group Representation, (A. Figà Talamanca
+      (ed.)) (Lectures given at the 1980 Summer School of the Centro In-
+      ternazionale Matematico Estivo (CIME) Cortona (Arezzo), Italy, June
+      24 - July 9. vol. 82) Springer-Verlag, Berlin-Heidelberg. 2010, pp.
+      351 − 422.
+[52.] Varadarajan, V. S., An introduction to harmonic analysis on semisim-
+      ple Lie groups, Cambridge Studies in Advanced Mathematics, 161,
+      Cambridge University Press, 1989.
+[53.] Varadarajan, V. S., Harmonic analysis on real reductive reductive
+      groups, Lecture Notes in Mathematics, 576, Springer Verlag, 1977.
+[54.] Wallach, N., Harmonic analysis in homogeneous spaces, Dekker, New
+      York, 1973.
+[55.] Warner, G., Harmonic analysis on semisimple Lie groups, I. Springer-
+      Verlag, New York, 1972.
+[56.] Weiske, C., Yu, J., Zhang, G., Cartan-Helgason theorem for Quar-
+      ternionic symmetric and twistor spaces, arXiv:2306.15090v2. [math.FA],
+      2023.
+
+
+                                      26
+

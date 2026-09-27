@@ -1,0 +1,1964 @@
+                                                                    Hardy spaces for non-compactly causal symmetric spaces                  1
+
+
+
+
+arXiv:math/0111172v2 [math.RT] 30 Oct 2002
+                                                        Hardy spaces for non-compactly causal symmetric spaces
+                                                                  and the most continuous spectrum
+
+
+                                                          Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+
+
+
+                                                                                          Abstract
+                                                   Let G/H be a semisimple symmetric space. Then the space L2 (G/H) can be decomposed
+                                             into a finite sum of series of representations induced from parabolic subgroups of G. The most
+                                             continuous part of the spectrum of L2 (G/H) is the part induced from the smallest possible
+                                             parabolic subgroup. In this paper we introduce Hardy spaces canonically related to this part
+                                             of the spectrum for a class of non-compactly causal symmetric spaces. The Hardy space is a
+                                             reproducing Hilbert space of holomorphic functions on a bounded symmetric domain of tube
+                                             type, containing G/H as a boundary component. A boundary value map is constructed and we
+                                             show that it induces a G-isomorphism onto a multiplicity free subspace of full spectrum in the
+                                             most continuous part L2mc (G/H) of L2 (G/H). We also relate our Hardy space to the classical
+                                             Hardy space on the bounded symmetric domain .
+
+
+
+                                                                                      Introduction
+                                                    When we transfer from harmonic analysis on Riemannian symmetric spaces to non Rie-
+                                             mannian semisimple symmetric spaces G/H one of the most important new phenomena is the
+                                             fact that different series of unitary representations appear in the decomposition of L2 (G/H)
+                                             ([BS01ab,D98]). A main objective of harmonic analysis is a geometric realization of those series
+                                             of representations; an idea that can be traced back to the article [GG77]. The first step in this
+                                             program was the realization of the holomorphic discrete series for a group G of Hermitian type
+                                             in appropriate Hardy spaces in a curved tube in GC . This was accomplished independently in
+                                             [O82, S86].
+                                                    There is a natural generalization of the constructions in [GG77, O82, S86] for Hermitian
+                                             groups G to compactly causal symmetric spaces G/H . In [ÓØ88] the holomorphic discrete series
+                                             for G/H was constructed and the appropriate Hardy space was defined and investigated in
+                                             [HÓØ91]. The explicit form of the Plancherel density and the corresponding projection operators
+                                             for the holomorphic discrete series were determined by the two last named authors [K01,KÓ02,
+                                             Ó00].
+                                                   ∗
+                                                     Supported in part by the NSF-grant DMS-0070816 and the MSRI
+                                                   ∗∗
+                                                       Supported in part by the NSF-grant DMS-0097314 and the MSRI
+                                                   ∗∗∗
+                                                        Supported in part by the NSF-grant DMS-0070607 and the MSRI
+2                     Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+       The above mentioned line of work was on the discrete part of the spectrum. In this article
+we give for the first time a geometric realization of the most continuous part of the spectrum for
+a class of non-compactly causal symmetric spaces.
+       For compactly causal symmetric spaces G/H one has a rich and well understood complex
+geometry: There exist G-invariant tubes in GC /HC which have G/H as Shilov boundary;
+secondly, most of the compactly causal symmetric spaces can be realized as an open dense orbit
+in the Shilov-boundary of a bounded Hermitian symmetric space of tube type [Ber96, Bet97,
+ÓØ99]. This enables us to use complex geometry, holomorphic representations of semigroups,
+and the well understood structure and harmonic analysis of bounded symmetric domains of tube
+type. For non-compactly causal symmetric spaces it was believed for a long time that a similar
+complex geometrical picture does not exist. In [G98] it was conjectured that appropriate tubes
+(related to complex crowns of Riemannian symmetric spaces) might also exist for non-compactly
+causal symmetric spaces. It was also conjectured that some Hardy spaces on these tubes are
+connected with the most continuous spectrum.
+       In the last year substantial progress was achieved on the geometric part of this program.
+This gives us now the possibility to start the corresponding analytical investigations – the subject
+proper of this paper.
+       The complex crown Ξ of a Riemannian symmetric space G/K , first studied in [AG90], is
+a certain open connected G-invariant Stein domain in GC /KC which contains G/K as a totally
+real submanifold (cf. Section 1 for the definition). The complex crown is universal in many ways.
+It can be used to parametrize the compact cycles in complex flag manifolds (cf. [GM01]). Further
+it has the property that the eigenfunctions for the algebra of G-invariant differential operators
+on G/K extends holomorphically to Ξ [KS01a]. For a more detailed account on the complex
+crown Ξ we refer to the introduction of [GK02a].
+       By the recent work of the two first named authors [GK02b] it is known that all non-
+compactly causal symmetric spaces G/H appear in the distinguished boundary ∂d Ξ ⊆ GC /KC
+of Ξ. Furthermore the non-compactly causal spaces are the only irreducible symmetric spaces
+which can be realized as G-orbits in ∂d Ξ.
+       In this paper we consider only those complex crowns that admit a realization as a symmetric
+space of Hermitian type. By this we mean that there exists a Hermitian group S ⊇ G with
+maximal compact subgroup U ⊇ K such that Ξ is G-biholomorphic to S/U . For these cases
+the distinguished boundary ∂d Ξ = G(z1 ) ≃ G/H is exactly one G-orbit and, ∂d Ξ is equal to
+the Shilov boundary ∂s Ξ of Ξ in GC /KC [GK02b]. Under the additional assumption that G/H
+is irreducible and symmetric, hence a non-compactly causal symmetric space, we arrive at the
+following list:
+
+
+                                          Table I
+                           Ξ ≃ S/U and ∂d Ξ ≃ G/H is symmetric
+
+                    g = Lie(G)         h = Lie(H)                  s = Lie(S)
+                     sp(n, R)            gl(n, R)             sp(n, R) ⊕ sp(n, R)
+                     su(n, n)         sl(n, C) ⊕ R            su(n, n) ⊕ su(n, n)
+                     so∗ (4n)         sl(n, H) ⊕ R            so∗ (4n) ⊕ so∗ (4n)
+                     so(2, n)       so(1, n − 1) ⊕ R           so(2, n) ⊕ so(2, n)
+                      e7(−25)         e6(−26) ⊕ R               e7(−25) ⊕ e7(−25)
+                      so(1, n)         so(1, n − 1)                  so(2, n)
+                     sp(n, n)            sp(n, C)                  su(2n, 2n)
+                     sp(n, C)           sp(n, R)                    sp(2n, R)
+
+     We call the triples (s, g, h) from the above list causally symmetric triples. They can be
+                        Hardy spaces for non-compactly causal symmetric spaces               3
+
+defined axiomatically starting from a Hermitian Lie algebra s of tube type with two commuting
+involutions τ and σ such that:
+  (CST1) sτ = g and (s, τ ) is compactly causal.
+  (CST2) gσ = h and (g, σ |g ) is non-compactly causal.
+      Following É. Cartan the Hermitian symmetric space S/U admits a canonical embedding in
+the dual compact Hermitian symmetric space and can be realized as a bounded circled domain in
+Cn . We will use Harish-Chandra’s construction of the realization of S/U as a bounded symmetric
+domain D . One can also realize S/U as an affine homogeneous tube domain TΩ = Rn + iΩ.
+The Ξ-realization of S/U we use is different from the two mentioned above – it lies inside of
+GC /KC . The different realizations of S/U give different Shilov boundaries: A compact Shilov
+boundary ∂s D for D which is a single S -orbit, and a vector space Rn for the Shilov boundary
+of the tubes TΩ . Finally the Shilov boundary for Ξ is a single G-orbit.
+      Hardy spaces are Hilbert spaces of holomorphic functions which have L2 -boundary values
+on the Shilov boundary. Since the three realizations mentioned above have different Shilov
+boundaries, this necessarily leads to different definitions of Hardy spaces. In the first two
+realizations the constructions of Hardy spaces H2 (D) and H2 (TΩ ) are well known. These two
+Hardy spaces are isomorphic as irreducible S -modules. We refer to them as classical Hardy
+spaces.
+      Our definition of the Hardy space on Ξ is new. We use a certain minimal semigroup Γ ⊆ SC
+of elements γ with the property γ −1 D ⊆ D (cf. Section 5 for the definition of Γ). Since Ξ is
+biholomorphic to D , we obtain an action of Γ−1 on Ξ by compressions. We define the Hardy
+space H2 (Ξ) on Ξ by
+                                                 Z
+           H2 (Ξ): = {f ∈ O(Ξ): kf k2 : = supγ∈Γ     |f (γ −1 gz1 )|2 dµG/H (gH) < ∞} ,
+                                                     G/H
+
+where z1 ∈ ∂d Ξ is such that G/H ≃ Gz1 . It turns out that H2 (Ξ) is a Hilbert space of
+holomorphic functions on Ξ with a natural unitary action L of G by left translations in the
+arguments. In particular, H2 (Ξ) admits a reproducing kernel KΞ (z, w), the so-called Cauchy-
+Szegö kernel, holomorphic in the first and antiholomorphic in the second variable.
+      One of our tools is to compare H2 (Ξ) with the classical Hardy space H2 (D) which is an
+irreducible G-spherical unitary highest weight module for the group S . The action of S on
+H2 (D) is given through a cocycle representation
+
+               (πh (s)f )(z) = Jh (s−1 , z)−1 f (s−1 z)    (f ∈ H2 (D), s ∈ S, z ∈ D).
+Theorem 5.7 now reads:
+Theorem A. There exists an explicit zero free holomorphic function ψ on Ξ ≃ D such that the
+mapping
+                        Ψ: (πh |G , H2 (D)) → (L, H2 (Ξ)), f 7→ ψf
+is a G-equivariant isomorphism of Hilbert spaces.
+      The fact that G/K is a totally real submanifold of S/U can now be used to construct the
+generalized Segal-Bargmann transform, which is a unitary G-isomorphism L2 (G/K) → H2 (Ξ),
+[DÓZ01,Ne99,Ó00,ÓØ96,Z01]. This implies that H2 (Ξ) is a direct integral of principal series
+representations parametrized by ia∗ /W . Combining Theorem 5.5 and Theorem 5.8 we come to
+our main result:
+Theorem B. The boundary value mapping
+                                                                        
+                                                       lim f (γ −1 gz1 )
+                      b: H2 (Ξ) → L2 (G/H), f 7→ gH 7→ γ→1
+                                                                γ∈Γ
+4                     Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+is a G-equivariant isometric embedding. Furthermore the image of b is a multiplicity free full
+subspace of the most continuous spectrum L2 (G/H)mc (cf. Definition 4.1).
+      Our final result, stated in Theorem 5.9, is the identification of the reproducing kernel KΞ
+using the fact that the H2 (Ξ) is G-isomorphic to H2 (D). This isomorphism clearly carries KΞ
+into the Szegö kernel Kh for H2 (D). The same idea was already used for the compactly causal
+case in [BÓ01,ÓØ99].
+Theorem C. The Cauchy-Szegö kernels KΞ and Kh are related through
+                                  KΞ (z, w) = ψ(z)ψ(w)Kh (z, w).
+
+
+      To illustrate Theorem C consider the example where S = G × G. Then Ξ is G-
+                          opp                                                             opp
+biholomorphic to DG ×DG       where DG is the Harish-Chandra realization of G/K and DG         refers
+                                                                   G
+to DG equipped with the opposite complex structure. Denote by Kh (z, w) the Cauchy-Szegö ker-
+nel for the classical Hardy space H2 (DG ). Then Theorem C says that for all (z1 , w1 ), (z2 , w2 ) ∈
+              opp
+Ξ ≃ DG × DG       we have
+
+                                                  K G (z1 , z2 )KhG (w2 , w1 )
+                        KΞ (z1 , w1 ), (z2 , w2 ) = hG                          .
+                                                   Kh (z1 , w1 )KhG (w2 , z2 )
+Note that the formula of KΞ is explicit, since the classical Hardy space kernels KhG are well
+known.
+      In the Plancherel decomposition of L2 (G/H) the most continuous spectrum L2mc (G/H)
+corresponds to one series of representations, the one which is induced off from a minimal parabolic
+subgroup [BS97]. However, the space L2mc (G/H) is not multiplicity free and we encounter the
+next problem to separate the different multiplicities in L2mc (G/H) geometrically. Theorem B
+implies an embedding
+                                 H2 (Ξ) ⊕ H2 (Ξopp ) ֒→ L2 (G/H)mc
+which realizes a multiplicity two subspace of the most continuous spectrum of G/H . Presently
+it is unclear how to obtain the other multiplicities in L2 (G/H)mc missed by H2 (Ξ) ⊕ H2 (Ξopp ).
+In this context notice the striking similarity with the picture for discrete series representations.
+Only two out of the discrete series, the holomorphic and the antiholomorphic, can be realized as
+a Hardy space.
+     We would like to mention, as we know through several talks, that J. Faraut is working on
+another construction of Hardy spaces for certain non-compactly causal symmetric spaces. Also
+we would like to mention that our results in Section 2 are related to unpublished work of Y.
+Neretin on explicit branching formulas for tensor products of highest weight representations.
+      Our paper is organized as follows:
+      1. Non-compactly causal symmetric spaces and boundary components of complex domains
+      2. Continuous branching of spherical highest weight representations
+      3. Analytical and geometrical constructions on Ξ
+      4. The classical Hardy space inside L2 (G/H)mc
+      5. The Hardy space on Ξ
+      Appendix A: parameter calculations
+      Appendix B: Structure theory for causally symmetric triples
+      It is our pleasure to thank the MSRI, Berkeley, for its hospitality during the Integral
+geometry program where this work was accomplished. We also would like to thank the referee
+for his careful screening of the manuscript and his useful suggestions concerning the readability
+of the paper.
+                       Hardy spaces for non-compactly causal symmetric spaces                    5
+
+
+
+
+                 1. Non-compactly causal symmetric spaces
+               and boundary components of complex domains
+
+
+      The purpose of this section is mostly of preliminary nature. We recall the basic facts con-
+cerning causal symmetric spaces. This material is standard and can be found in the monograph
+[HÓ06]. We then turn to the discussion of the complex crown Ξ of a Riemannian symmetric space
+G/K . We explain some of the new structural results, in particular those about the distinguished
+(Shilov) boundary ∂d Ξ of Ξ (cf. [GK02a]). Subsequently we provide the list of those Ξ which are
+G-isomorphic to a tube domain S/U ⊇ G/K and which have Shilov boundary ∂d Ξ isomorphic
+to a non-compactly causal symmetric space G/H (cf. Table I in the introduction). This will be
+the class of Ξ’s most relevant for this paper. The section is concluded with a discussion of the
+compactification of ∂d Ξ.
+
+
+
+                               Causal symmetric Lie algebras
+       Let s denote a semisimple real Lie algebra and sC its complexification. We choose a
+Cartan involution θ on s and write s = u ⊕ p∗ for the associated Cartan decomposition with u
+the maximal compact subalgebra fixed by θ .
+       In the sequel τ : s → s will denote a non-trivial involution on s commuting with θ . Write
+s = g ⊕ q∗ for the τ -eigenspace decomposition corresponding to the τ -eigenvalues +1 and −1 .
+Then g is reductive and θ | g is a Cartan involution of g. With k = g ∩ u and p = g ∩ p∗ we
+obtain the Cartan decomposition g = k ⊕ p .
+       The symmetric pair (s, g) is called irreducible if the only τ -invariant ideals in s are the
+trivial ones, {0} and s. In this case either s is simple or s ≃ g ⊕ g, with g simple, and
+τ (X, Y ) = (Y, X) the flip.
+       On the group level we denote by S and SC connected Lie groups with Lie algebra s and sC
+respectively. We will assume – if not otherwise stated – that S ⊆ SC . In addition we will require
+that τ exponentiates to an involution on SC , again denoted by τ . By G we denote the connected
+subgroup of S with Lie algebra g. Finally we call the symmetric space S/G irreducible if (s, g)
+is irreducible.
+
+Definition 1.1.   Let C be an open convex subset of q∗ . Then C is called hyperbolic, if for
+all X ∈ C the operator ad(X) is semisimple with real eigenvalues. We call C elliptic, if all
+operators ad(X), X ∈ C are semisimple and with imaginary spectrum.
+     We recall some facts on causal symmetric spaces (c.f. [HÓ96], Chapter 3):
+
+Definition 1.2. (Causal symmetric spaces) The symmetric space S/G is called causal if
+there exists a non-empty open G-invariant convex cone C , containing no affine lines, in q∗ .
+      There are two different types of causal symmetric spaces, the non-compactly causal sym-
+metric spaces (NCC) and the compactly causal symmetric spaces (CC). In addition, there is the
+intersection of those two classes, the Cayley type symmetric spaces (CT).
+
+Definition 1.3.     (NCC) Assume that S/G is an irreducible causal symmetric space. Then
+the following two conditions are equivalent:
+6                       Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+    (a) There exists a non-empty G-invariant open hyperbolic cone C ⊆ q∗ which contains no
+        affine lines;
+    (b) There exists an element T 0 ∈ q∗ ∩ p∗ , T 0 6= 0 , which is fixed by K .
+        If one of those equivalent conditions are satisfied, then S/G is called non-compactly causal.
+
+Definition 1.4. (CC) Assume that S/G is an irreducible causal symmetric space. Then the
+following two conditions are equivalent:
+  (a) There exists a non-empty G-invariant open elliptic cone C ⊆ q∗ which contains no affine
+      lines;
+  (b) There exists an element X 0 ∈ q∗ ∩ u, X 0 6= 0 , which is fixed by K .
+      If one of those equivalent conditions are satisfied, then S/G is called compactly causal.
+
+Definition 1.5.     (CT) Assume that S/G is an irreducible causal symmetric space. Then
+S/G is called a symmetric space of Cayley type, if it is both non-compactly causal and compactly
+causal.
+
+Remark 1.6. (a) The elements T 0 and X 0 in Definition 1.3 and Definition 1.4 are unique
+up to multiplication by scalar. If S/G is NCC then we normalize T 0 such that ad(T 0 ) has
+spectrum {0, 1, −1} . The eigenspace corresponding to 0 is exactly sθτ = k ⊕ (p∗ ∩ q∗ ). If S/G
+is CC, then we normalize X 0 such that the spectrum of ad(iX 0 ) is {0, 1, −1} . In this case the
+zero eigenspace is exactly u.
+(b) If S/G is compactly causal, then u has a non trivial center z(u) and z(u) ∩ q∗ = RX 0 . If S
+is simple then z(u) = RX 0 . If s ≃ g ⊕ g. Then X 0 = (X 00 , −X 00 ) with X 00 central in k and
+z(u) = RX 0 ⊕ R(X 00 , X 00 ).
+        Denote the complex linear extension of τ to sC by τ . The c-dual (sc , τ c ) of (s, τ ) is
+defined by sc = g ⊕ iq∗ ⊆ sC with involution τ c = τ |sc . Notice that the c-dual of (sc , τ c ) is
+(s, τ ). Let S c denote the analytic subgroup of SC with Lie algebra sc . Then G = (S ∩ S c )0 ,
+where the subscript 0 denotes the connected component containing 1. We recall the following
+fact:
+
+Proposition 1.7.        Assume that S/G is an irreducible symmetric space. Then the following
+holds:
+   (i) S/G is non-compactly causal if and only if S c /G is compactly causal.
+  (ii) S/G is of Cayley type if and only if S/G ≃ S c /G.
+ (iii) Suppose that S/G is irreducible and causal. Then S/G is of Cayley type if and only if G
+       is not simple. In that case z(g) is one dimensional and contained in p .
+
+Example 1.8. (The group case) Let G be a connected semisimple Lie group, S = G × G,
+and τ (a, b) = (b, a). Then S/G ≃ G is compactly causal if and only if G is a group of Hermitian
+type. In this case SC = GC × GC and S c /G ≃ GC /G (cf. [HÓ96], Example 1.2.2).
+     Let us remark that the causal symmetric pairs (s, g) are classified and refer to the list
+[HÓ96, Th. 3.2.8].
+
+
+
+                         The domain Ξ – the complex crown of G/K
+      According to [GK02a] every non-compactly causal symmetric space G/H can be realized
+as a boundary component of the corresponding complex crown Ξ of the Riemannian symmetric
+                        Hardy spaces for non-compactly causal symmetric spaces                     7
+
+space G/K . In the following two subsections we briefly recall the definition of Ξ and explain
+some of the results of [GK02ab] needed for our purpose.
+      Let g be a reductive Lie algebra with complexification gC . We let GC be a connected
+complex Lie group with Lie algebra gC and let G be the analytic subgroup of GC corresponding
+to g. Let K ⊆ G be a maximal compact subgroup and let k be its Lie algebra. Let g = k ⊕ p
+be the Cartan decomposition corresponding to k. Finally we choose a maximal abelian subspace
+a ⊆ p . Let m = zk (a) and for α ∈ a∗ define
+                            gα = {X ∈ g: (∀H ∈ a)[H, X] = α(H)X} .
+Let Σ = Σ(g, a) be the corresponding set of (restricted) roots, i.e., Σ = {α ∈ a∗ \ {0}: gα 6= {0}} .
+Then                                                M
+                                     g=a⊕m⊕            gα .
+                                                      α∈Σ
+We write A respectively N for the analytic subgroup of G corresponding to a respectively n.
+We also need the Weyl group of Σ(a, g), W: = NK (a)/ZK (a).
+     Let
+                                                            π
+                            Ω = {X ∈ a: (∀α ∈ Σ) |α(X)| < } .
+                                                            2
+Then the complex crown of the Riemannian symmetric space G/K is defined by
+                                      Ξ: = G exp(iΩ)KC /KC .
+Note that Ξ is an open domain in GC /KC and that G acts properly on it (cf. [AG90]). Write
+∂Ξ for the topological boundary of Ξ and notice that G exp(i∂Ω)KC /KC ⊆ ∂Ξ (cf. [AG90]).
+
+
+
+                              The distinguished boundary of Ξ
+      Write Ξ for the closure of Ξ in GC /KC , and note that Ξ = Ξ ∐ ∂Ξ, where ∐ denotes
+disjoint union. Write ∂e Ω for the extreme points of the compact convex set Ω. Recall from
+[GK02a] that ∂e Ω is a finite union of W -orbits:
+                                  ∂e Ω = W(X1 ) ∐ . . . ∐ W(Xn ) .
+We define the distinguished boundary of Ξ in GC /KC by
+                                    ∂d Ξ: = G exp(i∂e Ω)KC /KC .
+It was shown in [GK02a, Th. 2.3] that ∂d Ξ has the property that
+(1.1)                             supz∈Ξ |f (z)| = supz∈∂d Ξ |f (z)|
+for all bounded holomorphic functions f on Ξ which continuously extend to Ξ. Moreover, if
+∂d Ξ is connected, i.e., if ∂e Ω = W(X1 ) is a single orbit, then ∂d Ξ is minimal with respect to
+the property (1.1). In this case we call ∂d Ξ the Shilov boundary of Ξ and denote it by ∂s Ξ.
+      Write zj : = exp(iXj )KC ∈ ∂d Ξ and write Hj for the isotropy subgroup of G in zj . Then
+we have the following (cf. [GK02a, Th. 3.6, Th. 3.26]):
+
+Theorem 1.9.        Assume that GC is simply connected. Then, with the notation introduced
+above, the following assertions hold:
+  (i) ∂d Ξ ≃ G/H1 ∐ . . . ∐ G/Hn .
+ (ii) If one of the boundary components G/Hj is an irreducible symmetric space, then it is a
+      non-compactly causal symmetric space. Moreover every non-compactly causal symmetric
+      space G/H attached to G appears G-locally in the distinguished boundary of ∂d Ξ of Ξ.
+8                      Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+
+
+
+                               Realization of Ξ as tube domains
+      We consider now the case where Ξ has a realization as a tube domain. The material in
+this subsection is taken from [KS01b]. We go back to our notations from the first subsection, as
+we will be considering causally symmetric triples h ⊆ g ⊆ s. Thus throughout this section (s, τ )
+denotes a compactly causal symmetric Lie algebra. We require SC to be simply connected and
+write S, G, U and K for the analytic subgroups of SC with Lie algebras s, g, u and k. Note that
+the embedding
+                                   G/K ֒→ S/U, gK 7→ gU
+realizes G/K as a totally real submanifold of the Hermitian symmetric space S/U .
+      Recall that z(u) ∩ q∗ = RX 0 is one dimensional and that we can normalize X 0 such
+that Spec(ad iX 0 ) = {0, 1, −1} . We let t ⊆ u be a compact τ -stable Cartan algebra of s and
+note that z(u) ⊆ t . Write ∆ = ∆(sC , tC ) for the root system with respect to tC . Call a root
+α compact if α | z(u) = 0 and non-compact otherwise. Thus α is non-compact if and only if
+gα
+ C ⊂ pC . Denote by ∆c the set of compact roots and by ∆n the set of non-compact roots.
+Let ∆+                     0
+       n := {α ∈ ∆: α(iX ) = 1} and fix a positive system ∆
+                                                               +
+                                                                  such that ∆+       +
+                                                                              n ⊆ ∆ . Write
+ ±            ±α
+p = ⊕α∈∆+    g ⊆ pC . Then we have the triangular decomposition of sC :
+           n C
+
+
+                                          s C = p + ⊕ uC ⊕ p − .
+Let P ± = exp(p± ). Let UC ⊆ SC be the complexification of U . Then it is well known that
+S ⊆ P + UC P − and we have the Borel embedding
+                                          S/U ֒→ SC /UC P − .
+The map P + × UC × P − ∋ (p+ , u, p− ) 7→ p+ up− ∈ P − UC P + is a diffeomorphism onto the open
+dense subset P + UC P − ⊆ SC . We write s = p+ (s)κ(s)p− (s) for the unique decomposition of
+an element s ∈ P + UC P − . Then we have the Harish Chandra realization of S/U as a bounded
+symmetric domain D ⊆ p+ given by
+                                   S/U ∋ sU 7→ log(p+ (s)) ∈ p+ ,
+where log = (exp |p+ )−1 : P + → p+ .
+      Write Σ = Σ(g, a) for the restricted root system with respect to a and Σ  b = Σ(s, a) for the
+double restricted root system. If Σ is an abstract root system on a , then we also write Ω = Ω(Σ)
+to indicate the dependency of Ω on Σ. Define
+
+                                     Ξ0 : = G exp(iΩ( b
+                                                     Σ))KC /KC ,
+                                 b
+and notice that Ξ0 ⊆ Ξ since Σ ⊆ Σ.
+
+Theorem 1.10.        (cf. [KS01b, Sect. 2]) The embedding G/K ֒→ S/U extends to a G-
+equivariant biholomorphism
+                                 Φ: Ξ0 → S/U ⊆ SC /UC P − .
+Furthermore the following statements are equivalent:
+ (1) Ξ = Ξ0 .
+        b = Ω(Σ).
+ (2) Ω(Σ)
+    (3) rankR (g) = 12 rankR (s).
+    (4) Σ is of type Cn or BCn for n ≥ 2 or (g, s) is one of (su(1, 1), su(1, 1) ⊕ su(1, 1)) or
+        (so(1, n), so(2, n)).
+                         Hardy spaces for non-compactly causal symmetric spaces                     9
+
+      The non-compactly causal symmetric spaces G/H which are singled out by the additional
+requirement that Ξ = Ξ0 ≃ S/U are the ones that are most important for the rest of this article.
+We will therefore discuss them in more details now. The non-compactly causal symmetric spaces
+that satisfy the additional requirement Ξ = Ξ0 are exactly those where Σ is of type Cr , say
+                                      1
+                                 Σ = { (±γi ± γj ): 1 ≤ i, j ≤ r}\{0} .
+                                      2
+Define Y ∈ a by γi (Y ) = 2δij and Y 0 = 12 (Y 1 + . . . + Y r ). In this case n = 1 , X1 = π2 Y 0 and
+          j             j
+
+                                                      π
+                                         ∂e Ω = W( Y 0 ) .
+                                                      2
+Hence with z1 : = exp(i π2 Y 0 )KC we have that ∂s Ξ = G(z1 ) is a connected G-space. Write H for
+the isotropy subgroup of G in z1 and h for the Lie algebra of H . In cases where Ad(z1 ) plays
+the role of a partial Cayley transform we write c for z1 . It follows from [GK02b] that
+                                   σ: G → G, g 7→ (Ad(c2 ) ◦ θ)(g)
+is an involution on G such that H = Gσ . Comparing Theorem 1.10 with the list of all causal
+pairs in [HÓ96, Th.3.2.8] we finally arrive at Table I from the introduction.
+      Note that the first five pairs (g, h) in Table I are of Cayley type. We call a triple (s, g, h)
+from Table I a causally symmetric triple. Note that we always have
+                                                         1
+                                rankR (h) = rankR (g) = rankR (s) .
+                                                         2
+We write g = h ⊕ q for the σ -eigenspace decomposition of g. Note that σ extends to an
+involution on s since Spec ads (Y 0 ) = {−1, 0, 1} . Further observe that σ commutes with τ . Our
+choice of the maximal abelian subspace a ⊆ p is then such that a ⊆ q ∩ p .
+      Causally symmetric triples can also be defined axiomatically:
+
+Definition 1.11.         (Causally symmetric triples) A triple of Lie algebras (s, g, h) with
+h ⊆ g ⊆ s is called a causally symmetric triple if the following axioms are satisfied:
+  (CST1) s is Hermitian and of tube type.
+  (CST2) There exists two commuting involutions τ and σ on s such that:
+       (1) (s, τ ) is compactly causal and g = sτ .
+       (2) (g, σ |g ) is non-compactly causal and h = gσ .
+      If we only require that G/K embeds into S/U and that ∂d Ξ has at least one boundary
+G/Hj component (cf. Theorem 1.9) which is a non-compactly causal symmetric space, then we
+arrive at the following more general situation (cf. [KS01b] and [GK02b]).
+
+Theorem 1.12. Suppose that G/K is a totally real submanifold of S/U and that there exists
+a symmetric subgroup H of G such that G/H is a non-compactly causal symmetric space and
+is a G-orbit in ∂d Ξ. With ∂d Ξ0 = G exp(i∂e Ω( bΣ))KC /KC the distinguished boundary of Ξ0 we
+arrive at the following four possibilities:
+   (i) (s, g, h) is a causally symmetric triple.
+  (ii) G is the structure group of an Euclidian Jordan algebra, i.e., g is isomorphic to one of the
+       following
+              gl(n, R)      sl(n, C) ⊕ R      sl(n, H) ⊕ R       so(1, n) ⊕ R     f4(−20) ⊕ R ,
+      and ∂d Ξ0 = ∂d Ξ ∐ G/K ∐ G/K .
+(iii) G = SO(n, n), ∂d Ξ0 = G/ SO(n, C), and
+                                                                          
+                             ∂d Ξ = ∂d Ξ0 ∐ G/ SO(1, n − 1) × SO(1, n − 1) .
+ (iv) G = SO(2n, C), ∂d Ξ0 = G/ SO∗ (2n), and ∂d Ξ = ∂d Ξ0 ∐ G/ SO(2, 2n − 2).
+10                    Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+
+
+
+                    The compactification of the Shilov boundary ∂s Ξ
+     For the remainder of this section we assume that (s, g, h) is a causally symmetric triple.
+
+Proposition 1.13.      Assume that (s, g, h) is a causally symmetric triple. Then the mapping
+
+                            ι: GC /KC → SC /UC P − , gKC 7→ gUC P −
+
+is an open GC -equivariant embedding.
+Proof. Since sC = gC + uC + p− it is clear that the image of ι is open. It remains to show that
+ι is injective, which means that GC ∩ UC P − = KC . Also denote by τ and θ the holomorphic
+extension of τ and θ to an involution on SC . Note that SCτ = GC and SCθ = UC since SC was
+assumed to be simply connected.
+       We have τ (P − ) = P + . Thus we obtain
+                                                                               
+                 GC ∩ UC P − = GC ∩ UC P − ∩ τ (UC P − ) = GC ∩ UC P − ∩ UC P + .
+
+Now the well known fact UC P − ∩ UC P + = UC implies that
+
+                                     GC ∩ UC P − = GC ∩ UC .
+
+It remains to show that GC ∩ UC = KC . Now we are going to use the fact that the pair (s, g, h) is
+from Table I. Quick inspection shows that GC is simply connected. Hence GθC = KC is connected
+and so GC ∩ UC = GC ∩ SCθ = KC , concluding the proof of the proposition.
+      Write D for the closure in p+ of the bounded symmetric domain D . Recall that this is
+also the closure of S/U in SC /UC P − . Hence Proposition 1.13 implies that the isomorphism
+Φ: Ξ → D from Theorem 1.10 extends to a G-equivariant embedding
+
+                                             Φ: Ξ → D .
+
+Thus D is the natural G-invariant compactification of Ξ. Let z1 : = exp(i π2 Y 0 )KC ∈ ∂d Ξ as
+before. It is known that the stabilizer of z1 in S is a maximal parabolic subgroup P of S . Note
+that P is given by
+                                       P = cUC P − c−1 ∩ S .
+Furthermore the Shilov boundary ∂s D of D is the S -orbit through z1 and
+
+                                 ∂s D = S(x1 ) = U (x1 ) ≃ U/K .
+
+From the G-equivariance of Φ it hence follows that Φ(∂s Ξ) ⊆ ∂s D .
+
+Theorem 1.14. The image of the Shilov boundary ∂s Ξ under the embedding Φ is open and
+dense in ∂s D . In particular, ∂s D is a compactification of ∂s Ξ.
+Proof. First it is clear that Φ(∂s Ξ) is contained in ∂s D . Further note that G/H ֒→ S/P is
+an open G-invariant embedding. Hence Φ(∂s Ξ) is open.
+     Let us now show that Φ(∂s Ξ) is dense in ∂s D . For that we realize Ξ in D via the embedding
+Φ. If Y : = Φ(∂s Ξ) is not dense, then we find a continuous function f on D , holomorphic on
+D = Ξ which does not attain its maximum on Y . But this contradicts the fact that Ξ = D and
+that ∂s Ξ is the Shilov boundary of Ξ.
+                       Hardy spaces for non-compactly causal symmetric spaces                      11
+
+
+
+
+2. Continuous branching of spherical highest weight representations
+      Throughout this section (s, τ ) denotes a compactly causal symmetric Lie algebra with τ -
+eigenspace decomposition s = g ⊕ q∗ . Denote by S a simply connected Lie group with Lie
+algebra s and write G: = S τ for the fixed point group. Observe that G is connected since S is
+assumed to be simply connected.
+      In this section we discuss the generalized Segal-Bargmann transform introduced in [ÓØ85]
+(see also [DÓZ01,Ne99,Ó00,Z01]). The generalized Segal-Bargmann transform is a unitary G-
+isomorphism Uλ : (L, L2 (G/K)) → (πλ , Hλ ) where Hλ is a unitary G-spherical highest weight
+representation of S . In this section we will give a sharp criterion in terms of λ for the existence
+of Uλ . In particular this result will imply the continuous branching of πλ |G .
+       Write U for the analytic subgroup of S associated to u and UC for its complexification.
+We denote by P ± the analytic subgroup of SC with Lie algebras p± . Assume for a moment that
+S is not simply connected and that S ⊆ SC . By the Harish Chandra decomposition of S we
+have S ⊆ P + UC P − . For s ∈ S write s = p+ (s)κ(s)p− (s) with the obvious notation. Recall that
+the map S ∋ s 7→ log p+ (s) ∈ p+ gives the realization of S/U as a bounded symmetric domain
+in p+ . Further we have the middle projection κ : S → UC . By the usual lifting argument we
+obtain a map κ: S → UC for a simply connected group S . This lifting is unique if we require –
+as we will – that κ(1) = 1. We denote by X 7→ X the conjugation in sC with respect to the
+real form s. Then p+ = p− .
+
+
+
+                  Realization of unitary highest weight representations.
+      Our source of reference for the facts collected below is [N99, Ch. XII]. Let (πλ , Hλ ) be a
+unitary highest weight representation of S with highest weight λ ∈ it∗ and with respect to the
+positive system ∆+ . Write F (λ) for the finite dimensional lowest U -type in Hλ , i.e., the space
+which is generated by applying U to a highest weight vector vλ of Hλ . We now briefly recall the
+realization of Hλ in O(D, F (λ)). For that we write σλ for the representation of UC on F (λ).
+Define
+                        K: D × D → UC , (z, w) 7→ κ(exp(−w) exp(z))−1
+                              J: S × D → UC , (s, z) 7→ κ(g exp(z)) .
+Set
+(2.1)                           Kλ = σλ ◦ K       and Jλ = σλ ◦ J .
+Note that Kλ is holomorphic in the first variable, antiholomorphic in the second and satisfies
+the cocyle identity
+(2.2)                       Kλ (s(z), s(w)) = Jλ (s, z)Kλ (z, w)Jλ (s, w)∗
+for all s ∈ S , z, w ∈ D . Here A∗ denotes the adjoint of an operator A ∈ B(F (λ)) = End(F (λ)).
+       The relation to (πλ , Hλ ) is as follows: πλ is unitary if and only if Kλ is positive definite.
+If this is the case, then (πλ , Hλ ) can be realized in O(D, F (λ)) as the reproducing kernel
+Hilbert space corresponding to Kλ . So henceforth we will assume that Hλ ⊆ O(D, F (λ)).
+The representation πλ is then given by
+
+(2.3)                           (πλ (s)f )(z) = Jλ (s−1 , z)−1 f (s−1 z)
+for f ∈ H , s ∈ S and z ∈ D .
+12                       Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+
+
+
+                      G-spherical unitary highest weight representation
+      A unitary highest weight representation (πλ , Hλ ) is called G-spherical if there exists a
+non-trivial G-fixed element ν ∈ Hλ−∞ , where Hλ−∞ denotes the module of distribution vectors
+of (πλ , Hλ ). If (πλ , Hλ ) is a unitary highest weight representation of S , then we call λ regular
+if Hλ is dense in O(D, F (λ)), or, equivalently if λ | z(u) lies on the continuous halfline of the
+Wallach set (this is made precise in Appendix A). We say that (πλ , Hλ ) is scalar if F (λ) = C.
+This is equivalent to λ ∈ iz(u)∗ .
+      We now recall some facts concerning G-spherical unitary highest weight representation.
+For more information and an almost complete classification see [KN02].
+
+     • If (πλ , Hλ ) is G-spherical, then ν0 : = ν |F (λ) is non-zero and K -fixed. In particular, F (λ)
+       is a K -spherical module for U .
+     • Suppose that λ is regular, then (πλ , Hλ ) is G-spherical if and only if F (λ) is K -spherical.
+     • Suppose that λ ∈ iz(u)∗ is regular, then (πλ , Hλ ) is G-spherical if and only if λ ∈
+       i(z(u) ∩ q∗ )∗ . In particular, if S is simple, then all regular λ ∈ iz(u)∗ correspond to
+       G-spherical representations.
+     • If we are in the group case S = G × G, then the G-spherical unitary highest weight
+       representations of S are exactly the representations πλ ⊗ πλ∗ with πλ a unitary highest
+       weight representation of G and πλ∗ its dual representation.
+
+
+
+
+                          The generalized Segal-Bargmann transform
+      In this subsection (πλ , Hλ ) denotes a G-spherical unitary highest weight representation of
+S . Note that this means in particular that there exists a non-trivial K -fixed vector ν0 ∈ F (λ)∗ .
+Write ν0 = h·, v0 i where 0 6= v0 ∈ F (λ) is a K -fixed vector. Define
+
+                          Dλ : G → B(F (λ)), g 7→ Jλ (g, 0)−1 = σλ (κ(g))−1
+
+and
+                                  kDλ k: G/K → R+ , gK → kDλ (g)k
+where k · k denotes the operator norm on B(F (λ)). Write A(G/K) for the space of analytic
+functions on G/K . Define a restriction map
+
+                      Rλ : Hλ → A(G/K), Rλ (f )(gK) := hDλ (g)f (gK), v0 i .
+
+Note that this map is well defined, since v0 is K -fixed. We write L for the left regular
+representation of G on functions on G/K , i.e., (L(g)f )(xK) = f (g −1 xK) for g, x ∈ G and
+f a function on G/K . We then have the following lemma, see [Ó00], Lemma 3.4:
+
+Lemma 2.1. Let (πλ , Hλ ) be a G-spherical unitary highest weight representation of S .
+  (i) The map Rλ : Hλ → A(G/K) intertwines πλ |G with L . Moreover, if λ ∈ iz(u)∗ , then Rλ
+      is injective.
+ (ii) If λ is regular and kDλ k: G/K → R+ is square integrable, then im Rλ ⊆ L2 (G/K) is
+      dense and Rλ : Hλ → L2 (G/K) is continuous.
+                       Hardy spaces for non-compactly causal symmetric spaces                     13
+
+      Assume now that kDλ k ∈ L2 (G/K) and that λ is regular. Then Rλ : Hλ → L2 (G/K) is
+continuous with dense image. Thus we can consider the polar decomposition of the continuous
+                                                    1
+operator Rλ given by Rλ = Uλ Pλ with Pλ = (Rλ∗ Rλ ) 2 and Uλ a partial isometry. If λ ∈ iz(u)∗ ,
+then Uλ is an isometry and the unitary G-equivariant isomorphism
+                                         Uλ∗ : L2 (G/K) → Hλ
+is called the generalized Segal-Bargmann transform (cf. [Ó00]).
+       We will now specify the set of parameters for which kDλ k is square integrable. We will
+distinguish the two cases of S simple and S = G × G. The group case is much simpler, since in
+that case the square integrability of Dλ can be easily reduced to known integrals. We therefore
+treat the group case first since the general proof requires some knowledge of advanced structure
+theory the general reader might not be so familiar with.
+
+
+
+                       The square integrability of kDλ k : group case
+      In this section we consider the case where S = G × G. We let (πλ , Hλ ) be a unitary
+representation of G. Then the S -representation we consider is π   bλ = πλ ⊗ πλ∗ . Recall that these
+are precisely the G-spherical unitary highest weight representations of S . As explained before
+we can realize Hλ in O(G/K, F (λ)). As before we write Kλ for its reproducing kernel and Jλ
+for the corresponding cocycle. We recall now some well known facts on representations of the
+holomorphic discrete series on G. Write Z for the center of G. We say (πλ , Hλ ) belongs to
+the relative discrete series if all the matrix coefficients g 7→ (πλ (g)u, v), u, v ∈ Hλ , are square
+integrable modulo Z . By abuse of notation we will for the moment denote by t a compact
+Cartan algebra of g andP ∆ for the corresponding root system. We write β for the highest root
+in ∆+ and set ρ: = 21 α∈∆+ α .
+
+Lemma 2.2. Let (πλ , Hλ ) be a unitary highest weight representation of the simply connected
+Hermitian Lie group G. Then the following assertions are equivalent:
+ (1) (πλ , Hλ ) belongs to the relative discrete series.
+ (2) The highest weight λ ∈ it∗ satisfies the Harish Chandra condition
+                                                hλ + ρ, βi < 0 .
+ (3) The integral                  Z
+                                            kKλ (z, z)k−1 dµG/K (z) < ∞
+                                      G/K
+     is finite. Here k·k denotes the operator norm on B(F (λ)) and µG/K the invariant measure
+     on G/K .
+ (4) The integral             Z
+                                       kJλ (g, 0)−1 (Jλ (g, 0)−1 )∗ k dµG/Z (gZ)
+                                G/Z
+     is finite.
+Proof.      (1) ⇐⇒ (2) is the criterion of Harish Chandra (cf. [N99, Th. XII.5.12]). For the
+equivalence of (2) and (3) see [N99, Th. XII.5.6]. Finally, the equivalence of (3) and (4) is
+immediate from (2.1) and (2.2).
+                             πλ , Hλ b
+       As before we realize (b       ⊗Hλ∗ ) in O(G/K × G/K, B(F (λ))). Here we used the identi-
+                                   ∗
+fication B(F (λ)) = F (λ) ⊗ F (λ) . The U = K × K -spherical vector in B(F (λ)) is the trace in
+this case. The function kDλ k is given by
+                     kDλ k: G/K → R+ , gK 7→ tr(Jλ (g, 0)−1 (Jλ (g, 0)−1 )∗ ) .
+      If G is a locally compact group, then we write µG for a left invariant Haar measure on G.
+14                    Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+Lemma 2.3. Let (πλ , Hλ ) be a unitary highest weight representation of G. Then Dλ is square
+integrable if and only if
+                                      h2λ + ρ, βi < 0
+for β the highest root in ∆+ .
+Proof.    That Dλ is square integrable means that
+                       Z
+(2.4)                         kJλ (g, 0)−1 (Jλ (g, 0)−1 )∗ )k2 dµG/Z (gZ) < ∞.
+                        G/Z
+
+
+Assume for a moment that λ ∈ iz(k)∗ , i.e., F (λ) ≃ C. Then Jλ (g, 0)2 = J2λ (g, 0) and (2.4)
+becomes
+                    Z
+(2.5)                    kJ2λ (g −1 , 0)J2λ (g −1 , 0)∗ k dµG/Z (gZ) < ∞.
+                           G/Z
+
+
+From the equivalence (2) ⇐⇒ (4) in Lemma 2.2 we obtain that (2.5) is equivalent to
+
+                                           h2λ + ρ, βi < 0
+
+for β the highest root in ∆+ . This proves the lemma for the case of λ ∈ iz(k)∗ . The general
+case can be easily reduced to the special case discussed above (see (2.6) below).
+
+Lemma 2.4. If the highest weight λ of (πλ , Hλ ) satisfies the condition of h2λ + ρ, βi < 0 , then
+λ is regular.
+Proof. This follows from the classification of unitary highest weight modules (cf. [EHW83]).
+In the scalar case this is proved in Lemma A.2 (iv) in Appendix A.
+      Assume now that h2λ + ρ, βi < 0 holds. In view of Lemma 2.3 and Lemma 2.4, this implies
+in particular that Dλ is square integrable. In view of Lemma 2.1 we have thus proved:
+
+Theorem 2.5.       Let (πλ , Hλ ) be a unitary highest weight representation with highest weight
+λ satisfying the condition h2λ + ρ, βi < 0 with β the highest root. Then we have an onto
+G-equivariant partial isometry
+
+                                             b λ∗ → L2 (G/K)
+                                     Uλ : Hλ ⊗H
+which is an isomorphism when λ ∈ iz(k)∗ . In particular, for λ ∈ iz(k)∗ the branching of the
+irreducible unitary representation πλ ⊗ πλ∗ of G × G to the diagonal subgroup G is completely
+continuous and multiplicity free.
+
+
+
+
+                     The square integrability of kDλ k : general case
+      In this subsection we will prove a theorem that will give us the exact range of parameters
+for the square integrability of Dλ . For that recall some results from [ÓØ88] applied to the
+symmetric Lie algebra (s, θτ ), which is also compactly causal. The proof of the statements uses
+simple su(1, 1)-reduction (cf. Appendix B). Choose the Cartan subspace t such that e: = t ∩ q∗ is
+maximal abelian in q∗ . Write ∆e = ∆(sC , eC ) for the restricted root system with respect to eC .
+Note that ∆e is always of type Cn or BCn . Define a positive system ∆+           +      +
+                                                                          e by ∆e : = ∆ |e \{0} .
+               +       +
+Further set ∆e,n : = ∆n |e . Note that γ |e 6= 0 for all γ ∈ ∆n .
+                             Hardy spaces for non-compactly causal symmetric spaces                                      15
+
+      Let γ1 , . . . , γr be a maximal set of long strongly orthogonal roots in ∆+       . Then we can
+          ±j        ±γj                        j       j      −j
+                                                                                   Lr e,n j
+choose E ∈ sC such that with Y = −i(E − E ) the space a = j=1 RY is maximal
+abelian in p . Let H j ∈ ie be such that γi (H j ) = 2δij . Then
+                                                                                 
+                                X r                       Xr
+                                                        1
+                          κ(exp(     tj Y j )) = exp −       log(cosh(2tj ))H j ) .
+                                 j=1
+                                                        2 j=1
+
+Hence                                                                       
+                          Xr                         Xr
+                                                 1
+                kDλ (exp(     tj Y j ))k = exp  hλ,     log(cosh(2tj ))H j i .
+                          j=1
+                                                 2   j=1
+                  Pr        j
+Thus with a = exp( j=1 tj Y ) and k1 , k2 ∈ K :
+                                                          r
+                                                          Y                   j
+(2.6)                                kDλ (k1 ak2 )k2 =          cosh(2tj )hλ,H i .
+                                                          j=1
+                                                                   Pr
+The root vectors E determine a Cayley transform c such that c( j=1 RH j ) = a . Recall that
+                         j
+
+Σ = Σ(g, a) is the set of restricted roots of a in g. Choose Σ+ such that Σ+ ⊆ ∆+ ◦ c−1 . Let
+ρG be the half sum of positive roots counted with multiplicities and let ρcG = ρG ◦ c−1 ∈ ie∗ .
+
+Theorem 2.6.             We have Dλ ∈ L2 (G/K) if and only if
+                                                   hλ + ρcG , βi < 0
+for β the highest root in ∆+ .
+Proof. First note that hλ + ρcG , βi < 0 is equivalent to
+                                   hλ + ρcG , αi < 0 (∀α ∈ ∆+n) .
+                          c     ∗
+Further the fact that λ, ρG ∈ ie implies that this is equivalent to
+                                  hλ + ρcG , αi < 0 (∀α ∈ ∆+e,n ) .
+        Let                                  Y
+                          ∆G (k1 ak2 ) :=          sinh(α(log a))mα       k1 , k2 ∈ K, a ∈ A
+                                            α∈Σ+
+where mα = dim gα . Then for f ∈ L (G):       1
+            Z             Z Z Z
+               f (g) dg =           f (k1 ak2 ) ∆G (a) dµK (k1 ) dµA (a) dµK (k2 )
+                     G              K   A+    K
+      Let ϕ(t) = 12 (1 − e−2t ), t ≥ 0 . Then ϕ is increasing, 0 ≤ ϕ(t) ≤ 1/2 , and ϕ(t) = 0 if and
+only if t = 0 . Furthermore sinh(t) = ϕ(t)et . Define
+                                          Y
+                                Φ(a) :=       ϕ(α(log a))mα a ∈ A+ .
+                                              α∈Σ+
+Then there exists a positive constant C such that
+                                            Φ(a)a2ρG = ∆(a) ≤ Ca2ρG
+for all a ∈ A+ . Notice that by (2.6) there are constants C1 , C2 > 0 such that
+                         Pr                         Xr                        Pr
+                      λ(      tj H j )                                     λ(      tj H j )
+                 C1 e     j=1          ≤ Dλ (k1 exp(   tj Y j )k2 ) ≤ C2 e     j=1          .
+                                                          j=1
+                  Pr
+Hence for a = exp( j=1 tj Y j ) ∈ A+
+               r
+               Y                                                                     r
+                                                                                     Y
+    C12 Φ(a)         exp(2tj hλ + ρcG , H j i) ≤ kDλ (k1 ak2 )k2 ∆(a) ≤ CC22               exp(2tj hλ + ρcG , H j i) .
+               j=1                                                                   j=1
+                                                     +
+The claim now follows as tj > 0 for a ∈ A .
+16                    Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+     From Theorem 2.6 and Lemma 2.1 we now obtain the following result:
+
+Theorem 2.7.       Let (πλ , Hλ ) be a G-spherical unitary highest weight representation of S .
+Suppose the highest weight λ is regular and satisfies the condition
+
+                                           hλ + ρcG , βi < 0
+for β the highest root in ∆+ . Then we have an onto G-equivariant partial isometry
+
+                                        Uλ : Hλ → L2 (G/K)
+which is an isomorphism when λ ∈ i(z(u) ∩ q∗ )∗ . In particular, for λ ∈ i(z(u) ∩ q∗ )∗ the
+representation πλ |G of G is multiplicity free with completely continuous spectrum.
+
+Remark 2.8. (a) The condition in Theorem 2.7 is the same as the one in Lemma 2.3 in the
+group case. The condition on the regularity of λ in Theorem 2.7 is probably superfluous, but we
+did not check it.
+(b) The results in [GrKo01] for s = sl(2, R) ⊕ sl(2, R) show that the condition hλ + ρcG , βi < 0
+on λ in Theorem 2.7 is also necessary for continuous branching. It would be interesting to know
+if this is generally true.
+
+Example 2.9. Let us consider S = Sl(2, e R) with G = SO(1, 1). In this case ρc = 0 and this
+                                                                               G
+means that all unitary highest weight representations πλ have continuous branching for πλ |G .
+      On the other hand consider the group case S = Sl(2,e R) × Sl(2,
+                                                                  e R). Here the condition
+       c
+hλ + ρG , βi < 0 gives a real restriction. Further by the results in [GrK01] we do not have
+continuous branching for πλ ⊗ πλ∗ to G on the full half line.
+
+
+
+
+                        Applications to the classical Hardy space
+      Write ∂s D for the Shilov boundary of D ≃ S/U and recall that ∂s D is the U -orbit through
+a certain E ∈ ∂s D . Note that D is a circular domain. In particular we have r∂s D ⊆ D for all
+0 ≤ r < 1.
+      The Hardy space parameter λh ∈ i(z(u) ∩ q∗ )∗ is defined by
+
+                                                      1 X
+                                     λh = −ρn : = −        α.
+                                                      2  +
+                                                          α∈∆n
+
+
+The corresponding Hilbert space Hλh is the classical Hardy space on D :
+                                               Z
+(2.7)           H2 (D): = {f ∈ O(D): sup0≤r<1     |f (ru(E))|2 dµU (u) < ∞} .
+                                                      U
+
+Here we identified the Shilov boundary of ∂s D with U (E) as explained before. We write
+πh : = πλh for the unitary irreducible representation of S on H2 (D).
+
+Lemma 2.10. Assume that (s, g, h) is a causally symmetric triple. Then λh is regular and
+satisfies the condition hλh + ρcG , βi < 0 .
+Proof.    See Proposition A.3 in the appendix.
+     From this we obtain the following important corollary to Theorem 2.8:
+                       Hardy spaces for non-compactly causal symmetric spaces                     17
+
+Corollary 2.11. Let (s, g, h) be a causally symmetric triple and H2 (D) be the classical Hardy
+space on D ≃ S/U . Then the inverse of the Segal-Bargmann transform
+
+                                U : (πh |G , H2 (D)) → (L, L2 (G/K))
+
+is a G-equivariant unitary isomorphism.           In particular, the branching πh | G is completely
+continuous and multiplicity free.
+
+
+
+              3. Analytical and geometrical constructions on Ξ
+
+      From now on we will assume that (s, g, h) is a causally symmetric triple. Further we will
+require SC to be simply connected and henceforth S ,U ,G,K and H will denote the analytic
+subgroups of SC with Lie algebras s, u, g, k and h.
+      We have seen in Section 1 that ∂s Ξ ≃ G/H is open and dense in ∂s D (cf. Theorem
+1.14). Now on ∂s Ξ we have a natural G-invariant measure µG/H while on ∂s D we have a
+natural U -invariant measure µ∂s D . These two measures are related through a density function,
+                    1
+i.e. dµG/H (z) = |ψ(z)| 2 dµ∂s D (z). In this section we will show that one can choose the measurable
+
+function ψ on ∂s D in such a way that it admits a continuous extension to D ∐ ∂s D which in
+addition is holomorphic on D . The function ψ will satisy a cocycle property which allows us to
+identify the L2 -spaces L2 (G/H) and L2 (∂s D, µ∂s D ) in a natural G-equivariant way (cf. Lemma
+3.11 below). Moreover the fact that ψ has a holomorphic extension to Ξ ≃ D will be used for
+comparing the classical Hardy space from (2.7) with our Hardy space on Ξ in Section 5.
+
+
+
+                                         The function ψ
+      In this subsection we give the construction of the function ψ mentioned above. For that
+we first have to collect some facts on certain finite dimensional KC -spherical representations of
+UC .
+      Denote by (πm , Vm ) the irreducible representation of UC with lowest weight −mρn . If
+such a representation exists it is KC -spherical. Note that Vm ≃ C is one dimensional since
+ρn ∈ i(z(u) ∩ q∗ )∗ . Also notice that the representation det Ad |p− of U has lowest weight −2ρn .
+Let
+                                      1
+                                 ζ = (γ1 + . . . + γr ) ∈ i(z(u) ∩ q∗ )∗
+                                      2
+where γ1 , . . . , γr is a maximal set of long strongly orthogonal roots in ∆+
+                                                                             n . Let
+
+                                           1                       1
+                                               (γi +γj )               (γi −γj )
+                                d = dim sC2                = dim sC2
+
+(cf. Table II in Appendix A). Then
+
+                                                       d(r − 1)
+(3.1)                                  ρn = (1 +                )ζ
+                                                           2
+(cf. Appendix A).
+
+Proposition 3.1.        Let the notation be as above. Let m ∈ N be minimal such that (πm , Vm )
+exists. Then the following holds:
+  (i) If (g, h) is of Cayley type and g 6= so(2, 2k + 1), sp(2n, R) then m = 1 .
+18                     Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+  (ii) If (g, h) is of Cayley type and g = so(2, 2k + 1), sp(2n, R) then m = 2 .
+ (iii) If (s, g) = (su(2n, 2n), sp(n, n)) then m = 1 .
+ (iv) If (s, g) = (sp(2n, R), sp(n, C)) then m = 2 .
+  (v) If (s, g) = (so(2, n), so(1, n)) for n > 2 then m = 1 if n is even and m = 2 for n odd.
+Proof.        Using Table II for d in Appendix A, this follows from (3.1) by straightforward
+computation.
+
+Lemma 3.2. The set GC UC P − is open and dense in SC . Furthermore S ⊆ GC UC P − .
+Proof. This is Theorem 2.4 in [ÓØ88].
+     Assume now that (πm , Vm ) exists. Then Vm = Cvm and vm is both a lowest weight vector
+and a KC -spherical vector. Normalize vm such that (vm , vm ) = 1 . Let
+                                U := {z ∈ p+ : exp(z) ∈ GC UC P − } .
+Since GC UC P − is open and dense in SC , it follows from Lemma 3.2 that U is an open dense
+and locally GC -invariant subset of p+ . Moreover D ⊆ U .
+      For s ∈ U define KC uG (s) ∈ KC \UC by
+(3.2)                                      s ∈ GC uG (s)P − .
+Define a function ψm : U → C by
+(3.3)                           ψm (z) := (πm (uG (exp(z))vm , vm ) .
+Lemma 3.3. The function ψ4 extends to an holomorphic function on p+ .
+Proof. This follows from [BÓ01], Proposition 4.1 and the table on p. 294, but we will give a
+short proof here. First notice that there exists a finite dimensional representation (σ, W ) of SC
+with lowest weight −2ρn . As −2ρn ∈ i(z(u) ∩ q∗ )∗ it follows by Helgason’s Theorem that the
+irreducible representation with lowest weight −4ρn is GC -spherical. Denote this representation
+by (σ4 , W4 ). Let v ∈ W4 be a lowest weight vector and u ∈ W4 be a GC -invariant vector. We
+can normalize v and u such that (u, v) = 1 . It then follows that
+                          (∀s ∈ SC )       (σ4 (s)v, u) = (σ4 (uG (s)) v, u) .
+Now note that the representation of UC generated by σ4 (UC )v is in fact irreducible and hence
+equivalent to π4 . Thus
+                           (∀z ∈ U)        (σ4 (uG (exp(z))) v, u) = ψ4 (z)
+and the claim follows as z 7→ (σ4 (exp z)v, u) is holomorphic on p+ .
+
+Proposition 3.4. Let ψm be as above. Then the following assertions hold:
+ (i) Let g ∈ GC and z ∈ U such that gz ∈ U . Then
+                                        ψm (gz) = Jmρn (g, z)ψm (z) .
+ (ii) ψm is holomorphic and has no zeros on D .
+Proof. (i) We have g exp(z) = exp(gz)J(g, z)p with p ∈ P − . Hence
+                                   exp(gz) = g exp(z)J(g, z)−1 p′
+for some p′ ∈ P − . It follows that
+                ψm (gz) = (πm (exp(z))πm (J(g, z)−1 )vm , vm )) = Jmρn (g, z)ψm (z)
+because vm is a weight vector with weight −mρn .
+(ii) The holomorphicity of ψm is clear by construction. To see that ψm (z) 6= 0 for z ∈ D write
+z = g(0) for some g ∈ G exp(iΩ). Since D ⊆ U , we obtain from (i) that
+
+                              ψm (z) = ψm (g(0)) = Jmρn (g, 0)ψm (0) .
+Now ψm (0) = (vm , vm ) = 1 6= 0 and Jmρn (g, 0) 6= 0 by construction.
+                         Hardy spaces for non-compactly causal symmetric spaces                             19
+
+      For the rest of this subsection we consider ψm as a function on D only. Note that ψ2
+always exists by Proposition 3.1. Since D is simply connected and ψm is zero-free   p it follows
+from Proposition 3.4(ii) that we can define a holomorphic square root ψ(z): = ψ2 (z) which
+becomes unique under the requirement ψ(0) = 1 . Note that ψ = ψ1 in case (π1 , V1 ) exists.
+      Write Se for the universal covering of S and G1 for the analytic subgroup of Se with Lie
+algebra g. Note that Jρn (s, z) exists for all s ∈ Se and z ∈ D (cf. Section 2). From Proposition
+3.4(i) we thus obtain that ψ(gz) = Jρn (g, z)ψ(z) for all g ∈ G1 and z ∈ D . In particular,
+             ψ(z)
+Jρn (g, z) = ψ(gz) and so Jρn (g, z), initially defined only on G1 × D , factors to a function on
+G × D , which we denote by Jh−1 . Summarizing our discussions we have proved:
+
+Proposition 3.5.         There exist an unique holomorphic function ψ: D → C∗ and a unique
+analytic function Jh : G × D → C∗ with the following properties:
+   (i) ψ(gz) = Jh−1 (g, z)ψ(z) for all g ∈ G, z ∈ D .
+  (ii) ψ 2 = ψ2 and ψ(0) = 1 .
+ (iii) Jh satisfies the cocycle property Jh (g1 g2 , z) = Jh (g1 , g2 z)Jh (g2 , z) for g1 , g2 ∈ G, z ∈ D
+       as well as Jh−2 = J2ρn and Jh (1, z) = 1 for all z ∈ D .
+
+Example 3.6. Let S = G × G, and G the diagonal group. Write G ⊂ PG+ KC PG− for the
+triangular decomposition for GC and let k1 (g) ∈ KC be the corresponding Harish-Chandra
+                                                                                 opp         opp
+projection. If DG ⊆ p+ G is the bounded realization of G/K , then D = DG × DG         where DG
+                                                                                     +     −
+denotes DG equipped with the opposite complex structure. Note that P + = PG × PG and
+P − = PG− × PG+ . In particular we are realizing S/U inside (GC /KC P − ) × (GC /KC P + ). Recall
+that the conjugation g 7→ g with respect to G satisfies P + = P − .
+      Let (s, t) ∈ G × G. Then
+        (s, t) = (t, t)(t−1 s, 1) = (t, t)(p+
+                                            1 k1 (t
+                                                    −1
+                                                       s)p−           +     +
+                                                          1 , 1) = (tp1 , tp1 )(k1 (t
+                                                                                      −1
+                                                                                         s)p−     + −1
+                                                                                            1 , (p1 )  ).
+Hence
+                                      GC uG (s, t) = GC (k1 (t−1 s), 1) .
+As UC = KC × KC it follows that any KC -spherical representation πU of UC is of the form
+πU = π ⊗ π ∗ where π is an irreducible representation of KC . Hence
+(3.4)           ψ(z, w) = π1 (k1 (exp(−w̄) exp(z))) = K−ρG
+                                                         n
+                                                           (z, w)−1               (z, w ∈ DG )
+
+where ρG
+       n is the ρn for the Hermitian group G. Notice that K−ρG
+                                                             n
+                                                               is nothing else but the
+reproducing kernel of the classical Hardy space on DG .
+
+
+
+                                            SU(1, 1)-reduction
+      In this subsection we will discuss the case S = SU(1, 1) even if it is not in our list of causally
+symmetric triples. The reason is, that many calculations can be reduced to this situation using
+τ -equivariant embedding of SU(1, 1) into S . Let
+                                                
+                                           α β
+                       S = SU(1, 1) = {             : α, β ∈ C, |α|2 − |β|2 = 1}
+                                           β̄ ᾱ
+                                                
+                                            0 1
+Define τ : S → S by conjugation with               . On SC = SL(2, C) the involution τ is given by
+                                            1 0
+                                                           
+                                           a b            d c
+                                       τ           =
+                                           c d            b a
+20                            Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+gko6. In particular                                                                
+                                            cosh(t)                    sinh(t)
+                                        G={                                             : t ∈ R} .
+                                            sinh(t)                    cosh(t)
+In this situation we have
+                                                                                                                           
+                0   1 0 1                     0     1              1       0                    1 0               0        −i
+              Y =           ,                X = −i                                     and Z =                                     .
+                    2 1 0                           2              0       −1                   2                 i        0
+
+For the general situation of a causally symmetric triple recall the su(1, 1)-triple {X j , Y j , Z j }
+from Appendix B. From the relations (B.1) and (B.2) in Appendix B it now follows:
+                                                                                                                                         
+                                                                                              j           1     0       j     0         1
+Lemma 3.7. Let the notation be as above. Then the map X 7→                                   ,                       , Y 7→
+                                                                                                        0     −1            1         0
+             0 −i
+and Z j 7→            defines a Lie algebra homomorphism into su(1, 1) intertwining the invo-
+             i 0
+lution τ on s and the above involution on su(1, 1). Furthermore it also intertwines the Cartan
+involution θ on s and the Cartan involution X 7→ −X ∗ on su(1, 1).
+      On the group level we have:
+                                                                          
+                                                           γ       0
+                                            UC = {                             : γ ∈ C∗ } ,
+                                                           0   γ −1
+                                                                          
+                                                  +      1             z
+                                              P       ={                       : z ∈ C} ,
+                                                         0             1
+and                                                                       
+                                                 −       1             0
+                                             P        ={                       : w ∈ C} .
+                                                         w             1
+Furthermore                                                                                                
+                          1 z           γ     0            1       0                γ + zwγ −1        zγ −1
+                                                                           =                                          .
+                          0 1           0    γ −1          w       1                  γ −1 w          γ −1
+Consequently, if d 6= 0 we have
+                                        1                                                      
+                            a b     1 b/d    d                                    0         1 0
+                                 =                                                                        .
+                            c d     0 1      0                                    d        c/d 1
+
+For the GC UC P − -decomposition we notice that
+                                                                                                           
+                     a b      γ   0      1 0       aγ + bwγ −1                                         bγ −1
+                                  −1            =                                                                      .
+                     b a      0 γ        w 1       bγ + aγ −1 w                                        aγ −1
+
+Hence, using that a2 − b2 = 1 , we obtain that
+                                                         !                                                                 
+                                   √ d           √ b                   √ 1                 0                    1           0
+                  a   b             d2 −b2        d2 −b2                d2 −b2
+                              =                                                         √                     cd−ab                 .
+                  c   d            √ b           √ d                       0             d − b2
+                                                                                          2
+                                                                                                              d2 −b2        1
+                                    d2 −b2        d2 −b2
+
+
+Thus the open sets GC KC P − and P + KC P − in SC are given by:
+                                               
+                                   −       a b
+                            GC UC P = {           : b2 − d2 6= 0}
+                                            c d
+                       Hardy spaces for non-compactly causal symmetric spaces                             21
+                                                                         
+                                                                  a   b
+                                        P + UC P − = {                        | d 6= 0}
+                                                                  c   d
+Furthermore we notice that the P + , UC , and P − components, whenever defined, are given by
+                                                                                            
+                                    a       b                         √ 1              0
+                         s=                         7→ uG (s) =        d2 −b2       √
+                                    c       d                             0          d2 − b2
+
+and                                                             −1                         
+                                a       b                1 b/d      d           0          1 0
+                       s=                       7→                                                    .
+                                c       d                0 1          0         d         c/d 1
+Notice that a double covering is needed in general for uG , but as an element of the coset KC \UC,
+                                                                                             1 z
+with KC = {±1} it is well defined. In the following we will identify P + with C by z 7→
+                                                                                           0 1
+                            γ     0
+and C∗ with UC by γ 7→                . In particular we get the following lemma:
+                            0 γ −1
+
+                             +
+Lemma 3.8.         Identify p
+                               and p− with C, and UC with C∗ in the way explained above. Let
+                        a b
+z, w ∈ C and g =               . Then the following assertions hold:
+                        c d
+   (i) If z w̄ 6= 1 then K(z, w) ∈ UC is defined and given by
+
+                                                                         1
+                                                         K(z, w) =             .
+                                                                      1 − z w̄
+
+ (ii) If az + d 6= 0 then J(g, z) is defined and
+
+                                                          J(g, z) = cz + d .
+
+(iii) Assume that |z| < 1 . Then uG (z) is defined and
+
+                                                                     1
+                                                         uG (z) = √       .
+                                                                   1 − z2
+
+
+
+
+                                            Description of ∂s Ξ in ∂s D
+      In this subsection we will use the su(1, 1)-reduction to identify ∂s Ξ in ∂s D as the non-
+vanishing locus of the function ψ . Recall that ψ4 extends to a holomorphic function on p+ .
+
+Lemma 3.9. We have:
+                                            ∂s Ξ = {z ∈ ∂s D: ψ4 (z) 6= 0} .
+Proof.     “ ⊆ ”: Recall the element z1 ∈ ∂s Ξ with isotropy subgroup H , i.e., ∂s Ξ = G(z1 ) ≃
+G/H . We first show that ψ4 (z1 ) 6= 0 by using SU(1, 1)-reduction. For S = SU(1, 1) we have
+D = {z ∈ C: |z| < 1} and z1 = i . In particular it follows from Lemma 3.8(iii) that ψ4 (z1 ) 6= 0 .
+Now ψ4 (z1 ) 6= 0 in the general case follows from simple SU(1, 1)-reduction (cf. Lemma 3.7 and
+our structural results in Appendix B). From the covariance property of ψ4 (cf. Proposition 3.5)
+we hence get that ψ4 (gz1 ) 6= 0 for all g ∈ G. In particular ψ4 has no zeros on G(z1 ) = ∂s Ξ.
+22                        Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+                                                                                         Pr
+“ ⊇ ”: By Theorem 1.14 we know that ∂s Ξ is open and dense in ∂s D . Let Y j and a = j=1 RY j
+be as in Appendix B. Let A = exp(a). Then G = KAH . Let gn be a sequence         P in G such that
+gn (z1 ) → ∂s D\∂s Ξ. Write gn = kn an hn with kn ∈ K, hn ∈ H and an = exp( rj=1 tr,n Y j ) ∈ A.
+Note that gn (z1 ) → ∂s D\∂s Ξ means precisely that an → ∞.
+       We have gn (z1 ) = kn an (z1 ). We also have that |J4ρn (k, z)| = 1 for all k ∈ K . Hence it
+follows from Proposition 3.5 that
+
+         |ψ4 (kn an (z1 ))| = |J4ρn (kn , an (z1 ))| · |ψ4 (an (z1 ))| = |ψ4 (an (z1 ))| = c|J4ρn (an , z1 )|
+
+with c: = |ψ4 (z1 )| > 0 . By SU(1, 1)-reduction (cf. Lemma 3.7 and Lemma 3.8(ii)) we get
+                                              r
+                                              Y                                         j
+                          J4ρn (an , z1 ) =         (i sinh(tn,j ) + cosh(tn,j ))−4ρn (H ) .
+                                              j=1
+
+As an → ∞, there exists an index j and a subsequence sn = tn,j such that |sn | → ∞. Therefore
+                                 r
+                                 Y                                            j
+                                       (i sinh(tn,j ) + cosh(tn,j ))−4ρn (H ) → 0
+                                 j=1
+
+because ρn (H j ) > 0 . This concludes the proof of the Lemma.
+
+Theorem 3.10.          The function ψ extends to a continuous function on D ∪ ∂s D such that
+
+                                          ∂s Ξ = {z ∈ ∂s D: ψ(z) 6= 0} .
+
+Proof. Notice that the set D ∪ ∂s Ξ is simply connected. Thus Lemma 3.9 implies that there
+exists a unique continuous function ψ : D ∪ ∂s Ξ → C∗ such that ψ(0) = 1 and ψ(z)4 = ψ4 (z).
+In particular this function agrees with our old definition of ψ on D . For z ∈ ∂s D \ ∂s Ξ define
+ψ(z) = 0 . It follows from Lemma 3.9 that ψ is continuous.
+
+
+
+
+                             L2 -isomorphism on the Shilov boundaries
+     Let µ∂s D be the unique (up to constant) U -invariant measure on ∂s D . If λh = −ρn is
+analytically integral, then S acts unitarily on L2 (∂s D, µ∂s D ) by
+
+(3.5)            (πh (s)f )(z) = Jh (s−1 , z)−1 f (s−1 z)           (s ∈ S, z ∈ D, f ∈ H2 (D))
+
+with Jh = J−ρn . In the case where m = 2 (see Proposition 3.1) we need to go to a double
+covering of S . But notice, that πh (s) is always defined for s ∈ G according to Proposition 3.5.
+One of the consequences of this observation is the following identification of L2 -spaces:
+
+Lemma 3.11. The following assertions hold:
+ (i) The G-invariant measure on G/H ≃ ∂s Ξ as a subset of ∂s D is given by
+                                    Z
+                               f 7→     f (z)|ψ(z)|−2 dµ∂s D (z)
+                                                     ∂s D
+
+      where dµ∂s D is the unique (up to constant) U -invariant measure on ∂s D .
+ (ii) The mapping f 7→ ψ1 f is a G-equivariant isomorphism of L2 (G/H) onto L2 (∂s D, µ∂s D ).
+Proof.      This follows from the covariance of ψ in Proposition 3.5 (cf. [BÓ01], Theorem 5.1).
+                      Hardy spaces for non-compactly causal symmetric spaces                     23
+
+
+
+
+                 4. The classical Hardy space inside L2 (G/H)mc
+
+     In this section we will show how to realize the classical Hardy space H2 (D) (cf. (2.7)) in
+the most continuous spectrum of L2 (G/H).
+
+
+
+                       The most continuous spectrum L2 (G/H)mc
+
+      Recall the involution σ on g associated to h. Let g = h ⊕ q be the σ -eigenspace
+decomposition. Note that we can choose a ⊆ q ∩ p since (g, σ) is non-compactly causal (cf.
+[HÓ96]). In particular, the minimal parabolic subgroup Pmin = M AN is also a minimal θσ -
+stable parabolic subgroup of G. Here, as usual, M = ZK (a). If m is the Lie algebra of M , then
+note that m ⊆ h since a ⊆ q ∩ p . Moreover we have
+
+                                         M = ZH (a) ⊆ H
+
+as GC is simply connected (cf. [HÓ96, Lemma 3.1.22]).
+      Write πδ = IndG                                                                         ∗
+                     MAN (δ) for the K -spherical unitary principal series of parameter δ ∈ ia .
+                                                                        2               2
+Notice that πδ ≃ πwδ for w ∈ W . The most continuous part L (G/H)mc in L (G/H)
+is by definition the G-invariant subspace in L2 (G/H) which corresponds in the Plancherel
+formula to all principal series induced from a minimal θσ -stable parabolic subgroup. Denote
+by W0 = NK∩H (a)/ZK∩H (a) the very little Weyl group. Since M = M ∩ H we now obtain from
+[BS97] or [D98] that
+
+                                Z ⊕                            Z ⊕                          
+                 2
+            (L, L (G/H)mc ) ≃                πδ ⊗ id dµ(δ),               Hδ ⊗ C|W/W0 | dµ(δ)
+                                    ia∗ /W                       ia∗ /W
+
+where µ is a Borel measure that is completely continuous with respect to the Lebesgue measure
+on ia∗ . In particular, up to a set of measure zero, the multiplicity of πδ in L2 (G/H)mc is
+|W/W0 |. Let ω ⊆ ia∗ /W be an open subset. Then we write
+                                                  Z
+                                2
+                          Pω : L (G/H)mc →             Hδ ⊗ C|W/W0 | dµ(δ)
+                                                   ω
+
+for the orthogonal G-invariant projection associated to ω .
+
+Definition 4.1. We call a closed G-invariant subspace of W ⊆ L2 (G/H)mc a subspace with
+full spectrum if Pω (W ) 6= {0} for all non-empty open subets ω ⊆ ia∗ /W .
+
+     It is interesting to compare the most-continuous spectrum L2 (G/H)mc with the spectrum
+of L (G/K). The Plancherel Theorem for L2 (G/K) has the form
+    2
+
+                                                      Z
+                                (L, L2 (G/K)) ≃                 πδ dµ′ (δ)
+                                                       ia∗ /W
+
+with µ′ a Borel measure completely continuous with respect to dδ . Hence we see that the
+spectrum of L2 (G/K) is the same as the most continuous part of the spectrum of L2 (G/H),
+but the difference is that the spectrum of L2 (G/K) is multiplicity free.
+24                    Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+
+
+
+                Embedding of H2 (D) in the most continuous spectrum
+     Recall the U -invariant measure µ∂s D on the Shilov boundary of D and the boundary value
+map of the classical Hardy space:
+
+                 b: (πh , H2 (D)) → (πh , L2 (∂s D, µ∂s D )), f 7→ (z 7→ lim
+                                                                         r→1
+                                                                             f (rz))
+                                                                           r<1
+
+
+which is an S -equivariant isometric embedding. On the other hand we have the G-equivariant
+isomorphism from Lemma 3.11:
+
+                         Ψ: (πh , L2 (∂s D)) → (L, L2 (G/H)), f 7→ ψf .
+
+Theorem 4.2.      The mapping
+
+                             Ψ ◦ b: (πh |G , H2 (D)) → (L, L2mc (G/H))
+
+is a G-equivariant isometric embedding. Moreover the image im Ψ ◦ b is a mulitiplicity free
+subspace of full spectrum in L2mc (G/H).
+Proof.    From Lemma 3.11 it is clear that Ψ ◦ b is a G-equivariant map from H2 (D) into
+L (G/H). It remains to specify the image. From Corollary 2.11 we obtain that πh |G ≃ L2 (G/K).
+  2
+
+Thus the remaining assertions of the theorem follow from our discussion of the most continuous
+spectrum in the previous subsection.
+
+
+
+                               5. The Hardy space on Ξ
+
+       This final section of the paper is devoted to the Hardy space H2 (Ξ) on Ξ. After a brief
+disgression on compression semigroups of D ≃ Ξ we give the definition of the Hardy space and
+show that it is in fact a Hilbert space. Also we show the existence of a boundary value map
+b: H2 (Ξ) → L2 (G/H). Subsequently, using the results of Section 3, we show that there is a
+natural identification of H2 (Ξ) and H2 (D). This together with Theorem 4.2 will then give us
+that im b ⊆ L2 (G/H)mc , the main result of this paper.
+
+
+
+                         Definition of H2 (Ξ) and first properties
+     In order to define the Hardy space on Ξ we first have to recall some facts on semigroups
+compressing D , resp. Ξ.
+     Recall the space e = t ∩ q∗ and associated restricted root system ∆e from Section 2. For
+α ∈ ∆e we denote by α̌ ∈ ie the coroot of α . Define
+
+                                  Cmin : = cone({α̌: α ∈ ∆+
+                                                          e,n }) ,
+
+
+where cone(·) refers to the convex cone generated by (·). Then
+
+                                        Wmin : = Ad(G)Cmin
+                      Hardy spaces for non-compactly causal symmetric spaces                  25
+
+is a minimal open convex cone in iq∗ and
+                                        Γ: = G exp(Wmin )
+is a G-biinvariant subsemigroup of SC (cf. [HÓ96, Ch. 4]). The closure of Γ in SC is given by
+Γ = G exp(Wmin ). The polar mapping
+                              G × Wmin → Γ, (g, X) 7→ g exp(X)
+is a homeomorphism (cf. [N99, Th. XI.1.7]). Moreover, Γ is an involutive semigroup with
+involution
+                       Γ → Γ, γ = g exp(X) 7→ γ ∗ = exp(X)g −1 .
+Note that Γ−1 compresses D :
+
+                                    (∀γ ∈ Γ−1 )      γ(D) ⊆ D
+(cf. [N99, Th. XII.3.3]). From the realization of Ξ in D we therefore obtain an action of Γ−1 on
+Ξ with the property
+
+
+(5.1)                               (∀γ ∈ Γ−1 )      γ(Ξ) ⊆ Ξ.
+Definition 5.1.    (Hardy space on Ξ) The Hardy space on Ξ is defined as
+                                                Z
+           H2 (Ξ) = {f ∈ O(Ξ): kf k2 : = supγ∈Γ   |f (γ −1 gz1 )|2 dµG/H (gH) < ∞}.
+                                                   G/H
+
+     From the definition of the Hardy space it is not clear yet that H2 (Ξ) is a Hilbert space.
+This will follow from the following geometric fact and its proof:
+
+Lemma 5.2. The semigroup orbit Γ−1 (z1 ) ⊆ Ξ is open and measure dense.
+                                                       Pn         j
+Proof.     Recall the elements H j ∈ ie and note that     j=1 tj H ∈ Cmin whenever tj ≥ 0 and
+not all tj = 0 . By simple SU(1, 1)-reduction we obtain for all j that
+
+
+(5.2)                     exp(−tj H j )(z1 ) = exp(i arctan(e−tj )Y j )(0).
+Write D: = {z ∈ C: |z| < 1} for the unit disc and identify A exp(iΩ)(0) with Dn in the obvious
+way through SU(1, 1)-reduction. With D− = D\R equation (5.2) then gives
+(5.3)                            AW exp(−Cmin )(z1 ) = (D− )n .
+In particular AW exp(−Cmin )(z1 ) is open and of full measure in A exp(iΩ)(0) = Dn . Sweeping
+out Ξ by G-orbits through exp(iΩ)(0) proves the lemma.
+      If M is a complex manifold, then we write O(M ) for the Fréchet space of holomorphic
+functions on M .
+
+Corollary 5.3. The Hardy space H2 (Ξ) is a Hilbert space of holomorphic functions. Moreover,
+the inclusion mapping H2 (Ξ) ֒→ O(Ξ) is continuous.
+Proof. If we know that H2 (Ξ) is complete, then the standard semigroup techniques imply that
+H2 (Ξ) is a Hilbert space (cf. [HÓØ91] or [N99, Ch. XIV]). The completeness and the continuity
+of the embedding H2 (Ξ) ֒→ O(Ξ) is easily obtained from (5.3) and Cauchy’s Theorem (use
+Γ = G exp(Cmin )G and choose local coordinates – recall the definition of the Hardy space).
+      Knowing that H2 (Ξ) is a Hilbert space, it is straightforward from the definition of H2 (Ξ)
+that the left regular representation L of G on H2 (Ξ) is unitary. In the terminology of [FT99]
+or [K99] this means that H2 (Ξ) is a G-invariant Hilbert space of holomorphic functions on Ξ.
+Those Hilbert spaces feature the following properties:
+26                    Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+Remark 5.4. (a) The inclusion mapping H2 (Ξ) ֒→ O(Ξ) is continuous and so all point
+evaluations
+                      evz : H2 (Ξ) → C, f 7→ f (z) (z ∈ Ξ)
+are continuous. In particular for every z ∈ Ξ there exists an element Kz ∈ H2 (Ξ) such that
+f (z) = hf, Kz i.
+(b) The Hardy space admits a reproducing kernel
+                              KΞ : Ξ × Ξ → C, (z, w) 7→ hKw , Kz i .
+Note that KΞ is holomorphic in the first and antiholomorphic in the second variable. We call
+KΞ the Cauchy-Szegö kernel of Ξ.
+(c) By construction the representation (L, H2 (Ξ)) of G is unitary. This can also be phrased by
+saying that KΞ is G-invariant:
+                                    KΞ (gz, gw) = KΞ (z, w)
+for all g ∈ G, z, w ∈ Ξ.
+
+
+
+
+                                   The boundary value map
+     Using the standard semigroup techniques for Hardy spaces (cf. [HÓØ91] or [N99, Ch. XIV])
+one easily shows that the prescription
+                           L: Γ → B(H2 (Ξ)), (L(γ)f )(z): = f (γ −1 z)
+defines a strongly continuous involutive contractive representation of Γ whose restriction to Γ
+is a holomorphic mapping. Here strongly continuous means that the mapping Γ → H2 (Ξ), γ 7→
+L(γ)f is continuous for all f ∈ H2 (Ξ); involutive means L(γ ∗ ) = L(γ)∗ for all γ ∈ Γ, and
+contractive means that kL(γ)k ≤ 1 for all γ ∈ Γ. Note that L is involutive implies in particular
+that L |G is unitary.
+      In order to define the boundary value map we first have to exhibit a good G-invariant
+subspace of H2 (Ξ) whose elements extend continuously to the boundary. A good choice herefore
+is the space of analytic vectors H2 (Ξ)ω of the representation (L, H2 (Ξ)) of G. According to
+[KNÓ97, App.] we have                        [
+                                  H2 (Ξ)ω =      L(γ)H2 (Ξ) .
+                                                γ∈Γ
+
+In particular it follows from the compression property (5.1) that all functions in H2 (Ξ)ω holo-
+morphically extend over the closure Ξ of Ξ. As a consequence we obtain a well defined boundary
+value mapping                                                                
+                                                            lim f (γ −1 gz1 )
+                      bω : H2 (Ξ)ω → L2 (G/H), f 7→ gH 7→ γ→1
+                                                                  γ∈Γ
+
+which is G-equivariant and continuous.
+
+Theorem 5.5.      The boundary value mapping
+                                                                         
+                                                        lim f (γ −1 gz1 )
+                    bω : H2 (Ξ)ω → L2 (G/H), f 7→ gH 7→ γ→1
+                                                                  γ∈Γ
+
+
+extends to a G-equivariant isometric embedding
+                                      b: H2 (Ξ) → L2 (G/H) .
+
+Proof.    This follows from our discussion above and the standard semigroup techniques (cf.
+[HÓO91] or [N99, Ch. XIV]).
+                        Hardy spaces for non-compactly causal symmetric spaces                   27
+
+
+
+
+                        The isomorphism between H2 (Ξ) and H2 (D)
+      In the sequel we will identify Ξ with D under the biholomorphism Φ: Ξ → D from Section
+2. We let G act on O(Ξ) via the left regular representation L and we let S (or its double
+covering if necessary) act on O(D) via the cocycle action πh
+
+                                 (πh (s)f )(z) = Jh (s−1 , z)−1 f (s−1 z)
+for all s ∈ S , z ∈ D and f ∈ O(D). Then we have an isomorphism of topological vector spaces
+                                    Ψ: O(D) → O(Ξ), F 7→ ψF
+with inverse mapping
+                                                                        1
+                                   Ψ−1 : O(Ξ) → O(D), f 7→                f
+                                                                        ψ
+Note that Ψ and Ψ−1 are defined since ψ is a zero free holomorphic function according to
+Proposition 3.5.
+
+Lemma 5.6. The maps Ψ and Ψ−1 are G-equivariant.
+Proof.      Since Jh = J−ρn this follows from Proposition 3.5.
+        From Lemma 5.6 we obtain immediately that the mapping
+
+                              Ψ: (πh |G , H2 (D)) → (L, O(Ξ)), f 7→ ψf
+is a continuous G-equivariant embedding. More precisely we have:
+
+Theorem 5.7.        The mapping
+                             Ψ: (πh |G , H2 (D)) → (L, H2 (Ξ)), f 7→ ψf
+is a G-equivariant isomorphism of Hilbert spaces.
+Proof.      Recall the element X 0 ∈ z(u) ∩ q∗ . For s ∈] − ∞, 0[ define
+                                              γs : = exp(isX 0 )
+and note that γs ∈ Z(UC ) ∩ Γ. Furthermore we have γs−1 (z1 ) = zes which follows by simple
+su(1, 1)-reduction using the results in Appendix B. We first show that ψ1 f ∈ H2 (D) for all
+f ∈ H2 (Ξ) and that kf k = k ψ1 f k . For every s < 0 set fs (gH): = f (γs−1 gz1 ) for g ∈ G. Now it
+follows from the definition of H2 (Ξ) and Lemma 3.11 that
+                                          Z
+                           kf k2 = γ→1
+                                   lim            |f (γ −1 gz1 )|2 dµG/H (gH)
+                                    γ∈Γ   G/H
+                                              Z
+                                 = sups<0             |f (γs−1 gz1 )|2 dµG/H (gH)
+                                               G/H
+                                              Z
+(5.4)                            = sups<0             |fs (gz1 )|2 dµG/H (gH)
+                                               G/H
+                                              Z
+                                 = sups<0             |fs (z)|2 |ψ(z)|−2 dµ∂s D (z)
+                                               ∂s D
+                                                  Z              2
+                                                       f (rz)
+                                 = sup0≤r<1                          dµ∂s D (z).
+                                                  ∂s D ψ(z)
+28                      Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+Now consider the function
+
+                                                                ψ(z)
+                                 F : [0, 1] × ∂s D, (r, z) 7→         .
+                                                                ψ(rz)
+Note that F is continuous, hence bounded since defined on a compact set. In particular we find
+                              1          1
+a constant C > 0 such that |ψ(z)| ≥ C |ψ(rz)| for all r, z . With this information we obtain from
+(5.4) that
+
+                                                   Z              2
+                                                         f (rz)
+(5.5)                       kf k2 ≥ C sup0≤r<1                        dµ∂s D (z),
+                                                    ∂s D ψ(rz)
+
+
+i.e., ψ1 f ∈ H2 (D). Moreover from F (1, z) = 1 for all z ∈ ∂s D we now obtain from (5.4) and
+(5.5) that
+                                     Z             2
+                             2             f (rz)
+                         kf k = lim                   dµ∂s D (z)
+                                 r→1 ∂ D ψ(z)
+                                       s
+                                     Z                         2
+                                                       f (rz)
+                               = lim      |F (r, z)|2            dµ∂s D (z).
+                                 r→1 ∂ D
+                                       s
+                                                       ψ(rz)
+Thus we have shown that Ψ−1 maps H2 (Ξ) isometrically into H2 (D). Finally, reversing the
+arguments from above, also yields that Ψ maps H2 (D) isometrically into H2 (Ξ), concluding the
+proof of the theorem.
+      An immediate conclusion from Theorem 5.7 in conjunction with Theorem 5.5 and Theorem
+4.2 now is:
+
+Theorem 5.8. The image of the boundary value map b : H2 (Ξ) → L2 (G/H) is a mulitiplicity
+free subspace of L2 (G/H)mc of full spectrum.
+
+
+
+
+                                     The Cauchy-Szegö kernel
+        We conclude this section with the derivation of the Cauchy-Szegö kernel for H2 (Ξ).
+
+Theorem 5.9.         If Kh is the reproducing kernel of H2 (D) then the Cauchy-Szegö kernel KΞ
+is given by
+                                   KΞ (z, w) = ψ(z)ψ(w)Kh (z, w).
+Proof.     In this proof denote by (·|·) the scalar product on H2 (Ξ) and by h·, ·i the scalar
+product on H2 (D). Fix z ∈ Ξ and let f ∈ H2 (Ξ). Consider the function w 7→ ψ(z)ψ(w)Kh (w, z)
+and note that this function lies in H2 (Ξ). We now have
+
+                           (f |ψ(z)ψ(·)Kh (·, z)) = ψ(z)(f |ψ(·)Kh (·, z))
+                                                            1
+                                                  = ψ(z)h      f, Kh (·, z)i
+                                                          ψ(·)
+                                                           1
+                                                  = ψ(z)      f (z) = f (z).
+                                                         ψ(z)
+
+This concludes the proof of the theorem.
+                       Hardy spaces for non-compactly causal symmetric spaces                        29
+
+Example 5.10. Let us consider the case of S = G × G. We keep the notation of Example 3.6
+                               opp
+and identify Ξ = D with DG × DG    . Write KhG (z, w) for the kernel of the classical Hardy space
+on DG . Then the kernel Kh of the classical Hardy space on D is given by
+                                                  
+                         Kh (z1 , w1 ), (z2 , w2 ) = KhG (z1 , z2 )KhG (w1 , w2 )
+for all (z1 , w1 ), (z2 , w2 ) in D . From Theorem 5.8 and (3.4) we thus obtain that
+
+                                                  K G (z1 , z2 )KhG (w1 , w2 )
+(5.6)                   KΞ (z1 , w1 ), (z2 , w2 ) = h                           .
+                                                   KhG (z1 , w1 )KhG (z2 , w2 )
+
+                                                                                   1
+In particular for G = SU(1, 1) where DG = D is the unit disc we have Kh (z, w) = 1−zw and so
+
+                                                   (1 − z1 w1 )(1 − z2 w2 )
+                         KΞ (z1 , w1 ), (z2 , w2 ) =                          .
+                                                     (1 − z1 z2 )(1 − w1 w2 )
+
+
+
+
+                                            Final remarks
+      It is possible to extend the results in this paper to the cases in Theorem 1.12 (ii), (iii) and
+(iv). Let us explain this for groups G which are structure groups of Euclidean Jordan algebras
+(the case in Theorem 1.12(ii)). Here one has
+                                            n
+                                            a
+                                  ∂d Ξ0 =         G/Hj ∐G/K ∐ G/K
+                                            j=1
+                                            |     {z     }
+                                                  ∂s Ξ
+
+
+with each G/Hj non-compactly causal (for more precise information see [GK02b, Sect. 4]). For
+every boundary component G/Hj of ∂d Ξ0 one can define a Hardy space
+                                                Z
+             Hj2 (Ξ0 ) = {f ∈ O(Ξ0 ): supγ∈Γ                 |f (γ −1 gzj )|2 dµG/Hj (gHj ) < ∞} .
+                                                   G/Hj
+
+
+We expect a boundary value map
+
+                                      bj : Hj2 (Ξ0 ) ֒→ L2 (G/Hj )
+
+with image a full subspace in L2 (G/Hj )mc . We also expect for each boundary component G/Hj
+a G-invariant isometric isomorphism
+
+                                          Hj2 (Ξ0 ) ֒→ H2 (D)
+
+with the classical Hardy space.
+30                     Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+
+
+
+                        Appendix A: parameter calculations
+
+     In this appendix we will derive some technical results on parameters of unitary highest
+weight representations which are needed in Section 2.
+     Unless otherwise specified s denots a simple Hermitian Lie algebra with compact Cartan
+subalgebra t ⊆ u. Write γ1 , . . . , γn for a maximal system of strongly orthogonal roots. Define
+
+                                                1
+                                        ζ: =      (γ1 + . . . + γr )
+                                                2
+and note that ζ ∈ iz(u)∗ . Note that we can choose the positive system ∆+ such that β = γ1 is
+the highest root. We write γ̌j ∈ it for the coroot of γj . Denote by e the subspace of t which
+is spanned by the iγ̌j . Write Σ: = ∆ |e \{0} for the restricted root system. Define Σn : = ∆n |e ,
+Σc : = ∆c | e \{0} . Similarly define Σ+ , Σ+    +
+                                            n , Σc . By results of Harish-Chandra and Moore we
+have:
+
+                                         1
+                                   Σ+
+                                    n = { (γi + γj ): 1 ≤ i, j ≤ r}
+                                         2
+and
+                            1                              1
+                      Σ+
+                       c = { (γi − γj ): 1 ≤ i < j ≤ r} ∪ { γi : 1 ≤ i ≤ r} .
+                            2                              2
+The second term in Σ+
+                    c only appears if s is not of tube type.
+                                        1                      1
+                                            (γ −γ )                (γi +γj )
+     Define the number d: = dimC sC2 i j = dimC sC2                            for i 6= j . This number does not
+depend on i and j , only on s. The table is as follows:
+
+
+                                                 Table II
+
+                                        s                   d
+                                   sp(n, R)                 1
+                                   su(p, q)                 2
+                                   so(2, n)           n − 2 (n > 2 )
+                                   so∗ (2n)                 4
+                                    e6(−14)                 8
+                                    e7(−25)                 8
+
+Theorem A.1. (Wallach) (cf. [W79]) Let λz : = zζ for z ∈ R. Then the set of scalar unitary
+highest weights λz ∈ iz(u)∗ is parametrized by
+
+                                                d(r − 1)      d(r − 1) d(r − 2)
+             z∈W       with   W =] − ∞, −                [∪{−         ,−        , . . . , 0}.
+                                                    2             2        2
+      The set W in Theorem A.1 is called the Wallach set. Note that λz is regular means
+precisely that z < − d(r−1)
+                        2   .
+
+Lemma A.2. If s is of tube type, i.e, if Σ is of type Cr , then the following assertions hold:
+  (i) ρn = (1 + d(r−1)
+                    2   )ζ.
+               1
+ (ii) hρ, βi = 2 (1 + d(r − 1)).
+                        Hardy spaces for non-compactly causal symmetric spaces                        31
+
+(iii) If λ ∈ iz(u)∗ is such that h2λ + ρ, βi < 0 , then λ is regular.
+(iv) The Hardy space weight λh = −ρn satisfies the condition h2λh + ρ, βi < 0 .
+Proof. (i) [ÓØ99, Lemma 2.5].
+(ii) Note that ρ = ρn + ρc . Thus (ii) is immediate from (i) and the structure of Σ+
+                                                                                   c .
+(iii) Write λ = λz . Then by (ii) the condition h2λ + ρ, βi < 0 means that
+                                              1
+                                         z < − (1 + d(r − 1))
+                                              2
+and Wallach’s Theorem A.1 implies the assertion.
+(iv) We obtain from (i) that
+
+                                                      1     d(r − 1)
+                   h2λh + ρ, βi = h−ρn + ρc , γ1 i = − (1 +          ) + hρc , γ1 i .
+                                                      2         2
+Now hρc , γ1 i = d(r−1)
+                    4   . Thus
+
+                                     1     d(r − 1)    d(r − 1)   1
+                     h2λh + ρ, βi = − (1 +          )+          =− <0,
+                                     2         2           4      2
+as was to be shown.
+
+Proposition A.3. Let (s, g, h) be a causally symmetric triple. Then the following assertions
+hold:
+  (i) The Hardy space parameter λh = −ρn is regular.
+ (ii) The Hardy space parameter λh = −ρn satisfies the condition hλh + ρcG , βi < 0 .
+Proof. If s = g ⊕ g is the group case, then g is of tube type and ρcG = 21 ρ. Thus (i) and (ii)
+follow in this case from Lemma A.2. Hence we may assume that s is simple. Since s is of tube
+type, (i) follows from Lemma A.2(i) and Theorem A.1.
+      It remains to check that (ii) is satisfied for the pairs
+
+         (s, g) = (sp(2n, R), sp(n, R)), (su(2n, 2n), sp(n, C)),    and (so(2, n), so(1, n)) .
+
+      Let us start with (sp(2n, R), sp(n, R)). In this case it is easy to see that hρcG , βi = 12 hρ, βi.
+Thus we obtain
+                                                    1
+                                  hλh + ρcG , βi = h2λh + ρ, βi < 0
+                                                    2
+by Lemma A.2 (iv).
+      Next consider the case (su(2n, 2n), sp(n, C)). Note that the restricted root system of
+sp(n, C) is of type Cn with with root space dimension 2 for all roots. Thus we obtain from
+Lemma A.2(ii) that
+                                       1 1                       1 n
+                           hρcG , βi =        (1 + 2(n − 1)) = − + .
+                                       2 2                        4   2
+On the other hand we have
+                                        1         2n − 1       1 n
+                            hλh , βi = − (1 + 1 ·        ) = −( + ) .
+                                        2           2          4 2
+Thus hλh + ρcG , βi = − 21 < 0 .
+     Finally consider the pair (so(2, n), so(1, n)). Here one has
+
+                                                                n n−1   1
+                    hλh + ρcg , βi = hλh , βi + hρcg , βi = −     +   =− <0,
+                                                                4   4   4
+concluding the proof of the proposition.
+32                         Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+
+
+
+         Appendix B: Structure theory for totally symmetric triples
+
+        In this appendix we will develop some structure theory for causally symmetric triples
+(s, g, h). The results will be useful for certain su(1, 1)-reductions used throughout the paper.
+Also we will give a structural description of the maximal parabolic subgroup P of S . We will
+state all results without proof since they entirely consist of minor variations of results already in
+the literature (cf. [HÓ96, Ch. 1, Ch. 4, App. A]).
+        As in Section 2 let t ⊆ u denote a compact τ -stable Cartan subalgebra of s. Set e: = t ∩ q∗
+and write ∆e = ∆(sC , eC ) for the restricted root system with respect to eC . We can choose ∆+
+(without changing ∆+                    +     +
+                        n ) such that ∆e : = ∆ |e \{0} is a positive system for ∆e . Further we set
+  +         +
+∆e,n : = ∆n |e . Note that ∆e is a root system of type Cr . Write γ1 , . . . , γr for a maximal set of
+long positive strongly orthogonal roots in ∆e . Define H j ∈ ie by γk (H j ) = 2δkj . Note that
+
+                                                   1
+                                           X 0 = −i (H 1 + . . . + H r ) .
+                                                   2
+                                     ±γ
+        We can choose E ±j ∈ sC j such that
+
+
+(B.1)             E j = E −j ,    τ (E j ) = E −j ,     θ(E j ) = −E −j         and [E j , E −j ] = H j .
+
+Note that the elements {H j , E j , E −j } form an su(1, 1)-triple in sC . Set
+
+                             Z j : = −i(E j − E −j )           and          Y j := E j + E −j
+
+and note that Z j ∈ q∗ ∩ p∗ and Y j ∈ g ∩ p∗ = p .
+      If we set X j : = −iH j then the elements {X j , Y j , Z j } form an su(1, 1)-triple in s with
+relations
+
+
+(B.2)                     [X j , Y j ] = 2Z j ,   [X j , Z j ] = 2Y j ,      [Y j , Z j ] = −2X j .
+
+        Our choice of the maximal abelian subspace a ⊆ p then is
+
+                                                             r
+                                                             M
+(B.3)                                                 a: =         RY j .
+                                                             j=1
+
+
+        Further
+
+                                                             r
+                                                             M
+(B.4)                                                 b: =         RZ j
+                                                             j=1
+
+defines a maximal abelian subspace in q∗ ∩ p∗ . Define elements
+
+                                 1 1                             1
+                        Y 0: =     (Y + . . . + Y r ) and Z 0 : = (Z 1 + . . . + Z r ) .
+                                 2                               2
+Note that Spec(ad Y 0 ) = Spec(ad Z 0 ) = {−1, 0, 1} . Next we define a Cayley transform
+                         Hardy spaces for non-compactly causal symmetric spaces                  33
+
+                                                             π        0
+                                   C: sC → sC , X 7→ ei 2 ad Y (X) .
+Notice the relations
+
+                           C(H j ) = Z j ,   C(Z j ) = −H j ,         C(Y j ) = Y j .
+        Since Spec(ad Y 0 ) = {−1, 0, 1} , the prescription
+                                                     0
+                                σ(X) = (eiπ ad Y ◦ θ)(X)                  (X ∈ s)
+
+defines an involution on s. Note that σ commutes with τ by construction. Write s = h⋆ ⊕ q⋆
+for the σ -eigenspace decomposition of s and g = h ⊕ q for the σ -eigenspace decomposition of
+g, i.e., h = h⋆ ∩ g and q = g ∩ q⋆ . Then
+
+(B.5)                           a⊆p∩q          and       b ⊆ q∗ ∩ q⋆ ∩ p∗ .
+
+      As in Section 2 we let SC be a simply connected Lie group with Lie algebra sC and S , G,
+U , K the analytic subgroups of SC corresponding to s, g, u and k. Our final goal is to describe
+the maximal parabolic subgroup P = C(UC P − ) ∩ S of S . For that write Σb = Σ(s, b) for the
+restricted root system of s with respect to b . Note that Σb = Ct (∆e ) and so Σb is of type Cr .
+Define Σ+          t  +
+          b,n : = C (∆e,n ) and write
+
+
+                                                         M
+(B.6)                                        n±
+                                              b :=             sα .
+                                                     α∈±Σ+
+                                                         b,n
+
+
+
+Note that n±                                         ±           ±
+            b are both abelian and real forms of C(p ). Write Nb for the analytic subgroups
+                       ±
+of S corresponding to nb . Write L: = C(UC ) ∩ S . Then L is the Levi factor of P and we have
+
+
+(B.7)                                         P = L ⋊ Nb− .
+
+We will show that L = H ⋆ : = S σ . First we describe l: = Lie(l). For that define subalgebras
+
+                                s(0): = zs (Y 0 ) and g(0) = zg (Y 0 ) .
+Then s(0) = sσθ and g(0) = gσθ and therefore
+
+
+(B.8)                g(0) = (h ∩ k) ⊕ (p ∩ q) and s(0) = (h⋆ ∩ u) ⊕ (q⋆ ∩ p∗ ).
+
+        Thus we obtain
+                                                                               
+                     l = C(uC ) ∩ s = (uC ∩ s(0)) ⊕ C(uC ) ∩ (h⋆ ∩ p∗ ⊕ q⋆ ∩ u)
+                       = (h⋆ ∩ u) ⊕ (h⋆ ∩ p∗ ) = h⋆ .
+Hence L = H ⋆ . Summarizing our discussion we have shown:
+
+Lemma B.1. Let P = C(UC P − ) ∩ S be the stabilizer of x1 ∈ ∂s D in S . Then the Levi-
+decomposition of the maximal parabolic subgroup P is given by
+
+                                             P = H ⋆ ⋊ Nb− .
+34                Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+
+
+
+                                        References
+
+
+[AG90]     Akhiezer, D. N., and S. G. Gindikin, On Stein extensions of real symmetric
+           spaces, Math. Ann. 286, 1–12, 1990.
+[BS97]     van den Ban, E., and H. Schlichtkrull, The most continuous part of the Plan-
+           cherel decomposition for a reductive symmetric space, Ann. of Math. (2) 145
+           (1997), no. 2, 267–364.
+[BS01a]    — , The Plancherel decomposition for a reductive symmetric space I. The spher-
+           ical part, preprint 2001.
+[BS01b]    —, The Plancherel decomposition for a reductive symmetric space II. Represen-
+           tation theory, preprint 2001.
+[Ber96]    Bertram, W., On some causal and conformal groups, J. Lie Theory 6 (1996),
+           215–247.
+[Bet97]    Betten, F., Causal compactification of compactly causal spaces, TAMS, to ap-
+           pear.
+[BÓ01]    Betten, F., and G. Ólafsson, Causal compactification and Hardy spaces for
+           spaces of Hermitian type, Pacific, J. of Math. Vol. 200 (2) (2001), 273–312.
+[DÓZ01]   Davidson, M., G. Ólafsson, G. Zhang, Segal-Bargmann transform on Hermitian
+           symmetric spaces and orthogonal polynomials. Preprint, 2001.
+[De98]     Delorme, P., Formule de Plancherel pour les espaces symétriques réductifs, Ann.
+           of Math. (2) 147 (1998), no. 2, 417–452.
+[EHW83]    Enright, T., R. Howe, and N. Wallach, A classification of unitary highest weight
+           modules, Representation theory of reductive groups (Park City, Utah, 1982),
+           97–143, Progr. Math., 40, Birkhäuser Boston, Boston, MA, 1983.
+[FT99]     Faraut, J., and E. G. F. Thomas, Invariant Hilbert spaces of holomorphic
+           functions, J. Lie Theory 9 (1999), no. 2, 383–402.
+[GG77]     Gel’fand, M., and S.G. Gindikin, Complex Manifolds whose Skeletons are real
+           Lie Groups, and Analytic Discrete Series of Representations, Funct. Anal. and
+           Appl. 11(1977), 19–27.
+[G98]      Gindikin, S., Tube domains in Stein symmetric spaces, Positivity in Lie theory:
+           open problems, 81–97, de Gruyter Exp. Math., 26, de Gruyter, Berlin, 1998.
+[GK02a]    Gindikin, S., and B. Krötz, Complex crowns of Riemannian symmetric spaces
+           and non-compactly causal symmetric spaces, Trans. Amer. Math. Soc. 354
+           (2002), no. 8, 3299–3327.
+[GK02b]    —, Invariant Stein domains in Stein symmetric spaces and a non-linear complex
+           convexity theorem, IMRN 18 (2002), 959–971.
+[GM01]     Gindikin, S., and T. Matsuki, Stein Extensions of Riemann Symmetric Spaces
+           and Dualities of Orbits on Flag Manifolds, Transformation groups, to appear.
+[GrK01]    Groenevelt, W., and E. Koelnik, Meixner functions and polynomials related to
+           Lie algebra representations, preprint.
+[HÓ96]    Hilgert, J. and G. Ólafsson, “Causal Symmetric Spaces, Geometry and Har-
+           monic Analysis,” Acad. Press, 1996.
+[HÓØ91]   Hilgert, J., G. ’Olafsson, and B. Ørsted, Hardy spaces on affine symmetric
+           spaces, J. Reine Angew. Math. 415 (1991), 189–218.
+                  Hardy spaces for non-compactly causal symmetric spaces                   35
+
+[K99]      Krötz, B., The Plancherel theorem for biinvariant Hilbert spaces, Publ. Res.
+           Inst. Math. Sci. 35 (1999), no. 1, 91–122.
+[K01]      —, Formal dimension for semisimple symmetric spaces, Compositio Math. 125
+           (2001), no. 2, 155–191.
+[KN02]     Krötz, B., and K.–H. Neeb, Unitary spherical highest weight representations,
+           Trans. Amer. Math. Soc. 354 (2002), no. 3, 1233–1264.
+[KNÓ97]   Krötz, B., K.–H. Neeb, and G. Ólafsson, Spherical representations and mixed
+           symmetric spaces, Representation Theory 1 (1997), 424–461.
+[KÓ02]    Krötz, B., and G. Ólafsson, The c-function for a non-compactly causal symmet-
+           ric space, Invent. math. 149(3) (2002), 647–659.
+[KS01a]    Krötz, B., and R.J. Stanton, Holomorphic extension of representations: (I)
+           automorphic functions, Annals of Mathematics, to appear.
+[KS01b]    Krötz, B., and R.J. Stanton, Holomorphic extension of representations: (II)
+           geometry and harmonic analysis, preprint.
+[N99]      Neeb, K.–H., “Holomorphy and Convexity in Lie Theory,” Expositions in Math-
+           ematics, de Gruyter 28, 1999.
+[Ne99]     Neretin, Y. A., Matrix analogs of the B -function and Plancherel formula for
+           Berezin Kernel representation. Math. Sb. 191 (2000), 57–100. Translation in
+           Sb. Math. 191 (2000), 683–715.
+[Ó00]     Ólafsson, G., Analytic continuation in representation theory and harmonic anal-
+           ysis, Global analysis and harmonic analysis (Marseille-Luminy, 1999), 201–233,
+           Sémin. Congr., 4, Soc. Math. France, Paris, 2000.
+[ÓØ88]    Ólafsson, G., and B. Ørsted, The holomorphic discrete series for affine sym-
+           metric spaces. I, J. Funct. Anal. 81 (1988), no. 1, 126–159.
+[ÓØ96]    —, Generalizations of the Bargmann transform, Lie theory and its applications
+           in physics (Clausthal, 1995) (H.-D. Doebner, V.K. Dobrev, and J. Hilgert eds.)
+           World Scientific, River Edge, New Jersey, 1996.
+[ÓØ99]    —, Causal compactification and Hardy spaces, Trans. Amer. Math. Soc. 351
+           (1999), no. 9, 3771–3792.
+[O82]      Olshanski, G. I., Invariant cones in Lie algebras, Lie semigroups, and the holo-
+           morphic discrete series, Funct. Anal. and Appl. 15, 275–285 (1982).
+[S86]      Stanton, R. J., Analytic Extension of the holomorphic discrete series, Amer. J.
+           Math. 108 (1986), 1411–1424.
+[W79]      Wallach, N., The analytic continuation of the discrete series.I, II, Trans. Amer.
+           Math. Soc. 251 (1979), 1–17, 19–37.
+[Z01]      Zhang, G., Berezin transform on real bounded symmetric domains, Trans. Amer.
+           Math. Soc., 353 (2001), 3769–3787.
+36                 Simon Gindikin ∗ , Bernhard Krötz ∗∗ and Gestur Ólafsson ∗∗∗
+
+
+
+
+Simon Gindikin                                       Bernhard Krötz
+Department of Mathematics                            The Ohio State University
+Rutgers University                                   Department of Mathematics
+New Brunswick, NJ 08903                              231 West 18th Avenue
+USA                                                  Columbus, OH 43210–1174
+gindikin@math.rutgers.edu                            USA
+                                                     kroetz@math.ohio-state.edu
+
+Gestur Ólafsson
+Louisiana State University
+Department of Mathematics
+Baton Rouge, LA 70803
+USA
+olafsson@math.lsu.edu
+

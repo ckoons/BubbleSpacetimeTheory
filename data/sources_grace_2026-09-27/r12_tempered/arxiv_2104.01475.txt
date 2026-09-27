@@ -1,0 +1,813 @@
+                                                TOWARDS A TENSOR-CLASSIFICATION OF HARISH-CHANDRA
+                                                                    MODULES:
+                                                                 THE CASE SL2 (R)
+
+                                                                                     FABIAN JANUSZEWSKI
+
+
+
+
+                                                 Abstract. We consider the category of Harish-Chandra modules for SL2 (R) as a module over
+                                                 the category of finite-dimensional representations of SL(2) with respect to the tensor product. In
+
+
+
+
+arXiv:2104.01475v1 [math.RT] 3 Apr 2021
+                                                 this note we use classical results about principal series to obtain a classification of ⊗-submodules
+                                                 of the category of Harish-Chandra modules of SL2 (R). The resulting classification recovers the
+                                                 classical classification of irreducible Harish-Chandra modules. Our methods are expected to
+                                                 generalize to arbitrary reductive pairs and more general base fields.
+
+
+                                                                                         Introduction
+                                             The study of (unitary) representations of reductive Lie groups has its origins in the pioneer-
+                                          ing work of Elie Cartan and Hermann Weyl yielding the classification of irreducible unitary
+                                          representations of (connected) compact Lie groups. In this case, all unitary representations are
+                                          semi-simple and irreducibles turn out to be finite-dimensional.
+                                             The non-compact case is significantly more challenging: infinite-dimensional irreducible rep-
+                                          resentations enter the scene and the category of finite length modules is no more semi-simple.
+                                          The irreducible representation of SL2 (R) were classified by Bargmann [3] and independently
+                                          by Gelfand and Naimark [8]. After proving the Plancherel formula for SL2 (R) in [10], Harish-
+                                          Chandra subsequently laid the foundation for the classification of irreducible admissible rep-
+                                          resentations for general reductive Lie groups in [11, 12, 13] which in turn led Langlands to
+                                          formulate his classification [22] that now bears his name.
+                                             Harish-Chandra replaced a reductive Lie group G (in Harish-Chandra’s class) by a reductive
+                                          pair (g, K), where g is the complexified Lie algebra of G and K is a maximal compact Lie
+                                          subgroup of G and reduced the problem of classifying unitary representations of G to classifying
+                                          infinitesimally unitary representations of (g, K). In Harish-Chandra’s work both algebra and
+                                          analysis have their rightful places.
+                                             The definition of a (g, K)-module is a purely algebraic concept and is meaningful over arbitrary
+                                          fields of characteristic 0, cf. [9, 14, 18]. This point of view was initially motivated by arithmetic
+                                          applications (cf. [9, 14, 15, 18, 19] for instance) and has been also adopted in the context of
+                                          contractions of representations in [7].
+                                             Therefore, we are naturally led at complementing and extending the existing algebraic and
+                                          homological methods in the theory of Harish-Chandra modules in order to obtain a self-contained
+                                          algebraic theory independent of the ground field (or even ground ring).
+                                             With Beilinson-Bernstein’s classification of (g, K)-modules in terms of infinitesimal characters
+                                          and sheaves on K-orbits on the flag variety of G (provided G originates from a linear algebraic
+                                          group) we have a clean algebraic theory over algebraically closed fields of characteristic 0 at
+                                          hand, which currently is being extended to general bases in joint work of the author with
+                                          Takuma Hayashi [20].
+                                             In this note, we embark on a categorical approach to the classification problem, motivated by
+                                          the following observations.
+                                             When restricting to finite-dimensional (rational) representations of an algebraic group, the
+                                          theory of Tannakian categories implies that the ⊗-structure together with a suitable fibre functor
+                                          is sufficient to recover the unterlying group. Therefore, the same structure is morally sufficient
+                                          to classify finite-dimensional irreducible representations.
+                                                                                                  1
+2                                      FABIAN JANUSZEWSKI
+
+
+   Although the concept of Tannakian categories does not apply to situation at hand which in-
+volves infinite-dimensional representations of a single reductive pair, with the notion of coherent
+families and translation functors the tensor product always had its rightful place in the theory
+of Harish-Chandra modules.
+   On a conceptual level, the ⊗-structure on (g, K)-modules plays a central role in the author’s
+homological character theory [17]: In order to obtain a well defined and well behaved theory,
+a suitable Weyl denominator has to be inverted with respect to a multiplication induced by
+the tensor product. Now since this character theory classifies irreducible (g, K)-modules, this
+suggests that the ⊗-structure plays a central role in the classification problem.
+   In this note, we put the ⊗-structure at the center of attention.
+   Balmer [1] attaches to any small ⊗-triangulated category D a topological space Spec D which
+is universal for a suitable notion of support. In particular, this allows Balmer to define a notion
+of support for objects (and ⊗-ideals) in the derived category under consideration.
+   Aiming at a (complete) description of the Balmer spectrum of nice categories of (g, K)-
+modules, such as finite length modules, admissible modules, etc., therefore appears as a natural
+problem, which in other settings has been successfully achieved (Hopkins-Neeman’s classification
+of localising subcategories of the derived category of modules over a commutative ring [16,
+23], Benson-Iyengar-Krause classified localising subcagetories of the stable category of k[G]-
+modules for a finite group G [5], extending the Benson-Carlson-Rickard classification [4], and
+other classification results, cf. [2]).
+   There is a technical obstacle however: Neither the category of finite length modules nor the
+category of admissible modules are closed under the tensor product. The observation that in
+order to obtain a meaningful algebraic / homological character theory as in [17], the only relevant
+tensor products are the ones with finite-dimensional modules, we restrict our attention to the
+following setup:
+   We consider the category of finite length (g, K)-modules as a module over the category of
+finite-dimensional (g, K)-modules with respect to the tensor product (in the sense of Yetter
+[25, 26]) and aim at classifying the all thick ⊗-submodules of said category.
+   Stevenson [24] defined a notion of support in such situations on the Balmer spectrum of the
+smaller category operating via a suitable operation on a larger category. However, in our case the
+Balmer spectrum of the category of finite-dimensional modules is trivial, because the underlying
+category is semi-simple.
+   Nonetheless we demonstrate that already in the first non-trivial case G = SL2 (R), the clas-
+sification of thick ⊗-submodules of the category of finite-length modules over the category of
+finite-dimensional modules is meaningful and reflects the classical classification of irreducible
+Harish-Chandra modules in this case. In fact, together with the infinitesimal character, it is
+possible to deduce a complete classification of irreducible modules (cf. section 3.7). Furthermore,
+there is a close relationship between the classification of thick ⊗-submodules and K-orbits on
+the flag variety of G (cf. section 3.6).
+   For an expert in the representation theory of real reductive groups neither the classification in
+Theorem 3.5, nor the techniques involved in its proof will be surprising. Nonetheless we included
+many details in order to make this text accessible to non-experts as well.
+Outline of the paper. This note is organized as follows. In section 1 we introduce notation and
+collect relevant technical results. Since all those statements are known in the literature for
+general reductive pairs (g, K), there is no reason to restrict the statements in section 1 to a
+special case.
+   In section 2 we introduce the categorical classification problem for general reductive pairs
+(g, K).
+   From section 3 on we restrict ourselves to G = SL2 (R) and after a short discussion of finite-
+dimensional representations, we focus on composition series of principal series representations,
+which are one key ingredient to our classification: Composition factors of tensor products of
+principal series representations with finite-dimensional representations are easily decomposed
+    TOWARDS A TENSOR-CLASSIFICATION OF HARISH-CHANDRA MODULES:               THE CASE SL2 (R)     3
+
+
+in the case at hand. The other key ingredient towards the classification is provided by the
+asymptotic K-support, the latter being stable under tensor products.
+  At the end of this section 3 we summarize the classification in Theorem 3.5 and discuss
+the relation to Beilinson-Bernstein localization and the classification problem for irreducible
+modules.
+
+Acknowledgement. The authors thanks Henning Krause for stimulating conversations and for
+references for known classifications in ⊗-triangulated contexts.
+
+
+                                        1. Generalities
+1.1. Reductive pair. In this section G denotes a connected linear reductive group over R.
+We write GC for its complexification and G(R) for the group of real-valued points. Then
+G(R) is a real reductive Lie group. Fix a maximal compact subgroup of K of G(R) and write
+g = Lie(G) ⊗R C for the complexified Lie algebra. Then (g, K) admits the structure of a
+reductive pair in the sense of Chap. IV in [21]. We write θ : g → g for the Cartan involution
+attached to K and denote by g = p ⊕ k the Cartan decomposition accordingly. As the notation
+suggests, k denotes the Lie algebra of K (or rather of the connected compontent of the identity
+in K).
+   Decompose g = n− ⊕ h ⊕ n for a Cartan subalgebra h ⊆ g and a choice of positive root spaces
+n and its opposite n− (n corresponds to a choice of Borel subalgebra b = h + n inside g).
+
+1.2. Subpairs. A subpair (a, B) of (g, K) consists of a Lie-subalgebra a of g and a closed
+subgroup B ⊆ K such that its Lie algebra b ⊆ a is contained in a. Subpairs of subpairs
+are defined similarly and saying that the pair (a, B) is θ-stable is equivalent to the condition
+θ(a) = a.
+
+1.3. Universal enveloping algebras. We write U (g) for the universal enveloping algebra of
+g and Z(g) ⊆ U (g) for its center. U (g) comes with a Lie inclusion g → U (g) giving rise to its
+universal property as the universal associative C-algebra generated by g.
+   Recall the Harish-Chandra map
+
+                                        γ : Z(g) → U (h),
+
+which again by Harish-Chandra induces an isomorphism
+
+                                     γ : Z(g) → U (h)W (h,g)
+
+which is independent of a choice of positive system.
+
+1.4. Infinitesimal characters. A (g, K)-module X is said to have infinitesimal character λ ∈
+h∗ , if Z(g) acts on X via the composition
+
+                                       Z(g) → U (h) → C,
+
+where the last map is given by λ. Every one-dimensional Z(g)-module is of this form and two
+characters λ, λ′ ∈ h∗ give rise to the same infinitesimal character if and only if w(λ) = λ′ for
+some w ∈ W (h, g).
+   Infinitesimal characters are very useful invariants: Every irreducible (g, K)-module X admits
+an infinitesimal character, in the sense that there is a unique K-orbit of infinitesimal characters
+attached to X. However, in our situation K stabilizes γ and therefore we need not take this
+into account.
+4                                     FABIAN JANUSZEWSKI
+
+
+1.5. Finite-dimensional representations. A finite-dimensional representation V of G is al-
+ways a rational representation of the algebraic group G over C. Such a V is classified by Cartan’s
+highest weight theory. Each such V gives rise to a finite-dimensional continuous representation
+V of G(R).
+   When speaking about highest / dominant weights, we always work in the context of the Borel
+subalgebra b = h + n, i. e. dominance is understood with respect to n.
+   If Vλ is an irreducible finite-dimensional representation of G of highest weight λ, then Vλ has
+infinitesimal character λ + ρ where again ρ = ρ(n) denotes the half sum of positive roots.
+1.6. Modules and Hecke algebras. The category of (a, B)-modules is equivalent to the cat-
+egory of approximately unitial R(a, B)-modules for a suitable associative algebra R(a, B) with
+approximate unit, commonly referred to as the Hecke algebra (cf. Chap. I in [21]).
+   We write C(a, B) for the category of (a, B)-modules. It contains enough injectives and pro-
+jectives.
+1.7. Induction and production functors. If (a, B) → (c, D) is a map of pairs, we have two
+forgetful functors
+                      F : C(c, D) → C(a, B),      F∨ : C(c, D) → C(a, B),
+with a canonical inclusion F → F∨ . The first one is the naive forgetful functor, while the second
+is given by
+                              F ∨ (X) = HomR(c,D) (R(c, D), X)B
+where the subscript B denotes the subspace of B-finite vectors, i. e. the maximal approximately
+unitial submodule for the natural action of R(a, B). Both are exact.
+   Put
+                              c,D
+                             Pa,B (−) := R(c, D) ⊗R(a,B) −,
+                               c,D
+                              Ia,B (−) := HomR(a,B) (R(c, D), −)D .
+      c,D                            c,D
+Then Pa,B is left adjoint to F∨ and Ia,B is right adjoint to F.
+
+1.8. Primary decomposition. We say that a (g, K)-module X is Z(g)-finite if for every x ∈ X
+the space Z(g) · x is finite-dimensional. We write CZ(g)−fin (g, K) for the category of Z(g)-finite
+modules.
+   For any character λ of h the kernel of the induced algebra morphism Z(g) → C is a maximal
+ideal
+                                      mλ := ker(Z(g) → C)
+in Z(g) and any maximal ideal is of this form. Therefore, every Z(g)-finite module X admits a
+primary decomposition
+                                               M
+(1)                                  X =              Pλ (X)
+                                           λ∈h∗ /W (h,g)
+
+where Pλ (X) is the the λ-primary component of X (i. e. the subspace of elements annihilated
+by a power of mλ ). Each direct summand Pλ (X) is again a (g, K)-module.
+  We say that X has generalized infinitesimal character λ, if X is Z(g)-finite and X = Pλ (X).
+We write Cλ (g, K) for the full subcategory of (g, K)-modules with generalized infinitesimal
+character λ. In particular, we obtain a functor CZ(g)−fin (g, K) → Cλ (g, K) which by (1) is
+exact.
+1.9. Orthogonality relations — Wigner’s Lemma. Say X and Y are (g, K)-modules with
+different generalized infinitesimal characters λ and µ, i. e. W (h, g)λ 6= W (h, g)µ. Then
+(2)                                    Ext•g,K (X, Y ) = 0.
+1.10. Generalities on the tensor structure. We collect general facts about tensor products.
+      TOWARDS A TENSOR-CLASSIFICATION OF HARISH-CHANDRA MODULES:             THE CASE SL2 (R)    5
+
+
+1.10.1. Finite-dimensional representations. Let Vλ , Vµ denote two irreducible finite-dimensional
+representations of G of highest weights λ and µ respectively. Write ρ for the half sum of positive
+roots of G.
+   In the Grothendieck group of finite-dimensional rational representations of G we then have
+an identity
+                                X
+(3)              [Vλ ⊗ Vµ ] =        mµ (ν) · sgn(λ + ν + ρ) · [Vwλ+ν+ρ (λ+ν+ρ)−ρ ]
+                               ν weight
+                                 of Vµ
+
+where
+     • mµ (ν) denotes the multiplicity of ν in Vµ , explicitly known by Kostant’s Multiplicity
+       Formula.
+     • wλ+ν+ρ is any element of the Weyl group W (h, g) such that wλ+ν+ρ (λ+ν+ρ) is dominant.
+     • sgn(λ+ν+ρ) is zero if λ+ν+ρ is singular and the usual sign sgn(wλ+ν+ρ ) = (−1)ℓ(wλ+ν+ρ )
+       defined via the length function on W (h, g) otherwise.
+We remark that wλ+ν+ρ is unique whenever the sign of λ + ν + ρ is non-zero.
+1.10.2. Tensor products with finite-dimensional representations. Let X be a Z(g)-finite (g, K)-
+module and V a finite-dimensional (g, K)-module. A theorem of Kostant (Thm. 7.133 in [21])
+guarantees that X ⊗ V is again Z(g)-finite.
+   Furthermore, along the same lines, Kostant gives the following generalization of (3): Let
+X ∈ Cλ (g, K) and let Vµ be an irreducible rational representation of G of highest weight λ.
+Then
+                                            M
+(4)                            X ⊗ Vµ =           Pλ+ν (X ⊗ V ).
+                                             ν s. t.
+                                            mµ (ν)6=0
+
+1.10.3. Mackey Isomorphism. If (a, B) → (c, D) is a map of pairs, we have for any V ∈ C(c, D)
+and X ∈ C(a, B) a natural isomorphism
+                                c,D                c,D
+(5)                            Pa,B (X ⊗ F(V )) = Pa,B (X) ⊗ V,
+cf. Theorem 2.103 in [21].
+
+                                     2. Categorical setup
+  Let (g, K) denote a reductive pair. We write Cfd (g, K) for the semi-simple category of finite-
+dimensional (g, K)-modules and Cfl (g, K) for the category of (g, K)-modules of finite length.
+Then Cfd (g, K) is symmetric monoidal with respect to the standard tensor product ⊗ of C-
+vector spaces and acts on Cfl (g, K), again via the tensor product ⊗ in the following sense: ⊗
+induces the biexact functor
+                     Cfd (g, K) × Cfl (g, K) → Cfl (g, K),   (X, Y ) 7→ X ⊗ Y.
+This defines the structure of a (strong) left Cdf (g, K)-module on Cfl (g, K) in these sense of
+Yetter (cf. [25], see also Defintion 38 in [26]).
+  We call a subcategory C of Cfl (g, K) thick, if for any short exact sequence
+                             0 −−−−→ A −−−−→ B −−−−→ C −−−−→ 0
+of objects in the category C(g, K) of all (g, K)-modules the third object lies in C whenever two
+of the objects A, B, C are objects in C.
+   We call a thick subcategory C of Cfl (g, K) a ⊗-submodule over the symmetric monoidal
+category Cfd (g, K), if for all X ∈ Cfd (g, K) and all Y ∈ C we have X ⊗ Y ∈ C.
+Problem: Classify all ⊗-submodules of Cfl (g, K) and describe the poset of ⊗-submodules (wrt.
+⊆).
+   In the next section, we will execute this for SL2 (R).
+   We refer to [24] for a theory of supports in the context of modules for general tensor triangu-
+lated categories.
+6                                      FABIAN JANUSZEWSKI
+
+
+                                     3. The case G = SL(2)
+   For the sake of convenience, SU(1, 1) is at times a good isomorphic replacement for SL2 (R)
+for the study of certain classes of representations we are interested in.
+   As K we fix SO(2) ⊆ SL2 (R) and obtain the reductive pair (sl2 , SO(2)). The Cartan involution
+θ acts as inverse-transpose on the group level, and minus transpose on the Lie algebra.
+   Fix any Borel B ⊆ SL2 (R), for example
+                                                       
+                                                 a x
+                                        B = {             },
+                                                 0 a−1
+with Levi decomposition B = T N where
+                                                            
+                                  a 0                      1 x
+                          T = {          },         N = {        }.
+                                  0 a−1                    0 1
+Then on the Lie algebra side we have
+                                                  
+                                               A X
+                                        b = {        },
+                                               0 −A
+and likewise, b = t ⊕ n and
+                                                            
+                                     A 0                   0 X
+                              h = {        },       n = {       }.
+                                     0 −A                  0 0
+For compatibility with the previous section, we put h := t.
+  For the sake of concreteness, we fix the elements
+                                                     
+                                                1 0
+                                       H :=             ,
+                                                0 −1
+                                                   
+                                                0 1
+                                        E :=          ,
+                                                0 0
+                                                   
+                                                0 0
+                                        F :=          ,
+                                                1 0
+which are generators of t, n and n− respectively. They satisfy the relations
+                                          [E, F ] = H,
+                                          [H, E] = 2E,
+                                          [H, F ] = −2F.
+Recalling that the Lie bracket is altgernating, this determines the Lie algebra structure of sl2
+uniquely and may also be used to describe sl2 -modules.
+  Another conjugate choice for this triple is
+                                                    
+                                       ′        0 −i
+                                     H :=              ,
+                                                i 0
+                                                       
+                                       ′      1 1 i
+                                      E :=                ,
+                                              2 i −1
+                                                        
+                                       ′      1 1 −i
+                                      F :=                  .
+                                              2 −i −1
+Then H ′ lies in the complexified Lie algebra of K = SO(2) ⊆ SL2 (R), which is a convenient
+choice to study the action of K on (sl2 , SO(2))-modules.
+  The center Z(sl2 ) is generated by the Casimir element
+                                                         2
+                   Ω = H 2 + 1 + 2EF + 2F E = H ′ + 1 + 2E ′ F ′ + 2F ′ E ′ ,
+i. e. Z(sl2 ) = C[Ω] is a univariate polynomial ring.
+      TOWARDS A TENSOR-CLASSIFICATION OF HARISH-CHANDRA MODULES:               THE CASE SL2 (R)     7
+
+
+3.1. Finite-dimensional representations. The standard representation C2 of SL(2) (via ma-
+trix multiplication from the left) is an irreducible faithful representation of dimension 2.
+   For each m ∈ N there is a unique m + 1-dimensional irreducible representation Vµ of SL(2)
+of B-highest weight
+                              µ : T → GL(1), diag(a, a−1 ) 7→ am .
+It is explicitly given by Vµ = Symm C2 . This exhausts all isomorphism classes of irreducible
+representations of SL(2).
+                                           
+                                            1
+   The first standard basis vector e1 =         ∈ C2 is annihilated by E which shows that this is
+                                            0
+                                             
+                                              0
+a highest weight vector. Likewise, e2 =          ∈ C2 is annihilated by F , hence this is a lowest
+                                              1
+weight vector.
+   The action of sl2 on C2 is then explicitly given by matrix multiplication.
+   Now we may identify Symm C2 as the space of homogenous polynomials of degree m in two
+variables, or in terms of tensor powers: The set
+(6)                                {e⊗m−k
+                                     1    ⊗ e⊗k
+                                             2 | 0 ≤ k ≤ m}
+is a basis of Vµ consisting of generators of the weight spaces with respect to T ⊆ SL(2).
+   Using the explicit action of the Lie algebra on the basis vectors, the action of Z(sl2 ), i. e. of
+Ω on Vµ is easily computed:
+                    Ω · e⊗m
+                         1  = H 2 · e⊗m
+                                     1  + 1 · e⊗m
+                                               1  + 2EF · e⊗m
+                                                           1  + 2F E · e⊗m
+                                                                | {z 1 }
+                                                                         =0
+                             = m2 · e⊗m
+                                     1  + e⊗m
+                                           1  + 2m · E · e⊗m−1
+                                                          1    ⊗ e2
+                             = (m + 1)2 · e⊗m
+                                           1 .
+This result is not surprising, because under the Harish-Chandra isomorphism
+(7)                                        γ(Ω) = H 2 .
+  We remark that in this case the Casimir operator distinguishes isomorphism classes of finite-
+dimensional representations: The infinitesimal character of Vµ is µ + ρ in Harish-Chandra’s
+parametrization.
+3.2. Principal series representations. In this subsection we recall well-known statements
+about principal series representations and subsequently study tensor products of principal series
+representations with finite-dimensional representations. The technical main results are Propo-
+sitions 3.1 and 3.2.
+3.2.1. Parabolic induction and principal series. Recall the Iwasawa decomposition
+(8)                             SL2 (R) = B · K = N · T · SO(2)
+which yields the following unique representation of any g ∈ SL2 (R):
+                                  √       √                    
+                                     y x/ y         cos α − sin α
+                            g =            √    ·
+                                    0 1/ y          sin α cos α
+with x ∈ R, y > 0, 0 ≤ α < 2π. We remark that the image of i under the action of g and hence
+also under the action of the first matrix right hand side on the upper half plane is x + yi.
+   In this representation of g, we only take the connected component A of the identity in T (R)
+into account, because
+                                 M = T (R) ∩ SO(2) = {±12 },
+which yields the Langlands decomposition:
+                                    SL2 (R) = N · A · M · K.
+Therefore, describing a character of T (R) is the same as a character of A together with a
+character of M .
+8                                             FABIAN JANUSZEWSKI
+
+
+   Characters of A ∼ = R are parametrized by complex numbers λ ∈ C, to each of which we
+attach the character
+                               | · |λ : A → C× , diag(a, a−1 ) 7→ aλ .
+In the special case of ρ half sum of roots in N we get | · |ρ = | · |1 since ρ = 1. This is the square
+root of the modular character ∆B restricted to A.
+   Characters of M are indexed by parity ǫ ∈ {0, 1}, 0 representing the trivial character and 1
+representing the sign character sgn : M → {±1}. In summary, ǫ corresponds to the character
+sgnǫ .
+   Hence, we parametrized characters χ of T (R) = AM by pairs (λ, ǫ) ∈ C × {0, 1}.
+   Pulling back these characters to B we obtain the principal series representation attached to
+(λ, ǫ) as
+              SL (R)
+Iλ,ǫ := IndB 2         sgnǫ | · |λ+ρ
+       := {f ∈ C∞ (SL2 (R)) | ∀b ∈ B, g ∈ SL2 (R) : f (b · g) = sgnǫ (b)|b|λ+ρ f (g) ∧ f right K-finite}.
+This is a (sl2 , SO(2))-module and as such
+                                          
+                  sl2 ,SO(2)
+(9) Iλ,ǫ = Pb,M               sgnǫ | · |λ−ρ = R(sl2 , SO(2)) ⊗U (sl2 ),M U (sl2 ) ⊗U (b) sgnǫ | · |λ−ρ .
+
+Its infinitesimal character is λ: We let Ω act on 1 ⊗ 1 on the right hand side and obtain1
+                         Ω(1 ⊗ 1) = H 2 ⊗ 1 + 2H ⊗ 1 + 1 ⊗ 1 + |4F E
+                                                                   {z⊗ 1}
+                                                                             =0
+                                                        2
+                                                                       
+                                       =   (λ − ρ)(H) + 2(λ − ρ)(H) + 1 · (1 ⊗ 1)
+                                       = λ2 · (1 ⊗ 1)
+which is consistent with our claim thanks to (7).
+3.2.2. The compact picture. The Iwasawa decomposition (8) may be exploited to study the
+K-action on Iλ,ǫ . As a K-module, we have
+                Iλ,ǫ |K = IndK      ǫ
+                             B∩K sgn | · |
+                                          λ+ρ
+
+                         = IndK    ǫ
+                              M sgn | · |
+                                         λ+ρ
+
+                         = IndK
+                              M sgn
+                                    ǫ
+
+                         = {f ∈ C∞ (SO(2)) | f (−g) = (−1)ǫ f (g) ∧ f right K-finite}.
+By classical Fourier theory, the K-finite smooth functions on the unit circle are given by the
+finite linear combinations of the characters
+                                                            
+                                          ×    cos α − sin α
+                         χk : SO(2) → C ,                      7→ eikα
+                                               sin α cos α
+for k ∈ Z. Hence, the above description shows:
+                                                             M
+(10)                                           Iλ,ǫ |K =              χk .
+                                                            k≡ǫ (2)
+
+  Therefore, similar to the basis (6) in the finite-dimensional case, Iλ,ǫ admits a basis {wk }k≡ǫ (2)
+consisting of SO(2)-eigenfunctions, numbered by integers with same parity as ǫ. This basis may
+be normalized in such a way that
+                                           H ′ · wk = k · wk ,
+                                                      λ+k+1
+                                           E ′ · wk =          · wk+2 ,
+                                                           2
+                                                      λ−k+1
+                                           F ′ · wk =          · wk−2 .
+                                                           2
+    1The application of the Bernstein functor does not change infinitesimal characters.
+       TOWARDS A TENSOR-CLASSIFICATION OF HARISH-CHANDRA MODULES:                       THE CASE SL2 (R)       9
+
+
+In fact, comparing those relations with the finite-dimensional explains all cases where Iλ,ǫ is
+reducible with one exception.
+3.2.3. Decomposition of principal series. The following facts about Iλ,ǫ are well known:
+                                                                      ∨ ∼I
+      • The dual of a principal series is a principal series: Iλ,ǫ      = −λ,ǫ .
+                                                            ∼
+      • If Iλ,ǫ is irreducible, it is self-dual, i. e. Iλ,ǫ = I−λ,ǫ .
+      • Iλ,ǫ is reducible if and only if λ ∈ Z and λ 6≡ ǫ (mod 2).
+      • I0,1 = D0+ ⊕D0− decomposes into the holomorphic and anti-holomorphic limits of discrete
+        series representations, where D0± is generated by w±k for k ≥ 1.
+      • If 0 < λ ∈ Z and λ 6≡ ǫ (mod 2), then we have a non-split short exact sequence
+(11)                                  0 → Dλ+ ⊕ Dλ− → Iλ,ǫ → Vλ−1 → 0
+          where Dλ± denotes the λ-th holomorphic and anti-holomorphic discrete series represen-
+          tations, generated by w±k for k ≥ λ + 1, i. e. χ±(λ+1) is the minimal K-type in Dλ± .
+        • If 0 > λ ∈ Z and λ 6≡ ǫ (mod 2), then we have a non-split short exact sequence
+(12)                                 0 → Vλ−1 → Iλ,ǫ → Dλ+ ⊕ Dλ− → 0.
+   The sequence (11) and its dual (12) are manifestations of the fact that
+                      H 1 (sl2 , SO(2); Dλ± ⊗ Vλ−1 ) = Ext1sl2 ,SO(2) (Dλ∓ , Vλ−1 ) = C,
+which explains the relevance of the discrete series to modular forms from a topological point of
+view.
+3.2.4. Classification of irreducible (sl2 , SO(2))-modules. By the Casselman-Wallach embedding
+theorem, each irreducible admissible representation of G embeds into a principal series represen-
+tation. Therefore, we deduce from the above description of all principal series representations
+for SL2 (R), a classification of irreducible (sl2 , SO(2))-modules2.
+3.2.5. Tensor products with finite-dimensional representations. The Mackey isomorphism (5) to-
+gether with the intrinsic construction (9) of Iλ,ǫ implies that for any finite-dimensional irreducible
+representation Vµ of highest weight µ, we have
+                                                                                        
+                           sl2 ,SO(2)                                      ǫ      λ+ρ
+          Iλ,ǫ ⊗ Vµ = Pb,M              sgnǫ | · |λ−ρ ⊗ Vµ = IndKB∩K   sgn   | · |    ⊗ V µ .
+
+Now as B-module, Vµ admits a filtration
+                          0 ( Vµ0 ( Vµ1 ( Vµ2 ( · · · ( Vµµ−2 ( Vµµ−1 ( Vµµ = Vµ
+whose successive quotients are the one-dimensional weight spaces:
+                                                          ⊗(µ−j)
+                                        Vµj /Vµj−1 ∼
+                                                   = C · e1        ⊗ e⊗j
+                                                                      2 .
+By the exactness and faithfulness of the induction functor, we obtain a filtration
+                                 0 ( IndK      ǫ
+                                        B∩K sgn | · |
+                                                     λ+ρ
+                                                         ⊗ Vµ0
+                                    ( IndK       ǫ
+                                          B∩K sgn | · |
+                                                       λ+ρ
+                                                           ⊗ Vµ1
+                                    ( ...
+                                    ( IndK      ǫ
+                                         B∩K sgn | · |
+                                                      λ+ρ
+                                                          ⊗ Vµµ−1
+                                    ( IndK      ǫ
+                                         B∩K sgn | · |
+                                                      λ+ρ
+                                                          ⊗ Vµµ = Iλ,ǫ ⊗ Vµ
+of Iλ,ǫ ⊗ Vµ , with successive quotients
+                                                                          
+(13)      IndK       sgnǫ
+                          | · |λ+ρ
+                                   ⊗ V j
+                                           / Ind K
+                                                      sgn ǫ
+                                                            | · |λ+ρ
+                                                                     ⊗ V j−1   ∼
+                                                                               = Iλ+µ−2j,ǫ+µ (2) .
+              B∩K                      µ         B∩K                     µ
+
+Note that the non-trivial element −12 of the center acts on Vµj /Vµj−1 as (−1)µ .
+  In order to refine this filtration, we distinguish two cases:
+   (a) Iλ,ǫ is irreducible. Then either
+   2Strictly speaking we also invoke a globalization result here: Each Harish-Chandra module admits a globaliza-
+tion, i. e. extends to a representation of G.
+10                                        FABIAN JANUSZEWSKI
+
+
+          (a1 ) λ 6∈ Z in which case the same is true for all λ + µ − 2j, which implies that all
+                composition factors Iλ+µ−2j,ǫ+µ (2) are again irreducible.
+          (a2 ) λ ∈ Z and λ ≡ ǫ (mod 2). Then
+                                      λ + µ − 2j ≡ ǫ + µ        (mod 2)
+                again, hence the composition factors Iλ+µ−2j,ǫ+µ (2) are once again irreducible.
+      (b) Iλ,ǫ is reducible. Then, by the same computation as in case a2 , Iλ+µ−2j,ǫ+µ (2) is reducible
+          as well.
+     In case (a), we have
+                                   Iλ+µ−2j,ǫ+µ (2) = I−λ−µ+2j|,ǫ+µ (2)
+by self-duality, which leads to the question if the relation
+                                      λ + µ − 2j = −λ − µ + 2j ′
+can be satisfied. In fact, this amounts to
+                                               λ + µ = j + j′,
+i. e. this is only possible if λ ∈ Z and since 0 ≤ j, j ′ ≤ µ, we get different j, j ′ satisfying this
+relation if and only if
+(14)                                       µ−1 ≥ λ ≥ 1−µ
+We conclude that in case (a), if λ 6∈ Z or if (14) is violated, the infinitesimal characters of all
+composition factors are pairwise distinct, which by Wigner’s Lemma then implies
+
+Proposition 3.1 (Irreducible principle series). In case (a), if λ 6∈ Z or if (14) is not satisfied,
+                                                    µ
+                                                    M
+(15)                                 Iλ,ǫ ⊗ Vµ =          Iλ+µ−2j,ǫ+µ (2) .
+                                                    j=0
+
+In case (a), if λ ∈ Z and condition (14) is satisfied,
+                     λ−1                       min(µ−1,λ+µ−1)                        µ
+                     M                              M                                M
+(16) Iλ,ǫ ⊗ Vµ =           Iλ+µ−2j,ǫ+µ (2) ⊕                    Iλ−µ+2j,ǫ+µ (2) ⊕             Iλ+µ−2j,ǫ+µ (2)
+                     j=0                            j=λ                             j=λ+µ+1
+
+where Iλ−µ+2j,ǫ+µ (2) is of length two and fits into a short exact sequence
+
+(17)                 0 → Iλ+µ−2j,ǫ+µ (2) → Iλ−µ+2j,ǫ+µ (2) → Iλ+µ−2j,ǫ+µ (2) → 0.
+
+   More generally, in case (b), condition (14) characterizes the situations, where two composition
+factors share the same infinitesimal character. Therefore, we obtain along the same lines
+Proposition 3.2 (Reducible principle series). In case (b), if (14) is not satisfied,
+                                                    µ
+                                                    M
+(18)                                 Iλ,ǫ ⊗ Vµ =          Iλ+µ−2j,ǫ+µ (2) .
+                                                    j=0
+
+In case (b), if condition (14) is satisfied,
+                     λ−1                       min(µ−1,λ+µ−1)                        µ
+                     M                              M                                M
+(19) Iλ,ǫ ⊗ Vµ =           Iλ+µ−2j,ǫ+µ (2) ⊕                    Iλ−µ+2j,ǫ+µ (2) ⊕             Iλ+µ−2j,ǫ+µ (2)
+                     j=0                            j=λ                             j=λ+µ+1
+
+where Iλ−µ+2j,ǫ+µ (2) is of length two and fits into a short exact sequence
+
+(20)                0 → Iλ+µ−2j,ǫ+µ (2) → Iλ−µ+2j,ǫ+µ (2) → I−λ−µ+2j,ǫ+µ (2) → 0.
+       TOWARDS A TENSOR-CLASSIFICATION OF HARISH-CHANDRA MODULES:              THE CASE SL2 (R)   11
+
+
+3.3. Asymptotic K-support. Before we can fully decompose tensor products of irreducible
+with finite-dimensional representations, we need the notion of asymptotic K-support.
+   Let S ⊆ Rn denote a subset. The asymptotic cone S∞ attached to S is the closed cone
+       S∞ := {y ∈ Rn | ∃ a sequence (yn , εn )n∈N ∈ S × R>0 : lim εn yn = y ∧ lim εn = 0}.
+   The asmptotic K-support ASK (X) of a (g, K)-module X is defined as the asymptotic cone
+attached to the lattice of highest weights of the K-types occuring in X.
+   The asymptotic K-support is of interest of us, because for any finite-dimensional representa-
+tion V we have
+                                   ASK (X ⊗ V ) = ASK (X).
+  In our case at hand, the situation is the following:
+
+                          X           K-types              ASK (X)
+                          Vµ {−µ, µ + 2, . . . , µ − 2, µ}   {0}
+                          Iλ,ǫ         ǫ + 2Z                 R
+                          Dℓ+     {ℓ + 1, ℓ + 3, . . . }    R≥0
+                          Dℓ−    {−ℓ − 1, −ℓ − 3, . . . }   R≤0
+              Table 1. Asymptotic K-support for irreducible (sl2 , SO(2))-modules.
+
+
+
+3.4. Applications to tensor products with irreducibles. In Proposition 3.1 we treated
+tensor products of irreducible principle series with finite-dimensional representations. In this
+section, we treat the remaining cases: tensor products of finite-dimensionals and tensor products
+of (limits of) discrete series representations with finite-dimensional representations.
+   In our situation, (3) specializes to
+Proposition 3.3 (Finite-dimensional). Let λ, µ ≥ 0. Then
+                                                 min(λ,µ)
+                                                    M
+(21)                               Vλ ⊗ Vµ =                Vλ+µ−2j
+                                                    j=0
+
+   The invariance of the asymptotic K-support tells us that Dℓ± ⊗Vµ only admits finite-dimensional
+representations and (limits of) discrete series representations with the same K-support as sub-
+quotients.
+   Now Dℓ± is a subquotient of Iℓ,ℓ+1 (2) , hence by the exactness of the tensor product Dℓ± ⊗ Vµ
+is a subquotient of Iℓ,ℓ+1 (2) ⊗ Vµ .
+   By Proposition 3.2 we know which composition factors can occur in Iℓ,ℓ+1 (2) ⊗ Vµ , and since
+for all composition factors occuring in Iℓ,ℓ+1 (2) ⊗ Vµ need to be accounted for by one of the three
+cases representations Vℓ−1 ⊗ Vµ (finite-dimensional), Dℓ+ ⊗ Vµ and Dℓ− ⊗ Vµ , we deduce:
+Proposition 3.4 (Discrete series). Let ℓ ≥ 0 and µ ≥ 0. We consider the condition
+  Then, if ℓ ≥ µ,
+                                                    µ
+                                                    M
+                                                           ±
+(22)                                Dℓ± ⊗ Vµ    =         Dℓ+µ−2j .
+                                                    j=0
+
+Otherwise, if ℓ < µ,
+                                          ℓ−1
+                                          M                   µ
+                                                              M
+                                                 ±                   ±
+(23)                        Dℓ± ⊗ Vµ =          Dℓ+µ−2j ⊕           Dℓ+µ−2j
+                                          j=0                 j=ℓ
+       ±                                                                               ±
+where Dℓ−µ+2j,ǫ+µ (2) is of length three (two if µ = ℓ + 2j) and admits Vµ−ℓ−2j−1 and Dℓ+µ−2j
+as composition factors, where the (limits of ) discrete series occurs twice.
+12                                      FABIAN JANUSZEWSKI
+
+
+3.5. Classification of thick ⊗-submodules. Summing up, we obtain the following classifica-
+tion of thick Cfd (SL(2))-submodules of the category Cfl (sl2 , SO(2)) of finite length (sl2 , SO(2))-
+modules.
+Theorem 3.5. Any thick Cfd (SL(2))-submodule of the category Cfl (sl2 , SO(2)) of finite length
+(sl2 , SO(2))-modules is of the following form:
+      (i) The zero subcategory.
+     (ii) Cfd (SL(2)).
+   (iii) C± : the subcategory of modules whose composition factors are either finite-dimensional
+          or a (limits of ) holomorphic (resp. anti-holomorphic) discrete series.
+   (iv) C(λ, ǫ) for λ ∈ C and ǫ ∈ {0, 1} with either λ 6∈ Z or λ 6≡ ǫ (mod 2): The subcategory
+          of modules whose composition factors are irreducible principle series Iλ+j,ǫ+j (2) for any
+          j ∈ Z.
+     (v) Any combination of the above.
+Remark 3.6. In (iv) we have C(λ, ǫ) = C(λ′ , ǫ′ ) if and only if λ − λ′ ∈ Z and ǫ + λ ≡ ǫ′ + λ′
+(mod 2).
+Remark 3.7. We remark that the categories in (ii) and (iv) are minimal ⊗-submodules. The
+category C± in (iii) always contains the category Cfd (SL(2)) of finite-dimensional modules.
+Remark 3.8. Each ⊗-submodule hXi generated by an irreducible (sl2 , SO(2))-module X belongs
+to one of the three cases (ii), (iii) and (iv) and each ⊗-submodule listed in (ii), (iii) and (iv) is
+generated by an irreducible (sl2 , SO(2))-module, the latter not being unique.
+Remark 3.9. The statement in (v) signifies that for every subset S of cases listed in (ii), (iii) and
+(iv) we have a unique ⊗-submodule C(S) consisting of those Harish-Chandra modules, whose
+composition factors belong to the cases belonging to S. If we restrict to the set S of subsets S
+with the property, that if at least one case from (iii) belongs to S, then also (ii) belongs to S,
+then S 7→ C(S) induces a bijection
+                             S → {⊗-submodules of Cfl (sl2 , SO(2))}
+which is an isomorphism of posets (both sides wrt. to ‘⊆’).
+   This picture may be topologized as follows. Consider the set C of all non-trivial cases, i. e. the
+set of all cases occuring in (ii), (iii) and (iv) and topologize this set as follows: Each singleton
+corresponding to case (ii) or one case in (iv) is open. Furthermore, if x(ii) represents case (ii),
+then for each case y in (iii), the set {x(ii) , y} is open. Then S is the set of closed subsets in C.
+Proof of Theorem 3.5. Let C denote a thick ⊗-submodule of Cfl (sl2 , SO(2)). If C 6= 0, it con-
+tains an irreducible module X. If X is finite-dimensional we have Cfd (SL(2)) ⊆ C. By Propo-
+sition 3.4 the same applies if X is a discrete series representation or a limits of discrete series
+representation. Furthermore, by the same proposition, depending on whether X belongs to
+the holomorphic or an anti-holomorphic discrete series (or is a limit thereof), C+ or C− are
+contained in C.
+   Likewise, if X = Iλ,ǫ is an irreducible principal series representation, Proposition 3.1 implies
+that C(λ, ǫ) ⊆ C.
+   Repeating this argument ad infinitum (transfinite induction), we exhaust all composition
+factors occuring in objects of C with the cases (ii), (iii) and (iv) in the theorem.             
+3.6. Geometric interpretation. There is a close analogy between the classification in The-
+orem 3.5 and SO(2)-orbits on the flag variety P1 = G/B over C in the Beilinson-Bernstein
+classification:
+    (ii) The category Cfd (SL(2)) corresponds to the closed orbit P1 (C) for the compact form
+         SU(2) of SL2 (R).
+   (iii) The categories C± correspond to the two closed SO(2)-orbits given by the poles {0} and
+         {∞} in P1 (C), which in turn are contained in the closed orbit for the compact form
+         SU(2) of SL2 (R).
+    TOWARDS A TENSOR-CLASSIFICATION OF HARISH-CHANDRA MODULES:                  THE CASE SL2 (R)    13
+
+
+   (iv) C(λ + Z, ǫ) for λ ∈ C and ǫ ∈ {0, 1} with either λ 6∈ Z or λ 6≡ ǫ (mod 2) correspond to
+        the open orbit C× ⊆ P1 (C).
+  We remark that while the irreducible objects in Cfd (SL(2)) except for the tensor unit are
+not unitary for SL2 (R), they are unitary representations of SU(2). Bernstein offers in [6] an
+approach to resolve this.
+3.7. Classification of irreducible modules. The ⊗-submodules in (ii), (iii) and (iv) all
+contain representations with various infinitesimal characters. Consequently, we may think of
+Spec Z(sl2 ) geometrically as a stratum transversal to the classification in Theorem 3.5. Putting
+these two data together, i. e. by identifying the infinitesimal characters appearing in in each of the
+⊗-submodules in (ii), (iii) and (iv), we may deduce a classification of irreducible (g, K)-modules
+as follows.
+   Following remark 3.8, we have a map
+                χ : { irreducible(sl2 , SO(2))-modules }/∼  = → S, X 7→ {hXi},
+sending an isomorphim class of an irreducible (sl2 , SO(2))-module X to the closure of the sin-
+gleton containing the ⊗-submodule generated by it. We remark that by the definition of the
+topology on C, the image of χ consists of the (topologically) irreducible subsets of C. Different
+elements X, Y in a fiber χ−1 (x) have different infinitesimal characters λ(X), λ(Y ). Hence the
+pair (χ(X), λ(X)) determines the isomorphism class of X uniquely. However, the infinitesimal
+characters of different elements in the same fiber differ by an integer. Hence, fixing base-point
+λ(λ+Z,ǫ) ∈ C for the set of infinitesimal characters occuring in each C(λ + Z, ǫ), we obtain a
+bijection
+{ irreducible(sl2 , SO(2))-mod. }/∼
+                                  = → {(C, λ) ∈ S × Z | C irred. and Cfd (SL(2)) ∈ C ⇒ λ ≥ 1},
+explicitly given by
+          (
+            (χ(X), λ(X)) ,              X finite-dimensional or a (limits of) discrete series,
+  X 7→                               
+             χ(X), λ(X) − λ(λ(X)+Z,ǫ) , X an irreducible principal series.
+
+                                           References
+ [1] P. Balmer. The spectrum of prime ideals in tensor triangulated categories. J. Reine Angew.
+     Math., 588:149–168, 2005.
+ [2] P. Balmer. Tensor triangular geometry. In Proceedings of the International Congress of
+     Mathematicians. Volume II, pages 85–112. Hindustan Book Agency, New Delhi, 2010.
+ [3] V. Bargmann. Irreducible unitary representations of the Lorentz group. Ann. of Math. (2),
+     48:568–640, 1947.
+ [4] D. Benson, J. F. Carlson, and J. Rickard. Thick subcategories of the stable module category.
+     Fund. Math., 153(1):59–80, 1997.
+ [5] D. Benson, S. B. Iyengar, and H. Krause. Local cohomology and support for triangulated
+     categories. Ann. Sci. Éc. Norm. Supér. (4), 41(4):573–619, 2008.
+ [6] J. Bernstein. Stacks in represenation theory. In Tsingua Lectures in Mathematics, volume 45
+     of ALM, pages 123–139. Higher Ed. Press and Int. Press Beijing-Boston, 2018.
+ [7] J. Bernstein, N. Higson, and E. Subag. Contractions of representations and algebraic fam-
+     ilies of Harish-Chandra modules. Int. Math. Res. Not. IMRN 2020, (11):3494–3520, 2020.
+ [8] I. Gelfand and M. Neumark. Unitary representations of the Lorentz group. Acad. Sci.
+     USSR. J. Phys., 10:93–94, 1946.
+ [9] G. Harder. Harish-chandra modules over Z, 2014.
+[10] Harish-Chandra. Plancherel formula for the 2 × 2 real unimodular group. Proc. Nat. Acad.
+     Sci. U.S.A., 38:337–342, 1952.
+[11] Harish-Chandra. Representations of semi-simple Lie groups I. Transactions of the American
+     Mathematical Society 75, pages 185–243, 1953.
+[12] Harish-Chandra. Representations of semi-simple Lie groups II. Transactions of the Ameri-
+     can Mathematical Society 76, pages 26–65, 1954.
+14                                     FABIAN JANUSZEWSKI
+
+
+[13] Harish-Chandra. Representations of semi-simple Lie groups III. Transactions of the Amer-
+     ican Mathematical Society 76, pages 245–253, 1954.
+[14] M. Harris. Beilinson-Bernstein localization over Q and periods of automorphic forms. Int.
+     Math. Res. Not. IMRN 2013, (9):2000–2053, 2013.
+[15] M. Harris. Beilinson-Bernstein localization over Q and periods of automorphic forms: er-
+     ratum. Int. Math. Res. Not. IMRN 2020, (3):957–960, 2020.
+[16] M. J. Hopkins. Global methods in homotopy theory, volume 117 of London Math. Soc.
+     Lecture Note Ser., pages 73–96. Cambridge Univ. Press, Cambridge, 1987.
+[17] F. Januszewski. Algebraic characters of Harish-Chandra modules. J. Lie Theory,
+     24(4):1161–1206, 2014.
+[18] F. Januszewski. Rational structures on automorphic representations. Math. Ann., 370(3-
+     4):1805–1881, 2018.
+[19] F. Januszewski. On period relations for automorphic L-functions I. Trans. Amer. Math.
+     Soc., 371(9):6547–6580, 2019.
+[20] F. Januszewski. Families of D-modules, 2020. arXiv:1808.10709
+[21] A. W. Knapp and D. A. Vogan. Cohomological induction and unitary representations.
+     Princeton University Press, 1995.
+[22] R. P. Langlands. On the classification of irreducible representations of real algebraic groups,
+     volume 31 of Math. Surveys Monogr., pages 101–170. Amer. Math. Soc., Providence, RI,
+     1989.
+[23] A. Neeman. The chromatic tower for D(R). Topology, 31(3):519–532, 1992. With an
+     appendix by Marcel Bökstedt.
+[24] G. Stevenson. Support theory via actions of tensor triangulated categories. J. Reine Angew.
+     Math., 681:219–254, 2013.
+[25] D. N. Yetter. Tangles in prisms, tangles in cobordisms. In B. Apanasov et al., editor,
+     Topology ’90, pages 399–443. W. de Gruyter, Berlin, 1992.
+[26] D. N. Yetter. Abelian categories of modules over a (lax) monoidal functor. Adv. Math. 174,
+     pages 266–309, 2003.
+     Institut für Mathematik, Fakultät EIM, Paderborn University, Germany
+     Email address: fabian.januszewski@math.upb.de
+

@@ -1,0 +1,50 @@
+R12 tempered — visual transcriptions (pdftoppm -r 110; PNGs in png/). Transcribed by eye from the rendered page, 2026-09-27.
+
+[VT-A] png/BK2_p12-12.png = arXiv:1706.10131v2 (Benoist–Kobayashi, Tempered homogeneous spaces II), printed p.12
+  Definition 2.5. A unitary representation π of G is said to be almost L^2 if there exists a dense subset D ⊂ H_π
+  for which the matrix coefficients g ↦ ⟨π(g)v1, v2⟩ are in L^{2+ε}(G) for all ε > 0 and all v1, v2 in D.
+  (2.5)  Ξ(g) = ⟨π0(g)v0, v0⟩ for all g in G,   π0 = Ind^G_{P_min}(1_{P_min}), v0 normalized K-invariant.
+  Proposition 2.6 (Cowling, Haagerup and Howe [8]). Let G be a connected semisimple Lie group with finite center
+  and π be a unitary representation of G. The following are equivalent:
+   (i) the representation π is tempered,
+   (ii) the representation π is almost L^2,
+   (iii) for every K-finite vectors v, w in H_π, for every g in G, one has
+         |⟨π(g)v, w⟩| ≤ Ξ(g) ‖v‖ ‖w‖ (dim⟨Kv⟩)^{1/2} (dim⟨Kw⟩)^{1/2}.
+  (text-layer garbles the exponents 1/2 as stray "1 1"; confirmed 1/2 on the image.)
+
+[VT-B] png/BK2_p18-18.png = arXiv:1706.10131v2, printed p.18, proof of Proposition 3.7 (unnumbered display):
+  (m_C/M_C) e^{-ρ_q(Y) - ρ_V(Y)} ≤ Ξ(e^Y) ≤ M0 (1 + ‖Y‖)^d e^{-ρ_g(Y)/2}   for all Y in a.
+  "Combining (3.1) and (3.2) with known bounds for the spherical function Ξ as in [15, Prop 7.15]"  ([15] = Knapp).
+  NOTE normalization: BK's ρ_V(Y) = Trace_{V+}(dτ(Y)) (BK I eq. (3.1)), so ρ_g(Y)/2 = the usual half-sum ρ(Y).
+
+[VT-C] png/FH_2606.20290_p22-22.png = arXiv:2606.20290 (Ferreira–Hilgert–Mourão–Nunes), printed p.22, Sec. 4.1
+  "We have a*_+ ≅ Ĝ_sph (the space of equivalence classes of unitary spherical representations of G) and the
+   generalized eigenfunctions (25) are the building blocks of the spectral and isotypical decomposition (1),
+   which takes the form
+        L^2(X, dx) = ∫_{a*_+} H_λ  dλ / |c(λ)|^2 ,        (28)
+   where c is the Harish-Chandra c-function, with H_λ being given by the image of the Poisson transform
+   defined on L^2(B, db) by  P_λ(F)(x) = ∫_B e^{(iλ+ρ)(A(x,b))} F(b) db.   (29)"
+  Theorem 3 (Helgason). The FH transform is a unitary isomorphism and its inverse is given by
+        f(x) = ∫_{a*_+ × B} e^{(iλ+ρ)(A(x,b))} f~(λ,b) dλ db / |c(λ)|^2 .   (31)
+
+[VT-D] png/HSY_1705.02088_p12-12.png = arXiv:1705.02088 (Hochs–Song–Yu), printed p.12
+  "The following result is Theorem 1.1 in [23]."   ([23] = Knapp–Zuckerman)
+  Theorem 2.1. For λ, R^+_G and χ as above, the representation π^G_{λ,R^+_G,χ} is
+   • nonzero if and only if (λ, α) ≠ 0 for all simple (with respect to R^+_G) compact roots α;
+   • irreducible and tempered in that case.
+  "The limits of discrete series representations are the nonzero representations occurring in the above theorem."
+
+[VT-E] png/KO1_p15-15.png = arXiv:math/0111083 (Kobayashi–Ørsted I), printed p.15
+  Theorem 3.6.1. Suppose that p, q are integers with p ≥ 2 and q ≥ 2.
+   2) In the Harish-Chandra parametrization, the Z(g)-infinitesimal character of ϖ^{p,q} is given by
+      (1, (p+q)/2 − 2, (p+q)/2 − 3, ..., 1, 0).
+   4) If p+q ∈ 2N and if (p,q) ≠ (2,2), then (ϖ^{p,q}, V^{p,q}) is an irreducible representation of G = O(p,q)
+      and the underlying (g,K)-module is unitarizable.
+  For (p,q) = (4,2): (1, 1, 0) — a repeated entry, i.e. SINGULAR infinitesimal character (our arithmetic).
+
+[VT-F] png/Moellers_1205.5171_p5-05.png = arXiv:1205.5171 (Möllers), printed p.5
+  W = {0, d/2, ..., (r−1) d/2} ∪ ((r−1) d/2, ∞),
+  "where d is a certain root multiplicity of g and r denotes the rank of the Hermitian symmetric space G/K."
+  "Rossi–Vergne [49] showed that the scalar type unitary highest weight representation corresponding to the Wallach
+   point λ ∈ W can be realized on a space of L^2-functions on the orbit O_k for λ = k d/2, k = 0,...,r−1, and on the
+   orbit O_r = Ω for λ > (r−1) d/2."

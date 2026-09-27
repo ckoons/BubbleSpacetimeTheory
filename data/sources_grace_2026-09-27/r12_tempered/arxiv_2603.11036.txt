@@ -1,0 +1,1867 @@
+                                                    Conformal symmetries in geometry
+                                                          and harmonic analysis
+                                             Introductory lectures at IHP Paris, January 2025
+
+
+
+
+arXiv:2603.11036v1 [math.DG] 11 Mar 2026
+                                                         trisemester program on
+                                                          Representation Theory
+                                                     and Noncommutative Geometry
+                                                                Bent Ørsted, Aarhus University
+
+
+                                               In these lectures we wish to give a gentle introduction and overview of
+                                           two aspects of conformal symmetry, ususally not treated together; one is that
+                                           of conformal differential geometry on a Riemannian manifold, in particular
+                                           invariants related to heat equations for elliptic operators, and the other that
+                                           of representations of the conformal group. Both are applications of the
+                                           conformal covariance of differential operators such as the Yamabe operator.
+                                           Specifically we shall see how representation theory can be applied to the
+                                           study of extremal properties of determinants of some elliptic operators, and
+                                           similarly how geometry can be applied to find the explicit branching law
+                                           for the minimal representation of O(p, q) with respect to some symmetric
+                                           subgroups. In effect, we give three models of the representation, an elliptic,
+                                           a hyperbolic, and a parabolic.
+
+
+                                           Overview and motivation
+                                           The theory of Lie groups was from the beginning closely connected to geom-
+                                           etry and to solving differential equations; Sophus Lie himself was motivated
+                                           by geometries such as those of Bernhard Riemann and also projective geom-
+                                           etry, and he saw the analogy to Galois theory in studying the symmetries
+                                           of differential equations. See the paper with historical notes by S. Helgason
+                                           [24], where it is explained that Lie had heard via Sylow about the discov-
+                                           eries of Galois of the connection between the structure of the permutations
+                                           (the Galois group) of the roots of a polynomial equation, and the solvabil-
+                                           ity (or non–solvability) of this equation by radicals. Lie had the idea of
+                                           doing something similar for differential equations. Thus his theory of trans-
+                                           formation groups was relevant - and had already been used for geometric
+                                           problems in projective geometry. One might say that for Lie the symmetries
+
+                                                                                 1
+(of an equation or a geometry) was the basic object, whereas for Riemann
+the basic object was the geometry itself, its geodesics, curvature and so on.
+Both have had influence on theoretical physics, Riemann in connection with
+general relativity through his study of metric tensors and curvatures, essen-
+tially in a way independent of choices of coordinates, and Lie for the roles
+of symmetry, usually in the form of a group of transformations of space (or
+physical objects in space) - sometimes by infinitesimal transformations, i.e.
+vector fields - this with deep applications in both classical mehanics and in
+the later quantum mechanics. From a modern mathematical point of view,
+we have the similar two aspects of conformal geometry, namely let (M, g)
+be s smooth manifold with a smooth Riemannian metric tensor g, then
+
+   • a conformal change of metric means replacing g by g = e2ω g with
+                  R
+     ω ∈ C ∞ (M, ), a smooth real function on M .
+
+   • a conformal transformation means a (perhaps only local) diffeomor-
+     phism Φ : M 7→ M with Φ∗ g = e2ω g, for some (depending on Φ)
+                  R
+     ω ∈ C ∞ (M, ), i.e. the pull-back of the metric is conformal to itself.
+
+In both cases the geometric meaning is that the angle between two smooth
+curves at a point of intersection is preserved. The metric g gives an inner
+product in the tangent space and hence the angle between the two tangent
+vectors, and this is preserved by multiplying the inner product by a positive
+number. Actually Riemann himself gave such an example (one of the few
+formulas in the paper) in his thesis about the the foundations of geometry,
+          R
+namely in n
+                                        ds20
+                             ds2 =
+                                    (1 + K|x|2 )2
+where the numerator and |x|2 is the ususal Euclidian metric, and the new
+metric is of constant curvature, either positive, zero, or negative, depending
+on the sign of the constant K.
+    Conformal geometry, as for example in [5], [9], [10] has as objective to
+study quantities that are invariant, or change in a predictable way, under
+conformal changes of metric; these could in particular be functionals F on
+the space of all metrics g on a fixed M , invariant under conformal changes:
+F (e2ω g) = F (g) for all g and ω. Another important topic is to find differ-
+ential operators L = L(g) canonically associated the Riemannian structure,
+say on functions or on sections of natural bundles; the operators should
+exhibit conformal symmetry, namely
+
+                       L(g) = L(e2ω g) = e−bω L(g)eaω
+
+                              R
+for some real constants a, b ∈ . Here the right hand side is the composition
+of multiplication operators and the differential operator L(g). The numbers
+(a, b) are called the conformal bidegrees of L. We shall also refer to such
+
+                                      2
+operators as conformally covariant differential operators, and they will be
+natural in the sense of being constructed via the metric tensor g, i.e. via the
+geometry on M . A prominent example is the Yamabe operator
+                                         n−2
+                             Y =∆+               K
+                                        4(n − 1)
+with K = g ij rij the scalar curvature (see below for the index notation,
+and the notions of curvatures and connection ∇ - the Ricci curvature as a
+tensor in local coordinates is here denoted rij ), n the dimension of M and
+∆ = −g ij ∇i ∇j the (non-negative) Laplace operator on functions, sometimes
+also written ∆ = d∗ d. The Yamabe operator is conformally covariant with
+bidegrees a = (n − 2)/2, b = (n + 2)/2. This is the starting point of our
+treatment, namely there will be two kinds of consequences of this conformal
+symmetry, following the philosophical principle that a symmetry of a system
+gives rise to conserved quantities:
+    (1) In conformal differential geometry we shall find some conformally
+invariant functionals F = F (g) depending on the Riemannian metric g on
+a fixed compact manifold M . They arise primarily through a study of the
+heat equation
+                               ∂u(t, x)
+                                         = Y u(t, x)
+                                   ∂t
+                               R
+for a function u = u(t, x), t ∈ , x ∈ M with Y the Yamabe operator on M
+(or a similar conformally covariant elliptic differential operator, acting in the
+x variable). Using the theory of pseudodifferential operators and Sobolev
+spaces, one constructs a fundamental solution with an asymptotic expansion
+for small t, and coefficients reflecting the geometry of (M, g). The conformal
+symmetry of Y gives information about the change of these coefficients under
+conformal change of metric.
+    (2) In the representation theory of the indefinite orthogonal group G =
+O(p, q), viewed as the conformal group of the product of spheres S p−1 ×S q−1
+with the natural indefinite Riemannian metric (positive on the first factor,
+negative on the second), we shall construct its miminal unitary representa-
+tion in the kernel of the Yamabe operator. At the same time we get models
+that are convenient for finding the branching law, i.e. the explicit restriction
+of this representation to some symmetric subgroups of G. Here it is crucial
+that the Yamabe equation Y φ = 0 is invariant under conformal changes of
+coordinates, so we may solve it in any such system; in effect it corresponds
+to the well-known separation of variables in solving partial differential equa-
+tions, where the separations comes from breaking the symmetries - and not
+surprisingly gives the symmetry-breaking operators and the branching law.
+Just as in the case of the metaplectic (harmonic/oscillator) representation
+there are interesting aspects of the various realizations in concrete Hilbert
+spaces, and we shall give in fact three such, namely corresponding to conic
+sections of elliptic, hyperbolic, and parabolic type. The last one is closely
+
+                                       3
+                                     R
+connected with Fourier analysis in n with an indefinite symmetric bilinear
+form. From the point of view of the philosophical principle of symmetry, the
+conserved quantities are now subspaces of solutions to the Yamabe equation.
+    In this note we are trying to present some ideas centered around the
+notion of conformal symmetry; some details and (several) proofs are left out,
+but hopefully the references given will allow a fuller understanding. It is a
+topic which illustrates how Lie theory and geometry are interconnected - and
+can (hopefully) serve as an inspiration to other similar geometric situations.
+One lesson is that working on a homogeneous space M = G/P for a Lie
+group G and a closed subgroup P (typically a parabolic subgroup in G, a
+semisimple Lie group), one can often learn about geometries on deformations
+of M , and G/P in this way serves as a ”flat” model for more general ”curved”
+(parabolic) geometries M. Our primary example is the standard n-sphere S n
+with its group of conformal transformations by G = SO(n + 1, 1) as a model
+for more general conformal geometry in n dimensions.
+    Acknowledgement. Thanks are due to the referee for a careful reading
+and suggestions to improve this essay.
+
+
+Conformal differential geometry
+For the basic notions of connections and curvatures see [23]. We denote by
+Tx = T Mx the tangent space to the manifold M at the point x ∈ M and by
+Tx∗ = T Mx∗ the dual co-tangent space; by T denote the corresponding smooth
+vector bundle and T ∗ he dual bundle. Vector fields X, Y, . . . are smooth
+sections of T , i.e. X, Y ∈ C ∞ (T ). We may form tensor products of T and
+T ∗ , giving rise to tensor fields as (always smooth) sections. A metric tensor
+g is then a section of the symmetric tensors of rank two, i.e. g ∈ C ∞ (S 2 T ∗ )
+with the extra condition of defining a symmetric non-degenerate bilinear
+form in each tangent space Tx ; for a Riemannian positive metric this should
+be positive-definite, but may also have a signature - for example in general
+relativity usually of Lorentz signature (positive for one time-like direction,
+and in the remaining space-like directions negative). Given a metric there
+is a unique connection
+
+                         ∇ : C ∞ (T ) 7→ C ∞ (T ∗ ⊗ T )
+
+which defines the covariant derivative of a vector field Y in the direction
+of the vector field X by ∇X Y = ∇(Y )(X) so ∇X : C ∞ (T ) 7→ C ∞ (T ).
+This is called the Levi-Civita connection and it is determined by the torsion
+vanishing
+                         ∇X Y − ∇Y X − [X, Y ] = 0
+and preserving the metric in the sense that
+
+                      (∇X Y, Z) + (Y, ∇X Z) = X(Y, Z)
+
+                                         4
+for all vector fields; here the bilinear form defined by the metric is (X, Y ) ∈
+C ∞ (M ). The Lie bracket is the vector field [X, Y ] = XY − Y X, acting
+on functions. There is a natural extension, via the Leibniz rule, of the
+connection to all tensor fields
+
+                         ∇ : C ∞ (E) 7→ C ∞ (T ∗ ⊗ E)
+
+with E a bundle of tensors; then the metric condition above reads ∇g = 0.
+For a general vector bundle E a connection is such a first order partial dif-
+ferential operator ∇ satisfying ∇(f ϕ) = df ⊗ ϕ + f ∇ϕ for all f ∈ C ∞ (M )
+and all ϕ ∈ C ∞ (E). In a system of local coordinates x = (x1 , . . . , xn ) we
+                                        ∂
+have the coordinate frames (∂i = ∂x       i ) resp. (dxi ) for the tangent resp.
+the co-tangent bundles. In these the metric reads ds2 = gij dxi ◦ dxj (Ein-
+stein summation convention over repeated indices, and the symmetric tensor
+product v ◦ w = 21 (v ⊗ w + w ⊗ v) for v, w ∈ Tx∗ ). Also ∇∂i ∂j = Γij k ∂k with
+the so-called Christoffel symbols Γij k (smooth functions, but not tensors).
+     The covariant derivative is the basic geometric quantity, and the Christof-
+fel symbols are first-order derivatives in the metric tensor; the Riemann cur-
+vature tensor R is a collection of second-order derivatives of the metric, and
+in coordinate-free way given as
+
+                 R(X, Y )Z = (∇X ∇Y − ∇Y ∇X − ∇[X,Y ] )Z
+
+for vector fields X, Y, Z. At each point x it defines a multilinear mapping
+R : Tx ×Tx ×Tx 7→ Tx and thus gives an element Rx ∈ Tx∗ ⊗Tx∗ ⊗Tx∗ ⊗Tx . We
+may identify Tx and Tx∗ via the metric so that in the local coordinates the
+inverse matrix g ij to the matrix gij gives the corresponding bilinear form in
+Tx∗ . The orthogonal group SO(n) acts in each tangent space as the defining
+repesentation, and Rx belongs then to a representation space V for SO(n).
+This space is the sum of three irreducible representations, namely
+
+                        V = Vscalar ⊕ VRicci0 ⊕ VW eyl
+
+with highest weights (0), (2), (2, 2) resp. i.e. the trivial, the trace-free sym-
+metric two-tensors, or harmonic polynomials of degree two, and the remain-
+ing tensors. The last component is called the Weyl curvature, and the first
+two scalar curvature and trace-free Ricci. They are identified as
+
+                      Ric(X, Y ) = Tr(Z 7→ R(X, Z)Y )
+
+which is a bilinear symmetric form rij and its trace K = g ij rij the scalar
+curvature. We have that rij = Rikj k , expressing the curvature tensor with
+these coefficients in local coordinates. See the paper [43] (and the Math-
+SciNet review by Vanhecke) for a discussion of this O(n) representation
+theory, including that of ∇R and its geometric interpretations; note that
+
+
+                                       5
+for n ≥ 4 the vanishing of the Weyl tensor means that the metric is con-
+formally flat, i.e. it is conformal to the Euclidian metric. For n = 3 the
+(2, 2) is not there. Curiously the linear space of ∇R at a point is the di-
+rect sum of representations with highest weights (1), (2, 1), (3), (3, 2). So in
+some ways Riemannian and also conformal geometry is closely linked to the
+representation theory of the orthogonal group.
+    Now for the conformal geometry we need to see how these geometric
+objects change under conformal change of the metric tensor. Already in
+dimension two (where the scalar curvature is twice the Gauss curvature) it
+is not completely obvious; of course it has to be such that the integral of the
+scalar curvature over a compact Riemann surface does not change, since it
+is a constant times the Euler characeristic. And indeed, we have
+                               ∆ω + J = Jω e2ω
+ for the Gauss curvatures J and Jω of g and g = e2ω g. Hence integration over
+RM with respectR to the natural volume dvolg from R the metric will become
+  M  Jdvol g =  M ωJ dvolg as desired.  Note that   M ∆ωdvolg = 0. This is
+ our first example (although somewhat trivial) of a functional F (g) which is
+ conformally invariant. Our aim is to find more of a similar nature.
+Lemma 1. The Yamabe operator on M of dimension n in the metric g with
+Laplace operator ∆ and scalar curvature K
+                                            n−2
+                        Y = Y (g) = ∆ +             K
+                                           4(n − 1)
+satisfies
+                       Y (g) = Y (e2ω g) = e−bω Y (g)eaω
+with a = (n − 2)/2, b = (n + 2)/2. Hence the Yamabe operator Y is confor-
+mally covariant with bidegrees a = (n − 2)/2, b = (n + 2)/2.
+
+Here the basic identity is for the change of the Levi-Civita connection,
+namely
+           ∇X Y = ∇X Y + dω(X)Y + dω(Y )X − g(X, Y )∇ω
+with the gradient defined as the dual of the derivative as dω(X) = g(∇ω, X)
+for all vectors X. Recall the well-known formula in two dimensions for the
+conformal change of the Laplace operator: ∆(e2ω g) = e−2ω ∆(g), i.e. just
+a special case of the Yamabe relation. A subtle point, but as we shall see
+significant, is that differentiating the Yamabe relation with respect to the
+dimension n at n = 2, and applying both sides to the constant function 1,
+leads to the formula for the conformal change of Gauss curvature, which is
+a remarkable formula, since it is linear in the function ω.
+Remark 2. The study of scalar curvature is a classical subject with a large
+literature; we mention here two important aspects, related to the above,
+namely
+
+                                       6
+   • Can we on a compact Riemannian manifold (M, g) find a conformally
+     related metric with constant scalar curvature?
+   • Which functions K can be the scalar curvature for some metric on a
+     manifold M , say on the n-sphere S n ?
+
+The first is the celebrated Yamabe conjecture, solved in the affirmative by
+the efforts of many workers, in particular by R. Schoen (see [5] and references
+therein, also as a general reference to conformal geometry). Note that it
+amounts to solving, due to Lemma 1, applied to the constant function 1, for
+a positive smooth function ϕ, and cn = (n − 2)/4(n − 1)
+                       (∆ + cn K)ϕ = cn Kϕ(n+2)/(n−2)
+namely with ϕ = eω(n−2)/2 and K the scalar curvature of the conformally
+deformed metric (to be a constant). Here n > 2, the statement in two
+dimensions being the known uniformization of a surface.
+    The second question is also quite deep, see [13], where the already diffi-
+cult case of the standard 2-sphere is treated. Note also the necessary con-
+dition, related
+           R      to the Pohozaev identity, generalized in [21]. This is the
+condition M XKdvol = 0 for the scalar curvature K and X a conformal
+vector field, i.e. generating a (local) conformal transformation. We shall see
+this in conncection with our study of the heat equation below.
+
+Asymptotics of heat kernels and their conformal variation
+Central references here are [41] and [11]. See also the excellent survey paper
+[6]. For the basic theory of elliptic operators on manifolds see [20]. Consider
+on a compact Riemannian manifold (M, g) an elliptic partial differential
+operator D of order d with a positive definite leading symbol pL and total
+symbol p; it could be on functions, i.e. in the space L2 (M ) with respect to
+the Riemannian volume, or in L2 - sections of a Hermitian vector bundle
+V over M . We assume D is self-adjoint. This then has a discrete set of
+eigenvalues λ1 ≤ λ2 ≤ . . . (repeated if there are multiplicities) tending
+to infinity and corresponding eigenfunctions/sections. In fact, we have the
+Weyl asymptotic law λj ∼ Cj d/n for j → ∞ for some constant C. Now the
+asymptotics of these eigenvalues have a profound influence (via the elliptic
+theory, and also via Tauberian theory) on the small lime behaviour of the
+heat equation
+                 (∂t + D)h(x, t) = 0, limt→0 h(x, t) = f (x)
+for t > 0 and some smooth initial condition f (x). The solution is given by a
+smooth kernel                 Z
+                    h(x, t) =     K(t, x, y)f (y)dvol(y)
+                                M
+with an asymptotic expansion, as in Lemma 1.8.2 in [20] as follows
+
+                                      7
+Proposition 3. For a D as above we have for the heat kernel and small pos-
+itive t
+                                   ∞
+                                   X
+                      K(t, x, x) ∼   ek (x)t(k−n)/d
+                                              k=0
+
+in the asymptotic sense, that the error can be made to any power of t by
+summing enough terms. Here the important local invariants ek (x) are given
+in terms of the total symbol p of D as invariant expressions in the jets of p.
+These invariants vanish for odd k.
+
+Now we may study how this expansion depends on the metric within a
+conformal class, namely by letting D be conformally covariant. Consider a
+conformal curve of metrics g(u) = e2uω with a real parameter u ∈          R
+                                                                          and
+                                                 R
+a fixed smooth function ω ∈ C ∞ (M, ). Now all quantities depend on u,
+such as connection, curvatures, diffferential operators, and corresponding
+invariants, and the dependence will be smooth in the relevant sense. For a
+quantity C = C(u) we shall denote its derivative at zero by C • = du
+                                                                   d
+                                                                     C(u)|u=0 .
+                                    •
+The covariance of D means that D = −bωD + aDω with b − a = d, the
+order of D. Formally we have
+                                  ∞
+                                  X                     Z
+                     −tD •
+             (T rL2 e       ) =         t   (2i−n)/d
+                                                       (    Ui dvolg )•
+                                  i=0                   M
+                                                    • −tD
+                             = T rL2 − tD e
+                             = T rL2 − t(−bωD + aDω)e−tD
+                             = T rL2 t(b − a)ωDe−tD
+                                   d
+                             = −t T rL2 (b − a)ωe−tD
+                                  dt
+                                  ∞
+                                      n − 2i (2i−n)/d
+                                 X                    Z
+                             =d             t            ωUi dvolg .
+                                         d             M
+                                   i=0
+
+We conclude by equating coefficients to equal powers of t that
+                   Z                       Z
+                               •
+                 (   Ui dvolg ) = (n − 2i)     ωUi dvolg .
+                        M                                   M
+                                                  R
+Note that in even dimension n we get that M Un/2 dvolg is a conformal
+invariant - and exactly at the index level, i.e. the coefficient to the power t0
+- we may call this the conformal index.
+    There are some important technical issues in these formal calculations;
+the equalities should be read as between asymptotic expansions, and the
+term by term derivatives can be justified by going back to the actual con-
+struction of the expansion of the heat kernel from the elliptic theory and
+corresponding Sobolev spaces on M ; one has to make all estimates locally
+
+
+                                                8
+               R
+uniform in u ∈ , and also take into account the asymptotic nature in t → 0.
+For this see Theorem 3.3 in [11].
+    Based on the similar analytic facts about elliptic operators we may also
+consider the spectral zeta function
+                                          ∞
+                                          X
+                               ζD (s) =         λ−s
+                                                 j
+                                          j=1
+
+                           C
+of a complex variable s ∈ , assuming for simplicity that the spectrum of
+D is strictly positive, 0 < λ1 ≤ λ2 . . . where the asymtotics will make this
+                                                  C
+sum convergent in some right half-plane in . Indeed, it will be (like the
+Riemann zeta function) meromorphic in s ∈          C
+                                                   and regular at s = 0; this
+is seen from the heat asymptotics and using a Mellin transform of this to
+express the zeta function. In particular we now define the zeta regularized
+determinant of D as
+                                            ′
+                              det(D) = e−ζD (0)
+i.e. in terms of the s-derivative at s = 0. This is an important quantity in
+the physics of strings, and more. Note that for the Riemann zeta function
+this would say that                            √
+                              1 · 2 · 3 · ··· = π
+with this formal understanding of the infinite product.
+    Now we may in a similar way as for the heat invariants consider the
+conformal variation of the quantity ζD′ (0) as it depends on the metric during
+
+a conformal change. Using
+                                     Z ∞
+                                  1
+                      ζD (s) =            ts−1 T re−tD dt
+                                 Γ(s) 0
+                             P∞ −tλj
+where we have T re−tD =        j=1 e      and also expressed in terms of the
+previous heat kernel, we get (write the the order of D as d = 2l)
+                                      Z
+                          ′    •
+                         ζD (0) = 2l      ωUn/2 dvolg .
+                                      M
+
+Note that for the dimension n odd, this is zero since the heat invariants
+vanish at this level, so we get that under the assumptions (of covariant
+D) that the determinant is a conformal invariant. Note also that with the
+variation in even dimension of the determinant we in effect now have a
+differential equation for ζD′ (0), if we can write the expression U
+                                                                    n/2 in an
+explicit and effective
+               R       way   along  a conformal class of metrics. Note finally
+that ζD (0) = M Un/2 dvolg , i.e. the conformal index. We summarize in the
+following (see [9] and [11])
+
+Theorem 4. Let D be a positive elliptic differential operator on a compact
+Riemannian manfold (M, g) of (necessarily) even order d = 2l, and assume
+
+                                      9
+it is built in a universal way from the metric, and that it is conformally
+covariant (or a positive integer power of a conformally covariant operator).
+Then in its asymptotic heat expansion
+                                        ∞
+                                        X                     Z
+                             −tD                  (2i−n)/d
+                   T rL2 e         )∼         t              (    Ui dvolg )
+                                        i=0                   M
+
+
+the coefficient functions (heat invariants) Ui are invariant polynomials in
+R, ∇R, . . . , i.e in the curvature and its covariant deirvatives; along a con-
+formal curve of metrics e2uω g the derivative at u = 0 is given by
+                        Z                         Z
+                      (    Ui dvolg )• = (n − 2i)   ωUi dvolg .
+                     M                                       M
+
+For the variation of the zeta function (negative log - determinant of D) we
+have                                 Z
+                          ′   •
+                        ζD (0) = 2l     ωUn/2 dvolg .
+                                                  M
+
+Remark 5. These heat invariants are notR the only source of conformally
+invariant functionals of the form F (g) = M I(x)dvolg (x); they appear also
+in the celebrated Branson Q-curvatures, see e.g. [6]. The key object is
+here a conformally covariant differential operator on functions of the form
+Pn = ∆n/2 + lower order in even dimension n, these are fundamental objects
+in conformal geometry, called GJMS operators, see [6] p. 18 for a discussion
+and references. These remarkable operators were first found in [22] and later
+explained more in the likewise fundamental papers [15] and [16]. The lower
+order terms are curvature corrections, so in flat space it is just a power
+of the Laplacian (also in flat space with a metric with signature). More
+generally, there are GJMS operators of the form P2k = ∆k + lower order,
+see [6] and references therein. Here any k is allowed in odd dimension, and
+in even dimension n only k ≤ n/2; there is the so-called Fefferman-Graham
+obstruction tensor Oij , a symmetric, trace-free divergence-free two-tensor,
+which has to vanish (as it does on Einstein manifolds) in order to ensure
+existence in even dimension for higher values of k. There is a nice relation
+to the Branson Q-curvature (see below), namely for a metric variation of
+                              R
+the metric gij = gij (t), t ∈ with the derivative hij at t = 0 we have
+
+                                        n/2 n − 2
+                      Z                           Z
+                d
+                           Qdvol = (−1)              Oij hij dvol.
+               dt t=0 M                       2    M
+
+There are at least two proofs of the GJMS existence whereas actual expres-
+sions are very complicated For further backgrond on the GJMS operators
+and the Q curvature see [25] and [26]. See also the very recent survey
+[12] for an expert treatment of both the background of these operators, the
+applications and recent progress, and some interesting future perspectives.
+
+                                              10
+These are in particular also intertwining operators between bundles with the
+appropriate conformal weights. See the discussion in the Section on the min-
+imal representation of O(p, q). The important relation is (as for the Gauss
+curvature in two dimensions, n = 2)
+
+                        Pn ω + Qn (g) = Qn (e2ω )enω .
+
+Since PRn is self-adjoint and annihilates constants it follows that the inte-
+grated M Qn (x)dvolg (x) is conformally invariant. As one might suspect,
+such local invariants I(x) are very special expressions, and in fact only in-
+volve summing the Pfaffian (whose integral is the Euler characteristic), pure
+divergences, and quantities that scale locally in a way opposite the volume
+under conformal changes. See [1] for a tour de force on this topic.
+
+Let us point out a corollary to the above variational results, namely a con-
+servation law for conformal vector fields, see [9] Theorem 5.4, and also [21].
+Let X be a conformal vector field on M , i.e. it generates a local group
+of conformal transformations (sometimes called a conformal Killing vector
+field), then it preserves the integrals of the heat invariants as follows
+
+Theorem 6. Let D be as in the previous Theorem and Ui the corresponding
+heat invariants, then with X a conformal vector field and for all i
+                            Z
+                               X · Ui dvolg = 0.
+                              M
+
+     The main example is here D = Y , the Yamabe operator with d = 2,
+or it could also be the square of the Dirac operator, a prime example of
+a first-order covariant operator (acting on spinor fields). For these some
+details of the heat coefficients are in [10]. If our operator is the Yamabe
+operator (or generally of the form ∆ + aK), then the heat invariants are
+U0 = (4π)−n/2 , U1 = (4π)−n/2 ( 16 − a)K, U2 = (4π)−n/2 180
+                                                          1
+                                                            (90( 16 − a)2 K 2 −
+   2      2      1
+|r| + |R| − 30( 5 − a)∆K). These expressions for Ui at higher levels i very
+quickly become complicated; noneless we can use them, especially in low
+dimensions, to study corresponding aspects of conformal geometry.
+     One such is the question of extremal properties of the determinant, in
+particular for the Yamabe operator on standard spheres. This can be done
+rather explicitly for the standard spheres in low dimension, beginning with
+the formula of Polyakov, see [10],
+
+                    det∆(e2ω g)
+                                       Z
+                                    1
+               −log             =          (|∇ω|2 + 2Kω)dvolg
+                      det∆(g)      12π M
+
+for a two-dimensional closed surface M with Gauss curvature K. This is
+obtained from the variational formula in Theorem 4 by integration along a
+conformal curve of metrics. Let us pause to see how this works concretely.
+
+                                      11
+    Fix a metric g on the Riemann surface M (without boundary - actually
+there is also an extension of the results to the case of M with boundary), let
+∆ be the Laplace operator and K the Gauss curvature. Then for the zeta
+function ζ(s) = ζA (s) corresponding to any conformally covariant elliptic
+differential operator A = A(g) (or an integer power of such) - it could be
+∆ itself - we consider its dependence on u ∈     R  as we make the conformal
+change of metric g(u) = e2uω g for ω a fixed smooth real function on M. Since
+we know that the Ronly heat invariant at this level is the Gauss curvature,
+we have ζ ′ (0)• = c M ωKdvolg (for some constant depending on A) and we
+                                             R
+can also take the derivative at any u ∈ , viewing the conformal factor as
+e2(u+ϵ)ω and taking the ϵ-derivative at ϵ = 0. This leads to
+                                    Z
+                        d ′
+                          ζ (0) = c     ωKuω e2uω dvolg ,
+                       du            M
+
+where Kuω is the Gauss curvature of the metric g(u) = e2uω g. Recall the
+formula for the Gauss curvature
+
+                            ∆uω + K = Kuω e2uω
+
+which gives us                      Z
+                      d ′
+                        ζ (0) = c       uω∆ω + Kωdvolg .
+                     du             M
+We integrate in u from u = 0 to 1 and obtain
+                                     Z
+                  ′        ′            1
+                 ζA (0) − ζA (0) = c      ω∆ω + Kωdvolg .
+                                      M 2
+
+Here A = A(e2ω g). This is the Polyakov formula, with the constant c for the
+Laplace operator. It is remarkable that for the square of the Dirac operator
+the constant has the opposite sign, and the extremal property is the opposite
+as for the Laplace operator.
+    Now it is fortunate that on the standard two-sphere S 2 we may estimate
+this quantity via an inequality due to Moser and Trudinger to the effect
+that: For any metric conformal to the standard one on S 2 with the same
+volume, the determinant of the Laplacian is maximized exactly at the stan-
+dard metric itself, or its pull-back by a conformal map on the sphere. More
+generally one may think of this procedure of maximizing the determinant in
+a conformal class as explaining the uniformization of Riemann surfaces, see
+[40].
+    Now there are similar results in 4 and 6 dimensions, this time using the
+Yamabe operator and the explicit heat invariants. In particular it holds
+that the determinant of the Yamabe operator is minimized at the standard
+metric (and its conformal transforms) among volume-preserving conformal
+changes on S 4 and maximized on S 6 - and it is expected to be minimized
+
+
+                                        12
+on S 8 and so on. See [6] for much more on this, and references therein.
+In particular we quote [7] for the Yamabe operator Y and the square D2
+of the Dirac operator. The fact that one can find explicit expressions of
+the determinants in four and six dimensions, relies on the transformation
+property of the Branson Q-curvatures, similar to that for Gauss curvature;
+in particular notice the linear term in ω. Q is an important term in the heat
+invariants. For more on this see [10] where the role of the heat invariants
+and the explicit expressions for determinants in four dimensions are given,
+involving integrals of Q.
+
+Theorem 7. On S 4 , the standard metric minimizes detY and maximizes
+detD2 among all conformal metrics of a fixed volume.
+
+Remark 8. There are some interesting inequalities behind these statements,
+                                     R
+now from Fourier analysis in n in general, and some applications to four
+dimensions, in particular on the sphere, using conformal geometry. See the
+important paper [2] Section 3, and [10]. Consider the following quantities
+                Z                 Z              Z              Z
+             1           2      1          2
+   S1 (F ) =        |∆F | dξ +        |∇F | dξ +     F dξ − log     eF dξ
+             48 S 4            24 S 4             S4             S4
+
+and                       Z                                 Z
+                                                        1
+              S2 (F ) =         e−F/2 |∆eF/4 |2 dξ −             |∇F |2 dξ
+                          S4                            4   S4
+for a real smooth function F on the four-sphere, and the integration is with
+respect to normalized surface measure. Now these are both non-negative, the
+first (an analogue of the Moser-Trudinger inequality) by an ingenious argu-
+ment based on the Hardy-Littlewood-Sobolev inequality, and the second by
+the sharp Sobolev inequality. We may explain a little of the background for
+these inequalities, since they also pertain to representation theory, namely
+the properties of the convolution operators
+                                       Z
+                                             f (y)
+                         Iλ : f (x) 7→              dy,
+                                        Rn |x − y|λ
+called Riesz operators or Knapp-Stein operators. The key estimate is due
+to E. H. Lieb, see [2] and references therein and further discussion, namely
+               Z
+                        f (x)g(y)
+             |                    dxdy| ≤ Ap ||f ||Lp (Rn ) ||g||Lp (Rn )
+                Rn ×Rn |x − y|λ
+                                     Γ(n( p1 − 12 )) Γ( n2 ) 1−(2/p)
+                                                           
+                              n/p′
+                  Ap = π
+                                        Γ( np )       Γ(n)
+where λ = 2n/p′ , 1 ≤ p < 2, 1/p + 1/p′ = 1. This HLS inequality is sharp
+with extremal functions f (x) = g(x) = (1 + |x|2 )−n/p up to the action
+
+
+                                             13
+                             R
+of the conformal group on n , which is SO(n + 1, 1). Now this inequality
+should be thought of in the following way, namely we have two norms both
+invariant under an isometric action of SO(n + 1, 1), one on the left-hand
+side is the Hilbert norm for the complementary series, and the other the
+Lp norm. The inequality may also be expressed on S n via stereographic
+projection (a conformal map), and furthermore there are limit inequalities
+at each endpoint, namely for p = 2
+             Z                          ∞
+                                        X        Z
+                        2
+                 |F (x)| log|F (x)|dx ≤   ∆k (n)   |Yk (x)|2 dx
+              Sn                          k=1               Sn
+
+where F = Σ∞ k=0 Yk with Yk spherical harmonic
+                                           R of degree k, integration with
+respect to normalized surface measure, and S n |F (x)|2 dx = 1, and
+                                          k−1
+                                        nX 1
+                            ∆k (n) =      n    .
+                                        2 2 +l
+                                          l=0
+
+At the other end p = 1 one obtains
+          Z               Z                ∞          Z
+               F (x)                     1 X Γ(n + k)
+      log     e      dx ≤     F (x)dx +                   |Yk (x)|2 dx
+           Sn              Sn           2n   Γ(n)Γ(k) S n
+                                              k=1
+
+which corresponds to the quantity S1 . Note that when n is even this can
+also be written in terms of the GJMS operator Pn as
+                Z               Z                Z
+                     F (x)                     1
+            log     e      dx ≤     F (x)dx +         F (Pn F )dx.
+                 Sn              Sn           2n! S n
+The other S2 will be estimated by a sharp Sobolev inequality, another con-
+sequence of the HLS. The first inequality from p = 2 is called a logarithmic
+Sobolev inequality, and indeed leads to the celebrated logarithmic Sobolev
+inequality of L. Gross for Gauss measure. Let us finally remark that if we
+consider the intertwining operator Iλ on the sphere S n (with the same ex-
+               R
+pression as in n now with |x − y| the Euclidian distance) and normalize
+it to have Iλ 1 = 1 then the HLS says that, writing q = p′ for the dual
+exponent,
+                        ||Iλ F ||2q ≤ (Iλ F, F ) ≤ ||F ||2p
+relative to the norms in Lq (S n ) resp. Lp (S n ) and the L2 (S n ) pairing; and
+the equality is exactly for F = 1 or its orbit under SO(n+1, 1). In particular
+the Knapp-Stein intertwining operator is a contraction from Lp to its dual
+Lq . We can be more explicit here, since the eigenvalues for (the normalized)
+Iλ are known on the spherical harmonics Yk , via the Funk-Hecke formula,
+or the spectrum generating argument in [8], namely
+                                    Γ( np )Γ( nq + k)
+                             γk =                       .
+                                    Γ( nq )Γ( np + k)
+
+                                        14
+So with F as above the HLS is saying that
+                        ∞
+                        X          Z
+                              γk         |Yk (x)|2 dx ≤ ||F ||2p
+                        k=0         Sn
+
+with equality if and only if F = 1 or in its orbit under SO(n + 1, 1). Let
+us finally see how the HLS can be expressed in a way to make the GJMS
+operators on the sphere appear as residues of the meromorphic intertwining
+operator family Iλ . We express the dual inequality as
+                                     Z
+                          ||F ||2q ≤   F (D2r F )dx
+                                           Sn
+
+where r = n/2 − n/q so that the operator D2r has eigenvalues on spherical
+harmonics of degree k
+                                   Γ( n2 − r) Γ(k + n2 + r)
+                       γk−1 =                               .
+                                   Γ( n2 + r) Γ(k + n2 − r)
+
+             N
+Here for r ∈ , r < n/2 the D2r is a differential operator, up to a constant
+the GJMS operator on S n of order 2r.
+    It is a strong result that for the group G = SU (n + 1, 1) the analogous
+estimates hold, see [19] for some careful analysis on the Heisenberg group.
+    Now the geometric content of S1 and S2 is that if we let g be the standard
+metric and g = eF/2 g conformally related, then the ratio of determinants for
+the Yamabe operators Y resp. Y is governed by these functionals as
+
+                       detY /detY = e−β1 S1 (F )−β2 S2 (F )
+
+with β1 = β2 = −180. If we replace the Yamabe operator Y by the square of
+the Dirac and find the same ratio, then the values are 7β1 = 22β2 = 77/180,
+and hence the statements about the minimum resp. maximum. This pattern
+is expected to continue.
+
+Determinants and their rigidity
+In this section we shall see as in [36] how the conformal differential geometry
+and representation theory of the conformal group of the standard n-sphere
+S n may be combined to obtain local extremal properties for determinants
+and other conformal functionals. For background on determinants see [10].
+This time we shall consider arbitrary variations of the metric g, and not just
+in directions of conformal change. We consider functionals
+
+                               F : Metr(M) 7→         R
+on the space of smooth Riemannian metrics on M , a compact manifold,
+equipped with a smooth topology as in [36] from Sobolev spaces on the
+
+                                            15
+space of sections of the bundle of symmetric two-tensors C ∞ (S 2 T M ). The
+tangent space at a metric g is naturally
+                                       R      identified with C ∞ (S 2 T M ) and
+has an inner product < h, k >g = M (h, k)g dvolg via the pointwise inner
+product on tensors. We now make the assumptions (i) F (ϕ∗ g) = F (g) for
+all g and all ϕ ∈ Diff 0 (M ), the identity connected component of the group
+of diffeomorphisms of M , and (ii) F (e2ω g) = F (g) for all g and conformal
+factors e2ω . This holds for the functionals considered earlier, namely just
+the independence of coordinates, and the conformal invariance. Examples
+could be a conformal index for a covariant operator, or the determinant in
+odd dimension of such an operator. For such a functional we want to find
+the gradient (first derivative) and the Hessian (second derivative); these are
+obtained by differentiating at a base point g ∈ Metr(M ) with respect to t
+the function
+
+      F (g + tk) = F (ϕ∗ g + tϕ∗ k) = F (Ω2ϕ g + tϕ∗ k) = F (g + tΩ−2 ∗
+                                                                   ϕ ϕ k)
+
+where ϕ ∈ G = Conf 0 (M ), the group of conformal transformations of (M, g)
+with ϕ∗ g = Ω2ϕ g, and k a tangent vector at g. Note that here appears an
+action of G on the tangent vectors k - and that these are sections of a vector
+bundle over M . If ϕ∗ g = Ω2ϕ g we can define a representation of G by
+
+                           πν (ϕ−1 )k = Ωρ+ν−2
+                                         ϕ     ϕ∗ k
+
+for ϕ ∈ G, k ∈ C ∞ (S02 T M ) with ρ = n/2, ν ∈ . R
+    Now in the case of the sphere, i.e. M = S n , this is a homogenous vector
+bundle and we may use representation theory of G to analyze the gradient
+and the Hession of F . The gradient is
+                                      d
+                         DFg (k) =       F (g + tk)|t=0
+                                      dt
+and vanishes for all k ∈ C ∞ (S 2 T M ) at a stationary point. The next deriva-
+tive gives the Hessian Hg via
+
+                                d2
+               D2 Fg (k, k) =       F (g + tk)|t=0 =< k, Hg k >g
+                                dt2
+where we assume C 3 differentiability in the t-variable, see [36]. In the cases
+we shall do, the base metric g is stationary and F sufficiently smooth, so
+that we get the symmetric operator
+
+                      Hg : C ∞ (S 2 T M ) 7→ C ∞ (S 2 T M ).
+
+    Roughly speaking the tangent directions from the base point g are (i)
+directions of conformal change, (ii) directions of change by diffeomorphisms,
+and (iii) the remaining directions, where by assumption the functional is
+
+                                       16
+stationary in the first two. Our result will be that the functional (sufficiently
+smooth) will have a strict maximum or minimum in a neighbourhood of g
+in the remaining directions. Specifically we have the directions tangent to
+conformal rescalings of g
+
+                  conf g = {ωg|ω ∈ C ∞ (M )} ⊂ C ∞ (S 2 T M )
+
+and the orthogonal complement (conf g )⊥ = C ∞ (S02 T M ), the trace-free sym-
+metric two-tensors. Similarly, we have the directions tangent to diffeomor-
+phism pullbacks of g
+
+                        diff g = {LX g|X ∈ C ∞ (T M )}
+
+where LX denotes the Lie derivative along the vector field X. Note that the
+vector field X is conformal means LX = 2ωX g with the infinitesimal cocycle
+ωX a smooth function, equal to the divergence of X up to a factor n. Now
+the action of the Lie algebra of G, identified with the conformal vector fields
+cvf(M, g) is
+                      dπν (X)k = LX k + (ρ + ν − 2)ωX k
+namely the derivative of the earlier πν . Note that in general cvf(M, g) and G
+are finite-dimensional, so a Lie algebra resp. a Lie group. For the sphere S n
+the conformal group is G = SO(n + 1, 1) via the action by linear fractional
+transformations, as we shall see explicitly below.
+    We also introduce in general the Ahlfors operator
+
+                        Sg : C ∞ (T M ) 7→ C ∞ (S02 T M )
+
+by Sg X = LX g − n2 (divg X)g with kerS = cvf(M, g). From [36] we have
+
+Lemma 9. S = Sg is a first-order intertwining differential operator
+
+                              Ω−2 ∗       ∗
+                               ϕ ϕ SX = Sϕ X
+
+for ϕ∗ g = Ω2ϕ g, and the image ranS ⊂ kerHg under our assumptions on the
+corresponding functional F . Furthermore, the dual to S is S ∗ k = 2divk.
+
+Remark 10. These two operators S and S ∗ are examples of very general first-
+order intertwining operators over flag manifolds, obtained as composition of
+the covariant derivative and a projection in a tensor product, see [47] and
+references therein; they are sometimes called generalized (or Stein-Weiss)
+gradients. Recall the Levi-Civita connection in Riemannian geometry
+
+                         ∇ : C ∞ (E) 7→ C ∞ (T ∗ ⊗ E)
+
+and let us consider the bundle E to be the bundle T = T M , i.e. the
+                                                            R   R
+tangent bundle. The tensor product in the fiber is n ⊗ n i.e. highest
+
+                                       17
+weight (1) ⊗ (1) which decomposes under SO(n) as (0) ⊕ (2) ⊕ (1, 1), namely
+the trivial, the trace-free symmetric two-tensors, and the skew-symmetric
+two-tensors (two-forms). We can now form proj ◦ ∇ for each projection and
+obtain the divergence, the Ahlfors S and the de Rham derivative (identifying
+a vector field with a one-form). For each there is a unique conformal weight
+p making the operator conformally covariant. The operators in the de Rham
+complex arise in this way, as does for example the Dirac operator.
+
+Now in general the symmetries are contained in the following main observa-
+tion
+Lemma 11. Let F = F (g) be a sufficiently smooth functional on the space
+of Riemannian metrics on a fixed compact manifold M and assume F is
+invariant under conformal change, and under diffeomorphisms of M ; then
+at a stationary point g the Hessian satifies the intertwining relation
+
+                           πn/2 (ϕ)Hg = Hg π−n/2 (ϕ)
+
+for all ϕ ∈ G.
+
+Proof. We see from the assumed invariance of F that
+                                −2 ∗
+                  < Ω−2 ∗
+                     ϕ ϕ k, Hg Ωϕ ϕ k >g =< k, Hg k >g
+
+and since ϕ∗ dvolg = Ωnϕ dvolg we get < h, k >g =< π−n/2 (ϕ)h, πn/2 (ϕ)k >g
+from which πn/2 (ϕ−1 )Hg π−n/2 (ϕ) = Hg .                                 □
+
+    Now we specialize our compact manifold to be the sphere S n with the
+standard metric, and study using representation theory the bundles in ques-
+tion as homogeneous vector bundles, i.e. viewed as induced representa-
+tions over the flag manifold S n . The intertwining operators such as Hg
+then become rather explicit, in particular we can find their spectrum. Here
+G = SO0 (n + 1, 1) with the action on S n × {1} given by
+                                 h(y, 1)
+                      h·y =                 ∈ S n × {1}
+                               (h(y, 1))n+2
+
+                         R
+for h ∈ G and y ∈ S n ⊂ n+1 . Then we get S n = G/P with the parabolic
+                                             R
+subgroup P = M AN, M ≃ SO(n), A ≃ + , N ≃ n and an IwasawaR
+decomposition G = KAN, K ≃ SO(n+1). The roots are ±α and ρ = nα/2.
+Characters of A are of the form χp (a) = ap and then ρ corresponds to
+p = n/2.
+    Let (Vσ , σ) be an irreducible representation of M and extend to A by
+                       R
+(a, m) → ap σ(m), a ∈ + , m ∈ SO(n), and denote this representation by
+(Vσp , σ p ). We call p the conformal weight and define the associated vector
+bundles
+                  V     p          p      KAN        p
+                        σ = G ×P Vσ = IndM AN (σ ⊗ a ⊗ 1)
+
+
+                                      18
+          C ∞(Vσp ) = {ψ ∈ C ∞(G)|ψ(xman) = a−p−ρσ(m)−1ψ(x)}
+with the usual shift in the induced picture. The action of G is the left-regular
+                                           V
+action. We can find the space E(S n , σp ) of K-finite sections of the bundle
+by Frobenius reciprocity
+
+                    HomM (σ, β|M ) ≃ HomK (E(S n ,       Vσp ), β)
+where β is an irreducible representation of K. Here we have the usual
+(see [36]) interlacing patterns in the branching law from K to M , and
+we are interested in the highest weights σ = (0) = (0, 0, . . . ) (the trivial
+representation), σ = (1) = (1, 0, 0, . . . ) (the defining representation), and
+σ = (2) = (2, 0, 0, . . . ) (trace-free symmetric two-tensors). The result is for
+the K types labeled by highest weights β1 ≥ β2 ≥ 0 ≥ 0 ≥ . . .
+Proposition 12. The K-types have multiplicity one in all bundles and given
+independently of p by
+
+                        E(S n , V(1)) = ⊕1r=0 ⊕∞l=0 E1+l,r
+                        E(S n , V(2) ) = ⊕2q=0 ⊕∞
+                                                j=0 F2+j,q
+
+where the subscripts in E and F are the highest weights in those represen-
+tation spaces of K ≃ SO(n + 1). Here we assume n ≥ 4 (see [36] for the
+slight modifications when n = 2, 3).
+
+Now we observe the intertwining properties of the Ahlfors operator S and
+the Hessian H for our assumed functional in their action on the K-finite
+sections, forming a Harish-Chandra module (the consistent action of the Lie
+algebra g and K), here denoted just by the σp .    V
+Proposition 13. We have as intertwining operators
+
+                                   S:  V(1)
+                                        −1
+                                             7→ V(2)
+                                                 0
+
+
+                                   H : V(2)
+                                        0
+                                            7→ V(2)
+                                                 n
+                                                     .
+In particular, S and H are diagonalized by the K-decompositions above,
+respectively. Furthemore, provided that H is non-zero, these two operators
+form an exact sequence, and we have the explicit formula H = c(F )T0 with
+a real constant c(F ), and T0 is the diagonal operator
+                                   Γ(n + j + 2)Γ(n + q − 1)
+                  T0 |F(2+j,q) =                            ≥0
+                                       Γ(j + 2)Γ(q − 1)
+on the K types (2 + j, q)
+
+We call T0 the universal Hessian, since it is independent on the functional
+F , and so the nature of the stationary point (the base metric g) is governed
+by the proportionality constant c(F ).
+
+                                           19
+Proof. This is in [36], which is based on the general theory of generating the
+spectrum of intertwining operators for general homogeneous bundles over
+S n = G/P , see [8]. We already saw the intertwining property of S and
+H, here with the conformal weight p made explicit. The formula for the
+spectrum of T0 should be seen as a meromorphic function, and note that it
+is zero for q = 0, 1, which is exactly the range of S.                      □
+
+    Finding the sign of the constants c(F ) for concrete functionals will de-
+termine whether we have local maxima or minima of those functionals; at
+the same time the inverse function theorem will give us strict maxima or
+minima in the directions perpendicular to the directions corresponding to
+conformal change and diffeomorphism change, namely directions given by
+V 0
+  (2) /ranS. Let W be the orthogonal complement to ranS, then as in [36]
+we have
+Proposition 14. Let F be a sufficiently smooth conformal functional on S n
+with the standard metric g and c(F ) > 0; then there is an open neighborhood
+U ⊂ Metr(S n ) of g such that F (g ′ ) ≥ F (g) for all g ′ ∈ U , and F (g ′ ) > F (g)
+for all g ∈ W ∩ U .
+
+   Finally we can determine the local extremal properties of some of the
+conformal functionals F we have seen, namely heat invariants and their
+conformal indices, or the Branson total Q-curvature, namely
+                                    Z
+                            F (g) =    Qg dvolg
+                                         M
+
+in even dimensions - this is a prominent case. In addition we have deter-
+minants in odd dimension, here to be considered for conformally covariant
+operators on the sphere. It turns out, that to find the sign of the con-
+stants c(F ) requires some delicate calculations of the Hessians - essentially
+pseudodifferential operators of order n. Some earlier and important work
+here was [39]. The point is that representation theory has simplified and
+extended some of the arguments in [39]. The results are as in [36], the first
+one already in [39] for the Yamabe operator Y
+Theorem 15. Among metrics on S n of fixed volume, the standard sphere
+(S 2k+1 , g) is a local maximum for (−1)k+1 detY , and the standard sphere
+(S 2k , g) is a local maximum for (−1)k+1 ζY (0).
+
+We have here the zeta function ζY (s) for the Yamabe operator. Though
+we shall not go into the definition of the Dirac operator D (it is a general-
+ized gradient, and conformally covariant) let us record here that the same
+principles give, see [36] and [37]
+Theorem 16. Among metrics on S n of fixed volume, the standard sphere
+(S 2k+1 , g) is a local maximum for (−1)k detD2 , and the standard sphere
+(S 2k , g) is a local maximum for (−1)k ζD2 (0).
+
+                                         20
+Note the curious alternating behaviour in dimension and between determi-
+nants and indices - and between Yamabe and Dirac squared. This should
+have some link to the overall behaviour of the zeta functions (and similarly
+for the behaviour under conformal change of determinants in even dimen-
+sions). The condition of volume-preserving metrics corresponds to infinites-
+imal changes of trace zero. Of course we still have the strict inequalities
+in directions orthogonal to conformal or diffeomorphism change. To con-
+clude this discussion of conformal
+                           R        functionals, let us mention the Branson
+total Q-curvature F (g) = M Qg dvolg in even dimensions. This too has the
+universal Hessian, which leads to a local maximum at the round sphere, [36].
+    All of the above is only the beginning of much conformal geometry. In-
+deed, there are extensions of the theory to conformal geometry of hyper-
+surfaces which also generalize the classical concept of Willmore energy of
+surfaces in Euclidian space; see [4] and [27] for analogues of GJMS opera-
+tors and Q-curvature.
+
+
+Intertwining operators and minimal representations
+From the beginning representation theory of Lie groups was connected to dif-
+ferential equations via their symmetries. The special relativity gave models
+of particles in terms of representations of the symmetry groups, such as the
+                       C                                         C
+Lorentz group SL(2, ) or the Poincare group P = SL(2, ) ×s 4 (semi-    R
+                                         R      R            C
+direct product with Minkowski space 4 ≃ 1,3 , SL(2, ) double-covering
+SO0 (1, 3)). Particles and the corresponding irreducible unitary representa-
+tions of P were labeled by their spin j = 0, 21 , 1, 23 , . . . and mass m ≥ 0. It
+was soon realized that the particles of mass zero had some additional symme-
+tries, namely that the representations could be extended to the conformal
+group of Minkowski space, locally an action of the indefinite orthogonal
+group O(2, 4) (strictly speaking the connected component SO0 (2, 4) of the
+identity). These representations were realized in Hilbert spaces of solutions
+to hyperbolic partial differential equations, admitting the symmetries from
+special relativity, such as the wave equation, as we shall see below. Also
+Maxwell’s equations for the electro-magnetic field were conformally invari-
+ant, as were the spin zero and mass zero equations. This corresponds well
+with the fact that the classical theory of light is modeling light rays as null
+geodesics with respect to the Lorentz metric ds2 = dt2 − dx21 − dx22 − dx23 .
+This means that light propagates along a geodesic whose tangent is anni-
+hilated by the metric. One checks that this notion is conformally invari-
+ant, i.e. multiplying the metric (in fact any Lorentz metric of signature
+(+, −, −, . . . , −) in any dimension) by a smooth positive function will lead
+to the same (reparametrized) null geodesics.
+
+
+
+
+                                       21
+   Now the wave equation is
+
+                            ∂2   ∂2   ∂2   ∂2
+                   □φ = (      −    −    −     )φ = 0
+                            ∂t2 ∂x21 ∂x22 ∂x23
+
+with φ = φ(t, x1 , x2 , x3 ). □ is here the Yamabe operator Y in flat Minkowski
+space. There is a Hilbert space of (distribution) solutions to the wave equa-
+tion carrying an irreducible unitary representation of SO0 (2, 4), which on
+P is the spin zero, mass zero relativistic particle. This is the minimal rep-
+resentation of the conformal group that we shall study below for O(p, q).
+For details see [32], [33], [34], where the point of view is to give as many
+perspectives on this particular representation as possible; each model has
+its virtues, in particular for the branching laws to symmetric (and other)
+subgroups.
+
+Constructions of the minimal O(p, q) representation
+The wave equation in special relativity is the Yamabe operator in Minkowski
+space; now the idea is to extend this to the Yamabe operator and its ker-
+nel, this time on S p−1 × S q−1 . This model was introduced in [3], and it
+has the advantage to give the K-types in the representation from the begin-
+ning, K = O(p) × O(q), unlike the wave equation in flat space, as explained
+above. Thus the manifold is M = S p−1 × S q−1 with the indefinite pseudo-
+Riemannian product metric (the standard metric on the first sphere and
+the negative standard metric on the second), and YM its Yamabe opera-
+tor, sometimes called an ultra-hyperbolic operator (hyperbolic for p = 2).
+The entire discussion of natural differential operators carries over, including
+connections and curvatures, to the indefinite case, and again the Yamabe
+operator is conformally covariant; in particular for G the group of confor-
+mal transformations of any pseudo-Riemannian manifold (M, g) with a left
+action x → hx = Lh x, x ∈ M, h ∈ G, L∗h g = Ω(h, ·)2 g, we define a represen-
+tation of G by
+                       πλ (h−1 )f (x) = Ω(h, x)λ f (Lh x)
+say for f ∈ C ∞ (M ). As before, the Yamabe operator Y = YM will be an
+intertwining operator, i.e.
+
+                        Y π n−2 (h) = π n+2 (h)Y, h ∈ G
+                             2          2
+
+
+and the kernel of Y is a subspace invariant under π n−2 (h), h ∈ G. Now it
+                                                       2
+is a general principle that a (pseudo-)Riemannian manifold M of dimension
+n rarely has a large group Conf(M ) of conformal transformations, always a
+Lie group, and this has dimension at most (n + 2)(n + 1)/2. But our product
+of spheres is such a case. Indeed, Conf(S p−1 × S q−1 ) = O(p, q), which is
+seen in the following way.
+
+
+                                      22
+   Consider   Rp,q with the metric
+                    ds2 = dx21 + · · · + dx2p − dy12 − · · · − dyq2
+
+in coordinates (x, y). Let Ξ be the null cone (using the Euclidian metrics in
+x resp. y) |x| = |y|, x, y ̸= 0, and M ≃ S p−1 × S q−1 be the submanifold |x| =
+                                                                      R
+|y| = 1 with the metric induced from ds2 . O(p, q) acts on p,q preserving
+the metric and Ξ as well as the lines in Ξ; this induced an action on M and
+one checks it is a conformal action. Calculating the scalar curvatures of M
+as well as of S p−1 and S q−1 one gets the slightly surprising
+
+Lemma 17. The Yamabe operators are related by
+
+                                YM = YS p−1 − YS q−1 .
+
+Thus it is easy to solve the Yamabe equation on M in terms of spherical
+                R           R              N
+harmonics Ha ( p ) ⊗ Hb ( q ), a, b ∈ . It amounts to
+                               p−2 2       q−2 2
+                        (a +      ) − (b +    ) = 0.
+                                2           2
+Remark 18. Thus we see that for p, q > 2, p + q must be even for such
+solutions to exist.
+
+We denote by (π p,q , V p,q ) the corresponding representation in the kernel of
+Y = YM with the Hilbert space V p,q described in the following, see [3] and
+[32]
+
+                                       N
+Theorem 19. let p, q > 2, p+q ∈ 2 , then (π p,q , V p,q ) is a unitary irreducible
+representation of O(p, q) with K-types
+
+                       ⊕a,b∈N,a+ p =b+ q Ha (
+                                   2       2
+                                                    Rp) ⊗ Hb(Rq )
+and invariant unitary norm given on the spherical harmonics Fa,b by
+
+                                           p−2
+                       ||Fa,b ||2 = (a +       )||Fa,b ||2L2 (M ) .
+                                            2
+This representation is minimal in the sense that its Gelfand-Kirillov dimen-
+sion is minimal, it is attached to the minimal nilpotent orbit in the Lie
+algebra o(p, q), and its annihilator is the so-called Joseph ideal. One may
+think of it as an analogue of the metaplectic representation of the double
+               R
+cover of Sp(n, ) (strictly speaking the even part of the metaplectic).
+
+
+
+
+                                               23
+Branching laws for the minimal O(p, q) representation
+This model of the minimal representation of G = O(p, q) is convenient for
+studying its restriction to symmetric subgroups such as G′ = O(p, q ′ ) ×
+O(q ′′ ), q = q ′ + q ′′ , in particular for finding the explicit branching law. The
+idea is to see a product of a hyperboloid and a sphere as an open orbit of
+G′ on M , and to solve the Yamabe equation in the natural coordinates for
+G′ , conformally related to the M coordinates. Thus we shall separate the
+variables in the Yamabe equation as those in a hyperboloid and those in a
+sphere.
+     First we shall see a remarkable family of unitary irreducible representa-
+          p,q
+tions π+,λ    of O(p, q) attached to minimal elliptic orbits in the Lie algebra
+o(p, q); they are realized in spaces of solutions to O(p, q)-invariant differential
+equations on the hyperboloid
+
+                          X(p, q) ≃ O(p, q)/O(p − 1, q)
+
+                      R
+viewed as {(x, y) ∈ p,q ||x|2 − |y|2 = 1} with the induced metric and cor-
+responding measure. The most prominent representations are the discrete
+series of the hyperboloid, namely those that arise as irreducible left-invariant
+(non-zero) subspaces of L2 (X(p, q)), and they are given as solutions to the
+Yamabe equation YX(p,q) f = (−λ2 + 41 )f with λ ∈ + p+q     Z  2 and λ > 0.
+Actually, the (g, K)-modules allow a slight extension of the parameter (see
+[33], and in particular fact 5.4 for the following details).
+
+                                              Z
+Proposition 20. Let p > 1, q ̸= 0, and λ ∈ + p+q  2 and λ > −1. Then there is
+a unique irreducible non-zero unitarizable (Harish-Chandra) (g, K)-module
+   p,q
+(π+,λ  )K consisting of K-finite solutions to YX(p,q) f = (−λ2 + 14 )f . For λ > 0
+this is a discrete series for the hyperboloid. Furthermore, the K-types are
+                                                                    R
+given explicitly as the direct sum of spherical harmonics Hm ( p ) ⊗ Hn ( q )  R
+             N
+with m, n ∈ , m − n ≥ b, m − n ≡ b mod 2, where b = λ − p2 + 2q + 1.
+                              p,q
+   There is a similar family π−,λ that we shall encounter later; it has similar
+K-types, this time with m − n ≤ b− , m − n ≡ b− mod 2 and b− = −λ + 2q −
+p
+2 − 1.
+
+Remark 21. It is a rather subtle point to make these representations unitary
+for the exceptional parameters; and they have other characterizations such
+as cohomologically induced from L = SO(2) × O(p − 2, q), or as a quotient of
+a representation induced from a maximal real parabolic subgroup of O(p, q)
+                                     R
+whose nilradical is isomorphic to p−1,q−1 . This parabolic also plays a role
+in the model of the minimal representation of O(p, q) given in [34].
+
+Now we can solve the Yamabe equation on X(p, q) using the
+
+
+
+                                         24
+Lemma 22. There is a conformal embedding
+                                             ′′
+                          X(p, q ′ ) × S q −1 ⊂ M ≃ S p−1 × S q−1
+
+and the Yamabe operators satisfy
+
+                            YX(p,q′ )×S q′′ −1 = YX(p,q′ ) − YS q′′ −1 .
+
+Proof. Use coordinates, generalizing to a product of two hyperboloids, p′ +
+p′′ = p, q ′ + q ′′ = q,
+
+X(p′ , q ′ ) × X(p′′ , q ′′ ) = {((x′ , y ′ ), (y ′′ , x′′ ))||x′ |2 − |y ′ |2 = |y ′′ |2 − |x′′ |2 = 1}.
+
+Now we map this into Ξ by ((x′ , y ′ ), (y ′′ , x′′ )) 7→ (x′ , x′′ , y ′ , y ′′ ) and further
+into M by
+                                                  (x′ , x′′ ) (y ′ , y ′′ )
+                ((x′ , y ′ ), (y ′′ , x′′ )) 7→ (            ,              )
+                                                    |x|          |y|
+with an open image, dense if p′′ = 0. This map is conformal with conformal
+factor |x|−1 = |y|−1 , x = (x′ , x′′ ), y = (y ′ , y ′′ ), with respect to the induced
+                 R
+metrics from p,q . The statement about the Yamabe operators is analogous
+to the one for the product of spheres, and also true here in the generalized
+setting of two hyperboloids (we shall use that below considering the discrete
+spectrum in the branching to G′ = O(p′ , q ′ ) × O(p′′ , q ′′ ), but first we let
+p′′ = 0).                                                                           □
+
+Theorem 23. The restriction of the minimal representation (π p,q , V p,q ) of
+the group G = O(p, q) to the symmetric subgroup G′ = O(p, q ′ ) × O(q ′′ ), q =
+q ′ + q ′′ , is the direct Hilbert space sum
+
+                                     ⊕∞
+                                      l=0 π
+                                            p,q   ′
+                                                  ′′
+                                            +,l+ q2 −1
+                                                           ⊗ Hl (Rq ).
+                                                                    ′′
+
+
+
+
+                                                                p,q                                  ′
+Proof. Solving the Yamabe equation amounts to the condition on π+,λ ⊗
+ l
+H(  Rq ′′
+          ) as follows
+
+                              1             q ′′ − 2 2 1
+                                − λ2 + (l +         ) − =0
+                              4                  2     4
+                                ′′
+so we get that λ = l + q2 − 1 which must be in + p+q                Z       ′
+                                                           2 ; but this is satisfied
+since p + q ′ − q ′′ = p + q − 2q ′′ is even. Also we need the condition λ > −1
+which is also true; note that for q ′′ ≥ 3 all these elliptic representations have
+λ > 0 and hence they are all discrete series for the hyperboloid. That the
+solutions we have found are all in the Hilbert space, and that the direct sum
+exhausts the Hilbert space takes some more arguments, see [33] Theorem
+7.1.                                                                              □
+
+
+                                                      25
+Remark 24. We can also write the corresponding unitary strucure, in effect
+                                                         (1) (2)
+the Plancherel formula, namely if we write F = Σ∞  l=0 Fl Fl     as in the
+Theorem, then
+
+                                q ′′         (1)                   (2)
+          ||F ||2 = Σ∞
+                     l=0 (l +        − 1)||Fl ||2L2 (X(p,q′ )) ||Fl ||2L2 (S q′′ −1 )
+                                 2
+restricting to q ′′ ≥ 3. Note the similarity with the case of a product of
+spheres.
+
+Already the case of q ′′ = 1 in the above Theorem is interesting; here there
+are only two terms in the sum, since spherical harmonics in one dimension
+are the constants and the function x, i.e only l = 0, 1. This means that VKp,q ,
+the K finite elements, are realized inside C ∞ (X(p, q − 1)), namely (here the
+parameter λ = ±1/2) as solutions to the Yamabe equation YX(p,q−1) f = 0.
+
+Remark 25. There are some delicate points to this phenomenon, that the
+minimal representation (π p,q , V p,q ) can be realized on the hyperboloid X(p, q−
+1); note that in a similar way we may realize the minimal representation
+(π p+1,q−1 , V p+1,q−1 ) on the same hyperboloid X(p, q − 1). Indeed we have
+[34], Theorem 7.2.2, a non-split exact sequence of Harish-Chandra modules
+for O(p, q − 1)
+
+            0 → (π p,q )K → (KerYX(p,q−1) )K → (π p+1,q−1 )K → 0,
+
+which in turn is based on the non-split exact sequences
+                   p,q−1        ∞                        p,q−1
+             0 → (π+,− 1 )K → C 1 ,δ (X(p, q − 1))K → (π
+                                                        −, 1
+                                                               )K
+                           2           2                                 2
+
+
+
+                  p,q−1       ∞                         p,q−1
+            0 → (π+, 1 )K → C 1 ,−δ (X(p, q − 1))K → (π
+                                                       −,− 1 K
+                                                              )
+                       2              2                                      2
+                       ∞ (X(p, q − 1)) are defined as
+where the eigenspaces Cλ,ϵ
+
+                                                1
+     {f ∈ C ∞ (X(p, q − 1))|YX(p,q−1) f = (−λ2 + )f, f (−z) = ϵf (z)}
+                                                4
+
+and the sign character δ = (−1)(p−q)/2 .
+
+    As indicated above, there is a similar branching law for the discrete
+spectrum in restricting from G = O(p, q) to the other symmetric subgroups
+G′ without a compact factor; we shall use the following notation for rep-
+                p,q
+resentations π−,λ    of G realized in function spaces on another hyperboloid
+                                                                         p,q
+O(p, q)/O(p, q − 1), namely if we identify O(p, q) with O(q, p), then π−,λ
+                    q,p
+corresponds to π+,λ     . We have the same parity conditions as before on λ
+relative to p, q, and we cite the result from [33], Theorem 9.1
+
+
+                                            26
+Theorem 26. The restriction of the minimal representation (π p,q , V p,q ) of
+the group G = O(p, q) to the symmetric subgroup G′ = O(p′ , q ′ )×O(p′′ , q ′′ ), p =
+p′ + p′′ , q = q ′ + q ′′ , contains as a discrete spectrum the direct Hilbert space
+sum
+                               p′ ,q ′    p′′ ,q ′′         p′ ,q ′    p′′ ,q ′′
+                      ⊕λ>1 π+,λ        ⊗ π−,λ       ⊕ ⊕λ>1 π−,λ     ⊗ π+,λ       .
+Here the sum is over those λ > 1 which satisfy the parity conditions relative
+to p′ , q ′ etc.
+
+Proof. Same as before, the Yamabe equation is now separated in the vari-
+                                                       p′ ,q ′    p′′ ,q ′′
+ables corresponding to the two hyperboloids, so for π+,λ     +
+                                                               ⊗ π−,λ   −
+                                                                            to satisfy
+                              1    2      2   1
+the equation, we must have 4 − λ+ + λ− − 4 = 0 which means λ+ = λ− .
+The condition λ > 1 is part of the details in [33], to see that this spectrum
+is contained in the Hilbert space V p,q .                                           □
+
+
+The flat model of the minimal representation of O(p, q)
+For the cone in three dimensions: x2 + y 2 − z 2 = 0 (a special case of our Ξ)
+we know that intersecting with a plane we obtain the conic sections: ellipse,
+hyperbola, or parabola, depending on the angle of the plane. This is what
+we saw for our Ξ, namely the elliptic model, and the hyperbolic model (or
+some mixture) realizing the minimal representation. In some sense there
+is missing the parabolic model; and this is exactly the model living on the
+                          R
+nilpotent radical N ≃ p−1,q−1 for our maximal real parabolic subgroup.
+This will also illustrate further aspects of the representation, in particular the
+extension of the discussion of the wave equation, namely the ultrahyperbolic
+equation. This will include realizing the Hilbert space as L2 (C), where C
+arises as the intersection of the minimal nilpotent orbit in the Lie algebra of
+O(p, q) with the Lie algebra of N. We shall also see the role of the Green’s
+function, some Knapp-Stein intertwining operators, and the fundamental
+                                  R
+homogeneous distributions on p−1,q−1 . We fix p, q ≥ 2, p + q > 4 even.
+                                 R
+    The Yamabe operator on p−1,q−1 is in usual coordinates
+
+                            ∂2          ∂2   ∂2        ∂2
+         □ = □p−1,q−1 =       2 + ··· + 2 − 2 − ··· − 2
+                            ∂x1        ∂xp−1 ∂xp     ∂xp+q−2
+
+and the model we shall now construct lives in the solution space to □f = 0.
+Note that for p = 2 (or q = 2) and restricting to the identity component
+SO0 (p, 2) we are dealing with a unitary highest weight representation, a
+well-known case, and for p = 4 with the additional physical interpretation
+of the K-types as energy levels of the bound states of the Hydrogen atom.
+Note that as in the previous models, the conformal invariance allows us to
+study the representation now in these flat coordinates, see [34]. The key
+
+
+
+                                         27
+object is the Green’s function for □; this is a Schwartz distribution E0 such
+that by convolution
+
+                      S : C0∞ (  Rn) → C ∞(Rn), φ 7→ E0 ⋆ φ
+has image in the kernel of □, n = p + q − 2. We define a Hermitian form on
+the image of S by
+                            Z Z
+              (f1 , f2 )N =        E0 (y − x)φ1 (x)φ2 (y)dxdy
+                                     Rn Rn
+where f1 = Sφ1 , f2 = Sφ2 . This turns out to be well-defined and positive-
+definite. The main point is the following, see [34] Theorem 1.4.
+Theorem 27. The Hilbert space completion of the image of S with respect to
+this Hermitian form carries an irreducible unitary representation of O(p, q)
+equivalent to the minimal representation constructed earlier.
+
+The proof uses in essential ways the explicit form of E0 ; namely let
+
+                    P (x) = x21 + · · · + x2p−1 − x2p − · · · − x2n
+
+                                         R
+the standard quadratic form in n (which of course also defines the metric).
+We define the distribution (P (x) + i0)λ as the limit of (P (x) + iR(x))λ as a
+positive definite quadratic form R(x) tends to 0. Let
+                                                                       n
+                        E = C(n)eiπ(q−1)/2 (P (x) + i0)1− 2
+
+with C(n) an explicit real constant.
+Proposition 28. E is a fundamental solution of □, namely □E = δ, the
+Dirac delta function, and the Green’s function E0 = (−E + E)/2πi satisfies
+□E0 = 0, and its Fourier transform is given by
+
+                                         FE0 = δ(Q).
+
+Here Q(ζ) is the same quadratic form as P (x) in the dual space, and δ(Q)
+can be identified with the invariant measure dµ supported on the cone C =
+     R
+{ζ ∈ n |Q(ζ) = 0}.
+
+This is all quite natural in view of the principle of conformal change in
+the Yamabe equation; the parabolic section of the cone Ξ is given by the
+                         R                   R
+coordinates (z ′ , z ′′ ) ∈ p−1,q−1 = n and the embedding
+
+                                     |z ′ |2 − |z ′′ |2 ′ ′′      |z ′ |2 − |z ′′ |2
+             (z ′ , z ′′ ) 7→ (1 −                     ,z ,z ,1 +
+                                             4                            4
+is into Ξ, and projects further along rays to a conformal embedding into
+M ≃ S p−1 × S q−1 (analogous to what we saw for the product of hyper-
+boloids). Hence the conformal group O(p, q) acts with singularities (by
+
+                                                 28
+fractional linear transformations) on the solution space to □φ = 0, and the
+Fourier transform of solutions are supported on the cone C. The convolution
+operator S with image in this solution space may be identified with a Knapp-
+Stein G-intertwining operator beween representations induced from the max-
+imal parabolic P ≃ M AN with nilradical N from before, M ≃ O(p−1, q−1)
+and A the dilations with a positive real number. The final insight is to see
+the Hilbert space as (L2 (C), dµ) via F(E0 ⋆ φ) = F(E0 )F(φ). We introduce
+                                           R
+the natural linear map T : L2 (C) → S ′ ( n ), ψ 7→ ψdµ, to tempered dis-
+              R
+tributions on n , viewing the image as a Hilbert space and T as a unitary
+operator. The conclusion is, see [34], Theorem 4.9.
+                       R
+Theorem 29. FS(C0∞ ( n ) is contained in T (L2 (C)) with dense image, and
+there is a unique (up to a scalar constant) unitary map between L2 (C) and
+                           R
+the completion of S(C0∞ ( n ). This induces a unitary equivalence between
+unitary irreducible representations L2 (C) and V p,q of O(p, q).
+
+Remark 30. This model means, using Mackey theory for semidirect product
+groups, that the restriction of π p,q to P is irreducible (strictly speaking to
+the opposite group P ).
+
+Now the natural question becomes to understand the (g, K)-module as it is
+realized on the cone C, in particular what for example are the K-types as
+                       R                         Z
+functions of ζ ∈ C ⊂ n . Let again p + q ∈ 2 , p + q > 4, p ≥ q ≥ 2 and
+consider the modified Bessel functions Kν (z) of the second kind. Then with
+|ζ| the Euclidian norm
+Theorem 31. v0 = |ζ|(3−q)/2 K(q−3)/2 (2|ζ|) is a K-finite vector in L2 (C), in
+fact the lowest K-type, generating under the Fourier transform of the action
+   R
+in p−1,q−1 of the universal enveloping algebra of g the Harish-Chandra
+module of the minimal representation of O(p, q). Hence its completion is
+isomorphic to (π p,q , V p,q ).
+
+The action of g is by second-order differential operators on our distributions
+ψdµ in analogy with the metaplectic representation of the symplectic Lie
+algebra. We finally mention that there is yet another version of the Her-
+mitian form on the space of solution □φ = 0, involving integration over a
+hyperplane, in analogy with the use of Cauchy data in the case of the wave
+equation, see [34] Theorem 6.2.
+Remark 32. Recall the GJMS operators, which in flat space are □k , and
+our hyperboloid X(p, q − 1), also locally conformally flat, and the minimal
+representation π p,q living in the space of solutions to the Yamabe equation
+YX(p,q−1) φ = 0, and thus via a conformal change also in a space of solu-
+tions to □ψ = 0. Now in [42] we find the interesting notion of Helmholtz
+numbers. Working on the hyperbola X(p, q − 1) and its Laplace opera-
+tor ∆ = ∆X(p,q−1) we are interested in the fundamental solution u to the
+
+                                      29
+Helmholtz equation (∆ + λ)u = δ, for δ the Dirac distribution at the base
+                             C
+point, and a constant λ ∈ . There is a natural radial coordinate r (in the
+case of Riemannian metric it is the geodesic distance) around the base point,
+and following Hadamard one looks for a fundamental solution u which near
+the base point behaves like r2−n (the dimension is here n = p + q − 2), and
+is of the form
+                            u = U r2−n + U logr
+where both U and U are analytic near r = 0. We say that λ is a Helmholtz
+number if there is no log term in the solution to the corresponding Helmholtz
+equation. For the case of Lorentz signature metric, where the equation is
+hyperbolic, this means that it satisfies the strong Huygens principle, having
+a fundamental solution with singular support in the light-like directions.
+Now the result in [42] is among others for other rank one symmetric spaces,
+that in our case the Helmholtz numbers are λ1 , λ2 , . . . , λm , m = n/2 − 1
+where λl = l(l + n − 1), l = −1, −2, . . . , −m. Furthermore, the product
+
+                    P (∆) = (∆ + λ1 )(∆ + λ2 ) . . . (∆ + λm )
+
+has a log-free fundamental solution as well (and therefore so does also each
+factor). The last factor here is the Yamabe operator. One may now observe
+Proposition 33. The Helmholtz numbers give eigenspaces corresponding to
+discrete series representations on X(p, q − 1) with an exceptional property,
+namely by the above singular nature of the eigen-equations; also the oper-
+ator P (∆) is the GJMS operator of order 2m and by a conformal change
+of coordinates equivalent to □m which also has a fundamental solution of
+Hadamard type with no log term.
+
+The fact that there is such a product formula for the GJMS operators is
+a general fact about Einstein manifolds (as we have here), see [12]. The
+λm factor in this product P (∆) as we said is just the Yamabe operator;
+note the different sign convention we have here for the Laplacian. It would
+be interesting to investigate discrete series for other symmetric spaces to
+see similar exceptional discrete series for small eigenvalues. Note that the
+parameter λ giving the eigenvalue of the Yamabe operator YX(p,q−1) is λ =
+l + n−1
+     2 , and that l = 0, 1, 2, 3, . . . yields the rest of the discrete series. Note
+that these are the eigenvalues on spheres, and that the same formula gives
+on the hyperboloids the (finitely many) exceptional eigenvalues, for negative
+values of l.
+    Let us finally return to the Yamabe operator with its conformal prop-
+erties in connection with these Helmholtz numbers; suppose we have a
+conformal transformation between two Riemannian manifolds Φ : M →
+N, Φ∗ gN = Ω2 gM then
+
+                       YM Ω(n−2)/2 Φ∗ f = Ω(n+2)/2 Φ∗ YN f
+
+                                        30
+and hence
+
+             (YM + λΩ2 )Ω(n−2)/2 Φ∗ f = Ω(n+2)/2 Φ∗ (YN + λ)f
+
+so that solutions to (YN + λ)f = 0 pull back to solutions of (YM + λΩ2 )h =
+0. We may here think of N as the hyperboloid and M as flat space. In
+particular, by the same principle, if λ is a Helmholtz number on N (modulo
+the constant shift in the Yamabe operator), then (YM + λΩ2 ) has a log-free
+fundamental solution. These were found in our flat case by Stellmacher, see
+[42] with the potentials Ω2 = x−2j .
+    Similar considerations for the GJMS operator P of order 2k where in the
+same setting
+                    PM Ω(n−2k)/2 Φ∗ f = Ω(n+2k)/2 Φ∗ PN f.
+What we say here is that by a conformal change of coordinates, again possi-
+bly between two different Riemannian manifolds, also the GJMS operators
+correspond to each other; in particular we see a conncection between their
+fundamental solutions.
+
+
+Final remarks on branching laws and symmetry–breaking
+We end with mentioning some additional references and remarks about the
+general themes of branching laws and symmetry-breaking. This lecture was
+part of the sequence
+
+   • Introduction to Representation Theory (3h), Birgit Speh
+
+   • Different Aspects of Rankin–Cohen Operators (2h), Michael Pevzner
+
+   • Branching Problems in Representation Theory (3h) Toshiyuki Kobayashi
+
+   • Geometric and Analytic Aspects of Branching Laws (2h) Bent Ørsted
+
+    with the purpose of introducing key concepts and indicating recent ad-
+vances in representation theory of Lie groups, with a special emphasis on
+branching problems for infinite-dimensional representations of real reduc-
+tive Lie groups. Below is included a list of references for further reading.
+In these lectures was explained some of the basic mathematical theory of
+group representations, mostly of reductive Lie groups, and their structure
+via the theory of branching problems and intertwining operators. Thus the
+aim here is to consider a group G and a subgroup H and a representation π
+of G in some vector space V (depending on the category, say Hilbert space
+for a continuous unitary representation, or a Fréchet space for a smooth rep-
+resentation). Now for a representation π H of H in V H of a similar nature we
+
+
+
+
+                                     31
+wish to consider the restriction of π to H and look for a linear H–equivariant
+map between them, i.e.
+
+                 T : V 7→ V H , π H (h)T = T π(h), (h ∈ H).
+
+    Again, depending on the category, we may want T to be say a partial
+isometry or just continuous. Such an operator we call symmetry-breaking,
+and in the special case of H = G it is just an intertwining operator, already
+an interesting class of operators. See [31] for an overview. Constructing such
+operators is closely connected to the problem of decomposing the restriction
+of π to H as a kind of sum or integral of irreducible representations of
+H, the so–called branching problem. If π is a unitary (always continuous)
+representation of a Lie group G, the restriction to a one-parameter subgroup
+U (t) = π(exp(tX)) is the Fourier transform of a spectral measure E on the
+real line, namely                   Z∞
+                           U (t) =        eitx dE(x)
+                                     −∞
+
+and the generator dπ(X) = d/dt|t=0 π(exp(tX)) is a skew-adjoint operator.
+In some applications in quantum mechanics this spectral measure and its
+support has a meaning in terms of observable quantities, for example if the
+state vector is ψ, ||ψ|| = 1 and C ⊂ R   a Borel set, then P {idπ(X) ∈ C} =
+(ψ, E(C)ψ) is the probability that the observable idπ(X) will be measured
+to have a value in C. The corresponding decomposition of the Hilbert space
+is thought of as a breaking of the symmetries from G.
+    Now the branching problem for a unitary representation is to find in
+a similar way the spectrum of H as explicitly as possible. One is usually
+interested in the following aspects of intertwining operators and symmetry-
+breaking:
+
+   • Intertwining differential operators between G-representations
+
+   • Knapp-Stein operators as convolutions with parameter-dependent dis-
+     tributions and their residues
+
+   • Symmetry-breaking operators and their construction as integral and
+     differential operators
+
+some examples are, in particular relating to the Dirac operator in [14] and
+the wave operator with generalizations as in [32], [33], and [34].
+    Many important differential equations in physics, such as Maxwell’s
+equations, have symmetries, and these reflect the relation between the space
+of solutions and a representation of the group of symmetries, often a Lie
+group G. Hence as in Galois theory G permutes the solutions of the equa-
+tion. Thus one studies, as we began above,
+
+   • natural differential operators in Riemannian and conformal geometry
+
+                                     32
+   • differential operators on induced representations
+
+   • concrete intertwining integral operators, Knapp–Stein operators, see
+     [28] Chapter VII.
+
+   • differential operators as residues of integral operators
+with differential forms as a probably less known example, see [18]. On
+spheres we will then have concrete operators that can be analyzed using
+the analogue of spherical harmonics as in [8]. It is an important point
+(again illustrated above) that conformal differential geometry and canoni-
+cal differential operators here are closely connected with the representation
+theory of the conformal group of the sphere. Other geometries arise as well
+for other groups. For a special case related to the Heisenberg group see
+[35]. Here there is a curious analogue in CR geometry to the wave equa-
+tion, namely on the Heisenberg group with the standard left-invariant vector
+fields [X, Y ] = Z, the operator D = XY + Y X and its solutions has some
+analogues with the O(p, q) case above. We also mention that there are many
+natural first–order intertwining differential operators as in [47]. There is also
+a natural class of integral symmetry–breaking operators for principal series
+representations, see [38].
+    For a major background article on symmetry–breaking see [31], and for
+an important special case with many details [30]; this is the special case of
+symmetry–breaking differential operators for differential forms, where the
+results were also obtained in parallel and independently in [17]. See also
+[29].
+    A final important topic is that of branching laws for discrete series, see
+[44], [45], [46], and [48].
+
+
+References
+ [1] Alexakis, Spyros, The decomposition of global conformal invariants.
+     Annals of Mathematics Studies, 182. Princeton University Press,
+     Princeton, NJ, (2012). x+449 pp.
+
+ [2] Beckner, William, Sharp Sobolev inequalities on the sphere and the
+     Moser-Trudinger inequality. Ann. of Math. (2) 138 (1993), no. 1, 213–
+     242.
+
+ [3] Binegar, B.; Zierau, R., Unitarization of a singular representation of
+     SO(p, q). Comm. Math. Phys. 138 (1991), no. 2, 245–258.
+
+ [4] Blitz, Samuel; Gover, A. Rod; Waldron, Andrew, Generalized Will-
+     more energies, Q-curvatures, extrinsic Paneitz operators, and extrinsic
+     Laplacian powers. Commun. Contemp. Math. 26 (2024), no. 5, Paper
+     No. 2350014, 50 pp.
+
+                                       33
+ [5] Branson, Thomas P., Sharp inequalities, the functional determinant,
+     and the complementary series. Trans. Amer. Math. Soc. 347 (1995),
+     no. 10, 3671–3742.
+
+ [6] Branson, Thomas P., Q-curvature, spectral invariants, and represen-
+     tation theory. SIGMA Symmetry Integrability Geom. Methods Appl. 3
+     (2007), Paper 090, 31 pp.
+
+ [7] Branson, Thomas P.; Chang, Sun-Yung A.; Yang, Paul C., Estimates
+     and extremals for zeta function determinants on four–manifolds. Comm.
+     Math. Phys. 149 (1992), no. 2, 241–262.
+
+ [8] Branson T., Olafsson G., Ørsted B., Spectrum generating operators
+     and intertwining operators for representations induced from a maximal
+     parabolic subgroup, J. Funct. Anal. 135 (1996), 163–205.
+
+ [9] Branson, Thomas P.; Ørsted, Bent, Conformal geometry and global
+     invariants. Differential Geom. Appl. 1 (1991), no. 3, 279–308.
+
+[10] Branson, Thomas P.; Ørsted, Bent, Explicit functional determinants in
+     four dimensions. Proc. Amer. Math. Soc. 113 (1991), no. 3, 669–682.
+
+[11] Branson, Thomas P.; Ørsted, Bent, Conformal indices of Riemannian
+     manifolds. Compositio Math. 60 (1986), no. 3, 261–293.
+
+[12] Jeffrey S. Case and A. Rod Gover, The GJMS operators in geometry,
+     analysis, and physics (September 2025) arXiv:2509.16047v1 [math.DG]
+
+[13] Chang, Sun-Yung Alice; Yang, Paul C. Prescribing Gaussian curvature
+     on S 2 . Acta Math. 159 (1987), no. 3-4, 215–259.
+
+[14] Clerc J.L., Ørsted B., Conformal covariance for the powers of the Dirac
+     operator, J. Lie Theory 30 (2020) no. 2, 345–360.
+
+[15] Fefferman, Charles; Graham, C. Robin, Conformal invariants. The
+     mathematical heritage of Élie Cartan (Lyon, 1984). Astérisque 1985,
+     Numéro Hors Série, 95–116.
+
+[16] Fefferman, Charles; Graham, C. Robin, The ambient metric. Annals of
+     Mathematics Studies, 178. Princeton University Press, Princeton, NJ,
+     2012. x+113 pp.
+
+[17] Fischmann, Matthias; Juhl, Andreas; Somberg, Petr, Conformal sym-
+     metry breaking differential operators on differential forms. Mem. Amer.
+     Math. Soc. 268 (2020), no. 1304, v+112 pp.
+
+[18] Fischmann, Matthias; Ørsted, Bent, A family of Riesz distributions for
+     differential forms on Euclidian space in Int. Math. Res. Not. IMRN
+     (2021), no. 13, 9746–9768.
+
+                                    34
+[19] Frank, Rupert L.; Lieb, Elliott H. Sharp constants in several inequalities
+     on the Heisenberg group. Ann. of Math. (2) 176 (2012), no. 1, 349–381.
+[20] Gilkey, Peter B. Invariance theory, the heat equation, and the Atiyah-
+     Singer index theorem. Second edition. Studies in Advanced Mathemat-
+     ics. CRC Press, Boca Raton, FL, 1995. x+516 pp.
+[21] Gover, A. Rod; Ørsted, Bent, Universal principles for Kazdan-Warner
+     and Pohozaev-Schoen type identities. Commun. Contemp. Math. 15
+     (2013), no. 4, 1350002, 27 pp.
+[22] Graham, C. Robin; Jenne, Ralph; Mason, Lionel J.; Sparling, George
+     A. J., Conformally invariant powers of the Laplacian. I. Existence. J.
+     London Math. Soc. (2) 46 (1992), no. 3, 557–565.
+[23] Helgason, Sigurdur, Differential geometry and symmetric spaces. Pure
+     and Applied Mathematics, Vol. XII. Academic Press, New York-London,
+     1962. xiv+486 pp.
+[24] Helgason, Sigurdur, Sophus Lie, the mathematician. The Sophus Lie
+     Memorial Conference (Oslo, 1992), 3–21, Scand. Univ. Press, Oslo,
+     1994.
+[25] Juhl, Andreas, Families of conformally covariant differential operators,
+     Q-curvature and holography. Progress in Mathematics, 275. Birkhäuser
+     Verlag, Basel, 2009. xiv+488 pp.
+[26] Juhl, Andreas, Explicit formulas for GJMS-operators and Q-curvatures.
+     Geom. Funct. Anal. 23 (2013), no. 4, 1278–1370.
+[27] Juhl, Andreas; Ørsted, Bent, Residue families, singular Yamabe prob-
+     lems and extrinsic conformal Laplacians. Adv. Math. 409 (2022), part
+     A, Paper No. 108634, 158 pp.
+[28] Knapp, Anthony W., Representation theory of semisimple groups. An
+     overview based on examples. Princeton Mathematical Series, 36. Prince-
+     ton University Press, Princeton, NJ, 1986. xviii+774 pp.
+[29] Kobayashi T., Ørsted B., Somberg P., Souček V., Branching laws for
+     Verma modules and applications in parabolic geometry. I, Adv. Math.
+     285 (2015), 1796–1852.
+[30] Kobayashi T., Kubo T., Pevzner M., Conformal symmetry breaking
+     operators for differential forms on spheres, Lecture Notes in Math.,
+     Vol. 2170, Springer, Singapore, 2016.
+[31] Kobayashi T., A program for branching problems in the representation
+     theory of real reductive groups, in Representations of reductive groups,
+     Progr. Math., Vol. 312, Birkhäuser/Springer, Cham, 2015, 277–322.
+
+                                      35
+[32] Kobayashi, Toshiyuki; Ørsted, Bent: Analysis on the minimal repre-
+     sentation of O(p, q). I. Realization via conformal geometry. Adv. Math.
+     180 (2003), no. 2, 486–512.
+
+[33] Kobayashi, Toshiyuki; Ørsted, Bent: Analysis on the minimal repre-
+     sentation of O(p, q). II. Branching laws, in Adv. Math. 180 (2003), no.
+     2, 513–550.
+
+[34] Kobayashi, Toshiyuki; Ørsted, Bent: Analysis on the minimal represen-
+                                                          R
+     tation of O(p, q). III. Ultrahyperbolic equations on p−1,q−1 , in Adv.
+     Math. 180 (2003), no. 2, 551–595.
+
+[35] Kubo, Toshihisa; Ørsted, Bent, On the space of K–finite solutions to
+     intertwining differential operators, in Representation Theory 23 (2019),
+     213–248.
+
+[36] Møller, Niels Martin; Ørsted, Bent, Rigidity of conformal functionals
+     on spheres. Int. Math. Res. Not. IMRN (2014), no. 22, 6302–6339.
+
+[37] Møller, Niels Martin, Extremal metrics for spectral functions of Dirac
+     operators in even and odd dimensions. Adv. Math. 229 (2012), no. 2,
+     1001–1046.
+
+[38] Möllers J., Ørsted B., Oshima Y., Knapp–Stein type intertwining op-
+     erators for symmetric pairs, Adv. Math. 294 (2016), 256–306.
+
+[39] Okikiolu, K., Critical metrics for the determinant of the Laplacian in
+     odd dimensions. Ann. of Math. (2) 153 (2001), no. 2, 471–531.
+
+[40] Osgood, B.; Phillips, R.; Sarnak, P. Extremals of determinants of Lapla-
+     cians. J. Funct. Anal. 80 (1988), no. 1, 148–211.
+
+[41] Parker, Thomas; Rosenberg, Steven, Invariants of conformal Lapla-
+     cians. J. Differential Geom. 25 (1987), no. 2, 199–222.
+
+[42] Schimming, Rainer; Schlichtkrull, Henrik, Helmholtz operators on har-
+     monic manifolds. Acta Math. 173 (1994), no. 2, 235–258.
+
+[43] Strichartz, Robert S., Linear algebra of curvature tensors and their
+     covariant derivatives. Canad. J. Math. 40 (1988), no. 5, 1105–1143.
+
+[44] Ørsted, Bent; Vargas, Jorge, Restriction of square integrable represen-
+     tations: discrete spectrum, in Duke Math. J. 123 (2004), no. 3, 609–633.
+
+[45] Ørsted, Bent; Vargas, Jorge A., Branching problems in reproducing
+     kernel spaces, in Duke Math. J. 169 (2020), no. 18, 3477–3537.
+
+
+
+
+                                     36
+[46] Ørsted, Bent, Vargas, Jorge A., Pseudo-dual pairs and branching of
+     Discrete Series arXiv:2302.14190, to appear in Symmetry in Geometry
+     and Analysis – Festschrift for Toshiyuki Kobayashi. M. Pevzner and H.
+     Sekiguchi eds., Progress in Mathematics, Springer 2024.
+
+[47] Ørsted, Bent, Generalized gradients and Poisson transforms, in Global
+     analysis and harmonic analysis (Marseille-Luminy, 1999), 235–249,
+     Sémin. Congr., 4, Soc. Math. France, Paris, 2000.
+
+[48] Vargas, J.: Associated symmetric pair and multiplicities of admissible
+     restriction of discrete series, in Int. J. Math. 27 12 (2016).
+
+
+
+
+                                    37
+

@@ -1,0 +1,2338 @@
+                                                    WAVE FRONT SETS OF REDUCTIVE LIE GROUP
+                                                               REPRESENTATIONS
+
+
+
+
+arXiv:1308.1863v3 [math.RT] 14 Apr 2015
+                                                       BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+                                                   Abstract. If G is a Lie group, H ⊂ G is a closed subgroup, and τ is a unitary
+                                                   representation of H, then the authors give a sufficient condition on ξ ∈ ig∗ to
+                                                   be in the wave front set of IndGH τ . In the special case where τ is the trivial
+                                                   representation, this result was conjectured by Howe. If G is a real, reductive
+                                                   algebraic group and π is a unitary representation of G that is weakly contained
+                                                   in the regular representation, then the authors give a geometric description of
+                                                   WF(π) in terms of the direct integral decomposition of π into irreducibles.
+                                                   Special cases of this result were previously obtained by Kashiwara-Vergne,
+                                                   Howe, and Rossmann. The authors give applications to harmonic analysis
+                                                   problems and branching problems.
+
+
+
+
+                                                                               1. Introduction
+                                             If u is a distribution on a smooth manifold X, then the wave front set of u, de-
+                                          noted WF(u), is a closed subset of iT ∗ X that microlocally measures the smoothness
+                                          of the distribution u (see Section 2 for a definition). Similarly, if ζ is a hyperfunc-
+                                          tion on an analytic manifold Y , then the singular spectrum of ζ, denoted SS(ζ), is
+                                          a closed subset of iT ∗ Y that microlocally measures the analyticity of the hyper-
+                                          function ζ (see Section 2 for a definition). The singular spectrum is also called the
+                                          analytic wave front set.
+                                             Suppose G is a Lie group, (π, V ) is a unitary representation of G, and (·, ·) is
+                                          the inner product on the Hilbert space V . Then the wave front set of π and the
+                                          singular spectrum of π are defined by
+                                                                  [                               [
+                                                      WF(π) =         WFe (π(g)u, v), SS(π) =         SSe (π(g)u, v).
+                                                                  u,v∈V                                 u,v∈V
+
+                                          Here the subscript e means we are only considering the piece of the wave front set
+                                          (or the singular spectrum) of the matrix coefficient (π(g)u, v) in the fiber over the
+                                          identity in iT ∗ G.
+                                             In the case where G is compact, a notion equivalent to the singular spectrum
+                                          of a unitary representation was introduced by Kashiwara and Vergne on the top
+                                          of page 192 of [29]. This notion was later used by Kobayashi in [32] to prove a
+                                          powerful sufficient condition for discrete decomposability. Our definition of the
+                                          wave front set of a representation is equivalent to i times the definition of WF0 (π)
+
+                                              Date: March 19, 2015.
+                                              2010 Mathematics Subject Classification. 22E46, 22E45, 43A85.
+                                              Key words and phrases. Wave Front Set, Singular Spectrum, Analytic Wave Front Set, Reduc-
+                                          tive Lie Group, Induced Representation, Tempered Representation, Branching Problem, Discrete
+                                          Series, Reductive Homogeneous Space.
+                                              The first author was an NSF VIGRE postdoc at LSU while this research was conducted.
+                                              The third author was supported by NSF grant 1101337 while this research was conducted.
+                                                                                          1
+2              BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+first introduced by Howe in [26] (see Proposition 2.4 for the equivalence of the
+two definitions). The wave front set and singular spectrum of a representation are
+always closed, invariant cones in ig∗ , the dual of the Lie algebra of G.
+    Suppose G is a Lie group, H ⊂ G is a closed subgroup, and τ is a unitary rep-
+resentation of H. Then we may form the unitarily induced representation IndG       H τ,
+which is a unitary representation of G (See Section 4 for the definition). Let g (resp.
+h) denote the Lie algebra of G (resp. H), and let q : ig∗ → ih∗ be the pullback of
+the inclusion. If S ⊂ ih∗ is a subset, we will denote
+                                        ∗
+                             IndG
+                                H S = Ad (G) · q
+                                                 −1 (S)
+
+and we will call this the set induced by S from ih∗ to ig∗ .
+Theorem 1.1. Suppose G is a Lie group, H ⊂ G is a closed subgroup, and τ is a
+unitary representation of H. Then
+                            WF(IndG          G
+                                  H τ ) ⊃ IndH WF(τ )
+and
+                             SS(IndG          G
+                                   H τ ) ⊃ IndH SS(τ ).
+
+    When τ = 1 is the trivial representation, we have WF(1) = {0} and we obtain
+
+                          H 1) ⊃ Ad (G) · i(g/h) ⊃ i(g/h) .
+                    WF(IndG        ∗            ∗        ∗
+
+This special case was conjectured by Howe on page 128 of [26]. In the case where G
+is compact, the equality SS(IndG            G
+                                 H τ ) = IndH SS(τ ) was obtained by Kashiwara and
+Vergne in Proposition 5.4 of [29]. In the case where G is a connected semisimple
+Lie group with finite center, H = P = M AN ⊂ G is a parabolic subgroup, and τ is
+an irreducible, unitary representation of M A extended trivially to P , the equality
+WF(IndG             G
+         P τ ) = IndP WF(τ ) follows from work of Barbasch-Vogan (see page 39 of
+[2]) together with the principal results of [46], [48]. Note that when Γ ⊂ G is a
+discrete subgroup of a unimodular group G, we obtain
+                       WF(L2 (G/Γ)) = SS(L2 (G/Γ)) = ig∗ .
+   Let G be a real, reductive algebraic group. The irreducible representations occur-
+ring in the direct integral decomposition of L2 (G) are called irreducible, tempered
+representations of G; we denote by G    btemp the subspace of the unitary dual con-
+sisting of these representations. This subspace is closed in the Fell topology on
+the unitary dual. To each irreducible tempered representation σ of G, Duflo and
+Rossmann associated a finite union of coadjoint orbits Oσ ⊂ ig∗ [8],[43],[44]. In the
+generic case, when σ has regular infinitesimal character, Oσ is a single coadjoint
+orbit.
+   If G is a real, reductive algebraic group and (π, V ) is a unitary representation of
+G, then we say π is weakly contained in the regular representation if supp π ⊂ Gbtemp .
+For such a representation π, we define the orbital support of π to be
+                                               [
+                               O - supp π :=         Oσ .
+                                            σ∈supp π
+
+   If W is a finite-dimensional vector space and S ⊂ W , then we define the asymp-
+totic cone of S to be
+    AC(S) := {ξ ∈ W | C an open cone containing ξ ⇒ C ∩ S is unbounded} ∪ {0}.
+One notes that AC(S) is a closed cone.
+          WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                      3
+
+
+Theorem 1.2. If G is a real, reductive algebraic group and π is weakly contained
+in the regular representation of G, then
+                         SS(π) = WF(π) = AC (O - supp π) .
+   When G is compact and connected, an equivalent formula for SS(π) was obtained
+by Kashiwara and Vergne in Corollary 5.10 of [29]. Using similar ideas, Howe
+obtained the same formula for WF(π) when G is compact in Proposition 2.3 of
+[26]. Related results concerning wave front sets and compact groups G appeared
+in [12]. Finally, one can deduce the above formula for WF(π) when π is irreducible
+from Theorems B and C of Rossmann’s paper [46].
+   Note that when K ⊂ G is a maximal compact subgroup of a semisimple Lie
+group, it is known that L2 (G/K) is a direct integral of principal series represen-
+tations (see [15], [16], [18], [21], [22] for the original papers; see Section 1 of [40]
+for an expository introduction). Combining this knowledge with Theorem 1.2, we
+obtain
+            WF(L2 (G/K)) = SS(L2 (G/K)) = ig∗hyp = Ad∗ (G) · i(g/k)∗ .
+Here g∗hyp denotes the set of hyperbolic elements in g∗ .
+
+   Next, we consider two classes of applications of the above Theorems. First,
+suppose G is a real, semisimple algebraic group and H ⊂ G is a reductive subgroup.
+In Theorem 4.1 of [3], Benoist and Kobayashi give a concrete and computable
+necessary and sufficient condition for IndGH 1 = L (G/H) to be weakly contained
+                                                   2
+
+in the regular representation. Putting together Theorems 1.1 and 1.2, we obtain
+the following Corollary.
+Corollary 1.3. If G is a real, reductive algebraic group, H ⊂ G is a closed sub-
+group, and L2 (G/H) is weakly contained in the regular representation, then
+                                           
+                   AC O - supp L2 (G/H) ⊃ Ad∗ (G) · i(g/h)∗ .
+                                                                   Q
+   From Example
+           Pr            [3], we see that if G = SO(p, q) and H = ri=1 SO(pi , qi )
+                  5.6 of P
+                            r
+with p = i=1 pi , q = i=1 qi , and 2(pi + qi ) ≤ p + q + 2 whenever pi qi 6= 0,
+then L2 (G/H) is weakly contained in the regular representation. To the best of
+the authors’ knowledge, Plancherel formulas are not known for the vast majority
+of these cases. An elementary computation shows that if in addition, 2pi ≤ p + 1
+and 2qi ≤ q + 1 for every i and p + q > 2, then
+                               ig∗ = Ad∗ (G) · i(g/h)∗ .
+Corollary 1.3 now implies that supp L2 (G/H) is “asymptotically equivalent to”
+supp L2 (G) (we make this notion precise in Section 8). In particular, suppose p and
+q are not both odd and F is one of the families of discrete series of G = SO(p, q)
+associated to a conjugacy class of Weyl chambers in the dual of a fundamental
+Cartan subalgebra of g. Then
+                             HomG (σ, L2 (G/H)) 6= {0}
+for infinitely many different σ ∈ F (more details appear in Section 8).
+   In passing, we recall that Kobayashi previously obtained some partial results
+concerning the discrete spectrum of L2 (G/H) for certain G and H when G is
+reductive [34]. While there is some small amount of overlap between this paper
+and [34], most of the results in each paper cannot be deduced from the results of
+the other paper.
+4              BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+   Next, we utilize Theorem 1.2 together with an analogue of Theorem 1.1 for
+restriction due to Howe in order to analyze branching problems for discrete series
+representations. First, we recall Howe’s result (see page 124 of [26]). If π is a unitary
+representation of a Lie group G, H ⊂ G is a closed subgroup, and q : ig∗ → ih∗ is
+the pullback of the inclusion, then
+                                WF(π|H ) ⊃ q(WF(π)).
+Corollary 1.4. Suppose G is a real, reductive algebraic group, suppose H ⊂ G is a
+closed reductive algebraic subgroup, and suppose π is a discrete series representation
+of G. Let g (resp. h) denote the Lie algebra of G (resp. H), and let q : ig∗ → ih∗
+be the pullback of the inclusion. Then
+                   AC (O - supp(π|H )) ⊃ q(WF(π)) = q(AC(Oπ )).
+   Let S be an exponential, solvable Lie group, let T ⊂ S be a closed subgroup, and
+let q : is∗ → it∗ be the pullback of the inclusion of Lie algebras. Every irreducible,
+unitary representation π ∈ Sb (resp. σ ∈ Tb) can be associated to a coadjoint orbit
+Oπ (resp. Oσ ). Fujiwara proved that σ occurs in the decomposition of π|H into
+irreducibles iff Oσ ⊂ q(Oπ ) [11]. The above Corollary can be viewed as (half of) an
+asympototic version of Fujiwara’s statement for reductive groups.
+   We take note of a special case of Corollary 1.4 that may be of particular interest.
+Corollary 1.5. Suppose G is a real, reductive algebraic group, H ⊂ G is a reductive
+algebraic subgroup, and π is a discrete series representation of G. Let g (resp. h)
+denote the Lie algebra of G (resp. H), and let q : ig∗ → ih∗ be the pullback of the
+inclusion. If π|H is a Hilbert space direct sum of irreducible representations of H,
+then
+                                 q(WF(π)) ⊂ ih∗ell .
+Here ih∗ell ⊂ ih∗ denotes the subset of elliptic elements.
+    Let G be a real, reductive algebraic group with Lie algebra g, let K ⊂ G be
+a maximal compact subgroup with Lie algebra k and complexification KC , and
+let N (gC /kC )∗ denote the set of nilpotent elements of g∗C in (gC /kC )∗ . In [51],
+Vogan introduced the associated variety of an irreducibe, unitary representation
+π ∈ b G, denoted AV(π). It is a closed, K invariant subset of N (gC /kC )∗ . For an
+irreducible, unitary representation π of G, there is a known procedure for producing
+AV(π) from WF(π) and vice versa [48], [46], [2]. In particular, these notions give
+equivalent information about π.
+    Now, suppose H ⊂ G is a real, reductive algebraic subgroup such that K ∩H ⊂ H
+is a maximal compact subgroup. Let (π, V ) be an irreducible, unitary representation
+of G, and let VK be the set of K finite vectors of V . Note VK is a g module. In
+Corollary 3.4 of [33] (see also Corollary 5.8 of [35]), Kobayashi showed that if VK |h
+is discretely decomposable as an h module, then
+                           q(AV(π)) ⊂ N (hC /(hC ∩ kC ))∗ .
+Here q : g∗C → h∗C is the pullback of the inclusion. Corollary 1.5 can be viewed as
+an analogue of Kobayashi’s statement with AV(π) replaced by WF(π) and in the
+special case where π is a discrete series representation.
+  We end this introduction by remarking that an earlier version of this paper
+proved all of the main results for reductive Lie groups of Harish-Chandra class
+         WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                     5
+
+
+rather than real, reductive algebraic groups. The authors made this switch in order
+to simplify the exposition.
+
+                 2. The Definition of the Wave Front Set
+   In this section, we give definitions of the wave front set of a distribution, the
+singular spectrum of a hyperfunction, the wave front set of a unitary Lie group
+representation, and the singular spectrum of a unitary Lie group representation. In
+addition, we collect a few facts about these objects to be used later in the paper.
+
+   There are two types of distributions (resp. tempered distributions) on a smooth
+manifold X. First, there is the set of generalized measures, which is the set of con-
+tinuous linear functionals on the space of smooth, compactly supported functions
+on X. Second, there is the set of generalized functions, which is the set of contin-
+uous linear functionals on the space of smooth, compactly supported densities on
+X. In the special case where X is a real, finite dimensional vector space W , we
+can similarly talk about tempered generalized measures and tempered generalized
+functions. We will refer to both (tempered) generalized functions and (tempered)
+generalized measures as (tempered) distributions in this paper; the reader will be
+able to tell the difference from context.
+   Suppose W is a real, finite dimensional vector space. If u is a tempered gener-
+alized measure on iW ∗ , define the Fourier transform of u to be
+                               F [u](ξ) := hux , ehx,ξi i,
+a tempered generalized function on W . Further, if v is a tempered generalized
+function on W , define the Fourier transform of v to be F [v] = u where u is the
+unique tempered generalized measure on iW ∗ whose Fourier transform is v. In
+what follows, we will often wish to make estimates on F [v]. For this purpose, we
+will fix an inner product on W , and we let | · | denote the corresponding norm on W
+and dx the corresponding Lebesgue measure on W . We will utilize these, together
+with division by i to identify F [v] with a generalized function on W in order to
+make estimates.
+   We say a subset C of a finite-dimensional vector space W is a cone if tv ∈ W
+whenever v ∈ W and t > 0 is a positive real number. If f is a smooth function on a
+real vector space W and C ⊂ W is an open cone, then we say f is rapidly decaying
+in C if for every N ∈ N there exists a constant CN > 0 such that
+                                 |f (x)| ≤ CN |x|−N
+for all x ∈ C. Colloquially, f is rapidly decaying in C if it decays faster than any
+rational function in C.
+   The definition of the (smooth) wave front set of a distribution was first given by
+Hörmander on page 120 of [23]. Here we give the most elementary definition (see
+pages 251-270 of [24] for the standard exposition).
+Definition 2.1. Suppose u is a generalized function on an open subset X ⊂ W ,
+and suppose (x, ξ) ∈ X × iW ∗ ∼  = iT ∗ X is a point in the cotangent bundle of X.
+The point (x, ξ) is not in the wave front set of u if, and only if there exists an
+open cone ξ ∈ C ⊂ iW ∗ and a smooth compactly supported function ϕ ∈ Cc∞ (X)
+with ϕ(x) 6= 0 such that F [ϕu] is rapidly decaying in C. The wave front set of u is
+denoted WF(u).
+6              BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+   Many authors use the convention that (x, 0) is never in the wave front set for
+any x ∈ X. However, we will use the convention that the zero section of iT ∗ X
+is always in the wave front set because it will make the statements of our results
+cleaner.
+   There are several (equivalent) variants of this definition that we will sometimes
+use. First, instead of a cone ξ ∈ C ⊂ iW ∗ , one may take an open subset ξ ∈ Ω ⊂
+iW ∗ and require
+                                     F [ϕu](tη)
+to be rapidly decaying in the variable t for t > 0 uniformly in the parameter η ∈ Ω.
+Second, suppose U ⊂ X is an open set and C1 ⊂ iW ∗ is a closed cone. Then
+(U × C1 ) ∩ WF(u) = U × {0} iff for every ϕ ∈ Cc∞ (U ) and every compact subset
+0 ∈/ K ⊂ iW ∗ − C1 , the expression F [ϕu](tη) is rapidly decaying in t for t > 0
+uniformly for η ∈ K (see page 262 of [24]). Third, instead of a smooth, compactly
+supported function ϕ, one may take an even Schwartz function ϕ that does not
+vanish at zero and form the family of Schwartz functions
+                             ϕt (y) = tn/4 ϕ(t1/2 (y − x))
+for t > 0. Then (x, ξ) is not in the wave front set of u iff there exists an open subset
+ξ ∈ Ω ⊂ iW ∗ such that F [ϕt u](tη) is rapidly decaying in the variable t for t > 0
+uniformly in η ∈ Ω. This third variant is nontrivial. It is due to Folland (see page
+155 of [9]); the case where ϕ is a Gaussian was obtained earlier by Cordoba and
+Fefferman [5].
+   Now, if ψ : X → Y is a diffeomorphism between two open sets in W and u is a
+distribution on Y , then (see page 263 of [24])
+                               ψ ∗ WF(u) = WF(ψ ∗ u).
+One sees immediately from this functoriality property that the notion of the wave
+front set of a distribution on a smooth manifold is independent of the choice of
+local coordinates and is therefore well defined.
+   We note that the original definition of the wave front set involved pseudodif-
+ferential operators instead of abelian harmonic analysis. See page 89 of [25] for a
+proof that the original definition and the one above are equivalent.
+
+   The notion of the singular spectrum of a hyperfunction was first introduced by
+Sato in [47], [28]. It was originally called the singular support; however, there
+is already a standard notion of singular support in the theory of distributions.
+Therefore, we use the term singular spectrum, which is now widely used. The book
+[38] is a readable introduction to Sato’s work.
+   Years after Sato’s work, Bros and Iagolnitzer introduced the notion of the es-
+sential support of a hyperfunction [27]. Their definition was subsequently shown
+to be equivalent to Sato’s [4]. In his book [24], Hörmander introduced the notion
+of the analytic wave front set of a hyperfunction, and he proved that his notion is
+equivalent to the essential support of Bros and Iagolnitzer.
+   We say that a smooth function f on R is exponentially decaying for t > 0 if there
+exist constants ǫ > 0 and C > 0 such that
+                                    |f (t)| ≤ Ce−ǫt
+for t > 0. We define a family of Gaussians on R by
+                                                 2
+                                    Gt (s) = e−ts .
+         WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                      7
+
+
+We first give a definition of the singular spectrum that is a variant of the one given
+by Bros and Iagolnitzer for the essential support.
+Definition 2.2. Suppose u is a distribution on an open subset X ⊂ W , and suppose
+(x, ξ) ∈ X × iW ∗ ∼= iT ∗ X is a point in the cotangent bundle of X. The point (x, ξ)
+is not in the singular spectrum of u if, and only if for some (equivalently any)
+smooth function ϕ ∈ Cc∞ (X) that is real analytic and nonzero in a neighborhood
+of x, there exists an open set ξ ∈ Ω ⊂ iW ∗ such that
+                             F [Gt (|x − y|)ϕ(y)u(y)](tη)
+is exponentially decaying in t for t > 0 uniformly for η ∈ Ω. The singular spectrum
+of u is denoted SS(u).
+   In fact, one can extend this definition to hyperfunctions (see Chapter 9 of [24]),
+but we will not need to consider hyperfunctions in this paper. In passing, we note
+that if u happens to be a tempered distribution, then one need not multiply by the
+smooth compactly supported function ϕ in the above definition. The nice thing
+about the above definition is that it is a clear analytic analogue of the Cordoba-
+Feffermann definition of the smooth wave front set. One simply replaces rapid decay
+by exponential decay in the definition. However, exponential decay can sometimes
+be inconvenient to check in some situations. Because of this, we now give an
+alternate definition of Hörmander.
+   For this definition, we need a remark. Fix a basis {v1 , . . . , vn } of the finite
+dimensional, real vector space W . Suppose U1 ⊂ U ⊂ W are precompact open sets
+with U1 compactly contained in U . For every multi-index α = (α1 , . . . , αn ), define
+the differential operator
+                                  Dα = ∂vα11 · · · ∂vαnn ,
+and define |α| := α1 + · · · + αn . Then there exists (see pages 25-26, 282 of [24])
+a sequence ϕN,U1 ,U of smooth functions supported in U together with a fam-
+ily of positive constants {Cα } for every multi-index α = (α1 , . . . , αn ) such that
+ϕN,U1 ,U (y) = 1 whenever y ∈ U1 and
+(2.1)                sup |Dα+β ϕN,U1 ,U (y)| ≤ Cα|β|+1 (N + 1)|β|
+                     y∈U
+
+whenever |β| ≤ N . For each such pair of precompact open subsets U1 ⊂ U ⊂ W ,
+we fix such a sequence ϕN,U1 ,U .
+   We now give a variant of Hörmander’s definition of the analytic wave front set
+of a distribution (see pages 282-283 of [24]).
+Definition 2.3. Suppose u is a distribution on an open set X ⊂ W , and suppose
+(x, ξ) ∈ X × iW ∗ ∼ = iT ∗ X is a point in the cotangent bundle of X. The point
+(x, ξ) is not in the singular spectrum of u if, and only if there exists a pair of
+precompact open sets x ∈ U1 ⊂ U ⊂ X with U1 compactly contained in U , an open
+set ξ ∈ Ω ⊂ iW ∗ , and a constant C > 0 such that for every N ∈ N, we have the
+estimate
+                      |F [ϕN,U1 ,U u](tη)| ≤ C N +1 (N + 1)N t−N
+uniformly for η ∈ Ω. The singular spectrum of u is denoted SS(u).
+   One key disadvantage of the definitions of Bros-Iagolnitzer and Hörmander is
+that they are not obviously invariant under analytic changes of coordinates. This is
+certainly an advantage of the original definition of Sato. However, in this paper, we
+8               BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+will use the close relationship between the analytic wave front set of a distribution
+and the ability to write the distribution as the boundary value of a complex analytic
+function. This relationship is originally due to Sato [28], [38]; however, we will follow
+the treatment in Sections 8.4, 8.5 of [24]. We will use this theory in Section 7. For
+now, we remark on the following application.
+   If ψ : X → Y is a bianalytic isomorphism between two open sets in W and u is
+a distribution on Y , then (see page 296 of [24])
+                                    ψ ∗ SS(u) = SS(ψ ∗ u).
+One sees immediately from this functoriality property that the notion of the singular
+spectrum of a distribution on an analytic manifold is independent of the choice of
+analytic local coordinates and is therefore well defined.
+   Finally, we remark that if u is a distribution on an analytic manifold, then we
+have
+                                  SS(u) ⊃ WF(u).
+This is obvious from the above definitions. Roughly speaking, it means that it is
+tougher for u to be analytic than smooth.
+
+   Suppose G is a Lie group, (π, V ) is a unitary representation of G, and (·, ·) is the
+inner product on the Hilbert space V . As in the introduction, we define the wave
+front set of π and the singular spectrum of π by
+                      [                                 [
+            WF(π) =        WFe (π(g)u, v), SS(π) =          SSe (π(g)u, v).
+                       u,v∈V                                 u,v∈V
+
+Here the subscript e means that we are only taking the piece of the wave front
+set (or singular spectrum) in the fiber over the identity in iT ∗ G. One might ask
+why we add this restriction. Utilizing the short argument on page 118 of [26], one
+observes that          [                     [
+                           WF(π(g)u, v),         SS(π(g)u, v)
+                        u,v∈V                    u,v∈V
+are G × G invariant, closed subsets of iT ∗ G ∼ = G × ig∗ . In particular, they are
+simply G × WF(π) and G × SS(π). Therefore, if we did not add the the subscript e
+in our definitions of the wave front set and singular spectrum of π, then we would
+simply be taking the product of our sets with G. This would be more cumbersome
+and no more enlightening.
+   We note in passing that the above digression together with the above definitions
+of the wave front set and singular spectrum of a distribution imply that WF(π) and
+SS(π) are closed, Ad∗ (G)-invariant cones in ig∗ . We also note that
+                                       SS(π) ⊃ WF(π)
+for every unitary Lie group representation π since SSe (u) ⊃ WFe (u) whenever u is
+a distribution on an analytic manifold.
+   Let B 1 (V ) denote the Banach space of trace class operators on V . Given a trace
+class operator T ∈ End V , one can define a continuous function on G by
+                                   Trπ (T )(g) = Tr(π(g)T ).
+    We define
+                     [                                          [
+       ^ =
+       WF(π)                                      ^=
+                               WFe (Trπ (T )(g)), SS(π)                   SSe (Trπ (T )(g)).
+                  T ∈B1 (V )                                 T ∈B1 (V )
+         WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                     9
+
+
+   The definition on the left was i times the original definition used by Howe for
+WF0 (π) [26]. Notice that when T = (·, u)v is a rank one operator, Trπ (T )(g) =
+(π(g)u, v) is a matrix coefficient. Therefore, it is clear from our definitions that
+            ^ and SS(π) ⊂ SS(π).
+WF(π) ⊂ WF(π)                      ^ The primary purpose of the remainder of
+this section is to prove equality.
+Proposition 2.4. We have
+                               ^ and SS(π) = ^
+                       WF(π) = WF(π)         SS(π).
+   To prove the Proposition, we will need to recall some facts about wave front sets
+of representations from [26]. If T ∈ End V is a bounded linear operator, let |T |∞
+denote the operator norm of T . If T ∈ B 1 (V ) is a trace class operator, let |T |1
+denote the trace class norm of T .
+Lemma 2.5 (Howe). Suppose G is a Lie group, and (π, V ) is a unitary represen-
+tation of G. The following are equivalent:
+
+(a) ξ ∈  ^
+      / WF(π)
+(b) For every T ∈ B 1 (V ), there exists an open set e ∈ U ⊂ G on which the logarithm
+    is a well-defined diffeomorphism onto its image and an open set ξ ∈ Ω ⊂ ig∗
+    such that for every ϕ ∈ Cc∞ (U ), the absolute value of the integral
+                                     Z
+                    I(ϕ, η, T )(t) =     Trπ (T )(g)etη(log g) ϕ(g)dg
+                                     G
+    is rapidly decaying in t for t > 0 uniformly for η ∈ Ω.
+(c) There exists an open set e ∈ U ⊂ G on which the logarithm is a well-defined
+    diffeomorphism onto its image and an open set ξ ∈ Ω ⊂ ig∗ such that for every
+    ϕ ∈ Cc∞ (U ) there exists a family of constants CN (ϕ) > 0 such that
+                           |I(ϕ, η, T )(t)| ≤ C(ϕ)|T |1 t−N
+    for t > 0, η ∈ Ω, and T ∈ B 1 (V ). (The constants C(ϕ) may be chosen
+    independent of both η ∈ W and T ∈ B 1 (V )).
+(d) There exists an open set e ∈ U ⊂ G on which the logarithm is a well-defined
+    diffeomorphism onto its image and an open set ξ ∈ Ω ⊂ ig∗ such that for every
+    ϕ ∈ Cc∞ (U ), the quantity
+                                |π(ϕ(g)etη(log g) )|∞
+    is rapidly decaying in t for t > 0 uniformly in η ∈ Ω.
+    This Lemma is a subset of Theorem 1.4 of [26]. Some of the notation has been
+slightly altered for convenience. Next, we need an analogue of this Lemma for our
+first definition of the singular spectrum, Definition 2.2.
+Lemma 2.6. Suppose G is a Lie group and (π, V ) is a unitary representation of
+G. The following are equivalent:
+
+(a) ξ ∈ ^
+      / SS(π)
+(b) For every T ∈ B 1 (V ) and for some (equivalently every) pair of precompact
+    open sets e ∈ U1 ⊂ U ⊂ G with U1 compactly contained in U and so that
+    the logarithm on U is a well-defined bianalytic isomorphism onto its image,
+10              BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+      there exists an open set ξ ∈ Ω ⊂ ig∗ such that for some (equivalently every)
+      ϕ ∈ Cc∞ (U ) that is identically one on U1 , the absolute value of the integral
+                                 Z
+                I(ϕ, η, T )(t) =    Trπ (T )(g)etη(log g) ϕ(g)Gt (| log(g)|)dg
+                                       G
+    is exponentially decaying in t for t > 0 uniformly for η ∈ Ω.
+(c) For some (equivalently every) pair of precompact open sets e ∈ U1 ⊂ U ⊂ G with
+    U1 compactly contained in U and so that the logarithm on U is a well-defined
+    bianalytic isomorphism onto its image, there exists an open set ξ ∈ Ω ⊂ ig∗
+    such that for some (equivalently every) ϕ ∈ Cc∞ (U ) that is identically one on
+    U1 , there exist constants C(ϕ) > 0 and ǫ(ϕ) > 0 such that
+                              |I(ϕ, η, T )(t)| ≤ C(ϕ)|T |1 e−ǫ(ϕ)t
+    for t > 0, η ∈ Ω, and T ∈ B 1 (V ). (The constants C(ϕ) and ǫ(ϕ) may be chosen
+    independent of both η ∈ Ω and T ∈ B 1 (V )).
+(d) For some (equivalently every) pair of precompact open sets e ∈ U1 ⊂ U ⊂ G with
+    U1 compactly contained in U and so that the logarithm on U is a well-defined
+    bianalytic isomorphism onto its image, there exists an open set ξ ∈ Ω ⊂ ig∗
+    such that for some (equivalently every) ϕ ∈ Cc∞ (U ) that is identically one on
+    U1 , the quantity
+                          |π(ϕ(g)Gt (| log(g)|)etη(log g) )|∞
+      is exponentially decaying in t for t > 0 uniformly in η ∈ Ω.
+   We note that the proof of Lemma 2.6 is nearly identical to the proof of Lemma
+2.5. As noted before, Lemma 2.5 is part of Theorem 1.4 on page 122 of [26].
+   Next, we prove Proposition 2.4.
+
+Proof. In both cases, one containment is obvious. Therefore, to prove the Lemma
+it is enough to show
+                     [                      [
+                          WFe (Trπ (T )) ⊂      WFe (π(g)v, w)
+                      T ∈B1 (V )                       v,w∈V
+
+and
+                          [                             [
+                                    SSe (Trπ (T )) ⊂           SSe (π(g)v, w).
+                       T ∈B1 (V )                      v,w∈V
+
+     In particular, it is enough to fix
+                          [                       [
+                   ξ∈ /       WFe (π(g)v, w), ζ ∈
+                                                /   SSe (π(g)v, w)
+                        v,w∈V                             v,w∈V
+
+and then show that
+                          [                                    [
+                 ξ∈
+                  /                WFe (Trπ (T )), ζ ∈
+                                                     /                 SSe (Trπ (T )).
+                      T ∈B1 (V )                          T ∈B1 (V )
+
+   By the second variant of Definition 2.1, we may find an open neighborhood
+e ∈ U ⊂ G on which the logarithm is well-defined and an open neighborhood
+ξ ∈ Ω ⊂ ig∗ such that for all N ∈ N and ϕ ∈ Cc∞ (U ) the quantity
+                             Z
+                           N
+                         t     ϕ(g)ethlog(g),ηi (π(g)v, w)dg
+                                     U
+         WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                     11
+
+
+is bounded as a function of η ∈ Ω and t > 0 for every v, w ∈ V . By the uniform
+boundedness principle, we deduce that the family of operators tN π(ϕ(g)eithlog(g),ηi )
+is uniformly bounded in the operator norm for η ∈ Ω and t > 0. Therefore
+                                 π(ϕ(g)eithlog(g),ηi )
+                                                         ∞
+is rapidly decreasing in t for t > 0 uniformly in η ∈ Ω. Utilizing Lemma 2.5, the
+first statement follows.
+    For the singular spectrum case, by Definition 2.2, we may find a pair of precom-
+pact open neighborhoods e ∈ U1 ⊂ U ⊂ G on which the logarithm is well-defined
+and an open neighborhood ζ ∈ Ω ⊂ ig∗ such that for some ϕ ∈ Cc∞ (U ) with ϕ = 1
+on U1 , we have
+           Z
+               ϕ(g)Gt (| log(g)|)ethlog(g),ηi (π(g)v, w)dg ≤ Cv,w (ϕ)e−ǫ(v,w,ϕ)t
+           U
+for t > 0 and η ∈ Ω. We must show that the above constants Cv,w (ϕ) and ǫ(v, w, ϕ)
+are independent of v and w subject to the conditions |v| = |w| = 1. Denote the
+above integral by I(ϕ, η, v, w)(t) and fix v. Let
+       Sn (v) = {w ∈ V | |I(ϕ, η, v, w)(t)| ≤ ne−(1/n)t uniformly for η ∈ Ω}.
+By the Baire Category Theorem and the linearity of I in the variable w, we observe
+that Snv (v) contains a δ ball, Bδ (0), around zero for some nv . In particular, for
+fixed v, the constants Cv,w (ϕ) and ǫ(v, w, ϕ) can be taken independent of w with
+|w| = 1 (Cv,w (ϕ) = nv /δ, ǫ(v, w, ϕ) = 1/nv in the above argument).
+   In particular, we may find a pair of precompact open neighborhoods e ∈ U1 ⊂
+U ⊂ G on which the logarithm is well-defined and an open neighborhood ζ ∈ Ω ⊂
+ig∗ such that for some ϕ ∈ Cc∞ (U ) with ϕ = 1 on U1 , we have
+               Z
+                  ϕ(g)Gt (| log(g)|)ethlog(g),ηi π(g)vdg ≤ Cv (ϕ)e−ǫ(v,ϕ)t
+                U
+for t > 0 and η ∈ Ω. Denote the integral on the left by I(ϕ, η, v)(t) and set
+           Sn = {v ∈ V | |I(ϕ, η, v)(t)| ≤ ne−(1/n)t uniformly for η ∈ Ω}.
+Utilizing the Baire Category Theorem and the linearity of I(ϕ, η, v) in the variable
+v, we observe that there exists N for which SN contains a δ ball, Bδ (0), about the
+origin. In particular, we may set Cv (ϕ) = N/δ and ǫ(v, ϕ) = 1/N in the above
+inequality for all v ∈ V with |v| = 1. It follows that
+                          |π(ϕ(g)Gt (| log(g)|)ethlog(g),ηi )|∞
+is exponentially decaying in t for t > 0 uniformly for η ∈ Ω. The second statement
+in Proposition 2.4 now follows from Lemma 2.6.                                  
+
+               3. Wave Front Sets and Distribution Vectors
+  If (π, V ) is a unitary representation of a Lie group G, then
+                       V ∞ = {v ∈ V |g 7→ π(g)v is smooth}.
+The Lie algebra g acts on V ∞ , and we give V ∞ a complete, locally convex topology
+via the seminorms |v|D = |Dv| for each D ∈ U(g). Now, given a unitary represen-
+tation (π, V ), we may form the conjugate representation (π, V ) by simply giving V
+                                                                          ∞
+the conjugate complex structure. Define V −∞ to be the dual space of V .
+12                BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+  Given ζ, η ∈ V −∞ , we wish to define a generalized matrix coefficient denoted
+by (π(g)ζ, η). This generalized matrix coefficient will be a generalized function on
+G. To define it, we need a couple of preliminaries. Suppose µ ∈ Cc∞ (G, D(G)) is a
+smooth, compactly supported section of the complex density bundle D(G) → G on
+G, and suppose ζ ∈ V −∞ . Then we define π(µ)ζ ∈ V −∞ by
+                                                  Z
+                 hπ(µ)ζ, vi = hζ, π(ι∗ µ)vi = hζ,   π(g)vdµ(g −1 )i
+                                                          G
+            ∞
+for v ∈ V       . Here ι denotes inversion on the group G.
+Lemma 3.1. For µ ∈ Cc∞ (G, D(G)) and ζ ∈ V −∞ , we have π(µ)ζ ∈ V ∞ . More-
+over, if ζ, η ∈ V −∞ , then the linear functional
+                                        µ 7→ (π(µ)ζ, η)
+is continuous and therefore defines a distribution on G. We will denote this distri-
+bution by (π(g)ζ, η).
+   This Lemma has been well-known to experts for some time. For a proof, see the
+exposition on pages 9-13 of [19].
+   In fact, we may define the (smooth or analytic) wave front set of a unitary
+representation in terms of the (smooth or analytic) wave front sets of the generalized
+matrix coefficients of G.
+Proposition 3.2. We have the equalities
+                                  [
+                     WF(π) =            WFe (π(g)ζ, η)
+                                        ζ,η∈V −∞
+
+and                                        [
+                              SS(π) =              SSe (π(g)ζ, η).
+                                        ζ,η∈V −∞
+
+     The key to this Proposition is the following Lemma.
+Lemma 3.3. If ζ ∈ V −∞ , then there exists D ∈ U(g) and u ∈ V such that Du = ζ.
+  This Lemma has been well-known to experts for some time. For a proof, see the
+exposition on page 5 of [19].
+  Now, we prove the Proposition.
+Proof. Clearly the left hand sides are contained in the right hand sides. To show the
+other directions, fix ζ, η ∈ V −∞ . Write ζ = D1 u and η = D2 v with D1 , D2 ∈ U(g)
+and u, v ∈ V . Then we have
+                         WF(π(g)ζ, η) = WF(LD2 RD1 (π(g)u, v))
+and
+                      SS(π(g)ζ, η) = SS(LD2 RD1 (π(g)u, v)).
+Here RD1 (resp. LD2 ) denotes the action of D1 (resp. D2 ) via right (resp. left)
+translation on C −∞ (G). But, by (8.1.11) on page 256 of [24], we deduce
+                         WF(LD2 RD1 (π(g)u, v)) ⊂ WF(π(g)u, v).
+And from the remark on the top of page 285 of [24], we deduce
+                          SS(LD2 RD1 (π(g)u, v)) ⊂ SS(π(g)u, v).
+The Proposition follows.                                                            
+          WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                      13
+
+
+             4. Wave Front Sets of Induced Representations
+   Now, suppose H ⊂ G is a closed subgroup, and let D1/2 → G/H be the bundle
+of complex half densities on G/H. Let (τ, W ) be a unitary representation of H,
+and let W → G/H be the corresponding invariant, Hermitian (possibly infinite-
+dimensional) vector bundle on G/H. Then we obtain a unitary representation of
+G by letting G act by left translation on
+                                  L2 (G/H, W ⊗ D1/2 ).
+This representation is usually denoted by IndG  H τ ; it is called the representation of
+G induced from the representation τ of H (sometimes the term “unitarily induced”
+is used). Let g (resp. h) denote the Lie algebra of G (resp. H), and let q : ig∗ → ih∗
+be the pullback of the inclusion. If S ⊂ ih∗ , we define
+                                         ∗
+                              IndG
+                                 H S = Ad (G) · q
+                                                  −1 (S).
+
+If S is a cone, then IndG                             ∗                        ∗
+                        H S is the smallest closed, Ad (G) invariant cone in ig that
+            −1
+contains q (S). The purpose of this section is to prove Theorem 1.1. Recall that
+we must show
+                            WF(IndG              G
+                                     H τ ) ⊃ IndH WF(τ )
+and
+                               SS(IndG          G
+                                     H τ ) ⊃ IndH SS(τ ).
+                                             G                  ∗
+   We note that WF(IndG    H τ ) and SS(IndH τ ) are closed, Ad (G) invariant cones
+                                             G                G
+in ig∗ . Therefore, to show that WF(IndH τ ) contains IndH WF(τ ) (respectively
+SS(IndG                   G                                           G
+        H τ ) contains IndH SS(τ )), it is enough to show that WF(IndH τ ) contains
+  −1                               G               −1
+q (WF(τ )) (respectively SS(IndH τ ) contains q (SS(τ ))).
+   Before proving the Theorem, we first make a few general comments and then
+we will prove a Lemma. Suppose H ⊂ G is a closed subgroup of a Lie group. Let
+D(G) → G (resp. D(H) → H, D(G/H) → G/H) denotes the complex density
+bundle on G (resp. H, G/H). Now, suppose we are given f ∈ C(H), a continuous
+function on H, and ω ∈ DH (G/H)∗ , an element of the dual of the fiber over {H}
+in the density bundle on G/H. We claim that f ω defines a generalized function on
+G.
+   To see this, we must show how to pair f ω with a smooth, compactly supported
+density, µ, on G. Let n = dim G, m = dim H, and recall that for each h ∈ H, µh
+is a map
+                                     µh : g⊕n → C
+satisfying
+                    µh (AX1 , . . . , AXn ) = | det A|µh (X1 , . . . , Xn )
+for A ∈ End(g) and X1 , . . . , Xn ∈ g. Similarly, ω is a map
+                                  ω : (g/h)⊕(n−m) → C
+satisfying
+                ω(AX1 , . . . , AXn−m ) = | det A|−1 ω(X1 , . . . , Xn−m )
+for A ∈ Aut(g/h) and X1 , . . . , Xn−m ∈ g/h.
+   To pair f ω with µ, we must show that µω defines a smooth, compactly supported
+density on H. For each h ∈ H, we will define a map
+                                     µh ω : h⊕m → C.
+14             BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+To do this, we fix Y1 , . . . , Yn−m ∈ g such that {Y1 , . . . , Y n−m } is a basis for g/h.
+Then we define
+                                   (µh ω)(X1 , . . . , Xm ) =
+                      µh (X1 , . . . , Xm , Y1 , . . . , Yn−m )ω(Y1 , . . . , Y n−m )
+for any X1 , . . . , Xm ∈ h. One checks directly that this definition of µh ω is indepen-
+dent of the choice of Y1 , . . . , Yn−m and that it satisfies
+                (µh ω)(AX1 , . . . , AXm ) = | det A|(µh ω)(X1 , . . . , Xm )
+for A ∈ End(h) and X1 , . . . , Xm ∈ h. In particular, µω is a smooth, compactly
+supported density on H, and the pairing
+                                    hf ω, µi = hf, µωi
+is well-defined and continuous. Thus, f ω defines a generalized function on G.
+
+   Now, recall (τ, W ) is a unitary representation of H. For w1 ∈ W and a non-zero
+ω1 ∈ (DH (G/H)1/2 )∗ , we define a distribution vector
+           δH (w1 , ω1 ) ∈ Cc−∞ (G/H, W ⊗ D1/2 ) ∼
+                                                 = C ∞ (G/H, W ⊗ D1/2 )∗
+by
+                          δH (w1 , ω1 ) : ϕ 7→ hϕ(H), w1 ⊗ ω1 i.
+The above pairing is the tensor product of the pairing between W and W via the
+inner product on the Hilbert space W and the pairing between DH (G/H)1/2 and
+its dual. Similarly, if w2 ∈ W and ω2 ∈ (DH (G/H)1/2 )∗ is non-zero, we define a
+distribution vector
+           δH (w2 , ω2 ) ∈ C −∞ (G/H, W ⊗ D1/2 ) ∼
+                           c                     = C ∞ (G/H, W ⊗ D1/2 )∗ .
+Now, we have a continuous inclusion
+                   L2 (G/H, W ⊗ D1/2 )∞ ⊂ C ∞ (G/H, W ⊗ D1/2 ).
+To deduce continuity, we must recall the local Sobolev inequalities. Such an equality
+for complex valued functions on Rn can be found in the last displayed equation on
+page 124 of [10] where we assume s = m is a positive integer and we take the version
+of the Sobolev norm given in Theorem 9.3.3 on page 122 of [10]. Although a global
+inequality is given on Rn in [10], one can derive from it a local inequality which
+can be transferred to any smooth manifold. In particular, if f is a complex valued,
+smooth function on a manifold X with a fixed, smooth density ω, and U ⊂ X is a
+precompact, open subset, we obtain
+                                              N
+                                              X
+                            sup |f (x)| ≤ C         |Dj f |L2 (X,ω)
+                            x∈U               j=1
+
+for some constant C and some finite collection of differential operators {Dj }, both
+of which may depend on U . One can derive the identical inequality for a function
+f valued in a separable Hilbert space by choosing an orthonormal basis {ej } and
+deducing the equality for f from the equalities for the complex valued functions
+(f, ej ). Locally, the density bundle D1/2 is trivial; hence, we may use this inequality
+to deduce that the above inclusion is continuous. Dualizing, we obtain a continuous
+inclusion
+                   Cc−∞ (G/H, W ⊗ D1/2 ) ⊂ L2 (G/H, W ⊗ D1/2 )−∞ .
+         WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                      15
+
+
+Therefore, since the distributions δH (w1 , ω1 ) and δH (w2 , ω2 ) are supported at a
+single point, they are compactly supported and by the above inclusion they both
+define distribution vectors for the representation L2 (G/H, W ⊗ D1/2 ).
+Lemma 4.1. The distribution on G defined by the generalized matrix coefficient
+                                    (π(g)δH (w1 , ω1 ), δH (w2 , ω2 ))
+(see Lemma 3.1) is equal to the generalized function on G defined by
+                          µ 7→ | det(Ad(h)|g/h )| · ((τ (h)w1 , w2 )ω, µ)
+where µ is a smooth, compactly supported section of the density bundle on G and
+ω = ω1 ω2 ∈ DH (G/H)∗ .
+Proof. We will prove the Lemma by directly analyzing the generalized matrix co-
+efficient (π(g)δH (w1 , ω1 ), δH (w2 , ω2 )). Fix µ ∈ Cc∞ (G, D(G)) a smooth, compactly
+supported density on G. By Lemma 3.1,
+                                            π(µ)δH (w1 , ω1 )
+is a smooth vector in
+                     L2 (G/H, W ⊗ D1/2 )∞ ⊂ C ∞ (G/H, W ⊗ D1/2 ).
+Pairing it with δH (w2 , ω2 ) means evaluating this smooth function at {H} and pair-
+ing it with w2 ⊗ ω2 . First, we wish to analyze the smooth function π(µ)δH (w1 , ω1 )
+by pairing it with ψ ∈ Cc∞ (G/H, W ⊗ D1/2 ). We have
+                                         Z
+                hπ(µ)δH (w1 , ω1 ), ψi = (w1 ⊗ ω1 , Lg−1 ψ(g))dµ(g).
+                                                  G
+                           ∗
+Now, ω ∈ DH (G/H) is a vector in the dual of fiber of the density bundle on
+G/H above H. We let ω ∗ ∈ DH (G/H) be the unique vector so that hω ∗ , ωi = 1.
+                                               f∗ of the complex density bundle
+Moreover, extend ω ∗ to a nonvanishing section ω
+                          ∞
+on G/H. Now, if ϕ ∈ Cc (G), then instead of integrating ϕµ over G, we wish to
+integrate over the fibers of the fibration
+                                               G → G/H
+which are simply the cosets xH and then integrate against ω f∗ along the base. One
+sees that for every gH ∈ G/H, there exists a smooth density ηgH ∈ C ∞ (gH, D(gH))
+such that         Z            Z     Z                 
+                         ϕ(g)µ(g) =                                    f∗ (g).
+                                                        ϕ(gh)dηgH (h) dω
+                     G                      G/H     H
+In addition, note ηH ω ∗ = µ and ηH = µω. We apply this integration formula for
+                                    ϕ(g) = (w1 ⊗ ω1 , Lg−1 ψ(g)).
+Thus, we obtain
+                                          hπ(µ)δH (w1 , ω1 ), ψi
+                     Z         Z                                      
+                 =                                                       f∗ (g)
+                                       (w1 ⊗ ω1 , L(gh)−1 ψ(g))dηgH (h) dω
+                         G/H       H
+                 Z        Z                                            
+             =                                                            f∗ (g).
+                                    Lg (τ (h)w1 ⊗ h · ω1 )dηgH (h), ψ(g) dω
+                  G/H          H
+16               BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+   One sees the distribution π(µ)δH (w1 , ω1 ) is the smooth function with values in
+the bundle W ⊗ D(G/H)1/2 given by
+                        Z                                 
+                   g 7→                                       f∗ .
+                             Lg (τ (h)w1 ⊗ h · ω1 )dηgH (h) · ω
+                                H
+Evaluating at {H} yields
+                       Z                                   
+                                    τ (h)w1 ⊗ h · ω1 dηH (h) · ω ∗ .
+                                H
+Now, h · ω1 = | det(Ad(h)|g/h )| · ω1 . Pairing with w2 ⊗ ω2 yields
+                 Z
+                     | det(Ad(h)|g/h )|(τ (h)w1 , w2 )hω1 ω ∗ , ω2 iηH (h)
+                      H
+                    = h| det(Ad(h)|g/h )| · (τ (h)w1 , w2 ), µωi.
+Here we have used hω1 ω2 , ω ∗ i = 1 and ηH = µω. The Lemma follows.                 
+     Now, we are ready to prove Theorem 1.1.
+Proof. Let w1 , w2 ∈ W be two vectors, and let (τ (h)w1 , w2 ) be the corresponding
+matrix coefficient of (τ, W ). To prove the Theorem, it is enough to show
+                   WF(L2 (G/H, W ⊗ D1/2 )) ⊃ q −1 (WFe (τ (h)w1 , w2 ))
+and
+                  SS(L2 (G/H, W ⊗ D1/2 )) ⊃ q −1 (SSe (τ (h)w1 , w2 )).
+     Let V = L2 (G/H, W ⊗ D1/2 ) and recall the equalities
+                                     [
+                          WF(π) =           WFe (π(g)ζ, η)
+                                          ζ,η∈V −∞
+
+and                                          [
+                               SS(π) =               SSe (π(g)ζ, η)
+                                          ζ,η∈V −∞
+from Proposition 3.2.
+   To prove the Theorem, it is therefore enough to show
+               WFe (π(g)δH (w2 , ω2 ), δH (w1 , ω1 )) = q −1 (WFe (τ (h)w1 , w2 ))
+and
+            SSe (π(g)δH (w2 , ω2 ), δH (w1 , ω1 )) = q −1 (SSe (τ (h)w1 , w2 )).
+     By Lemma 4.1, we know (π(µ)δH (w2 , ω2 ), δH (w1 , ω1 )) is simply
+                           h| det(Ad(h)|g/h )| · (τ (h)w1 , w2 ), ωµi.
+   Now, to compute the wave front set and singular spectrum of this generalized
+function, we fix a subspace S ⊂ g such that S ⊕ h = g. Then we can work locally
+in exponential coordinates S × h → g and forget about densities (since the density
+bundle is locally trivial). In these coordinates, our generalized function is
+                       δ0 ⊗ | det(Ad(exp Y )|g/h )| · (τ (exp Y )w1 , w2 )
+with Y ∈ h. Now, | det(Ad(exp Y )|g/h )| is an analytic, nonzero function in a neigh-
+borhood of zero. Therefore, it is enough to compute the wave front set and singular
+spectrum of
+                               δ0 ⊗ (τ (exp Y )w1 , w2 ).
+         WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                      17
+
+
+Now, suppose we have open neighborhoods 0 ∈ U1 ⊂ S, 0 ∈ U2 ⊂ h and functions
+ϕ1 ∈ Cc∞ (U1 ), ϕ2 ∈ Cc∞ (U2 ) with ϕ1 (0) 6= 0, ϕ2 (0) 6= 0. Multiplying our distribu-
+tion δ0 ⊗ (τ (exp Y )w1 , w2 ) by the tensor product ϕ1 ⊗ ϕ2 and taking the Fourier
+transform yields
+                            ϕ1 (0) ⊗ F [ϕ2 (τ (exp Y )w1 , w2 )].
+The first term is never rapidly decreasing in any direction in iS ∗ regardless of
+the choice of U1 and ϕ1 . The second term is rapidly decreasing in a direction
+ξ ∈ ih∗ for all ϕ2 ∈ Cc∞ (U2 ) for some neighborhood 0 ∈ U2 ⊂ ih∗ if and only if
+ξ ∈
+  / WFe (τ (h)w1 , w2 ). It follows from the discussion on page 254 of [24] that we
+can compute the wave front set of δ0 ⊗ (τ (exp Y )w1 , w2 ) utilizing neighborhoods of
+the form U1 × U2 and smooth functions of the form ϕ1 ⊗ ϕ2 . Hence, we deduce
+
+              WF0 (δ0 ⊗ (τ (exp Y )w1 , w2 )) = iS ∗ × WFe (τ (h)w2 , w2 ).
+
+However, this product description of the wave front set requires a non-canonical
+splitting of the exact sequence
+
+                                 0 → h → g → g/h → 0.
+
+A more canonical way of writing the same thing is
+
+           WFe (π(g)δH (w2 , ω2 ), δH (w1 , ω1 )) = q −1 (WFe (τ (h)w1 , w2 )).
+
+The first statement of Theorem 1.1 now follows.
+   To compute the singular spectrum, we work in the same non-canonical, exponen-
+tial coordinates. We fix precompact, open neighborhoods 0 ∈ U1 × U2 ⊂ U1′ × U2′ ⊂
+S × h with U1 (resp. U2 ) compactly contained in U (resp. U ′ ). We fix ϕi ∈ Cc∞ (Ui′ )
+such that ϕi is one on Ui for i = 1, 2. Let
+                                                     2
+                                       Gt (s) = e−ts
+
+be the standard family of Gaussians on R. Now, we multiply
+
+                                  δ0 ⊗ (τ (exp Y )w1 , w2 )
+
+by ϕ1 ⊗ ϕ2 and Gt (|Z|) ⊗ Gt (|Y |) = Gt (|Z + Y |) and we take the Fourier transform
+and evaluate at tζ (Here we assume that |·| is a norm coming from an inner product
+for which the subspaces S and h are orthogonal). We obtain
+
+                     ϕ1 (0) ⊗ F [Gt (|Y |)ϕ2 (τ (exp Y )w1 , w2 )](tζ).
+
+The first term is never exponentially decaying anywhere in iS ∗ . The second term
+is exponentially decaying precisely when the singular spectrum of (τ (exp Y )w1 , w2 )
+does not contain ζ by definition. Thus, we obtain
+
+               SS0 (δ0 ⊗ (τ (exp Y )w1 , w2 )) = iS ∗ × SSe (τ (h)w2 , w2 ).
+
+However, this product description of the singular spectrum requires a non-canonical
+decomposition g = S ⊕ h. A more canonical way of writing the same thing is
+
+             SSe (π(g)δH (w2 , ω2 ), δH (w1 , ω1 )) = q −1 (SSe (τ (h)w1 , w2 )).
+
+The second statement of Theorem 1.1 now follows.                                     
+18             BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+5. A Parametrization of Irreducible, Tempered Representations of a
+                  Real, Reductive Algebraic Group
+   In order to prove Theorem 1.2, we will need a parametrization of the set of
+irreducible, tempered representations of a real, reductive algebraic group. In fact,
+a well-thought parametrization is given in section 6 of [1] (see also [31] for the
+original reference). For the convenience of the reader, we briefly summarize this
+parametrization in this section. We also prove a Lemma in this section which will
+be useful in subsequent sections.
+   Suppose G is a real, reductive algebraic group with Lie algebra g. We say that
+                        +
+a triple Γ = (H, γ, RiR   ) is a Langlands parameter for G if H ⊂ G is a Cartan
+subgroup with Lie algebra h, γ is a level one character of the ρabs double cover of
+                                                         +
+H (see Section 5 of [1] for an explanation), and RiR        is a choice of positive roots
+among the set of imaginary roots for g with respect to h for which dγ ∈ h∗C is
+                                                            +
+weakly dominant. In addition, the triple Γ = (H, γ, RiR        ) must satisfy a couple of
+additional conditions (see Theorem 6.1 of [1]).
+   The Cartan subgroup H = T A has a decomposition into a product of a maximal
+compact subgroup T ⊂ H and a maximal split subgroup A ⊂ H. There is an
+                                                                         +
+analogous decomposition of a Langlands parameter Γ = (H, γ, RiR            ) into discrete
+and continuous pieces. In particular, a discrete Langlands parameter is a triple
+              +
+Λ = (T, λ, RiR  ) for which λ is a level one character of the ρiR double cover of T (see
+                                            +
+section 5 of [1] for a definition), and RiR   is a choice of positive roots for the set of
+imaginary roots of g with respect to h for which dλ ∈ h∗C is weakly dominant. This
+triple must satisfy a few additional assumptions (see Definition 6.5 of [1] for the
+details). If Λ is a discrete Langlands parameter, then a continuous parameter for
+Λ is a pair (A, ν) for which ν is a (possibly nonunitary) character of A. The pair
+(A, ν) must also satisfy some additional assumptions (see Definition 6.5 of [1]).
+                                                                 +
+   If Γ is a Langlands parameter for G, then Γ = (H, γ, RiR        ) has a decomposition
+                                                                +
+into a discrete Langlands parameter Λ = (T, λ := γ|T , RiR ) and a continuous pa-
+rameter (A, ν := γ|A ). If M A is the Langlands decomposition of ZG (A), then there
+is a limit of discrete series representation D(Λ) of M associated to Λ (see Section
+9 of [1] or page 430 of [30]). Then D(Λ) ⊗ ν is a representation of M A. Hence,
+we may choose a parabolic subgroup P = M AN making the real part of ν weakly
+dominant for the weights of a, the Lie algebra of A, in n, the Lie algebra of N , and
+we may extend D(Λ)⊗ν trivially on N to a representation of P . The representation
+of G induced from the representation D(Λ) ⊗ ν of P is denoted by I(Λ).
+   The (possibly nonunitary) representation I(Γ) has a Langlands quotient J(Γ)
+which is an irreducible (possibly nonunitary) representation of G. In addition,
+every irreducible (possibly nonunitary) representation of G is of the form J(Γ) for
+some Langlands parameter Γ, and two parameters Γ and Γ1 are G conjugate if,
+and only if the two irreducible representations J(Γ) and J(Γ1 ) are isomorphic (see
+[37] for the original reference and Section 6 of [1], Chapter 6 of [50], and Chapters
+8 and 14 of [30] for expositions). If Γ has discrete part Λ and continuous part
+(A, ν), then we also write J(Λ, ν) for J(Γ). The irreducible representation J(Λ, ν)
+is tempered if, and only if the character ν is unitary. Every irreducible, tempered
+representation of G is unitary.
+   We write G b for the set of irreducible, unitary representations of G equipped with
+the Fell topology. We denote by G    b temp the closed subspace of irreducible, tempered
+                                                                                        +
+representations. If H ⊂ G is a Cartan subgroup of G with Lie algebra h and RiR
+         WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                      19
+
+
+is a choice of positive, imaginary roots for g with respect to h, then we have a
+corresponding closed Weyl chamber
+                                                           +
+                      ih∗+ = λ ∈ ih∗ | hλ, α∨ i ≥ 0 if α ∈ RiR
+                            +
+in ih∗ where whenever α ∈ RiR  is an imaginary root of g with respect to h, we
+           ∨
+denote by α the corresponding coroot. Then we may define
+                                      b temp,ih∗
+                                      G        +
+
+
+to be the set of irreducible, tempered representations of the form J(Γ) where Γ =
+        +             +
+(H, γ, RiR ) and (H, RiR ) corresponds to the closed Weyl chamber ih∗+ . We therefore
+obtain                                    [
+                                 btemp =
+                                 G           btemp,ih∗
+                                             G            +
+                                            ih∗
+                                              +
+
+where the union is over G conjugacy classes of closed Weyl chambers ih∗+ in the
+dual of i times the collection of purely imaginary valued linear functionals on a
+Cartan subalgebra h ⊂ g.
+   Now, if π is a unitary representation of G that is weakly contained in the regular
+representation, then we may write π as a direct integral of irreducibe, tempered
+representations
+                                    Z ⊕
+                                π∼=      σ ⊕m(π,σ) dµπ
+
+with respect to a positive measure µ on G b temp (see for instance Chapter 8 of [7] for
+a proof that this is always possible) and a function m(π, σ) that keeps track of the
+multiplicity of σ in π. For each closed Weyl chamber ih∗+ ⊂ ih∗ in i times the dual
+of a Cartan subalgebra h ⊂ g, define
+                              Z
+                            ∼
+                      πih∗+ =            σ ⊕m(π,σ) dµπ |Gb        .
+                                                                ∗
+                                                                temp,ih
+                                btemp,ih∗
+                              σ∈G                                         +
+                                        +
+
+Then we have an isomorphism
+                                            M
+                                    π∼
+                                     =            πih∗+
+                                            ih∗
+                                              +
+
+
+where the sum is over the finite collection of G conjugacy classes of closed Weyl
+chambers in ih∗ for some Cartan subalgebra h ⊂ g.
+Lemma 5.1. If π is a unitary representation of a real, reductive algebraic group
+G that is weakly contained in the regular representation, then
+                            [                        [
+                  WF(π) =       WF(πih∗+ ), SS(π) =     SS(πih∗+ )
+                             ih∗
+                               +                              ih∗
+                                                                +
+
+
+where the unions are over the finite collection of G conjugacy classes of closed Weyl
+chambers in ih∗ for some Cartan subalgebra h ⊂ g. In addition, we have
+                                         [                    
+                    AC (O - supp π) =        AC O - supp πih∗+
+                                            ih∗
+                                              +
+
+
+where the union is again over the finite collection of G conjugacy classes of closed
+Weyl chambers in ih∗ for some Cartan subalgebra h ⊂ g.
+20              BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+   The first statement of the Lemma regarding wave front sets follows from part (b)
+of Proposition 1.3 on page 121 of [26]. The argument in the singular spectrum case
+is analogous. To show the second statement, it is enough to show that whenever
+S1 , . . . , Sn ⊂ W is a finite collection of subsets of a finite-dimensional, real vector
+space W , we have                           !
+                                       [n        [n
+                                 AC       Si =       AC(Si ).
+                                    i=1          i=1
+Indeed, Si ⊂ ∪Si implies AC(Si ) ⊂ AC(∪Si ) and the right hand side is contained
+in the left hand side. To show the opposite inclusion, suppose ξ is in the set on the
+left. Fix a norm on W , and define
+                        Γǫ = {η ∈ W | |tη − ξ| < ǫ some t > 0}
+                                                         S
+for every ǫ > 0. Since ξ is in the set on the left, Γǫ ∩ ni=1 Si is unbounded. But,
+then certainly Γǫ ∩Si is unbounded for some i. Let the subcollection Iǫ ⊂ {1, . . . , n}
+be the set of i such that Γǫ ∩ Si is unbounded. Now, Iǫ is non-empty for every ǫ > 0
+and Iǫ′ ⊂ Iǫ if ǫ′ < ǫ. One deduces that there is some i in every Iǫ and ξ ∈ AC(Si )
+for this particular i. The statement follows.
+   Since                                 [               
+                           O - supp π =     O - supp πih∗+ ,
+                                          ih∗
+                                            +
+
+we deduce                                                  
+                                           [              
+                    AC (O - supp π) = AC    O - supp πih∗+  .
+                                                ih∗
+                                                  +
+
+The Lemma follows.
+
+6. Wave Front Sets of Pieces of the Regular Representation Part I
+   Our next task is to prove Theorem 1.2. Suppose G is a real, reductive algebraic
+group, and suppose π is weakly contained in the regular representation of G. Then
+we must show
+                        SS(π) = WF(π) = AC (O - supp π) .
+However, given that SS(π) ⊃ WF(π), it is enough to show
+                               WF(π) ⊃ AC (O - supp π)
+and
+                             SS(π) ⊂ AC (O - supp π) .
+   This section will be devoted to proving the first inclusion. The next section will
+be devoted to proving the second inclusion.
+Proposition 6.1. Suppose G is a real, reductive algebraic group, and suppose π is
+a unitary representation of G that is weakly contained in the regular representation
+of G. Then
+                            WF(π) ⊃ AC (O - supp π) .
+     By Lemma 5.1, in order to prove Proposition 6.1, it is enough to show
+                            WF(πih∗+ ) ⊃ AC(O - supp πih∗+ )
+for every closed Weyl chamber in i times the dual of a Cartan subalgebra. In
+particular, we may assume that there exists a Cartan subgroup H ⊂ G and a
+         WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                      21
+
+                                       +
+choice of positive imaginary roots RiR    for g with respect to h such that all of the
+irreducible representations in the support of π are of the form J(Γ) with Langlands
+                         +
+parameter Γ = (H, γ, RiR   ) for some γ.
+   Next, we note that in the direct integral decomposition of π, the positive mea-
+sure µπ on G btemp,ih∗ is only well-defined up to an equivalence relation. Here two
+                     +
+measures are equivalent if, and only if they are absolutely continuous with respect
+to each other. After multiplying µπ by a suitable non-vanishing function on G   btemp ,
+one can find a measure µ′π which is equivalent to µπ and has finite volume. There-
+fore, we will assume without loss of generality in what follows that µπ has finite
+volume.
+   Next, we introduce a continuous map with finite fibers
+                                   btemp,ih∗ −→ ih∗+
+                                   G      +
+
+via
+                                       J(Γ) 7→ dγ
+                                                +
+for every Langlands parameter Γ = (H, γ, RiR      ) with dγ ∈ ih∗+ . In particular, we
+                                                  b
+may take our finite, positive measure µπ on Gtemp,ih∗+ and push it forward to a
+finite, positive measure on ih∗+ . From now on, we will abuse notation and write µπ
+for the measure on both spaces.
+   Let jG be the Jacobian of the exponential map exp : g → G in a neighborhood
+of the identity; we normalize the Lebesgue measure on g and the Haar measure on
+G so that jG (0) = 1. Then jG extends to an analytic function on g. Moreover, it
+                                      1/2       1/2
+has a unique analytic square root jG with jG (0) = 1.
+                                                                       btemp , let
+Lemma 6.2. Let µπ be a finite, positive measure on ih∗+ . For each σ ∈ G
+Θσ denote the Harish-Chandra character of σ and let
+                                                   1/2
+                                 θσ = (exp∗ Θσ )jG
+                                                                  btemp,ih∗ , µπ ) is
+denote the Lie algebra analogue of the character of σ. If f ∈ L1 (G       +
+            1
+a positive L function, then
+                               Z
+                                            θ σ f µπ
+                                     btemp,ih∗
+                                   σ∈G
+                                              +
+
+defines a tempered distribution on g.
+   In order to prove the Lemma, we require some remarks on the canonical measure
+on a coadjoint orbit. Let G be a Lie group with Lie algebra g, and let G · ξ = Oξ ⊂
+ig∗ be the coadjoint orbit through ξ ∈ ig∗ . Define a 2-form on Oξ by
+                           ωη (ad∗η X, ad∗η Y ) = −η([X, Y ])
+for every X, Y ∈ g and η ∈ Oξ . This 2-form makes Oξ into a symplectic manifold
+(see for instance page 139 of [6]), and the absolute value of the top dimensional
+form
+                                        ∧ dim Oη /2
+                                      ωη
+                           η 7→
+                                (dim Oξ /2)!(2π)dim Oη /2
+defines an invariant smooth density on Oξ , which is called the canonical measure on
+Oξ . We will sometimes denote this density by η 7→ m(Oξ )η and we will sometimes
+abuse notation and simply denote by Oξ both the orbit and the canonical invariant
+measure on the orbit.
+22            BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+Proof. We will show that the above integral defines a tempered distribution on g
+by showing that it is the Fourier transform of a tempered distribution on ig∗ . For
+each σ ∈ G b temp,ih∗ , let Oσ denote the canonical invariant measure on the finite
+                    +
+union of coadjoint orbits associated to σ [43], [44]. We will show that the integral
+                                 Z
+                                             Oσ f µπ
+                                    b temp,ih∗
+                                  σ∈G
+                                                   +
+
+                                         ∗
+defines a tempered distribution on ig and its Fourier transform is the integral in
+the statement of the Lemma. Following Harish-Chandra we define a map
+                             ψ : Cc∞ (ig∗ ) → Cc∞ ((ih∗+ )′ )
+via
+                               ψ : ϕ 7→ (λ 7→ hOλ , ϕi).
+Here Oλ denotes the canonical invariant measure on the orbit G · λ, which by an
+abuse of notation we will also denote by Oλ . Further (ih∗+ )′ ⊂ ih∗ is the set of
+regular elements in ih∗+ . Harish-Chandra showed that this map, which he called
+the invariant integral, extends to a continuous map on spaces of Schwartz functions
+[14]. Moreover, he showed that functions in the image extend uniquely to all of ih∗+
+(see page 576 of [17]). Thus, we obtain a continuous map
+                                ψ : S(ig∗ ) → S(ih∗+ ).
+Now, if the infinitesimal character of σ is regular, then Oσ = Oλ with λ ∈ (ih∗+ )′ .
+Therefore,
+                                 hOσ , ϕi = δλ ◦ ψ.
+If the infinitesimal character of σ is singular, then Oσ can be written as a limit
+                               Oσ =            lim        Oλ
+                                        λ∈(ih∗
+                                             + ) ,λ→λ0
+                                                ′
+
+
+
+where λ0 ∈ ih∗+ is singular [44], [45]. Therefore,
+                                     Oσ = δλ0 ◦ ψ
+for some λ0 ∈ ih∗+ . Now, the map
+                               Z
+                          ϕ 7→                     f (σ)hOσ , ϕiµπ
+                                   btemp,h∗
+                                 σ∈G
+                                             +
+
+for ϕ ∈ Cc∞ (ig∗ ) is simply the map
+                                        Z
+                                 ϕ 7→          ψ(ϕ)f µπ .
+                                         ih∗
+                                           +
+
+Here we have, by an abuse of notation, written f for the pushforward of f under
+the map
+                               b temp,ih∗ → ih∗ .
+                               G
+Note that f µπ defines a tempered distribution on ih∗+ since it is a positive, finite
+measure on ih∗+ . Since ψ is a continuous map between Schwartz spaces and f µπ is
+a tempered distribution on ih∗+ , we conclude that
+                                  Z
+                                           Oσ f µπ
+                                    btemp,ih∗
+                                    G
+                                               +
+         WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                          23
+
+
+is a tempered distribution on ig∗ . Now, the Fourier transform of this tempered
+distribution is defined by
+                      Z                          Z
+                ω 7→ h        Oσ f µπ , F [ω]i =       hθσ , ωif µπ
+                       btemp,ih∗
+                       G                                   b temp,ih∗
+                                                           G
+                                +                                   +
+
+for any smooth, compactly supported density ω on ig∗ . Here we have used F [Oσ ] =
+θσ , which was proved by Rossmann [43], [44]. Thus, the integral is the Fourier
+transform of a tempered distribution and is therefore tempered.                  
+                          +
+   Suppose Λ = (T, λ, RiR   ) is a discrete Langlands parameter for T ⊂ H, the
+maximal compact subgroup of a Cartan subgroup H, suppose h is the Lie algebra
+of H, and suppose ih∗+ is the closed Weyl chamber defined by the choice of positive
+                 +
+imaginary roots RiR . Then
+                                     btemp,ih∗ ,Λ
+                                     G       +
+
+is the collection of irreducible, tempered representations of the form J(Λ, ν) for
+some unitary character ν of A. Further, we have an embedding
+                                  b temp,ih∗ ,Λ ֒→ ia∗
+                                  G        +
+
+by
+                                 J(Λ, ν) 7→ dν.
+We will denote the image of the above map by a∗Λ .
+Lemma 6.3. Suppose π is a unitary representation of G that is weakly contained in
+the regular representation, and suppose that π decomposes as a direct integral of irre-
+                                                                           b temp,ih∗ .
+ducible representations with respect to the finite, positive measure µπ on G         +
+                                                               +
+Let H be the Cartan subgroup with Lie algebra h, and let RiR be the choice of pos-
+itive imaginary roots that determines the Weyl chamber ih∗+ . Let H = T A be the
+decomposition of H into compact and split pieces, and let t denote the Lie algebra
+of T . Assume that there exists a polynomial p on it∗ such that for every discrete
+                                   +
+Langlands parameter Λ = (T, λ, RiR   ), we have
+                           Z
+                                 dµπ |Gb      ∗
+                                                  ≤ |p(dλ)|.
+                                        temp,ih       ,Λ
+                              ν∈ia∗               +
+
+Then                                                                   
+                                           Z
+                       WF(π) ⊃ WFe                             Θ σ µπ  .
+                                             b temp,ih∗
+                                           σ∈G
+                                                            +
+
+From this, we immediately deduce
+                                                                       
+                                           Z
+                       WF(π) ⊃ WF0                             θ σ µπ  .
+                                                 btemp,ih∗
+                                               σ∈G
+                                                            +
+
+
+Proof. First, we note that our hypothesis and Lemma 6.2 together with the rela-
+                    −1/2
+tion exp∗ Θσ = θσ jG     imply that the above integral defines a distribution in a
+neighborhood of the identity e ∈ G. Therefore, the right hand side is at least well
+defined.
+   Now, let us break up the integral
+               Z                    XZ
+                           Θ σ µπ =           ΘJ(Λ,ν) µπ |Gb    ∗
+                  btemp,ih∗                                                 temp,ih ,Λ
+                σ∈G                   Λ        dν∈ia∗
+                                                    Λ
+                                                                                   +
+                          +
+24             BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+                                                                        +
+where the sum is over discrete Langlands parameters Λ = (T, λ, RiR         ) for which T ⊂
+                                                                              +
+H is a maximal compact subgroup and the choice of positive roots RiR            determines
+                       ∗
+the Weyl chamber h+ . If V (Λ, ν) denotes the Hilbert space on which J(Λ, ν) acts,
+then utilizing the compact picture for induced representations (see page 169 of
+[30]), for fixed discrete Langlands parameter Λ, we may identify the spaces V (Λ, ν)
+varying over all unitary characters ν of A as unitary representations of K. Thus,
+for a fixed discrete Langlands parameter Λ, we may fix an orthonormal basis for
+V (Λ, ν) that is independent of dν ∈ ia∗Λ , which we will call {eΛ
+                                                                 τ,i (ν)}. We choose this
+basis in such a way that each vector eΛ τ,i (ν) is contained in the   isotypic component
+         b
+of τ ∈ K. Now, since
+                        XZ
+                   π≃             J(Λ, ν)⊕m(π,J(Λ,ν)) dµπ |Gb        ∗
+                                                                         ,
+                                                                                   temp,ih       ,Λ
+                           Λ       dν∈ia∗
+                                        Λ
+                                                                                             +
+
+
+the representation
+                                XZ
+                                                   J(Λ, ν)dµπ |Gb
+                                                                     temp,ih∗ ,Λ
+                                   Λ   dν∈ia∗
+                                            Λ
+                                                                            +
+
+
+is a subrepresentation of our representation π. Now, the map ν 7→ eΛ τ,i (ν) is con-
+tained in the above direct integral representation since the measure µπ |Gb      ∗                         temp,ih       ,δ
+                                                                                                                     +
+
+is finite. Thus, for fixed i, we may view eΛτ,i (ν) as a vector in our representation π.
+Now, we observe that the weighted sum of matrix coefficients
+                XXZ
+                               (J(Λ, ν)(g)eΛ         Λ
+                                           τ,i (ν), eτ,i (ν))µπ |G
+                                                                 b    ∗              temp,ih          ,Λ
+                 Λ   i,τ       ν∈ia∗
+                                   Λ
+                                                                                                 +
+
+
+is simply our integral                      Z
+                                                               Θ σ µπ .
+                                                  b temp,ih∗
+                                                σ∈G
+                                                          +
+
+   Let V denote the Hilbert space on which π acts, and let P be the orthogonal
+projection of V onto the subspace generated by the vectors {eΛ
+                                                             τ,i }. Define TN =
+(I + ΩK )−N P where ΩK is the Casimir operator for K.
+   First, observe                    Z
+                                   Tr(π(g)P ) =                           Θ σ µπ
+                                                          b temp,ih∗
+                                                        σ∈G
+                                                                     +
+
+as a distribution. Next, we claim that TN is a trace class operator for sufficiently
+large N .
+   Observe
+                              XX                   Z
+                                          1
+           (I + ΩK )−N P 1 =                               dµπ |Gb
+                                 i,τ
+                                     (1 + |τ |2 )N dν∈ia∗Λ         temp,ih∗ ,Λ
+                                                                          +
+                                        Λ
+                                       X            X         1
+                               ≤                                       |p(dλ)|
+                                                     i,τ
+                                                         (1 + |τ |2 )N
+                                   Λ=(T,λ,R+
+                                           iR )
+
+where |·|1 denotes the norm on the Banach space of trace class operators. We recall
+that the multiplicity of τ in any irreducible J(Λ, ν) is at most (dim τ )2 (see page 205
+of [30] for an exposition or [13] for the original reference). Now, fix an inner product
+on the vector space it∗ , and let | · | be the associated norm. By Weyl’s dimension
+formula, we have (dim τ )2 ≤ C(1 + |τ |2 )r where r is the number of positive roots of
+         WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                      25
+
+
+K with respect to a maximal torus and C is a positive constant. Moreover, a limit
+of discrete series J(Λ, ν) can only contain τ as a K type if |dλ| ≤ |τ | + C1 where
+C1 > 0 is a constant independent of τ (see page 460 of [30] for an exposition and [20]
+for the original reference). Counting lattice points, this means that the number of
+such δ is bounded by C2 (1 + |τ |2 )k where k is the rank of G and C2 > 0 is a positive
+constant. The relationship between |dλ| and |τ | also implies that we may bound
+|p(dλ)| ≤ C3 (1 + |τ |2 )M for some positive integer M and some constant C3 > 0
+whenever τ is a K type of J(Λ, ν). Combining these facts, the above expression
+becomes
+                                       X (1 + |τ |2 )r+k+M
+                           ≤ CC2 C3                         .
+                                        τ
+                                             (1 + |τ |2 )N
+If N is sufficiently large, this sum will converge and therefore (I + ΩK )−N P is a
+trace class operator on V . Now, using Howe’s original definition of the wave front
+set involving trace class operators (see Proposition 2.4), we observe
+                                                              
+                      W F (π) ⊃ WFe Tr(π(g)(I + ΩK )−N P ) .
+  To finish the argument, we first recall
+                       Z
+                      h             Θσ µπ , ωi = Tr(π(ω)P )
+                             b temp,ih∗
+                           σ∈G
+                                        +
+
+for any smooth, compactly supported density ω on g. Then we observe
+                  Tr(π(ω)P ) = Tr(π(ω)(I + ΩK )N (I + ΩK )−N P )
+     = Tr(π(L(I+ΩK )N ω)(I + ΩK )−N P ) = L(I+ΩK )N Tr(π(ω)(I + ΩK )−N P ).
+  Since differential operators can only decrease the wave front set, we obtain
+                                                           
+                                        Z
+                       W F (π) ⊃ WFe                Θ σ µπ 
+                                                   b temp,ih∗
+                                                 σ∈G
+                                                             +
+
+and the Lemma has been verified.                                                     
+    Next, we need a Lemma involving the canonical measure on regular, coadjoint
+orbits. We fix an arbitrary inner product (·, ·) on ig∗ , and we denote by | · | the
+corresponding norm. If M ⊂ ig∗ is any submanifold we denote by Eucl(M ) the
+following density on M . If ξ ∈ M and dim Tξ M = k, we fix an orthonormal basis
+e1 , . . . , ek of Tξ M , and for every v1 , . . . , vk ∈ Tξ M , we define
+                      Eucl(M )ξ (v1 , . . . , vk ) = |det((vi , ej )i,j )| .
+One notes that this definition is independent of the orthonormal basis {ej }.
+Lemma 6.4. Let G be a Lie group, and let ig∗ be i times the dual of the Lie algebra
+of G. If ξ ∈ ig∗ , let m(Oξ ) denote the canonical measure on the G orbit through ξ
+and let Eucl(Oξ ) denote the measure on the G orbit through ξ that is induced from
+a fixed inner product on ig∗ . For every ξ ∈ Oξ , we have
+                                F (ξ)m(Oξ )ξ = Eucl(Oξ )ξ
+                            ∗
+for some function F on ig . Then there exists a positive constant C > 0 (depending
+on G) such that
+                            |F (ξ)| ≤ C(1 + |ξ|)dim G/2
+for all ξ ∈ ig∗ .
+26              BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+Proof. In order to simplify our notation, we prove the Lemma for coadjoint orbits
+in Oξ contained in g∗ instead of ig∗ . Multiplying by i everywhere, one will obtain
+the above Lemma. Observe that we must define the 2 form ωξ on the coadjoint
+orbit G · ξ = Oξ ⊂ g∗ (instead of ig∗ ) by
+                              ωξ (ad∗ξ X, ad∗ξ Y ) = ξ([X, Y ])
+(dividing by i twice removes the negative sign).
+   Now, fix ξ ∈ g∗ , and choose a basis {η1 , . . . , ηk } of Tξ Oξ that is orthonormal with
+respect to the restriction of the inner product on g∗ to Tξ Oξ . For i = 1, . . . , k, define
+Xi ∈ g by η(Xi ) = (η, ηi ) for all η ∈ g∗ . Note that we also have (Xi , W ) = ηi (W )
+for all W ∈ g (where the inner product on g is the one induced from our fixed
+inner product on g∗ ). We claim that ad∗X1 ξ, . . . , ad∗Xk ξ is a basis of Tξ Oξ . To show
+this, we need only show that {Xi } is a linearly independent set in g/Zg(ξ). Write
+ηi = ad∗Yi ξ. If W ∈ Zg (ξ), then
+                  (Xi , W ) = ηi (W ) = ad∗Yi ξ(W ) = − ad∗W ξ(Yi ) = 0.
+Since each Xi is orthogonal to Zg (ξ), the set {Xi } must remain linearly independent
+in g/Zg (ξ).
+   Next, we compute
+                 Eucl(Oξ )ξ (ad∗X1 ξ, . . . , ad∗Xk ξ) = det((ad∗Xi ξ, ηj ))
+and
+                                                                               1/2
+                 m(Oξ )ξ (ad∗X1 ξ, . . . , ad∗Xk ξ) = c |det(ξ([Xi , Xj ]))|
+                                            1/2                             1/2
+                  = c det(ad∗Xi ξ(Xj ))           = c det((ad∗Xi ξ, ηj ))
+where
+                                                   1
+                                     c=                    .
+                                           (2π)dim Oξ /2
+Thus, we obtain
+                                       1                     1/2
+                             F (ξ) =     det((ad∗Xi ξ, ηj ))     .
+                                       c
+Now, we note that
+                        g ⊗ g∗ → g∗ , by (X, ξ) 7→ ad∗X ξ
+is a linear map between finite-dimensional vector spaces. In particular, it is a
+bounded, linear map, and there exists a constant C1 (depending on G) such that
+                       | ad∗X ξ| ≤ C1 |X||ξ| for all X ∈ g, ξ ∈ g∗ .
+Therefore, we estimate,
+                                              k
+                                              Y
+            det((ad∗Xi ξ, ηj )) ≤ (dim G)2          C1 |Xi ||ξ| = (dim G)2 C1k |ξ|k/2 .
+                                              i=1
+                          k/2
+And for ck = (1/c)(dim G)C1 , we obtain
+                                       |F (ξ)| ≤ ck |ξ|k
+whenever dim Oξ = k. Since the dimension of every coadjoint orbit is less than or
+equal to the dimension of G, we obtain
+                                |F (ξ)| ≤ C(1 + |ξ|)dim G/2
+where C is the maximum of the constants ck . The Lemma follows.                           
+     Next, we prove Proposition 6.1.
+         WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                                     27
+
+
+Proof. Suppose ξ ∈ AC(O - supp π). We must show ξ ∈ WF(π). As in the last
+Lemma, we fix an inner product (·, ·) on ig∗ , and we let |·| denote the corresponding
+norm. Without loss of generality, we may assume |ξ| = 1. By Lemma 6.3, to show
+ξ ∈ WF(π), it is enough to show
+                                                          
+                                      Z
+                         ξ ∈ WF0                  θσ dµ′π 
+                                                   btemp,ih∗
+                                                 σ∈G
+                                                                +
+
+
+for some finite positive measure µ′π that is equivalent to µπ . Now, to check this
+fact, we fix an even Schwartz function F [ϕ] ∈ S(ig∗ ) such that F [ϕ](x) ≥ 0 for
+all x and F [ϕ](x) = 1 if |x| ≤ 1. Then F [ϕ] is the Fourier transform of an even
+Schwartz function ϕ ∈ S(g).
+   By Theorem 3.22 on page 155 of [9], if ξ is not in the wave front set of
+                                Z
+                                             θσ dµ′π
+                                            btemp,ih∗
+                                          σ∈G
+                                                      +
+
+at 0, then there must exist an open cone ξ ∈ C such that for η ∈ C with ||ξ|−|η|| < ǫ,
+there exist constants CN,ǫ for every 0 < ǫ < 1 and N ∈ N such that
+                                                          
+                Z
+          F                θσ dµ′π  ∗ t−n/4 F [ϕ](t−1/2 ·) (tη) ≤ CN,ǫ t−N .
+                    btemp,ih∗
+                  σ∈G
+                               +
+
+
+Here F denotes the Fourier transform and n = dim G. Taking this Fourier trans-
+form, the left hand side becomes
+                                                            
+                    Z
+                              Oσ dµ′π ∗ t−n/4 F [ϕ](t−1/2 ·) (tη)
+                            btemp,ih∗
+                          σ∈G
+                                     +
+                  Z                 Z                                               
+                                                                tη − ζ
+              =                               t−n/4 F [ϕ]         √          d(Oσ )ζ       dµ′π .
+                     b temp,ih∗
+                   σ∈G                   Oσ                         t
+                                +
+
+Thus, to prove a contradiction and conclude that ξ is indeed in the wave front set,
+we must find a suitable measure µ′π , a constant C, and an integer M such that
+         Z            Z                                  
+                                         tm ηm − ζ
+                            −n/4
+                           tm F [ϕ]        √         d(Oσ )ζ dµ′π ≥ Ct−M
+                                                                      m
+            btemp,ih∗
+          σ∈G           Oσ                   tm
+                      +
+
+
+for a sequence (tm , ηm ) with ηm ∈ C, ||ξ| − |ηm || < ǫ, and tm → ∞.
+   To do this, we first take our open cone C, and we note that there exists δ < ǫ
+such that C ⊃ Cδ where
+                          Cδ = {η ∈ ig∗ | |ξ − tη| < δ some t > 0}.
+Since ξ ∈ AC(O - supp π), we know that (O - supp π)∩Cδ is noncompact. Therefore,
+we may find a sequence {tm ηm } inside this intersection such that tm > tm−1 + 2
+and |ηm | = 1 for every m.
+                               ′
+   Let Otm ηm = Oσm and for σm   near σm , consider the set
+                          ′ = {ζ ∈ Oσ ′ ∩ Cδ | ||ζ| − |tm ηm || < 1}.
+                      Sm,σm          m
+
+Let
+                                    ′
+                               Fm (σm ) = hEucl(Oσm
+                                                  ′ ), Sm,σ ′ i
+                                                           m
+28             BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+be the volume of this set with respect to the Euclidean measure induced on the
+corresponding orbit. Since tm ηm ∈ Cδ/2 and tm δ/2 ≥ 1 for sufficiently large m, we
+deduce that Fm (σm ) ≥ t−k                                                        ′
+                         m for sufficiently large m and some k1 > 0. Since Fm (σm )
+                           1
+
+                             ′
+is a continuous function of σm , we can find a neighborhood Nm of σm in G  btemp,ih∗
+                                                                                    +
+                           ′           −k1            ′
+for each m such that Fm (σm ) ≥ (1/2)tm for every σm ∈ Nm . In addition, observe
+that the sets
+                                      [
+                                           Sm,σm
+                                               ′
+
+                                               σ′ ∈Nm
+
+are disjoint.
+   Now, since σm is in the support of µπ and Nm is an open neighborhood containing
+σm , we must have
+                                    µπ (Nm ) > 0.
+We may choose a positive, finite measure µ′π equivalent to µπ for which
+                                 Z
+                                     µ′π ≥ t−M
+                                            m
+                                               0
+
+                                              Nm
+
+for some fixed, sufficiently large integer M0 .
+   Next, we must estimate
+                                      ′   ′
+                                     Fm (σm ) = hm(Oσm
+                                                     ′ ), Sm,σ ′ i
+                                                              m
+
+
+from Fm where the measure on the orbit is now the canonical invariant measure.
+To estimate this volume, we use Lemma 6.4. Recall that we wrote
+                                      F (η)m(Oη )η = Eucl(Oη )η
+By Lemma 6.4, there exist constants C > 0 and N > 0 such that
+                              F (η) ≥ C(1 + (tm − 1))−N = Ct−N
+                                                            m
+                         ′
+whenever η ∈ Sm,σm
+                 ′ with σm ∈ Nm . Thus, we obtain
+                          ′   ′       −N      ′           −N −k1
+                         Fm (σm ) ≥ Ctm  Fm (σm ) ≥ (C/2)tm      .
+Putting all of this together, we estimate
+
+              Z                   Z                                                 
+                                                              tm ηm − ζ
+                                            t−n/4
+                                             m    F [ϕ]         √             d(Oσ )ζ dµ′π
+                    b temp,ih∗
+                  σ∈G                  Oσ                         tm
+                              +
+                   Z             Z                                                   !
+                                                            tm ηm − ζ
+              ≥                           t−n/4
+                                           m    F [ϕ]         √              d(Oσ )ζ       dµ′π
+                       σ∈Nm       Sm,σ                          tm
+                   Z             Z                             !
+              ≥                           t−n/4
+                                           m    · 1d(Oσ )ζ        dµ′π
+                       σ∈Nm       Sm,σ
+                  Z                  
+              ≥               dµ′π
+                              · t−n/4
+                                 m    · hm(Oσ ), Sm,σ i
+                  σ∈Nm
+                      −M0 −N −k1 −n/4
+              ≥ (C/2)tm               .
+This is what we needed to prove. The Proposition now follows.                                     
+          WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                         29
+
+
+7. Wave Front Sets of Pieces of the Regular Representation Part II
+   As explained in the beginning of the last section, we now prove the second
+inclusion necessary for the proof of Theorem 1.2.
+Proposition 7.1. If G is a real, reductive algebraic group and π is weakly contained
+in the regular representation of G, then
+                               SS(π) ⊂ AC (O - supp π) .
+   Utilizing Lemma 5.1, we may assume supp π ⊂ G     btemp,ih∗ for a fixed Weyl cham-
+                                                             +
+       ∗
+ber ih+ in i times the dual of a fixed Cartan subalgebra h ⊂ g. We will make this
+assumption throughout this section.
+   First, we require a technical Lemma. Suppose W is a finite dimensional, real
+vector space, and suppose 0 ∈ U1 ⊂ U2 ⊂ W are precompact, open subsets of
+W with U1 ⊂ U2 . Recall from Section 2 that we have fixed a family of functions
+ϕN,U1 ,U2 satisfying certain properties including (2.1).
+Lemma 7.2. Suppose W is a finite-dimensional real vector space, suppose W   f is
+an open neighborhood of zero in another finite-dimensional real vector space, and
+suppose we have an analytic map
+                                  f×W →W
+                               ψ: W
+such that for each p ∈ W f , ψp is locally bianalytic and ψ0 = I is the identity.
+Suppose u is a distribution on W , suppose (x, ξ) ∈  / SS(u), and suppose a is an
+analytic function on W . Then one can find an open set 0 ∈ U  e ⊂W f , an open set
+            ∗
+ξ ∈ Ω ⊂ iW , and an open set x ∈ U2 ⊂ W such that for every pair of precompact
+open sets x ∈ U1 ⊂ U ⊂ U2 ⊂ W with U1 compactly contained in U , there exists a
+constant CU1 ,U > 0 such that
+                                   
+                  F a ψp∗ u ϕN,U1 ,U (tη) ≤ CUN1+1          N −N
+                                                  ,U (N + 1) t
+             e , η ∈ Ω, and t > 0.
+whenever p ∈ U
+   The thing that makes this Lemma non-trivial is the uniformity of the bound in
+                 e . We will prove it by relating the singular spectrum to boundary
+the variable p ∈ U
+values of analytic functions, utilizing Sections 8.4 and 8.5 of [24].
+Proof. Since SS(u) ⊂ iT ∗ W is a closed set, we may choose an open set x ∈ U3 ⊂ W
+and an open cone ξ ∈ C(1) such that U3 × C(1) ⊂ iT ∗ W − SS(u). Next, fix an open
+cone
+                              ξ ∈ C(2) ⊂ C(2) ⊂ C(1).
+If C ⊂ W is an open convex cone, we may form the dual cone
+                         C 0 = {ξ ∈ iW ∗ | ihξ, yi ≤ 0 ∀ y ∈ W }.
+If η ∈ iW ∗ − C(2), we may find a cone of the form C 0 , which is the dual cone
+of an open convex cone C, such that η ∈ C 0 ⊂ iW ∗ − C(2). Fixing an inner
+product on the finite-dimensional real vector space W and using the compactness
+of Sdim W −1 ∩(iW ∗ −C(1)), we may choose a finite subcover C10 , . . . , Ck0 of iW ∗ −C(1).
+Here each Cj0 is the dual cone of an open convex cone Cj . In particular, we have
+                     [                      k
+                                            [                        k
+                                                                     [
+                           SSw (u) ⊂ U3 ×         Ci0 , ξ ∈ iW ∗ −         Ci0 .
+                    w∈U3                    i=1                      i=1
+30             BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+Now, in addition, we may choose (Cj′ )0 such that Cj0 is contained in the interior
+of (Cj′ )0 , ξ ∈
+               / (Cj′ )0 for any j, and (Cj′ )0 is the dual cone of an open convex cone
+                                                                    Pk
+Cj′ ⊂ Cj . Utilizing Corollary 8.4.13 of [24], we may write u = j=1 uj with
+                                    [
+                                       SSw (uj ) ⊂ U3 × Cj0
+                                w∈U3
+
+We note that to obtain the estimate in the Lemma for the distribution u, it is
+enough to obtain the estimate for each distribution uj .
+  Next, choose x ∈ U4 ⊂ U3 an open subset with U4 ⊂ U3 a compact subset. If
+γ > 0 is a real number, define
+                               Cj (γ) = {y ∈ Cj | |y| < γ}.
+By the remark after Theorem 8.4.15 of [24], for some γj > 0, we may find an analytic
+function Fj in U4 + iCj (γj ) ⊂ WC , where WC = W ⊗R C is the complexification of
+the vector space W , such that Fj satisfies an estimate
+                                |Fj (x + iy)| ≤ Cj |y|−Nj
+in U4 + iCj (γ) and
+                              uj =         lim            Fj (· + iy).
+                                      y→0, y∈Cj (γj )
+
+Here the limit is taken in the space of distributions on W . Next, we may complexify
+the maps ψp to attain the map
+                                       f × WC → WC
+                                  ψC : W
+which is real analytic in the first variable and complex analytic in the second. Taylor
+expand each ψC at (0, x) ∈ W  f × WC as a function of v ∈ WC with coefficients that
+are real analytic functions in p ∈ W   f . One sees from this expansion that we may
+find open sets x ∈ U2 ⊂ U4 and 0 ∈ U    e⊂W     f together with positive constants γ ′ > 0
+                                                                                    j
+such that
+                            ψp (U2 + iCj′ (γj′ )) ⊂ U4 + iCj (γj )
+for every p ∈ U   e and every j = 1, . . . , k. After possibly shrinking U2 , U
+                                                                              e and
+decreasing γj′ , we see from the Taylor expansion that we may in addition assume
+                             |y|/2 ≤ | Im ψp (x + iy)| ≤ 2|y|
+for all p ∈ U e , x + iy ∈ U2 + iC ′ (γ ′ ). From now on, we will write uj for the
+                                   j j
+restriction of uj to U2 and Fj for the restriction of Fj to U2 + iCj′ (γj′ ). As in the
+proof of Theorem 8.5.1 of [24], we now have
+                           ψp∗ uj =         lim           ψp∗ Fj (· + iy)
+                                      y→0, y∈Cj′ (γj′ )
+
+        e and j = 1, . . . , k. In addition, we obtain the bounds
+for p ∈ U
+                      |(ψp∗ Fj )(x + iy)| ≤ 2N Cj |y|−Nj = Cj′ |y|−Nj
+               e.
+uniform in p ∈ U
+  Of course, we may multiply through by our analytic function a to obtain
+                          aψp∗ uj =         lim           aψp∗ Fj (· + iy)
+                                      y→0, y∈Cj′ (γj′ )
+          WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                    31
+
+
+        e and j = 1, . . . , k and
+for p ∈ U
+                               |a(ψp∗ Fj )(x + iy)| ≤ Cj′′ |y|−Nj
+               e.
+uniform in p ∈ U
+  Now, we use these uniform bounds on aψp∗ Fj to obtain uniform bounds on
+                                             
+                            F a ψp∗ u ϕN,U1 ,U .
+To do this, we utilize the proof of Theorem 8.4.8 of [24]. We observe that the
+constant C4 in (8.4.9) on the top of page 286 of [24] depends only on the constants
+Cj′ , Nj in the above bound on aψ ∗ Fj and on the functions ϕN,U1 ,U . Since these
+                                                                                
+constants are uniform in p, we obtain the necessary bounds on F a ψp∗ u ϕN,U1 ,U
+uniform in p ∈ U e and the Lemma has been proven.                                
+
+   Now, suppose (π, V ) is a unitary representation of a real, reductive algebraic
+group G that is weakly contained in the regular representation. Decompose
+                                Z
+                            π∼=          σ ⊕m(π,σ) dµπ
+                                           btemp
+                                         σ∈G
+
+into irreducibles. As noted before, by Lemma 5.1, we may assume without loss
+                                                       btemp,ih∗ for a fixed Weyl
+of generality that µπ is a finite, positive measure on G       +
+            ∗
+chamber ih . By Lemma 6.2, if µπ is a finite positive measure on G  btemp,ih∗ and
+            +                                                                   +
+        btemp,ih∗ , µπ ), then the integral
+f ∈ L1 (G       +
+                                Z
+                                                    θσ f (σ)dµπ
+                                       btemp,ih∗
+                                     σ∈G
+                                                +
+
+defines a tempered distribution on ig∗ . Moreover, by the proof of Lemma 6.2, we
+see that the Fourier transform of this tempered distribution is
+                              Z
+                                         Oσ f (σ)dµπ .
+                                     σ∈supp π
+
+Clearly this distribution is supported in O - supp π. Therefore, by Lemma 8.4.17
+on page 194 of [24], we deduce
+                        Z                   
+(7.1)               SS0           θσ f (σ)dµπ ⊂ AC(O - supp π)
+                              σ∈supp π
+
+whenever µπ is a finite, positive measure associated to the representation π.
+   Next, we prove Proposition 7.1. In this argument, we will set W = g and
+form sequences of the form ϕN,U1 ,U satisfying the properties outlined in Section 2
+including (2.1).
+
+Proof. As in the statement of Proposition 7.1, fix a unitary representation (π, V )
+of a real, reductive algebraic group G that is weakly contained in the regular rep-
+resentation. Choose ξ ∈  / AC(O - supp π). We must show that for every u, v ∈ V ,
+there exists an open set ξ ∈ Ω ⊂ ig∗ and a constant C > 0 such that
+                Z
+                    (π(g)u, v)ϕN,U1 ,U (g)etη(log g) dg ≤ C N +1 (N + 1)N t−N
+                G
+for every η ∈ Ω and t > 0.
+32                   BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+   For each σ ∈ G btemp. , we abuse notation and write (σ, Vσ ) for a representative
+of this equivalence class of irreducible tempered representations. We have a direct
+integral decomposition
+                                  Z
+                             V =∼        Vσ⊕m(π,σ) dµπ (σ).
+                                                supp π
+
+  Now, if u = (uσ ) and v = (vσ ) in our direct integral decompositions, then we
+have                           Z
+                                (π(g)u, v) =                   (σ(g)uσ , vσ )dµπ (σ).
+                                                    σ∈supp π
+Thus our integral becomes
+ Z
+    (π(g)u, v)ϕN,U1 ,U (g)etη(log g) dg
+  G
+   Z                           Z
+                     tη(log g)
+=      ϕN,U1 ,U (g)e                    (σ(g)uσ , vσ )dµπ (σ)dg
+         G                            σ∈supp π
+     Z              Z
+=                        ϕN,U1 ,U (g)etη(log g) (σ(g)uσ , vσ )dgdµπ (σ)
+         σ∈supp π    G
+     Z
+=                   (σ(ϕN,U1 ,U etη(log) )uσ , vσ )µπ (σ)
+         σ∈supp π
+     Z
+≤                   σ(ϕN,U1 ,U etη(log) )uσ · |vσ | dµπ (σ)
+     σ∈supp π
+     Z                                                              1/2 Z                             1/2
+                                                2
+                                                             2
+≤                       σ(ϕN,U1 ,U etη(log) )         · |uσ | dµπ (σ)                      |vσ |2 dµπ (σ)     .
+          σ∈supp π                              HS                              σ∈supp π
+
+    Here |·|HS denotes the Hilbert-Schmidt norm of an operator on Vσ . Moreover, we
+are abusing notation and writing σ(ϕN,U1 ,U ) for the action of ϕN,U1 ,U on Vσ ⊗ Mσ
+as well as Vσ . The second integral is a constant. Therefore, we may focus on the
+first integral.
+    Next, we use a calculation of Howe (see page 128 of [26]). For σ ∈ G                 b temp , we
+have
+       Z
+          ϕN,U1 ,U (g −1 )eη(log) hΘσ , lg [ϕN,U1 ,U eη(log) ]idg = |σ(ϕN,U1 ,U eη(log) )|2HS .
+          G
+
+Integrating both sides over σ ∈ supp π with respect to |uσ |2 dµπ (σ) yields
+       Z                        Z
+                     −1 η(log)
+          ϕN,U1 ,U (g )e       h       Θσ |uσ |2 dµπ (σ), lg [ϕN,U1 ,U eη(log) ]idg
+              G                              σ∈supp π
+                                Z
+                            =               |σ(ϕN,U1 ,U eη(log) )|2HS |uσ |2 dµπ (σ).
+                                 σ∈supp π
+We observe that getting the proper bounds for the right hand side is what we need
+in order to prove our Proposition. We will obtain them by bounding the left hand
+side utilizing Lemma 7.2 together with the remarks afterwards.
+   Choose an open set 0 ∈ Ve ⊂ g such that exp : Ve → exp(Ve ) is a bianalytic
+isomorphism onto its image. We apply Lemma 7.2 with V = g, Ve as above,
+                                                    ψ : Ve × g → g
+         WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                       33
+
+                                           1/2
+by (Y, X) 7→ log(exp Y exp X), a = jG , and
+                               Z
+                           u=           θσ |uσ |2 dµπ (σ).
+                                       σ∈supp π
+
+Moreover, utilizing (7.1) with f (σ) = |uσ |2 , we obtain (0, ξ) ∈
+                                                                 / SS0 (u) since by
+hypothesis ξ ∈/ AC(O - supp π). Then Lemma 7.2 assures us of the existence of
+open sets 0 ∈ log(U1 ) ⊂ log(U ) ⊂ log(Ue ) ⊂ Ve such that the closure of log(U1 ) is
+contained in the interior of log(U ) together with an open set ξ ∈ Ω ⊂ ig∗ and a
+constant C > 0 such that
+
+ Z            Z                                                        
+                       1/2
+                      jG (X)θσ (exp Y exp X)(exp∗ ϕN,U1 ,U )(X)etη(X) dX |uσ |2 dµπ (σ)
+   σ∈supp π       g
+
+                                    ≤ C N +1 (N + 1)N t−N
+whenever η ∈ Ω, Y ∈ log(Ue ), and t > 0.
+  Pulling back to the group, we obtain
+           Z         Z                                   
+                         Θσ (gh)ϕN,U1 ,U (h)etη(log(h)) dh |uσ |2 dµπ (σ)
+                  σ∈supp π     G
+
+                                     ≤ C(C(N + 1))N t−N
+whenever g ∈ U   e , η ∈ Ω, and t > 0. Substituting and changing the order of
+integration yields
+                 Z                             h                       i
+                h         Θσ |uσ |2 dµπ (σ), lg ϕN,U1 ,U (h)etη(log(h)) i
+                        σ∈supp π
+
+                                    ≤ C N +1 (N + 1)N t−N
+whenever g ∈ Ue , η ∈ Ω, and t > 0. Finally, if we integrate over g in a precompact
+set with respect to a smooth density multiplied by a bounded function, this will
+simply multiply the bound by a constant, which we may incorporate into C. Thus,
+we obtain
+        Z                           Z
+           ϕN,U1 ,U (g −1 )eη(log) h    Θσ |uσ |2 µπ (σ), lg [ϕN,U1 ,U eη(log) ]idg
+         G                            σ∈supp π
+
+                                    ≤ C N +1 (N + 1)N t−N
+for η ∈ Ω and t > 0. Tracing back through our calculations, we see that we obtain
+          Z
+            (π(g)u, v)ϕN,U1 ,U (g)etη(log g) dg ≤ C (N +1)/2 (N + 1)N/2 t−N/2
+              G
+
+for η ∈ Ω and t > 0. We simply replace N by 2N and note that the sequence
+ϕ2N,U1 ,U still satisfies the necessary conditions needed for Definition 2.3. Then we
+obtain
+            Z
+                (π(g)u, v)ϕ2N,U1 ,U (g)etη(log g) dg ≤ (C ′ )N +1 (N + 1)N t−N
+                  G
+
+for η ∈ Ω and t > 0. Proposition 7.1 and Theorem 1.2 now follow.                      
+34             BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+                         8. Examples and Applications
+  In this section, we will give examples of our results in the case G = SL(2, R).
+Then we will briefly mention applications to branching problems and harmonic
+analysis questions.
+8.1. Wave Front Sets of Representations of G = SL(2, R). First, we consider
+the special case of the group G = SL(2, R). We identify g = sl(2, R) with R3 via
+                                                     
+                                            x   y−z
+                            (x, y, z) 7→                .
+                                          y + z −x
+In addition, we identify g ∼
+                           = g∗ using the trace form,
+                                X 7→ (Y 7→ Tr(XY )).
+Dividing by i, we obtain a (non-canonical) isomorphism ig∗ ∼
+                                                           = R3 which is useful for
+drawing pictures. The coadjoint orbits of SL(2, R) come in several classes. First,
+we have the hyperbolic orbits,
+                         Oν = {(x, y, z)| x2 + y 2 − z 2 = ν 2 }
+for ν > 0. Next, we have two classes of elliptic orbits,
+                    On+ = {(x, y, z)| z 2 − x2 − y 2 = n2 , z > 0},
+                   On− = {(x, y, z)| z 2 − x2 − y 2 = n2 , z < 0}
+for any real number n > 0. Then we have the two large pieces of the nilpotent cone
+                       N + = {(x, y, z)| x2 + y 2 = z 2 , z > 0},
+                        N − = {(x, y, z)| x2 + y 2 = z 2 , z < 0}.
+And finally we have the zero orbit, {0}.
+   The irreducible, unitary representations of SL(2, R) also come in several classes.
+First, we have the spherical unitary principal series σ ν,+ for ν ≥ 0 as well as the
+non-spherical unitary principal series σν,− for ν > 0. Next, we have the holo-
+morphic discrete series representations σn+ and the antiholomorphic discrete series
+representations σn− for n ∈ Z>0 . Here we have parametrized the discrete series by
+infinitesimal character. In addition, the terms ‘holomorphic’ and ‘antiholomorphic’
+come from the standard holomorphic structure on the upper half plane and the
+standard identification of SL(2, R)/ SO(2, R) with the upper half plane. Finally, we
+have the limits of discrete series, σ + and σ − .
+   There is also the trivial representation of SL(2, R) as well as the complementary
+series, but these representations are not tempered; hence, we will not consider them
+in this paper.
+   Now, the representations σν,+ and σν,− are associated to the orbit Oν for ν > 0,
+and the representation σ0,+ is associated to the nilpotent cone N = N + ∪N − ∪{0}.
+The representation σn+ (respectively σn− ) is associated to the orbit On+ (respectively
+On− ). And the representation σ + (respectively σ − ) is associated to the orbit N +
+(respectively N − ).
+   Next, we utilize Theorem 1.2 to compute the wave front sets of some represen-
+tations. One notes
+                              WF(σn+ ) = AC(On+ ) = N + ,
+                              WF(σn− ) = AC(On− ) = N − ,
+                       WF(σν,+ ) = WF(σν,− ) = AC(Oν ) = N
+          WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                                         35
+
+
+for ν > 0. In addition,
+                                 WF(σ0,+ ) = AC(N ) = N ,
+
+                                WF(σ + ) = AC(O+ ) = N + ,
+
+                                WF(σ − ) = AC(O− ) = N − .
+   Of course, all of these computations of wave front sets of irreducible, unitary rep-
+resentations have been well-known for sometime because of the work of Barbasch-
+Vogan [2] and Rossmann [46]. What is new in this paper is our ability to compute
+wave front sets of representations that are far from irreducible.
+   Suppose A ⊂ SL(2, R) is the set of diagonal matrices. Utilizing Theorem 1.1, we
+observe
+                  WF(L2 (SL(2, R)/A)) ⊃ Ad∗ (G) · i(g/a)∗ = ig∗ .
+Therefore, WF(L2 (SL(2, R)/A)) = isl(2, R)∗ . Similarly, if Γ ⊂ SL(2, R) is a discrete
+subgroup, then
+                                WF(L2 (SL(2, R)/Γ)) = ig∗ .
+Of course, one could deduce these first two facts from Theorem 1.2 together with
+the well-known decomposition of L2 (G/A) and the existence of sufficiently many
+Poincare series and Eisenstein series for Γ. However, the authors like that we are
+able to compute these wave front sets without knowledge of these decompositions.
+   Next, we utilize Theorem 1.2. Let ig∗hyp denote the set of hyperbolic elements in
+ig . Identifying ig∗ with R3 as above, we have
+  ∗
+
+
+                           ig∗hyp = {(x, y, z)| x2 + y 2 − z 2 > 0}.
+
+Let ig∗ell denote the set of elliptic elements in ig∗ . Break this set up into two by
+
+                      (ig∗ell )+ = {(x, y, z)| z 2 − x2 − y 2 > 0, z > 0},
+
+                      (ig∗ell )− = {(x, y, z)| z 2 − x2 − y 2 > 0, z < 0}.
+If K = SO(2, R), then we have
+                                          Z                                           !
+                                                                            [
+                  2
+           WF L (G/K) = WF                           σν,+       = AC               Oν       = ig∗hyp .
+                                               ν>0                           ν>0
+
+Similarly, we have
+                                          Z               
+                                 WF                 σν,−       = ig∗hyp .
+                                              ν>0
+
+In addition, we have
+                                          !                           !
+                              M                        [
+                       WF           σn+       = AC              On+       = (ig∗ell )+ ,
+                              n>0                      n>0
+
+                                          !                           !
+                              M                        [
+                       WF           σn−       = AC              On−       = (ig∗ell )− .
+                              n>0                      n>0
+36            BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+8.2. Wave Front Sets and Branching Problems. Next, we say a few words
+about branching problems. We recall the statement of Corollary 1.4.
+   Suppose G is a real, reductive algebraic group, suppose H ⊂ G is a closed
+reductive algebraic subgroup, and suppose π is a discrete series representation of
+G. Let g (resp. h) denote the Lie algebra of G (resp. H), and let q : ig∗ → ih∗ be
+the pullback of the inclusion. Then
+                          AC(O - supp(π|H )) ⊃ q(WF(π)).
+   This Corollary follows directly from Theorem 1.2, Proposition 1.5 of [26], and
+the fact that the restriction of a discrete series to a reductive subgroup is weakly
+contained in the regular representation (see for instance Theorem 3 of [41], though
+this is neither the first nor the easiest proof of this fact).
+   We show how to utilize this Corollary in a simple example. First, let G = SU(2, 1)
+and let H = SO(2, 1)e ∼   = PSL(2, R) be the identity component of the subgroup of
+G consisting of real matrices. If π is a quaternionic discrete series of G, then one
+can show
+                                     WF(π) = NG
+where NG is the nilpotent cone in ig∗ . One checks via a simple linear algebra
+calculation that q(NG ) = ih∗ . Thus, we obtain
+                             AC(O - supp(π|H )) = ih∗ .
+One notes that the irreducible, tempered representations of PSL(2, R) are the ir-
+reducible, tempered representations of SL(2, R) in which the center of SL(2, R)
+acts trivially. These are the spherical unitary principal series and “half” of the
+holomorphic and antiholomorphic discrete series representations. We then deduce
+that
+      • π|H contains an integral of spherical unitary principal series with unbounded
+         support.
+      • π|H contains infinitely many distinct holomorphic discrete series.
+      • π|H contains infinitely many distinct antiholomorphic discrete series.
+   The authors believe that the last two facts are non-trivial. For comparison,
+one can see utilizing arguments in [39] that whenever π is a holomorphic discrete
+series of G, the restriction π|H contains at most finitely many holomorphic and
+antiholomorphic discrete series representations.
+   Next, we recall the statement of Corollary 1.5. Suppose G is a real, reductive
+algebraic group, H ⊂ G is a closed reductive algebraic subgroup, and π is a discrete
+series representation of G. Let g (resp. h) denote the Lie algebra of G (resp. H),
+and let q : ig∗ → ih∗ be the pullback of the inclusion. If π|H is a Hilbert space
+direct sum of irreducible representations of H, then
+                                 q(WF(π)) ⊂ ih∗ell .
+Here ih∗ell ⊂ ih∗ denotes the subset of elliptic elements.
+    This statement follows from Corollary 1.4 together with the fact that only dis-
+crete series of H can occur discretely in π|H when π is a discrete series of G (see
+Corollary 8.7 on page 131 of [34]) and the fact that discrete series correspond to
+elliptic caodjoint orbits [43].
+    To illustrate Corollary 1.5, we consider tensor products of discrete series repre-
+sentations of SL(2, R). This particular example has been well understood for a long
+time (see [42]). We use it because it is simple and it illustrates our ideas well.
+          WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                      37
+
+
+   The exterior tensor product σn+ ⊠σm   +
+                                            (resp. σn− ⊠σm−
+                                                            ) corresponds to the product
+of orbits On × Om (resp. On × Om ) as a representation of SL(2, R) × SL(2, R).
+            +     +             −     −
+
+The projection
+                         i sl(2, R)∗ ⊕ i sl(2, R)∗ → i sl(2, R)∗
+is given by the sum (ξ, η) 7→ ξ + η. One checks that
+                     On+ + Om
+                            +
+                              ⊂ (ig∗ell )+ , On− + Om
+                                                    −
+                                                      ⊂ (ig∗ell )− .
+In fact, σn+ ⊗ σm +
+                    is a discrete sum of holomorphic discrete series and σn− ⊗ σm
+                                                                                −
+                                                                                   is a
+discrete sum of antiholomorphic discrete series (see Theorem 1 and Example 5 of
+[42]). Therefore, the Corollary told us that these sums of orbits would be contained
+in the elliptic set.
+    On the other hand, the exterior tensor product σn+ ⊠ σm     −
+                                                                   corresponds to the
+                       +      −
+product of orbits On × Om . Their sum contains the set of hyperbolic elements
+ig∗hyp . Utilizing the contrapositive of Corollary 1.5, we deduce that σn+ ⊗ σm
+                                                                              −
+                                                                                is not
+a discrete sum of irreducible representations. In fact, utilizing Corollary 1.4, one
+deduces that it must contain an unbounded integral of unitary principal series. One
+checks that this is the case (see Theorem 2 and Example 5 of [42]).
+8.3. Wave Front Sets and Harmonic Analysis. Next, we consider applica-
+tions to harmonic analysis questions. Recall Corollary 1.3. If L2 (G/H) is weakly
+contained in the regular representation, then
+                     AC(O - supp L2 (G/H)) ⊃ Ad∗ (G) · i(g/h)∗ .
+We need several remarks on how to use this result. First, it will be helpful to
+introduce the following notation. If h ⊂ g is a Cartan subalgebra and π is a
+representation of G that is weakly contained in the regular representation, then we
+define                                 [
+                      ih∗ - supp π =        (Oσ ∩ ih∗ ) ⊂ ih∗
+                                       σ∈supp π
+We note that only irreducible, tempered representations with regular infinitesimal
+character contribute to ih∗ - supp π ∩ (ih∗ )′ , where (ih∗ )′ denotes the set of regular
+elements in ih∗ . Further, any irreducible, tempered representation with regular
+infinitesimal character contributes exactly one orbit of a real Weyl group in ih∗ for
+a Cartan subalgebra h ⊂ g, unique up to conjugacy by G.
+   We deduce from the above discussion that for π weakly contained in the regular
+representation
+        AC(O - supp π) ∩ (ih∗ )′ ⊂ AC(ih∗ - supp π) ⊂ AC(O - supp π) ∩ ih∗ .
+In particular, if AC(O - supp π) = ig∗ , then
+                                AC(ih∗ - supp π) = ih∗
+for every Cartan subalgebra h ⊂ g. The authors feel that this is ample justification
+for saying that supp π is asymptotically identical to supp L2 (G) if
+                                AC(O - supp π) = ig∗ .
+   Second, we recall the recent work of Benoist and Kobayashi [3]. Suppose G is a
+real, reductive algebraic group, and suppose H ⊂ G is a real, reductive algebraic
+subgroup. Let g (resp. h) denote the Lie algebras of G (resp. H). Let a ⊂ h
+be a maximal split abelian subspace, and recall that we have Lie algebra maps
+a → End(h) and a → End(g) given by the adjoint actions. If Y ∈ a, define h+,Y
+38             BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+(resp. g+,Y ) to be the sum of the positive eigenspaces for the adjoint action of Y
+on h (resp. g), and define
+                      ρh (Y ) = Trh+,Y (Y ), ρg (Y ) = Trg+,Y (Y ).
+In Theorem 4.1 of [3], Benoist and Kobayashi show that L2 (G/H) is weakly con-
+tained in the regular representation of G if and only if
+                           2ρh (Y ) ≤ ρg (Y ) for every Y ∈ a.
+Now, suppose H ⊂ G are real, reductive algebraic groups satisfying the above
+condition. Then Corollary 1.3 implies
+                     AC(O - supp L2 (G/H)) ⊃ Ad∗ (G) · i(g/h)∗ .
+We note that the right hand side is quite computable. Let q be the orthogonal
+complement of h with respect to a nondegenerate, invariant form (the Killing form
+will due if G is simple). After dividing by i and identifying g∗ with g via this form,
+we need only ask “which elements of g are conjugate to elements of q” in order
+to compute the right hand side of the above expression. In particular, the right
+hand side is ig∗ if q contains representatives of every conjugacy class of Cartan
+subalgebra in g.
+   Benoist and Kobayashi give large families of examples of pairs H ⊂ G satisfying
+their condition in Example 5.6 and Example 5.10    Qrof [3]. We will focus on Example
+                                                                               Pr
+5.6. PWe see that if G = SO(p, q) and H = i=1 SO(pi , qi ) with p =               i=1 pi ,
+       r                                                             2
+q = i=1 qi , and 2(pi + qi ) ≤ p + q + 2 whenever pi qi 6= 0, then L (G/H) is weakly
+contained in the regular representation. To the best of the authors’ knowledge,
+Plancherel formulas are not known for the vast majority of these cases. One checks
+using parametrizations of conjugacy classes of Cartan subalgebras (see [36], [49])
+and an explicit description of q, that if in addition, 2pi ≤ p + 1,2qi ≤ q + 1 for every
+i and p + q > 2, then
+                                ig∗ = Ad∗ (G) · i(g/h)∗ .
+Utilizing Corollary 1.3, we deduce supp L2 (G/H) is asymptotically equivalent to
+supp L2 (G). In particular, suppose p and q are not both odd and F is one of the
+families of discrete series of G = SO(p, q) corresponding to a fixed Weyl chamber.
+Under these assumptions, if h0 is a compact Cartan subalgebra of g, then we observe
+                            AC(ih∗0 - supp L2 (G/H)) = ih∗0 .
+In particular, we deduce that for every family F of discrete series of G,
+                              HomG (σ, L2 (G/H)) 6= {0}
+for infinitely many different σ ∈ F . A particularly nice example is when G =
+SO(4n, 2) and H = SO(n, 1) × SO(n, 1) × SO(2n). In this case, one deduces
+                              HomG (σ, L2 (G/H)) 6= {0}
+for infinitely many distinct (possibly vector valued) holomorphic discrete series σ
+of G. We note that when n = 1, this statement can be deduced from Theorem 7.5
+on page 126 of Kobayashi’s paper [34].
+
+                              9. Acknowledgements
+   The authors would like to thank Todd Quinto for providing us with advice and
+references for fundamental facts in microlocal analysis. The authors would also like
+to thank David Vogan for a few comments on a previous draft.
+           WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                                39
+
+
+                                         References
+ 1. J. Adams, M. van Leuwen, P. Trapa, and D. Vogan, Unitary Representations of Real Reductive
+    Groups, arXiv: 1212.2192.
+ 2. D. Barbasch, D. Vogan, The Local Structure of Characters, Journal of Functional Analysis,
+    Volume 37, Number 1, 27-55 (1980)
+ 3. Y. Benoist, T. Kobayashi, Temperedness of Reductive Homogeneous Spaces, To Appear in
+    Journal of the European Mathematical Society. Preprint: arXiv:1211.1203.
+ 4. J.M. Bony, Equivalence des diverses notions de spectre singulier analytique, Sém. Goulaouic-
+    Schwartz (1976-1977), Équations aux dérivées partielles et analyse fonctionnelle, Exposé no.
+    III, 12 pp. Centre Math., École Polytech., Palaiseau (1977)
+ 5. A. Cordoba, C. Fefferman, Wave Packets and Fourier Integral Operators, Comm. Partial Diff.
+    Eq., Volume 3, 979-1005 (1978)
+ 6. A. Cannas da Silva, Lecture Notes on Symplectic Geometry, Lecture Notes in Mathematics,
+    Volume 1764, Springer-Verlag, Berlin, (2001)
+ 7. J. Dixmier, C ∗ -algebras, North Holland Press, Amsterdam (1977)
+ 8. M. Duflo, Fundamental Series Representations of a Semisimple Lie Group, Functional Anal-
+    ysis Applications, Volume 4, 122-126 (1970)
+ 9. G.B. Folland, Harmonic Analysis in Phase Space, Princeton University Press, Princeton, NJ
+    (1989)
+10. G. Friedlander, M. Joshi, Introduction to the Theory of Distributions, Cambridge University
+    Press, Cambridge (1998)
+11. H. Fujiwara, Sur les restrictions des représentations unitaires des groupes de Lie résolubles
+    exponentiels, Inventiones Mathematicae, Volume 104, Number 3, 647-654 (1991)
+12. S. Hansen, J. Hilgert, S. Keliny, Asymptotic K-support and Restrictions of Representations,
+    Representation Theory, Volume 13, 460-469 (2009)
+13. Harish-Chandra Representations of Semisimple Lie Groups III, Transactions of the American
+    Mathematical Society, Volume 76, 234-253 (1954)
+14. Harish-Chandra Fourier Transforms on a Semisimple Lie Algebra I, American Journal of
+    Mathematics, Volume 79, No. 2, 193-257 (1957)
+15. Harish-Chandra, Spherical Functions on a Semisimple Lie Group I, American Journal of
+    Mathematics, Volume 80, 553-613 (1958)
+16. Harish-Chandra, Spherical Functions on a Semisimple Lie Group II, American Journal of
+    Mathematics, Volume 80, 241-310 (1958)
+17. Harish-Chandra, Some Results on an Invariant Integral on a Semi-Simple Lie Algebra, Annals
+    of Mathematics Series 2, Volume 80, 551-593 (1964)
+18. Harish-Chandra, Discrete Series for Semisimple Lie Groups I: Construction of Invariant
+    Eigendistributions, Acta Mathematica, Volume 113, 241-318 (1965)
+19. H. He, Generalized Matrix Coefficients for Unitary Representations, To appear in Journal of
+    Ramanujan Mathematical Society.
+20. H. Hecht, W. Schmid, A Proof of Blattner’s Conjecture, Inventiones Mathematicae, Volume
+    31, 129-154 (1975)
+21. S. Helgason, A Duality for Symmetric Spaces with Applications to Group Representations,
+    Advances in Mathematics, Volume 5, 1-154 (1970)
+22. S. Helgason, Functions on Symmetric Spaces, In “Harmonic Analysis on Homogeneous
+    Spaces” (Proc. Sympos. Pure Math., Vol. XXVI, Williams Coll., Williamstown, Mass., 1972),
+    101146, American Mathematical Society, Providence, R.I. (1973)
+23. L. Hörmander, Fourier Integral Operators I, Acta Mathematica, Volume 127, 79-183 (1971)
+24. L. Hörmander, The Analysis of Linear Partial Differential Operators I, Grundlehren der
+    mathematischen Wissenschaften, Volume 256, Springer-Verlag, Berlin (1983)
+25. L. Hörmander, The Analysis of Linear Partial Differential Operators III, Grundlehren der
+    mathematischen Wissenschaften, Volume 274, Springer-Verlag, Berlin (1985)
+26. R. Howe, Wave Front Sets of Representations of Lie Groups, In “Automorphic Forms, Rep-
+    resentation Theory, and Arithmetic” (Bombay 1979), Tata Inst. Fund. Res. Studies in Math.,
+    10, 117140, Tata Inst. Fundamental Res., Bombay (1981)
+27. D. Iagolnitzer, Microlocal Essential Support of a Distribution and Decomposition Theorems–
+    An Introduction. In Hyperfunctions and Theoretical Physics, Springer Lecture Notes in Math
+    449, 121-132, Spinger-Verlag, Berlin (1975)
+40              BENJAMIN HARRIS, HONGYU HE, AND GESTUR ÓLAFSSON
+
+
+28. M. Kashiwara, T. Kawai, M. Sato, Microfunctions and Pseudo-Differential Equations, In
+    “Hyperfunctions and Pseudo-Differential Equations”, (Proceedings of the Conference Katata
+    1971), pages 265-529, Lecture Notes in Mathematics, Volume 287, Springer-Verlag, Berlin
+    (1973)
+29. M. Kashiwara, M. Vergne, K-types and Singular Spectrum, Noncommutative Harmonic Anal-
+    ysis (Proc. Third Colloq., Marseilles-Luminy, 1978), Lecture Notes in Mathematics, Volume
+    728, Springer Verlag, Berlin, 177-200 (1979)
+30. A. Knapp, Representation Theory of Semisimple Lie Groups, Princeton University Press,
+    Princeton, NJ (1986)
+31. A. Knapp, G. Zuckerman, Classification of Irreducible Tempered Representations of Semisim-
+    ple Lie Groups, Annals of Mathematics Series 2, Volume 118, 389-501 (1982)
+32. T. Kobayashi, Discrete decomposability of the restriction of Aq (λ) with respect to reductive
+    subgroups. II. Micro-local analysis and asymptotic K-support, Annals of Mathematics Series
+    2, Volume 147, Number 3, 709-729 (1998)
+33. T. Kobayashi, Discrete decomposability of the restriction of Aq (λ) with respect to reductive
+    subgroups. III. Restriction of Harish-Chandra modules and associated varieties, Inventiones
+    Mathematicae, Volume 131, Number 2, 229-256 (1998)
+34. T. Kobayashi, Discrete series representations for the orbit space arising from two involutions
+    of real reductive Lie groups, Journal of Functional Analysis 152 (1998), no. 1, 100–135.
+35. T. Kobayashi, Branching Problems of Zuckerman Derived Functor Modules. Pages 23-40 of
+    Representation Theory and Mathematical Physics (in honor of Gregg Zukermann), edited by
+    Adams, Lian, and Sahi, Volume 557 of Contemporary Mathematics, American Mathematical
+    Society, Providence, RI (2011)
+36. B. Kostant, On the Conjugacy of Real Cartan Subalgebras I, Proceedings of the National
+    Academy of Sciences USA, Volume 41, 967-970 (1955)
+37. R. Langlands, On the Classification of Irreducible Representations of Real Algebraic Groups,
+    In “Representation Theory and Harmonic Analysis on Semisimple Lie Groups”, Mathematical
+    Surveys and Monographs, Volume 31, American Mathematical Society, Providence, RI (1989)
+38. M. Morimoto, An Introduction to Sato’s Hyperfunctions, Translations of Mathematical Mono-
+    graphs, Volume 129, American Mathematical Society (1993)
+39. G. Ólafsson, B. Ørsted, Generalizations of the Bargmann Transform, In “Lie Theory and Its
+    Applications to Physics” (Clausthal 1995), 3-14, World Sci. Publ., River Edge, NJ (1996)
+40. G. Ólafsson, H. Schlichtkrull, Representation Theory, Radon Transform and the Heat Equa-
+    tion on a Riemannian Symmetric Space, In “Group Representations, Ergodic Theory, and
+    Mathematical Physics: a Tribute to George W. Mackey”, 315344, Contemporary Mathemat-
+    ics, Volume 449, American Mathematical Society, Providence, RI (2008)
+41. B. Ørsted, J. Vargas, Restriction of Square Integrable Representations: Discrete Spectrum,
+    Duke Mathematical Journal, Volume 123, Number 3, 609-633 (2004)
+42. J. Repka, Tensor Products of Holomorphic Discrete Series Representations, Canadian Journal
+    of Mathematics, Volume 31, Number 4, 836-844 (1979)
+43. W. Rossmann, Kirillov’s Character Formula for Reductive Lie Groups, Inventiones Mathe-
+    maticae, Volume 48, Number 3, 207-220 (1978)
+44. W. Rossmann, Limit Characters of Reductive Lie Groups, Inventiones Mathematicae, Volume
+    61, Number 1, 53-66 (1980)
+45. W. Rossmann, Limit Orbits in Reductive Lie Algebras, Duke Mathematical Journal, Volume
+    49, Number 1, 215-229 (1982)
+46. W. Rossmann, Picard-Lefschetz Theory and Characters of a Semisimple Lie Group, Inven-
+    tiones Mathematicae, Volume 121, Number 3, 579-611 (1995)
+47. M. Sato, Regularity of Hyperfunction Solutions of Partial Differential Equations, Volume 2
+    of Actes Congr. Int. Math., (Nice, 1970), 785-794 (1971)
+48. W. Schmid, K. Vilonen, Characteristic Cycles and Wave Front Cycles of Representations of
+    Reductive Lie Groups, Annals of Mathematics Series 2, Volume 151, Number 3, 1071-1118
+    (2000)
+49. M. Sugiura, Conjugate Classes of Cartan Subalgebras in Real Semisimple Lie Algebras, Jour-
+    nal of the Mathematical Society of Japan, Volume 11, Number 4, 374-434 (1959)
+50. D. Vogan, Representations of Real Reductive Lie Groups, Progress in Mathematics, Volume
+    15, Birkhauser, Boston, MA (1981)
+          WAVE FRONT SETS OF REDUCTIVE LIE GROUP REPRESENTATIONS                        41
+
+
+51. D. Vogan, Associated Varieties and Unipotent Representations, Harmonic Analysis on Re-
+    ductive Groups (Brunswick, ME, 1989), Progress in Mathematics 101, 315-388, Birkhauser,
+    Boston, MA (1991)
+
+   Department of Mathematics, Oklahoma State University, Stillwater, Oklahoma 74078
+   E-mail address: Benjamin.Harris@math.okstate.edu
+
+   Department of Mathematics, Louisiana State University, Baton Rouge, Louisiana
+70803
+   E-mail address: hongyu@math.lsu.edu
+
+   Department of Mathematics, Louisiana State University, Baton Rouge, Louisiana
+70803
+   E-mail address: olafsson@math.lsu.edu
+

@@ -1,0 +1,1063 @@
+                                          Unitarizable vector-valued holomorphic series
+
+
+
+
+arXiv:2206.07407v2 [math.RT] 6 Jul 2022
+                                            and the Laplace transform : an example
+                                                                      Jean-Louis Clerc
+
+
+                                                                            Abstract
+                                               For TΩ a Hermitian symmetric tube-type domain, a family (πµ )µ∈C
+                                            of holomorphic vector-valued representations is studied. The corre-
+                                            sponding Wallach set is determined. The main tool is a realization of
+                                            the representations as weighted L2 -spaces on the cone Ω through the
+                                            Laplace transform.
+
+                                               2020 MSC. Primary 22E46; Secondary 32M15; 44A10
+                                            Key words : tube-type domains, Euclidean Jordan algebra, holomor-
+                                            phic discrete series, weighted Bergman spaces, Laplace transform,
+                                            Wallach set
+
+                                                                         Dedicated to Karl Hofmann
+                                                                         on the occasion of his 90th birthday
+
+
+                                            Introduction
+                                            The holomorphic discrete series has been studied intensively after its
+                                            introduction by Harisch Chandra. In particular the analytic continua-
+                                            tion of the series and the possible unitarizable representations beyond
+                                            the discrete series is a difficult problem, solved in full generality in the
+                                            80’s (see [3], [6]). Earlier, for scalar-valued cases, the description of
+                                            the Wallach set [9] was an important result. For tube-type domains
+                                            in particular, the Laplace transform offers explicit and nice realiza-
+                                            tions of the singular representations (see [8], [4]). There were a few
+                                            attempts to study the vector-valued cases by a similar approach (see
+                                            [7], [1], [2], [5] ), but far from being conclusive. The present work
+                                            addresses these questions on a modest but typical example.
+
+
+                                                                                 1
+          The theory of tube-type domains which are Hermitian symmet-
+      ric spaces is intimately connected to the theory of Euclidean Jordan
+      algebras, as developed in [4]. To any (say) simple Euclidean Jordan
+      algebra J is associated a symmetric cone Ω, and the tube-domain is
+      J ⊕ iΩ. The group G of bi-holomorphic automorphisms has a family
+      of generators which are easily described in the framework of Jordan
+      algebras. The maximal compact subgroup U of G is a real form of
+      the structure group of J, the complexification of J. Hence among
+      the irreducible representations of U one can single out those which
+      are irreducible sub-representations of the natural action of U on the
+      polynomial algebra on J. The simplest component is the space of de-
+      gree one homogeneous polynomials (i.e. linear forms). This allows
+      to define a family of holomorphic representations (πµ ), µ ∈ C (in fact
+      projective representations, which can be realized as representations of
+      the universal covering of G). For µ real-valued and large enough, the
+      representations are unitary and realized on weighted Bergman spaces.
+      Their reproducing kernels Qµ are easy to determine and it is a natural
+      question to ask for which values of µ is Qµ still positive-definite, or
+      said in different terms to determine the Wallach set corresponding to
+      this family of unitarizable vector-valued holomorphic representations.
+      Simple Euclidean Jordan algebras are characterized by three numbers
+      n, r, d which satisfy the relation n = r + r(r−1)
+                                                    2 d. The main theorem
+      of the present article can be formulated as follows.1
+
+      Theorem 0.1. The kernel Qµ is positive-definite if and only if µ
+      belongs to
+                                           
+                   d d                    d [ h rd     
+                  2 , 3 , · · · , (r − 1)          , +∞ .
+                   2   2                  2     2
+
+          In order to investigate other cases, the obstacle is in the complexity
+      of the decomposition of the chosen representation of L, when restricted
+      to the subgroup K of automorphisms of the Jordan algebra J. In the
+      present example, there are only two components and it is possible
+      to handle the case. The investigation through the Laplace transform
+      gives interesting insights in the problem, and our results gives some
+      motivation for considering more examples.
+  1
+   tacitly assumed is the condition r ≥ 2, the case where r = 1 corresponds to the
+complex half-line and has only scalar representations
+
+
+
+
+                                          2
+1 Euclidean Jordan algebra and tube-
+type domains
+Let J a simple Euclidean Jordan algebra. Our main reference on the
+subject is [4] and we usually follow their notation. In particular, a
+simple Euclidean Jordan algebra is characterized by three integers :
+its dimension n, its rank r and an integer d, which satisfy
+                                   r(r − 1)
+                         n=r+               d.
+                                       2
+   The standard inner product on J is given by
+
+                   x, y ∈ J,           (x|y) = tr(xy),
+
+where tr is used for the trace function on J.
+   Let L be the neutral component of the structure group of J. Then
+L is a reductive group, and K = L ∩ O(J) is a maximal compact
+subgroup of L which is also the stabilizer in L of the unit element e
+and the neutral component of the automorphisms group of J.
+   Denote by det the determinant of the Jordan algebra J. Recall
+that det is a homogeneous polynomial of degree r on J.
+   Let χ : L −→ R+ be the character on L which satisfies the following
+identity,
+                          det ℓx = χ(ℓ) det x ,
+for ℓ ∈ L and any x ∈ J.
+    Let P be the quadratic representation of J, and recall that for any
+x∈Ω                                      
+                P (x) ∈ L and χ P (x) = (det x)2 .                   (1)
+Another useful formula, valid for any ℓ ∈ L is
+
+                           Det ℓ = χ(ℓ)n/r .
+
+   Let Ω be the positive cone of J. The measure
+                                           n
+                          d∗ x = (det x)− r dx
+
+is invariant under the action of L.
+    Introduce the Γ-function of the cone as the integral
+                              Z
+                     ΓΩ (λ) =    e− tr x det(x)λ d∗ x
+                               Ω
+
+                                   3
+The integral converges absolutely for ℜ(λ) > (r − 1) d2 = nr − 1 and
+                                                           
+                    n−r             d                       d
+      ΓΩ (λ) = (2π)  2  Γ(λ)Γ λ −       . . . Γ λ − (r − 1)     .
+                                    2                       2
+
+   For α ∈ C, ℜ(α) > (r − 1) d2 , recall the Riesz integral given for a
+Schwarz function ϕ ∈ S(J) by
+                                 Z
+                           1
+                Tα (ϕ) =            ϕ(x)(det x)α d∗ x .             (2)
+                         ΓΩ (α) Ω
+
+Proposition 1.1. For ϕ in S(J), Tα (ϕ) admits an analytic continu-
+ation as an entire function of α. Moreover, the analytic continuation
+Tα is a tempered distribution on J for all α ∈ C and satisfies
+
+                        Tα (ϕ ◦ ℓ−1 ) = χ(ℓ)α Tα (ϕ) .                     (3)
+
+   The closure Ω contains r + 1 orbits under the action of L, namely
+                                       r
+                                       G
+                                Ω=           Ω(k) ,
+                                      k=0
+
+where Ω(k) is the set of elements of rank k in Ω. Notice that Ω(0) = {0}
+and Ω(r) = Ω.
+
+Proposition 1.2. For α = k d2 , 0 ≤ k ≤ r − 1, the distribution Tα is a
+positive measure (from now on denoted by νk ) supported by Ω(k) . The
+measure νk is quasi-invariant by L and satisfies
+                                              d
+                           νk (ℓ . ) = χ(ℓ)k 2 νk ( . ) .                  (4)
+
+    Let c 6= 0 be an idempotent of J. Then the Peirce decomposition
+of J with respect to c is given by
+
+                    J = J(c, 1) ⊕ J(c, 1/2) ⊕ J(c, 0) ,
+
+where for α = 0, 1/2, 1,
+
+                       J(c, α) = {x ∈ J, cx = αx} .
+
+A Jordan frame of J is a collection (c1 , c2 , . . . , cr ) of strongly orthog-
+onal primitive idempotents which satisfy
+
+                           e = c1 + c2 + · · · + cr .
+
+                                         4
+To each Jordan frame corresponds a Peirce decomposition
+                               M
+                         J=         Jij ,
+                                    1≤i≤j≤r
+
+where for 1 ≤ i ≤ r and i + 1 ≤ j ≤ r,
+
+       Jii = J(ci , 1) = Rci ,       Jij = J(ci , 1/2) ∩ J(cj , 1/2) .
+
+The spaces Jij for 1 ≤ i < j ≤ r have the same dimension d.
+    Let J be the complexification of J. Extending the Jordan algebra
+structure of J to J in a C-linear way, J becomes a complex simple Jor-
+dan algebra. Let L be the connected component of the structure group
+of J, which is a reductive group. Extend the Euclidean inner product
+of J to a Hilbertian product on J and let U (J) be the corresponding
+unitary group. Then
+                              U = L ∩ U (J)                        (5)
+is a connected maximal compact subgroup of L. Notice that L and U
+are two real forms of L.
+    Let
+                    TΩ = {z = x + iy ∈ J, y ∈ Ω}
+be the corresponding tube domain. Let G be the neutral component
+of the group of biholomorphic diffeomorphisms of TΩ . The group G is
+generated by
+    • the group L, after complex extension to J of its elements
+    • the group of translations N = {tu : z 7→ z + u, u ∈ J}
+    • ι the inversion z 7−→ −z −1 .
+    The group G acts transitively on TΩ and the space TΩ , equipped
+with the Bergman metric, is a non compact Hermitian symmetric
+space.
+    Let g ∈ G and let z ∈ TΩ . Then the complex differential Dg(z) is
+an element of the complex structure group L of the complex Jordan
+algebra J. For the generators of G, notice that for z ∈ TΩ
+    • Dℓ(z) = ℓ for ℓ ∈ L.
+    • Dtu (z) = id for u ∈ J
+                      
+    • Dι(z) = P z −1 = P (z)−1 for the inversion ι.
+    For g ∈ G and z ∈ TΩ , let J(g, z) = Dg(z) be the differential of
+the map g at z. An important result is that
+
+                                 J(g, z) ∈ L ,
+
+                                      5
+as can verified on the generators of G and extended to G by using the
+chain rule.
+    Let Ue be the stabilizer of the origin ie ∈ TΩ . Then Ue is a maximal
+compact subgroup of G. To describe this subgroup, it is convenient
+to refer to the bounded realization of TΩ . Let | . | be the spectral norm
+on J and let D be the corresponding open unit ball
+
+                       D = {w ∈ J,      |w| < 1} .
+
+Let G(D)0 be the neutral component of the group of biholomorphic
+diffeomorphisms of D. Then the stabilizer of 0 ∈ D in G(D)0 is equal
+to U as defined by (5).
+    Define the Cayley transform to be the rational map c on J given
+by
+                     c(w) = i(e + w)(e − w)−1 .
+Then c is well-defined for w ∈ D, its image c(w) belongs to TΩ and
+c yields a biholomorphic diffeomorphism from D into TΩ . Now for
+u ∈ U , define
+                           e = c ◦ u ◦ c−1 .
+                           u                                      (6)
+Then u ∈ U e and the map u 7−→ u                           e . Notice
+                                e is a isomorphism of U to U
+that
+                             De
+                              u(ie) = u .                         (7)
+This is obtained by the chain rule applied to (6) and the fact that
+Dc(0) = 2i idJ .
+
+
+2 Vector-valued holomorphic represen-
+tations and Laplace transform
+Let (σ, Vσ ) be a finite dimensional (holomorphic) irreducible repre-
+sentation of L (equivalently of U or L) and choose an inner product
+( . , . )Vσ on Vσ which is invariant under the action of U . Let Oσ be the
+Montel space of Vσ -valued holomorphic functions on TΩ . The following
+formula defines a representation of G on Oσ
+                                            −1          
+                  πσ (g)F (z) = σ J(g−1 , z)    F g−1 (z) .            (8)
+
+For F, G ∈ Oσ let
+                          Z
+                                                    
+              (F, G)σ =        σ(P (y)−1 F (z), G(z) Vσ d∗ z
+                          TΩ
+
+
+                                    6
+                         2n
+where d∗ z = (det y)− r dx dy is the G-invariant measure on TΩ , and
+let
+                  Hσ = {F ∈ Oσ , (F, F )σ < +∞} .
+   When this space is not reduced to {0}, it is a Hilbert space, stable
+by the action of G and πσ yields a unitary representation of G. Then
+the evaluation map at any z ∈ TΩ
+
+                          Hσ ∋ F 7−→ F (z) ∈ Vσ
+
+is easily shown to be continuous. Define for z, w ∈ TΩ the reproducing
+kernel of Hσ by
+                                         ∗
+                         Qσ (z, w) = Ez Ew    .
+Proposition 2.1. Assume that Hσ 6= {0}. Then
+                                        
+                                    z−w
+                 Qσ (z, w) = c σ P
+                                      2i
+for some constant c > 0.
+   See [1] for a proof. Denote by Herm+ (Vσ ) the space of positive
+semi-definite operators on Vσ .
+Proposition 2.2. Suppose that Hσ 6= {0}. There exists a unique
+Herm+ (Vσ )-valued measure dRσ on Ω such that
+                              Z
+                                   z−w
+                  Qσ (z, w) =   e−( 2i | v) dRσ (v) .      (9)
+                                      Ω
+
+Moreover, the measure dRσ satisfies
+
+           ∀ℓ ∈ L,        dRσ (ℓ . ) = σ(ℓ)∗ −1 dRσ ( . ) σ(ℓ)−1 ,   (10)
+                         Z
+                            e− tr v dRσ (v) = IdVσ .                 (11)
+                              Ω
+
+    For a proof see [1].
+    Let Lσ be the space of mesurable functions f : Ω −→ Vσ which
+satisfy            Z
+                                            
+                        dRσ (2v)f (v), f (v) Vσ < +∞ .      (12)
+                     Ω
+After identifying two functions which are equal dRσ -a.e., Lσ becomes
+a Hilbert space for the inner product
+                            Z
+                                                  
+                 (f, g)Lσ =    dRσ (2v)f (v), g(v) Vσ .           (13)
+                                  Ω
+
+                                          7
+Define the (modified) Laplace transform Fσ by
+                            Z
+                 Fσ f (z) =    ei (z | v) dRσ (2v)f (v) .           (14)
+                                 Ω
+
+Proposition 2.3. Assume that Hσ 6= {0}. Then the Laplace trans-
+form Fσ yields an isometry from Lσ onto Hσ .
+
+   For the proof, see [1], Theorem 3.5.
+   The results presented so far can be summarized as follows : to
+each representation σ such that Hσ is not reduced to {0}, there corre-
+sponds an Herm+ (Vσ )-valued measure dRσ on Ω which satisfies (10)
+and (11). In some sense, there is a converse construction, starting
+form the measure dRσ and constructing the Hilbert space Hσ .
+
+Proposition 2.4. Let σ be a holomorphic irreducible representation of
+L and assume that there exists an Herm+ (Vσ )-valued measure dRσ on
+Ω which satisfies (10) and (11). Define the space Lσ by the condition
+(12) and let Heσ be the image of Lσ by the Laplace transform (14).
+      e
+Then Hσ , equipped with the inner product given by
+
+                          (Fσ f, Fσ g) = (f, g)Lσ
+
+is a Hilbert space of holomorphic functions in TΩ , which admits the
+reproducing kernel given by
+                               Z
+                                    z−w
+                   Qσ (z, w) =   e−( 2i | v) dRσ (v) .
+                                     Ω
+
+The space Heσ is stable under the action of G given by (8) and (πσ , H
+                                                                     eσ )
+is an irreducible unitary representation of G.
+
+  For the proof see again [1], Theorem 3.5.
+Remark. For z, w ∈ TΩ ,
+                          
+                     z−w        ℑ(z) + ℑ(w)
+                 ℜ            =             ∈ Ω,
+                       2i            2
+
+and on the diagonal
+                                     
+                                z−z
+                        ℜ                 = ℑ(z) ∈ Ω .
+                                 2i
+
+
+
+                                          8
+            z−w
+                
+Hence det    2i 6= 0 on 
+                         TΩ × TΩ , and there exists a unique determi-
+                  z−w
+nation of log det         on TΩ × TΩ which coincides on the diagonal
+                    2i
+{w = z} with ln (det(ℑz)). With this choice, define for µ ∈ C,
+                            
+                        z−w µ                z−w
+                  det           = eµ log(det( 2i )) ,
+                         2i
+and let                                     µ
+                          σµ (ℓ) = χ(ℓ)− 2 σ(ℓ) .
+This makes sense for ℓ ∈ L and defines a representation of L, which
+can also be considered as a representation of the universal covering
+of L. It may be used to define a holomorphic representation πσµ of
+the universal covering of G still using formula (8). Thanks to (1), the
+corresponding reproducing kernel is given by
+                                         
+                                    z − w −µ
+               Qσ,µ (z, w) = det              Qσ (z, w) .
+                                      2i
+This opens the possibility of studying the existence of dRσ by using
+techniques of analytic continuation.
+
+
+3 Polynomial representations of L and
+the associated holomorphic discrete se-
+ries
+Let P be the space of holomorphic polynomials on J. The group L
+acts naturally on P by
+
+                          π(ℓ)p (z) = p(ℓ−1 z) ,
+
+for p ∈ P and ℓ ∈ L. It may also be regarded as a representation of
+U or of L, and clearly the decomposition of P into invariant minimal
+subspaces is the same for the three different points of view.
+    Fix a Jordan frame (c1 , c2 , . . . , cr ) of J. For 1 ≤ k ≤ r let
+
+              ek = c1 + c2 + · · · = ck ,       Jk = J(ek , 1) .
+
+Then Jk is simple Jordan algebra with neutral element ek . Notice that
+for any k, 0 ≤ k ≤ r,
+                             Ωk = L ek .
+
+                                      9
+    Let detk be its determinant and let pk be the orthogonal projector
+of J unto Jk . Form
+                          ∆k (x) = detk (pk x)
+the k-th principal minor.
+    A multiindex m = (m1 , m2 , . . . , mr ) where mj ∈ Z, 1 ≤ j ≤ r is
+said to be positive if m1 ≥ m2 ≥ · · · ≥ mr ≥ 0. The set of positive
+multiindices is denoted by M+ . For m ∈ M+ let
+           ∆m (x) = ∆1 (x)m1 −m2 ∆2 (x)m2 −m3 . . . ∆r (x)mr .
+and let Pm be the subspace of P generated by {π(ℓ)∆m , ℓ ∈ L}.
+Proposition 3.1. The subspaces Pm are mutually inequivalent irre-
+ducible subspaces under the action of L and P is the direct orthogonal
+sum                              M
+                          P=           Pm .
+                                m∈M+
+
+   Denote by πm the restriction of π to the subspace Pm will be
+denoted by πm .
+   Let m = (m1 , m2 , . . . , mr ) ∈ M+ and let Om = O(TΩ , Pm ) ≃
+O(TΩ ) ⊗ Pm be the space of Pm -valued holomorphic functions on TΩ .
+Then G acts on Om by
+                                         −1          
+            πm (g)F (z) = σm (J(g−1 , z)     F g−1 (z) .
+Form the corresponding Hilbert space Hσm and the corresponding
+representation πσm of G on Hσm . Let further
+                                           
+                                       z−w
+                  Qm (z, w) = σm P              .
+                                         2i
+When Hm 6= {0}, this is (up to a positive scalar) the reproducing
+kernel of Hm , and there exists a Herm+ (Pm )-valued measure dRm ,
+supported in Ω, such that (9) is satisfied. The question we address
+is to calculate dRm , using the two properties (10) and (11) which
+allow in principle to calculate a formal solution. It remains to test the
+positivity of the solution to conclude.
+    In this case, the remark can be exploited as follows. Let µ ∈ N,
+and consider the map Iµ : P → P given by
+                        (Iµ p )(z) = (det z)µ p(z)
+and define the representation σm,µ of L on Pm given by
+                    σm,µ (ℓ) p = χ(ℓ)−µ (p ◦ ℓ−1 ) .
+
+                                   10
+Proposition 3.2. The operator Iµ maps Pm onto Pm+µ and inter-
+twines σm,µ and σm+µ .
+
+Proof. Now first
+
+                (Iµ ∆m )(z) = ∆1 (x)m1 −m2 . . . ∆m
+                                                  r
+                                                    r +µ
+                                                         (z)
+
+        = ∆m1 +µ,m2 +µ,...,mr−1 +µ,mr +µ (z) = ∆m+µ (z) ∈ Pm+µ
+Next for p ∈ Pm
+
+Iµ (σm,µ (ℓ)p)(z) = χ(ℓ)−µ p(ℓ−1 z)∆µr (z) = p(ℓ−1 z)∆µr (ℓ−1 z) = (Iµ p)(ℓ−1 z) .
+
+Combining both formulas,
+
+           Iµ (σm,µ (ℓ)∆m ) = ∆m+µ ◦ ℓ−1 = σm+µ(ℓ) Iµ ∆m .
+
+
+
+    As observed previously, this can be extended for µ a complex num-
+ber, by considering the universal covering of L.
+    The strategy is to consider a multiindex m with last index mr = 0
+and study the family of kernels Qσm+µ , µ ∈ C by analytic continuation.
+    The scalar case (i.e. m = (m, m, . . . , m)) is treated in [4] ch. XIII
+and the study leads to the so-called Wallach set (see [9] and [8] for
+original proofs).
+    For x ∈ Ω, ∆j (x) > 0. For s = (s1 , s2 , . . . , sr ) ∈ Cr , write
+
+              ∆s (x) = ∆1 (x)s1 −s2 ∆2 (x)s2 −s3 . . . ∆r (x)sr .
+
+The Gamma function of the cone Ω is defined by
+                           Z
+                  ΓΩ (s) =    e− tr x ∆s (x)d∗ x
+                                      Ω
+
+The integral is absolutely convergent for ℜsj > (j −1) d2 , j = 1, 2, . . . , r
+and can be meromorphically continued to Cr . Moreover,
+                                      r
+                                      Y                       
+                                n−r                        d
+                ΓΩ (s) = (2π)    2          Γ sj − (j − 1)         ,      (15)
+                                                           2
+                                      j=1
+
+see [4] Ch. VII.
+
+
+
+                                          11
+       4     The case of P1,0,...,0
+       In this section, we achieve the computation of dRµ for the case corre-
+       sponding to the family of indices m = (1, 0, . . . , 0) + µ, µ ∈ C. 2
+           The space P1,0,...,0 is the dual space J′ of complex linear forms on
+       J. Using the duality (over C) given by
+
+                                     (x, y) 7−→ tr xy
+
+       it is convenient to identify J′ with J. The corresponding representation
+       σ of L is then given by
+                                                  −1
+                                     σ(ℓ)v = ℓt        v.
+
+       The corresponding U -invariant Hilbertian inner product is given by
+
+                                     (x|y) = tr xy .
+
+       The following (folklore) lemma will be useful later.
+
+       Lemma 4.1. Let J be a simple Euclidean Jordan algebra of rank
+       r ≥ 2. Let Q be a Hermitian operator on J which is invariant under
+       K. Then there exists α, β ∈ R such that for any v, w ∈ J
+
+                                  Qv = αv + β(v|e) e.
+
+       Proof. Let q(v, w) = (Qv, w) be the associated Hermitian     L     form on J.
+       Let (c1 , c2 , . . . , cr ) be a Jordan frame of J. Let A = rj=1 Ccj and let
+       qA be the restriction of q to A. Given a permutation σ of {1, 2, . . . , r}
+       there exists an element kσ of K such that kσ cj = cσ(j) . Hence qA is
+       invariant under Sr . The space A ≃ Cr decomposes under the action
+       of Sr as
+                                                                        
+                                            M       Xr          r
+                                                                 X       
+                 A = Ce ⊕ A0 = Ce                a=      aj cj ,   aj = 0 ,
+                                                                        
+                                                  j=1       j=1
+
+       and A0 is irreducible under the action of Sr . Hence the space of Sr -
+       invariant
+              PrHermitian forms
+                              Pr on A is
+                                       Pof  dimension 2. The two Hermitian
+                                          r
+       forms j=1 aj bj and ( j=1 aj )( j=1 bj ) on Cr are Sr -invariant and
+   2
+    The case where J is of rank 1, i.e. J = R, is excluded as there are only scalar scalar
+valued cases.
+
+
+                                            12
+they are linearly independent. Hence there exists two real numbers
+α, β such that
+                                                           
+       Xr         r
+                  X              Xr               r
+                                                  X        r
+                                                           X
+   qA (   aj cj ,   bj cj ) = α    aj bj  + β    aj     bj  .
+      j=1      j=1                 j=1                   j=1        j=1
+
+As a consequence, the two Hermitian forms q and α tr(xx)+β tr(x) tr(x)
+on J are invariant by K and coincide on A. By the spectral theorem for
+J, they coincide on J and hence also on J. The conclusion follows
+   Recall that σµ is the representation of L given by
+                                            µ
+                           σµ (ℓ) = χ(l)− 2 σ(ℓ) .
+The measure dRµ on Ω should satisfy
+             for all ℓ ∈ L,        dRµ (ℓ.) = χ(ℓ)µ ℓ dRµ (.) ℓt          (16)
+and                     Z
+                               e− tr v dRµ (v) = IdJ .                    (17)
+                           Ω
+
+Theorem 4.2. Let ℜµ > (r − 1) d2 . Let dRµ be the Herm(J)-valued
+measure on Ω defined by
+                                               
+                      1                      d
+ dRµ (y) =                           µP (y) − py (det y)µ d∗ y (18)
+           µ(µ + 1)(µ − d2 )ΓΩ (µ)           2
+
+where for y ∈ J, py is the operator defined by py v = (v|y)y.
+   Then                Z
+                          e− tr y dRµ (y) = IdJ .
+                           Ω
+   Before giving a proof of the theorem, we present a heuristic ap-
+proach which led us to the formula. Assume that the measure dRµ is
+                                                                       n
+absolutely continuous with respect to the L-invariant measure (det y)− r dy
+on Ω, and let
+                                              n
+                     dRµ (y) = rµ (y)(det y)− r dy
+be its expression, where rµ is now a Herm(J)+ -valued function on Ω.
+The function rµ has to satisfy
+             ∀ℓ ∈ L, ∀x ∈ Ω,          rµ (ℓx) = χ(l)µ l rµ (x) lt         (19)
+and                    Z
+                            e− tr x rµ (x) dx∗ = idJ .                    (20)
+                        Ω
+
+                                       13
+Lemma 4.3. Let rµ a Herm(J)-valued function on Ω which satisfies
+(19). Then there exist two real numbers α(µ), β(µ) such that
+                                                    
+               rµ (y) = (det y)µ α(µ)P (y) + β(µ) py .       (21)
+
+Proof. Letting ℓ ∈ K and v = e, (19) implies that for any k ∈ K
+
+                             k rµ (e) = rµ (e) k .
+
+Now use Lemma 4.1 to conclude that there exists two real numbers
+α(µ) and β(µ) such that
+
+                      rµ (e)v = α(µ)v + β(µ) tr(v)e .
+
+Further, let y ∈ Ω and use again (19) with x = e and ℓ = P (y 1/2 ) to
+get                                                  
+                rµ (y) = (det y)µ α(µ)P (y) + β(µ) py .
+
+
+   To prove Theorem 4.2, it remains to compute α(µ) and β(µ), so
+that (20) is satisfied. Consider the four following functions on J
+
+              Tr P (x),     Tr px ,   (P (x)e|e),     (px (e)|e) .
+
+They are homogeneous polynomials of degree 2 and they are invari-
+ant by K. The space P2 of homogeneous polynomials of degree 2
+decomposes under the action of L as
+
+                         P2 = P2,0,...,0 ⊕ P1,1,0,...,0 ,
+
+as a consequence of Proposition 3.1. Now each space Pm contains a
+unique (up to a scalar) K-invariant vector (see [4] Proposition XI.3.1),
+so that the four polynomials are linear combination of the two K-
+invariant polynomials in P2,0 and P1,1 .
+
+Lemma 4.4. Consider the following polynomials
+                   d
+      p2,0 (x) =     (tr x)2 + tr(x2 ) ,    p1,1 (x) = (tr x)2 − tr(x2 )
+                   2
+Then p2,0 (resp. p1,1 ) is the unique (up to a scalar) K-invariant ele-
+ment in P2,0,...,0 (resp. P1,1,0,...,0 ).
+
+For a proof, see [4] ch XI. Exercice 2.
+
+                                       14
+Lemma 4.5. Let J be a simple Euclidean Jordan algebra of rank
+r ≥ 2. Then the following identities hold
+
+                             2               d2         
+                Tr P (x) =       p2,0 (x) +      p1,1 (x)                 (22)
+                            d+2                4
+                                 2                d       
+           (P (x)e|e) = Tr px =        p2,0 (x)) − p1,1 (x)               (23)
+                                d+2                2
+                              2                      
+                  (px e|e) =     p2,0 (x) + p1,1 (x) .                    (24)
+                             d+2
+Proof. First observe that
+
+        (P (x)e|e) = (x2 |e) = tr(x2 ),      Tr px = (x|x) = tr(x2 ),
+
+                       (px e|e) = (x|e)(x|e) = (tr x)2 .
+Hence (23) and (24) express the change of basis from {tr(x2 ), (tr x)2 }
+to {p2,0 , p1,1 }. For (22), it suffices to evaluate both sides on x = e
+and on x = c a primitive idempotent (e and c are not proportional, as
+rank J ≥ 2). Now
+
+tr(e) = tr(e2 ) = r,    Tr P (e) = n,      tr(c) = tr(c2 ) = 1,   Tr P (c) = 1
+
+and the verification follows by elementary computation.
+
+Lemma 4.6. For ℜµ > (r − 1) d2 ,
+        Z                                         rd 
+ I2,0 =     e− tr x p2,0 (x)(det x)µ d∗ x = r 1 +       µ(µ + 1)ΓΩ (µ) (25)
+         Ω                                          2
+         Z
+                                                             d
+  I1,1 =     e− tr x p1,1 (x)(det x)µ d∗ x = r(r − 1) µ (µ − )ΓΩ (µ) (26)
+           Ω                                                 2
+Proof. Let p ∈ Pm . For ℜµ > (r − 1) d2 ,
+            Z
+               e− tr y p(y)(det y)µ d∗ x = ΓΩ (m + µ) p(e) .              (27)
+               Ω
+
+See [4] Lemma XI.2.3. Apply now this formula and for m = (2, 0, . . . , 0)
+                   Z
+                      e− tr x p2,0 (x) (det x)µ d∗ x =
+                        Ω
+                                   r
+                                     Y                
+              n−r      rd                            d
+        = (2π) 2 r 1 +      Γ(2 + µ)   Γ µ − (j − 1)
+                        2                            2
+                                              j=2
+
+
+                                      15
+                                   
+                             rd
+                       =r 1+            (µ + 1) µ ΓΩ (µ)
+                              2
+   and for m = (1, 1, 0, . . . , 0) to obtain
+                       Z
+                            e− tr x p1,1 (det x)µ d∗ x
+                             Ω
+                                              r                 
+           n−r                              d Y                  d
+  = (2π)    2    r(r − 1)Γ(µ + 1)Γ µ + 1 −         Γ µ − (j − 1)
+                                            2                    2
+                                               j=3
+                                          
+                                         d
+                       = r (r − 1) µ µ −     ΓΩ (µ) .
+                                         2
+
+
+Proposition 4.7. For ℜµ > (r − 1) d2
+                  Z
+                    e− tr x Tr(P (x))(det x)µ d∗ x
+                        Ω
+                                                                  (28)
+        2                rd               d2        d 
+     =     ΓΩ (µ)rµ (1 + )(µ + 1) + (r − 1)(µ − )
+       d+2                2               4         2
+                    Z
+                       e− tr x Tr(px )(det x)µ d∗ x
+                             Ω
+                                                                  (29)
+         2                rd               d            d 
+      =     ΓΩ (µ)rµ (1 + )(µ + 1) − (r − 1)(µ − )
+        d+2                2               2            2
+                     Z
+                        e− tr x (P (x)e|e)(det x)µ d∗ x
+                             Ω
+                                                                  (30)
+         2                  rd              d       d 
+      =     ΓΩ (µ)rµ (1 + )(µ + 1) − (r − 1)(µ − )
+        d+2                  2              2       2
+                   Z
+                      e− tr x (px e|e)(det x)µ d∗ x
+                         Ω
+                                                                  (31)
+         2               rd                     d 
+      =     ΓΩ (µ)rµ (1 + )(µ + 1) + (r − 1)(µ − ) .
+        d+2               2                     2
+Proof. Combine Lemma 4.5 and Lemma 4.6 to get the results.
+
+   As Tr(IdJ ) = n and (IdJ e, e) = tr e = r, α(µ), β(µ) have to satisfy
+                           2                                                    
+ (2 + rd)(µ + 1) + (r − 1) d2 (µ − d2 ) (2 + rd)(µ + 1) − (r − 1)d(µ − d2 )  α(µ)
+                                                                                
+                                  d                                    d      β(µ)
+  (2 + rd)(µ + 1) − d(r − 1)(µ − 2 ) (2 + rd)(µ + 1) + 2(r − 1)(µ − 2 )
+
+                                        16
+                                        
+                                        n
+                               d+2  
+                            =              .
+                              rµΓΩ (µ)
+                                        r
+Now observe that the four coefficients of the matrix vanish identically
+for d = −2. Hence the system can be rewritten as
+ (r−1)d                                                          
+                           d2   (r−1)d             (r−1)d
+      2   + 1  µ − (r − 1) 4  +    2   + 1    µ +     2   + 1    α(µ)
+                                                                   
+                                                             
+              µ + (r−1)d + 1                      rµ + 1         β(µ)
+                      2
+                                         
+                                          n
+                                  1        
+                             =
+                               rµΓΩ (µ)
+                                          r
+The determinant of the matrix is a polynomial of degree 2 in µ, and
+it is easily seen that it vanishes for µ = −1 and µ = d2 . Next, the
+coefficient of degree 2 is equal to
+                                 
+                        (r−1)d
+                           2   + 1      1
+                                          =n−1 .
+                             1       r
+
+Hence the determinant of the matrix of the system is equal to
+                                          
+                                         d
+                    (n − 1)(µ + 1) µ −        .
+                                         2
+
+The solutions of the system are given by
+                   
+               α(µ)
+                   =                  1
+               β(µ)       r(n − 1)µ(µ + 1)(µ − d2 )ΓΩ (µ)
+
+                                                                  
+       rµ + 1                       −µ − (r−1)d
+                                            2   −1                  n
+                                                                  
+                                                               
+                                                      2
+ −µ − (r−1)d
+         2   −1             (r−1)d
+                               2   + 1  µ − (r − 1) d4 + (r−1)d
+                                                            2   +1  r
+
+Notice that
+                                        d
+              n(rµ + 1) − rµ − (r(r − 1) + r) = (n − 1)rµ
+                                        2
+
+
+
+                                    17
+   whereas
+                                                               
+      (r − 1)d                        d2               d      d
+−nµ −          n − n + nµ − r(r − 1) + n = −(r − 1)       n+r
+          2                           4                2      2
+                                  
+         d                       d       d
+     =−      n(r − 1) + r(r − 1)     = − (n(r − 1) + (n − r))
+         2                       2       2
+                                    d
+                                 = − (n − 1)r .
+                                    2
+Hence                                                               
+                   α(µ)                                          µ
+                         =             1              .
+                   β(µ)        µ(µ + 1)(µ − d2 )ΓΩ (µ) − d
+                                                                   2
+Now, following (21) set
+                                                              
+                             1                              d
+        rµ (x) =                                    µP (x) − px (det x)µ
+                   µ(µ + 1)(µ) − d2 )ΓΩ (µ)                 2
+
+and this achieves the proof of Theorem 4.2.
+   We now discuss for which values of µ is rµ Herm+ (J)-valued.
+Lemma 4.8. Let y ∈ Ω. Then for any v ∈ J
+                                      
+                    py v|v ≤ r P (y)v|v .                                  (32)
+
+Moreover, if y ∈ Ω and v 6= 0, then equality in (32) holds if and only
+if y = te, t ∈ R+ and v = λe, λ ∈ C∗ .
+
+Proof. We may assume that y 6= 0. The space J splits as J =
+Cy ⊕ (y)⊥ . Both subspaces are invariant under py . Moreover P (y)
+preserves Cy and as it is a selfadjoint operator, it also preserves (y)⊥ .
+Hence to prove the inequality (32), it is enough to prove the inequal-
+ity separately on both subspaces. The inequality is trivial on (y)⊥ , so
+that it is enough to prove it on Cy. Now
+                                         
+           py y|y = (y|y)2 ,     P (y) y|y = (y 3 |y) = (y 2 |y 2 ) .
+
+By the Cauchy-Schwarz inequality,
+                                                      1      1
+                       (y|y) = (y 2 |e) ≤ y 2 |y 2 ) 2 (e|e) 2 ,           (33)
+
+so that
+                                (y|y)2 ≤ r(y 2 |y 2 )
+
+                                         18
+and hence (32) is also satisfied on Cy.
+    Assume now that y ∈ Ω. Then as P (y) is positive-definite, the
+inequality (32) is strict on (y)⊥ . So equality can occur only if v = µy
+for some µ ∈ C, µ 6= 0. Conversely, equality in (32) implies
+
+                            (y|y)2 = r(y 2 |y 2 ),
+
+hence corresponds to the case of equality in the Cauchy-Schwarz in-
+equality (33) and implies y = te for some t > 0. This completes the
+proof.
+
+   The next proposition is just an immediate consequence of the pre-
+vious lemma.
+
+Corollary 4.9. Let µ ∈ R. For y ∈ Ω, the operator rµ (y) is positive
+semi-definite if and only if µ ≥ rd
+                                  2 .
+
+
+
+5     The singular cases
+To prove Theorem 0.1, it remains (cf [1]) to look to the cases µ =
+k d2 , 0 ≤ k ≤ r−1. If k = 0, i.e. for the orbit O(0) = {0}, there is clearly
+no solution to the condition (16). The next section will treat the case
+k = 1. We examine in this section the case where 2 ≤ k ≤ r − 1,
+assuming that r ≥ 3. The next lemma is a generalization of Lemma
+4.8.
+
+Lemma 5.1. Let 1 ≤ k ≤ r and let y ∈ Ω(k) . Then for all v ∈ J
+                                         
+                    py v | v ≤ k P (y)v |v .                   (34)
+
+Proof. Let c be an idempotent of rank k. Decompose V as Cc ⊕ (c)⊥ .
+Both subspaces are invariant by pc and by P (c). Hence it suffices to
+verify (34) separately on each subspace. The inequality being trivial
+on (c)⊥ , it suffices to verify it on Cc. So let v = λc, with λ ∈ C. Then
+                                                   
+                pc (v)|v = |λ|2 (c|c),      P (c)v|v = |λ|2 .
+
+As (c, c) = k, (34) is valid for y = c. Now let y in Ω(k) . There exists
+an idempotent c of rank k and some ℓ ∈ L such that y = ℓc. Now
+py = ℓ∗ pc ℓ and P (y) = ℓ∗ P (c)ℓ and (34) follows by using the result
+obtained for c when applied to w = ℓv.
+
+
+                                     19
+Theorem 5.2. Let 3 ≤ k ≤ r − 1. Let
+                                   4
+                rk (y) =                     (kP (y) − py ) .
+                           k(k − 1)(kd + 2)d
+Then                   Z
+                                  e− tr y rk (y)dνk (y) = IdJ                 (35)
+                           Ω(k)
+
+Proof. Rewrite Theorem 4.2 using the Riesz integrals (cf (2)), ex-
+tended to operator-valued functions to obtain
+                                                     
+                        1                          d
+          IdJ =                  Tµ (y) , µP (y) − py .      (36)
+                µ(µ + 1) µ − d2                    2
+
+The statement is valid for ℜ(µ) large enough, and both sides can
+be continued analytically. By analytic continuation, the two sides
+coincide at µ = k d2 for k = 2, . . . , r − 1, and, as dνk = Tk d , (35) is just
+                                                                2
+an equivalent formulation.
+
+   The positivity of rk (y) for y ∈ O(1) follows from Lemma 5.1 and
+                       d
+hence the values µ = k , 2 ≤ k ≤ r − 1 belong to the Wallach set.
+                       2
+
+6      The case µ = d2
+The last case concerns the case where µ = d2 . In fact, the factor (µ− d2 )
+in the denominator of the right hand expression of (36) leads to an
+indetermination, as for c a primitive (i.e. rank(c) = 1) idempotent,
+
+                           pc (v) = P (c)v = (v, c) c ,
+
+and hence the expression µP (y) − d2 py vanishes for µ = d2 identically
+on Ω(1) .
+Proposition 6.1. There is no Herm+ (J)-valued measure supported
+on Ω(1) such that conditions (16) and (17) are satisfied.
+    Before giving the proof, a few elementary lemmas are needed.
+Lemma 6.2. Let c be an idempotent in J. For s > 0, let ℓs =
+P (c + s(e − c)). Then
+                                             1
+ℓs = id on J(c, 1),         ℓs = s id on J(c, )            ℓs = s2 id on J(c, 0) .
+                                             2
+
+                                          20
+Proof. By using the definition of the quadratic operator P
+                                                      
+P s + (e − c) = P (c) + 2s (L(c)L(e − c) + L(e − c)L(c) + s2 L(e − c)2
+
+and the verification of the lemma is a routine calculation.
+
+Lemma 6.3. Let c be a primitive idempotent of J. Let Lc be the
+stabilizer of c in L. Let S ∈ Herm+ (J) and assume that
+
+                          ∀ℓ ∈ Lc ,       S = ℓ S ℓt .              (37)
+
+Then there exists a scalar α ∈ [0, +∞) such that S = αP (c).
+
+Proof. Recall first the formula P (ℓx) = ℓP (x)ℓt for any element x
+and ℓ ∈ L. Hence P (c) satisfies (37). Now assume that S ∈ Herm+ (J)
+satisfies (37). For s > 0, ℓs = P c + s(e − c) belongs to Lc and
+is symmetric. Hence condition (38) implies that S = ℓs S ℓs for any
+s > 0. Let v ∈ J(c, 12 ). Then by Lemma 6.2
+
+                                           1
+                               ℓs S v =      Sv
+                                           s
+which is clearly impossible unless Sv = 0. Hence S vanishes on J(c, 12 ).
+A similar argument shows that S vanishes on J(c, 0). As c is primitive
+J(c, 1) = Rc1 and Sc1 = ℓs Sℓs c1 = ℓs Sc1 , which forces Sc1 ∈ Cc1 .
+The conclusion follows.
+
+    Now we are in condition to prove Proposition 6.1. Assume there
+exists a measure, which we denote by dR1 for simplicity, satisfying
+both conditions. Then there would exist a Herm+ (J)-valued function
+r1 on Ω(1) such that dR1 (x) = r1 (x) dν1 (x) satisfying, for x ∈ Ω(1)
+
+                             r1 (ℓx) = ℓ r1 (x) ℓt                  (38)
+
+and                   Z
+                            e− tr x r1 (x) dνk (x) = IdJ            (39)
+                       Ω1
+
+Let c be a primitive idempotent and let S = r1 (c). Then S satisfies
+the conditions of Lemma 6.3 and hence there exists α ∈ [0, +∞) such
+that S = αP (c). Now all primitive idempotents are conjugate by
+some element of K and S commutes with K (a consequence of (16)).
+Hence the constant α does not depend on c. Any element x of Ω(1) is
+
+
+
+                                      21
+a multiple of a primitive idempotent and hence satisfies x = |x|c for
+some primitive idempotent c. In turn, this implies that
+
+               r1 (x) = |x|2 r1 (c) = α|x|2 P (c) = αP (x) .
+
+Hence
+
+          Tr r1 (x) = α|x|2 ,    (r1 (x)e|e) = α(x2 |e) = α|x|2
+
+As Tr r1 (x) = (r1 (x)e|e) for any x ∈ Ω(1) , the integral on the left hand
+side of (39), call it Σ, satisfies Tr(Σ) = (Σe, e). As Tr IdJ = n and
+(Id e|e) = r, Σ cannot be equal to IdJ . This achieves the proof of
+Proposition 6.1.
+   The proof of Theorem 0.1 is now complete.
+
+
+References
+ [1] J.-L. Clerc, Laplace transform and unitary highest weight mod-
+     ules, J. Lie Theory 5, 225–240 (1995)
+ [2] H. Ding, Weighted Laplace transforms and Bessel functions on
+     Hermitian symmetric domains, Trans. Amer.Math. Soc. 351,
+     4205–4243 (1999)
+ [3] T. Enright, R. Howe, N. Wallach,, A classification of uni-
+     tary highest weight modules, Representation theory of reductive
+     groups, Park City, Utah, 97–143, Progr. Math., 40, Birkhäuser
+     (1982)
+ [4] J. Faraut, A. Korányi, Analysis on Symmetric Cones, Oxford
+     Science Publications, Clarendon Press (1994)
+ [5] J. Hilgert, K.-H. Neeb, Vector valued Riesz distributions on Eu-
+     clidean Jordan algebras, J. Geom. Analysis 11, 43–75 (2001)
+ [6] H.-P. Jakobsen, Hermitian symmetric spaces and their unitary
+     highest weight modules, J. Funct. Anal. 52, 385–412 (1983)
+ [7] R. Kunze, Positive definite operator-valued kernels and unitary
+     representations, Proc. Conf., Irvine, Calif., pp. 235–247 Academic
+     Press, London (1966)
+ [8] H. Rossi and M. Vergne, Analytic continuation of the holomorphic
+     discrete series of a semisimple Lie group, Acta Math. 136, 1–59
+     (1976)
+
+                                    22
+ [9] N. Wallach, The analytic continuation of the discrete series, I,
+     II, Trans. Amer. math. Soc. 251, 1–17, 18–37 (1979)
+Address
+Jean-Louis Clerc, Université de Lorraine, CNRS, IECL, F-54000 Nancy,
+France
+jean-louis.clerc@univ-lorraine.fr
+
+
+
+
+                                 23
+

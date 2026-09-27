@@ -1,0 +1,1120 @@
+                                               Tempered reductive homogeneous spaces
+
+
+
+
+arXiv:1211.1203v2 [math.RT] 11 Nov 2013
+                                                         Yves Benoist and Toshiyuki Kobayashi
+
+
+
+                                                                              Abstract
+                                                    Let G be a semisimple algebraic Lie group and H a reductive
+                                                subgroup. We find geometrically the best even integer p for which the
+                                                representation of G in L2 (G/H) is almost Lp . As an application, we
+                                                give a criterion which detects whether this representation is tempered.
+
+                                          Key words and phrases, Lie groups, homogeneous spaces, tempered represen-
+                                          tations, matrix coefficients, symmetric spaces
+                                          MSC (2010): Primary 22E46; Secondary 43A85, 22F30.
+
+
+                                          1    Introduction
+                                          Let G be an algebraic semisimple Lie group and H a reductive subgroup.
+                                          The natural unitary representation of G in L2 (G/H) has been studied over
+                                          years since the pioneering work of I. M. Gelfand and Harish-Chandra.
+                                              Thanks to many mathematicians including E. van den Ban, P. Delorme,
+                                          M. Flensted-Jensen, S. Helgason, T. Matsuki, T. Oshima, H. Schlichtkrull, J.
+                                          Sekiguchi, among others, many properties of this representation are known
+                                          when G/H is a symmetric space, i.e. when H is the set of fixed points of an
+                                          involution of G. Most of the preceeding works in this case are built on the fact
+                                          that the ring D(G/H) of G-invariant differential operators is commutative,
+                                          and that the disintegration of L2 (G/H) (Plancherel formula) is essentially
+                                          the expansion of L2 -functions into joint eigenfunctions of D(G/H).
+                                              This paper deals with a more general reductive subgroup H, for which we
+                                          cannot expect that the ring D(G/H) is commutative, and a complete change
+                                          of the machinery would be required in the study of L2 (G/H). We address
+
+                                                                                  1
+the following question: What kind of unitary representations occur in the
+disintegration of G/H? More precisely, when are all of them tempered?
+    The aim of this paper is to give an easy-to-check necessary and sufficient
+condition on G/H under which all these irreducible unitary representations
+are tempered, or equivalently under which L2 (G/H) is tempered, and in
+particular, has a ‘uniform spectral gap’. We note that irreducible tempered
+representations were completely classified more than 30 years ago by Knapp
+and Zuckerman in [14], whereas non-tempered ones are still mysterious and
+have not been completely understood. Our criterion singles out homogeneous
+spaces G/H for which irreducible non-tempered unitary representations oc-
+cur in the disintegration of L2 (G/H). More generally, we give, for any even
+integer p, a necessary and sufficient condition under which L2 (G/H) is almost
+Lp (see Theorem 4.1).
+    Our criterion is new even when G/H is a reductive symmetric space where
+the disintegration of L2 (G/H) was established up to the classification of dis-
+crete series representations for (sub)symmetric spaces ([1, 8, 20]). Indeed
+irreducible unitary representations that contribute to L2 (G/H) in the direct
+integral are obtained as a parabolic induction from discrete series for sub-
+symmetric spaces, but a subtle point arises from discrete series with singular
+parameter. In fact, all possible discrete series were captured in [21], however,
+the non-vanishing conditions of these modules are sometimes combinatorially
+complicated and these very modules with singular parameters would affect
+the worst decay of matrix coefficients if they do not vanish. (Such complica-
+tion does not occur in the case of group manifolds because Harish-Chandra’s
+discrete series do not allow singular parameters.) Algebraically, the underly-
+ing (g, K)-modules are certain Zuckerman derived functor modules Aq (λ) (see
+[13] for general theory) with possibly singular λ crossing many walls of the
+Weyl chambers, so that the Langlands parameter may behave in an unstable
+way and even the modules themselves may disappear. A necessary condition
+for the non-vanishing of discrete series for reductive symmetric spaces with
+singular parameter was proved in [18] that corrected the announcement in
+[21], whereas a number of general methods to verify the non-vanishing of
+Aq (λ)-modules have been developed more recently in [15, Chapters 4, 5], [22]
+for some classical groups, but the proof of the sufficiency of the non-vanishing
+condition in [18] has not been given so far.
+    Beyond symmetric spaces, very little has been known on the unitary
+representation of G in L2 (G/H) (cf. [16]).
+
+
+                                       2
+    Here is an outline of the paper. As a baby case, we first study the uni-
+tary representations of a semisimple group in L2 (V ) where V is a finite
+dimensional representation. We give a necessary and sufficient condition on
+V under which the representation in L2 (V ) is tempered (Theorem 3.2), or
+more generally, under which this representation is almost Lp . The heart of
+the paper is Chapter 4 where we give a proof of the main results (Theorem
+4.1) for reductive homogeneous spaces G/H. In a subsequent paper we see
+that this criterion suffices to give a complete classification of the pairs (G, H)
+of algebraic reductive groups for which the unitary representation of G on
+L2 (G/H) is non-tempered. To give a flavor of what is possible, we collect
+a few applications of this criterion in Chapter 5, omitting the details of the
+computational verification.
+
+
+2     Preliminary results
+We collect in this chapter a few well-known facts on almost Lp represen-
+tations, on tempered representation and on uniform decay of matrix coeffi-
+cients.
+
+2.1    Almost Lp representations
+In this paper all Lie groups will be real Lie groups. Let G be a unimodular
+Lie group and π be a unitary representation of G in a Hilbert space Hπ .
+
+Definition 2.1. Let p ≥ 2. The unitary representation π is said to be almost
+Lp if there exists a dense subset D ⊂ Hπ for which the coefficients
+cv1 ,v2 : g 7→ hπ(g)v1, v2 i are in Lp+ε (G) for all ε > 0 and all v1 , v2 in D.
+
+    Let K be a maximal compact subgroup of G.
+
+Lemma 2.2. A unitary representation π is almost Lp if and only if there
+exists a dense subset D0 ⊂ Hπ of K-finite vectors for which the coefficients
+cv1 ,v2 are in Lp+ε (G) for all ε > 0 and all v1 , v2 in D0 .
+
+Proof. We first notice that for all v1 , v2 in D and all k1 , k2 in K the two
+vectors π(k1 )v1 and π(k2 )v2 have a coefficient with same Lp+ε -norm:
+
+                      kcπ(k1 )v1 ,π(k2 )v2 kLp+ε = kcv1 ,v2 kLp+ε .
+
+
+                                           3
+Let dk be the Haar probability measure on K. For any Rtwo K-finite functions
+f1 andRf2 on K, bounded by 1, the two vectors w1 := K f1 (k)π(k)v1 dk and
+w2 := K f2 (k)π(k)v2 dk have a coefficient with bounded Lp+ε -norm:
+                         kcw1 ,w2 kLp+ε ≤ kcv1 ,v2 kLp+ε .
+These vectors wi live in a dense set D0 of K-finite vectors of Hπ .
+
+2.2    Tempered representations
+The following definition is due to Harish-Chandra (See also [2, Appendix F])
+Definition 2.3. The unitary representation π is said to be tempered if π is
+weakly contained in the regular representation λG of G in L2 (G) i.e. if every
+coefficient of π is a uniform limit on every compact of G of a sequence of
+sums of coefficients of λG .
+    Here are a few basic facts on tempered representations.
+- Let G′ ⊂ G be a finite index subgroup. A unitary representation π of G is
+tempered if and only if π is tempered as a representation of G′ .
+- A unitary representation π of a reductive group G is tempered if and only
+if π is tempered as a representation of the derived subgroup [G, G].
+
+
+Proposition 2.4. (Cowling, Haagerup, Howe) Let G be a semisimple
+connected Lie group with finite center, and m a positive integer.
+   A unitary representation π of G is almost L2 if and only if π is tempered.
+   More generally, π is almost L2m if and only if π ⊗m is tempered.
+   See [7, Theorems 1, 2 and Corollary].
+Remark 2.5. When G is amenable, according to Hulanicki–Reiter Theorem
+(see [2, Theorem G.3.2]), every unitary representation of G is tempered.
+However, when G is non-compact, the trivial representation is not almost
+L2 .
+   The following remark was used implicitly in the introduction.
+Remark
+     R ⊕ 2.6. When a unitary representation π of G is a direct integral
+π=      πλ dµ(λ) of irreducible unitary representations πλ , the representation
+π is tempered if and only if the representations πλ are tempered for µ-almost
+every parameter λ.
+
+                                        4
+Proof. Indeed, π is weakly contained in the direct sum representation ⊕λ πλ ,
+and conversely πλ is weakly contained in π for µ-almost every λ.
+    These statements follow for instance from the following fact in [2, Theo-
+rem F.4.4] or [10, Section 18] : For two unitary representations ρ and ρ′ of
+G, one has the equivalence:
+    ρ is weaklyR contained in ρ′ ⇐⇒ kρ(f )k ≤ kρ′ (f )k for all f in L1 (G),
+where ρ(f ) = G f (g)ρ(g)dg. Note that this condition has only to be checked
+for a countable dense set of functions f in L1 (G), and that one has the
+equality kπ(f )k = supessλ kπλ (f )k (see [9, Section II.2.3]).
+
+2.3    Uniform decay of coefficients
+Let G be a linear semisimple connected Lie group and let Ξ be the Harish-
+Chandra spherical function on G (see [7]). A short definition for Ξ is as
+the coefficient of the normalized K-invariant vector of the spherical repre-
+sentation of the unitary principal series πo = IndG
+                                                  P (1P ) where P is a minimal
+parabolic subgroup of G. In this paper we will not need the precise formula
+for Ξ but just the fact that this function Ξ is in L2+ε (G) for all ε > 0 and
+the following proposition.
+Proposition 2.7. (Cowling, Haagerup, Howe ) Let p be an even integer.
+A unitary representation π of G is almost Lp if and only if, for every K-finite
+vectors v, w in Hπ , for every g in G, one has
+                                                    1             1
+           |hπ(g)v, wi| ≤ Ξ(g)2/p kvkkwk(dimhKvi) 2 (dimhKwi) 2 .
+    See [7, Corollary p.108]
+    This proposition tells us that once an almost Lp -norm condition is checked
+for the coefficients of a dense set of vectors of Hπ , one gets a uniform
+estimate for the coefficients of all the K-finite vectors of Hπ .
+    In this proposition, the assumption that the real number p ≥ 2 is an even
+integer can probably be dropped. If this is the case, the same assumption
+can also be dropped in our Theorems 3.2 and 4.1.
+
+    The set of p for which π is almost Lp is an interval [pπ , ∞[ with pπ ≥ 2
+or pπ = ∞. Even though we will not use them, we recall the following two
+important properties of these constant pπ .
+    When G is quasisimple of higher rank and Hπ does not contain G-
+invariant vectors, this real number pπ is bounded by a constant pG < ∞
+(see [19]).
+
+                                      5
+   According to Harish-Chandra, when G is semisimple and π is irreducible
+with finite kernel, this real pπ is finite (see [12, Theorem 8.48]).
+
+2.4    Representations in L2 (X)
+Let X be a locally compact space endowed with a continuous action of G
+preserving a Radon measure vol on X. One has a natural representation π
+of G in L2 (X) given by, (π(g)ϕ)(x) = ϕ(g −1 x) for g in G, ϕ in L2 (X) and x
+in X.
+
+Lemma 2.8. Let G be a semisimple linear connected Lie group, p a positive
+even integer, and X a locally compact space endowed with a continuous action
+of G preserving a Radon measure vol.
+   The representation of G in L2 (X) is almost Lp if and only if, for any
+compact subset C of X and any ε > 0 vol(gC ∩ C) ∈ Lp+ε (G).
+
+Proof. If the representation of G in L2 (X) is almost Lp then, according to
+Proposition 2.7, for all K-invariant compact set B of X, the function g 7→
+vol(gB ∩ B) = hπ(g)1B , 1B i belongs to Lp+ε (G). Since any compact set C
+of X is included in such a K-invariant compact set B, the function g 7→
+vol(gC ∩ C) belongs also to Lp+ε (G).
+    Conversely, let D ⊂ L2 (X) be the dense subspace of continuous compactly
+supported functions on X. For any two continuous functions ϕ1 , ϕ2 ∈ D,
+the coefficient hπ(g)ϕ1, ϕ2 i is bounded by kϕ1 k∞ kϕ2 k∞ vol(gC ∩ C) where
+C := Supp(ϕ1 )∪Supp(ϕ2 ), and hence this coefficient belongs to Lp+ε (G).
+
+
+3     Representations in L2(V )
+In this chapter we study the representation of a semisimple Lie group in
+L2 (V ) where V is a finite dimensional representation.
+
+3.1    Function ρV
+Let H be a reductive algebraic Lie group, and τ : H → SL± (V ) a finite
+dimensional algebraic representation over R preserving the Lebesgue measure
+on V . We write dτ : h → End(V ) for the differential representation of τ . Let
+a = ah be a maximal split abelian subspace in h.
+
+
+                                      6
+   For an element Y in a, we denote by V+ the sum of eigenspaces of τ (Y )
+having positive eigenvalues, and set
+
+                         ρV (Y ) := TraceV+ (dτ (Y )).                 (3.1)
+
+Since this function ρV : a → R≥0 will be very important in our analysis, we
+begin by a few trivial but useful comments. We notice first that, since H is
+volume preserving, for any Y ∈ a,
+
+                             ρV (−Y ) = ρV (Y ),                       (3.2)
+
+
+                         ρV (Y ) = 0 ⇔ dτ (Y ) = 0.                    (3.3)
+This function ρV is invariant under the finite group WH := NH (a)/ZH (a).
+This group is isomorphic to the Weyl group of the restricted root system
+Σ(h, a) if H is connected. This function ρV is continuous and is piecewise
+linear i.e. there exist finitely many convex polyhedral cones which cover a
+and on which ρV is linear.
+Example 3.1. For (τ, V ) = (Ad, h), ρh coincides with twice the usual ‘ρ’ on
+the positive Weyl chamber a+ with respect to a positive system Σ+ (h, a).
+                             X
+                      ρh =         dim hα α on a+ ,
+                            α∈Σ+(h,a)
+
+where hα ⊂ h is the root subspace associated to α.
+   For other representations (τ, V ), the maximal convex polyhedral cones on
+which ρV is linear are most often much smaller than the Weyl chambers.
+
+3.2    Criterion for temperedness of L2 (V )
+Since the Lebesgue measure on V is H-invariant, we have a natural unitary
+representation of H on L2 (V ) as in Section 2.4.
+Theorem 3.2. Let H an algebraic semisimple Lie group, τ : H → SL± (V )
+an algebraic representation and p a positive even integer. Then, one has the
+equivalences :
+a) L2 (V ) is tempered ⇐⇒ ρh (Y ) ≤ 2 ρV (Y ) for any Y ∈ a.
+b) L2 (V ) is almost Lp ⇐⇒ ρh (Y ) ≤ p ρV (Y ) for any Y ∈ a.
+
+                                        7
+Remark 3.3. Inequality ρh ≤ p ρV holds on a if and only if it holds on a+ .
+    Since all the maximal split abelian subspaces of h are H-conjugate, it is
+clear that this condition does not depend on the choice of a.
+Example 3.4. Let H = SL(2, R)d with d ≥ 1. The unitary representation
+in L2 (V ) is tempered if and only if the kernel of τ is finite.
+Example 3.5. Let H = SL(3, R). The unitary representation in L2 (V ) is
+tempered if and only if dim(V /V H ) > 3 where V H = {v ∈ V : Hv = v}.
+    For h ∈ H, x ∈ V and a measurable subset C ⊂ V , we write hx for
+τ (h)x and we set hC := {hx ∈ V : x ∈ C}. Similarly, for a > 0 we set
+aC := {ax ∈ V : x ∈ C}. We write vol(C) for the volume of C with respect
+to the Lebesgue measure.
+Proof of Theorem 3.2. When the kernel of τ is noncompact, both sides of the
+equivalence are false. Hence we may assume that the kernel of τ is compact.
+Since H is semisimple, according to Proposition 2.4 and Lemma 2.8, it is
+sufficient to prove the following equivalence:
+      ρh (Y ) ≤ p ρV (Y )        vol(hC ∩C) ∈ Lp+ε (H) for any compact
+                            ⇐⇒
+      for any Y ∈ a              subset C in V and any ε > 0.
+This statement is a special case of Proposition 3.6 below.
+
+3.3     Lp -norm of vol(hC ∩ C)
+Suppose now that the kernel of τ is compact. According to (3.3), one has
+ρV (Y ) > 0 as soon as Y 6= 0. Hence the real number
+                                           ρh (Y )
+                             pV := max                                  (3.4)
+                                  Y ∈a\{0} ρV (Y )
+
+is finite.
+Proposition 3.6. Let H be an algebraic reductive Lie group, and τ : H →
+SL± (V ) a volume preserving algebraic representation with compact kernel.
+For any real p > 0, one has the equivalence :
+      p > pV ⇐⇒ vol(hC ∩ C) ∈ Lp (H) for any compact set C in V .
+    In this section we will show how to deduce Proposition 3.6 from a volume
+estimate that we will prove in the next section.
+
+                                     8
+Proof of Proposition 3.6. Let HK be a maximal compact subgroup of H such
+that H = HK (exp a)HK is a Cartan decomposition of H.
+   The Haar measure dh of H is given as
+                     Z           Z
+                        f (h)dh = f (eY )Dh (Y )dY                  (3.5)
+                        H                a
+
+for any HK -biinvariant measurable function f on H, where
+                           Y
+               Dh (Y ) :=       | sinhhα, Y i|dim hα for Y ∈ a.
+                            α∈Σ+(h,a)
+
+We also introduce the function on a
+                                  Z
+                      e h (Y ) :=
+                      D                          Dh (Y + Z)dZ.
+                                        kZk≤1
+
+   We shall prove successively the following equivalences
+       (i)        vol(hC ∩ C) ∈ Lp (H), for any compact C ⊂ V ,
+    ⇐⇒ (ii)      vol(eY C ∩ C)p Dh (Y ) ∈ L1 (a), for any compact C ⊂ V ,
+    ⇐⇒     (iii) vol(eY C ∩ C)p D    e h (Y ) ∈ L1 (a), for any compact C ⊂ V ,
+    ⇐⇒     (iv) vol(eY C ∩ C)p eρh (Y ) ∈ L1 (a), for any compact C ⊂ V ,
+    ⇐⇒      (v) eρh (Y )−p ρV (Y ) ∈ L1 (a),
+    ⇐⇒     (vi) p ρV (Y ) − ρh (Y ) > 0, for any Y ∈ a r 0.
+(i) ⇐⇒ (ii) We may choose C to be HK -invariant by expanding C if nec-
+essary. We apply then the integration formula (3.5) to the HK -biinvariant
+function vol(hC ∩ C).
+(ii) ⇐⇒ (iii) Replace C by a larger compact C ′ := ea(1) C where a(1) is the
+unit ball {Z ∈ a | kZk ≤ 1}. Since vol(eY −Z C ∩ C) ≤ vol(eY C ′ ∩ C ′ ) for any
+Z ∈ a(1), one has, by using the change of variables Y ′ := Y − Z,
+    Z                             Z Z
+             Y       pe
+        vol(e C ∩ C) Dh (Y )dY =            vol(eY C ∩ C)p Dh (Y + Z)dY dZ
+      a                            a kZk≤1
+                                            Z
+                                ≤ vol(a(1)) vol(eY C ′ ∩ C ′ )p Dh (Y )dY,
+  Z                               Z Z         a
+           Y′      p      ′   ′
+      vol(e C ∩ C) Dh (Y )dY ≤              vol(eY −Z C ′ ∩ C ′ )p Dh (Y )dY dZ
+    a                              a kZk≤1
+                                                Z
+                                = vol(a(1)) −1          ′
+                                                                      e h (Y ′ )dY ′ .
+                                                  vol(eY C ′ ∩ C ′ )p D
+                                                      a
+
+
+                                             9
+(iii) ⇐⇒ (iv) We notice that we can find constants a1 , a2 > 0, such that for
+any Y ∈ a, the following inequality holds:
+                                      e h (Y ) ≤ a2 eρh (Y ) .
+                        a1 eρh (Y ) ≤ D
+
+(iv) ⇐⇒ (v) We use Proposition 3.7, that we will prove in Section 3.4, and
+that gives, for C large enough, constants m, M > 0 such that, for any Y ∈ a,
+
+                  m e− ρV (Y ) ≤ vol(eY C ∩ C) ≤ M e− ρV (Y ) .
+
+(v) ⇐⇒ (vi) We recall that the function ρh −pρV is continuous and piecewise
+linear.
+    This proves Proposition 3.6 provided the following Proposition 3.7.
+
+3.4    Estimate of vol(eY C ∩ C)
+The following asymptotic estimate of vol(eY C ∩ C) for the linear representa-
+tion in V will become a prototype of the volume estimate for the action on
+G/H which we shall discuss in Section 4 (Theorem 4.4).
+
+Proposition 3.7. Let H be an algebraic reductive Lie group, τ : H → SL± (V )
+a volume preserving algebraic representation, and C be a compact neigh-
+borhood of 0 in V . Then there exist constants m ≡ mC > 0 , M ≡ MC > 0
+such that
+
+         me−ρV (Y ) ≤ vol(eY C ∩ C) ≤ Me−ρV (Y )           for any Y ∈ a.
+
+   To see this, write ∆ ≡ ∆(V, a) ⊂ a∗ for the set of weights of the repre-
+sentation dτ |a : a → End(V ), and
+                               L            P
+                         V = λ∈∆ Vλ , v = vλ                          (3.6)
+
+for the corresponding weight space decomposition.
+
+Lemma 3.8.QFor each λ ∈ ∆, let Bλ be a convex neighborhood of 0 in Vλ ,
+and let B := λ Bλ . Then, one has
+
+              vol(eY B ∩ B) = vol(B)e−ρV (Y )          for any Y ∈ a.
+
+
+                                         10
+                                                 +
+Proof. For any real t, one has Bλ ∩ e−t Bλ = e−t Bλ where t+ := max(t, 0).
+Then we get
+                          Q                     Q       +
+            B ∩ e−Y B = λ (Bλ ∩ e−λ(Y ) Bλ ) = λ e−λ(Y ) Bλ ,
+
+and          vol(eY B ∩ B) = vol(B ∩ e−Y B) = e−ρV (Y ) vol(B).
+Proof of Proposition 3.7. We take {Bλ } and {Bλ′ } such that
+                           Q             Q ′
+                             λ Bλ ⊂ C ⊂    λ Bλ
+
+and we apply Lemma 3.8.
+
+
+4     Representations in L2(G/H)
+In this chapter we study the representations of an algebraic semisimple Lie
+group in L2 (X) where X is a homogeneous space with reductive isotropy.
+
+4.1    Criterion for temperedness of L2 (G/H)
+Let G be an algebraic reductive Lie group and H an algebraic reductive
+subgroup of G. Since the homogeneous space X = G/H carries a G-invariant
+Radon measure, there is a natural unitary representation of G on L2 (G/H)
+as in Section 2.4. We want to study the temperedness of this representation.
+     Let q be an H-invariant complementary subspace of the Lie algebra h
+of H in g. We fix a maximal split abelian subspace a of h and we define
+ρq : a → R≥0 for the H-module q as in Section 3.1.
+     Here is the main result of this chapter :
+
+Theorem 4.1. Let G be an algebraic semisimple Lie group, H an algebraic
+reductive subgroup of G, and p a positive even integer. Then, one has the
+equivalences :
+a) L2 (G/H) is tempered ⇐⇒ ρh (Y ) ≤ ρq (Y ) for any Y ∈ a.
+b) L2 (G/H) is almost Lp ⇐⇒ ρg (Y ) ≤ p ρq (Y ) for any Y ∈ a.
+
+Remark 4.2. Since ρg = ρh + ρq , one has the equivalence
+                           ρh ≤ ρq ⇔ ρg ≤ 2 ρq .
+  The inequality ρg ≤ p ρq holds on a if and only if it holds on a+ .
+
+
+                                     11
+Proof of Theorem 4.1. When the kernel of the action of G on G/H is non-
+compact, both sides of the equivalence are false. Hence we may assume that
+this kernel is compact. But then, according to Proposition 2.4 and Lemma
+2.8, it is sufficient to prove the following equivalence:
+
+      ρg (Y ) ≤ p ρq (Y )         vol(gC ∩C) ∈ Lp+ε (G) for any compact
+                            ⇐⇒
+      for any Y ∈ a               subset C in G/H and any ε > 0.
+
+This statement is a special case of Proposition 4.3 below.
+
+4.2     Lp -norm of vol(gC ∩ C)
+We assume that the action of G on G/H has compact kernel or, equivalently,
+that the action of H on q has compact kernel. Then, according to (3.3), one
+has ρq (Y ) > 0 as soon as Y 6= 0. Hence the real number
+
+                                              ρg (Y )
+                             pG/H := max                               (4.1)
+                                     Y ∈a\{0} ρq (Y )
+
+
+is finite.
+
+Proposition 4.3. Let G be an algebraic reductive Lie group and H an alge-
+braic reductive subgroup of G such that the action of G on G/H has compact
+kernel. For any real p ≥ 1, one has the equivalence :
+    p > pG/H ⇐⇒ vol(gC ∩ C) ∈ Lp (G) for any compact set C in G/H.
+
+    In this section we will show how to deduce Proposition 4.3 from a volume
+estimate that we will prove in the following sections. For that we will use
+another equivalent definition of the constant pG/H .
+
+   We extend a to a maximal split abelian subspace ag of g and we choose
+a maximal compact subgroup K of G such that HK := H ∩ K is a maximal
+compact subgroup of H, and that G = K(exp ag )K and H = HK (exp a)HK
+are Cartan decompositions of G and H, respectively.
+   Let WG be the finite group WG := NG (ag )/ZG (ag ) ≃ NK (ag )/ZK (ag ).
+When G is connected, WG is the Weyl group of the restricted root system
+Σ(g, ag ).
+   For Y ∈ a, we define a subset of WG by
+
+                        W (Y ; a) := {w ∈ WG : wY ∈ a}.                (4.2)
+
+                                      12
+We notice that W (Y ; a) ∋ e for any Y ∈ a, and W (0; a) = WG . We set
+
+                         ρmin
+                          q (Y ) :=      min       ρq (wY ).             (4.3)
+                                      w∈W (Y ;a)
+
+
+We can then rewrite Definition (4.1) by the equivalent formula
+                                              ρg (Y )
+                          pG/H = max                  .                  (4.4)
+                                    Y ∈a\{0} ρmin
+                                              q (Y )
+
+Proof of Proposition 4.3. The Haar measure dg on G is given as
+                    Z             Z
+                        f (g)dg =   f (eY )Dg (Y )dY,                    (4.5)
+                     G              ag
+
+for any K-biinvariant measurable function f on G, where Dg is the WG -
+invariant function on ag given by
+                          Y
+             Dg (Y ) :=         | sinhhα, Y i|dim gα , Y ∈ ag .
+                      α∈Σ+(g,ag )
+
+
+and where gα ⊂ g are the (restricted) root spaces.
+   We also introduce the function on ag
+                                  Z
+                     De g (Y ) :=      Dg (Y + Z)dZ.
+                                    kZk≤1
+
+   We shall prove successively the following equivalences
+
+          (i)   vol(gC ∩ C) ∈ Lp (G), for any compact C ⊂ X,
+   ⇐⇒     (ii) vol(eY C ∩ C)p Dg (Y ) ∈ L1 (ag ), for any compact C ⊂ X,
+   ⇐⇒                         e g (Y ) ∈ L1 (ag ), for any compact C ⊂ X,
+         (iii) vol(eY C ∩ C)p D
+   ⇐⇒    (iv) vol(eY C ∩ C)p eρg (Y ) ∈ L1 (ag ), for any compact C ⊂ X,
+   ⇐⇒     (v) vol(eY C ∩ C)p eρg (Y ) ∈ L1 (a), for any compact C ⊂ X,
+                         min
+   ⇐⇒ (vi) eρg (Y )−p ρq (Y ) ∈ L1 (a),
+   ⇐⇒ (vii) p ρmin
+               q (Y ) − ρg (Y ) > 0, for any Y ∈ a r 0.
+
+(i) ⇐⇒ (ii) We may choose C to be K-invariant. We apply then the inte-
+gration formula (4.5) to the K-biinvariant function vol(gC ∩ C).
+(ii) ⇐⇒ (iii) We just replace C by a larger compact C ′ := eag (1) C where
+
+                                         13
+ag (1) is the unit ball {Z ∈ ag : kZk ≤ 1}.
+(iii) ⇐⇒ (iv) We notice that we can find constants a1 , a2 > 0, such that for
+any Y ∈ ag , one has
+                                           e g (Y ) ≤ a2 eρg (Y ) .
+                             a1 eρg (Y ) ≤ D
+(iv) ⇐⇒ (v) The main point of this equivalence is to replace an integration
+on ag by an integration on a. For that we will bound the support of the
+function ϕC on ag , ϕC (Y ) := vol(eY C ∩ C)p eρg (Y ) . We may choose C to be
+K-invariant so that, ϕC is WG -invariant. We recall now the Cartan projection
+                     µ : G → ag /WG , k1 eY k2 7→ Y mod WG
+with respect to the Cartan decomposition G = K(exp ag )K. It follows from
+either [3, Prop. 5.1] or [17, Th. 1.1] that, for any compact subsets S ⊂ G,
+there exists δ > 0 such that
+                          µ(SHS −1) ⊂ µ(H) + ag (δ) mod WG                             (4.6)
+where ag (δ) stands for the δ-ball {Y ∈ ag : kY k ≤ δ}. If we take this compact
+set S ⊂ G such that C ⊂ SH/H, then Y ∈ ag satisfies eY C ∩ C 6= ∅ only if
+eY ∈ SHS −1 , and therefore, only if Y ∈ µ(SHS −1). Hence we get the bound
+on the support                        [
+                         Supp ϕC ⊂        w(a + ag (δ)).                   (4.7)
+                                           w∈WG
+
+By WG -invariance of ϕC , we only have to integrate on the δ-neighborhood of
+a. Hence the assertion (iv) is equivalent to the following assertion
+(iv ′ ) vol(eY C ∩ C)p eρg (Y ) ∈ L1 (a + ag (R)) for any compact C ⊂ X, R > 0.
+To see that this assertion (iv ′ ) is equivalent to (v), we just have, for both
+implications, to replace the compact C by a larger compact C ′ := eag (R) C
+and to notice that the map Y 7→ max |ρg (Y + Z) − ρg (Y )| is uniformly
+                                            Z∈ag (R)
+bounded on a.
+(v) ⇐⇒ (vi) We use Theorem 4.4, that we will prove in the next section, and
+that gives, for C large enough, constants m, M > 0 such that
+               min (Y )                                  min (Y )
+         m e−ρq           ≤ vol(eY C ∩ C) ≤ M e−ρq                    for any Y ∈ a.
+(vi) ⇐⇒ (vii) We recall that the function ρg −pρmin
+                                                 q  is continuous and piece-
+wise linear.
+    This proves Proposition 4.3 provided the following Theorem 4.4.
+
+                                              14
+4.3    Estimate of vol(eY C ∩ C)
+Let C be a compact subset of X. We shall give both lower and upper bounds
+of the volume of eY C ∩ C as Y ∈ a goes to infinity. For that we will use the
+function ρmin
+           q  defined by formula (4.3). Let x0 = eH ∈ X = G/H and WG x0
+be the orbit of this point under the Weyl group of G.
+
+Theorem 4.4. Let G be an algebraic reductive Lie group, H an algebraic
+reductive subgroup and C a compact neighborhood of Kx0 in X := G/H.
+Then there exist constants m ≡ mC > 0 and M ≡ MC > 0 such that
+               min (Y )                              min (Y )
+         me−ρq            ≤ vol(eY C ∩ C) ≤ Me−ρq               for any Y ∈ a.
+
+    The proof of the lower bound will be given in Section 4.4.
+    We will give the proof of the upper bound in eight steps which will last
+from Section 4.4 to 4.8. Clearly, the upper bound in Theorem 4.4 is equivalent
+to the following statement:
+For any compact sets C1 , C2 in X, there exists M ≡ MC1 ,C2 > 0 such that
+                                          min (Y )
+               vol(eY C1 ∩ C2 ) ≤ Me−ρq               for any Y ∈ a.             (4.8)
+
+
+    The strategy of the proof of (4.8) will be to see G/H as a closed orbit
+in a representation of G and to decompose C1 and C2 into smaller compact
+pieces.
+
+4.4    Lower bound for vol(eY C ∩ C)
+Up to the end of this chapter we keep the setting as above : G is a connected
+algebraic reductive Lie group, and H an algebraic reductive subgroup.
+   By Chevalley theorem ([5, Th. 5.1] or [6, Section 4.2]), there exists an
+algebraic representation τ : G → GL(V ) such that the homogeneous space
+X = G/H is realized as a closed orbit X = Gx0 ⊂ V where StabG (x0 ) = H.
+We can assume that Ker(dτ ) = {0}. We fix such a representation (τ, V ) once
+and for all.
+
+   Here is the first step towards both the volume upper bound and the
+volume lower bound in Theorem 4.4.
+
+
+
+                                        15
+Lemma 4.5. There exists a neighborhood Cx0 of x0 in G/H such that for
+any compact neighborhood C0 of x0 contained in Cx0 , there exist constants
+m, M > 0 such that
+         me−ρq (Y ) ≤ vol(eY C0 ∩ C0 ) ≤ Me−ρq (Y )   for any Y ∈ a.   (4.9)
+Proof. Since G and H are reductive, the representation of H in q is volume
+preserving. Hence we can apply Proposition 3.7 to the representation of H
+in q. Roughly, the strategy is then to linearize X near x0 . To make this
+approach precise, we need two similar but slightly different arguments for
+the lower bound and for the upper bound.
+
+    Lower bound. We choose a sufficiently small compact neighborhood U0 of
+0 in q on which the map
+                          π− : q → X , Z 7→ eZ x0
+is well-defined, injective with a Jacobian bounded away from 0. Since x0 is
+H-invariant, this map π− is H-equivariant. For any compact neighborhood
+C0 = π− (C) of x0 in X with C ⊂ U0 , one has, for every Y ∈ a,
+                        eY C0 ∩ C0 ⊃ π− (eY C ∩ C).
+The lower bound in (4.9) is then a consequence of the lower bound in Propo-
+sition 3.7.
+
+    Upper bound. Since the linear tangent space Tx0 X ⊂ V of X at x0
+is canonically H-isomorphic to q, we will also denote it by q. Since H is
+reductive, this vector subspace q ⊂ V admits a H-invariant supplementary
+subspace s. We set p : V → q for the linear projector with kernel s. We
+choose a sufficiently small compact neighborhood Cx0 of x0 in X on which
+the map
+                       π+ : X → q , x 7→ p(x) − p(x0 )
+is injective with a Jacobian bounded away from 0. Since x0 is H-invariant,
+this map π+ is also H-equivariant.
+    For any compact subset C0 of Cx0 , one has, for every Y ∈ a,
+                        π+ (eY C0 ∩ C0 ) ⊂ eY C ∩ C
+where C := π+ (C0 ). The upper bound in (4.9) is then a consequence of the
+upper bound in Proposition 3.7.
+
+                                     16
+   As a direct corollary we get the lower bound in Theorem 4.4 .
+Corollary 4.6. For any compact neighborhood C of Kx0 in G/H, there
+exists m > 0 such that
+                                          min (Y )
+                  vol(eY C ∩ C) ≥ me−ρq                for any Y ∈ a.
+
+Proof. Shrinking C if necessary, we can assume that C = KC0 where C0
+is a compact neighborhood of x0 . According to Lemma 4.5, there exists a
+constant m > 0 such that the lower bound in (4.9) is satisfied. For each
+w ∈ W (Y ; a) (⊂ WG ), we take a representative kw ∈ NK (ag ). Then one has
+
+      vol(eY C ∩ C) ≥ vol(eY kw−1 C0 ∩ C0 ) = vol(ewY C0 ∩ C0 ) ≥ me−ρq (wY ) .
+
+Hence one has
+                                                                    min (Y )
+            vol(eY C ∩ C) ≥ m         max e−ρq (wY ) = m e−ρq                  .
+                                    w∈W (Y ;a)
+
+This ends the proof.
+
+4.5      Volume near one invariant point
+Here is the second step towards the volume upper bound (4.8). It is a subtle
+variation of the volume upper bound given in Lemma 4.5.
+   For any subspace b ⊂ a, we set X b := {x ∈ X : eY x = x, for all Y ∈ b}.
+Lemma 4.7. For any subspace b ⊂ a and any point x ∈ X b , there exists a
+neighborhood Cx of x in X and M > 0 such that
+                                            min (Y )
+                 vol(eY Cx ∩ Cx ) ≤ M e−ρq              for any Y ∈ b.
+
+Proof of Lemma 4.7. Let H ′ be the stabilizer of x in G and h′ its Lie algebra.
+Since x is in X b , one has b ⊂ h′ . Hence there exists a maximal split abelian
+subspace a′ of h′ containing b. Since all the maximal split abelian subspaces of
+h are H-conjugate, one can find an element g ∈ G such that x = gx0 . Then
+one has H ′ := gHg −1 and h′ := Ad(g)h. After replacing g by a suitable
+element gh with h in H, we also have a′ = Ad(g)a. We set q′ := Ad(g)q and
+introduce the function ρq′ : a′ → R≥0 associated to the representation of H ′
+on q′ as in Section 3.1. By definition, we have the following identity:
+
+                      ρq′ (Ad(g)Z) = ρq (Z) for any Z ∈ a.                         (4.10)
+
+                                         17
+    Applying Lemma 4.5 to the homogeneous space G/H ′, we see that there
+exist a compact neighborhood Cx of x in X and a constant M > 0 such that
+
+                 vol(eY Cx ∩ Cx ) ≤ Me−ρq′ (Y ) for any Y ∈ a′ .            (4.11)
+
+   Now, for Y ∈ b, we set Z = Ad(g −1)Y . This element Z belongs also to a.
+Since the Cartan subspace ag contains a and since two elements of ag which
+are G-conjugate are always WG -conjugate, there exists w ∈ WG such that
+Z = wY . Using (4.10), we get
+
+                     ρq′ (Y ) = ρq (Z) = ρq (wY ) ≥ ρmin
+                                                     q (Y ).
+
+Hence, Lemma 4.7 follows from (4.11).
+
+4.6    Volume near two invariant points
+Here is the third step towards the volume upper bound (4.8).
+Lemma 4.8. For any vector subspace b ⊂ a and any points x1 , x2 in X b ,
+there exist compact neighborhoods C1 of x1 and C2 of x2 in X, and M > 0
+such that
+                                        min (Y )
+              vol(eY C1 ∩ C2 ) ≤ M e−ρq              for any Y ∈ b.         (4.12)
+
+   We set
+
+                          V b := {v ∈ V : bv = 0}                           (4.13)
+
+so that X b = X ∩ V b and we set π b : V → V b to be the b-equivariant
+projection.
+Proof. When x1 = x2 this is Lemma 4.7. When x1 6= x2 , we choose C1 and
+C2 with disjoint projections π b (C1 ) ∩ π b (C2 ) = ∅ so that, for any Y in b, the
+intersection eY C1 ∩ C2 is also empty.
+   Here is the fourth step towards the volume upper bound (4.8).
+Lemma 4.9. For any vector subspace b ⊂ a and any compact subsets S1 , S2
+included in X b , there exist M > 0 and compact neighborhoods CS1 of S1 and
+CS2 of S2 in X such that
+                                          min (Y )
+             vol(eY CS1 ∩ CS2 ) ≤ M e−ρq             for any Y ∈ b.         (4.14)
+
+                                        18
+Proof. This is a consequence of Lemma 4.8 by a standard compactness ar-
+gument. Let x1 ∈ S1 . For any x2 ∈ S2 , there exist compact neighborhoods
+C1 (x1 , x2 ) of x1 and C2 (x1 , x2 ) of x2 satisfying (4.12).
+    First we fix x1 in S1 . By compactness of C2 , one can find a finite set
+F2 ≡ F2 (x1 ) ⊂ S2 for which the union C2 (x1 , S2 ) := ∪x2 ∈F2 C2 (x1 , x2 ) is a
+compact neighborhood of S2 . The intersection C1 (x1 , S2 ) := ∩x2 ∈F2 C1 (x1 , x2 )
+is still a compact neighborhood of x1 .
+    By compactness of C1 , one can find a finite set F1 ⊂ S1 for which the union
+CS1 := ∪x1 ∈F1 C1 (x1 , S2 ) is a compact neighborhood of S1 . The intersection
+CS2 := ∩x1 ∈F1 C2 (x1 , S2 ) is still a compact neighborhood of S2 .
+    Since only finitely many constants M are involved in this process, the
+compact neighborhoods CS1 and CS2 satisfy (4.14)
+
+4.7    Facets
+In this section, we shall introduce a decomposition of a in convex pieces F
+called facets by using the representation dτ |a : a → End(V ).
+    We need to introduce more notations. Let    X∆ ≡ ∆(V, a) be the set of
+weights of a in V . For v in V we write v =         vλ according to the weight
+                              M                   λ∈∆
+space decomposition V =             Vλ . We fix a norm k k on each weight space
+                              λ∈∆
+Vλ , and define a norm on V by
+                                kvk := max kvλ k.                            (4.15)
+                                          λ∈∆
+
+   For any subset F ⊂ a, we set
+                 ∆+
+                  F := {λ ∈ ∆ : λ(Y ) > 0 for any Y ∈ F }
+                 ∆0F := {λ ∈ ∆ : λ(Y ) = 0 for any Y ∈ F }
+                 ∆−
+                  F := {λ ∈ ∆ : λ(Y ) < 0 for any Y ∈ F }
+
+We say that F is a facet if
+                          ∆ = ∆+    0    −
+                               F ∐ ∆F ∐ ∆F           and
+
+                 F = {Y ∈ a :         λ(Y ) > 0 for any λ ∈ ∆+
+                                                             F,
+                                      λ(Y ) = 0 for any λ ∈ ∆0F ,
+                                      λ(Y ) < 0 for any λ ∈ ∆−F }.
+
+
+                                         19
+   Let F be the totality of facets. Then we have
+                             G
+                       a=       F (disjoint union).
+                            F ∈F
+
+   For any facet F we denote by aF its support, i.e. its linear span:
+
+               aF := {Y ∈ a : λ(Y ) = 0 for any λ ∈ ∆0F }.
+
+   We set                       M
+                       VFε :=           Vλ    for ε = +, 0, −.
+                                λ∈∆εF
+
+Notice that, using Notation (4.13), we have VF0 = V aF . We have a direct sum
+decomposition:
+                            V = VF+ ⊕ VF0 ⊕ VF− .                       (4.16)
+   Here is the fifth step towards the volume upper bound (4.8).
+Lemma 4.10. Let F be a facet, S1 be a compact subset of X ∩ (VF0 ⊕ VF− ),
+and S2 be a compact subset of X ∩ (VF0 ⊕ VF+ ). Then there exist compact
+neighborhoods CS1 of S1 and CS2 of S2 in X, and M > 0 such that
+                                             min (Y )
+            vol(eY CS1 ∩ CS2 ) ≤ M e−ρq                 for any Y ∈ aF .   (4.17)
+
+Proof. We recall that π aF is the projection on VF0 = V aF . Since X is closed
+and is invariant under the group eaF , one has the inclusions
+
+    π aF (X ∩ (VF0 ⊕ VF− )) ⊂ X aF and π aF (X ∩ (VF0 ⊕ VF+ )) ⊂ X aF .
+
+   Let T1 := π aF (S1 ) and T2 := π aF (S2 ) be the images of S1 and S2 by the
+projection π aF . Since
+
+            S1 ⊂ X ∩ (VF0 ⊕ VF− ) and S2 ⊂ X ∩ (VF0 ⊕ VF+ ),               (4.18)
+
+these images T1 and T2 are compact subsets of X aF . According to Lemma
+4.9 with b = aF , there exist M > 0 and compact neighborhoods CT1 of T1
+and CT2 of T2 in X such that
+                                             min (Y )
+            vol(eY CT1 ∩ CT2 ) ≤ M e−ρq                 for any Y ∈ aF .   (4.19)
+
+   Using again (4.18), one can then find an element Y0 ∈ F such that
+
+        eY0 S1 ⊂ interior of CT1 and e−Y0 S2 ⊂ interior of CT2 .
+
+                                             20
+We choose then the neighborhoods
+
+                  CS1 := e−Y0 CT1 and CS2 := eY0 CT2 .
+
+of S1 and S2 respectively. According to (4.19), one has, for any Y ∈ aF ,
+                                                             min (Y −2Y
+      vol(eY CS1 ∩ CS2 ) = vol(eY −2Y0 CT1 ∩ CT2 ) ≤ M e−ρq               0)
+                                                                               .
+
+Since the function Y 7→ |ρmin           min
+                          q (Y −2Y0 )−ρq (Y )| is uniformly bounded on a,
+this gives the volume upper bound (4.17).
+   Here is the sixth step towards the volume upper bound (4.8).
+Lemma 4.11. Let F be a facet and C1 , C2 compact subsets of G/H. Suppose
+C1 ∩ (VF0 ⊕ VF− ) = ∅ or C2 ∩ (VF0 ⊕ VF+ ) = ∅. Then there exists Y0 ∈ F such
+that
+                     eY C1 ∩ C2 = ∅ for any Y ∈ Y0 + F .
+Proof. For a compact subset C of X and λ ∈ ∆, we set
+
+            mλ (C) := min kvλ k and Mλ (C) := max kvλ k,
+                        v∈C                            v∈C
+
+and for ε = ±, we set
+
+         mεF (C) := maxε mλ (C) and MFε (C) := maxε Mλ (C).
+                    λ∈∆F                              λ∈∆F
+
+
+   If C1 ∩ (VF0 ⊕ VF− ) = ∅, one has m+ F (C1 ) > 0 and we choose Y0 ∈ F such
+                   +
+that, for all λ ∈ ∆F ,
+                                λ(Y0 )  MF+ (C2 )
+                               e       > +        .
+                                        mF (C1 )
+Let Y ∈ Y0 + F . By definition of m+                             +
+                                      F (C1 ), one can find λ ∈ ∆F such that,
+for any v in C1 , one has kvλ k ≥ m+
+                                   F (C1 ). One has then
+
+             k(eY v)λ k = eλ(Y ) kvλ k ≥ eλ(Y0 ) m+          +
+                                                  F (C1 ) > MF (C2 ).
+
+Hence eY v does not belong to C2 . This proves that eY C1 ∩ C2 = ∅.
+   Likewise, if C2 ∩ (VF+ ⊕ VF0 ) = ∅, one has m−   F (C2 ) > 0, and we choose
+                                −
+Y0 ∈ F such that, for all λ ∈ ∆F ,
+                               −λ(Y0 )  MF− (C1 )
+                              e        > −        .
+                                        mF (C2 )
+
+                                       21
+4.8    Upper bound for vol(eY C ∩ C)
+Here is the seventh step towards the volume upper bound (4.8). For any
+facet F , any Y0 ∈ F , and any R ≥ 0, we introduce the R-neighborhood of
+the Y0 -translate of the facet F :
+
+                      F (Y0 , R) := Y0 + F + a(R),                        (4.20)
+
+where a(R) is the ball {Y ∈ a : kY k ≤ R}.
+Lemma 4.12. Let F be a facet, R ≥ 0, and C1 , C2 compact subsets of G/H.
+Then there exist YF,R ∈ F and M > 0 such that
+                                 min (Y )
+        vol(eY C1 ∩ C2 ) ≤ M e−ρq           for any Y ∈ F (YF,R, R).      (4.21)
+
+Proof. We first assume that R = 0. We will deduce Lemma 4.12 from the
+two previous steps, namely Lemmas 4.10 and 4.11. Let
+
+         S1 := C1 ∩ (VF0 ⊕ VF− ) and S2 := C2 ∩ (VF0 ⊕ VF+ ).
+
+According to Lemma 4.10 we can write
+
+                 C1 := CS1 ∪ C1′ and C2 := CS2 ∪ C2′
+
+where CS1 and CS2 are respectively compact neighborhoods of S1 in C1 and of
+S2 in C2 satisfying the volume upper bound (4.17) for some constant M > 0,
+and where C1′ and C2′ are compact subsets of X such that
+
+           C1′ ∩ (VF0 ⊕ VF− ) = ∅ and C2′ ∩ (VF0 ⊕ VF+ ) = ∅.
+
+Hence according to Lemma 4.11, there exists an element YF ∈ F such that,
+for any Y ∈ YF + F , one has,
+
+               eY C1′ ∩ C2′ = eY CS1 ∩ C2′ = eY C1′ ∩ CS2 = ∅ .
+
+Hence, one has the desired volume upper bound, for any Y ∈ YF + F ,
+                                                           min (Y )
+          vol(eY C1 ∩ C2 ) = vol(eY CS1 ∩ CS2 ) ≤ M e−ρq              .
+
+   When R is not zero, we apply the first case to the compact sets ea(R) C1
+and C2 and notice that the function Y 7→ max |ρmin              min
+                                                   q (Y + Z) − ρq (Y )| is
+                                                Z∈a(R)
+uniformly bounded on a.
+
+                                       22
+                            Figure 1: Cover of a
+
+Proof of Theorem 4.4. Here is the eighth and last step towards the volume
+upper bound (4.8). Fix two compact sets C1 , C2 of G/H. According to
+Lemma 4.12, given any facet F ∈ F and any R > 0 there exist YF,R ∈ F
+and M > 0 such that (4.8) holds for any Y ∈ F (YF,R, R). The following
+Lemma 4.13 tells us that (4.8) holds for any Y in a. This ends the proof of
+the volume upper bound (4.8) and of Theorem 4.4,
+
+Lemma 4.13. Assume that, for any facet F and any R ≥ 0, we are given
+an element YF,R ∈ F . Then, one can choose for every facet F a constant
+RF ≥ 0 such that, using notations (4.20), one has
+                             [
+                        a=      F (YF,RF , RF ).                 (4.22)
+                              F ∈F
+
+
+Proof. We will choose inductively on ℓ = 0, 1, . . . , dim a, simultaneously the
+constants RF for all the facets of codimension ℓ (see Figure 1).
+    We first choose RF = 0 for all the open facets F .
+    We assume that RF has been chosen for the facets of codimension strictly
+less than ℓ and we consider the set
+                                 [
+                         aℓ =          F (YF,RF , RF ).
+                                  F ∈F
+                               codim F <ℓ
+
+We assume, by induction, that there exists a constant δℓ > 0 such that the
+complementary set a \ aℓ is included in a δℓ -neighborhood of the union of the
+facets of codimension ℓ. We choose RF = δℓ for all the facets of codimension
+
+                                        23
+ℓ. This gives a new set aℓ+1 . The complementary set a \ aℓ+1 is then included
+in a δℓ+1 -neighborhood of the union of the facets of codimension ℓ + 1, for
+some constant δℓ+1 > 0. And we go on by induction.
+
+
+5     Application
+The criterion given in Theorem 4.1 is easy to apply: it is easy to detect for
+a given homogeneous space G/H whether the unitary representation of G
+in L2 (G/H) is tempered or not. We collect in this chapter a few corollar-
+ies of this criterion, omitting the details of the computational verifications
+that will be published elsewhere together with a complete classification of
+homogeneous spaces G/H for which L2 (G/H) is non-tempered.
+
+5.1    Abelian or amenable generic stabilizer
+For general real reductive homogeneous spaces, we deduce the following facts :
+
+Proposition 5.1. Let p ≥ 2 be an even integer. Let G be a semisimple
+algebraic Lie group, and H1 ⊃ H2 two unimodular subgroups.
+a) If L2 (G/H1 ) is almost Lp then L2 (G/H2 ) is almost Lp .
+b) The converse is true when H2 is normal in H1 and H1 /H2 is amenable
+(for instance finite, or compact, or abelian).
+
+Proposition 5.2. Let p ≥ 2 be an even integer. Let G be an algebraic
+semisimple Lie group, and H an algebraic reductive subgroup.
+a) If the representation of GC in L2 (GC /HC ) is almost Lp , then the repre-
+sentation of G in L2 (G/H) is almost Lp .
+b) The converse is true when H is a split group.
+
+Theorem 5.3. Let G be an algebraic semisimple real Lie group, and H an
+algebraic reductive subgroup.
+a) If the representation of G in L2 (G/H) is tempered, then the set of points
+in G/H with amenable stabilizer in H is dense.
+b) If the set of points in G/H with abelian stabilizer in h is dense, then the
+representation of G in L2 (G/H) is tempered.
+
+   The proof of Theorem 5.3 leads us to the list of all the spaces G/H for
+which the representation of G in L2 (G/H) is non-tempered.
+
+
+                                     24
+5.2    Complex homogeneous spaces
+We assume in this section that G and H are complex Lie groups. Since
+complex amenable reductive Lie groups are abelian, the following result is a
+particular case of Theorem 5.3.
+Theorem 5.4. Suppose G is a complex algebraic semisimple group and H
+a complex reductive subgroup. Then L2 (G/H) is tempered if and only if the
+set of points in G/H with abelian stabilizer in h is dense.
+Example 5.5. L2 (SL(n, C)/SO(n, C)) is always tempered.
+L2 (SL(2m, C)/Sp(m, C)) is never tempered.
+L2 (SO(7, C)/G2) is not tempered.
+Example 5.6.QLet n = n1 + · · · + nr with n1 ≥ · · · ≥ nr ≥ 1, r ≥ 2.
+L2 (SL(n, C)/ Q SL(ni , C)) is tempered iff 2n1 ≤ n + 1.
+L2 (SO(n, C)/Q SO(ni , C)) is tempered iff 2n1 ≤ n + 2.
+L2 (Sp(n, C)/ Sp(ni , C)) is tempered iff r ≥ 3 and 2n1 ≤ n.
+
+5.3    Real homogeneous spaces
+Here are a few examples of application of our criterion.
+Example 5.7. Let G1 be a real algebraic semisimple Lie group and K1 a
+maximal compact subgroup.
+L2 (G1 × G1 /∆(G1 )) is always tempered.
+L2 (G1,C /G1 ) is always tempered.
+L2 (G1,C /K1,C ) is tempered iff G1 is quasisplit.
+Example 5.8. Let G/H be a symmetric space i.e. G is a real algebraic
+semisimple Lie group and H is the set of fixed points of an involution of
+G. Write g = h + q for the H-invariant decomposition √   of g. Let G′ be an
+                                                  ′
+algebraic semisimple Lie group with Lie algebra g = h + −1q.
+    Then L2 (G/H) is almost Lp iff L2 (G′ /H) is almost Lp .
+Example 5.9. L2 (SL(p + q, R)/SO(p, q)) is always tempered.
+L2 (SL(2m, R)/Sp(m, R)) is never tempered.
+L2 (SL(m + n, R)/SL(m, R) × SL(n, R)) is tempered iff |m − n| ≤ 1.
+Example 5.10.Q Let p1 + · · · + pr ≤ p and q1 + · · · + qr ≤ q.
+L2 (SO(p, q)/ SO(pi , qi )) is tempered iff 2 max (pi + qi ) ≤ p + q + 2.
+                                             pi qi 6=0
+
+
+                                      25
+   The homogeneous spaces in Examples 5.6 and 5.10 are not symmetric
+spaces when r ≥ 3.
+
+
+
+Acknowledgments
+The authors are grateful to the Institut des Hautes Études Scientifiques
+(Bures-sur-Yvette) and to the University of Tokyo for its support through
+the GCOE program for giving us opportunities to work together in very good
+conditions. The second author was partially supported by Grant-in-Aid for
+Scientific Research (A) (25247006) JSPS.
+
+
+References
+ [1] E. P. van den Ban, H. Schlichtkrull, The Plancherel decomposition for
+     a reductive symmetric space. II. Representation theory, Invent. Math.
+     161 (2005), 567–628.
+
+ [2] B. Bekka, P. de la Harpe, A. Valette; Kazhdan’s property T, Camb.
+     Math. Mon. 2008.
+
+ [3] Y. Benoist, Actions propres sur les espaces homogènes réductifs, Ann.
+     of Math. (2) 144 (1996), 315–347.
+
+ [4] I. Bernstein, On the support of Plancherel measure, Journ. Geom. Phys.
+     5 (1988), 663–710.
+
+ [5] A. Borel, Linear algebraic groups, Second edition. Graduate Texts in
+     Mathematics, 126. Springer-Verlag, New York, 1991.
+
+ [6] C. Chevalley, Classification des groupes algébriques semisimples, in Col-
+     lected Works, Springer (2005).
+
+ [7] M. Cowling, U. Haagerup and R. Howe, Almost L2 matrix coefficients,
+     J. Reine Angew. Math. 387 (1988), 97–110.
+
+ [8] P. Delorme, Formule de Plancherel pour les espaces symétriques ré-
+     ductifs, Ann. of Math. (2) 147 (1998), 417–452.
+
+
+
+                                      26
+ [9] J. Dixmier, Les algèbres d’opérateurs dans l’espace hilbertien (Algèbres
+     de von Neumann), Gauthier-Villars (1957)
+
+[10] J. Dixmier, Les C∗ -algèbres et leurs représentations , Gauthier-Villars
+     (1969).
+
+[11] R. Howe, E. C. Tan, Non-Abelian Harmonic Analysis: Applications of
+     SL(2, R), Springer, 1992.
+
+[12] A. Knapp, Representation Theory of Semisimple Groups: An Overview
+     Based on Examples, Princ. Math. Ser., 1986.
+
+[13] A. Knapp and D. Vogan, Jr., Cohomological Induction and Unitary
+     Representations, Princeton University Press, 1995.
+
+[14] A. Knapp and G. Zuckerman, Classification of irreducible tempered rep-
+     resentations of semisimple groups, Annals of Math. 116 (1982), 389–455
+     and 457–501.
+
+[15] T. Kobayashi, Singular unitary representations and discrete series for
+     indefinite Stiefel manifolds U(p, q; F )/U(p−m, q; F ), Mem. Amer. Math.
+     Soc. 95 (1992), no. 462, vi+106 pp.
+
+[16] T. Kobayashi, Discrete decomposability of the restriction of Aq (λ) with
+     respect to reductive subgroups and its applications, Invent. Math. 117
+     (1994), 181–205.
+
+[17] T. Kobayashi, Criterion for proper actions on homogeneous spaces of
+     reductive groups, J. Lie Theory 6 (1996), 147–163.
+
+[18] T. Matsuki, A description of discrete series for semisimple symmetric
+     spaces. II. Representations of Lie groups, Adv. Stud. Pure Math., 14,
+     (1988) 531–540.
+
+[19] H. Oh, Uniform pointwise bounds for matrix coefficients of unitary rep-
+     resentations and applications to Kazhdan constants, Duke Math. J. 113,
+     (2002) 133–192.
+
+[20] T. Oshima, A method of harmonic analysis on semisimple symmetric
+     spaces, Algebraic analysis, Vol. II, 667–680, Academic Press, Boston,
+     MA, 1988.
+
+
+                                      27
+[21] T. Oshima and T. Matsuki, A description of discrete series for semisim-
+     ple symmetric spaces. Adv. Stud. Pure Math., 4, (1984), 331–390.
+
+[22] P. E. Trapa, Annihilators and associated varieties of Aq (λ) modules for
+     U(p, q), Compositio Math. 129, (2001), 1–45.
+
+Y. Benoist
+CNRS-Université Paris-Sud, 91405 Orsay, France
+(e-mail: yves.benoist@math.u-psud.fr)
+T. Kobayashi
+Kavli IPMU (WPI) and Graduate School of Mathematical Sciences, the University
+of Tokyo, Meguro, Komaba, 153-8914, Tokyo, Japan
+(e-mail: toshi@ms.u-tokyo.ac.jp)
+
+
+
+
+                                     28
+

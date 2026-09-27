@@ -1,0 +1,3079 @@
+                                          A geometric realisation of tempered representations
+
+
+
+
+arXiv:1705.02088v3 [math.RT] 4 May 2018
+                                              restricted to maximal compact subgroups
+                                                           Peter Hochs, Yanli Song and Shilin Yu
+
+                                                                          July 25, 2018
+
+
+                                                                             Abstract
+                                                   Let G be a connected, linear, real reductive Lie group with compact
+                                               centre. Let K < G be maximal compact. For a tempered representa-
+                                               tion π of G, we realise the restriction π|K as the K-equivariant index
+                                               of a Dirac operator on a homogeneous space of the form G/H, for a
+                                               Cartan subgroup H < G. (The result in fact applies to every standard
+                                               representation.) Such a space can be identified with a coadjoint orbit
+                                               of G, so that we obtain an explicit version of Kirillov’s orbit method
+                                               for π|K . In a companion paper, we use this realisation of π|K to give a
+                                               geometric expression for the multiplicities of the K-types of π, in the
+                                               spirit of the quantisation commutes with reduction principle. This gen-
+                                               eralises work by Paradan for the discrete series to arbitrary tempered
+                                               representations.
+
+
+                                          Contents
+                                          1 Introduction                                                                  2
+                                            1.1 Background and motivation . . . . . . . . . . . . . . . . . . .           3
+                                            1.2 The main result . . . . . . . . . . . . . . . . . . . . . . . . . .       5
+                                            1.3 Relation with geometric quantisation of coadjoint orbits . . .            6
+                                            1.4 Ingredients of the proof . . . . . . . . . . . . . . . . . . . . .        7
+
+                                          2 Tempered representations                                                       9
+                                            2.1 Limits of discrete series . . . . . . . . . . . . . . . . . . . . .       10
+                                            2.2 The Knapp–Zuckerman classification . . . . . . . . . . . . . .            12
+
+                                          3 Indices of deformed Dirac operators                                     14
+                                            3.1 Deformed Dirac operators . . . . . . . . . . . . . . . . . . . . 14
+                                            3.2 Properties of the index . . . . . . . . . . . . . . . . . . . . . . 17
+
+                                                                                  1
+    3.3   The discrete series case . . . . . . . . . . . . . . . . . . . . . .   19
+    3.4   An almost complex structure . . . . . . . . . . . . . . . . . .        20
+    3.5   Tempered representations; the main result . . . . . . . . . . .        22
+    3.6   Relation with the orbit method and geometric quantisation .            23
+    3.7   Example: G = SL(2, R) . . . . . . . . . . . . . . . . . . . . .        25
+
+4 Linearising the index                                                  29
+  4.1 The linearised index . . . . . . . . . . . . . . . . . . . . . . . 29
+  4.2 Linearising G/H . . . . . . . . . . . . . . . . . . . . . . . . . 30
+  4.3 Linearising almost complex structures . . . . . . . . . . . . . 31
+  4.4 Linearising taming maps . . . . . . . . . . . . . . . . . . . . . 32
+  4.5 Proof of Proposition 4.1 . . . . . . . . . . . . . . . . . . . . . 37
+
+5 Indices on fibred products                                               38
+  5.1 The result . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+  5.2 A connection . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+  5.3 Estimates for Dirac operators . . . . . . . . . . . . . . . . . . 40
+  5.4 Proof of Proposition 5.1 . . . . . . . . . . . . . . . . . . . . . 42
+
+6 Computing the linearised index                                         44
+  6.1 A constant admissible function . . . . . . . . . . . . . . . . . 44
+  6.2 Indices on vector spaces . . . . . . . . . . . . . . . . . . . . . 47
+  6.3 Decomposing the index on E . . . . . . . . . . . . . . . . . . 48
+  6.4 The index on n . . . . . . . . . . . . . . . . . . . . . . . . . . 51
+  6.5 Proof of Proposition 6.10 . . . . . . . . . . . . . . . . . . . . 53
+
+7 Rewriting π|K                                                         56
+  7.1 Rewriting Blattner’s formula . . . . . . . . . . . . . . . . . . 56
+  7.2 Proof of Theorem 3.11 . . . . . . . . . . . . . . . . . . . . . . 58
+
+
+1    Introduction
+Let G be a connected, linear, real reductive Lie group with compact centre,
+and let g be its Lie algebra. Let K < G be a maximal compact subgroup.
+Harish–Chandra showed that a unitary irreducible representation π of G is
+determined by the corresponding actions by K and g on the K-finite vectors
+in the representation space of π. This means that, in a sense, half the infor-
+mation about π is contained in the restriction π|K . The explicit form of this
+information consists of the multiplicities of the irreducible representations
+of K in π|K ; i.e. the multiplicities of the K-types of π.
+
+
+                                         2
+    In this paper, we consider tempered representations π, and realise π|K
+as the equivariant index of a Dirac operator on a homogeneous space of
+G. In [18], we use this realisation to obtain a geometric expression for the
+multiplicities of the K-types of π. This expression is the index of a Dirac
+operator on a compact orbifold. These orbifolds are reduced spaces in the
+Spinc -sense, analogous to those in symplectic geometry. The expression
+for multiplicities of K-types is an instance of the quantisation commutes
+with reduction principle. This has direct consequences to the behaviour of
+multiplicities of K-types, such as criteria for them to equal 0 or 1.
+    Paradan [36] did all of this for the discrete series. This paper is inspired
+by his work, and extends it to general tempered representations.
+
+1.1   Background and motivation
+Kirillov’s orbit method is the idea that there should be a correspondence
+between (some) unitary irreducible representations π of a Lie group G, and
+(some) orbits O of the coadjoint action by G on the dual g∗ of its Lie alge-
+bra. See [44] for an account of the orbit method for reductive groups. On
+an intuitive level, the correspondence between orbits O and representations
+π is that π = Q(O), the geometric quantisation of O. In the modern mathe-
+matical approach, Q(O) should be the equivariant index of a Dirac operator
+on O. But defining this rigorously is a challenge if G and O are noncompact.
+    A rigorous construction is essential for many applications, however. While
+the orbit method is a powerful guiding principle, it needs to be made pre-
+cise for specific classes of groups and representations to have explicit con-
+sequences. The scope for applications depends on the properties of the
+construction π = Q(O). It is very useful if Q(O) is the index of an elliptic
+differential operator, because this opens up the possibility to apply pow-
+erful techniques from index theory to study π. For example, if the index
+used satisfies a fixed point formula, then this can be used to compute the
+global character of π. See [19] for an application of this to discrete series
+representations. If the index satisfies the quantisation commutes with re-
+duction principle, then this can be used to express the decomposition into
+irreducibles of the restriction of π to closed subgroups of G in terms of the
+geometry of O.
+    Atiyah–Schmid [3], Parthasarathy [40] and Schmid [41] realised dis-
+crete series representations as L2 -kernels of Dirac operators on homogeneous
+spaces of G. Schmid’s result fits directly into the orbit method framework.
+However, since kernels of Dirac operators are used, rather than indices, one
+cannot apply index theory results, such as fixed point formulas and the
+
+
+                                       3
+quantisation commutes with reduction principle, to these realisations to ob-
+tain information about the discrete series. Paradan [36] realised restrictions
+of discrete series representations π to K as K-equivariant indices of Dirac
+operators on coadjoint orbits O. While his realisation only applies to the re-
+striction of π to K, his approach has the important advantage that the index
+he used satisfies the quantisation commutes with reduction principle. This
+principle, proved by Paradan in this setting, implies a geometric expression
+for the multiplicities of the K-types of π, as indices of Dirac operators on
+compact orbifolds. These orbifolds are reduced spaces for the action by K
+on O. If p : g∗ → k∗ is the restriction map, then the reduced space at ξ ∈ k∗
+is
+                         Oξ = (p−1 (Ad∗ (K)ξ) ∩ O)/K.
+    For discrete series representations π, Blattner’s formula, proved by Hecht–
+Schmid [8], is an explicit combinatorial expression for multiplicities of K-
+types. This was in fact used by Paradan to obtain his realisation of π|K , and
+the resulting geometric multiplicity formula. But this geometric multiplicity
+formula has the advantage that it allows one to draw conclusions about the
+K-types of π from the geometry of the corresponding coadjoint orbit. For
+example, about the question when their multiplicities equal 0 or 1.
+    In this paper, we generalise Paradan’s construction to arbitrary tempered
+representations. Tempered representations are those unitary irreducible rep-
+resentations whose K-finite matrix coefficients are in L2+ε (G), for all ε > 0.
+The set Ĝtemp of these representations occurs in the Plancherel decomposi-
+tion                               Z ⊕
+                           2
+                          L (G) =         π ⊗ π ∗ dµ(π)
+                                     Ĝtemp
+
+of L2 (G) as a representation of G × G.     Here µ is the Plancherel measure.
+For this reason, tempered representations are central to harmonic analy-
+sis. Furthermore, they feature in the Langlands classification of admissible
+irreducible representations.
+    For general tempered representations, a multiplicity formula for K-types
+is especially valuable, because no explicit formula multiplicity formula exists
+yet in this generality. There are algorithms to compute these multiplicities,
+see the ATLAS software package1 developed by du Cloux, van Leeuwen,
+Vogan and many others; see also [1]. But it is a challenge to draw conclu-
+sions about the general behaviour of multiplicities of K-types from these
+algorithms. The main difficulty is that they involve representations of dis-
+connected subgroups, which cannot be classified via Lie algebra techniques.
+  1
+      See http://www.liegroups.org/software/.
+
+
+                                         4
+Also, already for the discrete series, cancellation of terms in Blattner’s for-
+mula can make it nontrivial to evaluate it, and for example to see when
+multiplicities equal zero. The geometric multiplicity formula we deduce
+from the main result of this paper in [18] allows us to use the geometry
+of coadjoint orbits to study multiplicities of K-types. In that paper, we
+obtain applications to multiplicity-free restrictions, and for example show
+that tempered representations of SU(p, 1), SO0 (p, 1) and SO0 (2, 2) with reg-
+ular infinitesimal characters have multiplicity-free restrictions to maximal
+compact subgroups.
+
+1.2   The main result
+Let π be a tempered representation of G. The main result in this paper
+is Theorem 3.11, a realisation of π|K as the K-equivariant index of a Dirac
+operator on G/H, for a Cartan subgroup H < G. Since G/H is noncompact
+in general, the kernel of such an operator is infinite-dimensional. This is
+desirable, since π is infinite-dimensional, but it makes the definition of the
+index more involved than on a compact manifold. We use index theory
+developed by Braverman [4].
+    Our construction involves a map
+
+                                Φ : G/H → k∗
+
+of the form Φ(gH) = (Ad∗ (g)ξ)|K , for a fixed ξ ∈ g∗ , and where g ∈ G.
+This is a moment map in the sense of symplectic geometry, although our
+construction will take us into the more general almost complex or Spinc -
+setting. After we identify k∗ ∼ = k via an Ad(K)-invariant inner product,
+the map Φ induces a vector field v Φ via the infinitesimal action by k on
+G/H. We define a K-invariant almost complex   V     structure J on
+                                                                 V G/H. This
+induces a Clifford action c by T (G/H) on J T (G/H). Here J stands for
+theVexterior algebra of complex    vector spaces. Let D be a Dirac operator
+on J T (G/H). We write ±
+                           V
+                             J T (G/H)   for the even and odd degree parts of
+this bundle, respectively. As a special case of Theorem 2.9 in [4], we find
+that the multiplicities m±
+                         δ of irreducible representations δ of K in
+
+                 ker(D − if c(v Φ )) ∩ L2 ( ±
+                                           V
+                                             J T (G/H) ⊗ Lπ )
+
+are finite, for a function f with suitable growth behaviour. Here Lπ →
+G/H is a certain line bundle associated to π. This deformation of the
+Dirac operator goes back to Tian–Zhang [42], who used it to give a proof
+of Guillemin–Sternberg’s quantisation commutes with reduction conjecture.
+
+                                      5
+                    −
+Furthermore, m+δ −mδ is independent of f and of the specific Dirac operator
+D used. This allows us to consider the K-equivariant index
+                                                           −
+          indexK ( J T (G/H) ⊗ Lπ , Φ) := δ∈K̂ (m+
+                   V                       L
+                                                    δ − mδ )δ.
+
+This index defines an element of the completion HomZ (R(K), Z) of the rep-
+resentation ring R(K) of K. It equals indices defined and used by Paradan–
+Vergne [36, 37, 43] and Ma–Zhang [30].
+    The main result in this paper, Theorem 3.11, states that this index equals
+π|K , up to a sign.
+
+Theorem 1.1. We have
+                                   V
+                   π|K = ± indexK ( J T (G/H) ⊗ Lπ , Φ).
+
+    See Section 3 for precise definitions of the sign ±, and of Φ, J and Lπ .
+In Subsection 3.7, we illustrate this result by working out what it means for
+G = SL(2, R).
+
+1.3   Relation with geometric quantisation of coadjoint orbits
+If the infinitesimal character χ of π is a regular element of ih∗ , then Theorem
+1.1 is a direct realisation of π|K as the K-equivariant geometric quantisation
+of a coadjoint orbit of G, as in the orbit method. Indeed, we may then take
+the map Φ to be the composition
+                             ∼
+                             =
+                           → Ad∗ (G)(χ + ρ̃) ֒→ g∗ → k∗ ,
+                   Φ : G/H −                                               (1.1)
+
+for an element ρ̃ ∈ ih∗ defined in terms of half sums of positive roots. Then
+Φ is the natural moment map in the symplectic sense for the action by K
+on the coadjoint orbit Ad∗ (G)(χ + ρ̃). The line bundle Lπ is now such that
+V                                                c
+   J T (G/H) ⊗ Lπ is the spinor bundle of a Spin -structure with determinant
+line bundle
+                  G ×H C2(χ+ρ̃) → G/H = Ad∗ (G)(χ + ρ̃),
+twisted by a one-dimensional representation of a finite Cartesian factor of
+H. In fact, Φ is a moment map in the Spinc -sense [38] for this Spinc -
+structure. Therefore, Theorem 1.1 now states that π|K is the K-equivariant
+Spinc -quantisation [15, 36, 38] of Ad∗ (G)(χ + ρ̃).
+    Index theory of Dirac operators deformed by the vector field v Φ , for a
+moment map Φ, appears frequently and naturally in geometric quantisa-
+tion. (There are at least two other, but equivalent, definitions to the one
+
+                                       6
+we use here, used in [35, 37, 43] and [30], respectively.) In the compact
+case, such deformations were used to prove quantisation commutes with re-
+duction results [35, 38, 42]. In the noncompact case, they are also used to
+define geometric quantisation [12, 11, 15, 30, 37, 43]. So the use of deformed
+Dirac operators in Theorem 1.1 is natural from the point of view of geo-
+metric quantisation. A concrete consequence of this is that it allows us to
+apply the quantisation commutes with reduction principle to compute the
+multiplicities of the K-types of π, as we do in [18].
+    Paradan [36] has pointed out that Spinc -quantisation is the relevant no-
+tion of geometric quantisation here; i.e. one should view Ad∗ (G)(χ + ρ̃) as a
+Spinc -manifold rather than as a symplectic manifold. More specifically, the
+Spinc -version of the quantisation commutes with reduction principle applies
+here, which we use in [18] to deduce a geometric expression for the multiplic-
+ities of the K-types of π from Theorem 1.1. Paradan and Vergne [38] showed
+that that principle has a natural generalisation from the symplectic setting
+to the Spinc -setting. The version we use in [18] is the result for noncompact
+Spinc -manifolds proved in [15].
+    If χ is singular, then in the orbit method, π is associated to a nilpotent
+orbit (which need not be the orbit through χ + ρ̃). In this case, the first map
+in (1.1) is a fibre bundle. By using G/H rather than this nilpotent orbit,
+we do not directly deal with the problem of quantising nilpotent orbits, but
+we are able to use Theorem 1.1 to obtain a multiplicity formula for K-types
+for all tempered representations in [18].
+
+1.4   Ingredients of the proof
+There are several challenges in generalising Theorem 1.1 from discrete series
+representations to arbitrary tempered representations.
+
+  1. The space G/H does not have a naturally defined G-invariant almost
+     complex structure.
+
+  2. We do not have an explicit result like Blattner’s formula to base the
+     construction on.
+
+  3. If T < K is a maximal torus and g = k ⊕ s is a Cartan decompo-
+     sition, then in the discrete series case, we have a K-equivariant dif-
+     feomorphism G/T = K ×T s. Such a “partial linearisation” is more
+     complicated in the general case.
+
+The last of these points takes most work to solve.
+
+
+                                      7
+    To deduce a multiplicity formula for K-types from Theorem 1.1, there
+are two main challenges.
+
+  1. Paradan showed in [36] that one needs a version of the quantisation
+     commutes with reduction principle for noncompact Spinc -manifolds.
+     He proved such a result in the setting relevant to discrete series repre-
+     sentations, but one needs a more general version for arbitrary tempered
+     representations.
+
+  2. It is unclear what coadjoint orbits, or what maps Φ, one should use in
+     general, for example for limits of the discrete series.
+
+The first of these points was solved in [15]. There a general version of the
+quantisation commutes with reduction principle was proved for noncompact
+Spinc -manifolds. This was based on Paradan–Vergne’s result for compact
+Spinc -manifolds in [39, 38]. The result in [15] is an analogue of the result
+by Ma–Zhang [30] for noncompact symplectic manifolds in the more general
+Spinc -setting. The second point will be solved in [18].
+   The proof of Theorem 1.1 in this paper consists of 3 steps.
+
+  1. Prove that the right hand side of the equality in Theorem 1.1 equals
+     an index on a “partially linearised” space E that is K-equivariantly
+     diffeomorphic to G/H. This is done in Section 4; see Proposition 4.1.
+
+  2. Compute this index on E explicitly. This is done in Sections 5 and 6;
+     see Proposition 6.1.
+
+  3. Use that explicit expression to prove that the index on E equals π|K .
+     This is done in Section 7; see Proposition 7.6.
+
+The second step is the most elaborate. One reason for this is that the
+arguments we use involve deformations of Dirac operators that do not fit
+into the index theory developed by Braverman. That means that we have to
+use homotopy arguments specifically tailored to our situation, rather than
+the general cobordism invariance property of Braverman’s index.
+    The representation theoretic input to our proof of Theorem 1.1 is:
+
+   • the part of Knapp and Zuckerman’s classification of tempered rep-
+     resentation that states that every tempered representation is basic
+     (Corollary 8.8 in [23]);
+
+   • Blattner’s formula for multiplicities of K-types of (limits of) discrete
+     series representations [9].
+
+                                     8
+In fact, to be precise, Theorem 1.1 applies to all basic (or standard) repre-
+sentations π (see Remark 3.12). The first of the above two ingredients is
+not necessary for the proof of the result in that formulation.
+
+Acknowledgements
+The authors are grateful to Maxim Braverman, Paul-Émile Paradan and
+David Vogan for their hospitality and inspiring discussions at various stages.
+    The first author was partially supported by the European Union, through
+Marie Curie fellowship PIOF-GA-2011-299300. He thanks Dartmouth Col-
+lege for funding a visit there in 2016. The third author was supported by the
+Direct Grants and Research Fellowship Scheme from the Chinese University
+of Hong Kong.
+
+Notation
+The Lie algebra of a Lie group is denoted by the corresponding lower case
+Gothic letter. We denote complexifications by superscripts C. The unitary
+dual of a group H will be denoted by Ĥ. If H is an abelian Lie group and
+ξ ∈ h∗ satisfies the appropriate integrality condition, then we write Cξ for
+the one-dimensional representation of H with weight ξ.
+   In Subsections 3.1 and 3.2 and in Section 5, the letter M will denote a
+manifold. In the rest of this paper, M is a subgroup of the group G. In
+Section 5, N is another manifold, whereas N denotes a subgroup of G in
+the rest of this paper. (There is little risk of confusion, because the group
+G does not play a role at all in the sections where M and N are manifolds.)
+The Levi–Civita connection on a Riemannian manifold M will be denoted
+by ∇T M .
+
+
+2    Tempered representations
+We start by reviewing the basic properties of tempered representations that
+we will need, including a part of their classification by Knapp and Zuckerman
+[23, 24, 25].
+    Throughout this paper, except in Subsection 2.1, G will denote a con-
+nected, linear, real reductive Lie group with compact centre ZG . (This is
+the class of groups for which tempered representations were classified in
+[23, 24, 25].) Let K < G be a maximal compact subgroup. Let θ be the
+corresponding Cartan involution, with Cartan decomposition g = k ⊕ s. Let
+(−, −) be the K-invariant inner product on g defined by the Killing form
+
+
+                                      9
+and θ. We transfer this inner product to the dual spaces g∗ and ig∗ where
+necessary.
+    A unitary irreducible representation π ∈ Ĝ is tempered if all of its K-
+finite matrix coefficients belong to L2+ ε (G) for all ε > 0. If Ĝtemp is the set of
+tempered representations of G, then we have the Plancherel decomposition
+                                   Z ⊕
+                         L2 (G) =          π ⊗ π ∗ dµ(π),                       (2.1)
+                                     Ĝtemp
+
+as representations of G × G, where µ is the Plancherel measure. Tempered
+representations are important
+   1. to harmonic analysis, because of (2.1);
+
+   2. because they are used in the Langlands classification of all admissible
+      representations [27]; see also e.g. Section VIII.15 in [21].
+
+2.1    Limits of discrete series
+In this subsection and the next, we make different assumptions on G than
+in the rest of this paper. (The contents of these subsections will later be
+applied to the subgroup M < G in the Langlands decomposition P = M AN
+of a cuspidal parabolic subgroup P < G.) Suppose G is a real linear Lie
+group, not necessarily connected. Let G0 < G be the connected component
+of the identity element. We now assume that
+   1. g is reductive;
+
+   2. G0 has compact centre;
+
+   3. G has finitely many connected components;
+
+   4. if GC is the analytic linear Lie group with Lie algebra gC , and if Z(G)
+      is the centraliser of G in the full general linear matrix group containing
+      G, then G ⊂ GC Z(G).
+These assumptions imply those used by Harish–Chandra in [7], see Section
+1 of [20].
+    In addition to the above assumptions, we suppose that G has a compact
+Cartan subgroup T < K. Then it has discrete series and limits of discrete
+series representations. We recall the classification of those representations,
+taking into account the fact that G may be disconnected. We refer to Section
+1 of [23] for details. See also Sections IX.7 and XII.7 in [21] for the connected
+case.
+
+                                         10
+    Let RG = R(gC , tC ) be the root system of (gC , tC ). For a regular element
+λ ∈ it∗ , let ρλ be half the sum of the elements of RG with positive inner
+products with λ. Then the discrete series of G0 is parametrised by the set
+of regular elements of λ ∈ it∗ for which λ − ρλ is integral (i.e. lifts to a
+homomorphsm eλ−ρλ : T → U(1)). For such an element λ, let πλG0 be the
+corresponding discrete series representation. For another such element λ′ ,
+we have πλG0 ∼ = πλG′0 if and only if there is an element w of the Weyl group
+NG0 (T )/ZG0 (T ) such that λ′ = wλ.
+    Let λ ∈ it∗ be as above. Let χ ∈ ẐG be such that
+
+                             χ|T ∩ZG = eλ−ρλ |T ∩ZG .                        (2.2)
+
+Then we have the well-defined representation πλG0 ⊠ χ of G0 ZG , given by
+
+                         (πλG0 ⊠ χ)(gz) = πλG0 (g)χ(z),
+
+for g ∈ G0 and z ∈ ZG . Write
+                                              G0
+                            G
+                           πλ,χ := IndG
+                                      G0 ZG (πλ ⊠ χ)
+
+(Here and in the rest of this paper, Ind denotes normalised induction.) This
+is a discrete series representation of G, and all discrete series representations
+                                                     G and π G
+of G are of this form. Two such representations πλ,χ          λ′ ,χ′ are equivalent
+                  ′
+if and only if χ = χ and there is an element w ∈ NG (T )/ZG (T ) such that
+λ′ = wλ.
+    Now let λ ∈ it∗ be possibly singular, and choose a (non-unique) positive
+                +
+root system RG      ⊂ RG of roots having nonnegative inner products with λ.
+                                                 +
+Let ρ be half the sum of the elements of RG        , and suppose that λ − ρ is
+integral.
+                                                               +
+    Let ν ∈ it∗ be regular and dominant with respect to RG       . Let F−ν be the
+                                                      C
+finite-dimensional irreducible representation of g with lowest weight −ν.
+Set
+                             G0           G0
+                            πλ,R+ := pλ (πλ+ν ⊗ F−ν ),                        (2.3)
+                                G
+
+where pλ denotes projection onto the subspace with infinitesimal character
+                          G0      G0
+λ. If λ is regular, then πλ,R+ = πλ . And even if λ is singular, the right
+                                G
+hand side of (2.3) is independent of ν. For singular λ, the representation
+ G0
+πλ,R+ is a limit of discrete series representation of G0 .
+    G
+                +
+    Let λ and RG   be as above. Let χ be a unitary irreducible representation
+of ZG , such that (2.2) holds. Write
+                                               G0
+                         G
+                        πλ,R+
+                              ,χ
+                                 := IndG
+                                       G0 ZG (πλ,R+ ⊠ χ).                    (2.4)
+                            G                     G
+
+
+
+                                        11
+The following result is Theorem 1.1 in [23].
+                     +                                     G
+Theorem 2.1. For λ, RG and χ as above, the representation πλ,R+
+                                                                ,χ
+                                                                   is
+                                                                      G
+
+                                                                         +
+   • nonzero if and only if (λ, α) 6= 0 for all simple (with respect to RG )
+     compact roots α;
+
+   • irreducible and tempered in that case.
+                             G
+If two such representations πλ,R+
+                                  ,χ
+                                     and πλG′ ,(R+ )′ ,χ′ are nonzero, they are
+                                  G              G
+equivalent if and only if χ′ = χ, and there is an element w ∈ NG (T )/ZG (T )
+                           + ′      +
+such that λ′ = wλ and (RG    ) = wRG  .
+
+    The limits of discrete series representations are the nonzero representa-
+tions occurring in the above theorem.
+
+2.2   The Knapp–Zuckerman classification
+We now return to the setting described at the start of this section. In partic-
+ular, G is connected, linear, real reductive, with compact centre. We state
+the part that we need of Knapp and Zuckerman’s classification of tempered
+representations of G, in terms of limits of discrete series representations of
+subgroups of G. At the same time, we fix notation that will be used in the
+rest of this paper.
+    Let h ⊂ g be a θ-stable Cartan subalgebra. Set
+
+   • H := ZG (h);
+
+   • a := h ∩ s;
+
+   • A := the analytic subgroup of G with Lie algebra a;
+
+   • m := the orthogonal complement to a in Zg (a);
+
+   • M0 := the analytic subgroup of G with Lie algebra m;
+
+   • M := ZK (a)M0 .
+
+The subgroup M may be disconnected. But importantly, it satisfies the
+assumptions made on the group G in Subsection 2.1.
+   For β ∈ a∗ , set
+
+              gβ := {X ∈ g; for all Y ∈ a, [Y, X] = hβ, Y iX}.
+
+
+                                      12
+Consider the restricted root system
+
+                  Σ := Σ(g, a) := {β ∈ a∗ \ {0}; gβ 6= {0}}.
+
+Fix a positive system Σ+ ⊂ Σ. Consider the nilpotent subalgebras
+                                  M
+                            n± :=      g±β .
+                                        β∈Σ+
+
+of g. We will write n := n+ . Let N be the analytic subgroup of G with Lie
+algebra n. Then P := M AN is a parabolic subgroup of G.
+    Let T < K be a maximal torus. Set
+
+   • KM := K ∩ M ;
+
+   • tM := kM ∩ t;
+
+   • TM := exp(tM ).
+
+Then tM ⊂ m is a Cartan subalgebra, so M has discrete series and limits
+of discrete series representations. That is to say, P is a cuspidal parabolic
+subgroup. In fact, all cuspidal parabolic subgroups occur in this way.
+    If we write sM := m ∩ s, then we obtain the Cartan decomposition
+m = kM ⊕ sM . Set HM := H ∩ M . We have TM < HM . The converse
+inclusion does not hold in general, since TM is connected, whereas HM may
+be disconnected. More explicitly, Corollary 7.111 in [22] implies that
+
+                                  HM = TM ZM .                            (2.5)
+
+In fact, HM = TM ZM   ′ for a finite subgroup Z ′ < Z . So the Lie algebra
+                                                M       M
+of HM is tM .
+                    +
+    Let λ ∈ it∗M , RM  ⊂ R(mC , tCM ), and χM ∈ ẐM be as in Subsection 2.1,
+with G replaced by M and T by HM . Then we have the limit of discrete
+                        M
+series representation πλ,R+
+                            ,χ
+                                 of M . Let ν ∈ ia∗ . A basic representation of
+                          M   M
+G is a representation of the form
+
+                         IndG   M
+                            P (πλ,R+ ,χ       ⊗ eν ⊗ 1N ),
+                                    M     M
+
+
+where 1N is the trivial representation of N .
+
+Theorem 2.2 (Knapp–Zuckerman). Every tempered representation of G is
+basic.
+
+
+                                        13
+    This is Corollary 8.8 in [23]. In Theorem 14.2 in [24], Knapp and Zuck-
+erman complete the classification of tempered representations by showing
+which basic representations are irreducible and tempered. (These are the
+ones with nondegenerate data and trivial R-groups; see Sections 8 and 12
+in [24] for details on these conditions).
+    The main result of this paper, Theorem 3.11, is formulated for tempered
+representations, but in fact applies more generally to all basic representa-
+tions (see Remark 3.12). The result is formulated for tempered representa-
+tions, because of the special relevance of those representations.
+
+
+3     Indices of deformed Dirac operators
+The main result in this paper is Theorem 3.11, which states that the re-
+striction to K of a tempered representation of G can be realised as the
+equivariant index of a deformed Dirac operator on G/H, for a Cartan sub-
+group H < G. In this section, we review the index theory we will use, and
+state the main result.
+
+3.1   Deformed Dirac operators
+Braverman [4] developed equivariant index theory for the deformations of
+Dirac operators on noncompact manifolds that we briefly discuss in this sub-
+section. His index is the same as the indices defined by Paradan and Vergne
+[37, 43] (see Theorem 5.5 in [4]) and Ma–Zhang [29] (see Theorem 1.5 in [29]).
+Its main applications have so far been to geometric quantisation and repre-
+sentation theory, see e.g. [36]. The deformation of Dirac operators (3.1) used
+by Braverman was introduced by Tian and Zhang [42] in their analytic proof
+of Guillemin and Sternberg’s quantisation commutes with reduction problem
+(which was first proved by Meinrenken [32] and Meinrenken–Sjamaar [33];
+another proof was given by Paradan [35]).
+    In this subsection, we consider a complete Riemannian manifold M , on
+which a compact Lie group K acts isometrically. (In this subsection and
+the next, M does not denote a subgroup of G; in fact G does not play a
+role at all here.) Let S → M be a Z2 -graded, Hermitian, K-equivariant
+complex vector bundle. Let c : T M → End(S) be a K-equivariant vector
+bundle homomorphism, called the Clifford action, such that for all v ∈ T M ,
+                               c(v)2 = −kvk2 .
+(Here K acts on End(S) by conjugation.) Then S is called a K-equivariant
+Clifford module.
+
+                                     14
+Example 3.1. In the setting we consider in the rest of this paper, M will
+have a K-equivariant almost complex structure J,Vand we will use S =
+V
+  J T M ⊗ L, where L → M is a line bundle and          J T M is the complex
+exterior algebra bundle of T M with respect to J. This has a natural Clifford
+action, given by
+                            c(v)x = v ∧ x − v ∗ yx,
+where v ∈ Tm M for some m ∈ M , x ∈ J Tm M ⊗ Lm , v ∗ ∈ Tm       ∗ M is dual
+                                          V
+to v with respect to the Hermitian metric defined by J and the Riemannian
+metric, and y denotes contractionV (see e.g. page 395 in [28]). When dealing
+with vector bundles of the form J T M ⊗ L, we will always use this Clifford
+action.
+
+   Let ∇ be a K-invariant, Hermitian connection on S such that for all
+vector fields v and w on M ,
+
+                           [∇v , c(w)] = c(∇Tv M w),
+
+where ∇T M is the Levi–Civita connection on T M . If we identify T ∗ M ∼
+                                                                       = TM
+via the Riemannian metric, we can view c as a vector bundle homomorphism
+
+                              c : T ∗ M ⊗ S → S.
+
+The Dirac operator D associated to ∇ is the composition
+                              ∇                    c
+                  D : Γ∞ (S) −
+                             → Γ∞ (T ∗ M ⊗ S) −
+                                              → Γ∞ (S).
+
+It is odd with respect to the grading on S; we denote its restrictions to even
+and odd sections by D + and D − , respectively.
+     If M is compact, then the elliptic operator D has finite-dimensional
+kernel. So it has a well-defined equivariant index
+
+              indexK (D) := [ker(D + )] − [ker(D − )]   ∈ R(K),
+
+where R(K) is the representation ring of K, and square brackets denote
+equivalence classes of representations of K. If M is noncompact, one can
+still define an equivariant index, using a taming map.
+     Let ψ : M → k be an equivariant smooth map (with respect to the adjoint
+action by K on k). Let v ψ be the vector field on M defined by
+
+                                 d
+                     v ψ (m) =          exp(−tψ(m)) · m,
+                                 dt t=0
+
+
+                                      15
+for m ∈ M . The map ψ is called a taming map if the set of zeroes of the
+vector field v ψ is compact. The Dirac operator deformed by ψ is the operator
+
+                             Dψ := D − ic(v ψ )                         (3.1)
+
+on Γ∞ (S). As for the undeformed operator, we denote the restrictions of
+Dψ to even and odd sections by Dψ+ and Dψ− , respectively.
+   To obtain a well-defined index, one needs to rescale the map ψ by a
+function with suitable growth behaviour. Let ΦS ∈ End(S) ⊗ k∗ be given by
+
+                           hΦS , Zi = ∇Z M − LZ ,                       (3.2)
+
+for Z ∈ k. Here Z M is the vector field on M induced by Z via the infinites-
+imal action. Let ∇T M be the Levi–Civita connection on T M . Consider the
+positive, K-invariant function
+
+               h := kv ψ k + k∇T M v ψ k + khΦS , ψik + kψk + 1         (3.3)
+
+on M . A nonnegative function f ∈ C ∞ (M )K is said to be admissible (for
+ψ and ∇) if
+                            f 2 kv ψ k2
+                                            (m) → ∞
+                      kdf kkv ψ k + f h + 1
+as m → ∞ in M . It is shown in Lemma 2.7 in [4] that admissible functions
+always exist.
+Theorem 3.2 (Braverman). Suppose ψ is taming. Then for all admissible
+functions f ∈ C ∞ (M )K , and all δ ∈ K̂, the multiplicity m±
+                                                            δ of δ in
+
+                             ker(Df±ψ ) ∩ L2 (S)
+                                −
+is finite. The difference m+
+                           δ − mδ is independent of f and ∇.
+
+    This is Theorem 2.9 in [4]. The fact that m+       −
+                                                 δ − mδ is independent
+of f and ∇ is a consequence of Braverman’s cobordism invariance result,
+Theorem 3.7 in [4]. This cobordism invariance property also implies that
+the index is independent of the K-invariant, complete Riemannian metric
+on M .
+    Let R̂(K) be the abelian group
+                                nX              o
+                      R̂(K) :=      mδ δ; mδ ∈ Z .
+                                  δ∈K̂
+
+It contains the representation ring R(K) as the subgroup for which only
+finitely many of the coefficients mδ are nonzero.
+
+                                     16
+Definition 3.3. In the setting of Theorem 3.2, the equivariant index of the
+pair (S, ψ) is
+                                X
+               indexK (S, ψ) :=    (m+      −
+                                      δ − mδ )δ    ∈ R̂(K).
+                                  δ∈K̂
+
+   This index was generalised to proper actions by noncompact groups in
+Theorem 3.12 in [14]. Earlier, this was done for sections invariant under the
+group action in [5, 11].
+
+3.2   Properties of the index
+As mentioned above, independence of the coefficients m+     −
+                                                       δ −mδ of the choices
+of f and ∇ follows from a cobordism invariance property. We will use the
+special case of this result that we describe now. For j = 1, 2, let Sj → M
+be a Clifford module, and let ψj : M → k be a taming map.
+
+Definition 3.4. A homotopy between (S1 , ψ1 ) and (S2 , ψ2 ) is a pair (S, ψ),
+where
+
+   • S → M × [0, 1] is a Clifford module, such that
+
+        ◦ S|M ×[0,1/3[ = S1 × [0, 1/3[, including the Clifford actions by T M ;
+        ◦ S|M ×]2/3,1] = S2 ×]2/3, 1], including the Clifford actions by T M .
+
+      Let ∂t be the unit vector field of the component R in T (M × ]0, 1[) =
+      T M × R × ]0, 1[. Let c : T (M × ]0, 1[) → End(S|M ×]0,1[ ) be the Clifford
+      action. Then
+                               √
+         ◦ c(∂t )|M ×[0,1/3[ = −1;
+                                √
+         ◦ c(∂t )|M ×]2/3,1[ = − −1.
+
+   • ψ : M × [0, 1] → k is a taming map, such that for all m ∈ M and
+     t ∈ [0, 1],                
+                                   ψ1 (m) if t < 1/3;
+                      ψ(m, t) =
+                                   ψ2 (m) if t > 2/3.
+
+Theorem 3.5 (Homotopy invariance). If (S1 , ψ1 ) and (S2 , ψ2 ) are homo-
+topic, then
+                indexK (S1 , ψ1 ) = indexK (S2 , ψ2 ).
+
+
+
+
+                                         17
+    See Theorem 3.7 in [4]. We will only apply this result in cases where
+either S1 = S2 or ψ1 = ψ2 . If (S1 , ψ1 ) and (S2 , ψ2 ) are homotopic, then if
+S1 = S2 , we say that ψ1 and ψ2 are homotopic. Similarly, if ψ1 = ψ2 , then
+we say that S1 and S2 are homotopic.
+
+Corollary 3.6. Suppose that S1 = S2 , and that
+
+                                 (v ψ1 , v ψ2 ) ≥ 0.
+
+Then ψ1 and ψ2 are homotopic, so that
+
+                      indexK (S1 , ψ1 ) = indexK (S2 , ψ2 ).
+
+Proof. Let χ : R → [0, 1] be a smooth function such that χ(t) = 0 if t < 1/3
+and χ(t) = 1 if t > 2/3. For t ∈ [0, 1] and m ∈ M , set
+
+                  ψ(m, t) := (1 − χ(t))ψ1 (m) + χ(t)ψ2 (m).
+
+Then
+
+  kv ψt (m)k2 = (1−χ(t))2 kv ψ1 (m)k2 +χ(t)2 kv ψ2 (m)k2 +2(1−χ(t))χ(t)(v ψ1 , v ψ2 )
+                                 ≥ (1 − χ(t))2 kv ψ1 (m)k2 + χ(t)2 kv ψ2 (m)k2 .
+
+This can only vanish if v ψ1 (m) = 0 or v ψ2 (m) = 0, so that ψ is a taming
+map. Hence the claim follows from Theorem 3.5.
+
+   Another property of the index that we will use is excision.
+
+Proposition 3.7 (Excision). Suppose that ψ is taming, and let U ⊂ M be
+a relatively compact, K-invariant open subset, with a smooth boundary, out-
+side which v ψ does not vanish. Consider a K-invariant Riemannian metric
+on T U for which U is complete, and which coincides with the Riemannian
+metric on T M in a neighbourhood of the zeroes of v ψ . Also consider a
+compatible Clifford action by T U on S|U . Then
+
+                      indexK (S|U , ψ|U ) = indexK (S, ψ).
+
+   For a proof, see Lemma 3.12 and Corollary 4.7 in [4].
+
+
+
+
+                                        18
+3.3   The discrete series case
+We return to the setting described at the start of Section 2. One application
+of the index theory of deformed Dirac operators was Paradan’s realisation
+in [36] of restrictions to K of discrete series representations of G. The main
+result in this paper, Theorem 3.11, is a generalisation of Paradan’s result to
+arbitrary tempered representations. The main advantage of Paradan’ result
+is that it implies a geometric formula for multiplicities of K-types of discrete
+series representations, Theorem 1.5 in [36]. We will use Theorem 3.11 to
+obtain a generalisation of this multiplicity formula to arbitrary tempered
+representations in a forthcoming paper [18].
+    Let us first state Paradan’s result. Suppose G is semisimple, and has
+a compact Cartan subgroup T < K. Let λ ∈ it∗ be a regular element for
+which λ − ρλ is integral, and let πλG be the corresponding discrete series
+representation. The coadjoint orbit
+                               Ad∗ (G)λ ∼
+                                        = G/T
+has a G-invariant complex structure J such that
+                                           M
+                       TeT (G/T ) = g/t =       gC
+                                                 α                        (3.4)
+                                              α∈R+
+                                                 G
+
+as complex vector spaces. Let
+                           V
+                               J T (G/T ) → G/T
+
+be the corresponding Clifford module, as in Example 3.1.
+   Let Cλ−ρλ be the one-dimensional representation of T with weight λ−ρλ ,
+and consider the line bundle
+                       Lλ−ρλ := G ×T Cλ−ρλ → G/T.
+Consider map
+                    Φ : G/T = Ad∗ (G)λ ֒→ g∗ → k∗ ∼
+                                                  = k,
+where the map g∗ → k∗ is the restriction map, and the identification k∗ ∼
+                                                                        = k is
+made via the K-invariant inner product chosen earlier. This map is taming
+by Proposition 2.1 in [34].
+Theorem 3.8 (Paradan). We have
+           πλG |K = (−1)dim(G/K)/2 index( J T (G/T ) ⊗ Lλ−ρλ , Φ).
+                                         V
+                                                                          (3.5)
+    This is Theorem 5.1 in [36]. In fact, Paradan proves that the right hand
+side of (3.5) equals (−1)dim(G/K)/2 times the right hand side of Blattner’s
+formula. The latter theorem therefore implies Theorem 3.8.
+
+                                      19
+3.4   An almost complex structure
+Now we drop the assumption that G is semisimple and has a compact Cartan
+subgroup. We consider a general tempered representation π of G, and write
+
+                       π = IndG   M
+                              P (πλ,R+ ,χ       ⊗ eν ⊗ 1N )
+                                      M     M
+
+
+as in Theorem 2.2. Let H < G be the Cartan subgroup as in Subsection
+2.2; we also use the other notation from that subsection. We will realise the
+restriction π|K as the K-equivariant index of an deformed Dirac operator on
+G/H (up to a sign). To do this, we will use a K-equivariant almost complex
+structure on G/H. (If π belongs to the discrete series, this is the G-invariant
+complex structure defined by (3.4), but in general it is only K-invariant, and
+need not be integrable.) We have
+
+                             g = k ⊕ sM ⊕ a ⊕ n.
+
+Therefore, we have an HM -invariant decomposition
+
+             g/h = k/tM ⊕ sM ⊕ n = k/kM ⊕ kM /tM ⊕ sM ⊕ n.                (3.6)
+
+The map from n− to k/kM , given by X 7→ 12 (X + θX) is an HM -equivariant
+linear isomorphism. Using this, we find that, as a representation space of
+HM ,
+                        g/h = m/tM ⊕ n− ⊕ n+ .                       (3.7)
+                                                          +
+As in the discrete series case, the positive root system RM for (mC , tC
+                                                                       M)
+determines an Ad(HM )-invariant complex structure Jm/tM on m/tM such
+that, as complex vector spaces,
+                                      M
+                            m/tM =         mCα.
+                                       α∈R+
+                                          M
+
+
+   Once and for all, we fix an element ζ ∈ a such that hβ, ζi > 0 for all
+β ∈ Σ+ . Then the map
+
+                         ad(ζ) : n− ⊕ n+ → n− ⊕ n+
+
+is invertible, with real eigenvalues. Set
+
+                Jζ := θ| ad(ζ)|−1 ad(ζ) : n− ⊕ n+ → n− ⊕ n+ .
+
+Lemma 3.9. The map Jζ is an HM -invariant complex structure.
+
+                                      20
+Proof. The adjoint action by HM commutes with θ because HM < K. It
+commutes with ad(ζ), because HM < M < ZG (a). So the map Jζ is HM -
+equivariant. Let β ∈ Σ+ . The map ad(ζ) preserves the spaces g±β , while
+the Cartan involution θ interchanges them. Hence, if Xβ ∈ gβ ,
+
+                                Jζ2 (Xβ ) = Jζ (θXβ ) = −Xβ .
+
+Similarly, if X−β ∈ g−β , then
+
+                        Jζ2 (X−β ) = −Jζ (θX−β ) = −X−β .
+
+
+
+   Let
+                                    Jg/h := Jm/tM ⊕ Jζ                                (3.8)
+be the HM -invariant complex structure on g/h defined by Jm/tM and Jζ via
+the isomorphism (3.7).
+    Since Jg/h is not necessarily H-invariant, it does not extend to a G-
+invariant almost complex structure on G/H in general. However, it does
+extend to a K-invariant almost complex structure in a natural way.
+
+Lemma 3.10. There is a unique K-invariant almost complex structure J
+on G/H, such that for all k ∈ K, X ∈ sM and Y ∈ n, the following diagram
+commutes:
+                                           J     / Tk exp(X) exp(Y )H G/H
+            Tk exp(X) exp(Y )H G/H                                                    (3.9)
+                            O                                  O
+     TeH k exp(X) exp(Y )                                     TeH k exp(X) exp(Y )
+
+                TeH G/H = g/h                       / g/h = TeH G/H.
+                                          Jg/h
+
+
+Proof. If k, k′ ∈ K, X, X ′ ∈ sM and Y, Y ′ ∈ n such that
+
+                   k exp(X) exp(Y )H = k′ exp(X ′ ) exp(Y ′ )H,
+
+then there are h ∈ HM and a ∈ A such that
+
+k′ exp(X ′ ) exp(Y ′ ) = k exp(X) exp(Y )ha = kh exp(Ad(h−1 )X) exp(Ad(h−1 )Y )a.
+
+Since the multiplication map
+
+                                K × exp(sM ) × N × A → G                             (3.10)
+
+
+                                               21
+is injective (indeed, a diffeomorphism), we must have a = e. So
+
+           TeH k′ exp(X ′ ) exp(Y ′ ) = TeH k exp(X) exp(Y ) ◦ TeH h.
+
+Since TeH h : g/h → g/h is induced by Ad(h), it commutes with Jg/h . Since
+(3.10) is a diffeomorphism, every element of G/H is of the form k exp(X) exp(Y )H
+for some k ∈ K, X ∈ sM and Y ∈ n. Hence the map J is well-defined by
+commutativity of (3.9). This defining property directly implies that J is
+K-invariant.
+
+3.5   Tempered representations; the main result
+In the notation of the previous subsection, we have the vector bundle
+                            V
+                              J T (G/H) → G/H,
+
+with J as in Lemma 3.10. As in the discrete series case, this vector bundle
+has the natural K-equivariant Clifford action of Example 3.1. Let ρM be half
+                         +
+the sum of the roots in RM . Consider the one-dimensional representation
+
+                                Cλ−ρM ⊠ χM
+
+of HM . We extend it to a representation of H by letting A act trivially.
+This induces the line bundle
+
+                Lλ−ρM ,χM := G ×H (Cλ−ρM ⊠ χM ) → G/H.
+                                                                        +
+   Let ξ ∈ t∗M be any regular element that is dominant with respect to RM  .
+We may, and will, assume that the elements ζ ∈ a and ξ ∈ tM ∼  ∗
+                                                                 = Mt   are
+chosen so that the element ξ + ζ ∈ h is regular for the roots of (gC , hC ).
+Define the map
+                             Φ : G/H → k∗ = k
+by
+                          Φ(gH) = Ad∗ (g)(ξ + ζ)|k .
+(Here we identify ζ ∈ a with the dual element in a∗ via the chosen inner
+product.) The map Φ is the moment map in the sense of symplectic geometry
+for the action by K on the coadjoint orbit Ad∗ (G)(ξ+ζ). This map is taming
+for that action, by Proposition 2.1 in [34]. (This is true because ξ + ζ is a
+regular element, so Ad∗ (G)(ξ + ζ) is a closed coadjoint orbit.)
+    Our main result is the following realisation of π|K . Recall that
+
+                      π = IndG   M
+                             P (πλ,R+ ,χ       ⊗ eν ⊗ 1N ).             (3.11)
+                                      M    M
+
+
+
+                                      22
+Theorem 3.11. We have
+       π|K = (−1)dim(M/KM )/2 indexK
+                                           V                            
+                                               J T (G/H) ⊗ Lλ−ρM ,χM , Φ .
+
+   Note that if π belongs to the discrete series or limits of discrete series,
+then M = G, H = T and n− = n+ = {0}. So if we take ξ = λ, then
+Theorem 3.11 reduces to Theorem 3.8. The case of limits of discrete series
+was not treated in [36], because the focus there was to obtain a multiplicity
+formula for K-types of the discrete series. But the techniques used there
+apply directly to this case.
+Remark 3.12. The only property of the representation π that we will use
+to prove Theorem 3.11 is that it is of the form (3.11). This is true if π is
+tempered by Theorem 2.2. Since the restriction to K of the representation on
+the right hand side of (3.11) is independent of the parameter ν ∈ (aC )∗ , even
+for non-imaginary ν, Theorem 3.11 in fact applies to every representation π
+equal to the right hand side of (3.11), for ν ∈ (aC )∗ ; i.e. to every standard
+representation. By the Langlands classification of admissible representations
+(see for example Theorem 14.92 in [21]), this implies that the restriction to
+K of every admissible representation is a quotient of an index as in Theorem
+3.11.
+Remark 3.13. The sign (−1)dim(G/K)/2 in Theorem 3.11 can be absorbed
+into the Clifford module used. For example, under regularity conditions on
+λ and ν, one can choose the Spinc -structure on G/H whose determinant line
+bundle is a prequantum line bundle for a relevant coadjoint orbit. However,
+we prefer the explicit Clifford module in Theorem 3.11. This also avoids
+references to symplectic geometry, since Spinc -geometry is more relevant
+here. We discuss this in more detail in Subsection 3.6.
+
+3.6   Relation with the orbit method and geometric quantisa-
+      tion
+In a companion paper [18], we use Theorem 3.11 together with a Spinc -
+quantisation commutes with reduction result, Theorem 3.10 in [15], to obtain
+a geometric formula for the multiplicities of the K-types of π. Note that in
+Theorem 3.11, there is a large amount of freedom in choosing the elements
+ξ ∈ t∗M and ζ ∈ a. To obtain the multiplicity formula in [18], we will need
+to make more specific choices.
+                                                                      +
+    Let ρG be half the sum of the positive roots compatible with RM     and
+  +
+Σ . Consider the element
+                    η := (λ + ν + ρG |tM − ρM )/i       ∈ h∗ .
+
+                                      23
+Then, modulo a factor i, η is the infinitesimal character of π, shifted by
+ρG |tM − ρM . Suppose that η is a regular element of h. We will see in Section
+2.2 of [18] that a natural choice is to take ξ = λ + ρG |tM − ρM and ζ dual to
+ν/i. Then Φ is the map
+                               ∼
+                               =
+                            → Ad∗ (G)η ֒→ g∗ → k∗ .
+                        G/H −                                             (3.12)
+
+This is a moment map in the symplectic sense for the action by K on the
+coadjoint orbit Ad∗ (G)η.
+    However, to obtain a multiplicity formula for the K-types of π from
+Theorem 3.11 via the quantisation commutes with reduction principle, it is
+better to use a Spinc -approach to geometric quantisation. Indeed, already in
+the case of the discrete series, the natural complex structure on Ad∗ (G)η =
+Ad∗ (G)λ = G/T is not compatible with the natural symplectic form, and
+the line bundle Lλ−ρM ,χM = G ×T Cλ−ρ is not a prequantum line bundle for
+that symplectic structure. See Section 1.5 of [36]. For this reason, it is useful
+that, for these choices of ξ and ζ, the map Φ is a moment    map in the Spinc -
+sense, for the Spinc -structure with the spinor bundle J T (G/H)⊗Lλ−ρM ,χM
+                                                      V
+in Theorem 3.11. This is shown in Proposition 2.4 and Lemma 4.5 in [18].
+The quantisation commutes with reduction principle was shown to have a
+natural place in Spinc -geometry
+                            V      by Paradan and Vergne [39].
+    The Clifford module J T (G/H) ⊗ Lλ−ρM ,χM used in Theorem 3.11 cor-
+responds to a K-equivariant Spinc -structure. The manifold G/H does not
+admit a G-equivariant Spinc -stucture in general, because the action by G on
+G/H is not proper if H is noncompact. Indeed, the manifold then does not
+even admit a G-invariant Riemannian metric. In the context of the orbit
+method, the Spinc -structure with spinor bundle
+                     V
+                       J T (G/H) ⊗ Lλ−ρM ,χM ⊗ (G ×H Cν )
+
+on G/H ∼  = Ad∗ (G)η is a natural one to use. ThisVis K-equivariantly iso-
+morphic to the Spinc -structure with spinor bundle J T (G/H) ⊗ Lλ−ρM ,χM
+in Theorem 3.11, and we leave out the factor (G ×H Cν ) to simplify our
+arguments. See Lemma 4.5 in [18]. (Including that factor would lead to a
+factor Cν in Proposition 7.1 below, which is trivial as a representation of
+HM so would not change that result.)
+    The use of index theory of Dirac operators deformed by vector fields
+induced by moment maps (known as Kirwan vector fields), as in Theorem
+3.11, is quite common and natural in geometric quantisation. Already in
+the compact case, such deformations were used to prove that quantisation
+commutes with reduction in [35, 42]. In the noncompact case, such deformed
+
+                                       24
+Dirac operators are not just used to prove this result, but also to define geo-
+metric quantisation. This was done in Vergne’s conjecture [43] for actions by
+compact groups on noncompact symplectic manifolds, and its generalisation
+and proof by Ma and Zhang [30] and later by Paradan [37] (and even later in
+[16]). In Vergne’s conjecture and Paradan’s proof, and in Ma and Zhang’s
+proof, two different but equivalent definitions of the equivariant index of
+deformed Dirac operators were used to the one we use here. The same de-
+formed Dirac operators were used to prove that quantisation commutes with
+reduction for actions by compact groups on noncompact Spinc -manifolds in
+[15], and for proper actions by noncompact groups in [12, 11, 17, 31].
+    If η is not regular, then the map (3.12) is still a moment map in the Spinc -
+sense, but the first arrow is a fibre bundle rather than a diffeomorphism. In
+this case, the map (3.12) does not have the properties that the map Φ needs
+to have for Theorem 3.11 to hold. In [18], we will deform the map Φ in
+Theorem 3.11 to a taming, proper Spinc -moment map to obtain a geometric
+expression for multiplicities of K-types of π.
+    In representation theory, such representations with singular parameters
+are viewed as being associated to nilpotent coadjoint orbits. Via the defor-
+mation we use in the singular case, we lose the link with this aspect of the
+orbit method, but we gain a geometric formula for multiplicities of K-types.
+
+3.7     Example: G = SL(2, R)
+To illustrate Theorem 3.11, we work out the case where G = SL(2, R) and
+K = SO(2). This group G has three kinds of tempered representations: the
+(holomorphic and antiholomorphic) discrete series, the limits of the discrete
+series, and the (spherical and nonspherical) unitary principal series.
+
+3.7.1    The discrete series
+To realise the restrictions of the discrete series    to K, wetake H = T =
+                                                         0 −1
+SO(2), so M = G. Let α be the root that maps                       to 2i. Let n ∈
+                                                         1 0
+{1, 2, 3, . . .}, and let Dn± be the discrete series representation with Harish–
+Chandra parameter λ = ±nα/2. Then ρM = ρλ = ±α/2. We take ξ = λ.
+In this case a = {0}, so ζ = 0. Then the map Φ is defined by Φ(gT ) =
+Ad∗ (g)λ|k , for g ∈ G. This is the identification of G/T with the elliptic
+orbit Ad∗ (G)λ, followed by restriction to k. We may use the orbit through
+any positive multiple of λ here, but this choice will turn out to be the relevant
+one for the computation of multiplicities of K-types.
+
+
+                                       25
+   Then the complex structure Jg/t is determined by the isomorphism g/t ∼
+                                                                        =
+gC
+ ±α = CE±α , where
+                                                                       
+                      1       1 −i                         1       1 i
+               Eα =                       ;        E−α =                      .
+                      2       −i −1                        2       i −1
+The torus T acts on this space with weight ±α. We will write Cl for the
+unitary irreducible
+                V representation of the circle with weight l ∈ Z. Then
+g/h = C±2 , and Jg/h g/h = C0 ⊕ C±2 .
+                                                                                  M
+   We have ZM = ZG = {±I} ⊂ T , so we have to take χM = eλ−ρ |ZM .
+Then
+                Cλ−ρM ⊠ χM ∼
+                           = Cλ−ρM = C±(n−1) ,
+via the map z1 ⊗ z2 7→ z1 z2 . So the line bundle Lλ−ρM ,χM equals
+                          Lλ−ρM ,χM = G ×T C±(n−1) .
+Theorem 3.11 now states that
+             Dn± |K = − indexK G ×T (C±(n−1) ⊕ C±(n+1) ), Φ .
+                                                           
+
+
+3.7.2   Limits of discrete series
+For the limits of the discrete series D0± , we also have H = T = SO(2) and
+                              +
+M = G. Now λ = 0 and RM          = {±α}. We cannot take ξ = λ = 0, so we
+take ξ = ±α/2 (we can replace this element by any positive multiple). As
+before, we have ζ = 0, so for all g ∈ G, we have Φ(gT ) = Ad∗ (g)ξ. This is
+the identification of G/T with the elliptic orbit ± Ad∗ (G)α/2, followed by
+restriction to k. Note that this is the same orbit as the one used for D1± ; this
+shift will be important in [18]. Now we have ρM = ±α/2, so, analogously
+to the discrete series case,
+                              Lλ−ρM ,χM = G ×T C∓1 .
+Theorem 3.11 therefore yields
+                 D0± |K = − indexK G ×T (C∓1 ⊕ C±1 ), Φ .
+                                                       
+
+
+3.7.3   The principal series
+                                   ±
+For the unitary principal series Piν , where ν ≥ 0 for the spherical principal
+         +                                                   −
+series Piν and ν > 0 for the nonspherical principal series Piν , we have
+                             n x 0                o
+                        H=                   ; x =
+                                                 6 0  .
+                                  0 x−1
+
+                                              26
+Then M = HM = {±I}. Now
+
+                                g/h ∼
+                                    = n− ⊕ n+ ,
+
+where n± = RE ± , with
+                                                              
+                     −        0 0                +         0 1
+                   E =                  ;        E =                 .
+                              1 0                          0 0
+                                                    
+                                              1 0
+Now tM = 0, so ξ = 0. We take ζ =                      . Then for all g ∈ G,
+                                              0 −1
+Φ(gH) = Ad∗ (g)ζ|k . This is the identification of G/H with the hyperbolic
+orbit Ad∗ (G)ζ, followed by restriction to k. Note that we use the same orbit
+for all principal series representations.
+    Furhermore,
+                               ad(ζ)E ± = ±2E ±
+and θE ± = −E ∓ . So with respect to the basis {E + , E − }, the complex
+structure Jζ has the matrix
+                                       
+                                   0 1
+                            Jζ =          .
+                                   −1 0
+
+The almost complex structure J on G/H is given by
+
+                    J(TeH lk exp(Y ) X) = TeH lk exp(Y ) Jζ X,
+
+for k ∈ SO(2), Y ∈ n+ and X ∈ n− ⊕ n+ .
+    Let χ± be the representations of HM on C defined by χ± (−I) = ±1. We
+now have λ = ρM = 0, so
+
+                           Lλ−ρM ,χ± = G ×H χ± ,
+
+where H acts on χ± via
+                                   
+                           x 0
+                                            7→ χ± (sgn(x)I).
+                           0 x−1
+
+This number equals 1 for χ+ , and sgn(x) for χ− . By Theorem 3.11, we have
+               ±               V
+             Piν |K = indexK ( J T (G/H) ⊗ (G ×H χ± ), Φ).
+
+
+
+
+                                            27
+3.7.4   Explicit computation of the indices for SL(2, R)
+The proof of Theorem 3.11 simplifies considerably in the example G =
+SL(2, R). Some important points are still present, however: a partial lin-
+earisation of the space G/H, and the role of differential operators on vector
+spaces with index 1. We give a brief outline of the proof for SL(2, R) to
+illustrate these points. In particular, we give explicit computations of the
+relevant indices in this case.
+     In the case of (limits of) discrete series representations, the proof of
+Theorem 3.11 is a variation on the proof of Theorem 5.1 in [36]. For the
+representation Dn+ , with n ∈ {0, 1, 2, . . .}, the first step in this proof is to
+show that
+
+   indexK ( J G/T ⊗ Lλ−ρM ,χM , Φ) = indexK ( C T C ⊗ C±(n−1) , ΦE ), (3.13)
+           V                                      V
+
+
+where K acts on C by rotation with weight 2, and ΦE : C → so(2) ∼   = R is
+the constant map with value ±1. Here we use that G/T is isomorphic to
+C as a complex K-manifold, where K acts on C by rotation with weight
+2. The index on the right hand side of (3.13) was computed in Lemma 6.4
+in [2] (see also Lemma 5.7 in [35] and the bottom of page 841 in [36]), and
+equals
+                               M∞
+                             −      C±(n+2j+1) .
+                                 j=0
+
+Apart from the minus sign, this is the well-known decomposition of Dn+ |K .
+The minus sign is the factor (−1)dim(M/KM )/2 in this case.
+                                              ±
+    For the principal series representation Piν , the space G/H is isomorphic
+to the cylinder C/Z as a complex K-manifold, where K acts on C/Z by
+double rotations of the cylinder in the direction R/Z. We will see that
+            V                                         V
+    indexK ( J T (G/H) ⊗ Lλ−ρM ,χM , Φ) = indexK ( C T (C/Z) ⊗ χ± , Φ̃),
+
+where for x, y ∈ R, we have Φ̃(x + Z + iy) = y ∈ so(2). As a special case of
+Proposition 5.1, we will see that the index on the right hand side equals the
+L2 -kernel of the operator
+                                                 !
+                                          ∂
+                                  0     − ∂y  +y
+                               ∂
+                               ∂y + y       0
+
+
+
+
+                                       28
+                          {±I}
+on L2 (C/Z) ⊗ C2 ⊗ χ±             . This kernel equals
+                              2            {±I}
+      L2 (R/Z) ⊗ C · (y 7→ e−y /2 ) ⊗ χ±           ∼
+                                                   = (L2 (K) ⊗ χ± )KM
+                                                   = IndG           iν
+                                                        M AN (χ± ⊗ e ⊗ 1N )|K
+                                                       ±
+                                                   = Piν |K .
+
+   Since K acts on R/Z by rotations with weight 2, one also finds directly
+that
+                                                 L
+      2                   −y 2 /2
+                                         {±I}         C2j   for χ+ ;
+     L (R/Z) ⊗ C · (y 7→ e        ) ⊗ χ±       = Lj∈Z
+                                                   j∈Z C2j+1 for χ− .
+
+                                     ±
+This is the usual decomposition of Piν |K . (Note that now (−1)dim(M/KM )/2 =
+1.)
+
+
+4     Linearising the index
+In the rest of this paper, we prove Theorem 3.11. The first main step in this
+proof is to show that the index that appears there equals the index of an
+operator on a partially linearised version of the space G/H, see Proposition
+4.1 below. This partially linearised space E is the total space of a vector
+bundle over the compact space K/HM . It will then be shown that the
+relevant index on E equals π|K , up to a sign, in Sections 5–7, see Proposition
+7.6. That will finish the proof of Theorem 3.11.
+    We continue using the notation and assumptions of Subsections 3.4 and
+3.5.
+
+4.1     The linearised index
+Consider the action by HM on K × (sM ⊕ n) given by
+
+                   h · (k, X + Y ) = (kh−1 , Ad(h)(X + Y )),
+
+for h ∈ HM , k ∈ K, X ∈ sM and Y ∈ n. Let
+
+                            E := K ×HM (sM ⊕ n)
+
+be the quotient space of this action. This is the partial linearisation of
+G/H that we will use. (We wil see in Lemma 4.2 that E is K-equivariantly
+diffeomorphic to G/H.)
+
+
+                                         29
+   For X ∈ sM and Y ∈ n, we have
+                        T[e,X+Y ] E = k/tM ⊕ sM ⊕ n,
+via the map
+                             d
+      (U + tM , V + W ) 7→          [exp(tU ), X + Y + t(V + W )],      (4.1)
+                             dt t=0
+for U ∈ k, V ∈ sM and W ∈ n. (We spell this out explicitly here, be-
+cause another identification will also be used in Subsection 4.3.) Using this
+identification and the first equality in (3.6), we obtain
+                              T[e,X+Y ] E = g/h.                        (4.2)
+On this space, we defined the HM -invariant complex structure Jg/h in (3.8).
+We will write J E for the K-invariant almost complex structure on E that
+corresponds to Jg/h via the identification (4.2).
+    Consider the map ΦE : E → k given by
+              ΦE [k, X + Y ] = Ad(k) ξ − | ad(ζ)|−1 ad(ζ)Ys ,
+                                                           
+
+where k ∈ K, X ∈ sM , Y ∈ n, ζ is as in Subsection 3.4, ξ is as in Subsection
+3.5, and Ys := 12 (Y − θY ) is the component of Y in s. We will see in Lemma
+4.10 that this map is taming,
+    Let V be a finite-dimensional representation space of HM . (Later, we
+will take V = Cλ−ρM ⊠ χM .) We extend it to a representation of H by
+letting A act trivially. Then we obtain the associated vector bundles
+                    LV := G ×H V → G/H;
+                    LE
+                     V := K ×HM (sM ⊕ n × V ) → E.
+
+The linearisation result for the index in Theorem 3.11 is the following.
+Proposition 4.1. We have
+      indexK ( J T (G/H) ⊗ LV , Φ) = indexK J E T E ⊗ LE    E
+              V                            V
+                                                       V , Φ ).
+
+
+4.2   Linearising G/H
+Consider the map
+                         Ψ̃ : K × (sM ⊕ n) → G/H
+defined by
+                    Ψ̃(k, X + Y ) = k exp(X) exp(Y )H,
+for k ∈ K, X ∈ sM and Y ∈ n.
+
+                                     30
+Lemma 4.2. The map Ψ̃ descends to a well-defined, K-equivariant diffeo-
+morphism
+                               ∼
+                               =
+                         Ψ: E −→ G/H.
+Proof. One checks directly that for k ∈ K, X ∈ sM , Y ∈ n and h ∈ HM ,
+                   Ψ̃(kh−1 , Ad(h)(X + Y )) = Ψ̃(k, X + Y ).
+So Ψ̃ indeed descends to a map Ψ : E → G/H. That map is K-equivariant by
+definition. To see that Ψ is surjective, we use the fact that the multiplication
+map (3.10) is a diffeomorphism. If k ∈ K, X ∈ sM , Y ∈ n and a ∈ A, then
+                            k exp(X) exp(Y )aH = Ψ[k, X + Y ],
+so Ψ is indeed surjective. If k, k ′ ∈ K, X, X ′ ∈ sM and Y, Y ′ ∈ n satisfy
+                               Ψ[k, X + Y ] = Ψ[k′ , X ′ + Y ′ ],
+then there are h ∈ HM and a ∈ A such that
+k′ exp(X ′ ) exp(Y ′ ) = k exp(X) exp(Y )ha = kh exp(Ad(h−1 )X) exp(Ad(h−1 )Y )a,
+so we must have a = e, and [k′ , X ′ + Y ′ ] = [k, X + Y ]. Hence Ψ is injective.
+
+
+4.3   Linearising almost complex structures
+The K-invariant almost complex structures J E and Ψ∗ J on E are different,
+but we will show that they are homotopic in a suitable sense.
+   Let X ∈ sM and Y ∈ n. The complex stuctures on T[e,X+Y ] E defined by
+Ψ J and J E correspond to Jg/h via two different identifications
+ ∗
+
+                                                           ∼
+                                                           =
+                  ϕ0X+Y , ϕ1X+Y : g/h = T[e,0] E −
+                                                 → T[e,X+Y ] E.                  (4.3)
+The map ϕ0X+Y is the inverse of the map (4.1), whereas ϕ1X+Y is defined by
+commutativity of the diagram
+                                          ϕX+Y
+                                           1
+                 T[e,0] E                                   / T[e,X+Y ] E
+
+             T[e,0] Ψ                                                 T[e,0] Ψ
+                                                                 
+               TeH G/H                                 / Texp(X) exp(Y )H G/H.
+                                  TeH exp(X) exp(Y )
+
+With respect to these two maps, we have
+                                              X+Y
+                                  E
+                                 J[e,X+Y ] = ϕ0   Jg/h (ϕ0X+Y )−1 ;
+                                                                                 (4.4)
+                            (Ψ∗ J)[e,X+Y ] = ϕ1X+Y Jg/h (ϕ1X+Y )−1 .
+
+                                               31
+Lemma 4.3. We have
+
+  indexK Ψ∗ ( J T (G/H) ⊗ LV ), Ψ∗ Φ = indexK ( J E T E ⊗ LE    ∗
+             V                                V
+                                                           V , Ψ Φ).
+
+Proof. For X ∈ sM , Y ∈ n and t ∈ [0, 1], we define the linear isomorphism
+                                             ∼
+                                             =
+                        ϕtX+Y : T[e,0] E −
+                                         → T[e,X+Y ] E
+
+by commutativity of the diagram
+
+                                       ϕX+Y
+                                        t
+                            T[e,0] E             / T[e,X+Y ] E
+                                                        O
+                        t(X+Y )
+                       ϕ1                                 ϕX+Y
+                                                           0
+                                  
+                         T[e,t(X+Y )] E o t(X+Y ) T[e,0] E.
+                                        ϕ0
+
+
+(Note that for t = 0, 1, this definition agrees with the definitions of ϕ0X+Y
+and ϕ1X+Y above.) Define the K-invariant almost complex structure Jt on
+E by the property that
+
+                     (Jt )[e,X+Y ] = ϕtX+Y Jg/h (ϕtX+Y )−1 .
+
+Then by (4.4), we have J0 = J E and J1 = Ψ∗ J. Using this family of almost
+complex structures, we obtain a homotopy in the sense of Definition 3.4
+between
+
+           ( Ψ∗ J T E ⊗ L E    ∗                     E    ∗
+            V                            V
+                          V , Ψ Φ) and ( J E T E ⊗ LV , Ψ Φ).
+
+Since Ψ∗ LV = LE
+               V and
+
+                         Ψ∗
+                              V                  V
+                                  J T (G/H) =        Ψ∗ J T E,
+
+the claim follows from Theorem 3.5.
+
+4.4   Linearising taming maps
+To prove Proposition 4.1, it remains to construct a homotopy between the
+taming maps Ψ∗ Φ and ΦE . We will do this in a number of stages.
+   First, for t ∈ [0, 1], we consider the map Φt1 : E → k, defined by
+
+                Φt1 [k, X + Y ] = Ad(k)(ξ + t[Yk , ξ] + [Ys , ζ]),      (4.5)
+
+
+                                        32
+where k ∈ K, X ∈ sM , Y ∈ n, Yk = 21 (Y + θY ) ∈ k, and Ys = 12 (Y − θY ) ∈ s.
+For Z ∈ k, let Z E be the vector field on E given by the infinitesimal action
+by Z. In several places, we will use the fact that for all such X and Y ,
+
+Z E ([e, X+Y ]) = (Zt⊥ +tM , −[ZtM , X+Y ])  ∈ k/tM ⊕sM ⊕n = T[e,0] E ∼
+                                                                      = T[e,X+Y ] E,
+                       M
+                                                                      (4.6)
+                                                    X+Y
+where the last identification is made via the map ϕ0    in (4.3). Further-
+more, we write Z = ZtM + Zt⊥ , where ZtM ∈ tM and Zt⊥ ∈ t⊥  M.
+                                M                              M
+
+                                          Φ01
+Proposition 4.4. The vector field v on E vanishes at the same points
+as the vector field Ψ∗ v Φ . In a neighbourhood of the set of these points, the
+taming maps Φ01 and Ψ∗ Φ are homotopic in the sense of Definition 3.4.
+
+    The proof of this proposition is based on Lemmas 4.5–4.9. In the argu-
+ments below, we will use the K-invariant Riemannian metric on E induced
+by the inner product on g and the identification ϕ0X+Y in (4.3). As noted in
+Subsection 3.1, Braverman’s index is independent of the Riemannian metric
+used, as long as it is complete and K-invariant. So we are free to use the
+Riemannian metric most suited to our purposes.
+
+Lemma 4.5. For all X ∈ sM and Y ∈ n,
+               t
+            v Φ1 ([e, X + Y ]) = t[Yk , ξ] + [Ys , ζ] + tM , [X + Y, ξ] .
+                                                                       
+
+
+Proof. By ad-invariance of the Killing form B, we have for all X ∈ tM ,
+
+                       −B([Ys , ζ], X) = B(Ys , [X, ζ]) = 0,
+
+so [Ys , ζ] ∈ t⊥                            ⊥
+               M . We also have [Yk , ξ] ∈ tM . So the claim follows from (4.5)
+and (4.6).
+
+Lemma 4.6. There is a constant C > 0 such that for all t ∈ [0, 1], X ∈ sM
+and Y ∈ n,
+                         t
+                     kv Φ1 ([e, X + Y ])k ≥ CkXk.
+
+Proof. Note that [X, ξ] ∈ sM . Furthermore, since the adjoint action by HM
+commutes with A, it preserves the spaces gβ , and hence n. So [Y, ξ] ∈ n.
+Since the elements [X, ξ] and [Y, ξ] lie in different subspaces of g, Lemma 4.5
+implies that there is a constant C1 > 0 such that for all X and Y as above,
+                   t
+               kv Φ1 ([e, X + Y ])k ≥ k[X + Y, ξ]k ≥ C1 k[X, ξ]k.           (4.7)
+
+
+
+                                         33
+    Now X ∈ sM ⊥ a and also X ∈ s ⊥ tM . So X ⊥ h, which means that it
+lies in the sum of the root spaces of (gC , hC ). Write
+                                      X
+                             X=               Xα ,
+                                              α∈R(gC ,hC )
+
+
+where Xα ∈ gC
+            α . Since [X, ζ] = 0, we have
+
+                k[X, ξ]k2 = k[X, ξ + ζ]k2
+                               X
+                          =           |hα, ξ + ζi|2 kXα k2
+                                   α∈R(gC ,hC )
+                                                                     X
+                             ≥        min         |hα, ξ + ζi|2                  kXα k2
+                                   α∈R(gC ,hC )
+                                                                  α∈R(gC ,hC )
+
+                             =        min         |hα, ξ + ζi|2 kXk2 .
+                                   α∈R(gC ,hC )
+
+
+Since the element ξ + ζ ∈ h is regular, the factor minα∈R(gC ,hC ) |hα, ξ + ζi|2
+is positive. Together with (4.7), this implies the claim.
+
+Lemma 4.7. There is a constant C > 0 such that for all t ∈ [0, 1], X ∈ sM
+and Y ∈ n,
+                         t
+                     kv Φ1 ([e, X + Y ])k ≥ CkY k.
+
+Proof. By Lemma 4.5, we have
+                             t
+                         kv Φ1 ([e, X + Y ])k ≥ kt[Yk , ξ] + [Ys , ζ]k.                         (4.8)
+
+Since tM and a commute, there is a simultaneous weight space decomposition
+of gC for the adjoint action by these algebras. (This is just a different way
+of writing the root space decomposition of gC with respect to h = tM ⊕ a.)
+The set of nonzero weights of the action by a is Σ. Let Ξ ⊂ it∗M be the set
+of weights of tM . For β ∈ Σ and δ ∈ Ξ, let gC
+                                             β,δ be the corresponding weight
+space. Write                         X
+                             Y =            Yβ,δ ,
+                                              β∈Σ+ , δ∈Ξ
+
+with Yβ,δ ∈ gC                   C      C
+             β,δ . Then, since θgβ,δ ⊂ g−β,δ , we have
+
+                1      X                                   1       X
+   [Yk , ξ] =                    [Yβ,δ + θYβ,δ , ξ] = −                     hδ, ξi(Yβ,δ + θYβ,δ ).
+                2                                          2
+                    β∈Σ+ , δ∈Ξ                                 β∈Σ+ , δ∈Ξ
+
+
+
+
+                                                    34
+Similarly,
+                 1      X                                  1      X
+   [Ys , ζ] =                     [Yβ,δ − θYβ,δ , ζ] = −                hβ, ζi(Yβ,δ + θYβ,δ ).
+                 2                                         2
+                     β∈Σ+ , δ∈Ξ                                β∈Σ+ , δ∈Ξ
+
+So for all t ∈ [0, 1],
+                                    X                              1                 2
+kt[Yk , ξ] + [Ys , ζ]k2 =                   |thδ, ξi + hβ, ζi|2      (Yβ,δ + θYβ,δ )
+                                                                   2
+                               β∈Σ+ , δ∈Ξ
+                                                                     X       1                 2
+                           ≥       min      |thδ, ξi + hβ, ζi|2                (Yβ,δ + θYβ,δ )
+                               β∈Σ+ , δ∈Ξ                                    2
+                                                                β∈Σ+ , δ∈Ξ
+
+                           =       min      |thδ, ξi + hβ, ζi|2 kYk k2 .
+                               β∈Σ+ , δ∈Ξ
+
+Now for all β and δ as above, we have hδ, ξi ∈ iR, while hβ, ζi ∈ R. So
+
+                                  |thδ, ξi + hβ, ζi| ≥ |hβ, ζi| > 0,
+
+by assumption on ζ. Therefore, (4.8) implies that there is a constant C1 > 0
+such that for all t ∈ [0, 1], X ∈ sM and Y ∈ n,
+                                       t
+                                   kv Φ1 ([e, X + Y ])k ≥ C1 kYk k.
+
+   The projection map 12 (1 + θ) : n → k is injective. So there is a constant
+C2 > 0 such that for all Y ∈ n, kYk k ≥ C2 kY k. This completes the proof.
+
+Lemma 4.8. There is a constant C > 0 such that for all Z ∈ k, X ∈ sM
+and Y ∈ n,
+            kZ E ([e, X + Y ])k ≤ C(1 + kX + Y k)kZk.
+Proof. By (4.6), we have
+
+                     kZ E ([e, X + Y ])k2 = kZt⊥ k2 + k[ZtM , X + Y ]k2 .
+                                                    M
+
+For a constant C1 > 0, this is at most equal to
+
+       kZt⊥ k2 + C1 kZtM k2 kX + Y k2 ≤ (1 + C1 )(1 + kX + Y k2 )kZk2 .
+             M
+
+
+
+
+Lemma 4.9. We have
+
+                 Ψ∗ Φ([e, X + Y ]) = Φ11 ([e, X + Y ]) + O(kX + Y k2 ).
+
+as X + Y ∈ sM ⊕ n goes to 0.
+
+                                                  35
+Proof. We have
+  Ψ∗ Φ([e, X + Y ]) = exp(X) exp(Y )(ξ + ζ) |k
+                                           
+                       ∞
+                      X     1
+                    =          (ad(X)l ad(Y )m (ξ + ζ))|k
+                          l!m!
+                       l,m=0
+
+                    = (ξ + ζ)|k + [X, ξ + ζ]|k + [Y, ξ + ζ]|k + O(kX + Y k2 ).
+
+Now (ξ + ζ)|k = ξ, [X, ξ + ζ]|k = [X, ζ] = 0, and
+
+                           [Y, ξ + ζ]|k = [Yk , ξ] + [Ys , ζ].
+
+
+                                                                                 t
+Proof of Proposition 4.4. By Lemmas 4.6 and 4.7, the vector field v Φ1
+vanishes precisely at the set K ×HM {0} ⊂ E. The map Φ is a moment map
+for the action by K on G/H = Ad∗ (G)(ξ + ζ) with respect to the Kirillov–
+Kostant symplectic form. Therefore, the vector field v Φ is the Hamiltonian
+vector field of the function 12 kΦk2 . By Proposition 2.1 in [36], this vector
+                                                                         ∗
+field therefore vanishes precisely at the set {kH; k ∈ K} ⊂ G/H. So v Ψ Φ =
+Ψ∗ v Φ vanishes at the set
+
+                      Ψ−1 ({kH; k ∈ K}) = K ×HM {0}.
+
+   Let C1 > 0 be as the constant C in Lemma 4.8. Then by Lemma 4.9,
+we have for all X ∈ sM and Y ∈ n,
+   1                   ∗
+kv Φ1 ([e, X + Y ]) − v Ψ Φ [e, X + Y ]k ≤ C1 (1 + kX + Y k)kΦ11 ([e, X + Y ]) − Ψ∗ Φ([e, X + Y ])k
+                                          = O(kX + Y k2 ),
+                                                                            (4.9)
+as X + Y → 0. By Lemmas 4.6 and 4.7, there is a constant C2 > 0 such
+that for all t ∈ [0, 1], X ∈ sM and Y ∈ n,
+                            t
+                      kv Φ1 ([e, X + Y ])k ≥ C2 kX + Y k.
+
+Together with (4.9), this implies that in a small enough neighbourhood of
+K ×HM {0} in E, we have
+                                      1     ∗
+                                  (v Φ1 , v Ψ Φ ) ≥ 0.
+
+Corollary 3.6 implies that Φ11 and Ψ∗ Φ are homotopic in this neighbourhood.
+Lemmas 4.6 and 4.7 imply that Φ01 and Φ11 are homotopic, so the claim
+follows.                                                                  
+
+                                           36
+4.5   Proof of Proposition 4.1
+We prove Proposition 4.1 by combining the earlier results in this section
+with a last homotopy of taming maps.
+Lemma 4.10. The map ΦE is taming, and homotopic to the map Φ01 defined
+in (4.5).
+Proof. For t ∈ [0, 1], consider the map ΦE
+                                         t : E → k defined by
+
+               ΦE
+                t ([k, X + Y ]) = Ad(k)(ξ − | ad(ζ)|
+                                                    −t
+                                                       ad(ζ)Ys ).
+
+Then ΦE       0     E
+       0 = Φ1 and Φ1 = Φ .
+                          E
+                 −t
+   Since | ad(ζ)| ad(ζ)Ys ⊥ tM for all t, we have by (4.6),
+           E                                                              2
+       kv Φt ([e, X + Y ])k2 =       | ad(ζ)|−t ad(ζ)Ys + tM , [X + Y, ξ]
+                                ≥ k| ad(ζ)|−t ad(ζ)Ys k2 .
+                  P
+If we write Y =       β∈Σ+ Yβ , with Yβ ∈ gβ , then
+
+                           X |hβ, ζi|2 1                2          |hβ, ζi|2
+k| ad(ζ)|−t ad(ζ)Ys k2 =              2t 2
+                                           (Y β +θY β )   ≥ min              kYk k2 .
+                              |hβ, ζi|                      β∈Σ + |hβ, ζi|2t
+                            +
+                           β∈Σ
+
+As in the proof of Lemma 4.7, we conclude that there is a constant C1 > 0
+such that for all X and Y as above,
+                                 E
+                           kv Φt ([e, X + Y ])k ≥ C1 kY k.
+
+Exactly as in the proof of Lemma 4.6, we also find a constant C2 > 0 such
+that for all such X and Y ,
+                                E
+                           kv Φt ([e, X + Y ])k ≥ C2 kXk.
+                            E
+Hence the vector field v Φt vanishes precisely at the set K ×HM {0}. So ΦE
+                                                                         t
+is taming for all t, and the claim follows.
+
+Proof of Proposition 4.1. Successively applying Lemma 4.2, Lemma 4.3,
+Propositions 3.7 and 4.4, and finally Lemma 4.10, we find that
+   indexK ( J T (G/H) ⊗ LV , Φ) = indexK Ψ∗ ( J T (G/H) ⊗ LV ), Ψ∗ Φ
+           V                                   V                     
+
+                                 = indexK ( J E T E ⊗ LE    ∗
+                                           V
+                                                       V , Ψ Φ)
+                                 = indexK ( J E T E ⊗ LE    0
+                                           V
+                                                       V , Φ1 )
+                                 = indexK J E T E ⊗ LE      E
+                                           V
+                                                       V , Φ ).
+
+                                                                                  
+
+                                          37
+5     Indices on fibred products
+In Section 6, we will explicitly compute the right hand side of the equality
+in Proposition 4.1, see Proposition 6.1. This involves a general result about
+indices of deformed Dirac operators on certain fibred product spaces, Propo-
+sition 5.1. Our goal in this section is to prove this result. In this section
+and the next, we will need to consider more general deformations of Dirac
+operators than in (3.1) in some places.
+
+5.1   The result
+Let H < K be a closed subgroup. Let N be a complete Riemannian manifold
+with an isometric action by H. Let M := K ×H N . Let S → M be a K-
+equivariant Clifford module. Let ψ : M → k be a taming map for the action
+by K on M . Then we have the index
+                             indexK (S, ψ) ∈ R̂(K).
+We assume that the Riemannian metric on M is induced by an H-invariant
+Riemannian metric on N and an H-invariant inner product on k. As noted
+below Theorem 3.2, the choice of the Riemannian metric does not influence
+the index.
+    Let ∇N be an H-invariant Hermitian Clifford connection on S|N → N .
+Let D N be the Dirac operator
+                               ∇N                        c
+                D N : Γ∞ (S|N ) −−→ Γ∞ (T ∗ N ⊗ S|N ) −
+                                                      → Γ∞ (S|N ).      (5.1)
+The vector field v ψ restricts to a section of T M |N , so we have the en-
+domorphism c(v ψ )|N of S|N . For any H-invariant, nonnegative function
+f ∈ C ∞ (N )H , consider the operator
+                            DfNψ := D N − if c(v ψ )|N                  (5.2)
+on Γ∞ (S|N ).
+Proposition 5.1. If f is admissible, then the operator DfNψ is Fredholm on
+every H-isotypical component of L2 (S|N ). So it has a well-defined index
+                             indexH (DfNψ ) ∈ R̂(H).
+
+Furthermore, for any δ ∈ K̂, the multiplicities m±                      2
+                                                 δ of δ in the spaces (L K ⊗
+kerL2 (DfNψ )± )H are finite, and we have
+
+                   indexK (S, ψ) = (L2 (K) ⊗ indexH (DfNψ ))H .
+
+                                       38
+Remark 5.2. Roughly speaking, Proposition 5.1 plays the role in this paper
+that Theorem 4.1 in [2] plays in [36].
+
+5.2   A connection
+To prove Proposition 5.1, we consider the connection ∇M on S defined by
+the properties that it is K-invariant, and for all X ∈ h⊥ ⊂ k, n ∈ N ,
+v ∈ Tn N and s ∈ Γ∞ (S),
+
+              (∇M                                     N
+                X M +v s)[e, n] := (LX s)([e, n]) + (∇v s|N )(n).        (5.3)
+                  n
+
+
+Consider the projections
+
+                           pK/H : K × N → K/H;
+                             pN : K × N → N ;
+                             pM : K × N → M.
+
+Let ∇T (K/H) and ∇T N be the Levi–Civita connections on T (K/H) and T N ,
+respectively. Then the Levi–Civita connection ∇T M on T M satisfies
+
+                   p∗M ∇T M = p∗K/H ∇T (K/H) + p∗N ∇T N .                (5.4)
+
+(See Lemma 3.4 in [13].)
+
+Lemma 5.3. The relation (5.3) indeed defines a well-defined, K-invariant,
+Hermitian Clifford connection ∇M on S.
+
+Proof. Every tangent vector in T[e,n] M can be represented in a unique way
+as XnM +v, with X and v as above. To show that the K-invariant extension is
+well-defined, we note that ∇M as defined above is H-invariant. Indeed, ∇N
+is H-invariant by assumption, while for all h ∈ H, Tn h(XnM ) = (Ad(h)X)M
+                                                                        hn ,
+and
+                            LAd(h)X = hLX h−1 .
+   To verify the Leibniz rule, note that for all ϕ ∈ C ∞ (M ),
+
+  (LX ϕs)([e, n]) + (∇N
+                      v ϕs|N )(n)
+= ϕ(n) (LX s)([e, n]) + (∇N              M
+                                    
+                          v s|N )(n) + (X (f )([e, n]) + v(f )(n))s([e, n]).
+
+The property that ∇M is Hermitian follows from the facts that ∇N is, and
+that the metric on S is K-invariant.
+
+
+                                      39
+   It remains to show that ∇M is a Clifford connection. Let X, Y ∈ h⊥ ,
+and let v and w be vector fields on N . The space of vector fields on M is
+isomorphic to the subspace
+Γ∞ (K ×N, p∗N T N ⊕p∗K/H T (K/H))H ⊂ Γ∞ (K ×N, p∗N T N ⊕p∗K/H T (K/H)).
+We work in the larger space on the right hand side, where we have the ele-
+ments p∗N v and p∗N w. Connections on vector bundles on M define operators
+on this larger space via the pullback along pM . Let s ∈ Γ∞ (S). Since LX
+commutes with c(p∗N w) and p∗N ∇N   v commutes with c(Y
+                                                           M ), we have
+
+
+    ∇X M +p∗ v , c(Y M + p∗N w) s |N = ([LX , c(Y M )]s)|N + [∇N
+    M                          
+            N
+                                                                v , c(w)](s|N ).
+                                                                            (5.5)
+       N                                            N                T M
+Now ∇ is a Clifford connection, so by (5.4), [∇v , c(w)] = c(∇v w). Fur-
+thermore, equivariance of the Clifford action implies that
+                          [LX , c(Y M )] = c([X, Y ]M ).
+Now by (5.4), [X, Y ]M = ∇TXM    M , so we conclude that the right hand side
+                              MY
+of (5.5) equals
+    (c(∇TXM   M
+                )s)|N + c(∇Tv M w)(s|N ) = c(∇TXM        M
+                                                           + p∗N w))s |N .
+                                                                     
+           MY                                    M +v (Y
+
+
+Here we used that ∇TXM      T M Y M = 0.
+                     M w = ∇v
+
+
+
+5.3   Estimates for Dirac operators
+Let D M be the Dirac operator on Γ∞ (S) associated to ∇M . Write
+                            DfMψ := D M − if c(v ψ ),
+
+for a nonnegative function f ∈ C ∞ (M )K = C ∞ (N )H . Note that
+                               S = K ×H (S|N ),                            (5.6)
+via the map [k, x] 7→ k · x for all k ∈ K and x ∈ S|N . So
+                      Γ∞ (S) = (C ∞ (K) ⊗ Γ∞ (S|N ))H .                    (5.7)
+Let {X1 , . . . , Xl } be an orthonormal basis of h⊥ . Then, with respect to the
+decomposition (5.7), we have
+                                            l
+                                            X
+                       DM − 1 ⊗ DN =              c(XjM )LXj .             (5.8)
+                                            j=1
+
+   For δ ∈ K̂, we denote the δ-isotypical subspace of L2 (S) by L2 (S)δ .
+
+                                       40
+Lemma 5.4. For every δ ∈ K̂,
+ (a) the operator D M − 1⊗ D N is bounded on L2 (S)δ (with norm depending
+     on δ);
+
+ (b) there is a constant C δ > 0 such that for all f ∈ C ∞ (M )K , we have on
+     L2 (S)δ ,
+
+        − C δ (1 + f kv ψ k) ≤
+                    DfMψ (D M − 1 ⊗ D N ) + (D M − 1 ⊗ D N )DfMψ
+                                                                ≤ C δ (1 + f kv ψ k).
+
+Proof. Let δ ∈ K̂. We use (5.8). Note that LXj is bounded on L2 (S)δ , with
+norm depending on δ. For each j, because Xj ∈ h⊥ , and the Riemannian
+metric is of the form mentioned on page 38, we have
+
+                   kc(XjM )k = kXjM k = k(Xj , 0)k = kXj k,
+
+which is constant. So part (a) follows.
+   For part (b), we note that K-invariance of DfMψ implies that
+                                                 l
+                                                 X
+DfMψ (D M −1⊗D N )+(D M −1⊗D N )DfMψ =                 DfMψ c(XjM )+c(XjM )DfMψ LXj .
+                                                                               
+
+                                                 j=1
+                                                                                 (5.9)
+Now for every j, LXj is bounded on L2 (S)δ , while
+
+   DfMψ c(XjM ) + c(XjM )DfMψ = D M c(XjM ) + c(XjM )D M − 2if (v ψ , XjM ).
+
+By a straightforward computation (see (1.26) in [42] and Lemma 9.2 in [4]),
+we have for any local orthonormal frame {e1 , . . . , edim(M ) } of T M , and any
+j,
+                                X
+   D M c(XjM ) + c(XjM )D M = i   c(ej )c(∇TejM XjM ) − 2i(LXj + hΦS , Xj i),
+                                     j
+
+with ΦS as in (3.2).
+   Now for every j, we have hΦS , Xj i = 0 by definition of ∇M in (5.3). And
+
+                                 |(v ψ , XjM )| ≤ kv ψ k
+
+by definition of the Riemannian metric used. Finally, we claim that k∇T M XjM k
+is bounded. Indeed, recall the form (5.4) of the Levi–Civita connection on
+
+                                           41
+a fibred product space like M . Let ΦT (K/H) ∈ End(T (K/H)) ⊗ k∗ be such
+that for all Z ∈ k,
+                                             T (K/H)
+                       hΦT (K/H) , Zi = ∇Z+h           − LZ .               (5.10)
+We have for all k ∈ K and n ∈ N ,
+             XjM (kn) = (Ad(k)Xj , 0)        ∈ h⊥ ⊕ Tn N ∼
+                                                         = Tkn M.
+So for all w ∈ T N , we have
+                      ∇TwM XjM = (p∗N ∇T N )w XjM = 0.
+And for all Z ∈ k, and n ∈ N ,
+  (∇TZ M  M                S      M
+                                     (n) = ([Z, Xj ] + hΦS , Zi)Xj , 0).
+                                    
+       M Xj )(n) = (LZ + hΦ , Zi)Xj
+
+
+This is constant in n, so we find that k∇T M XjM k is indeed bounded.
+    By combining the above arguments, we find that the claim in part (b)
+is true.
+
+5.4   Proof of Proposition 5.1
+For t ∈ [0, 1], consider the operator
+                     Dt,f ψ := DfMψ + t(1 ⊗ D N − D M ).
+on Γ∞ (S). We view it as an unbounded operator on L2 (S).
+Lemma 5.5. If f ∈ C ∞ (M )K is admissible, then for all t ∈ [0, 1], the op-
+        2                                                              2
+erator Dt,f ψ has discrete spectrum on every K-isotypical subspace of L (S).
+
+Proof. We have
+ 2         M 2     2    N  M 2    M     M    N    M    N  M
+                                                             
+Dt,f ψ = (Df ψ ) +t (1⊗D −D ) −t Df ψ (D −1⊗D )+(D −1⊗D )Df ψ .
+
+Let δ ∈ K̂. Braverman shows in the proof of Theorem 2.9, on page 22 of
+[4], there is a constant C1δ > 0 such that for all f ∈ C ∞ (M )K , we have on
+L2 (S)δ ,
+              (DfMψ )2 ≥ (D M )2 + f 2 kv ψ k2 − C1δ (kdf kkv ψ k + f h),
+with h as in (3.3). Using Lemma 5.4, we let C2δ be the norm of D M − 1⊗ D N
+on L2 (S)δ , and C3δ as the constant C δ in part (b) of that lemma. Then we
+find that on L2 (S)δ , all f ∈ C ∞ (M )K , and all t ∈ [0, 1],
+   2         M 2   2 ψ 2    δ         ψ            δ    δ          ψ
+  Dt,f ψ ≥ (D ) + f kv k − C1 (kdf kkv k + f h) − C2 − C3 (1 + f kv k)
+                           ≥ (D M )2 + f 2 kv ψ k2 − C δ (kdf kkv ψ k + f h + 1),
+
+
+                                        42
+for C δ := C1δ + C2δ + C3δ . If f is admissible, then the function
+
+                      f 2 kv ψ k2 − C δ (kdf kkv ψ k + f h + 1)
+
+goes to infinity as its argument goes to infinity in M . This implies the
+claim.
+
+Proof of Proposition 5.1. Fix δ ∈ K̂. Suppose f ∈ C ∞ (M )K is admissible.
+Then by Lemma 5.5, the operator
+                                      Dt,f ψ
+                                     Dt,f ψ + i
+
+defines a Fredholm operator on L2 (S)δ for every t ∈ [0, 1]. This path of
+bounded operators is continuous in the operator norm, because (5.8) is
+bounded on L2 (S)δ . So the operators DfMψ = D0,f ψ and D1,f ψ on L2 (S)δ
+have finite-dimensional kernels, and the same index.
+    Because of the form of the isomorphism (5.6) and K-equivariance of ψ
+and the Clifford action, the operator c(v ψ ) on Γ∞ (S) corresponds to the
+                                              H
+operator 1 ⊗ c(v ψ )|N on C ∞ (K) ⊗ Γ∞ (S|N ) . So D1,f ψ = 1 ⊗ DfNψ . This
+operator is Fredholm on
+
+                        L2 (S)δ ∼
+                                = δ ⊗ (δ∗ ⊗ L2 (S|N ))H
+
+and equals 1δ ⊗ 1δ∗ ⊗ DfNψ on this space. Now
+                                         M
+                 (δ∗ ⊗ L2 (S|N ))H =             [δ|H : δ′ ]L2 (S|N )δ′ .
+                                        δ′ ∈Ĥ
+
+So the operator DfNψ is Fredholm on L2 (S|N )δ′ , and therefore has a well-
+defined equivarant index in R̂(H). Furthermore,
+                                                          H
+                indexK (D1,f ψ ) = L2 (K) ⊗ indexH (DfNψ ) .
+
+                                                                            
+
+Remark 5.6. A variation on this proof of Proposition 5.1 is to note that
+Lemma 5.5 implies that the operator Dt,f ψ defines a class in the K-homology
+of the group C ∗ -algebra C ∗ K, for all t ∈ [0, 1].
+    If N is compact (so we may take f = 0), then Proposition 5.1 is a
+consequence of homotopy invariance of the index of transversally elliptic
+operators.
+
+                                         43
+6      Computing the linearised index
+In this section, we prove an explicit expression for the right hand side of the
+equality in Proposition 4.1.
+                 +
+    Let Rn+ ⊂ RM   be the set of noncompact positive roots of (mC , tC
+                                                                     M ). Then,
+as complex vector spaces, we have
+                                       M
+                                 sM =      Cα .
+                                               α∈R+
+                                                  n
+
+
+Define           V            −1        N          L∞
+                     JsM sM         :=       α∈R+
+                                                n     n=0 Cnα     ∈ R̂(HM ).
+This notation is motivated by the equality
+                        V       −1 V
+                          Js sM     ⊗ Js sM = C,
+                                    M                  M
+
+
+the trivial representation of HM . Let ρM
+                                        n be half the sum of the roots in
+  +
+Rn .
+
+Proposition 6.1. We have
+
+                        E     E
+             V                       
+    indexK   J E T E ⊗ LV , Φ            =
+      dim(M/KM )/2   2                         V            −1 V                         HM
+(−1)                  L (K)⊗ C2ρM
+                                n
+                                  ⊗                JsM sM      ⊗ Jk           kM /tM ⊗V         .
+                                                                      M /tM
+
+
+   In Section 7, we will use this proposition to complete the proof of The-
+orem 3.11.
+
+6.1      A constant admissible function
+We will apply Proposition 5.1 and then use a further decomposition of the
+resulting index to prove Proposition 6.1. This decomposition is possible
+because the constant function 1 turns out to be admissible in our setting.
+We prove this in the current subsection.
+    Let W1 and W2 be finite-dimensional representation spaces of a group
+H. Consider the H-equivariant vector bundle
+
+                                        W1 × W2 → W1 .
+
+Let ∇W2 be the connection on this bundle defined by
+
+                                         ∇W
+                                          v s = T s(v)
+                                            2
+
+
+
+
+                                                44
+for all vector fields v on W1 and all s ∈ C ∞ (W1 , W2 ). Here T s denotes the
+derivative of s: at a vector w1 ∈ W1 , we have
+
+              (T s(v))(w1 ) = Tw1 s(v(w1 ))   ∈ Ts(w1 ) W2 = W2 .
+
+By a straightforward computation, this connection is H-invariant.
+   Now we take
+                           W1 = sM ⊕ n;
+                                V
+                           W2 = J E T[e,0] E ⊗ V,
+                                              V
+and consider the H-invariant connection ∇ J E T[e,0] E⊗V on
+                                                  E
+                 V                  V                
+      (sM ⊕ n) × J E T[e,0] E ⊗ V =   J E T E ⊗ LV |sM ⊕n → sM ⊕ n,
+
+defined as above. (We identifyV
+                              sM ⊕n with {[e, X+Y ]; X ∈ VsM , Y ∈ n} ⊂ E.)
+                                                              T      E⊗V
+Let ∇ be the connection on J E T E ⊗ LE
+       E
+                                         V induced by ∇
+                                                           J E [e,0]     as in
+(5.3).
+Proposition 6.2. The constant function 1 on E is admissible for the con-
+nection ∇E and the taming map ΦE .
+   The claim is that the function
+                                       E
+                                    kv Φ k2
+                                              V         E                (6.1)
+          kΦE k + kv ΦE k + k∇T E v ΦE k + khΦ J E T E⊗LV , ΦE ik + 1
+                                                                    V     E
+goes to infinity as its argument goes to infinity in M . Here Φ J E T E⊗LV is
+as in (3.2). By (4.6) and the definition of ΦE , we have for all X ∈ sM and
+Y ∈ n,
+          E
+       v Φ ([e, X + Y ]) = | ad(ζ)|−1 ad(ζ)Ys + tM , −[ξ, X + Y ] .
+                                                                 
+                                                                        (6.2)
+
+Lemma 6.3. We have
+                           E
+                  k(∇T E v Φ )([k, X + Y ])k = O(kX + Y k)
+
+as X + Y → ∞ in sM ⊕ n.
+Proof. Recall the expression (5.4) for ∇T E , which we now apply with H =
+HM and N = sM ⊕ n. Also recall the definition (5.10) of ΦT (K/H) ∈
+                                 E
+End(T (K/HM )) ⊗ k∗ . Since v Φ is K-invariant, we have for all Z ∈ k,
+and all X ∈ sM and Y ∈ n,
+               K/H     E                                E
+      p∗K/HM ∇Z+tMM v Φ ([e, X + Y ]) = hΦT (K/H) , Ziv Φ ([e, X + Y ]).
+
+                                      45
+Hence
+                      E                                    E
+k p∗K/HM ∇K/HM v Φ             ([e, X + Y ])k = O(kv Φ ([e, X + Y ])k) = O(kX + Y k)
+                           
+
+as X + Y → ∞ in sM ⊕ n.
+   For X ∈ sM and Y ∈ n, we have
+                                            M ⊕n
+                                          ∇sX+Y  = X + Y,
+where on the right hand side, X and Y are viewed as differential opera-
+tors on C ∞ (sM ⊕ n). Since (6.2) is linear in X and Y , this implies that
+                   E
+(p∗sM ⊕n ∇sM ⊕n v Φ )([e, X + Y ]) is linear in X and Y .
+                                              V        E
+Lemma 6.4. The function khΦ J E T E⊗LV , ΦE ik is constant.
+Proof. If Z ∈ tM , then for all s ∈ Γ∞ ( J E T E ⊗ LE
+                                        V
+                                                    V ),
+          V
+                  T E⊗LE
+        ∇Z EJ E        V
+                                
+                           − LZ s |sM ⊕n = ∇Z sM ⊕n (s|sM ⊕n ) − LZ (s|sM ⊕n ).
+Now for X ∈ sM and Y ∈ n, we have
+                           d
+ LZ s([e, X + Y ]) =              exp(tZ)s([e, exp(−tZ)(X + Y )])
+                           dt t=0
+                     = ad(Z)(s([e, X + Y ])) + T (s|sM ⊕n )(Z sM ⊕n ) (X + Y ).
+                                                                     
+
+So, for Z ∈ tM ,                      V           E
+                                    hΦ J E T E⊗LV , Zi = ad(Z).
+If Z ∈ t⊥M , then the left hand side of this equality equals 0. We conclude
+that for all X ∈ sM and Y ∈ n,
+                          V               E
+                     hΦ J E T E⊗LV , ΦE i([e, X + Y ]) = ad(ξ),
+which is constant in X and Y .
+
+Proof of Proposition 6.2. By Lemmas 4.6 and 4.7, there is a constant C > 0
+such that for all X ∈ sM and Y ∈ n,
+                                0
+                       kv Φ1 ([e, X + Y ])k ≥ C(kXk + kY k).
+The proofs of these lemmas also directly show that this estimate holds with
+Φ01 replaced by ΦE . Furthermore, we have
+                           kΦE ([e, X + Y ])k = O(kX + Y k)
+as X +Y → ∞ in sM ⊕n. Together with Lemmas 6.3 and 6.4, these estimates
+imply that (6.1) goes to infinity as its argument goes to infinity.  
+
+                                                  46
+6.2    Indices on vector spaces
+The starting point of the proof of Proposition 6.1 is an application of Propo-
+sition 5.1. Note that sM is a complex subspace of m/tM with respect to the
+complex structure Jm/tM ; let JsM be the restriction of Jm/tM to sM . Consider
+the trivial vector bundle
+                                  V
+                            sM × Js sM → sM .
+                                              M
+
+
+We view this bundle as a nontrivial HM -vector bundle. The constant map
+ΦsM : sM → tM with value ξ is a taming map for the action by HM on sM .
+Therefore, we have the equivariant index
+                               V
+               indexHM (sM × Js sM , ΦsM ) ∈ R̂(HM ).
+                                            M
+
+
+     Next, consider the trivial vector bundle
+
+                            n × Jζ (n− ⊕ n+ ) → n.
+                                V
+
+
+(Recall that n = n+ ; we use the notation n+ where this space appears in
+the direct sum with n− .) This bundle is also a nontrivial HM -vector bundle.
+We write c ◦ Jζ for the endomorphism of this bundle give by
+
+                                   c ◦ Jζ (Y ) = c(Jζ Y ),
+
+for Y ∈ n. Here c denotes the Clifford action by n− ⊕ n+ on Jζ (n− ⊕ n+ )
+                                                                  V
+
+as in Example 3.1. Note that for Y ∈ n, the vector Jζ Y ∈ n− does not lie
+in the tangent space TY n. Hence Y 7→ Jζ Y is not a vector field on n, so the
+endomorphism c ◦ Jζ is not of the type of the deformation term in (3.1). Let
+{Y1 , . . . , Ys } be an orthonormal basis of n. Consider the Dirac operator
+                                            s
+                                            X
+                                   D n :=         Yj ⊗ c(Yj )
+                                            j=1
+
+on
+             Γ∞ (n ×               − ⊕ n+ )) = C ∞ (n) ⊗                    − ⊕ n+ ).
+                       V                                        V
+                           Jζ (n                                    Jζ (n
+
+The operator
+                                       D n − ic ◦ Jζ                                    (6.3)
+is not of the form (3.1), but we will see in Lemma 6.7 that it has a well-
+defined HM -equivariant index (which is actually just the trivial representa-
+tion of HM ).
+
+                                                47
+Proposition 6.5. The L2 -kernel of the operator (6.3) is finite-dimensional,
+and
+
+                          E     E
+           V                        
+  indexK       J E T E ⊗ LV , Φ         =
+                                                                                                HM
+ L2 (K)⊗indexHM (sM ×                                    n
+                            V                                          V
+                                JsM sM , ΦsM )⊗indexHM (D −ic◦Jζ )⊗        JkM /tM kM /tM ⊗V          ,
+
+where JkM /tM is the restriction of Jm/tM to the complex subspace kM /tM ⊂
+m/tM .
+
+   We will prove this proposition in the rest of this section. But first, we
+show how it allows us to prove Proposition 6.1.
+
+Lemma 6.6. We have
+                    V                        dim(M/KM )/2 C
+                                                                      V            −1
+  indexHM (sM ×         JsM sM , ΦsM ) = (−1)               2ρM
+                                                              n
+                                                                ⊗         JsM sM         ,
+
+where ρM                                     +
+       n is half the sum of the elements of Rn .
+
+Proof. See the bottom of page 841 in [36], and also Lemma 5.7 in [35];
+these in turn are based on Proposition 6.2 in [2]. In the notation of those
+references, we use the positive expansion of the inverse, because (ξ, α) > 0
+for all α ∈ Rn+ .
+
+    In Subsection 6.4, we will compute the index on n that occurs in Propo-
+sition 6.5, and reach the following conclusion.
+
+Lemma 6.7. We have
+
+                            indexHM (D n − ic ◦ Jζ ) = C,
+
+the trivial representation of HM .
+
+   Combining Proposition 6.5 and Lemmas 6.6 and 6.7, we conclude that
+Proposition 6.1 is true.
+
+6.3     Decomposing the index on E
+Let us prove VProposition 6.5. In Proposition 5.1, we take H = HM , N =
+sM ⊕ n, S = J E T E, and ψ = ΦE . By Proposition 6.2, we may take f = 1
+in Proposition 5.1. That proposition then implies that
+                           E     E                               sM ⊕n HM
+                                            = L2 (K) ⊗ indexHM (DΦ
+               V                        
+      indexK    J E T E ⊗ LV , Φ                                   E  )    ,        (6.4)
+
+
+                                                48
+                                                                                 V
+          ⊕n
+with DfsM
+        ΦE
+             as in (5.2), defined with respect to the connection ∇ J E T[e,0] E⊗V
+                                      sM ⊕n
+as in Subsection 6.1. The operator DΦ   E   acts on sections of the vector
+bundle
+              E                                      −     +
+ V                                 V          V                V          
+   J E T E ⊗ LV |sM ⊕n = (sM ⊕ n) ×   JsM sM ⊗ Jζ (n ⊕ n ) ⊗ JkM /tM kM /tM ⊗ V
+
+                       = sM × Js sM ⊠ n × Jζ (n− ⊕ n+ ) ⊗ Jk /t kM /tM ⊗ V.
+                               V               V             V
+                                                M                                        M   M
+
+
+Here ⊠ denotes the exterior tensor product of vector bundles, we use graded
+tensor products everywhere, and, as before, we identify
+
+                    sM ⊕ n ∼
+                           = {[e, X + Y ]; X ∈ sM , Y ∈ n} ⊂ E.
+
+In terms of this decomposition, (6.2) implies that for all X ∈ sM and Y ∈ n,
+
+        E
+  c(v Φ )(X + Y ) =
+                c(−[ξ, X]) ⊗ 1VJ (n− ⊕n+ ) ⊗ 1VJ                  kM /tM ⊗ 1V
+                                   ζ                     kM /tM
+
++ 1VJ               c(−[ξ, Y ]) + c(| ad(ζ)|−1 ad(ζ)Ys ) ⊗ 1VJ
+                                                        
+        sM
+             sM ⊗                                                               kM /tM ⊗ 1V .
+                                                                       kM /tM
+
+                                                                                          (6.5)
+
+Here we used the fact that the element
+
+                             | ad(ζ)|−1 ad(ζ)Ys          ∈ t⊥
+                                                            M
+
+induces a term in k/tM orthogonal to kM , hence in the space k/kM that is
+identified with n− . So the Clifford action by this vector only acts nontrivially
+on Jζ (n ⊕ n+ ), and trivially on Js sM .
+          −
+   V                                  V
+                                          M
+    Define the map v n : n → n− ⊕ n+ by
+
+                       v n (Y ) = −[ξ, Y ] + | ad(ζ)|−1 ad(ζ)Ys ,
+
+for Y ∈ n. Then (6.5) becomes
+        E
+  c(v Φ )(X + Y ) =
+                c(v ΦsM (X)) ⊗ 1VJ (n− ⊕n+ ) ⊗ 1VJ                kM /tM ⊗ 1V
+                                       ζ                 kM /tM
+
+                               + 1VJ                    n         V
+                                           sM
+                                                sM ⊗ c(v (Y )) ⊗ 1 J            kM /tM ⊗ 1V .
+                                                                       kM /tM
+
+
+(Recall that ΦsM is the constant map with value ξ.)
+
+
+
+                                                    49
+   Let {X1 , . . . , Xr } be an orthonormal basis of sM . Let D sM be the Dirac
+operator
+                                      Xr
+                              D sM :=    Xj ⊗ c(Xj )
+                                             j=1
+on
+                       Γ∞ (sM ×                        ∞ (s ) ⊗
+                                  V                               V
+                                      JsM sM ) = C         M       JsM sM .
+
+Then for the choice of the connection on ( J E T E ⊗ LE
+                                          V
+                                                      V )|sM ⊕n that we made
+                                                                  sM ⊕n
+at the start of Subsection 6.1, the deformed Dirac operator DΦ      E   as in
+(5.2) equals
+   sM ⊕n
+  DΦ E   =
+              D sM − ic(v ΦsM ) ⊗ 1VJ (n− ⊕n+ ) ⊗ 1VJ
+                               
+                                                             kM /tM ⊗ 1V
+                                     ζ                kM /tM
+
+                    + 1VJ sM ⊗ D n − ic(v n ) ⊗ 1VJ
+                                                
+                            sM
+                                                                kM /tM ⊗ 1V . (6.6)
+                                                                  kM /tM
+
+
+Lemma 6.8. The index index      n       n
+                          VHM (D −ic(v )) is well-defined, so is its tensor
+product with indexHM (sM × Js sM , ΦsM ), and we have
+                                         M
+
+               sM ⊕n
+     indexHM (DΦ E   )=
+indexHM (D n −ic(v n ))⊗indexHM (sM ×
+                                                   V                     V
+                                                       JsM sM , ΦsM )⊗       JkM /tM kM /tM ⊗V.
+
+Proof. Because the tensor products in (6.6) are graded, we have
+      sM ⊕n   2
+     DΦ E          =
+                               2
+              D sM − ic(v ΦsM ) ⊗ 1VJ (n− ⊕n+ ) ⊗ 1VJ        kM /tM ⊗ 1V
+                                     ζ                kM /tM
+                                                   2
+                        + 1VJ sM ⊗ D n − ic(v n ) ⊗ 1VJ             kM /tM ⊗ 1V .
+                                  sM                                     kM /tM
+
+
+Since all operators occurring here are nonnegative, this implies that
+      sM ⊕n
+            ) = ker(D sM − ic(v ΦsM )) ⊗ ker(D n − ic(v n )) ⊗ Jk /t kM /tM ⊗ V.
+                                                              V
+ker(DΦ E
+                                                                                M   M
+
+
+Here the kernels are L2 -kernels, and the equality includes gradings.
+
+   To prove Proposition 6.5, we will show that we may replace D n − ic(v n )
+by D n − ic ◦ Jζ in the above result. Consider the map ṽ n : n → n− ⊕ n+ given
+by
+                           ṽ n (Y ) = | ad(ζ)|−1 ad(ζ)Ys ,
+for Y ∈ n.
+
+                                               50
+Lemma 6.9. Let Y ∈ n. Under the identification
+
+                  T[e,Y ] E ∼
+                            = T[e,0] E = sM ⊕ n− ⊕ n+ ⊕ kM /tM
+
+via the map ϕY0 in (4.3), we have
+
+                                        ṽ n (Y ) = Jζ Y.
+
+Proof. Let Y ∈ n. Since ad(ζ) anticommutes with θ, we have
+                        1                         1            1
+| ad(ζ)|−1 ad(ζ)Ys =      (1+θ)| ad(ζ)|−1 ad(ζ)Y = (1+θ)θJζ Y = (1+θ)Jζ Y.
+                        2                         2            2
+The identification n− ∼
+                      = k/kM is made via the map 12 (1 + θ), so the claim
+follows.
+
+Proposition 6.10. The multiplicities of all irreducible representations of
+HM in the L2 -kernels of the operators
+
+                         D n − ic(v n )       and    D n − ic(ṽ n )                  (6.7)
+
+are finite, and we have
+
+       indexHM (D n − ic(v n )) = indexHM (D n − ic(ṽ n ))            ∈ R̂(HM ).
+
+   This proposition will be proved in Subsection 6.5.
+Proof of Proposition 6.5. By (6.4) and Lemma 6.8, we have
+
+                          E     E
+           V                        
+  indexK       J E T E ⊗ LV , Φ         =
+                                                                                                     HM
+ L2 (K)⊗indexHM (sM ×                                   n     n
+                           V                                                V
+                               JsM sM , ΦsM )⊗indexHM (D −ic(v ))⊗              JkM /tM kM /tM ⊗V          .
+
+By Lemma 6.9, we have c(ṽ n ) = c ◦ Jζ , so the proposition follows from
+Proposition 6.10.                                                       
+
+6.4   The index on n
+The proof of Lemma 6.7 is a direct computation on a vector  V space. Let
+e0 and e1 be the generators of the complex exterior algebra C CV= C ⊕ C
+in degrees 0 and 1, respectively. The Clifford action c by C on C C as in
+Example 3.1 now has the form
+
+                                        c(z)e0 = ze1 ;
+                                        c(z)e1 = −z̄e0 ,
+
+                                               51
+                                                                       V
+for z ∈ C. Let c ◦ i be the endomorphism of the trivial bundle R ×       CC → R
+given by
+                               (c ◦ i)(x) = c(ix)
+for x ∈ R. Consider the Dirac operator
+                                                  d
+                                 D R := c(1)
+                                                 dx
+on C ∞ (R,
+             V
+                 C C).
+
+Lemma 6.11. The kernel of the operator D R −ic◦i intersected with L2 (R,
+                                                                               V
+                                                                                   C C)
+is one-dimensional, and spanned in degree zero by the function
+                                             2
+                                   x 7→ e−x /2 .
+
+Proof. Let s ∈ C ∞ (R, C C), and write s = s0 e0 +s1 e1 , for (complex-valued)
+                        V
+
+s0 , s1 ∈ C ∞ (R). The equation (D R − ic ◦ i)s = 0 then becomes
+
+                                  s′0 + xs0 = 0;
+                                  s′1 − xs1 = 0.
+
+This is to say that there are complex constants a and b such that for all
+x ∈ R,
+                                                 2
+                                s0 (x) = ae−x /2 ;
+                                             2
+                                s1 (x) = bex /2 .
+
+
+
+   Lemma 6.11 directly generalises to higher dimensions. Let n ∈ N, and
+consider the endomorphism c ◦ i of the trivial bundle
+
+                           Rn × C Cn → R,
+                                  V
+                                                                   (6.8)
+
+given by c ◦ i(x) = c(ix), for x ∈ Rn . Let {v1 , . . . , vn } be the standard
+basis of Rn , with corresponding coordinates (x1 , . . . , xn ). Consider the Dirac
+operator
+                                       n
+                                n
+                                      X           ∂
+                             D R :=       c(vj )
+                                                 ∂xj
+                                      j=1
+
+on C ∞ (Rn , C Cn ). We now also consider an isometric action by a compact
+             V
+Lie group H on Rn (with the Euclidean metric), and suppose this action
+lifts to the bundle (6.8) so that c is H-invariant.
+
+                                        52
+                                                      n
+Lemma   V 6.12.  The kernel of the operator D R − ic ◦ i intersected with
+ 2   n       n
+L (R , C C ) is one-dimensional in even degree, zero-dimensional in odd
+degree, and the action by H on this kernel is trivial.
+                                                n
+Proof. It follows from Lemma 6.11 that ker(D R − ic ◦ i) ∩ L2 (Rn , C Cn ) is
+                                                                   V
+one-dimensional, spanned in degree zero by the function
+                                            2
+                                x 7→ e−kxk /2 .
+
+Since H acts isometrically, this function is H-invariant.
+
+Proof of Lemma 6.7. Via a complex-linear isomorphism n− ⊕ n+ ∼      = Cs
+mapping n+ to Rs , the operator D n − ic ◦ Jζ corresponds to the operator
+   n
+D R − ic ◦ i in Lemma 6.12. That lemma therefore implies
+                                                     V −that +the kernel
+                  n                              2
+of the operator D − ic ◦ Jζ intersected with L (n, Jζ n ⊕ n ) is one-
+dimensional in even degree, zero-dimensional in odd degree, and the action
+by HM on this kernel is trivial.                                         
+
+Remark 6.13. From a higher viewpoint, Lemma 6.7 is a special case of
+Bott periodicity. Indeed, the operator D n − ic ◦ Jζ is of Callias-type [6, 26].
+Therefore, it is Fredholm, and by Proposition 2.18 in [6] or Lemma 3.1 in
+[26], its index is the Kasparov product of the classes
+
+                          [D n ] ∈ KKH (C0 (n), C)        and
+                      [ic ◦ Jζ ] ∈ KKH (C, C0 (n)).
+
+The latter class is the Bott generator, and the fact that the index of D n −
+ic ◦ Jζ is the trivial representation of HM means that [D n ] is the inverse of
+that class.
+
+6.5   Proof of Proposition 6.10
+We cannot directly apply Theorem 3.5 to prove Proposition 6.10, because
+the operators involved are not of the kind considered in Subsection 3.1. (The
+deformation terms are not given by Clifford multiplication by vector fields
+on n.) So we need slightly modified arguments.
+    Let k · kn be the norm function on n.
+
+Lemma 6.14. We have
+
+                 (D n − ic ◦ Jζ )2 ≥ (D n )2 + k · k2n − dim(n).
+
+
+
+                                       53
+Proof. By a direct computation, we have
+                          d2                                d2
+                                  2                 
+                                    x −1        0
+      (D R − ic ◦ i)2 = − 2 +                 2        ≥ − 2 + x2 − 1,
+                         dx            0     x +1          dx
+                                                               n
+with respect to the basis {e0 , e1 } of C C. By factorising D R − ic ◦ i, we
+                                        V
+deduce that
+                                          n
+                      Rn         2
+                                         X   ∂2
+                   (D − ic ◦ i) ≥ −            2  + kxk2 − n.
+                                         j=1
+                                             ∂xj
+
+
+     For t ∈ [0, 1], set
+                                 v t := tv n + (1 − t)ṽ n .
+Define the map ξ n : n → n− ⊕ n+ by
+                                    ξ n (Y ) = −[ξ, Y ],
+for Y ∈ n.
+Lemma 6.15. We have for all t ∈ [0, 1], for any orthonormal basis {Y1 , . . . , Ys }
+of n,
+                                                         X
+ (D n − ic(v t ))2 = (D n − ic ◦ Jζ )2 + t2 kξ n k2 − it   c(Yj )c(Yj (ξ n )) + 2itLξ .
+                                                               j
+
+Proof. By Lemma 6.9, we have for all Y ∈ n,
+                                v t (Y ) = tξ n (Y ) + Jζ Y.
+So
+(D n −ic(v t ))2 = (D n −ic◦Jζ )2 +t2 kξ n k2 −it (D n −ic◦Jζ )c(ξ n )+c(ξ n )(D n −ic◦Jζ ) .
+                                                                                           
+
+Now if Y ∈ gβ , for β ∈ Σ+ , then Jζ Y ∈ g−β , whereas ξ n (Y ) ∈ gβ . Since the
+adjoint action by a is symmetric, it follows that Jζ Y ⊥ ξ n (Y ). So
+                           (c ◦ Jζ )c(ξ n ) + c(ξ n )(c ◦ Jζ ) = 0.
+Hence
+        (D n − ic ◦ Jζ )c(ξ n ) + c(ξ n )(D n − ic ◦ Jζ ) = D n c(ξ n ) + c(ξ n )D n .
+Let {Y1 , . . . , Ys } be an orthonormal basis of n. Then by a direct computation,
+                                               X
+                    D n c(ξ n ) + c(ξ n )D n =   c(Yj )c(Yj (ξ n )) − 2Lξ .
+                                              j
+
+
+
+
+                                             54
+Lemma V 6.16. For all δ ∈ K̂, there is a constant Cδ > 0 such that on
+L2 (n, Jζ (n− ⊕ n+ ))δ , we have for all t ∈ [0, 1],
+
+                (D n − ic(v t ))2 ≥ (D n )2 + k · k2n + t2 kξ n k2 − Cδ .
+
+Proof. By Lemmas 6.14 and 6.15, we have for all t ∈ [0, 1],
+                                                         X
+(D n −ic(v t ))2 ≥ (D n )2 +k·k2n −dim(n)+t2 kξ n k2 −it   c(Yj )c(Yj (ξ n ))+2itLξ .
+                                                            j
+
+On isotypical components, the Lie derivative Lξ is bounded. And for all j,
+
+                           c(Yj )c(Yj (ξ n )) ≥ −kYj (ξ n )k.
+
+Since ξ n = − ad(ξ) is a linear map from n to itself, its derivatives are con-
+stant.
+
+Proof of Proposition 6.10. Fix δ ∈ K̂. Let Cδ be as in Lemma 6.16. For
+t ∈ R, set Dt := D n − ic(v t ). This operator is essentially self-adjoint by
+a finite propagation speed argument, see e.g. Proposition 10.2.11 in [10].
+Also, it is K-equivariant, so it preserves isotypical components. Hence the
+operator
+                         Dt
+                                   ∈ B(L2 (n, Jζ (n− ⊕ n+ ))δ )
+                                              V
+                Ft :=
+                      Dt + iCδ
+is well-defined. This operator is Fredholm for all t by Lemma 6.16. It has
+the same kernel as Dt , so the claim follows if we prove that the path t 7→ Ft
+is continuous in the operator norm.
+    To prove this, we first show that c(ξ n )(Dt + iCδ )−1 is bounded. Let
+Cξ > 0 be a constant such that
+
+                                  kξ n k ≤ Cξ k · kn .
+
+(Explicitly, we can take Cξ = |hα, ξi| forVthe root α of (gC , hC ) for which
+this number is maximal.) Let s ∈ Γ∞            −    +
+                                    c (n, Jζ (n ⊕ n ))δ . Then by Lemma
+6.16 and self-adjointness of Dt ,
+                            2
+kc(ξ n )sk2L2 ≤ Cξ2 k · kn s L2 ≤ Cξ2 (kDt sk2L2 + Cδ ksk)2L2 = Cξ2 k(Dt + iCδ )sk2L2 .
+
+In other words,
+
+          kc(ξ n )(Dt + iCδ )−1 (Dt + iCδ )sk2L2 ≤ Cξ2 k(Dt + iCδ )sk2L2 .
+
+
+
+                                           55
+Since (Dt + iCδ ) is invertible, every element of L2 (n, Jζ (n− ⊕ n+ ))δ is
+                                                        V
+
+of the form (Dt + iCδ )s for some s ∈ (Dt + iCδ )s. So we conclude that
+c(ξ n )(Dt + iCδ )−1 is indeed bounded, with norm at most Cξ2 .
+     Now let t1 , t2 ∈ R. Then
+
+          Ft1 − Ft2 = Cδ (t2 − t1 )(Dt1 + iCδ )−1 c(ξ n )(Dt2 + iCδ )−1 .
+
+By the above argument, the operator
+
+                         (Dt1 + iCδ )−1 c(ξ n )(Dt2 + iCδ )−1
+
+is bounded uniformly in t1 and t2 . We conclude that the path t 7→ Ft is
+indeed continuous in the operator norm.                               
+
+
+7     Rewriting π|K
+In this section, we rewrite the restricted representation π|K as follows. Let
+                                                                           +
+ρM        M
+ c and ρn be half the sums of the compact and noncompact roots in RM ,
+respectively.
+
+Proposition 7.1. We have
+                                −1                                             HM
+ π|K = L2 (K) ⊗
+                     V                    V
+                       JsM sM         ⊗       JkM /tM kM /tM ⊗ Cλ−ρM   M ⊠ χM
+                                                                   c +ρn
+                                                                                      .
+
+   Together with Propositions 6.1 and 4.1, this will allow us to prove The-
+orem 3.11 in Subsection 7.2.
+
+7.1   Rewriting Blattner’s formula
+In this section only, suppose that G is a Lie group satisfying the assumptions
+made in Subsection 2.1. In particular, we suppose that G has discrete series
+and limits of discrete series representations.
+    Paradan gave the following reformulation of Blattner’s formula.
+                          G0
+Lemma 7.2 (Paradan). Let πλ,R+ be a discrete series or limit of discrete
+                                          G
+                                                                         +
+series representation of the connected group G0 , with parameters (λ, RG   ) as
+in Subsection 2.1. Then
+           G0           2        V      −1 ⊗
+                                             V                      T
+         πλ,R + |K0 = L (K0 ) ⊗ (  Js s)       Jk/t k/t ⊗ Cλ−ρc +ρn    .
+             G
+
+
+
+
+                                              56
+    For discrete series representations, this is Lemma 5.4 in [36]. The proof
+given there extends directly to limits of discrete series, because Blattner’s
+formula applies to those representations as well. (See the bottom of page
+131 and the top of page 132 in [9].)
+    We will need a generalisation of this result to disconnected groups. Let
+                                              G0
+                         G
+                        πλ,R+
+                              ,χ
+                                 = IndG
+                                      G0 ZG (πλ,R+ ⊠ χ)                     (7.1)
+                               G                    G
+
+be a discrete series or limit of discrete series representation of G, as in (2.4).
+Proposition 7.3. We have
+   G            2      V      −1 ⊗
+                                   V                           T ZG
+  πλ,R+ |K = L (K) ⊗ (
+       ,χ                Js s)       Jk/t k/t ⊗ Cλ−ρc +ρn ⊠ χ        .      (7.2)
+       G
+
+Proof. Note that
+                    G            G        G0
+                   πλ,R+ |K = IndG0 ZG (π      ⊠ χ)|K
+                       G,χ                λ,R+ G
+                                             G0
+                               = IndK
+                                    K0 ZG ((πλ,R+ ⊠ χ)|K0 ZG )
+                                                G
+                                             G0
+                               = IndK
+                                    K0 ZG ((πλ,R+ |K0 ⊠ χ).
+                                                G
+
+Consider the element
+                V := ( Js s)−1 ⊗ Jk/t k/t ⊗ Cλ−ρc +ρn ∈ R̂(T ).
+                      V         V
+
+then by Lemma 7.2, and by Lemma 7.5 below, we have
+                       G0                 K         K0
+           IndK
+              K0 ZG ((πλ,R+ |K0 ⊠ χ) = IndK0 ZG (IndT (V ) ⊠ χ)
+                           G
+                                                      K 0 ZG
+                                       = IndK
+                                            K0 ZG (IndT ZG (V ⊠ χ))
+
+                                       = IndK
+                                            T ZG (V ⊠ χ),
+
+which is the right hand side of (7.2).
+Remark 7.4. Note that ZG acts on s and k/t trivially, hence the character
+e2ρn is equal to the trivial character when restricted to T ∩ ZG . Therefore
+eλ−ρc +ρn = eλ−ρ when restricted to T ∩ ZG and the right hand side of (7.2)
+makes sense given the condition (2.2) on χ.
+Lemma 7.5. For all V ∈ R̂(T ), we have
+                                         K 0 ZG
+                      IndK 0
+                         T (V ) ⊠ χ = IndT ZG (V ⊠ χ).                      (7.3)
+Proof. Since K0 /T ∼= K0 ZG /T ZG , it can be shown that the restrictions of
+the representations on both sides of (7.3) to K0 are equal to IndK 0
+                                                                 T (V ). Since
+ZG commutes with all elements in K0 , the restrictions of the representations
+on both sides to ZG are equal to χ. The lemma follows.
+
+                                        57
+7.2   Proof of Theorem 3.11
+We are now prepared to prove Proposition 7.1 and Theorem 3.11. First, we
+consider the setting of Proposition 7.1. We have
+                                                                           K M
+      π|K = IndG   M
+               P (πλ,R+ ,χ       ⊗ eν ⊗ 1N )|K = L2 (K) ⊗ πλ,R
+                                                           M
+                                                              +
+                                                                ,χ
+                                                                                  .
+                        M    M                                  M     M
+
+
+By Proposition 7.3, this equals
+                                                                TM ZM KM
+  L2 (K)⊗ L2 (KM )⊗( Js sM )−1 ⊗ Jk /t kM /tM ⊗Cλ−ρM
+                    V           V
+                                                         M
+                                                     c +ρn
+                                                           ⊠χ  M
+                       M           M M
+                                                             TM ZM
+  = L2 (K) ⊗ ( Js sM )−1 ⊗ Jk /t kM /tM ⊗ Cλ−ρM
+              V           V                                
+                                                   M ⊠ χM
+                                               c +ρn
+                                                                   .
+                    M                 M   M
+
+
+Proposition 7.1 now follows from (2.5).
+    Combining Propositions 6.1 and 7.1, we obtain a realisation of π|K as
+an index on E.
+
+Proposition 7.6. In Proposition 4.1, if we take V = Cλ−ρM ⊠ χM , then
+
+           π|K = (−1)dim(M/KM )/2 indexK                    E     E
+                                                V                     
+                                                 J E T E ⊗ LV , Φ      .
+
+    By combining this with Proposition 4.1, we conclude that Theorem 3.11
+is true.
+
+
+References
+ [1] Jeffrey Adams, Marc van Leeuwen, Peter Trapa, and David A. Vogan,
+     Jr. Unitary representations of real reductive groups. arXiv:1212.2192,
+     2012.
+
+ [2] Michael Atiyah. Elliptic operators and compact groups. Lecture Notes
+     in Mathematics, Vol. 401. Springer-Verlag, Berlin, 1974.
+
+ [3] Michael Atiyah and Wilfried Schmid. A geometric construction of the
+     discrete series for semisimple Lie groups. Invent. Math., 42:1–62, 1977.
+
+ [4] Maxim Braverman. Index theorem for equivariant Dirac operators on
+     noncompact manifolds. K-Theory, 27(1):61–101, 2002.
+
+ [5] Maxim Braverman. The index theory on non-compact manifolds with
+     proper group action. J. Geom. Phys., 98:275–284, 2015.
+
+
+
+                                          58
+ [6] Ulrich Bunke. A K-theoretic relative index theorem and Callias-type
+     Dirac operators. Math. Ann., 303(2):241–279, 1995.
+
+ [7] Harish-Chandra. Harmonic analysis on real reductive groups. I. The
+     theory of the constant term. J. Functional Analysis, 19:104–204, 1975.
+
+ [8] Henryk Hecht and Wilfried Schmid. A proof of Blattner’s conjecture.
+     Invent. Math., 31(2):129–154, 1975.
+
+ [9] Henryk Hecht and Wilfried Schmid. A proof of Blattner’s conjecture.
+     Invent. Math., 31(2):129–154, 1975.
+
+[10] Nigel Higson and John Roe. Analytic K-homology. Oxford Mathe-
+     matical Monographs. Oxford University Press, Oxford, 2000. Oxford
+     Science Publications.
+
+[11] Peter Hochs and Varghese Mathai. Geometric quantization and families
+     of inner products. Adv. Math., 282:362–426, 2015.
+
+[12] Peter Hochs and Varghese Mathai. Quantising proper actions on Spinc -
+     manifolds. Asian J. Math., 21(4):631–685, 2017.
+
+[13] Peter Hochs and Yanli Song. An equivariant index for proper actions
+     III: The invariant and discrete series indices. Differential Geom. Appl.,
+     49:1–22, 2016.
+
+[14] Peter Hochs and Yanli Song. An equivariant index for proper actions
+     I. J. Funct. Anal., 272(2):661–704, 2017.
+
+[15] Peter Hochs and Yanli Song. Equivariant indices of Spinc -Dirac op-
+     erators for proper moment maps. Duke Math. J., 166(6):1125–1178,
+     2017.
+
+[16] Peter Hochs and Yanli Song. On the Vergne conjecture. Arch. Math.
+     (Basel), 108(1):99–112, 2017.
+
+[17] Peter Hochs and Yanli Song. An equivariant index for proper actions
+     II: properties and applications. J. Noncommut. Geom., (to appear),
+     2018. ArXiv:1602.02836.
+
+[18] Peter Hochs, Yanli Song, and Shilin Yu. K-types of tempered repre-
+     sentations II: a multiplicity formula. arXiv preprint, 2017.
+
+
+
+
+                                     59
+[19] Peter Hochs and Hang Wang. A fixed point formula and Harish-
+     Chandra’s character formula. Proc. London Math. Soc., 00(3):1–32,
+     2017. DOI:10.1112/plms.12066.
+
+[20] Anthony W. Knapp. Commutativity of intertwining operators for
+     semisimple groups. Compositio Math., 46(1):33–84, 1982.
+
+[21] Anthony W. Knapp. Representation theory of semisimple groups.
+     Princeton Landmarks in Mathematics. Princeton University Press,
+     Princeton, Oxford, 1986.
+
+[22] Anthony W. Knapp. Lie groups beyond an introduction, volume 140 of
+     Progress in Mathematics. Birkhäuser Boston, Inc., Boston, MA, second
+     edition, 2002.
+
+[23] Anthony W. Knapp and Gregg J. Zuckerman. Classification of irre-
+     ducible tempered representations of semisimple groups. Ann. of Math.
+     (2), 116(2):389–455, 1982.
+
+[24] Anthony W. Knapp and Gregg J. Zuckerman. Classification of irre-
+     ducible tempered representations of semisimple groups. II. Ann. of
+     Math. (2), 116(3):457–501, 1982.
+
+[25] Anthony W. Knapp and Gregg J. Zuckerman. Correction: “Classifi-
+     cation of irreducible tempered representations of semisimple groups”
+     [Ann. of Math. (2) 116 (1982), no. 2, 389–501; MR 84h:22034ab]. Ann.
+     of Math. (2), 119(3):639, 1984.
+
+[26] Dan Kucerovsky. A short proof of an index theorem. Proc. Amer. Math.
+     Soc., 129(12):3729–3736, 2001.
+
+[27] Robert P. Langlands. On the classification of irreducible representations
+     of real algebraic groups. In Representation theory and harmonic anal-
+     ysis on semisimple Lie groups, volume 31 of Math. Surveys Monogr.,
+     pages 101–170. Amer. Math. Soc., Providence, RI, 1989.
+
+[28] H. Blaine Lawson, Jr. and Marie-Louise Michelsohn. Spin geometry, vol-
+     ume 38 of Princeton Mathematical Series. Princeton University Press,
+     Princeton, NJ, 1989.
+
+[29] Xiaonan Ma and Weiping Zhang. Geometric quantization for proper
+     moment maps. C. R. Math. Acad. Sci. Paris, 347(7-8):389–394, 2009.
+
+
+
+                                     60
+[30] Xiaonan Ma and Weiping Zhang. Geometric quantization for proper
+     moment maps: the Vergne conjecture. Acta Math., 212(1):11–57, 2014.
+
+[31] Varghese Mathai and Weiping Zhang. Geometric quantization for
+     proper actions. Adv. Math., 225(3):1224–1247, 2010. With an appendix
+     by Ulrich Bunke.
+
+[32] Eckhard Meinrenken. Symplectic surgery and the Spinc -Dirac operator.
+     Adv. Math., 134(2):240–277, 1998.
+
+[33] Eckhard Meinrenken and Reyer Sjamaar. Singular reduction and quan-
+     tization. Topology, 38(4):699–762, 1999.
+
+[34] Paul-Émile Paradan. The Fourier transform of semi-simple coadjoint
+     orbits. J. Funct. Anal., 163(1):152–179, 1999.
+
+[35] Paul-Émile Paradan. Localization of the Riemann-Roch character. J.
+     Funct. Anal., 187(2):442–509, 2001.
+
+[36] Paul-Émile Paradan. Spinc -quantization and the K-multiplicities of the
+     discrete series. Ann. Sci. École Norm. Sup. (4), 36(5):805–845, 2003.
+
+[37] Paul-Émile Paradan. Formal geometric quantization II. Pacific J.
+     Math., 253(1):169–211, 2011.
+
+[38] Paul-Émile Paradan and Michèle Vergne. The multiplicities of the
+     equivariant index of twisted Dirac operators. C. R. Math. Acad. Sci.
+     Paris, 352(9):673–677, 2014.
+
+[39] Paul-Emile Paradan and Michèle Vergne. Equivariant Dirac operators
+     and differentiable geometric invariant theory. Acta Math., 218(1):137–
+     199, 2017.
+
+[40] Rajagopalan Parthasarathy. Dirac operator and the discrete series.
+     Ann. of Math. (2), 96:1–30, 1972.
+
+[41] Wilfried Schmid. L2 -cohomology and the discrete series. Ann. of Math.
+     (2), 103(2):375–394, 1976.
+
+[42] Youliang Tian and Weiping Zhang. An analytic proof of the geo-
+     metric quantization conjecture of Guillemin-Sternberg. Invent. Math.,
+     132(2):229–259, 1998.
+
+
+
+
+                                     61
+[43] Michèle Vergne. Applications of equivariant cohomology. In Interna-
+     tional Congress of Mathematicians. Vol. I, pages 635–664. Eur. Math.
+     Soc., Zürich, 2007.
+
+[44] David A. Vogan, Jr. The method of coadjoint orbits for real reductive
+     groups. In Representation theory of Lie groups (Park City, UT, 1998),
+     volume 8 of IAS/Park City Math. Ser., pages 179–238. Amer. Math.
+     Soc., Providence, RI, 2000.
+
+
+
+
+                                   62
+

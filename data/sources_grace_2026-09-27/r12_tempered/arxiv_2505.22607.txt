@@ -1,0 +1,1485 @@
+                                          Symmetry, Integrability and Geometry: Methods and Applications                SIGMA 22 (2026), 011, 18 pages
+
+                                          Contraction of the sl2-Triple Associated
+                                          to the (k, a)-Generalized Fourier Transform
+                                          Tatsuro HIKAWA
+
+                                          Graduate School of Mathematical Sciences, The University of Tokyo,
+                                          3-8-1 Komaba, Meguro-ku, Tokyo, 153-8914, Japan
+                                          E-mail: hikawa@ms.u-tokyo.ac.jp
+                                          Received May 29, 2025, in final form January 15, 2026; Published online February 08, 2026
+                                          https://doi.org/10.3842/SIGMA.2026.011
+
+
+
+
+arXiv:2505.22607v3 [math.RT] 8 Feb 2026
+                                                 Abstract. Ben Saïd–Kobayashi–Ørsted introduced a family of sl2 -triples of differential-
+                                                                                       −
+                                                 difference operators Hk,a , E+
+                                                                              k,a and Ek,a on R \ {0} indexed by a Dunkl parameter k and
+                                                                                                N
+
+                                                 a deformation parameter a ̸= 0. In the present paper, we studythe behavior as the param-
+                                                 eter a approaches 0. In this limit, the Lie algebra gk,a = spanR Hk,a , E+         −   ∼
+                                                                                                                             k,a , Ek,a = sl(2, R)
+                                                 contracts to a three-dimensional commutative Lie algebra gk,0 , and its spectral properties
+                                                 change. We describe the joint spectral decomposition for gk,0 , and discuss formulas for oper-
+                                                 ator semigroups with infinitesimal  generators in gk,0 . In particular, we describe the integral
+                                                 kernel of exp z|x|2 ∆k as an infinite series, which, in some low-dimensional cases, can be
+                                                                        
+
+                                                 expressed in a closed form using the theta function.
+                                                 Key words: (k, a)-generalized Fourier transform; Dunkl operators; group contraction; spec-
+                                                 tral decomposition; integral kernel
+                                                 2020 Mathematics Subject Classification: 43A32; 22E45; 47D03
+
+
+
+                                          1     Introduction
+                                          1.1    Background
+                                          A minimal representation is an infinite-dimensional irreducible representation of a simple Lie
+                                          group with the smallest Gelfand–Kirillov dimension. However, at the same time, it can be
+                                          thought of as a manifestation of large symmetry of the space acted on by the group, and hence,
+                                          it is expected to control global analysis on the space effectively. This is the idea of global
+                                          analysis of minimal representations initiated by T. Kobayashi [19, 20], which led a transition
+                                          from algebraic representation theory to analytic representation theory. See also [15, Section VII]
+                                          for an excellent survey.
+                                              From the viewpoint of global analysis of minimal representations, the classical Fourier trans-
+                                          form on the Euclidean space RN can be interpreted as a unitary inversion operator in the Weil
+                                          representation, which is a unitary representation of the metaplectic group Mp(N, R) on the
+                                          Hilbert space L2 RN (see [14] for more details) and decomposes into two irreducible compo-
+                                          nents, each of which is a minimal representation. Promoting this interpretation, Kobayashi–
+                                          Mano [21, 22, 23, 24] introduced the Fourier transform on the light cone as a unitary inversion
+                                          operator in an L2 -model of a minimal representation of O(p, q) and developed a new theory
+                                          of harmonic analysis. The special         case (p, q) = (N + 1, 2), where the model Hilbert space is
+                                          isomorphic to L R , |x| dx , is studied in [21, 23].
+                                                            2   N    −1
+                                                                            
+
+                                              After that, Ben Saïd–Kobayashi–Ørsted [3, 4] introduced a family of sl2 -triples of differential-
+                                                                                −
+                                          difference operators Hk,a , E+k,a , Ek,a on R \ {0} indexed by two parameters k and a, and defined
+                                                                                         N
+
+                                          the (k, a)-generalized Laguerre semigroup
+                                                               z                  
+                                                 Ik,a (z) = exp     E−   − E+         ,    Re z ≥ 0
+                                                                  i  k,a       k,a
+2                                                                                        T. Hikawa
+                                                      iπ 2⟨k⟩+a+N −2
+and the (k, a)-generalized Fourier transform Fk,a = e 2              Ik,a iπ
+                                                                           2 . Here, k is a combi-
+                                                                             
+                                                              a
+
+natorial parameter derived from the Dunkl operators, and a > 0 is a deformation parameter.
+The (k, a)-generalized Fourier transform Fk,a includes some known transforms:
+    • The (0, 2)-generalized Fourier transform F0,2 is the classical Fourier transform.
+    • The (0, 1)-generalized Fourier transform F0,1 is the Hankel transform, or the Fourier trans-
+      form on the light cone for (p, q) = (N + 1, 2).
+    • The (k, 2)-generalized Fourier transform Fk,2 is the Dunkl transform [13].
+The parameter a therefore provides a continuous interpolation between the two minimal repre-
+sentations of the simple Lie groups Mp(N, R) and O(N + 1, 2).
+
+1.2    Results of the paper
+Let gk,a = spanR Hk,a , E+        −   ∼
+                           k,a , Ek,a = sl(2, R). Ben Saïd–Kobayashi–Ørsted [4, Theorems 3.30
+                  
+
+and 3.31] showed that, for a > 0, the action of gk,a on L2 (RN , wk,a (x)dx) (see (3.3) for
+the definition of wk,a ) lifts to a unique unitary representation of the universal covering Lie
+group SL(2,
+         f R) of SL(2, R) and found its irreducible decomposition explicitly; the Hilbert space
+L R , wk,a (x)dx decomposes discretely with finite multiplicities into relatively discrete series
+  2    N
+                   
+
+representations of fSL(2, R). Furthermore, we investigated in [17] the case a < 0, which provided
+an extension of the parameter a.
+    In the present paper, we study the behavior as a → 0. Although the operators Hk,a , E+        k,a
+or E−                                                              ∼
+      k,a are not well-defined for a = 0, the Lie algebra gk,a = sl(2, R) contracts to a three-
+dimensional commutative Lie algebra gk,0 =     ∼ R3 as a → 0. Such a contraction of Lie algebras
+(or corresponding Lie groups) was earlier formalized by Inonu–Wigner [18], where it is referred
+to as a contraction of groups. Classical examples include the contraction from the orthogonal
+group O(3) (resp. O(2, 1)) to the Euclidean motion group O(2)⋉R2 , which reflects the geometric
+phenomenon that the sphere of curvature κ > 0 (resp. the hyperbolic plane of curvature κ < 0)
+approaches the flat Euclidean plane as κ → 0.
+    We then consider the action of gk,0 on L2 RN , wk,0 (x)dx (note that the weight function wk,a
+                                                              
+
+is well-defined even for a = 0). As an analog of the result in the case a ̸= 0, we describe that
+the joint spectral decomposition for the operators in gk,0 on L2 RN , wk,0 (x)dx (Theorem 3.4)
+and show that it lifts to a unique unitary representation of R3 (Theorem 3.6). This is the main
+result of the paper. In contrast to the case a ̸= 0, this spectral decomposition involves only the
+continuous spectrum.
+    Moreover, we discuss formulas for operator semigroups with infinitesimal generators in gk,0
+(see Theorems 3.8 and 3.13). In particular, we describe the integral kernel of exp z|x|2 ∆k
+as an infinite series, which, in some low-dimensional cases, can be expressed in a closed form
+using the theta function (Theorems 4.1, 4.2 and 4.3). Although the (k, a)-generalized Laguerre
+semigroup and the (k, a)-generalized Fourier transform are not well-defined for a = 0, the opera-
+tor semigroup e−z exp z|x|2 ∆k Re z≥0 may be viewed as the “renormalized” (k, a)-generalized
+Laguerre semigroup for a = 0 (Theorem 3.15). Note that explicit formulas and estimates for the
+integral kernels of the (k, a)-generalized Laguerre semigroup and the (k, a)-generalized Fourier
+transform have been extensively studied in Ben Saïd–Kobayashi–Ørsted [4, Sections 4.3–4.5 and
+5.2–5.4] and subsequent papers [2, 6, 7, 8, 16, 27] up to the present. There are also unpublished
+results by Mano and related results by Demni [9].
+    Thus, this paper analyzes representation-theoretic aspects of contraction of Lie algebras in the
+framework of (k, a)-generalized Fourier analysis. We note that, recently, Benoist–Kobayashi [5,
+Theorem 1.2] discovered a relationship between limit algebras (see Section 1.4 of their paper)
+of h = Lie(H) in g = Lie(G) and L2 -analysis of G/H in the context of tempered unitary
+representations. It can be viewed as an application of the notion of contraction of Lie algebras
+to representation theory.
+Contraction of the sl2 -Triple Associated to the (k, a)-Generalized Fourier Transform                3
+
+1.3    Organization of the paper
+In Section 2, we will briefly review Dunkl theory and the differential-difference operators Hk,a ,
+            −
+E+k,a and Ek,a introduced by Ben Saïd–Kobayashi–Ørsted. In Section 3, we will discuss the
+contraction of the sl2 -triple asa → 0. In Section 4, we will give a closed-form expression for the
+integral kernel of exp z|x|2 ∆k in some low-dimensional cases.
+
+1.4    Notation
+    • N = {0, 1, 2, . . .}.
+    • We write ⟨–, –⟩ for the Euclidean inner product, and |–| for the Euclidean norm.
+    • SN −1 = x ∈ RN | |x| = 1 .
+    • Function spaces, such as C ∞ spaces and L2 spaces, are understood to consist of complex-
+      valued functions.P
+    • We write Ex = N       j=1 xj ∂xj for the Euler operator on R , and Er = r dr for the Euler
+                                    ∂                             N              d
+
+      operator on R>0 .
+
+
+2     Preliminaries
+In this section, we review Dunkl theory and the differential-difference operators Hk,a , E+k,a
+and E−k,a introduced by Ben Saïd–Kobayashi–Ørsted to the extent  necessary for later use. This
+section contains no new results.
+
+2.1    The Dunkl Laplacian
+Throughout this paper, we fix a reduced root system R on RN . That is, we suppose that R
+satisfies the following conditions:
+    • R is a finite subset of RN \ {0},
+    • R is stable under the orthogonal reflection rα with respect to the hyperplane (Rα)⊥ for
+      all α ∈ R, and
+    • R ∩ Rα = {α, −α} for all α ∈ R.
+Note that we do not impose crystallographic conditions on roots and do not require that R
+spans RN .
+   The subgroup of O(N ) generated by all the reflections rα is called the reflection group as-
+sociated with R. We say that a function k : R → C is a multiplicity function if it is invariant
+under the natural action of the reflection group. We usually write kα instead of k(α). We say
+that a multiplicity function k is non-negative if kα ≥ 0 for all α ∈ R. The index of a multiplicity
+function k is defined as
+            1X            X
+      ⟨k⟩ =        kα =        kα ,
+            2                +
+               α∈R         α∈R
+
+where R + is any positive system of R.
+  For a (not necessarily non-negative) multiplicity function k, the Dunkl Laplacian ∆k (see [10]
+and [11, Definition 1.1]) is defined by
+                                       2⟨α, ∇F (x)⟩      2 F (x) − F (rα (x))
+                             X                                               
+      ∆k F (x) = ∆F (x) +         kα                − |α|                      ,
+                                +
+                                          ⟨α, x⟩                ⟨α, x⟩2
+                             α∈R
+
+                     ∂ 2
+where ∆ = N           is the classical Laplacian and ∇ = ∂x∂ 1 , . . . , ∂x∂N is the classical gradient
+           P                                                                
+            j=1 ∂xj
+operator. When k = 0, the Dunkl Laplacian ∆k reduces to the classical Laplacian ∆.
+4                                                                                    T. Hikawa
+
+  Let P RN denote the space of polynomials on RN and P m RN denote its subspace of ho-
+                                                               
+
+mogeneous polynomials of degree m. The space of k-harmonic polynomials of degree m (see [10,
+Definition 1.5]) is defined as
+
+      Hkm RN = p ∈ P m RN | ∆k p = 0 ,
+                       
+
+
+and the space of k-spherical harmonics of degree m is defined as
+
+      Hkm SN −1 = p|SN −1 | p ∈ Hkm RN .
+                                    
+
+
+When k = 0, these  are reduced to the space Hm RN of classical harmonic polynomials and the
+                                                     
+
+space Hm SN −1 of classical spherical harmonics, respectively.
+               
+
+   We write H S  N −1   = p|SN −1 | p ∈ P R   N    . The following fact is a generalization of
+                      
+
+the decomposition of H SN −1 and L2 SN −1 into the spaces Hm SN −1 of classical spherical
+                                             
+
+harmonics.
+
+Fact 2.1 ([10, pp. 37–39]). For a non-negative multiplicity function k, we have the direct sum
+decomposition
+               M m N −1 
+     H SN −1 =        Hk S
+                  m∈N
+
+and the orthogonal decomposition
+                          X⊕ m N −1 
+      L2 SN −1 , wk (ω)dω =  Hk S      ,
+                            m∈N
+
+where the weight function wk with respect to the standard measure dω on SN −1 is defined by
+               Y               Y
+     wk (ω) =     |⟨α, ω⟩|kα =     |⟨α, ω⟩|2kα .
+              α∈R              α∈R +
+
+
+2.2   Dunkl’s intertwining operator and the Poisson kernel
+For a non-negative  multiplicity function k, Dunkl introduced a linear automorphism Vk of the
+space P RN of polynomials that satisfies a certain intertwining property (Dunkl’s intertwining
+            
+
+operator). See [12, Definition 2.2 and Theorem 2.3] for the definition and a characterization
+of Vk . We note that V0 = idP(RN ) .
+   The following integral representation of Dunkl’s intertwining operator Vk was obtained by
+Rösler.
+
+Fact 2.2 ([26, Theorem 1.2]). Let k be a non-negative multiplicity function. For each x ∈ RN ,
+there exists a unique probability Borel measure µk,x on RN such that
+                Z
+      Vk p(x) =     p(ξ) dµk,x (ξ)
+                RN
+
+for all p ∈ P RN . Moreover, the support of µk,x is contained in the ball ξ ∈ RN | |ξ| ≤ |x| ,
+                                                                          
+
+and we have µk,x (S) = µk,gx (gS) = µk,rx (rS) for any element g of the reflection group, r > 0,
+and Borel set S ⊆ RN .
+
+   Let k be a non-negative multiplicity
+                                     function and m ∈ N. We consider the orthogonal pro-
+         (m)                                                                           (m)
+jection Πk from L2 SN −1 , wk (ω)dω onto Hkm SN −1 and its normalized integral kernel Pk ,
+Contraction of the sl2 -Triple Associated to the (k, a)-Generalized Fourier Transform              5
+
+which is called the Poisson kernel of the space of k-spherical harmonics of degree m. That is,
+                (m)
+the function Pk on SN −1 × SN −1 is characterized by the formula
+                          1
+                                   Z
+         (m)                               (m)
+       Πk p(ω) =                               ω, ω ′ p ω ′ wk ω ′ dω ′                 (2.1)
+                                                                
+                                          Pk
+                    volk S
+                                 
+                            N −1
+                                    SN −1
+
+for all p ∈ L2 SN −1 , wk (ω)dω , where
+                                  
+
+                      Z
+       volk SN −1 =           dwk (ω).                                                  (2.2)
+                 
+                          SN −1
+                                            (m)
+Equivalently, the Poisson kernel Pk               is given by
+                                       d
+       (m)                            X
+      Pk     (ω, ω ′ ) = volk SN −1           pj (ω)pj (ω ′ ),
+                                        j=1
+
+where (p1 , . . . , pd ) is an orthonormal basis of Hkm SN −1 , regarded as a subspace of L2 SN −1 ,
+                                                              
+
+wk (ω)dω .
+                                 (m)
+   The Poisson kernel Pk             can be expressed in terms of Dunkl’s intertwining operator and
+the Gegenbauer polynomials. To state this result, we first prepare some notation. For ν ∈ C
+and m ∈ N, we consider the Gegenbauer polynomial Cm          ν defined by the generating function
+
+                                ∞
+                     2 −ν
+                                X
+       1 − 2tξ + ξ          =          ν
+                                         (t)ξ m ,                                               (2.3)
+                      
+                                      Cm
+                                m=0
+
+and the renormalized Gegenbauer polynomial C
+                                           emν defined by
+
+
+      e ν (t) = m + ν C ν (t).
+      C                                                                                         (2.4)
+        m              m
+                  ν
+For ν = 0, we define Ce 0 by the limit formula (see [1, equation (6.4.13)])
+                       m
+                            (
+      e (t) = lim C
+      C 0          e (t) = 1,
+                    ν                    m = 0,
+                                                                                                (2.5)
+        m           m
+              ν→0             2Tm (t), m ≥ 1,
+
+where Tm denotes the Chebyshev polynomial of the first kind, which is characterized by the
+formula Tm (cos θ) = cos mθ.
+Fact 2.3 ([12, Theorem 4.1]). Let k be a non-negative multiplicity function and m ∈ N. The
+                (m)
+Poisson kernel Pk is given by
+                                2⟨k⟩+N −2
+       (m)
+             (ω, ω ′ ) = Vk C               ⟨–, ω ′ ⟩ (ω).
+                                    2
+                                                     
+      Pk                    em
+
+Remark 2.4. When k = 0, we have V0 = idP(RN ) , so that the formula in Theorem 2.3 reduces to
+                         N −2
+       (m)
+              ω, ω ′ = C
+                       em 2 ⟨ω, ω ′ ⟩ .
+                                    
+      P0
+
+See [1, Theorem 9.6.3 and Remark 9.6.1].
+Remark 2.5. In the case N = 1, we have S0 = {±1} and the formula in Theorem 2.3 reduces to
+
+                 1,           m = 0,
+                 
+                 
+     (m)     ′
+   Pk (ω, ω ) = sgn(ωω ), m = 1,
+                          ′
+
+                    0,         m ≥ 2,
+                 
+                 
+6                                                                                             T. Hikawa
+
+which corresponds to the fact that
+
+                          m = 0,
+               
+               C1,
+             
+     Hk S = C sgn, m = 1,
+       m 0
+
+                  0,      m ≥ 2.
+               
+               
+
+Here, 1 and sgn denote the constant function and the sign function on S0 = {±1}, respectively.
+
+                                                              −
+2.3    The differential-difference operators Hk,a , E+
+                                                     k,a and Ek,a
+
+Let k be a multiplicity function and a ∈ C \ {0}. We recall the definition of the differential-
+                                      −
+difference operators Hk,a , E+
+                             k,a and Ek,a on R \ {0} from [4, equation (3.3)]:
+                                              N
+
+
+               2      2⟨k⟩ + a + N − 2                  i a                      i 2−a
+      Hk,a =     Ex +                  ,       k,a =
+                                              E+          |x| ,         E−
+                                                                         k,a =     |x| ∆k .
+               a              a                         a                        a
+    Additionally, for m ∈ N, we consider the following differential operators on R>0 :
+
+        (m)  2      2⟨k⟩ + a + N − 2    + (m)  i
+      Hk,a =   Er +                  , Ek,a = ra ,
+             a              a                  a
+       − (m)   i
+      Ek,a = r−a (Er − m)(Er + m + 2⟨k⟩ + N − 2).
+               a
+                                               −
+                                      k,a and Ek,a respectively in the following sense.
+These are the radial parts of Hk,a , E+
+
+Proposition 2.6. Let k be a multiplicity function, a ∈ C \ {0}, and m ∈ N. For p ∈ Hkm SN −1
+                                                                                                      
+
+and f ∈ C ∞ (R>0 ), we have
+                             (m)                               + (m)
+      Hk,a (p ⊗ f ) = p ⊗ Hk,a f,      k,a (p ⊗ f ) = p ⊗ Ek,a
+                                      E+                               f,
+                           − (m)
+      E−
+       k,a (p ⊗ f ) = p ⊗ Ek,a f,
+
+where p ⊗ f denotes the function rω 7→ p(ω)f (r) on RN \ {0}.
+Proof . The first and second equations are clear. We now prove the third equation. We
+                                                                                     use the
+polar coordinates x = rω, where r ∈ R>0 and ω ∈ SN −1 . We extend p ∈ Hkm SN −1 to a k-
+harmonic polynomial of degree m on RN , which we again write p. Then, since ∆k p = 0, we have
+
+      ∆k (p ⊗ f )(x) = ∆k (r−m f (r)p(x)) = [∆k , r−m f (r)]p(x),                                 (2.6)
+
+where [–, –] denotes the commutator of operators. For a radial function g(r), the commuta-
+tor [∆k , g(r)] can be computed by the Leibniz rule as
+                                                X            2⟨α, ∇(g(r))⟩
+      [∆k , g(r)] = ∆(g(r)) + 2⟨∇(g(r)), ∇⟩ +           kα
+                                                                ⟨α, x⟩
+                                                α∈R +
+                             1
+                 = g ′′ (r) + g ′ (r)(2Ex + 2⟨k⟩ + N − 1)
+                             r
+                 = r−2 Er2 g(r) + Er g(r)(2Ex + 2⟨k⟩ + N − 2) .
+                                                             
+
+Setting g(r) = r−m f (r) and applying this commutator to p(x), we have
+
+      [∆k , r−m f (r)]p(x)
+           = r−2 Er2 (r−m f (r)) + Er (r−m f (r))(2Ex + 2⟨k⟩ + N − 2) p(x)
+                                                                     
+
+           = r−m−2 (Er − m)2 f (r) + (Er − m)f (r)(2Ex + 2⟨k⟩ + N − 2) p(x)
+                                                                          
+Contraction of the sl2 -Triple Associated to the (k, a)-Generalized Fourier Transform                7
+
+           = r−m−2 (Er − m)2 + (Er − m)(2m + 2⟨k⟩ + N − 2) f (r)p(x)
+                                                          
+
+           = r−2 (Er − m)(Er + m + 2⟨k⟩ + N − 2)f (r)p(ω)
+           = p ⊗ r−2 (Er − m)(Er + m + 2⟨k⟩ + N − 2)f (x).                                        (2.7)
+                                                       
+
+The third equation follows from (2.6) and (2.7).                                                     ■
+
+Proposition 2.7. Let k be a multiplicity function and a ∈ C \ {0}.
+                                                               −
+ (1) The differential-difference operators Hk,a , E+ k,a and Ek,a form an sl2 -triple. That is,
+
+
+                   k,a = 2Ek,a ,
+           Hk,a , E+         +
+                                     [Hk,a , E−            −
+                                              k,a ] = −2Ek,a ,      Ek,a , E−
+                                                                            k,a = Hk,a .
+                                                                  +         
+
+                                                       (m)   + (m)        − (m)
+ (2) For any m ∈ N, the differential operators Hk,a , Ek,a and Ek,a form an sl2 -triple.
+     That is,
+           (m) + (m)               (m) − (m)                 + (m) − (m) 
+           Hk,a , Ek,a  = 2E+
+                            k,a ,    Hk,a , Ek,a   = −2E− k,a ,  Ek,a , Ek,a    = Hk,a .
+
+Proof . (1) It is [4, Theorem 3.2]. (2) It follows from (1) and Theorem 2.6.                         ■
+
+
+3     Contraction of the sl2 -triple as a → 0
+3.1   The commutative Lie algebras gk,0 and grad
+                                             k,0
+
+For a multiplicity function k and a ∈ C \ {0}, we write
+                                  −                             −
+      gk,a = spanR Hk,a , E+
+                           k,a , Ek,a = spanR aHk,a , aEk,a , aEk,a
+                                                         +
+                                            
+
+           = spanR 2Ex + 2⟨k⟩ + a + N − 2, i|x|a , i|x|2−a ∆k .
+                   
+
+Putting a = 0 in the above equation, we define
+
+     gk,0 = spanR 2Ex + 2⟨k⟩ + N − 2, i, i|x|2 ∆k .                                               (3.1)
+                  
+
+Similarly, we write
+       (m)         (m) + (m) − (m)                 (m)     + (m)   − (m)
+      gk,a = spanR Hk,a , Ek,a , Ek,a  = spanR aHk,a , aEk,a , aEk,a
+           = spanR 2Er + 2⟨k⟩ + a + N − 2, ira , ir−a (Er − m)(Er + m + 2⟨k⟩ + N − 2) .
+                  
+
+and define
+
+       k,0 = spanR {2Er + 2⟨k⟩ + N − 2, i, i(Er − m)(Er + m + 2⟨k⟩ + N − 2)}
+      grad
+           = spanR 2Er + 2⟨k⟩ + N − 2, i, i Er2 + (2⟨k⟩ + N − 2)Er − m(m + 2⟨k⟩ + N − 2)
+                                                                                       
+
+           = spanR 2Er + 2⟨k⟩ + N − 2, i, i Er2 + (2⟨k⟩ + N − 2)Er .                   (3.2)
+                                                                 
+
+Note that the right-hand side of the above definition does not depend on m, which justifies the
+notation grad
+          k,0 .
+
+Proposition 3.1. Let k be a multiplicity function. For p ∈ Hkm SN −1 and f ∈ C ∞ (R>0 ), we
+                                                                      
+
+have
+
+      (2Ex + 2⟨k⟩ + N − 2)(p ⊗ f ) = p ⊗ (2Er + 2⟨k⟩ + N − 2)f,
+      i(p ⊗ f ) = p ⊗ if,    i|x|2 ∆k (p ⊗ f ) = p ⊗ i(Er − m)(Er + m + 2⟨k⟩ + N − 2)f,
+
+where p ⊗ f denotes the function rω 7→ p(ω)f (r) on RN \ {0}.
+8                                                                                                                 T. Hikawa
+
+Proof . The proof goes along the same lines as that of Theorem 2.6.                                                         ■
+
+Proposition 3.2. Let k be a multiplicity function.
+    (1) The space gk,0 of differential-difference operators on RN \ {0} is a three-dimensional com-
+        mutative Lie algebra.
+    (2) The space grad
+                    k,0 of differential operators on R>0 is a three-dimensional commutative Lie
+        algebra.
+Proof . (1) By Theorem 2.7, we have
+
+               k,a = 2a · aEk,a ,
+     aHk,a , aE+            +
+                                  [aHk,a , aE−               −
+                                             k,a ] = −2a · aEk,a ,
+                                                                                                             −
+                                                                                                     k,a , aEk,a = a · aHk,a .
+                                                                                                   aE+
+                                                                                                             
+
+By taking the limit as a → 0, we have
+        [2Ex + 2⟨k⟩ + N − 2, i] = 0,               2Ex + 2⟨k⟩ + N − 2, i|x|2 ∆k = 0,                       i, i|x|2 ∆k = 0.
+                                                                                                                   
+
+(It can also be shown by a direct computation.)
+   (2) It follows from (1) and Theorem 3.1.                                                                                 ■
+
+3.2     Joint spectral decomposition for gk,0 and grad
+                                                   k,0
+
+In the following, we consider a non-negative multiplicity function k. In the next two theorems,
+we use the unitary operator
+      UN,k : L2 R>0 , r2⟨k⟩+N −3 dr → L2 (R, ds),
+                                   
+                         2⟨k⟩+N −2                                      2⟨k⟩+N −2
+                                                   −1
+        UN,k f (s) = e       2
+                                   s
+                                       f (es ),   UN,k g(r) = r−            2       g(log r)
+and the (classical) Fourier transform
+        F : L2 (R, ds) → L2 (R, dσ),
+                    1                                            1
+                       Z                                                      Z
+        F g(σ) = √       g(s)e−iσs ds,              F −1 h(s) = √                   g(s)eiσs ds.
+                    2π R                                          2π            R
+
+    We recall some terminology related to operators on a Hilbert space. A densely defined
+operator T on a Hilbert space is called self-adjoint (resp. skew-adjoint) if its adjoint T ∗ is equal
+to T (resp. iT ), that is, these have the same domain and coincide on it. A closable operator T on
+a Hilbert space is called essentially self-adjoint (resp. essentially skew-adjoint) if its closure T
+is self-adjoint (resp. skew-adjoint).
+Theorem 3.3. Let k be a non-negative multiplicity function. Every differential operator in grad
+                                                                                            k,0
+(see (3.2) for the definition) defined on the domain   C ∞ (R ) is an essentially skew-adjoint
+                                                         c   >0
+operator on L2 R>0 , r2⟨k⟩+N −3 dr . Moreover, via the unitary operator
+                                  
+
+      F ◦ UN,k : L2 R>0 , r2⟨k⟩+N −3 dr → L2 (R, dσ),
+                                       
+
+the closures of
+        (2Er + 2⟨k⟩ + N − 2)|Cc∞ (R>0 ) ,            i idCc∞ (R>0 ) ,
+        i(Er − m)(Er + m + 2⟨k⟩ + N − 2)|Cc∞ (R>0 )
+correspond to the multiplication operators
+                                                  !
+                                     2⟨k⟩ + N − 2 2
+                               
+      2iσ,    i,    −i σ + m +
+                           2
+                                                     ,
+                                           2
+
+respectively.
+Contraction of the sl2 -Triple Associated to the (k, a)-Generalized Fourier Transform                 9
+
+Proof . Via the unitary operator UN,k : L2 R>0 , r2⟨k⟩+N −3 dr → L2 (R, ds), the operator
+                                                              
+
+            2⟨k⟩ + N − 2
+                        
+       Er +
+                  2         Cc∞ (R)
+
+corresponds to dsd
+                       (R) . As is well-known, for any complex polynomial2 P (σ) such that P (iσ)
+                   |Cc∞
+is real-valued, P ds |Cc∞ (R) is an essentially self-adjoint operator on L (R, ds) and its closure
+                    d
+
+corresponds to the multiplication operator by the function P (iσ) via the Fourier transform
+F : L2 (R, ds) → L2 (R, dσ). Since 2Er + 2⟨k⟩ + N − 2, i and i(Er − m)(Er + m + 2⟨k⟩ + N − 2)
+                                                                   −2
+can be expressed as i times such polynomials of Er + 2⟨k⟩+N    2      , now the assertion follows.    ■
+                                                                    −
+    We recall that the L2-theory of the sl2 -triple Hk,a , E+
+                                                             k,a , Ek,a was considered on the Hilbert
+                                                                       
+
+space L2 RN , wk,a (x)dx , where the weight function wk,a : RN → R≥0 (see [4, equation (1.2)],
+ϑk,a in their notation) is defined by
+                         Y                        Y
+      wk,a (x) = |x|a−2       |⟨α, x⟩|kα = |x|a−2    |⟨α, x⟩|2kα .                                 (3.3)
+                          α∈R                           α∈R +
+
+By the polar decomposition wk,a (x)dx = wk (ω)dω ⊗ r2⟨k⟩+a+N −3 dr (here, wk is as defined in
+Theorem 2.1) and Theorem 2.1, we have the orthogonal decomposition
+
+     L2 RN , wk,a (x)dx = L2 SN −1 , wk (ω)dω ⊗b L2 R>0 , r2⟨k⟩+a+N −3 dr
+                                                                        
+                           X⊕
+                         =     Hkm SN −1 ⊗ L2 R>0 , r2⟨k⟩+a+N −3 dr .                   (3.4)
+                                                                    
+
+                                   m∈N
+
+Note that wk,a is well-defined and the above orthogonal decomposition holds even for a = 0.
+  We now state the main result of this paper.
+Theorem 3.4. Let k be a non-negative multiplicity function. Every differential-difference op-
+erator in gk,0 (see (3.1) for the definition) defined on the domain
+
+      D = H SN −1 ⊗ Cc∞ (R>0 ) = spanC p ⊗ f | p ∈ H SN −1 , f ∈ Cc∞ (R>0 ) ,
+                                                                 
+
+is an essentially skew-adjoint operator on L2 RN , wk,0 (x)dx . Moreover, via the unitary operator
+                                                                 
+
+                             b (F ◦ UN,k ) : L2 RN , wk,0 (x)dx → L2 SN −1 , wk (ω)dω ⊗
+      idL2 (SN −1 ,wk (ω)dω) ⊗                                                         b L2 (R, dσ),
+                                                                                    
+
+the closures of
+
+      (2Ex + 2⟨k⟩ + N − 2)|D ,                i idD ,     i|x|2 ∆k |D
+                                                                  
+
+correspond to the multiplication operators
+                                                                                                 !!
+                                                                                    2⟨k⟩ + N − 2 2
+                                                  X⊕                           
+   idL2 (SN −1 ,wk (ω)dω) ⊗
+                          b 2iσ,         i,             idHkm (SN −1 ) ⊗ −i σ + m +
+                                                                          2
+                                                                                                    ,
+                                                                                          2
+                                                  m∈N
+
+respectively.
+Proof . It follows from Theorems 3.1 and 3.3, and the orthogonal decomposition (3.4).                 ■
+
+Remark    3.5. Since the unitary operator F ◦ UN,k : L2 (R>0 , r2⟨k⟩+N −3 dr) → L2 (R, dσ) “maps”
+      2⟨k⟩+N −2
+ 1
+√ r
+ 2π
+    −     2
+                +iσ
+                    to the Dirac distribution δσ , we have the direct integral decomposition
+
+                                        1
+                                Z ⊕
+                                              2⟨k⟩+N −2
+       2         2⟨k⟩+N −3
+                           dr =      C √ r−             +iσ
+                                                            dσ
+                             
+    L R>0 , r                                      2
+                                  R      2π
+10                                                                                        T. Hikawa
+
+and may write Theorem 3.3 as
+                          Z ⊕                           Z ⊕
+     2Er + 2⟨k⟩ + N − 2 =     2iσ dσ,          i id =         i dσ,
+                               R                         R
+                                                                            !!
+                                                               2⟨k⟩ + N − 2 2
+                                              Z ⊕         
+      i(Er − m)(Er + m + 2⟨k⟩ + N − 2) =            −i σ + m +2
+                                                                                dσ.
+                                                R                    2
+Similarly, we have the direct integral decomposition
+                         X⊕ ⊕ m N −1                1
+                                  Z
+                                                          2⟨k⟩+N −2
+      L2 RN , wk,0 (x)dx =             Hk S      ⊗ C √ r−     2
+                                                                    +iσ
+                                                                        dσ
+                            m∈N    R                  2π
+and may write Theorem 3.4 as
+                          X⊕ Z ⊕                                  X⊕ Z ⊕
+     2Ex + 2⟨k⟩ + N − 2 =        2iσ dσ,                i id =              i dσ,
+                              m∈N    R                            m∈N   R
+                                                       2 !!
+                   X⊕ Z ⊕                 2⟨k⟩ +     2
+                                     
+                                                 N −
+      i|x|2 ∆k =             −i σ 2 + m +                    dσ.
+                         R                      2
+                   m∈N
+
+Corollary 3.6. Let k be a non-negative multiplicity function. The (possibly unbounded) normal
+operator
+            z                                              
+                 1
+       exp         (2Ex + 2⟨k⟩ + N − 2) + z2 + z3 |x|2 ∆k
+                i
+on L R , wk,0 (x)dx is well-defined for z1 , z2 , z3 ∈ C. In particular, the action of the dif-
+      2     N
+                             
+
+ferential-difference       operators in gk,0 lifts to a unique unitary representation of R3 on L2 RN ,
+wk,0 (x)dx , which is given by
+             
+
+       (t1 , t2 , t3 ) 7→ exp t1 (2Ex + 2⟨k⟩ + N − 2) + it2 + it3 |x|2 ∆k .
+                                                                         
+
+Proof . Since gk,0 admits joint spectral decomposition (see Theorem 3.4), the (possibly un-
+bounded) normal operator
+           1
+                                           
+       ϕ (2Ex + 2⟨k⟩ + N − 2), 1, |x| ∆k2
+           i
+on L2 RN , wk,0 (x)dx is defined for any Borel measurable function ϕ : C3 → C by means of the
+                       
+
+functional calculus. The former assertion is shown by setting ϕ(w1 , w2 , w3 ) = exp(z1 w1 + z2 w2 +
+z3 w3 ). The latter assertion is a consequence of Stone’s theorem.                                 ■
+
+   For the operators in Theorem 3.6, the part involving z2 contributes only as a scalar multiple of
+the identity. The subsequent two subsections are devoted to the analysis of the parts involving z1
+and z3 .
+
+3.3   The unitary group with infinitesimal generator 2Ex + 2⟨k⟩ + N − 2
+In this subsection, we consider the unitary group with infinitesimal generator 2Ex +2⟨k⟩+N −2,
+regarded as a skew-adjoint operator on L R , wk,0 (x)dx based on Theorem 3.4.
+                                           2   N
+                                                           
+
+Proposition 3.7. Let k be a non-negative multiplicity function. For z ∈ C, the (possibly
+unbounded) normal operator
+         z                     
+      exp (2Ex + 2⟨k⟩ + N − 2)
+          i
+on L2 RN , wk,0 (x)dx is bounded if and only if Re z = 0, and in this case, this operator is
+                     
+
+unitary.
+Contraction of the sl2 -Triple Associated to the (k, a)-Generalized Fourier Transform                   11
+
+Proof . By Theorem 3.4, the operator in the assertion       corresponds  to the multiplication op-
+erator idL2 (SN −1 ,wk (ω)dω) b
+                              ⊗ e2zσ on L2 SN −1 , wk (ω)dω b⊗ L2 (R, dσ) via the unitary operator
+idL2 (SN −1 ,wk (ω)dω) b
+                       ⊗ (F ◦ UN,k ). Now the assertion follows since the function σ 7→ e2zσ on R
+is bounded if and only if Re z = 0, and in this case, e2zσ = 1.                                  ■
+
+Theorem 3.8. Let k be a non-negative   multiplicity function. For z = it with t ∈ R, the unitary
+operator on L2 RN , wk,0 (x)dx in Theorem 3.7 is given by
+                              
+
+
+      exp(t(2Ex + 2⟨k⟩ + N − 2))F (x) = e(2⟨k⟩+N −2)t F e2t x .
+                                                             
+
+
+Proof . We continue our discussion following the proof of Theorem 3.7. The multiplication op-
+erator e2itσ on L2 (R, dσ) corresponds to the translation operator g 7→ g((–) + 2t) on L2 (R, ds)
+via F −1 , which in turn corresponds to the scaling operator f 7→ e(2⟨k⟩+N −2)t f e2t (–) on
+                             −1
+L2 R>0 , r2⟨k⟩+N −3 dr via UN,k . Hence, the assertion holds.
+                      
+                                                                                                ■
+
+3.4   The operator semigroup with infinitesimal generator |x|2 ∆k
+In this subsection, we consider the operator semigroup     with infinitesimal generator |x|2 ∆k ,
+regarded as a self-adjoint operator on L2 RN , wk,0 (x)dx based on Theorem 3.4.
+                                                         
+
+Proposition 3.9. Let k be a non-negative  multiplicity function. For z ∈ C, the (possibly un-
+bounded) normal operator exp z|x|2 ∆k on L2 RN , wk,0 (x)dx is bounded if and only if Re z ≥ 0,
+                                                          
+
+and unitary if and only if Re z = 0.
+
+Proof . By Theorem 3.4, the operator in the assertion corresponds to the multiplication operator
+      X⊕                         2        2⟨k⟩+N −2 2
+            idHkm (SN −1 ) ⊗ e−z(σ +(m+       2
+                                                   ) )
+
+      m∈N
+
+on L2 SN −1 , wk (ω)dω b ⊗L2 (R, dσ) via the unitary operator idL2 (SN −1 ,wk (ω)dω) b
+                                                                                     ⊗(F ◦UN,k ). Now
+                       
+
+the assertion follows since the function
+                2       2⟨k⟩+N −2 2
+      σ 7→ e−z(σ +(m+       2
+                                 ) )
+
+
+on R is bounded if and only if Re z ≥ 0, and has modulus one if and only if Re z = 0.                   ■
+
+   We consider the integral kernel formula for the operator semigroup exp z|x|2 ∆k Re z≥0 .
+                                                                                                   
+
+For this purpose, we first focus on the radial part (Er − m)(Er + m + 2⟨k⟩ + N − 2) of |x|2 ∆k (see
+Theorem 3.1).
+                                                                                  d 2
+Fact 3.10 ([25, Section IX.7, Example 3]). The operator semigroup exp z ds
+                                                                                     
+                                                                                         Re z≥0
+                                                                                                 on
+L (R, ds) admits the integral kernel formula
+ 2
+
+             2 !
+              d                  1              (s − s′ )2
+                                     Z                    
+      exp z           g(s) = √          exp −                g(s′ ) ds′                       (3.5)
+              ds                4πz R              4z
+                                                         √                 √
+in the following sense. Here, we take the branch of          z such that       z > 0 when z > 0.
+
+ (1) For z ∈ C with Re z > 0 and g ∈ L2 (R, ds′ ), the integrand in the right-hand side
+                                                                                        of (3.5)
+                                                                                    d 2
+     is integrable for all s ∈ R, and this integral as a function of s gives exp z ds g.
+ (2) For z ∈ C with Re z = 0 and z ̸= 0 and g ∈ L1 ∩ L2 (R, ds′ ), the integrand in the
+                        (3.5) is integrable for all s ∈ R, and this integral as a function of s
+     right-hand side of
+                   d 2
+     gives exp z ds     g.
+12                                                                                       T. Hikawa
+
+Theorem 3.11. Let k be a non-negative multiplicity function and m ∈ N. The operator semi-
+group (exp(z(Er −m)(Er +m+2⟨k⟩+N −2)))Re z≥0 on L2 R>0 , r2⟨k⟩+N −3 dr admits the integral
+kernel formula
+                                                   Z
+                                                         (m)
+      exp(z(Er − m)(Er + m + 2⟨k⟩ + N − 2))f (r) =    Kk r, r′ ; z f r′ r′2⟨k⟩+N −3 dr′ , (3.6)
+                                                                      
+                                                          R>0
+
+where
+          (m)
+        Kk      (r, r′ ; z)
+                                             !
+                 1              2⟨k⟩ + N − 2 2        (log r − log r′ )2
+                                                                       
+                                                                               − 2⟨k⟩+N −2
+              =√     exp −z m +                 exp −                      rr′        2
+                 4πz                  2                      4z
+                                                                             √               √
+for r, r′ ∈ R>0 , in the following sense. Here, we take the branch of z such that z > 0
+when z > 0.
+  (1) For z ∈ C with Re z > 0 and f ∈ L2 R>0 , r′2⟨k⟩+N −3 dr′ , the integrand in the right-
+                                                                      
+
+      hand side of (3.6) is integrable for all r ∈ R>0 , and this integral as a function of r
+      gives exp(z(Er − m)(Er + m + 2⟨k⟩ + N − 2))f .
+  (2) For z ∈ C with Re z = 0 and z ̸= 0 and f ∈ L1 ∩ L2 R>0 , r′2⟨k⟩+N −3 dr′ , the integrand
+                                                                                    
+
+      in the right-hand side of (3.6) is integrable for all r ∈ R>0 , and this integral as a function
+      of r gives exp(z(Er − m)(Er + m + 2⟨k⟩ + N − 2))f .
+Proof. As follows from the   proof of Theorem 3.3, (Er − m)(Er + m + 2⟨k⟩ + N − 2) corresponds
+   d 2           2⟨k⟩+N −2 2
+to ds − m +          2        via the unitary operator UN,k : L2 (R>0 , r2⟨k⟩+N −3 dr) → L2 (R, ds).
+Now the assertion follows from Theorem 3.10.                                                      ■
+                                                                           (m)
+   We then combine this result with the spherical part. Recall that Pk denotes the Poisson
+kernel of the space of k-spherical harmonics of degree m (see (2.1) for the definition), and
+that Cmν  resp. C
+                e ν denotes the Gegenbauer polynomial (resp. the renormalized Gegenbauer
+                  m
+polynomial) (see (2.3) and (2.4) for the definitions).
+Lemma 3.12. Fix a non-negative multiplicity function k. Then, the uniform norm of the
+                (m)
+Poisson kernel Pk satisfies
+                 (m)
+        sup    Pk (ω, ω ′ ) = O m2⟨k⟩+N −2 ,
+                                          
+                                              m → ∞.
+        ω,ω ′ ∈SN −1
+
+                                         (m)
+Proof . In the case N = 1, we have Pk = 0 for m ≥ 2 (see Theorem 2.5), so that the assertion
+holds trivially. We now consider the case N ≥ 2. By Theorems 2.3 and 2.2, we have
+                         2⟨k⟩+N −2                     2⟨k⟩+N −2
+                                                   Z
+        (m)      ′                       ′
+      Pk (ω, ω ) = Vk C            (⟨–, ω ⟩) (ω) =               (⟨ξ, ω ′ ⟩) dµk,ω (ξ),
+                             2
+                                            
+                        em                           em 2
+                                                     C
+                                                    RN
+
+where  µk,x is a probability Borel measure on RN whose support is contained in the unit ball
+  ξ ∈ RN | |ξ| ≤ 1 . Hence, we have
+
+
+                              2⟨k⟩+N −2                               2⟨k⟩+N −2
+                      Z
+        (m)      ′
+       Pk (ω, ω ) ≤         em 2
+                            C           (⟨ξ, ω ′ ⟩) dµk,ω (ξ) = sup C
+                                                                    em 2        (t) .
+                              RN                            t∈[−1,1]
+
+                 −2
+Note that 2⟨k⟩+N
+              2     ≥ 0 since N ≥ 2. For ν ∈ R>0 , it is known (see [1, p. 302]) that
+
+                                    Γ(m + 2ν)
+          sup |Cm
+                ν
+                  (t)| = Cm
+                          ν
+                            (1) =             ,
+        t∈[−1,1]                     m!Γ(2ν)
+Contraction of the sl2 -Triple Associated to the (k, a)-Generalized Fourier Transform                    13
+
+which implies
+
+         sup     e ν (t) = m + ν Γ(m + 2ν) = O m2ν .
+                                                  
+                 C m
+        t∈[−1,1]             ν    m!Γ(2ν)
+
+This also holds for ν = 0 since C
+                                e 0 is defined by the limit formula (2.5). The assertion follows
+                                  m
+                                                 −2
+by applying this estimate to the case ν = 2⟨k⟩+N
+                                               2    .                                         ■
+
+   Recall from (2.2) that volk SN −1 denotes the volume of the sphere SN −1 with respect to the
+                                    
+
+measure wk (ω)dω.
+Theorem 3.13. Let k be a non-negative multiplicity function. The operator semigroup
+
+     exp z|x|2 ∆k Re z≥0
+                 
+
+
+on L2 RN , wk,0 (x)dx admits the integral kernel formula
+                     
+
+                         Z
+     exp z|x| ∆k F (x) =
+             2
+                              Kk x, x′ ; z F x′ wk,0 x′ dx′ ,                                          (3.7)
+                                                    
+                                    RN
+
+where
+                             1           (log r − log r′ )2
+                                                           
+                                                                  − 2⟨k⟩+N −2
+                 ′ ′
+        Kk (rω, r ω ; z) = √      exp −                       rr′        2
+                             4πz                 4z
+                                            ∞                                   !
+                                    1                            2⟨k⟩ + N − 2 2
+                                                          
+                                                                                   (m)
+                                           X
+                           ×                    exp −z m +                        Pk (ω, ω ′ )
+                              volk SN −1                                 2
+                                         
+                                                    m=0
+                                                                                              √
+for r, r′ ∈ R>0 and ω, ω ′ ∈ SN −1 , in the following sense. Here, we take the branch of z such
+     √
+that z > 0 when z > 0.
+   For z ∈ C with Re z > 0 and F ∈ L2 RN , wk,0 x′ dx′ , the integrand in the right-hand side
+                                                           
+
+of (3.7) is integrable for all x ∈ RN \{0}, and this integral as a function of x gives exp z|x|2 ∆k F .
+                                                                                                   
+
+Remark 3.14. When k = 0, we have
+                                                N
+                                             2π 2                 (m)
+                                                                                     N −2
+        vol0 S N −1             N −1
+                          = vol S          =              with          (ω, ω ′ ) = C
+                                                                                    em 2 (⟨ω, ω ′ ⟩)
+                                      
+                                                  ,             P0
+                                             Γ N2
+
+(see Theorem 2.4), so that the integral kernel formula in Theorem 3.13 reduces to
+                                                        ′ 2
+                                                          !
+                              1           log r − log r           − N −2
+      K0 (rω, r′ ω ′ ; z) = √     exp −                       rr′     2
+                              4πz               4z
+                                       ∞                           !
+                                Γ N2 X                      N − 2 2 e N2−2
+                                                   
+                             ×            exp −z m +                     Cm (⟨ω, ω ′ ⟩).
+                                   N
+                                2π m=0
+                                    2                         2
+
+Proof of Theorem 3.13. Fix r ∈ R>0 and ω ∈ SN −1 . Then, the function
+
+               (log r − log r′ )2
+                                 
+                                        − 2⟨k⟩+N −2
+     ′
+    r 7→ exp −                      rr′        2
+                      4z
+
+is square-integrable with respect to the measure r′2⟨k⟩+N −3 dr′ and the infinite series
+       ∞                                !
+                         2⟨k⟩ + N − 2 2
+                   
+                                             (m)
+      X
+           exp −z m +                      Pk (ω, ω ′ )
+                               2
+        m=0
+14                                                                                             T. Hikawa
+
+absolutely converges with respect to the uniform norm for ω ′ ∈ SN −1 by Theorem 3.12, so that
+the equation
+                           1             (log r − log r′ )2
+                                                           
+               ′ ′
+                                                                  − 2⟨k⟩+N −2
+      Kk (rω, r ω ; z) = √      exp −                         rr′        2
+                           4πz                   4z
+                                            ∞                                   !
+                                  1                              2⟨k⟩ + N − 2 2
+                                                          
+                                                                                   (m)
+                                           X
+                         ×                      exp −z m +                        Pk (ω, ω ′ )
+                            volk S                                       2
+                                         
+                                    N −1
+                                              m=0
+                                           ∞
+                                   1       X (m)        (m)
+                        =                   P (ω, ω ′ )Kk (r, r′ ; z)
+                              volk SN −1 m=0 k
+                                        
+
+         (m)
+(here, Kk (r, r′ ; z) is as defined in Theorem 3.11) holds with respect to the topology of L2 R>0 ×
+SN −1 , r′2⟨k⟩+N −3 wk (ω ′ )dr′ dω ′ ∼= L2 RN , wk,0 x′ dx′ .
+                                                          
+
+    By the result of the previous        paragraph, for         2 RN , w       ′ dx′ and x = rω ∈ RN \ {0},
+                                                                                 
+                                                        F  ∈  L         k,0  x
+the function x′ 7→ Kk x, x′ ; z F x′ is integrable with respect to the measure wk,0 x′ dx′ and
+                                                                                                  
+
+                                                                    ∞
+                                                         1          XZ
+       Z                                                                     Z
+                                                                                     (m)
+                     ′          ′          ′
+                                                                                         ω, ω ′
+                                              ′
+             Kk x, x ; z F x wk,0 x dx =
+                                                                                              
+                                                                                    Pk
+                                                   volk S
+                                                                
+                                                           N −1          N −1 R
+         RN                                                        m=0 S         >0
+
+                                                        (m)       ′
+                                                    × Kk (r, r ; z)F r ω r′ ′ ′2⟨k⟩+N −3
+                                                                                         wk ω ′ dr′ dω ′ .
+                                                                                                 
+
+If F = p⊗f with p ∈ Hkl SN −1 and f ∈ L2 R>0 , r′2⟨k⟩+N −3 dr′ , by (2.1) and Theorem 3.11 (1),
+                                                                          
+
+we have
+       Z
+             Kk x, x′ ; z (p ⊗ f ) x′ wk,0 x′ dx′
+                                               
+       RN
+                             ∞ Z
+                   1
+                                     Z
+                                           (m)         (m)
+                            X
+            =                             Pk (ω, ω ′ )Kk (r, r′ ; z)p(ω ′ )f (r′ )
+              volk S
+                          
+                     N −1        N −1 R
+                            m=0 S      >0
+
+              × r′2⟨k⟩+N −3 wk (ω ′ ) dr′ dω ′
+               ∞
+                                                                               !
+                           1
+                                    Z
+                                               (m)
+              X
+            =                                Pk (ω, ω ′ )p(ω ′ )wk (ω ′ ) dω ′
+                     vol
+                                  
+                           S N −1       N −1
+              m=0        k            S
+                Z                                               
+                           (m)      ′         ′ ′2⟨k⟩+N −3     ′
+              ×          Kk (r, r ; z)f (r )r              dr
+                    R>0
+                   Z                                              
+                              (l)     ′         ′ ′2⟨k⟩+N −3     ′
+            = p(ω)         Kk (r, r ; z)f (r )r              dr
+                        R>0
+            = p(ω) exp(z(Er − l)(Er + l + 2⟨k⟩ + N − 2))f (r)
+            = exp z|x|2 ∆k (p ⊗ f )(x).
+                          
+
+Hence, (3.7) holds in this case.
+   Let F ∈ L2 RN , wk,0 x′ dx′ and take a sequence (Fj )j∈N in
+                             
+
+      H SN −1 ⊗ L2 R>0 , r′2⟨k⟩+N −3 dr′
+                                        
+
+such that Fj → F in L2 RN , wk,0 x′ dx′ . Then, since exp z|x|2 ∆k is a bounded operator
+                                                                     
+
+on L2 RN , wk,0 (x)dx (see Theorem 3.9), we have
+      exp z|x|2 ∆k Fj → exp z|x|2 ∆k F        in L2 RN , wk,0 (x)dx .
+                                                                 
+
+On the other hand, for each x ∈ RN \ {0}, the function x′ 7→ Kk x, x′ ; z is square-integrable
+                                                                           
+
+with respect to the measure wk,0 x′ dx′ , so we have
+      Z                                     Z
+                  ′        ′      ′
+                                     ′
+          Kk x, x ; z Fj x wk,0 x dx →          Kk x, x′ ; z F x′ wk,0 x′ dx′ .
+                                                                     
+       RN                                             RN
+Contraction of the sl2 -Triple Associated to the (k, a)-Generalized Fourier Transform            15
+
+By the result of the previous paragraph, (3.7) holds for each Fj . By taking the limit as j → ∞,
+we conclude that (3.7) also holds for F .                                                      ■
+
+Remark 3.15. We recall the definition of the (k, a)-generalized Laguerre semigroup
+
+      (Ik,a (z))Re z≥0
+
+from [4, equation (1.3)]:
+                    z                    z                    
+     Ik,a (z) = exp      E− − E +
+                                       = exp   |x| 2−a
+                                                       ∆k − |x| a
+                                                                     ,
+                      i k,a     k,a          a
+and the definition of the (k, a)-generalized Fourier transform Fk,a from [4, equation (5.2)]:
+
+                                     iπ
+                                                             π
+               iπ 2⟨k⟩+a+N −2                iπ 2⟨k⟩+a+N −2                   
+     Fk,a = e 2        a      Ik,a        =e2        a      exp   E−  − E +
+                                      2                         2 k,a     k,a
+
+                                    iπ
+                                                           
+               iπ 2⟨k⟩+a+N −2
+          =e2                 exp       |x|2−a ∆k − |x|a .
+                                                          
+                       a
+                                    2a
+
+   These are not well-defined for a = 0. However, considering the “renormalized” (k, a)-
+generalized Laguerre semigroup  Ik,a (az) = exp z |x|2−a ∆k − |x|a and putting a = 0, we get
+the operator exp z |x| ∆k −1 = e exp z|x|2 ∆k . By Theorem 3.13, forz ∈ C with Re z > 0,
+                        2            −z
+
+the integral kernel of this operator is the function (x, x′ ) 7→ e−z Kk x, x′ ; z .
+
+
+4    Closed-form expressions for the integral kernels
+     in low-dimensional cases
+In this section, we give a closed-form expression  for the integral kernel (x,  ′ ) 7→ K x, x′ ; z
+                                                                                                   
+                                                                               x        k
+of the operator exp z|x|2 ∆k (Re z > 0), obtained in Theorem 3.13, in the low-dimensional
+                             
+
+cases N = 1, 2 and 4. In the cases N = 2 and 4, we assume that k = 0, and show that the
+integral kernel can be expressed in terms of the theta function.
+Proposition 4.1. We consider the case N = 1. The reduced root system R is taken to
+be {α, −α} with α ∈ R>0 , and the non-negative multiplicity function k is identified with kα =
+k−α ∈ R≥0 . In this case, for z ∈ C with Re z > 0, we have
+
+                          1            (log|x| − log|x′ |)2
+                                                            
+                                                                         1
+     Kk x, x′ ; z =              exp −                         |xx′ |−k+ 2
+                 
+                          √
+                     2α2k 4πz                    4z
+                               1 2         1 2
+                     × e−(k− 2 ) z + e−(k+ 2 ) z sgn(xx′ )
+                                                           
+
+for x, x′ ∈ R \ {0}. In particular, when k = 0, we have
+                          z
+                       e− 4          (log|x| − log|x′ |)2
+                                                         
+                                                                  1
+              ′
+      K0 x, x ; z = √         exp −                        |xx′ | 2 (1 + sgn(xx′ ))
+                 
+                      2 4πz                  4z
+
+for x, x′ ∈ R \ {0}.
+Proof . It follows from volk S0 = 2α2k and Theorem 2.5.
+                               
+                                                                                                  ■
+
+   In the following, we consider only the case k = 0. We recall the definition of the theta
+function:
+                   ∞
+                   X                                     ∞
+                                                         X
+      ϑ(v, τ ) =          exp iπτ m + 2iπmv = 1 + 2
+                                   2
+                                                               exp iπτ m2 cos 2πmv.
+                                                                        
+                   m=−∞                                  m=1
+16                                                                                                  T. Hikawa
+
+Proposition 4.2. In the case N = 2, for z ∈ C with Re z > 0, we have
+                         1           (log r − log r′ )2      1               i
+                                                                             
+            ′ ′                                                           ′
+    K0 rω, r ω ; z = √        exp −                            arccos⟨ω, ω ⟩, z
+                  
+                                                         ϑ
+                     2π 4πz                 4z              2π               π
+
+for r, r′ ∈ R>0 and ω, ω ′ ∈ S1 . Equivalently, we have
+                                                                        2 ! 
+                             1         log r − log r′                            1        i
+                                                                                                
+                      iϕ′
+      K0 reiϕ , r′ e ; z = √     exp −                                             ϕ − ϕ′ , z
+                                    
+                                                                              ϑ
+                          2π 4πz             4z                                 2π         π
+
+for r, r′ ∈ R>0 and ϕ, ϕ′ ∈ R.
+Proof . Since
+                (
+                 1,                     m = 0,
+      C
+      em0
+          (t) =
+                 2Tm (t),               m ≥ 1,
+
+where Tm denotes the Chebyshev polynomial of the first kind, which is characterized by the
+formula and Tm (cos θ) = cos mθ, we have
+      ∞
+      X                                              ∞
+                                                     X
+            exp −zm C 0
+                        (cos θ) = 1 + 2
+                            2
+                                                           exp −zm2 Tm (cos θ)
+                                                                  
+                    em
+      m=0                                            m=1
+                                                      ∞
+                                                                                        1   i
+                                                     X                                       
+                                            =1+2           exp −zm 2
+                                                                           cos mθ = ϑ
+                                                                       
+                                                                                          θ, z .
+                                                                                       2π π
+                                                     m=1
+
+Hence, we have
+                                                                 2 !    ∞
+                ′ ′      1         log r − log r′                   1 X                 em ⟨ω, ω ′ ⟩
+      K0 rω, r ω ; z = √     exp −                                         exp −zm2 C
+                                                                                       0          
+                                                                 ×
+                         4πz             4z                        2π
+                                                                       m=0
+                                                              2 !
+                                    1         log r − log r ′
+                                                                        1                i
+                                                                                          
+                                                                                     ′
+                                = √     exp −                      ϑ      arccos⟨ω, ω ⟩, z .               ■
+                                 2π 4πz             4z                 2π               π
+
+Proposition 4.3. In the case N = 4, for z ∈ C with Re z > 0, we have
+                             1               (log r − log r′ )2
+                                                               
+            ′ ′
+                                                                      −1
+    K0 rω, r ω ; z = −            exp −                           rr′
+                  
+                             √
+                        8π 4πz
+                           3                         4z
+                                                   1                   i
+                                                                        
+                                          1 ∂ϑ
+                                        −
+                      × 1 − ⟨ω, ω ′ ⟩2 2              arccos⟨ω, ω ′ ⟩, z
+                                      
+                                            ∂v 2π                     π
+
+for r, r′ ∈ R>0 and ω, ω ′ ∈ S3 . Here, we take the branch of arccos⟨ω, ω ′ ⟩ such that arccos⟨ω, ω ′ ⟩ ∈
+[0, π].
+Proof . Since C e 1 (t) = (m + 1)C 1 (t) = (m + 1)Um (t), where Um denotes the Chebyshev polyno-
+                 m                m
+mial of the second kind, which is characterized by the formula Um (cos θ) = (sin(m + 1)θ)/(sin θ),
+we have
+      ∞                                ∞
+      X                                X                          sin(m + 1)θ
+            exp −z(m + 1)2 C
+                           e (cos θ) =   exp −z(m + 1)2 · (m + 1)
+                           1                          
+                             m
+                                                                      sin θ
+      m=0                                            m=0
+                                                             ∞
+                                                    1 X
+                                                 =          exp −zm2 · m sin mθ
+                                                                    
+                                                  sin θ
+                                                        m=1
+                                                        1    ∂ϑ 1   i
+                                                                      
+                                                 =−               θ, z .
+                                                    4π sin θ ∂v 2π π
+Contraction of the sl2 -Triple Associated to the (k, a)-Generalized Fourier Transform                         17
+
+Hence, we have
+
+      K0 (rω, r′ ω ′ ; z)
+                                              2 !                        ∞
+               1         log r − log r′                    −1        1 X
+            =√     exp −                             rr′                                    e 1 ⟨ω, ω ′ ⟩
+                                                                            exp(−z(m + 1)2 )C
+                                                                                                         
+                                                                 ×
+               4πz             4z                                    2π 2                     m
+                                                                         m=0
+                                                     2
+                                                      !
+                    1                 log r − log r′     −1
+            =−      √     exp −                      rr′
+                8π 3 4πz                 4z
+                                       1                 i
+                                                          
+                          ′ 2 − 2 ∂ϑ
+                              1                     ′
+               × 1 − ⟨ω, ω ⟩              arccos⟨ω, ω ⟩, z .                                                  ■
+                                  ∂v 2π                  π
+
+Acknowledgements
+The author presented this work at the workshop “Intertwining operators and geometry” (Jan-
+uary 20–24, 2025) held at the Institut Henri Poincaré, Paris. He gratefully acknowledges the
+organizers Professor Jan Frahm and Professor Angela Pasquale for the invitation and their
+kindness during the workshop. The author would also like to express his gratitude to Professor
+Toshiyuki Kobayashi for his guidance, encouragement, and insightful discussions. Finally, the
+author thanks the anonymous referees for their helpful comments, which have led him to improve
+this paper.
+   This work was supported by World-leading Innovative Graduate Study for Frontiers of Math-
+ematical Sciences and Physics (WINGS-FMSP), The University of Tokyo, and JSPS KAKENHI
+Grant Number JP25KJ0914.
+
+
+References
+ [1] Andrews G.E., Askey R., Roy R., Special functions, Encyclopedia Math. Appl., Vol. 71, Cambridge University
+     Press, Cambridge, 1999.
+ [2] Aoyama T., Deformation of the heat kernel and the Brownian motion from the perspective of the Ben
+     Saïd–Kobayashi–Ørsted (k, a)-generalized Laguerre semigroup theory, in Geometric and Harmonic Anal-
+     ysis on Homogeneous Spaces and Applications, Springer Proc. Math. Stat., Springer, Cham, to appear,
+     arXiv:2407.03664.
+ [3] Ben Saïd S., Kobayashi T., Ørsted B., Generalized Fourier transforms Fk,a , C. R. Math. Acad. Sci. Paris
+     347 (2009), 1119–1124.
+ [4] Ben Saïd S., Kobayashi T., Ørsted B., Laguerre semigroup and Dunkl operators, Compos. Math. 148 (2012),
+     1265–1336, arXiv:0907.3749.
+ [5] Benoist Y., Kobayashi T., Tempered homogeneous spaces IV, J. Inst. Math. Jussieu 22 (2023), 2879–2906,
+     arXiv:2009.10391.
+ [6] Constales D., De Bie H., Lian P., Explicit formulas for the Dunkl dihedral kernel and the (κ, a)-generalized
+     Fourier kernel, J. Math. Anal. Appl. 460 (2018), 900–926, arXiv:1610.00098.
+ [7] De Bie H., The kernel of the radially deformed Fourier transform, Integral Transforms Spec. Funct. 24
+     (2013), 1000–1008, arXiv:1303.2979.
+ [8] De Bie H., Lian P., Maes F., Bounds for the kernel of the (κ, a)-generalized Fourier transform, J. Funct.
+     Anal. 288 (2025), 110755, 29 pages, arXiv:2310.14229.
+ [9] Demni N., Generalized Bessel function associated with dihedral groups, J. Lie Theory 22 (2012), 81–91.
+[10] Dunkl C.F., Reflection groups and orthogonal polynomials on the sphere, Math. Z. 197 (1988), 33–60.
+[11] Dunkl C.F., Differential-difference operators associated to reflection groups, Trans. Amer. Math. Soc. 311
+     (1989), 167–183.
+[12] Dunkl C.F., Integral kernels with reflection group invariance, Canad. J. Math. 43 (1991), 1213–1227.
+18                                                                                                   T. Hikawa
+
+[13] Dunkl C.F., Hankel transforms associated to finite reflection groups, in Hypergeometric Functions on Do-
+     mains of Positivity, Jack Polynomials, and Applications, Contemp. Math., Vol. 138, American Mathematical
+     Society, Providence, RI, 1992, 123–138.
+[14] Folland G.B., Harmonic analysis in phase space, Ann. of Math. Stud., Vol. 122, Princeton University Press,
+     Princeton, NJ, 1989.
+[15] Goldman W.M., Kannaka K., Kubo T., Okuda T., Oshima Y., Pevzner M., Sasaki A., Sekiguchi H., The
+     mathematical work of Toshiyuki Kobayashi, in Symmetry in Geometry and Analysis. Vol. 1. Festschrift in
+     honor of Toshiyuki Kobayashi, Progr. Math., Vol. 357, Birkhäuser, Singapore, 2025, 1–102.
+[16] Gorbachev D., Ivanov V., Tikhonov S., On the kernel of the (κ, a)-generalized Fourier transform, Forum
+     Math. Sigma 11 (2023), e72, 25 pages, arXiv:2210.15730.
+[17] Hikawa T., (k, a)-generalized Fourier transform with negative a, in Geometric and Harmonic Analy-
+     sis on Homogeneous Spaces and Applications, Springer Proc. Math. Stat., Springer, Cham, to appear,
+     arXiv:2407.01345.
+[18] Inonu E., Wigner E.P., On the contraction of groups and their representations, Proc. Nat. Acad. Sci. USA
+     39 (1953), 510–524.
+[19] Kobayashi T., Algebraic analysis of minimal representations, Publ. Res. Inst. Math. Sci. 47 (2011), 585–611,
+     arXiv:1001.0224.
+[20] Kobayashi T., Varna lecture on L2 -analysis of minimal representations, in Lie Theory and its Applications
+     in Physics, Springer Proc. Math. Stat., Vol. 36, Springer, Tokyo, 2013, 77–93, arXiv:1212.6871.
+[21] Kobayashi T., Mano G., Integral formulas for the minimal representation of O(p, 2), Acta Appl. Math. 86
+     (2005), 103–113.
+[22] Kobayashi T., Mano G., Integral formula of the unitary inversion operator for the minimal representation
+     of O(p, q), Proc. Japan Acad. Ser. A Math. Sci. 83 (2007), 27–31.
+[23] Kobayashi T., Mano G., The inversion formula and holomorphic extension of the minimal representation of
+     the conformal group, in Harmonic Analysis, Group Representations, Automorphic Forms and Invariant The-
+     ory, Lect. Notes Ser. Inst. Math. Sci. Natl. Univ. Singap., Vol. 12, World Scientific Publishing, Hackensack,
+     NJ, 2007, 151–208, arXiv:math.RT/0607007.
+[24] Kobayashi T., Mano G., The Schrödinger model for the minimal representation of the indefinite orthogonal
+     group O(p, q), Mem. Amer. Math. Soc. 213 (2011), vi+132 pages, arXiv:0712.1769.
+[25] Reed M., Simon B., Methods of modern mathematical physics. II. Fourier analysis, self-adjointness, Aca-
+     demic Press, New York, 1975.
+[26] Rösler M., Positivity of Dunkl’s intertwining operator, Duke Math. J. 98 (1999), 445–463, arXiv:q-
+     alg/9710029.
+[27] Taira K., Tamori H., Strichartz estimates for the (k, a)-generalized Laguerre operators, SIGMA 21 (2025),
+     014, 37 pages, arXiv:2308.16815.
+
