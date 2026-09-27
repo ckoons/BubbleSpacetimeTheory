@@ -289,7 +289,8 @@ def build(args):
             except Exception as e:
                 m, fails, o2 = {}, ["model_error:" + str(e)[:80]], {}
             oc1, oc2 = m.get("outcome", ""), o2.get("outcome", "")
-            rec = {**det, "sha": h, "rubric_cell": m.get("rubric_cell", ""), "lane": str(m.get("lane", ""))[:60],
+            rec = {**det, "sha": h, "model": args.model,  # 09-27: rows name their reader (qwen3:30b-a3b before; absent field = that model)
+                   "rubric_cell": m.get("rubric_cell", ""), "lane": str(m.get("lane", ""))[:60],
                    "coarse": coarse(oc1), "outcome2": oc2, "why2": str(o2.get("why", ""))[:200],
                    "unstable": bool(oc2) and coarse(oc1) != coarse(oc2),
                    "approach": str(m.get("approach", ""))[:300],
@@ -392,7 +393,7 @@ def main():
     ap.add_argument("--api", default=os.environ.get("APPROACHES_API", "ollama"), choices=["ollama", "openai", "typesafe"])
     ap.add_argument("--endpoint", default=os.environ.get("APPROACHES_ENDPOINT", "http://localhost:11434"),
                     help="ollama: http://localhost:11434 · openai-compatible base · typesafe: https://api.typesafe.ai")
-    ap.add_argument("--model", default=os.environ.get("APPROACHES_MODEL", "qwen3:30b-a3b"))
+    ap.add_argument("--model", default=os.environ.get("APPROACHES_MODEL", "qwen3.8:27b"))
     ap.add_argument("--key", default=os.environ.get("APPROACHES_API_KEY", ""))
     ap.add_argument("--refresh", action="store_true", help="ignore cache; re-extract")
     ap.add_argument("--runs", type=int, default=2, help="2 = add an independent second reading of the outcome (UNSTABLE flag); 1 = single")
