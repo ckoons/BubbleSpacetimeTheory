@@ -1,0 +1,28 @@
+[PASS] 5830 machinery re-run silently: all its pre-rho checks pass (truncation, root normalisation ±2, exact = chain, κ = (k+1)/2)  4/4
+[PASS] helicity 2: the lowest K-type (spin-2 of SU(2)_a, 4 a-quanta) contains |4a1>, …, |4a2> (a2†a1 ∈ k)  
+   h = 2: decay rates on rays [(1, 0), (1, 1), (2, 1)] (ρ = [3, 4, 7]) for |4−m a1, m a2>:
+      m = 0: [5.0, 6.0, 11.0]
+      m = 1: [4.0, 6.0, 10.0]
+      m = 2: [3.0, 6.0, 9.0]
+      m = 3: [2.0, 6.0, 8.0]
+      m = 4: [1.0, 6.0, 7.0]
+[PASS] helicity 2: the chamber vector |4a1> decays at (5, 1) — faster than ρ on (1,0) [(rate 5.0 ≥ 3)]  
+[PASS] helicity 2: |4a2> decays at rate 1 on the wall ray (T,0) where ρ = 3 ⇒ NOT tempered (min wall rate over the K-type = 1.0)  
+[PASS] helicity 4: the lowest K-type (spin-4 of SU(2)_a, 8 a-quanta) contains |8a1>, …, |8a2> (a2†a1 ∈ k)  
+   h = 4: decay rates on rays [(1, 0), (1, 1), (2, 1)] (ρ = [3, 4, 7]) for |8−m a1, m a2>:
+      m = 0: [9.0, 10.0, 19.0]
+      m = 1: [8.0, 10.0, 18.0]
+      m = 2: [7.0, 10.0, 17.0]
+      m = 3: [6.0, 10.0, 16.0]
+      m = 4: [5.0, 10.0, 15.0]
+      m = 5: [4.0, 10.0, 14.0]
+      m = 6: [3.0, 10.0, 13.0]
+      m = 7: [2.0, 10.0, 12.0]
+      m = 8: [1.0, 10.0, 11.0]
+[PASS] helicity 4: the chamber vector |8a1> decays at (9, 1) — faster than ρ on (1,0) [(rate 9.0 ≥ 3)]  
+[PASS] helicity 4: |8a2> decays at rate 1 on the wall ray (T,0) where ρ = 3 ⇒ NOT tempered (min wall rate over the K-type = 1.0)  
+[PASS] Grace's |h| ≥ 4 caveat does NOT bite: at h = 4 the wall-ray rate is 1 < ρ = 3, measured in the same coordinates as ρ  
+[PASS] CONTROL principal series decays at rate 1.000 = ρ_SU(1,1): tempered  1.0000
+[PASS] NEGATIVE CONTROL trivial representation (rate 0 < ρ): NOT tempered  
+
+SCORE: 10/10

@@ -24,7 +24,7 @@ Dated status history May 19 – June 9, 2026 (the daily EOD narratives and the M
 ```
 python3 play/toy_541_five_integers_to_everything.py
 ```
-51 physical quantities from six integers — three read off the classification, three named combinations — 16/16 PASS, with the script computing its own input count (1 measured identification, 1 identified formula, 1 dimensionful ruler; Elie, 2026-09-13). Fastest proof-of-concept in the repo.
+50 physical quantities from six integers — three read off the classification, three named combinations — 16/16 PASS, with the script computing its own input count (1 measured identification, 1 identified formula, 1 dimensionful ruler; Elie, 2026-09-13). g_A = 4/π is still printed but marked E7 FIRED (5.7σ) and excluded from the count (this line said 51 until 2026-09-27; restated from the script's own output). Fastest proof-of-concept in the repo.
 
 **Then try one specific verification (1 second)**:
 ```

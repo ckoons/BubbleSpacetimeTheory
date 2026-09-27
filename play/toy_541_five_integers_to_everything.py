@@ -218,7 +218,7 @@ def level_2(L1):
     sin2_13 = 1 / (n_C * (2 * n_C - 1))          # 1/45
 
     # Proton properties
-    g_A = 4 / math.pi                              # axial coupling
+    g_A = 4 / math.pi                              # axial coupling — E7 FIRED (5.7σ, certified 2026-09-27); shown, NOT counted as derived
     Delta_Sigma = N_c / (2 * n_C)                  # proton spin fraction = 3/10
 
     print(f"""
@@ -241,7 +241,7 @@ def level_2(L1):
     sin²θ₁₃ = 1/(n_C(2n_C-1)) = 1/45 = {sin2_13:.4f}  (measured: 0.022)
 
   Hadron properties:
-    g_A = 4/π = {g_A:.4f}  (measured: 1.2756)
+    g_A = 4/π = {g_A:.4f}  (measured: 1.2756)  [E7 FIRED, 5.7σ — register; excluded from the derived count]
     ΔΣ = N_c/(2n_C) = 3/10  (measured: 0.30)
 
   → The Fermi scale v comes from m_p (Level 1) and g (Level 0).
@@ -572,7 +572,7 @@ def synthesis(L5):
         "Level 0 (geometry)": ["rank", "n_C", "N_c", "g", "C_2", "N_max", "Vol", "|W|", "|Φ⁺|"],
         "Level 1 (constants)": ["α", "1/α", "m_p/m_e", "m_p", "G"],
         "Level 2 (SM+cosmo)": ["v", "m_H", "m_t", "sin²θ_W", "m_μ/m_e",
-                                "Ω_Λ", "Ω_m", "θ₁₂", "θ₂₃", "θ₁₃", "g_A", "ΔΣ"],
+                                "Ω_Λ", "Ω_m", "θ₁₂", "θ₂₃", "θ₁₃", "ΔΣ"],   # g_A removed 2026-09-27: E7 FIRED (see FIRED below)
         "Level 3 (nuclear)": ["m_π", "r_p", "a₀", "E_H", "κ_ls", "magic numbers", "fusion"],
         "Level 4 (biology)": ["4 bases", "3 codon", "64 codons", "20 aa", "20 problems",
                                "4 categories", "f_crit", "MVP", "11 organs", "η_evolution"],
@@ -581,6 +581,8 @@ def synthesis(L5):
     }
 
     total = sum(len(v) for v in level_counts.values())
+    # Register status (Keeper/Cal S1003, 2026-09-27): rows whose falsifier FIRED are printed but never counted as derived.
+    FIRED = {"g_A = 4/π": "E7 FIRED, 5.7σ (certified 2026-09-27)"}
 
     print(f"""
   ┌────────────────────────────────────────────────────────────────┐
@@ -596,8 +598,8 @@ def synthesis(L5):
         print(f"  │    {level}: {len(items)} quantities{' '*(34-len(level)-len(str(len(items))))}│")
 
     print(f"""  │                                                                │
-  │  TOTAL: {total} derived quantities                               │
-  │  FREE PARAMETERS: 0                                            │
+  │  TOTAL: {total} derived quantities ({len(FIRED)} FIRED row shown, not counted)  │
+  │  INPUTS: counted at the end of this run (not 'zero')           │
   │  FITTING: none                                                 │
   │  CIRCULAR DEPENDENCIES: none                                   │
   │                                                                │
@@ -618,6 +620,8 @@ def synthesis(L5):
   └────────────────────────────────────────────────────────────────┘
 """)
 
+    for k, v in FIRED.items():
+        print(f"  FIRED (printed above, excluded from the total): {k} — {v}")
     return total
 
 
