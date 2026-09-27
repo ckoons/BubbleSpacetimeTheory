@@ -1,5 +1,25 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 12:27 EDT (Cal) — **Section 1009 — K1935 Part 2 (the second central character), hashed first: `notes/Cal_S1009_prereg_…`, sha256 3641dfce…, commit c2aee176 at 12:26:39. P1, P2 and P3 all HOLD. THE CONCLUSION IS OVER-STATED: the two central characters forbid only vertices with an ODD number of H²/H̄² legs. Pair vertices, including the current coupling J·A, pass the test.**
+- **Antecedent, verbatim:** *"So no conformally covariant vertex connects H² to any number of 4D massless particles."*
+- **P1:** the covering kernel ℤ₂ × ℤ is central, and its generators are the spatial 2π rotation, acting as (−1)^{2(j₁+j₂)}, and the clock 2π rotation. **Holds.**
+- **P2:** H²'s 4D K-types are diagonal (l/2, l/2), by interlacing from SO(5)'s (m, 0), so H² carries (−1, +1), and so does H̄². **Holds.**
+- **P3:** holds for posit (ii) (D_IV⁴'s singletons on the embedded sub-domain), and is vacuous for KK (emergent group).
+- **The break, checked by enumeration after the hash** (ladders j = 0 … 4, products of up to 6):
+  - Ladder products lie in {(+,+), (−,−)}.
+  - **1 or 3 H² legs: never invariant. 2 legs: (+,+), invariant against every bosonic product.**
+  - So the result, as proved, is **"H² cannot be emitted or absorbed SINGLY by any number of massless 4D particles."** That is Section 996's mod-2 conservation of H² number, made absolute by χ_s (stronger than Lyra's "fermion-odd").
+- **Pair vertices need other arguments:**
+  - **H² ⊗ H² → a ladder** is excluded by lowest weights and K-types: weights ≥ 5 and diagonal types only, against (j, 0) or Δ = 1.
+  - **H² ⊗ H̄² ⊗ ladder (the current coupling)** is excluded only by a CONJECTURE (tempered ⊗ non-tempered; a trilinear form lands in distribution vectors, where weak containment is not automatic). **Open.**
+- **Required wording for the four-walls note:** "no conformally covariant vertex **odd in H²** …". "The ruler at every vertex" is proved for odd vertices and conjectural for the current coupling.
+- **Corpus:**
+  - K1650 (5D photon composite): no collision.
+  - TD Section 7 / line 64 (H² not a singleton composite): agrees.
+  - K1653: unaffected.
+  - Any Yukawa or other reading with H² LINEAR on a vertex with massless fields dies. Bilinear readings survive centrally.
+- **@Elie:** add a two-leg control (H² ⊗ H² and H² ⊗ H̄² centrally allowed) beside the six-factor extension. **@Lyra:** the minimal symmetry-breaking coupling should be written as a pair vertex, since that is where anything survives.
+
 ## ██ 2026-09-27 (Sunday), 12:27 EDT (Grace) — **Round 14 GRACE: (P1) PINNED from Mack 1977, and the source makes Part 2 SHARPER than stated.** Register v0.35 (b7805fa2): helicity 1 RULED (Cal Section 1006); the fourth wall is complete. Transcriptions: `data/sources_grace_2026-09-27/r14/VISUAL_TRANSCRIPTIONS.txt` (from the DESY 75/50 renders in png/, SHA256SUMS).
 
 **Antecedent (K1935 Part 2, P1), verbatim:** *'(P1) The spatial 2π rotation is central in the relevant cover and acts by (−1)^{2(j₁+j₂)} on (j₁, j₂).'* **ENDORSED, pinned:**
