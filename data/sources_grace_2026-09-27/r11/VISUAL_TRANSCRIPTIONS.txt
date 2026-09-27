@@ -1,0 +1,159 @@
+VISUAL TRANSCRIPTIONS -- r11 (Grace), read by eye from rendered page images (pdftoppm) saved under png/.
+Transcriber: Claude (subagent for Grace), 2026-09-27 09:45 EDT. Unicode sub/superscripts; otherwise verbatim.
+Reason: the Mack DESY 75/50 preprint is an image-only typescript (tesseract OCR garbles every formula);
+the arXiv text layers garble fractions/roots in the specific equations below.
+Each block: source PDF, PDF page index (1-based as rendered), printed page, PNG file.
+
+=== [A] Mack, DESY 75/50 preprint (r6_conformal/mack_desy75-050_preprint_inspire.pdf), pdf p.3, typed p.1
+        PNG: png/mack1977_desy_pdfp03-03.png   (same content as r6 VISUAL_TRANSCRIPTIONS block E; re-verified) ===
+A1: "1. Summary and introduction."
+A2: "They are labelled by a real number d,
+A3: called the dimension, and a finite dimensional irreducible represen-
+A4: tation (j₁,j₂) of the quantum mechanical (q.m.) Lorentz group
+A5: SL(2C). Thus, 2j₁, 2j₂ are nonnegative integers. There are 5 classes
+A6: of representations. They differ in their Poincaré content [m, s],
+A7: m = mass, s = spin resp. helicity as follows:
+A8: (1) trivial 1-dimensional representation  d=j₁=j₂=0 .
+A9: (2) j₁≠0 , j₂≠0, d > j₁+j₂+2   contains  m > 0, s = |j₁−j₂| ... j₁+j₂ . (integer steps)
+A10: (3) j₁j₂ = 0, d > j₁+j₂+1       contains  m > 0, s = j₁+j₂ .
+A11: (4) j₁ ≠ 0, j₂ ≠ 0, d = j₁+j₂+2 contains  m > 0, s = j₁+j₂ .
+A12: (5) j₁j₂ = 0, d = j₁+j₂+1       contains  m = 0, helicity  j₁−j₂ .
+A13: The proof of these results proceeds in several steps."
+A14: NOTE: the five-class list carries NO theorem number and NO equation number. It sits in Sec. 1 before the
+A15: first numbered equation of the paper, (1.1), which is on typed p.2 (block B).
+
+=== [B] same PDF, pdf p.4, typed p.2   PNG: png/mack1977_desy_pdfp04-04.png ===
+B1: "We then derive (necessary) inequalities for the dimension d
+B2: from the condition that the unique candidate for the scalar product
+B3: is indeed positive semidefinite. They come out as d ≥ j₁+j₂+2 if
+B4: j₁j₂ ≠ 0 , and d ≥ j₁+j₂+1 if j₁j₂ = 0 , except for the trivial
+B5: 1-dimensional representation which has d = j₁ = j₂ = 0 ."
+B6: "The (massless)
+B7: representations with d = j₁+j₂+1 have been investigated by Todorov
+B8: and the author [6]."
+B9: "(T(g)φ)(x) = S(g,x) φ(g⁻¹x)  for g ∈ G̃ , x ∈ M⁴      (1.1)"
+B10: NOTE: "(massless)" is typed with a hand-corrected opening parenthesis. The OCR text layer reads "(1.2)"
+B11: for this equation; the page image reads (1.1).
+
+=== [C] same PDF, pdf p.20, typed p.18   PNG: png/mack1977_desy_pdfp20-20.png ===
+C1: "(Ψ^{j₁−½,j₂−½}_{M₁M₂} , Ψ^{j₁−½,j₂−½}_{M₁M₂}) = d − j₁ − j₂ − 2
+C2:  This must not be negative; we obtain therefore the condition
+C3:     d ≥ j₁ + j₂ + 2        if  j₁ ≠ 0 , j₂ ≠ 0 .        (5.4a)
+C4:  2.nd case:  j₁ ≠ 0 , j₂ = 0 ."
+C5: "(Ψ^{j₁−½,½}_{M₁M₂} , Ψ^{j₁−½,½}_{M₁M₂}) = d − j₁ − 1 .
+C6:  This must not be negative; we obtain therefore the condition
+C7:     d ≥ j₁ + 1     if   j₁ ≠ 0 , j₂ = 0 .             (5.4b)
+C8:  3.rd case:  j₁ = 0 , j₂ ≠ 0 . This case is just like the 2. case,
+C9:  one finds the condition
+C10:    d ≥ j₂ + 1     if   j₁ = 0 , j₂ ≠ 0 .             (5.4c)
+C11: 4.th case:  j₁ = j₂ = 0 ."
+C12: NOTE: the inequalities are hand-written in the typescript; "≥" is written as ≽ (greater-or-slanted-equal).
+
+=== [D] same PDF, pdf p.21, typed p.19   PNG: png/mack1977_desy_pdfp21-21.png ===
+D1: "with lowest weight (d+2; 0, 0). The norm squared is computed in
+D2:  the same way as before. One finds
+D3:     (Ψ,Ψ) = 8d (d−1)
+D4:  This must not be negative, we obtain therefore the condition
+D5:     d = 0  or  d ≥ 1     if  j₁ = j₂ = 0                   (5.4d)
+D6:  By uniqueness, the special case d = j₁ = j₂ = 0 corresponds to
+D7:  the trivial 1-dimensional representation which is indeed unitary.
+D8:  Conditions (4.4) are necessary for the existence of a UIR of G̃
+D9:  with lowest weight λ = (d; −j₁, −j₂) . We shall see below
+D10: that they are also sufficient."
+D11: NOTE: "Conditions (4.4)" is printed so; the conditions just derived are (5.4a)-(5.4d). Typo in the original.
+
+=== [E] same PDF, pdf p.33, typed p.31   PNG: png/mack1977_desy_pdfp33-33.png ===
+E1: "The second case j₁ = 0 is analogous. To take the limit in
+E2:  (6.25) we use a standard formula for the δ-function [16] and insert
+E3:  (6.32). The result is
+E4:   Δ^λ₊(p) = θ(p₀) Π^{j₁−j₂}_{hel}(p) δ(p²)   for  λ = (d,−j₁,−j₂)      (6.33a)
+E5:                                              d = j₁ + j₂ + 1; j₁ = 0 or j₂ = 0.
+E6:  The scalar product becomes then
+E7:   (φ₁,φ₂) = ∫_{p₀>0} d⁴p δ(p²) ⟨φ̃₁(p), Π^{j₁−j₂}_{hel}(p) φ̃₂(p)⟩ ≥ 0      (6.33b)
+E8:                                              for  d = j₁ + j₂ + 1 , j₁ = 0 or j₂ = 0 .
+E9:  It is positive semidefinite since also Π^j_hel(p) is a positive operator."
+E10: Also on this page: "The second assertion of (6.32) is well known from the theory of massless particles [11]."
+E11: NOTE: Π^j_hel(p) is (typed p.30) the covariantly normalized projection onto the unique eigenstate of the
+E12: helicity to eigenvalue j (OCR page 32 of the text layer).
+
+=== [F] same PDF, pdf p.36, typed p.34   PNG: png/mack1977_desy_pdfp36-36.png ===
+F1: "Lastly consider the case d = j₁+j₂+1 , j₁j₂ = 0 . We see
+F2:  from (6.33) that H_λ consists of equivalence classes of functions
+F3:     H_λ :  φ ~ 0  iff  Π^{j₁−j₂}_{hel}(p) φ̃(p) = 0  for p² = 0 , p₀ > 0
+F4:     in the case j₁j₂ = 0 , d = j₁+j₂+1
+F5:  From Eq. (6.37) resp. (6.33) we can also read off the Poincaré
+F6:  content of the representation space H_λ . The result is as
+F7:  indicated in Sec. 1.
+F8:  Let us next turn to the question of irreducibility. If either
+F9:  j₁j₂ = 0 or d = j₁+j₂+1 irreducibility of H_λ is obvious since
+F10: the representation restricts to an irreducible representation of
+F11: the Poincaré group with dilations. It remains to investigate the
+F12: case d > j₁+j₂+2 , j₁j₂ ≠ 0 ."
+
+=== [G] same PDF, pdf p.50, typed p.48 (References)   PNG: png/mack1977_desy_pdfp50-50.png ===
+G1: "6. Mack, G., Todorov, I.T.: J. Math. Phys. 10, 2078 (1969)."
+
+=== [H] Overduin & Wesson, arXiv:gr-qc/9805018 (arxiv_gr-qc_9805018.pdf), pdf p.14 = printed p.14
+        PNG: png/overduin_wesson_pdfp14-014.png ===
+H1: "(ĝ_AB) = ( g_αβ + κ²φ²A_αA_β    κφ²A_α
+H2:            κφ²A_β              φ²     )        (5)"
+H3: "(Throughout this report, Greek indices α, β, ... run over 0, 1, 2, 3, and small Latin indices
+H4:  a, b, ... run over 1, 2, 3. The four-dimensional metric signature is taken to be
+H5:  (+ − − −), and we work in units such that c = 1. ...)"
+
+=== [I] Overduin & Wesson, pdf p.22 = printed p.22   PNG: png/overduin_wesson_pdfp22-022.png ===
+I1: "ψ̂(x,y) = Σ_{n=−∞}^{n=∞} ψ̂⁽ⁿ⁾ e^{iny/r} .     (23)"
+I2: "S_ψ̂ = −(∫dy) Σ_n ∫d⁴x √−g [ (∂^α + inκA^α/r) ψ̂⁽ⁿ⁾ (∂_α + inκA_α/r) ψ̂⁽ⁿ⁾ − (n²/(φr²)) ψ̂⁽ⁿ⁾² ] ,   (24)"
+I3: "q_n = (nκ/r)(φ∫dy)^{−1/2} = n√(16πG)/(r√φ) ,    (25)"
+I4: "These are given by the square root of the coefficient of the ψ̂⁽ⁿ⁾²-term:
+I5:     m_n = |n| / (r√φ) .     (27)"
+
+=== [J] Pérez-Lorenzana, arXiv:hep-ph/0503177 (cand/arxiv_hep-ph_0503177.pdf), pdf p.6 = printed p.6
+        PNG: png/perez_lorenzana_pdfp06-06.png ===
+J1: "S[φ] = Σ_{n=0}^{∞} ½ ∫d⁴x (∂^μφ_n∂_μφ_n − m_n²φ_n²) + Σ_{n=1}^{∞} ½ ∫d⁴x (∂^μφ̂_n∂_μφ̂_n − m_n²φ̂_n²) ,   (16)"
+J2: "where the KK mass is given as m_n² = m² + n²/R²."
+J3: "For m = 0, it is clear that for energies below 1/R only the massless zero mode will be kinematically accessible"
+    (pdf p.5 = printed p.5, PNG png/perez_lorenzana_pdfp05-05.png, carries (14) and (15):)
+J4: "S[φ] = ½ ∫ d⁴x dy [∂^Aφ∂_Aφ − m²φ²] ;   (14)"
+J5: "φ(x,y) = (1/√(2πR)) φ₀(x) + Σ_{n=1}^{∞} (1/√(πR)) [φ_n(x) cos(ny/R) + φ̂_n(x) sin(ny/R)] .   (15)"
+
+=== [K] Minwalla, arXiv:hep-th/9712074 (arxiv_hep-th_9712074.pdf), pdf p.11 = printed p.10
+        PNG: png/minwalla_pdfp-11.png  (pdf p.10 = printed 9 and pdf p.12 = printed 11 also saved) ===
+K1: "In d = 4 SO(4) = SU(2) × SU(2), and so representations are labeled by two half integers, j₁ and j₂.
+K2:  The conditions derived for this case is
+K3:     ε₀ ≥ f(j₁) + f(j₂)          (2.45)
+K4:  Where f(j) is defined by
+K5:     f(j) = 0 for j = 0,  f(j) = j + 1 for j > 0      (2.46)
+K6:  These are precisely⁸ the conditions derived in [10] ."
+K7:  footnote 8: "These results supplemented with the level 2 condition ahead for the j=0 case"
+K8:  printed p.11: "ε₀(ε₀ − (d − 2)/2) ≥ 0 (scalar).     (2.58)"
+
+=== [L] Gazeau, Pejhan, Todorov, arXiv:2601.18433 (cand/arxiv_2601.18433.pdf), pdf p.117
+        (printed page number not shown on this page; pdf p.145 prints 131, so p.117 is printed 103 by offset -- INFERRED)
+        PNG: png/gazeau_pejhan_todorov_2601.18433_pdfp117-117.png ===
+L1: "Moreover, |LW_λ⟩ is an eigenstate of the conformal Hamiltonian H (3.130) (see also (3.63)) with eigenvalue:
+L2:     ℰ∘ := 1 + |λ| ,   with  λ ∈ ½ℤ ,      (3.140)"
+L3: "This eigenvalue — the "lowest conformal energy" (or conformal dimension) — serves to label the lowest
+L4:  weight state |LW_λ⟩ of the representation.¹⁴"
+L5: footnote 14: "In the special case of a free massless scalar field (helicity λ = 0), the lowest weight state is
+L6:  simply denoted by |LW_{λ=0}⟩ =: |0^{SO(4)}⟩, and the corresponding eigenvalue equation (3.141) reduces
+L7:  to (3.41), indicating that the lowest conformal energy (or dimension) is ℰ∘ = 1."
+
+=== [M] same PDF, pdf p.145 = printed p.131   PNG: png/gazeau_pejhan_todorov_2601.18433_pdfp145-145.png ===
+M1: "Proposition 3.10 (fundamental structural statements of the conformal vertex algebra). ...
+M2:  3. If |v⟩ := φ̂(0)|0^{U(2,2)}⟩ is an eigenstate of the conformal Hamiltonian H with eigenvalue ℰ,
+M3:  i.e., (H−ℰ)|v⟩ = 0, then ℰ is identified with the scaling dimension of the field φ̂. In the case of
+M4:  free (massless) fields, ℰ coincides with the canonical dimension of the field: ℰ = 1 for a massless
+M5:  scalar field (see footnote 14 and 22); ℰ = 3/2 for a Weyl spinor field with helicity λ = ±½; more
+M6:  generally, ℰ increases with spin, following the free-field scaling dimension. Conversely, a field
+M7:  with ℰ = ½ would represent a subcanonical scaling dimension, incompatible with unitarity ..."
+
+=== [N] Todorov, arXiv:1905.13009 (cand/arxiv_1905.13009.pdf), pdf p.5 = printed p.5
+        PNG: png/todorov_1905.13009_pdfp05-05.png ===
+N1: "φ̃ γ_μ Π₊ φ = i p_μ      (1.13)
+N2:  is massless, i.e. p² = 0, and has positive energy:
+N3:     p₀ = √(p²) ≥ 0   (p² = p₁² + p₂² + p₃²) .      (1.14)
+N4:  For fixed (twice) helicity
+N5:     h =: φ̃φ := φ̃φ − ⟨0|φ̃φ|0⟩ = a*a − b*b       (1.15)
+N6:  the ladder representation of U(2,2) is irreducible and remains irreducible when
+N7:  restricted to the Poincaré subgroup (see [MT] and Appendix A below)."

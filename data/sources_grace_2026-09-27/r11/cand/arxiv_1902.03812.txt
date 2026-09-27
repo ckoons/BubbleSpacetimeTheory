@@ -1,0 +1,655 @@
+                                          Conformal Field Theory in D > 2 dimensions,
+                                             representations and harmonic analysis
+                                                                        Gerhard Mack
+
+
+
+
+arXiv:1902.03812v1 [hep-th] 11 Feb 2019
+                                                         II. Institut für Theoretische Physik
+                                                               der Universität Hamburg
+                                                         talk presented at the conference on
+                                                    Representation Theory and Harmonic Analysis
+                                                          at Paris Saclay 5 December 2018
+
+                                          1     Plan of the talk
+                                              • Summary of what happend since 1968
+                                                (when I first met Ivan Todorov)
+                                              • The relation between representation theory and harmonic analysis for
+                                                groups SO(D, 2) and SO(D + 1, 1)
+                                                i.e. a group theoretical version of the familiar relation between field
+                                                theory in Minkowski and Euklidean space
+                                              • recent developments: Are we close to the analytic solution of the 3-
+                                                dimensional (conformal) Ising model?
+                                          The second point is important: positions and residues of poles in the partial
+                                          wave amplitude g(χ = [l, δ]) which is obtained by partial wave analysis of the
+                                          Euklidean 4-point Green functions are restricted by the requirement that
+                                          they are associated with unitary positive energy ray representations of the
+                                          Minkowskian conformal group SO(D, 2).
+                                             And it can also be a source of interesting mathematics.
+
+
+                                          2     What happened since 1968?
+                                          I met Ivan Todorov in 1968 at the ICTP Trieste. I had been invited by
+                                          Abdus Salam, who had studied my PhD-thesis on dilatation- and conformal
+
+                                                                                1
+symmetry [1] of February 1967.The collaboration with Abdus Salam resulted
+in a joined paper [2]. Abdus Salam also pointed out Dirac’s early work on
+conformal symmetry [3] which introduced the conformal covariant description
+of (D = 4-dimensional) space time using lightlike D + 2 - vectors ξ
+    Ivan had worked at the research center in Dubna in the USSR, which
+also hosted scientist from Bulgaria and other states of the Warsaw pact. It
+was Ivans first visit to the west. We began our collaboration on conformal
+symmetry with a paper [4] on the ladder reprentation of the conformal group
+SO(4, 2). This is a unitary positive energy representation which also serves
+to label the states of the H-atom.
+    We agreed to meet again at the Vienna conference on High Energy physics
+that year. Shortly before the conference, the Soviet Union’s troops invaded
+Czechoslovakia, and I got worried whether Ivan would come. But never before
+had there been so many scientists from eastern Europe at a conference in the
+west. I met Ivan and our paper got finished and published.
+    This was the beginning of a collaboration lasting 25 years. Our next
+paper demonstrated freedom of Conformal invariant Green functions from
+ultraviolet divergences [5]
+    Wilsons 1969 paper on operator product expansions (OPE) [11] cited me
+honorably and created a burst of activities:
+Polyakov [12] (1970), Migdal [13](1971), d’Eramo, Parisi and Peliti [15, 16]
+(1971), Symanzik [23, 24, 25] (1971), Ferrara, Gatto and Grillo, [20, 19]
+(1972), same and Parisi [17] (1972), Tonin et al.[14], Brezin, Itzykson, Zuber
+and Zinn Justin.
+    I began working on a group theoretical approach to conformal field theory
+in 1972. It used group representation theory and harmonic analysis on groups
+in the spirit of Eugen Wigner [21, 22, 26].
+    The work was completed by Dobrev, Petkova, Petrova and Todorov [30]
+and published jointly as a book [31]: Harmonic Analysis on the n-dimensional
+Lorentz Group and its Application to Conformal Quantum Field Theory, Lec-
+ture Notes im Physics 63, Springer 1977
+    I had met Eugen Wigner at the Universiy of Princeton. My PhD adviser
+Hans Kastrup had been invited by Wigner who had studied Kastrups papers
+on conformal symmetry [6, 7] This visit resulted in further papers on the
+subject [8]. Hans Kastrup paved the way to my visit. The visit was financed
+by the Studienstiftung des Deutschen Volkes.
+    To prepare, I had studied Wigners book on group theory in quantum
+mechanics. He became my hero and influences my work until now
+    Eugen Wigner and his wife invited Arthur Jaffe and me to a long weekend
+in their winter home in Vermont. And I met him repeatedly again later
+on. At the conference of Nobel Laureates in Trieste which was organized by
+
+                                      2
+          b
+
+
+
+
+                 p∞
+                  b
+
+
+
+
+          b
+
+
+
+
+Figure 1: The universal covering M̃ of conformally compactified Minkowski
+space time is a tube with point(s) p∞ at spatial infinity of Minkowski space
+located on the back of the tube. The boundary of Minkowski space passes
+through it. The two corner points of the boundary of Minkowski space are
+on the front of the tube.
+
+Abdus Salam. And during later visits in Princeton. The last encounter was at
+the conference in Baltimore which celebrated Wigners 90th birthday. Arthur
+Jaffe was also there. A greeting message by Abdus Salam was presented in
+which he explained how much he had learned from Wigner.
+    In this talk I will only speak about conformal field theory in more than 2
+dimensions. A major breakthrough in 2-dimensional conformal field theory
+occurred in 1984 with the paper [9] of Belavin, Polyakov and Zamolodchikov
+on Infinite conformal symmetry in two-dimensional quantum field theory.
+Lüscher and myself had discovered before [10] that the 2-dimensional traceless
+stress energy tensor is a Lie field; they also found the bound c ≥ 1/2 on
+the coefficient of the central term. This paper remained unpublished, but I
+presented it at a seminar in Copenhagen which Polyakov attended.
+
+
+                                      3
+3     The space time manifold M̃
+Conformal field theory satisfies locality [29].
+    It lives on the infinite sheeted covering M̃ - a tube (Figure 1) - of Minkowski
+space which admits a conformal invariant causal structure. Minkowski space
+is imbedded into M̃ and is characterized by its point(s) at spatial infinity
+p∞ .
+
+3.1       Lagrangean approach
+There exists a coupled set of integral equations for all the n-point functions
+of φ3 -theory [23]. They can also be used for φ4 -theory by considering it as
+a theory with the fundamental fields φ(x) and : φ2 : (x). The equations for
+propagator and 3-vertex require renormalization; renormalized versions have
+been derived in the 60’s [23]. The 4-point function furnishes also the Bethe
+Salpeter kernel.
+
+3.2       Bethe-Salpeter equations 7→ define kernels
+
+                                                 B                       B
+             2i =                      - 12
+                                                                  P
+                                 1i                           -
+                                                         1i
+
+
+
+                                                 B
+      B          =               1i    - 12
+                                                         1i
+
+The 1-particle irreducible graphs are obtained by subtracting Born terms.
+
+3.3       Dynamical equations
+for φ3 -theory; can be generalized to φ4 -theory by considering fields φ and
+: φ2 :
+
+
+
+
+                                         4
+                            1
+                =
+                                                      P
+                            2                2i   +
+
+
+  x1         xn
+   The equations for n ≥ 3 can be solved iteratively by skeleton graph
+expansions, producing also skeleton graph expansions for the Bethe Salpeter
+kernel. After that it remains to solve the renormalized Schwinger Dyson
+equations for 3-vertex and propagator:
+                                              ′
+
+
+
+
+                    ′
+
+                        =       1
+                                2    B
+
+
+
+                        = xµ − y µ
+       x    y
+
+                        1                     1
+        0       =       2
+                                         +    4       B
+
+
+
+    The equation for the inverse propagator is actually equivalent to an equa-
+tion for the 3-point function of the stress enegy tensor [25].
+
+3.4    Skeleton graph expansions
+The equations for n ≥ 4 point functions can be solved iteratively, producing
+skeleton graph expansions for Green functions and also for the Bethe Salpeter
+kernel [25]:
+
+
+
+
+                                      5
+        B         =      .              +                         +                   +...
+
+
+
+    In φ4 -theory, Born terms involve : φ2 : propagators
+
+3.5    ǫ-expansions
+In D = 6 + ǫ dimensions for ϕ3 -theory (and in D = 4 − ǫ dimensions for φ4 -
+theory), the dressed vertices are of order ǫ. Therefore only a finite number of
+skeleton graphs contribute to any order in ǫ. Inserting into the equations for
+dressed vertex and propagator, these can be solved by power series expansion
+in ǫ. For φ3 -theory in 6 + ǫ dimensions one finds to leading orders [26]: The
+fundamental field φ has dimension
+                         D                           1
+                    d=     − 1 + ∆,             ∆=      ǫ + ...
+                         2                           18
+and a trajectory of traceless symmetric tensor fields of even rank s ≥ 2 with
+dimension ds = D − 2 + s + σs ,
+                                                 
+                     1         1         2
+                       σs =      −                  ǫ + ..
+                     2        18 3(s + 2)(s + 1)
+
+4     The relation between reprentations and harmonic
+      analysis for covering groups of SO(D, 2) and SO(D +
+      1, 1)
+Basic: Elementary representations χ = [l, δ] are representations of the
+complex Lie algebra. Partial wave amplitudes g(χ) depend on χ. Their
+use is a crucial feature of the group theoretical approach [21, 22, 26, 30, 31].
+The (partial) equivalence of representations χ = [l, δ] and χ̃ = [˜l, D −δ] (˜l = l
+for completely symmetric tensor representations) is the basis of the shadow
+operator formalism introduced by Ferrara et al. [20]
+
+
+
+4.1    Euklidean partial wave expansion
+for the 4-point function < φ(x4 )...φ(x1 ) >.
+
+                                        6
+                                        1                   2
+                           R                    χ
+                       =       dχg(χ)                           = ...
+
+
+                                        3                   4
+Figure 2: Euklidean partial wave expansion for the 4-point function
+< φ(x4 )...φ(x1 ) >. The dots stand for expansions in the two other channels
+(12) 7→ (34) and (13) 7→ (24) of the same amplitude, implying the equality
+shown in section 4.2
+
+    This formula is quite trivial, simply expressing the orthogonality (and com-
+pleteness!) of the partial waves say Simmons-Duffin, Stanford, and Witten
+[41].
+    indeed: Physical positivity implies constraints on the partial waves g(χ)!
+But also completeness is not trivial, because presence of a Born term requires
+contributions from the complementary series in addition to the principal se-
+ries.
+    They can be included by choosing a proper path of the c-integration
+                            XZ                            1
+               Z
+                  dχ.... =          dcρl (c)...,  χ = [l, D + c]
+                             l    C                       2
+
+                   ✻
+
+              ✎☞✎☞
+❡     ❡   ❡    ✉ ❄ ❄❡ ✉           ✉     ✉
+              ✍✌✍✌
+              cf
+
+
+    a) Path C of the c-integration for l = 0
+   Positivity constraints were examined already in the 7o’s. They restrict
+the position of the poles and fix the sign of of the residues of the partial wave
+amplitudes g(χ) defined by
+
+
+
+       g(χ)            χ=                            χ
+
+
+
+
+                                            7
+                                                                                 1        2
+4.2     Crossing relations
+
+                       1                            2
+         R                            χ                         R                    χ′
+             dχ g(χ)                                    =           dχ′ g(χ′ )
+
+
+                       3                            4
+                                                                     3                    4
+The crossing relation is a linear relation for the partial wave, of the form
+                                  Z
+                         g(χ) = dχ′ C(χ′ , χ)g(χ′).
+
+Using orhogonality of the CG-kernels, the crossing kernel C(χ, χ′ ) is defined
+by
+            χ′                                       χ′
+                                                        (
+                                      1
+                        C(χ, χ′ ) =   2
+
+
+                                                            χ
+
+
+
+4.3     Derivation of Operator product expansions from
+        Euklidean partial wave expansions
+4.3.1   Split of the partial waves
+Operator product expansions (OPE) have the structure
+                           1        1       X
+                      φ1 (− x1 )φ2 ( x1 ) =   Cn (x1 )O n (0)
+                           2        2       n
+
+where O n are fields or derivatives of fields. The derivatives of each nonderiva-
+tive field can be summed up. The resulting terms are known as confornal
+blocks. To obtain this expansion,
+the Clebsch Gordan coefficients need to be split.
+                               χ               χ̃
+                  =                   +
+
+
+
+
+                                          8
+     This split exploits the equivalence of representations χ = [l, h+c] and χ̃ =
+[l, h − c] (h = 12 D) of the Euklidean conformal group to split the three point
+function into Clebsch-Gordan kernels of the second kind in a way modeled
+after the split of Legendre functions Pl into Legendre functions of the second
+kind, Ql ,
+
+                    V(x0 , χ̃, x2 , χ2 , x1 , χ1 ) =
+                        π
+                                [Q(x, χ̃, x2 , χ2 , x1 , χ1 ) −
+                    sin(l + c)
+                                   Z
+                               − dD y∆χ̃ (x, y)Q(y, χ, x2 , χ1 , x1 , χ2 )]
+
+such that the partial Fourier transform
+Q(p, χ̃, x2 , χ2 , x1 , χ1 )
+is an entire holomorphic function of p.
+
+4.4       Continuation to Minkowski apace
+After the split, one can deform the path of the c-integration in the partial
+wave expansion involving g(χ), χ = [l, h + c]), h = D/2
+picking up a sum over residues as shown in the following picture
+                    ✻
+
+              ✎☞✎☞
+❡     ❡   ❡    ✉ ❄ ❄❡ ✉          ✉   ✉
+              ✍✌✍✌
+               cf
+    a) Original path of c-integration
+
+
+              ✎☞          ✎☞  ✎☞ ✎☞
+❡     ❡   ❡    ✉❄ ❡        ✉ ❄ ✉ ❄✉❄
+              ✍✌          ✍✌  ✍✌ ✍✌
+               cf 0
+    b) Path after closure
+   This results in a discrete sum of conformal blocks as shown before, i.e.
+the expected OPE.
+
+
+
+
+                                            9
+                                                           χ
+                    P
+                =      poles inχ resχ g(χ)
+
+
+
+
+                   P                         χ
+               =     poles inχ resχ g(χ)                 = ...
+
+
+
+
+ Figure 3: discrete version of the crossing relation for partial wave g(χ)
+
+5     Recent progress
+
+5.1    Conformal Regge theory
+Families of poles of the partial wave g(χ = [l, δ]) labelled by (even or odd) l
+are analogues of Regge trajectories [33, 45, 42]. But in contrast to conven-
+tional Regge theory the pole “approximation” is exact!
+
+5.2    Analysis of the conformal blocks
+Dolan and Osborn [36] determined the conformal blocks for even dimension
+D. Recursion relations were studied by Penedones, Trevisani and Yamazaki
+[46]
+    El-Showk, Paulos, Poland, Rychkov, Simmons-Duffin, Vichi [37]
+generalized the result to arbitrary D and use numerical evaluation to bound
+and find critical indices for the Ising model
+
+5.3    Mellin representation
+I proposed to consider bootstrap in Mellin space in 2009 [33]. The Mellin
+representation was advocated as a natural language by Fitzpatrick, Kaplan,
+
+
+                                           10
+                   R                          χ
+              =        dχ g(χ)
+
+
+
+                           R
+                       =       dδ M({δij })
+
+
+Figure 4: Partial wave expansion and Mellin representation for the 4-point
+function.< φ(x4 )...φ(x1 ) >. The lines in the Mellin representation represent
+                          −δi j
+propagators
+          PΓ(δij (ξi ξj )       in covariant language Integration is over δij = δji
+such that i δij = di when the scalar field φ(xi ) has dimension di
+
+Penedones, Raju and van Rees [47] and further studied by Dey, Ghosh and
+Sinha [44](2018)
+
+   The lines in the Mellin representation represent propagators Γ(δij )(ξ
+                                                                      Pi ξj )
+                                                                              −δij
+
+in Dirac’s covariant language. Integration is over δij = δji such that i δij =
+di when the scalar field φ(xi ) has dimension di
+
+5.4       Pismaks simplified version of the crossing relation
+Pismak [43] proposed to study a simplified version of the crossing relation
+for the partial wave g(χ) as shown in Figure 5.
+                                                                  p1 = 0
+
+
+
+          p1 = 0                                                                m
+                                                                                α
+                                 χ                                         χ′
+      R                                           m        R
+          g(χ)                                         =       g(χ′)
+                                                  α
+
+
+
+       3                              4
+Figure 5: Pismaks version of the crossing symmetry of the partial wave
+g(χ). In the Ising model with fields φ(x) and φ2 (x), g(χ) is a 2 × 2 matrix.
+
+
+
+
+                                                  11
+5.5    Spacetime derivation of the Lorentzian OPE inver-
+       sion formula
+Caron-Huot [35], and Simmons-Duffin, Stanford, Witten [41] derive a formula
+for the partial wave g(χ = [∆, J]) = n∆,J I∆,J expressed in terms of vacuum
+vacuum expectation value of commutators of the four scalar fields φi (xi ) of
+dimension di in Minkowski space, n∆,J is an explicitly given normalization
+factor
+                                                dD x3 dD x4
+                                Z
+             I∆,J = −ĈJ (1)
+                                    3>1,2>4 vol(SO(D − 1)
+                       < Ω, [φ4 (x4 ), φ2 (x2 )][φ1 (x1 ), φ3(x3 )]]|Ω >
+                                     |x34 |J+2D−d3 −d4 −∆
+                       (m · x34 )J θ(m · x34 )
+                                             dD x3 dD x4
+                              Z
+                            J
+                   + (−1)
+                               4>1,2>3 vol(SO(D − 1))
+                       < Ω|[φ3 , (x3 ), φ2(x2 )][φ1 (x1 ), φ4 (x4 )]|Ω >
+                                     |x34 |J+2D−d3 −d4 −∆
+                       (−m · x34 )J θ(−m · x34 )
+                                                    
+
+where m is the nullvector mµ = (1, 1, 0, ..., 0) where the second component is
+the time direction, and coordinates x1 , x2 have been fixed to x1 = (1, 0, 0, ...),,
+x2 = 0. The notation i > j means that xi is in the future light cone of xj .
+   An explicit expression for ĈJ (1) is given.
+   The formula has the following advantages: It can be analytically con-
+tinued in the spin J, and for real dimension and spin, the integrand satisfies
+positivity conditions.
+
+
+References
+ [1] G. Mack, Partially Conserved Dilatation Current, PhD thesis, Bern
+     (Switzerland) 1967
+ [2] G. Mack, Abdus Salam, Finite Component Field Representations of the
+     Conformal Group, Ann. Phys (N.Y.) 26B, 515 (1969)
+ [3] P.A.M. Dirac, Wave equations in conformal space, Ann. Math. 37 429
+     (1936)
+ [4] G. Mack, I.T. Todorov, Irreducibility of the ladder representation of
+     U(2, 2) when restricted to the Poincaré subgroup J. Math. Phys. 10
+     (1969) 2078
+
+                                        12
+ [5] G. Mack, I.T. Todorov, Conformal invariant Green functions without
+     ultraviolet divergences Phys. Rev D8 1764 (1971)
+
+ [6] H.A. Kastrup Zur physikalischen Deutung und darstellungstheoretischen
+     Analyse der konformen Transformationen von Raum und Zeit, Ann .
+     Physik 9 383 (1962)
+
+ [7] H.A. Kastrup, Konsequenzen der Dilatationsgruppe bei hohen Energien,
+     Nucl. Phys 58 561 (1964)
+
+ [8] H.A. Kastrup, Conformal Group in Space Time Phys. Rev. 142 1060
+     (1966), Position Operators, Gauge Transformations and the Conformal
+     Group, Phys. Rev. 143 1021 (1966), Gauge Properties of Minkowski
+     Space, Phys. Rev. 150 1183 (1966)
+
+ [9] A.A Belavin, A.M. Polyakov, A.B. Zamolodchikov, Infinite Confor-
+     mal Symmetry in Two-dimensional Quantum Field Theory, Nucl. Phys.
+     B241 333-340 (1984)
+
+[10] M. Lüscher, G. Mack, The energy momentum tensor of critical field
+     theories in 1 + 1 dimensions (1977) unpublished manuscript
+
+[11] K. Wilson, Non-Lagrangean models in current algebra Phys. Rev. 179
+     1499 (1969)
+
+[12] A.M.Polyakov, A similarity hypothesis in strong interactions I: Multiple
+     hadron production in e+ e− annihilation, Soviet Physics JETP 32 (1971)
+     296, II: Cascade production of hadrons and their energy distribution
+     associated with e+ e− annihilation, Soviet physics JETP 33, 850 (1971)
+
+[13] A.A. Migdal,Conformal invariance and bootstrap Phys. Lett 37B 386
+     (1971), On hadronic interactions at small distances Phys. Letters 37B
+     98 (1971)
+
+[14] L. Bonora, S. Ciccariello, S. Sartori, M.Tonin, Conformal Symmetry in
+     Wilson operator product expansions, in: Scale and Conformal Symmetry
+     in Hadron Physics,ed. R. Gatto, Wiley, N.Y. 1973
+
+[15] G.Parisi, L. Peliti, Calculation of critical indices Lett. Nuovo Cimento
+     2 386 (1971)
+
+[16] Theoretic predicition for critical exponents at the λ-point of Bose liquids,
+     Nuovo Cim. Lett. 2 878 (1971)
+
+
+
+                                       13
+[17] S.Ferrara, R.Gatto, A.F.Grillo, G. Parisi, The shadow operator formal-
+     ism for conformal algebra. Vacuum expectation values and operator prod-
+     ucts, Lett. Nuovo Cimento, 4, 115 (1972)
+
+[18] S. Ferrara, A.F. Grillo, G. Parisi, R. Gatto, Covariant expansion of the
+     conformal four-point function, Nucl. Phys. B 49 77 (1972)
+
+[19] S. Ferrara, A.F. Grillo, R. Gatto, Conformal algebra in space time and
+     operator product expansions Springer Tracts in Modern Physics, Springer
+     1973 Tensor representations of conformal algebra and conformally co-
+     variant operator product expansions, Ann. Phys. (N.Y.) 76, 161 (1973)
+
+[20] S. Ferrara, R. Gatto, A.F. Grillo, Lett. Nuovo Cim. 2 (1971) 1363, Nucl.
+     Phys. B34 (1971)349, Nuov. Cim. A12 (1972) 952
+
+[21] G. Mack, Group theoretical approach to conformal invariant quantum
+     field theory, Journal de Physique 34 C1 (Suppl. No 10) 99 (1973)
+
+[22] G. Mack, Osterwalder Schrader positivity in conformal invariant quan-
+     tum fied theory, in H. Rollnik and K. Dietz (eds), Trends in elementary
+     particle theory Lecture notes in physics 37 66, (1975)
+
+[23] K. Symanzik, Green functions method and renormalization of renormal-
+     izable quantum theory, in:Lectures in High Energy Physics, ed. B. Jaksic,
+     Zagreb, 485 (1961) Gordon and Breach, N.Y. 1965
+
+[24] K. Symanzik, On calculations in conformal invariant field theories,
+     Nuovo Cim. Lett. 3,734 (1972)
+
+[25] G. Mack, K. Symanzik, Currents, stress energy tensor and generalized
+     unitarity in conformal quantum field theory 27 247 (1971)
+
+[26] G. Mack, Conformal invariance and short distance expansion in quan-
+     tum field theory, in Strong interaction physics Lecture notes in physics
+     17 Springer Verlag 1972
+
+[27] G. Mack, Group theoretical approach to conformal invariant quantum
+     field theory, in E.R.Caianello (ed) Renormalization and invariance in
+     quantum field theory, Plenum Press (New York) 1974
+
+[28] M. Lüscher, Operator expansions on the vacuum in conformal quantum
+     field theory, Commun. Math. Phys. 50 23-52 (1976)
+
+[29] M. Lüscher, G. Mack, Global conformal invariance, Commun Math.
+     Phys 41 (1975) 203
+
+                                     14
+[30] V.K. Dobrev, V.B. Petkova, S. Petrova, I.T. Todorov, Dynamical
+     Derivation of Vacuum Operator Product Expansions in Euclidean Con-
+     formal Quantum Field Theory, Phys. Rev. D13 (1976) 887
+[31] V.K. Dobrev, G. Mack, V.B. Petkova, S. Petrova, I.T. Todorov, Har-
+     monic analysis on the n-dimensional Lorentz group and its application
+     to conformal quantum field theory Lecture notes in physics, Springer
+     1977
+     V.K. Dobrev, G. Mack, V.B. Petkova, S. Petrova, I.T. Todorov,On Cleb-
+     sch Gordan expansions for the Lorentz Group in n dimensions, Reports
+     on Math. Phys. 9:29 (1976)
+[32] E.S. Fradkin, M. Ya. Palchik, Method of solving conformal models in
+     d-dimensional space, secondary fields in d > 2 and the solution of two-
+     dimensional models, Int. J. Mod. Phys A13 4837-4888, 1998
+[33] G. Mack, D-independent representation of Conformal Field Theories in
+     D dimensions via transformation to auxiliary Dual Resonance Models,
+     arxiv:090/240 (2009)
+[34] D. Pappadopoulos, S. Rychkov, J. Espin, R. Rattazi, OPE Conver-
+     gence in Conformal Field Theory Phys. Rev. D86 (2012) 105043, arxiv:
+     1208.6449
+[35] S. Caron-Huot,     Analyticity    in   Spin   in   Conformal   Theories,
+     arXiv:1703.00278
+[36] F.A. Dolan, H. Osborn, Conformal Partial Waves: Further Mathemati-
+     cal Results, arxiv:1108:6104
+[37] S. El-Showk, M.F. Paulos, D. Poland,S. Rychkov, D. Simmons-Duffin,
+     A. Vichi Solving the 3D Ising model with the conformal bootstrap,
+     arXiv:1203.6064 (2012)
+[38] M. Hogervorst, S. Rychkov, Radial coordinates for conformal blocks,
+     arxiv:303.1111 (203)
+[39] M. Hogervorst, S. Rychkov, Radial Coordinates for Conformal Blocks
+     Phys. Rev. D87 (2013) 106004 arxiv: 1610.05308
+[40] D. Simmons-Duffin, Projectors, Shadows, and Conformal Blocks, JHEP
+     04 (2014) 146, arXiv:1204.3894
+[41] D. Simmons-Duffin, D. Stanford, E. Witten, A spacetime derivation of
+     the Lorentzian OPE inversion formula, arXiv:1711.03816 (Nov 2017)
+
+                                      15
+[42] D. Simmons-Duffin, The lightcone bootstrap and the structure of the 3d
+     Ising CFT, JHEP 03 (2017) 086, arxiv:612.0847
+
+[43] Yu. M. Pis’mak, Renormalization group and infinite algebraic structure
+     in D-dimensional conformal field theory, J. Phys.A:Math.Gen 39 (2006)
+     857-817
+
+[44] P. Dey, K. Ghosh, A. Sinha, Simplifying large spin bootstrap in Mellin
+     space, arxiv:11709.06110
+
+[45] M.S. Costa, V. Goncalves, J. Penedones, Confornal Regge Theory, JHEP
+     (2012) 091 , arXiv:1209.4355
+
+[46] J. Penedones, E. Trevisani, M. Yamazaki, Recursion relations for Con-
+     formal Blocks arXiv:1509.00428
+
+[47] A. Liam Fitzpatrick, J. Kaplan, J. Penedones, S. Raju, C. van Rees, A
+     natural language for AdS/CFT correlators, arXiv:1107.1499
+
+
+
+
+                                    16
+

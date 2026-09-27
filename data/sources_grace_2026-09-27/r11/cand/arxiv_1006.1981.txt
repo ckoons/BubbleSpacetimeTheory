@@ -1,0 +1,992 @@
+                                                                                                         CERN-PH-TH/2010-071
+
+
+
+
+arXiv:1006.1981v1 [math-ph] 10 Jun 2010
+                                             Minimal representations and reductive dual pairs in
+                                                          conformal field theory1
+                                                                              Ivan Todorov2
+
+                                                             Theory Division, Department of Physics, CERN
+                                                                    CH-1211 Geneva 23, Switzerland
+
+
+
+
+                                                                                  Abstract
+                                                    A minimal representation of a simple non-compact Lie group is ob-
+                                                tained by “quantizing” the minimal nilpotent coadjoint orbit of its Lie
+                                                algebra. It provides context for Roger Howe’s notion of a reductive dual
+                                                pair encountered recently in the description of global gauge symmetry of a
+                                                (4-dimensional) conformal observable algebra. We give a pedagogical in-
+                                                troduction to these notions and point out that physicists have been using
+                                                both minimal representations and dual pairs without naming them and
+                                                hence stand a chance to understand their theory and to profit from it.
+
+
+
+
+                                             1 Invited lecture at the 8th International Workshop on Lie Theory and Its Applications in
+
+                                          Physics, Varna, June 2009; ed. V. Dobrev, AIP Conference Proceedings 1243 (Melville, NY
+                                          2010) pp. 13-30.
+                                             2 Permanent address:      Institute for Nuclear Research and Nuclear Energy, Bulgar-
+                                          ian Academy of Sciences, Tsarigradsko Chaussee 72, BG-1784 Sofia, Bulgaria; e-mail:
+                                          todorov@inrne.bas.bg
+
+
+                                                                                       1
+Contents
+1 Introduction                                                      3
+
+2 Minimal coadjoint orbits                                          4
+
+3 Examples: u(n, n) ⊂ sp(4n, R). Massless particles                 6
+
+4 Two types of reductive dual pairs                                 9
+
+5 Global conformal invariance and infinite dimensional Lie alge-
+  bras                                                           11
+
+6 The dual pairs (L(F), U (F, N )) and their Fock space representa-
+  tions. The Lie algebra so∗ (4n)                                   15
+
+References
+
+
+
+
+                                  2
+1     Introduction
+      “. . . for me the motivation is mostly the desire to understand the hidden
+      machinary in a striking concrete example, around which one can build
+      formalisms”.3
+
+
+    The concept of a minimal representation, introduced in the mid 1970’s by
+A. Joseph [J74] [J76] (triggered by the physicists’ excitement with spectrum
+generating algebras) keeps attracting attention of mathematicians and (mathe-
+matical) physicists (for a review up to the late 1990’s – see [Li00]; for subsequent
+developments – see e.g. [G01, G06] [K02] [GS05] [KM] [F09] [Li09] [FG09] [K10]
+and references therein). We shall review the identification of the minimal orbit
+– the classical counterpart of the minimal representation – in Section 2. We
+will also display, in Section 3, an old physical example – the oscillator (called in
+the 1960’s ladder) representations of U (2, 2) which describe zero-mass particles
+[MT69](constructed before the concept of a minimal representation was coined).
+    The second item of our survey, the notion of a (reductive) dual pair, was
+introduced by Roger Howe in an influential preprint of the 1970’s that was
+eventually published as [H89]. It was previewed in a lecture [H85] highlightening
+its applications to physics. The principle underlying such applications was, in
+fact, anticipated by the founders of the axiomatic approach to quantum field
+theory who introduced the concept of superselection sectors [W3 ] and developed
+it systematically in the work of Doplicher, Haag and Roberts (for a review and
+further references – see [H]). In this framework the algebra of observables and
+the global (compact) gauge group are mutual commutants in the (extended) field
+algebra, thus providing a generic example of a dual pair. A more elementary
+example is provided by a pair of subgroups, G1 , G2 , of a group G, each being
+the centralizer of the other in G. One can then ask how does an irreducible
+representation (IR) of G split into IRs of the pair (G1 , G2 ). This question is, in
+general, not easy to answer. It becomes manageable if the given IR of G is a
+minimal one. We review in Section 4 the concept of a reductive dual pair and
+display Howe’s classification of such irreducible pairs acting by automorphisms
+on a complex symplectic space.
+    In Section 5 we prepare the stage for an extension and application of the
+above notions to an infinite dimensional framework: globally conformal invari-
+ant quantum field theory in four spacetime dimensions. The assumption of
+global conformal invariance (GCI) [NT] allows to extend the concept of vertex
+algera – the mathematicians’ way of viewing the chiral observable algebra of 2-
+dimensional conformal field theory (2D CFT) – to any higher even dimensional
+theory [N]. We also introduce there the notion of a bilocal field which opens
+the way to use infinite dimensional Lie algebras in the context of 4D CFT. In
+Section 6 we review earlier work [B07, B08] which demonstrates that the phys-
+ical (unitary, positive energy) representations of the observable algebra L is a
+   3 M. Kontsevich, Beyond numbers, in: The Unravelers, Mathematical Snapshots, ed. by
+
+J.-F. Dars, A. Lesne, A. Papillaut, A.K. Peters, Wellesley, MA 2008, p. 182.
+
+
+                                          3
+Fock space representation that splits into IRs whose multiplicities are dictated
+by a compact gauge group U , the pair (L, U ) appearing as a dual pair in the
+field algebra extension of L envisaged by Haag et al. [H]. Before concluding we
+also review in Section 6 the basic properties and the oscillator representations
+of the non-compact orthogonal group SO∗ (4n) (combining material of [BB] and
+of [B08]).
+
+
+2     Minimal coadjoint orbits
+A coadjoint orbit of a Lie group G is an orbit of the coadjoint representation
+Ad′g of G acting on the vector space G ′ dual to the Lie algebra G of G. Each
+coadjoint orbit O admits a G-invariant symplectic form and hence is an (even
+dimensional) symplectic manifold which can be interpreted as the phase space of
+a classical Hamiltonian system. The orbit method reflects the expectation that
+the unitary IRs of G can be obtained by “quantizing” such classical symplectic
+orbits. It has been introduced by A.A. Kirillov in 1962 and further developed
+(along with the geometric quantization, chiefly) by Kirillov, Kostant, Duflo, and
+Souriau – see for a readable introduction and references [K99].
+    We recall some basic notions and facts of the theory of semisimple Lie alge-
+bras G. An element s ∈ G is called semisimple if it is conjugate to an element of
+a Cartan subalgebra of G (or, equivalently, if ads is diagonalizable). An n ∈ G
+is said to be nilpotent if adn is nilpotent (i.e., if a finite power of adn vanishes).
+
+Fact. Every element x ∈ G has a unique representation of the form x =
+s + n where s is semisimple, n is nilpotent, and [s, n] = 0. The non-degenerate
+Killing form B(X, Y ) on G allows to define an isomorphism of G-spaces G ↔ G ′ .
+The invariance of B implies that there exists a bijection between adjoint and
+coadjoint orbits that preserves semi-simplicity and nilpotency. (We say that a
+coadjoint orbit O is semisimple/nilpotent if every (equivalently some) element
+of O has this property.)
+    A complex semisimple Lie algebra GC has a unique (up to conjugation) Car-
+tan subalgebra h. The set of semisimple coadjoint orbits of GC is isomorphic
+to h/W where W is the Weyl group of GC ; hence, there is a continuum of such
+orbits. By contrast, the (partially ordered) set N of nilpotent orbits is finite (see
+[CMcG] for details and proofs – also of Proposition 2.1 below – and Section 5
+of [F09] for a summary).
+
+Proposition 2.1. – (a) There exists a unique principal nilpotent orbit Oprinc
+of maximal dimension
+                         |Oprinc | = |G| − rank G ,                     (2.1)
+where by |M| we denote the dimension of the manifold M.
+(b) There is a unique subregular nilpotent orbit, Osubreg , of dimension
+
+                           |Osubreg | = |G| − rank G − 2 .                      (2.2)
+
+
+                                          4
+(c) There exists a unique non-zero nilpotent orbit Omin of minimal dimension.
+
+Remark 2.1. The principal orbit is dense in N with respect to the Zariski
+topology. Its closure consists of all lower dimensional nilpotent orbits. The
+subregular orbit is Zariski dense in N \Oprinc . The Zariski closure of Omin is
+Omin ∪ {0}.
+
+Example. The semisimple orbits of sℓ2 are
+                                                         
+                   x y
+          Ok =              , x, y, z ∈ C ; x2 + yz = k 6= 0 .                   (2.3)
+                   z −x
+
+For k = 0, the corresponding O0 is the unique non-trivial nilpotent orbit: O0 =
+Oprinc = Omin (Osubreg is trivial in this case – consisting of the 0-element of
+sℓ2 ).
+
+    To construct the minimal orbit of a simple Lie algebra G we observe that all
+simple complex Lie algebras have an essentially unique 5-grading (as exploited
+in [G01, K02, G06]):
+
+                           G = G−2 ⊕ G−1 ⊕ G0 ⊕ G1 ⊕ G2 ,                        (2.4)
+
+given by the eigenvalues of the Cartan generator Hθ , corresponding to the high-
+est root θ. Indeed the relations
+                           (α | θ)            (α | θ)
+          [Hθ , Eα ] = 2           Eα ,   2           ∈ Z,   |(α | θ)| ≤ (θ|θ)   (2.5)
+                           (θ | θ)            (θ | θ)
+
+imply that the coefficient to Eα in the right hand side belongs to the set
+{−2, −1, 0, 1, 2}. The spaces G±2 have each dimension 1 and are generated
+by E±θ satisfying [Eθ , E−θ ] = Hθ . The triple {Eθ , Hθ , E−θ } thus spans a dis-
+tinguished subalgebra sℓ2 of G. Let H be the maximal Lie subalgebra of G
+commuting with this principal sℓ2 . The minimal orbit in the complexification
+GC of G, isomorphic to the adjoint orbit of Eθ , has dimension
+
+                            |Omin | = |G1 | + 2 =: 2 dim πθ                      (2.6)
+
+where πθ is the corresponding minimal representation and dim πθ is its Gelfand-
+Kirillov dimension – roughly speaking, the number of variables on which de-
+pends the wave function of the associated Schrödinger picture [KM]. Knowing
+G and H we can compute |G1 | and hence dim πθ
+
+                                |G| = |H| + 2 |G1 | + 3 .                        (2.7)
+
+
+
+
+                                              5
+In Table 1 we list the type of H and the values of |G1 | = 21 (|G| − |H| − 3) and
+of dim πθ for all complex simple Lie algebras (cf. [G06]).
+        GC                 |G|                 H               |G1 | = 21 (|G|−|H|−3)        dimC πθ
+                             2
+   sℓn = An−1            n −1                gℓn−2                     2(n − 2)                n−1
+ so(2n + 1) = Bn        n(2n + 1)          Bn−2 ⊕ sℓ2                 2(2n − 3)               2n − 2
+   sp(2n) = Cn          n(2n + 1)            Cn−1                      2(n − 1)                 n
+   so(2n) = Dn          n(2n − 1)          Dn−2 ⊕ sℓ2                  4(n − 2)               2n − 3
+        E6                  78                sℓ6                           20                  11
+        E7                 133                D6                            32                  17
+        E8                 248                E7                            56                  29
+        F4                  52                C3                            14                  8
+        G2                  14                sℓ2                            4                  3
+                  Table 1. – List of GC ⊃ sℓ2 ⊕ H; dimensions.
+
+    The next step, the “quantization of Omin ”, is not canonical. It has been
+best studied for sp(2n, R): it is realized in the familiar Fock space (or oscilla-
+tor) representation of the Heisenberg algebra (of n creation and n annihilation
+operators) that will be reviewed in the next section. It is also referred to as the
+Segal-Shale-Weil representation, made popular by the work of Weil [W] with its
+applications to θ-functions and automorphic forms – an important chapter in
+number theory (for a systematic pedagogical review of this case – see [F]. The
+case of O(p, q) is developed more recently and surveyed in the monograph [KM]
+and in the recent review article [K10].)
+
+
+3     Examples: u(n, n) ⊂ sp(4n, R). Massless parti-
+      cles
+We begin, following Howe [H85], with the Heisenberg algebra of n annihilation
+and n creation operators c = (ci , i = 1, . . . , n) and c∗ = (c∗j ; j = 1, . . . , n)
+satisfying the canonical commutation relations (CCR)
+             [ci , cj ] = 0 = [c∗i , c∗j ] ,   [ci , c∗j ] = δij ,   i, j = 1, . . . , n .      (3.1)
+The CCR are left invariant by the n(2n + 1) dimensional real symplectic group
+Sp(2n, R) whose elements g can be written in terms of a pair of complex n × n
+matrices U and V :
+                       
+                   U V̄
+            g=             , gc = U c + V̄ c∗ , gc∗ = V c + Ū c∗ ,      (3.2)
+                   V Ū
+
+where Ū and V̄ are complex conjugate to U and V and we have
+                            U V ∗ = V̄ t U ,       U U ∗ − V̄ t V = 1I                          (3.3)
+(U ∗ is the hermitean conjugate to U , U ∗ = t Ū , t A standing for the transposed
+of the matrix A). We note that the pair (c, c∗ ) provides a complex variable
+
+                                                   6
+parametrization of a real 2n dimensional vector space; a similar remark applies
+to the above parametrization of the real symplectic group Sp(2n, R).
+    A more symmetric way of writing the CCR consists in introducing a 2n-
+component vector ξ = (ξa , a = 1, . . . , 2n) and a symplectic form J = (Jab ) such
+that
+
+                          [ξa , ξb ] = Jab        (= −Jba )
+                                  ∗           2
+                             JJ       = −J = 1I (= (δab )) .                          (3.4)
+
+The invariance of the CCR (3.4) under symplectic transformations then reads
+
+                         g J tg = J         for    g ∈ Sp(2n, R) .                    (3.5)
+                                                                                  
+                                                                          O 1I
+The relations (3.1) correspond to the choice ξ = (c, c∗ ), J =                       .
+                                                                         −1I O
+     The oscillator representation of the Lie algebra sp(2n, R) is spanned by
+the anticommutators 21 (ξa ξb + ξb ξa ). The Fock space representation of the
+Heisenberg algebra (with ket and bra vacuum vectors |0i and h0| such that
+ci |0i = 0 = h0| c∗i , i = 1, . . . , n; h0 | 0i = 1) splits into two most degenerate IRs
+of sp(2n, R). They can be only exponentiated to unitary IRs of the double cover
+of Sp(2n, R), the metaplectic group M p(2n) (that is not a matrix group). The
+resulting Fock space representation of M p(2n) corresponds to a minimal coad-
+joint orbit, thus providing an example of a minimal representation. We shall
+exploit this in the physically interesting case of n = 4, displaying on the way the
+reduction of the minimal representation of M p(8) into the zero mass represen-
+tations of the (helicity extended) spinorial conformal group U (2, 2) (reviewing
+the construction of [MT69]).
+     To make explicit the inclusion u(2, 2) ⊂ sp(8, R) we shall label the annihi-
+lation (and the creation) operators by a1 , a2 , b1 , b2 (and a∗1 , . . . , b∗2 ). With this
+notation the u(2, 2) sub (Lie) algebra of sp(8, R) is defined as the centralizer of
+(twice) the helicity operator,
+
+                          h := a∗1 a1 + a∗2 a2 − b∗1 b1 − b∗2 b2 .                    (3.6)
+
+If we introduce the (Dirac conjugate, operator valued) spinors
+          
+           a1
+          a2 
+    ϕ=   b∗1  ,
+                    ϕ̃ = ϕ∗ β = (a∗1 , a∗2 , −b1 , −b2 ) (β = diag(1, 1, −1, −1)) ,
+           b∗2
+                        [ϕα , ϕ̃α′ ] = δαα′ (α, α′ = 1, 2, 3, 4)                      (3.7)
+
+then the oscillator realization of u(2, 2) is given by operators of the form X̂ =
+ϕ̃ X ϕ where X are 4×4 matrices satisfying the antihermiticity condition X ∗ β +
+βX = 0. A Chevalley-Cartan basis of su(2, 2) is given by
+
+E1 = a∗1 a2 , E2 = a∗2 b∗1 , E3 = −b1 b∗2 , F1 = a∗2 a1 , F2 = −b1 a2 , F3 = −b2 b∗1 ,
+
+                                              7
+ Hi = [Ei , Fi ] , H1 = a∗1 a1 − a∗2 a2 , H2 = a∗2 a2 + b1 b∗1 , H3 = b∗2 b2 − b∗1 b1 (3.8)
+reproducing the standard Cartan matrix (cij ) for sℓ4 : [Hi , Ej ] = cij Ej ). The
+positive roots correspond to the raising operators Ei , [E1 , E2 ] = a∗1 b∗1 , [E2 , E3 ] =
+a∗2 b∗2 and the highest root
+
+                               Eθ = [[E1 , E2 ], E3 ] = a∗1 b∗2 .                       (3.9)
+
+The two other generators of the distinguished sℓ2 (= su(1, 1)) are
+
+ (E−θ ≡) Fθ = −b2 a1 , Hθ = [Eθ , Fθ ] = a∗1 a1 + b2 b∗2 ([Hθ , Eθ ] = 2Eθ ) . (3.10)
+
+Its commutant H in su(2, 2) is the 4-dimensional u(1, 1) subalgebra spanned by
+products of (a∗2 , b1 ) with (a2 , b∗1 ).
+
+Remark 3.1. Splitting, more generally, the annihilation (creation) operators
+ (∗)          (∗)                                           (∗)          (∗) (∗)           (∗)
+c1 , . . . , c2n into “positive and negative charge” ones, a1 , . . . , an , b1 , . . . , bn
+we can realize, similarly, the embedding u(n, n) ⊂ sp(4n) where u(n, n) is the
+centralizer of the charge operator
+
+                    Q := a∗1 a1 + . . . + a∗n an − b∗1 b1 − . . . − b∗n bn .
+
+The non-compact Chevalley generators are then En = a∗n b∗1 , Fn = −b1 an while
+the highest root operator becomes Eθ = a∗1 b∗n . The commutant H of the distin-
+guished sℓ2 , spannned by Eθ , Fθ = −bn a1 , Hθ = a∗1 a1 + bn b∗n , is u(n − 1, n − 1)
+and the minimal coadjoint orbit is 4n − 2 dimensional.
+
+    Returning to the case n = 2, the 6-dimensional minimal coadjoint orbit is
+spanned by Eθ , Hθ and by the elements E1 , E3 , [E1 , E2 ] and [E2 , E3 ] of G1 (of
+(2.3)). We shall introduce light-cone “momentum space” variables that give
+rise to a Schrödinger like realization of the minimal representation (in the state
+space of massless particles). To this end we introduce two complex conjugate
+pairs of variables zα and z̄α , α = 1, 2, setting:
+               1                     1                      ∂             ∂
+         a∗α = √ (zα − ∂¯α ) , b∗α = √ (z̄α − ∂α ) , ∂α :=      , ∂¯α :=       ,
+                2                     2                    ∂ zα          ∂ z̄α
+               1                     1
+         aα = √ (z̄α + ∂α ) , bα = √ (zα + ∂¯α )                              (3.11)
+                2                     2
+or
+      1                    1                   1                   1
+zα = √ (a∗α +bα ) , z̄α = √ (aα +b∗α ) , ∂α = √ (aα −b∗α ) , ∂¯α = √ (bα −a∗α ) .
+       2                    2                   2                   2
+Then the 4-vector
+                                                                     
+                                                                  1   0
+                     pµ = z σµ z̄    µ = 0, 1, 2, 3       σ0 =                        (3.12)
+                                                                  0   1
+
+(σ1 , σ2 , σ3 being the Pauli matrices) is light-like (p0 = |p|) and has been proved
+to correspond to the translation generators of the Poincaré subalgebra of su(2, 2)
+
+                                               8
+– i.e. to the 4-momentum (see [MT69]). Thus, our representation indeed corre-
+sponds to 0-mass particles and can be realized in a space of functions of three
+real variables p = (p1 , p2 , p3 ), in accord with the value dim πθ = 3 (= 12 |Omin |)
+of its Gelfand-Kirillov dimension. The irreducible components of this represen-
+tation are labeled by the (integer) eigenvalues of the operator h = 21 (ϕ̃ ϕ + ϕ ϕ̃)
+(3.4) (which, according to the conventions of [MT69], are equal to minus twice
+the helicity). The vacuum vector belongs to the zero helicity IR and has the
+form                                         
+                        2 −zz̄          2 −p0
+                 |0i = e             = e        , z z̄ = z1 z̄1 + z2 z̄2 ,
+                        π               π
+                                                  Z ∞
+                  4
+                     Z         Z
+        h0 | 0i = 2     d2 z1 d2 z2 e−2zz̄ = 4          p0 e−2p0 dp0 = 1 .     (3.13)
+                 π                                  0
+It can be defined as the unique lowest weight vector (satisfying, by definition,
+Fi |0i = 0, i = 1, 2, 3) that transforms under a 1-dimensional representation of
+the maximal compact subgroup S(U (2) × U (2)) of SU (2, 2):
+                        E1 |0i = 0 = H1 |0i = E3 |0i = H3 |0i ,
+                                                   2
+              (H1 + 2 H2 + H3 ) |0i = (z z̄ − ∂¯ ∂) e−zz̄ = 2 |0i          (3.14)
+                                                   π
+(H1 + 2 H2 + H3 being the generator of the centre, u(1), of s(u(2) ⊕ u(2))). The
+vacuum thus plays the role of a spherical vector.
+                                                                                      (∗)    (∗)
+    The Fock space (F -) representation of the Heisenberg algebra of (aα , bβ )
+splits into two IRs of sp(8, R) which, in turn, split into IRs of u(2, 2) involving
+either, only even or only odd eigenvalues of h (cf. [I67]). The minimal coadjoint
+orbit of M p(8, R), the orbit of the highest root 12 a∗2 1 , is 8 dimensional (see
+Table 1), so that the associated Gelfand-Kirillov dimension is four (the 4th
+quantum number being the helicity).
+    The subgroup U (2, 2) and its centre U (1) provide an example of a reductive
+dual pair in M p(8), U (1) playing the role of a (global) gauge group.
+
+Remark 3.2. The subspace of F spanned by functions e−zz̄ P (z1 , z2 ) where P
+is a polynomial provides a model for the IRs of SU (2), its Hilbert space closure
+being isomorphic to the Bargmann space of analytic functions (see [B]).
+
+
+4     Two types of reductive dual pairs
+Let us look more closely at the example of U (1), U (2, 2) as a dual pair in
+M p(8). The symplectic group Sp(8, R) acts by symplectomorphisms on the 8-
+dimensional vector space W spanned by (a1 , a2 , b1 , b2 ; a∗1 , a∗2 , b∗1 , b∗2 ): it preserves
+both their commutation relations and their conjugation properties. (So does
+its double cover M p(8) which, however, does not act faithfully on W.) The
+“4-spinors” ϕ and ϕ̃ (3.7) define a (complex) Lagrangian polarization in W:
+                          W = V ⊕ V′ ,       ϕα ∈ V ,      ϕ̃α′ ∈ V ′                       (4.1)
+
+                                               9
+as [ϕα , ϕβ ] = 0 = [ϕ̃α′ , ϕ̃β ′ ], while the CCR [ϕα , ϕ̃α′ ] = δαα′ allow to regard the
+elements of V ′ as linear functionals on V; thus, the subspaces V and V ′ of W are
+dual to each other. The subgroup U (2, 2) of M p(8), viewed as an automorphism
+group of W, preserves separately the subspaces V and V ′ – i.e., the Lagrangian
+polarization. Sure, U (1) ⊂ U (2, 2) (the subgroup of automorphisms ut (ϕ) =
+e−it ϕ, ut (ϕ̃) = eit ϕ̃, generated by the helicity invariant h (3.6)) also preserves
+both V and V ′ .
+    A simple example of a (reductive) dual pair which does not preserve any
+Lagrangian subspace of W is given by the entire group of symplectomorphism
+(Sp(8), in our example) and its centre which changes the sign of all creation and
+annihilation operators. The 2-element group Z/(2) of the centre of Sp(2n) can
+be viewed as the 1-dimensional orthogonal group O(1). It turns out that our
+two examples are simple prototypes of a general classification which we proceed
+to describe.
+    Let G and G′ be a dual pair of subgroups of M p(2n). Then they act by
+symplectomorphisms on the 2n dimensional space W. They are said to be
+                            ′
+reductive iff for each G( ) -invariant subspace V ⊂ W its complement Ṽ (such that
+                          (′ )
+W = V ⊕ Ṽ) is also G invariant. We shall only deal with reductive dual pairs
+and will skip the qualification “reductive”. If W1 and W2 are two symplectic
+vector spaces and if (G1 , G′1 ), (G2 , G′2 ) are two dual pairs in the corresponding
+metaplectic groups, then the direct products (G = G1 × G2 , G′ = G′1 × G′2 ) will
+form a dual pair for the symplectic vector space W = W1 ⊕ W2 . Such a dual
+pair is called reducible. A dual pair (G, G′ ) acting on W is called irreducible if it
+cannot be represented that way. An irreducible dual pair (G, G′ ) acting on W is
+said to be of type II if both G and G′ leave a Lagrangian subspace of W invariant
+and of type I otherwise. These two types exhaust all possibilities of irreducible
+dual pairs acting on a complex symplectic space W (or, more generally, if the
+ground field is algebraically closed). For the case of a real W a classification
+appears in the second reference [H89]. We shall content ourselves by giving
+some generic examples that generalize those discussed in the beginning of this
+section.
+
+    We first consider the tensor product W2mn := Rm ⊗ W2n where W2n is a
+(real) 2n dimensional space with symplectic form J = (Jab ) (3.4). Viewing Rm
+as an orthogonal vector space with a O(m)-invariant scalar product we can equip
+W2mn with a symplectic form setting in an appropriate basis ξia , i = 1, . . . , m,
+a = 1, . . . , 2n
+                               [ξia , ξjb ] = δij Jab .                      (4.2)
+Then (O(m), M p(2n)) form a dual pair of type I in M p(2mn) (our O(1) example
+above appearing as a special case).
+   To generalize our type II example, (U (1), U (2, 2)), we consider the tensor
+product space
+                            W8n := Cn ⊗ (V ⊕ V ′ )                         (4.3)
+where V and V ′ are the dual spaces of Dirac conjugate spinors ϕ and ϕ̃ (see
+4.1)). Regarding Cn as a unitary space equipped with a U (n) invariant (positive)
+
+                                           10
+hermitean form we can introduce a symplectic structure on W8n by defining (in
+a suitable basis ϕα
+                  i , ϕ̃jβ ) the non-trivial CCR as
+
+                [ϕα                 α
+                  i , ϕ̃jβ ] = δij δβ ,   i, j = 1, . . . , n ; α, β = 1, . . . , 4 .   (4.4)
+The subgroups U (n) and U (2, 2) of M p(8n) form in this case a dual pair, the
+Weyl generators of u(2, 2),
+                                  Xn
+                                     ϕ̃iα ϕβi                            (4.5)
+                                          i=1
+being U (n) invariant. The Lagrangian subspaces Cn ⊗ V and Cn ⊗ V ′ (spanned
+by ϕαi and ϕ̃jβ , respectively) are both U (n) and U (2, 2) invariant, so that our
+dual pair is indeed of type II.
+    One of the elements of each dual pair (O(m) for type I and U (n) for type
+II) in the above examples is a compact group. This is, sure, not the general
+case but our choice is motivated physically: it allows to interpret this element
+as a global gauge group. We shall encounter infinite dimensional generalization
+of these examples in the quantum field theory context in Section 6.
+
+
+5     Global conformal invariance and infinite di-
+      mensional Lie algebras
+It has been often argued that 2D CFT methods are much too special to allow
+an extension to higher dimensions:
+(i) the appearance of a chiral current algebra with meromorphic correlation
+functions is usually related to the splitting of the (1 + 1)-dimensional light-cone
+into a product of two light rays;
+(ii) the representation theory of Kac-Moody and of Virasoro algebras is playing
+a crucial role in constructing soluble 2D CFT models; there are, on the other
+hand, no local Lie fields in higher dimensions (see [B08] and [T08] for a more
+detailed discussion and for references to the no-go theorem of Robinson and
+Baumann).
+     It was revealed, however, that the existence of a current algebra with ra-
+tional correlation functions is due to a symmetry property: global (rather than
+infinitesimal) conformal invariant (GCI) that implies a strong (Huygens) local-
+ity condition and thereby rationality of correlation functions [NT] in any even
+number of space-time dimensions. Indeed, the fact that global conformal trans-
+formations can map a space-like onto a time-like pair of events, together with
+local commutativity for space-like separations imply that local commutators are
+supported on the light cone
+ (x212 )n [φ1 (x1 ), φ2 (x2 )] = 0   for x212 := (x1 − x2 )2 − (x01 − x02 )2 , n ≫ 0 (5.1)
+(n ≫ 0 meaning n sufficiently large). Combined with the remaining Wightman
+axioms (in particular, with the energy positivity condition) this implies ratio-
+nality of correlation functions of local GCI fields [NT]; more precisely, n-point
+
+                                                11
+Wightman functions are proven to have the form
+
+                         P (xjk )
+Wn (x1 , . . . , xn ) = Q        µ   , µjk ∈ N , P a polynomial, (x2 )+ = x2 + iǫx0 .
+                          (x2jk )+jk
+                    j<k
+                                                                             (5.2)
+    Furthermore, although there are no local scalar Lie fields in four (or higher)
+dimensions ([G68])([B76]), infinite dimensional Lie algebras are generated by
+bifields V (x1 , x2 ) that naturally arise in the operator product expansions of a
+finite set of (say, hermitean, scalar) fields φi of dimension d (> 1):
+
+           (x212 )d φi (x1 ) φj (x2 ) = Nij + x212 Vij (x1 , x2 ) + O((x212 )2 ) ,   (5.3)
+
+where Vij are defined as infinite sums of contributions of (twist two) local con-
+served tensor currents (and the real symmetric matrix Nij is positive definite).
+These bifields are proven (as a consequence of the local conservation laws) to
+be harmonic in each variable ([NST03]):
+
+                                                                   ∂      ∂
+            1 Vij (x1 , x2 ) = 0 = 2 Vij (x1 , x2 ) , k =                  .      (5.4)
+                                                                  ∂ xµk ∂ xkµ
+
+It can be deduced from the analysis of 4-point functions that the commutator
+algebra of the harmonic bifields Vij appearing in (5.1) only closes on the V ’s and
+the unit operator if the local GCI scalar fields φj have dimension d = 2 (d = 1
+corresponding to a free field theory). In that case the bifields V are proven to
+be Huygens bilocal [NRT].
+   The infinite Lie algebras generated by such bilocal fields are characterized
+by the following result of [NRT].
+
+Theorem 5.1. – The harmonic bilocal fields V arising in the expansion (5.3) of
+the GCI hermitean scalar fields φj of dimension d = 2 can be labeled by elements
+M of a unital real matrix algebra M ⊂ Mat (L, R) closed under transposition
+M → t M in such a way that the commutator of VM and VM ′ be given by
+
+            [VM (x1 , x2 ), VM ′ (x3 , x4 )] = ∆13 Vt MM ′ (x2 , x4 ) +
+       +    ∆24 VM t M ′ (x1 , x3 ) + ∆23 VMM ′ (x1 , x4 ) + ∆14 VM ′ M (x3 , x2 ) +
+       +    tr (M M ′ ) ∆12,34 + tr (t M M ′ ) ∆12,43 .                              (5.5)
+
+Here ∆ij is the free field commutator, ∆ij := ∆+     +                  +   +
+                                               ij − ∆ji , and ∆12,ij = ∆1i ∆2j −
+∆+   +
+ i1 ∆j2 where
+
+                                      d3 p           1
+              Z
+      ∆+
+       12 =              e−ipx12             =               , x12 = x1 − x2         (5.6)
+               p0 =|p|             (2π)3 2p0   4π 2 (x212 )+
+
+is the 2-point Wightman function of a free massless scalar field.
+
+
+
+
+                                             12
+    The matrix algebra M is an example of a (finite dimensional) real star alge-
+bra; we shall call it a t-algebra as the star operation is just matrix transposition.
+It can be equipped with a Frobenius inner product
+                                                   X
+                      hM1 , M2 i = tr (t M1 M2 ) =    M1ij M2ij                 (5.7)
+                                                         ij
+
+which is symmetric, positive definite and has the property
+
+                          hM1 M2 , M3 i = hM1 , M3 t M2 i .                    (5.8)
+
+This implies that for every right ideal I ⊂ M its orthogonal complement is
+again a right ideal while its transposed t I is a left ideal. It follows that the
+algebra M is semi-simple so that every M-module is a direct sum of irreducible
+modules.
+    Let now M be irreducible. It then follows from Schur’s lemma (whose real
+version, [L], is more involved than the better known complex one) that its
+commutant M′ in Mat (L, R) coincides with one of the three real division rings:
+the fields of real and complex numbers, R and C, or the (noncommutative)
+ring H of quaternions. In each case the Lie algebra of bilocal fields is a central
+extension of an infinite dimensional Lie algebra that admits a discrete series of
+highest weight representations. Moreover, it was proven (first in the theory of
+a single scalar field of dimension 2 [NST] and eventually for an arbitrary set of
+such fields [NRT]) that in each case we are dealing with a minimal representation
+appearing as a subrepresentation of the Heisenberg algebra. More precisely, the
+bilocal field VM can always be written as a linear combination of normal products
+of free massless scalar fields ϕ. For each of the above irreducible types VM has
+a canonical form:
+                                            N
+                                            X
+                     R:    V (x1 , x2 ) =         : ϕi (x1 ) ϕi (x2 ) :
+                                            i=1
+                                            N
+                                            X
+                     C:    W (x1 , x2 ) =         : ϕ∗j (x1 ) ϕj (x2 ) :
+                                            j=1
+                                            N
+                                            X
+                     H : Y (x1 , x2 ) =           : ϕ+
+                                                     m (x1 ) ϕm (x2 ) : ,      (5.9)
+                                            m=1
+
+where ϕi are real, ϕj are complex and ϕm are quaternionic valued fields (for
+L = N , 2N , and 4N , respectively). We shall denote the corresponding infinite
+dimensional Lie algebra by L(F) for F = R, C, or H.
+    In order to identify the types of Lie algebras L(F) it is convenient to introduce
+a discrete basis. There is a natural expansion of the free massless field ϕ into
+discrete modes since ϕ can be viewed (as any GCI field) as defined on the
+conformal compactification M̄ of Minkowski space M . To this end it is handy
+
+
+
+                                            13
+to use the complex variable parametrization
+                                                                             4
+            (                                                                                )
+                                                                             X
+                                                                         2
+  M̄    =                                          it
+                z = (zα , α = 1, . . . , 4); zα = ℓ uα , t, uα ∈ R, u :=           u2α = 1
+                                                                             α=1
+        =      S3 × S1 /Z/(2) ,                                                         (5.10)
+introduced in [T86] (and later explored in [N] and [NT05]). M is embedded in
+M̄ by setting
+         x                                  1 − x2
+   z=        (x = (x1 , x2 , x3 )) , z4 =          , 2 ω(x) = 1 + x2 − 2 i x0 (5.11)
+        ω(x)                                2 ω(x)
+                                      3
+                                               !
+         2     2     0 2       2
+                                     X
+                                           i 2                  1
+        x := x − (x ) , x =              (x )    , ϕM (x) =          ϕ (z(x)) .
+                                     i=1
+                                                             2πω(x) M̄
+
+Remark 5.1. Factoring Z/(2) = {id, (t, u) → (t+π, −u)} in (5.10) makes sense
+if we view M̄ as a (real) pseudo-Riemannian manifold with metric
+                                                  4
+                                                                !
+              2    dz 2      2    2
+                                                 X
+            ds = 2 = du − dt          for u du =     uα duα = 0       (5.12)
+                    z                            α=1
+
+or if we equip it with a group structure, setting M̄ = U (2) (which is only
+possible in four space-time dimensions – cf. [U]). Viewed as just a smooth
+manifold S3 × S1 /Z/(2) is diffeomorphic to S3 × S1 .
+   A free massless field ϕ(z) on M̄ admits an expansion of the form
+                        ∞
+                       X X  n−1   ℓ
+                                 X  anℓm             
+                                                  ∗
+               ϕ(z) =                          + anℓm hnℓm (z) ,     (5.13)
+                       n=1
+                                       (z 2 )n
+                                  ℓ=0 m=−ℓ
+
+where hnℓm are (suitably normalized) homogeneous (of degree n − 1) harmonic
+polynomials, the spherical harmonics, satisfying
+                                                     ∂
+                     (H − n) hnℓm (z) = 0 for           H=z·
+                                                        +1                              (5.14)
+                                                    ∂z
+(H is the conformal Hamiltonian that generates translations in t),
+                L2 hnℓm (z) = ℓ(ℓ + 1) hnℓm (z) , (L3 − m) hnℓm (z) = 0                 (5.15)
+L = (L1 , L2 , L3 ) being the angular momentum vector operator,
+                                                               
+                              ∂                    ∂         ∂
+              Lj = i εjkℓ zℓ           L 3 = i z2      − z1         ,                   (5.16)
+                             ∂ zk                 ∂ z1      ∂ z2
+        (∗)
+while aν      (where ν is the triple index, ν = (n, ℓ, m)) obey the CCR
+                           [aν , a∗ν ′ ] = δνν ′ (= δnn′ δℓℓ′ δmm′ ) .                  (5.17)
+                                                             (∗) (∗)
+The bilocal fields (5.9) are then expanded into products of aν , aν ′ .
+                                                                     Cutting
+this expansion up to some finite energy level n we can then identify the CR
+(5.5) with the CRs of a classical (real) Lie algebra.
+
+                                              14
+6     The dual pairs (L(F), U (F, N )) and their Fock
+      space representations. The Lie algebra so∗ (4n)
+The analysis of [B07] and [B08] yields the following
+
+Proposition 6.1. The algebras L(F), F = R, C, H are 1-parameter central
+extensions of appropriate completions of the inductive limits of classical real
+matrix algebras:
+
+                       R   : sp(2∞, R) = lim sp(2n, R)
+                                              n→∞
+                       C   : u(∞, ∞) = lim u(n, n)
+                                             n→∞
+                       H   : so∗ (4∞) = lim so∗ (4n) .                        (6.1)
+                                             n→∞
+
+In the free field realization (5.9) the suitably normalized central charge coincides
+with the positive integer N . Moreover, in that case the corresponding bilocal
+field (V, W, Y ) is left invariant under a transformation of the constituent fields
+ϕ by the compact gauge group U (N, F) where
+
+    U (N, R) = O(N ) , U (N, C) = U (N ) , U (N, H) = Sp(2N ) (≡ U Sp(2N )) .
+                                                                          (6.2)
+
+   It is remarkable (albeit disappointing from a physicist’s point of view) that
+the free field realization holds in general.
+
+Theorem 6.2. (i) In any unitary irreducible positive energy representation
+(UIPER) of L(F) the central charge N is a positive integer.
+(ii) All UIPERs of L(F) are realized (with multiplicities) in the Fock space F of
+N × dimR F free hermitean massless scalar fields.
+(iii) The ground states of equivalent UIPERs in F form irreducible representa-
+tions of the gauge group U (N, F) (6.2). This establishes a one-to-one correspon-
+dence between UIPERs of L(F) in the Fock space and the (finite dimensional)
+irreducible representations of U (N, F).
+
+   The proof of this theorem for F = R, C is given in [B07] (the proof of (i) for
+the case of a single scalar field φ is already contained in [NST]); the proof for
+F = H is given in [B08].
+    The Lie algebras sp(2n, R) and u(n, n) were introduced in Section 3. The Lie
+algebra so∗ (4n), associated with the quaternions, can be defined as a subalgebra
+of the algebra u(2n, 2n) of 4n × 4n complex matrices,
+                                                                   
+                                       ∗                      1I O
+    u(2n, 2n) = X ∈ Mat (4n, C); X β = −βX, for β =                          (6.3)
+                                                              O −1I
+
+
+
+
+                                        15
+such that4
+                                                                                
+                ∗                     t               O                        1I
+             so (4n) = X ∈ u(2n, 2n); Xσ = −σX , σ =                                        (6.4)
+                                                       1I                      O
+
+(1I standing for the 2n × 2n unit matrix). It consists of 4n × 4n matrices that
+can be written in the following 2n × 2n block form:
+                 
+         u      v
+ X=                 , u ∈ u(2n) (i.e. u + u∗ = 0), v ∈ so(2n, C), i.e. v + t v = 0 .
+         v∗ − tu
+                                                                                   (6.5)
+(In particular, tr X = 0, so that so∗ (4n) ⊂ su(2n, 2n).) We again view u(2n, 2n)
+(and hence so∗ (4n)) as a sub Lie algebra of sp(8n, R) and consider its oscillator
+representation in which the 4n × 4n matrices X (6.3) are mapped into the Fock
+space operators
+                      
+                        a1
+                     ...
+                      
+                     a2n            ∗      ∗           ∗
+                      b∗1  , ϕ̃ = ϕ β = (a1 , . . . , a2n , −b1 , . . . , −b2n )
+        ϕ̃ X ϕ , ϕ =                                                              (6.6)
+                            
+                      
+                     ...
+                       b∗2n
+
+(cf. Remark 3.1. This construction corresponds to N = 1 in Proposition 6.1
+and Theorem 6.2.) The Chevalley-Cartan basis of the subalgebra so∗ (4n) in
+this realization reads:
+
+          Ei    = a∗i ai+1 + bi+1 b∗i , Fi = Ei∗ , i = 1, . . . , 2n − 1 ,
+        E2n     = a∗2n−1 b∗2n − a∗2n b∗2n−1 , F2n = a2n b2n−1 − a2n−1 b2n ,
+         Hi     = a∗i ai − a∗i+1 ai+1 + b∗i bi − b∗i+1 bi+1 , i = 1, . . . , 2n − 1 ,
+        H2n     = a∗2n−1 a2n−1 + a∗2n a2n + b2n−1 b∗2n−1 + b2n b∗2n .                       (6.7)
+
+The centre u(1) of u(2n, 2n) is generated by the charge operator
+                               2n
+                               X
+                          Q=         (a∗i ai − b∗i bi ) =: a∗ · a − b∗ · b .                (6.8)
+                               i=1
+
+The (non-compact) raising operator Eθ corresponding to the highest root θ =
+        2n
+           αi of so∗ (4n) is
+        P
+α2n−2 +
+          i=1
+
+                    Eθ = E12 , for Eij = a∗i b∗j − a∗j b∗i , 1 ≤ i < j ≤ 2n                 (6.9)
+  4 As explained in [BB] the resulting Lie algebra is isomorphic to the algebra of complex
+                                                                                       
+                                                           O     1I          0         1I
+skew symmetric matrices Y (∈ so(4n, C)) such that Y ∗                 = −                   Y . We
+                                                           −1I O            −1I        0
+share the feelings of Barut and Bracken who call this algebra remarkable.
+
+
+
+                                                 16
+(E2n−12n ≡ E2n ). The commutant H of the principal sℓ2 subalgebra of so∗ (4n)
+is so∗ (4n − 4) ⊕ su(2).
+
+Proposition 6.3. The Lie algebras sp(2) ≃ su(2) (of the compact group
+Sp(2)(≡ U Sp(2)) ≃ SU (2)) with generators
+                   2n
+                            !
+                   X
+    E = a∗ · b :=     a∗i bi , F = b∗ · a , Q = [E, F ] = a∗ a − b∗ b (6.10)
+                      i=1
+
+       ∗
+and so (4n) form a dual pair in sp(8n).
+
+    This proposition enters as part in the argument (for a special case) of The-
+orem 6.2. Its proof uses the fact that the second order Casimir operator C so
+of so∗ (4n) is majorized by the Casimir C u of its maximal compact subalgebra
+u(2n); more precisely, we have the relation
+                                  X
+                                                ∗                             H2
+              C so = C u −                 Eij Eij     for C u = C su +                (6.11)
+                                                                              2n
+                                1≤i<j≤2n
+
+where C su is the sandard quadratic Casimir operator of su(2n) while
+
+                                     H = a∗ · a + b · b ∗                              (6.12)
+
+is the generator of the centre u(1) of u(2n) (see [B08]). Given the fundamental
+weights Λi of so∗ (4n) (such that (Λi | αj ) = δij for i, j = 1, . . . , 2n, where αj
+are the simple roots, Ej = Eaj ), the Fock space vacuum can be identified with
+|2 Λ2n i:
+
+      (Hi − 2 δi2n ) |2 Λ2n i = 0 = Fi |2 Λ2n i = ai |2 Λ2n i = bi |2 Λ2n i .          (6.13)
+
+In accord with Proposition 6.3 (and Theorem 6.2) the vacuum is non-degenerate
+(it is an SU (2) singlet), the UIPERs of lowest weight 2 Λ2n − Λ2n−1 form an
+isospin doublet:
+
+             Fi b∗2n |2 Λ2n i    = 0 = Fi a∗2n |2 Λ2n i ,        i = 1, . . . , 2n ,
+               E b∗j |2 Λ2n i    =    a∗j |2 Λ2n i ,   j = 1, . . . , 2n ;             (6.14)
+                   ×2
+(a∗2     ∗   ∗
+   2n , a2n b2n , b2n ) |2 Λ2n i span an isotriplet of ground state vectors of the type
+|2 Λ2n − 2 Λ2n−1 i etc.
+
+Remark 6.1. For n = 2 the group so∗ (8) is isomorphic to the conformal group
+in six dimensions [BB],
+                           so∗ (8) ≃ so(6, 2) .                        (6.15)
+The degeneracy of the oscillator representation is reflected in the fact that the
+non-compact raising operators Eij satisfy second order equations of the type
+
+                            E12 E34 + E14 E23 = E13 E24 .                              (6.16)
+
+                                              17
+(For so∗ (8) this “nilpotent cone relation” is unique.)
+    Theorem 6.2 provides a link between two parallel developments, one in the
+study of highest weight modules of reductive Lie groups, the other in the work
+of Doplicher-Haag-Roberts [H] on the theory of global gauge symmetry and
+superselection sectors (see [B07] and [T08] for a discussion and references). The
+infinite Lie algebra L(F) and the compact gauge group U (N, F) appear as a
+rather special (limiting) case of a reductive dual pair (Section 4). It would be
+interesting to explore whether other (inequivalent) pairs are encountered in the
+commutator algebra of (spin) tensor bifields that would naturally arise in the
+study of (say, scalar) fields of higher (than two) scale dimension.
+
+Acknowledgments. It is a pleasure to thank my coauthors Bojko Bakalov,
+Nikolay M. Nikolov and Karl-Henning Rehren together with whom are obtained
+the results reported in Sections 5 and 6.
+    I gratefully acknowledge the hospitality of SISSA, Trieste, IHES, Bures-sur-
+Yvette and the Theory Unit of the Department of Physics of CERN during the
+course of this work and the partial support of the Bulgarian National Council
+for Scientific Research under contracts Ph-1406 and DO-02-257.
+
+
+
+
+                                        18
+References
+[B07] B. Bakalov, N.M. Nikolov, K.-H. Rehren, I. Todorov, Unitary positive
+      energy representations of scalar bilocal quantum fields, Commun. Math.
+      Phys. 271 (2007) 223-246; math-ph/0604069.
+[B08] B. Bakalov, N.M. Nikolov, K.-H. Rehren, I. Todorov, Infinite dimensional
+      Lie algebras in 4D conformal quantum field theory, J. Phys. A: Math.
+      Theor. 41 (2008) 194002 (12pp); arXiv:0711.0627 [hep-th].
+[B]    V. Bargmann, On the representations of the rotation group, Rev. Mod.
+       Phys. 34 (1962) 829-845; Group representations on Hilbert spaces of
+       analytic functions, in: Analytic Methods in Mathematical Physics, R.P.
+       Gilbert, R.G. Newton, eds., Gordon and Breach, New York 1970, pp.
+       27-63.
+[BB]   A.O. Barut, A.J. Bracken, The remarkable algebra so∗ (2n), its represen-
+       tations, its Clifford algebra and potential applications, J. Phys. A: Math.
+       Gen. 23:5 (1990) 641-663; ICTP, Trieste preprint IC/88/26.
+[B76] K. Baumann, There are no scalar fields in three or more dimensional
+      space-time, Commun. Math. Phys. 47 (1976) 69-74.
+[CMcG] D.H. Collingwood, W.M. McGovern, Nilpotent Orbits in Semisimple
+     Lie Algebras, Van Nostrand Reinhold, New York 1993.
+[FG09] S. Fernando, M. Günaydin, Minimal unitary representation of SU (2, 2)
+      and its deformations as massless conformal fields and their supersym-
+      metric extensions, arXiv:0908.3624v2 [hep-th].
+[F]    G. Folland, Harmonic Analysis in Phase Space, Princeton Univ. Press,
+       Princeton 1989; review: V. Guillemin, Bull. Amer. Math. Soc. 22:2
+       (1990) 335-398.
+[F09] C. Fronsdal, C. Roger, F. Butin, Deformation quantization on the closure
+      of minimal coadjoint orbits, Lett. Math. Phys. 88 (2009) 271-320.
+[GS05] Wee Teck Gan, G. Savin, On minimal representations, Representation
+      Theory 9 (2005) 46-93.
+[G68] O.W. Greenberg, Absence of interaction in Lie field theories, Commun.
+      Math. Phys. 9 (1968) 13-17.
+[G01] M. Günaydin, K. Koespel, H. Nicolai, Conformal and quasiconformal
+      realizations of exceptional Lie groups, Commun. Math. Phys. 221 (2001)
+      57-76; hep-th/0008063.
+[G06] M. Günaydin, O. Pavlyk, A unified approach to the minimal unitary
+      realizations of noncompact groups and supergroups, JHEP 0609 (2006)
+      050, hep-th/0604077.
+
+
+                                       19
+[H]     R. Haag, Local Quantum Physics: Fields, Particles, Algebras, Springer,
+        Berlin 1992 (412 pp.).
+[H85] R. Howe, Dual pairs in physics: harmonic oscillators, photons, electrons,
+      singletons, in: Applications of Group Theory in Physics and Mathemati-
+      cal Physics, M. Flato, P. Sally, G. Zuckerman (eds.) Lectures in Applied
+      Mathematics 21 AMS, Providence, R.I. 1985, pp. 179-206.
+[H89] R. Howe, Remarks on classical invariant theory, Trans. Amer. Math. Soc.
+      313 (1989) 539-570; Transcending classical invariant theory, J. Amer.
+      Math. Soc. 2:3 (1989) 535-552.
+[I67]   C. Itzykson, Remarks on boson commutation rules, Commun. Math.
+        Phys. 4 (1967) 92-122.
+[J74] A. Joseph, Minimal realizations of spectrum generating algebras, Com-
+      mun. Math. Phys. 36 (1974) 325-338.
+[J76] A. Joseph, The minimal orbit in a simple Lie algebra and its associated
+      maximal ideal, Ann. Sci. Ecole Norm. Sup. Sér. 4, 9 (1976) 1-30.
+[K02] D. Kazhdan, B. Pioline, A. Waldron, Minimal representations, spherical
+      vectors and exceptional theta series, Commun. Math. Phys. 226 (2002)
+      1-40; hep-th/0107222.
+[K99] A.A. Kirillov, Merits and demerits of the orbit method, Bull. Amer.
+      Math. Soc. 36 (1999) 433-488.
+[K10] T. Kobayashi, Algebraic analysis of minimal representations, Publ.
+      RIMS, Kyoto Univ.; arXiv:1001.0224 [math.RT].
+[KM] T. Kobayashi, G. Mano, The Schrödinger model for the minimal repre-
+     sentation of the indefinite orthogonal group O(p,q), arXiv:0712.1769v2
+     [math.RT], July 2008 (167 + iv pp.).
+[L]     S. Lang, Algebra, 3d revised edition, Grad. Texts in Math. 211, Springer,
+        New York 2002.
+[Li00] Jian-Shu Li, Minimal representations & reductive dual pairs, in: J.
+       Adams, D. Vogan, eds. Representation Theory of Lie Groups (Park City,
+       UT 1998) IAS/Park City Math. Ser., AMS 8 (2000) 291-337.
+[Li09] J.-S. Li, B. Sun, Ye Tian, Multiplicity preservation for orthogonal-
+       symplectic and unitary dual pair correspondences, arXiv:0903.1419
+       [math.RT].
+[MT69] G. Mack, I. Todorov, Irreducibility of the ladder representations of
+     U(2,2) when restricted to the Poincaré subgroup, J. Math. Phys. 10
+     (1969) 2078-2085.
+
+
+
+                                       20
+[N]     N.M. Nikolov, Vertex algebras in higher dimensions and globally confor-
+        mal invariant quantum fields, Commun. Math. Phys. 253 (2005) 283-322;
+        hep-th/0307235.
+[NRT] N.M. Nikolov, K.-H. Rehren, I. Todorov, Harmonic bilocal fields gener-
+      ated by globally conformal invariant scalar fields, Commun. Math. Phys.
+      279 (2008) 225-250; arXiv:0711.0628 [hep-th].
+[NST] N.M. Nikolov, Ya.S. Stanev, I.T. Todorov, Four dimensional CFT models
+      with rational correlation functions, J. Phys. A: Math. Gen. 35 (2002)
+      2985-3007; hep-th/0110230.
+[NST03] N.M. Nikolov, Ya.S. Stanev, I.T. Todorov, Globally conformal invari-
+     ant gauge field theory with rational correlation functions, Nucl. Phys.
+     B670 (2003) 373-400; hep-th/0305200.
+[NT]    N.M. Nikolov, I.T. Todorov, Rationality of conformally invariant local
+        correlation functions on compactified Minkowski space, Commun. Math.
+        Phys. 218 (2001) 417-436; hep-th/0009004.
+
+[NT05] N.M. Nikolov, I. Todorov, Elliptic thermal correlation functions and
+      modular forms in a globally conformal invariant QFT, Rev. Mod. Phys.
+      17 (2005) 613-667; hep-th/0403191.
+[T86] I.T. Todorov, Infinite Lie algebras in conformal QFT models, in: A.O.
+      Barut, H.-D. Doebner (eds.) Conformal Groups and Related Symmetries.
+      Physical Results and Mathematical Background, pp. 387-443, Lecture
+      Notes in Physics 261, Springer, Berlin 1986.
+[T08] I. Todorov, Infinite dimensional Lie algebras in 4D conformal field theory,
+      International J. Geom. Methods in Mod. Phys. (IJMMP) 5:8 (2008) 1361-
+      1371; Bures-sur-Yvette preprint, IHES/P/08/23.
+[U]     A. Uhlmann, The closure of Minkowski space, Acta Phys. Pol. 24 (1963)
+        295-296.
+[W]     A. Weil, Sur certains groupes d’opérateurs unitaires, Acta Math. 111
+        (1964) 143-211; Sur la formule de Siegel dans la théorie des groupes
+        classiques, ibid. 113 (1965) 1-87.
+[W3 ]   G.C. Wick, A.S. Wightman, E.P. Wigner, The intrinsic parity of elemen-
+        tary particles, Phys. Rev. 88 (1952) 101-105; for a historical account of
+        this work - see ”E.P. Wigner: An Introduction” by A.S. Wightman, in:
+        Annals of the New York Academy of Sciences 480; published online 16
+        Dec. 2006, pp. xv-xvii.
+
+
+
+
+                                       21
+

@@ -1,0 +1,2170 @@
+                                              To the Fifth Dimension and Back
+
+
+
+
+arXiv:hep-th/0508134v2 17 Nov 2005
+                                                                   Raman Sundrum ∗
+
+
+                                                        Department of Physics and Astronomy
+                                                           The Johns Hopkins University
+                                                              3400 North Charles Street
+                                                            Baltimore, MD 21218, USA
+
+
+                                                                           Abstract
+                                                  Introductory lectures on Extra Dimensions delivered at TASI 2004.
+
+
+                                     1         Introduction
+                                     There are several significant motivations for studying field theory in higher
+                                     dimensions: (i) We are explorers of spacetime structure, and extra spatial
+                                     dimensions give rise to one of the few possible extensions of relativistic space-
+                                     time symmetry. (ii) Extra dimensions are required in string theory as the
+                                     price for taming the bad high energy behavior of quantum gravity within a
+                                     weakly coupled framework. (iii) Extra dimensions give rise to qualitatively
+                                     interesting mechanisms within effective field theory that may play key roles
+                                     in our understanding of Nature. (iv) Extra dimensions can be a type of
+                                     “emergent” phenomenon, as best illustrated by the famous AdS/CFT corre-
+                                     spondence.
+                                         ∗
+                                             sundrum@pha.jhu.edu
+
+
+
+                                                                                1
+    These lectures are intended to provide an introduction, not to the many
+attempts at realistic extra-dimensional model-building, but rather to cen-
+tral qualitative extra-dimensional mechanisms. It is of course hoped that
+by learning these mechanisms in their simplest and most isolated forms, the
+reader is well-equipped to work through more realistic incarnations and com-
+binations, in the literature, or better yet, as products of their own invention.
+(Indeed, to really digest these lectures, the reader must use them to under-
+stand some particle physics models and issues. The other TASI lectures are
+a good place to start.) When any of the examples in the lectures yields a
+cartoon of the real world, or a cartoon solution to real world problems, I
+point this out.
+    The lectures are organized as follows. Section 2 gives the basic language
+for dealing with field theory in the presence of extra dimensions, “compact-
+ified” in order to hide them at low energies. It is also shown how particles
+of different spins in four dimensions can be unified within a single higher-
+dimensional field. Section 3 illustrates the “chirality problem” associated
+with fermions in higher dimensions. Section 4 illustrates the emergence of
+light scalars from higher dimensional theories without fundamental scalars,
+computes quantum corrections to the scalar mass (potential), and assesses
+how natural these light scalars are. Section 5 describes how extra dimensional
+boundaries (and boundary conditions) can be derived from extra dimensional
+spaces without boundary, by the procedure of “orbifolding”. It is shown how
+the chirality problem can thereby be solved. The localization of some fields to
+the boundaries is illustrated. Section 6 describes the matching of the higher
+dimensional couplings to the effective four-dimensional long-distance cou-
+plings. In Section 7, the issue of non-renormalizability of higher-dimensional
+field theory is discussed and the scale at which a UV completion is required
+is identified. Higher-dimensional General Relativity is discussed in Section
+8, in partiucular the emergence of extra gauge fields at low energies as well
+as scalar “radion” fields (or “moduli”) describing massless fluctuations in
+the extra-dimensional geometry. Section 9 illustrates how moduli may be
+stabilized to fix the extra-dimensional geometry at low energies. Section
+10 describes the unsolved Cosmological Constant Problem as well as the
+less problematic issue of having a higher-dimensional cosmological constant.
+Section 10 shows that a higher dimensional cosmological constant leads to
+“warped” compactifications, as well as the phenomenon of “gravity localiza-
+tion”. Section 11 shows that strongly warped compactifications naturally
+lead to hierarchies in the mass scales appearing in the low energy effective
+
+                                       2
+four-dimensional description. Section 12 shows that when warped hierarchies
+are used to generate the Planck/weak-scale hierarchy, the extra-dimensional
+graviton excitations are much more strongly coupled to matter than the
+massless graviton of nature, making them observable at colliders. Section
+13 shows how flavor hierarchies and flavor protection can arise naturally
+in warped compactification, following from a study of higher-dimensional
+fermions. Section 14 studies features of gauge theory, including the emer-
+gence of light scalars, in warped compactifications.
+    The TASI lectures of Ref. [1] and Ref. [2], and the Cargese lectures of
+Ref. [3], while overlapping with the present lectures, also contain complemen-
+tary topics and discussion. The central qualitative omissions in the present
+lectures are supersymmetry, which can combine with extra dimensions in
+interesting ways (see the TASI lectures of Refs. [1] and [4]), a longer discus-
+sion of the connection of extra dimensions to string theory [5] [6], a discussion
+of fluctuating “branes” (see Refs. [1] and [3]), and the (very illuminating)
+AdS/CFT correspondence between some warped extra-dimensional theories
+and some purely four-dimensional theories with strong dynamics [7] [8] [9].
+Phenomenologically, there is no discussion of the “Large Extra Dimensions”
+scenario [10], although these lectures will equip the reader to easily under-
+stand it.
+    The references included are meant to be useful and to act as gateways to
+the broader literature. They are not intended to be a complete set. I have
+taken moderate pains to get incidental numbers right in the notes, but I am
+fallible. I have taken greater pains to ensure that important numbers, such
+as exponents, are correct.
+
+
+2         Compactification and Spin Unification
+Let us start by considering SU(2) Yang-Mills (YM) theory in five-dimen-
+sional (5D) Minkowski spacetime,1 in particular all dimensions being infinite
+in size,
+                      Z     Z                      
+                          4            1        MN
+             S = Tr d x dx5 − FM N F
+                                       4
+                      Z     Z                               
+                          4            1      µν    1     µ5
+                = Tr d x dx5 − Fµν F − Fµ5 F                   ,        (2.1)
+                                       4            2
+    1
+        Our metric signature convention throughout these lectures is (+ − . . . −).
+
+
+                                               3
+where M, N = 0, 1, 2, 3, 5 are 5D indices, while µ, ν = 0, 1, 2, 3 are 4D indices.
+We use matrix notation for SU(2) so that the gauge field is AM ≡ AaM τa ,
+where τa are the isospin Pauli matrices. We will study this theory in an axial
+gauge, A5 = 0. To see that this is a legitimate gauge, imagine that AM is in
+a general gauge and consider a gauge transformation,
+                         i
+                    A′M ≡ Ω−1 DM Ω, Ω(xµ , x5 ) ∈ SU(2),                    (2.2)
+                         g
+where g is the gauge coupling. It is always possible to find Ω(x, x5 ), such
+that A′5 = 0.                                       R x5 ′       ′
+   Ex. Check that this happens for Ω(x, x5 ) = Peig 0 dx5 A5 (x,x5 ) , where P
+represents the path-ordering of the exponential.
+   Ex. Check that in this gauge,
+                     Z      Z                              
+                         4            1      µν  1        2
+              S = Tr d x dx5 − Fµν F + (∂5 Aµ ) .                         (2.3)
+                                      4          2
+   Let us now compactify the fifth dimension to a circle, so that x5 ≡ Rφ,
+where R is the radius of the circle and φ is an angular coordinate −π ≤ φ ≤ π.
+See Fig. 1. We can Fourier expand the gauge field in this coordinate,
+                                           ∞
+                                           X
+                Aµ (xµ
+                         , φ) = A(0)
+                                 µ (x) +         (A(n)
+                                                   µ (x)e
+                                                         inφ
+                                                             + h.c.).       (2.4)
+                                           n=1
+
+But now we can no longer go to axial gauge; in general our Ω above will not
+be 2π-periodic. The best we can do is go to an “almost axial” gauge where
+                                  (0)
+A5 is φ-independent, A5 (x, φ) ≡ A5 (x), where the action can be written
+               Z     Z π                                              
+                  4               1         µν   1     (0) 2  1      2
+     S = Tr d x           dφR − Fµν F + (Dµ A5 ) + (∂5 Aµ )
+                       −π         4              2            2
+                   Z      
+                                1                       1    (0) 2
+         = 2πR Tr d4 x − (∂µ A(0)                (0) 2
+                                      ν − ∂ν Aµ ) + (∂µ A5 )             (2.5)
+                                2                       2
+              X∞                                                 
+                     1      (n)       (n) 2    n2 (n) 2         3
+            +      − |∂µ Aν − ∂ν Aµ | + 2 |Aµ | + O(A ) ,
+              n=1
+                     2                         R
+
+showing that the 5D theory is equivalent to a 4D theory with an infinite tower
+of 4D fields, with masses, m2n = n2 /R2 . This rewriting of 5D compactified
+physics is called the Kaluza-Klein (KK) decomposition.
+
+                                           4
+                                                                  xµ
+
+
+
+
+                                         R
+                                                              x5 ≡ Rφ
+
+
+
+
+                Figure 1: A 5D hypercylindrical spacetime
+
+   Ex. Show that if AM is in a general gauge it can be brought to almost
+axial gauge via the (periodic) gauge transformation
+                                    Rφ   ′      ′       (0)
+                   Ω(x, φ) ≡ Peig 0 dφ RA5 (x,φ ) e−igA5 (x)φ .         (2.6)
+    Note that the sum over n of the fields in any interaction term must be
+zero since this is just conservation of fifth dimensional momentum, where for
+                                                           (n)∗
+convenience we define the complex conjugate modes, Aµ , to be the modes
+corresponding to −n. In this way a spacetime symmetry and conservation
+law appears as an internal symmetry in the 4D KK decomposition, with
+internal charges, n.
+    Since all of the n 6= 0 modes have 4D masses, we can write a 4D effec-
+tive theory valid below 1/R involving just the light A(0) modes. Tree level
+matching yields
+                              Z                                      
+                                  4      1 (0) (0)µν 1          (0) 2
+           Seff ∼ 2πR Tr d x − Fµν F                 + (Dµ A5 ) .       (2.7)
+               E≪ R 1                    4             2
+The leading (renormalizable) non-linear interactions follow entirely from the
+4D gauge invariance which survives almost axial gauge fixing. We have a
+
+                                         5
+                           m4D                        complex field
+                                                     charged under
+                                                     5th momentum
+
+
+
+                         n=4
+
+                         n=3
+
+                         n=2
+
+         4D              n=1
+      effective
+       theory            n=0
+                                          J =0        J =1
+
+                  Figure 2: 4D KK spectrum of 5D gauge field
+
+theory of a 4D gauge field and gauge-charged 4D scalar, unified in their
+higher-dimensional origins. This unification is hidden along with the extra
+dimension at low energies, but for E ≫ 1/R the tell-tale “Kaluza-Klein”
+(KK) excitations A(n) are accessible, and the full story can be reconstructed
+in principle.
+    Ex. Check that almost axial gauge is preserved by 4D gauge transforma-
+tions, Ω(x) (independent of φ).
+    Our results are summarized in Fig. 2.
+
+
+3    5D Fermions and the Chirality Problem
+To proceed we need a representation of the 5D Clifford algebra, {ΓM , ΓN } =
+2ηM N . This is straightforwardly provided by
+
+                             Γµ ≡ γµ , Γ5 ≡ −iγ5 ,                      (3.1)
+
+
+
+
+                                      6
+where the γ’s are the familiar 4D Dirac matrices. Therefore, 5D fermions are
+necessarily 4-component spinors. We decompose them as
+                                     ∞
+                                     X
+                       Ψα (x, φ) =          Ψα(n) (x)einφ .             (3.2)
+                                     n=−∞
+
+Plugging this into the 5D Dirac action gives
+             Z    Z
+                4
+    SΨ =       d x dx5 Ψ(iDM ΓM − m)Ψ
+             Z    Z
+        =      d x dx5 Ψ(iDµ γ µ − m)Ψ − Ψγ5 ∂5 Ψ + igΨA5 γ5 Ψ
+                4
+                                                                (3.3)
+                  Z                              n  (n)
+                         X∞
+                     4         (n)     µ
+        = 2πR d x            Ψ       iγ ∂µ − m − i γ5 Ψ + O(ΨAΨ).
+                        n=−∞
+                                                  R
+
+We see that we get a tower of 4D Dirac fermions labelled by integer n (no
+longer positive), with physical masses,
+
+                                               n2
+                             m2phys = m2 +        .                     (3.4)
+                                               R2
+For small m, this is illustrated in Fig. 3. These fermions are coupled to the
+gauge field KK tower, again with all interactions conserving 5D momentum,
+the sum over n of all 4D fields in an interaction adding up to zero.
+    At low energies, E ≪ 1/R, we can again get a 4D effective action for the
+light n = 0 modes,
+                   Z      n                                         o
+                       4     (0)   µ          (0)     (0)   (0) (0)
+    Seff = 2πR d x Ψ (iγ Dµ − m)Ψ + igΨ γ5 A5 Ψ                       , (3.5)
+           1
+        E≪ R
+           1
+        m≪ R
+
+                                                               (0)
+where the covariant derivative contains only the gauge field Aµ . Note that
+                                                    (0)
+we also have a Yukawa coupling to the 4D scalar, A5 , of the same strength as
+the gauge coupling, so-called gauge-Yukawa unification. The idea that the
+Higgs particle may originate from extra-dimensional components of gauge
+fields was first discussed in Refs. [11].
+    An unattractive feature in this cartoon of the real world, emerging below
+1/R, is that the necessity of having Dirac 4-component spinor representations
+
+                                      7
+                    m4D
+
+
+
+
+                    4/R
+
+                    3/R
+
+                    2/R
+
+                    1/R
+
+                              m
+
+                                          Left       Right
+
+
+                 Figure 3: 4D KK spectrum of 5D fermion
+
+of 5D Lorentz invariance has resulted in having 4-component non-chiral 4D
+fermion zero-modes. The Standard Model is however famously a theory of
+chiral Weyl 2-component fermions. Even as a cartoon this looks worrying.
+This general problem in theories of higher dimensions is called the “chirality
+problem” and we will return to deal with it later.
+
+
+4    Light Scalar Quantum Corrections
+Given that light scalars are unnatural in (non-supersymmetric) quantum field
+                                                                (0)
+theories, it is rather surprising to see a massless 4D scalar, A5 , emerge from
+higher dimensions. Of course, we should consider quantum corrections to our
+classical story and see what happens to the scalar mass. From a purely 4D
+effective field theory viewpoint we would expect there to be large divergent
+corrections to the scalar mass coming from its gauge and Yukawa couplings,
+from diagrams such as Fig. 4,
+
+                                           g42 2
+                            δm2scalar ∼        Λ ,                        (4.1)
+                                          16π 2 UV
+
+                                          8
+                             (0)
+                           Aµ
+
+
+
+          scalar
+                                                             Ψ
+
+
+        Figure 4: Some quantum corrections to 4D scalar self energy
+
+suggesting that the scalar is naturally very heavy. But from the 5D viewpoint
+A5 is massless because it is part of a 5D gauge field, whose mass is protected
+by 5D gauge invariance. So the question is which viewpoint is correct?
+    To find out let us first compute the 1-fermion-loop effective potential for
+  (0)                                           (0)
+A5 [12]. For this purpose we treat a ≡ gA5 as completely constant, and
+Aµ = 0. Then,
+                 Z     X           h             n      i
+      SΨ = 2πR d4 x         Ψ(n)(x) i6 ∂ − m − i     − a γ5 Ψ(n)(x),     (4.2)
+                         n
+                                                   R
+
+where
+                                   6 ∂ ≡ γ µ ∂µ .                         (4.3)
+Since a is constant,
+                Z 4 X         h            n     i
+                   dp     (n)
+     SΨ = 2πR         4
+                         Ψ (p) 6 p − m − i    − a γ5 Ψ(n)(p).             (4.4)
+                  (2π) n                    R
+
+After Wick rotating, this gives
+          X        Z 4            h           n     i
+      E                dp     (n)
+     SΨ =     2πR          4
+                             Ψ (p) 6 p + im +    − a γ5 Ψ(n)(p).          (4.5)
+            n
+                      (2π)                     R
+
+Integrating out the fermions by straightforward Gaussian Grassman integra-
+tion,
+                    Y      h            n         i
+        e−Veff =        det 6 p + im +       − a γ5
+                    p,n
+                                          R
+                        (                                         )
+                          X Z d4 p           h           n     i
+                = exp                 4
+                                        tr ln 6 p + im +    − a γ5 . (4.6)
+                           n
+                                 (2π)                     R
+
+                                         9
+From now on, I will simplify slightly by considering a U(1) gauge group
+rather than SU(2). All subtleties will come from finite R, so we focus on
+                                      "                               #
+         ∂Veff       X Z d4 p              n              1
+               = −               4
+                                    tr − 2 γ5               n
+                                                                 
+          ∂R          n
+                           (2π)           R    6 p + im +   R
+                                                              − a  γ5
+                      Z             "                           #
+                   X      d4 p        n 6 p − im + Rn − a γ5
+               =               4
+                                 tr      γ
+                                        2 5 2            2
+                   n
+                         (2π)         R     p + Rn − a + m2
+                   X Z d4 p            4n(n − a)
+               =                                       ,                (4.7)
+                   n
+                         (2π) p + (n − a)2 + m2
+                               4   2
+
+
+where we have gone to R ≡ 1 units in the last line.
+    Naively, this integal and sum over n is quintically divergent! So let us care-
+fully regulate the calculation by adding Pauli-Villars fields, in a 5D gauge-
+invariant manner. These fields have the same quantum numbers as Ψ, but
+have cut-off size masses m → ΛUV , some with Bose rather than Fermi statis-
+tics. Thereby,
+              X Z d4 p                                        
+      ∂Veff                      4n(n − a)           regulator
+            =                                    +                <∞.        (4.8)
+       ∂R            (2π)4 p2 + (n − a)2 + m2          terms
+              n
+
+The regulator terms resemble the physical term except for having cutoff size
+masses and with signs (determined by the statistics of the regulator field)
+chosen in such a way that the entire expression converges. The big trick for
+doing the sum on n is to replace it by a contour integral,
+             Z 4 I                                             
+     ∂Veff      d p           1            4z(z − a)
+           =            dz                                + Reg. ,     (4.9)
+      ∂R       (2π)4 C e2πiz − 1 p2 + (z − a)2 + m2
+where the contour is shown in Fig. 5, following from the simple poles of the
+factor 1/(e2πiz −1) and from the residue theorem. The semi-circles at infinity
+needed to have a closed contour are irrelevant because the integrand vanishes
+rapidly enough there, precisely because of the addition of the regulator terms.
+We can deform the contour to that shown in Fig. 6 without encountering
+any singularities of the integrand, so that by the residue theorem,
+                            Z 4 "             p
+          ∂Veff                dp      a + i p2 + m2
+                  = −4πi                       √
+           ∂R                 (2π)4 e2πia e−2π p2 +m2 − 1
+                                                p                  #
+                                          a − i p2 + m2
+                                      +          √          + Reg. .     (4.10)
+                                                   2  2
+                                        e2πia e2π p +m − 1
+
+                                       10
+                                                                z
+                                 √2
+                             i    p +Λ2UV
+
+
+
+
+                             √
+                             i    p2 +m2                        C
+
+                 -3     -2            -1         a 1   2   3
+                                 √2
+                          −i       p +m2
+
+
+
+
+                                 √2
+                         −i       p +Λ2UV
+
+
+
+
+           Figure 5: Contour for turning KK sum into integral
+
+We can also write this as
+                          z       }|        {
+               Z 4 " p 2             2
+                                                  p
+ ∂Veff             dp         p + m − ia             p2 + m2 + ia
+        = 4π                      √           −          √
+  ∂R              (2π)4 e2πia e−2π p2 +m2 − 1 e2πia e2π p2 +m2 − 1
+                                                        √        z}|{ 
+                             p                  2πia −2π p2 +m2
+                                               e e              − 1 
+                           +( p2 + m2 − ia)               √
+                                                             2  2
+                                                 e2πia e−2π p +m − 1
+                                                    #
+                             p
+                           −( p2 + m2 − ia) + Reg. ,                 (4.11)
+
+where we have just added and subtracted the same quantity in the last two
+terms (not counting the regulator terms). Note that the overbraced terms
+cancel out, leaving
+                      Z 4 "            p                  !
+         ∂Veff           dp              p2 + m2 − ia
+                 = 4π            −             √            + c.c.
+          ∂R           (2π)4                      2  2
+                                   e−2πiaR e2πR p +m − 1
+                                                 #
+                              p               
+                           −     p2 + m2 − ia      + Reg.          (4.12)
+
+
+                                            11
+                                                                  z
+                                  √2
+                              i    p +Λ2UV
+
+
+
+
+                              √2                     −C1
+                              i    p +m2
+
+
+
+                  -3     -2            -1           a 1   2   3
+                                  √                   −C2
+                          −i          p2 +m2
+
+
+
+
+                                  √2
+                          −i       p +Λ2UV
+
+
+
+
+                  Figure 6: Deformed contour for KK sum
+
+where we have put back R explicitly, by dimensional analysis.
+   Now let us integrate with respect to R,
+                   Z 4 n                         √             
+                       dp                     −2πR p2 +m2 2πiaR
+          Veff =              − 4Re ln   1 − e           e
+                     (2π)4
+                              p               o
+                       −4πR      p2 + m2 − ia     + Reg.
+                        + irrelevant const.                             (4.13)
+
+In the R → ∞ limit, Veff must be independent of a since certainly all potential
+terms for gauge fields vanish by gauge invariance as usual. This yields the
+identity,
+                         Z 4
+                            dp p 2
+        Veff −→ − 4πR            ( p + m2 − ia) + Reg. ≡ ΛR ,            (4.14)
+             R→∞           (2π)4
+
+where Λ is a constant independent of a and R.
+    Ex. Directly show the cancellation of a-dependence in the right hand side
+of eq. (4.14) by carefully writing out the regulator terms.
+
+                                               12
+                                 Veff
+
+
+
+
+                                                      1                (0)
+                                                                  RgA5
+                                              True
+                                             vacuum
+
+
+                                                (0)
+Figure 7: Quantum effective potential for A5 . (The potential is not exactly
+sinusoidal, but it is periodic.)
+
+   Using this identity in eq. (4.13) yields
+                    Z 4                      √             
+                        dp                −2πR p2 +m2 2πiaR
+     Veff = ΛR − 4           Re ln   1 − e           e        + Reg.     (4.15)
+                      (2π)4
+
+   This formula has some remarkable properties. The first term is indeed
+highly cutoff dependent, but it does not depend on a. The integrand of
+the second term behaves as e−2πRp for large p and therefore the p integrals
+converge. The regulator terms are suppressed by e−2πRΛUV factors and can
+be completely neglected for ΛUV R ≫ 1 (or more formally, for ΛU V → ∞).
+We therefore drop the a-dependent regulator terms from now on.
+   Finally, combining complex exponentials we arrive at our final result,
+                       Z 4                 √
+                          dp            −4πR p2 +m2
+       Veff = ΛR − 2           ln  1 + e
+                         (2π)4
+                                          √                      
+                                     −2πR p2 +m2              (0)
+                                 −2 e            cos 2πRgA5         , (4.16)
+
+                                               (0)
+which is illustrated in Fig. 7 . For small A5 , this can be approximated,
+
+
+
+
+                                        13
+                                                                                     (n)
+                              Aµ                                                  Aµ
+
+
+                                               +
+        A5
+
+
+      Figure 8: Examples of gauge loop contribution to A5 potential
+
+                  Z           (                                        !
+                       dp 4                                   √2
+                                                               p +m2
+   Veff ∼ ΛR +                     − 4 ln 1 − e−2πR
+                      (2π)4
+                                                           
+                                                  √
+                                    2     e−2πR p2 +m2
+                                 (0)                       
+                          − 2πRgA5               √ 2 2 2                                   (4.17)
+                                          1 − e−2πR p +m
+                                                                                          
+                                        √                       )          √
+              4      e−2πR                p2 +m2
+                                             e−4πR                             p2 +m2
+           (0)                                               
+    + 2πRgA5                √       2 +        √       4  .
+                          −2πR p2 +m2          −2πR p2 +m2
+                    6 1−e                   1−e
+
+                                                                               (0)
+We see immediately that the vacuum has non-vanishing hA5 i,
+                                    D          E        1
+                                         (0)
+                                        A5         ∼      ,                                    (4.18)
+                                                       Rg
+
+for m < 1/R.
+    Let us now return from considering U(1) gauge group back to SU(2).
+Nothing much changes as far as the Ψ loop contribution
+                                                 p         we have just con-
+           (0)                             (0)         2
+sidered (A5 is just to be replaced by |A5 | ≡ trA5 , where the trace is
+over gauged isospin) but now there are also diagrams involving gauge loops
+                           (0)
+which contribute to the A5 effective potential. See Fig. 8. By similar
+methodology, these give a contribution illustrated in Fig. 9.
+    We see that there is a competition now between the contribution from
+                                            (0)
+gauge loops which prefers a vacuum at A5 = 0 versus the fermion loops
+                               (0)
+which prefer a vacuum at |A5 | 6= 0. But clearly if we include sufficiently
+                                                                       (0)
+many identical species of Ψ, their contribution must dominate, and |A5 | ∼
+                (0)
+1/(Rg). Since A5 is an isovector, a non-zero expectation necessarily breaks
+the gauge group SU(2) down to U(1). One can think of this as a caricature
+
+                                               14
+                                 Veff
+
+
+
+
+                                                                      (0)
+                                                                 RgA5
+
+
+
+
+        Figure 9: Result of gauge loop contribution to A5 potential
+
+of electroweak symmetry breaking where the preserved U(1) is electromag-
+               (0)
+netism and A5 is the Higgs field! We refer to it as “radiative symmetry
+breaking” (also the “Hosotani mechanism” [12]) because it is a loop effect
+that sculpted out the symmetry breaking potential.
+    In this symmetry breaking vacuum or Higgs phase, we can easily estimate
+the physical mass spectrum,
+
+                          mγ (0) = 0
+                                     1
+                          mW ± (0) ∼
+                                   rR
+                                               1     1
+                          mΨ(0) ∼       m2 +    2
+                                                  −→
+                                               R m→0 R
+                                    1
+                          mKK ∼
+                                    R
+                                          g2
+                          m2“Higgs” ∼            .                      (4.19)
+                                        32π 3 R3
+   Now this is certainly an interesting story theoretically, but it is surely
+dangerous to imagine anything like this happening in the real world because
+we are predicting mKK ∼ mW , and such light KK states should already have
+been seen. However, there is a simple way to make the KK scale significantly
+
+
+                                        15
+larger than mW , by making
+                                D     E  1
+                                  (0)
+                                 A5 ≪      .                            (4.20)
+                                        Rg
+                      (0)
+Note that for small A5 we have
+                   Ψ–loop     gauge–loop
+          Veff = Veff     + Veff                 ∼       ΛR
+                                               small a
+
+                    + [c1 − c2 (m)N] (Ra)2 + [c3 + c4 (m)N] (Ra)4 ,     (4.21)
+
+where the c’s are order one and positive, and c2 , c4 depend on the 5D fermion
+mass m, and N is the number of species of fermions. Now let us tune m to
+achieve
+
+                              −c1 + c2 (m)N ≡ ε ≪ 1
+                                c3 + c4 (m)N ∼ O(1) ,                   (4.22)
+
+from which it follows that there is a local minimum of the effective potential
+(a possibly cosmologically stable, false vacuum) with
+                                         √
+                                   (0)     ε
+                                 A5 ∼        .                          (4.23)
+                                         gR
+This yields the hierarchy,
+                                      √
+                                       ε √
+                             mW ± ∼     ∼ εmKK .                        (4.24)
+                                      R
+
+5    Orbifolds and Chirality
+If we ask whether our results thusfar could be extended to a realistic model
+of nature, with the standard model as a low energy limit, we encounter some
+big problems, not just problems of detail:
+    a) The previously mentioned chirality problem.
+    b) Yukawa couplings of the standard model vary greatly. Our low energy
+fermion modes seem to have Yukawa couplings equal to their gauge coupling,
+a reasonable cartoon of the top quark but not of other real world fermions.
+    A very simple way of solving (a) is to replace the fifth dimensional circle
+by an interval. The two spaces can be technically related by realizing the
+
+                                          16
+                                  π
+                             φ= +
+            φ=0              φ= −
+                                  π        Identify            φ=0     φ=π
+                                         +φ with −φ
+                                      (i.e. x5 with −x5 )
+
+                                                            φ=0             φ=π
+                                                            x5 =0          x5 =πR
+
+
+
+                  Figure 10: Orbifolding the circle to an interval
+
+interval as an “orbifold” of the circle. This is illustrated in Fig. 10, where the
+points on the two hemispheres of the circle are identified. Mathematically,
+we identify the points at φ or x5 with −φ or −x5 . In this way the physical
+interval extends a length πR, half the circumference of our original circle.
+This identification is possible if we also assign a “parity” transformation to
+all the fields, which is respected by the dynamics (i.e. the action). The action
+we have considered above has such a parity, given by
+                                                             (0)     (0)
+               P ( x5 ) = −x5 P (Aµ ) = +Aµ P (A5 ) = −A5
+                                                                                    (5.1)
+                                 P (ΨL) = +ΨL P (ΨR ) = −ΨR ,
+
+precisely when the 5D fermion mass vanishes, m = 0. We consider this case
+for now.
+    Ex. Check that the action is invariant under this parity transformation.
+    With such a parity transformation we continue to pretend to live on a
+circle, but with all fields satisfying
+
+                           Φ(xµ , −x5 ) = P (Φ)(xµ , x5 ) .                         (5.2)
+
+That is, the degrees of freedom for x5 < 0 are merely a reflection of degrees
+of freedom for x5 > 0, they have no independent existence. Of course we also
+require circular periodicity,
+
+                            Φ(xµ , φ + 2π) = Φ(xµ , φ) .                            (5.3)
+
+These conditions specify “orbifold boundary conditions” on the interval, de-
+rived from the the circle, which of course has no boundary.
+
+
+                                           17
+    We can write out the mode decompositions (in almost axial gauge) for
+all the fields subject to orbifold boundary conditions,
+                            ∞
+                            X
+             Aµ (x, φ) =          Aµ(n) (x) cos(nφ)
+                            n=0
+
+              A5 (x, φ) = 0                            Lost “Higgs”!
+                            ∞
+                            X       (n)
+             ΨL (x, φ) =          ΨL (x) cos(nφ)
+                            n=0
+                            ∞
+                            X       (n)                       (0)
+             ΨR (x, φ) =          ΨR (x) sin(nφ)        Lost ΨR !         (5.4)
+                            n=1
+
+One unfortunate consequence we see is that A5 has no modes, in particular
+orbifolding has eliminated our candidate Higgs! The good consequence is for
+the chirality problem, in that the massless right-handed fermion is eliminated,
+only the massless left handed fermion mode is left. The low energy effective
+theory below 1/R is just
+                          Z                                  
+                             4      1      
+                                        (0) 2     (0)   µ (0)
+           Seff = 2πR d x − Fµν + ΨL iDµ γ ΨL .                           (5.5)
+               E≪ R1                4
+
+                                                             (0)
+With SU(2) gauge group, if Ψ is an isodoublet (so that ΨL is an isodoublet),
+the only possible gauge invariant mass term for the light mode,
+
+                               ΨL iα ΨL jβ ǫij ǫαβ ,                      (5.6)
+
+vanishes by fermi statistics. Therefore we apparently have a chiral effective
+gauge theory below 1/R. Unfortunately this theory is afflicted by a sub-
+tle non-perturbative “Witten anomaly”, so the theory is really unphysical.
+However, if we consider Ψ to be in the isospin 3/2 representation, we again
+get a chiral gauge theory, but now not anomalous in any way.
+    Having seen that the chirality problem is soluble, we need to recover our
+Higgs field. (For discussion of related mechanisms and further references see
+the TASI review of Ref. [13].) To do this we must enlarge our starting gauge
+group, from
+                                SU(2) ∼= SO(3)                          (5.7)
+
+
+                                          18
+to SO(4). Gauge fields are conveniently thought of as anti-symmetric matri-
+ces, Aij
+      M , in the fundmental gauge indices i, j = 1, 2, 3, 4. For simplicity we
+choose fermions in the fundamental representation, Ψi . The action,
+                 Z    Z   n 1
+                    4                     1              1        (0)
+         S = tr d x dx5 − Fµν F µν + (∂5 Aµ )2 + (Dµ A5 )2
+                              4           2              2
+                                                                      o
+                                                            ij(0)
+                          + ΨiDµ γ µ Ψ − Ψγ5 ∂5 Ψ + igΨi A5 γ5 Ψj , (5.8)
+
+is invariant under the orbifold parity given by
+        ˆ           ˆ          ˆ             ˆ
+  P (Aµîj ) = +Aµîj   P (A5îj ) = −A5îj          P (ΨLî ) = +ΨLî       P (ΨRî ) = −ΨRî
+                                                                                                  (5.9)
+  P (Aµî4 ) = −Aµî4 P (A5î4 ) = +A5î4 P (ΨL4 ) = −ΨL4 P (ΨR4 ) = +ΨR4 ,
+
+where î, jˆ = 1, 2, 3.
+   Ex. Check by mode decomposition that this leaves 4D massless fields,
+                              ˆ
+                          Aµîj(0) ,   A5î4 (0) ,        ΨLî(0) ,   ΨR4(0) ,                   (5.10)
+
+that is, a 4D SO(3) gauge field, a 4D Higgs triplet of SO(3), a left-handed
+fermion triplet of SO(3), and a right-handed singlet of SO(3).
+   This illustrates how (orbifold) boundary conditions on extra dimensions
+can break the gauge group of the bulk of the extra dimensions. The low-
+energy effective theory is given by
+                          Z     n 1
+                                       (0) µν (0)  1
+            Seff = 2πR d4 x − Fµν         F       + (Dµ A5î4 (0) )2
+                   1
+                E≪ R                4              2
+                                   + ΨLî(0) (iDµ γ µ ΨL(0) ) î + ΨR4(0) i∂µ γ µ ΨR4(0)
+                                                                                    o
+                                              (0) î4(0)  (0)        (0) î4(0) (0)
+                                   + ig ΨL î A5 ΨR 4 + ΨR 4 A5 ΨL î                    . (5.11)
+
+This contains 4D SO(3) gauge theory with two different representations of
+Weyl fermions Yukawa-coupled to a Higgs field. This again bears some re-
+semblence to the standard model if we think of the fermion as the left and
+right handed “top” quark. But what of the second problem we identified, (b),
+that the standard model contains some fermions with much smaller Yukawa
+couplings than gauge coupling? Such fermions can arise by realizing them
+very differently in the higher-dimensional set-up. The simplest example is
+illustrated in Fig. 11, where beyond the fields we have thusfar considered,
+
+                                                     19
+                   xµ
+                                      AM , Ψ
+
+
+
+
+                                                      χL (x)
+
+
+
+
+                  φ=0                           φ=π
+                  x5 = 0                       x5 = πR
+
+  Figure 11: Orbifolded higher dimensional spacetime (with boundaries)
+
+which live in the “bulk” of the 5D spacetime, there is a 4D Weyl fermion pre-
+cisely confined to one of the 4D boundaries of the 5D spacetime, say φ = π.
+It can couple to the gauge field evaluated at the boundary if it carries some
+non-trivial representation, say triplet. This represents a second way in which
+the chirality problem can be solved, localization to a physical 4D subspace
+or “3-brane” (a “p”-brane has p spatial dimensions plus time), in this case
+the boundary of our 5D spacetime. The new fermion has action,
+                  Z           h                        i
+                     4              îjˆ   îjˆ            ˆ
+            Sχ = d x χL(x) i∂µ δ + gAµ (x, φ = π) χLj (x) .
+                          î
+                                                                         (5.12)
+
+At low energies, E ≪ 1/R, this fermion will have identical gauge coupling as
+the Ψ(0) triplet, but it will have no Yukawa coupling, thereby giving a crude
+representation of a light fermion of the standard model.
+   Well, there are other tricks that one can add to get closer and closer to
+the real world. Ref. [14] gives a nice account of many model-building issues
+and further references. I want to move in a new direction.
+
+
+                                      20
+6     Matching 5D to 4D couplings
+Let us study how effective 4D couplings at low energies emerge from the
+starting 5D couplings. Returning to pure SU(2) Yang-Mills on an extra-
+dimensional circle, we get a low-energy 4D theory,
+                         Z                                 
+                             4     1 (0) µν (0) 1     (0) 2
+          S4eff ∼ 2πR d x − Fµν F              + (Dµ A5 ) .        (6.1)
+                  1
+               E≪ R                4            2
+The fields are clearly not canonically normalized, even though the 5D theory
+we started with was canonically normalized. We can wavefunction renormal-
+ize the 4D effective fields to canonical form,
+                          (0)
+                              √                    √
+                  ϕ ≡ A5 2πR,           Āµ ≡ A(0)
+                                               µ     2πR ,              (6.2)
+and see what has happened to the couplings,
+                   Z   n 1                                               
+                                                                     c(0) 2
+     S4eff = 2πR d4 x −         ∂µ Aa(0)
+                                     ν   − ∂ν Aa(0)
+                                                µ   − ig5 ǫabc Ab(0)
+                                                                 µ Aν
+                            4
+                                   1                          2 o
+                                           (0)             (0)
+                                 + ∂µ A5 − ig5 A(0)  µ   A 5
+                                   2
+              Z     n 1                                          2
+                 4              a        a       g5 abc b c
+           =    d x −      ∂µ Āν − ∂ν Āµ − i √     ǫ Āµ Āν
+                       4                         2πR
+                                                            2 o
+                                   1              g5
+                                 +     ∂µ ϕ − i √      Āµ ϕ       .        (6.3)
+                                   2              2πR
+From this we read off the effective 4D gauge coupling,
+                                         g5
+                               g4eff = √     .                             (6.4)
+                                         2πR
+   Ex. Check that this is dimensionally correct, that 4D gauge
+                                                             √ couplings
+are dimensionless while 5D gauge couplings having units of 1/ mass.
+   For experimentally measured gauge couplings, roughly order one, we re-
+quire                               √
+                             g5 ∼ O( 2πR).                          (6.5)
+
+
+7     5D Non-renormalizability
+Now, having couplings with negative mass dimension is the classic sign of
+non-renormalizability, and as you can easily check it happens rather readily
+
+                                       21
+in higher dimensional quantum field theory. There are various beliefs about
+non-renormalizable theories:
+    a) A non-renormalizable quantum field theory is an unmitigated disaster.
+Throw the theory away at once. Only a few people still hold to this incorrect
+viewpoint.
+    b) A non-renormalizable quantum field theory can only be used classi-
+cally, for example in General Relativity where GN ewton has negative mass
+dimension. All quantum corrections give nonsense. This incorrect view is
+held by a surprisingly large number of people.
+    c) The truth (what I believe): Non-renormalizable theories with cou-
+plings, κ, with negative mass dimension can make sense as effective field
+theories, working pertubatively in powers of the dimensionless small param-
+eter, κ(Energy)n , where −n is the mass dimension of κ. To any fixed order in
+this expansion, one in fact has all the advantages of renormalizable quantum
+field theory. There are even meaningful finite quantum computations one
+can perform. In fact we have just done one in computing the A5 quantum
+effective potential. But of course there is a price: the whole procedure breaks
+down once the formal small parameter is no longer small, E ∼ 1/κ1/n . At
+higher energies the effective field theory is useless and must be replaced by
+a more fundamental and better behaved description of the dynamics.
+    Ex. Learn (non-renormalizable) effective field theory at the systematic
+technical level as well as a way of thinking. A good place to start is the chiral
+Lagrangian discussion of soft pions in Ref. [15].
+    In more detail, perturbative expansions in effective field theory will have
+expansion parameters, κ(Energy)n , divided by extra numerical factors such
+as 2’s or π’s. These factors are parametrically order one, but enough of
+them can be quantitatively significant. These factors can be estimated from
+considerations of phase space. I will just put these factors in correctly without
+explanation.
+    Ex. Learn the art of naive dimensional analysis, including how to estimate
+the 2’s and π’s (for some discussion in the extra-dimensional context see Ref.
+[16]). Use this in your work on extra dimensions.
+    Our findings so far are summarized in Fig. 12. The non-renormalizable
+effective field theory of 5D gauge theory breaks down when the formal small
+parameter, Eg52 , gets large, that is we can define a maximum cutoff on its
+validity, ΛUV, max ∼ 16π 2 /g52 . The 5D effective theory cannot hold above this
+scale and must be replaced by a more fundamental theory. Let us say this
+happens at ΛUV ≤ ΛUV, max . From here down to 1/R we have 5D effective
+
+                                       22
+                                 E
+                 EFT cannot
+                 make sense
+                                                        16π 2   8π
+                                           ΛUV, max ∼     2
+                                                              ∼
+                                                         g5     Rg42
+
+                                           ΛUV
+
+                  5D EFT
+
+                                           1
+                                             ∼ mKK ∼ mW ∼ mψ
+                                           R
+
+
+
+                  4D EFT
+                                                           g5             g4
+                                           m“Higgs” ∼ √              ∼
+                                                          32π 3 R3       4πR
+
+                                       0
+
+             Figure 12: Natural scales of the 5D gauge theory
+
+field theory, and below 1/R we have 4D effective field theory.
+    We found it interesting that a Higgs-like candidate emerged from 5D
+gauge fields because it suggested a way of keeping the 4D scalar naturally
+light, namely by identifying it as part of a higher-dimensional vector field.
+But given that ΛUV ≤ ΛUV, max ∼ O(8π/(Rg42)), and 4D gauge couplings are
+measured to be not much smaller than one, we must ask how well this extra-
+dimensional picture is doing at addressing the naturalness problem of the
+Higgs. In Fig. 13 we make the comparison with purely 4D field theory with
+a UV cutoff imposed. We see that in the purely 4D scenario one naturally
+predicts a weak scale v ∼ O(ΛUV /4π), while with the 5D regime included,
+v ∼ O(g4 ΛUV /8π), which is parametrically better. Numerically, it does not
+look like much improvement, and indeed one can do better, but we do not
+pursue that here.
+
+
+
+                                     23
+                4D Standard Model                            5D
+
+                         g42 + λHiggs 2                              1
+             δQM m2H ∼               ΛUV               mW ∼ g4 v ∼
+                             16π 2                                   R
+
+                                                                8π    8πv
+                          +                         ΛUV max ∼     2
+                                                                    ∼
+                                                                Rg4    g4
+                           s
+        mH       ΛUV            g42           ΛUV           g4
+     v∼p       ∼                        +1≥            v∼      ΛUV max
+        λHiggs    4π           λHiggs          4π           8π
+
+
+        Figure 13: Natural relationship between W mass and cutoff
+
+8    Gravity-Gauge Unification and the Radion
+The non-renormalizable effective field theory of quantum General Relativ-
+ity, whose small expansion parameter is E 2 GN ewton , is expected to be “UV-
+completed” by string theory, just as the Fermi theory of weak interactions is
+completed by the renormalizable electroweak theory. One price of calculable
+string theories is that they predict the existence of extra dimensions! You do
+not have to ask for extra dimensions, they are forced on you as the price of
+maintaining the stringy gauge symmetries needed to tame the higher spins
+in the theory. In fact the extra dimensions are required in order to cancel
+quantum anomalies in the stringy gauge symmetries [5]. However, string the-
+ory has been notoriously unpredictive about the size and shape of the extra
+dimensions, so we must gedanken experiment, or really experiment, with the
+possibilities. Since string theory contains a regime of (higher-dimensional)
+General Relativity, the size and shape of the extra dimensions is dynamical
+as is all of spacetime. This raises several interesting issues, which we study
+below.
+    Let us begin by returning to 5D spacetime with circular extra dimension.
+The 5D gravitational field is given by the metric function on this spacetime, in
+
+
+
+
+                                         24
+terms of which we can write infinitesimal distances in arbitrary coordinates,
+
+             ds 2 = GM N (X) dX M dX N
+                                           ∂X M        ′ M ∂X
+                                                          ′
+                                                                 N
+                                                                        ′N
+                                                                           ′
+                   = GM N (X(X ′ ))               ′ dX             ′ dX
+                                           ∂X ′ M           ∂X ′ N
+                                            M′          N′
+                   = GM ′ N ′ (X ′ ) dX ′        dX ′        .                 (8.1)
+
+From this, we deduce how the metric field transforms under 5D general co-
+ordinate transformations (the gauge symmetry of 5D General Relativity) in
+order to maintain the invariance of physical distances,
+
+                                                        ∂X M ∂X N
+                 GM ′ N ′ (X ′ ) = GM N (X(X ′))              ′       ′ .      (8.2)
+                                                        ∂X ′ M ∂X ′ N
+   Expanding around flat (cylindrical) spacetime,
+
+                        GM N (X) = ηM N + hM N (X) ,                           (8.3)
+
+and working to leading order in hM N and small coordinate transformations,
+                                  M
+                             X′       = X M − εM (X) ,                         (8.4)
+
+we see that the general coordinate transformation of the metric reduces to
+
+                   h′M N (X) = hM N (X) + ∂M εN + ∂N εM .                      (8.5)
+
+Again, we can go to an almost axial gauge of the form,
+                                  (0)
+              hµ5 (x, φ) = hµ5 (x)
+                                  (0)
+              h55 (x, φ) = h55 (x)
+                                             ∞
+                                             X                          
+              hµν (x, φ) =    h(0)
+                               µν (x) +             h(n)
+                                                     µν  (x)einφ
+                                                                 + c.c.   ,    (8.6)
+                                             n=1
+
+where we use coordinates
+                                      X = (xµ , φ) .                           (8.7)
+   Ex. Show how this is to be done using the linearized transformation of
+the metric.
+
+
+                                           25
+                       m4D
+
+
+
+
+           5D GR
+                       4/R
+
+                       3/R
+
+                       2/R
+
+                       1/R
+           4D GR
+                          0
+                                   J =0            J =1    J =2
+
+
+         Figure 14: KK 4D spectrum of 5D metric decomposition
+
+   Since the 5D Einstein action,
+                                         Z         √
+                                              5    GR
+                        S5D Einstein =        dX       ,                (8.8)
+                                                   G5D
+                                                    N
+
+written in terms of the 5D Ricci scalar curvature R contains only terms with
+                   (0)
+derivatives, the hM N (x) must be massless 4D fields, without any potential
+              (n)
+at all. The hM N have n/R masses as usual. These facts are illustrated in
+Fig. 14. Of course once one goes beyond the linearized approximation, all
+                                                                       (0)
+these fields are interacting. The interacting massless vector field, hµ5 (x),
+must therefore have a protective gauge symmetry.
+   Ex. Check that in almost axial gauge there is a residual unfixed symmetry,
+
+                       h′µ5 (X) = hµ5 (X) + ∂µ ε5 (x) .                 (8.9)
+   Because of this gauge invariance, inherited from 5D general coordinate in-
+
+                                         26
+                                              (0)
+variance, the quadratic terms involving hµ5 (x) in the low energy 4D effective
+action must be just the Maxwell action. This is part of the original Kaluza-
+Klein idea, 4D gauge fields and 4D General Relativity (protected by the
+residual 4D general coordinate invariance) both emerge from a unifed 5D ac-
+tion upon compactification. The 4D effective action is tightly constrained by
+the protective symmetries to be of Maxwell-Einstein type, as can be checked
+by plugging in the massless modes as usual. It is easiest to just check this at
+quadratic order in the action and then use the residual symmetries. Since the
+vector field gauge symmetry corresponds to shifts in the extra dimensional
+circle (and because there is precisely one emergent vector field), the emer-
+gent gauge group is U(1). Charged matter must correspond to states which
+transform under such extra-dimensional translations. These are precisely the
+KK excitations which carry non-zero extra-dimensional momentum.
+    It is intriguing to see how “internal” gauge groups can emerge from the
+symmetries of the extra-dimensional geometry. One might wonder whether
+more complex and realistic gauge structure, as well as chiral 4D massless
+charged matter, can emerge from extra-dimensional geometry. While higher
+dimensional set-ups go in this direction, it is in general a very difficult game.
+However, in one way of analysing heterotic string theory realistic gauge struc-
+ture does emerge from several KK U(1) gauge fields with special stringy
+enhancements to non-abelian form [6]. In this sense the old Kaluza-Klein
+program of unification of gauge theory (just electromagnetism in the early
+days) and gravity is alive and well.
+    There is one more 4D massless state which does not follow from a residual
+                                                                            (0)
+symmetry, and to that extent is unexpected at first sight, namely h55 (x).
+To repeat, it has no potential because the 5D action has only derivative
+terms, and this mode only has x-derivatives, being independent of the extra
+dimension by gauge-fixing. This 4D scalar can therefore have any VEV,
+                                     (0)
+                                  hh55 i = ξ .                            (8.10)
+
+To see what this VEV means physically, note that for the simple VEVs,
+                                                (0)
+                          hh(0)
+                            µν i = 0 ,        hhµ5 i = 0 ,                (8.11)
+
+the VEV of the 5D geometry is given by
+
+                   h ds 2 i = ηµν dxµ dxν − (1 + ξ)dx5 dx5
+                            = ηµν dxµ dxν − (1 + ξ)R2dφ2 ,                (8.12)
+
+                                         27
+                                                               xµ
+                                     5D
+
+
+
+
+                         (G5D
+                           N )
+                               1/3
+
+
+
+
+           Figure 15: Fluctuations of dynamical radius (radion)
+
+which√is just the geometry of an undeformed (flat) cylinder with physical ra-
+dius 1 + ξ R. Thus, fluctuations in the scalar field correspond to a dynam-
+ical radius for the extra dimension, as illustrated in Fig. 15. The quantum
+of this scalar is therefore referred to as the “radion”.
+    We are used to scalar fields without potentials in the form of Goldstone
+bosons. But in these cases, any VEV in field space is equivalent to any
+other by the associated symmetry. The radion field space is an example of a
+“moduli space” of physically inequivalent vacua (differing radii are physically
+quite different obviously). The radion is an example of a “modulus”. The
+string theories that have been studied start life with very large moduli spaces
+of inequivalent vacua. Thus even a unique theory can lose predictivity in the
+maze of physically inequivalent vacua Nature has to choose from.
+    The good news is that we see a cartoon of the 4D ingredients needed for
+the real world emerging from our very simple unified 5D example: 4D scalars,
+4D gauge theory and 4D gravity. If one throws in supersymmetry, another
+key ingredient of superstring theory, one must necessarily have fermions as
+well. The size and shape of the extra dimensions, and the low energy 4D world
+they produce, is determined by the moduli VEVs. Small corrections to the
+vanishing potential of moduli space can actually favor one or a discrete set
+
+                                      28
+of vacua, yielding greater predictivity (in string theory right now “greater”
+does not mean great). Let us continue with our 5D cylinder to see a simple
+example of such small corrections, in this case from quantum effects related
+to the famous Casimir effect.
+
+
+9    Modulus Stabilization
+Let us add a 5D fermion to the (gravitating) cylinder. Our old effective
+potential calculation from fermion loops, now dropping A5 since there are no
+5D gauge fields, is given by
+                              Z 4                 √       
+                                 dp            −2πR p2 +m2
+                Veff ∼ ΛR − 4         ln 1 − e               .         (9.1)
+                                (2π)4
+
+In the 5D general relativistic context we should consider the 1-fermion-loop
+induced effective potential for the dynamical radius VEV, R. Recall, Λ con-
+tains all UV divergences in this calculation. The renormalized value of Λ is
+frequently tuned to zero (more on this later) so that crudely,
+                                     Z m
+                   Veff ∼ e    −2πRm
+                                        d4 p ∼ m4 e−2πRm .             (9.2)
+                          1
+                       m≫ R          0
+
+
+Now, let us assume that there is also a 5D scalar boson as well and add its
+quantum-loop contribution to the R effective potential. In complete anal-
+ogy to our fermion loop computation, except for a sign due to the different
+statistics,
+                       Veff ∼ m4 e−2πRm − µ4 e−2πRµ .                 (9.3)
+Upon minimizing the effective potential with respect to the dynamical radius,
+                                                        
+                                                         m
+                                5               5 ln
+                                 m                       µ
+             e2πR(m − µ) ∼            ,     R∼                .         (9.4)
+                                 µ                2π(m − µ)
+That is the corrections have selected a particular radius from the original
+moduli space!
+    The general conclusion is that in (non-supersymmetric) extra dimensions
+small corrections can generate an effective potential for moduli which sta-
+bilizes the size and shape of the extra dimensions. This radius can readily
+
+
+                                     29
+be moderately larger than the fundamental length scale of the cutoff of non-
+renormalizable higher-dimensional effective field theory. In the present ex-
+ample, this is achieved by taking the matter masses, m, µ, to be moderately
+lighter than the mass scale of the cutoff.
+    If the present example is orbifolded so that the extra dimension is an
+interval, one can also add a constant ”potential” to be localized to one of the
+boundaries. Since such a localized term is insensitive to R, it will just con-
+tribute an R-independent constant to the effective potential. Such a constant
+seems irrelevant from the point of view of the radion, but it is important when
+the effective dynamics of 4D General Relativity is also taken into account,
+as we discuss in the next section.
+
+
+10     The Cosmological Constant (Problem)
+The dominant interactions in 4D General Relativity at long distances include
+not just the Einstein action but also a cosmological constant term,
+                           Z                       
+                              4
+                                √              R
+                      S = d x −g −λ +                  .              (10.1)
+                                             16πGN
+
+In flat space quantum matter generates zero-point energies or vacuum energy,
+corrected by interactions in all possible ways, but we usually throw this away
+as a physically irrelevant field-independent constant in the effective action.
+But when coupled to gravity, all vacuum energy from matter and radiation
+contributes to the cosmological term. If we trust the standard model up to
+TeV energies, one naturally expects contributions to λ of order at least TeV4 .
+Crudely, in the presence of such a term Einstein’s Equations read
+
+                                 R ∼ GN λ ,                             (10.2)
+
+where the left-hand side is a measure of the curvature of spacetime. In
+particular, flat Minkowski spacetime is not a solution to Einstein’s equations
+for λ 6= 0. If λ ∼ TeV4 , the radius of curvature of spacetime would be
+                         1  M      MP l
+                        √ ∼ √P l ∼      ∼ 1mm !                         (10.3)
+                         R    λ    TeV2
+This would be tremendously at odds with even everyday experience, where
+space appears to satisfy Euclid’s postulates to excellent approximation.
+
+                                      30
+    We therefore have to assume all the varied contributions to the cosmolog-
+ical term cancel to very high precision for some mysterious reason. We will
+assume this from now on to make contact with the observed universe. This
+unnatural feature is called the Cosmological Constant Problem [17].
+    In the modulus stabilization example of the last section, the value of
+Veff at its minimum represents (in general, a contribution to) the infrared
+4D cosmological constant. As pointed out at the end of that section, in
+the orbifolded version one can also add an R-independent constant to Veff ,
+originating from a boundary-localized constant potential. By fine-tuning the
+value of this constant we can ensure that the minimal Veff vanishes, that is,
+the 4D effective cosmological constant is zero (or very small). The ugliness
+of having to do this tuning reflects the unresolved cosmological constant
+problem.
+    Just like 4D General Relativity, 5D General Relativity can also have a
+cosmological term,
+                             Z                   
+                                5
+                                   √       R
+                         S= dX G              −Λ .                     (10.4)
+                                         G5D
+                                           N
+
+Now what we have learned in gauge theory is generally true: 4D effective
+couplings derive from 5D couplings, but they are not the same thing. In
+particular, our tuning of the 4D cosmological term, λ, to be very nearly
+zero does not indicate that Λ is near zero (in fact we will see this explicitly
+below). The most natural thing is to therefore assume that Λ 6= 0 and see
+what happens.
+    In our 5D cylinder example, let us treat Λ as a small perturbation, where
+at zeroth order we have a cylindrical solution to Einstein’s equations,
+
+                      h ds 2i = ηµν dxµ dxν − Rphys
+                                               2
+                                                    dφ2 .               (10.5)
+
+Therefore the cosmological term in the 5D action becomes
+                  Z     Z 2π            Z
+                      4
+               S ∋ d x dφ R(−Λ) = d4 x(−2πRΛ) ,                         (10.6)
+                          0
+
+which looks precisely like one of our old contributions to the radion (R)
+effective potential. In fact we saw that there were divergent renormalizations
+of this Λ from 5D matter loops, again suggesting that the renormalized Λ
+should naturally be significant.
+
+                                      31
+    Once we decide that Λ is not very small, we really should consider its
+effects in determining the 5D geometry. It cannot be treated perturbatively,
+we must resolve Einstein’s equations in the presence of the 5D cosmologi-
+cal constant. The same is true for any boundary-localized potential terms
+coupled to 5D gravity.
+
+
+11      Warped Compactification
+We will study the simplest model where we include the higher dimensional
+cosmological term, known as the Randall-Sundrum I (RS1) model [18] [19].
+It is also a good prototype of more complex constructions.
+    Rather than continue with the cylindrical spacetime we return to the
+orbifolded variant. The 5D gravitational action of the “bulk” of the spacetime
+is still given by
+                           Z     Z +π √                
+                               4               R
+                    Sbulk = d x      dφ G           −Λ .                 (11.1)
+                                  −π          G5D
+                                                N
+
+We can assign the orbifold parities as +1 for Gµν and G55 and −1 for Gµ5 ,
+                                                                   (0)
+which is respected by the action. In almost axial gauge then, Gµ5 (x) = 0 by
+the parity. Therefore in the orbifolded set-up we automatically have no KK
+massless gauge boson emerging in the 4D effective theory. Of course there
+can be even more dimensions in non-minimal set-ups from which such gauge
+bosons might emerge. Here, when we need gauge bosons we will just add
+them at the 5D level. The radion does remain after orbifolding since G55 is
+parity even.
+    The orbifolded set-up also has “branes” or boundaries of 5D spacetime,
+namely the 4D subspaces at φ = 0, π. In general there can be 4D actions
+localized to these branes for the 5D fields. In fact such actions must be there
+since they are renormalized by 5D loops [20]. The leading terms in these
+brane actions are “tensions”, which look like localized cosmological terms,
+                                     Z     p
+                        Sbrane(i) = − d4 x −g (i) T (i) ,                (11.2)
+
+where
+                             (1)
+                            gµν  (x) = Gµν (x, φ = 0)
+                             (2)
+                            gµν  (x) = Gµν (x, φ = π) ,                 (11.3)
+
+                                      32
+and the T (i) are constant tensions. The induced 4D metrics define distances
+along the branes, for example,
+                                 2
+                               ds(1) = Gµν (x, φ = 0)dxµ dxν ,               (11.4)
+since dφ = 0 along the brane.
+    Since we are looking for solutions to Einstein’s equations that might fit
+the vacuum of the real world, let us try the ansatz that the 5D metric should
+respect at least 4D Poincare invariance,
+                             ds 2 = e−2σ(φ) ηµν dxµ dxν − R2 dφ2 .           (11.5)
+Here, ηµν is the 4D Minkowski metric, and we have chosen the extra-dimen-
+sional coordinate to be proportional to proper distance. The prefactor to
+ηµν is written as an exponential as a convenient convention and is called the
+“warp factor”. Its potential φ-dependence means that the higher-dimensional
+geometry cannot be defined as a product geometry of 4D Minkowski space
+and some purely extra-dimensional geometry, but rather all the dimensions
+are entangled. Plugging this ansatz into the equations of motion following
+from our bulk plus brane actions, one finds
+                         2            Λ
+                  6 σ′        = −         ≡ 6k 2
+                                     4M53
+                                   T (1)         T (2)
+                  3 σ ′′ =               δ(Rφ) +       δ(R(φ − π)) ,         (11.6)
+                                   4M53          4M53
+where we define a 5D Planck scale,
+                                                 1
+                                       M53 ≡         .                       (11.7)
+                                               2 G5D
+                                                  N
+The only consistent solution to these equations, satisfying periodicity in φ
+and the orbifold parity is illustrated in Fig. 16. But even this solution only
+exists if the kinks have the right size to reproduce the δ-functions in the
+equations of motion. This requires the relationships between brane tensions
+and bulk cosmological constant given by
+                                  T (1) = −T (2) = 24kM53 .                  (11.8)
+Thus the vacuum metric solution is given by
+           ds 2      =           e−2kRφ ηµν dxµ dxν − R2 dφ2 ,   0≤φ≤π
+                     =           e−2ky ηµν dxµ dxν − dy 2,    0 ≤ y ≤ πR .   (11.9)
+                   y ≡ Rφ
+
+
+                                              33
+                                           σ
+
+
+
+
+                         −π                             π               φ
+
+
+
+
+  Figure 16: Warp factor solution satisfying orbifold boundary condition
+
+This geometry is a slice of AdS5 , 5D anti-de Sitter spacetime, which is the
+maximally symmetric 5D spacetime of negative curvature (just as a sphere
+is the maximally symmetric space (not spacetime) of positive curvature).
+    The forms of the massless 4D modes, the 4D graviton and radion, are
+easy to guess:
+        2
+      ds(0) = e−2kR(x)φ gµν
+                         (0)
+                             (x)dxµ dxν − R(x)2 dφ2 ,       0≤φ≤π.          (11.10)
+
+That is we promote the radius, which thusfar has been an integration constant
+of our vacuum solution, into an x-dependent field, and ηµν into a dynamical
+            (0)
+4-metric, gµν (x). There is a slick proof that these fluctuations indeed do
+correspond to the 4D massless modes, that indeed they have no potential
+at all classically. Plugging the above ansatz into our full action must give
+a vanishing effective 4D cosmological term since we found a 4D Poincare
+                                                (0)
+invariant solution. Now a 4D potential for gµν and R can be computed for x-
+independent fields. A constant linear coordinate transformation can take any
+                                     (0)
+non-singular symmetric matrix, gµν , to the form ηµν . Therefore by residual
+                                                                               (0)
+4D general coordinate invariance of the action, plugging x-independent gµν , R
+must also give zero. Since the effective lagrangian is the negative of the
+                                                                      (0)
+effective potential for constant fields, the effective potential for gµν , R clearly
+vanishes. So we have identified the zero-modes and the radion is a modulus
+again.
+    Radius stabilization can be readily achieved much as in the unwarped
+case we studied earlier for the cylindrical spacetime, by adding suitable 5D
+
+                                        34
+matter. The simplest such implementation is the classical Goldberger-Wise
+mechanism [21] using a 5D scalar, naturally allowing a moderately large
+“radius”,
+                            khRi ∼ O(10) ,                         (11.11)
+where k (Λ) is taken not too much smaller than the 5D effective field theory
+cutoff. We could also proceed with stabilization by quantum corrections
+from massive matter as we studied earlier in the unwarped case. We will not
+pursue these in detail here, just assume some such stabilization, the warping
+has mild impact on the stabilization.
+   Ex. Work through Goldberger-Wise stabilization [21].
+   After radion stabilization, and neglecting the small backreaction of the
+stabilizing physics on the vacuum metric solution, we have only the 4D metric
+zero mode,
+          2
+        ds(0) = e−2khRiφ gµν
+                          (0)
+                              (x)dxµ dxν − hRi2 dφ2 ,    0≤φ≤π.               (11.12)
+
+    The 4D low-energy effective action for the 4D metric zero mode is ob-
+tained by plugging the above ansatz into the fundamental action. The 5D
+curvature term contains 2-derivative terms, which by 4D Poincare invariance
+of the vacuum solution must be either two x-derivative acting on the zero
+mode or two φ derivatives acting on the warp factor. From the 4D point
+of view all φ derivatives just contribute to potential terms, which we saw
+above all cancelled for the 4D graviton zero-mode. So we focus on pairs
+of x-derivatives. Plugging in the zero-mode ansatz, a typical term in the
+fundamental action has the schematic form,
+                 Z     Z π √
+       5D           4
+     GN S ∋        d x dφ GGxx Gxx Gxx ∂x Gxx ∂x Gxx                            (11.13)
+                 Z     Z0 π         p
+             =     d4 x dφ Re−2kRφ −g (0) g (0)xx g (0)xx g (0)xx ∂x gxx
+                                                                      (0)     (0)
+                                                                          ∂x gxx  ,
+                         0
+
+which allows us to count powers of the warp factor easily. The residual 4D
+general coordinate invariance then gives a unique form for the 4D effective
+action of the graviton zero-mode,
+                          Z    Z π               p
+                      1      4             −2kRφ
+         S4D eff =          dx       dφ Re            −g (0) R(4D) [g (0) ]
+                     G5D
+                       N           0
+                                          Z      p
+                        1         −2kπR
+                                             4
+                 =           1 − e          d   x  −g (0) R(4D) [g (0) ] .  (11.14)
+                     2kG5DN
+
+                                          35
+That is, at low energies we obtain 4D General Relativity.
+  We easily deduce the 4D effective Newton’s constant,
+                                           2k G5D
+                                               N
+                          16πG4D
+                              N
+                                 eff
+                                     =              .                  (11.15)
+                                         1 − e−2kπR
+Remarkably, even when we take the decompactified limit, R → ∞, this
+effective coupling stays finite,
+                              M53                M53
+                      2
+                    M4P l =       1 − e−2kπR −→       .                (11.16)
+                              2k              R→∞ 2k
+
+This is a result of the fact that the zero-mode is localized in the vicinity of
+the brane at φ = 0. This localization mechanism for gravity is sometimes
+known as the Randall-Sundrum II (RS2) mechanism. Because of gravity
+localization, the brane at φ = 0 is usually called the “Planck brane”.
+   All these classical derivations are considered to take place as the leading
+approximation of non-renormalizable quantum effective field theory. The
+control parameter is in general given by
+                                   E3
+                                       ≪1                              (11.17)
+                                   M53
+in particular,
+                 Λ3/5   (M53 k 2 )3/5               k
+                      ∼               ≪1    ⇐⇒         ≪1.             (11.18)
+                 M53       M53                      M5
+In practice we usually take all the scales within an order of magnitude or two
+of the 4D Planck scale,
+                       < M5 ∼
+                     k ∼    < M4 P l ∼ 1018 GeV .                      (11.19)
+
+
+12      Warped Hierarchy
+Consider the set-up of Fig. 17, where we have a warped compactification
+with localized 4D gravity, and now we add a 4D Higgs field by hand (not
+from A5 ’s for simplicity), δ-function localized to the opposite brane (φ = π),
+with 4D brane-localized action,
+                  Z
+                        √         µν
+         SHiggs = d4 x −gind gind     ∂µ H † ∂ν H − λ(|H|2 − v02 )2 ,    (12.1)
+
+                                      36
+                4D
+
+
+
+
+                                   Warp factor         H(x)
+                                    (profile of
+                                   4D graviton)
+
+
+
+
+               y=0                                y = πR
+
+
+             Figure 17: Localization of 4D graviton and Higgs
+
+where
+                         ind
+                        gµν  (x) = Gµν (x, φ = π)
+
+                                 = e−2kπR gµν
+                                           (0)
+                                               (x) ,                  (12.2)
+gives the induced 4D geometry of the brane, and where the second line gives
+the low-energy approximation where only the gravity zero-mode can propa-
+gate. In this approximation the Higgs action becomes
+         Z    p        n                                           o
+            4      (0)   −2kπR µν      †        −4kπR      2   2 2
+   SH = d x −g          e     g(0) ∂µ H ∂ν H − e      λ(|H| − v0 ) , (12.3)
+
+where the warp factor appears like a conventional constant wavefunction
+renormalization of the Higgs. Canonical normalization of the Higgs is achie-
+ved by the field redefinition,
+                              e−kπR H → H ,                           (12.4)
+
+                                    37
+giving a canonical action,
+          Z             (                                      2 )
+               p           µν
+     SH = d4 x −g (0) g(0)    ∂µ H † ∂ν H − λ |H|2 − e−2kπR v02      .    (12.5)
+                                                     | {z }
+
+The miracle is that the “bare” weak scale parameter for the Higgs, v0 , receives
+a large warp factor renormalization reducing it to the physical weak scale
+Higgs VEV,
+                                v = e−kπR v0 .                            (12.6)
+Even if v0 is very large, Planckian in size, for kR ∼ O(10) one can easily
+accomodate the physical weak scale, v ∼ 250 GeV. Because of this large
+warping down of UV scales, this brane is sometimes called the IR brane, or
+in the present context, the “TeV brane”.
+    How does this magic trick work? Consider again the vacuum solution for
+the 5D metric,
+                        2
+                     dsvacuum = e−2ky ηµν dxµ dxν − dy 2 .          (12.7)
+In any extra-dimensional locale, y ∼ y0 , we can approximate this metric,
+                         2
+                       dsvac ∼ e−2ky ηµν dxµ dxν − dy 2
+                             = ηµν dx̂µ dx̂ν − dy 2 ,                     (12.8)
+
+which looks just like a piece of 5D Minkowski spacetime provided we define
+
+                        x̂ ≡ e−ky0 x,   b 4D ≡ eky0 m4D .
+                                        m                                 (12.9)
+
+Without warping the translation from 5D to 4D masses is straightforward,
+so for physics localized in the vicinity of y0 , we have the translation,
+
+                   m
+                   b 4D ∼ m5D      =⇒        m4D ≡ e−ky0 m5D .           (12.10)
+
+For the case of the Higgs,
+                                    y0 = πR ,                            (12.11)
+so
+                                  v = e−kπR v0 .                         (12.12)
+    Warped hierarchies are radiatively stable, essentially because even (gen-
+eral coordinate invariant) cutoff scales get warped down near the IR brane,
+as illustrated in Fig. 18.
+
+                                        38
+                       Regulator fields
+                         for 5D GR                          Pauli-Villars
+                       mass Λgrav
+                             5    ∼ MPl                      for Higgs
+                        Λgrav
+                         4    ∼ e−ky MPl                   mass ΛH5 ∼ MPl
+                                                                 −kπR
+                                                           ΛH
+                                                            4 ∼ e     MPl
+
+
+
+
+        Planck
+                                                IR brane
+        brane
+Figure 18: Profiles of 5D regulator fields for gravity and 4D regulator for
+Higgs
+
+13     KK Gravitons at Colliders
+Let us begin by removing the IR brane to infinity, R → ∞, and expand the
+general 5D metric (in almost axial gauge) about the vacuum solution,
+                                                   
+            ds 2 = e−2k|y| ηµν + e−k|y|/2 hµν (x, y) dxµ dxν − dy 2 . (13.1)
+
+The parametrization of fluctuations with the extra exponential is purely for
+later convenience. It is also convenient to switch to an extra-dimensional
+coordinate,
+                                       ek|y| − 1
+                            z ≡ sgn(y)           .                    (13.2)
+                                           k
+Plugging the general 5D metric into the fundamental action, and expanding
+to quadratic order in small fluctuations about the vacuum gives,
+              Z      Z+∞                                       
+                           1                 1
+     G5D
+      N S =
+                   4
+                  d x dz     hµν  µνρσ
+                                        hρσ − hµν η µνρσ
+                                                         HQM hρσ ,          (13.3)
+                           2                 2
+                       −∞
+
+
+                                           39
+                                           VQM
+
+
+
+
+                                                                   z
+
+
+
+Figure 19: “Volcano” potential of analog quantum mechanics problem de-
+scribing KK graviton fluctuations
+
+where the first term contains an operator made of two x-derivatives while the
+second term contains an operator made from y-derivatives and non-derivative
+terms, specified by
+
+           1                                     15k 2      3k
+    HQM = − ∂z2 + VQM (z),      VQM (z) ≡ +              2
+                                                           − δ(z) .      (13.4)
+           2                                  8(k|z| + 1)    2
+
+The unspecified index structures are exactly such that, if HQM is only a
+constant and if the fields are purely 4D fields, and if we get rid of the z
+integral, this action would just be that of a free massive 4D spin-2 field, with
+mass-squared given by the constant HQM . Of course, HQM is a hermitian
+operator in the extra dimension, so we should really try to diagonalize the
+operator. The eigenvalues will then be the 4D mass-squareds of the tower of
+gravitational KK modes. Note that this eigenvalue problem is analogous to
+finding the energy eigenvalues of a 1D non-relativistic quantum mechanics
+problem with “unit” mass and a “volcano potential”,
+
+                                      15k 2      3k
+                     VQM (z) ≡ +              2
+                                                − δ(z) ,                 (13.5)
+                                   8(k|z| + 1)    2
+
+as illustrated in Fig. 19.
+    By inspection the analog time-independent Schrodinger equation should
+have precisely one bound state (which of course must therefore be noneother
+than our localized zero-mode) and a continuum of waves (asymptoting to
+sinusoidal waves far away from the volcano) with positive “EQM ” > 0. Now
+
+
+                                      40
+let us put back in the fact that R < ∞. In the z coordinates,
+
+                              |zmax | ∼ ekπR /k .                       (13.6)
+
+While this does little to the bound state mode, it will quantize the previously
+continuum modes, with
+
+                            “EQM ” ∼ (n/zmax )2 .                       (13.7)
+
+From this we deduce that the zero mode graviton is accompanied by KK
+spin-2 excitations with masses given by
+                                         2
+                           m2KK ∼ nke−kπR .                     (13.8)
+
+Even though all the input scales of the fundamental 5D set-up are Planckian,
+given that the warp factor renormalized the weak scale to its observed size,
+we get an estimate for KK gravitons,
+                            < nMP l e−kπR ∼ TeV !
+                        mKK ∼                                           (13.9)
+
+That is, these states are accessible to TeV scale colliders.
+    Of course it is not good enough to be kinematically accessible, to be seen
+a new particle must have an appreciable coupling to ordinary matter. If or-
+dinary matter couples to KK gravitons with the same strength as the usual
+graviton, these states would be completely invisible as a practical matter.
+Fortunately this is not the case. To be concrete let us assume that all mat-
+ter, including the Higgs is localized on the TeV brane. They can only couple
+to the graviton KK modes via their extra-dimensional profiles evaluated on
+the TeV brane. This determines the relative strength of coupling of different
+gravity KK modes to brane localized matter since the fundamental coupling
+constant, the 5D Newton constant, is the same for all the KK modes. The rel-
+ative strength is easy to estimate. A typical low-lying KK gravity excitation
+will have roughly a plane-wave wave-function (for the analog non-relativistic
+quantum mechanics problem) in most of the z space, so√that its normalized
+                                                √
+value on the IR brane is roughly of order 1/ zmax ∼ ke−kπR/2 . On the
+other hand, the bound state 4D massless graviton mode has√the normalized
+analog wavefunction evaluated on the IR brane given by ∼ ke−3kπR/2 .
+    Ex. Check this last fact carefully accounting for the factor of 3/2 in the
+exponent arising from the precise definition of the analog problem in terms
+of the 5D metric ansatz.
+
+                                      41
+    Thus the amplitude for a KK excited graviton to couple to brane matter is
+∼ ekπR larger than the amplitude for the massless graviton. Now the mass-
+less graviton of course couples with 4D Planck-suppressed ∼ 1/(1018GeV)
+strength which is why such couplings are invisible at TeV scale colliders.
+But since we are taking ekπR ∼ MP l /TeV, KK gravitons will couple to matter
+with only 1/TeV suppression, that is order one amplitudes at TeV colliders
+[22]! In this scenario these exotic spin-2 states should be visible at upcoming
+colliders such as the LHC. Similar mass splitting, wavefunctions and coupling
+strengths to IR brane matter hold for KK excitations of any field (with any
+spin) one considers in the 5D bulk.
+
+
+14     Warped (Fermionic) Bulk Matter
+A useful and pioneering reference for this section and the next is Ref. [23].
+Let us consider 5D fermions in the warped context subject to the orbifold
+boundary conditions,
+
+                                   P (ΨL ) = +ΨL
+                                   P (ΨR ) = −ΨR .                      (14.1)
+
+Using the proper-distance y coordinate ranging from −πR to πR, we consider
+a bulk action of the form
+                    Z      +πR
+                           Z
+                                                           
+             SΨ =       d x dy e−4k|y| Ψ i ΓM DM − m sgn(y) Ψ .
+                         4
+                                                                        (14.2)
+                             −πR
+
+In general, the covariant derivative for fermions cannot be written directly in
+terms of the metric alone, but requires a compatible “spin-connnection”. We
+will just consider the RS1 vacuuum metric for which the compatible covariant
+derivatives are given by
+                                       1
+                             Dµ = ∂µ − Γ5 Γµ k sgn(y)
+                                       2
+                             D5 = ∂y .                                  (14.3)
+
+The exponential is just the measure factor arising from the root of the metric
+determinant as usual, but it appears that the mass term has explicit y de-
+pendence in order to be compatible with the orbifold parity symmetry. This
+
+                                         42
+is not really cheating, such a mass term can be thought of as arising from a
+Yukawa coupling to a orbifold-parity-odd 5D scalar field, whose fluctuations
+are very massive but whose VEV is non-zero and proportional to sgn(y). The
+curved space ΓN are given in terms of the usual flat space Dirac matrices by
+Γµ = e−k|y| γµ , Γ5 = −iγ5 , Γµ = e+k|y| γ µ , Γ5 = iγ5 .
+    Decomposing the action in 4D notation, and making the convenient field
+redefinition, Ψ ≡ e+3/2k|y| Ψ̂,
+        Z    Z                                                   
+           4       ˆ           −k|y| k
+  SΨ = d x dy Ψ i 6 ∂ + e               sgn(y)γ5 − γ5 ∂y − m sgn(y) Ψ̂ . (14.4)
+                                      2
+
+Despite the 5D mass parameter, which we will from now on dimensionlessly
+parametrize as
+                                       m
+                                   c≡     ,                           (14.5)
+                                       k
+there are 4D massless chiral fermion zero-modes. We clearly get a zero-mode
+from the equation of motion if the mode is annihilated by the 4D Dirac
+operator, so that
+                    h γ                      i
+                           5
+                      k      − c sgn(y) − γ5 ∂y Ψ̂ = 0 .              (14.6)
+                          2
+We see two possible chiral solutions to this equation. The left-handed one,
+                                                   1
+                        Ψ̂L (x, y) = Ψ̂L(0) (x) e( 2 −c)k|y| ,          (14.7)
+
+satisfies the orbifold parity condition and is therefore physical. The right-
+handed one,
+                                                    1
+                         Ψ̂R (x, y) = Ψ̂R(0) (x) e( 2 +c)k|y| ,        (14.8)
+does not satisfy being parity-odd, and therefore is inadmissible. The parity
+therefore gives us a chiral 4D massless left-handed zero-mode.
+    While the 5D mass parameter, c, does not affect the existence of 4D
+chiral modes, they clearly influence their profile in the extra dimension, as
+illustrated in Fig. 20. If the Higgs is considered to be localized on the
+IR brane still, 4D Yukawa couplings with two species of chiral zero modes
+coming from bulk fermions with mass parameters ca , cb will be given by
+
+     4D Yukawa       1              1             5D Yukawa
+                ∼ e( 2 − ca )kπR e( 2 − cb )kπR ×            .          (14.9)
+      couplings                                    couplings
+
+
+                                         43
+                             c > 1/2        c < 1/2           H
+                                                            Yukawa
+                                                           couplings
+
+
+
+
+              Planck
+                                               IR brane
+              brane
+  Figure 20: Fermion zero-mode profiles for different 5D fermion masses
+
+Thus even without large hierarchies at the 5D level, hierarchical effective
+Yukawa couplings are naturally generated. In the real world, we can identify
+light fermions as chiral modes arising from bulk fermions with c > 1/2,
+and heavy fermions with chiral modes arising from bulk fermions with c <
+1/2. Therefore light fermion profiles are suppressed at the IR brane. This
+suppresses their wave-function overlap with low-lying KK excitations of all
+bulk fields, thereby suppressing a host of dangerous KK-mediated effects.
+This is the central part of an automatic GIM mechanism suppressing flavor-
+changing neutral currents. On the other hand one can predict that the heavy
+top quark in this scenario should display significant non-standard corrections
+to its couplings.
+
+
+
+
+                                       44
+15     Warped Bulk YM
+Of course if fermionic matter lives in the 5D bulk so must the gauge fields.
+The 5D YM action in background curved space is given by
+                          Z       Z+π √
+                     1
+                 S=−          d4 x dφ GGM N GKLFM K FN L .              (15.1)
+                     4
+                                −π
+
+We will consider the RS warped vacuum background.
+  We begin by considering the orbifold boundary conditions given by
+
+                               P (Aµ ) = +Aµ
+                               P (A5 ) = −A5 .                          (15.2)
+
+In almost axial gauge, the single expected A5 mode is eliminated by the
+orbifold conditions, but Aµ does give rise to a zero-mode.
+   Ex. Show that
+                             Aµ (x, φ) = A(0)
+                                           µ (x)                  (15.3)
+is the zero-mode 4D gauge boson and that if coupled to matter (or if non-
+abelian), the effective 4D gauge coupling is given by
+                                          g5
+                                 g4 = √       .                         (15.4)
+                                          2πR
+    Note the form of the zero-mode and the 4D coupling look exactly as they
+did without warping. Gauge theory is very different from gravity in this
+regard. In particular the warped explanation for “why gravity is weak” (the
+zero-mode graviton of course) does not simultaneously greatly weaken the
+strength of gauge forces, which is obviously a good thing.
+    The other interesting example to consider is given by orbifold conditions,
+
+                               P (Aµ ) = −Aµ
+                               P (A5 ) = +A5 ,                          (15.5)
+
+so that now there is a 4D scalar zero-mode but not a vector zero-mode. (Of
+course, as illustrated earlier in flat spacetime, for non-abelian gauge group
+different gauge fields corresponding to different generators can be treated
+with different orbifold boundary conditions. We will not consider that level of
+
+                                      45
+complexity here.) To isolate the scalar zero-mode in the warped background
+we first look at all terms in the action containing A5 ,
+                      Z    Z
+                    1
+            S ∋         d x dφ R e−4k|φ|R e2k|φ|R (∂5 Aµ − ∂µ A5 )2
+                         4
+                    2
+                      Z    Z
+                    1                                              
+               ∋        d x dφ R e−2k|φ|R (∂µ A5 )2 − 2 ∂5 Aµ ∂ µ A5 .
+                         4
+                                                                       (15.6)
+                    2
+The usual almost axial gauge does not disentangle the vector-scalar mixing
+in warped spacetime and is therefore not convenient. But if we try
+                                                (0)
+                          A5 (x, φ) = A5 (x) e+2k|φ|R ,                (15.7)
+the mixing term vanishes (as you can check by doing an integration by parts
+with respect to the φ derivative). The 4D effective action for the zero-mode
+scalar below the mass of the lightest KK excitations ( ∼ ke−kπR ) is then
+given by
+                                  Z      Z+π                     2
+                            1          4        +2k|φ|R       (0)
+                Seff 4D   =           d x dφ R e          ∂µ A5
+                            2
+                                           −π
+                              Z                               2
+                                           e2kπR − 1     (0)
+                          =       d4 x                ∂µ A5      .     (15.8)
+                                               2k
+    As the zero-mode ansatz shows such massless scalars are localized (but
+not δ-function localized) near the IR brane and therefore makes a good Higgs
+candidate [24]!
+    One can ask what the advantage is of having the Higgs realized as the
+fifth component of a gauge field as opposed to as a fundamental IR-brane-
+localized scalar. The answer is that in the former case radiative corrections
+to the scalar mass-squared are effectively cut off at ∼ mKK ∼ ke−kπR while in
+the latter case the cutoff is the “warped down” fundamental cutoff ΛUV e−kπR ,
+which is parametrically larger. This is a generalization of the flat spacetime
+result we derived in detail earlier where the cutoff on the scalar mass was
+effectively mKK ∼ 1/R. One can repeat the kind of calculations we did at
+the beginning of these lectures which carve out an A5 effective potential, but
+now in the warped context, to build realistic warped models of the Higgs
+and electroweak symmetry breaking. The central considerations needed to
+achieve realism are worked out in Ref. [25]. Combining these with the Higgs
+realized as an A5 was done in Ref. [26].
+
+                                                46
+16     Last Words
+Well, I have just gone through the simplest examples of many of the interest-
+ing mechanisms connected with extra dimensions. They can appear together
+in interesting combinations. When this happens there is greater complexity
+and the probability for error is multiplied. I have found that in the arena of
+warped compactifications, the qualitative insight gained from the AdS/CFT
+connection between such compactifications and strongly coupled 4D dynam-
+ics, has saved me time and time again from errors. It’s like ”checking units”
+as an undergraduate, in principle it’s not necessary, but in practice indis-
+pensible. But while checking units is dull, the AdS/CFT connection is pure
+magic! It also allows you to design more efficient methods of analysing your
+models quantitatively. You can learn to think in terms of this connection by
+starting with Refs. [7] [9].
+
+
+Acknowledgements
+The author is supported by NSF grant P420-D36-2043-4350. He is grateful
+to Dmitry Belyaev for assistance with the figures and equations, and for
+catching several errors.
+
+
+References
+ [1] C. Csaki, arXiv:hep-ph/0404096.
+
+ [2] I. Z. Rothstein, arXiv:hep-ph/0308266.
+
+ [3] R. Rattazzi, Cargese lectures in “Particle Physics and Cosmology: The
+     Interface”, eds. D. Kazakov and G. Smadja, Springer 2005
+
+ [4] M. A. Luty, arXiv:hep-th/0509029.
+
+ [5] H. Ooguri and Z. Yin, arXiv:hep-th/9612254.
+
+ [6] J. Polchinski, ”String Theory” Vol. 1, Ch.8, Cambridge University Press
+     (1998).
+
+ [7] J. M. Maldacena, arXiv:hep-th/0309246.
+
+
+                                     47
+ [8] O. Aharony, S. S. Gubser, J. M. Maldacena, H. Ooguri and Y. Oz, Phys.
+     Rept. 323, 183 (2000) [arXiv:hep-th/9905111].
+
+ [9] N. Arkani-Hamed, M. Porrati and L. Randall, JHEP 0108, 017 (2001)
+     [arXiv:hep-th/0012148]; R. Rattazzi and A. Zaffaroni, JHEP 0104, 021
+     (2001) [arXiv:hep-th/0012248].
+
+[10] N. Arkani-Hamed, S. Dimopoulos and G. R. Dvali, Phys. Lett. B 429,
+     263 (1998) [arXiv:hep-ph/9803315].
+
+[11] N. S. Manton, “A New Six-Dimensional Approach To The Weinberg-
+     Salam Model,” Nucl. Phys. B 158, 141 (1979); D. B. Fairlie, Phys. Lett.
+     B 82, 97 (1979); J. Phys. G 5, L55 (1979); P. Forgacs and N. S. Manton,
+     Commun. Math. Phys. 72, 15 (1980); S. Randjbar-Daemi, A. Salam and
+     J. A. Strathdee, Nucl. Phys. B 214, 491 (1983).
+
+[12] Y. Hosotani, Phys. Lett. B 126, 309 (1983); Annals Phys. 190, 233
+     (1989).
+
+[13] M. Quiros, arXiv:hep-ph/0302189.
+
+[14] C. A. Scrucca, M. Serone and L. Silvestrini, Nucl. Phys. B 669, 128
+     (2003) [arXiv:hep-ph/0304220].
+
+[15] H. Georgi, ”Weak Interactions and Modern Particle Theory”, Ben-
+     jamin/Cummings, Menlo Park (1984).
+
+[16] Z. Chacko, M. A. Luty and E. Ponton, JHEP 0007, 036 (2000)
+     [arXiv:hep-ph/9909248].
+
+[17] S. Weinberg, Rev. Mod. Phys. 61, 1 (1989).
+
+[18] L. Randall and R. Sundrum, Phys. Rev. Lett. 83, 3370 (1999)
+     [arXiv:hep-ph/9905221].
+
+[19] L. Randall and R. Sundrum, Phys. Rev. Lett. 83, 4690 (1999)
+     [arXiv:hep-th/9906064].
+
+[20] H. Georgi, A. K. Grant and G. Hailu, Phys. Lett. B 506, 207 (2001)
+     [arXiv:hep-ph/0012379].
+
+
+
+                                    48
+[21] W. D. Goldberger and M. B. Wise, Phys. Rev. Lett. 83, 4922 (1999)
+     [arXiv:hep-ph/9907447].
+
+[22] H. Davoudiasl, J. L. Hewett and T. G. Rizzo, Phys. Rev. Lett. 84, 2080
+     (2000) [arXiv:hep-ph/9909255].
+
+[23] T. Gherghetta and A. Pomarol, Nucl. Phys. B 586, 141 (2000)
+     [arXiv:hep-ph/0003129].
+
+[24] R. Contino, Y. Nomura and A. Pomarol, Nucl. Phys. B 671, 148 (2003)
+     [arXiv:hep-ph/0306259].
+
+[25] K. Agashe, A. Delgado, M. J. May and R. Sundrum, JHEP 0308, 050
+     (2003) [arXiv:hep-ph/0308036].
+
+[26] K. Agashe, R. Contino and A. Pomarol, Nucl. Phys. B 719, 165 (2005)
+     [arXiv:hep-ph/0412089].
+
+
+
+
+                                    49
+

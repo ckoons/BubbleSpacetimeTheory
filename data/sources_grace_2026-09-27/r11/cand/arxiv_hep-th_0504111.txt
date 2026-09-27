@@ -1,0 +1,450 @@
+                                     Massive neutrinos, massless neutrinos, and
+                                                so(4, 2) invariance.
+
+
+
+
+arXiv:hep-th/0504111v1 12 Apr 2005
+                                                              A.J. Bracken
+                                                    Centre for Mathematical Physics
+                                                      Department of Mathematics
+                                                        University of Queensland
+                                                             Brisbane 4072
+                                                               Queensland
+                                                                Australia
+                                                      e-mail:ajb@maths.uq.edu.au
+
+
+                                                                     Abstract
+                                         Dirac’s equation for a massless particle is conformal invariant, and
+                                      accordingly has an so(4, 2) invariance algebra. It is known that al-
+                                      though Dirac’s equation for a massive spin 1/2 particle is not confor-
+                                      mal invariant, it too has an so(4, 2) invariance algebra. It is shown here
+                                      that the algebra of operators associated with a 4-component massless
+                                      particle, or two flavors of 2-component massless particles, can be de-
+                                      formed into the algebra of operators associated with a spin 1/2 particle
+                                      with positive rest mass. It is speculated that this may be exploited to
+                                      describe massless neutrino mixing.
+
+
+
+
+                                                                          1
+1    Introduction
+
+In the 1970s and 1980s, Asim Barut’s name became synonymous with the
+applications to quantum mechanics of the Lie algebra so(4, 2), whether as
+a space-time (conformal) symmetry algebra [1], as a spectrum generating
+algebra in generalised Coulomb problems [2], or as an algebra associated
+with Dirac’s equation for the electron [3]. I would like to revisit from that
+period an idea involving so(4, 2) that may have renewed relevance because of
+the subsequent discovery of several neutrino types, some of which may have
+small rest masses.
+
+It is well known that the massless Dirac equation is not only Poincaré in-
+variant but also so(4, 2) (conformal) invariant [4]. More surprising is that
+the massive Dirac equation also has an so(4, 2) invariance algebra [5]. The
+solution spaces of these two equations each carry hermitian representations
+of that Lie algebra. However, only in the massless case can this algebra be
+interpreted as the Lie algebra of the conformal group. In the massive case,
+the so(4, 2) invariance algebra contains the physical homogeneous Lorentz
+subalgebra, but not the generators of the physical translations, dilatations
+or special conformal transformations.
+
+What was done in Ref.[5] was to construct, from the operators spanning the
+usual hermitian representation of the Poincaré Lie algebra on the positive-
+energy solution space of the massive Dirac equation, a set of operators
+that span another, inequivalent hermitian irreducible representation of the
+Poincaré Lie algebra – and of its extension, the Lie algebra so(4, 2) – of the
+type appropriate for the description of a massless particle with a definite
+helicity. What will be shown below is that if two types of four-component
+neutrinos are considered, and if a parameter with the dimensions of mass is
+introduced, then we can construct from the algebra of operators for the mass-
+less particles, a set of operators that span a representation of the Poincaré
+Lie algebra appropriate to the description of a spin 1/2 particle with nonzero
+rest mass. In short, the operator algebra for the set of massless particles can
+be deformed into the operator algebra of a massive particle, acting on the
+same vector space.
+
+The observed mixing of the three known neutrino types is thought to be
+
+                                      1
+inexplicable unless some types have nonzero rest masses [6]. Neutrino masses
+have not been measured directly, but it is believed that if they are nonzero,
+then they are very small compared with the rest mass of the electron. This
+gives renewed relevance to the the notions of conformal invariance in the
+massless case, and so(4, 2) invariance in the massive case, and the relationship
+between the two.
+
+
+2    Massless and massive Dirac equations, and
+     so(4, 2) invariance.
+
+The space of positive energy solutions of the massless Dirac equation
+
+              (γ · P ) ψ(x) ≡ γµ P µ ψ(x) = 0 ,             Pµ = i∂/∂xµ ,   (1)
+
+when restricted by the helicity condition
+
+                                γ5 ψ(x) = ± ψ(x) ,                          (2)
+
+carries a unitary representation of the Poincaré group appropriate to the
+description of a massless particle with helicity ∓1/2. Here x = (xµ ), µ =
+0, 1, 2, 3, and the Dirac matrices γ µ satisfy
+
+                     {γ µ , γ ν } = 2g µν ,       γ5 = iγ0 γ1 γ2 γ3 .       (3)
+
+We choose the diagonal metric tensor with g 00 = −g 11 = −g 22 = −g 33 = 1,
+and set both ~ and c equal to 1.
+
+This representation of the Poincaré group extends to a unitary represen-
+tation of the conformal group, with generators MAB = −MBA , A, B =
+0, 1, 2, 3, 5, 6, given by [1, 4]
+
+                                                    1
+                         Mµν = Jµν = xµ Pν − xν Pµ + i[γµ , γν ] ,
+                                                    4
+                                      3
+                     M56 = D = x · P + i ,               Mµ6 − Mµ5 = Pµ ,
+                                      2
+
+        Mµ6 + Mµ5 = Kµ = xµ (2D + i) − (x · x) Pµ − i(γ · x)γµ .            (4)
+
+                                              2
+These satisfy the commutation relations
+             [MAB , MCD ] =
+
+           −i (gAC MBD + gBD MAC − gAD MBC − gBC MAD ) ,                  (5)
+where the extended metric tensor is diagonal with g55 = −1, g66 = 1. It is at
+once clear from (5) and the form of this diagonal metric that the Lie algebra
+of the conformal group is isomorphic to so(4, 2).
+
+We consider a 4-component massless particle, described by (1) but now with-
+out the fixed helicity condition (2). Noting that the generators (4) are not
+all dimensionless, we also introduce a parameter M > 0 with the dimensions
+of a mass (or an inverse length, since we have set ~ = c = 1). Then we can
+modify the conformal algebra (4) to give a new set of dimensionless operators
+NAB that satisfy the same so(4, 2) relations (5) as the MAB , namely
+
+
+                                Nµν = Mµν = Jµν ,        N56 = γ5 D ,
+
+                1                               1              
+        Nµ5 =     MKµ − Pµ /M ,             Nµ6 = γ5 MKµ + Pµ /M .        (6)
+                2                                2
+
+Our motivation for the change from the MAB to the NAB , as will become
+clearer below, is to make the operator structure in the massless case mirror
+that for the massive Dirac equation
+                              (γ · P ) ψ(x) = m ψ(x) ,                    (7)
+for which the corresponding so(4, 2) invariance algebra is spanned by the
+operators TAB defined by [5]
+                                             1
+                   Tµν = Jµν ,      T56 = J = ǫµνρσ Jµν Jρσ ,
+                                             4
+                         1                            1
+                Tµ5 =      {Jµν , P ν } ,    Tµ6 =      {Pµ , J} .        (8)
+                        2m                           2m
+Here { , } denotes the anticommutator, and ǫµνρσ is the alternating tensor
+with ǫ0123 = 1. Once again, the operators TAB satisfy relations of the form
+(5).
+
+                                            3
+The key to understanding the rather surpising so(4, 2) invariance of the mas-
+sive Dirac equation is that, when regarded as reducible representations of the
+homogeneous Lorentz Lie algebra so(3, 1), two irreducible representations of
+the Poincaré Lie algebra are equivalent[8]: the one appropriate to the de-
+scription of a positive energy massless particle with definite helicity, equal
+to either +1/2 or −1/2; and the other appropriate to the description of a
+positive energy massive particle with spin 1/2. Each of these reducible rep-
+resentations of so(3, 1) extends to an hermitian representation of so(4, 2). It
+is for this reason that the Jµν , as generators of homogeneous Lorentz trans-
+formations for the massless particle, can be identified with the Nµν as in (6);
+and similarly that as generators of homogeneous Lorentz transformations for
+the massive particle, they can be identified with the Tµν as in (8).
+
+It is known that the operators (4) satisfy certain characteristic ‘representa-
+tion relations’ [9], and the same is true of the operators (6) and (8). More
+generally, and more importantly, the similar structures of the algebras of op-
+erators associated with the massless particles and with the massive particle
+enable us now to proceed towards our goal.
+
+
+3     Deformation of the massless algebra to the
+      massive algebra.
+
+Our problem is to construct, on the space of solutions of the 4-component
+massless Dirac equation (1), a set of operators Pµ , Jµν that satisfy the defining
+relations of a representation of the Poincaré Lie algebra, appropriate for the
+description of a spin 1/2 particle with rest mass M. We do not deform the
+homogeneous Lorentz subalgebra, and take Jµν = Jµν as in (4).
+
+In order to proceed with the construction of Pµ , we first see how the operator
+Pµ is embedded in the operator algebra associated with the massive Dirac
+equation (7, 8). Although Tµ5 and Tµ6 are expressed in terms of the Pµ and
+Jµν in (8), it is not possible to invert these relations and express Pµ in terms
+of the Jµν , Tµ5 and Tµ6 alone. There are three independent 4-vectors acting
+on the space of solutions to (7). They could be taken to be Pµ , Jµν P ν and
+
+
+
+                                        4
+Jµν J νρ Pρ but a more convenient set for our purposes is
+                              1             1
+             Tµ6 + Tµ5 =        {J, Pµ } +    {Jµν , P ν } ,
+                             2m            2m
+                             1
+                               (J − 3i/2)Pµ + iWµ + Jµν P ν ,
+                                                           
+                         =
+                             m
+                              1             1
+             Tµ6 − Tµ5 =        {J, Pµ } −    {Jµν , P ν } ,
+                             2m            2m
+                           1
+                             (J + 3i/2)Pµ + iWµ + Jµν P ν ,
+                                                         
+                         =
+                           m
+                                                     
+                           1            i     ν  1
+                    Zµ   =     −iJWµ − Jµν P − Pµ ,                        (9)
+                           m            2        2
+where Wµ = (1/2)ǫµνρσ J νρ P σ is the Pauli-Lubanski 4-vector, and J = T56 is
+as in (8).
+
+The first two of these 4-vector operators satisfy
+
+
+                  J (Tµ6 + Tµ5 ) = (Tµ6 + Tµ5 ) (J + i) ,
+
+                  J (Tµ6 − Tµ5 ) = (Tµ6 − Tµ5 ) (J − i) ,                (10)
+which are among the relations of the form (5) satisfied by the TAB , and it is
+straightforward to check that, in addition,
+                               J Zµ = −Zµ J .                            (11)
+
+
+Operators satisfying similar shifting relations to J, Tµ6 + Tµ5 and Tµ6 − Tµ5
+are easily found in the massless case, namely N56 = γ5 D, Nµ6 + Nµ5 and
+Nµ6 − Nµ5 with, again as a consequence of the so(4, 2) commutation relations
+of the form (5) satisfied by the NAB ,
+
+
+              (γ5 D) (Nµ6 + Nµ5 ) = (Nµ6 + Nµ5 ) (γ5D + i) ,
+
+              (γ5 D) (Nµ6 − Nµ5 ) = (Nµ6 − Nµ5 ) (γ5D − i) .             (12)
+
+                                       5
+To find an analogue of Zµ , we note that on solutions of (7),
+                i
+          Zµ = − [(γ · x)Pµ − (D − i/2)γµ − m(γ · x)γµ + mxµ ] ,          (13)
+                2
+where D is as in (4). This suggest the choice
+                            i
+                     ζµ = − τ2 [(γ · x)Pµ − (D − i/2)γµ ] ,               (14)
+                            2
+and it is then easily checked that indeed
+                            (γ5 D) ζµ = −ζµ (γ5 D) ,                      (15)
+analogous to equation (11). Furthermore, it is also easily checked that
+                           (γ · P )ζµ = −ζµ (γ · P ) ,                    (16)
+so that ζµ leaves invariant the space of solutions of the massless Dirac equa-
+tion (1), as do the NAB . Note however that ζµ anticommutes with γ5 . It is
+for this reason that we have dropped the condition (2).
+
+The relations (9) can be inverted to give, on solutions of the massive Dirac
+equation (7),
+             m 2 1 −1
+      Pµ =     [J + ]
+             2     4
+                                                                 
+            × (J + i/2)(Tµ6 + Tµ5 ) + (J − i/2)(Tµ6 − Tµ5 ) + 2Zµ .       (17)
+This suggests a formula for Pµ on solutions of the massless Dirac equation
+(1), namely
+             M 2 1 −1
+     Pµ =      (D + )
+             2     4
+                                                                    
+      × (γ5 D + i/2)(Nµ6 + Nµ5 ) + (γ5 D − i/2)(Nµ6 − Nµ5 ) + 2ζµ         (18)
+which simplifies to
+
+          1      1
+      Pµ = (D 2 + )−1
+          2      4
+
+                      × M2 (D + i/2)Kµ + (D − i/2)Pµ + 2Mζµ .
+                                                           
+                                                                          (19)
+
+                                       6
+Note that [J 2 + 1/4]−1 and [D 2 + 1/4]−1 are well-defined, nonsingular oper-
+ators, and that Pµ has the appropriate dimensions.
+
+It is now possible to check by direct calculation that the operators Pµ and
+Jµν = Jµν satisfy all the algebraic relations appropriate for the description of
+a spin 1/2 massive particle of rest mass M.
+
+To check that
+                                 [Pµ , Pν ] = 0 ,                          (20)
+we introduce the notation
+
+                           Aµ Bν − Aν Bµ = A[µ Bν] ,                       (21)
+
+so that in particular [Pµ , Pν ] = P[µ Pν] . Then we find that, on the solution
+space of (1),
+
+                               K[µ Pν] = 2(D − i/2)Lµν − iRµν ,
+
+                    P[µ Kν] = −2(D + 3i/2)Lµν + iRµν − 4iSµν ,
+
+         ζ[µ ζν] = −2(D − i/2)Lµν + 2DRµν − 4i(D − i/2)2 Sµν ,             (22)
+
+where
+
+                               Lµν = xµ Pν − xν Pµ ,
+
+                      Rµν = (γ · x)(γµ Pν − γν Pµ ) ,
+
+                                Sµν = (i/4)[γµ , γν ] .                    (23)
+
+Furthermore, again on the solutions of (1), we find that
+
+
+                 (D + i/2)K[µ ζν] = −(D − 3i/2))ζ[µKν] ,
+
+                   (D − i/2)P[µ ζν] = −(D + 3i/2)ζ[µPν] .                  (24)
+
+
+                                        7
+The relations (22) and (24), together with (19) and the shifting formulas (12,
+15), lead to the desired result (20).
+
+Similarly, to check that (19) leads to
+
+                                 P · P = M2 ,                            (25)
+
+we use the results on solutions of (1)
+
+                    K · P = 2(D − i/2)(D − 3i/2) ,
+                    P · K = 2(D + i/2)(D + 3i/2) ,                       (26)
+
+and
+
+      P ·ζ = ζ ·P = 0,     K ·ζ = ζ ·K = 0,       ζ · ζ = 2D 2 + 1/2 .   (27)
+
+
+Several other useful formulas hold on the solutions of (1), namely
+
+
+             ǫµνρσ Jνρ Kσ = −γ5 K µ ,        ǫµνρσ Jνρ Pσ = γ5 P µ ,
+
+                          ǫµνρσ Jνρ ζσ = 2iγ5 Dζ µ ,                     (28)
+
+
+
+           {γ5D, Kµ } = 2γ5 (D − i/2)Kµ ,           {γ5 D, ζµ } = 0 ,
+
+                                 {γ5 D, Pµ } = 2γ5(D + i/2)Pµ ,          (29)
+
+and
+
+
+             {Jµν , K ν } = 2(D − i/2)Kµ ,         {Jµν , ζ ν } = 0 .
+
+                                {Jµν , P ν } = 2(D + i/2)Pµ ,            (30)
+
+
+
+
+                                         8
+To obtain the Pauli-Lubanski 4-vector associated with Pµ and Jµν , we use
+the results (28) to deduce from (19) that
+                         1 µνρσ         1
+               Wµ =        ǫ    Jνρ Pσ = ǫµνρσ Jνρ Pσ
+                         2              2
+                        1
+                     = − (D 2 + 1/4)−1 γ5 M2 (D + i/2)K µ
+                        4
+
+                         − (D − i/2)P µ − 4iMDζ µ ) .                     (31)
+
+Then with the help of (26, 27) we get
+                                    1 1
+                           W · W = − ( + 1)M2 ,                           (32)
+                                    2 2
+as required for a massive particle with spin 1/2.
+
+Finally, we note with the help of (29, 30) that in terms of Pµ and Jµν , the
+so(4, 2) generators (6) in the massless case can be rewritten as
+
+                                             1
+                 Nµν = Jµν ,     N56 = γ5 D = ǫµνρσ Jµν Jρσ ,
+                                             4
+                      1                          1
+             Nµ5 =      {Jµν , Pν } ,   Nµ6 =      {Pµ , γ5 D} .          (33)
+                     2M                         2M
+which have the same form as the formulas (8) in the massive case.
+
+
+4    Concluding remarks.
+The algebra of operators associated with a 4-component massless particle
+has been deformed to obtain the operator algebra associated with a spin 1/2
+particle with positive rest mass.
+    Instead of dropping the helicity condition (2), we could instead have in-
+troduced two flavors of 2-component massless particles, and an associated
+set of Pauli flavor matrices τ1 , τ2 , τ3 that commute with all Dirac matrices.
+Then we could have replaced γ5 in (2) by τ3 γ5 , and our calculations would
+go through as before provided that we replaced ζµ everywhere, and in par-
+ticular in (19) and (31), by τ1 ζµ . The operators Pµ and Wµ so modified leave
+
+                                        9
+invariant the space of solutions of (1) and the modified helicity condition.
+In this way, the operator algebra associated with two flavors of 2-component
+massless particles can also be deformed to obtain the algebra of a single spin
+1/2 particle with positive rest mass.
+    From a geometric point of view it is notable that non-null 4-vector oper-
+ators Pµ and Wµ can be constructed on the state space of a set of massless
+particles, for which the 4-vector operators Pµ and Kµ are null.
+    It is hoped that these results can be exploited to describe the mixing of
+neutrino types without the introduction of neutrino rest masses.
+
+
+References
+ [1] Barut, A.O. and Brittin, W.E., De Sitter and Conformal Groups and
+     their Applications, Lecture Notes in Theoretical Physics Vol. XIII (Col-
+     orado Associated University Press, Boulder, 1971).
+
+ [2] Barut, A.O., Dynamical Groups and Generalized Symmetries in Quan-
+     tum Theory, (University of Canterbury, Christchurch, NZ, 1971).
+
+ [3] Barut, A.O. and Bracken, A.J., “Zitterbewegung and the internal ge-
+     ometry of the electron,” Phys. Rev. D 23 (1981), 2454–2463.
+
+ [4] Mack, G. and Salam, A., “Finite-component field representations of the
+     conformal group,” Ann. Phys. 53 (1969), 174–202.
+
+ [5] Bracken, A.J., “O(4, 2): an exact invariance algebra for the electron,”
+     J. Phys. A 8 (1975), 808–815.
+
+ [6] Conrad, J.M., “A review of experimental results on neutrino oscilla-
+     tions,” Nucl. Phys. A 663 (2000), 210C–271C.
+
+ [7] Mack, G. and Todorov, I.T., “Irreducibility of the ladder representations
+     of U(2, 2) when restricted to the Poincaré group,” J. Math. Phys. 10
+     (1969), 2078–2085.
+
+ [8] Joos, H., “Theory of representations of the inhomogeneous Lorentz
+     group as a basis for quantum mechanical kinematics,” Forts. der Physik
+     10 (1962), 65-146.
+
+
+
+                                     10
+[9] Barut, A.O. and Bohm, A., “Reduction of a class of O(4, 2) representa-
+    tions with respect to SO(4, 1) and SO(3, 2),” J. Math. Phys. 11 (1970),
+    2938–2945.
+
+
+
+
+                                   11
+

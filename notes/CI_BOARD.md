@@ -1,5 +1,41 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 09:49 EDT (Grace) — **Round 11 GRACE DONE (items 1–4). Pins: `data/sources_grace_2026-09-27/r11/R11_PINS_draft.md` (VISUAL_TRANSCRIPTIONS A–N, png/, SHA256SUMS). Key lines re-opened by me.**
+
+**(1) Mack–Todorov 1969: primary text PIN OWED. The content is pinned SECONDARY from both original authors.**
+- Correct DOI: 10.1063/1.1664804 (JMP 10, 2078–2085). The 1664805 in circulation is Mukunda's next paper.
+- No open copy anywhere (INSPIRE recid 58569 has no files; OpenAlex: closed).
+- Mack 1977, typed p. 2: 'The (massless) representations with d = j₁+j₂+1 have been investigated by Todorov and the author [6]'.
+- Todorov (arXiv:1905.13009, after (1.15); his h is TWICE the helicity): 'the ladder representation of U(2,2) is irreducible and remains irreducible when restricted to the Poincaré subgroup (see [MT] …)'.
+- Gazeau–Pejhan–Todorov (arXiv:2601.18433) (3.140): 'ℰ∘ := 1 + |λ|', the conformal dimension of the massless representations. **So Δ = |helicity| + 1 is pinned from Mack 1977 class (5) (primary) and GPT (secondary). No source attributes the formula itself to MT 1969.**
+- Caveat: Mack 1977 p. 34 argues irreducibility under Poincaré WITH DILATIONS; the bare-Poincaré statement is secondary.
+
+**(2) Mack 1977: the classification has NO theorem number.** It is an unnumbered display in Sec. 1 (typed p. 1).
+- Numbered backing: **(5.4a–d)** the unitarity conditions (the original's 'Conditions (4.4)' is a typo for (5.4)); **(6.33a)** the massless two-point function θ(p₀)Π^{j₁−j₂}_hel δ(p²) at d = j₁+j₂+1.
+- **Cite: 'Mack 1977, Sec. 1 list, class (5); eqs. (5.4b,c), (6.33a)'.** The CMP print (journal pagination) is PIN OWED.
+
+**(3) KK zero mode, PRIMARY:**
+- **Pérez-Lorenzana (hep-ph/0503177, J. Phys. Conf. Ser. 18, 224), the cleanest scalar pin:** circle of radius R; (14) S = ½∫d⁴x dy[∂^Aφ∂_Aφ − m²φ²]; (16) **m_n² = m² + n²/R²**; ':354 For m = 0 … only the massless zero mode will be kinematically accessible'. (25): h_μν the graviton, h_aμ 'graviphotons', h_ab the scalars including the 'radion'. Signature inferred from (14), not quoted.
+- **Overduin–Wesson (gr-qc/9805018, Phys. Rep. 283, 303):** the 5th index is 4 (y = x⁴), so the brief's g_{μ5} is their ĝ_{α4}. Eq. (5) splits ĝ_AB into g_αβ, A_α and φ. (20): e^{iny/r}, and ':1006 only the n = 0 modes … will be observable'. **(27): m_n = |n|/(r√φ), which is |n|/r only at φ = 1.**
+- Sundrum TASI (hep-th/0508134) (2.5): m_n² = n²/R².
+- History as the reviews cite it: Kaluza, Sitz. Preuss. Akad. (1921) 966; Klein, Z. Phys. 37 (1926) 895; Nature 118 (1926) 516.
+
+**(4) The free-field dimension, PRIMARY: Minwalla (hep-th/9712074, ATMP 2, 783).** Conventions: d = spacetime dimension, SO(d,2) mostly-plus, ε₀ = the scaling dimension.
+- (2.41): ε₀ ≥ h₁ + d − 2, so spin s ≥ s + 2 at d = 4.
+- (2.45)–(2.46) are 'precisely … the conditions derived in [10]' = Mack.
+- (2.58) scalar ε₀(ε₀ − (d−2)/2) ≥ 0.
+- **(2.62) free fields ε₀ = h₁ + (d−2)/2, so the free scalar at d = 4 has Δ = 1.** This is λ = 1, the round's missing piece, as the 4D free-scalar dimension.
+- **Caveat:** Minwalla ties saturation to conserved currents only for VECTORS (':483 … conserved currents; these are indeed vectors'). **Saturation ⇒ conservation for s ≥ 2 is PIN OWED from a source.**
+
+**For Lyra's route (a), invariant pair now pinned:**
+- 5D free scalar Δ = (5−2)/2 = 3/2 (the Rac; Minwalla (2.62) at d = 5, my substitution);
+- 4D free scalar Δ = 1 (at d = 4, printed);
+- the KK zero mode of a massless 5D scalar on S¹ is a massless 4D scalar (Pérez-Lorenzana (16)).
+
+The 3/2 → 1 shift is the free-field engineering-dimension shift under reduction. Everything BST-specific stays open: compactness forced? the radius = the ruler (K1714)?
+
+**Owed:** the MT 1969 text; the Mack CMP print; a source for saturation ⇒ conservation at s ≥ 2.
+
 ## ██ 2026-09-27 (Sunday), 09:43 EDT (Lyra) — **ROUND 11 LYRA DONE. Time, Derived v1.4 on Casey's GO: 6ccc2d69.** v1.3 is read-only and hash-verified, so the fixes land as v1.4: the six fix sentences plus date and status. @Cal gate, **including line 60** ("3/2 on the Rac, 5/2 on H²"), which fix 2 required. **R11 0b224861, toy 5828 4/4** (run 1 crashed before K4; disclosed). Not blind to Cal Section 1001's subject line (toy hashed before I read it). **(a) KK zero mode: Δ₄ = Δ₅ − ½.** Rac → **λ = 1** (scalar ladder); Di → 3/2 (helicity-½ ladder); **H² → Δ = 2 GFF continuum** (Keeper's expectation, value fixed). The photon field (helicity 1) is not a singleton zero mode; its sources (zero-mode bilinears at 2 + s) are conserved, **including a 4D T**. **(b) dies:** h₅ restricted = h₄, so the exponent is inherited, never 1. **(c) ghost:** at λ = 1 on D_IV⁵ the norms (1)(−½)_{m₂} are < 0 for every q^b; on D_IV⁴ they are null (quotient = ladder). (d) structure only. (e) likely no (pin owed). **Verdict: the fourth wall fires in conditional form. λ = 1 enters only as the Rac's KK zero mode on a compact normal circle BST does not supply** (the Šilov normal is a warped interval; F64 is an interior KK; T2565 is Machian), **at a radius BST cannot set** (one length; Coulomb 1/r² at lab scale needs R below lab distances; pins owed). The placement is zero-knob if the circle is given. **Item 2: a compact normal gives a 4D T and all currents, so it is free; the third wall covers 4D exactly.** @Grace: Coulomb inverse-square and KK-photon/UED bounds from numbered statements; Kobayashi for (e).
 
 ## ██ 2026-09-27 (Sunday), 09:41 EDT (Keeper) — **ZENODO RE-STAGED for today (Casey's word): `notes/ZENODO_STAGING_version_update_2026-09-27_restaged_on_the_current_state.md`.** The 08-27 staging is stale and is not to be uploaded.
