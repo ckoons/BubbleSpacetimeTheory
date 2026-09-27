@@ -1,0 +1,1219 @@
+                                                                                                                     SISSA 77/2007/EP
+                                                                                                                      INRNE-TH-07-12
+
+
+
+
+                                                            Positive Energy Representations,
+                                                              Holomorphic Discrete Series
+                                                             and Finite-Dimensional Irreps
+
+
+
+
+arXiv:0712.4375v5 [hep-th] 5 Dec 2021
+                                                                                 V.K. Dobrev
+
+                                                              Scuola Internazionale Superiore di Studi Avanzati
+                                                                                via Beirut 2-4
+                                                                             34014 Trieste, Italy
+
+                                                                                        and
+
+                                                             Institute for Nuclear Research and Nuclear Energy1
+                                                                        Bulgarian Academy of Sciences
+                                                               72 Tsarigradsko Chaussee, 1784 Sofia, Bulgaria
+
+
+
+
+                                                                                    Abstract
+                                               Let G be a semi-simple non-compact Lie group with unitary lowest/highest weight
+                                            representations. We consider explicitly the relation between three types of representations
+                                            of G: positive energy (unitary lowest weight) representations, (holomorphic) discrete series
+                                            representations and non-unitary finite-dimensional irreps. We consider mainly the conformal
+                                            groups SOo (n, 2) treating in full detail the cases n = 1, 3, 4.
+
+
+
+
+                                        1
+                                            Permanent address.
+
+                                                                                         1
+1. Introduction
+
+Let G be a semi-simple non-compact Lie group with unitary lowest/highest weight rep-
+resentations, i.e., (G, K) is a Hermitian symmetric pair, where K is a maximal compact
+subgroup of G [1]. Let G be the Lie algebra of G. Then, G is one of the following Lie al-
+gebras: su(m, n), so(n, 2), sp(2n, R), so∗ (2n), E6(−14) , E7(−25) [2]. These groups/algebras
+have also discrete series representations, since rank G = rank K, and G ⊃ K ⊃ H, where
+H is a Cartan subalgebra of G [3].
+   In this paper we start a discussion on the relation between three types of representations
+of G: positive energy (i.e., unitary lowest weight) representations, (holomorphic) discrete
+series representations and finite-dimensional representations (the latter are not unitary).
+  There are some general facts that are known about these relationships. For exam-
+ple every discrete series representation has the same infinitesimal character (Casimirs) as
+some finite-dimensional representation [3]. According to the results of [1],[3],[4] a holo-
+morphic/antiholomorphic discrete series representation is (infinitesimally) equivalent to a
+unitary lowest/highest weight representation. The submerging of the set of discrete points
+enumerating the holomorphic discrete series in the semi-infinite interval parametrizing the
+unitary lowest weight representations is given in [4].2 The embedding of discrete series rep-
+resentations into elementary representations3 (called also generalized principal series rep-
+resentations) is given in [5],[6],[7]. (Other pertinent references are [8],[9],[10],[11],[12],[13].)
+However, the latter two very important connections are not used simultaneously in the
+mathematical literature.
+   Our input in the discussion of these relationships may be summarized as follows. First
+of all, we use all relationships between the three types of representations. In particular,
+we use essentially the fact that discrete series representations and finite-dimensional rep-
+resentations occur as subrepresentations of elementary representations. The elementary
+representations in question are topologically reducible (and not unitary). We group the
+(reducible) ERs with the same Casimirs in sets called multiplets [14],[15]. The multiplet
+corresponding to fixed values of the Casimirs may be depicted as a connected graph, the
+vertices of which correspond to the reducible ERs and the lines between the vertices cor-
+respond to intertwining operators.4 The explicit parametrization of the multiplets and
+of their ERs is important for understanding of the situation. Especially important are
+the multiplets containing (as subrepresentation of some reducible ER of the multiplet) a
+finite-dimensional representation. Each such multiplet contains some discrete series rep-
+resentation(s) (as subrepresentation(s) of other reducible ER(s) of the multiplet), and all
+discrete series representations are contained in some such multiplet. Furthermore, from
+these multiplets - by certain limiting procedure - one can obtain all multiplets containing
+limits of discrete series. (The latter resulting multiplets do not contain finite-dimensional
+
+2
+    Note that EHW [4] work in the conjugate picture with highest weight modules.
+3
+    The precise definition with relevant references is given below.
+4
+    For simplicity only the operators which are not compositions of other operators are depicted.
+The ERs which are related by non-trivial intertwining operators are said to be partially equivalent.
+
+                                                  2
+representations.) Finally, using the multiplets, we can identify the intertwining operators
+relevant for discrete series representations and the finite-dimensional representation.
+We should also mention that in distinction to mathematicians, in our considerations we are
+using induction also from maximal parabolics that are not cuspidal (e.g., on the example
+of G = so(n, 2) in this paper).
+   In the present paper we start such a description by discussing in some detail the con-
+formal case when G = so(n, 2). There are two typical cases when n > 2 : n odd and
+n even. Furthermore, the case n = 1 is special and is discussed separately. (The case
+n = 2 is reduced to the case n = 1.) Thus, the paper is organized as follows. In Section
+2 we give the general setting. In Section 3 we specify the setting to the conformal case. In
+Sections 4,5,6 we treat the cases n = 1, 3, 4 in detail.
+
+
+2. Preliminaries
+
+Let G be a semisimple non-compact Lie group, and K a maximal compact subgroup of
+G. Then we have an Iwasawa decomposition G = KAN , where A is abelian simply
+connected, a vector subgroup of G, N is a nilpotent simply connected subgroup of
+G preserved by the action of A. Further, let M be the centralizer of A in K. Then the
+subgroup P0 = M AN is a minimal parabolic subgroup of G. A parabolic subgroup
+P = M ′ A′ N ′ is any subgroup of G (including G itself) which contains a minimal
+parabolic subgroup.5
+  The importance of the parabolic subgroups comes from the fact that the representations
+induced from them generate all (admissible) irreducible representations of G [17]. For
+the classification of all irreducible representations it is enough to use only the so-called
+cuspidal parabolic subgroups P = M ′ A′ N ′ , singled out by the condition that rank M ′ =
+rank M ′ ∩ K [18],[19], so that M ′ has discrete series representations [3]. However, often
+induction from non-cuspidal parabolics is also convenient and we shall use it below.
+  Let ν be a (non-unitary) character of A′ , ν ∈ A′∗ , let µ fix an irreducible represen-
+tation Dµ of M ′ on a vector space Vµ .
+   We call the induced representation χ = IndG P (µ ⊗ ν ⊗ 1) an elementary representation
+of G [20]. (These are called generalized principal series representations (or limits thereof)
+in [6].) Their spaces of functions are:
+
+               Cχ = {F ∈ C ∞ (G, Vµ ) | F (gman) = e−ν(H) · Dµ (m−1 ) F (g)}                 (2.1)
+
+where a = exp(H) ∈ A′ , H ∈ A′ , m ∈ M ′ , n ∈ N ′ .
+   For our purposes we need to restrict to maximal parabolic subgroups P , (so that
+rank A′ = 1), that may not be cuspidal (the importance of such occurrences is explained on
+the example of G = so(n, 2) below).For the representations that we consider the character
+ν is parameterized by a real number d, called the conformal weight or energy (the latter
+for reasons that will become clear below).
+5
+    The number of non-conjugate parabolic subgroups is 2r , where r = rank A, cf., e.g., [16].
+
+                                                 3
+    We restrict also to the case of finite-dimensional (nonunitary) representations µ of M ′ .
+   An important ingredient in our considerations are the unitary lowest weight represen-
+tations of G. These can be realized as factor-modules of Verma modules V Λ over G IC,
+where Λ ∈ (H IC)∗ , H IC is a Cartan subalgebra of G IC, the lowest weight Λ = Λ(χ) is
+determined uniquely from χ [15]. Unitarity means positivity w.r.t. the Shapovalov form
+in which the conjugation is the one singling out G from G IC.
+   Actually, since our ERs are induced from finite-dimensional representations of M′ the
+Verma modules are always reducible. Thus, it is more convenient to use generalized Verma
+modules Ṽ Λ such that the role of the lowest weight vector v0 is taken by the finite-
+dimensional space Vµ v0 . For the generalized Verma modules (GVMs) the reducibility is
+controlled only by the value of the conformal weight d. Matters are arranged so that there
+is a real number d0 called the first reduction point (FRP), such that for d > d0 the
+GVMs are irreducible and unitary. For d = d0 the GVM is reducible (in general) with
+invariant subspace I Λ so that the factor space LΛ ∼   = Ṽ Λ /I Λ is irreducible and unitary.
+For d < d0 in some cases there is a discrete set of d-values for which the GVM is reducible
+and again the factor space LΛ is irreducible and unitary. This picture was known for the
+conformal cases G = so(n, 2) when n = 3 [21] (for more modern exposition cf. also [22])
+and n = 4 [23], but was established for all algebras with lowest/highest weight modules
+in [4].6
+    We turn now to the relation of discrete series representations with lowest weight modules.
+   The unitary lowest weight generalized Verma modules are infinitesimally equivalent to
+holomorphic discrete series when d = d0 + kc0 , k = A(λ0 ) + 1, 2, . . ., c0 , A(λ0 ) ∈ IN , [4].
+The GVMs with d = d0 + c0 A(λ0 ) are infinitesimally equivalent to the so-called limits
+of discrete series [4]. The latter are not related to finite-dimensional representations.
+    The irreps for d > d0 are also called analytic continuation of the discrete series.
+    In order to be more specific, in the next sections we consider the conformal cases.
+
+
+
+
+6
+    Note that EHW [4] work with highest weight modules, thus, their ranges are limited from above,
+while we work with lowest weight modules and our ranges are limited from below. The latter is
+done to have the intuitive picture of positive energy spectrum bounded from below. There is also
+a shift of the initial points - in our case d - as energy - is positive, while in the notation of [4] the
+spectrum includes the point zero.
+
+                                                   4
+3. Conformal groups
+
+Let G = SOo (n, 2). We shall consider first the case n > 2. Then G is the conformal
+group in n-dimensional Minkowski space-time. The Lie algebra, i.e., the conformal algebra
+G = so(n, 2) has three non-trivial non-conjugate parabolic subalgebras Pi = Mi ⊕Ai ⊕Ni ,
+i = 0, 1, 2, where:
+
+                M0 ∼
+                   = so(n − 2) , A0 ∼ = so(1, 1) ⊕ so(1, 1) , N0 ∼
+                                                                 = IR2n−2                  (3.1a)
+                M1 ∼
+                   = so(n − 2) ⊕ so(2, 1) , A1 ∼ = so(1, 1) , N1 ∼
+                                                                 = IR2n−3                  (3.1b)
+                M2 ∼
+                   = so(n − 1, 1) , A2 ∼ = so(1, 1) , N2 ∼ = IRn                           (3.1c)
+
+The parabolic P0 is a minimal one, and thus is cuspidal. The other two parabolics are
+maximal, P1 is also cuspidal, while P2 is cuspidal only if n is odd.
+   We shall use representations induced from the parabolic P2 since the sets of finite-
+dimensional (nonunitary) representations of M2 are in 1-to-1 correspondence with the
+finite-dimensional (unitary) representations of so(n) which is the semi-simple subalgebra
+of the maximal compact subalgebra K = so(n) ⊕ so(2). Thus, these induced repre-
+sentations are representations of finite K-type [1]. Relatedly, the number of ERs in the
+corresponding multiplets is equal to |W (G IC, H IC)| / |W (K IC, H IC)| = 2(1 + h̃), h̃ ≡ [ n2 ],
+where H is a Cartan subalgebra of both G and K. Note also that K IC ∼          = M2IC ⊕ A2IC.
+  The Bruhat decomposition [24] of G which corresponds to this parabolic is:
+
+                                  G = Ñ2 ⊕ M2 ⊕ A2 ⊕ N2 ,                                  (3.2)
+
+where Ñ2 = θN2 , (θ is the Cartan involution in G). The subalgebras in this decomposi-
+tion have direct physical meaning: M2 is the Lorentz algebra of n-dimensional Minkowski
+space-time M n , (the latter differs from IRn by the Lorentzian metric), N2 is the transla-
+tion algebra of M n , A2 is the subalgebra of dilatations, Ñ2 is the subalgebra of special
+conformal transformations of M n .
+  We label the signature of the ERs of G as follows:
+
+                   χ = { n1 , . . . , nh̃ ; c } ,       nj ∈ ZZ/2 ,    c = d − n2 ,
+                         |n1 | < n2 < · · · < nh̃ ,     n even ,                            (3.3)
+                         0 < n1 < n2 < · · · < nh̃ ,      n odd ,
+
+where the last entry of χ labels the characters of A2 , and the first h̃ entries are labels
+of the finite-dimensional nonunitary irreps of M2 , (or of the finite-dimensional unitary
+irrep of so(n)), which also fulfil the requirement that the ni ’s are either all integer, or all
+half-integer.
+   The reason to use the parameter c instead of d is that the parametrization of the ERs
+in the multiplets is given in a simple intuitive way:
+
+                        χ±
+                         1 = {ǫn1 , . . . , nh̃ ; ±nh̃+1 } ,       nh̃ < nh̃+1 ,            (3.4)
+
+                                                    5
+                       χ±
+                        2 = {ǫn1 , . . . , nh̃−1 , nh̃+1 ; ±nh̃ }
+                       χ±
+                        3  = {ǫn1 , . . . , nh̃−2 , nh̃ , nh̃+1 ; ±nh̃−1 }
+                           ...
+                        ±
+                       χh̃ = {ǫn1 , n3 , . . . , nh̃ , nh̃+1 ; ±n2 }
+                     χ±
+                      h̃+1
+                           = {ǫn2 , . . . , nh̃ , nh̃+1 ; ±n1 }
+                             
+                               ±,          for n even
+                         ǫ =
+                               1,          for n odd
+
+(ǫ = ± is correlated with χ± ).
+   The ERs in the multiplet are related by intertwining integral and differential opera-
+tors. The integral operators were introduced by Knapp and Stein [25]. These operators
+intertwine the pairs C˜i+ and C˜i− :
+
+             G+   ˜−    ˜+             G−   ˜+    ˜−
+              i : Ci −→ Ci ,            i : Ci −→ Ci ,             i = 1, . . . , 1 + h̃ .   (3.5)
+
+   Matters are arranged so that in every multiplet only the ER with signature χ−1 contains
+a finite-dimensional nonunitary subrepresentation in a finite-dimensional subspace E. The
+latter corresponds to the finite-dimensional unitary irrep of so(n + 2) with signature
+{n1 , . . . , nh̃ , nh̃+1 }. The subspace E is annihilated by the operator G+1 , and is the
+                               −
+image of the operator G1 .
+  Analogously, in every multiplet only the ER with signature χ+   1 contains holomorphic
+discrete series representation. In fact, it contains also the conjugate anti-holomorphic
+discrete series. The direct sum of the holomorphic and the antiholomorphic representations
+are realized in an invariant subspace D of the ER χ+   1 . That subspace is annihilated by
+                                                        +
+the operator G−  1 , and is the image of the operator G 1 .
+  Note that the corresponding lowest weight GVM is infinitesimally equivalent only to
+the holomorphic discrete series, while the conjugate highest weight GVM is infinitesimally
+equivalent to the anti-holomorphic discrete series.
+   The intertwining differential operators correspond to non-compact positive roots of the
+root system of so(n + 2, C I), cf. [15]. [In the current context, compact roots of so(n + 2, C
+                                                                                             I)
+are those that are roots also of the subalgebra so(n, C     I), the rest of the roots are non-
+compact.] Let us denote by C˜i± the representation space with signature χ±            i . The
+intertwining differential operators act as follows:
+
+                           di : C˜i− −→ C˜i+1
+                                          −
+                                              ,     i = 1, ..., h̃ ,   ∀n
+                           d′i : C˜i+1
+                                   +
+                                       −→ C˜i+ ,    i = 1, ..., h̃ ,   ∀n
+                           dh̃ = d′h̃ ,    n even                                            (3.6)
+                           dh̃+1 : C˜h̃+1
+                                     −
+                                          −→ C˜h̃+ ,    n even
+                           dh̃+1 : C˜h̃− −→ C˜h̃+1
+                                              +
+                                                   ,    n even
+
+                                                6
+The degrees of these intertwining differential operators are given just by the differences of
+the c entries:
+               deg di = deg d′i = nh̃+2−i − nh̃+1−i ,       i = 1, . . . , h̃ ,   ∀n
+                                                                                          (3.7)
+               deg dh̃+1 = n2 + n1 ,      n even
+
+The multiplets can be seen pictorially in [26].7 The equalities between some intertwining
+differential operators for n even in (3.6) is due to the fact that these operators are produced
+by singular vectors corresponding to the same positive roots of the root system of so(n +
+2, C
+   I), cf. [15].
+   More explicitly, for n-even, n = 2ℓ, the root system of so(n + 2, C I) may be given by
+vectors ei ± ej , ℓ + 1 ≥ i > j ≥ 1, where ei form an orthonormal basis in IRℓ+1 , i.e.,
+(ei , ej ) = δij . The non-compact roots may be taken as eℓ+1 ± ei . The roots eℓ+1 − ei ,
+2 ≤ i ≤ ℓ, correspond to the operators dℓ+1−i , the roots eℓ+1 + ei , 2 ≤ i ≤ ℓ, correspond
+to the operators d′ℓ+1−i , the roots eℓ+1 ± e1 correspond to the operators dℓ , d′ℓ , resp.
+   For n-odd, n = 2ℓ +1, the root system of so(n +2, C I) may be given by vectors ei ±ej ,
+ℓ + 1 ≥ i > j ≥ 1, ek , 1 ≤ k ≤ ℓ + 1. The non-compact roots may be taken as eℓ+1 ± ei ,
+eℓ+1 . The roots eℓ+1 − ei , 1 ≤ i ≤ ℓ, correspond to the operators dℓ+1−i , the roots
+eℓ+1 + ei , 1 ≤ i ≤ ℓ, correspond to the operators d′ℓ+1−i . The root eℓ+1 has a special
+position, for ni ∈ IN it corresponds to differential operators of degree 2ni which are
+degenerations of the integral operators G+i . The latter phenomenon is given explicitly for
+n = 3 in [22].
+  Another parametrization of the ER/GVM is by the so-called Dynkin labels. These are
+defined as follows:
+                                  mi ≡ (Λ + ρ, α∨
+                                                i ) ,                          (3.8)
+where Λ = Λ(χ), ρ is half the sum of the positive roots of G, αi denotes the simple
+roots of G, α∨i ≡ 2αi /(αi , αi ) is the co-root of αi . Often it is convenient to consider the
+so-called Harish-Chandra parameters:
+
+                                      mα ≡ (Λ + ρ, α∨ ) ,                                 (3.9)
+
+where α is any positive root of G. These parameters are redundant, since obviously they
+can be expressed in terms of the Dynkin labels, however, as we shall see below, some
+statements are best formulated in their terms.
+  The numbers deg di , deg d′i , are actually part of the Harish-Chandra parameters which
+correspond to the non-compact positive roots of so(n+2, C  I). From these, only deg d1 , cor-
+responds to a simple root, i.e., is a Dynkin label.
+    These labellings will be used in the examples n = 3, 4 below.
+  Above we restricted to n > 2. The case n = 2 is reduced to n = 1 since so(2, 2) ∼        =
+so(1, 2) ⊕ so(1, 2). The case n = 1 is special and is treated separately in the next Section.
+7
+    Actually the diagrams in [26] are for the corresponding Euclidean cases so(n + 1, 1) - the
+diagrams are the same for both signatures.
+
+                                               7
+4. SL(2,R)
+
+We start with the conformal case for n = 1: G = SOo (1, 2) ∼    = SL(2, IR)/ZZ2 . This is
+treated separately since r = 1 and there is only one non-trivial parabolic. Next, the
+Lie algebra so(1, 2) ∼= sl(2, IR) is maximally split and the subalgebra M is trivial.
+Furthermore, this case is simpler and we can give more details.
+
+4.1. Discrete series and limits thereof
+We consider G = SL(2, IR) following in this Subsection Gelfand et al (the original results
+are in [27],[28]). The elementary representations of SL(2, IR) are parametrized by a
+complex number s and a signature ǫ = 0, 1. We shall denote the ERs by Dχ , χ = [s, ǫ].
+The discrete unitary series are realized as subspaces of D−s ≡ Dχ , with χ = [−s, ǫ =
+                                                                                ±
+s(mod2)], when s ∈ ZZ+ . More precisely, there are two discrete series UIRs F−s   , which
+are invariant subspaces of D−s .
+                            +
+  The UIRs realized in F−s     nowadays are called holomorphic discrete series, they have
+                                                 −
+a lowest weight vector, the UIRs realized in F−s     nowadays are called antiholomorphic
+                                                                             +      −
+discrete series, they have a highest weight vector. Their direct sum F−s = F−s  ⊕ F−s   is
+an invariant subspace of D−s .
+  For s 6= 0 the Casimir (the infinitesimal character) of D−s is equal to the Casimir of Ds ,
+which contains as subrepresentation the finite-dimensional (non-unitary) representation
+Es of SL(2, IR) of dimension s. The UIRs F0± are not related to finite-dimensional
+representations, correspondingly, they do not fulfil Harish-Chandra’s criterion for discrete
+series, and thus, nowadays they are called limits of discrete series.
+   For fixed s 6= 0 the ERs D−s and Ds are partially equivalent, which is realized by two
+integral operators [later introduced in [25] in general]: A±s : D∓s −→ D±s , cf. (3.5).
+Thus, these two ERs form a doublet. The operator As annihilates F−s and its image is
+Es ⊂ Ds . The operator A−s annihilates Es and its image is F−s . Note also that the
+factor space Fs = Ds /Es is the direct sum of two further subspaces: Fs = Fs+ ⊕ Fs− ,
+                                                  ±
+and that the operator A−s maps Fs± onto F−s         .
+For s = 0 one has: D0 = F0 = F0+ ⊕ F0− , (setting E0 = 0).
+
+4.2. Lowest weight representations
+As we mentioned the lowest weight representations are conveniently realized via the lowest
+weight Verma module V Λ over the complexification G IC = sl(2, C   I) of the Lie algebra
+G = sl(2, IR), and the weight Λ = Λ(χ) = Λ(s) is determined uniquely by χ .
+  For s ∈ IN the Verma module V Λ(s) is reducible, it has a finite dimensional factor-
+representation Es+ = V Λ(s) /I Λ(s) of real dimension s, (which naturally can be identified
+with Es from above).
+  By introducing the conjugation singling out G we can use the Shapovalov form on U (G + ),
+(G + are the raising generators of G IC), to define a scalar product in V Λ and then positivity
+produces the list of lowest weight modules.
+  Using as parameter d = −s the condition for positivity is d ≥ −1. The point
+
+                                              8
+d = −1 is the first reduction point, which happens in the Verma module V Λ(1) , cf. above.
+There the factor-UIR is trivial (being one-dimensional). For d > −1 the Verma modules
+V Λ(−d) are irreducible and unitarizable. They are called positive energy representations,
+the parameter d being the energy or conformal weight. They are also called analytic
+                                         +
+continuation of the discrete series F−s     . In particular, for d = −s ∈ IN the Verma
+           Λ(−d)                                                                          +
+module V          is infinitesimally equivalent to the holomorphic discrete series irrep F−s ,
+while for d = 0 it is infinitesimally equivalent to the limit of holomorphic discrete series
+irrep F0+ . All this is illustrated in Fig.1. below:
+  A similar construction exists if we take the conjugate highest weight Verma modules,
+              +                             −
+the role of F−s  , Es+ being played by F−s    , Es− . In that case we are speaking about
+negative energy representations, with parameter d = s, so that we have d ≤ 1.
+
+
+
+
+                                              9
+ ✻
+
+
+
+ •d = k     HDS
+ ..
+  ..
+   ..
+    ..
+     .
+ •d = 1     HDS
+
+
+
+
+ •d = 0     LHDS
+
+
+
+
+ • d = −1    FRP
+
+
+
+Fig. 1    sl(2, R)
+
+
+
+
+                     10
+5. SO(3,2)
+
+The algebra so(3, 2) has, besides the minimal parabolic, two maximal (cuspidal) parabolic
+subalgebras which are isomorphic (though non-conjugate!). So below we fix one of these
+maximal parabolic subalgebras, and denote it Pmax . Here the reducible ERs that have
+finite K-type representations can be induced from Pmax = M2 A2 N2 , where M2 =
+so(2, 1), dim A2 = 1, dim N2 = 3. Their signatures are given by χ = [E0 , s0 ], where we
+have introduced the traditionally used energy E0 and spin s0 , s0 = 0, 21 , 1, . . . (the latter
+parametrizing the finite-dimensional irreps of so(2, 1) or so(3)).
+  Alternatively, the ERs (GVMs) are determined by the two Dynkin labels: mi =
+hΛ + ρ, α∨
+         i i, i = 1, 2, where αi are the simple roots. The relation between the two
+parametrisations is:
+
+                         m1 = 2s0 + 1,      m2 = 1 − E0 − s0 ,
+                                                                                               (5.1)
+                         χ = [E0 , s0 ] = [ 21 (3 − m1 ) − m2 , 12 (m1 − 1)]
+
+The numbers m3 = m1 + 2m2 = 3 − 2E0 , m4 = m1 + m2 = 2 − E0 + s0 correspond
+to the two non-simple positive roots α3 = α1 + α2 , α4 = 2α1 + α2 . The root α1 is
+M2 -compact, the other roots are M2 -non-compact. The set of the four numbers mi ,
+i = 1, 2, 3, 4, are the Harish-Chandra parameters.
+
+5.1. Multiplets, finite-dimensional irreps and discrete series
+The reducible such ERs are grouped in quartets, doublets and singlets [22].
+  The quartets are depicted in Fig. 2, cf. [22]. The signatures of the ERs of the quartet
+are given by:
+
+ χ±       1                  1
+  q,k = [ 2 (3 ± (q + 2k)) , 2 (q − 1)] ,   χ′±      1           1
+                                             q,k = [ 2 (3 ± q) , 2 (q − 1 + 2k)] ,   q, k ∈ IN (5.2)
+
+The quartets are in 1-to-1 correspondence with the finite-dimensional irreps of G since
+in each quartet there is exactly one ER which contains (as subrepresentation) a finite-
+dimensional irrep. The latter are parametrized by the positive integer Dynkin labels which
+we denote by q, k. The corresponding finite-dimensional irrep is denoted Eq,k , it has
+dimension: q k (q + k) (q + 2k)/6, [22], and is contained in the ER denoted by χ− q,k .
+   Consequently, the quartets also hold the discrete series representations. For fixed
+q, k the discrete series are contained in χ+       ′+
+                                            q,k , χq,k , - we know that there are two distinct
+non-conjugate cases of discrete series [6].
+   The doublets are denoted by χ±
+                                q , and the expression for their signatures can be obtained
+from the signatures of χq,k or from χ′±
+                         ±
+                                       q,k by setting k = 0, i.e.,
+
+                                   1           1
+                            χ±
+                             q = [ 2 (3 ± q) , 2 (q − 1)] , q ∈ IN .                           (5.3)
+
+  Note that for all pairs of ERs with signature distinguished by ± the sum of the E0 ’s of
+the two ERs equals 3 - the dimension of Minkowski space-time in this case. Furthermore,
+
+                                                 11
+such pairs are related by two Knapp-Stein integral operators, as in the SL(2, IR) case,
+(though, some of those operators that act from the ’−’ ER to the ’+’ ER degenerate
+into differential operators, see below). Thus, each doublet can be represented pictorially
+by any such ± pair from the quartet.
+  The singlets are χsn = [ 23 , n − 12 ], n ∈ IN , and the expression for their signatures can
+be obtained from the signatures of χ±                                      1
+                                          q,k by setting q = 2n, k = − 2 q = −n (then ±
+coincide).8
+  In Table 1 we give the Harish-Chandra parameters mα for all representations that we
+discuss in this Section.
+  According to the results of Harish-Chandra the holomorphic discrete series happen when
+the numbers mα are negative integers for the M2 -non-compact roots. Thus, we see from
+the Table that the holomorphic discrete series are contained in the ERs χ+ q,k .
+  The limits of the holomorphic discrete series happen when some of the M2 -non-compact
+numbers mα become zero, while the rest of the non-compact numbers mα remain
+negative. We see that these limits are contained in the ERs χ+q , (from the doublets).
+
+
+5.2. Holomorphic discrete series and lowest weight representations
+Next we discuss how the lowest weight positive energy representations fit in the multiplets,
+and when they are infinitesimally equivalent to holomorphic discrete series.
+  We are interested in the positive energy UIRs of G which are given as follows [29,30,31]
+(with s0 ∈ 21 ZZ+ ): 9
+
+      Rac : D(E0 , s0 ) = D(1/2, 0) , Di : D(E0 , s0 ) = D(1, 1/2) ,                        (5.4a)
+      D(E0 ≥ 1, s0 = 0) , D(E0 ≥ 3/2, s0 = 1/2) , D(E0 ≥ s0 + 1, s0 ≥ 1).                   (5.4b)
+
+The UIRs in (5.4a) are the two singleton representations discovered by Dirac [29] and
+the last case in (5.4b) corresponds to the spin-s0 massless representations [30]. We note
+that for these UIRs m2 is never a positive integer, m3 is a positive integer only for
+E0 = 1/2, 1, in which case m3 = 2, 1, (Rac,Di), respectively. Similarly, m4 is a positive
+integer only for E0 − s0 = 1, and that integer is m4 = 1.
+  We want to see which positive energy irreps would fit in our multiplets. First we note
+that no such irreps can fit χ−              3   1               ′−             3   1
+                             q,k since E0 = 2 − 2 q−k ≤ 0, and χq,k since E0 = 2 − 2 q ≤ 1
+but s0 = 12 (q − 1) + k ≥ 1.
+  We notice that all positive energy irreps from (5.4b) that would fit some multiplet can
+be parametrized with one parameter k ∈ ZZ, k ≥ −1. The parametrization is as follows:
+
+               m1 = q = 2s0 + 1 ,     m2 = −q − k         =⇒        E0 = 2 + s0 + k
+8
+    Obviously the doublets and singlets are not related to any finite-dimensional representations.
+9
+    We have adopted the notation of [30], so that D(E0 , s0 ) is the UIR which is contained as
+subrepresentation of the ER/GVM with signature χ = [E0 , s0 ].
+
+                                                 12
+In fact, for k ≥ 1 we obtain tautologically all ERs χ+q,k , q = 2s0 +1, (cf. the Table), which
+contain all holomorphic discrete series. For k = 0 we obtain all ERs χ+    q , q = 2s0 + 1, (cf.
+the Table), which contain all limits of holomorphic discrete series. Finally, for k = −1 we
+obtain the positive energy irreps D(1, 0), D( 32 , 21 ), D(s0 + 1, s0 ) (s0 ≥ 1), which are
+contained in the ERs χ−        s    ′+
+                        1 , χ1 , χ2s0 −1,1 .
+   From this we see that the above would fit the EHW [4] picture with A(λ0 ) = 1, (the
+parameter z from [4] corresponds to our −k). Accordingly the irreps D(1, 0), D( 23 , 12 ),
+D(s0 + 1, s0 ) (s0 ≥ 1), are in GVMs which are FRPs. In fact, exceptionally, the UIRs
+D(1, 0), D( 23 , 21 ), are isomorphic to the corresponding GVMs since they happen to be
+irreducible.10
+   Finally, from the list of positive energy irreps, it remains to discuss the Rac and the Di
+from (5.4a). They are found in doublets. With respect to the positive energy spectrum
+they are isolated points below - by 12 -spacing - the FRPs D(1, 0), D( 23 , 21 ), resp.
+     The Rac is in the reducible ER χ− 1 . This ER is partially equivalent to the ER χ+ 1
+                                         1, 2                                                   1, 2
+(denoted in the Table as Rac*). The latter’s GVM is irreducible and also of positive
+energy: s0 = 0, E0 = 25 . The intertwining operator acting from the Rac ER to Rac* is
+the d’Alembert operator (obtained by reduction of a Knapp-Stein operator [22]).
+     The Di is in the reducible ER χ′−1 . This ER is partially equivalent to the ER χ′+1
+                                        1, 2                                                    1, 2
+(denoted in the Table as Di*). The latter’s GVM is irreducible and also of positive energy:
+s0 = 12 , E0 = 2.
+     All this is illustrated on Figures 3,4.
+
+
+
+
+10
+     Brief explanation: In the case D(1, 0) the corresponding Verma module is reducible under roots
+α1 , α3 , α4 , (m1 = m3 = m4 = 1), however, the singular vectors corresponding to the non-compact
+roots α3 , α4    turn out to be descendants of the singular vector corresponding to the compact
+root α1 . Consequently, when factorizing the Verma module the resulting GVM is irreducible. In
+the case D( 23 , 12 ) the Verma module is reducible under roots α1 , α4 , (m1 = 2, m4 = 1), however,
+the singular vector corresponding to the non-compact root α4 turns out to be descendant of the
+singular vector corresponding to the compact root α1 . See the details in [22].
+
+                                                 13
+6. SU(2,2)
+
+In the 4D conformal case the ERs/GVMs that have finite K-type representations can
+be induced from the maximal parabolic subalgebra Pmax = M2 A2 N2 , where M2 =
+so(3, 1), dim A2 = 1, dim N2 = 4. The signatures are given by χ = [j1 , j2 ; d], where
+j1 , j2 parametrize the finite-dimensional irreps of so(3, 1), and d = 2 + c is the energy
+or conformal weight (while c is parametrizing the A2 -character).11
+   Alternatively, the ERs/GVMs are determined by the three Dynkin labels: mi = hΛ +
+ρ, α∨
+    i i, where αi are the simple roots. The relation between the two parametrisations is:
+
+        m1 = 2j1 + 1,     m2 = 1 − d − j1 − j2 ,        m3 = 2j2 + 1 ;
+                                                                                                (6.1)
+        χ = [j1 , j2 ; d = 2 + c] = [ 21 (m1 − 1), 21 (m3 − 1); 2 − m2 − 12 (m1 + m3 )]
+
+The numbers m12 = m1 + m2 , m23 = m2 + m3 , m13 = m1 + m2 + m3 , correspond to
+the three non-simple roots in an obvious manner. The roots α1 , α3 are M2 -compact, the
+other roots are M2 -non-compact. The set of the six numbers mα are the Harish-Chandra
+parameters. We also note that the numbers m1 , m3 , c parametrize the weights of the
+maximal compact subalgebra K and thus, are related to the discrete series representations,
+see below.
+
+6.1. Multiplets, finite-dimensional irreps and discrete series
+The reducible ERs/GVMs are grouped in sextets, doublets, and singlets [32],[33]. The
+sextets are depicted in Fig. 5, cf. [32],[33]. The signatures of the ERs/GVMs of the sextet
+are given by:
+                              1          1                  1
+                     χ−
+                      pνn = [ 2 (p − 1), 2 (n − 1); 2 − ν − 2 (p + n)]
+
+                      χ+       1          1                  1
+                       pνn = [ 2 (n − 1), 2 (p − 1); 2 + ν + 2 (p + n)]
+                               1              1                  1
+                      χ′−
+                       pνn = [ 2 (p + ν − 1), 2 (n + ν − 1); 2 − 2 (p + n)]
+                                                                                                (6.2)
+                               1              1                  1
+                      χ′+
+                       pνn = [ 2 (n + ν − 1), 2 (p + ν − 1); 2 + 2 (p + n)]
+                               1          1                      1
+                      χ′′−
+                       pνn = [ 2 (ν − 1), 2 (p + n + ν − 1); 2 + 2 (p − n)]
+                               1                  1              1
+                      χ′′+
+                       pνn = [ 2 (p + n + ν − 1), 2 (ν − 1); 2 + 2 (n − p)]
+
+The sextets are in 1-to-1 correspondence with the finite-dimensional irreps of G since in
+each sextet there is exactly one ER/GVM which contains (as subrepresentation) a finite-
+dimensional irrep. The latter are parametrized by the positive integer Dynkin labels which
+we denote as in [34] by p, ν, n ∈ IN . Correspondingly, the finite-dimensional irrep is
+11
+   The ERs of the group G = SU (2, 2) are induced from the parabolic subgroup P2 = M2 A2 N2 ,
+cf. (2.1), and the signature of M2 ∼       C) ×|ZZ2 is given by (j1 , j2 ) parametrizing the irreps of
+                                   = SL(2, I
+      C) ∼
+sl(2, I  = so(3, 1) and the signature ǫ = 0, 1 parametrizing the character of ZZ2 . In what follows
+we shall suppress ǫ since in the multiplet points (see below) it is fixed: ǫ = (p + ν + n − 1)(mod2),
+and thus, we shall consider only the Lie algebra picture.
+
+                                                 14
+denoted Epνn , it has dimension: pνn(p + ν)(n + ν)(p + ν + n)/12, [33], and is contained
+in the ER/GVM denoted by χ−   pνn .
+   As a consequence, the sextets also hold the discrete series representations. For fixed
+                                                                        ′±     ′′±
+p, ν, n the six representations of the sextet are denoted by: χ±pνn , χpνn , χpνn . We know
+that there are three distinct non-conjugate cases of discrete series [6]. In our setting the
+discrete series are contained in the cases when c > 0 : χ+          ′+     ′′+           ′′−
+                                                             pνn , χpνn , χpνn (n > p), χpνn
+                            ′′±
+(n < p), (the two cases χpνn are conjugate and count as one case).
+   The limits of discrete series representations are in some doublets. The doublets are of
+three kinds, denoted by: 1 χ± pν ,
+                                    2 ±
+                                      χpn , 3 χ±νn , and the expression for their signatures can
+be obtained from the signatures of χ′±    pνn , by  setting, n = 0, ν = 0, p = 0, respectively,
+i.e.,
+                          1 ′−
+                           χpν = [ 12 (p + ν − 1), 21 (ν − 1); 2 − 12 p]
+                             1 ′+
+                              χpν = [ 21 (ν − 1), 21 (p + ν − 1);   2 + 12 p]
+                            2 ′−
+                             χpn = [ 21 (p − 1), 21 (n − 1);   2 − 12 (p + n)]
+                            2 ′+
+                                                                                              (6.3)
+                             χpn = [ 12 (n − 1), 12 (p − 1);   2 + 21 (p + n)]
+                            3 ′−
+                             χνn = [ 12 (ν − 1), 21 (n + ν − 1);    2 − 12 n]
+                            3 ′+
+                             χνn = [ 21 (n + ν − 1), 21 (ν − 1);    2 + 21 n]
+
+   Note that for all pairs of ERs/GVMs with signature distinguished by ± the sum of the
+conformal weights d of the two ERs/GVMs equals 4 - the dimension of Minkowski space-
+time in this case. Furthermore, the ERs of such pairs are related by two Knapp-Stein
+integral operators [25].
+  Finally the singlets are denoted by χsν = [ 12 (ν − 1), 21 (ν − 1); 2], (ν ∈ IN ), and the
+expression for their signatures can be obtained from the signatures of χ′±  pνn , by setting,
+                                     12
+n = 0 and p = 0 (then ± coincide).
+  In Table 2 we give the Harish-Chandra parameters mα for all representations that we
+discuss in this Section.13
+   According to the results of Harish-Chandra the holomorphic discrete series happen when
+the numbers mα are negative integers for the M2 -non-compact roots. Thus, we see from
+the Table that the holomorphic discrete series are contained in the ERs χ+      pνn . The
+limits of the holomorphic discrete series happens when some of the non-compact numbers
+mα become zero, while the rest of the non-compact numbers mα remain negative. We
+see that these limits are contained in the ERs 2 χ+                         +
+                                                  pn (obtained also from χpνn for ν =0).
+
+
+
+6.2. Holomorphic discrete series and lowest weight representations
+
+12
+     Obviously the doublets and singlets are not related to any finite-dimensional representations.
+13
+     Matters are arranged as discussed so that the Dynkin labels are equal to p, ν, n for the series
+χ−
+ pνn    (which contains the finite-dimensional irreps).
+
+                                                   15
+Next we discuss how the lowest weight positive energy representations fit in the multiplets,
+and when they are infinitesimally equivalent to holomorphic discrete series.
+     There are 2 basic cases of positive energy representations [23]:
+
+                                       1) j1 j2 6= 0,        2) j1 j2 = 0
+
+     In case 1) the positive energy representations fulfil the condition [23]:
+
+                                       d ≥ 2 + j1 + j2 ,       j1 j2 6= 0
+
+     For d > 2 + j1 + j2 the GVMs are irreducible and unitary.
+   The point d = d0 ≡ 2 + j1 + j2 is the first reduction point. In our picture it is realized
+in the GVM with signature χ′+                     1        1
+                              p1n , so that j1 = 2 n, j2 = 2 p.
+   The point d = d0 + 1 is a limit of discrete series, while the integer points with d ≥
+d0 + 2 are the holomorphic discrete series. Indeed, the former are contained in 2 χ+    pn ,
+                                                                +
+while the latter are contained in the ERs with signature χpνn . In both cases we have
+j1 = 21 (n − 1), j2 = 21 (p − 1), d = 2 + ν + 12 (n + p), where n, p > 1 and ν = 0, ν ∈ IN ,
+distinguishes the two cases.
+   Thus, these cases correspond to c0 = 1 (see above) and A(λ0 ) = 1 in the terminology
+of [4]. Here and below the unitarity parameter z of [4] is related to ours as: z = −d +
+d0 + A(λ0 ) .
+     In case 2) the positive energy representations fulfil the condition [23]:
+
+                                       d ≥ 1 + j1 + j2 ,       j1 j2 = 0
+
+     For d > 1 + j1 + j2 the GVMs are irreducible and unitary.
+  The point d00 = 1 + j1 + j2 is the first reduction point. These are the massless
+representations of so(4, 2).
+   For j1 + j2 ≥ 1 the FRP is realized in the ERs/GVMs with signatures: χ′′+
+                                                                           11n , with
+j1 = 12 (n + 1) ≥ 1, j2 = 0, and χ′′−
+                                  p11 , with j 1 = 0, j 2 = 1
+                                                            2 (p + 1) ≥ 1.
+                                                                                            3 −
+   For j1 + j2 = 12 the FRP is realized in the ERs/GVMs with signatures:                     χ11 , with
+j1 = 12 , j2 = 0, and 1 χ−                      1 14
+                         11 , with j1 = 0, j2 = 2 .
+                                                                            2 − 15
+     For j1 = j2 = 0 the FRP is realized in the ER with signature:           χ11 .
+
+14
+     The two conjugated representations are two-component massless Weyl spinors. They are par-
+                                     1 +
+tially equivalent to the ERs 3 χ+
+                                11 ,  χ11 mentioned below, and the corresponding Knapp-Stein op-
+erators from these FRPs degenerate to the two well-known first order conjugated Weyl equations.
+15
+     This massless scalar representation is partially equivalent to the scalar ER   2
+                                                                                        χ+
+                                                                                         11 , mentioned
+
+below. The two ERs are related by Knapp-Stein integral operators, however, the operator from
+2
+     11 to
+    χ−       2
+                 χ+
+                  11 degenerates to the d’Alembert operator. That d’Alembert operator arises also as
+
+
+                                                        16
+  As we shall see, these cases correspond to c0 = 1 (see above). and A(λ0 ) = 2 in the
+terminology of [4] (the FRP is z = A(λ0 ) = 2).
+   The point next to the FRP (z = 1 by [4]) with d = d00 + 1 = 2 + j1 + j2 is part of the
+analytic continuation of the discrete series.
+For j1 + j2 ≥ 21 it fits the ERs 3 χ+                 1
+                                    1n , so that j1 = 2 n, j2 = 0, and
+                                                                       1 +
+                                                                        χp1 , so that j1 = 0,
+     1
+j2 = 2 p.
+For j1 = j2 = 0 it is realized in the singlet ER with signature: χs1 .
+   The next point with d = d00 + 2 = 3 + j1 + j2 , (z = 0 by [4]), fits the ERs 2 χ+   pn
+with either p = 1 or n = 1, which contain limits of discrete series (with j1 = 12 (n − 1),
+j2 = 21 (p − 1), as above for j1 j2 6= 0).
+  Finally, the cases with integer d ≥ d00 + 3 = 4 + j1 + j2 (z < 0 by [4]) are realized by
+the ERs χ+ pνn which contain the holomorphic discrete series (as above for j1 j2 6= 0).
+  All this is illustrated on Figures 6,7.
+
+6.3. Induction from another parabolic
+The ERs discussed until now can be also induced from the minimal parabolic subgroup
+as shown in [36], however, then they appear in larger multiplets [33]. In particular, the
+sextets are part of 24-plets, where each ER corresponds to an element of the Weyl group
+W of G IC = so(6, C
+                  I), (recall that |W | = 24).
+  But besides the minimal and maximal non-cuspidal parabolics (of dimensions 9 and
+11, resp.), the group SU (2, 2) has a maximal cuspidal parabolic of dimension 10: P1 =
+M1 A1 N1 , where M1 = SL(2, IR) × SO(2), dim A1 = 1, dim N1 = 5. The signatures here
+are χ1 = [n′ , k, ǫ, ν ′ ], where n′ ∈ ZZ is a character of SO(2), ν ′ ∈ I C is a character
+of A1 , k, ǫ fix a discrete series representation of SL(2, IR), k ∈ IN , ǫ = 0, 1, or a limit
+thereof when k = 0. In the integer points we are interested in ǫ = k(mod2), ν ′ ∈ ZZ, and
+the relation with the Dynkin labels is as follows [33]:
+
+                       1       ′   ′                                1       ′   ′
+               m1 =    2 (k − ν + n ) ,     m2 = −k ,      m3 =     2 (k − ν − n )          (6.4)
+
+   Clearly, representations induced in this way will not describe all ERs with finite K-type,
+cf. the Table. For instance, one can not obtain the ERs of type χ−    pνn . Further, there are
+                                        ′    ′
+some restrictions on the values of n , k, ν when matching the other five series, e.g., to
+have finite K-types must hold the condition: k > ν ′ + |n′ |. Furthermore, in order to fit the
+holomorphic discrete series, i.e., χ+                         ′     ′
+                                     pνn , must hold: k > |ν | + |n |. These representations
+describe the limits of discrete series when ν ′ = 0 and k > |n′ |.
+
+
+
+
+a conditionally invariant differential operator due to the presence of a subsingular vector in the
+corresponding Verma module with signature (m1 , m2 , m3 ) = (1, 0, 1) [35].
+
+                                                17
+7. Outlook
+
+In the present paper we restricted to the conformal group case. Similar explicit descriptions
+can be easily achieved for the other non-compact groups with lowest/highest weight repre-
+sentations. We plan also to extend these considerations [37] to the supersymmetric cases
+using precious results on the classification of positive energy irreps in various dimensions
+[38],[39],[40],[41], and also to the quantum group setting using [42]. Such considerations
+are expected to be very useful for applications to string theory and integrable models, cf.,
+e.g., [43].
+
+Acknowledgements.
+The author would like to thank for hospitality the International School for Advanced
+Studies, Trieste, where part of the work was done. This work was supported in part by
+the Alexander von Humboldt Foundation in the framework of the Clausthal-Leipzig-Sofia
+Cooperation, and the European RTN ’Forces-Universe’, contract MRTN-CT-2004-005104.
+  The author would like to thank the referees, since their remarks contributed to improving
+the exposition.
+
+
+
+
+                                             18
+                 χ−
+                  qk
+                     ✛                 /           ✲
+                                                       χ+
+                                                        qk
+                                                        ✻
+
+
+
+
+                    ❄
+
+                 χ′−
+                  qk
+                     ✛                 /           ✲   χ′+
+                                                        qk
+
+
+
+     Quartet of partially equivalent ERs and intertwining operators
+                        for so(3, 2) and so(4, 1)
+(arrows are differential operators, dashed arrows are integral operators)
+                                  Fig. 2
+
+
+
+
+                                  19
+                                          Table 1
+
+Harish-Chandra parameters for so(3,2) :
+mi = hΛ + ρ, α∨
+              i i, i = 1, 2, 3, 4, m3 = m1 + 2m2 , m4 = m1 + m2 , m1 ≡ 2s0 + 1,
+
+
+
+ ER                m1       m2       m3         m4
+
+
+
+ χ−
+  q,k              q        k        q + 2k     q+k
+
+ χ+
+  q,k              q        −q − k   −q − 2k    −k
+
+ χ′−
+  q,k              q + 2k   −k       q          q+k
+
+ χ′+
+  q,k              q + 2k   −q − k   −q         k
+
+ χ−
+  q                q        0        q          q
+
+ χ+
+  q                q        −q       −q         0
+
+ χsn               2n       −n       0          n
+
+ Rac, χ− 1         1        1
+                            2        2              3
+                                                    2
+          1, 2
+
+
+ Rac∗ , χ+ 1       1        − 23     -2         − 21
+           1, 2
+
+
+ Di, χ′−1          2        − 21     1              3
+                                                    2
+        1, 2
+
+
+ Di∗ , χ′+1        2        − 23     -1             1
+                                                    2
+         1,
+               2
+
+
+
+
+                                               20
+  ✻
+
+
+
+ • E 0 = s0 + k     HDS
+ ..
+  ..
+   ..
+    ..
+     .
+ • E 0 = s0 + 3     HDS
+
+
+
+
+ • E 0 = s0 + 2     LHDS
+
+
+
+
+ • E 0 = s0 + 1     FRP
+
+
+so(3, 2),    s0 = 1, 3/2, ...
+
+    Fig. 3
+
+
+
+
+                                21
+  ✻
+
+
+
+ • E 0 = s0 + k    HDS
+ ..
+  ..
+   ..
+    ..
+     .
+ • E 0 = s0 + 3    HDS
+
+
+
+
+ • E 0 = s0 + 2    LHDS
+
+
+
+
+ • E 0 = s0 + 1    FRP
+
+ • E0 = s0 + 12 below FRP
+   s0 = 0, 1/2 Rac, Di
+
+so(3, 2),    s0 = 0, 1/2
+
+    Fig. 4
+
+
+
+
+                            22
+                χ−
+                 pνn
+                     ✛                              /                           ✲
+                                                                                    χ+
+                                                                                     pνn
+                                                                                     ✻
+
+
+
+
+                    ❄
+
+                χ′−  ✛                              /                           ✲   χ′+
+                 pνn                                                                 pνn
+                        ❅                                                       ✒    ✻
+                            ❅
+                                ❅
+                                    ❅
+                                        ❅
+                                            ❅
+                                                ❅
+                                                    ❅
+                                                        ❅
+                                                            ❅
+                                                                ❅
+                                                                    ❅
+                                                                        ❅
+                                                                            ❅
+                    ❄                                                           ❅
+                                                                                ❘
+                                                                                ❅
+                χ′′−
+                 pνn ✛                              /                           ✲   χ′′+
+                                                                                     pνn
+
+     Sextet of partially equivalent ERs and intertwining operators
+                        for so(4, 2) and so(5, 1)
+(arrows are differential operators, dashed arrows are integral operators)
+
+                                        Fig. 5
+                                              Table 2
+
+Harish-Chandra parameters for so(4,2) :
+mi = hΛ + ρ, αii, i = 1, 2, 3, m12 = m1 + m2 , m23 = m2 + m3 , m13 = m1 + m2 + m3
+
+
+  ER             m1               m2           m3               m12              m23                  m13
+
+
+
+  χ−
+   pνn           p                ν            n                p+ν              n+ν                p+n+ν
+
+  χ+
+   pνn           n               −p − ν − n    p                −p − ν           −n − ν               −ν
+
+  χ′−
+   pνn           p+ν              −ν           n+ν              p                n                  p+n+ν
+
+  χ′+
+   pνn           n+ν             −p − ν − n    p+ν              −p               −n                   ν
+
+  χ′′−
+   pνn           ν                −ν − p       p+n+ν            −p               n                    n+ν
+
+  χ′′+
+   pνn           p+n+ν            −n − ν       ν                p                −n                   p+ν
+
+  1 −
+   χpν           p+ν              −ν           ν                p                0                    p+ν
+
+  1 +
+   χpν           ν                −p − ν       p+ν              −p               0                    ν
+
+  2 −
+   χpn           p                0            n                p                n                    p+n
+
+  2 +
+   χpn           n                −p − n       p                −p               −n                   0
+
+  3 −
+   χνn           ν                −ν           n+ν              0                n                    n+ν
+
+  3 +
+   χνn           n+ν              −ν − n       ν                0                −n                   ν
+
+  χsν            ν                −ν           ν                0                0                    ν
+
+Pn1′ ,k,ǫ,ν ′   1       ′   ′
+                2 (k − ν + n )   −k           1       ′   ′
+                                              2 (k − ν − n )
+                                                               1   ′       ′
+                                                               2 (n − k − ν )   − 21 (k + ν ′ + n′ ) −ν ′
+  ✻
+
+
+
+ • d = k + j1 + j 2       HDS
+ ..
+  ..
+   ..
+    ..
+     .
+ • d = 4 + j1 + j2        HDS
+
+
+
+
+ • d = 3 + j1 + j2        LHDS
+
+
+
+
+ • d = 2 + j1 + j2        FRP
+
+
+
+so(4, 2),    j1 j2 6= 0
+
+    Fig. 6
+
+
+
+
+                                 25
+  ✻
+
+
+
+ • d = k + j1 + j 2       HDS
+ ..
+  ..
+   ..
+    ..
+     .
+ • d = 4 + j1 + j2        HDS
+
+
+
+
+ • d = 3 + j1 + j2        LHDS
+
+
+
+
+ • d = 2 + j1 + j2
+
+
+
+ • d = 1 + j1 + j2        FRP
+
+
+
+so(4, 2),    j 1 j2 = 0
+
+    Fig. 7
+
+
+
+
+                                 26
+                                       References
+
+ [1] Harish-Chandra, ”Representations of semisimple Lie groups: IV,V”, Am. J. Math. 77
+     (1955) 743-777, 78 (1956) 1-41.
+ [2] S. Helgason, Differential Geometry and Symmetric Spaces (Academic Press, New York,
+     1962).
+ [3] Harish-Chandra, ”Discrete series for semisimple Lie groups: II”, Ann. Math. 116
+     (1966) 1-111.
+ [4] T. Enright, R. Howe and W. Wallach, ”A classification of unitary highest weight
+     modules”, in: Representations of Reductive Groups, ed. P. Trombi (Birkhäuser, Boston,
+     1983) pp. 97-143.
+ [5] A.W. Knapp and N.R. Wallach, ”Szegö kernels associated with discrete series”, Invent.
+     Math. 34 (1976) 163-200; ”Correction and addition to Szegö kernels associated with
+     discrete series”, Invent. Math. 62 (1980) 341-346.
+ [6] A.W. Knapp, Representation Theory of Semisimple Groups (An Overview Based on
+     Examples), (Princeton Univ. Press, 1986).
+ [7] B.E. Blank, ”Knapp-Wallach Szegö integrals and generalized principal series repre-
+     sentations: the parabolic rank one case”, J. Funct. Anal. 60 (1985) 127-145; ”Knapp-
+     Wallach Szegö integrals. II. The higher parabolic rank case”, Trans. Amer. Math. Soc.
+     300 (1987) 49-59.
+ [8] M. Kashiwara and M. Vergne, Invent. Math. 44 (1978) 1-47.
+ [9] N.R. Wallach, Trans. AMS 251 (1979) 1-7 & 19-37.
+[10] R. Parthasarathy, Proc. Indian Acad. Sci. Sect. A Math. Sci. 89 (1980) 124.
+[11] H.P. Jakobsen, Invent. Math. 62 (1980) 67-78; Math. Ann. 256 (1981) 439-447; J.
+     Funct. An. 52 (1983) 385-412.
+[12] J. Rawnsley, W. Schmid and J.A. Wolf, J. Funct. Anal. 51 (1983) 1114.
+[13] L. Dolan, C.R. Nappi and E. Witten, JHEP 0110 (2001) 016, hep-th/0109096.
+[14] V.K. Dobrev, Lett. Math. Phys. 9 (1985) 205-211.
+[15] V.K. Dobrev, Rep. Math. Phys. 25 (1988) 159-181; first as ICTP Trieste preprint
+     IC/86/393 (1986).
+[16] G. Warner, Harmonic Analysis on Semi-Simple Lie Groups I, (Springer, Berlin, 1972).
+[17] R.P. Langlands, On the classification of irreducible representations of real algebraic
+     groups, Math. Surveys and Monographs, Vol. 31 (AMS, 1988), first as IAS Princeton
+     preprint (1973).
+[18] D.P. Zhelobenko, Harmonic Analysis on Semisimple Complex Lie Groups, (Moscow,
+     Nauka, 1974, in Russian).
+[19] A.W. Knapp and G.J. Zuckerman, in: Lecture Notes in Math., Vol. 587 (Springer,
+     Berlin, 1977) pp. 138-159; Ann. Math. 116 (1982) 389-501.
+
+                                            27
+[20] V.K. Dobrev, G. Mack, V.B. Petkova, S.G. Petrova and I.T. Todorov, Harmonic Anal-
+     ysis on the n-Dimensional Lorentz Group and Its Applications to Conformal Quantum
+     Field Theory, Lecture Notes in Physics, Vol. 63 (Springer-Verlag, Berlin-Heidelberg-
+     New York, 1977).
+[21] M. Flato and C. Fronsdal, Lett. Math. Phys. 2, 421-426 (1978); Phys. Lett. B97, 236
+     (1980); J. Math. Phys. 22 , 1100 (1981); Phys. Rev. D23, 1278 (1981); Phys. Scripta
+     24, 895 (1981).
+[22] V.K. Dobrev, J. Phys. A39 (2006) 5995-6020; hep-th/0512354.
+[23] G. Mack, Commun. Math. Phys. 55 (1977) 1.
+[24] F. Bruhat, Bull. Soc. Math. France, 84 (1956) 97-205.
+[25] A.W. Knapp and E.M. Stein, Ann. Math. 93 (1971) 489-578; II : Inv. Math. 60 (1980)
+     9-84.
+[26] V.K. Dobrev, Suppl. Rendiconti Circolo Matematici di Palermo, Serie II, Numero 43
+     (1996) 15-56.
+[27] I.M. Gelfand and M.A. Naimark, Acad. Sci. USSR. J. Phys. 10 (1946) 93-94.
+[28] V. Bargmann, Annals Math. 48, (1947) 568-640.
+[29] P.A.M. Dirac, J. Math. Phys. 4, 901 (1963).
+[30] C. Fronsdal, Rev. Mod. Phys. 37, 221 (1965); Phys. Rev. D10, 589 (1974); Phys. Rev.
+     D12, 3819 (1975).
+[31] N.T. Evans, J. Math. Phys. 8, 170 (1967).
+[32] V.B. Petkova and G.M. Sotkov, Lett. Math. Phys. 8 (1984) 217-226; Erratum-ibid. 9
+     (1985) 83.
+[33] V.K. Dobrev, J. Math. Phys. 26 (1985) 235-251.
+[34] V.K. Dobrev and V.B. Petkova, Reports Math. Phys. 13 (1978) 233-277.
+[35] V.K. Dobrev, J. Phys. A: Math. Gen. 28 (1995) 7135 - 7155.
+[36] V.K. Dobrev and P. Moylan, Fort. d. Phys. 42 (1994) 339-392.
+[37] V.K. Dobrev, in preparation.
+[38] V.K. Dobrev and V.B. Petkova, Lett. Math. Phys. 9 (1985) 287-298; Fortschr. d.
+     Phys. 35 (1987) 537-572; Phys. Lett. 162B (1985) 127-132.
+[39] S. Minwalla, Adv. Theor. Math. Phys. 2 (1998) 781-846, hep-th/9712074.
+[40] V.K. Dobrev, J. Phys. A35 (2002) 7079-7100, hep-th/0201076; V.K. Dobrev and
+     R.B. Zhang, Phys. Atom. Nuclei, 68 (2005) 1660-1669, hep-th/0402039; V.K. Dobrev,
+     A.M. Miteva, R.B. Zhang and B.S. Zlatev, Czech. J. Phys. 54 (2004) 1249-1256; hep-
+     th/0402056.
+[41] C. Carmeli, G. Cassinelli, A. Toigo and V.S. Varadarajan, Comm. Math. Phys. 263
+     (2006) 217-258, hep-th/0501061.
+[42] V.K. Dobrev, Lett. Math. Phys. 22 (1991) 251-266; V.K. Dobrev and P.J. Moylan,
+     Phys. Lett. 315B (1993) 292-298; V.K. Dobrev and R. Floreanini, J. Phys. A: Math.
+     Gen. 27 (1994) 4831-4840; V.K. Dobrev, J. Phys. A: Math. Gen. 27 (1994) 4841-4857
+     & 6633-6634, hep-th/9405150.
+[43] E. Witten, ”Conformal Field Theory in Four and Six Dimensions”, arXiv:0712.0157.
+
+                                           28
+

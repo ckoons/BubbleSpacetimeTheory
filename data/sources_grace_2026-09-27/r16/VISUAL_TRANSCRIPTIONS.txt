@@ -1,0 +1,102 @@
+R16 VISUAL TRANSCRIPTIONS -- Grace, 2026-09-27
+Formulas whose pdftotext rendering is garbled were read from the rendered PNG (png/) and
+transcribed here.  Each entry: PNG, text-file line where the garbled version sits, transcription.
+
+------------------------------------------------------------------------------------------
+V1. Kobayashi-Orsted II (arXiv math/0111085), eqs (5.5.5)-(5.5.7), PDF p.11
+    PNG: png/KO2_p-11.png ; text: arxiv_math_0111085.txt:622-640
+  "Next, we assume p + q in 2N. Then, varpi^{p,q} is realized as a subrepresentation of some
+   degenerate principal series (see [23], Lemma 3.7.2). More precisely, we have non-splitting
+   short exact sequences of (g,K)-modules
+   (5.5.5)  0 -> varpi^{p,q}_K -> Ind^G_{P^max}((-1)^{(p-q)/2} (x) C_{-1}) -> ((pi^{p,q}_{-,1})_K (+) (pi^{p,q}_{+,1})_K) -> 0,
+   (5.5.6)  0 -> ((pi^{p,q}_{-,1})_K (+) (pi^{p,q}_{+,1})_K) -> Ind^G_{P^max}((-1)^{(p-q)/2} (x) C_1) -> varpi^{p,q}_K -> 0,
+   and an isomorphism of (g,K)-modules:
+   (5.5.7)  Ind^G_{P^max}((-1)^{(p-q+2)/2} (x) C_0) ~= (pi^{p,q}_{-,0})_K (+) (pi^{p,q}_{+,0})_K."
+
+V2. Kobayashi-Orsted I (arXiv math/0111083), Sec. 3.7, PDF p.17
+    PNG: png/KO1_p-17.png ; text: arxiv_math_0111083.txt:900-968
+  "the isotropy subgroup at xi^o is of the form M^max_+ N^max, where M^max_+ ~= O(p-1,q-1)
+   and N^max ~= R^{p+q-2} ... rho := (p+q-2)/2 ...
+   F-Ind^G_{P^max}(eps (x) C_lambda) := { f in F(G) : f(gman) = chi_eps(m^-1) a^{-(lambda+rho)} f(g) },
+   ... We note that Ind^G_{P^max}(eps (x) C_lambda) is unitarizable if lambda in sqrt(-1) R.
+   (3.7.5)  C^inf-Ind^G_{P^max}(eps (x) C_lambda) ~= S^{-lambda-(p+q-2)/2, eps}(Xi)."
+  Lemma 3.7.2 (text line 963): "varpi^{p,q} is a subrepresentation of S^{a,eps}(Xi) with
+   a = -(p+q-4)/2 and eps = (-1)^{(p-q)/2}, or equivalently, of C^inf-Ind^G_{P^max}((-1)^{(p-q)/2} (x) C_{-1})."
+
+V3. Kobayashi-Orsted II, (5.1.1) and (5.4.1)-(5.4.3) (text lines 362-372, 490-503; PNG png/KO2_p-09.png, p-10)
+  (5.1.1) A_0(p,q) := { lambda in Z + (p+q)/2 : lambda > -1 }   (p > 1, q != 0)
+  (5.4.1) Xi(K:b) := (+)_{m,n in N, m-n >= b, m-n = b mod 2} H^m(R^p) (x) H^n(R^q)
+  (5.4.2) b = b(lambda,p,q) := lambda - p/2 + q/2 + 1 ;  (5.4.3) eps = (-1)^b
+  pi^{p,q}_{-,lambda} K-types: m-n <= -lambda + q/2 - p/2 - 1, m-n = -lambda + q/2 - p/2 - 1 mod 2.
+
+V4. Lee-Loke 2002, Sec. 3.3 (PDF p.5-6), text LeeLoke2002_Compositio132_311.txt:282-311
+    PNG: png/LeeLoke_p-05.png, png/LeeLoke_p-06.png
+  "Let P~ be the stabilizer of the span of {e_j + e_{p+j} : 1 <= j <= p} in U(p,p). It is the
+   maximal parabolic of U(p,p), and P~ = L~N~ where L~ ~= GL_p(C) is its Levi subgroup. Let
+   s in C and sigma in Z, and let
+     chi~_{s,sigma}(a) = |det a|^s (det a / |det a|)^sigma   (a in GL_p(C) ~= L~)
+   be a character of L~. Let I_p(s,sigma) denote the Harish-Chandra module of
+   Ind^{U(p,p)}_{P~} chi~_{s,sigma} (cf. Section 1.11). Under the action of K~ = U(p) x U(p),
+     I_p(s,sigma) = sum_{lambda in Lambda+(p)} V_lambda
+   where for each lambda in Lambda+(p), V_lambda ~= tau^lambda_p (x) tau^{lambda* + sigma 1_p}_p."
+  Sec. 1.11 (text :178-189, PNG png/LeeLoke_p-04.png): "we define the normalized induced
+   representation Ind^{G1}_{P1} pi := { f : G1 -> U : f is C^inf, f(gp) = (Delta(p^-1))^{1/2} pi(p^-1) f(g),
+   g in G1, p in P1 }, where Delta is the modular function of P1, and G1 acts by left translation."
+  Sec. 2.2: lambda* = (-lambda_r, ..., -lambda_1) [dual]; 1_r = (1,...,1).
+
+V5. Lee-Loke 2002, Sec. 7.1-7.2 and Figure 1 (PDF p.16-17), text :1006-1058
+    PNG: png/LeeLoke_p-16.png, png/LeeLoke_p-17.png
+  "Let alpha = -(s+p-sigma)/2 and beta = -(s+p+sigma)/2. Then I_p(s,sigma) is reducible if and
+   only if alpha and beta are integers, or equivalently, s is an integer and s+p = sigma (mod 2). Let
+     c_x = max(alpha, -beta-p)  and  c_y = min(alpha, -beta-p).
+   If I_p(s,sigma) is reducible, then its irreducible subquotients are of the form R_a(r,t) where
+   r and t are nonnegative integers such that p - c_x + c_y <= r+t <= p and as a U(p)xU(p)-module,
+     R_a(r,t) = sum_{lambda in Lambda+(R_a(r,t))} tau^lambda_p (x) tau^lambda^_p
+   where
+   (24) Lambda+(R_a(r,t)) = { lambda in Lambda+(p) : lambda_r >= c_x + r >= lambda_{r+1},
+                                                  lambda_{p-t} >= c_y + p - t >= lambda_{p-t+1} }."
+  7.2: "... Now I_p(-s,-sigma) is isomorphic to the dual representation of I_p(s,sigma). So we only
+   need to describe G for s <= 0 (or equivalently, alpha+beta >= -p)."
+  Figure 1: module diagram; top row R_a(p,0), R_a(p-1,1), ..., R_a(1,p-1), R_a(0,p); ...;
+   R_a(2,0), R_a(1,1), R_a(0,2); R_a(1,0), R_a(0,1); bottom R_a(0,0). Edges directed downward.
+  "If s <= -p (or equivalently, alpha+beta >= 0), then G is given in Figure 1. If
+   -p+1 <= s <= 0, then G can be obtained by deleting the lowest s+p rows from the graph in Figure 1."
+
+V6. Lee-Loke 2002, Theorem 8.1.1 (PDF p.22), text :1319-1345, PNG png/LeeLoke_p-22.png
+  "8.1 ... So there are two obvious families of unitarizable representations: unitary induction
+   and the restriction of the complementary series of U(p,p).
+   THEOREM 8.1.1. Let s in C, sigma in Z, mu in Lambda+(p-q), alpha = -(s+p-sigma)/2 and
+   beta = -(s+p+sigma)/2.
+   (A) (Unitary induction) If Re(s) = 0, then I_{p,q}(s,sigma,mu) is unitarizable.
+   (B) (Restriction of the complementary series of U(p,p)) If sigma = p+1 (mod 2) and |s| < 1,
+       then I_{p,q}(s,sigma,mu) is unitarizable."
+  (Theorem 8.1.1 is stated for p > q; for U(p,p) itself it is SECONDARY testimony to [Le].)
+
+V7. Dobrev arXiv 0712.4375v5, Sec. 6 (PDF p.14, 16), text arxiv_0712.4375.txt:572-745
+    PNG: png/Dobrev_p-14.png, png/Dobrev_p-16.png
+  (6.1) m1 = 2j1+1, m2 = 1-d-j1-j2, m3 = 2j2+1 ;
+        chi = [j1,j2; d = 2+c] = [ (m1-1)/2, (m3-1)/2 ; 2 - m2 - (m1+m3)/2 ]
+  (6.2) chi^-_{p nu n}   = [ (p-1)/2, (n-1)/2 ; 2 - nu - (p+n)/2 ]
+        chi^+_{p nu n}   = [ (n-1)/2, (p-1)/2 ; 2 + nu + (p+n)/2 ]
+        chi'^-_{p nu n}  = [ (p+nu-1)/2, (n+nu-1)/2 ; 2 - (p+n)/2 ]
+        chi'^+_{p nu n}  = [ (n+nu-1)/2, (p+nu-1)/2 ; 2 + (p+n)/2 ]
+        chi''^-_{p nu n} = [ (nu-1)/2, (p+n+nu-1)/2 ; 2 + (p-n)/2 ]
+        chi''^+_{p nu n} = [ (p+n+nu-1)/2, (nu-1)/2 ; 2 + (n-p)/2 ]
+  (6.3) 1chi'^-_{p nu} = [ (p+nu-1)/2, (nu-1)/2 ; 2 - p/2 ]      1chi'^+_{p nu} = [ (nu-1)/2, (p+nu-1)/2 ; 2 + p/2 ]
+        2chi'^-_{p n}  = [ (p-1)/2, (n-1)/2 ; 2 - (p+n)/2 ]     2chi'^+_{p n}  = [ (n-1)/2, (p-1)/2 ; 2 + (p+n)/2 ]
+        3chi'^-_{nu n} = [ (nu-1)/2, (n+nu-1)/2 ; 2 - n/2 ]     3chi'^+_{nu n} = [ (n+nu-1)/2, (nu-1)/2 ; 2 + n/2 ]
+  p.16: "The point d0^0 = 1 + j1 + j2 is the first reduction point. These are the massless
+   representations of so(4,2). For j1+j2 >= 1 the FRP is realized in the ERs/GVMs with
+   signatures: chi''^+_{11n}, with j1 = (n+1)/2 >= 1, j2 = 0, and chi''^-_{p11}, with j1 = 0,
+   j2 = (p+1)/2 >= 1. For j1+j2 = 1/2 the FRP is realized in the ERs/GVMs with signatures:
+   3chi^-_{11}, with j1 = 1/2, j2 = 0, and 1chi^-_{11}, with j1 = 0, j2 = 1/2. For j1 = j2 = 0
+   the FRP is realized in the ER with signature: 2chi^-_{11}."
+  Evaluated from (6.2)/(6.3) [arithmetic, Grace]:
+    chi''^+_{111} = [1, 0 ; 2]        (helicity-1 massless: d = 2, c = 0)
+    chi''^-_{111} = [0, 1 ; 2]        (conjugate helicity)
+    chi''^+_{11n} = [(n+1)/2, 0 ; 2+(n-1)/2]  so d = 1 + j1, c = j1 - 1
+    3chi'^-_{11}  = [0, 1/2 ; 3/2] ,  1chi'^-_{11} = [1/2, 0 ; 3/2]   (d = 3/2, c = -1/2)
+    2chi'^-_{11}  = [0, 0 ; 1]                                          (d = 1,   c = -1)
+  NOTE (source-internal): the prose attaches (j1,j2) = (1/2,0) to 3chi^-_{11} and (0,1/2) to
+  1chi^-_{11}, while (6.3) evaluates the other way round. The d-values (3/2) are the same
+  either way; only the chirality labels are swapped. Not ours to fix.

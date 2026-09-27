@@ -1,0 +1,1703 @@
+                                                                  Notes on
+                                                  Sobolev spaces on compact classical groups
+                                                        and Stein–Sahi representations
+
+
+
+
+arXiv:math/0411419v1 [math.RT] 18 Nov 2004
+                                                                              Yurii A. Neretin
+                                                 We discuss kernels on complact classical groups G = U(n), O(2n), Sp(n) defined by
+                                             the formula K(z, u) = | det(1 − zu∗ )|s . We obtain the explicit Plancherel formula for
+                                             these kernels and the interval of positive-definiteness. We also obtain explicit models
+                                             for Sahi’s ’unipotent’ representations.
+                                                 In [15], the author proposed a class of natural kernels on pseudo-Riemannian
+                                             symmetric spaces G/H and conjectured that these kernels admit explicit Plancherel
+                                             formula. The purpose of these notes is to verify that at least in the case then
+                                             G/H is a compact group G×G/G ∼ U(n), O(2n), Sp(n) this Plancherel formula
+                                             can be written.1
+                                                 0.1. A preliminary example. Recall the construction of unitary represen-
+                                             tations of the complementary series of the group SL(2, R) (Bargmann [1], 1947,
+                                             see also [6]). Consider the unit circle S 1 : z = eiϕ and the following Hermitian
+                                             form in the space of smooth functions on S 1
+                                                                      Z 2π Z 2π
+                                                                                           1−s
+                                                            hf, gis =           sin(ϕ/2)       f (ϕ1 ) g(ϕ2 ) dϕ1 dϕ2 .
+                                                                          0     0
+
+                                             This Hermitian form is invariant with respect to the Möbius transformations
+                                             of the circle in the following sence. Consider  the group SL(2, R) ≃ SU(1, 1)
+                                                                                              a b
+                                             consisting of all complex 2 × 2-matrices g =           , satisfying |a|2 − |b|2 = 1.
+                                                                                              b a
+                                             Then the operators
+                                                                   
+                                                                a b                                 
+                                                           ρs          f (z) = f (a + bz)−1 (a + bz) |a + bz|−1+s
+                                                                b a
+
+                                             preserve the form hf, gis , and moreover this property uniquely determines our
+                                             form.
+                                                For −1 < s < 1 our Hermitian form is positive definite. This fact follows
+                                             from the identity
+                                                             X                             X Γ(n + (1 − s)/2)
+                                                            h  an einϕ , bn einϕ i = const                    an bn .
+                                                                                             Γ(n + (1 + s)/2)
+                                             We observe, that for −1 < s < 1, all the gamma-coefficients are positive, and
+                                             hence hf, f is is positive for all f .
+                                                 1 Of course, the compact groups are the most simple objects among symmetric spaces. Nev-
+
+                                             ertheless, our calculation (see also [16]) is an important heurictic argument for a computability
+                                             of the Plancherel measure in the general case. Indeed, Oshima [18] recentely observed that
+                                             difference equations for c-function are the same for different real forms of one complex sym-
+                                             metric space GC /HC (and hence c-functions of different real forms differs by trigonometric
+                                             factors; actual evaluation of this trigonometric factor is a highly nontrivial result of Oshima).
+                                             It is natural to believe that this phenomenon survives in our situation.
+
+
+                                                                                            1
+    It is natural to consider the completion Hs of the space C ∞ (S 1 ) with respect
+to this inner product. Obviously,
+
+               X                            X Γ(n + (1 − s)/2)
+     f (ϕ) =       an einϕ ∈ Hs    ⇐⇒                             |an |2 < ∞ ⇐⇒
+                                                 Γ(n + (1 + s)/2)
+                                                            X            −s
+                                                     ⇐⇒         1 + |n|      |an |2 < ∞.
+
+The last condition shows that Hs is a Sobolev space.
+   This construction is the simplest example of a representation that is unitary
+by some nontrivial reason. In fact, Hilbert spaces with various inner product
+having the form
+                             ZZ
+                    hf, gi =         K(x, y)f (x) g(y) dx dy,
+                                      X×X
+
+where K(x, y) is a distribution, are usual in the representation theory.
+    For instance (see Vilenkin, [26], X.2), conformally invariant inner products
+in spaces of functions on a spere |x1 |2 + · · · + |xn |2 = 1 are given by the formula
+                          ZZ
+                 hf, gi =                kx − yk−λ f (x)g(y) dx dy                (0.1)
+                                  S n−1 ×S n−1
+
+and this inner product is positive definite iff 0 < λ < n − 1.
+   The Hilbert spaces defined by the inner products (0.1) are Sobolev spaces.
+In the representation theory also there are few cases (related to the groups
+U(1, n), Sp(1, n)) when some anisotropic Sobolev spaces arise in a natural way,
+but usually the situation is more complicated (some discussion of functional-
+theoretical phenomena is contained in [17]).
+   0.2. Stein kernels. Consider the space Matn consisting of n × n complex
+matrices. Consider the following Hermitian form on C ∞ (Matn )
+                      ZZ
+             hf, gi =              | det(x − y)|−2n+σ f (x)g(y) dx dy     (0.2)
+                            Matn × Matn
+
+(for σ > 2n the integral is well defined, further we can consider the meromorphic
+continuation in σ). The Hermitian form (0.2) is invariant with respect to the
+transformations
+                  
+              a b
+          ρσ         f (x) = f ((a + xc)−1 (b + xd))| det(a + xc)|−2n−σ ,
+               c d
+            
+        a b
+where           ∈ GL(2n, C) is an arbitrary invertible (n + n) × (n + n) matrix.
+         c d
+      Stein’s theorem. The inner product (0.2) is positive definite iff −1 < σ <
+1.
+    Vogan [27], 1986, extended Stein’s construction to the groups GL(n) over
+real numbers R and quaternions H, see also [20]. Sahi [21], [22] extended the
+
+                                                 2
+construction to other series of classical groups, precisely to the groups O(2n, 2n),
+U(n, n), Sp(n, n), Sp(2n, R), SO∗ (4n), Sp(4n, C), and O(2n, C),
+    The inner products (0.1) and (0.2) seem similar, but the kernel kx − yk−λ
+has a singularity on the diagonal x = y; on the contrary | det(x − y)|−2n−σ has
+a singularity on a complicated surface in Matn × Matn containing the diagonal.
+In particular, the Hilbert space defined by the Stein inner product (0.2) is not
+a Sobolev space in the standard sence.
+    Similarily, various natural integral operators that appear in the representa-
+tion theory usually are not pseudodifferential operators in the standard sence.
+    0.3. Sobolev kernels on the orthogonal groups O(2n). Consider the
+orthogonal group O(2n), i.e., the group of real 2n × 2n-matrices h satisfying
+ht h = 1. We consider the Hermitian form on C ∞ (O(2n)) given by
+                    ZZ
+      hF1 , F2 iλ =                | det(u − v)|λ F1 (u)F2 (v) dµ(u) dµ(v),    (0.3)
+                     O(2n)×O(2n)
+
+where µ is the Haar measure on O(2n). This form is well defined for λ > 0, for
+λ < 0 we consider its meromorphic continuation.
+    In this paper, we obtain the explicit expression of this form in characters
+(Theorem 3.2) and also show that for −n < λ < −n + 1 our form is positive
+definite
+ Weconsider the group O(2n, 2n) consisting of (2n + 2n) × (2n + 2n)-matrices
+  a b
+         satisfying the condition
+  c d
+                             t                   
+                        a b       1 0    a     b    1 0
+                                                  =       ,
+                        c d       0 −1    c    d    0 −1
+
+where the symbol t denotes the transpositionof a matrix.
+                                                  
+                                              a b
+  For an orthogonal matrix h ∈ O(2n) and            ∈ O(2n, 2n), we have
+                                              c d
+
+                              (a + hc)−1 (b + hd) ∈ O(2n).
+
+It is easy to verify that the Hermitian form (0.3) is invariant with respect to the
+operators C ∞ (O(2n)) → C ∞ (O(2n)) given by
+                   
+              a b                                   
+          ρλ          F (h) = F (a + hc)−1 (b + hd) det(a + hc)−2n+1−λ .
+               c d
+
+    Thus our Theorem 3.2 gives another proof of Sahi’s theorem about existence
+of Stein-type series for the groups O(2n, 2n). Also, we obtain new models of
+the ”unipotent representations” of the groups O(2n, 2n) (see Sahi, [23], Dvorsky
+and Sahi, [4], [5]).
+   0.4. Structure of the paper. We consider the groups U(n), O(2n),
+Sp(n) in Sections 2, 3, 4 respectively. We also obtain models of Stein–Sahi
+
+                                           3
+representations for the groups U(n, n), O(2n, 2n), Sp(n, n) In particular, we
+obtain an independent proof of the corresponding Sahi’s results.
+     In all the cases, we reduce the problem to evaluation of some determinants,
+necessary determinant calculations are collected in preliminary Section 1 (our
+calculations are more uniform than it seems at the first glance, see [16].
+     In Section 5, we discuss models of ’unipotent representations’ from [23], [4],
+[5].
+     0.5. Notation. We denote the Haar measure on U(n), SO(n), Sp(n) by µ.
+We assume that the measure of the whole group is 1.
+     The Pochhammer symbol is given by
+
+                                                                   Γ(a + n)
+                     (a)n = a(a + 1) . . . (a + n − 1) =                    .            (0.4)
+                                                                     Γ(a)
+
+The second expression also has sence for negative n.
+   Acknowledgements. I am grateful to A.Dvorsky for his explanations
+on ’unipotent representations’. This work was done during my visit to the
+Schrödinger Institute, Vienna, winter 2001–2002. I thank the administrators of
+the Institute for their hospitality.
+
+
+   1. Some determinant identities
+   Let A = {akl } be a square n × n matrix, k, l = 1, 2, . . . , n, We denote its
+determinant by detk,l akl .
+   1.1. A determinant of Cauchy type. Recall that the Cauchy determi-
+nant (see, for instance, [11]) is given by
+                            Q                       Q
+                    1          1⩽k<l⩽n (xk − xl ) ·  1⩽k<l⩽n (yk − yl )
+             det         =                 Q                            .   (1.1)
+              kl xk + yl                         (xk + yl )
+                                               1⩽k,l⩽n
+
+   The following variant of the Cauchy determinant, is also well known.
+   Lemma 1.1.
+                                                                  
+             1          1               1      ...        1
+          1             1              1
+                                               ...        1        
+       x1 +b1        x2 +b1         x3 +b1            xn +b1      
+          1             1              1                 1        
+  det                                         ...                 =
+       x1 +b
+           ..
+              2       x2 +b2
+                         ..
+                                     x3 +b2
+                                        ..
+                                                       xn +b2
+                                                          ..       
+                                              ..                  
+           .             .              .        .        .       
+              1          1              1                 1
+          x1 +bn−1   x2 +bn−1       x3 +bn−1   ...    xn +bn−1
+                                    Q                          Q
+                                        1⩽k<l⩽n (xk − xl )      1⩽α<β⩽n−1 (bα − bβ )
+                                =                     Q                                . (1.2)
+                                                               (xk + bα )
+                                                     1⩽k⩽n
+                                                    1⩽α⩽n−1
+
+
+
+
+                                                4
+     Proof. Let ∆ be the Cauchy determinant (1.1). Then
+                                    y1              y1                            y1 
+                                   x1 +y1          x2 +y1            ...         x1 +y1
+                                      1
+                                  x +y               1                             1   
+                                  1 2             x2 +y2            ...         xn +y2 
+                          y1 ∆ =          ..            ..          ..            ..      .
+                                           .             .             .           .      
+                                        1             1                             1
+                                     x1 +yn        x2 +yn            ...         xn +yn
+
+ We consider lim y1 ∆ and substitute yα+1 = bα .
+                 y1 →∞
+    1.2. One standard determinant. The following determinant is equivalent
+ to Lemma 3 from Krattenthaller, [11].
+    Lemma 1.2.
+
+                                                                                                                                   
+                1                     1                                 1                      ...                  1
+           x1 +b1                 x2 +a1                           x3 +a1
+                                                                                               ...               xn +a1         
+                                                                                                                               
+     (x1 +ax11)(x
+               +a1
+                    1 +a2 )
+                                   x2 +b1
+                              (x2 +a1 )(x2 +a2 )
+                                                                    x3 +b1
+                                                               (x3 +a1 )(x3 +a2 )
+                                                                                                                 xn +b1
+                                                                                                            (xn +a1 )(xn +a2 )  
+                                                                                              ...                              
+     (x1 +b1 )(x1 +b2 )      (x2 +b1 )(x2 +b2 )               (x3 +b1 )(x3 +b2 )                           (xn +b1 )(xn +b2 )  
+det            ..                    ..                                    ..                 ..                  ..           =
+                                                                                                 .                             
+     Q .                       Q
+                                       .                         Q
+                                                                             .                                  Q
+                                                                                                                    .           
+                 (x1 +am )            (x2 +am )                             (x3 +am )                                (xn +am ) 
+     1⩽m⩽n−1                 1⩽m⩽n−1                         1⩽m⩽n−1                                      m: 1⩽m⩽n−1           
+         Q
+                 (x1 +bm )
+                                 Q
+                                        (x2 +bm )
+                                                                  Q
+                                                                             (x3 +bm )         ...              Q
+                                                                                                                        (xn +bm )
+        1⩽m⩽n−1               1⩽m⩽n−1                         1⩽m⩽n−1                                      m: 1⩽m⩽n−1
+                                                  Q                                     Q
+                                                               (xk − xl )            (aα − bβ )
+                                                1⩽k<l⩽n                   1⩽α⩽β⩽n−1
+                                           =                        Q                           . (1.3)
+                                                                              (xk + bβ )
+                                                              1⩽k⩽n,1⩽β⩽n−1
+
+    Proof. Decomposing a matrix element into the sum of partial fractions,
+ we obtain
+
+    (xk + a1 ) . . . (xk + aα )      X   (a1 − bβ )(a2 − bβ ) . . . (aα − bβ )      1
+                                = 1+                                            ·
+    (xk + b1 ) . . . (xk + bα )        (b1 − bβ ) . . . (bβ−1 − bβ )(bβ−1 − bβ ) xk + bβ
+                                           1⩽β⩽α
+
+     We observe that the (α + 1)-th row is a linear combination of the rows
+                                                        
+                             1        1    ...     1       ,
+                                                        
+                             1        1             1
+                          x1 +b1   x2 +b1  . . . xn +b     ,
+                                                      1      .
+                     .
+                      ..   ...      ...    ...    ...   .. .
+                                   1               1                       1
+                                x1 +bα          x2 +bα         ...      xn +bα             .
+
+ Thus our determinant is
+                                                                                                           
+                                                         1                  1       ...               1
+               l−1   Qα                       1
+                                          x +b                          1                         1   
+               Y    j=1 (aj − bα )        1 1                        x2 +b1        ...         xn +b1 
+                   Qα−1            · det  .                                ..      ..                ..    .
+               α=1  j=1 (bj − bα )
+                                          ..                                .         .               .    
+                                              1                          1                         1
+                                           x1 +bα                     x2 +bα        ...         xn +bα
+
+
+                                                      5
+and we reduce the evaluation of our determinant to Lemma 1.1.
+   1.3. Two determinants.
+   Lemma 1.3. Concider the n × n matrix Q having elements
+           (xk + a1 )(xk + a2 ) . . . (xk + al ) (xk − a1 )(xk − a2 ) . . . (xk − al )
+   qlk =                                         −                                       .
+           (xk + b1 )(xk + b2 ) . . . (xk + bl )   (xk − b1 )(xk − b2 ) . . . (xk − bl )
+Then
+                 Q                Q                      Q                     Q
+           2n           xk ·           (x2k − x2l ) ·          (bα + bβ ) ·        (aα − bβ )
+                1⩽k⩽n          1⩽k<l⩽n                1⩽α<β⩽n               1⩽α⩽β⩽n
+det Q =                                          Q                                            .
+                                                           (x2k − b2α )
+                                         1⩽k⩽n,1⩽α⩽n−1
+
+   Proof. We expand a matrix element in a sum of partial fractions.
+                  Xl Ql               n                   o
+                       j=1 (aj − bα )      1         1
+            qkl =     Qα−1                      +           .
+                  α=1  j=1 (bj − bα )
+                                        xk + bα   xk − bα
+
+We write
+                                     1         1       2xk
+                                          +         = 2
+                                  xk + bα   xk − bα  xk − b2α
+and observe that an l-th row is a linear combination of vector-rows
+                                                    
+                                 x1
+                              x21 −b21
+                                       . . . x2x−b
+                                                k
+                                                  2    ,
+                                              n   1
+                         .
+                          ..   ...     ...    ...   .. .
+                                           x1               xk
+                                        x21 −b2l
+                                                   ...   x2n −b2l
+                                                                    .
+
+Thus our determinant is
+               Yn Ql                  n
+                                      Y
+                     j=1 (aj − bα )                        1
+                   Qα−1             ·   (2xj ) · det            .
+                                                1⩽j,l⩽n xj − b2
+                                                         2
+               l=1  α=1 (bj − bα ) j=1                        l
+
+and the last factor is reduced to the classical Cauchy determinant (1.1).
+   Lemma 1.4.
+       (                                                                               )
+         (xk + a1 )(xk + a2 ) . . . (xk + al ) (xk − a1 )(xk − a2 ) . . . (xk − al )
+  det                                          +                                         =
+   k,l   (xk + b1 )(xk + b2 ) . . . (xk + bl )   (xk − b1 )(xk − b2 ) . . . (xk − bl )
+               Q                        Q                       Q
+          2         (x2k − x2l ) ·             (bα + bβ ) ·             (aα − bβ )
+            1⩽k<l⩽n                1⩽α⩽β⩽n−1                1⩽α⩽β⩽n−1
+       =                                Q                                          . (1.4)
+                                                  (x2k − b2α )
+                                      1⩽k⩽n,1⩽α⩽n−1
+                                                                 
+   Remark. In particular the first row of our matrix is 2 . . . 2 .
+   Proof. Decomposing a matrix element into a sum of prime fractions, we
+obtain                    Q
+                     X α
+                       l
+                            j=1 (aj − bα )
+                                            1           1 
+           qkl = 2 +      Qα−1                      −
+                     α=1    j=1 (bj − bα )
+                                            xk + bj   xk − bj
+
+
+                                                   6
+Since,
+                                    1         1      −2bk
+                                         −         = 2       ,
+                                 xk + bl   xk − bl  xk − b2l
+the l-th row is a linear combination of the vectors-rows
+                                                       
+                                  2    ...       2
+                                                       
+                                 b1              b1
+                              x21 −b21
+                                       ...    x2n −b21
+                        .
+                         ..    ...     ...      ...    .. .
+                                         bl−1                    bn
+                                     x21 −b2n−1
+                                                    ...      x2n −b2n−1
+
+and we obtain
+         Y               Y     (a1 − bl )(a2 − bl ) . . . (al − bl )
+  2             2bj                                                    ×
+                              (b1 − bl )(b2 − bl ) . . . (bl−1 − bl )
+      1⩽j⩽n−1         1⩽l⩽n−1
+                                                                                                      
+                                                       1            1              ...        1
+                                                21 2               1
+                                                                                   ...         1       
+                                                x1 −b1         x22 −b21                   x2n −b21    
+                                        × det         ..          ..             ..         ..       .
+                                                                                      .                
+                                           k,l          .           .                         .       
+                                                              1            1                   1
+                                                         x21 −b2n−1   x22 −b2n−1
+                                                                                   ...    x2n −b2n−1
+
+It remains to apply Lemma 1.1.
+
+   2. Sobolev kernel on the unitary group.
+   2.1. Definition of kernel. Let z be an n × n matrix with norm < 1. For
+σ ∈ C, we define the function det(1 − z)σ by
+                         h         σ(σ − 1) 2 σ(σ − 1)(σ − 2) 3     i
+       det(1 − z)σ := det 1 − σz +         g −               g + ... .
+                                      2!            3!
+We also define this function for z satisfying kzk = 1, det(1 − z) 6= 0 being
+
+                            det(1 − z)σ :=           lim        det(1 − u)σ .
+                                                  u→z, |uk<1
+
+The expression det(1 − z)σ is continuous on the domain kzk ⩽ 1 except the
+surface det(1 − z) = 0.
+   We denote by det(1 − z){σ|τ } the function
+
+                         det(1 − z){σ|τ } := det(1 − z)σ det(1 − z)τ .
+
+We define the function ℓσ,τ (g) on the unitary group U(n) by
+
+                             ℓσ,τ (g) := 2−(σ+τ )n det(1 − z){σ|τ } .
+
+Obviously,
+                         ℓσ,τ (h−1 gh) = ℓσ,τ (g)              for g, h ∈ U(n).                        (2.1)
+
+                                                     7
+   Lemma 2.1. Let eiψ1 , . . . , eiψn be the eigenvalues of g ∈ U(n); we assume
+0 ⩽ ψk < 2π. Then
+                                   X            n
+                                                Y
+                                                        ψk
+               ℓ(g) = exp (σ − τ )   (ψk − π)/2   sinσ+τ    .
+                                                         2
+                                      k                k=1
+
+   Proof. It is sufficient to verify this statement for diagonal matrices, or
+equivalenly we can check the identity
+                                                             ψ
+               (1 − eiψ ){σ|τ } = exp (σ − τ )(ψ − π)/2 sinσ+τ .
+                                                              2
+We have
+                      1                                 ψ
+                        (1 − eiψ ) = exp{i(ψ − π)/2} sin .
+                      2                                 2
+Further, in the equality
+                                                               ψ
+                   2−σ (1 − eiψ )σ = exp{iσ(ψ − π)/2} sinσ       ,
+                                                               2
+the both sides are real-analytic on (0, 2π) and the substitution ψ = π gives 1 in
+the both sides.                                                                
+   We also define the kernel Lσ,τ (g, h) on U(n) by
+
+                            Lσ,τ (g, h) = ℓσ,τ (gh−1 ).                      (2.2)
+
+Obviously, this kernel is invariant with respect to left and right shifts on U(n),
+i.e.,
+          Lσ,τ (r1 gr2 , r1 hr2 ) = Lσ,τ (g, h) for g, h, r1 , r2 ∈ U(n).
+   2.2. Characters, see Weyl book [28]. The set of finite dimensional repre-
+sentations of U(n) is parametrized by collections of integers (signatures)
+
+                          m:     m1 > m2 > · · · > mn .
+
+The character χm of representation πm (a Schur function) corresponding to a
+signature m is given by
+                                                
+                                detk,j=1,2,...,n eimj ψk
+                      χm (g) =                           ,           (2.3)
+                               detk,j=1,2,...,n ei(j−1)ψk
+
+where eiψk is the eigenvalues of g. Recall that the denominator admits decom-
+position                        Y
+                                   (eiψl − eiψk ).                       (2.4)
+                                l<k
+
+   The dimension of πm is
+                                          Q
+                                              0⩽α<β⩽n (mα − mβ )
+                  dim πm = χm (1) =               Qn             .           (2.5)
+                                                    j=1 j!
+
+
+                                          8
+    A function F (g) on U(n) is central if it satisfies the identity F (h−1 gh) =
+F (g).
+    Consider the Haar measure µ on U(n) normalized by the condition: the
+measure of the whole group is 1. For a central function on U(n), the following
+Weyl integration formula holds
+    Z
+         F (g) dµ(g) =
+  U(n)
+               Z                     Z                                                   n
+       1                                                               Y iψm          2 Y
+=                        ...              F diag(eiψ1 , . . . , eiψn )   (e   − eiψk )     dϕk ,
+    (2π)n n!
+          0<ψ1 <2π         0<ψn <2π                                          m<k                    k=1
+
+                                                                                                          (2.6)
+
+where diag(·) is a diagonal matrix with given entries.
+  A central function F ∈ L2 (U(n)) admits an expansion in characters,
+                                      X
+                              F (g) =     cm χm .
+                                                            m
+
+where the summation is given over all the signatures m and the coefficients cm
+are the L2 -inner products
+                              Z
+                         cm =      F (g)χm (g) dµ(g).
+                                                   U(n)
+
+Applying formula (2.6), explicit expression (2.3) for characters, and formula
+(2.4) for the denominator, we obtain
+                               Z                  Z                                 
+             1                                                  
+  cm =                                   ...              F diag eiψ1 , . . . , eiψn ×
+          (2π)n n!
+                     0<ψ1 <2π                  0<ψn <2π
+                                                                                              n
+                                                                                              Y
+                                                   i(j−1)ψ                       −imj ψ
+                          ×              det       e        k
+                                                                       det        e       k
+                                                                                                    dϕk . (2.7)
+                                k,j=1,2,...,n                      k,j=1,2,...,n
+                                                                                              k=1
+
+    For calculation of such expressions, we will use the following evident Lemma
+(see, for instance, [15],)
+    Lemma 2.2. Let X be a set,
+    Z    n
+         Y                                                                   n
+                                                                             Y
+               f (xk )         det       {ul (xk )}       det {vl (xk )}           dxj =
+    X n k=1              k,l=1,...n                   k,l=1,...n
+                                                                             j=1
+                                                                               nZ                          o
+                                                           = n!        det             f (x)ul (x)vm (x) dx
+                                                                   l,m=1,...,n     X
+
+
+
+
+                                                            9
+    2.3. Lobachevsky beta-integrals. We will use two following integrals,
+see [7], 3.631,1, 3.631,8,
+            Z π
+                                                  21−µ πΓ(µ)eibπ/2
+                   sinµ−1 (ϕ) eibx dx =                                                 (2.8)
+               0                          Γ (µ + b + 1)/2 Γ (µ − b + 1)/2
+      Z π
+                                                21−µ πΓ(µ) cos(bπ/2)
+            sinµ−1 (ϕ) cos(bx) dx =                                                     (2.9)
+       0                                  Γ (µ + b + 1)/2 Γ (µ − b + 1)/2
+
+   In some sence, our integral evaluations below, 2.4, 3.3, 4.3, are multivariate
+analogs of these integrals.
+   2.4. Expansion of the function ℓσ,τ .
+   Theorem 2.3. Let Re(σ + τ ) < 1. Then
+
+  ℓσ,τ (g) =
+                                                      n
+               (−1)n(n−1)/2 sinn (πσ)2−(σ+τ )n Y
+           =                                       Γ(σ + τ + j)×
+                             πn                j=1
+                      (                       n
+                                                                          )
+                  X       Y                  Y   Γ(−σ + mj − n + 1)
+                ×                 (mα − mβ )                        χm (g) =
+                   m                         j=1
+                                                    Γ(τ + mj + 1)
+                          1⩽α<β⩽n
+                                                                                         (2.10)
+                                          n
+                                          Y
+           = (−1)n(n−1)/2 2−(σ+τ )n             Γ(σ + τ + j)×
+                                          j=1
+                         P       Q
+                   ( (−1) mj         (mα − mβ )         )
+                 X            1⩽α<β⩽n
+               ×     n
+                     Q                            χm (g) .                               (2.11)
+                 m     Γ(σ − mj + n)Γ(τ + mj + 1)
+                        j=1
+
+   Proof. We must evaluate the inner product
+                       Z
+                             ℓσ,τ (g) χm (g) dµ(g)
+                                 U(n)
+
+Applying (2.7), we obtain
+                   Z    n h
+                        Y                                         i
+     1                                      
+                           sinσ+τ ψj /2 · exp i(σ − τ )(ψj − π)/2 ×
+  (2π)n n!
+             0<ψk <2π j=1
+                                                                                   n
+                                                                                   Y
+                                   ×      det {e−imk ψl } ·     det {ei(k−1)ϕl }         dϕl .
+                                        1⩽k,l⩽n               1⩽k,l⩽n
+                                                                                   l=1
+
+By Lemma 2.2, we reduce this integral to
+                                    1
+                                          det I(k, j),
+                                  (2π)n 1⩽k,j⩽n
+
+                                                10
+where
+                             Z 2π
+                                                      
+ I(k, j) = e   −i(σ−τ )π/2
+                                    sinσ+τ (ψ/2) · exp i( (σ + τ )/2 + k − 1 − mj ) dϕ.
+                              0
+
+We apply (2.8) and obtain
+
+                                    21−σ−τ πΓ(σ + τ + 1) (−1)k−1−mj
+                     I(k, j) =
+                                    Γ(σ + k − mj )Γ(τ − k + mj + 2)
+Applying standard formulae for Γ-function, we obtain
+
+                                                          Γ(−σ + mj − k + 1)
+  I(k, j) = 21−σ−τ Γ(σ + τ + 1) sin(−σπ) ·                                   =
+                                                           Γ(τ + mj − k + 2)
+                                        Γ(−σ + mj − n + 1) (−σ + mj − n + 1)n−k
+= 21−σ−τ Γ(σ+τ +1) sin(−σπ)·                               ·
+                                         Γ(τ + mj − n + 2)   (τ + mj − n + 2)n−k
+
+The factors outside the box do not depend on on k. Thus, we must evaluate
+the determinant
+                               (−σ + mj − n + 1)n−k
+                         det
+                       1⩽k,j⩽n (τ + mj − n + 2)n−k
+
+Up to a permutation of rows, it is a determinant of the form described in Lemma
+1.2 with
+            xj = mj ,      aj = −σ − n + j,        τ = −n + j + 1.
+After a simple rearangement of the factors, we obtain the required result          
+    2.5. Hermitians forms defined by kernels. First, recall some standard
+facts on characters of compact groups, for details see, for instance, [9], 9.2, 11.1.
+    Let K be a compact Lie group equipped with the Haar measure µ, we assume
+that the measure of the whole group is 1. Let π1 , π2 , . . . be the complete
+collection of pairwise distinct irreducible representations. Let χ1 , χ2 , . . . be
+their characters. Recall the orthogonality relations
+                                    Z
+                    hχk , χl iL2 :=   χk (h)χl (h) dµ(h) = δk,l               (2.12)
+                                            K
+
+and                                     (
+                                              1
+                         χk ∗ χl =          dim πk χk ,        if k = 1
+                                                                                  (2.13)
+                                            0,                 if k 6= l
+                                                             R
+where ∗ denotes the convolution on the group, u ∗ v(g) = u(gh−1 )v(h)dµ(h).
+     We consider the action of the group K × K on K by the left and right shifts
+(k1 , k2 ) : g 7→ k1 gk2 . The representation K × K in L2 (K) is a multiplicity free
+direct sum of irreducible represntations having the form πk ⊗ πk∗ , where πk∗ is
+the dual representation,
+                                           M
+                                 L2 (K) ≃     ρk ⊗ ρ∗k .                      (2.14)
+                                                   k
+
+
+                                                 11
+Each distribution f on K is a sum of ”elementary harmonics”
+                              X
+                         f=       f (k) ,  fk ∈ Vk .
+                                       k
+
+The summands of this sum correspond to the decomposition (2.14).
+   The projector to a subspace ρk ⊗ ρ∗k of k-th elementary harmonics is the
+convolution with the corresponding character,
+                                               1
+                                   f {k} =          f ∗ χk                      (2.15)
+                                             dim πk
+(in particular, f (k) is smooth).
+    For a central distribution Ξ on K, consider the Hermitian form
+                            ZZ
+                   hu, vi =       Ξ(h, g) u(h)v(g) dµ(u) dµ(g).
+                               K×K
+
+Consider the expansion of Ξ in characters
+                                    X
+                                Ξ=      ck χk .
+                                               k
+
+   Lemma 2.4.
+                           X               Z
+                                 ck
+                hu, vi =                            u{k} (h)v {k} (h) dµ(h).    (2.16)
+                               dim πk        U(n)
+                           k
+
+   Proof. We can assume u = χk , v = χl . We evaluate
+             ZZ      X
+                        ck Ξ(gh−1 ) χk (h)χl (g) dµ(g) dµ(h).
+                   K×K     k
+
+using (2.12) and (2.13).                                                
+   2.6. Positivity. Let Re(σ + τ ) < 1. Consider the sesquilinear form on
+C ∞ (U(n)) given by
+                            ZZ
+                hq, riσ,τ =        Lσ,τ (g, h)q(g)r(h) dg dh,       (2.17)
+                                   U(n)×U(n)
+
+where the kernel Lσ,tau is the same as above. Obviously, for fixed q, r, this
+expression admits a meromorphic continuation in σ, τ to the whole C2 . More-
+over, Theorem 2.3 allows to write an explicit expression for this continuation.
+Expanding q and r in elementary harmonics
+                          X                      X
+                   q(h) =    κm (h),     r(h) =     θm (h),
+                               m                                m
+
+we obtain (see Lemma 2.4)
+                           X                   Z
+                               cm
+               hq, riσ,τ =                                κm (h)θm (h) dµ(h),
+                           m
+                             dim πm                U(n)
+
+
+
+                                               12
+where the meromorphic expressions for cm were obtained in Theorem 2.3.
+    If σ, τ ∈ R, then our kernel Lσ,τ is Hermitian, i.e., Lσ,τ (h, g) = Lσ,τ (g, h),
+or eguivalently
+                              hq, riσ,τ = hr, qiσ,τ
+
+    Corollary 2.5. For σ, τ ∈ R \ Z, the inner product (2.17) is positive
+definite (up to a sign), iff fractional parts of −σ − n and τ are equal.
+    The domain of positivity is the union of the dotted squares on Figure 1.
+    For σ, τ satisfying this corollary, denote by Hσ,τ the completion of C ∞ (U(n))
+with respect to our inner product.
+    2.7. Action of U(n, n) on the space U(n). Consider the linear space
+Cn ⊕ Cn equipped with the indefinite Hermitian form
+
+                     {v ⊕ w, v ′ ⊕ w′ } = hv, v ′ iCn ⊕0 − hw, w′ i0⊕Cn
+
+where h·, ·i is the standard inner product in Cn . Denote by U(n, n) the group
+of linear operators in Cn ⊕ Cn preserving the form {·, 
+                                                       ·}. We write elements of
+                                                         α β
+this group as block (n + n) × (n + n) matrices g :=             . By definition,
+                                                         γ δ
+these matrices satisfy the condition
+                                                
+                              1 0            1 0
+                           g          g∗ =           .                    (2.18)
+                              0 −1           0 −1
+
+    For h ∈ U(n), consider its graph graph(h) in Cn ⊕ Cn . It is an n-dimensional
+linear subspace, consisting of all vectors z ⊕ zh, where a vector-row z ranges
+in Cn . Since h ∈ U(n), the subspace graph(h) is isotropic2 with respect to
+our Hermitian form {·, ·}. Conversely, any n-dimensional isotropic subspace in
+Cn ⊕ Cn is a graph of a unitary operator h ∈ U(n).
+    Thus we have one-to-one correspondence between the group U(n) and the
+Grassmannian of n-dimensional isotropic subspaces in Cn ⊕ Cn .
+    The group U(n, n) acts on the Grassmannian in an obvious way, and hence
+U(n, n) acts on the space U(n). An explicit formula for the latter action can be
+easily written:
+           
+      α β
+g=            : h 7→ h[g] := (a + zc)−1 (b + zd),         h ∈ U(n), g ∈ U(n, n)
+       γ δ
+                                                                           (2.19)
+    Lemma 2.6. a) For the Haar measure µ(h) on U(n), we have
+                              
+                       µ h[g] = | det−2n (α + zγ)| · µ(h)
+
+    b) The kernel Lσ,τ satisfies the identity
+
+       Lσ,τ (u[g] , v [g] ) = Lσ,τ (u, v) det(α + uγ){σ|τ } det(α + vγ){τ |σ} .         (2.20)
+   2 A subspace V in a linear space is isotropic with respect to an Hermitian (or bilinear) form
+
+Q if Q equals 0 on V .
+
+
+                                              13
+   Proof. a) The differential of the map u 7→ u[g] is given by
+
+                         du 7→ (a + uγ)−1 du (−γu[g] + δ),                      (2.21)
+
+see, for instance, [13], Lemma 1.1.
+    The rational map u 7→ u[g] is defined on the space of all complex n × n
+matrices. By (2.21), its complex Jacobian is
+
+                  J(g, u) := det−n (a + zc)−n detn (−γu[g] + δ).
+
+Hence the real Jacobian on the space of all matrices is |J(g, u)|2 , and the Ja-
+cobian of the map U(n) → U(n) is |J(g, u)|. It can easily be checked (see [13],
+Lemma 1.2) that
+
+                     det(−γu[g] + δ) = det(α + zγ)−1 det(g).
+
+By (2.18), | det g| = 1, and this finishes proof.
+    b) A direct calculation.
+    2.8. Unitary representations of U(n, n). Let U(n, n) acts in the space
+of C ∞ -functions on U(n) by the operators
+
+                ρσ,τ (g)F (h) = F (h[g] ) det{−n−σ|−n−τ } (α + hγ).             (2.22)
+
+    Remark. Let us explain the sence of the complex power in this formula. It
+can easily be checked with (2.18), that kγα−1 k < 1. Hence, for all matrices h
+satisfying khk ⩽ 1, the matrix α + hγ is invertible. Hence the function
+
+                                      ln det(α + hγ)
+
+has a countable family of continuous branches on the set khk ⩽ 1 and in partic-
+ular on U(n). We define
+                                 
+  det{−n−σ|−n−τ } (α + hγ) := exp −(n + σ) ln det(α + hγ)−
+                                    − (n + τ )ln det(α + hγ) − 2πik(σ − τ ) . (2.23)
+
+Thus, we can think that for each g ∈ U(n, n) formula (2.22) defines a countable
+family of operators ρσ,τ (g), they differs one from another by constant factors
+exp{2πik(σ −τ )}. These operators define a projective representation (see [9],14)
+of the group U(n, n)
+
+              ρσ,τ (g)ρσ,τ (g ′ ) = λ(g, g ′ )ρσ,τ (gg ′ ),   λ(g, g ′ ) ∈ C.
+
+Equivalently, we can consider the multi-valued operator-valued function ρσ,τ (g)
+on U(n, n) as a single-valued function on the universal covering group U(n, n)∼
+of U(n, n). Then ρσ,τ (g) became a linear representation of U(n, n)∼ .
+   If (σ−τ ) ∈ Z, then exp{2πik(σ−τ )} and (2.23) is a well defined single-valued
+expression. In this case ρσ,τ is a linear representation of U(n, n).
+
+                                              14
+   Proposition 2.7. The operators ρσ,τ (g) preserve the form h·, ·iσ,τ .
+                                                                     [g]       [g]
+    Proof. First, let Re(σ + τ ) < 1. Substitute h1 = u1 , h2 = u2 to the
+integral    ZZ
+                               Lσ,τ (h1 , h2 ) q(h1 )r(h2 ) dµ(h1 ) dµ(h2 ).
+                   U(n)×U(n)
+
+By Lemma 2.5, we obtain
+  ZZ
+                 Lσ,τ (u1 , u2 ) det(α + u1 γ){−σ|−τ } | det(α + u2 γ)|−τ |−σ} ×
+     U(n)×U(n)
+
+             × q(h1 )r(h2 )| det(α + u1 γ)|−2n | det(α + u2 γ)|−2n dµ(u1 ) dµ(u2 ).
+
+Thus, our operators preserve the form h·, ·iσ,τ .
+    For general σ, τ , we consider the analytic continuation.
+    Corollary 2.8. For σ, τ satisfying the positivity conditions of Corollary
+2.5, the representation ρσ,τ is unitary.
+    2.9. Some remarks. a) The case n = 1, σ = τ = s − 1 gives precisely the
+complementary series of representations of SL(2, R) ∼ SU(1, 1) described above
+in 0.1.
+    b) The representations ρσ,τ are very degenerated in the followng sense. For
+any irreducible unitary representation of a semisimple group G, its restriction
+to the maximal compact subgroup K has a spectrum with finite multiplicities,
+but usually these multiplicities are not bounded.
+    In our case, i.e., G = U(n, n), K = U(n) × U(n), the restriction of ρσ,τ to K
+is the multiplicity free sum ρm ⊗ ρ∗m (thus, only few representations of K are
+present in the spectrum).
+    c) Shifts of parameters. For integer k, the projective representations ρσ+k,τ −k
+and ρσ,τ are equivalent. The intertwining operator is the multiplication by the
+determinant
+                              F (h) 7→ F (h) det(h)k .
+This operator also defines an isometry of forms Lσ+k,τ −k and Lσ,τ
+   d) Symmetry. Representations ρ−n/2−p,−n/2−q and ρ−n/2+p,−n/2+q are dual.
+The invariant pairing is given by the formula
+                                    Z
+                      (F1 , F2 ) 7→     F1 (h)F2 (h) dµ(h).          (2.24)
+                                        U(n)
+
+
+    For verification of this statement, we substitute h 7→ h[g] and apply the
+formula for the Jacobian.
+    In particular, the point (σ, τ ) = (n/2, n/2) corresponds to a representation
+of a unitary principle series of U(n, n) (it is unitary in the space L2 (U(n))).
+
+
+
+
+                                            15
+                                                                                                                           τ
+                                                                                                                  ✻
+         ...              r                 r                r                 r
+
+         ...                                r                r                 r                r                      1
+                                                                                                                                                                                                          σ
+                                                                                                                                                                                                  1
+    ... ❅♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣ ♣                                                          r                                r                                      r                                  r        ✲
+              ❅
+               ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣
+                ♣♣ ♣      ♣♣♣♣♣♣♣
+                 ♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣❅♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣
+                  ♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣
+    ...           ♣
+                                           ❅♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣                                              r                                        r                                 r  r
+                                                       ♣♣ ♣♣❅♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣
+                                                        ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣
+                                                         ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣❅♣♣ ♣♣ ♣♣
+    ...                                                   ♣♣♣♣♣♣♣♣♣
+                                                                               ❅♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣                                         r                                   r r  r
+                                                                                       ♣♣ ♣♣ ♣♣❅♣♣ ♣♣✉♣♣ ♣♣ ♣♣ ♣♣
+                                                                                        ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣
+                                                                                         ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣❅
+                                                                                                         ♣ ♣♣ ♣♣ ♣♣
+    ...                                                                                                                                                                                                        Shift
+                                                                                                                ❅♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣
+                                                                                                                                                                                               r   r r   r
+                                                                                                                       ♣♣ ♣♣ ♣♣❅♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣                                                            ❅
+                                                                                                                        ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣                                                    ❅
+    ...                                                                                                                   ♣ ♣ ♣ ♣ ♣ ♣ ♣❅♣ ♣                                                       r   r  r  r   ❅
+                                                                                                                                                                                                                ❘
+                                                                                                                                                          ❅♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣ ♣♣♣
+                                                                                                                                                               ♣    ♣  ♣   ♣ ♣   ♣   ♣   ♣   ♣
+                                                                                                                                                               ♣♣ ♣♣ ♣♣ ♣♣❅♣♣ ♣♣ ♣♣ ♣♣ ♣♣
+                                                                                                                                                                ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣ ♣♣
+    ...                                                                                                                                                          ♣ ♣ ♣ ♣ ♣ ♣ ♣❅♣ ♣                   r    r r     r
+                                                                                                                                                                                               ❅
+            ..                                      ..                              ..                              ..                                      ..                                 .. .. ..  .. ..    ..
+             .                                       .                               .                               .                                       .                                  .  .  .   .  .     .
+    Figure. Groups U(n). The case n = 5.
+    1. The dotted squares correspond to unitary representations ρσ,τ .
+    2. Vertical and horizontal rays in the south-west of Figure correspond to nonde-
+generated highest weight and lowest weight representations. Fat points correspond
+to degenerated highest and lowest weight, representations, and also to unipotent
+representations. The point (σ, τ ) = (0, 0) corresponds to the trivial one-dimensional
+representation.
+    3. In points of the thick segments, we have some exotic unitary sub-factors.
+    4. The shift (σ, τ ) 7→ (σ + 1, τ − 1) transform a projective representation ρσ,τ
+to an equivalent representation.
+    5. The permutation of the axes (τ, σ) 7→ (σ, τ ) gives a complex conjugate
+representation.
+    6. The symmetry with respect to the point (−n/2, −n/2) (black circle) gives a
+dual representation (for odd n this point is a center of a dotted square; for even n
+this point is a common vertex of two dotted squares).
+    7. For σ + τ = n (the skew diagonal line) our Hermitian form is the standard
+L2 -product. The represenations ρσ,τ in this case are in the untary principal series.
+    8. Linear (non-projective) reprsentations of U(n, n) correspond to the family of
+parallel lines σ − τ ∈ Z.
+
+
+
+
+                                                                                                      16
+     e) Another symmetry. The representation ρτ,σ is complex cojugate to ρσ,τ
+     f) Problem of unitarisability of subquotients. Corollary 2.8 gives a classi-
+fication of unitary representations among ρσ,τ . But for integer σ or integer
+τ , the representation ρσ,τ can contain a unitary subrepresentation, a unitary
+factor-representation, or a unitary sub-factor.
+     g) Unitary highest weight representations and Sahi’s unipotent representa-
+tions. The kernels
+                           Lσ,0 (u, v) = detσ (1 − uv −1 )
+are well-known, and they define highest weight representations. By a well-
+known theorem (Berezin, Gindikin, Rossi–Vergne, Wallach), the form Lσ,0 is a
+nonnegative Hermitian form iff
+              σ < −n + 1        and for σ = −n + 1, −n + 2, . . . , 0.         (2.25)
+    First, let σ < −(n− 1), If mn is negative, then the factor Γ(0 + mj + 1) in the
+denominator of (2.10) is infinity, and hence (2.10) is 0. If mn ⩾ 0, then all other
+coeffitients cm have the same sign (all signs are positive or all are negative). It
+is easy to observe this from (2.10) for noninteger σ. For integer σ, this follows
+from the limit considerations: numerator and denominator in (2.19) have poles
+of the same order, the limit as σ → −l have to be nonnegative as a limit of a
+nonnegative function.
+    Second,
+        Q let σ be in the discrete part of the set (2.25),Qσ = −n + θ. Then the
+factor Γ(α + j) has a pole of order n − j. The factor Γ(σ + n − mj ) has a
+pole of order ⩾ n − j (since mn ⩾ 0, mn−1 ⩾ 1, . . . , m1 ⩾ n − 1). Hence the
+ratio is finite, it is nonvanishing if the order of a pole of denominator is precisely
+n − j. This happens iff mn = 0, m1 = 1,. . . , mn−j+1 = j − 1. After this, it
+remains to follow signs in (2.11).
+    Remark. This consideration almost coincides with the original Berezin’s
+proof [2]. Hua Loo Keng [8] have obtained an expansion of the kernel Lσ,0 in
+a series of characters (it is a partial case] of our Theorem 2.3), and Berezin
+checked signs in this expansion.
+    In integer points lying in the strip 0 ⩾ σ + τ ⩾ −n + 1 also there are located
+unipotent representations [23], see below Section 5.
+    h) Some other unitary subquotients. Consider a representation ρσ,τ lying on
+the boundary of the dotted domain on Fig.1. For definiteness, assume τ = 0.
+Obviously, each term of its Jordan–Holder series is unitarizable (since a limit of
+positive inner products is positive). Denote by Yj the set of all the signatures
+m satisfying the condition
+                            mn−j ⩾ 0,         mn−j+1 < 0
+(i.e., precisely j terms of the signature are negarive). For m ∈ Yj , the expression
+cm (2.19) has a zero of order j.
+    Denote by Wj , the subspace in C ∞ (U(n)) spanned by all harmonics with
+signatures lying in ∪k⩾j Yj . We obtain an invariant filtration
+                       C ∞ (U(n)) = W0 ⊃ W1 ⊃ · · · ⊃ Wn
+
+                                         17
+The representation of U(n, n) in each sub-factor Wj /Wj+1 is unitaty.
+   i) Matrix Sobolev spaces of an arbitrary order. Denote
+
+                               s = −σ − τ + n.
+                                            P
+    Let F be a distribution on U(n), let F = Fm be its expansion in a series
+of elementary harmonics. We have
+                              X   cm
+  F ∈ Hσ,τ       ⇐⇒                    kFm k2L2 < ∞             ⇐⇒
+                              m
+                                dim πm
+                                          Xn         n
+                                                     Y             o
+                              ⇐⇒            kFm k2L2   (1 + |mj |)s < ∞, (2.26)
+                                           m             j=1
+
+where kFm kL2 denotes
+                                    Z                         1/2
+                       kFm kL2 :=               |Fm (h)|2 dµ(h)
+                                         U(n)
+
+Our Hermitian form defines a norm only in the case |s| < 1, but (2.26) has sence
+for arbitrary real s, and thus we have a possibility to define a Sobolev space Hs
+on U(n) of an arbitrary order.
+    Author do not know applications of this remark, but it seems that it can be
+useful in two following situations.
+    First, a reasonable harmonic analysis related to semisimple Lie groups is
+the analysis of unitary represenations. But near 1980 Molchanov observed that
+there are many identities with special function that admits interpretations on
+”physical level of rigor” as formulae of nonunitary harmonic analysis. Up to now,
+there are no reasonable interpretations of this phenomenon (see, for instance [3],
+see also [14], Section 1-32 and formula (2.6)–(2.15) ). In particular, we do not
+know reasonable functional spaces that can be place of action of this analysis.
+It seems that our spaces Hs can be possible candidates.
+    Second, natural integral operators in the noncomutative harmonic anal-
+ysis seem similar to pseudo-differential operators, but they are not pseudo-
+differential operators in the usual sence. In particular, they are not well com-
+patible with the standard scales of functional spaces. It can happened that our
+spaces Hs can be more reasonable in this situation.
+   j) An identity for formal series. We have (see notation (0.4))
+                                                    ∞
+                σ+τ (σ−τ )ϕ       2σ+τ Γ(σ + τ + 1) X       (−1)m eimϕ
+     sin(ϕ/2)      e          =                                            .
+                                      Γ(σ)Γ(τ )    m=−∞
+                                                        (τ + 1)m (σ + 1)−m
+
+Introduce new variables xp = eiϕp . We can rewrite Theorem 2.3 as the following
+
+
+
+
+                                            18
+ identity for formal series
+    n n X
+    Y   ∞                       o
+                  (−1)m xlp
+                                  =
+   p=1 m=−∞
+            (τ + 1)m (σ + 1)−m
+         Qn−1                 Xh Y
+                                 n
+                                          (−1)jj        i det         lj
+          k=1 (σ + τ + 1)k                                    1⩽j,p⩽n xp
+       =                    ·                            
+               (σ)nn            j=1
+                                    (τ + 1)lj (σ + n)−lj det1⩽j,p⩽n xj−1
+                                                                      p
+                                     l
+
+
+
+    3. Orthogonal groups
+    3.1. Definition of the kernel. We consider the (disconnected) group
+ O(2n) as a basic object3 . Each element of this group can be reduced by a
+ conjugation g 7→ hgh−1 to the block diagonal form with 2 × 2-blocks
+                             
+  A(ϕ1 )    0     ...     0
+ 0      A(ϕ2 ) . . .     0                                     
+                                                cos ϕj   sin ϕj
+ ..        ..    ..      ..  , where A(ϕj ) = − sin ϕ cos ϕ .       (3.1)
+ .          .        .    .                            j      j
+    0       0     . . . A(ϕn )
+
+     The collection (ϕ1 , . . . , ϕn ) is uniquely determined by g modulo permuta-
+ tions and arbitrary transformations ϕj 7→ −ϕj . The numbers e±iϕj coincide
+ with the eigenvalues of g.
+     We define the function ℓλ (g) on O(2n) by
+                               (                λ
+                                  det (1 − g)/2 , , if g ∈ SO(2n);
+                   ℓλ (g) =
+                                  0,                 if g ∈
+                                                          / SO(2n).
+
+ the derminant is nonegative and hence its complex powers are well-defined. In
+ the terms of the eigenvalues e±iϕj , the function ℓλ (g) coincides with
+                                           n
+                                           Y                  2λ
+                                ℓλ (g) =         sin(ψj /2)        .
+                                           j=1
+
+    We define the kernel Lλ (·, ·) on O(2n) as
+
+                                   Lλ (g, h) = ℓλ (gh−1 ).
+
+    3.2. Characters, see [28]. Irreducible representations πλ of SO(2n) are
+ parametrized by collections of numbers
+
+                     (l, ε) :   l1 > l2 > · · · > ln > 0,              ε = ±1,
+   3 It is also possible to concider its connectd subgroup SO(2n); in this case we must replace
+
+ the group O(2n, 2n) below by it connected component SO0 (2n, 2n), consider a connected
+ component of the Grassmannian and also do some obvious minor changes.
+
+
+
+
+                                               19
+or
+                                        l:      l1 > l2 > · · · > ln = 0.
+Formulae for the characters are slightly different in these two cases.
+   If ln = 0, we have
+                                            
+                                det1⩽k,m⩽n cos(lk ϕm )
+                      χl (g) =                            .
+                               det1⩽k,m⩽n cos(k − 1)ϕm
+      For ln 6= 0, we have
+                                                                       
+                         det1⩽k,m⩽n           cos(lk ϕm ) + ε det1⩽k,m⩽n sin(lk ϕm )
+               χεl (g) =                                                            .
+                                             2 det1⩽k,m⩽n cos(k − 1)ϕm
+   Denote by J the diagonal matrix ∈ O(2n) having (2n − 1) entries (+1)
+and one (−1). The map h 7→ JhJ −1 is an interior automorphism of O(2n)
+and an exterior automorphism of SO(2n). The representations ρ±    l of SO(2n)
+corresponding to the characters χ±
+                                 l are twins in the following sence
+                                             πl± (JhJ −1 ) = πl∓ (h).
+Also the substitution
+                      ϕ1 7→ ϕ1 ,         ...          ϕn−1 7→ ϕn−1 ,              ϕn 7→ −ϕn
+changes χ+         −
+           l and χl .
+    For ln = 0, the representation πl is stable with respect to the exterior auto-
+morphism h 7→ JhJ −1 .
+    This digression about two types of characters is almost non-essential for us,
+since really we will consider arbitrary
+                                   l:        l1 > l2 > · · · > ln ⩾ 0,
+ and the functions χl given by
+                                                           (
+           det1⩽k,m⩽n cos(lk ϕm )                                χl (g),             if ln = 0,
+χl (g) :=                                              =                                                (3.2)
+          det1⩽k,m⩽n cos(k − 1)ϕm                                χ+        −
+                                                                  l (g) + χl (g),    if ln > 0.
+
+    Remark. The functions (3.2) are precisely restrictions of the characters of
+the disconnected group O(2n) to the connected group SO(2n).
+    Let F be a central functions on SO(2n). Let f be its restriction to the
+maximal torus, i.e., to the set of matrices having the form (3.1). The Weyl
+integration formula for central functions on SO(2n) has the form
+     Z
+          F (g)dµ(g) =
+     SO(2n)
+                  Z                Z                                                         2
+        1                                                                    
+ =                        ...                f (ϕ1 , . . . , ϕn )      det       cos(k−1)ϕm        dϕ1 . . . dϕn .
+      π n n!                                                         1⩽k,m⩽n
+               0<ψ1 <2π     0<ψn <2π
+
+
+
+                                                            20
+   3.3. Expansion of ℓλ in characters.
+   Theorem 3.2. Let λ < 1/2. For g ∈ SO(2n),
+                                         X                  1 X
+                        ℓλ (g) =                cl χl +         cl (χ+    −
+                                                                     l + χl ),
+                                                            2
+                                     l: ln =0                l: ln >0
+
+where
+                                                          n
+                                                          Y
+  cl = (−1)n(n−1)/2 22nλ+1 π −n sinn πλ                       Γ(2λ + 2k − 1)×
+                                                        k=1
+                                                Y          Yn
+                                                2    2         Γ(lj − λ − n + 1)
+                                     ×        (lα − lβ ) ·                       =                           (3.3)
+                                                           j=1
+                                                                 Γ(lj + λ + n)
+                                       1⩽α<β⩽n
+
+
+
+                                     n
+                                     Y
+  = (−1)n(n−1)/2 22nλ+1                   Γ(2λ + 2k − 1)×
+                                 k=1
+                                                                   P
+                                                                       lj
+                                                                            Q           2    2
+                                                            (−1)              1⩽α<β⩽n (lα − lβ )
+                                                 × Qn                                                  . (3.4)
+                                                        j=1 Γ(−lj + λ + n)Γ(lj + λ + n))
+
+   Proof. First, ℓλ (JhJ −1 ) = ℓλ (h). Hence
+                                                                        1
+                            hℓλ , χ+              −
+                                   l iL2 = hℓλ , χl iL2 =                 hℓλ , χl iL2
+                                                                        2
+Evaluating the last expression, we obtain
+              Z              Z           n
+                                         Y
+    1                                                         2λ
+                      ...                    sin(ϕk /2)            ×
+  π n n!
+           0<ϕ1 <2π     0<ϕ <2π k=1
+                             n
+                                                                                                     n
+                                                                                                     Y
+                                                                                 
+                                     ×    det         cos lj ϕk             det       cos(j − 1)ϕk         dϕk .
+                                         1⩽j,k⩽n                   1⩽j,k⩽n
+                                                                                                     k=1
+
+Applying Lemma 2.2, we transform this integral to
+
+                                             π −n det I(j, m),
+
+where                          Z 2π
+                                                       2λ
+                   I(j, m) =             sin(ϕ/2)           cos(lj ϕ) cos[(m − 1)ϕ] dϕ.
+                                 0
+Expanding the product of cosines, we obtain a sum of two integrals of the form
+(2.9)   Z π           h                                       i
+                   2λ
+             sin ϕ     cos 2(lj + m − 1)ϕ + cos 2(lj − m + 1)ϕ dϕ =
+               0
+
+
+
+
+                                                        21
+                     h             (−1)lj +m−1
+    = π2−2λ Γ(2λ + 1)                                   +
+                         Γ(λ + lj + m)Γ(λ − lj − m + 2)
+                                                                (−1)lj +m−1          i
+                                              +                                       .
+                                                      Γ(λ + lj − m + 2)Γ(λ − lj + m)
+After simple transformations, we get
+                          h Γ(−1 − λ + l + m)              Γ(1 − λ + lj − m) i
+                                         j
+  2−2λ Γ(2λ + 1) sin λπ                                +                       =
+                             Γ(λ + lj + m)                 Γ(2 + λ + lj − m)
+    Γ(2λ + 1) sin(λπ)     Γ(l − λ)  (l − λ)
+                             j                    j        m−1       (lj + λ − m + 2)m−1 
+=                     ·                                          +
+          22λ           Γ(lj + λ + 1)     (lj + λ + 1)m−1            (lj − λ − m + 1)m−1
+
+The factors outside the boxed equation do not depend on m. Thus, we must
+evaluate              h (l − λ)
+                          j    m−1      (lj + λ − m + 2)m−1 i
+                det                   +                       .
+             1⩽j,m⩽n (lj + λ + 1)m−1    (lj − λ − m + 1)m−1
+A matrix element can be represented in the from
+
+             (lj − λ)(lj − λ + 1) . . . (lj − λ + m − 2)
+  hjm =                                                    +
+          (lj + λ + 1)(lj + λ + 2) . . . (lj + λ + m − 1)
+                                         (lj + λ)(lj + λ − 1) . . . (lj + λ − m + 2)
+                                 +                                                    .
+                                      (lj − λ − 1)(lj − λ − 2) . . . (lj − λ − m + 1)
+(in each numerator and denominator we have (m − 1) factor; in particular for
+m = 1 we have hj1 = 2). Thus we obtain a determinat evaluated in Lemma 1.4
+with
+               xj = lj ,   aj = −λ + j − 1,     bj = λj + j.
+After some rearangement of the factors we obtain the required result.
+   3.4. Representations. Now we can repreate the considerations of 2.6-2.8.
+Consider the linear space R2n ⊕ R2n equipped with the indefinite bilinear form
+
+                 {v ⊕ w, v ′ ⊕ w′ } = hv, v ′ iR2n ⊕0 − hw, w′ i0⊕R2n ,
+
+where h·, ·i is the standard inner product in R2n . Denote by O(2n, 2n) the group
+of linear operators in R2n ⊕ R2n preserving this form.
+    For h ∈ O(2n) consider its graph graph(h) in R2n ⊕ R2n . Since h ∈ O(2n),
+the subspace graph(h) is isotropic with respect to our bilinear form {·, ·}.
+    Thus we have one-to-one correspondence between the group O(2n) and the
+Grassmannian of 2n-dimensional isotropic subspaces in R2n ⊕ R2n .
+    The group O(2n, 2n) acts on the Grassmannian and hence O(2n, 2n) acts
+on the space O(2n). The explicit formula for the latter action is the same as
+above, see (2.19).
+    We consider the inner product in C ∞ (O(2n)) given by
+                    ZZ
+      hF1 , F2 iλ =               Lλ (h1 , h2 ) F (h1 ) F (h2 ) dµ(h1 ) dµ(h2 ). (3.5)
+                     O(2n)×O(2n)
+
+
+                                             22
+This integral is convergent if λ > −1/2, for general λ we consider the analytic
+continuation.
+    Proposition 3.2. a) The inner product (3.5) is invariant with respect to
+the transformations
+
+                   ρλ (g)F (h) = F (h[g] ) det(α + hγ)−2n+1−λ ,
+
+where g ∈ O(2n, 2n), h ∈ O(2n).
+   b) If −(n − 1) > λ > −n, then the inner product h·, ·iλ is positive definite.
+In other words, the representation ρλ in this case is unitary.
+   Proof. Statement b) follows from Theorem 3.1. For evaluation of the
+Jacobian, see, for instance, [13], 1.2–1.3.
+   4. Symplectic groups
+  4.1. Quaternionic matrices. We denote by H the quaternionic field.
+Operators in the quaternionic coordinate space Hn can written in the form
+
+                                    v 7→ vQ,
+
+where Q is an n × n-matrix with quaternionic elements, and v ∈ Hn is a
+vector-row. More formaly, these transformations are endomorphisms of a left
+n-dimensional module over the field H.
+   Let Q be a quaternionic matrix. It defines the operator Hn → Hn , identifying
+Hn with R4n , Hence we obtain an operator QR : R4n → R4n . We define the
+determinant of Q by                     √
+                                        4
+                              det Q = detQR .
+(det QR is a nonnegative real number, hence det Q also is a positive real number).
+   A quaterninic matrix Q is unitary, if it preserves the Hermitian form
+                                        X
+                               {v, w} =     vj w j .
+
+In other words
+                                    QQ∗ = 1,
+where Q∗ is a matrix obtained from Q by transposition and element-wise quater-
+nionic conjugation; if qkl are the matrix elements of Q, then the matrix elements
+of Q∗ are q lk .
+    4.2. Symplectic group, see [28]. The group of all n × n quaterninic
+unitary matrices is called ”symplectic group” or ”compact symplectic group”,
+the standard notation is Sp(n).
+    Using a group conjugation h 7→ g −1 hg, each element of Sp(n) can be reduced
+to a diagonal matrix with the entries eikϕ . The collection ψj is defined uniquely
+modulo permutations and change of signs: ψj 7→ (−1)σj ψj .
+
+
+
+
+                                       23
+   Let F be a central function on Sp(n), let f be its restriction to the set of
+diagonal matrices. The following Weyl integration formula holds
+  Z                                   Z                Z
+                        1
+         F (g) dµ(g) = n                     ...                 f (ϕ1 , . . . , ϕn )×
+   Sp(n)              π  n!
+                                0<ψ1 <2π         0<ψn <2π
+                                                                                          n
+                                                                                         2Y
+                                                                           
+                                                           ×        det     sin(kψj )          dϕj .
+                                                                 1⩽j,k⩽n
+                                                                                         j=1
+
+    Finite-dimensional irreducible representations of Sp(2n) are enumerated by
+collections l of integers having the form
+
+                            l:        l1 > l2 > · · · > ln > 0.
+
+The corresponding character is
+                                             
+                                   det1⩽j,k⩽n sin(lk ψj )
+                          χl (g) =                       .
+                                   det1⩽j,k⩽n sin(kψj )
+
+   We define the function ℓλ on Sp(n) by
+                                                           n
+                                                           Y
+                                                2λ
+                 ℓλ (g) = det (1 − g)/2                =         | sin(ψj /2)|2λ .
+                                                           j=1
+
+
+   4.3. Expansion of lλ .
+   Theorem 4.1. For Re λ < 1/2,
+                                                   X
+                                      ℓλ (g) =         cl χl ,
+                                                   l
+
+where
+                            n
+                            Y
+  cl = π −n 2−2nλ sinn λπ           Γ(2λ + 2k)×
+                          k=1
+                          n
+                          Y                 Y                       n
+                                                                    Y    Γ(lj − λ − k)
+                      ×      (2lα )                (lα2 − lβ2 )                          . (4.1)
+                          α=1                                      j=1
+                                                                       Γ(lj + λ + 1 + k)
+                                          0⩽α<β⩽n
+
+   Proof is very similar to the orthogonal case. We must evaluate the deter-
+minat whose matrix elements are
+                         Z 2π
+                                       2λ
+              I(k, j) :=      sin(ϕ/2) sin(lj ϕ) sin(kϕ) dϕ.
+                                0
+
+
+
+
+                                              24
+Expanding the product of sines, we obtain a sum of two integrals of the form
+(2.9)
+    Z π
+                       2λ                                   
+            sin(ϕ/2)          cos 2(lj − k)ϕ − cos 2(lj + k)ϕ dϕ =
+        0
+                                         = π2−2λ Γ(2λ + 1)×
+    h                (−1)lj −k                            (−1)lj +k             i
+×                                          −                                      =
+        Γ(lj + λ − k + 1)Γ(−lj + λ + k + 1) Γ(lj + λ + k + 1)Γ(−lj + λ − k + 1)
+                                        h Γ(l − λ − k)
+                                              j               Γ(lj − λ + k) i
+                       = π2−2λ Γ(2λ + 1)                  +                   .
+                                         Γ(lj + λ − k + 1) Γ(lj + λ + k + 1)
+We transform the expression in the brackets to
+              Γ(lj − λ) n (lj + λ − k + 1)k       (lj − λ)k o
+                        ·                    −               .
+              Γ(lj + λ)      (lj − λ − k)k     (lj + λ + 1)k
+The factor in the front of brackets does not depend on k and hence it is suffitient
+to evaluate the determinant of the matrix
+                                        (lj + λ − k + 1)k   (lj − λ)k
+                                ukj =                     −           .
+                                           (lj − λ − k)k    (lj + λ)k
+This matrix has the form described in Lemma 1.3, with
+
+                       xj = lj ,         ak = λ + 1 − k,           bk = −λ − k.
+
+   4.4. Unitary representations of Sp(n, n). The pseudounitary quater-
+nionic group Sp(n, n) is the group of quaternionic (n + n) × (n + n)-matrices
+preserving the Hermitian form
+                                             n
+                                             X                2n
+                                                              X
+                                 {v, w} :=         vj wj −           vj wj .
+                                             j=1             j=n+1
+
+   We consider its action on Sp(n) by linear fractional transformations (2.19)
+as above. We also consider the representation ρλ (g) of Sp(n, n) in the space
+C ∞ (Sp(n)) given by
+
+                          ρλ (g)F (h) = F (h[g] ) det(α + hγ)−2n−1−λ
+
+        Proposition 4.2. a) The operators ρλ (g) preserve the Hermitian form
+                           ZZ
+             hF1 , F2 iλ =            ℓλ (gh−1 )F1 (g)F (h) dµ(g) dµ(h).
+                                    Sp(n)×Sp(n)
+
+   b) If −n > λ > −n − 1, then the Hermitian form h·, ·iλ is positive definite
+and thus the representation ρλ is unitary.
+   The nontrivial part of the statement is positivity of the Hermitian form.
+This follows from Theorem 4.1.
+
+                                                    25
+   5. Unipotent representations.
+  Here we discuss models of ”unipotent” representations of Sahi [23] and
+Dvorsky–Sahi, [4]–[5].
+   5.1. The case O(2n, 2n). In notation of Section 3, we suppose that
+
+                         λ = −n + α          α = 1, 2, . . . , n.                    (5.1)
+
+   The first row in (3.3) has zero of order α at our λ. The second row in (3.3)
+has a pole of order ⩽ α. Hence the total expression is nonzero iff the order of
+the pole is precisely α, i.e.,
+
+                    ln = 0,    , ln−1 = 1,      . . . ln−α+1 = α − 1
+
+Under this condition, all the coefficients cl are positive.
+    Thus, for λ having the form (5.1), the inner product (3.5) is non-negative
+definite (and degenerated) and the operators (3.6) are unitary with respect to
+this inner product.
+    Remark. For α = 0, our representation is the one-dimensional representa-
+tion.
+    For α = 1, the representation obtained in this way is an element of the
+Molchanov degenerated discrete series, see [12], now there exists a wide literature
+devoted to this representation, see, for instance [10].
+    5.2. Groups U(n, n). Now we assume
+
+             τ = 0,       σ = −n + α,           where α = 1, . . . , n − 1.          (5.2)
+
+The coefficient cm given by (2.10) is non-zero, if m is contained in the union of
+the following disjoint sets Zj , j = 0, 1, . . . , n − α,
+
+  Zθ : m    has form (m1 , . . . , mn−α−θ , α − 1, α − 2, . . . , 0, mn−θ+1 , . . . mn )
+
+    Denote by Vm be the U(n) × U(n)-submodule in C ∞ (U(n)) corresponding
+a signature m, see 2.5.
+    Proposition 5.1. The subspace
+
+                 Wtail := ⊕Vµ ⊂ C ∞ (U(n)),          where µ ∈
+                                                             / ∪Zj ,
+
+is a U(n, n)-invariant subspace.
+   b) The quotient C ∞ (U(n))/Wtail is a sum n − α + 1 submodules
+
+                                   Wj = ⊕µ∈Zj Vµ
+
+The representation of U(n, n) in each Vj is unitary.
+   A proof is given below.
+   5.3. Blow-up. The distribution ℓσ,τ depends meromorphically in the two
+complex variables σ, τ . Its poles and zeros are located at σ ∈ Z and in τ ∈ Z
+
+                                           26
+and hence values of this distributions at points (σ, τ ) ∈ Z2 generally are not
+uniquely defined. Passing to this point from different directions, we can obtain
+different limits.
+    It is convenient to formulate this more formally.
+    We fix a point (σ, τ ) = (−n + α, 0) and introduce the new local coordinates
+near this point4 by
+                            σ = −n + α + sε, τ = tε                        (5.3)
+The new coordinates are defined up to the equivalence
+
+                                     (s, t, ε) ∼ (su, tu, ε/u)                   (5.4)
+
+We also think that
+
+             |s|,   |t|,   |ε| are suffitiently small, and (s, t) 6= (0, 0).     (5.5)
+
+   If we replace ε = 1/R, then the collections (s, t, R) are defined up to the
+equivalence
+                             (s, t, ε) ∼ (su, tu, Ru)
+i.e., s, t, u is a point of the projective plane. Thus the set (5.5) can be consired as
+a subset in projective plane. In the new coordinates, the point (−n + α, 0) ∈ C2
+corresponds to the whole complex projective line (s, t, 0).
+     Thus replacing a neibourhood of (−n + α, 0) ∈ C2 by the set (5.5), we obtain
+a new complex manifold, denote it by C       e 2.
+     Proposition 5.2. The distribution
+
+                                     ℓs,t,ε (z) := ℓσ,τ (z)
+
+is a meromorphic distribution-valued function on C   e 2 in the domain (5.5). The
+unique pole (or order n) near (s, t) = (0, 0) is the line s + t = 0.
+   Proof. Each Fourier coefficient cm in the formula (2.10) has the form
+
+                                      tj sn−α−j
+                                εk              Rm (s, t, ε)                     (5.6)
+                                     (s + t)n−α
+
+where the last factor is holomorphic and nonvanishing near the line (s, t, 0), and
+the powers k, j, n − α − j are nonnegative.
+    Thus, the Fourier coefficients cm of the distribution ℓs,t,ε are meromorphic
+in the our region.
+    We must verify that the derivatives ∂ℓs,t,ε /∂t, ∂ℓs,t,ε /∂s, ∂ℓs,t,ε /∂ε are well-
+defined distributions.
+    A central function on U(n) is a distribution, if its Forier coefficient have at
+most polynomial growth in m. For (5.6), this can be verified by a direct tracing.
+  4 This construction is the blow-up of the plane C2 at the point (−n + α, 0).
+
+
+
+
+                                              27
+   5.4. The family of invariant Hermitian forms. Proof of Proposition
+5.1. Thus, for (σ, τ ) = (−n + α, 0), we have the following family of Hermitian
+forms invariant with respect to the operators (2.22)
+                          ZZ
+            Λs,t (f, g) =             ℓs,t,0 (zu∗ )f (z)f (u) dµ(z) dµ(u)
+                            U(n)×U(n)
+
+    Now we emphasis some additional properties of the formula (5.6).
+    First, the exponent k in (5.6) is zero iff m ∈ ∪Zj . Hence Wtail is the common
+kernel of all the forms Λs,t . This implies the statement a) of Proposition 5.1.
+    By the invariance, we subspaces Wj are pairwise orthogonal with respect to
+all the forms Λs,t,0 .
+    Secondly, Rm (s, t, 0) is a constant which depend only on m (since noncon-
+stant summands in the linear factors of Rm have the form sε), tε).
+    Thirdly, if m ∈ Zj , then the exponent j in (5.6) is our j. This means, that
+the restriction of Λs,t,0 to Wj has the the form
+
+                                 tj sn−α−j
+                                           Ξj (f, g)                          (5.7)
+                                (s + t)n−α
+where Ξ(f, g) is independent of t, s.
+   The Fourier coefficients of Ξj are the factors Rm (s, t, 0) from (5.6), and they
+can easily be written. It is easy to observe that all these coefficients have the
+same sign.
+   This finishes proof of Proposition 5.1.b).
+   5.5. Expression for the kernel. We can concider the form Ξj as a form
+on C ∞ (U(n)) extending it to other harmonics as zero.
+   Proposition 5.3. The form Ξj is defined by the distribution
+
+  1 ∂j
+         (1 + t)n−α ℓ1,t,0 (zu∗ )      =
+  n! ∂tj                          t=0
+                             1        ∂j
+                         =      lim j (1 + t)n−α det(1 − zu∗ ){n+α+ε|tε}
+                             n! ε→0 ∂t                                   t=0,ε=0
+
+     Proof. The first expression is obtained by differention of the block decom-
+position (5.7) of the Hermitian forms Λs,t ; the right-hand side is a result of
+changing of the limit passing and differentiation.
+     Remark. The sum (5.8) contains the well-defined term det(1−zu∗)−n+α :=
+  1,0,0
+ℓ       (zu∗ ) (that looks like a function) and sum of distributions supported by
+the submanifold rk(1 − zu∗ ) = n − 1, n − 2, . . . , n − α (the analysis of the
+determinantal distributions was done by Ricci, Stein [19]).
+
+
+References
+[1] Bargmann V. Irreducible unitary representations of the Lorentz group. Ann.
+    Math, 48 (1947), 568–640
+
+                                        28
+[2] Berezin, F.A., Quantization in complex symmetric spaces. Izv. Akad. Nauk
+    SSSR, Ser. Math., 39, 2, 1362–1402 (1975); English translation: Math
+    USSR Izv. 9 (1976), No 2, 341–379(1976)
+[3] van Dijk, G., Molchanov, V.F. The Berezin form for rank one para-
+    Hermitian symmetric spaces. J. Math. Pure. Appl., 78 (1999), 99–119.
+[4] Dvorsky, A. Sahi, S. Explicit Hilbert spaces for certain unipotent represen-
+    tations. II. Invent. Math. 138 (1999), no. 1, 203–224.
+[5] Dvorsky, A., Sahi, S. Explicit Hilbert spaces for certain unipotent represen-
+    tations. III. J. Funct. Anal. 201(2003), no. 2, 430–456.
+[6] Gelfand, I. M., Naimark, M. A. Unitary representations of the Lorentz
+    group. (Russian) Izvestiya Akad. Nauk SSSR. Ser. Mat. 11, (1947). 411–
+    504.
+[7] Gradshtein, I.S., Ryzhik, I.M. Tables of integrals, sums and products. Fiz-
+    matgiz, 1963; English translation: Acad. Press, NY, 1965
+[8] Hua Loo Keng, Harmonic analysis of functions of several complex variables
+    in classical domains. Beijing, 1958(Chinese); Russian translation: Moscow,
+    Inostrannaya literatura (1959); English translation: Amer. Math. Soc.,
+    Providence (1963)
+[9] Kirillov A.A. Elements of representation theory, Moscow, Nauka, 1972; En-
+    glish transl.: Springer, 1976.
+[10] Kobayashi, T. Conformal geometry and global solutions to the Yamabe
+     equations on classical pseudo-Riemannian manifolds. Proceedings of the
+     22nd Winter School ”Geometry and Physics” (Srn, 2002). Rend. Circ. Mat.
+     Palermo (2) Suppl. No. 71, (2003), 15–40.
+[11] Krattenthaler, C. Advanced determinant calculus. The Andrews Festschrift
+     (Maratea, 1998). Sem. Lothar. Combin. 42 (1999), Art. B42q, 67 pp. (elec-
+     tronic).
+[12] Molčanov, V. F. Representations of a pseudoorthogonal group that are con-
+     nected with its cone. Mat. Sb. (N.S.) 81 (123), English transl.: Math. USSR-
+     Sb. 81 (1970), 333–347.
+[13] Neretin, Yu.A., Matrix analogs of B-function and Plancherel formula for
+     Berezin kernel representations, Mat. Sbornik, 191, No.5 (2000), 67–100;
+     Preprint version is available via http://arXiv.org/abs/math/9905045
+[14] Neretin, Yu.A., Plancherel formula for Berezin deformation of L2 on Rie-
+     mannian symmetric space, J. Funct. Anal. (2002), 189(2002), 336–408.
+     Preprint version is avalable via http://arXiv.org/abs/math/9911020.
+[15] Neretin Yu.A. Matrix balls, radial analysis of Berezin kernels, and hyper-
+     geometric determinants, Moscow Math. J., v.1 (2001), 157–221.
+
+                                       29
+[16] Neretin Yu.A. Sahi–Stein representations and some problems of non-L2
+     harmonic analysis., preprint.
+[17] Neretin, Yu.A., Olshanskii, G.I., Boundary values of holomorphic func-
+     tions , singular unitary representations of groups O(p, q) and their limits
+     as q → ∞. Zapiski nauchn. semin. POMI RAN 223, 9–91(1995); English
+     translation: J.Math.Sci., New York, 87, 6 (1997), 3983–4035.
+[18] Oshima, T. A calculation of c-functions for semisimple symmetric spaces.
+     Lie groups and symmetric spaces, 307–330, Amer. Math. Soc. Transl. Ser.
+     2, 210, Amer. Math. Soc., Providence, RI, 2003.
+[19] Ricci, F., Stein, E. M. Homogeneous distributions on spaces of Hermitean
+     matrices. J. Reine Angew. Math. 368 (1986), 142–164.
+[20] Sahi, S. A simple construction of Stein’s complementary series representa-
+     tions. Proc. Amer. Math. Soc. 108 (1990), no. 1, 257–266.
+[21] Sahi, S., Unitary representations on the Shilov boundary of a symmetric
+     tube domain, Contemp. Math. 145 (1993) 275–286.
+[22] Sahi, Jordan algebras and degenerate principal series,              J. Reine
+     Angew.Math. 462 (1995) 1–18.
+[23] Sahi, S. Explicit Hilbert spaces for certain unipotent representations. Invent.
+     Math. 110 (1992), no. 2, 409–418.
+[24] Sahi, S., Stein, E. M. Analysis in matrix space and Speh’s representations.
+     Invent. Math. 101 (1990), no. 2, 379–393.
+[25] Stein, E. M. Analysis in matrix spaces and some new representations of
+     SL(N, C). Ann. of Math. (2) 86 1967 461–490.
+[26] Vilenkin N.Ya. Special functions and theory of group represnetations.
+     Moscow, Nauka, 1965; English translations: Amer.Math.Soc
+[27] Vogan, D. A., The unitary dual of GL(n) over an Archimedean field. Invent.
+     Math. 83 (1986), no. 3, 449–505.
+[28] Weyl, H. The Classical Groups. Their Invariants and Representations.
+     Princeton University Press, Princeton, N.J., 1939.
+
+   Math. Phys.Group, Institute for the Theoretical and Experimental Physics,
+   Bolshaya Cheremushkinskaya, 25,
+   Moscow 117 259, Russia & University of Vienna, Math. Dept.,
+   Nordbergstarsse, 15, Vienna, Austria
+   neretin@mccme.ru
+
+
+
+
+                                        30
+

@@ -1,0 +1,1713 @@
+                                                   ANALYSIS ON THE MINIMAL REPRESENTATION OF O(p, q)
+                                                                            – II. BRANCHING LAWS
+
+
+
+
+arXiv:math/0111085v1 [math.RT] 7 Nov 2001
+                                                                   Toshiyuki KOBAYASHI and Bent ØRSTED
+                                                                       RIMS Kyoto and SDU-Odense University
+
+                                                   Abstract. This is a second paper in a series devoted to the minimal unitary representation
+                                                   of O(p, q). By explicit methods from conformal geometry of pseudo Riemannian manifolds,
+                                                   we find the branching law corresponding to restricting the minimal unitary representation
+                                                   to natural symmetric subgroups. In the case of purely discrete spectrum we obtain the
+                                                   full spectrum and give an explicit Parseval-Plancherel formula, and in the general case we
+                                                   construct an infinite discrete spectrum.
+
+
+
+
+                                                                                           Contents
+                                                  Introduction
+                                            §4.   Criterion for discrete decomposable branching laws
+                                            §5.   Minimal elliptic representations of O(p, q)
+                                            §6.   Conformal embedding of the hyperboloid
+                                            §7.   Explicit branching formula (discretely decomposable case)
+                                            §8.   Inner product on ̟ p,q and the Parseval-Plancherel formula
+                                            §9.   Construction of discrete spectra in the branching laws
+
+                                                                                       Introduction
+                                                 This is the second in a series of papers devoted to the analysis of the minimal repre-
+                                             sentation ̟ p,q of O(p, q). We refer to [23] for a general introduction; also the numbering
+                                             of the sections is continued from that paper, and we shall refer back to sections there.
+                                             However, the present paper may be read independently from [23], and and its main object
+                                             is to study the branching law for the minimal unitary representation ̟ p,q from analytic
+                                             and geometric point of view. Namely, we shall find by explicit means, coming from
+                                             conformal geometry, the restriction of ̟ p,q with respect to the symmetric pair
+
+                                                                        (G, G′ ) = (O(p, q), O(p′, q ′ ) × O(p′′ , q ′′ )).
+
+                                             If one of the factors in G′ is compact, then the spectrum is discrete (see Theorem 4.2 also
+                                             for an opposite implication), and we find the explicit branching law; when both factors
+                                             are non-compact, there will still (generically) be an infinite discrete spectrum, which we
+                                             also construct (conjecturally almost all of it; see §9.8). We shall see that the (algebraic)
+                                             situation is similar to the theta-correspondence, where the metaplectic representation is
+                                             restricted to analogous subgroups.
+                                                Let us here state the main results in a little more precise form, referring to sections 8
+                                             and 9 for further notation and details.
+                                                                                                                              Typeset by AMS-TEX
+                                                                                                1
+Theorem A (the branching law for O(p, q) ↓ O(p, q ′ ) × O(q ′′ ); see Theorem 7.1). If
+q ′′ ≥ 1 and q ′ + q ′′ = q, then the twisted pull-back Φ   f∗ of the local conformal map Φ1
+                                                               1
+between spheres and hyperboloids gives an explicit irreducible decomposition of the unitary
+representation ̟ p,q when restricted to O(p, q ′ ) × O(q ′′ ):
+                                                        ∞
+                                                        X ⊕ p,q ′
+                    ^
+                    (Φ   ∗
+                       1) : ̟
+                              p,q                  ∼
+                                  |O(p,q ′ )×O(q ′′ ) →    π
+                                                                                            ′′
+                                                                                    ⊠ Hl (Rq ).
+                                                                  q ′′
+                                                                        +,l+ 2 −1
+                                                           l=0
+   The representations appearing in the decompositions are in addition to usual spherical
+                                                                                  p,q
+harmonics Hl (Rq ) for compact orthogonal groups O(q), also the representations π+,λ  for
+non-compact orthogonal groups O(p, q). The latter ones may be thought of as discrete
+series representations on hyperboloids
+                      X(p, q) := {x = (x′ , x′′ ) ∈ Rp+q : |x′ |2 − |x′′ |2 = 1}
+for λ > 0 or their analytic continuation for λ ≤ 0; they may be also thought of as cohomo-
+logically induced representations from characters of certain θ-stable parabolic subalgebras.
+The fact that they occur in this branching law gives a different proof of the unitarizability
+                    p,q
+of these modules π+,λ   for λ > −1, once we know ̟ p,q is unitarizable (cf. Part I, Theo-
+rem 3.6.1). It might be interesting to remark that the unitarizability for λ < 0 (especially,
+λ = − 12 in our setting) does follow neither from a general unitarizability theorem on
+Zuckerman-Vogan’s derived functor modules [31], nor from a general theory of harmonic
+analysis on semisimple symmetric spaces.
+   Our intertwining operator (Φ ^    ∗
+                                  1 ) in Theorem A is derived from a conformal change
+of coordinate (see §6 for its explanation) and is explicitly written. Therefore, it makes
+sense to ask also about the relation of unitary inner products between the left-hand and
+the right-hand side in the branching formula. Here is an answer (see Theorem 8.5): We
+normalize the inner product k kπ+,λ
+                                  p,q (see §8.3) such that for λ > 0,
+
+
+                                                                               p,q
+                       kf k2π p,q = λkf k2L2 (X(p,q)) ,          for any f ∈ (π+,λ )K .
+                             +,λ
+
+Theorem B (the Parseval-Plancherel formula for O(p, q) ↓ O(p, q ′ ) × O(q ′′ )).
+                                     P
+1) If we develop F ∈ Ker ∆e M as F = ∞ F (1) F (2) according to the irreducible decompo-
+                                         l  l  l
+sition in Theorem A, then we have
+                               X∞
+                        2             (1)             (2)
+                    kF k̟p,q =     kFl k2 p,q′    k Fl k2L2 (S q′′ −1 ) .
+                                                   π          q ′′
+                                      l=0              +,l+
+                                                               2
+                                                                   −1
+                                                       ′
+2) In particular, if q ′′ ≥ 3, then all of π p,q            ′′          are discrete series for the hyperboloid
+                                                  +,l+ q2 −1
+       ′
+X(p, q ) and the above formula amounts to
+                          ∞
+                          X      q ′′         (1)                   (2)
+              kF k2̟p,q =   (l +      − 1) kFl k2L2 (X(p,q ′ )) k Fl k2L2 (S q′′ −1 ) .
+                                  2
+                              l=0
+     The formula may be also regarded as an explicit unitarization of the minimal represen-
+tation ̟ p,q on the “hyperbolic space model” by means of the right side (for an abstract
+unitarization of ̟ p,q , it suffices to choose a single pair (q ′ , q ′′ )). We note that the formula
+was previously known in the case where (q ′ , q ′′ ) = (0, q) (namely, when each summand in
+the right side is finite dimensional) by Kostant, Binegar-Zierau by a different approach.
+The formula is new and seems to be particularly interesting even in the special case
+q ′′ = 1, where the minimal representation ̟ p,q splits into two irreducible summands when
+restricted to O(p, q − 1) × O(1).
+     In Theorem 9.1, we consider a more general setting and prove:
+                                                       2
+Theorem C (discrete spectrum in the restriction O(p, q) ↓ O(p′ , q ′ ) × O(p′′ , q ′′ )).
+The twisted pull-back of the locally conformal diffeomorphism also constructs
+                      X⊕                     ′
+                                          p ,q   ′
+                                                  p ,q′′   ′′                  X⊕                     ′
+                                                                                                   p ,q   ′
+                                                                                                           p ,q ′′   ′′
+                                         π+,λ  ⊠ π−,λ  ⊕                                          π−,λ  ⊠ π+,λ
+           λ∈A′ (p′ ,q ′ )∩A′ (q ′′ ,p′′ )                          λ∈A′ (q ′ ,p′ )∩A′ (p′′ ,q ′′ )
+
+
+as a discrete spectrum in the branching law for the non-compact case.
+   Even in the special case (p′′ , q ′′ ) = (0, 1), our branching formula includes a new and
+mysterious construction of the minimal representation on the hyperboloid as below (see
+Corollary 7.2.1): Let W p,r be the set of K-finite vectors (K = O(p) × O(r)) of the kernel
+of the Yamabe operator
+
+            e X(p,r) = {f ∈ C ∞ (X(p, r)) : ∆X(p,r) f =                           1
+        Ker ∆                                                                       (p + r − 1)(p + r − 3)f },
+                                                                                  4
+on which the isometry group O(p, r) and the Lie algebra of the conformal group O(p, r +1)
+act. The following Proposition is a consequence of Theorem 7.2.2 by an elementary linear
+algebra.
+Proposition D. Let m > 3 be odd. There is a long exact sequence
+                                   ϕ1                ϕ2                     ϕ3         ϕm−2                   ϕm−1
+           0 → W 1,m−1 −→ W 2,m−2 −→ W 3,m−3 −→ · · · −→ W m−1,1 −→ 0
+
+such that Ker ϕp is isomorphic to (̟ p,q )K for any (p, q) such that p + q = m + 1.
+   We note that each representation space W p,q−1 is realized on a different space X(p, q−1)
+whose isometry group O(p, q − 1) varies according to p (1 ≤ p ≤ m). So, one may
+expect that only the intersections of adjacent groups can act (infinitesimally) on Ker ϕp .
+Nevertheless, a larger group O(p, q) can act on a suitable completion of Ker ϕp , giving rise
+to another construction of the minimal representation on the hyperboloid X(p, q − 1) =
+O(p, q − 1)/O(p − 1, q − 1) ! We note that Ker ϕp is roughly half the kernel of the Yamabe
+operator on the hyperboloid (see §7.2 for details).
+   We briefly indicate the contents of the paper: In section 4 we recall the relevant facts
+about discretely decomposable restrictions from [16] and [17], and apply the criteria to our
+present situation. In particular, we calculate the associated variety of ̟ p,q as well as its
+asymptotic K-support introduced by Kashiwara-Vergne. Theorem 4.2 and Corollary 4.3
+clarify the reason why we start with the subgroup G′ = O(p, q ′ ) × O(q ′′ ) (i.e. p′′ = 0).
+                                                                p,q         p,q
+Section 5 contains the identification of the representations π+,λ    and π−,λ   of O(p, q) in
+several ways, namely as: derived functor modules, Dolbeault cohomologies, eigenspaces
+on hyperboloids, and quotients or subrepresentations of parabolically induced modules.
+In section 6 we give the main construction of embedding conformally a direct product
+of hyperboloids into a product of spheres; this gives rise to a canonical intertwining op-
+erator between solutions to the so-called Yamabe equation, studied in connection with
+conformal differential geometry, on conformally related spaces. Applying this principle in
+section 7 we obtain the branching law in the case where one factor in G′ is compact, and
+in particular when one factor is just O(1). In this case we have Corollary 7.2.1, stating
+that ̟ p,q restricted to O(p, q − 1) is the direct sum of two representations, realized in
+even respectively odd functions on the hyperboloid for O(p, q − 1). Note here the analogy
+with the metaplectic representation. Also note here Theorem 7.2.2, which gives a myste-
+rious extention of ̟ p,q by ̟ p+1,q−1 - both inside the space of solutions to the Yamabe
+                                                                3
+equation on the hyperboloid X(p, q − 1) = O(p, q − 1)/O(p − 1, q − 1). We also point
+                               p,q
+out that the representations π+,λ  for λ = 0, − 12 are rather exceptional; they are unitary,
+but outside the usual “fair range” for derived functor modules, see the remarks in section
+8.2. Section 8 contains a calculation of spectra of intertwining operators and gives the
+explicit normalization of a Parseval-Plancherel formula for the branching law, and finally
+in section 9 we use certain Sobolev estimates to construct an infinite discrete spectrum
+when both factors in G′ are non-compact. We also conjecture the form of the full discrete
+spectrum (true in the case of a compact factor). It should be interesting to calculate the
+full Parseval-Plancherel formula in the case of both discrete and continuous spectrum.
+   The first author expresses his sincere gratitude to SDU - Odense University for the
+warm hospitality.
+
+            §4. Criterion for discrete decomposable branching laws
+
+4.1. Our object of study is the discrete spectra of the branching law of the restriction
+̟ p,q with respect to a symmetric pair (G, G′ ) = (O(p, q), O(p′, q ′ ) × O(p′′ , q ′′ )). The aim
+of this section is to give a necessary and sufficient condition on p′ , q ′ , p′′ and q ′′ for the
+branching law to be discretely decomposable.
+    We start with general notation. Let G be a linear reductive Lie group, and G′ its sub-
+group which is reductive in G. We take a maximal compact subgroup K of G such that
+K ′ := K ∩ G′ is also a maximal compact subgroup. Let g0 = k0 + p0 be a Cartan decom-
+position, and g = k + p its complexification. Accordingly, we have a direct decomposition
+g∗ = k∗ + p∗ of the dual spaces.
+             b We say that the restriction π|G′ is G′ -admissible if π|G′ splits into a direct
+    Let π ∈ G.
+Hilbert sum of irreducible unitary representations of G′ with each multiplicity finite (see
+[15]). As an algebraic analogue of this notion, we say the underlying (g, K)-module πK
+is discretely decomposable as a (g′ , K ′ )-module, if πK is decomposed into an algebraic
+direct sum of irreducible (g′ , K ′ )-modules (see [17]). We note that if the restriction π|K ′ is
+K ′ -admissible, then the restriction π|G′ is also G′ -admissible ([15], Theorem 1.2) and the
+underlying (g, K)-module πK is discretely decomposable (see [17], Proposition 1.6). Here
+are criteria for K ′ -admissibility and discrete decomosability:
+Fact 4.1 (see [16], Theorem 2.9 for (1); [17], Corollary 3.4 for (2)).
+1) If ASK (π) ∩ Ad∗ (K)(k′ )⊥ = 0, then π is K ′ -admissible and also G′ -admissible.
+2) If πK is discretely decomposable as a (g′ , K ′ )-module, then prg→g′ (Vg (πK )) ⊂ Ng∗′ .
+   Here, ASK (π) is the asymptotic cone of
+
+                                                      c0 : [π|K : τ ] 6= 0}
+                  SuppK (π) := {highest weight of τ ∈ K        0
+
+
+
+where K0 is the identity component of K, and (k′ )⊥ ⊂ k∗ is the annihilator of k′ . Let
+Np∗ (⊂ p∗ ) be the nilpotent cone for p. Vg (πK ) denotes the associated variety of πK , which
+                                                                                             ∗
+is an Ad∗ (KC )-invariant closed subset of Np∗ . We write the projection prp→p′ : p∗ → p′
+dual to the inclusion p′ ֒→ p.
+4.2. Let us consider our setting where π = ̟ p,q and (G, G′ ) = (O(p, q), O(p′, q ′ ) ×
+O(p′′ , q ′′ )).
+Theorem 4.2. Suppose p′ + p′′ = p (≥ 2), q ′ + q ′′ = q (≥ 2) and p + q ∈ 2N. Then the
+following three conditions on p′ , q ′ , p′′ , q ′′ are equivalent:
+i) ̟ p,q is K ′ -admissible.
+                                                4
+      p,q
+ii) ̟K    is discretely decomposable as a (g′ , K ′ )-module.
+iii) min(p′ , q ′ , p′′ , q ′′ ) = 0.
+   The implication (i) ⇒ (ii) holds by a general theory as we explained ([17], Proposi-
+tion 1.6); (ii) ⇒ (iii) will be proved in §4.4, and (iii) ⇒ (i) in §4.5, by an explicit compu-
+                                                                                p,q
+tation of the asymptotic cone ASK (̟ p,q ) and the associated variety Vg (̟K        ) which are
+used in Fact 4.1.
+Remark. Analogous results to the equivalence (i) ⇔ (ii) in Theorem 4.2 were first proved
+in [17], Theorem 4.2 in the setting where (G, G′ ) is any reductive symmetric pair and
+the representation is any Aq (λ) module in the sense of Zuckerman-Vogan, which may be
+regarded as “representations attached to elliptic orbits”. We note that our representations
+̟ p,q are supposed to be attached to nilpotent orbits. We refer [20], Conjecture A to
+relevant topics.
+4.3. The following corollary is a direct consequence of Theorem 4.2, which will be an
+algebraic background for the proof of the explicit branching law (Theorem 7.1).
+Corollary 4.3. Suppose that min(p′ , q ′ , p′′ , q ′′ ) = 0.
+1) The restriction of the unitary representation ̟ p,q |G′ is also G′ -admissible.
+                                     p,q                                           p,q
+2) The space of K ′ -finite vectors ̟K ′ coincides with that of K-finite vectors ̟K .
+
+
+Proof. See [15], Theorem 1.2 for (1); and [17], Proposition 1.6 for (2). 
+    A geometric counterpart of Corollary 4.3 (2) is reflected as the removal of singularities
+of matrix coefficients for the discrete spectra in the analysis that we study in §6; namely,
+any analytic function defined on an open subset M+ (see §6 for notation) of M which is a
+K ′ -finite vector of a discrete spectrum, extends analytically on M if p′′ = 0. The reason
+for this is not only the decay of matrix coefficients but a matching condition of the leading
+terms for t → ±∞. This is not the case for min(p′ , q ′ , p′′ , q ′′ ) > 0 (see §9).
+4.4. Proof of (ii) ⇒ (iii) in Theorem 4.2.
+   We identify p∗ with p via the Killing form, which is in turn identified with M (p, q; C)
+by                                                        
+                                        ∼          O X
+                            M (p, q; C) → p, X 7→ t          .
+                                                   X O
+Then the nilpotent cone Np∗ corresponds to the following variety.
+
+(4.4.1)          {X ∈ M (p, q; C) : both X tX and tXX are nilpotent matrices}
+
+We put
+                    M0,0 (p, q; C) := {X ∈ M (p, q; C) : X tX = O, tXX = O}.
+Then M0,0 (p, q; C) \ {O} is the unique KC ≃ O(p, C) × O(q, C)-orbit of dimension p + q − 3.
+                              p,q
+The associated variety Vg (̟K     ) of ̟ p,q is of dimension p + q − 3, which follows easily from
+                          p,q
+the K-type formula of ̟ (see [23], Theorem 3.6.1). Thus, we have proved:
+                                       p,q
+Lemma 4.4. The associated variety Vg (̟K   ) equals M0,0 (p, q; C).
+                                          ∗
+  The projection prp→p′ : p∗ → p′ is identified with the map
+                                                                               
+                                      ′       ′       ′′   ′′         X1   X2
+          prp→p′ : M (p, q; C) → M (p , q ; C) ⊕ M (p , q ; C),                     7→ (X1 , X4 ).
+                                                                      X3   X4
+                                                  5
+Suppose p′ p′′ q ′ q ′′ 6= 0. If we take
+                                                √                      √
+            X := E1,1 − Ep′ +1,q ′ +1 +             −1Ep′ +1,1 +           −1E1,p′ +1 ∈ M0,0 (p, q; C),
+                                                          ∗                                 ∗
+then prp→p′ (X) = (E1,1 , −Ep′ +1,q ′ +1 ). But E1,1 6∈ No(p′ ,q ′ ) and −Ep′ +1,q ′ +1 6∈ No(p′′ ,q ′′ ) .
+                                                                 p,q
+Thus, prg→g′ (X) 6∈ Ng∗′ . It follows from Fact 4.1 (2) that ̟K       is not discrete decomposable
+       ′   ′
+as a (g , K )-module. Hence (ii) ⇒ (iii) in Theorem 4.2 is proved. 
+4.5. Proof of (iii) ⇒ (i) in Theorem 4.2.
+   We take an orthogonal complementary subspace k′′0 of k′0 in k0 ≃ o(p) + o(q). Let tc0
+be a Cartan subalgebra of k0 such that t′′0 := tc0 ∩ k′′0 is a maximal abelian subspace in k′′0 .
+We choose a positive system ∆+ (k, tc ) which is compatible with a positive system√of the
+restricted root system Σ(k, t′′ ). Then we can find a basis {fi : 1 ≤ i ≤ [ p2 ] + [ 2q ]} on −1t∗0
+such that a positive root system of k is given by
+                                                      p
+                 △+ (k, tc ) ={fi ± fj : 1 ≤ i < j ≤ [ ]}
+                                                      2
+                                             p                  p    q
+                              ∪ {fi ± fj : [ ] + 1 ≤ i < j ≤ [ ] + [ ]}
+                                            2                  2   2
+                                                   p
+                              ∪ {±fl : 1 ≤ l ≤ [ ]} (p:odd)
+                                                  2                          
+                                           p              p     q
+                              ∪ {±fl : [ ] + 1 ≤ l ≤ [ ] + [ ]} (q:odd) ,
+                                           2              2     2
+and such that
+                                               min(p′ ,p′′ )           min(q ′ ,q ′′ )
+                            √                      X                       X
+(4.5.1)                         −1(t′′0 )∗ =                   Rfi +                     Rf[ p2 ]+j
+                                                   j=1                     j=1
+
+if we regard (t′′0 )∗ as a subspace of (tc0 )∗ by the Killing form.
+  Suppose p q p q = 0. Without loss of generality we may and do assume p′′ = 0,
+              ′ ′ ′′ ′′
+
+namely, G′ = O(p, q ′ ) × O(q ′′ ) with q ′ + q ′′ = q.
+  Let us first consider the case p 6= 2. Then the irreducible O(p)-representation Ha (Rp )
+remains irreducible when restricted to SO(p). The corresponding highest weight is given
+by af1 . It follows from the K-type formula of ̟ p,q (Theorem 3.6.1) that
+                                                                    p     q
+                  SuppK (̟ p,q ) = {af1 + bf[ p2 ]+1 : a, b ∈ N, a + = b + }.
+                                                                    2     2
+Therefore we have proved:
+(4.5.2)                               ASK (̟ p,q ) = R+ (f1 + f[ p2 ]+1 ).
+                       √
+Then ASK (̟ p,q ) ∩        −1(t′′0 )∗ = {0} from (4.5.1) and (4.5.2), which implies
+                                               √
+                              ASK (̟ p,q ) ∩ −1 Ad∗ (K)(k′0 )⊥ = {0}
+because (t′′0 )∗ meets any Ad∗ (K)-orbit through (k′0 )⊥ . Therefore, the restriction ̟ p,q |K ′
+is K ′ -admissible by Fact 4.1 (1).
+                                                                                      2,q
+    If p = 2, then ̟ p,q splits into two representations (see Remark 3.7.3), say ̟+       and
+   2,q                                                                       a   p
+̟− , when restricted to the connected component SO0 (2, q). Likewise, H (R ) is a direct
+sum of two one-dimensional representations when restricted to SO(2) if a ≥ 1. Then we
+have
+                                       2,q
+                               ASK (̟±     ) = R+ (±f1 + fp+1 ).
+Applying Fact 4.1 (1) to the identity components (G0 , G′0 ) of groups (G, G′ ), we conclude
+                       p,q
+that the restriction ̟±    |K0′ is K0′ -admissible. Hence the restriction ̟ p,q |K ′ is also K ′ -
+admissible. Thus, (iii) ⇒ (i) in Theorem 4.2 is proved.
+   Now the proof of Theorem 4.2 is completed. 
+                                                               6
+                    §5. Minimal elliptic representations of O(p, q)
+
+5.1. In this section, we introduce a family of irreducible representations of G = O(p, q),
+             p,q    p,q
+denoted by π+,λ  , π−,λ , for λ ∈ A0 (p, q), in three different realizations. These representa-
+tions are supposed to be attached to minimal elliptic orbits, for λ > 0 in the sense of the
+Kirillov-Kostant orbit method. Here, we set
+                           
+                            {λ ∈ Z + p+q 2 : λ > −1}            (p > 1, q 6= 0),
+                           
+                           
+                            {λ ∈ Z + p+q : λ ≥ p − 1}           (p > 1, q = 0),
+(5.1.1)       A0 (p, q) :=                2       2
+                           
+                            ∅                                   (p = 1, q 6= 0) or (p = 0),
+                           
+                           
+                             {− 21 , 12 }                        (p = 1, q = 0).
+
+It seems natural to include the parameter λ = 0, − 21 in the definition of A0 (p, q) as above,
+although λ = − 12 is outside the weakly fair range parameter in the sense of Vogan [33].
+Cohomologically induced representations for λ = − 12 and λ = −1 will be discussed in
+details in a subsequent paper. In particular, the case λ = −1 is of importance in another
+geometric construction of the minimal representation via Dolbeault cohomology groups
+(see Part I, Introduction, Theorem B (4)).
+5.2. Let Rp,q be the Euclidean space Rp+q equipped with the flat pseudo-Riemannian
+metric:
+                  gRp,q = dv0 2 + · · · + dvp−1 2 − dvp 2 − · · · − dvn+1 2 .
+We define a hyperboloid by
+
+                         X(p, q) := {(x, y) ∈ Rp,q : |x|2 − |y|2 = 1}.
+
+We note X(p, 0) ≃ S p−1 and X(0, q) = ∅. If p = 1, then X(p, q) has two connected
+components. The group G acts transitively on X(p, q) with isotropy subgroup O(p − 1, q)
+at
+
+(5.2.1)                              xo := t(1, 0, · · · , 0).
+
+Thus X(p, q) is realized as a homogeneous manifold:
+
+                               X(p, q) ≃ O(p, q)/O(p − 1, q).
+
+We induce a pseudo-Riemannian metric gX(p,q) on X(p, q) from Rp,q (see [23], §3.2), and
+write ∆X(p,q) for the Laplace-Beltrami operator on X(p, q). As in [23], Example 2.2, the
+Yamabe operator is given by
+
+(5.2.2)                 e X(p,q) = ∆X(p,q) − 1 (p + q − 1)(p + q − 3).
+                        ∆
+                                             4
+For λ ∈ C, we set
+
+                                                                   1
+        Cλ∞ (X(p, q)) := {f ∈ C ∞ (X(p, q)) : ∆X(p,q) f = (−λ2 + (p + q − 2)2 )f }
+                                                                   4
+(5.2.3)               = {f ∈ C ∞ (X(p, q)) : ∆e X(p,q) f = (−λ2 + 1 )f }.
+                                                                  4
+                                                7
+Furthermore, for ǫ = ±, we write
+
+            Cλ∞ (X(p, q))ǫ := {f ∈ Cλ∞ (X(p, q)) : f (−z) = ǫf (z), z ∈ X(p, q)}.
+
+Then we have a direct sum decomposition
+
+(5.2.4)               Cλ∞ (X(p, q)) = Cλ∞ (X(p, q))+ + Cλ∞ (X(p, q))−
+
+and each space is invariant under left translations of the isometry group G because G com-
+mutes with ∆X(p,q) . With the notation in §3.5, we note if q = 0, then Cλ∞ (X(p, 0))sgn(−1)k
+is finite dimensional and isomorphic to the space of spherical harmonics:
+                                                                              p−2
+           Hk (Rp ) ≃ Cλ∞ (X(p, 0)) = Cλ∞ (X(p, 0))sgn(−1)k       (k := λ +       ).
+                                                                               2
+
+5.3. Let G = O(p, q) where p, q ≥ 1 and let θ be the Cartan involution corresponding to
+K = O(p) × O(q). We extend a Cartan subalgebra tc0 of k0 (given in §4.5) to that of g0 ,
+denoted by hc0 . If both p and q are odd, then dim hc0 = dim tc0 + 1; otherwise hc0 = tc0 . The
+complexification of hc0 is denoted by hc .
+    We can take a basis {fi : 1 ≤ i ≤ [ p+q        c ∗
+                                         2 ]} of (h ) (see §4.5; by a little abuse of notation
+if both p and q are odd) such that the root systems of g is given by
+                                                           p+q
+                   △(g, hc ) ={±(fi ± fj ) : 1 ≤ i < j ≤ [     ]}
+                                                           2         
+                                                   p+q
+                              ∪ {±fl : 1 ≤ l ≤ [        ]} (p + q:odd) .
+                                                     2
+
+   Let {Hi } ⊂ hc be the dual basis for {fi } ⊂ (hc )∗ . Set t := CH1 (⊂ tc ⊂ hc ). Then the
+centralizer L of t in G is isomorphic to SO(2) × O(p − 2, q). Let q = l + u be a θ-stable
+parabolic subalgebra of g with nilpotent radical u given by,
+                                                p+q
+             △(u, hc) := {f1 ± fj : 2 ≤ j ≤ [       ]} ∪ ({±f1 } (p + q:odd) ) ,
+                                                 2
+and with a Levi part l = l0 ⊗ C given by
+
+                              l0 ≡ Lie(L) ≃ o(2) + o(p − 2, q).
+
+Any character of the Lie algebra l0 (or any complex character of l) is determined by its
+restriction to hc0 . So, we shall write Cν for the character of the Lie algebra l0 whose
+restriction to hc is ν ∈ (hc )∗ . With this notation, the character of L acting on ∧dim u u is
+written as C2ρ(u) where
+
+                                               p+q
+(5.3.1)                            ρ(u) := (       − 1)f1 .
+                                                2
+   The homogeneous manifold G/L carries a G-invariant complex structure with canonical
+bundle ∧top T ∗ G/L ≃ G ×L C2ρ(u) . As an algebraic analogue of a Dolbeault cohomology
+of a G-equivariant holomorphic vector bundle over a complex manifold G/L, Zuckerman
+                                                               j
+introduced the cohomological parabolic induction Rjq ≡ Rgq (j ∈ N), which is a co-
+variant functor from the category of metaplectic (l, (L ∩ K)∼ )-modules to that of (g, K)-
+modules. Here, L e is a metaplectic covering of L defined by the character of L acting on
+                                                8
+∧dim u u ≃ C2ρ(u) . In this paper, we follow the normalization in [32], Definition 6.20 which
+is different from the one in [30] by a ‘ρ-shift’.
+   The character Cλf1 of l0 lifts to a metaplectic (l, (L ∩ K)∼ )-module if and only if
+λ ∈ Z + p+q2
+              . In particular, we can define (g, K)-modules Rjq (Cλf1 ) for λ ∈ A0 (p, q). The
+Z(g)-infinitesimal character of Rjq (Cλf1 ) is given by
+
+                         p+q      p+q              p+q    p+q
+                   (λ,       − 2,     − 3, . . . ,     −[     ]) ∈ (hc )∗
+                          2        2                2      2
+in the Harish-Chandra parametrization if it is non-zero. In the sense of Vogan [33], we
+have
+
+                                                          p+q
+                   Cλf1 is in the good range            ⇔ λ>   − 2,
+                                                             2
+                   Cλf1 is in the weakly fair range ⇔ λ ≥ 0.
+
+We note that Rjq (Cλf1 ) = 0 if j 6= p − 2 and if λ ∈ A0 (p, q). This follows from a general
+result in [31] for λ ≥ 0; and [14] for λ = − 12 .
+5.4.   For b ∈ Z, we define an algebraic direct sum of K = O(p) × O(q)-modules by
+                                                         M
+(5.4.1)        Ξ(K : b) ≡ Ξ(O(p) × O(q) : b) :=                    Hm (Rp ) ⊠ Hn (Rq ).
+                                                       m,n∈N
+                                                       m−n≥b
+                                                     m−n≡b mod 2
+
+
+For λ ∈ A0 (p, q), we put
+
+                                                    p q
+(5.4.2)                      b ≡ b(λ, p, q) := λ −      + + 1 ∈ Z,
+                                                    2 2
+(5.4.3)                       ǫ ≡ ǫ(λ, p, q) := (−1)b .
+
+  We define the line bundle Ln over G/L by the character nf1 of L (see §5.3).
+                                                                      p,q
+  Here is a summary for different realizations of the representation π+,λ :
+Fact 5.4. Let p, q ∈ N (p > 1).
+1) For any λ ∈ A0 (p, q), each of the following 5 conditions defines uniquely a (g, K)-
+                                                               p,q
+module, which are mutually isomorphic. We shall denote it by (π+,λ )K . The (g, K)-module
+   p,q
+(π+,λ )K is non-zero and irreducible.
+i) A subrepresentation of the degenerate principal representation IndG  P max (ǫ ⊗ Cλ ) (see
+§3.7) with K-type Ξ(K : b).
+i)′ A quotient of IndGP max (ǫ ⊗ C−λ ) with K-type Ξ(K : b).
+ii) A subrepresentation of Cλ∞ (X(p, q))K with K-type Ξ(K : b).
+iii) The underlying (g, K)-module of the Dolbeault cohomology group
+H∂p−2
+   ¯   (G/L, L(λ+ p+q−2 ) )K .
+                   2
+
+iii)′ The Zuckerman-Vogan derived functor module Rqp−2 (Cλf1 ).
+                                         p,q
+2) In the realization of (iii), if f ∈ (π+,λ )K , then there exists an analytic function a ∈
+   ∞   p−1    q−1
+C (S       ×S     ) such that
+
+            f (ω cosh t, η sinh t) = a(ω, η)e−(λ+ρ)t (1 + te−2t O(1))    as t → ∞
+                                               9
+Here, we put ρ = p+q−2
+                   2
+                       .
+   For details, we refer, for example, to [11] for (i) and (i)′ ; to [27] for (ii) and also for
+a relation with (i) (under some parity assumption on eigenspaces); to [15], §6 (see also
+[14]) for (iii)′ ⇔ (ii); and to [34] for (iii) ⇔ (iii)′ . The second statement follows from a
+general theory of the boundary value problem with regular singularities; or also follows
+from a classical asymptotic formula of hypergeometric functions (see (8.3.1)) in our specific
+setting.
+Remark. 1) By definition, (i) and (i)′ make sense for p > 1 and q > 0; and others for
+p > 1 and q ≥ 0.
+                                                                                      p,q
+2) Each of the realization (i), (i)′ , (ii), and (iii) also gives a globalization of π+,λ , namely,
+                                                                                              p,q
+a continuous representation of G on a topological vector space. Because all of (π+,λ              )K
+                                                                              p,q
+(λ ∈ A0 (p, q)) are unitarizable we may and do take the globalization π+,λ to be the unitary
+representation of G.
+                                                                       p,q
+3) If λ > 0 and λ ∈ A0 (p, q), then the realization (ii) of π+,λ            gives a discrete series
+representation for X(p, q). Conversely,
+                                    p,q
+                                  {π+,λ : λ ∈ A0 (p, q), λ > 0}
+
+exhausts the set of discrete series representations for X(p, q).
+  If (p, q) = (1, 0), then O(p, q) ≃ O(1) and it is convenient to define representations of
+O(1) by                                
+                                       1
+                                               (λ = − 21 ),
+                                 1,0
+                               π+,λ  =    sgn (λ = 21 ),
+                                       
+                                       
+                                          0      (otherwise).
+                   p,q
+  As we defined π+,λ   in Fact 5.4, we can also define an irreducible unitary representation,
+            p,q
+denoted by π−,λ , for λ ∈ A0 (q, p) such that the underlying (g, K)-module has the following
+K-type                              M
+                                                  Hm (Rp ) ⊠ Hn (Rq ).
+                                m,n∈N
+                            m−n≤−λ+ q2 − p 2 −1
+                          m−n≡−λ+ 2q − p
+                                       2 −1 mod 2
+
+                p,q                        p,q
+ Similarly to π+,λ  , the representations π−,λ are realized in function spaces on another
+ hyperboloid O(p, q)/O(p, q − 1).
+    In order to understand the notation here, we remark:
+     p,q
+ i) π−,λ    \
+         ∈ O(p,                                         q,p
+                 q) corresponds to the representation π+,λ     \
+                                                            ∈ O(q, p) if we identify O(p, q)
+    with O(q, p).
+     p,0
+ii) π+,λ ≃ Hk (Rp ), where k = λ − p−22 and p ≥ 1, k ∈ N.
+
+5.5. The case λ = ± 12 is delicate, which happens when p + q ∈ 2N + 1.
+                                                                               p,q
+   First, we assume p + q ∈ 2N + 1. By using the equivalent realizations of π+,λ   in Fact 5.4
+and by the classification of the composition series of the most degenerate principal series
+representation IndGP max (ǫ ⊗ Cλ ) (see [11]), we have non-splitting short exact sequences of
+(g, K)-modules:
+                                                  p−q+1
+                     p,q          G                                    p,q
+(5.5.1)         0 →(π−,− 1 )K →IndP max ((−1)
+                                                    2     ⊗ C− 21 ) →(π+, 1 )K → 0,
+                           2                                             2
+                                              p−q−1
+                     p,q          G                              p,q
+(5.5.2)         0 →(π+,− 1 )K →IndP max ((−1)
+                                                2   ⊗ C− 21 ) →(π−, 1 )K → 0.
+                         2                                          2
+                                                10
+          p,q
+Because π+,λ  (λ ∈ A0 (p, q)) is self-dual, the dual (g, K)-modules of (5.5.1) and (5.5.2) give
+the following non-splitting short exact sequences of (g, K)-modules:
+
+                                                                              p−q+1
+                         p,q         G                                                            p,q
+(5.5.3)             0 →(π+, 1 )K →IndP max ((−1)
+                                                                                2     ⊗ C 21 ) →(π−,− 1 )K → 0,
+                                  2                                                                               2
+                                                 p−q−1
+                         p,q         G                             p,q
+(5.5.4)             0 →(π−, 1 )K →IndP max ((−1)
+                                                   2   ⊗ C 12 ) →(π+,− 1 )K → 0.
+                            2                                          2
+
+
+   Next, we assume p + q ∈ 2N. Then, ̟ p,q is realized as a subrepresentation of some
+degenerate principal series (see [23], Lemma 3.7.2). More precisely, we have non-splitting
+short exact sequences of (g, K)-modules
+
+                    p,q                   p−q
+                                                              p,q        p,q     
+(5.5.5)        0 → ̟K   → IndGP max ((−1)
+                                           2  ⊗ C−1 ) → (π−,1     )K ⊕ (π+,1 )K → 0,
+                      p,q        p,q                      p−q
+                                                                             p,q
+(5.5.6)        0 → (π−,1  )K ⊕ (π+,1 )K → IndG P max ((−1)
+                                                            2   ⊗ C1 ) → ̟ K     → 0,
+
+and an isomorphism of (g, K)-modules:
+                                                         p−q+2
+                                                                              p,q        p,q
+(5.5.7)                       IndG
+                                 P max ((−1)
+                                                           2       ⊗ C0 ) ≃ (π−,0 )K ⊕ (π+,0 )K .
+
+These results will be used in another realization of the unipotent representation ̟ p,q ,
+namely, as a submodule of the Dolbeault cohomology group in a subsequent paper (cf.
+Part 1, Introduction, Theorem B (4)).
+
+                         §6. Conformal embedding of the hyperboloid
+   This section prepares the geometric setup which will be used in §7 and §9 for the
+branching problem of ̟ p,q |G′ . Throughout this section, we shall use the following notation:
+
+                                               ′                        ′′
+                                          p                        p
+                                          X                        X                                                   ′   ′′
+          |x|2 := |x′ |2 + |x′′ |2 =                   (x′i )2 +             (x′′j )2 , for x := (x′ , x′′ ) ∈ Rp +p = Rp ,
+                                          i=1                      j=1
+                                               ′                    ′′
+                                          q                        q
+                                          X                        X                                                   ′   ′′
+          |y|2 := |y ′ |2 + |y ′′ |2 =             (yi′ )2 +                 (yj′′ )2 , for y := (y ′ , y ′′ ) ∈ Rq +q = Rq .
+                                          i=1                      j=1
+
+
+
+6.1.   We define two open subsets of Rp+q by
+                ′   ′′   ′   ′′
+             p +p ,q +q                                                                              ′   ′′   ′   ′′
+            R+          := {(x, y) = ((x′ , x′′ ), (y ′ , y ′′ )) ∈ Rp +p ,q +q : |x′ | > |y ′ |},
+                ′   ′′   ′   ′′
+             p +p ,q +q                                                                              ′   ′′   ′   ′′
+            R−          := {(x, y) = ((x′ , x′′ ), (y ′ , y ′′ )) ∈ Rp +p ,q +q : |x′ | < |y ′ |}.
+                                      ′   ′′       ′     ′′         ′        ′′   ′   ′′
+                           p +p ,q +q      p +p ,q +q
+Then the disjoint union R+             ∪ R−           is open dense in Rp+q . Let us consider
+                      ′  ′′ ′   ′′
+                     p +p ,q +q
+the intersection of R±             with the submanifolds given in §3.2:
+
+                                                              M ⊂ Ξ ⊂ Rp,q .
+
+Then, we define two open subsets of M ≃ S p−1 × S q−1 by
+                                                                                  ′    ′′   ′   ′′
+                                                              p +p ,q +q
+(6.1.1)                                            M± := M ∩ R±          .
+                                                                             11
+Likewise, we define two open subsets of the cone Ξ by
+                                                                    ′   ′′   ′    ′′
+                                                          p +p ,q +q
+(6.1.2)                                        Ξ± := Ξ ∩ R±          .
+     We notice that if (x, y) = ((x′ , x′′ ), (y ′ , y ′′ )) ∈ Ξ then
+                                             |x′ | > |y ′ | ⇐⇒ |x′′ | < |y ′′ |
+because |x′ |2 + |x′′ |2 = |y ′ |2 + |y ′′ |2 . The following statement is immediate from definition:
+(6.1.3)                               Ξ+ = ∅ ⇔ M+ = ∅ ⇔                          p′ q ′′ = 0.
+(6.1.4)                               Ξ− = ∅ ⇔ M− = ∅ ⇔                          p′′ q ′ = 0.
+
+
+6.2.     We embed the direct product of hyperboloids
+         X(p′ , q ′ ) × X(q ′′ , p′′ ) = {((x′ , y ′ ), (y ′′ , x′′ )) : |x′ |2 − |y ′ |2 = |y ′′ |2 − |x′′ |2 = 1}.
+into Ξ+ (⊂ Rp,q ) by the map
+(6.2.1)               X(p′ , q ′ ) × X(q ′′ , p′′ ) ֒→ Ξ+ , ((x′ , y ′ ), (y ′′ , x′′ )) 7→ (x′ , x′′ , y ′ , y ′′ ).
+The image is transversal to rays (see [23], §3.3 for definition) and the induced pseudo-
+Riemannian metric gX(p′ ,q ′ )×X(q ′′ ,p′′ ) on X(p′ , q ′ ) × X(q ′′ , p′′ ) has signature (p′ − 1, q ′ ) +
+(p′′ , q ′′ − 1) = (p − 1, q − 1). With the notation in §5.2, we have
+                                gX(p′ ,q ′ )×X(q ′′ ,p′′ ) = gX(p′ ,q ′ ) ⊕ (−gX(q ′′ ,p′′ ) ).
+We note that if p′′ = q ′ = 0, then X(p′ , q ′ ) × X(q ′′ , p′′ ) is diffeomorphic to S p−1 × S q−1 ,
+and gX(p′ ,0)×X(q ′′ ,0) is nothing but the pseudo-Riemannian metric gS p−1 ×S q−1 of signature
+(p − 1, q − 1) (see [23], §3.3).
+   By the same computation as in (3.4.1), we have the relationship among the Yamabe
+operators on hyperboloids (see also (5.2.2)) by
+(6.2.2)                      e X(p′ ,q ′ )×X(q ′′ ,p′′ ) = ∆
+                             ∆                             e X(p′ ,q ′ ) − ∆
+                                                                           e X(q ′ ,p′′ ) .
+   We denote by Φ1 the composition of (6.2.1) and the projection Φ : Ξ → M (see [23],
+(3.2.4)), namely,
+                                                                                        ′ ′′                     
+                    ′ ′                ′′ ′′                ′ ′       ′′  ′′               (x , x ) (y ′ , y ′′ )
+(6.2.3)     Φ1 : X(p , q ) × X(q , p ) ֒→ M, ((x , y ), (y , x )) 7→                               ,                .
+                                                                                             |x|       |y|
+Lemma 6.2. 1) The map Φ1 : X(p′ , q ′ ) × X(q ′′ , p′′ ) → M is a diffeomorphism onto M+ .
+The inverse map Φ−1                             ′ ′         ′′ ′′
+                    1 : M+ → X(p , q ) × X(q , p ) is given by the formula:
+                                                                                               !
+                                                         ′ ′                   ′′     ′′
+                                                     (u   , v )            (v     , u    )
+(6.2.4)           ((u′ , u′′ ), (v ′ , v ′′ )) 7→ p                  ,p                          .
+                                                    |u′ |2 − |v ′ |2     |v ′′ |2 − |u′′ |2
+2)    Φ1 is a conformal map with conformal factor |x|−1 = |y|−1 , where x = (x′ , x′′ ) ∈
+       ′  ′′                           ′  ′′
+     Rp +p and y = (y ′ , y ′′ ) ∈ Rq +q . Namely, we have
+                                                        1
+                                Φ∗1 (gS p−1 ×S q−1 ) =      gX(p′ ,q ′ )×X(q ′′ ,p′′ ) .
+                                                       |x|2
+Proof. The first statement is straightforward in light of the formula
+                                         |u′ |2 − |v ′ |2 = |v ′′ |2 − |u′′ |2 > 0
+for (u, v) = ((u′ , u′′ ), (v ′ , v ′′ )) ∈ M+ ⊂ S p−1 × S q−1 .
+The second statement is a special case of Lemma 3.3. 
+                                                                          ∼
+6.3. Now, the conformal diffeomorphism Φ1 : X(p′ , q ′ ) × X(q ′′ , p′′ ) → M+ establishes a
+bijection of the kernels of the Yamabe operators owing to Proposition 2.6:
+                                                               12
+           f∗ gives a bijection from Ker ∆
+Lemma 6.3. Φ                             e M onto Ker ∆
+                                                      e X(p′ ,q ′ )×X(q ′′ ,p′′ ) .
+             1                              +
+
+
+                                        ^
+                                f∗ and (Φ
+   Here, the twisted pull-backs Φ         −1 ∗
+                                  1       1 ) (see Definition 2.3), namely,
+
+
+(6.3.1)         f∗
+                Φ        :                   C ∞ (M+ )                  → C ∞ (X(p′ , q ′ ) × X(q ′′ , p′′ )),
+                  1
+
+                ^ −1 ∗   ∞    ′ ′         ′′ ′′
+                                                                                                C ∞ (M+ ),
+(6.3.2)        (Φ 1 ) : C (X(p , q ) × X(q , p )) →
+
+are given by the formulae
+                                                                                                                                  !
+        f∗ F )(x′ , y ′ , y ′′ , x′′ ) := (|x′ |2 + |x′′ |2 )   − p+q−4
+                                                                                            ′
+                                                                                     (x , x )     ′′
+                                                                                                                  (y ′ , y ′′ )
+       (Φ 1
+                                                                    4      F    p                   ,p                      ,
+                                                                                   |x′ |2 + |x′′ |2    |y ′ |2 + |y ′′ |2
+                                                                                                                        !
+    ^ −1 ∗     ′   ′′ ′ ′′          ′ 2    ′ 2 −                  p+q−4            (u′ , v ′ )        (u′′ , v ′′ )
+  ((Φ 1 ) f )(u , u , v , v ) := (|u | − |v | )
+                                                                    4     f     p                  ,p                     ,
+                                                                                  |u′ |2 − |v ′ |2   |v ′′ |2 − |u′′ |2
+
+                              ^
+respectively. We remark that (Φ −1 ∗    f∗ −1 .
+                                1 ) = ( Φ1 )
+
+6.4.   Similarly to §6.2, we consider another embedding
+
+(6.4.1)             X(q ′ , p′ ) × X(p′′ , q ′′ ) ֒→ Ξ− ,            ((y ′ , x′ ), (x′′ , y ′′ )) 7→ (x′ , x′′ , y ′ , y ′′ ).
+
+The composition of (6.4.1) and the projection Φ : Ξ → M is denoted by
+                                                                   ′ ′′                  
+                  ′ ′        ′′ ′′            ′   ′    ′′ ′′       (x , x ) (y ′ , y ′′ )
+(6.4.2)  Φ2 : X(q , p ) × X(p , q ) ֒→ M, ((y , x ), (x , y )) 7→          ,                .
+                                                                     |x|       |y|
+
+Obviously, results analogous to Lemma 6.2 and Lemma 6.3 hold for Φ2 . For example, here
+is a lemma parallel to Lemma 6.2:
+Lemma 6.4. The map Φ2 : X(q ′ , p′ ) × X(p′′ , q ′′ ) → M− is a conformal diffeomorphism
+onto M− . The inverse map Φ−1                            ′ ′         ′′ ′′
+                                     2 : M− → X(q , p ) × X(p , q ) is given by
+                                                                                        !
+                                                        ′     ′           ′′ ′′
+                                                   (v     , u   )      (u   , v )
+                ((u′ , u′′ ), (v ′ , v ′′ )) 7→ p                  ,p                     .
+                                                  |v ′ |2 − |u′ |2   |u′′ |2 − |v ′′ |2
+
+
+          §7. Explicit branching formula (discrete decomposable case)
+   If one of p′ , q ′ , p′′ or q ′′ is zero, then the restriction ̟ p,q |G′ is decomposed discretely
+into irreducible representations of G′ = O(p′ , q ′ ) × O(p′′ , q ′′ ) as we saw in §4. In this case,
+we can determine the branching laws of ̟ p,q |G′ as follows:
+Theorem 7.1. Let p + q ∈ 2N. If q ′′ ≥ 1 and q ′ + q ′′ = q, then we have an irreducible
+decomposition of the unitary representation ̟ p,q when restricted to O(p, q ′ ) × O(q ′′ ):
+
+                                                             ∞
+                                                             X ⊕ p,q ′                           ′′
+                             ̟   p,q
+                                       |O(p,q ′ )×O(q ′′ ) ≃    π      q ′′           ⊠ π 0,q          ′′
+                                                                      +,l+ 2 −1             −,l+ q2 −1
+                                                            l=0
+                                                             ∞
+                                                            X⊕ p,q ′                                   ′′
+(7.1.1)                                                 ≃     π      q ′′             ⊠ Hl (Rq ).
+                                                                      +,l+ 2 −1
+                                                            l=0
+                                                                13
+   We shall prove Theorem 7.1 in §7.5 after we prepare an algebraic lemma in §7.3 and a
+geometric lemma in §7.4.
+Remark. The formula in Theorem 7.1 is nothing but a K-type formula (see Theorem 3.6.1)
+when q ′ = 0.
+7.2. The branching law (7.1.1) is an infinite direct sum for q ′′ > 1. This subsection treats
+the case q ′′ = 1, which is particularly interesting, because the branching formula consists
+of only two irreducible representations (we recall Hl (R1 ) 6= 0 if and only if l = 0, 1). For
+simplicity, we shall assume q ≥ 3 in §7.2.
+   It follows from Theorem 7.1 with q ′ = 1 that
+                                                                            
+                                        p,q−1     0,1           p,q−1     0,1
+                ̟ p,q |O(p,q−1)×O(1) ≃ π+,− 1 ⊠ π     1
+                                                  −,− 2
+                                                         ⊕    π    1
+                                                                +, 2
+                                                                      ⊠ π    1
+                                                                          −, 2
+                                            2
+                                                                   
+                                        p,q−1            p,q−1
+(7.2.1)                              ≃ π+,− 1 ⊠ 1   ⊕ π+,   1    ⊠ sgn .
+                                                   2                2
+
+
+                   p,q
+This means that ̟K     can be realized in a subspace of C ∞
+                                                          1 (X(p, q − 1)), namely, the kernel
+                                                          2
+
+of the Yamabe operator ∆  e X(p,q−1) (see (5.2.3)).
+   More precisely, according to the direct sum decomposition (see (5.2.4)), we have
+
+(7.2.2)       e X(p,q−1) ≡ C ∞
+          Ker ∆                                  ∞                    ∞
+                             1 (X(p, q − 1)) = C 1 (X(p, q − 1))+ + C 1 (X(p, q − 1))− .
+                              2                          2                     2
+
+
+
+We recall that the central element −Ip+q ∈ G acts on ̟ p,q with scalar δ, where
+
+                                                         p−q
+(7.2.3)                                        δ := (−1) 2 .
+
+   In view of the composition series of eigenspaces on the hyperboloid (see [27] for the
+case δ = +; similar for δ = −), we have non-splitting exact sequences of Harish-Chandra
+modules of O(p, q − 1):
+                                                              
+                     p,q−1                 ∞                           p,q−1
+(7.2.4)         0 →(π+,− 1 )K →           C 1 (X(p, q − 1))δ        →(π−, 1  )K → 0,
+                                                               K
+                         2                 2                              2
+                                  
+                     p,q−1                ∞                    p,q−1
+(7.2.5)         0 →(π+, 1  )K →       C 1 (X(p, q − 1))−δ   →(π−,− 1 )K → 0,
+                        2               2                 K        2
+
+
+
+  Here is a realization of ̟ p,q in a subspace of the kernel of the Yamabe operator on the
+hyperboloid X(p, q − 1), on which O(p, q) acts as meromorphic conformal transformations.
+Corollary 7.2.1. Let W± be the unique non-trivial subrepresentation of O(p, q − 1) in
+     e X(p,q−1) )± ≡ C ∞
+(Ker ∆                 1 (X(p, q − 1))± . Each of the underlying (g, K)-module is infinites-
+                       2
+imally unitarizable, and we denote the resulting unitary representation by W ± . Then, the
+irreducible unitary representation ̟ p,q of O(p, q) is realized on the direct sum W+ + W− .
+                                                                                       p−q
+   We note that W−δ ⊂ L2 (X(p, q − 1)) and Wδ 6⊂ L2 (X(p, q − 1)) where δ = (−1) 2 .
+                                                                                     p,q−1
+   It is interesting to note that the Laplacian ∆X(p,q−1) acts on a discrete series π+,λ   for
+                                             2   1           2
+the hyperboloid X(p, q − 1) as a scalar −λ + 4 (p + q − 3) , which attains the maximum
+when λ = 21 if p + (q − 1) ∈ 2N + 1.
+   Taking the direct sum of two exact sequences (7.2.4) and (7.2.5), we have the following:
+                                                    14
+Theorem 7.2.2. There is a non-split exact sequence of Harish-Chandra modules for O(p−
+1, q).
+(7.2.6)                                e X(p,q−1) )K → (̟ p+1,q−1)K → 0.
+                  0 → (̟ p,q )K → (Ker ∆
+  It is a mysterious phenomenon in (7.2.6) that ̟ p,q extends to a representation of O(p, q)
+and (̟ p+1,q−1)K to that of O(p + 1, q − 1). So, different real forms of O(p + q, C) act
+on subquotients of the kernel of the Yamabe operator on the hyperboloid X(p, q − 1) =
+O(p, q − 1)/O(p − 1, q − 1) !
+  Here, we remark that Ker ∆    e X(p,q−1) ∩ L2 (X(p, q − 1)) 6= {0} if and only if p + q ∈ 2Z,
+by the classification of discrete series for the hyperboloid X(p, q − 1) for p > 1.
+7.3. By Theorem 4.2, the restriction ̟ p,q |K ′ is K ′ -admissible, where K ′ ≃ O(p)×O(q ′ )×
+O(q ′′ ). Let us first find the K ′ -structure of ̟ p,q . We recall a classical branching law with
+respect to (O(q), O(q ′ ) × O(q ′′ )) (q = q ′ + q ′′ , q ′ ≥ 1, q ′′ ≥ 1):
+                                            M                ′            ′′
+(7.3.1)                        Hn (Rq ) ≃         Hk (Rq ) ⊠ Hl (Rq ).
+                                             k,l∈N
+                                            k+l≤n
+                                            k+l≡n
+
+Then we have isomorphisms as K ′ -modules:
+                  M
+                          Hm (Rp ) ⊠ Hn (Rq )|O(p)×O(q ′ )×O(q ′′ )
+                   m,n∈N
+                   m−n=b
+                 m−n≡b mod 2
+                           M             M                            ′         ′′
+                 ≃                                   Hm (Rp ) ⊠ Hk (Rq ) ⊠ Hl (Rq )
+                       m,n∈N        k,l∈N
+                       m−n=b        k+l≤n
+                     m−n≡b mod 2 k+l≡n mod 2
+                     M          M                               ′         ′′
+                 ≃                          Hm (Rp ) ⊠ Hk (Rq ) ⊠ Hl (Rq )
+                     l∈N      m,k∈N
+                             m−b≥k+l
+                           m−b≡k+l mod 2
+                     M                                         ′′
+                 ≃         Ξ(O(p) × O(q ′ ) : b + l) ⊠ Hl (Rq )
+                     l∈N
+
+In view of Theorem 3.6.1, we have proved:
+Lemma 7.3. We have an isomorphism of K ′ -modules:
+                 p,q
+                       M                     q−p              ′′
+(7.3.2)        ̟K    ≃    Ξ(O(p) × O(q ′ ) :     + l) ⊠ Hl (Rq )
+                                              2
+                                l∈N
+
+                                                                       p,q
+7.4. By Theorem 4.2 and [17], Lemma 1.3, the underlying (g, K)-module ̟K   is decom-
+                                                    ′    ′
+posed into an algebraic direct sum of irreducible (g , K )-modules:
+                            p,q
+                                  M           M
+(7.4.1)                   ̟K    ≃     mτ τ ≃      mτ1 ,τ2 τ1 ⊠ τ2 ,
+                                        τ             τ1 ,τ2
+
+where mτ ∈ N and τ runs over irreducible (g′ , K ′ )-modules or equivalently, τ1 runs over
+irreducible (g′1 , K1′ )-modules (with obvious notation for G′1 := O(p, q ′ )) and τ2 runs over ir-
+reducible O(q ′′ )-modules. It follows from Lemma 7.3 that for each l there exists a (g′1 , K1′ )-
+module Wl which is a direct sum of irreducible (g′1 , K1′ )-module such that Wl is isomorphic
+to Ξ(O(p) × O(q ′ ) : q−p             ′
+                          2 + l) as K1 -modules. Let us prove that Wl is in fact irreducible as
+    ′    ′
+a (g1 , K1 )-module.
+                                                     15
+                                                                                                 ′′
+Lemma 7.4. Wl is realized in a subspace of Cλ∞ (X(p, q ′ )) with λ = l + q2 − 1.
+Proof. In our conformal construction of ̟ p,q in §3, we recall that each K-finite vector of
+̟ p,q is an analytic function satisfying the Yamabe equation on M ≃ S p−1 × S q−1 . By
+                                                        ′′
+using the conformal diffeomorphism Φ1 : X(p, q ′ ) × S q −1 → M+ , an open dense subset of
+                                                          ′′
+M (see (6.1.4) with p′′ = 0), we can realize Wl × Hl (Rq ) in the space of smooth functions
+                   ′′
+on X(p, q ′ ) × S q −1 satisfying the Yamabe equation by the following diagram:
+                                                                             ∼                           ′′
+                        A(M )        ⊂ C ∞ (M )            ֒→      C ∞ (M+ ) →  C ∞ (X(p, q ′ ) × S q −1 )
+                                   dense               restriction            ∗  Φ1
+
+                            ∪                  ∪                           ∪             ∪
+                   ′′  p,q
+      Wl ⊠ Hl (Rq ) ⊂ ̟K         eM
+                           ⊂ Ker ∆                         ֒→              eM →
+                                                                       Ker ∆   ∼      e
+                                                                                  Ker ∆ X(p,q ′ )×S q −1 .
+                                                                                                     ′′
+                                                                             +
+                                   dense               restriction              ∗Φ1
+
+         e                     e             e ′′                                l  q ′′
+Because ∆  X(p,q ′ )×S q −1 = ∆X(p′ ,q ′ ) − ∆S q −1 (see (6.2.2)) acts on Wl ⊠ H (R ) as 0, and
+                         ′′
+                                                                ′′
+because ∆e q′′ −1 acts on Hl (Rq ′′ ) as a scalar 1 − (l + q − 1)2 (see (3.5.1)), we conclude
+           S                                         4         2
+     e X(p′ ,q ′ ) acts on Wl as the same scalar. Hence, Lemma is proved. 
+that ∆
+
+7.5. Let us complete the proof of Theorem 7.1. It follows from Lemma 7.4 together with
+                                                                                ′
+the K1′ -structure of Wl in §7.3 that Wl is irreducible and isomorphic to (π p,q q′′ −2 )K1′ as
+                                                                                                  +,l+    2
+(g′1 , K1′ )-module (see Fact 5.4). Therefore, we have an isomorphism of (g′ , K ′ )-modules
+                          ∞
+                          M              ′                        ′′
+                p,q
+               ̟K   ≃           (π p,q  ′′     )K1′ ⊠ Hl (Rq ) (algebraic direct sum).
+                                  +,l+ q2 −1
+                          l=0
+
+Taking the closure in the Hilbert space, we have (7.1.1). Hence Theorem 7.1 is proved.                        
+7.6. So far, we have not used the irreducibility of ̟ p,q in the branching law. Although
+the irreducibility of ̟ p,q (p, q) 6= (2, 2) is known [2], we can give a new and simple proof
+for it, as an application of the branching formulae in Theorem 7.1.
+Theorem 7.6. Let p, q ≥ 2, p + q ∈ 2Z and (p, q) 6= (2, 2). Then, ̟ p,q is an irreducible
+representation of O(p, q).
+Proof. Suppose W 6= {0} is a closed invariant subspace of the unitary representation
+(̟ p,q , V p,q ). We want to prove W = V p,q .
+  Without loss of generality (p and q play a symmetric role), we may assume q ≥ 3,
+                                                                     ∞
+                                                                     P ⊕
+and fix q ′ ≥ 1, q ′′ ≥ 2 such that q ′ + q ′′ = q. We write V p,q =     Vl according to the
+                                                                                        l=0
+irreducible decomposition (7.1.1) of G′ = G′1 × G′2 := O(p, q ′ ) × O(q ′′ ).
+   Because W is non-zero, W contains a K-type of the form Ha (Rp ) ⊠ Hb (Rq ), which
+we fix once for all. In view of the branching formula (7.3.1), Hb (Rq ) contains a non-zero
+O(q ′′ )-fixed vector. That is,
+                                         G′        ′                               G′
+                        V0 := V p,q 2 ⊃ W G2 ⊃ Ha (Rp ) ⊠ Hb (Rq ) 2 6= {0}
+                                                       ′
+Because G′1 = O(p, q ′ ) acts on V0 by π p,qq′′                 (see Theorem 7.1) which is irreducible, and
+                                                   +, 2 −1
+                  G′2                                                                                     ′
+because V0 ⊃ W          is stable under the action of G′1 , we conclude that V0 = W G2 . Hence,
+we have proved
+(7.6.1)                                                W ⊃ V0 .
+                                                           16
+   If W 6= V p,q , the orthogonal complement W ⊥ ⊃ V0 by the same argument. This would
+contradict to W ∩ W ⊥ = {0}. Therefore, W must coincides with V p,q . Hence, ̟ p,q is
+irreducible. 
+
+         §8. Inner product on ̟ p,q and the Parseval-Plancherel formula
+   In this section, we prove the Parseval-Plancherel type formula for our discrete decom-
+posable branching law given in Theorem 7.1. Our main result in this section is Theorem
+8.5.
+8.1. The subsections §8.1 ∼ §8.3 review some results and notation from [21] without
+proof. We set
+
+              A+ (p, q) := A0 (p, q) ∩ {λ ∈ R : λ > 0},
+               Λ+− (λ) := {(λ′ , λ′′ ) ∈ A+ (p′ , q ′ ) × A+ (q ′′ , p′′ ) : λ′ − λ′′ − λ − 1 ∈ 2N},
+               Λ++ (λ) := {(λ′ , λ′′ ) ∈ A+ (p′ , q ′ ) × A+ (p′′ , q ′′ ) : λ − λ′ − λ′′ − 1 ∈ 2N}.
+
+We recall the Jacobi function
+                                  ′                                               
+          (λ′′ ,λ′ )              λ + λ′′ + 1 − λ λ′ + λ′′ + 1 + λ ′′            2
+        ϕiλ          (t) := 2 F1                 ,                ; λ + 1; − sinh t ,
+                                         2                2
+
+which satisfies
+                                                   (λ′′ ,λ′ )
+                                                  ϕiλ  (0) = 1,
+                                                                  
+                                       d2                     d
+                               t(1 − t) 2 + (c − (a + b + 1)t) − ab ϕiλ (t) = 0
+                                       dt                     dt
+with
+                 λ′ + λ′′ + 1 − λ         λ′ + λ′′ + 1 + λ
+                      a :=        , b :=                   , c := λ′′ + 1.
+                         2                        2
+We set meromorphic functions of three variables λ, λ′ and λ′′ by
+                                                          ′   ′′            ′   ′′
+                          (λ′ ,λ′′ ) (Γ(λ′′ + 1))2 Γ( λ −λ 2+λ+1 ) Γ( λ −λ 2−λ+1 )
+                         V+−,λ :=                                                     ,
+                                          2λ Γ( λ +λ 2+λ+1 ) Γ( λ +λ 2−λ+1 )
+                                                  ′   ′′            ′   ′′
+
+
+                                                            ′    ′′           ′    ′′
+                          (λ′ ,λ′′ ) (Γ(λ′′ + 1))2 Γ( −λ −λ2 +λ+1 ) Γ( λ −λ 2+λ+1 )
+                         V++,λ :=                                                       .
+                                          2λ Γ( −λ +λ2 +λ+1 ) Γ( λ +λ 2+λ+1 )
+                                                    ′    ′′           ′    ′′
+
+
+
+
+Then we have
+   Z ∞
+          (λ′′ ,λ′ )                 ′             ′′        (λ′ ,λ′′ )
+        |ϕiλ         (t)|2 (cosh t)2λ +1 (sinh t)2λ +1 dt = V+−,λ                        for (λ′ , λ′′ ) ∈ Λ+− (λ),
+        0
+       Z π2
+                (λ′′ ,λ′ )                  ′            ′′               (λ′ ,λ′′ )
+              |ϕiλ           (iθ)|2 (cos θ)2λ +1 (sin θ)2λ +1 dθ = V++,λ                 for (λ′ , λ′′ ) ∈ Λ++ (λ).
+        0
+
+
+8.2.     We put
+                                                                               ′    ′′
+
+                                       ′   ′′           λ′ −λ′′ −λ−1   Γ( λ +λ 2−λ+1 )Γ(λ + 1)
+(8.2.1)              M ≡ M (λ, λ , λ ) := (−1)                2                                       .
+                                                                       Γ( λ −λ 2+λ+1 )Γ(λ′′ + 1)
+                                                                           ′       ′′
+
+
+
+
+                                                              17
+Lemma 8.2 (triangular relation of the Jacobi function). If cot θ = cosh t (0 < θ < π2 , 0 <
+t), then
+                     (λ,λ′′ )                   ′  ′′   (λ′′ ,λ′ )
+                   ϕiλ′ (iθ) = M (cosh t)λ+λ +λ +1 ϕiλ             (t).
+   Furthermore, we have
+
+                                        (λ′′ ,λ)             (λ′ ,λ′′ )
+(8.2.2)                             λ′ V++,λ′ = M 2 λV+−,λ .
+
+                          p,q
+8.3. Unitarizaition of π+,λ   (λ ∈ A0 (p, q)).
+                                                                      p,q
+   In this subsection, we give an explicit unitary inner product on π+,λ  for λ ∈ A0 (p, q).
+                                           p,q                  ∞
+In view of Fact 5.4, the (g, K)-module (π+,λ )K is realized in Cλ (X(p, q))K with K-types
+Ξ(K : b) where b = λ − p2 + 2q + 1. Suppose f ∈ Cλ∞ (X(p, q))K belongs to the K-type
+Hm (Rp ) ⊠ Hn (Rq ) ∈ Ξ(K : b). Then f is of the form
+
+                                                                                 (n+ q2 −1,m+ p
+                                                                                              2 −1)
+(8.3.1)      f (ω cosh t, η sinh t) = hm (ω)hn (η)(cosh t)m (sinh t)n ϕiλ                             (t),
+
+where hm ∈ Hm (Rp ), hn ∈ Hn (Rq ), ω ∈ S p−1 , η ∈ S q−1 , and t > 0. We put
+
+                                                                          (m+ p−2 ,n+ q−2
+                                                                                       2 )
+(8.3.2)          kf k2π p,q := khm k2L2 (S p−1 ) khn k2L2 (S q−1 ) λV+−,λ 2                  .
+                      +,λ
+
+
+                                             p,q
+This norm defines an inner product on (π+,λ      )K (λ ∈ A0 (p, q)) and one defines an ir-
+reducible unitary representation of G = O(p, q) on its Hilbert completion. There is an
+                                               p,q
+obvious inner product for λ > 0, because (π+,λ     )K ⊂ L2 (X(p, q)). The relation between
+              p,q and L2 -norm k k 2
+our norm k kπ+,λ                  L (X(p,q)) is given by
+
+                                                                      p,q
+(8.3.3)              kf k2π p,q = λkf k2L2 (X(p,q)) ,   for any f ∈ (π+,λ )K ,
+                            +,λ
+
+
+                                                                                     p,q
+if λ > 0. For λ ∈ A0 (p, q) such that λ ≤ 0 (this can happen if λ = 0, − 21 ), π+,λ      is also
+unitarizable by this inner product ( , )π+,λ given in (8.3.2), which is still positive definite.
+                                         p,q
+
+
+                                                     p,q
+Remark 8.3 (Unitarity). As we explained, all of (π+,λ    )K are unitarizable for λ ∈ A0 (p, q).
+We explain four different approaches:
+                     p,q
+1) If λ > 0, then (π+,λ  )K is unitarizable because of the realization in L2 (X(p, q)).
+                     p,q
+2) If λ ≥ 0, then (π+,λ  )K is unitarizable because of the realization of Zuckerman-Vogan’s
+   derived functor module Rqp−2 (Cλ ) with the parameter λ in the weakly fair range [31].
+   We note that the case λ = − 21 is not treated in the above two methods. However,
+3) Use the classification of unitarizable subquotients of IndGP max (ǫ ⊗ Cλ ) given in [11], §3.
+                                                             p,q
+   At last, here is a new proof of the unitarizability of (π+,λ )K for all λ ∈ A0 (p, q). The
+idea is to use our branching formula Theorem 7.1, for which the proof does not use the
+                     p,q
+unitarizability of (π+,λ )K :
+            p,q
+4) All of (π+,λ )K are unitarizable because they appear as discrete spectra in the branching
+   law of a unitary representation ̟ p,q+c of a larger group O(p, q + c) to O(p, q) × O(c)
+   for some c > 0 (see Theorem 7.1). For this purpose, c ≤ 3 will do.
+                                                        ′′
+8.4. We notice that the map Φ1 : X(p, q ′ ) × S q −1 → M+ (6.2.3) (in the case p′′ = 0) is
+given by
+                  ((ω cosh t, η ′ sinh t), η ′′ ) 7→ (ω, (η ′ cos θ, η ′′ sin θ)),
+                                                   18
+                                                                                                        ′′
+where θ and t satisfy cot θ = cosh t. Suppose f ∈ C ∞ (X(p, q ′ ) × S q −1 ) belongs to
+                                                  ′                                 ′′
+                                          π p,q    ′′             ⊠ Hl (Rq )
+                                             +,l+ q2 −1
+
+                                                                                                        ′
+as an O(p′ ) × O(q ′′ )-module, and furthermore to Hm (Rp ) ⊠ Hn (Rq ) as an O(p) × O(q ′ )-
+module in the first factor. Then f is of the form:
+                                                                                                                           ′
+                                                                                                             (k+ q2 −1,m+ p
+                                                                                                                          2 −1)
+  f ((ω cosh t, η ′ sinh t), η ′′ ) = hm (ω) hk (η ′ ) hl (η ′′ )(cosh t)m (sinh t)k ϕ                                     ′′             (t)
+                                                                                                             i(l+ q2 −1)
+
+                                         ′                               ′′                                  ′                      ′′
+where hm ∈ Hm (Rp ), hk ∈ Hk (Rq ), hl ∈ Hl (Rq ), ω ∈ S p−1 , η ′ ∈ S q −1 , η ′′ ∈ S q −1 , and
+t > 0.
+                                          ^−1 ∗   ∞       ′      q ′′ −1
+                                                                         ) → C ∞ (M+ ) (see
+Lemma 8.4. The twisted pull-back (Φ        1 ) : C (X(p, q ) × S
+(6.3.2) for definition) is given by the formula:
+
+          ^
+(8.4.1) ((Φ −1 ∗         ′        ′′
+            1 ) f )(ω, (η cos θ, η sin θ))
+                                                                                                                      ′′        ′
+                                                                                                        (l+ q −1,k+ q2 −1)
+                         = M −1 hm (ω) hk (η ′ ) hl (η ′′ ) (cos θ)k (sin θ)l ϕi(n+2q −1)                                                (iθ).
+                                                                                                                      2
+
+
+
+
+Proof. In view of the definition, we have
+
+            ^
+          ((Φ −1 ∗         ′        ′′                                        p+q−4
+                                                                                         f ((ω cosh t, η ′ sinh t), η ′′ ).
+              1 ) f )(ω, (η cos θ, η sin θ)) = (cosh t)
+                                                                                2
+
+
+
+
+Then (8.4.1) follows from Lemma 8.2 and from m + p2 = n + 2q . 
+
+8.5. Let G′ = O(p, q ′ )×O(q ′′ ). We define an inner product on the irreducible constituent
+ p,q ′    0,q ′′                                                                    ′′
+π+,λ   ⊠ π−,λ    in the branching law ̟ p,q |G′ (see Theorem 7.1) for each λ = l + q2 − 1 (l ∈ N)
+by
+                                  kf k := kf1 kπ p,q′ kf2 kL2 (S q′′ −1 )
+                                                            +,λ
+
+                                  ′                         ′′
+                          p,q           0,q                                        ′′
+for f = f1 f2 with f1 ∈ π+,λ  and f2 ∈ π−,λ ≃ Hl (Rq ).
+   Because we use an explicit map to prove the branching law, the generalized Parseval-
+Plancherel formula makes sense.
+                                                        P∞ (1) (2)
+Theorem 8.5. 1) If we develop F ∈ Ker ∆     e M as F =
+                                                           l Fl Fl    according to the
+irreducible decomposition
+
+                                                                   ∞
+                                                                   X ⊕ p,q ′
+(8.5.1)              ^
+                     (Φ   ∗
+                        1) : ̟
+                               p,q                     ∼
+                                   |O(p,q ′ )×O(q ′′ ) →              π                         ⊠ Hl (Rq )
+                                                                                                                 ′′
+                                                                             q ′′
+                                                                                  +,l+ 2 −1
+                                                                   l=0
+
+
+then we have
+                                       ∞
+                                       X              (1)                                (2)
+(8.5.2)                  kF k2̟p,q =         kFl k2 p,q′                          k Fl k2L2 (S q′′ −1 ) .
+                                                            π           q ′′
+                                       l=0                       +,l+
+                                                                         2
+                                                                             −1
+
+                                                                 19
+                                                                        ′
+2) In particular, if q ′′ ≥ 3, then all of π p,q                             ′′      are discrete series for the hyperboloid
+                                                                  +,l+ q2 −1
+X(p, q ′ ) and
+                                        ∞
+                                        X            q ′′         (1)                   (2)
+(8.5.3)           kF k2̟p,q =                 (l +        − 1) kFl k2L2 (X(p,q ′ )) k Fl k2L2 (S q′′ −1 ) .
+                                                      2
+                                        l=0
+
+
+Remark. The formula (8.5.3) coincides with the Kostant-Binegar-Zierau formula (see §3)
+in the special case where q ′ = 0 (namely, where G′ is compact).
+                                         ′′                                                                                      ′
+Proof. We write λ := l + q2 − 1, λ′ := m + p2 − 1 = n + q2 − 1 and λ′′ := k + q2 − 1. If F
+is of the form of the right side of (8.4.1), then
+
+      ^
+     k(Φ    ∗   2
+         1 ) F k p,q ′
+                                                                                                                                 (λ′ ,λ′′ )
+                 π+,λ ⊠Hl (Rq )
+                                   ′′         M 2 khm k2L2 (S p−1 ) khk k2L2 (S q′ −1 ) khl k2L2 (S q′′ −1 ) λV+−,λ
+                                          =
+             kF k2̟p,q                          khm k2L2 (S p−1 ) khk k2L2 (S q′ −1 ) khl k2L2 (S q′′ −1 ) λ′ V++,λ′
+                                                                                                                            (λ′′ ,λ)
+
+
+                                          =1
+
+because of (8.2.1). Hence the first statement is proved. The second statement follows from
+(8.3.2). 
+
+          §9. Construction of discrete spectra in the branching laws
+
+9.1. In §7, we determined explicitly the branching law ̟ p,q |G′ of the minimal unipotent
+                       b where G′ = O(p, q ′ ) × O(q ′′ ). The resulting branching law has
+representation ̟ p,q ∈ G
+no continuous spectrum (see Theorem 4.2 and Theorem 7.1). In this section, we treat
+a more general case where continuous spectrum may appear, namely, the branching law
+with respect to the semisimple symmetric pair
+
+                                   (G, G′ ) = (O(p, q), O(p′, q ′ ) × O(p′′ , q ′′ )),
+
+where p′ + p′′ = p (≥ 2), q ′ + q ′′ = q (≥ 2), p + q ∈ 2N, and (p, q) 6= (2, 2).
+  We shall construct explicitly discrete spectra by using the conformal geometry.
+  Retain the notation in §5.1. We set
+
+(9.1.1)                                 A′ (p, q) := A0 (p, q) ∩ {λ ∈ R : λ > 1}.
+
+Theorem 9.1. The restriction of the unitary representation ̟ p,q |G′ contains
+                       X⊕                       ′
+                                               p ,q  ′
+                                                       p ,q  ′′    ′′                   X⊕                     ′
+                                                                                                            p ,q   ′   ′′
+                                                                                                                    p ,q    ′′
+                                              π+,λ  ⊠ π−,λ  ⊕                                              π−,λ  ⊠ π+,λ
+            λ∈A′ (p′ ,q ′ )∩A′ (q ′′ ,p′′ )                                  λ∈A′ (q ′ ,p′ )∩A′ (p′′ ,q ′′ )
+
+                                                     ′   ′        ′′    ′′                                                                ′   ′
+as a discrete summand. Here, π+,λ      p ,q    p ,q
+                                            ⊠ π−,λ   c′ is the outer tensor product of π p ,q ∈
+                                                    ∈G                                  +,λ
+ \  ′  ′
+O(p , q ) and π p′′ ,q ′′    \ ′′  ′′
+                          ∈ O(q , p ).
+                  −,λ
+
+  We have already established the full branching law ̟ p,q |G′ if p′ q ′ p′′ q ′′ = 0. Thus, the
+main part of this section will be devoted to the proof of Theorem 9.1 when p′ q ′ p′′ q ′′ 6= 0.
+We shall give some remarks of Theorem 9.1 at the end of this subsection.
+                                                                        20
+9.2. Let K ′ = O(p′ ) × O(q ′ ) × O(p′′ ) × O(q ′′ ). We realize the unitary representation ̟ p,q
+on the Hilbert space V p,q . Here we recall the notation of §3.9, briefly as follows:
+
+          V p,q = Ker(Dp − Dq )               ⊂ V = Dom(Dp ) ∩ Dom(Dq )                     ( ⊂ L2 (M ))
+                                           closed                                               dense
+                 p−1        q−1
+          M =S         ×S              ⊃          M+ ∪ M− .
+                                      dense
+
+Different from Corollary 4.3 in the discretely decomposable case (p′ q ′ p′′ q ′′ = 0), a K ′ -finite
+vector of a G′ -irreducible summand (i.e. a discrete spectrum) in ̟ p,q |G′ is not necessarily
+a real analytic function on M if p′ q ′ p′′ q ′′ 6= 0 in our conformal construction of ̟ p,q . With
+this in mind, we extend (Φ ^ −1 ∗
+                               ) f ∈ C ∞ (M ) (see §6 for notation) to a function, denoted
+                                  1                           +
+by T+ f , on S p−1 × S q−1 as
+                                            (
+                                                       ^
+                                                      (Φ −1 ∗
+(9.2.1)                       T+ f :=                    1 ) f                on M+ ,
+                                                      0                       on M \ M+ .
+
+Here is a key lemma:
+Lemma 9.2. Suppose λ′ ∈ A0 (p′ , q ′ ) and λ′′ ∈ A0 (q ′′ , p′′ ). Let f ∈ C ∞ (X(p′ , q ′ ) ×
+                                                            p′ ,q ′   p′′ ,q ′′
+X(q ′′ , p′′ )) be a K ′ -finite function which belongs to π+,λ  ′ ⊠ π−,λ′′ (see Fact 5.4 (1) (ii)).
+
+1) If λ′ ≥ 21 and λ′′ ≥ 21 , then T+ f ∈ V.
+2) If λ′ > 1 and λ′′ > 1, then Y (T+ f ) ∈ L2 (M ) and Y Y ′ (T+ f ) ∈ L1 (M ) for any smooth
+vector field Y, Y ′ on M .
+3) If λ′ = λ′′ > 1 then T+ f ∈ V p,q .
+  Before proving Lemma 9.2, we first show that Lemma 9.2 implies Theorem 9.1. In fact,
+Lemma 9.2 (3) constructs a non-zero (g′ , K ′ )-homomorphism
+                                              ′       ′             ′′   ′′
+                                         p ,q          p ,q
+                                  T+ : (π+,λ  )K1′ ⊠ (π−,λ  )K2′ → ̟ p,q ,
+                                                                                            ′    ′      ′′   ′′
+                                                                          p ,q          p ,q
+for λ ∈ A′ (p′ , q ′ ) ∩ A′ (q ′′ , p′′ ). Then T+ is injective because (π+,λ  )K1′ ⊠ (π−,λ  )K2′ is
+                         p,q
+irreducible. Since ̟          is a unitary representation of G, T+ extends to an isometry of
+unitary representations of G′ :
+                                                  ′       ′   ′′   ′′
+                                            p ,q    p ,q
+                                           π+,λ  ⊠ π−,λ  → ̟ p,q ,
+
+by taking the closure with respect to the inner product induced from ̟ p,q . This proves
+                                                  p′ ,q ′    p′′ ,q ′′
+Theorem 9.1 for the irreducible representation π+,λ       ⊠ π−,λ       that appears in the first
+summand. The second summand is constructed similarly by using the conformal diffeo-
+morphism (see Lemma 6.4)
+                                                                ∼
+                             Φ2 : X(q ′ , p′ ) × X(p′′ , q ′′ ) → M− (⊂ M ).
+
+Hence, the proof of Theorem 9.1 is completed by assuming Lemma 9.2.
+9.3.
+Remark 9.3. There exist λ′ ∈ A0 (p′ , q ′ ) and λ′′ ∈ A0 (q ′′ , p′′ ) satisfying λ′ = λ′′ > 1 if and
+only if p′ + q ′ ≡ p′′ + q ′′ mod 2 and p′ ≥ 2, q ′′ ≥ 2. This implies p + q ∈ 2N, p ≥ 2 and
+q ≥ 2, and V p,q is non-zero (see §3). Of course, Lemma 9.2 (3) also implies V p,q 6= {0}.
+                                                              21
+9.4. It follows from Lemma 3.8.1 that the first statement of Lemma 9.2 is proved if
+Y (T+ ) ∈ L2−ǫ for any ǫ > 0 and for any smooth vector field Y on M . Therefore, both of
+(1) and (2) of Lemma 9.2 are proved by studying the asymptotic behaviour of T+ f near
+the boundary of M+ in M . This asymptotic estimate is studied below.
+   Any K ′ -finite vector f is a finite linear combination of the form f1 f2 , where
+                                                                                      ′ ′
+      f1 ∈ C ∞ (X(p′ , q ′ )) is an O(p′ ) × O(q ′ )-finite vector that belongs to π p ,q′ ,
+                                                                                     +,λ
+      f ∈ C ∞ (X(q ′′ , p′′ )) is an O(p′′ ) × O(q ′′ )-finite vector that belongs to π p′′ ,q′′′′ .
+        2                                                                               −,λ
+
+
+In order to prove Lemma 9.2, we may and do assume f is of the form f1 f2 . Then we have
+
+(9.4.1) (T+ (f1 f2 ))(u, v)
+                                                                                                  !                                 !
+                                                     − p+q−4                    (u′ , v ′ )                     (u′′ , v ′′ )
+                          = (|u′ |2 − |v ′ |2 )+         4
+                                                                 f1        p                          f2   p                            .
+                                                                               |u′ |2 − |v ′ |2                |u′′ |2 − |v ′′ |2
+
+Here, we have used the following notation:
+                                        ν
+                                  ν       r                               (r > 0),
+                                 r+ :=
+                                          0                               (r ≤ 0).
+
+
+9.5. In order to analyze the asymptotic behaviour of T+ (f1 f2 ) (see (9.4.1)) near the
+boundary of M+ , we consider a change of variables on S p−1 × S q−1 by the surjective map
+
+                          ′              ′′                           ′             ′′
+               (S 1 × S p −1 × S p −1 ) × (S 1 × S q −1 × S q −1 ) → S p−1 × S q−1 ,
+                              (eiθ , ω ′ , ω ′′ ), (eiϕ , η ′ , η ′′ )                        7→ (u, v)
+
+defined by
+
+(9.5.1)         (u, v) ≡ (u′ , u′′ , v ′ , v ′′ ) := (ω ′ cos θ, ω ′′ sin θ, η ′ cos ϕ, η ′′ sin ϕ).
+
+Because |u′ |2 − |v ′ |2 = |ω ′ cos θ|2 − |η ′ cos ϕ|2 = | cos θ|2 − | cos ϕ|2 , M± defined in (6.1.1)
+is rewritten as
+
+                M+ = {(ω ′ cos θ, ω ′′ sin θ, η ′ cos ϕ, η ′′ sin ϕ) : | cos θ| > | cos ϕ|}
+                M− = {(ω ′ cos θ, ω ′′ sin θ, η ′ cos ϕ, η ′′ sin ϕ) : | cos θ| < | cos ϕ|}
+
+Here is an elementary computation corresponding to the change of variables (9.5.1):
+Lemma 9.5. 1) The volume element du dv on S p−1 × S q−1 is given by
+                         ′                    ′′                 ′                   ′′
+      du dv = | cos θ|p −1 | sin θ|p −1 | cos ϕ|q −1 | sin ϕ|q −1 dθ dϕ dω ′ dω ′′ dη ′ dη ′′ ,
+                                                        ′
+where dω ′ is the volume element on S p −1 and so on.
+2) Any smooth vector field on S p−1 × S q−1 is a linear combination of
+
+                                1          1            1          1           ∂ ∂
+                                    X ′,       X ′′ ,       Y ′,       Y ′′ ,   , ,
+                              cos θ      sin θ        cos ϕ      sin ϕ        ∂ϕ ∂θ
+                                                                22
+whose coefficients are smooth functions of (ω ′ , ω ′′ , η ′ , η ′′ , θ, ϕ). Here, X ′ , X ′′ , Y ′ and Y ′′
+                               ′        ′′       ′             ′′
+are smooth vector fields on S p −1 , S p −1 , S q −1 and S q −1 , respectively.
+   Fact 5.4 (2) describes the asymptotic behaviour of K-finite functions that belong to
+discrete series representations for a hyperboloid. Applying it to f1 with respect to the
+                                                   ′         ′
+coordinate (9.5.1), we find a1 ∈ C ∞ (S p −1 × S q −1 ) and h1 ∈ C ∞ (R) such that
+                          !                    2                − 2λ′ +p′4+q′ −2    s                 !
+                                                             2
+          (u′ , v ′ )                          cos   θ + cos   ϕ                        cos2 θ − cos2 ϕ
+ f1 p                       = a1 (ω ′ , η ′ )                                      h1
+           ′ 2
+         |u | − |v |  ′ 2                      cos2 θ − cos2 ϕ +                        cos2 θ + cos2 ϕ
+                                        ′′                   ′′
+Likewise, there exist a2 ∈ C ∞ (S q −1 × S p −1 ) and h2 ∈ C ∞ (R) such that
+                         !                      2               − 2λ′′ +p′′4+q′′ −2    s                 !
+            ′′  ′′                                           2                                2 θ − cos2 ϕ
+        (v , u )                                sin  θ + sin   ϕ                           cos
+f2 p                       = a2 (η ′′ , ω ′′ )                                        h2
+      |v ′′ |2 − |u′′ |2                        cos2 θ − cos2 ϕ +                          sin2 θ + sin2 ϕ
+We treat the boundary ∂M+ of M+ ⊂ M locally in the following three cases:
+Case 1) cos2 θ − cos2 ϕ = 0, (cos θ, cos ϕ) 6= (0, 0), (sin θ, sin ϕ) 6= (0, 0).
+Case 2) cos θ = cos ϕ = 0.
+Case 3) sin θ = sin ϕ = 0.
+  We note that Case (2) or (3) happens only when p′ q ′ p′′ q ′′ 6= 0.
+9.6. (Case 1): In this subsection, we consider a generic part of the boundary ∂M+
+                                                                                     ′        ′′
+corresponding to Case 1. In a local coordinate (ω ′ , ω ′′ , η ′ , η ′′ , θ, ϕ) ∈ S p −1 × S p −1 ×
+   ′        ′′
+S q −1 × S q −1 × R2 , T+ (f1 f2 ))(u, v) is written as
+                                             ′   ′   ′                 ′′   ′′   ′′ −2                        λ′ +λ′′
+                             − p+q−4 + 2λ +p4+q −2 + 2λ +p 4 +q
+      A (cos2 θ − cos2 ϕ)+       4
+                                                                                         = A (cos2 θ − cos2 ϕ)+ 2       .
+                                                                                                        1
+Here, A is a smooth function of variables ω ′ , ω ′′ , η ′ , η ′′ , (cos2 θ − cos2 ϕ)+2 . Therefore, by
+using Lemma 9.5, we have:
+             λ′ + λ′′ > −1      ⇒ T+ f ∈ L2loc ,
+             λ′ + λ′′ ≥ 1       ⇒ Y (T+ f ) ∈ L2−ǫ
+                                               loc                                for any ǫ > 0, Y ∈ X(M ),
+             λ′ + λ′′ > 2       ⇒ Y1 Y2 (T+ f ) ∈ L1loc                           for any Y1 , Y2 ∈ X(M ),
+in a neighbourhood of the boundary point of M+ for Case (1).
+9.7. (Case 2): In this subsection we consider a neighbourhood of (ω ′ , ω ′′ , η ′ , η ′′ , θ, ϕ)
+satisfying the condition of Case 2. We take a polar coordinate for (cos θ, cos ϕ) ; (0, 0) as
+                                    
+                                      cos θ = r cos ψ,
+                                                 cos ϕ            = r sin ψ.
+The composition to (9.5.1) yields a new coordinate on S p−1 × S q−1 given by
+                                                p                              q
+              ′   ′′ ′ ′′        ′
+   (u, v) = (u , u , v , v ) = (ω r cos ψ, ω ′′        2   2    ′
+                                                  1 − r cos ψ, η r sin ψ, η ′′
+                                                                                1 − r 2 sin2 ψ),
+                 ′               ′′                      ′                         ′′
+where ω ′ ∈ S p −1 , ω ′′ ∈ S p −1 , η ′ ∈ S q −1 , η ′′ ∈ S q −1 , r ≥ 0, and ψ ∈ R. Then our
+interest is in a neighbourhood of r = 0. In this coordinate, we have
+                                      M+ = {r 6= 0, cos 2ψ > 0}
+The Jacobian matrix of the transform (θ, ϕ) → (r, ψ) is given by
+                              !                                   
+                      ∂r   ∂r
+                      ∂θ   ∂ϕ       − cos ψ sin θ − sin ψ sin ϕ
+                     ∂ψ    ∂ψ    =   1              −1               .
+                      ∂θ   ∂ϕ        r sin ψ sin θ   r cos ψ sin ϕ
+
+                                                                  23
+Lemma 9.7. 1) The standard measure on S p−1 × S q−1 is locally represented as
+                                                                                ′     ′
+            smooth function of (r, ψ, ω ′, η ′ , ω ′′ , η ′′ ) × r p +q −1 drdψdω ′ dη ′ dω ′′ dη ′′ .
+
+2) Any smooth vector field on S p−1 × S q−1 near r = 0 is a linear combination of
+
+                                    1                    1                ∂ 1 ∂
+                                         X ′ , X ′′ ,         Y ′ , Y ′′ , ,      ,
+                                 r cos ψ              r sin ψ             ∂r r ∂ψ
+
+whose coefficients are smooth functions of (ω ′ , ω ′′ , η ′ , η ′′ , r, ψ). Here, X ′ , X ′′ , Y ′ and Y ′′
+                               ′        ′′       ′             ′′
+are smooth vector fields on S p −1 , S p −1 , S q −1 and S q −1 , respectively.
+   By noting the relations
+
+                     cos2 θ + cos2 ϕ     1                            sin2 ϕ + sin2 θ     2 − r2
+                                     =        ,                                       =            ,
+                        2        2
+                     cos θ − cos ϕ     cos 2ψ                         sin2 ϕ − sin2 θ   r 2 cos 2ψ
+
+T+ (f1 f2 )(u, v) is locally written as
+
+                                           p+q−4                  2λ′ +p′ +q ′ −2                  2λ′′ +p′′ +q ′′ −2
+                  B (r 2 cos 2ψ)−            4     (cos 2ψ)+            4
+                                                                                    (r 2 cos 2ψ)+          4
+
+
+                        2λ′′ −p′ −q ′ +2               λ′ +λ′′
+                =B r+          2
+                                           (cos 2ψ)+ 2            ,
+
+                                                                                                       1
+where B is a smooth function of variables ω ′ , ω ′′ , η ′ , η ′′ , r+ , (cos 2ψ)+
+                                                                                 2
+                                                                                   . Therefore, by using
+Lemma 9.7, we have:
+
+   2λ′′ > −1,            λ′ + λ′′ > −1 ⇒                    T+ f ∈ L2loc ,
+   2λ′′ ≥ 0,             λ′ + λ′′ ≥ 1              ⇒        Y (T+ f ) ∈ L2−ǫ
+                                                                         loc                for any ǫ > 0, Y ∈ X(M ),
+   2λ′′ > 2 − p′ − q ′ ,λ′ + λ′′ > 2               ⇒        Y1 Y2 (T+ f ) ∈ L1loc           for any Y1 , Y2 ∈ X(M ),
+
+in a neighbourhood of the boundary ∂M+ for Case (2).
+   The asymptotic estimate for Case (3) parallels to that of Case (2).
+                                                        ′     ′                 2λ′′ −p′ −q ′ +2
+Remark 9.7. Assume λ′ = λ′′ ∈ Z + p +q 2
+                                          . Then r+     2
+                                                               is bounded near r = 0 if
+                  ′    ′                       ′    ′
+                 p  +q                        p  +q
+and only if λ′ ≥ 2 − 1, equivalently, λ′ > 2 − 2, which means that Cλ′ is in the
+good range with respect to the θ-stable parabolic subalgebra defined by Cλ′ in the sense
+of Vogan.
+9.8. We end with some remarks and conjectures, primarily concerning the precise form of
+the discrete spectrum and also the continuous spectrum (where it would be very interesting
+to develop the complete Plancherel formula, given our explicit intertwining operator).
+1) (multiplicity free property)
+   Each irreducible component in Theorem 9.1 occurs as multiplicity free. If p = 2, then
+̟ p,q is the direct sum of an irreducible highest weight module and a lowest one. It
+was proved in [19] that the multiplicity in the full Plancherel formula (both discrete and
+continuous spectrum) is at most one, in the branching law of any highest weight module
+of scalar type with respect to any symmetric pair.
+2) (at most finitely many discrete spectrum, and full discrete spectrum)
+                                                                  24
+   If p′ , q ′ , p′′ and q ′′ satisfy
+
+(9.8.1)                             min(p′ , q ′′ ) ≤ 1 and min(q ′ , p′′ ) ≤ 1,
+
+then the parameter set in Theorem 9.1 is empty, namely,
+
+                          A′ (p′ , q ′ ) ∩ A′ (q ′′ , p′′ ) = A′ (q ′ , p′ ) ∩ A′ (p′′ , q ′′ ) = ∅.
+
+We conjecture that there are at most finitely many discrete spectra in the branching law
+̟ p,q |G′ if (9.8.1) holds. We further conjecture that the full discrete spectrum is as in
+Theorem 9.1 with A′ (p, q) replaced by A0 (p, q) everywhere.
+3) (no discrete spectrum)
+   Furthermore, if we exclude the case such as G′ = O(p, q − 1) × O(1) (see §7.2), namely,
+if
+
+(9.8.2)           min(p′ , q ′′ ) ≤ 1, min(q ′ , p′′ ) ≤ 1, p′ + q ′ > 1, and p′′ + q ′′ > 1,
+
+then
+                         A0 (p′ , q ′ ) ∩ A0 (q ′′ , p′′ ) = A0 (q ′ , p′ ) ∩ A0 (p′′ , q ′′ ) = ∅.
+It is likely that there is no discrete spectra in the branching law ̟ p,q |G′ if (9.8.2) is
+satisfied.
+   We note that the condition (9.8.2) is equivalent to that at least one of X(p′ , q ′ ) or
+X(q ′′ , p′′ ) is a non-compact Riemannian symmetric space and at least one of X(q ′ , p′ ) or
+X(p′′ , q ′′ ) is a non-compact Riemannian symmetric space.
+4) (discretely decomposable case)
+   The opposite extremal case is when
+
+(9.8.3)                                       min(p′ , p′′ , q ′ , q ′′ ) = 0.
+
+ As we have proved in Theorem 4.2, the restriction ̟ p,q |G′ is discretely decomposable with-
+ out any continuous spectrum. We have obtained the full branching formula in Theorem 7.1
+ by using Theorem 4.2 and the K-type formula of ̟ p,q .
+     If we employ only the method in this section to the special case (9.8.3), then we do
+ not have to consider Cases (2) and (3) in §9.7. Then, Theorem 9.1 exhausts all discrete
+ spectra in Theorem 7.1 in most cases, but there are some few exceptions. To be precise,
+ we consider the case p′′ = 0 without loss of generality. Then, in view of Theorem 7.1,
+ the right side of Theorem 9.1 exhausts all discrete spectra if q ′′ ≥ 5; while at most two of
+                       p,q ′    0,q ′′
+ (g′ , K ′ )-modules π+,λ    ⊠ π−,λ    are missing in Theorem 9.1 if q ′ ≤ 4. The precise missing
+ parameters in the case p′′ = 0 and q ′ = 0 are: λ = ± 12 (q ′′ = 1); λ = 0, 1 (q ′′ = 2); λ = 21
+ (q ′′ = 3); and λ = 1 (q ′′ = 4). In order to to cover all missing parameter by the purely
+ geometric method of this section, we should notice a specific feature in the case p′′ = 0:
+ i) M+ is a dense subspace of M .
+ii) Any real analytic functions on M+ satisfying the Yamabe equation corresponding to
+     K ′ -finite vectors of the (g′ , K ′ )-module with the above missing parameter extend to
+     real analytic functions on M (see Corollary 4.3 (2)).
+ 5) (explicit continuous spectrum)
+     We conjecture that
+                            G′                                      G′
+                   L2 - IndP 1max (ǫ ⊗ C√−1λ ) ⊠ L2 - IndP 2max (ǫ ⊗ C√−1λ )                    (λ ∈ R)
+                              1                                       2
+
+
+is a continuous spectrum with multiplicity free if min(p′ , p′′ , q ′ , q ′′ ) > 0.
+                                                             25
+                                                References
+[1]    W. Beckner, Geometric inequalities in Fourier analysis, Essays on Fourier analysis in honor of Elias
+       M. Stein (C. Fefferman, R. Fefferman and S. Wainger, ed.), Princeton Univ. Press, 1995, pp. 36–68.
+[2]    B. Binegar and R. Zierau, Unitarization of a singular representation of SO(p, q), Comm. Math.
+       Phys. 138 (1991), 245–258.
+[3]    R. Brylinski and B. Kostant, Minimal representations of E6 , E7 and E8 and the generalized Capelli
+       identity, Proc. Nat. Acad. Sci. U.S.A. 91 (1994), 2469–2472.
+[4]            , Differential operators on conical Lagrangian manifolds, Lie theory and geometry, vol. 123,
+       Progress in Math., 1994, pp. 65–96.
+[5]            , Lagrangian models of minimal representations of E6 , E7 and E8 , Functional analysis on
+       the eve of the 21st century, Vol. 1, vol. 131, Progress in Math., 1995, pp. 13–63.
+[6]    A. Erdélyi, Higher Transcendental Functions, vol. I, McGraw-Hill, New York, 1953.
+[7]    A. Erdélyi, Tables of Integral Transforms, vol. II, McGraw-Hill, New York, 1954.
+[8]    I. M. Gelfand and G. E. Shilov, Generalized Functions, I, Academic Press, 1964.
+[9]    S. Helgason, Differential Geometry, Lie Groups and Symmetric Spaces, Pure and Appl. Math.,
+       vol. 80, Academic Press, 1978.
+[10]   R. Howe, Transcending classical invariant theory, Jour. A. M. S. 2 (1989), 535–552.
+[11]   R. Howe and E. Tan, Homogeneous functions on light cones, Bull. A. M. S. 28 (1993), 1–74.
+[12]   J-S. Huang and C-B. Zhu, On certain small representations of indefinite orthogonal groups, Repre-
+       sentation Theory 1, 190–206.
+[13]   S. Kobayashi, Transformation Groups in Differential Geometry, Ergebnisse, vol. 70, Springer.
+[14]   T. Kobayashi, Singular Unitary Representations and Discrete Series for Indefinite Stiefel Manifolds
+       U(p, q; F)/U(p − m, q; F), vol. 462, Memoirs A. M. S., 1992.
+[15]           , Discrete decomposability of the restriction of Aq (λ) with respect to reductive subgroups and
+       its applications, Invent. Math. 117 (1994), 181–205.
+[16]           , Discrete decomposability of the restriction of Aq (λ) with respect to reductive subgroups II
+       — micro-local analysis and asymptotic K-support, Ann. of Math. 147 (1998), 709–729.
+[17]           , Discrete decomposability of the restriction of Aq (λ) with respect to reductive subgroups III —
+       restriction of Harish-Chandra modules and associated varieties, Invent. Math. 131 (1998), 229–256.
+[18]           , Multiplicity free branching laws for unitary highest weight modules, Proceedings of the
+       Symposium on Representation Theory held at Saga, Kyushu 1997 (eds. K. Mimachi) (1997), 9–17.
+[19]           , Multiplicity-free theorem in branching problems of unitary highest weight modules, preprint.
+[20]           , Discretely decomposable restrictions of unitary representations of reductive Lie groups, Anal-
+       ysis on Homogeneous Spaces and Representation Theory of Lie Groups (T. Kobayashi et al, eds.),
+       vol. 26, 2000, pp. 98–126.
+[21]           , Branching laws of O(p, q) associated to minimal elliptic orbits, (in preparation).
+[22]   T. Kobayashi and B. Ørsted, Conformal geometry and branching laws for unitary representations
+       attached to minimal nilpotent orbits, C. R. Acad. Sci. Paris 326 (1998), 925–930.
+[23]           , Analysis on the minimal representation of O(p, q) – I. Realization via conformal geometry,
+       preprint.
+[24]   B. Kostant, The vanishing scalar curvature and the minimal unitary representation of SO(4, 4),
+       Operator Algebras, Unitary Representations, Enveloping Algebras, and Invariant Theory (Connes et
+       al, eds.), vol. 92, Birkhäuser, Boston, 1990, pp. 85–124.
+[25]   J. M. Lee and T. H. Parker, The Yamabe problem, Bull. A. M. S. 17 (1987), 37–91.
+[26]   H. Sabourin, Une représentation unipotente associée à l’orbite minimale: Le cas de SO(4,3), J.
+       Funct. Anal. 137 (1996), 394–465.
+[27]   H. Schlichtkrull, Eigenspaces of the Laplacian on hyperbolic spaces: composition series and integral
+       transforms, J. Funct. Anal. 70 (1987), 194–219.
+[28]   W. Schmid, Boundary value problems for group invariant differential equations (1985), Asterisque,
+       hors s’erie, 311–321, Élie Cartan et les mathématiques d’aujourd’hui.
+[29]   P. Torasso, Méthode des orbites de Kirillov-Dufulo et representations minimales des groupes simples
+       sur un corps local de caractéristique nulle, preprint (1997).
+[30]   D. Vogan Jr., Representations of Real Reductive Lie Groups, Progress in Math., vol. 15, Birkhäuser,
+       1981.
+[31]           , Unitarizability of certain series of representations, Ann. of Math. (1984), 141–187.
+[32]           , Unitary Representations of Reductive Lie Groups, Ann. Math. Stud. 118, Princeton U. P.,
+       Princeton, New Jersey, 1987.
+                                                         26
+[33]        , Irreducibility of discrete series representations for semisimple symmetric spaces, Advanced
+     Studies in Pure Math. 14 (1988), 191–221.
+[34] H. Wong, Dolbeault cohomologies and Zuckerman modules associated with finite rank representations,
+     ph. D. dissertation, Harvard University (1992).
+[35] B. Ørsted, A note on the conformal quasi-invariance of the Laplacian on a pseudo-Riemannian
+     manifold, Lett. Math. Phys. 1 (1977), 183.
+[36]        , Conformally invariant differential equations and projective geometry, J. Funct. Anal. 44
+     (1981), 1–23.
+
+   RIMS, Kyoto University, Sakyo-ku, Kyoto, 606-8502, Japan
+   Department of Mathematics and Computer Science, SDU-Odense University, Campusvej
+55, DK-5230, Odense M, Denmark
+   E-mail address: toshi@kurims.kyoto-u.ac.jp; orsted@imada.ou.dk
+
+
+
+
+                                                   27
+

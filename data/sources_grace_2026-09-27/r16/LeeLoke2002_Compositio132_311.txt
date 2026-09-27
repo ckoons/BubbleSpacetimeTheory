@@ -1,0 +1,2263 @@
+                                              Compositio Mathematica 132: 311–348, 2002.                                                                   311
+                                              # 2002 Kluwer Academic Publishers. Printed in the Netherlands.
+
+
+
+
+                                     Degenerate Principal Series Representations
+                                     of Uð p; qÞ and Spin0 ð p; qÞ
+
+                                     SOO TECK LEE AND HUNG YEAN LOKE
+                                     Department of Mathematics, National University of Singapore, Kent Ridge Crescent,
+                                     Singapore 119260. e-mail: matleest@nus.edu.sg, matlhy@math.nus.edu.sg
+
+                                     (Received: 5 October 2000; accepted in ﬁnal form: 30 May 2001)
+
+                                     Abstract. Let p > q and let G be the group Uð p; qÞ or Spin0 ð p; qÞ. Let P ¼ LN be the maximal
+                                     parabolic subgroup of G with Levi subgroup L ﬃ M  U where
+                                                    (
+                                                      ðGLq ðCÞ; Uð p  qÞÞ;      if G ¼ Uð p; qÞ;
+                                          ðM; UÞ ¼
+                                                      ðGLþq ðRÞ; Spinð p  qÞÞ;  if G ¼ Spin0 ð p; qÞ:
+
+                                     Let w be a one-dimensional character of M and tm an irreducible representation of U with
+                                     highest weight m. Let pw;m be the representation of P which is trivial on N and pw;m jL ¼ w     & tm .
+                                                                                                                        G
+                                     Let Ip;q be the Harish-Chandra module of the induced representation IndP pw;m . In this paper,
+                                     we shall determine (i) the reducibility of Ip;q , (ii) the K-types of all the irreducible subquotients
+                                     of Ip;q when it is reducible, where K is the maximal compact subgroup of G, (iii) the module
+                                     diagram of Ip;q (from which one can read off the composition structure), and (iv) the unitarity
+                                     of Ip;q and its subquotients. Except in the cases q ¼ p  1 and q ¼ 1, Ip;q is not K-multiplicity
+                                     free.
+
+                                     Mathematics Subject Classi¢cations (2000). 22E46, 22E47.
+                                     Key words. complementary series, degenerate principal series, Gelfand–Zetlin basis, unitary
+                                     representations.
+
+
+
+
+                                     1. Introduction
+                                     1.1. Let p > q and let G be the group Uð p; qÞ or Spin0 ð p; qÞ. Let P ¼ LN be the
+                                     maximal parabolic subgroup of G with Levi subgroup L ﬃ M  U where
+                                                    (
+                                                      ðGLq ðCÞ; Uð p  qÞÞ;    if G ¼ Uð p; qÞ;
+                                           ðM; UÞ ¼       þ
+                                                      ðGLq ðRÞ; Spinð p  qÞÞ; if G ¼ Spin0 ð p; qÞ:
+
+                                     Let w be a one-dimensional character of M and tm an irreducible representation of
+                                     U with highest weight m. Let pw;m be the representation of P which is trivial on N
+                                                      tm : Consider the induced representation IndG
+                                     and pw;m jL ¼ w &                                              P pw;m and let Ip;q be its
+                                     Harish-Chandra module. In this paper, we shall determine (i) the reducibility of Ip;q ,
+                                     (ii) the K structure of all the irreducible subquotients of Ip;q when it is reducible,
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     312                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                     where K is a maximal compact subgroup of G, (iii) the module diagram of Ip;q (from
+                                     which one can read off the composition structure), and (iv) the unitarity of Ip;q and
+                                     its subquotients.
+                                        Note that Ip;q is not K-multiplicity free except when q ¼ p  1 and q ¼ 1.
+                                     1.2. We introduce some notation. Let
+                                               
+                                                 Uð p; pÞ;      if G ¼ Uð p; qÞ;
+                                          G~ ¼
+                                                 Spin0 ð p; pÞ; if G ¼ Spin0 ð p; qÞ:
+                                     Let g ¼ LieðGÞ and g~ ¼ LieðGÞ,~ and let K and K~ denote the maximal compact
+                                                           ~
+                                     subgroups of G and G respectively. In this paper we will call a ðg; KÞ-module (resp.
+                                           ~
+                                     ð ~g; KÞ-module)                                                 ~
+                                                      an inﬁnitesimal G-module (resp. inﬁnitesimal G-module).
+
+                                     1.3. We now describe our main results. We ﬁrst show that Ip;q can be embedded
+                                     into the Harish-Chandra module Ip (see Sections 3.3 and 9.4) of a degenerate
+                                                                         ~ In addition, Ip is K1 -admissible where
+                                     principal series representation of G.
+                                                
+                                                  Uð pÞ  1;      if G ¼ Uð p; qÞ;
+                                           K1 ¼                                                                    ð1Þ
+                                                  Spinð pÞ  1; if G ¼ Spin0 ð p; qÞ
+                                     and Ip decomposes discretely when restricted to ðg; KÞ (see [Ko3]). Next we identify
+                                     Ip;q with its image in Ip . If W is an inﬁnitesimal ~
+                                                                                         G-submodule of Ip , then it is K1 -
+                                     admissible. By Proposition 1.6 in [Ko3], W \ Ip;q is a (possibly zero) inﬁnitesimal
+                                     G-submodule of Ip;q . Our main result states that the converse is also true. We ﬁrst
+                                     show that
+
+                                     THEOREM. Suppose W1 W2 are inﬁnitesimal ~          G-submodules of Ip such that
+                                     R :¼ W2 =W1 is an irreducible subquotient of Ip . Deﬁne
+
+                                                      W2 \ Ip;q
+                                              R0 :¼             :
+                                                      W1 \ Ip;q
+
+                                     Then R0 is either zero or isomorphic to an irreducible subquotient of Ip;q . Moreover, all
+                                     irreducible subquotients of Ip;q are of this form.
+                                       Now the module structure of Ip is well known ([J1], [J2], [Le], [Mo], [S1], [S2],
+                                     [Zh]). The above theorem together with structural results on Ip allows us to deter-
+                                     mine the module structure of Ip;q . In particular, we obtain the following corollary.
+
+                                     COROLLARY. If W 0 is an inﬁnitesimal G-submodule of Ip;q , then there exists an
+                                                  ~
+                                     inﬁnitesimal G-submodule W (not necessarily unique) of Ip such that W 0 ¼ W \ Ip;q .
+                                                           ~
+                                        If we know the K-types                                    ~
+                                                                   contained in an inﬁnitesimal G-submodule    W of Ip , then
+                                     it is relatively easy to determine the K-types of W \ Ip;q . Thus we can obtain explicit
+                                     description of the K-types which occur in each of the irreducible subquotients of
+                                     Ip;q . Moreover, we show that the module diagram of Ip;q can be identiﬁed with a
+                                     spanning subgraph of the module diagram of Ip . This immediately gives the
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           313
+
+                                     composition structure of Ip;q . These results are given in Theorem 7.3.1 for
+                                     G ¼ Uð p; qÞ, and in Theorem 12.2.1 for G ¼ Spin0 ð p; qÞ.
+                                       Finally we also determine the unitarity of Ip;q and all its irreducible subquotients.
+                                     The results are contained in Theorem 8.1.1 for G ¼ Uð p; qÞ and in Theorem 13.1.1
+                                     for G ¼ Spin0 ð p; qÞ.
+                                     1.4. The case q ¼ 1 has been studied in detail by [Hi1], [Hi2] and [KG1]. When q ¼ 1
+                                     and tm is a one dimensional character, this is a special case in [HT] and [KG2]. By
+                                     specializing to the case q ¼ 1, we recover these results in the above papers.
+                                     1.5. We note that almost all previous successful results on the module structures of
+                                     degenerate principal series representations treat the special cases where the
+                                     representations are K-multiplicity free. In particular Hirai [Hi1], [Hi2] and Klimyk
+                                     et al. ([KG1], [KG2], [KG3]) study such problems using the Gelfand–Zetlin basis.
+                                     Some examples of representations which are not K-multiplicity free are studied in
+                                     the papers [Ho] and [P].
+                                     1.6. We will brieﬂy describe our methods. Partly inspired by the work of Klimyk
+                                     and Gavrilik ([KG1]), we construct a basis B of Ip using the Gelfand–Zetlin basis of
+                                     an irreducible representation of Uð pÞ or Spinð pÞ. This basis is compatible with the
+                                     inﬁnitesimal G-submodules of Ip;q in the following sense: B \ Ip;q is a basis of Ip;q ,
+                                     and for any inﬁnitesimal G-submodule W of Ip;q , B \ W is a basis of W. Moreover
+                                     the Lie algebra action on B can be explicitly calculated.
+                                                                                                            P
+                                        Under the action of K1 (see (1)), we have the decomposition Ip;q ¼ l Sl , where
+                                     each l is a highest weight for K1 , and Sl is the l-isotypic component. With the aid
+                                     of the basis B, we show that every submodule of Ip;q is the sum of a collection of
+                                     isotypic components for K1 . Using structural results on Ip , we determine explicitly
+                                     how gC transforms each Sl in Ip;q . These information allows us to deduce the
+                                     module structure and unitarity of Ip;q and its irreducible subquotients.
+
+                                     1.7. Although the main ideas of the proofs for both the cases G ¼ Uð p; qÞ and
+                                     G ¼ Spin0 ð p; qÞ are similar, several special considerations lead to very different
+                                     results in each case. We have therefore, divided the paper in two parts. The
+                                     ﬁrst part treats Uð p; qÞ and the second treats Spin0 ð p; qÞ. We will be brief in
+                                     Part 2 and we will mainly point out the differences from Part 1.
+                                     1.8. Our proofs in this paper rely heavily on the fact that our representations are
+                                     K1 -admissible (see (1)). Such representations are studied under a more general
+                                     framework by T. Kobayashi (see Chapter 4 of [Ko1], and [Ko2], [Ko3]). Our
+                                     results on the restriction of the ‘ladder type’ representation of Spin0 ð2p; 2pÞ
+                                     also overlaps with Example 3.4 in [Ko2]
+                                     1.9. We were informed by H. Matumoto that he had also studied the representation
+                                     Ip;q , and had obtained results on its module structure.
+                                     1.10. We will show in a future paper ([LL]) that similar results hold for a family of
+                                     degenerate principal series representation of Spð p; qÞ. Some of the representations
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     314                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                     constructed in this paper are also theta lifts of one-dimensional characters and
+                                     unitary lowest weight modules under the Howe correspondence [Lo].
+                                     1.11. NOTATION. We introduce a notation for later use. Let G1 be a reductive Lie
+                                     group and let P1 ¼ L1 N1 be a parabolic subgroup of G1 with Levi subgroup L1 . Let
+                                     ðp; UÞ be a representation of L1 . Then we extend p to a representation of P1 by
+                                     letting N1 act trivially and we deﬁne the normalized induced representation
+                                                                                                                      1
+                                              IndG                            1               1 2    1
+                                                 P1 p :¼ f f : G1 ! U : f is C ; fðgpÞ ¼ ðDð p ÞÞ pð p ÞfðgÞ; g 2 G1 ; p 2 P1 g;
+                                                   1
+
+
+
+                                     where D is the modular function of P1 , and G1 acts by left translation.
+
+                                          PART 1. THE DEGENERATE PRINCIPAL SERIES OF Uð p; qÞ
+
+                                     2. The Representations
+                                     2.1. Let p > q and let P ¼ LN be the maximal parabolic subgroup of Uð p; qÞ with
+                                     Levi subgroup L ﬃ GLq ðCÞ  Uð p  qÞ. For s 2 C and s 2 Z, let ws;s : GLq ðCÞ
+                                     ! C be given by
+                                                                       
+                                                                  det a s
+                                           ws;s ðaÞ ¼ jdet ajs            :
+                                                                 jdet aj
+                                     Let tmpq be the irreducible representation of Uð p  qÞ with highest weight m. Let
+                                                               m
+                                              ps;s;m ¼ ws;s 
+                                                            &t
+                                                               pq ;
+
+                                     and consider the normalized induced representation IndUð   P
+                                                                                                   p;qÞ
+                                                                                                        ps;s;m (cf. Section 1.11).
+                                                                                           Uð p;qÞ
+                                     Let Ip;q ðs; s; mÞ be the Harish-Chandra module of IndP       ps;s;m . In this part, we shall
+                                     determine the module structure and unitarity of Ip;q ðs; s; mÞ.
+                                     2.2. We deﬁne some notations. For each r 5 1, let
+                                              Lþ ðrÞ ¼ fðl1 ; l2 ; . . . ; lr Þ 2 Zr : lj 5 ljþ1 ; for all 1 4 j 4 r  1g:
+                                     Then Lþ ðrÞ can be identiﬁed with the set of dominant weights of the unitary group
+                                     UðrÞ in the usual way. For each l 2 Lþ ðrÞ, tlr (or simply tl ) shall denote a copy of
+                                     the irreducible representation of UðrÞ with highest weight l. We also let
+                                              l ¼ ðlr ; lr1 ; . . . ; l1 Þ;
+                                              1r ¼ ð1; 1; . . . ; 1Þ 2 Lþ ðrÞ;
+                                                    0        j
+                                                                                  1
+                                                     zﬄﬄﬄﬄﬄﬄ}|ﬄﬄﬄﬄﬄﬄ{
+                                               ej ¼ @0; . . . ; 0; 1; 0; . . . ; 0A       for 1 4 j 4 p:
+
+                                                      
+                                     Note that tlr is the dual representation of tlr and t1r r is the determinant character of UðrÞ.
+
+                                     2.3. By Frobenius reciprocity, the K-type tlp   & tZ occurs in Ip;q ðs; s; mÞ with
+                                                                                         q
+                                     multiplicity
+                                                                                  
+                                           dim HomUðqÞUð pqÞ tZq þs1q 
+                                                                        &t
+                                                                           m      l
+                                                                           pq ; tp :                                ð2Þ
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           315
+
+                                     2.4. The inﬁnitesimal character of Ip;q ðs; s; mÞ is given by
+                                           
+                                            sþsþq1 sþsþq3                   s þ s  ðq  1Þ
+                                                         ;             ;...;                   ;
+                                                  2              2                     2
+                                             s þ s þ q  1 s þ s þ q  3           s þ s  ðq  1Þ
+                                                             ;               ;...;                    ;
+                                                    2              2                        2      
+                                                  pq1           pq3                    pq1
+                                             m1 þ          ; m2 þ         ; . . . ; mpq            :                                                      ð3Þ
+                                                      2              2                        2
+                                     Note that it is deﬁned up to an action of the Weyl group Spþq . Given s and s, the
+                                     inﬁnitesimal character (3) determines the inﬁnitesimal character of tmpq . Since irre-
+                                     ducible ﬁnite dimensional representations are uniquely determined by its inﬁnite-
+                                     simal character, we conclude that the inﬁnitesimal character of the degenerate
+                                     principal series in (3) determines tmpq for ﬁxed s and s.
+
+                                     3. Restriction of the Degenerate Series of Uð p; pÞ to Uð p; qÞ  Uð p  qÞ
+                                     3.1. In this section, we shall consider a degenerate principal series representation
+                                     Ip ðs; sÞ of Uð p; pÞ. By restricting the action of Uð p; pÞ to Uð p; qÞ  Uð p  qÞ, we
+                                     show that we can embed Ip;q ðs; s; mÞ into Ip ðs; sÞ.
+
+                                     3.2. Recall that Uð p; pÞ is the isometry group of the following Hermitian form on
+                                     C2p :
+                                                    X
+                                                    p          X2p
+                                           hz; wi ¼    zi wi       zj wj ; z ¼ ðz1 ; . . . ; z2p Þ; w ¼ ðw1 ; . . . ; w2p Þ 2 C2p :
+                                                           i¼1           j¼pþ1
+
+                                     Let fe1 ; . . . ; e2p g be the standard basis of C2p . Set T ¼ f1; . . . ; pg [ f2p  qþ
+                                     1; . . . ; 2pg. Let VT and V 0T be the span of fei : i 2 T g and fei : i 62 T g, respectively,
+                                     so that C2p ¼ VT  V 0T . Let
+                                              G ¼ fg 2 Uð p; pÞ : gjV0T ¼ idg; H ¼ fg 2 Uð p; pÞ : gjVT ¼ idg:
+
+                                     Then G ﬃ Uð p; qÞ and H ﬃ Uð p  qÞ. In the language of Howe correspondences,
+                                     we say that G  H is a compact reductive dual pair in Uð p; pÞ. From now on, we
+                                     shall always identify Uð p; qÞ and Uð p  qÞ with G and H, respectively.
+
+                                     3.3. We now deﬁne a degenerate principal series representation of Uð p; pÞ. Let P~ be
+                                     the stabilizer of the span of fej þ epþj : 1 4 j 4 pg in Uð p; pÞ. It is the maximal
+                                     parabolic of Uð p; pÞ, and P~ ¼ L~ N~ where L~ ﬃ GLp ðCÞ is its Levi subgroup. Let
+                                     s 2 C and s 2 Z, and let
+                                                                         
+                                                                   det a s
+                                           ~ws;s ðaÞ ¼ jdet ajs             ða 2 GLp ðCÞ ﬃ ~
+                                                                                          LÞ
+                                                                  j det aj
+                                                       L. Let Ip ðs; sÞ denote the Harish-Chandra module of IndUð
+                                     be a character of ~                                                       P~
+                                                                                                                  p;pÞ
+                                                                                                                       w~ s;s
+                                                                                  ~
+                                     (cf. Section 1.11). Under the action of K ¼ Uð pÞ  Uð pÞ,
+                                                       X
+                                           Ip ðs; sÞ ¼     Vl
+                                                            l2Lþ ð pÞ
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     316                                                               SOO TECK LEE AND HUNG YEAN LOKE
+
+                                                                                              l þs1
+                                     where for each l 2 Lþ ð pÞ, Vl ﬃ tlp &
+                                                                           tp   p
+                                                                                   . We will describe the module structure
+                                     and unitarity of Ip ðs; sÞ in Sections 7.1 and 8. This is well known and it can be
+                                     found in [J1], [J2], [Le], [Mo], [S1], [S2] and [Zh].
+
+                                     3.4. For each m 2 Lþ ð p  qÞ, let Ip ðs; sÞm denote the tmpq -isotypic part of Ip ðs; sÞ,
+                                     that is, it is the image of the H-map
+
+                                              HomH ðtmpq ; Ip ðs; sÞÞ  tmpq ! Ip ðs; sÞ
+
+                                     given by h  v 7! hðvÞ. Note that since the actions of G and H commute with each
+                                     other, Ip ðs; sÞm is also an inﬁnitesimal G-module.
+                                       Now H acts on C1 ðHÞ by left and right translation:
+
+                                              ðlg f ÞðhÞ ¼ fðg1 hÞ;        ðrg f ÞðhÞ ¼ fðhgÞ:
+
+                                     For each m 2 Lþ ð p  qÞ, let C1 ðHÞm denote the tmpq -isotypic part of C1 ðHÞ with
+                                     respect to the left translation. By the Peter–Weyl theorem,
+                                                                  
+                                              C 1 ðH Þm ﬃ tmpq &
+                                                                 tmpq
+
+                                     with respect to the action r  l by H  H.
+                                       We now ﬁx m 2 Lþ ð p  qÞ. For each f 2 Ip ðs; sÞm , let Af : G ! C1 ðHÞ be given
+                                     by
+                                              ðAfðgÞÞðhÞ ¼ fðg; hÞ:
+                                     Note that for each ﬁxed g 2 G, the map f ! AfðgÞ from Ip ðs; sÞm to C1 ðHÞ is
+                                     H-equivariant (with respect to left translation), so that AfðgÞ 2 C1 ðHÞm . So
+                                                                                                 
+                                     Af : G ! C1 ðHÞm . Let f‘1 ; . . . ; ‘r g be a basis of tmpq . Then every element y in
+                                                                                                    P
+                                     C1 ðHÞm can be expressed uniquely in the form y ¼ rj¼1 vj          & ‘j where vj 2 tm
+                                                                                                                           pq
+                                     for 1 4 j 4 r. It follows that
+                                                      X
+                                                      r
+                                              Af ¼          fj 
+                                                               & ‘j ;                                                                                       ð4Þ
+                                                      j¼1
+
+                                     where for 1 4 j 4 r, fj : G ! tmpq . Let p1 2 P. Then we can write p1 as
+                                     p1 ¼ ða1 ; a2 Þn1 where a1 2 GLq ðCÞ, a2 2 Uð p  qÞ and n1 2 N. Now one can check
+                                     that for g 2 G and h 2 H,
+                                                                                 1
+                                                                       2                  s
+                                              ðAfðgp1 ÞÞðhÞ ¼ ðdð p1          1
+                                                                   1 ÞÞ ws;s ða1 Þðdet a2 Þ ra1 ðAfðgÞÞðhÞ;  2
+
+                                     where d is the modular function of P. So we have
+                                          Xr
+                                             fj ðgp1 Þ &
+                                                        ‘j
+                                               j¼1
+
+                                                                      1
+                                                                                              X
+                                                                                              r
+                                                  ¼ ðdð p1  2      1
+                                                         1 ÞÞ ws;s ða1 Þðdet a2 Þ
+                                                                                 s
+                                                                                                     tmpq ða1
+                                                                                                             2 Þð fj ðgÞÞ 
+                                                                                                                          & ‘j :
+                                                                                               j¼1
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           317
+
+                                     It follows that for each 1 4 j 4 r,
+                                                                       1
+                                                                 2                  s m
+                                              fj ðgpÞ ¼ ðdð p1          1                  1
+                                                             1 ÞÞ ws;s ða1 Þðdet a2 Þ tpq ða2 Þð fj ðgÞÞ
+
+                                                               &t
+                                                                  mþs1pq
+                                                      ¼ fðws;s   pq     Þð p1 Þgðfj ðgÞÞ:
+
+                                     Hence, fj 2 Ip;q ðs; s; m þ s1pq Þ and (4) deﬁnes a map
+                                                                                                       
+                                                                                          m
+                                              A : Ip ðs; sÞm ! Ip;q ðs; s; m þ s1pq Þ 
+                                                                                        &t :                                                                ð5Þ
+
+                                     PROPOSITION 3.4.1. The map A in (5) is an inﬁnitesimal G  H-module iso-
+                                     morphism.
+                                         Proof. First we show that A is injective. Indeed, since f 2 Ip ðs; sÞm Ip ðs; sÞ,
+                                     f is completely determined by its values on Uð pÞ  1. Next, by a straightforward
+                                     application of Frobenius reciprocity (see (2)), we see that the spaces Ip ðs; sÞm and
+                                                        
+                                                    & tm have the same Uð pÞ  UðqÞ  Uð p  qÞ-types. Hence, A is an
+                                     Ip;q ðs; s; mÞ 
+                                     inﬁnitesimal isomorphism.                                                           &
+
+                                       Let G1 G2 be reductive Lie groups and let K1 and ðg1 ÞC be the maximal com-
+                                     pact subgroup and complexiﬁed Lie algebra of G1 respectively. If V is an inﬁnite-
+                                     simal G2 module such that it is K1 admissible, then we shall abuse notation and
+                                     denote the restriction of V to ðg1 ÞC and K1 by ResG                             ~
+                                                                                          G1 V. We remark that if V is a
+                                                                                           2
+
+
+                                     globalization of V, then by Proposition 1.6 of [Ko3], V is the set of K1 -ﬁnite vectors
+                                         ~ In other words, ResG2 V is the ððg1 ÞC ; K1 Þ module of V.
+                                     of V.                                                             ~
+                                                                 G1
+
+
+                                     COROLLARY 3.4.2. For each m 2 Lþ ð p  qÞ, let ^m ¼ m þ s1pq . Then
+                                                                        X
+                                        ResUð p;pÞ
+                                           Uð p;qÞUð pqÞ I p ðs; sÞ ¼   Ip;q ðs; s; mÞ &  ^m
+                                                                                          tpq :                                                           ð6Þ
+                                                                                   m2Lþ ð pqÞ
+
+                                     Note that if q ¼ 0, then (6) gives the ~
+                                                                            K-types of Ip ðs; sÞ.
+
+                                     3.5. RESTRICTION OF Ip;q ðs; s; mÞ TO Uð p; q  1Þ  Uð1Þ
+                                     To prove the next lemma, we need the following branching rule (see Exercise 6.12 in
+                                     [FH]):
+                                                                            P P 0
+                                                               X 0             l  j lj
+                                                                              i i
+                                          ResUð pÞ
+                                                         t
+                                             Uð p1ÞUð1Þ p
+                                                           l
+                                                             ¼  t l
+                                                                  p1 
+                                                                      & det 1                                        ð7Þ
+                                                                           l0
+
+                                     where the sum is taken over all l0 ¼ ðl01 ; . . . ; l0p1 Þ 2 Lþ ð p  1Þ such that
+
+                                              l1 5 l01 5 l2 5    5 l0p1 5 lp :
+
+                                     PROPOSITION 3.5.1. Let m 2 Lþ ð p  qÞ. Then
+                                                                                                    P P 0
+                                                                          X                            m  j mj s
+                                        ResUð p;qÞ
+                                                         I
+                                           Uð p;q1ÞUð1Þ p;q ðs; s; mÞ ¼   Ip;q1 ðs; s; m0 &
+                                                                                            Þ  det 1
+                                                                                                      i i
+                                                                                                                                                            ð8Þ
+                                                                                         m0
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     318                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                     where the sum is taken over all m0 ¼ ðm01 ; . . . ; m0pqþ1 Þ 2 Lþ ð p  q þ 1Þ such that m01 5
+                                     m1 5 m02 5    5 mpq 5 m0pqþ1 .
+                                        Proof. Note that Uð p; qÞ  Uð p  qÞ and Uð p; q  1Þ  Uð p  q þ 1Þ forms a
+                                     see-saw dual pair in Uð p; pÞ. The corollary now follows from Corollary 3.4.2 by
+                                     applying the theory of see-saw pairs and the branching rule in (7) to the above dual
+                                     pairs.                                                                            &
+                                         We shall ignore the action of Uð1Þ on Ip;q ðs; s; mÞ and write (8) as
+                                                            X
+                                           Ip;q ðs; s; mÞ ¼   Ip;q1 ðs; s; m0 Þ:
+                                                                    m0
+
+
+                                     PROPOSITION 3.5.2. If W is an inﬁnitesimal Uð p; qÞ-submodule of Ip;q ðs; s; mÞ, then
+                                            X
+                                        W¼     ðW \ Ip;q1 ðs; s; m0 ÞÞ
+                                                        m0
+
+                                     where the sum is taken over all m0 ¼ ðm01 ; . . . ; m0pqþ1 Þ 2 Lþ ð p  q þ 1Þ such that
+                                     m01 5 m1 5 m02 5    5 mpq 5 m0pqþ1 .
+                                                                                                             P
+                                         Proof. Let w 2 W. By (8), we can write w as a ﬁnite sum w ¼ m0 wm0 where for
+                                     each m0 in the sum, wm0 2 Ip;q1 ðs; s; m0 Þ. Let Z q1 denote the center of the universal
+                                     enveloping algebra Uðuð p; q  1ÞC Þ. Now Z q1 acts by a different inﬁnitesimal
+                                     character on each wm0 (cf. (3)). Since distinct characters are linearly independent,
+                                     there exists Z 2 Z q1 such that wm0 ¼ Zw 2 W. This proves the proposition. &
+
+                                     4. A Basis of I p;q ðs; r; lÞ
+                                     4.1. In this section, we shall ﬁrst construct a basis B of Ip ðs; sÞ using the Gelfand–
+                                     Zetlin basis of an irreducible representation of Uð pÞ. It turns out that the
+                                     intersection of B with Ip;q ðs; s; mÞ is a basis of Ip;q ðs; s; mÞ. Moreover, this basis
+                                     is compatible with the inﬁnitesimal G-submodules of Ip;q ðs; s; mÞ in the sense
+                                     that the intersection of any inﬁnitesimal G-submodule W of Ip;q ðs; s; mÞ with B
+                                     is a basis of W.
+                                        Readers who are only interested in the main results may skip this section and the
+                                     next two sections and proceed directly to Section 7.
+                                     4.2. We shall ﬁrst review the theory of Gelfand–Zetlin (GZ) basis. Consider the
+                                     chain of subgroups of Uð pÞ:
+                                              Uð1Þ           Uð2Þ         Uð pÞ                                                                          ð9Þ
+                                     where for each 1 4 r 4 p  1, UðrÞ is identiﬁed with the subgroup of matrices
+                                                                       
+                                             X    0                 t
+                                                      2 Mp ðCÞ : XX ¼ Ir
+                                             0 Ipr
+                                     of Uð pÞ. This induces the obvious embedding of their complexiﬁed Lie algebras
+                                              gl1 ðCÞ         gl2 ðCÞ          glp ðCÞ:
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           319
+
+                                     Let Eij 2 glp ðCÞ denote the matrix with 1 at the ði; jÞth entry and 0 elsewhere. Then
+                                     for 1 4 r 4 p, glr ðCÞ is the span of fEij : 1 4 i; j 4 rg.
+                                        Let l 2 Lþ ð pÞ. Recall that tlp denotes a copy of the irreducible representation of
+                                     Uð pÞ with highest weight l. It has a Gelfand–Zetlin (GZ) basis with respect to the
+                                     embedding (9). Each basis vector ½mkl  is represented up to a scalar as a set of
+                                     integers [GZ1]
+                                                        2                                                                    3
+                                                            m1p               m2p                     mp1;p          mpp
+                                                       6           m1;p1           m2;p1   mp2;p1        mp1;p1     7
+                                              ½mkl  ¼ 6
+                                                       4
+                                                                                                                             7
+                                                                                                                             5                            ð10Þ
+                                                                                            
+                                                                                           m11
+
+                                     Here mip ¼ li for i ¼ 1; . . . ; p and mkl are integers satisfying
+                                              mkl 5 mk;l1 5 mkþ1;l :                                                                                     ð11Þ
+                                     We assume that if the above inequality is not satisﬁed by some mk;l1 , then we set
+                                     ½mkl  = 0. If ½mkl  6¼ 0, then for 1 4 r 4 p, ðm1r ; m2r ; . . . ; mrr Þ is the highest weight of
+                                     the glr ðCÞ-module in which ½mkl  lies in.
+                                        There are several normalizations of the GZ bases given in [GZ1], [GG], [Ca] and
+                                     [Z]. In Part 1 of this paper, we will use the normalization given in [Z]. In [Z], the
+                                     author deﬁnes a UðnÞ-invariant Hermitian form on tlp and the normalized GZ basis
+                                     forms an orthonormal basis with respect to the Hermitian form. Hence the GZ
+                                     basis is uniquely determined up to a nonzero scalar depending on the invariant
+                                     Hermitian form.
+                                        Let v ¼ ½mkl  2 tlp . For each 1 4 i 4 r 4 p  1, let vþ                   
+                                                                                                       ir (resp. vir ) be the GZ basis
+                                     vector obtained from v by increasing (resp. decreasing) mir by 1 while leaving the
+                                     rest of the mkl ’s unchanged. Again we have implicitly assumed that v              ir is zero if (11)
+                                     is not satisﬁed. The following theorem about the normalized GZ basis is due to
+                                     Gelfand, Zetlin and Graev (see [Z] and pp. 667–669 [GG]).
+
+                                     THEOREM 4.2.1. Let v be a GZ basis vector in tlp . For 1 4 r 4 p  1,
+
+                                                            X
+                                                            r                              X
+                                                                                           r
+                                              Er;rþ1 v ¼          ai v þ
+                                                                       ir ;   Erþ1;r v ¼         bi v 
+                                                                                                      ir
+                                                            i¼1                            i¼1
+
+
+                                     where ai and bi are nonzero complex numbers.
+                                       The exact values of ai and bi are given in [Z]. For our purposes, it is sufﬁcient to
+                                     know that ai (resp. bi ) is nonzero whenever vþ              
+                                                                                       ir (resp. vir ) is nonzero.
+
+                                     4.3. We shall now describe a basis of Ip ðs; sÞ. We recall that under the action of
+                                     K~ ¼ Uð pÞ  Uð pÞ,
+                                                      X
+                                          Ip ðs; sÞ ¼    Vl
+                                                            l2Lþ ð pÞ
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     320                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+                                                                             ^        ^ ¼ l þ s1p . Hence, Vl has a basis consisting
+                                     where for each l, Vl ﬃ tlp       & tl , and l
+                                                                             p
+                                     of vectors ½mkl   ½m^ k0 l0 , where ½mkl  and ½m^ k0 l 0  are normalized GZ basis of tlp and
+                                       ^
+                                     tlp , respectively. It follows that
+                                                    [
+                                             B¼         f½mkl   ½m^ k0 l0  : ðmkp Þ ¼ lk ; ðm^ kp Þ ¼ ^lk g
+                                                    l2Lþ ð pÞ
+
+                                     is a basis of Ip ðs; sÞ. We note that each vector in B is only deﬁned up to a scalar
+                                     depending on Vl .
+                                        Recall that uð p; qÞ and uð p  qÞ are the Lie algebras of Uð p; qÞ and Uð p  qÞ
+                                     respectively. Let ~k be the Lie algebra of K~ ¼ Uð pÞ  Uð pÞ. We shall identify the
+                                     complexiﬁed Lie algebra of Uð p; pÞ with the Lie algebra gl2p ðCÞ of 2p by 2p com-
+                                     plex matrices with standard basis fEij : 1 4 i; j 4 pg. Under this identiﬁcation,
+                                              ~kC ¼ gl ðCÞ  gl ðCÞ;
+                                                      p        p
+                                              uð p; qÞC ¼ SpanfEij : i; j 2 T g;                                                                          ð12Þ
+                                              uð p  qÞC ¼ SpanfEpþi;pþj : 1 4 i; j 4 p  qg;
+                                     where T ¼ f1; 2; . . . ; pg [ f2p  q þ 1; 2p  q þ 2; . . . ; 2pg (see Section 3.2).
+                                       We now introduce a notation. Let l 2 Lþ ð pÞ and r < p. If u ¼ ½mkl  is a GZ basis
+                                     vector in tlp , then dr ðuÞ shall denote the GZ basis vector for the group UðrÞ obtained
+                                     by deleting the top p  r rows from ½mkl . The following proposition follows from
+                                     Proposition 3.4.1.
+
+                                     PROPOSITION 4.3.1. Let m 2 Lþ ð p  qÞ.
+                                      ðiÞ Recall that m^ ¼ m þ s1pq . The set
+                                           Bm^ ¼ f½mk;l   ½m^ k0 l0  : ðm^ 1;pq ; m^ 2;pq ; . . . ; m^ pq;pq Þ ¼ ^mg
+
+                                          is a basis of Ip ðs; sÞ ^m .
+                                                                               ^m
+                                     ðiiÞ Let v0 be a ﬁxed GZ basis vector in tpq . Then
+                                           Bðv0 Þ :¼ f½mkl   ½m^ k0 l0  2 B : dpq ð½m^ k0 l0 Þ ¼ v0 g
+                                           is a basis of Ip;q ðs; s; mÞ 
+                                                                        & v0 .
+
+
+
+                                                                                                     ^m
+                                     4.4. From now on, we shall ﬁx a GZ basis vector v0 in tpq           and identify Ip;q ðs; s; mÞ
+                                     with the subspace Ip;q ðs; s; mÞ  v0 of Ip ðs; sÞ ^m . We shall show that the basis Bðv0 Þ
+                                                                       &
+                                                                                                        0
+                                     behaves well with respect to restrictions. Suppose that tmpqþ1  tmpq . Then clearly
+                                      ^m 0                                                                                     ^m0
+                                               ^m
+                                     tpqþ1  tpq . There exists a unique (up to scalars) GZ basis vector w ^m0 in tpqþ1
+                                     such that dpq ðw ^m0 Þ ¼ v0 . By deﬁnition
+
+                                              Bðw ^m0 Þ :¼ f½mkl   ½m^ k0 l0  2 B: dpqþ1 ð½m^ k0 l0 Þ ¼ w ^m0 g                                      ð13Þ
+
+                                     and Proposition 4.3.1 states that (13) is a basis of Ip;q1 ðs; s; m0 Þ. Moreover,
+                                             S
+                                     Bðv0 Þ ¼ m0 Bðw ^m0 Þ (disjointed union) where the union is taken over all
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           321
+                                                                                        0
+                                     m0 2 Lþ ð p  q þ 1Þ such that tmpqþ1 contains tmpq . Hence, we have given an alter-
+                                     native proof of Proposition 3.5.1.
+
+                                     PROPOSITION 4.4.1. If W is an inﬁnitesimal Uð p; qÞ-submodule of Ip;q ðs; s; mÞ 
+                                                                                                                     & v0 ,
+
+                                     then W \ Bðv0 Þ ¼ W \ B is a basis of W.
+                                        Proof. We will prove this by induction on q. The case q ¼ 0 is trivial because W
+                                     is a representation of Uð pÞ. Suppose q  1 is true. By Proposition 3.5.2,
+                                                  X
+                                           W¼           ðW \ Ip;q1 ðs; s; m0 ÞÞ:                                     ð14Þ
+                                                         0
+                                                       tmpqþ1 tmpq
+
+                                     We have already shown that Ip;q1 ðs; s; m0 ) is spanned by Bðw ^m0 Þ. By induction
+                                     hypothesis, W \ Bðwm^ 0 Þ is a basis of W \ Ip;q1 ðs; s; m0 Þ. Hence,
+                                                         [
+                                          W \ Bðv0 Þ ¼            ðW \ Bðw ^m0 ÞÞ
+                                                                        0
+                                                                   tmpqþ1 tmpq
+
+                                     is a basis of W.                                                                                                        &
+
+                                     5. Uð pÞ-Isotypic Subspaces in I p;q ðs; r; lÞ
+                                                                                                                           ^
+                                     5.1. As in the previous section, we let v0 be a ﬁxed GZ basis vector in tmpq             and
+                                     identify Ip;q ðs; s; mÞ with the subspace Ip;q ðs; s; mÞ 
+                                                                                              & v0 of Ip ðs; sÞ. Recall that under
+
+                                     the action of K~ ¼ Uð pÞ  Uð pÞ,
+                                                          X
+                                           Ip ðs; sÞ ¼         Vl
+                                                              l2Lþ ð pÞ
+                                                                                    ^
+                                                                 tlp and l^ ¼ l þ s1p . We now ﬁx l 2 L. and deﬁne
+                                     where for each l, Vl ﬃ tlp &
+                                                                              ^
+                                                 Jl^ :¼ Spanf½m^ ij  2 tlp : dpq ð½m^ ij Þ ¼ v0 g;
+                                                                                                                                                          ð15Þ
+                                                                        v0 Þ \ Vl ﬃ tlp &
+                                                 Sl :¼ ðIp;q ðs; s; mÞ &                  Jl^ :
+                                                                                                 ^
+                                     Note that Jl^ is a UðqÞ-submodule of tlp , and Sl is the tlp -isotypic component in
+                                     Ip;q ðs; s; mÞ.
+
+                                     LEMMA 5.1.1. The following statements are equivalent:
+
+                                       ðiÞ Sl 6¼ 0.
+                                      ðiiÞ Jl^ 6¼ 0.
+                                             ^           ^m
+                                     ðiiiÞ tlp contains tpq .
+                                            l            m
+                                     ðivÞ tp contains tpq .
+                                     ðvÞ li 5 mi 5 liþq for i ¼ 1; . . . ; p  q.
+
+                                       Proof. (i) , (ii) , (iii) , (iv) are clear. By the deﬁnition of the GZ basis, (iv)
+                                     implies (v). It remains to show that (v) implies (iv). We will prove this by induction
+                                     on q. If q ¼ 1, then (v) is just the branching rule given in (7). Next suppose q  1 is
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     322                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                     true and q 5 2. We formally deﬁne mi ¼ 1 if i 4 0 and mi ¼ 1 if i > p  q. Since
+                                     li 5 mi and miqþ1 5 liþ1 , we have
+                                              minðli ; miqþ1 Þ 5 maxðliþ1 ; mi Þ:
+                                     Deﬁne l0 ¼ ðl01 ; . . . ; l0p1 Þ by
+                                               
+                                                 maxðliþ1 ; mi Þ;         if            i ¼ 1; . . . ; p  q;
+                                         l0i ¼
+                                                 minðli ; miqþ1 Þ; if                  i ¼ p  q þ 1; . . . ; p  1:
+                                     Then l0 2 Lþ ð p  1Þ and l0i 5 mi 5 l0iþðq1Þ for 1 4 i 4 p  q  1. By induction
+                                                    0                                                         0
+                                     hypothesis, tlp1  tmpq . Since li 5 l0i 5 liþ1 , then by (7) tlp  tlp1  tmpq . &
+                                     5.2. The following two lemmas are vital to our later investigations.
+
+                                     LEMMA 5.2.1. Let W be an inﬁnitesimal G-submodule of Ip;q ðs; s; mÞ. If W \ Sl 6¼ 0,
+                                     then Sl W.
+                                                                                                                            ^m
+                                         Proof. Let Ip;q ¼ Ip;q ðs; s; mÞ and let v0 be a ﬁxed GZ basis vector of tpq         . By
+                                     Proposition 4.3.1(ii), we identify Ip;q ’ Ip;q &   v0 in Ip ðs; sÞ and Ip;q &
+                                                                                                                   v0 has a basis
+                                     Bðv0 Þ. By Proposition 4.4.1, W \ Bðv0 Þ is a basis of W. Since W \ Sl 6¼ 0, W
+                                     contains a vector of the form w ¼ u       & v; where u is the highest weight vector of tl ,
+                                                                                                                                  p
+                                                                             l^
+                                     and v is a GZ basis vector for tp such that dpq ðvÞ ¼ v0 .
+                                                                                         ^
+                                        Suppose x ¼ ½mkl  is a GZ basis vector of tlp . Let j 5 p  q, and let xþ               
+                                                                                                                      ij (resp. xij )
+                                     denote the GZ basis vector obtained from x by increasing (resp. decreasing) mij by 1
+                                     (cf. Section 4.2). Then it sufﬁces to show that if u  x 2 W, then u  x             ij 2 W.
+                                        We refer to (12) and Epþr1;pþr ; Epþr;pþr1 2 uðqÞC uð p; qÞC for r ¼ p  q þ
+                                     2; . . . ; p. By Theorem 4.2.1
+                                                                  X
+                                                                  r                                            X
+                                                                                                               r
+                                              Epþr1;pþr x ¼             aj xþ
+                                                                             rj   and     Epþr1;pþr x ¼             bj x
+                                                                                                                         rj
+                                                                   j¼1                                         j¼1
+
+                                     where aj and bj are nonzero complex numbers. Note that the subscripts are shifted
+                                     by p because uð pÞC ¼ Mp ðCÞ is embedded in the lower right corner of M2p ðCÞ. Thus
+                                       ðEpþr1;pþr xÞ and u 
+                                     u&                       & ðEpþr;pþr1 xÞ lie in W. Since W is spanned by a subset of
+                                               & x 2 Bðv0 Þ. This proves that u 
+                                     Bðv0 Þ, u                                     & x 2 W.                           &
+                                                  rj                                   rj
+
+                                         For each m 2 Lþ ð p  qÞ, let
+                                              Lþ ð p; mÞ ¼ fl 2 Lþ ð pÞ : li 5 mi 5 liþq ; 81 4 i 4 p  qg:                                               ð16Þ
+                                                                                                    þ
+                                     Then by Lemma 5.1.1, Sl 6¼ 0 for l 2 L ð p; mÞ and
+                                                          X
+                                         Ip;q ðs; s; mÞ ¼   Sl :
+                                                                 l2Lþ ð p;mÞ
+
+                                         The following lemma follows from Lemma 5.2.1
+
+                                     LEMMA 5.2.2. Let W be an inﬁnitesimal Uð p; qÞ-submodule of Ip;q ðs; s; mÞ, and let
+                                              Lþ ðWÞ ¼ fl 2 Lþ ð p; mÞ : Sl \ W 6¼ 0g:                                                                    ð17Þ
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           323
+                                                    P
+                                     Then W ¼ l2Lþ ðWÞ Sl : Consequently if W1                              W2 are inﬁnitesimal submodules of
+                                     Ip;q ðs; s; mÞ, then
+                                                                                        X
+                                              ResUð p;qÞ
+                                                 Uð pÞUðqÞ W2 =W1 ¼                                 Sl :                                                    &
+                                                                               l2Lþ ðW2 ÞLþ ðW1 Þ
+
+
+
+                                     6. Transition Coe⁄cients
+                                     6.1. In this section, we will study the action of the Lie algebra on Sl .
+                                       First we recall the following fact about representations of Uð pÞ.
+                                                             X
+                                                             p                                   X
+                                                                                                 p
+                                              Cp  tlp ¼           tlþe
+                                                                    p ;
+                                                                       i
+                                                                              ðCp Þ  tlp ¼           tle
+                                                                                                        p :
+                                                                                                            i
+                                                                                                                                                          ð18Þ
+                                                             i¼1                                 i¼1
+
+                                     Note that if l  ei is not a dominant weight, then we set tle
+                                                                                                p
+                                                                                                   i
+                                                                                                     ¼ 0.
+                                     6.2. The Lie algebras of Uð p; qÞ and Uð p; pÞ have Cartan decompositions
+
+                                              uð p; qÞ ¼ k  p   uð p; pÞ ¼ ~k  p;
+                                                                       and       ~
+                                     where k ¼ uð pÞ  uðqÞ and ~k ¼ uð pÞ  uð pÞ. As k and ~k modules, we have
+
+                                                  pC ¼ pþ  p ;              ~pC ¼ ~pþ  ~p ;
+
+                                                 pþ ﬃ Cp &
+                                                          ðCq Þ ;           p ﬃ ðCp Þ  q
+                                                                                          &C ;
+
+
+                                                  ~pþ ﬃ Cp    p 
+                                                           & ðC Þ ;           p~  ﬃ ðCp Þ &
+                                                                                             Cp :
+
+                                                                                                   ^m
+                                     By Proposition 4.3.1(ii), we ﬁx a GZ basis vector v0 2 tpq        and identify Ip;q ðs; s; mÞ
+                                     with the subspace Ip;q ðs; s; mÞ  v0 of Ip ðs; sÞ. We now ﬁx l 2 Lþ ð p; mÞ. Recall that
+                                                                      &
+                                                                                                      ^        ^ ¼ l þ s1p . Let
+                                     Vl is the Uð pÞ  Uð pÞ-type of Ip ðs; sÞ isomorphic to tlp 
+                                                                                                 & tl , where l
+                                                                                                      p
+                                     L : ~pC  Vl ! Ip ðs; sÞ be the Lie algebra action on Ip ðs; sÞ. It is also a Uð pÞ  Uð pÞ
+                                     map. Let pi : Ip ðs; sÞ ! Vlei denote the projection map. We consider the following
+                                     commutative diagram
+
+                                                                              ^                             L      Pp                   pi
+                                               ððCp Þ  tlp Þ    p
+                                                               & ðC  tl Þ
+                                                                       p            ¼     p~   Vl         !         j¼1 Vlej       !       Vlei
+
+                                                              S                               S                          S                        S
+
+
+                                                                                                            L       Pp                  pi
+                                               ððCp Þ  tlp Þ &
+                                                                ðCq  Jl^ Þ ¼            p  S l          !         j¼1 Slej       !       Slei
+                                                                                                                                                          ð19Þ
+
+                                     Deﬁne Tl;lei ¼ pi " L and let T 0l;lei : p  Sl ! Slei denote its restriction to
+                                                                   P
+                                     p  Sl . By (18), ~p  Vl ¼ pa;b¼1 Vab as a Uð pÞ  Uð pÞ-module where Vab ’
+                                              ^
+                                         a & lþeb
+                                     tle
+                                      p     tp . Hence, Tl;lei is either zero or it is an isomorphism on Vii .
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     324                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                         Similarly we deﬁne
+                                              Tl;lþei : p~ þ  Vl ! Vlþei and T 0l;lþei : pþ  Sl ! Slþei
+                                     by replacing ~p , p , l  ei in (19) by ~p , p , l þ ei respectively. We will state Prop.
+                                     5.15 of [Le].
+
+                                     PROPOSITION 6.2.1. Let a ¼ ðs þ p  sÞ=2, b ¼ ðs þ p þ sÞ=2 and 1 4 j 4 p.
+                                     ðiÞ If l þ ej 2 Lþ ð pÞ, then Tl;lþej 6¼ 0 if and only if lj 6¼ a þ j  1.
+                                     ðiiÞ If l  ej 2 Lþ ð pÞ, then Tl;lej 6¼ 0 if and only if lj 6¼ b  p þ j.
+
+
+                                                                                                           ^                                          ^
+                                     6.3. For each 1 4 i 4 p, let pri : Cq  Jl^ ! tplþei and prdi : ðCq Þ  Jl^ ! tplei be
+                                     respectively the composition of the maps
+
+                                                                        ^ proj     ^
+                                              Cq  Jl^ ,! Cp  tlp ! tplþei                                                                              ð20Þ
+                                                                          ^ proj ^
+                                              ðCq Þ  J ^l ,! ðCp Þ  tlp ! tplei :                                                                   ð21Þ
+
+                                     where proj is deﬁned by using (18). We remark that the images of pri and prdi lie in
+                                       ^ i and Jle
+                                     Jlþe            ^ i respectively.
+                                        By (19), we see that T 0l;lei 6¼ 0 if and only if prpiþ1 6¼ 0 and Tl;lei 6¼ 0. Simi-
+                                     larly T 0l;lþei 6¼ 0 if and only if prdpiþ1 6¼ 0 and Tl;lþei 6¼ 0. Note that
+                                     ðl þ^ ei Þ ¼ l^  epþ1i .
+
+                                     LEMMA 6.3.1.
+
+                                              ^ i 6¼ 0, then pri 6¼ 0.
+                                      ðiÞ If Jlþe
+                                                               d
+                                              ^ i 6¼ 0, then pri 6¼ 0.
+                                     ðiiÞ If Jle
+                                       We shall postpone the proof of this lemma to the end of this subsection. If U is a
+                                     subspace of Ip;q ðs; s; mÞ, we let p ðUÞ ¼ Lðp  UÞ.
+
+                                     PROPOSITION 6.3.2. Let l 2 Lþ ð p; mÞ so that Sl is nonzero in Ip;q ðs; s; mÞ. Let W
+                                     be the inﬁnitesimal Uð p; qÞ-submodule generated by Sl . Let a ¼ ðs þ p  sÞ=2,
+                                     b ¼ ðs þ p þ sÞ=2 and 1 4 j 4 p.
+                                      ðiÞ If l þ ej 2 Lþ ð p; mÞ, then Slþej                  W if and only if lj 6¼ a þ j  1.
+                                     ðiiÞ If l  ej 2 Lþ ð p; mÞ, then Slej                  W if and only if lj 6¼ b  p þ j.
+                                        Proof. We shall prove (ii). The proof for (i) is similar.
+                                                                                               P
+                                       First if lj ¼ b  p þ j, then by [Le], the subspace Y ¼ l0j 5 lj Vl0 is an inﬁnite-
+                                     simal Uð p; pÞ-submodule of Ip ðs; sÞ, so that
+                                                                       X
+                                          Y \ ðIp;q ðs; s; mÞ 
+                                                              & v0 Þ ¼   Sl0
+                                                                                 l0j 5 lj
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           325
+
+                                     is an inﬁnitesimal Uð p; qÞ-submodule of Ip;q ðs; s; mÞ &  v0 . In particular, Slej \
+                                     W ¼ 0.
+                                        Conversely suppose lj 6¼ b  p þ j, then by Proposition 6.2.1 Tl;lej 6¼ 0. By
+                                     Lemma 6.3.1, prpjþ1 6¼ 0 and, hence, T 0l;lej 6¼ 0. From the deﬁnition of
+                                     T 0l;lej , its image must lie in W \ Slej . Therefore, W \ Slej 6¼ 0 and by Lemma
+                                     5.2.1, Slej W.                                                                     &
+
+                                     6.4. We shall devote the rest of this section to the proof of Lemma 6.3.1. We write
+                                     l^ ¼ ðl^ 1 ; l^ 2 ; . . . ; l^ p Þ and let l~ ¼ ðl~ 1 ; l~ 2 ; . . . ; l~ pþ1 Þ be deﬁned by l~ 1 ¼ l^ 1 þ 1 and
+                                                                                                                                   ~
+                                     l~ j ¼ l^ j1 for j 5 2. We consider the irreducible representation tlpþ1 of Uð p þ 1Þ
+                                     with highest weight l.               ~ Let BðlÞ~ be the GZ basis of tl~ . Each member ½mkl 
+                                                                                                                           pþ1
+                                     of Bð ~lÞ has p þ 1 rows, and mk;pþ1 ¼ l~ k for 1 4 k 4 p þ 1. We shall identify
+                                        ^           ^                                                              ~
+                                     tlp and tplþei with the following subspaces of tlpþ1 :
+                                                    ^                   ~ : mkp ¼ l^ k ; k ¼ 1; . . . ; pg;
+                                                  tlp ¼ Spanf½mkl  2 BðlÞ
+                                                ^                      ~ : mip ¼ l^ i þ 1; mkp ¼ l^ k if k 6¼ ig;
+                                              tplþei ¼ Spanf½mkl  2 BðlÞ
+                                                                                                                                                          ð22Þ
+                                                 Jl^ ¼ Spanf½mkl  2 Bð ~lÞ : mkp ¼ ^lk ; dpq ð½mkl Þ ¼ v0 g;
+                                              J ^ ¼ Spanf½mkl  2 BðlÞ   ~ : mkp ¼ l^ k þ dki ; dpq ð½mkl Þ ¼ v0 g:
+                                                lþei
+                                                        ^          ^                        ~
+                                     Note that tlp and tplþei occurs in tlpþ1 with multiplicity one.
+                                       Let Wp glpþ1 ðCÞ denote the span of fE1;pþ1 ; E2;pþ1 ; . . . ; Ep;pþ1 g. Then Wp ’ Cp
+                                                                                 ^  P ^                           l^  l~
+                                     as representations of Uð pÞ, so that Wp  tlp ’ i tlþe i . Let L : W  t ! t
+                                                                                                             p    p   pþ1 be
+                                     the Uð pÞ-map deﬁned by the Lie algebra action: LðX  wÞ ¼ Xw. Let ~v denote
+                                                                       ^
+                                     the highest weight vector of tlp . Then ~v ¼ ½mkl  where mpl ¼ l^ p for all l 4 p.
+                                     By Theorem 4.2.1
+                                                                                    X
+                                                                                    p
+                                              LðEp;pþ1  v~ Þ ¼ Ep;pþ1 v~ ¼               ai v~ þ
+                                                                                                ip ;                                                      ð23Þ
+                                                                                    i¼1
+
+                                     where ai 6¼ 0 and v~ þ                                       vþ
+                                                          ip is the GZ basis vector obtained from ~ ip by increasing mip by 1.
+                                                                                                             ^
+                                     This shows that the image of L has a nontrivial component in tplþei . This implies
+                                                                  ^lþei        ^l
+                                     that L is injective on t           Wp  tp and, hence, L is an injection.
+
+                                         Proof of Lemma 6:3:1. We will only prove (i) as the proof of (ii) is similar.
+                                        Using the above identiﬁcation, Cq is the span of fEpqþ1;pþ1 ; . . . ; Ep;pþ1 g in Wp .
+                                     If we replace ~v ¼ ½mij  in (23) by a GZ basis vector in Jl^ , then pri ðEp;pþ1  ~vÞ ¼ ai ~vþ
+                                                                                                                                   ip .
+                                     It remains to show that we can choose ~v such that ~vþ   ip is still a GZ  basis vector,  that
+                                                                    ^
+                                     is, ~vþ
+                                           ip 6¼ 0. Indeed J ^lþei tlþei is nonzero implies that mi1;p > mip . Pick a nonzero
+                                     GZ basis vector v1 ¼ ½m0kl  2 J ^l . Suppose
+                                              m0ip ¼ m0i1;p1 ¼    ¼ m0ir;pr < m0ir1;pr1 4    4 m0iq;pq ¼ ^mi :
+                                     This implies that
+                                              m0ir1;pr 5 m0ir2;pr1 5    m0i1;p > m0ip ¼ m0ir;pr :
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     326                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                     Let ~v be the (nonzero) GZ basis vector obtained from v1 by increasing
+                                     mi;p1 ; . . . ; mir;pr each by 1. It is now easy to see that ~vþ
+                                                                                                       ip 6¼ 0. This proves Part
+                                     (i) of the lemma.                                                                       &
+                                     6.5. We could replace (23) by the Clebsch–Gordan formula of Uð pÞ (see Chapter 5
+                                     [KV]) and give an alternative proof of Lemma 6.3.1. In Part 2, we will apply
+                                     a similar argument to prove a statement analogous to Lemma 6.3.1 for
+                                     the group Spinð pÞ. However, the Clebsch–Gordan formula for Spinð pÞ is not
+                                     available.
+
+
+                                     7. Module Structure
+                                     7.1. In this section, we shall determine the reducibility of Ip;q ðs; s; mÞ, and describe
+                                     its module structure when it is reducible. We shall ﬁrst review the results of [Le]
+                                     on the structure of Ip ðs; sÞ. Let a ¼ ðs þ p  sÞ=2 and b ¼ ðs þ p þ sÞ=2. Then
+                                     Ip ðs; sÞ is reducible if and only if a and b are integers, or equivalently, s is an integer
+                                     and s þ p # sðmod 2Þ. Let
+
+                                              cx ¼ maxða; b  pÞ and                   cy ¼ minða; b  pÞ:
+
+                                     If Ip ðs; sÞ is reducible, then its irreducible subquotients are of the form Raðr;tÞ where
+                                     r and t are nonnegative integers such that p  cx þ cy 4 r þ t 4 p and as a
+                                     Uð pÞ  Uð pÞ-module,
+                                                              X                     ^
+                                              Raðr;tÞ ¼                     tlp &
+                                                                                 tlp
+                                                          l2Lþ ðRaðr;tÞ Þ
+
+
+                                     where
+                                                                                                                          
+                                              Lþ ðRaðr;tÞ Þ ¼ l 2 Lþ ð pÞ : lr 5 cx þ r 5 lrþ1 ; lpt 5 cy þ p  t 5 lptþ1 :
+                                                                                                                                                          ð24Þ
+
+                                     7.2. The detailed module structure of Ip ðs; sÞ can best be described by a directed
+                                     simple group G ¼ GðIp ðs; sÞÞ, called the module diagram of Ip ðs; sÞ (see Section 7 of
+                                     [Le]). The vertex set of G is the set of all irreducible subquotients Raðr;tÞ in Ip ðs; sÞ.
+                                     There is a directed edge from the node R1 to the node R2 if and only if there are
+                                     submodules U and V of Ip ðs; sÞ such that V U and there is a nonsplit exact
+                                     sequence of inﬁnitesimal Uð p; pÞ-modules 0 ! R2 ! U=V ! R1 ! 0:
+                                       We shall also arrange the nodes in G in such a way that all the edges are directed
+                                     downward. Then one can recover the lattice of submodules of Ip ðs; sÞ from the
+                                     graph G. Note that if we reverse the direction of the edges of G, we obtain the
+                                     module diagram for the dual representation of Ip ðs; sÞ. Now Ip ðs; sÞ is iso-
+                                     morphic to the dual representation of Ip ðs; sÞ. So we only need to describe G
+                                     for s 4 0 (or equivalently, a þ b 5  p).
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           327
+
+
+
+
+                                     Figure 1.
+
+
+
+
+                                       If s 4  p (or equivalently, a þ b 5 0), then G is given in Figure 1. If
+                                     p þ 1 4 s 4 0, then G can be obtained by deleting the lowest s þ p rows from
+                                     the graph in Figure 1.
+                                     7.3. As in the previous section, we shall identify Ip;q ðs; s; mÞ with the subspace
+                                                    & v0 of Ip ðs; sÞ, where v0 is a ﬁxed GZ-basis vector in tm^ .
+                                     Ip;q ðs; s; mÞ                                                                 pq
+                                     Suppose Raðr;tÞ is an irreducible subquotient in Ip ðs; sÞ, and W1 W2 are
+                                     inﬁnitesimal Uð p; pÞ-submodules of Ip ðs; sÞ such that Raðr;tÞ ¼ W2 =W1 . We deﬁne
+
+                                              R0aðr;tÞ ¼ ðW2 \ IÞ=ðW1 \ IÞ;
+
+                                     where I ¼ Ip;q ðs; s; mÞ. There is a canonical injection R0aðr;tÞ ,!Raðr;tÞ . Note that as a
+                                     representation of Uð pÞ  UðqÞ,
+                                                        X
+                                           R0aðr;tÞ ¼          Sl
+                                                          l2Lþ ðR0aðr;tÞ Þ
+
+
+                                     where (cf. (16) and (24))
+                                                    
+                                          Lþ R0aðr;tÞ :¼ Lþ ðRaðr;tÞ Þ \ Lþ ð p; mÞ:
+
+                                       Note that Ip;q ðs; s; m Þ is isomorphic to the dual representation of Ip;q ðs; s; mÞ.
+                                     Thus if s is real, we may assume that s 4 0. We are now ready to state our ﬁrst main
+                                     theorem.
+
+                                     THEOREM 7.3.1. Let s 2 C, m 2 Lþ ð p  qÞ, a ¼ ðs þ p  sÞ=2 and b ¼
+                                     ðs þ p þ sÞ=2.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     328                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                     ðAÞ      ðaÞ If s 62 R, then Ip;q ðs; s; mÞ is irreducible.
+                                              ðbÞ If s 4 0, then Ip;q ðs; s; mÞ is irreducible if and only if either one of the
+                                                  following conditions holds:
+
+                                                     ðiÞ Both a and b are non-integers.
+                                                    ðiiÞ a and b are integers, 2q 4 p and there exist i; j such that
+                                                         q þ 1 4 i; j 4 p  q and
+
+                                                                  mi ¼ mi1 ¼    ¼ miqþ1 ¼ a þ i
+                                                                  mj ¼ mj1 ¼    ¼ mjqþ1 ¼ b  p þ j þ 1:
+
+
+                                     ðBÞ Suppose s 4 0 and Ip;q ðs; s; mÞ is reducible. In this case, a; b 2 Z, so that Ip ðs; sÞ is
+                                         also reducible.
+
+                                              ðaÞ If Raðr;tÞ is an irreducible subquotient in Ip ðs; sÞ and R0aðr;tÞ 6¼ 0, then R0aðr;tÞ is
+                                                  an irreducible subquotient of Ip;q ðs; s; mÞ.
+                                              ðbÞ All irreducible subquotients of Ip;q ðs; s; mÞ are of the form R0aðr;tÞ .
+                                              ðcÞ Let G and G0 be the module diagrams of Ip ðs; sÞ and Ip;q ðs; s; mÞ respectively,
+                                                  then G0 is the subgraph of G obtained by removing the set of vertices
+
+                                                           V 0 ¼ fRaðr;tÞ : R0aðr;tÞ ¼ 0g
+                                                    and removing all edges connected to the vertices in V0 . In other words, G0 is a
+                                                    spanning subgraph of G.
+                                       We shall postpone the proof of this theorem to Section 7.7. A consequence of
+                                     Part (B)(c) of the theorem is the following corollary which we will prove in
+                                     Section 7.8.
+
+                                     COROLLARY 7.3.2. Suppose W 0 is an inﬁnitesimal Uð p; qÞ-submodule of
+                                                    & v0 , then there exists an inﬁnitesimal Uð p; pÞ-submodule W of Ip ðs; sÞ
+                                     Ip;q ðs; s; mÞ 
+                                     such that W 0 ¼ W \ ðIp;q ðs; s; mÞ &   v0 Þ.
+
+                                     7.4. We shall describe a method of deciding if R0aðr;tÞ 6¼ 0. Deﬁne
+
+                                              Si ¼ fz 2 Z : mi 4 z 4 miq g                            S1i ¼ fz 2 Z : z 4 cy þ i  1g
+                                              S2i ¼ fz 2 Z : cy þ i 4 z 4 cx þ i  1g                  S3i ¼ fz 2 Z : cx þ i 4 zg
+
+                                     for i ¼ 1; . . . ; p. Here mi ¼ 1 if i 4 0 and mi ¼ 1 if i > p  q. Note that
+                                     S1i [ S2i [ S3i ¼ Z. Deﬁne L0 ¼ f3g, Lpþ1 ¼ f1g and Li :¼ fj : Si \ Sji nonemptyg
+                                     if 1 4 i 4 p. Hence Li is a subset of f1; 2; 3g. Next we deﬁne
+
+                                              ej ¼ minfi : j 2 Li g fj ¼ maxfi : j 2 Li g:
+
+                                     Clearly e3 ¼ 0, f1 ¼ p þ 1, e3 4 e2 4 e1 , f3 4 f2 4 f1 , f3 5 e2  1 and f2 5 e1  1.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           329
+
+                                     LEMMA 7.4.1. The following conditions are equivalent:
+
+                                       ðiÞ R0aðr;tÞ 6¼ 0.
+                                      ðiiÞ r þ t 5 p  cx þ cy . 3 2 Lr , 1 2 Lptþ1 . If r < p  t, then 2 2 Lrþ1 , 2 2 Lpt and
+                                           1 2 Lptþ1 .
+                                     ðiiiÞ r þ t 5 p  cx þ cy , r 4 f3 and p  t 5 e1  1. If r < p  t, then e2  1
+                                           4 r < p  t 4 f2 .
+                                     ðivÞ r þ t 5 p  cx þ cy , e2  1 4 r 4 f3 and e1  1 4 p  t 4 f2 .
+
+                                        Proof. The condition r þ t 5 p  cx þ cy in (ii) to (iv) is to ensure that Raðr;tÞ 6¼ 0.
+                                     Then (i) ) (ii) , (iii) are clear from the deﬁnitions of Li ; ei and fi . To prove (iii) ,
+                                     (iv), we just have to consider the cases r ¼ p  t and r < p  t separately.
+
+                                         Finally we show (ii) ) (i). De¢ne l 2 Lþ ð pÞ by
+                                                  8
+                                                  >
+                                                  < maxðcx þ r; mj Þ;                       if 1 4 j 4 r;
+                                              lj ¼ maxðcy þ p  t; mj Þ;                    if r þ 1 4 j 4 p  t;
+                                                  >
+                                                  : minðc þ p  t; m Þ;
+                                                         y            jq                   if p  t þ 1 4 j 4 p:
+
+                                     Then Sl 6¼ 0 and Sl                 R0aðr;tÞ .                                                                          &
+
+                                     7.5. We now describe how the module diagram G0 of Ip;q ðs; s; mÞ can be obtained
+                                     from that of Ip ðs; sÞ. For each 1 4 j 4 p, let
+                                              lj ¼ fRaðj;tÞ 2 Gg         and          rj ¼ fRaðr;pjÞ 2 Gg:
+                                     Then lj and rj form two ‘straight lines’ in G passing through Rð j;pjÞ . The case
+                                     s 4  p is illustrated in Figure 2.
+                                        Starting with the module diagram G of Ip ðs; sÞ, we ﬁrst discard all the vertices on
+                                     lj for j < e2  1 and for j > f3 . Next we discard all the vertices on rj for j < e1  1
+                                     and for j > f2 . We also remove the edges connected to the discarded vertices.
+                                     Rename the remaining vertices Raðr;tÞ by R0aðr;tÞ . By Lemma 7.4.1(iv) and Theorem
+
+
+
+
+                                                Figure 2.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     330                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+
+
+                                                Figure 3.
+
+
+                                     7.3.1(B)(c), the resulting subgraph G0 is the module diagram for Ip;q ðs; s; mÞ. We
+                                     illustrate this in Figure 3 where the shaded area is G0 .
+
+                                     7.6. We study an interesting special case. If s 2 Z, s 4  p and s þ s ¼ p, then
+                                     Ip ðs; sÞ contains a unique ﬁnite-dimensional subrepresentation of Uð p; pÞ, namely
+                                     Rað0;0Þ (cf. Section 7.1). Rað0;0Þ has highest weight g ¼ ða; a; . . . ; a; 0; 0; . . . ; 0Þ 2
+                                     Lþ ð2pÞ where there are p copies of a’s. Using the branching rules in Exercise
+                                     6.12 in [FH] and the Littlewood–Richardson numbers, we can show that
+                                                                          X
+                                             ResUð p;pÞ
+                                                Uð p;qÞUð pqÞ Rað0;0Þ ¼   tZp;q 
+                                                                                  &t
+                                                                                     m
+                                                                                     pq ;                                     ð25Þ
+                                                                                  Z;m
+
+                                     where the sum is taken over all highest weight Z ¼ ðZ1 ; . . . ; Zpþq Þ 2 Lþ ð p þ qÞ and
+                                     m ¼ ðm1 ; . . . ; mq Þ 2 Lþ ð p  qÞ satisfying Zi 5 0, mj 5 0 and
+
+                                              Z1 ¼ Z 2 ¼    ¼ Zq ¼ a
+
+                                              Zqþi þ mi ¼ a         for i ¼ 1; . . . ; p  q:
+
+                                     One can verify that the (25) is in agreement with Theorem 7.3.1.
+
+                                     7.7. Proof of Theorem 7.3.1. We ﬁrst prove the ‘only if ’ part of (A)(b). Suppose
+                                     a; b 2 Z and Ip;q ðs; s; mÞ is irreducible. We assume that s 4  1, so that for any
+                                     1 4 j 4 p, a þ j  1 5  b þ p  j. First we note that a þ q  1 < mq and
+                                     ðb þ q  1Þ < mp2qþ1 . Let i ¼ minft : a þ t  1 5 mt g. Then i 5 q. We claim
+                                     that mi ¼ a þ i  1. Otherwise, since a þ i  2 < mi1 , we have
+
+                                              mi < a þ i  1 ¼ ða þ i  2Þ þ 1 4 mi1 4 miq :
+                                     Then we can choose l and Z in Lþ ð p; mÞ such that li ¼ a þ i  1 and Zi ¼ miq . Then
+                                     l and Z belong to different constituents which implies that Ip;q ðs; s; mÞ is reducible.
+                                     Thus we must have mi ¼ a þ i  1. We also claim that mi ¼ miq , for otherwise we
+                                     can again ﬁnd two elements of Lþ ð p; mÞ belonging to two different constituents.
+                                     Similarly let j ¼ minft :  b þ n  t > mt g. Then similar arguments show that
+                                     mj ¼ mjq . This proves the ‘only if’ part of the statement.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           331
+
+                                        Next we prove (A)(a) and the ‘if ’ part of (A)(b). First we assume that a and b are
+                                     not integers and shall show that Ip;q ðs; s; mÞ is irreducible. The proof of this is
+                                     similar to that of Theorem 6.2 of [Le]. Suppose that l; l0 2 Lþ ð p; mÞ, that is,
+                                     Sl and Sl0 are nonzero isotypic components for Uð pÞ in Ip;q ðs; s; mÞ. It sufﬁces
+                                     to prove that the inﬁnitesimal Uð p; qÞ-submodule W of Ip;q ðs; s; mÞ generated
+                                     by Sl contains Sl0 . To do this, we construct a sequence ðZðmÞ Þnm¼0 in Zn inductively
+                                     as follows. Let 1 4 i1 < i2 <    < ia 4 p and p 5 j1 > j2 >    > jb 5 1 be such that
+                                     liu 4 l0iu and ljv > l0jv , 81 4 u 4 a, 1 4 v 4 b, and fi1 ; . . . ; ia g [ f j1 ; . . . ; jb g
+                                     ¼ f1; 2; . . . ; pg. Set Zð0Þ ¼ l. For 1 4 m 4 a, we set
+                                                       0
+                                                        lim ;    k ¼ im ;
+                                           ZðmÞ
+                                             k    ¼      ðm1Þ
+                                                        Zk     ; k 6¼ im ;
+
+                                     and for a þ 1 4 m 4 p,
+                                                (
+                                           ðmÞ    l0jma ;   k ¼ jma ;
+                                          Zk ¼      ðm1Þ
+                                                  Zk       ; k 6¼ jma :
+
+                                     It is clear that ZðmÞ 2 Lþ ð pÞ. By Lemma 5.1.1, li 5 mi 5 liþq and l0i 5 mi 5 l0iþq for
+                                     i ¼ 1; 2; . . . ; p  q. Since for each m the components of ZðmÞ are taken from these
+                                     numbers, we clearly have
+
+                                              ZðmÞ       ðmÞ
+                                               i 5 mi 5 Ziþq             8i ¼ 1; 2; . . . ; p  q:
+
+                                     Thus ZðmÞ 2 Lþ ð p; mÞ. We now claim that W contains SZð1Þ . First we note that
+                                     Zð1Þ ¼ l þ k1 ei1 for some nonnegative integer k1 and l þ tei1 2 Lþ ð p; mÞ for
+                                     1 4 t 4 k1  1. By Proposition 6.3.2, since li1 6¼ a þ i1  1, Slþei1 W. Similarly,
+                                     since li1 6¼ a þ t þ i1  1 for 1 4 t 4 k1  1, Slþ2ei1 ; . . . ; Slþk1 ei1 ¼ SZð1Þ are con-
+                                     tained in W. Next we note that Zð2Þ ¼ Zð1Þ þ k2 ei2 for some nonnegative integer
+                                     k2 . It is now clear that if we proceed with the above arguments along the sequence
+                                     ðZðmÞ Þ, we will obtain SZðnÞ ¼ Sl0 W.
+                                         Similar arguments also prove (B)(a).
+                                         If condition (A)(b)(ii) holds, then by Lemma 7.4.1 one can check that R0aðr;tÞ 6¼ 0 if
+                                     and only if ðr; tÞ ¼ ði; p  jÞ. Hence, Ip;q ðs; s; mÞ ¼ R0aði;pjÞ is irreducible by b(i).
+                                         Part (B)(b) is true because the Uð pÞ-isotypic components Sl contained in all the
+                                     R0aðr;tÞ exhaust all the Uð pÞ-isotypic components in Ip;q ðs; s; mÞ.
+                                         Finally we prove (B)(c). Let R1 ¼ Raðr;tÞ , R2 ¼ Raðu;vÞ , R01 ¼ R0aðr;tÞ and R02 ¼
+                                     Raðu;vÞ . Suppose that there is a directed edge in G from R1 to R2 and R01 and R02
+                                       0
+
+                                     are nonzero. We need to show that there is a directed edge from R01 to R02 in G0 .
+                                     To do this, we need to show that there exist l 2 Lþ ðR01 Þ and Z 2 Lþ ðR02 Þ such that
+                                     pC ðSl Þ \ SZ 6¼ 0. From Figure 1, we see that R1 ! R2 if and only if ðu; vÞ ¼
+                                     ðr  1; tÞ or ðu; vÞ ¼ ðr; t  1Þ. We shall only prove the case ðu; vÞ ¼ ðr  1; tÞ as
+                                     the other case is similar. Let Ar ¼ ðb þ p  rÞ and Br ¼ a þ r  1. Since both
+                                     R0aðr;tÞ and R0aðr1;tÞ are nonzero, the intersections of the intervals ½mr ; mrq \
+                                     ½Ar ; Br  6¼ ; and ½mr ; mrq  \ ½Br ; 1Þ 6¼ ;. In particular, Br ; Brþ1 2 ½mr ; mrq . Thus
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     332                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                     there exist l 2 R0aðr;tÞ and Z 2 R0aðr1;tÞ such that lr ¼ Br þ 1, Zr ¼ Br and lj ¼ Zj for
+                                     all j 6¼ s. By the proof of Proposition 6.3.2, p ðSl Þ \ SZ 6¼ 0. This completes the
+                                     proof.                                                                                  &
+
+                                     7.8. Proof of Corollary 7.3.2. If the corollary holds for W01 and W02 in Ip;q , then it
+                                     holds for W01 þ W02 . Hence we may assume that W0 is generated by a single vector.
+                                        Let
+                                              Raðr1 ;t1 Þ ! Raðr2 ;t2 Þ !    ! Raðrk ;tk Þ
+
+                                     be a directed path in the module diagram G. Suppose R0aðr1 ;t1 Þ and R0aðrk ;tk Þ are
+                                     nonzero, then from the description of G0 in Section 7.5, R0aðri ;ti Þ 6¼ 0 for all
+                                     i ¼ 1; . . . ; k. Then Corollary 7.3.2 follows from the general theory of module dia-
+                                     grams.                                                                             &
+
+                                     8. Unitarity
+                                     8.1. In this section, we shall determine the unitarity of Ip;q ðs; s; mÞ and its sub-
+                                     quotients. Recall that we can identify Ip;q ðs; s; mÞ ’ Ip;q ðs; s; mÞ 
+                                                                                                            & v0 in Ip ðs; sÞ, where
+                                                                           ^m
+                                     v0 is a ﬁxed GZ basis vector in tpq     . Thus if Ip ðs; sÞ is unitarizable, then so is
+                                     Ip;q ðs; s; mÞ. So there are two obvious families of unitarizable representations:
+                                     unitary induction and the restriction of the complementary series of Uð p; pÞ.
+                                     Similarly, if Ip ðs; sÞ is reducible and Raðr;tÞ is a unitary subquotient in Ip ðs; sÞ
+                                     such that R0aðr;tÞ 6¼ 0, then R0aðr;tÞ is also unitary. We shall determine which
+                                     other representations Ip;q ðs; s; mÞ or their subquotients are unitary.
+
+                                     THEOREM 8.1.1. Let s 2 C, s 2 Z, m 2 Lþ ð p  qÞ, a ¼ ðs þ p  sÞ=2 and
+                                     b ¼ ðs þ p þ sÞ=2.
+                                     ðAÞ (Unitary induction) If ReðsÞ ¼ 0, then Ip;q ðs; s; mÞ is unitarizable.
+                                     ðBÞ (Restriction of the complementary series of Uð p; pÞ) If s # p þ 1 ðmod 2Þ and
+                                         jsj < 1, then Ip;q ðs; s; mÞ is unitarizable.
+                                     ðCÞ (Other unitarizable representations) Let s < 0. Suppose that the following con-
+                                         ditions are satisﬁed:
+                                                ðiÞ p 5 2q;
+                                               ðiiÞ there exists an integer m such that
+                                                    mj ¼ m         ða 4 j 4 bÞ
+                                                    where b  a 5 q  1.
+                                                    
+                                                      a < a  q þ m þ 2
+                                              ðiiiÞ
+                                                      b < b  p  m þ 1:
+                                           Then Ip;q ðs; s; mÞ is unitarizable.
+                                     ðDÞ If Ip;q ðs; s; mÞ is unitarizable, then it must be one of the representations described
+                                         in parts (A), (B) and (C) (and their duals).
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           333
+
+                                     (E) (Unitary subquotients) Suppose that a; b 2 Z and a þ b 5  p þ 1 (equivalently,
+                                         s 2 Z, s 4  1 and s þ p # sðmod 2Þ). In this case, Ip ðs; sÞ is reducible.
+                                           ðaÞ (Restriction of the unitarizable subquotients in Ip ðs; sÞ)
+                                                     ð1Þ If 0 4 j 4 n and R0aðj;njÞ 6¼ 0, then R0aðj;njÞ is unitarizable.
+                                                     ð2Þ If p 4 s 4  1, r þ t ¼ s þ p and R0aðr;tÞ 6¼ 0, then R0aðr;tÞ is unitarizable.
+                                              ðbÞ (Other unitarizable subquotients) Assume that p þ s < r þ t < p.
+                                                     ð1Þ Suppose R0aðr;tÞ is nonzero and satisﬁes the following conditions:
+                                                           (i) t 5 q.
+                                                          (ii) mj ¼ a þ r for r þ 1 4 j 4 p  t.
+                                                         Then R0aðr;tÞ is a unitarizable subquotient in Ip;q ðs; s; mÞ.
+                                                     ð2Þ Suppose R0aðr;tÞ is nonzero and satisﬁes the following conditions:
+                                                           (i) r 5 q.
+                                                          (ii) mjq ¼ ðb þ tÞ for r þ 1 4 j 4 p  t.
+                                                         Then R0aðr;tÞ is a unitarizable subquotient in Ip;q ðs; s; mÞ.
+                                                     ð3Þ Suppose R0aðr;tÞ is nonzero and satisﬁes the following conditions:
+                                                           (i) r 5 q and t 5 q.
+                                                          (ii) There exists m such that ðb þ tÞ 4 m 4 a þ r and mj ¼ m for
+                                                               s þ 1  q 4 j 4 p  t.
+                                                       Then R0aðr;tÞ is a unitarizable subquotient in Ip;q ðs; s; mÞ.
+                                              ðcÞ If R0aðr;tÞ is unitarizable then it belongs to one of the cases given in Parts (a)
+                                                  or (b).
+
+                                        If the unitarizable subquotients of Ip;q ðs; s; mÞ given in Parts (E)(b) of the above
+                                     theorem occur, then they correspond to the vertices located at either the left, the
+                                     right or the upper corner of the module diagram. In the examples given in
+                                     Figure 4(a)–(c), each of these unitarizable subquotients are enclosed by a rectangle.
+                                        If s ¼ 0 and tmpq is the trivial representation of Uð p  qÞ, then Part (C) of the
+                                     theorem implies the following:
+
+                                     COROLLARY 8.1.2. If p 5 2q and s is real and
+                                              jsj < p  2q þ 2;
+                                     then Ip;q ðs; 0; 0Þ is irreducible and unitarizable.
+
+
+
+
+                                         Figure 4.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     334                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                       Note that the length of the complementary series given in the above corollary
+                                     increases with p  2q. This phenomenon of long complementary series is well
+                                     known for classical groups of real rank one. The case of SO0 ð p; qÞ with q > 1
+                                     was ﬁrst determined by J-S Li [Li] (c.f. Corollary 13.1.2).
+                                     8.2. We now brieﬂy describe the main ideas of the proof for Theorem 8.1.1. We
+                                     assume that both a and b are real and R is an irreducible subquotient of Ip ðs; sÞ.
+                                     Suppose R gives rise to an irreducible subquotient R0 in Ip;q ðs; s; mÞ. We will ﬁrst
+                                     construct a (not necessary positive deﬁnite) uð p; pÞ-invariant Hermitian form h: ; :i
+                                     on R. Then the restriction of h: ; :i to R0 is clearly uð p; qÞ-invariant and we will see
+                                     that it is nontrivial on R0 . Since R0 is irreducible the Hermitian form is uniquely
+                                     determined up to a nonzero scalar. The Hermitian form is either positive or
+                                                              ~
+                                     negative deﬁnite on a K-type      Vl and, hence, also on Sl . Finally we determine
+                                     whether the signatures are the same on those Vl whose restrictions to Sl are
+                                     nontrivial.
+                                     8.3. We shall devote the remaining part of this section to the proof of Theorem
+                                     8.1.1. Assume that both a and b are real. Let R be an irreducible subquotient of
+                                     Ip ðs; sÞ. If a; b 62 Z, then R ﬃ Ip ðs; sÞ, and if a; b 2 Z, then R ¼ Raðr;tÞ for some r and
+                                     t. We ﬁrst describe a nondegenerate Uð p; pÞ invariant Hermitian form on R (see x 9
+                                     of [Le]). Recall that Lþ ðRÞ denotes the set of Uð pÞ highest weights which occur in
+                                                          P                                               ^
+                                     R, so that R ¼ l2Lþ ðRÞ Vl ; where for each l, Vl ﬃ tlp &         tlp as a representation of
+                                                                                             þ
+                                     Uð pÞ  Uð pÞ. We now ﬁx an element Z 2 L ðRÞ. For 1 4 j 4 p, let hj be the
+                                     function on Z given by
+                                                       8         Q        aZj þjþa
+                                                       >
+                                                       >  ð1Þjmj jmj1
+                                                                   a¼0 bþZj þpja m < 0;
+                                                       <
+                                             hj ðmÞ ¼ 1;                              m ¼ 0;
+                                                       >
+                                                       >
+                                                       : ð1Þm Qm bþZj þpjþb ; m > 0:
+                                                                   b¼1 aZ þjb      j
+
+
+
+                                     For each l 2 Lþ ðRÞ, let
+
+                                              cl ¼ h1 ðm1 Þh2 ðm2 Þ    hp ðmp Þ;                                                                       ð26Þ
+
+                                     where mj ¼ lj  Zj for 1 4 j 4 p, and deﬁne the Hermitian form h:; :il on Vl by
+                                                            Z
+                                          h f1 ; f2 il ¼ cl      f1 ðkÞf2 ðkÞ dk ð f1 ; f2 2 Vl Þ:
+                                                                   Uð pÞUð pÞ
+
+                                     Let h:;:i be the sum of all h:;:il . Then
+
+                                              ða  lj þ j  1Þclþej þ ðb þ lj þ p  j þ 1Þcl ¼ 0:                                                         ð27Þ
+
+                                     for all 1 4 j 4 p and l 2 Lþ ðRÞ such that l; l þ ej 2 Lþ ðRÞ. This equation is equiva-
+                                     lent to the condition that the Lie algebra of Uð p; pÞ acts on Ip ðs; sÞ by skew-
+                                     Hermitian operators. Consequently the form h:;:i is Uð p; pÞ invariant.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           335
+
+                                     LEMMA 8.3.1. Let
+                                            
+                                         0    Ip;q ðs; s; mÞ; if R ¼ Ip ðs; sÞ is irreducible;
+                                        R ¼
+                                              R0aðr;tÞ ;      if Ip ðs; sÞ is reducible and R ¼ Raðr;tÞ :
+                                     Let Lþ ðR0 Þ be the set of Uð pÞ highest weights which occurs in R0 . Then R0 is uni-
+                                     tarizable if and only if all the numbers fcl gl2Lþ ðR0 Þ are of the same sign.
+                                                          L
+                                        Proof. Let Y ¼ l2Lþ ðR0 Þ Vl R. Then R0 Y: Let h: ; :iY be the restriction of
+                                     the form h:;:i to Y. If all the numbers fcl gl2Lþ ðR0 Þ are of the same sign, then by
+                                     multiplying h:;:iY by 1 if necessary, we may assume that h:;:iY is positive deﬁnite.
+                                     Thus its restriction to R0 is a Uð p; qÞ-invariant inner product. Conversely suppose
+                                     that there exist l and l0 in Lþ ðR0 Þ such that cl > 0 and cl0 < 0. Then for any
+                                     nonzero functions f1 2 Sl and f2 2 Sl0 , h f1 ; f1 iY > 0 and h f2 ; f2 iY < 0. Let ð: ; :ÞR0 is
+                                     the restriction of h: ; :iY to R0 . Then it is neither positive deﬁnite nor negative
+                                     deﬁnite. Since R0 is irreducible, any Uð p; qÞ invariant Hermitian form on R0 must be
+                                     a multiple of ð: ; :ÞR0 . Hence, R0 has no Uð p; qÞ invariant inner product.                 &
+
+                                     8.4. Proof of Theorem 8.1.1(C). Note that under the given conditions, every element
+                                     l of Lþ ð p; mÞ are such that
+                                             8
+                                             <5 mj ;     1 4 j 4 a þ q  1;
+                                           lj ¼ m;       a þ q 4 j 4 b;
+                                             :4 m ; b þ 1 4 j 4 p:
+                                                   jq
+
+                                     Take Z ¼ ðm1 ; . . . ; ma1 ; m; . . . ; m; mbþ1 ; . . . ; mpq Þ, and for each l 2 Lþ ð p; mÞ, deﬁne
+                                     cl by (26). Then one can check that cl > 0 for all l 2 Lþ ð p; mÞ. Thus by
+                                     Lemma 8.3.1, Ip;q ðs; s; mÞ is unitarizable.                                                       &
+
+                                     8.5. We need the following lemma to prove Part (D) of the theorem.
+                                     LEMMA 8.5.1. Suppose that s < 0 and Ip;q ðs; s; mÞ is irreducible. If for some j, there
+                                     is an integer m and l 2 Lþ ð p; mÞ such that
+                                       ðiÞ b  p þ j  1 < m < a þ j  1.
+                                      ðiiÞ lj ¼ m.
+                                     ðiiiÞ l þ ej 2 Lþ ð p; mÞ.
+                                     Then Ip;q ðs; s; mÞ is not unitarizable.
+                                        Proof. Under the given conditions, a  lj þ j  1 > 0 and b þ lj þ p  j þ 1 > 0,
+                                     so that cl =clþej > 0.                                                          &
+
+                                        Remark. Note that if a and b in the previous lemma are integers, and m is either
+                                     equal to a þ j  1 or b  p þ j  1, then Ip;q ðs; s; mÞ is reducible and not completely
+                                     reducible. Consequently Ip;q ðs; s; mÞ is not unitarizable in this case.
+                                     8.6. Proof of Theorem 8.1.1(D). First we consider the case when s is not real and
+                                     ReðsÞ 6¼ 0. Note that for any Z 2 Lþ ð p  1Þ, Ip;1 ðs; s; ZÞ is Uð pÞ  Uð1Þ multiplicity
+                                     free. So the methods used in Section 9 of [Le] can be used to show that Ip;1 ðs; s; ZÞ is
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     336                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                     not unitarizable. Now for any m 2 Lþ ð p  qÞ, there exists Z 2 Lþ ð p  1Þ such that
+                                     Ip;1 ðs; s; ZÞ is embedded into Ip;q ðs; s; mÞ. Hence, Ip;q ðs; s; mÞ is not unitarizable.
+                                        We now assume that Ip;q ðs; s; mÞ is unitarizable and does not belong to the cases
+                                     described in Parts (A), (B) and (C). Then s is real, and either s # pðmod 2Þ or
+                                     jsj > 1. If p < 2q, then flpqþ1 : l 2 Lþ ð p; mÞg ¼ Z. So by Lemma 8.5.1 with
+                                     j ¼ p  q þ 1, Ip;q ðs; s; mÞ is not unitarizable. Thus p 5 2q.
+                                        If Ip;q ðs; s; mÞ is reducible and not unitarily induced, then by Theorem 7.3.1,
+                                     Ip;q ðs; s; mÞ is not completely reducible and, hence, not unitarizable. So Ip;q ðs; s; mÞ is
+                                     irreducible.
+                                        By duality, we may assume that s < 0, or equivalently, a þ b þ p > 0. For
+                                     1 4 j 4 p, let Aj ¼ a þ j  1 and Bj ¼ b  p þ j  1. Recall that in the case
+                                     1 < s < 0, we are assuming s # pðmod 2Þ, so that the midpoint of the interval
+                                     ½Bj ; Aj  which is given by ðs  pÞ=2 þ ðj  1Þ is an integer. Thus ½Aj  is always con-
+                                     tained in ½Bj ; Aj . Here ½x denotes the greatest integer less than or equal to x.
+                                        We claim that Aq < mq . Otherwise by applying Lemma 8.5.1 with m ¼ ½Aq ,
+                                     Ip;q ðs; s; mÞ is not unitarizable. We now consider two cases.
+
+                                         Case 1: Suppose there exists q þ 1 4 i 4 p  q such that Ai 5 mi . Let j be the
+                                     smallest integer i such that Ai 5 mi . Then since Aj ¼ Aj1 þ 1 < mj1 þ 1,
+                                     ½Aj  4 mj1 4 mjq . If Aj is an integer and either Aj < mj1 or mj1 < mjq , then
+                                     Ip;q ðs; s; mÞ is reducible. On the other hand, if Aj is not an integer and not all of ½Aj ,
+                                     mj1 and mjq are equal, then applying Lemma 8.5.1 with m ¼ ½Aj  contradicts
+                                     unitarity. Thus we must have ½Aj  ¼ mj1 ¼ mjq .
+                                        If ðBj ; Aj Þ contains exactly one element, then we are done. If ðBj ; Aj Þ contains k
+                                     integers with k 5 2 and mj < mjq , then again by applying Lemma 8.5.1 with
+                                     m ¼ ½Aj   1, Ip;q ðs; s; mÞ is not unitarizable. So mj ¼ mjq . By the same reasoning,
+                                     we must have mj ¼ mjþ1 ¼    ¼ mjþk1 ¼ ½Aj . In particular, j þ k  1 4 p  q.
+                                        Case 2: Suppose that Apq < mpq. Then Apqþ1 < mpq þ 1 4 mp2qþ1 þ 1, which
+                                     together with Lemma 8.5.1 imply that ½Apqþ1  ¼ mpq ¼ mp2qþ1 . Moreover,
+                                     ðBpqþ1 ; Apqþ1 Þ contains exactly one integer.
+                                     8.7. Proof of Theorem 8.1.1(E)(b). We shall only prove (i). Recall that Gþ ðR0 Þ is the
+                                     set of all l 2 LðRaðr;tÞ Þ such that Sl 6¼ 0. First we note that Lþ ðR0 Þ is nonempty as
+
+                                              ðm1 ; m2 ; . . . ; mpq ; mpq ; . . . ; mpq Þ 2 Lþ ðR0 Þ:
+
+                                     We need to show that the numbers fcl gl2S have the same sign. Note that since
+                                     a þ b 4 r þ t, we have b þ j  1 5 a  p þ j for 1 4 j 4 p, so for l 2 Lþ ð pÞ,
+
+                                      (i) lj 5  b þ j or l 4 a  p þ j  2 implies that cl =clþej > 0.
+                                     (ii) a  p þ j 4 lj 4  b þ j  2 implies that cl =clþej < 0.
+
+                                     Now if l 2 S, then mj 4 lj 4  b þ s for s þ 1 4 j 4 p  t and lptþ1 4 a  t. By
+                                     (b), lj ¼ b ¼ s for s þ 1 4 j 4 p  t. In other words, for s þ 1 4 j 4 p  t there is
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           337
+
+                                     no transitions of the form l ! l þ ej in R0aðr;tÞ . On the other hand, ls 5  b þ s, so
+                                     that lj 5  b þ s 5  b þ j for 1 4 j 4 s, and lptþ1 4 a þ t, so that lj 4 a þ t 4
+                                     a  p þ j for all p  t þ 1 4 j 4 p. Thus cl =clþej > 0 for all l 2 Lþ ðR0 Þ such that
+                                     l þ ej 2 Lþ ðR0 Þ.                                                                   &
+
+                                     8.8. Proof of Theorem 8.1.1(E)(c). Suppose R0aðr;tÞ is unitarizable and does not belong
+                                     to any of the cases given in Part (E)(a) of the theorem. First we note that if
+                                     l 2 Lþ ðR0aðr;tÞ Þ, then ðb þ tÞ 4 lj 4 a þ r for s þ 1 4 j 4 p  t. If mrþ1 > a þ r,
+                                              0
+                                     then Raðr;tÞ   ¼ 0. So we must have mrþ1 4 a þ r. It is clear that to have
+                                     unitarity, there are only three possibilities: mrþ1 ¼ a þ r, mrþ1 ¼ mrþ1q or
+                                     mrþ1q ¼ ðb þ tÞ. If mrþ1 ¼ a þ r, then mj ¼ a þ r for r þ 1 4 j 4 p  t. The
+                                     other cases are similar.                                                             &
+
+
+                                       PART 2. THE DEGENERATE PRINCIPAL SERIES OF Spin0 ð p; qÞ
+
+                                     In this part, we shall use the methods in Part 1 to study a similar family of
+                                     degenerate principal series representations of Spin0 ð p; qÞ. Since the ideas and proofs
+                                     are very similar to Part 1, we will only state the main results and omit most of the
+                                     proofs.
+
+
+                                     9. The Representations
+                                     9.1. Recall that SOð p; pÞ is the group of 2p  2p real matrices of determinant 1
+                                     which ﬁxes the symmetric form on V ¼ R2p :
+
+                                              hðx1 ; . . . ; x2p Þ; ðy1 ; . . . ; y2p Þi ¼ x1 y1 þ    þ xp yp  ðxpþ1 ypþ1 þ    þ x2p y2p Þ:
+
+                                     Let fe1 ; . . . ; e2p g be the standard basis of R2p . Let q < p and set
+                                     T ¼ f1; . . . ; pg [ f2p  q þ 1; . . . ; 2pg. Let VT and V 0T be the span of fei : i 2 Tg
+                                     and fei : i 62 T g respectively. Hence, V ¼ VT  V0T . We shall identify SOð p; qÞ
+                                     and SOð p  qÞ with the following subgroups of SOð p; pÞ:
+
+                                              SOð p; qÞ ﬃ fg 2 SOð p; pÞ : gjV0T ¼ idg;
+
+                                              SOð p  qÞ ﬃ fg 2 SOð p; pÞ : gjVT ¼ idg:
+                                     Let SO0 ð p; qÞ denote the connected component of SOð p; qÞ. SO0 ð p; qÞ exhibits a
+                                     double cover Spin0 ð p; qÞ. Set G~ ¼ Spin0 ð p; pÞ, G ¼ Spin0 ð p; qÞ and H ¼ Spinð p  qÞ.
+                                     Note that G~ contains
+
+                                              G Z=2Z H :¼ ðG  HÞ=fðx; xÞ : x 2 Z=2Zg:
+                                     9.2. Let gl2p ðCÞ be the Lie algebra consisting of all 2p by 2p complex matrices.
+                                     Then the complexiﬁed Lie algebra soð p; pÞC of G~ can be identiﬁed with the
+                                     subalgebra of skew symmetric matrices in gl2p ðCÞ. Let Eij ¼ Eji 2 soð p; pÞC
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     338                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                     denote the matrix which is 1 at the ði; jÞth entry, 1 at ðj; iÞth entry and 0 elsewhere.
+                                     Then the complexiﬁed Lie algebras gC and hC of G and H are given by
+                                              gC ¼ soð p; qÞC ¼ SpanfEij : i; j 2 T g;
+                                                                                                                                                          ð28Þ
+                                              hC ¼ soð p  qÞC ¼ SpanfEij : p þ 1 4 i; j 4 2p  qg:
+
+                                     9.3. Let P0 be the stabilizer of the span of fe1 þ epþ1 ; . . . ; ep þ e2p g in SO0 ð p; pÞ. It is
+                                     a maximal parabolic subgroup with Levi subgroup GLþ                  p ðRÞ. The intersection
+                                     P0 \ SO0 ð p; qÞ is a maximal parabolic subgroup of SO0 ð p; qÞ with
+                                     Levi subgroup GLþ     q ðRÞ  SOð p  qÞ. Let P1 denote the double cover of
+                                     P0 \ SO0 ð p; qÞ in G. Similarly let P~ denote the double cover of P0 in ~              G. The
+                                                                    ~
+                                     Levi subgroups of P1 and P are respectively
+                                              SLq ðRÞ  ðR Z=2Z Spinð p  qÞÞ ’ GLþ
+                                                                                    q ðRÞ  Spinð p  qÞ
+
+                                     and
+                                              SLq ðRÞ  R ’ GLþ
+                                                               p ðRÞ  f1g:
+
+                                                                        ~ is dðxyÞ ¼ ðdet xÞp1 where x 2 GLþ ðRÞ, and
+                                     The modular function of P1 (resp. P)                                   q
+                                     y 2 Spinð p  qÞ (resp. y 2 f1g).
+
+                                     9.4. For s 2 C and s 2 f0; 1g, let ws;s denote the one-dimensional character of the
+                                     Levi subgroup of P~ deﬁned by ws;s ðxyÞ ¼ ðdet xÞs ys where x 2 GLþ     p ðRÞ; y 2 f1g.
+                                             G~
+                                     Let IndP~ ws;s denote the corresponding (normalized) induced representation of G~
+                                     (see Section 1.11 for its deﬁnition). It will descend to a representation of SO0 ð p; pÞ
+                                     if and only if s ¼ 0. Let Ip ðs; sÞ denote its Harish-Chandra module. The module
+                                     structure and unitarity of Ip ðs; sÞ has been determined by Johnson ([J1]) and
+                                     Sahi ([S2]).
+
+                                     9.5. For r 2 Zþ and s 2 f0; 1g, deﬁne
+                                              Ls ð2r þ 1Þ ¼ fðl1 ; l2 ; . . . ; lr Þ : l1 5 l2 5    5 lr 5 0; li  s2 2 Z 8ig;
+                                              Ls ð2rÞ ¼ fðl1 ; l2 ; . . . ; lr Þ : l1 5 l2 5    5 lr1 5 jlr j; li  s2 2 Z 8ig:
+                                     Hence, L0 ð pÞ (resp. L1 ð pÞ) is the set of highest weights of irreducible representa-
+                                     tions of Spinð pÞ which descend (resp. do not descend) to representations of SOð pÞ.
+                                     For l ¼ ðl1 ; l2 ; . . . ; lr Þ 2 Ls ð pÞ, let tlp be the irreducible representation of Spinð pÞ
+                                     with highest weight l. We remark that tlp is a self dual representation.
+
+                                     9.6. Let L1 ¼ GLþ q ðRÞ  Spinð p  qÞ denote the Levi subgroup of P1            G. For
+                                                                                     s             s
+                                     s 2 C and x 2 GLþ  q ðRÞ,  let w s ðxÞ ¼ ðdet xÞ  : Let m 2 L   ð p  qÞ and let ps;s;m ¼
+                                           m              G
+                                     ws 
+                                        &t
+                                           pq : Let IndP1 ps;s;m   denote the corresponding (normalized) induced
+                                     representation of G (cf. 1.11). It will descend to a representation of SO0 ð p; qÞ
+                                     if and only if tmpq descends to a representation of SOð p  qÞ. Let Ip;q ðs; s; mÞ
+                                     denote its Harish-Chandra module. The purpose of Part 2 is to determine the
+                                     module structure and unitarity of Ip;q ðs; s; mÞ.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           339
+
+                                     9.7. Let r1 ¼ ½ð p  qÞ=2. The inﬁnitesimal character of Ip;q ðs; s; mÞ is given by
+                                           
+                                                q1        q3                  q1         pq2
+                                            sþ        ;s þ           ;...;s         ; m1 þ       ;
+                                                  2           2                  2            2
+                                                                                       
+                                                  pq4                       pq
+                                             m2 þ            ; . . . ; mr 1 þ      r1                                 ð29Þ
+                                                       2                       2
+                                     and it is deﬁned up to an action of the Weyl group. We also note that Ip;q ðs; s; mÞ
+                                     is the dual representation of Ip;q ðs; s; mÞ.
+
+                                     9.8. Let
+                                              K~ ¼ Spinð pÞ Z=2Z Spinð pÞ; K ¼ Spinð pÞ Z=2Z SpinðqÞ:
+                                     Then K~ and K are the maximal compact subgroups of G~ ¼ Spin0 ð p; pÞ and
+                                     G ¼ Spin0 ð p; qÞ respectively. The following are obtained by straightforward appli-
+                                     cations of Frobenius reciprocity:
+                                      (i) Under the action of K,~
+                                                       X
+                                           Ip ðs; sÞ ¼    tlp  l
+                                                              &t :
+                                                                p                                                                                         ð30Þ
+                                                            l2Ls ð pÞ
+
+                                     (ii) The K-type tlp 
+                                                         & tZ occurs in Ip;q ðs; s; mÞ with multiplicity
+                                                            q
+
+                                            dim HomSpinðqÞSpinð pqÞ ðtZq 
+                                                                           &t
+                                                                              m      l
+                                                                              pq ; tp Þ:                                                                 ð31Þ
+                                                                                                                           s                      s
+                                            Note that the multiplicity is nonzero only if l 2 L ð pÞ and Z 2 L ðqÞ.
+                                     9.9. The following proposition relates Ip ðs; sÞ with Ip;q ðs; s; mÞ and it is analogous to
+                                     Propositions 3.4.1 in Part 1.
+
+                                     PROPOSITION 9.9.1. Let s 2 C and s 2 f0; 1g. Then we have
+                                           ~
+                                                           X
+                                                                                 m
+                                        ResG
+                                           GH Ip ðs; sÞ ¼     Ip;q ðs; s; mÞ 
+                                                                              &t
+                                                                                 pq :                                                                    ð32Þ
+                                                                        m2Ls ð pqÞ
+
+                                        Note that each Ip;q ðs; s; mÞ on the right-hand side of (32) has a distinct inﬁni-
+                                     tesimal character.
+                                        Proposition 9.9.1 is the starting point of our investigation on the submodules of
+                                     Ip;q ðs; s; mÞ and their unitarity. In Section 10 we will deﬁne a basis of Ip;q ðs; s; mÞ
+                                     using the Gelfand–Zeltin basis. This sets up the notation so that we can compute the
+                                     transition maps Tl;l0 in Section 11. The arguments are parallel to that of Part 1 and
+                                     we will omit most of the details. Readers who are only interested in the statements
+                                     of the main results may skip the next two sections and proceed to Sections 12 and 13
+                                     directly. We choose to keep Sections 10 and 11 for two reasons: Firstly if p is odd,
+                                     Tl;l may not be zero. This differs from Part 1 and it affects the ﬁnal theorem on the
+                                     unitarily. We feel that this case should be treated in detail. The second reason is that
+                                     the transition coefﬁcients carry more information than the reducibility of Ip;q ðs; s; mÞ
+                                     and it is useful to write them down explicitly.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     340                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                     10. A Basis of I p;q ðs; r; lÞ
+                                     10.1. In this section, we shall construct a basis of Ip;q :¼ Ip;q ðs; s; mÞ using the
+                                     Gelfand–Zetlin (GZ) basis for an irreducible representation of Spinð pÞ.
+                                       We identify the real Lie algebra soð pÞ of Spinð pÞ as the subspace of skew sym-
+                                     metric p by p real matrices. Suppose i 6¼ j and we let Eij ¼ Eji 2 soð pÞ denote the
+                                     matrix which is 1 at the ði; jÞth entry, 1 at ðj; iÞth entry and 0 elsewhere. Let soðtÞ
+                                     be the span of fEij : 1 4 i; j 4 tg. We assume that the inclusion SpinðtÞ Spinðt þ 1Þ
+                                     induces the obvious embedding of matrices soðtÞ soðt þ 1Þ.
+                                       Let tlp be an irreducible representation of Spinð pÞ with highest weight l 2 Ls ð pÞ.
+                                     With respect to the embedding SpinðtÞ Spinðt þ 1Þ above, tlp has a GZ basis
+                                     where each vector ½mkl  is represented up to scalars where ðm1l 5 m2l 5   
+                                     5 m½l=2;l Þ 2 Ls ðlÞ [GZ2]. If p ¼ 2r þ 1 is odd then
+                                                         2                                                                                    3
+                                                         m1p                   m2p                            mr1;p                mrp
+                                                       6 m1;p1                m2;p1                         mr1;p1              mr;p1 7
+                                                       6                                                                                      7
+                                                       6      m1;p2                m2;p2              mr2;p2                 mr1;p2 7
+                                              ½mkl  ¼ 6                                                                                      7           ð33Þ
+                                                       6                                                                             7
+                                                       4                                          m13                                         5
+                                                                                                  m12
+
+                                     If p ¼ 2r is even then
+                                                    2                                                                               3
+                                                      m1p                  m2p                          mr1;p             mrp
+                                                    6 m1;p1                 m2;p1              mr2;p1           mr1;p1 7
+                                                    6                                                                           7
+                                                    6 m1;p2                 m2;p2              mr2;p2           mr1;p2 7
+                                           ½mkl  ¼ 6
+                                                    6
+                                                                                                                                7
+                                                                                                                                7                         ð34Þ
+                                                    6                                                                  7
+                                                    4                                      m13                                  5
+                                                                                           m12
+                                     In addition mkl satisﬁes
+                                              mkl 5 mk;l1 5 mkþ1;l ; ml1;2l1 5 jml;2l j; ml;2lþ1 5 jml;2l j:                                           ð35Þ
+                                     An explicit formula for Lie algebra action of Etþ1;t on a normalized GZ basis vector
+                                     is given in [GZ2].
+
+                                     10.2. By (30), the set B consisting of all vectors of the form ½mkl   ½mk0 l0 ; where
+                                     ½mkl  and ½mk0 l0  are normalized GZ basis vectors of tlp and l 2 Ls ð pÞ is a basis of
+                                     Ip ðs; sÞ.
+
+                                     10.3. We now ﬁx m 2 Ls ð p  qÞ and consider Ip;q ¼ Ip;q ðs; s; mÞ. We also ﬁx a GZ
+                                     basis vector v0 in tmpq . By (32), Ip;q 
+                                                                              & tm
+                                                                                 pq  Ip ðs; sÞ so that we may identify Ip;q with
+                                     the subspace Ip;q  v0 of Ip ðs; sÞ. If u ¼ ½mkl  is a GZ basis vector in an irreducible
+                                                        &
+
+                                     representation of Spinð pÞ, then dpq ðuÞ will denote the GZ basis vector for the group
+                                     SpinðqÞ obtained by deleting the top p  q rows from ½mkl . We now deﬁne
+                                              Bðv0 Þ :¼ f½mkl   ½mk0 l0  2 B : dpq ð½mk0 l0 Þ ¼ v0 g:
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           341
+
+                                     Then Bðv0 Þ forms a basis of Ip;q ðs; s; mÞ 
+                                                                                 & v0 . Furthermore, we deﬁne
+
+
+                                              Jl :¼ Spanf½mij  2 tlp : dpq ð½mij Þ ¼ v0 g;
+                                                                                                                                                          ð36Þ
+                                              Sl :¼ tlp 
+                                                        & Jl
+
+                                                 P
+                                     Hence Ip;q ¼ l Sl . The following lemma can be deduced easily from the GZ bases
+                                     and we will need it in Section 12.2.
+
+                                     LEMMA 10.3.1. The following statements are equivalent:
+                                       ðiÞ Sl 6¼ 0.
+                                      ðiiÞ tp ¼ tlp contains tpq ¼ tmpq .
+                                     ðiiiÞ mi  lj 2 Z and jli j 5 jmi j 5 jliþq j for i ¼ 1; . . . ; ½ð p  q=2Þ. Here we formally
+                                           deﬁne liþq ¼ 0 if i þ q > r.
+
+                                     10.4. With the help of Proposition 9.9.1 and the basis Bðv0 Þ of Ip;q ðs; s; mÞ con-
+                                     structed in Section 10.3, we can deduce statements analogous to Propositions 3.5.1,
+                                     3.5.2 and 4.4.1 in Part 1. We will leave the precise formulation for the reader.
+                                        Let W be a submodule of Ip;q . Deﬁne
+
+                                              LðWÞ ¼ fl 2 Ls ð pÞ : Sl \ W 6¼ 0g                                                                          ð37Þ
+                                                                       P
+                                     Then under the action of K, W ¼ l2LðWÞ Sl . The following lemma is the main
+                                     result of this section (cf. Lemma 5.2.1)
+
+                                     LEMMA 10.4.1. If W1                       W2 be inﬁnitesimal G-submodules of Ip;q , then as a
+                                     representation of K,
+                                                                    X
+                                              W2 =W1 ¼                          Sl :                                                                         &
+                                                             l2LðW1 ÞLðW2 Þ
+
+
+
+                                     11. Transition Coe⁄cients
+                                     11.1. In this section, we determine how the Lie algebra of Spinð p; qÞ transforms the
+                                     Spinð pÞ-isotypic components Sl in Ip;q ðs; s; mÞ.
+
+                                     11.2. Let l 2 Ls ð pÞ. Recall that
+
+                                                             X
+                                                             p               X
+                                                                             p
+                                              Cp  tlp ¼           tlþe
+                                                                    p
+                                                                       j
+                                                                         þ         tle
+                                                                                    p
+                                                                                       j
+                                                                                         þ g1 tlp                                                         ð38Þ
+                                                             j¼1             j¼1
+
+
+                                     where g1 ¼ 0; 1 and it is 1 if and only if p ¼ 2r þ 1 is odd and lr 6¼ 0. Note that if
+                                                                                        le
+                                     l  ej is not a dominant weight, then we set tp j ¼ 0.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     342                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                     11.3. Let
+                                              soð p; pÞC ¼ soð pÞC  soð pÞC  p~ C ;
+                                              soð p; qÞC ¼ soð pÞC  soðqÞC  pC
+                                     be the Cartan decompositions. We remark that
+                                              p~ C ’ Cp   p        p
+                                                        & C ; pC ’ C &C
+                                                                        q
+                                                                                                                                                          ð39Þ
+                                     as representations of K~ and K, respectively. Fix a ~
+                                                                                        K-type Vl ¼ tlp &
+                                                                                                         tlp of Ip ðs; sÞ and
+                                     consider the ~
+                                                  K-module map L : pC  Vl ! Ip ðs; sÞ given by
+                                              LðX  uÞ ¼ X:u             ðX 2 pC ; u 2 Vl Þ:
+                                     Let pl0 : Ip ðs; sÞ ! Vl0 denote the projection map onto the ~
+                                                                                                  K-type Vl0 . We deﬁne
+                                     Tl;l ¼ pl " L and let Tl;l0 : pC  Sl ! Sl denote its restriction to pC  Sl . T0l;l0
+                                         0      0
+                                                                0                 0
+
+                                     essentially describes the Lie algebra action of p on Sl . Since Tl;l0 is a K~ homo-
+                                     morphism, it is easy to see by (38) that Tl;l0 6¼ 0 if and only if l0 is one of the
+                                     following:
+                                      (i) l0 ¼ l þ ej or l  ej and it is a dominant weight.
+                                     (ii) p ¼ 2r þ 1 is odd, lr > 0 and l0 ¼ l.
+
+
+                                     PROPOSITION 11.3.1 ([J1]). Let a ¼ s  ð p  1Þ=2.
+                                       ðiÞ Tl;lþej ¼ 0 if and only if lj ¼ a þ j  1 ¼ s  p1
+                                                                                             2 þ j  1.
+                                      ðiiÞ Tl;lej ¼ 0 if and only if lj ¼ a þ j  p þ 1 ¼ s þ j  p1
+                                                                                                     2 .
+                                     ðiiiÞ If p ¼ 2r þ 1 is odd, then Tl;l ¼ 0 if and only if slr ¼ 0.
+                                         The next lemma deduces T0l;l0 from Tl;l0 .
+
+                                     LEMMA 11.3.2. Suppose l0 ¼ l þ ej or l  ei and suppose Sl and Sðl0 Þ are nonzero.
+                                     Then Tl;l0 6¼ 0 if and only if T 0l;l0 6¼ 0.
+                                        Proof. We will give a sketch. First we modify (19) using (39) and (38). The proof
+                                     then reduces to a lemma similar to Lemma 6.3.1.                                   &
+                                       Finally combining the above lemma with Proposition 11.3.1 allows us to deduce
+                                     the following proposition (cf. Proposition 6.3.2).
+
+                                     PROPOSITION 11.3.3. Suppose the tlp -isotypic component Sl in Ip;q ðs; s; mÞ is
+                                     nonzero, and W is the inﬁnitesimal G-submodule generated by Sl . Let 1 4 j 4 r.
+                                      ðiÞ If Slþej 6¼ 0, then W contains Slþej if and only if lj 6¼ a þ j  1.
+                                     ðiiÞ If Slej 6¼ 0, then W contains Slej if and only if lj 6¼ a  p þ j þ 1.                                          &
+
+                                     11.4. We note that Tl;l and T 0ll may be nonzero when p is odd. This is a major
+                                     difference from Part 1. It has no effect on the module structure of Ip;q ðs; s; mÞ but we
+                                     will see in Section 13.3 that it severely affects the unitarity of Ip;q ðs; s; mÞ.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           343
+
+                                     LEMMA 11.4.1. Suppose p ¼ 2r þ 1 is odd and Sl 6¼ 0. Suppose slr 6¼ 0 so that
+                                     Tl;l 6¼ 0 by Proposition 11.3.1(iii). Then T 0l;l ¼ 0 if and only if q 4 r and m1þrq ¼ 0.
+                                        Proof. We will only give a sketch. Let pr denote the composite of the following
+                                     map:
+                                                                               proj
+                                              pr : Cq  Jl ,! Cp  tlp ! tlp ;
+                                     where proj denote the canonical projection in (38) and Jl was deﬁned in (36).
+                                          The ﬁrst half of the proof is similar to Lemmas 6.3.1 and (19) by reducing the
+                                     statement to the fact that T 0l;l ¼ 0 if and only if pr ¼ 0.
+                                          To determine if pr ¼ 0, we modify the proof of Lemma 6.3.1 in the following
+                                     manner: First we interpret pr as the Lie algebra action of soð p þ 1ÞC on some
+                                     irreducible representation tpþ1 containing tlp (with multiplicity one). One can show
+                                     that pr ¼ 0 if and only if Ep;p1 Jl in tpþ1 has a trivial projection onto the subspace
+                                     tlp . By the explicit action of Ep;p1 in [GZ2], the latter condition holds if and only if
+                                     mr1;p1 ¼ 0 for all GZ basis vector ½mkl  in Jl . The last condition is equivalent to
+                                     m1þrq ¼ 0.                                                                            &
+
+                                     12. Module Structures
+                                     12.1. In this section, we will determine the reducibility of Ip;q ðs; s; mÞ and describe
+                                     all its irreducible subquotients when it is reducible. First we review the result of [J1]
+                                     on the structure of Ip ðs; sÞ. Let a ¼ s  ðp  1Þ=2. Then Ip ðs; sÞ is irreducible if and
+                                     only if either one of the following conditions holds:
+                                               p1þs              s
+                                      (i) s þ            ¼ a þ 62 Z,
+                                                    2             2
+                                                                s
+                                     (ii) p is odd and jsj ¼ .
+                                                                2
+                                     This is an immediate consequence of Proposition 11.3.1.
+                                         Next we shall describe the subquotients of Ip ðs; sÞ when it is reducible. Since
+                                     Ip ðs; sÞ is isomorphic to the dual module of Ip ðs; sÞ, it is sufﬁcient to consider the
+                                     case when s 4 0. Let t ¼ maxð0; a þ ðs=2ÞÞ, then there exists a ﬁltration of sub-
+                                     modules
+
+                                              0 ¼ Wt1 = Wt = Wtþ1 =    = Wr ¼ Ip ðs; sÞ;
+
+                                     such that for each i, the quotient Ri :¼ Wi =Wi1 has K-types given by,
+                                             P
+                                     Ri ¼ l tlp &   tlp ; where the sum is taken over all l 2 Ls ð pÞ such that
+                                     jli j 5 a þ i 5 jliþ1 j. Ri is irreducible except when p ¼ 2r is even and i ¼ r. If
+                                     p ¼ 2r is even and i ¼ r, then Wr ¼ Wþ              
+                                                                                   r þ Wr for some submodules Wr of
+                                                                                                                           
+
+                                     Ip ðs; sÞ containing Wr1 . Deﬁne R           
+                                                                             r :¼ Wr =W    . Then Rr ¼ Rþ          
+                                                                                                             r  Rr , and Rr
+                                                                                                                             þ
+                                               
+                                                                                       Pr1 l    l
+                                     (resp. Rr ) is irreducible and it has K-types       l tp  tp ; where the sum is taken
+                                                                                              &
+
+                                     over all l 2 Ls ð pÞ such that lr 5 a þ r (resp. lr 5 a þ r). The module diagram G
+                                     of Ip is shown in Figure 5.
+                                         R0 is nonzero if and only if a 5 ðs=2Þ. In this case R0 is a ﬁnite dimensional
+                                     representation of G~ ¼ Spin0 ð p; pÞ with highest weight ða; a; . . . ; aÞ 2 Ls ð2pÞ.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     344                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+
+
+                                               Figure 5.
+
+
+
+                                     12.2. We deﬁne
+                                              R0i :¼ ðWi \ Ip;q Þ=ðWi1 \ Ip;q Þ              Ri
+                                                                                                                                                          ð40Þ
+                                                   0
+                                              ðR        
+                                                r Þ :¼ ðWr \ Ip;q Þ=ðWr1 \ Ip;q Þ                  R
+                                                                                                     r :
+
+                                     These are inﬁnitesimal G-submodules. By Lemma 10.3.1 R0i 6¼ 0 if and only if
+
+                                              jmiþ1 j 4 a þ i 4 jmiq j:                                                                                  ð41Þ
+                                                                                                        0
+                                     Here we assume that mi ¼ 1 if i < 0 and mi ¼ 0 if i > r1 . ðRþ  r Þ 6¼ 0 if and only if
+                                         0
+                                     ðRr Þ 6¼ 0. The following theorem describes the structure of Ip;q ðs; s; mÞ. Its proof is
+                                     similar to that of Theorem 7.3.1 and we will omit it. Note that we have omitted the
+                                     case when s > 0. This is because Ip;q ðs; s; mÞ is isomorphic to the dual module of
+                                     Ip;q ðs; s; mÞ.
+
+                                     THEOREM 12.2.1. Suppose s 2 C and let Ip;q ¼ Ip;q ðs; s; mÞ where m 2 Ls ð p  qÞ.
+                                     (A) (a) If s þ ðp  1 þ sÞ=2 62 Z, then Ip;q is irreducible.
+                                         (b) If s þ ðp  1 þ sÞ=2 2 Z and s 4 0, then Ip;q is irreducible if and only if either
+                                             the one of the following is true:
+                                                   ðiÞ p ¼ 2r þ 1 is odd and ðs; sÞ ¼ ð0; 0Þ or ð 12 ; 1Þ.
+                                                  ðiiÞ There exists i such that q 4 i 4 ½ðp  qÞ=2 and
+                                                                                                              p1
+                                                         jmi j ¼ jmi1 j ¼    ¼ jmiqþ1 j ¼ s                þ i 5 0:
+                                                                                                               2
+                                     (B) Suppose s 4 0 and Ip;q is reducible.
+                                                                        0
+                                                ðiÞ Then R0i (resp ðR
+                                                                     r Þ ) is either zero or it is an irreducible subquotient of Ip;q .
+                                                                                                                                     0
+                                               ðiiÞ Every irreducible subquotient of a reducible Ip;q is of the form R0i or ðR   r Þ.
+                                              ðiiiÞ Let G0 and G0 be the module diagrams of Ip;q and Ip ðs; sÞ respectively. Then
+                                                    G0 is a spanning subgraph of G. It is obtained by deleting those vertices Ri
+                                                                                                     0
+                                                    and R                           0
+                                                           r from G such that Ri ¼ 0 and ðRr Þ ¼ 0.
+
+                                         Note that in Part (A)(a) and (A)(b)(i) of the above theorem, Ip ðs; sÞ is irreducible.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           345
+
+                                     12.3. We will now describe how to obtain the module digram G0 of Ip;q ðs; s; mÞ from
+                                     the module diagram G of Ip ðs; sÞ.
+                                       Let
+                                              s1 ¼ minfi : jmiþ1 j 4 a þ ig;            s2 ¼ maxfi : a þ i 4 jmiq jg:
+                                     By (41), R0j 6¼ 0 if and only if s1 4 j 4 s2 . Delete the vertex Rj (or Rj ) from G if
+                                     j < s1 and j > s2 . Remove the edges connected to the deleted vertices. Rename
+                                                                                           0
+                                     the remaining vertices Rj by R0j and R      r by ðRr Þ . Then the resulting graph is
+                                                               0           0
+                                     the module diagram G of Ip;q . G is a connected subgraph of G. It will contain
+                                           0                              0
+                                     ðRþr Þ if and only if it contains ðRr Þ . An argument similar to Section 7.8 proves the
+                                     following corollary.
+
+                                     COROLLARY 12.3.1. If W0 is an inﬁnitesimal G-submodule of Ip;q ðs; s; mÞ, then
+                                     there exists an inﬁnitesimal ~
+                                                                  G-submodule W of Ip ðs; sÞ such that
+                                              W 0 ¼ W \ ðIp;q ðs; s; mÞ 
+                                                                        & v0 Þ:
+
+
+
+                                     13. Unitarity
+                                     13.1. In this section, we shall determine which of the representation Ip;q ðs; s; mÞ or
+                                     its irreducible subquotients are unitarizable.
+
+                                     THEOREM 13.1.1. Let s 2 C, s 2 f0; 1g, m 2 Ls ð pÞ, a ¼ s  ð p  1Þ=2 and
+                                     r ¼ ½ p=2.
+                                     (A) (Unitarity of Ip;q ðs; s; mÞ)
+                                              (a) (Unitary induction) If ReðsÞ ¼ 0, then Ip;q ðs; s; mÞ is unitarizable.
+                                              (b) Let p ¼ 2r be even.
+                                                     ðiÞ (Restriction of the complementary series of Spin0 ð p; pÞ) If s 2 ð 12 ; 12Þ,
+                                                         then Ip;q ðs; s; mÞ is unitarizable.
+                                                    ðiiÞ If s ¼ 0, q 4 r and there exists q þ 1 4 a 4 r such that maq ¼ 0, and
+                                                         jsj < ðp þ 3Þ=ð2Þ  a, then Ip;q ðs; 0; mÞ is unitarizable.
+                                              (c) If s ¼ 0, p ¼ 2r þ 1 is odd, q 4 r, and there exists q þ 1 4 b 4 r þ 1 such
+                                                  that mbq ¼ 0, and jsj < ðp þ 3Þ=ð2Þ  b, then Ip;q ðs; 0; mÞ is unitarizable.
+                                              (d) If Ip;q ðs; s; mÞ does not belong one any the cases in Parts ðaÞ, ðbÞ and ðcÞ,
+                                                  then it is not unitarizable.
+                                     (B) (Unitary subquotients) Suppose that a 2 ðs=2Þ þ Z and a 5  ðp  1Þ=2
+                                         ðequivalently s 4 0 and s þ ðp  1 þ sÞ=2 2 ZÞ so that Ip ðs; sÞ is reducible.
+                                              (a) (Restriction of the unitarizable subquotients in Ip ðs; sÞ)
+                                                                                      0         0
+                                                     ðiÞ If p ¼ 2r is even, and ðRþr Þ and ðRr Þ are nonzero, then they are
+                                                         unitarizable.
+                                                    ðiiÞ If s ¼ 0, ðr  1Þ 4 a 4 0, and R0a 6¼ 0, then it is unitarizable.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     346                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+
+                                              (b) (New unitary subquotients) If q 4 r, i is an integer such that q 4 i 4 r and
+                                                  s ¼ miqþ1 ¼ 0, then R0i is unitarizable.
+                                              (c) ðaÞ and ðbÞ give all the irreducible subquotients of Ip;q ðs; s; mÞ which are
+                                                  unitarizable.
+
+                                      If the unitary subquotients given in Part (B)(b) occur in some Ip;q ðs; s; mÞ, then it
+                                     must correspond to the highest vertex in the module diagram of Ip;q ðs; s; mÞ.
+
+                                     COROLLARY 13.1.2 ([Li]). If q 4 ½p=2 and jsj < ð p þ 1Þ=2  q, then Ip;q ðs; 0; 0Þ is
+                                     unitarizable.
+
+                                     13.2. The proof of Theorem 13.1.1 follows the same strategy as that of
+                                     Theorem 8.1.1 outlined in Section 8.2. If p is even, the argument is similar to
+                                     the proof of Theorem 8.1.1 given in Section 8.3. We will omit it. If p is odd,
+                                     we need to give special consideration to the fact that T 0l;l is not always zero
+                                     and we will sketch the proof in the next subsection.
+
+                                     13.3. Sketch of Proof of Theorem 13.1.1 when p ¼ 2r þ 1 is odd. Let R0 denote an
+                                     irreducible subquotient of Ip;q ðs; s; mÞ. As in the Uð p; qÞ case, it is easy to see that R0
+                                     is unitarizable only if s 2 R or ReðsÞ ¼ 0. If ReðsÞ ¼ 0, Ip;q ðs; s; mÞ is unitary
+                                     induced.
+                                        Next we will assume that s 2 R  f0g. Suppose T 0 :¼ T 0 l;l 6¼ 0 for some l. By
+                                     Lemma 11.4.1, this implies that lr > 0 and, m1þrq > 0 if r 5 q. We may choose a
+                                     nonzero w ¼ vl &    ½mkl  2 Sl where mp1;r1 > 0 and vl is the highest weight vector
+                                     of tlp . Let R00 denote the soð p; 1Þ-submodule in R0 generate by v. By Theorem 12.2.1,
+                                     R00 is an irreducible subquotient of some degenerate principal series of Ip;1 ðs; s; m00 Þ
+                                     where m00r1 ¼ mp1;r1 > 0. We claim that R00 is not unitarizable so R0 ' R00 is not
+                                     unitarizable. The claim follows from Theorem 13 of [KG1]. Alternatively let
+                                     soð p; 1Þ ¼ k00  p00 denote the Cartan decomposition. By Equation (28) of
+                                     [KG1], there exists X 2 p00 p and v 2 Sl \ R00 such that T0 ðX  vÞ ¼ v. Therefore,
+                                     for any Hermitian form ð: ; :Þ on R00 , ðXv; vÞ þ ðv; XvÞ ¼ 2ðv; vÞ 6¼ 0 and this implies
+                                     that R00 is not unitarizable.
+                                        Suppose s 2 R  f0g and R0 is unitarizable, then T 0 l;l ¼ 0 and the above dis-
+                                     cussion implies that either one of the following condition holds:
+                                     (a) If Sl 6¼ 0, then lr ¼ 0.
+                                     (b) r 5 q and m1þrq ¼ 0.
+                                       Next we assume (a) or (b) above and suppose R0 embeds into the irreducible
+                                     subquotient R of Ip ðs; sÞ. Using an argument similar to those used in Section 9 of
+                                     [Le], we can construct a Hermitian product on R satisfying
+                                              hXu; vi þ hu; Xvi ¼ 0                                                                                       ð42Þ
+                                     for all X 2 ~p, u 2 Vl and v 2 VZ such that l 6¼ Z. Note that this Hermitian product
+                                     is not soð p; pÞ-invariant because (42) does not necessary hold for u; v 2 Vl .
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     DEGENERATE PRINCIPAL SERIES REPRESENTATIONS                                                                           347
+
+                                     On the other hand, the restriction of h ; i to R0 is soð p; qÞ-invariant because
+                                     T 0l;l ¼ 0.
+                                        The proof now proceeds by checking the signature of h ; i on R0 . This portion of
+                                     the proof is similar to that of Theorem 8.1.1 given in Section 8.3 and we will leave
+                                     the details to the reader.
+
+                                     Acknowledgements
+                                     We would like to thank the referee for his valuable comments and suggestions. The
+                                     second author would like to acknowledge the hospitality of the Mehta Research
+                                     Institute while part of this paper was being written.
+
+                                     References
+                                     [Ca]  Carter, R. W.: Raising and lowering operators for sln , with applications to ortho-
+                                           gonal bases of sln -modules, In: The Arcata Conference on Representations of Finite
+                                           Groups, Proc. Sympos. Pure Math. 47, Part 2, Amer. Math. Soc., Providence, RI,
+                                           1987, pp. 351–366.
+                                     [FH] Fulton, W. and Harris, J.: Representation Theory, A First Course, Grad. Texts in
+                                           Math. 129, Springer-Verlag, New York, 1991.
+                                     [GG] Gelfand, I. M. and Graev, M. I.: Finite dimensional irreducible representations of the
+                                           unitary and the full linear groups and related special functions, in Gelfand, Izrail M.
+                                           Collected Papers, Vol. II, Springer-Verlag, Berlin, 1988, pp. 662–692.
+                                     [GZ1] Gelfand, I. M. and Tsetlin, M. L.: Finite dimensional representations of the group
+                                           of unimodular matrices, In: Gelfand, Izrail M. Collected Papers, Vol. II, Springer-
+                                           Verlag, Berlin, 1988, pp. 653–656.
+                                     [GZ2] Gelfand, I. M. and Tsetlin, M. L.: Finite dimensional representations of the group of
+                                           orthogonal matrices, In: Gelfand, Izrail M. Collected Papers, Vol. II. Springer-Verlag,
+                                           Berlin, (1988), pp. 657–661.
+                                     [Hi1] Hirai, T.: On inﬁnite operators of irreducible representations of the Lorentz group of
+                                           nth order, Proc. Japan Acad. 38 (1962), 83–87.
+                                     [Hi2] Hirai, T.: Classiﬁcation and the characters of irreducible representations of SU(p,1),
+                                           Proc. Japan Acad. 42 (1966), 907–912.
+                                     [Ho] Howe, R.: K-type structure in the principal series of GL3 I, In: Analysis on Homo-
+                                           geneous Spaces and Representation Theory of Lie Groups (Okayama–Kyoto, 1997),
+                                           Adv. Stud. Pure Math., 26, Math. Soc. Japan, Tokyo, 2000, pp. 77–98.
+                                     [HT] Howe, R. and Tan, E.: Homogeneous functions on light cones: the inﬁnitesimal
+                                           structure of some degenerate principal series representations, Bull. Amer. Math.
+                                           Soc. 28 (1993), 1–74.
+                                     [J1]  Johnson, K.: Degenerate principal series and compact groups, Math. Ann. 287
+                                           (1990), 703–718.
+                                     [J2]  Johnson, K.: Degenerate principal series on tube type domains, Contemp. Math. 138
+                                           (1992), 175–187.
+                                     [KG1] Klimyk, A. U. and Gavrilik, A. M.: The representations of the groups Uðn; 1Þ and
+                                           SO0 ðn; 1Þ, preprint ITP-76-39E, Instituent for Theoretical Physics, Kiev, USSR, 1976.
+                                     [KG2] Klimyk, A. U. and Gruber, B.: Matrix elements for inﬁnitesimal operators of the
+                                           groups Uð p þ qÞ and Uð p; qÞ in a Uð pÞ  UðqÞ basis I, II, J. Math. Phys. 20(10)
+                                           (1979), 1995–2010, 2011–2013.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+                                     348                                                             SOO TECK LEE AND HUNG YEAN LOKE
+
+                                     [KG3] Klimyk, A. U. and Gruber, B.: Structure and matrix elements of the degenerate series
+                                           representations of Uð p þ qÞ and Uð p; qÞ in a Uð pÞ  UðqÞ basis, J. Math. Phys. 23(8)
+                                           (1982), 1399–1408.
+                                     [KV] Vilenkin, N. Ja. and Klimyk, A. U.: Representation of Lie Groups and Special Func-
+                                           tions, Recent advances, Translated from the Russian manuscript by V. A. Groza and
+                                           A. A. Groza, Math. Appl. 316. Kluwer Acad. Publ. Dordrecht, 1995.
+                                     [Ko1] Kobayashi, T.: Singular unitary representations and discrete series for indeﬁnite
+                                           Stiefel manifolds Uð p; q; FÞ=Uð p  m; q; FÞ, Mem. Amer. Math. Soc. 95(2) (1992),
+                                           no. 462.
+                                     [Ko2] Kobayashi, T.: Discrete decomposability of the restriction of Aq ðlÞ with respect to
+                                           reductive subgroups II – micro-local analysis and asymptotic K-support, Ann. of
+                                           Math. (2) 147(3) (1998), 709–729.
+                                     [Ko3] Kobayashi, T. Discrete decomposability of the restriction of Aq ðlÞ with respect to
+                                           reductive subgroups III – restriction of Harish-Chandra modules and associated
+                                           varieties, Invent. Math. 131(2) (1998), 229–256.
+                                     [Le]  Lee, S. T.: On some degenerate principal series representations of Uðn; nÞ, J. Funct.
+                                           Anal. 126 (1994), 305–366.
+                                     [LL] Lee, S. T. and Loke, H.Y.: Degenerate principal series of Spð p; qÞ. Preprint.
+                                     [Li]  J-S Li, Degenerate principal series of classical groups: the phenomenon of long
+                                           complementary series. Preprint.
+                                     [Lo]  Loke, H. Y.: Howe quotient of unitary characters and unitary lowest weight modules;
+                                           with an appendix by S. T. Lee, preprint.
+                                     [Mo] Molchanov, V. F.: Maximal degenerate series representations of the universal cover-
+                                           ing of the group SUðn; nÞ, In: Lie Groups and Lie Algebras, Math. Appl. 433, Kluwer
+                                           Acad. Publ. Dordrecht, 1998, pp. 313–336.
+                                     [P]   Pasquale, A.: Maximal degenerate representations of SLðn þ 1; HÞ, J. Lie Theory 9(2)
+                                           (1999), 369–382.
+                                     [S1]  Sahi, S.: Unitary representations on the Shilov boundary of a symmetric tube
+                                           domain, In: Representations of Groups and Algebras, Contemp. Math. 145, Amer.
+                                           Math. Soc., Providence, 1993, pp. 275–286.
+                                     [S2]  Sahi, S.: Jordan algebras and degenerate principal series, J. reine angew Math. 462
+                                           (1995), 1–18.
+                                     [Z]   Zhelobenko, D. P. Compact Lie Groups and Their Representations, Transl. Math.
+                                           Monogr. 40, Amer. Math. Soc., Providence, RI, 1973.
+                                     [Zh]  Zhang, G.: Jordan algebras and generalized principal series representation, Math.
+                                           Ann. 302 (1995), 773–786.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. IP address: 76.145.198.190, on 27 Sep 2026 at 17:45:30, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms.
+https://doi.org/10.1023/A:1016514211478
+

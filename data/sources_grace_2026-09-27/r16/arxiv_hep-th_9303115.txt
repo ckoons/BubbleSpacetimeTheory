@@ -1,0 +1,523 @@
+                                                                                                                               IC/92/187
+                                                                                                                        SISSA 137/92/FM
+                                                                                                                          UTS-DFT-22-92
+                                                                                                                                July 1992
+
+
+
+
+                                                    POSITIVE ENERGY REPRESENTATIONS
+                                                  OF THE CONFORMAL QUANTUM ALGEBRA
+
+
+
+
+arXiv:hep-th/9303115v1 19 Mar 1993
+                                                L. Da̧browski⋆ , V.K. Dobrev+∗ , R. Floreanini† and V. Husain+∗∗
+
+
+                                       ⋆
+                                         International School for Advanced Studies, SISSA, Trieste, Italy
+                                       +
+                                         International Center for Theoretical Physics, Trieste, Italy
+                                       †
+                                         Istituto Nazionale di Fisica Nucleare, Sezione di Trieste, Dipartimento di Fisica Teo-
+                                         rica, Università di Trieste, Strada Costiera 11, 34014 Trieste, Italy
+
+
+
+
+                                                                                    Abstract
+
+                                                 The positive-energy unitary irreducible representations of the q-deformed
+                                                 conformal algebra Cq = Uq (su(2, 2)) are obtained by appropriate de-
+                                                 formation of the classical ones. When the deformation parameter q
+                                                 is N -th root of unity, all these unitary representations become finite-
+                                                 dimensional. For this case we discuss in some detail the massless repre-
+                                                 sentations, which are also irreducible representations of the q-deformed
+                                                 Poincaré subalgebra of Cq . Generically, their dimensions are smaller
+                                                 than the corresponding finite-dimensional non-unitary representation of
+                                                 su(2, 2), except when N = 2, h = 0 and N = 2|h| + 1, where h is the
+                                                 helicity of the representations. The latter cases include the fundamental
+                                                 representations with h = ±1/2.
+
+
+                                           ∗
+                                               Permanent address and after 31 July 1992 : Bulgarian Academy of Sciences, Institute of Nuclear
+                                     Research and Nuclear Energy, 72 Tsarigradsko Chaussee, 1784 Sofia, Bulgaria.
+                                          ∗∗
+                                             Address after 30 September 1992 : Theoretical Physics Institute, University of Alberta, Edmonton,
+                                     Canada T6G 2J1.
+
+                                                                                         1
+      1. The positive energy unitary irreducible representations (UIRs) of the conformal
+algebra su(2, 2) of four dimensional Minkowski space are certainly of physical relevance.
+They are given in Ref.[1]. In this letter we consider the q-deformed conformal algebra
+Cq ≡ Uq (su(2, 2)) [2] and present the q-analogs of the UIRs of [1].
+      For generic complex q, the positive energy UIRs Vq of Cq are deformations of the
+respective representations of su(2, 2). Here, our considerations amount to an introduction
+of the correct scalar product in the representations Vq . It turns out that we can use the
+same scalar product as for the undeformed representations. However, we have to extend
+the hermitian conjugation used in [1] to a hermitian conjugation of the complexification
+Uq (sl(4, C)) of Uq (su(2, 2)). For |q| = 1, this is done in Section 3.
+      When the deformation parameter q is a root of unity, the picture of the represen-
+tations changes drastically. All irreducible representations of Uq (su(2, 2)), as inherited
+from Uq (sl(4, C)), are finite-dimensional. In Section 4 we give a list of the positive energy
+UIRs. We emphasize that, unlike the classical case, these unitary representations are finite-
+dimensional. We discuss in more detail the massless finite-dimensional representations of
+Cq ; these are also UIRs of the q-deformed Poincaré subalgebra of Cq .
+
+     2. The physically relevant representations of the 4-dimensional conformal algebra
+su(2, 2) may be labelled by χ = [j1 , j2 , d], where 2j1 , 2j2 are non-negative integers fixing fi-
+nite dimensional irreducible representations of the Lorentz subalgebra so(3, 1), and d is the
+conformal dimension (or energy). We would like to label the representations of Uq (su(2, 2))
+by the same set of indices χ and because of this we shall use the q-deformed conformal
+algebra Uq (su(2, 2)) (cf. [2]) which has the q-deformed Lorentz algebra Uq (so(3, 1)) as a
+Hopf subalgebra. Since Uq (su(2, 2)) is a real from of Uq (sl(4, C)) we need first to recall
+the latter deformation.
+     The q-deformation Uq (sl(4, C)) of the universal enveloping algebra U(sl(4, C)) is de-
+fined [3,4] as the associative algebra over C with Chevalley generators Xj± , Hj , j = 1, 2, 3
+and with relations :
+
+                          [Hj , Hk ] = 0, [Hj , Xk± ] = ±ajk Xk± ,                               (1a)
+
+                                      q Hj /2 − q −Hj /2
+                       [Xj+ , Xk− ] = δjk                = δjk [Hj ]q ,                          (1b)
+                                        q 1/2 − q −1/2
+         2                                  2
+      Xj± Xk± − [2]q Xj± Xk± Xj± + Xk± Xj±      = 0, (jk) = (12), (21), (23), (32)
+                                                                                                  (1c)
+                                       [X1± , X3± ] = 0 ,
+
+where [x]q = q x/2 −q −x/2 / q 1/2 −q −1/2 , (ajk ) = (2(αj , αk )/(αj , αj )), j, k = 1, 2, 3, is the
+                                          
+
+Cartan matrix of sl(4, C); α1 , α2 , α3 are the simple roots; the non-zero products between
+the simple roots are: (αj , αj ) = 2, j = 1, 2, 3, (α1 , α2 ) = (α2 , α3 ) = −1. The non-simple
+positive roots are : α12 = α1 + α2 , α23 = α2 + α3 , α13 = α1 + α2 + α3 . The elements
+Hj span the Cartan subalgebra H while the elements Xj± generate the subalgebras G ± .
+     The algebra Uq (sl(4, C)) is a Hopf algebra [5] with co-multiplication δ, co-unit ε (ho-
+momorphisms) and antipode γ (antihomomorphism) defined on the generators as follows
+
+                                                  2
+[3,4]:
+
+         δ(Hj ) = Hj ⊗ 1 + 1 ⊗ Hj ,     δ(Xj± ) = Xj± ⊗ q Hj /4 + q −Hj /4 ⊗ Xj± ,      (2a)
+
+            ε(Hj ) = ε(Xj± ) = 0 ,    γ(Hj ) = −Hj ,      γ(Xj± ) = −q ±1/2 Xj± .       (2b)
+     The Cartan-Weyl basis for the non-simple roots is given by (cf. [4,6]):
+                 ±
+                Xjk = ±(q 1/4 Xj± Xk± − q −1/4 Xk± Xj± ) , (jk) = (12), (23) ,          (3a)
+
+                          ±
+                         X13 = ±(q 1/4 X1± X23
+                                            ±            ±
+                                               − q −1/4 X23 X1± ) =
+                                         ±
+                                                                                        (3b)
+                              = ±(q 1/4 X12 X3± − q −1/4 X3± X12
+                                                              ±
+                                                                 ).
+All other commutation relations and Hopf algebra relations for the generators in (3) follow
+from these definitions.
+     Let us consider the conformal algebra su(2, 2) ∼
+                                                    = so(4, 2). It has 15 generators YAB =
+−YBA , A, B = 1, 2, 3, 5, 6, 0 satisfying
+
+                 [YAB , YCD ] = ηBC YAD − ηAC YBD − ηBD YAC + ηAD YBC ,                  (4)
+
+where ηAB = diag(− − − − ++). Since su(2, 2) is the conformal algebra of 4-dimensional
+Minkowski space-time we use a deformation [2] consistent with the subalgebra structure
+relevant for the physical applications. These subalgebras are: the Lorentz subalgebra
+so(3, 1) generated by Yµν , µ, ν = 1, 2, 3, 0, the subalgebra of translations generated by
+Pµ = Yµ5 + Yµ6 , the subalgebra of special conformal transformations generated by Kµ =
+Yµ5 − Yµ6 , the dilatations subalgebra generated by D = Y56 . For a deformation of su(2, 2)
+one uses the expressions for its generators as complex linear combinations of the generators
+of its complexification sl(4, C) compatible with the reality structure. The deformation
+Uq (su(2, 2)) introduced in [2] uses essentially the same linear combinations as in [1] (cf.
+(2.21)) and we omit these explicit expressions for the lack of space.
+
+     3. In this section we consider the representations of Cq = Uq (su(2, 2)) in the generic
+case when the deformation parameter is not a root of unity. In this case the representations
+of Cq we use are irreducible lowest weight modules M χ (in particular, Verma modules V χ )
+of Uq (sl(4, C)) together with the reality condition necessary for the construction of the
+scalar product in M χ (or V χ ).
+     We use the standard decomposition G = sl(4, C) = G + ⊕H⊕G − , where H and G ± were
+introduced in Section 2. A lowest weight module M χ of Uq (sl(4, C)) is given by its lowest
+weight Λχ ∈ H∗ (H∗ being the dual of H) and lowest weight vector v0 ≡ v0 (χ), such that
+v0 is annihilated by the lowering generators, Xv0 = 0, X ∈ Uq (G − ), and Hv0 = Λχ (H)v0
+for any Cartan generator H.
+     In particular, we use the Verma modules V χ which are the lowest weight modules such
+that V χ = Uq (G + ) v0 . Thus the Poincaré-Birkhof-Witt theorem tells us that the basis of
+V χ consists of monomial vectors
+
+          Ψ{k} = (X1+ )k1 (X2+ )k2 (X3+ )k3 (X12
+                                              + k12  + k23
+                                                 ) (X23     + k13
+                                                        ) (X13 ) v0   kj , kjk ∈ Z+ ,    (5)
+
+                                              3
+where Xj+ ≡ Xjj  +
+                   and Xjk+
+                             are the six raising generators of sl(4, C) (cf. Section 2). In order
+to consider V χ as a representation of the real form it is not enough to express the generators
+of Uq (sl(4, C)) as linear combinations of generators of Uq (su(2, 2)). We have to introduce,
+as in the q = 1 case, a hermiticity condition invariant with respect to Uq (su(2, 2)). Such a
+condition is well known in the undeformed case and is given by (cf. [1] (4.8)):
+                                       (
+                                            ∓
+                                 ±        Xjk  ,   (jk) = (11), (33)
+                            ω(Xjk  )=         ∓                                              (6a)
+                                          −Xjk , otherwise ,
+                            ω(H) = H ,          ∀H ∈ H .                                           (6b)
+
+The problem in the q-deformed case is to extend this conjugation to Uq (sl(4, C)) as an
+anti-linear anti-involution thus making Uq (sl(4, C)) a ∗-Hopf algebra. For this extension
+it is enough to postulate (6) for the simple root vectors and the corresponding Cartan
+subalgebra elements, i.e., for Xk± ≡ Xkk
+                                       ±
+                                          and Hk for k = 1, 2, 3. Then (6) follows for the
+                                                     +
+non-simple root vectors. Indeed, take for example X12   ≡ q 1/4 X1+ X2+ − q −1/4 X2+ X1+ . Then
+we have (iff |q| = 1):
+    +
+ ω(X12 ) = q̄ 1/4 ω(X2+)ω(X1+ ) − q̄ −1/4 ω(X1+ )ω(X2+) = −q̄ 1/4 X2− X1− + q̄ −1/4 X1− X2− =
+          = − (q −1/4 X2− X1− − q 1/4 X1− X2− ) = −X12
+                                                    −
+                                                       .
+
+The same considerations go for the other non-simple root vectors. For the other commu-
+tation relations ω acts as an anti-linear anti-involution. Finally one can check that ω is an
+anti-linear coalgebra anti-involution. Thus Uq (sl(4, C)) is a ∗ - Hopf algebra with |q| = 1.
+     As in the undeformed case, the conjugation ω will be used to introduce a Uq (su(2, 2))-
+invariant scalar product, i.e., a scalar product such that the generators X of Cq are skew
+hermitian. As in the undeformed case (cf. [1] (2.17)) it is convenient to make a basis
+transformation so that the generators of Cq obey: ω(X) = −X. A set of such generators
+is given by:
+                 iHk , k = 1, 2, 3, Xk+ − Xk− , i(Xk+ + Xk− ), k = 1, 3,
+                   +       −        +     −                                               (7)
+                 Xjk  + Xjk  , i(Xjk  − Xjk ), (jk) = (22), (12), (23), (13) .
+In particular, the conformal Hamiltonian H0 [1] is given in the two bases (4) and (7) by:
+
+                              1                    1
+                     H0 =       (P0 + K0 ) = Y05 = (H1 + H3 ) + H2 .                                (8)
+                              2                    2
+    For the scalar product of two vectors of the form (5) we take, as in [1],
+                                       ′             ′           ′           ′         ′ 
+                                                                + k12
+   (Ψ{k′ } , Ψ{k} ) = v0∗ , ω (X13  + k13
+                                     )      ω (X23 + k23
+                                                     )     ω (X12 )     ω (X3+ )k3 ω (X2+ )k2
+                                                                                            
+                            + k1′
+                                   + k           + k2   + k3    + k12     + k23     + k13
+                    × ω (X1 ) (X1 ) (X2 ) (X3 ) (X12 ) (X23 ) (X13 ) v0
+                                            1
+
+
+                             ′    ′    ′      ′
+                                                           ′        ′        ′        ′       ′
+                                                                                                    (9)
+                                                        − k13    − k23    − k12
+                    = (−1)k13 +k23 +k12 +k2 v0∗ , (X13    ) (X23   ) (X12   ) (X3− )k3 (X2− )k2
+                              ′
+                                                                                         
+                    × (X1− )k1 (X1+ )k1 (X2+ )k2 (X3+ )k3 (X12+ k12
+                                                               ) (X23  + k23
+                                                                         ) (X13 + k13
+                                                                                   ) v0 ,
+
+                                                  4
+with (v0∗ , v0 ) = 1. (Note that (9) is an adaptation of the classical contravariant Schapovalov
+form.) Calculation of (9) is performed in the standard manner by moving the lowering
+(raising) generators to the right (left) where they annihilate v0 (v0∗ ). Finally, the result is
+some polynomial in Λχ (Hj ). Thus we have to specify how Λχ (H) is fixed by the represen-
+tation χ which we take as in [1], i.e. we have
+            Λχ (H1 ) = −2j1 ,      Λχ (H2 ) = d + j1 + j2 ,       Λχ (H3 ) = −2j2 .        (10)
+Note that our generators H1 , H2 , H3 correspond to 2H1 , H0 −H1 −H2 , 2H2 , respectively,
+of [1]. In particular, using (8) we see that d is the eigenvalue of the conformal Hamiltonian
+H0 ; hence d is called the conformal energy (or dimension).
+      Given the scalar product (9), we have to determine whether it provides an UIR of
+Uq (su(2, 2)). It is clear that the conditions on j1 , j2 and d will be the same as in [1],
+and below we specify precisely the UIR spaces applying new results in the representation
+theory of Verma modules ([6] and references therein).
+      Generically, the Verma modules V χ are irreducible. A Verma module V χ is reducible
+[6] iff there exists a positive root α and a positive integer mα such that the following
+equality holds                                          
+                                    (Λχ − ρ)(Hα ) + mα q = 0 ,                            (11)
+                                                                   P
+where Hα is a linear combination
+                              P        of Hk , specifically, if α = k nk αk , nk ∈ Z+ , αk are
+simple roots, then Hα =          k nk Hk , and ρ is half the sum of positive roots; note that
+ρ(Hk ) = 1. For the six positive roots of the root system of sl(4, C), one has (see Ref.[7]):
+                m1 = −Λχ (H1 ) + 1 = 2j1 + 1 ,                                            (12a)
+                m2 = −Λχ (H2 ) + 1 = 1 − d − j1 − j2 ,                                    (12b)
+                m3 = −Λχ (H3 ) + 1 = 2j2 + 1 ,                                            (12c)
+                m12 = −Λχ (H12 ) + 2 = m1 + m2 = 2 − d + j1 − j2 ,                        (12d)
+                m23 = −Λχ (H23 ) + 2 = m2 + m3 = 2 − d − j1 + j2 ,                        (12e)
+                m13 = −Λχ (H13 ) + 3 = m1 + m2 + m3 = 3 − d + j1 + j2 .                   (12f )
+Whenever (11) is fulfilled there exists a singular (null) vector vs in V χ such that vs 6= v0 ,
+Xvs = 0, X ∈ Uq (G − ) and Hα vs = (Λχ + mα )(Hα ) vs .
+    To obtain an irreducible lowest weight module we have to factor out all singular
+vectors. First of all, we have that m1 and m3 are positive, since 2j1 and 2j2 are non-
+negative integers. The corresponding singular vectors are
+                                   2j1 +1                  2j2 +1
+                        v1 = X1+           v0 , v3 = X3+            v0 ,                  (13)
+and these are present for all representations we discuss. Next, it is clear that depending
+on the value of d there may be other singular vectors. Since we are interested in the
+positive-energy UIRs, we recall the list of these representations for su(2, 2) [1]:
+                             1) d > j1 + j2 + 2 ,      j1 j2 6= 0 ,
+                             2) d = j1 + j2 + 2 ,      j1 j2 6= 0 ,
+                             3) d > j1 + j2 + 1 ,      j1 j2 = 0 ,                         (14)
+                             4) d = j1 + j2 + 1 ,      j1 j2 = 0 ,
+                             5) d = j1 = j2 = 0 .
+
+                                               5
+As we have already said, the same list is valid for Uq (su(2, 2)). In case 1) there are no
+additional singular vectors. If d = j1 + j2 + 2, which is case 2) and is also possible in case
+3), then m13 = 1 and there is an additional singular vector:
+                   
+            (1)
+          v13 = [2j1 ][2j2 ]X1+ X3+ X2+ − [2j1 ][2j2 + 1]X1+ X2+ X3+ −
+                                                                                         (15)
+                                   + + +                            + + +
+                − [2j1 + 1][2j2 ]X3 X2 X1 + [2j1 + 1][2j2 + 1]X2 X1 X3 v0 ,
+
+where [x] = [x]q = q x/2 − q −x/2 / q 1/2 − q −1/2 . In case 4) we have m13 = 2. Moreover,
+                                                 
+
+m23 = 1 if j1 = 0 and m12 = 1 if j2 = 0. Thus there are two singular vectors if j1 + j2 > 0,
+and three singular vectors if j1 = j2 = 0. These vectors are
+                 
+         (2)
+        v13 = [2j1 ][2j1 − 1][2j2 ][2j2 − 1](X1+ )2 (X3+ )2 (X2+ )2 −
+              − [2][2j1 ][2j1 − 1][2j2 + 1][2j2 − 1](X1+ )2 X3+ (X2+ )2 X3+ +
+              + [2j1 ][2j1 − 1][2j2 + 1][2j2 ](X1+ )2 (X2+ )2 (X3+ )2 −
+              − [2][2j1 + 1][2j1 − 1][2j2 ][2j2 − 1]X1+ (X3+ )2 (X2+ )2 X1+ +
+              + [2]2 [2j1 + 1][2j1 − 1][2j2 + 1][2j2 − 1]X1+ X3+ (X2+ )2 X3+ X1+ −
+                                                                                         (16a)
+              − [2][2j1 + 1][2j1 − 1][2j2 + 1][2j2 ]X1+ (X2+ )2 (X3+ )2 X1+ +
+              + [2j1 + 1][2j1 ][2j2 ][2j2 − 1](X3+ )2 (X2+ )2 (X1+ )2 −
+              − [2][2j1 + 1][2j1 ][2j2 + 1][2j2 − 1]X3+ (X2+ )2 X3+ (X1+ )2 +
+                                                                     
+              + [2j1 + 1][2j1 ][2j2 + 1][2j2 ](X2+ )2 (X3+ )2 (X1+ )2 v0 ,
+             d = j1 + j2 + 1 , j1 j2 = 0 , m13 = 2 ,
+
+
+               [2j1 ]X1+ X2+ − [2j1 + 1]X2+ X1+ v0 ,
+                                               
+     v12 =                                                d = j1 + 1 , j2 = 0 , m12 = 1 , (16b)
+               [2j2 ]X3+ X2+ − [2j2 + 1]X2+ X3+ v0 ,
+                                               
+     v23 =                                                d = j2 + 1 , j1 = 0 , m23 = 1 , (16c)
+
+and all expressions in (16) are valid also when j1 = j2 = 0. Finally, in case 5), m1 = m2 =
+m3 = 1, there are three singular vectors Xk+ v0 , k = 1, 2, 3, and when factored out, the
+whole Uq (G + ) gives zero contribution, yielding the one-dimensional representation. Fac-
+toring out all the singular vectors together with their descendents, one can now explicitly
+build the positive-energy representations.
+
+      4. In this section we consider the case where the deformation parameter is a root of
+unity, namely, q = e2πi/N , N = 2, 3, . . .
+      In this case all Verma modules V χ are reducible [6] and all irreducible representations
+are finite dimensional [8]. There are singular vectors for all positive roots α [6]. Condition
+(11) also has more content now because if (Λχ − ρ)(Hα ) = −m ∈ Z, then (11) will be
+fulfilled for all m + kN , k ∈ Z. In particular, there will be an infinite series of positive
+integers m such that (11) is true [6]. For identical reasons, there is an infinite number of
+lowest weights Λχ such that (11) is satisfied for the same set of positive integers m = mα .
+
+                                                 6
+     Let us take a representation such that for each simple root α (11) is satisfied with a
+positive integer m = mα ≤ N . Then the three numbers m1 , m2 , m3 which characterize the
+representation V χ will be
+
+                          m1 = {2j1 + 1}N
+                               
+                                 {−d − j1 − j2 + 1}N , if d ∈ Z,
+                          m2 =                                                            (17)
+                                 N,                    if d 6∈ Z,
+                          m3 = {2j2 + 1}N ,
+
+where {x}N is the smallest positive integer equal to x (mod N ); thus we have mk ∈ N
+and 0 < mk ≤ N , k = 1, 2, 3.
+     The weights χ such that (17) is satisfied are divided into six classes [9] depending on
+the values of m12 = m1 + m2 , m23 = m2 + m3 , and m13 = m1 + m2 + m3 :
+
+                      a) mjk ≤ N ,                                                       (18a)
+                      b) m12 , m23 ≤ N , N < m13 ≤ 2N ,                                  (18b)
+                      c) m12 ≤ N , N < m23 , m13 ≤ 2N ,                                  (18c)
+                      d) m23 ≤ N , N < m12 , m13 ≤ 2N ,                                  (18d)
+                      e) N < m12 , m13 , m23 ≤ 2N ,                                      (18e)
+                      f ) N < m12 , m23 ≤ 2N , 2N < m13 ≤ 3N .                           (18f )
+
+These representations inherit all the structure from their Uq (sl(4, C)) counterparts. Thus
+the classification of the unitarizable lowest weight representations of Uq (su(2, 2)) proceeds
+as follows.
+     Imposing the conditions of positive energy UIRs (14), we see that cases 1), 2), 3) are
+in one to one correspondence with the finite dimensional representations of Uq (sl(4, C)) for
+q N = 1 and all possibilities listed in (18) are admissible. The same list of representations
+is valid for Uq (su(4)).
+     The classification of the massless case 4) of (14) is more interesting since not all cases
+in (18) are admissible. Since j1 j2 = 0, let us choose for definiteness j2 = 0. Then from
+(17) we have
+                       m1 = {2j1 + 1}N , m2 = {−2j1 }N , m3 = 1 ,
+                              m12 = N + 1 , m13 = N + 2 ,                                 (19)
+                                 
+                                   {1 − 2j1 }N ≤ N , if j1 6= 0,
+                           m23 =
+                                   N +1 ,            if j1 = 0.
+Therefore the admissible cases are (18d) when j1 6= 0, and (18e) when j1 = 0. For the
+dimension d(N, J1 ) of these representations we have, adapting a result of Ref.[9],
+                               1h 3        2               2
+                                                                 i
+                    d(N, J1 ) = 2N − N (12J1 − 1) + 3J1 (4J1 − 1) ,                       (20)
+                               3
+where J1 is such that 2J1 + 1 = (2j1 + 1) (mod 2N ) and 1 ≤ 2J1 + 1 ≤ N . We recall
+that in the classical case the massless unitary representations are infinite-dimensional.
+
+                                              7
+However, we may compare our representations with the undeformed non–unitary finite–
+dimensional representations which have the same quantum numbers (m1 , m2 , m3 ) = (2J1 +
+1, N − 2J1 , 1). We note that the dimension of the former is generically smaller than the
+dimension of the latter, which is given by
+
+                                   1
+            dc (m1 , m2 , m3 ) =      (2J1 + 1)(N − 2J1 )(N + 1)(N + 1 − 2J1 )(N + 2) .              (21)
+                                   12
+These two dimensions can coincide only in the exceptional cases N = 2, J1 = 0, d(2, 0) =
+dc = 6 and N = 2J1 + 1 where we have
+
+                                     1                             1
+   d0 ≡ d(2J1 + 1, J1 ) = dc =         (J1 + 1)(2J1 + 1)(2J1 + 3) = N (N + 1)(N + 2) .               (22)
+                                     3                             6
+     Until now we have discussed the case j2 = 0, j1 ≥ 0. The other case, j1 = 0, j2 ≥ 0,
+is obtained trivially from this. In fact, if we introduce the helicity h = j1 − j2 , then all
+the formulae above may be written in terms of |h|; in particular, for the exceptional case
+N = 2|h| + 1 we have (cf. (22)):
+
+                          1                                 1
+                  d0 =      (|h| + 1)(2|h| + 1)(2|h| + 3) = N (N + 1)(N + 2) .                       (23)
+                          3                                 6
+    We give now some explicit examples to illustrate the above classification. Take the
+massless case d = j1 + 1, j2 = 0, and consider the three examples j1 = 1/2 and j1 = 1 for
+N = 3, and j1 = 1/2 for N = 2.
+
+• N = 3, j1 = 1/2, q = e2πi/3
+    According to (19) and (20) we have: m1 = 2, m2 = 2, m3 = 1, and d(3, 1/2) = 16.
+Note that the classical dimension for this case is dc = 20. The singular vectors corre-
+sponding to the simple roots are : (X1+ )2 v0 , (X2+ )2 v0 and X3+ v0 ; thus, in the irreducible
+representation with vacuum state | i, we have
+
+                           (X1+ )2 | i = 0,   (X2+ )2 | i = 0,   X3+ | i = 0 .                       (24)
+
+The sixteen basis states are the vacuum | i and
+
+  X1+ | i                          X2+ | i                       X1+ X2+ | i
+  X3+ X2+ | i                      X1+ X2+ X1+ | i               X2+ X1+ X2+ | i
+  X3+ X2+ X1+ | i                  X2+ X1+ X2+ X1+ | i           X3+ X1+ X2+ X1+ | i                 (25)
+  X3+ X2+ X1+ X2+ | i              X3+ X2+ X1+ X2+ X1+ | i       (X3+ )2 X2+ X1+ X2+ | i
+  X2+ X3+ X2+ X1+ X2+ X1+ | i      (X3+ )2 X2+ X1+ X2+ X1+ | i   X2+ (X3+ )2 X2+ X1+ X2+ X1+ | i .
+
+One can explicitly check that the norms with respect to the Uq (su(2, 2))-invariant scalar
+product are positive (in fact, are all equal to 1). All other vectors have zero-norm and are
+decoupled from the representation. The same happens in the other two examples below.
+
+                                                     8
+• N = 3, j1 = 1, q = e2πi/3
+     In this case one has: m1 = 3, m2 = 1, m3 = 1, and d0 = dc = 10. Note that now
+the dimension of the representation coincides with the classical one. The singular vectors
+corresponding to the simple roots are easily obtained: (X1+ )3 v0 , X2+ v0 and X3+ v0 . In the
+irreducible representation one thus has
+                            (X1+ )3 | i = 0,    X2+ | i = 0,    X3+ | i = 0 .                      (26)
+The ten states spanning this representation are given by the vacuum | i and
+          X1+ | i                    (X1+ )2 | i                   X2+ X1+ | i
+          X1+ X2+ X1+ | i            X3+ X2+ X1+ | i               X2+ X1+ X2+ X1+ | i             (27)
+          X3+ X1+ X2+ X1+ | i        X3+ (X2+ )2 (X1+ )2 | i       (X3+ )2 (X2+ )2 (X1+ )2 | i .
+Also in this case one can explicitly check that the norms with respect to the Uq (su(2, 2))
+invariant scalar product are all equal to unity.
+
+• N = 2, j1 = 1/2, q = eiπ = −1
+     This is a q-deformation of the fundamental representation. According to (19) and
+(22) we have now: m1 = 2, m2 = 1, m3 = 1, and d0 = dc = 4, so that also in this
+case the dimension of the representation is equal to the classical one. The singular vectors
+corresponding to the simple roots are (X1+ )2 v0 , X2+ v0 and X3+ v0 , and in the irreducible
+representation one has
+                            (X1+ )2 | i = 0,    X2+ | i = 0,    X3+ | i = 0 .                      (28)
+The remaining four basis vectors are given by:
+                        |i,      X1+ | i ,     X2+ X1+ | i ,   X3+ X2+ X1+ | i ,                   (29)
+and all have unit norm. In this case one can easily work out the 4 ×4 matrices representing
+the generators of Uq (sl(4, C)). With
+                                                                               
+         0 1                 0 0               1 0                1 0              0 0
+ σ+ =            , σ− =             , σ3 =              , e1 =           , e2 =
+         0 0                 1 0               0 −1               0 0              0 1
+                                                                                       (30)
+one finds:
+                                                                        
+                      σ3 0                   e2    0                   0 0
+           H1 = −                    H2 =                    H3 = −
+                      0 0                    0 −e1                     0 σ3
+                                                                       
+             +      σ− 0              +        0 0             +      0 0
+           X1 =                      X2 =                    X3 =
+                     0 0                      σ+ 0                    0 σ−
+                                                                       
+             −      σ+ 0              −          0 σ−          −      0 0
+           X1 =                      X2 = −                  X3 =                      (31)
+                     0 0                         0 0                  0 σ+
+                                                                          
+             +          0 0           +         0 0            +         0 0
+           X12 = −i                  X23 = i                 X13 = −
+                       e1 0                     e2 0                    σ− 0
+                                                                       
+             −         0 e1           −         0 e2           −      0 σ+
+           X12 = −i                  X23 = i                 X13 =
+                       0 0                      0 0                   0 0
+
+                                                     9
+Note that in this basis the anti-linear anti-involution ω (cf. (6)) is represented by matrix
+hermitean conjugation. The matrix form of the skew - hermitean generators of Uq (su(2, 2))
+can be easily obtained from the above expressions with the help of Eq. (7). One can now
+explicitly check that this representation of Uq (su(2, 2)) is unitary.
+     As a final remark, we note that it may be possible to apply the finite dimensional UIRs
+given above to the theory and classification of elementary particles. This is suggestive
+because there is a simple relation between the four × four representation given above and
+the fundamental representation matrices of su(4) (e.g. [10]).
+
+
+
+     Acknowledgments
+     V.K.D. and V.H. would like to thank Professor Abdus Salam for hospitality and
+financial support at the ICTP. V.K.D. was also partially supported by the Bulgarian
+National Foundation for Science, Grant Φ − 11.
+
+    References
+
+ 1. G. Mack, Comm. Math. Phys. 55 (1977) 1.
+ 2. V.K. Dobrev, Canonical q-deformations of noncompact Lie (super-) algebras, Göttingen
+    University preprint, (July 1991), to appear in J. Phys. A; cf. also: q-Deformations
+    of noncompact Lie (super-) algebras: the examples of q-deformed Lorentz, Weyl,
+    Poincaré and (super-) conformal algebras, ICTP preprint IC/92/13 (1992), to ap-
+    pear in the Proceedings of the Quantum Groups Workshop of the Wigner Symposium
+    (Goslar, July 1991).
+ 3. V.G. Drinfeld, Soviet. Math. Dokl. 32 (1985) 2548; in Proceedings of the International
+    Congress of Mathematicians, Berkeley (1986), Vol. 1 (The American Mathematical
+    Society, Providence, 1987) p.798.
+ 4. M. Jimbo, Lett. Math. Phys. 10 (1985) 63; Lett. Math. Phys. 11 (1986) 247.
+ 5. E. Abe, Hopf Algebras, Cambridge Tracts in Math., N 74, (Cambridge Univ. Press,
+    1980).
+ 6. V.K. Dobrev, ICTP Trieste internal report IC/89/142 (June 1989) and in Proceed-
+    ings of the International Group Theory Conference (St. Andrews, 1989), Eds. C.M.
+    Campbell and E.F. Robertson, Vol. 1, London Math. Soc. Lect. Note Ser. 159 (1991)
+    p. 87.
+ 7. V.K. Dobrev, Rep. Math. Phys. 25 (1988) 159.
+ 8. C. De Concini and V.G. Kac, Progress in Math. 92 (Birkhäuser, Boston, 1990) p.
+    471.
+ 9. H.H. Andersen, P. Polo and K. Wen, Representations of quantum algebras, Aarhus
+    University, Math. Inst. preprint series 1989/1990 No. 24 (1990).
+10. D.B. Lichtenberg, Unitary Symmetry and Elementary Particles (2nd ed.), (Academic
+    Press, NY, 1978).
+
+
+                                            10
+
