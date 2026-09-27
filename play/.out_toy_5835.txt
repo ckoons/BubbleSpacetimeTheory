@@ -1,0 +1,5 @@
+Q1 massless delta=+1; H2 4D pieces (chi_t,chi_s)=(-1,+1) -> True
+Q2 conformal/K~: single H2 leg forbidden for every M; two legs allowed iff M fermion-even -> True
+Q3 Poincare only: single H2 leg allowed iff M fermion-EVEN (H2 couples as a boson) -> True
+Q4 prohibition holds for odd numbers of H2 legs only -> True
+SCORE 4/4
