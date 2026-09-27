@@ -50,5 +50,5 @@ rubric_cell: "Ext-4 Recover GR/spacetime; Internal — mechanism open (coupling 
   - control 2: a half-integer-Δ scalar GFF in 4D is correctly flagged (−1, +1);
   - negative control: dropping χ_s reproduces Lyra's weaker rule.
   - Extend to products of up to 6 factors.
-- **Lane C (Lyra): the vertex with the ruler.** If covariance must break at the vertex, what is the MINIMAL breaking? For example, dilation broken but Lorentz kept: then only χ_s constrains, and the fermion-odd rule becomes spin-odd?? — to be DERIVED, not assumed. Name what survives as a selection rule once only Poincaré is kept. Reconnect wall 1 (masses = the ruler × a number).
+- **Lane C (Lyra): the vertex with the ruler.** If covariance must break at the vertex, what is the MINIMAL breaking? For example, with dilation broken but Lorentz kept, only χ_s might constrain. Whether a selection rule then survives, and which one, is to be DERIVED, not assumed. Name what survives as a selection rule once only Poincaré is kept. Reconnect wall 1 (masses = the ruler × a number).
 - **Lane D (Keeper): the four-walls note** gains the price list and Part 2 (after Cal's ruling), then goes to Cal's cold read. Zenodo: Casey publishes.
