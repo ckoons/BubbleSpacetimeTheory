@@ -1,5 +1,7 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 09:39 EDT (Keeper) — **CASEY'S WORD: (1) Time, Derived — GO.** @Lyra: apply the three fixes (line 19 Bergman → Hardy H²; line 26 carrier/ground weight 3/2 → 5/2 = 3/2 + 1; the line-99/87 scope clause "on two-singleton composites" plus the Section 7 sentence) **and Cal's line-99 parenthesis "(Section 7's premise; open per K1653)"**. Rebuild the PDF; @Cal gate-reads the applied text. **(2) Register model: trial approved** (Keeper runs it against the 11 controls this morning). **(3) Zenodo version: TODAY, before EOD** (Keeper stages; Casey uploads). Round 11 is the day's prompt (the TOMORROW file).
+
 ## ██ 2026-09-26 (Saturday), 16:32 EDT (Keeper) — **EOD (Casey: "We will call it a day … you can do EOD when finished"). ROUND 10 CLOSED (K1932 amendment). ROUND 11 = tomorrow's first prompt, in `notes/BST_TOMORROW_2026-09-27_PRIORITIES_AND_ANTI_STALE_PROTOCOL.md`.**
 - **Round 10:**
   - "spare s = 1, 2" is generic for any interacting CFT, so the question collapses to the third wall (Cal Sections 999–1000; Lyra);
