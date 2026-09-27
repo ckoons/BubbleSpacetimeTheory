@@ -38,7 +38,7 @@ rubric_cell: "Internal — mechanism open (charge and mass enter only through sy
 
 **Lane B — which symmetry does the ruler keep, and is there one breaking scale or two? (Lyra writes; Cal hashes first.)**
 - A mass breaks SO(4,2) to Poincaré (dilations and special conformal broken).
-- A curvature scale keeps de Sitter SO(4,1) (the stabilizer of a spacelike vector in ℝ^{4,2}) or anti-de Sitter SO(3,2) (a timelike vector).
+- A curvature scale keeps de Sitter SO(4,1), the stabilizer of a TIMELIKE vector in ℝ^{4,2} (its complement has signature (4,1)), or anti-de Sitter SO(3,2), the stabilizer of a SPACELIKE vector (complement (3,2)). *(Corrected by Keeper at 13:45 before any teammate ran on it. The first issue had spacelike and timelike swapped; checked by computing the complement signatures.)*
 - BST has two dimensionful quantities in play: the ruler m_e (particles) and H (the ledger's Λ = 3H²Ω_Λ, measured, K1919–K1921).
 - **Linear algebra:** write each breaking as the stabilizer of a vector in ℝ^{4,2} (or ℝ^{5,2}). Say which subgroup each scale keeps, and whether BST's own structures (the ledger, the tick, the descent) choose one.
 - **Kill line:** if H enters as a separate measured scale breaking a different subgroup, BST breaks conformal symmetry with TWO scales, and "one ruler" is honest only for the particle sector. State it plainly. **No scan of m_e/H or any large-number ratio** (Dirac's 10⁴⁰ is the menu risk; forbidden this round).

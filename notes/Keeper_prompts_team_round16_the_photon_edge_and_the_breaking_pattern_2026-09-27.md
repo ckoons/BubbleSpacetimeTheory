@@ -20,7 +20,7 @@
 - **Kill line:** subquotient ⇒ a distributional F·O (magnetic-moment-type) covariant coupling exists. Not a subquotient ⇒ no covariant photon coupling of any kind. Neither is a charge.
 
 ## LANE B — which symmetry does the ruler keep; one scale or two? (Cal hashes first, then Lyra writes)
-- Write each breaking as the stabilizer of a vector: a mass → Poincaré; a positive curvature → de Sitter SO(4,1); a negative curvature → AdS SO(3,2).
+- Write each breaking as the stabilizer of a vector in ℝ^{4,2} (signature 4 plus, 2 minus): a mass → Poincaré (a null vector's stabilizer, with dilations broken); de Sitter SO(4,1) = the stabilizer of a TIMELIKE vector; AdS SO(3,2) = the stabilizer of a SPACELIKE vector. *(Keeper corrected this at 13:45: K1936 first had spacelike and timelike swapped. Quote the complement's signature, not the word.)*
 - BST's dimensionful quantities: the ruler m_e and H (the ledger: Λ = 3H²Ω_Λ; measured; K1919–K1921).
 - Which subgroup does each keep? Do BST's structures (the ledger, the tick N_max·ħ/(m_e c²), the descent) choose?
 - **Kill line:** H is a separate measured scale breaking a different subgroup ⇒ TWO breaking scales, and "one ruler" holds only for particles.
