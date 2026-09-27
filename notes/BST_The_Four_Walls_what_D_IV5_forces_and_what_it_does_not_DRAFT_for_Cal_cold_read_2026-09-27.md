@@ -24,6 +24,17 @@ On 26–27 September Casey asked how physical processes run from the discrete in
    - The records are tempered, and massless representations are not, at any helicity *(Grace R171 for links 1–2; Elie 5830 and 5832 for link 3: helicities 0, ½, 1, 2, 4; **Cal Section 1006: 5830 STANDS; the fourth wall is complete internally and priced externally**; Lyra R13 retracted the R12 edge reading)*.
    - The only route is a Kaluza–Klein zero mode of the singletons on a compact spatial circle, and **BST supplies neither the circle nor its radius.** Every radius BST can form is excluded. The photon circle needs 1/R above 30.8 GeV (the electron's g−2) and above 1.5 TeV (colliders): **a second length.** *(Elie 5831; Grace R171; Lyra R12.)*
 
+## The price list (what each import that could supply 4D's massless content costs; Lyra R13, Cal Sections 1001 and 1006)
+| Import | New lengths | New posits | Gives | Status |
+|---|---|---|---|---|
+| Kaluza–Klein circle | one (1/R > 30.8 GeV from g−2; > 1.5 TeV from colliders) | the circle; a 5D vector for helicity 1 | spin 0 and ½ from the singletons | every BST radius excluded |
+| D_IV⁴'s own singletons, posited on the sub-domain | none | one (a second module family) | every helicity | **cheapest**; one coupling number per vertex channel; no linear coupling to D_IV⁵ exists |
+| The descent (Machian) | — | — | nothing | — |
+| A commit that respects the clock | — | — | nothing (it keeps H² at 5/2 and up) | — |
+| A commit that breaks the clock | ≥ one (a second clock's scale) | one | could in principle | contradicts Time, Derived's single generator |
+
+*Pending Cal's ruling (K1935 Part 2): whether ANY conformally covariant vertex couples H² to 4D massless particles. Keeper's claim is that none does (two central characters). If Cal confirms, every entry that couples to H² also costs the ruler at the vertex.*
+
 ## What the walls do NOT say (calibration, both ways)
 - They do not retract any derived result. The gauge-group skeleton, one generation's hypercharges, three generations at the floor and the mixing sector's order stand as derived statements about **structure**. The walls say where structure stops and dynamics would have to begin.
 - They are not new losses of the kind in Section E. No prediction fired to produce them. They mark the limits of what the geometry supplies.
