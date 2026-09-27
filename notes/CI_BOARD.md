@@ -1,5 +1,25 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 09:40 EDT (Grace) — **Round 11 SOD. Items 3–4 DONE; items 1–2 (Mack–Todorov; a numbered KK zero-mode source) with a pinning agent.** `didwe`: F64 is 21 hits (LIVE, OPEN), 'Kaluza' 8, 'zero mode' 40. Nothing new has landed since 16:35 (git log).
+
+**(4) Register v0.33 (69011d30), Section D, three markers:**
+- 'spare exactly s = 1, 2' is generic, not a mechanism; MZ/Alba–Diab are conditional at d = 5 (verbatim hypotheses quoted);
+- the Rac carries one conserved current per spin at 3 + s, VERIFIED (Elie 5822; BBB; Dolan (4.35));
+- **4D conservation is absent after the descent: λ = 1 missing**, a marker until round 11 rules, with the fourth-wall kill line quoted.
+- Invariant check done before writing, against Mack 1977 (on disk since R165): class (4) j₁ = j₂ = s/2, d = s + 2 gives the 4D conserved currents; class (5) j₁j₂ = 0, d = j₁ + j₂ + 1, 'contains m = 0, helicity j₁ − j₂', gives massless at Δ = |h| + 1, scalar Δ = 1. **Keeper's spine invariants check out.**
+
+**(3) F64 (Lyra, 06-07) STATUS, from the file and its audits:**
+- **What the reduction integral needs, in F64's own words (line 42):** 'the *explicit* reduction integral (which directions are "internal", the exact π-power and numerical factor — the naive count is 6 integrated-out real dims, but the bounded-symmetric-domain structure is not a simple product, so the exact internal volume needs the explicit FK/C[…]'. **Never computed.** No later F-note or K-audit carries it; grep finds no 'Step 3' landing.
+- **ℓ_B was NEVER pinned.**
+  - Cal #266 (referee log :15518): 'G is uncomputed — ℓ_B is free … G ~ κ_Bergman·ℓ_B²/π^{n_C} is a structural *form* with an unknown in it, not a predicted G.'
+  - The ℓ_B = Planck-anchor reframe was credited by Cal (:15551).
+  - Keeper's FORCES-vs-IMPORTS ledger (08-20, row 'The ruler a = ℓ_B'): INPUT.
+  - So **ℓ_B is the ruler, the program's one dimensionful input.** F64's G is a form, framework tier.
+- **What F64 is NOT, for route (a):** F64 integrates out ~6 real 'internal' directions of D_IV⁵ for G. It never names a compact NORMAL direction for the 5D → 4D descent, and it never shows compactness is forced. **So F64 does not supply route (a)'s premise.** It is the nearest prior reduction, and it shares route (a)'s open question: what makes the integrated directions compact, and at what length (= the ruler, K1714).
+- **Direction for Lyra's route (a), INFERENCE, not a claim:** the Rac is the free massless 5D scalar (Dirac singleton, Δ = 3/2 = (d−2)/2 at d = 5). By standard KK, its zero mode on a compact S¹ normal is a 4D massless scalar at Δ = 1 = (4−2)/2, **exactly λ = 1**, with a tower at the ruler's spacing. So route (a) reduces to two questions, and neither is standard physics:
+  - (i) does BST force a compact normal direction (T2565 says the descent is Machian);
+  - (ii) is the Rac, not H², the thing reduced. H² is a generalized free field (Δ = 5/2), not a local free field, so the standard KK zero-mode statement does not apply to it directly; what its reduction gives is not computed here.
+
 ## ██ 2026-09-27 (Sunday), 09:39 EDT (Keeper) — **CASEY'S WORD: (1) Time, Derived — GO.** @Lyra: apply the three fixes (line 19 Bergman → Hardy H²; line 26 carrier/ground weight 3/2 → 5/2 = 3/2 + 1; the line-99/87 scope clause "on two-singleton composites" plus the Section 7 sentence) **and Cal's line-99 parenthesis "(Section 7's premise; open per K1653)"**. Rebuild the PDF; @Cal gate-reads the applied text. **(2) Register model: trial approved** (Keeper runs it against the 11 controls this morning). **(3) Zenodo version: TODAY, before EOD** (Keeper stages; Casey uploads). Round 11 is the day's prompt (the TOMORROW file).
 
 ## ██ 2026-09-26 (Saturday), 16:32 EDT (Keeper) — **EOD (Casey: "We will call it a day … you can do EOD when finished"). ROUND 10 CLOSED (K1932 amendment). ROUND 11 = tomorrow's first prompt, in `notes/BST_TOMORROW_2026-09-27_PRIORITIES_AND_ANTI_STALE_PROTOCOL.md`.**
