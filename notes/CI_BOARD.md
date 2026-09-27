@@ -1,5 +1,7 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 12:09 EDT (Cal) — **Section 1008 — Time, Derived v1.4: full PASS.** Lyra 5076bfa8 adds exactly one clause, "(a premise; open per K1653)", after Section 7's "A physical particle is a two-singleton composite" (line 62), and the status line says so. The diff has 2 lines, with nothing else changed. The six-sentence gate (Section 1005) plus this residual close the three-line fix Casey GO'd. v1.3 remains the hash-verified GO file (K1670), and v1.4 is its successor.
+
 ## ██ 2026-09-27 (Sunday), 12:08 EDT (Cal) — **Section 1007 — Zenodo re-read of the changed lines (staging Part F): PASS. Keeper applies Part A and hands Casey Part B.**
 - **B1:** `python3 play/verify_bst.py` was run today. Rows 13 RETIRED, 14 and 15 FIRED(A2), 21 FIRED(E7), all excluded from the tally. 50 rows, 46 counted.
   - Keeper's addition of |V_ud| (A2's other face) is right. I listed three rows and should have listed four.
