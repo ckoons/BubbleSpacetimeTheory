@@ -1,0 +1,4 @@
+C1 J e5 = [ 0.  0.  0.  0. -1.  0.] ; Stab(e5) = the 10 generators without index 5 -> True
+C2 index-4 mixers are boosts (tr X^2 > 0), spatial rotations compact -> True
+C3 exp(2 pi J) = 1 (compact clock); boost orbit norms grow [  1.    14.2  285.27] -> True
+SCORE 3/3
