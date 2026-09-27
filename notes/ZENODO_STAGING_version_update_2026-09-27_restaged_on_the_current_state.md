@@ -39,3 +39,6 @@ The state block (`notes/BST_PRESENTATION_STATE_BLOCK.md`, synced to four consume
 1. **Cal:** cold read of Parts A and B (the front page and the words the world will read).
 2. **Keeper:** apply Part A on Cal's pass; sync the four consumers; run the SOD checker; build `zenodo_2026-09_staging/` from Part C; verify every PDF is newer than its source.
 3. **Casey:** edit Part B in his voice; repo snapshot per the April procedure → Zenodo "new version" on the existing lineage → paste Part B → upload the staged PDFs → publish.
+
+## Part E — Staging folder BUILT (11:24 EDT): `zenodo_2026-09_staging/`
+01–13 are built from the current tree, and every PDF was checked newer than its source. The register PDF was rebuilt today, with the prime character (′) swapped for an apostrophe in a temporary copy because the shared header maps ′ into math mode, which fails inside table cells. **00_State_of_the_Program.pdf waits on Cal's cold read of Part A.** Part C items 5 and 6 (the tier guide, Forcing & Evidence) and the 08-26 one-page state are **omitted**: they have not been currency-checked since August, and Lecture 10 plus the register cover the method. Include them later only after a check.
