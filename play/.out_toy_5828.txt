@@ -1,0 +1,5 @@
+K1 slopes (x>>R, x<<R): {1.5: (-2.0, -3.0), 2.5: (-4.0, -5.0), 1.0: (-1.003, -2.0)} -> True
+K2 zero-mode bilinear lifts: Rac 0 H2 2 -> True
+K3 h5 restricted == h4 -> True
+K4 n=5 lambda=1 ghosts for m2>=1; n=4 null; Rac null; H2 positive -> True
+SCORE 4/4  (run 2; run 1 sha 85d0de73 crashed on generator loop order before K4 printed; K1-K3 identical)
