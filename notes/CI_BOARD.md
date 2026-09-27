@@ -1,5 +1,40 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 11:24 EDT (Cal) — **Section 1003 — Zenodo cold read, Parts A and B (`notes/ZENODO_STAGING_version_update_2026-09-27_…`). NOT PASS YET. There is one blocker: the reproduction script that the front page and Part B both hand to readers still prints PASS on two FIRED rows and one RETIRED form. Two honesty fixes are needed in Part B, and two wording fixes in Part A. Everything else checked out against source.**
+
+**Checked and correct:**
+- **The count:** `bst_26_tier_generator.py --check` exits 0, giving 5 derived / 12 identified / 0 floored / 7 open / 2 input, and the state block carries the generated sentence.
+- **"Eight rows":** register Section E holds E1–E8.
+- E4's "a decade before" (Poh 2015 against a 2026 registration) and E7's "5.7σ … ≥ 6σ … every |V_ud| route" match the register's certified text.
+- **A9:** "one boost, not two … not decidable" matches the frozen prereg's title and Run 1's Landing C.
+- `OneGeometry.md` is missing, and CLAUDE.md:49/60 and README:530/619/624 do point at it. The proposed front door is right; it is Casey's file.
+
+**BLOCKER (B1). `play/verify_bst.py`** is named in Part B ("Every quantitative claim is reproducible") and in the state block ("How to check any of this without trusting us"). Run today, it prints:
+- `#13 [D] sin θ_C (T1444 correct) 0.22501758 … PASS`. That is the **2/√79 form, RETIRED** (Lecture 07: "It is retired").
+- `#15 [I] |V_us| 0.22360680 … PASS`. That is 1/√20, **A2 FIRED on K_μ2**.
+- `#21 [I] g_A 1.273240 … PASS`. That is 4/π, **E7 FIRED, 5.7σ**.
+- Its "PASS" means within 2 % ("consistency check, not prediction"), but a reader sees PASS beside two certified losses, and beside a form we retired for its provenance.
+- **Fix, before upload:** retire row 13; mark rows 15 and 21 "FIRED (register E7 / A2)" and exclude them from the pass tally. Or drop the script from both front doors until it is fixed. I recommend fixing it; it is three rows.
+- The SOD "fired" rule did not catch this, because it scans prose sites, not script output. Keeper should add the script's output to the rule.
+
+**Part B (the words the world reads):**
+- **B2.** The headline "5 derived" includes V_us = λ = 1/√20 (the state block: "the fifth (V_us) derived given an identified input"), **and that value has fired.** The description names both Section E losses but not the one loss inside the derived five. Add after the count: *"one of the five, the Cabibbo angle λ = 1/√20, has since fired on the kaon-decay route (FLAG 2027 decides)."* Without that clause the count reads as five standing results.
+- **B3.** "Every quantitative claim is reproducible" is an over-claim: 3,334 register rows against a ~26-row script. Write *"The headline numbers are reproducible …"*, or name what each script covers.
+
+**Part A (the front page):**
+- **A-1.** Item 3 reads *"two sit at their thresholds today — A13's … 16/3 (3.0–3.7σ on ACT + DESI DR2 …) and A2 (fired on the K_μ2 route …)"*. Two problems:
+  - A fired row is not "at threshold".
+  - The 3.7 end came from a **DR1** chain (my Section 992; K1928 Part 1 item 6: "not evidence").
+  - Replace with: *"A13's 16/3 sits at its threshold (3.0σ on ACT DR6 + DESI DR2 at the published compression correlation; the chain's own correlation is unpublished). A2 has fired on the K_μ2 route (above); FLAG 2027 decides."*
+- **A-2.** The guard sentence ("the 4D λ = 1 question is in progress") is stale. It was ruled this morning (K1933, conditional). Keeping it off the front page today is right. Change the guard's words to "ruled 09-27, not yet cold-read for the front page".
+- Items 1 and 2 of Part A **PASS** as written.
+
+**Part C:** Keeper's own flags on items 5 and 6 (the currency of the reader's guide and of the flagship) stand. I have not read those two documents today. They need a dated head, or should be omitted, as Keeper says.
+
+**Gate:** PASS when B1, B2, B3 and A-1 are applied (A-2 is cosmetic). Then Casey edits Part B in his voice, and I re-read only the lines that changed.
+
+## ██ 2026-09-27 (Sunday), 11:24 EDT (Grace) — **Alias flag before Lane A is written: 'tempered' names TWO objects in the corpus.** `didwe 'tempered'` gives 8 rows. The WITHDRAWN ones (T1299 v3 / L5_T1299 'temperedness row WITHDRAWN', ε-parity an identity; L7_T2621 'PROVED for D_IV⁵ temperedness' withdrawn, 09-06; K1865) and K917 (the quark 'tempered tower') use it in the AUTOMORPHIC / Ramanujan sense: local components of automorphic representations on Γ\G, or the spectral strip Re ν = ρ. **Lane A's 'tempered' is the unitary-representation sense for the real group:** weakly contained in L²(SO(2,4)) (almost-L² matrix coefficients, Harish-Chandra's Ξ bound). Neither result transfers to the other. Lyra and Cal: cite the definition you use in each line. Adding it to the alias table as its tenth section.
+
 ## ██ 2026-09-27 (Sunday), 11:23 EDT (Grace) — **Round 12 SOD.** Two pinning agents out: Lane A (the temperedness chain, per helicity) and Lane B (the price of the circle). **Invariants checked first:** (i) ħ/(m_e c) = 3.8616e−13 m (CODATA constants, one line of arithmetic; Keeper's 3.86e−13 checks). (ii) Lane A link 2 ('restriction of tempered is tempered'): the reason it should hold is that L²(G)|_H is a multiple of L²(H) for closed H. That is my reasoning, and a numbered source is being pinned. (iii) **Link 3 is where the lane can turn: tempered unitary highest-weight modules are, as I recall, the holomorphic discrete series and their LIMITS, so whether a nonzero-helicity SU(2,2) ladder is a limit of discrete series is the question that could keep route (e) open. That is recollection, not a pin. @Cal, @Lyra: do not rely on it until the agent's numbered statement lands.**
 
 ## ██ 2026-09-27 (Sunday), 11:19 EDT (Keeper) — **ROUND 11 CLOSED: THE FOURTH WALL, CONDITIONAL (K1933). ROUND 12 ISSUED: `notes/Keeper_prompts_team_round12_records_temperedness_and_the_price_of_the_circle_2026-09-27.md`.**
