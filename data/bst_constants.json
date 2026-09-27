@@ -838,7 +838,9 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.02%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "text_flag": "the chain's arithmetic line writes 938.272 (measured m_p) while saying 'm_p derived'; the CODE uses the namespace m_p = 6*pi^5*m_e (938.254), which is BST's. Text only; the value is BST's.",
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_013",
@@ -1668,14 +1670,19 @@
     "T767"
    ],
    "source_toys": [],
-   "status": "derived",
+   "status": "derived form Ry/pi; value uses the measured Rydberg",
    "ace": "(0,0)",
    "publication_tier": "Derived",
    "observed_uncertainty": null,
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.02%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "Ry = 13.6057 eV is the MEASURED Rydberg (alpha = 1/137.036)"
+   ],
+   "weak_flag": "BST's own Ry = m_e/(2 N_max^2) = 13.6128 eV (+0.05%); 13.6057/pi = 4.3308 vs BST-Ry/pi = 4.3331. Recode with m_e/(2*N_max**2) to make the row BST's.",
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_032",
@@ -1910,14 +1917,19 @@
     "T196e"
    ],
    "source_toys": [],
-   "status": "derived",
+   "status": "CAMB output; inputs not all named (h, T_CMB)",
    "ace": "(0,0)",
    "publication_tier": "Derived",
    "observed_uncertainty": null,
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.4 sigma",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "CAMB also requires h (H_0) and T_CMB, not named on the row; the program's H_0 = 67.29 carries Planck's measured omega_m (const_100); T_CMB presumably the measured 2.7255 K — NOT STATED"
+   ],
+   "tier_recommendation": "not D until every CAMB input is named",
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_038",
@@ -1951,7 +1963,7 @@
     "T196f"
    ],
    "source_toys": [],
-   "status": "derived",
+   "status": "CAMB output; inputs not all named (h, T_CMB)",
    "ace": "(0,0)",
    "publication_tier": "Indicative (Register-gated: recompute on genuine geometry before Derived)",
    "register_status": "RATIFIED Indicative (Cal hunt, Casey sign-off 2026-08-03): r_* is a CAMB/Boltzmann OUTPUT smuggling the cosmological Mpc/H_0 SECOND scale beyond the m_e/tick anchor. Not a BST-forced number until recomputed without the cosmological scale.",
@@ -1960,7 +1972,12 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "1.0 sigma",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "CAMB also requires h (H_0) and T_CMB, not named on the row; see const_037"
+   ],
+   "tier_recommendation": "not I-as-derived until every CAMB input is named",
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_039",
@@ -3776,14 +3793,19 @@
     "T250"
    ],
    "source_toys": [],
-   "status": "structural",
+   "status": "structural; contains an unsourced literal 140.2",
    "ace": "(1,0)",
    "publication_tier": "Indicative",
    "observed_uncertainty": null,
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.41%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "140.2 (a pion mass) — UNSOURCED: neither BST's 139.9 (const_057) nor the measured 139.57"
+   ],
+   "unsourced_literal": "140.2 in formula_code has no source on the row; replace by const_057's BST expression or name its origin. Not to be cited as is.",
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_083",
@@ -4660,14 +4682,18 @@
    "source_toys": [
     904
    ],
-   "status": "derived",
+   "status": "consistency; H imported via omega_m (const_100)",
    "ace": "(1,0)",
    "publication_tier": "Structure-Derived (form forced; value set by the named input)",
    "observed_uncertainty": null,
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.35%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "inherits H_0 = 67.29 → Planck's measured omega_m (const_100)"
+   ],
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_102",
@@ -5180,7 +5206,7 @@
    "source_toys": [
     "toy_1451"
    ],
-   "status": "derived",
+   "status": "identified ratio m_b/m_tau = g/N_c = 7/3; m_b imports measured m_tau",
    "ace": "(0,0)",
    "publication_tier": "Indicative (Register-gated: recompute on genuine geometry before Derived)",
    "register_status": "RATIFIED split (Cal hunt, Casey sign-off 2026-08-03): the RATIO m_b/m_tau = g/N_c = 7/3 is DERIVED (BST integers). The ABSOLUTE m_b chains to the MEASURED m_tau (not the tick-anchor) -> the absolute value is Indicative until chained to the anchor.",
@@ -5189,7 +5215,12 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.8%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "m_tau = 1776.86 MeV (MEASURED, PDG) — the base of the row"
+   ],
+   "tier_recommendation": "I (ratio identified; not D: the MeV scale is measured m_tau, not the ruler)",
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_111",
@@ -5304,14 +5335,19 @@
     "T198"
    ],
    "source_toys": [],
-   "status": "derived",
+   "status": "SI definition restated — not a BST derivation",
    "ace": "(1,0)",
    "publication_tier": "Structure-Derived (form forced; value set by the named input)",
    "observed_uncertainty": null,
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "exact (SI defined)",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "F = 96485.33212 C/mol is the SI-exact N_A*e (2019 definitions) restated"
+   ],
+   "tier_recommendation": "remove from the derived tiers (move, or mark 'SI definition')",
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_114",
@@ -5344,7 +5380,7 @@
     "T1447"
    ],
    "source_toys": [],
-   "status": "derived",
+   "status": "unit conversion of the MEASURED mu_p (CODATA restated); NOT a BST derivation as coded",
    "precision_percent": 0.001,
    "notes": "From mu_p = (2g/n_C)(1 - 11/(10*N_max*pi)) at 0.0001%. Toy 1693.",
    "ace": "(0,0)",
@@ -5353,7 +5389,15 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.001%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "mu_p/mu_N = 2.7928473446 (CODATA, MEASURED)",
+    "mu_N = 5.0507837461e-27 J/T (CODATA)",
+    "hbar = 1.054571817e-34 J s (SI exact)"
+   ],
+   "code_chain_mismatch": "the chain says 'mu_p derived from BST (T1447)', but formula_code uses CODATA's measured mu_p. Either code const_043's BST mu_p or keep this as a unit conversion.",
+   "tier_recommendation": "not D; 'conversion of measured' unless recoded from const_043",
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_115",
@@ -5397,13 +5441,18 @@
     "Toy 1474",
     "Toy 1489"
    ],
-   "status": "structural",
+   "status": "structural; formula_code EMPTY; the headline value uses measured G_F and m_Z",
    "notes": " Depends on G_F (const_112, structural). Marked structural pending G_F derivation.",
    "ace": "(1,0)",
    "publication_tier": "Indicative",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.37%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "G_F (MEASURED) and m_Z (MEASURED) in the chain's headline Gamma_Z = G_F*m_Z^3/(6*pi*sqrt(2))*R_Z = 2.486 GeV"
+   ],
+   "tier_recommendation": "give the row a code; name G_F, m_Z",
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_122",
@@ -5488,7 +5537,7 @@
    "source_toys": [
     "1678"
    ],
-   "status": "identified",
+   "status": "UNRESOLVED: formula_code != derivation_chain",
    "notes": " Formula: sqrt(sigma) = sqrt(10)*m_pi. Reconciled May 10.",
    "ace": "(1,0)",
    "publication_tier": "Structure-Derived (form forced; value set by the named input)",
@@ -5496,7 +5545,13 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.23%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "m_pi = 139.57 MeV (MEASURED) in formula_code sqrt(10)*139.57"
+   ],
+   "code_chain_mismatch": "formula_code sqrt(10)*139.57 = 441.36 MeV uses MEASURED m_pi; the chain says m_p*sqrt(3/14) with m_p = 6 pi^5 m_e, which gives 434.33 MeV (Grace recompute). Two formulas, 1.6% apart; the stored 441.0 matches neither exactly. Owner to reconcile; not to be cited.",
+   "tier_recommendation": "none until reconciled",
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_124",
@@ -6054,7 +6109,12 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.02%",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "measured_inputs": [
+    "m_p = 938.272 MeV (MEASURED) in formula_code; hbar*c = 197.327 MeV fm (unit)"
+   ],
+   "weak_flag": "BST's m_p = 6 pi^5 m_e = 938.254 MeV; rank^2*197.327/938.254 = 0.84125 fm vs the coded 0.84124 (0.002%). Recode with the namespace m_p to make the row BST's.",
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "name": "Cosmic neutrino background temperature ratio",

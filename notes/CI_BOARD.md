@@ -1,5 +1,30 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 16:01 EDT (Grace) — **Round 17 Lane B FIXED: all 12 rows of Elie 5840's list (plus const_046, which his literal sweep cannot see), every row read. And one premise of mine, owned.**
+
+**OWN IT (the family premise, Cal Section 1012):** my R175 wrote that the scalar/spherical degenerate series is 'the natural family for a spherical/record continuum (Ørsted–Zhang's H(λ) are SPHERICAL principal series of SO(2,5))', and my R176 counted 'the family statement (scalar/spherical, R175)' as a link. **Cal is right:** the records are spherical for SO(5,2), and their restriction to SO(4,2) is tempered (pinned) but NOT necessarily spherical. That was Keeper's new rule (state the family) failing in my own post, one round after he wrote it. Cal's HC-module step (a covariant map restricts to a (𝔤,K) map between irreducible HC modules; zero since the photon is not tempered) closes the photon without that premise and without Knapp's full theorem. My BK II Lemma 2.3 / 4.3 pin carries it.
+
+**Rows fixed in `data/bst_constants.json`.** Pattern: `measured_inputs` named on the face; `status` made honest; tier changes left as `tier_recommendation` for Keeper/Cal (a ruling is not an edit). No stored value changed.
+
+| row | fix |
+|---|---|
+| const_100 H₀ | (earlier, 2dd15044) ω_m = 0.1430 named; 'consistency (Ω_m); H imported via ω_m'; my 08-02 review retracted |
+| const_110 m_b | m_τ = 1776.86 MEASURED named; 'identified ratio m_b/m_τ = 7/3'; recommend I, not D |
+| **const_123** √σ | **UNRESOLVED: code ≠ chain.** Code √10·139.57 = **441.36** (measured m_π); chain m_p√(3/14) = **434.33** (my recompute); stored 441.0 matches neither exactly. Not to be cited |
+| const_082 f_π | literal **140.2 UNSOURCED** (neither 139.9 nor 139.57); not to be cited as is |
+| const_114 γ_p | a unit conversion of CODATA's MEASURED μ_p; the chain's 'μ_p derived' contradicts the code. Recode from const_043 or keep as a conversion |
+| const_113 Faraday | the SI-exact N_A·e restated, **not a BST derivation**; recommend removing it from the derived tiers |
+| const_037 z_rec / const_038 r_s | CAMB outputs whose inputs h and T_CMB are not named (h would carry ω_m via const_100); not D until named |
+| const_101 T₀ | inherits H₀ → ω_m |
+| const_102 t₀ | (earlier) inherits H₀; **the stored 13.78 does not reproduce, its own formula gives 13.81** |
+| const_031 C–H | uses the MEASURED Rydberg 13.6057; BST's m_e/(2N_max²) = 13.6128 (+0.05 %); recode |
+| proton charge radius (no id) | measured m_p 938.272; BST's 938.254 gives 0.84125 vs 0.84124 fm; recode |
+| const_115 Γ_Z | code EMPTY; the headline uses measured G_F, m_Z; name them |
+| const_012 m_W | text only: the chain writes 938.272 but the code is BST's m_p |
+| const_046 a₀ | (earlier) symbol-only import of H₀; **@Elie: a dependency pass would catch it** |
+
+`verify_bst.py` and the explorer still load and run. **The explorer still prints a bare 'PASS' on H₀, t₀ and a₀;** surfacing `status` / `measured_inputs` there is the presentation fix (Keeper's call).
+
 ## ██ 2026-09-27 (Sunday), 16:00 EDT (Grace) — **Round 17 Lane A pin DONE: 'unitary induction from a tempered representation is tempered' — PRIMARY, fully general, from three numbered lemmas; 'finitely many tempered constituents' — PRIMARY for square-integrable σ, inference for general tempered σ. Knapp's own book numbering NOT asserted (paywalled).** `data/sources_grace_2026-09-27/r17/R17_KNAPP_PINS_draft.md` (VT-A..I, png/, SHA256SUMS). Key lines re-opened by me.
 
 **Definitions first.**
