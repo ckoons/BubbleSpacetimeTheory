@@ -1,0 +1,537 @@
+                                                                                                                                                       CTPU-17-02
+                                                                                                                                                     LYCEN 2017-01
+                                                        Current LHC Constraints on Minimal Universal Extra Dimensions
+
+                                                                   Nicolas Deutschmann,1, ∗ Thomas Flacke,2, † and Jong Soo Kim2, ‡
+                                                                            1
+                                                                              Univ Lyon, Universite Lyon 1, CNRS/IN2P3, IPNL,
+                                                                          F-69622, Villeurbanne, France and Centre for Cosmology,
+                                                                Particle Physics and Phenomenology (CP3), Universite catholique de Louvain,
+                                                                         Chemin du Cyclotron 2, B-1348 Louvain-la-Neuve, Belgium
+                                                                               2
+                                                                                 Center for Theoretical Physics of the Universe,
+                                                                          Institute for Basic Science (IBS), Daejeon, 34051, Korea
+                                                          In this letter, we present LHC limits on the minimal universal extra dimension (MUED) model
+                                                       from LHC Run 1 data and current limits from searches of the ongoing Run 2. Typical collider
+                                                       signals of the Kaluza-Klein (KK) states mimic generic degenerate supersymmetry (SUSY) missing
+                                                       transverse momentum signatures since the KK particles cascade decay into jets, leptons and the
+                                                       lightest KK particle which is stable due to KK parity and evades detection. We test the parameter
+
+
+
+
+arXiv:1702.00410v2 [hep-ph] 16 Jun 2017
+                                                       space against a large number of supersymmetry based missing energy searches implemented in the
+                                                       public code CheckMATE. We demonstrate the complementarity of employing various searches which
+                                                       target a large number of final state signatures, and we derive the most up to date limits on the
+                                                       MUED parameter space from 13 TeV SUSY searches.
+
+
+                                             Universal Extra Dimensions – Introduction                   Λ, and they are only induced at lower energies due to
+                                          and Review.— Models with universal extra dimensions            renormalization group running, thus keeping the model
+                                          (UED) [1] represent a simple extension of the Stan-            a simple BSM scenario with only two parameters: the
+                                          dard Model which include a dark matter candidate and           inverse compactification radius R−1 which sets the mass
+                                          are testable at the LHC.[2] The extra-dimensions are           scale of the first KK excitations, i.e. of the lightest part-
+                                          universal in the sense that all Standard Model (SM)            ners of the SM fields, and ΛR, which controls the number
+                                          fields are promoted to fields which propagate on the           of KK modes present in the spectrum below the cutoff,
+                                          full space-time M × X, where M is the flat four di-            and determines how much the KK mode masses and cou-
+                                          mensional (4D) Minkowski space and X is a compact              plings are effected by one-loop running.
+                                          space. As X is compact, the momenta along the extra-              The phenomenology of the MUED model resembles the
+                                          dimensions are discretized. In the 4D effective theory,        phenomenology of the minimal supersymmetric standard
+                                          each extra-dimensional field yields a 4D field without         model (MSSM) in many ways. Each SM particle is ac-
+                                          extra-dimensional momentum (the zero-mode which is to          companied by a partner particle at the first KK mode
+                                          be identified with the 4D SM field) as well as a Kaluza-       level (but in the case of UED, the partners have the
+                                          Klein (KK) tower of excitations which are heavy partner        same spin as the SM particle). Also, the MUED model
+                                          states with the same quantum numbers as the zero-mode.         possesses a geometric parity (“KK parity”), which is re-
+                                          The KK mass spectrum is determined by the inverse size         spected by loop corrections and corresponds to the re-
+                                          and the geometry of the extra-dimensions. In the sim-          flection of the orbifold S 1 /Z2 at its midpoint.[11] The
+                                          plest case of only one extra dimension, – which we fo-         lightest partner state (which in MUED is the partner of
+                                          cus on in this letter – compactification on the orbifold       the U (1)Y gauge boson [10]) represents a dark matter
+                                          X = S 1 /Z2 allows to have chiral zero-modes of fermions       candidate [12–15] which reproduces the observed dark
+                                          and Aµ zero-mode for gauge fields without an additional        matter relic density if 1.25 TeV . R−1 . 1.5 TeV [15],
+                                          A5 mode.[3]                                                    while for larger R−1 , the Universe would be over-closed.
+                                            The 5D UED model appears to be a very simple and             Via loop corrections, the KK resonances contribute to
+                                          predictive model as it seems to have only one parameter        electroweak precision observables [1, 16, 17] and flavor
+                                          beyond the Standard Model (BSM), the compactification          physics [18–20] which impose a bound of R−1 & 750 GeV
+                                          radius R. However, as a 5D theory, the model is inher-         and R−1 > 600 GeV.[21]
+                                          ently non-renormalizable and can only be considered as            At the LHC, two main signal classes (non-SUSY-like
+                                          an effective theory, valid below a cutoff scale Λ, which in-   and SUSY-like) allow to test UED models. MUED pre-
+                                          troduces an additional parameter into the model. Naive         dicts the existence of a whole tower of partner states
+                                          dimensional analysis [4–7] and bounds from unitarity vi-       of which the first KK level states are KK parity odd,
+                                          olation in gluon KK mode scattering [8] suggest that the       while the second KK level states are the lightest KK
+                                          cutoff is rather low: ΛR . O(10 − 50). As a conse-             parity even BSM states. As loop-induced couplings vio-
+                                          quence, higher-dimensional operators at the cutoff scale       late KK number (whilst conserving KK parity), second
+                                          can be phenomenologically relevant.[9] In the 5D min-          KK mode states can be resonantly produced at the LHC
+                                          imal UED (MUED) model [10], all higher-dimensional             and searched for in Z 0 , W 0 and colored resonance searches
+                                          operators are assumed to be absent at the cutoff scale         [22–24]. The currently strongest known bound on MUED
+                                                                                                                             2
+
+from this signal class amounts to a bound on the second
+KK photon mass of mA(2) & 1.4 TeV, which corresponds
+to R−1 & 715 GeV [25] and was obtained from a recast of
+the CMS search for a di-lepton resonance at 8 TeV with
+20.6 fb−1 [26].
+Complementarily, SUSY searches also provide a high
+discovery- and exclusion potential for the MUED model.
+The first KK mode partners are produced in pairs and
+then cascade decay to the lightest state at the first KK
+level which itself only leaves a missing energy / mo-
+mentum signature [1, 27]. ATLAS and CMS performed
+many SUSY searches at 8 TeV and 13 TeV which are
+suitable to constrain the MUED parameter space. The
+ATLAS searches Refs. [28, 29] provide explicit MUED
+limits, and [28] reports the currently strongest bound of
+R−1 & 900 − 950 GeV (depending on the value of ΛR).
+   In this letter, we provide the MUED bounds obtained             FIG. 1. Loop corrected KK mass spectrum in MUED for
+                                                                   R−1 =960 GeV, Λ R=30 and mh =125 GeV.
+from recasts of a large number of SUSY searches at 8 and
+13 TeV, performed with CheckMATE.
+
+   Constraining MUED with existing SUSY                            the KK states.[33] The KK gluon is the heaviest par-
+searches.—We focus on the LHC phenomenology of the                 ticle, and it decays into KK doublet and singlet quarks
+SM and the first KK level excitations. The KK zero mode            with roughly equal branching ratio. The KK quark decay
+level contains precisely the SM field content, including           modes mainly depend on its SU (2) charge. The SU (2)
+one Higgs doublet. At the first KK level, each chiral SM           singlet KK quark directly decays to the U (1)Y KK gauge
+fermion (Qi , ui , di , Li , ei ) (i is the SM family index) has   boson γ1 which is stable. The top KK mode also has siz-
+                                                                                           (1)        (1)
+                                          (1) (1) (1)
+one a Dirac-fermion partner (Qi , ui , di , Li , ei ),
+                                                        (1) (1)    able decays into the W± and H± as the KK top SU(2)
+each SM gauge boson gµ , Wµ , Bµ has a massive gauge bo-           doublet and singlet mix. The SU (2) doublet KK quarks
+                                                                                                                       (1)
+               (1)      (1)     (1)
+son partner gµ , Wµ , Bµ , and the Higgs partner sector            mainly decay into the SU (2) KK gauge bosons W± and
+contains a scalar, a pseudo-scalar and a charged partner           Z (1) . The KK W and Z bosons are lighter than the KK
+         (1)   (1)
+(h(1) , A0 , H± ).[30] The masses of the SM partners are           quarks and thus mostly decay into leptonic KK states
+                                      p                            which themselves decay further into the lightest stable
+at tree-level given by mn = (n/R)2 + m2SM , suggest-
+                                                                   KK particle γ (1) . As a result, typical events have a rela-
+ing a very compressed mass spectrum. However, at loop
+                                                                   tively large lepton multiplicity, multiple jets and missing
+level, the near-mass-degeneracy is partially lifted (with
+                                                                   transverse momentum in the final state configuration al-
+increasing splittings for increased ΛR), making the KK
+                                                                   though all decay products will be relatively soft due to
+gluon the heaviest state and the KK partner of the U (1)Y
+                                                                   the relatively compressed spectrum.
+gauge boson the lightest state at each KK level [10, 27].
+A sample spectrum of the first KK resonances is shown in              The masses and decay branching ratios are calculated
+Fig.1.[31] As can be seen, the mass differences can reach          with the multi purpose Monte Carlo (MC) event gener-
+up to several hundreds of GeV.                                     ator Herwig++2.7.1 [34] which is also used to generate
+   In this letter, we restrict ourselves to the strong pro-        the fully hadronized MC events employing the default
+duction of colored KK modes such as KK gluons and KK               parton distribution function (PDF) set MRST [35]. We
+quarks,                                                            work with the default settings in all collider tools. We
+                                                                   feed the truth level events to CheckMATE2.0.2 [36–38]
+                              (1)   (1)               (1)
+  pp → g (1) g (1) ,   pp → Qi Qj ,       pp → g (1) Qj ,   (1)    which is based on the fast detector simulation Delphes
+                                                                   3.4.0 [39]. Fastjet3.2.1 is used for the jet cluster-
+where Q(1) = Q(1) , q (1) and Q(1) denotes the SU (2) dou-         ing [40]. CheckMATE allows for easy testing of whether a
+blet quark partners (or their anti-particles) and q (1) =          model point is excluded or not at 95% confidence level
+u(1) , d(1) are the SU (2) singlet quark partners (or their        against current ATLAS and CMS searches at the LHC.
+anti-particles) taking into account all three generations.         CheckMATE requires an event file and the corresponding
+The total production cross section is fully determined             production cross section as input. For the study pre-
+via QCD interactions and varies between 1(8) pb and                sented here, we take the leading order cross section from
+20(480) fb for R−1 = 800 GeV and R−1 = 1200 GeV                    Herwig++, which yields a very conservative estimate of
+with Λ R = 40 at 8 (13) TeV, respectively.[32]                     the constraints as we do not re-scale the leading order
+  The decay chain can become very complicated and in               estimate with a K factor. In principle, MC events should
+the following we briefly discuss typical decay modes of            be generated with at least one additional parton at ma-
+                                                                                                                         3
+
+trix element level and matched with the Herwig++ par-         should be large enough to account for the aforementioned
+ton shower since the MUED particle spectrum is rela-          effects.
+tively degenerate [41–43]. However, this is beyond the
+                                                                Reference               Final State          L [fb−1 ]
+scope of the current work. Our simple approach will cer-
+                                                                1403.4853 (ATLAS) [47] 2`+E  /T              20.3
+tainly introduce a non-negligible systematic uncertainty
+in our predictions for mass splitting smaller than 100          1404.2500 (ATLAS) [48] SS 2` or 3`           20.3
+GeV, which in particular occurs in the low ΛR ≤ 5 re-           1405.7875 (ATLAS) [49] jets + E /T           20.3
+gion.                                                           1407.0583 (ATLAS) [50] 1`+(b) jets+E T/      20.0
+   We have performed a grid scan in the R−1 – Λ R plane         1407.0608 (ATLAS) [51] monojet+E   /T        20.3
+with the SM Higgs mass fixed to mh = 125 GeV. For               1402.7029 (ATLAS) [52] 3`+E  /T              20.3
+each grid point, 105 events have been generated. We test        1501.03555 (ATLAS) [28] 1`+jets+E /T         20.3
+each grid point against all ATLAS and CMS searches im-          1303.2985 (CMS) [53]    αT +b jets           11.7
+plemented into CheckMATE. However, not every search is          1405.7570 (CMS) [54]                     /
+                                                                                        1, SS-OS2, 3, 4`+E T 20.3
+sensitive to MUED and we only show the relevant 8 and
+13 TeV studies in Table I and II. Most searches are vali-
+dated and the validation notes can be found on the official   TABLE I. 8 TeV analyses used in our study. Articles are
+webpage [44].[45] Each analysis typically contains a large    shown by their arXiv number. The middle column denotes
+                                                              the target final state, and the third column shows the total
+number of signal regions which target different mass hier-    integrated luminosity.
+archies and final state multiplicities. For a given search,
+the best signal region for each point in the parameter
+space is defined by CheckMATE as that with the largest
+                                                                 Reference                Final State      L [fb−1 ]
+expected exclusion potential. This criterium is then re-
+                                                                 1605.03814 (ATLAS) [55]  jets+E/T         3.2
+peated to select the best search which is defined as the
+                                                                 1605.04285 (ATLAS) [56]            /
+                                                                                          1 `+jets+E T     3.2
+search whose best signal region has the largest expected
+                                                                 ATLAS-CONF-2016-054 [57] 1`+jets+E /T     14.8
+limit. This means that the best observed limit is not al-
+ways used but it ensures that the result is less sensitive       ATLAS-CONF-2016-076 [58] 2` (stop search) 13
+to downward fluctuations in the data that are bound to           ATLAS-CONF-2016-078 [59] jets+E/T         13.3
+be present when scanning over many searches and many
+signal regions. Once a best search is selected for a given    TABLE II. 13 TeV analyses used in our study. The *CONF*
+point in parameter space, the signal yield in our model is    papers are only published as conference proceedings. The
+then compared to the observed limit at 95% confidence         middle column denotes the target final state, and the third
+level [46],                                                   column shows the total integrated luminosity.
+
+
+                        S − 1.96 · ∆S
+                   r=         95
+                                                       (2)       Results.— Our numerical results are shown in Fig. 2
+                            Sexp
+                                                              and 3. We first give a brief summary of the 8 TeV results.
+                         95
+   where S, ∆S, and Sexp     denotes the number of signal     Then we present the most up to date limits on the two
+events, its theoretical uncertainty and the experimentally    dimensional MUED parameter space from 13 TeV data.
+determined 95% confidence level limit on the number of           Run 1 was very successful and both LHC experiments,
+signal events S, respectively.We only consider the statis-    ATLAS and CMS published a large number of searches
+tical uncertainty
+             √     due to the finite Monte Carlo sample       sensitive to a multitude of final state signatures. We
+with ∆S = S. The quantity S − 1.96 · ∆S corresponds           want to investigate the impact of taking into account
+to the 95% lower bound on our prediction for the number       all relevant 8 TeV searches on MUED since only a few
+of signal event, which ensures that the limits we set are     dedicated studies have been considered for MUED so far.
+conservative [38]. The r value is only calculated for the     In Fig. 2, we fix the SM Higgs mass to 125 GeV and we
+expected best signal region. CheckMATE does not combine       present the excluded region at 95 % confidence level in
+signal regions nor analyses in order to optimize exclusion    the R−1 – Λ R plane.
+since this would require knowledge from the experimental         Ref. [28] has an explicit MUED search included, and
+collaborations. We consider a model point as excluded if      we show their results for reference. As can be seen,
+r is larger than one. However, due to theoretical uncer-      the search Ref. [28] provides the best sensitivity to the
+tainties we cannot evaluate directly such as missing next     MUED parameter space. In particular its dilepton sig-
+to leading order calculations, PDF uncertainties, details     nal regions targeting soft as well as hard leptons provide
+of the parton shower and the finite MC event sample, we       strong constraints. It should be pointed out that the
+assign a conservative uncertainty to our signal predic-       observed limit of [28] is actually much better than the
+tion. As a result we define a point as definitively allowed   expected one due to mild down fluctuations in the ob-
+for r < 2/3 and definitively excluded for r > 3/2, which      served data. As a consequence, a compactification scale
+                                                                                                                                                                        4
+
+
+
+            35
+                         MUED model, 8 TeV searches                                               35
+                                                                                                            MUED model, 13 TeV searches
+                                                                 atlas 1501.03555                                                                         atlas_1605_03814
+                                                                 atlas_1402_7029                                                                          atlas_1605_04285
+            30                                                   atlas_1405_7875                  30                                                      atlas_conf_2016_054
+                                                                 cms_1405_7570                                                                            atlas_conf_2016_076
+                                                                 CheckMATE combined                                                                       atlas_conf_2016_078
+            25                                                                                    25                                                      CheckMATE combined
+
+            20
+     Λ. R                                                                                  Λ. R   20
+
+            15                                                                                    15
+
+            10                                                                                    10
+
+             5
+             700   750     800   850   900   950   1000   1050                                    5
+                                                                                                  1000   1100   1200   1300   1400   1500   1600   1700
+                                 1/R (GeV)                                                                             1/R (GeV)
+
+
+
+
+FIG. 2. 95% confidence level limit on the R−1 – Λ R plane                             FIG. 3. 95% confidence level limit on the R−1 – Λ R plane
+from ATLAS √   and CMS searches performed at the center of                            from ATLAS √   and CMS searches performed at the center of
+mass energy s = 8 TeV. The solid and dashed line de-                                  mass energy s = 13 TeV. The solid and dashed line de-
+notes the observed and expected 95% confidence level limit,                           notes the observed and expected 95% confidence level limit,
+respectively from the searches employed in our paper. The                             respectively from the searches employed in our paper. The
+total integrated luminosity used by the various searches are                          total integrated luminosity used by the various searches are
+summarized in Table I. The black solid line denotes the best                          summarised in Table II. The black solid line denotes the best
+limit excluding Ref. [28] and the shaded area corresponds to                          limit and the shaded area corresponds to our theoretical un-
+our theoretical uncertainty. We fixed the SM Higgs mass to                            certainty. We fixed the SM Higgs mass to mh =125 GeV.
+mh =125 GeV.
+
+                                                                                      too soft and thus the multi-lepton searches loose their
+up to 950 GeV for Λ R=30 is excluded. Now, we want                                    sensitivity very quickly. Again, dedicated studies target-
+to investigate how the other SUSY searches perform in                                 ing soft leptons such as Ref. [28] and possibly monojet
+comparison and we explore the sensitivity on MUED ex-                                 searches will improve sensitivity in this degenerate re-
+cluding Ref. [28]. The limits of other SUSY searches, as                              gion.
+obtained with CheckMATE are shown in green, turquoise                                    To summarize, we have demonstrated that a large
+and brown. We only show results of searches out of the                                number of searches can provide complementary con-
+list provided in Table I which yield the best expected                                straints on the MUED parameter space. The strongest
+bound (shown as dashed lines) on R−1 for some value                                   constraints from 8 TeV searches are obtained from the
+of ΛR. The recast observed bounds of the individual                                   dedicated MUED motivated signal region of Ref. [28], but
+searches are shown as solid lines. The black solid curve                              signal regions of other SUSY searches yield bounds which
+denotes the 95 % confidence level bound as determined                                 are not substantially weaker. Other 8 TeV searches such
+from Eq. (2) for r = 1,[60] and the grey shaded area is our                           as [61] could be sensitive to the signals we consider, but
+estimate for the uncertainty and denotes the region with                              are currently not implemented or validated in CheckMATE.
+                                                                                                                                           √
+0.67 < r < 1.5. Considering searches other than Ref. [28],                               Now, we turn our attention to LHC searches at s =
+the limit is mainly driven by [49], [52], and [54]. [49] is                           13 TeV. So far, ATLAS and CMS did not present dedi-
+the ’vanilla’ ATLAS multijet and large missing transverse                             cated MUED results from Run 2. In Fig. 3, we display
+momentum search which performs well for sizable Λ R.                                  the excluded region from the ongoing Run 2 as obtained
+For small Λ R ∼ 5 GeV, the mass difference between                                    from our recast study with CheckMATE. We include two
+the KK gluon g1 and the lightest KK mode γ1 dimin-                                    published searches [55, 56] from the early Run 2 data and
+ishes quite rapidly with a splitting of ∼ 100 GeV. In this                            three conference notes with roughly 14 fb−1 of collected
+regime, monojet searches can become competitive. How-                                 data [57–59]. Other searches such as [62–70] could also
+ever, since we did not generate matched event samples,                                be sensitive to the signals we consider, but are not yet
+the systematic uncertainty on the exclusion limit in this                             implemented or validated in CheckMATE. We observe a
+region of parameter space would be too large and thus the                             clear improvement of the limits as compared to Run 1.
+results should be interpreted with great care. Ref. [52]                              The mass scale up to R−1 = 1500 GeV can be excluded
+and [54] are dedicated multi-lepton and missing trans-                                at 95% confidence level. The search [57] requiring one
+verse momentum searches. Multiple leptons in the final                                isolated lepton performs better than the corresponding
+state are very handy in suppressing the SM background.                                search with a lepton veto [59]. For both searches, the lim-
+It is clear that for small Λ R values, the leptons become                             its become much weaker for increasing ΛR. This might
+                                                                                                                             5
+
+be quite surprising since naively one would expect that         Acknowledgments.— We thank Kyoungchul Kong
+for increasing mass splitting, the efficiency in the signal   and Seong Chan Park for their contribution and collab-
+regions would increase. However, increasing Λ R raises        oration in the beginning of this work as well as for many
+also the overall mass scale of the hard process which re-     helpful comments. We also thank Simon Platzer and Pe-
+sults in a large reduction of the hadronic cross section.     ter Richardson for information and details on the MUED
+In addition, the best signal region of Ref. [57] is GG2J      implementation in Herwig. The work of J.S.K and T.F.
+which targets relatively heavy and compressed spectra.        was supported by IBS under the project code, IBS-R018-
+Sensitivity is enhanced for events with relatively large      D1. N.D. and T.F. acknowledge the Partenariat Hubert
+jet recoils against the pair produced KK partons which        Curien (PHC) STAR project no.34299VE, and partial
+results in large missing transverse momentum. However,        support from the CNRS LIA FKPPL.
+for increasing mass splitting, the missing transverse en-
+ergy is reduced and thus we observe that the best lim-
+its are derived for relatively small Λ R. On the other
+hand, the dilepton stop search [58] performs very well          ∗
+even for large Λ R values. Here, a large mass splitting            n.deutschmann@ipnl.in2p3.fr
+                                                                †
+                                                                   flacke@ibs.re.kr
+results in more energetic leptons which improves the sen-        ‡
+                                                                   jongsoo.kim@tu-dortmund.de
+sitivity. However, the response degrades very quickly for      [1] T. Appelquist, H.-C. Cheng, and B. A. Dobrescu,
+very small Λ R as in this region, the leptons tend to be           “Bounds on universal extra dimensions,” Phys. Rev.
+too soft to be detected.                                           D64 (2001) 035002, arXiv:hep-ph/0012100 [hep-ph].
+                                                               [2] C.f. Refs.[72, 73] for earlier proposals of TeV scale extra
+   Conclusions.—We have determined the current lim-                dimensions. For Reviews on UED models and their
+                                                                   phenomenology c.f. [74, 75].
+its on the MUED parameter space from LHC supersym-
+                                                               [3] For more than one extra-dimension, the compact space
+metry searches at 8 and 13 TeV. After the end of Run               is not unique. C.f. Ref.[76] for a classification of flat 2D
+1, a large number of supersymmetry searches targeting              orbifolds, Ref. [77, 78] for realizations. Models with
+a vast number of final state topologies have been pub-             spherical orbifolds have also been studied [79, 80].
+lished. We demonstrated the complementarity of using           [4] R. Barbieri and A. Strumia, “What is the limit on the
+all available searches in order to constrain MUED. Run 2           Higgs mass?,” Phys. Lett. B462 (1999) 144–149,
+is ongoing and the number of searches is quite restricted          arXiv:hep-ph/9905281 [hep-ph].
+                                                               [5] M. Papucci, “NDA and perturbativity in Higgsless
+compared to Run 1. However, the large gain in parton
+                                                                   models,” arXiv:hep-ph/0408058 [hep-ph].
+luminosity allows for impressive improvement in the ex-        [6] Z. Chacko, M. A. Luty, and E. Ponton, “Massive higher
+clusion of parameter space. The dilepton stop search               dimensional gauge fields as messengers of
+performs very well, and we have derived the most strin-            supersymmetry breaking,” JHEP 07 (2000) 036,
+gent limits on the MUED parameter space so far with                arXiv:hep-ph/9909248 [hep-ph].
+R−1 ≈ 1400 GeV excluded for Λ R ∼ 10. This limit is            [7] G. Bhattacharyya, A. Datta, S. K. Majee, and
+conservative in the sense that it does not include and             A. Raychaudhuri, “Power law blitzkrieg in universal
+                                                                   extra dimension scenarios,” Nucl. Phys. B760 (2007)
+K factor. For a K factor of 1.5, the limit would be in-
+                                                                   117–127, arXiv:hep-ph/0608208 [hep-ph].
+creased to R−1 ≈ 1500 GeV. MUED yields the observed            [8] R. S. Chivukula, D. A. Dicus, and H.-J. He, “Unitarity
+dark matter relic density if co-annihilation and second            of compactified five-dimensional Yang-Mills theory,”
+KK mode resonant (co-) annihilation are taken into ac-             Phys. Lett. B525 (2002) 175–182,
+count if 1.25 TeV . R−1 . 1.5 TeV [15] while larger R−1            arXiv:hep-ph/0111016 [hep-ph].
+predicts a too large dark matter relic density. Thus the       [9] The least irrelevant operators are boundary localized
+results from ATLAS and CMS Run 2 recasts of SUSY                   kinetic terms and other SM-like operators. They are
+                                                                   induced by renormalization group running and thus
+searches presented in this letter show that the MUED
+                                                                   generically present. Their inclusion yields non-minimal
+model (i.e. the simplest UED benchmark model) is get-              UED models [81] with a much larger parameter space.
+ting in tension with observation.                                  Another UED extension – split UED [82] – includes
+                                                                   fermion bulk mass terms. Fermion bulk mass terms are
+  Note added.— While we were finishing this letter,                not radiatively induced and could thus be absent
+we became aware of the complementary study Ref. [71],              consistently.
+which studies MUED bounds from SUSY searches with             [10] H.-C. Cheng, K. T. Matchev, and M. Schmaltz,
+                                                                   “Radiative corrections to Kaluza-Klein masses,” Phys.
+an MUED implementation in Pythia 6 and Pythia 8
+                                                                   Rev. D66 (2002) 036005, arXiv:hep-ph/0204342
+for event generation and CheckMATE. We thank the au-               [hep-ph].
+thors of Ref. [71] for communication and for making a         [11] In UED extensions with boundary terms and bulk
+preliminary draft of their paper available to us. In the           fermion masses [83], KK parity is conserved if boundary
+overlapping regions of the two studies, the results were           terms are chosen symmetric on both boundaries and if
+found to be in reasonable agreement.                               bulk fermion masses are chosen KK parity odd.
+                                                              [12] G. Servant and T. M. P. Tait, “Is the lightest
+                                                                                                                               6
+
+     Kaluza-Klein particle a viable dark matter candidate?,”             arXiv:1501.03555 [hep-ex].
+     Nucl. Phys. B650 (2003) 391–419,                               [29] ATLAS Collaboration, “Search for squarks and gluinos
+     arXiv:hep-ph/0206071 [hep-ph].                                      in events with isolated leptons,
+                                                                                                     √     jets and missing
+[13] K. Kong and K. T. Matchev, “Precise calculation of the              transverse momentum at s = 8 TeV with the ATLAS
+     relic density of Kaluza-Klein dark matter in universal              detector,” Tech. Rep. ATLAS-CONF-2013-062, CERN,
+     extra dimensions,” JHEP 01 (2006) 038,                              Geneva, Jun, 2013.
+     arXiv:hep-ph/0509119 [hep-ph].                                      https://cds.cern.ch/record/1557779.
+[14] F. Burnell and G. D. Kribs, “The Abundance of                  [30] The KK gauge bosons acquire their masses dominantly
+     Kaluza-Klein dark matter with coannihilation,” Phys.                                              (1)    (1)  (1)
+                                                                         from the scalar KK modes g5 , W5 , B5 , which weakly
+     Rev. D73 (2006) 015001, arXiv:hep-ph/0509118                        mix with the first KK Higgs modes due to electroweak
+     [hep-ph].                                                           symmetry breaking. Thus at each KK level, five scalar
+[15] G. Belanger, M. Kakizaki, and A. Pukhov, “Dark                      degrees of freedom are “eaten” while four physical
+     matter in UED: The Role of the second KK level,”                    scalar degrees of remain in the electroweak sector.
+     JCAP 1102 (2011) 009, arXiv:1012.2577 [hep-ph].                [31] C.f. Refs.[10, 27] for full mass expressions.
+[16] T. Appelquist and H.-U. Yee, “Universal extra                  [32] We clearly see that the cross section increase from 8 to
+     dimensions and the Higgs boson mass,” Phys. Rev. D67                13 TeV is quite significant for heavy KK masses and
+     (2003) 055002, arXiv:hep-ph/0211023 [hep-ph].                       thus we expect a large increase in sensitivity from 8 to
+[17] M. Baak, M. Goebel, J. Haller, A. Hoecker, D. Ludwig,               13 TeV.
+     K. Moenig, M. Schott, and J. Stelzer, “Updated Status          [33] C.f. Refs.[10, 27] for expressions of the relevant zero-
+     of the Global Electroweak Fit and Constraints on New                and first KK mode couplings at one-loop level, and an
+     Physics,” Eur. Phys. J. C72 (2012) 2003,                            illustration of possible decay modes.
+     arXiv:1107.0975 [hep-ph].                                      [34] J. Bellm et al., “Herwig++ 2.7 Release Note,”
+[18] A. J. Buras, M. Spranger, and A. Weiler, “The Impact                arXiv:1310.6877 [hep-ph].
+     of universal extra dimensions on the unitarity triangle        [35] A. D. Martin, R. G. Roberts, W. J. Stirling, and R. S.
+     and rare K and B decays,” Nucl. Phys. B660 (2003)                   Thorne, “NNLO global parton analysis,” Phys. Lett.
+     225–268, arXiv:hep-ph/0212143 [hep-ph].                             B531 (2002) 216–224, arXiv:hep-ph/0201127
+[19] A. J. Buras, A. Poschenrieder, M. Spranger, and                     [hep-ph].
+     A. Weiler, “The Impact of universal extra dimensions           [36] D. Dercks, N. Desai, J. S. Kim, K. Rolbiecki,
+     on B → Xs γ, B → Xs g, B → Xs µ + µ− ,                              J. Tattersall, and T. Weber, “CheckMATE 2: From the
+     KL → π0 e+ e− and 0 /,” Nucl. Phys. B678 (2004)                   model to the limit,” arXiv:1611.09856 [hep-ph].
+     455–490, arXiv:hep-ph/0306158 [hep-ph].                        [37] J. S. Kim, D. Schmeier, J. Tattersall, and K. Rolbiecki,
+[20] U. Haisch and A. Weiler, “Bound on minimal universal                “A framework to create customised LHC analyses
+     extra dimensions from B̄ → Xs γ,” Phys. Rev. D76                    within CheckMATE,” Comput. Phys. Commun. 196
+     (2007) 034014, arXiv:hep-ph/0703064 [HEP-PH].                       (2015) 535–562, arXiv:1503.01123 [hep-ph].
+[21] Bounds from other precision observables, like the muon         [38] M. Drees, H. Dreiner, D. Schmeier, J. Tattersall, and
+     g − 2 [84, 85], Zbb̄ [86], or modifications of Higgs                J. S. Kim, “CheckMATE: Confronting your Favourite
+     couplings [87–89] are weaker.                                       New Physics Model with LHC Data,” Comput. Phys.
+[22] A. Datta, K. Kong, and K. T. Matchev,                               Commun. 187 (2015) 227–265, arXiv:1312.2591
+     “Discrimination of supersymmetry and universal extra                [hep-ph].
+     dimensions at hadron colliders,” Phys. Rev. D72 (2005)         [39] DELPHES 3 Collaboration, J. de Favereau, C. Delaere,
+     096006, arXiv:hep-ph/0509246 [hep-ph]. [Erratum:                    P. Demin, A. Giammanco, V. Lematre, A. Mertens, and
+     Phys. Rev.D72,119901(2005)].                                        M. Selvaggi, “DELPHES 3, A modular framework for
+[23] T. Flacke, A. Menon, and Z. Sullivan, “Constraints on               fast simulation of a generic collider experiment,” JHEP
+     UED from W’ searches,” Phys. Rev. D86 (2012)                        02 (2014) 057, arXiv:1307.6346 [hep-ex].
+     093006, arXiv:1207.4472 [hep-ph].                              [40] M. Cacciari, G. P. Salam, and G. Soyez, “FastJet User
+[24] S. Chang, S. Y. Shim, and J. Song, “Direct bound on                 Manual,” Eur. Phys. J. C72 (2012) 1896,
+     the minimal Universal Extra Dimension model from the                arXiv:1111.6097 [hep-ph].
+     tt̄ resonance search at the Tevatron,” Phys. Rev. D86          [41] H. K. Dreiner, M. Kramer, and J. Tattersall, “How low
+     (2012) 117503, arXiv:1207.6876 [hep-ph].                            can SUSY go? Matching, monojets and compressed
+[25] L. Edelhauser, T. Flacke, and M. Kramer, “Constraints               spectra,” Europhys. Lett. 99 (2012) 61001,
+     on models with universal extra dimensions from                      arXiv:1207.1613 [hep-ph].
+     dilepton searches at the LHC,” JHEP 08 (2013) 091,             [42] H. Dreiner, M. Krmer, and J. Tattersall, “Exploring
+     arXiv:1302.6076 [hep-ph].                                           QCD uncertainties when setting limits on compressed
+[26] CMS Collaboration, “Search for Resonances in √     the              supersymmetric spectra,” Phys. Rev. D87 no. 3, (2013)
+     Dilepton Mass Distribution in pp Collisions at s = 8                035006, arXiv:1211.4981 [hep-ph].
+     TeV,”.                                                         [43] M. Drees, M. Hanussek, and J. S. Kim, “Light Stop
+[27] H.-C. Cheng, K. T. Matchev, and M. Schmaltz,                        Searches at the LHC with Monojet Events,” Phys. Rev.
+     “Bosonic supersymmetry? Getting fooled at the CERN                  D86 (2012) 035024, arXiv:1201.5714 [hep-ph].
+     LHC,” Phys. Rev. D66 (2002) 056006,                            [44] https://checkmate.hepforge.org/.
+     arXiv:hep-ph/0205314 [hep-ph].                                 [45] The implementation of the search [29] has been only
+[28] ATLAS Collaboration, G. Aad et al., “Search for                     partially validated and we did not include it in our
+     squarks and gluinos in events with isolated
+                                              √     leptons, jets        search. The search [28] presents limits on the MUED
+     and missing transverse momentum at s = 8 TeV with                   parameter space and we plot their limits in Fig. 2. The
+     the ATLAS detector,” JHEP 04 (2015) 116,
+                                                                                                                             7
+                                                                                                   √
+     conference notes [57, 59] did not provide cutflows.              states with two leptons in s = 13 TeV pp collisions
+     However, both searches are based on [55, 56] with minor          using 13.3 fb−1 of ATLAS data,” Tech. Rep.
+     modifications and the two latter searches are validated.         ATLAS-CONF-2016-076, CERN, Geneva, Aug, 2016.
+[46] A. L. Read, “Presentation of search results: The CL(s)           http://cds.cern.ch/record/2206249.
+     technique,” J. Phys. G28 (2002) 2693–2704.                  [59] ATLAS Collaboration, “Further searches for squarks
+[47] ATLAS Collaboration, G. Aad et al., “Search for direct           and gluinos in final states√with jets and missing
+     top-squark pair production√in final states with two              transverse momentum at s =13 TeV with the ATLAS
+     leptons in pp collisions at s = 8 TeV with the ATLAS             detector,” Tech. Rep. ATLAS-CONF-2016-078, CERN,
+     detector,” JHEP 06 (2014) 124, arXiv:1403.4853                   Geneva, Aug, 2016.
+     [hep-ex].                                                        http://cds.cern.ch/record/2206252.
+[48] ATLAS Collaboration,√ G. Aad et al., “Search for            [60] The apparent discrepancy between the limit shown by
+     supersymmetry at s = 8 TeV in final states with jets             this line and trying to follow the individual limits is a
+     and two same-sign leptons or three leptons with the              result of the interpolation we performed to produce this
+     ATLAS detector,” JHEP 06 (2014) 035,                             figure. In particular, the displayed expected limit for
+     arXiv:1404.2500 [hep-ex].                                        the CMS search is in reality briefly the best search
+[49] ATLAS Collaboration, G. Aad et al., “Search for                  around ΛR = 20, which is not displayed because the
+     squarks and gluinos with the ATLAS detector in final             interpolation smoothed the curve. This explains the
+     states √with jets and missing transverse momentum                outward bulge of the limit in that region.
+     using s = 8 TeV proton–proton collision data,” JHEP         [61] ATLAS Collaboration, “Searches for direct scalar top
+     09 (2014) 176, arXiv:1405.7875 [hep-ex].                         pair production in final states with two leptons using
+[50] ATLAS Collaboration, G. Aad et al., “Search for top              the stransverse
+                                                                                    √ mass variable and a multivariate analysis
+     squark pair production in final states with one isolated
+                                                         √            technique in s = 8 TeV pp collisions using 20.3 fb−1
+     lepton, jets, and missing transverse momentum in s =             of ATLAS data,” Tech. Rep. ATLAS-CONF-2013-065,
+     8 TeV pp collisions with the ATLAS detector,” JHEP               Geneva, 2013. https://cds.cern.ch/record/1562840.
+     11 (2014) 118, arXiv:1407.0583 [hep-ex].                    [62] ATLAS Collaboration, M. Aaboud et al., “Search for
+[51] ATLAS Collaboration, G. Aad et al., “Search for                  new phenomena in events containing a same-flavour
+     pair-produced third-generation squarks decaying via              opposite-sign dilepton pair,
+                                                                                                 √ jets, and large missing
+     charm quarks or in compressed √ supersymmetric                   transverse momentum in s = 13 pp collisions with the
+     scenarios in pp collisions at s = 8 TeV with the                 ATLAS detector,” Eur. Phys. J. C77 no. 3, (2017) 144,
+     ATLAS detector,” Phys. Rev. D90 no. 5, (2014)                    arXiv:1611.05791 [hep-ex].
+     052008, arXiv:1407.0608 [hep-ex].                           [63] ATLAS Collaboration, “Search for supersymmetry with
+                                                                                                                             ?1
+[52] ATLAS Collaboration, G. Aad et al., “Search for direct           √ same-sign leptons or three leptons using 13.2 fb of
+                                                                      two
+     production of charginos and neutralinos in events with              s = 13 TeV pp collision data collected by the ATLAS
+     three
+     √      leptons and missing transverse momentum in                detector,” Tech. Rep. ATLAS-CONF-2016-037, Geneva,
+       s = 8 TeV pp collisions with the ATLAS detector,”              2016. https://cds.cern.ch/record/2205745.
+     JHEP 04 (2014) 169, arXiv:1402.7029 [hep-ex].               [64] ATLAS Collaboration, “Search for squarks and gluinos
+[53] CMS Collaboration, S. Chatrchyan et al., “Search for             in final states with jets and missing
+                                                                                                    √       transverse
+     supersymmetry in hadronic final states with missing              momentum using 36 fb?1 of s = 13 TeV pp collision
+     transverse energy using the variables
+                                     √      αT and b-quark            data with the ATLAS detector,” Tech. Rep.
+     multiplicity in pp collisions at s = 8 TeV,” Eur. Phys.          ATLAS-CONF-2017-022, Geneva, 2017.
+     J. C73 no. 9, (2013) 2568, arXiv:1303.2985 [hep-ex].             https://cds.cern.ch/record/2258145.
+[54] CMS Collaboration, V. Khachatryan et al., “Searches         [65] CMS Collaboration, V. Khachatryan et al., “Search for
+     for electroweak production of charginos, neutralinos,            supersymmetry with multiple  √ charged leptons in
+     and sleptons decaying to leptons and W, Z, and Higgs             proton-proton collisions at s = 13 TeV,”
+     bosons in pp collisions at 8 TeV,” Eur. Phys. J. C74             arXiv:1701.06940 [hep-ex].
+     no. 9, (2014) 3036, arXiv:1405.7570 [hep-ex].               [66] CMS Collaboration, A. M. Sirunyan et al., “Searches
+[55] ATLAS Collaboration, M. Aaboud et al., “Search for               for pair production for third-generation squarks in
+     squarks and gluinos in final
+                                √ states with jets and missing        sqrt(s)=13 TeV pp collisions,” arXiv:1612.03877
+     transverse momentum at s = 13 TeV with the ATLAS                 [hep-ex].
+     detector,” Eur. Phys. J. C76 no. 7, (2016) 392,             [67] CMS Collaboration, V. Khachatryan et al., “Search for
+     arXiv:1605.03814 [hep-ex].                                       new physics in final states with two opposite-sign,
+[56] ATLAS Collaboration, G. Aad et al., “Search for                  same-flavor leptons, jets, and missing transverse
+     gluinos in events with an isolated √
+                                        lepton, jets and              momentum in pp collisions at sqrt(s) = 13 TeV,” JHEP
+     missing transverse momentum at s = 13 TeV with the               12 (2016) 013, arXiv:1607.00915 [hep-ex].
+     ATLAS detector,” Eur. Phys. J. C76 no. 10, (2016)           [68] CMS Collaboration, V. Khachatryan et al., “Search for
+     565, arXiv:1605.04285 [hep-ex].                                  supersymmetry in the multijet and missing transverse
+[57] ATLAS Collaboration, “Search for squarks and gluinos             momentum final state in pp collisions at 13 TeV,” Phys.
+     in events with an isolated√lepton, jets and missing              Lett. B758 (2016) 152–180, arXiv:1602.06581
+     transverse momentum at s = 13 TeV with the ATLAS                 [hep-ex].
+     detector,” Tech. Rep. ATLAS-CONF-2016-054, CERN,            [69] CMS Collaboration,
+                                                                                    √        “Search for supersymmetry in pp
+     Geneva, Aug, 2016.                                               collisions at s = 13 TeV in the single-lepton final state
+     https://cds.cern.ch/record/2206136.                              using the sum of masses of large-radius jets,” Tech.
+[58] ATLAS Collaboration, “Search for direct top squark               Rep. CMS-PAS-SUS-16-037, Geneva, 2017.
+     pair production and dark matter production in final              https://cds.cern.ch/record/2256652.
+                                                                                                                             8
+
+[70] CMS Collaboration, “Search for new physics with                    extra-space,” Nucl. Phys. B830 (2010) 414–433,
+     multileptons
+     √             and jets in 35.9 fb−1 of pp collision data at        arXiv:0904.1909 [hep-ph].
+        s = 13 TeV,” Tech. Rep. CMS-PAS-SUS-16-041,                [81] T. Flacke, A. Menon, and D. J. Phalen, “Non-minimal
+     Geneva, 2017. https://cds.cern.ch/record/2256435.                  universal extra dimensions,” Phys. Rev. D79 (2009)
+[71] J. Beuria, A. Datta, D. Debnath, and K. T. Matchev,                056009, arXiv:0811.1598 [hep-ph].
+     “LHC Collider Phenomenology of Minimal Universal              [82] S. C. Park and J. Shu, “Split Universal Extra
+     Extra Dimensions,” arXiv:1702.00413 [hep-ph].                      Dimensions and Dark Matter,” Phys. Rev. D79 (2009)
+[72] I. Antoniadis, “A Possible new dimension at a few                  091702, arXiv:0901.0720 [hep-ph].
+     TeV,” Phys. Lett. B246 (1990) 377–384.                        [83] T. Flacke, K. Kong, and S. C. Park, “Phenomenology of
+[73] I. Antoniadis, N. Arkani-Hamed, S. Dimopoulos, and                 Universal Extra Dimensions with Bulk-Masses and
+     G. R. Dvali, “New dimensions at a millimeter to a                  Brane-Localized Terms,” JHEP 05 (2013) 111,
+     Fermi and superstrings at a TeV,” Phys. Lett. B436                 arXiv:1303.0872 [hep-ph].
+     (1998) 257–263, arXiv:hep-ph/9804398 [hep-ph].                [84] P. Nath and M. Yamaguchi, “Effects of Kaluza-Klein
+[74] D. Hooper and S. Profumo, “Dark matter and collider                excitations on (gµ − 2),” Phys. Rev. D60 (1999) 116006,
+     phenomenology of universal extra dimensions,” Phys.                arXiv:hep-ph/9903298 [hep-ph].
+     Rept. 453 (2007) 29–115, arXiv:hep-ph/0701197                 [85] K. Agashe, N. G. Deshpande, and G. H. Wu, “Can
+     [hep-ph].                                                          extra dimensions accessible to the SM explain the
+[75] G. Servant, “Status Report on Universal Extra                      recent measurement of anomalous magnetic moment of
+     Dimensions After LHC8,” Mod. Phys. Lett. A30 no. 15,               the muon?,” Phys. Lett. B511 (2001) 85–91,
+     (2015) 1540011, arXiv:1401.4176 [hep-ph].                          arXiv:hep-ph/0103235 [hep-ph].
+[76] L. Nilse, “Classification of 1D and 2D orbifolds,” AIP        [86] J. F. Oliver, J. Papavassiliou, and A. Santamaria,
+     Conf. Proc. 903 (2007) 411–414,                                    “Universal extra dimensions and Z → b̄b,” Phys. Rev.
+     arXiv:hep-ph/0601015 [hep-ph]. [,411(2006)].                       D67 (2003) 056002, arXiv:hep-ph/0212391 [hep-ph].
+[77] B. A. Dobrescu and E. Ponton, “Chiral                         [87] U. K. Dey and T. S. Ray, “Constraining minimal and
+     compactification on a square,” JHEP 03 (2004) 071,                 nonminimal universal extra dimension models with
+     arXiv:hep-th/0401032 [hep-th].                                     Higgs couplings,” Phys. Rev. D88 no. 5, (2013) 056016,
+[78] G. Cacciapaglia, A. Deandrea, and J. Llodra-Perez, “A              arXiv:1305.1016 [hep-ph].
+     Dark Matter candidate from Lorentz Invariance in 6D,”         [88] T. Kakuda, K. Nishiwaki, K.-y. Oda, and R. Watanabe,
+     JHEP 03 (2010) 083, arXiv:0907.4993 [hep-ph].                      “Universal extra dimensions after Higgs discovery,”
+[79] G. Cacciapaglia, A. Deandrea, and N. Deutschmann,                  Phys. Rev. D88 (2013) 035007, arXiv:1305.1686
+     “Dark matter and localised fermions from spherical                 [hep-ph].
+     orbifolds?,” JHEP 04 (2016) 083, arXiv:1601.00081             [89] T. Flacke, K. Kong, and S. C. Park, “126 GeV Higgs in
+     [hep-ph].                                                          Next-to-Minimal Universal Extra Dimensions,” Phys.
+[80] N. Maru, T. Nomura, J. Sato, and M. Yamanaka, “The                 Lett. B728 (2014) 262–267, arXiv:1309.7077
+     Universal Extra Dimensional Model with S 2 /Z2                     [hep-ph].
+

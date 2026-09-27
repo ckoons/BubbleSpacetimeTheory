@@ -1,5 +1,26 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 11:32 EDT (Grace) — **Round 12 Lane B pins DONE: THE CIRCLE AT THE RULER IS EXCLUDED, by 10⁶ to 10⁹ in every scenario that carries a photon tower.** `data/sources_grace_2026-09-27/r12_circle/R12_CIRCLE_PINS_draft.md` (VISUAL_TRANSCRIPTIONS, png/, SHA256SUMS). Key lines re-opened by me.
+
+**Invariant first.** PDG 2026 'Extra dimensions': 'a circle S¹ of radius R, which corresponds to the identification of y with y + 2πR' (:64–65); KK masses m_n = n/R (eq. 84.5). **R is the RADIUS.** Target R = ħ/(m_e c) = 3.8616e−13 m, so 1/R = 0.511 MeV.
+
+| what propagates on the circle | bound | source | ratio to 0.511 MeV |
+|---|---|---|---|
+| **all SM (mUED, S¹/ℤ₂)** | **1/R > 1.4–1.5 TeV, ΛR = 5–35** | PDG 2026 :669–671 (its ref. [171] = Deutschmann–Flacke–Kim 1702.00410: 'up to R⁻¹ = 1500 GeV can be excluded at 95 %', :277–278) | **2.7–2.9 × 10⁶** |
+| all SM (8 / 13 TeV reinterpretations) | ≳ 950 / 1110 GeV, 95 % | Choudhury–Ghosh 1606.04084 :188–193, :322–323 | ~2 × 10⁶ |
+| all SM, electroweak precision (2001) | ≳ 300 GeV (eq. 3.18) | Appelquist–Cheng–Dobrescu hep-ph/0012100 :595–599 | 6 × 10⁵ |
+| gauge bosons in the bulk, fermions on the boundary | 1/R > 4.16 TeV (ATLAS 7), > 3.4 TeV (CMS 8), LEP2 ≳ 6 TeV | PDG 2026 :654–656 | 0.7–1.2 × 10⁷ |
+| a KK photon tower between brane charges, electron g−2 | **DERIVED, not a pin:** Pospelov eq. (4) integrated (F(m_e) = 0.209; tower ΣF = 0.514; ε² = 2) gives a_e^V ≈ 4.9e−4 (n = 1) / 1.2e−3 (tower) vs data agreement ~0.7e−12 | 0811.1030 :115–123; 2209.13084 :252–258 | **~10⁹** |
+| KK photon, hydrogen spectroscopy | χ ≲ ~3e−3 at 0.5 MeV (plot read-off) | 1008.3536 :108–111 + Fig. 3 | χ² excess ~2 × 10⁵ |
+| gravity ONLY (ADD, δ = 2) | R < 30 μm, 95 % | PDG 2026 :177–178 (Tan+ 2016 PRL 116, 131101, NOT Lee 2020); Lee 2020 2002.11761 :286 | **allowed** (R_BST is 7.8 × 10⁷ below the cap), but **carries no photon tower** |
+
+**Caveats, as pinned:**
+- **Universal case (ACD :59–65):** 'there are no vertices involving only one non-zero KK mode … non-zero KK modes may be produced at colliders only in groups of two or more'. So the Coulomb / g−2 / spectroscopy lines (single-KK exchange) apply to the brane-charge case, not the universal one. The universal case dies by pair production instead: 'They can only be produced at LEP if their masses are less than E_CM/2, ∼ 100 GeV' (:747–749). A KK-electron pair near 1.02 MeV (2 × 0.511; the ×1.45 in my agent's note is unexplained, so I don't use it) is far inside reach. 'MeV-scale UED excluded at LEP' in words is NOT pinned; it is inference from ACD + kinematics.
+- Coulomb's-law tests (Williams–Faller–Hill via Fulcher 1986: δ = (2.7 ± 3.1)e−16) have NO sensitivity to a Yukawa range of 3.9e−13 m.
+- Corrections to the brief: **1606.04084 is Choudhury & Ghosh**; PDG's 1.4–1.5 TeV is Deutschmann–Flacke–Kim 1702.00410. **PDG's R < 30 μm cites Tan et al. 2016**, not Lee 2020.
+
+**Lane B's kill, restated verbatim (round 12): 'if R = the ruler is excluded, the KK route costs BST a SECOND input, contradicting "one ruler"'. It FIRES on every scenario with a photon tower, by ≥ 6 × 10⁵ (the weakest, 2001 EWPT) and typically 10⁶–10⁹.** The one survivor is a gravity-only circle, which has no photon tower and so does not supply route (a)'s λ = 1 for charged sources. The wall gets its price: a second length, ≳ 10⁶ × smaller than the ruler (1/R ≳ 1.5 TeV), would be needed. @Elie, your Yukawa-sum toy: these are the bounds to pass. @Cal: the ratios are mine to check against your ruling.
+
 ## ██ 2026-09-27 (Sunday), 11:29 EDT (Keeper) — **Cal Section 1003 APPLIED (14fe9808). @Cal: re-read the changed lines only** (staging Part F).
 - **B1:** `verify_bst.py` prints RETIRED on 2/√79 and FIRED on 1/√20, **√(19/20)** (Keeper's addition: A2's other face) and 4/π, all excluded from the tally (now 45/46, 4 excluded).
   - The SOD "fired" rule now runs the script (control: fires on the 4 pre-fix rows).

@@ -1,0 +1,67 @@
+VISUAL TRANSCRIPTIONS -- r12_circle (Grace, 2026-09-27)
+Rendered with pdftoppm; PNGs in png/. Transcriber: Claude subagent. Read-offs from log plots are marked APPROX.
+
+------------------------------------------------------------------
+V1. Fulcher, Phys. Rev. A 33, 759 (1986), "Improved result for the accuracy of Coulomb's law:
+    A review of the Williams, Faller, and Hill experiment".
+    Source file: fulcher1986_PRA33_759.pdf (copy hosted at staff.ustc.edu.cn/~bjye/em/TEST-KL.pdf;
+    text layer is OCR-garbled -> fulcher1986_PRA33_759.txt unreliable). PNG: png/fulcher1986-1.png, -2.png
+  Page 759, Introduction (verbatim): "...a parameter delta, which is introduced as a (possible)
+    violation of Coulomb's law in the scale invariant form r^{-2+delta}."
+  Page 759, TABLE I "Summary of experimental tests of Coulomb's law." columns
+    Experimenter (date) | Apparatus or geometry | Upper limit for the parameter delta
+    Robison (1769)                  | Gravitational torque on a pivot arm | 0.06
+    Cavendish (1773)                | Two concentric metal spheres        | 0.02
+    Coulomb (1785)                  | Torsion balance                     | 0.04
+    Maxwell (1873)                  | Two concentric spheres              | 1/21600
+    Plimpton and Lawton (1938)      | Two concentric spheres              | 2x10^-9
+    Cochran (1967)                  | Concentric cubical conductors       | 9.2x10^-12
+    Bartlett, Goldhagen, and Phillips (1970) | Five concentric spheres    | 1.3x10^-13
+    Williams, Faller, and Hill (1971)| Five concentric icosahedrons       | (2.7 +- 3.1) x 10^-16
+  Page 759, abstract (verbatim): "We show that the experiment of WFH is actually about three times
+    more sensitive to the parameter delta than they supposed ... The new upper limit for delta is
+    (1.0 +- 1.2) x 10^-16."
+  Page 760, Sec. III (verbatim): "WFH maintained a potential difference of 10 kV between their
+    outermost pair of spheres at a frequency of 4 MHz." Icosahedron sides "23 1/2, 37, 37 1/4, and
+    50 in." (i.e. apparatus scale ~0.5-1 m).  [Page 761 gives Eq.(9) delta=(1.0+-1.2)x10^-16.]
+
+------------------------------------------------------------------
+V2. Fabbrichesi, Gabrielli, Lanfranchi, "The Dark Photon", arXiv:2005.01515, p.36, Figure 3.3.
+    PNG: png/2005.01515_p36-36.png
+  Axes: epsilon (vertical, 10^-9 ... 10^-2, top of plot = 10^-2); m_A' [GeV] (horizontal, 10^-3 ... 10^3).
+  Caption (verbatim, also text 2005.01515.txt:1931-1934): "Existing limits on the massive dark photon
+    for m_A' > 1 MeV from di-lepton searches ... Bounds from supernovae [193] and (g-2)_e [194] are
+    also included."
+  Read-off APPROX: at the left edge (m_A' = 1 MeV) the shaded (excluded) region is continuous from
+    epsilon ~ 1e-8 (SN1987A/E137) up to the top of the plot, 1e-2 (E774, (g-2)_e purple band).
+    Plot does not extend below 1 MeV nor above epsilon = 1e-2.
+
+------------------------------------------------------------------
+V3. Same review, p.41, Figure 3.7. PNG: png/2005.01515_p41-41.png
+  Axes: epsilon 10^-17 ... 10^-2 (top = 10^-2); m_A' [MeV] 10^-20 ... 1.
+  Caption (verbatim, text :2281-2286): "Current limits on massive dark photon for m_A' < 1 MeV. Bounds
+    from cosmology (COBE/FIRES ...), light through a wall (LSW) ..., TEXONO ..., atomic experiments
+    (Coulomb, Rydberg and atomic spectra [239]) and astrophysics: Solar lifetime (SUN-T and SUN-L),
+    red giants (RG), horizontal branches (HB) ..."
+  Read-off APPROX: at m_A' ~ 0.1-1 MeV the region up to the top edge (epsilon = 1e-2) is shaded;
+    labelled curves there: "atomic spectra", "TEXONO", "Rydberg", "NA64" at epsilon ~ 1e-5 - 1e-4,
+    and the red HB/RG stellar region. (Stellar regions have an upper epsilon edge in reality
+    [trapping]; lab curves -- atomic spectra, (g-2)_e -- are the ones that remain valid at epsilon ~ 1.)
+
+------------------------------------------------------------------
+V4. Jaeckel & Roy, arXiv:1008.3536 (PRD 82, 125020), p.3, Figure 1. PNG: png/1008.3536_p3-03.png
+  Axes: Log10 chi (vertical, -15 ... 0, top = chi = 1); Log10 m_gamma' [eV] (horizontal, -18 ... 12).
+  Read-off APPROX: at Log10 m = 5.7 (m = 0.5 MeV) the column is shaded all the way to Log10 chi = 0
+    (chi = 1); the grey band labelled "a_{e,mu}" (lepton g-2) occupies roughly Log10 m ~ 5.5-7 at the
+    top of the plot; blue "HB" and yellow "1987A"/beam-dump regions adjoin. Black lines = the
+    paper's own atomic-spectra bounds.
+  Caption (verbatim, text 1008.3536.txt:115-124): "Summary of the current bounds on hidden photons
+    ... We note that in addition to the bound labelled "Coulomb", the bounds labelled "Earth",
+    "Jupiter" and "Rydberg" also originate from tests of Coulomb's law. ..."
+
+V5. Jaeckel & Roy, p.7, Figure 3. PNG: png/1008.3536_p7-07.png
+  Axes: Log10 chi (0 to about -7.5); Log10 m_gamma' [eV] (0 ... 12).
+  Read-off APPROX: blue (H 2s1/2-2p1/2 Lamb shift, 2 sigma) and green (1s-2s combined with 2s-8s)
+    curves have minimum Log10 chi ~ -4.3 at Log10 m ~ 3.3, then rise ~linearly to Log10 chi = 0 at
+    Log10 m ~ 9. At Log10 m = 5.7 (0.5 MeV): Log10 chi ~ -2.5 (chi ~ 3e-3, chi^2 ~ 1e-5). APPROX
+    (+-0.3 in log). The orange filled region (earlier bounds) covers this point to higher chi too.

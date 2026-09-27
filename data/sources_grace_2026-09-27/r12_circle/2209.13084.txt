@@ -1,0 +1,396 @@
+                                                                                      Measurement of the Electron Magnetic Moment
+
+                                                                                     X. Fan,1, 2, ∗ T. G. Myers,2 B. A. D. Sukra,2 and G. Gabrielse2, †
+                                                                            1
+                                                                                Department of Physics, Harvard University, Cambridge, Massachusetts 02138, USA
+                                                                                   2
+                                                                                     Center for Fundamental Physics, Department of Physics and Astronomy,
+                                                                                            Northwestern University, Evanston, Illinois 60208, USA
+                                                                                                          (Dated: December 8, 2022)
+                                                                   The electron magnetic moment, −µ/µB = g/2 = 1.001 159 652 180 59 (13) [0.13 ppt], is determined
+                                                                2.2 times more accurately than the value that stood for 14 years. The most precisely determined
+                                                                property of an elementary particle tests the most precise prediction of the Standard Model (SM) to
+                                                                1 part in 1012 . The test would improve an order of magnitude if the uncertainty from discrepant
+
+
+
+
+arXiv:2209.13084v2 [physics.atom-ph] 7 Dec 2022
+                                                                measurements of the fine structure constant α is eliminated since the SM prediction is a function
+                                                                of α. The new measurement and SM theory together predict α−1 = 137.035 999 166 (15) [0.11 ppb]
+                                                                with an uncertainty ten times smaller than the current disagreement between measured α values.
+
+
+                                                     The quest to find physics beyond the Standard Model                cise enough for a test that is 10 times more precise, once
+                                                  of Particle Physics (BSM) is well motivated because the               the discrepancy in measured α values [40, 41] is resolved.
+                                                  SM is incomplete. No known CP violation mechanism                        A one-electron quantum cyclotron is used. This is es-
+                                                  [1] is large enough to keep the matter and antimatter                 sentially a single electron suspended in a magnetic field
+                                                  produced in the Big Bang [2] from annihilating as the                 B = B ẑ and cooled to its lowest quantum states [42].
+                                                  universe cooled, dark matter [3, 4] has not been identi-              The magnetic moment operator for a spin-1/2 electron,
+                                                  fied, and neither dark energy [5, 6] nor inflation [7–10]
+                                                                                                                                                  g    S
+                                                  has a SM explanation. The most precise SM predic-                                          µ = − µB     ,                      (1)
+                                                  tion is the electron magnetic moment in Bohr magne-                                             2   ~/2
+                                                  tons, −µ/µB = g/2, with µB = e~/(2m) for electron                     is proportional to its spin S, normalized to its spin eigen-
+                                                  charge −e and mass m, and the reduced Planck con-                     value ~/2. The energy levels are
+                                                  stant ~. It affords great BSM sensitivity [11–19] in that
+                                                  BSM particles and electron substructure could shift the                               E = hνs ms + hνc (n + 21 ),              (2)
+                                                  measured value from what is now predicted (analogous                  where h = 2π~. The cyclotron frequency is νc =
+                                                  to how quark substructure shifts the proton moment).                  eB/(2πm) and n = 0, 1, .... The spin frequency is
+                                                  The SM sectors involved in the prediction include the                 νs = (g/2)νc and ms = ±1/2. In terms of these fre-
+                                                  Dirac prediction [20], quantum electrodynamics (QED)                  quencies, and the anomaly frequency νa ≡ νs − νc ,
+                                                  [21–28] with muon and tauon contributions [29], and also
+                                                                                                                                          µ    g    νs       νa
+                                                  hadronic [30–32] and weak interaction contributions [33–                             −     = =       =1+ .               (3)
+                                                  36]. The SM prediction is a function of the measured fine                              µB    2    νc       νc
+                                                  structure constant, α, displayed later in Eq. 7.                      An important feature of an electron measurement (not
+                                                                                           ppt
+                                                                                                                        available with muons [43], for example) is that its cy-
+                                                       −1            −0.5              0           0.5          1
+                                                                                                                        clotron frequency can be measured in situ. The electron
+                                                     g/2 2022
+                                                     g/2 2008                                                           thus serves as its own magnetometer insofar as B cancels
+                                                     SM with α(Rb)                                                      out of the frequency ratios. Choosing to measure νa /νc
+                                                     SM with α(Cs)
+                                                                                                                        rather than νs /νc (called making a g − 2 measurement)
+                                                   179.5         180              180.5          181        181.5
+                                                                       (-µ / µ - 1.001 159 652 000) ×1012
+                                                                                B
+                                                                                                                        significantly reduces the effect of frequency measurement
+                                                                                                                        uncertainties. However, it does not evade or reduce at
+                                                  FIG. 1. This Northwestern determination (red) and our 2008            all the largest g/2 measurement correction and its uncer-
+                                                  Harvard determination (blue) [37]. SM predictions (solid and          tainty, as we shall see.
+                                                  open black points for slightly differing C10 [38, 39]) are func-         A stable magnetic field is still critical at our precision
+                                                  tions of discrepant α measurements [40, 41]. A ppt is 10−12 .         because νa and νc are not measured simultaneously. Field
+                                                                                                                        drift of 2 ppb/day [44] (4 times below that in [37]) makes
+                                                     A new measurement, carried out blind of any measure-               possible round-the-clock measurements, improved statis-
+                                                  ment or prediction, determines µ/µB to 1.3 parts in 1013              tical precision, and better investigations of uncertainties.
+                                                  (Fig. 1). Measured in a new apparatus in a lab at a                   The apparatus in Fig. 2a achieves this by supporting a
+                                                  different university, the new value is 2.2 times more pre-            50 mK trap on a 4.2 K self-shielding solenoid [45] us-
+                                                  cise than, and consistent with, the one that stood for 14             ing a mixing chamber flexibly hanging from the rest of a
+                                                  years [37]. In the most precise confrontation of theory               dilution refrigerator [46].
+                                                  and measurement, the SM prediction agrees to 1 part in                   An electron in the field B ẑ is trapped by adding an
+                                                  1012 . Our determination and the SM calculation are pre-              electrostatic quadrupole potential V ∝ z 2 − ρ2 /2, with
+                                                                                                                                                  2
+
+            (a)                                                  microwave inlet      V , and under elliptic distortions of V . The hierarchy
+                                 bellows        (b)
+                                  joint               B                               ν̄c  ν̄z  ν̄m  δ allows an expansion of Eq. (4) that
+                                           cylindrical                                suffices for our precision to be inserted in Eq. (3), so
+                                           trap cavity
+
+                                                nickel                                       µ  g        ν̄a − ν̄z2 /(2f¯c )     ∆gcav
+    dilution                                                                            −      = ≃1+ ¯                         +       , (5)
+  refrigerator
+                                                rings                                       µB  2    fc + 3δ/2 + ν̄z2 /(2f¯c )    2
+                                                quartz
+ liquid helium                                  spacer
+                                                                     electrode        with ν̄a and f¯c (defined in Fig. 2c) to be deduced with
+     space                                                    3cm
+                                        rigid
+                                                                                      ν̄z from measured line shapes. The added cavity-shift
+                                        joint                        n=1              ∆gcav /2 arises because the cyclotron frequency couples
+                                                      (c)                   3
+                                                                𝑓#̅ = 𝜈̅# − 𝛿         to radiation modes of the trap cavity, shifting both ν̄c
+                                                                            2
+                                                                     n=0              and ν̄a [54, 55]. This g/2 measurement correction and its
+                                                 n=1         𝜈̅! = 𝜈" − 𝜈̅#
+      NbTi                                                                            uncertainty are not reduced or evaded by a g − 2 mea-
+    solenoid                                                                          surement. They must be determined and corrected at
+                  Penning trap                   n=0
+                                                   ms=-1/2      ms=+1/2               the full 10−13 precision of µ/µB .
+                        1m
+                                                                                         To measure the ν̄z needed in Eq. (5), the current in-
+                                                                                      duced in the electrodes by the axial oscillation is sent
+FIG. 2. (a) Cryogenic system supports a 50 mK electron trap                           through a resonant circuit that is the input of a cryo-
+upon a 4.2 K solenoid to provide a very stable B. (b) Silver
+electrodes of a cylindrical Penning trap. (c) Quantum spin
+                                                                                      genic HEMT amplifier. The 1-minute Fourier transform
+and cyclotron energy levels used for measurement.                                     of the amplifier output in Fig. 3c illustrates the Johnson
+                                                                                      noise and electron signal canceling to make a dip that re-
+                                                                                      veals ν̄z [56]. Energy loss in the circuit damps the axial
+ρ = xx̂ + yŷ [47]. Cylindrical Penning trap electrodes                               motion with a time constant γz−1 = 32 ms. The amplifier
+[48, 49] (Fig. 2b) with appropriately chosen relative di-                             heats the electron axial motion to Tz = 0.5 K.
+mensions and potentials produce such a potential for a                                   Small shifts in ν̄z provide quantum nondemolition de-
+centered electron, which then oscillates nearly harmoni-                              tection (QND) of one-quantum spin and cyclotron jumps,
+cally along ẑ at the axial frequency ν̄z ≈ 114 MHz. For                              without the detection changing the cyclotron or spin
+B = 5.3 T, the trap-modified cyclotron and anomaly fre-                               state. Saturated nickel rings (Fig. 2b) produce a mag-
+quencies are ν̄c ≈ 149 GHz and ν̄a ≈ 173 MHz [47]. A                                  netic bottle gradient, ∆B = B2 (z 2 − ρ2 /2)ẑ − zρρ̂
+circular magnetron motion at ν̄m = 43 kHz is cooled by                                with B2 = 300 T/m2 . This couples spin and cyclotron
+axial sideband cooling [47, 50] and its effect is negligi-                            energies to ν̄z , which then shifts by ∆ν̄z ≈ 1.3 (n + ms )
+ble during the measurement. Figure 2c shows the low-                                  Hz. (The B2 and ∆ν̄z are 5 and 3 times smaller than
+est cyclotron and spin energy levels and the frequency                                used previously [37].) To rapidly detect jumps after the
+spacings, including a relativistic mass shift, δ, given by                            cyclotron and anomaly drives are turned off, the ampli-
+δ/νc ≡ hνc /(mc2 ) ≈ 10−9 [47, 51].                                                   fied signal is immediately fed back to the electron. This
+   The lowest cyclotron states for each spin are effectively                          self-excited oscillator (SEO) [57] resonantly and rapidly
+stable because the spin is so nearly uncoupled from its                               drives itself to a large amplitude even if ν̄z shifts with am-
+environment [47]. Without a trap, the cyclotron state                                 plitude, whereupon the gain is adjusted to maintain the
+n = 1 has a lifetime γc−1 = 0.1 s. With a trap that is also                           amplitude. A Fourier transform of the large signal reveals
+a low-loss microwave cavity, this rate for the spontaneous                            the small ∆ν̄z that signals cyclotron and spin jumps.
+emission of synchrotron radiation is inhibited by a factor                               Quantum jump spectroscopy produces anomaly and
+of 50 to 70. Cyclotron excitations can then be detected                               cyclotron resonances (Fig. 3a-b) from which to extract
+before decay, when B is chosen so ν̄c is far from resonance                           ν̄a and f¯c to use in Eq. (5). Cyclotron and anomaly
+with cavity radiation modes [52]. The cyclotron damp-                                 quantum jump trials are alternated. The magnetic field
+ing contributes 0.03 Hz to the cyclotron and anomaly                                  drift of 0.2 ppb/hr in the new apparatus is slow enough to
+linewidths (to be discussed), a negligible 0.2 ppt and a                              correct using a quadratic fit to the lowest cyclotron drive
+very important 0.2 ppb, respectively. Blackbody photons                               frequencies that produce excitations. Each cyclotron
+that excite n = 0 to n = 1 are eliminated by cooling the                              and anomaly quantum jump trial starts with resonant
+trap cavity below 100 mK [42].                                                        anomaly and cyclotron drives that prepare the electron
+   The Brown-Gabrielse invariance theorem [53],                                       in the spin-up ground state, |n = 0, ms = 1/2i, followed
+                                 p                                                    by 1 s of axial magnetron sideband cooling [47, 50].
+                         νc =        ν̄c2 + ν̄z2 + ν̄m
+                                                     2                          (4)      Cyclotron jumps to n = 1 are driven by a 5 s mi-
+                                                                                      crowave drive injected between trap electrodes (Fig. 2b),
+provides the νc and νa = νs − νc needed in Eq. (3) to                                 with an off-resonance anomaly drive also applied. Jumps
+determine µ/µB . It is critical that Eq. (4) is invariant                             occur in less than 20% of the trials to avoid saturation ef-
+under unavoidable misalignments of B and the axis of                                  fects. Cavity-inhibited spontaneous emission [52] makes
+                                                                                                                                                                                                                                                           3
+
+the excitation persist long enough so that self-excitation                                                                                                        being jostled by its environment [60]. The anomaly line
+feedback [57] can be turned on in the next 1 s to detect                                                                                                          shape would average away such fluctuations to yield the
+the 1.3 Hz shift that signals a cyclotron quantum jump.                                                                                                           narrow line observed (e.g. Fig. 3b). The cyclotron line
+   Anomaly quantum jumps are driven by an oscillatory                                                                                                             shape would not, giving a possible explanation for the
+potential applied to trap electrodes for 30 s to drive an                                                                                                         observed 0.5–0.8 ppb broadening (e.g. Fig. 3a).
+off-resonance axial oscillation of the electron through the                                                                                                          Both ν̄a and f¯c are extracted from such line shapes.
+radial magnetic gradient B2 zρ. A cyclotron drive re-                                                                                                             Cyclotron line shapes are fit to the predicted line shape
+mains applied but is off resonance. The electron sees the                                                                                                         (dashed in Fig. 3a), convoluted with a Gaussian func-
+oscillating magnetic field perpendicular to ẑ as needed to                                                                                                       tion to accommodate the broadening. Such a fit, illus-
+flip its spin, with a radial gradient that allows a simulta-                                                                                                      trated by the solid curve in Fig. 3a, typically gives a 2
+neous cyclotron transition [47]. A spontaneous decay to                                                                                                           ppb cyclotron linewidth, a Gaussian broadening width of
+the spin-down ground state, |n = 0, ms = −1/2i, would                                                                                                             about 0.5 ppb, Tz = 0.55 ± 0.11 K, and f¯c with an uncer-
+be detected during the 60 s (more than 10 cyclotron de-                                                                                                           tainty of about 0.08 ppb. For anomaly line shapes (e.g.
+cay times) after the drives are turned off. A maximum                                                                                                             Fig. 3b), nearly symmetric and fractionally narrower by
+jump rate of 40% suggests a slight power broadening, but                                                                                                          about a factor of 4, the uncertainty in ν̄a is thus not
+ν̄a is still determined far more precisely than f¯c .                                                                                                             very significant for the final uncertainty. Fitting with or
+                                                                                                                                                                  without Gaussian broadening makes little difference (e.g.
+
+
+
+transition probability                                 transition probability
+                               (a)                                                    (b)                                                (c)
+                                                                                                                                                                  solid curve in Fig. 3b).
+
+
+                                                                                                              noise power (a.u.)
+                     0.4                                                    0.4                                                    0.8
+
+                         0.3                                                    0.3                                                0.6
+                                                                                                                                                                                                              magnetic field (T)
+                         0.2                                                    0.2                                            0.4
+                                                                                                                                                                                            3       3.5         4            4.5          5          5.5
+                         0.1                                                    0.1                                                0.2                                                    (a)
+                                                                                                                                                                                        3     g g
+                          0 −4       −2   0   2    4                             0 −4       −2   0   2    4                         0 −40 −20      0    20   40
+                                                                                                                                                                                            ∆ = −1.001 159 652 180 59
+                                                                                                                                          frequency - ν z (Hz)                                2 2
+                                drive detuning (ppb)                                   drive detuning (ppb)
+                                                                                                                                                                      g    -12
+                                                                                                                                                                                        2
+                                                                                                                                                                        (10 )           1
+FIG. 3. Quantum jump cyclotron (a) and anomaly (b) line                                                                                                               2                 0
+                                                                                                                                                                          ∆
+shapes that are measured (points), predicted (dashed) and                                                                                                                              −1
+fit (solid) vs fractional drive detunings from f¯c (1 + ) and                                                                                                                         −2
+ν̄a (1 + ) (defined later in the text). (c) A dip in Johnson                                                                                                                          −3
+noise reveals ν̄z .                                                                                                                                                                     80 (b)   90    100        110      120     130   140   150
+
+
+
+                                                                                                                                                                  γ /(2 π) (Hz)
+                                                                                                                                                                                                             cyclotron frequency (GHz)
+                                                                                                                                                                                       −1
+                                                                                                                                                                                  10
+   Well-understood, asymmetric cyclotron and symmet-
+ric anomaly line shapes are predicted [58] for thermal
+                                                                                                                                                                                       −2
+                                                                                                                                                                            c
+axial motion at temperature Tz within a magnetic gradi-                                                                                                                           10
+
+ent B2 z 2 . To this, the effect of cyclotron decay has been                                                                                                                            80       90    100        110      120     130
+                                                                                                                                                                                                             cyclotron frequency (GHz)
+                                                                                                                                                                                                                                         140   150
+
+added [59]. The average oscillation amplitude squared is
+z 2 = kB Tz /(4π 2 ν̄z2 m), where kB is the Boltzmann con-                                                                                                        FIG. 4. (a) Measured g/2−1.001 159 652 180 59 before (white)
+stant. The average field for the electron is shifted by                                                                                                           and after (red) cavity-shift correction. (b) Measurements take
+B = B2 z 2 and broadened by the same amount. The cy-                                                                                                             place in valleys of the cyclotron damping rate where sponta-
+clotron bandwidth ν̄c corresponds to a time (ν̄c )−1 =                                                                                                          neous emission is inhibited.
+1.3 ms needed to establish ν̄c . This is much faster than
+the γz−1 = 32 ms scale on which the axial amplitude fluc-                                                                                                            The cavity-shift ∆gcav /2 in Eq. (5), the only correction
+tuates, so the predicted cyclotron line shape (dashed in                                                                                                          to what is directly measured, arises because the cyclotron
+Fig. 3a) approximates an exponential Boltzmann shape,                                                                                                             oscillator couples to radiation modes of the trap cavity
+centered at frequency ν̄c (1 + ). The anomaly transi-                                                                                                            and shifts ν̄c [54, 55]. It is the downside of the cavity-
+tion time (ν̄a )−1 = 1.1 s is much slower than the axial                                                                                                         inhibited spontaneous emission that desirably narrows
+amplitude fluctuations, whereupon the predicted thermal                                                                                                           resonance lines, and makes it possible to observe a cy-
+anomaly line is essentially symmetric about ν̄a (1 + ) and                                                                                                       clotron excitation before it decays. The cylindrical trap
+is negligibly narrow. The observed anomaly linewidth of                                                                                                           was invented [48] to allow cavity modes and shifts to be
+0.06 Hz (0.35 ppb) in Fig. 3b is from other sources. Half                                                                                                         understood and calculated. Nonetheless, the mode fre-
+is from the cyclotron decay lifetime and half is from ap-                                                                                                         quencies and Q values must still be measured because
+plying the anomaly drive for only 30 s.                                                                                                                           of energy losses in induced surface currents, imperfect
+   The anomaly line shape is consistent with what is pre-                                                                                                         cavity machining, slits that make cavity sections into
+dicted but the cyclotron line shape is not. Presumably                                                                                                            separately-biased trap electrodes, and dimension changes
+this is due to unwanted magnetic field fluctuations that                                                                                                          as the cavity cools below 100 mK from 300 K. Three
+are averaged differently in the anomaly and cyclotron                                                                                                             consistent methods are used: (1) parametrically-pumped
+line shapes. Such fluctuations, with a 200 Hz band-                                                                                                               electrons [59, 61, 62], (2) measuring how long one electron
+width, were observed with a superconducting solenoid                                                                                                              stays in its first excited cyclotron state [37, 59], and (3)
+                                                                                                                                     4
+
+a new method of observing the decay time of an electron       muon and tauon contributions aµτ [38]. The constants
+exited to nc ≈ 10.                                            C2 [21], C4 [22, 23], C6 [24, 25] and C8 [26] are calculated
+   A renormalized calculation [54, 55] with added cy-         exactly, but require measured lepton mass ratios as input
+clotron damping [37, 59] avoids the infinite cavity shifts    [29]. The measurements are so precise that a numerically
+that result from summing all mode contributions. This         calculated tenth order C10 [27, 28] is required and tested.
+calculation assumes the mode frequencies of a perfect         A second evaluation of C10 [39] differs slightly for reasons
+cylinder, one Q for TE modes, and another for TM              not yet understood and the open points in Figs. 1 and 5
+modes. We calculate with dimensions chosen to best            use this alternative. Hadronic and weak interaction con-
+match observed frequencies and a single Q value for all       tributions are ahadronic [30–32] and aweak [33–36]. The
+modes. After shifts from the 72 observed modes using the      exact C8 and the numerical C10 are remarkable advances
+ideal frequencies and the one Q value are subtracted out,     that reduce the calculation uncertainty well below the
+contributions for these modes using measured frequencies      uncertainties reported for the measured µ/µB and α.
+and Q values are added back in. The leading contribution         The most precise α measurements [40, 41], needed for
+to cavity shift uncertainties comes from modifications of     the SM prediction of g/2 in Eq. (7), disagree by 5.5 σ,
+the field that an electron sees from imperfections and        about ten times our measurement uncertainty (Fig. 1).
+misalignments of the trap cavity. Figure 4a shows the         Until the discrepancy is resolved, the best that can be
+consistency of µ/µB determinations at 11 different mag-       said is that the predicted and measured µ/µB agree to
+netic fields, after each receives a different cavity shift.   about δ(g/2) = 0.7 × 10−12 , half of the α discrepancy.
+   A weighted average of the 11 determinations gives          A generic chiral symmetry model [63]pthen suggests that
+       µ     g                                                the electron radius is less than Re = |δ(g/2)|~/(mc) =
+   −      = = 1.001 159 652 180 59 (13) [0.13 ppt], (6)       3.2×10−19 m, and that the masspof possible electron con-
+     µB      2
+                                                              stituents must exceed m∗ = m/ |δ(g/2)| = 620 GeV/c2 .
+with 1σ uncertainty in the last two digits in parenthe-       If δ(g/2) would equal our µ/µB determination uncer-
+ses. Figure 1 shows the good agreement of this 2022           tainty, then Re = 1.4 × 10−19 m and m∗ = 1.4 TeV/c2 .
+determination at Northwestern with our 2008 determi-             A 2.2 times reduced δ(g/2) would bring us to the level
+nation at Harvard [37] and an uncertainty that is im-         of the intriguing 4.2 standard deviation discrepancy be-
+proved by a factor of 2.2. Because uncertainty correla-       tween the measured and predicted muon magnetic mo-
+tions from similar measurement methods are difficult to       ment [43, 64]. The muon’s BSM sensitivity, expected to
+determine, we do not recommend averaging our two de-          be 40,000 times higher (the ratio of muon and electron
+terminations. Table I lists uncertainty contributions to      masses), is largely offset by our 3150 times smaller un-
+the final result. The statistical uncertainty is from the     certainty.
+fits that extract f¯c and ν̄a . The two dominant uncertain-
+ties have been discussed – cyclotron broadening and cav-                −1                 −0.5
+                                                                                                  ppb
+                                                                                                                     0         0.5
+ity shifts (treated as correlated for nearby fields). The       g/2(2022) with SM
+nuclear paramagnetism uncertainty is based upon the             g/2(2008) with SM
+                                                                Rb
+measured temperature fluctuations of the silver trap elec-      Cs
+trodes. The anomaly power shift uncertainty comes from           0           50               100           150          200
+                                                                                    (α -1 - 137. 035 999 000) ×109
+the measured frequency dependence on drive strength.
+
+                                                              FIG. 5. SM prediction of α using µ/µB from this Northwest-
+         TABLE I. Largest uncertainties for g/2.              ern measurement (red), and from our 2008 Harvard measure-
+               Source         Uncertainty×1013                ment (blue), with solid and open points for slightly differing
+              statistical            0.29                     C10 [38, 39]. The α measurements (black) were made with Cs
+                                                              at Berkeley [40] and Rb in Paris [41]. A ppb is 10−9 .
+        cyclotron broadening         0.94
+          cavity correction          0.90
+       nuclear paramagnetism         0.12                         The fine structure constant α is the fundamental mea-
+        anomaly power shift          0.10                     sure of the strength of the electromagnetic interaction
+         magnetic field drift        0.09                     in the low energy limit. For the SI system of units,
+                 total                1.3                     α = e2 /(4π0 ~c) is a measure of the vacuum permittivity
+                                                              0 , given that and e, ~ and the speed of light c are now
+  Several SM sectors together predict                         defined [65]. Our µ/µB and the SM give
+  g           α          α 2       α 3       α 4
+    = 1 + C2        + C4         + C6        + C8             α−1 = 137.035 999 166 (02) (15) [0.014 ppb] [0.11 ppb],
+  2             π           π           π             π
+              α 5                                                  = 137.035 999 166 (15)               [0.11 ppb],           (8)
+       + C10        + ... + aµτ + ahadronic + aweak .   (7)
+               π                                              with theoretical and experimental uncertainties in the
+The Dirac prediction [20] is first on the right. QED pro-     first and second brackets. Figure 5 compares to the α
+vides the asymptotic series in powers of α, along with the    measurements (black) that disagree with each other by
+                                                                                                                              5
+
+5.5 σ. Our value differs by 2.1 standard deviations from             89, 093016 (2014).
+the Paris Rb determination of α [41] and by 3.9 standard        [15] M. Endo, K. Hamaguchi, and G. Mishima, Phys. Rev. D
+deviations from the Berkeley Cs determination [40]. The              86, 095029 (2012).
+C10 in [39] would change only “66” to “59” in Eq. (8).          [16] H. Davoudiasl and W. J. Marciano, Phys. Rev. D 98,
+                                                                     075011 (2018).
+   For the future, a measurement is underway to realize         [17] M. Bauer, M. Neubert, S. Renner, M. Schnubel, and A.
+the new precision with a positron, to improve the test of            Thamm, Phys. Rev. Lett. 124, 211803 (2020).
+the fundamental CP T symmetry invariance of the SM              [18] J. Liu, C. E. M. Wagner, and X.-P. Wang, Journal of
+by a factor of 40 [66]. Much larger improvements in the              High Energy Physics 2019, 8 (2019).
+precision of µ/µB now seem feasible given the demonstra-        [19] M. Endo and W. Yin, Journal of High Energy Physics
+tion of more stable apparatus, improved statistics, and              2019, 122 (2019).
+                                                                [20] P. A. M. Dirac, Proceedings of the Royal Society of Lon-
+better understood uncertainties. Detectors being tested,             don Series A 118, 351 (1928).
+more harmonic and lower loss trap cavities, and detector        [21] J. Schwinger, Phys. Rev. 73, 416 (1948).
+backaction circumvention methods [67, 68] should enable         [22] A. Petermann, Helv. Phys. Acta 30, 407 (1957).
+much more precise measurements to come.                         [23] C. M. Sommerfield, Ann. Phys. (N.Y.) 5, 26 (1958).
+   In conclusion, an electron magnetic moment measure-          [24] T. Kinoshita, Phys. Rev. Lett. 75, 4728 (1995).
+ment is carried out blind to previous measurements and          [25] S. Laporta and E. Remiddi, Phys. Lett. B 379, 283
+                                                                     (1996).
+predictions. A PhD thesis [69] and a longer publication
+                                                                [26] S. Laporta, Physics Letters B 772, 232 (2017).
+in preparation give fuller accounts. In new apparatus           [27] T. Aoyama, T. Kinoshita, and M. Nio, Phys. Rev. D 97,
+at a different university, the measured µ/µB is consis-              036001 (2018).
+tent with our 2008 measurement, with a factor of 2.2 im-        [28] T. Aoyama, M. Hayakawa, T. Kinoshita, and M. Nio,
+proved precision. The most precise prediction of the SM              Phys. Rev. Lett. 109, 111807 (2012).
+agrees with the most precise determination of a property        [29] A. Kurz, T. Liu, P. Marquard, and M. Steinhauser, Nu-
+of an elementary particle to about 1 part in 1012 . When             clear Physics B 879, 1 (2014).
+                                                                [30] D. Nomura and T. Teubner, Nucl. Phys. B 867, 236
+discrepant α measurements are resolved, the new mea-
+                                                                     (2013).
+surement uncertainty of 1.3 parts in 1013 is available for      [31] A. Kurz, T. Liu, P. Marquard, and M. Steinhauser,
+a more precise test for BSM physics                                  Physics Letters B 734, 144 (2014).
+   Early contributions were made by S. E. Fayer. NSF            [32] Jegerlehner, Fred, EPJ Web Conf. 218, 01003 (2019).
+2110565 provided the support, with X. Fan supported             [33] K. Fujikawa, B. W. Lee, and A. I. Sanda, Phys. Rev. D
+by the Masason Foundation. Detector development is                   6, 2923 (1972).
+                                                                [34] A. Czarnecki, B. Krause, and W. J. Marciano, Phys. Rev.
+supported by the Templeton Foundation, and low-loss
+                                                                     Lett. 76, 3267 (1996).
+trap cavity development is supported by the DOE SQMS            [35] M. Knecht, M. Perrottet, E. de Rafael, and S. Peris, Jour-
+Center.                                                              nal of High Energy Physics 11, 003 (2002).
+                                                                [36] A. Czarnecki, W. J. Marciano, and A. Vainshtein, Phys.
+                                                                     Rev. D 67, 073006 (2003).
+                                                                [37] D. Hanneke, S. Fogwell, and G. Gabrielse, Phys. Rev.
+                                                                     Lett. 100, 120801 (2008).
+  ∗
+     xing.fan@northwestern.edu                                  [38] T. Aoyama, T. Kinoshita, and M. Nio, Atoms 7, 28
+  †
+     gerald.gabrielse@northwestern.edu                               (2019).
+ [1] A. D. Sakharov, Soviet Journal of Experimental and The-    [39] S. Volkov, Phys. Rev. D 100, 096004 (2019).
+     oretical Physics Letters 5, 24 (1967).                     [40] R. H. Parker, C. Yu, W. Zhong, B. Estey, and H. Müller,
+ [2] G. Gamow, Phys. Rev. 70, 572 (1946).                            Science 360, 191 (2018).
+ [3] F. Zwicky, Helvetica Physica Acta 6, 110 (1933).           [41] L. Morel, Z. Yao, P. Cladé, and S. Guellati-Khélifa, Na-
+ [4] V. C. Rubin, J. Ford, W. K., and N. Thonnard, Astro-            ture 588, 61 (2020).
+     phys. J.238, 471 (1980).                                   [42] S. Peil and G. Gabrielse, Phys. Rev. Lett. 83, 1287
+ [5] S. Perlmutter et al., The Astrophysical Journal 517, 565        (1999).
+     (1999).                                                    [43] B. Abi et al., Phys. Rev. Lett. 126, 141801 (2021).
+ [6] A. G. Riess et al., The Astronomical Journal 116, 1009     [44] X. Fan, S. E. Fayer, and G. Gabrielse, Review of Scientific
+     (1998).                                                         Instruments 90, 083107 (2019).
+ [7] A. Linde, Physics Letters B 108, 389 (1982).               [45] G. Gabrielse and J. Tan, J. Appl. Phys. 63, 5143 (1988).
+ [8] A. Starobinsky, Physics Letters B 91, 99 (1980).           [46] G. Gabrielse, S. Fayer, T. Myers, and X. Fan, Atoms 7,
+ [9] A. Starobinsky, Physics Letters B 117, 175 (1982).              45 (2019).
+[10] A. H. Guth, Phys. Rev. D 23, 347 (1981).                   [47] L. S. Brown and G. Gabrielse, Rev. Mod. Phys. 58, 233
+[11] P. Brax, A.-C. Davis, B. Elder, and L. K. Wong, Phys.           (1986).
+     Rev. D 97, 084050 (2018).                                  [48] G. Gabrielse and F. C. MacKintosh, Intl. J. of Mass Spec.
+[12] E. J. Chun, J. Kim, and T. Mondal, Journal of High              and Ion Proc. 57, 1 (1984).
+     Energy Physics 2019, 68 (2019).                            [49] J. Tan and G. Gabrielse, Appl. Phys. Lett. 55, 2144
+[13] G. F. Giudice, P. Paradisi, and M. Passera, Journal of          (1989).
+     High Energy Physics 2012, 113 (2012).                      [50] R. S. Van Dyck, Jr., P. B. Schwinberg, and H. G.
+[14] A. Aboubrahim, T. Ibrahim, and P. Nath, Phys. Rev. D            Dehmelt, in New Frontiers in High Energy Physics,
+                                                                                                                            6
+
+     edited by B. Kursunoglu, A. Perlmutter, and L.Scott             Biercuk, and J. J. Bollinger, Phys. Rev. A 93, 062511
+     (Plenum, New York, 1978), p. 159.                               (2016).
+[51] G. Gabrielse, H. Dehmelt, and W. Kells, Phys. Rev. Lett.   [61] J. Tan and G. Gabrielse, Phys. Rev. A 48, 3105 (1993).
+     54, 537 (1985).                                            [62] J. Tan and G. Gabrielse, Phys. Rev. Lett. 67, 3090
+[52] G. Gabrielse and H. Dehmelt, Phys. Rev. Lett. 55, 67            (1991).
+     (1985).                                                    [63] S. J. Brodsky and S. D. Drell, Phys. Rev. D 22, 2236
+[53] L. S. Brown and G. Gabrielse, Phys. Rev. A 25, 2423             (1980).
+     (1982).                                                    [64] T. Aoyama et al., Physics Reports 887, 1 (2020).
+[54] L. S. Brown, G. Gabrielse, K. Helmerson, and J. Tan,       [65] M. Stock, R. Davis, E. de Mirandés, and M. J. T. Milton,
+     Phys. Rev. Lett. 55, 44 (1985).                                 Metrologia 56, 022001 (2019).
+[55] L. S. Brown, G. Gabrielse, K. Helmerson, and J. Tan,       [66] S. Fogwell Hoogerheide, J. C. Dorr, E. Novitski, and G.
+     Phys. Rev. A 32, 3204 (1985).                                   Gabrielse, Review of Scientific Instruments 86, 053301
+[56] D. J. Wineland and H. G. Dehmelt, J. Appl. Phys. 46,            (2015).
+     919 (1975).                                                [67] X. Fan and G. Gabrielse, Phys. Rev. Lett. 126, 070402
+[57] B. D’Urso, R. Van Handel, B. Odom, D. Hanneke, and              (2021).
+     G. Gabrielse, Phys. Rev. Lett. 94, 113002 (2005).          [68] X. Fan and G. Gabrielse, Phys. Rev. A 103, 022824
+[58] L. S. Brown, Ann. Phys. (N.Y.) 159, 62 (1985).                  (2021).
+[59] D. Hanneke, S. Fogwell Hoogerheide, and G. Gabrielse,      [69] X. Fan, Ph.D. thesis, Harvard University, 2022, (thesis
+     Phys. Rev. A 83, 052122 (2011).                                 advisor: G. Gabrielse).
+[60] J. W. Britton, J. G. Bohnet, B. C. Sawyer, H. Uys, M. J.
+

@@ -1,0 +1,446 @@
+                                                      Bounds on Universal Extra Dimension from LHC Run I and II data
+                                                                               Debajyoti Choudhury1 and Kirtiman Ghosh2
+                                                              Department of Physics and Astrophysics, University of Delhi, Delhi 110007, India
+                                                                           1
+                                                                             debajyoti.choudhury@gmail.com, 2 kirti.gh@gmail.com
+
+                                                         We discuss the collider bounds on minimal Universal Extra Dimension (mUED) model from
+                                                       LHC Run-I and II data. The phenomenology of mUED is determined by only two parameters
+                                                       namely, the compactification scale (R−1 ) of the extra dimension and cutoff scale (Λ) of the theory.
+                                                       The characteristic feature of mUED is the occurrence of nearly degenerate mass spectrum for the
+                                                       Kaluza-Klein (KK) particles and hence, soft leptons, soft jets at the collider experiments. The
+                                                       degree of degeneracy of KK-mass spectrum crucially depends on Λ. The strongest direct bound on
+                                                       R−1 (∼950 GeV for large Λ) arises from a search for a pair of soft dimuons at the Large Hadron
+                                                       Collider (LHC) experiment with 8 TeV center-of-mass energy and 20 fb−1 integrated luminosity.
+                                                       However, for small Λ and hence, small splitting within the first KK-level, the bounds from the
+                                                       dimuon channel is rather weak. On the other hand, the discovery of 126 GeV Higgs boson demands
+
+
+
+
+arXiv:1606.04084v1 [hep-ph] 13 Jun 2016
+                                                       small Λ to prevent the scalar potential form being unbounded from below. We discuss LHC monojet
+                                                       searches as a probe of low Λ region of mUED parameter space. We also compute bounds on the
+                                                       mUED parameter space from 13 TeV multijets results.
+
+
+                                             Theories with one or more extra space-like dimen-             the context of higher-dimensional theories. The particle
+                                          sion(s) accessible to all or a few of the Standard Model         spectrum of mUED contains infinite towers of Kaluza-
+                                          (SM) fields are of interest for various reasons. For exam-       Klein (KK) modes (identified by an integer n, called
+                                          ple, the ADD [1, 2] (seemingly) and RS [3] models pro-           the KK-number) for each of the SM fields with the zero
+                                          vide solutions to the long-standing naturalness/hierarchy        modes being identified as the corresponding SM parti-
+                                          problem by postulating the existence of compactified             cles. The key feature of the UED Lagrangian is the con-
+                                          extra-dimension(s) accessible only to gravity with the           servation of the momentum along fifth direction. From
+                                          SM fields being confined to a 3-brane embedded in the            a 4-dimensional perspective, this implies conservation of
+                                          extra-dimensional bulk. On the other hand, there are a           the KK-number. However, the additional Z2 symmetry
+                                          class of models wherein some or all of the SM fields can         (y ↔ −y), which is required to obtain chiral structure
+                                          access the extended space-time manifold [2, 4], whether          of the SM fermions, breaks the translational invariance
+                                          fully or partially. Such extra-dimensional scenarios could       along the 5th dimension. As a result, KK-number con-
+                                          lead to a new mechanism of supersymmetry breaking [2],           servation breaks down at loop-level, leaving behind only
+                                          relax the upper limit of the lightest supersymmetric neu-        a conserved KK-parity, defined as (−1)n . There are sev-
+                                          tral Higgs mass[5], give a different perspective to the is-      eral interesting consequences of this discrete symmetry
+                                          sue of fermion mass hierarchy [6], interpret the Higgs           which, in turn, is an automatic outcome of the S 1 /Z2
+                                          as a quark composite leading to a electroweak symme-             orbifolding. KK-parity ensures the stability of the light-
+                                          try breaking (EWSB) without a fundamental scalar or              est KK-particle (LKP), allows only pair production of
+                                          Yukawa interactions [7], lower the unification scale down        level-1 KK-particles at the collider, and prohibits KK-
+                                          to a few TeVs [8], provide a cosmologically viable candi-        modes from affecting tree-level EW precision observables.
+                                          date for dark matter [9, 10], explain the long life time of      And, although KK-modes do contribute to standard elec-
+                                          proton [11], predict the number of fermion generations to        troweak processes at higher orders, KK-parity ensures
+                                          be an integral multiple of three [12] and give rise to in-       that, in a loop, they appear only in pairs resulting in a
+                                          teresting signatures at collider experiments. As a result,       substantial suppression of such contributions.
+                                          search for the extra dimension(s) is one of the prime goals         Being a higher dimensional theory, mUED is nonrenor-
+                                          of the Large Hadron Collider (LHC) experiment [13, 14].          malizable and should be treated as an effective theory
+                                          Our concern here is a specific and particularly interesting      valid upto a cutoff scale Λ, expected to be somewhat
+                                          framework, called the Universal Extra Dimension (UED)            larger than R−1 . With KK-parity ensuring that one-
+                                          scenario.                                                        loop1 mUED corrections to all electroweak observables
+                                                                                                           are cutoff independent [15], the latter serve to constrain
+                                             The minimal version of UED (mUED) is characterized
+                                                                                                           R−1 , almost independent of Λ. For example, low energy
+                                          by a single flat extra dimension (y), compactified on an
+                                                                                                           observables like muon g − 2 [16], flavour changing neutral
+                                          S 1 /Z2 orbifold with radius R, which is accessed by all
+                                                                                                           currents [17], Z → bb̄ decay [18], the ρ-parameter [19],
+                                          the SM particles [4]. While a resolution of the hierar-
+                                          chy problem requires that R−1 ∼ O(1 TeV), it has long
+                                          been argued that, in the absence of a dynamical stabi-
+                                          lization of R−1 (or the cutoff), this is just a postpone-        1 The observables start showing cutoff sensitivity of various degrees
+
+                                          ment of the explanation. However, recently, a mecha-               as one goes beyond one-loop or considers more than one extra
+                                          nism for the stabilization of R−1 has been proposed in             dimension.
+                                                                                                                                 2
+
+B̄ → Xs γ [21] and other electroweak precision tests [20]
+                                                                     TABLE I. Benchmark points and mass spectrum of rele-
+put a lower bound of about 300-600 GeV on R−1 . This,                vant level-1 particles. Total cross-sections (σ tot ) of KK-
+along with the fact that the tree level mUED masses for              squarks/gluons pair production at the LHC with 8 and 13
+level-n KK-excitations are given by m2n = m20 + n2 R−2               TeV center-of-mass energy are also presented.
+(m0 being the mass associated with the corresponding
+SM field) implies that, within a given level, the excita-             BPs     R−1 ΛR mg1 mQ1 mq1 mW1 /Z1 mL1 mB1
+tions are quite degenerate. Quantum corrections par-                         [GeV]   [GeV] [GeV] [GeV] [GeV] [GeV] [GeV]
+tially lift this degeneracy [22] and, typically, B1 , the            BP1 920 3          1002 973  966         941     929  920
+level-1 excitation of hypercharge gauge boson2 , is the              BP2 1100 3         1196 1163 1153       1125    1111 1099
+LKP, and, hence, stable. Being only weakly interacting,              BP3 1120 35        1414 1328 1300       1194    1157 1119
+the B1 turns out to be a good dark matter (DM) candi-
+date [9]. Consistency with WMAP/PLANCK–measured                              Total strong pair production cross-section [pb]
+                                                                             √
+[23] DM relic density data puts an upper bound of 1400                        s             BP1           BP2             BP3
+GeV on R−1 . Given this upper limit, it is extremely plau-                   8 TeV         0.945         0.254          0.087
+sible that experiments at the LHC can either discover or                    13 TeV          10.8          3.31           1.53
+rule out mUED. In this paper, we have discussed    √ the
+impact of LHC Run I (center-of-mass energy s = 8
+ √ integrated luminosity L −1
+TeV,                             = 20.3 fb−1 ) and Run II
+( s = 13 TeV and L = 3.2 fb ) results on mUED pa-                    only on the lowest-order calculations and the inclusion of
+rameter space. In particular, we have obtained bounds                higher-loops (which are poorly understood in this theory)
+on mUED parameter space from collider upper limits on                can substantially change these results. Consequently, we
+the product of cross section, acceptance and efficiency              will not impose the last-mentioned. In order to discuss
+(σ × A × ) in monojet [24, 25] and multijets [26, 27] plus          the collider signatures and present the numerical results,
+missing energy (E T ) channels.                                      we have chosen three benchmark points (BPs) listed in
+   Given R−1 and, hence, the average KK-mass, the                    Table I along with the masses of relevant level-1 KK-
+collider phenomenology is uniquely determined by the                 particles. While the relatively small value of ΛR for BP1
+mass splittings, i.e., the quantum corrections. Apart                and BP2 is reflected in the approximate degeneracy of
+from the usual radiative corrections that we expect in               level-1 KK-particles, a much larger value of the same for
+a Minkowski-space field theory, there are additional cor-            BP3 results in a wider splitting.
+rections accruing from the fact of the fifth direction be-              The level-1 KK-quarks (both the singlet q1 and doublet
+ing compactified on S1 /Z2 -orbifold. The correction terms           Q1 ) and gluons (g1 ) are copiously produced in pairs at the
+can be finite (bulk correction) or logarithmically diver-            LHC. These, subsequently, decay into SM particles and
+gent (boundary correction). Bulk corrections arise only              B1 via cascades involving other level-1 KK-particles. As
+for the gauge boson KK-excitations due to the wind-                  the spectra in Table I suggest, the g1 can decay to both
+ing of the internal loop (lines) around the compactified             singlet (q1 ) and doublet (Q1 ) quarks with almost same
+direction [22] . The ubiquitous boundary corrections                 branching ratios, with only a slight kinematic preference
+are just the counterterms of the total orbifold correc-              for the former. The singlet quark can decay only to B1
+tions, with the finite parts being completely unknown,               and SM quark. On the other hand, the doublet quarks
+dependent as they are on the details of the ultraviolet              decay mostly to W1 or Z1 . Hadronic decay modes of
+completion. Assuming that the boundary kinetic terms                 the W1 being closed kinematically, it decays universally
+vanish at the cutoff scale Λ, the corrections from the               to all level-1 doublet lepton flavours (L1 or ν1 ), namely,
+boundary terms, at a renormalization scale µ would ob-               W1 → L±                      ±
+                                                                               i1 νi0 and W1 → Li0 νi1 have equal branching ra-
+viously be proportional to ln(Λ2 /µ2 ). Finite bulk cor-             tios. Similarly, Z1 can decay only to L1 l or ν1 ν (with
+rections being subdominant, the cutoff scale plays the               branching fractions being determined by the correspond-
+most crucial role in determining the mass-splitting and              ing SM couplings). The KK leptons finally decay to the
+hence, the collider signatures of level-1 KK-particles. The          invisible B1 and a ordinary (SM) lepton. Therefore, pair
+perturbativity of the U (1) gauge coupling requires that             production of KK-quarks and/or gluon gives rise to jets +
+Λ <        −1
+   ∼ 40R . It has been argued that a much stronger                   leptons + missing transverse energy E T signatures in the
+bound arises from the the running of the Higgs-boson                 LHC experiments. However, due to the small splitting of
+self-coupling and the stability of the electroweak vac-              level-1 KK-masses, in signal events, the jets/leptons as
+uum [28]. However, note that such arguments were based               well as E T are, in general, soft thereby rendering the task
+                                                                     a challenging one. Collider phenomenology of leptonic fi-
+                                                                     nal states of mUED was discussed in Ref. [29] with a con-
+2 The notation may seem confusing, but note that, owing to the       clusion of opposite sign dilepton channel being the most
+  the large difference between the electroweak scale and R−1 , the   promising for moderate 10R−1 < Λ < 40R−1 . In order to
+  analogues of the Weinberg angle are small for the KK-sectors.      enhance the signal to background ratio for soft signal lep-
+                                                                                                                                                   3
+
+                                                                             40
+TABLE II. Definitions of SRs for monojet-like selection used                                                              SR2         SR6
+                                                                                                                          SR3         SR7
+by ATLAS collaboration in Ref. [25] along with 95% CL upper                  35
+                                                                                                                          SR4         SR8
+limits (hσi95
+            obs ) on the product of cross section, acceptance                30
+                                                                                                                          SR5         SR9
+
+and efficiency (σ × A × ). mUED cross-sections for the BPs                                                    7
+are also presented.                                                          25                              6.5
+                                                                                                               6
+                                                                        ΛR                                   5.5
+                                                                             20
+                   Monojet-like Selection criteria                                                             5
+                                                                             15                              4.5
+      Preselection         SRs E/T > hσi95
+                                          obs σ(mUED) [fb]                                                     4
+                               [GeV]   [fb]   BP1 BP2 BP3                    10                              3.5
+                                                                                                               3
+                                                                                                                800       850   900   950   1000
+   T > 150 GeV
+   E                       SR1    150      726     70    15 28                5
+
+   At least one jet        SR2    200      194     52    11 21                700       800        900 BP1         1000           1100         1200
+
+  with pT > 30 GeV         SR3    250       90     37    7.6 13                                        R-1 [GeV]                  BP1
+
+       |η| < 4.5           SR4    300       45     26    5.2 7.4
+     Lepton veto           SR5    350       21     19    3.8 3.6        FIG. 1. 95% exclusion bounds on R−1 –ΛR plane from dif-
+  Monojet-like Sec.        SR6    400       12     14    2.8 1.6        ferent SRs of ATLAS 8 TeV 20.3 fb−1 integrated luminosity
+   pjT1 > 120 GeV          SR7    500      7.2     7.6   1.5 0.53       monojet-like selection criteria. Low ΛR region is magnified in
+               j
+              p 1                                                       the inset. The shaded region corresponds to present ATLAS
+ |η j1 | < 2.0, T > 0.5 SR8       600      3.8     4.0 0.82 0.26        bound from dilepton plus E T search [14] at 8 TeV center-of-
+                E
+                T
+   ∆φ(jet, E ~ T ) > 1.0 SR9
+                                 700      3.4     2.2 0.46 0.13        mass energy.
+
+
+
+                                                                        run, the CMS [24] and ATLAS [25] collaborations have
+tons, the idea of imposing upper bounds on the lepton                   used this channel to look for signatures of compressed
+transverse momenta as well as on the invariant masses                   SUSY, a generic DM candidate, large extra dimensions,
+of lepton pairs was proposed in Ref. [30]. Recently, the                very light gravitinos in a gauge-mediated supersymmet-
+ATLAS collaboration, using 20.3 fb−1 integrated         √       lumi-   ric model etc.. In view of the consistency of experimental
+nosity data for proton-proton collisions at s = 8 TeV                   data and SM background predictions, model independent
+has performed a dedicated search for soft dimuons [14]                  upper limits are set on the product of cross section, ac-
+(characterized by 6 GeV < pmuon     T      < 25 GeV and invari-         ceptance and efficiency (σ × A × ). Using the ATLAS
+ant mass cuts) specially designed to probe the mUED                     results [25], we now perform an analogous exercise for
+parameter space. In the absence of any significant excess               mUED.
+of signal events over the SM backgrounds, they exclude,                    We generate the parton level events corresponding to
+at 95% CL, the part of the parameter space, viz. the                    pair production of KK-quarks/gluons using the mUED
+(R−1 , ΛR) plane, depicted in grey in Fig. 1. Clearly, for              implementation [32] for the event generator PYTHIA
+large ΛR ∼ 35, any R−1 below about 950 GeV is ruled                     [33]. We use the CTEQ6L1 [34] parton distributions
+out. However, for small ΛR ∼ 3 (which is particularly                   with the factorization and renormalization scales kept
+motivated from the stability of scalar potential with a                 fixed at the parton center-of-mass energy. ISR, decay
+126 GeV Higgs boson), the lower bound on R−1 is only                    of KK-quarks/gluons, showering and hadronization are
+about 860 GeV, a consequence of the very small splitting                also simulated with PYTHIA. For the reconstruction of
+between level-1 KK-particles and, consequently, soft lep-               physics objects (jets, leptons, E T etc.) we closely follow
+tons evading the acceptance cuts. Hence, an alternative                 the prescription of Ref. [25] for ATLAS monojet + E T
+search strategy is called for.                                          analysis. Jet candidates are reconstructed using FastJet
+   A final state comprising a single jet, resulting primar-             [35] with the anti–kT jet clustering algorithm [36] with
+ily from initial state radiation, accompanied by a miss-                a distance parameter of 0.4. Only jets with pT > 30
+ing transverse energy could be a promising channel. In-                 GeV and |η| < 4.5 are considered for further analysis.
+deed, monojet plus E T is a very effective channel for                  Electron (muon) candidates are required to have pT > 7
+theories with a quasi-degenerate spectrum, for example,                 GeV and |η| < 2.47(2.5). After identifying jets and lep-
+in the search for third-generation squarks in compressed                tons, overlaps between identified electrons and jets in the
+supersymmetry scenarios [31]. The spectrum of ISR jets                  final state are resolved by discarding
+                                                                                                         p       any jet candidate
+depends on the scale and dynamics of the production                     lying within a distance ∆R = ∆η 2 + ∆φ2 < 0.2 of an
+process and is independent of the subsequent decay, in-                 electron candidate. Missing transverse momentum is re-
+cluding mass splittings. With the system of the pair of                 constructed using all remaining visible entities, viz. jets,
+KK-particles (g1 g1 , g1 qi1 , qi1 qj1 , qi1 q̄j1 ) recoiling against   leptons and all calorimeter clusters not associated to such
+a hard ISR jet, the final state comprises of a hard jet, sub-           objects. After object reconstruction, only events with
+stantial E T and some soft jets/leptons that may or may                 zero lepton, E T > 150 GeV and atleast one jet (satisfy-
+not be visible. Analyzing 20.3 fb−1 data from the 8 TeV                 ing the aforementioned preselection criteria) are selected
+                                                                                                                                4
+
+for further analysis.
+                                                              TABLE III. Definition of SRs for multijets plus E    T analysis
+   A monojet-like final state topology is demanding a         used by ATLAS collaboration in Ref. [26] for 13 TeV center-of-
+leading jet with pT > 120 GeV, |η| < 2.0 and pT /E T >        mass energy and 3.2 inverse femtobern integrated luminosity.
+0.5. An additional requirement on the azimuthal sepa-               ~ T ) is the azimuthal separations between E
+                                                              ∆φ(j, E
+                                                                                                                   ~ T and the
+                                                                                                                    
+ration ∆φ(jet, E~T ) > 1.0 between the direction of the       reconstructed jets. mef f (Nj ) is defined to be the scalar sum of
+                                                              the transverse momenta of the leading N jets together with
+missing transverse momentum and that of each of the
+                                                              T . However, for mincl.
+                                                              E                       ef f , the sum goes over all jets with
+selected jets is also imposed. After selecting events with    pT > 50 GeV. Model independent 95% CL upper limits on
+monojet-like topology, different signal regions (SR1–SR9)     multijets hσi95
+                                                                             obs = σ × A ×  and mUED cross-sections for
+are defined with progressively increasing thresholds for      the BPs are also presented.
+E T . the ATLAS monojet-like selection criteria and sig-
+nal regions are summarized in Table II. For each of these                 Cuts              Signal Region
+signal regions, the good agreement between the numbers                             2jL 2jM 2jT 4jT      5j          6jM 6jT
+of events observed by the ATLAS detector and expected            E T > [GeV]
+                                                                                  200    200   200   200    200    200   200
+within the SM can be used to impose model-independent             pjT1 > [GeV]     200    300   200   200    200    200   200
+upper limits on the product σ × A × , and these too are          pjT2 > [GeV]     200     50   200   100    100    100   100
+presented in Table II. These should be compared with              pjT3 > [GeV]      -       -    -    100    100    100   100
+the monojet cross-sections for the mUED BPs which are             pjT4 > [GeV]      -       -    -     -     100    100   100
+presented in the last three columns of Table II. Clearly,         pjT5 > [GeV]      -       -    -     -      -     100   100
+for BP1, the signal cross-sections exceed the ATLAS               pjT6 > [GeV]      -       -    -     -      -     100   100
+95% CL upper limits (hσi95   obs ) for each of SR6, SR7                  ~ T) >
+                                                                ∆φ(j<3 , E        0.8    0.4   0.8   0.4    0.4    0.4   0.4
+and SR8. Thus, BP1, which had survived the dimuon                         ~ T) >
+                                                                ∆φ(j>3 , E          -       -    -    0.2    0.2    0.2   0.2
+search bounds (R−1 = 860 GeV for ΛR ∼ 3), is squarely           E
+                                                                       √
+                                                                          
+ruled out by the monojet analysis. While this may seem           T [ GeV] >
+                                                                √                   15    15    20      -      -     -      -
+                                                                 H   T
+only a modest improvement, given that each of BP2 and             Aplanarity>        -     -     -    0.04 0.04 0.04 0.04
+                                                                        √
+BP3 survive, as we shall see below, this is crucial for a       E
+                                                                NTj > [ GeV]        -     -     -     0.2   0.25 0.25    0.2
+                                                               m
+hole in the parameter space would have been left oth-              ef f
+
+erwise. Indeed, for low ΛR (preferred in the context of         mincl.
+                                                                 ef f > [GeV]      1200 1600 2000 2200 1600 1600 2000
+the stability of the Higgs potential), this constitutes the         hσi95
+                                                                        obs [fb]    24    21    5.9    2.5   2.0    1.6   1.6
+most promising channel. Our final exclusion limits
+                                                √    in the               BP1       36    66    11     2.2 0.97 0.22 0.11
+R−1 −ΛR plane from different SRs of ATLAS s =8 TeV
+                                                                          BP2       11    24    3.6   0.93 0.5 0.13 0.13
+and L =20.3 fb−1 monojet+ E T analysis are presented
+                                                                          BP3       13    14    2.8    2.3 2.2 0.46 0.29
+in Fig. 1.
+   The situation can be further improved if other chan-
+nels are considered as well. A particularly useful one is
+that constituting multijets + E T . Recently, both the        candidates are reconstructed using the anti-kt jet clus-
+ATLAS [26] and the CMS [27] collaborations  √ have com-       tering algorithm with a distance parameter of 0.4, and
+municated results for such an analysis for s =13 TeV,         only those with pT > 20 GeV and |η| < 2.8 are re-
+although for only a small data set (3.2 fb−1 ). This, how-    tained. Electron (muon) candidates are required to have
+ever, can be offset by an increased cross section. At the     pT > 10 GeV and |η| < 2.47(2.5). Furthermore, a lep-
+LHC, the dominant contribution to the pair production         ton needs to be isolated from a jet for the two entities
+of level-1 KK-quarks/gluons arises from gluon-gluon or        to be reconstructed unambiguously. Consequently, any
+quark-gluon initial states. The gluon density increases       putative jet falling within an angular distance ∆R = 0.2
+by an order of magnitude as we go from 8 TeV to 13 TeV.       of an electron is not reconstructed into a jet, leaving the
+Similarly, the presence of t-channel diagrams as well as      constituents as unattached objects at that stage. Simi-
+the momentum-dependence of the vertices largely com-          larly, any electron falling within ∆R = 0.4 of a surviving
+pensates for any suppression of the leading parton-level      jet candidate is not considered as one, and its energy-
+cross sections with an increase in the subprocess center      momentum ascribed to the jet. The missing transverse
+of mass energy. For example, as Table I shows the to-         momentum is reconstructed using all the remaining jets
+tal mUED production cross-section increases by a factor       and leptons as well as all calorimeter clusters not asso-
+about 20 for KK-quark/gluon mass ∼ 1400 GeV. There-           ciated to such objects. After the object reconstruction,
+fore, it is instructive to study 13 TeV multijets + E T       events containing lepton(s) with pT > 10 GeV are ve-
+results in the context of mUED which we will discuss in       toed. Jets with pT > 50 GeV are considered for further
+the following.                                                analysis.
+  The aforementioned ATLAS analysis[26] searched for            The ATLAS collaboration considers seven inclusive
+events with 2–6 jets in association with a large E T . Jet    analysis channels, characterized by increasing jet mul-
+                                                                                                                                                   5
+
+     40                                                                   fraction of events lead to multijet configurations. This,
+                                                            2jL
+                                                     BP3
+     35
+                                                            2jM           for example, allows us to rule it out using the ‘5j’ SR.
+                                                            2jT
+                                                            4jT              In Fig. 2, we present the final exclusion bounds (drawn
+     30                                                       5j
+                                                            6jM           from the ATLAS analysis of the 3.2 fb−1 data collected in
+     25                                                     6jT
+                                                                          the 13 TeV run) in the mUED parameter space for each of
+ΛR
+     20                                                                   the SRs listed in Table III. The region in the (R−1 , ΛR)
+                                                                          to the right of a given curve is ruled out at 95% C.L.
+     15
+                                                                          Note that for large ΛR (> ∼ 30), the strongest bounds come
+     10                                                                   from an analysis of final state with at least 5 jets and is
+      5
+                                               BP2
+                                                                          about 1130 GeV. The sensitivity falls drastically for the
+                             BP1
+      700      800     900           1000        1100      1200    1300   inclusive six-jet final state. This can be understood by
+                                   R-1 [GeV]                              realizing that, at the parton level, the decay of the KK-
+                                                                          particles would lead to at most four SM quarks/gluons
+                                                                          (and, that too only for g1 g1 production). For low ΛR (<  ∼
+FIG. 2. 95% exclusion bounds on R−1 –ΛR plane from dif-
+ferent SRs of ATLAS 13 TeV 3.2 fb−1 integrated luminosity                 16), on the other hand, the strongest bound (R−1 >  ∼ 1110
+multijets plus E
+               T analysis.                                               GeV) is achievable from the ‘2jM’ signal region. It is
+                                                                          worthwhile to note that the basic requirements (one jet
+                                                                          with pT > 300 GeV, another jet with pT > 50 GeV and
+tiplicity and different cuts to reduce the SM background.                 E T > 300 GeV) for the ‘2jM’ signal region is markedly
+The effective mass, meff , and E T turn out to be the most                similar to the monojet-like selection criteria used earlier.
+powerful discriminants between the multijets signal and                   Hence, it comes as no surprise that this constitutes the
+SM backgrounds. These additional selection cuts are im-                   most efficient strategy for low ΛR.
+posed on
+                                                                               40
+     • ET                                                                                                                      BP3
+                                                                               35
+     • mincl.
+         eff defined as the scalar sum of E T and the pT s
+       of all jets with pT > 50 GeV,                                           30
+             N                                                                                                                 13 TeV 3.2 fb-1
+     • E T /meffj (for events with at least Nj jets) where                     25
+                                                                                                                              Multi-Jets Search
+         Nj   PNj i                                                       ΛR                                             ATLAS-CONF-2015-062
+       meff = i=1     pT (jet) + E T with the sum extending                    20
+       over the leading Nj jets,                                                                                                   8 TeV 20 fb-1
+                                                                                                                               Di-lepton Search
+            √                                                                  15
+                                                                                                                                     1501.03555
+     • E T / H T where HT = mincl.
+                                 eff − E T ,                                   10
+                                                                                                                                8 TeV 20.3 fb-1
+               ~
+     • ∆φ(jet, E ),                                                                                                            Mono-Jet search
+                 T                                                              5                                                  1502.01518
+                                                                                                       BP1               BP2
+     • the aplanarity variable A defined as A = 3λ3 /2,                         700     800      900           1000         1100         1200      1300
+       where λ3 is the smallest eigenvalue of the normal-                                                    R-1 [GeV]
+       ized momentum tensor of the jets.
+
+In Table III, we list the cuts used by the ATLAS col-                     FIG. 3. Regions of R−1 –ΛR plane excluded from ATLAS Run
+laboration to define the signal regions, and the corre-                   I monojet and lepton [14] analysis as well as Run II 3.2 fb−1
+                                                                          multijets plus E
+                                                                                         T searches.
+sponding model independent 95% CL upper limits on
+hσi95
+     obs = σ × A × .
+   For simulating the production of level-1 KK-                              To summarize, we have computed constraints on the
+quarks/gluons, their subsequent decays, ISR, showring                     mUED parameter space using the ATLAS 8 TeV mono-
+and hadronization, we follow the same procedure as out-                   jet results. While the dedicated ATLAS search strategy
+lined before. The physics objects are reconstructed and                   (involving soft dimuons) is a promising one for large ΛR,
+events selected to mimic the ATLAS criteria described                     it is not very efficient for low ΛR, a region preferred by
+above. The signal cross-sections for the three BPs are                    certain theoretical considerations, such as the stability
+presented in the last three rows of Table III. BP1 and                    of the Higgs potential. On the other hand, the monojet
+BP2 being characterized by low ΛR (and, hence, small                      channel, being independent of the mass splitting (and,
+splittings), typically give rise to low jet multiplicities.               hence, ΛR) does not suffer from the drawbacks of the
+Whereas BP2 is seen to be ruled out by the ‘2jT’ crite-                   soft dimuon channel, and is seen to be much more sen-
+ria, BP1 is ruled out by each of the three dijet SRs. On                  sitive (in this region) than the latter. This, clearly, calls
+the other hand, BP3, owing to the larger R−1 , is associ-                 for the inclusion of mUED as a candidate scenario for any
+ated with a smaller total cross section and easily evades                 future monojet study at ATLAS/CMS. We also examine
+the dijet constraints. However, owing to the much larger                  the efficacy of the multijet (+E T ) signal in the context of
+ΛR, the relative splittings are larger and a substantial                  mUED. Even with the small sample size analyzed by the
+                                                                                                                            6
+
+ATLAS collaboration, this is shown to lead to a much                  031801 (2001) [arXiv:hep-ph/0102010].
+stronger exclusion of the mUED parameter space, as is            [13] S. Chatrchyan et al. [CMS Collaboration], Phys. Rev.
+depicted in Fig. 3, wherein the different shaded regions              Lett. 108, 111801 (2012); S. Chatrchyan et al. [CMS
+correspond to the individual exclusions allowed by differ-            Collaboration], JHEP 1105, 093 (2011); S. Chatrchyan
+                                                                      et al. [CMS Collaboration], Phys. Rev. D 87, no. 11,
+ent search strategies. A casual perusal of Fig. 3 might               114015 (2013); V. Khachatryan et al. [CMS Collabora-
+suggest that the multijet channel is overwhelmingly su-               tion], Eur. Phys. J. C 75, no. 5, 235 (2015); G. Aad
+perior. This should be treated with caution, though. For              et al. [ATLAS Collaboration], JHEP 1603, 026 (2016);
+one, the particular sub-channel that is the most sensitive            G. Aad et al. [ATLAS Collaboration], Phys. Rev. D 92,
+one for ΛR <  ∼ 16 is the one that is remarkably close to             no. 3, 032004 (2015); G. Aad et al. [ATLAS Collabora-
+the monojet algorithm, experimental results for which do              tion], JHEP 1508, 148 (2015).
+not yet exist for the 13 TeV run. Similarly, the inclusion       [14] G. Aad et al. [ATLAS Collaboration], JHEP 1504, 116
+                                                                      (2015); L. Morvaj, CERN-THESIS-2014-284.
+of multijet final state alongwith soft but isolated leptons      [15] P. Dey and G. Bhattacharyya, Phys. Rev. D 70 (2004)
+(i.e., without the lepton veto being imposed as was done              116012; P. Dey and G. Bhattacharyya, Phys. Rev. D 69
+in the ATLAS analysis) is likely to lead to some improve-             (2004) 076009.
+ment in the sensitivity.                                         [16] P. Nath and M. Yamaguchi, Phys. Rev. D 60 (1999)
+   DC acknowledges partial support from the Euro-                     116006; K. Agashe, N. G. Deshpande and G. H. Wu,
+pean Union’s Horizon 2020 research and innovation pro-                Phys. Lett. B 511, 85 (2001).
+gramme under Marie Sklodowska-Curie grant No 674896,             [17] D. Chakraverty, K. Huitu and A. Kundu, Phys. Lett.
+                                                                      B 558 (2003) 173; Nucl. Phys. B 660 (2003) 225;
+and the R&D grant of the University of Delhi. KG is sup-              A.J. Buras, A. Poschenrieder, M. Spranger and A. Weiler,
+ported by DST (India) under INSPIRE Faculty Award.                    Nucl. Phys. B 678 (2004) 455; K. Agashe, N.G. Desh-
+                                                                      pande and G.H. Wu, Phys. Lett. B 514 (2001) 309.
+                                                                 [18] J.F. Oliver, J. Papavassiliou and A. Santamaria, Phys.
+                                                                      Rev. D 67 (2003) 056002.
+                                                                 [19] T. Appelquist and H. U. Yee, Phys. Rev. D 67 (2003)
+ [1] N. Arkani-Hamed, S. Dimopoulous and G. Dvali,                    055002.
+     Phys. Lett. B 429, 263 (1998); I. Antoniadis,               [20] T. G. Rizzo and J.D. Wells, Phys. Rev. D 61 (2000)
+     N. Arkani-Hamed, S. Dimopoulos and G. R. Dvali,                  016007; A. Strumia, Phys. Lett. B 466 (1999) 107; C.D.
+     Phys. Lett. B 436, 257 (1998).                                   Carone, Phys. Rev. D 61 (2000) 015008; I. Gogoladze
+ [2] I. Antoniadis, Phys. Lett. B 246 (1990) 377.                     and C. Macesanu, Phys. Rev. D 74, 093012 (2006).
+ [3] L. Randall and R. Sundrum, Phys. Rev. Lett. 83, 3370        [21] U. Haisch and A. Weiler, Phys. Rev. D 76 (2007) 034014.
+     (1999); ibid 83, 4690 (1999).                               [22] H. C. Cheng, K. T. Matchev and M. Schmaltz, Phys.
+ [4] T. Appelquist, H. C. Cheng and B. A. Dobrescu, Phys.             Rev. D 66, 036005 (2002) [arXiv:hep-ph/0204342].
+     Rev. D 64 (2001) 035002;                                    [23] E. Komatsu et al. [WMAP Collaboration], Astrophys.
+     H. C. Cheng, K. T. Matchev and M. Schmaltz, Phys.                J. Suppl. 192, 18 (2011); P. A. R. Ade et al. [Planck
+     Rev. D 66 (2002) 056006.                                         Collaboration], arXiv:1502.01589 [astro-ph.CO].
+ [5] G. Bhattacharyya, S. K. Majee and A. Raychaudhuri,          [24] V. Khachatryan et al. [CMS Collaboration], Eur. Phys.
+     Nucl. Phys. B 793 (2008) 114 [arXiv:0705.3103 [hep-ph]].         J. C 75, no. 5, 235 (2015).
+ [6] N. Arkani-Hamed and M. Schmaltz, Phys. Rev. D 61            [25] G. Aad et al. [ATLAS Collaboration], Eur. Phys. J. C
+     (2000) 033005 [arXiv:hep-ph/9903417].                            75, no. 7, 299 (2015) Erratum: [Eur. Phys. J. C 75, no.
+ [7] N. Arkani-Hamed, H. C. Cheng, B. A. Dobrescu and                 9, 408 (2015)].
+     L. J. Hall, Phys. Rev. D 62 (2000) 096006 [arXiv:hep-       [26] The ATLAS collaboration, ATLAS-CONF-2015-062.
+     ph/0006238].                                                [27] V. Khachatryan et al. [CMS Collaboration], Phys. Lett.
+ [8] K. Dienes, E. Dudas, and T. Gherghetta; Nucl. Phys.              B doi:10.1016/j.physletb.2016.05.002.
+     B 537 (1999) 47; K. R. Dienes, E. Dudas and                 [28] A. Datta and S. Raychaudhuri, Phys. Rev. D 87, no. 3,
+     T. Gherghetta, Phys. Lett. B 436 (1998) 55; For a par-           035018 (2013).
+     allel analysis based on a minimal length scenario, see      [29] B. Bhattacherjee and K. Ghosh, Phys. Rev. D 83, 034003
+     S. Hossenfelder, Phys. Rev. D 70 (2004) 105003; G. Bhat-         (2011);
+     tacharyya, A. Datta, S. K. Majee and A. Raychaudhuri,       [30] D. Choudhury, A. Datta and K. Ghosh, JHEP 1008, 051
+     Nucl. Phys. B 760 (2007) 117.                                    (2010).
+ [9] G. Servant and T. M. P. Tait, Nucl. Phys. B 650, 391        [31] G. Aad et al. [ATLAS Collaboration], Phys. Rev. D 90,
+     (2003). H. C. Cheng, J. L. Feng and K. T. Matchev,               no. 5, 052008 (2014); M. Aaboud et al. [ATLAS Collab-
+     Phys. Rev. Lett. 89, 211301 (2002). K. Kong and                  oration], arXiv:1604.07773 [hep-ex].
+     K. T. Matchev, JHEP 0601, 038 (2006). D. Hooper             [32] M. ElKacimi, D. Goujdami, H. Przysiezniak and
+     and S. Profumo, Phys. Rept. 453, 29 (2007) [arXiv:hep-           P. Z. Skands, Comput. Phys. Commun. 181, 122 (2010).
+     ph/0701197].                                                [33] T. Sjostrandet al., JHEP 0605, 026 (2006).
+[10] B. A. Dobrescu, D. Hooper, K. Kong and R. Mahbubani,        [34] J. Pumplin et al., JHEP 0207, 012 (2002).
+     JCAP 0710, 012 (2007) [arXiv:0706.3409 [hep-ph]].           [35] M. Cacciari et al., Eur. Phys. J. C 72, 1896 (2012).
+[11] T. Appelquist, B. A. Dobrescu, E. Ponton and                [36] M. Cacciari, G. P. Salam and G. Soyez, JHEP 0804, 063
+     H. U. Yee, Phys. Rev. Lett. 87, 181802 (2001) [arXiv:hep-        (2008).
+     ph/0107056].
+[12] B. A. Dobrescu and E. Poppitz, Phys. Rev. Lett. 87,
+

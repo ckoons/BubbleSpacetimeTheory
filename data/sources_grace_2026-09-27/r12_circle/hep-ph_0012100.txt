@@ -1,0 +1,1017 @@
+                                     hep-ph/0012100                                                              YCTP-P12-00
+                                     December 8, 2000                                                            EFI–2000-48
+
+
+
+
+                                            Bounds on Universal Extra Dimensions
+
+
+
+
+arXiv:hep-ph/0012100v2 29 Jun 2001
+                                                  Thomas Appelquist1 , Hsin-Chia Cheng2 , Bogdan A. Dobrescu1
+
+                                                  1 Department of Physics, Yale University, New Haven, CT 06511, USA∗
+
+                                                2 Enrico Fermi Institute, The University of Chicago, Chicago, IL 60637, USA
+
+
+
+
+                                                                                   Abstract
+
+                                                 We show that the bound from the electroweak data on the size of extra dimen-
+                                             sions accessible to all the standard model fields is rather loose. These “universal”
+                                             extra dimensions could have a compactification scale as low as 300 GeV for one ex-
+                                             tra dimension. This is because the Kaluza-Klein number is conserved and thus the
+                                             contributions to the electroweak observables arise only from loops. The main con-
+                                             straint comes from weak-isospin violation effects. We also compute the contributions
+                                             to the S parameter and the Zbb̄ vertex. The direct bound on the compactification
+                                             scale is set by CDF and D0 in the few hundred GeV range, and the Run II of the
+                                             Tevatron will either discover extra dimensions or else it could significantly raise the
+                                             bound on the compactification scale. In the case of two universal extra dimensions,
+                                             the current lower bound on the compactification scale depends logarithmically on
+                                             the ultra-violet cutoff of the higher dimensional theory, but can be estimated to
+                                             lie between 400 and 800 GeV. With three or more extra dimensions, the cutoff
+                                             dependence may be too strong to allow an estimate.
+
+
+
+
+                                       ∗
+                                           e-mail: thomas.appelquist@yale.edu, hcheng@theory.uchicago.edu, bogdan.dobrescu@yale.edu
+1     Introduction
+Extra dimensions accessible to standard model fields are of interest for various reasons.
+They could allow gauge coupling unification [1], and provide new mechanisms for super-
+symmetry breaking [2] and the generation of fermion mass hierarchies [3]. More recently
+it has been shown that extra dimensions accessible to the observed fields may lead to the
+existence of a Higgs doublet [4].
+  A number of studies indicate that if standard model fields propagate in extra di-
+mensions, then they must be compactified at a scale 1/R above a few TeV [5]. These
+studies refer, however, to theories in which some of the quarks and leptons are confined
+to flat four-dimensional slices (branes). In the equivalent four-dimensional theory where
+the extra dimensions are accounted for by towers of heavy Kaluza-Klein (KK) states, the
+bound on 1/R is due to the tree level contributions of the KK modes to the electroweak
+observables.
+    In this paper we point out that extra dimensions accessible to all the standard model
+fields, referred to here as universal dimensions, may be significantly larger. The key
+element is the conservation of momentum in the universal dimensions. In the equivalent
+four-dimensional theory this implies KK number conservation. In particular there are no
+vertices involving only one non-zero KK mode, and consequently there are no tree-level
+contributions to the electroweak observables. Furthermore, non-zero KK modes may be
+produced at colliders only in groups of two or more. Thus, none of the known bounds on
+extra dimensions from single KK production at colliders or from electroweak constraints
+applies for universal extra dimensions.
+   The heavy KK modes contribute, though, at loop-level to the electroweak observables,
+so that some lower bound on 1/R can be set. In addition, there is a direct bound on
+1/R from the non-observation of KK pair production at the Tevatron and LEP. After
+presenting some general features of universal extra dimensions in section 2, we compute
+the bound on their size from the electroweak data (section 3.) We then discuss the
+current direct bound on 1/R from collider experiments (section 4.) Our conclusions are
+summarized in section 5.
+
+
+
+
+                                            1
+2    The Kaluza-Klein spectrum and interactions
+Our starting point is the minimal standard model in d = 4 + δ space-time dimensions.
+The gauge, Yukawa and quartic-Higgs couplings have negative mass dimension, so this
+is an effective theory, valid below some scale Ms . We assume a compactification scale
+1/R < Ms for the δ extra spatial dimensions. The upper bound on 1/R for the class of
+models being discussed is determined by the range of validity of the effective 4-dimensional
+Higgs theory. To avoid fine-tuning the parameters in the Higgs sector, 1/R should not
+be much higher than the electroweak scale. We study the experimental lower bound on
+1/R. Given that the gauge couplings and the top Yukawa coupling are of order one at the
+electroweak scale, the d-dimensional theory remains perturbative for a range of energies
+above 1/R. The cutoff Ms on the d-dimensional theory is expected to be no higher than
+the upper end of this range.
+   We use the generic notation xα , α = 0, 1, ..., 3 + δ for the coordinates of the (4 + δ)-
+dimensional space-time, but we explicitly distinguish between the usual non-compact
+space-time coordinates, xµ , µ = 0, 1, 2, 3, and the coordinates of the extra dimensions,
+y a, a = 1, ..., δ. The 4-dimensional Lagrangian can be obtained by dimensional reduction
+from the (4 + δ)-dimensional theory,
+                                  3
+                          (
+                                       1
+                  Z                            h                                   i
+       µ              δ                            αβ                    µ     a
+                                                        µ     a
+                                                                                     + LHiggs (xµ , y a )
+                                  X
+    L(x ) =           dy −                2
+                                            Tr   Fi   (x  , y   )Fi αβ (x  , y   )
+                                  i=1 2ĝ i
+                                                                    
+           + i Q, U, D (xµ , y a ) Γµ Dµ + Γ3+a D3+a (Q, U, D)⊤ (xµ , y a )
+              h                                                                                           io
+           + Q(xµ , y a ) λ̂U U(xµ , y a)iσ2 H ∗ (xµ , y a ) + λ̂D D(xµ , y a)H(xµ , y a) + h.c.                 (2.1)
+                                                                                                                  .
+
+Here Fiαβ are the (4 + δ)-dimensional gauge field strengths associated with the SU(3)C ×
+SU(2)W × U(1)Y group, while Dµ = ∂/∂xµ − Aµ and D3+a = ∂/∂y a − A3+a are the
+covariant derivatives, with Aα = −i 3i=1 ĝi Arαi Tir being the (4 + δ)-dimensional gauge
+                                   P
+
+fields. The piece LHiggs of the (4 + δ)-dimensional Lagrangian contains the kinetic term
+for the (4 + δ)-dimensional Higgs doublet H, and the Higgs potential. The (4 + δ)-
+dimensional gauge couplings ĝi , and the Yukawa couplings collected in the 3 × 3 matrices
+λ̂U ,D , have dimension (mass)−δ/2 .
+    The fields Q, U and D describe the (4 + δ)-dimensional fermions whose zero-modes
+are given by the 4-dimensional standard model quarks. A summation over a generational
+index is implicit in Eq. (2.1). For example, the 4-dimensional, third generation quarks
+                     (0)           (0)       (0)
+may be written as Q3 ≡ (t, b)L , U3 ≡ tR , D3 ≡ bR . The kinetic and Yukawa terms for
+
+                                                             2
+the weak-doublet and -singlet leptons, L and E, are not shown for brevity.
+    The gamma matrices in (4 + δ) dimensions, Γα , are anti-commuting 2k+2 × 2k+2 matri-
+ces, where k is an integer such that δ = 2k or δ = 2k + 1. Chiral fermions exist only when
+δ is even, and correspond to the eigenvalues ±1 of Γ4+δ . Therefore, if the spacetime has an
+odd number of dimensions (δ = 2k + 1), Q, U, D, L, and E are vector-like 2k+2 -component
+fermions, and the (4 + δ)-dimensional theory is automatically anomaly-free. For an even
+number of dimensions (δ = 2k) one may choose Q, U, D, L and E to be chiral 2k+1 -
+component fermions. In order to have Yukawa couplings with the scalar Higgs field, the
+SU(2)W -doublet fermions and the SU(2)W -singlet fermions must have opposite chiralities.
+This guarantees that the unbroken SU(3)C and U(1)EM are vector-like, hence anomaly
+free. The gravitational anomaly may easily be cancelled by gauge-singlet fermions. The
+SU(2)W and U(1)Y gauge groups are chiral, so there can be (4 + 2k)-dimensional anoma-
+lies involving the SU(2)W and U(1)Y gauge groups, but they can be cancelled by the
+Green-Schwarz mechanism [6]. For both odd and even δ the 4-dimensional anomalies
+cancel because the fermion content is chosen so that the effective theory at scales below
+1/R is the 4-dimensional standard model.
+   In order to derive the 4-dimensional Lagrangian from Eq. (2.1), we must specify the
+compactification of the extra dimensions. The simplest choice is an [(S 1 ×S 1 )/Z2 ]k orbifold
+for δ = 2k, and an [(S 1 × S 1 )/Z2]k × (S 1 /Z2 ) orbifold for δ = 2k + 1. An orbifold
+of this type is a δ-dimensional torus cut in half along each of the y a coordinates with
+odd a. Each component of a d-dimensional field that belongs to a representation of the
+4-dimensional Lorentz group, SO(3, 1), must be either odd or even under the orbifold
+projection: (y a , y a+1 ) → (−y a , −y a+1 ) for even a + 1 ≤ 2k, as well as y 2k+1 → −y 2k+1
+for δ = 2k + 1. An equivalent description of the compactification is a δ-dimensional
+space with coordinates 0 ≤ y a ≤ πR for odd a and −πR ≤ y a ≤ πR for even a, and
+boundary conditions such that each field or its derivatives with respect to the y a’s vanish
+at the orbifold fixed points y a = 0, ±πR. (Φ = 0, ∂ 2 Φ/∂y a ∂y b = 0 for odd fields, and
+∂Φ/∂y a = 0 for even fields at the orbifold fixed points.)
+   The Lagrangian (2.1) together with the boundary conditions completely specifies the
+theory. For δ = 2, the SU(3)C × SU(2)W × U(1)Y gauge fields are decomposed in KK
+modes as follows:
+                     √
+                                      √ X (j ,j ) µ
+                           (                                                       )
+                       2                                          1
+                                                                
+        µ   a                 (0,0) µ                                    1      2
+   Aν (x , y ) =            Aν (x ) + 2         Aν 1 2 (x ) cos     (j1 y + j2 y )    ,
+                  (2πR)δ/2               j1 ,j2                   R
+
+
+
+                                              3
+                    2                           1
+                          X (j1 ,j2 )                                                
+           µ       a
+   Ab (x , y ) =      δ/2
+                              Ab      (xµ ) sin   (j1 y 1 + j2 y 2 ) ,                                (2.2)
+                 (2πR) j1 ,j2                   R
+where the summation is over all integer values of the KK numbers j1 and j2 that satisfy
+j1 + j2 ≥ 1, or j1 = −j2 ≥ 1. The gauge fields polarized in the xν , ν = 0, 1, 2, 3 directions
+are even under the orbifold transformation, so that the zero-modes correspond to the
+4-dimensional standard model gauge fields. On the other hand, the gauge fields polarized
+along the coordinates y b , b = 1, 2 of the extra dimensions are odd under the orbifold
+transformation, so that their zero-modes are projected out and no massless scalar fields
+appear after dimensional reduction.
+    With boundary conditions in the δ = 2 compact dimensions chosen to give the appro-
+priate chiral structure for the KK zero-modes, the KK decomposition for the top quark
+fields is given by
+                          √
+                                        √ X
+                                 (
+                   2                                                    1
+                                                                                                    
+                                                        (j ,j )
+       µ
+ Q3 (x , y ) = a
+                     δ/2
+                         (t, b)L (xµ ) + 2        PL Q3 L 1 2 (xµ ) cos   (j1 y 1 + j2 y 2 )
+               (2πR)                       j1 ,j2                       R
+                                                     1
+                                                                           
+                                (j ,j )
+                       + PR Q3 R1 2 (xµ ) sin          (j1 y 1 + j2 y 2 )         ,
+                                                     R
+                          √
+                                    √ X
+                                 (
+                    2                                              1
+                                                                                                
+                                                    (j ,j )
+       µ
+  U3 (x , y ) =a
+                      δ/2
+                          tR (xµ ) + 2        PR U3 R1 2 (xµ ) cos   (j1 y 1 + j2 y 2 )
+                (2πR)                  j1 ,j2                      R
+                                       1
+                                                                        
+                               (j ,j )
+                                         (j1 y 1 + j2 y 2 )
+                       + PL U3 L 1 2 (xµ ) sin              ,                    (2.3)
+                                       R
+where the range of values for j1 and j2 is the same as above, in Eq. (2.2). The third-
+generation weak-doublet quark, Q3 = (Qt , Qb ), and weak-singlet up-type quark, U3 ,
+are four-component chiral fermions in six dimensions so that their KK modes are 4-
+dimensional vector-like quarks, with the exception of the zero-modes which are chiral.
+The chiral projection operators that appear in the KK decomposition, PL,R = (1 ∓ γ5 )/2,
+are the 4-dimensional ones.
+   For δ = 1, the KK decomposition may be obtained from Eqs. (2.2) and (2.3) by setting
+j2 = 0, y 2 = 0. In general, for δ = 2k + 1 one may compactify one dimension as above and
+then compactify the remaining k pairs of extra dimensions, with appropriate use of the
+higher dimensional chiral projection operators. For δ = 2k, the KK decomposition may
+also be obtained by iterating Eqs. (2.2) and (2.3) k times. The other quark and lepton
+d-dimensional fields have similar KK-mode decompositions. The Higgs field must be even
+under the orbifold transformation. Only the Higgs zero-mode acquires an electroweak
+                                                √
+asymmetric vacuum expectation value (VEV) of v/ 2 ≈ 174 GeV.
+
+                                                         4
+   The heavy spectrum in four dimensions consists of KK levels characterized by the
+mass eigenvalues
+                                              pj
+                                         Mj =    ,                             (2.4)
+                                              R
+where j ≥ 1, pj+1 > pj , and pj is given by
+
+                                                j12 + ... + jδ2 = p2j .                           (2.5)
+
+The degeneracy of the jth KK level, Dj , is given by the number of solutions to this equa-
+tion for j1 , ..., jδ . At each level there would be Dj sets of fields, each of them including the
+SU(3)C ×SU(2)W ×U(1)Y gauge fields, three generations of vector-like quarks and leptons,
+a Higgs doublet, and δ scalars in the adjoint representations of SU(3)C ×SU(2)W ×U(1)Y .
+   An essential observation is that the momentum conservation in the extra dimensions,
+implicitly associated with the Lagrangian (2.1), is preserved (as a discrete symmetry) by
+the above orbifold projection. In the case of fermions, this implies that there is no mixing
+among the modes of different KK levels. The zero-mode top-quark gets a mass from its
+Yukawa coupling exactly as in the 4-dimensional standard model. Given that each KK
+level includes a tower of both left- and right-handed modes for each of the tL and tR
+fields, there is a 2 × 2 mass matrix for each top-quark KK level. The Dj top-quark mass
+matrices of the jth KK level may be written in the weak eigenstate basis as
+                                                                            U3j
+                                                                    !             !
+                                      j    j
+                                                         −Mj mt
+                                     U 3 , Qt                                         .           (2.6)
+                                                           mt Mj            Qjt
+
+Here, Qjt is a four-component field describing the jth KK modes associated with tL . The
+diagonal terms are the masses induced by the kinetic terms in the y a directions, while the
+off-diagonal terms are the contributions from the Higgs VEV. The corresponding mass
+eigenstates, U3′j and Q′jt , have the same mass,
+                                                              q
+                                                    (j)
+                                            Mt            =   Mj2 + m2t .                         (2.7)
+
+The weak eigenstate top KK modes are related to the mass eigenstates by
+                           U3j                                                    U3′j
+                                 !                                          !             !
+                                                −γ5 cos αj sin αj
+                                       =                                                      ,   (2.8)
+                           Qjt                   γ5 sin αj cos αj                 Q′jt
+where αj is the mixing angle,
+                                                                  mt
+                                                    tan 2αj =        .                            (2.9)
+                                                                  Mj
+   The b-quark KK modes have an analogous structure due to the mixing between D3j
+(the left- and right-handed fields associated with bR ) and Qjb (the left- and right-handed
+
+                                                              5
+fields associated with bL ). However, this mixing may be neglected up to corrections of
+order (mb /mt )2 compared with the mixing from the top-quark KK sector.
+   The interactions of the KK modes may be derived from the d-dimensional Lagrangian
+(2.1), using the KK decompositions shown in Eqs. (2.2) and (2.3), and by integrating
+over the extra dimensions. For the one-loop computations to be considered here, it is
+sufficient to know the vertices involving one or two zero-modes and two non-zero modes.
+In the remainder of this section we list the relevant terms of this type that appear in the
+4-dimensional Lagrangian.
+   The top and bottom mass-eigenstate KK modes (i.e., the vector-like quarks Q′jt , U3′j ,
+Qjb and D3j ) have the following electroweak interactions with the W ± and Z zero-modes:
+                g                       4 2                              4
+                                                                                          
+                                                   ′j                              ′j
+ LW 1 =              Zµ     sin2 αj −     sin θW U 3 γ µ U3′j + cos2 αj − sin2 θW Qt γ µ Q′jt
+            2 cos θW                    3                                3
+                                   ′j                         j                j
+                                                                                        i
+            + sin αj cos αj U 3 γ µ γ5 Q′jt + h.c. + 2gLb Qb γ µ Qjb + 2gRb D 3 γ µ D3j
+          g h             ′j             ′j
+                                                         i
+        + √ Wµ+ − sin αj U 3 γ5 + cos αj Qt γ µ Qjb + h.c. ,                                      (2.10)
+           2
+where
+                                   1 1               1
+                            gLb = − + sin2 θW , gRb = sin2 θW .                                   (2.11)
+                                   2 3               3
+                                                          j
+   The weak eigenstate neutral gauge bosons, Wµ3 and Bµj mix level by level in the same
+way as the neutral SU(2)W and hypercharge gauge bosons in the 4-dimensional standard
+                                                                                     q
+model. The corresponding mass eigenstates, Zµj and Ajµ , have masses Mj2 + MZ2 and
+Mj2 , respectively. These heavy gauge bosons have interactions with one zero-mode quark
+and one j-mode quark (in the weak-eigenstate basis) identical with the standard model
+interactions of the zero-modes.
+   Likewise, there are interactions of one quark zero-mode and one quark j-mode with
+the j-mode of the scalars corresponding to the electroweak gauge bosons polarized along
+      j       j
+y a, Wa+3 , Za+3 , Aja+3 . For δ = 1, they may be written as follows:
+           e    h           ′j        ′j
+                                                        ′j        ′j
+                                                                                j          j
+                                                                                                  i
+   LW2 = iAj4 2 cos αj QtR tL − U 3L tR − 2 sin αj U 3R tL − QtL tR − QbR bL − D3L bR
+           3
+              g        h ′j                     ′j
+                                                                                      j
+                                                                                              i
+        +         iZ4j Qt cj1V + cj1A γ5 t + U 3 cj2V + cj2A γ5 t + gLb QjbR bL + gRb D 3L bR
+          cos θW
+           g       j
+                              ′j              ′j
+                                                           
+        + √ iW4+ cos αj QtR bL − sin αj U 3R bL + tL QjbR + h.c.                               (2.12)
+             2
+where
+                                         1 1 2             1
+                                                      
+                       j
+                     c1V,A = ± cos αj       − sin θW − sin αj sin2 θW ,                        (2.13)
+                                         4 3               3
+
+                                                   6
+and cj2V,A are obtained by permuting sin αj and cos αj in the above expression. For δ = 2
+       j      j     j
+the Wa+4  , Za+4 , γa+4 scalars have similar couplings, up to sign differences, while for δ ≥ 3
+the gauge bosons polarized along each pair of extra dimensions couples to a different set
+of quark KK modes.
+   Each non-zero KK mode of the Higgs doublet, H j , includes a charged Higgs and a
+                                                                            q
+neutral CP-odd scalar of mass Mj , and also a neutral CP-even scalar of mass Mj2 + Mh2 .
+The interactions of the Higgs and gauge boson KK modes may also be obtained from the
+corresponding standard model interactions of the zero-modes by replacing two of the fields
+at each vertex with their jth KK mode.
+
+
+3     Electroweak data versus extra dimensions
+We study the sensitivity of the electroweak observables to the higher dimensional physics
+setting in at scale 1/R. The largest contributions come from the KK modes associated
+with the top-quark, but there are also corrections due to the gauge and Higgs KK modes.
+QCD corrections are small and are neglected. The standard model in universal extra
+dimensions is described by four unknown parameters: the Higgs boson mass Mh , the
+compactification radius R, the cutoff scale Ms , and the number of extra dimensions δ.
+The upper bound on the cutoff Ms is determined in terms of 1/R and the value of the
+various couplings at this scale. The Higgs boson mass is bounded from above by the
+requirement that the Higgs quartic coupling, λh , does not blow up (from a perturbative
+point of view) at a scale significantly below Ms . We use this constraint (Mh <
+                                                                              ∼ 250 GeV
+[4]), and study the lower bound on 1/R, concentrating on the observables that are most
+likely to yield severe constraints.
+   An important question is whether the electroweak observables can be computed within
+the framework of the effective, higher dimensional theory, that is, whether they are sen-
+sitive to the unknown physics at scale Ms and above. We will show that in the case
+of one extra dimension we can reliably ignore the effects of KK modes heavier than the
+cut-off (see section 3.1). With two extra dimensions the KK modes give corrections to
+the electroweak observables that depend logarithmically on the cut-off, and in more extra
+dimensions the dependence is more sensitive (see section 3.2).
+    Given that the large t − b mass splitting requires a hierarchy between the top and bot-
+tom Yukawa couplings which in turn induces weak isospin violation in the KK spectrum,
+
+
+
+                                              7
+the parameter
+                                                MW
+                                                                  
+                                ∆ρ ≡ αT = ∆             ,                        (3.1)
+                                              MZ cos θW
+which measures the splitting in the W and Z masses due to physics beyond the standard
+model, is a prime suspect for constraining 1/R.
+    The one-loop contribution to ∆ρ from one KK level associated with the t and b quarks
+follows from Eq. (2.10) and is given by
+
+                                           3m2t                 
+                                αTjt =              fT   m2
+                                                          t /Mj
+                                                               2
+                                                                   ,                   (3.2)
+                                          16π 2 v 2
+where v = 246 GeV and
+                                             2   2
+                        fT (z) = 1 −           + 2 ln (1 + z)
+                                             z z
+                                         3z 3z 2
+                                             "                             #
+                                   2z                
+                                 =    1−    +    + O z3 .                              (3.3)
+                                    3     4   5
+
+The form of this contribution to ∆ρ is easy to understand. The factor m2t /(4πv)2 arises
+from the definition of ∆ρ as the coefficient of the lowest-dimension, weak isospin-violating
+term in the electroweak chiral Lagrangian [8]. The additional factor (m2t /Mj2 ) is present
+because the non-zero KK modes decouple in the large mass limit.
+   In addition to the top and bottom KK modes, the Higgs KK modes contribute to ∆ρ
+because the VEV of the zero-mode Higgs induces isospin violation in the couplings of the
+higher modes of the Higgs doublet. To leading order in Mh2 /Mj2 , one Higgs KK mode
+gives
+                                       α        5Mh2 + 7MW
+                                                         2
+                                             
+                           h
+                        αTj = −                                                (3.4)
+                                   4π cos2 θW     12Mj2
+Finally, the KK electroweak gauge bosons also contribute, giving
+                                                                       2
+                                       α                     (2δ + 11)MW
+                                                        
+                         αTjV   =−                                       .             (3.5)
+                                   4π cos2 θW                    6Mj2
+
+In each of these expressions, the factor α/ cos2 θW is present because the hypercharge
+gauge interaction provides the weak-isospin symmetry breaking. The second factor is
+present because the higher KK modes decouple in the large mass limit.
+   The contribution to T from all the KK modes is
+                                      nX
+                                       max                        
+                                T =          Dj Tjt + Tjh + TjV        .               (3.6)
+                                      j=1
+
+
+                                                     8
+The upper limit nmax corresponds to the mass scale Ms at which the effective d-dimensional
+theory breaks down. Note that the total number of contributing KK modes of a particular
+field is                                          nX
+                                                   max
+
+                                         NKK =           Dj .                                        (3.7)
+                                                  j=1
+
+Using the experimental values for MW , MZ , mt , and α, the T parameter may be written
+in the form
+                        nX
+                               m2                     m2t        m4t
+                                        (
+                         max                                                      
+                T ≈ 0.76     Dj t2        1 − 0.81        + 0.65     + O   m6
+                                                                            t /Mj
+                                                                                 6
+
+                         j=1   Mj                     Mj2        Mj4
+
+                                                  M2 h
+                                                                            )
+                                                                    i
+                                            −0.057 h2 1 + O Mh2 /Mj2            ,                    (3.8)
+                                                  mt
+where mt ≈ 175 GeV. The error here is about 10% due to uncertainties in mt , higher
+terms in Mh , and the range of values of δ being considered. The current upper bound
+on T is approximately 0.4 at 95% CL for Mh <  ∼ 250 GeV (and is somewhat relaxed for
+larger Mh [9].) The experimental bound on 1/R is a function of the KK spectrum, which
+depends on the number of extra dimensions. We return to this estimate in section 3.1.
+   In addition to the T parameter, the corrections from new physics to the electroweak
+gauge boson propagators are encoded in the S parameter defined by:
+                                       8π         2
+                                                                
+                               S≡−          Π3Y (MZ  ) − Π3Y (0)  ,                                  (3.9)
+                                       MZ2
+where Π3Y (q 2 ) is the vacuum polarization induced by non-standard physics (note that
+the gauge couplings are factored out according to the definition for hypercharge where
+Y ≡ 2(Q − T3 )). The S parameter gets a one-loop contribution from each top-quark KK
+level:
+                    m2         x(1 − x)MZ2                           m2t
+                   (       "                      #                  "                               #)
+        1
+             Z 1
+Sjt = −         dx 3 t2 ln 1 −             + 2x(1 − x) ln 1 +                      .
+           2π 0     MZ          Mj2 + m2t                     Mj2 − x(1 − x)MZ2
+                                                                              (3.10)
+Assuming that Mj2 ≫ m2t , this expression takes the form
+
+           1 m2t      m2t      MZ2               m4         M2    3MZ4
+                   "                        !                             !                      #
+                                                         7                                  
+    Sjt ≈         1 −     2 +                   + t4       − Z2 +             + O m6t /Mj6           .
+          12π Mj2     Mj2     10m2t              Mj      3 5mt    70m4t
+                                                                                                 (3.11)
+    The Higgs KK mode contribution to S is given, to leading order in Mh2 /Mj2 , by
+
+                                       Mh2 + (−3 − 2 cos θW
+                                                          2
+                                                            ) MZ2
+                               Sjh =                              ,                              (3.12)
+                                               24πMj2
+
+                                                  9
+while the gauge boson KK modes do not contribute. Using the experimental values for
+MZ , mt , and cos θW , the total contribution to S may be written in the form
+                    nX
+                     max                 
+               S=          Dj Sjt + Sjh
+                    j=1
+
+                            nX
+                              m2                            m2t       m4t
+                                              (
+                             max
+
+                 ≈ 10−2     Dj t2                 1 − 5.4       + 6.0     + O(m6t /Mj6 )
+                        j=1   Mj                            Mj2       Mj4
+
+                                                       M2 h
+                                                                                  )
+                                                                            i
+                                                   +1.3 h2 1 + O(Mh2 /Mj2 )           ,    (3.13)
+                                                       mt
+
+where mt ≈ 175 GeV. This result is smaller by almost two orders of magnitude than the
+one for T , assuming that the series in m2t /Mj2 and Mh2 /Mj2 are convergent. Given that the
+bounds on S and T are comparable (S <       ∼ 0.2 at 95% CL), we see that once the bound
+on 1/R from T is satisfied there is no relevant constraint from S. This is not surprising
+because the quark KK modes are vector-like fermions and therefore contribute to S only
+if their masses violate the custodial symmetry, which leads to a large T .
+  Another potential constraint on 1/R arises due to the one-loop corrections of the KK
+modes to the Z → bb̄ branching ratio. The vertex correction is usually encoded in the
+quantity
+                                                g b ∆g b + gRb ∆gRb
+                             ∆Rb = 2Rb (1 − Rb ) L b L2                                    (3.14)
+                                                   (gL ) + (gRb )2
+                                                                         b
+where Rb is the ratio of the Z decay widths into bb̄ and hadrons, while gL,R appear in the
+standard model Zbb̄ couplings at tree-level, and are given in Eq. (2.11).
+   The contribution to ∆gLb due to top-quark KK modes, for Mj2 ≫ m2t , is given by:
+                                                                 nX
+                                      α                1            max
+                                                                            m2t
+                                              
+                           ∆gLb =                           − 1         D j
+                                      4π          2 sin2 θW        j=1      Mj2
+                                                          nX
+                                                     −4
+                                                           max
+                                                                      m2t
+                                   ≈ 7.2 × 10                    Dj       .                (3.15)
+                                                          j=1         Mj2
+
+There are also corrections from Higgs and gauge boson KK modes, but they are sig-
+nificantly smaller. The contribution to ∆gRb is suppressed by m2b /Mj2 and may also be
+neglected. The standard model prediction is RbSM = 0.2158, so that ∆Rb ≈ −0.77∆gLb ,
+while the measured value is Rbexp = 0.21653 ± 0.00069 [10]. Notice that the correction to
+Rb from the KK modes has the wrong sign, and therefore is tightly constrained. The 2σ
+bound is ∆Rb > −7 × 10−4 , which gives ∆gLb < 9.4 × 10−4 . One can then derive a bound
+
+                                                      10
+for Dj /Mj2 , but it is easy to see (for Mj2 ≫ m2t ) that this is less severe than the bound
+     P
+
+imposed by the T parameter.
+     The shift in gLb also affects the left-right asymmetry measured by SLD, which depends
+on
+                                          (gLb )2 − (gRb )2
+                                   Ab ≡                     .                        (3.16)
+                                          (gLb )2 + (gRb )2
+The correction due to the KK modes is given by ∆Ab ≈ −0.29∆gLb . Using the SM
+prediction, ASM
+             b   = 0.935, and the measured value Aexp
+                                                   b  = 0.922 ± 0.023 [10], one can easily
+check that this constraint is much looser than the one from Rb .
+   We expect that all other electroweak observables impose no stronger constraints on
+1/R than the one from the T parameter.
+
+
+3.1      Bounds on one universal extra dimension
+
+We consider first the case of a single extra dimension. Then Dj = 1 and Mj = j/R, with
+R the compactification radius, so that the summations over KK modes in Eq. (3.8) are
+convergent. Extending the sums to nmax ≫ 1 gives
+                              h                                         i
+               T ≈ 1.2(mt R)2 1 − 0.53(mt R)2 + 0.40(mt R)4 + O m6t R6        .      (3.17)
+
+The current upper bound on isospin breaking effects, T <
+                                                       ∼ 0.4, yields a lower bound on
+the compactification scale:
+                                  1 >
+                                        300 GeV .                               (3.18)
+                                  R ∼
+     The S parameter and other electroweak observables also involve convergent KK mode
+sums in the 5-dimensional case. As discussed above, they are less constraining than the
+T parameter.
+   The convergence of each of these mode sums indicates that the electroweak observables
+can indeed be computed reliably within the effective 5-dimensional theory, relevant below
+the cutoff Ms . The convergence of the computations can be understood by recalling that
+each is effectively a 5-dimensional integral – a 4-dimensional integral plus a KK mode
+sum. The convergence of the corresponding 4-dimensional integrals for the electroweak
+observables is well known, and this is not changed with only a single additional dimension.
+   The reliability of these computations and the consequent lower bound 1/R >  ∼ 300 GeV
+can be checked by examining higher order corrections in the effective 5-dimensional theory.
+In the limit Ms ≫ 1/R, the 5-dimensional couplings become strong at the cutoff, and there
+
+                                              11
+are potentially large corrections to the one-loop result. Consider the two loop corrections,
+for example. The integrals are now logarithmically divergent, but there are two additional
+                                                                          √
+powers of a 5-dimensional coupling, each of which is proportional to 1/ Ms . Thus these
+corrections have a suppression factor of 1/(RMs ) relative to the one-loop estimate. Higher
+loops can all be seen to be of this order, meaning that within the effective 5-dimensional
+theory the corrections to the one-loop results can only be estimated. Nevertheless, they are
+all suppressed by the factor 1/(RMs ), indicating the same for the unknown physics above
+Ms . When Ms is well below the scale where the 5-dimensional couplings become strong,
+the higher loops may be ignored. The unknown physics above the cutoff induces effective
+operators in the d-dimensional theory suppressed by powers of Ms . After dimensional
+reduction the corresponding 4-dimensional operators are further suppressed by powers of
+1/(RMs ).
+   To estimate the largest value of Ms below which the theory is perturbative, we note
+that the loop expansion parameters can be written in the form
+                                            αi (Ms )
+                                  ǫi = Ni            NKK (Ms ) ,                     (3.19)
+                                               4π
+where the αi are the 4-dimensional standard model gauge couplings, the index i = 1, 2, 3
+labels the U(1)Y , SU(2)W and SU(3)C groups, Ni = 1, 2, 3 is the corresponding number
+of colors, and NKK (Ms ) is the number of KK modes below Ms . The value of Ms at which
+these parameters become of order unity is the largest cutoff consistent with a perturbative
+effective theory. Each of the Dj sets of fields within one KK level contributes to the
+one-loop coefficients of the three β functions an amount (81/10, 4/3, −5/2). Although
+the 4-dimensional SU(3)C coupling becomes more asymptotically free above each KK
+level, the d-dimensional SU(3)C interaction becomes non-perturbative in the ultraviolet
+before the other gauge interactions. The ǫ3 parameter becomes of order unity, indicating
+breakdown of the effective theory, at roughly 10 TeV. The KK modes above that scale, as
+well as operators induced by other physics above the cutoff, give negligible contributions
+to the electroweak observables.
+
+
+3.2    Two or more universal extra dimensions
+
+For d ≥ 6, the T and S parameters, and other electroweak observables become cutoff
+dependent. The KK mode sums diverge in the limit NKK → ∞ because the KK spectrum
+is denser than the 5-dimensional case. This can again be seen by noting that the 4-
+dimensional integrals plus the KK mode sums are effectively d-dimensional integrals. The
+
+                                                12
+                             1000
+
+                             800
+
+
+
+            (1/R)min [GeV]
+                             600
+
+                             400
+
+                             200
+
+
+                                    2   2.5   3    3.5      4      4.5      5
+                                                   Ms R
+     Figure 1: The lower bound on the compactification scale as a function of the cut-off,
+     for δ = 2 extra dimensions. The vertical size of the shaded area is given by the loop
+     expansion parameter, Nc α3 (Ms )NKK (Ms )/(4π), times the one-loop bound, and is
+     a measure of the theoretical uncertainty. For Ms R >  ∼ 5 the standard model inter-
+     actions become non-perturbative, impeding a reliable estimate of the electroweak
+     observables.
+
+
+
+electroweak observables (S, T, ...), convergent in four and five dimensions at one loop,
+become logarithmically divergent at d = 6 and more divergent in higher dimensions. The
+degeneracies Dj and masses Mj of the KK modes are listed for a toroidal compactification
+in Ref. [7], and are smaller by a factor of two in the case of the orbifold considered here.
+    Consider the case d = 6. The electroweak observables are logarithmically divergent
+at the one loop level, indicating that within the framework of the effective d-dimensional
+electroweak theory, they are unknown parameters to be fit to experiment. This is rein-
+forced by the higher loop estimates which are all of this order if the cutoff is taken to be
+as large as possible – where the effective d-dimensional theory becomes strongly coupled.
+In this case, the electroweak observables are directly sensitive to the new physics at scales
+Ms and above. It is possible, on the other hand, that the cutoff is smaller or that the
+higher order estimates are such that the one loop, logarithmic terms dominate. Then the
+computations (3.8), (3.13), etc., enhanced relative to the 5-dimensional case by a large
+logarithm, can be used to put a rough lower bound on 1/R.
+   In Fig. 1 we show the dependence of this lower bound on the ratio between the cut-off
+Ms and the compactification scale. Assuming that the theory above Ms is custodially
+
+                                              13
+symmetric, the one-loop contribution to the T parameter is reliable as long as the theory
+remains perturbative, roughly for Ms R < ∼ 5. The KK contributions to the one-loop
+coefficients of the U(1)Y , SU(2)W and SU(3)C β functions are now (81/10, 11/6, −2),
+but again the d-dimensional SU(3)C interaction becomes non-perturbative in the ultra-
+violet before the other gauge interactions. The theoretical uncertainty due to higher loops
+may be estimated in terms of the ǫ3 loop expansion parameter. Fig. 1 shows that the
+lower bound on 1/R is increased by roughly a factor of two compared to the 5-dimensional
+case, to approximately 400 − 800 GeV.
+   For d ≥ 7, the cutoff dependence is more severe. The one-loop estimate (3.8) for the T
+parameter, for example, is enhanced by the factor (RMs )d−6 relative to the 5-dimensional
+estimate. Higher loop estimates are of the same order if the ultraviolet cutoff, Ms , is above
+the scale where the couplings become nonperturbative. Clearly, no reliable estimate is
+possible in this case. For smaller Ms , the one-loop result has a strong dependence on the
+cutoff, but otherwise the corrections are smaller because the higher-dimensional operators
+have coefficients suppressed by 1/(Ms R)δ .
+
+
+4     Prospects for discovering Kaluza-Klein modes
+We have shown that in the case of one universal extra dimension, accessible to all the
+standard model fields, the fit to the electroweak data allows KK excitations as light as
+300 GeV. Such a low bound raises the tantalizing possibility of discovering KK states in
+the upcoming collider experiments.
+    If the KK number conservation is exact (that is, there is no additional interaction
+violating the momentum conservation in extra dimensions,) some of the KK excitations
+of the standard model particles will be stable. The heavy-generation fermion KK modes
+can decay to light generation fermion KK modes, e.g., b(1) → s(1) (d(1) ) + γ, and the W, Z
+gauge boson KK modes can decay to lepton KK modes and neutrinos, W (1) (Z (1) ) →
+ℓ(1) (ν (1) ) + ν. The KK modes of the photon, gluon, and the lightest generation fermions
+are stable and degenerate in mass, level-by-level, to a very good approximation. Heavy
+stable charged particles will cause cosmological problems if a significant number of them
+survive at the time of nucleosynthesis [11]. For example, they will combine with other
+nuclei to form heavy hydrogen atoms. Searches for such heavy isotopes put strong limits
+on their abundance. Various cosmological arguments exclude these particles with masses
+in the range of 100 GeV to 10 TeV, unless there is a low scale inflation that dilutes their
+
+
+                                             14
+abundance [12, 13]. The cosmological problems can be avoided if there exist some KK-
+number-violating interactions so that the non-zero KK states can decay. The lifetime
+depends on the strengths of these KK number violating interactions, which are usually
+suppressed by the cutoff scale and/or the volume factor of the extra dimensions. For
+collider searches, there is no difference between a stable particle and a long-lived particle
+which decays outside the detector. We first assume that the KK states are stable or long-
+lived. The case in which the KK states decay promptly will then be considered when we
+discuss the possible KK number violating interactions.
+
+
+4.1      Stable or Long-Lived KK Modes
+
+Because of the KK number conservation, the KK states have to be produced in pairs
+or higher numbers. They can only be produced at LEP if their masses are less than
+ECM /2, ∼ 100 GeV. The current lower bound on the size of the extra dimensions is set by
+the CDF and D0 experiments based on the Run I of the Tevatron. The largest production
+cross-section is that for KK quarks and gluons. After being produced, they will hadronize
+into integer-charged states. Because of the large mass, they will be slowly moving and
+the signatures are highly ionizing tracks.
+    For one extra dimension of radius R, the number of the quark KK modes at each
+level is twice that of zero-modes, so neglecting the light quark masses, there are six KK
+quarks of electric charge −1/3 and mass 1/R,q
+                                                four KK quarks of electric charge 2/3 and
+mass 1/R, and two KK top-quarks of mass 1/R2 + m2t . Therefore, the production cross
+section for a pair of charged tracks is roughly ten times higher than the one for a q q̄ pair
+of quarks of mass 1/R, σqq̄ (1/R). For 1/R = 300 GeV, σqq̄ (1/R) ≈ 0.1 pb [14].
+   The current lower mass limits on heavy stable quarks are 195 GeV for charge 1/3 and
+220 GeV for charge 2/3 [15]. The reach in mass would be approximately the same for two
+charge-1/3 quarks as for one charge-2/3 quark. Hence, the current bound on 1/R may
+be approximated as the mass limit on a charge-2/3 quark, but with a production cross
+section about seven times larger1 . A dedicated study, beyond the scope of this paper, is
+required to find this bound precisely. However, by naively extrapolating the mass reach
+given in [15], we estimate the lower direct bound on 1/R to be in the 300 − 350 GeV
+range.
+   1
+    The gluon KK modes further increase this effective cross-section. The production cross-section for a
+pair of gluon KK modes is larger than for a pair of quark KK modes, but the probability for hadronizing
+into a charged meson is significantly for a gluon KK mode.
+
+
+                                                  15
+   It is remarkable that the direct lower bound on 1/R competes with or even exceeds the
+indirect bound set by the electroweak precision measurements. This should be contrasted
+with the case of non-universal extra dimensions, where the non-conservation of the KK
+number makes the indirect bound on 1/R stronger than the direct one by a factor of five
+or so. Thus, Run II at the Tevatron will either discover an universal extra dimension or
+else it will significantly increase the lower bound on compactification scale.
+
+
+4.2    Short-Lived KK Modes
+
+As mentioned above, the KK states can decay into ordinary standard model particles if
+KK number violating effects are present. Such violations of the KK number can occur
+naturally. For example, the space in which the standard model fields propagate may be
+a thick brane embedded in a larger space in which gravitons propagate. In this case, the
+standard model KK excitations can decay into standard model particles plus gravitons
+going out of the thick brane (or other neutral fields that can propagate outside the thick
+brane). The unbalanced momentum in extra dimensions can be absorbed by the thick
+brane. The lifetime depends on the strength of the coupling to the particle going out of the
+brane and the density of its KK modes (which depends on the volume of the space outside
+the thick brane). If the KK states produced at the colliders decay promptly inside the
+detector, the signatures will involve missing energy and will be similar to supersymmetry.
+We assume that the KK number violating interactions are not large enough to induce a
+significant single-KK-state production cross section.
+   For the KK quark and gluon searches, the signature is multi-jets plus missing energy,
+similar to the squarks and gluinos. At the Tevatron Run I, the lower limits of the squark
+and gluino mass for the equal mass case are 225 GeV at CDF [16, 17] and 260 GeV at
+D0 [18, 17]. The production cross-sections of the KK quarks and gluons are similar to
+those of the squarks and gluinos. The distributions of the jet energies and the missing
+transverse energy however will depend on the masses of the KK gravitons, i.e., the size of
+the space outside the thick brane. We expect that the reaches in KK quarks and gluons
+are comparable to those for squarks and gluinos in supersymmetric models. Run II of the
+Tevatron is expected to probe squark and gluino masses up to 350–400 GeV [17], so it
+could also probe KK quarks and gluons beyond the current indirect limit in this scenario.
+To distinguish the KK states from supersymmetry, however, would require more detailed
+studies.
+   Another possibility for KK number violation is that there exist some localized in-
+
+                                            16
+teractions of the standard model fields at a 3+1 dimensional subspace (3-brane) on the
+boundary or parallel to the boundary. In the effective d-dimensional theory, these would
+take the form of higher dimensional operators suppressed by powers of the cutoff Ms .
+Some examples are
+                                                    λ
+                             Z
+                                 dx4 dyδ(y − y0 )      Ψ 6D Ψ ,
+                                                    Ms
+                                                     λ′
+                             Z
+                                 dx4 dyδ(y − y0 )    5/2
+                                                           Ψσαβ F αβ Ψ ,
+                                                    Ms
+                                                λ′′
+                             Z
+                                   4
+                                 dx dyδ(y − y0 ) 4 (ΨΓA Ψ)(ΨΓA Ψ),                        (4.1)
+                                                Ms
+
+where Ψ, F αβ are five-dimensional standard model fermion and gauge fields, and ΓA is
+some combination of the γ matrices. The first contributes to the kinetic terms of the KK
+states, so the KK mass spectrum would be modified after re-diagonalizing and rescaling
+the kinetic terms into the canonical form [19]. The corrections (4.1) are suppressed by Ms
+and we assume that the coefficients (λ, λ′ , λ′′ , ...) are small enough so that these operators
+do not affect our analysis of electroweak observables. However, they could be sufficiently
+large to allow decays within the detector of the pair-produced KK modes. The decay
+channels depend on which KK number violating interactions are present. We discuss
+the simplest two-body decays which can be induced by, e.g., the first two interactions in
+eq. (4.1).
+   If the interactions involving the gluon field dominate, the KK quarks and gluons decay
+into jets. The signals would be multi-jets which are difficult to extract from the QCD
+backgrounds at the Tevatron. However, if the interactions involving the electroweak gauge
+bosons are large enough so that the decay of the KK quarks into electroweak gauge bosons
+and quark zero-modes has a significant branching ratio, we can invoke the searches for
+the heavy quarks. For the decay into the W bosons, the signal is similar to the top
+quark. One can use the measurements of the top quark production cross section at the
+Tevatron [20, 21] to put limits on the new heavy quarks. In Ref. [22], Popovic and
+Simmons derived the bounds σ qH (BW )2 < 7.8 pb (12.0 pb) at D0 (CDF), where σ qH is the
+cross-section for the heavy quark production, and BW is the branching ratio for the heavy
+quark decaying to the W boson and an ordinary quark. Applying this result, we have
+1/R >                                                                          ′
+     ∼ 200 GeV for BW ∼ 50%. There is also a search for the fourth generation b quark
+through the decay mode ZZbb̄ at CDF, which excluded the b′ quark mass between 100
+and 199 GeV if the branching ratio is 100% [23]. This can also apply to the KK states
+
+                                               17
+of the b quark. In Run II at the Tevatron, the decays of quark KK modes into a quark
+zero-mode and a photon may be also significant. Other processes, potentially relevant
+for Run II, include the electroweak production of a pair of lepton KK modes with each
+of them subsequently decaying into a lepton zero-mode and a photon or a W ± , and the
+production of a pair of KK modes of the electroweak gauge bosons leading to a four-lepton
+signal. In general, the direct bounds on 1/R are weaker and model dependent in this case.
+   With more extra dimensions the production cross section is higher because of the
+multiplicity of KK modes. For example, with two extra dimensions there are twice as
+many KK modes of mass 1/R than in the case of one extra dimension. However, the
+indirect bounds may also be significantly higher. It is not clear whether they are within
+the reach of Run II. The sensitivity of the LHC, though, should be impressive, above a
+few TeV.
+
+
+5     Summary
+We have examined the experimental consequences of higher dimensional theories in which
+all the standard model fields propagate in the extra dimensions. With these “universal”
+extra dimensions, contributions to precision electroweak observables arise first at the one-
+loop level. In the case of a single extra dimension, where the one-loop computations can
+be done reliably within the framework of the effective 5-dimensional standard model, the
+electroweak observables were estimated to allow a compactification scale as low as 300
+GeV. We then noted that the current lower bound from direct production experiments is
+set by CDF and D0 to be in the few-hundred GeV range. Thus Run II at the Tevatron
+will either see evidence for the extra dimensions or significantly raise the lower bound on
+the compactification scale.
+    In the case of two universal extra dimensions, the electroweak observables become
+logarithmically sensitive, at one loop, to the cutoff on the effective 6-dimensional theory.
+If the cutoff is taken to be as large as possible, where this effective theory becomes
+strongly coupled, then the theory cannot be used to compute reliably the electroweak
+observables. If, on the other hand, the cutoff is lower, with no important contributions
+to the electroweak observables from higher scales, then the observables may be estimated
+reliably at the one-loop level. As indicated in Fig. 1, with Ms R ≤ 5, the lower bound on
+the compactification scale is estimated to be between 400 GeV and 800 GeV.
+    Besides opening the possibility of experimental detection of universal extra dimensions
+
+                                            18
+in the near future, the lower bound on the compactification scale discussed here suggests
+that physics in extra dimensions may be responsible for electroweak symmetry breaking.
+For example, standard model gauge interactions may produce a bound-state Higgs doublet
+in six dimensions [4] without excessive fine-tuning.
+
+   Acknowledgements: We would like to thank Mike Albrow, Zacharia Chacko, Lance
+Dixon, Jonathan Feng, Sheldon Glashow, Kevin Lynch, Eduardo Ponton, Marko Popovic,
+Erich Poppitz, Martin Schmaltz, Elizabeth Simmons, Matt Strassler, and Neal Weiner for
+helpful conversations and comments. The work of T. Appelquist and B. A. Dobrescu was
+supported by DOE under contract DE-FG02-92ER-40704. H.-C. Cheng is supported by
+the Robert R. McCormick Fellowship and by DOE Grant DE-FG02-90ER-40560.
+
+
+References
+ [1] K.R. Dienes, E. Dudas and T. Gherghetta, “Extra spacetime dimensions and unifi-
+    cation,” Phys. Lett. B436, 55 (1998) hep-ph/9803466.
+
+ [2] I. Antoniadis, “A Possible New Dimension At A Few TeV,” Phys. Lett. B246, 377
+    (1990).
+
+ [3] N. Arkani-Hamed and M. Schmaltz, “Hierarchies without symmetries from extra
+    dimensions,” Phys. Rev. D61, 033005 (2000) hep-ph/9903417.
+
+ [4] N. Arkani-Hamed, H.-C. Cheng, B. A. Dobrescu and L. J. Hall, “Self-breaking of the
+    standard model gauge symmetry,” Phys. Rev. D62, 096006 (2000) hep-ph/0006238.
+
+ [5] W. J. Marciano, “Precision electroweak measurements and ’new physics’,” hep-
+     ph/9902332 and “Fermi constants and ’new physics’,” Phys. Rev. D60, 093006
+    (1999), hep-ph/9903451;
+    P. Nath and M. Yamaguchi, “Effects of extra space-time dimensions on the Fermi
+    constant,” Phys. Rev. D60, 116004 (1999), hep-ph/9902323;
+    M. Masip and A. Pomarol, “Effects of SM Kaluza-Klein excitations on electroweak
+    observables,” Phys. Rev. D60, 096005 (1999), hep-ph/9902467;
+    T. G. Rizzo and J. D. Wells, “Electroweak precision measurements and collider probes
+    of the standard model with large extra dimensions,” Phys. Rev. D61, 016007 (2000),
+    hep-ph/9906234;
+
+
+                                           19
+    A. Strumia, “Bounds on Kaluza-Klein excitations of the SM vector bosons from elec-
+    troweak tests,” Phys. Lett. B466, 107 (1999), hep-ph/9906266;
+    R. Casalbuoni, S. De Curtis, D. Dominici and R. Gatto, “SM Kaluza-Klein excita-
+    tions and electroweak precision tests,” Phys. Lett. B462, 48 (1999), hep-ph/9907355;
+    C. D. Carone, “Electroweak constraints on extended models with extra dimensions,”
+    Phys. Rev. D61, 015008 (2000), hep-ph/9907362;
+    A. Delgado, A. Pomarol and M. Quiros, “Electroweak and flavor physics in exten-
+    sions of the standard model with large extra dimensions,” JHEP 0001, 030 (2000),
+    hep-ph/9911252.
+
+ [6] M. B. Green and J. H. Schwarz, “Anomaly Cancellation In Supersymmetric D=10
+     Gauge Theory And Superstring Theory,” Phys. Lett. B149, 117 (1984).
+
+ [7] H.-C. Cheng, B. A. Dobrescu and C. T. Hill, “Gauge coupling unification with ex-
+     tra dimensions and gravitational scale effects,” Nucl. Phys. B573, 597 (2000), hep-
+    ph/9906327.
+
+ [8] T. Appelquist and G. Wu, “The Electroweak chiral Lagrangian and new precision
+    measurements,” Phys. Rev. D48, 3235 (1993), hep-ph/9304240.
+
+ [9] R. S. Chivukula, C. Holbling and N. Evans, “Limits on a composite Higgs boson,”
+    Phys. Rev. Lett. 85, 511 (2000), hep-ph/0002022.
+
+[10] The LEP Electroweak Working Group,
+     http://lepewwg.web.cern.ch/LEPEWWG/plots/summer2000/
+
+[11] A. De Rujula, S. L. Glashow and U. Sarid, “Charged Dark Matter,” Nucl. Phys.
+     B333, 173 (1990);
+    S. Dimopoulos, D. Eichler, R. Esmailzadeh and G. D. Starkman, “Getting A Charge
+    Out Of Dark Matter,” Phys. Rev. D41, 2388 (1990);
+    R. S. Chivukula, A. G. Cohen, S. Dimopoulos and T. P. Walker, “Bounds On Halo
+    Particle Interactions From Interstellar Calorimetry,” Phys. Rev. Lett. 65, 957 (1990);
+    A. Gould, B. T. Draine, R. W. Romani and S. Nussinov, “Neutron Stars: Graveyard
+    Of Charged Dark Matter,” Phys. Lett. B238, 337 (1990).
+
+[12] L. Randall and S. Thomas, “Solving the cosmological moduli problem with weak
+    scale inflation,” Nucl. Phys. B449, 229 (1995), hep-ph/9407248.
+
+
+
+                                           20
+[13] D. H. Lyth and E. D. Stewart, “Thermal inflation and the moduli problem,” Phys.
+     Rev. D53, 1784 (1996), hep-ph/9510204.
+
+[14] R. K. Ellis, “Rates for top quark production,” Phys. Lett. B259, 492 (1991).
+
+[15] A. Connolly [CDF collaboration], “Search for long-lived charged massive particles
+    at CDF,” Talk at the American Physical Society (APS) Meeting of the Division of
+    Particles and Fields (DPF 99), Los Angeles, CA, Jan 5-9, 1999, hep-ex/9904010.
+
+[16] J. P. Done [CDF collaboration], Talk at the American Physical Society Centennial
+     Meeting, Atlanta, GA, March 20–26, 1999.
+
+[17] S. Abel et al. [SUGRA Working Group Collaboration], “Report of the SUGRA work-
+     ing group for run II of the Tevatron,” hep-ph/0003154.
+
+[18] B. Abbott et al. [D0 Collaboration], “Search for squarks and gluinos in events con-
+    taining jets and a large imbalance in transverse energy,” Phys. Rev. Lett. 83, 4937
+    (1999), hep-ex/9902013.
+
+[19] R. Barbieri, L. J. Hall and Y. Nomura, “A Constrained Standard Model from a
+     Compact Extra Dimension,” hep-ph/0011311.
+
+[20] S. Abachi et al. [D0 Collaboration], “Measurement of the top quark pair production
+     cross section in p anti-p collisions,” Phys. Rev. Lett. 79, 1203 (1997), hep-ex/9704015.
+
+[21] F. Abe et al. [CDF Collaboration], “Measurement of the top quark mass and t anti-t
+     production cross section from dilepton events at the Collider Detector at Fermilab,”
+     Phys. Rev. Lett. 80, 2779 (1998), hep-ex/9802017.
+
+[22] M. B. Popovic and E. H. Simmons, “Weak-singlet fermions: Models and constraints,”
+     Phys. Rev. D62, 035002 (2000), hep-ph/0001302.
+
+[23] T. Affolder et al. [CDF Collaboration], “Search for a fourth-generation quark more
+                                                        √
+     massive than the Z0 boson in p anti-p collisions at s = 1.8 TeV,” Phys. Rev. Lett.
+    84, 835 (2000), hep-ex/9909027.
+
+
+
+
+                                             21
+

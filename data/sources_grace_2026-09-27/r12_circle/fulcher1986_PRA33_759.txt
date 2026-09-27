@@ -1,0 +1,180 @@
+PHYSICAL REVIE%' A                                         VOLUME 33, NUMBER 1                                                       JANUARY 1986
+
+                                                                   Comments
+
+
+
+proofs are sent to authors.
+
+
+
+
+                         Improved result for the accuracy of Coulomb's law: A review of the
+                                        Williams, Faller, and Hill experiment
+
+                                                                   Lewis P. Fulcher
+                                         Department   of Physics and Astronomy, Bowling Green State University,
+                                                            Bowling Green, Ohio 43403-0224
+                                                              {Received 28 January 1985)
+                       About 15 years ago illiams, Faller, and Hill (%'FH) carried out a modern version of the classical null
+                    experiment which tests Coulomb's law. Their high-precision measurements of the voltage furnish the most
+                    stringent upper limit for the parameter 8, which measures a (possible) deviation from the inverse-square
+                    form of Coulomb's law. %e show that the experiment of ~FH is actually about three times more sensitive
+                    to the parameter 5 than they supposed by carrying out a careful analysis of the geometrical factor involved
+                    in the interpretation of their experiment. The new upper limit for 5 is (1.0+1,2) x10
+
+
+
+                              I. INTRODUCTION                                  down by about 14 orders of magnitude.      Interest in experi-
+                                                                               ments that improve the accuracy with which Coulomb's law
+   Experimental tests of the accuracy of Coulomb's law have                    is known to be true will undoubtedly      continue since any
+enjoyed a long and interesting history, as summarized in                       positive result for 8 would have profound consequences for
+Table I. Most of the experiments have used the principle                       the structure of Maxwell's theory of electricity and magne-
+established in the classic experiment of Cavendish, where a                    tism and the theories based on this. '
+search for a charge or potential difference inside a charged,                     The smallest value for the upper limit has been obtained
+closed conductor is carried out. The experimenters have                        by Williams, Faller, and Hill (WFH) and it is the result
+often interpreted their results as a means of setting an upper                 usually quoted in the textbooks. 3 In order to obtain an esti-
+limit for a parameter 8, which is introduced as a (possible)                   mate of the sensitivity of their experiment to the parameter
+violation of Coulomb's law in the scale invariant form                         5, they used the geometrical factor,
+r +~. During the 200 yr period described by Table I the                                                           t
+
+
+                                                                                              —— a ln a+ P —     4a2
+sensitivities of the experiments have increased so much that                         M(a, b) = 1            ln
+the upper limit for the absolute value of 5 has been pushed                                    2 b    a —b     a2 —P2
+
+
+
+                                         TABLE I. Summary          of experimental    tests of Coulomb's   law.
+
+
+                                                                                                                       Upper limit
+                     Experimenter                                    Apparatus or                                         for the
+                        (date)                                        geometry                                         parameter 8
+
+                 Robison (1769)                             Gravitational torque
+                                                            on a pivot arm                                        0.06
+                 Cavendish      {1773)                      Two concentric    metal spheres                       0.02
+                 Coulomb       (1785)                       Torsion balance                                       0.04
+                                                                                                                        1
+                 Maxwell       (1&73)                       Two concentric spheres
+                                                                                                                      21 600
+                 Plimpton and
+                 Lawton (1938}                              Two concentric spheres                                2x 10—9
+                 Cochran       (1967)                       Concentric cubical conductors                         9.2x 10
+                 Bartlett, Goldhagen,
+                 and Phillips (1970)                        Five concentric spheres                                1.3 x 10
+                 Williams,     Faller,
+                 and Hill      (1971)                       Five concentric icosahedrons                          {2.7 +3.1) x 10- l6
+
+
+                                                                       33      759                         1986 The American Physical Society
+                                                                                                                                            33
+
+which was derived by Maxwell4 for two concentric spheres          dius a containing a uniformly        distributed        charge (Ref. 6) Q,
+of radii a and b. Since the apparatus of %FH consisted of
+five concentric conductors, it is apparent that a more refined              V(.) =                 [(r+g)1+5         (r     g(I+8]
+calculation should be done in order to obtain an accurate                            2ar(1 —g')
+result for the sensitivity of the experiment. In particular, it   where the use of absolute value sign extends the validity of
+is important that the contributions      of all sources of the    Eq. (2) to the entire range of r Si.nce both the BGP and
+(possible) anomalous internal fields be included. (Maxwell        WFH experiments were done with alternating currents, the
+considered only a single charged source. ) Indeed, as we          outermost two spheres are assumed to have equal but oppo-
+show below, the appropriate generalization of Eq. (I) is the      site charges at all times during the experiment. Thus, using
+same as that derived by Bartlett, Goldhagen, and Phillips5        superposition,  we calculate the potential inside a pair of
+(BGP), whose experiment was also based on five concentric         spheres of radii r4 (charge Q) and rq (charge —Q) with
+conductors. The correct geometrical factor is about three         ~4 Q f 3 which is given by
+times larger than that calculated by %'FH. This factor of 3
+leads to an improvement in sensitivity to the parameter 5 by      V(r) =                     [(rq+ r)'+ —(r4              r)'+ ]-
+the same amount.                                                               2r4r(1 —8 )
+                                                                                        Q         [(& + &)1+5   (&          &)1+8]          (3)
+                                                                                 2rgr(1 —g')
+               II. THE GEOMETRICAL FACTOR
+                                                                    The measurement of the induced voltage signal is carried
+  Our derivation for the geometrical factor for an arrange-       out interior to both of the charged spheres. Thus, we re-
+ment of four concentric spheres begins with the exact ex-         quire the expression for the potential difference between a
+pression for the potential at distance r from a sphere of ra-     pair of pick points interior to both spheres, that is
+
+
+        V(r2) —V(r~) =
+                         2r4r2(1 —82)
+                                        [(r4+ r2)'+ —(r4 r2)'—
+                                                             + )—
+                                                                   2r4r~ (1 —52)
+                                                                                       [(r4+ r~)'+ —(r4 rt)'+             ]-
+                                           [(rs+r2)'+ —(rz —r2)'+ ]+                      [(rg+r~)'+ —(r3 rt)                ]              (4)
+                            2r)r2(1 —5')                                   2rgrt(1 —g')
+                                                                                     2
+
+
+
+
+In order to obtain a simplified expression, it is necessary to    (6.4 k7. 3) X 10 ' U peak to peak, which is of course con-
+expand Eq. (4) in powers of 8 using x'+a x(1+8 lnx).              sistent with zero. WFH used Eq. (1) to take into account
+After judiciously combining the various logarithmic terms,        the geometrical factors. Substituting b =1.6a there yields
+we obtain a first-order expression for the potential differ-      ~M = 0.232 and leads to their value listed in Table I.
+                                                                       ~
+
+
+
+
+ence. This may be written as a ratio,                                To apply the considerations of Sec. II to the concentric
+                                                                  icosahedrons requires some geometrical interpretation.        It
+ V(r2) —V(r~)        5r4               —                          seems reasonable that one could choose an effective radius
+ V r3      V r4     r4   —rg [M(r3, f2) M(r), r~) ]               to incorporate the differences between the spheres and the
+                                                                  icosahedrons. For the time being we follow the considera-
+                                                           (5)    tions of %'FH, who were confronted with a similar problem
+                                                                  in analyzing their experiment to obtain an upper limit for
+~here we have used the lowest-order expression for the            the photon's rest mass. ' Their value for the ratio of the ef-
+capacitance of the two external spheres to eliminate the un-      fective radius to the length L of the triangular sides depend-
+known charge Q. The geometrical factor M in Eq. (5) is the        ed upon how they determined the effective radius.        If the
+Maxwellian factor defined in Eq. (1) above. From the form         icosahedron is to have the same surface area as the sphere,
+of Eq. (5) it is apparent that a single Maxwellian factor is      then
+not adequate for an accurate calculation of sensitivity of the
+                                                                           R =0.83L
+four conductor experiments, but that the correct expression
+involves a combination of four such factors. Our result for       If instead the radius of the inscribed sphere                  is to be used,
+the potential ratio agrees with that calculated by BGP in         then
+Ref. 5.
+                                                                           R =0.76L
+                          III. RESULTS                            %'FH suggested that uncertainties in the definition of the
+                                                                  effective radius might lead to a difference of 10—20% in the
+   The experiments of BGP and %FH used five concentric            determination    of an upper limit to the photon rest mass.
+conductors. However, the middle conductor was not an ac-          Scale invariance makes the problem of geometrical interpre-
+tive element in either experiment; its function was to screen     tation much simpler for the calculation of the sensitivity to
+out stray electric fields that leaked into the interior of the    5 Since all of the fac.tors that appear in Eq. (5) depend on
+charged outer pair. Thus, the four-conductor analysis of the      the ratio of the radii, one obtains the same result for the
+previous section is sufficient. ~FH maintained a potential        sensitivity using either Eqs. (6) or (7) or any other linear
+difference of 10 kV between their outermost pair of spheres       relationship between the effective radius and L that is the
+at a frequency of 4 MHz. Using a phase-sensitive detector         same for all conductors.
+they searched for a potential difference between the inner-          The lengths of the sides of the four icosahedrons are
+most pair of spheres. Their result for the induced signal is      23~, 37, 37~, and 50 in. , respectively. Using the surface
+33
+
+area criterion to define the effective radii leads to the values         The new value of 8 determined        from Eq. (8) is
+r~ =49.54 cm, r2=78. 00 cm, r3       78 53 cm and r4 105.41
+                                          ~
+
+
+
+cm. The geometrical factor I, which includes all of the ex-                   8= (1.0+1.2) x10
+pressions on the right-hand side of Eq. (5) except the com-
+mon factor 8 is thus given by ~F~ =0.629. And the sensi-                 which is a factor    of about 2~ times smaller than that pub-
+tivity of the experiment of WFH to 5 can be expressed                    lished by %FH. The experiment of %FH is about 2~ times
+                                                                         more sensitive to the parameter 5 than they thought. Equa-
+                          = /F/ /8I=O. 6298 .                            tion (9) represents the most stringent upper limit for delta
+       V r3       —V r4                                                  to date.
+
+
+
+
+'An alternative   interpretation of Coulomb's law experiments is as a    J. C. Maxwell,    A Treatise on E/ectricity and Magnetism (Dover, New
+  means of setting an upper limit for the photon rest mass. It is           York, 1954), Vol. I.
+  possible to reconcile such an interpretation with the special theory   5D. F. Bartlett, P. E. Goldhagen, and E. A. Phillips, Phys. Rev. D 2,
+  of relativity as pointed out by A, S. Goldhaber and N. M. Nieto,         483 (1970).
+  Rev. Mod. Phys. 43, 277 (1971).                                        6L. P. Fulcher and M. A. Telljohann, Am. J. Phys. 44, 366 (1976).
+2E. R. Williams, J. E. Faller, and H. A. Hill, Phys. Rev. Lett. 26,      7Incidentally, the analysis of WFH for the sensitivity of their experi-
+  721 (1971).                                                               ment to a possible photon rest mass is correct.
+3See, for example, J, D. Jackson, Classica/ E/ectrodynamics (iley,        E. R. Williams, Ph. D. thesis, %esleyan University, 1970 (unpub-
+  New York, 1975); or R. Resnick and D. Halliday, Physics, Part II          lished).
+  (Wiley, New York, 1978).
+

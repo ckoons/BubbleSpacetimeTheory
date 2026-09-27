@@ -1,0 +1,269 @@
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+  γ (photon)                                             I (J PC ) = 0,1(1 − − )
+
+
+                                                 γ MASS
+           Results prior to 2008 are critiqued in GOLDHABER 10. All experimental
+           results published prior to 2005 are summarized in detail by TU 05.
+
+           The following conversions are useful: 1 eV = 1.783 × 10−36 kg = 1.957 ×
+           10−6 m e ; λ̄
+                      ¯C = (1.973 × 10−7 m)×(1 eV/m γ ).
+
+VALUE (eV)                  CL%           DOCUMENT ID               COMMENT
+< 1        × 10−18             1 RYUTOV          07 MHD of solar wind
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 3.0      × 10−9              2 CHANG           25 Lensed fast radio burst time delay
+ (16 +  3
+      − 9 ) × 10
+                −15                     3 LEMOS               25    Fast Radio Bursts
+< 4.9       × 10−7                      4 MALTA               24
+                                                        Shapiro eﬀect in solar system
+< 2.5       × 10−18                     5 YAN                 24A
+                                                        Jovian magnetic ﬁeld
+< 2.1       × 10−15 68                  6 WANG                23B
+                                                        Fast Radio Bursts
+< 2.5       × 10−14                     7 MALTA               22
+                                                        Schumann resonances in the Earth-
+                                                           ionosphere cavity
+<   2.2        × 10−14                 8 BONETTI    17 Fast Radio Bursts, FRB 121102
+<   1.8        × 10−14                 9 BONETTI    16 Fast Radio Bursts, FRB 150418
+<   1.9        × 10−15                10 RETINO     16 Ampere’s Law in solar wind
+<   2.3        × 10−9 95              11 EGOROV     14 Lensed quasar position
+                                      12 ACCIOLY    10 Anomalous magn. mom.
+< 1          × 10−26                  13 ADELBERGER 07A Proca galactic ﬁeld
+no limit feasible                     13 ADELBERGER 07A γ as Higgs particle
+< 1          × 10−19                  14 TU         06 Torque on rotating magnetized
+                                                           toroid
+< 1.4          × 10−7                    ACCIOLY    04 Dispersion of GHz radio waves by
+                                                           sun
+< 2            × 10−16                15 FULLEKRUG 04 Speed of 5-50 Hz radiation in at-
+                                                           mosphere
+< 7            × 10−19                16 LUO        03 Torque on rotating magnetized
+                                                           toroid
+< 1         × 10−17                   17 LAKES      98 Torque on toroid balance
+< 6         × 10−17                   18 RYUTOV     97 MHD of solar wind
+< 8         × 10−16 90                19 FISCHBACH 94 Earth magnetic ﬁeld
+< 5         × 10−13                   20 CHERNIKOV 92 Ampere’s Law null test
+< 1.5       × 10−9 90                 21 RYAN       85 Coulomb’s Law null test
+< 3         × 10−27                   22 CHIBISOV   76 Galactic magnetic ﬁeld
+< 4.5       × 10−16 99.7              23 DAVIS      75 Jupiter’s magnetic ﬁeld
+< 7.3       × 10−16                      HOLLWEG    74 Alfven waves
+< 6         × 10−17                   24 FRANKEN    71 Low freq. res. circuit
+< 2.4       × 10−13                   25 KROLL      71A Dispersion in atmosphere
+< 1         × 10−14                   26 WILLIAMS   71 Tests Coulomb’s Law
+< 2.3       × 10−15                      GOLDHABER 68 Satellite data
+ 1 RYUTOV 07 extends the method of RYUTOV 97 to the radius of Pluto’s orbit.
+ 2 CHANG 25 sets upper limit on the photon mass using time delay between gravitationally
+   lensed images of FRB 20190308C.
+
+
+https://pdg.lbl.gov                            Page 1                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  3 LEMOS 25 gives constraints on the photon mass using, under several assumptions, data
+    from Fast Radio Bursts and Supernovae. Do not present an upper limit.
+  4 MALTA 24 gives an upper limit on the photon mass by analysing the gravitational time
+    delay in a weak-ﬁeld approximation using Doppler-tracking data from the Cassini mission.
+  5 YAN 24A put constraints on the photon mass modelling non-zero-mass eﬀects on the
+    Jupiter magnetic ﬁeld and using data of the JUNO Mission.
+  6 WANG 23B use fast radio burst photon mass dependent dispersion relation to determine
+    an upper limit of the photon mass.
+  7 MALTA 22 consider the eﬀect of a ﬁnite photon mass on Schumann resonances in the
+    Earth-ionosphere cavity, improve limit by KROLL 71A by considering realistic conductivity
+    proﬁles for the atmosphere.
+  8 BONETTI 17 uses frequency-dependent time delays of repeating FRB with well-
+    determined redshift, assuming the DM is caused by expected dispersion in IGM. There
+    are several uncertainties, leading to mass limit 2.2 × 10−14 eV.
+  9 BONETTI 16 uses frequency-dependent time delays of FRB, assuming the DM is caused
+    by expected dispersion in IGM. There are several uncertainties, leading to mass limit
+    1.8 × 10−14 eV, if indeed the FRB is at the initially reported redshift.
+ 10 RETINO 16 looks for deviations from Ampere’s law in the solar wind, using Cluster four
+    spacecraft data. Authors quote a range of limits from 1.9× 10−15 eV to 7.9× 10−14 eV
+    depending on the assumptions of the vector potential from the interplanetary magnetic
+    ﬁeld.
+ 11 EGOROV 14 studies chromatic dispersion of lensed quasar positions (“gravitational rain-
+    bows”) that could be produced by any of several mechanisms, among them via photon
+    mass. Limit not competitive but obtained on cosmological distance scales.
+ 12 ACCIOLY 10 limits come from possible alterations of anomalous magnetic moment of
+    electron and gravitational deﬂection of electromagnetic radiation. Reported limits are
+    not ”claimed” by the authors and in any case are not competitive.
+ 13 When trying to measure m one must distinguish between measurements performed on
+    large and small scales. If the photon acquires mass by the Higgs mechanism, the large-
+    scale behavior of the photon might be eﬀectively Maxwellian. If, on the other hand, one
+    postulates the Proca regime for all scales, the very existence of the galactic ﬁeld implies
+    m < 10−26 eV, as correctly calculated by YAMAGUCHI 59 and CHIBISOV 76.
+ 14 TU 06 continues the work of LUO 03, with extended LAKES 98 method, reporting
+    the improved limit µ2 A = (0.7 ± 1.7) × 10−13 T/m if A = 0.2 µG out to 4 × 1022
+    m. Reported result µ = (0.9 ± 1.5) × 10−52 g reduces to the frequentist mass limit
+    1.2 × 10−19 eV (FELDMAN 98). While the results of the torsion balance method give
+    a value for the local limit on µ2 A, the deduced limit on the photon mass µ is open to
+    question. See the discussions in TU 05 and GOLDHABER 03.
+ 15 FULLEKRUG 04 adopted KROLL 71A method with newer and better Schumann res-
+    onance data. Result questionable because assumed frequency shift with photon mass
+    is assumed to be linear. It is quadratic according to theorem by GOLDHABER 71B,
+    KROLL 71, and PARK 71.
+ 16 LUO 03 extends LAKES 98 technique to set a limit on µ2 A, where µ−1 is the Compton
+    wavelength λ̄ ¯C of the massive photon and A is the ambient vector potential. The
+    important departure is that the apparatus rotates, removing sensitivity to the direction
+    of A. They take A = 1012 Tm, due to “cluster level ﬁelds.” But see comment of
+    GOLDHABER 03 and reply by LUO 03B.
+ 17 LAKES 98 reports limits on torque on a toroid Cavendish balance, obtaining a limit on
+    µ2 A < 2 × 10−9 Tm/m2 via the Maxwell-Proca equations, where µ−1 is the charac-
+    teristic length associated with the photon mass and A is the ambient vector potential
+    in the Lorentz gauge. Assuming A ≈ 1 × 1012 Tm due to cluster ﬁelds he obtains
+    µ−1 > 2 × 1010 m, corresponding to µ < 1 × 10−17 eV. A more conservative limit,
+    using A ≈ (1 µG)×(600 pc) based on the galactic ﬁeld, is µ−1 > 1 × 109 m or
+    µ < 2 × 10−16 eV.
+
+
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 18 RYUTOV 97 uses a magnetohydrodynamics argument concerning survival of the Sun’s
+    ﬁeld to the radius of the Earth’s orbit. “To reconcile observations to theory, one has to
+    reduce [the photon mass] by approximately an order of magnitude compared with” per
+    DAVIS 75. “Secure limit, best by this method” (per GOLDHABER 10).
+ 19 FISCHBACH 94 analysis is based on terrestrial magnetic ﬁelds; approach analogous to
+    DAVIS 75. Similar result based on a much smaller planet probably follows from more
+    precise B ﬁeld mapping. “Secure limit, best by this method” (per GOLDHABER 10).
+ 20 CHERNIKOV 92, motivated by possibility that photon exhibits mass only below some
+    unknown critical temperature, searches for departure from Ampere’s Law at 1.24 K. See
+    also RYAN 85.
+ 21 RYAN 85, motivated by possibility that photon exhibits mass only below some unknown
+    critical temperature, sets mass limit at < (1.5 ± 1.4)×10−42 g based on Coulomb’s Law
+    departure limit at 1.36 K. We report the result as frequentist 90% CL (FELDMAN 98).
+ 22 CHIBISOV 76 depends in critical way on assumptions such as applicability of virial the-
+    orem. Some of the arguments given only in unpublished references.
+ 23 DAVIS 75 analysis of Pioneer-10 data on Jupiter’s magnetic ﬁeld. “Secure limit, best by
+    this method” (per GOLDHABER 10).
+ 24 FRANKEN 71 method is of dubious validity (KROLL 71A, JACKSON 99, GOLD-
+    HABER 10, and references therein).
+ 25 KROLL 71A used low frequency Schumann resonances in cavity between the conduct-
+    ing earth and resistive ionosphere, overcoming objections to resonant-cavity methods
+    (JACKSON 99, GOLDHABER 10, and references therein). “Secure limit, best by this
+    method” (per GOLDHABER 10).
+ 26 WILLIAMS 71 is landmark test of Coulomb’s law. “Secure limit, best by this method”
+    (per GOLDHABER 10).
+
+                                              γ CHARGE
+            OKUN 06 has argued that schemes in which all photons are charged are
+            inconsistent. He says that if a neutral photon is also admitted to avoid
+            this problem, then other problems emerge, such as those connected with
+            the emission and absorption of charged photons by charged particles. He
+            concludes that in the absence of a self-consistent phenomenological basis,
+            interpretation of experimental data is at best diﬃcult.
+
+VALUE (e)           CHARGE         DOCUMENT ID               TECN     COMMENT
+<1 × 10−46 mixed           1 ALTSCHUL        07B VLBI Aharonov-Bohm eﬀect
+<1 × 10  −35   single      2 CAPRINI         05 CMB Isotropy constraint
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1 × 10−32 single          1 ALTSCHUL        07B VLBI Aharonov-Bohm eﬀect
+<3 × 10−33 mixed           3 KOBYCHEV 05 VLBI Smear as function of B·E
+                                                                                           γ
+<4   × 10−31        single       3 KOBYCHEV           05     VLBI Deﬂection as function of B·Eγ
+<8.5 × 10−17                     4 SEMERTZIDIS 03                Laser light deﬂection in B-ﬁeld
+<3 × 10−28          single       5 SIVARAM     95            CMB For ΩM = 0.3, h2 = 0.5
+<5 × 10−30                       6 RAFFELT     94            TOF Pulsar f1 −f2
+<2 × 10−28                       7 COCCONI     92                VLBA radio telescope resolution
+<2 × 10−32                       COCCONI       88            TOF Pulsar f1 − f2 TOF
+  1 ALTSCHUL 07B looks for Aharonov-Bohm phase shift in addition to geometric phase
+    shift in radio interference fringes (VSOP mission).
+  2 CAPRINI 05 uses isotropy of the cosmic microwave background to place stringent limits
+    on possible charge asymmetry of the Universe. Charge limits are set on the photon,
+
+
+
+https://pdg.lbl.gov                          Page 3                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+    neutrino, and dark matter particles. Valid if charge asymmetries produced by diﬀerent
+    particles are not anticorrelated.
+  3 KOBYCHEV 05 considers a variety of observable eﬀects of photon charge for extragalactic
+    compact radio sources. Best limits if source observed through a foreground cluster of
+    galaxies.
+  4 SEMERTZIDIS 03 reports the ﬁrst laboratory limit on the photon charge in the last
+    30 years. Straightforward improvements in the apparatus could attain a sensitivity of
+    10−20 e.
+  5 SIVARAM 95 requires that CMB photon charge density not overwhelm gravity. Result
+    scales as ΩM h2 .
+  6 RAFFELT 94 notes that COCCONI 88 neglects the fact that the time delay due to disper-
+    sion by free electrons in the interstellar medium has the same photon energy dependence
+    as that due to bending of a charged photon in the magnetic ﬁeld. His limit is based on
+    the assumption that the entire observed dispersion is due to photon charge. It is a factor
+    of 200 less stringent than the COCCONI 88 limit.
+  7 See COCCONI 92 for less stringent limits in other frequency ranges. Also see RAF-
+    FELT 94 note.
+
+                                         γ REFERENCES
+CHANG       25     PR D111 L041304           C.-M. Chang et al.
+LEMOS       25     JCAP 2511 019             T. Lemos et al.                                    (ONRJ)
+MALTA       24     PR D110 095017            P.C. Malta, C.A.D. Zarro                            (UFRJ)
+YAN         24A    JHEP 2406 028             S. Yan, L. Li, J.J. Fan                           (BROW)
+WANG        23B    JCAP 2309 025             B. Wang et al.
+MALTA       22     PR D106 116014            P.C. Malta, J.A. Helayel-Neto
+BONETTI     17     PL B768 326               L. Bonetti et al.                     (ORLEANS, CERN)
+BONETTI     16     PL B757 548               L. Bonetti et al.
+RETINO      16     ASP 82 49                 A. Retino, A.D.A.M. Spallicci, A. Vaivads       (CURCP+)
+EGOROV      14     MNRAS 437 L90             P. Egorov et al.                  (MOSU, MIPT, INRM)
+ACCIOLY     10     PR D82 065026             A. Accioly, J. Helayel-Neto, E. Scatena         (LABEX+)
+GOLDHABER 10       RMP 82 939                A.S. Goldhaber, M.M. Nieto                 (STON, LANL)
+ADELBERGER 07A     PRL 98 010402             E. Adelberger, G. Dvali, A. Gruzinov        (WASH, NYU)
+ALTSCHUL    07B    PRL 98 261801             B. Altschul                                            (IND)
+    Also           ASP 29 290                B. Altschul                                        (SCUC)
+RYUTOV      07     PPCF 49 B429              D.D. Ryutov                                         (LLNL)
+OKUN        06     APP B37 565               L.B. Okun                                            (ITEP)
+TU          06     PL A352 267               L.-C. Tu et al.
+CAPRINI     05     JCAP 0502 006             C. Caprini, P.G. Ferreira                (GEVA, OXFTP)
+KOBYCHEV    05     AL 31 147                 V.V. Kobychev, S.B. Popov                   (KIEV, PADO)
+TU          05     RPP 68 77                 L.-C. Tu, J. Luo, G.T. Gillies
+ACCIOLY     04     PR D69 107501             A. Accioly, R. Paszko
+FULLEKRUG 04       PRL 93 043901             M. Fullekrug
+GOLDHABER 03       PRL 91 149101             A.S. Goldhaber, M.M. Nieto
+LUO         03     PRL 90 081801             J. Luo et al.
+LUO         03B    PRL 91 149102             J. Luo et al.
+SEMERTZIDIS 03     PR D67 017701             Y.K. Semertzidis, G.T. Danby, D.M. Lazarus
+JACKSON     99     Classical Electrodynamics J.D. Jackson         (3rd ed., J. Wiley and Sons (1999))
+FELDMAN     98     PR D57 3873               G.J. Feldman, R.D. Cousins
+LAKES       98     PRL 80 1826               R. Lakes                                            (WISC)
+RYUTOV      97     PPCF 39 A73               D.D. Ryutov                                         (LLNL)
+SIVARAM     95     AJP 63 473                C. Sivaram                                         (BANG)
+FISCHBACH   94     PRL 73 514                E. Fischbach et al.                       (PURD, JHU+)
+RAFFELT     94     PR D50 7729               G. Raﬀelt                                          (MPIM)
+CHERNIKOV 92       PRL 68 3383               M.A. Chernikov et al.                                 (ETH)
+    Also           PRL 69 2999 (errat.)      M.A. Chernikov et al.                                 (ETH)
+COCCONI     92     AJP 60 750                G. Cocconi                                         (CERN)
+COCCONI     88     PL B206 705               G. Cocconi                                         (CERN)
+RYAN        85     PR D32 802                J.J. Ryan, F. Accetta, R.H. Austin                   (PRIN)
+CHIBISOV    76     SPU 19 624                G.V. Chibisov                                      (LEBD)
+                   Translated from UFN 119 551.
+DAVIS        75    PRL 35 1402               L. Davis, A.S. Goldhaber, M.M. Nieto       (CIT, STON+)
+HOLLWEG      74    PRL 32 961                J.V. Hollweg                                       (NCAR)
+FRANKEN      71    PRL 26 115                P.A. Franken, G.W. Ampulski                         (MICH)
+GOLDHABER    71B   RMP 43 277                A.S. Goldhaber, M.M. Nieto        (STON, BOHR, UCSB)
+
+
+https://pdg.lbl.gov                         Page 4                      Created: 6/1/2026 16:25
+      Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+KROLL       71     PRL 26 1395               N.M. Kroll                                         (SLAC)
+KROLL       71A    PRL 27 340                N.M. Kroll                                         (SLAC)
+PARK        71     PRL 26 1393               D. Park, E.R. Williams                             (WILC)
+WILLIAMS    71     PRL 26 721                E.R. Williams, J.E. Faller, H.A. Hill             (WESL)
+GOLDHABER   68     PRL 21 567                A.S. Goldhaber, M.M. Nieto                        (STON)
+YAMAGUCHI   59     PTPS 11 37                Y. Yamaguchi
+
+
+
+
+https://pdg.lbl.gov                        Page 5                      Created: 6/1/2026 16:25
+

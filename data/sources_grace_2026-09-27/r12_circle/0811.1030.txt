@@ -1,0 +1,684 @@
+                                                             Secluded U(1) below the weak scale
+
+
+
+
+arXiv:0811.1030v1 [hep-ph] 6 Nov 2008
+                                                                                Maxim Pospelov
+                                            (a)
+                                                  Perimeter Institute for Theoretical Physics, Waterloo, ON, N2J 2W9, Canada
+                                                       (b)
+                                                             Department of Physics and Astronomy, University of Victoria,
+                                                                          Victoria, BC, V8P 1A1 Canada
+
+
+                                                                                    Abstract
+                                            A secluded U(1) sector with weak admixture to photons, O(10−2 − 10−3), and the scale
+                                        of the breaking below 1 GeV represents a natural yet poorly constrained extension of the
+                                        Standard Model. We analyze g − 2 of muons and electrons together with other precision
+                                        QED data, as well as radiative decays of strange particles to constrain mass–mixing angle
+                                        (mV − κ) parameter space. We point out that mV ≃ 214 MeV and κ2 > 3 × 10−5 can
+                                        be consistent with the hypothesis of HyperCP collaboration, that seeks to explain the
+                                        anomalous energy distribution of muon pairs in the Σ+ → pµ+ µ− process by a resonance,
+                                        without direct contradiction to the existing data on radiative kaon decays. The same
+                                        parameters lead to O(few × 10−9 ) upward correction to the anomalous magnetic moment
+                                        of the muon, possibly relaxing some tension between experimental value and theoretical
+                                        determinations of g − 2. The ultra-fine energy resolution scan of e+ e− → µ+ µ− cross
+                                        section and dedicated analysis of lepton spectra from K + → π + e+ e− decays should be able
+                                        to provide a conclusive test of this hypothesis and improve the constraints on the model.
+
+
+
+
+                                        November 2008
+1    Introduction
+Extra U(1)′ group(s) represent a rather minimal and in some sense natural extension of
+the Standard Model. The most economical way of making this sector ”noticeable” to the
+Standard Model (SM) particles and fields is via the so-called kinetic mixing portal, which
+is simply a coupling between the U(1) of the SM hypercharge and U(1)′ [1]:
+                                     1 2   1      Y
+                    LSM+U(1)′ = LSM − Vµν + κVµν Fµν + LHiggs′ + ...                       (1)
+                                     4     2
+            Y
+Here Vµν , Fµν are the field strengths of the U(1)′ and U(1)SM , and κ is the mixing angle.
+The specific form of the U(1)′ Higgs sector is not so important, but for simplicity we shall
+assume that the breaking occurs due to some elementary Higgs′ field with the Mexican
+hat potential. The ellipses stands for other possible matter fields, singlet under the SM
+and charged under the U(1)′ . In particular, the ellipses may include the weakly interacting
+massive particles (WIMPs) charged under U(1)′ , in which case V − γ mixing mediates
+interaction between visible and dark matter sectors [2].
+    Such coupling, and an overall neutrality of the SM under U(1)′ ensure the absence of
+problems with anomalies. This is, of course, not the only possibility of introducing Z ′
+physics, and other examples with and without supersymmetry have been proposed and
+studied at length (See, e.g. [3, 4] and Refs. therein). If the mass of the exra U(1)′
+gauge boson is at the TeV scale, only the sizable coupling to the SM would allow for the
+collider tests of such models. It is quite natural, however, to consider the following range of
+parameters that allows to seclude the U(1)′ sector and place it well below the electroweak
+scale:
+
+                α′ ∼ αSM (MZ );   κ ∼ (αα′ )1/2 /π;   m2V ∼ loop × κ2 MZ2 .                (2)
+
+Such values of κ ∼ O(10−2 − 10−3 ) can be induced radiatively by the loops of unspecified
+very heavy particles charged under both U(1) groups. This way the mixing parameter will
+depend on the logarithm of the ratio of some UV scale (e.g. GUT scale) to the mass scale of
+particles charged under both groups. The last relation in (2) implies a ”radiative transfer”
+of the gauge symmetry breaking from the SM to the U(1)′ . For our range of κ, it suggests
+that the mass scale of the vector particle is under 1 GeV. This line of arguments justifies
+a closer look at the phenomenology of low-scale U(1)′ models with the kinetic mixing to
+photons.
+    In recent years, some interest to the mV ∼ O(MeV-GeV), per-mill coupling gauge boson
+physics has been driven by the model-building attempts to construct WIMP models with
+masses in the MeV range [2, 5, 6]. Some particle phenomenology aspects of the mediator
+physics have been discussed in Refs. [2, 7], and most notably by Fayet in [8]. Most
+recently, an independent motivation for light mediators for the TeV-scale WIMPs have been
+advocated in [9] as the most natural way of having an enhanced annihilation in Galactic
+environment. This speculation is fueled by recent results of PAMELA collaboration [10],
+that sees evidence for an enhanced fraction of high-energy positrons that may have been
+
+                                              1
+created through WIMPs. For other investigations of the vector model with kinetic mixing,
+covering different phenomenological aspects and different parameter range, see e.g. recent
+works [11].
+    Leaving the WIMP physics aside, the purpose of this note is to investigate the phe-
+nomenology of MeV-to-GeV scale mediators, keeping both κ and mV as free parameters.
+In Sections 2 and 3 we will address the constraints coming from the anomalous magnetic
+moments of electron and muon, as well as other precision QED tests, and the signatures of
+secluded U(1)′ in the decays of strange particle. We reach our conclusions in Section 4.
+
+
+2    QED tests of secluded U(1)
+Since we are going to investigate the MeV-scale phenomenology of V -bosons, only their
+                                                                Y
+mixing with photons is relevant. Retaining the photon part of Fµν , redefining κ to absorb
+the dependence on θW , assuming the breaking of U(1) , and using the equations of motion,
+                                                    ′
+
+we arrive at the following effective Lagrangian,
+                            1 2   1
+                    Leff = − Vµν + m2V Vµ2 + κVν ∂µ Fµν + Lh′ + ...
+                            4     2
+                              1 2   1
+                          = − Vµν + m2V Vµ2 + κeJµ Vµ + Lh′ + ...,                       (3)
+                              4     2
+where in the second line the divergence of the photon field strength is traded for the oper-
+ator of the electromagnetic current. The Lh′ term represents the Lagrangian of the Higgs′
+particle. As evident from (3), the production or decay of V -bosons occur via the inter-
+mediate ”non-propagating” photon, as the q 2 in the κ-insertion cancels 1/q 2 of the photon
+propagator. A simple examination of Lagrangian (3) reveals two distinct dynamical regimes
+for the processes mediated by the exchange of virtual V . When the q 2 of momentum flowing
+through the V line is much larger than m2V , the V -exchange is analogous to the photon
+exchange, and thus leads to a simple renormalization of the fine structure constant. For
+the momenta much smaller than mV , the exchange of V -boson introduces an additional
+current-current contact interaction, that mimics the contribution of particle’s charge radius
+[2].
+    Calculation of the one-loop diagram produces the result for the additional contribution
+of V bosons to the anomalous magnetic moment of a lepton (electron, muon) aVl , that can
+be conveniently expressed as:
+                   Z 1
+                           2m2l z(1 − z)2     ακ2
+                                                    
+     V    α      2                                           1 for ml ≫ mV ,
+    al =     ×κ        dz 2                 =     ×                                     (4)
+         2π         0
+                                   2
+                         ml (1 − z) + mV z2
+                                              2π       2ml /(3m2V ) for ml ≪ mV .
+                                                          2
+
+
+We introduce the notation F (m2l /m2V ) for the integral in (4).
+   Currently, the precision measurement of (g − 2)e [12] surpasses the sensitivity of all
+other QED measurements, and is used for the extraction of the fine structure constant [13].
+
+
+                                              2
+                             −3
+                         10
+
+
+                         2
+                     κ
+                             −4
+                         10
+                                  Excluded by                  Excluded by
+                                  electron g-2 vs α            muon g-2
+
+
+                             −5
+                         10
+
+
+                                               |muon g-2|<2σ
+
+                             −6
+                         10
+                                        10 MeV                      100 MeV   500 MeV
+                                                           mV
+Figure 1: Combination of g − 2 and α measurement constraints on mV − κ2 parameter space. The dark
+grey color indicate the excluded region. The light grey band is where the consistency of theoretical and
+experimental values of (g − 2)µ improves to 2σ or less. The grey line inside this band indicate 0σ relative
+to experimental value, ı.e. a positive shift of 3 × 10−9 to ath
+                                                             µ .
+
+
+
+Therefore, Eq. (4) can be re-interpreted as an effective shift of the coupling constant by
+
+                                     ∆α = 2πaVe ; ∆α−1 = −2πaVe /α2 ,                                  (5)
+
+and the precision test of the model comes from the next most precise determination of α.
+Currently, these are atomic physics results with Cs and Rb [14]. These determinations are
+very weekly affected by the additional V boson, compared to (g − 2)e . Adopting the results
+of [14], we require that the relative shift of ∆α does not exceed 15 ppb, which results in
+the following constraints on the parameters of our model:
+                                                               2
+             2       2   2             −9         2     100 MeV
+           κ × F (me /mV ) < 15 × 10        =⇒ κ ×                 < 1. × 10−3 ,        (6)
+                                                          mV
+where we also made a relatively safe assumption that mV ≫ me . In practice one has to
+require mV > ∼ 4 MeV in order to satisfy constraints imposed by primordial nucleosynthesis
+(BBN) [15]. If mV is chosen right at the boundary of the BBN constraint, Eq. (6) requires
+κ2 to be less than 10−6 , while of course the constraint weakens considerably for larger values
+of mV .
+   Another important constraint comes from the measurement of the muon magnetic
+anomaly. The application of this constraint is not straightforward due to the necessity
+to deal with hadronic uncertainty in extracting theoretical prediction for aµ . The deter-
+mination based on e+ e− annihilation to hadrons points to a +302(88) × 10−11 deficit (see,
+
+                                                          3
+e.g. [16] and references therein) of ath                                        exp
+                                      µ relative to the experimental value for aµ    measured
+at Brookhaven [17]. This constitutes a 3.4σ deviation, which over the years has prompted
+numerous theoretical speculations on new physics ”solution” to this discrepancy. Other
+determinations based on τ physics [18], and most recently on preliminary analysis of the
+radiative return at BaBar [19] do not indicate any discrepancy. It is easy to see that
+the positivity of V -contribution (4), improves the agreement between ath           exp
+                                                                          µ and aµ , if one
+              + −
+adopts the e e →hadrons based result. To state a conservative limit, we require that
+aVµ ≤ (302 + 5σ) × 10−11 = 7.4 × 10−9 . Such additional contribution to the anomaly is ex-
+cluded no matter what method of treating the hadronic contribution to ath   µ one would like
+to choose. The combination of g −2 constraints is shown in Figure 1. The muon constraints
+include a forbidden region, as well as a ”welcome” band of 1.3×10−9 < aVµ < 4.8×10−9 that
+puts the theoretical prediction based on e+ e− →hadrons within two standard deviations
+from the experimental result aexp
+                                µ .
+   Another possibility for probing V −γ mixing is through the high-precision measurements
+of photon exchange. For example, the V -contribution to the electron-proton scattering
+amplitude at |q 2 | ≪ m2V is equivalent to the (rcV )2 = 6κ2 /m2V correction to the proton
+charge radius. The high-precision measurements of the Lamb shift are used to extract the
+proton charge radius (see e.g. Ref. [20] and references therein), but in order to test V -
+exchange induced contribution, one has to measure the same quantity, rc2 using different
+techniques in the kinematic regime where |q 2 | would be on the order or larger than m2V .
+Since the measurements of charge radii in scattering are intrinsically less precise than the
+Lamb shift determination of rc , the constraint from the charge radius of the proton does
+not appear to be better than
+                                                          2
+                    6κ2
+                                              
+                               2          2      100 MeV
+                        < 0.1fm     =⇒ κ ×                    < 4 × 10−3 ,               (7)
+                    m2V ∼                           mV
+
+and as such is subdominant to the (g −2)e −α constraint (6). It remains to be seen whether
+other precision QED tests (e.g. involving muonic atoms) would be able to improve on this
+constraint.
+    Finally, the V − γ mixing may be searched for as a narrow resonance in the e+ e−
+collisions. The quantum numbers of V allow them to be seen as narrow sharp resonances
+in the s-channel. The leptonic widths of this resonance can be easily calculated to be
+                                                                s
+                                                             2
+                                                          2m            4m2µ
+                                                    
+                       1                   1                 µ
+               Γe+ e− = κ2 αmV , Γµ+ µ− = κ2 αmV 1 + 2             1− 2 .              (8)
+                       3                   3              mV            mV
+
+Very close to the muon threshold the second formula will be modified by the Coulomb
+interaction of the outgoing muons. Above the hadronic threshold, Γhadr is directly related
+to the total rate of e+ e− annihilation into hadrons at the center of mass energy equal
+to mV . For any value of parameters V -resonance is extremely narrow, Γe+ e− = 2.4 keV ×
+κ2 (mV /100 MeV), which is smaller than the typical energy spread for the colliding particles.
+Near the resonance, however, the cross sections for e.g. e+ e− → e+ e− or e+ e− → µ+ µ−
+
+                                              4
+may be significantly enhanced relative to the usual QED cross section for e+ e− → µ+ µ− .
+Therefore, a proper procedure would be to compare resonant and standard non-resonant
+cross section smeared over some typical energy interval ∆E, provided of course that the
+resonant energy is within this interval ∆E. For example, for e+ e− → µ+ µ− process we have
+                  σeres
+                     + e− →µ+ µ−       9πΓtot       Bre+ e− Brµ+ µ−
+                                   ≃          ×                         ,                  (9)
+                  σestandard             2
+                                                            q
+                     + e− →µ+ µ−       8α ∆E (1 + 2m2 /m2 ) 1 − 4m2 /m2
+                                                      µ   V           µ   V
+
+
+where Brl+ l− are the leptonic branching ratios of V -resonance, and Γtot its total width.
+These branching ratios are comparable to 1 and the total width is given by the sum of the
+leptonic and hadronic widths if there are no matter fields in the U(1)′ -charged sector with
+masses less than mV /2. In this case, ratio (9) scales as κ2 mV /(α∆E), which can provide
+an important constraint on the model. Choosing somewhat conservatively ∆E ∼ 1 MeV,
+and requiring this ratio to be less than 0.1, we plot this sensitivity level in Figure 2, which
+also includes other conditional constraints from the next section. With these assumptions,
+the e+ e− scattering can become the most precise probe for mV > 100 MeV, and could rule
+out O(10−3) level of mixing. At this point we will refrain from calling it a constraint, as
+we believe that in practice, without a dedicated search, O(meV − eV) width resonances
+can be missed even if they are very strong. It is also important to keep in mind that if
+there exist additional channels for V to decay into the matter charged under U(1)′ , the
+ratio (9) scales as ∼ κ4 , and all constraints weaken considerably. This is exactly the case in
+models with MeV-scale dark matter, where decays to two dark matter particles can make
+ΓV parametrically larger than (8) [8].
+
+
+3    Production of U(1)′ bosons in hyperon and K decays
+Radiative decays of strange particles is another natural place where U(1)′ bosons can man-
+ifest themselves. Since the interaction is mediated by mixing with the photon, the natural
+place to look for V are the decays of K and Σ+ with photon or lepton pair(s) in the final
+state. A lot of work has been done in this area over the years, and the most important
+conclusion is that the rates for the flavor-changing radiative decays are dominated by large-
+distance physics, which cannot be (or almost cannot be) extracted from first principles.
+For this paper we employ the following strategy: we use the existing evaluations of the
+kaon and hyperon vertices with on-shell or off-shell photons, and use them to calculate the
+production of V -bosons. We also notice that the vector particles in our model have inter-
+actions only with conserved current, which makes them extremely difficult to produce in
+flavor-changing transitions as opposed to mediators with e.g. scalar [2, 21] or axial-vector
+couplings [8].
+
+
+
+
+                                                 5
+3.1     Radiative Kaon decays
+In this paper we will consider two important processes,
+
+                    A : K + → π + V [K + → π + l+ l− ]                                      (10)
+                    B : K + → l+ νV [K + → l+ ν, K + → l+ νl+ l− ],
+
+where the SM processes are shown inside square brackets. The branchings for the SM
+processes with l+ l− are small, on the order of O(10−7 − 10−8 ) depending on particular
+process of interest. For the semileptonic decays A, the SM rates were estimated in Ref. [22],
+where the starting point was the chiral perturbation theory together with the experimental
+input for the K + → π + π − π + vertex. This analysis results in the prediction for the q 2 -
+proportional vertex of K − π transition with virtual photon. In terms of this vertex, in the
+notation of Ref. [22], the expression for the amplitude is
+
+                                         eκm2V
+                           MK→πV =               (k + p)µ ǫVµ W (m2V ),                     (11)
+                                       (4π)2 m2K
+
+where k and p are the kaon and pion momenta, ǫVµ is the polarization of V -boson, and
+W 2 (m2V ) ≃ 10−12 (3 + 6m2V /m2K ) [22]. The latter is in reasonable agreement with experi-
+mental determination via the K + → π + e+ e− decay [23] and with the rate of K + → π + µ+ µ−
+decay [24]. Notice the proportionality of the amplitude to m2V that replaces q 2 of the vir-
+tual photon and suppresses the rate for small mV ≪ mK . This amplitude gives rise to the
+following branching ratio:
+
+         ακ2 m2V W 2                                   −5 2
+                                                             m
+                                                                 V
+                                                                     2
+ ΓK→πV = 10 4        f (mV , mK , mπ ) =⇒ BrK→πV ≃ 8×10 ×κ              . (12)
+        2 π mK                                               100 MeV
+In this formula, dimensionless factor f (mV , mK , mπ ) stands for the mass dependence of
+phase space and matrix element, and f is normalized to 1 in the limit mπ,V → 0 when mK
+is kept finite. The last relation in (12) is valid only when mV is much smaller than mK ,
+but in practice for all mV below 200 MeV.
+    In order to constrain (12), one has to know the subsequent fate of V . It can decay to
+lepton pairs or invisibly, if such channel is open. In case of the invisible decay, one could use
+the results of K + → π + ν ν̄ search, but due to a rather restrictive kinematic window for pion
+momentum [25], this constraint is difficult to implement for arbitrary mV . If the invisible
+decay is absent, K + → π + V → πl+ l− decays will contribute to the K + → π + l+ l− process.
+Given that there is still some uncertainty in the determination of W (q 2 ) and its shape, and
+without a dedicated search for a resonant part, one could still contemplate that ∼10% of
+the existing branching ratio for K + → π + V → πe+ e− may come from the resonance. Thus,
+we require (12) be less than 3 × 10−8 , and arrive at the constraint on mass versus coupling
+plotted in Figure 2. As one can see, the constraint becomes stronger than (g − 2)µ for mV
+around 300 MeV. We also include a sensitivity line, up to which the model can be probed
+if ∆Brres ∼ 6 × 10−9 can be achieved in the dedicated analysis of lepton spectra.
+
+                                               6
+                             −3
+                         10
+                                                                    Excluded by
+                                                                                     −8
+                                                                    ∆Br K to π ee<3.10
+                         2
+                     κ
+                             −4
+                         10                                               −9
+                                                                     <6.10
+
+
+
+                             −5                                              Can be
+                         10                                             probed by search
+                                                                        of resonances
+
+                                            |muon g-2|<2σ
+
+                             −6
+                         10
+                                        10 MeV                   100 MeV                  500 MeV
+                                                            mV
+
+Figure 2: Same as Figure 1, but with some conditional constraints in the assumption of purely ”visible”
+decays of V . The darkest grey region is from BrVK + →π+ e+ e− < 3. × 10−8 ; and the similarly shaped grey
+line is possible to achieve with re-analysis of VK + →π+ e+ e− at ∆Br< 6 × 10−9 level. The grey diagonal
+straight line indicates the level of sensitivity that can be achieved via the e+ e− search of extremely narrow
+resonances. The thick vertical bar indicates the region consistent with the HyperCP hypothesis (14) and
+other constraints.
+
+
+    Among fully leptonic decays of type B (10), we choose the one that is technically the
+simplest, K + → e+ νV and is analogous to K + → e+ νγ. Because of the electron chirality
+suppression of K + → e+ ν, the γ or V bosons have to be radiated by the structure-dependent
+vertex, i.e. not by the initial kaon or final positron line. This simplifies our task, given
+that radiative leptonic decays of pseudoscalars are reasonably well understood. In order to
+estimate the branching ratios in the limit of small mV , mV <
+                                                            ∼ 200 MeV, we simply multiply
+the SM rate by the mixing parameter κ2 ,
+
+                                  BrK + →l+ νV ≃ κ2 BrK + →l+ νγ = 1.5 × 10−5 × κ2 ,                     (13)
+
+while for heavier mV one would need to perform a separate calculation to include contribu-
+tions from other q 2 -proportional form factors and account for the phase space suppression.
+We notice, however, that from (13) one can immediately conclude that for κ2 < 10−3 the
+branching ratios fall below 10−8 level, which is comparable to the experimental errors on
+the branching ratios of the SM processes K + → l+ νl+ l− . We conclude that constraints on
+mixing provided by processes of type B (10) are subdominant to muon g − 2 constraints,
+and therefore there is no pressing need in refining estimate (13).
+
+
+
+
+                                                            7
+3.2     Radiative hyperon decay, HyperCP anomaly, and the hy-
+       pothesis of 214 MeV boson
+V -boson can also be produced in the radiative hyperon decays. Since the branching ratio
+for the SM radiative decay is very large, BrΣ+ →pγ = 1.2 × 10−3 , one can expect an enhanced
+rate for the production of V vector boson. The dedicated search of Σ+ → pµ+ µ− process
+has produced some unexpected results [26]: three observed events were consistent with the
+expectation for the SM rate, but their spectrum, all three clustered around mµµ = 214.3±0.5
+MeV, is extremely puzzling. The HyperCP collaboration estimates that the probability of
+this happening within SM is less than 1%, while the hypothesis of the two-body decay,
+Σ+ → pX, with MX ≃ 214.3MeV followed by subsequent immediate decay X → µ+ µ−
+can account for the anomalous energy distribution, and allows to extract the X-mediated
+branching ratio. This defines the ”HyperCP hypothesis” that consists of
+                                                                      +2.4
+ HyperCP hypothesis : mX = 214.3 MeV;               BrX
+                                                      Σ+ →pµ+ µ− = 3.1−1.9 (stat) ± 1.5(syst). (14)
+
+This hypothesis generated the whole line of theoretical investigations that revisited SM
+calculations of semi-leptonic Σ+ decays [27], made a general analysis of possible New Physics
+contributions [28], and invested some (semi-convincing) model-building efforts in an attempt
+to ”find” X-particles within more defined models of New Physics [29].
+    Ref. [28] analyzes possible couplings of ”HyperCP”-boson and concludes that bosons
+with vector or scalar couplings to s −d flavor-changing currents are not allowed as an expla-
+nation of [26], while pseudoscalars and axial-vectors are possible. The negative conclusion
+with respect to vector-coupled X comes from the analysis of K + → π + l+ l− decays. Very
+naively, this analysis would then preclude V boson of secluded U(1)′ that has only vector
+couplings to serve as a candidate for X. We find that this conclusion does not apply to our
+model, because the results of Ref. [28] rest on the assumption that New Physics in flavor
+sector is dominated by the short-distance contributions, such as Xµ s̄γµ d and alike. This is
+not the case for the secluded U(1)′ model, where New Physics in form of V -bosons cou-
+ples entirely through the mixing with photons and thus through the long-distance effects.
+It is widely known that the long-distance contributions dominate the short-distance ones
+in the radiative decays of Σ by as much as three orders of magnitude. In what follows,
+we investigate whether the putative ”HyperCP” boson (14) can be identified with V , find
+the acceptable mixing κ that provides required rate for Σ+ → pV → pµ+ µ− process, and
+compare this prediction with other constraints.
+   We start from the standard parametrization of the Σ+ → pγ decay form factors a, b c
+and d featured in the matrix element for Σ → p electromagnetic transition:
+               MΣ→pγ ∗ = eGF p̄[iσµν qµ (a + bγ5 ) + (q 2 γ ν − q ν q/)(c + dγ5 )]Σ.          (15)
+Here we follow the convention of Ref. [27]. For the emission of a real photon only a and b
+form factors at q 2 = 0 are relevant,
+                                        G2F e2
+                                               |a(0)|2 + |b(0)|2 Eγ3 .
+                                                                
+                           ΓΣ+ →pγ =                                                          (16)
+                                          π
+                                                8
+This rate, upon normalization on relevant branching ratio of 1.2 × 10−3 , gives the following
+inference about the size of the form-factors [27]:
+
+        |a(0)|2 + |b(0)|2 = (15 ± 0.3 MeV)2 ;       Re(a(0)b∗ (0)) = (−85 ± 9.6) MeV2 .   (17)
+
+The second relation comes from the measurement of the parity-violating interference in
+Σ decay. Unfortunately, only the cursory information can be gathered about eight form
+factors, counting real and imaginary parts, as functions of q 2 . In the assumption of q 2 -
+independence, conjectured from the mild q 2 -dependence reconstructed for imaginary parts
+of the form factors with the use of chiral perturbation/heavy baryon theory [27], the pre-
+diction for the SM branching ratio is:
+                                                      |a|2 + |b|2          |a|2 − |b|2
+                        108 × BrSM+
+                                 Σ →pµ µ+  − ∼ 4.5 ×              − 3.6 ×
+                                                     (15 MeV)2            (15 MeV)2
+                  2                      2
+                   |c|                 |d|               Re(ac∗ )            Re(bd∗ )
+          +1.1 ×          + 0.18 ×             + 0.45 ×            − 2.4 ×                  (18)
+                   0.1                0.01               1.5 MeV            0.15 MeV
+= 4.5 |A|2 + |B|2 − 0.8(|A|2 − |B|2 ) + 0.33|C|2 + 0.04|D|2 + 0.1Re(AC ∗ ) − 0.54Re(BD ∗ ) .
+                                                                                         
+
+We took a liberty of normalizing form factors a, b, c, d on their typical values inferred in
+[27], and introduced dimensionless and (presumably) O(1) values A, B, C, D. It is impor-
+tant to keep in mind that even if one adopts the chiral perturbation inspired determinations
+of real and imaginary parts of a and b, there exists a residual ambiguity in the choice of
+                                                                 SM
+signs, that results in (18) covering an entire range 10−9 < ∼ BrΣ+ →pµ+ µ− <∼ 10 [27], and
+                                                                                 −8
+
+perhaps even wider if one adopts more conservative assumptions about theoretical errors
+in extracting the form factors. One cannot help noticing numerous possibilities for con-
+structive or destructive interference between different terms, which are beyond theoretical
+control at the current stage of our understanding of strong dynamics.
+   The calculation of the Σ → pV decay in terms of form factors in (15) is similar if not
+simpler, and we quote our result directly for the case of mV = 214.3 MeV,
+
+                          BrΣ+ →pV = 5.2 × 10−4 κ2 × NABCD ,                              (19)
+
+where NABCD stands for the following combination taken at q 2 = (214.3 MeV)2 :
+
+NABCD = |A|2 +|B|2 −0.66(|A|2 −|B|2 )+0.35|C|2 +0.03|D|2 +0.14Re(AC ∗ )−0.44Re(BD ∗ )
+                                                                                      (20)
+                                                           2      2
+One can easily see that if the rate is dominated by |A| + |B| ≃ 1 and the rest of the
+contributions is small, the branching ratio to V bosons is about 0.4κ2 of the Σ → pγ
+branching, where the factor of 0.4 comes from the phase space suppression. Variation of
+coefficients in (20) suggests a ∼ (10−4 − 10−3 ) × κ2 branching ratio range for Σ → pV
+decay, and in order to get to the final estimate of V -mediated Σ+ → pµ+ µ− decay, we must
+multiply the rate by BrV →µ+ µ− ≃ 0.2. Therefore, we arrive at the following estimate for
+the HyperCP decay rate mediated by V bosons,
+
+            BrVΣ+ →pµ+ µ− = BrV →µ+ µ− × BrΣ+ →pV = 1. × 10−4 κ2 × NABCD .                (21)
+
+                                                9
+                                 max
+Assigning somewhat arbitrarily NABCD   ∼ 3, one deduces the following minimal value of κ
+consistent with hypothesis (14):
+                                     κ2 > 3 × 10−5 .                                (22)
+This lower bound of mixing compatible with HyperCP hypothesis is also consistent with
+aVµ ∼ 3×10−9 , which is exactly in the middle of the band that ”solves” (g −2)µ discrepancy,
+Figure 2. It is fair to say, however, that the most natural values for κ2 consistent with (14)
+are well above 10−4 and in the domain already excluded by K + → π + µ+ µ− and muon g −2.
+One can also notice that the coefficients in NABCD are similar to those in the square bracket
+of (18), although not exactly the same. This is the direct consequence of the fact that the
+phase space available for the SM muon decays is not that large, and on average muon pairs
+have an invariant mass not far from 214 MeV. Therefore, it would be natural to divide the
+two rates, (18) and (19), in an attempt to reduce the uncertainty. We are not pursuing this
+idea here, because in the end there is no guarantee that the form factor dependence of (18)
+and (19) is the same, given the number of assumptions that was made on the way.
+
+
+4    Discussion
+We have presented some results on the phenomenology of U(1)′ gauge boson in the mass
+range of few MeV to GeV, with the kinetic mixing to photon at O(10−3 − 10−2 ) level.
+We have concluded that none of the constraint that have been analyzed in this paper can
+decisively rule out this possibility. Indeed, the opportunities for observing such V -boson are
+very ”minimal” since it has only electromagnetic couplings. As a result, the best constraints
+one can find come from the precision QED experiments. As expected, the muon g − 2 is the
+best source for limiting κ−mV parameter space at mV ∼ 100 MeV. However, because of the
+controversial status of the experiment vs theory, one cannot rule out V bosons with per-mill
+couplings, and moreover, an additional contribution of V -muon loop with κ2 ∼ 10−5 − 10−4
+may actually improve the agreement between theory and experiment.
+    The radiative decays of strange particles have been extensively studied in the past and
+are another way of probing mV − κ parameter space. Assuming that V decays back to
+leptons (as opposed to some unspecified O(MeV) matter charged under U(1)′ ), we have
+shown that K + → π + e+ e− decay is already limiting the model better than (g − 2)µ , but
+only for a rather narrow range of mV around 300 MeV. The decays of K-mesons to V are
+dominated by the long-distance contributions, which are significantly enhanced relative to
+short-distance pieces. The Σ+ → pl+ l− particles is another natural place to look for V
+production. However, the status of Σ+ → pµ+ µ− decay is somewhat controversial. The
+HyperCP collaboration saw an unusual pattern of muon invariant mass distribution, with
+all events (all=3) clustered around the same energy [26], and put forward a hypothesis that
+the decay is mediated by the two-body decay with some intermediate resonance with mass
+of 214.3 MeV. We have analyzed whether such hypothesis is viable within the secluded U(1)′
+model and found that given large uncertainties in evaluating long-distance contributions,
+such possibility is not excluded if κ2 > 3 × 10−5 . The reason why this model avoids a
+
+
+                                              10
+”no-go” theorem of Ref. [28], that forbids vector-coupled particles as possible explanation
+of HyperCP anomaly, is because the dominance of the long-distance effects, to which this
+theorem does not apply. Since the model is well-defined and the radiative kaon decays are
+well studied, the dedicated re-analysis of K + → π + e+ e− data may close the window on the
+HyperCP hypothesis in this model. Before we conclude, a few final remarks are in order.
+
+   • Other realizations of MeV–GeV scale U(1)′ . As noted in the introduction, secluded
+     U(1)′ with kinetic mixing is natural, but not the only possible U(1)′ extension below
+     the GeV scale. If B −L symmetry is gauged, low mV would require the U(1)′ coupling
+     constant to be much smaller than αEM [8]. The QED constraints considered in this
+     paper can be simply rescaled to limit α′ . It is also plausible to find an appropriate α′
+     that would fit HyperCP hypothesis. This model, however, has additional constraints
+     related to e.g. neutrino interactions that might be far more important than those
+     considered in this paper.
+
+   • Prospects for refining constraints on mass-mixing parameter space. It is unlikely
+     that one can achieve further breakthroughs either in theory or experiments studying
+     radiative decays of strange particles. However, a possibility of direct search for narrow
+     (a factor of a million more narrow than J/ψ!) resonances in e+ e− machines should
+     not be discarded as a way of limiting the parameter space of the model. Ultimately,
+     only this could decisively test small values of κ down to 10−3 level for models with
+     mV <∼GeV.
+   • Doubly-secluded Higgs′ as a source of leptons. So far the physics of Higgs′ boson
+     has been ignored. It is worth pointing out, however, that Higgs′ decay properties
+     are very sensitively dependent on its mass relative to mV . One can easily see that
+     there are three main regimes for the Higgs′ decay to leptons (assuming ml ≪ mh′ for
+     simplicity):
+
+                              2mV < mh′ : h′ → 2V ;         Γh′ ∼ O(κ0 )
+                      mV < mh′ < 2mV : h′ → V l+ l− ;       Γh′ ∼ O(κ2 )
+                          mh′ < mV : h′ → l+ l− l+ l− ;     Γh′ ∼ O(κ4 )                 (23)
+
+     The last line of (23) corresponds to the regime when the Higgs can decay only via
+     a pair of virtual V -bosons, each of which would have to decay electromagnetically
+     via the mixing with photon. As a result, the amplitude of Higgs′ decay is quadratic
+     in κ and the width is quartic, making this Higgs ”doubly-secluded”. Being further
+     suppressed by α2 and the four-particle phase space, the lifetime of Higgs′ can be much
+     longer than the lifetime of V and indeed on the order of the lifetimes of particles that
+     decay due to weak interactions. It is also worth pointing out that the production cross
+     section of h′ by Higgs-strahlung mechanisms is only singly-secluded, σf f¯→V h′ ∼ O(κ2 ).
+     Interestingly, a scenario of a particle with not very suppressed production rate and
+     very small decay rate was suggested recently by the CDF collaboration in connection
+     with observation of ”ghost muons” [30]. At some superficial level, the doubly-secluded
+
+                                             11
+     Higgs with mh′ > 4mµ may fit this scenario, but without a dedicated analysis it is
+     impossible to tell whether the production rate of h′ could be large enough to account
+     for ”extra CDF muons”. On the other hand, the Higgs′ -strahlung signature of 6
+     leptons in the final state can be used in e+ e− machines to set additional constraints
+     on the model.
+
+
+Acknowledgments
+The author would like to thank Saveliy Karshenboim, Mikhail Voloshin and Adam Ritz
+for useful discussions. Research at the Perimeter Institute is also supported in part by the
+Government of Canada through NSERC and by the Province of Ontario through MEDT.
+
+
+References
+ [1] B. Holdom, Phys. Lett. B 166, 196 (1986).
+
+ [2] M. Pospelov, A. Ritz and M. B. Voloshin, Phys. Lett. B 662, 53 (2008)
+     [arXiv:0711.4866 [hep-ph]].
+
+ [3] P. Fayet, Nucl. Phys. B 347, 743 (1990).
+
+ [4] P. Langacker, arXiv:0801.1345 [hep-ph].
+
+ [5] C. Boehm and P. Fayet, Nucl. Phys. B 683, 219 (2004) [arXiv:hep-ph/0305261].
+
+ [6] J. H. Huh, J. E. Kim, J. C. Park and S. C. Park, Phys. Rev. D 77, 123503 (2008)
+     [arXiv:0711.3528 [astro-ph]].
+
+ [7] C. Bouchiat and P. Fayet, Phys. Lett. B 608, 87 (2005) [arXiv:hep-ph/0410260].
+
+ [8] P. Fayet, Phys. Rev. D 74, 054034 (2006) [arXiv:hep-ph/0607318]; P. Fayet, Phys.
+     Rev. D 75, 115017 (2007) [arXiv:hep-ph/0702176].
+
+ [9] N. Arkani-Hamed, D. P. Finkbeiner, T. Slatyer and N. Weiner, arXiv:0810.0713 [hep-
+     ph]; N. Arkani-Hamed and N. Weiner, arXiv:0810.0714; M. Pospelov and A. Ritz,
+     arXiv:0810.1502 [hep-ph].
+
+[10] O. Adriani et al., arXiv:0810.4995 [astro-ph].
+
+[11] A. E. Nelson and J. Walsh, Phys. Rev. D 77, 033001 (2008) [arXiv:0711.1363 [hep-
+     ph]]; J. Jaeckel, J. Redondo and A. Ringwald, Phys. Rev. Lett. 101, 131801 (2008)
+     [arXiv:0804.4157 [astro-ph]]; M. Pospelov, A. Ritz and M. B. Voloshin, arXiv:0807.3279
+     [hep-ph]; M. Ahlers, J. Jaeckel, J. Redondo and A. Ringwald, Phys. Rev. D 78, 075005
+     (2008) [arXiv:0807.4143 [hep-ph]].
+
+
+                                             12
+[12] B. Odom, D. Hanneke, B. D’Urso, and G. Gabrielse, Phys. Rev. Lett. 97, 030801
+     (2006).
+[13] G. Gabrielse, D. Hanneke, T. Kinoshita, M. Nio, and B. Odom, Phys. Rev. Lett. 97,
+     030802 (2006); Erratum: Phys. Rev. Lett. 99, 039902 (2007).
+[14] P. Cladé et al., Phys. Rev. Lett. 96, 033001 (2006); V. Gerginov em et al., Phys. Rev.
+     A 73, 032504 (2006).
+[15] P. D. Serpico and G.          G.   Raffelt,   Phys.    Rev.   D      70,   043526   (2004)
+     [arXiv:astro-ph/0403417].
+[16] M. Passera, W. J. Marciano and A. Sirlin, arXiv:0809.4062 [hep-ph].
+[17] G. W. Bennett et al. [Muon G-2 Collaboration], Phys. Rev. D 73, 072003 (2006)
+     [arXiv:hep-ex/0602035].
+[18] M. Davier, S. Eidelman, A. Hocker and Z. Zhang, Eur. Phys. J. C 27, 497 (2003)
+     [arXiv:hep-ph/0208177].
+[19] M. Davier, talk at TAU’2008             meeting,      Novosibirsk,     September     2008;
+     http://tau08.inp.nsk.su/prog.php
+[20] S. G. Karshenboim, Phys. Rept. 422, 1 (2005) [arXiv:hep-ph/0509010].
+[21] C. Bird, P. Jackson, R. V. Kowalewski and M. Pospelov, Phys. Rev. Lett. 93, 201803
+     (2004) [arXiv:hep-ph/0401195]; C. Bird, R. V. Kowalewski and M. Pospelov, Mod.
+     Phys. Lett. A 21, 457 (2006) [arXiv:hep-ph/0601090].
+[22] G. D’Ambrosio, G. Ecker, G. Isidori and J. Portoles, JHEP 9808, 004 (1998)
+     [arXiv:hep-ph/9808289].
+[23] R. Appel et al. [E865 Collaboration],         Phys. Rev. Lett. 83,           4482 (1999)
+     [arXiv:hep-ex/9907045].
+[24] H. K. Park et al. [HyperCP Collaboration], Phys. Rev. Lett. 88, 111801 (2002)
+     [arXiv:hep-ex/0110033].
+[25] V. V. Anisimovsky et al. [E949 Collaboration], Phys. Rev. Lett. 93, 031801 (2004)
+     [arXiv:hep-ex/0403036].
+[26] H. Park et al. [HyperCP Collaboration], Phys. Rev. Lett. 94, 021801 (2005)
+     [arXiv:hep-ex/0501014].
+[27] X. G. He, J. Tandean and G. Valencia, Phys. Rev. D 72, 074003 (2005)
+     [arXiv:hep-ph/0506067].
+[28] X. G. He, J. Tandean and G. Valencia, Phys. Lett. B 631, 100 (2005)
+     [arXiv:hep-ph/0509041].
+
+                                             13
+[29] N. G. Deshpande, G. Eilam and J. Jiang, Phys. Lett. B 632, 212 (2006)
+     [arXiv:hep-ph/0509081]; D. S. Gorbunov and V. A. Rubakov, Phys. Rev. D 73, 035002
+     (2006) [arXiv:hep-ph/0509147]; C. Q. Geng and Y. K. Hsiao, Phys. Lett. B 632, 215
+     (2006) [arXiv:hep-ph/0509175]; X. G. He, J. Tandean and G. Valencia, Phys. Rev. Lett.
+     98, 081802 (2007) [arXiv:hep-ph/0610362]; C. H. Chen, C. Q. Geng and C. W. Kao,
+     Phys. Lett. B 663, 400 (2008) [arXiv:0708.0937 [hep-ph]]; X. G. He, J. Tandean and
+     G. Valencia, JHEP 0806, 002 (2008) [arXiv:0803.4330 [hep-ph]].
+
+[30] T. Aaltonen et al., arXiv:0810.5357 [hep-ex].
+
+
+
+
+                                            14
+

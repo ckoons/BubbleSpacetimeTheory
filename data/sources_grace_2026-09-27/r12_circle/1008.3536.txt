@@ -1,0 +1,1052 @@
+                                                                                                                           IPPP/10/67; DCPT/10/134
+
+
+
+
+                                                         Spectroscopy as a test of Coulomb’s law
+                                                                                       –
+                                                                          A probe of the hidden sector
+
+                                                                              Joerg Jaeckel and Sabyasachi Roy
+
+                                                                          Institute for Particle Physics Phenomenology,
+                                                                     Durham University, Durham DH1 3LE, United Kingdom
+
+
+
+
+arXiv:1008.3536v2 [hep-ph] 2 Sep 2010
+                                                                                               Abstract
+                                                  High precision spectroscopy can provide a sensitive tool to test Coulomb’s law on atomic
+                                                  length scales. This can then be used to constrain particles such as extra “hidden” photons
+                                                  or minicharged particles that are predicted in many extensions of the standard model,
+                                                  and which cause small deviations from Coulomb’s law. In this paper we use a variety
+                                                  of transitions in atomic hydrogen, hydrogenic ions, and exotic atoms to probe Coulomb’s
+                                                  law. This extends the region of pure Coulomb’s law tests to larger masses. For hidden
+                                                  photons and minicharged particles this region is already tested by other astrophysical and
+                                                  laboratory probes. However, future tests of true muonium and muonic atoms are likely to
+                                                  probe new parameter space and therefore have good discovery potential for new physics.
+                                                  Finally, we investigate whether the discrepancy between the theoretical calculation of the
+                                                              F =2
+                                                  2sF =1
+                                                    1/2 − 2p3/2 transition in muonic hydrogen and its recent experimental measurement at
+                                                  PSI can be explained by the existence of a hidden photon. This explanation is ruled out by
+                                                  measurements of the Lamb shift in ordinary hydrogen.
+
+
+                                        1        Introduction
+                                        Precision spectroscopy has a long standing record of providing insights into fundamental physics.
+                                        In particular, the discrete nature of spectral lines has led to the discovery of quantum mechanics
+                                        and the discovery of the Lamb shift was one of the first confirmations of quantum electrody-
+                                        namics. With its ever increasing precision, spectroscopy can continue to provide a powerful
+                                        probe of new physics.
+                                            Concretely, in this paper we want to use spectroscopy to test Coulomb’s law with high
+                                        precision on atomic length scales [1–3]. This in turn allows us to obtain constraints on new
+                                        particles such as hidden photons [1, 4, 5] or minicharged particles [6, 7] which arise naturally in
+                                        a variety of extensions of the standard model [4, 8–13] (see also [14] for a review)1 .
+                                            At this point let us note that tests of Coulomb’s law are an especially clean and model
+                                        independent probe of such new particles as the sensitivity does not depend on the stability of
+                                        the particles or the presence/absence of certain decay channels. To illustrate this point, let
+                                        us take fixed target experiments (see, e.g. [16]) as an example. These experiments typically
+                                        rely on a displaced vertex and therefore on a relatively long decay length of a hidden photon
+                                        produced in electron-nucleus collision. Now, let us assume that there is also matter charged
+                                        under the hidden U(1) (i.e., it couples directly to the B µ field in Eq. (2.1)). If this additional
+                                        “hidden matter” is lighter than mγ ′ /2, the hidden photon decays quickly into a pair of these
+                                            1
+                                                Spectroscopy can even be useful for constraining Unparticles (see e.g. [15]).
+
+
+                                                                                                    1
+particles, dramatically shortening the decay length and possibly invalidating the bound. Tests
+of Coulomb’s law therefore provide interesting complementary information.
+    In the following our prime example will be hidden photons which (as we will briefly recall
+below) cause a deviation of Coulomb’s law of the form
+                                                Zα
+                                    V (r) = −      (1 + e−mγ′ r χ2 )                        (1.1)
+                                                 r
+where mγ ′ is the mass of the hidden photon and χ is a so-called kinetic mixing [8]. Independent
+of this particle interpretation, our bounds can also be taken as a parametrisation of a deviation
+from Coulomb’s law by a Yukawa type potential with a characteristic length scale ∼ 1/mγ ′ .
+The length scale of ordinary atoms are typically of the order of the Bohr radius and correspond
+to masses of the order of keV. Exotic atoms, such as muonic hydrogen where the electron is
+replaced by a muon are even smaller, being most sensitive to masses of order MeV or above.
+To complement existing spectroscopic tests [1–3] we will pay particular attention to the latter
+regime.
+    The paper is set up as follows. In the next section we will briefly recall how new particles
+can modify Coulomb’s law focusing on our main example, the hidden photon. Minicharged
+particles are discussed in App. A. In section 3 we give a detailed explanation of the method we
+use to constrain hidden photons, including a discussion of how to obtain the proper behaviour
+for small (and large) hidden photon masses (section 3.1.2). In section 4 we apply this method
+to construct bounds from a variety of atomic spectra. Sections 4.1 and 4.2 deal with ordinary
+hydrogenic atoms, whereas sections 4.3, 4.4, and 4.5 deal with exotic atoms. Particularly inter-
+esting speculative bounds are calculated for true muonium and muonic hydrogen. In sections
+4.4.2 and 4.5 we show that future measurements of true muonium and muonic atoms promise
+significant discovery potential for new physics. Finally, in section 5 we discuss whether the
+hidden photon can be used to explain an anomaly recently observed in muonic hydrogen. We
+conclude in section 6.
+
+
+2    Hidden photons and deviations from Coulomb’s law
+Hidden photons can interact with the photon via a so-called kinetic mixing [4, 8],
+                         1          1          χ          1
+                    L = − Fµν F µν − Bµν B µν + Bµν F µν + m2γ ′ Bµ B µ                     (2.1)
+                         4          4          2          2
+where Fµν and Bµν are the photon (Aν ) and hidden photon (B ν ) field strengths. Both Fµν
+and Bµν are individually gauge invariant, so the third mixing term is allowed. Since the mixing
+term has a mass dimension of 4, the kinetic mixing parameter χ has a mass dimension of zero
+and therefore is a renormalisable coupling. This means that it is not suppressed by any higher
+mass scales and should be observable (even if small) at lower energies. We also note the fourth
+term which indicates that the hidden photon has a non zero mass. From the point of view of
+low energy effective theory, χ and mγ ′ are simply free parameters which are not constrained by
+any particular physical mechanism. However, extensions of the standard model based on, for
+example, string theory predict values in the range [9, 12, 13],
+
+                                         10−12 . χ . 10−3 .                                 (2.2)
+
+A summary of the current bounds on the parameter χ can be found in Fig. 1.
+   The kinetic mixing term in Eq. (2.1) causes a tree level insertion to the photon propagator as
+shown in Fig. 2. An important physical implication of this is the addition of a new Yukawa-type
+term to the Coulomb potential,
+                                  Zα
+                      V (r) = −      (1 + e−mγ′ r χ2 ) ≡ VCoulomb (r) + δV (r),             (2.3)
+                                   r
+
+                                                   2
+Figure 1: Summary of the current bounds on hidden photons (compilation from [14,17] updated
+with [2, 3]). We note that in addition to the bound labelled “Coulomb”, the bounds labelled
+“Earth”, “Jupiter” and “Rydberg” also originate from tests of Coulomb’s law. The best bounds
+that we derive from atomic spectra are represented by the black lines. The dashed black line is
+from the Lamb shift in atomic hydrogen. The dotted black line is a combined bound from the
+1s1/2 − 2s1/2 and 2s1/2 − 8s1/2 transitions in atomic hydrogen. The solid black line is the bound
+obtained from the Lamb shift in hydrogen-like helium ions. The light orange areas correspond
+to regions suggested by astrophysical and cosmological puzzles [18–22]. The brown region is
+derived from measurements of the Rydberg constant, and represents bounds already obtained
+from atomic spectra [1–3].
+
+
+
+
+                                                        γ
+
+                                      γ                 γ′
+
+                                                        γ
+
+
+Figure 2: Feynman diagrams for the potential between two charged particles, Eq. (2.3). In
+particular the second diagram gives the hidden photon contribution to the interaction between
+two charged particles, leading to a modification of Coulomb’s law.
+
+
+
+
+                                               3
+where Z is the charge of the massive central particle which causes the potential and α is the
+fine structure constant.
+    Note the following limits,
+
+    • mγ ′ → 0:
+      Here the exponential term tends to unity and we recover the original Coulomb potential
+      up to a factor (1 + χ2 ). This can be absorbed in the definition of α, making it unobserv-
+      able. Physically this is sensible, since in the zero mass limit our hidden photon becomes
+      indistinguishable from the standard model photon, at least as far as the electromagnetic
+      force is concerned. Therefore no physical effects, such as a deviation from Coulomb’s law,
+      should be observable.
+
+    • mγ ′ → ∞:
+      Here the second exponential term dies off and leaves us with the original Coulomb po-
+      tential. Again this makes sense, since in the large mass limit the hidden photon becomes
+      impossible to excite as a virtual particle and therefore should not contribute to the elec-
+      tromagnetic force.
+
+    • Intermediate mγ ′ :
+      We expect non zero deviations from Coulomb’s law in this region. In particular, we will
+      find that the most significant deviation occurs for mγ ′ ∼ l10 where l0 is the length scale of
+      the relevant physical process.
+
+    Therefore any constraints on hidden photons based on deviations from Coulomb’s law will
+be strongest around mγ ′ ∼ l10 and drop off on either side in the low and high mass limits. Here,
+l0 will be given by the length scale of the atom in question. There exist a range of different
+atomic systems, including ordinary hydrogen, muonic atoms, and more exotic atoms. Therefore
+we can test a wide range of masses, from keV to larger than MeV.
+
+
+3    Obtaining constraints using atomic spectra
+To obtain our constraints we adapt the method presented in Ref. [6], where the measurement
+of the Lamb shift is used to derive a bound on minicharged particles.
+    At first order in perturbation theory the energy shift of a state |ψn i is given by
+
+                             δEn(1) = hψn | H ′ | ψn i = hψn | δV | ψn i                       (3.1)
+
+where the |ψn i are taken to be the 0th order wave functions. For this to be a good approximation
+the energy shift should be small. This is consistent with what we expect, since so far no large
+deviations from the standard QED predictions have been observed. If the standard prediction
+                                                                                (1)
+and the experimentally measured values agree, then we can impose that δEn must be smaller
+than the uncertainty in the transition. This will result in a bound on δV .
+    Let us briefly comment on some points relating to these uncertainties that will be relevant
+for our discussion.
+
+    • “Same n” and “different n” transitions
+      We can write the theoretical energy of an arbitrary state as;
+                                                   D,R
+                                         En,l,j = En,j + Ln,l,j                                (3.2)
+
+      where the first term is the sum of energies from the Dirac equation plus recoil corrections
+      (effectively the 0th order energy). The second term is the Lamb shift (defined as any
+      contribution which separates states of the same n,j).
+
+
+                                                 4
+  The first term is proportional to the Rydberg constant R∞ and therefore will have an
+  uncertainty of approximately 10−10 eV [23]. This means that any transitions between
+  states of different n in atomic hydrogen will have a theoretical error contribution of around
+  10−10 eV from R∞ .
+  The situation is worse in exotic atoms, as the effective Rydberg constant is modified by a
+  factor proportional to the reduced masses µH , µexotic of atomic hydrogen and the exotic
+  atom respectively,
+                                              µexotic
+                                      Ref f =         R∞ .                             (3.3)
+                                                µH
+  So that in, for example, muonic hydrogen, there would be a fractional uncertainty of
+  around 10−7 due to the mass of the muon, which would cause an overall uncertainty of at
+  least 10−4 eV.
+  Note that transitions between same n states do not have a 0th order energy and are
+  limited only by uncertainties in the Lamb shifts of the states.
+
+• Definition of “uncertainty”
+
+  To be very conservative when forming bounds, we estimate the total uncertainty of a
+  transition by adding together the absolute values of the theoretical and experimental
+  errors, i.e. for a given measurement M we use
+
+                                 ∆M = |∆M (th)| + |∆M (exp)|                               (3.4)
+
+  The theoretical contribution to ∆M will come mainly from uncertainties in the finite
+  nuclear size, with an additional contribution from the Rydberg constant in the case of
+  different n transitions. For most of the atoms we consider, data for the finite nuclear size is
+  coherent. For example the hydrogenlike helium ion has three different electron scattering
+  determinations, and also a muonic helium ion determination, of the alpha particle charge
+  radius. These values all agree within 1 σ [24], meaning that to a good approximation we
+  can calculate the theoretical value for a transition by assuming one particular value of the
+  nuclear radius. We can estimate the uncertainty from finite nuclear size effects simply by
+  considering the uncertainty in this one value of the nuclear radius. This is indeed what is
+  done in theoretical calculations to which we refer, and the corresponding error is included
+  in |∆M th |.
+  However when we consider atoms with a proton nucleus things become more compli-
+  cated. The recent muonic hydrogen determination of rp = 0.84184(67) fm [25] gives us
+  the most precise measurement from atomic spectra. This disagrees with our best previous
+  atomic spectra determination of rp = 0.8768(69) fm from [23] by around 5 σ. The muonic
+  hydrogen extraction also deviates by around 2.5 σ from the best electron scattering de-
+  termination of rp = 0.897(18) fm [26]. To be conservative we therefore modify our error
+  analysis to take into account the large variation in rp . We do this by adding an additional
+  term |∆M (rp )|, accounting for the discrepancies in the rp measurements,
+
+                         ∆M ∗ = |∆M (th)| + |∆M (exp)| + |∆M (rp )|.                       (3.5)
+
+  To leading order the proton radius contribution to a given state is
+
+                                                   2m3o α4 rp2
+                                    EN S (rp ) =               δl0 ,                       (3.6)
+                                                     3n3
+  where mo is the mass of the orbiting particle. In atomic hydrogen mo = me , and in
+  muonic hydrogen mo = mµ . We make a rough estimate for |∆M (rp )| by considering
+
+                                             5
+        two widely separated values of the proton radius. Denoting rp,µ = 0.84184(67) fm as
+        the muonic hydrogen determination, and rp,e = 0.897(18) fm as the electron scattering
+        determination, we set
+
+                                    |∆M (rp )| = |EN S (rp,e ) − EN S (rp,µ )|.               (3.7)
+
+        To form bounds we use ∆M ∗ for atoms with a proton nucleus, which in our paper are
+        atomic hydrogen and muonic hydrogen. We use ∆M for all other atoms.
+        Note that errors quoted in the text will always be at the 1 σ (∼ 68% confidence level).
+        However, unless otherwise stated we will consider 2σ errors (∼ 95% confidence level) for
+        the bounds produced in the figures. This essentially means that all terms on the right
+        hand side of (3.5), (3.4) are multiplied by a factor of 2.
+
+   • Radius of the proton and other nuclei
+     As already discussed the (charge) radii of the nuclei are a major source of uncertainty. In
+     addition, we have to take care that our determination of the radii is from an independent
+     source. For example we can not take a measurement of the Lamb shift in ordinary
+     hydrogen to measure both the radius of the proton and put a bound on deviations from
+     Coulomb’s law. Two independent measurements are needed. Moreover to avoid even
+     partial degeneracies (which tend to weaken the bound in particular at short length scales),
+     it is best if the determination of the radius is obtained at relatively high momentum
+     transfer, corresponding to a short length scale. For this reason we will mainly use the
+     values obtained from electron scattering data.
+
+3.1     Searching for deviations from Coulomb’s law
+3.1.1     Naive bounds
+Let us briefly demonstrate how this method works by using the Lamb shift, i.e. the 2s1/2 −2p1/2
+transition in atomic hydrogen to constrain the hidden photon. We use δV given by Eq. (2.3).
+   For this case Eq. (3.1) evaluates,
+
+                                                                            α a m2γ ′
+                          Z ∞
+                                dr r 2 δV (r) R20
+                                              2         2
+                                                            (r) = −χ2
+                                                               
+                   δE =                           (r) − R21                               .   (3.8)
+                          0                                              2(1 + amγ ′ )4
+
+where we have used the normalised radial hydrogen wave functions Rnℓ given by
+                    1    1      ρ                         1     1
+         R20 (r) = √     3/2
+                             1 −    exp(−ρ/2) , R21 (r) = √      3/2
+                                                                     ρ exp(−ρ/2)              (3.9)
+                     2 a         2                         2 6 a
+
+and where ρ = r/a and a−1 = αme .
+    We use an experimental uncertainty of 3 kHz [27] and theoretical uncertainty of 6 kHz [28],
+as well as a contribution of 17 kHz from |∆M (rp )| (3.7). We use (3.5) to get ∆M ∗ = 10−10 eV
+at the 1 σ level. Note that the (blue) curve for the 2s1/2 − 2p1/2 transition (Fig. 3) is at the 2
+σ level.
+    This has the correct shape; the bound dies off the in the limits mγ ′ → 0 and mγ ′ → ∞, and
+is strongest at mγ ′ ∼ a1 , where the Bohr radius a is the typical length scale involved.
+    We can do the same for the 1s1/2 − 2s1/2 transition in atomic hydrogen. The experimental
+value has a relative uncertainty 2.8 × 10−14 and represents the most precise measurement of
+atomic hydrogen [29]. However, the bounds are limited by a much larger theoretical uncertainty.
+As already discussed above there are uncertainties of around 10−10 eV from the Rydberg con-
+stant as well as a similar contribution from the Lamb shifts of the states [30]. We also need to
+add the |∆M (rp )| contribution of ∼ 7 × 10−10 eV to get ∆M ∗ = 1 × 10−9 eV at the 1 σ level.
+
+
+                                                     6
+Figure 3: The blue curve denotes the bound on hidden photons obtained from the 2s1/2 − 2p1/2
+transition in atomic hydrogen. We use a conservative error of ∆M ∗ = 2 × 10−10 eV at the 2
+σ level where ∆M ∗ is defined in (3.5). Note that for same n transitions χ dies off correctly
+for both small and large mγ ′ . The red curve shows the naive bound from the 1s1/2 − 2s1/2
+transition in atomic hydrogen. It has an incorrect behaviour at small mγ ′ . The green curve
+gives the correct bound obtained by combining the 1s1/2 −2s1/2 with the 2s1/2 −8s1/2 transition,
+according to the procedure described in Sect. 3.1.2. The green and blue bounds will turn out
+to be the best ones that we can derive from atomic spectra, and are combined together in Fig.
+1. For comparison we depict earlier bounds on hidden photons as the colour filled regions.
+Those corresponding to pure tests of Coulomb’s law (also obtained from atomic spectra) are
+highlighted in brown [1–3]. The remaining white region corresponds to unexplored parameter
+space.
+
+
+
+   For the first order energy shift we have
+                         Z ∞
+                                                       2
+                             dr r 2 δV (r) R20
+                                           2                
+                δE =                           (r) − R10 (r)                              (3.10)
+                          0
+                                                                                  
+                          2    12 + amγ ′ (60 + amγ ′ (87 + 14amγ ′ (4 + amγ ′ )))
+                     = χ α                                                           ,
+                                           4a(1 + amγ ′ )4 (2 + amγ ′ )2
+
+where
+                                                   2
+                                      R10 (r) =          exp(−ρ).                         (3.11)
+                                                  a3/2
+    The result is shown in Fig. 3 as the red curve. This bound does not have the correct drop
+off for small masses. We can understand why by looking at δV (r) in Eq. (2.3), which dies
+off at large masses but grows at small masses. Therefore we get a bound which saturates at
+small masses, which is not physically correct. This is simply an artefact of the splitting of
+the potential that we have chosen to set up our perturbation theory. At small masses our
+perturbation reduces to a term that has the form of a Coulomb potential, but with an extra
+factor (1 + χ2 ). This effectively increases the strength of the electromagnetic coupling and
+therefore the energy difference between the two states. In other words we have forgotten to
+properly (re-)normalise the coupling α, i.e. we have not absorbed the factor (1 + χ2 ) into our
+definition of α. In the following we will show explicitly how this can be remedied.
+    One might wonder why this problem does not affect the Lamb shift bound. The reason
+is simply that for a perfect Coulomb’s law the energies of 2s1/2 and the 2p1/2 are degenerate.
+Therefore, adding a term of the Coulomb’s law form does not produce an energy shift between
+the two states at lowest order. This is true for all same n transitions.
+
+
+
+                                                   7
+3.1.2   Bounds including a proper renormalisation of α
+As we have seen above, the problem is that for both mγ ′ → ∞ and mγ ′ → 0 the potential
+Eq. (2.3) has exactly the 1/r behaviour of a Coulomb potential. However the coupling constant
+differs by a factor (1 + χ2 ). α becomes a function of χ and mγ ′ , i.e the hidden photon alters
+the coupling constant itself. In that sense α becomes an unknown quantity that needs to be
+fixed by experiment. Since we now have two unknowns, χ and α, we need two measurements to
+solve for them (of course the same strategy also works if we allow other/additional parameters
+to vary). We will briefly sketch how we do this.
+    Let us assume we have two observables M1 and M2 . Theoretically these are functions of α,
+  2
+χ and mγ ′ . To keep the notation transparent we will suppress the dependence on mγ ′ in the
+following. Therefore, we have M1 (α, χ2 ) and M2 (α, χ2 ).
+    Now we have two measurements and results are often quoted in the form
+
+                                M1 |exp − M1 |th = δM1 ± ∆M1 ,                                  (3.12)
+                                M2 |exp − M2 |th = δM2 ± ∆M2 ,                                  (3.13)
+
+without considering a hidden photon. Therefore, in our setup this means
+
+                              M1 |exp − M1 (α0 , 0) = δM1 ± ∆M1 ,                               (3.14)
+                              M2 |exp − M2 (α0 , 0) = δM2 ± ∆M2 ,                               (3.15)
+
+with some value α0 such that both δM1 and δM2 are small. If α0 can be chosen that δM1 and
+δM2 are compatible with 0 within the errors, then the measurements are consistent with the
+standard model and no hidden photon is required.
+   Now, what happens if we include a hidden photon? As we are interested in small corrections,
+we can expand about (α, χ) = (α0 , 0). Hence we obtain
+
+                  ∂M1                    ∂M1
+                      |α=α0 ,χ2 =0 δα +      |      2   χ2 = δM1 ± ∆M1 ,                        (3.16)
+                   ∂α                    ∂χ2 α=α0 ,χ =0
+                   ∂M2                    ∂M2
+                       |α=α0 ,χ2 =0 δα +       |     2   χ2 = δM2 ± ∆M2 .                       (3.17)
+                    ∂α                    ∂χ2 α=α0 ,χ =0
+In matrix notation this linear system of equations reads,
+                                                        !
+                 ∂M1                 ∂M1
+                     |                    |
+                                                                          
+                  ∂α  α=α  0 ,χ 2 =0
+                                     ∂χ 2  α=α0 ,χ 2 =0    δα     δM1 ± ∆M1
+                 ∂M2                                           =                                (3.18)
+                  ∂α |α=α0 ,χ2 =0
+                                     ∂M2
+                                     ∂χ2 |α=α0 ,χ2 =0
+                                                           χ2     δM2 ± ∆M2
+
+which can be easily solved
+                                                                    !−1 
+                              ∂M1                ∂M1
+                               ∂α |α=α0 ,χ2 =0   ∂χ2 |α=α0 ,χ2 =0
+                                                                                      
+                 δα                                                         δM1 ± ∆M1
+                          =                                                                 .   (3.19)
+                 χ2           ∂M2
+                               ∂α |α=α0 ,χ2 =0
+                                                 ∂M2
+                                                     |
+                                                 ∂χ2 α=α0 ,χ2 =0
+                                                                            δM2 ± ∆M2
+
+From this we can directly read off the allowed values of χ2 .
+   For the cases of interest to us it is typically sufficient to determine the derivatives ∂Mi /∂α,
+∂Mi /∂χ2 to lowest order in α and χ2 . For example, in the previous subsection we have used first
+order perturbation theory, and determined the shift in energy to be δE = χ2 f (mγ ′ ), accordingly
+∂E/∂χ2 = f (mγ ′ ).
+   Let us confirm that this procedure corrects the behaviour of bounds for small m2γ ′ . We
+consider a simple example where, in absence of hidden photons, both observables behave as
+simple power laws, ∼ αn1 and ∼ αn2 , respectively,
+
+                   Mi = Mi |χ2 =0 + δχ2 Mi = ci αni + ci αni χ2 fi (mγ ′ ) + O(χ4 ).            (3.20)
+
+                                                    8
+The term in δχ2 Mi is the hidden photon contribution calculated in first order perturbation
+theory (3.1) using the potential (2.3). Note that for convenience we have written the correction
+with ci and χ2 factored out, with the remaining factor represented by a function fi (mγ ′ ).
+    From Eq. (2.3) we can see that δV (r) term dies off at large mγ ′ . Hence the function
+fi (mγ ′ ) → 0 as mγ ′ → ∞. However, the perturbation actually grows towards smaller masses,
+and fi (mγ ′ ) tends to a constant limit. Before addition of the hidden photon we can write the
+Coulomb potential as
+                                                      Zα
+                                           V0 (r) = −                                      (3.21)
+                                                       r
+and after the hidden photon is added we can write
+                                                      Zα
+                                          V (r) = −      (1 + χ2 )                                 (3.22)
+                                                       r
+where we have taken the limit mγ ′ → 0. Hence the fine structure constant has essentially been
+redefined
+                                       α → α(1 + χ2 ).                                   (3.23)
+   Therefore, for mγ ′ → 0, we have an alternative way to obtain the perturbation: we can
+simply insert the redefined α into the unperturbed expression. This yields,
+
+                                  Mi = ci αni + ni ci αni χ2 + O(χ4 ).                             (3.24)
+
+Comparing (3.20) with (3.24) we can see that fi (mγ ′ ) → ni as mγ ′ → 0.
+  Inserting (3.20) into our general expression (3.19) we find,
+                                               n1 δM2       n2 δM1
+                                              M2 (α0 ,0) − M1 (α0 ,0)
+                                   χ2 =                                     .                      (3.25)
+                                          (n1 f2 (mγ ′ ) − n2 f1 (mγ ′ ))
+
+   If both δMi are consistent with 0 we can obtain a bound on χ2 . To be conservative we
+simply add the moduli of the two individual errors,
+                                               n1 |∆M2 |
+                                                   M2    + n2 |∆M
+                                                               M1
+                                                                  1|
+
+                                  χ2 ≤                                          .                  (3.26)
+                                          |(n1 f2 (mγ ′ ) − n2 f1 (mγ ′ ))|
+
+where |∆M | is defined in (3.4). For transitions in atomic hydrogen and muonic hydrogen we
+use |∆M ∗ | defined in (3.5).
+   There are two interesting limits2
+
+      • mγ ′ → ∞: Here f1 (mγ ′ ), f2 (mγ ′ ) → 0 so the upper bound on χ2 increases and the bound
+                                                                             −(2+2l)
+        dies off. Indeed one finds that the functions f (mγ ′ ) decay as mγ ′        at high masses
+        where l is the lowest angular momentum value involved in the transition. A 2s − 2p
+        transition would have l = 0 and a 3p − 3d transition would have l = 1 etc. Our bounds
+        effectively die off as
+                                                         (1+l)
+                                                   χ ∼ mγ ′ .                                (3.27)
+        Therefore, if we use transitions with higher values of l the bounds die off more quickly.
+
+      • mγ ′ → 0: Here f1 (mγ ′ ) → n1 , f2 (mγ ′ ) → n2 so the denominator tends to zero. Again the
+        upper limit on χ2 increases and the bound dies off.
+  2
+    We note, that in the regions where the bounds become very weak and χ = O(0.1 − 1), perturbation theory
+breaks down. But these regions are typically excluded anyway.
+
+
+
+
+                                                      9
+Overall, we obtain the expected behaviour in the small and large mass limits.
+    In Fig. 3 we show the correctly renormalised 1s1/2 − 2s1/2 (green) versus the naive bound
+(red). Here, and unless otherwise stated we will take M1 to be the 2s1/2 − 8s1/2 transition
+in atomic hydrogen, simply because it is experimentally measured to a high precision of 3 ×
+10−11 eV [31]. This is similar to the theoretical error of 4.5×10−11 eV from R∞ and 5×10−11 eV
+from the Lamb shift of the 2s1/2 state. Added together with the ∆M (rp ) contribution we get
+an overall uncertainty of 2 × 10−10 eV at the 1 σ level.
+    The measurements themselves do not need to be from atomic spectra. The same technique
+works for any process which is affected by the hidden photon.
+    Also note that this renormalisation procedure works trivially for same n transitions. If we
+consider just one measurement M , and note that the 0th order energy M0 vanishes,
+
+                                  M = cα2 χ2 f2 (mγ ′ ) + O(χ4 ).                            (3.28)
+
+M ∝ χ2 , so that δα corrections obtained from a second measurement would produce negligible
+terms of O(χ4 ). Therefore information from the second measurement is suppressed. This
+means that we can form properly renormalised bounds for same n transitions using only one
+measurement M and with only one error ∆M .
+
+
+4     New bounds
+4.1   Ordinary atomic hydrogen
+The bounds from 2s1/2 − 2p1/2 (blue) and the properly renormalised 1s1/2 − 2s1/2 bound (green)
+are shown in Fig. 3. We can see that neither of these penetrate new parameter space for hidden
+photons. However, they constitute the best pure tests of Coulomb’s law in this region of
+parameter space.
+    So far, all of our transitions have involved the 1s1/2 or 2s1/2 states. These have Lamb shifts
+with high theoretical uncertainty due to finite nuclear size effects. This is because the 0th order
+wavefunctions for s states are non zero at the origin and therefore penetrate the nucleus deeply,
+leading to large uncertainties from finite nuclear size effects. This will also be true for s states
+with n > 2. States with l > 0 have 0th order wavefunctions which are zero at the origin and
+therefore have a small overlap with the nucleus. This means that the Lamb shift uncertainties
+are small. Therefore transitions between same n states with l > 0 (for example 3p1/2 − 3d1/2 )
+will have extremely small theoretical uncertainties. Unfortunately, these kinds of excited states
+are unstable and the experimental measurements have large uncertainties. We also note that
+the bounds in these transitions decay more quickly with energy (3.27), causing them to die off
+well before they reach unknown parameter space. Therefore, barring significant technological
+advances, transitions between states with l > 0 are not very useful for constraining χ.
+
+4.2   Ions with Z > 1
+The Lamb shift bound for atomic hydrogen almost penetrates the unknown region, so we can
+look at hydrogenic ions with Z>1. The advantage here is that the characteristic energy of
+transitions scales as Z, so higher values of Z will move our bounds towards the right and towards
+the white region. The disadvantage is the higher theoretical uncertainties involved. This is due
+to an increase in the size of the nucleus, as well as a decrease in the Bohr radius (which scales
+as Z1 and gives the characteristic length scale of the electron orbit). Unfortunately, this also
+causes the electron to penetrate the nucleus more deeply, which leads to greater theoretical
+uncertainties from finite nuclear size effects. Our bounds then move upwards and away from
+the white region. We can produce bounds for different values of Z to see which of these effects
+wins out.
+
+
+                                                10
+Figure 4: χ bounds for the 2s1/2 − 2p1/2 transition in hydrogenic ions with Z = 2 (black),
+Z = 15 (green), and Z = 110 (yellow dashed, speculative). At the 2 σ level the uncertainties
+are 3 × 10−9 eV [24], 6 × 10−4 eV [32, 33] and 8 eV [33] respectively. We can see that as Z
+increases our bounds move away from the white region and therefore become less useful.
+
+
+
+    Ref. [24] gives experimental and theoretical errors for the helium ion 2s1/2 − 2p1/2 transition
+of 0.16 MHz and 0.2 MHz respectively, giving ∆M = 1.5× 10−9 eV at the 1 σ level. (Remember
+that for atoms without a proton nucleus, we do not have to consider large variations in nuclear
+size, and therefore use (3.4).) For Z = 15 the experimental [32] and theoretical errors [33]
+combine to give a value of ∆M = 3 × 10−4 eV at the 1 sigma level. Finally we can go to the
+largest value of Z for which data is available. Ref. [33] gives a theoretical uncertainty for the
+Z = 110 transition of ∼ 4 eV. As no experimental data exists we can only derive a speculative
+bound. Also, if we were to take into account hypothetical experimental data, then the errors
+would increase and the bound would weaken. The estimated sensitivity shown in yellow in
+Fig. 4 is therefore an optimistic one, but it is still adequate to demonstrate the trend which we
+are trying to identify.
+    We can see that as we go to higher values of Z, the increase in uncertainties cause our
+bounds to move up and away from the untested region, with our bounds actually becoming less
+and less stringent. We should expect this trend to be similar for other possible transitions, for
+example 1s1/2 − 2s1/2 .
+    Note that due to the increase in the uncertainty of the Lamb shift in atomic hydrogen caused
+by the inconsistent values of the proton radius, the bound from hydrogen-like helium is actually
+slightly better. As soon as this inconsistency is clarified the trend identified above will probably
+hold again.
+
+4.3   Exotic atoms
+Exotic atoms have certain advantages over atomic hydrogen:
+
+   • Pure QED systems like muonium and positronium may have smaller fractional theoretical
+     uncertainties, as all experimental data is consistent with pointlike leptons [34]. This
+     enables us to assume a pointlike effective nucleus, which eliminates the major source of
+     theoretical uncertainty.
+
+   • Most exotic atoms have larger reduced masses than atomic hydrogen, shifting our bounds
+     to higher energies and towards the untested region.
+
+   Disadvantages:
+
+
+
+                                                11
+   • Higher mass systems often have greater theoretical uncertainty (leptonic systems ex-
+     cluded). This is because the larger reduced mass leads to a smaller Bohr radius of the
+     system. Bound state orbits then penetrate the nucleus more deeply, which then leads to
+     greater corrections due to finite nuclear size effects.
+
+   • Similarly, hadronic atoms and atoms with Z>1 have larger nuclei than atomic hydrogen,
+     again causing larger finite nuclear size effects.
+
+   • Hadronic orbiting particles also interact with the nucleus via the strong interaction,
+     which causes huge theoretical and experimental uncertainties.They do not produce strong
+     bounds, but for completeness we briefly review them in App. C.
+
+4.4     Leptonic atoms
+4.4.1    Positronium
+We briefly note that positronium is not useful as the reduced mass is actually smaller than that
+of atomic hydrogen, and the uncertainties are much higher. For example the 1s − 2s and 2s − 2p
+transitions are limited by large experimental uncertainties, which are caused by complications
+such as annihilation [35–37]. The uncertainties are around two orders larger, which gives a
+bound on χ around one order of magnitude weaker.
+
+4.4.2    Muonium
+Ordinary muonium (µ+ e− ) and true muonium (µ+ µ− ) are more interesting.
+    Experimental results have already been produced for the 1s1/2 − 2s1/2 and 2s1/2 − 2p1/2
+transitions in ordinary muonium, but the resulting bounds do not improve on atomic hydrogen.
+We note that the reduced mass of ordinary muonium is almost the same (in fact slightly smaller)
+than atomic hydrogen, so we could only get better bounds if uncertainties were reduced.
+    In fact the 1s1/2 − 2s1/2 transition suffers from large theoretical errors associated with the
+effective Rydberg constant (3.3). This produces a fractional error larger than that of atomic
+hydrogen and consequently a weaker bound.
+    The 2s1/2 − 2p1/2 transition suffers from no such 0th order uncertainties, and indeed we
+expect the theoretical uncertainty to be smaller than atomic hydrogen since there are no finite
+nuclear size effects. However the experimental situation is not yet very good. Only 1s1/2 states
+can be produced in large quantities, whereas the production of metastable 2s1/2 states is much
+lower [38]. This means that the 2s1/2 − 2p1/2 transition has only been experimentally measured
+to a fractional precision of 1.5 × 10−2 at the 1 σ level, leading to weak bounds.
+    A recent article [39] suggests that true muonium can be produced and studied in the near
+future. This atomic system would be extremely useful, as it has a reduced mass of around
+2 orders of magnitude greater than atomic hydrogen, and we expect the theoretical errors to
+be low due to the absence of finite nuclear size effects. Since no experimental data has been
+produced yet, there has been no motivation for precise theoretical calculations. However, we
+can put together a rough theoretical estimate (see App. B for details) to form a speculative
+bound. This is shown as the black line in Fig. 5. This is encouraging as it penetrates new
+parameter space. However, one still needs to obtain a coherent experimental result, and hope
+that the experimental error is not so large that it causes the bound to significantly deteriorate.
+
+4.5     Muonic atoms
+The reduced mass of these systems is around 200 times larger than atomic hydrogen, shifting
+our bounds towards larger masses.
+
+
+
+                                               12
+Figure 5: The black dashed curve shows a speculative bound on χ for the 2s1/2 −2p1/2 transition
+in true muonium. This is formed using only an estimate of the theoretical uncertainty of ∼ 0.1
+GHz (see appendix B). If the experimental result is measured to a similar precision and agrees
+with theory, we will be able to form a bound similar to this and penetrate new parameter
+space. The green solid curve shows an actual bound formed from the 2sF1/2  =1 − 2pF =2 transition
+                                                                                  3/2
+in muonic hydrogen. There is a large theoretical error ∆M ∗ = 1.2 × 10−3 eV at the 2 σ level.
+This is caused by the wide range of possible values of rp . The red dashed curve uses the muonic
+hydrogen transition to form a speculative bound. The error here is taken to be just the 2 σ
+experimental uncertainty of 6 × 10−6 eV [25]. Finally, the blue curve shows a bound obtained
+by combining the measurement of the Lamb shift in ordinary hydrogen and the 2sF1/2    =1 − 2pF =2
+                                                                                             3/2
+transition in muonic hydrogen. Using these two measurements we do not need an additional
+determination of the proton radius.
+
+
+
+   The 2sF1/2
+            =1 − 2pF =2 difference in muonic hydrogen is calculated to be [25, 40–45]
+                   3/2
+                                             r 2           r 3 
+                                                p               p
+                 E = − 209.9779(49) − 5.2262        + 0.0346          meV.                  (4.1)
+                                               fm              fm
+
+    If we substitute in the most precise current value of rp = 0.8768(69) fm which is obtained
+from atomic spectra [23], we obtain a theoretical value of E = −205.984(062) meV. The theo-
+retical uncertainty alone is quite high. Moreover, the theoretical value also deviates from the
+recently measured experimental value of −206.295000(3) meV [25] by around 5σ. This large
+discrepancy is bad for producing bounds, but it could be taken as a potential signal for new
+physics. We will consider this in the final Sect. 5. However, we can still form a bound if
+we use the (inflated) error given in (3.5). The rp variation increases the uncertainty to give
+∆M ∗ = 6 × 10−4 eV at the 1 σ level. The solid green curve shows the corresponding bound at
+the 2 σ level. In the large mass region this bound is of comparable strength to the one from
+the Lamb shift in ordinary hydrogen.
+    However if we just use the experimental uncertainty we can form a speculative bound Fig. 5.
+This bound covers a similar region to the speculative bound obtained from true muonium (black
+curve) and penetrates the unknown region.
+    If an independent and sufficiently precise value of rp could be determined – consistent
+with the muonic hydrogen extraction – the speculative bound could be turned into a real
+one. This provides us with motivation for seeking more precise, independent determinations
+of the proton radius. However, as we have discussed in Sect. 3, in order to avoid degeneracies
+this measurement should preferably originate from measurements at relatively high momentum
+transfer. At the moment the only obvious candidate process is electron scattering, although an
+increase in the precision by an order of magnitude may be challenging.
+
+                                               13
+5       Muonic hydrogen anomaly∗
+As already mentioned above a recent measurement [25] of the Lamb shift in muonic hydrogen,
+or more precisely the 2sF1/2=1 − 2pF =2 transition, deviates by more than 5σ from theoretical
+                                    3/2
+calculations combined with atomic spectra measurements of the proton radius. It is tempting
+to speculate that this deviation is due to a hidden photon [46]. In this section we will briefly
+investigate if such an interpretation is possible.
+    The first observation is that the addition of the hidden photon increases the binding energy
+of the s-state compared to the p-state. This makes the Lamb-shift in muonic hydrogen more
+negative, in line with the observed effect.
+    Encouraged by this we would like to do a fit using the Lamb shift in ordinary and muonic
+hydrogen to fit the proton radius and the kinetic mixing parameter χ2 of the hidden photon.
+We can use the same strategy as outlined in Sect. 3, just including the proton radius as an
+additional parameter3 . The hidden photon contribution to the Lamb shift is already given in
+Eq. (3.8). For muonic hydrogen we just have to replace the electron mass with the muon mass.
+The lowest order dependence of the Lamb shift on the proton radius is given in Eq. (3.6).
+    Unfortunately, the required values for χ2 are smaller than zero and since χ is a real parameter
+this rules out a hidden photon explanation. Why is this the case? From Eqs. (3.6) and (3.8)
+we see that from the perspective of the (n = 2) Lamb shifts a shift in the proton radius by ∆rp2
+is equivalent to a non-vanishing χ2 for
+
+                                                               a4o m2γ ′
+                                           ∆rp2 = −6χ2                       .                                    (5.1)
+                                                           (1 + ao mγ ′ )4
+
+where ao = 1/(αmo ) is the Bohr radius of the orbiting particle.
+    This means that if we have non-vanishing χ2 > 0 we measure effectively measure a smaller
+proton radius in the Lamb shift measurement. Obviously both the ordinary and the muonic
+hydrogen measurements are affected in the same direction. Now, one can easily check that the
+effect is actually always bigger for larger ao . In other words if there is a non-vanishing χ2 > 0
+then the observed proton radius in the Lamb shift of ordinary hydrogen should be even smaller
+than the one observed in muonic hydrogen. This is exactly the opposite of what is observed in
+Ref. [25].
+    Finally, we can use the same two measurements to form a bound, independent of electron
+scattering determinations of the proton radius. However, in light of the fact that the two
+measurements are not consistent with each other we need to inflate our uncertainty similar to
+Eq. (3.5). Taking M1 as the Lamb shift in atomic hydrogen and using Refs. [27, 28] we have4
+δM1 = 3× 10−11 eV and ∆M1⋆ = 10−10 eV at the 1 σ level5 . Taking M2 as the muonic hydrogen
+case, and using the experimental and theoretical values from 4.5 we get δM2 = −3.11 × 10−4
+eV and ∆M2⋆ = 6 × 10−4 eV. The corresponding bound is shown as the solid blue line in Fig. 5.
+
+
+6       Conclusions
+Atomic spectra can provide a powerful and clean probe of Coulomb’s law at atomic length scales.
+In this paper we have considered a variety of transitions in atomic hydrogen, hydrogenlike ions
+    ∗
+      We are deeply indebted to B. Batell and M. Pospelov for noting a sign error in a previous version of this
+paper which led to different results. In the following discussion of the effects of hidden photons on measurements
+of the proton radius we will use an argument similar to theirs.
+    3
+      As we are dealing with Lamb shifts (i.e transitions between states of the same n), changes in α are a
+subdominant effect (see Sect. 3.1.1).
+    4
+      The δMi are calculated using the CODATA [23] mean value for the proton radius of rp = 0.8768 fm.
+    5
+      Note that since in this section we explicitly consider variations in rp in the bound, we could in principle ignore
+any contributions from variations in rp when calculating the theoretical uncertainty. However, as mentioned
+before, we will inflate our error to account for the inconsistency of the two measurements.
+
+
+                                                          14
+and exotic atoms, probing a wide range of different length scales. Currently, the best bounds are
+obtained from the measurements of the Lamb shift in ordinary hydrogen, a combination of the
+1s1/2 − 2s1/2 and the 2s1/2 − 8s1/2 transitions in atomic hydrogen, as well as the Lamb shift in
+hydrogen-like helium ions. These bounds are shown in Fig. 1 and can be taken more generally
+as a constraint on deviations from Coulomb’s law of the form Eq. (2.3). This significantly
+increases the range of pure Coulomb’s law tests.
+    Future measurements of true muonium (µ+ µ− ) could significantly increase the tested area
+towards shorter length scales and smaller deviations. Similarly, a bound from the 2sF1/2
+                                                                                       =1 −2pF =2
+                                                                                             3/2
+transition in muonic hydrogen could penetrate new parameter space, provided that a suitable
+independent value of the proton radius is determined. This gives additional motivation to seek
+further high precision determinations of the proton radius.
+    The deviation from Coulomb’s law, Eq. (2.3), and the bounds we obtain can also be in-
+terpreted as a probe of massive hidden photons kinetically mixing with the ordinary photon.
+With currently available data we find no improvement over existing bounds. We note, however,
+that these bounds are especially clean and model independent as they do not depend on the
+stability of the hidden photon or the presence/absence of certain decay channels. Moreover,
+above mentioned future measurements also have good potential to probe new parameter space
+for hidden photons, giving them significant discovery potential for new physics.
+    Finally, we have briefly investigated a recent measurement of the 2sF1/2
+                                                                           =1 − 2pF =2 transition
+                                                                                   3/2
+in muonic hydrogen which found a value inconsistent with theoretical calculations and previous
+measurements of the proton radius. We have considered the hidden photon as a mechanism
+to explain this discrepancy and found that the measurements of the Lamb shift in ordinary
+hydrogen are in conflict with this hypothesis.
+
+
+Acknowledgements
+The authors would like to thank A. Lindner, J. Redondo and A. Ringwald for interesting dis-
+cussions and useful comments. Moreover, the authors are grateful to B. Batell and M. Pospelov
+for pointing out a crucial sign error in the discussion of the muonic hydrogen anomaly.
+
+
+A     Bounds on minicharged particles from atomic spectra
+Here we briefly examine bounds on minicharged particles (MCPs) produced by using atomic
+spectra. The existing bounds for MCPs are presented in Fig. 6.
+   As noted in [7] the vacuum polarization caused by minicharged particles (shown in Fig. 7)
+causes a modification to the Coulomb potential
+
+                               V (r) = VCoulomb (r) + δV (r)M CP                           (A.1)
+
+where the additional term is the Uehling Potential,
+                               "                      s                 #
+                            Zα 2αǫ2 ∞                     4m2ǫ     2m2ǫ
+                                                               
+                                             exp(−qr)
+                                      Z
+             δV (r)M CP =                 dq            1− 2     1+ 2                      (A.2)
+                             r    3π 2mǫ          q        q        q
+
+Here mǫ is the mass of the minicharged particle, and ǫ the charge in units of e. In the limits of
+high and low mass δV(r) reduces as follows;
+                        "                   #
+                    Zα αǫ2 exp(−2mǫ r)
+       δV (r)M CP ≈         √                                       for mǫ r ≫ 1,          (A.3)
+                     r 4 π (mǫ r) 23
+                             2αǫ2                        2αǫ2
+                                               
+                     Zα
+                  ≈        −      log(2mǫ r) − a , a ≈        γ      for mǫ r ≪ 1,
+                      r       3π                          3π
+
+                                               15
+Figure 6: Existing bounds for MCPs (see, e.g. [14]). Note that the Lamb shift bound is produced
+using the method from [6]. We modify this method to consider other atomic spectra.
+
+
+
+
+Figure 7: Vacuum polarization diagram leading to a deviation from Coulomb’s law in the
+presence of minicharged particles.
+
+
+
+
+                                              16
+Figure 8: The 1s1/2 − 2s1/2 (black) and 2s1/2 − 2p1/2 [6] (green) bounds, both at the 2 σ level.
+The 1s1/2 − 2s1/2 transition is renormalised using 2s1/2 − 8s1/2 as in the hidden photon case.
+For comparison we show previous bounds from purely laboratory experiments in orange. Our
+bounds do not penetrate new parameter space.
+
+
+
+and where γ is Euler’s constant.
+    The potential decays exponentially in the high mass limit, as in the hidden photon case.
+However δV (r)M CP does not die off in the low mass limit. This makes sense physically, as
+a massless MCP will still be distinguishable from the photon and therefore will constitute a
+non-trivial modification to the photon propagator, which will result in observable effects. In
+fact we find that the strongest effects are observed in the low mass limit. This can be seen from
+saturation of the bounds in Fig. 6. Hence we obtain strong bounds for
+                                                    1
+                                            mǫ ≪                                           (A.4)
+                                                    l0
+where l0 is the length scale of the experiment.
+   From A.3 we can see that the potential actually diverges logarithmically. We apply the
+same renormalisation procedure as we did with the hidden photon in Sect. 3.1.2 to get
+                                      v
+                                      u n |∆M | n |∆M |
+                                      u 1        2
+                                                     + 2 M1 1
+                                              M2
+                                  ǫ≤                               .                  (A.5)
+                                      t
+                                         n1 f2 (mǫ ) − n2 f1 (mǫ )
+
+   Note the following limits;
+
+   • mǫ → ∞: Here f1 (mǫ ), f2 (mǫ ) → 0 so ǫ increases and the bound dies off.
+
+   • mǫ → 0: Here f1 (mǫ ) and f2 (mǫ ) both diverge logarithmically, but the divergences cancel
+     and the denominator approaches a finite value as mǫ → 0, giving us a saturated bound.
+     This shows that, as expected, effects of the MCP are maximised in the low mass limit.
+
+   We now apply this method to different atomic transitions. The analysis here is much briefer
+than in the hidden photon case, as we only consider transitions in atomic hydrogen. (The bounds
+
+
+                                               17
+from systems with higher Z and exotic atoms are considerably weaker.) As noted before, higher
+excited states (i.e states which do not involve 1s1/2 or 2s1/2 ) are difficult to measure and have
+high experimental uncertainties. Therefore we only consider transitions involving the 1s1/2 and
+2s1/2 states. In Fig. 8 we plot the Lamb shift 2s1/2 − 2p1/2 6 , and also a renormalised bound
+using the 1s1/2 − 2s1/2 and 2s1/2 − 8s1/2 transitions. The errors are the same as quoted in
+section 3.1. We see that no improvement is found over existing bounds.
+
+
+B         Estimate for the theoretical uncertainty in the 2s1/2 − 2p1/2
+          transition in true muonium
+The leading order contribution to the Lamb shift is proportional to the mass of the orbiting
+particle mo . Therefore to get an approximate value of this transition we scale the atomic
+                                  m
+hydrogen value of by a factor ∼ mµe to get ∼ 1GHz.
+    We note that the major part of the uncertainty in the atomic hydrogen case comes from finite
+nuclear size effects, and that these are absent in true muonium. We can therefore get a naive
+estimate of the uncertainty in true muonium by subtracting the finite nuclear size contribution
+                                                         m
+from the atomic hydrogen value 7 and scaling it up by mµe to get ∼ 200 kHz.
+    However this naive estimate is inadequate. The reduced mass of the system is now larger,
+so that hadronic and muonic vacuum polarization contributions are now much more important.
+These effects must receive more careful treatment. To leading order [47]
+                                                                  2
+                                                              mo
+                                                 EV P ∝                 mo                     (B.1)
+                                                              me
+
+so that we need to scale up vacuum polarization contributions in atomic hydrogen by a factor
+  m
+( mµe )3 which gives us a much larger contribution of ∼ 0.1 GHz. We therefore take this as our
+theoretical uncertainty, and set ∆M ∼ 0.1 GHz.
+
+
+C         Bounds from hadronic atoms
+We review this option briefly, and argue that hadronic atoms currently do not produce strong
+bounds.
+    The existing candidates involve the π − , K − , p+ , and K − particles orbiting a proton nucleus.
+In each case we find significant experimental uncertainties which immediately destroy bounds.
+For example with pionic hydrogen the experimental strong interaction shift of the 1s1/2 ground
+state [48],
+                                ǫ1s = (7.120 ± 0.008 ± 0.007) eV                               (C.1)
+where the errors are systematic and statistical respectively. This essentially means that, for
+example, the 3p1/2 − 1s1/2 transition would have an error of at least 10−2 eV, which does not
+produce a useful bound.
+    All transitions in kaonic and sigmaonic hydrogen have large uncertainties due to the deter-
+mination of the particle masses alone [49].
+    Transitions in antiprotonic hydrogen have large uncertainties due to both strong interaction
+shifts and annihilation [50].
+    This is before we take into account theoretical uncertainties, for example finite size effects
+from both nucleus and orbiting particle, which we also expect to be large.
+    Overall we conclude that any benefits from the larger reduced masses of hadronic atoms are
+washed out by experimental uncertainties and QCD effects.
+    6
+        Note that this has already been considered in Ref. [6]
+    7
+        For values of the Lamb shift contributions in atomic hydrogen see, e.g. Ref. [30].
+
+
+                                                           18
+References
+ [1] V. Popov, Tr. J. of Physics 23, 943 (1999).
+
+ [2] S. G. Karshenboim, Phys. Rev. Lett. 104, 220406 (2010), 1005.4859.
+
+ [3] S. G. Karshenboim, (2010), 1005.4872.
+
+ [4] L.B.Okun, Sov. Phys 56, 502 (1982).
+
+ [5] M. Pospelov, Phys. Rev. D80, 095002 (2009), 0811.1030.
+
+ [6] M. Gluck, S. Rakshit, and E. Reya, Phys. Rev. D76, 091701 (2007), hep-ph/0703140.
+
+ [7] J. Jaeckel, Phys. Rev. Lett. 103, 080402 (2009), 0904.1547.
+
+ [8] B. Holdom, Phys. Lett. 57 (1986).
+
+ [9] K. R. Dienes, C. Kolda, and J. March-Russell, Nuclear Physics B 492, 104 (1997).
+
+[10] S. A. Abel and B. W. Schofield, Nucl. Phys. B685, 150 (2004), hep-th/0311051.
+
+[11] S. A. Abel, J. Jaeckel, V. V. Khoze, and A. Ringwald, Phys. Lett. B666, 66 (2008),
+     hep-ph/0608248.
+
+[12] S. A. Abel, M. D. Goodsell, J. Jaeckel, V. V. Khoze, and A. Ringwald, JHEP 07, 124
+     (2008), 0803.1449.
+
+[13] M. Goodsell, J. Jaeckel, J. Redondo, and A. Ringwald, JHEP 11, 027 (2009), 0909.0515.
+
+[14] J. Jaeckel and A. Ringwald, (2010), 1002.0329.
+
+[15] A. M. Thalapillil, Phys. Rev. D81, 035001 (2010), 0906.4379.
+
+[16] J. D. Bjorken, R. Essig, P. Schuster, and N. Toro, Phys. Rev. D80, 075018 (2009),
+     0906.0580.
+
+[17] J. Redondo, private communication.
+
+[18] J. Jaeckel, J. Redondo, and A. Ringwald, Phys. Rev. Lett. 101, 131801 (2008), 0804.4157.
+
+[19] M. Pospelov, A. Ritz, and M. B. Voloshin, Phys. Lett. B662, 53 (2008), 0711.4866.
+
+[20] J. Redondo and M. Postma, JCAP 0902, 005 (2009), 0811.0326.
+
+[21] N. Arkani-Hamed, D. P. Finkbeiner, T. R. Slatyer, and N. Weiner, Phys. Rev. D79, 015014
+     (2009), 0810.0713.
+
+[22] A. Ibarra, A. Ringwald, and C. Weniger, JCAP 0901, 003 (2009), 0809.3196.
+
+[23] P. J. Mohr, B. N. Taylor, and D. B. Newell, Codata recommended values of the fundamental
+     physical constants: 2006, 2007.
+
+[24] A. van Wijngaarden, J. Kwela, and G. W. F. Drake, Phys. Rev. A 43, 3325 (1991).
+
+[25] R. Pohl et al., Nature 466, 213 (2010).
+
+[26] P. G. Blunden and I. Sick, Phys. Rev. C 72, 057601 (2005).
+
+[27] C. Schwob et al., Phys. Rev. Lett. 82, 4960 (1999).
+
+
+                                               19
+[28] G. G. Simon, C. Schmitt, F. Borkowski, and V. H. Walther, Nucl. Phys. A333, 381 (1980).
+
+[29] M. Fischer et al., Phys. Rev. Lett. 92, 230802 (2004).
+
+[30] F. Biraben,    The European Physics Journal - Special Topics 172, 109 (2009),
+     arXiv:0809.2985v1.
+
+[31] B. de Beauvoir et al., Phys. Rev. Lett. 78, 440 (1997).
+
+[32] D. Mueller et al., EPL (Europhysics Letters) 5, 503 (1988).
+
+[33] W. R. Johnson and G. Soff, Atomic Data and Nuclear Data Tables 33, 405 (1985).
+
+[34] K. P. Jungmann, (2004), nucl-ex/0404013.
+
+[35] D. Hagena et al., Phys. Rev. Lett. 71, 2887 (1993).
+
+[36] R. Ley et al., Hyperfine Interactions 89, 327 (1994), 10.1007/BF02064517.
+
+[37] R. Ley, Applied Surface Science 194, 301 (2002).
+
+[38] K. Jungmann, Hyperfine Interactions 127, 189 (1999).
+
+[39] S. J. Brodsky and R. F. Lebed, Phys. Rev. Lett. 102, 213401 (2009), 0904.2225.
+
+[40] M. I. Eides, H. Grotch, and V. A. Shelyuto, Phys. Rept. 342, 63 (2001), hep-ph/0002158.
+
+[41] K. Pachucki, Phys. Rev. A 53, 2092 (1996).
+
+[42] K. Pachucki, Phys. Rev. A 60, 3593 (1999).
+
+[43] E. Borie, Phys. Rev. A 71, 032508 (2005).
+
+[44] A. P. Martynenko, Phys. Rev. A 71, 022506 (2005).
+
+[45] A. P. Martynenko, Physics of Atomic Nuclei 71, 125 (2008).
+
+[46] A. Falkowski, RESONAANCES blog, http://resonaances.blogspot.com/.
+
+[47] J. L. Friar, J. Martorell, and D. W. L. Sprung, Phys. Rev. A 59, 4061 (1999).
+
+[48] J. Marton, Nuclear Physics A 790, 328c (2007), Few-Body Problems in Physics - FB 18,
+     18th International IUPAP Conference on Few-Body Problems in Physics.
+
+[49] W.-M. Yao et al., Journal of Physics G 33, 1+ (2006).
+
+[50] M. A. et. al., Hyperfine Interactions 118, 59 (1999).
+
+
+
+
+                                              20
+
