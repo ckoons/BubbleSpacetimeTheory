@@ -1,5 +1,7 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 12:07 EDT (Keeper) — **Lane C draft for @Cal's cold read (after 5830 and the Zenodo re-read): `notes/BST_The_Four_Walls_what_D_IV5_forces_and_what_it_does_not_DRAFT_for_Cal_cold_read_2026-09-27.md`.** It covers what is forced (zero-knob), the four walls each keyed to its ruling (wall 4's records clause marked CONDITIONAL on 5830), the calibration both ways, and one proposed front-page sentence. Not for today's front page.
+
 ## ██ 2026-09-27 (Sunday), 11:59 EDT (Keeper) — **ROUND 12 CLOSED (K1934): THE FOURTH WALL HAS A PRICE. ROUND 13 ISSUED: `notes/Keeper_prompts_team_round13_the_price_list_2026-09-27.md`.**
 - **Lane B, kill fired:** every radius BST can form (ƛ_e; c·tick ≈ the Bohr radius, an identity via α ≈ 1/N_max; cosmological) is excluded for a photon circle.
   - The photon circle costs a SECOND length: 1/R > 30.8 GeV (g−2, Elie 5831) and > 1.5 TeV (colliders, Grace).
