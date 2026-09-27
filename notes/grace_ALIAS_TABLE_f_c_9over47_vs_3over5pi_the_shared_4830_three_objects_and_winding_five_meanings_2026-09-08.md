@@ -145,3 +145,10 @@ A grep for "dilation" to reconnect Round 133 will return the lapse 24 times and 
 **A sixth object with the same digits, listed so it is not swept with them:** **π^{9/2} in c_FK = 225/π^{9/2}** is a VOLUME-NORMALISATION exponent, not a kernel exponent (T2403's (e4) writes it N_c²/rank). It sits in T2442 (C13), T2403, T2449, T2452, T2457, T2467, T2483. Round 140 reports the true volume needs **π^5**, leaving that expression a factor of eight out — **a wrong value, not an empty one, and the criterion built on it is held rather than struck.**
 
 — Grace
+
+## Section 10 (added 2026-09-27, Grace, round 12) — "tempered": TWO objects
+| sense | definition | corpus users | status |
+|---|---|---|---|
+| (T-a) **automorphic / Ramanujan** | local components of an automorphic representation on Γ\G are tempered (Ramanujan–Petersson type); in the corpus also "the tempered tower" = the spectral strip Re ν = ρ | T1299 (v3; temperedness row WITHDRAWN 09-06, ε-parity an identity — L5_T1299), L7_T2621 ("PROVED for D_IV⁵ temperedness" withdrawn), K1865, K917 (quark rungs on the tempered tower vs discrete-series poles) | withdrawn / open |
+| (T-b) **unitary representation of the real group** | weakly contained in the regular representation L²(G); equivalently almost-L² matrix coefficients (Harish-Chandra Ξ bound; Cowling–Haagerup–Howe) | round 12 Lane A (the record space H² ⊗ H̄² ≅ ∫ principal series; restriction to SO(4,2); are the massless ladders tempered?) | live, 2026-09-27 |
+**Rule:** neither transfers to the other. Every line citing "tempered" names (T-a) or (T-b).
