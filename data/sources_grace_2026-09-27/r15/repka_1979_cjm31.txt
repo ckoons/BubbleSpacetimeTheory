@@ -1,0 +1,439 @@
+                      Can. J. Math., Vol. XXXI, No. 4, 1979, pp. 836-844
+
+
+
+
+                          TENSOR PRODUCTS OF HOLOMORPHIC DISCRETE
+                                   SERIES REPRESENTATIONS
+                                                                        JOE R E P K A
+
+
+                         1. I n t r o d u c t i o n . W e discuss t h e decomposition of tensor p r o d u c t s of holo-
+                       morphic discrete series representations, generalizing a technique used in [9] for
+                       representations of SL2(1R), based on a suggestion of Roger Howe. In t h e case of
+                       two representations with highest weights, t h e discussion is entirely algebraic,
+                       and is best formulated in t h e context of generalized V e r m a modules (see § 3 ) .
+                       In t h e case when one representation h a s a highest weight a n d t h e other a
+                       lowest weight, t h e approach is more analytic, relying on t h e realization of these
+                       representations on certain spaces of holomorphic functions.
+                          For a simple group, these two cases exhaust t h e possibilities; for a non-
+                       simple group, one h a s to piece together representations on t h e various factors.
+                          T h e a u t h o r wishes t o t h a n k Roger Howe a n d J i m Lepowsky for very helpful
+                       conversations, a n d Nolan Wallach for pointing o u t t h e work of Eugene
+                       G u t k i n (Thesis, Brandeis University, 1978), from which some of t h e results of
+                       this paper can be read off as easy corollaries.
+
+                           2. N o t a t i o n a n d p r e l i m i n a r i e s . W e use t h e notation a n d conventions of
+                       [3], [4], [5], a n d [6]. L e t g0 be a non-compact simple real Lie algebra. Define f0
+                       and p 0 as in [3], § 2, a n d let r)0 be a maximal abelian subalgebra of f0, which we
+                       assume is also maximal abelian in g0- Complexify g0, ï)o, fo, po t o g, f), f, p,
+                       respectively. Choose a system 2 of positive roots a n d let S + be t h e set of non-
+                       c o m p a c t positive roots. W e shall assume t h a t t h e non-compact positive roots
+                       are totally positive, in t h e terminology of H a r i s h - C h a n d r a (see [5] ; § 3, § 4, § 5) ;
+                       this implies t h a t f0 has non-trivial centre (see [5] ; corollaries to L e m m a 13). L e t
+                       2p denote t h e sum of all t h e positive roots, and for each root a, choose Xa in t h e
+                       corresponding root space, such t h a t a(Ha) = 2, where Ha = [Xa, X-a].
+                          Let    p + = X/YÇ2 + C X 7 ,         P- = ETÇS + C ^ - T ,         and     let ty+, ^)3_ d e n o t e   their
+                       respective universal enveloping algebras. L e t b = Ï © p + , a subalgebra of g.
+                          Let G be t h e simply connected complex semisimple Lie group with Lie
+                       algebra g, let Go be t h e (real) semisimple Lie subgroup with Lie algebra Q0, a n d
+                       let Ko be t h e (compact) subgroup with Lie algebra fo-
+                          Suppose A G Ï)* satisfies:
+                       (1)        A(Ha) is a nonnegative integer, for all a (j 2 , a # S +
+                       (2)        (A + p)(Hy)          < 0,      for all y G S+-
+                       Suppose too t h a t L is an irreducible representation of K0 on a Hilbert space V,
+
+                          Received February 1, 1978 and in revised form June 23, 1978.
+
+                                                                               836
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                           DISCRETE SERIES REPRESENTATIONS                                             837
+
+           which has highest weight A. T h e n (see [6]; [5], Theorems 2 and 3), Harish-
+           C h a n d r a constructs a (unique) unitary irreducible representation of Go so t h a t
+           the corresponding representation of g has highest weight A. This representa-
+           tion (and the corresponding Lie algebra representation) will be denoted 7TA, and
+           called a holomorphic discrete series representation.
+              W e extend L from a representation of ! to one of b by letting p + act trivially.
+           T h e n (see [10]), as a representation of the universal enveloping algebra of g,
+           7TA is a generalized Verma module, the representation algebraically induced from
+           the representation L of the universal enveloping algebra of b. In particular
+            (see [2]), the space on which TTA acts is isomorphic to <$_ ® V.
+              Let YI, . . . , y q be the distinct non-compact roots, let A = A0, . . . , A r be the
+           distinct weights of V, and ^z the multiplicity of A* in V. T h e n the w r eights of
+           7TA are all of the form X = A* — (miji + . . . + rnqyQ), where the mt are non-
+           negative integers. And by the Corollary to L e m m a 21, [5], the multiplicity of a
+           weight X in 7TA is given by
+
+
+           where nt(\) is the number of distinct sequences {mx, . . . , mq) of nonnegative
+           integers such t h a t X = A* — (niiyi + . . . + mqyq). In particular, WA( A) = 1.
+             W e shall also need a simple fact a b o u t holomorphic functions:
+              LEMMA 2.1. Let SI be a connected open subset of Cn,        V a finite dimensional
+           complex vector space. Suppose F : 12 X 12 —> V is holomorphic in the first argu-
+           ment, antiholomorphic in the second. If the restriction of F to the diagonal in il X ^
+           is identically zero, then F = 0.
+              Proof. T h e proof is by an induction a r g u m e n t on n. W e m a y assume there is a
+           polydisc P, centred a t the origin, with P C 12. Fix zx, z2, . . . , zn-\ such t h a t for
+           small zn, (zi, . . . , zn-i, zn) Ç P. For any real 6, consider the function
+           g(z) = F(z1, . . . , zn-i, z; Z\, . . . , zn-\, eiez). I t is holomorphic and vanishes on
+           the line z = eiez; hence g = 0. T h u s for small zn, F(zi, . . . , zn; zx, . . . , z„_i, z)
+           vanishes whenever |z| = \zn\, hence vanishes for all z.
+              W e have shown t h a t F vanishes, not just on the diagonal in 12 X 12, b u t
+           whenever the first n — 1 variables agree. T h i s proof of the inductive step also
+           works for n = 1, and the lemma is proved.
+
+              3. T w o r e p r e s e n t a t i o n s w i t h h i g h e s t w e i g h t s . Suppose A, A' satisfy
+           (1) and (2) of § 2; let L, L' be irreducible representations of K0 on V, V, with
+           highest weights A, A', respectively, and let TTA, TTK' be the corresponding
+           representations of Go. W e consider ir\ ® 7TA' and will show t h a t it is a direct
+           sum of representations 7rA". Indeed, let A*, /x, 0 ^ i S r, be the weights of L
+           and their multiplicities; A / , /x/, 0 ^ i S r', the weights and multiplicities
+           for L'\ and let A/ 7 , /x/', 0 ^ i ^ s, be the weights of L® L' and their
+           multiplicities. T h e n the weights of TTA ® TTA' are sums of weights of 7TA and 7TA',
+           and are all of the form v = A(' — (miyi + . . . + mqyq), for some nonnegative
+           integers m{.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                       838                                               JOE REPKA
+
+
+                         It is easily seen t h a t we m a y calculate n"(v), the multiplicity with which v
+                       occurs in TTA ® TTA', in either of two different ways. Indeed,
+
+                                 n"{v)     = Zx+x'=,              nA(\)'nA'(\').
+
+                      Also n" (y) = Xlo M / ' W 0 0 > where n/'(v) is the n u m b e r of distinct sequences
+                      (mi, . . . , mq\ m\ , . . . , mq) such t h a t v = A / ' — ((mi + w / ) 7 i + . . . + (w<?
+                      + md)lq)'     I n particular, w"(A + A') = 1.
+
+                          T H E O R E M 1. TTA ® TTA' W « dired s^m of representations of the form TTA", with
+                      finite multiplicities.    The A" which occur are all of the form A" = A / ' —
+                       (miYi + . . . + mqyq), where A / '       (0 ^ i ^ 5) is a weight of L ® Z/, and mz-
+                       are nonnegative integers. The multiplicity    M\>>, of TTA" is given by the inductive
+                       formula
+
+                                 MA-      = »"(A") -           Zx^A" Mx»x(A").
+
+                         N o t e t h a t only finitely m a n y terms in the sum are non-zero. Indeed if { A / }
+                      are the weights of the representation of K0 with highest weight X, then
+                      n\(A")     = 0 unless A" = A^0 — 7, for some 7 = mxy\ + . . . + mqyQ, with mt
+                      nonnegative integers, and M\ = 0 unless X = A/' — y' for some yf of the same
+                      form.
+                         In particular, 7TA+A' occurs with multiplicity one.
+
+                         Proof. W e have already remarked t h a t the weights of TTA ® TTA' are all of the
+                      stated form. Consequently, we m a y apply L e m m a 4.4 of [2] to conclude t h a t
+                      (as a representation of the universal enveloping algebra) TTA ® ^K' has an
+                      infinite composition series 0 = X0 C ^ i C X2 C • • • whose union is the whole
+                      space and such t h a t Xi+i/Xt         is a representation of the form 7TA", for some A"
+                      (which must, of course, be a weight of TA ® TTAO- B u t since we are concerned
+                      with a unitary representation of Go, Xi+\/X                 t is (isomorphic to) a g-invariant
+                      subspace (the o r t h o c o m p l e m e n t of Xt in Xi+i),      and the composition series is
+                      actually a direct sum.
+                         All t h a t remains is the formula for M\>>. B u t the multiplicity of TT A" is the
+                      n u m b e r of times A" occurs as a highest weight, which is the n u m b e r of times it
+                      occurs in TTA ® TTA' less the n u m b e r of times it occurs as a weight of some ir-
+                      reducible subrepresentation other t h a n TTA"- T h a t is exactly w h a t the formula
+                      says.
+
+                         Remark. T h i s result can be proved directly, w i t h o u t appeal to generalized
+                      V e r m a module theory. W e notice t h a t the tensor p r o d u c t has A + A' as a
+                      highest weight, so m u s t contain a copy of 7TA+A' ; then find a highest weight A"
+                      in the c o m p l e m e n t a r y subspace and conclude t h a t TTA" occurs. T h e n j u s t con-
+                      tinue inductively, removing representations and finding highest weights in
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                             DISCRETE SERIES REPRESENTATIONS                                           839
+
+             w h a t is left. Of course, this is also essentially the same as the a r g u m e n t which is
+             used to prove t h e above-cited lemma.
+
+
+                4. Holomorphic and anti-holomorphic discrete series. Now, as before,
+            let G be the simply connected complex semisimple Lie group with Lie algebra g,
+            let Go and K0 be the (real) Lie subgroups with Lie algebras g0 and f0; also let
+            P + , P _ , a n d K be the subgroups corresponding to p+, p_, and f, respectively.
+                In [6], § 2, H a r i s h - C h a n d r a shows t h a t the product m a p P _ X K X P + —>
+            P_-K'P+ is an isomorphism onto an open subset of G which contains Go, a n d
+            t h a t P--K-Go is open in G, with
+
+             (4.1)     P^KC\G,            = K,.
+
+               Using this, he then shows t h a t there is a real analytic isomorphism <p from
+            K0\Go onto an open subset of p + , and this can be used to describe a complex
+            structure on K0\Go, with respect to which Ko\Go is a bounded domain (see [6],
+            § 2, § 3 ; [7], L e m m a 2 1 ; or [1], Theorem 1). Following [1], we let 12 = <p(K0\G0)
+            and W = P--K-Go.
+               Now suppose A G I ) * satisfies conditions (1) a n d (2) of § 2. Suppose too t h a t
+            there is an irreducible representation L of K0 on a Hilbert space V, such t h a t t h e
+            corresponding representation of f or K (also denoted L) has highest weight A.
+               W e shall now present H a r i s h - C h a n d r a ' s construction of the irreducible
+            representation 7TA of Go, alluded to in § 2. W e shall follow the t r e a t m e n t of
+            [1]. Indeed, let J4?L (respectively ^fL,ho\) be the space of measurable (resp.
+            holomorphic) f u n c t i o n s / : W —> V such t h a t
+
+                 (i)    f(pkw)      = L(k)f(w),          for p e P _ ,        K X ,         w e W
+
+
+                00 ll/ll2= f ll/te)ll2^<oo.
+                                   J Go
+
+
+                 W i t h respect to the norm defined in (ii),j4fL (resp.j4fL>hoi) is a Hilbert space
+             on which Go acts unitarily by right translation. T h e action of G0 o n J ^ L h o l is TTA,
+             a n d by (4.1), the action of Go on-J^fL is isomorphic to IndKQG°L.
+                 However, for our purposes, another realization is also i m p o r t a n t (see
+             [1]). Noting t h a t exp 12 is a complex analytic section of W over P--K, for
+            / 6 JtfL or Jt?L,hol a n d X Ç 12, we l e t / ~ ( X ) = / ( e x p X ) . W e shall see t h a t the
+             m a p /•—»/" is an isomorphism from j f L (resp. ^fL<h0\)                onto a space J ^ z T
+             (resp. J^z^hof) of measurable (resp. holomorphic) functions / ~ : 12 —» F.
+                 If X Ç 12, then exp X G TF = P--K-G,. W e let exp X = £ ( X ) £ P O g P O ,
+             with p(X) e P - , £ ( X ) e K, g(X) G G0. W e also use the analytic isomor-
+             phism X ï—» g(X) to t r a n s p o r t H a a r measure dg on K0\Go to a measure dp(X)
+             on 12. Choosing the norm on F so t h a t K0 acts unitarily, we find t h a t f o r / G ^ z ,
+            orJzLthol,
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                      840                                                JOE REPKA
+
+
+                                 Il/Il2 = f IL/(g)INn= f ( ll/(g)ll 2 ^
+                                            J Go                      J Ko^Go
+
+                                         = f \\f(g(x)Wd»(x)
+
+                                         =j        \\L(k(X)-l)f(p(X)k(X)g(X))\\*dn(X)
+
+                                         = f \\nx)\\i,xd»{x),
+                      where, for X £ 12, we define a new norm on F by IMU.x =                 \\L(k(X)~1)v\\.
+                         By (4.1) and (i) above, we see t h a t elements oîJ*ifL or<yifLMo\ can be regarded
+                      as functions from K0\Go to V. Using the exponential m a p , we regard t h e m as
+                      functions from 12 to V. T h e above calculation shows how to calculate t h e norm
+                      of such a function; the norms ||-||z,,x on V m u s t be introduced because K does
+                      not act unitarily on V, even though K0 does. W e l e t J ^ L ~ (resp. J ^ ^ o f ) be the
+                      Hilbert space of all measurable (resp. holomorphic) f u n c t i o n s / " : 12 —> V, with
+                      the norm defined by the final integral above.
+                           Now 12 is a bounded subset of a finite dimensional complex vector space. T h e
+                       coordinate functions correspond to the non-compact positive roots. W e note
+                        (see [1], r e m a r q u e 1 and proof of théorème 2) t h a t the (holomorphic) poly-
+                       nomial functions from 12 to F a r e contained inJlfL~(JifLthor),      and of course are
+                       dense. In fact, because of the above observation a b o u t the coordinate functions,
+                       the holomorphic polynomials are j u s t the i£ 0 -finite vectors inJ^ L > h o l ~; the set of
+                       all holomorphic polynomial functions is in an obvious w a y isomorphic to
+                       ^J3_ ® V, which as we have already remarked is the space of the corresponding
+                      generalized V e r m a module.
+                           If A' G Ï)* is such t h a t — A' satisfies conditions (1) and (2) of § 2, and if U is
+                       a representation of K0 on V with lowest weight A', then in the same w a y we
+                       construct a representation WA' with the lowest weight A'. Indeed, let Jti?L> t&ntttl0i
+                        (resp. ^L',antihoi~) be the Hilbert space of anti-holomorphic functions
+                      / : W —» V ( r e s p . / ~ : 12 —> V') with norm defined analogously to the norm for
+                      ^L.hoi (resp. J^z^hof )• T h e action of Go by right translation on ^z/,antihoi is
+                       u n i t a r y and irreducible, with lowest weight A'.
+                           T h e representation 7rA ® TTA' is realized onJ4fLthoi ® ^z/,antihoi o r ^L.hoC        ®
+                      ^z/.antihof- T h e l a t t e r space consists of all functions F : 12 X 12 —> V 0 V
+                       which are holomorphic in the first variable, anti-holomorphic in t h e second, a n d
+                       such t h a t
+
+                                   f f        \\F(X, X')\\l0L,,(x,x,)d^(X)d„(X')                    < oo
+
+                       where the norms on F ®                 V are defined by letting
+
+                                  \\V®A\L*L'XX.X:              = IMkx-|ML<.x'.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                            DISCRETE SERIES REPRESENTATIONS                                            841
+
+            This space contains all polynomial m a p s which are holomorphic a n d anti-
+            holomorphic in t h e first a n d second variables, respectively.
+               E v e r y F Ç ^L^OC ® ^ z / , a n t i h 0 r is a continuous function, so we m a y let
+            RF : tt - > V ® V denote the restriction of F to the diagonal of 12 X Û (which is
+            isomorphic to ft) ; i.e. RF(X) = F(X, X). T h e image under R of a polynomial
+            function is contained mJ4?L®L~, a n d we see t h a t we have a densely defined
+            map
+                                                                >
+                       K   : -Jo L,th.o\ <9 Jb L,' ,antihol         ^   L® V •
+
+                PROPOSITION 4.1. The densely defined map R is closed, with dense image and
+            trivial kernel.
+
+              Proof. L2-convergence         of holomorphic functions implies pointwise conver-
+            gence, so a convergent sequence m u s t converge (pointwise) on t h e diagonal.
+            Consequently, if t h e restrictions to the diagonal converge mJ4fL®L>~, t h e limit
+            m u s t in fact be the restriction of t h e limit function. This shows t h a t R is
+            closed.
+               T h a t t h e kernel is trivial is an obvious consequence of L e m m a 2.1.
+               T h e image of R contains all polynomial functions; since ft is a bounded
+            domain, t h e Stone-Weierstrass Theorem says these functions are sup-norm
+            dense in Cc(ft, F ® V). B u t Cc(ft, V® V) is dense m^L®Lr,              a n d sup-norm
+            convergence of bounded functions implies convergence in ^L^L",                     using
+            dominated convergence a n d the fact t h a t the constant functions are inJlfL(E)L~.
+            This concludes the proof.
+               T H E O R E M 2. If A, —A' satisfy (1) and (2) of § 2, and L (resp. L') is an
+            irreducible representation of K0 with highest weight A (resp. lowest weight A r ),
+            then, as representations of Go,
+
+                       7TA ® 7TA' « I n d ^ L ® L'.
+              Proof. By Schur's L e m m a and Proposition 4.1, t h e tensor product is unitarily
+            equivalent to the action of Go onJtffL®L~, a n d this representation is isomorphic
+            to ^L®L',    for which t h e action of G0 by right translation is indeed
+            IndKQG°L®    L'.
+
+               5. E x a m p l e s . In t h e case of SZ,2(R), t h e above results are especially easy to
+            describe. I n fact, they have already been dealt with, in a more a d hoc manner,
+            in [9]. Here K0 = SO (2) is abelian; it is t h e circle group. W e denote by %n t h e
+            nth character of KQ:
+
+                                   cos 6     sin 9
+                       Xn •
+                                  -sin#      cos 6
+               Following Lang ([8]), for n ^ 2 (resp. n ^ —2) we let Tn denote t h e discrete
+            series representation with lowest (resp. highest) weight n (corresponding to the
+            character Xn)- T h e weights of Tn are n, n + 2, n + 4, . . . (resp. n, n — 2,
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                      842                                                JOE REPKA
+
+
+                      n — 4, . . . ) , each occurring with multiplicity one. So if m, n ^ 2, the weights of
+                      TK 0 Tn are m + n, m + n + 2, . . . , m + n + 2k, . . . , where m + n + 2&
+                      occurs with multiplicity & + 1. Consequently, by T h e o r e m 1,
+
+                                 Tm QÇ Tn tt 1 m+n (J) Tm+n+2 © Tm+n+i © . . . = ©?=o 7 M+H+2A;                        and
+
+
+                        On the other hand, Xn is itself the irreducible representation of K() with
+                      highest (and lowest) weight n, so for m, n §: 2, by T h e o r e m 2,
+
+                                 7 ^ 0     T_ w ^    I n d ^ X m ® X-n = Ind^o^OXm-n-
+
+                          T h i s induced representation is easily decomposed using Frobenius Reci-
+                      procity; it contains one copy of the direct integral of the principal series
+                      representations of the a p p r o p r i a t e p a r i t y (the same as the p a r i t y of m — n),
+                      a n d (at most) finitely m a n y discrete series representations, namely those which
+                      contain the weight m — n. E a c h such c o m p o n e n t occurs with multiplicity one.
+                      See [9] for details, a n d for the connection with holomorphic functions on the
+                      upper half-plane. I t is also proved there t h a t the same results (i.e. same
+                      formulae) carry over to the "limits of discrete series" or " m o c k discrete series,"
+                      i.e. when n a n d / o r m is allowed to equal 1.
+                          T h e other example we pursue is t h a t of Sp(2, R ) . Here K0 ^ U(2), and t h e
+                      (compact) C a r t a n subalgebra f) consists of all matrices of the form
+
+                                 T       0                    diag(/i,/ 2 )l
+                                 |_diag(-/i, -h)                  0        J
+                         As simple positive roots we choose a = t\ — t2 and y = 2-fa. T h e positive
+                      roots are a, y, y + a, y + 2a, of which a is c o m p a c t and the others are non-
+                      compact. W e find t h a t p = 2a + 3 / 2 7 .
+                         If we write A = ma + ny, with m, 2n £ Z, then condition (1) of § 2
+                      a m o u n t s to m ^ n, and condition (2) a m o u n t s to m < —2, since, by (1),
+                      m ^ n.
+                         T h e group U(2) has a n a t u r a l action on C 2 ; we denote by ap its action on the
+                      symmetric tensors of degree p, a n d by aPtQ the representation det*7 0 ap. T h e
+                      weights of aPtq arep (a + §7) + g (a + 7) — ka, 0 ^ k ^ p. If A = ma + ny
+                      as above, then the representation of U(2) with highest weight A is (T2(m-n) M-m-
+                      If A' = m'a -f n'y is a n o t h e r such weight, then we m a y assume m — n ^
+                      m' — n'.
+                         Consequently, in 7TA 0 7TA', the weight A + A' — ka has multiplicity k + 1,
+                      for 0 ^ & ^ 2(ra' — n'), and we see t h a t Î A + A ' - ^ occurs in t h e tensor p r o d u c t
+                      with multiplicity one when 0 ^ k ^ 2(m' — n'), and not otherwise. Similarly,
+                      each representation 7TA+A'-A;Y occurs in 7TA 0 TTA> with multiplicity one. O t h e r
+                      representations w\+&>-ka-jy also occur (e.g. TA+A'-a-y occurs with multiplicity 2)
+                      b u t it gets increasingly messy to calculate the multiplicities.
+                          If A = ma + ny a n d A' = m'a + n'y are such t h a t A a n d — A' both
+                      satisfy (1) and (2), and m, m', 2n, 2n' £ Z, then L = a2(m-n),2n-m is a represen-
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                                             DISCRETE SERIES REPRESENTATIONS                                           843
+
+             tation of K0 with highest weight A, and U = <jnn>-m>)ym> has lowest weight A'
+             (note that since — A' satisfies (1), we have 2{n' — m') ^ 0). So, by Theorem 2,
+                        7TA® TTA'^ IndKoG°L(g) V.
+                Let us pause to decompose L®L'.         Consider first the tensor product
+             <*v ® <V> where p ^ p''. By a calculation analogous to our analysis of the
+             weights in the tensor product of two representations with highest weights, one
+             finds t h a t
+                                                                                                    a
+                        CpVy <V — <rp+p',o\& 0"p+p'-2,i u 7 o"p+p'-4,2U7 • • • \B                    p-p',p'-
+
+                P u t t i n g in the determinants, with L, L' as above,
+
+
+                                    = det2--™+™' <g> a2{m-n) ® or 2(n ^ ro0 .
+             If, for example, m — n ^ n' — m'', then
+
+                        L®Lf        = det2—+-'®               (©lîïi-^'^ac^^-m'-*).*)
+                                    — vj7fc=0        <?2(m-n+n'-m'-k)       ,k+2n-m+m'-
+
+                So 7TA 0 7TA' is the direct sum of the representations of G0 induced from these
+             irreducible representations of i£ 0 ; their structure can be analysed by Frobenius
+             Reciprocity.
+                I t should be clear t h a t in principle one can always do the same thing. T h e
+             decomposition of tensor products of holomorphic discrete series representations
+             will follow easily from an analysis of irreducible representations of K0—their
+             weights and the decomposition of their tensor products. On the other hand, it is
+             also clear t h a t these calculations quickly become fairly involved.
+
+                6. T h e g e n e r a l c a s e . Our final remark is t h a t the same methods can be
+             applied even if the group is not simple. I t is of course possible in this case to
+             find two representations which are both holomorphic on some of the simple
+             factors b u t one of which is holomorphic and the other anti-holomorphic on
+             some other factors. In such a situation, one would apply the above results to
+             each of the simple factors separately.
+
+                                                                  REFERENCES
+
+              1. F. Bruhat, Travaux de Harish-Chandra, Séminaire Bourbaki, t. 9, 1956/57.
+              2. H. Garland and J. Lepowsky, Lie algebra homology and the Macdonald-Kac formulas,
+                    to appear.
+              3. Harish-Chandra, Representations of a semisimple Lie group on a Banach space I, Trans.
+                    Amer. Math. Soc. 75 (1953), 185-243.
+              4.        Representations of semisimple Lie groups II, Trans. Amer. Math. Soc. 76 (1954),
+                    26-65.
+              5.         Representations of semisimple Lie groups IV, Amer. J. Math. 77 (1955), 743-777.
+              6.         Representations of semisimple Lie groups V, Trans. Amer. Math. Soc. 78 (1956),
+                    1-41.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+                     844                                                JOE REPKA
+
+                      7.        Representations of semisimple Lie groups VI, Amer. J. Math. 78 (1950), 564-028.
+                      8. S. Lang, SL2{R), (Addison-Wesley, Reading, Mass., 1975).
+                      9. J. Repka, Tensor products of unitary representations of SL2{R), Amer. J. Math. 100 (1978),
+                            747-774; summary in Bull. Amer. Math. Soc. 82 (1976), 930-932.
+                     10. N. Wallach, Analytic continuation of holomorphie discrete series, Trans. Amer. Math. Soc,
+                            to appear.
+
+
+                      University of Toronto,
+                      Toronto, Ontario
+
+
+
+
+Downloaded from https://www.cambridge.org/core. 26 Sep 2026 at 18:58:28, subject to the Cambridge Core terms of use.
+

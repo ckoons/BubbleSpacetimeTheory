@@ -1,0 +1,57 @@
+VISUAL TRANSCRIPTIONS -- read by eye from rendered page images (pdftoppm -png -r 110) where the text layer
+(pdftotext -layout) drops symbols or garbles formula layout. Transcriber: Claude (subagent for Grace), 2026-09-27.
+Unicode used for sub/superscripts; otherwise verbatim. Each block: source PDF, pdf page, printed page, PNG in png/.
+
+=== [RP7] repka_1979_cjm31.pdf, pdf page 7, printed p. 842 (PNG: png/repka_p7-7.png; copied from r8_tensor, transcription R7 there) ===
+RP7a: "T_m ⊗ T_{−n} ≈ Ind_{K₀}^{G₀} χ_m ⊗ χ_{−n} = Ind_{K₀}^{G₀} χ_{m−n}."   [text layer txt:327 garbled]
+RP7b: "So if m, n ≧ 2, ... T_m ⊗ T_n ≈ T_{m+n} ⊕ T_{m+n+2} ⊕ T_{m+n+4} ⊕ ... = ⊕_{k=0}^∞ T_{m+n+2k}"
+RP7c: "It is also proved there that the same results (i.e. same formulae) carry over to the "limits of
+       discrete series" or "mock discrete series," i.e. when n and/or m is allowed to equal 1."
+
+=== [LK3] loke_2001_pjm197.pdf, pdf page 3, printed p. 120 (PNG: png/loke_p-03.png) ===
+(text layer drops the epsilon symbol: "(σ1 ⊗ σ2 ⊗ σ3 ) = 1" is really "ϵ(σ₁ ⊗ σ₂ ⊗ σ₃) = 1")
+LK3a: "(iii) ϵ(σ₁ ⊗ σ₂ ⊗ σ₃) = −1 if and only if π₁, π₂ and π₃ are discrete series representations and
+       π₁′ ⊗ π₂′ ⊗ π₃′ has a non-zero ℍ*-invariant form."
+LK3b: "Theorem 1.1. Suppose F = ℝ and π₁ is a discrete series representation or a limit of discrete series
+       representation. Then π₁ ⊗ π₂ ⊗ π₃ exhibits a (𝔤, K)-invariant form if and only if
+       ϵ(σ₁ ⊗ σ₂ ⊗ σ₃) = 1. In this case the invariant form is unique up to scalars."
+LK3c: "Theorem 1.2. Suppose F = ℝ or ℂ and π₁, π₂ and π₃ are (𝔤, K)-modules belonging to the principal series
+       representations. We make the following assumptions: (1) If F = ℝ, then πᵢ is either irreducible or
+       reducible of type I. (2) If F = ℂ, then πᵢ is irreducible. (3) The product of central characters of the
+       three representations is trivial. Under a further mild assumption if F = ℂ (see §4.6), π₁ ⊗ π₂ ⊗ π₃
+       exhibits a (𝔤, K)-invariant form and it is unique up to scalars."
+(page 2 = printed p.119, facts (i),(ii): "(i) ϵ(σ₁⊗σ₂⊗σ₃) = ±1. (ii) ϵ(σ₁⊗σ₂⊗σ₃) = 1 if at least one of the
+ representations πᵢ is a principal series representation." -- text layer txt:58-60, epsilon dropped there too)
+
+=== [LK4] loke_2001_pjm197.pdf, pdf page 4, printed p. 121 (PNG: png/loke_p-04.png) -- context for Thm 1.3 only ===
+
+=== [LK7] loke_2001_pjm197.pdf, pdf page 7, printed p. 124 (PNG: png/loke_p-07.png) ===
+(page is Section 2.4; printed p.123 Section 2.3 conventions read cleanly from txt:223-247; the ε/ϵ index
+ of π(s, ϵ, m) is dropped by the text layer: "π(s, , m)" = "π(s, ϵ, m)", "s −  is an odd integer" = "s − ϵ ...")
+LK7a: "(n₁ + n₂ + n₃) φ(w¹_{n₁} ⊗ w²_{n₂} ⊗ w³_{n₃}) = 0."   [txt:257]
+
+=== [GK6] gk_2002_math0109201.pdf, pdf page 6, printed p. 6 (PNG: png/gk_p-06.png) ===
+GK6a: "Theorem 2.2. For k₁ ≤ k₂ the decomposition of the tensor product of positive and negative discrete
+       series representations of 𝔰𝔲(1,1) is
+         π⁺_{k₁} ⊗ π⁻_{k₂} ≅ ∫₀^∞⊕ π^{ρ,ε} dρ,                                   k₁ − k₂ ≥ −1/2, k₁ + k₂ ≥ 1/2,
+         π⁺_{k₁} ⊗ π⁻_{k₂} ≅ ∫₀^∞⊕ π^{ρ,ε} dρ ⊕ π^{λ,ε},                          k₁ + k₂ < 1/2,
+         π⁺_{k₁} ⊗ π⁻_{k₂} ≅ ∫₀^∞⊕ π^{ρ,ε} dρ ⊕ ⨁_{j∈ℤ≥0, k₂−k₁−1/2−j>0} π⁻_{k₂−k₁−j},   k₁ − k₂ < −1/2,
+       where ε = k₁ − k₂ + L, L is the unique integer such that ε ∈ [0,1) and λ = −k₁ − k₂."
+
+=== [GKR12-13] gkr_2003_math0302251.pdf, pdf pages 12-13 (PNGs: png/gkr_p-12.png, png/gkr_p-13.png) ===
+GKR12a: "πₖ⁺(H) eₙ = 2(k + n) eₙ, ... πₖ⁺(Ω) eₙ = k(1 − k) eₙ."  (4.3)
+GKR12b: "πₖ⁻(H) eₙ = −2(k + n) eₙ, ... πₖ⁻(Ω) eₙ = k(1 − k) eₙ."  (4.4)
+GKR12c: "For (ρ, ε) = (0, 1/2) the representation π^{0,1/2} splits into a direct sum of a positive and a negative
+         discrete series representation: π^{0,1/2} = π⁺_{1/2} ⊕ π⁻_{1/2}."
+GKR13a: Theorem 4.1 -- identical display to GK6a (restated, "determined in full generality in [10, Thm.2.2]").
+
+=== [KT24-25] kitaev_2017_1711.08169.pdf, pdf pages 24-25 (PNGs: png/kitaev_p-24.png, png/kitaev_p-25.png) ===
+KT24a: "D⁺_{λ₁} ⊗ D⁺_{λ₂} ≅ ⨁_{n=0}^∞ D⁺_{λ₁+λ₂+n}."  (129)
+KT25a: "D⁺_{λ₁} ⊗ D⁻_{λ₂} ≅ ∫₀^∞ C^ν_{1/4+s²} ds ⊕ ⨁_{λ=|ν|−p>1/2, p=0,1,2,...} D^{sgn ν}_λ
+        ⊕ (C^ν_{λ(1−λ)} for λ = λ₁ + λ₂ < 1/2)"  (140),  with "ν = λ₁ − λ₂" (141)
+
+=== [KT23] kitaev_2017_1711.08169.pdf, pdf page 23 (PNG: png/kitaev_p-23.png) ===
+KT23a: "Ỹ(e^{iφ₁}, e^{iφ₂}, e^{iφ₃}) = a |φ₁₂|^{−λ₁−λ₂+λ₃} |φ₁₃|^{−λ₁+λ₂−λ₃} |φ₂₃|^{λ₁−λ₂−λ₃},  φⱼₖ = 2 sin((φⱼ−φₖ)/2)"  (128)
+
+=== [BR8] br_2004_math0305351.pdf, pdf page 8, printed p. 8 (PNG: png/br04_p-08.png) ===
+Text layer is clean for Section 2.4.2 (txt:356-376); PNG saved as the visual check. No transcription needed.

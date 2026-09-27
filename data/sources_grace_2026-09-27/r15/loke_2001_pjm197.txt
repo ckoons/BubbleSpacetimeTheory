@@ -1,0 +1,1255 @@
+Pacific
+Journal of
+Mathematics
+
+
+                TRILINEAR FORMS OF gl2
+
+                     Hung Yean Loke
+
+
+
+
+Volume 197   No. 1                       January 2001
+                                                PACIFIC JOURNAL OF MATHEMATICS
+                                                         Vol. 197, No. 1, 2001
+
+
+
+
+                      TRILINEAR FORMS OF gl2
+
+                              Hung Yean Loke
+
+        Let G be either GL2 (R) or GL2 (C) with maximal compact
+      subgroup K. Let g be its complexified Lie algebra. In this pa-
+      per, we will construct (g, K)-invariant forms on ⊗3i=1 πi where
+      πi is an infinitesimal principal series representation.
+
+                               1. Introduction
+
+1.1. In this paper we study the invariant linear forms on the tensor prod-
+ucts of three principal series representations of GL2 (F ) where F is an
+archimedean field.
+   When F is a p-adic field, the existence of invariant trilinear forms is known
+through the work of Prasad [Pa1]. He shows that the space of invariant
+forms is at most one dimensional and that it exists if and only if a certain
+epsilon factor is 1. His work was partly motivated by [Re]. He also considers
+the case when F = R and we will describe his result in more detail below.
+   Let F = R or C and let G = GL2 (F ) with maximal compact subgroup
+K. Let g be its Lie algebra. Let πi (i = 1, 2, 3) be an irreducible infinite
+dimensional Harish-Chandra module of G. Assume that the product of three
+central characters of πi is trivial.
+   If F = R then πi is either a principal series or discrete series represen-
+tation. Let H be the quaternion division algebra over R and we identify
+its subset of non-zero elements H∗ with U2 . If πi is a discrete series, we
+denote πi0 to be the irreducible finite dimensional representation of H∗ with
+the same infinitesimal character and central character as πi . When F = C,
+πi is always in the principal series.
+   We recall that πi corresponds to a representation σi of the Weil group
+WF of F . For a non-trivial character ψ of F and a representation σ of WF ,
+we associate an epsilon factor [JL]
+                                                  
+                                                 1
+                           (σ) :=  σ, ψ, s =       .
+                                                 2
+We note some facts about the epsilon factor (See Prop. 8.4, Thm. 9.5 of
+[Pa1]):
+   (i) (σ1 ⊗ σ2 ⊗ σ3 ) = ±1.
+   (ii) (σ1 ⊗σ2 ⊗σ3 ) = 1 if at least one of the representations πi is a principal
+series representation.
+
+                                       119
+120                           HUNG YEAN LOKE
+
+
+  (iii) (σ1 ⊗ σ2 ⊗ σ3 ) = −1 if and only if π1 , π2 and π3 are discrete series
+representations and π10 ⊗ π20 ⊗ π30 has a non-zero H∗ -invariant form.
+  The following result is due to Prasad [Pa1].
+Theorem 1.1. Suppose F = R and π1 is a discrete series representation
+or a limit of discrete series representation. Then π1 ⊗ π2 ⊗ π3 exhibits a
+(g, K)-invariant form if and only if (σ1 ⊗ σ2 ⊗ σ3 ) = 1. In this case the
+invariant form is unique up to scalars.
+   This paper completes the project by studying the remaining cases when
+all the representations πi are principal representations.
+   Recall that an infinitesimal reducible principal series representation of
+GL2 (R) either has a unique finite dimensional submodule, or a unique finite
+dimensional quotient. We say that the principal series is reducible of type I
+or II respectively. The main result of this paper is the following theorem:
+Theorem 1.2. Suppose F = R or C and π1 , π2 and π3 are (g, K)-modules
+belonging to the principal series representations. We make the following
+assumptions:
+ (1) If F = R, then πi is either irreducible or reducible of type I.
+ (2) If F = C, then πi is irreducible.
+ (3) The product of central characters of the three representations is trivial.
+Under a further mild assumption if F = C (see §4.6), π1 ⊗ π2 ⊗ π3 exhibits
+a (g, K)-invariant form and it is unique up to scalars.
+   The proofs are given in §2.7 for F = R and §4.7 for F = C.
+   Note that our result is consistent with those in the non-archimedean case
+(cf. Thm. 1.2 and Thm. 1.4 of [Pa1]).
+
+1.2. In a related paper [Pa2], Prasad considers the invariant linear forms of
+GL2 (F1 ) × GL2 (F2 ) where F1 is a quadratic extension of a non-archimedean
+local field F2 . In §2 of this paper, we investigate the case when F1 = C and
+F2 = R and we obtain the following theorem (cf. Thm. A, Thm. B [Pa2]):
+Theorem 1.3. Let π1 be an irreducible infinite dimensional Harish-Chan-
+dra module of GL2 (C). Let π2 be an infinite dimensional Harish-Chandra
+module of GL2 (R). Suppose the product of the central characters is trivial
+on GL2 (R). We assume that π2 satisfies one of the following conditions.
+ (1) π2 is irreducible.
+ (2) π2 is a reducible principal series representation with a finite dimen-
+     sional submodule.
+ (3) π2 is a reducible principal series representation with a finite dimen-
+     sional quotient of dimension n and π1 contains an irreducible K-type
+     of dimension n.
+                           TRILINEAR FORMS OF gl2                              121
+
+
+Then the dimension of (gl2 (C), O2 )-invariant forms on π1 ⊗ π2 is at most
+one. The dimension is zero if and only if π2 is in the discrete series and the
+restriction of the dual representation of π20 to SU2 is a K-type of π1 .
+
+  The proofs of the above theorems are given in §3.4 and §3.9. Let GL+
+                                                                     2 (R)
+denote the subgroup of GL2 (R) with positive determinant. Using a similar
+argument we will prove the following proposition in §3.13: (Cf. Thm. 8.4.4
+[Pa2], [F].)
+
+Proposition 1.4. Let π1 = B(µ1 , µ2 ) denote the infinitesimal principal se-
+ries representation of GL2 (C) where µ1 , µ2 are characters of C∗ (see §6
+[JL]). Suppose π1 is irreducible with trivial infinitesimal character, then it
+will exhibit a GL+2 (R)-invariant form φ if and only if one of the following
+statement is true.
+  (i) There exists s ∈ C such that 2s is not an integer and µ1 (z) = |z|s ,
+      µ2 (z) = |z|−s for all z ∈ C∗ . π1 is spherical and φ is non-zero on the
+      spherical vector.
+ (ii) There exists l ∈ Z such that µ1 (z) = |z|l z −l and µ2 (z) = |z|l z −l . φ is
+      non-zero on the minimal K-types.
+   In other words, π1 is a base change from a representation of GL2 (R). The
+invariant form is unique up to scalars. In case (i) or (ii) such that l is even,
+the invariant form extends to a GL2 (R)-invariant form. Otherwise when l
+is odd in (ii), the invariant form extends to the sign character of GL2 (R).
+
+  Theorem 1.3 will enable us to prove the following corollary in §3.12.
+
+Corollary 1.5. Let π1 be an irreducible infinitesimal principal series rep-
+resentation of GL2 (C). Let πf be an irreducible finite dimensional represen-
+tation of GL2 (R) of dimension n. Assume that the product of the central
+characters is trivial on GL2 (R). Then:
+  (i) The dimension of (gl2 (C), O2 )-invariant forms on π1 ⊗ πf is at most
+      one.
+ (ii) The dimension is one if π1 contains an n dimensional irreducible K-
+      type.
+
+   The converse statement of Corollary 1.5(ii) is false (see Proposition
+1.4(ii)). However we will show in Theorem 3.7(iii) that it is true for ‘generic’
+π1 .
+
+1.3. We will give vectors where the invariant forms in Theorem 1.2 and 1.3
+take non-zero values. These are recorded in Corollary 2.2, Propositions 3.3
+and 3.5, and Corollary 4.6.
+122                          HUNG YEAN LOKE
+
+
+1.4. The organization of this paper is as follows: §2 and §4 are mainly
+devoted to the proofs of Theorem 1.2 for GL2 (R) and GL2 (C) respectively.
+In §3 we investigate invariant forms of representations of GL2 (R) × GL2 (C)
+and we give the proofs of Theorem 1.3, Proposition 1.4 and Corollary 1.5.
+   The proofs in all the three sections are conceptually straightforward but
+rather tedious to achieve. First we ignore the central characters and we
+work with representations of SL±   2 (R) or SL2 (C). Next we write down a
+basis for the representations. An invariant form φ on a tensor product
+of representations will give rise to a system of equations derived from the
+actions of the Lie algebras and the maximal compact subgroups. Using
+these equations, we will show that the value of φ on a certain distinguish
+vector uniquely determines the invariant form. The main difficulty is to show
+existence and this is done by finding a non-trivial solution to the system of
+equations. The equations in §4 are especially long and we have omitted the
+details of the calculations. We have also recruited the help of the computer
+and the software Mathematica c .
+
+1.5. Towards the end of §2, we show that if at most two of the three
+principal series representations of GL2 (R) are of type II, then the tensor
+product the three representations will exhibit an invariant form for ‘most’
+of the time. See Theorem 2.3.
+   In §3.11 we give a counter example to show that the third assumption in
+Theorem 1.3 is necessary in order for the theorem to hold. However if π2 is
+a reducible principal series of type II which fails to satisfy the assumption,
+we will prove Theorem 3.7 in §3.14 which states that Theorem 1.3 remains
+true for ‘almost’ all π1 .
+
+1.6. Tensor products of unitary representations of SL2 (R) and SL2 (C)
+have been studied in [Re] and [W] respectively.
+   After the completion of this paper, the author was notified of an un-
+published result in Tohru Uzawa’s thesis where he proved Theorem 1.2 for
+F = R and πi irreducible principal series representation using hyperfunction
+sections. See §3.5 of [Uz]. The proof given in this paper is comparatively
+more elementary.
+   Finally we recall that Gross and Prasad have a general multiplicity one
+statement in the category of smooth, Fréchet representations of moderate
+growth [GP], [W]. Our results suggest that perhaps it is enough to work in
+the algebraic category of (g, K)-modules.
+
+
+Acknowledgments. The author would like to thank D. Prasad for suggest-
+ing this problem and his many helpful comments. The proof of Proposition
+4.2 is due to him.
+                           TRILINEAR FORMS OF gl2                           123
+
+
+                                  2. GL2 (R).
+
+2.1. Throughout this paper all representations of GL2 (C) or GL2 (R) are
+infinitesimal representations unless otherwise stated.
+   In this section we will study (gl2 (C), O2 )-invariant forms on tensor prod-
+ucts of three principal series representations π1 , π2 and π3 . It is assumed
+that the product of the central character is trivial so we will only work with
+(sl2 (C), O2 )-modules.
+
+2.2. Let
+                                                    
+                 1         1 i                   0 1
+             A= √                     , ω=                 ∈ GL2 (C).
+                  2i       1 −i                  1 0
+
+We embed ι : GL2 (R) ,→ GL2 (C) by g 7→ AgA−1 .   The image has
+                                                                 maximal
+                                                       iθ
+                                                                        
+                                                      e     0
+compact subgroup K = K0 o ω where K0 =                            :θ∈R .
+                                                       0 e−iθ
+For the rest of this paper GL02 (R) and SL02 (R) will refer to the images
+of GL2 (R) and SL2 (R) under ι. Let gl02 (R) and sl02 (R) denote their Lie
+algebras and h := sl02 (R) ⊗ C ≃ sl2 (C). Let H, X, Y be the standard basis
+of sl2 (R) ⊂ gl2 (C). Note that iH ∈ Lie(K).
+
+2.3. We recall some facts about principal series representations (see
+pp. 164-166 [JL]). A (h, K)-module π = π(s, , m) belonging to the prin-
+cipal series is parametized by s ∈ C and , m ∈ {0, 1}. π is spanned by
+{wn : n ∈ Z, n ≡  (mod 2)} such that
+                                       1
+              π(H)wn = nwn , π(X)wn = (s + n + 1)wn+2 ,
+                                       2
+                       1
+              π(Y )wn = (s − n + 1)wn−2 , π(ω)wn = (−1)m w−n .
+                       2
+−1 ∈ K0 acts on π by (−1) . π is irreducible if and only if s −  is not an
+odd integer.
+   If s ≥ 1 and s −  is an odd integer, then π contains a unique irreducible
+submodule ds spanned by {wn : |n| ≥ s + 1}. It is a self dual representation.
+When s ≥ 1 it is called a discrete series representation. The quotient π/ds
+is an irreducible finite dimensional representation.
+   If s ≤ −1 and s −  is an odd integer, then {wn : |n| ≥ −s − 1} is the
+unique submodule and the quotient is d−s+1 .
+   In the two reducible cases above (s > 0 and s < 0) we say that π is
+reducible of type I and II respectively.
+   If s = 0 and  = 1, π = d0 is called a limit of discrete series.
+124                             HUNG YEAN LOKE
+
+
+2.4. For i = 1, 2, 3, let πi = π(si , i , mi ) be a principal series with basis
+{wni : n ≡ i (mod 2)}. We assume that the product of the three central
+characters is trivial. Since −1 ∈ K acts trivially,
+(1)                        1 + 2 + 3 ≡ 0     (mod 2).
+  Suppose φ is a (h, K)-invariant form on π := π1 ⊗ π2 ⊗ π3 . The action of
+H gives
+                    (n1 + n2 + n3 )φ(wn1 1 ⊗ wn2 2 ⊗ wn3 3 ) = 0.
+Hence φ(wn1 1 ⊗ wn2 2 ⊗ wn3 3 ) = 0 unless n1 + n2 + n3 = 0 so it suffices to find
+the values of
+                     f (n1 , n2 ) := φ(wn1 1 ⊗ wn2 2 ⊗ w−n
+                                                        3
+                                                          1 −n2
+                                                                ).
+Then the actions of 2X, 2Y and ω on φ(wn1 1 ⊗ wn2 2 ⊗ w−n
+                                                       3
+                                                         1 −n2 ±2
+                                                                  ) give
+(2)   (s3 − n1 − n2 − 1)f (n1 , n2 ) = −(s1 + n1 + 1)f (n1 + 2, n2 ) +
+                                        − (s2 + n2 + 1)f (n1 , n2 + 2)
+(3)   (s3 + n1 + n2 − 1)f (n1 , n2 ) = −(s1 − n1 + 1)f (n1 − 2, n2 ) +
+                                        − (s2 − n2 + 1)f (n1 , n2 − 2)
+(4)                     f (n1 , n2 ) = (−1)m1 +m2 +m3 f (−n1 , −n2 ).
+Suppose (4) is satisfied for all (n1 , n2 ), then (2) is true at a point (n1 , n2 ) if
+and only if (3) is true at (−n1 , −n2 ).
+  We will abuse notations and denote the various points in Z2 as well as
+their values of f by a, b, . . . , h in the following figure where d denotes the
+point (n1 , n2 ) and the sides of the squares have length 2.
+
+                                c           g
+
+                                            d
+                                a                   h
+
+                                        b           e
+                                     Figure 1.
+
+  By (2) and (3),
+(5)      (s3 − n1 − n2 + 1)a = −(s1 + n1 − 1)c − (s2 + n2 + 1)d
+(6)      (s3 − n1 − n2 + 1)b = −(s1 + n1 + 1)d − (s2 + n2 − 1)e
+(7)     (s3 + n1 + n2 − 1)d = −(s1 − n1 + 1)a − (s2 − n2 + 1)b.
+Putting (5) and (6) into (7) we get
+(8)          (s23 − s21 − s22 + 1 − 2n1 n2 )f (n1 , n2 )
+                = (s1 − n1 + 1)(s2 + n2 + 1)f (n1 − 2, n2 + 2)
+                     + (s2 − n2 + 1)(s1 + n1 + 1)f (n1 + 2, n2 − 2).
+                             TRILINEAR FORMS OF gl2                                125
+
+
+We find the same relation about c, d, e if we use g, h instead of a, b. Suppose
+(4) is satisfied for all (n1 , n2 ), then (8) holds at d = (n1 , n2 ) if and only if it
+holds at d = (−n1 , −n2 ).
+
+2.5. Let N ∈ Z such that N ≡ 1 + 2 (mod 2). Suppose we are given
+f (n1 , n2 ) where n1 + n2 = N and they satisfy (8). In addition suppose
+s3 + N + 1 + 2k 6= 0 for all non-negative integer k. We define f (n1 , n2 ) for
+n1 + n2 = N + 2k (k ≥ 1) inductively using (3). We state a useful lemma.
+Lemma 2.1. f (n1 , n2 ) satisfies (2) for n1 + n2 ≥ N .
+Proof. We will prove the lemma by induction on n1 + n2 . We refer to Figure
+2 where d is the point (n1 , n2 ).
+
+
+
+
+                                    c        c’
+
+                                         d        d’
+
+                                              e        e’
+
+
+                                     Figure 2.
+
+By induction we assume that (2) is satisfied for all f (l1 , l2 ) such that l1 +l2 ≤
+n1 + n2 − 2. Hence f (n1 , n2 ) satisfies (8).
+  By (3) we have
+(9)                tc0 = −(s1 − n1 + 1)c − (s2 − n2 − 1)d
+(10)               td0 = −(s1 − n1 + 1)d − (s2 − n2 − 1)e
+where t = (s3 + n1 + n2 + 1) 6= 0 by assumption. We put (9) and (10) into
+the following expression.
+ −(s1 + n1 + 1)d0 − (s2 + n2 + 1)c
+    = t−1 ((s1 + n1 + 1)(s1 − n1 − 1)d + (s1 + n1 + 1)(s2 − n2 + 1)e +
+       + (s2 + n2 + 1)(s1 − n1 + 1)c + (s2 + n2 + 1)(s2 − n2 − 1)d)
+       (Substitute (8))
+    = t−1 d(s21 − (n1 + 1)2 + s22 − (n2 + 1)2 + (s23 − s21 − s22 + 1 − 2n1 n2 ))
+    = t−1 d(s23 − (n1 + n2 + 1)2 )
+    = (s3 − n1 − n2 − 1)d.
+This proves the lemma.                                                              
+126                             HUNG YEAN LOKE
+
+
+2.6. Non-Type II representations. We make the following assumptions
+about πi .
+  (1) πi is either irreducible or reducible of type I.
+  (2) 1 = 2 and 3 = 0 (cf. (1)).
+   Suppose φ is an invariant form on π1 ⊗π2 ⊗π3 and it gives rise to f (n1 , n2 )
+as above.
+   If 1 = 0, then f (−2, 2) = (−1)m1 +m2 +m3 f (2, −2) and by (8) we have
+(11) (s23 − s21 − s22 + 1)f (0, 0)
+                            = (s1 + 1)(s2 + 1)(1 + (−1)m1 +m2 +m3 )f (2, −2).
+Since f (0, 0) = (−1)m1 +m2 +m3 f (0, 0), f (0, 0) = 0 if m1 + m2 + m3 is odd.
+If m1 + m2 + m3 is even, then (11) shows that f (0, 0) determines f (2, −2).
+2.7. Proof of Theorem 1.2 for F = R. We will construct f (n1 , n2 ) which
+satisfies (2), (3) and (4). Hence the function f (·, ·) will give rise to an
+invariant form φ.
+   First we assign arbitrary values to:
+   (i) f (−1, 1) if 1 = 1. We define f (1, −1) = (−1)m1 +m2 +m3 f (−1, 1).
+  (ii) f (0, 0) if 1 = 0 and m1 + m2 + m3 is even. We define f (2, −2) by (11).
+ (iii) f (−2, 2) if 1 = 0 and m1 + m2 + m3 is odd. We set f (0, 0) = 0.
+Using (8) repeatedly, we determine f (n, −n) for all positive n. Note that
+this is possible because the coefficient of f (n1 + 2, n2 − 2) in (8) does not
+vanish for positive n = n1 = −n2 . By (4), we determine f (n, −n) for all
+n ≤ 0. Note that we could use (8) instead of (4) to get the same values for
+f (n, −n).
+   Applying (3) inductively gives f (n1 , n2 ) for all n1 + n2 > 0. This is
+possible because s3 ≥ 0. Finally (4) gives f (n1 , n2 ) for n1 + n2 < 0. Again
+we may use (8) instead of (4) and base on the remark after (4) we will get
+the same values for f (n1 , n2 ).
+   We will show that f satisfies (2), (3) and (4). From the construction, f
+trivially satisfies (4), (3) if n1 + n2 > 0 and (2) if n1 + n2 < 0. Lemma 2.1
+takes care of (2) when n1 + n2 ≥ 0. By the remark after (4), f satisfies (3)
+for n1 + n2 ≤ 0.
+   Finally we note that conversely an invariant form φ will give rise to a
+function f . The above construction shows that f is completely determined
+by its value at f (0, 0), f (−1, 1) or f (−2, 2). This proves that φ is unique up
+to scalars.                                                                     
+Corollary 2.2. (i) The invariant form is non-trivial on the vector w11 ⊗
+        2 ⊗ w 3 if  = 1.
+      w−1      0     1
+ (ii) If 1 = 0 then the invariant form is non-zero on the vector w01 ⊗w02 ⊗w03
+      if and only if m1 + m2 + m3 is even. If m1 + m2 + m3 is odd, then the
+      invariant form is non-zero on w−21 ⊗ w2 ⊗ w3 .
+                                              2     0
+                           TRILINEAR FORMS OF gl2                             127
+
+
+2.8. The proof can be modified to find gl2 (R)-invariants for πi irreducible.
+In this case (1) is not necessary and we can show that the space of such
+invariants has dimension two.
+
+2.9. Type II representations. Let πi = πi (si , i , mi ) (i = 1, 2, 3) be a
+principle series representation. We would like to investigate the situation
+when one or two out of the three representations are reducible of type II.
+For  = 0, 1 define
+                S() := {s ∈ Z : s ≡  − 1     (mod 2), s < 0}.
+Without loss of generality we assume that s1 ∈ S(1 ) and s3 6∈ S(3 ). In
+other words, π1 is reducible of type II and π3 is not. Note that if πi (i = 1, 2)
+is of type II, then it has a unique irreducible quotient dsi .
+   Define
+                  
+                      max(−s1 , −s2 ) if π1 and π2 are of type II
+             S :=
+                      −s1              if only π1 is of type II.
+Theorem 2.3. Given πi (i = 1, 2) and 3 , m3 as above. Then for all but
+finitely many s3 ∈ C − S(3 )
+(12)                        π1 ⊗ π2 ⊗ π(s3 , 3 , m3 )
+exhibits an invariant form unique up to scalars. The invariant form will
+filter through the quotient
+(13)                       ds1 ⊗ π2 ⊗ π(s3 , 3 , m3 ).
+Proof. First we assume that 1 = 2 . We would like to apply the same
+method as in the proof of Theorem 1.2 where the three πi ’s are not of type
+II. If π1 or π2 is of type II, the proof breaks down because the coefficient of
+f (n1 + 2, n2 − 2) (n1 = −n2 = S − 1) in (8) is zero. Fortunately Lemma 2.4
+below shows that f (n, −n) = 0 if 0 ≤ n ≤ S − 1. By applying (8) we show
+that f (n, −n) (n ≥ S + 1) are determined by f (−s + 1, s − 1) and (4) gives
+f (−n, n). Moreover f (n, −n) satisfies (8). Hence the conditions of Lemma
+2.1 are satisfied and we may proceed to construct an invariant form as in
+§2.7.
+   The case 1 6= 2 is similar and we leave the details to the reader.
+   By Theorem 1.1 there is an invariant form on (13) and it will pull back
+to a non-zero invariant form on (12) which is unique. This proves the last
+assertion.                                                                   
+Lemma 2.4. Suppose 1 = 2 and f (n, −n) satisfies (4) and (8). Then for
+all but finitely many s3 ∈ C, f (n, −n) = 0 for |n| ≤ S − 1.
+Proof. We will only consider the case 1 = 2 = 0. The case 1 = 2 = 1 is
+similar and we leave the proof to the reader.
+128                            HUNG YEAN LOKE
+
+
+  We will solve v = (f (0, 0), f (2, −2), . . . , f (S − 1, −S + 1)). Define a
+(S + 1)/2 by (S + 1)/2 matrix A = (aij ) where i, j = 0, . . . , (S − 1)/2 and
+                 ajj   = s21 + s22 − s23 − 1 − 8j 2
+              aj,j−1   = (s1 − 2j + 1)(s2 − 2j + 1)
+              aj,j+1   = (s1 + 2j + 1)(s2 + 2j + 1) if j 6= 0
+                 a01 = (s1 + 1)(s2 + 1)(1 + (−1)m1 +m2 +m3 )
+                 aij = 0 if otherwise.
+By (8) and (11), Av = 0. Hence v = 0 if and only if A = (aij ) is invertible,
+that is, det A 6= 0. Note that det A is a polynomial in s3 of degree S + 1. If
+s3 is not a root of the polynomial, then v = 0.                             
+
+                            3. GL2 (R) in GL2 (C).
+
+3.1. We retain the notations of §2.2 as well as the embedding SL02 (R) ⊂
+GL02 (R) ⊂ GL2 (C). Let π1 and π2 be irreducible Harish-Chandra modules
+of GL2 (C) and GL02 (R) respectively. Suppose the product of the central
+characters is trivial on GL02 (R). Our goal of this section is to find (gl02 (R) ⊗
+C, O2 )-invariant forms on π1 ⊗ π2 . Similar to §2.1 the central characters
+of π1 and π2 are not essential so we may replace GL2 (C) and GL02 (R) by
+SL2 (C) o ω and SL02 (R) o ω respectively.
+
+3.2. We define some elements in sl2 (C).
+                                                       
+            1   0 i            1   0 −1           1    i 0
+      A1 = 2            A2 = 2              A3 = 2
+                 i 0               1 0                 0 −i
+                                                       
+           1    0 1           1     0 i          1    1 0
+     B1 = 2             B2 = 2              B3 = 2            .
+                1 0                −i 0               0 −1
+Next we define the following elements in sl2 (C) ⊗R C.
+        H 3 = A3 ⊗ i H + = A1 ⊗ i − A2 ⊗ 1 H − = A1 ⊗ i + A2 ⊗ 1
+        F3 = B3 ⊗ i F+ = B1 ⊗ i − B2 ⊗ 1 F− = B1 ⊗ i + B2 ⊗ 1
+so that A2 = 12 (H− − H+ ). {A1 , A2 , A3 } spans the Lie algebra of the
+maximal compact subgroup SU2 and {H3 , H+ , H− } spans its split form.
+{2H3 , −iF+ , −iF− } forms the standard basis of h := sl02 (R) ⊗R C.
+
+3.3. It is well-known that all irreducible infinitesimal representations of
+SL2 (C) are either finite dimensional representations or principal series rep-
+resentations. We will follow the notation of §8.3 of [Na] and denote an
+irreducible representation by π(k0 , c) where 2k0 is a non-negative integer
+and c ∈ C. We recall Theorem 1 of §8.3 [Na].
+                              TRILINEAR FORMS OF gl2                                      129
+
+
+Theorem 3.1. A basis of π(k0 , c) is
+              {fvk |k = k0 , k0 + 1, . . . , k00 , v = −k, −k + 1, . . . k}.
+If c2 = (k0 + n)2 for some positive integer n, then k00 = |c| − 1 and π(k0 , c)
+is a finite dimensional representation. Otherwise k00 = ∞ and π(k0 , c) is a
+principal series representation.
+   The actions of the Lie algebra are as follows:
+                  p                     k
+          H+ fvk = (k + v + 1)(k − v)fv+1
+                  p
+          H− fvk = (k + v)(k − v + 1)fv−1
+                                        k
+
+         H3 fvk = vfvk
+                             k−1
+(14)     F+ fvk = Rk−v−1 Ck fv+1
+                   p                      k                  k+1
+                  − (k − v)(k + v + 1)Ak fv+1 + Rk+v+1 Ck+1 fv+1
+                                k−1
+         F− fvk = −Rk+v−1 Ck fv−1
+                    p                        k                 k+1
+                  − (k + v)(k − v + 1)Ak fv−1   − Rk−v+1 Ck+1 fv−1
+                  p
+(15)     F3 fvk = k 2 − v 2 Ck fvk−1
+                             p
+                  − vAk fvk − (k + 1)2 − v 2 Ck+1 fvk+1
+where
+                                                          s
+              p                    ik0 c         i            (k 2 − k02 )(k 2 − c2 )
+       Rk =       (k + 1)k, Ak =          , Ck =                                      .
+                                 k(k + 1)        k                  4k 2 − 1
+   We refer to the definition of the infinitesimal irreducible principal series
+representation B(µ1 , µ2 ) of GL2 (C) in §6 [JL] where µ1 and µ2 are characters
+of C∗ . We write
+                             µ1 (z) = |z|2s1 −a1 −b1 z a1 z b1
+                             µ1 (z) = |z|2s2 −a2 −b2 z a2 z b2
+                         µ1 µ−1
+                             2 (z) = |z|
+                                        2s−a−b a b
+                                              z z
+where ai , bi , a, b are non-negative integers such that ai bi = ab = 0. Then
+π(k0 , c) is the restriction of B(µ1 , µ2 ) to (sl2 (C) ⊗   C, SU2 )such that s =
+                                                               0 1
+(sign(b − a))c and 2k0 = |b − a|. The action of ω =                    is given by
+                                                               1 0
+                         
+                     0 1
+           k
+        ωfv =               fvk = ib1 +b2 −a1 −a2 −2k f−v
+                                                       k
+                                                          = (−1)m0 +(k−k0 ) f−v
+                                                                             k
+                     1 0
+where m0 = min(b1 − a1 , b2 − a2 ). We will denote the restriction of B(µ1 , µ2 )
+to (sl2 (C) ⊗ C, SU2 o ω) by π(k0 , c, m0 ).
+130                             HUNG YEAN LOKE
+
+
+3.4. We recall the definitions of the discrete series representation and its
+limit ds in §2.3. We will give an alternative description. Let b be the
+Borel subalgebra of h := sl02 (R) ⊗ C spanned by H3 and F− . Let χ0 be the
+fundamental character of K0 given by
+                                iθ        
+                                  e     0
+                         χ0 :                7→ eiθ .
+                                   0 e−iθ
+Let n ≥ 1, then
+                                     (h,K)
+                        dn−1 = Ind(h,K0 ) (U(h) ⊗b χn0 ).
+
+  We refer to Theorem 3.1 and suppose π1 = π(k0 , c) is a principal series
+representation and π2 = dn−1 . Since π1 ⊗ π2 has trivial central character,
+the action of −1 ∈ K gives 2k0 ≡ n (mod 2).
+         Hom(h,K) (π1 ⊗ π2 , C)
+           = Hom(h,K) (π1 , π2 )     (π2 is self-dual)
+           = Hom(h,K0 ) (π1 , U(h) ⊗b χn0 )    (Frobenius reciprocity)
+           =    HomK0 ((π1 )F+ , χn0 )
+where (π1 )F+ = π1 /{π1 (F+ )v : v ∈ π1 } is the space of F+ coinvariants. The
+next lemma proves Theorem 1.3 when π2 is a discrete series representation.
+Lemma 3.2.
+          dimC HomK0 ((π(k0 , c))F+ , χn0 )
+            
+             1 if −2k0 + 2 ≤ n ≤ 2k0 and n ≡ 2k0 (mod 2)
+          =    2 if n ≤ −2k0 and n ≡ 2k0 (mod 2)
+               0 if otherwise.
+            
+
+Proof. Define
+(16)           Vl = Span of {fvk : k0 ≤ k ≤ l}
+            Wl = Span of {fvk : k0 < k ≤ l, v = −k, −k + 1}.
+The lemma follows from (14) and the fact
+                             Wl ⊕ π(F+ )Vl−1 = Vl .
+                                                                            
+
+3.5. Let π1 = π(k0 , c, m0 ) and π2 = π(s, , m) be infinitesimal principal
+series representations of SL2 (C) o ω and SL02 (R) o ω respectively (cf. §3.3
+and §2.3). We will construct a (h, K)-invariant linear form on π1 ⊗ π2 . Since
+−1 ∈ K is assumed to act trivially, we have 2k0 ≡  (mod 2).
+   Note that the three assumptions in Theorem 1.3 is equivalent to the fol-
+lowing statements.
+                             TRILINEAR FORMS OF gl2                                131
+
+
+  1) If  = 1, then s + 1 6∈ {−1, −3, −5, −7, . . . , −2k0 + 2}.
+  2) If  = 0, then s + 1 6∈ {0, −2, −4, −6, . . . , −2k0 + 2}.
+
+3.6. Let φ be an invariant form, then via the action of H = 2H3 we get
+                  π(H)φ(fvk ⊗ ωn ) = (2v + n)φ(fvk ⊗ ωn ) = 0
+so φ = 0 unless 2v + n = 0. Now set φkv = φ(fvk ⊗ ω−2v ) and the actions of
+F+ , −F− and ω give
+          +
+                                   p
+         Ekv   : Rk−v−1 Ck φk−1
+                            v+1 −     (k − v)(k + v + 1)Ak φkv+1 +
+                                           i
+                    + Rk+v+1 Ck+1 φk+1                   k
+                                   v+1 + (s − 2v − 1)φv = 0
+                                           2
+          −
+                                   p
+         Ekv   : Rk+v−1 Ck φk−1
+                            v−1 +     (k + v)(k − v + 1)Ak φkv−1 +
+                                           i
+                    + Rk−v+1 Ck+1 φk+1                   k
+                                   v−1 + (s + 2v − 1)φv = 0
+                                           2
+          0
+         Ekv   : φkv = (−1)m0 +(k−k0 )+m φk−v .
+                                         −                   +                      0
+Note that the action of ω sends Ekv          to im1 +m2 +2k Ek,−v . Therefore if Ekv
+                           −                   +
+holds for all k, v then Ekv    determines Ek,−v     and vice versa.
+   As in Figure 1, let h, a, b . . . denote the points (k, v), (k, v+1), (k−1, v) . . .
+respectively as in the following diagram
+
+                                           a
+
+
+                                           h
+                                  b                d
+
+
+                                           e
+
+                                      Figure 3.
+
+We will abuse notations and use a, b, . . . to denote the corresponding values
+                                                                            ±
+of φ at those points. Let sv = 2i (s − 2v + 1) and rv = 2i (s + 2v + 1). Ekv
+shows that the values of a, b, h determine that of d and the values of b, h, e
+determine that of d. We have the following equalities:
+                              +
+(17)          Se = Sbhde = Ek,v−1 (k ≥ v − 1)
+                              p
+                 : Rk−v Ck b − (k − v + 1)(k + v)Ak h
+                     + Rk+v Ck+1 d + sv e = 0
+                             −
+(18)         Na = Nbhda = Ek,v+1 (−k ≤ v + 1)
+                             p
+                : Rk+v Ck b + (k + v + 1)(k − v)Ak h
+                    + Rk−v Ck+1 d − rv a = 0
+132                             HUNG YEAN LOKE
+
+
+(19)         Wb = Waheb = Rk−v Sbhde − Rk+v Nbhda (k + 1 ≥ |v|)
+                                             p
+                : −2v(2k + 1)Ck b − 2(k + 1) k 2 − v 2 Ak h
+                    + Rk−v sv e + Rk+v rv a = 0
+(20)         Ed = Eahed = Rk+v Sbhde − Rk−v Nbhda (k + 1 ≥ |v|)
+                     p
+                : −2k (k + 1)2 − v 2 Ak h + 2v(2k + 1)Ck+1
+                    + Rk+v sv e + Rk−v rv a = 0
+S, N, W, E denote South, North, West and East respectively.
+
+3.7. We will deal with 2k0 being odd and even separately.
+Proposition 3.3. Suppose 2k0 is odd, then φ is uniquely determined by its
+          k0
+value at f1/2 ⊗ w−1 .
+
+Proof. Ek00 ,1 gives
+
+(21)                         φk1/2
+                                0
+                                   = (−1)m0 +m φk−1/2
+                                                  0
+                                                      .
+
+Applying Wb repeatedly, we determine φkv0 for 0 ≤ v ≤ k0 since the coef-
+ficient of e is non-zero by Assumptions 1 in §3.5. Using Ek00 ,v we get φkv0
+for v < 0. We will deduce the rest of φkv inductively in the following way.
+Suppose we have determined φkv for k ≤ k1 . We define φkv1 +1 for v ≥ 0 by
+Ek+1 ,v−1 . Note that this is possible because the coefficient of d in (17) is
+non-zero. By Ek01 +1,v we determine φk−v
+                                       1 +1
+                                            (v < 0).                          
+
+
+3.8. Suppose 2k0 is even, then Ek00 ,0 gives φk00 = (−1)m0 +m φk00 .
+
+Lemma 3.4. φ is zero on f0k0 ⊗ w0 if m0 + m is odd.
+   We relax Assumption 2 in §3.5 slightly by allowing s = −1. If k0 ≥ 1, Wb
+for (k, v) = (k0 , 0) gives
+(22)            − 2(k0 + 1)k0 Ak0 φk00 + Rk0 (s0 φk−1
+                                                    0
+                                                      + r0 φk10 ) = 0.
+
+By Ek00 ,1 , φk−1
+                0
+                  = (−1)m0 +m φk10 , and (22) becomes
+
+(23)               Rk0 (s + 1)(1 + (−1)m0 +m )φk10 = 4k0 cφk00 .
+  We further subdivide into two subcases depending on whether m0 + m is
+even or odd.
+Case 1: k0 ≥ 1 and m0 + m is even. If s 6= −1 then φk10 is determined by
+φk00 . If s = −1, c = 0, then (23) is trivial. If s = −1, c 6= 0, then φk00 = 0.
+                           TRILINEAR FORMS OF gl2                             133
+
+
+Case 2: m0 + m is odd. Then Lemma 3.4 says that φk00 = 0 and (23) is
+                                       ±
+trivially satisfied. If k0 = 0, then E0,0 implies that φ11 = φ1−1 = 0. Wb for
+(k, v) = (1, 0) always holds for all values of φ10 .
+
+Proposition 3.5. Suppose 2k0 is even, then φ is uniquely determined by
+its value at the following vectors.
+
+  (i) f00 ⊗ w0 if k0 = 0, m0 + m is even.
+ (ii) f01 ⊗ w0 if k0 = 0, m0 + m is odd.
+(iii) f0k0 ⊗ w0 if k0 ≥ 1, m0 + m is even, s 6= −1.
+(iv) f0k0 ⊗ w0 and f1k0 ⊗ w−2 if k0 ≥ 1, m0 + m is even, s = −1, c = 0.
+ (v) f1k0 ⊗ w−2 if k0 ≥ 1, m0 + m is even, s = −1, c 6= 0.
+(vi) f1k0 ⊗ w−2 if k0 ≥ 1, m0 + m is odd.
+
+Proof. By the discussions above, the values of φ on these vectors determine
+φk00 and φk10 which satisfy Lemma 3.4 and (23). Applying Wb repeatedly,
+we determine φkv0 for 0 ≤ v ≤ k0 since the coefficient of e is non-zero by
+Assumptions 2 in §3.5. We proceed as in the proof of Proposition 3.3 to
+determine the rest of the values of φkv .                                
+
+
+
+
+                                                                             k0
+3.9. Proof of Theorem 1.3. Suppose we are given the value of φ at f1/2          ⊗
+w−1 or any of the vectors in Proposition 3.5, then the proofs of Propositions
+                                                                           ±
+3.3 and 3.5 give a construction of φkv . We will show that φkv satisfies Ekv  and
+  0
+Ekv and hence it gives rise to a (h, K)-invariant form. Note that (iv) and
+(v) of Proposition 3.5 do not satisfy Assumption 2 of §3.5 and they will not
+be considered.
+   By induction, suppose φlv (l ≤ k) satisfies (17) to (20) and Elv       0 . By
+             +                                      +     −        −
+definition Ekv  holds for v ≥ 0. Since ω sends Ekv    to Ek,−v , Ekv  is satisfied
+                                                                      +
+for v < 0. By induction and Wb at b = (k − 1, v) imply that Ek,v−1 holds
+                   −                                            ±
+if and only if Ek,v+1   holds. We have thus shown that Ekv         holds for all
+                           0
+|v| ≤ k. By definition Ek+1,v   is true for all except possibly at v = 0. For
+          0                                   +         −
+v = 0, Ek+1,v   follows from the fact that Ekv    and Ekv are compatible with
+                                                                                +
+the action of ω. Ed at d = (k + 1, v) holds because it is consequence of Ek,v
+       −
+and Ek,v . It remains to show that Wh holds at h = (k, v) and this is proven
+in Lemma 3.6 below. The induction process is therefore completed and this
+proves the theorem.                                                             
+134                           HUNG YEAN LOKE
+
+
+3.10. Consider the following diagram where h represents the point (k, v)
+as before.
+
+
+                                 a’’     a       a’
+
+
+                                         h
+                                 b                d
+
+
+                                 e’’     e       e’
+
+
+
+                                     Figure 4.
+Lemma 3.6. Wh = 0.
+Proof. Note that ω sends Wh at h = (k + 1, v) to Wh at h = (k + 1, −v).
+Therefore it is enough to check for v ≤ 0. Put Nh and Sh into Wh to get rid
+of e0 and a0 respectively and we get
+                                         p
+    Wh = −2v(2k + 3)Ck+1 h − 2(k + 2) (k + 1)2 − v 2 Ak+1 d
+                 −1
+                    (rv−1 h − Rk+v−1 Ck e00 − (k + v)(k − v + 1)Ak e)
+                                             p
+          + sv Ck+1
+                 −1
+                    (−sv+1 h − Rk−v−1 Ck a00 + (k − v)(k + v + 1)Ak a).
+                                              p
+          + rv Ck+1
+Similarly Na will get rid of d
+      Wh = −2v(2k + 3)Ck+1 h
+                      p
+             2(k + 2) (k + 1)2 − v 2 Ak+1
+           −                                 (rv a − Rk+v Ck b
+                       Rk−v Ck+1
+                    p
+                  − (k + v + 1)(k − v)Ak h)
+                 −1
+                     (rv−1 h − Rk+v−1 Ck e00 − (k + v)(k − v + 1)Ak e)
+                                                p
+           + sv Ck+1
+                 −1
+                     (−sv+1 h − Rk−v−1 Ck a00 + (k − v)(k + v + 1)Ak a).
+                                                   p
+           + rv Ck+1
+Substituting Eh to get rid of sv e00 we have
+                             2
+      Ck+1 Wh = −2v(2k + 3)Ck+1   h
+                          p
+                  2(k + 2) (k + 1)2 − v 2 Ak+1
+                −                              (rv a − Rk+v Ck b
+                             Rk−v
+                        p
+                      − (k + v + 1)(k − v)Ak h) − (sv+1 rv − sv rv−1 )h
+                                            p
+                + 2v(2k − 1)Ck2 h − 2(k − 1) k 2 − v 2 Ck Ak−1 b
+                    p                            p
+                − sv (k + v)(k − v + 1)Ak e + rv (k − v)(k + v + 1)Ak a.
+                         TRILINEAR FORMS OF gl2                             135
+
+
+Notice that a00 does not appear in the last equation. Substituting Wb to get
+rid of sv e we have
+  Ck+1 Wh
+                   2
+   = −2v(2k + 3)Ck+1  h
+                     r
+                       k+1+v
+     − 2(k + 2)Ak+1             (rv a − Rk+v Ck b
+                        k−v
+              p
+            − (k + v + 1)(k − v)Ak h)
+                     p
+     + Ck (−2(k − 1) k 2 − v 2 Ak−1 b + 2v(2k − 1)Ck h)
+       r
+         k+v                                  p
+     +         Ak (−2v(2k + 1)Ck b − 2(k + 1) k 2 − v 2 Ak h + Rk+v rv a)
+         k−v
+         p
+     + rv (k − v)(k + v + 1)Ak a + (sv rv−1 − sv+1 rv )h
+                   2
+   = −2v(2k + 3)Ck+1  h+
+                     r
+                       k+1+v
+     − 2(k + 2)Ak+1             (rv a − Rk+v Ck b)
+                         k−v
+     + 2(k + 2)Ak+1 Ak (k + 1 + v)h
+                     p
+     + Ck (−2(k − 1) k 2 − v 2 Ak−1 b + 2v(2k − 1)Ck h)
+        r
+          k+v                                 p
+     +         Ak (−2v(2k + 1)Ck b − 2(k + 1) k 2 − v 2 Ak h + Rk+v rv a)
+          k−v
+         p
+     + rv (k − v)(k + v + 1)Ak a − 2vc
+   = 0.
+                                                                             
+
+
+3.11. Suppose π2 = π(s = −1, , m), k0 ≥ 1 and k0 + m is even. If we
+apply the proof in §3.9 to (iv) and (v) of Proposition 3.5, then we can show
+that the dimension of invariant forms on π1 ⊗ π2 is one if c 6= 0 and two if
+c = 0. This shows that Assumption 3 of Theorem 1.3 is necessary.
+
+3.12. Proof of Corollary 1.5. Let π2 be the principal series representa-
+tion with finite quotient πf of dimension n. π2 contains the discrete series
+representation dn :
+(i) An invariant form on π1 ⊗πf will pull back to an invariant form on π1 ⊗π2
+which is unique.
+(ii) If π1 contains a n dimensional K-type, then by Theorem 1.3 π1 ⊗dn does
+not have an invariant form. The invariant form on the tensor product π1 ⊗π2
+must vanish on π2 ⊗ dn and so it filters through the quotient π1 ⊗ πf .    
+136                            HUNG YEAN LOKE
+
+
+3.13. Proof of Proposition 1.4. Note that Proposition 1.4(i) (resp. (ii)) is
+equivalent to the condition that k0 = 0 (resp. c = 0, 2k0 even). If k0 = 0,
+then the invariant form exists by Corollary 1.5(ii).
+  Suppose φ is an infinitesimal GL+                                    k
+                                   2 (R)-invariant form and we denote φv :=
+φ(fvk ). The action of −1 ∈ K implies that 2k0 is even. The action of H3
+shows that φkv = 0 unless v = 0. The actions of F+ and F− give (k ≥ 1)
+                         Ck φk−1
+                             0   − Ak φk0 + Ck+1 φk+1
+                                                  0   =0
+                         Ck φk−1
+                             0   + Ak φk0 + Ck+1 φk+1
+                                                  0   = 0.
+Solving the two equations gives
+(24)                 Ck φk−1
+                         0   = −Ck+1 φk+1     k
+                                      0 , Ak φ0 = 0.
+
+If c 6= 0 and k0 6= 0, then Ak 6= 0 and φk0 = 0 for all k ≥ k0 .
+   If c = 0 or k0 = 0, then Ak = 0. The first equation in (24) inductively
+implies that φk00 determines φk00 +2n . Similarly φk00 +2n+1 = 0 because Ck0 = 0.
+This gives rise to a non-trivial invariant form which is uniquely determined
+by φk00 .
+   Finally the action of ω gives φk00 +2n = (−1)m0 +m φk00 +2n . Here we set
+m = 0 (resp. m = 1) if we are considering GL2 (R)-invariant form (resp. the
+sign character of GL2 (R)). Clearly φk0 has a non-trivial solution if and only
+if m0 + m ≡ l + m ≡ 0 (mod 2). Hence the invariant form will extend to
+a GL2 (R)-invariant form if and only if l is even. Otherwise we get the sign
+character.                                                                     
+
+3.14. Generic statements. Given m0 ∈ Z and k0 a non-negative half
+integer, define
+           C = {c ∈ C : c2 6= (k0 + n)2 for all positive integer n}.
+Let π2 = π(s, , m) (s 6= 1) be a reducible principal series representation of
+(h, K). We will denote the finite dimensional quotient or submodule of π2
+by πf . Note that πf has dimension |s| − 1. We assume that:
+  1) s + 1 ≡  ≡ 2k0 (mod 2).
+  2) |s| + 1 ≤ 2k0 .
+Theorem 3.7. Suppose m0 , k0 and π2 as above. Then for all but finitely
+many c ∈ C, the following statements are true.
+  (i) π(k0 , c, m0 ) ⊗ π2 exhibits a (h, K)-invariant form φ and it is unique up
+      to scalars.
+ (ii) The invariant form φ is non-zero on the vector fvk00+1 ⊗ w−2v0 −2 where
+      v0 = |s|−1
+               2 .
+(iii) π(k0 , c, m0 ) ⊗ πf does not exhibit a (h, K)-invariant form.
+                           TRILINEAR FORMS OF gl2                             137
+
+
+   Note that (i) complements Theorem 1.3 for reducible principal series rep-
+resentation of type II and (iii) is a generic converse statement of Corollary
+1.5(ii).
+  Before proving the theorem we need a lemma.
+
+Lemma 3.8. Let v0 = |s|−1   2 . Then for all but finitely many c, (s + 1 +
+      k0
+2v0 )φv0 +1 = 0 implies that φkv0 = 0 for all |v| ≤ v0 .
+Proof. We will only prove the case when s + 1 is negative even. The other
+cases are similar and we will leave them to the reader.
+  Let w = (φk00 , φk10 , . . . , φkv00 ) and we want to show that w = 0. First we
+define a (v0 + 1) by (v0 + 1) matrix A = (aij ) where i, j = 0, . . . , v0 and
+              a11 = 4k0 c, a12 = −Rk0 (s + 1)(1 + (−1)m0 +m ),
+           at,t−1 = Rk0 −t , at,t+1 = Rk0 +t ,
+                          q
+               att = −2ic k02 − t2 ,
+              aij   = 0 otherwise
+and t 6= 0. Then Wh and (23) implies that Aw = 0. Since det A is a
+polynomial in c of degree v0 + 1, w = 0 for all but finitely many c ∈ C. 
+
+Proof of Theorem 3.7. (i) We only have to deal with s < 0. Lemma 3.8
+implies that given an arbitrary value of φkv00+1 , φkv = 0 for all 0 ≤ v ≤ v0 . We
+can deduce φkv0 using Wh and Ek00 ,v . The same constructions as in the proofs
+of Propositions 3.3 and 3.5 give rise to an invariant form on π(k0 , c, m0 )⊗π2 .
+(ii) This follows from Lemma 3.8.
+(iii) Let π20 be the principal series with finite quotient πf . If π(k0 , c) ⊗ πf
+exhibits an invariant form, then the form will pull back to an invariant form
+φ on π1 ⊗ π20 . The form φ vanishes on the subspace π1 ⊗ ds by Theorem
+1.3. In particular it is zero on the vector fvk00+1 ⊗ w−2v0 −2 . This contradicts
+(ii).                                                                           
+
+                                  4. GL2 (C).
+
+4.1. In this section we investigate the invariants on the tensor products
+of three infinitesimal representations of GL2 (C). Similar to the last two
+sections, it suffices to restrict our attention to infinitesimal representations
+of SL2 (C). Let K = SU2 (C) be the maximal compact subgroup of SL2 (C)
+and let j be the complexified Lie algebra of SL2 (C). Note that since K
+is connected, its action is completely determined by its Lie algebra k :=
+Lie(K) ⊗ C.
+138                                    HUNG YEAN LOKE
+
+
+4.2. Let Vi (i = 1, 2, 3) be the standard representation of SU2 (C) with
+standard basis {xi , yi }. Let Vi∗ be its dual space with dual basis {x∗i , yi∗ }.
+We will denote Symn V by S n V . Then the SU2 (C) equivariant pairing of
+S n (Vi∗ ) × S n Vi is given by
+                                                                  n!
+                        h(x∗ )a (y ∗ )n−a , xb y n−b i =                 δab .
+                                                              a!(n − a)!
+Theorem 4.1. S n1 (V1 ) ⊗ S n2 (V2 ) ⊗ S n3 (V3 ) has a SU2 (C)-invariant linear
+form if and only if there exists non-negative integers α1 , α2 , α3 such that
+n1 = α2 + α3 , n2 = α3 + α1 and n3 = α1 + α2 . In this case, the invariant
+form is a scalar multiple of
+                                       α3                α1               α2
+                           x∗1 x∗2            x∗2 x∗3           x∗3 x∗1
+(25)                                                                           .
+                           y1∗ y2∗            y2∗ y3∗           y3∗ y1∗
+Proof. This is a consequence of the Clebsch-Gordan formula.                                      
+  We will denote the function in (25) by φ(k1 , k2 , k3 ) where ki = ni /2 so
+that αi = ki+1 + ki−1 − ki for i ∈ Z/3Z.
+
+4.3. We start with three representations πi = π(k0i , ci ) (i = 1, 2, 3) as
+                             k . Without loss of generality, we assume that
+in Theorem 3.1 with basis fv,i
+k01 ≥ k02 ≥ k03 . We define
+                    yik+v = (−1)ki −vi (ki − vi )!(ki + vi )!fv,i
+                                      p
+(26)           xk−v
+                 i
+                                                              k
+
+                 ∂
+so that H+ = yi ∂x i
+                     and H− = xi ∂y∂ i . Note that
+
+(27)                     S 2k (Vi ) = Span of {xai yib : a + b = 2k}
+is an irreducible K-type of πi .
+   By Theorem 4.1, Π = π1 ⊗ π2 ⊗ π3 will exhibit an invariant form of
+K = SU2 (C) if and only if k01 + k02 + k03 is an integer.
+
+4.4. Suppose φ is a (j, K)-invariant form on Π. Then by Theorem 4.1
+                         X
+(28)               φ=          d(k1 , k2 , k3 )φ(k1 , k2 , k3 )
+                                 k1 ,k2 ,k3
+
+where d(k1 , k2 , k3 ) ∈ C. Define
+ φ(v1 , v2 , v3 ; k1 , k2 , k3 ) := φ(fvk11,1 ⊗ fvk22,2 ⊗ fvk33,3 )
+ Φ(v1 , v2 , v3 ; k1 , k2 , k3 ) := φ(xk11 −v1 y1k1 +v1 ⊗ xk22 −v2 y2k2 +v2 ⊗ xk33 −v3 y3k3 +v3 )
+                                     3 q
+                                     Y
+           k1 +k2 +k3 −v1 −v2 −v3
+ = (−1)                                     (kj + vj )!(kj − vj )!φ(v1 , v2 , v3 ; k1 , k2 , k3 ).
+                                     j=1
+
+  It is relatively easy to show uniqueness of φ in some cases.
+                                   TRILINEAR FORMS OF gl2                                  139
+
+
+Proposition 4.2. Suppose k01 ≤ k02 + k03 and let φ be an invariant form
+on π1 ⊗ π2 ⊗ π3 as given in (28). Then:
+  (i) φ is unique up to scalars.
+ (ii) It is non-zero if and only if it is non-zero on (cf. (27))
+(29)                      S 2k01 (V1 ) ⊗ S 2k02 (V2 ) ⊗ S 2k03 (V3 ).
+Proof. By Theorem 4.1 (ii) implies (i). Consider the Cartan decomposition
+of j = k + p where p is spanned by {F+ , F− , F3 }. The action of p on the
+K-types of πi defines the following maps of SU2 representations.
+                                                            ϕi
+                    p ⊗ S n (Vi ) ≃ S 2 (Vi ) ⊗ S n (Vi ) −→ S n+2 (Vi )
+where ϕi denotes the multiplication of polynomials of degree 2 and n.
+  To prove (ii), we suppose φ is zero on (29). We will now prove that φ ≡ 0
+by induction. Suppose φ is zero on
+                        S(a, b, c) := S a (V1 ) ⊗ S b (V2 ) ⊗ S c (V3 )
+for all k01 + k02 + k03 ≤ a + b + c ≤ n. The action of p defines an action
+       p ⊗ S(a, b, c)
+                               ϕ
+       ≃ S 2 ⊗ S(a, b, c) −→ S(a + 2, b, c) ⊕ S(a, b + 2, c) ⊕ S(a, b, c + 2)
+where
+P      ϕ = ϕ1 ⊗ 1 ⊗ 1 + 1 ⊗ ϕ2 ⊗ 1 + 1 ⊗ 1 ⊗ ϕ3 . The kernel of ϕ lies in
+   S(a, b, c) where the sum is taken over all a + b + c ≤ n. By induction, φ
+is zero on the kernel of ϕ. Since φ is j-invariant, it is zero on the image of
+ϕ. On the other hand, the restriction of φ on the codomain of ϕ is a linear
+combination L of functions φ( a2 + 1, 2b , 2c ), φ( a2 , 2b + 1, 2c ) and φ( a2 , 2b , 2c + 1).
+The following lemma completes the induction by showing that φ = 0 on the
+codomain of ϕ.
+Lemma 4.3. Let L be a linear combination of φ( a2 + 1, 2b , 2c ), φ( a2 , 2b + 1, 2c )
+and φ( a2 , 2b , 2c + 1). Suppose L is zero on the image of ϕ, then L is zero.
+Proof. We assume that a ≤ b ≤ c and c ≤ a + b. Let α1 = 12 (b + c − a) and
+α2 = 12 (a + c − b). Clearly α1 ≥ α2 and we further assume that α1 ≥ 1.
+  If e is a non-negative integer, we denote %(e) = 12 e(e + 1). Suppose
+                                                                
+                   z1       a     b c        z2         a b      c
+          L=            φ     + 1, ,    +          φ     , + 1,
+               %(a + 1)     2     2 2     %(b + 1)      2 2      2
+                                       
+                     z3       a b c
+               +          φ    , , +1
+                 %(c + 1)     2 2 2
+where zi ∈ C. If α2 = 0, then a = 0, b = c and φ( a2 , 2b + 1, 2c ) = φ( a2 , 2b , 2c +
+1) = 0. In this case we set z2 = z3 = 0.
+   Consider
+           v1 := x2 ⊗ xa1 xα2 1 −1 y2α3 +1 y3c ,   v2 := x2 ⊗ xa1 y2b xα3 1 −1 y3α2 +1
+140                                      HUNG YEAN LOKE
+
+
+in S 2 ⊗ S(a, b, c). By (25), L(ϕ(v1 )) = L(ϕ(v2 )) = 0 shows that the coeffi-
+cients zi must satisfy
+(30)                    %(a + 1)−1 z1 + %(α1 )−1 z2 + %(α1 )z3 = 0
+(31)                    %(a + 1)−1 z1 + %(α1 )z2 + %(α1 )−1 z3 = 0.
+If α2 = 0, then z2 = z3 = 0 and (30) implies that z1 = 0.
+   From now on we suppose that α2 ≥ 1. Solving (30) and (31) we get
+z2 = z3 . By symmetry we have z1 = z3 . Putting these back into (30) gives
+(%(a + 1)−1 + %(α1 )−1 + %(α1 ))z1 = 0. Since the coefficients are strictly
+positive, z1 = 0. Hence z1 = z2 = z3 = 0. This proves the lemma and the
+proposition.                                                             
+
+
+4.5. Considering the action of F3 (see (15)) on φ we have
+             q
+      0 =      k12 − v12 Ck1 φ(v1 , v2 , v3 ; k1 − 1, k2 , k3 ) +
+             q
+               k22 − v22 Ck2 φ(v1 , v2 , v3 ; k1 , k2 − 1, k3 ) +
+             q
+               k32 − v32 Ck3 φ(v1 , v2 , v3 ; k1 , k2 , k3 − 1) +
+                       − (v1 Ak1 + v2 Ak2 + v3 Ak3 )φ(v1 , v2 , v3 ; k1 , k2 , k3 ) +
+                         q
+                       − (k1 + 1)2 − v12 Ck1 +1 φ(v1 , v2 , v3 ; k1 + 1, k2 , k3 ) +
+                         q
+                       − (k2 + 1)2 − v22 Ck2 +1 φ(v1 , v2 , v3 ; k1 , k2 + 1, k3 ) +
+                         q
+                       − (k3 + 1)2 − v32 Ck3 +1 φ(v1 , v2 , v3 ; k1 , k2 , k3 + 1).
+  If we perform a change of coordinates using (26), we get
+(32)          0 = −(k12 − v12 )Ck1 Φ(v1 , v2 , v3 ; k1 − 1, k2 , k3 ) +
+                       −(k22 − v22 )Ck2 Φ(v1 , v2 , v3 ; k1 , k2 − 1, k3 ) +
+                       −(k32 − v32 )Ck3 Φ(v1 , v2 , v3 ; k1 , k2 , k3 − 1) +
+                       − (v1 Ak1 + v2 Ak2 + v3 Ak3 )Φ(v1 , v2 , v3 ; k1 , k2 , k3 ) +
+                       + Ck1 +1 Φ(v1 , v2 , v3 ; k1 + 1, k2 , k3 ) +
+                       + Ck2 +1 Φ(v1 , v2 , v3 ; k1 , k2 + 1, k3 ) +
+                       + Ck3 +1 Φ(v1 , v2 , v3 ; k1 , k2 , k3 + 1).
+Define the polynomial
+      P (x1 , x2 , x3 , y1 , y2 , y3 )
+                3
+                X
+         :=           Ckj d(kj−1 , kj − 1, kj+1 )xj yj φ(kj−1 , kj − 1, kj+1 ) +
+                j=1
+                              TRILINEAR FORMS OF gl2                                  141
+
+                                                                    
+              1                                         ∂         ∂
+            − Akj d(kj−1 , kj − 1, kj+1 ) yj                − xj       φ(k1 , k2 , k3 ) +
+              2                                        ∂yj       ∂xj
+                                                    ∂ ∂
+            − Ckj +1 d(kj−1 , kj + 1, kj+1 )               φ(kj−1 , kj + 1, kj+1 ).
+                                                  ∂xj ∂yj
+Let p = 3i=1 (ki + vi )!(ki − vi )!, then the left hand side of (32) is p times
+         Q
+
+the coefficient of xki i −vi yiki +vi , (|vi | ≤ ki ) in P . Hence (32) is equivalent to
+the following polynomial being zero.
+(33)    φ(k1 − 1, k2 − 1, k3 − 1)−1 P (x1 , x2 , x3 , y1 , y2 , y3 )
+         = x1 y1 D12 d1 + x2 y2 D22 d2 + x3 y3 D32 d3 +
+           + (Ak1 D1 (k1 x2 x3 y12 + (k3 − k2 )x1 y1 D1 − k1 x21 y2 y3 ) +
+           + Ak2 D2 (k2 x3 x1 y22 + (k1 − k3 )x2 y2 D2 − k2 x22 y3 y1 ) +
+           + Ak3 D3 (k3 x1 x2 y32 + (k2 − k1 )x3 y3 D3 − k3 x23 y1 y2 ))d +
+           + (D32 α2 β2 x3 y3 + D22 α3 β3 x2 y2 − D3 D2 β2 β3 (x3 y2 + x2 y3 ))l1 +
+           + (D12 α3 β3 x1 y1 + D32 α1 β1 x3 y3 − D1 D3 β3 β1 (x1 y3 + x3 y1 ))l2 +
+           + (D22 α1 β1 x2 y2 + D12 α2 β2 x1 y1 − D2 D1 β1 β2 (x2 y1 + x1 y2 ))l3
+where
+                                                              xi+1 xi+2
+             li = Cki +1 d(ki−1 , ki + 1, ki+1 ), Di =                       ,
+                                                              yi+1 yi+2
+        βi = αi + 1, di = Cki d(ki−1 , ki − 1, ki+1 ), d = d(k1 , k2 , k3 ).
+There are seven non-zero coefficients in the polynomial (33) and three of
+them are
+(34)                d1 − β2 β3 l1 + β3 (1 + 2k2 )l2 + β2 (1 + 2k3 )l3 +
+                       + ((Ak2 − Ak1 )k2 + (Ak1 − Ak3 )k3 )d = 0
+(35)                d2 + β3 (1 + 2k1 )l1 − β1 β3 l2 + β1 (1 + 2k3 )l3 +
+                       + ((Ak3 − Ak2 )k3 + (Ak2 − Ak1 )k1 )d = 0
+(36)                d3 + β2 (1 + 2k1 )l1 + β1 (1 + 2k2 )l2 − β1 β2 l3 +
+                       + ((Ak1 − Ak3 )k1 + (Ak3 − Ak2 )k2 )d = 0.
+The rest of the coefficients are linear combinations of the above three equa-
+tions. Solving for l1 , l2 , l3 gives
+(37) R1 l1 = −α1 β1 d1 + β2 (1 + 2k2 )d2 + β3 (1 + 2k3 )d3 +
+               + α1 (1 + k)(−Ak2 + Ak3 + Ak1 k2 − Ak2 k2 − Ak1 k3 + Ak3 k3 )d
+(38) R2 l2 = β1 (1 + 2k1 )d1 − α2 β2 d2 + β3 (1 + 2k3 )d3 +
+               + α2 (1 + k)(Ak1 − Ak3 + Ak1 k1 − Ak2 k1 + Ak2 k3 − Ak3 k3 )d
+(39) R3 l3 = β1 (1 + 2k1 )d1 + β2 (1 + 2k2 )d2 − α3 β3 d3 +
+142                            HUNG YEAN LOKE
+
+
+            + α3 (1 + k)(−Ak1 + Ak2 − Ak1 k1 + Ak3 k1 + Ak2 k2 − Ak3 k2 )d
+                                                Q
+where k = k1 + k2 + k3 and Ri = −(1 + k)(2 + k) j6=i βj .
+Lemma 4.4. The linear form φ in (26) is j-invariant if and only if its
+coefficients d(k1 , k2 , k3 ) satisfy (37), (38) and (39).
+Proof. φ is K-invariant. Since k = Lie(K) ⊗ C and F3 generates j, φ is j-
+invariant if and only if F3 φ = 0. The latter is true if and only if (33) is zero
+if and only if (37), (38) and (39) are satisfied.                              
+
+4.6. For technical reasons which will be clear later, we assume that in
+addition to k01 ≥ k02 ≥ k03 , πi satisfy the following condition:
+   If ka := k01 − k02 − k03 > 0, then there does NOT exist non-negative
+integers r, s and r + s = ka − 1 satisfying
+                                   c2          c3
+(40)                       c1 =           +         .
+                                 k02 + r k03 + s
+Proposition 4.5. Assuming §4.6, then the dimension of (j, K)-invariant
+trilinear form on π1 ⊗ π2 ⊗ π3 is at most 1.
+Proof. Suppose k01 ≤ k02 + k03 . Note that the leading coefficients of Ri of li
+in (37), (38) and (39) do not vanish. By induction d(k1 , k2 , k3 ) is determined
+by d(k01 , k02 , k03 ).
+   Next if k01 > k02 + k03 , then by (37), (38) and (39) we deduce that
+d(k1 , k2 , k3 ) is determined by d(k01 , k02 + r0 , k03 + s) where r0 + s = k01 −
+k02 − k03 . We will show that d(k01 , k02 + r0 , k03 + s) determines one another.
+Suppose r0 = r + 1 ≥ 1, then (38) (resp. (39)) gives a linear relation
+between d(k01 , k02 + r + 1, k03 + s) (resp. d(k01 , k02 + r, k03 + s + 1)) and
+d0 := d(k01 , k02 + r + 1, k03 + s + 1). Hence d(k01 , k02 + r + 1, k03 + s) and
+d(k01 , k02 + r, k03 + s + 1) are linearly related provide d0 6= 0. By (37) and
+(38) d0 = 0 if and only if (40) holds.                                           
+Corollary 4.6. The invariant φ is nonzero on the subspace:
+  (i) S(2k01 , 2k02 , 2k03 ) if k01 ≤ k02 + k03 .
+ (ii) S(2k01 , a, b) if k01 > k02 + k03 , a ≡ k02 (mod Z), b ≡ k03 (mod Z) and
+      a + b = k01 . (Under the assumption in §4.6.)
+  If (40) holds, then there are at most 2 solutions of (r, s). It follows from
+the last proof that the dimension of the trilinear form is at most 3. We
+conjecture that Proposition 4.5 is still true without the assumptions in §4.6.
+
+4.7. Proof of Theorem 1.2 for F = C. The proof of Proposition 4.5
+provides a way of constructing φ. We will inductively construct d(k1 , k2 , k3 )
+in the following way. Suppose we have already determined d(k1 , k2 , k3 ) for
+k1 +k2 +k3 ≤ n and (37), (38) and (39) are satisfied whenever the d(k1 , k2 , k3 )
+in the equations have been defined.
+                               TRILINEAR FORMS OF gl2                               143
+
+
+   We define d(k1 , k2 , k3 ) for k1 + k2 + k3 = n + 1 using either (37), (38) or
+(39). It remains to show that d(k1 , k2 , k3 ) is independent of the equations
+used.
+   Consider Figure 5 below where the integral points (k1 , k2 , k3 ) are labeled
+1 to 14.
+
+
+                                         k3
+
+                                         9                8                7
+
+                                6                5                4
+                                                          14
+                          3                                                    k2
+                                             2                1
+                                                                      11
+                                    13               12
+
+
+                                         10
+                          k1
+
+
+                                         Figure 5.
+
+We will denote the values of d(k1 , k2 , k3 ) at point s simply by ds . Suppose ds
+are defined except d1 . d1 can be determined by d2 , d3 , d5 and d10 using (38).
+d3 is a linear combination of d6 , d9 , d5 and d13 . d2 is a linear combination
+of d5 , d6 , d8 and d12 . d10 is a linear combination of d12 , d13 , d14 and d5 .
+Hence d1 = L2 (d5 , d6 , d8 , d9 , d12 , d13 , d14 ) where L2 is a linear combination
+of its entries.
+   Alternatively d1 can be determined by d4 , d5 , d7 and d11 using (37). Sub-
+stituting d4 , d7 and d11 in a similar manner as in the last paragraph indicates
+that d1 = L1 (d5 , d6 , d8 , d9 , d12 , d13 , d14 ) where L1 is a linear combination of
+its entries. The following lemma completes the proof of Theorem 1.2.
+Lemma 4.7. L1 = L2 .
+Proof. The proof is simply achieved by writing out L1 and L2 in full, simplify
+and compare. However the equations are long and tedious and we omit the
+details.                                                                    
+
+4.8. Question. We conjecture that Theorems 1.2 and 1.3 can be extended
+to include reducible infinitesimal principal representations of GL2 (C).
+144                                 HUNG YEAN LOKE
+
+
+                                       References
+[F]     Y. Flicker, On the distinguished representations, Crelle, 418 (1991), 139-172.
+[GP] B. Gross and D. Prasad, On irreducible representations of SO2n+1 × SO2m , Can. J.
+     Math., 46(5) (1994), 930-950.
+[HS] M. Harris and A.J. Scholl, A note on trilinear forms for reducible representations
+     and Beilinson’s conjectures, preprint.
+[JL]    H. Jacquet and R. Langlands, Automorphic forms on GL2 , LNM, 114 (1970).
+[Na] M.A. Naimark, Linear representation of the Lorentz group, 61, Pergamon Press,
+     1964.
+[Pa1] D. Prasad, Trilinear forms for representations of GL2 and local  factors, Compo-
+      sitio Mathematica, 75 (1990), 1-46.
+[Pa2]         , Invariant forms for representation of GL2 over a local field, Amer. J. Math.,
+        114 (1992), 1317-1363.
+[Re] J. Repka, Tensor products of unitary representations of SL2 (R), Amer. J. Math.,
+     100(4) (1978), 747-774.
+[Uz] T. Uzawa, Invariant hyperfunction sections of line bundles, Ph.D thesis, Yale Uni-
+     versity, 1990.
+[Wa] N. Wallach, Real reductive groups I and II, Academic Press, 1992.
+[W]     F.L. Williams, Tensor products of principal series representations, LNM, 358,
+        Springer Verlag, 1973.
+
+Received April 6, 1999 and revised September 20, 1999.
+
+Department of Mathematics
+National University of Singapore
+Singapore 119260
+E-mail address: loke@math.nus.edu.sg
+

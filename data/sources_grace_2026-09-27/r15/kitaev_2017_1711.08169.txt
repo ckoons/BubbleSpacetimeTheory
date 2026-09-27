@@ -1,0 +1,1721 @@
+                                                                Notes on SL(2,
+                                                                         f R) representations
+                                                                                     Alexei Kitaev
+                                                           California Institute of Technology, Pasadena, CA 91125, U.S.A.
+
+                                                                                    21 August 2018
+
+
+
+
+arXiv:1711.08169v2 [hep-th] 21 Aug 2018
+                                                                                         Abstract
+                                                    These notes describe representations of the universal cover of SL(2, R) with a view toward
+                                                applications in physics. Spinors on the hyperbolic plane and the two-dimensional anti-de
+                                                Sitter space are also discussed.
+
+
+                                          Contents
+                                          1 The group G ∼
+                                                        = PSL(2, R) and its universal cover                                                      3
+
+                                          2 Irreducible unitary representations                                                                  4
+
+                                          3 Non-unitary continuous and discrete series                                                           4
+                                            3.1 The individual representations . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         4
+                                            3.2 Isomorphisms and intertwiners . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          6
+
+                                          4 Fourier transform on G e and the Plancherel measure                                                   8
+                                            4.1 Fourier transform on a group . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            8
+                                            4.2 The L- and R-actions on Ge in explicit coordinates . . . . . . . . . . . . . . . . . .           10
+                                            4.3 Casimir eigenfunctions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         11
+                                            4.4 The matrix elements and Plancherel measure for the irreps of G    e . . . . . . . . . .          13
+
+                                          5 Spinors on the hyperbolic plane and anti-de Sitter space                                             15
+                                            5.1 The spaces H2 , AdS2 , and their complex embeddings . . . . . . . . . . . . . . . .              15
+                                            5.2 Definitions of spinors and two standard gauges . . . . . . . . . . . . . . . . . . . .           17
+                                            5.3 Spinors on H2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        19
+
+                                          6 Tensor products of unitary irreps                                                                    23
+                                            6.1 Dλ+1 ⊗ Dλ+2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      24
+                                            6.2 Dλ+1 ⊗ Dλ−2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      25
+
+
+
+
+                                                                                              1
+Introduction
+The representations of the group SL(2, R) were originally studied by Bargmann [1], and an ex-
+plicit Plancherel formula was obtained by Harish-Chandra [2]. The representation theory for
+the universal cover of that group is largely due to Pukánszky [3]. These notes are intended as
+an accessible (though not very rigorous) exposition, with notation and equations that would be
+convenient for general use. My main motivation comes from the study of the Sachdev-Ye-Kitaev
+(SYK) model [4, 5, 6]. This model has zero spatial dimensions, so the only coordinate is time t. At
+low temperatures, all correlation functions are invariant under Möbius transformations z 7→ az+b
+                                                                                               cz+d
+of the variable z = exp(2πt/β). If t is real, then z is also real, and thus, the symmetry group is
+PSL(2, R) = SL(2, R)/{1, −1}. It is, actually, more common to consider the problem in Euclidean
+time, t = −iτ . In this case, the symmetry transformations preserve the unit circle (and also the
+orientation). The corresponding group G is isomorphic to PSL(2, R). In general, one is interested
+in the action of G on functions of two points on the circle. Fermionic wave functions (of one point
+on the circle) are transformed under the double cover of that group, i.e. SL(2, R). Furthermore,
+the study of the SYK model in Lorentzian time requires the universal cover of SL(2, R) (or G),
+which is denoted by G.e
+    Finite-dimensional representations of G
+                                          e are similar to those for SU(2): they are defined by an
+integer or half-integer spin S. However, these representations (except for the trivial one) are not
+unitary. All nontrivial unitary representations are infinitely dimensional. We will discuss three
+types of elementary representations:
+  1. Irreducible unitary representations, which include continuous and discrete series.
+
+  2. Forms of an arbitrary degree on the unit circle. These are, essentially, functions on the
+     circle, whereas the degree λ (which can be any complex number) enters the transformation
+     law under diffeomorphisms.
+
+  3. Holomorphic λ-forms on the unit disk.
+The last two are also called “non-unitary” continuous and discrete series because they do not have
+a Hermitian inner product as part of their definition. However, they include the unitary irreps as
+special cases.
+   Unitary representations of G   e are sufficiently well-behaved; for example, an arbitrary unitary
+representation splits into irreps with multiplicities. (We do not prove this result because it involves
+a great deal of operator algebras.) Some differences from the more familiar case of compact Lie
+groups are as follows:
+   • Irreducible unitary representations can be infinitely-dimensional.
+
+   • Some irreps do not enter the decomposition of the left regular representation. The irreps
+     α in that decomposition are those whose matrix elements hl|Uα (g)|mi are normalizable or
+     δ-normalizable as functions of the group element g. The normalization factor is known as
+     the Plancherel measure on the set of irreps.
+    With physical applications in mind, we give explicit formulas for the matrix element functions
+and more general Casimir eigenfunctions. The latter may be interpreted as spinors on the anti-de
+Sitter space AdS2 , or as functions (or forms) of two points on a circle.
+
+                                                  2
+1       The group G ∼
+                    = PSL(2, R) and its universal cover
+First, let us consider the the Möbius group PSL(2, C) = SL(2, C)/{1, −1}. It consists of all linear
+fractional maps
+                               az + b
+                         z 7→          ,  where a, b, c, d ∈ C, ad − bc = 1.                     (1)
+                               cz + d
+The corresponding
+                Lie algebra is denoted by sl2 (C). Its general element is a traceless matrix
+          δa δb
+δW =              , which generates an infinitesimal change of z by δz = δb + (δa − δd)z − (δc)z 2 .
+          δc δd
+One can write δW in a similar form, namely, δW = (δb)L−1 + (δa − δd)L0 − (δc)L1 , where
+δa + δd = 0 and
+                                                                        
+                              0 1              1 1 0                    0 0
+                    L−1 =            ,   L0 =               ,   L1 =           .                 (2)
+                              0 0              2 0 −1                  −1 0
+The basis elements Ln of the Lie algebra may be interpreted as complex vector fields with the
+following z-components and commutation relations:1
+
+                               Lzn (z) = z n+1 ,     [Ln , Lm ] = (n − m)Ln+m .                                (3)
+
+    Now, the subgroup PSL(2, R) consists of the Möbius transformations with real parameters
+a, b, c, d. Such maps preserve the upper half-plane. However, it is more convenient to work with
+the subgroup G of those transformations that preserve the unit disk |z| < 1. It is conjugate to
+PSL(2, R) by the Cayley map z 7→ z−i  z+i
+                                          , which takes the upper half-plane to the unit disk. A
+standard basis of the corresponding Lie algebra g is as follows:
+                                           
+                                 1 i 0
+                            Λ0 =              = iL0
+                                 2 0 −i
+                                              
+                                    1      0 1     L−1 − L1
+                               Λ1 =              =                                                             (4)
+                                    2      1 0         2
+                                              
+                                    1      0 i     iL−1 + iL1
+                               Λ2 =              =
+                                    2      −i 0        2
+
+One can also define g abstractly, using the Lie bracket:
+
+                      [Λ0 , Λ1 ] = Λ2 ,        [Λ0 , Λ2 ] = −Λ1 ,         [Λ1 , Λ2 ] = −Λ0 .                   (5)
+
+Up to a constant factor, the Casimir operator is
+                                                         1
+                             Q = Λ20 − Λ21 − Λ22 = −L20 + (L−1 L1 + L1 L−1 ).                                  (6)
+                                                         2
+   The Lie algebra g canonically defines the simply connected Lie group G, e the universal cover
+                                       e by its center, Z = {e2πnΛ0 : n ∈ Z}.
+of G. Conversely, G is the quotient of G
+    1
+     We define the action of a vector field v on functions by the formula f 7→ −∂v f = −v β ∂β f . Correspondingly,
+[u, v] = − Lu v, where L denotes the Lie derivative.
+
+                                                        3
+2      Irreducible unitary representations
+An irreducible representation of G
+                                 e is characterized by the eigenvalues of the Casimir operator Q
+and the central element e2πΛ0 . The latter has the form e−2πiµ , where µ ∈ R/Z. Representations
+of G (rather than its universal cover) are characterized by e−2πiµ = 1. By unitarity, Λ0 , Λ1 , Λ2
+are represented by anti-Hermitian operators; hence the Casimir eigenvalue q is real. It and can
+be parametrized in a way similar to the expression S(S + 1) in the su(2) case:
+
+                       q = λ(1 − λ),       where λ ∈ R or λ = 12 + is, s ∈ R.                      (7)
+
+   The basis vectors |mi are eigenvectors of Λ0 with the eigenvalues −im, where m ∈ µ+Z. Recall
+that Λ0 = iL0 (see Eq. (4)); hence L0 |mi = −m|mi. The commutation relations [L0 , L−1 ] = L−1
+and [L0 , L1 ] = −L1 imply that L−1 lowers, and L1 raises, m by 1. Using the relation [L1 , L−1 ] =
+2L0 and the expression for the Casimir operator, Q = −L20 + 21 (L−1 L1 + L1 L−1 ), we find that
+
+                         hm|L1 L−1 |mi = m(m − 1) + q = (m − λ)(m − 1 + λ),                        (8)
+                         hm|L−1 L1 |mi = m(m + 1) + q = (m + λ)(m + 1 − λ).                        (9)
+
+Since L†n = L−n due to unitarity, the matrix elements in the above equations are nonnegative for
+all values of m that occur in a given representation. This condition is satisfied by three types of
+irreducible representations:
+
+      • Trivial representation I :          µ = q = 0,       m = 0;
+                                         q > |µ|(1 − |µ|),
+      • Continuous series Cqµ :                              m=µ+k        (k ∈ Z);                (10)
+                                         where |µ| ⩽ 1/2,
+                                                             m = λ, λ + 1, λ + 2, . . . or
+      • Discrete series Dλ+ , Dλ− :      λ > 0, µ = ±λ,
+                                                             m = −λ, −λ − 1, −λ − 2, . . . .
+
+We will also use the generic notation Uλµ that encompasses all three cases. The continuous series
+Cqµ is further subdivided into the principal series, q ⩾ 41 (i.e. λ = 12 +is) and complementary series,
+q < 41 (i.e. |µ| < λ < 12 ).
+     The general solution to equations (8), (9) involves some arbitrary phase factors, which can be
+absorbed in the definition of the basis vectors. Thus,
+                                          p
+                               L−1 |mi = − (m − λ)(m − 1 + λ) |m − 1i,
+                                  L0 |mi = −m |mi,                                                (11)
+                                            p
+                                  L1 |mi = − (m + λ)(m + 1 − λ) |m + 1i.
+
+
+3      Non-unitary continuous and discrete series
+3.1      The individual representations
+Let λ ∈ C and µ ∈ C/Z. The non-unitary continuous series representation Fλµ consists of “µ-
+twisted λ-forms” on the unit circle, which may be written as f = f˜(ϕ) (dϕ)λ . More formally, an
+
+                                                     4
+abstract form f is represented by a function f˜ of a real variable that satisfies a twisted periodicity
+condition and transforms under diffeomorphisms in a particular way:
+
+                                        f˜(ϕ + 2π) = e2πiµ f˜(ϕ)                                   (12)
+                                                        λ
+                                 (V f˜)(ϕ) = ∂ϕ V −1 (ϕ) f˜(V −1 (ϕ))                              (13)
+
+                                    g + (S 1 ), that is, a smooth monotone map V : R → R such
+Here V is an element of the group Diff
+that V (ϕ + 2π) = V (ϕ) + 2π. Infinitesimal diffeomorphisms, i.e. vector fields, act as follows:
+
+                               (v f˜)(ϕ) = −v ϕ ∂ϕ f˜(ϕ) − λ (∂ϕ v ϕ ) f˜(ϕ).                      (14)
+
+For example, if λ = −1, then f is a vector field, and vf is equal to − Lv f . One can also
+characterize the diff(S 1 ) action by applying Eq. (14) to the complex vector fields Ln (expressed
+as Lϕn = (∂z/∂ϕ)−1 Lzn = −ieinϕ ) and the Fourier basis of the space of forms:
+
+              Ln fλ,m = −(m + nλ)fλ,m+n ,        where f˜λ,m (ϕ) = eimϕ         for m ∈ µ + Z      (15)
+
+   To add some extra rigor, the elements of Fνµ arePrequired to have finitepSobolev norm of degree
+d = 12 − Re λ. By definition, the norm of f =
+                                                                            P
+                                                       a  f
+                                                     m m λ,m   is kf k =      m (1 + m2 )d |am |2 . If
+λ < 0, then f is continuous; the larger the λ, the more singular can such functions be. While
+the norm remains finite under smooth diffeomorphisms, it is not preserved. There is, however, a
+              g + (S 1 )-invariant pairing
+nondegenerate Diff
+                           Z 2π
+                                            dϕ                    −µ
+                 (g, f ) =      g̃(ϕ) f˜(ϕ)    ,   where g ∈ F1−λ    , f ∈ Fλµ .                 (16)
+                            0               2π
+
+If µ is real and λ = 21 + is for s ∈ R, then the formula hg|f i = (g ∗ , f ) defines a Hermitian inner
+product on Fλµ .
+    We now regard Fλµ as a representation of G     g + (S 1 ), i.e. specialize Eq. (15) to n = −1, 0, 1.
+                                              e ⊆ Diff
+As expected, the central element e2πiL0 and the Casimir operator Q are represented by e−2πiµ and
+λ(1 − λ), respectively. Thus, the current use of µ and λ is consistent with that for unitary irreps.
+    The representation F µ of the group G  e can be reducible. For example F 1/2 splits into the
+                         λ                                                      1/2
+             −        +
+subspaces F1/2 and F1/2 that are spanned by the basis vectors f1/2,m with negative and positive
+m, respectively. In some other cases, the representation Fλµ has an invariant subspace but does
+not split. For example, let µ = λ 6= 21 . Then L1 fλ,λ−1 = afλ,λ , where a = 1 − 2λ 6= 0. However,
+L−1 fλ,λ = 0. This situation is indicated by the arrow in the diagram
+
+
+
+where the small circles represent the basis vectors fλ,m labeled by m. A line between m − 1 and m
+without an arrow means that both L1 fλ,m−1 and L−1 fλ,m are nonzero. The vectors fλ,λ , fλ,λ+1 , . . .
+(represented by the full circles) form a G-invariant
+                                          e             subspace Fλ+ , which has no invariant com-
+plement. Indeed, suppose that such a complement (Fλ+ )⊥ exists. Any invariant subspace has
+a homogeneous basis, that is, the basis vectors are eigenvectors of L0 . Thus, (Fλ+ )⊥ should be
+
+                                                     5
+                                                                     Fλλ :
+            1/2
+          F1/2 :                                                     λ
+                                                                    F1−λ :
+
+                                                                                       λ = 1, 32 , 2, . . .
+
+Figure 1: The structure of representations Fλµ for some λ and µ. The full circles indicate those basis
+vectors fλ,m that span an invariant subspace, whereas the empty circles correspond to quotients.
+
+equal to the linear span of fλ,λ−1 , fλ,λ−2 , . . . (the empty circles). But this subspace is not, actually,
+invariant because L1 fλ,λ−1 does not belong to it.
+    By definition, the “non-unitary discrete series” representations are the invariant subspaces
+Fλ ⊆ Fλλ and Fλ− ⊆ Fλ−λ that are spanned by basis vectors fλ,m with m = λ, λ + 1, . . . in the first
+  +
+
+case and m = −λ, −λ − 1, . . . in the second case. Elements of Fλ+ and Fλ− may be written as
+
+ f = f˚(z) (−i dz)λ ,          f˚(eiϕ ) = e−iλϕ f˜(ϕ)      or         f = f˚(z) (i dz −1 )λ ,      f˚(eiϕ ) = eiλϕ f˜(ϕ), (17)
+
+respectively, where f˚(z) is holomorphic in the disk |z| < 1 or its complementary domain on the
+Riemann sphere, |z −1 | < 1. In this notation, the transformation rule (13) becomes
+                               −λ                                                        −λ
+                                                                                  dz −1
+                                                                             
+                          dz
+        (V f˚)(z) =                  f˚(w) if f ∈ Fλ+ ,         (V f˚)(z) =                     f˚(w) if f ∈ Fλ−         (18)
+                          dw                                                      dw−1
+
+where z = V (w) and V ∈ G.
+                        e
+
+
+3.2      Isomorphisms and intertwiners
+The structure of representations Fλµ , Fλ± , and their relations can be described as follows (see also
+Figure 1):
+               / µ + Z, then Fλµ is irreducible and isomorphic to F1−λ
+   1. If λ, −λ ∈                                                   µ
+                                                                       .
+   2. Let λ ∈ µ +1Z or −λ      ∈ µ + Z. (Without loss of generality, we may assume that µ = ±λ.)
+           / 0, − 2 , −1, − 2 , . . . , then the representation Fλ± ⊆ Fλµ is irreducible and isomorphic
+      If λ ∈                3
+           µ     ∓
+      to F1−λ /F1−λ  .
+                                     µ
+   3. If the unitary representation Cλ(1−λ) or Dλ± exists for given λ and µ, it is isomorphic (except
+      for the inner product) to Fλµ ∼
+                                    = F1−λ or Fλ± ∼
+                                         µ               ±λ
+                                                    = F1−λ      ∓
+                                                            /F1−λ , respectively.
+   The statements about irreducibility follow directly from Eq. (15). The isomorphisms in 1 and 2
+can be obtained in a unified fashion using the intertwiners
+
+                     Ξµ±   µ      µ
+                      λ : F1−λ → Fλ ,                   Ξµ±          ±
+                                                         λ f1−λ,m = bλ,m fλ,m          for m ∈ µ + Z,                    (19)
+
+where
+                    Γ(λ + m)                                                   Γ(λ − m)
+      b+
+       λ,m =                            if λ + m ∈
+                                                 / Z,               b−
+                                                                     λ,m =                         if λ − m ∈
+                                                                                                            / Z;         (20)
+                  Γ(1 − λ + m)                                               Γ(1 − λ − m)
+
+                                                                6
+                           
+                            Γ(2λ + k)
+       +        −                           for k = 0, 1, 2, . . .
+                                                                            / 0, − 21 , −1, . . . .
+                                                                              
+      bλ,λ+k = bλ,−(λ+k) =      k!                                     if λ ∈                         (21)
+                           0               for k = −1, −2. . . .
+The above definitions agree when they overlap. One can check that Ξµ,±
+                                                                   λ   is an intertwiner and
+that
+                      sin π(λ + µ) µ,+              µ,± −1
+              Ξµ,−                         Ξµ,±
+                                                       
+                λ   =              Ξλ ,      1−λ = Ξλ         if ±λ ∈/ µ + Z;            (22)
+                      sin π(λ − µ)
+                          Kernel(Ξ±λ,±
+                                  λ
+                                            ∓
+                                       ) = F1−λ ,         Image(Ξλ±λ,± ) = Fλ± .                      (23)
+Thus, Ξµ,±
+        λ  defines the required isomorphism (either between the full spaces or between the sub-
+space and the quotient). Furthermore, Ξµ,±
+                                        λ   and Ξ−µ,∓
+                                                 λ     are conjugate to each other:
+                                                   −µ,∓
+                                    g, Ξµ,±
+                                                           
+                                        λ f = Ξλ        g, f .                             (24)
+                                                                                µ+
+The maps Ξµ± λ are bounded with respect to the Sobolev norm. In fact, Ξλ f1−λ,m ≈ f1−λ,m
+for large positive m and Ξµ−λ f1−λ,m ≈ f1−λ,m for large negative m.
+                µ                                           µ
+    Now, let Uλ be a nontrivial unitary irrep, i.e. either Cλ(1−λ) or Dλ± . Its isomorphism with Fλµ
+or Fλ± is obtained by factoring Ξµ±
+                                 λ as follows:
+
+                Ξµ±    Ξµ±
+          F1−λ −−→ Uλ −−−→ Fλµ ,
+           µ        µ
+                                              Ξµ±                           Ξµ±
+                 λ↓     λ↑                                  ±                          ±
+                                               λ↓ f1−λ,m = cλ,m |mi,         λ↑ |mi = cλ,m fλ,m       (25)
+
+such that the first map is onto and the second is injective. The coefficients c±
+                                                                               λ,m are given by these
+formulas:                s                                        s
+                              Γ(λ + m)                                 Γ(λ − m)
+                  c+
+                   λ,m =                 ,       c−λ,m = (−1)
+                                                              m−µ
+                                                                                   .             (26)
+                            Γ(1 − λ + m)                            Γ(1 − λ − m)
+For the continuous series,        they are both well-defined and their ratio is a function of λ and µ,
+                  −
+                                     − µ)/ sin π(λ + µ). For the discrete series Dλ+ (or Dλ− ), only c+
+                           p
+namely c+       /c
+            λ,m λ,m    =     sin π(λ                                                                   λ,m
+(resp. c−λ,m  ) exists.
+    The signs of the square roots in Eq. (26) require some care. Let us fix them on a case-by-case
+basis. For the continuous series, we set c±                                                         ±
+                                                1/2,0 = 1 and analytically continue the functions cλ,m to
+λ = 12 + is while keeping m equal to 0. If s 6= 0, we further continue to all real m. If s = 0 but
+|µ| < 12 , then we can take the limit c±                    ±
+                                           1/2,m = lims→0 c1/2+is,m to obtain the following expressions:
+                                                                     (
+                                  −                                    1       if k ⩾ 0,
+                      c+1/2,m = c1/2,m = γm−µ ,        where γk =                                     (27)
+                                                                       (−1)k if k < 0.
+For the complementary series, the correct signs are these:
+                s                                  s
+                    Γ(λ + m)                            Γ(λ − m)                   (using positive
+    c+
+     λ,m = γm−µ                 ,     c−
+                                       λ,m = γm−µ                                                     (28)
+                  Γ(1 − λ + m)                        Γ(1 − λ − m)                 square roots).
+For the representation Dλ+ or Dλ− , one of the above equations is applicable. More explicitly,
+                r                                       r
+                  Γ(2λ + k)                               Γ(2λ + k)
+      c+
+       λ, λ+k =                or c−  λ, −(λ+k) = (−1)
+                                                      k
+                                                                         (k = 0, 1, 2, . . .). (29)
+                      k!                                     k!
+For other values of m, the numbers c± λ,m vanish.
+
+
+                                                     7
+4     Fourier transform on G
+                           e and the Plancherel measure
+We first remind the reader of some algebraic terminology. An action of a group    G on a set X is a
+function A : G × X → X such that A(1, x) = x and A(gh , x) = A g, A(h, x) for all g, h, and x.
+Instead of A(g, x), it is more common to write A(g) x or A(g) · x. This construction is also called a
+“left group action”. A “right” action is a similar function B that satisfies the equation B(hg, x) =
+B(g, B(h, x)). Any right action B can be turned into the left action A(g, x) = B(g −1 , x). Thus,
+the concept of a right action is redundant when working with groups (as opposed to semigroups).
+    Invertible maps V : X → X act on functions as follows:
+                                          (V f )(x) = f (V −1 (x)).                                  (30)
+Any group G acts on itself in two different ways:
+                                    L(h) · g = hg,           R(h) · g = gh−1 .                       (31)
+We call the (left) actions L, R the L-action and R-action, respectively. They can also be applied
+to functions on G. If f is such a function, then
+                         L(h) · f (g) = f (h−1 g),
+                                                            
+                                                    R(h) · f (g) = f (gh).                   (32)
+
+4.1    Fourier transform on a group
+Let G be a group. We denote its unitary irreps by α, β, etc., the corresponding Hilbert spaces
+by Uα , and the group actions on them by Uα . Given some orthonormal basis of Uα , the matrix
+                    j        j
+element functions Uα,k and Uα,k are defined as follows:
+
+                 j                                       j       j                               ∗
+                Uα,k (g) = j Uα (g) k ,              Uα,k (g) = Uα,k (g −1 ) = k Uα (g) j            (33)
+
+The latter are slightly more convenient as a basis of the space of functions on G. Let us first write
+some elementary things, namely, the composition law and the group action on ket- and bra-vectors
+in the matrix notation:                       X
+                                   j                j       n
+                                 Uα,k (gh) =      Uα,n (g) Uα,k (h),                             (34)
+                                                     n
+                                X                                               X      k
+                 Uα (h) |ji =         n
+                                     Uα,j (h) |ni,            hk| Uα (h−1 ) =        Uα,n (h) hn|.   (35)
+                                n                                                n
+                                        −1
+(In the case of bra-vectors, we use h to conform to the definition of the group action.) Now, one
+                                         k
+can easily check that the functions Uα,j are transformed under the L- and R-actions as |jihk| ∈
+Uα ⊗ Uα∗ :
+                         k    X
+                                    n        k               k    X k             n
+                L(h) · Uα,j =     Uα,j (h) Uα,n ,   R(h) · Uα,j =      Uα,n (h) Uα,j .       (36)
+                                n                                                n
+                                                    k
+    If G is compact, the matrix element functions Uα,j  satisfy the Schur orthogonality relation,
+where the inner product is defined by the (arbitrarily normalized) Haar measure. Let dα be the
+dimension of α; then the orthogonality relation is:
+                          Z
+              k    l                                                   −1
+                             j Uα (g) k l Uβ (g −1 ) m dg = dα / G dg δαβ δkl δjm .
+                                                                  R
+            Uα,j Uβ,m =                                                                      (37)
+                            G
+
+                                                         8
+                                  k
+Furthermore,R the functions Uα,j form a basis of the Hilbert space H of functions on G. The
+number dα / G dg is called the Plancherel measure of the irrep α. It appears as a coefficient in
+the decomposition of identity into the projectors onto the basis functions. For example, if G is
+finite, the integral becomes a sum, and the Plancherel measure is dα /|G|. The decomposition into
+matrix element functions is known as the Fourier transform on G.
+    The generalization of these results to non-compact Lie groups, such as e
+                                                                           G, is not straightforward.
+To understand the problems that can and do arise, let us prove the orthogonality and completeness
+                                                      α,jl
+for finite groups. To show the orthogonality, let Mβ,km    denote the middle expression in (37). If
+α, β, k, l are fixed, then the expression
+                             X α,jl             Z
+                                 Mβ,km |jihm| =   Uα (g) k l Uβ (g −1 ) dg                       (38)
+                            j,m                   G
+
+defines a linear map from Uβ to Uα , which is easily seen to be an intertwiner. By Schur’s lemma, it
+                                                                                 α,jl
+is proportional to the identity map if α = β and vanishes otherwise. Hence, Mβ,km     is proportional
+     α j                                   α l                                        α,jl        j l
+to δβ δm and, by a similar argument, to δβ δk . These two statements imply that Mβ,km      ∝ δβα δm δk .
+The proportionality coefficient can be found by contracting the indices k and l.
+    To show the completeness, we consider the Hilbert space H as the left regular representation
+of G (that is, the representation given by the L-action) and decompose it into unitary irreps. Any
+of these sub-representations has a basis of functions fj that transform as the basis vectors |ji of
+some standard representation α. Hence,
+                                                         X n
+                            fj (g) = L(g −1 ) · fj (1) =
+                                                  
+                                                            Uα,j (g) fn (1),                      (39)
+                                                          n
+                                                                        n
+which means that fj is the linear combination of the functions Uα,j with the coefficients fn (1).
+Therefore, any f ∈ H is a combination of matrix element functions.
+    What changes if G is a general locally compact Lie group? The use of Schur’s lemma is valid if
+the left and right Haar measures are the same (which is true for G = G).  e However the integral in
+                                                                  iαg
+Eq. (37) may diverge. For example, if G = R, then Uα (g) = e (for α, g ∈ R). In this case, the
+functions Uα are δ-normalizable,    namely hUα |Uβ i = 2πδ(α − β). This gives the decomposition of
+identity 1 = (2π)−1 |Uα ihUα | dα; thus, the Plancherel measure on the set of irreps is (2π)−1 dα.
+                      R
+
+The trivial representation of G  e is a different case. The corresponding function U0 is identically
+equal to 1, and its norm is clearly infinite. One might hope to remedy the situation by regarding
+the trivial representation as a limiting case of the complementary series Cq0 for q → 0 or the discrete
+series Dλ± for λ → 0. However, it turns out that all complementary series representations and the
+discrete series representations with λ < 12 have matrix elements that are not even δ-normalizable.
+Therefore, these representations do not appear in the Fourier transform.
+    The main assumption in the completeness proof was the existence of an irreducible decompo-
+sition of the left regular representation. It is true that any unitary representation of Ge splits into
+irreducible pieces, which are isomorphic to the standard unitary irreps. However, this fact should
+not be taken for granted. For some other groups (e.g. SL(2, Z)), a general unitary representation
+does not split into irreducible representations (because the process of splitting into progressively
+smaller pieces may not converge). A more general decomposition into isotypical components ex-
+ists, but it involves type II and type III von Neumann factors. We will not prove or use the
+existence of an irreducible decomposition for an arbitrary unitary representation of e    G but show
+the completeness of the matrix element functions directly.
+
+                                                   9
+4.2    The L- and R-actions on G
+                               e in explicit coordinates
+It is convenient to parametrize G
+                                e by three variables similar to the Euler angles:
+
+                                g(ξ, ϕ, ϑ) = eϕΛ0 eξΛ1 e−ϑΛ0 ,    ξ⩾0                             (40)
+
+Note that g(ξ, ϕ + 2π, ϑ + 2π) = g(ξ, ϕ, ϑ). For a nonsingular, one-to-one parametrization, one can
+use z = eiϕ tanh(ξ/2) (the image of 0 under the action of g(ξ, ϕ, ϑ) on the unit disk) and ϑ − ϕ.
+    Let us find the L- and R-actions in the infinitesimal form, i.e. calculate (1 + δh)g and g(1 − δh),
+where δh is a Lie algebra element and g ∈ G.  e When δh is fixed, the expressions (δh)g and g(δh)
+define some vector fields on G.
+                              e In general,
+                           (δh)g = X L (g) (δh),        g(δh) = X R (g) (δh),                     (41)
+where X L (g) and X R (g) are linear maps from the Lie algebra to the tangent space of Ge at point
+g. They are represented by matrices if we write vector fields in components and express δh as
+(δhj )Λj . Thus, the L- and R-actions of Λj on functions are given by these formulas:
+                                         α ∂           R
+                                                              R α ∂
+                          ΛLj = − X L (g) j
+                                  
+                                                   ,  Λ j  =  X (g) j       ,                  (42)
+                                            ∂g α                       ∂g α
+where j = 0, 1, 2 and the index α refers to ξ, ϕ, or ϑ.
+   It is easier to calculate the inverse matrices, Y L (g) = (X L (g))−1 and Y R (g) = (X R (g))−1 ,
+which represent two variants of the Maurer-Cartan form:
+                                         j                                 j
+                    (dg)g −1 = Λj Y L (g) α dg α ,   g −1 (dg) = Λj Y R (g) α dg α .
+                                                                  
+                                                                                               (43)
+To obtain, for example, the first column of Y L = Y L (g) for g = g(ξ, ϕ, ϑ), we consider
+     ∂g −1                                       −1
+        g = eϕΛ0 Λ1 eξΛ1 e−ϑΛ0 eϕΛ0 eξΛ1 e−ϑΛ0       = eϕΛ0 Λ1 e−ϕΛ0 = (cos ϕ)Λ1 + (sin ϕ)Λ2 ,
+                                 
+     ∂ξ
+and collect the coefficients in front of Λj . Thus, the first column of Y L is (0, cos ϕ, sin ϕ)T .
+Continuing in this manner, we find that
+                                                                            
+             0    1     − cosh ξ                         0        cosh ξ    −1
+  Y L = cos ϕ 0 − sin ϕ sinh ξ  ,            Y R = cos ϑ − sin ϑ sinh ξ 0  ,              (44)
+           sin ϕ 0 cos ϕ sinh ξ                        sin ϑ cos ϑ sinh ξ    0
+                                                                                    
+             0
+             cos ϕ          sin ϕ                             0       cos ϑ   sin ϑ
+     1 − sin ϕ cosh ξ cos ϕ cosh ξ                   0 − sin ϑ 1                1 
+                                                    
+   L                                                R                     cos ϑ        
+  X =           sinh ξ               ,
+                               sinh ξ             X =            sinh ξ              .
+                                                                                sinh ξ           (45)
+                                                     
+                   1             1                              cosh ξ       cosh ξ 
+       0 − sin ϕ        cos ϕ                           −1 − sin ϑ        cos ϑ
+                 sinh ξ        sinh ξ                              sinh ξ       sinh ξ
+   We can now plug the expressions for X L , X R into Eq. (42) to obtain the L- and R-actions of the
+operators Λj on functions. It is convenient to have the result for L0 = −iΛ0 and L±1 = ∓Λ1 − iΛ2 :
+                                                                                   
+                   L               L     ±iϕ          cosh ξ             1
+                  L0 = i∂ϕ ,      L±1 = e      ±∂ξ +         (i∂ϕ ) +        (i∂ϑ )             (46)
+                                                      sinh ξ          sinh ξ
+                                                                                  
+                   R               R     ±iϑ             1            cosh ξ
+                  L0 = i∂ϑ ,      L±1 = e      ∓∂ξ −         (i∂ϕ ) −        (i∂ϑ )             (47)
+                                                      sinh ξ          sinh ξ
+                                                   10
+4.3     Casimir eigenfunctions
+The space of square-integrable functions on G
+                                            e can be decomposed into common eigenfunctions of
+three commuting Hermitian operators, L0 , LR
+                                         L
+                                             0 , and Q, where
+
+                                 1 L L                         1 R R
+                Q = −(LL0 )2 +     L−1 L1 + LL1 LL−1 = −(LR 2
+                                                                 L−1 L1 + LR  R
+                                                                               
+                                                          0) +             1 L−1 .                      (48)
+                                 2                             2
+We now find the common eigenfunctions without asking if they are normalizable. That question
+will be addressed later.
+    Let us first impose the conditions LL0 Ψ = −lΨ and LR
+                                                        0 Ψ = −rΨ, where l and r are arbitrary
+                   2
+complex numbers. Thus,
+                                                                                   ξ
+                     Ψ eϕΛ0 eξΛ1 e−ϑΛ0 = ei(lϕ+rϑ) f (u),           where u = tanh2 .
+                                      
+                                                                                                        (49)
+                                                                                   2
+The use of the variable u instead of ξ will help to simplify some subsequent equations. In what
+follows, Ψ is treated as a function of (ξ, ϕ, ϑ) rather than g = eϕΛ0 eξΛ1 e−ϑΛ0 . We will later require
+that Ψ(g) only depend on g and be regular at g = 1.
+    The action of LLn , LR
+                         n on f depends on the parameters l and r,
+
+                                                                         l + r −1/2 l − r 1/2
+             LL0 (l, r) = −l,       LL±1 (l, r) = ±(1 − u)u1/2 ∂u −           u    −     u ,            (50)
+                                                                           2          2
+                                         LR              n L
+                                          n (l, r) = (−1) Ln (r, l),                                    (51)
+
+and the parameters also change:
+
+                          LLn : (l, r) 7→ (l + n, r),        LR
+                                                              n : (l, r) 7→ (l, r + n).                 (52)
+
+It is now easy to write the Casimir operator explicitly:
+                                              1 − u                         
+                    Q = −(1 − u)2 u∂u2 + ∂u +            (l + r)2 − (l − r)2 u .                        (53)
+                                                   4u
+The eigenvalue equation, Qf = λ(1 − λ)f is equivalent to the hypergeometric differential equation
+(u∂u + c)∂u h = (u∂u + a)(u∂u + b)h for a closely related function h. Indeed, both differential
+equations have regular singular points at u = 0, 1, ∞ and no other singularities. To find the exact
+relation, it is sufficient to compare the characteristic exponents that define the asymptotics of the
+fundamental solutions, namely, f (u) ∼ uαv for u → v (v = 0, 1) and f (u) ∼ u−α∞ for u → ∞.
+The Casimir eigenvalue equation and the hypergeometric equation have the following exponents:
+                                                                       
+     Equation for f α0 = ±(l + r)/2,                  Equation for h α0 = 0, 1 − c,
+     with parameters α1 = λ, 1 − λ,                    with parameters α1 = 0, c − a − b,        (54)
+     λ, l, r :              α∞ = ±(l − r)/2;           a, b, c :           α∞ = a, b.
+                                                                       
+
+Since each exponent has two different values, there are several ways to match them. For example,
+
+              f (u) = u(l+r)/2 (1 − u)λ h(u),       a = λ + l,       b = λ + r,    c = 1 + l + r.       (55)
+  2
+    The parameter ν = −r may be called “spin” because a function Ψ satisfying the condition LR
+                                                                                             0 Ψ = νΨ has the
+interpretation as a ν-spinor on the hyperbolic plane, see section 5.2.
+
+                                                        11
+General solutions: These are two solutions of the equation Qf = λ(1 − λ)f on the interval
+0 < u < 1:
+                  Aλ,l,r (u) = u(l+r)/2 (1 − u)λ F λ + l, λ + r, 1 + l + r; u
+                                                                             
+                                                                                     (56)
+
+                  Bλ,l,r (u) = u(l+r)/2 (1 − u)λ F λ + l, λ + r, 2λ; 1 − u
+                                                                           
+                                                                                     (57)
+
+where F(a, b, c; x) = Γ(c)−1 2F1 (a, b, c; x) is the scaled hypergeometric function. (It is well-defined
+for all values of a, b, c but vanishes if a, c − a ∈ {0, −1, −2, . . .} or b, c − b ∈ {0, −1, −2, . . .}.) Let
+us mention some useful identities:
+
+                                   A1−λ,l,r = Aλ,l,r ,          Bλ,l,r = Bλ,−l,−r ;                        (58)
+                     sin(2πλ)                   Bλ,l,r               B1−λ,l,r
+                              Aλ,l,r =                          −                  .                       (59)
+                         π             Γ(1 − λ + l) Γ(1 − λ + r) Γ(λ + l) Γ(λ + r)
+
+For a more complete picture, Aλ,l,r (u), Aλ,−l,−r (u) make a pair of fundamental solutions near u = 0,
+the functions Bλ,l,r (u), B1−λ,l,r (u) are the fundamental solutions near u = 1, and Aλ,l,−r (u−1 ),
+Aλ,−l,r (u−1 ) near u = ∞. (The first four functions are defined for u ∈ (0, 1) and the last two for
+u ∈ (1, ∞).) The operators LL±1 (l, r) act on Aλ,l,r and Bλ,l,r as follows:
+
+      LL−1 (l, r) Aλ,l,r = −Aλ,l−1,r ,              LL1 (l, r) Aλ,l,r = −(l + λ)(l + 1 − λ)Aλ,l+1,r ;      (60)
+      LL−1 (l, r) Bλ,l,r = −(l − λ)Bλ,l,r ,         LL1 (l, r) Bλ,l,r = −(l + λ)Bλ,l,r .                   (61)
+
+To find the action on the other fundamental solutions, we note that LLn (l, r) = −LL−n (−l, −r) and
+that LLn (l, r) acts on functions of u−1 as LLn (l, −r) on functions of u. The R-action is obtained
+from Eq. (51).
+    In some applications (e.g. spinors on AdS    g 2 , where u = ei(ϕ1 −ϕ2 ) ), u lies on the unit circle.
+One can analytically continue functions from the interval (0, 1) to the simply connected domain
+D = C − [0, ∞) (containing the unit circle without the point 1) through the upper half-plane
+or through the lower half-plane. The first option is preferred when the circle is parametrized as
+u = eiθ with 0 < θ < 2π. However, let us give both definitions and some related identities:
+             )                     (         )
+      A±
+       λ,l,r                         A λ,l,r
+        ±      = analytic cont. of             through the upper (+) or lower (−) half-plane;        (62)
+      Bλ,l,r                        Bλ,l,r
+                                       l+r                 l+r
+                                 e−iπ 2 A+
+                                         λ,l,r (u) = e
+                                                       iπ 2
+                                                            A−
+                                                             λ,l,r (u),                                    (63)
+                 π                 π                        π                         π
+                                                                 −                        −
+                      +
+              ei 2 λ Bλ,l,r               +
+                            (u) = ei 2 λ Bλ,−l,−r (u) = e−i 2 λ Bλ,l,−r (u−1 ) = e−i 2 λ Bλ,−l,r (u−1 ).   (64)
+
+We now write all 6 fundamental solutions that are continued from their original definition domains
+to D through the half-plane Im u > 0:
+
+                                  A+
+                                   λ,l,r (u),
+                                                    +
+                                                   Bλ,l,r (u),       A−        −1
+                                                                      λ,l,−r (u ),
+                                                               −        −1
+                                                                                                           (65)
+                                  A+             +
+                                   λ,−l,−r (u), B1−λ,l,r (u), Aλ,−l,r (u ).
+
+They span the two-dimensional solution space.
+
+                                                         12
+Nonsingular solutions: Having studied the Casimir eigenfunctions of the form ei(lϕ+rϑ) f (u) in
+full generality, we select those that depend only on g = g(ξ, ϕ, ϑ) ∈ Ge and are regular at g = 1.
+The first condition means the invariance under (ξ, ϕ, ϑ) 7→ (ξ, ϕ + 2π, ϑ + 2π); hence, l + r is an
+integer. To check if a function is regular, we examine its u → 0 asymptotics using the variables
+z = eiϕ u1/2 , z̄ = e−iϕ u1/2 , and ϑ − ϕ. The space of regular solutions is spanned by Aλ,l,r and
+Aλ,−l,−r . These functions are linearly dependent because
+                Γ(λ + l) Γ(λ + r) Aλ,l,r = Γ(λ − l) Γ(λ − r) Aλ,−l,−r                if l + r ∈ Z.          (66)
+One of them may vanish, but Aλ,l,r 6= 0 if l + r ⩾ 0 and Aλ,−l,−r 6= 0 if l + r ⩽ 0.
+
+Normalizability: Finally, we select the nonsingular solutions that are normalizable or δ-nor-
+malizable. The inner product is given by the Haar measure on G.           e When group elements are rep-
+resented as eiϕΛ0 eiξΛ1 e−iϑΛ0 , the measure is (sinh ξ) dξ dϕ dϑ. If Ψα (g) = ei(lα ϕ+rα ϑ) fα tanh2 (ξ/2)
+                                                                                                             
+
+with lα + rα ∈ Z and lα , rα ∈ R (where α = 1, 2), then
+                                                                            Z 1
+                                                                                                 2 du
+                  2
+   hΨ1 |Ψ2 i = 4π δl1 +r1 , l2 +r2 δ(r1 − r2 ) hf1 |f2 i, where hf1 |f2 i =     f1 (u)∗ f2 (u)          . (67)
+                                                                             0                 (1 − u)2
+    Since λ and 1 − λ define the same Casimir eigenspace, we may assume that Re λ > 21 , or
+λ = 12 + is with s > 0, or λ = 21 . Let us consider one of the linearly dependent candidate solutions
+Aλ,l,r and Aλ,−l,−r :
+                         Aλ,l,r (u) ≈ aλ,l,r (1 − u)λ + a1−λ,l,r (1 − u)1−λ       for u → 1,                (68)
+where
+                                                          Γ(1 − 2λ)
+                                        aλ,l,r =                             .                              (69)
+                                                   Γ(1 − λ + l) Γ(1 − λ + r)
+If Re λ > 21 , a function with the asymptotic behavior f (u) ∼ (1 − u)λ for u → 1 is normalizable,
+and (1 − u)1−λ is not even δ-normalizable. In the marginal case of λ = 21 + is, s > 0, we have:
+
+  if fs (u) ≈ a(1 − u)1/2+is + a∗ (1 − u)1/2−is for u → 1,              then hfs |fs0 i = 4π|a|2 δ(s − s0 ). (70)
+If λ = 21 , one has to take the limit in Eq. (68); the result is that the function is not normalizable.
+It is now easy to find all cases where both Aλ,l,r and Aλ,−l,−r are normalizable or δ-normalizable:
+               1                                                                                
+     • λ>         and      λ + l, λ − r ∈ {0, −1, −2, . . .} or λ + r, λ − l ∈ {0, −1, −2, . . .} ; (71)
+               2
+               1
+     • λ = + is, s, l, r ∈ R, s > 0, l + r ∈ Z.                                                     (72)
+               2
+
+4.4     The matrix elements and Plancherel measure for the irreps of G
+                                                                     e
+Let Uλµ be a nontrivial unitary irrep, i.e. Cλ(1−λ)
+                                             µ
+                                                    or Dλ± . The corresponding matrix element functions
+  ν
+Uλ,m (for m, ν ∈ Z+µ) transform as |mihν| under the L- and R-actions of the group. In particular,
+                     ν              ν                  ν        ν             ν                 ν
+               LL0 Uλ,m = −mUλ,m ,         LR
+                                            0 Uλ,m = νUλ,m ,  Q Uλ,m = λ(1 − λ)Uλ,m ,                       (73)
+                                      ν     p                       ν
+                               LL±1 Uλ,m = − (m ± λ)(m ± (1 − λ)) Uλ,m±1 .                                  (74)
+
+                                                           13
+                                          ν
+The first set of equations implies that Uλ,m eϕΛ0 eξΛ1 e−ϑΛ0 = ei(mϕ−νϑ) f tanh2 (ξ/2) , where f is
+                                                                                     
+
+proportional to the fundamental solution Aλ,m,−ν or Aλ,−m,ν . Comparing the action of LL±1 on
+                 ν
+the functions Uλ,m with the corresponding action (60) on the fundamental solutions and using the
+           ν         ν
+identity Uλ,m (1) = δm for normalization, we find that
+
+                                                   s                                                  
+               ν
+                    
+                        ϕΛ0 ξΛ1 −ϑΛ0
+                                                       Γ(λ + m) Γ(1 − λ + m) i(mϕ−νϑ)             2 ξ
+             Uλ,m       e   e     e            =                               e       Aλ,m,−ν tanh
+                                                         Γ(λ + ν) Γ(1 − λ + ν)                       2
+                                                   s                                                                     (75)
+                                                                                                                    
+                                                        Γ(λ − m) Γ(1 − λ − m) i(mϕ−νϑ)               ξ
+                                 = (−1)ν−m                                     e       Aλ,−m,ν tanh2
+                                                         Γ(λ − ν) Γ(1 − λ − ν)                       2
+
+                                               µ                                   µ
+The first formula is applicable to the irreps Cλ(1−λ)  , Dλ+ , and the second to Cλ(1−λ) , Dλ− . Note that
+the range of m and ν is restricted to {λ, λ + 1, . . .} for Dλ+ and to {−λ, −λ − 1, . . .} for Dλ− . Thus,
+the normalizable and δ-normalizable Casimir eigenfunctions (see equations (71), (72)) are exactly
+                                                                 µ
+the matrix element functions for Dλ± with λ > 21 and for Cλ(1−λ)       with λ = 21 + is. This shows the
+completeness of the matrix element functions.
+   The analogue of orthogonality relation (37) for discrete series representations is as follows:
+                                  D     ±(λ+k)     ±(λ0 +k0 )
+                                                                  E       8π 2
+                                      Uλ, ±(λ+j) Uλ0 , ±(λ0 +j 0 ) =            δ(λ − λ0 ) δjj 0 δkk0
+                                                                         2λ − 1
+                                                                                                                         (76)
+                                                   1    0                    0   0
+                                         for λ, λ > ,             j, k, j , k ∈ {0, 1, 2, . . .}.
+                                                   2
+The overall factor is found by setting j, k, j 0 , k 0 to 0 so that the functions in questions are
+                           0              0
+e±iλ(ϕ−ϑ) (1 − u)λ and e±iλ (ϕ−ϑ) (1 − u)λ , where u = tanh2 (ξ/2). The inner product between
+these functions is obtained using Eq. (67). For the principal series, the orthogonality relation is:
+      D     µ+k          µ0 +k0
+                                         E       cosh(2πs) + cos(2πµ)
+          U1/2+is, µ+j U1/2+is0 , µ0 +j 0 = 4π 2                      δ(s − s0 ) δ(µ − µ0 ) δjj 0 δkk0
+                                                      s sinh(2πs)
+                                                                                                                         (77)
+                                                 1            1
+                         for s, s0 > 0, − < µ, µ0 ⩽ , j, k, j 0 , k 0 ∈ Z.
+                                                 2            2
+(The range of s and µ has been restricted to avoid redundancy.) To derive equation (77), we again
+                                                        µ
+consider the case j = k = j 0 = k 0 = 0. The function U1/2+is, µ is proportional to A1/2+is, µ,−µ , which
+has the asymptotics (68) with
+
+                                                   2                     2       cosh(2πs) + cos(2πµ)
+                                a1/2+is, µ,−µ          = a1/2−is, µ,−µ       =                        .                  (78)
+                                                                                     4πs sinh(2πs)
+
+   The Plancherel measure is found by inverting the coefficients in the orthogonality relations:
+                             
+                               (2π)−2 λ − 12 dλ, λ > 12                                                    for Dλ±
+                                            
+                             
+     Plancherel measure on   
+                           =              s sinh(2πs)                                                                    (79)
+        the irreps of G
+                      e
+                             (2π)−2
+                                                         ds dµ,                                               µ
+                                                                                                    s > 0 for C1/4+s 2
+                                     cosh(2πs) + cos(2πµ)
+
+                                                                    14
+These formulas can be specialized to the irreps of G ∼   = PSL(2, R), which are characterized by
+µ = 0. In particular, the discrete series representations are Dn± with n = 1, 2, . . . Thus,
+                                                   (
+                                                    (2π)−2 n − 21              for Dn±
+                                                                  
+                    Plancherel measure on
+                                            =                                                               (80)
+                    the irreps of PSL(2, R)           (2π)−2 tanh(πs) s ds for C1/4+s
+                                                                                0
+                                                                                      2
+
+
+
+
+5     Spinors on the hyperbolic plane and anti-de Sitter space
+5.1     The spaces H2 , AdS2 , and their complex embeddings
+The hyperbolic plane H2 is the quotient of G by the subgroup K generated by Λ0 ; it is also equal
+to the quotient of the corresponding universal covers, G/      e K. e Conversely, G       e is the total space of
+a principal K-bundle
+             e        over H2 . Among the three “Euler angle” coordinates, ξ and ϕ parametrize
+the base and ϑ the fiber. The metric on H2 can be obtained from the L- and R-invariant metric
+on G,
+    e which is in turn determined by the Killing form η = diag(−1, 1, 1). Using the notation of
+Section 4.2,
+                     d`2 = ηjk (Y L )jα (Y L )kβ dg α dg β = ηjk (Y R )jα (Y R )kβ dg α dg β
+                                                                                                             (81)
+                         = dξ 2 − dϕ2 − dϑ2 + 2 cosh ξ dϕ dϑ.
+The distance between infinitesimally close fibers is found by taking the extremum of d` over dϑ
+with dξ and dϕ fixed. The result is:
+                                                  4 dz dz̄                             ξ
+                 d`2 = dξ 2 + (sinh ξ)2 dϕ2 =                ,       where z = eiϕ tanh .                   (82)
+                                                 (1 − z z̄)2                           2
+Thus, we have recovered the well-known Poincaré disk model on the hyperbolic plane. The space
+H2 = G/ e Ke inherits the L-action of G, e while the R-action has been used up in the quotient
+construction.
+    The anti-de Sitter space AdS2 is the quotient of G by the subgroup generated by Λ2 . Recall
+that a general element of G is a linear fractional map g : z 7→ az+b
+                                                                 cz+d
+                                                                      preserving the unit disk. The
+subgroup generated by Λ2 consists of those g’s that preserve i and −i. Thus, AdS2 is the orbit
+of (i, −i) under the simultaneous action of G on pairs of points. This orbit, actually, includes
+all pairs of distinct points on the unit circle, z1 = eiϕ1 and z2 = eiϕ2 . The standard projection
+G → AdS2 takes g to (z1 , z2 ) = (g(i), g(−i)).
+    To describe the metric on AdS2 and its universal cover AdS
+                                                            g 2 , we consider ϕ1 , ϕ2 as real numbers
+subject to the constraint 0 < ϕ1 − ϕ2 < 2π. Then
+
+                                          − dϕ1 dϕ2              e−t tanh(ξ/2) = tan(π/4 − ϕ1 /2),
+         d`2 = dξ 2 − (sinh ξ)2 dt2 =                ,                                                     (83)
+                                         sin2 ϕ1 −ϕ
+                                                 2
+                                                   2
+                                                                  et tanh(ξ/2) = tan(π/4 + ϕ2 /2).
+
+(The first expression gives the metric in the region ϕ1 < π2 , ϕ2 > − π2 , which we call the
+“Schwarzschild patch”, see Figure 2.) Another, more standard way to write the AdS        g 2 metric
+is d`2 = (cos θ)−2 (−dϕ2 + dθ2 ), where ϕ = (ϕ1 + ϕ2 )/2 and θ = (π − ϕ1 + ϕ2 )/2.
+    It is often useful to analytically continue functions between the hyperbolic plane and the anti-de
+Sitter space. From the physical perspective, there are two ways to define the analytic continuation:
+
+                                                       15
+                                    −−−−−−→
+
+
+
+
+                     Figure 2: Schwarzschild patch of the anti-de Sitter space.
+
+one is natural for the study of the SYK model in imaginary time (by interpreting a pair of points
+on the time circle as a point of AdS2 [7]) and the other corresponds to the transition to real
+time. We will obtain those continuations using a standard embedding of H2 and two different
+embeddings of AdS2 in some complex manifold M. The latter consists of pairs of distinct points
+on the Riemann sphere C = C ∪ {∞} and comes with a complex metric:
+
+                                                                         −4 dz1 dz2
+                                                                 d`2 =
+                     
+                  M = (z1 , z2 ) : z1 , z2 ∈ C, z1 6= z2 ,                           .            (84)
+                                                                         (z1 − z2 )2
+
+This metric is invariant under the simultaneous action of PSL(2, C) on z1 and z2 . One can also
+describe M as the quotient of PSL(2, C) by the stabilizer of the point (0, ∞), that is, the complex
+subgroup generated by Λ0 .
+    We now construct the three embeddings together with some related structure. Each embedding
+is extended to a “map of principal bundles”, which consists of compatible maps between their
+bases, total spaces, and structure groups. Let us begin with the map from the principal bundle
+e → H2 to PSL(2, C) → M and denote its constituent parts by ζ, J, and ωH . The next equation
+G
+includes the condition for compatibility between ζ and J (expressed as a commutative diagram)
+as well as the definitions of these maps; Z denotes the subgroup of Ge generated by e2πΛ0 .
+
+                    e −−J−→ PSL(2, C)
+                    G
+                                                  J(g) = g  (reduced modulo Z),
+                                                                                                (85)
+                                                    ζ(z) = z, z̄ −1 .
+                    y          y                                   
+                          ζ
+                   H2 −−−→         M
+The map ωH (from the group of elements h = eθΛ0 , θ ∈ R to such elements with complex θ) should
+be a group homomorphism and satisfy the compatibility condition J ◦ R(h) = R(ωH (h)) ◦ J, i.e.
+J(gh−1 ) = J(g) ωH (h−1 ) for all h. Since J is, essentially, trivial, such is ωH , namely, ωH (h) = h
+(modulo Z). On the other hand, both principal bundle maps from G        e→ g AdS2 to PSL(2, C) → M
+involve this homomorphism of structure groups:
+
+                ωAdS eθΛ2 = eiθΛ0 for all θ ∈ R,           i.e. ωAdS (h) = W −1 hW,
+                           
+                                                                                                   (86)
+
+where                                                
+                               i(π/2)Λ1    1      1 i                     z+i
+                        W =e              =√            ,      W (z) =          .                 (87)
+                                             2     i 1                   iz + 1
+
+
+
+                                                     16
+The other parts are defined below. Although ζ̃ and ζ̊ are not injective, they factor as the projection
+onto AdS2 followed by an embedding.
+               J˜
+       G
+       e    −−−→ PSL(2, C)                   ˜ = gW,
+                                           J(g)
+       
+       y
+                    
+                    y                                                                            (88)
+                                        ζ̃(ϕ1 , ϕ2 ) = eiϕ1 , eiϕ2 ;
+                                                                  
+            ζ̃
+      g 2 −−−
+      AdS      →       M
+
+               J˚                            ˚
+       G
+       e    −−−→ PSL(2, C)                   J(g) = W −1 gW,
+                   
+                                        ζ̊(ϕ1 , ϕ2 ) = W −1 (eiϕ1 ), W −1 (eiϕ2 )                (89)
+                                                                                  
+       y            y
+                                                                                       
+            ζ̊
+      g 2 −−−                                      = tan(π/4 − ϕ1 /2), tan(π/4 − ϕ2 /2) .
+      AdS      →       M
+
+When the map ζ : H2 → M is used together with ζ̃ : AdS g 2 → M, the coordinates z, z̄ on the
+hyperbolic plane correspond to the functions z1 = e and z2−1 = e−iϕ2 on the anti-de Sitter space
+                                                   iϕ1
+
+by the analytic continuation through M. If, on the other hand, g AdS2 is mapped to M using
+                                                 2
+ζ̊, then the coordinate ξ is consistent between H and the Schwarzschild patch of AdS
+                                                                                   g 2 , and ϕ
+analytically continues to it.
+
+5.2    Definitions of spinors and two standard gauges
+Spinors on H2 , or any Riemannian surface, are associated with representations of the universal
+cover of SO(2), that is, the group K
+                                   e generated by Λ0 . Let us consider the one-dimensional repre-
+sentation such that Λ0 acts as the multiplication by −iν. Sections of the vector bundle associated
+with this representation and some principal K-bundle
+                                               e        are called “ν-spinors”. More explicitly, a
+ν-spinor is a function Ψ from the total space of the principal bundle to the representation space
+(or simply the complex numbers) such that
+
+                                          (ΛR
+                                            0 − iν)Ψ = 0.                                        (90)
+
+Here the superscript “R” refers to the action of the structure group on the total space. In the
+hyperbolic plane case, the principal e  K-bundle is given by the quotient map G    e → H2 , and the
+action in question is the R-action considered previously.
+    For calculational purposes, it is convenient to represent spinors by functions on the base space.
+This requires fixing a gauge, i.e. a cross section of the principal e K-bundle. Let sH : H2 → G    e
+                                                                                            2
+be such a cross section, and let ψ(x) = Ψ(sH (x)) Any point of the fiber over x ∈ H can be
+represented as sH (x) e−θΛ0 ; hence,
+
+                                     Ψ sH (x) e−θΛ0 = e−iνθ ψ(x).
+                                                   
+                                                                                                 (91)
+
+If sH (x) is replaced with sH (x) e−τ (x)Λ0 , then ψ(x) changes to e−iντ (x) ψ(x).
+    Spinors on AdSg 2 are defined by the condition that Λ2 acts as the multiplication by ν. This
+definition is motivated by the relation between the structure group maps ωAdS and ωH ; indeed,
+the generator Λ2 in the anti-de Sitter case corresponds to iΛ0 in the hyperbolic plane case. Thus,
+
+                                      Ψ sAdS (x) e−θΛ2 = eνθ ψ(x).
+                                                        
+                                                                                              (92)
+
+                                                  17
+     Now, let us define cross sections s̃H ,s̊H : H2 → G     e whose analytic continuations to M are
+consistent with the respective embeddings of AdS2 . We will give explicit formulas as well as some
+pictures. Cross sections of the principal bundle G  e → H2 can be visualized as local frames on the
+unit disk. Indeed, consider the vector fields ṽ0 , ṽ1 , ṽ2 on G e that correspond to the R-action of
+                                  ϕΛ0 ξΛ1 −ϑΛ0
+Λ0 , Λ1 , Λ2 . At each point g = e e e         , they are given by the columns of the matrix X R (g),
+see Eq. (45). The first of them lies in the fiber and the other two are orthogonal to it. Projecting
+ṽ1 and ṽ2 on the base, we get these vectors v1 , v2 :
+                                !  cos ϑ                        !  sin ϑ 
+                              ξ                                 ξ
+                             v1                               v2
+                              ϕ
+                                 =  sin ϑ  ,                      =  cos ϑ  .                  (93)
+                             v1       −                       v2ϕ
+                                        sinh ξ                          sinh ξ
+Setting g = sH (x) gives an orthonormal frame at x ∈ H2 . The two particular cross sections are:
+
+
+
+ s̃H (z) = eϕΛ0 eξΛ1                                    s̊H (z) = eϕΛ0 eξΛ1 e−ϕΛ0                              (94)
+
+
+
+where z = eiϕ tanh(ξ/2). The first one is multivalued because (ξ, ϕ) and (ξ, ϕ + 2π) correspond
+to the same z but eϕΛ0 eξΛ1 6= e(ϕ+2π)Λ0 eξΛ1 .
+    As previously alluded to, s̃H is related to some cross section s̃AdS of the principal bundle
+G → AdS
+e     g 2 . The correspondence between s̃H , s̃AdS , and their common analytic continuation s̃ can
+be expressed by a commutative diagram and then translated to explicit equations:
+
+               Ge −−J−→ PSL(2, C) ←−J˜−−             G
+                                                     e
+                x           x                        x                   s̃(z, z̄ −1 ) = s̃H (z),
+                
+            s̃H 
+                            
+                          s̃
+                                                     s̃
+                                                      AdS                                                     (95)
+                                                                      s̃(eiϕ1 , eiϕ2 ) = s̃AdS (ϕ1 , ϕ2 ) W.
+                       ζ                   ζ̃
+             H2 −−−→            M        ←−−− AdS
+                                              g2
+(Although s̃H is multivalued and s̃ double-valued, s̃AdS is well-defined.) The solution to the above
+equations is:
+                                                       ϕ1 + ϕ2                  ϕ1 − ϕ2
+            s̃AdS (ϕ1 , ϕ2 ) = eϕΛ0 eγΛ1 ,       where ϕ =     , γ = − ln tan           .    (96)
+                                                          2                        4
+It is important that all the functions involved (namely, ϕ and γ) are real; that would not be the
+case if we began with s̊H . The cross section s̊H is consistent with the other embedding of AdS2 .
+Specifically,
+
+   Ge −−J−→ PSL(2, C) ←−J˚−− G    e
+    x           x                 x                                      s̊(z, z̄ −1 ) = s̊H (z),
+    
+s̊H 
+                
+              s̊
+                                  
+                            s̊AdS                                                                             (97)
+                                                      s̊ W −1 (eiϕ1 ), W −1 (eiϕ2 ) = W −1 s̊AdS (ϕ1 , ϕ2 ) W.
+                                                                                    
+        ζ                     ζ̊
+  H2 −−−→         M         ←−−− AdS
+                                 g2
+Solving these equations requires slightly more work. The result is this:
+                                                                                    sin(π/4 + ϕ1 /2)
+               s̊AdS (ϕ1 , ϕ2 ) = s̃AdS (ϕ1 , ϕ2 ) e−τ Λ2 ,        where τ = ln                      .         (98)
+                                                                                    sin(π/4 − ϕ2 /2)
+
+                                                              18
+    Spinors written in the “tilde gauge” (i.e. using s̃H or s̃AdS ) and in the “disk gauge” (using s̊H
+or s̊AdS ) are related as follows:
+                                                                                               ν
+         H
+                       −ν/2    H                   AdS                      sin(π/4 + ϕ1 /2)
+       ψ̊ (z) = z/z̄           ψ̃ (z),         ψ̊         (ϕ1 , ϕ2 ) =                               ψ̃ AdS (ϕ1 , ϕ2 )    (99)
+                                                                             sin(π/4 − ϕ2 /2)
+
+In either gauge, the analytic continuation of spinors is similar to that of ordinary functions. It
+still depends on the embedding of AdS2 in M, therefore the explicit expressions are different:
+
+        ψ̃ H (z) = ψ̃ z, z̄ −1 , ψ̃ AdS (ϕ1 , ϕ2 ) = ψ̃ eiϕ1 , eiϕ2 ,
+                                                                  
+                                                                                             (100)
+        ψ̊ H (z) = ψ̊ z, z̄ −1 , ψ̊ AdS (ϕ1 , ϕ2 ) = ψ̊ tan(π/4 − ϕ1 /2), tan(π/4 − ϕ2 /2) .
+                                                                                         
+                                                                                             (101)
+
+5.3    Spinors on H2
+Analytic spinors: Many applications involve ν-spinors that can be expressed by a convergent
+Taylor series in z1 = z and z2−1 = z̄ for |z|, |z̄| < 1. Such spinors transform under maps V ∈ G
+                                                                                               e as
+follows:
+                             −ν/2  −1 ν/2
+                          dz1        dz2
+     (V ψ̊)(z1 , z2 ) =                       ψ̊(w1 , w2 )   for z1 = V (w1 ), z2 = V (w2 ).  (102)
+                          dw1        dw2−1
+
+This is a special case of the transformation rule for holomorphic (λ1 , λ2 )-forms, i.e. functions of
+z1 , z2 that transform as elements of Fλ+1 in the first variable and Fλ−2 in the second variable, cf.
+Eq. (18). Such forms are written symbolically as
+
+                                        f = f˚(z1 , z2 ) (−i dz1 )λ1 (i dz2−1 )λ2 .                                      (103)
+
+For example, (1 − z1 /z2 )−2λ (dz1 )λ (dz2−1 )λ is a (λ, λ)-form that is invariant under Ge (and more
+                                                                                    ν   ν
+                                                                                          
+general linear fractional maps in a suitable domain). Thus, ν-spinors are 2 , − 2 -forms with
+respect to maps V ∈ G.e Conversely, any (λ1 , λ2 )-form f can be written as
+                                                              −(λ1 +λ2 )
+                                    f˚(z1 , z2 ) = 1 − z1 /z2             ψ̊(z1 , z2 ),                                  (104)
+
+where ψ is a (λ1 − λ2 )-spinor.
+
+Casimir eigenfunctions: Among ν-spinors, let us consider the common eigenfunctions of the
+Casimir operator with the eigenvalue λ(1 − λ) and the operator L0 with the eigenvalue −m. Since
+spinors on H2 are a certain type of functions on G
+                                                 e on which the group operates by the L-action,
+we canpsimply use the equations from Section 4.3 with l = m, r = −ν, u = z z̄ = z1 /z2 , and
+              √
+eiϕ = z/z̄ = z1 z2 . In particular, the eigenfunctions ei(lϕ+rϑ) Aλ,l,r (u) and ei(lϕ+rϑ) Aλ,−l,−r (u) in
+the disk gauge (i.e. with ϑ = ϕ) become
+
+                  ν,+
+                      (z1 , z2 ) = z1m−ν (1 − z1 /z2 )λ F λ + m, λ − ν, 1 + m − ν; z1 /z2
+                                                                                                              
+                ψ̊λ,m
+                                                                                                                         (105)
+                  ν,−
+                      (z1 , z2 ) = z2m−ν (1 − z1 /z2 )λ F λ − m, λ + ν, 1 − m + ν; z1 /z2
+                                                                                                              
+                ψ̊λ,m
+
+                                                                19
+              ν ⩽ −λ                              −λ < ν < λ                              ν⩾λ
+
+Figure 3: The action of L−1 , L1 on Casimir eigenfunctions for λ = 1, 23 , 2, . . . and ν ∈ λ + Z. A
+                                                           ν,+                     ν,−
+circle with label m ∈ ν + Z represents the basis function ψλ,m if m ⩾ ν and ψλ,m       if m ⩽ ν.
+
+
+These functions are nonsingular if and only if m ∈ ν +Z, in which case they are linearly dependent.
+                                                             ν,+                   ν,−
+Choosing one of them that is nonzero for each given m, e.g. ψλ,m for m ⩾ ν and ψλ,m    for m ⩽ ν, we
+obtain a basis of some representation of e
+                                         G. The group action on the basis functions is characterized
+by the equations below and illustrated by Figure 3.
+           ν,+     ν,+                                      ν,+                        ν,+
+      L−1 ψλ,m = −ψλ,m−1 ,                              L1 ψλ,m = −(m + λ)(m + 1 − λ) ψλ,m+1 ,
+           ν,−                       ν,−                    ν,−    ν,−
+                                                                                                           (106)
+      L−1 ψλ,m = (m − λ)(m − 1 + λ) ψλ,m−1 ,            L1 ψλ,m = ψλ,m+1 .
+
+
+                                    ν
+Intertwiner from the space F1−λ         to ν-spinors on the hyperbolic plane: A nontrivial
+intertwiner Eλ of this type exists and is unique up to an overall factor.3 Its action on the basis
+              ν
+                   ν
+vectors f1−λ,m ∈ F1−λ  is given by the equation
+
+                                 Γ(λ + m) ν,+ Γ(λ − m) ν,−
+                  Eλν f1−λ,m =           ψ    =         ψ                    for m ∈ ν + Z.                (107)
+                                 Γ(λ + ν) λ,m   Γ(λ − ν) λ,m
+
+If we regard the ν-spinor Eλν f1−λ,m as a function of g ∈ G,
+                                                          e then
+                                                                       
+                             Eλν f1−λ,m (g) = fλ,−ν , F1−λ
+                                                        ν
+                                                           (g −1 )f1−λ,m .
+                                       
+                                                                                                           (108)
+
+         ν
+where F1−λ  (g −1 ) is the action of the group element g −1 in the representation space F1−λν
+                                                                                                and the
+big parentheses denote the integral of the product of two functions with dϕ     2π
+                                                                                   . While this integral
+can be calculated directly, we note that the right-hand side of the above equation is a non-unitary
+version of the matrix element functions considered in Section 4.1. Such functions are transformed
+                                   ν
+as the basis vectors f1−λ,m ∈ F1−λ    , which is exactly the intertwiner property.
+    Let us also write the ν-spinor Eλν f for an arbitrary f ∈ F1−λ ν
+                                                                      in the disk gauge:
+                                     Z 2π
+                            ◦                          (1 − z z̄)λ                     dϕ
+                      Eλν f (z) =                                          e−iνϕ f˜(ϕ)
+                           
+                                                    iϕ  λ−ν        −iϕ λ+ν
+                                                                                                           (109)
+                                      0     (1 − z̄e )      (1 − ze )                  2π
+
+This equation is proved by expanding the integrand in z and z̄. Once again, there is an independent
+argument showing that the integral operator on the right-hand side defines an intertwiner. Indeed,
+its kernel function corresponds to the G-invariant
+                                       e           form
+             (1 − z1 /z2 )λ
+                                       (−i dz1 )ν/2 (i dz2−1 )−ν/2 (dϕ)λ ,      z1 = z,     z2 = z̄ −1 .   (110)
+   (1 − eiϕ /z2 )λ−ν (1 − z1 /eiϕ )λ+ν
+  3
+     In quantum holography, such an intertwiner is interpreted as a bulk-boundary propagator, where λ is the
+scaling dimension of the field from the boundary point of view.
+
+                                                       20
+    Figure 4: The spectra of the operators Q and 12 (Q + ν 2 ) as functions of the spin value ν.
+
+                                                                  ν
+Square-integrable spinors: A basis in the Hilbert space HH          of square-integrable ν-spinors
+                                               ν
+consists of the matrix element functions Uλ,m (g), see equation (75). They can also be written in
+                                                          ν,±
+terms of the variables (z1 , z2 ) using the new notation ψλ,m :
+              s                                           s
+                  Γ(λ + m) Γ(1 − λ + m) ν,+                   Γ(λ − m) Γ(1 − λ − m) ν,−
+      ν
+     ψλ,m =                              ψλ,m = (−1)m−ν                             ψ .         (111)
+                   Γ(λ + ν) Γ(1 − λ + ν)                       Γ(λ − ν) Γ(1 − λ − ν) λ,m
+                                                                                                 ν
+These functions transform as the basis vectors |mi of the principal series representation C1/4+s     2
+              1                                                                  +              1
+with λ = 2 + is and m ∈ ν + Z, or the discrete series representation Dλ with λ > 2 and
+ν, m ∈ {λ, λ + 1, . . .}, or the representation Dλ− with λ > 12 and ν, m ∈ {−λ, −λ − 1, . . .}. Thus,
+   ν
+HH   splits into the indicated irreps, each of which enters with multiplicity 1. Symbolically,
+              Z ∞
+        ν ∼        ν
+                                M sgn ν                              1
+      HH =        C1/4+s 2 ds ⊕     Dλ ,       where λ = |ν| − p > , p ∈ {0, 1, 2, . . .}.       (112)
+                0                λ
+                                                                     2
+
+The spectrum of the Casimir operator Q, i.e. the set of numbers q = 14 + s2 and q = λ(1 − λ) in
+the above equation, is plotted in Figure 4.
+    As an aside, the qualitative form of the spectrum has an interesting physical interpretation.
+An operator closely related to Q, namely, − 12 ∇2 = 12 (Q + ν 2 ) describes a quantum particle with
+spin ν on the hyperbolic plane. It may also be viewed as the Hamiltonian of a nonrelativistic
+spinless particle with unit mass and electric charge in a magnetic field of strength ν. In the flat
+geometry, such a Hamiltonian has a purely discrete spectrum, the Landau levels. This is because
+all classical trajectories are closed. However, the trajectory of a charged particle on the hyperbolic
+plane can be either closed or open, depending on the ratio between the velocity and magnetic field:
+
+                         v                                v
+                           <1:                              >1:                                 (113)
+                         ν                                ν
+
+Therefore, for velocities v > ν, i.e. energies greater than ν 2 /2, the spectrum becomes continuous.
+Of course, this argument is very rough and does not give the exact spectrum.
+
+
+
+                                                 21
+                                                                                         ν
+   Finally, let us consider the decomposition of the unit operator of the Hilbert space HH  into
+the projectors onto its irreducible components:
+                     Z ∞                                                        
+                  −1                s sinh(2πs)      ν
+                                                               X
+                                                                           1
+                                                                              ν
+         1 = (2π)           ds                     Π       +           λ − 2 Πλ            (114)
+                        0      cosh(2πs) + cos(2πν) 1/2+is
+                                                                               λ=|ν|−p>1/2
+                                                                                p=0,1,2,...
+                    X
+            Πνλ =         ν
+                        |ψλ,m    ν
+                              ihψλ,m |,               m ∈ ν + Z (restricted for discrete series)       (115)
+                    m
+
+
+Here we have used the Plancherel measure (79) together with the constraint ν − µ ∈ Z. This is a
+                                                            ν                                    ν
+slightly more detailed explanation. The basis functions |ψλ,m i are, essentially, the same as |Uλ,m i,
+which are related to the Plancherel measure. The constraints on λ, ν, m in the above equations
+follow from those in Eqs. (76), (77). However, in the first case the inner product is defined as an
+integral over H2 , and in the second over G.
+                                          e Therefore,
+                                       ν         ν0
+                                   Uλ,m Uλ0 ,m0 = 2π δ(ν − ν 0 ) ψλ,m
+                                                                  ν
+                                                                      ψλν0 ,m0 .                       (116)
+The relation between the decomposition P        measures is the inverse one, that is, equation (114) uses
+the Plancherel measure multiplied by 2π n∈Z δ(ν − µ − n).
+   The projectors Πνλ are integral operators with the kernel functions that depend on z, w ∈ H2
+and the integration measure 4(1 − ww̄)−2 dw dw̄. In terms of the variables z1 = z, z2 = z̄ −1 ,
+w1 = w, w2 = w̄−1 , the kernel function is
+                                               X
+                                                                            −ν
+                   Π̊νλ (z1 , z2 ; w1 , w2 ) =   (−1)m−ν ψ̊λ,m
+                                                            ν
+                                                               (z1 , z2 ) ψ̊λ,−m (w1 , w2 ),        (117)
+                                                       m
+
+If (w1 , w2 ) = (0, ∞), then only the m = ν term in the sum is nonzero:
+               Π̊νλ (z1 , z2 ; 0, ∞) = ψ̊λ,ν
+                                         ν
+                                             (z1 , z2 ) = (1 − z1 /z2 )λ F λ + ν, λ − ν, 1; z1 /z2 .
+                                                                                                  
+                                                                                                       (118)
+The general case is reduced to this one using a symmetry argument.         Indeed, the kernel function
+defines a form of degree ν2 , − ν2 with respect to (z1 , z2 ) and − ν2 , ν2 with respect to (w1 , w2 ) when
+both pairs of variables are close to (0, ∞). This form is invariant under linear fractional maps
+because the projector commutes with the sl2 action. The map
+                                                                    z − w1
+                                                      V : z 7→                                         (119)
+                                                                   1 − z/w2
+sends w1 to 0 and w2 to ∞. Therefore, Π̊νλ (z1 , z2 ; w1 , w2 ) can be written as an arbitrary invariant
+form of the same type multiplied by some ordinary function of V (z1 ) and V (z2 ). More concretely,
+              Π̊νλ (z1 , z2 ; w1 , w2 ) = (1 − z1 /w2 )−ν (1 − w1 /z2 )ν Π̊νλ V (z1 ), V (z2 ); 0, ∞ .
+                                                                                                    
+                                                                                                       (120)
+Thus,
+                                                             ν
+                                                 1 − w1 /z2
+               Π̊νλ (z1 , z2 ; w1 , w2 ) =                         (1 − u)λ F λ + ν, λ − ν, 1; u ,
+                                                                                                
+                                                                                                       (121)
+                                                 1 − z1 /w2
+                                                                (z1 − w1 )(z2 − w2 )
+                                        where              u=                                          (122)
+                                                                (z1 − w2 )(z2 − w1 )
+
+                                                                22
+6       Tensor products of unitary irreps
+A standard problem in representation theory is to decompose the product of two unitary irreps
+into irreps with multiplicities. For the group SL(2, R), this task was accomplished by Repka [8, 9].
+We will not attempt to give a complete solution for G.   e Rather, we will sketch a general recipe
+and work out the discrete series cases, Dλ±1 ⊗ Dλ±2 , which are relatively simple and relevant to the
+SYK model.
+    The problem of splitting the representation Uλµ11 ⊗ Uλµ22 is equivalent to finding all intertwiners
+
+                                     Υ : Uλµ → Uλµ11 ⊗ Uλµ22 ,           µ = µ1 + µ2                           (123)
+
+and selecting those that are normalizable or δ-normalizable with respect to λ. The matrix elements
+hm1 , m2 |Υ|mi will be called “Clebsch-Gordan coefficients”. For now, let us not worry about
+normalizability and discuss a related task: find all G-invariant
+                                                          e             forms
+
+                              Ỹ eiϕ1 , eiϕ2 , eiϕ3 (dϕ1 )λ1 (dϕ2 )λ2 (dϕ3 )λ3 ,
+                                                   
+                                                                                             (124)
+
+where, eiϕ1 , eiϕ2 , eiϕ3 represent three points on the unit circle. Choosing some numbers µ1 , µ2 , µ3
+with zero sum and using the twisted periodicity conditions, we can extend Ỹ from the fundamental
+domain 2π + ϕ3 > ϕ1 , ϕ2 > ϕ3 to a function of real variables ϕ1 , ϕ2 , ϕ3 . It is understood as a
+generalized function and may be defined by the Fourier expansion
+                                                 X
+                           Ỹ (z1 , z2 , z3 ) =            Cm1 ,m2 ,m3 z1m1 z2m2 z3m3            (125)
+                                                 m1 ∈µ1 +Z, m2 ∈µ2 +Z
+                                                    m1 +m2 +m3 =0
+
+with the coefficients Cm1 ,m2 ,m3 growing at most polynomially. To express the Clebsch-Gordan
+coefficients, let λ3 = λ, µ3 = −µ, and let us consider Ỹ as the integral kernel of the intertwiner
+                            µ
+                                → Fλµ11 ⊗ Fλµ22 ,   Y = Ξµλ11↑± ⊗ Ξµλ22↑± Υ Ξµ±
+                                                                         
+                      Y : F1−λ                                               λ↓ .              (126)
+
+Here Ξµ±     µ±
+       λ↓ , Ξλ↑ are defined by equation (25) and each of the three signs is individually chosen.
+(This choice only matters when the corresponding irrep belongs to a discrete series.) Thus,
+
+                                   Cm1 ,m2 ,−m = c±       ±       ±
+                                                  λ1 ,m1 cλ2 ,m2 cλ,m hm1 , m2 |Υ|mi.                          (127)
+
+    The invariance of the generating function Ỹ under L1 and L−1 is expressed as linear relations
+between Cm1 −1,m2 ,m3 , Cm1 ,m2 −1,m3 , Cm1 ,m2 ,m3 −1 and between Cm1 +1,m2 ,m3 , Cm1 ,m2 +1,m3 , Cm1 ,m2 ,m3 +1 .
+In general, this system of equations has multiple linearly independent solutions. But we are
+considering only those values of λj , mj that correspond to unitary irreps. With this restriction,
+the linear relations in the allowed region of (m1 , m2 , m3 ) are nondegenerate and can be turned
+into recurrences, which are solved beginning with just two Fourier coefficients. Thus, the solution
+space is at most two-dimensional. Its general form is easy to guess:
+                                                                                                     ϕj − ϕk
+    Ỹ eiϕ1 , eiϕ2 , eiϕ3 = a |ϕ12 |−λ1 −λ2 +λ3 |ϕ13 |−λ1 +λ2 −λ3 |ϕ23 |λ1 −λ2 −λ3 ,
+                         
+                                                                                       ϕjk = 2 sin           , (128)
+                                                                                                        2
+where a takes on two different values depending on the cyclic order of ϕ1 , ϕ2 , ϕ3 . However,
+this expression might require regularization when two or three points coincide. The problem
+
+                                                             23
+arises if any of the singularities is non-integrable, that is, if one of the exponents −λ1 − λ2 + λ3 ,
+−λ1 + λ2 − λ3 , λ1 − λ2 − λ3 has real part less than or equal to −1 or if the real part of the
+sum of all three exponents is less than or equal to −2. This can only happen if a discrete series
+representation is involved. But if, say, Uλµ11 = Dλ+1 , then the generating form (124) is holomorphic
+in z1 = eiϕ1 for |z1 | < 1. In this case, the regularization is achieved by analytic continuation.
+Since both cyclic orders are just limiting cases of z1 being inside the circle, the intertwiner space
+is one-dimensional.
+
+6.1     Dλ+1 ⊗ Dλ+2
+By analogy with SU(2) representations, it is clear that
+                                                              ∞
+                                            Dλ+1 ⊗ Dλ+2 ∼
+                                                              M
+                                                        =           Dλ+1 +λ2 +n .                          (129)
+                                                              n=0
+
+For each given n, there is a unique (up to an overall factor) intertwiner
+                                Υ++           +    +     +
+                                 λ1 ,λ2 ;λ : Dλ → Dλ1 ⊗ Dλ2 ,            λ = λ1 + λ2 + n.                  (130)
+Its generating function (125) with all three signs in (127) set to “+” is
+             Ỹλ++  +
+                1 ,λ2 ,λ
+                         (z1 , z2 , w) = z1λ1 z2λ2 w−λ (z2 − z1 )n (1 − z1 /w)−2λ1 −n (1 − z2 /w)−2λ2 −n   (131)
+    The rest of this subsection is concerned with the decomposition of identity for Dλ+1 ⊗Dλ+2 . First,
+we define partial generating functions as the Taylor coefficients with respect to w−1 , excluding the
+c+
+ λ,m factor:                               X
+                                                                                   m1 m2
+                  Ỹλ++
+                     1 ,λ2 ;λ,m
+                                (z ,
+                                  1 2z ) =   c+       +               ++
+                                              λ1 ,m1 cλ2 ,m1 m1 , m2 Υλ1 ,λ2 ;λ m z1 z2 .        (132)
+                                            m1 ,m2
+                              p
+Recall that c+
+             α,α+k =            Γ(2α + k)/k!. A straightforward calculation (where we use the Pochham-
+mer symbol, (α)r = α · · · (α + r − 1)) shows that
+                                s
+                                                                   k
+    ++                               k!      λ1 λ2           n
+                                                                  X      (2λ1 + n)k1 (2λ2 + n)k2 k1 k2
+ Ỹλ1 ,λ2 ; λ, λ+k (z1 , z2 ) =             z1 z2 (z2 − z1 )                                    z1 z2
+                                  Γ(2λ + k)                    k1 +k2 =k
+                                                                             k1!         k2!
+                                                                                                       (133)
+                                r
+                                  Γ(2λ + k) λ1 λ2 +n+k
+                                                       (1 − z1 /z2 )n F −k, 2λ1 + n, 2λ; 1 − z1 /z2 .
+                                                                                                     
+                              =             z1 z2
+                                     k!
+For example, Ỹλ++
+                1 ,λ2 ;λ,λ
+                           (z1 , z2 ) = Γ(2λ)−1/2 z1λ1 z2λ2 (z2 −z1 )n . Summing up the squares of the Clebsch-
+Gordan coefficients in this special case, we find the norm of the intertwiner:
+                     † ++                                    n!
+        (Υ++
+          λ1 ,λ2 ;λ ) Υλ1 ,λ2 ;λ =                                                      1+ .               (134)
+                                     (2λ − 1) Γ(2λ1 + 2λ2 + n − 1) Γ(2λ1 + n) Γ(2λ2 + n) λ
+Thus,
+                     X   (2λ − 1) Γ(λ − 1 + λ1 + λ2 ) Γ(λ + λ1 − λ2 ) Γ(λ − λ1 + λ2 ) ++
+  1+      +
+   λ1 ⊗ 1 λ2 =                                                                       Πλ1 ,λ2 ; λ           (135)
+                 λ=λ +λ +n
+                                                      n!
+                     1   2
+                  n=0,1,2,...
+                                                                             †
+                                        Π++           ++          ++
+                                         λ1 ,λ2 ;λ = Υλ1 ,λ2 ;λ (Υλ1 ,λ2 ;λ )                              (136)
+
+                                                             24
+The generating function for the (unnormalized) projector Π++
+                                                          λ1 ,λ2 ;λ ,
+                                                           X
+                      Π̃++
+                        λ1 ,λ2 ;λ (z1 , z2 ; w1 , w2 ) =       Ỹλ++
+                                                                  1 ,λ2 ;λ,m
+                                                                             (z1 , z2 ) Ỹλ++
+                                                                                           1 ,λ2 ;λ,m
+                                                                                                      (w1−1 , w2−1 ),   (137)
+                                                           m
+
+is calculated by analogy with spinors. We first assume that z2 → 0 and w1 → ∞, so that only
+the (k1 , k2 ) = (k, 0) terms in the expression for Ỹλ++1 ,λ2 ;λ,λ+k
+                                                                      (z1 , z2 ) and the (k1 , k2 ) = (0, k) terms
+      ++             −1   −1
+in Ỹλ1 ,λ2 ;λ,λ+k (w1 , w2 ) are present (see Eq. (133)). The general case is reduced to this one using
+symmetry. The result is as follows, where u is defined by equation (122):
+
+                                            (z1 /w1 )λ1 (z2 /w2 )λ2
+  Π̃++                                                                      n
+                                                                                                        
+    λ1 ,λ2 ;λ (z1 , z2 ; w1 , w2 ) =                2λ              2λ
+                                                                       (−χ)   F 2λ 1 + n, 2λ2 + n, 2λ; χ  (138)
+                                       (1 − z1 /w1 ) 1 (1 − z2 /w2 ) 2
+                                                                                   (z1 − z2 )(w1 − w2 )
+                       λ = λ1 + λ2 + n,                    χ = 1 − u−1 =                                                (139)
+                                                                                   (z1 − w1 )(z2 − w2 )
+
+
+6.2      Dλ+1 ⊗ Dλ−2
+The space Dλ+1 ⊗ Dλ−2 maps onto Fλ+1 ⊗ Fλ−2 . The latter consists of holomorphic ν-spinors with
+ν = λ1 − λ2 . However, the norm on the original space differs from the spinor norm defined by
+the integral over H2 . One could use some functional analysis to characterize the relation between
+the Hilbert spaces Dλ+1 ⊗ Dλ−2 and HH ν
+                                        , cf. Proposition 7.2 in [9]. We instead directly construct the
+irreducible decomposition
+                      Z ∞                                                                 
+                − ∼
+                                            M       sgn ν
+         +                 ν                                   ν                         1
+       Dλ1 ⊗ Dλ2 =        C1/4+s2 ds ⊕            Dλ ⊕ Cλ(1−λ) for λ = λ1 + λ2 < 2                (140)
+                             0                     λ=|ν|−p>1/2
+                                                    p=0,1,2,...
+
+by analogy with the derivation of Eq. (112). In doing so, we reuse the Casimir eigenfunctions as
+partial generating functions, but calculate their norms using the inner product on Dλ+1 ⊗ Dλ−2 . The
+key observation is that the asymptotics of the spinors and the Clebsch-Gordan coefficients are
+closely related, and the corresponding integral and sum converge for the same values of λ (with
+one exception that results in the extra term in Eq. (140)).
+    According to the general scheme, we consider an intertwiner
+                                                                −
+                                       Υ+−           ν    +
+                                        λ1 ,λ2 ;λ : Uλ → Dλ1 ⊗ Dλ2 ,                    ν = λ1 − λ2                     (141)
+
+with the generating function
+                         s                                          λ1         λ2
+                                                                                            (1 − z1 /z2 )λ−λ1 −λ2
+                                                           
+              ±                           Γ(λ ± ν)             z1           w
+       Ỹλ+−
+          1 ,λ2 ,λ
+                   (z1 , z2 , w) =                                                                                      (142)
+                                        Γ(1 − λ ± ν)           w            z2         (1 − w/z2 )λ−ν (1 − z1 /w)λ+ν
+
+where the ± sign is linked to c±     λ,m in Eq. (127). Independent of that sign, the partial generating
+functions are
+                  Ỹλ+−
+                     1 ,λ2 ; λ, ν+k
+                                    (z1 , z2 ) = z1λ1 z2−λ2 (1 − z1 /z2 )−λ1 −λ2 ψ̊λ,ν+k
+                                                                                   ν
+                                                                                         (z1 , z2 ). (143)
+        ν
+where ψ̊λ,m is defined by equation (111) with further reference to Eq. (105).
+
+                                                                     25
+   The normalizability of the intertwiner Υ+−        λ1 ,λ2 ;λ is related to the asymptotics of the partial
+generating function. We have Ỹλ1 ,λ2 ; λ, ν+k (z1 , z2 ) = z1λ1 +k z2−λ2 f (z1 /z2 ) with
+                                +−
+
+
+ f (z) ≈ a+ (1−z)α+ +a− (1−z)α−                    for z → 1,          α+ = λ−λ1 −λ2 ,     α− = 1−λ−λ1 −λ2 . (144)
+
+The function f is analytic in the complex plane with a branch cut from 1 to +∞. Its n-th Taylor
+coefficient fn can be expressed as a Cauchy integral over a circle of radius r > 1 and around the
+branch cut section [1, r], resulting in this asymptotic formula:
+
+                                              a+ n−1−α+ a− n−1−α−
+                                      fn ≈             +                      for n → ∞.                         (145)
+                                               Γ(−α+ )   Γ(−α− )
+                                               λ −1/2
+On the other hand, c+ λ1 ,m1 ≈ m1
+                                    1
+                                         for m1 → +∞; similarly, c− λ2 ,m2 ≈ (−1)
+                                                                                  m2 +λ2
+                                                                                         |m2 |λ2 −1/2
+for m2 → −∞. Thus, equation (144) translates to the following n → ∞ asymptotics of the
+Clebsch-Gordan coefficients:
+                                                       a+ n−λ             a− n−1+λ
+                                                                                        
+                           +−                   n
+    λ1 + n + k, −λ2 − n Υλ1 ,λ2 ;λ ν + k ≈ (−1)                   +                       . (146)
+                                                    Γ(λ1 + λ2 − λ) Γ(λ1 + λ2 − 1 + λ)
+
+It is now easy to see that the vector Υ+−
+                                       λ1 ,λ2 ;λ |ν + ki is normalizable or δ-normalizable if the spinor
+ψ̊λ,ν+k is normalizable or δ-normalizable. In addition, the said vector is normalizable if λ1 +λ2 < 12
+  ν
+
+and λ (or, equivalently, 1 − λ) is equal to λ1 + λ2 . This case corresponds to the complementary
+                        ν
+series representation Cλ(1−λ) .
+     To calculate the norm of the intertwiner for λ = 12 + is, we set k = 0 so that the coefficients
+a+ = aλ,ν,−ν and a− = a1−λ,ν,−ν are given by Eq. (69). Thus,
+                        †                                 cosh(2πs) + cos(2πν)
+     Υ+−
+      λ1 ,λ2 ; 1/2+is        Υ+−
+                              λ1 ,λ2 ; 1/2+is0 =                                         δ(s − s0 ) 1ν1/2+is .   (147)
+                                                   2s sinh(2πs) |Γ(λ1 + λ2 − 1/2 − is)|2
+
+In the discrete series case Dλ+ (with λ = λ1 − λ2 − p > 21 and p ∈ {0, 1, 2, . . .}), it is convenient
+to consider the Clebsch-Gordan coefficients with m = λ. We proceed with the calculation of the
+norm:                                             s
+                                                     Γ(2λ + p) λ1 −λ2 −p
+                 Ỹλ+−         (z1 , z2 ) = (−1)p               z z      (1 − z1 /z2 )−2λ2 −p ,        (148)
+                    1 ,λ2 ;λ,λ
+                                                      Γ(2λ) p! 1 2
+                                                                s
+                                                                  Γ(2λ + p) Γ(2λ2 + p + r) (p + r)!
+    λ1 + r, −λ2 − p − r Υ+−     λ1 ,λ2 ;λ λ1 − λ2 − p = (−1)
+                                                              r
+                                                                                                     , (149)
+                                                                  Γ(2λ) Γ(2λ2 + p)2 Γ(2λ1 + r) p! r!
+
+                               † +−                                    1
+                  (Υ+−
+                    λ1 ,λ2 ;λ ) Υλ1 ,λ2 ;λ =                                                 1+ .                (150)
+                                                   (2λ − 1) Γ(λ1 + λ2 − λ) Γ(λ1 + λ2 − 1 + λ) λ
+
+In the special case λ = λ1 + λ2 < 21 , the partial generating function for m = ν is quite simple,
+namely Ỹλ+−
+          1 ,λ2 ;λ,ν
+                     (z1 , z2 ) = z1λ1 z2λ2 F(λ1 , λ2 , 1; z1 /z2 ). Summing up the squares of the Clebsch-
+Gordan coefficients gives this result:
+
+                                             † +−            sin(2πλ1 ) sin(2πλ2 ) Γ(1 − 2λ) ν
+                                (Υ+−
+                                  λ1 ,λ2 ;λ ) Υλ1 ,λ2 ;λ =                                  1λ .                 (151)
+                                                                            π2
+                                                                  26
+   In conclusion, the decomposition of identity is as follows:
+                         Z ∞
+                −          2s sinh(2πs) |Γ(λ1 + λ2 − 1/2 − is)|2 +−
+        1+
+         λ1 ⊗ 1 λ2 =            ds                              Πλ1 ,λ2 ; 1/2+is
+                       0           cosh(2πs) + cos(2πν)
+                         X
+                              2λ − 1 Γ(λ1 + λ2 − λ) Γ(λ1 + λ2 − 1 + λ) Π+−
+                                     
+                     +                                                        λ1 ,λ2 ;λ
+                         λ=|ν|−p>1/2
+                                                                                                           (152)
+                          p=0,1,2,...
+
+                                            π2
+                                                                                                      
+                                                                                                   1
+                     +                                      Π+−                  for λ = λ1 + λ2 <
+                             sin(2πλ1 ) sin(2πλ2 ) Γ(1 − 2λ) λ1 ,λ2 ; λ                            2
+
+where ν = λ1 − λ2 . The expression for the projector is similar to that for spinors:
+
+                                         (z1 /w1 ) (w2 /z2 )λ2 (1 − v)λ−λ1 −λ2
+                                                     λ1
+      Π̃+−
+                                                                                                    
+        λ1 ,λ2 ;λ (z1 , z2 ; w1 , w2 ) =                                       F λ + ν, λ − ν, 1; v        (153)
+                                           (1 − z1 /w1 )2λ1 (1 − w2 /z2 )2λ2
+                                                          (z1 − w2 )(z2 − w1 )
+                                        v = u−1 =                                                          (154)
+                                                          (z1 − w1 )(z2 − w2 )
+
+
+Acknowledgments
+I thank Josephine Suh for helpful comments as well as catching a number of errors in the paper
+draft. I gratefully acknowledge the support by the Simons Foundation under grant 376205 and
+through the “It from Qubit” program, and from the Institute of Quantum Information and Matter,
+a NSF Frontier center funded in part by the Gordon and Betty Moore Foundation.
+
+
+References
+[1] V. Bargmann, “Irreducible unitary representations of the Lorentz group”, Annals of Mathe-
+    matics 48 (3), 568–640 (1947).
+[2] Harish-Chandra, “Plancherel formula for the 2 × 2 real unimodular group”, Proc. Natl. Acad.
+    Sci. U.S.A., 38 (4), 337–342, (1952).
+[3] L. Pukánszky, “The Plancherel formula for the universal covering group of SL(R, 2)”, Math.
+    Annalen 156, 96–143 (1964).
+[4] S. Sachdev and J. Ye, “Gapless spin-fluid ground state in a random quantum Heisenberg
+    magnet”, Phys. Rev. Lett. 70, 3339 (1993), arXiv:cond-mat/9212030.
+[5] A. Kitaev, “A simple model of quantum holography”, KITP talks, April 7 and May 27, 2015.
+[6] J. Maldacena and D. Stanford, “Remarks on the Sachdev-Ye-Kitaev model”, Phys. Rev. D 94,
+    106002 (2016), arXiv:1604.07818.
+[7] A. Jevicki, K. Suzuki, J. Yoon, “Bi-local holography in the SYK model”, JHEP 2016 (7),
+    1–25 (2016), arXiv:1603.06246.
+
+                                                               27
+[8] J. Repka, “Tensor products of unitary representations of SL2 (R)”, Bull. Am. Math. Soc. 82
+    (6), 930–932 (1976).
+
+[9] J. Repka, “Tensor products of unitary representations of SL2 (R)”, Am. J. Math. 100 (4),
+    747–774 (1978).
+
+
+
+
+                                             28
+

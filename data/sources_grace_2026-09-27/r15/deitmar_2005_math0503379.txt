@@ -1,0 +1,1292 @@
+arXiv:math/0503379v5 [math.NT] 19 Jun 2017
+                                                               Invariant triple products
+
+                                                                          Anton Deitmar
+
+                                                 Int. J. Math. Math. Sci., Art. ID 48274, 22 pp. (2006).
+
+
+
+                                             Contents
+                                             1 Representations and Integral formulae                                     2
+
+                                             2 Trilinear products                                                        4
+
+                                             3 An explicit formula                                                      15
+
+                                             A Automorphic coefficients                                                 21
+
+
+                                             Introduction
+                                             Let G = PGL2 (R) and let π1 , π2 , π3 be irreducible admissible smooth repre-
+                                             sentations of G. Then the space of G-invariant trilinear forms on π1 × π2 × π3
+                                             is at most one dimensional. This has, in different contexts, been proved by
+                                             Loke [10], Molchanov [11] and Oksak [12]. In this paper we ask for such
+                                             a uniqueness result in the context of arbitrary semisimple groups. We give
+                                             evidence that for a given group G uniqueness can only hold if G is locally a
+                                             product of hyperbolic groups. For such groups we show uniqueness and for
+                                             spherical vectors we compute the invariant triple products explicitly.
+                                             By a conjecture of Jacquet’s, which has been proved in [3], triple products
+                                             on GL2 are related to special values of automorphic L-functions, see also
+
+                                                                                   1
+INVARIANT TRIPLE PRODUCTS                                                    2
+
+
+[2, 4, 6, 7]. The conjecture/theorem says that the existence of non-zero
+triple products is equivalent to the non-vanishing of the corresponding triple
+L-function at the centre of its functional equation.
+The uniqueness of triple products in the PGL2 -case mentioned above has
+been used in [1] to derive new bounds for automorphic L2 -coefficients. This
+can also be done for higher dimensional hyperbolic groups, but, with the
+exception of the case treated in [1], the results do not exceed those in [9].
+For completeness we include these computations in an appendix.
+I thank J. Hilgert and A. Reznikov for helpful comments on the subject of
+this paper.
+
+
+1    Representations and Integral formulae
+Let G be a connected semisimple Lie group with finite center. Fix a maximal
+compact subgroup K. Let Ĝ and K̂ denote their unitary duals, i.e., the sets
+of isomorphism classes of irreducible unitary representations of G resp. K.
+Let π be a continuous representation of G on a locally convex topological
+vector space Vπ . Let Vπ′ be the space of all continuous linear forms on Vπ and
+let Vπ∞ be the space of smooth vectors, i.e.,
+
+            Vπ∞ = {v ∈ Vπ : x 7→ α(π(x)v) is smooth ∀α ∈ Vπ′ }.
+
+The representation π is called smooth if Vπ = Vπ∞ .
+A representation (π, Vπ ) is called admissible if for each τ ∈ K̂ the space
+HomK (Vτ , Vπ ) is finite dimensional. Let Ĝadm be the admissible dual, i.e.,
+the set of infinitesimal isomorphism classes of irreducible admissible repre-
+sentations. A representation π in Ĝadm is called a class one or spherical
+representation if it contains K-invariant vectors. In that case the space VπK
+of K-invariant vectors is one-dimensional. This is trivial for principal se-
+ries representations (see below) and follows generally from Casselman’s sub-
+representation theorem which says that every π ∈ Ĝadm is equivalent to a
+subrepresentation of a principal series representation.
+INVARIANT TRIPLE PRODUCTS                                                   3
+
+
+The Iwasawa decomposition G = ANK gives smooth maps
+                                     a: G → A
+                                     n: G → N
+                                     k: G → K
+such that for every x ∈ G one has x = a(x)n(x)k(x). As an abbreviation we
+also define an(x) = a(x)n(x). Let gR , aR , nR , kR denote the Lie algebras of
+G, A, N, K and let g, a, n, k be their complexifications.
+For x ∈ G and k ∈ K we define
+
+                                   k x def
+                                       = k(kx).
+
+Lemma 1.1 The rule k 7→ k x defines a smooth (right) group action of G on
+K.
+
+Proof: The map k gives a diffeomorphism AN\G → K and the action under
+consideration is just the natural right action of G on AN\G.       
+
+Lemma 1.2 For f ∈ C(K) and y ∈ G we have the integral formula
+                 Z            Z
+                   f (k) dk =   a(ky)2ρ f (k y ) dk,
+                        K                     K
+or,                 Z                     Z
+                               y
+                            f (k ) dk =           a(ky −1 )2ρ f (k) dk.
+                     K                        K
+Here ρ ∈ a is the modular shift, i.e., a2ρ = det(a|n).
+          ∗
+
+
+
+Proof: The Iwasawa integral formula implies
+                 Z             Z Z
+                    g(x) dx =         g(ank) dk dan.
+                        G                 AN       K
+
+Let
+R f ∈ C(K) and choose a function η ∈ Cc (AN) such that η ≥ 0 and
+ AN
+    η(an) dadn = 1. Let g(x) = η(an(x))f (k(x). Then g ∈ Cc (G) and
+                Z               Z              Z
+                    g(x) dx =       η(an) dan     f (k) dk
+                  G             ZAN             K
+
+                            =      f (k) dk.
+                                          K
+INVARIANT TRIPLE PRODUCTS                                                     4
+
+
+On the other hand, since G is unimodular, this also equals
+          Z                Z
+             g(xy) dx =       η(an(xy))f (k(xy)) dx
+           G               ZG Z
+                       =           η(an(anky))f (k(ky)) dank
+                             AN K
+                           Z Z                         
+                       =              η(an(anky)) dan f (k y ) dk
+                           ZK ZAN                      
+                       =              η(anan(ky)) dan f (k y ) dk
+                           ZK     AN
+                                        Z               
+                       =       a(ky) 2ρ
+                                                η(an) dan f (k y ) dk
+                           ZK              AN
+
+                       =       a(ky)2ρf (k y ) dk.
+                                 K
+
+
+The second assertion follows from the first by replacing f with f˜(k) = f (k y )
+and then y with y −1.                                                        
+
+Let M be the centraliser of A intersected with K, then P = MAN is a
+minimal parabolic subgroup of G. The inclusion map K ֒→ G induces a
+diffeomorphism M\K → P \G and in this way we get a smooth G-action
+on M\K. An inspection shows that this action is given by Mk 7→ Mk x for
+k ∈ K, x ∈ G.
+
+
+2     Trilinear products
+Let π1 , π2 , π3 be three admissible smooth representations of the group G and
+let T : Vπ1 × Vπ2 × Vπ3 → C be a continuous G-invariant trilinear form, i.e.,
+
+                 T (π1 (x)v1 , π2 (x)v2 , π3 (x)v3 ) = T (v1 , v2 , v3 )
+
+for all vj ∈ Vπj and every x ∈ G.
+We want to understand the space of all trilinear forms T as above. In this
+paper we will only consider principal series representations, the general case
+will be considered later. So we assume that π1 , π2 , π3 are principal series
+INVARIANT TRIPLE PRODUCTS                                                                 5
+
+
+representations. This means that there are given a minimal parabolic P =
+MAN, irredicible representations σj ∈ M̂ , and λj ∈ a∗ for j = 1, 2, 3. Each
+pair (σj , λj ) induces a continuous group homomorphism P → GL(Vσj ) by
+man 7→ aλj +ρ σ(m), which in turn defines a G-homogeneous vector bundle
+Eσj ,λj over P \G. The representation πj is the G-representation on the space
+of smooth sections Γ∞ (Eσj ,λj ) of that bundle. In other words, πj lives on the
+space of all C ∞ functions f : G → Vσj with
+
+                             f (manx) = aλj +ρ σj (m)f (x)
+
+for all m ∈ M, a ∈ A, n ∈ N, x ∈ G. The representation πj is defined
+by πj (y)f (x) = f (xy). Every such f is uniquely determined by its restric-
+tion to K which satisfies f (mk) = σj (m)f (k), i.e., f is a section of the K-
+homogeneous bundle Eσj on M\K induced by σj . So the representation space
+can be identified with Vπj ∼
+                           = Γ∞ (Eσj ). Thus a trilinear form T is a distribu-
+tion on the vector bundle Eσ = Eσ1 ⊠ Eσ2 ⊠ Eσ3 over M\K × M\K × M\K.
+Here ⊠ denotes the outer tensor product.
+For f1 , f2 , f3 ∈ C ∞ (M\K) we write T (f1 , f2 , f3 ) for the expression
+     Z
+                         φ(k1, k2 , k3 ) [f1 (k1 ) ⊠ f2 (k2 ) ⊠ f3 (k3 )] dk1 dk2 dk3 ,
+       M \K×M \K×M \K
+
+where φ is the kernel of T .
+The group G is called a real hyperbolic group if it is locally isomorphic to
+SO(d, 1) for some d ≥ 2.
+On Y = (P \G)3 we consider the G3 -homogeneous vector bundle Eσ,λ given
+by Eσ,λ = Eσ1 ,λ1 ⊠ Eσ2 ,λ2 ⊠ Eσ3 ,λ3 . Next Y can be viewed as a G-space via
+the diagonal action and so Eσ,λ becomes a G-homogeneous line bundle on Y .
+We are going to impose theP  following condition on the induction parameters
+λ1 , λ2 , λ3 . We assume that 3j=1 εj (λj + ρ) 6= 0 for any choice of εj ∈ {±1}.
+In other words this means
+
+    • λ1 + λ2 + λ3 + 3ρ 6= 0,
+
+    • λ1 + λ2 − λ3 + ρ 6= 0,
+
+    • λ1 − λ2 + λ3 + ρ 6= 0, and
+INVARIANT TRIPLE PRODUCTS                                                     6
+
+
+   • −λ1 + λ2 + λ3 + ρ 6= 0.
+
+Theorem 2.1 Assume the parameters λ1 , λ2 , λ3 satisfy the above condition.
+Let Y be the G-space (P \G)3. If there is an open G-orbit in Y , then the
+dimension of the space of invariant trilinear forms on smooth principal series
+representations is less than or equal to
+                           X
+                              dim(σ1 ⊗ σ2 ⊗ σ3 )Mo ,
+                            o
+
+where the sum runs over all open orbits o and Mo is the stabilizer group
+of a point in the orbit o which is chosen so that Mo is a subgroup of M.
+If all induction parameters are imaginary (unitary induction), then there is
+equality.
+In particular, if π1 , π2 , π3 are class one representations, then the dimension
+is less than or equal to the number of open orbits in Y .
+There is an open orbit if and only if G is locally isomorphic to a product of
+hyperbolic groups.
+For G = SO(2, 1)0 the number of open orbits is 2, for G = SO(2, 1) or
+G = SO(d, 1)0, d ≥ 3, the number is 1. Here SO(d, 1)0 is the connected
+component of the Lie group SO(d, 1).
+
+The Proof is based on the following lemma.
+
+Lemma 2.2 Let G be a Lie group and H a closed subgroup. Let X = G/H
+and let E → X be a smooth G-homogeneous vector bundle. Let T be a
+distribution on E, i.e. a continuous linear form on Γ∞ c (E). Suppose that T
+is G-invariant, i.e., T (g.s) = T (s) for every s ∈ Γ∞
+                                                     c (E). Then T is given
+by a smooth G-invariant section of the dual bundle E ∗ .
+Let (σ, Vσ ) be the representation of H on the fibre EeH and let (σ ∗ , Vσ∗ ) be
+its dual. Then the space of all G-invariant distributions on E has dimen-
+sion equal to the dimension dim VσH∗ of H-invariants. So in particular, if σ
+is irreducible, this dimension is zero unless σ is trivial, in which case the
+dimension is one.
+
+Proof: The equation T (g.s) = T (s), i.e., g.T = T ∀g ∈ G implies X.T = 0
+for every X ∈ gR , the real Lie algebra of G. Let hR be the Lie algebra of H
+INVARIANT TRIPLE PRODUCTS                                                    7
+
+
+and choose a complementary space pR for hR such that gR = hR ⊕ pR . Let
+X1 , . . . , Xn be a basis of V and let
+
+                    D = X12 + X22 + · · · + Xn2 ∈ U(gR ).
+
+We show that D induces an elliptic differential operator on E. By G-
+homogeneity, it suffices to show this at a single point. So let P = exp(pR ).
+In a neighbourhood U of the unit in G there are smooth maps h : U → H
+and p : U → P such that h(x)p(x) = x for x ∈ U.
+The sections of E can be identified with the smooth maps s : G → Vσ with
+s(hx) = σ(h)s(x) for h ∈ H and x ∈ G. We can attach to each section s a
+map fs on p with values in Vσ by fs (Y ) = s(exp(Y )). The action of X ∈ pR
+on the section s is described by
+                    d
+      fXs (Y ) =           s(exp(Y ) exp(tX))
+                    dt t=0
+                    d
+                =          σ(h(exp(Y ) exp(tX)) s(p(exp(Y ) exp((tX)).
+                    dt t=0
+
+Let AX (Y ) = dtd t=0 σ(h(exp(Y ) exp(tX)) ∈ End(Vσ ). Then the Leibniz rule
+implies
+                       fXs (Y ) = AX (Y )fs (Y ) + Xfs (Y ).
+The first summand is of order zero and the second of order one. Moreover,
+the second summand at Y = 0 coincides with the coordinate-derivative in
+the direction of X. This implies that the leading symbol of D at eH is
+ξ12 + · · · + ξn2 and so D is elliptic. The distributional equation DT = 0 then
+implies that T is given by a smooth section.
+For the second assertion of the lemma recall that a G-invariant section is
+uniquely determined by its restiction to the point eH which must be invariant
+under H.                                                                   
+
+For the proof of the theorem we will need to investigate the G-orbit structure
+of Y = (P \G)3. First note that since the map Mk 7→ P k is a K-isomorphism
+from M\K to P \G, the K-orbit of every y ∈ Y contains an element of the
+form (y1 , y2 , 1). Hence the P = MAN-orbit structure of (P \G)2 is the same
+as the G-orbit structure of Y . By the Bruhat decomposition, the P -orbits in
+P \G are parametrized by the Weyl group W = W (G, A), where the unique
+INVARIANT TRIPLE PRODUCTS                                                     8
+
+
+open orbit is given by P w0P , here w0 is the long element of the Weyl group.
+Note that the P -stabilizer of P w0 ∈ P \G equals AM. This implies that
+the G-orbits in Y of maximal dimension are in bijection to the AM-orbits
+in P \G of maximal dimension via the map P xAM 7→ (x, w0 , 1).G. Again
+by Bruhat decomposition it follows that the latter are contained in the open
+cell P w0 P = P w0N. So the G-orbits of maximal dimension in Y are in
+bijection to the AM-orbits in N of maximal dimension, where AM acts via
+the adjoint action. The exponential map exp : nR → N is an AM-equivariant
+bijection, so we are finally looking for the AM-orbit structure of the linear
+adjoint action on nR .
+We will now prove that there is an open orbit if and only if G is locally a
+product of real hyperbolic groups. So suppose that Y contains an open orbit.
+Then nR contains an open AM-orbit, say AM.X0 . Let φ+ be the set of all
+positive restricted roots on a = Lie(A). Decompose nR into the root spaces
+                                      M
+                               nR =       nR,α .
+                                      α∈φ+
+
+On each nR,α install an M-invariant norm ||.||α . This is possible since M is
+compact. Consider the map
+                                       Y
+                          ψ : nR →         R
+                                         α∈φ+
+                                         Y
+                                 x 7→            ||x||α .
+                                          α
+
+Since the orbit AM.X0 is open, the image ψ(AM.X0 ) of the orbit must
+contain a nonempty open set. Away from the set {X ∈ nR : ∃α : ||x||α = 0}
+the map ψ can be chosen differentiable. Since the norms are invariant under
+M, one gets a smooth map
+                                             +
+                               A → R|φ |
+                               a 7→ ψ(a.X0 ),
+
+whose image contains an open set. This can only happen if the dimension of
+A is at least as big as |φ+ | and the latter implies that G is locally a product
+of real rank one groups. Now by Araki’s table ([5], pp. 532-534) one knows
+that these real rank one groups must all be hyperbolic, because otherwise
+there would be two different root lengths.
+INVARIANT TRIPLE PRODUCTS                                                     9
+
+
+For the converse direction let G be locally isomorphic to SO(d, 1). We have
+to show that there is an open AM-orbit in nR . This, however, is clear as the
+action of AM on nR is the natural action of R× + × SO(d − 1) on R
+                                                                   d−1
+                                                                       , hence
+there are two orbits, the zero orbit and one open orbit.
+We will now show that if there is an open orbit, then there are no invariant
+distributions supported on lower dimensional orbits. For this it suffices to
+consider the case G = SO0 (d, 1). For simplicity, we only consider the trivial
+bundle, i.e., functions instead of sections. The general case is similar. The
+orbit structure is as follows. For d = 2 the group M = SO(d − 1) is trivial
+and so there are two open AM-orbits in N ∼   = R in this case. If d > 2 there is
+only one open orbit. Since the proof is very similar in the case d = 2 we will
+now retrict ourselves to the case d > 2. The open orbit [w0 n0 , w0 , 1], given
+by some n0 ∈ N, contains in its closure the orbits [w0 , w0 , 1] and [w0 , 1, 1]
+which in turn contain in their closures the orbit [1, 1, 1].
+
+                                      [w0 n0 , w0 , 1]
+
+                                ∪               ∪        ∪
+
+                      [w0 , w0, 1]      [w0 , 1, w0]     [w0 , 1, 1]
+
+                                ∪               ∪        ∪
+
+                                             [1, 1, 1]
+
+Let O = [w0 n0 , w0 , 1] be the open orbit. Let x1 = (w0 , w0 , 1), then one has
+[w0 , w0 , 1] = x1 .G. Consider A ∼
+                                  = R×+ as a subset of R suitably normalised,
+then one can write
+                                x1 = lim x0 .am.
+                                             a→0
+
+Let T be a G-invariant distribution supported on the closure of the orbit of
+x1 . Since T is G-invariant, it satisfies X.T = 0 for everey X ∈ g. Hence the
+wave front set W F (T ) ⊂ T ∗ Y is a G-invariant subset of the normal bundle
+of the manifold x1 .G. This implies that T is of order zero along the manifold
+x1 .G. By the G-invariance it follows that T is of the form
+                                 Z
+                       T (f ) =        D(x f )(x1 ) dx + R,
+                                     x1 .G
+INVARIANT TRIPLE PRODUCTS                                                   10
+
+
+where R is supported in [1, 1, 1]. Further, D is a differential which we can
+assume to be G-equivariant. Then D(f )(x1 ) is of the form
+
+                              D1 (m)f (x0 .am)|a=0 ,
+
+where D1 (m) is a differential operator in the variable a. Since D is G-
+equivariant, we may replace f with a0 f for some a0 ∈ A. Since x1 a0 = x1 we
+get that the above is the same as
+
+                             D1 (m)f (x0 .aa0 m)|a=0 .
+
+This implies that D1 must be of order zero and so T is of order zero. Re-
+stricted to the orbitR x1 .G ∼= AM\G the distribution T is given by an in-
+tegral of the form AM \G φ(y)f (x1 y) dy. (Note that we use the notation
+without the dot again.) Invariance implies that φ is constant. If T is non-
+zero, then y 7→ f (x1 y) must be left invariant under AM, which implies
+λ1 + λ2 − λ3 + ρ = 0, a case we have excluded. So T must be zero. This
+shows that any invariant distribution which is zero on the open orbit also
+vanishes on x1 .G. The remaining orbits are dealt with in a similar fashion.
+To prove the Theorem, it remains to show the existence of invariant distribu-
+tions in the case of unitary parameters. For this we change our point of view
+and consider sections of Lλ no longer as functions on Y , but as functions on
+G3 whith values in Vσ = Vσ1 ⊗ Vσ2 ⊗ Vσ3 which spit out aλ+ρ σ(m) on the left.
+We induce this in the notation by writing f (x0 y) instead of f (x0 .y). On a
+given orbit of maximal dimension, there is a standard invariant distribution
+which, by the lemma, is unique up to scalars and given by
+                                     Z            
+                           Tst f = α    f (x0 y) dy ,
+                                        G
+
+where α is a linear functional on the space of Mo -invariants. In order to show
+that this extends to a distribution on Y , we need to show that the defining
+integral converges for all f ∈ Γ∞ (Eσ,λ ). This integral equals
+     Z                  Z
+         f (x0 y) dy =      f (w0n0 y, w0y, y) dy
+       G                ZG
+                     =      a(w0 n0 y)ρ+λ1 a(w0 y)ρ+λ2 a(y)ρ+λ3 f (k(x0 y)) dy.
+                         G
+
+Since f is bounded on K 3 , it suffices to show the following lemma.
+INVARIANT TRIPLE PRODUCTS                                                   11
+
+
+Lemma 2.3 Let G = SO(d, 1)0 and let k0 = k(w0 n0 ). Then
+               Z
+                  a(w0 n0 y)ρ a(w0 y)ρa(y)ρ dy < ∞.
+                     G
+
+
+Conjecture 2.4 The assertion of the lemma should hold for any semisimple
+group G with finite center and n0 ∈ N generic.
+
+The conjecture would imply that if G is not locally a product of hyperbolic
+groups, then the space of invariant trilinear forms on principal series repre-
+sentations is infinite dimensional.
+Proof of Lemma 2.3: Replace the integral over G by an integral over ANK
+using the Iwasawa decomposition. Since a(xk) = a(x) for x ∈ G and k ∈ K,
+the K-factor is irrelevant and we have to show that
+                    Z
+                         a(k0 an)ρ a(w0 an)ρ aρ da dn < ∞.
+                     AN
+
+Now write w0 n0 = a′ n′ k0 . Then k0 an = (a′ n′ )−1 w0 n0 an and therefore
+a(k0 an) = (a′ )−1 a(w0 n0 an), so it suffices to show
+                    Z
+                         a(w0 n0 an)ρ a(w0 an)ρ aρ da dn < ∞.
+                   AN
+
+Next note that w0 a = a−1 w0 and so we have a(w0 an)ρ = a−ρ a(w0 n)ρ as well
+as a(w0 n0 an)ρ = a−ρ a(w0 na0 n)ρ , where na0 = a−1 n0 a. We need to show
+                   Z
+                        a(w0 na0 n)ρ a(w0 n)ρ a−ρ da dn < ∞.
+                    AN
+
+
+This is the point where we have to make things more concrete. Let J be
+the diagonal (d + 1) × (d + 1)-matrix with diagonal entries (1, . . . , 1, −1).
+                                                    t
+Then SO(d,
+         1) is the group of real matrices g with g Jg = J. Writing g =
+   A b
+           with A ∈ Matd (R), this amounts to
+   c d
+
+                              At A − ct c = 1
+                              At b − ct d = 0
+                                d2 − bt b = 1
+INVARIANT TRIPLE PRODUCTS                                                         12
+
+
+The connected component SO(d, 1)0 consists of all matrices g as above with
+                                                                          
+                                                                SO(d)
+d > 0. The maximal compact subgroup K can be chosen to be
+                                                                       1
+                            
+            SO(d − 1)     0
+and M as               1 0 . Further, we can choose A and N as follows,
+                0       0 1
+                                                  
+                1                                   
+                                         2       2
+         A =           α β   : α > 0, α − β = 1 ,
+                        β α
+                                                    
+                                                             
+               
+                           1     −x       x                    
+                                                                
+                          t        |x|2    2              d−1
+        N =       n(x) =  x 1 − 2       |x| /2  : x ∈ R         ,
+                                                   
+                            t     2          |x|2              
+                           x −|x| /2 1 + 2                     
+
+where we have written |x|2 =x21 + x22 + ·· · + x2d−1 . Note that the Lie algebra
+                               1
+of A is generated by H =         0 1 . One derives an explicit formula
+                                  1 0
+                                                                   
+                                                              A b
+for the ANK-decomposition. In particular, if g =                      and a(g) =
+                                                              c d
+          
+   1
+     α β , then
+      β α
+                                                                      d−1
+                  ρ            d−1                (d + bd )              2
+              a(g) = (α + β)    2    =                                        .
+                                             1 + b1 + · · · + b2d−1
+                                                  2
+
+
+The Weyl element representative can be chosen to be
+                                                 
+                            1
+                               ..
+                                  .
+                                                 
+                                                 
+                                                 
+                   w0 = 
+                                   1             .
+                                                  
+                         
+                                     −1          
+                                                  
+                                          −1     
+                                                1
+INVARIANT TRIPLE PRODUCTS                                                                                 13
+
+
+So that with n = n(x) for x ∈ Rd−1 we have
+                                                 ρ
+                                   ∗ ∗     x1
+                                
+                                            ..
+                                 ∗ ∗        .
+                                                
+                                                 
+                                   ∗  ∗   x
+                                                
+                                           d−2
+                 a(w0 n)ρ = a 
+                                                
+                                 ∗ ∗ −xd−1 
+                                                 
+                                               2
+                                 ∗ ∗ − |x|2 
+                                                
+                                                                               2
+                                                                ∗ ∗ 1 + |x|2
+                                                                                      d−1
+                                                                      1                  2
+                                                 =
+                                                             1 + x1 + · · · + x2d−1
+                                                                  2
+
+
+We choose n0 = n(1, 0, . . . , 0) and get with a = exp(tH),
+                                                                                              d−1
+                                                            1                                    2
+            a(w0 na0 n)ρ =                                                                            .
+                                             1 + (e + x1 ) + x22 + · · · + x2d−1
+                                                   −t     2
+
+                                                     n
+With n = d − 1 and a−ρ = e− 2 t our assertion boils down to
+         Z Z
+                   n                n                       n
+                e− 2 t (1 + |x|2 )− 2 (1 + |e−t v1 + x|2 )− 2 dt dx < ∞.
+             Rn   R
+
+Consider first the case n = 1 and the integral over x < 0:
+                Z Z 0
+                           1              1                    1
+                        e− 2 t (1 + x2 )− 2 (1 + (e−t + x)2 )− 2 dx dt
+                      R       −∞
+
+                      Z Z ∞
+                                             1                   1                       1
+              =                      e− 2 t (1 + x2 )− 2 (1 + (x − e−t )2 )− 2 dx dt
+                      ZR Z0 ∞
+                                                 1                         1                  1
+              =                          e− 2 t (1 + (x + e−t )2 )− 2 (1 + (x)2 )− 2 dx dt.
+                          R       −e−t
+
+Thus it suffices to show the convergence of
+                Z Z ∞
+                          1              1                     1
+                       e− 2 t (1 + x2 )− 2 (1 + (x + e−t )2 )− 2 dt dx.
+                      R       0
+
+Setting y = e−t we see that this integral equals
+             Z ∞Z ∞
+                       y −1/2 (1 + x2 )−1/2 (1 + (x + y)2)−1/2 dydx
+                  0           0
+INVARIANT TRIPLE PRODUCTS                                                                      14
+
+                         Z ∞Z ∞
+                   =                     (y − x)−1/2 (1 + x2 )−1/2 (1 + y 2)−1/2 dydx
+                             0       x
+Since the mapping
+                                 Z ∞
+                         x 7→            (y − x)−1/2 (1 + x2 )−1/2 (1 + y 2)−1/2 dy
+                                     x
+
+is continuous, the integral over 0 < x < 1 converges. It remains to show the
+convergence of
+              Z ∞Z ∞
+                       (y − x)−1/2 (1 + x2 )−1/2 (1 + y 2 )−1/2 dydx
+                         1       x
+
+
+               Z ∞Z ∞
+      =           x1/2 (v − 1)−1/2 (1 + x2 )−1/2 (1 + v 2 x2 )−1/2 dvdx
+         1
+              Z1 ∞ Z ∞
+      ≤ 3−1/2            x1/2 (v − 1)−1/2 (1 + x2 )−1 (1 + v 2 )−1/2 dvdx < ∞.
+                          1      1
+
+here we have used the substitution y = vx and the fact that for a, b ≥ 1 one
+has (1 + a)(1 + b) ≤ 3(1 + ab).
+Now for the case n > 1. Using polar co-ordinates we compute
+  Z    Z Z
+             e−tn/2 (1 + x2 + |xr |2 )−n/2 (1+)e−t + x)2 + |xr |2 )−n/2 dt dx dxr
+     Rn−1      R   R
+       Z ∞Z Z
+= C                          e−tn/2 r n−2(1 + x2 + r 2 )−n/2 (1+)e−t + x)2 + r 2 )−n/2 dt dx dxr .
+           0       R    R
+As above we can restrict to the case x > 1. We get
+     Z ∞Z ∞Z ∞
+                      n
+  =                 y 2 −1 r n−2 (1 + x2 + r 2 )−n/2 (1 + (x + y)2 + r 2 )−n/2 dydxdr
+     Z0 ∞ Z0 ∞ Z0 ∞
+                              n
+  =                 (y − x) 2 −1 r n−2(1 + x2 + r 2 )−n/2 (1 + y 2 + r 2 )−n/2 dydxdr,
+           0       0         x
+
+which equals
+Z ∞Z ∞Z ∞
+                                 n
+                       (v − 1) 2 −1 xn/2 r n−2 (1 + x2 + r 2 )−n/2 (1 + v 2 x2 + r 2 )−n/2 dydxdr.
+ 0     0       1
+INVARIANT TRIPLE PRODUCTS                                                              15
+
+
+As above, it suffices to restrict the integration to the domain x > 1. So one
+considers
+Z ∞Z ∞Z ∞
+                      n
+             (v − 1) 2 −1 xn/2 r n−2 (1 + x2 + r 2 )−n/2 (1 + v 2 x2 + r 2 )−n/2 dydxdr.
+ 0      1   1
+
+Choose 0 < ε < 1/2 and write
+
+            (1 + x2 + r 2 )−n/2 = (1 + x2 + r 2 )ε−n/2 (1 + x2 + r 2 )−ε
+                                ≤ (1 + r 2 )ε−n/2 (1 + x2 )−ε .
+
+So our integral is less than or equal to
+                            Z ∞
+                                r n−2(1 + r 2 )ε−n/2 dr
+                                    0
+
+times           Z ∞Z ∞
+                                    n
+                            (v − 1) 2 −1 xn/2 (1 + x2 )−ε (1 + v 2 x2 )−n/2 dvdx
+                 1      1
+        Z ∞Z ∞
+                             n
+≤C                   (v − 1) 2 −1 xn/2 (1 + x2 )−ε (1 + v 2 )−n/2 (1 + x2 )−n/2 dvdx < ∞.
+        1    1
+                                                                                       
+
+
+3       An explicit formula
+Let d ≥ 2 and G = SO(d, 1)0 if d > 2. For d = 2 let G be the double
+       ˜
+cover SO(2, 1)o ∼
+                = PGL2 (R). Then K = SO(d), M = SO(d − 1) for d > 2.
+For d = 2 we have K ∼       = O(2) and M ∼     = Z/2Z and in all cases we have
+       ∼
+M\K = S , the d − 1 dimensional sphere. For each λ ∈ a∗ let eλ be the
+           d−1
+
+class one vector in the associated principal series representation πλ given by
+eλ (ank) = aλ+ρ . Let λ, µ, ν ∈ a∗ be imaginary. Let Tst be the invariant
+distribution on L(λ,µ,ν) considered in the last section. We are interested in
+the growth of Tst (eλ , eµ , eν ) as a function in λ. First note that the Killing
+form induces a norm |.| on a∗ .
+We write Tst (λ, µ, ν) for Tst (eλ , eµ , eν ) and identifying aR to R via λ 7→ λ(H0 )
+we consider Tst as a function on (iR)3 .
+In this section we will prove the following theorem.
+INVARIANT TRIPLE PRODUCTS                                                      16
+
+
+Theorem 3.1 For λ, µ, ν imaginary, Tst (λ, µ, ν) equals a positive constant
+times
+                                                            
+                       2(λ−µ+ν)+n     2(−λ+µ+ν)+n       2(λ+µ+ν)+n
+      Γ 2(λ+µ−ν)+n
+             4
+                    Γ       4
+                                   Γ        4
+                                                    Γ        4
+                          2λ+n
+                                2µ+n  2ν+n                        ,
+                      Γ 2 Γ 2 Γ 2
+
+where n = d − 1. So in particular, for fixed imaginary µ and ν. Then, as |λ|
+tends to infinity, while λ is imaginary, we have the asymptotic
+                                    π  d              
+                                                           1
+                                                −2
+            |Tst (λ, µ, ν)| = c exp − |λ| |λ| 2    1+O          ,
+                                     2                    |λ|
+
+for some constant c > 0.
+
+Proof: The asymptotic formula follows from the explicit expression and the
+well known asymptotical formula,
+                        √
+                                                       
+                                  π 
+                                          σ− 21           1
+          |Γ(σ + it)| = 2π exp − |t| |t|         1+O
+                                   2                     |t|
+
+as |t| → ∞, where the real part σ is fixed.
+Now for the proof of the first assertion. The permutation group S3 in three
+letters acts on (iR)3 by permuting the co-ordinates. We claim that Tst is
+invariant under that action. So let σ ∈ S3 and let f = f1 ⊗ f2 ⊗ f3 , then
+                                     Z
+                      Tst (σ(f )) =     f (σ −1 (x0 .y)) dy
+                                     ZG
+                                  =     f (σ −1 (x0 ).y) dy
+                                         G
+
+Since the open orbit is unique, there is yσ ∈ G with σ −1 (x0 ) = x0 .yσ , and so
+                                  Z
+                   Tst (σ(f )) =      f (x0 .yσ y) dy
+                                    G
+                                  Z
+                               =      f (x0 .y) dy = Tst (f ).
+                                     G
+
+So in particular Tst (λ, µ, ν) is invariant under permutations of (λ, µ, ν).
+INVARIANT TRIPLE PRODUCTS                                                                  17
+
+
+We have
+                                                 Z
+                         Tst (eλ , eµ , eν ) =       a(w0 n0 y)λ+ρa(w0 y)µ+ρ a(y)ν+ρ dy.
+                                                 G
+
+
+Replace the integral over G by an integral over ANK using the Iwasawa
+decomposition. Since a(xk) = a(x) for x ∈ G and k ∈ K, the K-factor is
+irrelevant and we have to compute
+                  Z
+                      a(w0 n0 an)λ+ρ a(w0 an)µ+ρ aν+ρ dadn.
+                                   AN
+
+
+Note that w0 a = a−1 w0 and so we have a(w0 an)ρ = a−ρ a(w0 n) as well as
+a(w0 n0 an) = a−ρ a(w0 na0 n), where na0 = a−1 n0 a. So the integral equals
+                 Z
+                      aν−λ−µ−ρ a(w0 na0 n)λ+ρ a(w0 n)µ+ρ da dn.
+                                  AN
+
+
+Using the explicit approach of the last section we see that Tst (λ, µ, ν) equals
+    Z Z
+            et(ν−λ−µ− 2 ) (1 + |e−t v1 + x|2 )−λ− 2 (1 + |x|2 )−µ− 2 dx dt,
+                      d−1                        d−1              d−1
+
+
+         R       Rd−1
+
+where v1 = (1, 0, . . . , 0).
+Set n = d − 1 = 1, 2, 3, . . . and use polar co-ordinates to compute for n > 1,
+that
+        Z Z
+                           n                         n                n
+               et(ν−λ−µ− 2 ) (1 + |e−t v1 + x|2 )−λ− 2 (1 + |x|2 )−µ− 2 dx dt
+                     R       Rn
+
+equals (n − 1)vol(Bn−1 ) times
+Z Z Z ∞
+                          n                             n                   n
+          r n−2 et(ν−λ−µ− 2 ) (1 + (e−t + x)2 + r 2)−λ− 2 (1 + x2 + r 2)−µ− 2 dr dx dt.
+ R   R       0
+
+Define In (a, b, c) to be
+    Z Z Z ∞
+                r n−2 et(c−a−b) (1 + (e−t + x)2 + r 2 )−a (1 + x2 + r 2 )−b dr dx dt,
+      R          R       0
+INVARIANT TRIPLE PRODUCTS                                                           18
+
+
+and I1 (a, b, c) to be equal to
+                Z Z
+                      et(c−a−b) (1 + (e−t + x)2 )−a (1 + x2 )−b dr dx dt.
+                    R    R
+
+Then, for all n ∈ N,
+                                                n     n      n
+                        Tst (λ, µ, ν) = cn In λ + , µ + , ν +    ,
+                                                 2     2      2
+where c1 = 1 and cn = (n − 1)vol(Bn−1 ) for n > 1. So in particular, In is
+invariant under permutations of the arguments.
+Note that
+                        ∂ 
+                           (1 + (e−t + x)2 + r 2 )−a (1 + x2 + r 2 )−b
+                                                                       
+                        ∂r
+equals
+                   −2ar(1 + (e−t + x)2 + r 2 )−a−1 (1 + x2 + r 2 )−b
+                  −2br(1 + (e−t + x)2 + r 2 )−a (1 + x2 + r 2 )−b−1 ,
+               h n−1 i
+            ∂   r
+and r n−2 = ∂r  n−1
+                      . So, integrating by parts, for n > 1 we compute
+
+                         2a                           2b
+    In (a, b, c) =          In+2 (a + 1, b, c + 1) +     In+2 (a, b + 1, c + 1).   (1)
+                        n−1                          n−1
+To get a similar result for I1 note that
+
+                                (1 + (e−t + x)2 )−a (1 + x2 )−b
+
+equals
+              −(1 + (e−t + x)2 + r 2 )−a (1 + x2 + r 2 )−b |r=0
+                                                            r=∞
+             Z ∞
+                 ∂ 
+                     (1 + (e−t + x)2 + r 2 )−a (1 + x2 + r 2 )−b dr.
+                                                                
+          =−
+              0  ∂r
+This implies
+
+                 I1 (a, b, c) = 2aI3 (a + 1, b, c + 1) + 2bI3 (a, b + 1, c + 1).   (2)
+
+Let In′ (a, b, c) be the same as In (a, b, c) except that there is a factor x in the
+integrand, i.e.,
+   Z Z Z ∞
+                 r n−2et(c−a−b) (1 + (e−t + x)2 + r 2 )−a (1 + x2 + r 2 )−b x dr dx dt.
+    R    R   0
+INVARIANT TRIPLE PRODUCTS                                                                 19
+
+
+Replacing x with −x first and then with x + e−t yields
+
+                   In′ (a, b, c) = − In′ (b, a, c) − In (b, a, c − 1).                    (3)
+
+The last equation also holds for n = 1. Integration by parts gives
+                 Z
+                     et(c−a−b) (1 + (e−t + x)2 + r 2 )−a dt
+                     R
+
+             2a
+                         Z
+         =                     et(c−a−b) (1 + (e−t + x)2 + r 2 )−a−1 (e−2t + xe−t ) dt.
+           a+b−c           R
+So,
+                               2a
+          In (a, b, c) =           (In (a + 1, b, c − 1) + In′ (a + 1, b, c)).
+                             a+b−c
+Using (3) this yields
+                                            2a
+                         In (a, b, c) =        I ′ (b, a + 1, c),
+                                          c−a−b n
+or
+                                       z−x−y+1
+                   In′ (x, y, z) =              In (y − 1, x, z).                         (4)
+                                         2y − 2
+Plugging this into (3) one gets
+c−a−b+1                     a+b−c−1
+         In (b − 1, a, c) =          In (a − 1, b, c) − In (b, a, c − 1).
+  2b − 2                      2a − 2
+Replacing (a, b, c) with (a + 1, b + 1, c + 1) this gives
+                         c−a−b
+                               In (b, a + 1, c + 1)
+                           2b
+                      a+b−c
+                    =            In (a, b + 1, c + 1) − In (b + 1, a + 1, c),
+                         2a
+or, using the invariance of In ,
+ c−b−a
+       (aIn (a + 1, b, c + 1) + bIn (a, b + 1, c + 1)) = − In (a + 1, b + 1, c),
+   2ab
+and hence
+                                                           2ab
+aIn+2 (a + 1, b, c + 1) + bIn+2 (a, b + 1, c + 1) =             In+2 (a + 1, b + 1, c).
+                                                          a+b−c
+INVARIANT TRIPLE PRODUCTS                                                   20
+
+
+Using (1) and (2) one gets for n > 1,
+                                  4ab  1
+                In (a, b, c) =            In+2 (a + 1, b + 1, c),
+                                 a+b−cn−1
+and
+                                      4ab
+                    I1 (a, b, c) =         I3 (a + 1, b + 1, c).
+                                     a+b−c
+Finally we arrive at
+                                         a+b−c−1
+        In+2 (a + 1, b + 1, c + 1) =             (n − 1)In (a, b, c + 1)   (5)
+                                           4ab
+for n > 1 and
+                                           a+b−c−1
+             I3 (a + 1, b + 1, c + 1) =            I1 (a, b, c + 1).       (6)
+                                             4ab
+These formulae amount to
+                                     λ + µ − ν + n2 − 1 n
+            Tstn+2 (λ, µ, ν) = dn                      T (λ, µ, ν + 1),
+                                     (2λ + n)(2µ + n) st
+where dn = (n − 1)cn+2 /cn if n > 1 and d1 = c3 . A calculation using the
+functional equation of the Gamma-function, Γ(z + 1) = zΓ(z), shows that
+the right hand side of the claim in the theorem satisfies the same equation
+as n is replaced by n + 2. So the claim of the theorem for n implies the same
+claim for n + 2. Note that the formula A.5 in [1] implies the theorem for
+n = 1, where one has to take into account that in [1] a different normalisation
+is used. To get our formula from theirs, one has to replace λj by −2λj in [1].
+To finish the proof of the theorem it therefore remains to show the claim for
+n = 2.
+To achieve this, we proceed in a fashion similar to [1]. First note that the
+group G = SL2 (C) is a double cover of SO(3, 1)0 , so we might as well use this
+group for the computation. For λ ∈ C let Vλ denote the space of all smooth
+functions f on C2 with f (az, aw) = |a|−2(λ+1) f (z, w) for every a ∈ C× . Then
+G = SL2 (C) acts on the space Vλ via πλ (g)f (z, w) = f ((z, w)g). This is
+the principal series representation with parameter λ. For λ = 1 there is a
+G-invariant continuous linear functional L : V1 → C, which is unique up to
+scalars and is given by              Z
+                             L(f ) =    f (x) dx,
+                                            S3
+INVARIANT TRIPLE PRODUCTS                                                                       21
+
+
+where the integral runs over the standard sphere S 3 ⊂ C2 with the volume
+element induced by the standard metric on C2 ∼         = R4 . Since S 3 equals (0, 1)K,
+where K = SU(2) is the maximal compact subgroup of G, the theory of
+induced representations shows that this functional is indeed invariant under
+G and is unique with that property. If λ is imaginary, then the representation
+πλ is pre-unitary, the inner product being given by hf, gi = L(f ḡ). To
+compute Tst2 (λ1 , λ2 , λ3 ), we will describe this functional on the space Vλ1 ⊗
+Vλ2 ⊗ Vλ3 . Let ω : C2 → C be given by ω(a, b) = a1 b2 − a2 b1 the bilinear
+G-invariant on C2 . Let Kλ1 ,λ2 ,λ3 (v1 , v2 , v3 ) be the invariant kernel
+
+      |ω(v1, v2 )|(−λ1 +λ2 +λ3 −1) |ω(v1 , v3 )|(λ1 −λ2 +λ3 −1) |ω(v2, v3 )|(λ1 +λ2 −λ3 −1) .
+
+This kernel is invariant under the diagonal action of G and is homogeneous
+of degree 2(λj − 1) with respect to the variable vj . From this point the
+computations run like in [1] A.4 and A.5. The theorem follows.          
+
+
+A      Automorphic coefficients
+Let Γ ⊂ G be a uniform lattice and consider the right regular representation
+of G on L2 (Γ\G), which decomposes as a direct sum,
+                                   M
+                       L2 (Γ\G) =      L2 (Γ\G)(π),
+                                              π∈Ĝ
+
+
+where the isotypic component L2 (Γ\G)(π) is zero for π outside a countable
+set of π ∈ Ĝ and is always isomorphic to a sum of finitely many copies of π.
+By the Sobolev lemma one has L2 (Γ\G)∞ ⊂ C ∞ (Γ\G). A function ϕ is called
+pure, if ϕ ∈ RL2 (Γ\G)(π) for some π ∈ Ĝ. For three pure smooth ϕ1 , ϕ2 , ϕ3
+the integral Γ\G ϕ1 (x)ϕ2 (x)ϕ3 (x) dx exists. Moreover, fix π1 , π2 , π3 ∈ Ĝ and
+fix G-equivariant embeddings σj : Vπj → L2 (Γ\G), then
+                                   Z
+            Taut (v1 , v2 , v3 ) =   σ1 (v1 )(x)σ2 (v2 )(x)σ3 (v3 )(x) dx
+                                       Γ\G
+
+defines a G-invariant continuous trilinear form on Vπ∞   1
+                                                           × Vπ∞
+                                                               2
+                                                                 × Vπ∞3
+                                                                        . Let
+L2 (Γ\G)K be the space of all K-invariant vectors in L2 (Γ\G). Then there
+is an orthonormal basis (ϕi )i∈N of pure vectors in L2 (Γ\G)K . For each i let
+INVARIANT TRIPLE PRODUCTS                                                    22
+
+
+Li be the G-stable closed subspace of L2 (Γ\G) generated by ϕi . Then the
+spaces Li are mutually orthogonal.
+For fixed pure normalized ϕ, ϕ′ ∈ L2 (Γ\G)K we are interested in the growth
+of the sequence
+                            ci def              ′
+                               = Taut (ϕi , ϕ, ϕ ).
+
+Let (λi , µ, ν) be the induction parameters of the representations given by
+(ϕi , ϕ, ϕ′). First note that the numbers ci decay exponentially in |λi |. So we
+define the renormalized sequence
+
+                            bi def    2
+                               = |ci | exp(π|λi |).
+
+In [1] it is hown that for d = 2 one has
+                               X
+                                   bi ≤ C log T,
+                             |λi |≤T
+
+
+and in [9], Theorem 7.6, that for d ≥ 3,
+                            X
+                                 bi ≤ CT 2(d−2) .
+                            |λi |≤T
+
+
+We are going to reprove this result for d ≥ 4.
+
+Theorem A.1 Let d ≥ 4. There is C > 0 such that for every T > 0,
+                       X
+                           bi ≤ C T 2(d−2) .
+                            |λi |≤T
+
+
+
+Proof: By the uniqueness of trilinear forms there exists a constant ai such
+that
+                    Taut (ϕi , ϕ, ϕ′) = ai Tst (ϕi , ϕ, ϕ′ ).
+This constant depends on the embeddings of πλ , πν , πµ into L2 (Γ\G), but
+we can normalize these embeddings by insisting that the standard class one
+vectors eλ , eµ , eν are mapped to ϕi , ϕ, ϕ′. Thus the number ai only depends
+on ϕi , ϕ, ϕ′ .
+INVARIANT TRIPLE PRODUCTS                                                     23
+
+
+Fix two smooth pre-unitary G-representations V, V ′ and let L, L′ be their
+Hilbert completions. Consider the unitary representation of G × G on L ⊗ L′
+and let E = (L ⊗ L′ )∞ be its smooth part. Denote by H(E) the real vector
+space of all Hermitian forms on E and by H+ (E) the cone of non-negative
+forms.
+Let W be a smooth pre-unitary admissible representation of G. A G-invariant
+functional T : W ⊗ V ⊗ V ′ → C defines a G-equivariant linear map lT : V ⊗
+V ′ → W ∗ which extends to a G-map lT : E → W̄ , where W̄ is the space
+W with complex conjugate linear structure. The Hermitian form HW on W
+induces a form HW̄ on W̄ . Define a Hermitian form HT on E by HT = lT∗ HW̄ ,
+i.e., for u, v ∈ E one has HT (u, v) = HW̄ (lT (u), lT (v)). Finally, suppose
+that W = Vλ , V, V ′ are all principal series representations and let Tst be the
+standard trilinear form then we write Hλst for the Hermitian form induced on
+E. We also assume that Vλ , V, V ′ are cuspidal, i.e., that fixed embeddings
+into L2,∞ are given. Then the cuspidal trilinear form T induces a Hermitian
+form Hλaut on E.
+Next consider the space L2,∞ (Γ\G × Γ\G). Let H∆ denote the Hermitian
+form on L2,∞ (Γ\G × Γ\G) given by restriction to the diagonal, i.e.,
+                                Z
+                    H∆ (u, v) =     u(x, x)v(x, x) dx.
+                                    Γ\G
+
+
+Let U be a Hilbert space with Hermitian form H. For a closed subspace L
+of U let P rL denote the orthogonal projection from U to L and let HL be
+the Hermitian form on U given by
+
+                       HL (u, v) = H(P rL (u), P rL (v)).
+
+The map L 7→ HL is additive and monotonic, i.e., HL+L′ = HL + HL′ if L
+and L′ are orthogonal and HL ≤ HL′ if L ⊂ L′ .
+
+Lemma A.2 On the space E one has
+                       X
+                          |ai |2 Hλsti ≤ H∆ .
+                               i
+
+
+Proof: By the uniqueness it followsPHλaut
+                                       i
+                                          = |ai |2 Hλsti and since all the spaces
+                                         aut
+Li are orthogonal one also deduces i Hλi ≤ H∆ .                                
+INVARIANT TRIPLE PRODUCTS                                                  24
+
+
+The group G × G acts on L2,∞ (Γ\G × Γ\G) and thus on the real vector
+space of Hermitian forms on L2,∞ (Γ\G × Γ\G). By integration, this action
+extends to a representation of the convolution algebra Cc∞ (G×G). Note that
+a non-negative function h ∈ Cc∞ (G × G) will preserve to cone of non-negative
+Hermitian forms.
+
+Lemma A.3 Let h ∈ Cc∞ (G × G) be non-negative. Then there exists C > 0
+such that
+                         h.H∆ ≤ CHaut ,
+where Haut is the L2 -Hermitian form on L2,∞ (Γ\G × Γ\G).
+
+Proof: The form h.H∆ is given by integration over a smooth measure on
+Γ\G × Γ\G. Being smooth, this measure is bounded by a multiple of the
+invariant measure.                                                  
+
+A positive functional on H(E) is an additive map ρ : H+ (E) → R≥0 ∪ {∞}.
+For example, every vector u ∈ E gives rise to a positive functional δu defined
+as
+                             δu (H) = H(u, u).
+Every positive functional is monotonic and homogeneous, i.e.,
+
+                        ρ(H) ≤ ρ(H ′ ) if H ≤ H ′ ,
+
+and
+                         ρ(tH) = tρ(H) for t > 0.
+Let ρ be a positive functional and let hρ (λ) = ρ(Hλst ). Then Lemma A.2
+implies                 X
+                            hρ (λi )|ai |2 ≤ ρ(H∆ ).
+                           i
+
+
+Proposition A.4 There are constants T0 , C > 0 such that for every T ≥ T0
+there is a positive functional ρT on H(E) with
+
+                         ρT (H∆ ) ≤ CT dim(M \K)+1 ,
+
+and with hT = hρT one has hT (λ) ≥ C1 for every |λ| ≤ 2T .
+INVARIANT TRIPLE PRODUCTS                                                  25
+
+
+Proof: Let D be a relatively compact open subset of G with g ∈ D1 ⇒ g −1 ∈
+D. Assume further that D is invariant under right and left translations by
+elements of K. Let h ∈ Cc∞ (G × G) such that h is constantly one on D × D
+and such that h is invariant under left and right translates by elements of K.
+the space E can be identified with C ∞ (M\K × M\K). Fix a norm ||·|| on
+the Lie algebra of AN.
+Note that the map
+
+                  ψ : A × N × M → P \G × P \G
+                         (a, n, m) 7→ (w0 anm, w0 n0 anm)
+
+is a diffeomorphism onto an open subset of (P \G)2 ∼   = (M\K)2 . Let F =
+ψ(1 × 1 × M) = the M-orbit of the point (w0 , w0 n0 ). Let C1 , T > 0 be large
+and set                                                   
+                                              1
+               S = ψ(a, n, m) : ||log an|| <      ,m ∈ M .
+                                             C1 T
+Let uT be a nonnegative smooth function on (M\K)2 with support in S such
+that          Z                Z
+                u dxdy = 1,       |u|2 dxdy ≤ T dim(M \K)+1 .
+
+It is possible to construct such a function since the codimension of F equals
+dim(M\K) + 1. With these data define a positive functional ρT on H(E) by
+
+                             ρT (H) = δuT (h.H).
+
+Then one has
+
+           ρT (H∆ ) = ρu (h.H∆ ) ≤ C ′ ρu (Hst ) ≤ CT dim(M \K)+1 .
+
+                                                                            
+
+Recall the standard trilinear form Tst on Vλ ⊗ V ⊗ V ′ and the corresponding
+linear map lTst : V ⊗ V ′ → V̄λ . We identify the space V̄λ with C ∞ (M\K)
+and let z denote the point M1 ∈ M\K. The Dirac measure δz at z is a
+continuous linear functional on C ∞ (M\K). We get an induced Hermitian
+form Hz on E defined by
+
+                       Hz (u, v) = lTst (u)(z)lTst (v)(z).
+INVARIANT TRIPLE PRODUCTS                                                       26
+
+
+Lemma A.5 On E one has
+                                         Z
+                              Hλst =         (k, k).Hz dk.
+                                         K
+
+
+Proof: ThisR follows from the fact that the invariant Hermitian form on V̄λ
+is equal to K π(k)H̃z dk, where H̃z is the Hermitian form on V̄λ given by
+H̃z (u, v) = u(z)v(z).                                                   
+
+Since the test function h was assumed to be K × K-invariant it follows that
+
+                          hT (λ) = ρT (Hλst ) = δu (h.Hz ).
+
+So in order to establish a lower bound for ρT (Hλst ) it suffices to give a lower
+bound for δu (x.Hz ) = | hπ(x)fz , ui |2 for x ∈ D, where fz is the linear func-
+tional on E given by fz (u) = δz (lTst (u)).
+
+Lemma A.6 There is C > 0 such that for T0 large enough there exists an
+open, non-empty subset D0 ⊂ D such that for T ≥ T0 , |λ| ≤ T , and x ∈ D0
+we have | hπ(x)fz , uT i | ≥ C1 .
+
+Proof: Note first that with x = ank ∈ G we have
+                         Z
+        hπ(x)fz , uT i =         uT (k2 , k3 )φ(k, k2ank , k3ank ) dk2dk3 .
+                               (M \K)2
+
+We next derive an explicit formula for φ on the open orbit. Recall that
+                       Z
+           Tst (f ) =      f (y, w)y, w0n0 y) dy
+                       Z G
+
+                    =          f (ank, w0 ank, w0 n0 ank) da dn dk,
+                            AN K
+
+and that the last integrand equals
+
+     aλ+ρ a(w0 an)µ+ρ a(w0 n0 an)ν+ρ f (k, k(w0 an)k, k(w0 n0 an)k) da dn dk.
+
+We deduce that
+
+    φ(k, k(w0 an)k, k(w0 n0 an)k) = aλ+ρ a(w0 an)µ+ρ a(w0 n0 an)ν+ρ W (an),
+INVARIANT TRIPLE PRODUCTS                                                                  27
+
+
+where W is the Radon-Nykodim derivative of dadndk against the measure
+on (M\K)3 . In particular, this function is positive and smooth and does not
+depend on λ. It follows that the functional π(x)fz is given by integration
+against the function
+    π(ank)fz (w0 a′ n′ m′ , w0 n0 a′ n′ m′ ) = φ(k, w0aa′ n′′ m′ k, w0 n0 aa′ n′′ m′ k),
+where n′′ = a−1 n′ a m′ n(m′ )−1 . Note that Mk = Mm′ k and so the above
+equals
+             (aa′ )λ+ρ a(w0 aa′ n′′ )µ+ρ a(w0 n0 aa′ n′′ )ν+ρ W (aa′ n′′ ).
+Note in particular, that the function π(x)fz is invariant under M.
+The set S is a tubular neighbourhood of the compact set F . We have natural
+local coordinates with F -directions, which can be identified with open parts
+of M-orbits and F ⊥ -directions, which can be viewed as AN-orbits. The
+above formula shows that the gradient of π(x)fz is zero along the M-orbits.
+Along the AN-orbits this gradient is bounded by a constant times T , if we
+leave µ and ν fixed and restrict to |λ| ≤ T . Let C0 > 0 be large and let
+D0 ⊂ D be the subset of elements x ∈ D such that |π(x)fz | < C0 . This set
+is open and nonempty if C0 is large enpough and it does not depend on λ.
+Lemma A.6 implies Proposition A.4 and the latter implies Theorem A.1 as
+follows.
+                                 2      st
+                        P
+Consider the inequality   i |ai | ρT (Hλi ) ≤ ρT (H∆ ). By Proposition A.4
+the right hand side is bounded by CT 2 dim(M \K) and since dim M\K =
+dim P \G = dim N = d − 1 we get
+                        X
+                            |ai |2 ρT (Hλsti ) ≤ CT d .
+                                i
+
+Restricting the sum to those i with |λi | ≤ 2T and using the second assertion
+of Proposition A.4 we get
+                             X
+                                  |ai |2 ≤ CT d .
+                                    |λi |≤T
+
+According to Theorem 3.1 we have bi |λi |4−d ∼ |ai |2 and so
+                         X
+                             bi |λi |4−d ≤ CT d .
+                               |λi |≤T
+
+This implies the theorem.                                                                  
+INVARIANT TRIPLE PRODUCTS                                                28
+
+
+References
+  [1] Bernstein, J.; Reznikov, A.: Estimates of automorphic functions.
+      Mosc. Math. J. 4 , 19-37, (2004).
+
+  [2] Harris, M.; Kudla, S.: The central critical value of a triple product
+      L-function. Ann. of Math. (2) 133, no. 3, 605-672 (1991).
+
+  [3] Harris, M.; Kudla, S.: On a conjecture of Jacquet. Contributions
+      to automorphic forms, geometry, and number theory, 355371, Johns
+      Hopkins Univ. Press, Baltimore, MD, 2004.
+
+  [4] Harris, M.; Scholl, A.: A note on trilinear forms for reducible rep-
+      resentations and Beilinson’s conjectures. J. Eur. Math. Soc. (JEMS)
+      3 (2001), no. 1, 93–104.
+
+  [5] Helgason, S.: Differential Geometry, Lie Groups, and Symmetric
+      Spaces. Academic Press 1978.
+
+  [6] Jiang, D.: Nonvanishing of the central critical value of the triple
+      product L-functions. Internat. Math. Res. Notices 1998, no. 2, 73–84.
+
+  [7] Jiang, D.: On Jacquet’s conjecture: the split period case. Internat.
+      Math. Res. Notices, no. 3, 145-163 (2001).
+
+  [8] Knapp, A.: Representation Theory of Semisimple Lie Groups.
+      Princeton University Press 1986.
+
+  [9] Krötz, B.; Stanton, R.: Holomorphic extensions of representa-
+      tions. I. Automorphic functions. Ann. of Math. (2) 159, no. 2, 641-724
+      (2004).
+
+ [10] Loke, H. Y.: Trilinear forms of gl 2 . Pacific J. Math. 197, no. 1,
+      119-144 (2001).
+
+ [11] Molchanov, V. F.: Tensor products of unitary representations of
+      the three-dimensional Lorentz group. Izv. Akad. Nauk SSSR Ser. Mat.
+      43, no. 4, 860-891, 967 (1979).
+
+ [12] Oksak, A. I.: Trilinear Lorentz invariant forms. Comm. Math.
+      Phys. 29, 189-217 (1973).
+INVARIANT TRIPLE PRODUCTS                                           29
+
+
+  [13] Wallach, N.: Real Reductive Groups I. Academic Press 1988.
+
+Mathematisches Institut
+Auf der Morgenstelle 10
+72076 Tübingen
+Germany
+deitmar@uni-tuebingen.de
+

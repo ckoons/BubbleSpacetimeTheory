@@ -1,0 +1,1010 @@
+                                                             ESTIMATES OF AUTOMORPHIC FUNCTIONS
+
+                                                                     JOSEPH BERNSTEIN AND ANDRE REZNIKOV
+
+
+
+
+arXiv:math/0305351v2 [math.RT] 12 Jun 2003
+                                                    Abstract. We present a new method of estimating trilinear period for automorphic
+                                                    representations of SL2 (R). The method is based on the uniqueness principle in rep-
+                                                    resentation theory. We show how to separate the exponentially decaying factor in the
+                                                    triple period from the essential automorphic factor which behaves polynomially. We also
+                                                    describe a general method which gives an estimate on the average of the automorphic
+                                                    factor and thus prove a convexity bound for the triple period.
+
+
+
+
+                                                                                    1. Introduction
+
+                                             1.1. Maass forms. Let Y be a compact Riemann surface with a Riemannian metric
+                                             of constant curvature −1 and the associated volume element dv. The corresponding
+                                             Laplace-Beltrami operator is non-negative and has purely discrete spectrum on the space
+                                             L2 (Y, dv) of functions on Y . We will denote by 0 = µ0 < µ1 ≤ µ2 ≤ ... its eigenvalues
+                                             and by φi = φµi the corresponding eigenfunctions (normalized to have L2 norm one). In
+                                             the theory of automorphic forms the functions φµi are called automorphic functions or
+                                             Maass forms (after H. Maass, [M]).
+                                             The study of Maass forms plays an important role in analytic number theory.
+                                             We are interested in their analytic properties and will present a new method of bounding
+                                             some important quantities arising from φi .
+
+                                             1.2. Triple products. For any three Maass forms φi , φj , φk we define the following
+                                             triple product or triple period:
+                                                                                     Z
+                                             (1)                              cijk =   φi φj φk dv .
+                                                                                          Y
+
+                                             We would like to bound the coefficient cijk as a function of eigenvalues µi , µj , µk . In
+                                             particular, we would like to find bounds for these coefficients when one or more of these
+                                             indices tend to infinity.
+
+                                             1.3. Motivation. First of all we would like to explain why this problem is interesting.
+                                             The explanation goes back to pioneering works of Rankin and Selberg (see [Ra], [Se]).
+                                             They discovered that in special cases triple products as above give rise to automorphic
+                                             L-functions. That allowed them to obtain analytic continuation and effective bounds for
+                                                                                              1
+2                                 JOSEPH BERNSTEIN AND ANDRE REZNIKOV
+
+
+
+
+these L-functions and as an application to obtain bounds on Fourier coefficients of cusp
+forms towards Ramanujan conjecture.
+Since then the Rankin-Selberg method has had many generalizations. Recently, for Y
+arising from the full modular group SL2 (Z) and for cuspidal functions φ, Watson (see
+[Wa]) proved the following beautiful formula:
+
+                              2
+                                                                L(1/2, φi ⊗ φj ⊗ φk )
+           Z
+(2)             φi φj φk dv       = G(λi , λj , λk )                                           .
+            Y                                          L(1, φi , Ad)L(1, φj , Ad)L(1, φk , Ad)
+
+Here λt is a natural parameter of an eigenfunction φt related to the eigenvalue by µt =
+1−λ2t
+  4
+      . The unctions L(s, φi ⊗ φj ⊗ φk ) and L(s, φt , Ad) are appropriate automorphic L-
+functions associated to φi , and the function G(λi , λj , λk ) is an explicit rational expression
+in the ordinary Γ-functions. The relation (2) can be viewed as a far reaching generalization
+of the original Rankin-Selberg formula. It was motivated by a work [HK] by Harris and
+Kudla on a conjecture of Jacquet.
+
+1.4. Results. In this paper we will consider the following problem. We fix two Maass
+forms φ = φτ , φ′ = φτ ′ as above and consider coefficients defined by the triple period as
+above:
+                                        Z
+(3)                                ci =    φφ′φi dv
+                                                        Y
+
+as {φi = φλi } run over the basis of Maass forms.
+Thus we see from (2) that the estimates of coefficients ci are equivalent to the estimates of
+the corresponding L-functions. One would like to have a general method of estimating the
+coefficients ci and similar quantities. This problem was raised by Selberg in his celebrated
+paper [Se].
+Let us understand what kind of bounds on the left hand side of (2) one would like to have
+in order to estimate effectively L-functions involved in the right hand side of (2) (or at
+least the ratio of L-functions).
+We note first that one expects that ci have exponential decay in |λi | as i goes to ∞.
+Namely, general experience from the analytic theory of automorphic L-functions tells us
+that L-functions have at most polynomial growth when |λi | → ∞. Hence, analyzing the
+function G(λ), one would expect from (2) and the Stirling formula for the asymptotics of
+Γ-function that the normalized coefficients
+                                                   π
+(4)                                bi = |ci |2 exp( |λi |)
+                                                   2
+have at most polynomial growth in |λi |, and hence ci decay exponentially. However, it is
+difficult to see from the definition of the coefficients ci that they have exponential decay
+and it is not clear what should be the rate of this decay.
+                                AUTOMORPHIC FUNCTIONS                                     3
+
+
+
+
+The fact that an exponential decay with the exponent π2 holds for a general Riemann
+surface was first shown by Good and Sarnak (see [Go] and [Sa1]). Both proofs used
+ingenious analytic continuation of automorphic functions in the variable parameter.
+In this paper we will explain how to naturally separate the exponential decay from a poly-
+nomial growth in coefficients ci using representation theory. We also prove the following
+Theorem.       There exists an effectively computable constant A such that the following
+bound holds for arbitrary T > 0
+
+                                      X
+(5)                                              bi ≤ A .
+                                   T ≤|λi |≤2T
+
+
+
+1.5. A conjecture. The estimate in the theorem is tight but if we try to use it to get a
+bound for an individual term bi we get only an inequality
+(6)                                     bi ≤ A .
+
+According to Weyl’s law there are approximately cT 2 eigenvalues µi with λi between T
+and 2T , so the individual bound for the coefficient bi is definitely not tight. We would
+like to make the following conjecture concerning the size of coefficients bi :
+Conjecture.     For any ε > 0 there exists a constant Cε > 0 such that
+                                     bi ≤ Cε |λi |−2+ε ,
+as |λi | → ∞.
+For Y arising from congruence subgroups this conjecture is consistent with the Lindelöf
+conjecture for appropriate automorphic L-functions (see [BR1], [Sa2] and [Wa] for more
+details). We note that the bound in the Theorem above corresponds to the so–called
+convexity bound.
+
+1.6. The method. The first proof of the (slightly weaker) version of Theorem 1.4 ap-
+peared in [BR1]. It was based on the analytic continuation of representations from a real
+group to a complex group (generalizing methods of [Sa1]). The method based on the
+analytic continuation was extended in [KS] to the case of higher rank groups. While it
+gives bounds which are tight for general representations, it was not able, so far, to cover
+cases relevant to L-functions.
+The proof we present here is based on the uniqueness of triple product in representation
+theory. It has an advantage that it could be generalized to higher rank groups and gives
+bounds which are consistent with the theory of L-functions. The present method also
+could be applied to p-adic groups (unlike methods of [BR1]).
+We describe now the general ideas behind our new proof. It is based on ideas from
+representation theory. Namely, we use the fact that every automorphic form φ generates
+4                         JOSEPH BERNSTEIN AND ANDRE REZNIKOV
+
+
+
+
+an automorphic representation of the group G = P GL2 (R); this means that starting from
+φ we produce a smooth irreducible representation of the group G in a space V and its
+realization ν : V → C ∞ (X) in the space of smooth functions on the automorphic space
+X = Γ\G.
+The triple product ci = Y φφ′φi dv extends to a G-equivariant trilinear form on the
+                          R
+
+corresponding automorphic representations laut : V ⊗ V ′ ⊗ Vi → C, where V = Vτ , V ′ =
+Vτ ′ , Vi = Vλi .
+Then we use a general result from representation theory that such G-equivariant trilinear
+form is unique up to a scalar. This implies that the automorphic form laut is propor-
+tional to an explicit ”model” form lmod which we describe using explicit realizations of
+representations of the group G; it is important that this last form carries no arithmetic
+information.
+Thus we can write laut = ai · lmod for some constant ai and hence ci = laut (eτ ⊗ eτ ′ ⊗ eλi ) =
+ai · lmod (eτ ⊗ eτ ′ ⊗ eλi ), where eτ , eτ ′ , eλi are K-invariant unit vectors in the automorphic
+representations V, V ′ , Vi corresponding to the automorphic forms φ, φ′ and φi .
+It turns out that the proportionality coefficient ai in the last formula carries an important
+”automorphic” information while the second factor carries no arithmetic information and
+can be computed in terms of Γ-functions using explicit realizations of representations Vτ ,
+Vτ ′ and Vλi . This second factor is responsible for the exponential decay, while the first
+factor ai has a polynomial behavior in parameter λi .
+In order to bound the quantities ai , we use the fact that they appear as coefficients in
+the spectral decomposition of the diagonal
+                                         P Hermitian  form H∆ on the space E = Vτ ⊗ Vτ ′
+                                                2
+(see 4.2, 4.3). This gives an inequality   |ai | Hi ≤ H∆ where Hi is an Hermitian form
+on E induced by the model trilinear form lmod : V ⊗ V ′ ⊗ Vi → C as above.
+Using the geometric properties of the diagonal form and simple explicit estimates of forms
+Hi we establish the convexity bound for the coefficients ai .
+It is known that the uniqueness principle plays a central role in the theory of automorphic
+functions (see [PS]). The impact that the uniqueness has on the analytic behavior of
+automorphic functions is yet another manifestation of this principle.
+Acknowledgments. We would like to thank Peter Sarnak for many fruitful discussions.
+We also would like to thank Yuri Neretin for discussions on trilinear functionals and the
+referee for helpful comments.
+Research was partially supported by EC TMR network ”Algebraic Lie Representations”,
+grant no. ERB FMRX-CT97-0100, by BSF grant, Minerva Foundation and by the Ex-
+cellency Center “Group Theoretic Methods in the Study of Algebraic Varieties” of the
+Israel Science Foundation, the Emmy Noether Institute for Mathematics (the Center of
+Minerva Foundation of Germany).
+                                AUTOMORPHIC FUNCTIONS                                     5
+
+
+
+
+The paper was written during our stay at IHES and is an extended version of the talk
+given by the first author at Cartier Colloquium in June 2002.
+
+
+
+                       2. Representation theoretic setting
+
+We recall the standard connection of the above setting with representation theory (see
+[G6]).
+
+
+2.1. Automorphic functions and automorphic representations. Let us describe
+the geometric construction which allows one to pass from analysis on a Riemann surface
+to representation theory.
+Let H be the upper half plane with the hyperbolic metric of constant curvature −1.
+The group SL2 (R) acts on H by fractional linear transformations. This action allows to
+identify the group P SL2 (R) with the group of all orientation preserving motions of H. For
+reasons explained bellow we would like to work with the group G of all motions of H; this
+group is isomorphic to P GL2 (R). Hence throughout the paper we denote G = P GL2 (R).
+Let us fix a discrete co-compact subgroup Γ ⊂ G and set Y = Γ \ H. We consider the
+Laplace operator on the Riemann surface Y and denote by µi its eigenvalues and by φi
+the corresponding normalized eigenfunctions.
+The case when Γ acts freely on H precisely corresponds to the case discussed in the
+introduction (this follows from the uniformization theorem for the Riemann surface Y ).
+Our results hold for general co-compact subgroup Γ (and in fact, with slight modifications,
+for any lattice Γ ⊂ G).
+We will identify the upper half plane H with G/K, where K = P O(2) is a maximal
+compact subgroup of G ( this follows from the fact that G acts transitively on H and the
+stabilizer in G of the point z0 = i ∈ H coincides with K).
+We denote by X the compact quotient Γ \ G (we call it the automorphic space). In the
+case when Γ acts freely on H one can identify the space X with the bundle of unit tangent
+vectors to the Riemann surface Y = Γ \ H.
+The group G acts on X (from the right) and hence on the space of functions on X. We
+fix the unique G-invariant measure µX on X of total mass one. Let L2 (X) = L2 (X, dµX )
+be the space of square integrable functions and (ΠX , G, L2 (X)) the corresponding unitary
+representation. We will denote by PX the Hermitian form on L2 (X) given by the scalar
+product. We denote by || ||X or simply || || the corresponding norm and by hf, giX the
+corresponding scalar product.
+The identification Y = Γ \ H ≃ X/K induces the embedding L2 (Y ) ⊂ L2 (X). We will
+always identify the space L2 (Y ) with the subspace of K-invariant functions in L2 (X).
+6                        JOSEPH BERNSTEIN AND ANDRE REZNIKOV
+
+
+
+
+Let φ be a normalized eigenfunction of the Laplace-Beltrami operator on Y . Consider
+a closed G-invariant subspace Lφ ⊂ L2 (X) generated by φ under the action of G. It is
+well-known that (π, L) = (πφ , Lφ ) is an irreducible unitary representation of G (see [G6]).
+Usually it is more convenient to work with the space V = L∞ of smooth vectors in L.
+The unitary Hermitian form PX on V is G-invariant.
+A smooth representation (π, G, V ) equipped with a positive G-invariant Hermitian form
+P we will call a smooth pre-unitary representation; this simply means that V is the
+space of smooth vectors in the unitary representation obtained from V by completion
+with respect to P .
+Thus starting with an automorphic function φ we constructed an irreducible smooth pre-
+unitary representation (π, V ). In fact we constructed this space together with a canonical
+morphism ν : V → C ∞ (X) since C ∞ (X) is the smooth part of L2 (X).
+Definition. A smooth pre-unitary representation (π, G, V ) equipped with a G-morphism
+ν : V → C ∞ (X) we will call an X-enhanced representation.
+In this note we will assume that the morphism ν is normalized, i.e. it carries the standard
+L2 Hermitian form PX on C ∞ (X) into Hermitian form P on V .
+Thus starting with an automorphic function φ we constructed
+(i) An X-enhanced irreducible pre-unitary representation (π, V, ν),
+(ii) A K-invariant unit vector eV ∈ V (this vector is just our function φ).
+Conversely, suppose we are given an irreducible smooth pre-unitary X-enhanced repre-
+sentation (π, V, ν) of the group G and a K-fixed unit vector eV ∈ V . Then the function
+φ = ν(eV ) ∈ C ∞ (X) is K-invariant and hence can be considered as a function on Y .
+The fact that the representation (π, V ) is irreducible implies that φ is an automorphic
+function.
+Thus we have established a natural correspondence between Maass forms φ and tuples
+(π, V, ν, eV ), where (π, V, ν) is an X-enhanced irreducible smooth pre-unitary representa-
+tion and eV ∈ V is a unit K-invariant vector.
+
+
+2.2. Decomposition of the representation (ΠX , G, L2 (X)). It is well known that in
+case when X is compact the representation (ΠX , G, L2 (X)) decomposes into a direct
+(infinite) sum
+
+(7)                                 L2 (X) = ⊕j (πj , Lj )
+
+of irreducible unitary representations of G (all representations appear with finite multi-
+plicities (see [G6])). Let (π, L) be one of these irreducible ”automorphic” representations
+and V = L∞ its smooth part. By definition V is given with a G-equivariant isometric
+morphism ν : V → C ∞ (X), i.e. V is an X-enhanced representation.
+                                  AUTOMORPHIC FUNCTIONS                                         7
+
+
+
+
+If V has a K-invariant vector it corresponds to a Maass form. There are other spaces
+in this decomposition which correspond to discrete series representations. Since they are
+not related to Maass forms we will not study them in more detail.
+
+2.3. Representations of P GL2 (R). All irreducible unitary representations of G are
+classified. For simplicity we consider those with a nonzero K-fixed vector (so called
+representations of class one) since only these representations arise from Maass forms.
+These are the representations of the principal and the complementary series and the
+trivial representation.
+We will use the following standard explicit model for irreducible smooth representations
+of G.
+For every complex number λ consider the space Vλ of smooth even homogeneous functions
+on R2 \ 0 of homogeneous degree λ − 1 (which means that f (ax, ay) = |a|λ−1 f (x, y) for
+all a ∈ R \ 0). The representation (πλ , Vλ ) is induced by the action of the group GL2 (R)
+given by πλ (g)f (x, y) = f (g −1(x, y))| det g|(λ−1)/2 . This action is trivial on the center of
+GL2 (R) and hence defines a representation of G. The representation (πλ , Vλ) is called
+representation of the generalized principal series.
+When λ = it is purely imaginary the representation  (πλ , Vλ ) is pre-unitary; the G-invariant
+                                             1
+                                               R
+scalar product in Vλ is given by hf, giπλ = 2π S 1 f ḡdθ. These representations are called
+representations of the principal series.
+When λ ∈ (−1, 1) the representation (πλ , Vλ ) is called a representation of the comple-
+mentary series. These representations are also pre-unitary, but the formula for the scalar
+product is more complicated (see [G6]).
+All these representations have K-invariant vectors. We fix a K-invariant unit vector
+eλ ∈ Vλ to be a function which is one on the unit circle in R2 .
+Representations of the principal and the complimentary series exhaust all nontrivial irre-
+ducible pre-unitary representations of G of class one.
+In what follows we will do necessary computations for representation of the principal series.
+Computations for the complementary series are a little more involved but essentially the
+same (compare with [BR1], section 5.5, where similar computations are described in
+detail).
+Suppose we are given a class one X-enhanced representation ν : Vλ → C ∞ (X); we assume
+ν to be an isometric embedding. Such ν gives rise to an eigenfunction of the Laplacian
+on the Riemann surface Y = X/K as before. Namely, if eλ ∈ Vλ is a unit K-fixed vector
+then the function φ = ν(eλ ) is a normalized eigenfunction of the Laplacian on the space
+                                        2
+Y = X/K with the eigenvalue µ = 1−λ   4
+                                          . This explains why λ is a natural parameter to
+describe Maass forms.
+
+2.4. Triple products. We introduce now our main tool.
+8                          JOSEPH BERNSTEIN AND ANDRE REZNIKOV
+
+
+
+
+2.4.1. Automorphic triple products. Suppose we are given three X-enhanced representa-
+tions of G
+                               νj : Vj → C ∞ (X), j = 1, 2, 3 .
+
+We define the G-invariant trilinear form lπaut
+                                            1 ,π2 ,π3
+                                                      : V1 ⊗ V2 ⊗ V3 → C , by formula
+
+                                                   Z
+(8)               lπaut
+                     1 ,π2 ,π3
+                               (v1 ⊗ v2 ⊗ v3 ) =       φv1 (x)φv2 (x)φv3 (x)dµX ,
+                                                   X
+
+where φvj = νj (vj ) ∈ C ∞ (X) for vj ∈ Vj .
+In particular, the triple periods ci in (3) can be expressed in terms of this form as ci =
+ aut
+lπ,π ′ ,π (eτ ⊗ eτ ′ ⊗ eλi ), where eλ ∈ Vλ is the K-fixed unit vector.
+         i
+
+
+
+
+2.4.2. Uniqueness of triple products. The central fact about invariant trilinear functionals
+is the following uniqueness result:
+Theorem. Let (πj , Vj ), j = 1, 2, 3 , be three irreducible smooth admissible representa-
+tions of G. Then dim HomG (V1 ⊗ V2 ⊗ V3 , C) ≤ 1.
+Remark. The uniqueness statement was proven by Oksak in [O] for the group SL(2, C)
+and the proof could be adopted for P GL2 (R) as well (see also [Mo] and [Lo]). For the
+p-adic GL(2) more refined results were obtained by Prasad (see [P]). He also proved the
+uniqueness when at least one representation is a discrete series representation of GL2 (R).
+There is no uniqueness of trilinear functionals for representations of SL2 (R) (the space is
+two-dimensional). This is the reason why we prefer to work with P GL2 (R).
+For SL2 (R) one has the following uniqueness statement instead. Let (π, V ) and (σ, W )
+be two irreducible smooth pre-unitary representations of SL2 (R) of class one. Then the
+space of SL2 (R)-invariant trilinear functionals on V ⊗ V ⊗ W which are symmetric in the
+first two variables is one-dimensional. This is the correct uniqueness result needed if one
+wants to work with SL2 (R) ; this was implicitly done in [Re2], where the second author
+missed the absence of the uniqueness for SL2 (R). We take an opportunity to correct this
+gap.
+We note however, that the absence of uniqueness does not pose any problem for the
+method we present. All what is really needed for our method is the fact that the space
+of invariant functionals is finite dimensional .
+
+
+                       3. Triple products: exponential decay
+
+We now explain our method how to bound coefficients ci . It is based on the uniqueness
+of trilinear functionals.
+                                    AUTOMORPHIC FUNCTIONS                                        9
+
+
+
+
+3.1. Model triple products. Let (π, V ) and (π ′ , V ′ ) be automorphic representations
+corresponding to Maass forms φ and φ′ . Any Maass form φi gives us an automorphic
+representation (πi , Vλi ) and hence defines a trilinear functional
+                                    aut             ′
+                                   lπ,π ′ ,π : V ⊗ V ⊗ Vλi → C .
+                                            i
+
+
+In 5.1 we use an explicit model for representations π1 , π2 , π3 to construct a model
+invariant trilinear functional which is given by an explicit formula. We call it the model
+triple product and denote by lπmod 1 ,π2 ,π3
+                                             .
+By the uniqueness principle for representations π, π ′ , πi there exists a constant ai = aπ,π′ ,πi
+such that:
+                                       aut              mod
+(9)                                   lπ,π ′ ,π = ai · lπ,π ′ ,π .
+                                               i                i
+
+
+
+3.2. Exponential decay. This gives a formula for the triple products ci
+(10)               ci = lλaut
+                           i
+                              (eτ ⊗ eτ ′ ⊗ eλi ) = ai · lλmod
+                                                           i
+                                                              (eτ ⊗ eτ ′ ⊗ eλi ) .
+                         aut
+Here we denoted lλaut
+                    i
+                      = lπ,π         mod
+                             ′ ,π , lλ
+                                 i    i
+                                            mod
+                                         = lπ,π ′ ,π and eλ is the unit K-fixed vector in the
+                                                    i
+representation Vλ .
+The model triple product lλmod i
+                                 (eτ ⊗ eτ ′ ⊗ eλi ) constructed in 5.1 is given by an explicit
+integral. In Appendix A we evaluate this integral by a direct computation in the model.
+It turns out that it has an exponential decay in |λ| which explains the exponential decay
+of coefficients ci . Namely, we prove the following
+Proposition.      Set kλ := |lλmod (eτ ⊗ eτ ′ ⊗ eλ )|2 . Then there exists a constant c > 0 such
+that
+                                        π
+                            kλ = c exp(− |λ|) · |λ|−2(1 + O(|λ|−1))
+                                        2
+as |λ| → ∞ and λ ∈ iR.
+
+                       4. Triple products: polynomial bounds
+
+We explain now how to obtain bounds on the coefficients ai (note that these coefficients
+encode deep arithmetic information - values of L-functions).
+Our method is based on the fact that these coefficients appear in the spectral decompo-
+sition of some geometrically defined Hermitian form on the space E which is essentially
+the tensor product of spaces V and V ′ .
+More precisely, denote by L and L′ the Hilbert completions of spaces V and V ′ , consider
+the unitary representation (Π, G × G, L ⊗ L′ ) of the group G × G and denote by E its
+smooth part; so E is a smooth completion of V ⊗ V ′ .
+Denote by H(E) the (real) vector space of continuous Hermitian forms on E and by
+H+ (E) the cone of nonnegative Hermitian forms.
+10                      JOSEPH BERNSTEIN AND ANDRE REZNIKOV
+
+
+
+
+We will describe several classes of Hermitian forms on E; some of them have spectral
+description, others are described geometrically.
+
+4.1. Hermitian forms corresponding to trilinear functionals. Let W be a smooth
+pre-unitary admissible representation of G. Any G-invariant functional l : V ⊗V ′ ⊗W → C
+defines a G-intertwining morphism T l : V ⊗ V ′ → W ∗ which extends to a G-morphism
+(11)                                T l : E → W̄ .
+
+where we identify the complex conjugate space W̄ with the smooth part of the space W ∗ .
+The standard Hermitian form (scalar product) PW on the space W induces the Hermitian
+form P̄ on W̄ . Using the operator T l we define the Hermitian form H l on the space E by
+H l = (T l )∗ (P̄ ), i.e. H l (u) = P̄ (T l (u)) for u ∈ E.
+We note that if the representation of G in the space W is irreducible then starting with the
+Hermitian form H l we can reconstruct the space W , the functional l and the morphism
+T l uniquely up to an isomorphism.
+Let us introduce a special notation for the particular case we are interested in. For
+any number λ ∈ iR consider the representation of the principal series W = Vλ , choose
+the model trilinear functional lmod : V ⊗ V ′ ⊗ Vλ → C described in 5.1 and denote the
+corresponding Hermitian form on E by Hλmod .
+
+4.2. Diagonal form H∆ . Consider the space C ∞ (X × X). The diagonal ∆ : X →
+X × X gives rise to the restriction morphism r∆ : C ∞ (X × X) → C ∞ (X). We define a
+nonnegative Hermitian form H∆ on C ∞ (X × X) by H∆ = (r∆ )∗ (PX ), i.e.
+H∆ (u) = PX (r∆ (u)) = X |r∆ (u)|2dµX for u ∈ C ∞ (X × X).
+                      R
+
+We call H∆ the diagonal form.
+More generally, if L is a closed subspace of L2 (X) and prL : L2 (X) → L the orthogonal
+projection onto L we can define a Hermitian form PL on C ∞ (X) by PL = (prL )∗ (PX ) and
+consider the induced Hermitian form HL = (r∆ )∗ (PL ) on C ∞ (X × X).
+Clearly the correspondence L 7→ HL is additive (which means that HL+L′ = HL + HL′ if
+L and L′ are orthogonal) and monotone.
+
+4.3. First basic inequality. Let us realize the space E = V ⊗ V ′ as a G × G-invariant
+subspace of C ∞ (X × X). We consider the restrictions of the Hermitian forms H∆ , HL
+discussed above to the space E and will denote them by the same symbols.
+Claim.      Let φλi be a Maass form. Consider the G-invariant subspace Li ⊂ L2 (X)
+generated by φλi and its complex conjugate L̄i ⊂ L2 (X).
+Then on the space E the Hermitian form HL̄i coincides with the form Hλaut
+                                                                       i
+                                                                          corresponding
+                                       aut            ′
+to the automorphic trilinear form l = lπ,π′,πi : V ⊗ V ⊗ Vλi → C.
+                                  AUTOMORPHIC FUNCTIONS                                       11
+
+
+
+
+Indeed, if we identify the space L̄i with L∗i then the operator prL̄i ◦ r∆ : E → L̄i coincides
+with the operator T l corresponding to the automorphic trilinear form l = lπ,π aut
+                                                                                   ′ ,π .
+                                                                                       i
+
+This claim implies the first basic inequality
+
+                                      X
+(12)                                       |ai |2 Hλmod
+                                                     i
+                                                        ≤ H∆ .
+                                      λi
+
+
+Indeed, by the uniqueness principle (9) we have:
+
+
+(13)                                  Hλaut
+                                         i
+                                            = |ai |2 · Hλmod
+                                                          i
+                                                             ,
+where ai = aπ,π′ ,πi are as in (9).
+                                                            aut
+                                                      P
+Since all the spaces L̄i are orthogonal we have          i Hλi ≤ H∆ which proves the first basic
+inequality.
+
+4.4. Second basic inequality. We would like to use the inequality (12) to bound the
+coefficients ai . In order to do this we have to establish some bounds for the diagonal form
+H∆ .
+The group G × G naturally acts on the space of Hermitian forms on C ∞ (X × X) - we
+denote this action by Π. We extend this action to the action of the algebra H(G ×
+G) = Cc∞ (G × G, R) of smooth real valued functions with compact support. Note that
+if h ∈ H(G × G) is a nonnegative function then the operator Π(h) preserves the cone of
+positive forms.
+We have then the second basic inequality
+Claim. Let h ∈ H(G × G) be a non-negative function. Then there exists a constant C,
+depending on h, such that we have Π(h)H∆ ≤ C · PX×X , where PX×X is the standard L2
+Hermitian form on the space C ∞ (X × X).
+
+Proof. Let u ∈ C ∞ (X × X) and f = |u|2. Then PX×X (u) = hµ, f i and Π(h)H∆ (u) =
+hµ′ , f i, where µ = µX×X and µ′ = Π(h)(∆∗ (µX )) are two measures on X × X.
+Since the measure µ′ is smooth it is bounded by Cµ.                                           
+
+Note that the bound in the claim is essentially tight. Namely if the function h has large
+enough support then we also have a bound in the opposite direction.
+
+4.5. Positive functionals. We can now prove that the coefficients ai have at most poly-
+nomial growth in |λi |.
+12                      JOSEPH BERNSTEIN AND ANDRE REZNIKOV
+
+
+
+
+We start with the inequality (12) of non-negative forms. We want to produce out of it
+an inequality for coefficients ai . There is a standard way to do this by means of positive
+functionals on the space of Hermitian forms H(E).
+Definition. A positive functional on the space H(E) is an additive map ρ : H(E)+ →
+R+ ∞.
+  S
+
+It is easy to see that the positive functional ρ is automatically monotone and homogeneous
+(i.e. ρ(H) ≤ ρ(H ′ ) if H ≤ H ′ and ρ(aH) = aρ(H) for a > 0).
+Example. Any vector u ∈ E gives us an elementary positive functional ρu defined by
+ρu (H) = H(u).
+Fix a positive functional ρ and consider the weight function h(λ) = ρ(Hλmod ). Then from
+the first basic inequality (12) we can deduce the following inequality for a weighted sum
+of coefficients |ai |2 :
+
+                                   X
+                                        h(λi )|ai |2 ≤ ρ(H∆ ) .
+                                    i
+
+
+4.6. Test functional ρT . For any real T we construct in 5.2 the positive ”test” functional
+ρT on H(E) with the properties described in the proposition below. Let us fix automorphic
+representations V, V ′ ⊂ C ∞ (X), E = V ⊗ V ′ ⊂ C ∞ (X × X) as above.
+Proposition. We can find a constant C which depends only on G and Γ and a constant
+T0 which depends on V and V ′ such that for any T ≥ T0 there exists a positive functional
+ρT on H(E) satisfying
+(14)                     ρT (H∆ ) ≤ CT 2 ,
+(15)                     hT (λ) := ρT (Hλmod ) ≥ 1 for any |λ| ≤ 2T .
+
+
+                                                                         2     mod
+                                                                P
+4.7. Proof of Theorem 1.4. Consider the inequality                i |ai | ρT (Hλi ) ≤ ρT (H∆ ).
+
+The right hand side ρT (H∆ ) is bounded by CT 2 . In the left hand side we can leave only
+terms with |λi | ≤ 2T . Thus we arrive at inequality
+
+                                    X
+(16)                                          |ai |2 ≤ CT 2 .
+                                   |λi |≤2T
+
+
+                                        |ai |2 .
+                                   P
+This gives the desired bound for
+According to Proposition 3.2Pthere exists a constant b such that bi T 2 ≤ b|ai |2 for T ≤
+|λi | ≤ 2T . This shows that T <|λi |<2T bi ≤ A for some constant A, which finishes the
+proof of Theorem 1.4.
+                                       AUTOMORPHIC FUNCTIONS                                            13
+
+
+
+
+4.7.1. A conjecture. One can show (see [Re1]) that the mean-value result in (16) is essen-
+tially sharp. One expects that for T ≤ |λi | ≤ 2T all terms in the sum (16) are at most of
+order T ε for any ε > 0. Hence, we have established a sharp bound on the average and a
+rather weak bound for each term. This is a typical situation which one often encounters
+in the analytic theory of L-functions, the so-called convexity bound. The major problem
+hence is to find a method which would allow us to obtain better bound for a single term
+or for a short interval – the so-called subconvexity bounds.
+We would like to make the following conjecture concerning the size of coefficients aπ,π′ ,πi
+which is equivalent to Conjecture 1.5:
+Conjecture.         For fixed π, π ′ and for any ε > 0 there exists Cε > 0 independent of λi
+such that
+                                           |aπ,π′,πλi | ≤ Cε |λi |ε ,
+as |λi | → ∞.
+
+
+5. Construction of model trilinear functionals and of test functionals
+
+5.1. Model trilinear functionals. For every λ ∈ C we denote by (πλ , Vλ ) the smooth
+class one representation of the generalized principle series of the group G = P GL2 (R)
+described in 2.3. We will use the realization of (πλ , Vλ) in the space of smooth homogeneous
+functions on R2 \ 0 of homogeneous degree λ − 1 .
+For explicit computations it is often convenient to pass from plane model to a circle
+model. Namely, the restriction of functions in Vλ to the unit circle S 1 ⊂ R2 defines an
+isomorphism of the space Vλ with the space C ∞ (S 1 )even of even smooth functions on S 1
+so we can think about vectors in Vλ as functions on S 1 .
+In this section we describe the model invariant trilinear functional using the geometric
+models. Namely for given three complex numbers λj , j = 1, 2, 3, we construct explicitly
+nontrivial trilinear functional lmod : Vλ1 ⊗ Vλ2 ⊗ Vλ3 → C by means of its kernel.
+
+5.1.1. Kernel of lmod . Let ω(ξ, η) = ξ1 η2 − ξ2 η1 be SL2 (R)-invariant of a pair of vectors
+ξ, η ∈ R2 . We set
+
+
+(17)       Kλ1 ,λ2 ,λ3 (s1 , s2 , s3 ) = |ω(s2, s3 )|(α−1)/2 |ω(s1 , s3 )|(β−1)/2 |ω(s1, s2 )|(γ−1)/2
+for s1 , s2 , s3 ∈ R2 \ 0, where α = λ1 − λ2 − λ3 , β = −λ1 + λ2 − λ3 , γ = −λ1 − λ2 + λ3 .
+The kernel function Kλ1 ,λ2 ,λ3 (s1 , s2 , s3 ) satisfies two main properties:
+
+   (1) K is invariant with respect to the diagonal action of SL2 (R).
+   (2) K is homogeneous of degree −1 − λj in each variable sj .
+14                          JOSEPH BERNSTEIN AND ANDRE REZNIKOV
+
+
+
+
+Hence if fj are homogeneous functions of degree −1 + λj , then the function
+                     F (s1 , s2 , s3 ) = f1 (s1 )f2 (s2 )f3 (s3 )Kλ1 ,λ2 ,λ3 (s1 , s2 , s3 ) ,
+is homogeneous of degree −2 in each variable sj ∈ R2 \ 0.
+
+5.1.2. Functional lmod . To define the model trilinear functional lmod we notice that on the
+space V of functions of homogeneous degree −2 on R2 \ 0 there exists aR natural SL2 (R)-
+invariant functional L : V → C . It is given by the formula L(f ) = Σ f dσ where the
+integral is taken over any closed curve Σ ⊂ R2 \ 0 which goes around 0 and the measure
+dσ on Σ is given by the area element inside of Σ divided by π; this last normalization
+factor is chosen so that L(Q−1 ) = 1 for the standard quadratic form Q on R2 .
+Applying L separately to each variable si ∈ R2 \ 0 of the function F (s1 , s2 , s3 ) above we
+obtain the G-invariant functional
+(18)                        lπmod
+                               1 ,π2 ,π3
+                                         (f1 ⊗ f2 ⊗ f3 ) := hL ⊗ L ⊗ L, F i .
+
+In the circle model this functional is expressed by the following integral:
+                                               ZZZ
+          mod                               −3
+(19)     lπ1 ,π2 ,π3 (f1 ⊗ f2 ⊗ f3 ) = (2π)        f1 (x)f2 (y)f3 (z)Kλ1 ,λ2 ,λ3 (x, y, z)dxdydz,
+
+where x, y, z are the standard angular parameters on the circle.
+Remark. The integral defining the trilinear functional is often divergent and the func-
+tional should be defined using regularization of this integral. There are standard proce-
+dures how to make such a regularization (see e.g. [G1]).
+Fortunately in the case of unitary representations all integrals converge absolutely so we
+will not discuss the regularization procedure.
+
+5.2. Construction of test functionals. In this section we will present a construction
+of a family of test functionals ρT on the space H(E).
+Fix smooth irreducible pre-unitary representations of class one V = Vτ , V = Vτ ′ and
+denote by E the smooth completion of V ⊗V ′ as in section 4. We will do the computations
+only for representations of the principal series; complementary series are treated similarly.
+For computations we will identify the spaces V and V ′ with C ∞ (S 1 )even .
+Our aim is to prove the following
+Proposition. There exist constants T0 , C, c > 0 such that for any T ≥ T0 there exists
+a positive functional ρ on H(E) satisfying
+(20)                           ρ(H∆ ) ≤ CT 2 ,
+(21)                           hT (λ) := ρ(Hλmod ) ≥ c for any |λ| ≤ 2T .
+                                     AUTOMORPHIC FUNCTIONS                                15
+
+
+
+
+The functional ρT = c−1 ρ is the required test functional in 4.6.
+
+5.3. Proof of Proposition 5.2. We will construct a functional ρ as an integral of ele-
+mentary functionals. Namely we find a positive function h ∈ H(G × G) ⊂ C ∞ (G × G) and
+a vector u ∈ E and define ρ(H) = ρu (Π(h)(H)), where ρu is the elementary functional on
+the space H(E) corresponding to the vector u.
+
+5.3.1. Construction of function h. We construct the function h independent of parameter
+T . Let D1 ⊂ SL2 (R) ⊂ G be the subset of matrices g with ||g|| ≤ 2. We consider the
+subset D = D1 × D1 ⊂ G × G and choose a positive function h ∈ H(G × G) = Cc∞ (G × G)
+which is ≥ 1 on the subset D and is supported in some neighborhood of D. We also
+assume that the function h is invariant under left and right translations by elements of
+the maximal compact subgroup K × K.
+
+5.3.2. Construction of vector u. Let us identify the space E = V ⊗ V ′ with the space of
+smooth functions C ∞ (S 1 × S 1 )even . Let S be a disc in S 1 × S 1 of radius (100T )−1. We
+construct u as a smooth non-negative real valued function on S 1 × S 1 supported in S such
+that
+   R
+(i) udxdy = 1,
+(ii) ||u||2L2 ≤ 105 T 2 .
+We would like to show that the functional ρ constructed in 5.3 satisfies conditions formu-
+lated in Proposition 5.2.
+
+5.3.3. Geometric bound. We have
+                      ρ(H∆ ) = ρu (Π(h)(H∆ )) ≤ C ′ ρu (PE ) = C ′ PE (u) ≤ CT 2
+see 4.4, 5.3.2.
+
+5.3.4. Spectral bound. First we would like to give another description of the Hermitian
+form Hλmod . Consider the model trilinear functional l = lπ,π
+                                                          mod
+                                                              ′ ,π described in 5.1 and the
+                                                                  i
+                          l
+corresponding operator T : E → V̄λ .
+We will identify the space Vλ with the space C ∞ (S 1 )even . Fix some point z ∈ S 1 . Then
+the δ functional δz at this point defines a functional f on E. We denote by Pf the
+corresponding Hermitian form on E, Pf (u) = |hf, ui|2.
+Since the scalar product on the space V̄λ ≃ C ∞ (S 1 )even is given by the standard integral
+we see that the standard Hermitian form PV̄λ is Ran average over the compact group K of
+the forms π(k)(Pδz ). This implies that Hλmod = K (Π(k, k)(Pf ))dk.
+Since we assumed the function h ∈ H(G × G) to be K × K-invariant we see that
+
+                                      ρ(Hλmod ) = ρu (Π(h)(Pf ))
+16                       JOSEPH BERNSTEIN AND ANDRE REZNIKOV
+
+
+
+
+Thus we see that in order to prove a lower bound for ρ(Hλmod ) it is enough to establish a
+lower bound for ρu (Π(g)Pf ) := |hΠ(g)f, ui|2, for a subset of g ∈ D of a measure bounded
+from below by a constant.
+Namely, the desired lower bound follows from the following
+Lemma. Let T0 be large enough. Then there exists an open non-empty subset D0 ⊂ D
+such that for T ≥ T0 and for g ∈ D0 we have |hΠ(g)f, ui| ≥ 1/2.
+
+Proof. Let x, y be parameters on circles S 1 describing V and V ′ . As follows from the
+definition (19) the functional f is given by the function f = f (x, y) on S 1 × S 1 described
+by
+            f (x, y) = | sin(y − z)|(α−1)/2 | sin(x − z)|(β−1)/2 | sin(x − y)|(γ−1)/2 ,
+
+where α, β, γ ∈ iR.
+Let D0 ⊂ D be the subset of elements g ∈ D such that the restriction of Π(g)(f ) to the
+subset S ⊂ S 1 × S 1 has the absolute value ≤ 10. (Note that the absolute value |Π(g)(f )|
+is bounded from below for any g ∈ D by a constant depending only on D.) It is easy to
+see that for large T the set D0 is a non empty subset of D ⊂ G × G of a measure bounded
+from below by a constant which is independent of T .
+On the other hand, for g ∈ D0 we see that the gradient of the function Π(g)(f ) on the
+subset S is bounded by 3T . We note now that the diameter of S is bounded by (100T )−1
+and hence the lower bound on |hΠ(g)f, ui| for g ∈ D0 follows from the following easy
+claim
+Claim. Let S be a set with a measure ν and u, h be two measurable functions on S. Let
+us assume that
+                                          R
+(i) u is real valued positive function and udν = 1.
+(ii) sup|h(s)| ≥ 1 and the variation Var(h) := sup|h(s) − h(s′ )| is bounded by 1/2.
+       R
+Then | hudν| ≥ 1/2.
+                                                                                           
+
+
+5.4. Construction of test functionals via Sobolev norms. In this section we outline
+another, slightly more conceptual, construction of test functionals. This construction uses
+the notion of Sobolev norms on representation spaces (see [BR2]).
+
+
+5.4.1. Sobolev norms. Let G be a Lie group and (π, G, V ) a smooth pre-unitary represen-
+tation. Then we can construct a family of positive definite Hermitian forms on the space
+V as follows.
+                                  AUTOMORPHIC FUNCTIONS                                       17
+
+
+
+
+Fix a basis {Xj |j = 1, ..., r} of the Lie algebra g of the group G. Then for any natural
+number l and any T > 0 we define a Hermitian form Ql,T on V by
+                                          X
+                               Ql,T (v) =    T 2(l−|ν|) P (X ν (v)) .
+                                          ν
+                                                                                P
+Here the sum is over all multi indexes ν = (n1 , ..., nr ) with the norm |ν| :=   nj bounded
+by l and P = PV is the Hermitian form defining the unitary structure on V .
+
+5.4.2. Positive functionals defined by forms. Every positive definite Hermitian form Q on
+V defines a positive functional ρQ on H(V ) by ρQ (H) = tr(H|Q). Here tr(H|Q) denotes
+the relative trace of forms H and Q; by definition it is equal to the square of the Hilbert-
+Schmidt norm of the identity operator on V considered as a morphism of pre-Hilbert
+spaces (V, Q) → (V, H). This notion is discussed in detail in [BR2].
+
+5.4.3. Construction of Sobolev test functionals. Let us apply these constructions to the
+representation (Π, G × G, E) discussed in 4.
+Fix l and T , consider the Sobolev Hermitian form Q = Ql,T on the space E and define
+the positive functional ρ on H(E) to be ρ = ρQ .
+Proposition.      Suppose l ≥ 2. Then
+                  2−2l
+(i) ρ(H∆ ) ≤ CT          ,
+(ii) There exists c > 0 such that ρ(Hλmod ) ≥ cT −2l for |λ| ≤ 2T .
+This gives another proof of Proposition 4.6.
+
+5.4.4. Sketch of the proof of Proposition 5.4.3. (i) Since the representation Π is continu-
+ous with respect to the form Ql,T the second basic inequality 4.4 implies that ρ(H∆ ) ≤
+C ′ ρ(PE ). The proof of the inequality ρ(PE ) ≤ C ′′ T 2−2l is the same as in [BR2], section 4.
+In order to prove (ii) it is enough to find a vector u ∈ E such that Ql,T (u) ≤ T 2l and
+|hf, ui| ≥ c, where f = fz is the function described in 5.3.4. We can take a function
+u ∈ C ∞ (S 1 × S 1 ) of the form u = φf where φ is a smooth cut-off function which equals
+0 around singularities of the function f .
+We leave details to the reader.
+
+                                       Appendix A.
+
+A.1. Computation of lmod for K-fixed vectors. In this appendix we prove the Propo-
+sition 3.2 which describes the assymptotic behavior of the function kλ .
+One can prove this proposition applying the stationary phase method directly to the
+integral (19). To do this we need to consider the complexification of the functions eλ (si )
+and the function Kλ1 ,λ2 ,λ3 (s1 , s2 , s3 ) in the variables si and move contour of integration
+18                       JOSEPH BERNSTEIN AND ANDRE REZNIKOV
+
+
+
+
+towards the singularities of the complexified integral. This could be done either in a
+classical language or using analytic continuation of representations in the spirit of [BR1].
+
+
+
+A.2. Computation of the integral. We prefer to prove this proposition in a different
+way. Namely we explicitly compute the value of the model functional on the unit vectors
+in terms of Γ- functions and then prove the proposition by applying Stirling formulas for
+assymptotic behavior of Γ-functions.
+Let πλi , i = 1, 2, 3 be three representations of the generalized principal series and eλi
+be the corresponding K-fixed unit vectors (they correspond to function 1 in the circle
+model). Set A(λ1 , λ2 , λ3 ) := lπmod
+                                   λ ,πλ ,πλ
+                                             (eλ1 ⊗ eλ2 ⊗ eλ3 ).
+                                 1   2   3
+
+In sections A.4, A.5 we explicitly compute the function A(λ1 , λ2 , λ3 ) (see the final expres-
+sion in A.5) .
+
+
+
+A.3. Gaussian. We would like to compute our integral by comparing it with Gaussian
+integrals which are much easier to manipulate with.
+Namely, suppose we are given a finite-dimensional Euclidean vector space L. In this case
+we introduce the Gaussian probability measure G on L by dG = π − dim L/2 exp(−Q)dl,
+where Q is the quadratic form which defines the Euclidean structure on L and dl is the
+standard Euclidean measure on L.
+                                                       R
+We are interested in the quantities hf, Gi = hf, GiL := f dG for various (usually homo-
+geneous) functions f on L. The main properties of the Gaussian which we use are the
+following:
+(i) Normalization. h1, Gi = 1.
+(ii) Product formula. Suppose that the Euclidean space L is a product of Euclidean
+spaces L1 and L2 . Then the Gaussian measure G on L is the product of Gaussian measures
+G1 and G2 on L1 and L2 . In particular, if a function f decomposes as a product of
+functions f1 and f2 on L1 and L2 we have hf, Gi = hf1 , G1 ihf2 , G2 i.
+The following integrals are classical
+Proposition.
+Let L = Rn be the standard Euclidean space.
+(i) Let r denote the radius function on L. Then hr s , Gi = Γ((s + n)/2)/Γ(n/2).
+(ii) Let h be a linear functional on L. Then h|h|s , Gi = ||h||sΓ((s + 1)/2)/Γ(1/2).
+(iii) Let L be the space M2,2 of 2 × 2 matrices with the standard Euclidean structure.
+Then h|det|s , Gi = Γ((s + 1)/2)Γ(s/2 + 1)/Γ(1/2).
+                                    AUTOMORPHIC FUNCTIONS                                     19
+
+
+
+
+Proof. In (i) passing to spherical coordinates we get the integral
+             Z                         Z
+                 s+n−1
+          2c r         exp(−r )dr = c u(s+n)/2 exp(−u)du/u = cΓ((s + n)/2) .
+                              2
+
+
+The normalization at s = 0 defines the constant c = 1/Γ(n/2).
+The proof of (ii) is reduced to the one variable case using product formula and then it
+follows from (i).
+In (iii) we can write L as a product of two column spaces L1 and L2 . Then we have
+h|det|s , Gi = |ω(x, y)|sdG1 (x)dG2 (y) = ( |ω(x, y)|sdG1 (x))dG2 (y) =
+              R                           R R
+
+Γ((s + 1)/2)/Γ(1/2) · |y|sdG2 (y) = Γ((s + 1)/2)Γ(s/2 + 1)/Γ(1/2)
+                       R
+
+since Γ(1) = 1.                                                                               
+
+A.4. Reduction 1. The Proposition A.3 allows us to write the integrals which we would
+like to compute as some Gaussian integrals.
+Corollary.      For any function h ∈ V−λ we have
+                               hh, Gi = Γ((1 − λ)/2) · L(h · eλ ) .
+
+
+Indeed, after averaging h with respect to the action of SO(2) we can assume that it is
+proportional to the function e−λ . Then the formula follows from A.3(i).
+Using this corollary we can rewrite the integral for the function A(λ1 , λ2 , λ3 ).
+Proposition. Consider the Euclidean space L = R2 × R2 × R2 and define the function
+B(λ1 , λ2 , λ3 ) by Gaussian integral B(λ1 , λ2 , λ3 ) := hKλ1 ,λ2 ,λ3 (s1 , s2 , s3 ), Gi. Then
+         B(λ1 , λ2 , λ3 ) = A(λ1 , λ2 , λ3 ) · Γ((1 − λ1 )/2)Γ((1 − λ2 )/2)Γ((1 − λ3 )/2) .
+
+
+A.5. Reduction 2. Let us rewrite the integral defining the function B. First, we identify
+the Euclidean space L in section A.4 with the space M2,3 of 2 × 3 matrices. We consider
+the Euclidean space W ≈ R3 and define the map ν : M2,3 → W using 2 × 2 minors. Let
+us define the function f on W by formula
+                       f (w1 , w2 , w3) = |w1|(α−1)/2 |w2 |(β−1)/2 |w3|(γ−1)/2 .
+We can write Kλ1 ,λ2 ,λ3 = ν ∗ (f ) and hence B(λ1 , λ2 , λ3 ) = hν ∗ (f ), Gi
+(here α = λ1 − λ2 − λ3 , β = −λ1 + λ2 − λ3 , γ = −λ1 − λ2 + λ3 as in 5.1.1).
+Now we will use the following general lemma which we prove in section A.6.
+Lemma.        Let h be a homogeneous function on the space W of homogeneous degree s.
+Then
+                              hν ∗ (h), GiL = hh, GiW · Γ(s/2 + 1) .
+20                         JOSEPH BERNSTEIN AND ANDRE REZNIKOV
+
+
+
+
+From this lemma we see that the computation of the function B(λ1 , λ2 , λ3 ) is reduced to
+the computation of the function C(α, β, γ) := hf, Gi.
+Since the Gaussian G on W is a direct product of three one dimensional Gaussians and
+the function f is a product of functions depending only on one coordinate we deduce that
+the integral hf, Gi is a product of three one dimensional integrals which can be computed
+using A.3.
+Thus we obtain C(α, β, γ) = Γ((α + 1)/4)Γ((β + 1)/4)Γ((γ + 1)/4)/Γ(1/2)3.
+The final expression for the function A(λ1 , λ2 , λ3 ) is
+
+                          Γ((α + 1)/4)Γ((β + 1)/4)Γ((γ + 1)/4)Γ((δ + 1)/4)
+           A(λ1 , λ2 , λ3 ) =                                                 ,
+                           Γ(1/2)3 Γ((1 − λ1 )/2)Γ((1 − λ2 )/2)Γ((1 − λ3 )/2)
+where α = λ1 − λ2 − λ3 , β = −λ1 + λ2 − λ3 , γ = −λ1 − λ2 + λ3 , δ = −λ1 − λ2 − λ3 .
+
+A.6. Proof of Lemma A.5. Consider the natural actions of the group SO(3) on the
+Euclidean spaces M2,3 ≈ W × W and W ; these actions preserve Gaussian measures.
+The map ν : M2,3 → W is SO(3)-equivariant; it is nothing else than the exterior product
+map W × W → 2 (W ) = W ∗ = W . Hence we can replace the function h by its average
+                  V
+with respect to the action of the group SO(3), i.e. up to some constant by a function
+h = r s . This shows that hν ∗ (h), Gi = a(s)hh, Gi, where a(s) depends on s but not on h.
+In order to compute the function a(s) we can consider the identity above for the function
+h(w) = |w3 |s . According to Proposition A.3(ii) we have hh, Gi = Γ((s + 1)/2)/Γ(1/2).
+On the other hand it is clear that the function ν ∗ (h) depends only on four variables and
+hence the integral hν ∗ (h), Gi coincides with the integral hh′ , Gi over the space M2,2 of
+2 × 2 matrices , where h′ (m) = | det(m)|s .
+From Proposition A.3(iii) we deduce that a(s) = Γ(s/2 + 1).
+
+A.7. Proof of Proposition
+                     √     3.2. According to Stirling formulas for any fixed σ and large
+t we have Γ(σ + it) = 2π exp(− π2 |t|)|t|σ−1/2 (1 + O(|t|−1)).
+This and the explicit formula for the function A(λ1 , λ2 , λ3 ) implies the proposition.
+
+                                         References
+[BR1]   J. Bernstein, A. Reznikov, Analytic continuation of representations, Ann. Math., 150(1999),
+        329–352.
+[BR2]   J. Bernstein, A. Reznikov, Sobolev norms of automorphic functionals, IMRN 2002:40 (2002),
+        2155-2174.
+[G1]    I. Gelfand, G. Shilov , Generalized Functions. vol. 1, Academic Press, 1964.
+[G5]    I. Gelfand, M. Graev, N. Vilenkin, Generalized Functions. vol. 5, Academic Press, 1966.
+                                    AUTOMORPHIC FUNCTIONS                                            21
+
+
+
+
+[G6]    I. Gelfand, M. Graev, I. Piatetski-Shapiro, Representation Theory and Automorphic Forms.
+        Saunders, 1969.
+[Go]    A. Good, Cusp forms and eigenfunctions of Laplacian, Math. Ann., 255 (1981), 523–548.
+[HK]    M. Harris, S. Kudla, The central critical value. Ann. of Math. 133, (1991), 605–672.
+[KS]    B. Kröetz, R. Stanton, Holomorphic extension of representations, to appear in Ann. of Math.
+[L]     S. Lang, SL2 (R). Springer GTM105, 1985.
+[Lo]    H. Loke, Trilinear forms of GL(2), Pacific J. Math. 197 (2001), no. 1, 119–144.
+[M]     H. Maass, Über eine neue Art von nichtanalytischen automorphen Funktionen und die Bestim-
+        mung Dirichletscher Reihen durch Funktionalgleichungen, Math. Ann. 121, (1949). 141–183.
+[Mo]    V. Molchanov, Tensor products of unitary representations of the three-dimensional Lorentz
+        group, Izv. Akad. Nauk SSSR Ser. Mat. 43 (1979), no. 4, 860–891.
+[O]     A. Oksak, Trilinear Lorenz invariant forms. Comm. Math. Phys. 29 (1973), 189–217.
+[P]     D. Prasad, Trilinear forms for representations of GL(2), Composito Math., 75(1990), 1–46.
+[PS]    I. Piatetsky-Shapiro, Euler subgroups, in Lie groups and their representations, Halsted, (1975),
+        597–620.
+[Ra]    R. Rankin, Contributions to the theory of Ramanujan’s function τ (n), Proc. Camb. Philos. Soc.
+        35 (1939), 357–372.
+[Re1]   A. Reznikov, Non-vanishing of periods of automorphic functions, Forum Math. 13, No.4 (2001),
+        485–493.
+[Re2]   A. Reznikov, Laplace-Beltrami operator on a Riemann surface and equidistribution of measures,
+        Comm. Math. Phys. 222 (2001), no. 2, 249–267.
+[Sa1]   P. Sarnak, Integrals of products of eigenfunctions, IMRN, no. 6, (1994), 251–260.
+[Sa2]   P. Sarnak, Arithmetical Quantum Chaos, Israeli Math. Conference Proc., vol. 8, 1995.
+[Se]    A. Selberg On the estimation of Fourier coefficients, in Collected works, Springer-Verlag, New
+        York (1989), 506–520.
+[Wa]    T. Watson, Thesis, Princeton, 2001.
+
+Tel Aviv University, Ramat Aviv, Israel
+E-mail address: bernstei@math.tau.ac.il
+
+Bar Ilan University, Ramat-Gan, Israel
+E-mail address: reznikov@math.biu.ac.il
+

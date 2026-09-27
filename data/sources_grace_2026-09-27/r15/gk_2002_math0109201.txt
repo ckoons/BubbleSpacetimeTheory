@@ -1,0 +1,1277 @@
+                                             MEIXNER FUNCTIONS AND POLYNOMIALS RELATED TO LIE ALGEBRA
+                                                                 REPRESENTATIONS
+
+
+
+
+arXiv:math/0109201v1 [math.CA] 25 Sep 2001
+                                                                            WOLTER GROENEVELT AND ERIK KOELINK
+
+
+                                                    Abstract. The decomposition of the tensor product of a positive and a negative discrete series
+                                                    representation of the Lie algebra su(1, 1) is a direct integral over the principal unitary series repre-
+                                                    sentations. In the decomposition discrete terms can occur, and the discrete terms are a finite number
+                                                    of discrete series representations or one complementary series representation. The interpretation of
+                                                    Meixner functions and polynomials as overlap coefficients in the four classes of representations and
+                                                    the Clebsch-Gordan decomposition, lead to a general bilinear generating function for the Meixner
+                                                    polynomials. Finally, realizing the positive and negative discrete series representations as operators
+                                                    on the spaces of holomorphic and anti-holomorphic functions respectively, a non-symmetric type
+                                                    Poisson kernel is found for the Meixner functions.
+
+
+
+
+                                                                                            1. Introduction
+                                                The representation theory of Lie algebras is intimately related to special functions of hyperge-
+                                             ometric type, see e.g. Vilenkin and Klimyk [18] and references therein. In this paper we consider
+                                             the Lie algebra su(1, 1) spanned by H, B and C. In [10, §3] Van der Jeugt and the second author
+                                             considered the self-adjoint element Xa = −2aH + B − C, a ≥ 0, in the double and triple tensor
+                                             product representation of positive discrete series representations, to find convolution identities for
+                                             orthogonal polynomials, see also [16] where the case a = 1 is treated. The method used is based
+                                             on an idea of Granovskii and Zhedanov [4]; (generalized) eigenvectors of a certain element of the
+                                             Lie algebra, which acts as a three-term recurrence operator in an irreducible representation of the
+                                             Lie algebra, can be used to obtain identities for special functions. In this paper we apply this idea
+                                             to the tensor product of a positive and a negative discrete series representation of su(1, 1).
+                                                There are four classes of irreducible unitary representations of su(1, 1); positive and negative dis-
+                                             crete series, principal unitary series and complementary series representations. In the discrete series
+                                             representations, the overlap coefficients between the standard basis and the basis of eigenvectors
+                                             of Xc are all polynomials; Meixner, Meixner-Pollaczek and Laguerre polynomials, corresponding
+                                             to a > 1, a < 1 and a = 1 respectively (see Masson and Repka [13]). This is no longer the case
+                                             for the principal unitary and the complementary series. Since both these representations appear in
+                                             the decomposition of the tensor product of a positive and a negative discrete series representation,
+                                             we have to use non-polynomial functions. In this paper we concentrate on the case a > 1. Then
+                                             we need Meixner functions, which are found in [9], [13], using spectral theory of Jacobi operators.
+                                                In section 2 we decompose the tensor product of a positive and a negative discrete series represen-
+                                             tation into a direct integral over the principal series representations. In the decomposition discrete
+                                             terms can occur, and the discrete terms are a finite number of discrete series representations or one
+                                             complementary series representation. To find the decomposition, we consider the spectrum of the
+                                             Casimir operator in the tensor product. As a consequence we find that the continuous dual Hahn
+                                             polynomials have a natural interpretation as Clebsch-Gordan coefficients for su(1, 1).
+                                                In section 3 we determine the eigenvectors of Xa in the four different representations, as well as
+                                             the eigenvector of Xa in the tensor product representation. Then we determine the Clebsch-Gordan
+
+                                               Date: September 25, 2001.
+                                                                                                       1
+2                              WOLTER GROENEVELT AND ERIK KOELINK
+
+coefficients for these eigenvectors, which turn out to be continuous dual Hahn polynomials. Finally
+we obtain a bilinear generating function for Meixner polynomials.
+   In section 4 use the holomorphic and anti-holomorphic realization of the positive and negative
+discrete series representations. This realization was also used in [17] to find generating functions
+from a tensor product of two positive discrete series representations. Now the eigenvectors of Xa
+become known generating functions for Meixner polynomials. Using the Clebsch-Gordan decom-
+position from section 2, we obtain a non-symmetric type Poisson kernel for the Meixner functions.
+   Acknowledgment. We thank Hjalmar Rosengren for useful discussions.
+
+
+
+                   2. Decomposition of tensor product representations
+  In this section we consider the Lie algebra su(1, 1) and the four classes of irreducible unitary
+representations. Then we decompose the tensor product of a positive and a negative discrete series
+representation into a direct integral of principal unitary series. In the decomposition discrete terms
+can occur, and the discrete terms are a finite number of discrete series representations or one
+complementary series representation. We also determine the Clebsch-Gordan coefficients, which
+turn out to be continuous dual Hahn polynomials.
+
+
+2.1. The Lie algebra su(1, 1). The Lie algebra su(1, 1) is given by
+
+                             [H, B] = 2B,    [H, C] = −2C,      [B, C] = H.
+
+The ∗-structure is defined by H ∗ = H and B ∗ = −C. The Casimir        operator Ω is a central
+self-adjoint element of the universal enveloping algebra U su(1, 1) and
+
+                             1                    1
+                        Ω = − (H 2 + 2H + 4CB) = − (H 2 − 2H + 4BC).                                (2.1)
+                             4                    4
+
+   There are four classes of irreducible unitary representations of su(1, 1), see [18, §6.4]. The positive
+discrete series representations πk+ are representations labeled by k > 0. The representation space
+is ℓ2 (Z≥0 ) with orthonormal basis {en }n∈Z≥0 . The action is given by
+
+                                 πk+ (H)en = 2(k + n)en ,
+                                             p
+                                 πk+ (B)en = (n + 1)(2k + n)en+1 ,
+                                                p                                                   (2.2)
+                                 πk+ (C)en = − n(2k + n − 1)en−1 ,
+                                 πk+ (Ω)en = k(1 − k)en .
+
+   The negative discrete series representations πk− are labeled by k > 0. The representation space
+is ℓ2 (Z≥0 ) with orthonormal basis {en }n∈Z≥0 . The action is given by
+
+                                 πk− (H)en = − 2(k + n)en ,
+                                               p
+                                 πk− (B)en = − n(2k + n − 1)en−1 ,
+                                             p                                                      (2.3)
+                                 πk− (C)en = (n + 1)(2k + n)en+1 ,
+                                 πk− (Ω)en = k(1 − k)en .
+        MEIXNER FUNCTIONS AND POLYNOMIALS RELATED TO LIE ALGEBRA REPRESENTATIONS                           3
+
+  The principal series representations π ρ,ε are labeled by ε ∈ [0, 1) and ρ ≥ 0, where (ρ, ε) 6= (0, 21 ).
+The representation space is ℓ2 (Z) with orthonormal basis {en }n∈Z . The action is given by
+                       π ρ,ε (H)en = 2(ε + n)en ,
+                                     r
+                                              1             1
+                       π ρ,ε (B)en =  (n + ε + − iρ)(n + ε + + iρ)en+1 ,
+                                              2             2
+                                       r                                                              (2.4)
+                                                1             1
+                       π ρ,ε (C)en = − (n + ε − − iρ)(n + ε − + iρ)en−1 ,
+                                                2             2
+                         ρ,ε          2   1
+                       π (Ω)en = (ρ + )en .
+                                          4
+  The complementary series representations π λ,ε are labeled by ε and λ, where ε ∈ [0, 21 ) and
+λ ∈ (− 12 , −ε) or ε ∈ ( 21 , 1) and λ ∈ (− 12 , ε − 1). The representation space is ℓ2 (Z) with orthonormal
+basis {en }n∈Z . The action is given by
+                          π λ,ε (H)en = 2(ε + n)en ,
+                                        p
+                          π λ,ε (B)en = (n + ε + 1 + λ)(n + ε − λ)en+1 ,
+                                           p                                                          (2.5)
+                          π λ,ε (C)en = − (n + ε + λ)(n + ε − λ − 1)en−1 ,
+                          π λ,ε (Ω)en = − λ(1 + λ)en .
+Notice that for λ = − 21 + iρ the actions in the principal series and in the complementary series are
+the same.
+   The operators are unbounded, defined on the space of finite linear combinations of the basisvec-
+tors. From general theory, see Schmüdgen [15, Ch.8, Ch.10], it follows that all operators are
+closable.
+
+2.2. Tensor products of positive and negative discrete series representations. In order
+to decompose the tensor product of a positive and a negative discrete series representation we need
+the continuous dual Hahn polynomials, which are a special case of the Wilson polynomials, see
+Wilson [20, §4]; see also [2, §6.10], [8];
+                                                                              
+                                                         −n, a + ix, a − ix
+              Sn (y; a, b, c) = (a + b)n (a + c)n 3 F2                      ; 1 , x2 = y.      (2.6)
+                                                           a + b, a + c
+For real parameters a, b, c, with a + b, a + c, b + c positive, the continuous dual Hahn polynomials
+are orthogonal with respect to a positive measure, supported on a subset of R.
+The orthonormal continuous dual Hahn polynomials
+                                                             (−1)n Sn (y; a, b, c)
+                         Ŝn (y) = Ŝn (y; a, b, c) = p
+                                                          n!(a + b)n (a + c)n (b + c)n
+satisfy the three-term recurrence relation
+                            y Ŝn (y) = an Ŝn+1 (y) + bn Ŝn (y) + an−1 Ŝn−1 (y),                   (2.7)
+where
+                                   p
+                         an =      (n + 1)(n + a + b)(n + a + c)(n + b + c),
+                                                      1
+                          bn   = 2n2 + 2n(a + b + c − ) + ab + ac + bc.
+                                                      2
+By Kummer’s transformation, see e.g. [2, Cor. 3.3.5], the polynomials Sn and Ŝn are symmetric in
+a, b and c.
+4                               WOLTER GROENEVELT AND ERIK KOELINK
+
+  Without loss of generality we assume that a is the smallest of the real parameters a, b and c.
+Let dµ2 (·; a, b, c) be the measure defined by
+    Z                            Z ∞
+                 2             1        Γ(a + ix)Γ(b + ix)Γ(c + ix) 2          f (x2 )
+       f (y)dµ (y; a, b, c) =                                                                  dx
+     R                        2π 0                Γ(2ix)              Γ(a + b)Γ(a + c)Γ(b + c)
+                                  K
+                Γ(b − a)Γ(c − a) X      (2a)k (a + 1)k (a + b)k (a + c)k
+            +                     (−1)k                                   f (−(a + k)2 ),
+                Γ(−2a)Γ(b + c)          (a)k (a − b + 1)k (a − c + 1)k k!
+                                 k=0
+
+where K is the largest non-negative integer such that a + K < 0. In particular, the measure
+dµ2 (·; a, b, c) is absolutely continuous if a ≥ 0. The measure is positive under the conditions
+a + b > 0, a + c > 0 and b + c > 0. Then the polynomials Ŝn (y; a, b, c) are orthonormal with respect
+to the measure dµ2 (y; a, b, c).
+Later on we also use the notation dµ(·; a, b, c), by this we denote the measure defined by
+   Z                              Z ∞
+                               1       Γ(a + ix)Γ(b + ix)Γ(c + ix)                 f (x2 )
+        f (y)dµ(y; a, b, c) = √                                       p                             dx
+     R                          2π 0              Γ(2ix)                 Γ(a + b)Γ(a + c)Γ(b + c)
+                  s                      s
+                                      K
+                                      X
+                     Γ(b − a)Γ(c − a)            (2a)k (a + 1)k (a + b)k (a + c)k
+                +                          (−1)k                                    f (−(a + k)2 ).
+                     Γ(−2a)Γ(b + c)              (a)k (a − b + 1)k (a − c + 1)k k!
+                                        k=0
+
+Since dµ2 (·; a, b, c) is a positive measure for a + b > 0, a + c > 0 and b + c > 0, the measure
+dµ(·; a, b, c) is a positive measure.
+
+   In order to determine the decomposition of the tensor product representation πk+1 ⊗ πk−2 , we
+calculate the action of the Casimir operator Ω. In the tensor product, we need the comultiplication
+∆. Recall that for an element
+                               Y of the Lie algebra su(1, 1), we have ∆(Y ) = 1 ⊗ Y + Y ⊗ 1 and ∆
+is extended to U su(1, 1) as an algebra homomorphism. Then from (2.1) we obtain
+                                               1
+                         ∆(Ω) = 1 ⊗ Ω + Ω ⊗ 1 − H ⊗ H − (C ⊗ B + B ⊗ C).
+                                               2
+We use this expression, (2.2) and (2.3), to calculate the action of Ω in the tensor product
+                              
+              πk+1 ⊗ πk−2 ∆(Ω) en ⊗ em =
+                                p
+                             − (n + 1)(2k1 + n)(m + 1)(2k2 + m) en+1 ⊗ em+1
+                                                                              
+                             + k1 (1 − k1 ) + k2 (1 − k2 ) + 2(k1 + n)(k2 + m) en ⊗ em
+                                p
+                             − n(2k1 + n − 1) m(2k2 + m − 1) en−1 ⊗ em−1 ,
+                             
+We see that πk+1 ⊗ πk−2 ∆(Ω) is a three-term recurrence operator, which we can identify with the
+three-term recurrence relation for the continuous dual Hahn polynomials. In order to do so we
+define for p ∈ Z and n ∈ Z≥0 , elements fnp ∈ ℓ2 (Z≥0 ) ⊗ ℓ2 (Z≥0 ) by
+                                       (
+                                   p     (−1)n en ⊗ en−p , p ≤ 0,
+                                  fn =
+                                         (−1)n en+p ⊗ en , p ≥ 0.
+
+Note that {fnp }n∈Z≥0 ,p∈Z is an orthonormal basis for ℓ2 (Z≥0 ) ⊗ ℓ2 (Z≥0 ). For fixed p define the space
+
+                                              Hp = C{fnp | n ∈ Z≥0 },
+                       
+then πk+1 ⊗ πk−2 ∆(Ω) is an unbounded symmetric tridiagonal operator on Hp with domain the
+space of finite linear combinations of fnp .
+       MEIXNER FUNCTIONS AND POLYNOMIALS RELATED TO LIE ALGEBRA REPRESENTATIONS                               5
+
+  We define operators Λp : Hp → L2 (R, dµ2 (y; p)) by
+
+                            (
+                             Ŝn (y; k1 − k2 + 12 , k1 + k2 − 12 , k2 − k1 − p + 21 ),   p ≤ 0,
+                   fnp 7→
+                             Ŝn (y; k2 − k1 + 12 , k1 + k2 − 12 , k1 − k2 + p + 21 ),   p ≥ 0,
+
+
+where dµ2 (y; p) denotes the measure dµ2 (y; a, b, c) with
+
+             (                                                            (
+              k1 − k2 + 12 , p ≤ 0,                        1                  k2 − k1 − p + 21 , p ≤ 0,
+          a=                                  b = k1 + k2 − ,        c=                                   (2.8)
+              k2 − k1 + 12 , p ≥ 0,                        2                  k1 − k2 + p + 12 , p ≥ 0.
+
+
+
+                                                                                            
+Proposition 2.1. For every p ∈ Z the operator Λp is unitary and intertwines πk+1 ⊗ πk−2 ∆(Ω)
+acting on Hp , with My+ 1 acting on L2 (R, dµ2 (y; p)).
+                             4
+
+
+
+  Here Mg denotes multiplication by the function g, so Mg f (y) = g(y)f (y).
+
+                                                                                   
+Proof. Letting πk+1 ⊗ πk−2 ∆(Ω) act on an element fnp , we see that πk+1 ⊗ πk−2 ∆(Ω) Hp is an un-
+bounded Jacobi operator, see Akhiezer [1]. Comparing the coefficients with the three-term re-
+currence relation
+                 (2.7) for the continuous dual Hahn polynomials, we see that we can identify
+πk+1 ⊗ πk−2 ∆(Ω) |Hp − 14 with (2.7) using (2.8) by a straightforward computation. Since the cor-
+                                                              
+responding moment problem is determinate, πk+1 ⊗ πk−2 ∆(Ω) Hp is essentially self-adjoint and the
+                                         
+operator Λp intertwines πk+1 ⊗ πk−2 ∆(Ω) Hp with My+ 1 . Since the continuous dual Hahn polyno-
+                                                                 4
+mials Ŝn are dense in L2 (R, dµ2 (y; p)), Λp maps one orthonormal basis onto another. Therefore Λp
+is a unitary operator.
+
+                                                                        
+   Using proposition 2.1 we can find the spectrum of πk+1 ⊗ πk−2 ∆(Ω) , which is an essentially self-
+adjoint operator on ℓ2 (Z≥0 ) ⊗ ℓ2 (Z≥0 ). From the orthonormality measure for the continuous dual
+Hahn polynomials, we see that the spectrum has a continuous part [ 41 , ∞) and a finite discrete part,
+depending on the parameters k1 and k2 . From now on we assume that k1 ≤ k2 .
+   For the continuous part of the spectrum, we recognize the action of Ω in the principal series
+representation, using y = ρ2 . From the action of H in the tensor product, we obtain ε = k1 −k2 +L,
+where L is the unique non-negative integer such that ε ∈ [0, 1).
+   If k1 + k2 < 12 the point spectrum contains one term: 41 − (k1 + k2 − 21 )2 . Using λ = −k1 − k2 we
+recognize here the action of Ω in the complementary series representation labeled by λ and ε.
+   For k1 −k2 < − 12 the spectrum has K +1 discrete terms for p ≤ 0 and K +1−p terms for 0 ≤ p ≤
+K. If p > K there is no discrete part. Here K is the largest integer such that k1 −k2 + 21 +K < 0. All
+the terms in the discrete part of the spectrum have the form 14 − (k1 − k2 + 12 + j)2 , j = 0, 1, . . . , K.
+From this we recognize the action of Ω in a discrete series representation πk2 −k1 −j . From the action
+of H, we find that this is a negative discrete series representation.
+   Now we can prove the following theorem.
+6                                    WOLTER GROENEVELT AND ERIK KOELINK
+
+Theorem 2.2. For k1 ≤ k2 the decomposition of the tensor product of positive and negative discrete
+series representations of su(1, 1) is
+                         Z∞⊕
+                                                                                               1           1
+         πk+1 ⊗ πk−2 ∼
+                     =          π ρ,ε dρ,                                           k1 − k2 ≥ − , k1 + k2 ≥ ,
+                                                                                               2           2
+                          0
+                         Z∞⊕
+                                                                                                            1
+         πk+1 ⊗ πk−2 ∼
+                     =          π ρ,ε dρ ⊕ π λ,ε ,                                                 k1 + k2 < ,
+                                                                                                            2
+                         0
+                         Z∞⊕                      M                                                          1
+         πk+1 ⊗ πk−2 ∼
+                     =          π ρ,ε dρ ⊕                      πk−2 −k1 −j ,                     k1 − k2 < − ,
+                                                                                                             2
+                          0                      j∈Z≥0
+                                             k2 −k1 − 12 −j>0
+
+where ε = k1 − k2 + L, L is the unique integer such that ε ∈ [0, 1) and λ = −k1 − k2 . Further,
+under the identification above,
+                                      Z
+                                   n2
+                   en1 ⊗ en2 = (−1)     Ŝn (y; n1 − n2 )en1 −n2 −L dµ(y; n1 − n2 ),      (2.9)
+                                                     R
+
+where n = min{n1 , n2 }, Ŝn (y; p) is a continuous dual Hahn polynomial,
+                           (
+                              Ŝn (y; k1 − k2 + 12 , k1 + k2 − 12 , k2 − k1 − p + 12 ),            p ≤ 0,
+             Ŝn (y; p) =
+                              Ŝn (y; k2 − k1 + 21 , k1 + k2 − 12 , k1 − k2 + p + 12 ),            p ≥ 0,
+and
+                            (
+                             dµ(y; k1 − k2 + 21 , k1 + k2 − 12 , k2 − k1 − p + 21 ),               p ≤ 0,
+                 dµ(y; p) =
+                             dµ(y; k2 − k1 + 21 , k1 + k2 − 12 , k1 − k2 + p + 21 ),               p ≥ 0.
+
+   So the continuous dual Hahn polynomials have an interpretation as Clebsch-Gordan coefficients
+for su(1, 1). The inversion of (2.9) can be given explicitly, e.g. for an element
+                                      Z ∞                                                Z∞⊕
+                    f ⊗ er−L =               f (x)er−L dx ∈ L (0, ∞) ⊗ ℓ (Z) ∼
+                                                                     2
+                                                                             =  2
+                                                                                               ℓ2 (Z)dx
+                                        0
+                                                                                         0
+
+in the representation space of the direct integral, we have
+                          ∞             Z                          
+                           X
+                          
+                                (−1)p−r
+                                              Ŝp (y; r)f (y)dµ(y; r) ep ⊗ ep−r , r ≤ 0,
+                          
+                          
+                             p=0            R
+               f ⊗ er−L = X   ∞        Z                                                                             (2.10)
+                          
+                                    p
+                          
+                           (−1)
+                                          Ŝp (y; r)f (y)dµ(y; r) ep+r ⊗ ep ,
+                                                     R
+                                                                                  r ≥ 0.
+                                     p=0
+
+For the discrete components in theorem 2.2 we can replace f by a Dirac delta function at the
+appropriate points of the discrete mass of dµ(·; r).
+
+Proof. First we work out the proof for k1 − k2 ≥ − 12 and k1 + k2 ≥ 21 , so dµ(y; n1 − n2 ) only
+has a absolutely continuous part. We denote the continuous part of the measure dµ(y; a, b, c) by
+W (y; a, b, c), so
+                              Γ(a + ix)Γ(b + ix)Γ(c + ix)               1
+       W (y; a, b, c) =                                   p                             ,                   y = x2 .
+                                        Γ(2ix)              2π Γ(a + b)Γ(a + c)Γ(b + c)
+        MEIXNER FUNCTIONS AND POLYNOMIALS RELATED TO LIE ALGEBRA REPRESENTATIONS                                   7
+
+Observe that
+                                                                s
+                                        W (y; a, b, c + 1)              c2 + y
+                                                           =                       .                          (2.11)
+                                         W (y; a, b, c)             (a + c)(b + c)
+  Define an operator Λ by gluing together all the operators Λp , p ∈ Z,
+                                       Z ∞
+                                    n2
+                Λ(en1 ⊗ en2 ) = (−1)       Ŝl (x2 ; n1 − n2 )W (x2 ; p)en1 −n2 −L dx,                        (2.12)
+                                                     0
+
+where l = min{n1 , n2 } and en1 −n2 −L inside the integral is an orthonormal basisvector of the repre-
+sentation space for the principal series representation π x,ε . Note that Λ is unitary.
+   We use (2.2) and (2.3) to find the action of B in the tensor product for n1 = n and n1 −n2 = p < 0;
+                                     
+       Λ πk+1 ⊗ πk−2 ∆(B) en ⊗ en−p
+                     Z ∞p
+               n−p
+        =(−1)              (n + 1)(2k1 + n)Ŝn+1 (x2 ; p + 1)W (x2 ; p + 1)ep−L+1 dx
+                      0
+                            Z ∞p
+          − (−1)   n−p−1
+                                   (n − p)(2k2 + n − p − 1)Ŝn (x2 ; p + 1)W (x2 ; p + 1)ep−L+1 dx
+                              0
+                     Z ∞r
+                                                    1
+        =(−1)  n−p
+                           (p − L + k1 − k2 + L + )2 + x2 Ŝn (x2 ; p)W (x2 ; p)ep−L+1 dx
+                      0                             2
+           ∞
+          Z ⊕
+        =      π x,ε (B)dx ◦ Λ(en ⊗ en−p ),
+           0
+
+where π x,ε denotes the principal series representation. Here we use (2.11) and the following con-
+tiguous relation
+                      c2 + y
+               p                  Ŝn (y; a, b, c + 1) =
+                   (a + c)(b + c)                                                                             (2.13)
+               p                                               p
+                   (n + 1)(a + b + n) Ŝn+1 (y; a, b, c) +         (a + c + n)(b + c + n) Ŝn (y; a, b, c).
+This relation can be verified by expanding
+                                                                     n+1
+                                                                     X
+                                 (y + c2 )Ŝn (y; a, b, c + 1) =           ci Ŝi (y; a, b, c),
+                                                                     i=0
+
+where
+                                 Z
+                          ci =       (y + c2 )Ŝn (y; a, b, c + 1)Ŝi (y; a, b, c)dµ2 (y; a, b, c).
+                                 R
+
+From (2.11) and the orthogonality relations for Ŝn (y; a, b, c + 1) we see that ci = 0 for i < n. The
+coefficients
+ p           cn and cn+1 follow easily from the integral and the leading coefficient of Ŝn (y; a, b, c) =
+( n! (a + b)n (a + c)n (b + c)n )−1 y n + . . . .
+  For the case p ≥ 0 the intertwining property for the action of B follows similarly using the
+contiguous relation
+       p
+          (a + c − 1)(b + c − 1)Ŝn (y; a, b, c − 1) =
+       p                                                  p
+          (n + a + c − 1)(n + b + c − 1)Ŝn (y; a, b, c) + n(n + a + b − 1)Ŝn−1 (y; a, b, c).
+This companion formula to (2.13) is checked in the same way as (2.13).
+8                             WOLTER GROENEVELT AND ERIK KOELINK
+
+    So we now have shown
+                                                         Z∞ ⊕
+                                                    
+                             Λ ◦ πk+1 ⊗ πk−2   ∆(Y ) =          π ρ,ε (Y )dρ ◦ Λ,               (2.14)
+                                                         0
+for Y = B. The case Y = H of (2.14) is straightforward from (2.2), (2.3), (2.4) and (2.12). The
+case Y = C of (2.14) can be deduced as for Y = B, or it can be deduced from the case Y = B and
+the unitary properties of Λ and the representations of su(1, 1).
+   We now have proved the theorem for the case k1 − k2 ≥ − 21 , k1 + k2 ≥ 12 . The other cases can be
+proved in the same way, only some more bookkeeping is involved for the discrete mass points.
+
+Remark 2.3. (i) For k1 + k2 < 21 a complementary series representation enters the decomposition.
+This fact has already been observed by Ørsted and Zhang in [14, §3] for the case k1 = k2 . They also
+found continuous dual Hahn polynomials as Clebsch-Gordan coefficients. For the group SU (1, 1)
+there is no complementary series representation in the decomposition of the tensor product, since
+then k1 , k2 ∈ 21 N. For the group case we refer to Kerimov and Verdiyev [7], but they do not mention
+that the Clebsch-Gordan coefficients are continuous dual Hahn polynomials. For k1 = k2 the tensor
+product decomposition naturally occurs in the framework of canonical representations, see Hille [5]
+and references therein.
+   (ii) For k1 − k2 < − 12 , the measure on the right hand side of (2.9) has only a discrete part for
+n1 − n2 ≤ K.
+   (iii) The representation on the right hand side in theorem 2.2 are defined on the dense domain
+consisting of finite linear combinations of elements as on the right hand side of (2.9). Then Λ is an
+intertwiner in the sense of [15, §8.2].
+
+                      3. Coupled and uncoupled eigenvectors of Xc
+   In this section we consider a self-adjoint element Xc in su(1, 1). We determine eigenvectors of this
+element in the four different representations. Then we determine the Clebsch-Gordan coefficients
+for this basis of eigenvectors in the tensor product. As a result we find a general bilinear generating
+function for Meixner polynomials.
+3.1. Eigenvectors of Xc in irreducible representations. The Meixner polynomials (see [2],[8])
+are defined by
+                                                               
+                                                  −n, −x      1
+                            Mn (x; β, c) = 2 F1          ;1 −     .                    (3.1)
+                                                    β         c
+For β > 0 and 0 < c < 1, these are orthogonal polynomials with respect to a positive measure on
+Z≥0 . The orthonormal Meixner polynomials
+                                                       r
+                                                         (β)n cn
+                             M̂n (x) = M̂n (x; β, c) =           Mn (x; β, c)
+                                                            n!
+satisfy the following three-term recurrence relation
+             (c − 1)(x + 12 β)          p
+                    √          M̂n (x) = (n + 1)(n + β)M̂n+1 (x) +
+                      c
+                                                                                          (3.2)
+                                          (c + 1)(n + 12 β)          p
+                                        −          √        M̂n (x) + n(n − 1 + β)M̂n−1 .
+                                                     c
+Define the weight function w(x; β, c) by
+                                                    (β)x x
+                                     w(x; β, c) =       c (1 − c)β ,
+                                                     x!
+       MEIXNER FUNCTIONS AND POLYNOMIALS RELATED TO LIE ALGEBRA REPRESENTATIONS                        9
+
+then the Meixner polynomials are orthonormal in x with respect to this weight function;
+                              X∞
+                                  M̂n (x)M̂m (x)w(x; β, c) = δmn .
+                                  x=0
+From the definition it is clear that the Meixner polynomials are self-dual, i.e. invariant under
+interchanging n and x. This gives us another orthogonality relation
+                                 ∞
+                                 X
+                                    M̂n (x)M̂n (y)w(x; β, c) = δxy .                        (3.3)
+                                   n=0
+  The Meixner functions (see Masson and Repka [13, §3] and Koelink [9, §4.4]) are defined by
+                                           p
+                                      1 − c −n Γ(n + λ + ε + 1)Γ(n + ε − λ)
+       m̂n (x) = m̂n (x; λ, ε, c) =    √
+                                         c             Γ(n + 1 − x)
+                                                                                         (3.4)
+                                                       n + ε + λ + 1, n + ε − λ    c
+                                              × 2 F1                            ;       .
+                                                              n+1−x               c−1
+Here we use the analytic continuation to C \ [1, ∞) of the 2 F1 -series. The Meixner functions are
+orthonormal with respect to a positive measure on Z, if 0 < c < 1, 0 ≤ ε < 1 and − 12 < λ < −ε or
+− 12 < λ < ε − 1 or λ = − 21 + iρ, ρ ≥ 0. If n + λ + ε + 1 or n + ε − λ is a non-positive integer, the
+2 F1 -series terminates and can be written as a Meixner polynomial. The Meixner funcions satisfy
+the following three-term recurrence relation
+    (c − 1)(ε + x)          p
+           √       m̂n (x) = (n + ε + λ + 1)(n + ε − λ) m̂n+1 (x) +
+             c
+                                                       p                                         (3.5)
+                              (1 + c)(n + ε)
+                            −       √         m̂n (x) + (n + ε + λ)(n + ε − λ − 1) m̂n−1 (x).
+                                      c
+Define the weight function e
+                           w(x; λ, ε, c) by
+                                                 c−x (1 − c)−2ε
+                            w(x; λ, ε, c) =
+                            e                                          ,
+                                         Γ(ε + x − λ)Γ(ε + λ + x + 1)
+then the Meixner functions are orthonormal with respect to this weight function
+                               ∞
+                               X
+                                   m̂m (x)m̂n (x) e
+                                                 w(x; λ, ε, c) = δmn .                             (3.6)
+                                x=−∞
+The Meixner functions also satisfy the dual orthonormality relation
+                               X∞
+                                     m̂n (x)m̂n (y) e
+                                                   w(x; λ, ε, c) = δxy .                           (3.7)
+                                 n=−∞
+
+Note that for λ = − 21 + iρ, the 2 F1 -series in the definition of the Meixner function is a Jacobi
+          (n−x,n+x+2ε)          
+function ϕ2ρ           c/(1 − c) , where the Jacobi function is defined by
+                                       1                   1                      
+                   ϕ(α,β) (t) = 2 F1    2 (α + β + 1 − iσ), 2 (α + β + 1 + iσ) ; −t .              (3.8)
+                    σ
+                                                       α+1
+For Jacobi functions, see [12] or [18, §7.4.3].
+
+ We define the self-adjoint element Xc in su(1, 1) by
+                                             1+c
+                                     Xc = − √ H + B − C.
+                                              2 c
+We first consider the action of Xc in the positive and negative discrete series representations.
+10                            WOLTER GROENEVELT AND ERIK KOELINK
+
+Proposition 3.1. For x ∈ Z≥0
+                                   ∞
+                                   X                   p
+                          vx+ =          M̂n (x; 2k, c) w(x; 2k, c) en ∈ ℓ2 (Z≥0 ),
+                                   n=0
+                                                                     √
+is a unit eigenvector of πk+ (Xc ) for the eigenvalue (c − 1)(x + k)/ c. And for x ∈ Z≥0
+                                   ∞
+                                   X                   p
+                          vx− =          M̂n (x; 2k, c) w(x; 2k, c) en ∈ ℓ2 (Z≥0 )
+                                   n=0
+                                                                      √
+is a unit eigenvector of πk− (Xc ) for the eigenvalue −(c − 1)(x + k)/ c. Moreover, {vx• }x∈Z≥0 ,
+• = +, −, is an orthonormal basis of ℓ2 (Z≥0 ).
+   For the positive discrete series this is [10, prop. 3.1]), and for the negative discrete series this
+proceeds completely analogously. Proposition 3.1 also shows that πk+ (Xc ), respectively πk− (Xc ), is
+essentially self-adjoint, see [1]. The self-adjoint extension is defined by the same formula on its
+maximal domain, and the domain D of the self-adjoint extension can be discribed in terms of the
+eigenvectors of proposition 3.1 as
+                                                                                 
+                           X                         X                           
+                     D=            cx vx+ ∈ ℓ2 (Z≥0 )    cx (x + k)vx+ ∈ ℓ2 (Z≥0 ) ,
+                                                                                 
+                           x∈Z≥0                       x∈Z≥0
+
+and similarly for the self-adjoint extension of πk− (Xc ).
+  Next we consider the action of Xc in the principal and complementary series representations. We
+denote both these representations here by π λ,ε , where λ = − 12 + iρ, ρ ≥ 0, in the principal series.
+Proposition 3.2. For x ∈ Z
+                                    ∞
+                                    X                      p
+                         wxλ,ε =           m̂n (x; λ, ε, c) ew(x; λ, ε, c) en ∈ ℓ2 (Z)
+                                   n=−∞
+                                                                       √
+is a unit eigenvector of π λ,ε (Xc ) for the eigenvalue (c − 1)(ε + x)/ c. Moreover, {wxλ,ε }x∈Z is an
+orthonormal basis of ℓ2 (Z).
+Proof. The proof follows using a doubly infinite Jacobi operator, corresponding to (3.5) and its
+spectral decomposition given by (3.6), see [9],[13].
+
+Remark 3.3. Note that the spectrum of π λ,ε (Xc ) is independent of λ.
+                                                                                         − 1 +iρ,ε
+We will denote the eigenvector wxλ,ε for the principal series, by vxρ,ε , so vxρ,ε = wx 2 .
+                                   λ,ε
+   Proposition 3.2 implies that π (Xc ) is essentially self-adjoint, see [9], [13], and that its self-
+adjoint extension is given by the same formula on its maximal domain. In terms of the eigenvectors
+of proposition 3.2 the domain is
+                            (                                                   )
+                              X                  X
+                                       λ,ε  2                    λ,ε       2
+                        D=        cx wx ∈ ℓ (Z)      cx (ε + x)wx ∈ ℓ (Z) .
+                              x∈Z                      x∈Z
+
+3.2. Eigenvectors of Xc in the tensor product. In this subsection we want to link the coupled
+and uncoupled eigenvectors of Xc in the tensor product πk+1 ⊗ πk−2 , and calculate the corresponding
+Clebsch-Gordan coefficients. We discuss the method that reduces the problem to theorem 2.2 and
+then indicate another method, based on the Jacobi transform, in remark 3.5.
+        MEIXNER FUNCTIONS AND POLYNOMIALS RELATED TO LIE ALGEBRA REPRESENTATIONS                                                  11
+
+  We define elements Hc , Bc and Cc by
+                                                             √      √
+                                                     1+c    2 c    2 c
+                                        Hc       =       H−     B+     C,
+                                                     1−c    1−c    1−c
+                                                      √
+                                                       c     1      c
+                                            Bc   = −     H+     B−     C,
+                                                     1−c    1−c    1−c
+                                                      √
+                                                       c     c      1
+                                            Cc   =       H−     B+     C.
+                                                     1−c    1−c    1−c
+                                                                                                            a b
+                                                                                                                       √
+then Hc = gHg−1 , Bc = gBg−1 and Cc = gCg −1 with g ∈ SU (1, 1), g =                                        b a , a = 1/ 1 − c,
+    p
+b = c/(1 − c). Then the relations
+                                [Hc , Bc ] = 2Bc ,         [Hc , Cc ] = −2Cc ,        [Bc , Cc ] = Hc ,
+follow, and also
+                                                     Hc∗ = Hc ,         Bc∗ = −Cc .
+                    √
+Note that Hc = 2c−1c Xc , so that Hc act diagonally with respect to orthonormal bases in propositions
+3.1 and 3.2 in all representations under consideration. Moreover, Ω = − 41 (Hc2 + 2Hc + 4Cc Bc ) by
+this argument, or by a straightforward computation.
+   Next we want to calculate the actions of πk+ (Bc ), πk− (Bc ), π λ,ε (Bc ) on the eigenvectors of πk+ (Hc ),
+πk (Hc ), π λ,ε (Hc ) of propositions 3.1 and 3.2. From −4Ω = Hc2 + 2Hc + 4Cc Bc , Bc∗ = −Cc , using
+ −
+
+the polar decomposition for the closure of πk+ (Bc ), we see that the domain of the closure of πk+ (Bc )
+equals the domain of the self-adjoint extension of πk+ (Hc ). In particular, vx+ is in the domain
+of the closure of πk+ (Bc ), and similarly for πk+ (Cc ) and for the other representations. From the
+                                                         +
+commutation relations we get πk+ (Bc )vx+ = αvx+1             . By proposition 3.1
+                                                                                    √      √                  !
+                                                                  p              2k   c   c  2k
+     +
+ αhvx+1 , e0 i = hπk+ (Bc )vx+ , e0 i = −hvx+ , πk+ (Cc )e0 i = − w(x; 2k, c)           −       M̂1 (x; 2k, c) .
+                                                                                 1−c      1−c
+                                                                                                                    √
+From the recurrence relation for the Meixner polynomials, we find M̂1 (x; 2k, c) =                                      2kc − (1−c)x
+                                                                                                                               √
+                                                                                                                                 2kc
+and for the weight function we have
+                                                  w(x; 2k, c)        x+1
+                                                                 =           .
+                                                 w(x + 1; 2k, c)   (2k + x)c
+So we find
+                                                               p                    +
+                                            π + (Bc )vx+ = −        (x + 1)(2k + x)vx+1 .
+In the same way we can find the actions of Bc and Cc in the discrete series. For the principal unitary
+and the complementary series, we use the same method, but since there is no highest/lowest weight
+vector in the representation space, we also need the following contiguous relations
+                                                                         
+                                  a, b                              a, b
+          c(1 − c)(1 − z) 2 F1         ; z =(c − a)(c − b)z 2 F1         ;z
+                                 c−1                               c+1
+                                                                                         
+                                                                                  a, b
+                                             + c c − 1 − (2c − a − b − 1)z 2 F1         ;z ,
+                                                                                    c
+and
+                                                                                                          
+                              a, b                        a, b                abz               a + 1, b + 1
+                   2 F1            ;z       = 2 F1             ;z       −            2 F1                    ;z .
+                               c                         c−1                c(c − 1)               c+1
+12                                          WOLTER GROENEVELT AND ERIK KOELINK
+
+For the first relation, see [3, §2.8, eq. 30]; the second relation follows directly from
+                                                                    c−1
+                                                     (c − 1)n =          (c)n .
+                                                                   c−1+n
+Then we have
+                                             πk+ (Hc )vx+ = 2(k + x)vx+ ,
+                                                              p               +
+                                             πk+ (Bc )vx+ = − (x + 1)(2k + x)vx+1 ,
+                                                            p
+                                             πk+ (Cc )vx+ = x(2k + x − 1)vx−1
+                                                                           +
+                                                                              ,
+
+                                             πk− (Hc )vx− = 2(k + x)vx− ,
+                                                            p             −
+                                             πk− (Bc )vx− = x(2k + x − 1)vx−1 ,
+                                               −        −
+                                                              p               −
+                                             πk (Cc )vx = − (x + 1)(2k + x)vx+1 ,
+
+                                   π λ,ε (Hc )wxλ,ε = 2(ε + x)wxλ,ε ,
+                                                      p                           λ,ε
+                                   π λ,ε (Bc )wxλ,ε = (x + ε − λ)(x + ε + λ + 1)wx+1  ,
+                                                        p                           λ,ε
+                                   π λ,ε (Cc )wxλ,ε = − (x + ε + λ)(x + ε − λ − 1)wx−1  .
+Comparing these actions to the actions of H, B and C on the basisvectors en for the representations
+in (2.2), (2.3), (2.4) and (2.5), we see that the actions are equivalent, where x plays the role of n.
+Observe that, to get exactly the same actions in the discrete series representations, we have to let
+Hc , Bc and Cc act on (−1)x vx .
+                                                                                            
+Proposition 3.4. For x1 , x2 ∈ Z≥0 , vx+1 ⊗ vx−2 is an eigenvector of πk+1 ⊗ πk−2 ∆(Xc ) for the
+                                         √
+eigenvalue (c − 1)(x1 − x2 + k1 − k2 )/ c. And
+                     ∞ X
+                     X ∞                                                     p
+     vx+1 ⊗ vx−2 =                     M̂n1 (x1 ; 2k1 , c)M̂n2 (x2 ; 2k2 , c) w(x1 ; 2k1 , c)w(x2 ; 2k2 , c) en1 ⊗ en2
+                     n1 =0 n2 =0                                                                                         (3.9)
+                               Z
+                          x1
+               =(−1)                   Ŝx (y; x1 − x2 )vx1 −x2 −L dµ(y; x1 − x2 ),
+                                   R
+
+where x = min{x1 , x2 } and vx1 −x2 −L is the eigenvector for Xc in the principal, complementary or
+negative discrete series representation, depending on the value of y in the same way as in theorem
+2.2.
+   The second expression of (3.9) states that the continuous dual Hahn polynomials have an inter-
+pretation as Clebsch-Gordan coefficients for the basis of eigenvectors of Xc .
+                                                               
+Proof. That vx+1 ⊗ vx−2 is an eigenvector of πk+1 ⊗ πk−2 ∆(Hc ) for the eigenvalue 2(x1 − x2 + k1 − k2 )
+follows from proposition 3.1. This also gives the first expression for vx+1 ⊗ vx−2 . We find the second
+expression using (2.9) in theorem 2.2 and the observations above.
+
+Remark 3.5. We indicate an alternative proof of proposition 3.4 assuming, for simplicity, k1 − k2 ≥
+− 12 and k1 + k1 ≤ 12 . From propositions 3.1, 3.2 and theorem 2.2 we get that
+                                        Z ∞                 √
+                                                              y,ε
+                          vx+1 ⊗ vx−2 =     F (y; x1 , x2 )vx1 −x2 −L dµ(y; x1 − x2 )
+                                                      0
+        MEIXNER FUNCTIONS AND POLYNOMIALS RELATED TO LIE ALGEBRA REPRESENTATIONS                           13
+                                                                                        R∞
+for some function F to be determined. Taking inner products with e0 ⊗ e0 = 0 e−L dµ(y; 0) gives
+        p                                   Z ∞
+                                                                                   1    √
+           w(x1 ; 2k1 , c)w(x2 ; 2k2 , c) =     F (y; x1 , x2 )m̂−L (x1 − x2 − L; − + i y, ε, c)
+                                             0     r                               2
+                                                                          1    √
+                                                × e   w(x1 − x2 − L; − + i y, ε, c)dµ(y; x1 − x2 )
+                                                                          2
+                                          √                                          (x −x ,x −x −2L+2ε)
+and since m̂−L (x1 − x2 − L; − 21 + i y, ε, c) can be expressed in terms of ϕ2√2y 1 1 2                  , see
+(3.8), F is the inverse Jacobi transform [12] of elementary functions. This Jacobi transform can be
+calculated explicitly using a limit case of Koornwinder’s formula [12, eq. (9.4)] stating that Jacobi
+polynomials are mapped onto the Wilson polynomials. Using simple expansions and Saalschütz’s
+and Kummer’s summation formulas the explicit form for F in terms of a terminating 3 F2 -series
+can be derived.
+3.3. Bilinear generating functions for Meixner polynomials. In this subsection we use the
+result of proposition 3.4 to find a bilinear generating functions for Meixner polynomials.
+   We write the second expression of (3.9) as
+                   Z
+                x1
+            (−1)      Ŝx (y; x1 − x2 )vx1 −x2 −L dµ(y; x1 − x2 ) =
+                     R
+                                  ∞ Z
+                                  X                                         1   √
+                                        Ŝx (y; x1 − x2 )m̂r (x1 − x2 − L; − + i y, ε, c)
+                                 r=−∞ R
+                                                                            2
+                                       r
+                                                               1    √
+                                     × e  w(x1 − x2 − L; − + i y, ε, c) er dµ(y; x1 − x2 ).
+                                                               2
+To show that this also covers the case k1 −k2 < − 12 , where we should have a finite sum of eigenvectors
+v − , observe that for y = −(k1 − k2 + 12 + j) = −(ε − L + 21 + j), 0 ≤ j ≤ K, the 2 F1 -series in the
+Meixner function terminates. Reversing the sum
+                                                                             
+                              −n, b            n (b)n         −n, −c − n + 1 1
+                       2 F1         ; x = (−x)         2 F1                 ;      .
+                               c                 (c)n          −b − n + 1     x
+then gives
+                                                        r
+                              1    √                                        1   √
+   m̂n1 −n2 −L (x1 − x2 − L; − + i y, k1 − k2 + L, c) e   w(x1 − x2 − L; − + i y, k1 − k2 + L, c)
+                              2                                             2
+                                                          p
+             = M̂j−n1+n2 (j − x1 + x2 ; 2k2 − 2k1 − 2j, c) w(j − x1 + x2 ; 2k2 − 2k1 − 2j, c).
+                                                −
+So indeed we find a finite sum of eigenvectors vj−x 1 +x2
+                                                          .
+  Now use (2.10) to find
+    hvx+1 ⊗ vx−2 , en1 ⊗ en2 i =
+                           Z
+                    x1 +n2                                                                 1   √
+            (−1)              Ŝn (y; n1 − n2 )Ŝx (y; x1 − x2 )m̂n1 −n2 −L (x1 − x2 − L; − + i y, ε, c)
+                            R                                                              2
+                                      r
+                                                             1    √
+                                ×       w(x1 − x2 − L; − + i y, ε, c)dν(y; n1 − n2 , x1 − x2 ),
+                                         e
+                                                             2
+where dν(·; n, x) is the restriction to the diagonal of the product measure obtained from the measures
+dµ(·; n) and dµ(·; x). From the first expression of (3.9) we find
+                                                                             p
+          hvx+1 ⊗ vx−2 , en1 ⊗ en2 i = M̂n1 (x1 ; 2k1 , c)M̂n2 (x2 ; 2k2 , c) w(x1 ; 2k1 , c)w(x2 ; 2k2 , c),
+14                             WOLTER GROENEVELT AND ERIK KOELINK
+
+so we have found the following formula
+                 Z
+          n2 +x1                                                                    1      √
+      (−1)          Ŝn (y; n1 − n2 )Ŝx (y; x1 − x2 )m̂n1 −n2 −L (x1 − x2 − L; − + i y, ε, c)
+                  R                                                                 2
+                         r
+                                                 1      √                                          (3.10)
+                     ×      w(x1 − x2 − L; − + i y, ε, c)dν(y; n1 − n2 , x1 − x2 )
+                            e
+                                                 2
+                                                          p
+                  = M̂n1 (x1 ; 2k1 , c)M̂n2 (x2 ; 2k2 , c) w(x1 ; 2k1 , c)w(x2 ; 2k2 , c).
+This can be interpreted as a connection formula between two orthogonal bases in L2 (Z2≥0 ).
+Theorem 3.6. The continuous dual Hahn and the Meixner polynomials, in the notations (2.6)
+and (3.1), satisfy, for k2 ≥ k1 ,
+                        1             1                      1
+    Sx2 (y; k2 − k1 + , k1 + k2 − , k1 − k2 + x1 − x2 + )
+                        2             2                      2
+                                                   1    √                       √        
+                   1                  p + k1 − k2 + 2 + i y, p + k1 − k2 + 21 − i y    c
+     ×                          F
+                               2 1                                                  ;               (3.11)
+         Γ(p + x2 − x1 + 1)                          p + x2 − x1 + 1                  c−1
+        X∞
+                                  1            1                1
+     =       Cn Sn (y; k2 − k1 + , k1 + k2 − , k1 − k2 + p + )Mn+p (x1 ; 2k1 , c)Mn (x2 ; 2k2 , c),
+                                  2            2                2
+        n=0
+where
+                                             cn+x1 (1 − c)2k1 +p (2k1 )x1 (2k2 )x2
+                           Cn = (−1)x1 +x2                                         .
+                                                  Γ(n + 1)Γ(n + p + 1)
+Proof. First we concentrate on the case x1 ≥ x2 . Using the orthonormality of Ŝn in (3.10) and
+writing the polynomials in the usual normalization, we find
+                          1              1                        1
+       Sx2 (y; k2 − k1 + , k1 + k2 − , k1 − k2 + x1 − x2 + )
+                          2              2                        2
+                                                        1    √                         √       
+                      1                  p + k1 − k2 + 2 + i y, p + k1 − k2 + 12 − i y       c
+         ×                        2 F1                                                    ;
+            Γ(p + x2 − x1 + 1)                            p + x2 − x1 + 1                   c−1
+           ∞
+             X                         1            1                   1
+           
+                 Cn− Sn (y; k1 − k2 + , k1 + k2 − , k2 − k1 − p + )
+           
+                                       2            2                   2
+           
+             n=0
+           
+                                        × Mn (x1 ; 2k1 , c)Mn−p (x2 ; 2k2 , c), p ≤ 0,
+         = X   ∞                                                                                  (3.12)
+           
+                   +                   1            1                   1
+           
+                 Cn Sn (y; k2 − k1 + , k1 + k2 − , k1 − k2 + p + )
+           
+                                       2            2                   2
+           
+             n=0
+           
+                                         × Mn+p (x1 ; 2k1 , c)Mn (x2 ; 2k2 , c), p ≥ 0,
+where
+                                    cn−p+x1 (1 − c)2k1 +p (2k1 )x1 (2k2 )x2
+              Cn− = (−1)x1 +x2 +p
+                                          Γ(n + 1)Γ(n − p + 1)
+                                                             √                      √
+                                         Γ(k1 − k2 + 21 + i y)Γ(k2 − k1 − p + 21 + i y)
+                                    ×                               √               √
+                                         Γ(k1 − k2 + p + 12 + i y)Γ(k2 − k1 + 12 + i y)
+and
+                                             cn+x1 (1 − c)2k1 +p (2k1 )x1 (2k2 )x2
+                          Cn+ = (−1)x1 +x2                                         .
+                                                  Γ(n + 1)Γ(n + p + 1)
+Now consider the expression on the right hand side of (3.12) for p ≤ 0. This expression is also
+well defined for p ≥ 0, since then the factor (Γ(n − p + 1))−1 , which equals zero for n < p, makes
+       MEIXNER FUNCTIONS AND POLYNOMIALS RELATED TO LIE ALGEBRA REPRESENTATIONS                    15
+
+the summation start at n = p instead of n = 0. Using (2.6) and writing out the 3 F2 -series in the
+continuous dual Hahn polynomial as a sum, we get
+                   1           1                1
+    Sn (y;k1 − k2 + , k1 + k2 − , k2 − k1 − p + )
+                   2           2                2
+                                  n                          √                    √
+          Γ(2k1 + n)Γ(n − p + 1) X   (−n)j (k1 − k2 + 12 + i y)j (k1 − k2 + 12 − i y)j
+        =
+                  Γ(2k1 )                         (2k1 )j Γ(1 − p + j)(1)j
+                                  j=p
+                                     √ 2
+              pΓ(k1 − k2 + p + 12 + i y) Γ(2k1 + n)Γ(n + 1)
+       =(−1)                       √                                                          (3.13)
+                 Γ(k1 − k2 + 21 + i y)       Γ(2k1 + p)Γ(p + 1)
+           X (p − n)l (k1 − k2 + p + 1 + i√y)l (k1 − k2 + p + 1 − i√y)l
+           n−p
+                                      2                        2
+         ×
+                                  (2k1 + p)l (p + 1)l l!
+            l=0
+                                        √ 2
+              p   Γ(k1 − k2 + p + 12 + i y)                   1           1               1
+       =(−1)                          √     Sn−p (y; k2 − k1 + , k1 + k2 − , k1 − k2 + p − ).
+                    Γ(k1 − k2 + 21 + i y)                     2           2               2
+Now we shift the index n in the expression for p ≤ 0 of (3.12) to n + p, and we use the reflection
+formula for the Γ-function, to see that the expressions for p ≤ 0 and p ≥ 0 in (3.12) are the same.
+    For x1 ≤ x2 we get from (3.10) a formula similar to (3.12), with Sx1 (y; k1 − k2 + 12 , k1 + k2 −
+1                       1
+2 , k2 − k1 + x2 − x1 + 2 ) as continuous dual Hahn polynomial on the left hand side and different
+Γ-factors in the constants Cn+ and Cn− on the right hand side. We use (3.13) again to see that both
+expressions on the right hand side are the same. Then we use (3.13) again with p = x1 − x2 and
+the reflection formula for the Γ-function, to obtain exactly the same formula as for x1 ≥ x2 .
+
+Remark 3.7. Several special cases of theorem 3.6 are of special interest, or reduce to well-known
+results.
+   (i) For x2 = 0 the continuous dual Hahn polynomial on the left hand side of (3.11) and
+Mn (x2 ; 2k2 , c) reduce to 1. This gives the expansion of a Jacobi function, as function of y, in
+terms of continuous dual Hahn polynomials with Meixner polynomials as coefficients.
+   (ii) For x1 = x2 = 0 in (3.11) we find a special case of the generating function for continuous
+dual Hahn polynomials
+                                                     ∞
+                                                      X (γ)n Sn (x2 ; a, b, c)
+                          γ, a + ix, a − ix    t
+                  −γ
+          (1 − t) 3 F2                      ;       =                          tn , γ arbitrary.
+                             a + b, a + c     t−1     n=0
+                                                          (a + b)n (a + c)n n!
+  (iii) For p = 0, k1 = k2 and values of y such that the 3 F2 -series in the continuous dual Hahn
+polynomials becomes summable by Saalschütz theorem [3, §2.1.5, eq. 30]
+                                                     
+                                     −n, a, b             (c − a)n (c − b)n
+                         F
+                        3 2                        ; 1  =                   ,
+                              c, 1 + a + b − c − n        (c)n (c − a − b)n
+we find the dual orthogonality relations (3.3) for the Meixner polynomials, which are equivalent to
+the orthogonality relations of the Meixner polynomials.
+  (iv) An expression somewhat similar to (3.11), but simpler in structure, for the Al-Salam and
+Chihara polynomials can be found in [6, Thm. 4.3]
+
+Remark 3.8. The element Xc , which we considered in section 3.1, is a special case of the element
+Xa = −2aH + B − C ∈ su(1, 1), namely the case for |a| > 1. For |a| < 1 and |a| = 1 this
+element Xa in the discrete series representations has a continuous spectrum (−∞, ∞) and [0, ∞),
+which corresponds to Meixner-Pollaczek and Laguerre polynomials respectively (see Koelink and
+Van der Jeugt [10, §3.1] and Van der Jeugt [16, §2]). But in the principal and the complementary
+16                              WOLTER GROENEVELT AND ERIK KOELINK
+
+series, the corresponding functions give much more difficulties than the Meixner functions we used
+in this paper. For |a| < 1 the spectral measure is calculated in [9, ex. 4.4.11] and it turns out
+that the spectral projection is on a two-dimensional space of generalized eigenvectors. So we find
+orthogonality relations involving two linearly independent ”Meixner-Pollaczek”-functions, instead
+of just one function as for |a| > 1. This makes it much harder to compute the Clebsch-Gordan
+coefficients for the bases of (generalized) eigenvectors of Xa in this way. However Hjalmar Rosengren
+pointed us that the calculations of the Clebsch-Gordan coefficients might be possible from proving
+the analogue of (3.11) by brute force. In particular, Rosengren can prove (3.11) by direct methods.
+
+                      4. Holomorphic and anti-holomorphic functions
+   In this section we choose explicit realizations of su(1, 1) and the basisvectors en . Using these in
+(3.9) we find a bilinear generating function for the Meixner functions.
+
+   Consider the Hilbert space of holomorphic functions on the unit disk D, with finite norm with
+respect to the inner product
+                                     X∞                         X∞
+                                           n!
+                            hf, gi =            fn gn , f (z) =     fn z n .
+                                     n=0
+                                         (2k) n                 n=0
+The standard orthonormal basisvectors in this space are
+                                                      r
+                                              k          (2k)n n
+                                      en = en (z) =           z .                                      (4.1)
+                                                           n!
+The realization of the positive discrete series representation is
+                                                       d
+                                       πk+ (H) = 2z       + 2k,
+                                                      dz
+                                                      d
+                                        πk+ (B) = z 2     + 2kz,
+                                                      dz
+                                                      d
+                                        πk+ (C) = − .
+                                                     dz
+                     +                                           √
+An eigenvector for πk (Xc ) for the eigenvalue (c − 1)(x + k)/ c is
+                                           ∞
+                                           X
+                                   vx+ =         M̂n (x; 2k, c)e+
+                                                                n,   x ∈ Z+ .
+                                           n=0
+Using the orthonormal basisvectors above, this eigenvector becomes a generating function for the
+orthonormal Meixner polynomials (see [2, p.349] or [8])
+                           ∞
+                               r
+                          X      (2k)n                                z         √
+                  +
+                 vx (z) =                M̂n (x; 2k, c)z n = (1 − √ )x (1 − cz)−x−2k ,                  (4.2)
+                                    n!                                  c
+                          n=0
+                                                                      √
+where x ∈ Z≥0 . This is a holomorphic function for |z| < 1/ c. The right hand side can also be
+found by solving the first order differential equation
+                                              (c − 1)(x + k)
+                           πk+ (Xc ) y(z) =           √          y(z), y(0) = 1.
+                                                         c
+   Consider the Hilbert space of anti-holomorphic
+                                          P                functions on the unit disk D, with the same inner
+product as above, now using f (z) = ∞       n=0   f n z n . The standard orthonormal basisvectors in this
+
+space are
+                                                            r
+                                                k             (2k)n n
+                                        en = en (z) =               z .                                 (4.3)
+                                                                n!
+       MEIXNER FUNCTIONS AND POLYNOMIALS RELATED TO LIE ALGEBRA REPRESENTATIONS                      17
+
+The realization of the negative discrete series representation is
+                                                                    d
+                                                    πk+ (H) = −2z      − 2k,
+                                                                    dz
+                                                                  d
+                                                    πk+ (B) = −     ,
+                                                                 dz
+                                                                  d
+                                                    πk+ (C) = z 2     + 2kz.
+                                                                  dz
+                                                               √
+An eigenvector for πk− (Xc ) for the eigenvalue (1 − c)(x + k)/ c is
+                                    ∞
+                                    X                    z x      √ −x−2k
+                          vx− =  M̂n (x; 2k, c)e−
+                                                n = (1 − √ ) (1 − cz)       ,                   (4.4)
+                             n=0
+                                                          c
+                                                                  √
+where x ∈ Z+ . This is an anti-holomorphic function for |z| < 1/ c.
+   Next we use (2.10) to realize f ⊗ er−L in the tensor product representation as functions of z and
+w. To make calculations easier we will assume k1 − k2 ≥ − 12 and k1 + k2 ≥ 12 , so the orthogonality
+measure for the continuous dual Hahn polynomials has only an absolutely continuous part. The
+result remains valid in the general case.
+Proposition 4.1. In the explicit realizations (4.1) and (4.3), we have for |zw| < 1
+ (f ⊗ er−L )(z, w) =
+                          Z ∞
+    z r (1 − zw)−2k2               Γ(k1 − k2 + r + 12 + iρ)Γ(k1 + k2 − 21 + iρ)Γ(k2 − k1 + 12 + iρ)
+   p                              f (ρ2 )
+     2π Γ(2k1 )Γ(2k2 )  0                                         Γ(2iρ)
+                                                                             
+                   1            k2 − k1 + 21 + iρ, k2 − k1 + 12 − iρ     zw
+              ×          2 F1                                        ;          dρ.              (4.5)
+                Γ(1 + r)                       1+r                     zw − 1
+Proof. Substitute (4.1) and (4.3) in (2.10), interchange summation and integration, use the gener-
+ating function for continuous dual Hahn polynomials [8], [2, p. 349]
+               ∞
+              X Sn (x2 ; a, b, c)                                         
+                                   n         −b+ix        a + ix, c + ix
+                                  t = (1 − t)      2 F1                  ;t , |t| < 1,
+                    n! (a + c)n                               a+c
+              n=0
+
+and the transformation [3, §2.1.4, eq. 22]
+                                                                     
+                               a, b              −a      a, c − b    t
+                        2 F1        ; t = (1 − t) 2 F1            ;       ,
+                                c                            c      t−1
+then we find (4.5) for r ≥ 0. Following the same procedure gives for r ≤ 0
+                            (−1)r w −r (1 − zw)−2k1
+     (f ⊗ er−L )(z, w) =      p
+                                2πΓ(2k1 )Γ(2k2 )
+                    Z ∞
+                              Γ(k1 − k2 + 12 + iρ)Γ(k1 + k2 − 21 + iρ)Γ(k2 − k1 − r + 12 + iρ)
+                                2
+                 ×     f (ρ )
+                   0                                         Γ(2iρ)
+                                                                                    
+                           1           k1 − k2 + 21 + iρ, k1 − k2 + 12 − iρ     zw
+                     ×          2 F1                                        ;          dρ.
+                       Γ(1 − r)                       1−r                     zw − 1
+Use [3, §2.1.4, eq. 23]
+                                                                                          
+                                      a, b                                    c − a, c − b
+                           2 F1            ;t       = (1 − t)c−a−b 2 F1                    ;t ,   (4.6)
+                                       c                                           c
+18                                   WOLTER GROENEVELT AND ERIK KOELINK
+
+and for r ∈ Z
+                                                     ∞
+                                                       X
+                   1                 a, b                       (a)k (b)k
+                         2 F1             ;t       =                        tk =
+                Γ(1 − r)            1−r                      Γ(1 − r + k)k!
+                                                       k=r
+                    ∞                                                                                              (4.7)
+       (a)r (b)r tr X (a + r)p (b + r)p p      Γ(a + r)Γ(b + r)    tr                         a + r, b + r
+                                           t =                           2 F1                              ;t ,
+           r!               (r + 1)p p!            Γ(a)Γ(b)     Γ(1 + r)                         r+1
+                  p=0
+
+and the reflection formula for the Γ-function, to see that the expressions for r ≤ 0 and r ≥ 0 are
+the same.
+
+Remark 4.2. Note that the 2 F1 -series inside the integral is a Jacobi function. So we can consider
+f ⊗ en in this realization as the inverse Jacobi transform of the function f times Γ-functions.
+   Next we consider the eigenvectors in this realization. Using proposition 4.1 and interchanging
+summation and integration, we find
+                                        Z ∞
+                        (1 − zw)−2k2                Γ(k2 − k1 + 21 + iρ)Γ(k1 + k2 − 12 + iρ)
+  (f ⊗ vx−L )(z, w) = p                     f (ρ2 )
+                        2πΓ(2k1 )Γ(2k2 ) 0                          Γ(2iρ)
+                                                 ∞
+                         p                      X                     1           |Γ(n + k1 − k2 + 12 + iρ)|
+                        × e  w(x − L; ρ, ε, c)       m̂n−L (x − L; − + iρ, ε, c)
+                                               n=−∞
+                                                                      2                   Γ(1 + n)
+                                                                               
+                                 k2 − k1 + 21 + iρ, k2 − k1 + 12 − iρ     zw
+                        × 2 F1                                         ;          z n dρ                 (4.8)
+                                                 1+n                     zw − 1
+Note that the 2 F1 -series has the same form, after applying transformation (4.6), as the 2 F1 -series in
+definition of the Meixner function. So we may consider the inner sum as a non-symmetric Poisson
+kernel for the Meixner functions. To find conditions for the convergence of the inner sum, we look at
+the asymptotic behaviour of the Meixner function. The asymptotic behaviour has been determined
+in [9, §4.4] and [13, §3]. We have
+                                                                     
+                                               x+ε− 21 n/2         1
+                       m̂n (x; λ, ε, c) = C1 n        c      1 + O      , n → ∞,
+                                                                   n
+where C1 is a non-zero constant independent of n. The asymptotics as n → −∞ follows from the
+connection formula [13, eq.3.8], [9, eq.4.4.7] and observing that one term vanishes for x ∈ Z. This
+gives
+                                                                 
+                                          −x−ε− 21 n/2         1
+                  m−n (x; λ, ε, c) = C2 n         c      1+O        ,    n → ∞,
+                                                               n
+where C2 is√a non-zero constant
+                              √ independent of n. Now we find that the inner sum in (4.8) converges
+for |z| < 1/ c and |w| < 1/ c. So for these conditions we may indeed interchange summation and
+integration for sufficiently smooth f , e.g. f ∈ S.
+   Using (4.2) and (4.4), we find an expression for vp+ ⊗ vp−x
+                                                           −
+                                                               , x ≤ 0, in this realization
+
+     (vp+ ⊗ vp−x
+             −
+                 )(z, w) = vp+ (z) ⊗ vp−x
+                                      −
+                                          (w) =
+                                                             s             √      p s               √          p−x
+           √                 √                                   (2k1 )p    c−z           (2k2 )p−x    c−w
+     (1 − z c)  −2k1
+                       (1 − w c)−2k2 (1 − c)k1 +k2                            √                          √               .
+                                                                   p!      1−z c          (p − x)!    1−w c
+Observe that this has exactly the same structure as the realization for en ⊗ en−r . In the same
+                                   +
+way we can give an expression for vp+x ⊗ vp− , x ≥ 0. Now we use the analogue of (2.10) for the
+       MEIXNER FUNCTIONS AND POLYNOMIALS RELATED TO LIE ALGEBRA REPRESENTATIONS                         19
+
+eigenvectors and the substitutions
+                                              √                     √
+                                               c−z                   c−w
+                            r 7→ x,      z 7→    √ ,         w 7→      √ ,
+                                              1−z c                 1−w c
+to find another expression for f ⊗ vx−L in this realization,
+                                          √              √
+       (f ⊗ vx−L )(z, w) = (−1)x (1 − z c)−2k1 (1 − w c)−2k2 (1 − c)k1 +k2
+            √           x        √         √         −2k2
+                c−z                ( c − z)( c − w)                     1
+          ×         √         1−         √          √          p
+              1−z c               (1 − z c)(1 − w c)              2πΓ(2k1 )Γ(2k2 )
+            Z ∞                        1                                                            (4.9)
+                          Γ(k2 − k1 + 2 + iρ)Γ(k1 + k2 − 2 + iρ)Γ(k1 − k2 + x + 12 + iρ)
+                                                             1
+          ×      f (ρ2 )
+             0                                          Γ(2iρ)
+                                                                    √        √      
+                1             k2 − k1 + 21 + iρ, k2 − k1 + 12 − iρ ( c − z)( c − w)
+          ×            2 F1                                        ;                   dρ.
+            Γ(1 + x)                         1+x                     (1 − c)(zw − 1)
+Now combining expression (4.8) and (4.9), we find a non-symmetric type Poisson kernel for the
+Meixner functions. Then substituting
+                         r
+                           z
+                              7→ t, zw 7→ s, x − L 7→ x, −L 7→ y,
+                           w
+(and still using ε = k1 − k2 + L) we have
+                                 p        p
+Theorem 4.3. For x, y ∈ Z, |cs| < |t| < 1/ |cs|, 0 < |c| < 1 and 0 < |s| < 1 the Meixner
+functions, as defined in (3.4), satisfy
+      ∞
+      X           1                    1
+         m̂n (x; − + iρ, ε, c)m̂n (y; − + iρ, ε, s) tn =
+     n=−∞
+                  2                    2
+                                          √             √   √                        1       2
+                                                                      x y |Γ(x + ε +
+                                                                                     2 + iρ)|
+           ty (1 − s)2ε+y (1 − c)2ε+y (1 − cst)−2ε−x−y ( s − c)x−y c− 2 s 2
+                                                                             Γ(1 + x − y)
+                               1               1         √   √    √       √   
+                     −y − ε + 2 + iρ, −y − ε + 2 − iρ ( c − st)( c − s/t)
+            × 2 F1                                      ;                        .
+                                  1+x−y                     (1 − c)(s − 1)
+  We
+   √ can consider
+           √      theorem 4.3 as a non-symmetric type Poisson kernel for the Meixner functions.
+For c and s we use the principal value of the square root.
+Remark 4.4. (i) Recall that the Meixner functions can be written in terms of Jacobi functions,
+which contain the Bessel functions as a limit case [12, §2.3]. In this light we can consider theorem
+4.3 as an extension of Graf’s addition formula [19, §11.3] for Bessel functions of integer order.
+   (ii) The conditions on t are exactly the same conditions for the convergence of the generating
+functions for the Meixner polynomials (4.2) and (4.4).
+   (iii) The 2 F1 -series
+                       √ √
+                             on √ the √right hand side is the same 2 F1 -series as in the Meixner function
+                         c− st)( c− s/t)
+m̂x (y; − 21 + iρ, ε, ((1− √         √
+                             cs/t)(1− cst)
+                                           ).
+                                              √
+   (iv) Theorem 4.3 holds for all ρ = y, y ∈ supp µ, so the theorem also holds for the values of
+ρ corresponding to the complementary series representation. For the values of ρ corresponding to
+the negative discrete series representations, ρ = i(ε + 21 + j), the sum terminates at n = j + 1. So
+this case gives the non-symmetric Poisson kernel for the Meixner polynomials.
+   (v) If we put t = 1 and s = c ∈ R, we find the dual orthogonality relations (3.7) for the Meixner
+functions.
+   (vi) From the substitution −L 7→ y it is not clear that y ∈ Z instead of −y ∈ Z≥0 . Using
+(4.7) and the reflection formula for the Γ-function, we can show that the right hand side of the
+20                                 WOLTER GROENEVELT AND ERIK KOELINK
+
+summation formula is invariant under interchanging both c and s, and x and y. And then since
+x ∈ Z, the same holds for y. This also shows that c may be complex valued.
+   We may also try other realizations. Instead of the element Xc , we may consider the element Xcφ ,
+which is still self-adjoint, defined by, cf. [11],
+                                      1+c
+                             Xcφ = − √ H + eiφ B − e−iφ C, φ ∈ [0, 2π].
+                                      2 c
+And we realize the orthonormal basisvectors as Meixner polynomials, as in [11, §2]. This method
+leads to the summations formula (3.11) of theorem 3.6 for complex values of c.
+
+
+                                                    References
+ [1] N.I. Akhiezer, The classical moment problem and some related questions in analysis, Hafner, 1965.
+ [2] G.E. Andrews, R. Askey, R. Roy, Special functions, Encycl. Math. Appl. 71, Cambridge Univ. Press, 1999.
+ [3] A. Erdélyi, W. Magnus, F. Oberhettinger, F.G. Tricomi, Higher transcendental functions, Vol. 1, McGraw-Hill,
+     1953.
+ [4] Y.I. Granovskii, A.S. Zhedanov, New construction of 3nj-symbols, J. Phys. A: Math. Gen. 26 (1993), 4339-4344.
+ [5] S.C. Hille, Canonical representations, PhD thesis, Leiden, 1999.
+ [6] M.E.H. Ismail, D. Stanton, Classical Orthogonal Polynomials as Moments, Canad. J. Math. 49 (1997), 520-542.
+ [7] G.A. Kerimov, Y.A. Verdiyev, Clebsch-Gordan problem for the three-dimendional Lorentz group in the elliptic
+     basis: II. Tensor products involving discrete series, J. Phys. A: Math. Gen. 32 (1999), 3385-3395.
+ [8] R. Koekoek and R.F. Swarttouw, The Askey-scheme of hypergeometric orthogonal polynomials and its q-
+     analogue, Report 98-17, Technical University Delft, Delft, 1998; also available from ftp.twi.tudelft.nl in directory
+     /pub/publications/tech-reports.
+ [9] E. Koelink, Spectral theory and special functions, preprint 2001, math.CA/0107036.
+[10] H.T. Koelink, J. Van der Jeugt, Convolutions for orthogonal polynomials from Lie and quantum algebra repre-
+     sentations, SIAM J. Math. Anal. 29 (1998), 794-822.
+[11] H.T. Koelink, J. Van der Jeugt, Bilinear generating funcions for orthogonal polynomials, Constr. Approx. 14
+     (1999), 481-497.
+[12] T.H. Koornwinder, Jacobi functions and analysis on noncompact semisimple Lie groups, in: Special functions:
+     group theoretical aspects and applications, R.A. Askey, T.H. Koornwinder, W. Schempp (Eds.), D. Reidel Publ.
+     Comp., Dordrecht, 1984, 1-85.
+[13] D.R. Masson, J. Repka Spectral theory of Jacobi matrices in ℓ2 (Z) and the su(1, 1) Lie algebra, SIAM J. Math.
+     Anal. 22 (1991), 1131-1146.
+[14] B. Ørsted, G. Zhang, L2 -versions of the Howe correspondence I, Math. Scand. 80 (1997), 125-160.
+[15] K. Schmüdgen, Unbounded operator algebras and representation theory, Operator theory, vol. 37, Birkhäuser,
+     1990.
+[16] J. Van der Jeugt, Coupling coefficients for Lie algebra representations and addition formulas for special functions,
+     J. Math. Phys. 38 (1997), 2728-2740.
+[17] J. Van der Jeugt, R. Jagannathan, Realizations of su(1, 1) and Uq (su(1, 1)) and generating functions for orthog-
+     onal polynomials, J. Math. Phys. 39 (1998), 5062-5078.
+[18] N.J. Vilenkin, A.U. Klimyk, Representations of Lie groups and special functions, Vol. 1, Kluwer Academic
+     Publishers, Dordrecht, 1991.
+[19] G.N. Watson, Theory of Bessel functions, Cambridge Univ. Press, 2nd ed., 1944.
+[20] J.A. Wilson, Some hypergeometric orthogonal polynomials, SIAM J. Math. Anal. 11 (1980), 690-701.
+
+     Technische Universiteit Delft, ITS-TWA, Postbus 5031, 2600 GA Delft, The Netherlands
+     E-mail address: W.G.M.Groenevelt@its.tudelft.nl, H.T.Koelink@its.tudelft.nl
+
