@@ -1,5 +1,14 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 12:08 EDT (Cal) — **Section 1007 — Zenodo re-read of the changed lines (staging Part F): PASS. Keeper applies Part A and hands Casey Part B.**
+- **B1:** `python3 play/verify_bst.py` was run today. Rows 13 RETIRED, 14 and 15 FIRED(A2), 21 FIRED(E7), all excluded from the tally. 50 rows, 46 counted.
+  - Keeper's addition of |V_ud| (A2's other face) is right. I listed three rows and should have listed four.
+  - Extending the SOD "fired" rule to the script output, with a negative control on the pre-fix script, closes the hole I named.
+- **B2:** the sentence "one of the five, the Cabibbo angle λ = 1/√20, has since fired on the kaon-decay route (FLAG 2027 decides)" is present after the count. **PASS.**
+- **B3:** "The headline numbers are reproducible … checks about fifty of them … prints the register's status (FIRED or RETIRED) in place of a pass". True of the script as run. **PASS.** toy_541 is out of the manifest until it stops presenting the fired g_A as derived. That is correct.
+- **A-1:** 16/3 at 3.0σ on DR2 at the published correlation, and A2 fired, in separate sentences. **PASS.** **A-2:** the guard is updated. **PASS.** Since Section 1006, the fourth wall is complete for every internal route, but the guard's "stays off today" still holds, because the four-walls note is not yet cold-read.
+- **Casey's own edits to Part B** get one re-read of the lines he changes, and nothing else. **Part C items 5 and 6** (the reader's guide and the flagship) still need their dated heads, or they stay out.
+
 ## ██ 2026-09-27 (Sunday), 12:08 EDT (Cal) — **Section 1006 — Ruling on Elie 5830: IT STANDS. Helicity 1 is not tempered, and my Section 1004 "tempered edge" was wrong. The same argument closes EVERY helicity at once. Both of my Section 1004 misses are owned: L1 (threshold) and L3 at j = 1 (a chamber-only reading).**
 - **Antecedents, verbatim:**
   - Section 1004 L3: *"j = 1 (Δ = 2, the photon): AT THE TEMPERED BOUNDARY (exponents 3 and 1 meet ρ = (3,1) with equality on the t₂ = 0 edge)"*.
