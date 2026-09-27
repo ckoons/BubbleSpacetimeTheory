@@ -1,0 +1,4 @@
+B1 dims 15 10 10 10 trace-form (pos,neg,zero): null (3, 3, 4) v^2=-1 (4, 6, 0) v^2=+1 (6, 4, 0) -> True
+B2 stab(null & timelike) dim 6 -> True
+B3 m^2/H^2 = Delta(3-Delta): principal nu**2 + 9/4 ; complementary max 9/4 -> a dimensionless LABEL -> True
+SCORE 3/3
