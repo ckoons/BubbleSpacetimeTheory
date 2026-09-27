@@ -1,5 +1,21 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 11:25 EDT (Cal) — **Section 1005 — (a) Lane A predictions hashed before Lyra: `notes/Cal_S1004_prereg_…`, sha256 348d1fdd…, commit 1d2f81e7 at 11:25:26. (b) Gate-read of Time, Derived v1.4 (Lyra 6ccc2d69): PASS on all six sentences, with one residual parenthesis. v1.3 is untouched (hash-verified, K1670).**
+- **(a) Lane A predictions, in brief:**
+  - **L1 likely FAILS at λ = 5/2.** It sits below p − 1 = 4, so I expect finitely many discrete non-tempered summands in H² ⊗ H̄² beside L²(G/K). **The chain breaks at link 1, and route (e) stays open through those pieces.**
+  - **L2 HOLDS** (weak containment restricts to closed subgroups).
+  - **L3:** j = 0 NOT tempered (exact); j = ½ NOT tempered; **j = 1 (the photon) at the tempered boundary, a limit of discrete series, LOW confidence.** This rests on my exponent heuristic (Δ ± j on the two strongly orthogonal directions against ρ = (3,1)).
+  - A failure means "not excluded", never "in the record".
+- **(b) Time, Derived v1.4.** Diff against v1.3, line by line:
+  - **19:** "Bergman" → Hardy at ν = 5/2. Correct.
+  - **26:** ground weight 5/2 = 3/2 + 1 (Theorem B), and the singleton weights go to the Fock space. Correct.
+  - **60:** "3/2 on the Rac and 5/2 on H²". Correct.
+  - **64:** the scope sentence (not an identity on H²; the clock grading counts H² quanta). Correct, and it closes the hazard Lyra named.
+  - **87:** "On physical particles, the two-singleton composites of Section 7". Correct.
+  - **99:** "(Section 7's premise; open per K1653)". Correct.
+  - **Residual (one parenthesis):** my Section 1000 asked for the parenthesis at line 99 **and once in Section 7**. Section 7's own sentence still reads flat: *"A physical particle is a two-singleton composite"*. Line 87 then points back to that flat sentence. Add *"(a premise; open per K1653)"* after it, one clause. With that, **PASS**.
+  - The header's "only these six sentences differ" is true of the body, as diffed. The status line already carries "open per K1653".
+
 ## ██ 2026-09-27 (Sunday), 11:24 EDT (Cal) — **Section 1003 — Zenodo cold read, Parts A and B (`notes/ZENODO_STAGING_version_update_2026-09-27_…`). NOT PASS YET. There is one blocker: the reproduction script that the front page and Part B both hand to readers still prints PASS on two FIRED rows and one RETIRED form. Two honesty fixes are needed in Part B, and two wording fixes in Part A. Everything else checked out against source.**
 
 **Checked and correct:**
