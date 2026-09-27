@@ -1,0 +1,136 @@
+entries 197; literal classes: {'rational': 60, 'int': 46, 'FLAG': 83, 'ruler': 3, 'math': 1}
+FLAGGED ROWS: 43
+
+--- const_008 | Higgs boson mass (Route A) | tier D | status derived | observed 125.25
+    formula_code: m_p**2/(7*m_e) * sqrt(2*sqrt(2.0/120.0)) / 1000
+    flagged: [('derivation_chain', '125.11')]
+--- const_009 | Higgs boson mass (Route B) | tier D | status derived | observed 125.25
+    formula_code: (pi/2) * (1 - alpha) * n_C * m_p / (8 * alpha) / 1000
+    flagged: [('derivation_chain', '0.18')]
+--- const_012 | W boson mass | tier PD | status identified | observed 80.377
+    formula_code: n_C * m_p / (8 * alpha) / 1000
+    flagged: [('derivation_chain', '80.361')]
+--- const_013 | Z boson mass | tier PD | status derived | observed 91.1876
+    formula_code: n_C * m_p / (8 * alpha) / 1000 / sqrt(10.0/13)
+    flagged: [('derivation_chain', '80.361'), ('derivation_chain', '80.361')]
+--- const_015 | Dark matter to baryon ratio | tier D | status derived | observed 5.36
+    formula_code: 16.0 / 3
+    flagged: [('derivation_chain', '5.333')]
+--- const_016 | CMB spectral index | tier PD | status derived | observed 0.9649
+    formula_code: 1.0 - n_C/N_max
+    flagged: [('derivation_chain', '0.96350')]
+--- const_020 | Cabibbo angle | tier D | status derived | observed 0.22501
+    formula_code: 2 / sqrt(rank**4 * n_C - 1)
+    flagged: [('derivation_chain', '0.2236'), ('derivation_chain', '0.22502'), ('derivation_chain', '0.004')]
+--- const_021 | CKM CP phase | tier I | status derived | observed 1.15
+    formula_code: atan(sqrt(n_C))
+    flagged: [('derivation_chain', '65.91')]
+--- const_022 | Solar neutrino mixing angle | tier SUPERSEDED | status SUPERSEDED — the (N_c²n_C−1)/(N_c²n_C)=44/45 suffix is a fit-tell (WORSENS the match vs the clean form); kept not deleted. Canonical clean form: θ₂₃→(n_C−1)/(n_C+2)=4/7, θ₁₃→1/(N_c²·n_C)=1/45, θ₁₂→ pending kernel pick (3/10 output; 4/13, 42/137 alternates). [Grace 2026-08-09 clean-repo gate, gate B2] | observed 0.307
+    formula_code: N_c / (2*n_C) * (N_c**2 * n_C - 1) / (N_c**2 * n_C)
+    flagged: [('derivation_chain', '0.29333'), ('derivation_chain', '0.06')]
+--- const_023 | Atmospheric neutrino mixing angle | tier I | status CANONICAL clean θ₂₃ = 4/7; the compound (44/45) suffix REMOVED (fit-tell, worsened match). Restores a live θ₂₃ entry (my last-turn supersede had left a gap). [Grace 2026-08-09 clean-repo gate (PMNS CP leak)] | observed 0.572
+    formula_code: (n_C - 1) / (n_C + 2)
+    flagged: [('derivation_chain', '0.5714'), ('derivation_chain', '1.86'), ('derivation_chain', '0.55873')]
+--- const_028 | Tetrahedral bond angle | tier D | status derived | observed 109.47
+    formula_code: acos(-1.0/N_c) * 180/pi
+    flagged: [('derivation_chain', '109.47')]
+--- const_029 | H2O bond angle | tier D | status derived | observed 104.5
+    formula_code: acos(-1.0/N_c) * 180/pi - n_C
+    flagged: [('derivation_chain', '109.47'), ('derivation_chain', '104.47')]
+--- const_030 | Bohr radius | tier D | status derived | observed 52918.0
+    formula_code: N_max * 197.3269804 / m_e
+    flagged: [('formula_code', '197.3269804')]
+--- const_031 | C-H bond dissociation energy | tier D | status derived | observed 4.33
+    formula_code: 13.6057 / pi
+    flagged: [('formula_code', '13.6057'), ('derivation_chain', '13.6057')]
+--- const_037 | Recombination redshift | tier D | status derived | observed 1089.8
+    formula_code: 1089.71
+    flagged: [('derivation_chain', '0.01')]
+--- const_038 | Sound horizon at recombination | tier I | status derived | observed 144.43
+    formula_code: 144.17
+    flagged: [('formula_code', '144.17')]
+--- const_042 | Strong coupling at proton mass | tier I | status derived | observed 0.35
+    formula_code: g / (4.0 * n_C)
+    flagged: [('derivation_chain', '0.1185')]
+--- const_043 | Proton magnetic moment | tier D | status derived | observed 2.7928474
+    formula_code: (2*g/n_C)*(1 - 11/(10*N_max*pi))
+    flagged: [('derivation_chain', '0.26'), ('derivation_chain', '2.79284384'), ('derivation_chain', '0.0001')]
+--- const_044 | Neutron magnetic moment | tier D | status derived | observed -1.9130427
+    formula_code: -(C_2/pi)*(1 + (n_C/g)*alpha/pi)
+    flagged: [('derivation_chain', '0.17'), ('derivation_chain', '1.9130289'), ('derivation_chain', '0.0007')]
+--- const_053 | Cooperation gap | tier S | status structural | observed 0.0153
+    formula_code: (1 - 2**(-1.0/N_c)) - 3.0/(5*pi)
+    flagged: [('derivation_chain', '1.53')]
+--- const_061 | Neutrino mass m_nu3 | tier S | status structural | observed 0.05
+    formula_code: (10.0/3) * alpha**2 * m_e**2 / m_p * 1e6
+    flagged: [('formula_code', '1e6'), ('derivation_chain', '0.0494')]
+--- const_062 | Neutrino mass m_nu2 | tier S | status structural | observed 0.00868
+    formula_code: (7.0/12) * alpha**2 * m_e**2 / m_p * 1e6
+    flagged: [('formula_code', '1e6'), ('derivation_chain', '0.00865')]
+--- const_073 | First Riemann zero | tier S | status structural | observed 14.13472
+    formula_code: 2*g + 1.0/g - 1.0/N_max
+    flagged: [('derivation_chain', '14.1356')]
+--- const_077 | Jarlskog invariant | tier I | status derived | observed 3.08e-05
+    formula_code: (9/11)**2 * (2/79**0.5)**6 * 1/(2*2**0.5)
+    flagged: [('derivation_chain', '3.072e-5'), ('derivation_chain', '3.08e-5')]
+--- const_078 | BCS gap ratio | tier S | status structural | observed 3.528
+    formula_code: g / rank
+    flagged: [('derivation_chain', '3.528')]
+--- const_083 | W boson width | tier D | status derived | observed 2085.0
+    formula_code: (N_c**2 - 1) * n_C / N_c * pi**5 * m_e
+    flagged: [('derivation_chain', '1.97'), ('derivation_chain', '0.37')]
+--- const_093 | NH3 bond angle | tier D | status derived | observed 107.8
+    formula_code: (acos(-1.0/N_c) - (acos(-1.0/N_c) - acos(-1.0/2**rank))/N_c) * 180/pi
+    flagged: [('derivation_chain', '109.47'), ('derivation_chain', '1.665')]
+--- const_098 | CKM element |V_ud| | tier D | status derived | observed 0.97373
+    formula_code: sqrt(1 - 1/(4*n_C))
+    flagged: [('derivation_chain', '0.97468'), ('derivation_chain', '0.97373')]
+--- const_099 | CKM element |V_us| | tier D | status derived | observed 0.2243
+    formula_code: 1/(2*sqrt(n_C))
+    flagged: [('derivation_chain', '0.22361'), ('derivation_chain', '0.2243'), ('derivation_chain', '0.31')]
+--- const_100 | Hubble constant H_0 | tier I | status derived | observed 67.36
+    formula_code: 67.29
+    flagged: [('formula_code', '67.29'), ('derivation_chain', '0.1430'), ('derivation_chain', '67.29'), ('derivation_chain', '0.01')]
+--- const_101 | CMB temperature T_0 | tier I | status derived | observed 2.7255
+    formula_code: 2.735
+    flagged: [('formula_code', '2.735'), ('derivation_chain', '67.29'), ('derivation_chain', '2.735'), ('derivation_chain', '2.7255')]
+--- const_102 | Cosmic age t_0 | tier I | status derived | observed 13.797
+    formula_code: 13.78
+    flagged: [('formula_code', '13.78'), ('derivation_chain', '67.29'), ('derivation_chain', '13.78'), ('derivation_chain', '13.797')]
+--- const_106 | Up quark mass | tier D | status derived | observed 2.16
+    formula_code: N_c * sqrt(rank) * m_e
+    flagged: [('derivation_chain', '2.168')]
+--- const_107 | Down quark mass | tier D | status derived | observed 4.67
+    formula_code: (2*n_C + N_c) / C_2 * N_c * sqrt(rank) * m_e
+    flagged: [('derivation_chain', '2.168'), ('derivation_chain', '4.697')]
+--- const_108 | Strange quark mass | tier D | status derived | observed 93.4
+    formula_code: rank**2 * n_C * (2*n_C + N_c) / C_2 * N_c * sqrt(rank) * m_e
+    flagged: [('derivation_chain', '4.697')]
+--- const_111 | Classical electron radius | tier D | status derived | observed 2.8179
+    formula_code: (1/N_max) * 197.3269804 / 0.51099895
+    flagged: [('formula_code', '197.3269804'), ('derivation_chain', '197.33'), ('derivation_chain', '2.818')]
+--- const_114 | Proton gyromagnetic ratio | tier D | status derived | observed 267522187.44
+    formula_code: 2 * 2.7928473446 * 5.0507837461e-27 / 1.054571817e-34
+    flagged: [('formula_code', '2.7928473446'), ('formula_code', '5.0507837461e-27'), ('formula_code', '1.054571817e-34'), ('derivation_chain', '0.012')]
+--- const_115 | Z boson width | tier S | status structural | observed 2495.5
+    formula_code: 
+    flagged: [('derivation_chain', '2.486'), ('derivation_chain', '0.37'), ('derivation_chain', '0.26')]
+--- const_123 | QCD string tension | tier I | status identified | observed 440.0
+    formula_code: sqrt(10) * 139.57
+    flagged: [('formula_code', '139.57')]
+--- const_125 | Alpha particle binding energy | tier I | status identified | observed 28.2957
+    formula_code: 13 * (1/N_max) * 6*pi**5*m_e / pi
+    flagged: [('derivation_chain', '2.180'), ('derivation_chain', '2.180'), ('derivation_chain', '28.21')]
+--- const_126 | Helion binding energy | tier I | status identified | observed 7.71806
+    formula_code: (39/11) * (1/N_max) * 6*pi**5*m_e / pi
+    flagged: [('derivation_chain', '2.180'), ('derivation_chain', '7.73')]
+--- const_127 | Triton binding energy | tier I | status identified | observed 8.48182
+    formula_code: (39/11) * (1/N_max) * 6*pi**5*m_e / pi + (1/N_max)*6*pi**5*m_e/N_c**2
+    flagged: [('derivation_chain', '8.49')]
+--- Proton charge radius | Proton charge radius | tier D | status derived | observed 0.8414
+    formula_code: rank**2 * 197.327 / 938.272
+    flagged: [('formula_code', '197.327')]
+
+[PASS] CONTROL: const_100 (H₀) is flagged
+
+SCORE: 1/1   (the instrument's only scored check; the finding is the list, classified by reading)
