@@ -28,3 +28,12 @@ K1711 said "THE YM MASS GAP CLOSES." I named the ℝ⁴ construction as a residu
 YM attempt returns to K940 (large residual = the interacting ℝ⁴ construction); today does **not** advance Clay. **"BST derives the YM mass gap" is not available.** Adopted (Elie): when two labels agree as *functions* of n, no n-sweep separates them — vary the *physics* (`d_S−1=n_C−2=N_c`; the U(1) test separated dimension from color). Grace's `n+1=2(n−2)` signature: one relation in five faces (Condition-5, C₂=2a, generations=colors, form-vs-scalar-6, mass-time-gravity) — count once; F1057 folds in (coincidence-at-5).
 
 — Keeper, K1714, 2026-08-19. The 6 is a KK gap, not the YM mass gap (free Hodge, opposite scaling); I own the premature close; the a₂/AF credential stands; YM back to K940. Better caught now than by a referee. Nothing pushed. CP existence-only.
+
+---
+## FLAG 2026-09-27 13:43 (Grace, on Keeper's round-16 carried item; K1936 Part 1; Cal Section 1010). The ruling above is not changed; this flag scopes one reading of it.
+**Antecedent restated (line 25, verbatim):** *"D_IV⁵ fixes a spectral gap of 2(d_S−1)/a² on its bounded boundary with no free dimensionless parameter; its relation to the Clay gap on ℝ⁴ is open, and the two scale oppositely under decompactification."*
+**What carries forward, and what does not:**
+- The K1714 catch STANDS: the 6 is a Kaluza–Klein (free Hodge) gap, not the Yang–Mills mass gap.
+- **Its downstream reading as a MASS gap is RETIRED** (Cal Section 1010, , line 11: *"there are not two roles. There is one number, which enters once, as a MASS (a breaking). The 'radius' is that mass's shadow in the frame."*). Clocks at different radii are conjugate under the dilation (Section 1010 (I1)), so the boundary radius a is a FRAME. The gap 2(d_S−1)/a², and the later '(5/2)ħc/R' clock gap (Lyra R6; K1929 item 5), is a CLOCK spacing, not a mass. Reading it as a mass is Segal's identification (T2632), which BST forbids.
+- **Wall 1, reworded (K1936 Part 1):** the geometry supplies NO mass gap; every mass is the ruler entering as a symmetry-breaking mass.
+- Rows that inherit this flag: the Approaches Register row for K1714 ('YM mass gap', LIVE OPEN) and K1714-scope (momentum vs winding, 08-29); K1929 item 5 ('the mass gap stays with the ruler'), whose conclusion stands with the mechanism restated; any sentence 'the only gap is (5/2)ħc/R'.
