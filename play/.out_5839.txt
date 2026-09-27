@@ -1,0 +1,15 @@
+[PASS] convention CHECKED on vector fields: [K_μ,K_ν] = 0 and [K_μ,P_ν] = 2(δ_{μν}D + M_{μν}) with M = orbital + the same Σ  
+[PASS] CONTROL □: covariant scalar(Δ) → scalar(Δ+2) ONLY at Δ = 1 = (d−2)/2 (the massless scalar)  [1]
+[PASS] CONTROL ∂·J: covariant vector(Δ) → scalar(Δ+1) ONLY at Δ = 3 = d − 1 (the conserved current)  [3]
+   solved Δ: □ [1]; ∂·J [3]; Maxwell div [2]; Maxwell d [2]
+[PASS] MAXWELL: div F (2-form(Δ) → vector(Δ+1)) is covariant ONLY at Δ = 2  [2]
+[PASS] MAXWELL: dF (2-form(Δ) → 3-form(Δ+1)) is covariant ONLY at Δ = 2 — both Maxwell equations single out Δ = 2  [2]
+[PASS] (3) Ørsted–Zhang's record family (spherical minimal-parabolic, HC (iν1, iν2, 0)) never has the helicity-1 ladder's infinitesimal character (0, 2, 1) for real ν (grid incl. ν = 0): its real entries 2, 1 cannot be matched  
+
+(2) [logical step, not scored; Knapp pin OWED] Unitarily induced from tempered ⇒ finite sum of TEMPERED irreducibles. The helicity-1
+    ladder is NOT tempered (5830/5832, computed) ⇒ it is not a subquotient of ANY unitary-axis representation (ν = 0 included).
+READING: the photon lives as the kernel of the Maxwell operator, covariant only at Δ = 2, on the NON-unitary degenerate (field) series;
+that series is not in the record continuum, whose family (3) cannot even share the photon's infinitesimal character. Keeper's kill
+resolves to 'not a subquotient' ⇒ no covariant photon coupling of H² through the records, of any kind (F·O included).
+
+SCORE: 6/6
