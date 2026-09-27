@@ -1,0 +1,1698 @@
+                                          STRUCTURE OF THE DEGENERATE PRINCIPAL SERIES ON
+                                           SYMMETRIC R-SPACES AND SMALL REPRESENTATIONS
+
+
+
+
+arXiv:1212.3411v2 [math.RT] 6 Jan 2014
+                                                                 JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+                                                  Abstract. Let G be a simple real Lie group with maximal parabolic subgroup
+                                                  P whose nilradical is abelian. Then X = G/P is called a symmetric R-space.
+                                                  We study the degenerate principal series representations of G on C ∞ (X) in the
+                                                  case where P is not conjugate to its opposite parabolic. We find the points of
+                                                  reducibility, the composition series and all unitarizable constituents. Among
+                                                  the unitarizable constituents we identify some small representations having
+                                                  as associated variety the minimal nilpotent KC -orbit in p∗C , where KC is the
+                                                  complexification of a maximal compact subgroup K ⊆ G and g = k + p the
+                                                  corresponding Cartan decomposition.
+
+
+
+
+                                                                                Introduction
+                                            Let X = G/P be an irreducible symmetric R-space, i.e. G is a simple real non-
+                                         compact Lie group and P a maximal parabolic subgroup with abelian nilradical.
+                                         Then X is at the same time a compact symmetric space X = K/M where K ⊆ G
+                                         is a maximal compact subgroup of G and M = K ∩ P . Write P = MP AP N
+                                         for the Langlands decomposition of P and let aP be the Lie algebra of AP . On
+                                         X we consider the degenerate principal series representations (normalized smooth
+                                         parabolic induction)
+                                                                    I(ν) := IndG       ν        ∞
+                                                                               P (1 ⊗ e ⊗ 1) ⊆ C (X)
+
+                                         of parameter ν ∈ (aP )∗C . In this paper we are concerned with the structure of these
+                                         representations. Natural questions in this framework are:
+                                         (1) For which ν ∈ (aP )∗C is I(ν) irreducible?
+                                         (2) What is the composition series of a reducible I(ν)?
+                                         (3) Which irreducible constituents are unitary?
+                                            A key role in the study of these questions is played by intertwining operators. In
+                                         particular, a G-invariant subspace W ⊆ I(ν) is unitary if and only if there exists
+                                         an intertwining operator T : W → I(−ν) with strictly positive eigenvalues. In this
+                                         case the inner product on W given by
+                                                                                       Z
+                                                                W × W → C, (f, g) 7→       f (x)T g(x) dx
+                                                                                              X
+                                         is G-invariant.
+
+
+                                             Date: April 5, 2013.
+                                             2010 Mathematics Subject Classification. Primary 22E46; Secondary 17B08.
+                                             Key words and phrases. symmetric R-space, degenerate principal series, generalized principal
+                                         series, composition series, minimal representation, associated variety, nilpotent orbit.
+                                                                                        1
+2                      JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+   Under the assumption that P is conjugate to its opposite parabolic subgroup
+P the questions (1), (2) and (3) have been completely answered by Johnson [22],
+Ørsted–Zhang [38], Sahi [41, 42] and Zhang [48]. This case occurs exactly when
+there exists a Weyl group element for the restricted root system ∆ of g (with respect
+to a maximally non-compact Cartan) which acts on aP by −1. Hence the classical
+Knapp–Stein theory provides standard intertwining operators A(ν) : I(ν) → I(−ν)
+with meromorphic dependence in the parameter ν ∈ (aP )∗C . In the above mentioned
+papers these Knapp–Stein intertwiners and their residues are used to treat the above
+questions.
+   In this paper we completely answer the above questions for the case where P
+is not conjugate to P (see Tables 1 and 2 for a classification). Up to covering the
+possible groups G, sorted by the restricted root system ∆ of g with respect to a
+maximally non-compact Cartan, and the corresponding Lie algebras l of the Levi
+part L = MP AP of P = LN are
+
+      • Type A
+          – G = SL(r + s, K), s > r ≥ 1, with l = s(gl(r, K) ⊕ gl(s, K)) and
+            K ∈ {R, C, H},
+          – G = SL(3, O) = E6(−26) with l = so(1, 9) ⊕ R,
+      • Type D
+          – G = SO0 (2r + 1, 2r + 1), r > 1, with l = gl(2r + 1, R),
+          – G = SO(4r + 2, C), r > 1, with l = gl(2r + 1, C),
+      • Type E6
+          – G = E6(6) with l = so(5, 5) ⊕ R,
+          – G = E6 (C) with l = so(10, C) ⊕ C.
+
+Let R denote the set of restricted roots in ∆ which contribute to the Lie algebra of
+P . Then R is a closed subsystem R of ∆ which contains all positive roots. In all
+cases above there exists no element w in the Weyl group of ∆ with wR = −R. (Note
+that this can only occur for a root system of type An , D2n+1 and E6 .) Hence the
+classical Knapp–Stein theory does not yield intertwiners I(ν) → I(−ν). Instead we
+employ the method of the “spectrum generating operator” by Branson–Ólafsson–
+Ørsted [2]. Initially this method was invented to determine the eigenvalues of
+a given intertwining operator. However, it also provides a technique to construct
+intertwiners purely in terms of their eigenvalues. We use this technique to find non-
+standard intertwining operators for all unitarizable subrepresentations of I(ν) and
+answer questions (1), (2) and (3) (see Theorem 3.2 for the reducibility question,
+Theorem 3.3 for the composition series and Theorems 4.5, 4.8 and 4.11 for the
+unitarity question). It is noteworthy that non-trivial unitarizable constituents other
+than the unitary principal series (i.e. ν ∈ i(aP )∗ ) only occur for the restricted root
+system ∆ of type D or E6 . Here in particular the study of the unitarity question is
+delicate. To successfully apply the method of the “spectrum generating operator”
+we need to determine whether certain coefficients in the expansion of the product
+of two spherical functions on X vanish (see Lemma 4.2). This is done using a result
+by Vretare [47] and a combinatorial calculation carried out in Appendix A.
+   We further study the associated varieties of the unitary constituents and find
+some representations with associated variety equal to the smallest nilpotent KC -
+orbit in p∗C for the groups SL(1 + s, K) (K ∈ {R, C, H}), SO(2r + 1, 2r + 1), SO(4r +
+             DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                        3
+
+
+2, C), E6(−26) , E6(6) and E6 (C) (see Section 5). These representations are all spheri-
+cal, have one-dimensional asymptotic K-support and their Gelfand–Kirillov dimen-
+sion attains its minimum among all infinite-dimensional unitary representations.
+L2 -models of these small representations in the spirit of Sahi [40], Dvorsky–Sahi [8,
+9], Kobayashi–Ørsted [27], Barchini–Sepanski–Zierau [1] and Hilgert–Kobayashi–
+M. [16] will be the subject of a subsequent paper.
+
+   For the special linear groups G = SL(r + s, K), K ∈ {R, C, H}, with maximal
+parabolic subgroups P = S(GL(r, K) × GL(s, K)) ⋉ Rr×s our results on reducibility,
+composition series and unitarity are not new, but were earlier obtained by Howe–
+Lee [17] and Lee [30] (see also [7, 39, 44] for the cases r = 1). For G = SO0 (2r +
+1, 2r + 1) Johnson [21] found the points of reducibility and the composition series.
+Although he did not explicitly answer the unitarity question it can be read off from
+his results. All remaining cases, in particular the exceptional groups, seem to not
+have been treated yet. Further work on degenerate principal series associated to
+maximal parabolic subgroups with possibly non-abelian nilradical can be found in
+[4, 11, 13, 18, 19, 23, 31, 32].
+   It is also worth mentioning the recent work of Clerc [5] and Ólafsson–Pasquale [37]
+on Knapp–Stein intertwining operators between degenerate principal series on sym-
+metric R-spaces corresponding to different parabolics.
+
+   Acknowledgement: We would like to thank B. Ørsted for helpful discussions and
+for bringing the method of the “spectrum generating operator” to our attention.
+
+                                 1. Preliminaries
+1.1. Symmetric R-spaces and root data. Let G be a simple real non-compact
+Lie group with maximal parabolic subgroup P ⊆ G whose nilradical is abelian.
+Then, by definition X := G/P is an irreducible symmetric R-space. The geometry
+and structure theory of symmetric R-spaces have first been studied by Nagano [35]
+and Takeuchi [43]. In the following, we recall some details. Let P = LN denote
+the Levi decomposition of P , and let K ⊆ G be a maximal compact subgroup such
+that M := L ∩ K is maximal compact in L. Since G = KP , we have a natural
+identification X = K/M . Let g, l and n be the Lie algebras corresponding to G,
+L and N , and let θ denote the Cartan involution corresponding to K ⊆ G, resp.
+k ⊆ g. Then, there is a (unique) grading element Z0 ∈ z(l) in the center of l
+satisfying θZ0 = −Z0 and such that g decomposes under the adjoint action of Z0
+into
+(1.1)                                g =n⊕l⊕n
+with eigenvalues −1, 0, 1. Here l ⊕ n is the Lie algebra of P . We note that n = θn.
+The involution σ := Ad exp(π iZ0 ) on gC leaves g invariant and acts on n ⊕ n by
+−1, and on l by 1. This induces a non-trivial involution (also denoted by σ) on G
+satisfying σ(K) = K such that (K, M, σ) is a compact symmetric pair. Therefore,
+X is a compact Riemannian symmetric space. We further remark that n naturally
+carries the structure of a simple real Jordan triple system (see [34]). In fact, this
+establishes a one-to-one correspondence between irreducible symmetric R-spaces
+and simple real Jordan triple systems. However, we will not use the Jordan triple
+structure in this paper.
+4                       JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+    The Cartan decomposition of g with respect to θ is denoted by
+
+(1.2)                                      g = k ⊕ p.
+
+Since θZ0 = −Z0 , the decompositions (1.1) and (1.2) are compatible, so
+
+                                   g = m ⊕ nk ⊕ lp ⊕ np ,
+
+where m = l ∩ k is the Lie algebra of M ⊆ L, lp := l ∩ p, and
+                        nk := (n ⊕ n) ∩ k = {X + θX | X ∈ n} ,
+(1.3)
+                        np := (n ⊕ n) ∩ p = {X − θX | X ∈ n} .
+
+    Let a ⊆ p be a maximal abelian subalgebra containing Z0 , and let ∆ = ∆(g, a) be
+the corresponding (restricted) root system. Then ∆ splits into ∆ = ∆−1 ∪ ∆0 ∪ ∆1 ,
+where ∆k = {λ ∈ ∆ | λ(Z0 ) = k}. We choose a positive system ∆+ ⊆ ∆ such that
+∆1 ⊆ ∆+ ⊆ ∆0 ∪∆1 , and let β1 , . . . , βr be a maximal system of strongly orthogonal
+roots in ∆1 such that β1 is the highest root in ∆. The number r is called the split
+rank of the symmetric R-space X. For each βk , we fix an sl2 -triple (Ek , hk , E−k ),
+i.e.
+
+(1.4)        [hk , Ek ] = 2 Ek ,   [hk , E−k ] = −2 E−k ,   [Ek , E−k ] = hk ,
+
+satisfying Ek ∈ gβk , E−k = −θEk ∈ g−βk , hk ∈ a. Set Hk := Ek − E−k ∈ nk . Then
+                                           r
+                                           M
+(1.5)                               t :=         RHk ⊆ nk
+                                           k=1
+
+is maximal abelian in nk , since naturally nk ∼= np and (m⊕np , m) is the non-compact
+symmetric dual to (k, m) due to [35, 43], see also [26, Proposition 4.3]. Moreover,
+if γj ∈ t∗C is defined by γj (iHk ) := 2δjk , the (restricted) root system ∆(gC , tC ) is
+given by either
+                                     
+               ±γj ± γk
+(1.6)                     1 ≤ j, k ≤ r \ {0}                    (type Cr ),
+                    2
+
+called the ’unital’ case, or
+                                          
+              ±γj ± γk      γj
+(1.7)                   ,±     1 ≤ j, k ≤ r \ {0}                 (type BCr ),
+                   2         2
+called the ’non-unital’ case, see [25, Proposition 2.2]. The term ’unital’ corresponds
+to the fact, that the natural Jordan triple structure on n comes from a unital Jordan
+algebra precisely if ∆(gC , tC ) is of type Cr . As noted in the introduction, here we
+are interested in the non-unital case (see Tables 1 and 2 for a classification).
+   From the classification we see that the root system ∆ = ∆(g, a) is either of type
+An , D2n+1 or E6 . Note that in these cases there is no element in the Weyl group
+of ∆ which acts on a by −1.
+   The intersection of the root spaces of ∆(gC , tC ) with kC ⊆ gC yields a root system
+∆(kC , tC ) ⊆ t∗C . In the non-unital case the multiplicities
+
+              e := dim(kC )±γj , d := dim(kC ) ±γj ±γk , b := dim(kC )± γj
+                                                        2                  2
+             DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                         5
+
+
+                          g                       l                      n
+     A.1     sl(r + s, R), s > r ≥ 1  sl(r, R) ⊕ sl(s, R) ⊕ R       M (r × s, R)
+     A.2     sl(r + s, C), s > r ≥ 1  sl(r, C) ⊕ sl(s, C) ⊕ C       M (r × s, C)
+     A.3     sl(r + s, H), s > r ≥ 1 sl(r, H) ⊕ sl(s, H) ⊕ R        M (r × s, H)
+     A.4             e6(−26)                so(1, 9) ⊕ R           M (1 × 2, O)
+     D.1    so(2r + 1, 2r + 1), r > 1    sl(2r + 1, R) ⊕ R        Skew(2r + 1, R)
+     D.2      so(4r + 2, C), r > 1       sl(2r + 1, C) ⊕ C        Skew(2r + 1, C)
+     E.1                e6(6)               so(5, 5) ⊕ R           M (1 × 2, Os )
+     E.2               e6 (C)              so(10, C) ⊕ C           M (1 × 2, OC )
+        Table 1. Non-unital irreducible symmetric R-spaces:                non-
+        compact Lie algebras
+
+
+                                      k                  m
+                    A.1          so(r + s)        so(r) ⊕ so(s)
+                    A.2          su(r + s)        s(u(r) ⊕ u(s))
+                    A.3          sp(r + s)        sp(r) ⊕ sp(s)
+                    A.4              f4                so(9)
+                    D.1   so(2r + 1) ⊕ so(2r + 1)   so(2r + 1)
+                    D.2         so(4r + 2)           u(2r + 1)
+                    E.1            sp(4)          sp(2) ⊕ sp(2)
+                    E.2              e6             so(10) ⊕ R
+        Table 2. Non-unital irreducible symmetric R-spaces: compact
+        Lie algebras
+
+
+are independent of the choice of 1 ≤ j < k ≤ r and the signs (see [33, § 11]) and we
+always have b 6= 0. Therefore, the non-unital case splits into two possibilities:
+                                           (
+                                             Br  if b 6= 0, e = 0,
+                    ∆(kC , tC ) is of type
+                                             BCr if b 6= 0, e 6= 0.
+For later purpose, it is convenient to introduce the genus p of X defined by
+                                                       b
+(1.8)                       p := (e + 1) + (r − 1) d + .
+                                                       2
+   Let κ denote the Killing form of g and its bilinear complexification. Then
+                                    X
+                   κ(Hk , Hℓ ) =           λ(Hk )λ(Hℓ ) dim(gC )λ .
+                                  λ∈∆(gC ,tC )
+
+We thus obtain
+                        κ(Hℓ , Hℓ ) = −8 ẽ + (r − 1) d̃2 + 4b̃ ,
+                                                               
+
+where ẽ = dim(gC )±γj , d˜ = dim(gC )(±γj ±γk )/2 , b̃ = dim(gC )±γj /2 , independent of
+the choice of 1 ≤ j < k ≤ r and signs. It is known that ẽ = e + 1, d˜ = 2d and
+b̃ = 2b, and hence we note that
+                                        1
+(1.9)                            p = − κ(Hℓ , Hℓ ),
+                                        8
+independent of 1 ≤ ℓ ≤ r.
+6                       JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+   We fix a lexicographic ordering of roots in ∆(kC , tC ) by setting γ1 > γ2 > · · · > γr .
+The corresponding set of positive roots is denoted by ∆+ (kC , tC ). A straightforward
+calculation shows that the half sum of positive roots is given by
+                 Xr
+(1.10)     ρk =      ρk γk with ρk := (r − k) d2 + 2e + 4b = p−1               d
+                                                                   2 − (k − 1) 2 .
+                 k=1
+   For the discussion of induced representations we set aP := RZ0 and AP :=
+exp(aP ) and let P = MP AP N be the corresponding Langlands decomposition of
+P . Let γ ∈ a∗P be the linear functional defined by γ(Z0 ) = 1. Since (1.1) is
+the decomposition of g corresponding to the adjoint action of aP , it follows that
+∆(g, aP ) = {±γ}. The parabolic P ⊆ G corresponds to the choice of γ as the
+positive root, and hence
+                                          n
+(1.11)                                ρ= γ
+                                          2
+is the half sum of positive roots where n = dim n.
+
+                      n                     n          p          r d e           b
+    A.1      M (1 × s, R), s > 1            s     (s + 1)/2       1 0 0        s−1
+    A.2      M (1 × s, C), s > 1           2s       s+1           1 0 1       2(s − 1)
+    A.3      M (1 × s, H), s > 1           4s      2(s + 1)       1 0 3       4(s − 1)
+    A.1    M (r × s, R), s > r > 1          rs    (r + s)/2       r 1 0        s−r
+    A.2    M (r × s, C), s > r > 1         2rs      r+s           r 2 1       2(s − r)
+    A.3    M (r × s, H), s > r > 1         4rs     2(r + s)       r 4 3       4(s − r)
+    A.4         M (1 × 2, O)               16         12          1 0 7           8
+    D.1    Skew(2r + 1, R), r > 1       r(2r + 1)     2r          r 2 0           2
+    D.2    Skew(2r + 1, C), r > 1      2r(2r + 1)     4r          r 4 1           4
+    E.1         M (1 × 2, Os )             16          6          2 3 0           4
+    E.2         M (1 × 2, OC )             32         12          2 6 1           8
+    Table 3. Non-unital irreducible symmetric R-spaces: structure constants
+
+
+
+1.2. K-types. In this section, we describe the decomposition of L2 (X) into K-
+irreducible subspaces by using the Cartan–Helgason theorem. For this we assume
+that G has trivial center. Since K is not necessarily simply-connected and M is
+not necessarily connected we have to be careful in lifting Lie algebraic results to
+the group level.
+   For m = (m1 , . . . , mr ) ∈ Zr let m ≥ 0 denote the condition
+                               m1 ≥ m2 ≥ · · · ≥ mr ≥ 0.
+The main goal of this section is the following.
+Proposition 1.1. Let X be a non-unital symmetric R-space. Then the space
+L2 (X)K-finite of K-finite vectors in L2 (X) decomposes into
+                                                M
+                               L2 (X)K-finite =   V m,
+                                                  m≥0
+                                              m
+where for m ≥ 0 the subrepresentation V isPthe irreducible unitary M -spherical
+                                           r
+K-representation with highest weight λm := i=1 mi γi . In each V m the space of
+             DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                        7
+
+
+M -spherical vectors is one-dimensional and there is a unique M -spherical vector
+φm ∈ V m with φm (x0 ) = 1.
+  We first apply the Cartan–Helgason theorem on the Lie algebra level.
+Lemma 1.2. The highest weight of an irreducible k-representation with an m-
+spherical vector vanishes on the orthogonal complement of t in any maximal torus of
+k containing t. The possible weights which give unitary irreducible m-representations
+are precisely given by
+             (P
+                   r
+     +                ti γi ti ∈ 21 Z, ti − tj ∈ Z, t1 ≥ . . . ≥ tr ≥ 0 in case B,
+    Λm (k) =    Pri=1
+               { i=1 ti γi | ti ∈ Z, t1 ≥ . . . ≥ tr ≥ 0}               in case BC.
+Further, in each irreducible m-spherical k-representation the space of m-spherical
+vectors is one-dimensional.
+Proof. By the Cartan–Helgason theorem [15, V §4, Theorem 4.1] the set Λ+     m (k) of
+highest weights of m-spherical irreducible k-representations consists of all λ ∈ t∗C
+such that
+                       κ(λ, α)
+                                ∈ N0    for all α ∈ ∆+ (kC , tC ),
+                       κ(α, α)
+where we identify t∗C ∼
+                                                  Pr
+                      = tC using κ. Writing λ = j=1 tj γj with tj ∈ R we find
+                                 
+                                  tj      if α = γj ,
+                      κ(λ, α) 
+                               = tj ± tk if α = γj ±γ 2
+                                                        k
+                                                          , j < k,
+                      κ(α, α)                     γj
+                                   2tj     if α = 2 ,
+                                 
+
+which implies the claimed statement for Λ+ m (k). Finally, [15, VI Lemma 3.6] states
+that the space of m-spherical vectors is one-dimensional.                         
+  In order to lift this result to the group level, we need the following lemma.
+Lemma 1.3. Let T = exp(t) ⊆ K.
+                                         Pr
+(1) The exponential map t → T has kernel j=1 2πZHj .
+(2) T meets every connected component of M , i.e. M = (T ∩ M )M0 . Moreover
+                                                 
+                                        Xr
+(1.12)                    T ∩ M = exp      πZHj  .
+                                              j=1
+                  Pr
+Proof. Let H := j=1 tj Hj ∈ t with tj ∈ R, and consider the adjoint action of
+exp(H) on gC . Since G is the adjoint group of g, the element H is in the kernel of
+exp if and only if Ad(exp(H)) = id. Since
+                                    Pr
+                 Ad(exp(H))X = e      j=1 tj λ(Hj )   X   for   X ∈ (gC )λ ,
+and γk (Hℓ ) = −2iδkℓ , the decomposition (1.7) immediately yields statement (1).
+For (2), we first note that K = M0 TPM0 and therefore M = (T ∩ M )M0 , see [14,
+Chapter V, Theorem 6.7]. Let H = rj=1 tj Hj with tj ∈ R. Since M = ZK (aP )
+we have to show that Ad(exp(H))Z0 = Z0 if and only if tj ∈ πZ for all j = 1, . . . , r.
+Set Fj := Ej + E−j with E±j defined in (1.4). Since ad(Hj )Z0 = −Fj and
+                              ad(Hk )(Fj ) = 2δjk hk ,
+                              ad(Hk )(hj ) = −2δjk Fk ,
+8                        JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+we find that
+                                                   r
+                                               1 X                                     
+    Ad(exp(H))Z0 = exp(ad(H))Z0 = Z0 −                  1 − cos(2tj ) hj + sin(2tj ) Fj
+                                               2 j=1
+
+and the claim follows.                                                                      
+                                                                        Pr
+Proof of Proposition 1.1. First note that by Lemma 1.3 (1) the lattice j=1 Zγj
+consists of analytically integral functionals for K. Hence, for m ≥ 0 the k-action
+on V m integrates to an action of K. Every m-spherical vector φm ∈ V m is then
+automatically M0 -spherical. We claim that an M0 -spherical vector φm is also M -
+spherical. In fact, by Lemma 1.3 (2) it suffices to check that k · φm = φm for
+k ∈ T ∩ M . Write                    Z
+                                φm =         (k0 · vm ) dk0
+                                       M0
+
+for some highest weight vector vm ∈ V m . Then by (1.12) we have k · vm = vm and
+hence we obtain
+                          Z                     Z
+                 k · φm =     (kk0 · vm ) dk0 =     (k0 k · vm ) dk0
+                           M0                    M0
+                          Z
+                        =     (k0 · vm ) dk0 = φm .
+                             M0
+
+It remains to show that the representations V m comprise all irreducible K-represen-
+tations with an M -spherical vector. By P      Lemma 1.2 it suffices to show that a
+                                                r
+K-representation V with highest weight          j=1 mj γj , m1 ≥ . . . ≥ mr ≥ 0, can
+only have an M -invariant vector if mj ∈ Z for all j = 1, . . . , r. Let φ 6= 0 be
+an M -invariant vector and let v be a highest weight vector. If ( · | · ) denotes the
+K-invariant inner product on V then (k · v|φ) = (v|φ) 6= 0 for all k ∈ M . By
+Lemma 1.3 (2) the element k := exp(πHj ) is contained in M and k · v = e2πimj v.
+Hence mj ∈ Z for all j = 1, . . . , r and the proof is complete.                   
+
+2. Degenerate principal series and the spectrum generating operator
+    For the rest of this article let X be a non-unital symmetric R-space.
+
+2.1. Degenerate principal series. Recall the element Z0 ∈ aP from (1.1). We
+identify (aP )∗C with C by the map ν 7→ np ν(Z0 ). Then ρ from (1.11) corresponds to
+p
+2 . (The reason for this normalization is the simplicity of the formulas in Propo-
+sition 2.4.) We form the induced representation (normalized smooth parabolic
+induction)
+
+    I(ν) := IndG       ν             ∞
+               P (1 ⊗ e ⊗ 1) = {ϕ ∈ C (G) : ϕ(gman) = a
+                                                        −ν−ρ
+                                                             ϕ(g)
+                                                              ∀ g ∈ G, man ∈ MP AP N }.
+Denote by πν the corresponding action of G on I(ν) by left-translation.
+  Since G = KP , restriction to K defines an isomorphism I(ν) → C ∞ (X). Denote
+by (ρν , C ∞ (X)) the corresponding representation of G, i.e.
+               ρν (g)(ϕ|K ) := (πν (g)ϕ)|K                    g ∈ G, ϕ ∈ I(ν).
+             DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                        9
+
+
+The restriction of ρν to K is the left-regular representation on C ∞ (X) and hence,
+by Proposition 1.1, the K-finite vectors C ∞ (X)K-finite decompose into
+                             C ∞ (X)K-finite ∼
+                                                M
+                                             =      V m,
+                                                  m≥0
+
+each K-type V m appearing with multiplicity one. In what follows we will identify
+V m with the corresponding subspace in C ∞ (X) or I(ν) and it will be clear from
+the context which identification we use. Further note that
+                                          Z
+                           hϕ, ψiL2 (X) =   ϕ(k)ψ(k)dk
+                                              K
+provides a sesquilinear form on C ∞ (X) which is invariant under the representations
+ρν ⊗ ρ−ν , i.e.
+          hρν (g)ϕ, ρ−ν (g)ψiL2 (X) = hϕ, ψiL2 (X) ,         ϕ, ψ ∈ C ∞ (X).
+2.2. The spectrum generating operator. Let us recall some results from [2].
+Denote by dρν the differentiated representation of g on C ∞ (X). Let h · , · i :=
+ 1
+2n κ( · , · ) be the renormalization of the Killing form of g such that hZ0 , Z0 i = 1.
+On k the bilinear form −h · , · i is positive definite and we choose an orthonormal
+basis (Tα )α ⊆ nk of the form Tα = Nα + θNα , Nα ∈ n. Consider the quadratic
+element                                 X
+                                  P :=      Tα2 ∈ U(k).
+                                         α
+Then by [2, Lemma 2.2] the right regular action RP of P leaves C ∞ (X) invariant.
+This operator is called the “spectrum generating operator”. In our case we can
+obviously express P in terms of the Casimir elements Ck ∈ U(k) and Cm ∈ U(m) of
+k and m, respectively, taken with respect to the inner product h · , · i (cf. [2, Remark
+2.4]):
+                                    P = Ck − Cm .
+Since the right regular action of Cm on C ∞ (X) is trivial and the right regular
+action of Ck on C ∞ (X) coincides with the left-regular action we find that the
+spectrum generating operator RP agrees with the Laplacian dρν (Ck ) of X which
+is independent of ν. As Casimir operator, dρν (Ck ) acts on each K-type V m by the
+eigenvalue
+                               πm := −hλm + 2ρk , λm i,
+where we identify t∗C ∼= tC via the non-degenerate bilinear form h · , · i. A short
+calculation using (1.9) shows that we have hγj , γk i = − np δjk and hence
+                      r                     r
+                   nX                    nX 2
+(2.1)
+                                                                        
+            πm =         (mj + 2ρj )mj =       mj + (p − 1 − (j − 1)d)mj .
+                   p j=1                 p j=1
+
+Now define a function ω : gC → C ∞ (X) by
+                              ω(T )(k) := hT, Ad(k)Z0 i.
+Since Z0 ∈ pC and pC is Ad(K)-invariant, we clearly have ω|kC = 0. By the
+invariance of the bilinear form h · , · i we further obtain that ω is K-equivariant.
+Let m(ω(T )) : C ∞ (X) → C ∞ (X) be the multiplication operator ϕ 7→ ω(T )ϕ.
+Then by [2, equation (2.1)] we have
+            ( dρν − dρν ′ )(T ) = np (ν − ν ′ )m(ω(T )),          T ∈ gC .
+10                        JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+For m ≥ 0 let Pm : L2 (X) → V m denote the orthogonal projection onto V m ⊆
+L2 (X). Then by [2, Corollary 2.6] we further have for m, n ≥ 0:
+(2.2)      2Pn ◦ dρν (T )|V m = ( 2n
+                                   p ν + πn − πm )Pn ◦ m(ω(T ))|V ,
+                                                                 m           T ∈ pC .
+
+Consider the map
+                   Φm : pC ⊗ V m → C ∞ (X), T ⊗ ϕ 7→ m(ω(T ))ϕ .
+One readily checks that Φm is K-equivariant, and hence there is a subset Sm ⊆
+{m ∈ Zr | m ≥ 0} such that
+                                           M
+                          Φm (pC ⊗ V m ) =     Vn .
+                                                      n∈Sm
+
+To determine Sm explicitly we need the following lemma on the spherical vectors
+φm ∈ V m , m ≥ 0. For convenience we set φm := 0 for m ∈ Zr not satisfying
+m ≥ 0.
+
+Lemma 2.1. Let X be non-unital and m ≥ 0. Then
+                          r
+                          X                      r
+                                                 X
+           ω(Z0 )φm =           A(m, k)φm+ek +         B(m, k)φm−ek + C(m)φm ,
+                          k=1                    k=1
+
+where
+                  p (2(mk + ρk ) + 2b + 1)(2(mk + ρk ) + 2b + e)
+     A(m, k) =
+                 2n       2(mk + ρk )(2(mk + ρk ) + 1)
+                    Y ((mk + ρk ) − (mj + ρj ) + d )((mk + ρk ) + (mj + ρj ) + d )
+                                                  2                            2
+                 ×                                                                 ,
+                           ((mk + ρk ) − (mj + ρj ))((mk + ρk ) + (mj + ρj ))
+                   j6=k
+
+                  p (2(mk + ρk ) − 2b − 1)(2(mk + ρk ) − 2b − e)
+     B(m, k) =
+                 2n       2(mk + ρk )(2(mk + ρk ) − 1)
+                    Y ((mk + ρk ) + (mj + ρj ) − d )((mk + ρk ) − (mj + ρj ) − d )
+                                                  2                            2
+                 ×                                                                 ,
+                           ((mk + ρk ) + (mj + ρj ))((mk + ρk ) − (mj + ρj ))
+                   j6=k
+                      r
+                      X                      r
+                                             X
+        C(m) = 1 −              A(m, k) −             B(m, k)
+                      k=1                    k=1
+                     m+ek ≥0                m−ek ≥0
+
+as rational functions in m. In particular,
+
+        • A(m, k) 6= 0 for m + ek ≥ 0,                  • A(m, k) = 0 for m + ek  0,
+        • B(m, k) 6= 0 for m − ek ≥ 0 or                • B(m, k) = 0 for m−ek  0 with
+          k = r, mr = 0, ρr = 12 ,                        either k 6= r or k = r, ρr 6= 21
+
+Proof. Note that pC is an irreducible k-module and the element Z0 ∈ pC is m-
+invariant. Moreover, γ1 is the highest weight of pC , so pC ∼
+                                                            = V e1 . Now ω : pC →
+  ∞
+C (X) is k-equivariant and therefore ω(Z0 ) is a scalar multiple of the spherical
+vector φe1 . Since φe1 (eM ) = 1 = ω(Z0 )(eM ) we even have ω(Z0 ) = φe1 . Using [47,
+Theorem 4.8] we obtain that the claimed expansion of the product φe1 φm holds
+                DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                                     11
+
+
+with
+                                            c(−i(γ1 + ρ))c(−iSk+ (m + ρ))
+                            A(m, k) =                                      ,
+                                            c(−iρ)c(−i(Sk+ (m + ρ) + γ1 ))
+                                            c(−i(γ1 + ρ))c(−iSk− (m + ρ))
+                            B(m, k) =                                      ,
+                                            c(−iρ)c(−i(Sk− (m + ρ) + γ1 ))
+where c(λ) denotes the c-function of the root system Σ = ∆(kC , tC ) and
+                    Sk± (λ1 , . . . , λr ) = (±λk , λ2 , . . . , λk−1 , λ1 , λk+1 , . . . , λr ).
+By the Gindikin–Karpelevich formula
+                                                             hλ,αi
+                                                                      hλ,αi
+                            Y                           2−i hα,αi Γ(i hα,αi )
+           c(λ) = c0                               hλ,αi                         hλ,αi
+                                  1 1                         1 1
+                          α∈Σ0 Γ( 2 ( 2 µα + 1 + i hα,αi ))Γ( 2 ( 2 µα + µ2α + i hα,αi ))
+
+with some constant c0 6= 0 and Σ0 := {α ∈ Σ+ : α2 ∈  / Σ}. Since Σ is of type B or
+BC we have
+                        γ                 γ ±γ
+                Σ0 = { 2j | 1 ≤ j ≤ r} ∪ { j 2 k | 1 ≤ j < k ≤ r}
+with multiplicities
+             µ γj = b,                     µ γj −γk = µ γj +γk = d,                      µγj = e.
+                2                               2             2
+                                   √
+Using the identity Γ(z)Γ(z + 21 ) = π21−2z Γ(2z) for the gamma function we obtain
+                                                           Pr
+the following general expression for the c-function at λ = j=1 λj γj :
+               r
+               Y                   2−2iλj Γ(2iλj )
+  c(λ) = c′0
+               j=1
+                   Γ( 21 ( 2b + 1 + 2iλj ))Γ( 12 ( 2b + e + 2iλj ))
+                                                      Y          Γ(i(λj − λk ))Γ(i(λj + λk ))
+                                               ×
+                                                    1≤j<k≤r
+                                                            Γ( 2 + i(λj − λk ))Γ( d2 + i(λj + λk ))
+                                                               d
+
+
+with some constant c′0 6= 0. With (1.10) we find
+         c(−i(γ1 + ρ))
+            c(−iρ)
+               (2ρ1 )(2ρ1 + 1)      Y       (ρ1 − ρj )(ρ1 + ρj )
+       =
+         (2ρ1 + 2 + 1)(2ρ1 + 2 + e) j>1 (ρ1 − ρj + d2 )(ρ1 + ρj + d2 )
+                b              b
+
+
+              (2ρ1 + 1)       p
+       =            b
+                           =
+           2r(2ρ1 + 2 + 1)   2n
+
+and
+              c(−iSk± (m + ρ))
+           c(−i(Sk± (m + ρ) + γ1 ))
+           (±2(mk + ρk ) + 2b + 1)(±2(mk + ρk ) + 2b + e)
+       =
+                ±2(mk + ρk )(±2(mk + ρk ) + 1)
+             Y (±(mk + ρk ) − (mj + ρj ) + d )(±(mk + ρk ) + (mj + ρj ) + d )
+                                            2                             2
+           ×
+                    (±(mk + ρk ) − (mj + ρj ))(±(mk + ρk ) + (mj + ρj ))
+             j6=k
+12                        JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+and thus the formulas above follow. We now prove the remaining claims for B(m, k),
+the corresponding results for A(m, k) are shown similarly. First note that we can
+rewrite B(m, k) as follows:
+          p (2(mk + ρk ) − 2b − 1)(2(mk + ρk ) − 2b − e)
+         2n       2(mk + ρk )(2(mk + ρk ) − 1)
+            Y (mj + ρj ) − (mk + ρk ) + d Y (mk + ρk ) − (mj + ρj ) − d
+                                         2                                 2
+         ×
+                 (mj + ρj ) − (mk + ρk )           (mk + ρk ) − (mj + ρj )
+              j<k                                   j>k
+              Y (mk + ρk ) + (mj + ρj ) − d )
+                                                2
+          ×                                         .
+                      (mk + ρk ) + (mj + ρj )
+              j6=k
+
+Recall from (1.10) that ρj = (r − j) d2 + 2e + 4b ≥ 4b ≥ 41 > 0 for every j = 1, . . . , r.
+Further, in the case r > 1 we have ρj − ρℓ = (ℓ − j) d2 ≥ d2 > 0 for j < ℓ. Therefore,
+for m ≥ 0 the denominator of B(m, k) is always non-zero if 2(mk + ρk ) − 1 6= 0.
+Since mk ∈ N0 we can only have 2(mk + ρk ) − 1 = 0 for mk = 0, ρk = 21 . Further,
+since ρr = 2e + 4b ≥ 41 and ρk ≥ d2 + 4b ≥ 34 for k 6= r we can only have ρk = 12
+for k = r and b = 2, e = 0. In this case, i.e. k = r, mr = 0, ρr = 21 , the factor
+2(mr + ρr ) − 2b − e in the numerator cancels with the factor 2(mr + ρr ) − 1 in the
+denominator. It is further easy to see that all other factors in the numerator are
+non-zero, so in this case B(m, r) 6= 0. If we suppose that m, m − ek ≥ 0, i.e.
+                     m1 ≥ . . . ≥ mk > mk − 1 ≥ mk+1 ≥ · · · ≥ mr ≥ 0,
+using the convention mr+1 = 0, then all terms in the numerator and denominator
+are non-zero and hence again B(m, k) 6= 0. Finally, suppose that m − ek  0, i.e.
+mk = mk+1 . If k 6= r then the factor (mk + ρk ) − (mj + ρj ) − d2 in the numerator
+vanishes for j = k+1. If k = r, ρr 6= 12 then mr = 0 and the factor 2(mk +ρk )− 2b −e
+in the numerator vanishes. This completes the proof.                                
+
+   To determine whether m ∈ Sm we need another result on the tensor product of
+representations occuring in C ∞ (X).
+Lemma 2.2 (see [22, Proposition 3.1]). Let V1 , V2 , W ⊆ C ∞ (X) be irreducible
+representations of K such that W ⊆ V1 · V2 , the subspace of C ∞ (X) spanned by
+products of functions in V1 and functions in V2 . Denote by P : L2 (X) → W the
+orthogonal projection onto W . Then the map
+                         Φ : V1 ⊗ V2 → W,   (ϕ1 , ϕ2 ) 7→ P (ϕ1 · ϕ2 )
+satisfies Φ(V1M ⊗ V2M ) 6= 0.
+Proof. First note that for an irreducible K-representation V ⊆ C ∞ (X) we can
+identify its contragredient V ∗ with the subrepresentation V ⊆ C ∞ (X) given by
+complex conjugates of functions in V . Then W ⊆ V1 ·V2 clearly implies W ⊆ V 1 ·V 2
+and hence the assumptions are also satisfied for the contragredient representations
+V1∗ , V2∗ and W ∗ .
+   By the Peter–Weyl Theorem we have
+
+                          L2 (K)(K×K)-finite ∼
+                                               M
+                                             =     π ⊠ π∗
+                                                          b
+                                                        π∈K
+             DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                    13
+
+
+as K × K-representations, identifying V1 ⊠ V1∗ , V2 ⊠ V2∗ and W ⊠ W ∗ naturally with
+subspaces of L2 (K). Viewing functions on X = K/M as functions on K which are
+right-invariant under M we have the natural isomorphism
+                         L2 (X)K-finite ∼
+                                          M
+                                        =       π ⊗ (π ∗ )M .
+                                             b
+                                           π∈K
+
+Since V1 , V2 , W ⊆ C (X) there are non-zero M -invariant functionals µ1 ∈ (V1∗ )M ,
+                    ∞
+
+µ2 ∈ (V2∗ )M and ν ∈ (W ∗ )M such that the maps
+              V1 → C ∞ (X),                 φ1 7→ (kM 7→ hk · µ1 , φ1 i),
+                      ∞
+              V2 → C (X),                   φ2 7→ (kM 7→ hk · µ2 , φ2 i),
+                      ∞
+              W → C (X),                     ψ 7→ (kM 7→ hk · ν, ψi)
+are the identity on V1 , V2 and W , respectively. Consider the map
+                        Ψ : (V1 ⊠ V1∗ ) ⊗ (V2 ⊠ V2∗ ) → W ⊠ W ∗
+given by multiplication of two functions in V1 ⊠ V1∗ and V2 ⊠ V2∗ on K followed by
+orthogonal projection onto the component W ⊠ W ∗ ⊆ L2 (K). Since Ψ is (K × K)-
+equivariant, W is irreducible and
+                 (V1 ⊠ V ∗ ) ⊗ (V2 ⊠ V ∗ ) ∼
+                          1            2   = (V1 ⊗ V2 ) ⊠ (V ∗ ⊗ V ∗ )
+                                                            1     2
+
+the map Ψ is given by the outer tensor product of a map Ψ1 : V1 ⊗ V2 → W and a
+map Ψ2 : V1∗ ⊗ V2∗ → W ∗ , i.e.
+                                    Ψ = Ψ1 ⊠ Ψ2 .
+We claim that Ψ1 is up to a constant equal to the map Φ. In fact, plugging in the
+non-zero element 0 6= µ = µ1 ⊗ µ2 ∈ (V1∗ )M ⊗ (V2∗ )M we find
+         Ψ1 (φ ⊗ ψ) ⊠ Ψ2 (µ) = Ψ((φ ⊗ ψ) ⊠ µ) = Ψ((φ ⊠ µ1 ) ⊗ (ψ ⊠ µ2 )).
+The right hand side is the orthogonal projection of the product of the M -invariant
+functions φ ⊠ µ1 and ψ ⊠ µ2 on K onto W ⊠ W ∗ and hence equal to Φ(φ ⊗ ψ) ⊠ ν.
+We find that Ψ1 (φ ⊗ ψ) = C · Φ(φ ⊗ ψ) and Ψ2 (µ) = C −1 · ν for some constant
+C 6= 0. In particular, Ψ2 ((V1∗ )M ⊗ (V2∗ )M ) 6= 0. Repeating the same argument for
+the contragredient representations we find that also Ψ1 (V1M ⊗ V2M ) 6= 0 and the
+proof is complete.                                                                
+Corollary 2.3. For each m ≥ 0 we have
+          {m ± ej ≥ 0 | 1 ≤ j ≤ r} ⊆ Sm ⊆ {m, m ± ej ≥ 0 | 1 ≤ j ≤ r} .
+Further, m ∈ Sm if and only if C(m) 6= 0.
+Proof. For every n ∈ Sm the K-module V n appears in the tensor product pC ⊗ V m .
+By [20, Proposition 2.1] the highest weight of a subrepresentation of pC ⊗ V m is
+the sum of the highest weight of V m and a weight of pC . Since the restricted
+                                           ±γ ±γ                    γ
+weights of pC are contained in the set { j2 k | 1 ≤ j, k ≤ r} ∪ {± 2j | 1 ≤ j ≤ r}
+the only possible spherical representations V n contained in pC ⊗ V m satisfy by
+Proposition 1.1 either n = m or n = m ± ej for some 1 ≤ j ≤ r. Hence the second
+inclusion follows. The first inclusion is an immediate consequence of Lemma 2.1.
+Now if C(m) 6= 0 then clearly m ∈ Sm . It remains to show that m ∈ Sm implies
+C(m) 6= 0 which is simply the statement of Lemma 2.2 for V1 = ω(pC ) = V γ1 and
+V2 = W = V m .                                                                  
+14                       JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+Proposition 2.4. For m ≥ 0 we have
+                                                  M
+                                 dρν (gC )V m ⊆          V n.
+                                                  n∈Sm
+
+More precisely, we have for T ∈ pC
+                                             +
+            2Pm+ej ◦ dρν (T )|V m = 2n
+                                     p (ν + m (j))Pm+ej ◦ m(ω(T ))|V ,
+                                                                    m
+
+                                             −
+            2Pm−ej ◦ dρν (T )|V m = 2n
+                                     p (ν − m (j))Pm−ej ◦ m(ω(T ))|V ,
+                                                                    m
+
+
+               2Pm ◦ dρν (T )|V m = 2n
+                                     p νPm ◦ m(ω(T ))|V ,
+                                                       m
+
+
+where
+                      p            d                              p           d
+        m+ (j) := mj +   − (j − 1) ,       m− (j) := (mj − 1) + − (j − 1) .
+                      2            2                              2           2
+Proof. The first claim follows directly from Corollary 2.3. For the explicit formulas
+we use (2.1) and (2.2) and observe that
+                                                             
+                                     2n         p           d
+(2.3)                πm+ej − πm =          mj + − (j − 1)       .
+                                      p         2           2
+This completes the proof.                                                          
+
+                   3. Reducibility and composition series
+  We now determine all points of reducibility for I(ν) and find the complete com-
+position series in these cases.
+3.1. Reducibility. Recall the constants A(m, j), B(m, j), C(m) from Lemma 2.1
+and m+ (j), m− (j) from Proposition 2.4.
+Corollary 3.1. For every m ≥ 0 and s ∈ R we have
+                            r
+                         2n X 
+(3.1)    dρν (Z0 )φm =          A(m, k)(ν + m+ (k))φm+ek
+                          p
+                           k=1
+                                                              2n
+                                   + B(m, k)(ν − m− (k))φm−ek +   C(m)νφm .
+                                                                p
+Proof. This follows directly from Lemma 2.1 and Proposition 2.4.                   
+Theorem 3.2. Let X be a non-unital symmetric R-space. Then the principal series
+representation I(ν) is reducible if and only if either
+                    p           d                               p         d
+        ν ∈ −N0 − + (j − 1)               or           ν ∈ N0 + − (j − 1)
+                    2           2                               2         2
+for some 1 ≤ j ≤ r. In particular, I(ν) is irreducible for all ν ∈ iR.
+Proof. By Corollary 3.1 it follows that the representation I(ν) is irreducible if
+                    p           d                             p           d
+        ν∈/ −N0 − + (j − 1)              and        ν∈/ N0 + − (j − 1) ,
+                    2           2                             2           2
+because then every K-type V m can be reached from every other K-type V n by
+successive application of dρν . Now suppose that ν = −m − p2 + (j − 1) d2 for some
+m ∈ N0 and 1 ≤ j ≤ r (the other case is handled similarly). Then by Proposition 2.4
+we have
+                  Pm+ej ◦ dρν (T )|V m = 0,                     T ∈ gC
+              DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                          15
+
+
+for all m ≥ 0 with mj = m. Hence, the proper subspace of I(ν) consisting of
+all K-type V m with m ≥ 0, mj ≤ m, is g-stable and therefore I(ν) is reducible.
+Finally note that, since
+         p           d          d e+1 b          b
+           − (j − 1) = (r − j) +          + ≥ >0          ∀ 1 ≤ j ≤ r,
+         2           2          2     2     4    4
+the two possibilities cannot occur simultaneously.                           
+3.2. Composition series. Using the observations from the proof of Theorem 3.2
+it is easy to determine the composition series in the case where I(ν) is reducible.
+For this we let
+                                                             
+                                                 p          d
+                   ℓj (ν) := m ≥ 0 mj ≤ −ν − + (j − 1)          ,
+                                                 2          2
+                                                               
+                                               p          d
+                   rj (ν) := m ≥ 0 mj ≥ ν − + (j − 1) + 1
+                                               2          2
+for 1 ≤ j ≤ r and define the following subspaces
+                         M                                        M
+              Lj (ν) :=        V m,             Rj (ν) :=                  V m.
+                         m∈ℓj (ν)                               m∈rj (ν)
+
+Then we have the inclusions
+(3.2)                  {0} ⊆ L1 (ν) ⊆ · · · ⊆ Lr (ν) ⊆ I(ν)K-finite ,
+(3.3)                 I(ν)K-finite ⊇ R1 (ν) ⊇ · · · ⊇ Rr (ν) ⊇ {0}.
+The following result is immediate
+Theorem 3.3. Let X be a non-unital symmetric R-space and assume I(ν) is re-
+ducible.
+(1) If ν ∈ −N0 − p2 + (j − 1) 2d let 1 ≤ j1 < · · · < jt ≤ r be such that ν ∈
+    −N0 − p2 + (j − 1) d2 if and only if j ∈ {j1 , . . . , jt }. Then the composition series
+    of I(ν)K-finite is given by
+                      {0} ⊆ Lj1 (ν) ⊆ · · · ⊆ Ljt (ν) ⊆ I(ν)K-finite .
+(2) If ν ∈ N0 + p2 −(j−1) d2 let 1 ≤ j1 < · · · < jt ≤ r be such that ν ∈ N0 + p2 −(j−1) d2
+    if and only if j ∈ {j1 , . . . , jt }. Then the composition series of I(ν)K-finite is
+    given by
+                      I(ν)K-finite ⊇ Rj1 (ν) ⊇ · · · ⊇ Rjt (ν) ⊇ {0}.
+
+                                      4. Unitarity
+   Let W ⊆ I(ν) be a subrepresentation. Then W is unitary if and only if there
+exists an intertwining operator T : W → I(−ν) with strictly positive eigenvalues
+on the K-types occurring in W . In fact, in this case the invariant inner product on
+W is given by
+                                   X
+      (v, w)W := hv, T wiL2 (X) =         t(m)hvm , wm iL2 (X) ,      v, w ∈ W,
+                                     W (m)6=0
+
+where W (m) denotes the K-isotypic component of V m in W , vm ∈ W (m) the
+orthogonal projection (with respect to the L2 -inner product) of v ∈ W onto W (m),
+and t(m) the eigenvalue of T on W (m). To find such intertwining operators and
+their eigenvalues we employ the method of the “spectrum generating operator” by
+16                      JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+Branson–Ólafsson–Ørsted [2]. For this recall the eigenvalues πm of the spectrum
+generating operator RP from Section 2.
+Theorem 4.1 ([2, Theorem 2.7]). Let W ⊆ I(ν) be g-invariant. Then a map
+T : W → I(−ν) with T |V m = t(m)idV m is an intertwining operator if and only if
+for any m, n ≥ 0 with W (m), W (n) 6= 0 and n ∈ Sm we have
+(4.1)               (πn − πm + 2n                     2n
+                                p ν)t(n) = (πn − πm − p ν)t(m).
+
+     This immediately gives a necessary criterion on the coefficients C(m) in (3.1):
+Lemma 4.2. Let W ⊆ I(ν) be a unitary subrepresentation of I(ν). Then either
+ν ∈ iR or C(m) = 0 for all m ≥ 0 with W (m) 6= 0.
+Proof. Let T : W → I(−ν) be an intertwining operator with strictly positive eigen-
+values t(m) on W (m) 6= 0. Suppose there exists m ≥ 0 with W (m) 6= 0 and
+C(m) 6= 0. Then by Corollary 2.3 we find that n := m ∈ Sm and in this case (4.1)
+implies
+                               (ν + ν)t(m) = 0
+which is only possible for ν ∈ iR since t(m) > 0.                                      
+   Note that if C(m) = 0 then by Corollary 2.3 we have m ∈/ Sm and the obstruction
+in the proof of Lemma 4.2 does not occur. In this case (4.1) gives recurrence
+relations for the eigenvalues t(m) which determine T uniquely up to scalar multiples
+on every irreducible subrepresentation.
+   Thus we need to find out for which m the constants C(m) vanish. If X is unital
+then P is conjugate to its opposite parabolic and hence there exist Knapp–Stein
+intertwiners I(ν) → I(−ν) for infinitely many values ν ∈ R. Therefore C(m) = 0
+in these cases. For non-unital X, however, it can very well happen that C(m) 6= 0.
+From the formula for C(m) given in Lemma 2.1 it is hard to determine for which
+m we have C(m) = 0. We use the following result which is proved in Appendix A:
+Proposition 4.3. Assume 2mr + 2ρr > 1.
+(1) For d 6= 0, 2 we have
+                                              r
+                                                                               !
+                 rb   pb(e + 2b − 1)          Y     (2mk + 2ρk )2 − (d − 1)2
+          C(m) =    −                    1−                                        .
+                 2n    2nd(d − 2)                      (2mk + 2ρk )2 − 1
+                                              k=1
+
+(2) For d ∈ {0, 2} we have
+                                                r
+                           rb   pb(e + 2b − 1) X        1
+                  C(m) =      +                                    .
+                           2n        2n          1 − (2mk + 2ρk )2
+                                               k=1
+
+  We now study the constants C(m) separately for all non-unital symmetric R-
+spaces and determine all unitarizable subrepresentations using Theorem 4.1.
+
+4.1. The cases g = sl(r+s, K) and g = e6(−26) . Let g = sl(r+s, K) with parabolic
+corresponding to l = s(gl(r, K)⊕gl(s, K)) for K ∈ {R, C, H} and s > r ≥ 1 or K = O
+and r = 1, s = 2. Here sl(3, O) ∼
+                                = e6(−26) .
+Lemma 4.4. For g = sl(r + s, K) with parabolic corresponding to l = s(gl(r, K) ⊕
+gl(s, K)) for K ∈ {R, C, H} and s > r ≥ 1 or K = O and r = 1, s = 2 we have
+C(m) = 0 if and only if m = 0.
+             DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                     17
+
+
+Proof. For g = sl(r + s, R) and g = sl(r + s, C) this follows from [17, Propositions
+2.5.7 & 3.5.3] and for g = sl(r + s, H) from [30, Proposition 3.14.2]. It remains to
+consider the rank 1 case g = e6(−26) . Here n = 16, p = 12, r = 1, d = 0, e = 7 and
+b = 8 and with Lemma 2.1 or Proposition 4.3 (2) we find after a short calculation
+                                        m(m + 11)
+                             C(m) =
+                                      4(m + 5)(m + 6)
+which shows the claim for this last case.                                          
+
+Theorem 4.5. Let g = sl(r + s, K) with parabolic corresponding to l = s(gl(r, K) ⊕
+gl(s, K)) for K ∈ {R, C, H} and s > r ≥ 1 or K = O and r = 1, s = 2. Then I(ν) is
+irreducible and unitary if and only if ν ∈ iR. If I(ν) is reducible, the only unitary
+subrepresentation resp. subquotient that can occur is the trivial representation and
+it occurs as subrepresentation resp. subquotient for ν = − 2p resp. ν = p2 .
+Proof. With Lemma 4.2 and Lemma 4.4 we find that either ν ∈ iR or the sub-
+representation resp. subquotient is isomorphic to V 0 , the trivial representation.
+That the trivial representation occurs as subrepresentation for ν = − p2 follows
+from Theorem 3.3.                                                                
+
+Remark 4.6. For g = sl(r + s, R) and g = sl(r + s, C) Theorem 4.5 was shown
+by Howe–Lee [17, Propositions 2.5.7 & 3.5.3] and for g = sl(r + s, H) by Lee [30,
+Proposition 3.14.2] (see also [7, 39, 44] for the case r = 1). The case g = e6(−26)
+does not seem to have been treated before.
+4.2. The cases g = e6(6) and g = e6 (C). Next we study the two exceptional cases
+g = e6(6) and g = e6 (C) of split rank r = 2.
+Lemma 4.7. Suppose g = e6(6) or g = e6 (C). Then C(m) = 0 if and only if
+m2 = 0.
+Proof. We use Proposition 4.3 (1) to calculate C(m) explicitly.
+(1) For g = e6(6) we have n = 16, p = 6, r = 2, e = 0, b = 4 and d = 3, and hence
+                              m2 (2m1 + 3)(2m1 + 7)(m2 + 2)
+                 C(m) =
+                           4(m1 + 2)(m1 + 3)(2m2 + 1)(2m2 + 3)
+    from which the claim directly follows.
+(2) For g = e6 (C) we have n = 32, p = 12, r = 2, e = 1, b = 8 and d = 6, and
+    obtain
+                              m2 (m1 + 3)(m1 + 8)(m2 + 5)
+                  C(m) =                                    .
+                          4(m1 + 5)(m1 + 6)(m2 + 2)(m2 + 3)
+    This completes the proof.                                                      
+
+  Recall the definition of the subspaces Lj (ν) from Section 3.
+Theorem 4.8. Let either g = e6(6) or g = e6 (C). Then I(ν) is irreducible and
+unitary if and only if ν ∈ iR. The only unitary subrepresentations that occur in a
+reducible I(ν) are given as follows:
+(1) Let g = e6(6) .
+       • The subrepresentation L1 (−3) is the trivial representation and hence uni-
+         tary.
+18                        JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+       • The subrepresentation L2 (− 32 ) with K-type decomposition and norm given
+         by
+                        ∞                     ∞          2       ∞
+                        M
+                                  (m,0)
+                                              X                  X Γ(m + 9 )
+         L2 (− 32 ) =         V           ,         vm       =              2
+                                                                                  kvm k2L2 (X)
+                        m=0                   m=0                m=0
+                                                                     Γ(m + 23 )
+                        (m,0)
+         for vm ∈ V     is unitary.
+(2) Let g = e6 (C).
+      • The subrepresentation L1 (−6) is the trivial representation and hence uni-
+         tary.
+      • The subrepresentation L2 (−3) with K-type decomposition and norm given
+         by
+                        ∞                     ∞          2       ∞
+                        M                     X                  X Γ(m + 9)
+         L2 (−3) =            V   (m,0)
+                                          ,         vm       =                  kvm k2L2 (X)
+                        m=0                   m=0                m=0
+                                                                     Γ(m + 3)
+
+         for vm ∈ V (m,0) is unitary.
+
+Proof. By Lemma 4.2 and Lemma 4.7 we find that a subrepresentation W ⊆ I(ν)
+can only be unitary if either ν ∈ iR or W only contains K-types of the form V (m,0) ,
+m ∈ N0 .
+(1) For g = e6(6) this is by Theorem 3.3 precisely the case if either ν = −3 or
+    ν = − 32 . For ν = −3 the subrepresentation L1 (− 23 ) is the trivial representation
+    and hence unitarizable. For ν = − 23 the subrepresentation L2 (− 32 ) contains the
+    K-types V (m,0) for m ∈ N0 and it remains to show that this subrepresentation
+    is unitary. By Theorem 4.1 we obtain the following recurrence relation for the
+    eigenvalues t(m) of an intertwiner T : L2 (− 32 ) → I( 32 ) on V (m,0) :
+
+           t(m + 1)   π(m+1,0) − π(m,0) − 2n
+                                           p ν   2m + p + 3   m + 29
+                    =                          =            =        .
+             t(m)     π(m+1,0) − π(m,0) + 2n
+                                           p ν
+                                                 2m + p − 3   m + 23
+
+    Choosing t(m) := Γ(m + 92 )Γ(m + 23 )−1 we obtain an intertwiner with strictly
+    positive eigenvalues and hence an invariant inner product on L2 (− 32 ).
+(2) Using the same argument for g = e6 (C) we find for ν = −3 the subrepresenta-
+    tion L2 (−3) with K-types V (m,0) and every operator T : L2 (−3) → I(3) with
+    eigenvalue t(m) on V (m,0) satisfying
+
+            t(m + 1)   π(m+1,0) − π(m,0) − 2n
+                                            p ν   2m + p + 6   m+9
+                     =                     2n   =            =
+              t(m)     π(m+1,0) − π(m,0) + p ν    2m + p − 6   m+3
+
+     provides an invariant form on L2 (−3).                                                      
+
+4.3. The cases g = so(2r + 1, 2r + 1) and g = so(4r + 2, C). Finally we treat the
+remaining cases g = so(2r + 1, 2r + 1) and g = so(4r + 2, C).
+
+Lemma 4.9. Suppose that g = so(2r + 1, 2r + 1) or g = so(4r + 2, C). Then
+C(m) = 0 if and only if mr = 0.
+
+Proof. Again we calculate C(m) explicitly using Proposition 4.3.
+             DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                           19
+
+
+(1) For g = so(2r + 1, 2r + 1) the rank of X is r and n = r(2r + 1), p = 2r, e = 0,
+    b = d = 2, ρk = 2r−2k+12   . Since in this case e + 2b − 1 = 0 it follows from
+    Proposition 4.3 (2) that for mr > 0
+                                        rb      1
+(4.2)                          C(m) =      =        .
+                                       2n    2r + 1
+    Now let mr = 0. Since 2mr + 2ρr = 1 we cannot directly apply Proposi-
+    tion 4.3 (2). Using the formula in Lemma 2.1 we find that
+                     p 2mr − 1 Y (2mr − 1)2 − (2mj + 2ρj )2           1
+         B(m, r) =                           2                2
+                                                                =−
+                    2n 2mr + 1 j<r (2mr + 1) − (2mj + 2ρj )        2r + 1
+    and hence non-zero. In the derivation of the formula in Proposition 4.3 (2) the
+    term B(m, r) was taken into account although m − er  0. Therefore we can
+    determine C(m) by adding B(m, r) to (4.2) and obtain
+                                     1
+                         C(m) =          + B(m, r) = 0.
+                                  2r + 1
+(2) For g = so(4r + 2, C) the rank of X is r and n = 2r(2r + 1), p = 4r, e = 1,
+    b = d = 4, ρk = 4r−4k+3
+                       2    and we find with Proposition 4.3 (1)
+                                r
+                           1 Y (mj + 2r − 2j)(mj + 2r − 2j + 3)
+            C(m) =                                                      .
+                        2r + 1 j=1 (mj + 2r − 2j + 1)(mj + 2r − 2j + 2)
+    For m ≥ 0 all factors in the product are strictly positive except the one for
+    j = r which is equal to
+                                  mr (mr + 3)
+                                                .
+                               (mr + 1)(mr + 2)
+    Hence the whole product vanishes if and only if mr = 0.                    
+Remark 4.10. For g = so(2r + 1, 2r + 1) Lemma 4.9 was already shown by John-
+son [21, Proposition 3.6 (iii)] using different methods.
+  To express the invariant inner product in these cases we define the Siegel–
+Gindikin Gamma function Γk,d (s) as a meromorphic function of s ∈ Ck by
+                                   k                  
+                                  Y                  d
+                      Γk,d (s) :=     Γ sj − (j − 1)     .
+                                  j=1
+                                                     2
+
+We further identify a complex number σ ∈ C with the vector (σ, . . . , σ) ∈ Ck .
+Theorem 4.11. Let either g = so(2r + 1, 2r + 1) or g = so(4r + 2, C). Then I(ν) is
+irreducible and unitary if and only if ν ∈ iR. The only unitary subrepresentations
+that occur in a reducible I(ν) are given as follows:
+(1) Let g = so(2r + 1, 2r + 1). For j = 0, 1, . . . , r − 1 the subrepresentation
+     Lj+1 (−(r − j)) with K-type decomposition and norm given by
+                                   M
+             Lj+1 (−(r − j)) =             V m,
+                                     m≥0,mj+1 =0
+                             2
+                                         ∞
+              X                          X          Γj+1,2 (m + (2r − j))
+                        vm       =                                        kvm k2L2 (X)
+                                                       Γj+1,2 (m + j)
+         m≥0, mj+1 =0                m≥0, mj+1 =0
+                 m
+    for vm ∈ V       is unitary.
+20                      JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+(2) Let g = so(4r + 2, C). For j = 0, 1, . . . , r − 1 the subrepresentation Lj+1 (−2(r −
+    j)) with K-type decomposition and norm given by
+                                  M
+          Lj+1 (−2(r − j)) =                  V m,
+                                     m≥0,mj+1 =0
+                             2
+                                         ∞
+              X                          X          Γj+1,4 (m + 2(2r − j))
+                        vm       =                                         kvm k2L2 (X)
+                                                       Γj+1,4 (m + 2j)
+         m≥0, mj+1 =0                m≥0, mj+1 =0
+
+     for vm ∈ V m is unitary.
+Proof. Using again Lemma 4.2 and Lemma 4.9 we find that a subrepresentation
+W ⊆ I(ν) can only be unitary if either ν ∈ iR or W only contains K-types of the
+form V m with mr = 0.
+(1) Using Theorem 3.3 we find that for g = so(2r +1, 2r +1) the subrepresentations
+    of I(ν) containing only V m with mr = 0 occur for ν = −(r−j), j = 0, 1, . . . , r−
+    1, and are given by Lj+1 (−(r − j)). As in the proof of Theorem 4.8 we use
+    Theorem 4.1 to find that a map T : Lj+1 (−(r − j)) → I((r − j)) which acts by
+    a scalar t(m) on the K-type V m is an intertwining operator if and only if
+
+            t(m + ek )   πm+ek − πm − 2n
+                                       p ν   mk + (2r − k − j + 1)
+                       =              2n   =                       .
+              t(m)       πm+ek − πm + p ν      mk + (j − k + 1)
+     Choosing
+                                          Γj+1,2 (m + (2r − j))
+                             t(m) :=
+                                             Γj+1,2 (m + j)
+    we obtain an intertwiner T : Lj+1 (−(r − j)) → I((r − j)) with strictly positive
+    eigenvalues and therefore it provides an invariant inner product on Lj+1 (−(r −
+    j)).
+(2) Using Theorem 3.3 we find that for g = so(4r + 2, C) the subrepresentations of
+    I(ν) containing only V m with mr = 0 occur for ν = −2(r−j), j = 0, 1, . . . , r−1,
+    and are given by Lj+1 (−2(r − j)). The condition (4.1) for the eigenvalues t(m)
+    of an intertwiner T : Lj+1 (−2(r − j)) on the K-type V m reads
+
+            t(m + ek )   πm+ek − πm − 2n
+                                       p ν   mk + 2(2r − k − j + 1)
+                       =              2n   =
+              t(m)       πm+ek − πm + p ν      mk + 2(j − k + 1)
+
+     which shows the claim by the same method as in (1).                                  
+
+         5. Gelfand–Kirillov dimension and associated varieties
+   We calculate the Gelfand–Kirillov dimension of some unitary representations we
+found in the previous section and use it to find their associated variety.
+
+5.1. Gelfand–Kirillov dimension. Let us briefly recall the definition of the Gelfand–
+Kirillov dimension (see [45] for details). We denote by
+                  0 = U−1 (g) ⊆ U0 (g) ⊆ U1 (g) ⊆ · · · ⊆ Uk (g) ⊆ · · ·
+the canonical filtration of the universal enveloping algebra U(g) of g. For a finitely
+generated U(g)-module W choose a finite-dimensional generating subspace W0 ⊆ W
+              DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                        21
+
+
+and define the Gelfand–Kirillov dimension of W by
+                                                log dim Uk (g)W0
+                      GK-dim(W ) := lim sup                      .
+                                         k→∞          log k
+This definition does not depend on the choice of W0 .
+   For an irreducible unitary representation (π, H) of G let HK-finite denote the
+space of K-finite vectors. HK-finite is a finitely generated U(g)-module and we
+define the Gelfand–Kirillov dimension of π by
+                          GK-dim(π) := GK-dim(HK-finite ).
+
+5.2. Associated variety and nilpotent orbits. The Gelfand–Kirillov dimension
+of an irreducible unitary representation π is closely related to the associated variety
+of π. Let us recall the definition of the associated variety (see [46] for details). For a
+finitely generated U(g)-module W we again choose a finite-dimensional generating
+subspace W0 ⊆ W and define a L     filtration W = ∪∞ k=0 Wk of W by Wk := Uk (g)W0 .
+                                       ∞
+The graded algebra gr U(g) =               U
+                                       k=0 k (g)/U k−1 (g) is isomorphicL∞ to S(gC ) and
+therefore we can regard the corresponding graded module gr W = k=0 Wk /Wk−1
+as a module over S(gC ). Denote by J := AnnS(gC ) (gr W ) the annihilator ideal
+of gr W in S(gC ). The affine variety V(J) ⊆ g∗C corresponding to the ideal J ⊆
+S(gC ) ∼= C[g∗C ] is called the associated variety of W . It does not depend on the
+choice of the generating subspace W0 (see [46, Proposition 2.2]).
+   We define the associated variety V(π) of an irreducible unitary representation
+(π, H) to be the associated variety of the U(g)-module HK-finite . The variety V(π)
+is always a KC -stable closed subvariety of p∗C consisting of nilpotent elements and
+hence the union of finitely many nilpotent KC -orbits (see [46, Corollary 5.23]). All
+irreducible components of the associated variety V(π) have the same dimension and
+the relation to the Gelfand–Kirillov dimension of π is given by
+                               GK-dim(π) = dim V(π).
+   Assume that G is non-Hermitian. Then there exists a unique non-zero nilpotent
+           KC
+KC -orbit Omin ⊆ p∗C of minimal dimension m(g) (see [28, Proposition 2.2]). If gC is
+a simple complex Lie algebra then there is also a unique minimal nilpotent coadjoint
+        GC
+orbit Omin ⊆ g∗C . By results of Kostant–Rallis [29], Brylinski [3] and Okuda [36]
+the two orbits are related as follows:
+Proposition 5.1 (see [3, 29, 36]). Let g be a non-Hermitian simple real Lie algebra.
+Then exactly one of the following three cases occurs:
+                                             GC           KC
+(1) gC is a simple complex Lie algebra and Omin  ∩ p∗C = Omin . In this case the di-
+                 KC                           GC
+    mension of Omin is half the dimension of Omin and hence given by the following
+    table:
+             gC        Ak    Bk (k ≥ 2) Ck        Dk      gC
+                                                           2   fC
+                                                                4    eC
+                                                                      6 eC
+                                                                         7 eC
+                                                                            8
+         1      GC
+         2 dim Omin    k       2k − 2   k        2k − 3    3    8    11 17 29
+                                            GC
+(2) gC is a simple complex Lie algebra and Omin ∩ p∗C = ∅. This happens exactly
+    for g in the following list
+             g        su∗ (2k) so(k + 1, 1)   sp(p, q)         e6(−26)   f4(−20)
+               KC
+         dim Omin      4k − 4       k       2(p + q) − 1          16        11
+22                      JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+(3) g = hC is the complexification of a simple real Lie algebra h. In this case
+                                       KC
+                                  dim Omin = 2 m(h).
+                                                             KC
+   In fact, as shown by Okuda [36], in case (2) the orbit Omin   is the intersection
+                                        KC      ∗       ∗
+of the nilpotent coadjoint orbit GC · Omin ⊆ gC with pC . This orbit is the unique
+coadjoint orbit of minimal dimension in g∗C which has nontrivial intersection with
+p∗C (or equivalently with g∗ ). For more details on nilpotent orbits we refer to the
+book by Collingwood-McGovern [6].
+   A direct consequence of this is that for every infinite-dimensional irreducible
+unitary representation (π, H) of G we have
+(5.1)                             GK-dim(π) ≥ m(g).
+
+5.3. Small representations. Using these observations we can now determine the
+associated variety of some unitary representations constructed in Section 4. For
+this we first calculate their Gelfand–Kirillov dimension.
+Proposition 5.2. (1) Let X be an arbitrary symmetric R-space. For ν ∈ iR we
+   have
+                         GK-dim(πν ) = n = dim(n).
+(2) For g = e6(6) , g = e(C), g = so(2r + 1, 2r + 1) and g = so(4r + 2, C) let W be the
+                                                                    L∞
+    unique unitary subrepresentation of I(ν) with K-types W = m=0 V (m,0,...,0) .
+    Then
+                                GK-dim(W ) = m(g).
+Proof. (1) This follows directly from the more general statement [45, Lemma 6.5].
+(2) The strategy for the other cases can be described as follows: First calculate
+    the dimension of the K-types V (m,0,...,0) as a function of m and determine the
+    highest power D of m, i.e. dim V (m,0,...,0) = cmD + o(mD ) with c 6= 0. This
+    can be done by using the Weyl dimension formula
+                                             Y           hλ(m,0,...,0) + ρh , αi
+(5.2)             dim V (m,0,...,0) =                                            .
+                                                               hρh , αi
+                                        α∈∆+ (kC ,hC )
+
+     Here hC ⊆ kC is a split Cartan subalgebra such that hC = (hC ∩ mC ) ⊕ tC with t
+     the maximal torus in nk from (1.5), where ∆+ (kC , hC ) a set of positive roots for
+     ∆(kC , hC ), compatible with the ordering of t∗C , and ρh denotes half the sum of
+     all positive roots. Next observe that if W0 = V 0 generates a subrepresentation
+     W ⊆ I(ν) with K-types V (m,0,...,0) , m ∈ N0 , we have
+                                        k
+                                        M
+               dim Uk (g)W0 ≤ dim           V (m,0,...,0) = c′ k D+1 + o(k D+1 )
+                                    m=0
+           ′
+     with c 6= 0 and hence
+                              log dim Uk (g)W0       log k D+1
+          GK-dim(W ) = lim                     ≤ lim           = D + 1.
+                          k→∞       log k       k→∞    log k
+     This gives an upper bound for the Gelfand–Kirillov dimension of W . Compare
+     this upper bound with the lower bound (5.1) to find that GK-dim(W ) = D+1 =
+     m(g).
+         DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                        23
+
+
+(a) g = e6(6) . The Lie algebra k = sp(4) is of type C4 . Its corresponding
+    symmetric subalgebra is given by m = sp(2) + sp(2). Write k = m ⊕ nk with
+    nk as in (1.3) and choose a split Cartan subalgebra hC ⊆ kC . We can label
+                             ±ε ±ε
+    the roots ∆(kC , hC ) = { j2 k | 1 ≤ j < k ≤ 4} ∪ {±εj | 1 ≤ j ≤ 4} such
+          ∗
+    that tC = C(ε1 + ε2 ) + C(ε3 + ε4 ) and
+                          ε1 + ε2 + ε3 + ε4 = 2γ1 ,
+                          ε1 + ε2 − ε3 − ε4 = 2γ2 ,
+    where γ1 and γ2 were defined in Section 1.1. As positive roots we may take
+                     ε ±ε
+    ∆+ (kC , hC ) = { j 2 k | 1 ≤ j < k ≤ 4} ∪ {εj | 1 ≤ j ≤ 4}. Then the highest
+    weight λ(m,0) = mγ1 of V (m,0) is given by
+                                      ε1 + ε2 + ε3 + ε4
+                         λ(m,0) = m                     .
+                                              2
+    In the Weyl dimension formula (5.2) the only terms contributing a power
+    of m to the dimension occur for α equal to
+                                        εj + εk
+               εj (j = 1, 2, 3, 4),             (1 ≤ j < k ≤ 4).
+                                           2
+    Counting these roots yields D = 10. Comparing with m(g) gives by Propo-
+    sition 5.1 (1) that D + 1 = 11 = m(g).
+(b) g = e6 (C). Note that (k, m) = (e6 , so(10) + R) is a Hermitian symmetric
+    pair. Therefore, the roots γ1 and γ2 defined in Section 1.1 form a maxi-
+    mal system of strongly orthogonal non-compact roots. In the notation of
+    Freudenthal–de Vries [10] we have
+                                                              
+                          2                               0
+           γ1 =                       ,     γ2 =                   .
+                   1 2 3 2 1                       1 1 1 1 1
+    Let ∆+ (kC , hC ) denote the positive roots of e6 as in [10, Table B]. Then
+    λ(m,0) = mγ1 is the highest weight of V (m,0) . Since all roots in ∆+ (kC , hC )
+    have the same length and the angle between two simple roots is either π2
+    or 2π
+        3 a positive root α contributes a power of m to the dimension in (5.2)
+    if and only if
+                                               
+                                        a
+                           α=
+                                 ∗ ∗ ∗ ∗ ∗
+    with a 6= 0. (In fact, only a = 1, 2 occur.) Counting these roots using [10,
+    Table B] yields D = 21. Comparison with m(g) gives by Proposition 5.1 (3)
+    that D + 1 = 22 = m(g).
+(c) g = so(2r + 1, 2r + 1). The Lie algebra k = so(2r + 1) + so(2r + 1) is of type
+    Br ×Br . Its corresponding symmetric subalgebra is given by m = so(2r+1).
+    Write k = m ⊕ nk with nk as in (1.3) and choose a split Cartan subalgebra
+    hC ⊆ kC . We can label the roots {±εi | 1 P
+                                              ≤ i ≤ 2r} ∪ {±εi ± εj | 1 ≤ i < j ≤
+                                                 r
+    r or r + 1 ≤ i < j ≤ 2r} such that t∗C = i=1 C(εi + εi+r ) and
+                εi + εi+r = γi ,                      1 ≤ i ≤ r,
+    where γi were defined in Section 1.1. As positive roots we may choose
+    ∆+ (kC , hC ) = {εi | 1 ≤ i ≤ 2r} ∪ {εi ± εj | 1 ≤ i < j ≤ r or r + 1 ≤ i < j ≤
+    2r}. The highest weight λ(m,0,...,0) = mγ1 of V (m,0,...,0) is given by
+                         λ(m,0,...,0) = m(ε1 + εr+1 ).
+24                        JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+         In the Weyl dimension formula (5.2) the only terms contributing a power
+         of m to the dimension occur for α equal to
+           ε1 ,   ε1 ± εi (2 ≤ i ≤ r),      εr+1 ,   εr+1 ± εi (r + 2 ≤ i ≤ 2r).
+         Counting these roots yields D = 4r − 2 and by Proposition 5.1 (1) we find
+         D + 1 = 4r − 1 = m(g).
+     (d) g = so(4r + 2, C). The Lie algebra k = so(4r + 2) is of type D2r+1 . Its
+         corresponding symmetric subalgebra is given by m = u(2r + 1). Write
+         k = m ⊕ nk with nk as in (1.3) and choose a split Cartan subalgebra hC ⊆
+         kC . We
+              Pr can label the roots {±εi ± εj | 1 ≤ i < j ≤ 2r + 1} such that
+         t∗C = i=1 C(ε2i−1 + ε2i ) and
+                       ε2i−1 + ε2i = γi ,                    1 ≤ i ≤ r,
+         where γi were defined in Section 1.1. As positive roots we may choose
+         ∆+ (kC , hC ) = {εi ± εj | 1 ≤ i < j ≤ 2r + 1}. Then the highest weight
+         Λ(m,0,...,0) = mγ1 of V (m,0,...,0) is given by
+                                    Λ(m,0) = m(ε1 + ε2 ).
+         By the Weyl dimension formula (5.2) the only terms contributing a power
+         of m to the dimension occur for α equal to
+           ε1 + ε2 ,     ε1 ± εi (3 ≤ i ≤ 2r + 1),     ε2 ± εi (3 ≤ i ≤ 2r + 1).
+         Counting these roots yields D = 8r − 3. Comparing with m(g) gives by
+         Proposition 5.1 (3) that D + 1 = 8r − 2 = m(g).                    
+Theorem 5.3. Let W be one of the following representations:
+(1) g = sl(1 + s, R), sl(1 + s, C), sl(1 + s, H), e6(−26) : Let W = I(ν) with ν ∈ iR, the
+    unitary principal series associated to the corresponding non-unital symmetric
+    R-space of rank 1,
+(2) g = e6(6) , e6 (C), so(2r + 1, 2r + 1), so(4r + 2, C): Let W be the unique unitary
+                                                        L∞
+    subrepresentation of I(ν) with K-types W = m=0 V (m,0,...,0) .
+Then the associated variety of W is the closure of the minimal nilpotent KC -orbit:
+                                                KC
+                                       V(W ) = Omin .
+In particular, the Gelfand–Kirillov dimension of W attains its minimum among all
+infinite-dimensional irreducible unitary representations of G and any of its covering
+groups.
+                           KC
+Proof. First note that Omin   is the unique coadjoint orbit with smallest possible di-
+mension that can occur in the associated variety of a non-trivial irreducible unitary
+representation. We show that the associated variety of the representation in ques-
+                                               KC
+tion has in all cases the same dimension as Omin   and hence the result follows. Since
+the dimension of the associated variety is equal to the Gelfand–Kirillov dimension
+of the representation it suffices to show that the Gelfand–Kirillov dimension coin-
+                                     KC
+cides with the dimension m(g) of Omin   . For case (2) this is already explicitly stated
+in Proposition 5.2. For case (1) the statement in Proposition 5.2 (1) reduces this
+to show that dim n = m(g) which we check for the separate cases:
+                                                                          KC
+(a) g = sl(1 + s, R), n = M (1 × s, R). By Proposition 5.1 (1) the orbit Omin has
+                                 KC
+    dimension s and hence dim Omin = dim n.
+             DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                    25
+
+                                                    KC
+(b) g = sl(1+s, C), n = M (1×s, C). We have dim Omin    = 2s by Proposition 5.1 (3)
+                      KC
+    and hence dim Omin = dim n.
+(c) g = sl(1 + s, H), n = M (1 × s, H). Since g ∼
+                                                = su∗ (2s + 2) we have by Proposi-
+                           KC
+    tion 5.1 (2) that dim Omin = 4s = dim n.
+(d) g = e6(−26) , n = M (1 × 2, O). Again by Proposition 5.1 (2) we obtain
+          KC
+    dim Omin  = 16 = dim n.                                                      
+Remark 5.4. For the groups G = SO(2r + 1, 2r + 1) and G = E6(6) the irreducible
+unitary representation W in Theorem 5.3 is in fact the minimal representation,
+i.e. the annihilator of W in U(g) is equal to the Joseph ideal. This can e.g.
+be seen by comparing both infinitesimal character and associated variety of the
+annihilator of W and the Joseph ideal. They both agree and hence, by a result
+of Duflo, this implies that the annihilator of W is the Joseph ideal. However, we
+will give a different proof of minimality in a forthcoming paper which does not
+use the infinitesimal character. In both cases in question the complex Lie algebra
+gC is simple and not of type A. Hence the Joseph ideal is the unique completely
+prime two-sided ideal in U(g) with associated variety equal to the minimal nilpotent
+coadjoint orbit in g∗C by [24, Proposition 10.2] (see also [12, Theorem 3.1]). From
+Theorem 5.3 it follows that the annihilator of W in U(g) has associated variety
+equal to the minimal nilpotent coadjoint orbit in g∗C . Therefore it remains to show
+that the annihilator is a completely prime ideal in U(g). We will show that the
+representation W can be realized by regular differential operators on an irreducible
+algebraic variety. The ring of those differential operators does not contain zero
+divisors and hence the annihilator of W is completely prime. This method was
+applied before in [16, Theorem 2.18].
+
+                   Appendix A. Proof of Proposition 4.3
+  This section is devoted to the proof of Proposition 4.3. For this we put xk :=
+2(mk + ρk ), α := 2b + 1, β := 2b + e and γ := d. Then by Lemma 2.1
+                                                p
+                                 C(m) = 1 −       d(x),
+                                               2n
+where we abbreviate
+                             Xr
+                    d(x) :=      (a(x, k) + b(x, k)),
+                              k=1
+
+                              (xk + α)(xk + β) Y (xk + γ)2 − x2j
+                 a(x, k) :=                   ·                  ,
+                                 xk (xk + 1)        x2k − x2j
+                                               j6=k
+
+                              (xk − α)(xk − β) Y (xk − γ)2 − x2j
+                 b(x, k) :=                   ·                  .
+                                 xk (xk − 1)        x2k − x2j
+                                               j6=k
+
+Proposition 4.3 now follows from the following identities:
+Proposition A.1. Let x ∈ Cr with xj 6= xk for j 6= k and xj 6= ±1. Further let
+α, β, γ ∈ C.
+(1) For γ 6= 0, 2 we have
+                                             r
+                                                               !
+                          2(1 − α)(1 − β)    Y (γ − 1)2 − x2
+                                                             k
+              d(x) = 2r +                 1−                     .
+                              γ(γ − 2)              1 − x2k
+                                                 k=1
+26                        JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+(2) For γ ∈ {0, 2} we have
+                                                                    r
+                                                                    X        1
+                          d(x) = 2r − 2(1 − α)(1 − β)                             .
+                                                                          1 − x2k
+                                                                    k=1
+
+Proof. For convenience, we set r := {1, . . . , r}. For fixed k ∈ r we first note that
+                                                     !
+      Y (xk ± γ)2 − x2j    Y         γ(γ ± 2xk )            X γ |J| (γ ± 2xk )|J|
+              2    2    =        1+      2        2    =          Q        2    2
+             xk − xj                  xk − xj                       j∈J (xk − xj )
+      j6=k                           j6=k                                 J⊆r\{k}
+
+Then a short calculation shows that
+              r                                r
+              X                                X     X                γ |J| p|J| (xk )
+                    a(x, k) + b(x, k) =
+                                                           (x2k − 1)                2   2 ,
+                                                                          Q
+              k=1                              k=1 J⊆r\{k}                   j∈J (xk − xj )
+
+
+where
+             1
+               (x + α)(x + β)(x − 1)(γ + 2x)m + (x − α)(x − β)(x + 1)(γ − 2x)m .
+                                                                              
+pm (x) :=
+             x
+We note that pm is an even polynomial of degree ≤ m + 2. Changing the order of
+summation by using the bijection J 7→ J ∪ {k} between subsets of r not containing
+k and those containing k, we obtain
+                              X                X               p|J|−1 (xk )
+                    d(x) =           γ |J|−1                                2   2 .
+                                                   (x2k − 1)
+                                                               Q
+                              J⊆r,             k∈J               j∈J\{k} (xk − xj )
+                              J6=∅
+
+In order to evaluate the inner sum, we set x0 := 1 and J0 := J ∪ {0}, and find that
+                                                                 !
+ X            p|J|−1 (xk )           X         p|J|−1 (xk )           p|J|−1 (x0 )
+       2
+             Q             2   2 =        Q             2    2     −Q      2       2 .
+k∈J
+     (xk − 1) j∈J\{k} (xk − xj )            j∈J0 \{k} (xk − xj )
+                                                 k∈J0                j∈J (x0 − xj )
+
+
+Due to the following lemma (applied to {y1 , . . . , y|J0 | } = {xj | j ∈ J0 }), the first
+term vanishes if |J| > 1. Therefore,
+                        r                                        X γ |J|−1 p|J|−1 (x0 )
+                        X   p0 (xk )        p0 (x0 )
+              d(x) =                      + 2                  −                      2 .
+                                x2k − x20  x0 − x2k                             2
+                                                                      Q
+                        k=1                                        J⊆r   j∈J (x0 − xj )
+                                                                   J6=∅
+
+Resubstituting x0 by 1, we obtain for the first term by an elementary calculation
+                      r                         X r
+                    X      p0 (xk )   p0 (x0 )
+                                    +            =    2 = 2r.
+                          x2k − x20   x20 − x2k
+                         k=1                                        k=1
+
+Using pm (1) = 2(1 − α)(1 − β)(γ − 2)m in the second term, we find
+      X γ |J|−1 p|J|−1 (x0 )   2(1 − α)(1 − β) X                 Y
+         Q              2    = Qn           2    (γ(γ − 2))|J|−1   (1 − x2j ).
+             j∈J (1 − x j )       k=1 (1 − xk )
+      J⊆r                                                 J⊆r                         j∈r\J
+      J6=∅                                                J6=∅
+              DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                                       27
+
+
+Now if γ ∈ {0, 2} only the summands for |J| = 1 survive and the claimed formula
+follows. For γ 6= 0, 2 we find
+  2(1 − α)(1 − β) X                    Y
+   Qn          2       (γ(γ − 2))|J|−1   (1 − x2j )
+     k=1 (1 − xk ) J⊆r                         j∈r\J
+                     J6=∅
+                                                                           |J|
+                                                         P                       Q          2
+                                                                                                  !
+                     2(1 − α)(1 − β)                         J⊆r (γ(γ − 2))     j∈r\J (1 − xj )
+                   =                           −1 +                  Qn          2
+                         γ(γ − 2)                                      k=1 (1 − xk )
+
+Finally, since
+ X                               r
+                                 Y                        r
+               |J|
+                   Y
+                           2                        2
+                                                        Y
+    (γ(γ − 2))       (1 − xj ) =   γ(γ − 2) + (1 − xk ) =   ((γ − 1)2 − x2k ),
+ J⊆r                j∈r\J                k=1                                     k=1
+
+it follows that
+                                                               r
+                                                                                       !
+                           2(1 − α)(1 − β)                     Y (γ − 1)2 − x2     k
+               d(x) = 2r +                               1−                                .
+                               γ(γ − 2)                                1 − x2k
+                                                               k=1
+This completes the proof.                                                                             
+Lemma A.2. Let y1 , . . . , yN be pairwise distinct real numbers. If m < N − 1, then
+                                   N
+                                   X              ykm
+                                         Q                   = 0.
+                                   k=1       j6=k (yk − yj )
+
+Proof. Let
+                                                  Y x − yj
+                                     ℓk (x) :=
+                                                         yk − yj
+                                                  j6=k
+be the k’th Lagrange polynomial. Then, ℓk (yj ) = δkj and hence
+                            span{ℓk | k = 1, . . . , N } = R[X]≤N −1 ,
+the space of polynomials of degree ≤ N − 1. For any p ∈ R[X]≤N −1 we obtain
+                                               N
+                                               X
+                                    p(x) =           p(yk ) ℓk (x).
+                                               k=1
+
+Applied to p(x) := −xm+1 with m < N − 1 and evaluated at x = 0, this yields
+                                  N                       N
+                                  X           ykm         Y
+                             0=         Q               ·    (−yj ).
+                                  k=1    j6=k (yk − yj ) j=1
+
+We may assume that yj 6= 0 for all j and conclude the statement.                                      
+
+                                         References
+ 1. L. Barchini, M. Sepanski, and R. Zierau, Positivity of zeta distributions and small unitary
+    representations, The ubiquitous heat kernel, Contemp. Math., vol. 398, Amer. Math. Soc.,
+    Providence, RI, 2006, pp. 1–46.
+ 2. T. Branson, G. Ólafsson, and B. Ørsted, Spectrum generating operators and intertwining
+    operators for representations induced from a maximal parabolic subgroup, J. Funct. Anal.
+    135 (1996), no. 1, 163–205.
+ 3. R. Brylinski, Geometric quantization of real minimal nilpotent orbits, Differential Geom.
+    Appl. 9 (1998), no. 1-2, 5–58.
+28                         JAN MÖLLERS AND BENJAMIN SCHWARZ
+
+
+ 4. P. Clare, On the degenerate principal series of complex symplectic groups, J. Funct. Anal.
+    262 (2012), no. 9, 4160–4180.
+ 5. J.-L. Clerc, Intertwining operators for the generalized principal series on symmetric R-spaces,
+    (2012), preprint, available at arXiv:1209.0691.
+ 6. D. H. Collingwood and W. M. McGovern, Nilpotent orbits in semisimple Lie algebras, Van
+    Nostrand Reinhold Mathematics Series, Van Nostrand Reinhold Co., New York, 1993.
+ 7. A. H. Dooley and G. Zhang, Generalized principal series representations of SL(1 + n, C),
+    Proc. Amer. Math. Soc. 125 (1997), no. 9, 2779–2787.
+ 8. A. Dvorsky and S. Sahi, Explicit Hilbert spaces for certain unipotent representations. II,
+    Invent. Math. 138 (1999), no. 1, 203–224.
+ 9.         , Explicit Hilbert spaces for certain unipotent representations. III, J. Funct. Anal. 201
+    (2003), no. 2, 430–456.
+10. H. Freudenthal and H. de Vries, Linear Lie groups, Pure and Applied Mathematics, Vol. 35,
+    Academic Press, New York, 1969.
+11. T. Fujimura, On some degenerate principal series representations of O(p, 2), J. Lie Theory
+    11 (2001), no. 1, 23–55.
+12. W. T. Gan and G. Savin, Uniqueness of Joseph ideal, Math. Res. Lett. 11 (2004), no. 5-6,
+    589–597.
+13. K. I. Gross, The dual of a parabolic subgroup and a degenerate principal series of Sp(n, C),
+    Amer. J. Math. 93 (1971), 398–428.
+14. S. Helgason, Differential geometry, Lie groups, and symmetric spaces, Pure and Applied
+    Mathematics, vol. 80, Academic Press Inc., New York, 1978.
+15.         , Groups and geometric analysis, Pure and Applied Mathematics, vol. 113, Academic
+    Press Inc., Orlando, FL, 1984.
+16. J. Hilgert, T. Kobayashi, and J. Möllers, Minimal representations via Bessel operators, to
+    appear in J. Math. Soc. Japan, available at arXiv:1106.3621.
+17. R. E. Howe and S. T. Lee, Degenerate principal series representations of GLn (C) and GLn (R),
+    J. Funct. Anal. 166 (1999), no. 2, 244–309.
+18. R. E. Howe and E.-C. Tan, Homogeneous functions on light cones: the infinitesimal structure
+    of some degenerate principal series representations, Bull. Amer. Math. Soc. (N.S.) 28 (1993),
+    no. 1, 1–74.
+19. K. D. Johnson, Composition series and intertwining operators for the spherical principal
+    series II, Trans. Amer. Math. Soc. 215 (1977), 269–283.
+20.         , A constructive approach to tensor product decompositions, J. Reine Angew. Math.
+    388 (1988), 129–148.
+21.         , Degenerate principal series and compact groups, Math. Ann. 287 (1990), no. 4, 703–
+    718.
+22.         , Degenerate principal series on tube type domains, Hypergeometric functions on do-
+    mains of positivity, Jack polynomials, and applications (Tampa, FL, 1991), Contemp. Math.,
+    vol. 138, Amer. Math. Soc., Providence, RI, 1992, pp. 175–187.
+23. K. D. Johnson and N. Wallach, Composition series and intertwining operators for the spherical
+    principal series I, Trans. Amer. Math. Soc. 229 (1977), 137–173.
+24. A. Joseph, The minimal orbit in a simple Lie algebra and its associated maximal ideal, Ann.
+    Sci. École Norm. Sup. (4) 9 (1976), no. 1, 1–29.
+25. S. Kaneyuki, A decomposition theorem for simple lie groups associated with para-Hermitian
+    symmetric spaces, Tokyo J. Math. 10 (1987), no. 2, 363–373.
+26.         , On orbit structure of compactifications of para-Hermitian symmetric spaces, Japan.
+    J. Math. 13 (1987), no. 2, 333–370.
+27. T. Kobayashi and B. Ørsted, Analysis on the minimal representation of O(p, q). III. Ultra-
+    hyperbolic equations on Rp−1,q−1 , Adv. Math. 180 (2003), no. 2, 551–595.
+28. T. Kobayashi and Y. Oshima, Classification of symmetric pairs with discretely decomposable
+    restrictions of (g, k)-modules, (2012), preprint, available at arXiv:1202.5743.
+29. B. Kostant and S. Rallis, Orbits and representations associated with symmetric spaces, Amer.
+    J. Math. 93 (1971), 753–809.
+30. S. T. Lee, Covariants of Spn (C) and degenerate principal series of GLn (H), J. Funct. Anal.
+    253 (2007), no. 1, 18–42.
+31. S. T. Lee and H. Y. Loke, Degenerate principal series representations of U(p, q) and
+    Spin0 (p, q), Compos. Math. 132 (2002), 311–348.
+               DEGENERATE PRINCIPAL SERIES ON SYMMETRIC R-SPACES                                29
+
+
+32.         , Degenerate principal series representations of Sp(p, q), Isr. J. Math. 137 (2003),
+    355–379.
+33. O. Loos, Bounded symmetric domains and Jordan pairs, Lecture notes, University of Califor-
+    nia, Irvine, 1977.
+34.         , Charakterisierung symmetrischer R-Räume durch ihre Einheitsgitter, Math. Z. 189
+    (1985), no. 2, 211–226.
+35. T. Nagano, Transformation groups on compact symmetric spaces, Trans. Amer. Math. Soc.
+    118 (1965), 428–453.
+36. T. Okuda, Smallest complex nilpotent orbits with real points, in preparation.
+37. G. Ólafsson and A. Pasquale, The Cosλ and Sinλ transforms as intertwining operators between
+    generalized principal series representations of SL(n + 1, K), Adv. Math. 229 (2012), no. 1,
+    267–293.
+38. B. Ørsted and G. Zhang, Generalized principal series representations and tube domains, Duke
+    Math. J. 78 (1995), no. 2, 335–357.
+39. A. Pasquale, Maximal degenerate representations of SL(n + 1, H), J. Lie Theory 9 (1999),
+    no. 2, 369–382.
+40. S. Sahi, Explicit Hilbert spaces for certain unipotent representations, Invent. Math. 110
+    (1992), no. 2, 409–418.
+41.         , Unitary representations on the Shilov boundary of a symmetric tube domain, Rep-
+    resentation theory of groups and algebras, Contemp. Math., vol. 145, Amer. Math. Soc.,
+    Providence, RI, 1993, pp. 275–286.
+42.         , Jordan algebras and degenerate principal series, Journal für die reine und angewandte
+    Mathematik 462 (1995).
+43. M. Takeuchi, Cell decompositions and Morse equalities on certain symmetric spaces, J. Fac.
+    Sci. Univ. Tokyo 12 (1965), 81–192.
+44. G. Van Dijk and V. F. Molchanov, Tensor products of maximal degenerate series representa-
+    tions of the group SL(n, R), J. Math. Pures Appl. (9) 78 (1999), no. 1, 99–119.
+45. D. A. Vogan, Jr., Gelfand–Kirillov dimension for Harish-Chandra modules, Invent. Math. 48
+    (1978), no. 1, 75–98.
+46.         , Associated varieties and unipotent representations, Harmonic analysis on reductive
+    groups (Brunswick, ME, 1989), Progr. Math., vol. 101, Birkhäuser Boston, Boston, MA, 1991,
+    pp. 315–388.
+47. L. Vretare, Elementary spherical functions on symmetric spaces, Math. Scand. 39 (1976),
+    no. 2, 343–358 (1977).
+48. G. Zhang, Jordan algebras and generalized principal series representations, Math. Ann. 786
+    (1995), 773–786.
+
+   Institut for Matematiske Fag, Aarhus Universitet, Ny Munkegade 118, 8000 Aarhus
+C, Denmark
+   E-mail address: moellers@imf.au.dk
+
+  Institut für Mathematik, Universität Paderborn, Warburger Str.                      100, 33098
+Paderborn, Germany
+  E-mail address: bschwarz@math.upb.de
+

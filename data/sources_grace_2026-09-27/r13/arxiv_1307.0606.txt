@@ -1,0 +1,1876 @@
+                                             Stability of Branching Laws for Highest Weight
+                                                                 Modules
+                                                                Masatoshi Kitagawa∗
+                                          Graduate School of Mathematical Sciences, the University of Tokyo,
+
+
+
+
+arXiv:1307.0606v1 [math.RT] 2 Jul 2013
+                                                  3-8-1 Komaba Meguro-ku Tokyo 153-8914, Japan
+
+
+                                                                                  Abstract
+                                                     We say a representation V of a group G has stability if its multiplicities
+                                                mG V (λ) is dependent only on some equivalence class of λ for a sufficiently
+                                                large parameter λ.
+                                                     In this paper, we prove that the restriction of a holomorphic discrete
+                                                series representation with respect to any holomorphic symmetric pairs has
+                                                stability. As a corollary, we give a necessary and sufficient condition on
+                                                multiplicity-freeness of the branching laws in this setting. This condition
+                                                is same as the sufficient condition given by the theory of visible actions.
+                                                     We prove a general theorem before we show the stability of holomor-
+                                                phic discrete series representations. Using the general theorem, we also
+                                                show the stability on quasi-affine spherical homogeneous spaces and the
+                                                stability of K-type of unitary highest weight modules.
+                                                     We also show that two branching laws of a holomorphic discrete series
+                                                representation coincide if two subgroups are in same ǫ-family.
+
+
+                                         1      Introduction
+                                         Let G be a simple Lie group of Hermitian type with finite center, θ be a Cartan
+                                         involution of G. Put K = Gθ . Suppose g = k ⊕ p is the Cartan decomposition
+                                         determined by θ. Let τ be an involutive automorphism of G commuting with θ
+                                         that fixes any elements of the center of k, and H be the identity component of
+                                         the fixed point subgroup Gτ . The pair (G, H) is called a holomorphic symmetric
+                                         pair.
+                                             Suppose H is a holomorphic discrete series representation of G. The purpose
+                                         of this paper is to describe the behavior of the branching law of H|H . In [10,
+                                         Theorem 7.4], it was shown that H|H is decomposed into the direct sum of
+                                         holomorphic discrete series representations of H with finite multiplicities. By
+                                         this result, we can decompose H|H as
+                                                                                  X⊕
+                                                                      H|H ≃                  mH      H
+                                                                                              H (λ)Vλ ,
+                                                                                  √
+                                                                               λ∈ −1(tτ )∗
+
+
+                                         where tτ is a Cartan subalgebra of kτ and VλH is a holomorphic discrete series
+                                         representation of H with highest weight λ. In [12, Theorem 18, Theorem 38]
+                                             ∗ Email: kitamasa@ms.u-tokyo.ac.jp
+
+
+
+
+                                                                                      1
+and [14], T. Kobayashi showed that the multiplicity function mH H (λ) is uniformly
+bounded with respect to λ, and gave the sufficient condition for multiplicity-
+freeness of H|H using the theory of visible actions.
+    The main theorem of this paper says that the sufficient condition on multiplicity-
+freeness given by visible actions is also a necessary condition for holomorphic
+discrete series representations and holomorphic symmetric pairs. More precisely,
+the branching laws have a good property called stability. Our main theorem is
+as follows (see Theorem 5.12).
+Theorem 1.1. Suppose a ⊂ p−τ is a maximal abelian subspace that√is deter-
+mined by a positive root system of (gθτ   τ
+                                     C , tC ). Then, there exists a λ0 ∈ −1(tτ )∗
+such that
+                                         Z     (a)
+                        mH               K∩H
+                         H (λ + λ0 ) = mHp+          (λ|ZT τ (a) )
+              √
+for any λ ∈    −1(tτ )∗ satisfying mH
+                                    H (λ) 6= 0.
+
+    This theorem asserts two things: the multiplicity function mH   H (λ) is pe-
+riodic for sufficiently large parameter λ, and the multiplicities in sufficiently
+large parameters can be described by the decomposition of Hp+ with respect to
+ZK∩H (a). The first phenomenon is called stability.
+    Stability was appeared in [9, Lemma 3.4] for example. In [24], F. Satō
+formulated and generalized it for reductive spherical homogeneous spaces. To
+prove Theorem 1.1, we generalize Satō’s stability theorem for multiplicity-free
+spaces.
+    We will state the stability theorem for multiplicity-free spaces. Let G be
+a connected reductive complex algebraic group. Fix a Borel subgroup B of
+G. Let X be an irreducible quasi-projective G-variety satisfying the following
+conditions:
+(1.1.1) X is a spherical G-variety (i.e. a Borel subgroup of G has an open
+        dense orbit in X), and
+
+(1.1.2) the quotient field of C[X] is naturally isomorphic to the rational func-
+         tion field of X.
+Note that we do not assume normality for spherical varieties in this paper. By
+definition, there exists a point x0 ∈ X such that Bx0 is open dense in X. The
+details of the following theorem is in Section 4.2.
+Theorem 1.2. Let M be a finitely generated (C[X], G)-module (see Definition
+2.1). Suppose C[X] has no zero divisors in M :
+                            [
+                                  AnnC[X] (m) = 0.
+                            m∈M\{0}
+
+
+Then, there exists a reductive subgroup L ⊂ Gx0 and λ0 ∈ Λ+ (C[X]) such that
+
+                        mG              L
+                         M (λ + λ0 ) = mM/m(x0 )M (λ|Bx0 )
+
+for any λ ∈ Λ+ (M ).
+
+
+
+
+                                         2
+    Here, we denote by Λ+ (V ) the set of the highest weights of the irreducible
+representations with respect to B which appear in the irreducible decomposition
+of V , denote by Gx0 the stabilizer at x0 in G, and denote by m(x0 ) the maximal
+ideal of C[X] corresponding to x0 . The proof of Satō’s stability theorem is
+based on duality settings such as Schur-Weyl duality and Peter-Weyl theorem.
+Our proof is based on a simple observation: images of B-eigenvectors by the
+evaluation map
+
+                             evx0 : M → M/m(x0 )M
+
+are also Bx0 -eigenvectors.
+   The subgroup L in Theorem 1.2 can be represented as
+
+                          L = {g ∈ Gx0 : gBx0 ⊂ Bx0 }.
+
+L is the unique subgroup of G that contains Bx0 as a ’Borel subgroup’ (see
+Proposition 4.3). The reductivity and other properties of L was studied by
+Brion, Luna and Vust in [1]. For some concrete settings, we can determine the
+explicit form of L. In the setting of Theorem 1.1, L is the complexification of
+ZK∩H (a).
+   We apply Theorem 1.2 to the following three cases:
+ i) X = G/H and M = IndG      H (W ) for a quasi-affine spherical homogeneous
+    space and a finite dimensional representation W of H.
+ ii) X = AV(H), M = H and G = KC for a unitary highest weight module H.
+iii) X = p−τ               −τ
+             + , M = H/p− H and G = (H ∩ K)C for a holomorphic discrete
+     series representation H.
+The first case corresponds to Satō’s theorem. These examples are dealt in
+Section 5.
+    As a corollary of Theorem 1.2, we can obtain a necessary and sufficient
+condition for multiplicity-freeness of M : M is multiplicity-free as a represen-
+tation of G if and only if M/m(x0 )M is multiplicity-free as a representation
+of L. This result can be considered as an analogue of a propagation theorem
+of multiplicity-freeness in the theory of visible actions. The concept of visible
+actions first appeared in [11], and the propagation theorem was proved in [15].
+For some spherical G-varieties, it was shown that a compact real form of G acts
+on them strongly visibly. (see e.g. [13], [23] and [26])
+    In Section 6, we treat similarity of branching laws of holomorphic discrete se-
+ries representations with respect to two holomorphic symmetric pairs. Let (g, h)
+be a holomorphic symmetric pair. Suppose (g, hǫ ) is an element of the ǫ-family
+of (g, h), and (g, hǫ ) is a holomorphic symmetric pair. ǫ-family of a symmet-
+ric pair is defined by T. Ōshima and J. Sekiguchi in [18, 19]. For example, if
+(g, h) = (sp(n, R), u(n, R)), its ǫ-family is
+
+           {(sp(n, R), u(n − i, i)) : 0 ≤ i ≤ n} ∪ {(sp(n, R), gl(n, R))}.
+
+Let H and Hǫ be analytic subgroups of G with their Lie algebra h and hǫ . We
+note that the complexifications of h and hǫ are conjugate by inner automorphism
+of the complexification of g. Our concern is the similarity between two branching
+
+
+                                         3
+laws of H|H and H|Hǫ for a holomorphic discrete series representation H. This is
+motivated by the fact that the theta correspondence of infinitesimal characters is
+independent of any choices of real forms of a dual pair, which is due to R. Howe
+[5], T. Przebinda [21] and J-S Li [16], and also motivated by Weyl’s unitary
+trick. The main theorem in Section 6 is as follows.
+Theorem 1.3. Suppose H is a holomorphic discrete series representation of G.
+Then, for sufficiently large parameter λ, we have
+                                         Hǫ
+                               mH
+                                H (λ) = mH (λ).
+
+
+Acknowledgement
+The author would like to thank his adviser Prof. Toshiyuki Kobayashi for many
+helpful advices.
+
+
+2     Preliminaries: Some algebraic results
+In this section, we set up some notations and results of representations of al-
+gebraic groups. For a Lie group G, we write its Lie algebra by a German
+letter as g := Lie(G), and we write its complexification by a subscript (·)C as
+gC := g ⊗R C.
+
+2.1    G-algebra and (A, G)-module
+Let G be a connected reductive complex algebraic group. Fix a Borel subgroup
+B of G. Let B = T N be its Levi decomposition, where T is a maximal torus
+of G and N is the unipotent radical of B. Let Λ+ = Λ+              ∗
+                                                              G ⊂ t be the set of
+                                                                  +
+dominant integral weights with respect to B. For each λ ∈ Λ , we denote by
+Vλ = Vλ,G the irreducible representation of G with highest weight λ.
+    For any algebraic group H, we say a representation V of H over C is a
+rational representation if spanC {gv : g ∈ H} is a finite dimensional and algebraic
+representation of H for any v ∈ V . This implies that any rational representation
+of G is completely reducible. Given a rational representation V of G, we can
+decompose V into the direct sum of irreducible representations:
+                                     M
+                               V =        mGV (λ)Vλ .
+                                    λ∈Λ+
+
+If the group G is obvious, we write mV (λ) := mG
+                                               V (λ). We set
+
+                  Λ+ (V ) := Λ+               +
+                              G (V ) := {λ ∈ Λ : mV (λ) 6= 0}.
+
+   We say a C-algebra A is G-algebra if A is a rational representation of G and
+G acts on A by C-algebra automorphisms.
+Definition 2.1. Let A be a G-algebra, and M be an A-module and rational
+representation of G. Then, M is said to be an (A, G)-module if g(am) =
+(ga)(gm) for any g ∈ G, a ∈ A and m ∈ M . Moreover, we will say that an
+(A, G)-module M is finitely generated if M is finitely generated as an A-module.
+
+
+
+                                        4
+   Let X be a quasi-projective variety over C. We denote by C[X] the ring of
+regular functions on X. Suppose G acts on X rationally. The action of G on X
+induces a rational representation of G on C[X] as follows:
+
+                      g · f (x) = f (g −1 x) for g ∈ G, f ∈ C[X].
+
+We write Λ+ (X) = Λ+ (C[X]) for short.
+
+2.2     Some finiteness results
+We prepare some finiteness results. Let G be a connected reductive algebraic
+group over C, and B = T N be a Borel subgroup of G. The following result is
+due to Dž. Hadžiev and F. D. Grosshans [2].
+Proposition 2.2. Let A be a G-algebra. Then, (A⊗C[G/N ])G is isomorphic to
+AN as a C-algebra. Moreover if A is finitely generated, AN is finitely generated.
+Remark 2.3. For the following lemmas, we only define the isomorphism. Since
+A is a rational representation of G, ϕa (g) := ga is well-defined as a element
+of A ⊗ C[G] for any a ∈ A. The image of ϕ is contained in (A ⊗ C[G])G .
+Since ϕha (g) = gha = ϕa (gh), taking N -invariant part, we have ϕ : AN →
+(A ⊗ C[G/N ])G . A map f 7→ f (eN ) gives the inverse of ϕ. By the definition of
+a G-algebra, it is obvious that ϕ is homomorphism of a C-algebra.
+Lemma 2.4. Let A be a Noetherian G-algebra, and M be a finitely generated
+(A, G)-module. Then, M G is also a finitely generated AG -module.
+Proof. Since A is a Noetherian algebra and M is finitely generated, M is a
+Noetherian A-module. Then, AM G is finitely generated.
+    Let {m1 , m2 , · · · , mr } be a finite generating set of AM G . We can assume
+{m1 , m2 , . . . , mr } ⊂ M G . Let us show that {m1 , m2 , . . . , mr } is also a generat-
+ing set of M G as an AG -module. For any m ∈ M G , there exist f1 , f2 , . . . , fr ∈ A
+such that m = f1 m1 + f2 m2 + · · · fr mr . Taking G-invariant part, we have
+m = f1G m1 + f2G m2 + · · · frG mr , where fiG is the projection to G-invariant part
+of fi . This shows {m1 , m2 , . . . , mr } generates M G as an AG -module.
+    The following lemma is a key result for the proof of Theorem 4.1. If A is
+finitely generated, this result (for arbitrary characteristics) was appeared in [3].
+Lemma 2.5. Let A be a Noetherian G-algebra, and M be an (A, G)-module.
+Then, M N is isomorphic to (M ⊗ C[G/N ])G as an AN -module. Here, we con-
+sider (M ⊗ C[G/N ])G as an AN -module via isomorphism AN ≃ (A ⊗ C[G/N ])G
+in Proposition 2.2. Moreover, if M is a finitely generated A-module, then M N
+is also a finitely generated AN -module.
+Proof. Since C[G/N ] is finitely generated, A ⊗ C[G/N ] is a Noetherian algebra
+from Hilbert’s basis theorem. Then, the second argument is followed from the
+first argument and Lemma 2.4.
+    For the first argument, it is suffices to define the isomorphism between M N
+and (M ⊗ C[G/N ])G . Since M is a rational representation of G, ϕm (g) := gm
+is well-defined as a element of M ⊗ C[G] for any m ∈ M . The image of ϕ is
+contained in (M ⊗ C[G])G . Since ϕhm (g) = ghm = ϕm (gh), taking N -invariant
+part, we have ϕ : M N → (M ⊗ C[G/N ])G . A map f 7→ f (eN ) gives the inverse
+
+                                            5
+of ϕ. Then, M N and (M × C[G/N ])G are isomorphic as vector spaces. By
+the definition of the isomorphism between AN and (A ⊗ C[G/N ])G , the vector
+space isomorphism M N ≃ (M × C[G/N ])G is also an AN -module isomorphism.
+Then, this completes the proof.
+
+
+3     Preliminaries: Highest weight modules
+Let G be a real reductive Lie group, and K be a maximal compact subgroup
+of G. Let g = k ⊕ p be the Cartan decomposition of g determined by K. Since
+K is a compact Lie group, there exists a complexification KC of K, and KC
+has a complex reductive algebraic group structure. Moreover, any locally finite
+representations of K can be extended to rational representations of KC .
+
+3.1    Associated variety and isotropy representation
+Let V be a finitely generated (g, K)-module. Since V is finitely generated, we
+can take a K-invariant finite dimensional subspace W ⊂ V which generates V .
+We put Vi := Ui (gC )W and V−1 := 0, where {Ui (gC )} is the canonical filtration
+of the universal enveloping algebra U(gC ). Taking the associated graded module,
+we have an (S(gC ), KC )-module
+                                          ∞
+                                          M
+                              gr(V ) :=         Vi /Vi−1 .
+                                          i=0
+
+An affine variety determined by AnnS(gC ) (gr(V )) is called the associated variety
+of V , and denoted by AV(V ) ⊂ g∗C . It is well-known that AV(V ) is independent
+of the choice of W . Since the filtration is KC -stable, AV(V ) is KC -stable variety
+contained in (gC /kC )∗ . We identify g∗C and gC by some invariant bilinear form
+of gC . By this identification, (gC /kC )∗ corresponds to pC , and AV(V ) becomes a
+subvariety in the nilpotent cone in pC . It is known that the the number of KC -
+orbits in the nilpotent cone in pC is finite. Then, there exists an open KC -orbit
+in AV(V ).
+    After here, we assume that AV(V ) is irreducible for convenience. Let us
+define the isotropy representation of V introduced by D. Vogan [28] (see also
+[29]). Let I be the defining ideal of AV(V ). By the Hilbert Nullstellensatz, I n
+is contained in AnnS(gC ) (gr(V )) for some positive integer n. Since AV(V ) is
+irreducible, AV(V ) has a unique open dense KC -orbit O. Fix a point x0 ∈ O.
+We denote by m(x0 ) ⊂ S(g) the maximal ideal corresponding to x0 . We set
+                                          n−1
+                                          M
+                        W := W(x0 ) =           I i V /m(x0 )I i V.
+                                          i=0
+
+W becomes a finite dimensional rational representation of (KC )x0 , where (KC )x0
+is the isotropy subgroup of KC at x0 . The representation W is called the isotropy
+representation of V . Note that the isotropy representation is dependent on the
+filtration of V and the point x0 .
+
+
+
+
+                                          6
+3.2       Highest weight modules
+Suppose G is a connected non-compact simple Lie group with finite center.
+Though the assumption ‘finite center’ is not essential, we assume this for conve-
+nience. We assume that (g, k) is a Hermitian symmetric pair (i.e. the center Z(k)
+of k is one-dimensional). We fix a characteristic element Z ∈ Z(kC ) such that
+the eigenvalues of ad(Z) are 0, ±1, and we write its eigenspace decomposition
+as
+
+                                gC = p+ ⊕ kC ⊕ p− ,
+
+with the eigenvalues 1, 0, −1, respectively.
+    For an irreducible (g, K)-module V , we will say V is a highest weight module
+of G if p+ -nullvectors V p+ 6= 0. Moreover, if V is infinitesimally unitary, we will
+say V is a unitary highest weight module.
+    If H is a highest weight module, Hp+ is an irreducible representation of K,
+and Hp+ generates H as a representation of U(gC ). For any highest weight mod-
+ule H, we always take Hp+ as W in Section 3.1. Since the filtration determined
+by W = Hp+ is stable under p+ -action, its associated graded module gr(H)
+becomes naturally an (S(p− ), KC )-module. Then, the associated variety of H
+is contained in p+ . Since the graded module gr(H) is isomorphic to H with a
+grading Hi := S i (p− )Hp+ , we do not care about the filtration step when we
+consider highest weight modules.
+    About the annihilators of unitary highest weight modules, A. Joseph showed
+the following result in [7]:
+Proposition 3.1. Let H be a unitary highest weight module. Then, the annihi-
+lator AnnS(p− ) (H) is a prime ideal in S(p− ), and AnnS(p− ) (v) = AnnS(p− ) (H)
+for any v ∈ H.
+    By this proposition, the isotropy representation of a highest weight module
+at x0 ∈ AV(H) is simply written as W = H/m(x0 )H.
+    Since Hp+ generates H, we have a canonical surjective homomorphism as
+(g, K)-module:
+
+(3.1.1)                    U(gC ) ⊗U (kC ⊕p+ ) Hp+ → H.
+
+For a finite dimensional representation V of K, we set
+
+                          N g (V ) := U(gC ) ⊗U (kC ⊕p+ ) V.
+
+Definition 3.2. Let H be a unitary highest weight module. We will say H is a
+holomorphic discrete series representation if the completion of H with respect
+to its Hermitian inner product is a discrete series of G.
+    It is known that if H is a holomorphic discrete series representation, the ho-
+momorphism (3.1.1) is a (g, K)-module isomorphism. Then, for a holomorphic
+discrete series representation H, the associated variety AV(H) is equal to p+ .
+
+3.3       Strongly orthogonal roots
+We will describe some structures of highest weight modules. We take a Cartan
+subalgebra t ⊂ k. Since g is Hermitian type, t is also a Cartan subalgebra of
+
+                                          7
+g. Let ∆ := ∆(gC , tC ) be the root system determined by tC , and fix a positive
+system ∆+ such that ∆+ ⊃ ∆(p+ , tC ). We write ∆+    c := ∆(kC , tC ) ∩ ∆
+                                                                         +
+                                                                            and
+∆+n := ∆(p  ,
+           + Ct ). For each λ ∈ t ∗
+                                  C , we set
+           gλ := gC (tC ; λ) := {X ∈ gC : [H, X] = λ(H)X for any H ∈ tC }.
+    Two roots α, β are said to be strongly orthogonal if neither of α+ β nor α− β
+is a root. We take a maximal set of strongly orthogonal roots {γ1 , γ2 , . . . , γr } ⊂
+∆(p+ , tC ) as follows:
+  i) γ1 is the lowest root in ∆(p+ , tC ),
+ ii) for i > 1, γi is the lowest root in the roots that are strongly orthogonal to
+     γ1 , γ2 , . . . , γi−1 .
+Fix root vectors {Xγi }ri=1 for the roots {γi }ri=1 . We set
+                                          r
+                                          M
+                                   a :=         R(Xγi + Xγi ),
+                                          i=1
+                                          Mr
+                                  t0 :=         C[Xγi , Xγi ],
+                                          i=1
+
+where · is a complex conjugate of gC with respect to g. It is known that a
+becomes a maximal abelian subspace of p. Then, we have r = R-rank(g).
+   We introduce some facts to describe the restricted roots of G. For i, j (1 ≤
+i < j ≤ r), we put
+                         (                            )
+                                +             γj − γi
+                   Cij := γ ∈ ∆c : γ|t0 =                  ,
+                                                 2     t0
+                                             γ  
+                                                 i
+                    Ci := γ ∈ ∆+c : γ| t0 = −          ,
+                                                2 t0
+                      C0 := {γ ∈ ∆+
+                                  c : γ|t0 = 0}.
+                            (                            )
+                                   +             γj + γi
+                      Pij := γ ∈ ∆n : γ|t0 =                  ,
+                                                    2      t0
+                                             γ  
+                                   +              i
+                       Pi := γ ∈ ∆n : γ|t0 =             ,
+                                                2 t0
+                       P0 := {γ1 , γ2 , . . . , γr }.
+       The following fact is due to Moore. (see e.g. [4, Proposition 4.8 in Chapter
+5]).
+Proposition 3.3. In the above notation, ∆+       +
+                                         c and ∆n can be decomposed as
+follows:
+                                             
+                          [               [
+                ∆+c =
+                              Cij  ∪      Ci  ∪ C0 ,
+                                1≤i<j≤r                     1≤i≤r
+                                                                   
+                                    [                        [
+                      ∆+
+                       n =
+                                          Pij  ∪                 Pi  ∪ P0 .
+                                1≤i<j≤r                 1≤i≤r
+
+
+
+                                                  8
+Moreover, the map γ 7→ γ + γi gives bijections from Cij to Pij , from −Cji to
+Pji , and from Ci to Pi .
+   It is known that KC -orbits in p+ can be described by strongly orthogonal
+roots. Put Xi = Xγ1 + Xγ2 + · · ·+ Xγi . We set Oi := Ad(KC )Xi , and O0 = {0}.
+Proposition 3.4. p+ is decomposed into KC -orbits as follows:
+                                            n
+                                            a
+                                     p+ =         Oi .
+                                            i=0
+
+Moreover, for any 1 ≤ m ≤ r, the Zariski closure of Om is decomposed into
+KC -orbits as follows:
+                                             m
+                                             a
+                                    Om =           Oi .
+                                             i=0
+
+    By this proposition, for any highest weight module H there exists an m ∈
+{1, 2, · · · , r} such that AV(H) = Om . The irreducible decomposition of C[Om ]
+as a representation of KC is obtained by B. Kostant, L. K. Hua [6] and W.
+Schmid [25].
+Proposition 3.5. The ring of regular functions on Om is decomposed as a
+KC -representation as follows:
+                               M
+                    C[Om ] ≃            V− Pmi=1 ci γi ,KC
+                                                           .
+                                c1 ≥c2 ≥···≥cm ≥0
+                                  c1 ,c2 ,...,cm ∈Z
+
+Especially, Om is a spherical affine KC -variety.
+
+3.4       Holomorphic symmetric pairs
+Suppose θ is a Cartan involution of G such that its fixed point subgroup Gθ = K,
+and τ is an involutive automorphism of G commuting with θ. Since τ (k) = k
+and τ is an automorphism, the following two cases are possible:
+(3.5.2)                              τ (Z) = Z
+(3.5.3)                              τ (Z) = −Z
+We will say (g, gτ ) is a holomorphic symmetric pair if the equation (3.5.2) holds,
+otherwise we will say (g, gτ ) is an anti-holomorphic symmetric pair.
+   If (g, gτ ) is a holomorphic symmetric pair, the decomposition gC = p− ⊕ kC ⊕
+p+ induces a decomposition of gτC :
+                               gτC = pτ− ⊕ kτC ⊕ pτ+ ,
+                                  Ln
+since Z ∈ kτC . Suppose gτ =        i=1 hi is the direct sum decomposition into
+simple or abelian ideals. Then, hi is contained in k if hi is a compact or abelian
+Lie algebra, and hi is a Hermitian type Lie algebra if hi is a non-compact Lie
+algebra. Moreover, if hi is a Hermitian type Lie algebra, hi has a decomposition:
+(3.5.4)        (hi )C = (p− ∩ (hi )C ) ⊕ (kC ∩ (hi )C ) ⊕ (p+ ∩ (hi )C ),
+and each summand is nonzero. The following two facts about branching laws
+of the restriction with respect to holomorphic symmetric pairs are known (see
+e.g. [9, 10]).
+
+                                            9
+Proposition 3.6. Let H be a unitary highest weight module of G, and (g, gτ )
+be a holomorphic symmetric pair. Then, H is gτ -admissible, especially H is
+discretely decomposable as (gτ , kτ )-module. Moreover, any irreducible compo-
+nents of H|gτ are outer tensor products of highest weight modules and finite
+dimensional representations.
+Proposition 3.7. Let H be a holomorphic discrete series representation of
+G, and (g, gτ ) be a holomorphic symmetric pair. Suppose S(p−τ
+                                                            − ) ⊗ H
+                                                                    p+
+                                                                       is
+                   τ
+decomposed as a (k )-representation as follows:
+                                           M
+                         S(p−τ
+                            − )⊗H
+                                    p+
+                                       ≃       m(π)π.
+                                                π∈kbτ
+
+Then, H|gτ is decomposed as
+                                   M                    τ
+                          H|gτ ≃           m(π)(N g (π)).
+                                   π∈kbτ
+
+
+Here, kbτ denotes the set of equivalent classes of finite dimensional representa-
+tions of kτ . Each summand is also a holomorphic discrete series representation
+of (Gτ )0 .
+
+
+                    Table 1: holomorphic symmetric pairs
+                          g                   gτ
+                      su(p, q) s(u(i, j) + u(p − i, q − j))
+                     su(n, n)              so∗ (2n)
+                     su(n, n)             sp(n, R)
+                      so∗ (2n)           u(i, n − i)
+                      so∗ (2n)   so∗ (2i) + so∗ (2(n − i))
+                      so(2, n)     so(2, n − i) + so(i)
+                     so(2, 2n)             u(1, n)
+                     sp(n, R)            u(i, n − i)
+                     sp(n, R)    sp(i, R) + sp(n − i, R)
+                      e6(−14)          so(10) + so(2)
+                      e6(−14)         so∗ (10) + so(2)
+                      e6(−14)         so(8, 2) + so(2)
+                      e6(−14)       su(5, 1) + sl(2, R)
+                      e6(−14)         su(4, 2) + su(2)
+                      e7(−25)         e6(−78) + so(2)
+                      e7(−25)         e6(−14) + so(2)
+                      e7(−25)      so(10, 2) + sl(2, R)
+                      e7(−25)         so∗ (12) + su(2)
+                      e7(−25)              su(6, 2)
+
+
+
+4    Stability theorem
+In this section, we will show a general stability theorem.
+
+                                           10
+4.1       Stability theorem for general settings
+Let X be an irreducible quasi-projective variety over C. We assume the following
+two conditions:
+(4.0.1) X is a spherical G-variety (i.e. a Borel subgroup of G has an open
+        dense orbit in X), and
+
+(4.0.2) the quotient field of C[X] is naturally isomorphic to the rational func-
+         tion field of X.
+    The first condition implies that C[X] is multiplicity-free as a representation
+of G. Note that the second condition is always true for any irreducible quasi-
+affine variety X.
+Theorem 4.1. Let M be a finitely generated (C[X], G)-module with no zero
+divisors:
+                        [
+(4.1.3)                        AnnC[X] (m) = 0.
+                           m∈M\{0}
+
+Then, there exists a weight λ0 ∈ Λ+ (X) such that
+
+                        mM (λ + λ0 ) = mM (λ + µ + λ0 )
+
+for any λ ∈ Λ+ (M ) and µ ∈ Λ+ (X).
+    This theorem says that the multiplicity function mM is periodic for suffi-
+ciently large parameter λ. This property of the multiplicity function is called
+stability.
+Proof. For the proof of the stability, we will show the uniformly boundedness of
+mM (λ) for λ ∈ Λ+ . Since M is a finitely generated C[X]-module, there exists
+a G-invariant finite dimensional subspace F ⊂ M that generates M . Then, the
+multiplication map C[X] ⊗ F → M (f ⊗ m 7→ f m) is a surjective G-intertwining
+operator. For any λ ∈ Λ+ (M ), we have
+
+                     mM (λ) ≤ mC[X]⊗F (λ)
+                             = dim HomG (Vλ , C[X] ⊗ F )
+                             = dim HomG (Vλ ⊗ F ∗ , C[X]).
+
+From [14, Proposition 5.4.1], the number of the irreducible constituents of Vλ ⊗
+F ∗ is bounded by dim(F ). Then, since C[X] is multiplicity-free, mM (λ) is
+uniformly bounded by dim(F ). This result will be also proved in the proof of
+Theorem 4.5.
+    Let us show the stability. Since C[X] has no zero divisors in M , the mul-
+tiplication operator (m 7→ f m) is injective for any f ∈ C[X]. Especially, for
+µ ∈ Λ+ (X) and f ∈ C[X]N (µ), f induces an injective linear map
+
+                          f · : M N (λ) ֒→ M N (λ + µ),
+
+where V (λ) denotes the weight space of weight λ in T -representation V . Then,
+we have
+
+(4.1.4)                      mM (λ) ≤ mM (λ + µ)
+
+
+                                       11
+for any µ ∈ Λ+ (X).
+    From Lemma 2.5, M N is a finitely generated C[X]N -module. Then, we can
+take a finite subset {λ1 , λ2 , . . . , λr } ⊂ Λ+ (M ) such that
+                                             [
+(4.1.5)                    Λ+ (M ) =            (Λ+ (X) + λi ).
+                                     1≤i≤r
+
+
+By the uniformly boundedness of mM , for each λi we can find a λ0,i ∈ Λ+ (X)
+such that
+
+(4.1.6)        mM (λi + λ0,i ) = max{mM (λi + µ) : µ ∈ Λ+ (X)}.
+
+   We put λ0 := λ0,1 + λ0,2 + . . . + λ0,r . Let us show that λ0 satisfies the
+required condition. Take λ ∈ Λ+ (M ) and µ ∈ Λ+ (X). By (4.1.5), there exists
+an i ∈ {1, 2, . . . , r} such that λ ∈ λi + Λ+ (X). From (4.1.4) and (4.1.6), we have
+
+                 mM (λ + λ0 ) = max{mM (λi + µ) : µ ∈ Λ+ (X)}
+                              = mM (λ + µ + λ0 ).
+
+This shows the theorem.
+
+4.2       Description of multiplicities for large parameters
+We describe the multiplicities for sufficiently large parameters by the isotropic
+representation. Let G and X be as in the previous section. Take a Borel
+subgroup B of G, and write B = T N as the product of the maximal torus and
+the unipotent radical. From the assumption (4.0.1), there exists a point x0 ∈ X
+such that B-orbit Bx0 is open dense in X.
+     Put P = {g ∈ G : gBx0 ⊂ Bx0 }. Then, P is a parabolic subgroup of G
+contains B. The following proposition is due to M. Brion, D. Luna and T. Vust
+[1].
+Proposition 4.2. In the above settings,
+ i) Px0 is a reductive subgroup of G,
+ ii) Px0 contains the derived group of some Levi subgroup of P .
+   The following proposition says that Bx0 is a ’Borel subgroup’ of Px0 in some
+sense.
+Proposition 4.3. Px0 satisfies the following four conditions:
+L-1) Px0 ⊂ Gx0 ,
+L-2) Px0 ⊃ Bx0 ,
+L-3) Bx0 meets every connected components of Px0 ,
+L-4) the identity component of Bx0 is a Borel subgroup of the identity component
+     of Px0 .
+Conversely, if a reductive subgroup L of G satisfies the above four conditions
+instead of Px0 , then we have L = Px0 .
+
+
+                                         12
+Remark 4.4. If L satisfies the above four condition, its irreducible representa-
+tions are parametrized by a subset of characters of Bx0 . This is because V Nx0
+is one-dimensional for any irreducible representation V of L. In fact, since we
+have the natural injection Bx0 /Nx0 ֒→ B/N ≃ T , we can take a weight vector
+v ∈ V Nx0 with respect to Bx0 /Nx0 . v generates an irreducible representation
+V0 of L0 , where L0 is the identity component of L. Since Bx0 normalizes L0 , V0
+is L-stable. This shows V0 = V . Then, V Nx0 is one-dimensional.
+Proof. For the first argument, put L := Px0 . By definition, L-1) and L-2) are
+clear. From Proposition 4.2, we can take a Levi subgroup Q of P such that
+[Q, Q] is contained in L. We have the following commutative diagram.
+                                                  /
+                            L/(L ∩ B)            7 P/B
+                                O              ♦♦♦
+                                           ≃ ♦♦
+                                        ♦♦♦♦♦
+                                 ?  ♦♦
+                        [Q, Q]/([Q, Q] ∩ B)
+
+Then, L/(L ∩ B) is isomorphic to P/B. Since P/B ≃ Q/Q ∩ B is a connected
+projective variety, Bx0 = L ∩ B meets every connected components of L, and
+the identity component of Bx0 is a Borel subgroup of the identity component of
+L. This implies that L satisfies L-3) and L-4).
+     For the second argument, suppose L is a reductive subgroup of G that sat-
+isfies the conditions. From Remark 4.4, we have
+
+                               C[G]L = C[G]Bx0
+(4.4.7)                              = C[G]Px0 .
+
+For a reductive subgroup H of G, H can be reconstructed from C[G]H by the
+following equation:
+                                 \
+                          H=         f −1 (f (e)).
+                                 f ∈C[G]H
+
+Here, e is the identity of G. From this fact and (4.4.7), we have L = Px0 . This
+completes the proof.
+  We set L = Px0 . We denote by evx0 the natural quotient map M → Mx0 (:=
+M/m(x0 )M ). From the inclusion L ⊂ Gx0 , evx0 is L-intertwining operator from
+M to Mx0 . We describe the stable multiplicities by the representation of L on
+M/m(x0 )M .
+Theorem 4.5. Let M be a finitely generated (C[X], G)-module with no zero
+divisors (see (4.1.3)). We take a weight λ0 ∈ Λ+ (X) described in Theorem 4.1.
+Then, for any λ ∈ Λ+ (M )
+                                         L
+                         mG
+                          M (λ + λ0 ) = mMx0 (λ|Bx0 ).
+
+Here, we identify characters of T and characters of B by letting their values be
+1 on N .
+Remark 4.6. For any µ ∈ Λ+ (X), µ|Bx0 = 0. Then, λ|Bx0 can also be written
+as (λ + λ0 )|Bx0 .
+
+                                      13
+Lemma 4.7. Under the assumption (4.0.1) and (4.0.2), we have the following
+equation:
+                                                           
+                            1        +              N
+          C[Bx0 ] = C[X]      : µ ∈ Λ (X), fµ ∈ C[X] (µ)\{0} .
+                           fµ
+Proof. This lemma is essentially same as [24, Lemma 2.2]. It is clear that the
+left hand side contains the right hand side. We will show the converse inclusion.
+    We take a function f ∈ C[Bx0 ]. Define an ideal as
+
+                 I := {g ∈ C[X] : g · bf ∈ C[X] for any b ∈ B}.
+Since B acts rationally on C[Bx0 ], spanC {bf : b ∈ B} is finite dimensional. By
+the assumption (4.0.2), I is a B-invariant nonzero ideal of C[X]. Since B acts
+rationally on I, there exists a nonzero B-eigenvector g ∈ I. Then, we have
+f ∈ C[X][1/g]. This shows the converse inclusion.
+Lemma 4.8. Let M be a (C[X], G)-module. Suppose C[X] has no zero divisors
+in M . Then, we have
+                          \
+                               (m(y)M ) = 0.
+                                y∈Bx0
+
+Proof.TIf M is finitely generated, this lemma is in [29, Corollary 2.1]. Put
+N = y∈Bx0 (m(y)M ). We assume N 6= 0. Since N is B-invariant subspace,
+there exists a nonzero B-eigenvector m ∈ N . By definition, m can be written
+as
+(4.8.8)        m = f 1 m1 + f 2 m2 + · · · + f r mr     (fi ∈ m(x0 ), mi ∈ M ).
+
+Let M ′ be a (C[X], G)-submodule of M generated by m1 , m2 , . . . , mr . Since M ′
+is a finitely generated (C[X], G)-module, we have
+                                \
+                                   (m(y)M ′ ) = 0.
+                               y∈Bx0
+
+From (4.8.8),
+          T m is an element   of m(x0 )M ′ . Since m is a B-eigenvector, we
+                         ′
+have m ∈ y∈Bx0 (m(y)M ) and then m = 0. However, this contradicts the
+assumption that m is nonzero. Thus, Lemma 4.8 is proved.
+Proof of Theorem 4.5. Take λ ∈ Λ+ (M ). From Remark 4.4, we have
+                                                    N x0
+              mL
+               M/m(x0 )M (λ|Bx0 ) = dim((M/m(x0 )M )     (λ|Bx0 ))
+
+Since evx0 is Gx -intertwining operator, the image of M N (λ + λ0 ) by evx0 is
+contained in (M/m(x0 )M )Nx0 (λ|Bx0 ). We denote the restriction of evx0 to
+M N (λ + λ0 ) by same notation evx0 . Then, it suffices to show that evx0 is
+bijection between M N (λ + λ0 ) and (M/m(x0 )M )Nx0 (λ|Bx0 ).
+                                         evx0
+                              MO                      / Mx0
+                                                         O
+
+                             ?                         ?
+                                         evx0
+                        M N (λ + λ0 )           / MxN0x0 (λ|Bx )
+                                                              0
+
+
+
+
+                                         14
+    (injectivity). Suppose m ∈ M N (λ + λ0 ) and evx0 (m) = 0.TSince m is B-
+eigenvector,
+       T      m ∈ m(bx0 )M for any b ∈ B. Then, we have m ∈ y∈Bx0 m(y)M .
+Since y∈Bx0 m(y)M = 0 from Lemma 4.8, this implies m = 0. This shows evx0
+is injective.
+    (surjectivity). First, we show the surjectivity for the case that M is a free
+C[X]-module. Suppose M ≃ C[X] ⊗ W for some finite dimensional rational
+representation W of G. In this case, evx0 is actually the evaluation map at x0 .
+Take m ∈ W Nx0 (λ|Bx0 ), and for b ∈ B put
+
+                              ϕ(bx0 ) = b−λ−λ0 (bm).
+
+Then, ϕ is well-defined as an element of C[Bx0 ] ⊗ W , and ϕ is B-eigenvector of
+weight λ + λ0 . From Lemma 4.7, there exists a B-eigenvector fµ ∈ C[X] such
+that fµ ϕ ∈ C[X] ⊗ W . fµ ϕ is in (C[X] ⊗ W )N (λ + λ0 + µ). By Theorem 4.1, the
+multiplication operator fµ · : (C[X] ⊗ W )N (λ + λ0 ) → (C[X] ⊗ W )N (λ + λ0 + µ)
+is bijective. Then, ϕ is in (C[X] ⊗ W )N (λ + λ0 ). Since ϕ(x0 ) = m, evx0 is
+surjective.
+    Next, we show the surjectivity for general cases. Since M is finitely generated
+as a C[X]-module, there exists a finite dimensional G-subrepresentation W ⊂ M
+such that the (C[X], G)-homomorphism × : C[X] ⊗ W → M defined by the
+multiplication is surjective. Then, we have the following commutative diagram:
+                                             evx0
+                              C[X] ⊗ W                /W
+
+                                    ×
+                                        evx0          
+                                 M                  / Mx0 ,
+
+and all arrows are surjective. Take λ′0 ∈ Λ+ (X) described in Theorem 4.1
+for M = C[X] ⊗ W . By restricting the above diagram to the subspace of B-
+eigenvectors of weight λ + λ′0 , we have
+                                               evx0
+                   (C[X] ⊗ W )N (λ + λ′0 )            / W Nx0 (λ|Bx )
+                                                                    0
+
+
+
+
+                                                               
+                                         evx0
+                        M (λ + λ′0 )
+                          N                           / MxN0x0 (λ|Bx ).
+                                                                   0
+
+
+Since G and L are reductive, the vertical arrows are surjective. From the free
+module case, the above horizontal arrow is surjective. Then, evx0 : M N (λ +
+           Nx
+λ′0 ) → Mx0 0 (λ|Bx0 ) is also surjective.
+     Since dim(M N (λ + λ0 )) ≥ dim(M N (λ + λ′0 )) by the result of Theorem 4.1,
+                            N
+evx0 : M N (λ + λ0 ) → Mx0x0 (λ|Bx0 ) is also surjective.
+Remark 4.9. The injectivity is true in more general settings. For example,
+suppose X is a projective G-variety that has an open dense Borel orbit Bx0 ,
+and π : V → X is a G-equivariant algebraic vector bundle over X. Then,
+the global sections Γ(X, V) and the evaluation map evx0 : Γ(X, V) → π −1 (x0 )
+satisfy the injectivity as in the above proof. This implies that the multiplicity
+with respect to G can be bounded by the multiplicity with respect to L as in
+Theorem 4.5. See Section 5.2 for examples.
+
+                                        15
+   We can remove the finiteness of M if we admit that the conclusion becomes
+weaker.
+Corollary 4.10. Let M be a (C[X], G)-module with no zero divisors. Then,
+we have
+
+                         sup {mG             L
+                               M (λ + µ)} = mMx0 (λ|Bx0 ).
+                       µ∈Λ+ (X)
+
+for any λ ∈ Λ+ (M ).
+Proof. Take a weight λ ∈ Λ+ (M ). By the same proof as the injectivity in
+Theorem 4.5, we have
+
+                         sup {mG             L
+                               M (λ + µ)} ≤ mMx0 (λ|Bx0 ).
+                       µ∈Λ+ (X)
+
+
+For any finitely dimensional L-subrepresentation N ⊂ Mx0 , we can take a
+finitely generated (C[X], G)-submodule N such that N/(N ∩ m(x0 )M ) ⊃ N .
+If necessary, we can take N such that mGN (λ) 6= 0. Since the canonical map
+N/m(x0 )N → N/(N ∩ m(x0 )M ) is surjective, the converse inequality is fol-
+lowed from Theorem 4.5.
+   For a rational representation V of G, we denote by CG (V ) the supremum of
+mG
+ V.
+
+Corollary 4.11. Let M be a (C[X], G)-module with no zero divisors. Then,
+the following equation holds:
+
+                                  CG (M ) = CL (Mx0 ).
+
+Especially, M is multiplicity-free as a representation of G if and only if Mx0 is
+multiplicity-free as a representation of L.
+Proof. By Theorem 4.10, CG (M ) ≤ CL (Mx0 ) is clear. It suffices to show that
+any character λ of Bx0 such that mLM (λ) 6= 0 can be extended to an character
+λ of T such that mGM (λ) =
+                         6 0. As  in the proof of the surjectivity in Theorem
+4.5, we can assume that M is free C[X]-module of finite rank, C[X] ⊗ W . We
+take a character λ of Bx0 such that mL Mx (λ) 6= 0, and take m ∈ W
+                                                                       N x0
+                                                                            (λ).
+                                               0
+                                                                           ′
+There exists a character λ′ of T such that λ′ |Bx0 = λ. For ϕ(bx0 ) = b−λ (bm),
+we can find fµ ∈ C[X]N (µ) such that fµ ϕ ∈ (C[X] ⊗ W )N (λ′ + µ). Since
+(λ′ + µ)|Bx0 = λ′ |Bx0 = λ, λ := λ′ + µ satisfies the desired conditions. This
+completes the proof.
+
+
+5     Examples of stability theorems
+In this section, we will show some stability theorems for some examples.
+
+5.1    Stability theorem for quasi-affine spherical homoge-
+       neous spaces
+Let G be a connected reductive algebraic group and H be a closed subgroup of
+G. We assume that (G, H) is a spherical pair (i.e. there exists a Borel subgroup
+
+                                          16
+of G such that BH is open dense in G), and assume that G/H is a quasi-affine
+variety. Put L := {g ∈ H : gBH ⊂ BH}.
+   For a finite dimensional rational representation W of H, we define the in-
+duced representation of W by
+
+                           IndG                    H
+                              H (W ) := (C[G] ⊗ W ) .
+
+
+IndG                        H
+    H (W ) becomes a (C[G] , G)-module via the left G-action and the multi-
+                 H
+plication of C[G] . Here, the H-invariant part is taken via its right action on
+C[G].
+    The following fact is known as the characterization of quasi-affine homoge-
+neous spaces. (see [27, Theorem 3.12])
+Proposition 5.1. Let G be a linear algebraic group, and H be a closed subgroup
+of G. Then, the following three conditions are equivalent.
+ i) G/H is quasi-affine.
+ ii) the quotient field of C[G/H] is equal to the rational function field of G/H.
+iii) For any H-representation W , there exists a finite dimensional represen-
+     tation V of G such that W can be embedded in V as a representation of
+     H.
+
+    Applying Theorem 4.1 and Theorem 4.5 to X = G/H and M = IndG        H (W ),
+we have the following theorem. In the case that H is semisimple, this theorem
+is due to F. Satō in [24].
+Theorem 5.2. Let W be a finite dimensional rational representation of H.
+Then, there exists a weight λ0 ∈ Λ+ (G/H) such that
+
+                        mG                   L
+                         IndG W (λ + λ0 ) = mW (λ|B∩H )
+                              H
+
+
+
+for any λ ∈ Λ+ (IndG
+                   H (W )).
+
+Proof. First, we show that X = G/H and M = IndG      H (W ) satisfy the conditions
+of Theorem 4.1 and Theorem 4.5. By the assumption that X = G/H is a quasi-
+affine G-variety, the quotient field of C[X] coincides with the rational function
+field of X. From Proposition 5.1, W can be embedded in a finite dimensional
+representation V of G as a representation of H. The embedding W ֒→ V induces
+the injection as a (C[G/H], G)-module:
+
+                           IndG
+                              H (W ) ֒→ C[G/H] ⊗ V.
+
+
+Since C[G/H] ⊗ V is Noetherian C[G/H]-module, IndG       H (W ) is Noetherian, and
+then finitely generated. From the inclusion, it is obvious that C[G/H] has no
+zero divisors in IndG
+                    H (W ). All conditions are verified.
+    Next, we show that M/m(eH)M ≃ W as a representation of L. We can
+identify IndGH (W ) with the set of global sections Γ(G/H, G ×H W ) of a vec-
+tor bundle G ×H W → G/H. Since G/H is a quasi-affine variety, the sheaf
+constructed from the vector bundle corresponds to the sheaf constructed from
+IndG                             G
+   H (W ). This shows that (IndH (W ))eH ≃ W as a representation of GeH .
+
+
+
+
+                                       17
+5.2       Some examples for projective varieties
+In this section, we treat flag varieties. Let G be a connected reductive algebraic
+group, and P be a parabolic subgroup of G. Take a close subgroup H of G such
+that G/P is a spherical H-variety. Note that if H is a Levi subgroup of G, such
+pairs (G, H, P ) were classified in [13, 26].
+    Fix a Borel subgroup B of H. Since G/P is a spherical H-variety, there
+exists a point x0 ∈ G such that Bx0 P is open dense in G. Put L := {g ∈ Hx0 P :
+gBx0 P ⊂ Bx0 P }. The same result as Theorem 5.2 is not true for G/P since
+G/P is projective (see Example 5.5). However, we have the following weaker
+theorem.
+Theorem 5.3. Let W be a irreducible representation of P . Then, there exists
+a character λ0 of P such that
+
+                         CH (IndG
+                                P (W ⊗ Cλ0 +λ )) = CL (W )
+
+
+for any character λ of P satisfying IndGP (Cλ ) 6= 0. Here, W is considered as a
+representation of L by the inclusion x0 −1 Lx0 ⊂ P .
+    Fix a Levi decomposition P = QN , where N is a unipotent radical of P . Put
+P ′ := [Q, Q]N and A := Q/[Q, Q]. By Proposition 5.1, G/P ′ is a quasi-affine
+spherical H × A-variety. The action of A on G/P ′ is given by
+
+                                  h · gP ′ = gh−1 P ′
+
+for h ∈ A and g ∈ G. Note that B × A is a Borel subgroup of H × A. For the
+proof of Theorem 5.3, we show the following lemma.
+Lemma 5.4. We set
+
+      L′ := {(g, h) ∈ H × A : (g, h) · x0 P ′ = x0 P ′ , (g, h) · Bx0 P ⊂ Bx0 P }.
+
+Then, there exists a homomorphism ϕ : L → A such that
+
+(5.4.1)                  L′ = {(g, ϕ(g)) ∈ L × A : g ∈ L}..
+
+Proof. First, we define the homomorphism ϕ. Take g ∈ L. By definition, we
+have gBx0 P ⊂ Bx0 P and gx0 P = x0 P . From gx0 P ′ ⊂ x0 P = ⊔l∈A x0 lP ′ , there
+exists a unique element ϕ(g) ∈ A such that gx0 P ′ = xϕ(g)P ′ . It is obvious that
+ϕ is a homomorphism from L to A.
+     Next, we show that ϕ satisfies the condition. By the definition of L and
+L′ , we have (g, ϕ(g)) ∈ L′ for any g ∈ L. For the converse inclusion, we take
+(g, h) ∈ L′ . Since (g, h) ∈ L′ , we have gx0 h−1 P ′ = x0 P ′ and gBx0 P ⊂ Bx0 P .
+This implies that g ∈ L. Since x0 P ′ = gx0 h−1 P ′ = x0 ϕ(g)h−1 P ′ , we have
+ϕ(g) = h. This shows the lemma.
+
+Proof of Theorem 5.3. We apply Corollary 4.11 to X = G/P ′ and M = IndG   P ′ (W ).
+Here, we replace G in the corollary by H × A, and then L in the corollary is
+equal to L′ in the above lemma.
+    We will determine the action of L′ on M/m(x0 P ′ )M . Note that M/m(x0 P ′ )M
+is isomorphic to W as a C-vector space. Take (g, ϕ(g)) ∈ L′ . For f ∈ (C[G] ⊗
+
+
+
+                                          18
+     ′
+W )P , we have
+
+               ((g, ϕ(g)) · f )(x0 ) = ϕ(g)f (g −1 x0 ϕ(g))
+                                   = ϕ(g)f (x0 x0 −1 g −1 x0 ϕ(g))
+                                   = ϕ(g)(x0 −1 g −1 x0 ϕ(g))−1 f (x0 )
+                                   = x0 −1 gx0 f (x0 ).
+
+Then, the action of L′ on M/m(x0 P ′ )M ≃ W coincides with the action of L.
+Therefore, we have CL′ (W ) = CL (W ).
+                                                   G
+   From Corollary 4.11, there exists λ′ ∈ Λ+
+                                           H×A (IndP ′ (W )) such that
+
+                             H×A         ′
+(5.4.2)                     mIndG (W ) (λ ) = CL′ (W ).
+                                  P′
+
+
+We write λ′ = −λ0 + λ1 , where λ0 is a character of P and λ1 is a character of
+B.
+   Let us show that λ0 satisfies the desired condition. There exist the following
+isomorphisms of representations of H:
+
+                   IndG                    G
+                      P ′ (W )(−λ0 ) ≃ (IndP ′ (W ) ⊗ Cλ0 )
+                                                           A
+
+                                                          ′
+                                       ≃ ((C[G] ⊗ W )P ⊗ Cλ0 )A
+                                       ≃ (C[G] ⊗ W ⊗ Cλ0 )P
+                                       ≃ IndG
+                                            P (W ⊗ Cλ0 ).
+
+Then, we have CH (IndGP (W ⊗ Cλ0 )) = CL (W ). Again, from the above isomor-
+phisms for W = C, IndGP (Cλ ) is nonzero if and only if there exists a character ν
+of B such that −λ + ν ∈ Λ+           ′
+                          H×A (G/P ). Combining this with Theorem 4.5, the
+proof is completed.
+   We introduce an example that IndG
+                                   P (W ) is nonzero and we can not take
+λ0 = 0.
+Example 5.5. Let G = GL(8, C), H = GL(4, C) × GL(4, C). H is block diag-
+onal in G. Let P be a maximal parabolic subgroup of G containing H and all
+lower triangular matrices, and B be a Borel subgroup of H containing all upper
+triangular matrices in H. We take a point
+                                            
+                                       I J
+                                x0 :=          ,
+                                        0 I
+
+where J is a anti-diagonal matrix with any anti-diagonal entries 1. Then, Bx0 P
+is open dense in G. (This is essential same as the case of Hermitian symmetric
+spaces.) In this case, L is of the following form:
+                                                     
+                               a 0       b 0
+                    L=                ,          : a, b ∈ C× .
+                               0 b       0 a
+
+Note that L commutes with x0 .            V2        V4
+    We consider a representation W = S 2 ( (C4 ))/ (C4 ) of H, where the first
+factor of GL(4, C) × GL(4, C) acts on W in standard way and the second factor
+acts on W trivially. W is a irreducible representation of H with highest weight
+
+                                          19
+(2, 2, 0, . . . , 0) in standard coordinates. We extend the representation W to P by
+letting the unipotent radical of P act trivially. Then, the induced representation
+IndGP (W ) is a irreducible representation of G with highest weight (2, 2, 0, . . . , 0).
+By using Littlewood–Richardson rule, IndG         P (W )|H is multiplicity-free, and then
+CH (IndG  P  (W    )) =  1. However, W | L is not multiplicity-free. In fact, we can take
+two weight vectors with same weight (1, 1, 1, 1, 0, 0, 0, 0) such as
+
+                          e1 ∧ e2 · e3 ∧ e4 , e1 ∧ e3 · e2 ∧ e4 .
+
+Then, we have CH (IndG
+                     P (W )) = 1 < 2 = CL (W ).
+
+
+5.3    Stability theorem for highest weight modules
+Here, we will show the stability theorem for unitary highest weight modules.
+Let G be a connected simple real Lie group of Hermitian type with finite center.
+Fix a positive root system ∆+ and strongly orthogonal roots {γ1 , γ2 , . . . , γr } as
+in Section 3.3.
+    Before we state our theorem, we
+                                  Lprepare   some lemmas relevant
+                                                             Lm to KC -orbit
+                                     m
+Oi . Fix 1 ≤ m ≤ r. We set am := i=1 R(Xγi + Xγi ), tm := i=1 C[Xγi , Xγi ]
+, and L = ZKC (am ). We will show that L satisfies the conditions L-1) ∼ L-4)
+in Proposition 4.3.
+Lemma 5.6. Let B be a Borel subgroup of KC determined by the positive system
+∆+
+ c . Then, Ad(B)Xm is open dense in Om .
+
+Proof. Since Ad(KC )Xm is open dense in Om , it suffices to show that [kC , Xm ] =
+[b, Xm ]. From Proposition 3.3, we have
+                      (
+                        0       (m < j)
+        [g−γ , Xm ] =                               for any γ ∈ Cij ,
+                        g−γ+γj (1 ≤ j ≤ m)
+        [g−γ , Xm ] = 0                                     for any γ ∈ Ci ∪ C0 ,
+
+for any i, j(1 ≤ i < j ≤ r). Since −γ + γj ∈ Pij for any γ ∈ Cij , there exists a
+γ ′ ∈ Cij such that γ ′ + γi = −γ + γj . Then, we have [b, Xm ] ⊃ [b, Xm ], where b
+is the opposite Borel subalgebra (or equivalently complex conjugate) of b. This
+implies [kC , Xm ] = [b, Xm ].
+Lemma 5.7. Let B be the same as the above lemma. Then, BXm has the semi-
+direct product decomposition: BXm = (TC )Xm NXm . Here, N is a unipotent
+radical of B.
+
+Proof. BXm ⊃ (TC )Xm NXm is obvious.
+   For converse inclusion, we take b ∈ BXm , and write b = tn for t ∈ TC and
+n ∈TN . By Kostant-Hua-Schmid TheoremTm       (Proposition 3.5), BXm is contained
+in m Tm
+    i=1 ker γ i . Then, we have  t ∈  i=1 ker γi |TC . Considering the TC -action on
+Xm , i=1 ker γi |TC is equal to (TC )Xm . Therefore, we have t ∈ (TC )Xm and then
+n ∈ NXm . This shows the lemma.
+Lemma 5.8. L satisfies the conditions L-1) ∼ L-4) in Proposition 4.3.
+
+
+
+
+                                            20
+Proof. By definition, the condition L-1) is clear.
+    First, we compute the triangular decomposition of l. For any g ∈ L and
+i (1 ≤ i ≤ m), we have
+
+                      Xγi + Xγi = Ad(g)(Xγi + Xγi )
+                                 = Ad(g)(Xγi ) + Ad(g)(Xγi ).
+
+Since Ad(g)(Xγi ) ∈ p+ and Ad(g)(Xγi ) ∈ p− , g stabilizes Xγi and Xγi . This
+imply that
+                                  m
+                                                  !
+                                 M
+(5.8.3)                 L = Z KC     (gγi ⊕ g−γi )
+                                       i=1
+                                       m
+                                                         !
+                                       M
+                            l = ZkC          (gγi ⊕ g−γi ) .
+                                       i=1
+
+Since the right hand side is stable under ad(tC )-action, so is l. Then, we have
+
+(5.8.4)                    l = (l ∩ n) ⊕ (l ∩ tC ) ⊕ (l ∩ n).
+
+   We will show that the Lie algebra bXm of BXm is a Borel subalgebra of l.
+By Proposition 3.3, for any i, j(1 ≤ i < j ≤ r)
+                    (
+                      0      (m < i)
+       [gγ , Xm ] =                             for any γ ∈ Cij ∪ Ci ,
+                      gγ+γi (1 ≤ i ≤ m)
+          [gγ , Xm ] = 0                                for any γ ∈ C0 .
+
+This implies that bXm has the following decomposition:
+                                     M          M
+                     bXm = t⊥m⊕            gγ ⊕     gγ ,
+                                      γ∈Cij ∪Ci        γ∈C0
+                                      m<i<j≤r
+
+
+where t⊥m is the orthogonal complement
+                                  Lm of tm in tC with respect to the Killing
+form. Then, we have bXm = Zb ( i=1 (gγi ⊕ g−γi )) = l ∩ b. From (5.8.4), this
+shows the condition L-4).
+    We can show that L = ZL (t⊥m )L0 by the same proof as [8, Proposition 7.49].
+By the equation (5.8.3), ZL (t⊥
+                              m ) is contained in ZKC (tC ) ∩ L ⊂ (TC )Xm . This
+shows that (TC )Xm meets every connected components of L, and so does BXm .
+Then, we have shown the condition L-3).                Tm
+    By the proof in Lemma 5.7, (TC )Xm is equal to i=1 ker γi |TC . This im-
+plies that (TC )Xm is contained in L. Since BXm = (TC )Xm NXm and NXm is
+connected, BXm is contained in L. This completes the proof.
+
+
+    Suppose H be a highest weight module of G. We consider the (g, K)-module
+H as a (C[AV(H)], KC )-module. By Proposition 3.1, C[AV(H)] has no zero
+divisors in H. Then, applying Theorem 4.1 and 4.5 to H, we have the following
+theorem.
+
+
+
+                                          21
+Theorem 5.9. Let H be a unitary highest weight module P  of G with the associ-
+                                                           m
+ated variety Om . Then, there exists a λ0 ∈ Λ+ (Om ) = {− i=1 ci γi : c1 ≥ c2 ≥
+· · · ≥ cm ≥ 0, ci ∈ Z} such that
+                            mK              L
+                             H (λ + λ0 ) = mHXm (λ|TXm )
+                               C
+
+
+
+for any λ ∈ Λ+ (H).
+Proof. By Kostant-Hua-Schmid Theorem P (Proposition 3.5), Om is a spherical
+affine KC -variety, and Λ+ (Om ) = {− m
+                                      i=1 ci γi : c1 ≥ c2 ≥ · · · ≥ cm ≥ 0, ci ∈
+                                 +
+Z}. Since H is generated by Hp as a C[Om ]-module, H is a finitely generated
+(C[Om ], KC )-module. We have shown that L satisfies the conditions L-1) ∼ L-4)
+in Lemma 5.8. Then, this completes the proof.
+    The following corollary is direct consequence of Corollary 4.11 and Theorem
+5.9.
+Corollary 5.10. Let H be a unitary highest weight module of G with the asso-
+ciated variety Om . Then, we have
+                                  CK (H) = CL (HXm ).
+Moreover, H|K is multiplicity-free if and only if HXm |L is multiplicity-free.
+Remark 5.11. In the proof of Theorem 5.9 and Corollary 5.10, we did not use
+the assumption that H is irreducible. Then, we can apply the theorem in the
+assumption that H is the finite direct sum of unitary highest weight modules
+with same associated varieties.
+
+5.4     Stability theorem for holomorphic symmetric pairs
+Let G be a connected simple real Lie group of Hermitian type with finite center,
+and τ be an involutive automorphism of G commuting with a Cartan involution
+θ of G. We put H = (Gτ )0 , the identity component of the fixed point group
+of τ . We assume that (g, h) is a holomorphic symmetric pair. Suppose H is a
+holomorphic discrete series representation of G.
+    Before we state the theorem, we set up some notations. We fix a Cartan
+                                                                                 −τ τ
+subalgebra tτ of kτ , and fix a positive system ∆+ (gτCθ , tτC ) such that ∆(p+       , tC ) ⊂
+∆+ (gτCθ , tτC ). Let B = T N be a Borel subgroup of (H ∩ K)C corresponding to
+the positive system ∆+ (gτCθ , tτC ).
+    We will take strongly orthogonal roots {γ1 , γ2 , . . . , γr } in ∆(p−τ    τ
+                                                                         + , tC ) by simi-
+lar way in Section 3.3. LHowever, it may be possible that gτ θ is not a simple Lie al-
+gebra. Suppose gτ θ = ni=1 hi . We set up an lexicographical order on ∆(gτ θ , tτC )
+such that any elements of ∆+ (gτCθ , tτC ) are positive and ∆+ (hi , tτC ) < ∆+ (hj , tτC )
+for any i, j (i < j). Here, we write X < Y if x < y for any x ∈ X and y ∈ Y .
+Replacing the term ’lowest root’ by ’minimum root’ in the definition of Section
+                                                                          −τ τ
+3.3, we can take strongly orthogonal roots {γ1 , γ2 , . . . , γr } in ∆(p+    , tC ).
+                 Lr                     −τ
+    Put a = i=1 R(Xγi + Xγi ) ⊂ p . Then, a is a maximal abelian subspace
+of p−τ , and r = dimR (a) = R-rank(gτ θ ).
+Theorem 5.12. Let H be a holomorphic discrete series representation of G.
+We put L = ZH∩K (a). Then, there exists a λ0 ∈ Λ+ (p−τ
+                                                    + ) such that
+
+                              mH              L
+                               H (λ + λ0 ) = mHp+ (λ|Tx )
+
+
+
+                                             22
+for any λ ∈ Λ+ (H). Here, we denote by mH  H (λ) the multiplicity of the unitary
+highest weight module with highest weight λ with respect to pτ+ ⊕ b.
+Proof. By Proposition 3.7, the decomposition of H|H is reduced to the de-
+composition of (S(p−τ      p+
+                   − ) ⊗ H )|H∩K . There exists a canonical isomorphism as
+H ∩ K-representation:
+                                            τθ
+                       S(p−τ
+                          − )⊗H
+                                p+
+                                   ≃ N g (Hp+ )
+                                      ≃ U(gτ θ )Hp+ (⊂ H).
+
+This implies that S(p−τ
+                     − )⊗H
+                              p+
+                                 is isomorphic to the finite direct sum of some
+holomorphic discrete series representations of (Gθτ )0 as H ∩ K-representation.
+                                    τθ
+Then, applying Theorem 5.9 to N g (Hp+ ), we prove the theorem.
+Corollary 5.13. Let H be a holomorphic discrete series representation of G.
+We put L = ZH∩K (a). Then, we have CH (H) = CL (Hp+ ). Moreover, H|H is
+multiplicity-free if and only if Hp+ |L is multiplicity-free.
+
+
+6     Branching laws and ǫ-family
+In this section, we discuss the relation between branching laws and ǫ-family.
+
+6.1    Motivation
+Our main problem is the following:
+Question. Let H, H ′ be reductive subgroups of a real reductive Lie group G,
+and π be an irreducible unitary representation of G. We assume that their
+complexifications are conjugate by an inner automorphism (i.e. there exists a
+g ∈ GC such that gHC g −1 = HC′ ). Then, what properties of branching laws of
+π|H and π|H ′ are preserved?
+   In simpler terms, it says whether there exists a method analogous to Weyl’s
+unitary trick for branching problems.
+   The following fact about upper bounds of multiplicities is known (see [20,
+Theorem 4.3.]).
+Fact 6.1. Let g be a complex Lie algebra, and h be a reductive complex Lie
+subalgebra in g. Suppose M and N are irreducible representations of gC , and
+the action of h on M and N is locally finite and completely decomposable. If
+AnnU (gC ) (M ) = AnnU (gC ) (M ), then we have Ch (M ) = Ch (N ).
+    We rewrite this fact in terms of our settings.
+Fact 6.2. Let H, H ′ be compact subgroups of a connected real reductive Lie
+group G, and π be an irreducible unitary representation of G. Suppose HC , HC′
+                                                                       ′
+are conjugate by an inner automorphism of GC . Then, we have CH (π) = CH  (π).
+    Thus, the suprema of the multiplicities are preserved if H and H ′ are com-
+pact subgroup of G. This is an answer of the question 6.1 in a special aspect.
+Note that if H, H ′ are conjugate by an inner automorphism of G, this fact is
+trivial.
+
+                                       23
+    On the other hand, if (G, H, H ′ ) = (Sp(n, R), U(n), GL(n, R)) and π is a
+unitary highest weight module of Sp(n, R), π|GL(nR) has continuous spectra
+although π|U(n) has no continuous spectra. This example implies that discrete
+decomposability is not preserved.
+    Our main result in this section is to show that the branching laws for holo-
+morphic discrete series representations with respect to two similar holomorphic
+symmetric pairs are similar (see Theorem 6.12).
+    At the end, we state an interesting example.
+Example 6.3. Let (G, H) be (SO(2p, 2q), U(p1 ) × U(p2 ) × U(q)) and π be a
+minimal representation of SO(2p, 2q), and (G′ , H ′ ) be (O∗ (2(p + q)), U(p1 ) ×
+U(p2 ) × U(q)) and π ′ be a minimal representation of O∗ (2(p + q)) with p1 + p2 =
+p. Then, their complexifications are (O(2(p + q), C), GL(p1 , C) × GL(p2 , C) ×
+GL(q, C)). The annihilators of π and π ′ in U(o(2(p+q), C)) are same ideal called
+the Joseph ideal J , although the representations π and π ′ are not equivalent as
+gC -modules. Here, we write same notation π for Harish-Chandra module of π.
+
+                                  π(U(g)H ) ≃ (U(g)/J )H
+                                                               ′
+                                              ≃ (U(g)/J )H
+                                                          ′
+                                              ≃ π ′ (U(g)H )
+
+In [17], M. Moriwaki showed that π|H is multiplicity-free. Then, π ′ |H ′ is also
+multiplicity-free by Fact 6.1 (we can obtain this by a straightforward computa-
+tion using Howe duality).
+
+6.2     ǫ-family
+The following definition of ǫ-family is due to T. Ōshima and J. Sekiguchi [19].
+Let g be a real semisimple Lie algebra, and τ be an involutive automorphism
+commuting with a Cartan involution θ of g. Take a maximal abelian subspace
+a of p−τ . We put g(a; λ) := {X ∈ g : [H, X] = λ(H)X for any H ∈ a} and
+Σ(a) := {λ ∈ a∗ \{0} : g(a; λ) 6= 0}. By Rossmann (see [22]), Σ(a) becomes a
+root system.
+   We will say a map ǫ : Σ(a)∪{0} → {1, −1} is a signature of Σ(a) if ǫ(α+β) =
+ǫ(α)ǫ(β) for any α, β ∈ Σ(a) ∪ {0}. For a signature ǫ, we define an involutive
+automorphism τǫ of g as follows:
+
+                  τǫ (X) = ǫ(α)τ (X) for X ∈ g(a; α), α ∈ Σ(a) ∪ {0}.
+
+We set F ((g, gτ )) := {(g, gτǫ ) : ǫ is a signature of Σ(a)}, and call it an ǫ-family
+of symmetric pairs. If τ = θ, we call F ((g, k)) a kǫ -family of symmetric pairs.
+    We have the following proposition.
+Proposition 6.4. Let τ be an involutive automorphism of g. Then, for any
+signature ǫ of Σ(a),
+ i) (gC , gτC ) and (gC , gτCǫ ) are conjugate by an inner automorphism of gC ,
+ ii) τǫ commutes with θ,
+iii) (gθτ , gτǫ ,θτ ) ∈ F ((gθτ , gτ,θτ )).
+
+
+                                              24
+Proof. i) is proved in [18]. We give only the explicit form of the automor-
+phism. Let {α1 , α2 , · · · , αr } ⊂ Σ(a) be the set of simple roots of Σ(a), and
+{H1 , H2 , . . . , Hr } ⊂ a be the dual basis of {α1 , α2 , · · · , αr }. Then, the auto-
+morphism is given by
+                                 r   √                           !
+                                X   π −1
+                          exp            (1 − ǫ(αi ))ad(Hi ) .
+                                i=1
+                                      4
+
+   For the proof of ii), take α ∈ Σ(a) ∪ {0} and X ∈ g(a; α). Then, we have
+                                θτǫ (X) = θǫ(α)τ (X)
+                                         = ǫ(α)θτ (X)
+                                         = ǫ(α)τ θ(X).
+Since θ(g(a; α)) = g(a; −α), we have
+                                ǫ(α)τ θ(X) = τǫ θ(X).
+This shows ii).
+   Since ǫ(0) = 1, we have a ⊂ p−τ,−τǫ ⊂ gθτ . Then, iii) is clear.
+     Hereafter, we assume that g is a simple real Lie algebra of Hermitian type,
+and (g, gτ ) is a holomorphic symmetric pair (see Section 3.4). We rewrite an ǫ-
+family in terms of strongly orthogonal roots. Fix tτ , ∆+ and strongly orthogonal
+roots {γ1 , γ2 , . . . , γr } in p−τ as in Section 5.4. We can take root vectors Xγi ∈
+gτCθ (tτC ; γi ) such that
+                             γi ([Xγi , Xγi ]) = 2.
+        L                                        L
+Put a := ri=1 R(Xγi + Xγi ) ⊂ p−τ and tτ0 := ri=1 C[Xγi , Xγi ] ⊂ tτC .
+   We define a Cayley transform c by
+                                     r
+                                                      !
+                                 πX
+                     c := exp           ad(Xγi − Xγi ) .
+                                  4 i=1
+
+It is known that c(tτ0 ) = aC (see [8]). We set Σ(tτ0 ) := {λ ∈ (tτ0 )∗ \{0} :
+gC (tτ0 ; λ) 6= 0}. Then, c gives bijections c∗ : Σ(a) → Σ(tτ0 )(α 7→ α ◦ c) ,
+and c : gC (tτ0 ; α) → gC (aC ; α ◦ c−1 ) for any α ∈ Σ(tτ0 ) ∪ {0}.
+Proposition 6.5. Let ǫ be a signature such that (g, gτǫ ) is a holomorphic sym-
+metric pair. Then,
+ i) τ τǫ commutes with c,
+ ii) τ τǫ (X) = ǫ(α ◦ c−1 )X for any α ∈ Σ(tτ0 ) and X ∈ gC (tτ0 ; α),
+iii) ǫ(γi ◦ c−1 ) = 1 for any i (1 ≤ i ≤ r).
+Proof. We recall that the characteristic element for (g, gθ ) is τ and τǫ invariant.
+Since [Z, Xγi + Xγi ] = Xγi − Xγi , we have
+                       τ τǫ (Xγi − Xγi ) = τ τǫ ([Z, Xγi + Xγi ])
+                                         = [Z, τ τǫ (Xγi + Xγi )]
+                                         = [Z, Xγi + Xγi ]
+                                         = X γi − X γi .
+
+
+                                           25
+Then, Xγi − Xγi is τ τǫ -invariant. This implies that c commutes with τ τǫ . Thus,
+(i) and (ii) are proved. Since Xγi + Xγi and Xγi − Xγi are τ τǫ -invariant, Xγi is
+τ τǫ -invariant. By ii), we have ǫ(γi ◦ c−1 ) = 1.
+
+6.3     Upper bounds and ǫ-family
+Let G be a connected simple real Lie group of Hermitian type with finite center,
+and τ be an involutive automorphism of G such that (g, gτ ) is holomorphic
+symmetric pair. We fix a maximal abelian subspace a of p−τ , and fix a signature
+ǫ of Σ(a) such that (g, gτǫ ) is holomorphic symmetric pair. Suppose H and H ′
+are analytic subgroups with Lie algebra gτ and gτǫ . Applying Theorem 5.13, we
+have the following theorem.
+Theorem 6.6. Let H be a holomorphic discrete series representation of G.
+Then, we have CH (H) = CH ′ (H).
+Proof. From Theorem 5.12, it suffices to show that ‘L’s for H and H ′ in Section
+5.4 are conjugate under K-action. We take a Cartan subalgebra tτ of kτ , positive
+system ∆+ (gτCθ , tτC ) and strongly orthogonal roots {γ1 , γ2 , . . . , γr } as in Section
+5.4. We put
+                                   r
+                                   M
+                           a′ :=         R(Xγi + Xγi ) ⊂ p−τ ,
+                                   i=1
+                                 r
+                                 M  √
+                           t0 :=   R −1[Xγi , Xγi ] ⊂ tτ ,
+                                   i=1
+                           L := ZK∩H (a′ ).
+
+    Let us show that L and ZK∩H∩H ′ (a) is conjugate under K ∩ H-action. Since
+a and a′ are maximal abelian subspaces of p−τ , there exists a k ∈ K ∩ H such
+that Ad(k)a′ = a. Then, We have Ad(k)L = ZK∩H (a). By definition of τǫ
+(ǫ(0) = 1), we have
+
+                                   Ad(k)l = Zkτ (a)
+                                             = Zkτ,τǫ (a).
+
+As we stated in the proof of Lemma 5.8, the connected components of L can
+be controlled by ZT τ (a′ ). Here, we denote by T τ a maximal torus of K ∩ H
+corresponding to tτ . Since a is contained in p−τ,−τǫ , we have
+
+                   τ (Ad(k)Xγi ) = τǫ (Ad(k)Xγi ) = −Ad(k)Xγi .
+
+This implies that Ad(k)t0 is contained in kτ,τǫ . Moreover, since tτ = t0 ⊕Ztτ (a′ ),
+Ad(k)tτ is contained in kτ,τǫ . Then, Ad(k)T τ is contained in K ∩ H ∩ H ′ .
+Therefore, Ad(k)L is contained in ZK∩H∩H ′ (a). Since converse inclusion is
+obvious, we have Ad(k)L = ZK∩H∩H ′ (a).
+   Replacing τ by τǫ , we can show the same argument for H ′ . This completes
+the proof.
+
+
+
+
+                                              26
+6.4       kǫ -family case
+We can describe the similarity of branching laws of H|H and H|H ′ more precisely.
+In this section, we assume that H is a maximal compact subgroup of G.
+    We consider the case that τ = θ, and fix a signature ǫ of Σ(a) such that
+(g, gθǫ ) is a holomorphic symmetric pair. In this case, we write t := tθ and
+t0 := tθ0 since tθ is a Cartan subalgebra of k. Note that t is contained in kθǫ since
+c(t) commutes with aC = c(t0 ). Then, ∆(kθCǫ , tC ) ∩ ∆+ is a positive system of
+∆(kθCǫ , tC ).
+    By Proposition 3.3, the restricted root system Σ(a) is type BCr or Cr . We
+divide strongly orthogonal roots {γ1 , γ2 , . . . , γr } into two parts Γ1 and Γ2 as
+follows. If Σ(a) is type BCr , we put
+                              Γ1 := {γi : ǫ(γi /2) = −1},
+                              Γ2 := {γi : ǫ(γi /2) = 1}.
+If Σ(a) is type Cr , we put
+                         Γ1 := {γi : ǫ((γ1 + γi )/2) = 1},
+                         Γ2 := {γi : ǫ((γ1 + γi )/2) = −1}.
+Here, we identify Σ(a) and Σ(t0 ) by c∗ . If necessary, replacing the positive
+system, we can assume
+                            Γ1 = {γ1 , γ2 , . . . , γr1 },
+(6.6.1)
+                            Γ2 = {γr1 +1 , γr1 +2 , . . . , γr }.
+Lemma 6.7. We put
+                                           r1
+                                           X
+(6.7.2)                         Z ′ := −         [Xγi , Xγi ].
+                                           i=1
+
+Then, we have
+                        −θǫ
+                   ∆+ (kC   , tC ) = {α ∈ ∆(kC , tC ) : α(Z ′ ) = 1},
+                      ∆(kθCǫ , tC ) = {α ∈ ∆(kC , tC ) : α(Z ′ ) = 0}.
+              −θǫ
+Especially, (kC   )+ := {X ∈ kC : [Z ′ , X] = X} is stable under kθCǫ -action.
+Proof. By the definition of θǫ , we have
+                      −θǫ
+                 ∆+ (kC   , tC ) = {α ∈ ∆+ (kC , tC ) : ǫ(α|t0 ) = −1},
+                    ∆(kθCǫ , tC ) = {α ∈ ∆(kC , tC ) : ǫ(α|t0 ) = 1}.
+For any α ∈ ∆(kC , tC ), the value α(Z ′ ) is determined by the restriction to t0 .
+Explicit forms of the restrictions of the roots to t0 is given by Proposition 3.3:
+                             [             [
+            ∆+ (kC , tC ) =        Cij ∪       Ci ∪ C0 ,
+                            1≤i<j≤r          1≤i≤r
+                            (                                   )
+                                                                 
+                                      +                γj − γi
+                    Cij := γ ∈ ∆ (kC , tC ) : γ|t0 =               ,
+                                                          2     t0
+                                                      γ  
+                                +                         i
+                     Ci := γ ∈ ∆ (kC , tC ) : γ|t0 = −          ,
+                                                         2 t0
+                     C0 := {γ ∈ ∆+ (kC , tC ) : γ|t0 = 0}.
+
+
+                                            27
+From the assumption (6.6.1), we have
+                       (
+              γj − γi       1   (1 ≤ i < j ≤ r1 or r1 < i < j ≤ r)
+          ǫ             =                                          ,
+                 2          −1 (1 ≤ i ≤ r1 < j ≤ r)
+                          (
+                 γ        1   (r1 < i ≤ r)
+                     i
+              ǫ −       =                    .
+                    2       −1 (1 ≤ i ≤ r1 )
+
+Recall that we took Xγi satisfying γi ([Xγi , Xγi ]) = 2. Then, we have
+                          (
+            γj − γi ′       0 (1 ≤ i < j ≤ r1 or r1 < i < j ≤ r)
+                   (Z ) =                                            ,
+               2            1 (1 ≤ i ≤ r1 < j ≤ r)
+                          (
+                 γi ′       0 (r1 < i ≤ r)
+               − (Z ) =                        .
+                 2          1 (1 ≤ i ≤ r1 )
+This shows the lemma.
+    We show the following key lemma. This lemma can be considered as the
+scalar type case of the main theorem.
+Lemma 6.8. In the above settings, we have the following equations:
+             ( r                                                                  )
+                X
+  +     −θǫ
+ Λkθǫ (p+ ) = −    ci γi : c1 ≥ c2 ≥ · · · cr1 ≥ 0, cr1 +1 ≥ cr1 +2 ≥ · · · cr ≥ 0 ,
+                   i=1
+
+    Λk (p+ ) = {λ ∈ Λ+
+     +
+                         (p−θǫ ) : (λ, α) ≥ 0 for any α ∈ ∆+ (kC
+                      kθǫ +
+                                                               −θǫ
+                                                                   , tC )}.
+Proof. For the first equation, we show that gθθǫ has at most two non-compact
+simple factors determined by Γ1 and Γ2 . We define two subsets Σ1 and Σ2 of
+Σ(a) as follows:
+                                   n                       γ     o
+             γi ± γj                   γi                      i
+  Σi := ±            : γi , γj ∈ Γi ∪ ± ∈ Σ(a) : γi ∈ Γi , ǫ      = 1 ∪ Γi .
+                2                       2                     2
+By definition of Γi and Proposition 6.5, Σi is a subroot system of Σ(a), and if
+α ∈ Σ(a) satisfies ǫ(α) = 1, α is an element of either of Σ1 or Σ2 . This implies
+that Σ1 ∪ Σ2 is the restricted root system of gθθǫ with respect to a. Since Σ1
+and Σ2 are irreducible root systems, gθθǫ has at most two non-compact simple
+factors. By Kostant-Hua-Schmid Theorem (Proposition 3.5), the first equation
+is proved.
+    By Kostant-Hua-Schmid Theorem again, the left hand side of the second
+equation is contained in the right hand side.PIf r1 = r, we have nothing to
+                                                        r
+prove. Then, we assume r1 < r. We take − i=1 ci γi ∈ Λ+                (p−θǫ ) such that
+                                                                    kθǫ +
+    Pr                                   −θǫ
+(− i=1 ci γi , α) ≥ 0 for any α ∈ ∆+ (kC       , tC ). Especially, we can choose α such
+that α|t0 = (γr1 +1 − γr1 )/2. Then, we have
+                                   r
+                                                 !
+                                  X
+                           0≤ −       c i γi , α
+                                     i=1
+                                      r
+                                                              !
+                                     X          γr +1 − γr1
+                             =    −     c i γi , 1
+                                    i=1
+                                                     2
+                                            cr1 − cr1 +1
+                             = (γi , γi )                .
+                                                 2
+
+                                               28
+Therefore, cr1 ≥ cr1 +1 . This shows the second equation.
+   Let H be the analytic subgroup with Lie algebra gθǫ .
+Theorem 6.9. Let H be a holomorphic discrete series representation of G.
+Suppose (Hp+ )∗ has the following formal character with respect to t:
+                                         M
+                          ch((Hp+ )∗ ) =    m(ν)eν .
+                                             ν∈t∗
+                      √                                       √
+We put V := {ν ∈ −1t∗ : m(ν) 6= 0}. Then, for λ ∈ −1t∗ such that
+                                     −θ
+(λ + ν, α) ≥ 0 for any α ∈ ∆+ (tC , kC ǫ ) and ν ∈ V, we have
+
+                                 mK        H
+                                  H (λ) = mH (λ).
+
+                                                             −θǫ
+Proof. By Proposition 3.7, we consider a branching law of S(p−   ) ⊗ Hp+ |K∩H .
+From the Weyl character formula, we have
+
+          DK ch(Vλ,K ⊗ (Hp+ )∗ ) = DK ch(Vλ,K )ch((Hp+ )∗ )
+                                    X                       X
+                                 =      sgn(σ)eσ(λ+ρK )−ρK    m(ν)eν
+                                     σ∈WK                            ν∈V
+                                     X            X
+                                                                   σ(λ+ν+ρK )−ρK
+(6.9.3)                          =         m(ν)          sgn(σ)e                   .
+                                     ν∈V          σ∈WK
+
+Here, we write the Weyl group for (K, T ) by WK , half the sum of the positive
+roots by ρK , and the Weyl denominator for (K, T ) by DK . For the third equality,
+we used WK -invariance of m(ν). We have the similar equations for K ∩ H by
+replacing WK by WK∩H , and ρK by ρK∩H .
+   We put
+
+     IK (λ) := {(ν, σ) ∈ V × WK : σ(λ + ν + ρK ) − ρK ∈ Λ+ (p+ )},
+                                                                  −θǫ
+  IK∩H (λ) := {(ν, σ) ∈ V × WK∩H : σ(λ + ν + ρK∩H ) − ρK∩H ∈ Λ+ (p+   )}.
+
+By Lemma 6.7, we have σ(ρK ) − ρK = σ(ρK∩H ) − ρK∩H for any σ ∈ WK∩H .
+Then, we can replace ρK∩H by ρK in the above definitions. Note that if
+(ν, σ1 ), (ν, σ2 ) ∈ I· (λ), then σ1 = σ2 .
+    From (6.9.3), we can write the multiplicity by this notation:
+                                         X
+                            mKH (λ) =       sgn(σ)m(ν),
+                                  (ν,σ)∈IK (λ)
+                                       X
+                       mH
+                        H (λ) =                     sgn(σ)m(ν).
+                                  (ν,σ)∈IK∩H (λ)
+
+
+Then, it suffices to show IK (λ) = IK∩H (λ) if λ satisfies the condition.
+                                                  −θǫ
+    We assume (λ + ν, α) ≥ 0 for any α ∈ ∆+ (kC       , tC ) and ν ∈ V. First, we
+will show IK (λ) ⊃ IK∩H (λ). Take (ν, σ) ∈ IK∩H (λ). By definition, we have
+                            −θǫ                             −θǫ
+σ(λ + ν + ρK ) − ρK ∈ Λ+ (p+    ). From Lemma 6.7, ∆+ (kC       , tC ) is stable under
+                                + −θǫ
+σ. Take a lowest root α ∈ ∆ (kC , tC ) with respect to ∆+ (kC , tC ). Since α
+
+
+
+
+                                           29
+is a lowest root, σ −1 (α) − α is a sum of elements of ∆+ (kθǫ , tC ) with positive
+coefficients. Then, we have
+
+           (σ(λ + ν + ρK ) − ρK , α) = (σ(λ + ν + ρK ), α) − (ρK , α)
+                                                   = (λ + ν + ρK , σ −1 (α)) − (ρK , α)
+                                                   = (λ + ν, α) + (ρK , σ −1 (α) − α) ≥ 0.
+
+Thus, σ(λ + ν + ρK ) − ρK is dominant with respect to ∆+ (kC , tC ). By Lemma
+6.8, we have σ(λ + ν + ρK ) − ρK ∈ Λ+ (p+ ). This implies the desired inclusion.
+    Next, we show the converse inclusion. Take (ν, σ) ∈ IK (λ). Since σ(λ + ν +
+ρK ) − ρK ∈ Λ+ (p+ ), λ + ν + ρK is regular for WK , especially for WK∩H . Then,
+there exist a σ ′ ∈ WK∩H such that σ ′ (λ + ν + ρK ) is strictly dominant with
+respect to ∆+ (tC , kθCǫ ). Since ∆+ (kC
+                                       −θǫ
+                                           , tC ) is WK∩H -invariant, σ ′ (λ + ν + ρK ) is
+also strictly dominant with respect to ∆+ (kC , tC ). Then, we have σ = σ ′ . This
+completes the proof.
+Remark 6.10. Note that the irreducibility of H is not used in the above proof.
+Then, the assumption that H is a holomorphic discrete series representation can
+be replaced by the assumption that H is the finite direct sum of holomorphic
+discrete series representations.
+
+6.5     Non-compact case
+The aim of this section is to show an analogous theorem of Theorem 6.9 for
+non-compact symmetric pairs. We use the notation in Section 6.3.
+   We can apply two types of transformations to the branching law of H|H :
+  i) the branching law of H|H coincides with the branching law of (U(gθτ )Hp+ )|gθ,τ
+     in the sense of Proposition 3.7, and
+ ii) if H is a maximal compact subgroup of G, the branching law of H|H coin-
+     cides with the branching law of H|H ′ in the sense of Theorem 6.9.
+
+Then, if we ignore the assumption (6.6.1) in Theorem 6.9, the branching laws
+of H|H and H|H ′ are reduced to the same branching law as follows.
+
+
+                              i)                          ii)
+(6.10.4)    (g, gτ )                / (gθτ , gθτ,τ )            / (gθτ , gθτ,τǫ )
+                ✤                                                             PPP
+                  ✤                                                               PPP i)
+                                                                                     PPP
+                    ✤                                                                    PPP
+                                                                                            (
+                      ✤ ǫ-family                                                         (gθτ,θτǫ , gθ,τ,τǫ )
+                       ✤                                                                  ♥♥6
+                         ✤                                                           ♥♥♥♥♥
+                                                                                   ♥♥
+                           ✤
+                              i)                          ii)
+                                                                                ♥♥♥ i)
+            (g, gτǫ )              / (gθτǫ , gθτǫ ,τǫ )         / (gθτǫ , gθτǫ ,τ )
+
+    Let us show the existence of a compatible ordering of (tτ )∗ with respect to
+the pairs (gθτ , gθτ,τǫ ) and (gθτǫ , gθτǫ ,τ ) satisfying (6.6.1).
+                                                                    √
+Lemma 6.11. In the above settings, there exists an ordering of −1(tτ )∗ that
+satisfies the following conditions:
+
+
+                                                          30
+                                        −τǫ τ
+  i) any elements of ∆(p−τ   τ
+                        + , tC ) and ∆(p+ , tC ) are positive,
+
+ ii) Λ+    −τ          +       −τ,−τǫ
+      kτ (p+ ) = {λ ∈ Λkτ,τǫ (p+      ) : (λ, α) ≥ 0 for any α ∈ ∆+ (kτ,−τ
+                                                                      C
+                                                                           ǫ
+                                                                             , tτC )},
+
+iii) Λ+     −τǫ
+      kτǫ (p+ ) = {λ ∈ Λkτ,τǫ (p+
+                                 +     −τ,−τǫ
+                                              ) : (λ, α) ≥ 0 for any α ∈ ∆+ (k−τ,τ
+                                                                              C
+                                                                                   ǫ
+                                                                                     , tτC )}.
+                                                    √
+Proof. We put a lexicographical order on −1(tτ )∗ as follows.
+    Let {s1 , s2 , . . . , sn } be the set of the non-compact simple factors of gθτ,θτǫ .
+We can assume that if si is of tube type and sj is of non-tube type, then i < j.
+We reorder {X1 , X2 , . . . , Xr } (see Section 6.2) such that if Xi ∈ sni , Xj ∈ snj
+and ni < nj , then i < j. We also reorder {γ1 , γ2 , . . . , γr } according to the order
+of {X
+   √ 1 , X2 , . . . , Xr }. Based on this ordering, we take an ordered generating set
+of −1tτ as
+
+           B := {Z, −[X1 , X1 ], −[X2 , X2 ], . . . , −[Xr , Xr ], Y1 , Y2 , . . . , Yd }.
+
+Here, Z √  is a characteristic element of g, √      and {Y1 , Y2 , . . . , Yd } is a basis of (tτ0 +
+      ⊥
+CZ) ∩ −1t . B is a generating set of −1tτ√although it may not be a basis.
+                   τ
+
+Then, B induces a lexicographical ordering on −1(tτ )∗ .
+     Let us show that the ordering satisfies the desired conditions. The condition
+i) is clear from the definition of B. We take a maximal set of strongly orthogonal
+roots {γ1′ , γ2′ , . . . , γr′ } from ∆+ (p−τ   τ
+                                           + , tC ) with respect to the new ordering. By
+                                      ′
+Proposition 3.3, we have γi = γi for any 1 ≤ i ≤ r. For each non-compact
+simple factor of gτ θ , the assumption (6.6.1) of Lemma 6.7 is satisfied. Then, the
+condition ii) is proved from Lemma 6.8. Since the condition iii) can be proved
+in the same way as ii), then Lemma 6.11 is proved.
+    By Lemma 6.11 and the reduction (6.10.4), we have the following theorem.
+
+Theorem 6.12. Let H be   √ a holomorphic discrete series representation of G.
+We put an ordering on −1tτ as in Lemma 6.11. Suppose (Hp+ )∗ has the
+following formal character with respect to tτ :
+                                         M
+                         ch((Hp+ )∗ ) =         m(ν)eν .
+                                                  ν∈(tτ )∗
+
+                    √                                        √
+We put V := {ν ∈ −1(tτ )∗ : m(ν) 6= 0}. Then, for λ ∈ −1(tτ )∗ such that
+(λ + ν, α) ≥ 0 for any α ∈ ∆+ (k−τ
+                                C
+                                   τǫ τ
+                                     , tC ) and ν ∈ V, we have
+                                                        ′
+                                      mH        H
+                                       H (λ) = mH (λ).
+
+
+
+
+                                                 31
+             Table 2: holomorphic symmetric pairs and ǫ-family
+      g      parameter              {gτǫ : (g, gτǫ ) is holomorphic}
+  su(p, q)       i, j       {s(u(i − k, j + k) + u(p − i + k, q − j − k))}
+ su(n, n)                                       {so∗ (2n)}
+ su(n, n)                                      {sp(n, R)}
+  so∗ (2n)                            {u(2i, n − 2i) : 0 ≤ 2i ≤ n}
+  so∗ (2n)                     {u(2i + 1, n − 2i − 1) : 0 ≤ 2i + 1 ≤ n}
+  so∗ (2n)        i                    {so∗ (2i) + so∗ (2(n − i))}
+  so(2, n)        i       {so(2, n − i) + so(i), so(n − i + 2) + so(2, i − 2)}
+ so(2, 2n)                                      {u(1, n)}
+ sp(n, R)                               {u(i, n − i) : 0 ≤ i ≤ n}
+ sp(n, R)         i                    {sp(i, R) + sp(n − i, R)}
+  e6(−14)                 {so(10) + so(2), so∗ (10) + so(2), so(8, 2) + so(2)}
+  e6(−14)                        {su(5, 1) + sl(2, R), su(4, 2) + su(2)}
+  e7(−25)                          {e6(−78) + so(2), e6(−14) + so(2)}
+  e7(−25)                       {so(10, 2) + sl(2, R), so∗ (12) + su(2)}
+  e7(−25)                                       {su(6, 2)}
+
+
+References
+[1] M. Brion, D. Luna, and Th. Vust. Espaces homogènes sphériques. Invent.
+    Math., 84(3):617–632, 1986.
+[2] F. D. Grosshans. The invariants of unipotent radicals of parabolic sub-
+    groups. Invent. Math., 73(1):1–9, 1983.
+[3] Frank D. Grosshans. Contractions of the actions of reductive algebraic
+    groups in arbitrary characteristic. Invent. Math., 107(1):127–133, 1992.
+[4] Sigurdur Helgason. Geometric analysis on symmetric spaces, volume 39 of
+    Mathematical Surveys and Monographs. American Mathematical Society,
+    Providence, RI, 1994.
+[5] Roger Howe. Remarks on classical invariant theory. Trans. Amer. Math.
+    Soc., 313(2):539–570, 1989.
+[6] L. K. Hua. Harmonic analysis of functions of several complex variables
+    in the classical domains. Translated from the Russian by Leo Ebner and
+    Adam Korányi. American Mathematical Society, Providence, R.I., 1963.
+[7] Anthony Joseph. Annihilators and associated varieties of unitary highest
+    weight modules. Ann. Sci. École Norm. Sup. (4), 25(1):1–45, 1992.
+[8] Anthony W. Knapp. Lie groups beyond an introduction, volume 140 of
+    Progress in Mathematics. Birkhäuser Boston Inc., Boston, MA, second
+    edition, 2002.
+[9] Toshiyuki Kobayashi. Discrete decomposability of the restriction of Aq (λ)
+    with respect to reductive subgroups and its applications. Invent. Math.,
+    117(2):181–205, 1994.
+
+
+                                      32
+[10] Toshiyuki Kobayashi. Discrete series representations for the orbit spaces
+     arising from two involutions of real reductive Lie groups. J. Funct. Anal.,
+     152(1):100–135, 1998.
+[11] Toshiyuki Kobayashi. Geometry of multiplicity-free representations of
+     GL(n), visible actions on flag varieties, and triunity. Acta Appl. Math.,
+     81(1-3):129–146, 2004.
+[12] Toshiyuki Kobayashi. Multiplicity-free representations and visible actions
+     on complex manifolds. Publ. Res. Inst. Math. Sci., 41(3):497–549, 2005.
+[13] Toshiyuki Kobayashi. A generalized Cartan decomposition for the double
+     coset space (U(n1 ) × U(n2 ) × U(n3 ))\U(n)/(U(p) × U(q)). J. Math. Soc.
+     Japan, 59(3):669–691, 2007.
+[14] Toshiyuki Kobayashi. Multiplicity-free theorems of the restrictions of uni-
+     tary highest weight modules with respect to reductive symmetric pairs. In
+     Representation theory and automorphic forms, volume 255 of Progr. Math.,
+     pages 45–109. Birkhäuser Boston, Boston, MA, 2008.
+[15] Toshiyuki Kobayashi. Propagation of the multiplicity-freeness property
+     for holomorphic vector bundles. In Lie Groups: Structure, Actions, and
+     Representations, volume 306 of Progr. Math. Birkhäuser Basel, 2013.
+[16] Jian-Shu Li. The correspondences of infinitesimal characters for reductive
+     dual pairs in simple Lie groups. Duke Math. J., 97(2):347–377, 1999.
+[17] Masayasu Moriwaki. Multiplicity-free decompositions of the minimal
+     representation of the indefinite orthogonal group. Internat. J. Math.,
+     19(10):1187–1201, 2008.
+[18] Toshio Ōshima and Jirō Sekiguchi. Eigenspaces of invariant differential
+     operators on an affine symmetric space. Invent. Math., 57(1):1–81, 1980.
+[19] Toshio Ōshima and Jirō Sekiguchi. The restricted root system of a semisim-
+     ple symmetric pair. In Group representations and systems of differential
+     equations (Tokyo, 1982), volume 4 of Adv. Stud. Pure Math., pages 433–
+     497. North-Holland, Amsterdam, 1984.
+[20] Ivan Penkov and Vera Serganova. On bounded generalized Harish-Chandra
+     modules. Ann. Inst. Fourier (Grenoble), 62(2):477–496, 2012.
+[21] Tomasz Przebinda. The duality correspondence of infinitesimal characters.
+     Colloq. Math., 70(1):93–102, 1996.
+[22] W. Rossmann. The structure of semisimple symmetric spaces. Canad. J.
+     Math., 31(1):157–180, 1979.
+[23] Atsumu Sasaki. Visible actions on irreducible multiplicity-free spaces. Int.
+     Math. Res. Not. IMRN, (18):3445–3466, 2009.
+[24] Fumihiro Satō. On the stability of branching coefficients of rational repre-
+     sentations of reductive groups. Comment. Math. Univ. St. Paul., 42(2):189–
+     207, 1993.
+
+
+                                       33
+[25] Wilfried Schmid. Die Randwerte holomorpher Funktionen auf hermitesch
+     symmetrischen Räumen. Invent. Math., 9:61–80, 1969/1970.
+[26] Yuichiro Tanaka. Classification of visible actions on flag varieties. Proc.
+     Japan Acad. Ser. A Math. Sci., 88(6):91–96, 2012.
+[27] Dmitry A. Timashev. Homogeneous spaces and equivariant embeddings,
+     volume 138 of Encyclopaedia of Mathematical Sciences. Springer, Heidel-
+     berg, 2011. Invariant Theory and Algebraic Transformation Groups, 8.
+[28] David A. Vogan, Jr. Associated varieties and unipotent representations.
+     In Harmonic analysis on reductive groups (Brunswick, ME, 1989), volume
+     101 of Progr. Math., pages 315–388. Birkhäuser Boston, Boston, MA, 1991.
+[29] Hiroshi Yamashita. Isotropy representation for Harish-Chandra modules.
+     In Infinite dimensional harmonic analysis III, pages 325–351. World Sci.
+     Publ., Hackensack, NJ, 2005.
+
+
+
+
+                                      34
+

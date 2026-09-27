@@ -1,0 +1,30 @@
+R13 visual transcriptions (pdftotext garbled the displays; transcribed from rendered pages in png/)
+
+VT-1  arxiv_2409.16555.pdf page 6 (png/arxiv_2409.16555_p-06.png); text lines arxiv_2409.16555.txt:257-277
+  Bai–Hunziker, "A characterization of unitarity of some highest weight Harish-Chandra modules".
+  "In [BH15], we have found a uniform expression for the GK dimensions and associated varieties
+   of unitary highest weight Harish-Chandra modules.
+   Proposition 3.2 ([BH15]). Suppose L(λ) is a unitary highest weight Harish-Chandra module with
+   highest weight λ. We denote z = z(λ) = (λ + ρ, β∨), then
+       GKdim L(λ) = r z_{r−1},   if z < z_{r−1}
+                    k z_{k−1},   if z = z_k = (ρ, β∨) − kc, 1 ≤ k ≤ r − 1
+                    0,           if z = z_0 = (ρ, β∨).
+   Denote k = k(λ) := −(λ, β∨)/c. Then
+   (1) If k > r − 1, we have GKdim L(λ) = r z_{r−1} = ½ dim(G/K).
+   (2) If 0 ≤ k ≤ r − 1, then k is a non-negative integer and
+       GKdim L(λ) = k((ρ, β∨) − (k − 1)c) = k z_{k−1} = dim \overline{O_{k(λ)}}.
+   The associated variety of L(λ) is \overline{O_{k(λ)}}."
+
+VT-2  arxiv_2409.16555.pdf page 5 (png/arxiv_2409.16555_p-05.png); text lines arxiv_2409.16555.txt:241-252
+  "Table 1. Some constants of Lie groups of Hermitian type" (from [EHW83]):
+     g_R            r              c        (ρ, β∨)
+     su(p, n−p)     min{p, n−p}    1        n − 1
+  (other rows omitted). For su(2,2): n = 4, r = 2, c = 1, (ρ, β∨) = 3.
+
+VT-3  arxiv_2402.08886.pdf page 14 (png/arxiv_2402.08886_p-14.png); text lines arxiv_2402.08886.txt:708-716
+  Bai–Hunziker–Xie–Zierau, "Table 2. Data on orbits and the Springer correspondence":
+     g_R        dim(O_k)        label of O_k^C          special?   dim(π(O_k^C, 1))
+     su(p, q)   k(p + q − k)    [2^k, 1^{p+q−2k}]        yes        C(p+q, p) − C(p+q, k−1)
+  Same page, Remark 3.2 (text line 754): "If X is an irreducible generalized Verma module
+  U(g) ⊗_{k+p+} F(λ) (as in the previous remark as well as in the case of holomorphic discrete
+  series representations), then it follows easily from the definitions that AV(X) = \overline{O_r} = p+."

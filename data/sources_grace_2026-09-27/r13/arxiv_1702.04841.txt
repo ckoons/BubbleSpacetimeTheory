@@ -1,0 +1,2955 @@
+                                           REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS
+                                                           FOR REAL SPIN GROUPS
+
+                                                                         DAN BARBASCH AND WAN-YU TSAI
+
+
+
+
+arXiv:1702.04841v2 [math.RT] 5 Sep 2017
+                                                 Abstract. The results in this paper provide a comparison between the K-structure of
+                                                 unipotent representations and regular sections of bundles on nilpotent orbits. Precisely,
+                                                 let G      ] b) with a + b = 2n, the nonlinear double cover of Spin(a, b), and let
+                                                      f0 = Spin(a,
+                                                 Ke = Spin(a, C) × Spin(b, C) be the complexification of the maximal compact subgroup
+                                                 of Gf0 . We consider the nilpotent orbit Oc parametrized by [3 22k 12n−4k−3 ] with k > 0.
+                                                 We provide a list of unipotent representations that are genuine, and prove that the list is
+                                                                                                                                    e
+                                                 complete using the coherent continuation representation. Separately we compute K-spectra
+                                                 of the regular functions on certain real forms O of Oc transforming according to appropriate
+                                                                                                              e
+                                                 characters ψ under CKe (O), and then match them with the K-types    of the genuine unipotent
+                                                 representations. The results provide instances for the orbit philosophy.
+
+
+
+
+                                                                                   1. Introduction
+                                            Let G0 ⊂ G be the real points of a complex linear reductive algebraic group G with Lie
+                                          algebra g0 and maximal compact subgroup K0 . Let g0 = k0 +s0 be the Cartan decomposition,
+                                          and g = k + s be the complexification. Let K be the complexification of K0 .
+                                          Definition 1.1. Let O := K · e ⊂ s, with e ∈ s a nilpotent element. We say that an
+                                          irreducible admissible representation Ξ of G0 is associated to O, if O occurs with nonzero
+                                          multiplicity in the associated cycle in the sense of [V2].
+                                             An irreducible module Ξ of G0 is called unipotent associated to a nilpotent orbit O ⊂ s
+                                          and infinitesimal character λO , if it satisfies
+                                               1: It is associated to O and its annihilator AnnU (g) Ξ in the universal enveloping algebra
+                                                  U(g) of g is the unique maximal primitive ideal with infinitesimal character λO ,
+                                               2: Ξ is unitary.
+                                          Denote by UG0 (O, λO ) the set of unipotent representations of G0 associated to O and λO .
+
+                                            Let CK (O) := CK (e) denote the centralizer of e in K, and let AK (O) := CK (O)/CK (O)0
+                                          be the component group. Assume that G0 is connected, and a complex group viewed as a
+                                          real Lie group. In this case G ∼= G0 × G0 , and K ∼  = G0 as complex groups. Furthermore
+                                            ∼
+                                          s = g0 as complex vector spaces, and the action of K is the adjoint action. In this case it is
+                                          conjectured that there exists an infinitesimal character λO such that in addition,
+
+                                            D. Barbasch was supported by an NSA grant.
+                                                                                              1
+2                              DAN BARBASCH AND WAN-YU TSAI
+
+
+      3: There is a 1-1 correspondence ψ ∈ A\K (O) ←→ Ξ(O, ψ) ∈ UG0 (O, λO ) satisfying the
+        additional condition
+                                    Ξ(O, ψ) K ∼= R(O, ψ),
+        where
+                 R(O, ψ) = IndK CK (O) (ψ)
+(1.1.1)
+                          = {f : K → Vψ | f (gx) = ψ(x)f (g) ∀g ∈ K, x ∈ CK (O)}
+        is the ring of regular functions on O transforming according to ψ. Therefore, R(O, ψ)
+        carries a K-representation.
+  Conjectural parameter λO satisfying this additional condition are studied in [B], along
+with results establishing the validity of this conjecture for large classes of nilpotent orbits in
+the classical complex groups. Such parameters λO are available for the exceptional groups
+as well, [B] for F4 , and to appear elsewhere for type E.
+  In this paper we investigate this conjecture for representations which are attached to small
+orbits in the real case.
+Definition 1.2. A nilpotent K-orbit in s is called small if
+(1.2.1)                          dim O ≤ rank (k) + |∆+ (k, t)|,
+where t ⊂ k is a Cartan subalgebra, and ∆+ (k, t) is a positive system.
+                                                                                          b
+   These orbits have the property that there is a chance that the multiplicity of any µ ∈ K
+be uniformly bounded. The reason is as follows. Let (Π, X) be an admissible representation
+of G0 , and µ be the highest weight of a representation (π, V ) ∈ Kb which is dominant for
+∆+ (k, t). Assume that dim HomK [π, Π] ≤ C, and Π has associated variety O (cf. [V2]).
+Then
+                                                                                  +
+    dim{v : v ∈ X belongs to an isotypic component with ||µ|| ≤ t} ≤ Ct|∆ (k,t)|+dim t .
+                                           +
+The dimension of (π, V ) grows like t|∆ (k,t)| , the number of representations with highest
+weight ||µ|| ≤ t grows like tdim t , and the multiplicities are assumed uniformly bounded. On
+the other hand, considerations involving primitive ideals imply that the dimension of this
+set grows like tdim G·e/2 with e ∈ O, and half the dimension of (the complex orbit) G · e is the
+dimension of the (K-orbit) K · e ∈ s.
+   In the complex case the appropriate condition for bounded multiplicities is that the orbit be
+spherical, i.e. the Borel subgroup has an open orbit, and results of [P] provide a classification.
+  In this paper we treat the case of real groups of type D in detail. In these cases, there is
+no difference between small and spherical, and we do not elaborate on this.
+  More precisely, we choose infinitesimal characters correponding to the complex case for
+which the orbits are minimal such that a (g, K)-module associated to such an orbit exits.
+We then compute the genuine representations for
+                                                                      
+                       f0 , K)
+                      (G          ] b), Spin(a, C) × Spin(b, C)
+                            e = Spin(a,
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS                      3
+
+                                              e
+satisfying these conditions and compute the K-spectrum   and compare to the spectrum ra-
+                                                              e0 , K)
+tional functions on the corresponding orbits. (Here we write (G    e to emphasize that G
+                                                                                       f0
+is the nonlinear double cover of Spin(a, b).)
+  Write 2n = a + b and
+                                     a = 2p,          a = 2p + 1,
+                                     b = 2q,          b = 2q − 1,
+The representations are associated to real forms of the complex nilpotent orbit
+                                 Oc = [3 22k 12n−4k−3 ]         k > 0.
+The condition k > 0 insures that these orbits are not special in the sense of Lusztig. So
+there are no representations with integral infinitesimal character associated to Oc . The
+infinitesimal character is
+(1.2.2)                 λ = (n − k − 2, . . . , 1, 0; k + 1/2, . . . , 3/2, 1/2),
+same as in [B].
+   Here is a summary of the results.
+   In Section 2 we list the real forms of the nilpotent orbit and describe the (component
+groups) of their centralizers. In Section 3 we analyze the K-structure of certain R(O, ψ). In
+Section 4 we match them with a set of representations obtained by restriction from those
+listed in [LS]. It is not clear that certain of these restrictions are irreducible. An alternative
+way to construct a set of representations with the required properties is to apply the derived
+functors construction to highest weight modules with the appropriate infinitesimal character
+and annihilator. The calculations are in the spirit of [Kn] and [T]. A comparison of the
+restrictions with the alternate construction shows that indeed certain of these restrictions
+are reducible.
+   Section 5 contains technicalities about Spin groups used to prove some of the results.
+Section 6 computes the coherent continuation representation and shows that the list of
+represenations in Section 4 is complete; these are all the genuine representations with the
+given infinitesimal character associated to real forms of Oc . Section 7 provides a construction
+of the representations using cohomological indcution from highest weight modules.
+  The representations all satisfy conditions (1) and (2) necessary to be called unipotent
+representations. As to condition (3), there is a significant difference in the real case; it cannot
+hold in its stated form. This can already be seen for SL(2, R). The spherical principal series
+with infinitesimal character zero is unipotent, and its associated cycle contains two nilpotent
+orbits. So its K-structure does not match any R(O, ψ). The phenomenon is analyzed in
+detail in [V2]. A necessary condition for it to hold is that O have codimension bigger than
+one in its closure. This is the case for the orbits studied in this paper. In particular this
+condition implies that the associated cycle only contains one orbit. Even so, because we
+are dealing with a nonlinear cover, the correct ψ turn out to be 1-dimensional characters of
+CKe (e) which are not trivial on the connected component.
+4                              DAN BARBASCH AND WAN-YU TSAI
+
+  Some of the results, particularly counting the representations and restricting from the odd
+Spin groups to the even ones, have their origin in [Ts]. There are relations to the work in
+[KO1] and [KO2] which we intend to pursue in future research.
+   Much of this work was done while the second author visited Cornell University, and con-
+tinued later while the first author visited Academia Sinica in Taiwan. We would like to
+thank the institutions for their support.
+
+
+                                       2. Preliminaries
+2.1. Nilpotent Orbits. We follow [CM]. Nilpotent orbits in so(a, b) are parametrized by
+orthogonal signed Young diagrams of signature (a, b) with numerals. We write a real orbit
+of the diagram [3 22k 12n−4k−3 ] as [3ǫ 22k 1+,c 1−,d ] (possibly with I, II), where 3ǫ denotes the
+block of size 3 starting with sign ǫ; 1+,c denotes c blocks of size 1 labeled +, and c is omitted
+when c = 1; similarly for 1−,d .
+   The following eight cases of signed diagrams are treated in this paper.
+    Case 1 : a = 2p       = 2k + 2,             O = [3+ 22k 1− ]I,II        O = [3− 22k 1+ ]I,II
+             b = 2p       = 2k + 2,
+    Case 2 : a = 2p       = 2k + 2 + 2r+ ,      O = [3− 22k 1+,2r+ +1 ]I,II O = [3+ 22k 1− 1+,2r+ ]
+             b = 2q       = 2k + 2,
+    Case 3 : a = 2p       = 2k + 2,             O = [3+ 22k 1−,2r− +1 ]I,II O = [3− 22k 1+ 1−,2r− ]
+             b = 2q       = 2k + 2 + 2r− ,
+    Case 4 : a = 2p + 1   = 2k + 1,             O = [3+ 22k 1+ 1−,2]        O = [3− 22k 1− 1+,2]
+             b = 2q − 1   = 2k + 1,
+    Case 5 : a = 2p + 1   = 2k + 3 + 2r+ ,      O = [3+ 22k 1+,2r+ +1 ]
+             b = 2q − 1   = 2k + 1,
+    Case 6 : a = 2p + 1   = 2k + 1,             O = [3− 22k 1−,2r− +1 ]
+             b = 2q − 1   = 2k + 3 + 2r− ,
+    Case 7 : a = 2p + 1   = 2k + 1 + 2r+ ,      O = [3− 22k 1− 1+,2r+ ]     (with r+ ≥ 2)
+             b = 2q − 1   = 2k + 3.
+    Case 8 : a = 2p + 1   = 2k + 3,             O = [3+ 22k 1+ 1−,2r− ]     (with r− ≥ 2)
+             b = 2q − 1   = 2k + 1 + 2r− .
+As will become apparent at the end, these are the only e    K-orbits that are associated to
+genuine representations. Cases 1 and 4 are invariant under exchanging + and −, Cases 2, 3,
+5, 6 and 7, 8 correspond under exchanging + and −. Nilpotent orbits I, II in Cases 1,2,3 are
+treated the same way. We will omit details for cases that match under these correspondences.
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS                                     5
+
+  The proof of the next Proposition, and details about the nature of the component groups,
+are in Section 5.
+
+Proposition 2.2.
+     Case 1: If O = [3+ 22k 1− ]I,II or [3− 22k 1+ ]I,II , then AKe (O) ∼
+                                                                        = Z2 × Z2 .
+                         − 2k +,2r+ +1
+     Case 2,3: If O = [3 2 1             ]I,II , with r+ > 0, then AKe (O) ∼ = Z2 .
+                         + 2k − +,2r+
+     Case 2,3: If O = [3 2 1 1            ], with r+ > 0, then AKe (O) ∼   = Z2 .
+     Case 4: If O = [3+ 22k 1− 1+,2 ], then AKe (O) ∼  = Z2 .
+     Case 5,6: If O = [3+ 22k 1+ ], with r+ = 0, then AKe (O) ∼     = Z2 .
+                         + 2k +,2r+ +1
+     Case 5,6: If O = [3 2 1             ] with r+ > 0, then AKe (O) = 1.
+                         − 2k − +,2r+
+     Case 7,8: If O = [3 2 1 1            ], with r+ ≥ 2, then AKe (O) ∼   = Z2 .
+The cases are paired according to the + and − interchanged.
+
+
+                                       3. Regular Sections
+  We compute the centralizers needed for R(O, ψ) in k and in K.e We use the standard roots
+and basis for so(a, b). The Cartan subalgebra is the fundamental one, a basis is given by
+H(ǫi ), and the root vectors are X(±ǫi ± ǫj ), X(±ǫi ). Realizations in terms of the Clifford
+algebra, and explicit calculations are in Section 5.
+
+  Let {e, h, f } with e ∈ O be a Lie triple such that h ∈ k and f ∈ s. We denote by
+     • Ck (h)i the i-eigenspace of ad(h) in k,
+     • Ck (e)i the i-eigenspace
+                   P               of ad(h) in the
+                                                P centralizer of e in k,
+             +                             +
+     • Ck (h) :=       Ck (h)i , and Ck (e) :=     Ck (e)i .
+                   i>0                               i>0
+
+
+]
+Spin(2p, 2q). These are Cases 1,2,3, so p = k + 1, q = k + 1 + r− . The compact Cartan
+subalgebra has coordinates
+
+                           (x1 , . . . , xk+1   y1 , . . . yk , yk+1, . . . , yk+r− +1 )
+
+with Cartan involution
+                                         θ(xi ) = xi , θ(yj ) = yj .
+  We describe the centralizer for [3+ 22k 1−,2r− +1 ]I in k in detail. Representatives for e and h
+are
+                                                         X
+          e = X(ǫ1 − ǫp+k+1 ) + X(ǫ1 + ǫp+k+1 ) +               X(ǫi + ǫp+i−1 )
+                                                               2≤i≤k+1
+                              X
+           h = H(2ǫ1 ) +              H(ǫi + ǫp+i−1 ) = (2, 1, . . . , 1          1, . . . , 1, 0, . . . , 0).
+                                                            | {z }                | {z }
+                           2≤i≤k+1                                      k              k
+6                                        DAN BARBASCH AND WAN-YU TSAI
+
+Then
+                                 Ck (h)0 ∼
+                                         =gl(1) × gl(k) × gl(k) × so(2r− + 2)
+                                 Ck (h)1 =Span{X(ǫ1 − ǫi ), 2 ≤ i ≤ k + 1,
+                                             X(ǫp+j ± ǫp+l ), 1 ≤ j ≤ k < l ≤ q},
+(3.0.1)
+                                 Ck (h)2 =Span{X(ǫi + ǫj ), 2 ≤ i < j ≤ k + 1,
+                                             X(ǫp+i + ǫp+j ), 1 ≤ i < j ≤ k},
+                                 Ck (h)3 =Span{X(ǫ1 + ǫi ), 2 ≤ i ≤ k + 1}.
+Similarly
+                    Ck (e)0 ∼
+                            =gl(1) × gl(k) × so(2r− + 1)
+                    Ck (e)1 =Span{X(ǫ1 − ǫi ) + X(ǫp+i−1 ± ǫp+k+1 ), 2 ≤ i ≤ k + 1,
+(3.0.2)                         X(ǫp+j ± ǫp+l ), 1 ≤ j ≤ k, k + 2 ≤ l ≤ q},
+                    Ck (e)2 =Ck (h)2 ,
+                    Ck (e)3 =Ck (h)3 .
+The gl(k) ⊂ Ck (e)0 is embedded in gl(k) × gl(k) ⊂ Ck (h)0 via x 7→ (x, −xt ), and
+so(2r− + 1) ⊂ so(2r− + 2) is the standard inclusion.
+   We denote by Detχ a character of Ck (e), a power of the determinant of gl(p − 1) = gl(k).
+Asume p is even throughout. This has the effect that for an irreducible representation,
+V∗ ∼= V, and details can easily be filled in for the other case. Because we are considering
+genuine representations of the nonlinear double cover, we need to compute regular functions
+for ψ which are not trivial on the connected component of the identity. So ψ = Detχ where
+χ is a half-integer. This holds for all cases.
+3.1. Case 1. As already noted, p = k + 1, q = k + 1. We treat the orbit O = [3+ 22k 1− ]I
+only. The other orbits in this Case are related by outer automorphisms as follows.
+  Let ζ, η be the outer automorphisms determined by
+                ζ :(x1 , . . . , xp | y1 , . . . , yp ) 7→ (x1 , . . . , xp−1 , −xp | y1 , . . . , , yp−1, −yp ),
+(3.1.1)
+                η :(x1 , . . . , xp | y1 , . . . , yp ) 7→ (y1 , . . . , yp | x1 , . . . , xp ).
+The other three orbits in Case 1 are conjugate to O by an outer automorphism and are
+denoted by Oζ , Oη , Oζη .
+  The centralizer Ck (h) is isomorphic to gl(1) × gl(p − 1) × gl(p − 1) × so(2).
+  A representation of K e will be denoted by its highest weight,
+            V = V (a1 , . . . , ap | b1 , . . . , bp ),   a1 ≥ a2 ≥ · · · ≥ |ap |, b1 ≥ b2 ≥ · · · ≥ |bp |.
+All ai , bj ∈ Z or ai , bj ∈ Z + 21 , but ai − bj need not be integers; V is genuine precisely when
+ai − bj ∈ / Z.
+    We will compute
+                                                                                               χ
+(3.1.2)             HomCk (e) [V ∗ , χ] = HomCk (e)0 V ∗ /(Ck (e)+ V ∗ ), χ := V ∗ /(Ck (e)+ V ∗
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS                        7
+
+in two steps. In the first step we define a parabolic subalgebra p = m + n such that e ∈ n,
+Ck (e) ∈ p, and in addition n ⊂ Ck (e)+ . By Kostant’s theorem V ∗ / nV ∗ is known, and the
+computation of (3.1.2) reduces to a similar computation in m. This is done in step 2.
+
+3.1.1. Step 1. Let ξ := H(ǫ1 + · · · + ǫp ) = (1, . . . , 1 | 0, . . . , 0). It determines a parabolic
+subalgebra p = m + n ⊂ k where
+                  m = Ck (ξ) ∼
+                             = gl(p) × so(2p),
+                  n = Span{X(ǫi + ǫj ), 1 ≤ i 6= j ≤ p} ⊂ Ck (e)2 + Ck (e)3 .
+Kostant’s theorem on cohomology of finite dimensional representations implies that V ∗ /(nV ∗ )
+is the irreducible m-module generated by its lowest weight. We denote it
+(3.1.3)                         W(−ap , −ap−1 , . . . , −a1 | b1 , . . . , bp ).
+The assumption p even implies V ∗ ∼= V. Since Ck (e)0 + Ck (e)1 ⊂ m and Ck (e)+ ∩ m = Cm (e)+ ,
+it is enough to compute
+                                           χ                    χ
+                          W/(Ck (e)+ ∩ m)W = W/(Cm (e)+ W) .
+
+3.1.2. Step 2. Let q = l + u ⊂ m be the parabolic subalgebra in m determined by h, i.e.
+          l ∼
+            = gl(1) × gl(p − 1) × gl(p − 1) × so(2)
+          u = Span{X(ǫ1 − ǫi ), X(ǫp−1+i ± ǫ2p ), X(ǫp−1+i + ǫp−1+j ), 2 ≤ i 6= j ≤ p},
+with Cm (h) = l, Cm (h)+ = u. Then
+           Cm (e)0 = Span{H(ǫi − ǫp−1+i ), X(ǫi − ǫj )+X(−ǫp−1+i + ǫp−1+j )},
+           Cm (e)+ = Span{X(ǫ1 − ǫi )−X(ǫp−1+i − ǫ2p ), X(ǫ1 − ǫi )−X(ǫp−1+i + ǫ2p )}.
+As in the case of g, Cm (e)0 ∼
+                             = gl(p−1) embeds in gl(p−1)×gl(p−1) ⊂ l as x 7→ (0; x | −xt ; 0).
+
+3.1.3. The module W is a quotient of a (generalized) Verma module M(λ) = U(m) ⊗U (q) Fλ
+with λ the weight of W made dominant for q :
+                             (−a1 ; −ap , . . . , −a2 | −bp−1 , . . . , −b1 ; −bp ).
+The ; denotes the fact that this is a (highest) weight of l ∼
+                                                            = gl(1)×gl(p−1)×gl(p−1)×so(2).
+                            +
+The positive system for △ (l) is the standard one for the Levi component. The nilradical
+decomposes u = Cm (e)+ ⊕ s where s = Span{X(ǫ1 − ǫi ), 2 ≤ i ≤ p} is a representation of
+gl(1) × gl(p − 1) × so(2p). The (generalized) Bernstein-Gelfand-Gelfand resolution is
+(3.1.4)        M                                    M
+ 0 · · · −→             M(w · λ) −→ · · · −→                 M(w · λ) −→ M(λ) −→ W −→ 0,
+            w∈W + , ℓ(w)=k                            w∈W + , ℓ(w)=1
+
+with w · λ := w(λ + ρ(m)) − ρ(m), and w ∈ W + , the W (l)-coset representatives that make
+w · λ dominant for △+ (l). This is a free Cm (e)+ -resolution so we can compute homology by
+8                                     DAN BARBASCH AND WAN-YU TSAI
+
+considering
+                         M                                           M
+(3.1.5) 0 · · · −→                    M(w · λ) −→ · · · −→                     M(w · λ) −→ M(λ) −→ 0,
+                     w∈W + , ℓ(w)=k                           w∈W + , ℓ(w)=1
+                                                               
+where for an m-module X, X denotes X/ (Cm (e)+ )X .
+  As a module for gl(1) × gl(p − 1) × so(2p), s has highest weight (1; 0, . . . , 0, −1 | 0, . . . , 0).
+Thus S m (s) ∼
+             = (m; 0, . . . , 0, −m | 0, . . . , 0; 0).
+  Let µ := (−α1 ; −αp , . . . , −α2 | −βp−1 . . . . , −β1 ; −βp ) be the highest weight of an l-module.
+By the Littlewood-Richardson rule,
+                           X
+(3.1.6)   S m (s) ⊗ Fµ =        W(−α1 + m; −αp − mp , . . . , −α2 − m2 | −βp−1 , . . . , −β1 ; −βp ).
+    The sum in (3.1.6) is taken over the set
+                                        p
+                                        X
+                     {mi | mi ≥ 0,             mi = m, mi ≤ αi−1 − αi , 3 ≤ i ≤ p}
+                                         i=2
+.
+Lemma 3.2. HomCm (e)0 [S m (s) ⊗ Fµ : χ] 6= 0 if and only if
+                       β1 ≥ α2 + χ ≥ β2 ≥ · · · ≥ αp−1 + χ ≥ βp−1 ≥ αp + χ.
+The multiplicity is 1.
+Proof. The multiplicity of χ is nonzero precisely when
+                       −αi − mi + βi−1 = χ for some mi ≥ 0,                2 ≤ i ≤ p.
+The condition 0 ≤ mi ≤ αi−1 − αi implies βi−1 ≤ αi−1 + χ for 3 ≤ i ≤ p.                                 
+Corollary 3.3. HomCk (e) [V, χ] 6= 0 only if
+                     b1 ≥ a2 + χ ≥ b2 ≥ · · · ≥ ap−1 + χ ≥ bp−1 ≥ ap + χ.
+                                                        P
+The multiplicity is ≤ 1, and the action of ad h is −2       ai .
+                                                                1≤i≤p
+
+Proof. The first two statements follow from the surjection
+(3.3.1)                          M(λ) ∼
+                                      = S(s) ⊗C Fλ −→ W −→ 0.
+The action of
+           Pad h is computed from the module W(−a1 +m; −bp−1 , . . . , −b1 | −bp−1 , . . . , −b1 ; −bp )
+with m =      (ai − bi−1 ). The value is
+            2≤i≤p
+                                X                           X                     X
+                     2(−a1 +           −ai + bi−1 ) + 2(             −bj ) = −2           ai .
+                               2≤i≤p                       1≤j≤p−1                1≤i≤p
+
+                                                                                                        
+    REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS                             9
+
+  We will need Lemma 3.4 in order to prove Proposition 3.5.
+  Let g = gl(r, C), V (a) = V (a1 , . . . , ar ) an irreducible finite dimensional representation
+with highest weight (a1 , . . . , ar ) with ai ∈ N. Let s = Cn be the standard representation
+with basis e1 , . . . , er . The Littlewood-Richardson rule implies that
+                                              X
+                               S(s) ⊗ V (a) =    V (a1 + m1 , . . . , ar + mr )
+with multiplicity 1, sum over
+                                        m2 ≤ a1 − a2
+                                              ...
+                                        mr ≤ ar−1 − ar
+We need explicit information about the highest weights that occur in the decomposition. A
+                                                                   ′                    m′          m′
+typical weight of the tensor product will be denoted by em ⊗v(a′ ) with em := e1 1 . . . er r and
+v(a′ ) an eigenvector of V with weight (a′1 , . . . , a′r ). The weight m + a = (m1 + a1 , . . . , mr + ar )
+is spanned by monomials of the form
+                                     ′
+                                   em ⊗ v(a′ )          m′ + a′ = m + a.
+Order the monomials by m′ lexicographically. The lowest term is em ⊗ v(a).
+Lemma 3.4. The highest weight corresponding to V (m + a) has lowest term em ⊗ v(a).
+               ′
+Proof. Let em ⊗ v(a′ ) be a lowest monomial occuring in the highest weight. Since the factor
+occurs, a lowest term must occur. It must be annihilated by the action of all root vectors
+X(ǫi − ǫj ) with i < j. The formula is
+                                             ′           ′             ′
+                                X · em ⊗ v = Xem ⊗ v + em ⊗ Xv.
+The formula is
+                                         ′         m′          m′ +1       m′ −1   ′
+                      X(ǫi − ǫj )em = (m′j )e1 1 . . . ei i . . . ej j . . . em
+                                                                              r .
+                                                                               r
+
+
+Thus each monomial is mapped into a term that is strictly higher (possibly zero) plus the
+        ′
+term em ⊗ Xv which is lexicographically at the same level.
+  Applied to the highest weight expression, this implies that Xv = 0 for any X = X(ǫi − ǫj ).
+Thus the lowest term must be a multiple of the highest weight v(a), which occurs with
+multiplicity one. It follows that m′ = m as well.                                         
+Proposition 3.5. HomCk (e) [V, χ] 6= 0 only if
+                              a1 + χ ≥ b1 ≥ a2 + χ · · · ≥ ap + χ ≥ |bp |.
+The multiplicities are ≤ 1.
+Proof. We need to prove three inequalities:
+                                   a1 + χ ≥ b1 ,             ap + χ ≥ ±bp .
+The module M(w · λ) decomposes according to the Baker–Campbell–Hausdorff formula
+                          M(w · λ) = S(s) ⊗ Fw·λ ⊕ Cm (e)+ U(u) ⊗ Fw·λ ,
+10                                   DAN BARBASCH AND WAN-YU TSAI
+
+and the summands are Cm (e)0 -stable. We say the factors are transverse to each other.
+Suppose b1 < a1 + χ, and w corresponds to the reflection sǫ1 −ǫ2 . Then the complement of
+M(w · λ) contains a Cm (e)+ -component with weight
+           (−a2 + 1 + m′ ; −ap + m′2 , · · · − a3 + m′3 , −a1 + m′2 | −bp−1 , . . . , −b1 ; −bp ),
+satisfying m′ = m′2 + · · · + m′p and −a1 − m′2 = −b1 + χ; similar equalities as in Lemma
+3.2 hold for the other coordinates. The assumption b1 > a1 + χ guarantees that such a
+weight occurs. The vectors are of the form S ⊗ Avw·λ with A in the universal enveloping
+                                                      ′
+algebra of the first factor gl(p − 1), and X ∈ S m (s). The image under the differential is
+ASX(ǫ1 − ǫp )a1 −a2 +1 ⊗ vλ . This is nonzero and in the transverse to Cm (e)+ U(u) ⊗ Fw·λ . The
+proof uses Lemma 3.4.
+  For the other two inequality, the analogous argument applies using the fact that the spaces
+                                     s± = Span{X(ǫp+i ± ǫ2p )}1≤i≤p−1
+are also transverses.                                                                                
+3.5.1. ℓ(w) = 1. To prove that the weights in Proposition 3.5 actually occur, it is enough
+to show that these weights do not occur in the term in the BGG resolution (3.3.1) with
+ℓ(w) = 1. Recall
+                              (p − 1) p − 1 p − 3                  (p − 3)
+               ρ = ρ(m) = (−          ;         ,        ,...,−             | −1, . . . , −(p − 1); 0),
+                                 2         2        2                 2
+(3.5.1)                    (p − 1)             (p − 1)                  (p − 3)
+           λ + ρ = (−a1 −          ; −ap +             , . . . , −a2 −
+                              2                   2                        2
+                 − bp−1 − 1, −bp−2 − 2, . . . , −b1 − (p − 1); −bp )
+  For the case ℓ(w) = 1, there are three elements. We enumerate them as w1 , w2 , w3, with
+w1 = sǫ1 −ǫp , w2 = sǫp+1 −ǫn , w3 = sǫp+1 +ǫn . Then
+                   w1 · λ = (−a2 + 1; −ap , . . . , −a3 , −a1 − 1 | −bp−1 , . . . , −b1 ; −bp ),
+                   w2 · λ = (−a1 ; −ap , . . . , −a2 | −bp + 1, . . . , −b1 ; −bp−1 − 1),
+                   w3 · λ = (−a1 ; −ap , . . . , −a2 | bp + 1, . . . , −b1 ; −bp−1 + 1).
+Lemma 3.6. M(wi · λ) has vectors transforming according to χ of Cm (e) (trivial on Ck (e)+ ),
+only if
+
+            w1 : −a1 − 1 − m2 = −b1 + χ for some m2 ≥ 0, i.e.                       b1 > a1 + χ
+
+            w2 : −ap − mp = −bp + 1 + χ for some mp ≥ 0, i.e.                       bp > ap + χ
+
+            w3 :    −ap − mp = bp + 1 + χ for some mp ≥ 0 i.e.                      −bp > ap + χ.
+                                                                P
+     The multiplicities are 1, and the eigenvalue of ad h is −2                     ai .
+                                                                          1≤i≤p−1
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 11
+
+Proof. As in (3.1.6), the weights in M(w1 · λ), M(w2 · λ) and M(w3 · λ) are of the form
+          (−a2 + 1 + m; −ap − mp , . . . , −a3 − m3 , −a1 − 1 − m2 | −bp−1 , . . . , −b1 ; −bp ),
+               (−a1 + m; −ap − mp , . . . , −a2 − m2 | −bp + 1, · · · − b1 ; −bp−1 − 1),
+                (−a1 + m; −ap − mp , . . . , −a2 − m2 | bp + 1, · · · − b1 ; −bp−1 + 1),
+respectively. The proof is completed as in the case ℓ(w) = 0.                                            
+Theorem 3.7. A representation V (a1 , . . . , ap | b1 , . . . , bp ) has vectors transforming as χ of
+Ck (e) if and only if
+(3.7.1)                                a1 + χ ≥ b1 ≥ · · · ≥ ap + χ ≥ |bp |,
+and the multiplicity is 1. In summary,
+                                   e
+                                                  M
+                              IndK
+                                 C e (e)0 (χ) =         V (a1 , . . . , ap | b1 , . . . , bp ),
+                                    K
+
+satisfying
+                                       a1 + χ ≥ b1 ≥ · · · ≥ ap + χ ≥ |bp |.
+Proof. The proof is straightforward from the BGG resolution (3.3.1), Proposition 3.5, and
+Lemma 3.6.                                                                              
+3.7.1. Theorem 3.7 can be interpreted as computing regular functions on the universal cover
+Oe of O transforming according to χ under Ck (e)0 . We decompose it further:
+                                                          h                  i
+                                                    e         CKe (e)
+(3.7.2)         e     χ        K           χ       K                       χ
+             R(O, Det ) := IndC e (e)0 (Det ) = IndC e (e) IndC e (e)0 (Det ) .
+                                           K                         K              K
+
+The inner induced module splits into
+                                                C (e)
+                                                                      X
+                                            IndCKee (e)0 (Detχ ) =          ψ
+                                                 K
+
+where ψ are the irreducible representations of CKe (e) restricting to Detχ on CKe (e)0 .
+                                e
+3.7.2. We compute R(O, ψ) := IndK               e for χ = −1/2; these are the cases match-
+                                        (ψ) for K
+                                CKe (e)
+ing representations.
+  The formula in Theorem 3.7 specializes to
+                                      M
+                       e Det−1/2 ) =
+                    R(O,                  V (a1 , . . . , ap | b1 , . . . , bp )
+satisfying
+                                  a1 ≥ b1 + 1/2 ≥ · · · ≥ ap ≥ |bp | + 1/2.
+                                                e
+Lemma 3.8. Let νi , 1 ≤ i ≤ 4, be the following K-types parametrized by their highest
+weights:
+                  ν1 = (1/2, . . . , 1/2 | 0, . . . , 0), ν2 = (3/2, 1/2, . . . , 1/2 | 0, . . . , 0),
+                 ν3 = (1, . . . , 1 | 1/2, . . . , 1/2), ν4 = (1, . . . , 1 | 1/2, . . . , 1/2, −1/2).
+12                                       DAN BARBASCH AND WAN-YU TSAI
+
+Let ψi be the restriction of the highest weight of νi to CKe (e). Then
+                                                                           4
+                                                                           X
+                                               C (e)
+                                            IndCKee (e)0 (Det−1/2 ) =             ψi .
+                                                K
+                                                                            i=1
+
+     We write CKe (O) := CKe (e).
+Proposition 3.9. The induced representation (3.7.2) decomposes as
+                                                                     4
+                                                                     X
+                                       e
+                                    IndK
+                                       CKe (O)
+                                              0 (Det
+                                                    −1/2
+                                                         )=                 R(O, ψi ),
+                                                                      i=1
+
+where
+                        e
+                                            M                                                             X
+R(O, ψ1 ) = IndK
+               C e (O) (ψ1 ) =                    V (β1 + 1/2, . . . , βp + 1/2 | δ1 , . . . , δp ),           (βi + δj ) ∈ 2Z,
+                         K
+                        e
+                                            M                                                             X
+R(O, ψ2 ) = IndK
+               C e (O) (ψ2 ) =                    V (β1 + 1/2, . . . , βp + 1/2 | δ1 , . . . , δp ),           (βi + δj ) ∈ 2Z + 1,
+                         K
+
+
+satisfying β1 ≥ δ1 ≥ . . . , ≥ βp ≥ |δp | and βi , δj ∈ Z,
+
+                        e
+                                            M                                                             X
+R(O, ψ3 ) = IndK
+               C e (O) (ψ3 ) =                    V (β1 + 1/2, . . . , βp + 1/2 | δ1 , . . . , δp ),           (βi + δj ) ∈ 2Z,
+                         K
+                        e
+                                            M                                                             X
+R(O, ψ4 ) = IndK
+               C e (O) (ψ4 ) =                    V (β1 + 1/2, . . . , βp + 1/2 | δ1 , . . . , δp ),           (βi + δj ) ∈ 2Z + 1,
+                         K
+
+
+satisfying β1 ≥ δ1 ≥ . . . , ≥ βp ≥ |δp | and βi , δj ∈ Z + 1/2.
+  The analogouse results for the other orbits in case 1 follow by applying the outer automor-
+phisms in (3.1.1)
+3.10. Case 2, 3. It is enough to consider the three nilpotent orbits,
+               O = [3+ 22k 1−,2r− +1 ]I,II               h = H(2, 1, . . . , 1, ±1        1, . . . , 1, 0, 0, . . . , 0),
+                                                                  |       {z     }        | {z } | {z }
+                                                                              k                k               r−
+                       − 2k + −,2r−
+               O = [3 2 1 1             ]                h = H(1, . . . , 1, 0 2, 1, . . . , 1, 0, . . . , 0).
+                                                               | {z }             | {z } | {z }
+                                                                       k                   k           r−
+
+
+3.10.1. O = [3+ 22k 1−,2r− +1 ]I,II . We assume p = k + 1, q = k + 1 + 2r− with r− > 0. Denote
+OI,II = [3+ 22k 1−,2r− +1 ]I,II according to the semisimple elements in the Lie triple hI,II =
+(2, 1, . . . , 1, ±1 1, . . . , 1, 0, 0, . . . , 0). The orbits are conjugate by the outer automorphim
+    |       {z     } | {z } | {z }
+           k                 k               r−
+
+                        ζ : (x1 , . . . , xp | y1 , . . . , yq ) 7→ (x1 , . . . , −xp | y1 , . . . , −yq ).
+We only treat the case O = OI . Similar result holds for Oζ = OII .
+    REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 13
+
+Proposition 3.11. A representation V (a1 , . . . , ap b1 , . . . , bq ) has invariant vectors under
+Ck (e)+ which transform according to Detχ under Ck (e)0 ∼  = gl(k) × so(2r− − 1) if and only if
+bk+2 = · · · = bq = 0 and
+                           a1 + χ ≥ b1 ≥ a2 + χ ≥ · · · ≥ ap + χ ≥ bp ≥ 0,
+and the multiplicity is 1.
+Proof. The representation W(a1 , . . . , ak+1 b1 , . . . bk ; bk+1 , . . . , bq ) has so(2r− + 1)−fixed vec-
+tors only if bk+2 = · · · = bq = 0 by Helgason’s theorem; in that case, the fixed vector is the
+highest weight (bk+1 , 0, . . . , 0). Otherwise the proof is identical to Case 1.                         
+3.11.1. As in section 3.7.2, we compute R(O, ψ) for K    e and χ = −1/2 − r− ; these are the
+cases matching representations. From Proposition 3.11,
+(3.11.1)                                               M
+                               e
+     R(OfI , Det−1/2−r− ) = IndK
+                               C e (e)0 (Det
+                                            −1/2−r−
+                                                    )=   V (a1 , . . . , ap | b1 , . . . , bp , 0, . . . , 0)
+                                       K
+
+satisfying
+                         a1 ≥ b1 + 1/2 + r− ≥ · · · ≥ ap ≥ bp + 1/2 + r− ≥ 0.
+Proposition 3.12. Let
+               ψ1 = (r− + 1/2, . . . , r− + 1/2) | 0, . . . , 0) |CKe (e) ,
+                     ψ2 = (r− + 3/2, r− + 1/2, . . . , r− + 1/2 | 0, . . . , 0) |CKe (e) ,
+  The induced representation (3.11.1) decomposes as
+                            e
+                        IndK
+                           C e (OI )0 (Det
+                                          −1/2−r−
+                                                  ) = R(OI , ψ1 ) + R(OI , ψ2 ),
+                             K
+
+where
+                    e
+                                        M
+R(OI , ψ1 ) = IndK
+                 C e (OI ) (ψ1 ) =            V (β1 + r− + 1/2, . . . , βp + r− + 1/2 | δ1 , . . . , δp , 0, . . . , 0)
+                     K
+                                                                                        X
+                                                                                  with        (βi + δj ) ∈ 2Z,
+                    e
+                                        M
+R(OI , ψ2 ) = IndK
+                 C e (OI ) (ψ2 ) =            V (β1 + r− + 1/2, . . . , βp + r− + 1/2 | δ1 , . . . , δp , 0, . . . , 0)
+                     K
+                                                                                    X
+                                                                              with      (βi + δj ) ∈ 2Z + 1,
+satisfying β1 ≥ δ1 ≥ . . . , ≥ βp ≥ |δp | and βi , δj ∈ Z.
+  The corresponding results for R(OII , ψ ζ ) follow by applying the automorphism ζ.
+3.12.1. O = [3+ 22k 1− 1+,2r+ ]. We assume p = k + 1 + r+ , q = k + 1 with r+ > 0 A represen-
+tative of the orbit is
+                                                        X
+                   e = X(ǫ1 − ǫp+q ) + X(ǫ1 + ǫp+q ) +        X(ǫj + ǫp+j−1),
+                                                                     2≤j≤k+1
+
+                    h = (2, 1, . . . , 1, 0, . . . , 0   1, . . . , 1, 0).
+                            | {z } | {z }                | {z }
+                                   k           r+            k
+14                                  DAN BARBASCH AND WAN-YU TSAI
+
+Proposition 3.13. A representation V (a1 , . . . , ap b1 , . . . , bq ) has invariant vectors under
+Ck (e)+ transforming according to Detχ under Ck (e)0 ∼= gl(k) × so(2r+ ) if and only if ak+2 =
+· · · = ap = 0 and
+                      a1 + χ ≥ b1 ≥ a2 + χ ≥ b2 ≥ · · · ≥ aq + χ ≥ |bq |
+Proof. The proof follows Case 1. The fact that ak+2 = · · · = ap = 0 follows from the
+requirement that the character be trivial on the so(2r+ )-factor.                  
+3.13.1. As before, χ = r+ − 1/2 is the case corresponding to representations. Proposition
+3.13 specializes to
+                                                       M
+(3.13.1) R(O, e Detr+ −1/2 ) = IndKe 0 (Detr+ −1/2 ) =   V (a1 , . . . , aq , 0, . . . , 0 | b1 , . . . , bp )
+                                  C e (e) K
+
+satisfying
+                          a1 + r+ − 1/2 ≥ b1 ≥ · · · ≥ aq + r+ − 1/2 ≥ |bq |.
+Proposition 3.14. Let
+                             φ1 = (0, . . . , 0 | r+ − 1/2, . . . , r+ − 1/2) |CKe (e) ,
+                          φ2 = (0, . . . , 0 | r+ − 1/2, . . . , −(r+ − 1/2)) |CKe (e)
+Then the induced representation (3.13.1) decomposes as
+                              e
+                         IndK
+                            C e (O)0 (Det
+                                         r+ −1/2
+                                                 ) = R(O, φ1 ) + R(O, φ2 ),
+                               K
+
+where
+                   e
+                                    M                                                                 X
+R(O, φ1 ) = IndK
+               C e (O) (φ1 ) =           V (β1 , . . . , βq , 0, . . . , 0 | δ1 , . . . , δq ) with       (βi + δj ) ∈ 2Z,
+                    K
+                   e
+                                    M                                                                 X
+R(O, φ2 ) = IndK
+               C e (O) (φ2 ) =           V (β1 , . . . , βq , 0, . . . , 0 | δ1 , . . . , δq ) with       (βi + δj ) ∈ 2Z + 1,
+                    K
+
+
+satisfying β1 + r+ − 1/2 ≥ δ1 ≥ . . . , ≥ βq + r+ − 1/2 ≥ |δq | and βi ∈ Z, δj ∈ Z + 1/2.
+
+
+
+ ]
+Spin(2p + 1, 2q − 1). These are Cases 4–8. The two orbits in Case 4 are obtained from
+Case 7 and Case 8 by putting r+ = 1 and r− = 1, and they are related by the automorphisms
+in (3.1.1). So we deal with Cases 5, 6 and Cases 7, 8.
+
+3.15. Case 5, 6. The orbit is O = [3+ 22k 1+,2r+ +1 ] and 2p+1 = 2k +3+2r+, 2q −1 = 2k +1.
+The fundamental Cartan subalgebra has coordinates
+                            (x1 , . . . , xk+1 , xk+2 , . . . , xk+1+r+      y1 , . . . yk ; z)
+with Cartan involution
+                                   θ(xi ) = xi , θ(yj ) = yj , θ(z) = −z.
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 15
+
+  Representatives for e and h are
+                          X
+         e = X(ǫ1 )n +         X(ǫi + ǫp+i−1 )
+                               2≤i≤k+1
+                                 X
+             h = H(2ǫ1 ) +               H(ǫi + ǫp+i−1 ) = (2, 1, . . . , 1, 0, . . . , 0          1, . . . , 1; 0)
+                                                               | {z } | {z }                       | {z }
+                               2≤i≤k+1                                    k              r+            k
+
+where the last coordinate after the ”; ” is the z. Then
+            Ck (h)0 ∼
+                    =gl(1) × gl(k) × so(2r+ + 1) × gl(k),
+               Ck (h)1 =Span{X(ǫ1 − ǫi ), X(ǫi )c , X(ǫp+i−1 )c , 2 ≤ i ≤ k + 1,
+(3.15.1)                 X(ǫj ± ǫl ), 1 ≤ j ≤ k + 1 < l ≤ p},
+               Ck (h)2 =Span{X(ǫ1 )c , X(ǫi + ǫj ), X(ǫp+i−1 + ǫp+j−1), 2 ≤ i < j ≤ k + 1},
+               Ck (h)3 =Span{X(ǫ1 + ǫi ), 2 ≤ i ≤ k + 1}.
+Similarly
+            Ck (e)0 ∼
+                    =gl(1) × gl(k) × so(2r+ + 1)
+            Ck (e)1 =Span{X(ǫ1 − ǫi ) + X(ǫp+i−1 )c , 2 ≤ i ≤ k + 1,
+(3.15.2)             X(ǫi ± ǫl ), 2 ≤ i ≤ k + 1 < l ≤ p, X(ǫp−1+j )c 2 ≤ i ≤ k + 1, 1 ≤ j ≤ k},
+            Ck (e)2 =Ck (h)2
+            Ck (e)3 =Ck (h)3 .
+The gl(k) embeds in gl(k) × gl(k) as before x 7→ (x, −xt ).
+Proposition 3.16. A representation V (a1 , . . . , ap b1 , . . . , bq−1 ) has vectors invariant for
+Ck (e)+ which transform according to Detχ under Ck (e)0 ∼ = gl(1) × gl(k) × so(2r+ + 1) if and
+only if ak+2 = · · · = ap = 0, and
+(3.16.1)                    a1 + χ ≥ b1 ≥ · · · ≥ ak + χ ≥ bk ≥ ak+1 + χ.
+Proof. Step 1. Let p = m + n ⊂ k be the parabolic subalgebra determined by
+                                    ξ = (1, . . . , 1, 0, . . . , 0   0, . . . , 0; 0).
+                                         | {z } | {z }                | {z }
+                                              k+1           r+            k
+
+Then n ⊂ Ck (e)+ , and we can apply Kostant’s theorem to reduce the computation to
+m∼= gl(k + 1) × so(2r+ + 1) × gl(k). The n-coinvariants are the module
+                               W(−a1 , . . . , −ak+1 ; ak+2 , . . . ap        b1 , . . . , bk ).
+We have assumed k even for simplicity. By Helgason’s theorem, ak+2 = · · · = ap = 0. We
+need to compute the multiplicity of a character χ trivial on the nilradical of Cm (e).
+Step 2. Let q = l + u ⊂ m be the parabolic subalgebra determined by the (restriction of)
+h:
+                        l∼
+                         = gl(1) × gl(k) × gl(k) × so(2k + 1).
+16                                DAN BARBASCH AND WAN-YU TSAI
+
+The proof proceeds as in Case 1 and Cases 2,3 ; see also Cases 7, 8.                                               
+   When r+ > 0, ai ∈ Z and bj ∈ Z + 1/2. When r+ = 0, AKe (O) has two components. The
+character χ is not determined by its differntial; there are two possibilities, corresponding to
+ai ∈ Z, bj ∈ Z + 1/2 and ai ∈ Z + 1/2, bj ∈ Z.
+
+3.17. Case 7, 8. The fundamental Cartan subalgebra has coordinates
+                            (x1 , . . . , xk+1   y1 , . . . yk , yk+1, . . . , yk+r− , z)
+with Cartan involution
+                                 θ(xi ) = xi , θ(yj ) = yj , θ(z) = −z.
+We describe the centralizer for [3+ 22k 1+ 1−,2r− ] with r− ≥ 2 in k in detail. Representatives
+for e and h from the previous section are
+                        X
+          e = X(ǫ1 ) +        X(ǫi + ǫp+i−1 )
+                         2≤i≤k+1
+                              X
+            h = H(2ǫ1 ) +             H(ǫi + ǫp+i−1 ) = (2, 1, . . . , 1          1, . . . , 1, 0, . . . , 0; 0)
+                                                            | {z }                | {z } | {z }
+                            2≤i≤k+1                                     k              k           r−
+
+where the last coordinate after the ”; ” is the z. Then
+            Ck (h)0 ∼
+                    =gl(1) × gl(k) × gl(k) × so(2r− + 1),
+              Ck (h)1 =Span{X(ǫ1 − ǫi ), X(ǫi ), X(ǫp+i−1 ), 2 ≤ i ≤ k + 1,
+(3.17.1)               X(ǫp+j ± ǫp+l ), 1 ≤ j ≤ k < l ≤ q},
+              Ck (h)2 =Span{X(ǫ1 ), X(ǫi + ǫj ), X(ǫp+i−1 + ǫp+j−1), 2 ≤ i < j ≤ k + 1},
+              Ck (h)3 =Span{X(ǫ1 + ǫi ), 2 ≤ i ≤ k + 1}.
+Similarly
+                    Ck (e)0 ∼
+                            =gl(1) × gl(k) × so(2r− )
+                    Ck (e)1 =Span{X(ǫ1 − ǫi ) + X(ǫp+i−1 ± ǫp+k+1), 2 ≤ i ≤ k + 1,
+(3.17.2)                       X(ǫp+j ± ǫp+k+l ), 1 ≤ j ≤ k, k + 2 ≤ l ≤ q − 1},
+                    Ck (e)2 =Ck (h)2
+                    Ck (e)3 =Ck (h)3 .
+The gl(k) ⊂ Ck (e)0 is embedded in gl(k) × gl(k) ⊂ Ck (h)0 as before, x 7→ (x, −xt ), and
+so(2r− ) ⊂ so(2r− + 1) in the standard way.
+Proposition 3.18. A representation V (a1 , . . . , ap b1 , . . . , bq−1 ) has vectors invariant under
+Ck (e)+ and transforming according to Detχ under Ck (e)0 ∼         = gl(k) × so(2r− ) if and only if
+bk+2 = · · · = bq−1 = 0, and
+(3.18.1)              a1 + χ ≥ b1 ≥ a2 + χ ≥ · · · ≥ bk ≥ ak+1 + χ ≥ bk+1 .
+    REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 17
+
+Proof. The proof is essentially the same as for the other cases.
+Step 1. Let p = m + n ⊂ k be the parabolic subalgebra determined by
+                                      ξ = (1, . . . , 1     0, . . . , 0; 0).
+                                           | {z }
+                                                 k+1
+
+Then n ⊂ Ck (e)+ , and we can apply Kostant’s theorem to reduce the computation to
+m∼ = gl(k+1)×so(2k+1+2r− ). Let W(a1 , . . . , ak+1 b1 , . . . bk , bk+1 , . . . , bk+r− ) (q−1 = k+r− )
+be an irreducible representation of m parametrized by its highest weight, and χ be a character
+of Cm (e) trivial on the nilradical. We will compute
+                                                                                    χ
+                           W(a1 , . . . ak+1 b1 , . . . , bk , bk+1 , . . . , bk+r− ) .
+Step 2. Let q = l + u ⊂ m be the parabolic subalgebra determined by the (restriction of)
+h:
+                          l∼
+                           = gl(1) × gl(k) × gl(k) × so(2r− + 1).
+Then Cm (e)0 ∼
+             = gl(k) × so(2r− ), Cm (e)2 = Cm (h)2 and Cm (e)3 = Cm (h)3 .
+  Cm (e)1 ⊂ Cm (h)1 has complements s0 , s± spanned by
+                             s = Span{X(ǫ1 − ǫi ), 2 ≤ i ≤ k + 1},
+                             s− = Span{X(ǫp+i − ǫp+q−1 ), 1 ≤ i ≤ k}
+                             s+ = Span{X(ǫp+i + ǫp+q−1 ), 1 ≤ i ≤ k}.
+
+Then S m (s) = V (m; 0, . . . , 0, −m 0, . . . 0; 0, 0, . . . , 0) as before. The (generalized) Bernstein-
+                                      | {z } | {z }
+                                             k            r− −1
+Gelfand-Gelfand resolution, using q, is
+(3.18.2)      M                                               M
+ 0 · · · −→           M(w · λ) −→ · · · −→                                M(w · λ) −→ M(λ) −→ W −→ 0,
+            w∈W + , ℓ(w)=k                              w∈W + , ℓ(w)=1
+
+with w · λ := w(λ + ρ(m)) − ρ(m), and w ∈ W + , the W (l)-coset representatives that make
+w · λ dominant for △+ (l). This is a free Cm (e)+ -resolution so we can compute cohomology
+by considering
+(3.18.3)          M                                   M
+     0 · · · −→           M(w · λ) −→ · · · −→                 M(w · λ) −→ M(λ) −→ 0,
+                w∈W + , ℓ(w)=k                               w∈W + , ℓ(w)=1
+                                                 
+where for an m-module X, X denotes X/ (Cm (e)+ )X . The weight λ is
+                       (−a1 , −ak+1 , . . . , −ak      − bk , . . . , −b1 , bk+1 , . . . bq−1 ).
+The fact that bk+2 = · · · = bq−1 = 0 follows from Helgason’s theorem for the pair so(2r− ) ⊂
+so(2r− + 1). The fixed vector is the highest weight.
+                                                                                            
+18                                  DAN BARBASCH AND WAN-YU TSAI
+
+3.18.1. The χ relevant to matching with representations are
+                            Case 4,                                 χ = −1/2,
+                            Case 5, 6 with r+ = 0,                  χ = 1/2,
+                            Case 5, 6 with r+ > 0,                  χ = r+ + 1/2
+                            Case 7, 8,                              χ = −r− + 1/2.
+
+Proposition 3.19. The K− e structure in Cases 4-8 is as follows.
+    Case 4: O = [3+ 22k 1− 1+,2]. In this case AKe (O) ∼
+                                                       = Z2 . Let
+                              ψ1 = (1/2, . . . , 1/2 | 0, . . . , 0)|CKe (e) ,
+                              ψ2 = (3/2, 1/2, . . . , 1/2 | 0, . . . , 0)|CKe (e) .
+           Then
+
+                                 e Det1/2 ) = R(O, ψ1 ) + R(O, ψ2 ),
+                               R(O,
+           with
+                               e
+                                                   M
+            R(O, ψ1 ) = IndK
+                           C e (O) (ψ1 ) =              V (β1 + 1/2, . . . , βp + 1/2 | δ1 , . . . , δp )
+                               K
+                                                                               X
+                                                                       with        (βi + δj ) ∈ 2Z,
+                               e
+                                                   M
+            R(O, ψ2 ) = IndK
+                           C e (O) (ψ2 ) =              V (β1 + 1/2, . . . , βp + 1/2 | δ1 , . . . , δp )
+                               K
+                                                                          X
+                                                                 with          (βi + δj ) ∈ 2Z + 1,
+        satisfying β1 ≥ δ1 ≥ . . . , ≥ βp ≥ δp ≥ 0 and βi , δj ∈ Z.
+      The automorphism η in (3.1.1) relates the result for R(O, ψ), with Oη = [3− 22k 1+ 1−,2 ]
+      and the corresponding ψ η .
+     Case 5, 6: O = [3+ 22k 1+ ]. In this case A e (O) ∼
+                                                       = Z2 . Let
+                                                             K
+
+                                   ψ1 = (0, . . . , 0 | 1/2, . . . , 1/2)|CKe (e) ,
+(3.19.1)
+                                   ψ2 = (1/2, . . . , 1/2 | 1, . . . , 1)|CKe (e) .
+
+           Then
+
+                               R( e
+                                 O, Det1/2 ) = R(O, ψ1 ) + R(O, ψ2 )
+        with
+                       e
+                                         M
+     R(O, ψ1 ) = IndK
+                    C e (O) (ψ1 ) =            V (β1 , . . . , βp   δ1 , . . . , δp−1 ) βi ∈ Z, δj ∈ Z + 1/2,
+                        K
+                       e
+                                         M
+     R(O, ψ2 ) = IndK
+                    C e (O) (ψ2 ) =            V (β1 , . . . , βp   δ1 , . . . , δp−1 ) βi ∈ Z + 1/2, δj ∈ Z,
+                        K
+
+        satisfying β1 + 1/2 ≥ δ1 ≥ . . . , ≥ βp−1 + 1/2 ≥ δp−1 ≥ βp + 1/2.
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 19
+
+     Case 5, 6: O = [3+ 22k 1+,2r+ +1 ] with r+ > 0. In this case AKe (O) ∼
+                                                                          = 1. Then
+                     e Detr+ +1/2 ) = R(O, Detr+ +1/2 )
+                   R(O,
+                                      M
+                                    =    V (β1 , . . . , βq , 0, . . . , 0 | δ1 , . . . , δq−1 )
+       satisfying β1 +r+ +1/2 ≥ δ1 ≥ . . . , ≥ βq−1 +1/2 ≥ δq−1 ≥ βq and βi ∈ Z, δj ∈ Z+1/2.
+     Case 7, 8: O = [3+ 22k 1+ 1−,2r− ]. Let
+                 ψ1 = (r− − 1/2, . . . , r− − 1/2 | 0, . . . , 0)|CKe (e) ,
+                       ψ2 = (r− + 1/2, r− − 1/2, . . . , r− − 1/2 | 0, . . . , 0)|CKe (e) .
+
+          In this case AKe (O) ∼
+                               = Z2 . Then
+
+                              R( e
+                                O, Det−r− +1/2 ) = R(O, ψ1 ) + R(O, ψ2 ),
+          with
+                   e
+                                      M
+ R(O, ψ1 ) = IndK
+                C e (O) (ψ1 ) =            V (β1 + r− − 1/2, . . . , βp + r− − 1/2 | δ1 , . . . , δp , 0, . . . , 0)
+                    K
+                                                                                     X
+                                                                               with        (βi + δj ) ∈ 2Z,
+                   e
+                                      M
+ R(O, ψ2 ) = IndK
+                C e (O) (ψ2 ) =            V (β1 + r− − 1/2, . . . , βp + r− − 1/2 | δ1 , . . . , δp , 0, . . . , 0)
+                    K
+                                                                                 X
+                                                                           with      (βi + δj ) ∈ 2Z + 1,
+       satisfying β1 ≥ δ1 ≥ · · · ≥ βp ≥ δp ≥ 0 and βi , δj ∈ Z.
+Proof. The calculations of R(O, e Detχ ) are essentially the same for all Cases 4, 5,6 and 7,8.
+The calculations of the R(O, ψ) are different. In Cases 4 and 7,8 the disconnectedness of
+the centralizer is already present for K = SO(2p + 1, 2q − 1). Precisely, AKe (O) = AK (O) is
+nontrivial. In Cases 5,6 with r− = 0, AKe (O) 6= AK (O). Finally in Cases 5,6 with r− > 0,
+AKe (O) = 1, and there is nothing further to prove.
+  For R( e
+        O, Detχ ) in Cases 5,6, we give details for O = [3+ 22k 1+ ]. Then
+                                           X
+                           e = X(ǫ1 )n +          X(ǫj + ǫp+j−1),
+                                                    2≤j≤k+1
+
+                                  h = (2, 1, . . . , 1   1, . . . , 1 ; 0).
+                                          | {z }         | {z }
+                                                k             k
+
+The centralizers Ck (h) and Ck (e) are as in (3.17.1) and (3.17.2) with r− = 0.
+                                                   e
+   Let V (a1 , . . . , ak+1 b1 , . . . , bk ) be a K-type. Then Steps 1 and 2 imply that V has a
+Ck (e) -fixed vector transforming according to Detχ if and only if
+      +
+
+                                     a1 ≥ b1 + χ ≥ . . . bk + χ ≥ ak+1 .
+            e
+The genuine K-types must satisfy ai ∈ Z, bj ∈ Z+ 12 or ai ∈ Z+ 21 , bj ∈ Z and χ a half-integer.
+The case χ = −1/2 is relevant to the representations.
+20                                DAN BARBASCH AND WAN-YU TSAI
+
+  The element (−I, −I) acts by −1 on the representation. The two elements (I, −I) and
+(−I, I) therefore act by opposite signs. Then
+                                 R( e
+                                   O, Detχ ) = R(O, ψ1 ) + R(O, ψ2 ),
+where
+                                 ψ1 = (0, . . . , 0 | 1/2, . . . , 1/2)|CKe (e) ,
+                                 ψ2 = (1/2, . . . , 1/2 | 1, . . . , 1)|CKe (e) ,
+where ψ1 , ψ2 are again the corresponding eK-types restricting to CKe (e). This coincides with
+the result in the statement if replacing + by −.
+  For Cases 4 and 7,8 we give details for R(O, e Detχ ) with O = [3+ 22k 1− 1+,2 ] in Case 4.
+Other cases are similar. The component group satisfies AKe (O) = AK (O) ∼ = Z2 . We use the
+realization
+                                                          X
+                  e =X(ǫ1 − ǫp+k+1 ) + X(ǫ1 + ǫp+k+1 ) +       X(ǫi + ǫp+i−1 )
+                                                                       2≤i≤k+1
+(3.19.2)                              X
+                    h =2H(ǫ1 ) +              H(ǫi + ǫp−1+i ) = (2, 1, . . . , 1    1, . . . , 1, 0; 0).
+                                                                    | {z }          | {z }
+                                    2≤i≤k+1                                   k         k
+
+
+                      Ck (h)0 ∼
+                              = gl(1) × gl(k) × gl(k) × so(3),
+                      Ck (h)1 = Span{X(ǫ1 − ǫi ), X(ǫp+i−1 ± ǫp+k+1 ), 2 ≤ i ≤ k + 1,
+                             X(ǫi )c , X(ǫp+i−1 )c , 2 ≤ i ≤ k + 1},
+(3.19.3)
+                      Ck (h)2 = Span{X(ǫ1 )c , X(ǫi + ǫj ), 2 ≤ i < j ≤ k + 1,
+                             X(ǫp+i−1 + ǫp+j−1 ), 2 ≤ i < j ≤ k + 1},
+                      Ck (h)3 = Span{X(ǫ1 + ǫi ), 2 ≤ i ≤ k + 1}.
+Similarly
+                     Ck (e)0 ∼
+                             = gl(1) × gl(k) × so(2),
+                     Ck (e)1 = Span{X(ǫ1 − ǫi ) + X(ǫp+i−1 ± ǫp+k+1), 2 ≤ i ≤ k + 1,
+(3.19.4)                    X(ǫi )c , X(ǫp+i−1 )c , 2 ≤ i ≤ k + 1},
+                     Ck (e)2 = Ck (h)2 ,
+                     Ck (e)3 = Ck (h)3 .
+The gl(k) ⊂ Ck (e)0 is embedded in gl(k) × gl(k) ⊂ Ck (h)0 as before, x 7→ (x, −xt ).
+  The element eπiH(ǫ1 ±ǫ6 ) represents the nontrivial element in the component group. The
+vector in V (a1 , . . . , ak+1 b1 , . . . bk , bk+1 ) which is Ck (e)+ -invariant and transforms according
+to Detχ , has weight
+                            X              X
+       (−a1 + kχ −               ai +             bj , −b2 + χ, . . . , −bk + χ − b1 , . . . , −bk , bk+1 ).
+                       2≤i≤k+1        1≤j≤k
+    REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 21
+
+The nontrivial element of AKe (O) acts by
+                                                P                  P
+                                            eπi(    1≤i≤k+1 ai +   1≤j≤k+1 bj +kχ)   ,
+and has different values according to the parity of the sum in the exponent. This accounts
+for the decomposition
+                               e Detχ ) = R(O, ψ1 ) + R(O, ψ2 ).
+                            R(O,
+                                                                                        
+
+                                               4. Representations
+   We will obtain representations associated to the various O by restricting the representa-
+                              e ′ = Spin(p′ ) × Spin(q ′ )) constructed in [LS]. They are unitary,
+tions of (g′ = so(p′ , q ′ ), K
+associated to the orbit O′ = [22k+2 12n−4k−3 ], and have infinitesimal character
+                                λ′ = (n − k − 1 − 1/2, . . . , 1/2; k + 1, . . . , 1) .
+                e ′ -spectrum from [LS]. Let f
+We recall their K                                 ] ′ , q ′ ) be such that p′ is odd and q ′
+                                             G′ = Spin(p
+even.
+4.0.1. p′ − 1 = q ′ . There are four representations
+                                                                          
+                       λ1 , . . . , λq′/2   λ1 + 1/2, . . . , λq′ /2 + 1/2 ,              λi ∈ Z,
+                                                                            
+                       λ1 , . . . , λq′/2   λ1 + 1/2, . . . , −λq′ /2 − 1/2 ,             λi ∈ Z,
+                                                                          
+                       λ1 , . . . , λq′/2   λ1 + 1/2, . . . , λq′ /2 + 1/2 ,              λi ∈ Z + 1/2,
+                                                                            
+                       λ1 , . . . , λq′/2   λ1 + 1/2, . . . , −λq′ /2 − 1/2 ,             λi ∈ Z + 1/2.
+4.0.2. p′ − 1 > q ′ . There are two representations,
+                                                                                                 
+                                                             p′ − q ′                    p′ − q ′
+                     λ1 , . . . , λq′ /2 , 0, . . . , 0 λ1 +          , . . . , λq′ /2 +            ,
+                                                                2                           2
+                                                                                                     
+                                                             p′ − q ′                      p′ − q ′
+                     λ1 , . . . , λq′ /2 , 0, . . . , 0 λ1 +          , . . . , −λq′ /2 −           ) ,
+                                                                2                             2
+4.0.3. p′ − 1 < q ′ . One representation,
+                                                                                                          
+                       q ′ − p′                        q ′ − p′
+                λ1 +            , . . . , λ(p′ −1)/2 +                  λ1 , . . . , λ(p′ −1)/2 , 0, . . . , 0 .
+                           2                               2
+                                                                            e
+Theorem 4.1. The representations attached to O have the following K-structure.
+   Case 1. G f0 = Spin(2p,
+                       g        2p), 2p = 2k + 2, (r+ = 0) :
+                                                                           ]
+        There are eight representations obtained by restriction from Spin(2p      + 1, 2p), with
+      e
+     K-structure:
+                                                               X
+         π3 :(δ1 , . . . , δp β1 + 1/2, . . . , βp + 1/2) with   (δi + βj ) ∈ 2Z,
+                                                               X
+         π4 :(δ1 , . . . , δp β1 + 1/2, . . . , βp + 1/2) with   (δi + βj ) ∈ 2Z + 1,
+22                                 DAN BARBASCH AND WAN-YU TSAI
+
+     satisfying β1 ≥ δ1 ≥ · · · ≥ βp ≥ |δp |, βi , δj ∈ Z;
+                                                                            X
+        τ3 :(δ1 , . . . , δp    β1 + 1/2, . . . , −βp − 1/2)         with       (δi + βj ) ∈ 2Z + 1,
+                                                                            X
+        τ4 :(δ1 , . . . , δp    β1 + 1/2, . . . , −βp − 1/2)         with       (δi + βj ) ∈ 2Z,
+     satisfying β1 ≥ δ1 ≥ · · · ≥ βp ≥ |δp |, βi , δj ∈ Z;
+                                                                            X
+         σ1 :(δ1 , . . . , δp    β1 + 1/2, . . . , βp + 1/2)         with       (δi + βj ) ∈ 2Z,
+                                                                            X
+         σ2 :(δ1 , . . . , δp    β1 + 1/2, . . . , βp + 1/2)         with       (δi + βj ) ∈ 2Z + 1,
+     satisfying β1 ≥ δ1 ≥ · · · ≥ βp ≥ |δp |, βi , δj ∈ Z + 1/2;
+                                                                            X
+        ξ1 :(δ1 , . . . , δp    β1 + 1/2, . . . , −βp − 1/2)         with       (δi + βj ) ∈ 2Z + 1,
+                                                                            X
+        ξ2 :(δ1 , . . . , δp    β1 + 1/2, . . . , −βp − 1/2)         with       (δi + βj ) ∈ 2Z,
+     satisfying β1 ≥ δ1 ≥ · · · ≥ βp ≥ |δp |, βi , δj ∈ Z + 1/2.
+       Another eight representations are obtained by restriction from Spin(2p,   ]      2p + 1),
+           e
+     with K-structure:
+                                                                 X
+          π1 :(β1 + 1/2, . . . , βp + 1/2 δ1 , . . . , δp ) with   (δi + βj ) ∈ 2Z,
+                                                                 X
+          π2 :(β1 + 1/2, . . . , βp + 1/2 δ1 , . . . , δp ) with   (δi + βj ) ∈ 2Z + 1,
+     satisfying β1 ≥ δ1 ≥ · · · ≥ βp ≥ |δp |, βi , δj ∈ Z;
+                                                                            X
+        τ1 :(β1 + 1/2, . . . , −βp − 1/2         δ1 , . . . , δp )   with       (δi + βj ) ∈ 2Z + 1,
+                                                                            X
+        τ2 :(β1 + 1/2, . . . , −βp − 1/2         δ1 , . . . , δp )   with       (δi + βj ) ∈ 2Z,
+     satisfying β1 ≥ δ1 ≥ · · · ≥ βp ≥ |δp |, βi , δj ∈ Z;
+                                                                            X
+         σ3 :(β1 + 1/2, . . . , βp + 1/2        δ1 , . . . , δp )    with       (δi + βj ) ∈ 2Z,
+                                                                            X
+         σ4 :(β1 + 1/2, . . . , βp + 1/2        δ1 , . . . , δp )    with       (δi + βj ) ∈ 2Z + 1,
+     satisfying β1 ≥ δ1 ≥ · · · ≥ βp ≥ |δp |, βi , δj ∈ Z + 1/2;
+                                                                            X
+        ξ3 :(β1 + 1/2, . . . , −βp − 1/2         δ1 , . . . , δp )   with       (δi + βj ) ∈ 2Z + 1,
+                                                                            X
+        ξ4 :(β1 + 1/2, . . . , −βp − 1/2         δ1 , . . . , δp )   with       (δi + βj ) ∈ 2Z,
+     satisfying β1 ≥ δ1 ≥ · · · ≥ βp ≥ |δp |, βi , δj ∈ Z + 1/2.
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 23
+
+          The representations with the same subscripts have the same central character.
+
+     Case 2. G        f0 = g    Spin(2p, 2q), 2p = 2k + 2 + 2r+ , 2q = 2k + 2, (r+ = p − q > 0) :
+             (Case 3 is corresponding to Case 2 with + replaced by −.)
+             There are four representations obtained by restriction from Spin(2p   ]       + 1, 2q), with
+          e
+        K-structure:
+                                                                                   X
+π1 : (δ1 , . . . , δq , 0, . . . , 0 β1 + r+ + 1/2, . . . , βq + r+ + 1/2)   with     (δi + βj ) ∈ 2Z,
+                                                                                   X
+π2 : (δ1 , . . . , δq , 0, . . . , 0 β1 + r+ + 1/2, . . . , βq + r+ + 1/2)   with     (δi + βj ) ∈ 2Z + 1,
+                                                                                  X
+σ1 : δ1 , . . . , δq , 0, . . . , 0 β1 + r+ + 1/2, . . . , −(βq + r+ + 1/2) with      (δi + βj ) ∈ 2Z + 1,
+                                                                                  X
+σ2 : δ1 , . . . , δq , 0, . . . , 0 β1 + r+ + 1/2, . . . , −(βq + r+ + 1/2) with      (δi + βj ) ∈ 2Z,
+
+        satisfying β1 ≥ δ1 ≥ β1 ≥ · · · ≥ βq ≥ δq ≥ 0, βi , δj ∈ Z.
+          There are two representations obtained by restriction from Spin(2p,         ]        2q + 1), with
+        e
+        K-structure:
+                                                                         X
+             τ1 : (β1 , . . . , βq , 0, . . . , 0 δ1 , . . . , δq ) with   (βi + δj ) ∈ 2Z,
+                                                                         X
+             τ2 : (β1 , . . . , βq , 0, . . . , 0 δ1 , . . . , δq ) with   (βi + δj ) ∈ 2Z + 1,
+
+        satisfying β1 + r+ − 1/2 ≥ δ1 ≥ · · · ≥ βq + r+ − 1/2 ≥ |δq | , βi ∈ Z, δj ∈ Z + 1/2.
+
+         The representations πi , σi , τi have the same central character for i = 1, 2.
+             f0 = Spin(2p
+     Case 4. G      g       + 1, 2p + 1), 2p + 1 = 2k + 1, (r+ = 1 or r− = 1) :
+         There is one representation (which may decompose further) obtained by restriction
+           ]
+      from Spin(2p                         e
+                    + 2, 2p + 1), with K-structure
+
+                              π1 : (δ1 , . . . , δp   β1 + 1/2, . . . , βp + 1/2)
+
+        satisfying β1 ≥ δ1 ≥ · · · ≥ βp ≥ δp ≥ 0, and βi , δj ∈ Z.
+
+           There is another representation (which may decompose further) obtained by restric-
+        tion from ]                           e
+                   Spin(2p + 1, 2p + 2), with K-structure
+
+                              π2 :(β1 + 1/2, . . . , βp + 1/2       δ1 , . . . , δp )
+
+      satisfying β1 ≥ δ1 ≥ · · · ≥ βp ≥ δp ≥ 0, and βi , δj ∈ Z. The representations π1 and
+      π2 have different central characters.
+     Case 5. Gf0 = gSpin(2p + 1, 2q − 1), 2p + 1 = 2k + 3 + 2r+ , 2q − 1 = 2k + 1, (r+ = p − q) :
+      (Case 6 is corresponding to Case 5 with + replaced by −.)
+24                                    DAN BARBASCH AND WAN-YU TSAI
+
+                                                                                   ]
+           When r+ = 0, there are two representations obtained by restriction from Spin(2p +
+        1, 2p), with K-structure:
+
+                   π1 : (β1 , . . . , βp      δ1 , . . . , δp−1 )    with βi ∈ Z, δj ∈ Z + 1/2
+                   π2 : (β1 , . . . , βp      δ1 , . . . , δp−1 )    with βi ∈ Z + 1/2, δj ∈ Z,
+
+        satisfying β1 + 1/2 ≥ δ1 ≥ · · · ≥ βp−1 + 1/2 ≥ δp−1 ≥ βp + 1/2. The representations
+        π1 and π2 have different central characters.
+
+                                                                               ]
+           When r+ > 0, there is a representation obtained by restriction from Spin(2p +
+        1, 2q), with K-structure:
+
+                                   π : (β1 , . . . , βq , 0, . . . , 0   δ1 , . . . , δq−1 )
+                                                          | {z }
+                                                             p−q
+
+
+           satisfying β1 + r+ + 1/2 ≥ δ1 ≥ · · · ≥ βq−1 + r+ + 1/2 ≥ δq−1 ≥ βq + r+ + 1/2, and
+        βi ∈ Z, δj ∈ Z + 1/2.
+             f0 = Spin(2p
+     Case 7. G      g       + 1, 2q − 1), 2p + 1 = 2k + 1 + 2r+ , 2q − 1 = 2k + 3, (r+ = p − q + 2):
+      (Case 8 is corresponding to Case 7 with + replaced by −.)
+         There is one representation (which may decompose further) obtained by restriction
+           ]
+      from Spin(2p                     e
+                    + 2, 2q − 1), with K-structure
+
+                π :(δ1 , . . . , δq−1 , 0, . . . , 0    β1 + r+ − 1/2, . . . , βq−1 + r+ − 1/2)
+                                        | {z }
+                                           p−q+1
+
+
+        satisfying β1 ≥ δ1 ≥ · · · ≥ βq−1 ≥ δq−1 ≥ 0, and βi , δj ∈ Z.
+
+4.2. Proof of Theorem 4.1.
+
+                                                                            ′   ′
+Case 1. Let p′ = 2p + 1, q ′ = 2p, so p′ − 1 = q ′ , and p −q   2
+                                                                   = 21 . The restrictions of the four
+                    ]
+representations of Spin(2p        + 1, 2p) are:
+                                                                
+                   δ1 , . . . , δp β1 + 1/2, . . . , ±(βp + 1/2) , βi , δj ∈ Z,
+                                                                
+                   δ1 , . . . , δp β1 + 1/2, . . . , ±(βp + 1/2) , βi , δj ∈ Z + 1/2,
+
+satisfying β1 ≥ δ1 ≥ · · · ≥ βp ≥ |δp |. Similarly we get another four representations by
+restricting from ]
+                 Spin(2p, 2p + 1).
+  The center of ]Spin(2p, 2p) does not act by a scalar, so these representations decompose
+further into the sixteen listed in the theorem. Also, the highest weights of the e
+                                                                                 K-types of
+an irreducible representation must differ by the root lattice.
+     REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 25
+
+Case 2, 3. We consider a = 2p = 2k + 2 + 2r+ , b = 2q = 2k + 2, r+ = p − q > 0 only.
+                                                                     ′   ′
+  Let p′ = 2p + 1, q ′ = 2q. This is the case p′ − 1 > q ′ , and so p −q
+                                                                       2
+                                                                           = r+ + 1/2. The
+                                           ] ′ , q ′ ) are
+restrictions of the two representations of Spin(p
+                  (δ1 , . . . , δq , 0, . . . , 0 β1 + r+ + 1/2, . . . , βq + r+ + 1/2)
+                                                                                            
+                   δ1 , . . . , δq , 0, . . . , 0 β1 + r+ + 1/2, . . . , −(βq + r+ + 1/2)
+satisfying β1 ≥ δ1 ≥ β1 ≥ · · · ≥ βq ≥ δq ≥ 0, βi , δj ∈ Z.
+   Let p′ = 2k + 3 = 2q + 1, q ′ = 2k + 2 + 2r+ = 2p. This is the case p′ − 1 < q ′ , and
+     = r+ − 1/2. The restriction of the single representation of ]
+q ′ −p′
+  2
+                                                                 Spin(p′ , q ′ ) is
+                                   (β1 , . . . , βq , 0, . . . , 0 δ1 , . . . , δq )
+satisfying β1 + r+ − 1/2 ≥ δ1 ≥ · · · ≥ βq + r+ − 1/2 ≥ |δq | , βi ∈ Z, δj ∈ Z + 1/2 .
+                  ]
+   The center of Spin(2p,  2q) does not act by a scalar, so these representations decompose
+                                                                                  e
+further into the six listed in the theorem. Also, the highest weights of the K-types   of an
+irreducible representation must differ by the root lattice.
+
+Case 4. Thus a = 2p + 1 = 2k + 1 and b = 2q − 1 = 2k + 1.
+  Let p′ = 2p + 2 and q ′ = 2p + 1. There are two representations, and they restrict to the
+same
+                            (δ1 , . . . δp β1 + 1/2, . . . , βp + 1/2)
+satisfying β1 ≥ δ1 . . . βp ≥ δp ≥ 0.
+   Similarly for p′ = 2p + 1 and q ′ = 2p + 2. These representations decompose further, not
+detected by the action of the                                                              e
+                                P center;
+                                       P see Conjecture 4.3 and the introduction. Their    K-
+structure differs by whether       δi + βj is in the root lattice or not. We write π = π + π o .
+                                                                                        e
+
+
+Case 5, 6. We consider a = 2p + 1 = 2k + 3 + 2r+ , b = 2q − 1 = 2k + 1, r+ = p − q ≥ 0 only.
+    Let p′ = 2p + 1 = 2k + 3 + 2r+ , q ′ = 2q = 2k + 2. When r+ > 0, p′ − 1 > q ′ and
+p −q ′
+ ′
+
+   2
+       = r+ + 1/2. The restrictions of the two representations that occur for Spin(p′ , q ′ )
+coincide:
+                            (β1 , . . . , βq , 0, . . . , 0 δ1 , . . . , δq−1 )
+                                               | {z }
+                                                      p−q
+
+such that β1 + r+ + 1/2 ≥ δ1 ≥ · · · ≥ βq−1 + r+ + 1/2 ≥ δq−1 ≥ βq + r+ + 1/2, and
+βi ∈ Z, δj ∈ Z + 1/2.
+   The case when r+ = 0 satisfies p′ − 1 = q ′ . In addition to the representation above, there
+                                                       e
+are two more representations. Their restriction has K-structure
+                                       (β1 , . . . , βp     δ1 , . . . , δp−1 )
+satisfying β1 + 1/2 ≥ δ1 ≥ β2 + 1/2 ≥ · · · ≥ δp−1 ≥ βp + 1/2.
+26                                    DAN BARBASCH AND WAN-YU TSAI
+
+Case 7, 8. We consider a = 2p + 1 = 2k + 1 + 2r+ , b = 2q − 1 = 2k + 3, r+ = p − q + 2 ≥ 0
+only.
+     Let p′ = 2q − 1 = 2k + 3, q ′ = 2p + 2 = 2k + 2 + 2r+ . In this case, p′ − 1 < q ′ , and
+q ′ −p′                                   ] ′ , q ′ ) restricts to
+        = r+ − 1/2. The representation of Spin(p
+    2
+
+                  (δ1 , . . . , δq−1 , 0, . . . , 0   β1 + r+ − 1/2, . . . , βq−1 + r+ − 1/2)
+                                       | {z }
+                                        p−q+1
+
+satisfying β1 ≥ δ1 ≥ β1 ≥ · · · ≥ βq−1 ≥ δq−1 ≥ 0, βi , δj ∈ Z. As in Case 4, this representation
+decomposes further, not detected by the action of the center; see Conjecture 4.3 and the
+introduction. We write π = π e + π o .
+Conjecture 4.3. Each representation in Case 4, Cases 7 and 8 decomposes into two irre-
+ducible factors; we write π = π e + π o .
+  The derived functors construction of the representations verifies this conjecture. Since we
+have omitted the details of this alternate construction, we list the above as a conjecture.
+
+4.4. Infinitesimal Character and Restriction. Let g = so(2n, C) ⊂ g′ = so(2n + 1, C),
+and G = SO(2n, C) and G′ = SO(2n + 1, C) the corresponding groups sharing a (θ-stable)
+Cartan subgroup H = T A. Let I ′ be the unique maximal primitive ideal with infinitesimal
+character
+                    λ′ = (n − k − 1 − 1/2, . . . 3/2, 1/2; k + 1, . . . , 1) .
+There is a unique (g′ , K ′ )-module π ′ with these properties, and it is spherical unitary. In
+particular π ′ = U(g′ )/I ′ . Let π be any module with annihilator I ′ . Then g acts via the
+map X ∈ g 7→ X · 1 ∈ U(g′ )/I ′ . Write π ′ = π0 + π1 where π0 is the unique spherical
+irreducible (g, K)-submodule. The image of U(g) is contained in π0 . We aim to show that π0
+has infinitesimal character λ = (n − k − 2, . . . , 0; k + 1/2, . . . , 3/2, 1/2). Then all the factors
+of the restriction of π to g have this infinitesimal character as well. In particular this is true
+for the factors in the restrictions of the modules of so(p′ , q ′ ) considered in Theorem 4.1.
+   It is enough to check the action of g on the spherical function correponding to π ′ . By [H]
+pages 31-32, its restiction to A is (up to a multiple),
+                                         P                  wλ′
+                                     ′      w∈W (Bn ) ǫ(w)e
+                                   φ = Q ǫ /2
+                                           (e i − e−ǫi /2 ) · ∆
+            Q                      
+with ∆ = α∈R(Dn ) eα/2 − e−α/2 and R(Dn ) the standard positive roots for type Dn . The
+claim follows if we show that the restriction of φ′ to G is the spherical function
+                                         P                 sλ
+                                            s∈W (Dn ) ǫ(s)e
+                                      φ=                      .
+                                                  ∆
+The next Lemma completes the proof.
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 27
+
+Lemma 4.5.             X                    Y                          X
+                                                                                       ′
+                                ǫ(s)esλ ·       eǫi /2 − e−ǫi /2 =               ǫ(w)ewλ .
+                    s∈W (Dn )                                        w∈W (Bn )
+
+Proof. Both sides are skew invariant under W (Dn ). It is enough to count the occurences
+of the dominant regular weights on the right. On the left there are only two such weights,
+(n − k − 1/2, n − k − 3/2, . . . , k + 3/2, k + 1, . . . , 3/2, ±1/2) occuring with opposite signs. On
+the left, the weights are of the form
+                 (n − k − 2, . . . , k + 1, k + 1/2, . . . , 1, 0) + (±1, 2, . . . , ±1/2).
+The parity of the number of −1/2 in the weight being added determines the sign. The only
+weights that give a dominant regular sum are (1/2, . . . , 1/2, 1/2) and (1/2, . . . , 1/2, −1/2).
+                                                                                                
+
+4.6. Matchup between regular sections on orbits and representations.
+  We match the e  K-spectra of the representations in Theorem 4.1 and the regular sections
+on nilpotent orbits computed in Section 3. We do this for Cases 1, 2, 4, 5, 7, and use the
+notation from Section 3 (with possible change from − to +) and Theorem 4.1. The notation
+χi distinguishes different central characters. In each table, the representations in the same
+row have the same central character; the representations in the same column are attached
+to the same orbit.
+
+     Case 1:
+
+                O = [3+ 22k 1− ]I      Oζ = [3+ 22k 1− ]II      Oη = [3− 22k 1+ ]I           Oζη = [3− 22k 1+ ]II
+           χ1   π1 |Ke = R(O, ψ1 )     τ1 |Ke = R(Oζ , ψ2ζ )   σ1 |Ke = R(Oη , ψ3η )        ξ1 |Ke = R(Oζη , ψ4ζη )
+           χ2   π2 |Ke = R(O, ψ2 )     τ2 |Ke = R(Oζ , ψ1ζ )   σ2 |Ke = R(Oη , ψ4η )        ξ2 |Ke = R(Oζη , ψ3ζη )
+           χ3   σ3 |Ke = R(O, ψ3 )     ξ3 |Ke = R(Oζ , ψ4ζ )   π3 |Ke = R(Oη , ψ1η )        τ3 |Ke = R(Oζη , ψ2ζη )
+           χ4   σ4 |Ke = R(O, ψ4 )     ξ4 |Ke = R(Oζ , ψ3ζ )   π4 |Ke = R(Oη , ψ2η )        τ4 |Ke = R(Oζη , ψ1ζη )
+
+     Case 2:
+
+                OI = [3− 22k 1+,2r+ +1 ]I OII = OIζ = [3− 22k 1+,2r+ +1 ]II O = [3+ 22k 1− 1+,2r+ ]
+           χ1    π1 |Ke = R(OI , ψ1 )          σ1 |Ke = R(OII , ψ2ζ )        τ1 |Ke = R(O, φ1 )
+                                                                  ζ
+           χ2    π2 |Ke = R(OI , ψ2 )          σ2 |Ke = R(OII , ψ1 )         τ2 |Ke = R(O, φ2 )
+
+     Case 4:
+
+                             O = [3+ 22k 1+ 1−,2]                                    Oη = [3− 22k 1− 1+,2 ]
+           χ1 π1 |Ke = (π1e + π1o )|Ke = R(O, ψ1 ) + R(O, ψ2 )
+           χ2                                                  π2 |Ke = (π2e + π2o )|Ke = R(Oη , ψ1η ) + R(Oη , ψ2η )
+28                              DAN BARBASCH AND WAN-YU TSAI
+
+     Case 5 with r+ = 0:
+
+                 O = [3+ 22k 1+ ]
+           χ1   π1 |Ke = R(O, ψ1 )
+           χ2   π2 |Ke = R(O, ψ2 )
+
+     Case 5 with r+ > 0:
+
+                  O = [3+ 22k 1+,2r+ +1 ]
+           χ1   π1 |Ke = R(O, Detr+ +1/2 )
+
+     Case 7:
+                            O = [3− 22k 1− 1+,2r+ ]
+           χ1   π|Ke = (π e + π o )|Ke = R(O, ψ1 ) + R(O, ψ2 )
+
+
+                         5. Clifford algebras and Spin groups
+  Since the main interest is in the case of Spin(V ), the simply connected groups of type D,
+we realize everything in the context of the Clifford algebra.
+
+5.1. Structure. Let (V, Q) be a quadratic space of even dimension 2n, with a basis {ei , fi }
+with 1 ≤ i ≤ n, satisfying Q(ei , fj ) = δij , Q(ei , ej ) = Q(fi , fj ) = 0. Occasionally we
+will replace ej , fj by two orthogonal vectors vj , wj satisfying Q(vj , vj ) = Q(wj , w√  j ) = 1,
+and orthogonal to√the ei , fi for i 6=   √ j. Precisely they will satisfy vj = (ej + fj )/ 2 and
+wj = (ej − fj )/(i 2) (where i := −1, not an index). Let C(V ) be the Clifford algebra
+with automorphisms α defined by α(x1 · · · xr ) = (−1)r x1 · · · xr and ⋆ given by (x1 · · · xr )⋆ =
+(−1)r xr · · · x1 , subject to the relation xy + yx = 2Q(x, y) for x, y ∈ V . The double cover of
+O(V ) is
+                        P in(V ) := {x ∈ C(V ) | x · x⋆ = 1, α(x)V x⋆ ⊂ V }.
+The double cover Spin(V ) of SO(V ) is given by the elements in P in(V ) which are in
+C(V )even , i.e. Spin(V ) := P in(V ) ∩ C(V )even . For Spin, α can be suppressed from the no-
+tation since it is the identity.
+  The action of P in(V ) on V is given by ρ(x)v = α(x)vx∗ . The element −I ∈ SO(V ) is
+covered by
+                                         Y                       Y
+(5.1.1)             ± E2n = ±in−1 vw          [1 − ej fj ] = ±in    [1 − ej fj ].
+                                       1≤j≤n−1                   1≤j≤n
+
+These elements satisfy                     (
+                                      2     +Id     if n ∈ 2Z,
+                                     E2n =
+                                            −Id     otherwise.
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 29
+
+The center of Spin(V ) is
+                                                (
+                                                 Z2 × Z2            if n is even,
+                    Z(Spin(V )) = {±I, ±E2n } ∼
+                                              =
+                                                 Z4                 if n is odd.
+The Lie algebra of P in(V ) as well as Spin(V ) is formed of elements of even order ≤ 2
+satisfying
+                                       x + x⋆ = 0.
+The adjoint action is ad x(y) = xy − yx. A Cartan subalgebra and the root vectors corre-
+sponding to the usual basis in Weyl normal form are formed of the elements
+
+                                (1 − ei fi )/2   ←→ H(ǫi )
+                                ei ej /2         ←→ X(−ǫi − ǫj ),
+(5.1.2)
+                                ei fj /2         ←→ X(−ǫi + ǫj ),
+                                fi fj /2         ←→ X(ǫi + ǫj ).
+
+Root Structure. We use 1 ≤ i, l ≤ p and 1 ≤ j, m ≤ q − 1 consistently. We give a realization
+of the Lie algebra for Spin(2p + 1, 2q − 1). The case Spin(2p, 2q), is (essentially) obtained
+by suppressing the short roots.
+   Compact                                                Noncompact
+
+   t = {(1 − ei fi ), (1 − ep+j fp+j )}                   a = {v + v − }
+   H(ǫi ), H(ǫp+j )                                       H(ǫp+q )
+   fi v + , ei v + , fp+j v − , ep+j v −                  fi v − , ei v − , v + fp+j , v + ep+j
+   X(ǫi )c , X(−ǫi )c , X(ǫp+j )c , X(−ǫp+j )c            X(ǫi )n , X(−ǫi )n X(ǫp+j )n , X(−ǫ−p+j )n
+   fi fl , fi el , ei el , ei fl                          fi fp+j , fi ep+j , ei ep+l , ei fp+l
+   fp+j fp+m , fp+j ep+m , ep+j fp+m , ep+j ep+m
+   X(ǫi + ǫl ), X(ǫi − ǫl ), X(−ǫi − ǫl ), X(−ǫi + ǫl )   X(ǫi + ǫp+j ), X(ǫi − ǫp+j ),
+                                                          X(−ǫi − ǫp+j ), X(−ǫi + ǫp+j ),
+   X(ǫp+j + ǫp+m ), X(ǫp+j − ǫp+m ),
+   X(−ǫp+j − ǫp+m ), X(−ǫp+j + ǫp+m ).
+
+                                                       e = Spin(V ) = Spin(2n, C), K =
+Nilpotent Orbits, Complex Case. In this case, we write K
+SO(V ) = SO(2n, C). A nilpotent orbit of an element e will have Jordan blocks denoted by
+(5.1.3)
+     e1 −→ e2 −→ · · · −→ ek −→ v −→ −fk −→ fk−1 −→ −fk−2 −→ · · · −→ ±f1 −→ 0
+          e1 −→   e2    −→ . . . −→ e2ℓ −→ 0
+          f2ℓ −→ −f2ℓ−1 −→ . . . −→ −f1 −→ 0
+with the conventions about the ei , fj , v as before. There is an even number of odd sized
+blocks, and any two blocks of equal odd size 2k + 1 can be replaced by a pair of blocks of
+30                                DAN BARBASCH AND WAN-YU TSAI
+
+                                                                               k−1
+                                                                                                !
+                                                                          1 X
+the form as the even ones. A realization of the odd block is given by              ei+1 fi + vfk ,
+                                                                          2 i=1
+                                             2l−1
+                                                        !
+                                         1 X
+and a realization of the even blocks by          ei+1 fi . When there are only even blocks,
+                                         2     i P                           
+there are two orbits; one block of the form                 ei+1 fi + eℓ fℓ−1 /2 is replaced by
+ P                                                 1≤i<ℓ−1
+
+    1≤i<ℓ−1 ei+1 fi + fℓ fℓ−1 /2.
+
+  The centralizer of e in so(V ) has Levi component isomorphic to a product of so(r2k+1 )
+and sp(2r2ℓ ) where
+                 Q rj is the number
+                                 Q of blocks of size j. The centralizer of e in SO(V ) has
+Levi component Sp(2r2ℓ ) × S[ O(r2k+1)]. For each odd sized block define
+                                             Y
+(5.1.4)                          E2k+1 = ik v (1 − ej fj ).
+
+This is an element in P in(V ), and acts by −Id on the block. Even products of ±E2k+1
+belong to Spin(V ), and represent the connected components of CKe (e).
+Proposition 5.2. Let m be the number of distinct odd blocks. Then
+                                     (
+                                   ∼   Zm−1
+                                         2       if m > 0
+                            AK (O) =
+                                       1         if m = 0.
+Furthermore,
+     (1) If E has an odd block of size 2k + 1 with r2k+1 > 1, then AKe (O) ∼
+                                                                           = AK (O).
+     (2) If all r2k+1 ≤ 1, then there is an exact sequence
+                             1 −→ {±I} −→ AKe (O) −→ AK (O) −→ 0.
+Proof. Assume that there is an r2k+1 > 1. Let
+                                     e1    → . . . → e2k+1 → 0
+                                   f2k+1   → . . . → −f1 → 0
+be two of the blocks. In the Clifford algebra this element is e = (e2 f1 + · · · + e2k+1 f2k )/2.
+              P
+             2k+1
+The element      (1 − ej fj ) in the Lie algebra commutes with e. So its exponential
+               j=1
+                     Y                        Y
+(5.2.1)                  exp iθ(1 − ej fj )/2 = [cos θ/2 + i sin θ/2(1 − ej fj )]
+
+also commutes with e. At θ = 0, the element in (5.2.1) is I; at θ = 2π, it is −I. Thus −I
+is in the connected component of the identity of AKe (O) (when r2k+1 > 1), and therefore
+AKe (O) = AK (O).
+                                                         Q
+   Assume there are no blocks of odd size. Then CK (O)∼= Sp(r2l ) is simply connected, so
+        = CK (O) × {±I}. Therefore AKe (O) ∼
+CKe (O) ∼                                    = Z2 .
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 31
+
+  Assume there are m Q distinct odd blocks with m ∈ 2Z>0 and r2k1 +1 = · · · = r2km +1 = 1.
+In this case, CK (O) = Sp(r2l ) × S[O(1) × · · · × O(1)] , and hence AKe (O) ∼
+                     ∼                                                       = Zm−1
+                                                                                2    . Even
+                                     |      {z        }
+                                                 m
+products of {±E2kj +1 } are representatives of elements in AKe (O). They satisfy
+                                           (
+                                             −E2ℓ+1 · E2k+1 k 6= ℓ,
+                           E2k+1 · E2ℓ+1 =
+                                             (−1)k I         k = ℓ.
+                                                                                                
+Corollary 5.3.
+   (1) If O = [3 2n−2 1], then AKe (O) ∼ = Z2 × Z2 = {±E3 · E1 , ±I}.
+   (2) If O = [3 2 12k 2n−4k−3
+                               ] with 2n − 4k − 3 > 1, then AKe (O) ∼
+                                                                    = Z2 .
+   (3) If O = [2 ]I,II (n even), then AKe (O) ∼
+                  n
+                                                 Z
+                                               = 2 .
+   (4) If O = [22k 12n−4k ] with 2k < n, then AKe (O) ∼
+                                                      = 1.
+                          e · C e (O)0 .
+In all cases C e (O) = Z(K)
+              K                  K
+
+Nilpotent Orbits, Real Case. Write V = V + ⊕ V − a sum of two (complex) spaces, each
+endowed with a nondegenerate quadratic form. Recall the notation in Section 2.1. The
+spaces V ± have dimensions a and b. We use bases as in the complex case, e±                ±
+                                                                                      j , fj , and
+plus v ± when a, b are both odd. In this case, we write K        e = Spin(V + ) × Spin(V − ) =
+Spin(a, C) × Spin(b, C), K e = SO(V + ) × SO(V − ) = SO(a, C) × SO(b, C). Write g = k + s
+for the (complexification of the) Cartan decomposition. Nilpotent orbits of K     e (as well as
+K) in s are parametrized by signed partitions where the basis elements alternate between
+  +          −
+Q and V Q
+V              but otherwise as in Equation (5.1.3). The centralizer of e in k is a product
+                     +           −                                                             ±
+   sp(2r2ℓ ) × [so(r2k+1 ) × so(r2k+1 )] where r2l is the number of blocks of even size 2ℓ, r2k+1
+is the number of blocks of odd size 2k + 1 starting with ±. We compute the centralizer of e
+    e and its component group.
+in K,
+   The even sized blocks do not contribute to the component group. They can however be
+used to deduce that (−I, −I) ∈ CKe (O)0 as in the complex case.
+   For the odd sized blocks,
+                                         Y                 Y
+                                                      +               −
+                           +
+                         E2k+1 = ik (v + (1 − e+   j fj ),   (1 − e−
+                                                                   j fj ))
+(5.3.1)                              Y                     Y
+                           −
+                         E2k+1 = ik ( (1 − e+     +
+                                               j fj ), v
+                                                         −
+                                                             (1 − e−  −
+                                                                   j fj ))
+
+Products with an even number of both ± of such elements give representatives of the com-
+ponent group.
+Lemma 5.4.
+          +
+  (1) If r2k+1 > 1 for some 2k + 1 ≥ 1, then
+                                  (−I, I) ∈ CKe (O)0 ,   k even,
+                                                     0
+                                  (I, −I) ∈ CKe (O) ,    k odd.
+32                                  DAN BARBASCH AND WAN-YU TSAI
+
+                          −
+          Similarly for r2k+1 with k even and odd interchanged.
+      (2) If r2ℓ > 1 for some 2ℓ > 0, then (−I, −I) ∈ CKe (O)0 .
+                    +
+Proof. Assume that r2k+1 > 0.
+                               e+
+                                1     → e−
+                                         2   → ...         → e+
+                                                              2k+1 → 0
+                               +           −
+                              f2k+1   → −f2k → . . .       → −f1+ → 0
+represent two equal size blocks starting with the same sign +. The corresponding element
+in the Clifford algebra is e = (e−     +           +     −
+                                   2 f1 + · · · + e2k+1 f2k )/2. Similar to the case r2ℓ > 0 below,
+
+   k                                      k
+                                                                             !
+  Y                                       Y
+     [cos θ + i sin θ(1 − e+     +
+                           2j+1 f2j+1 )],   [cos θ + i sin θ(1 − e−    −
+                                                                   2j f2j )]   ∈ Spin(V + )×Spin(V − )
+     j=0                                  j=0
+
+centralizes e for all θ. This gives a continuous path between (I, I) and (I, −I) when k is
+odd; and a continuous path between (I, I) and (−I, I) when k is even.
+  Assume that some r2ℓ > 1. Let
+                              e+
+                               1  →  e−
+                                      2    → . . . → e−
+                                                      2ℓ  →0
+                               −      +                 +
+                              f2ℓ → −f2ℓ−1 → . . . → −f1 → 0
+represent two blocks of size 2ℓ. Again, let e = (e−           +      + −               − +
+                                                           2 f1 + e3 f2 + · · · + e2ℓ f2ℓ−1 )/2 be a
+representative. Then e is centralized by [(1 − e+       +           − −                      − −
+                                                    1 f1 ) + (1 − e2 f2 ) + · · · + (1 − e2ℓ f2ℓ )]/2 in
+the Lie algebra. Exponentiating,
+         ℓ                                           ℓ
+                                                                                             !
+        Y                                           Y
+           [cos θ/2 + i sin θ/2(1 − e+     +
+                                     2j−1 f2j−1 )],    [cos θ/2 + i sin θ/2(1 − e−     −
+                                                                                   2j f2j )]
+           j=1                                       j=1
+
+                                                                ∈ Spin(V + ) × Spin(V − )
+centralizes e for all θ. This is (I, I) when θ = 0, and is (−I, −I) when θ = π, and hence it
+gives a continuous path between (I, I) and (−I, −I).
+                                                                                          
+     We apply the Lemma to the orbit of the diagram [3 22k 12n−4k−3 ] with k > 0.
+Proposition 5.5 (Proposition 2.2).
+      (1) If O = [3+ 22k 1− ]I,II , then AKe (O) ∼
+                                                 = Z2 × Z2 .
+                   + 2k +
+      (2) If O = [3 2 1 ], then AKe (O) = Z2 .∼
+      (3) If O = [3+ 22k 1+,2r+ +1 ] with r+ > 0, then AKe (O) = 1.
+      (4) If O = [3+ 22k 1− 1+,2r+ ], with r+ > 0, then AKe (O) ∼= Z2 .
+                   − 2k +,2r+ +1
+      (5) If O = [3 2 1                                          ∼
+                                    ], with r+ > 0, then AKe (O) = Z2 .
+      (6) If O = [3− 22k 1− 1+,2r+ ], with r+ ≥ 2, then AKe (O) ∼= Z2 .
+Similarly for the nilpotent orbits with the + and − interchanged.
+    REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 33
+
+Proof. In case (1), the odd blocks can be represented by
+                                     e+     −      +
+                                      1 −→ v2 −→ −f1 −→ 0,
+
+                                     w2− −→ 0.
+The corresponding element in the Clifford algebra is e = (v2− f1+ )/2. The element (i(1 −
+                                          − −
+e+  +     − −              + +                                +          −
+ 1 f1 ), v2 w2 ) = (i(1 − e1 f1 ), i(1 − e2 f2 )) is in Spin(V ) × Spin(V ), acts by −Id on the
+blocks and centralizes e.
+   Note that AK (O) ∼  = Z2 . The inverse image in CKe (O) of CK (O) contains {(±I, ±I), (±i(1−
+e1 f1 ), ±i(1 − e2 f2 ))}. By Lemma 5.4 (2), (−I, −I) ∈ CKe (O)0 , so AKe (O) ∼
+ + +              − −
+                                                                                = Z2 × Z2 .
+  In case (2), there is only one orbit with this signed partition. The odd blocks are repre-
+sented by
+                                          −          +
+                                 e+
+                                  1 −→ v3 −→ −f1 −→ 0,
+
+                                     v2+ −→ 0.
+The corresponding
+                     element in the Clifford algebra is e = (v3− f1+ )/2. The element iv2+ (1 −
+e+  +     −
+ 1 f1 ), v1   acts by −Id on the blocks and centralizes e, but is in P in(V + ) × P in(V − ), so
+cannot contribute to the centralizer CKe (e). As in the previous case, (I, I) and (−I, −I) are
+in the same connected component. Thus AKe (O) ∼     = Z2 .
+  In cases (3)–(6), Lemma 5.4 implies that (±I, ±I) ∈ CKe (O)0 . So AKe (O) = AK (O).                 
+Remark 5.6. In Proposition 2.2, the generators of AKe (O) can be chosen as follows: (1)
+(−I, −I), (i(1 − e+    +           − −                                            + +            − −
+                    1 f1 ), i(1 − e2 f2 )); (2) (I, −I) ; (3) (I, I); (4) (i(1 − e1 f1 ), i(1 − e2 f2 ));
+(5) (i(1 − e+   +            − −                   + +           − −
+            1 f1 ), i(1 − e2 f2 )); (6) (i(1 − e1 f1 ), i(1 − e2 f2 )). Furthermore, in cases (1),
+(2), (4), (5), nontrivial representatives of AKe (O) can be chosen to be elements in Z(K).        e
+
+Example 5.7. Let O = [3− 22 1− 1+,2], i.e. k = 1, r+ = 1. Then AKe (O) ∼
+                                                                       = AK (O) has two
+connected components. The Jordan blocks are
+                                     e−     +     −
+                                      1 −→ v −→ −f1 −→ 0
+
+                                     e+     −
+                                      2 −→ e2 −→ 0
+
+                                     f2− −→ −f2+ −→ 0
+                                     v − −→ 0
+                                     v1+ −→ 0
+                                     w1+ −→ 0.
+The group CKe (O) can be written as
+                                                                                          
+   + +          − −
+                           θ1      θ1 + +          θ2             θ2     + +         − −
+ ±v v1 , ±(1 − e1 f1 ) · cos + i sin v1 w1 , I · cos (I, I) + i sin (1 − e2 f2 , 1 − e2 f2 )
+                             2      2               2              2
+34                                         DAN BARBASCH AND WAN-YU TSAI
+
+                                           6. Counting representations
+   In this section, we will count the number of representations attached to the complex
+nilpotent orbit of the form Oc = [3 22k 12n−4k−3 ], with k > 0. This orbit is not special
+in the sense of Lusztig. The infinitesimal character cannot be integral. Considerations
+coming from primitive ideals imply that the infinitesimal character must be regular, and
+have integrality given by the system Dk+1 ×Dn−k−1 . The infinitesimal character with minimal
+length satisfying the above conditions, and corresponding to Oc must be
+
+(6.0.1)                        λ = (n − k − 2, . . . , 1, 0; k + 1/2, . . . , 3/2, 1/2)
+with k + 1 ≤ n − k − 1, and hence 0 < k ≤ n/2 − 1. These are the infinitesimal characters
+which (conjecturally) admit unitary unipotent representations attached to Oc .
+   The setting is as in the previous sections. For convenience, in this section we use slightly
+different notation. We write ( e  K) = ( ]
+                               G, e       Spin(c, d), Spin(c) × Spin(d)) with 2n = c + d, and
+                                                c = 2p,            c = 2p + 1,
+                                                d = 2q,            d = 2q + 1.
+                                                                  e that admit an admissible
+We assume that c ≥ d in this section. We will classify all groups G
+representation with infinitesimal character λ. It turns out that Cases 1, 2, 4, 5, 7 in Section
+2.1 cover such groups. Let nO := |UGe (Oc , λ)| be the number of unipotent representations of
+e attached to Oc and λ. We ultimately calculate nO for each case.
+G
+  Before getting further, we need some structure theory.
+6.1. Cartan subalgebras of g0 . Conjugacy classes of Cartan subalgebras have the follow-
+ing representatives, with the given θ:
+             +   −
+          hr ,r ,m,s = {(x+            +      −            −
+                          1 , . . . , xr + , x1 , . . . , xr − , y1 , . . . ym , ym+1 , . . . , y2m , z1 , . . . , zs )},
+
+          θ(x±      ±
+             i ) = xi , θ(yj ) = yj+m , θ(zk ) = −zk .
+
+When g0 = so(2p, 2q), s is even, when g0 = so(2p + 1, 2q + 1), s is odd. We write s = 2s′ + ǫ,
+where ǫ = 0 when n is even, and ǫ = 1 when n is odd. Furthermore, m + r + + s′ = p and
+m + r − + s′ = q. The orthogonal space V = V + ⊕ V − has basis
+(6.1.1)                  ei , v + , fi ,    ej , v − , fj     1 ≤ i ≤ p, p + 1 ≤ j ≤ p + q
+with ei , fi , v + a basis of V + and ej , fj , v − a basis of V − . The e, f are isotropic and in duality,
+the v ± unit vectors orthogonal to the e, f.
+  We will use 1 ≤ i, l ≤ p and p + 1 ≤ j, k ≤ p + q consistently. When convenient, we denote
+c = 2p, 2p + 1 and d = 2q, 2q + 1.
+  The Lie algebra with respect to the fundamental Cartan subalgebra is realized as follows.
+For so(2p, 2q), v ± and the corresponding terms are missing.
+  Recall the basis of g formed of the (complexification of the) fundamental Cartan subalgebra
+and its root vectors:
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 35
+
+   Compact                                                 Noncompact
+            √                         √
+   t√= { −1(1 √           − ei fi )/2, −1(1 − ej fj )/2}   a = {v + v − }
+       −1H(ǫi ), −1H(ǫj )                                  H(ǫp+q+1)
+   fi v + , ei v + , fj v − , ej v −                       fi v − , ei v − , v + fj , v + ej
+    X(ǫi )c , X(−ǫi )c , X(ǫj )c , X(−ǫj )c                X(ǫi )n , X(−ǫi )n X(ǫj )n , X(−ǫj )n
+    fi fl , fi el , ei el , ei fl                          fi fj , fi ej , ei ej , ei fj
+    fj fk , fj ek , ej fk , ej ek
+    X(ǫi + ǫl ), X(ǫi − ǫl ), X(−ǫi − ǫl ), X(−ǫi + ǫl )   X(ǫi + ǫj ), X(ǫi − ǫj ),
+                                                           X(−ǫi − ǫj ), X(−ǫi + ǫj ),
+   X(ǫj + ǫk ), X(ǫj − ǫk ),
+   X(−ǫj − ǫk ), X(−ǫj + ǫk ).
+                                                          + −
+  Realizations of the other Cartan subalgebras hr ,r ,m,s are
+√                   √
+  −1(1 − ei fi )/2, −1(1 − ej fj )/2, 1 ≤ i ≤ r + , p + 1 ≤ j ≤ p + r − ,
+√           √
+  −1H(ǫi ), −1H(ǫj ),
+√
+  −1(er+ +t fr+ +t − ep+r− +t fp+r− +t )/2, er+ +t ep+r− +t + fr+ +t fp+r− +t , 1 ≤ t ≤ m
+√
+  −1H(ǫr+ +t − ǫp+r− +t ), X(ǫr+ +t + ǫp+r− +t ) + X(−ǫr+ +t − ǫp+r− +t )
+er+ +m+ℓ ep+r− +m+l + fr+ +m+ℓ fp+r− +m+ℓ , er+ +m+ℓ fp+r− +m+ℓ + fr+ +m+ℓ ep+r− +m+ℓ , 1 ≤ ℓ ≤ s,
+X(−ǫr+ +m+ℓ − ǫp+r− +m+ℓ ) + X(ǫr+ +m+ℓ + ǫp+r− +m+ℓ ),
+X(ǫr+ +m+ℓ − ǫp+r− +m+ℓ ) + X(−ǫr+ +m+ℓ + ǫp+r− +m+ℓ ).
+When p = q = m, there are two nonconjugate Cartan subalgebras, denoted h0,0,m,0
+                                                                        I,II    :
+  0,0,m,0
+ hI       is generated by
+H(ǫt −ǫp+t ), H(ǫp −ǫ2p ), X(ǫt +ǫp+t )+X(−ǫt −ǫp+t ), X(ǫp +ǫ2p )+X(−ǫp −ǫ2p ), 1 ≤ t ≤ p−1;
+h0,0,m,0
+ II      is generated by
+H(ǫt −ǫp+t ), H(ǫp +ǫ2p ), X(ǫt +ǫp+t )+X(−ǫt −ǫp+t ), X(ǫp −ǫ2p )−X(−ǫp +ǫ2p ), 1 ≤ t ≤ p−1.
+
+
+               e The center of G
+6.2. Center of G.              e is contained in the maximal compact subgroup e
+                                                                              K.
+Lemma 6.3.
+                                     e = {(±I, ±I)} ∼
+  (1) When c = 2p + 1, d = 2q + 1, Z(G)             = Z2 × Z2 .
+  (2) When c = 2p, d = 2q,
+                    (                 p             q
+                                                                       !)
+                                     Y             Y
+              e = (±I, ±I), ±ip (1 − ei fi ), ±iq
+           Z(G)                                       (1 − ep+j fp+j )
+                                             i=1                 j=1
+(6.3.1)                 (
+                      ∼  Z2 × Z4              if at least one of p and q is odd,
+                      =
+                         Z2 × Z2 × Z2         otherwise.
+36                                        DAN BARBASCH AND WAN-YU TSAI
+
+                                                             e
+Lemma 6.4. Let µ = (a1 , . . . , ap | b1 , . . . , bq ) be a K-type parametrized by its highest weight,
+and let χ be the restriction of the highest weight of µ to Z(G).      e Then
+                  χ(ǫ1 I, ǫ2 I) = ǫ2a1 2b1
+                                   1 ǫ2 ,
+                         p                    q
+                                                                        !
+(6.4.1)                  Y                    Y
+                  χ ǫ1 ip (1 − ei fi ), ǫ2 iq   (1 − ep+j fp+j )            = ǫ2a1 2b1 2(a1 +···+ap +b1 +···+bq )
+                                                                               1 ǫ2 i
+                           i=1                     j=1
+
+where ǫj = ±1.
+Proof. As a linear functional of the fundamental Cartan subalgebra, µ acts by
+                        √                             √
+                      θ1 −1(1 − e1 f1 )          θp+q −1(1 − ep+q fp+q )
+                  µ:                    +···+
+                        √    2                               2
+                    7→ −1(a1 θ1 + · · · + ap θp + b1 θp+1 + · · · + bq θp+q ).
+     Setting θ1 = 2π and θj = 0 for all j 6= 0,
+                                           χ : (−I, I) 7→ e2πia1 = (−1)2a1 ,
+since
+                                 √                       θi √      θi
+                             e −1θi (1−ei fi )/2 = cos     + −1 sin (1 − ei fi ).
+                                                         2         2
+The action of χ on (±I, ±I) is similar.
+  Similarly, setting θi = π,
+          p                   q
+                                                !
+         Y                    Y
+µ : ǫ1 ip (1 − ei fi ), ǫ2 iq   (1 − ep+j fp+j ) 7→ eiπ(a1 +···+ap +b1 +···+bq ) = i2(a1 +···+ap +b1 +···+bq ) .
+            i=1                      j=1
+
+                                                                                                                    
+  Then it is clear that
+     • χ factors through SO(c, d) iff ai , bj ∈ Z;
+     • χ factors through Spin(c, d) if ai , bj ∈ Z or ai , bj ∈ Z + 12 ;
+     • χ is genuine for ]
+                        Spin(c, d) if and only if ai ∈ Z and bj ∈ Z + 12 , or ai ∈ Z + 12 and
+       bj ∈ Z.
+                                                                   Q
+  Denote the set of genuine central characters of Z(G)      e by           e
+                                                                      g (Z(G)). The next lemma
+              Q      e
+characterizes    (Z(G)).
+                     g
+
+                         e
+Lemma 6.5. Let µj be the K-type parametrized by its highest weight:
+                         µ1 = (1/2, . . . , 1/2 | 0, . . . , 0), µ2 = (0, . . . , 0 | 1/2, . . . , 1/2),
+                               |     {z       } | {z }                 | {z } |             {z       }
+                                           p             q                    p              q
+(6.5.1)
+                  µ3 = (1/2, . . . , 1/2, −1/2 | 0, . . . , 0), µ4 = (0, . . . , 0 | 1/2, . . . , 1/2, −1/2).
+                        |           {z       } | {z }                 | {z } |                   {z       }
+                                      p                  q                    p                   q
+
+                                                           e
+Let χj be the restriction of the highest weight of µj to Z(G).
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 37
+                                       Q
+                                             e = {χ1 , χ2 }.
+   (a) If c = 2p + 1, d = 2q + 1, then g (Z(G))
+                               Q
+   (b) If c = 2p, d = 2q, then g (Z( eG)) = {χ1 , χ2 , χ3 , χ4 }.
+                    e
+Moreover, given any K-type µ, the central character of µ is χj iff µ − µj is in the root lattice
+of Dn .
+Proof. The proof easily follows from (6.4.1).                                                         
+
+6.6. Cartan subgroups of e
+                         G. The θ-stable Cartan subgroup
+                                   e r+ ,r− ,m,s = Ter+ ,r− ,m,s · Ar+ ,r− ,m,s
+                                   H
+   e is the centralizer of hr ,r ,m,s in e
+of G
+                               +   −                                +   −          +   −   +   −
+                                           G. We write hr ,r ,m,s = tr ,r ,m,s + ar ,r ,m,s . We have
+that
+                             He r+ ,r− ,m,s = Ter+ ,r− ,m,s exp e ar+ ,r− ,m,s .
+                                                               G
+
+The goal is to compute Ter ,r ,m,s = ZKe (hr ,r ,m,s ).
+                           + −               + −
+
+
+                           ] 2) in detail. As before, the orthogonal space V = V + ⊕V −
+                       e = Spin(2,
+  We first do this for G
+has basis
+                                         e1 , f1 ; e2 , f2
+with e1 , f1 ∈ V + , e2 , f2 ∈ V − .
+  There are four conjugacy classes of Cartan subalgebras of so(2, 2), denoted
+                                       h1,1,0,0 , hI0,0,1,0 , hII
+                                                               0,0,1,0 0,0,0,2
+                                                                      ,h       .
+                          e = Spin(2) × Spin(2) is of the form (eiθ1 h(ǫ1 ) , eiθ2 h(ǫ2 ) ), where
+  Note that an element in K
+                                      θj                         θj             θj
+(6.6.1)             eiθj h(ǫj ) = exp[i  (1 − ej fj )] = cos + i sin (1 − ej fj ).
+                                       2                          2             2
+     • He 1,1,0,0 = Z e (h(ǫ1 )) ∩ Z e (h(ǫ2 )) = {(eiθ1 h(ǫ1 ) , eiθ2 h(ǫ2 ) )} ∼
+                                                                                 = (S 1 )2 .
+                     K              K
+     • The cases H   e 0,0,1,0 and He 0,0,1,0 are similar, so we do the former one only. We shall
+                       I              II
+       calculate ZKe (a). Let (eiθ1 h(ǫ1 ) , eiθ2 h(ǫ2 ) ) ∈ ZKe (a). Then
+
+                                                                                         
+          X(ǫ1 + ǫ2 ) + X(−ǫ1 − ǫ2 ) = Ad eθ1 h(ǫ1 )+θ2 h(ǫ2 ) X(ǫ1 + ǫ2 ) + X(−ǫ1 − ǫ2 )
+                                             = ei(θ1 +θ2 ) X(ǫ1 + ǫ2 ) + ei(−θ1 −θ2 ) X(−ǫ1 − ǫ2 ).
+           This gives that θ1 + θ2 = 2kπ, k ∈ Z. Therefore,
+(eiθ1 h(ǫ1 ) , eiθ2 h(ǫ2 ) ) = (eiθ1 h(ǫ1 ) , ei(2kπ−θ1 )h(ǫ2 ) )
+                                      θ1             θ1           θ2 θ2          
+                             = cos + i sin (1 − e1 f1 ), cos − i sin (1 − e2 f2 ) · (I, ei2kπh(ǫ2 ) )
+                                       2             2            2  2
+                                      θ1             θ1           θ2 θ2          
+                             = cos + i sin (1 − e1 f1 ), cos − i sin (1 − e2 f2 ) · (I, ±I)
+                                       2             2            2  2
+38                                       DAN BARBASCH AND WAN-YU TSAI
+
+            e 0,0,0,2 , let (eiθ1 h(ǫ1 ) , eiθ2 h(ǫ2 ) ) ∈ Z e (a). We have the relations
+      • For H                                                 K
+                                                          θ1 h(ǫ1 )+θ2 h(ǫ2 )
+                                                                                                         
+        X(ǫ1 + ǫ2 ) + X(−ǫ1 − ǫ2 ) = Ad e                                      X(ǫ1 + ǫ2 ) + X(−ǫ1 − ǫ2 )
+                                               = ei(θ1 +θ2 ) X(ǫ1 + ǫ2 ) + ei(−θ1 −θ2 ) X(−ǫ1 − ǫ2 ),
+         and
+                                                                                         
+          X(ǫ1 − ǫ2 ) + X(−ǫ1 + ǫ2 ) = Ad eθ1 h(ǫ1 )+θ2 h(ǫ2 ) X(ǫ1 − ǫ2 ) + X(−ǫ1 + ǫ2 )
+                                               = ei(θ1 −θ2 ) X(ǫ1 − ǫ2 ) + ei(−θ1 +θ2 ) X(−ǫ1 + ǫ2 ).
+         This gives that θ1 − θ2 = 2kπ, θ1 + θ2 = 2lπ, k, l ∈ Z and hence we write
+                                           θ1 = (k + l)π, θ2 = (k − l)π.
+         Therefore,
+         (eiθ1 h(ǫ1 ) , eiθ2 h(ǫ2 ) ) = (ei(k+l)πh(ǫ1 ) , ei(k−l)πh(ǫ2 ) )
+                (k + l)π                 (k + l)π                         (k − l)π         (k − l)π             
+       = cos                   + i sin             (1 − e1 f1 ), cos               + i sin          (1 − e2 f2 ) .
+                       2                     2                               2                2
+        This gives eight elements in ZKe (a):
+                                  (±I, ±I), (±i(1 − e1 f1 ), ±i(1 − e2 f2 )).
+          e=]
+   Recall G    Spin(c, d), c = 2p, d = 2q or c = 2p+1, d = 2q +1. We change the orthonormal
+basis to
+                      vi , wi , v + ; vj , wj , v − , 1 ≤ i ≤ p, p + 1 ≤ j ≤ p + q
+for V = V + ⊕ V − , where
+                                                 ei + fi        ei − fi
+                                         vi = √ , wi = √                ,
+                                                      2            −2
+and the same relations hold for vj , wj , ej , fj . Again, when c, d are even, the corresponding
+terms of v + and v− are missing.
+                                     + −
+   Define a finite subgroup F r ,r ,m,s of K         e as follows.
+                                                           + −
+    (1) When m = 0 and s = 0 or 1, define F r ,r ,m,s = 1.
+                                     + −
+    (2) When s > 1, define F r ,r ,m,s to be the subgroup generated by the elements of order
+                 e
+        four of K,
+
+               {(±vi vk , ±vi+p vk+p ), (±wi wk , ±wi+p wk+p), r + + m + 1 ≤ i < k ≤ p
+                             (±vl wk , ±vl+p wk+p ), r + + m + 1 ≤ l, k ≤ p
+                  (±vi v + , ±vi+p v − ), (±wi v + , ±wi+p v − ), r + + m + 1 ≤ i ≤ p}.
+                                 +   −
+            In this case, |F r ,r ,m,s | = 2s−1 · 4. It is an extension of Z2s−1 of Z2 × Z2 , the center
+         of Spin(c) × Spin(d).
+                                                      + −                                     + −
+     (3) When m 6= 0 and s = 0 or 1, define F r ,r ,m,s = {(I, ±I)}. In this case |F r ,r ,m,s | =
+         2.
+    REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 39
+
+                               e r+ ,r− ,s,m has the direct product decomposition
+Lemma 6.7. The Cartan subgroup H
+                               e r+ ,r− ,m,s = F r+ ,r− ,m,s × exp e (hr+ ,r− ,m,s ).
+                               H                                  G
+
+                                  e r ,r ,m,s is |F r ,r ,m,s |, listed above.
+Thus, the number of components of H
+                                                 +   −            +   −
+
+
+
+               e r+ ,r− ,m,s is abelian iff s < 3.
+Corollary 6.8. H
+                         + −
+Proof. Since expGe (hr ,r ,m,s ) ⊂ H      e 0 ⊂ Z(H    e r+ ,r− ,m,s ), to determine whether H      e r+ ,r− ,m,s is
+                                           + −
+abelian, we just need to look at F r ,r ,m,s by Lemma 6.7.
+                      +  −                            + −
+  When s = 0, |F r ,r ,m,s | = 1 or 2. So F r ,r ,m,s is obviously abelian.
+                     + −
+  When s = 2, F r ,r ,m,s = {(±I, ±I), (±v1 w1 , ±v2 w2 )}, and is clearly abelian.
+  When s ≥ 3, there exist sets of orthonormal vectors {v + , w + , u+ } ⊂ V + and {v − , w − , u− } ⊂
+V − such that (v + w + , v − w − ), (w + u+ , w − u− ) ∈ H e r+ ,r− ,m,s . Then v + w + w + u+ = v + u+ , whereas
+w + u+ v + w + = u+ v + = −v + u+ . Therefore H       e r+ ,r− ,m,s is not abelian.
+                                                                                                                  
+6.9. Regular characters. See [AT] or [RT] for more detail in this section. Suppose G is a
+real reductive group (possibly nonlinear).
+Definition 6.10. A regular character of G is a triple γ = (H, Γ, λ) consisting of a θ-stable
+Cartan subgroup H, an irreducible representation Γ of H, and λ ∈ h∗ , satisfying the following
+conditions.
+   (a) hλ, α∨i ∈ R× for all imaginary roots α;
+   (b) dΓ = λ + ρi (λ) − 2ρi,c (λ);
+   (c) hλ, α∨i 6= 0 ∀α ∈ ∆.
+
+  The group under consideration is G      ] d). In this case we will write γ = (H,
+                                     e = Spin(c,                                e Γ, λ).
+                                                             e
+We say that γ is genuine if Γ is a genuine representation of H.
+  Let I(γ) denote that standard module corresponding to the parameter γ, and let J(γ)
+denote the unique irreducible quotient of I(γ).
+Proposition 6.11 ([AT]).
+          e be a Cartan subgroup of G.
+  (a) Let H                         e Every representation Γ of H e is parametrized by a
+                             e i.e. Γ| e , the restriction of Γ to Z(H).
+      genuine character of Z(H),                                      e
+                                                     Z(H)
+           e = Z(G)
+    (b) Z(H)        e Hf0 , so a genuine character of Z(H)
+                                                         e is determined by its restriction to
+           e and its differential. Moreover, if γ = (H,
+        Z(G)                                            e Γ, λ) is a genuine character of G,e
+        then γ is determined by λ and Γ|Z( eG) .
+
+ Let Λ be a genuine representation of the fundamental Cartan subgroup H     e with dΛ = λ.
+                     e =H
+When c = 2p, d = 2q, H   e p,q,0,0; when c = 2p + 1, d = 2q + 1, H
+                                                                 e =H
+                                                                    e p,q,0,1.
+
+                      ] d), c + d = 2n.
+                  e = Spin(c,
+Lemma 6.12. Given G
+40                                DAN BARBASCH AND WAN-YU TSAI
+
+      (a) Suppose that n ∈ 2Z (c = 2p, d = 2q). Then the infinitesimal character of any
+                                                    e is conjugate to the form
+          genuine discrete series representation of G
+                                        (a1 , . . . , ap | b1 , . . . , bq ),
+          with ai ∈ Z, bj ∈ Z + 12 , or ai ∈ Z + 21 , bj ∈ Z, and a1 > · · · > |ap | ≥ 0, b1 > · · · >
+          |bq | ≥ 0.
+      (b) Suppose that n ∈ 2Z + 1 (c = 2p + 1, d = 2q + 1). Then the infinitesimal character
+          of any genuine fundamental series representation of G   e is conjugate to the form
+                                      (a1 , . . . , ap | b1 , . . . , bq | x),
+          with ai ∈ Z, bj ∈ Z + 12 or ai ∈ Z + 12 , bj ∈ Z and a1 > · · · > ap ≥ 0, b1 > · · · > bq ≥ 0,
+          and x is either in Z or Z + 21 .
+     Then the following corollary easily follows.
+Corollary 6.13. The following groups are the only ones which admit a representation with
+infinitesimal character defined in (6.0.1).
+    (a) G    ]
+         e = Spin(2p, 2q), with p = n − k − 1, q = k + 1;
+         e   ]
+    (b) G = Spin(2p + 1, 2q + 1), with p + 1 = n − k − 1, q = k + 1;
+    (c) G    ]
+         e = Spin(2p + 1, 2q + 1), with p = n − k − 1, q + 1 = k + 1.
+  By Corollary 6.13, given λ in (6.0.1), we will deal with the eight cases listed in Section
+2.1.
+6.14. Coherent Continuation Action. The number of representations with associated
+cycle O equals the multiplicity of the sgn representation of W (λ) in the coherent continuation
+representation. The orbit O is the minimal orbit which can occur for the given infinitesimal
+character, and this corresponds to the sgn representation. So we first study the coherent
+continuation action for the group e G.
+   The formulas of the coherent continuation action can be derived from those of the action of
+Hecke operators. As in [RT], given λ as in (6.0.1), we define a family of infinitesimal character
+F (λ) including λ. Note that every λ′ ∈ F (λ) can be indexed by some w ∈ W/W (λ).
+Write Bλ′ ,χ for the set of equivalence classes of standard representation parameters with
+infinitesimal character λ′ ∈ F (λ) and a fixed central character χ of e G, and
+                                              a
+                                    B :=               Bλ′ ,χ .
+                                                            \
+                                                λ′ ∈F (λ),χ∈Z( e
+                                                              G)
+
+As we will see later that the coherent continuation action is closely related to the cross
+action, we may use F (λ) to define the cross action of W on B, denoted w × γ for w ∈ W ,
+γ ∈ B, as shown in [RT]. In fact, fixing an infinitesimal character λ′ ∈ F (λ) and a central
+character χ, W (λ) acts on Bλ′ ,χ by the cross action.
+                    1    1
+  We set M = Z[u 2 , u− 2 ][B]. We fix the abstract infinitesimal character λa ∈ F (λ) cor-
+responding to the positive root system △+ := △+            a          a
+                                                    a (g, h ) (where h is an abstract Cartan
+    REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 41
+                                            Q                                   Q
+subalgebra of g) and the set of simple roots a ⊂ △+  a . For s = sα with α ∈      a , the action
+of Ts on γ ∈ M is defined in Section 9 of [RT].
+   On the other hand, we consider △(λ), the integral root system for λ and the integral Weyl
+group W (λ). As we take the infinitesimal character λ in (6.0.1), the integral root system for
+λ is ∆(Dn−k−1 × Dk+1 ), and due to Corollary 6.13, this is
+                   (
+                    ∆(Dp ) × ∆(Dq )                              if c = 2p, d = 2q,
+(6.14.1) ∆(λ) =
+                    ∆(Dp+1 ) × ∆(Dq ) or ∆(Dp ) × ∆(Dq+1 ) if c = 2p + 1, d = 2q + 1.
+Also we choose Π(λ) to be a set of simple roots for ∆(λ).
+  Given α ∈ Π(λ), we decompose sα = sα1 · · · sαm with αj ∈ Πa . Replace Tsβ with Tβ for
+each root β for simplicity.
+  Then
+
+                       Tα (γ) = Tα1 · Tα2 · · · · · Tαm (γ)
+(6.14.2)                       = p1 (u) · · · pm (u)sα1 × (sα2 × · · · (sαm × γ))
+                               + (terms from more split Cartan subgroups),
+  where pj (u) ∈ Z[u, u−1 ].
+  By [V1], we can define the coherent continuation action of W (λ) on Z[B], denoted w · γ,
+with w ∈ W (γ), γ ∈ B, as follows. For sα ∈ W (λ) with α ∈ Π(λ),
+  sα · γ := −Tsα (γ)|u=1 ,      with each term δ on the right side multiplied by (−1)l(γ)−l(δ) ,
+where l is a length function defined on parameters and it can be looked up in [V1].
+  Therefore, from each step Tαj in (6.14.2), we may define
+                       sαj · δ = −Tαj (δ)|u=1 , if αj is real or imaginay for δ
+and
+                             sαj · δ = Tαj (δ)|u=1, if αj is complex for δ.
+Let m(γ, sα ) be the number of occurrences of imaginary roots in {αj , 1 ≤ j ≤ m}. An easy
+calculation shows that
+(6.14.3)        sα · γ = (−1)m(γ,sα ) sα × γ + (terms from more split Cartan subgroups).
+   Now fix a block Bλ,χ of regular characters of G,  e then W (λ) acts on Z[Bλ,χ ] by the coherent
+continuation action, since w × γ ∈ Bλ,χ for all w ∈ W (λ), γ ∈ B. Due to the reason stated
+in the beginning of the section, the goal is to compute [sgnW (λ) : Z[Bλ,χ ]], the multiplicity of
+the sign representation in Z[Bλ,χ ] when considered as W (λ)-representations.
+   Notice that two λ-regular characters γi = (H     fi , Γi , γi ) and γj = (H
+                                                                             fj , Γj , γj ) from D are in
+the same cross action orbit if and only if H    fi = Hfj . We enumerate the Cartan subgroups of
+Ge as {Hf1 , · · · , H
+                     fl }, and pick a regular character γj specified by H   fj , then {γ1, · · · , γl } is a
+set of representatives of the cross action orbits of W (λ) on Z[Bλ,χ ].
+42                                  DAN BARBASCH AND WAN-YU TSAI
+
+  Let Wγj = {w ∈ W (λ) | w × γj = γj } be the cross stabilizer of γj in W (λ). Then we have
+the following Proposition.
+                             L       W (λ)
+Proposition 6.15. Z[Bλ,χ ] ≃ j IndWγ (ǫj ), where ǫj is a one-dimensional representation
+                                        j
+of Wγj such that for w ∈ Wγj , w · γj = ǫj (w)γj + other terms from more split Cartan
+subgroups.
+Proof. This can be easily proved by the formulas given in [RT] and (6.14.3).                       
+   By Proposition 6.15 and Frobenius reciprocity, the multiplicity of sgnW (λ) in Z[Bλ,χ ] is
+[sgnW (λ) : Z[Bλ,χ ]] = [sgnW (λ) |Wγj : ǫj ], which is equal to 0 or 1, since sgnW (λ) |Wγj is one-
+dimensional. This means that we have reduced our goal to count the number of γj ’s making
+[sgnW (λ) |Wγj : ǫj ] = 1. Equivalently, we calculate the number of γj such that
+
+(6.15.1)                                   sgnW (λ) |Wγj = ǫj .
+Due to Proposition 6.15 and (6.15.1), we have to analyze Wγj and ǫj for each γj .
+Some notation for Weyl group elements. Let ρ′ = (ρ1 , . . . , ρn ) = wρ for some w ∈ W =
+W (Dn ). We define the notations for elements in W as follows. For i 6= j, write si,j = sǫi −ǫj
+and si,j = sǫi +ǫj to be the reflections with respect to the corresponding roots. Moreover, for
+1 ≤ i < j ≤ n, let ti,j and ti,j denote the corresponding Weyl group elements such that
+               (
+      ′            interchanging the numbers i and j in ρ′                                if ij > 0
+ti,j (ρ ) =
+                   interchanging and changing both signs of the numbers i and j in ρ′     if ij < 0
+               (
+                   interchanging the numbers i and j in ρ′                                 if ij < 0
+ti,j (ρ′ ) =
+                   interchanging and changing both signs of the numbers i and j in ρ′      if ij > 0
+  For 0 < j ≤ n − 1, let t0,j and t0,j denote the corresponding Weyl group elements such
+that
+                (
+                  interchanging the numbers 0 and j in ρ′                     if j > 0
+   t0,j (ρ′ ) =                                                            ′
+                  interchanging and changing the sign of the number j in ρ    if j < 0
+                (
+                   interchanging the numbers 0 and j in ρ′                     if j < 0
+   t0,j (ρ′ ) =                                                             ′
+                   interchanging and changing the sign of the number j in ρ    if j > 0
+    Note that si,j and si,j , 1 ≤ i 6= j ≤ n, are fixed Weyl groups elements, whereas ti,j and ti,j ,
+0 ≤ i 6= j ≤ n − 1, are dependent of ρ′ . We have following advantages of using the notation
+for t’s:
+    (a) ti,i+1 (or ti,i+1 ) is a simple reflection no matter what ρ′ it is acting on.
+    (b) Let δ ∈ B be a parameter in the chamber of ρδ = wδ ρ for some wδ ∈ W . Then ti,j (or
+ti,j ) is integral for δ if and only if i is in the k-th position of ρδ and j is in the l-th position
+in ρδ , and k − l ∈ 2Z.
+     REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 43
+
+. Given a parameter γ = (He r+ ,r− ,m,s , Γ, λ) ∈ Bλ,χ . Write s = 2s′ if n is even; s = 2s′ + 1 if
+n is odd. Then γ can be expressed as follows:
+
+(6.15.2)
+(a1 , . . . , ar+ ; b1 , . . . , br− | ar+ +1 br− +1 , . . . , ar+ +m br− +m | ar+ +m+1 , . . . , ar+ +m+s′ , br− +m+1 , . . . , br− +m+s′ , x),
+ |               {z                } |                   {z                } |                               {z                              }
+            r + +r −                               2m                                                       s
+
+where ai ∈ Z,           bi ∈ Z + 12 (or the other way round), ǫi ± ǫj are imaginary for 1 ≤ i < j ≤
+r + +r − ; ǫi ±ǫj are real for r +r +2m+1 ≤ i < j ≤ n; for r +r +1 ≤ i < j ≤ r +r +2m,
+                                    +   −                           +   −                +   −
+
+ǫi − ǫj is imaginary and ǫi + ǫj is real. The coordinate x is missing when n is even, and it is
+either integral or half integral.
+   We compute the cross stabilizer for such parameters.
+Lemma 6.16. Let γ be a parameter given as in (6.15.2). Then from [AT],
+(6.16.1)                                Wγ = W C (λ)θ ⋊ (W r (λ) × W i (λ)).
+Furthermore, each group in (6.16.1) is explicitly expressed as follows:
+(6.16.2)                    W C (λ)θ = [W (△(Dm × Dm )) × (Z2 × Z2 )∗ ] ⋊ Z•2 ,
+                                       (
+                                         W (Ds′ ) × W (Ds′ )    if n = p + q
+(6.16.3)                     W r (λ) =
+                                         W (Ds′ ) × W (Ds′ +1 ) if n = p + q + 1
+(6.16.4)                       W i (λ) = W (Dr+ ) × W (Dr− ).
+In (6.16.2),
+(6.16.5)                       (
+                                   Z2 × Z2       if r + , r − are both nonzero, and s ≥ 2,
+        (Z2 × Z2 )∗ =
+                                   1             otherwise;
+                               (
+                                   Z2   if m 6= 0 and one of conditions (i), (ii), (iii) below happens.
+                       Z•2 =
+                                   1    otherwise.
+Here are the conditions: (i) s ≥ 2; (2) both r + and r − are nonzero; (3) r− = 0, r+ ≥ 1, s = 1
+with the coordinate x is half-integral.
+  When (Z2 × Z2 )∗ = Z2 × Z2 , the generators can be taken to be s1,r+ +r− +2m+1 s1,r+ +r− +2m+1
+and sr+ +1,r+ +r− +2m+s′ +1 sr+ +1,r+ +r− +2m+s′ +1 ; When Z•2 = Z2 , the generator can be taken to be:
+
+      (i) sr+ +r− +1,r+ +r− +2m+1 sr+ +r− +1,r+ +r− +2m+1 sr+ +r− +2,r+ +r− +2m+2 sr+ +r− +2,r+ +r− +2m+2 , or
+     (ii) s1,r+ +r− +1 s1,r+ +r− +1 sr+ +1,r+ +r− +2 sr+ +1,r+ +r− +2 , or
+    (iii) s1,r+ +1 s1,r+ +1 sr+ +2,r+ 2m+1 sr+ +2,r+ 2m+1 .
+Remark 6.17.
+  (1) W r (λ) is nontrivial iff s ≥ 3.
+  (2) W i (λ) is nontrivial iff r + ≥ 2 and r − ≥ 2.
+44                                   DAN BARBASCH AND WAN-YU TSAI
+
+     Now we are ready to prove the following lemma.
+Lemma 6.18. Let w ∈ Wγj . Retain the notation in Proposition 6.15 and Lemma 6.16. We
+have the analysis for ǫj corresponding to γj :
+     (a) If w ∈ W i (λ), then ǫj (w) = sgn(w).
+     (b) If w ∈ W r (λ), then ǫj (w) = 1.
+     (c) If w ∈ W (△(Dm × Dm )) ⊂ W C (λ)θ , then ǫj (w) = 1.
+     (d) In the case that (Z2 × Z2 )∗ = Z2 × Z2 , if w is a generator of one of the Z2 factors,
+         then ǫj (w) = 1.
+     (e) In the case that Z•2 = Z2 , if w is the generator of the Z2 factor, then ǫj (w) = −1.
+Proof. By the comment given before Proposition 6.15, we may choose any γj specified by
+e j to simplify the computation. In each case, we take a generator w ∈ Wγ and decompose
+H                                                                          j
+sα = sα1 · · · sαl with αi ∈ Πa . By (6.14.3), we just need to count m(γ, w), the number of
+occurrences of imaginary roots in {α1 , . . . , αl } (with respect to γ).
+   In case (a), we may choose the parameter γj to be
+                                               1 3         1
+                     (0, 1, 2, . . . , r + − 1; , , . . . , + r − − 1 | · · · · · · | · · · · · · ),
+                                               2 2         2
+which is in the chamber of ρ = (0, 2, 4, . . . ; 1, 3, 5, · · · | · · · | · · · ). A generator in W i (λ) is of
+the form si,i+1 with 1 ≤ i ≤ r + − 1 or r + + 1 ≤ i ≤ r + + r − − 1, s1,2 , or sr+ +1,r+ +2 .
+  We treat w = si,i+1 only, since the rest will be similar. Decompose
+                  si,i+1 = tk,k+2                               for some 0 ≤ k ≤ r + + r − − 1
+                         = tk+1,k+2tk,k+1 tk+1,k+2.
+It is clear that each ti,l is a simple reflection through an imaginary root, and hence m(γj , sα ) =
+3. Therefore we conclude that ǫj (w) = sgn(w) for w ∈ W i (λ).
+   Case (b) is similar. We choose the parameter γj to be
+                                                                1 3
+                                  (· · · | · · · | 0, 1, . . . , , , . . . ),
+                                                                2 2
+which is in the chamber of ρ = (· · · | · · · | 0, 2, . . . , 1, 3, . . . ). Everything is the same as in case
+(a), except that each til is real for the parameter which is acted, and hence m(γj , sα ) = 0.
+Therefore we conclude that ǫj (w) = 1 for w ∈ W r (λ).
+  In case (c), we choose the parameter γj to be
+                                                        1       3
+                                           (· · · | 0       1     · · · | · · · ),
+                                                        2       2
+which is in the chamber of ρ = (· · · | 0, 1, 2, 3, · · · | . . . ). Take w to be the Weyl group
+element such that
+                                                3        1
+                           w : γj 7→ (· · · | 1       0 · · · | · · · ),
+                                                2        2
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 45
+
+   then w is one of the generators of W (△(Dm × Dm )) ⊂ W C (λ)θ . We decompose w in terms
+of t’s:
+                                 w = t02 t13 = t12 t01 t12 t23 t12 t23 .
+It is easy to check that m(γj , w) = 2.
+   Another kind of generators in W (△(Dm × Dm )) is of the form
+                                                 3                1
+                         w : γj 7→ (· · · | −1 −        −0 − · · · | · · · ).
+                                                 2                2
+We decompose w in terms of t’s:
+                               w = t02 t13 = t12 t01 t12 t10 t10 t12 t23 t12 t10 t10 ,
+and get m(γj , sα ) = 2. Therefore, we conclude that ǫj (w) = 1 for w ∈ W (△(Dm × Dm )) ⊂
+W C (λ)θ .
+  In case (d), we choose the parameter γj to be
+                                            1                       3
+                                 (. . . , 0; · · · | · · · | 1 . . . . . . ).
+                                            2                       2
+The generators of the Z2 × Z2 factor can be chosen to be
+                                                    1                         3
+                         w1 : γj 7→ (. . . , −0; · · · | · · · | −1 . . . . . . )
+                                                    2                         2
+and
+                                                   1                          3
+                         w2 : γj 7→ (. . . , 0; − · · · | · · · | 1 · · · − . . . ).
+                                                   2                          2
+We treat w1 only. Decompose
+                                          w1 = t02 t02 = t12 t01 t01 t12 .
+It can be checked that m(γj , w1 ) = 0, and hence ǫj (w1 ) = 1. Similarly for w2 . We conclude
+that ǫ(w) = 1 for w in the Z2 × Z2 factor.
+   In case (e), we choose the parameter γj to be
+                                                    1          3
+                                       (. . . , 0; · · · | 1 · · · | · · · )
+                                                    2          2
+or
+                                                        3        1
+                                             (· · · | 1 | 0, . . . ).
+                                                        2        2
+We treat the first one only. The generator of the Z2 factor can be chosen to be
+                           1         3                                 1            3
+            w : (. . . , 0; · · · | 1 · · · | · · · ) 7→ (. . . , −0; − · · · | −1 − · · · | · · · ).
+                           2         2                                 2            2
+Decompose
+                 w = t02 t02 t13 t13 = t12 t01 t12 t23 t12 t23 t12 t01 t12 t10 t10 t12 t23 t12 t10 t10 ,
+and get m(γj , w) = 1. So ǫj (w) = −1 for w in the Z2 factor.
+                                                                                                           
+46                              DAN BARBASCH AND WAN-YU TSAI
+
+   By Lemma 6.18, γj does not satisfy (6.15.1) if and only if W r (λ) is nontrivial or Z•2 = Z2 is
+contained in Wγj . Therefore, we have to rule out γj specified by H  e r+ ,r− ,m,s satisfying either
+of the following.
+    (1) s ≥ 3;
+    (2) m ≥ 1 and r + ≥ 1, r − ≥ 1;
+    (3) m ≥ 1 and s ≥ 2.
+    (4) m ≥ 1 and s = 1, r − = 0, r + ≥ 1, and k = (n − 3)/2.
+   Consequently, we have the following lemma.
+                                                                    e with central character
+Lemma 6.19. Let nχO be the number of irreducible representations of G
+χ attached to OC and λ.
+   (a) In Case 1, nχO = 4.
+   (b) In Case 2 and 3, nχO = 3.
+   (c) In Case 4, nχO = 2.
+   (d) In Case 5 and 6 with G    ]
+                             e = Spin(2p + 1, 2p − 1), nχO = 2.
+   (e) In Case 5 and 6 with G    ]
+                             e = Spin(2p + 1, 2q + 1), q < p − 1 , nχO = 1.
+   (f) In Case 7 and 8, nχO = 2.
+Example 6.20. Let k = 1 and consider the infinitesimal character
+                                  λ = (n − 3, . . . , 1, 0; 3/2, 1/2).
+e admits an admissible representation in the following cases as we fix a genuine central
+G
+character χ of G. e
+   (1) k = n2 − 1 = 1, G   e = Spin(4, 4), λ = (1, 0; 3/2, 1/2). The counting argument gives the
+       parameters from H     e 2,2,0,0 , H
+                                         e 1,1,0,2 , H
+                                                     e 0,0,2,0, H
+                                                                e 0,0,2,0 , so nχ = 4.
+                                                       I          II            O
+        e
+   (2) G = Spin(2n − 4, 4) with 2n − 4 > 4. The counting argument gives the parameters
+       from H e n−2,2,0,0, He n−3,1,0,2, He n−4,0,2,0, so nχ = 3.
+                                                               O
+        e    ]
+   (3) G = Spin(2n − 3, 3). The counting argument gives the parameter from H           e n−2,1,0,1, so
+         χ
+       nO = 1.
+   (4) Ge = ]Spin(2n − 5, 5). The counting argument gives the parameters from H           e n−3,2,0,1,
+       He n−5,0,2,1, so nχ = 2.
+                          O
+
+Lemma 6.21. Given λ in (6.0.1), let
+                      e = {χ ∈ Πg (Z(G))
+              Πg,λ (Z(G))            e | ∃ π ∈ U e (OC , λ) s.t. π| e = χ}.
+                                                G                  Z(G)
+
+Then we have
+                          e = 4;
+   (a) in Case 1, |Πg,λ(Z(G))|
+                                e = 2;
+   (b) in Case 2 and 3, |Πg,λ(Z(G))|
+                          e = 2;
+   (c) in Case 4, |Πg,λ(Z(G))|
+   (d) In Case 5 and 6 with G    ]
+                             e = Spin(2p                        e = 2;
+                                         + 1, 2p − 1), |Πg,λ (Z(G))|
+    REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 47
+
+    (e) In Case 5 and 6 with G    ]
+                              e = Spin(2p                                   e = 1;
+                                          + 1, 2q + 1), q < p − 1, |Πg,λ (Z(G))|
+                                 e = 1.
+    (f) in Case 7 and 8, |Πg,λ(Z(G))|
+  Below is the main theorem of the section and it follows from Lemma 6.19 and 6.21 since
+                                                X
+                              |UGe (Oc , λ)| =          nχO .
+                                                      χ∈Πg,λ (Z( e
+                                                                G))
+
+                                                                                     e
+Theorem 6.22. Let nO := |UGe (Oc , λ)| be the number of unipotent representations of G
+attached to Oc and λ. Then
+      Case 1: nO = 16;
+      Case 2, 3: nO = 6;
+      Case 4: nO = 4;
+      Case 5, 6: When G    ]
+                       e = Spin(2p + 1, 2p − 1) nO = 2;
+                       e   ]
+      Case 5, 6: When G = Spin(2p + 1, 2q + 1), q < p − 1, nO = 1;
+      Case 7, 8: nO = 1.
+
+
+
+                                         7. A Construction
+7.1. Littlewood Rule. Fh (λ) will denote the finite dimensional representation with highest
+weight λ of the Lie algebra h.
+   We will use the following result, a generalization of the Littlewood rule as in [EW]. Let
+(V, h , i) be an orthogonal space of dimension m with positive definite inner product, and let
+O(m) be the corresponding (compact) orthogonal group. A representation is parametrized
+by a partition/tableau such that there are at most m rows, and the sum of the lengths
+of the first two columns is ≤ m. An irreducible representation was parametrized ear-
+lier by its highest weight as (τ1 , . . . , τ[m/2] , ǫ) with ǫ = ±1. The corresponding partition
+is (τ1 , . . . , τ[m/2] , 1, . . . , 1 , 0, . . . , 0). Let Sp(2n, R) be the symplectic group of rank n. Fix a
+                          | {z }
+                   m−2(1−ǫ)
+Cartan decomposition g = k + p = k + p+ + p− , in the standard coordinates. The oscillator
+correspondence matches W (τ ) with an irreducible highest weight module Θ(W ) = Eτ as
+follows. For a partition (λ1 , . . . , λm ), define
+                                  λ♯ = (−m/2 − τn , . . . , −m/2 − τ1 ),
+where the tableau of τ with at most m parts has possibly been padded with 0′ s to make n
+parts. Then Θ(W ) = Eτ has highest weight λ♯ . The length ℓ(λ) of a tableau (λ1 , . . . , λm ) is
+defined to be the number of nonzero λi .
+Proposition 7.2.
+                                  [WO(m) (τ ) : F (λ)] = [F (λ♯ ) : Eτ ]
+48                             DAN BARBASCH AND WAN-YU TSAI
+
+Under the assumption ℓ(λ) ≤ (m + 1)/2, let n = m/2 if m is even, n = (m + 1)/2 if m is
+odd. Then Eτ is an irreducible generalized Verma module for q = k + p+ , and the formula
+can be written as
+                     [W (τ ) : F (λ)] = [F (λ) : Wgl(n) (τ ) ⊗ S(p+ )],
+where                          X
+                      S(p+ ) =     F (2m1 , . . . , 2mn ), 2mj ∈ 2Z.
+Proof. The first formula is standard for the Θ−correspondence; see [EW] for further expla-
+nations, references to the original result, and generalizations. When ℓ(λ) ≤ m/2, this is the
+classical Littlewood rule; we use n = ℓ(λ) ≤ m/2. When ℓ(λ) = (m + 1)/2, necessarily m
+is odd, and we use n = (m + 1)/2. We need to show that the generalized Verma module for
+k + p+ with highest weight λ♯ is irreducible. The infinitesimal character is
+                       λ♯ + ρ = (1/2, −1/2 − τ1 , . . . , −m/2 + 1 − τn−1 ).
+The first term is greater than 0, the rest are negative. The only possible factor would be the
+highest weight module with weight
+                           (−1/2, −1/2 − τ1 , . . . , −m/2 + 1 − τn−1 ).
+But this weight does not differ from λ♯ by an element in the root lattice, so the generalized
+Verma module is irreducible.                                                               
+  We treat the case a = 2p = 2k + 2, b = 2q = 2k + 2 + 2r− with r− ≥ 0 (Cases 1 and 3 in
+Section 2.1) in detail, and note the necessary modifications for a = 2p + 1, b = 2q − 1 with
+r− ≥ 0 (Cases 4, 6, 8 in Section 2.1).
+  Let q = l + u be the θ-stable parabolic subalgebra determined by ξ = (1, . . . , 1 0, . . . , 0).
+                                                                         | {z }
+                                                                                  p
+The Levi component is l = gl(p) × so(b). The real forms of the factors are u(p) × so(b) for
+a = 2p, and u(p) × so(1, b − 1) for a = 2p + 1. The nilradical is u = u1 + u2 with u2 ⊂ k in
+all cases. Furthermore
+                      (
+                        Span {X(ǫi ± ǫp+j )}1≤i≤p,1≤j≤q           for a = 2p,
+             u1 ∩ s =
+                        Span {X(ǫi ± ǫp+j ), X(ǫi )}1≤i≤p,1≤j≤q−1 for a = 2p + 1.
+
+     We consider
+(7.2.1)                        M(µ) = U(g) ⊗U (q) [F (µL      µR )],
+the generalized Verma module where F (µL |µR ) := Fgl(p) (µL ) ⊠ Fso(b) (µR ) is the module of
+gl(p)×so(b) with highest weights µL for gl(p) and µR for so(b). We use the standard positive
+systems, so
+                         (
+                          (−q, −q − 1, . . . , −p − q + 1 q − 1, . . . , 0) if a = 2p,
+     ρ := ρ(so(a + b)) =
+                          (−q, −q − 1, . . . , −p − q + 1 q − 1, . . . , 1) if a = 2p + 1.
+For a = 2p+1, this is ρ restricted to the compact part of the fundamental Cartan subalgebra;
+we drop a 0 from the second set of coordinates.
+    REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 49
+
+  The infinitesimal character of M(µ) is as before,
+                           µ + ρ ≃ (p − 1/2, p − 3/2, . . . , 1/2 q − 1, . . . , 1, 0).
+The possible µ = (µL              µR ) are given by the equations
+               (a1 , . . . , ap    b1 , . . . , bq ) + (−q, −q − 1, . . . , −p − q + 1 q − 1, . . . , 0)
+               = (∓1/2, −3/2, . . . , −p + 1/2 q − 1, . . . , 0).
+When 2k + 2 < p + q, and there are two more for ]
+                                                Spin(2p, 2p):
+(a1 , . . . , ap b1 , . . . , bp )+(−p, −p−1, . . . , −2p+1 p−1, . . . , 0) = (0, . . . , −p+1 p−1/2, . . . , ±1/2).
+So there are four µ,
+     (i) F (µL µR ) = F (q − 1/2, . . . , q − 1/2 0, . . . , 0).
+    (ii) F (µL µR ) = F (q + 1/2, q − 1/2, . . . , q − 1/2 0, . . . , 0).
+   (iii) F (µL µR ) = F (p, . . . , p 1/2, . . . , 1/2).
+   (iv) F (µL µR ) = F (p, . . . , p 1/2, . . . , 1/2, −1/2).
+We call them Cases (i)–(iv). Again, Cases (iii) and (iv) only occur for k + 1 = p = q,
+      ]
+i.e. Spin(2p,           ]
+              2p). For Spin(2p       + 1, 2q − 1), only Cases (i) and (ii) occur, and one 0 is
+dropped from the coordinates.
+   M(µ) is reducible, and the irreducible quotient L(µ) has associated variety OC = [3 22k 12n−4k−3 ].
+Its character is
+                       X
+            L(µ) =          (−1)ℓ(w) M(w · µ)       where w · µ = w(µ + ρ) − ρ.
+                          w∈W (Dp+ )
+
+As a k-module, M(µ) = U(k) ⊗U (q∩k) [S(u1 ∩ s) ⊗ (F (µL µR ))]. Embed so(b) ⊂ gl(b) in case
+b = 2q, and so(b − 1) ⊂ gl(b − 1) in case b = 2q − 1. Write gl(b − ǫ) with ǫ = 0 if b = 2q and
+ǫ = 1 if b = 2q − 1.
+Lemma 7.3. As an l ∩ k-module,
+                          X
+           S m (u1 ∩ s) =    Fgl(p) (m1 , . . . , mp ) ⊠ Fgl(b−ǫ) (m1 , . . . , mp , 0, . . . , 0)
+     P
+with   mi = m. In all cases p = k + 1 ≤ b − ǫ = k + 1 − ǫ + r− .
+Proof. u1 ∩ s has highest weight (1, 0, . . . , 0 1, 0, . . . , 0). The representation on the second
+factor is the standard one for so(b − ǫ). It is the restriction of the standard representation
+with highest weight (1, 0, . . . , 0) of so(b − ǫ) ⊂ gl(b − ǫ). The claim follows.                 
+Definition 7.4. Let W (β) and F (µR ) be representations of so(b − ǫ). Then
+                                                          
+                             Wso(b−ǫ) (β) ⊗ Fso(b−ǫ) (µR ) gl(p)
+means the sum of (with multiplicity) of the composition factors of the tensor product whose
+highest weight has at most p nonzero coordinates replaced by the irreducible representations
+of gl(p) with the same highest weight.
+50                                   DAN BARBASCH AND WAN-YU TSAI
+
+ This is related to the Littlewood rule for restriction from gl(b − ǫ) to so(b − ǫ).
+                                P
+Proposition 7.5. Let S(p+ ) = V (2m1 , . . . , 2mp ). Then
+                     [V (δ) ⊠ W (β) : S(u1 ∩ s) ⊗ F (µL µR )]gl(p)×so(b−ǫ)
+(7.5.1)                                              
+                    =[ Wso(b−ǫ) (β) ⊗ Fso(b−ǫ) (µR )∗ gl(p) ⊗ S(p+ ) ⊗ Fglp) (µL ) : V (δ)]gl(p) .
+In particular the multiplicity is 0 unless βp+1 = · · · = 0.
+Proof. We abbreviate (a1 , . . . , ap , 0, . . . , 0) as (a, 0).
+(7.5.2)
+    [V (δ) ⊠ W (β) : S(u1 ∩ s) ⊗ F (µL µR )]
+        X
+     =     [V (δ) ⊠ W (β) : (Fgl(p) (a) ⊠ Fgl(b−ǫ) (a, 0) so(b−ǫ) ) ⊗ F (µL                  µR )]
+          a
+          X
+      =       [V (δ) ⊠ W (β) : (Fgl(p) (a) ⊗ Fgl(p) (µL )) ⊠ (Fgl(b−ǫ) (a, 0)           so(b−ǫ) ⊗ Fso(b−ǫ) (µR ))]
+          a
+          X
+      =       [V (δ) : Fgl(p) (a) ⊗ Fglp (µL )] · [W (β) : Fgl(b−ǫ) (a, 0)      so(b−ǫ) ⊗ Fso(b−ǫ) (µR )]
+          a
+          X
+      =       [V (δ) ⊗ Fgl(p) (µL )∗ : Fgl(p) (a)] · [W (β) ⊗ Fso(b−ǫ) (µR )∗ : Fgl(b−ǫ) (a, 0)          so(b−ǫ) ].
+          a
+Let
+                                                               X
+(7.5.3)                          Fgl(p) (a) ⊗ Fgl(p) (µL ) =       cγa,µL Fgl(p) (γ).
+                                                               γ
+
+Note that
+(7.5.4)       cγa,µL = [Fgl(p) (a) ⊗ Fgl(p) (µL ) : Fgl(p) (γ)] = [Fgl(p) (a) : Fgl(p) (γ) ⊗ Fgl(p) (µL )∗ ].
+So
+                                                               X
+(7.5.5)                         Fgl(p) (γ) ⊗ Fgl(p) (µL )∗ =       cγa,µL Fgl(p) (a).
+                                                               a
+
+Assume that µL is such that its coordinates are all nonnegative; this is the case for w(µ+ρ)−ρ
+because the first p coordinates of w(µ + ρ) are of the form
+                          (r1 + 1/2, . . . , rℓ + 1/2, −s1 − 1/2, . . . , −sp−ℓ − 1/2)
+with 0 ≤ ri , sj ≤ p, and −ρ = (p + q − 1, . . . , q −q + 1, −q + 2, . . . , −1, 0). So the factors
+in the tensor product Fgl(p) (a) ⊗ Fgl(p) (µ) have highest weights γ with nonnegative entries as
+well. Thus by (7.5.2) and (7.5.3), [V (δ) ⊠ W (β) : S(u1 ∩ k) ⊗ F (µL µR )] becomes
+           XX
+(7.5.6)            cγa,µL [V (δ) : Fgl(p) (γ)] · [W (β) ⊗ Fso(b−ǫ) (µR )∗ : Fgl(b−ǫ) (a, 0) so(b−ǫ) ].
+                a   γ
+
+Proposition 7.2 implies
+                                                                                         +
+(7.5.7)             [Fso(b−ǫ) (τ ) : Fgl(b−ǫ) (a, 0)   so(b−ǫ) ] = [Fgl(p) (τ ) ⊗ S(p        ) : Fgl(p) (a)],
+    REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 51
+                                                                             P
+where the right hand side is a gl(p)-multiplicity, and S(p+ ) =                V (2m1 , . . . , 2mp ) with
+mi ∈ N as a gl(p)-module. In particular τ can have at most p nonzero coordinates, and the
+right hand side in (7.5.7) is a gl(p)-multiplicity.
+   The sum is over the a such that γ = δ occurs in V (a). By (7.5.5),
+                             X
+(7.5.8)                          cδa,µL Fgl(p) (a) = V (δ) ⊗ Fgl(p) (µL )∗ .
+So the multiplicity is
+                 [V (δ) ⊠ W (β) : S(u1 ∩ s) ⊗ F (µL µR )] =
+                                                              X
+                  = [ W (β) ⊗ Fso(b−ǫ) (µR )∗ gl(p) ⊗ S(p+ ) :   ca,µL ,δ Fgl(p) (a)]
+(7.5.9)                                            
+                                                                               a
+                                               ∗
+                  = [ W (β) ⊗ Fso(b−ǫ) (µR )           gl(p)
+                                                               ⊗ S(p ) : V (δ) ⊗ Fgl(p) (µL )∗ ]
+                                                                     +
+
+                                             
+                  = [ W (β) ⊗ Fso(b−ǫ) (µR )∗ gl(p) ⊗ S(p+ ) ⊗ Fgl(p) (µL ) : V (δ)].
+                                                                                                                    
+. We compute the multiplicity
+                                                                    X
+(7.5.10)               [V (δ) ⊠ W (β) : S(u1 ∩ s) ⊗                           ǫ(w)F (w · µ)].
+                                                                 w∈W (Dp+ )
+                                                                 P
+There are four cases. Write X (µ) := S(u1 ∩ s) ⊗                    w∈W (Dp+ ) ǫ(w)F (w · µ).
+
+Cases (i) and (ii). µR = T riv and
+                         (
+                           (q − 1/2, q − 1/2, . . . , q − 1/2)                     in Case (i),
+                    µL =
+                           (q + 1/2, q − 1/2, . . . , q − 1/2)                     in Case (ii).
+Proposition 7.6.
+             V (δ) ⊠ W (β) = (α1 + q − 1/2, . . . , αp + q − 1/2                    β1 , . . . , βp , 0, . . . 0)
+occurs in X (µ), and with multiplicity 1 if and only if
+                  (
+                   α1 ≥ β1 ≥ α2 ≥ · · · ≥ αp ≥ |βp |                        when a = b = 2p,
+                   α1 ≥ β1 ≥ α2 ≥ · · · ≥ αp ≥ βp ≥ 0                       otherwise,
+with αi , βj ∈ Z.
+  In Case (i), (α) − (β) is in the root lattice, in Case (ii), (α) − (β) − (1, 0, . . . , 0) is in the
+root lattice.
+Proof. By Proposition 7.5, equation (7.5.10) becomes
+                                                 X
+                 [V (δ) ⊠ W (β) : S(u1 ∩ s) ⊗        ǫ(w)F (w · µL                                0)]
+                                                               w∈W (Dp+ )
+(7.6.1)                                                   X
+                         = [W (β) ⊗ S(p+ ) ⊗                        ǫ(w)F (w · µL ) : V (δ)]
+                                                       w∈W (Dp+ )
+52                               DAN BARBASCH AND WAN-YU TSAI
+
+In all cases W (β) is a representation of gl(p) where the highest weight has been padded by
+0’s to make a highest weight of gl(p).
+  We can do the computation in a different Lie algebra, g′ = sp(2p). Consider the parabolic
+subalgebra p′ = l′ + u′ corresponding to ξ ′ = (1, . . . , 1), where l′ ∼
+                                                                        = gl(p). Let
+                                     M(λ′ ) = U(g′ ) ⊗U (p′ ) F (λ′ )
+be the generalized Verma module with λ′ such that
+                               (
+                                (−1/2, −3/2, . . . , −p + 1/2) in case (i),
+(7.6.2)          λ′ + ρ(Cp ) =
+                                (1/2, −3/2, . . . , −p + 1/2)  in case (ii).
+Then ρ(Cp ) = (−1, . . . , −p) and
+                                  (
+                                   (1/2, . . . , 1/2)      in case (i),
+(7.6.3)                      λ′ =
+                                   (3/2, 1/2, . . . , 1/2) in case (ii).
+
+  The quotient L(λ′ ) is one of the metaplectic representations with l′ ∩ k′ -structure
+                   (P
+                             F (2m + 1/2, 1/2, . . . , 1/2) in case (i),
+(7.6.4)               Pm∈N gl(p)
+                         m∈N Fgl(p) (2m + 3/2, 1/2, . . . , 1/2) in case (ii)
+and character analogous to L(λ) :
+                       P                                 P
+(7.6.5)    L(λ′ ) =          ǫ(w)M(w · λ′ ) =                      ǫ(w)S(u′) ⊗ F (w · λ′ ).
+                        w∈W (Dp+ )                    w∈W (Dp+ )
+
+
+   The infinitesimal character λ′ + ρ(Cp ) = (∓1/2, −3/2 . . . , −p + 1/2) is the same as the first
+p coordinates of the infinitesimal character of M(λ). Furthermore, on the first p coordinates,
+           w · µL =w(µL + ρ(Dn )) − ρ(Dn )
+(7.6.6)
+                  =w(λ′ + ρ(Cp )) − ρ(Cp )+(q − 1, . . . , q − 1) = w · λ′ + (q − 1, . . . , q − 1).
+  The multiplicity in (7.6.1) is therefore
+                                X
+(7.6.7)   [W (β) ⊗ S(u′) ⊗            ǫ(w)F (w · λ′ ) : V (δ + (−q + 1, . . . , −q + 1))]gl(p) .
+                                w∈W (Dp+ )
+
+
+  The multiplicity in (7.6.7) becomes
+                    P
+        
+         [W (β) ⊗ m Fgl(p) (2m + 1/2, 1/2, . . . , 1/2) : V (δ + (−q + 1))]
+        
+        = [W (β) ⊗ F (2m, 0, . . . , 0) : V (δ + (−q + 1/2))]                                in case (i),
+(7.6.8)              P gl(p)
+        
+         [W  (β) ⊗    m Fgl(p) (2m + 3/2, 1/2, . . . , 1/2) : V (δ)]
+        
+        
+          = [W (β) ⊗ Fgl(p) (2m + 1, 0, . . . , 0) : V (δ + (−q + 1/2))]                      in case (ii).
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 53
+
+ By the Littlewood-Richardson rule,
+                       X                             X
+(7.6.9)        W (β) ⊗    Fgl(p) (k, 0, . . . , 0) =   V (β1 + m1 , . . . , βp + mp ),
+                             k∈N
+                                                           P
+where the sum is taken over the set {mi ∈ N                    mi = k, mi+1 ≤ βi − βi+1 , 1 ≤ i ≤ p − 1}.
+Therefore, in case (i),
+                                   X
+                    [W (β) ⊗             Fgl(p) (2m, 0, . . . , 0) : V (δ − q + 1/2)]
+                                   m∈N
+                   
+(7.6.10)           
+                   1         if δ1 − q + 1/2 ≥ β1 ≥ · · · ≥ δp − q + 1/2 ≥ βp ≥ 0, p < q
+                  = 1         if δ1 − q + 1/2 ≥ β1 ≥ · · · ≥ δp − q + 1/2 ≥ |βp |, p = q
+                   
+                   0         otherwise.
+When the multiplicity is 1, there is an additional restriction that (δ) − (q − 1/2) − (β) be in
+the root lattice.     P
+  The case [W (β) ⊗       Fgl(p) (2m + 1, 0, . . . , 0) : V (δ − q + 1/2)] is the same, but the
+                         m∈N
+multiplicity is 1 only when (δ) − (q − 1/2) − (β) − (1, 0, . . . , 0) is in the root lattice. Recalling
+that the notation is (α) = (δ) − (p − 1/2), the assertions in the Proposition follow.                 
+Cases (iii) and (iv). In these cases µR = (1/2, . . . , 1/2, ±1/2) = Spin± , and µL = (p, . . . , p).
+The multiplicity of V (δ) ⊠ W (β) in Proposition (7.5) is
+                       X
+                           ca,µL ,δ [W (β) ⊗ Fso2p (µR )∗ : Fgl2p (a, 0) so2p ].
+                         a
+
+Since the coordinates of the factors of Fgl2p (a, 0) are all nonnegative integers, the same has
+to hold for W (β) ⊗ Fso2p (µR )∗ . It follows that all the coordinates of β are half-integers, so
+strictly greater than 0 except for possibly the last one.
+Proposition 7.7.
+    • In Case (iii),
+                                     
+                                     
+                                     1        if δ1 − p + 1/2 ≥ β1 ≥ · · · ≥ δp − p + 1/2 ≥ |βp |,
+      [V (δ) ⊗ W (β) : X (µ)] =               (δ) − (p − 1/2) − (β) in the root lattice,
+                                     
+                                     0        otherwise.
+     • In Case (iv),
+                                   
+                                   
+                                   1
+                                 if δ1 − p + 1/2 ≥ β1 ≥ · · · ≥ δp − p + 1/2 ≥ |βp |,
+   [V (δ) ⊗ W (β) : X (µ)] =    (δ) − (p − 1/2) − (β) − (1, 0, . . . , 0) in the root lattice,
+                             
+                             0 otherwise.
+
+In these cases, the coordinates of δ are in Z, the coordinates of β in (Z + 1/2).
+Proof. We will use the following two lemmas and the Littlewood rule.
+54                                    DAN BARBASCH AND WAN-YU TSAI
+
+Lemma 7.8. Assume Fso2p (β) is a module for so(2p). Then
+                                   X
+                Fso2p (β) ⊗ Spin =     Fso2p (βi + ǫi /2),                                ǫi = ±1
+and the sum is over the ǫi such that (βi + ǫi /2) is a highest weight.
+Proof. Omitted.                                                                                                    
+Lemma 7.9. Assume Fgl(p) (β) is a module for gl(p). Then
+                                                                X
+   Fgl(p) (β) ⊗ Fgl(p) (1/2, . . . , 1/2, −1/2, . . . , −1/2) =   Fgl(p) (βi + ǫi /2),                  ǫi = ±1,
+                                          |      {z        }
+                                                         k
+
+with exactly k ǫi ’s equal to −1, and the sum is over the ǫi such that (βi + ǫi /2) is a highest
+weight.
+Proof. Omitted.                                                                                                    
+     Consider              X
+                                                                                +
+                                 ca,µL ,δ [W (β) ⊗ Spin∗±            gl ⊗ S(p       ) : Fgl (a)].
+                            a
+As before, this is
+                          [W (β) ⊗ (Spin± )∗ ⊗ S(p+ ) ⊗ Fgl(p) (µL ) : V (δ)]glp .
+                               P
+     Replace Fgl(p) (µL ) by         ǫ(w)Fgl(p) (w(µL + ρ(D2p )) − ρ(D2p )) :
+                                w∈W (Dp+ )
+                                                             X
+(7.9.1)         [W (β) ⊗ (Spin± )∗ ⊗ S(p+ ) ⊗                        ǫ(w)Fgl(p) (w · µL ) : V (δ)].
+                                                        w∈W (Dp+ )
+
+     Write Ch(W ) for the character of W .
+Lemma 7.10.
+                                                                           
+                                         X
+      Ch (Spin± )∗ ⊗ S(p+ ) ⊗                     ǫ(w)Fgl(p) (w · µL ) = Ch(L(λ′ )) ⊗ e(p−1,...,p−1) ,
+                                      w∈W (Dp+ )
+
+where L(λ′ ) is the metaplectic representation introduced in the last section.
+Proof.
+                                                                                      −ρ(△(p+ ))
+                      Ch(S(p+ )) = Q                1
+                                                        (1−eα )
+                                                                  = (−1)q       Qe
+                                                                                       (eα/2 −e−α/2 )
+                                             α∈△(p+ )
+                                                                            α∈△(p+ )
+
+(7.10.1)
+                                                                                     −p+1    −p+1
+                                                        −ρ(△(p+ ))               (    2 ,..., 2 )
+                                         = (−1)q e ∆ +               = (−1)q e          ∆ p+
+                                                                                                    ,
+                                                             p
+   REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 55
+
+where q = |△(p+ )|. The right hand side can be rewritten as
+
+   RHS = e(p−1,...,p−1) · Ch[L(λ′ )]
+                                                                               
+                                X
+       = e(p−1,...,p−1) · Ch                          ǫ(w)M(w · λ′ )
+                                         w∈W (Dp+ )
+                                                                                                         
+                                                                   X
+           = e(p−1,...,p−1) · Ch[S(p+ )] · Ch                               ǫ(w)Fgl(p) (w · λ′ ) .
+                                                              w∈W (Dp+ )
+                                                                       P                          ′
+                                                                                ǫ(x)ex[w·λ +ρ(glp )]
+               (−1)q ( p−1 ,..., p−1 )     X                   x∈W (Ap−1 )
+           =        e 2           2                    ǫ(w)
+                ∆p+                                                              ∆gl(p)
+                                         w∈W (Dp+ )
+                                                                                        P                               3
+                                                                                                      ǫ(x)exw(∓1/2,− 2 ,...,−p+1/2)
+                     q
+               (−1) ( p−1 ,..., p−1 ) ( p+1 ,..., p+1 )        X                   x∈W (Ap−1 )
+           =        e 2          2   e 2           2                       ǫ(w)
+                ∆p+                                                                                        ∆gl(p)
+                                                          w∈W (Dp+ )
+
+                                   X                               3
+                                              ǫ(v)ev(∓1/2,− 2 ,...,−p+1/2)
+           = (−1)q e(p,...,p)
+                                                       ∆Dp
+                                v∈W (Dp )
+
+           = (−1)q e(p,...,p)Ch[Spin∗± ]
+
+On the other hand,
+                                                                                                      P
+                                                                                                              ǫ(x)ex[w·µL +ρ(glp )]
+                                           ( −p+1 ,..., −p+1 )            X
+                                          e    2         2                                    x∈W (Ap−1 )
+   LHS = Ch[Spin∗± ] · (−1)q                                       ·                ǫ(w)
+                                                   ∆p+                                                         ∆glp
+                                                                       w∈W (Dp+ )
+                                               −p+1
+                                                                                              P                v(0,−1,...,−p+1)
+                                                    ,..., −p+1
+                                                                                                v∈W (Dp ) ǫ(v)e
+                                           (                   )
+                                         qe
+                                                2          2
+                                                                        ( 3p−1 ,..., 3p−1
+           =   Ch[Spin∗± ] · (−1)                                  ·e       2          2
+                                                                                          )
+                                                   ∆p+                                                          ∆glp
+                                                             ∆Dp
+           = (−1)q · Ch[Spin∗± ] · e(p,...,p) ·                       = (−1)q · Ch[Spin∗± ] · e(p,...,p) .
+                                                           ∆p+ ∆gl(p)
+
+The lemma follows.                                                                                                                    
+
+  Thus (7.9.1) becomes
+
+
+(7.10.2)                         [W (β) ⊗ L(λ′ ) : V (δ + (−p + 1))]
+
+  By the same argument as in cases (i) and (ii), we get
+56                                       DAN BARBASCH AND WAN-YU TSAI
+
+     In case (iii),
+                                  X
+                       [W (β)⊗           Fgl(p) (2k, 0, . . . , 0) : V (δ − p + 1/2)] =
+                                   k∈N
+(7.10.3)                             (
+                                      1        if δ1 − p + 1/2 ≥ β1 ≥ · · · ≥ δp − p + 1/2 ≥ |βp |,
+                                   =
+                                      0        otherwise.
+
+   When the multiplicity is 1, there is an additional restriction that (δ) − (p − 1/2) − (β) be
+in the root lattice.
+   In case (iv),
+
+                                           X
+                              [W (β) ⊗           Fgl(p) (2k + 1, 0, . . . , 0) : V (δ − p + 1/2)]
+                                           k∈N
+(7.10.4)                  (
+                           1       if δ1 − p + 1/2 ≥ β1 ≥ · · · ≥ δp − p + 1/2 ≥ |βp |,
+                        =
+                           0       otherwise.
+
+  The multiplicity is 1 only when (δ) − (p − 1/2) − (β) − (1, 0, . . . , 0) is in the root lattice.
+Note that δ ∈ Zp and β ∈ (Z + 1/2)p in these cases.
+                                                                                                 
+
+7.10.1. We now apply the cohomological induction functor Π from [KV].
+                  e
+Theorem 7.11. The K-spectrum of the representations constructed are as follows.
+        Case 1: a = b = 2p
+                                                                                        X
+            (i)             (ap + 1/2, . . . , ap + 1/2 | b1 , . . . , bp )       with     (ai + bj ) ∈ 2Z,
+                                                                                   X
+           (ii)             (ap + 1/2, . . . , ap + 1/2 | b1 , . . . , bp )   with     (ai + bj ) ∈ 2Z + 1,
+                                                                                        X
+          (iii) (ap + 1, . . . , ap + 1 | b1 + 1/2, . . . , bp + 1/2)             with     (ai + bj ) ∈ 2Z,
+                                                                                   X
+           (iv) (ap + 1, . . . , ap + 1 | b1 + 1/2, . . . , bp + 1/2)         with     (ai + bj ) ∈ 2Z + 1,
+
+           satisfying a1 ≥ b1 ≥ · · · ≥ ap ≥ |bp |, ai , bj ∈ Z.
+        Case 3: a = 2p = 2k + 2, b = 2q = 2k + 2 + 2r− with r− > 0
+                                                                                             X
+     (i) (ap + r− + 1/2, . . . , ap + r− + 1/2 | b1 , . . . , bp , 0, . . . , 0)       with     (ai + bj ) ∈ 2Z,
+                                                                                        X
+ (ii) (ap + r− + 1/2, . . . , ap + r− + 1/2 | b1 , . . . , bp , 0, . . . , 0)      with     (ai + bj ) ∈ 2Z + 1,
+
+           satisfying a1 ≥ b1 ≥ · · · ≥ ap ≥ |bp |, ai , bj ∈ Z.
+    REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 57
+
+     Case 4: a = 2p + 1 = 2q − 1 = b
+                                                                               X
+               (i) (ap + 1/2, . . . , ap + 1/2 | b1 , . . . , bp )       with     (ai + bj ) ∈ 2Z,
+                                                                          X
+              (ii) (ap + 1/2, . . . , ap + 1/2 | b1 , . . . , bp )   with     (ai + bj ) ∈ 2Z + 1,
+        satisfying a1 ≥ b1 ≥ · · · ≥ ap ≥ bp ≥ 0, ai , bj ∈ Z.
+     Case 6: a = 2p + 1 = 2k + 1, b = 2q − 1 = 2k + 3 + 2r−
+                                                                                          X
+  (i) (ap + r− + 3/2, . . . , ap + r− + 3/2 | b1 , . . . , bp , 0, . . . , 0)       with     (ai + bj ) ∈ 2Z,
+                                                                                     X
+ (ii) (ap + r− + 3/2, . . . , ap + r− + 3/2 | b1 , . . . , bp , 0, . . . , 0)   with     (ai + bj ) ∈ 2Z + 1,
+        satisfying a1 ≥ b1 ≥ · · · ≥ ap ≥ bp ≥ 0, ai , bj ∈ Z.
+     Case 8: a = 2p + 1 = 2k + 3, b = 2q − 1 = 2k + 1 + 2r−
+                                                                                          X
+  (i) (ap + r− − 1/2, . . . , ap + r− − 1/2 | b1 , . . . , bp , 0, . . . , 0)       with     (ai + bj ) ∈ 2Z,
+                                                                                     X
+ (ii) (ap + r− − 1/2, . . . , ap + r− − 1/2 | b1 , . . . , bp , 0, . . . , 0)   with     (ai + bj ) ∈ 2Z + 1,
+        satisfying a1 ≥ b1 ≥ · · · ≥ ap ≥ bp ≥ 0, ai , bj ∈ Z.
+Proof. The main result we use is Corollary 4.160 in [KV], which computes Πj of a generalized
+Verma module. The formulas in the previous sections write L(µ) as a sum of generalized
+Verma modules for k.
+   We treat Case 3 in detail. The term W (β) is already so(2p) × so(2q)-finite, only V (δ) is
+affected. Then
+(7.11.1)                          δ + ρ(Dp ) = (δ1 , δ2 − 1, . . . , δp − p + 1)
+is formed of all negative terms. We need a w that makes it dominant for our choice of
+positive system b ⊂ q; w is the long Weyl group element. The highest weight is
+           (p − 1 − δp , . . . , 1 − δ2 , −δ1 ) − (0, . . . , −p + 1) = (p − 1 − δp , . . . , p − 1 − δ1 )
+Going to the more standard positive system for type Dp , the highest weight is
+(7.11.2)                                 (δ1 − p + 1, . . . , δp − p + 1).
+  In Cases (i) and (ii), since δ ∈ (Z+ 1/2)p , β ∈ Zp , we get that the K-spectrum of Πj (L(λ))
+  P
+is (a1 + r− + 1/2, . . . , ap + r− + 1/2 b1 , . . . , bp , 0, . . . , 0) where ai , bj are integers and the
+multiplicity is 1 precisely when
+                                          a1 ≥ b1 ≥ · · · ≥ ap ≥ |bp |.
+For case (i), the additional condition is that (a b) belongs to the root lattice of D2p . For
+case (ii), the additional condition is that (a b) − (1, 0 . . . , 0 0, . . . , 0) belongs to the root
+lattice of D2p . Therefore, the additional parity conditions hold.
+   In the case a = b = 2p (i.e. Case 1), we get the e
+                                                    K-spectra for case (i) and (ii) by replacing
+r− = 0. In Cases (iii) and (iv), since δ ∈ Z , β ∈ (Z + 1/2)p , we get that the K-spectrum of
+                                             p
+58                                DAN BARBASCH AND WAN-YU TSAI
+             P
+Πj (L(λ)) is (a1 + 1, . . . , ap + 1     b1 + 1/2, . . . , bp + 1/2) where ai , bj are integers and the
+multiplicity is 1 precisely when
+                                      a1 ≥ b1 ≥ · · · ≥ ap ≥ |bp |.
+For case (iii), the additional condition is that (a b) belongs to the root lattice of D2p . For
+case (iv), the additional condition is that (a b) − (1, 0 . . . , 0 0, . . . , 0) belongs to the root
+lattice of D2p . So we get the additional parity conditions.
+   The argument for a = 2p = 1, b = 2q + 1 is essentially the same. In equation (7.11.1),
+ρ(Dp ) is replaced by ρ(Bp ). The highest weight in (7.11.2) becomes
+                                          (δ1 − p, . . . , δp − p).
+The K-spectrum of Πj (L(λ)) is therefore
+            X
+               (a1 + q − p − 1/2, . . . , ap + q − p − 1/2 b1 , . . . , bp , 0, . . . , 0),
+with a1 ≥ b1 ≥ · · · ≥ ap ≥ bp ≥ 0 and ai , bj ∈ Z.
+  In Case 4, q − p = 1, in Case 6, q − p = r− + 2, and in Case 8, q − p = r− . Consequently,
+     e
+the K-spectra  are as in statement of the theorem, with the additional parity conditions due
+to the same reason as above.                                                              
+
+
+
+                                             References
+[AHV] J. Adams, J.-S. Huang, and D. Vogan, Functions on the model orbit in E8 , Represent. Theory 2
+    (1998), 224-263.
+[AT] J. Adams and P. Trapa, Duality for nonlinear simply laced groups, Compos. Math. 148 (2012), no. 3,
+    931-965.
+[B] D. Barbasch, Unipotent representations and the dual pair correspondence, arXiv:1609.08998.
+[BP] D. Barbasch and P. Pandz̆ić, Dirac cohomology of unipotent representations of Sp(2n, R) and U (p, q),
+    J. Lie Theory 25 (2015), no. 1, 185-213.
+[BV] D. Barbasch and D. Vogan, Unipotent representations of complex semisimple groups, Ann. of Math.
+    (2) 121 (1985), no. 1, 41-110.
+[CM] D.H. Collingwood and W. McGovern, Nilpotent orbits in semisimple Lie algebras, Van Nostrand Rei-
+    hnhold Mathematics Series, New York, (1993).
+[EW] T. Enright, J. Willenbring Hilbert series, Howe duality and branching for classical groups, Ann. of
+    Math. (2) 159 (2004), no. 1, 337-375.
+[H] S. Helgason, Analysis on Lie Groups and Homogeneous Spaces, Regional Conference Series in Mathe-
+    matics, No. 14, Amer. Math. Soc., Providence, R.I., 1972.
+[Hu] J. E. Humphreys, Representations of Semisimple Lie Algebras in the BGG Category O, Graduate
+    Studies in Mathematics, AMS (2008).
+[K] D. R. King, Classification of spherical nilpotent orbits in complex symmetric space, J. Lie Theory 14
+    (2004), no. 2, 339-370.
+[Kn] A. Knapp, Nilpotent orbits and some small unitary representations of indefinite orthogonal groups, J.
+    Funct. Anal. 209 (2004), no. 1, 36-100.
+[KO1] T. Kobayashi and B. Ørsted, Analysis on the minimal representation of O(p, q). I. Realization via
+    conformal geometry, Adv. Math. 180 (2003), no. 2, 486-512.
+    REPRESENTATIONS ASSOCIATED TO SMALL NILPOTENT ORBITS FOR REAL SPIN GROUPS 59
+
+[KO2] T. Kobayashi and B. Ørsted, Analysis on the minimal representation of O(p, q). II. Branching laws,
+     Adv. Math. 180 (2003), no. 2, 513-550.
+[KV] D. Vogan and A. Knapp, Cohonmological Induction and Unitary representations, Princeton University
+     Press, Princeton NJ 1995.
+[LS] H.Y. Loke and G. Savin, The smallest representations of nonlinear covers of odd orthogonal groups,
+     Amer. J. Math. 130 (2008), no. 3, 763-797.
+[McG] W. McGovern, Rings of regular functions on nilpotent orbits. II. Model algebras and orbits, Comm.
+     Algebra 22 (1994), no. 3, 765-772.
+[P] D. I. Panyushev, Complexity and nilpotent orbits, Manuscripta Math. 83 (1994), no. 3-4, 223-237.
+[RT] D. Renard and P. Trapa, Kazhdan-Lusztig algorithms for nonlinear groups and applications to Kazhdan-
+     Patterson lifting, Amer. J. Math. 127 (2005), no. 5, 911-971.
+[T] P. Trapa, Some small unipotent representations of indefinite orthogonal groups, J. Funct. Anal. 213
+     (2004), no. 2, 290-320.
+[Ts] W.-Y. Tsai, Some genuine small representations of a nonlinear double cover, to appear in Transactions
+     of the AMS, arXiv:1412.4274v2.
+[V] D. Vogan, Representation of Real Reductive Groups, Birkhäuser, Boston-Basel-Stuttgart, 1981.
+[V1] D. Vogan, The Kazhdan-Lusztig conjecture for real reductive groups, Representation theory of reductive
+     groups (Park City, Utah, 1982), 223-264, Progr. Math., 40, Birkhäuser Boston, Boston, MA, 1983.
+[V2] D. Vogan, Associated varieties and unipotent representations, Harmonic analysis on reductive groups
+     (Brunswick, ME, 1989), 315-388, Progr. Math., 101, Birkhäuser Boston, Boston, MA, 1991.
+[V3] D. Vogan, The method of coadjoint orbits for real reductive groups, Representation theory of Lie groups
+     (Park City, UT, 1998), 179238, IAS/Park City Math. Ser., 8, Amer. Math. Soc., Providence, RI, 2000.
+
+  (D. Barbasch) Department of Mathematics, Cornell University, Ithaca, NY 14850, U.S.A.
+  E-mail address: barbasch@math.cornell.edu
+
+  (Wan-Yu Tsai) Institute of Mathematics, Academia Sinica, 6F, Astronomy-Mathematics
+Building, No. 1, Sec. 4, Roosevelt Road, Taipei 10617, TAIWAN
+  E-mail address: wytsai@math.sinica.edu.tw
+

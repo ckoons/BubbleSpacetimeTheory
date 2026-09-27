@@ -1,0 +1,998 @@
+                                             A CHARACTERIZATION OF UNITARITY OF SOME HIGHEST WEIGHT
+                                                            HARISH-CHANDRA MODULES
+
+                                                                           ZHANQIANG BAI AND MARKUS HUNZIKER
+
+
+
+
+arXiv:2409.16555v1 [math.RT] 25 Sep 2024
+                                                  Abstract. Let L(λ) be a highest weight Harish-Chandra module with highest weight λ. When the
+                                                  associated variety of L(λ) is not maximal, that is, not equal to the nilradical of the corresponding
+                                                  parabolic subalgebra, we prove that the unitarity of L(λ) can be determined by a simple condition
+                                                  on the value of z = (λ + ρ, β ∨ ), where ρ is half the sum of positive roots and β is the highest root.
+                                                  In the proof, certain distinguished antichains of positive noncompact roots play a key role.
+                                                     By using these antichains, we are also able to provide a uniform formula for the Gelfand–Kirillov
+                                                  dimension of all highest weight Harish-Chandra modules, generalizing our previous result for the
+                                                  case of unitary highest weight Harish-Chandra modules.
+
+
+
+
+                                                                                              Contents
+                                             1. Introduction                                                                                                 1
+                                             2. Distinguished antichains of positive noncompact roots                                                        3
+                                             3. Gelfand–Kirillov dimension and associated variety                                                            5
+                                             4. Proof of the main theorem: simply-laced cases                                                                6
+                                             5. Proof of the main theorem: non-simply-laced cases                                                           10
+                                             6. A uniform formula for the Gelfand–Kirillov dimension                                                        12
+                                             7. Appendix                                                                                                    16
+                                             References                                                                                                     19
+
+
+
+
+                                                                                          1. Introduction
+                                              Let GR be a connected non-compact simple Lie group with finite center, and let KR be a maximal
+                                           compact subgroup. From the work of Harish-Chandra (see comments in [BHXZ, §3.2]), it follows
+                                           that infinite-dimensional highest weight Harish-Chandra modules for GR exist if and only if (GR ,
+                                           KR ) is a Hermitian symmetric pair. The problem of determining when a highest weight Harish-
+                                           Chandra module is unitarizable has been extensively studied by various authors (see, for example,
+                                           the references in [EHW83]). The full classification was independently completed in [EHW83] and
+                                           [Jak83], though the classification itself is rather intricate. In this paper, we provide a simple and
+                                           uniform characterization of unitarity for Harish-Chandra modules with a given associated variety,
+                                           expressed in terms of the highest weight (see Theorem 1.1).
+
+                                             2020 Mathematics Subject Classification. 22E47, 17B10.
+                                             Key words and phrases. Unitary highest weight module, associated variety, Gelfand–Kirillov dimension.
+                                                                                                    1
+   From now, we assume that (GR , KR ) is a Hermitian symmetric pair. We denote by K the
+complexification of the compact group KR and by (g, k) the complexified Lie algebras of (GR , KR ).
+Then we have the usual decompositition g = p− ⊕ k ⊕ p+ of g as a K-representation. Let h ⊆ k be a
+Cartan subalgebra. Then h is a Cartan subalgebra of g. Let ∆ and ∆(k) denote the root systems of
+(g, h) and (k, h), respectively. Let ∆+ be the positive system of ∆, and define ∆+ (k) = ∆(k) ∩ ∆+
+and ∆(p+ ) = ∆+ \ ∆+ (k). Let β denote the unique maximal noncompact root of ∆+ . Now choose
+ζ ∈ h∗ so that ζ is orthogonal to ∆(k) and (ζ, β ∨ )=1. Let λ ∈ h∗ be ∆+ (k)-dominant integral and
+F (λ) be the irreducible k-module with highest weight λ. By letting the nilradical act by zero, we
+may consider F (λ) as a module of the parabolic subalgebra q = k + p+ . Then we define:
+                                     N (λ) = U (g) ⊗U (q) F (λ).
+Let L(λ) denote the irreducible quotient of N (λ), which is a highest weight module of g.
+  From [EHW83], L(λ) is a highest weight Harish-Chandra module if and only if λ ∈ Λ+ (k), where
+                        Λ+ (k) = {λ ∈ h∗ | λ is ∆+ (k)-dominant integral}.
+Write ρ for half the sum of positive roots in ∆+ . Then we can write λ = λ0 + zζ, with λ0 ∈ h∗
+such that (λ0 + ρ, β)=0, and z = (λ + ρ, β ∨ ) ∈ R.
+   The associated variety of a highest weight Harish-Chandra module is known to be the closure of
+a single K-orbit in p+ (see §3 for more details). Furthermore, the closures of the K-orbits in p+
+form a linear chain of varieties
+                             {0} = O0 ⊂ O1 ⊂ · · · ⊂ Or−1 ⊂ Or = p+ ,
+where r is the R-rank of GR , i.e., the dimension of a Cartan subgroup of the group GR , which
+is also equal to the rank of the symmetric space GR /KR . Therefore, if L(λ) is a highest weight
+Harish-Chandra module with highest weight λ, then there is an integer 0 ≤ k(λ) ≤ r such that the
+associated variety of L(λ) is Ok(λ) .
+  Denote
+(1.1)                            zk = (ρ, β ∨ ) + uk = (ρ, β ∨ ) − kc,
+for 0 ≤ k ≤ r. Here c is a real number associated with the Hermitian type Lie group GR , see
+Table 1.
+  In this paper, we will prove the following result.
+
+Theorem 1.1. Let λ ∈ Λ+ (k) and suppose AV(L(λ)) = Ok with 0 ≤ k ≤ r − 1. Then
+                       L(λ) is unitarizable if and only if (λ + ρ, β ∨ ) = zk .
+
+Remark 1.2. Note that when AV(L(λ)) = Or , it may happen that there is more than one point
+such that L(λ) is unitarizable.
+
+   In [BH15], we have found a uniform formula for the Gelfand–Kirillov dimensions of unitary
+highest weight Harish-Chandra modules. Now we want to generalize our formula to all highest
+weight Harish-Chandra modules.
+
+Definition 1.3. For 1 ≤ k ≤ r − 1, define:
+                              Ak = {α ∈ ∆(p+ ) | ht(α) = k ⌈c⌉ + 1}.
+
+  Here ⌈c⌉ denotes the smallest integer n such that n ≥ c.
+                                                  2
+Definition 1.4. Let λ0 ∈ Λ+ (k).
+   (a) If g is of type ADE, for 0 ≤ k ≤ r − 1, define
+                 zk (λ0 ) := min{z ∈ Z | ∃ α ∈ Ak such that (λ0 + zζ + ρ, α∨ ) > 0}.
+
+   (b) If g is of type BC, for 0 ≤ k ≤ r − 1, define
+                  
+                  min{z ∈ Z | ∃ α ∈ Ak such that (λ0 + zζ + ρ, α∨ ) > 0},         if k is even
+      zk (λ0 ) :=
+                  min{z ∈ 21 + Z | ∃ α ∈ Ak such that (λ0 + zζ + ρ, α∨ ) > 0},    if k is odd.
+
+  In the special case when λ0 = −(ρ, β ∨ )ζ, we also write zk instead of zk (λ0 ) (This coincides with
+our definition of zk in (1.1)).
+   Our new formula for the Gelfand–Kirillov dimensions of all highest weight Harish-Chandra mod-
+ules is as follows.
+
+Theorem (Theorem 6.3). Suppose λ = λ0 + zζ is a reduction point. Then
+   (a) If g is of type ADE, then z ∈ Z and
+                           
+                           
+                             rzr−1 , if z < zr−1 (λ0 )
+                           
+             GKdim L(λ) = kzk−1 , if zk (λ0 ) ≤ z < zk−1 (λ0 ), where 1 ≤ k ≤ r − 1
+                           
+                           
+                           0,        if z (λ ) ≤ z ∈ Z.
+                                            0   0
+
+
+   (b) If g is of type BC, then z ∈ Z or z ∈ 21 + Z and
+                        
+                        
+                        rzr−1 , if z < zr−1 (λ0 )
+                        
+                        
+                        
+                        
+                        
+                        kzk−1 , if zk (λ0 ) ≤ z < zk−2 (λ0 ), where 2 ≤ k ≤ r − 1 and
+                        
+        GKdim L(λ) =                 either z ∈ Z and k is even or z ∈ 12 + Z and k is odd
+                        
+                        
+                        
+                        
+                        z0 ,     if z1 (λ0 ) ≤ z ∈ 12 + Z
+                        
+                        
+                        
+                        0,       if z0 (λ0 ) ≤ z ∈ Z.
+
+               2. Distinguished antichains of positive noncompact roots
+  Note that for any integer 1 ≤ h ≤ ht(β), the set
+                                ∆(p+ )h := {α ∈ ∆(p+ ) | ht(α) = h}
+is an antichain in ∆(p+ ).
+  Let Π denote the set of simple roots in ∆+ .
+
+Lemma 2.1 ([Jak83, Lemma 4.1]). Let α ∈ ∆(p+ ), let π1 , . . . , πk be distinct elements of Π ∩ ∆(k),
+and assume that α + πi ∈ ∆(p+ ) for i = 1, . . . , k. Then k ≤ 2. Furthermore, if k = 2, then π1 ⊥ π2
+and α + π1 + π2 ∈ ∆(p+ ).                                                                          
+
+  In light of this lemma, the Hasse diagram of ∆(p+ ) is an upward planar graph of order dimension
+two and hence can be drawn on a two-dimensional orthogonal lattice that has been rotated by a
+45-degree angle.
+                                                    3
+Example 2.2. Let gR = su(3, 2). Then we have
+
+                            
+                             ·     · ·    ∗ ∗
+                                                                       β = e1 − e5
+                            ·     · ·    ∗ ∗                      4
+
+                     p+ = { ·
+                                             
+                                   · ·    ∗ ∗ }        ∆(p+ ) =    1
+                            ·     · ·    · · 
+                                                                        2
+                             ·     · ·    · ·
+                                                                            α3 = e3 − e4
+
+
+
+
+  The antichains in ∆(p+ ) are given in Appendix.
+  A subset Y ⊆ ∆(p+ ) is called a lower-order ideal if, for α ∈ ∆(p+ ) and β ∈ Y , α ≤ β implies
+that α ∈ Y .
+
+Definition 2.3. For λ ∈ Λ+ (k), define the diagram of λ as the set
+(2.1)                           Yλ := {α ∈ ∆(p+ ) | (λ + ρ, α∨ ) ∈ Z≤0 },
+viewed as a subposet of ∆λ (p+ ) := ∆λ ∩ ∆(p+ ), where ∆λ := {α ∈ ∆ | (λ + ρ, α∨ ) ∈ Z} is the
+integral root system associated to λ.
+
+  By [BHXZ, Lem 2.2], the poset Yλ is a lower order ideal of ∆(p+ ) when λ is integral.
+   An antichain in a poset is a subset consisting of pairwise noncomparable elements. The width of
+a poset is the cardinality of maximal antichain in the poset. Suppose λ ∈ Λ+ (k), we use m = m(λ)
+to denote the width of Yλ .
+  By inspection of the Hasse diagram of ∆(p+ ), we have the following lemma.
+
+Lemma 2.4. Suppose Y ⊆ ∆(p+ ) be a lower order ideal. If m is the width of Y , then there exists
+an antichain A ⊆ Y of length m such that all the roots in A have the same height.
+
+Lemma 2.5. Let λ ∈ Λ+ (k). If AV(L(λ)) = Ok with 0 ≤ k ≤ r − 1, then (λ + ρ, α∨ ) > 0 for some
+α ∈ Ak .
+
+  Recall that Ak = ∆(p+ )k⌈c⌉+1 is an antichain in ∆(p+ ).
+
+Proof. Suppose AV(L(λ)) = Ok with 0 ≤ k ≤ r − 1.
+  When ∆ is simply-laced, by our main theorem in [BHXZ], λ is integral and m(λ) = k. Assume
+that (λ + ρ, α∨ ) ≤ 0 for all α ∈ Ak . Since Ak is an antichain of length k + 1, it would follow that
+m(λ) ≥ k + 1. Contradiction.
+   When ∆ is non-simply-laced and k = 2l is even, by our main theorem in [BHXZ], λ is integral
+and 2m(λ) = k. Assume that (λ + ρ, α∨ ) ≤ 0 for all α ∈ Ak . Since Ak is an antichain of length
+l + 1, it would follow that m(λ) ≥ l + 1. Then 2m(λ) ≥ 2l + 2 = k + 2 > k. Contradiction!
+   When ∆ is non-simply-laced and k = 2l + 1 is odd, by our main theorem in [BHXZ], λ is half-
+integral and 2m(λ) + 1 = k. Assume that (λ + ρ, α∨ ) ≤ 0 for all α ∈ Ak . Since Ak is an antichain of
+length l + 1, it would follow that m(λ) ≥ l + 1. Then 2m(λ) + 1 ≥ 2l + 3 = k + 2 > k. Contradiction!
+                                                    4
+                                                                                                
+
+                 3. Gelfand–Kirillov dimension and associated variety
+  In this section, we will recall some preliminaries on Gelfand–Kirillov dimensions and associated
+varieties of highest weight modules. See [Vog78, Vog91] for more details.
+  Let M be a finite generated U (g)-module. Fix a finite dimensional generating space M0 of M .
+                                                                                  ∞
+                                                                                  L
+Let Un (g) be the standard filtration of U (g). Set Mn = Un (g) · M0 and gr(M ) =   grn M, where
+                                                                                 n=0
+grn M = Mn /Mn−1 . Thus gr(M ) is a graded module of gr(U (g)) ≃ S(g).
+  The Gelfand–Kirillov dimension of M is defined by
+                                                log dim(Un (g)M0 )
+                              GKdim M = lim                        .
+                                            n→∞        log n
+The associated variety of M is defined by
+                   AV(M ) := {X ∈ g∗ | f (X) = 0 for all f ∈ AnnS(g) (gr M )}.
+These two definitions are independent of the choice of M0 , and dim V (M ) = GKdim M (e.g.,
+[NOT01]). If M0 is a-invariant for a subalgebra a ⊂ g, then
+(3.1)                                   AV(M ) ⊂ (g/a)∗ .
+
+  When M = L(λ) is a highest weight Harish-Chandra module, we can choose M0 to be the finite
+dimensional U (k)-module generated by Cλ . Then M0 is k ⊕ p+ -invariant. In view of (3.1),
+                            AV(L(λ)) ⊂ (g/(k ⊕ p+ ))∗ ≃ (p− )∗ ≃ p+ ,
+where the last isomorphism is induced from the Killing form. As shown in [Vog91], the associated
+variety AV(M ) is also K-invariant. In fact, Yamashita [Yam01] proved that AV(M ) must be one
+of Ok .
+
+Lemma 3.1. Let L(λ) be a highest weight Harish-Chandra module. Then
+                                        AV(L(λ)) = Ok(λ)
+for some 0 ≤ k(λ) ≤ r.
+
+  We have the following table from [EHW83]:
+
+                               gR           r           c        (ρ, β ∨ )
+                          su(p, n − p) min{p, n − p}    1         n−1
+                            sp(n, R)        n          1/2          n
+                            so∗ (2n)      [n/2]         2        2n − 3
+                         so(2, 2n − 1)      2        n − 3/2     2n − 2
+                         so(2, 2n − 2)      2         n−2        2n − 3
+                             e6(−14)        2           3          11
+                             e7(−25)        3           4          17
+
+                   Table 1. Some constants of Lie groups of Hermitian type
+
+
+                                                5
+   In [BH15], we have found a uniform expression for the GK dimensions and associated varieties
+of unitary highest weight Harish-Chandra modules.
+
+Proposition 3.2 ([BH15]). Suppose L(λ) is a unitary highest weight Harish-Chandra module with
+highest weight λ. We denote z = z(λ) = (λ + ρ, β ∨ ), then
+                               
+                                rz , if z < zr−1
+                                r−1
+                               
+                 GKdim L(λ) = kzk−1 , if z = zk = (ρ, β ∨ ) − kc, 1 ≤ k ≤ r − 1
+                               
+                               
+                                         if z = z0 = (ρ, β ∨ ).
+                               
+                                 0,
+                             ∨
+  Denote k = k(λ) := − (λ,βc ) . Then
+   (1) If k > r − 1, we have GKdim L(λ) = rzr−1 = 21 dim(G/K).
+   (2) If 0 ≤ k ≤ r − 1, then k is a non-negative integer and
+                    GKdim L(λ) = k((ρ, β ∨ ) − (k − 1)c) = kzk−1 = dim Ok(λ) .
+
+The associated variety of L(λ) is Ok(λ) .
+
+                    4. Proof of the main theorem: simply-laced cases
+  In this section, we assume that ∆ is simply-laced.
+  For any integer 0 ≤ k ≤ r − 1, Ak is the antichain in ∆(p+ ) such that |Ak | = k + 1 and
+Ak = ∆(p+ )h with h minimal.
+  To prove our Theorem 1.1, we need the following useful lemma.
+
+Lemma 4.1. Let τ ∈ Λ+ (k). If λ0 = τ − (τ + ρ, β ∨ )ζ and λ = λ0 + zζ, then, for any α ∈ ∆(p+ )h ,
+                            (λ + ρ, α∨ ) = z − (ρ, β ∨ ) + h − (τ, β ∨ − α∨ ).
+
+Proof. Let α ∈ ∆(p+ )h . Since ∆ is simply-laced, (ζ, α∨ ) = 1 and (ρ, α∨ ) = h. Thus,
+                   (λ + ρ, α∨ ) = (λ0 + zζ + ρ, α∨ )
+                                 = (τ, α∨ ) − (τ + ρ, β ∨ )(ζ, α∨ ) + z(ζ, α∨ ) + (ρ, α∨ )
+                                 = (τ, α∨ ) − (τ + ρ, β ∨ ) + z + h
+                                 = (τ, α∨ − β ∨ ) − (ρ, β ∨ ) + z + h
+                                 = z − (ρ, β ∨ ) + h − (τ, β ∨ − α∨ ).
+                                                                                                   
+
+   Now we can prove our Theorem 1.1. The idea is very simple. From Lemma 2.5, since AV(L(λ)) =
+Ok , we have (λ + ρ, α∨ ) > 0 for some α ∈ Ak = ∆(p+ )k⌈c⌉+1 . Then ht(α) = kc + 1. So if
+(λ + ρ, β ∨ ) = z = zk = (ρ, β ∨ ) − kc, we will have
+                    (λ + ρ, α∨ ) = z − (ρ, β ∨ ) + h − (τ, β ∨ − α∨ )
+                                  = (ρ, β ∨ ) − kc − (ρ, β ∨ ) + kc + 1 − (τ, β ∨ − α∨ )
+                                  = 1 − (τ, β ∨ − α∨ ) > 0.
+This condition is very restrictive. In the following, we will give a case-by-case discussion for this
+condition, which will imply the unitarity of L(λ).
+                                                      6
+4.1. Case gR = su(p, q). For 0 ≤ k ≤ r − 1 = min{p, q} − 1,
+            Ak = ∆(p+ )k+1 = {εp−k+i − εp+i+1 = [ 0, . . . , 0, 1, . . . , 1, 0, . . . , 0 ] | 0 ≤ i ≤ k}.
+                                                  | {z } | {z } | {z }
+                                                                 p−k+i−1      k+1        q−i−1
+
+(Here and in the following we write [n1 , n2 , . . .] := n1 α1 + n2 α2 + · · · , where α1 , α2 , . . . are the
+simple roots.)
+
+Fix τ = a1 ω1 + · · · + ap−1 ωp−1 + bq−1 ωp+1 + · · · + b1 ωp+q−1 ∈ Λ+ (k). Then
+                         λ0 = τ − (p + q − 1 + a1 + · · · ap−1 + bq−1 + · · · + b1 )ζ.
+For α = εp−k+i − εp+i+1 ,
+         (λ0 + zζ + ρ, α∨ ) = (z − (p + q − k − 2)) − (a1 + · · · + ap−k+i−1 + bq−i−1 + · · · + b1 ).
+Now suppose λ = λ0 + zζ such that AV(L(λ)) = Ok with 0 ≤ k ≤ r − 1 and z = zk = p + q − k − 1.
+By Lemma 2.5, (λ + ρ, α∨ ) > 0 for some α ∈ Ak . For α = εp−k+i − εp+i+1 , by Lemma 4.1 we have
+                       (λ + ρ, α∨ ) = 1 − (a1 + · · · + ap−k+i−1 + bq−i−1 + · · · + b1 )
+and hence (λ + ρ, α∨ ) > 0 implies a1 = · · · = ap−k+i−1 = 0 and b1 = · · · = bq−i−1 = 0. It follows
+that λ is of the form
+                           λ = (−k, . . . , −k , ∗, . . . , ∗ ; ∗, . . . , ∗, 0, . . . , 0).
+                                |    {z      } |             {z            } | {z }
+                                             ≥1                    k                ≥1
+
+By [KV78], L(λ) is unitary.
+
+4.2. Case gR = so∗ (2n). For 1 ≤ k ≤ r − 1 = [ n2 ] − 1,
+                 Ak = ∆(p+ )2k+1 = {[ 0, . . . , 0, 1, . . . , 1, 0, 1 ],
+                                      | {z } | {z }
+                                             n−2k−2         2k
+                                          [ 0, . . . , 0 , 1, . . . , 1, 2, . . . , 2, 1, 1 ] | 0 ≤ i ≤ k − 1},
+                                            | {z } | {z } | {z }
+                                           n−2k−1+i 2k−2i−1              i
+                             +
+                 A0 = ∆(p )1 = {[0, 0, . . . , 0, 1]}.
+Fix τ = a1 ω1 + a2 ω2 + · · · + an−1 ωn−1 ∈ Λ+ (k). Then, since β = [1, 2, · · · , 2, 1, 1],
+                λ0 = τ − (τ + ρ, β ∨ )ζ = τ − (2n − 3 + a1 + 2a2 + · · · + 2an−2 + an−1 )ζ.
+
+     Suppose AV(L(λ)) = O0 and z(λ) = z0 = 2n − 3. By Lemma 2.5 and Lemma 4.1,
+                                   1 − (a1 + 2a2 + · · · + 2an−2 + an−1 ) > 0
+and hence a1 = a2 = · · · = an−1 = 0. It follows that λ = 0 (trivial representation).
+  Now suppose λ = λ0 + zζ such that AV(L(λ)) = Ok with 1 ≤ k ≤ r − 1 and z = zk = 2n − 3 − 2k.
+By Lemma 2.5, (λ + ρ, α∨ ) > 0 for some α ∈ Ak . So if n − 2k > 2, by Lemma 4.1 we have
+                  1 − (a1 + 2a2 + · · · + 2an−2k−2 + an−2k−1 + · · · + an−2 + an−1 ) > 0
+or
+                    1 − (a1 + 2a2 + · · · + 2an−2k−1+i + an−2k+i + · · · + an−i−2 ) > 0.
+
+     In the first case, a1 = a2 = · · · = an−1 = 0, and hence λ = −2kζ (k-th Wallach representation).
+                                                             7
+     In the second case, a1 = a2 = · · · = an−i−2 = 0. It follows that
+                               λ =an−i−1 ωn−i−1 + · · · + an−1 ωn−1
+                                  − (2k + 2an−i−1 + · · · + 2an−2 + an−1 )ζ
+                                 =an−i−1 ωn−i−1 + · · · + an−1 ωn−1
+                                    − (2k + 2an−i−1 + · · · + 2an−2 + an−1 )ωn .
+
+     So λ is of the form
+                                          λ = (−k, . . . , −k , ∗, . . . , ∗).
+                                               |    {z      } | {z }
+                                                     n−i−1          i+1
+By [EW04], [EHW83] or [DES91], L(λ) is unitary.
+     So if n − 2k = 2, by Lemma 4.1 we have
+                                           1 − (a2 + · · · + an−1 ) > 0
+or
+                     1 − (a1 + 2a2 + · · · + 2an−2k−1+i + an−2k+i + · · · + an−i−2 ) > 0.
+
+  In the first case, a2 = · · · = an−1 = 0, and hence λ = a1 ω1 + (2 − n − a1 )ζ (unitary reduction
+point).
+     In the second case, a1 = a2 = · · · = an−i−2 = 0. It follows that
+                               λ =an−i−1 ωn−i−1 + · · · + an−1 ωn−1
+                                  − (2k + 2an−i−1 + · · · + 2an−2 + an−1 )ζ
+                                 =an−i−1 ωn−i−1 + · · · + an−1 ωn−1
+                                    − (2k + 2an−i−1 + · · · + 2an−2 + an−1 )ωn .
+
+     So λ is of the form
+                                          λ = (−k, . . . , −k , ∗, . . . , ∗).
+                                               |    {z      } | {z }
+                                                     n−i−1          i+1
+By [EW04], [EHW83] or [DES91], L(λ) is unitary.
+4.3. Case gR = so(2, 2n − 2). For 0 ≤ k ≤ r − 1 = 2 − 1 = 1,
+                   A0 = ∆(p+ )1 = {ε1 − ε2 = [1, 0, ..., 0]},
+                   A1 = ∆(p+ )n−1 = {ε1 − εn = [1, . . . , 1, 0], ε1 + εn = [1, . . . , 1, 0, 1]}.
+
+     Fix τ = a2 ω2 + · · · + an−1 ωn−1 + an ωn ∈ Λ+ (k). Then, since β = ε1 + ε2 = [1, 2, · · · , 2, 1, 1],
+                 λ0 = τ − (τ + ρ, β ∨ )ζ = τ − (2n − 3 + 2a2 + · · · + 2an−2 + an−1 + an )ζ.
+
+     Suppose AV(L(λ)) = O0 and z(λ) = z0 = 2n − 3. By Lemma 2.5 and Lemma 4.1,
+                                  1 − (2a2 + · · · + 2an−2 + an−1 + an ) > 0
+and hence a2 = · · · = an = 0. It follows that λ = 0 (trivial representation).
+     Suppose AV(L(λ)) = O1 and z(λ) = z1 = n − 1. By Lemma 2.5 and Lemma 4.1,
+                                           1 − (a2 + · · · + an−1 ) > 0
+or
+                                        1 − (a2 + · · · + an−2 + an ) > 0.
+                                                           8
+  In the first case, we have a2 = · · · = an−1 = 0. Hence λ = an ωn − (n − 2+ an)ζ (unitary reduction
+point).
+  In the second case, we have a2 = · · · = an−2 = an = 0. Hence λ = an−1 ωn−1 − (n − 2 + an−1 )ζ
+(unitary reduction point).
+4.4. Case gR = e6(−14) . By inspection of the Hasse diagram of ∆(p+ ),
+                              A0 = ∆(p+ )1 = {[1, 0, 0, 0, 0, 0]},
+                              A1 = ∆(p+ )4 = {[1, 0, 1, 1, 1, 0], [1, 1, 1, 1, 0, 0]}.
+Fix τ = a2 ω2 + a3 ω3 + a4 ω4 + a5 ω5 + a6 ω6 . Then, since β = [1, 2, 2, 3, 2, 1],
+                   λ0 = τ − (τ + ρ, β ∨ )ζ = τ − (11 + 2a2 + 2a3 + 3a4 + 2a5 + a6 )ζ.
+
+  Suppose AV(L(λ)) = O0 and z(λ) = z0 = 11. By Lemma 2.5 and Lemma 4.1,
+                                    1 − (2a2 + 2a3 + 3a4 + 2a5 + a6 ) > 0
+and hence a2 = a3 = a4 = a5 = a6 = 0. It follows that λ = 0 (trivial representation).
+
+Suppose AV(L(λ)) = O1 and z(λ) = z1 = 8. By Lemma 2.5 and Lemma 4.1,
+              1 − (2a2 + a3 + 2a4 + a5 + a6 ) > 0 or 1 − (a2 + a3 + 2a4 + 2a5 + a6 ) > 0.
+In either case, a2 = a3 = a4 = a5 = a6 = 0 and hence λ = −3ζ (1st Wallach representation).
+4.5. Case gR = e7(−25) . By inspection of the Hasse diagram of ∆(p+ ),
+                 A0 = ∆(p+ )1 = {[0, 0, 0, 0, 0, 0, 1]},
+                 A1 = ∆(p+ )5 = {[0, 0, 1, 1, 1, 1, 1], [0, 1, 0, 1, 1, 1, 1]},
+                 A2 = ∆(p+ )9 = {[1, 1, 2, 2, 1, 1, 1], [1, 1, 1, 2, 2, 1, 1], [0, 1, 1, 2, 2, 2, 1]}.
+Fix τ = a1 ω2 + a2 ω2 + a3 ω3 + a4 ω4 + a5 ω5 + a6 ω6 . Then, since β = [2, 2, 3, 4, 3, 2, 1],
+                          λ0 = τ − (17 + 2a1 + 2a2 + 3a3 + 4a4 + 3a5 + 2a6 )ζ.
+
+  Suppose AV(L(λ)) = O0 and z(λ) = z0 = 17. By Lemma 2.5 and Lemma 4.1,
+                               1 − (2a1 + 2a2 + 3a3 + 4a4 + 3a5 + 2a6 ) > 0
+and hence a1 = a2 = a3 = a4 = a5 = a6 = 0. It follows that λ = 0 (trivial representation).
+
+Suppose AV(L(λ)) = O1 and z(λ) = z1 = 13. By Lemma 2.5 and Lemma 4.1,
+     1 − (2a1 + 2a2 + 2a3 + 3a4 + 2a5 + a6 ) > 0 or 1 − (2a1 + a2 + 3a3 + 3a4 + 2a5 + a6 ) > 0.
+In either case, a1 = a2 = a3 = a4 = a5 = a6 = 0 and hence λ = −4ω7 (1st Wallach representation).
+
+Suppose AV(L(λ)) = O2 and z(λ) = z2 = 9. By Lemma 2.5 and Lemma 4.1,
+                                    1 − (a1 + a2 + a3 + 2a4 + 2a5 + a6 > 0,
+                                    1 − (a1 + a2 + 2a3 + 2a4 + a5 + a6 ) > 0,
+                                or 1 − (2a1 + a2 + 2a3 + 2a4 + a5 ) > 0.
+In the first two cases, a1 = a2 = a3 = a4 = a5 = a6 = 0 and hence λ = −8ζ (2nd Wallach
+representation). In the third case, a1 = a2 = a3 = a4 = a5 = 0 and λ = a6 ω6 + (−2a6 − 8)ζ
+(unitary reduction point).
+                                                           9
+                  5. Proof of the main theorem: non-simply-laced cases
+  In this section, we assume that ∆ is not simply-laced.
+  For any integer 0 ≤ k ≤ r − 1, Ak is the antichain in ∆(p+ ) such that |Ak | = [ k2 ] + 1 and
+Ak = ∆(p+ )h with h minimal.
+  The proof of Theorem 1.1 in non-simply-laced cases is similar to the simply-laced cases. We need
+Lemma 2.5 and the following useful lemma in the computation.
+
+Lemma 5.1. Let τ ∈ Λ+ (k). If λ0 = τ − (τ + ρ, β ∨ )ζ and λ = λ0 + zζ, then, for any α ∈ ∆(p+ )h ,
+              (λ + ρ, α∨ ) = z − (ρ, β ∨ ) + (ρ, α∨ ) − (τ, β ∨ − α∨ ) when α is a long root,
+and
+           (λ + ρ, α∨ ) = 2z − 2(ρ, β ∨ ) + (ρ, α∨ ) − (τ, 2β ∨ − α∨ ) when α is a short root.
+
+Proof. Let α ∈ ∆(p+ )h . Since ∆ is not simply-laced, (ζ, α∨ ) = 1 if α is a long root and (ζ, α∨ ) = 2
+if α is a short root. (ρ, α∨ ) = h. Thus, if α is a long root, we have
+                   (λ + ρ, α∨ ) = (λ0 + zζ + ρ, α∨ )
+                                = (τ, α∨ ) − (τ + ρ, β ∨ )(ζ, α∨ ) + z(ζ, α∨ ) + (ρ, α∨ )
+                                = (τ, α∨ ) − (τ + ρ, β ∨ ) + z + (ρ, α∨ )
+                                = (τ, α∨ − β ∨ ) − (ρ, β ∨ ) + z + (ρ, α∨ )
+                                = z − (ρ, β ∨ ) + (ρ, α∨ ) − (τ, β ∨ − α∨ ).
+
+  If α is a short root, we have
+                   (λ + ρ, α∨ ) = (λ0 + zζ + ρ, α∨ )
+                                = (τ, α∨ ) − (τ + ρ, β ∨ )(ζ, α∨ ) + z(ζ, α∨ ) + (ρ, α∨ )
+                                = (τ, α∨ ) − 2(τ + ρ, β ∨ ) + 2z + (ρ, α∨ )
+                                = (τ, α∨ − 2β ∨ ) − 2(ρ, β ∨ ) + 2z + (ρ, α∨ )
+                                = 2z − 2(ρ, β ∨ ) + (ρ, α∨ ) − (τ, 2β ∨ − α∨ ).
+                                                                                                            
+
+5.1. gR = sp(n, R). For 0 ≤ k ≤ r − 1 = n − 1,
+            if k = 2m is even, Ak = ∆(p+ )k+1 = {2εn−m , εn−m−i + εn−m+i | 1 ≤ i ≤ m}
+                                   = {[ 0, . . . , 0 , 1, . . . , 1, 2, . . . , 2, 1 ] | 0 ≤ i ≤ m},
+                                        | {z } | {z } | {z }
+                                         n−m−1−i          2i          m−i
+
+
+             if k = 2m + 1 is odd, Ak = ∆(p+ )k+1 = {εn−m−1−i + εn−m+i | 0 ≤ i ≤ m}
+                                        = {[ 0, . . . , 0 , 1, . . . , 1, 2, . . . , 2, 1 ] | 0 ≤ i ≤ m}.
+                                             | {z } | {z } | {z }
+                                               n−m−2−i         1+2i         m−i
+
+Fix τ = a1 ω1 + a2 ω2 + · · · + an−1 ωn−1   ∈ Λ+ (k). Then, since β = [2, · · · , 2, 1],
+                  λ0 = τ − (τ + ρ, β ∨ )ζ = τ − (n + a1 + a2 + · · · + an−2 + an−1 )ζ.
+                                                        10
+  Now suppose λ = λ0 + zζ such that AV(L(λ)) = Ok with 1 ≤ k ≤ r − 1 and z = zk = n − k2 . By
+Lemma 2.5, (λ + ρ, α∨ ) > 0 for some α ∈ Ak . So if k = 2m is even, by Lemma 5.1 we have
+                                         1 − (a1 + a2 + · · · + an−m−1 ) > 0
+or
+                      2 − (2a1 + · · · + 2an−m−1−i + an−m−i + · · · + an−1−m+i ) > 0.
+In the first case, a1 = a2 = · · · = an−m−1 = 0 and hence
+                                                                                  1
+                     λ = an−m ωn−m + · · · + an−1 ωn−1 − (an−m + · · · + an−1 )ζ − ζ
+                                                                                  2
+                                                       1
+                       = (0, . . . , 0, ∗, . . . , ∗) − ζ.
+                          | {z } | {z }                2
+                              n−m          m
+
+By [EHW83] or [EW04], L(λ) is unitary.
+  In the second case, a1 = a2 = · · · = an−m−1−i = 0 and an−m−i = · · · = an−1−m+i = 0 or at most
+one of {an−m−i , · · · , an−1−m+i } equals to 1 with the rest queal to 0. Hence
+                                                                                     1
+                  λ = an−m−i ωn−m−i + · · · + an−1 ωn−1 − (an−m−i + · · · + an−1 )ζ − ζ
+                                                                                     2
+                                                      m−i
+                                                     z }| {         1
+                    = (0, . . . , 0, −1, · · · , −1, ∗, . . . , ∗) − ζ.
+                       | {z } |                  {z             }   2
+                        ≥n−m−i               ≤m+i
+
+
+     By [EHW83] or [EW04], L(λ) is unitary.
+     If k = 2m + 1 is odd, we have
+                     2 − (2a1 + · · · + 2an−m−2−i + an−m−1−i + · · · + an−1−m+i ) > 0,
+then the arguments are similar to the above case.
+
+5.2. gR = so(2, 2n − 1). For 0 ≤ k ≤ r − 1 = 2 − 1 = 1,
+                                     A0 = ∆(p+ )1 = {ε1 − ε2 = [1, 0, ..., 0]},
+                                     A1 = ∆(p+ )n = {ε1 = [1, 1, . . . , 1]}.
+
+     Fix τ = a2 ω2 + · · · + an−1 ωn−1 + an ωn ∈ Λ+ (k). Then, since β = ε1 + ε2 = [1, 2, · · · , 2],
+                     λ0 = τ − (τ + ρ, β ∨ )ζ = τ − (2n − 2 + 2a2 + · · · + 2an−1 + an )ζ.
+
+     Suppose AV(L(λ)) = O0 and z(λ) = z0 = 2n − 2. By Lemma 2.5 and Lemma 5.1,
+                                         1 − (2a2 + · · · + 2an−1 + an ) > 0
+and hence a2 = · · · = an = 0. It follows that λ = 0 (trivial representation).
+     Suppose AV(L(λ)) = O1 and z(λ) = z1 = n − 12 . By Lemma 2.5 and Lemma 5.1,
+                                         2 − (2a2 + · · · + 2an−1 + an ) > 0
+and hence a2 = · · · = an = 0 or a2 = · · · = an−1 = an − 1 = 0.
+     In the first case, it follows that λ = −(n − 32 )ζ (1st Wallach representation).
+     In the second case, we have λ = ωn − (n − 12 )ζ (unitary reduction point).
+                                                             11
+               6. A uniform formula for the Gelfand–Kirillov dimension
+   In our previous paper [BH15], we found a uniform formula for the Gelfand–Kirillov dimensions
+of all unitary highest weight modules. Now we will give a new formula for the Gelfand–Kirillov
+dimensions of all highest weight Harish-Chandra modules.
+  We recall the definition of zk (λ0 ) in the introduction. Then we have the following lemma.
+
+Lemma 6.1. Suppose g is of type ADE. For z = (λ + ρ, β ∨ ) ∈ Z, we have
+                                      zk (λ0 ) ≤ z ⇐⇒ m(λ) ≤ k.
+
+Proof. It is easy to verify (case-by-case) that
+                    m(λ) ≥ k + 1 ⇐⇒ Ak ⊂ {α ∈ ∆(p+ ) | (λ + ρ, α∨ ) ∈ Z≤0 }.
+
+  For z ∈ Z, we have
+                    zk (λ0 ) ≤ z ⇐⇒ ∃ α ∈ Ak such that (λ0 + zζ + ρ, α∨ ) > 0
+                                 ⇐⇒ Ak * {α ∈ ∆(p+ ) | (λ + ρ, α∨ ) ≤ 0}
+                                 ⇐⇒ m(λ) < k + 1 = |Ak |
+                                 ⇐⇒ m(λ) ≤ k.
+                                                                                                
+
+  We recall the main theorem in [BHXZ].
+
+Proposition 6.2 ([BHXZ]). Suppose L(λ) is a highest weight Harish-Chandra module with highest
+weight λ and AV(L(λ)) = Ok(λ) . Let m = width(Yλ ). Then k(λ) is given as follows.
+   (a) If ∆ is simply laced and λ is integral, then k(λ) = m.
+   (b) If ∆ is non-simply laced and λ is integral, then
+                                          (
+                                            2m, if m < r+1 2
+                                  k(λ) =                  r+1
+                                            r,      if m = 2 .
+
+   (c) If ∆ is non-simply laced and λ is half-integral, then
+                                         (
+                                           2m + 1, if m < 2r
+                                  k(λ) =
+                                           r,          if m = r2 .
+
+   (d) In all other cases k(λ) = r.
+
+  In the following, we give the new formula for the Gelfand–Kirillov dimensions of all highest
+weight Harish-Chandra modules.
+
+Theorem 6.3. Suppose λ = λ0 + zζ is a reduction point. Then
+   (a) If g is of type ADE, then z ∈ Z and
+                           
+                             rz , if z < zr−1 (λ0 )
+                            r−1
+                           
+             GKdim L(λ) = kzk−1 , if zk (λ0 ) ≤ z < zk−1 (λ0 ), where 1 ≤ k ≤ r − 1
+                           
+                           
+                           
+                              0,      if z0 (λ0 ) ≤ z ∈ Z.
+                                                  12
+   (b) If g is of type BC, then z ∈ Z or z ∈ 21 + Z and
+                        
+                        
+                        rzr−1 , if z < zr−1 (λ0 )
+                        
+                        
+                        
+                        
+                        
+                        kzk−1 , if zk (λ0 ) ≤ z < zk−2 (λ0 ), where 2 ≤ k ≤ r − 1 and
+                        
+        GKdim L(λ) =                 either z ∈ Z and k is even or z ∈ 12 + Z and k is odd
+                        
+                        
+                        
+                        
+                        z0 ,     if z1 (λ0 ) ≤ z ∈ 12 + Z
+                        
+                        
+                        
+                        0,       if z0 (λ0 ) ≤ z ∈ Z.
+
+Proof. In the following, suppose 0 ≤ k ≤ r − 1.
+  (a) In type ADE, if λ = λ0 + zζ is a reduction point, then z ∈ Z by [EHW83].
+  Thus, we have
+                      zk (λ0 ) ≤ z ⇐⇒ ∃ α ∈ Ak : (λ0 + zζ + ρ, α∨ ) > 0
+                                  ⇐⇒ Ak * {α ∈ ∆(p+ ) | (λ + ρ, α∨ ) ≤ 0}
+                                  ⇐⇒ m(λ) < k + 1 = |Ak |
+                                  ⇐⇒ m(λ) ≤ k.
+
+  The formula then follows from our main theorem (in type ADE) in [BHXZ].
+  (b) In type BC, if λ = λ0 + zζ is a reduction point, then z ∈ 21 Z by [EHW83].
+  When λ = λ0 + zζ is integral, then z ∈ Z. Thus, when k = 2m is even, we have
+                      zk (λ0 ) ≤ z ⇐⇒ ∃ α ∈ Ak : (λ0 + zζ + ρ, α∨ ) > 0
+                                  ⇐⇒ Ak * {α ∈ ∆(p+ ) | (λ + ρ, α∨ ) ≤ 0}
+                                  ⇐⇒ m(λ) < m + 1 = |Ak |
+                                  ⇐⇒ m(λ) ≤ m
+                                  ⇐⇒ 2m(λ) ≤ 2m = k.
+
+  When λ = λ0 + zζ is half-integral, then z ∈ 12 + Z. Thus, when k = 2m + 1 is odd, we have
+                      zk (λ0 ) ≤ z ⇐⇒ ∃ α ∈ Ak : (λ0 + zζ + ρ, α∨ ) > 0
+                                  ⇐⇒ Ak * {α ∈ ∆(p+ ) | (λ + ρ, α∨ ) ≤ 0}
+                                  ⇐⇒ m(λ) < m + 1 = |Ak |
+                                  ⇐⇒ m(λ) ≤ m
+                                  ⇐⇒ 2m(λ) + 1 ≤ 2m + 1 = k.
+
+   In particular, z1 (λ0 ) ≤ z ⇐⇒ 2m(λ) + 1 ≤ 2m + 1 = 1. When λ = λ0 + zζ is half-integral, we
+also know that L(λ) is not finite-dimensional. Thus AV(L(λ)) = Ok(λ) with k(λ) = 2m(λ) + 1 ≥ 1.
+  The formula then follows from our main theorem (in type BC) in [BHXZ].
+                                                                                              
+
+  The following result was firstly proved in [BH15]. Now we give a new proof.
+                                                  13
+Corollary 6.4. Suppose L(λ) is a unitary highest weight Harish-Chandra module with highest
+weight λ. We denote z = z(λ) = (λ + ρ, β ∨ ), then
+                              
+                               rz , if z < zr−1
+                               r−1
+                              
+               GKdim L(λ) = kzk−1 , if z = zk = (ρ, β ∨ ) − kc, 1 ≤ k ≤ r − 1
+                              
+                              
+                                           if z = z0 = (ρ, β ∨ ).
+                              
+                                0,
+
+Proof. First we suppose that L(λ) is a unitary highest weight Harish-Chandra module and z =
+(λ + ρ, β ∨ ) = zk for some 0 ≤ k ≤ r − 1.
+  From Yamashita [Yam94] we have AV(L(λ)) = Ok(λ) for some 0 ≤ k(λ) ≤ r. From Theorem 1.1,
+we will have z = (λ + ρ, β ∨ ) = zk(λ) since L(λ) is unitarizable. Thus we must have z = zk = zk(λ) ,
+which implies that k(λ) = k. So we must have GKdim L(λ) = dim Ok = kzk−1 .
+   Now we suppose that L(λ) is a unitary highest weight Harish-Chandra module and z = (λ +
+ρ, β ∨ ) < zr−1 . From Yamashita [Yam94] we still have AV(L(λ)) = Ok(λ) for some 0 ≤ k(λ) ≤ r. If
+k(λ) ≤ r − 1, by Theorem 1.1 we will have z = (λ + ρ, β ∨ ) = zk(λ) since L(λ) is unitarizable. From
+our assumption, we will have z = zk(λ) < zr−1 , which implies that
+                     (ρ, β ∨ ) − k(λ)c < (ρ, β ∨ ) − (r − 1)c ⇒ r − 1 < k(λ) ≤ r − 1.
+This is a contradiction! So we must have k(λ) = r and GKdim L(λ) = dim Or = rzr−1 .                           
+
+Example 6.5. Let gR = su(4, 3) and let L(λ) be a highest weight Harish-Chandra module with
+highest weight λ = λ0 + zζ. Here λ0 = (0, 0, 0, −20, 8, 6, 6), ζ = ( 73 , 73 , 37 , 37 , − 47 , − 47 , − 74 ) and
+ρ = (3, 2, 1, 0, −1, −2, −3). From [EHW83], we know the unitary reduction points correspond to
+z = 3 and 4. For 0 ≤ k ≤ r − 1 = min{p, q} − 1 = 2, we know
+           Ak = ∆(p+ )k+1 = {εp−k+i − εp+i+1 = [ 0, . . . , 0, 1, . . . , 1, 0, . . . , 0 ] | 0 ≤ i ≤ k}.
+                                                 | {z } | {z } | {z }
+                                                            p−k+i−1    k+1      q−i−1
+
+So A0 = {ε4 − ε5 }, A1 = {ε3 − ε5 , ε4 − ε6 }, A2 = {ε2 − ε5 , ε3 − ε6 , ε4 − ε7 }.
+    We write λ0 + zζ + ρ = (3 + 37 z, 2 + 37 z, 1 + 73 z, −20 + 37 z, 7 − 47 z, 4 − 47 z, 3 − 74 z). Thus we have
+z0 (λ0 ) = 28, z1 (λ0 ) = 7, and z2 (λ0 ) = 4. So
+                                  
+                                  
+                                    3z2 ,     if z < z2 (λ0 ) = 4
+                                  
+(6.1)             GKdim L(λ) = kzk−1 , if zk (λ0 ) ≤ z < zk−1 (λ0 ), where 1 ≤ k ≤ 2
+                                  
+                                  
+                                  0,          if z (λ ) = 28 ≤ z ∈ Z.
+                                                    0   0
+                                    
+                                    
+                                     12,   if z < z2 (λ0 ) = 4
+                                    
+                                    
+                                    
+                                    10,    if z2 (λ0 ) = 4 ≤ z < z1 (λ0 ) = 7
+(6.2)                           =
+                                    
+                                     6,    if z1 (λ0 ) = 7 ≤ z < z0 (λ0 ) = 28
+                                    
+                                    
+                                    
+                                    0,     if z0 (λ0 ) = 28 ≤ z ∈ Z.
+
+For this given λ0 , when AV(L(λ)) = Ok with 0 ≤ k ≤ 2, from Theorem 1.1, we have
+               L(λ) is unitarizable if and only if (λ + ρ, β ∨ ) = zk = n − 1 − k = 6 − k.
+So from the above equation (6.2), we have
+                      L(λ) is unitarizable if and only if (λ + ρ, β ∨ ) = z = z2 = 4.
+                                                        14
+Note that z = 3 is a unitary reduction point with AV(L(λ)) = O3 , which is not included in our
+Theorem 1.1.
+
+Example 6.6. Let gR = sp(6, R) and let L(λ) be a highest weight Harish-Chandra module with
+highest weight λ = λ0 + zζ. Here λ0 = (−6, −6, −6, −6, −10, −15), ζ = (1, 1, 1, 1, 1, 1) and ρ =
+(6, 5, 4, 3, 2, 1). From [EHW83], we know the unitary reduction points correspond to z = 2.5, 3, 3.5
+and 4. For 0 ≤ k ≤ r − 1 = n − 1 = 5, we know
+            if k = 2m is even, Ak = ∆(p+ )k+1 = {2εn−m , εn−m−i + εn−m+i | 1 ≤ i ≤ m}
+                                    = {[ 0, . . . , 0 , 1, . . . , 1, 2, . . . , 2, 1 ] | 0 ≤ i ≤ m},
+                                         | {z } | {z } | {z }
+                                          n−m−1−i          2i          m−i
+
+             if k = 2m + 1 is odd, Ak = ∆(p+ )k+1 = {εn−m−1−i + εn−m+i | 0 ≤ i ≤ m}
+                                         = {[ 0, . . . , 0 , 1, . . . , 1, 2, . . . , 2, 1 ] | 0 ≤ i ≤ m}.
+                                              | {z } | {z } | {z }
+                                                n−m−2−i         1+2i         m−i
+So A0 = {2ε6 }, A2 = {2ε5 , ε4 +ε6 }, A4 = {2ε4 , ε3 +ε5 , ε2 +ε6 }, A1 = {ε5 +ε6 }, A3 = {ε4 +ε5 , ε3 +ε6 },
+A5 = {ε3 + ε4 , ε2 + ε5 , ε1 + ε6 }.
+    We write λ0 + zζ + ρ = (z, z − 1, z − 2, z − 3, z − 8, z − 14). Thus we have z0 (λ0 ) = 15, z2 (λ0 ) = 9,
+z4 (λ0 ) = 4, z1 (λ0 ) = 11.5, z3 (λ0 ) = 6.5, z5 (λ0 ) = 3.5. So
+                               
+                               
+                                6z5 ,      if z < z5 (λ0 ) = 3.5
+                               
+                               
+                               
+                               
+                               
+                                kzk−1 , if zk (λ0 ) ≤ z < zk−2 (λ0 ), where 2 ≤ k ≤ 5 and
+                               
+(6.3)        GKdim L(λ) =                      either z ∈ Z and k is even or z ∈ 12 + Z and k is odd
+                               
+                               
+                               
+                               
+                                6,         if z1 (λ0 ) = 11.5 ≤ z ∈ 21 + Z
+                               
+                               
+                               
+                               0,          if z0 (λ0 ) = 15 ≤ z ∈ Z.
+                               
+                               
+                                21, if z < z5 (λ0 ) = 3.5
+                               
+                               
+                                 20, if z5 (λ0 ) = 3.5 ≤ z < z3 (λ0 ) = 6.5, where z ∈ 12 + Z
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                                18, if z4 (λ0 ) = 4 ≤ z < z2 (λ0 ) = 9, where z ∈ Z
+                               
+                                                                                         1
+(6.4)                       = 15, if z3 (λ0 ) = 6.5 ≤ z < z1 (λ0 ) = 11.5, where z ∈ 2 + Z
+                               
+                               
+                               
+                               
+                                11, if z2 (λ0 ) = 9 ≤ z < z0 (λ0 ) = 15, where z ∈ Z
+                               
+                               
+                                        if z1 (λ0 ) = 11.5 ≤ z ∈ 12 + Z
+                               
+                               
+                               
+                                6,
+                               
+                               
+                               
+                               0,      if z0 (λ0 ) = 15 ≤ z ∈ Z.
+
+For this given λ0 , when AV(L(λ)) = Ok with 0 ≤ k ≤ 5, from Theorem 1.1, we have
+                                                                                   k
+                   L(λ) is unitarizable if and only if (λ + ρ, β ∨ ) = z = zk = 6 − .
+                                                                                   2
+So from the above equation (6.4), we have
+            L(λ) is unitarizable if and only if (λ + ρ, β ∨ ) = z = z4 = 4, or z = z5 = 3.5.
+Note that z = 3 and z = 2.5 are two unitary reduction points with AV(L(λ)) = O6 , which are not
+included in our Theorem 1.1.
+
+Acknowledgments. Z. Bai was supported by the National Natural Science Foundation of China
+(No. 12171344).
+                                                         15
+                                                        7. Appendix
+The diagrams of ∆(p+ ).
+gR = su(p, q):
+                                                   β = ε1 − εn = α1 + α2 + · · · + αn−1
+
+
+
+
+                                                                     εp − εn
+
+                                                              p+2
+                                                           p+1
+                                                       αp = εp − εp+1
+For 0 ≤ k ≤ r − 1 = min{p, q} − 1,
+        Ak = ∆(p+ )k+1 = {εp−k+i − εp+i+1 = [ 0, . . . , 0, 1, . . . , 1, 0, . . . , 0 ] | 0 ≤ i ≤ k}.
+                                              | {z } | {z } | {z }
+                                                                    p−k+i−1      k+1       q−i−1
+
+gR = so∗ (2n):
+
+
+                                         2     β = ε1 + ε2 = α1 + 2α2 + · · · + 2αn−2 + αn−1 + αn
+                                ·   ··
+                        n−2
+                    n−1
+
+
+                       1
+                           ..
+                               .
+                               n−3
+                                n−2            αn = εn−1 + εn
+
+
+
+For 1 ≤ k ≤ r − 1 = [ n2 ] − 1,
+             Ak = ∆(p+ )2k+1 = {[ 0, . . . , 0, 1, . . . , 1, 0, 1 ],
+                                  | {z } | {z }
+                                                n−2k−2         2k
+                                             [ 0, . . . , 0 , 1, . . . , 1, 2, . . . , 2, 1, 1 ] | 0 ≤ i ≤ k − 1},
+                                               | {z } | {z } | {z }
+                                              n−2k−1+i 2k−2i−1              i
+                           +
+             A0 = ∆(p )1 = {[0, 0, . . . , 0, 1]}.
+
+
+
+
+                                                                16
+gR = so(2, 2n − 2):
+
+
+                                                       β = ε1 + ε2 = α1 + 2α2 + 2α3 + 2α4 + α5 + α6
+                                                   2
+                                              3
+
+                                     ·   ··
+                              n
+                                     β1           β2
+                             n−1
+                                ..
+                                          .
+                                              3
+                                                   2
+                                                       α1 = ε1 − ε2
+
+
+
+
+                 A0 = ∆(p+ )1 = {ε1 − ε2 = [1, 0, ..., 0]},
+                 A1 = ∆(p+ )n−1 = {ε1 − εn = [1, . . . , 1, 0], ε1 + εn = [1, . . . , 1, 0, 1]}.
+
+gR = e6(−14) :
+                     β = α1 + 2α2 + 2α3 + 3α4 + 2α5 + α6
+                     2
+                             4
+                                     5
+                                 3
+                         4
+                     2
+
+                     6       β1          β2
+                         5
+                                 4
+                                         3        α1
+
+
+                                  A0 = ∆(p+ )1 = {[1, 0, 0, 0, 0, 0]},
+                                  A1 = ∆(p+ )4 = {[1, 0, 1, 1, 1, 0], [1, 1, 1, 1, 0, 0]}.
+
+
+
+
+                                                                 17
+gR = e7(−25) :
+
+
+                                                    β = 2α1 + 2α2 + 3α3 + 4α4 + 3α5 + 2α6 + α7
+                                                1
+                                        3
+                                4
+                           5        2
+                       6
+                                    4
+                                            3
+                           5
+                           γ1           γ2           γ3
+                           4
+                       2
+
+                       1
+                           β1           β2
+                           3
+                                4
+                                        5
+                                                6
+                                                    α7
+
+
+                 A0 = ∆(p+ )1 = {[0, 0, 0, 0, 0, 0, 1]},
+                 A1 = ∆(p+ )5 = {[0, 0, 1, 1, 1, 1, 1], [0, 1, 0, 1, 1, 1, 1]},
+                 A2 = ∆(p+ )9 = {[1, 1, 2, 2, 1, 1, 1], [1, 1, 1, 2, 2, 1, 1], [0, 1, 1, 2, 2, 2, 1]}.
+
+gR = so(2, 2n − 1):
+
+
+
+            α1     2                n−1              n    n   n−1           3      2   β = ε1 + ε2
+
+
+
+
+                                            A0 = ∆(p+ )1 = {ε1 − ε2 = [1, 0, ..., 0]},
+                                            A1 = ∆(p+ )n = {ε1 = [1, 1, . . . , 1]}.
+
+
+
+
+                                                                 18
+  gR = sp(n, R):
+
+
+
+                                                  1       β = 2ε1
+                                         ·   ··
+                               n-2
+                         n-1
+
+
+                          1
+                                ..
+                                     .
+                                         n-2
+                                                  n-1     αn = 2εn
+
+
+
+  For 0 ≤ k ≤ r − 1 = n − 1,
+
+             if k = 2m is even, Ak = ∆(p+ )k+1 = {2εn−m , εn−m−i + εn−m+i | 1 ≤ i ≤ m}
+                                                      = {[ 0, . . . , 0 , 1, . . . , 1, 2, . . . , 2, 1 ] | 0 ≤ i ≤ m},
+                                                           | {z } | {z } | {z }
+                                                            n−m−1−i          2i          m−i
+
+
+
+              if k = 2m + 1 is odd, Ak = ∆(p+ )k+1 = {εn−m−1−i + εn−m+i | 0 ≤ i ≤ m}
+                                                           = {[ 0, . . . , 0 , 1, . . . , 1, 2, . . . , 2, 1 ] | 0 ≤ i ≤ m}.
+                                                                | {z } | {z } | {z }
+                                                                  n−m−2−i         1+2i         m−i
+
+
+                                                                   References
+     [BH15] Z. Bai and M. Hunziker, The Gelfand-Kirillov dimension of a unitary highest weight module, Sci. China
+            Math. 58 (2015), 2489–2498. ↑2, 6, 12, 13
+   [BHXZ] Z. Bai, M. Hunziker, X. Xie, and R. Zierau, On the associated variety of a highest weight Harish-Chandra
+            module, arXiv: 2402.08886. ↑1, 4, 12, 13
+  [DES91] M. G. Davidson, T. J. Enright, and R. J. Stanke, Differential operators and highest weight representations,
+            Mem. Amer. Math. Soc. 94 (1991), no. 455, iv+102. ↑8
+[EHW83] T. J. Enright, R. Howe, and N. Wallach, A classification of unitary highest weight modules, Representation
+            theory of reductive groups (Park City, Utah, 1982), 1983, pp. 97–143. ↑1, 2, 5, 8, 11, 13, 14, 15
+   [EW04] T. J. Enright and J. F. Willenbring, Hilbert series, Howe duality and branching for classical groups, Ann.
+            of Math. (2) 159 (2004), no. 1, 337–375. ↑8, 11
+    [Jak83] H. P. Jakobsen, Hermitian symmetric spaces and their unitary highest weight modules, J. Funct. Anal. 52
+            (1983), no. 3, 385–412. ↑1, 3
+    [KV78] M. Kashiwara and M. Vergne, On the Segal-Shale-Weil representations and harmonic polynomials, Invent.
+            Math. 44 (1978), no. 1, 1–47. ↑7
+ [NOT01] K. Nishiyama, H. Ochiai, and K. Taniguchi, Bernstein degree and associated cycles of Harish-Chandra
+            modules—Hermitian symmetric case, 2001, pp. 13–80. Nilpotent orbits, associated cycles and Whittaker
+            models for highest weight representations. ↑5
+    [Vog78] D. A. Vogan Jr., Gelfand-Kirillov dimension for Harish-Chandra modules, Invent. Math. 48 (1978), no. 1,
+            75–98. ↑5
+    [Vog91]         , Associated varieties and unipotent representations, Harmonic analysis on reductive groups
+            (Brunswick, ME, 1989), 1991, pp. 315–388. ↑5
+  [Yam01] H. Yamashita, Cayley transform and generalized Whittaker models for irreducible highest weight modules,
+            2001, pp. 81–137. Nilpotent orbits, associated cycles and Whittaker models for highest weight representa-
+            tions. ↑5
+                                                                           19
+[Yam94]         , Criteria for the finiteness of restriction of U (g)-modules to subalgebras and applications to Harish-
+          Chandra modules. A study in relation to the associated varieties, J. Funct. Anal. 121 (1994), no. 2, 296–329.
+          MR1272130 ↑14
+
+
+ Department of Mathematical Sciences, Soochow University, Suzhou, Jiangsu, China
+ Email address: zqbai@suda.edu.cn
+
+ Department of Mathematics, Baylor University, Waco, Texas, USA
+ Email address: Markus Hunziker@baylor.edu
+
+
+
+
+                                                          20
+

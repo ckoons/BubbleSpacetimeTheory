@@ -1,0 +1,1845 @@
+                                                 THE HOLOMORPHIC DISCRETE SERIES
+                                            CONTRIBUTION TO THE GENERALIZED WHITTAKER
+
+
+
+
+arXiv:2203.14784v2 [math.RT] 24 Apr 2024
+                                                       PLANCHEREL FORMULA
+
+                                                        JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+
+
+
+                                                   Abstract. For a Hermitian Lie group G of tube type we find the con-
+                                                   tribution of the holomorphic discrete series to the Plancherel decompo-
+                                                   sition of the Whittaker space L2 (G/N, ψ), where N is the unipotent rad-
+                                                   ical of the Siegel parabolic subgroup and ψ is a certain non-degenerate
+                                                   unitary character on N . The holomorphic discrete series embeddings
+                                                   are constructed in terms of generalized Whittaker vectors for which we
+                                                   find explicit formulas in the bounded domain realization, the tube do-
+                                                   main realization and the L2 -model of the holomorphic discrete series.
+                                                   Although L2 (G/N, ψ) does not have finite multiplicities in general, the
+                                                   holomorphic discrete series contribution does.
+                                                   Moreover, we obtain an explicit formula for the formal dimensions of
+                                                   the holomorphic discrete series embeddings, and we interpret the holo-
+                                                   morphic discrete series contribution to L2 (G/N, ψ) as boundary values
+                                                   of holomorphic functions on a domain Ξ in a complexification GC of G
+                                                   forming a Hardy type space H2 (Ξ, ψ).
+
+                                                                              Introduction
+                                              One of the fundamental problems in representation theory is the de-
+                                           composition of induced representations into irreducibles. In the context
+                                           of real reductive groups, unitarily induced representations always decom-
+                                           pose uniquely into a direct integral of irreducible unitary representations. A
+                                           special case of this, inducing from the trivial representation, is the decompo-
+                                           sition of L2 (G/H), where G is real reductive and H ⊆ G a closed unimodular
+                                           subgroup. This decomposition is also referred to as the Plancherel formula
+                                           for G/H, and has been studied intensively in particular for reductive sub-
+                                           groups H ⊆ G, e.g. for the group case, reductive symmetric spaces or, more
+                                           recently, real spherical spaces. Somewhat antipodal to reductive subgroups
+                                           are unipotent subgroups N ⊆ G. In this case, the theory becomes richer
+                                           if we allow to induce from a generic unitary character ψ : N → T and
+                                           denote L2 (G/N, ψ) = IndG    N (ψ). For a maximal unipotent subgroup, the
+
+                                              2010 Mathematics Subject Classification. Primary 22E46; Secondary 43A85.
+                                              Part of the research in this paper was carried out within the online research community
+                                           on Representation Theory and Noncommutative Geometry sponsored by the American
+                                           Institute of Mathematics. The first author was partially supported by a research grant
+                                           from the Villum Foundation (Grant No. 00025373). The second author was partially
+                                           supported by Simons grant 586106.
+                                                                                       1
+2            JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+Plancherel formula for L2 (G/N, ψ), also called Whittaker Plancherel for-
+mula, was obtained by Harish-Chandra, Wallach and van den Ban. The
+Whittaker Plancherel formula is formulated in terms of Whittaker vectors
+which are distribution vectors equivariant under the action of N . Whittaker
+vectors also play an important role in analytic number theory, where they
+are used to expand automorphic forms into generalized Fourier series. In
+particular, Whittaker vectors on holomorphic discrete series representations
+are important in the study of holomorphic automorphic forms on Hermitian
+groups.
+Explicit generalized Whittaker vectors. In this paper, we study gen-
+eralized Whittaker vectors on holomorphic discrete series, i.e. Whittaker
+vectors for non-maximal unipotent subgroups N . More precisely, we focus
+on the case where G is a Hermitian Lie group of tube type and N the unipo-
+tent radical of the Siegel parabolic subgroup P = M AN . In this case, N
+is abelian, and we choose a generic character ψ on N which is contained in
+a certain symmetric cone Ω in the unitary dual of N . For a holomorphic
+discrete series representation (σ, Hσ ) of G, a generalized Whittaker vector
+for the pair (N, ψ) is a distribution vector W ∈ Hσ−∞ such that
+             W (σ(n)v) = ψ(n)W (v)        for all v ∈ Hσ∞ , n ∈ N.
+   Our first main result is an explicit construction and classification of gen-
+eralized Whittaker vectors for all holomorphic discrete series representations
+in three different realizations (bounded domain model, tube domain model
+and L2 -model).
+Theorem A (see Propositions 2.2, 2.5 and 2.6).       (1) The dimension of
+      the space of generalized Whittaker vectors on a holomorphic discrete
+      series representation is equal to the dimension of its lowest K-type.
+  (2) All generalized Whittaker vectors on holomorphic discrete series rep-
+      resentations are given by the following explicit formulas: (2.1) and
+      (2.2) for the L2 -model, (2.4) for the tube domain realization, and
+      (2.5) and (2.6) for the bounded domain realization.
+   Particularly interesting are the generalized Whittaker vectors with re-
+spect to the unipotent subgroup N opposite to N in the L2 -model, which
+are essentially given by a vector-valued multivariable J-Bessel function on
+a symmetric cone Ω in N . The study of scalar-valued multivariable Bessel
+functions goes back to the work of Herz [17] for the case where Ω is the set
+of positive definite symmetric matrices. It was generalized to arbitrary sym-
+metric cones by Faraut–Koranyi [11] and Dib [8], and to the vector-valued
+case by Ding–Gross [9]. More recently, the scalar-valued J-Bessel function
+on symmetric matrices has been used in the context of weak Maass forms
+and weakly holomorphic modular forms for G = Sp(n, R), see e.g. Bruinier–
+Funke–Kudla [5] and references therein. We believe that our vector-valued
+generalizations could help to extend their theory to more general general
+groups and representations.
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA                3
+
+   We remark that the dimension of the space of generalized Whittaker vec-
+tors on holomorphic discrete series representations was already determined
+by Wallach [31]. However, he did not obtain explicit formulas for the Whit-
+taker vectors.
+
+Discrete spectrum in the generalized Whittaker Plancherel for-
+mula. For every holomorphic discrete series representation (σ, Hσ ), matrix
+coefficients with respect to generalized Whittaker vectors construct embed-
+dings of the smooth vectors Hσ∞ into C ∞ (G/N, ψ), the smooth sections of
+the line bundle induced by ψ. More precisely, if Hσ−∞,ψ denotes the space
+of Whittaker vectors on σ for the pair (N, ψ), we have a G-equivariant em-
+bedding
+                                                                 
+    Hσ∞ ⊗ Hσ−∞,ψ ֒→ C ∞ (G/N, ψ), f ⊗ W 7→ g 7→ W (σ(g)−1 f ) .        (0.1)
+We use our explicit formulas for Whittaker vectors to show that all such
+embeddings actually map into L2 (G/N, ψ), thus constructing discrete com-
+ponents in the Plancherel formula for L2 (G/N, ψ).
+Theorem B (see Theorem 3.1, Theorem 3.2 and Corollary 4.10). For ev-
+ery holomorphic discrete series representation (σ, Hσ ) of G, the map (0.1)
+extends to a G-equivariant embedding
+                        Hσ ⊗ Hσ−∞,ψ ֒→ L2 (G/N, ψ),
+constructing the complete contribution of σ to the Plancherel formula for
+L2 (G/N, ψ). Moreover, there exists an explicit constant d(σ) > 0, the formal
+dimension, and an explicit inner product h·, ·iH−∞,ψ on Hσ−∞,ψ (see (3.2) and
+                                                 σ
+(3.3) for the explicit formulas) such that
+     Z
+                                             1
+           W σ(g)−1 f W ′ σ(g)−1 f ′ dġ =         hf, f ′ iHσ hW, W ′ iH−∞,ψ
+       G/N                                   d(σ)                        σ
+
+
+for all f, f ′ ∈ Hσ and W, W ′ ∈ Hσ−∞,ψ .
+   We remark that, unless G is locally isomorphic to SL(2, R), the decompo-
+sition of L2 (G/N, ψ) does not have finite multiplicities for all representations
+occurring. However, Theorem B implies that all holomorphic discrete series
+representations occur with finite multiplicity inside L2 (G/N, ψ). This is in
+line with recent results of Aizenbud–Gourevitch [1] who introduced the con-
+cept of O-spherical homogeneous spaces for nilpotent coadjoint orbits O.
+Using [1, Theorem B], it can be shown that G/N is indeed OP -spherical,
+where OP is the Richardson orbit associated with the maximal parabolic
+subgroup P . Then, [1, Theorem D] implies that all representations with as-
+sociated variety equal to OP , such as the holomorphic discrete series, occur
+with at most finite multiplicity in L2 (G/N ). It is likely that a variant of
+their result also holds for L2 (G/N, ψ).
+   We further remark that the representation L2 (G/N ) is tempered in the
+sense that the support of the Plancherel measure is contained in the set
+4              JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+of tempered representations. This follows from recent results of Benoist–
+Kobayashi [2, Theorem 2.9 and Corollary 3.3]. By [2, Lemma 3.2], this also
+implies that L2 (G/N, ψ) is tempered, so it is natural to look for discrete
+series in L2 (G/N, ψ).
+Lowest K-types in the Whittaker space. The problem of constructing
+irreducible subrepresentations of L2 (G/N, ψ) was studied earlier by among
+others Yamashita (see [32] and references therein) from a different point
+of view under the rubric of generalized Gelfand–Graev representations. He
+obtained the first part of our Theorem B solving differential equations on
+G/N and finding highest weight vectors corresponding to holomorphic dis-
+crete series representations. We find new formulas for these highest weight
+vectors on G/N by different methods. More precisely, we show that every
+holomorphic discrete series embedding T : Hσ ֒→ L2 (G/N, ψ) can be de-
+scribed in terms of the lowest K-type (π, Vπ ) of (σ, Hσ ), the character ψ,
+and the unique decomposition of an element g ∈ G into a product
+                                g = p+ (g)kC (g)nC (g),
+where kC (g) ∈ KC , a complexification of the maximal compact subgroup
+K of G, p+ (g) ∈ P + = exp p+ , where p+ is one of the two irreducible
+components of the Cartan complement pC of kC , and nC (g) ∈ NC , a com-
+plexification of N .
+Theorem C (see Theorem 4.8). Every lowest K-type (π, Vπ ) of a holo-
+morphic discrete series representation occurring inside L2 (G/N, ψ) is given
+by
+    Tπ,η : Vπ ֒→ L2 (G/N, ψ),
+                                                           
+                 Tπ,η ξ(g) = ψ(nC (g)−1 )η π(kC (g)−1 )ξ       (ξ ∈ Vπ , g ∈ G)
+for some η ∈ Vπ∨ .
+   This formula is in the spirit of [18, 26, 27], where an anologous decom-
+position G ⊆ P + KC HC was derived for an affine symmetric space G/H
+and similar formulas for the lowest K-types of holomorphic discrete series
+in L2 (G/H) were obtained.
+The Hardy space. In the context of affine symmetric spaces, the uni-
+tary highest weight contribution to L2 (G/H) can be described in terms of
+a natural Hardy space H2 (ΞH ) on G/H. This is a space of holomorphic
+functions on a domain ΞH in a complexification GC /HC of G/H, contain-
+ing G/H in the boundary, together with a natural boundary value map
+β : H2 (ΞH ) → L2 (G/H) which is an isometry onto the unitary highest
+weight contribution. One of the key players in this theory is the contraction
+semigroup S ⊆ GC which contains G in its boundary and to which all unitary
+highest weight representations extend as holomorphic ∗ -representations.
+   In our setting, there is an analogous Hardy space H2 (Ξ, ψ) of holomorphic
+functions on a domain Ξ ⊆ GC , transforming by ψ under the right action of
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA             5
+
+N , and a corresponding boundary value map β : H2 (Ξ, ψ) → L2 (G/N, ψ).
+The semigroup S and in particular the group G act on H2 (Ξ, ψ) by the
+left-regular representation.
+Theorem D (see Theorem 5.2).         (1) The Hardy space H2 (Ξ, ψ) decom-
+      poses discretely into the direct sum of holomorphic discrete series
+      representations, each occurring with multiplicity equal to the dimen-
+      sion of its lowest K-type.
+  (2) The boundary value map β : H2 (Ξ, ψ) → L2 (G/N, ψ) is a G-equivariant
+      isometry onto the holomorphic discrete series contribution to the
+      Plancherel formula for L2 (G/N, ψ).
+   In Appendix A we recall the main ideas about realizing representations
+in Hardy spaces and their boundary values for the case of the group G and
+for affine symmetric spaces G/H. It is remarkable that the case of G/N can
+be treated more or less in parallel, one of the main similarities being the
+role of the closed semigroup S in the complexification of G, which consists
+of all contractions of G/K, viewed in its Harish-Chandra realization as a
+bounded symmetric domain in a complex flag manifold. Then S acts on all
+representation spaces as well as on the Hardy space, and the domain Ξ is an
+orbit of the interior of S. We believe that (as we do in Section 4) to see the
+cases X = G, X = G/H and X = G/N in parallel is convenient, making it
+clear that the methods are quite similar, and probably could be applied in
+other similar situations.
+Perspectives. In a subsequent paper [12] we study the case of holomorphic
+discrete series with one-dimensional lowest K-type in more detail. More
+precisely, we shed new light onto the formula for the generating function of
+the Laguerre functions, previously used by Kostant [21, formulas (5.14 &
+(5.15)] for G = SL(2, R), in the connection with Whittaker vectors.
+   Another natural problem in this context is to understand generalized
+Whittaker vectors on unitary highest weight representations that do not
+necessarily belong to the holomorphic discrete series. As shown in this paper,
+these representations do not contribute to L2 (G/N, ψ), but one might still
+study Whittaker embeddings into C ∞ (G/N, ψ). The same problem can be
+studied for more singular characters ψ of N .
+   Generalizing even more, one might ask what happens if one removes the
+assumption on G to be of tube type. In this case, the Shilov boundary
+G/P of G/K corresponds to a maximal parabolic subgroup P with possibly
+non-abelian nilradical N . In general, the nilradical N is two-step nilpotent,
+and Yamashita [32] studied the occurrence of holomorphic discrete series
+representations in IndGN (ψ), where ψ is an infinite-dimensional irreducible
+unitary representation of N . In a subsequent work [13], we generalize some
+of the methods developed in this paper to the case of non-tube type groups.
+Recent work by Bruggeman–Miatello [3, 4] for the group G = SU(2, 1) in-
+dicates that such Whittaker models play a role in the study of non-abelian
+Poincaré series.
+6            JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+   For the Iwasawa decomposition G = KAN0 we may also consider homo-
+geneous vector bundles over G/N0 with fiber a unitary irreducible represen-
+tation of N0 and analogous imbeddings of holomorphic discrete series; here
+induction in stages from our N (say tube type) and a character should yield
+some results, using Mackey theory for N0 .
+   As for the theory of Hardy spaces, we remark that in addition to the
+Whittaker case G/N studied in this paper and the case of affine symmetric
+spaces G/H studied in [18] one may consider a version also on G/K, since
+line bundles for a character of K admit embeddings of (finitely many) holo-
+morphic discrete series by the work of Shimeno [29]. All such Hardy spaces
+have a reproducing kernel, and one further problem could be to express it
+as a sum over the holomorphic discrete series in it.
+   Finally, we believe that our methods in Section 4, in particular the con-
+struction of the kernel function Ψ(g, z), might generalize from holomorphic
+discrete series to more general discrete series representations, since every
+discrete series representation of G has a reproducing kernel when realized
+as kernel of an elliptic differential operator on G/K.
+
+Structure of the paper. In Section 1 we set up the notation and recall the
+three different models for the holomorphic discrete series. Explicit formulas
+for generalized Whittaker vectors are obtained in Section 2, thus proving
+Theorem A. These formulas are used in Section 3 to show Theorem B.
+This also leads to a formula for the formal dimension. In Section 4 we
+first show that G ⊆ P + KC NC , so every g ∈ G can be decomposed as
+g = p+ (g)kC (g)nC (g), and then describe the integral kernel of a holomorphic
+discrete series embedding, and in particular the embedding of the lowest K-
+types, in terms of the projections kC (g) and nC (g). Finally, in Section 5 we
+define the natural Hardy space H2 (Ξ, ψ) and relate it to the holomorphic
+discrete series contribution of L2 (G/N, ψ).
+
+         1. Holomorphic discrete series representations
+   In this first section we recall three realizations of holomorphic discrete
+series representations for Hermitian Lie groups of tube type: the bounded
+domain realization, the tube domain realization and the L2 -model. We use
+the language of Euclidean Jordan algebras and our notation is a mixture of
+[9] and [11].
+
+1.1. Simple Jordan algebras. Let V be a simple Euclidean Jordan alge-
+bra of dimension n = dim(V ) with unit element e. We write V × ⊆ V for
+the open dense subset of invertible elements. The set of invertible squares
+                          Ω = {x2 : x ∈ V × } ⊆ V
+is a symmetric cone. We write TΩ = V + iΩ for the corresponding tube do-
+main inside the complexification VC of V . Note that VC is a simple complex
+Jordan algebra.
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA             7
+
+  We write tr(z) for the Jordan trace of z ∈ VC and note that it is real for
+z ∈ V and strictly positive for z ∈ Ω. The integer r = tr(e) is called the
+rank of V . The trace form on VC is the bilinear form
+                      (z|w) = tr(z · w)     (z, w ∈ VC ).
+   Further, let ∆(z) denote the Jordan determinant of z ∈ VC which is also
+real for z ∈ V and positive for z ∈ Ω. The polynomial ∆ is of degree r and
+∆(e) = 1.
+   For z ∈ VC we write L(z) : VC → VC for the multiplication by z. The
+quadratic representation of VC is the polynomial map
+               P : VC → End(VC ),     P (z) = 2L(z)2 − L(z 2 ),
+and it restricts to a map V → End(V ). We note that for z ∈ VC× , the
+invertible elements in VC , the linear map P (z) is invertible. We further
+define for z, w ∈ VC the box operator
+                  zw = L(zw) + [L(z), L(w)] ∈ End(VC ).
+
+1.2. Associated Lie groups and Lie algebras. The group G = Aut(TΩ )
+of biholomorphic automorphisms of TΩ is a simple Lie group with trivial
+center. It acts transitively on TΩ and the stabilizer K of the element ie ∈ TΩ
+is a maximal compact subgroup of G, hence TΩ ≃ G/K is a Riemannian
+symmetric space. Denote by θ the corresponding Cartan involution of G
+and, abusing notation, also on the Lie algebra g of G. We write
+                                  g=k⊕p
+for the decomposition into ±1 eigenspaces of θ.
+   Let us define some subgroups of G. The subgroup
+                             N = {nx : x ∈ V }
+of translations nx : TΩ → TΩ , z 7→ z + x is unipotent and occurs as the
+unipotent radical of a maximal parabolic subgroup P = LN of G. The Levi
+factor can be chosen as the automorphism group of the cone Ω
+                   L = Aut(Ω) = {g ∈ GL(V ) : gΩ = Ω}.
+It acts naturally on TΩ by linear transformations. The group G is generated
+by N , L and the inversion
+                          j : TΩ → TΩ , z 7→ −z −1 .
+The parabolic subgroup opposite to P is given by P = jP j −1 = LN with
+                        N = {nv = jnv j −1 : v ∈ V }.
+  On the Lie algebra level, we obtain the Gelfand–Naimark decomposition
+                               g = n ⊕ l ⊕ n,                            (1.1)
+8              JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+where l is the Lie algebra of L and n and n are the Lie algebras of N and N
+given by
+                                                                     
+                d                                     d
+   n = Nu =            ntu : u ∈ V ,     n = Nu =            ntv : u ∈ V .
+                dt t=0                                dt t=0
+The Lie algebra l of L is spanned by uv, u, v ∈ V . We choose a Jordan
+frame {e1 , . . . , er } for V , i.e. a maximal set of pairwise orthogonal primitive
+idempotents such that e1 + · · · + er = e. Denoting by hj = 2L(ej ) ∈ l the
+multiplication with 2ej , we obtain a maximal abelian subspace
+                                        r
+                                        M
+                                   a=         Rhj
+                                        j=1
+
+of l ∩ p which is also maximal abelian in p. The root system Σ(g, a) is of
+type Cr and we write it as
+                                          
+              1
+                (±γj ± γk ) : 1 ≤ j < k ≤ r ∪ {±γj : 1 ≤ j ≤ r}
+              2
+with γj (hk ) = 2δjk . Then the Lie algebra n consists of the root spaces for γj
+(1 ≤ j ≤ r) and 12 (γj +γk ) (1 ≤ j < k ≤ r). The root spaces for ±γj are one-
+dimensional and the root spaces for 12 (±γj ± γk ) have a common dimension
+d. Note that n = r + r(r − 1) d2 . We choose the positive system Σ+ (g, a)
+induced by the ordering γ1 > γ2 > . . . > γr > 0. The elements hj ∈ a and
+ej ∈ gγj can be completed to an sl(2)-triple (hj , ej , fj ) by fj ∈ g−γj . Note
+that {γ1 , . . . , γr } forms a maximal set of strongly orthogonal positive roots.
+   The complexified Lie algebras lC and kC are conjugate within the com-
+plexification gC of g. In particular, they are isomorphic, the isomorphism
+being induced from the homomorphism
+        k → lC ,   Nu + T + N u 7→ T + 2iL(u)             (T ∈ m ∩ k, u ∈ V ).
+This homomorphism lifts to a Lie group homomorphism
+                              K → LC ,        k 7→ kc ,                          (1.2)
+into the complexification
+      LC = Str(VC ) = {g ∈ GL(VC ) : P (gz) = gP (z)g ′ for all z ∈ VC },
+the structure group of the complex Jordan algebra VC , where g′ ∈ GL(VC )
+denotes the adjoint of g ∈ GL(VC ) with respect to the trace form (·|·) on
+VC . The image of this map is a compact real form of LC .
+  In analogy to the Gelfand-Naimark decomposition (1.1), we can decom-
+pose the complexification of g as
+                               gC = p+ ⊕ kC ⊕ p− ,
+where
+                    p± = {N u ± 2iL(u) − Nu : u ∈ VC },                          (1.3)
+are the two irreducible components of pC as kC -module.
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA                    9
+
+1.3. Unitary highest weight representations. An irreducible unitary
+representation (σ, Hσ ) is called highest weight representation if the space
+   +
+Hσp of vectors annihilated by the action of p+ is non-trivial. In this case,
+   +
+Hσp is an irreducible finite-dimensional representation of K called the high-
+est weight space and the representation Hσ is uniquely determined by its
+highest weight space. Using the isomorphism kC ≃ lC , we can view the
+highest weight space as a representation of lC . We will consider unitary
+highest weight representations for which the highest weight space lifts to a
+representation (π, Vπ ) of LC . In this case, we write πc for the corresponding
+representation of K on Vπ given by πc (k) = π(kc ) with kc ∈ LC as in (1.2).
+   For such a representation (π, Vπ ), consider the subspace L VπN L fixed by the
+maximal unipotent subgroup N L of L with Lie algebra             j<k g− 21 (γj −γk ) .
+This space is the lowest restricted weight space with respect to the abelian
+subalgebra aC ⊆ lC and the choice of positive roots introduced in Section 1.2.
+We write
+                                        r
+                                    1X
+                                  −       mj γj
+                                    2
+                                        j=1
+
+for the corresponding lowest restricted weight and define
+                                    ω(π) = mr .
+   The classification of unitary highest weight representations of G has been
+achieved by Enright–Howe–Wallach [10] and Jakobsen [19] and can roughly
+be stated as follows. For a fixed irreducible finite-dimensional representation
+(π, Vπ ) of LC consider the representations πν = π ⊗ detν for ν ∈ R, where
+det : LC → C× denotes the determinant of g ∈ LC as a linear operator on
+VC . Then there exists a set Wπ referred to as the Berezin–Wallach set which
+is the union of an interval of the form (−∞, c] and finitely many points in
+(c, ∞) such that there exists a unitary highest weight representation of the
+universal cover G e of G with highest weight space isomorphic to πν if and
+only if ν ∈ Wπ . Moreover, the representations πν depend analytically on ν
+in the sense that the distribution character is analytic in ν ∈ Wπ ⊆ C.
+   A unitary highest weight representation that is contained in the discrete
+series for G is called a holomorphic discrete series representation. By [9,
+Remark 5.12], this is the case if and only if the highest weight space (π, Vπ )
+                                                       2n
+satisfies ω(π) > 2n
+                  r − 1. Note that ω(πν ) = ω(π) − r ν, so for ν ∈ Wπ small
+enough the representation πν is a holomorphic discrete series.
+
+1.4. The tube domain realization. Let (π, Vπ ) be an irreducible repre-
+sentation of LC and choose an inner product h·, ·i on Vπ such that hπ(g)v, wi =
+hv, π(g ∗ )wi (v, w ∈ Vπ , g ∈ LC ), where g ∗ = g ′ . For z ∈ VC× the invertible
+linear map P (z) ∈ GL(VC ) is in fact contained in the structure group LC ,
+and we put
+                           π(z) = π(P (z)) ∈ End(Vπ ).
+10           JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+Note that a lowest weight vector ξ ∈ Vπ satisfies
+                          X
+                           r          
+                      π          λj ej ξ = λ−m
+                                            1
+                                              1
+                                                · · · λ−m
+                                                       r
+                                                         r
+                                                           ξ.                    (1.4)
+                           j=1
+
+  For ω(π) > 2n
+              r − 1, the representation π occurs as the lowest K-type of
+a holomorphic discrete series representation of G. It can be realized on the
+Hilbert space
+                               Z                                        
+   2                                     −1                 − 2n
+ Hπ (TΩ ) = F : TΩ → Vπ hol. :      hπ(y) F (z), F (z)i ∆(y)   r dz < ∞ .
+                                        TΩ
+
+This Hilbert space has reproducing kernel Kπ (z, w) = cπ π(−i(z − w)) for
+some constant cπ > 0, i.e.
+                      hF (z), ξi = hF, Kz ξi           (ξ ∈ Vπ ),
+where Kz ξ(w) = K(w, z)ξ.
+  The group G acts on Hπ2 (TΩ ) by
+
+                     Tπ (g)F (z) = µπ (g−1 , z)F (g −1 · z),
+where µπ (g, z) = π(µ(g, z)) with
+                                                    −1
+                                          ∂(g · z)
+                          µ(g, z) =                        ∈ LC .
+                                            ∂z
+
+This action can be made explicit for elements in N , L, N and for the inver-
+sion j:
+        Tπ (nu )F (z) = F (z − u),                                      u ∈ V,
+                                   −1
+         Tπ (g)F (z) = π(g)F (g         z),                             g ∈ L,
+        Tπ (nv )F (z) = π(z)π(z −1 + v)F ((z −1 + v)−1 ),               v ∈ V,
+                                      −1
+         Tπ (j)F (z) = π(z)F (−z           ).                                    (1.5)
+Differentiating, we obtain the Lie algebra action
+            dTπ (Nu ) = −∂u ,                                       u ∈ V,       (1.6)
+              dTπ (S) = −∂Sz + dπ(S),                               S ∈ l,       (1.7)
+            dTπ (N v ) = −∂P (z)v + 2dπ(z  v).                     v ∈ V,       (1.8)
+
+   The representation (Tπ , Hπ2 (TΩ )) is a unitary highest weight representa-
+tion with highest weight space isomorphic to the representation πc .
+   The lowest K-type in Hπ2 (TΩ ) is spanned by the functions
+                                       
+                                 z + ie
+                      z 7→ π              ξ    (ξ ∈ Vπ ).
+                                   2i
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 11
+
+1.5. The bounded domain realization. The tube domain TΩ ⊆ VC is
+biholomorphically equivalent to a bounded domain D ⊆ VC . More precisely,
+define for z, w ∈ VC the Bergman operator
+                 B(z, w) = I − 2zw + P (z)P (w) ∈ End(VC ),
+and let D denote the connected component of 0 in the set {w ∈ VC :
+B(w, w) ≫ 0}. Then D is a bounded domain and the Cayley transform
+p : TΩ → D, z 7→ (z − ie)(z + ie)−1 is a biholomorphic equivalence with
+inverse c : D → TΩ , w 7→ i(e + w)(e − w)−1 by [11, Proposition X.4.2 (iii)
+and Theorem X.4.3].
+   Note that B(z, w) ∈ LC for z, w ∈ D by [11, Lemma X.4.4 (ii)]. The
+bounded domain realization of the holomorphic discrete series representation
+with lowest K-type (π, Vπ ) is on the Hilbert space
+                             Z                                              
+                                                                  2n
+Hπ2 (D) = f : D → Vπ hol. :      hπ(B(w, w))−1 f (w), f (w)ih(w)− r dw < ∞ ,
+                                 D
+
+where
+                         2n
+                   h(w)− r = det(B(w, w))−1             (w ∈ D).
+  The Cayley transform induces a unitary (up to a scalar) isomorphism
+           γπ : Hπ2 (TΩ ) → Hπ2 (D),    γπ F (w) = π(e − w)F (c(w))
+with inverse
+                                                                    
+                                                            z + ie
+         γπ−1 : Hπ2 (D) → Hπ2 (TΩ ),   γπ−1 f (z) = π                    f (p(z)).
+                                                              2i
+This defines a realization Dπ of the holomorphic discrete series on Hπ2 (D)
+by
+                    Dπ (g) = γπ ◦ Tπ (g) ◦ γπ−1         (g ∈ G).
+It is given by
+                      Dπ (g)f (w) = νπ (gc−1 , w)f (gc−1 w),
+where gc ∈ Aut(D) is defined by gc = p◦g ◦p−1 = c−1 ◦g ◦c and νπ (gc−1 , w) =
+π(ν(gc−1 , w)) with
+                                             −1
+                       −1         ∂(gc−1 · w)
+                    ν(gc , w) =                   ∈ LC .
+                                      ∂w
+In particular, jc = − idD , so
+                         Dπ (j)f (w) = π(−I)f (−w).                                  (1.9)
+   The K-finite vectors in Hπ2 (D) are the Vπ -valued polynomials, and the
+lowest K-type is spanned by the constant functions
+                              w 7→ ξ      (ξ ∈ Vπ ).
+12            JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+1.6. The L2 -model. For an irreducible representation (π, Vπ ) of LC with
+ω(π) > 2n
+        r − 1 the following integral converges absolutely:
+                         Z
+                                                  2n
+                   e
+                   Γπ =     e−2 tr(u) π(u)−1 ∆(u)− r du.            (1.10)
+                                 Ω
+
+We have e Γπ ∈ End(Vπ    )L∩K and e
+                                  Γ  π is symmetric and positive definite. In
+particular, in the special case where π|L∩K is irreducible, Γ  e π is a scalar
+multiple of the identity, the scalar being (see [9, Corollary 2.6 and Section
+3.7])
+                                        Y r                       
+         e                  −m1 −···−mr              n           d
+         Γπ (α) = const × 2                 Γ mj − − (j − 1)         ,
+                                                     r           2
+                                          j=1
+
+where the constant only depends on the dimension n and rank r of V .
+    The Hilbert space for the L2 -model of the holomorphic discrete series
+representation with lowest K-type π is
+                       Z                                                
+                                  1            1              n
+  2                         e       −1           −1         −
+Lπ (Ω) = f : Ω → Vπ : hΓπ π(u 2 ) f (u), π(u 2 ) f (u)i ∆(u) r du < ∞ .
+                             Ω
+
+with the obvious inner product. The Laplace transform
+                                          Z
+       2         2                     −n                              n
+Lπ : Lπ (Ω) → Hπ (TΩ ), Lπ f (z) = (2π) 2    ei(z|u) π(u)−1 f (u)∆(u)− r du
+                                                  Ω
+
+is an isometric isomorphism (up to scalar) with inverse
+                          Z
+                        n
+                 −n
+  −1
+Lπ F (u) = (2π) 2 ∆(u) r     e−i(x+iy|u) π(u)F (x+iy) dx         for fixed y ∈ Ω.
+                                 V
+
+   Using the Laplace transform Lπ , one can realize the holomorphic discrete
+series on L2π (Ω) by
+                    Rπ (g) = L−1
+                              π ◦ Tπ (g) ◦ Lπ         (g ∈ G).
+By [9, Theorem 5.4] we have
+       Rπ (nu )f (x) = e−i(x|u) f (x),                        u ∈ V,      (1.11)
+                             ∗ −1    ∗
+        Rπ (g)f (x) = π(g ) f (g x)                           g ∈ L,      (1.12)
+                      Z
+                                             n
+        Rπ (j)f (x) =    Jπ (u, x)f (u)∆(u)− r du,                        (1.13)
+                         Ω
+
+where Jπ (u, v) ∈ End(Vπ ) denotes the operator-valued Bessel function as-
+sociated with π (see [9, Definition 3.5]). Note that we use the notation Jπ
+instead of Kπ as in [9], because for V = R it essentially reduces to a clas-
+sical J-Bessel function (see [11, Chapter XV.2]). The function Jπ (u, v) is
+uniquely determined by the equivariance property
+           Jπ (gu, (g ∗ )−1 v) = π(g) ◦ Jπ (u, v) ◦ π(g ∗ )   (g ∈ L)
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 13
+
+and the Laplace transform of Jπ (u) = Jπ (u, e):
+      Z
+                                    n              −1
+         ei(z|u) π(u)−1 Jπ (u)∆(u)− r du = e−i tr(z ) π(z)      (z ∈ TΩ ).
+        Ω
+   The Lie algebra action dRπ associated with the representation Rπ can be
+computed by applying the Laplace transform to (1.6), (1.7) and (1.8), and
+it is given by
+               dRπ (Nu ) = −i(u|x),                        u ∈ V,
+                dRπ (S) = ∂S ∗ x − dπ(S ∗ ),               S ∈ l,
+               dRπ (N v ) = i(v|Bπ ),                      v ∈ V,
+where Bπ : C ∞ (V, Vπ ) → C ∞ (V, Vπ )⊗VC is the vector-valued Bessel operator
+given by
+                  X                                      X
+   (v|Bπ f (x)) =        eα , ebβ )x|v)∂eα ∂eβ f (x) − 2
+                     (P (b                                 dπ(v  ebα )∂eα f (x),
+                  α,β                                 α
+
+(eα ) denoting a basis of V and (beα ) denoting the dual basis with respect to
+the trace form.
+  The K-finite vectors in L2π (Ω) are the products of Vπ -valued polynomials
+on Ω and the function e− tr(x) , and the lowest K-type is spanned by the
+functions
+                        fξ (x) = e− tr(x) ξ,  (ξ ∈ Vπ ).
+For later computations, we need to determine the action of K on the lowest
+K-type. Recall that kC is isomorphic to lC . More precisely, the isomorphism
+is induced by the Lie algebra homomorphism k → lC given by
+            Nu + T + N u 7→ T + 2iL(u)         (T ∈ m ∩ k, u ∈ V ).
+This homomorphism lifts to a Lie group homomorphism K → LC which we
+denote by k 7→ kc . The image of this map is a maximal compact subgroup
+of LC .
+Lemma 1.1. Rπ (k)fξ = fπc (k)ξ for all k ∈ K, ξ ∈ Vπ .
+
+Proof. It suffices to show that dRπ (Nu + T + N u )fξ = fdπ(T +2iL(u))ξ . This is
+easily derived from the formulas above, the key computation being (u|Bπ )fξ =
+(x|u)fξ + 2fdπ(L(u))ξ .                                                        
+
+  2. Generalized Whittaker vectors on holomorphic discrete
+                            series
+   For v ∈ V define ψ(nu ) = ψv (nu ) = e−i(u|v) , then ψv is a unitary character
+of N and every such character is of this form. Similarly, we obtain the
+unitary characters of N by ψ v (nu ) = e−i(u|v) . (Note that ψ does not denote
+the character of N which is complex conjugate to ψ.)
+14                JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+   For a unitary representation (σ, Hσ ) of G we write Hσ∞ for the subspace of
+smooth vectors and Hσ−∞ = (Hσ∞ )′ for its dual space, the space of distribu-
+tion vectors. The space of generalized Whittaker vectors on σ with respect
+to ψ resp. ψ is defined by
+                                                
+    Hσ−∞,ψ = {u ∈ Hσ−∞ : u σ(n)ϕ = ψ(n)u ϕ for all ϕ ∈ Hσ∞ , n ∈ N }
+resp.
+                                          
+     Hσ−∞,ψ = {u ∈ Hσ−∞ : u σ(n)ϕ = ψ(n)u ϕ for all ϕ ∈ Hσ∞ , n ∈ N }.
+   In this section we find explicit expressions for all generalized Whittaker
+vectors on holomorphic discrete series representations in the three realiza-
+tions described in Section 1.
+2.1. The L2 -model. To construct distribution vectors in L2π (Ω)−∞ = (L2π (Ω)∞ )′ ,
+we first give a lower and an upper bound for the space L2π (Ω)∞ of smooth
+vectors in L2π (Ω). This statement is probably well-known, but we could not
+find it in the literature in this generality, so we include a short proof for
+convenience.
+Lemma 2.1. The following inclusions hold with continuous embeddings:
+                        Cc∞ (Ω) ⊗ Vπ ⊆ L2π (Ω)∞ ⊆ C ∞ (Ω) ⊗ Vπ .
+Proof. First note that the Lie algebra representation dRπ of g on L2π (Ω)∞ is
+given by differential operators with polynomial coefficients and can therefore
+be extended to a representation on D ′ (Ω) ⊗ Vπ . Using this extension, we
+can characterize the space of smooth vectors by
+         L2π (Ω)∞ = {f ∈ L2π (Ω) : dRπ (D)f ∈ L2π (Ω) for all D ∈ U (gC )},
+where U (gC ) denotes the universal enveloping algebra of gC . Since every
+differential operator with smooth coefficients maps Cc∞ (Ω) ⊗ Vπ ⊆ L2π (Ω)
+into itself, the first inclusion follows. It is continuous since Cc∞ (Ω) ⊗ Vπ
+embeds continuously into L2π (Ω) and differential operators act continuously
+on Cc∞ (Ω) ⊗ Vπ . For the second inclusion it suffices to consider the action
+of l which is given by dRπ (S) = ∂S ∗ x − dπ(S ∗ ). Since dπ(S ∗ ) clearly maps
+L2π (Ω) into itself, the space L2π (Ω)∞ is contained in
+        {f ∈ L2π (Ω) : ∂S1∗ x · · · ∂Sn∗ x f ∈ L2π (Ω) for all S1 , . . . , Sn ∈ l, n ∈ N}.
+Note that the group L acts transitively on Ω and hence the vector fields in l
+span the tangent space at each point of Ω. Applying the Sobolev Embedding
+Theorem locally shows that L2π (Ω)∞ embeds continuously into C k (Ω) ⊗ Vπ
+for every k ∈ N, hence into C ∞ (Ω) ⊗ Vπ .                                 
+     Dualizing, we find
+                        E ′ (Ω) ⊗ Vπ∨ ⊆ L2π (Ω)−∞ ⊆ D ′ (Ω) ⊗ Vπ∨ .
+Hence, for v ∈ Ω and η ∈ Vπ∨ = HomC (Vπ , C), the Dirac distribution Wv,η
+                                                                      Ω =
+
+δv ⊗ η defined by
+                     Ω
+                                      
+                   Wv,η (f ) = η f (v)    (f ∈ L2π (Ω)∞ )             (2.1)
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 15
+
+                                                            Ω
+is contained in L2π (Ω)−∞ . We further denote by W v,η = η ◦ Jπ (·, v) ∈
+D ′ (Ω) ⊗ Vπ∨ the distribution given by
+                  Z
+       Ω                                  n
+     W v,η (f ) =   η Jπ (u, v)f (u) ∆(u)− r du (f ∈ Cc∞ (Ω) ⊗ Vπ ). (2.2)
+                 Ω
+                               Ω
+A priori it is not clear that W v,η extends to a distribution vector in L2π (Ω)−∞ .
+This is part of the following statement which classifies Whittaker vectors in
+the L2 -model of the holomorphic discrete series:
+Proposition 2.2. Let v ∈ Ω.
+                                                                        Ω ,
+    (1) The space L2π (Ω)−∞,ψv is spanned by the distribution vectors Wv,η
+              ∨
+        η ∈ Vπ .
+                                                                        Ω
+    (2) The space L2π (Ω)−∞,ψv is spanned by the distribution vectors W v,η ,
+        η ∈ Vπ∨ .
+In particular,
+                dim L2π (Ω)−∞,ψv = dim L2π (Ω)−∞,ψv = dim π.
+Proof.   (1) For f ∈ L2π (Ω)∞ and n = nu ∈ N we have
+    Ω
+                                                    
+   Wv,η Rπ (nu )f = η Rπ (nu )f (v) = η e−i(u|v) f (v) = ψv (nu )Wv,η
+                                                                  Ω
+                                                                      (f ),
+              Ω ∈ L2 (Ω)−∞,ψv . Conversely, if T ∈ L2 (Ω)−∞,ψv ⊆ D ′ (Ω)⊗V ∨
+         so Wv,η   π                                π                     π
+         then
+                                                         
+           T e−i(u|·) − e−i(u|v) f = T Rπ (nu )f − ψv (nu )f = 0
+
+        for all f ∈ Cc∞ (Ω) ⊗ Vπ and u ∈ V . It follows that supp T ⊆ {v}, so
+        T is a linear combinations of derivatives of the Dirac distribution at
+        v. Since derivatives of x 7→ e−i(u|x) − e−i(u|v) do not vanish at x = v
+        for all u ∈ V , it follows that T is of order 0 and hence T = δv ⊗ η
+        for some η ∈ Vπ∨ .
+    (2) To obtain generalized Whittaker vectors for the opposite unipotent
+        subgroup N = jN j −1 we use the fact that jN j −1 = N and ψ v (n) =
+        ψv (jnj −1 ). Then the map
+
+                L2π (Ω)−∞,ψv → L2π (Ω)−∞,ψv ,     T 7→ T ◦ Rπ (j)
+         is an isomorphism. Since the action of j in Rπ is given by (1.13),
+         the result follows.                                             
+Remark 2.3. The explicit formulas in Proposition 2.2 for Whittaker vectors
+in the L2 -model were previously obtained by Kostant [21, Theorem 5.15]
+for the case G = SL(2, R), and by the first author [23, Theorem 6.11] for
+general G and holomorphic discrete series with one-dimensional lowest K-
+type. Both references also consider Whittaker vectors for characters ψ = ψv
+with v ∈ Ω and also study the analytic continuation of the holomorphic
+discrete series.
+16              JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+2.2. The tube domain realization. We now find the generalized Whit-
+taker vectors in the realization Hπ2 (TΩ )−∞ by applying the Laplace trans-
+form to the generalized Whittaker vectors in L2π (Ω)−∞ obtained in Proposi-
+tion 2.2. For this, we first identify Hπ2 (TΩ )−∞ with a space of antiholomor-
+phic functions on TΩ with values in Vπ∨ .
+
+Lemma 2.4. Every distribution vector T ∈ Hπ2 (TΩ )−∞ is given by an anti-
+holomorphic function Π : TΩ → Vπ∨ in the sense that
+
+                Z
+                                               2n
+     T (F ) =            Π(z) π(y)−1 F (z) ∆(y)− r dz         (F ∈ Hπ2 (TΩ )∞ ).   (2.3)
+                    TΩ
+
+
+Proof. The argument given in [7, beginning of Section 3] generalizes to
+the vector-valued situation and we briefly sketch it to keep this work self-
+contained. The distribution vectors are given by Hπ2 (TΩ )−∞ = dTπ (U (gC ))Hπ2 (TΩ )
+by [6, Théorème 1.3], where U (gC ) denotes the universal enveloping algebra
+of gC and V the complex conjugate of a vector space V . Since Hπ2 (TΩ ) con-
+sists of holomorphic functions and dTπ is given by holomorphic differential
+operators (see (1.6), (1.7) and (1.8)), the result follows.                 
+
+
+                                                                                     T
+  For v ∈ Ω and η ∈ Vπ∨ we define antiholomorphic functions Wv,η
+                                                             TΩ and W Ω
+                                                                     v,η
+                      ∨
+on TΩ with values in Vπ by
+
+                 TΩ                           T               −1 |v)
+                Wv,η (z) = e−i(z|v) η         Ω
+                                           W v,η (z) = ei(z            η ◦ π(z).   (2.4)
+
+                                                         T
+                                        TΩ and W Ω satisfy the right equiv-
+It is easy to see that the functions Wv,η         v,η
+ariance condition with respect to the action of N and N , but it is not clear
+a priori that they define distribution vectors in Hπ2 (TΩ )−∞ . This is part of
+the following classification statement:
+
+Proposition 2.5. Let v ∈ Ω.
+                                                                           TΩ ,
+     (1) The space Hπ2 (TΩ )−∞,ψv is spanned by the distribution vectors Wv,η
+         η ∈ Vπ∨ .
+                                                                           TΩ
+     (2) The space Hπ2 (TΩ )−∞,ψv is spanned by the distribution vectors W v,η ,
+         η ∈ Vπ∨ .
+
+Proof. It suffices to show (1), then (2) follows by applying Tπ (j) (using (1.5)
+and the substitution z 7→ −z −1 ) similar as in the proof of Proposition 2.2.
+To prove (1) we show that Wv,η   TΩ is the Laplace transform of a Whittaker
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 17
+
+vector Wv,ηΩ ∈ L2 (Ω)−∞ for some η ′ ∈ V ∨ . For f ∈ L2 (Ω)∞ we have
+             ′      π                            π            π
+     TΩ
+               
+  Wv,η Lπ f
+            Z Z
+         n                                                         n      2n
+= (2π)− 2            e−i(z|v) ei(z|u) η(π(y)−1 π(u)−1 f (u))∆(u)− r ∆(y)− r du dz
+             T     Ω
+            Z ΩZ
+         n                                                            n      2n
+= (2π)− 2            ei(x|u−v) e−(y|u+v) η(π(y)−1 π(u)−1 f (u))∆(u)− r ∆(y)− r du dz
+             TΩ Ω
+                    Z
+       n          n                                            2n
+= (2π) 2 ∆(v)− r        e−2(y|v) η(π(y)−1 π(v)−1 f (v))∆(y)− r dy
+                      Ω
+                      Z                                              
+       n          n                                  2n
+                −              −2(y|v)      −1     −              −1
+= (2π) 2 ∆(v) r η             e         π(y) ∆(y) r dy π(v) f (v)
+                              Ω
+   Ω
+= Wv,η ′ (f ),
+
+
+where
+                       Z                               
+                n
+                     −n                          − 2n
+        ′
+    η = η ◦ (2π) ∆(v)
+                2     r   e−2(y|v)     −1   −1
+                                   π(y) π(v) ∆(y)   r dy ∈ Vπ∨ .
+                                    Ω
+Note that the integral converges absolutely. In fact, for v = e we obtain
+           n
+                 eπ .
+η ′ = (2π) 2 η ◦ Γ                                                     
+
+2.3. The bounded domain realization. Finally, we obtain an expression
+for the Whittaker vectors in the bounded symmetric domain picture, i.e.
+in Hπ2 (D)−∞ . As for Hπ2 (TΩ )−∞ , we identify Hπ2 (D)−∞ with a space of
+antiholomorphic functions Π : D → Vπ∨ by
+            Z
+                                              2n
+    Π(f ) =   Π(w) π(B(w, w))−1 f (w) h(w)− r dw        (f ∈ Hπ2 (D)∞ ).
+                 D
+  For v ∈ Ω and η ∈ Vπ∨ we define the following antiholomorphic functions
+on D with values in Vπ∨ :
+                                                              −1 |v)
+  D
+ Wv,η        TΩ
+      (w) = Wv,η (c(w)) ◦ π(e − w) = e−((e+w)(e−w)                     · η ◦ π(e − w), (2.5)
+    D                 T                                                   −1 |v)
+                Ω
+ W v,η (w) = W v,η (c(w)) ◦ π(e − w) ◦ π(−I) = e−((e−w)(e+w)                       · η ◦ π(e + w).
+                                                                                           (2.6)
+Since (e+w)(e−w)−1 = 2(e−w)−1 −e and (e−w)(e+w)−1 = 2(e+w)−1 −e
+we can also write
+                      D                              −1
+                     Wv,η (w) = const × e−2 tr v(e−w)      · η ◦ π(e − w),
+                          D               −2 tr v(e+w)−1
+                     W v,η (w) = const × e                 · η ◦ π(e + w).
+Proposition 2.6. Let v ∈ Ω.
+                                                                      D ,
+  (1) The space Hπ2 (D)−∞,ψv is spanned by the distribution vectors Wv,η
+      η ∈ Vπ∨ .
+                                                                      D
+  (2) The space Hπ2 (D)−∞,ψv is spanned by the distribution vectors W v,η ,
+      η ∈ Vπ∨ .
+18             JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+Proof. Since the Cayley transform γπ : Hπ2 (TΩ ) → Hπ2 (D) is a unitary (up
+to a scalar c 6= 0) isomorphism, we have
+                  Z
+                                  −1                                         2n
+     D
+  Wv,η γπ F =         e−((e+w)(e−w) |v) η π(e−w)π(B(w, w))−1 γπ F (w) h(w)− r dw
+                   D
+                         Z
+                                                         2n
+                     =c      e−i(z|v) η π(y)−1 F (z) ∆(y)− r dz = c Wv,η
+                                                                     TΩ
+                                                                         (F ).
+                          TΩ
+This shows (1), and (2) follows by applying Dπ (j) (see (1.9)).                      
+Remark 2.7. In the case of holomorphic discrete series with one-dimensional
+lowest K-type one can use the characterization of distribution vectors in
+Hπ2 (D)−∞ due to Chébli–Faraut [7] to show that the antiholomorphic func-
+tions above are indeed distribution vectors and hence Whittaker vectors.
+With a little more effort, solving certain differential equations on D, it is
+also possible to give an independent proof of their exhaustion, hence a more
+direct proof of Proposition 2.6. However, we remark that the results in [7]
+are not available for higher-dimensional lowest K-types to the best of our
+knowledge.
+
+                   3. Discrete spectrum in L2 (G/N, ψ)
+     For a unitary character ψ of N let
+                 (                                         Z                          )
+ 2                                           −1                           2
+L (G/N, ψ) =      f : G → C : f (gn) = ψ(n)       f (g),             |f (g)| d(gN ) < ∞ .
+                                                               G/N
+
+We use the explicit formulas for Whittaker vectors in the L2 -model to obtain
+the holomorphic discrete series contribution to the Plancherel formula for
+L2 (G/N, ψ) in the case where ψ = ψv , v ∈ Ω.
+3.1. The holomorphic discrete series contribution to L2 (G/N, ψ).
+Recall the holomorphic discrete series (Rπ , L2π (Ω)) for an irreducible repre-
+sentation (π, Vπ ) of LC with ω(π) > 2n
+                                      r − 1. Note that by Proposition 2.2,
+the space L2π (Ω)−∞,ψv of Whittaker vectors on π is finite-dimensional. We
+obtain a family of embeddings of the smooth vectors L2π (Ω)∞ into
+         C ∞ (G/N, ψv ) = {f : G → C smooth : f (gn) = ψv (n)−1 f (g)}
+in terms of matrix coefficients:
+                                                                            
+ιπ : L2π (Ω)∞ ⊗L2π (Ω)−∞,ψv → C ∞ (G/N, ψv ),  ιπ (f ⊗W )(g) = W Rπ (g)−1 f .
+                                                                       (3.1)
+Clearly, ιπ is G-equivariant with respect to the action of G on L2π (Ω)∞ ⊗
+L2π (Ω)−∞,ψv by Rπ on the first factor and the trivial representation on the
+second factor.
+Theorem 3.1. For every irreducible representation (π, Vπ ) of LC with ω(π) >
+2n
+ r − 1, the map ιπ extends to a G-equivariant embedding
+                  ιπ : L2π (Ω) ⊗ L2π (Ω)−∞,ψv ֒→ L2 (G/N, ψv ).
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 19
+
+Moreover, the map
+            M       M
+               ιπ :   L2π (Ω) ⊗ L2π (Ω)−∞,ψv ֒→ L2 (G/N, ψv )
+               π             π
+constructs the complete holomorphic discrete series contribution to the Plancherel
+formula for L2 (G/N, ψv ).
+Proof. By Frobenius reciprocity, every embedding of L2π (Ω)∞ into C ∞ (G/N, ψv )
+is given in terms of matrix coefficients with respect to a generalized Whit-
+taker vector, so the holomorphic discrete series contribution to L2 (G/N, ψv )
+can be at most what is claimed. Hence, we only need to show that every ιπ
+indeed extends to an embedding of L2π (Ω) ⊗ L2π (Ω)−∞,ψv into L2 (G/N, ψv ).
+For this it suffices to show that for every W ∈ L2π (Ω)−∞,ψv there exists a
+vector 0 6= f ∈ L2π (Ω)∞ such that ιπ (f ⊗ W ) ∈ L2 (G/N, ψ). We use the
+following integral formula for G/N (see e.g. [20, Chapter V, §6]):
+                 Z                     Z Z
+                       ϕ(gN ) d(gN ) =       ϕ(klN )l2ρ dl dk,
+                   G/N                      K   L
+                         n
+where l2ρ = ∆(l · e) . By Proposition 2.2, every Whittaker vector W is
+                         r
+
+of the form W = Wv,η    Ω for some η ∈ V ∨ . The lowest K-type of L2 (Ω) is
+                                           π                              π
+constituted of the functions fξ (u) = e− tr(u) ξ for ξ ∈ Vπ . For these functions
+we have by Lemma 1.1 and (1.12):
+                                                                        −∗
+             Ω
+   ιπ (fξ ⊗ Wv,η           Ω
+                 )(kl) = Wv,η Rπ (l−1 k−1 )fξ = η π(l∗ )πc (k−1 )ξ e− tr(l v) .
+Therefore, we obtain
+Z                                  Z Z
+                                                                     −∗         n
+               Ω
+     |ιπ (fξ ⊗Wv,η )(g)|2 d(gN ) =     |η π(l∗ )πc (k−1 )ξ |2 e−2 tr(l v) ∆(l·e) r dl dk.
+ G/N                                K   L
+The inner integral can be evaluated using Schur’s orthogonality relations:
+                          Z
+                 1      2                           −∗            n
+           =         kξk     kπ ∨ (l−∗ )ηk2 e−2 tr(l ·v) ∆(l · e) r dl,
+              dim(π)       L
+where we use the norm on Vπ∨ induced from the norm on Vπ . Substituting
+l 7→ l−∗ yields
+                            Z
+                   1      2                                       n
+              =        kξk      kπ ∨ (l)ηk2 e−2 tr(l·v) ∆(l · e)− r dl.
+                dim(π)        L
+By [9, proof of Theorem 2.5, especially (5)], the integral is finite if and only
+if ω(π ∨ ) > 2n                                          ∨     ∨
+              r − 1. The statement now follows since (π , Vπ ) has the same
+lowest restricted weight as (π, Vπ ).                                         
+3.2. The formal dimension. In this section we put for simplicity v = e,
+i.e. ψ(nu ) = e−i(u|e) = e−i tr(u) . Recall the embeddings
+                                                                         
+ ιπ : L2π (Ω) ⊗ L2π (Ω)−∞,ψ ֒→ L2 (G/N, ψ), ιπ (f ⊗ W )(g) = W Rπ (g)−1 f .
+In this section we determine the precise inner product on the space L2π (Ω)−∞,ψ
+of Whittaker vectors which makes ιπ unitary.
+20             JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+   Recall that η ∈ Vπ∨ parameterizes the space L2π (Ω)−∞,ψ by η 7→ We,η     Ω . We
+
+introduce a natural inner product on L2π (Ω)−∞,ψ . In fact, if one formally
+evaluates the inner product on L2π (Ω) given by
+                     Z
+                ′
+           (f, f ) 7→ hΓ e π π(u 12 )−1 f (u), π(u 12 )−1 f (u)i∆(u)− nr du
+                        Ω
+          Ω = δ ⊗ η ∈ E ′ (Ω) ⊗ V ∨ ⊆ L2 (Ω)−∞ and f ′ = W Ω , then one
+at f = We,η      e               π     π                  e,η′
+obtains the inner product
+                       Ω
+                     hWe,η    Ω
+                           , We,η                   e∗     ′
+                                  ′ iL2 (Ω)−∞,ψ := hΓπ η, η iV ∨ ,             (3.2)
+                                      π                       π
+
+
+where Γe ∗π η = η ◦ Γ
+                    e π ∈ Vπ∨ and Γ
+                                  e π denotes the operator-valued gamma
+function as defined in (1.10).
+Theorem 3.2 (Formal dimension).          (1) For every holomorphic discrete
+      series representation (Rπ , L2π (Ω)) there exists a constant d(π) > 0
+      called the formal dimension such that
+Z
+                                              1
+     W Rπ (g)−1 f W ′ Rπ (g)−1 f ′ d(gN ) =        hf, f ′ iL2π (Ω) hW, W ′ iL2π (Ω)−∞,ψ
+ G/N                                          d(π)
+                     ′ ∈ L2 (Ω) and W, W ′ ∈ L2 (Ω)−∞,ψ .
+         for all f, fp    π                   π
+     (2) The map d(π)ιπ : L2π (Ω) ⊗ L2π (Ω)−∞,ψ → L2 (G/N, ψ) is unitary.
+                P
+     (3) If − 21 rj=1 mj γj denotes the lowest restricted weight of π and we
+         write m = (m1 , . . . , mr ), then
+                                         4m1 +···+mr dim(π)
+                       d(π) = const ×                       ,                  (3.3)
+                                         ΓΩ (m)ΓΩ (m − nr )
+         where the constant only depends on the dimension n = dim V , the
+         rank r = rk V and the structure constant d, and ΓΩ denotes the
+         gamma function of the symmetric cone:
+                                    r                 
+                                n−r Y                d
+                   ΓΩ (s) = (2π) 2    Γ sj − (j − 1)     .
+                                                     2
+                                        j=1
+
+   To prove this, we first compute explicitly the norm of a function in the
+lowest K-type of L2π (Ω). Recall that the lowest K-type consists of the func-
+tions fξ (u) = e− tr(u) ξ, ξ ∈ Vπ .
+Lemma 3.3. For ξ ∈ Vπ we have
+
+             kfξ k2L2π (Ω) = 2n−2(m1 +···+mr ) ΓΩ (m)ΓΩ (m − nr )kξk2Vπ .
+
+Proof. Since the lowest K-type is irreducible, there exists a constant c(π) >
+0 such that
+                  kfξ k2L2π (Ω) = c(π) · kξk2Vπ     for all ξ ∈ Vπ .
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 21
+
+We find c(π) by computing kfξ k2L2 (Ω) for a lowest weight vector ξ ∈ Vπ . By
+                                            π
+definition of the norm in L2π (Ω) and the gamma function e               Γπ we have
+                Z
+                           1                    1                    n
+kfξ k2L2π (Ω) = h eΓπ π(u 2 )−1 fξ (u), π(u 2 )−1 fξ (u)i∆(u)− r du
+                ZΩ
+              = hΓ e π π(u 12 )−1 ξ, π(u 21 )−1 ξie−2 tr(u) ∆(u)− nr du
+                ZΩ
+                        1
+              = hπ(u 2 )−1 Γ   e π π(u 12 )−1 ξ, ξie−2 tr(u) ∆(u)− nr du
+                ZΩ Z
+                             1                    1                               n   2n
+              =       hπ(u 2 )−1 π(v)−1 π(u 2 )−1 ξ, ξie−2 tr(u)−2 tr(v) ∆(u)− r ∆(v)− r dv du
+                ZΩ ZΩ
+                                1                                      n       2n
+              =       hπ(P (u 2 )v)−1 ξ, ξie−2 tr(u)−2 tr(v) ∆(u)− r ∆(v)− r dv du.
+               Ω   Ω
+                                   1                    n
+By the substitution x = P (u 2 )v with dx = ∆(u) r dv and ∆(x) = ∆(u)∆(v)
+we find
+            Z Z
+                                            −1        2n
+         =        hπ(x)−1 ξ, ξie−2 tr(u)−2(u |x) ∆(x)− r du dx.
+               Ω   Ω
+Now, if ξ ∈ Vπ is a lowest restricted weight vector, then by definition of the
+lowest restricted weight space, we have for n ∈ N L :
+        hπ(n · x)−1 ξ, ξi = hπ(x)−1 π(n)−1 ξ, π(n)−1 ξi = hπ(x)−1 ξ, ξi
+            P
+and for x = rj=1 λj ej we get by (1.4):
+                         hπ(x)−1 ξ, ξi = λm        mr   2
+                                          1 · · · λr kξk .
+                                           1
+
+
+It follows from [11, Proposition VI.3.10] that
+                           hπ(x)−1 ξ, ξi = ∆m (x)kξk2 ,
+where ∆m (x) is the generalized power function of exponent m = (m1 , . . . , mr )
+(see [11, Chapter VII.1] for details). This implies
+                         Z Z
+                                                 −1        2n
+         2            2
+    kfξ kL2π (Ω) = kξkVπ      ∆m (x)e−2 tr(u)−2(u |x) ∆(x)− r du dx.
+                           Ω   Ω
+
+Interchanging the integrals and computing first the integral over x and af-
+terwards the integral over u using [11, Proposition VII.1.2] gives
+                                                   Z
+                  n−(m1 +···+mr )
+              =2                          n     2
+                                  ΓΩ (m − r )kξkVπ   e−2 tr(u) ∆m− nr (u) du
+                                                        Ω
+                    n−2(m1 +···+mr )
+                =2                     ΓΩ (m)ΓΩ (m − r )kξk2Vπ .
+                                                     n
+                                                                                   
+
+Proof of Theorem 3.2. Since L2π (Ω) is irreducible, there exists for every η ∈
+Vπ∨ a constant d(π, η) > 0 such that
+                                       1
+                  Ω
+       kιπ (f ⊗ We,η )k2L2 (G/N,ψ) =         kf k2L2π (Ω) for all η ∈ Vπ∨ .
+                                     d(π, η)
+22             JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+Consider this identity for f in the lowest K-type, i.e. f = fξ for some
+ξ ∈ Vπ . The right hand side was computed in Lemma 3.3. We now compute
+the left hand side. By the proof of Theorem 3.1 we have
+Z                                               Z
+                                       1                                           n
+                Ω
+      |ιπ (fξ ⊗We,η )(g)|2 d(gN ) =        kξk2    kπ ∨ (l)ηk2 e−2 tr(l·e) ∆(l·e)− r dl.
+ G/N                                dim(π)       L
+
+Using the integral formula [9, Section 1.10] this equals
+                           Z
+                 1                        1                      2n
+           =          kξk2     kπ ∨ (P (x 2 ))ηk2 e−2 tr(x) ∆(x)− r dx.
+              dim(π)         Ω
+Now,
+                 1                    1              1
+       kπ ∨ (P (x 2 ))ηk2 = (π ∨ (P (x 2 ))η|π ∨ (P (x 2 ))η) = (π ∨ (P (x))η|η),
+so we find
+                            Z
+                   1      2                                 2n
+              =        kξk     (π ∨ (x)η|η)e−2 tr(x) ∆(x)− r dx
+                dim(π)
+                            ZΩ
+                   1                                            2n
+              =        kξk2 (η ◦ π(x)−1 |η)e−2 tr(x) ∆(x)− r dx
+                dim(π)       Ω
+                   1                         1
+              =        kξk (η ◦ e
+                          2
+                                Γπ |η) =           kξk2 ( e
+                                                         Γ∗π η|η).
+                dim(π)                    dim(π)
+The result now follows from Lemma 3.3 and polarization.                             
+
+       4. Alternative construction of Whittaker embeddings
+    In this section we give a different approach to explicit embeddings Hπ2 ֒→
+L (G/N, ψ) of a unitary highest weight representation Hπ2 . We first show
+  2
+
+that G ⊆ P ± KC NC (Theorem 4.3) via an SU(1, 1)-reduction and then show
+that the integral kernel of an intertwining operator from a unitary highest
+weight representation into L2 (G/N, ψ) is given in terms of the decomposition
+of an element g ∈ G as g = p± kn with n ∈ NC , k ∈ KC , p± ∈ P ± , see
+Remark 4.5, Proposition 4.6, and Theorem 4.8. This is in the spirit of
+[26, 27] where a similar inclusion G ⊆ P ± KC HC was derived for an affine
+symmetric space G/H. Finally, we use the explicit formulas for Whittaker
+embeddings to conclude that Theorem 3.1 not only constructs the complete
+holomorphic discrete series contribution but the complete unitary highest
+weight contribution to L2 (G/N, ψ), i.e. the only unitary highest weight
+representations occurring in L2 (G/N, ψ) are the holomorphic discrete series
+representations.
+
+4.1. The case G = SU(1, 1). Let G = SU(1, 1), realized as the subgroup
+of SL(2, C) fixing the Hermitian form (z1 , z2 ) 7→ |z1 |2 − |z2 |2 , and write
+g = su(1, 1) for its Lie algebra. We fix the Cartan involution θ(g) = (g ∗ )−1
+on G and its differentiated version θ(x) = −x∗ on g. Let K = Gθ and k = gθ .
+   Since g is a totally real subspace of sl(2, C), we can complexify subal-
+gebras h of g inside sl(2, C) by hC = h + ih ⊆ sl(2, C). Passing to the
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 23
+
+corresponding connected analytic subgroups of SL(2, C) constructs natural
+complexifications on the group level.
+  Let us fix some notation. We have the Iwasawa decomposition G = N AK
+with
+                                                             
+                                          0 1     cosh t sinh t
+      A = {at : t ∈ R},      at = exp t        =                  ,
+                                          1 0     sinh t cosh t
+                                                                
+                                          i −i      1 + ix −ix
+     N = {nx : x ∈ R},      nx = exp x          =                    .
+                                          i −i        ix   1 − ix
+The natural complexification of N is
+                                                                 
+                                                    1 + iz −iz
+              NC = {nz : z ∈ C},         nz =                       .
+                                                      iz   1 − iz
+On the other hand, we have the decomposition gC = p− ⊕ kC ⊕ p+ with
+                                                   
+               +       0 1                −       0 0
+              p =C               and     p =C           .
+                       0 0                        1 0
+The corresponding groups are given by
+                                            
+                  +      +      1 z
+                P = pz =               :z∈C ,
+                                0 1
+                              iθ/2              
+                                e       0
+                KC = kθ =                      :θ∈C ,
+                                  0   e−iθ/2
+                                            
+                  −      −       1 0
+                P = pw =               :z∈C .
+                                w 1
+Lemma 4.1. Let                         
+                                    a b
+                          g=              ∈ SL(2, C).
+                                    c d
+Then g = p+          +
+          x kθ ns ∈ P KC NC if and only if c + d 6= 0. In that case we have
+                               1                       −ic
+                      eiθ/2 =      , and        s=         .
+                             c+d                       c+d
+In particular P + KC NC is dense in GC .
+Proof. We have with γ = eiθ/2 :
+                                                       
+                +              ∗          ∗           a b
+               px kθ ns =                          =                     (4.1)
+                            γ −1 is γ −1 (1 − is)     c d
+and the claim follows.                                                      
+  If g ∈ SL(2, C) is in P + KC NC write
+                           g = p+ (g)kC (g)nC (g).
+   The group SL(2, C) acts on the Riemann sphere C ∪ {∞} by fractional
+linear transformations, and with respect to this action, SU(1, 1) acts transi-
+tively on the unit disc D = {z ∈ C : |z| < 1} ≃ SU(1, 1)/U (1). We write D
+24             JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+for its closure. Define
+               Ξ = {s ∈ SL(2, C) : s · D ⊆ D} and S = Ξ−1 .             (4.2)
+Then S is a closed semigroup containing G with interior
+                    S o = {s ∈ SL(2, C) : s−1 · D ⊆ D} 6= ∅.
+Theorem 4.2. If g ∈ SL(2, C) maps D into D then g ∈ P + KC NC . In
+particular, Ξ ⊆ P + KC NC . Furthermore, if g = at then
+                     −t     
+                     e     0
+           kC (g) =            = k2it and nC (g) = ni(e−2t −1)/2 .
+                      0 et
+                                              
+                                          a b
+Proof. Let z ∈ D and suppose that g =            ∈ SL(2, C) maps D into D.
+                                           c d
+Then
+                                    az + b
+                             g·z =          ∈ D,
+                                    cz + d
+     az+b
+so   cz+d   ≤ 1. Assume that c + d = 0. Then
+
+                                        az + b
+                                  lim          ≤1
+                                  z→1   cz + d
+which implies that a + b = 0. But then the second column of g is the
+negative of the first column, which implies that det g = 0, contradicting the
+assumption that det g = 1. Hence, c + d 6= 0. The last statement follows
+from (4.1).                                                                
+
+   The unique (up to scalar multiples) left-invariant measure on G/N is
+given by
+          Z                        Z 4π Z ∞
+                                 1
+               f (x)dµG/N (x) =               f (kθ at N )e2t dt dθ. (4.3)
+           G/N                  4π  0    −∞
+
+   The holomorphic discrete series of G is parametrized by integers n > 1
+and is realized in the Hilbert space Hn2 (D) of holomorphic functions on D
+satisfying
+                             Z
+                        Γ(n)
+               kf k2n =          |f (z)|2 (1 − |z|2 )n−2 dx dy < ∞,
+                         π     D
+
+where the inner product is normalized so that k1kn = 1. The representation
+Dn is given by
+                                                             
+                                 −n    −1                 a b
+          Dn (g)f (z) = (−cz + a) f (g z) where g =             .
+                                                          c d
+In particular, with fk (z) = z k we have
+                          Dn (kθ )fk (z) = e−i(k+n/2)θ fk (z).
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 25
+
+   The representation Dn extends to a holomorphic representation of Γ =
+(S o )−1 ⊆ Ξ. For n > 1 and v ∈ R let
+                 ψv (ns ) = e−ivs     and       χn (kθ ) = e−inθ/2 .
+For γ ∈ P + KC NC define
+                      Fn (γ) = ψv (nC (γ)−1 )χn (kC (γ)−1 ).                  (4.4)
+Then
+                      Fn (kθ−1 γn) = ψv (n)−1 χn (kθ )Fn (γ)
+and
+                                                          −2t )
+                         |Fn (kθ at n)|2 = e−2nt ev(1−e           .
+Hence, (4.3) implies that in fact Fn ∈ L2 (G/N, ψv ) if and only if n > 1 and
+v > 0. It follows that Fn belongs to the lowest K-type of the holomorphic
+discrete series Dn realized in L2 (G/N, ψv ).
+
+4.2. The decomposition G ⊆ P + KC NC , the general case. We now
+let G be as in Section 1.2 and assume that it is contained in a connected
+complex Lie group GC whose Lie algebra is a complexification of g. We form
+the connected subgroup NC of GC with Lie algebra nC . Further, assume that
+the Cartan involution θ on G extends to a holomorphic involution on GC
+and let KC denote its fixed point subgroup. Decompose pC = p+ ⊕ p− as in
+(1.3) and write P ± = exp p± . We remark that NC is conjugate to P ± inside
+GC just as LC is conjugate to KC .
+    Recall from Section 1.2 the maximal set of strongly orthogonal roots
+γ1 , . . . , γr , r = rank G/K, and the corresponding sl(2)-triples (hj , ej , fj ).
+Each of the roots γj defines a homomorphism ϕj : SU(1, 1) → G determined
+on the Lie algebra level by
+                                                               
+         0 1                 1 i −i                    1 −i −i
+                   7→ hj ,           7→ ej ,   and                    7→ fj .
+         1 0                 2 i −i                    2 i        i
+                           L
+Furthermore, a = rj=1 Rhj is maximal abelian in p. Let A = exp a, then
+we have L = (K ∩ L)A(K ∩ L). Note that the groups Gj = ϕj (SU(1, 1)) are
+pairwise commuting and
+                          G = KLN = KA(L ∩ K)N.
+  As before, we use the Harish-Chandra embedding of G/K as a bounded
+domain D ⊆ P + ⊆ GC /KC PC− and consider the semigroups
+               Ξ = {s ∈ GC : s · D ⊆ D}          and              S = Ξ−1 .   (4.5)
+Then G ⊆ Ξ and the interior of Ξ is given by
+                          Ξo = {s ∈ GC : s · D ⊆ D}.
+Both Ξ and S are G-invariant and we have G = (Ξ ∩ S)o and G ∩ Ξo =
+G ∩ S o = ∅.
+26           JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+Theorem 4.3. We have Ξ ⊆ P + KC NC . Moreover, the decomposition of
+g ∈ Ξ into g = p+ (g)kC (g)nC (g) with nC (g) ∈ NC , kC (g) ∈ KC and p+ (g) ∈
+P + is unique.
+Proof. We first show that G ⊆ P + KC NC . Since G = KLN and P + KC NC is
+left KC -invariant and right (KC ∩ LC )NC -invariant, it suffices to show that
+A ⊆ P + KC NC . But that follows from Theorem 4.2 applied to the subgroups
+Gj = ϕj (SU(1, 1)).
+   Now denote by : GC → GC , g 7→ g the conjugation with respect to G and
+let s∗ = s−1 . Then Ξ∗ = Ξ and (P − )∗ = P + . Let s ∈ Ξ, then s∗ · 0 ∈ D
+and hence there exists g ∈ G such that g −1 s∗ · 0 = 0. The stabilizer of 0 in
+GC is KC P − , so we can write g −1 s∗ = kp− for some k ∈ KC and p− ∈ P − .
+Thus, using G ⊆ P + KC NC , we find
+                  s = (p− )∗ k∗ g −1 ∈ P + KC G ⊆ P + KC NC .
+   The second claim is a consequence of the fact that KC P ± ≃ KC ⋉ P ± is
+a group and NC ∩ KC P ± = {e}.                                          
+
+4.3. Intertwining operators Hπ2 → L2 (G/N, ψ). Let (Jπ , Hπ2 ) be a uni-
+tary highest weight representation of G with highest weight space (π, Vπ ),
+realized on a space of holomorphic functions f : G/K → Vπ . Recall that
+Jπ extends to a representation of S such that Jπ (s∗ ) = Jπ (s)∗ . Identifying
+G/K with either the bounded symmetric domain D or the tube domain TΩ
+yields the models discussed in Sections 2.2 and 2.3. Note that in the case of
+the unbounded realization we have to replace D by TΩ in (4.5). The action
+is in both cases given by
+           Jπ (g)f (z) = jπ (g−1 , z)f (g −1 z)     (g ∈ S, z ∈ G/K),
+for a cocycle jπ : Ξ × G/K → GL(Vπ ) satisfying
+           jπ (gh, z) = jπ (h, z)jπ (g, hz)       (g, h ∈ Ξ, z ∈ G/K).
+   Now assume that T : Hπ2 → L2 (G/N, ψ) is a unitary intertwining opera-
+tor. Let f ∈ L2 (G/N, ψ) and z ∈ G/K, then
+                                                     Z
+      hT ∗ f (z), ξi = hT ∗ f, Kz ξi = hf, T Kz ξi =   f (g)T (Kz ξ)(g) dġ
+                                                      G/N
+
+for all ξ ∈ Vπ , where Kz : G/K → GL(Vπ ) denotes the reproducing kernel
+of Hπ2 . Let Kz,ξ (w) = Kz (w)ξ. Define Ψ : G × G/K → Vπ by
+          hΨ(g, z), ξi = T (Kz,ξ )(g)         (g ∈ G, z ∈ G/K, ξ ∈ Vπ ),   (4.6)
+then                                Z
+                          ∗
+                        T f (z) =          f (g)Ψ(g, z) dġ.
+                                     G/N
+Note that this is well defined because
+                  Ψ(gn, z) = ψ(n)−1 Ψ(g, z) = ψ(n)Ψ(g, z).                 (4.7)
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 27
+
+  We note that, since Kz ∈ (Hπ2 )∞ and L2 (G/N, ψ)∞ ⊆ C ∞ (G/N, ψ), the
+function Ψ is smooth. Moreover, since z 7→ Kz is antiholomorphic, the
+function Ψ(g, z) is holomorphic in z. Moreover, as T is an intertwining
+operator, we can rewrite
+         hΨ(g, z), ξi = (T ◦ Jπ (g −1 )Kz,ξ )(e) = (T ◦ Jπ (g∗ )Kz,ξ )(e)
+and conclude that Ψ(g, z) extends to a continuous function in g ∈ S holo-
+morphic on S o .
+Lemma 4.4.      (1) Ψ(gn, z) = ψ(n)Ψ(g, z) for all g ∈ S, n ∈ N and
+      z ∈ G/K.
+  (2) Ψ(gx, z) = jπ (g−1 , z)Ψ(x, g −1 z) for all g, x ∈ S and z ∈ G/K.
+Proof. The first is (4.7). To show the second identity, we use that T , and
+hence also T ∗ , is an intertwining operator. Thus, for f ∈ L2 (G/N, ψ), g ∈ G
+and z ∈ G/K:
+      Z
+            f (x)jπ (g−1 , z)Ψ(x, g −1 z)dµG/N (x) = jπ (g−1 , z)T ∗ f (g−1 z)
+        G/N
+                                            Z
+                   ∗           ∗
+   = [Jπ (g) ◦ T f ](z) = [T ◦ Lg f ](z) =        f (g−1 x)Ψ(x, z) dµG/N (x)
+                                              G/N
+      Z
+   =        f (x)Ψ(gx, z) dµG/N (x),
+        G/N
+
+where we have tacitly used that x 7→ f (x)Ψ(x, z) is right N -invariant. As
+this holds for all f ∈ L2 (G/N, ψ), it follows that
+                        Ψ(gx, z) = jπ (g−1 , z)Ψ(x, g −1 z).                (4.8)
+As both sides are holomorphic on S o and continuous on S, it follows that
+(4.8) holds on all of S.                                               
+Remark 4.5.         (1) The kernel Ψ is uniquely determined by the function
+                       Φ : G/K → Vπ ,      Φ(z) = Ψ(e, z).
+       More precisely, by Lemma 4.4 (2):
+              Ψ(g, z) = jπ (g−1 , z)Φ(g −1 z)     (g ∈ S, z ∈ G/K).
+   (2) One could just as well use the function
+                        e : G → Vπ ,
+                        Φ               e
+                                        Φ(g) = Ψ(g, eK).
+       Then Lemma 4.4 (2) shows that
+                       Ψ(g, xK) = jπ (x, eK)−1 e
+                                              Φ(x−1 g).
+       Furthermore, by Lemma 4.4 the function e   Φ satisfies
+           e            −1       e            e
+         • Φ(kg) = jπ (k , eK)Φ(g) = πc (k)Φ(g) for k ∈ K,
+         • e
+           Φ(gn) = ψ(n) e
+                        Φ(g) for n ∈ N ,
+           e                                            e
+         • Φ(p g) = jπ ((p− )−1 , eK)Ψ(g, (p− )−1 K) = Φ(g)
+              −                                               for p− ∈ P − .
+28              JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+
+          Hence, Φe is determined by Φ(e)
+                                     e     ∈ Vπ . In fact, the above equivariance
+          properties can be used to give an explicit formula for Φ.  e For this,
+          note that Ξ → S, ξ 7→ ξ is a bijective homomorphism. As P + = P − ,
+          it follows from Theorem 4.3 that every element in S has a unique
+          decomposition of the form
+        s = p− (s)e
+                  kC (s)e
+                        nC (s)      (p− (s) ∈ P − , e
+                                                    kC (s) ∈ KC , e
+                                                                  nC (s) ∈ NC ).
+          Then, for s ∈ S we have
+             Φ(s) = e
+             e              eC (s)e
+                    Φ(p− (s)k     nC (s)) = ψ(e          eC (s)) e
+                                              nC (s))πc (k      Φ(e).
+   Using the explicit calculation in Theorem 4.2 one sees by SU(1, 1) reduc-
+          e is square-integrable if and only if the highest weight representa-
+tion that Φ
+tion with lowest K-type π is in the holomorphic discrete series. This leads
+to:
+Proposition 4.6. Let T : Hπ2 → L2 (G/N, ψ) be a G-equivariant contin-
+uous linear operator. Then there exists a vector ξ ∈ Vπ such that T ∗ :
+L2 (G/N, ψ) → Hπ2 is given by
+                             Z
+                     ∗
+                   T f (z) =    f (x)Ψ(g, z)dµG/N (x)
+                                    G/N
+
+where
+ Ψ : G × G/K → Vπ ,                                               eC (b−1 a))ξ.
+                                      nC (b−1 a))jπ (b, eK)−1 πc (k
+                         Ψ(a, bK) = ψ(e
+                                                                           (4.9)
+Conversely, a kernel Ψ defined by (4.9) defines an intertwining operator
+T ∗ : L2 (G/N, ψ) → Hπ2 (G/K) if and only if Hπ2 belongs to the holomorphic
+discrete series. In particular,
+                     dim HomG (Hπ2 , L2 (G/N, ψ)) = dim Vπ .
+Remark 4.7. The formula in Proposition 4.6 contains all information about
+the embedding of a holomorphic discrete series into L2 (G/N, ψ). For in-
+stance, one can conclude that the embedding T : Hπ2 → L2 (G/N, ψ) is given
+by
+           T F (g) = hF, Ψ(g, ·)iH2π = hF, jπ (g, g−1 ·)−1 Ψ(e, g−1 ·)iH2π
+                   = hF, jπ (g −1 , ·)Ψ(e, g−1 ·)iH2π = hF, Jπ (g)Ψ(e, ·)iH2π
+                   = hJπ (g)−1 F, Ψ(e, ·)i
+for g ∈ G, F ∈ Hπ2 . Comparing this expression with the embedding (3.1) in
+terms of Whittaker vectors, we recover the formulas of Proposition 2.5 (1)
+and Proposition 2.6 (1) for the Whittaker vectors Wv,η = Wv,η  TΩ and W
+                                                                          v,η =
+   D                                                   ∨
+Wv,η . In fact, using the antilinear isomorphism Vπ ≃ Vπ , ξ 7→ ξ := h·, ξi, we
+obtain that the antiholomorphic function
+
+                            nC (x−1 ))·jπ (x, eK)−1 πc (e
+Wv,η (z) = h·, Ψ(e, x)i = ψ(e                           kC (x−1 ))ξ          (z = xK)
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 29
+
+is a Whittaker vector for Hπ2 . For instance, if we identify G/K ≃ TΩ , then
+z ∈ TΩ can be written as z = nz−ie · (ie) with nz−ie ∈ NC , so z ∈ TΩ
+corresponds to nz−ie K ∈ G/K and hence
+
+           Wv,η (z) = ψ(n−1
+                         z−ie )ξ = e
+                                    −i(ie−z|v) ξ = const ×e−i(z|v) ξ.
+
+
+This is precisely (2.4) with η = ξ.
+4.4. A formula for the lowest K-types. In the proof of Theorem 3.1
+we found a formula for the lowest K-type of a holomorphic discrete series
+embedded into C ∞ (G/N, ψ) and used this formula to show that the lowest
+K-type (and hence the whole holomorphic discrete series) is contained in
+L2 (G/N, ψ). We now provide another formula for the lowest K-type in the
+spirit of [27], using the decomposition g = p+ (g)kC (g)nC (g) ∈ P − KC NC .
+This generalizes the formula (4.4) for SU(1, 1). For this we first note that
+the lowest K-type in Hπ2 is spanned by the functions Ke ξ ∈ Hπ2 (ξ ∈ Vπ ),
+where Kw (z) = K(z, w) ∈ GL(Vπ ) denotes the reproducing kernel of Hπ2
+(see e.g. Section 2.2 for the reproducing kernel of Hπ2 (TΩ )).
+Theorem 4.8. Let T : Hπ2 → L2 (G/N, ψ) be an intertwining operator.
+Then the restriction of T to the lowest K-type Vπ is given by
+
+  Tπ,η : Vπ → L2 (G/N, ψ),
+                                                           
+               Tπ,η ξ(g) = ψ(nC (g)−1 )η πc (kC (g)−1 )ξ       (ξ ∈ Vπ , g ∈ G)
+for some η ∈ Vπ∨ . Moreover, the function Tπ,η ξ extends to a holomorphic
+function on Ξ. Conversely, for every lowest K-type (π, Vπ ) of a holomorphic
+discrete series representation and every η ∈ Vπ∨ , the operator Tπ,η constructs
+the lowest K-type of a holomorphic discrete series occurring discretely in
+L2 (G/N, ψ).
+Proof. By Proposition 4.6, the integral kernel Ψ of T ∗ : L2 (G/N, ψ) → Hπ2
+is given by
+                          nC (b−1 a))jπ (b, eK)−1 πc (e
+             Ψ(a, bK) = ψ(e                           kC (b−1 a))η
+for some η ∈ Vπ . Then, by (4.6), a vector Ke ξ (ξ ∈ Vπ ) in the lowest K-type
+is is mapped to
+                                          nC (g))hξ, πc (e
+             T Ke ξ(g) = hξ, Ψ(g, e)i = ψ(e              kC (g))ηi,
+where we have used that jπ (e, eK) = id. Identifying η ∈ Vπ with the func-
+                                                                     eC (g))∗ =
+                                      nC (g)) = ψ(nC (g)−1 ) and πc (k
+tional ξ 7→ hξ, ηi in Vπ∨ and using ψ(e
+πc (k(g)−1 ) shows the claim.                                                 
+Remark 4.9. One can also prove Theorem 4.8 without using the previous
+results on the kernel Ψ. In fact, the projections p+ (g), kC (g) and nC (g)
+satisfy
+  p+ (kgn) = kp+ (g)k−1 ,    kC (kgn) = kkC (g)    and nC (kgn) = nC (g)n,
+30            JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+implying that
+                    Tπ,η (ξ)(k−1 gn) = ψ(n)−1 Tπ,η (πc (k)ξ).
+Hence, Tπ,η (ξ) ∈ C ∞ (G/N, ψ) and Tπ,η is a K-intertwining operator. More-
+over, an SU(1, 1) reduction shows that Tπ,η (ξ) is square-integrable. That
+Tπ,η (ξ) extends to a function on Ξ holomorphic on Ξo follows from Theo-
+rem 4.3. Finally, Tπ,η (ξ) is a highest weight vector since p+ acts trivially.
+This follows from the P + -invariance of the projections kC (g) and nC (g).
+Corollary 4.10. Every unitary highest weight representation that occurs
+in the Plancherel formula for L2 (G/N, ψ) is a holomorphic discrete series
+representation and hence given in Theorem 3.1.
+Proof. First note that since the unitary highest weight representations form
+a discrete subset of G,b they can only occur discretely in L2 (G/N, ψ) (see
+also [18, Section 3]). For a fixed irreducible finite-dimensional representation
+(π, Vπ ) of LC and πν = π ⊗detν as in Section 1.3, the formula in Theorem 4.8
+is clearly holomorphic in ν and hence agrees with the formula for the lowest
+K-type computed in the proof of Theorem 3.1. But there it was shown that
+the lowest K-type πν is L2 on G/N if and only if ω(πν ) > 2n   r − 1, i.e. if and
+only if πν is a holomorphic discrete series.                                    
+
+                5. The twisted Hardy space on L2 (G/N )
+    In this section we discuss the twisted Hardy space of holomorphic L2 -
+sections of the line bundle defined by ψ = ψv . The idea of realizing series
+of representations in a Hardy space, the Gelfand–Gindikin program, goes
+back to the article [14] and was then taken up in [28, 30] for the case of a
+semisimple Lie group. The first step towards Hardy spaces on symmetric
+spaces was [26], a program that was completed in [18]. Since then, several
+other situations have been considered, in particular the case of Riemannian
+symmetric spaces was studied in [15], and the space of horocycles G/M Nmin ,
+Pmin = M Amin Nmin a minimal parabolic subgroup, in [16]. The discussion is
+brief because the methods and ideas are the same as in [18] and [24, Chapter
+9]. We refer to the following Appendix for a more detailed discussion about
+some of those ideas.
+    We realize G/K again as a bounded domain D ⊆ P + ⊆ GC /KC P − and
+define Ξ and S as before, see (4.5). As before, we define s 7→ s∗ = s−1
+where GC → GC , g 7→ g is the conjugation fixing G pointwise. A continuous
+representation σ of S on a Hilbert space Hσ is said to be a ∗-representation
+if for all s ∈ S we have σ(s)∗ = σ(s∗ ). It is a holomorphic representation if
+s 7→ σ(s)u is a holomorphic map S o → Hσ for every u ∈ Hσ .
+    The following can be found in [24, Thm. XI.6.1]:
+Theorem 5.1. A continuous representation σ of S is a holomorphic ∗-
+representation if and only if σ|G is a unitary highest weight representation
+of G.
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 31
+
+  Motivated by the construction in [18] (see also the Appendix), we define
+the twisted Hardy space H2 (Ξ, ψv ) over G/N to be the Hilbert space of
+holomorphic functions F on Ξ satisfying:
+   (1) For all ξ ∈ Ξ and n ∈ N we have F (ξn) = ψv (n)−1 F (ξ).
+   (2) For every s ∈ S o the function g 7→ Fs (g) = F (s−1 g) is in L2 (G/N, ψv )
+       and the L2 -limit
+                       β(F ) =     lim Fs ∈ L2 (G/N, ψv )
+                                 S o ∋s→g
+
+        exists in L2 (G/N, ψv ).
+The inner product on H2 (Ξ, ψv ) is given by
+                   hF, GiH2 (Ξ,ψv ) = hβ(F ), β(G)iL2 (G/N,ψv ) .
+  The closed semigroup S acts on H2 (Ξ, ψv ) by
+                     s · F (ξ) = F (s−1 ξ)     (s ∈ S, ξ ∈ Ξ)
+and the boundary value map
+                         β : H2 (Ξ, ψv ) → L2 (G/N, ψv )
+is a G-equivariant isometry. We also note that H2 (Ξ, ψv ) 6= {0} because
+each of the functions Tπ,η (ξ) is in H2 (Ξ, ψv ) and β(T (ξ)) = Tπ,η (ξ)|G/N .
+Each of those functions generates an S-invariant subspace in H2 (Ξ, ψv ).
+The representation of S in H2 (Ξ, ψv ) is holomorphic. Hence, Theorem 3.1,
+Corollary 4.10 and Theorem 5.1 imply that the Hardy space is a direct
+sum of holomorphic discrete series, each occurring with multiplicity equal
+to the dimension of the lowest K-type. To be more specific, the following
+construction applies to all of the holomorphic discrete series (Jπ , Hπ2 ) leading
+to Theorem 5.2: We extend the matrix coefficient map ιπ from (3.1) to
+H2 (Ξ, ψv ). For f ∈ Hπ2 and W ∈ (Hπ2 )−∞,ψv we let
+               ιπ (f ⊗ W )(ξ) = W (Jπ (ξ −1 )f ),   ξ ∈ Ξ = S o−1 ,
+using that by Lemma A.2 we have Jπ (ξ −1 )f ∈ (Hπ2 )∞ . Note that the func-
+tion ιπ (f ⊗ W ) satisfies the covariance relation
+      ιπ (f ⊗ W )(ξn) = W (Jπ (n)−1 Jπ (ξ −1 )f ) = ψv (n)−1 ιπ (f ⊗ W )(ξ).
+Theorem 5.2. Let the notation be as above. Then the following holds:
+   (1) If ω(π) > 2n               2
+                  r −1, then ιπ (Hπ ⊗(Hπ )
+                                          2 −∞,ψv ) ⊆ H (Ξ, ψ ) and the map
+                                                         2    v
+             2      2
+       ιπ : Hπ ⊗ (Hπ )−∞,ψ v
+                              → H2 (Ξ, ψv ) is an S-intertwining operator.
+   (2) We have
+                                M
+                                d
+                  H2 (Ξ, ψv ) =     ιπ (Hπ2 ⊗ (Hπ2 )−∞,ψv ),
+                                     π
+
+        where the sum is taken over all π with ω(π) > 2n
+                                                       r −1
+32             JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+                        Appendix A. Hardy spaces
+  To put our results in Section 5 into perspective, we provide a general dis-
+cussion about the Hardy space of a semisimple Hermitian Lie group and the
+Hardy space of a symmetric space of Hermitian type. We refer to [18, 25]
+and the book [24], in particular Chapters XI, XII and XIV, for details. The
+notation is as in the main part of the paper.
+
+  We start by discussing the original idea [14] based on the ideas from [28].
+For a function F : Ξo → C let Fs (g) = F (s−1 g). Define the Hardy space on
+Ξ to be the Hilbert space
+H2 (Ξ) = {F ∈ O(Ξo ) | (∀s ∈ S o ) Fs ∈ L2 (G) and         lim Fs exists in L2 (G)}.
+                                                         S o ∋s→e
+
+Note that S acts on H2 (Ξ) by s · F (ξ) = F (s−1 ξ). We define the boundary
+value map β : H2 (Ξ) → L2 (G) by
+                               β(F ) =     lim Fs .
+                                         S o ∋s→e
+
+Lemma A.1. Let π be so that ω(π) > 2n                                  2
+                                            r − 1 and denote by (Jπ , Hπ ) the
+holomorphic discrete series representation with lowest K-type π.
+    (1) The representation Jπ extends to a holomorphic ∗ -representation of
+        S.
+    (2) For every u ∈ Hπ2 and λ ∈ (Hπ2 )∗ , the function Ππ (u ⊗ λ)(g) =
+        λ(Jπ (g−1 )u) extends to a holomorphic function on Ξ which is con-
+        tained in H2 (Ξ), and β(Ππ (u ⊗ λ)) ∈ L2 (G).
+    (3) For a fixed λ ∈ (Hπ2 )∗ , the map u 7→ Ππ (u ⊗ λ) is an S-homorphism
+        Hπ2 → H2 (Ξ).
+                  L
+    (4) H2 (Ξ) = c π Ππ (Hπ2 ⊗ (Hπ2 )∗ ).
+    (5) The contribution of the holomorphic discrete series to L2 (G) is
+                                    M
+                                    d                  
+                     β(H2 (Ξ)) =       Ππ Hπ2 ⊗ (Hπ2 )∗ |G .
+                                    π
+
+   As mentioned above, the next step was the extension of this theory to
+compactly causal symmetric spaces, originally also called symmetric spaces
+of Hermitian type. For that, the following is helpful, even if it was not used
+in the original work.
+Lemma A.2. Let s ∈ S o and u ∈ Hπ2 . Then Jπ (s)u ∈ (Hπ2 )∞ .
+Proof. By [22, Proposition A.5] we have Jπ (s)Hπ2 ⊆ (Hπ2 )ω , and (Hπ2 )ω ⊆
+(Hπ2 )∞ .                                                                 
+     Recall that the group G acts on (Hπ2 )−∞ by
+              (Jπ−∞ (g)λ)(u) = λ(Jπ (g−1 )u),       u ∈ (Hπ2 )∞ , g ∈ G.
+This action extends to S by
+                          (Jπ−∞ (s)λ)(u) = λ(Jπ (s∗ )u)
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 33
+
+and the function Ξo → C, ξ 7→ λ(Jπ (ξ)u), is anti-holomorphic.
+
+   Now assume that G/H is a symmetric space such that the tangent space
+TeH (G/H) contains an open, generating H-invariant elliptic cone. Thus, by
+denoting the corresponding involution on G and its Lie algebra by τ and
+writing g = q ⊕ h with q = g−τ and h = gτ , the assumption is that q
+contains an open generating H-invariant cone C such that the spectrum of
+ad X, X ∈ C, is contained in iR. The cone C then extends to a G-invariant
+cone in g and G/K is a bounded symmetric domain. In particular, the
+semigroup S is defined. Assume that H is a real form of a complex group
+HC ⊆ GC . Let xo = eHC ∈ GC /HC and define ΞH = Ξxo = ΞH ⊆ GC /HC .
+Then ΞoH = Ξo xo is a G-invariant open domain in GC /HC containing the
+symmetric space G/H in the boundary. For a holomorphic function F on
+ΞoH let s · F (gH) = Fs (gH) = F (s−1 gH). We can now define the Hardy
+space H2 (ΞH ) as the space of holomorphic functions F on ΞH such that
+    (1) ∀s ∈ S o the function s · F ∈ L2 (G/H),
+    (2) sups∈S o ks · F kL2 (G/H) < ∞.
+  Then the boundary value map β : H2 (ΞH ) → L2 (G/H) is defined by
+                              β(F ) =     lim Fs ,
+                                        S o ∋s→e
+
+where the limit exists in L2 (G/H), and H2 (ΞH ) is a Hilbert space with inner
+product
+                    hF, GiH2 (ΞH ) = hβ(F ), β(G)iL2 (G/H) .
+  For u ∈ Hπ2 and λ ∈ (Hπ2 )−∞,H let
+                    ΠH,π,λ (u)(ξ) = λ(Jπ (ξ −1 )u),   ξ ∈ Ξ.
+Then for h ∈ H
+ΠH,π,λ (u)(ξh) = λ(Jπ (h−1 )Jπ (ξ −1 )u) = (Jπ−∞ (h)λ)(Jπ (ξ −1 )u) = ΠH,π,λ (u)(ξ)
+as λ is H-invariant. The function ΠH,π,λ (u) is holomorphic and right H-
+invariant, hence also right HC -invariant, so ΠH,π,λ (u) defines a holomorphic
+function on ΞH . We also use the notation ΠH,π,λ (u)(g) = ΠH,π,λ (u)(gH) for
+u ∈ Hπ2 and g ∈ G.
+   The following lemma is first proved first for SU(1, 1) and then generalized
+to GC /KC using SU(1, 1) reduction.
+Lemma A.3. We have Ξ ⊂ P + KC HC .
+   For x ∈ P + KC HC choose kH (x) ∈ KC such that x ∈ P + kH (x)HC . Note
+that kH (x) is not unique, but the coset kH (x)(HC ∩ KC ) ∈ KC /(HC ∩ KC )
+is unique and the map x 7→ kH (x)(HC ∩ KC ) is holomorphic.
+   We can now state the main results on the Hardy space on ΞH :
+Theorem A.4. Let (Jπ , Hπ2 ) be a unitary highest weight representation.
+Then the following holds:
+   (1) dim(Hπ2 )−∞,H ≤ 1.
+34             JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+     (2) There exists an explicit constant cG/H > 0 such that for 0 6= λ ∈
+         (Hπ2 )−∞,H we have
+                 ΠH,π,λ (Hπ2 ) ⊆ H2 (ΞH )   ⇔    ω(π) > cG/H ,
+         and in that case ΠH,π,λ : Hπ2 → H2 (ΞH ) is an S o -intertwining oper-
+         ator.
+     (3) The contribution of the unitary highest weight representations to the
+         Plancherel decomposition of L2 (G/H) is given by
+                              M
+                                     β(ΠH,π,λ (Hπ2 )),
+                           ω(π)>cG/H
+
+         where we choose for every π a non-trivial distribution vector λ ∈
+         (Hπ2 )−∞,H if possible, and otherwise use λ = 0.
+     (4) Let (π, Vπ ) be an irreducible unitary representation of K such that
+         (Vπ∨ )K∩H 6= {0}. Let η ∈ (Vπ∨ )K∩H \ {0}. Then for every ξ ∈ Vπ the
+         function                                       
+                          TH,π,η ξ(x) = η π(kH (x)−1 )ξ
+         is holomorphic on P + KC HC /HC . If ω(π) > cG/H then {TH,π,η ξ :
+         ξ ∈ Vπ } ⊆ H2 (ΞH ) is the highest weight space of a unitary highest
+         weight representation Hπ2 in H2 (ΞH ).
+Remark A.5.       (1) We would like to underline the difference that here
+     one needs to use a distribution vector to construct the embedding
+     of the highest weight representation Hπ2 into L2 (G/H). This is a
+     consequence of the fact that there is no H-invariant vector in Hπ2 .
+     This does not show up in the groups case until one consider the
+     group as a homogeneous space (G × G)/ diag(G) and identifies Hπ2 ⊗
+     (Hπ2 )∗ with the space HS(Hπ2 ) of Hilbert–Schmidt operators on Hπ2 .
+     The trace is then the (up to scalar multiples) unique G-invariant
+     distribution vector and the intertwining operator is
+                                       
+        T 7→ s 7→ dim(π) tr(T π(s−1 )) , T ∈ HS(Hπ2 ), s ∈ Ξ,
+         where dim(π) is the formal dimension of Hπ2 .
+     (2) Part (4) is [25, Lem 5.1], where a Harish-Chandra type formula for
+         Λπ as a hyper-function is given. In fact, up to a known constant, Λπ
+         is an H-invariant spherical functions on the Cartan dual of G/H.
+     (3) If G/K ≃ Rk + iΩ is of tube type, then there exists a symmetric
+         group H ⊆ G locally isomorphic to the automorphism group of the
+         cone Ω. In this case, assuming that G is simple, the group H has one-
+         dimensional center whose connected component Z(H)o is a vector
+         group. Each unitary character χ : Z(H)o → T defines a line bundle
+         over G/H. One can then also consider χ-twisted Hardy spaces over
+         ΞH .
+     (4) In general, we might have cG/H < 2n   r − 1 in which case there are
+         unitary highest weight modules that can be realized inside L2 (G/H)
+   HOL. DISCRETE SERIES IN THE GEN. WHITTAKER PLANCHEREL FORMULA 35
+
+         but do not belong to the holomorphic discrete series of G. A detailed
+         discussion of this for G classical and dim Vπ = 1 can be found in the
+         last part of [26].
+
+
+                                      References
+ [1] Avraham Aizenbud and Dmitry Gourevitch, Finite multiplicities beyond spherical
+     pairs, (2021), preprint, available at arXiv:2109.00204.
+ [2] Yves Benoist and Toshiyuki Kobayashi, Tempered homogeneous spaces II, Dynamics,
+     geometry, number theory – the impact of Margulis on modern mathematics, Univer-
+     sity of Chicago Press, Chicago, IL, 2022, pp. 213–245.
+ [3] Roelof W. Bruggeman and Roberto J. Miatello, Representations of SU(2, 1) in Fourier
+     Term Modules, Springer, Cham, 2023, Lecture Notes in Math., Vol. 2340.
+ [4]         , Generalized Poincaré series for SU(2, 1), (2021), preprint, available at
+     arXiv:2106.14200.
+ [5] Jan Bruinier, Jens Funke, and Stephen Kudla, Degenerate Whittaker functions for
+     Spn (R), Int. Math. Res. Not. IMRN (2018), no. 1, 1–56.
+ [6] Pierre Cartier, Vecteurs différentiables dans les représentations unitaires des groupes
+     de Lie, Séminaire Bourbakt (1974/1975), Exp. No. 454, 1976, pp. 20–34. Lecture
+     Notes in Math., Vol. 514.
+ [7] Houcine Chébli and Jacques Faraut, Fonctions holomorphes à croissance modérée et
+     vecteurs distributions, Math. Z. 248 (2004), no. 3, 540–565.
+ [8] Hacen Dib, Fonctions de Bessel sur une algèbre de Jordan, J. Math. Pures Appl. (9)
+     69 (1990), no. 4, 403–448.
+ [9] Hongming Ding and Kenneth I. Gross, Operator-valued Bessel functions on Jordan
+     algebras, J. Reine Angew. Math. 435 (1993), 157–196.
+[10] Thomas Enright, Roger Howe, and Nolan Wallach, A classification of unitary highest
+     weight modules, Representation theory of reductive groups (Park City, Utah, 1982),
+     Progr. Math. 40, Birkhäuser Boston, Boston, MA, 1983, pp. 97–143.
+[11] Jacques Faraut and Adam Korányi, Analysis on symmetric cones, Oxford Mathemat-
+     ical Monographs, The Clarendon Press, Oxford University Press, New York, 1994,
+     Oxford Science Publications.
+[12] Jan Frahm, Gestur Ólafsson, and Bent Ørsted, Generalized Laguerre functions and
+     Whittaker vectors for holomorphic discrete series, J. Lie Theory 33 (2023), no. 1,
+     253–270.
+[13]         , The holomorphic discrete series contribution to the generalized Whit-
+     taker Plancherel formula II. Non-tube type groups, (2024), preprint, available at
+     arXiv:2401.06427.
+[14] Israel M. Gelfand and Simon G. Gindikin, Complex manifolds whose spanning
+     trees are real semisimple Lie groups, and analytic discrete series of representations,
+     Funkcional. Anal. i Priložen. 11 (1977), no. 4, 19–27, 96.
+[15] Simon Gindikin, Bernhard Krötz, and Gestur Ólafsson, Holomorphic H-spherical
+     distribution vectors in principal series representations, Invent. Math. 158 (2004),
+     no. 3, 643–682.
+[16]         , Horospherical model for holomorphic discrete series and horospherical
+     Cauchy transform, Compos. Math. 142 (2006), no. 4, 983–1008.
+[17] Carl S. Herz, Bessel functions of matrix argument, Ann. of Math. (2) 61 (1955),
+     474–523.
+[18] Joachim Hilgert, Gestur Ólafsson, and Bent Ørsted, Hardy spaces on affine symmetric
+     spaces, J. Reine Angew. Math. 415 (1991), 189–218.
+[19] Hans Plesner Jakobsen, Hermitian symmetric spaces and their unitary highest weight
+     modules, J. Funct. Anal. 52 (1983), no. 3, 385–412.
+36              JAN FRAHM, GESTUR ÓLAFSSON, AND BENT ØRSTED
+
+[20] Anthony W. Knapp, Representation theory of semisimple groups: An overview based
+     on examples, Princeton Mathematical Series, vol. 36, Princeton University Press,
+     Princeton, NJ, 1986.
+[21] Bertram Kostant, On Laguerre polynomials, Bessel functions, Hankel transform and
+     a series in the unitary dual of the simply-connected covering group of Sl(2, R), Rep-
+     resent. Theory 4 (2000), 181–224.
+[22] Bernhard Krötz, Karl-Hermann Neeb, and Gestur Ólafsson, Spherical representations
+     and mixed symmetric spaces, Represent. Theory 1 (1997), 424–461.
+[23] Jan Möllers, A geometric quantization of the Kostant-Sekiguchi correspondence for
+     scalar type unitary highest weight representations, Doc. Math. 18 (2013), 785–855.
+[24] Karl-Hermann Neeb, Holomorphy and convexity in Lie theory, De Gruyter Exposi-
+     tions in Mathematics, vol. 28, Walter de Gruyter & Co., Berlin, 2000.
+[25] Gestur Ólafsson, Analytic continuation in representation theory and harmonic analy-
+     sis, Global analysis and harmonic analysis (Marseille-Luminy, 1999), Sémin. Congr.,
+     vol. 4, Soc. Math. France, Paris, 2000, pp. 201–233.
+[26] Gestur Ólafsson and Bent Ørsted, The holomorphic discrete series for affine symmet-
+     ric spaces. I, J. Funct. Anal. 81 (1988), no. 1, 126–159.
+[27]         , The holomorphic discrete series of an affine symmetric space and representa-
+     tions with reproducing kernels, Trans. Amer. Math. Soc. 326 (1991), no. 1, 385–405.
+[28] Grigori I. Ol’shanskiı̆, Complex Lie semigroups, Hardy spaces and the Gelfand–
+     Gindikin program, Differential Geom. Appl. 1 (1991), no. 3, 235–246.
+[29] Nobukazu Shimeno, The Plancherel formula for spherical functions with a one-
+     dimensional K-type on a simply connected simple Lie group of Hermitian type, J.
+     Funct. Anal. 121 (1994), no. 2, 330–388.
+[30] Robert J. Stanton, Analytic extension of the holomorphic discrete series, Amer. J.
+     Math. 108 (1986), no. 6, 1411–1424.
+[31] Nolan R. Wallach, Generalized Whittaker vectors for holomorphic and quaternionic
+     representations, Comment. Math. Helv. 78 (2003), no. 2, 266–307.
+[32] Hiroshi Yamashita, Multiplicity One Theorems for Generalized Gelfand-Graev Rep-
+     resentations of Semisimple Lie Groups and Whittaker Models for the Discrete Series,
+     Advanced Studies in Pure Mathematics 14, 1988, Representations of Lie Groups,
+     Kyoto, Hiroshima, 1986, pp. 31–121.
+
+  Department of Mathematics, Aarhus University, Ny Munkegade 118, 8000
+Aarhus C, Denmark
+  Email address: frahm@math.au.dk
+
+  Department of Mathematics, Louisiana State University, Baton Rouge, LA
+70803, USA
+  Email address: olafsson@math.lsu.edu
+
+  Department of Mathematics, Aarhus University, Ny Munkegade 118, 8000
+Aarhus C, Denmark
+  Email address: orsted@math.au.dk
+

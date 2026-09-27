@@ -1,0 +1,1133 @@
+                                                HEISENBERG PARABOLICALLY INDUCED REPRESENTATIONS OF
+                                             HERMITIAN LIE GROUPS, PART II: NEXT-TO-MINIMAL REPRESENTATIONS
+                                                                 AND BRANCHING RULES
+
+
+
+
+arXiv:2304.05663v1 [math.RT] 12 Apr 2023
+                                                                    JAN FRAHM, CLEMENS WEISKE, AND GENKAI ZHANG
+
+                                                   A BSTRACT. Every simple Hermitian Lie group has a unique family of spherical representations
+                                                   induced from a maximal parabolic subgroup whose unipotent radical is a Heisenberg group. For
+                                                   most Hermitian groups, this family contains a complementary series, and at its endpoint sits a
+                                                   proper unitarizable subrepresentation. We show that this subrepresentation is next-to-minimal in
+                                                   the sense that its associated variety is a next-to-minimal nilpotent coadjoint orbit. Moreover, for
+                                                   the Hermitian groups SO0 (2, n) and E6(−14) we study some branching problems of these next-to-
+                                                   minimal representations.
+
+
+
+
+                                                                                          I NTRODUCTION
+                                              Minimal representations of simple Lie groups are well studied and have several equivalent de-
+                                           scriptions. The most natural one is by their relation to minimal nilpotent coadjoint orbits via the
+                                           orbit philosophy. They are often unique and show up naturally in relation to the theta correspon-
+                                           dence, unipotent representations, and the quantization of nilpotent coadjoint orbits. Moreover,
+                                           they occur as the local archimedean components of certain automorphic representations of reduc-
+                                           tive groups over global fields. Minimal representations of real groups have been studied exten-
+                                           sively from various different perspectives such as classical harmonic analysis, partial differential
+                                           equations, complex analysis or conformal geometry (see e.g. [1, 9, 14, 19, 23, 24, 26]). From the
+                                           representation theoretic point of view, one particularly important question in this context is how
+                                           minimal representations decompose when restricted to certain subgroups. If the subgroup arises
+                                           from a dual pair, this question falls into the framework of the celebrated theta correspondence
+                                           (see e.g. [16, 18, 25, 27]). On the other hand, the restriction to symmetric subgroups has also
+                                           turned out to reveal interesting new results (see e.g. [22, 28]).
+                                              Much less studied are next-to-minimal representations; these ought to correspond to nilpotent
+                                           coadjoint orbits whose closure is the union of the orbit itself and the trivial and minimal orbits,
+                                           see the precise definition below. For some groups it has been shown that certain next-to-minimal
+                                           representations also occur as local archimedean components of global automorphic representa-
+                                           tions (see [13]), and their automorphic realizations seem to be of growing interest, in particular
+
+                                              2010 Mathematics Subject Classification. 17B15, 17B60, 22D30, 43A80, 43A85.
+                                              Key words and phrases. Hermitian Lie groups, Heisenberg parabolic subgroups, induced representations, com-
+                                           plementary series, unitarizable subrepresentations.
+                                              The first named author was supported by a research grant from the Villum Foundation (Grant No. 00025373),
+                                           the second named author was supported by a research grant from the Knut and Alice Wallenberg foundation (KAW
+                                           2020.0275) and the third named author was supported partially by the Swedish Research Council (VR, Grants 2018-
+                                           03402, 2022-02861).
+                                                                                                   1
+2                        JAN FRAHM, CLEMENS WEISKE, AND GENKAI ZHANG
+
+for exceptional groups (see [3, 11, 12, 29]). It is therefore desirable to gain a better understand-
+ing of next-to-minimal representations, both globally and locally. The purpose of this paper is to
+study some branching laws for next-to-minimal representations of Hermitian Lie groups.
+   While minimal representations of Hermitian Lie groups turn out to be unitary highest or lowest
+weight representations, there do exist next-to-minimal representations which are neither highest
+nor lowest weight representations. This makes them more difficult to construct and understand.
+In our previous work [8], where we studied Heisenberg parabolically induced representations of
+Hermitian groups, we exhibited some interesting unitary representations showing up at the end of
+the complementary series. We proved that the representations can be realized on Hilbert spaces of
+distributions on the Heisenberg group whose Weyl transforms have rank one as operators on Fock
+spaces. Thus they have similar properties as the last point in the Wallach set for scalar unitary
+highest weight representations described using the Euclidean Fourier transform [6, 15, 17].
+   In this paper, we show that they are in fact next-to-minimal representations. For the Hermitian
+groups SO0 (2, n) and E6(−14) we further study corresponding branching problems when restrict-
+ing these next-to-minimal representations to certain symmetric subgroups.
+   Let us describe our results in more detail.
+Next-to-minimal representations. Let g be a real form of a complex simple Lie algebra gC and
+(gC )∗ the dual space of gC . The nilpotent cone in (gC )∗ decomposes into finitely many nilpotent
+coadjoint orbits, and among them there is precisely one of minimal dimension, Omin . Note that
+the closure of Omin equals Omin ∪ {0}. The following definition is in the spirit of [12, 13]:
+Definition. A nilpotent coadjoint orbit O ⊆ (gC )∗ is called next-to-minimal if its closure is equal
+to O ∪ Omin ∪ {0}. An irreducible unitary representation π of a Lie group G with Lie algebra
+g is called next-to-minimal if its associated variety in (gC )∗ is the closure of a next-to-minimal
+nilpotent coadjoint orbit.
+  Now let G be a simple Hermitian Lie group with g /≃ sp(n, R), i.e. g is one of the following
+Lie algebras:
+                      su(p, q), so(2, n), so∗ (2n), e6(−14) , e7(−25) .
+Up to conjugation, G has a unique maximal parabolic subgroup P = MAN whose unipotent
+radical N is a Heisenberg group. We consider the degenerate principal series representations
+                                     P (1 ⊗ e ⊗ 1)
+                             πν = IndG                    (ν ∈ (aC )∗ ),
+                                             ν
+
+
+where a denotes the Lie algebra of A. Here, πν is normalized such that πν contains the trivial
+representation as a quotient for ν = ρ and as a subrepresentation for ν = −ρ, ρ being the half sum
+of positive roots with respect to a, and πν is unitary for ν ∈ ia∗ . Excluding the case g ≃ su(p, q)
+with p − q odd, there exists by [8, Theorem 4.1] an interval (−ν0 , ν0 ) ⊆ a∗ such that πν , ν ∈ a∗ ,
+is irreducible and unitarizable if and only if ν ∈ (−ν0 , ν0 ). Let Aν ∶ πν → π−ν denote the Knapp–
+Stein standard intertwining operators.
+Theorem A (see Section 2). πntm = Ker A−ν0 = Im Aν0 ⊆ π−ν0 is a proper irreducible and unita-
+rizable subrepresentation which is spherical and next-to-minimal. Its K-type decomposition is
+given in Theorem 1.1.
+  For G = O(p, q) with min(p, q) ≥ 4, a next-to-minimal representation was constructed in [35],
+but their construction does not extend to the case min(p, q) = 2. The reason is that O(p, q) has
+    HEISENBERG PARABOLICALLY INDUCED REPRESENTATIONS OF HERMITIAN LIE GROUPS, PART II                                                 3
+
+two different next-to-minimal nilpotent coadjoint orbits. For min(p, q) = 2 the next-to-minimal
+orbit considered in [35] does not have real points, so there cannot exist a unitary representation
+whose associated variety equals this orbit. Our next-to-minimal representation has the other next-
+to-minimal orbit as associated variety.
+   We further remark that whenever the rank of G is at least 3, the analytic continuation of the
+scalar type holomorphic discrete series of G contains a next-to-minimal representation, namely
+the one corresponding to the next-to-minimal discrete point in the Wallach set. Our representation
+is different from this one as it is neither highest nor lowest weight module.
+Branching G ↘ SL(2, R) × M. If P = MAN is a Langlands decomposition of the Heisenberg
+parabolic subgroup P of G, then the centralizer of M in G is a subgroup locally isomorphic to
+SL(2, R). In fact, the two subgroups M and SL(2, R) form a dual pair inside G. We study the
+restriction of πntm to SL(2, R) × M for the two cases G = SO0 (2, n) and G = E6(−14) .
+   Let us first consider G = SO0 (2, n), then M = SL(2, R) × SO(n − 2). In fact, the subgroup
+SL(2, R) of M is conjugate to the centralizer of M, and we simply write SL(2, R) × M as
+SL(2, R) × SL(2, R) × SO(n − 2) without distinguishing between the two copies of SL(2, R). To
+                                              denote the irreducible representation of SO(n − 2) on
+                                      SO(n−2)
+state the decomposition of πntm let ηk
+the space H (R ) of harmonic homogeneous polynomials on Rn−2 of degree k. Moreover, for
+             k   n−2
+
+µ ∈ iR and ε ∈ Z/2Z let τµ,ε        be the unitary principal series of SL(2, R), spherical for ε = 0
+                            SL(2,R)
+
+and non-spherical for ε = 1, and for ℓ ∈ Z, ∣ℓ∣ ≥ 2 let τℓ
+                                                         SL(2,R)
+                                                                 be the discrete series of SL(2, R) of
+parameter ℓ.
+Theorem B (see Theorem 3.6). The restriction of the next-to-minimal representation πntm of
+G = SO0 (2, n) to SL(2, R) × SL(2, R) × SO(n − 2) is given by
+                                   ∞ ⎛
+  πntm ∣SL(2,R)×SL(2,R)×SO(n−2) ≃ ⊕ ∫        τµ,par(µ) ⊠ τµ,par(µ) dµ
+                                              SL(2,R)     SL(2,R)
+
+                                  k=0 ⎝ iR≥0
+
+                                                                                                        SL(2,R) ⎞
+                                                                       ⊕       ⊕                    ⊠ τℓ             ⊠ ηk
+                                                                                          SL(2,R)                       SO(n−2)
+                                                                                         τℓ                                       .
+                                                                             2≤∣ℓ∣≤k                             ⎠
+                                                                           ℓ≡k mod 2
+
+  Now let G = E6(−14) , then M = SU(5, 1). Let PM = MM AM NM be a minimal parabolic
+subgroup of M. Then MM is a double cover of U(4) whose irreducible representations are
+parameterized by tuples (ν1 , ν2 , ν3 , ν4 ) with νj ∈ 12 Z and νi − νj ∈ N for all 1 ≤ i < j ≤ 4.
+Moreover, the irreducible unitary characters of AM are parameterized by µ ∈ iR. We denote the
+                                                                          SU(5,1)
+corresponding parabolically induced representation of SU(5, 1) by τ(ν1 ,ν2 ,ν3 ,ν4),µ . Keeping the
+notation for representations of SL(2, R) from the previous discussion, we can identify part of the
+spectrum for the decomposition of the restriction of πntm to SL(2, R) × SU(5, 1):
+Theorem C (see Theorem 3.9). The restriction of the next-to-minimal representation πntm of
+E6(−14) to SL(2, R) × SU(5, 1) contains for every k > 0 and every 0 < m ≤ k a representation of
+the form
+
+             ∫                     ⊠ τ( k , k −m,− k ,− k ),µ dµ ⊕ ∫                     ⊠ τ( k , k ,m− k ,− k ),µ dµ
+                         SL(2,R)                                               SL(2,R)
+                        τ−l                                                   τl
+                 iR≥0                   2 2       2   2                iR≥0                   2 2      2   2
+
+
+for some l ≥ 1 as a direct summand.
+4                         JAN FRAHM, CLEMENS WEISKE, AND GENKAI ZHANG
+
+   The proofs of both Theorem B and C make use of the realization of πntm in terms of the Heisen-
+berg group Fourier transform. Indeed, since the restriction problem is mostly of analytic nature,
+the Fourier transform is an effective tool. It relates the decomposition of πntm ∣M to the decom-
+position of the tensor product of some lowest/highest weight representations of M that occur in
+the restriction to M of a metaplectic representation. In both cases this tensor product can be de-
+composed completely. Finally, the contribution of the SL(2, R)-factor is obtained by conjugating
+SL(2, R) inside G to a subgroup of M and comparing with the decomposition when restricting
+πntm to M. For G = SO0 (2, n) we can identify the action of the SL(2, R)-factor explicitly while
+for G = E6(−14) we are only able to describe its restriction to a parabolic subgroup of SL(2, R).
+
+
+Structure of this article. We first recall the main results of our previous work [8] in Section 1.
+In Section 2 we compute the Gelfand–Kirillov dimension of πntm using its K-type decomposition
+and use this information to show that the associated variety of πntm is indeed a next-to-minimal
+nilpotent coadjoint orbit in (gC )∗ . Finally, Section 3 is concerned with the restriction of the next-
+to-minimal representation πntm of G to the subgroup SL(2, R) × M. While Section 3.1 contains
+some general observation on how to use the Heisenberg Fourier transform for this problem, we
+treat the case G = SO0 (2, n) in Section 3.2, and in Section 3.3 we discuss the case G = E6(−14) .
+
+Notation. For a unitarizable Casselman–Wallach representation π we abuse notation and denote
+its unitary closure also by π, while usually suppressing the notation of the underlying Fréchet
+resp. Hilbert spaces. In this sense, if not stated otherwise, all direct sums and tensor products of
+representations are to be considered in the category of Hilbert spaces.
+
+                                        1. P RELIMINARIES
+   We recall the results about Heisenberg parabolically induced representations of Hermitian Lie
+groups from [34] as well as their realization using the Heisenberg group Fourier transform ob-
+tained in [8].
+
+1.1. Heisenberg parabolically induced representations. Let G be a simple Hermitian Lie
+group with Lie algebra g not isomorphic to sl(2, R). Then G has a unique conjugacy class of
+parabolic subgroups whose unipotent radical is a Heisenberg group. Let P = MAN be the Lang-
+lands decomposition of one of them and write m, a, n for the Lie algebras of M, A, N.
+   The one-dimensional subalgebra a is spanned by an element H ∈ a such that
+                                  g = n̄2 ⊕ n̄1 ⊕ (m ⊕ a) ⊕ n1 ⊕ n2
+is a decomposition into eigenspaces of ad(H) with eigenvalues −2, −1, 0, 1, 2 and n = n1 ⊕ n2 .
+We further write n̄ = n̄1 ⊕ n̄2 for the Lie algebra of the opposite unipotent radical N̄ . Note that
+n2 and n̄2 equal the center of n and n̄ respectively and are therefore one-dimensional and we
+choose E ∈ n2 and F ∈ n̄2 such that [E, F ] = H. Hence {E, H, F } form an sl(2)-triple. We
+identify (aC )∗ with C by ν ↦ ν(H), then the half sum of positive roots is given by ρ = d1 + 1,
+where d1 = 21 dimR n1 ∈ N (see Table 1). Consider the degenerate principal series representations
+(smooth normalized parabolic induction)
+
+                                 P (1 ⊗ e ⊗ 1)
+                         πν = IndG                         (ν ∈ (aC )∗ ≃ C),
+                                         ν
+    HEISENBERG PARABOLICALLY INDUCED REPRESENTATIONS OF HERMITIAN LIE GROUPS, PART II                    5
+
+on the space
+                  I(ν) = {f ∈ C ∞ (G); f (gman) = a−ν−ρ f (g) ∀man ∈ MAN}.
+   To describe the K-type structure of πν , let θ be a Cartan involution on G which leaves MA
+invariant and maps E to −F and denote by K ⊆ G the corresponding maximal compact subgroup.
+Its Lie algebra k decomposes into k = z(k) ⊕ k′ with k′ = [k, k] the semisimple part and z(k) the
+center.
+   The Lie algebra k′ has a Hermitian symmetric pair (k′ , l′ ) of rank 2. Let 2α1 > 2α2 be the
+Harish-Chandra strongly orthogonal roots and note that the restricted root system for the pair
+(k′ , l′ ) is of type C2 or BC2 :
+                            {±2α1 , ±2α2 } ∪ {±α1 ± α2 } [ ∪ {±α1 , ±α2 }].
+The multiplicity of ±2α1 and ±2α2 is 1, and we write a1 resp. 2b1 for the root multiplicities of
+±α1 ± α2 resp. ±α1 and ±α2 . The values of a1 and b1 for the different Hermitian groups are listed
+in Table 1.
+   We further let α0 be a linear functional on the center z(kC ) normalized such that it has value 1
+on the central element with eigenvalues ±1 on pC . Using the notation Wµ1 ,µ2 ,ℓ = Wµ1 α1 +µ2 α2 +ℓα0 ,
+the K-type decomposition of πν can be written as follows:
+               πν ∣K ≃         ⊕            Wµ1 ,µ2 ,ℓ               if g /≃ sp(n, R), su(p, q),
+                             µ1 ≥µ2 ≥∣ℓ∣
+                         µ1 ≡µ2 ≡ℓ mod 2
+
+               πν ∣K ≃         ⊕            Wµ1 ,µ2 ,ℓ               if g ≃ su(p, q).
+                             µ1 ,µ2 ≥∣ℓ∣,
+                         µ1 ≡µ2 ≡ℓ mod 2
+
+
+
+       g          k                           m                        (a1 , b1 )               d1
+       su(p, q)   s(u(p) + u(q))              u(p − 1, q − 1)          (0, p − 2), (0, q − 2)   p+q−2
+       so∗ (2n)   u(n)                        so∗ (2n − 4) + su(2)     (2, n − 4)               2n − 4
+       sp(n, R)   u(n)                        sp(n − 1, R)             (0, n − 2)               n−1
+       so(n, 2)   so(n) + so(2)               sl(2, R) + so(n − 2)     (n − 4, 0)               n−2
+       e6(−14)    spin(10) + so(2)            su(5, 1)                 (4, 2)                   10
+       e7(−25)    e6 + so(2)                  so(10, 2)                (6, 4)                   16
+        TABLE 1. Hermitian Lie algebras g with subalgebras k and m and structure con-
+        stants a1 , b1 and d1
+
+
+1.2. Intertwining operators. Let
+
+                                  w0 = exp ( (E − F )) ∈ K,
+                                             π
+                                             2
+then Ad(w0 )P = P̄ = MAN̄ is the parabolic subgroup opposite to P . Let Aν ∶ I(ν) → I(−ν)
+be the standard intertwining operator, which is for Re(ν) > ρ, f ∈ I(ν) and g ∈ G given by the
+convergent integral
+                                            Aν f (g) = ∫ f (gw0n̄) dn̄
+                                                         N̄
+6                           JAN FRAHM, CLEMENS WEISKE, AND GENKAI ZHANG
+
+and extended meromorphically to all ν ∈ C. For ν ∈ R, the corresponding Hermitian form on
+I(ν) given by
+(1.1)                     ⟨f1 , f2 ⟩ν = ⟨Aν f1 , f2 ⟩L2 (N̄ ) = ∫ Aν f1 (n̄)f2 (n̄) dn̄
+                                                                      N̄
+is G-invariant. In [8] we studied unitarizability and the composition series of the representations
+πν using the operators Aν . We recall the main results.
+Theorem 1.1 ([8] Theorem 4.1 and Theorem 4.3). Assume g /≃ sp(n, R) and let
+                                                  if g ≃ su(p, q) and p − q is even,
+                             ν0 = {
+                                   1
+                                   a1 + 1         if g ≃/ su(p, q).
+     (i) For ν ∈ R, the representation πν belongs to the complementary series, i.e. it is irreducible
+         and unitarizable, if and only if ∣ν∣ < ν0 .
+    (ii) At the endpoint −ν0 of the complementary series there is a proper unitarizable subrepre-
+         sentation πntm ∶= Ker A−ν0 = Im Aν0 with K-type decomposition
+              πntm ∣K ≃      ⊕        Wµ,µ,ℓ                               if g /≃ su(p, q),
+                             µ≥∣ℓ∣
+                          µ≡ℓ mod 2
+
+              πntm ∣K ≃         ⊕            Wµ1 ,µ2 ,ℓ                    if g ≃ su(p, q), p − q even.
+                              µ1 ,µ2 ≥∣ℓ∣,
+                            µ1 −µ2 =q−p,
+                          µ1 ≡µ2 ≡ℓ mod 2
+
+1.3. The Heisenberg group Fourier transform. Since N̄ MAN is open and dense in G, the
+restriction from G to N̄ defines an embedding of I(ν) into C ∞ (N̄ ), the so-called non-compact
+picture of πν .
+   Following [8] we further use the notation V1 = n̄1 and note that V1 has a canonical complex
+structure given by the complex structure for the Hermitian symmetric subpair (m, m∩k) of (g, k).
+We can identify n̄ = n̄1 ⊕ n̄2 = V1 ⊕ RF with V1 × R by
+                                    (v, t) ↦ v + tF                (v ∈ V1 , t ∈ R).
+  The infinite-dimensional irreducible unitary representations of N̄ are parameterized by their
+central character in in̄∗2 . We identify n∗2 with R× by λ ↦ λ(F ). Write σλ for the representation
+with central character −iλ which we realize on a Fock space Fλ (V1 ) of (anti-)holomorphic (de-
+pending on the sign of λ) functions on V1 which are square-integrable with respect to a Gaussian
+measure.
+  The Heisenberg group Fourier transform is the unitary isomorphism
+                                 F ∶ L2 (N̄) → ∫               Fλ (V1 ) ⊗ Fλ (V1 )∗ dλ
+                                                          R×
+given by
+                 F u(λ) = σλ (u) = ∫ u(n̄)σλ (n̄) dn̄                      (u ∈ L1 (N̄ ) ∩ L2 (N̄ )),
+                                             N̄
+where we identify the Hilbert space tensor product Fλ (V1 ) ⊗ Fλ (V1 )∗ with the space of Hilbert–
+Schmidt operators on Fλ (V1 ). More precisely, using the Hilbert–Schmidt norm ∥T ∥HS = tr(T T ∗ ) 2
+                                                                                                   1
+
+
+we have
+(1.2)              ∥u∥2L2 (N̄ ) = const × ∫            ∥σλ (u)∥2HS ∣λ∣d1 dλ        (u ∈ L2 (N̄ )),
+                                                  R×
+    HEISENBERG PARABOLICALLY INDUCED REPRESENTATIONS OF HERMITIAN LIE GROUPS, PART II               7
+
+the constant only depending on the normalization of measures and the dimension d1 = dimC V1 .
+By [7, Corollary 3.5.3] the Fourier transform can be extended to a continuous linear map
+                       F ∶ S ′ (N̄ ) → D′ (R× ) ⊗
+                                                ˆ Hom(Fλ (V1 )∞ , Fλ (V1 )−∞ )
+which is injective on I(ν) for Re ν > −ρ.
+1.4. The metaplectic representation. The real space V1 is naturally a symplectic vector space
+with symplectic form ω given by
+                             [v, w] = ω(v, w)F            (v, w ∈ V1 = n̄1 ).
+Let Sp(V1 , ω) denote its symplectic group with Lie algebra sp(V1 , ω). For λ ∈ R× let ωmet,λ be
+the unique projective representation of Sp(V1 , ω) on Fλ (V1 ), such that
+                          σλ (gv, t) = ωmet,λ (g) ○ σλ (v, t) ○ ωmet,λ (g)−1 .
+This representation is called metaplectic representation and its equivalence class only depends on
+the sign of λ. Let dωmet,λ be the derived sp(V1 , ω)-representation. In particular, dωmet,λ is given
+by skew symmetric holomorphic resp. anti-holomorphic differential operators on V1 for λ > 0
+resp. λ < 0. The underlying Harish-Chandra module is the space P(V1 ) of holomorphic resp.
+antiholomorphic polynomials on V1 . We recall the main result of [8], which gives the explicit
+decomposition of dωmet,λ restricted to m, the Lie algebra of M. Let therefore L ∶= K ∩ M with
+Lie algebra l and let tl be a Cartan subalgebra of lC .
+Theorem 1.2 ([8] Theorem 2.2). Let λ > 0 and assume g ≃/ su(p, q), sp(n, R). Then the restric-
+tion dωmet,λ ∣m of the metaplectic representation of sp(V1 , ω) to m decomposes as
+
+                                      dωmet,λ ∣m = ⊕ τ−kδ0 − 1 ζ0 ,
+                                                    ∞
+
+                                                                2
+                                                    k=0
+
+where τµ denotes the unitary highest weight representation of m with highest weight µ ∈ t∗l , δ0 is
+the lowest root of V1 and ζ0 is the central character of l obtained by restriction of the trace of the
+defining complex linear action of u(V1 ) ⊆ sp(V1 , ω) on V1 to tl .
+  To ease notation, we denote the k-th part in the decomposition of dωmet,λ ∣m resp. ωmet,λ ∣M , in
+the sense of the theorem above, by dωmet,λ,k resp. ωmet,λ,k .
+1.5. The Fourier transform of intertwining operators. From Theorem 1.2 it follows that the
+Fock space Fλ (V1 ) decomposes into the direct sum of representation spaces for the unitary high-
+est weight representations τ−kδ0 − 1 ζ0 ,
+                                  2
+
+(1.3)                                  Fλ (V1 ) = ⊕ Fλ,k (V1 ).
+                                                  k≥0
+
+We denote by Pk ∶ Fλ (V1 ) → Fλ,k (V1 ) the orthogonal projections. Since the Fourier transform
+                                                                                       ̂ν of the
+is injective on I(ν) and I(−ν) for Re(ν) ∈ (−ρ, ρ), we have that the Fourier transform A
+                                              ̂
+intertwining operator Aν , which is given by Aν σλ (u) ∶= σλ (Aν u), is a diagonal operator with
+respect to the decomposition (1.3).
+                                                                        ̂ν is given by
+Theorem 1.3 ([8] Theorem 3.1). For g /≃ su(p, q), sp(n, R) the operator A
+                             Âν = const ×∣λ∣−ν ∑ ak (ν) ⋅ Pk ,
+                                                        k≥0
+8                         JAN FRAHM, CLEMENS WEISKE, AND GENKAI ZHANG
+
+with positive constant only depending on the structure constants ρ = d1 + 1 and a1 (see Table 1)
+and
+                                     2ν ( −ν+a2 1 +1 )k Γ( ν−ρ+a 1 +2
+                                                                      )Γ( ν2 )
+                            ak (ν) =
+                                                               2
+
+                                                 2 )Γ(
+                                                                               .
+                                          Γ( −ν+ρ        ν+a1 +1
+                                                            2     + k)
+   Combined with (1.2), Theorem 1.3 shows the following identity for the invariant Hermitian
+form ⟨⋅, ⋅⟩ν from (1.1):
+
+(1.4)       ⟨u, u⟩ν = const × ∑ ak (ν) ∫           ∥Pk ○ σλ (u)∥2HS ∣λ∣d1 −ν dλ   (u ∈ I(ν)).
+                               k≥0           R×
+
+In particular, at the endpoint of the complementary series ν = ν0 = a1 + 1 we have ak (ν0 ) = 0 for
+all k ≠ 0, so
+(1.5)        ⟨u, u⟩ν0 = const × a0 (ν0 ) ∫        ∥P0 ○ σλ (u)∥2HS ∣λ∣d1 −ν0 dλ   (u ∈ I(ν)).
+                                             R×
+
+Remark 1.4. For g = su(p, q) a similar decomposition as in Theorem 1.2 is obtained in [8,
+Theorem 2.3] and is also given by a multiplicity free direct sum of unitary highest weight repre-
+sentations. The parametrization is slightly different, so we omit the statement. The eigenvalues
+of the intertwining operator in this case are found in [8, Theorem 3.1].
+   In the symplectic case g = sp(n, R), we have m = sp(V1 , ω) and the Fock space decomposes
+into two non-equivalent irreducible subrepresentations, the even and the odd part of the meta-
+plectic representations. The eigenvalues for the standard intertwining operator are given in [8,
+Theorem 3.8].
+   However, the results for su(p, q) and sp(n, R) will not be used in the present paper.
+
+                                     2. A SSOCIATED VARIETIES
+   We compute the associated variety of the representation πntm that occurs as proper subrepre-
+sentation at the endpoint of the complementary series. Recall that the associated variety V(π) of
+an irreducible unitary representation π of G with annihilator Ann(π) ⊆ U (gC ) is the subvariety
+of (gC )∗ corresponding to the graded ideal
+                           gr Ann(π) ⊆ gr U (gC ) ≃ S(gC ) ≃ C[(gC )∗ ].
+By [32, Corollay 4.7], V(π) is the closure of a single nilpotent coadjoint orbit. Further, by [2, Satz
+3.2 (b) and Korollar 5.4] its dimension equals the Gelfand–Kirillov dimension of U (gC )/ Ann(π)
+which in turn equals twice the Gelfand–Kirillov dimension of π by [31, Corollary 4.7].
+   The strategy is to compute the Gelfand–Kirillov dimension of πntm by studying the growth of
+the dimensions of K-types, and to compare it with the dimensions of nilpotent coadjoint orbits. It
+turns out that the associated variety always is the closure of a next-to-minimal nilpotent coadjoint
+orbit Ontm ⊆ (gC )∗ . The computation of the Gelfand–Kirillov dimension of πntm is done uniformly
+for all cases, but for the comparison with coadjoint orbits we carry out a case-by-case analysis.
+2.1. The Gelfand–Kirillov dimension. Assume that g /≃ sp(n, R), su(p, q), the case su(p, q) is
+treated separately in Section 2.6. By Theorem 1.1 the K-types of πntm are Wµ,µ,ℓ with µ ≥ ∣ℓ∣,
+µ ≡ ℓ mod 2. Note that dim Wµ,µ,ℓ is independent of ℓ since ℓ only parameterizes the action of
+the center of k which is by a scalar. By the Weyl Dimension Formula, the function µ ↦ dim Wµ,µ,ℓ
+is a polynomial. We first compute its degree.
+    HEISENBERG PARABOLICALLY INDUCED REPRESENTATIONS OF HERMITIAN LIE GROUPS, PART II                         9
+
+Lemma 2.1. The degree of the polynomial µ ↦ dim Wµ,µ,ℓ is a1 + 4b1 + 2.
+Proof. Recall the Weyl Dimension Formula
+                                                                  ⟨λ + ρ, α⟩
+                                    dim Wµ,µ,ℓ =       ∏
+                                                                    ⟨ρ, α⟩
+                                                                             ,
+                                                   α∈∆+ (kC ,tC )
+
+where t ⊆ k is a Cartan subalgebra and λ ∈ (tC )∗ denotes the highest weight of Wµ,µ,ℓ with respect
+a system ∆+ (kC , tC ) of positive roots. It follows that dim Wµ,µ,ℓ is a polynomial in µ whose
+degree is the number of positive roots which are not orthogonal to λ. Passing to the restricted
+root system
+                              {±2α1 , ±2α2 } ∪ {±α1 ± α2 }       [ ∪ {±α1 , ±α2 }]
+with multiplicities 1, a1 and 2b1 , we can express λ as µ(α1 + α2 ) + ℓα0 . The positive restricted
+roots not orthogonal to α1 +α2 are 2α1 and 2α2 , each with multiplicity 1, α1 +α2 with multiplicity
+a1 , and possibly α1 and α2 , each with multiplicity 2b1 . Adding up the multiplicities shows the
+claim.                                                                                           
+Proposition 2.2. The Gelfand–Kirillov dimension of πntm is a1 + 4b1 + 4.
+Proof. Let V0 = W0,0,0 and Vn = Un (gC )V0 , where {Un (gC )}n≥0 is the natural filtration of the
+universal enveloping algebra U (gC ) of gC . From [34, Theorem 3.1] it follows that
+                                          Vn =      ⊕         Wµ,µ,ℓ ,
+                                                   ∣ℓ∣≤µ≤n
+                                                 µ≡ℓ mod 2
+
+and hence
+                     µ                             µ
+                                                            µa1 +4b1 +2 = ∑ (µ + 1)µa1 +4b1 +2 ∼ na1 +4b1 +4 . 
+            n                              n                              n
+ dim Vn = ∑          ∑        dim Wµ,µ,ℓ ∼ ∑       ∑
+            µ=0      ℓ=−µ                 µ=0      ℓ=−µ                  µ=0
+                  ℓ≡µ mod 2                     ℓ≡µ mod 2
+
+  Now we know that the associated variety of πntm is the closure of a finite union of nilpotent
+coadjoint orbits of dimension 2 ⋅ GKDIM(πntm ) = 2(a1 + 4b1 + 4). In each of the cases, we show
+that there is a unique nilpotent orbit Ontm whose dimension is minimal among all next-to-minimal
+orbits and equal to 2(a1 + 4b1 + 4). It follows that Ontm is the unique nilpotent coadjoint orbit of
+dimension 2 ⋅ GKDIM(πntm ), so the associated variety of πntm equals Ontm .
+2.2. The case g = so(2, n). We have a1 = n − 4 and b1 = 0, so
+                                    GKDIM(πntm ) = a1 + 4b1 + 4 = n.
+By [4, Theorem 6.2.5], there are two next-to-minimal nilpotent coadjoint orbits in gC ≃ so(n +
+2, C), and they are associated with the partitions (24 , 1n−6 ) and (31 , 1n−1 ). Using [4, Corollary
+6.1.4], we find that the dimension of the orbit associated with (24 , 1n−6 ) is 2(2n − 6) while
+for (31 , 1n−1 ) it equals 2n. It follows that the associated variety of πntm is the next-to-minimal
+nilpotent coadjoint orbit associated with the partition (31 , 1n−1 ).
+Remark 2.3. In [35], a next-to-minimal representation of O(p, q) is constructed under the as-
+sumption that min(p, q) ≥ 4. The associated variety of this representation corresponds to the
+partition (24 , 1p+q−8 ). The assumption min(p, q) ≥ 4 is necessary for the existence of such a
+representation, because it is equivalent to the nilpotent orbit associated with (24 , 1p+q−8 ) having
+10                           JAN FRAHM, CLEMENS WEISKE, AND GENKAI ZHANG
+
+real points. This implies that for min(p, q) = 2 there is no irreducible unitary representation
+of G = O(p, q) with associated variety equal to the next-to-minimal orbit associated with the
+partition (24 , 1n−6 ). In this sense, our representation πntm provides a replacement of the next-to-
+minimal representation of [35] for the case min(p, q) = 2.
+2.3. The case g = so∗ (2n). Here a1 = 2 and b1 = n − 4, so
+                                   GKDIM(πntm ) = a1 + 4b1 + 4 = 4n − 10.
+Since gC = so(2n, C), the discussion in Section 2.2 shows that there are precisely two next-to-
+minimal nilpotent coadjoint orbits, and their dimensions are 2(4n−10) and 2(2n−2), respectively.
+The first one belongs to the partition (24 , 12n−8 ), and its closure is the associated variety of πntm .
+2.4. The case g = e6(−14) . In this case a1 = 4 and b1 = 2, so
+                                     GKDIM(πntm ) = a1 + 4b1 + 4 = 16.
+By [4, table on p. 129], there is a unique next-to-minimal nilpotent coadjoint orbit in gC ≃ e6 (C)
+and it has dimension 32 = 2 ⋅ 16 and Bala–Carter label 2A1 . This shows that the associated variety
+of πntm is equal to the closure of this orbit.
+2.5. The case g = e7(−25) . Here a1 = 6 and b1 = 4, so
+                                     GKDIM(πntm ) = a1 + 4b1 + 4 = 26.
+By [4, table on p. 130], there is a unique next-to-minimal nilpotent coadjoint orbit in gC ≃ e7 (C)
+and it has dimension 52 = 2 ⋅ 26 and Bala–Carter label 2A1 . This shows that the associated variety
+of πntm is equal to the closure of this orbit.
+2.6. The case g = su(p, q). This case differs slightly from the other cases in the sense that the
+dependence of Wµ1 ,µ2 ,ℓ on ℓ is not just by the central character. The root system ∆(kC , tC ) is of
+type Ap−1 × Aq−1 and we write
+                 ∆(kC , tC ) = {±(ei − ej ) ∶ 1 ≤ i < j ≤ p} ∪ {±(fi − fj ) ∶ 1 ≤ i < j ≤ q}.
+With respect to the positive system
+                     ∆+ (kC , tC ) = {ei − ej ∶ 1 ≤ i < j ≤ p} ∪ {fi − fj ∶ 1 ≤ i < j ≤ q}
+the highest weight of Wµ1 ,µ2 ,ℓ is
+                                 µ1 + ℓ      µ1 − ℓ          µ2 + ℓ      µ2 − ℓ
+                             (          e1 −        ep ) + (        f1 −        fq )
+                                   2           2               2           2
+and its dimension equals
+     (µ1 + p − 1)(µ2 + q − 1) µ12+ℓ + p − 2 µ12−ℓ + p − 2 µ22+ℓ + q − 2 µ22−ℓ + q − 2
+                             (             )(            )(            )(               )
+          (p − 1)(q − 1)          p−2           p−2           q−2             q−2
+                                                                  ∼ µ1 µ2 (µ21 − ℓ2 )p−2 (µ22 − ℓ2 )q−2 .
+The K-types of πntm are given by Wµ1 ,µ2 ,ℓ with µ1 − µ2 = q − p and ∣ℓ∣ ≤ µ1 , µ2 , µ1 ≡ µ2 ≡ ℓ
+mod 2. Summing the dimension of Wµ,µ,ℓ over ∣ℓ∣ ≤ µ1 , µ2 ≤ n with µ1 − µ2 = q − p in a similar
+way as in the previous cases shows that
+                                         GKDIM(πntm ) = 2p + 2q − 4.
+    HEISENBERG PARABOLICALLY INDUCED REPRESENTATIONS OF HERMITIAN LIE GROUPS, PART II               11
+
+   By [4, Theorem 6.2.5], the unique next-to-minimal nilpotent coadjoint orbit in gC ≃ sl(p+q, C)
+is associated to the partition (22 , 1p+q−4 ), and by [4, Corollary 6.1.4] it has dimension 4(p+q)−8 =
+2(2p + 2q − 4). This implies that the associated variety of πntm is equal to the closure of this orbit.
+
+                           3. R ESTRICTION FROM G TO SL(2, R) × M
+  Recall that the elements E ∈ n2 , F ∈ n̄2 and H ∈ a form an sl(2)-triple that commutes with m.
+Writing sl(2, R)A = span{E, F, H}, we obtain a subalgebra sl(2, R)A ⊕ m and a corresponding
+subgroup SL(2, R)A × M. The goal of this section is to understand the restriction of πntm to
+SL(2, R)A × M. We first make some general observations before specializing to the cases g =
+so(2, n) and g = e6(−14) .
+3.1. The Fourier transformed model of the next-to-minimal representation. To study the
+restriction of πntm to SL(2, R)A × M, we use the Heisenberg Fourier transform. Assume in what
+follows that g /≃ sp(n, R), su(p, q).
+Lemma 3.1. Viewing πntm as a quotient of I(ν0 ), the Heisenberg group Fourier transform F
+induces a unitary (up to a scalar) isomorphism
+             F ∶ πntm → L2 (R× , Fλ,0 (V1 )∗ ⊗ Fλ (V1 ), ∣λ∣2b1 +1 dλ),          F u(λ) = σλ (u).
+   Here, the space L2 (R× , Fλ,0 (V1 )∗ ⊗ Fλ (V1 ), ∣λ∣2b1 +1 dλ) has to be understood as follows. By
+working for instance with the Schrödinger model of the oscillator representation, one can find a
+Hilbert space H and for every λ ∈ R× a unitary isomorphism Fλ (V1 ) ≃ H such that Fλ,0 (V1 ) is
+mapped onto a subspace H0 . Then L2 (R× , Fλ,0 (V1 )∗ ⊗ Fλ (V1 ), ∣λ∣2b1 +1 dλ) corresponds to the
+space L2 (R× , H0∗ ⊗ H, ∣λ∣2b1 +1 dλ) of L2 -functions on R× with respect to the measure ∣λ∣2b1 +1 dλ
+with values in the Hilbert space H0∗ ⊗H. However, for us it is more convenient to work with func-
+tions whose value at λ ∈ R× is contained in Fλ,0 (V1 )∗ ⊗ Fλ (V1 ), so we suppress the isomorphism
+Fλ (V1 ) ≃ H in what follows.
+Proof of Lemma 3.1. Following [8, Section 4], the representation πntm is a quotient of the princi-
+pal series (πν0 , I(ν0 )) for ν0 = a1 + 1. Explicitly it is given as the quotient by the kernel of the
+intertwining operator Aν0 ∶ I(ν0 ) → I(−ν0 ). Following [8, Section 1.5], the Fourier transform
+                              F ∶ I(ν0 ) → ⊔ Hom(Fλ (V1 ), Fλ (V1 ))
+                                              λ∈R×
+is defined with distributional dependence on the parameter λ. The inner product on the quotient
+I(ν0 )/ Ker Aν0 = πntm is by (1.5) explicitly given for f1 , f2 ∈ πntm as
+                  ⟨f1 , f2 ⟩ν0 = const × ∫        tr (σλ (f1 ) ○ P0 ○ σλ (f2 )∗ ) ∣λ∣d1 −ν0 dλ,
+                                             R×
+where P0 ∶ Fλ (V1 ) → Fλ,0 (V1 ) is the orthogonal projection. Since d1 = a1 +2b1 +2 and ν0 = a1 +1,
+the claim follows.                                                                                
+   To employ the Heisenberg group Fourier transform for the decomposition of the restriction
+of πntm to SL(2, R)A × M, we need to understand how it behaves with respect to the action of
+SL(2, R)A and M. The action of a general element of SL(2, R)A turns out to be quite com-
+plicated, but the action of the parabolic subgroup B ∶= exp(RH) exp(RF ) ⊆ SL(2, R)A of
+SL(2, R)A is rather simple:
+Lemma 3.2 (see [7, Proposition 3.5.5]). Let u ∈ I(ν).
+12                        JAN FRAHM, CLEMENS WEISKE, AND GENKAI ZHANG
+
+     (1) (B-action) For t ∈ R we have
+                               σλ (πν (etH )u) = e(ν−ρ)t δet ○ σe−2t λ (u) ○ δe−t ,
+                                σλ (π(etF )u) = e−iλt σλ (u),
+         where δs ζ(z) = ζ(sz).
+     (2) (M-action) For m ∈ M we have
+                         σλ (πν (m)u) = ωmet,λ (m) ○ σλ (u) ○ ωmet,λ (m)−1 .
+   By the last formula in Lemma 3.2, the decomposition of πntm ∣M is related to the decomposition
+                                        ∗
+of the tensor product representation ωmet,λ,0   ⊗ ωmet,λ ∣M . For this, we specialize to g = so(2, n)
+or g = e6(−14) . Note that ωmet,λ,0 ≃ ωmet,−λ,0 since ωmet,λ and ωmet,−λ are contragredient to each
+                            ∗
+
+other.
+3.2. The case G = SO0 (2, n). Let G = SO0 (2, n), n > 4, then m = sl(2, R) ⊕ so(n − 2). To
+distinguish the copy of sl(2, R) in M from sl(2, R)A , we denote it by sl(2, R)M and similarly on
+the group level.
+   As abstract M-representation, the metaplectic representation ωmet,λ and its subrepresentations
+ωmet,λ,k do not depend on the parameter λ, but only on its sign. Hence we might suppress the
+parameter in the following whenever convenient and write
+                                        ≅ ωmet,λ                   ωmet,k ≅ ωmet,λ,k .
+                               sgn(λ)                                sgn(λ)
+                          ωmet                           and
+                                 ∣M is made explicit in [8, Proposition B.2]. Denote by ηk
+                             +                                                                             SO(m)
+   The decomposition of ωmet                                                                        the
+irreducible representation of SO(m) on the space Hk (Rm ) of homogeneous harmonic polyno-
+                                                    , µ ∈ iR, ε ∈ Z/2Z, be the unitary principal series
+                                            SL(2,R)
+mials on Rm of degree k. Moreover, let τµ,ε
+of SL(2, R), spherical for ε = 0 and non-spherical for ε = 1. We further write τk (k ∈ Z ∖ {0})
+for the (limit of) discrete series of SL(2, R) of parameter k, where the notation is such that τk is
+a holomorphic resp. antiholomorphic discrete series for k ≤ −2 resp. k ≥ 2. Then
+
+                               ∣M = ⊕ ωmet,λ,k = ⊕ τ−k−(n−2) ⊠ ηk
+                                           ∞               ∞
+                           +                                      SL(2,R)        SO(n−2)
+(3.1)                     ωmet                                                             .
+                                          k=0              k=0
+       +                         −                                                           −
+Since ωmet is contragredient to ωmet , this also implies the corresponding decomposition of ωmet .
+  Write par(k) ∈ Z/2Z for the parity of k ∈ Z.
+Lemma 3.3. The following tensor product decomposition for representations of M = SL(2, R)M ×
+SO(n − 2) holds:
+                                                                                          ⎛                   ⎞
+                      ∣M ≃ ⊕ ∫                                                          ⊠ ⎜ ⊕ ηk              ⎟.
+                                  ⊕
+               ⊗ ωmet                   τµ,par(k) ⊠ ηk           dµ ⊕ ⊕ τ∓l
+         ∓        ±                      SL(2,R)     SO(n−2)                  SL(2,R)                 SO(n−2)
+        ωmet,0
+                         k≥0     iR≥0                                 l≥2                 ⎝l≡k k≥l
+                                                                                                mod 2
+                                                                                                              ⎠
+Proof. This follows from the classical formulas for tensor products of holomorphic and anti-
+holomorphic discrete series of SL(2, R) (see e.g. [30]) and the decomposition (3.1).     
+  To also obtain information about the action of the other factor SL(2, R)A on the isotypic com-
+ponents, we make the following observation:
+Proposition 3.4. The two copies SL(2, R)A and SL(2, R)M of SL(2, R) in G are conjugate via
+an element of SO(2) × S(O(2) × O(n − 2)) ⊆ SO(2) × SO(n) ⊆ G.
+    HEISENBERG PARABOLICALLY INDUCED REPRESENTATIONS OF HERMITIAN LIE GROUPS, PART II            13
+
+Proof. Note that it suffices to show that the two copies of so(2) in sl(2, R) are conjugate. Choose
+for example explicitly H = E1,n+1 + E2,n+2 + En+1,1 + En+2,2 . Then k ∩ (sl(2, R)A ⊕ m) = so(2) ⊕
+so(2) ⊕ so(n − 2) is realized in diagonal blocks in g in the following way. One copy of so(2) is
+spanned by diag(X, X, 0n−2 ) and the other one by diag(X, −X, 0n−2 ), where
+
+                                              X=(    ).
+                                                  0 1
+                                                 −1 0
+Such two elements are conjugate via the matrix g = diag(12 , y, 1n−2 ) ∈ O(2, n), where
+
+                                               y=(      ),
+                                                     0 1
+                                                     1 0
+and conjugation with g is trivial on SO(n − 2). Since n > 2, the product of g with some element
+in O(n − 2) of determinant −1 does the job. (The explicit matrix realizations of all subgroups can
+also be found in [7, Appendix B.2].)                                                            
+   Recall the subgroup B ⊆ SL(2, R). By the classification of the irreducible unitary representa-
+tions of B (see e.g. [10]), there exist exactly two non-equivalent infinite dimensional irreducible
+unitary representations of B. They can be realized on L2 (R± , ∣λ∣Re α−1 dλ) for any α ∈ C by the
+action
+                                   (etH .ϕ)(λ) = e(α−2)t ϕ(e−2t λ),
+                                   (etF .ϕ)(λ) = e−iλt ϕ(λ),
+where ϕ ∈ L2 (R± , ∣λ∣Re α−1 dλ) and t ∈ R. We denote the equivalence classes by σB+ and σB− .
+
+                                                                                    (µ ∈ iR, ε ∈
+                                                                                     SL(2,R)
+Lemma 3.5. The restriction of a unitary principal series representation τµ,ε
+                                                         (k > 0) of SL(2, R) to B is given by
+                                                 SL(2,R)
+Z/2Z) or a lowest/highest weight representation τ±k
+                                       ∣B ≅ σB+ ⊕ σB− ,                ∣B ≅ σB∓ .
+                             SL(2,R)                         SL(2,R)
+                           τµ,ε                           τ±k
+Proof. The unitary principal series of SL(2, R) can be realized on L2 (R), where the action on a
+function f ∈ L2 (R) is given by (see for example [21, Chapter II])
+
+                      (       ) .f (x) = af (a2 x − ac)          (a ∈ R× , c ∈ R).
+                       a 0
+                        c a−1
+Applying the Euclidean Fourier transform on the real line proves the statement.
+Let Π = {z = x + iy ∈ C ∶ y > 0} ⊆ C be the upper half plane. The holomorphic discrete series
+         , k ≥ 2 can be realized on the weighted Bergman space Hk2 (Π) on Π, given by
+ SL(2,R)
+τ−k
+                                Hk2 (Π) = O(Π) ∩ L2 (Π, y k−2 dx dy).
+Explicitly SL(2, R) acts on on a function f ∈ Hk2 (Π) by
+                                                                     az − c
+                         (π−k         (g)f )(z) = (−bz + d)−k f (           ),
+                            SL(2,R)
+                                                                    −bz + d
+where
+                                         g=(     ) ∈ SL(2, R).
+                                            a b
+                                             c d
+14                              JAN FRAHM, CLEMENS WEISKE, AND GENKAI ZHANG
+
+For any k > 1 consider the Laplace-transform L on L2 (R+ , ∣λ∣k−1 dλ), given by
+                                                             ∞
+                                             Lg(z) = ∫           g(λ)eiλz dλ.
+                                                         0
+By [6, Theorem XIII.1.1] the Laplace-transform gives a surjective isometry onto Hk2 (Π) and it is
+easily checked that it intertwines the action of B given by σB+ . For the anti-holomorphic discrete
+series the statement follows by taking complex conjugates. For the limits of discrete series we
+                    ⊕ π1       is a unitary principal series which restricts to B as σB+ ⊕ σB− and the
+            SL(2,R)    SL(2,R)
+have that π−1
+statement follows by a small modification of the argument.                                          
+   We can finally combine all the gathered information to obtain the full decomposition of πntm
+restricted to SL(2, R)A × M = SL(2, R)A × SL(2, R)M × SO(n − 2):
+Theorem 3.6. The restriction of the next-to-minimal representation of SO0 (2, n) to SL(2, R)A ×
+SL(2, R)M × SO(n − 2) is given by
+                                      ∞ ⎛
+     πntm ∣SL(2,R)×SL(2,R)×SO(n−2) ≃ ⊕ ∫         τµ,par(µ) ⊠ τµ,par(µ) dµ
+                                                  SL(2,R)     SL(2,R)
+
+                                     k=0 ⎝ iR ≥0
+
+
+
+                                                                                                        SL(2,R) ⎞
+                                                                     ⊕      ⊕                    ⊠ τℓ               ⊠ ηk
+                                                                                      SL(2,R)                            SO(n−2)
+                                                                                                               ⎠
+                                                                                     τℓ                                            .
+                                                                           2≤∣ℓ∣≤k
+                                                                         ℓ≡k mod 2
+
+Proof. By Lemma 3.1 we have
+                                  πntm ≃ L2 (R× , F−λ,0 (V1 ) ⊗ Fλ (V1 ), ∣λ∣ dλ),
+so in view of Lemma 3.2 (2), the restriction of πntm to M can be written as
+       πntm ∣M ≃ (L2 (R+ , ∣λ∣ dλ) ⊠ (ωmet,0
+                                       −
+                                             ⊗ ωmet
+                                                +
+                                                    ∣M )) ⊕ (L2 (R− , ∣λ∣ dλ) ⊠ (ωmet,0
+                                                                                  +
+                                                                                        ⊗ ωmet
+                                                                                           −
+                                                                                               ∣M )) ,
+by dividing R× into the positive and negative axes. Here M is acting trivially on L2 (R± , ∣λ∣ dλ). It
+follows that the action of B preserves this decomposition and acts on each M-isotypic component
+     ∓
+of ωmet,0 ⊗ωmet
+             ±
+                ∣M by unitary automorphisms. The action on ϕ ∈ L2 (R× , ∣λ∣ dλ) is explicitly given
+in Lemma 3.2 (1) for ν = ν0 = n − 3 = ρ − 2:
+                       (etH ⋅ ϕ)(λ) = e−2t ϕ(e−2t λ),                (etF ⋅ ϕ)(λ) = e−iλt ϕ(λ),
+so that
+(3.2)              πntm ∣B×M ≃ (σB+ ⊠ (ωmet,0
+                                        −        +
+                                              ⊗ ωmet ∣M )) ⊕ (σB− ⊠ (ωmet,0
+                                                                      +        −
+                                                                            ⊗ ωmet ∣M )) .
+Since the subgroups B of the two copies of SL(2, R) in SL(2, R) × M are conjugate by Proposi-
+tion 3.4, we have by Lemma 3.5
+
+     πntm ∣B×B×SO(n−2) ≃ ⊕ ∫            ((σB+ ⊕ σB− ) ⊠ (σB+ ⊕ σB− ) ⊠ ηk                 ) dµ
+                                                                              SO(n−2)
+
+                          k≥0    iR≥0
+
+                                                                                                    ⎛                SO(n−2) ⎞
+                                                         ⊕ ⊕ σB                                            ⊕
+                                                                     − sgn(k)        − sgn(k)
+                                                                                                    ⎝                         ⎠
+                                                                                ⊠ σB            ⊠                   ηl             .
+                                                             ∣k∣≥2                                         l≥∣k∣
+                                                                                                        l≡k mod 2
+
+Since even the whole two copies of SL(2, R) are conjugate, and since we know the action of the
+left copy by (3.2) and Lemma 3.3, this implies the theorem by Lemma 3.5.                    
+       HEISENBERG PARABOLICALLY INDUCED REPRESENTATIONS OF HERMITIAN LIE GROUPS, PART II            15
+
+3.3. The case G = E6(−14) . We now study the same branching problem for G = E6(−14) . For this,
+we first fix some notation regarding the exceptional Lie algebra e6(−14) .
+3.3.1. The subalgebra su(5, 1) ⊆ e6(−14) . Recall again our convention from [8, 34] that the
+Heisenberg parabolic subalgebra is constructed using the lowest Harish-Chandra root γ1 . More
+precisely – in the present case – let γ1 < γ2 be Harish-Chandra strongly orthogonal roots for the
+symmetric pair (g, k) = (e6(−14) , so(2) + spin(10)) and e±1 the root vectors for ±γ1 with [e1 , e−1 ]
+being the corresponding co-root. Our H in Section 1 is then H = e1 + e−1 . The Levi subalgebra
+is m = su(5, 1) and its maximal compact subalgebra is l = u(5) = k ∩ m. To specify the relevant
+roots we use the Dynkin diagrams of of e6 and mC . The diagram is
+                                 α1          α3          α4          α5      α6
+                         E6 ∶    ●           ○           ○           ○       ○
+                                                                                  ,
+                                                         ○
+                                                        α2
+where the circled roots {α2 , . . . , α6 } are the compact roots and the black root γ1 = α1 is the
+non-compact lowest root. The compact and non-compact positive roots are (see e.g. [5])
+                         ∆+c = {εi ± εj ; 5 ≥ i > j ≥ 1},
+
+                         ∆+n = { (∑(−1)νi εi − ε6 − ε7 + ε8 ); ∑ νi is even},
+                                1 5                             5
+
+                                2 i=1                          i=1
+
+with
+ γ1 = α1 = (ε1 − ε2 − ε3 − ε4 − ε5 − ε6 − ε7 + ε8 ), α2 = ε1 + ε2 , αj = εj−1 − εj−2, (3 ≤ j ≤ 6).
+              1
+              2
+    The Harish-Chandra strongly ortogonal roots are γ1 < γ2 , where
+
+                             γ2 = (−ε1 + ε2 + ε3 + ε4 − ε5 − ε6 − ε7 + ε8 ).
+                                    1
+                                    2
+We shall need the opposite Harish-Chandra roots starting from the highest one. This is the pair
+γ̃2 > γ̃1 , with
+
+  γ̃2 = (ε1 + ε2 + ε3 + ε4 + ε5 − ε6 − ε7 + ε8 ),      γ̃1 = (−ε1 − ε2 − ε3 − ε4 + ε5 − ε6 − ε7 + ε8 ).
+        1                                                   1
+        2                                                   2
+These formulas can easily be checked since there are five non-compact positive roots orthogonal
+to the highest root γ̃2 , and γ̃1 is the highest one among them with our given ordering.
+    The positive roots of mC = sl(6, C) are
+            ∆+c (mC ) = {εj − εi ; 5 ≥ j > i ≥ 2} ∪ {εi + ε1 ; 5 ≥ i ≥ 1},
+
+            ∆+n (mC ) = { (∑(−1)νi εi − ε6 − ε7 + ε8 ) ∈ ∆+n ; (−1)ν1 − ∑(−1)νi + 3 = 0}.
+                         1 5                                             5
+
+                         2 i=1                                          i=2
+
+The roots β1 = α2 , β2 = α4 , β3 = α5 , β4 = α6 form a system of simple compact roots, and together
+with β5 = γ2 we get a system of simple roots for mC , all orthogonal to γ1 . The Dynkin diagram
+for mC is now
+                                  β1         β2          β3         β4       β5
+                          mC ∶    ○           ○          ○           ○       ● .
+16                         JAN FRAHM, CLEMENS WEISKE, AND GENKAI ZHANG
+
+Let λ2 and λ5 be the corresponding fundamental weights dual to β2 and β5 as representations of
+lC = gl(5, C). Then
+
+           λ2 = (2β1 + 4β2 + 3β3 + 2β4 + β5 ),            λ5 = (β1 + 2β2 + 3β3 + 4β4 + 5β5 ).
+               1                                              1
+               3                                              6
+Considered as a character of l and lC , λ5 is the fundamental central character of lC , which we
+write as Clλ5 .
+   The Harish-Chandra strongly orthogonal root for m = su(5, 1) is then β3 = α5 , and the highest
+non-compact root is γ̃2 ; here m is not of tube type so β5 = γ2 is the lowest non-compact root
+orthogonal to γ1 and there are three non-compact roots between β5 = γ2 and γ̃2 , they are
+                           β5 + β4 ,   β2 + (β4 + β3 ),    β2 + (β4 + β3 + β2 ).
+The Harish-Chandra decomposition for m = su(5, 1) is
+                                  mC = sl(6, C) = C̄5 + gl(5, C) + C5 .
+     The space V1 has lowest weight
+
+                           δ0 = (−ε1 + ε2 − ε3 − ε4 − ε5 − ε6 − ε7 + ε8 ),
+                                1
+                                2
+and the central character tr adV1 of gl(5, C) is easily found to be
+
+                             tr adV1 = 3λ5 = (5β5 + 4β4 + 3β3 + 2β2 + β1 ).
+                           1                1
+                           2                2
+3.3.2. Tensor products of highest and lowest weight representations of su(5, 1). The branching
+                                    +
+of the metaplectic representation ωmet   of Sp(V1 , ω) restricted to M = SU(5, 1) is explicitly ob-
+tained in [8], and it is a sum of the holomorphic representations ωmet,k+
+                                                                               = π−kδ0 −3λ5 of su(5, 1)
+with highest weight −kδ0 − 3λ5 , k ≥ 0. As in the previous section, we first find the decomposition
+                                       −
+of the tensor product representation ωmet,0  ⊗ ωmet
+                                                +
+                                                    ∣M ≃ π−3λ
+                                                           ∗
+                                                              5
+                                                                ⊗ π−kδ0 −3λ5 .
+Proposition 3.7.      (1) The highest weight representations (π−kδ0 −3λ5 , su(5, 1)) do not belong
+       to the discrete series. They are contained in the continuous range of the analytic contin-
+       uation of the discrete series, i.e., they are not reduction points.
+                             ∗
+   (2) The tensor product π−3λ  5
+                                  ⊗ π−kδ0 −3λ5 is unitarily equivalent to the induced representation
+
+                           L2 (SU(5, 1)/U(5), −kδ0 ) ∶= IndU(5) (−kδ0 ).
+                                                                SU(5,1)
+
+
+Proof.       (1) By computing the inner product with simple roots we find that the highest weight
+          −δ0 of the dual representation V1′ is −δ0 = −λ5 + λ2 . (Namely it is the representation
+          det−1 ⊠ ∧2 C5 of u(5) = u(1) + su(5), each factor acting on the corresponding factor in
+          the tensor product.) The discrete series condition can be easily checked; see e.g. [5].
+      (2) We realize π−kδ0 −3λ5 on holomorphic sections of the homogeneous vector bundle over
+          SU(5, 1)/ U(5) induced by the representation W−kδ0 of U(5) of highest weight −kδ0 .
+                                   ∗
+          Similarly, we realize π−3λ 5
+                                       on anti-holomorphic functions on SU(5, 1)/ U(5). Consider
+          the restriction operator
+          R ∶ π−kδ0 −3λ5 ⊗ π−3λ
+                            ∗
+                               5
+                                 → C ∞ (SU(5, 1)/ U(5); −kδ0 ), RF (z) = (1 − ∣z∣2 )3 F (z, z),
+    HEISENBERG PARABOLICALLY INDUCED REPRESENTATIONS OF HERMITIAN LIE GROUPS, PART II                 17
+
+        where C ∞ (SU(5, 1)/ U(5); −kδ0 ) is the space of smooth sections of the vector bundle
+        induced by the representation W−kδ0 . A direct computation shows that R is SU(5, 1)-
+        intertwining. Consider then the corresponding L2 -space L2 (SU(5, 1)/ U(5), −kδ0 ). Since
+        −kδ0 = k(−4λ5 +λ2 )+3kλ5 , this is the space of ⊙k (∧3 T0 (B5 )′ ⊗Cl3kλ5 -valued functions
+                                                                (1,0)
+
+        on the bounded symmetric domain B5 = SU(5, 1)/ U(5) with the square norm
+
+                    ∥f ∥2 = ∫ ⟨(1 − ∣z∣2 )−3k ⊗k (∧3 B(z, z)t )f (z), f (z)⟩ dι(z)
+                              B5
+(3.3)
+                          = ∫ ⟨⊗k (∧3 (I − z̄z t ))f (z), f (z)⟩ dι(z),
+                              B5
+
+
+        where B(z, z)t = (1−∣z∣2 )(I − z̄z t ) is the metric on Tz (B5 )′ dual to the tangent bundle
+                                                                    (1,0)
+
+        dual to the Bergman metric on the holomorphic tangent space Tz (B5 ) with T0 (B5 )
+                                                                          (1,0)            (1,0)
+
+        being viewed as a representation of U(5), and
+
+                                                      dm(z)
+                                           dι(z) =
+                                                     (1 − ∣z∣2 )6
+
+        is the invariant measure on B5 with dm(z) the Lebesgue measure; see e.g. [20]. Now
+        the space π−kδ0 −3λ5 contains all W−kδ0 -valued holomorphic polynomials f1 , and π−3λ5 all
+        scalar holomorphic polynomials f2 , since π−kδ0 −3λ5 are not reduction points in the analytic
+        continuation of the holomorphic discrete series. We prove that F = R(f1 ⊗ f2 ) is in the
+        space L2 (G/K, −kδ0 ). Indeed we have
+
+        ⟨F, F ⟩ = ∫ ⟨⊗k (∧3 (I − zz ∗ ))(1 − ∣z∣2 )3 f1 (z)f2 (z), (1 − ∣z∣2 )3 f1 (z)f2 (z)⟩ dι(z)
+                   B5
+
+               = ∫ ⟨⊗k (∧3 (I − zz ∗ ))f1 (z)f2 (z), f1 (z)f2 (z)⟩ dm(z).
+                   B5
+
+
+        Now the polynomials f1 , f2 are bounded on B5 as well as the matrix ⊗k (∧3 (I − zz ∗ )),
+        and B5 is of finite Lebesgue measure. Thus ⟨F, F ⟩ < ∞ and F ∈ L2 (B5 , −kδ0 ). The
+        rest of the argument is done by abstract argument by using the polar decomposition of
+        the (unbounded) densely defined closed operator R with dense image; see e.g. [33] for
+        details about this technique.                                                         
+
+   Next, we determine the decomposition of L2 (SU(5, 1)/ U(5), −kδ0 ) into irreducible represen-
+tations of SU(5, 1). The representations that occur are unitary principal series of SU(5, 1), so we
+fix a (minimal) parabolic subgroup PM = MM AM NM of M = SU(5, 1). Then MM is a double
+cover of U(4) whose irreducible representations are parameterized by tuples (ν1 , ν2 , ν3 , ν4 ) with
+νj ∈ 21 Z and νi − νj for all 1 ≤ i < j ≤ 4. Moreover, the irreducible unitary characters of AM are
+parameterized by µ ∈ iR. We denote the corresponding parabolically induced representation of
+               SU(5,1)
+SU(5, 1) by τ(ν1 ,ν2 ,ν3 ,ν4 ),µ .
+18                            JAN FRAHM, CLEMENS WEISKE, AND GENKAI ZHANG
+
+Proposition 3.8. For every k ≥ 0 the representation L2 (SU(5, 1)/ U(5), −kδ0 ) of SU(5, 1) and
+its dual L2 (SU(5, 1)/ U(5), −kδ0 )∗ decompose into irreducible representations as follows:
+
+                         L2 (SU(5, 1)/ U(5), −kδ0 ) ≃ ⊕ ∫
+                                                                 k
+                                                                              SU(5,1)
+                                                                             τ k k         k    k     dµ,
+                                                                m=0      iR≥0 ( 2 , 2 −m,− 2 ,− 2 ),µ
+
+
+                        L2 (SU(5, 1)/ U(5), −kδ0 )∗ ≃ ⊕ ∫
+                                                                 k
+                                                                                    SU(5,1)
+                                                                                   τ( k , k , k −m,− k ),µ dµ.
+                                                                m=0      iR≥0         2 2 2        2
+
+
+Proof. We first show that the highest weight −kδ0 is not the lowest K-type of any discrete series.
+In the standard notation for sl(6, C), the gl(5, C)-highest weight −kδ0 is
+
+                             − kδ0 = k(−λ5 + λ2 ) = (1, 1, −1, −1, −1, 1).
+                                                    k
+(3.4)
+                                                     2
+With the existing ordering of the roots of sl(6, C) we have that a discrete series of SU(5, 1) is
+determined by a non-singular highest weight µ ∶= (µ1 , µ2 , µ3 , µ4 , µ5 , µ6 ) with µ1 > ⋯ > µ5 > µ6
+with lowest K-type
+
+          µ + ρsl(6,C) − 2ρgl(5,C) = (2µ1 − 3, 2µ2 − 1, 2µ3 + 1, 2µ4 + 1, 2µ5 + 3, 2µ6 − 5).
+                                    1
+                                    2
+Here µ1 > ⋯ > µ5 > µ6 are all half-integers and ∑j µj = 0. That L2 (SU(5, 1)/ U(5), −kδ0 ) has a
+discrete series representation is equivalent to that a permutation s(−kδ0 ) of the weight −kδ0 by a
+Weyl group element s ∈ S6 produces the above lowest K-type:
+
+                 s(−kλ0 ) = (2µ1 − 3, 2µ2 − 1, 2µ3 + 1, 2µ4 + 1, 2µ5 + 3, 2µ6 − 5).
+                              1
+                              2
+The only possible choice is then
+          2µ1 − 3 = k, 2µ2 − 1 = k, 2µ3 + 1 = k, 2µ4 + 1 = −k, 2µ5 + 3 = −k, 2µ6 − 5 = −k,
+i.e.,
+
+ µ1 = (k + 3), µ2 = (k + 1), µ3 = (k − 1), µ4 = (−k − 3), µ5 = (−k − 5), µ6 = (−k + 5).
+        1                    1               1        1                1               1
+        2                    2               2        2                2               2
+But then µ is not dominant, thus L (SU(5, 1)/ U(5), −kδ0 ) has no discrete spectrum.
+                                          2
+
+   By the Plancherel formula for SU(5, 1), this implies that L2 (SU(5, 1)/ U(5), −kδ0 ) is equiv-
+alent to the multiplicity-free direct integral of unitary principal series induced from those rep-
+resentations of MM that appear in the restriction of the representation W−kδ0 of U(5). In view
+of (3.4) and the standard branching rules for the pair (U(5), U(4), this implies the claim for
+L2 (SU(5, 1)/ U(5), −kδ0 ). Passing to the dual representation and using that (τ(ν1 ,ν2 ,ν3 ,ν4 ),µ )∗ ≃
+                                                                                   SU(5,1)
+
+τ(−ν4 ,−ν3 ,−ν2 ,−ν1 ),−µ finishes the proof.                                                         
+  This finally allows us to prove the following result about the restriction of the next-to-minimal
+representation πntm of G = E6(−14) to SL(2, R) × SU(5, 1):
+Theorem 3.9. The restriction of the next-to-minimal representation πntm of E6(−14) to SL(2, R) ×
+SU(5, 1) contains for every k > 0 and every 0 < m ≤ k a representation of the form
+
+             ∫                     ⊠ τ( k , k −m,− k ,− k ),µ dµ ⊕ ∫                       ⊠ τ( k , k ,m− k ,− k ),µ dµ
+                         SL(2,R)                                               SL(2,R)
+                        τ−l                                                   τl
+                 iR≥0                   2 2       2   2                iR≥0                      2 2      2      2
+
+
+for some l ≥ 1 as a direct summand.
+     HEISENBERG PARABOLICALLY INDUCED REPRESENTATIONS OF HERMITIAN LIE GROUPS, PART II                                       19
+
+Proof. Recall the subgroup B ⊆ SL(2, R)A and its equivalence classes of infinite dimensional
+unitary irreducible representations σB± . Following the same line of argumentation as in Sec-
+tion 3.2, we have that
+                   πntm ∣B×M ≃ (σB+ ⊠ (ωmet,0
+                                        −
+                                              ⊗ ωmet
+                                                 +
+                                                     ∣M )) ⊕ (σB− ⊠ (ωmet,0
+                                                                      +
+                                                                            ⊗ ωmet
+                                                                               −
+                                                                                   ∣M ))
+which is isomorphic to
+            ⊕ (σB+ ⊠ L2 (SU(5, 1)/U(5), −kδ0 )) ⊕ (σB− ⊠ L2 (SU(5, 1)/U(5), −kδ0 )∗ )
+             k≥0
+
+by Proposition 3.7. Decomposing L2 (SU(5, 1)/ U(5), −kδ0 ) and its dual using Proposition 3.8
+shows that this is in turn isomorphic to
+
+              ⊕ ⊕ (∫
+                    k
+                                     σB+ ⊠ τ( k , k −m,− k ,− k ),µ dµ ⊕ ∫             σB− ⊠ τ( k , k ,m− k ,− k ),µ dµ) .
+                                                   SU(5,1)                                      SU(5,1)
+
+              k≥0 m=0       iR≥0                   2 2       2    2             iR≥0             2 2      2    2
+
+
+Now, each representation τ( k , k −m,− k ,− k ),µ resp. τ( k , k ,m− k ,− k ),µ of SU(5, 1) with k > 0 and 0 ≤
+                              2 2      2    2              2 2       2    2
+m ≤ k occurs precisely once in this decomposition. Since SL(2, R)A commutes with SU(5, 1), it
+acts on the corresponding isotypic component σB+ ⊠ τ( k , k −m,− k ,− k ),µ resp. σB− ⊠ τ( k , k ,m− k ,− k ),µ .
+                                                                  2 2        2  2                 2 2   2 2
+The only unitary representations of SL(2, R) restricting to σB± are τ∓l (l > 0) by Lemma 3.5. In
+the unitary dual of SL(2, R), these representations are separated, so l has to be constant in every
+single direct integral. This shows the claim.                                                                 
+Remark 3.10. The previous statement intentionally excludes the case m = 0, because in this case
+the representations τ( k , k −m,− k ,− k ),µ and τ( k , k ,m− k ,− k ),µ are equal, so
+                           2 2             2   2                 2 2    2   2
+
+
+             (σB+ ⊠ τ( k , k ,− k ,− k ),µ ) ⊕ (σB− ⊠ τ( k , k ,− k ,− k ),µ ) ≃ (σB+ ⊕ σB− ) ⊠ τ( k , k ,− k ,− k ),µ
+                         2 2     2     2                          2 2   2   2                                 2 2   2   2
+
+and it is not clear which representation of SL(2, R)A that restricts to σB+ ⊕ σB− acts on the first
+factor.
+Remark 3.11. At this stage, it is not clear how to determine the parameter l for every k > 0 and
+0 < m ≤ k. One idea would be to use a subgroup SL(2, R)M of M = SU(5, 1) isomorphic to
+SU(1, 1) ≃ SL(2, R) and conjugate to SL(2, R)A inside G. The restriction of τ( k , k −m,− k ,− k ),µ to
+                                                                                          2 2     2   2
+this subgroup SL(2, R)M might contain some discrete series representations of SL(2, R) which
+might be linked to the parameter l by conjugating the subgroup to SL(2, R)A . However, since
+the restriction of τ( k , k −m,− k ,− k ),µ to SL(2, R)M will contain several different discrete series rep-
+                      2 2        2    2
+resentations, it is not clear to us how to use this information.
+
+                                                             R EFERENCES
+ [1] Salem Ben Saı̈d, Toshiyuki Kobayashi, and Bent Ørsted, Laguerre semigroup and Dunkl operators, Compos.
+     Math. 148 (2012), no. 4, 1265–1336. pages 1
+ [2] Walter Borho and Hanspeter Kraft, Über die Gelfand-Kirillov-Dimension, Math. Ann. 220 (1976), no. 1, 1–24.
+     pages 8
+ [3] Guillaume Bossard and Boris Pioline, Exact ∇4 R4 couplings and helicity supertraces, J. High Energy Phys.
+     (2017), no. 1, 050, front matter+40. pages 2
+ [4] David H. Collingwood and William M. McGovern, Nilpotent orbits in semisimple Lie algebras, Van Nostrand
+     Reinhold Mathematics Series, Van Nostrand Reinhold Co., New York, 1993. pages 9, 10, 11
+20                           JAN FRAHM, CLEMENS WEISKE, AND GENKAI ZHANG
+
+ [5] Thomas Enright, Roger Howe, and Nolan Wallach, A classification of unitary highest weight modules, Repre-
+     sentation theory of reductive groups (Park City, Utah, 1982), Progr. Math., vol. 40, Birkhäuser Boston, Boston,
+     MA, 1983, pp. 97–143. pages 15, 16
+ [6] Jacques Faraut and Adam Korányi, Analysis on symmetric cones, Oxford Mathematical Monographs, The
+     Clarendon Press, Oxford University Press, New York, 1994, Oxford Science Publications. pages 2, 14
+ [7] Jan Frahm, Conformally invariant differential operators on Heisenberg groups and minimal representations,
+     (2020), to appear in Mém. Soc. Math. Fr., available at arXiv:2012.05952. pages 7, 11, 13
+ [8] Jan Frahm, Clemens Weiske, and Genkai Zhang, Heisenberg parabolically induced representations of Hermit-
+     ian Lie groups Part I: Intertwining operators and Weyl transform, (2022), to appear in Adv. Math, available at
+     arXiv:2209.04273. pages 2, 4, 6, 7, 8, 11, 12, 15, 16
+ [9] Igor Frenkel and Matvei Libine, Quaternionic analysis and the Schrödinger model for the minimal representa-
+     tion of O(3, 3), Int. Math. Res. Not. IMRN (2012), no. 21, 4904–4923. pages 1
+[10] Israel. M. Gelfand and Mark A. Naimark, Unitary representations of the group of linear transformations of the
+     straight line, C. R. (Doklady) Acad. Sci URSS (N.S.) 55 (1943), 567–570. pages 13
+[11] Dmitry Gourevitch, Henrik P. A. Gustafsson, Axel Kleinschmidt, Daniel Persson, and Siddhartha Sahi, Euleri-
+     anity of Fourier coefficients of automorphic forms, Represent. Theory 25 (2021), 481–507. pages 2
+[12]          , Fourier coefficients of minimal and next-to-minimal automorphic representations of simply-laced
+     groups, Canad. J. Math. 74 (2022), no. 1, 122–169. pages 2
+[13] Michael B. Green, Stephen D. Miller, and Pierre Vanhove, Small representations, string instantons, and Fourier
+     modes of Eisenstein series, J. Number Theory 146 (2015), 187–309. pages 1, 2
+[14] Joachim Hilgert, Toshiyuki Kobayashi, Jan Möllers, and Bent Ørsted, Fock model and Segal-Bargmann trans-
+     form for minimal representations of Hermitian Lie groups, J. Funct. Anal. 263 (2012), no. 11, 3492–3563.
+     pages 1
+[15] Roger Howe, On a notion of rank for unitary representations of the classical groups, Harmonic analysis and
+     group representations, Liguori, Naples, 1982, pp. 223–331. pages 2
+[16]          , Transcending classical invariant theory, J. Amer. Math. Soc. 2 (1989), no. 3, 535–552. pages 1
+[17]          , Some recent applications of induced representations, Group representations, ergodic theory, and math-
+     ematical physics: a tribute to George W. Mackey, Contemp. Math., vol. 449, Amer. Math. Soc., Providence,
+     RI, 2008, pp. 173–191. pages 2
+[18] Jing-Song Huang, Pavle Pandžić, and Gordan Savin, New dual pair correspondences, Duke Math. J. 82 (1996),
+     no. 2, 447–471. pages 1
+[19] Markus Hunziker, Mark R. Sepanski, and Ronald J. Stanke, The minimal representation of the conformal group
+     and classical solutions to the wave equation, J. Lie Theory 22 (2012), no. 2, 301–360. pages 1
+[20] Stephen Hwang, Yang Liu, and Genkai Zhang, Hilbert spaces of tensor-valued holomorphic functions on the
+     unit ball of C-n, Pacific Journal of Mathematics - PAC J MATH 214 (2004), 303–322. pages 17
+[21] Anthony W. Knapp, Representation theory of semisimple groups, Princeton Mathematical Series, vol. 36,
+     Princeton University Press, Princeton, NJ, 1986, An overview based on examples. pages 13
+[22] Toshiyuki Kobayashi, Multiplicity in restricting minimal representations, (2022), preprint, available at
+     arXiv:2204.05079. pages 1
+[23] Toshiyuki Kobayashi and Gen Mano, The Schrödinger model for the minimal representation of the indefinite
+     orthogonal group O(p, q), Mem. Amer. Math. Soc. 213 (2011), no. 1000. pages 1
+[24] Toshiyuki Kobayashi and Bent Ørsted, Analysis on the minimal representation of O(p, q). I. Realization via
+     conformal geometry, Adv. Math. 180 (2003), no. 2, 486–512. pages 1
+[25]          , Analysis on the minimal representation of O(p, q). II. Branching laws, Adv. Math. 180 (2003), no. 2,
+     513–550. pages 1
+[26]          , Analysis on the minimal representation of O(p, q). III. Ultrahyperbolic equations on Rp−1,q−1 , Adv.
+     Math. 180 (2003), no. 2, 551–595. pages 1
+[27] Jian-Shu Li, The correspondences of infinitesimal characters for reductive dual pairs in simple Lie groups,
+     Duke Math. J. 97 (1999), no. 2, 347–377. pages 1
+[28] Jan Möllers and Yoshiki Oshima, Discrete branching laws for minimal holomorphic representations, J. Lie
+     Theory 25 (2015), no. 4, 949–983. pages 1
+     HEISENBERG PARABOLICALLY INDUCED REPRESENTATIONS OF HERMITIAN LIE GROUPS, PART II                       21
+
+[29] Aaron Pollack, Modular forms on indefinite orthogonal groups of rank three, J. Number Theory 238 (2022),
+     611–675, With appendix ”Next to minimal representation” by Gordan Savin. pages 2
+[30] Joe Repka, Tensor products of unitary representations of SL2 (R), American Journal of Mathematics 100
+     (1978), no. 4, 747–774. pages 12
+[31] David A. Vogan, Jr., Gelfand-Kirillov dimension for Harish-Chandra modules, Invent. Math. 48 (1978), no. 1,
+     75–98. pages 8
+[32]         , Associated varieties and unipotent representations, Harmonic analysis on reductive groups
+     (Brunswick, ME, 1989), Progr. Math., vol. 101, Birkhäuser Boston, Boston, MA, 1991, pp. 315–388. pages 8
+[33] Genkai Zhang, Berezin transform on real bounded symmetric domains, Trans. Amer. Math. Soc. 353 (2001),
+     3769–3787. pages 17
+[34]         , Principal series of Hermitian Lie groups induced from Heisenberg parabolic subgroups, J. Funct.
+     Anal. 282 (2022), no. 8, Paper No. 109399, 39. pages 4, 9, 15
+[35] Chen-Bo Zhu and Jing-Song Huang, On certain small representations of indefinite orthogonal groups, Repre-
+     sent. Theory 1 (1997), 190–206. pages 2, 3, 9, 10
+
+  D EPARTMENT OF M ATHEMATICS , A ARHUS U NIVERSITY, N Y M UNKEGADE 118, 8000 A ARHUS C, D EN -
+MARK
+  Email address: frahm@math.au.dk
+
+   M ATHEMATICAL S CIENCES , C HALMERS U NIVERSITY OF T ECHNOLOGY AND M ATHEMATICAL S CIENCES ,
+G ÖTEBORG U NIVERSITY, SE-412 96 G ÖTEBORG , S WEDEN
+   Email address: weiske@chalmers.se
+
+   M ATHEMATICAL S CIENCES , C HALMERS U NIVERSITY OF T ECHNOLOGY AND M ATHEMATICAL S CIENCES ,
+G ÖTEBORG U NIVERSITY, SE-412 96 G ÖTEBORG , S WEDEN
+   Email address: genkai@chalmers.se
+

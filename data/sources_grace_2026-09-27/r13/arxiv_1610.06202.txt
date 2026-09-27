@@ -1,0 +1,2049 @@
+                                            PLANCHEREL DECOMPOSITION OF HOWE DUALITY AND
+                                           EULER FACTORIZATION OF AUTOMORPHIC FUNCTIONALS
+
+
+
+
+arXiv:1610.06202v1 [math.RT] 19 Oct 2016
+                                                                       YIANNIS SAKELLARIDIS
+
+
+                                               A BSTRACT. There are several global functionals on irreducible automor-
+                                               phic representations which are Eulerian, that is: pure tensors of local func-
+                                               tionals, when the representation is written as an Euler product π = ⊗′v πv
+                                               of local representations. The precise factorization of such functionals is
+                                               of interest to number theorists and is – naturally – very often related to
+                                               special values of L-functions.
+                                                   The purpose of this paper is to develop in full generality the Plancherel
+                                               formula for the Weil or oscillator representation, considered as a unitary
+                                               representation of a reductive dual pair, and to use it in order to demon-
+                                               strate a very general principle of Euler factorization: local factors are
+                                               determined via the Langlands correspondence by a local Plancherel for-
+                                               mula. This pattern has already been observed and conjectured in the
+                                               author’s prior work with Venkatesh in the case of period integrals. Here,
+                                               it is shown that the Rallis inner product formula amounts to the same
+                                               principle in the setting of global Howe duality.
+
+
+
+                                                                                                                  To Roger Howe,
+                                                                                                                   in admiration.
+
+
+
+                                                                              C ONTENTS
+                                           1. Introduction                                                                      2
+                                           1.1. Acknowledgements                                                                7
+                                           2. Adams’ conjecture and the L-group of Howe duality                                 7
+                                           2.1. Groups (overview)                                                               7
+                                           2.2. Metaplectic group and the oscillator representation                             8
+                                           2.3. L-groups                                                                       10
+                                           2.4. The L-group and Arthur-SL2 of Howe duality                                     13
+                                           2.5. A Plancherel-theoretic version of Adams’ conjecture                            16
+                                           3. Plancherel decomposition of the oscillator representation                        18
+                                           3.1. Growth of matrix coefficients of ω                                             19
+                                           3.2. Comparison of Schrödinger models                                              23
+                                           3.3. Plancherel decomposition of the oscillator representation                      26
+                                           4. Euler factorization                                                              29
+                                           4.1. Global conjecture and theorem                                                  29
+                                           4.2. Reinterpretation of the Rallis inner product formula                           34
+                                           References                                                                          36
+                                                                                    1
+2                            YIANNIS SAKELLARIDIS
+
+                             1. I NTRODUCTION
+   The purpose of this paper is to develop the Plancherel formula for the
+Weil or oscillator representation, considered as a unitary representation of
+a reductive dual pair, and to show how known results on global Howe
+duality, more precisely Rallis’ inner product formula (and its most recent
+extensions, in particular by Gan, Qiu and Takeda [GQT14]) can be reformu-
+lated as an identity between global and local functionals that generalizes a
+pattern already observed in the case of period integrals of automorphic
+forms.
+   Here is the general setup, which covers both period integrals and Howe
+duality (a.k.a. theta correspondence, [How89]): One is given a reductive
+group G over a global field k, and a unitary representation ω of the adelic
+points G(Ak ), which is a restricted tensor product of local unitary represen-
+tations ω v . One is also given a suitable irreducible automorphic represen-
+tation of G with a factorization:
+                                       O′
+                                   π=      πv                             (1.1)
+                                       v
+
+as a tensor product of irreducible representations of the local groups Gv ,
+and an invariant pairing:
+                               P : π ⊗ ω0 → C                             (1.2)
+of “global” nature (i.e. given by some integral of automorphic functions
+over [G] := G(k)\G(Ak )), where ω 0 is a dense (Eulerian) subspace of smooth
+vectors in ω. For what follows we will ignore the difference between ω and
+ω 0 in our notation, and formulate statements that hold for suitable dense
+subspaces of vectors. We denote by π, ω etc. both the spaces of the repre-
+sentations and the corresponding actions of the group.
+   Examples of this setup include:
+    (1) Period integrals over subgroups of G, which can equivalently be
+        described as pairings:
+                             π ⊗ S(X(Ak )) → C,
+       where X = H\G is a homogeneous G-variety, and S denotes the
+       space of Schwartz functions. Here ω = L2 (X(Ak )), and the pairing
+       is given by:
+                                           Z
+              P : π ⊗ S(X(Ak )) ∋ ϕ ⊗ Φ 7→   ϕ(g)ΣΦ(g)dg,            (1.3)
+                                               [G]
+                                                   P
+        where ΣΦ denotes the automorphic function γ∈X(k) Φ(γg), assum-
+        ing that this integral converges.
+    (2) The Weil representation ω, when G = G1 × G2 denotes a dual pair,
+        whereby for Φ ∈ ω ∞ and ϕ1 ⊗ ϕ2 in an automorphic representation
+        π = π1 ⊗ π2 , the pairing is given by the theta series of the pair
+                   HOWE DUALITY AND EULER FACTORIZATION                          3
+
+       (Φ, ϕ1 ) integrated against ϕ2 , or vice versa. It can be written in the
+       symmetric form:
+                                 P : π ⊗ ω ∞ ∋ ϕ1 ⊗ ϕ2 ⊗ Φ 7→
+              Z
+                           ϕ1 (g1 )ϕ2 (g2 )Σ(ω(g1 , g2 )Φ)d(g1 , g2 ),       (1.4)
+               [G1 ×G2 ]
+
+       where Σ denotes the standard automorphic functional on ω ∞ , pro-
+       vided these integrals converge.
+  In general, not all integrals above are convergent, and one needs to suit-
+ably regularize them.
+  Suppose that, for some reason, one knows that the pairing P is Eulerian,
+that is: a pure tensor in the space
+                                             ′
+                                             O
+              HomG(Ak ) (π ⊗ ω, C) ≃                 HomGv (πv ⊗ ω v , C).   (1.5)
+                                                 v
+
+(This restricted tensor product also needs some qualifications, in general,
+depending on the subspace of vectors that one is considering.) This is au-
+tomatically true in the multiplicity-one case, i.e. when the spaces
+                                 HomGv (πv ⊗ ω v , C)
+are (at most) one-dimensional, which is the case for Howe duality and for
+many spherical varieties. The question is, then, to describe an explicit fac-
+torization of P into local functionals.
+   Such local factors will depend on how one fixes the isomorphism (1.1),
+hence there is a better hope of getting a meaningful answer if we double
+all variables, and consider the corresponding pairing P × P on the pair
+π ⊗ π ∨ , where π ∨ is the dual representation of π, realized in a natural way
+on the space of automorphic representations. (Typically, π will belong to
+L2 ([G]) up to a character twist, and π ∨ will be its complex conjugate up to
+the inverse twist.) The tensor product π ⊗ π ∨ has a canonical factorization:
+                                           ′
+                                           O
+                               π ⊗ π∨ =          (πv ⊗ πv∨ ),                (1.6)
+                                             v
+
+dictated by the preservation of the dual pairing, and so does the product of
+ω with its dual (which, by unitarity, is just its complex conjugate). There-
+fore, we have a functional:
+                     P × P : (π ⊗ π ∨ ) ⊗ (ω ⊗ ω ∨ ) → C,                    (1.7)
+which is invariant under G(Ak ) × G(Ak ) acting diagonally on the 1st and
+3rd, resp. 2nd and 4th factors, and one is asking for an Euler factorization
+into local functionals with the analogous invariance property:
+                            (πv ⊗ πv∨ ) ⊗ (ω v ⊗ ω ∨
+                                                   v ) → C.                  (1.8)
+4                            YIANNIS SAKELLARIDIS
+
+  Equivalently, since the (admissible) dual of πv ⊗ πv∨ is πv∨ ⊗ πv , we can
+view the global and local functionals as morphisms:
+                              ω ⊗ ω ∨ → π ∨ ⊗ π,
+and because π is assumed to be irreducible, these are determined uniquely
+by their composition with the canonical pairing
+                         J : ω ⊗ ω ∨ → π ∨ ⊗ π → C,                         (1.9)
+which we will call a relative character. (It is a generalization of the notion of
+character, when ω 0 = S(H(Ak )), the Schwartz space of a group H under
+the G = H × H-action.)
+  If we denote by J Aut (for “automorphic”) the relative character that we
+get from the global pairing P, we are seeking an Euler factorization:
+                                            Y
+                                  J Aut =       Jv .                       (1.10)
+                                            v
+   Such an Euler factorization was conjectured in [SV] for the case of Euler-
+ian period integrals, generalizing a conjecture of Ichino and Ikeda [II10]
+for the Gross-Prasad periods. The main idea is that the local relative char-
+acters Jv of (1.10) will be provided by the Plancherel decomposition of the
+unitary representations ω v , assuming that this satisfies a relative local Lang-
+lands conjecture. Namely, it is conjectured (and proven in several cases) that
+the Plancherel decomposition for ω v reads:
+                                 Z
+                          ωv =        temp
+                                           Hσ µω,v (σ),
+                                   Gd
+                                    ω,v
+
+where:
+    • the group Gω is a reductive group determined by the representation
+       ω;
+    • µω,v is the standard Plancherel measure on the unitary dual of Gω,v =
+       Gω (kv ) (supported on the set of tempered representations);
+    • The (possibly zero) Hilbert space Hσ is ι(σ)-isotypic, where
+                                       temp
+                              ι : Gd
+                                   ω,v
+                                             bv
+                                            →G
+       is a map from the tempered dual of Gω,v to the unitary dual of Gv
+       determined by a distinguished map of L-groups:
+                              L
+                                  Gω × SL2 → L G.                          (1.11)
+       To be precise, the map of L-groups, including the “Arthur” SL2 -
+       factor determines, by the Langlands and Arthur conjectures, a map
+       φ 7→ Πι(φ) from the set of tempered Langlands parameters into
+       L G to the set of (unitary) Arthur packets of G . Thus, in real-
+           ω                                              v
+       ity the above integral should be an integral over L-parameters into
+       L G (the actual group G plays no role), the measure µ
+           ω                     ω                              ω,v is the
+       Plancherel measure on the set of those parameters (by conjectures
+                   HOWE DUALITY AND EULER FACTORIZATION                      5
+
+       of Hiraga-Ichino-Ikeda [HII08] it is well-defined, up to a small in-
+       teger factor in the case of exceptional groups) and the space Hσ is
+       isotypic for the set of representations in the Arthur packet Πι(φ) .
+       However, for the purposes of the introduction we can ignore these
+       fine differences.
+   Assuming this conjecture, for µω,v -almost every σ we get a local rela-
+tive character JσPlanch associated to the representation ι(σ), such that the
+Plancherel decomposition holds:
+                             Z
+              hΦ1 , Φ2 iωv =          J Planch (Φ1 ⊗ Φ̄2 )µω,v (σ).
+                                  temp σ
+                                                                      (1.12)
+                             Gd
+                              ω,v
+
+
+In other words, JσPlanch is pulled back from the inner product in the Hilbert
+space Hσ .In practice, this relative character is continuous on the tempered
+dual of Gω,v , and hence the Jσ ’s are defined for every tempered σ.
+   Now assume that we are interested in the Euler factorization of the global
+relative character J Aut for an automorphic representation π which is a func-
+torial lift ι(σ) of a tempered automorphic representation σ of Gω via the
+above map of L-groups. (That is, π belongs to the space of automorphic
+forms associated to the “global Arthur parameter” obtained by the “global
+Langlands parameter” of σ, if one can make sense of such global param-
+eters, by composition with the above map.) Then the conjecture states,
+roughly, that up to a rational global factor which is missing from (1.10), the
+local factors Jv are the ones given by the above Plancherel decomposition,
+that is:
+                                  Jv = JσPlanch
+                                          v
+                                                .                       (1.13)
+   The Euler product should be understood with the help of partial L-functions,
+as it will not converge, but almost all factors will be equal to a special value
+of an unramified L-function.
+   In the case of spherical periods, i.e. ω = L2 (X(Ak )) where X is a (suit-
+able) spherical variety, the L-group L Gω is the L-group of that spherical
+variety, which can be defined in some generality – s. [SV] for split groups –
+and is based on the dual group attached by Gaitsgory and Nadler [GN10].
+   The purpose of this article is to unify the case of period integrals and the
+case of the theta correspondence, showing that the same principle of Euler
+factorization, as outlined above, is valid for the theta correspondence, as
+well. Here, the L-group and the map (1.11) are provided by a conjecture of
+Adams [Ada89]. Essentially, if G = G1 × G2 is a dual pair, then L Gω is the
+L-group of the “smaller” of the two, embedded diagonally in L G; and the
+map from SL2 corresponds to a principal unipotent orbit in the commutator
+of its image. I give a more careful account of the appropriate conventions
+for L-groups for this case in §2.3.
+   Of course, the Euler factorization of (the square of the absolute value of)
+the global Howe pairing (1.4) is known in most cases by the name of “Rallis
+inner product formula”, and is a consequence of the Siegel-Weil formula
+6                            YIANNIS SAKELLARIDIS
+
+developed by the work of Rallis, Kudla, Mœglin, Ichino, Jiang, Soudry,
+Gan, Qiu, Takeda and Yamana [Ral87, KR88a, KR88b, KR94, Mœg97, Ich01,
+Ich04, Ich07, JS07, GT11, GQT14, Yam11, Yam14]. In this article I restrict my
+attention to Howe duality for the so-called non-quaternionic, type I dual
+pairs, i.e. symplectic-orthogonal or unitary. The goal of this article is to
+reinterpret the appropriate Rallis inner product formulas – more precisely,
+those in the “boundary” and “second term range” in the sense of [GQT14] –
+showing that the local factors of the Euler factorization of (1.4) are the ones
+of the local Plancherel formula (1.12) for the Weil representation restricted
+to a dual pair.
+   To describe the contents of the paper in more detail, in section 2 I intro-
+duce the formalism of “the L-group of Howe duality” and Adams’ con-
+jecture – which are, however, only needed to establish the analogy with
+the “relative Langlands program” for spherical varieties, not for any of the
+results which follow.
+   In section 3 I develop the Plancherel formula for Howe duality. It states
+(Theorem 3.0.2) that, if G1 × G2 is a dual pair (over a local field) with G2
+the “small” group, and if ω denotes the oscillator representation of G1 ×
+G2 (considered as a unitary representation) then ω admits the Plancherel
+decomposition:
+                                  Z
+                   hΦ1 , Φ2 i =            JπPlanch (Φ1 , Φ2 ) µG2 (π2 ),   (1.14)
+                                      c2
+                                      G
+
+where µG2 denotes Plancherel measure for G2 , and π stands for the rep-
+                   ⊗π2 . The hermitian forms JπPlanch are the ones explicitly
+resentation θ(π2 ) ˆ
+defined by Jian-Shu Li in [Li89], and their positivity (proven under addi-
+tional assumptions by Hongyu He in [He03]) is part of the theorem. The
+result is probably known to experts, and at least parts of it have appeared
+in the literature, cf. [How79, Gel76, RS77, ØZ95, ØZ97, GG14].
+   Finally, in section 4 I reformulate the Rallis inner product formula, in its
+most recent form as appearing in [Yam14] and [GQT14], in terms of the lo-
+cal hermitian forms JπPlanch above. The main result (Theorem 4.1.4) states
+that the relative characters (1.9) of global Howe duality admit a factoriza-
+tion as in (1.10), whose local factors are precisely those hermitian forms.
+   It is by no means the first time that Howe duality and the theory of pe-
+riod integrals are being brought together; the theta correspondence has re-
+peatedly been used to study period integrals, at least since the ground-
+breaking work of Waldspurger [Wal80, Wal85], and there has been a very
+systematically back-and-forth between these two methods in recent years
+around the program established by the Gan-Gross-Prasad conjectures [GGP12].
+However, I am not aware of a uniform formulation of the principle of Euler
+factorization that was outlined above, and it may help in the understanding
+of some general principles underlying the theory of automorphic represen-
+tations.
+                  HOWE DUALITY AND EULER FACTORIZATION                      7
+
+1.1. Acknowledgements. This paper is dedicated to Professor Roger Howe,
+in deep admiration of the wealth of ideas that he has brought to the world
+of representation theory.
+   The paper would not have been possible without the kind guidance of
+Wee Teck Gan who patiently answered my questions a few years ago and
+effectively guided me into the world of Howe duality. Moreover, the essen-
+tial results that this paper is based on are all found in papers by him and
+his collaborators, which are in turn based on earlier work of Kudla, Rallis
+and others, building up on the groundbreaking ideas of Roger Howe.
+   I am also grateful to Jeff Adams for conversations on his conjecture on
+the Arthur parameters of Howe duality – a conjecture which paved the way
+for unifying the theta correspondence with the Langlands program, based
+on the work of his and his collaborators in the real case.
+   Finally, I am indebted to the anonymous referee for a very prompt and
+comprehensive report, including several corrections and suggestions for
+improvement.
+
+
+    2. A DAMS ’ CONJECTURE AND THE L- GROUP OF H OWE DUALITY
+2.1. Groups (overview). Fix a sign ǫ = ±1, and a field E of degree 1 or 2
+over our base field k.
+   We will work in the context of Kudla-Rallis’ Siegel-Weil formula, as gen-
+eralized in [GQT14]. Thus, we will consider the theta correspondence be-
+tween an (almost) arbitrary isometry group G1 of an ǫ-hermitian form on a
+vector space V , and the isometry group G2 of an (−ǫ)-hermitian form on a
+vector space W . When necessary, one of these groups will be replaced by
+its double metaplectic cover. Obviously, up to replacing ǫ by −ǫ (and except
+for a technical condition that we will eventually impose on the Witt rank of
+V in order to apply known results on the Rallis inner product formula), the
+situation is symmetric in V, W and we can interchange G1 and G2 , but we
+will take G2 to be the “smaller” of these groups.
+   More precisely, let k be a number field, E = k or a quadratic field ex-
+tension, η = ηE/k the (possibly trivial) quadratic idele class character of k
+attached to E by class field theory. The action of the Galois group of E/k
+will be denoted by a bar (¯), with the understanding that it is trivial when
+E = k. We will sometimes use F to denote a completion of k, in which case
+we will abuse notation (when no confusion arises) and denote again by E
+the ring E ⊗k F , and by ηE/F the corresponding quadratic character of F × .
+The set of points of a variety X over a completion kv will be denoted both
+by X(kv ) and by Xv .
+   Fix a sign ǫ = ±1, and consider a non-degenerate ǫ-hermitian space
+V , that is: V is a vector space over E equipped with a non-degenerate
+ǫ-hermitian form:
+                              (v, w) = ǫ(w, v).
+8                            YIANNIS SAKELLARIDIS
+
+Similarly, let W denote a non-degenerate (−ǫ)-Hermitian space of dimen-
+sion n.
+   We will denote by G1 and G2 , respectively, certain central extensions of
+the isometry groups of V and W by C1 = {z ∈ C× | |z| = 1}. These covers
+split in most cases, so by abuse of notation we may also denote by G1 , G2
+the groups appearing in the following table:
+
+                         G1 (V )   Ǧ1  Ǧ2  G2 (W )           d(n)
+           (E : k) = 2    Um      GLm   GLn   Un                n
+       ǫ = −1, n even     Spm SOm+1 SOn       On               n−1
+                                                                            (2.1)
+        ǫ = −1, n odd    Mpm      Spm  Spn−1  On               n−1
+        ǫ = 1, m even     Om      SOm SOn+1   Spn              n+1
+         ǫ = 1, m odd     Om     Spm−1  Spn   Mpn              n+1
+   Here Mpm denotes the double metaplectic cover of the symplectic group
+Spm . (Our notation for symplectic groups uses Spm to denote the isometry
+group of a symplectic space of dimension m, so m is even.)
+   The table above includes, besides the groups G1 and G2 , their Langlands
+dual groups, i.e. the identity components of their L-groups. The value d(n)
+is the value of m corresponding to the boundary case, that is: the case when
+the standard representations of L G1 and L G2 have the same dimension (if
+possible by parity restrictions).
+   We will assume throughout (as we may without loss of generality, by
+symmetry) that d(n) ≤ m, i.e. G2 (or, rather, its dual) is the smaller group,
+while G1 is the larger one.
+   The table above is provided for convenience of the reader – however,
+there are many non-canonical choices that need to be made in order to
+identify the groups of Howe duality with the above groups, and their L-
+groups with the given L-groups. We are about to describe more canonical
+definitions, which will free us from the necessity to make such choices.
+2.2. Metaplectic group and the oscillator representation.    Q Fix an additive
+character ψ : Ak /k → C× , and a factorization ψ = v ψv into unitary
+characters of the completions kv . Whenever no confusion arises, we will
+be using the same letter to denote the composition of ψ with the trace map
+from AE to Ak , and for its restrictions to the various completions of E.
+   The space V ⊗ W , considered as a vector space over k, has a natural
+symplectic structure. Restricting to a completion kv , the associated Heisen-
+berg group has a unique, up to isomorphism, irreducible representation
+ω v = ω v,ψv where its center acts by ψv . This gives rise to a projective repre-
+sentation of Sp(V ⊗ W )(kv ), and hence a representation of the group:
+                      GL(ω v ) ×PGL(ω v ) Sp(V ⊗ W )(kv ),
+which is a central extension of Sp(V ⊗W )(kv ) by C× . This is the oscillator, or
+Weil, representation [Wei64]. Moreover, there is a canonical subextension
+                   HOWE DUALITY AND EULER FACTORIZATION                         9
+
+by C1 = {z ∈ C× | |z| = 1}:
+
+                      f ⊗ W )(kv ) → Sp(V ⊗ W )(kv ) → 1,
+             1 → C1 → Sp(V                                                  (2.2)
+
+characterized by the fact that it acts unitarily on ω v . We will be working
+with C1 -extensions.
+   Let G(V ), G(W ) ⊂ Sp(V ⊗ W ) be the isometry groups of V , resp. W , and
+                                        f ⊗W )(kv ), of the images of G(V )(kv ),
+let G̃1,v , G̃2,v be the preimages, in Sp(V
+resp. G(W )(kv ) in Sp(V ⊗ W )(kv ). These are central C1 -extensions of the
+corresponding classical groups. Note (as we will soon recall) that the iso-
+morphism class of G̃1,v does not only depend on the space V , but also on
+W , and similarly for G̃2,v .
+   Throughout this paper we will denote by ω ∞        v the smooth vectors of ω v
+                                              f
+with respect to the big symplectic cover Sp(V ⊗W )(kv ). The pull-back of ω v
+to G̃v := G̃1,v × G̃2,v gives rise to the theta correspondence (Howe duality).
+More precisely, for any irreducible representation π of G̃1,v which occurs
+as a quotient of ω ∞    v , there is a unique irreducible representation θ(π) of
+G̃2,v such that π ⊗ θ(π) occurs as a quotient, and vice versa when we in-
+terchange G1,v and G2,v [Kud96]. This was proven by Howe [How89] for
+Archimedean fields, by Waldspurger [Wal90] for p-adic fields with p 6= 2,
+and by Gan and Takeda [GT16] for all p-adic fields.
+   The local theta correspondence is naturally a correspondence between
+genuine representations of G̃1,v , G̃2,v , i.e. representations where the central
+C1 acts by the identity character. To translate this to a correspondence be-
+tween representations of more classical groups, one needs to make some
+choices which give rise to splittings G(V )v → G̃1,v , G(W )v → G̃2,v , or
+at least (when this is not possible), splittings over the metaplectic double
+cover of G(V )v , G(W )v .
+   Such choices are described by Kudla in [Kud94] and they are quite stan-
+dard nowadays in the theory of Howe duality. There is a standard (de-
+scribed by Ranga Rao [RR93]) set-theoretic splitting Sp(V ⊗ W )(kv ) →
+f ⊗ W )(kv ) and an ensuing 2-cocycle, valued in the group µ8 (C) of 8-th
+Sp(V
+roots of unity, which describes the C1 -extension Sp(V f ⊗W )(kv ). Given that,
+Kudla [Kud94, Theorem 3.1], [Kud96, §II.3] describes explicit 1-cocycles
+βV : G(W ) → C1 , βW : G(V ) → C1 , depending on some choices, which
+trivialize the 2-cocycle over G(V ), G(W ), or over their double (metaplectic)
+covers. As the notation suggests, βV depends on V and βW depends on
+W (because the groups G̃2,v , resp. G̃1,v do), and this dependence will also
+appear in the L-groups that we are about to define.
+   However, these choices are non-canonical and complicate the relation-
+ship between Howe duality and Langlands correspondence. Therefore, in
+this paper I will make the following convention: G1,v , G2,v will, strictly
+speaking, denote the covering groups G̃1,v , G̃2,v encountered above, and
+10                             YIANNIS SAKELLARIDIS
+
+by “representations” of those groups we will always mean genuine repre-
+sentations. In the next subsection, I will assign (non-standard) L-groups
+to these groups. I will also explain how certain choices give rise to usual
+L-groups, in parallel to Kudla’s splitting of the covers. Following that, we
+will allow ourselves to abuse language and treat G1,v , G2,v as a classical
+group or a double cover thereof, as in Table 2.1, when no confusion arises.
+
+2.3. L-groups. We will adopt the following definitions of non-standard L-
+groups; notice that L-groups are defined globally, based on local consider-
+ations on covering groups. The definitions given here are compatible with
+the ones given by Adams [Ada89] in the Archimedean case, up to conju-
+gacy (cf. Remark 2.4.2). I will also explain how choices related to Kudla’s
+cocycles correspond to choices that modify these L-groups into standard
+L-groups.
+     (1) For V a quadratic space of odd dimension m over k, we let
+                        L
+                            G1 = Spm−1 (C) × Gal(k̄/k).                   (2.3)
+         Here the space W is a symplectic space over W , and Kudla’s cocycle
+         βW giving rise to G(V ) ֒→ G̃1,v does not depend on any data of W .
+            For m odd we have: Om = SOm × Z/2, and an irreducible repre-
+         sentation for Om is given by an irreducible representation for SOm
+         and a sign for Z/2. The L-group of Om should be identified with the
+         L-group of SOm , with the sign of Z/2 not affecting the L-parameter
+         (or Arthur parameter) of a representation; this is compatible with
+         results on the theta correspondence that will be recalled later (such
+         as the results of Atobe-Gan [AGa]).
+     (2) For V a quadratic space of even dimension m over k, again the cocy-
+         cle does not depend on any data of W , and we let:
+                        L
+                            G1 = Om (C) ×{±1} Gal(k̄/k),                  (2.4)
+
+        where Om maps to {±1} via the determinant and Gal(k̄/k) maps via
+        χ̃V , the (trivial or non-trivial) quadratic Galois character associated
+        to the normalized discriminant of the quadratic space V . (“Normal-
+        ized” refers to the fact that for a split quadratic space it is a square,
+                                                                         m
+        i.e. the normalized discriminant is the square class of (−1) 2 times
+        the determinant of a matrix of the quadratic form.)
+           In the split case (χ̃V = 1) this is just the direct product SOm (C) ×
+        Gal(k̄/k), but in the  p non-split case its quotient through the map
+        Gal(k̄/k) → Gal(k( disc(V ))/k) can be identified with Om (C). While
+        this identification is customary, we should remind ourselves how it
+        relates to the more “standard” version of the L-group of SOm as a
+        pinned semi-direct product:
+                                            p
+                         SOm (C) ⋊ Gal(k( disc(V ))/k).                     (2.5)
+              HOWE DUALITY AND EULER FACTORIZATION                       11
+
+    We may fix a pinning for SOm . Any two such pinnings are con-
+    jugate by a unique element of SOm (C), up to the center {±1} of
+    the group. Identifying, then, the group Om (C) with the pinned
+    semi-direct product SOm (C) ⋊ Gal(k̄/k) depends on choosing an
+    element ǫ ∈ Om (C) r SOm (C) which acts by the outer automor-
+    phism on the pinning, and with ǫ2 = 1. There are two inequivalent
+    choices for such an ǫ (when m > 2, whose quotient is the central
+    −1 ∈ SOm (C). We choose the ǫ which corresponds to a simple reflection
+    under the standard representation of Om (C), i.e. with eigenvalues
+    (1, 1, . . . 1, 1, −1). This is the standard choice in the literature.
+       Finally, we mention that equivalence classes of Langlands or Arthur
+    parameters for Om will be classes of parameters into the above L-
+    group modulo the action of Om (C) by conjugation.
+(3) For V a symplectic space of dimension m (and hence W a quadratic
+    space, whose discriminant Galois character we will denote by χ̃W ),
+    the 1-cocycle βW depends on W , and only trivializes the cover if
+    dim(W ) is even; in the odd case, it reduces the cover G̃1,v to the
+    double metaplectic cover Mpm (kv ) of Spm (kv ). Hence, we distin-
+    guish two sub-cases:
+       • If n = dim(W ) is even, we take:
+                 L
+                     G1 = Om+1 (C) ×{±1} Gal(k̄/k),                   (2.6)
+
+        where Om+1 maps to {±1} via the determinant and Gal(k̄/k)
+        maps via χ̃W .
+        Of course, this is still isomorphic to the direct product of SOm+1 (C)
+        with Gal(k̄/k), simply by multiplying by the diagonal of χ̃W .
+        We view this operation at the level of L-groups as the analog of
+        Kudla’s cocycle, which identifies G̃1,v with C1 ×Spm . However,
+        in view of the behavior of the theta correspondence in terms of
+        Langlands parameters, it is better to adopt the above definition
+        of L-group for G̃1,v .
+      • If n = dim(W ) is odd, we take:
+                      L
+                          G1 = Spm (C) × Gal(k̄/k),                   (2.7)
+
+        however: this is not the L-group of the double-cover metaplectic
+        group Mpm that is found in the literature. Namely, we recall
+        from [Wei14, §4.3] that the choice of an additive character ψv
+        (and the standard choice of fourth root of unity i ∈ C) identi-
+        fies the L-group of the metaplectic double cover Mpm (kv ) with
+        Spm (C) × Gal(k̄/k). Kudla’s cocycle (which depends on W )
+        defines a splitting:
+
+                             Mpm (kv ) ֒→ G̃1,v .
+12                                   YIANNIS SAKELLARIDIS
+
+              This splitting corresponds to an identification of L-groups:
+      L                                       ∼
+                                   → L Mpm = Spm (C) × Gal(k̄/k)
+          G1 = Spm (C) × Gal(k̄/k) −                                         (2.8)
+              given by multiplication by the quadratic character associated to W ,
+              that is:
+                             (g, σ) 7→ (χ̃W (σ)g, σ).
+     (4) In the unitary case, Kudla’s cocycle βW depends on the choice of a
+         unitary character χW of (the local quadratic extension) E × which
+         extends the n-th power of the quadratic character η associated to
+         the extension E/kv (where, again, n = dim(W )). Rather than mak-
+         ing such a choice, we define the L-group L G1 as the inflation to
+         Gal(k̄/k) of the possibly non-split extension:
+                     n
+                ]
+                GL                  2      n
+                   m := GLm (C), σ|σ = (−1) , σgσ
+                                                  −1
+                                                     = gc ,                  (2.9)
+          where GLm  (C) is considered as a pinned group, and g c is the pinned
+          Chevalley involution, in other words:
+                                              n
+                          L        ]
+                              G1 = GL m ×Gal(E/k) Gal(k̄/k),                (2.10)
+                                          n
+                            ]
+          where, of course, GL m maps to Gal(E/k) with σ mapping to the
+          non-trivial element.
+            The Langlands parameter of an idele class character χW of E
+                                                 n
+          which extends the quadratic character ηE/k is a homomorphism:
+
+                 Wk → L ResE/k Gm = (C× × C× ) ⋊ Gal(E/k)
+          (where Wk denotes the Weil group of k) with the property that com-
+          posing with the map:
+                     L
+                         ResE/k Gm → L Gm = C× × Gal(E/k)
+          given on connected components by (z1 , z2 ) 7→ z1 z2 we get the n-th
+          power of the quadratic character of Wk associated to E/k. Such a
+          parameter is necessarily of the form:
+                                       w 7→ (χ̃W , χ̃σW ),
+          where χ̃W : Wk → GL g1 n and χ̃σ denotes its σ-conjugate in GL
+                                                                      g1 n . (I
+                                         W
+          am confusing here maps to non-connected groups and their projec-
+          tions to the connected components, but the reader should have no
+          difficulty discerning the meaning.) Thus, a choice of χW gives rise
+          to an isomorphism:
+                               L      ∼
+                                      → GLm (C) ⋊ Gal(k̄/k)
+                                   G1 −                                     (2.11)
+          (the latter being the L-group of the unitary group), namely multi-
+          plication by χ̃W . We see this isomorphism as the identification of
+          L-groups provided by the corresponding splitting:
+                                       Um (kv ) ֒→ G̃1,v
+                      HOWE DUALITY AND EULER FACTORIZATION                            13
+
+        defined by Kudla. One readily checks from Kudla’s formulas that
+        multiplying a given χW by a character χ′ of U1 has the effect of mul-
+        tiplying the above splitting by χ′ composed with the determinant,
+        which is compatible with the modification of (2.11) that would en-
+        sue.
+  This completes the description of L G1 , and L G2 is defined in a com-
+pletely analogous way, by interchanging the role of V and W .
+2.3.1. Remark. It would be interesting to see an account of how the covering
+groups G̃1,v , G̃2,v might be seen as arising from the K2 -covers of Brylinski
+and Deligne [BD01], and their L-groups above arising from the canonical
+L-groups attached to these covers by Weissman [Wei].
+2.4. The L-group and Arthur-SL2 of Howe duality. From now on we de-
+note by G1,v , G2,v (or G1 (kv ), G2 (kv )) the covering groups G̃1,v , G̃2,v , or their
+simplified versions of Table (2.1), when no confusion arises. However, we
+do not adopt the simplified versions of their L-groups appearing in that ta-
+ble, which depend on choices. Rather, we work throughout with the defini-
+tions of L G1 , L G2 given in the previous subsection. We set Gv = G1,v ×G2,v ,
+and L G = L G1 ×Gal(k̄/k) L G2 .
+   From now on we assume throughout (as we may, by symmetry) that
+d(n) ≤ m, i.e. G2 is the “small” group. We define the L-group of Howe duality
+to be:
+                                   L
+                                      Gω := L G2 ,                                (2.12)
+endowed with a canonical morphism:1
+                                 L
+                                     Gω × SL2 → L G,                             (2.13)
+which is described as follows: To define the restriction of this map to L Gω ,
+it is enough to define two L-morphisms (i.e. compatible with the quotient
+to Gal(k̄/k): L Gω → L G1 and L Gω → L G2 . The latter is taken to be the
+identity, and the former will be the “natural” morphism which will be de-
+scribed below. We then map SL2 to the centralizer of the image of L Gω in
+the connected component of L G1 .
+    Before we proceed to the description of the map
+                        L                              γ
+                            Gω × SL2 = L G2 × SL2 −
+                                                  → L G1 ,                       (2.14)
+let us assume it to recall Adams’ conjecture, restricted to tempered repre-
+sentations of G2 . (Non-tempered representations of the small group will
+not play any role in this paper, and in any case the “naive” version of the
+conjecture needs to be corrected in this case, see [Mœg11b, §7.1].
+2.4.1. Conjecture (Adams’ conjecture). The theta lift to G1,v of a tempered
+representation π of G2,v with Langlands parameter φ, if non-zero, belongs to an
+
+  1S. Remark 2.4.2.
+14                                YIANNIS SAKELLARIDIS
+
+Arthur packet with Arthur parameter
+                                        φ×Id              γ
+                        φ′ : Wk′ v × SL2 −−−→ L G2 × SL2 −
+                                                         → L G1 ,              (2.15)
+where γ is the morphism (2.14).
+   Here Wk′ v denotes the Weil (in the Archimedean case) or Weil-Deligne
+group (in the non-Archimedean case) of kv .
+   This conjecture, for tempered representations, has been proven in sev-
+eral cases over Archimedean fields by Adams, Barbasch, Mœglin and Paul
+[Ada89, AB95, Mœg89, Pau98, Pau00, Pau05]. In the non-Archimedean
+case, it is very close to being a theorem, summarized in [AGa, Theorems 4.3
+and 4.5], based on results of Atobe, Ichino, Gan and Savin [Ato, AGa, GI16,
+GS12] extending previous results of Muić [Mui04, Mui06, Mui08a, Mui08b]
+and Mœglin [Mœg11b, Mœg11a]. More precisely, the relevant cases of the
+aforementioned theorems are when m ≥ m1 (statements (2),(3),(4)) in The-
+orem 4.3, and statements (1), (2), (3) in Theorem 4.5. In all cases but the
+“base case” of the “going-up tower” (i.e. statements (1), (2) in Theorem
+4.5) it is immediate to see that the Langlands parameters given by [AGa]
+are the ones of the “main” Langlands packet inside our desired Arthur
+packet. In the remaining cases, one needs to argue that the stated repre-
+sentations belong to our desired Arthur packet, as was done in [Mœg11b,
+§8] for symplectic-even orthogonal pairs.
+   We now come to a description of the morphism (2.14), commenting on
+its relation with the definitions of Adams [Ada89] and the results of [AGa].
+In all cases, after we describe the map from L Gω , we will map SL2 to the
+centralizer of the image of L Gω in the identity component of L G1 , so that
+the non-trivial unipotent orbit in SL2 maps into the principal unipotent orbit
+in this centralizer. Hence, it remains to describe the map from L Gω .
+         (1) When V is a quadratic space of odd dimension m, we embed:
+          L
+              Gω = Spn (C) × Gal(k̄/k) → L G1 = Spm−1 (C) × Gal(k̄/k)          (2.16)
+             by identifying the symplectic space associated to the former with a
+             symplectic subspace of the latter.
+                Recall, however, from (2.8) that in this case the L-group L G1 is
+             not the “standard” L-group of the two-fold cover of the metaplectic
+             group, but a twist of it by the discriminant character of V . Therefore,
+             the map (2.14) induces a map on L-parameters that corresponds to
+             the one of [AGa], where a twist by χ−1 V appears. (The character χW
+             of loc.cit. is in this case trivial.)
+         (2) When V is a quadratic space of even dimension m, we embed:
+     L
+         Gω = On+1 (C) ×{±1} Gal(k̄/k) → L G1 = Om (C) ×{±1} Gal(k̄/k) (2.17)
+              by identifying the quadratic space of the first group with a subspace
+              of the quadratic space of the latter. Notice that for both L-groups,
+               HOWE DUALITY AND EULER FACTORIZATION                     15
+
+    Gal(k̄/k) maps to {±1} via the determinant of V , so the morphism
+    is well-defined.
+       To compare with the results of [AGa], notice that our choices for
+    the L-group of G2 coincide, while to identify the L-groups of L G1
+    one needs to multiply by the quadratic character χ̃V – this accounts
+    for the factor of χ−1
+                       V in their formulas, while χW is again trivial.
+(3) When V is symplectic, W is orthogonal and we repeat what was
+    done in the previous two cases, with the only difference that the
+    ‘small” L-group is the one of the orthogonal space. Notice that now
+    the character χV in the results of [AGa] will be trivial, while the
+    character χW accounts for our twisted definition of L-groups.
+(4) When V is unitary and the difference m − n of the dimensions of
+                                                                         n
+    V and W is an even number 2s, in which case both covers GL      ]  m
+              m
+    and GLgn of (2.9) are simultaneously split or non-split, and having
+    the “standard” pinning of general linear groups in mind, we embed
+    GLn (C) into the “middle” block of GLm (C). The element σ = σn of
+                                                                  n
+     gn m will go to the corresponding element σ = σm of GL
+    GL                                                       ]  m when
+    m and n are even (the extensions are split), and to the element:
+                                       
+                           Is
+                                       
+                              In        σm ,                      (2.18)
+                                    −Is
+   as in [Ada89], in the odd case, in order to make this map a homo-
+   morphism. When m − n is odd, so exactly one of the two covers
+        n
+   ]
+   GL          g m is non-split, we embed, as in [Ada89], the con-
+       m and GLn
+   nected component GLn (C) into the top left block of GLm (C), and
+   map σn to the element:
+                                      !
+                                  In
+                                        σm .                    (2.19)
+                           Im−n
+      A more linear-algebraic description of Langlands parameters into
+   L G , L G will make the above definitions appear more natural, and
+      1     2
+   will clarify the relation with the results of [AGa]: It is easy to see
+   that equivalence classes (i.e. GLm (C)-conjugacy classes) of Lang-
+                                 n
+   lands parameters into GL  ] m are conjugacy classes of Frobenius-
+   semisimple homomorphisms
+                         φ : WE′ → GLm (C)
+   with the property that there is a non-degenerate bilinear form B on
+   Cm with
+                B(φ(w)x, φ(τ wτ −1 )y) = B(x, y),                (2.20)
+   and
+               B(y, x) = (−1)m+n+1 B(x, φ(τ 2 )y),               (2.21)
+16                          YIANNIS SAKELLARIDIS
+
+       where τ is some (any) chosen element of WF r WE .
+          It is now easy to see that Langlands parameters into L G2 natu-
+       rally give rise to (equivalence classes of) Langlands parameters into
+       L G , and that this map between equivalence classes corresponds to
+           1
+       the map of L-groups described above. Moreover, the description of
+       parameters in [AGa] is identical, except that the factor (−1)m+n+1 of
+       (2.21) is replaced by (−1)m+1 . This corresponds to the twist by χ̃W
+       that is needed to pass from L G1 to the L-group of Um , as in (2.11),
+       and a similar twist by χ̃V is needed to pass from L G2 to the L-group
+       of Un ; this explains the factors χ−1
+                                          V χW appearing in the formulas of
+       [AGa].
+  This completes the description of the “L-group of Howe duality”, en-
+dowed with a “canonical” morphism (2.13).
+2.4.2. Remark. The morphism (2.13) that we defined ad-hoc appears to be the
+“correct” one for equivalence classes of Langlands parameters; hence, it is
+the “correct” one up to conjugacy by the connected component Ǧ of L G.
+This makes it less canonical than the connected component ǦX of the L-
+group of a spherical variety X which, in [SV], was given with a morphism:
+                               ǦX × SL2 → Ǧ
+canonical up to conjugacy by the canonical maximal torus (and completely
+canonical if we were working with pinned groups). It would be desirable,
+not only for aesthetic reasons, to have a more geometric definition of L Gω ,
+together with an analog of the “boundary degenerations” of a spherical va-
+riety for Howe duality, that would allow us to pinpoint a more canonical
+map (2.13) of L-groups.
+2.5. A Plancherel-theoretic version of Adams’ conjecture. Now consider
+the unitary oscillator representation ω v at a place v as a genuine, unitary
+representation of the dual pair Gv = G1,v × G2,v . Throughout this paper,
+the “unitary dual” of these groups means the genuine unitary dual.
+   The abstract theory of the Plancherel formula tells us that there is a de-
+composition:                      Z
+                             ωv =        Hπ µv (π),                     (2.22)
+                                    cv
+                                    G
+where µv is a measure on the unitary dual, and for an irreducible unitary
+representation π of Gv , the unitary representation Hπ is isomorphic to a
+sum of copies of π.
+   For more careful presentations of the Plancherel decomposition, includ-
+ing issues of measurability, I point the reader to [Ber88] and [SV, §6.1]. For
+the decomposition (2.22) to make sense, one needs to specify morphisms
+from a dense subspace ω 0v of ω v to the Hilbert spaces Hπ , and the decom-
+position is essentially unique, in the sense that the resulting measure on Gcv
+                                                         0
+which is valued in the space of Hermitian forms on ω v is unique.
+                    HOWE DUALITY AND EULER FACTORIZATION                       17
+
+   We will later see that in this case one can take ω 0v = ω ∞
+                                                             v , or, in the lan-
+guage of [Ber88], the decomposition is pointwise defined on ω ∞  v . Assuming
+this, for (µ-almost) every irreducible unitary π = π1 ⊗ π2 of Gv , the mor-
+phism ω ∞ v → Hπ of the Plancherel decomposition has to factor through a
+(semisimple) πv -isotypic quotient of ω ∞  v . The Howe duality theorem im-
+plies that π1 and π2 completely determine each other, and that the quotient
+is multiplicity-free; in the notation used before, π1 = θ(π2 ) and π2 = θ(π1 ).
+(Notice that we are throughout omitting the dependence on the character
+ψv from the notation.) Hence, we have a Plancherel decomposition of the
+form:
+                               Z
+                         ωv =       θ(π2 ) ˆ
+                                          ⊗π2 µ2,v (π2 ),                 (2.23)
+                                 d
+                                 G 2,v
+
+where µ2,v is now some measure on the unitary dual of G2,v (the push-
+forward of the measure µv on G   cv ). The fact that the decomposition is point-
+wise defined on ω ∞  v will be shown    in the context of the proof of Theorem
+3.0.2, in §3.3.
+   We formulate the following unitary variant of Adams’ conjecture. It
+is the analog of the “relative local Langlands conjecture” [SV][Conjecture
+16.2.2] for the L2 -space of a spherical variety. Recall that we are assuming
+that G2 is the “small” group, i.e. m ≥ d(n).
+
+2.5.1. Conjecture. There is a direct integral decomposition:
+                                    Z
+                             ωv =       Hφ µ2,v (φ),                       (2.24)
+                                         [φ]
+
+where:
+     • [φ] runs over isomorphism classes of local tempered (i.e., bounded) Lang-
+       lands parameters into L Gω = L G2 ;
+     • µ2,v is in the natural class of measures on the set of such Langlands pa-
+       rameters;
+     • Hφ is isomorphic to a (possibly empty) direct sum of irreducible represen-
+       tations belonging to the Arthur packet associated to the composition:
+                              φ×Id
+                 Wk′ v × SL2 −−−→ L Gω × SL2 → L (G1 × G2 ),               (2.25)
+
+         where the last arrow is the canonical morphism (2.13).
+
+   Notice that, by abuse of notation, we use the same symbol µ2,v for the
+Plancherel measure on the unitary dual of G2,v , and for a measure on the
+set of its tempered Langlands parameters. By “class” of the measure µ2,v ,
+we mean, as in [SV], an equivalence class of measures that are absolutely
+continuous with respect to each other. Given a choice of additive charac-
+ter ψv , this equivalence class has a “canonical” representative which corre-
+sponds to the conjecture of Hiraga-Ichino-Ikeda [HII08] on formal degrees.
+18                              YIANNIS SAKELLARIDIS
+
+For discrete parameters, this measure is:
+                                   1
+                    µ2,v ({φ}) = ♯ |γ(0, φ, Ad, ψv )|,                          (2.26)
+                                 |Sφ |
+
+where Sφ♯ is a finite group related to a centralizer of the parameter. Notice
+that the adjoint γ-factor appearing in the formula makes sense also for our
+non-standard versions of L-groups, and it remains unchanged under the
+isomorphisms with more “classical” L-groups discussed in §2.3.
+   It is clear that Conjecture 2.5.1 follows immediately from Adams’ conjec-
+ture 2.4.1, once one knows that the Plancherel measure µ2,v of the oscillator
+representation (2.23) is absolutely continuous with respect to the Plancherel
+measure of the group G2,v – we will prove this in Theorem 3.0.2, including
+the stated fact that the Plancherel decomposition is pointwise defined on
+ω∞v .
+   Given that, and choosing µ2,v = µG2,v , the Plancherel measure for G2,v ,
+in (2.23) (determined by a choice of Haar measure on G2,v , which will be
+done globally), and independently from Conjecture 2.5.1, we get canonical
+morphisms from (2.23):
+
+                             ω∞          ˆ
+                              v → θ(π2 )⊗π2 ,                        (2.27)
+up to scalars of absolute value 1, for µ2,v -almost every π2 . We will ac-
+tually see that these morphisms are “continuous” in π2 , and hence well-
+defined (possibly zero) for every tempered π2 , and we will see that these
+morphisms factorize the square of the absolute value of the global theta
+pairing.
+
+3. P LANCHEREL DECOMPOSITION OF THE OSCILLATOR REPRESENTATION
+  The discussion of L-groups and Conjecture 2.5.1 in the previous section
+was formulated in such a way to establish the analogy with the theory of
+period integrals, but to proceed we do not need to invoke Langlands pa-
+rameters. The following theorem implies Conjecture 2.5.1 if one assumes
+Adams’ conjecture 2.4.1:
+3.0.2. Theorem. In the previous setting, there is a direct integral decomposition:
+                             Z
+                      ωv =               ˆ 2 µG2,v (π2 ),
+                                  θ(π2 )⊗π                                    (3.1)
+                                 d
+                                 G 2,v
+
+where µG2,v denotes Plancherel measure for G2,v (depending on a choice of Haar
+measure on G2,v ), and it is understood that θ(π2 ) can be zero.
+   The decomposition is pointwise defined on ω ∞  v , and for almost all π2 the hermit-
+ian form on ω ∞v that  is pulled back from the  unitary structure of π = θ(π2 ) ˆ⊗π2 is
+equal to:
+                           XZ
+     Planch
+   Jπ       (Φ1 ⊗ Φ̄2 ) :=               hω v (g)Φ1 , Φ2 iωv hπ2 (g)ϕ, ϕiπ2 dg, (3.2)
+                            ϕ   G2,v /C1
+                    HOWE DUALITY AND EULER FACTORIZATION                           19
+
+where ϕ runs over an orthonormal basis of π2 .
+  In other words, for Φ1 , Φ2 ∈ ω ∞
+                                  v we have:
+                             Z
+              hΦ1 , Φ2 iωv =       JπPlanch (Φ1 ⊗ Φ2 ) µG2,v (π2 ),             (3.3)
+                                d
+                                G 2,v
+
+                          ˆ 2 , and the JπPlanch are positive semi-definite her-
+where π stands for θ(π2 )⊗π
+mitian forms (for µG2,v -almost all π2 ).
+   In comparison to the abstract decomposition (2.23), this theorem spec-
+ifies that the Plancherel measure for ω v is absolutely continuous with re-
+spect to the Plancherel measure on G2,v , and determines the hermitian
+forms of the Plancherel decomposition. The result is probably known to
+experts, and at least parts of it have appeared in the literature – s. [Li89] for
+the hermitian forms above and [GG14] for the determination of the mea-
+sure in the “stable range”; cf. also [How79, Gel76, RS77, ØZ95, ØZ97] for
+special cases. The proof of this theorem will be the goal of this section. For
+the rest of this section we omit the index v from the notation, e.g. ω = ω v ,
+G2 = G2,v , µG2 = µG2,v etc. At some points we may denote the fixed com-
+pletion kv of our global field by F .
+3.0.3. Remark. In the non-Archimedean case it has been proven by Yamana
+[Yam14, Lemma 8.6] (s. also [GQT14, Proposition 11.5]) that the forms JπPlanch
+are non-vanishing if and only if θ(π2 ) 6= 0. In particular, the support of
+Plancherel measure coincides with the (closure of the) set of tempered rep-
+resentations of G2,v which are distinguished by Howe duality. It is expected
+that this should also be true in the Archimedean case. (To emphasize again
+the analogy with spherical varieties, this is the analog of Theorem 6.4.1 in
+[SV].)
+3.1. Growth of matrix coefficients of ω.
+3.1.1. Proposition. The matrix coefficients of the oscillator representation,
+                              g 7→ hω(g)Φ1 , Φ2 iω ,
+for Φ1 , Φ2 ∈ ω ∞ , when restricted to G2 , lie in the Harish-Chandra Schwartz space
+C (G2 ) of genuine functions on G2 .
+   This is essentially [Li89, Corollary 3.4] – actually, its proof is contained
+in the proof of Theorem 3.2 of this paper. However, we shall formulate its
+proof in terms of “doubling zeta integrals” (and a convergence result for
+those due to Gan and Ichino), in order to establish facts that we need for
+our global application. It should be pointed out that the interpretation of
+local zeta integrals in terms of matrix coefficients was observed already in
+[Li92].
+   For a recollection of the notion of Harish-Chandra Schwartz space C (G2 )
+for the points of reductive algebraic groups, and more generally groups of
+“polynomial growth”, see [Ber88]. It coincides with the space of all smooth
+20                          YIANNIS SAKELLARIDIS
+
+
+functions which are integrable against Ξ(g) (log kgk)N for all N (and sim-
+ilarly for their derivatives under the universal enveloping algebra, in the
+Archimedean case), where Ξ is the Harish-Chandra Ξ function and k · k is
+any norm of polynomial growth on the group. The same definitions apply
+to functions C1 -covers of algebraic groups, and we denote by C (G2 ) the
+space of genuine Harish-Chandra Schwartz functions on G2 , i.e. those on
+which the central C1 acts by the identity character.
+   The proposition will follow from interpreting integrals against matrix
+coefficients of ω as local zeta integrals of the doubling method for the stan-
+dard L-function, and invoking well-known results for that case. While do-
+ing so, we will be careful about canonically fixing certain isomorphisms,
+for later use. In particular, we will also be making some comments about
+global measures etc.
+   Consider the (−ǫ)-hermitian space W = W ⊕(−W ), where (−W ) denotes
+the same vector space with opposite hermitian form, and the direct sum is
+an orthogonal one. The diagonal copy W diag ⊂ W is an isotropic subspace,
+and the oscillator representation ω̃ associated to the symplectic space V ⊗W
+and the additive character ψ has a Schrödinger model:
+                             ω̃ ≃ L2 (V ⊗ W/ℓ),                          (3.4)
+where ℓ is the Lagrangian V ⊗ W diag . In the next subsection, we will recall
+that there is a canonical model up to canonical isomorphism for the oscilla-
+tor representation, a canonical Haar measure (given the additive character
+ψ) on V ⊗ W/ℓ and a distinguished isomorphism between the canonical
+model for ω̃ and L2 (V ⊗ W/ℓ); hence, we can consider (3.4) as a canonical
+isomorphism.
+   By the symplectic form, we can identify the quotient V ⊗ W/ℓ with the
+F -linear dual ℓ∗ . The space of smooth vectors is ω̃ ∞ = S(ℓ∗ ), the space of
+Schwartz functions. The functional:
+                           ev0 : S(ℓ∗ ) ∋ Φ 7→ Φ(0)                      (3.5)
+                                                    f ⊗ W) stabilizing ℓ,
+is an eigen-functional for the Siegel parabolic S ⊂ Sp(V
+with eigencharacter which we temporarily denote by χ. Thus, by Frobenius
+reciprocity the functional defines a morphism:
+                                      f ⊗W)
+                                      Sp(V
+                           ω̃ ∞ → IndS        (χ),                       (3.6)
+where Ind denotes unnormalized induction.
+             f ⊗ (−W )) can canonically be identified with Sp(V
+  The cover Sp(V                                                 f ⊗ W)
+through an anti-genuine involution (i.e. the central C maps to C1 through
+                                                      1
+
+the inverse character). Thus, the oscillator representation associated to the
+symplectic space V ⊗ (−W ) and the character ψ is canonically identified
+with the dual ω ∨ = ω = ω ψ−1 .
+  The embedding Sp(V ⊗ W ) × Sp(V ⊗ W ) → Sp(V × W) gives rise to a
+morphism:
+                  f ⊗ W ) × Sp(V
+                 Sp(V           f ⊗ W ) → Sp(V  f ⊗ W)                   (3.7)
+                      HOWE DUALITY AND EULER FACTORIZATION                              21
+
+which is genuine in the first copy and anti-genuine in the second. Restrict-
+ing the oscillator representation of the big group, there is an isomorphism:
+                                   ∼
+                           ωˆ
+                            ⊗ω −
+                               → ω̃| f
+                                    Sp(V ×W )⊗ f
+                                              Sp(V ⊗W )
+                                                        .                            (3.8)
+As we will recall in the next subsection, there is a canonical choice of a uni-
+tary such isomorphism, and it has the following property: For any maximal
+isotropic subspace Y ⊂ V ⊗ W whose linear dual Y ∗ is endowed with a
+Haar measure, there are canonical unitary isomorphisms with Schrödinger
+models:
+                            ⊗ω ≃ L2 (Y ∗ ) ˆ
+                           ωˆ              ⊗L2 (Y ∗ )                      (3.9)
+and
+                              ω̃ ≃ L2 (Y ∗ ⊕ Y ∗ ),                      (3.10)
+                                               2
+and then (3.8) is the canonical isomorphism:
+                  L2 (Y ∗ ) ˆ
+                           ⊗L2 (Y ∗ )   =    L2 (Y ∗ ⊕ Y ∗ ),                       (3.11)
+                           Φ1 ⊗ Φ2 7→ Φ(x, y) := Φ1 (x)Φ2 (y).
+(And, similarly, subspaces of smooth vectors are identified with the corre-
+sponding spaces of Schwartz functions.)
+  Moreover:
+3.1.2. Lemma. For the canonical choices of isomorphisms (3.4) and (3.8), the com-
+position of ev0 with the morphism (3.8) is the functional:
+                                Φ1 ⊗ Φ2 7→ hΦ1 , Φ2 iω .                            (3.12)
+   For our current purposes an equality up to a scalar of absolute value one
+would be just as good; however, for our global application the exact equal-
+ity is important, combined with the compatibility of the canonical isomor-
+phisms with global models. This lemma is well-known, cf. [Li92, p.182],
+but we will repeat its proof in the next subsection to clarify the canonical
+nature of various isomorphisms.
+   Assuming this lemma from now, we conclude:
+3.1.3. Corollary. The matrix coefficients g 7→ hgΦ1 , Φ2 iω , lie in the space of
+                                  f
+                                  Sp(V ⊗W)
+the induced representation IndS     (χ), identified with the space of functions
+{f : f
+     Sp(V ⊗W) → C|f (pg) = χ(p)f (g) ∀p ∈ S, g ∈ f  Sp(V ⊗W)}, and restricted
+                f                f
+as functions to Sp(V ⊗ W ) × 1 ⊂ Sp(V ⊗ W).
+   Let now G(W) denote the preimage of the isometry group of W (consid-
+                                     f ⊗ W), and P the corresponding
+ered as a subgroup of Sp(V ⊗ W)) in Sp(V
+Siegel parabolic of G(W) fixing the isotropic space W diag . The restriction
+                         f ⊗W)
+                         Sp(V
+of an element of IndS      (χ), again considered as a function, to G(W)
+via the natural embedding G(W) → f Sp(V ⊗ W) belongs to the space of the
+   2Throughout, a bar over a vector space denotes the same space with the conjugate C-
+action, and of course for L2 -spaces we have a linear isomorphism L2 → L2 given by Φ 7→ Φ̄.
+22                             YIANNIS SAKELLARIDIS
+
+                               G(W)
+induced representation IndP     (χ|P ). Using normalized (unitary) induction
+                                G(W)
+now, which we will denote by IP       , it follows that the matrix coefficients
+of ω, restricted to G2 ⊂ f
+                         Sp(V ⊗W ) are restrictions via G2 → G2 ×1 ֒→ G(W)
+of the normalized induced representation
+                                   G(W)            −1
+                                 IP        (χ|P · δP 2 )
+of G(W), where δP denotes the modular character of P.
+                                                                         −1
+   We will now determine the growth of the character χδP 2 . It is more
+convenient here to work with classical groups, so consider the quotient
+P → ResE/F GLn , where ResE/F GLn is identified with the Levi quotient
+of the Siegel parabolic of the classical group Sp(W), in such a way that the
+canonical central cocharacter composed with the (left) adjoint action on the
+unipotent radical is positive. Notice that the absolute value of the genuine
+character χ factors through a character of ResE/F GLn – it is this character
+that the following lemma is referring to.
+                                                             −1
+3.1.4. Lemma. The absolute value of the character χδP 2 , considered as a character
+of ResE/F GLn as above, is:
+                                      −1
+                                 |χδP 2 | = | det |s0 ,                              (3.13)
+where | · | denotes the absolute value of the field E, and
+                                           m − d(n)
+                                  s0 =              .                                (3.14)
+                                              2
+     Notice that s0 ≥ 0 according to our convention that m ≥ d(n).
+Proof. This is well-known, and a fundamental fact for the theory of the
+Siegel-Weil formula, but for convenience of the reader we verify it again:
+by the explicit description of the Schrödinger model [RR93, Theorem 3.5],
+                        f ⊗ W) acts on the functional ev0 by a character χ
+the Siegel Levi S of Sp(V
+                   1
+with |χ| = | det | 2 . The map P → S corresponds to tensoring the standard
+representation W of the Levi of P by V (and changing scalars from E to F ),
+thus the determinant of the image is the m-th power of the determinant of
+                                                        m                              d(n)
+(the Levi of) P. This explains the factor | det | 2 , while the factor | det |− 2
+arises by calculation of the modular character of P.                             
+     Thus, to complete the proof of Proposition 3.1.1, up to the proof of Lemma
+                                                   G(W)       −1
+3.1.2, it suffices to show that for any f ∈ IP             (χδP 2 ), the function:
+                                G2 ∋ g 7→ f ((g, 1)),
+where g is embedded as above, lies in the Harish-Chandra Schwartz space.
+This follows from the local theory of the doubling method, more precisely
+from the following (or, rather, its proof):
+                       HOWE DUALITY AND EULER FACTORIZATION                                 23
+
+3.1.5. Lemma. For any tempered genuine representation π of G2 , any two smooth
+                                                        G(W) ′
+vectors v1 ∈ π, v2 ∈ π ∗ , and any smooth vector f ∈ IP        (χ ), the local zeta
+integral:
+                                    Z
+               ZF (v1 , v2 , f ) :=    f ((g, 1))hπ(g)v1 , v2 idg            (3.15)
+                                         G2 /C1
+
+is absolutely convergent if |χ′ | = | det |s with s > − 21 .
+Proof. See [GI14][Lemma 9.5].                                                               
+
+   The proof of this lemma in loc.cit. actually shows that the function g 7→
+f ((g, 1)) is in the Harish-Chandra space C (G2 ). By Lemma 3.1.4, and since
+we are assuming that m ≥ d(n), this applies to the induced representation
+ G(W)      −1
+IP    (χδP 2 ), completing the proof of Proposition 3.1.1, except for Lemma
+3.1.2 which will be proven in the next section.
+
+3.2. Comparison of Schrödinger models. Suppose that Z is a symplectic
+space (over our fixed local field which we keep omitting from the notation),
+ω the oscillator representation of fSp(Z) determined by the additive charac-
+ter ψ. If ℓ1 , ℓ2 are two Lagrangian subspaces, endowed with Haar measures
+dx1 , dx2 , then ω can be realized on the spaces L2 (ℓ∗1 , dx1 ) and L2 (ℓ∗2 , dx2 ),
+and there is a unique up to a scalar of absolute value 1 equivariant isome-
+try:
+                                                   ∼
+                          Fℓ1 ,ℓ2 : L2 (ℓ∗1 , dx1 ) −
+                                                    → L2 (ℓ∗2 , dx2 ).                  (3.16)
+  Following [Tho08], we will now describe more canonical Schrödinger
+models, replacing functions by half-densities valued appropriate line bundles,
+and equipped with canonical isometries between them (see also [Li08] for a
+nice presentation, and [LV80] for an earlier account of canonical intertwin-
+ing operators).
+   Namely, for a Lagrangian subspace ℓ, let Hℓ denote the space of L2 -half
+densities3 on Z/ℓ valued in the hermitian line bundle whose sections are
+functions on Z satisfying:
+                                              
+                                        hz, λi
+                        f (λ + z) = ψ            f (z)                  (3.17)
+                                           2
+for all λ ∈ ℓ, z ∈ Z, where h , i denotes the symplectic pairing. We will see
+below that there are canonical intertwiners between the spaces Hℓ for dif-
+ferent choices of ℓ, so we will henceforth consider them as canonical models
+for the oscillator representation.
+
+   3I use “densities” for the sheaf of densities on our vector spaces, not just for the “Haar”
+densities of loc.cit. Thus, our densities are functions on the vector spaces times the “Haar”
+densities of loc.cit – when they are valued in the trivial line bundle their squares are (arbi-
+trary) measures on the vector spaces, and when they are valued in a hermitian line bundle
+the same is true for the squares of their absolute values.
+24                               YIANNIS SAKELLARIDIS
+
+  A choice of splitting of the quotient Z → Z/ℓ trivializes this line bundle,
+and a choice of Haar measure dx on Z/ℓ = ℓ∗ (identified through the sym-
+plectic pairing, z 7→ hz, ·i) whose positive square root is a half-density, turns
+half-densities into functions, thus giving rise to a unitary isomorphism:
+                                          ∼
+                                        → L2 (ℓ∗ , dx).
+                                     Hℓ −                                                  (3.18)
+    Later, when we will return to this point for global purposes, there are
+canonical Haar measures on the adelic points of these Lagrangians, and
+any splitting of Z → Z/ℓ over the global field k will result in the same
+trivialization of the aforementioned line bundle over the adelic points of
+Z/ℓ (because ψ is automorphic), hence we can apply the present discussion
+identifying functions with half-densities in a canonical way.
+    Now, for two such Lagrangians ℓ1 , ℓ2 , there is a canonical (given the
+character ψ) self-dual Haar measure µℓ1 ,ℓ2 on the symplectic space (ℓ1 +
+ℓ2 )/(ℓ1 ∩ ℓ2 ). Using the canonical isomorphism:
+               (ℓ1 + ℓ2 )/(ℓ1 ∩ ℓ2 ) ≃ ℓ1 /(ℓ1 ∩ ℓ2 ) ⊕ ℓ2 /(ℓ1 ∩ ℓ2 ),                    (3.19)
+                  1
+the square root µℓ21 ,ℓ2 is a half density on the space on the right. The formula:
+                                Z                                          
+                                                                   hx, yi         1
+             Fℓ1 ,ℓ2 (φ)(y) =                      φ(x + y)ψ                    µℓ21 ,ℓ2   (3.20)
+                                    x∈ℓ2 /ℓ1 ∩ℓ2                     2
+defines the canonical intertwiner: Hℓ1 → Hℓ2 .
+  Now we consider special cases that were encountered in the previous
+subsection.
+  First of all, there is a canonical isomorphism:
+                                    ∼
+                              → L2 (ℓ∗ , dx) ˆ
+                         ˆ ω̄ −
+                        ω⊗                  ⊗L2 (ℓ∗ , dx)
+for any Lagrangian ℓ whose dual is endowed with a Haar measure dx, de-
+termined by the condition that the unitary pairing between ω and ω̄ trans-
+lates to the inner product on L2 (ℓ∗ , dx). This is (3.9).
+   Secondly, if Z is a symplectic space and Z = Z ⊕ (−Z), and ℓ is the
+diagonal of Z, there is a canonical splitting Z/ℓ → Z whose image is the first
+copy of Z, and it is endowed with the self-dual Haar measure with respect
+to the character ψ. This gives a canonical isomorphism of the oscillator
+representation for Z with L2 (Z), which is (3.4).
+   In the same setting, if Y is any Lagrangian of Z whose dual is endowed
+with a Haar measure dx, then any choice of isotropic complement X to Y
+in Z (giving rise to a complement X ⊕ X to Y ⊕ Y in Z) induces the same
+isomorphism between the oscillator representation attached to Z and the
+space:
+                                L2 (Y ∗ ⊕ Y ∗ , dx × dx).
+Indeed, a different choice of splitting for the quotient Z → Y ∗ = Z/Y
+differs by a linear map κ : Y ∗ → Y . Hence, for a vector v ∈ HY ⊕Y , its
+                         HOWE DUALITY AND EULER FACTORIZATION                                                                 25
+
+images Φ, Φ′ under the two resulting isomorphisms:
+                                             ∼
+                                     → L2 (Y ∗ ⊕ Y ∗ , dx × dx)
+                               HY ⊕Y −
+satisfy:
+                                                                       
+                   ′                       hz, κ(z)i hz, κ(z)i
+                  Φ (z) = ψ                         −                       Φ(z) = Φ(z),
+                                               2         2
+the minus sign in the bracket appearing because the symplectic forms on Z
+and (−Z) are opposite. This establishes (3.10).
+    Now we specialize to the setting of Lemma 3.1.2, except that we denote
+our symplectic spaces by Z, Z instead of V ⊗ W , V ⊗ W. The oscillator
+representation associated to Z will be denoted by ω, and that associated to
+Z by ω̃. Take any Lagrangian Y ⊂ Z, and choose a Haar measure on Y ∗ .
+Set ℓ1 = Y ⊕ Y , ℓ2 = Z diag .
+    Choose a Lagrangian complement X of Y (identified with Y ∗ via the
+symplectic pairing), and a Haar measure dx. As discussed before, this iden-
+tifies ω̃ ≃ L2 (X ⊕ X, dx × dx). Moreover, we also saw that the first copy of
+Z in Z identifies ω̃ with L2 (Z, dz), where dz is the self-dual measure with
+respect to ψ. For φ1 ∈ Hℓ1 and φ2 = Fℓ1 ,ℓ2 φ1 ∈ Hℓ2 , the corresponding
+functions Φ1 ∈ L2 (X ⊕ X, dx × dx), Φ2 ∈ L2 (Z, dz) are obtained by us-
+ing Haar measures to turn half-densities into functions, and restricting to
+X ⊕ X, resp. Z ⊕ 0. More precisely, splitting the self-dual Haar measure dz
+on Z = X ⊕ Y as dx × dy, identifying the quotient ℓ2 /ℓ1 ∩ ℓ2 with X diag , and
+                                                          1
+applying formula (3.20) divided by the half-density dz 2 we get:
+                                                      φ2                           (3.20)
+                            Φ2 (x0 + y0 ) =                1   ((x0 + y0 , 0)) =====
+                                                      dz   2
+
+                                                                                               1
+       Z                                                                            
+                                                      h(x, x), (x0 + y0 , 0)i                µℓ21 ,ℓ2            (3.17)
+             φ1 ((x + x0 + y0 , x))ψ                                                           1        1    =====
+       x∈X                                                       2                             2
+                                                                                            dx0 dy0     2
+
+
+                                                                                                                              1
+Z                                                                                                                 
+                                   h(x + x0 , x), (y0 , 0)i                     h(x, x), (x0 + y0 , 0)i                     µℓ21 ,ℓ2
+       φ1 ((x+x0 , x))ψ                                                 ψ                                                     1        1
+ x∈X                                          2                                            2                              dx02 dy02
+                                                                                                   1
+                                   Z
+                       hx0 , y0 i                                                             µℓ21 ,ℓ2
+             =ψ                                  φ1 ((x + x0 , x))ψ (hx, y0 i)                  1        1   .
+                          2                x∈X                                              dx02 dy02
+                                   1              1             1
+  Now, we can write µℓ21 ,ℓ2 = dx 2 ×dy02 , where we have identified ℓ2 /ℓ1 ∩ℓ2
+with X diag as before, and ℓ1 /ℓ1 ∩ ℓ2 with Y ⊕ 0. Moreover, φ1 ((x + x0 , x)) =
+                        1      1
+Φ1 ((x + x0 , x))dx 2 dx02 . The last formula reads, then:
+                                    Z
+                          hx0 , y0 i
+    Φ2 (x0 + y0 ) = ψ                       Φ1 ((x + x0 , x))ψ (hx, y0 i) dx.                                             (3.21)
+                              2         x∈X
+26                            YIANNIS SAKELLARIDIS
+
+     In particular, for x0 = y0 = 0 we obtain:
+                                     Z
+                            Φ2 (0) =     Φ1 ((x, x))dx,
+                                       x∈X
+                                           ˆ ω̄ as in (3.11), we obtain the
+and if Φ1 is in the image of a vector of ω ⊗
+statement of Lemma 3.1.2.
+
+3.3. Plancherel decomposition of the oscillator representation. We are
+now ready to prove Theorem 3.0.2.
+   We have seen in Proposition 3.1.1 that the matrix coefficients of ω ∞ lie
+in the Harish-Chandra Schwartz space of G2 . The theorem will now fol-
+low from the pointwise Plancherel decomposition for the Harish-Chandra
+Schwartz space of the group G2 , provided that we can show that the her-
+mitian forms JπPlanch of (3.2) are positive semi-definite. This has been proven
+by Hongyu He [He03] under some additional assumptions. Notice that the
+fact that the Plancherel measure for Ω is supported on the tempered dual
+of G2 , given that the diagonal matrix coefficients of a dense subspace lie in
+L2+ǫ (G), is a theorem of Cowling, Haagerup and Howe [CHH88, Theorem
+1]. We will rely on and extend that theorem, using the Plancherel formula
+for the Harish-Chandra Schwartz space:
+3.3.1. Proposition. Let Ω be a unitary representation of (the points of) a reduc-
+tive group G over a local field, and Ω0 a dense, invariant subspace of (necessar-
+ily smooth) vectors whose matrix coefficients lie in the Harish-Chandra Schwartz
+space C (G).
+   For all tempered representations π consider the hermitian forms, depending on
+the choice of a Haar measure on G:
+                                XZ
+                Jπ (Φ1 , Φ2 ) =      hΩ(g)Φ1 , Φ2 iΩ hπ(g)v, vi π dg,      (3.22)
+                               v   G
+
+the sum running over an orthonormal basis of π.
+   Then Jπ is positive semi-definite for every tempered representation π of G, and
+Ω admits the following Plancherel formula, pointwise defined on Ω0 :
+                                      Z
+                        hΦ1 , Φ2 iΩ =     Jπ (Φ1 , Φ2 )µG (π),               (3.23)
+                                        b
+                                        G
+where µG denotes the Plancherel measure of G corresponding to the choice of Haar
+measure in (3.22).
+   The proposition immediately extends to genuine functions on G2 , and
+the notion of Harish-Chandra space for those discussed after the statement
+of Proposition 3.1.1. This is where we will apply it, but for notational sim-
+plicity we present the proof for classical groups.
+
+Proof. The formula (3.23) follows from the pointwise Plancherel decom-
+position for the Harish-Chandra Schwartz space of the group G [HC76,
+                   HOWE DUALITY AND EULER FACTORIZATION                        27
+
+Wal03]: Any Harish-Chandra Schwartz function F on G has the pointwise
+decomposition:                Z
+                           F (g) =       Fπ (g)µG (π)                      (3.24)
+                                     b
+                                     G
+with
+                                     XZ
+       Fπ (x) = tr(π̄(ρ(x)F dg)) =                F (gx)hπ(g)v, vi π dg,   (3.25)
+                                     v    G(F )
+
+where ρ denotes the right regular representation. In particular, when F is
+the matrix coefficient F (g) = hΩ(g)Φ1 , Φ2 i, one has
+                             Fπ (1) = Jπ (Φ1 , Φ2 ).
+   We just need to explain why (3.23) is a Plancherel formula for our rep-
+resentation Ω, which is equivalent to saying that the forms Jπ on Ω0 are
+positive semi-definite; indeed, once this is established, the Hilbert spaces
+of the abstract Plancherel formula (2.22) are obtained by completion.
+   From [CHH88, Theorem 1], we know that Ω is a tempered representa-
+tion. There are various equivalent characterizations of this property:
+    (1) The support of Plancherel measure for Ω lies in the tempered dual
+        Ĝtemp of G.
+    (2) Every diagonal matrix coefficient of Ω can be approximated, uni-
+        formly on compacta, by diagonal matrix coefficients of the right reg-
+        ular representation ρ of G.
+    (3) For every f ∈ L1 (G), we have an inequality of operator norms:
+                            kΩ(f dg)k ≤ kρ(f dg)k.                         (3.26)
+   For the equivalence, see [Fel60, Theorems 1.2 and 1.7] and [Eym64, Lemme
+1.23].
+   The algebra C (G)dg of Harish-Chandra Schwartz measures acts on every
+tempered representation by convolution. I remind the reader an argument
+for the convergence of the convolution operator Ω(hdg), for h ∈ C (G) and
+Ω a tempered representation: Writing h ∈ C (G) as a limit of L1 -functions
+fn , we see by (3.26) that the limit of the operators Ω(fn dg) exists, because
+the same is true for the limit of the operators ρ(fn dg).
+   We are interested in the action of a ring z(G) of “multipliers”, which lies
+in the center of a certain completion of the algebra C (G)dg. This ring can
+be identified with the algebra C (T ) of Schwartz functions which are sup-
+ported on a finite number of connected components of the orbifold T of
+tempered parameters. I outline the definitions: The tempered dual G        btemp
+has a finite-to-one map onto the orbifold T whose points are G-conjugacy
+classes of pairs (L, τ ), where L is a Levi subgroup and τ is the isomorphism
+class of an irreducible, unitary, discrete-mod-center representation of L; the
+fiber over (L, τ ) is the set of irreducible representations in the unitarily in-
+duced representation IPG (τ ), where P is a parabolic with Levi subgroup L.
+We let C (T ) be the space of Schwartz functions (i.e. smooth functions of
+28                          YIANNIS SAKELLARIDIS
+
+rapid decay) on this orbifold which are supported on a finite number of
+connected components. (Of course, in the non-Archimedean case the no-
+tion of rapid decay is irrelevant, since the components are compact. In this
+case, the ring of multipliers z(G) that I am describing here is the restric-
+tion to a finite number of spectral components of the “tempered Bernstein
+center” of Schneider and Zink [SZ07]; cf. also [DHS].)
+   There is a ring z(G) ≃ C (T ) (we will denote this isomorphism by z 7→ ẑ)
+acting on any tempered representation Ω of G. Its action on K-finite vectors
+(where K is some maximal compact subgroup) can be described in terms
+of the Harish-Chandra Schwartz algebra, and it is then a simple exercise
+on the Plancherel formula to show that this action extends to Ω (but we
+will not use this extension). More precisely, let ẑ ∈ C (T ) be given. For
+any fixed K-type τ , there is, by the Plancherel formula of [HC76, Wal03], a
+unique element z τ ∈ C (G)dg which acts by the scalar ẑ(π) on the (K, τ )-
+type vectors of π ∈ G  btemp , and annihilates all other types. (By abuse of
+notation, we write ẑ(π) for the value of ẑ on the image of π in T .) The
+formal sum:                            X
+                                   z=      zτ                          (3.27)
+                                      τ
+over all K-types is a well-defined operator on the K-finite vectors of any
+tempered representation Ω, and extends uniquely to an operator on Ω which
+commutes with the action of G.
+  Returning to the setting of the proposition, for any v, w ∈ Ω0 , h ∈ C (G)
+and x ∈ G we have:
+                            Z
+        hΩ(x)Ω(hdg)v, wi =      h(g) hΩ(xg)v, wi dg = (ρ(hdg)F )(x),
+                              G
+
+where F (x) is the matrix coefficient hΩ(x)v, wi. In other words, the matrix
+coefficient map from Ω ⊗ Ω̄ to functions on G intertwines the action of the
+algebra C (G)dg on Ω with its right regular action on functions on G (which,
+in particular, is convergent on the image of the matrix coefficient map).
+   Since the right regular action of C (G)dg preserves the space C (G), we
+may assume that the subspace Ω0 is stable under the action of C (G)dg (by
+replacing it with its span under the action of this algebra).
+   Now we return to (3.23), setting F (g) = hΩ(g)Φ, Φi. To prove that the
+hermitian forms Jπ are positive semi-definite, it is enough to show it for
+their restrictions to the set of K-finite vectors in Ω0 . Thus, assume that
+Φ ∈ Ω0 is K-finite. If z ∈ z(G) we get:
+                    0 ≤ hΩ(z)Φ, Ω(z)Φi = (ρ(z ∗ z)F )(1)
+(where z ∗ denotes the adjoint operator, which for f dg ∈ C (G)dg is repre-
+sented by f ∗ dg, with f ∗ (g) = f (g −1 ))
+       Z
+    =          |ẑ(π)|2 Fπ (1)µG (π) (by the Plancherel formula for C (G))
+        btemp
+        G
+                    HOWE DUALITY AND EULER FACTORIZATION                         29
+                            Z
+                        =            |ẑ(π)|2 Jπ (Φ, Φ)µG (π).
+                             btemp
+                             G
+   The Plancherel measure is concentrated on the set T 0 of elements of
+btemp for which the map to T
+G                                    is a bijection; indeed, in a family of repre-
+sentations parabolically induced from discrete series, with the discrete se-
+ries varying by unramified twists, generic elements are irreducible. Hence,
+the above integral is really an integral over the orbifold T . Moreover,
+the restriction of Fπ (1) = Jπ (Φ, Φ) to T 0 extends to a Schwartz function
+t 7→ Jt (Φ, Φ) on this orbifold, again by the Plancherel formula for C (G). If
+we had Jt (Φ, Φ) < 0 for some t ∈ T , and hence in some neighborhood of t,
+we would get a contradiction by choosing ẑ with support in this neighbor-
+hood. Thus, Jt (Φ, Φ) ≥ 0 for all t. This is enough to establish the Plancherel
+formula, but we notice that it also implies that Jπ (Φ, Φ) ≥ 0 for every tem-
+pered π: indeed, if the fiber over t ∈ T contains a finite number of elements
+π1 , . . . , πk , and πi appears with multiplicity mi ≥ 1 in the corresponding
+                                                                   P
+induced representation, we have just shown that the sum ki=1 mi Jπi is a
+positive semi-definite hermitian form, but since the representations πi are
+inequivalent, each of the summands has to be positive semi-definite.
+                                                                                
+   Combining this with Proposition 3.1.1, Theorem 3.0.2 follows. We also
+get as a corollary the following result, which generalizes a theorem of Hongyu
+He [He03], answering a question of Jian-Shu Li [Li89] in the case where π2
+is tempered:
+3.3.2. Corollary. The hermitian forms JπPlanch of (3.2) are positive semi-definite,
+for every tempered representation π2 of G2 .
+
+                            4. E ULER FACTORIZATION
+4.1. Global conjecture and theorem. With the spaces V and W defined
+over a global field k (or its quadratic extension E, in the unitary case), and
+the additive adele class character ψ, there is a central extension:
+            1 → C1 → f
+                     Sp(V ⊗ W )(Ak ) → Sp(V ⊗ W )(Ak ) → 1,                   (4.1)
+equipped with a canonical splitting Sp(V ⊗ W )(k) ֒→ fSp(V ⊗ W )(Ak ), a
+genuine, unitary representation ω and an automorphic (i.e. Sp(V ⊗ W )(k)-
+invariant) functional:
+                               I : ω ∞ → C.                         (4.2)
+  Moreover, we may fix a restricted tensor product decomposition, as-
+sumed unitary:
+                                     O′
+                                ∞
+                              ω =       ω∞
+                                         v ,                        (4.3)
+                                            v
+                                                              f
+such that the factor ω v is the oscillator representation for Sp(V ⊗ W )(kv ),
+the preimage of Sp(V ⊗ W )(kv ) in (4.1). Choosing a Lagrangian subspace
+30                                  YIANNIS SAKELLARIDIS
+
+Y ⊂ V ⊗ W , the representation ω admits a Schrödinger model with
+                                     ω ∞ = S(Y ∗ (Ak )),
+the canonical functional I being equal to the functional:
+                                           X
+                      S(Y ∗ (Ak )) ∋ Φ 7→       Φ(γ),                                       (4.4)
+                                                           γ∈Y ∗ (k)
+
+and the factorization (4.3) can be taken to be an analogous factorization for
+the Schwartz space S(Y ∗ (Ak )), with ω v realized on its Schrödinger model
+on S(Y ∗ (kv )). Measures on adelic vector spaces will always be taken to be
+Tamagawa measures, and we fix Euler factorizations of those which on kv
+or on the kv -points of a symplectic space are self-dual with respect to the
+local factor ψv of the character ψ.
+   We now restrict the global oscillator representation ω to the dual pair
+G(Ak ) = G1 (Ak ) × G2 (Ak ), where by Gi (Ak ) we denote the C1 -cover ob-
+tained by restricting (4.1) to the appropriate subgroup of Sp(V ⊗ W )(Ak ).
+The canonical splitting of the cover over Sp(V ⊗ W )(k) induces a splitting
+of Gi (Ak ) over the k-points of the corresponding classical group, and we
+will denote the corresponding subgroup of Gi (Ak ) by Gi (k).
+   Let [Gi ] = Gi (k)\Gi (Ak ). The space [Gi ]/C1 is the automorphic quotient
+of a classical group, and we endow it with Tamagawa measure. We fix a
+factorization of this measure into measures for the local groups Gi,v /C1 .
+The notation L2 ([Gi ]) will denote the space of genuine functions on [Gi ],
+endowed with the L2 -inner product obtained by integrating against Tama-
+gawa measure on [Gi ]/C1 . Similarly, by “automorphic representation” for
+Gi we will mean, throughout, a genuine automorphic representation.
+   Let π1 , π2 be genuine, discrete automorphic representations of G1 , G2 ,
+considered as subspaces of L2 ([Gi ]) (not just as abstract adelic representa-
+tions) where [Gi ] = Gi (k)\Gi (Ak ). Set π = π1 ⊗ π2 , and define the theta
+pairing:
+                              PπAut : π̄ ∞ ⊗ ω ∞ → C                             (4.5)
+by:
+                                Z
+  ∞     ∞
+π̄ ⊗ω ∋ (ϕ1 ⊗ ϕ2 )⊗Φ 7→                          ϕ1 (g1 )ϕ2 (g2 )I(ω(g1 , g2 )Φ)d(g1 , g2 ),
+                                     [G1 ]/C1 ×[G2 ]/C1
+                                                                          (4.6)
+whenever the integral above is absolutely convergent. This is of course
+nothing else than the integral of ϕ1 against the theta lift of ϕ2 with respect
+to Φ (or vice versa):
+                           Z
+       PπAut (ϕ1 ⊗ ϕ2 ) ⊗ Φ =                            ϕ1 (g1 )θ Aut (Φ, ϕ2 )(g1 )dg1 ,   (4.7)
+                                              [G1 ]/C1
+
+where                                     Z
+                  Aut
+              θ         (Φ, ϕ2 )(g1 ) =                  ϕ2 (g2 )I(ω(g1 , g2 )Φ)dg2 .       (4.8)
+                                          [G2 ]/C1
+                   HOWE DUALITY AND EULER FACTORIZATION                          31
+
+(The image of the theta lift of elements of π2 will be denoted by θ Aut (π2 ),
+for compatibility with the local notation.) We will eventually work with π2
+cuspidal, in which case, as we will recall, θ Aut (Φ, ϕ2 )(g1 ) is in the discrete
+automorphic spectrum of [G1 ] (possibly zero); in particular, the pairings
+above are defined for every π1 , and non-zero iff π1 is not orthogonal to the
+image of θ Aut .
+   The pairing PπAut is the analog of the following “period” functional when
+X is a quasi-affine homogeneous spherical variety for a group G over k:
+                                           Z         X
+              ∞
+            π̄ ⊗ S(X(Ak )) ∋ ϕ ⊗ Φ 7→          ϕ(g)        Φ(γg)dg           (4.9)
+                                               [G]      γ∈X(k)
+
+which, when X(Ak ) = H(Ak )\G(Ak ) unfolds to the more familiar period
+integrals of automorphic forms in π̄ over [H].
+   The pairing PπAut is an element of the space HomG (π̄ ∞ ⊗ ω ∞ , C), which is
+a restricted tensor product of the (at most one-dimensional) spaces HomG(kv ) (π̄v∞ ⊗
+ω∞v , C), after we fix a unitary isomorphism with a restricted tensor product
+of local unitary representations:
+                                          ′
+                                          O
+                                  π∞ ≃         πv∞ .                         (4.10)
+                                           v
+
+  Our goal is to describe the Euler factorization of PπAut , or rather of the
+square of its absolute value, in terms of the local Plancherel formula. It will
+be more convenient to dualize. Hence, let:
+                        JπAut : ω ∞ ⊗ ω̄ ∞ → π ⊗ π̄ → C                      (4.11)
+be given by:
+                                  X
+             JπAut (Φ1 ⊗ Φ2 ) =       PπAut (ϕ̄ ⊗ Φ1 ) · PπAut (ϕ̄ ⊗ Φ2 ),   (4.12)
+                                  ϕ
+
+the sum ranging over an orthonormal basis of π. We will call this the global,
+or automorphic relative character of Howe duality.
+   For most of the groups that we are considering, the notion of global
+Arthur parameters is meaningful, by the work of Arthur and others [Art13,
+Mok15, KMSW]. In particular, we know that the discrete automorphic
+specturm of G1 and G2 is partitioned in “packets” parametrized by “equiv-
+alence classes of global Arthur parameters” which are symbolically written:
+                             ψ : Lk × SL2 → L Gi ,                           (4.13)
+(where Lk is supposed to denote the “global Langlands group” of the field,
+an extension of the global Weil group) and whose real meaning is explained
+in terms of automorphic representations of general linear groups in [Art13][§1].
+We will assume this parametrization to be known in all cases, which is
+work in progress, cf. [Li15], in order to formulate our global conjecture.
+32                            YIANNIS SAKELLARIDIS
+
+4.1.1. Remark. Of course, our groups are non-standard, and to identify them
+with classical groups or double metaplectic covers thereof, we need to choose
+idele class characters as in the local discussion of §2.2. It is clear that,
+once the Arthur parametrization is known for the corresponding classi-
+cal or metaplectic group, it gives rise in a canonical way to an analogous
+parametrization of genuine automorphic representations for our C1 -covering
+group in terms of parameters into its non-standard L-group that we at-
+tached in §2.3. (For metaplectic double covers, we recall that this parametriza-
+tion is only canonical given the choice of additive character ψ.)
+
+   We will start by formulating a global conjecture, the analog of [SV][Con-
+jecture 17.4.1]. We will restrict ourselves to the “most tempered” part of
+the distinguished spectrum, which should correspond to discrete “global
+Arthur parameters” of the form (2.25) (with the Weil-Deligne group re-
+placed by Lk ). Thus, call a global Arthur parameter for G = G1 × G2
+“ω-distinguished” if it is of the form:
+
+                             φ×Id                   γ
+                 Lk × SL2 −−−→ L Gω × SL2 −
+                                          → L (G1 × G2 ),                   (4.14)
+where the canonical map γ is that of (2.13), and φ is discrete (i.e. does not
+“factor through a Levi subgroup” – again, this has to be understood as in
+Arthur’s book).
+   Attached to such a parameter, there is (by the aforementioned work of
+Arthur and others, some in progress) a canonical subspace Aφ of L2 ([G]).
+For the groups under consideration, this space is multiplicity-free, i.e. every
+irreducible adelic representation in this space appears with multipliplicity
+one. Notice that for the (disconnected) even orthogonal group this is not
+explicitly stated in [Art13], but can be inferred from Theorem 1.5.2 in that
+monograph. It has also been established by means of the theta correspon-
+dence by Atobe-Gan [AGb].
+
+4.1.2. Conjecture. Consider an ω-distinguished global Arthur parameter induced
+from a discrete parameter φ : Lk → L G2 as above. Let π = π1 ⊗ π2 ⊂ Aφ , and as-
+sume (as expected by the generalized Ramanujan conjecture) that π2 is tempered.
+Then there is a rational number q such that:
+                                          ∗
+                                          Y
+                              JπAut = q        JπPlanch
+                                                  v
+                                                        .                   (4.15)
+                                           v
+
+Here πv = π1,v ⊗ π2,v with π1,v the theta lift of π2,v , and JπPlanch
+                                                                v
+                                                                       denotes the
+hermitian forms of the local Plancherel formula of Theorem 3.0.2 (possibly zero).
+The regularized Euler product is understood as follows: For almost every place, the
+Euler factor will be equal to a local unramified L-factor:
+
+                                 Lv (s0 + 12 , πv )
+                                                    ,                       (4.16)
+                                     dv (s0 )
+                    HOWE DUALITY AND EULER FACTORIZATION                            33
+
+
+where dv (s) is an explicit product of Hecke L-factors and s0 = m−d(n)
+                                                                  2    ≥ 0 as in
+(3.14). We thus understand the Euler product as the partial L-value:
+                                   LS (s0 + 21 , π)
+                                                    ,                          (4.17)
+                                       dS (s0 )
+where S is a sufficiently large set finite set of places, times the above product over
+v ∈ S.
+4.1.3. Remark. The L-function appearing in the numerator is the “standard
+L-function” for parameters into our non-standard L-groups of §2.3. It is
+defined as in the “standard” case: When the L-group is a subgroup of
+O(C) × Gal(k̄/k) or Sp(C) × Gal(k̄/k) (we omit the dimension from the no-
+tation), the standard representation is the standard representation of O(C),
+resp. Sp(C). In the unitary case, where the connected component of the
+L-group is GL(C), the standard representation is obtained by base change
+from k to E. The reader can easily see that our non-standard L-groups
+spare us the need to include the character χV in formulas as in [GQT14].
+The abelian L-factor dv (s0 ) appears in the evaluation of local zeta integrals,
+cf. [GQT14, §11.6] and has been computed in [LR05, p.334, Remark 3]. I
+leave it to the reader to explicate the precise meaning of the abelian factors
+dv (s0 ) in our setting, since this is somewhat orthogonal to the goal of this
+paper.
+   Let Aφ,i be the projection of Aφ to L2 ([Gi ]). If we assume that the global
+theta lift of an irreducible π2 ⊂ Aφ,2 lies in Aφ,1 , which is the global version
+of Adams’ conjecture, and restrict our attention to the case where both π2
+and θ Aut(π2 ) are (zero or) cuspidal, the conjecture above is a consequence
+of the following:
+4.1.4. Theorem. Assume that π = θ Aut(π2 ) ⊗ π2 is cuspidal (or zero), with π2
+tempered. Exclude the case when W is symplectic of dimension n and V is split
+orthogonal of dimension 2(n + 1). Then π = 0 if and only if the right hand side
+of (4.15) is zero, and in any case formula (4.15) is true on the space of π, with
+q = [E : k].
+  The statement is just a reinterpretation of known versions of the Rallis
+inner product formula, as we will see in the next section.
+Remarks.     (1) The statement means that θ Aut (π2 ) is zero if and only if the
+       partial L-function is zero at s0 , or some of the local factors JπPlanch
+                                                                            v
+       are zero.
+   (2) Temperedness ensures that the local Euler factors JπPlanchv
+                                                                      are well-
+       defined. These factors also turn out to be meromorphic in the pa-
+       rameters of the representation, and the formulas of [GQT14, Yam14]
+       extend the above result off the tempered spectrum of G2 .
+   (3) The condition that θ Aut (π2 ) is cuspidal is pretty restrictive: it only
+       happens once in every Witt tower. It would be desirable to verify
+34                             YIANNIS SAKELLARIDIS
+
+          the conjecture also in the case where π2 is discrete but not cuspidal.
+          I do not do this in this paper.
+     The goal of the rest of this section will be to prove this theorem.
+
+4.2. Reinterpretation of the Rallis inner product formula.
+
+4.2.1. Different ranges for the theta correspondence. For the purposes of apply-
+ing the Siegel-Weil theorem and obtaining the Rallis inner product formula,
+one distinguishes the following cases for a dual pair (G1 , G2 ) as in Table
+(2.1) – without, here, necessarily assuming that m ≥ d(n):
+   First of all, let r denote the Witt index of V (the dimension of its maximal
+isotropic subspace).
+      • When r = 0 or m − r > d(n), we are in the convergent range.
+          Assume now that this is not the case.
+     • The case m < d(n) is the first term range.
+     • The case m = d(n) is the boundary case.
+     • The case d(n) < m ≤ 2d(n) is the second term range.
+   Having assumed that m ≥ d(n) we are either in the boundary or second
+term range, or in the convergent range. For the second term range, we also
+need to impose an extra condition imposed by Kudla-Rallis:
+                                      r ≤ n.                               (4.18)
+The only case we are excluding by this condition is when ǫ = 1, m = 2d(n)
+and V is split, i.e. the lift from G2 = Spn to the split G1 = O2(n+1) . It
+is a technical condition that should not be necessary, but needs different
+techniques, see the discussion in [GQT14, §3.5].
+
+4.2.2. Statement of the Rallis inner product formula. Denote, as before, by W
+the (−ǫ)-hermitian space W ⊕ (−W ), and by ω̃ the oscillator representation
+of the adelic covering group f  Sp(V ⊗ W)(Ak ). By the isomorphism (3.8), any
+pair of vectors Φ1 , Φ2 ∈ ω give rise to a vector in ω̃, which we will denote
+just by Φ1 ⊗ Φ2 .
+   Recall also the morphism (3.6), from the oscillator representation attached
+to V ⊗ W to a degenerate principal series. This morphism was obtained
+by realizing the local oscillator representation ω̃ v on the space L2 (ℓ∗ (kv )),
+where ℓ was the Lagrangian subspace V ⊗W , embedded diagonally. In §3.2
+we described ways to achieve this realization, by choosing a Haar measure
+on ℓ∗ (kv ) and a splitting of the natural map V ⊗ W → V ⊗ W/ℓ = ℓ∗ ,
+and we described canonical local choices for those data. These choices do
+not matter globally (any global choice of splitting, together with Tamagawa
+Haar measure, will produce the same functional), but we work with them
+throughout in order to fix an identification of the local factors of ω̃ as in
+(4.3) with L2 (ℓ∗ (kv )), and a factorization of the global functional ev0 with
+the corresponding product of local functionals.
+                      HOWE DUALITY AND EULER FACTORIZATION                                        35
+
+                                                                              f ⊗W)(A )
+                                                                              Sp(V
+   We will denote the image of a vector Φ ∈ ω̃ ∞ by fΦ ∈ IndS(Ak )  k
+                                                                      (χ),
+and based on the isomorphisms just recalled it comes with an Euler factor-
+ization, induced from (4.3):
+                                    O
+                               fΦ =     f Φv .                      (4.19)
+                                                  v
+
+4.2.3. Theorem. Suppose that m ≥ d(n) and r ≤ n.
+   Let π2 be a cuspidal, genuine automorphic representation of G2 and consider
+the global theta lift π1 = θ Aut (π2 ) to G1 . Then:
+    (1) π1 , if non-zero, is discrete (i.e., it lies in L2 ([G1 ])). It is cuspidal if and
+        only if V is anisotropic, or the global theta lift to G−2  1 is zero, where G1
+                                                                                        −2
+
+        is constructed like G1 , replacing V by an ǫ-hermitian space V ′ such that
+        V is the orthogonal sum of V ′ and a split two-dimensional ǫ-hermitian
+        subspace.
+    (2) If π1 is cuspidal then for ϕ1 , ϕ2 ∈ π2 we have:
+                                                            ∗
+                                                            Y
+    θ Aut (ϕ1 , Φ1 ), θ Aut (ϕ2 , Φ2 ) L2 [G1 ] = [E : k]       Zv (ϕ1,v , ϕ2,v , fΦ1,v ⊗Φ2,v )
+                                                            v
+                                                                                           (4.20)
+        where s0 = m−d(n)
+                     2    , and Zv is the local zeta integral (3.15) of the doubling
+        method:
+                                   Z
+       Zv (ϕ1,v , ϕ2,v , fΦv ) =              fΦv (g, 1)hπv (g)ϕ1,v , ϕ2,v idg.            (4.21)
+                                   G2,v /C1
+
+Proof. For the discreteness statement, see [Ral84]; also [Yam14, Proposition
+10.1] – notice that condition (4) of this proposition is satisfied because we
+are assuming m ≥ d(n).
+  Under the assumption that π1 is cuspidal, (4.20) is [GQT14, Theorem
+11.4], except for the boundary case where I point the reader to [Yam14,
+Lemma 10.1].                                                                
+4.2.4. Reinterpretation in terms of the Plancherel formula. We will now reinter-
+pret the Rallis inner product formula to prove Theorem 4.1.4.
+   By Lemma 3.1.2, we have fΦ1,v ⊗Φ2,v (g, 1) = hω(g)Φ1,v , Φ2,v iω for g ∈
+G2 (Ak ). Hence, the local zeta integral (4.21), for Φv = Φ1,v ⊗ Φ2,v can be
+written:
+                                   Z
+ Zv (ϕ1,v , ϕ2,v , fΦ1,v ⊗Φ2,v ) =    hω(g)Φ1,v , Φ2,v iω hπv (g)ϕ1,v , ϕ2,v idg.
+                                       G2,v /C1
+                                                                            (4.22)
+   By Theorem 3.0.2, these are the morphisms of the local Plancherel for-
+mula with measure µG2,v , the Plancherel measure for G2,v . More precisely,
+in the notation used here:
+                                         X
+             JπPlanch
+                v
+                      (Φ 1,v ⊗ Φ 2,v ) =   Zv (ϕ2,v , ϕ2,v , fΦ1,v ⊗Φ2,v ), (4.23)
+                                             ϕ2,v
+36                                      YIANNIS SAKELLARIDIS
+
+the sum ranging over an orthonormal basis for π2,v .
+  Thus,
+                              X
+           JπAut (Φ1 ⊗ Φ2 ) =   PπAut (ϕ̄ ⊗ Φ1 ) · PπAut (ϕ̄ ⊗ Φ2 )
+                                            ϕ
+
+(sum over ϕ = ϕ1 ⊗ ϕ2 in an orthonormal basis of π = π1 ⊗ π2 )
+   X Z                                          Z
+=              ϕ1 (g1 )θ Aut(Φ1 , ϕ2 )(g1 )dg1 ·  ϕ1 (g1 )θ Aut (Φ2 , ϕ2 )(g1 )dg1 , =
+     ϕ1 ⊗ϕ2   [G1 ]/C1                                      [G1 ]/C1
+                             X
+                         =         θ Aut (ϕ2 , Φ1 ), θ Aut (ϕ2 , Φ2 ) L2 [G1 ] =
+                             ϕ2
+                         ∗ X
+                         Y
+          = [E : k]               Zv (ϕ2,v , ϕ2,v , fΦ1,v ⊗Φ2,v )   (by Theorem 4.2.3)
+                         v ϕ2,v
+                                   ∗
+                                   Y
+                     = [E : k]          JπPlanch
+                                           v
+                                                 (Φ1,v ⊗ Φ2,v ) (by (4.23)),
+                                    v
+as asserted in Theorem 4.1.4.
+
+                                            R EFERENCES
+[AB95]        Jeffrey Adams and Dan Barbasch. Reductive dual pair cor-
+              respondence for complex groups. J. Funct. Anal.,                      132(1):1–42,
+              1995.        URL:        http://dx.doi.org/10.1006/jfan.1995.1099,
+              doi:10.1006/jfan.1995.1099.
+[Ada89]       J. Adams. L-functoriality for dual pairs. Astérisque, (171-172):85–129, 1989. Or-
+              bites unipotentes et représentations, II.
+[Art13]       James Arthur. The endoscopic classification of representations, volume 61 of
+              American Mathematical Society Colloquium Publications. American Mathemati-
+              cal Society, Providence, RI, 2013. Orthogonal and symplectic groups. URL:
+              http://dx.doi.org/10.1090/coll/061, doi:10.1090/coll/061.
+[AGa]         Hiraku Atobe and Wee Teck Gan. Local theta correspondence of tempered rep-
+              resentations and Langlands parameters. Preprint. arXiv:1602.01299.
+[AGb]         Hiraku Atobe and Wee Teck Gan. On the local Langlands correspondence and
+              Arthur conjecture for even orthogonal groups. Preprint. arXiv:1602.01297.
+[Ato]         Hiraku Atobe. The local theta correspondence and the local Gan-Gross-Prasad
+              conjecture for the symplectic-metaplectic case. Preprint. arXiv:1502.03528.
+[Ber88]       Joseph     N.    Bernstein.    On      the    support    of    Plancherel    mea-
+              sure.    J.     Geom.     Phys.,      5(4):663–710     (1989),     1988.     URL:
+              http://dx.doi.org/10.1016/0393-0440(88)90024-1,
+              doi:10.1016/0393-0440(88)90024-1.
+[BD01]        Jean-Luc Brylinski and Pierre Deligne. Central extensions of reduc-
+              tive groups by K2 . Publ. Math. Inst. Hautes Études Sci., (94):5–85,
+              2001.     URL:       http://dx.doi.org/10.1007/s10240-001-8192-2,
+              doi:10.1007/s10240-001-8192-2.
+[CHH88]       M. Cowling, U. Haagerup, and R. Howe. Almost L2 matrix coefficients. J. Reine
+              Angew. Math., 387:97–110, 1988.
+[DHS]         Patrick Delorme, Pascale Harinck, and Yiannis Sakellaridis. Paley-Wiener theo-
+              rems for a p-adic spherical variety. Preprint. arXiv:1410.2279.
+                     HOWE DUALITY AND EULER FACTORIZATION                                   37
+
+[Eym64]   Pierre Eymard. L’algèbre de Fourier d’un groupe localement compact. Bull. Soc.
+          Math. France, 92:181–236, 1964.
+[Fel60]   J. M. G. Fell. The dual spaces of C ∗ -algebras. Trans. Amer. Math. Soc., 94:365–403,
+          1960.
+[GN10]    Dennis Gaitsgory and David Nadler. Spherical varieties and Langlands duality.
+          Mosc. Math. J., 10(1):65–137, 271, 2010.
+[GG14]    Wee Teck Gan and Raul Gomez. A conjecture of Sakellaridis-
+          Venkatesh on the unitary spectrum of spherical varieties. In Sym-
+          metry:      representation theory and its applications, volume 257 of
+          Progr. Math., pages 185–226. Birkhäuser/Springer, New York, 2014.
+          URL:               http://dx.doi.org/10.1007/978-1-4939-1590-3_7,
+          doi:10.1007/978-1-4939-1590-3_7.
+[GGP12]   Wee Teck Gan, Benedict H. Gross, and Dipendra Prasad. Symplectic local root
+          numbers, central critical L values, and restriction problems in the representation
+          theory of classical groups. Astérisque, (346):1–109, 2012. Sur les conjectures de
+          Gross et Prasad. I.
+[GI14]    Wee Teck Gan and Atsushi Ichino. Formal degrees and lo-
+          cal    theta     correspondence. Invent.         Math.,    195(3):509–672,      2014.
+          URL:                  http://dx.doi.org/10.1007/s00222-013-0460-5,
+          doi:10.1007/s00222-013-0460-5.
+[GI16]    Wee Teck Gan and Atsushi Ichino. The Gross-Prasad conjecture and local theta
+          correspondence. Invent. Math., 2016. doi:10.1007/s00222-016-0662-8.
+[GQT14]   Wee Teck Gan, Yannan Qiu, and Shuichiro Takeda. The regular-
+          ized Siegel-Weil formula (the second term identity) and the Ral-
+          lis inner product formula. Invent. Math.,                   198(3):739–831,     2014.
+          URL:                  http://dx.doi.org/10.1007/s00222-014-0509-0,
+          doi:10.1007/s00222-014-0509-0.
+[GS12]    Wee       Teck      Gan     and      Gordan        Savin.     Representations      of
+          metaplectic       groups    I:    epsilon     dichotomy       and     local    Lang-
+          lands      correspondence.     Compos.       Math.,      148(6):1655–1694,      2012.
+          URL:                  http://dx.doi.org/10.1112/S0010437X12000486,
+          doi:10.1112/S0010437X12000486.
+[GT11]    Wee Teck Gan and Shuichiro Takeda. On the regularized Siegel-
+          Weil formula (the second term identity) and non-vanishing of theta
+          lifts from orthogonal groups. J. Reine Angew. Math., 659:175–244,
+          2011.        URL:        http://dx.doi.org/10.1515/CRELLE.2011.076,
+          doi:10.1515/CRELLE.2011.076.
+[GT16]    Wee Teck Gan and Shuichiro Takeda. A proof of the Howe du-
+          ality conjecture. J. Amer. Math. Soc., 29(2):473–493, 2016. URL:
+          http://dx.doi.org/10.1090/jams/839, doi:10.1090/jams/839.
+[Gel76]   Stephen S. Gelbart. Weil’s representation and the spectrum of the metaplectic group.
+          Lecture Notes in Mathematics, Vol. 530. Springer-Verlag, Berlin-New York, 1976.
+[HC76]    Harish-Chandra. Harmonic analysis on real reductive groups. III. The Maass-
+          Selberg relations and the Plancherel formula. Ann. of Math. (2), 104(1):117–201,
+          1976.
+[He03]    Hongyu He. Unitary representations and theta correspondence
+          for type I classical groups. J. Funct. Anal., 199(1):92–121, 2003.
+          URL:            http://dx.doi.org/10.1016/S0022-1236(02)00170-2,
+          doi:10.1016/S0022-1236(02)00170-2.
+[HII08]   Kaoru Hiraga, Atsushi Ichino, and Tamotsu Ikeda. Formal de-
+          grees and adjoint γ-factors. J. Amer. Math. Soc., 21(1):283–304, 2008.
+          URL:            http://dx.doi.org/10.1090/S0894-0347-07-00567-X,
+          doi:10.1090/S0894-0347-07-00567-X.
+38                                YIANNIS SAKELLARIDIS
+
+[How79]   Roger     Howe.        On      some        results    of    Strichartz      and  Rallis
+          and     Schiffman.      J.     Funct.      Anal.,     32(3):297–303,       1979. URL:
+          http://dx.doi.org/10.1016/0022-1236(79)90041-7,
+          doi:10.1016/0022-1236(79)90041-7.
+[How89]   Roger Howe. Transcending classical invariant theory. J. Amer. Math. Soc.,
+          2(3):535–552,      1989. URL: http://dx.doi.org/10.2307/1990942,
+          doi:10.2307/1990942.
+[Ich01]   Atsushi Ichino. On the regularized Siegel-Weil formula. J. Reine Angew. Math.,
+          539:201–234, 2001. URL: http://dx.doi.org/10.1515/crll.2001.076,
+          doi:10.1515/crll.2001.076.
+[Ich04]   Atsushi       Ichino.       A       regularized        Siegel-Weil       formula   for
+          unitary      groups.        Math.        Z.,       247(2):241–277,        2004.  URL:
+          http://dx.doi.org/10.1007/s00209-003-0580-5,
+          doi:10.1007/s00209-003-0580-5.
+[Ich07]   Atsushi      Ichino.       On        the      Siegel-Weil        formula     for  uni-
+          tary      groups.       Math.          Z.,       255(4):721–729,         2007.   URL:
+          http://dx.doi.org/10.1007/s00209-006-0045-8,
+          doi:10.1007/s00209-006-0045-8.
+[II10]    Atsushi Ichino and Tamutsu Ikeda. On the periods of automorphic forms on
+          special orthogonal groups and the Gross-Prasad conjecture. Geom. Funct. Anal.,
+          19(5):1378–1425, 2010. doi:10.1007/s00039-009-0040-4.
+[JS07]    Dihua Jiang and David Soudry. On the genericity of cuspidal au-
+          tomorphic forms of SO(2n + 1). II. Compos. Math., 143(3):721–748,
+          2007.      URL:        http://dx.doi.org/10.1112/S0010437X07002795,
+          doi:10.1112/S0010437X07002795.
+[KMSW]    Tasho Kaletha, Alberto Minguez, Sug Woo Shin, and Paul-James White. Endo-
+          scopic classification of representations: Inner forms of unitary groups. Preprint.
+          arXiv:1409.3731.
+[KR88a]   Stephen      S.     Kudla        and       Stephen       Rallis.     On     the  Weil-
+          Siegel     formula.      J.     Reine        Angew.      Math.,       387:1–68,  1988.
+          URL:                    http://dx.doi.org/10.1515/crll.1988.391.65,
+          doi:10.1515/crll.1988.391.65.
+[KR88b]   Stephen S. Kudla and Stephen Rallis. On the Weil-Siegel formula.
+          II. The isotropic convergent case. J. Reine Angew. Math., 391:65–84,
+          1988.       URL:        http://dx.doi.org/10.1515/crll.1988.391.65,
+          doi:10.1515/crll.1988.391.65.
+[KR94]    Stephen S. Kudla and Stephen Rallis. A regularized Siegel-Weil for-
+          mula: the first term identity. Ann. of Math. (2), 140(1):1–80, 1994. URL:
+          http://dx.doi.org/10.2307/2118540, doi:10.2307/2118540.
+[Kud94]   Stephen      S.     Kudla.        Splitting      metaplectic        covers    of  dual
+          reductive       pairs.      Israel      J.     Math.,       87(1-3):361–401,     1994.
+          URL:                               http://dx.doi.org/10.1007/BF02773003,
+          doi:10.1007/BF02773003.
+[Kud96]   Stephen S. Kudla. Notes on the local theta correspondence. Notes from 10 lec-
+          tures given at the European School on Group Theory in September 1996, 1996.
+          URL: http://www.math.toronto.edu/skudla/castle.pdf.
+[LR05]    Erez M. Lapid and Stephen Rallis. On the local factors of rep-
+          resentations of classical groups. In Automorphic representations, L-
+          functions and applications:         progress and prospects, volume 11 of Ohio
+          State Univ. Math. Res. Inst. Publ., pages 309–359. de Gruyter, Berlin,
+          2005.      URL:        http://dx.doi.org/10.1515/9783110892703.309,
+          doi:10.1515/9783110892703.309.
+                      HOWE DUALITY AND EULER FACTORIZATION                                39
+
+[Li89]   Jian-Shu Li. Singular unitary representations of classical groups. Invent. Math.,
+         97(2):237–255, 1989. URL: http://dx.doi.org/10.1007/BF01389041,
+         doi:10.1007/BF01389041.
+[Li92]   Jian-Shu Li. Nonvanishing theorems for the cohomology of cer-
+         tain arithmetic quotients. J. Reine Angew. Math., 428:177–217, 1992.
+         URL:                   http://dx.doi.org/10.1515/crll.1992.428.177,
+         doi:10.1515/crll.1992.428.177.
+[Li08]   Wen-Wei Li. The Weil representation and its character. Mas-
+         ters     Thesis,       Mathematisch       Instituut   Leiden,      2008.      URL:
+         http://www.wwli.url.tw/downloads/scriptie-master.pdf.
+[Li15]   Wen-Wei Li. La formule des traces stable pour le groupe
+         métaplectique:      les termes elliptiques. Invent. Math., 202(2):743–838,
+         2015.       URL:      http://dx.doi.org/10.1007/s00222-015-0577-9,
+         doi:10.1007/s00222-015-0577-9.
+[LV80]   Gérard Lion and Michèle Vergne. The Weil representation, Maslov index and theta
+         series, volume 6 of Progress in Mathematics. Birkhäuser, Boston, Mass., 1980.
+[Mœg89] C. Mœglin. Correspondance de Howe pour les paires reductives duales:
+         quelques calculs dans le cas archimédien. J. Funct. Anal., 85(1):1–85,
+         1989. URL: http://dx.doi.org/10.1016/0022-1236(89)90046-3,
+         doi:10.1016/0022-1236(89)90046-3.
+[Mœg97] Colette Mœglin. Non nullité de certains relêvements par séries théta. J. Lie The-
+         ory, 7(2):201–229, 1997.
+[Mœg11a] C. Mœglin. Multiplicité 1 dans les paquets d’Arthur aux places p-adiques. In On
+         certain L-functions, volume 13 of Clay Math. Proc., pages 333–374. Amer. Math.
+         Soc., Providence, RI, 2011.
+[Mœg11b] Colette Mœglin. Conjecture d’Adams pour la correspondance de Howe et filtra-
+         tion de Kudla. In Arithmetic geometry and automorphic forms, volume 19 of Adv.
+         Lect. Math. (ALM), pages 445–503. Int. Press, Somerville, MA, 2011.
+[Mok15] Chung Pang Mok. Endoscopic classification of representations of quasi-
+         split unitary groups. Mem. Amer. Math. Soc., 235(1108):vi+248, 2015. URL:
+         http://dx.doi.org/10.1090/memo/1108, doi:10.1090/memo/1108.
+[Mui04]  Goran Muić. Howe correspondence for discrete series represen-
+         tations; the case of (Sp(n), O(V )). J. Reine Angew. Math., 567:99–
+         150,      2004.     URL:     http://dx.doi.org/10.1515/crll.2004.014,
+         doi:10.1515/crll.2004.014.
+[Mui06]  Goran Muić. On the structure of the full lift for the Howe correspondence
+         of (Sp(n), O(V )) for rank-one reducibilities. Canad. Math. Bull., 49(4):578–
+         591,     2006. URL: http://dx.doi.org/10.4153/CMB-2006-054-3,
+         doi:10.4153/CMB-2006-054-3.
+[Mui08a] Goran Muić. On the structure of theta lifts of discrete series
+         for dual pairs (Sp(n), O(V )). Israel J. Math., 164:87–124, 2008.
+         URL:                  http://dx.doi.org/10.1007/s11856-008-0022-5,
+         doi:10.1007/s11856-008-0022-5.
+[Mui08b] Goran Muić. Theta lifts of tempered representations for dual
+         pairs      (Sp2n , O(V )).    Canad.   J.    Math.,     60(6):1306–1335,       2008.
+         URL:                        http://dx.doi.org/10.4153/CJM-2008-056-6,
+         doi:10.4153/CJM-2008-056-6.
+[ØZ95]   B. Ørsted and G. Zhang. L2 -versions of the Howe correspondence. II. J. Math.
+         Pures Appl. (9), 74(2):165–183, 1995.
+[ØZ97]   Bent Ørsted and Genkai Zhang. L2 -versions of the Howe correspondence. I.
+         Math. Scand., 80(1):125–160, 1997.
+[Pau98]  Annegret         Paul.       Howe      correspondence        for     real       uni-
+         tary       groups.       J.     Funct.      Anal.,     159(2):384–431,         1998.
+40                                 YIANNIS SAKELLARIDIS
+
+          URL:                         http://dx.doi.org/10.1006/jfan.1998.3330,
+          doi:10.1006/jfan.1998.3330.
+[Pau00]   Annegret Paul. Howe correspondence for real unitary groups.
+          II.    Proc.      Amer.     Math.    Soc.,     128(10):3129–3136,          2000.     URL:
+          http://dx.doi.org/10.1090/S0002-9939-00-05359-4,
+          doi:10.1090/S0002-9939-00-05359-4.
+[Pau05]   Annegret Paul. On the Howe correspondence for symplectic-
+          orthogonal dual pairs. J. Funct. Anal.,                         228(2):270–310,      2005.
+          URL:                    http://dx.doi.org/10.1016/j.jfa.2005.03.015,
+          doi:10.1016/j.jfa.2005.03.015.
+[Ral84]   S. Rallis. On the Howe duality conjecture. Compositio Math., 51(3):333–399, 1984.
+          URL: http://www.numdam.org/item?id=CM_1984__51_3_333_0.
+[Ral87]   Stephen Rallis. L-functions and the oscillator representation, volume 1245 of Lecture
+          Notes in Mathematics. Springer-Verlag, Berlin, 1987.
+[RS77]    S. Rallis and G. Schiffmann. Discrete spectrum of the Weil representation. Bull.
+          Amer. Math. Soc., 83(2):267–270, 1977.
+[RR93]    R. Ranga Rao. On some explicit formulas in the theory of
+          Weil representation. Pacific J. Math., 157(2):335–371,                      1993. URL:
+          http://projecteuclid.org/euclid.pjm/1102634748.
+[SV]      Yiannis Sakellaridis and Akshay Venkatesh. Periods and harmonic analysis on
+          spherical varieties. Preprint. arXiv:1203.0039.
+[SZ07]    Peter Schneider and Ernst-Wilhelm Zink. The algebraic theory
+          of tempered representations of p-adic groups. I. Parabolic in-
+          duction and restriction. J. Inst. Math. Jussieu, 6(4):639–688, 2007.
+          URL:                    http://dx.doi.org/10.1017/S1474748007000047,
+          doi:10.1017/S1474748007000047.
+[Tho08]   Teruji Thomas. The character of the Weil representation. J. Lond. Math. Soc. (2),
+          77(1):221–239, 2008. URL: http://dx.doi.org/10.1112/jlms/jdm098,
+          doi:10.1112/jlms/jdm098.
+[Wal80]   J.-L. Waldspurger. Correspondance de Shimura. J. Math. Pures Appl. (9), 59(1):1–
+          132, 1980.
+[Wal85]   J.-L. Waldspurger. Sur les valeurs de certaines fonctions L automorphes
+          en leur centre de symétrie. Compositio Math., 54(2):173–242, 1985. URL:
+          http://www.numdam.org/item?id=CM_1985__54_2_173_0.
+[Wal90]   J.-L. Waldspurger. Démonstration d’une conjecture de dualité de Howe dans le
+          cas p-adique, p 6= 2. In Festschrift in honor of I. I. Piatetski-Shapiro on the occasion of
+          his sixtieth birthday, Part I (Ramat Aviv, 1989), volume 2 of Israel Math. Conf. Proc.,
+          pages 267–324. Weizmann, Jerusalem, 1990.
+[Wal03]   J.-L. Waldspurger. La formule de Plancherel pour les groupes p-
+          adiques (d’après Harish-Chandra). J. Inst. Math. Jussieu, 2(2):235–333,
+          2003.       URL:        http://dx.doi.org/10.1017/S1474748003000082,
+          doi:10.1017/S1474748003000082.
+[Wei64]   André Weil. Sur certains groupes d’opérateurs unitaires. Acta Math., 111:143–
+          211, 1964.
+[Wei]     Martin H. Weissman. L-groups and parameters for covering groups. Preprint.
+          arXiv:1501.06169.
+[Wei14]   Martin       H.     Weissman.       Split     metaplectic        groups      and      their
+          L-groups.        J.   Reine     Angew.     Math.,        696:89–141,       2014.     URL:
+          http://dx.doi.org/10.1515/crelle-2012-0111,
+          doi:10.1515/crelle-2012-0111.
+[Yam11]   Shunsuke        Yamana.       On    the     Siegel-Weil formula:               the     case
+          of     singular      forms.      Compos.      Math.,        147(4):1003–1021,        2011.
+                    HOWE DUALITY AND EULER FACTORIZATION                         41
+
+            URL:                http://dx.doi.org/10.1112/S0010437X11005379,
+            doi:10.1112/S0010437X11005379.
+[Yam14] Shunsuke            Yamana.    L-functions  and   theta     correspondence
+            for     classical  groups.    Invent.  Math., 196(3):651–732,     2014.
+            URL:                http://dx.doi.org/10.1007/s00222-013-0476-x,
+            doi:10.1007/s00222-013-0476-x.
+   E-mail address: sakellar@rutgers.edu
+
+   D EPARTMENT OF M ATHEMATICS AND C OMPUTER S CIENCE , R UTGERS U NIVERSITY –
+N EWARK , 101 WARREN S TREET, S MITH H ALL 216, N EWARK , NJ 07102, USA.
+AND
+
+D EPARTMENT OF M ATHEMATICS , S CHOOL OF A PPLIED M ATHEMATICAL AND P HYSICAL
+S CIENCES , N ATIONAL T ECHNICAL U NIVERSITY OF ATHENS , H EROON P OLYTECHNEIOU
+9, Z OGRAFOU 15780, G REECE .
+

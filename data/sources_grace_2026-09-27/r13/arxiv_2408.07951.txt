@@ -1,0 +1,1680 @@
+                                             ON THE ANNIHILATOR VARIETY OF A HIGHEST WEIGHT
+                                                        HARISH-CHANDRA MODULE
+
+                                                                       ZHANQIANG BAI AND JING JIANG*
+
+
+                                                   Abstract. Let G be a Hermitian type Lie group with maximal compact sub-
+                                                   group K. Let L(λ) be a highest weight Harish-Chandra module of G with the
+                                                   infinitesimal character λ. By using some combinatorial algorithm, we obtain a
+
+
+
+
+arXiv:2408.07951v1 [math.RT] 15 Aug 2024
+                                                   description of the annihilator variety of L(λ). As an application, when L(λ) is
+                                                   unitarizable, we prove that the Gelfand-Kirillov dimension of L(λ) only depends
+                                                   on the value of z = (λ, β ∨ ), where β is the highest root.
+
+
+
+
+                                                                                 1. Introduction
+                                              Let G be a simple Lie group with complexified Lie algebra g and K be a maximal
+                                           compact subgroup with complexified Lie algebra k such that G/K is a Hermitian
+                                           symmetric space. We have a Cartan decomposition g = k ⊕ p and a decomposi-
+                                           tion p = p+ ⊕ p− into nonzero irreducible K-subrepresentations. Then we have a
+                                           triangular decomposition g = k ⊕ p+ ⊕ p− and q = k ⊕ p+ is a maximal parabolic
+                                           subalgebra of g. Let h be a Cartan subalgebra of g. Denote by Φ the root system
+                                           associated with (g, h), fix a positive system Φ+ , let Cλ−ρ be a finite-dimensional
+                                           irreducible k-module with highest weight λ − ρ ∈ h∗ , where ρ is half the sum of
+                                           positive roots. It can also be viewed as a q-module with trivial p+ -action. The
+                                           corresponding generalized Verma module N (λ) is defined by
+                                                                            N (λ) := U (g) ⊗U (q) Cλ−ρ .
+                                           The simple quotient of N (λ) is denoted by L(λ), which is a highest weight module
+                                           with highest weight λ − ρ. From [EHW83], we call L(λ) a highest weight Harish-
+                                           Chandra module. The classification of unitarizable highest weight Harish-Chandra
+                                           modules is given in [EHW83] and [Jak83] independently.
+                                              For a U (g)-module M , let I(M ) = Ann(M ) be its annihilator ideal in U (g) and
+                                           J(M ) be the corresponding graded ideal in S(g) = gr(U (g)). The zero set of J(M )
+                                           in the dual vector space g∗ of g is called the annihilator variety of M , which is
+                                           also called the associated variety of I(M ). We usually denote it by V (Ann(M )).
+                                           The study of associated varieties of primitive ideals (or annihilator varieties of high-
+                                           est weight modules) is a very important problem since it is closely related with
+                                           many research fields, such as representations of Weyl groups, Kazhdan-Lusztig cells
+                                           and representations of Lie groups, see for example [BB82; BV82; Bar+23; GSK21].
+                                           Borho-Brylinski [BB82] proved that the associated variety of a primitive ideal I with
+                                           a fixed regular integral infinitesimal character is the Zariski closure of the nilpotent
+                                           orbit in g∗ attached to I, via the Springer correspondence. Joseph [Jos85] extended
+                                           this result to a primitive ideal with a general infinitesimal character.
+
+                                              *Corresponding author: jjsd6514@163.com
+                                              2020 Mathematics Subject Classification. 22E47, 17B10.
+                                              Key words and phrases. associated variety; Gelfand-Kirillov dimension; Young tableau; nilpotent
+                                           orbit.
+                                                                                           1
+   Recently Bai-Ma-Wang [BMW23] found some simple algorithms to characterize
+the nilpotent orbit appearing in the annihilator variety of a highest weight module
+for all classical type Lie algebras by using the Robinson-Schensted algorithm. In
+this paper, our first goal is to give the explicit description of V (Ann(L(λ))) for all
+highest weight Harish-Chandra modules of classical types by using the partition
+algorithm in [BMW23]. See Theorem 3.3, Theorem 4.1, Theorem 4.3, Theorem 5.1
+and Theorem 5.3.
+   The Gelfand-Kirillov (GK) dimension is an important invariant to measure the
+size of an infinite-dimensional U (g)-module M , see [Jos78] and [Vog78]. From
+Joseph [Jos78], we know that dim V (Ann(L(λ))) = 2GKdimL(λ). When there is
+only one nilpotent orbit with the dimension 2GKdimL(λ), we can determine this
+nilpotent orbit appearing in V (Ann(L(λ))) by the Gelfand-Kirillov dimension of
+L(λ). In [BXX23], Bai-Xiao-Xie computed the Gelfand-Kirillov dimensions of high-
+est weight Harish-Chandra modules of exceptional types. Then we can determine
+V (Ann(L(λ))) by the Gelfand-Kirillov dimension of L(λ) since there is only one
+nilpotent orbit with the dimension 2GKdimL(λ) for these cases. See Theorem 6.1
+and Theorem 6.2. Except for the cases of SU (p, q), Sp(n, R) and SO ∗ (2n), our
+characterization of V (Ann(L(λ))) is given in a function of z = (λ, β ∨ ).
+   Our second goal of this paper is to prove that when L(λ) is a unitary highest weight
+module with highest weight λ − ρ = λ0 + zξ, where z = (λ, β ∨ ), (λ0 + ρ, β) = 0, ξ is
+orthogonal to the root system Φ(k) and (ξ, β ∨ ) = 1, then GKdimL(λ) is independent
+of the selection of λ0 . In other words, GKdim L(λ) only depends on the value of
+z = (λ, β ∨ ). This result was firstly proved in [BH15] by using previous results in
+[Jos92]. In our paper, we use our characterization of V (Ann(L(λ))) to give a new
+proof for this result. See Theorem 7.2.
+   The paper is organized as follows. In §2, we give some necessary preliminaries
+about Gelfand-Kirillov dimension, associated variety, annihilator variety and parti-
+tion algorithm for highest weigh modules. In §3-6, we give the characterization of
+the annihilator variety V (Ann(L(λ))) for a highest weight Harish-Chandra module
+of type An−1 , type Bn and Cn , type Dn , type E6 and E7 respectively. In §7, we
+prove that when L(λ) is a unitary highest weight module, then GKdim L(λ) only
+depends on the value of z = (λ, β ∨ ).
+
+                                 2. Preliminaries
+  In this section, we will give some brief preliminaries on GK dimension, associated
+variety, annihilator variety and partition algorithm for highest weight modules. See
+[Vog78; Vog91; BMW23] for more details.
+
+2.1. Gelfand-Kirillov dimension and associated variety. Let g be a simple
+complex Lie algebra and h be a Cartan subalgebra. Let M be a finitely generated
+U (g)-module. Fix a finite dimensional generating subspace M0 of M . Let Un (g) be
+                                                                    ∞
+                                                                    L
+the standard filtration of U (g). Set Mn = Un (g) · M0 and gr(M ) =   grn M, where
+                                                                     n=0
+grn M = Mn /Mn−1 . Thus gr(M ) is a graded module of gr(U (g)) ≃ S(g).
+
+Definition 2.1. The Gelfand-Kirillov dimension of M is defined by
+                                         log dim(Un (g)M0 )
+                        GKdim M = lim                       .
+                                     n→∞        log n
+                                           2
+Definition 2.2 ([Vog91]). The associated variety of M is defined by
+             V (M ) := {X ∈ g∗ | f (X) = 0 for all f ∈ AnnS(g) (gr M )}.
+
+ The above two definitions are independent of the choice of M0 , and dim V (M ) =
+GKdim M (e.g., [NOT01]).
+
+Definition 2.3. Let g be a finite-dimensional simple Lie algebra. Let I be a two-
+sided ideal in U (g). Then gr(U (g)/I) ≃ S(g)/grI is a graded S(g)-module. Its
+annihilator is grI. We define its associated variety by
+             V (I) := V (U (g)/I) = {X ∈ g∗ | p(X) = 0 for all p ∈ grI}.
+
+2.2. Associated varieties of highest weight Harish-Chandra modules. In
+[BH15], Bai-Hunziker have found the formula of the Gelfand-Kirillov dimensions of
+unitary highest weight modules. We adopt their notations here.
+   Let (−, −) : h×h∗ → C be the canonical pairing. Let β denote the highest positive
+root. Let ρ be the half sum of positive roots. The dual Coxeter number h∨ of the
+root system Φ is defined by
+                                  h∨ := (ρ, β ∨ ) + 1.
+where β ∨ is the coroot of β. Equivalently, h∨ can be defined as the sum of coefficients
+of highest short roots in Φ+ when it is written as a sum of simple roots. Let r be
+the R-rank of G, i.e., the dimension of a Cartan subgroup of the (real) group G.
+And we have the following table.
+
+                   Table 1. Some constants associated to G/K
+
+               G                          r           c          h∨ − 1
+               SU (p, q), n = p + q − 1 min{p, q} 1              n
+               Sp(n, R)                   n           1/2        n
+               SO ∗ (2n), n = 2m          m           2          2n − 3
+               SO ∗ (2n), n = 2m + 1      m           2          2n − 3
+               SO(2, 2n − 1)              2           n − 3/2 2n − 2
+               SO(2, 2n − 2)              2           n−2        2n − 3
+               E6(−14)                    2           3          11
+               E7(−25)                    3           4          17
+
+   They also have proved that if L(λ) is a unitary highest weight module with highest
+weight λ − ρ, then there is an integer 0 ⩽ k(λ) ⩽ r such that the associated variety
+of L(λ) is Ok(λ) . We list the two crucial theorems.
+
+Proposition 2.4 ([BH15, Thm. 1.1 and Cor. 5.2]). Suppose L(λ) is a unitary
+highest weight module with highest weight λ−ρ. Let 0 ⩽ k(λ) ⩽ r be the integer such
+                                                                                  ∨)
+that V (L(λ)) = Ok(λ) . Then k(λ) = r if −(λ−ρ, β ∨ ) > c(r−1) and k(λ) = −(λ−ρ,β
+                                                                              c
+if −(λ − ρ, β ∨ ) ≤ c(r − 1). Also we have
+                                            
+                     dim Ok(λ) = k(λ) h∨ − 1 − k(λ)(k(λ) − 1)c.
+In particular, dim p+ = r (h∨ − 1) − r(r − 1)c.
+                                           3
+Proposition 2.5 ([BH15, Thm. 6.2]). Suppose L(λ) is a unitary highest weight
+module with highest weight λ − ρ. Define z(λ) := (λ, β ∨ ) and zk = (ρ, β ∨ ) − kc.
+Then                     
+                          rzr−1 , if z(λ) < zr−1 ,
+                         
+          GKdim L(λ) =      kzk−1 , if z(λ) = zk with 1 ⩽ k ⩽ r − 1,
+                         
+                         
+                            0,      if z(λ) = z0 .
+
+  In [BXX23], Bai-Xiao-Xie have given the description of the associated variety of
+L(λ), we recall some notations and results.
+   For a totally ordered set Γ, we denote by Seqn (Γ) the set of sequences x =
+(x1 , x2 , · · · , xn ) of length n with xi ∈ Γ. In our paper, we usually take Γ to be Z or
+a coset of Z in C. By using the Robinson-Schensted algorithm for x ∈ Seqn (Γ), we
+can get a Young tableau P (x). Denote p(x) = sh(P (x)) = [p1 , p2 , ..., pN ], where pi
+is the number of boxes in the i-th row of P (x).
+
+Definition 2.6. Fix a positive integer n, a partition P        of n is a decreasing sequence
+p = [p1 , p2 , ..., pn ] of nonnegative integers such that 1≤i≤n pi = n. We say q =
+[q1 , q2 , · · · , qN ] is the dual partition of a partition p = [p1 , p2 , · · · , pN ] and write
+q = pt if qi is the length of i-th column of the Young tableau P with shape p.
+
+   For a Young diagram P , use (k, l) to denote the box in the k-th row and the l-th
+column. We say the box (k, l) is even (resp. odd) if k + l is even (resp. odd). Let pev
+                                                                                     i
+(resp. pod
+        i ) be the number of even (resp. odd) boxes in the i-th row of the Young
+diagram P . One can easily check that
+                   ( p                           ( p 
+                      2
+                       i
+                           , if i is odd,     od       2 ,
+                                                        i
+                                                               if i is odd,
+(2.7)        pev
+              i  =   pi                   p i  =    pi 
+                      2 ,    if i is even,             2 ,     if i is even.
+Here for a ∈ R, ⌊a⌋ is the largest integer n such that n ≤ a, and ⌈a⌉ is the smallest
+integer n such that n ≥ a. For convenience, we set
+                    pev = (pev   ev
+                            1 , p2 , · · · ) and       pod = (pod   od
+                                                               1 , p2 , · · · ).
+
+Example 2.8. Let p = [6, 5, 4, 3, 2, 1] be the shape of the Young diagram P . Then
+odd and even boxes in P are marked as follows.
+                                      E O E O E O
+                                      O E O E O
+                                      E O E O
+                                      O E O
+                                      E O
+                                      O
+Then pev = (3, 2, 2, 1, 1, 0) and pod = (3, 3, 2, 2, 1, 1).
+
+  For convenience, x = (x1 , x2 , · · · , xn ) ∈ Seqn (Γ), set
+               x− =(x1 , x2 , · · · , xn−1 , xn , −xn , −xn−1 , · · · , −x2 , −x1 ).
+
+Proposition 2.9 ([BXX23, Thm. 6.1, Thm. 6.2]). Let L(λ) be a highest weight
+Harish-Chandra module of G with highest weight λ − ρ and λ = (t1 , · · · , tn ) ∈ h∗ .
+                                                  4
+Set q = q(λ) = (q1 , q2 , · · · , q2n ) = p(λ)t when G is of type A and q = q(λ− ) =
+(q1 , q2 , · · · , q2n ) = p(λ− )t when G is of type B, C or D. Then V (L(λ)) = Ok(λ) with
+k(λ) given as follows.
+   (1) G = SU (p, n − p). Then
+                            (
+                                   q2 ,          if λ is integral,
+                       k(λ) =
+                                   min{p, q},    otherwise.
+
+
+   (2) G = Sp(n, R) with n ≥ 2. Then
+                             
+                               2q od ,           if t1 ∈ Z,
+                              2
+                             
+                      k(λ) = 2q2ev + 1,           if t1 ∈ 21 + Z,
+                             
+                             
+                             
+                                n,                otherwise.
+
+   (3) G = SO ∗ (2n) with n ≥ 4. Then
+                                 (
+                                   q2ev ,        if t1 ∈ 12 Z,
+                          k(λ) =  n 
+                                         2   ,   otherwise.
+
+   (4) G = SO(2, 2n − 1) with n ≥ 3. Then
+                           
+                           
+                            0, if t1 − t2 ∈ Z, t1 > t2 ,
+                           
+                    k(λ) = 1, if t1 − t2 ∈ 21 + Z, t1 > 0,
+                           
+                           
+                           
+                             2, otherwise.
+
+   (5) G = SO(2, 2n − 2) with n ≥ 4. Then
+                         
+                         
+                          0, if t1 − t2 ∈ Z, t1 > t2 ,
+                         
+                  k(λ) = 1, if t1 − t2 ∈ Z, − |tn | < t1 ≤ t2 ,
+                         
+                         
+                         
+                           2, otherwise.
+
+Proposition 2.10 ([BXX23, Thm. 7.1]). Let L(λ) be a highest weight Harish-
+Chandra module of E6(−14) or E7(−25) . If λ ∈ h∗ is not integral, then V (L(λ)) =
+Ok(λ) with k(λ) = 2 (for E6(−14) ) or 3 (for E7(−25) ). In the case when λ is integral,
+k(λ) is given as follows.
+   (1) If G = E6(−14) , then
+                          
+                          
+                           0, if Ψ+ λ ∩ S2 6= ∅,
+                          
+                 k(λ) =     1, if Ψ+                   +
+                                     λ ∩ S1 6= ∅ and Ψλ ∩ S2 = ∅,
+                          
+                          
+                          
+                            2, if Ψ+ λ ∩ S1 = ∅.
+                                                                                 1
+        Here S1 = 21 (±(e1 +e2 +e3 −e4 )−e5 −e
+                                               6 −e7 +e8 )} =  β1 , β2 }, S 2 =   2 (e1 −
+                                                          +             +        ∨
+        e2 − e3 − e4 − e5 − e6 − e7 + e8 )} = α1 } and Ψλ = α ∈ Φ |(λ, α ) > 0}.
+                                             5
+    (2) If G = E7(−25) , then
+                           
+                           
+                            0, if Ψ+ λ ∩ S3 6= ∅,
+                           
+                           
+                            1, if Ψ+                      +
+                           
+                                      λ ∩ S2 6= ∅ and Ψλ ∩ S3 = ∅,
+                           
+                  k(λ) =                                   +
+                           
+                           
+                            2, if Ψ+ λ ∩ S1 6= ∅ and Ψλ ∩ S2 = ∅,
+                           
+                           
+                            3, if Ψ+ ∩ S1 = ∅.
+                           
+                                      λ
+                    1                                                          
+        Here S1 = 2 (±(e1 − e2 − e3 + e4 ) − e5+ e6 − e7 + e8 ), e5 + e6 } = β3 , β4
+                                                                                        , β5 },
+                                                                                  +
+        S2 = ± e1 + e6 } = β6 , β7 }, S3 = − e5 + e6 } = β8 } and Ψλ = α ∈
+        Φ+ |(λ, α∨ ) > 0}.
+
+2.3. Annihilator variety. For a U (g)-module M , let I(M ) = Ann(M ) be its anni-
+hilator ideal in U (g) and J(M ) be the corresponding graded ideal in S(g) = gr(U (g)).
+The zero set of J(M ) in the dual vector space g∗ is called the annihilator variety
+of M , and we denote it by V (Ann(M )). Let G be a connected semisimple finite
+dimensional complex algebraic group with Lie algebra g and W be the Weyl group
+of g. We use Lw to denote the simple highest weight g-module of highest weight
+−wρ − ρ with w ∈ W . We denote Iw = Ann(Lw ), then by [BB85] V (Iw ) = Ow is
+irreducible, where Ow is a nilpotent coadjoint orbit in g∗ .
+
+Proposition 2.11 ([Jos85]). Let g be a reductive Lie algebra and I be a primitive
+ideal in U (g).Then V (I) is the closure of a single nilpotent coadjoint orbit OI in
+g∗ . In particular, for a highest weight module L(λ), we have V (Ann(L(λ))) =
+OAnn(L(λ)) .
+
+  From [Jos78, Prop. 2.7] and [Vog78], we have dim V (Iw ) = 2GKdim(Lw ). In
+general, we have the following corollary.
+
+Corollary 2.12. Suppose L(λ) is a highest weight Harish-Chandra module with
+V (L(λ)) = Ok(λ) for some 0 ≤ k(λ) ≤ r. Then dim OAnn(L(λ)) = 2 dim Ok(λ) =
+2 dim V (L(λ)).
+
+  In [BMW23] the authors give the annihilator varieties of classical Lie algebras,
+and we recall the notions and algorithms here.
+                                              n
+                                              P
+  For λ ∈ h∗ , write λ = (t1 , . . . , tn ) =   ti ei , where ti ∈ C and {ei | 1 ≤ i ≤ n}
+                                              i=1
+is the canonical basis of the Euclidean space Rn . We associate to λ a set S(λ) of
+some Young tableaux as follows. Let λY : ti1 , ti2 , . . . , tir be a maximal subsequence
+of t1 , t2 , . . . , tn such that tik , 1 ≤ k ≤ r are congruent to each other by Z. Then the
+Young tableau P (λY ) associated to the subsequence λY by using RS algorithm is a
+Young tableau in S(λ).
+  In case of g = so(2n + 1, C), sp(n, C) and so(2n, C), we need some more notations
+before we give the descriptions of V (Ann(L(λ))).
+   Define [λ] to be the set of maximal subsequence λY of λ such that any two entries
+of λY have an integral difference or sum. In this case, we set [λ]1 (resp. [λ]2 ) to
+be the subset of [λ] consisting of sequences with all entries belonging to Z (resp.
+1
+2 + Z), Since there is at most one element in [λ]1 and [λ]2 , we denote them by λ(0)
+and λ( 1 ) . Set [λ]1,2 = [λ]1 ∪ [λ]2 and [λ]3 = [λ] \ [λ]1,2 . For λY ∈ [λ]1,2 we can get
+       2
+                                              6
+                                                                       c
+a Young tableau P (λ−
+                    Y ) and P (λ̃Y ) for λY ∈ [λ]3 . We use P ⊔Q to denote a new
+Young tableau whose columns are the union of columns of the Young tableaux P
+and Q. We use X to denote the corresponding type of Lie algebras, i.e., X = B, C
+or D. Then we have the following result.
+
+Proposition 2.13 ([BMW23], Thm. 5.4, 6.5, 6.6 and 7.14). Suppose λ ∈ h∗ , the
+annihilator variety of L(λ) is given as follows.
+   (1) If g = sl(n, C), then
+                                V (Ann(L(λ))) = Op(λ) ,
+       where p(λ) is the partition of the Young tableau
+                                                 c
+                               P (λ) =           ⊔         P (λY ) .
+                                         P (λY )∈S(λ)
+
+
+   (2) If g = so(2n + 1, C), sp(n, C) or so(2n, C), λ ∈ h∗ and [λ] = [λ]1 ∪ [λ]2 ∪ [λ]3
+       with [λ]3 = {λY1 , . . . , λYm }. Let
+        (a) p0 be the X-type special partition associated to [λ]1 ;
+        (b) p 1 be the C-type special partition (for type B) or C-type metaplectic
+              2
+            special partition (for types C and D) associated to [λ]2 ;
+        (c) pi be the A-type partition associated to λ̃Yi .
+       Let pX (λ) be the X-collapse of
+                                             c           c c
+                                dλ := p0 ⊔p 1 ⊔(⊔i 2pi ).
+                                                     2
+
+       Then we have
+                               V (Ann(L(λ))) = OpX (λ) .
+
+Remark 2.14. From [BMW23, §6], we know that p0 will be the partition [1] in the
+case of type B if [λ]1 = ∅.
+   Note that a C-type metaplectic special partition p means that p = ((dt )D )t , where
+d is a special partition of type D. From [BMW23], we can get a C-type metaplectic
+special partition from the Young tableau P (λ− (1)
+                                                   ) by using the H-algorithm defined
+                                                           2
+in [BMW23, Chap. 8]. We can also get a special partition from the Young tableau
+P (λ− ) or P (λ−
+               (1)
+                   ) by using the H-algorithm.
+               2
+
+   Roughly speaking, the H-algorithm is equivalent to the following: during the
+process of collapse and expansion, we can not move the odd boxes for types B and C
+(resp. even boxes for type D) and the moving even box can not meet another even
+box in the same row (resp. the moving odd box can not meet another odd box in
+the same row for type D).
+
+  Special partitions are given by the following characterizations.
+
+Proposition 2.15 ([CM93, Thm. 5.1.1, 5.1.2, 5.1.3 & 5.1.4 and Prop. 6.3.7]). The
+nilpotent orbits of classical types can be identified with some partitions as follows:
+   (1) Nilpotent orbits in sl(n, C) are in one-to-one correspondence with the set of
+       partitions of n. Every partition is special.
+                                                 7
+    (2) Nilpotent orbits in so(2n + 1, C) are in one-to-one correspondence with the
+        set of partitions of 2n + 1 in which even parts occur with even multiplicity.
+        A partition q of type B is special if and only if its dual partition qt is a
+        partition of type B.
+    (3) Nilpotent orbits in sp(n, C) are in one-to-one correspondence with the set of
+        partitions of 2n in which odd parts occur with even multiplicity. A partition
+        q of type C is special if and only if its dual partition qt is a partition of type
+        C.
+    (4) Nilpotent orbits in so(2n, C) are in one-to-one correspondence with the set
+        of partitions of 2n in which even parts occur with even multiplicity, except
+        that each “very even” partition d (consisting of only even parts) correspond
+        to two orbits, denoted by OdI and OdII . A partition q of type D is special if
+        and only if its dual partition qt is a partition of type C.
+
+                     3. Annihilator varieties for type An−1
+  In this section, we consider the case of type An−1 .
+
+Definition 3.1. For g = sl(n, C), we say λ ∈ h∗ is (p, q)-dominant if ti −tj ∈ Z>0 for
+all i, j such that 1 ≤ i < j ≤ p and p + 1 ≤ i < j ≤ p + q, where λ = (t1 , t2 , . . . , tn ).
+In particular, t1 > t2 > · · · > tp and tp+1 > tp+2 > · · · > tp+q .
+
+Proposition 3.2 ([BX19, Thm. 5.2]). For g = sl(n, C), assume that λ ∈ h∗ is
+(p, q)-dominant.
+    (1) If tp − tp+1 ∈ Z, that is, λ is an integral weight, then P (λ) is a Young tableau
+        with at most two columns. And in this case GKdim L(λ) = m(n − m) where
+        m is the number of entries in the second column of P (λ).
+    (2) If tp −tp+1 ∈
+                    / Z, then S(λ) consists of two Young tableaux with single column,
+        and in this case GKdim L(λ) = pq.
+
+Theorem 3.3. Let L(λ) be a Harish-Chandra module of SU (p, n − p) with highest
+weight λ − ρ ∈ h∗ . Suppose q2 is the length of second column of the Young tableau
+P (λ). Then V (Ann(L(λ))) = Op with
+                          (
+                              [2q2 , 1n−2q2 ], if λ is integral,
+                       p=
+                              [2r , 1n−2r ],   otherwise.
+
+Proof. From [EHW83], we know that λ ∈ h∗ is (p, n − p)-dominant.
+(1) When λ is not integral, S(λ) has two Young tableaux and these two Young
+    tableaux have only one column, so
+                           p(λY1 ) = [1p ] and p(λY2 ) = [1n−p ].
+                                                  c
+    By Proposition 2.13, p = p(λ) = p(λY1 )⊔p(λY2 ) = [2r , 1n−2r ] is the correspond-
+    ing partition for V (Ann(L(λ))) = Op , where r = min{p, n − p}.
+(2) When λ is integral, P (λ) is a Young tableau with at most two columns by
+    Proposition 3.2. Thus by Proposition 2.13, we have V (Ann(L(λ))) = Op , where
+    p = p(λ) = [2q2 , 1n−2q2 ] with q2 being the length of second column of the Young
+    tableau P (λ).
+                                              8
+So far, we have completed the proof.                                                       
+
+Corollary 3.4. Keep notations as above. When V (L(λ)) = Ok(λ) , we will have
+V (Ann(L(λ))) = Op with
+                                         p = [2k(λ) , 1n−2k(λ) ].
+
+                 4. Annihilator varieties for types Bn and Cn
+   In this section, we consider the case of types Bn and Cn .
+
+Theorem 4.1. Let L(λ) be a Harish-Chandra module of SO(2, 2n − 1) with highest
+weight λ−ρ = λ0 +zξ ∈ h∗ . Denote λ0 = (λ1 , λ2 , · · · , λn ), then V (Ann(L(λ))) = Op
+with             2n+1
+                 [1
+                         ],    if z ∈ λ2 − λ1 + Z≥0 ,
+               p=       [22 , 12n−3 ],      if z > −λ1 − n + 21 and z ∈ 12 + Z,
+                    
+                        [3, 12n−2 ],
+                    
+                                            otherwise.
+
+Proof. From [EHW83] we know that λ − ρ = λ0 + zξ with λ0 = (λ1 , λ2 , · · · , λn ),
+λ2 ≥ λ3 ≥ · · · ≥ λn ≥ 0, λi − λj ∈ Z and 2λi ∈ N for 2 ≤ i, j ≤ n. By the
+normalization (λ0 + ρ, β) = 0, we have λ1 + λ2 = −2n + 2.
+(1) When λ is integral, we have ξ = (1, 0, . . . , 0) and
+                              1          3              1
+             λ = (z + λ1 + n − , λ2 + n − , · · · , λn + ) := (t1 , ..., tn ).
+                              2          2              2
+    Thus we have t2 > t3 > · · · > tn−1 > tn > 0.
+    When t1 > t2 (equivalently z ∈ λ2 − λ1 + Z≥0 ), L(λ) will be finite-dimensional
+    and V (Ann(L(λ))) = Op with the partition p = [12n+1 ] corresponding to the
+    trivial orbit of type Bn .
+    When t1 ≤ t2 , by using the Robinson-Schensted algorithm for λ− , we can get
+    a Young tableau P (λ− ) which consists of at most three columns. When t2 ≥
+    t1 > −tn , from the construction process, we can see that P (λ− ) will be a Young
+    tableau consisting of two columns with c1 (P (λ− )) = 2n − 2 and c2 (P (λ− )) =
+    2. Thus p(λ− ) = [2, 2, 12n−4 ]. In this case, the special partition of type B
+    corresponding to p(λ− ) is p = [3, 12n−2 ]. Therefore V (Ann(L(λ))) = Op by
+    Proposition 2.13. When t1 ≤ −tn , P (λ− ) will be a Young tableau consisting of
+    three columns with c1 (P (λ− )) = 2n−2, c2 (P (λ− )) = 1 and c3 (P (λ− )) = 1. Thus
+    p(λ− ) = [3, 12n−3 ]. In this case, the special partition of type B corresponding
+    to p(λ− ) is p = [3, 12n−2 ].
+(2) When λ is half integral, we have tn > 0, t1 − t2 ∈ 21 + Z, 2tk ∈ Z for 1 ≤ k ≤ n
+    and ti − tj ∈ Z>0 for 2 ≤ i < j ≤ n. Then we have t2 > t3 > ... > tn > −tn >
+    ... > −t2 . We denote λY1 = (t2 , ..., tn ) and λY2 = (t1 ). Thus λY1 , λY2 ∈ [λ]1,2 . By
+    using Robinson-Schensted algorithm, we can get a Young tableau P (λ−           Y1 ) with
+                −     2n−2                                  −
+    shape p(λY1 ) = [1     ] and a Young tableau P (λY2 ) with shape
+                                       (
+                               −            [2],     if t1 ≤ 0,
+                            p(λY2 ) =
+                                            [1, 1], if t1 > 0.
+                                                    9
+    If t1 ∈ 12 + Z (equivalently z ∈ 21 + Z), we will have λY1 ∈ [λ]1 and λY2 ∈ [λ]2 .
+    From Proposition 2.13, we have p0 = [12n−1 ] and
+                                   (
+                                       [1, 1], if t1 > 0,
+                             p1 =
+                               2       [2],    if t1 ≤ 0.
+    Therefore by Proposition 2.13, we have V (Ann(L(λ))) = Op with
+                                    (
+                           c           [2, 2, 12n−3 ], if t1 > 0,
+                  p = (p0 ⊔p 1 )B =
+                             2         [3, 12n−2 ],    if t1 ≤ 0.
+
+    If t1 ∈ Z (equivalently z ∈ 12 + Z), we will have λY1 ∈ [λ]2 and λY2 ∈ [λ]1 . From
+    Proposition 2.13, we have p 1 = [12n−2 ] and
+                                  2
+                                    (
+                                      [1, 1, 1], if t1 > 0,
+                             p0 =
+                                      [3],       if t1 ≤ 0.
+    Therefore by Proposition 2.13, we have V (Ann(L(λ))) = Op with
+                                    (
+                           c           [2, 2, 12n−3 ], if t1 > 0,
+                  p = (p0 ⊔p 1 )B =
+                             2         [3, 12n−2 ],    if t1 ≤ 0.
+
+    Note that t1 > 0 is equivalent to z > −λ1 − n + 12 .
+(3) When λ is not integral or half integral, we have λY1 = (t2 , · · · , tn ) ∈ [λ]1,2 and
+    λY2 = (t1 ) ∈ [λ]3 . By using Robinson-Schensted algorithm, we can get a Young
+    tableau P (λ−                    −
+                 Y1 ) with shape p(λY1 ) = [1
+                                              2n−2 ] and a Young tableau P (λ ) with
+                                                                                  Y2
+    shape [1]. Thus we have p0 = [1 2n−1 ] or p 1 = [12n−2 ], and p1 = [1]. Therefore by
+                                                  2
+                                                                        c
+    Proposition 2.13, we have V (Ann(L(λ))) = Op with p = (p0 ⊔2p1 )B = [3, 12n−2 ]
+                c       c
+    or p = ([1]⊔p 1 ⊔2p1 )B = [3, 12n−2 ].
+                    2
+
+  This finishes the proof.
+                                                                                        
+
+Remark 4.2. From [EHW83, Lem. 3.17], we know that the generalized Verma
+module N (λ) will be irreducible when λ is not integral or half integral. Thus we
+will have V (Ann(L(λ))) = V (Ann(N (λ))) = Op with p = [3, 12n−2 ], which is just
+the Richardson nilpotent orbit G · p+ , see [BZ17].
+
+Theorem 4.3. Let L(λ) be a Harish-Chandra module of Sp(n, R) with highest
+weight λ − ρ ∈ h∗ . Suppose q2 is the length of second column of the Young tableau
+P (λ− ). Denote λ0 = (λ1 , λ2 , · · · , λn ), then V (Ann(L(λ))) = Op with
+
+                            2qod 2n−4qod
+                            [2 ev , 1
+                                 2       2 ],         if z ∈ Z,
+                                             ev
+                        p=     2q   +1
+                             [2 2 , 1  2n−4q 2 −2 ],   if z ∈ 21 + Z,
+                           
+                            [2n ],                    otherwise.
+
+Proof. From [EHW83] we know that λ − ρ = λ0 + zξ with λ0 = (λ1 , λ2 , · · · , λn ),
+λi − λj ∈ N for i < j. By the normalization (λ0 + ρ, β) = 0, we have λ1 = −n.
+  Firstly we suppose that n is even. Then we have the follows.
+                                             10
+(1) When λ is integral, we have ξ = (1, 1, . . . , 1) and
+                                     | {z }
+                                                 n
+
+         λ = (λ1 + z + n, λ2 + z + n − 1, · · · , λn + z + 1) := (t1 , t1 , · · · , tn ).
+    Thus we have t1 > t2 > · · · > tn−1 > tn .
+    When t1 ∈ Z (equivalently z ∈ Z), by using the Robinson-Schensted algorithm
+    for λ− , we can get a Young tableau P (λ− ) which consists of at most two columns
+    with c2 (P (λ− )) = q2 and c1 (P (λ− )) = 2n − q2 . Thus p(λ− ) = [2q2 , 12n−2q2 ]. In
+    this case the special partition of type C corresponding to p(λ− ) is
+                          (
+                             [2q2 , 12n−2q2 ],         if q2 = 2k,
+                      p=       q   +1   2n−2q    −2
+                             [2  2    ,1       2    ], if q2 = 2k + 1.
+                              od         od
+    Equivalently, p = [22q2 , 12n−4q2 ] by (2.7). Therefore V (Ann(L(λ))) = Op by
+    Proposition 2.13.
+(2) When λ is half integral (equivalently z ∈ 12 + Z), we have λ ∈ [λ]2 . Similarly
+    we can get a Young tableau P (λ− ) which consists of at most two columns with
+    c2 (P (λ− )) = q2 and c1 (P (λ− )) = 2n − q2 . Thus p(λ− ) = [2q2 , 12n−2q2 ]. In this
+    case the C-type metaplectic special partition p 1 corresponding to p(λ− ) is
+                                                           2
+                                         (
+                                             q  +1
+                                           [2 2 , 1  2n−2q    2 −2 ], if q2 = 2k,
+                   ev           ev
+         p 1 = [22q2 +1 , 12n−4q2 −2 ] =     q     2n−2q
+           2                               [2 2 , 1      2 ],         if q2 = 2k + 1.
+    by (2.7).
+    Therefore V (Ann(L(λ))) = Op with p = (p 1 )C = p 1 by Proposition 2.13.
+                                                        2         2
+
+(3) When λ is not integral or half integral, we have λ ∈ [λ]3 . By Proposition
+    2.13, we have p1 = p(λ̃) = p(λ) = [1n ]. Therefore V (Ann(L(λ))) = Op with
+    p = (2p1 )C = [2n ] by Proposition 2.13.
+  When n is odd, the argument is similar to the case when n is even. We omit the
+details here.
+  This finishes the proof.                                                                  
+
+Corollary 4.4. Keep notations as above. When V (L(λ)) = Ok(λ) , we will have
+V (Ann(L(λ))) = Op with
+                                    p = [2k(λ) , 12n−2k(λ) ].
+
+Remark 4.5. From [EHW83, Lem. 3.17], we know that the generalized Verma
+module N (λ) will be irreducible when λ is not integral or half integral. Thus we
+will have V (Ann(L(λ))) = V (Ann(N (λ))) = Op with p = [2n ], which is just the
+Richardson nilpotent orbit G · p+ , see [BZ17].
+
+                      5. Annihilator varieties for type Dn
+  In this section, we consider the case of type Dn .
+
+Theorem 5.1. Let L(λ) be a Harish-Chandra module of SO(2, 2n − 2) with highest
+weight λ−ρ = λ0 +zξ ∈ h∗ . Denote λ0 = (λ1 , λ2 , · · · , λn ), then V (Ann(L(λ))) = Op
+                                               11
+with
+    2n
+    [1 ],
+                       if z ∈ λ2 − λ1 + Z≥0 ,
+p=   [22 , 12n−4 ],     if z + λ1 − λ2 ∈ Z and − |λn | − λ1 − n + 1 < z ≤ λ2 − λ1 − 1,
+   
+    [3, 12n−3 ],       otherwise.
+
+Proof. From [EHW83] we know that λ − ρ = λ0 + zξ with λ0 = (λ1 , λ2 , · · · , λn ),
+λ2 ≥ λ3 ≥ · · · λn−1 ≥ |λn |, λi − λj ∈ N and 2λi ∈ N for 2 ≤ i < j ≤ n. By the
+normalization (λ0 + ρ, β) = 0, we have λ1 + λ2 = −2n + 3.
+(1) When λ is integral, we have ξ = (1, 0, . . . , 0) and
+           λ = (z + λ1 + n − 1, λ2 + n − 2, · · · , λn−1 + 1, λn ) := (t1 , ..., tn ).
+    Thus we have t2 > t3 > · · · > tn−1 > |tn |.
+    When t1 > t2 (equivalently z ∈ λ2 − λ1 + Z≥0 ), L(λ) will be finite-dimensional
+    and V (Ann(L(λ))) = Op with the partition p = [12n ] corresponding to the
+    trivial orbit of type Dn .
+    When t1 ≤ t2 , by using the Robinson-Schensted algorithm for λ− , we can get
+    a Young tableau P (λ− ) which consists of at most four columns. When −|tn | <
+    t1 ≤ t2 (equivalently −|λn | − λ1 − n + 1 < z ≤ λ2 − λ1 − 1), from the construction
+    process, we can see that P (λ− ) will be a Young tableau consisting of two columns
+    with shape p(λ− ) = [22 , 12n−4 ] or [23 , 12n−6 ]. In this case, the special partition
+    of type D corresponding to p(λ− ) is p = [22 , 12n−4 ]. Therefore V (Ann(L(λ))) =
+    Op by Proposition 2.13.
+    When t1 ≤ −|tn |, P (λ− ) will be a Young tableau with shape p(λ− ) = [3, 12n−3 ]
+    or p(λ− ) = [4, 12n−4 ]. In this case, the special partition of type D corresponding
+    to p(λ− ) is p = [3, 12n−3 ]. Therefore V (Ann(L(λ))) = Op by Proposition 2.13.
+(2) When λ is half integral, we have λY1 = (t2 , · · · , tn ) ∈ [λ]1 and λY2 = (t1 ) ∈ [λ]2
+    (when z ∈ 21 + Z), or λY1 ∈ [λ]2 and λY2 = (t1 ) ∈ [λ]1 (when z ∈ 21 + Z). Then
+    we can get a Young tableau P (λ−                           −
+                                       Y1 ) with shape p(λY1 ) = [1
+                                                                       2n−2 ] or [2, 12n−4 ],
+
+    and a Young tableau P (λ− Y2 ) with shape
+                                      (
+                               −         [2],     if t1 ≤ 0,
+                          p(λY2 ) =
+                                         [1, 1], if t1 > 0.
+
+    (a) If t1 ∈ 12 + Z (equivalently z ∈ 12 + Z), we will have λY1 ∈ [λ]1 and λY2 ∈ [λ]2 .
+        From Proposition 2.13, we have p0 = [12n−2 ] and the C-type metaplec-
+        tic special partition p 1 corresponding to p(λ−    Y2 ) is p 1 = [2]. Therefore
+                                   2                                       2
+                                                 c
+        V (Ann(L(λ))) = Op with p = (p0 ⊔p 1 )B = [3, 12n−3 ] by Proposition 2.13.
+                                                     2
+
+    (b) If t1 ∈ Z (equivalently z ∈ 12 + Z), we will have λY1 ∈ [λ]2 and λY2 ∈ [λ]1 .
+        From Proposition 2.13, the C-type metaplectic special partition correspond-
+        ing to p(λ−
+                  Y1 ) is p 1 = [2, 1
+                                     2n−4 ] and p = [1, 1] if t > 0 or p = [2] if
+                                                 0             1          0
+                              2
+                                                                       c
+        t1 ≤ 0. Therefore V (Ann(L(λ))) = Op with p = (p0 ⊔p 1 )B = [3, 12n−3 ] by
+                                                             2
+        Proposition 2.13.
+(3) When λ is not integral or half integral, we have λY1 = (t2 , · · · , tn ) ∈ [λ]1,2 and
+                                       / 12 Z). Then we can get a Young tableau
+    λY2 = (t1 ) ∈ [λ]3 (equivalently z ∈
+                                               12
+    P (λ−                  −
+        Y1 ) with shape p(λY1 ) = [1
+                                    2n−2 ] or [2, 12n−4 ], and a Young tableau P (λ )
+                                                                                   Y2
+    with shape [1].
+    (a) If λY1 ∈ [λ]1 , we will have p0 = [12n−2 ]. From P (λY2 ), we can get a partition
+                                                                         c
+        p1 = [1]. Therefore V (Ann(L(λ))) = Op with p = (p0 ⊔2p1 )B = [3, 12n−3 ]
+        by Proposition 2.13.
+   (b) If λY1 ∈ [λ]2 , the C-type metaplectic special partition corresponding to
+       p(λ−Y1 ) is p 1 = [2, 1
+                              2n−4 ]. From P (λ ), we can get a partition p = [1].
+                                               Y2                          1
+                      2
+                                                             c
+        Therefore V (Ann(L(λ))) = Op with p = (p 1 ⊔2p1 )B = [3, 12n−3 ] by Propo-
+                                                 2
+        sition 2.13.
+  This finishes the proof.
+                                                                                             
+
+Remark 5.2. From [EHW83, Lem. 3.17], we know that the generalized Verma mod-
+ule N (λ) will be irreducible when λ is not integral. Thus we will have V (Ann(L(λ))) =
+V (Ann(N (λ))) = Op with p = [3, 12n−3 ], which is just the Richardson nilpotent or-
+bit G · p+ , see [BZ17].
+
+Theorem 5.3. Let L(λ) be a Harish-Chandra module of SO ∗ (2n) with highest
+weight λ − ρ = λ0 + zξ ∈ h∗ . Suppose q2 is the length of second column of the Young
+tableau P (λ− ). Denote λ0 = (λ1 , λ2 , · · · , λn ), then V (Ann(L(λ))) = Op with
+                           2qev 2n−4qev
+                           [2 2 , 1
+                                               2 ],   if z ∈ Z,
+                     p=         n
+                              [2 ],                    if n ∈ 2Z,
+                          
+                           n−1
+                              [2    , 1, 1],           if n ∈ 2Z + 1.
+
+Proof. From [EHW83] we know that λ − ρ = λ0 + zξ with λ0 = (λ1 , λ2 , · · · , λn ), and
+λi −λj ∈ N for i ≤ j. By the normalization (λ0 +ρ, β) = 0, we have λ1 +λ2 = −2n+3
+and 2λi ∈ Z for 1 ≤ i ≤ n.
+                                                          1 1         1
+(1) When λ is integral (equivalently z ∈ Z), we have ξ = ( , , . . . , ) and
+                                                          2
+                                                          | 2 {z      2}
+                                                                        n
+     1               1                       1             1
+λ = ( z + λ1 + n − 1, z + λ2 + n − 2, · · · , z + λn−1 + 1, z + λn ) := (t1 , t2 , · · · , tn ).
+     2               2                       2             2
+   Thus we have t1 > t2 > · · · > tn .
+    By using the Robinson-Schensted algorithm for λ− , we can get a Young tableau
+    P (λ− ) which consists of at most two columns with c1 (P (λ− )) = 2n − q2 and
+    c2 (P (λ− )) = q2 . Thus p(λ− ) = [2q2 , 12n−2q2 ]. In this case the special partition
+                                                         ev       ev
+    of type D corresponding to p(λ− ) is p = [22q2 , 12n−4q2 ] by (2.7). Therefore
+    V (Ann(L(λ))) = Op by Proposition 2.13.
+(2) When λ is not integral (equivalently z ∈    / Z), we will have λ ∈ [λ]3 . From
+    Proposition 2.13 we have p1 = p(λY1 ) = [1n ]. Therefore V (Ann(L(λ))) = Op
+    with                         (
+                                   [2n ],          if n ∈ 2Z,
+                   p = (2p1 )D =     n−1
+                                   [2     , 1, 1], if n ∈ 2Z + 1.
+    by Proposition 2.13.
+                                              13
+                                                                                     
+
+Corollary 5.4. Keep notations as above. When V (L(λ)) = Ok(λ) , we will have
+V (Ann(L(λ))) = Op with
+                           p = [22k(λ) , 12n−4k(λ) ].
+
+Remark 5.5. From [EHW83, Lem. 3.17], we know that the generalized Verma
+module N (λ) will be irreducible when λ is not integral. Thus when n is even, we
+will have
+                       V (Ann(L(λ))) = V (Ann(N (λ))) = Op
+with p = [2 ], which is just the Richardson nilpotent orbit G · p+ , see [BZ17].
+           n
+
+   When G = SO ∗ (2n), from Proposition 2.15, we know that each very even partition
+                                                   I       II
+p corresponds to two special nilpotent orbits Op and Op . Note that in SO ∗ (2n),
+p = [2n ] is a very even partition when n is even, which corresponds to two nilpotent
+orbits. In fact, the Levi subalgebra k of our parabolic subalgebra q = k ⊕ p+ is of
+type I by [CM93, Lem. 7.3.2]. From [CM93, Lem. 7.3.3], we know that the numeral
+of O appeared in V (Ann(L(λ))) is I if n is even. In other words, we have
+                                           I
+                       V (Ann(L(λ))) = O[2n ] when n is even.
+
+                6. Annihilator varieties for types E6 and E7
+  In this section, we consider annihilator varieties of highest weight Harish-Chandra
+modules for two exceptional groups of type E6(−14) and E7(−25) . We recall some
+notations from [Car85] and [CM93].
+    Let g be a semisimple Lie algebra. Let l be a Levi subalgebra of g and pl be
+a distinguished parabolic subalgebra of the semisimple algebra [l, l]. From [CM93,
+Thm. 8.2.12], we know that a nilpotent orbit is corresponding to an ordered pair
+(l, pl ). From [BC76], we denote this orbit by the label XN (ai ), where XN is the
+Cartan type of the semisimple part of l and i is the number of simple roots in any
+Levi subalgebra of pl . If i = 0, one writes XN rather than XN (a0 ). When g is of
+type E7 , it has two non-conjugate isomorphic Levi subalgebras. One subalgebra is
+chosen arbitrarily and labeled with a prime, and the other one has a double prime.
+  In the following tables we give four pieces of information about the nilpotent orbits
+which will be used: Bala-Carter label, dimension, fundamental group and whether
+the orbit is special or not. The Bala-Carter label K = sXN denotes s copies of XN .
+
+                    Table 2. Some nilpotent orbits in type E6
+
+
+                    label K     dim O      π1 (O)    special orbit
+                       0          0            1          yes
+                      A1          22           1          yes
+                      2A1         32           1          yes
+                      3A1         40           1          no
+                      A2          42           S2         yes
+
+                                          14
+                       Table 3. Some nilpotent orbits in type E7
+
+
+                       label K      dim O        π1 (O)      special orbit
+                          0            0             1            yes
+                          A1           34            1            yes
+                         2A1           52            1            yes
+                       (3A1 )′′        54        Z/2Z             yes
+                       (3A1 )′         64            1            no
+                          A2           66            S2           yes
+
+
+Theorem 6.1. Let L(λ) be a highest weight Harish-Chandra module of the excep-
+tional Lie group E6(−14) with highest weight λ − ρ = λ0 + zξ ∈ h∗ and V (L(λ)) =
+Ok(λ) . Denote λ0 = (λ1 , λ2 , · · · , λ8 ), then V (Ann(L(λ))) = OK with
+    
+     0,           if z > −(λ0 , α1 ) − 1 and λ is integral,
+    
+    
+    
+ K=   A1 ,         if − 4 + min{−(λ0 , β1,2 )} < z ≤ −(λ0 , α1 ) − 1 and λ is integral,
+    
+    
+     2A1 ,
+                  otherwise.
+
+Here β1,2 means the root β1 and β2 in Proposition 2.10 (1).
+
+
+Proof. From [EHW83] we know that λ − ρ = λ0 + zξ with λ0 = (λ1 , λ2 , · · · , λ8 ),
+|λ1 | ≤ λ2 ≤ · · · λ5 , λi − λj ∈ Z and 2λi ∈ Z for i, j ≤ 5. By the normalization
+(λ0 + ρ, β) = 0, we have (λ0 , β) = −11.
+
+(1) When λ is integral, we have ξ = (0, 0, 0, 0, 0, − 23 , − 32 , 23 )
+
+    (a) When Ψ+                                  ∨
+                 λ ∩ S2 6= ∅, equivalently (λ, α1 ) > 0, we will have k(λ) = 0 by
+        Proposition 2.10. By Corollary 2.12 and Table 2, we can get that the label
+        of the corresponding nilpotent orbit is K = 0.
+         Hence (λ, α∨
+                    1 ) > 0 if and only if z > −(λ0 , α1 ) − 1. In this case the label
+         K = 0.
+    (b) When Ψ+                                  ∨
+                 λ ∩ S1 = ∅, equivalently, (λ, βi ) ≤ 0 for i = 1, 2, we will have
+        k(λ) = 2 by Proposition 2.10. By Corollary 2.12 and Table 2, we can get
+        that the label of the corresponding nilpotent orbit is K = 2A1 .
+         Hence (λ, βi∨ ) ≤ 0 if and only if z ≤ −4 + min{−(λ0 , βi )} for i = 1, 2. In this
+         case the label K = 2A1 .
+    (c) When Ψ+                     +
+                λ ∩ S1 6= ∅ and Ψλ ∩ S2 = ∅, equivalently, z > −4 + min{−(λ0 , βi )}
+        and z ≤ −(λ0 , α1 ) − 1, we will have k(λ) = 2 by Proposition 2.10. By
+        Corollary 2.12 and Table 2, we can get that the label of the corresponding
+        nilpotent orbit is K = A1 .
+         Hence when −4 + min{−(λ0 , βi )} < z ≤ −(λ0 , α1 ) − 1, the label K = A1 .
+                                                15
+(2) When λ is non-integral, we will have k(λ) = 2 by Proposition 2.10. By Corollary
+    2.12 and Table 2, we can get that the label of the corresponding nilpotent orbit
+    is K = 2A1 .
+                                                                                           
+
+Theorem 6.2. Let L(λ) be a highest weight Harish-Chandra module of the excep-
+tional Lie group E7(−25) with highest weight λ − ρ = λ0 + zξ ∈ h∗ and V (L(λ)) =
+Ok(λ) . Denote λ0 = (λ1 , λ2 , · · · , λ8 ), then V (Ann(L(λ))) = OK with
+     
+     
+        0,       if z > −(λ0 , β8 ) − 1 and λ is integral,
+     
+     
+     
+      A1 ,
+                 if − (λ0 , β6,7 ) − 5 < z ≤ −(λ0 , β8 ) − 1 and λ is integral,
+K=
+     
+     
+        2A1 ,    if − 9 + min{−(λ0 , β3,4,5 )} < z ≤ −(λ0 , β6,7 ) − 5 and λ is integral,
+     
+     
+     
+      (3A1 )′′ , otherwise.
+
+Here β3,4,5 means the root β3 , β4 and β5 in Proposition 2.10 (2). Similarly β6,7
+means the root β6 and β7 in Proposition 2.10 (2).
+
+Proof. The argument is similar to the case of E6(−14) . So we omit the details here.
+                                                                                  
+
+7. The Gelfand-Kirillov dimension of a unitary highest weight module
+  Proposition 2.5 indicates that if L(λ) is a unitary highest weight module, then
+GKdim L(λ) only depends on the value z = (λ, β ∨ ). The proof of Proposition 2.5
+used some results from Joseph [Jos92]. In this section, we will prove this result by
+another method.
+
+Lemma 7.1 ([Bai+24, Lem. 5.4]). Suppose µ = (t1 , · · · , tn , s1 , · · · , sm ) is a (n, m)-
+dominant sequence with tn ≤ s1 . Then applying R-S algorithm to µ, we can get
+a Young tableau P (µ) with two columns, and the number of boxes in the second
+column is precisely the largest integer k for which we have
+                 tn−k+1 ≤ s1 , tn−k+2 ≤ s2 , · · · , tn−1 ≤ sk−1 , tn ≤ sk .
+
+   Now we recall two root systems Q(λ0 ) and R(λ0 ) given in [EHW83]. Their con-
+structions are as follows. Let Φc (λ0 ) = {α ∈ Φ(k)|(λ0 , α) = 0}. Consider the subroot
+system Ψ1 of Φ, which is generated by ±β and Φc (λ0 ). Let Q(λ0 ) be the simple
+component of Ψ1 which contains −β. If Φ has two root lengths and there exist short
+roots α′ ∈ Φ(k) which are not orthogonal to Q(λ0 ) and satisfy (λ0 , α′∨ ) = 1, then
+let Ψ2 be the root system generated by ±β, Φc (λ0 ) and all such α. Let R(λ0 ) be
+the simple component of Ψ2 which contains −β. If Φ has only one root length or no
+such α exists, we let R(λ0 ) = Q(λ0 ).
+
+Theorem 7.2. When L(λ) is a unitary highest weight module and z = zk =
+(ρ, β ∨ ) − kc, we will have V (L(λ)) = Ok(λ) , where k(λ) = r if k ≥ r and k(λ) = k if
+0 ≤ k ≤ r − 1.
+
+   When L(λ) is a unitary highest weight module, we will have V (L(λ)) = Ok(λ)
+with k(λ) given in Proposition 2.9. From [EHW83], we can write λ − ρ = λ0 + zξ,
+where ξ is the fundamental weight perpendicular to the compact roots such that
+(ξ, β ∨ ) = 1 and λ0 = (λ1 , λ2 , · · · , λn ) with (λ0 + ρ, β ∨ ) = 0.
+                                             16
+  Now z = z(λ) = (λ, β ∨ ) = zk = (ρ, β ∨ ) − kc, we want to prove that k(λ) = r if
+k ≥ r and k(λ) = k if 0 ≤ k ≤ r − 1.
+
+  In the following, we will give the proof of our Theorem 7.2 in a case-by-case way.
+The idea of our proof is uniform. For G = SU (p, q), Sp(n, R) and SO∗ (2n), we use
+Lemma 7.1 to prove our result. For other cases, we use our characterizations of
+annihilator varieties of L(λ) since they are given in a distribution of the value of
+z = z(λ) = (λ, β ∨ ).
+
+
+7.1. Proof for G = SU (p, q). For SU (p, q) with p + q = n, from [EHW83] the root
+system Q(λ0 ) = R(λ0 ) is of type su(p′ , q ′ ) with p′ ≤ p and q ′ ≤ q. Then we have
+λ1 = λ2 = · · · = λp′ > λp′ +1 and λn = λn−1 = · · · = λn−q′ +1 < λn−q′ .
+
+   From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ max{p′ , q ′ }
+or z ∈ Z with z ≤ p′ + q ′ − 1. In this case, we have c = 1, 2ρ = (n − 1, n − 3, ..., −n +
+3, −n + 1), (ρ, β ∨ ) = n − 1, λ1 − λn + n − 1 = 0 and nξ = (q, ..., q, −p, ..., −p) with
+p copies of q and q copies of −p.
+
+   We define an equivalent relation, such that λ ∼ λ′ if and only if q2 (λ) = q2 (λ′ )
+where q2 (λ) denotes the number of boxes in the second column of the Young tableau
+P (λ). We denote e = (1, 1, ..., 1) with n copies of 1 and e0 = (1, ..., 1, 0, ..., 0) with p
+copies of 1 and q copies of 0. By using R-S algorithm, we have
+
+                                             zp                                   n−1
+   λ = λ0 + zξ + ρ ∼ λ0 + zξ + ρ +              e = λ0 + ρ + ze0 ∼ λ0 + ρ + ze0 +     e.
+                                             n                                     2
+
+Thus
+
+                    n−1
+λ ∼ λ0 + ρ + ze0 +          e
+                      2
+ = (λn + z, λn + z − 1, ..., λn + z − p′ + 1, λp′ +1 + z + n − p′ − 1, ..., λp + z + n − p,
+      λp+1 + n − p − 1, ..., λn−q′ + q ′ , λn + q ′ − 1, ..., λn + 1, λn )
+ := (s1 , ..., sp , sp+1 , ..., sn ).
+
+
+  We may assume p ≤ q. Then (s1 , ..., sp ) is a strictly decreasing sequence smaller
+that λn + z and (sp+1 , ..., sn ) is a strictly decreasing sequence larger than λn .
+
+   Thus we have
+                              (
+                                  sp+m ≥ sn + q − m,     if 1 ≤ m ≤ q
+                                  si ≤ sn + z − i + 1,   if 1 ≤ i ≤ p.
+
+
+   Note that zk = (ρ, β ∨ ) − kc = n − 1 − k, so we have
+
+                       {zk | 0 ≤ k ≤ r = p} = {n − 1, n − 2, . . . , q, q − 1}.
+
+
+   Now suppose that L(λ) is a unitary highest weight module, then we have the
+follows.
+                                                  17
+(1) When p′ + q ′ − 1 ≤ q − 1, we will have z = zk ≤ p′ + q ′ − 1 ≤ q − 1 = zr . So we
+    can get
+    
+      s1 = sn + z ≤ sn + q − 1 ≤ sp+1 ,
+    
+    
+    
+    
+      s2 ≤ sp+2 ,
+    
+    
+    
+             ..
+    
+    
+              .
+       sp′ ≤ sn + z + 1 − p′ ≤ sn + q − p′ ≤ sp+p′ ,
+    
+       sp′ +1 ≤ sn + z − (p′ + 1) + 1 = sn + z − p′ ≤ sn + q − 1 − p′ ≤ sp+p′ +1 ,
+    
+    
+    
+    
+    
+    
+    
+            ..
+    
+    
+             .
+    
+       sp ≤ s2p .
+
+    Thus we have k(λ) = q2 (λ) ≥ p by Lemma 7.1 and Proposition 2.9. Since
+    k(λ) ≤ r = min{p, q} = p, we must have k(λ) = p = k.
+(2) When p′ + q ′ − 1 ≥ q and q ≤ z = zk = n − 1 − k ≤ p′ + q ′ − 1 for some
+    1 ≤ k ≤ r − 1 = p − 1, similarly we can get
+                       (
+                          sp+m ≥ sn + q − m, 1 ≤ m ≤ q
+                          si ≤ sn + z − i + 1, 1 ≤ i ≤ p.
+
+    When z − q + 2 = p − k + 1 ≤ i ≤ p, we have q − z + i − 1 = k + i − p ≥ 1 and
+
+         si ≤ sn + z − i + 1 = sn + q − (q − z + i − 1) ≤ sp+q−z+i−1 = sk+i .
+
+    So                
+                        s       ≤ sp+1 ,
+                       p−k+1
+                      
+                      
+                            ..
+                            .
+                      
+                       s ≤s
+                          p    p+q−z+p−1 = sp+n−z−1 = sp+k .
+
+    Thus we have k(λ) = q2 (λ) ≥ k by Lemma 7.1.
+    If q2 (λ) > k, we will have sp−k ≤ sp+1 , · · · , sp ≤ sp+k+1 . From z = zk =
+    n − 1 − k ≤ p′ + q ′ − 1, we can get
+
+                        n − k ≤ p′ + q ′ ⇒ q − q ′ + p − k ≤ p′ .
+
+    Now we choose a positive integer 1 ≤ i0 ≤ k such that
+
+               i0 ≥ q − q ′ (⇔ p + 1 + i0 > n − q ′ ) and p − k + i0 ≤ p′ .
+
+    Then we have
+
+          sp−k+i0 ≤ sp+1+i0 = λn + n − (p + 1 + i0 ) = λn + n − p − 1 − i0 .
+
+    On the other hand, we have
+
+               sp−k+i0 = λn + z − (p − k + i0 ) + 1 = λn + n − p − i0 .
+
+    Therefore we get contradiction! So we must have k(λ) = q2 (λ) = k.
+(3) When p′ + q ′ − 1 ≥ q and z = zk = n − 1 − k ≤ q − 1, by similar arguments as
+    in (1) we can show that k(λ) = p = k.
+                                            18
+7.2. Proof for G = Sp(n, R). For Sp(n, R), from [EHW83] the root system Q(λ0 )
+is of type sp(q, R) and R(λ0 ) is of type sp(r, R) with r ≥ q. Then from [EHW83]
+we have λ1 = · · · = λq = −n > λq+1 ≥ · · · ≥ λn and λq+1 = · · · = λr = λ1 − 1 =
+−n − 1 > λr+1 . From Table 1, we have c = 21 and (ρ, β ∨ ) = n.
+
+  From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ 12 (r + 1) or
+2z ∈ Z with z ≤ 12 (q + r). Thus
+
+            λ = λ0 + zξ + ρ =(z, z − 1, · · · , z − q + 1, z − q − 1, · · · , z − r,
+                                  z + λr+1 + n − r, · · · , z + λn + 1)
+                               :=(s1 , s2 , · · · , sq , sq+1 , · · · , sr , sr+1 , · · · , sn ),
+
+then (s1 , s2 , · · · , sn ) and (−sn , −sn−1 , · · · , −s1 ) are strictly decreasing sequences.
+
+  Note that zk = (ρ, β ∨ ) − kc = n − k2 , so we have
+                                                           
+                                                   1  n 1 n
+               {zk | 0 ≤ k ≤ r = n} = n, n − , · · · , + ,    .
+                                                   2  2 2 2
+
+   Now suppose that L(λ) is a unitary highest weight module, then we have the
+follows.
+
+(1) When n is even and 21 (q + r) ≤ 21 (n − 1), in other words, z ≤ 21 (n − 1) = zn+1 ,
+    we will have
+               
+               
+                sm ≤ −s1 + n − m,              if 1 ≤ m ≤ q,
+               
+                s ≤ −s + 2z − l + 1,
+                  l      1                      if q + 1 ≤ l ≤ n,
+               
+                −sn−i ≥ −s1 + n − i − 1, if 0 ≤ i ≤ n − q − 1,
+               
+               
+                 −sj = −s1 + j − 1,             if 1 ≤ j ≤ q.
+
+   Then we have the follows.
+  
+     −sn ≥ −s1 + n − 1 ≥ s1 ,
+  
+  
+  
+  
+     −sn−1 ≥ −s1 + n − 2 ≥ s2 ,
+  
+  
+  
+          ..
+  
+  
+           .
+  
+  
+   −sq+1 ≥ −s1 + q − 1 ≥ sn−q ,
+  
+  
+      −sq = −s1 + q − 1 = −s1 + n − 1 − (n − q + 1) + 1
+  
+  
+  
+  
+         ≥ −s1 + 2z − (n − q + 1) + 1 ≥ sn−q+1 ,
+  
+  
+  
+         ..
+  
+  
+          .
+  
+  
+  
+  
+     −s2 = −s1 + 1 = −s1 + n − 1 − n + 2 ≥ −s1 + 2z − (n − 1) + 1 ≥ sn−1 ,
+  
+      −s1 = −s1 + n − 1 − n + 1 ≥ −s1 + 2z − n + 1 ≥ sn .
+
+    Recall that
+               (                                                      (
+                q2 + 1,       if q2 is odd,                               q2 ,         if q2 is odd,
+       2q2od =                                       2q2ev + 1 =
+                q2 ,          if q2 is even,                              q2 + 1,      if q2 is even.
+
+    Thus k(λ) ≥ q2 (λ) ≥ n by Lemma 7.1 and Proposition 2.9. We must have
+    k(λ) = n since k(λ) ≤ r = n.
+                                                    19
+(2) When z ∈ Z and n2 ≤ z = zk = n − k2 ≤ 21 (q + r) for 1 ≤ k ≤ n, we will have
+             
+             
+               sm ≥ −s1 + n − m + 1,         if 1 ≤ m ≤ q,
+             
+              s ≤ −s + 2z − l + 1,
+                 l      1                     if q + 1 ≤ l ≤ n,
+             
+               −sn−i ≥ −s1 + n − i − 1, if 0 ≤ i ≤ n − q − 1,
+             
+             
+                −sj = −s1 + j − 1,            if 1 ≤ j ≤ q.
+    (a) When q + 1 ≤ n − k + 2 ≤ n (equivalently 2 ≤ k ≤ n − q + 1) and n is even,
+        we have the follows.
+        
+        
+           sn−(k−1)+1 ≤ −s1 + 2z − (n − k + 2) + 1 = −s1 + n − 1 ≤ −sn ,
+        
+        
+        
+           sn−(k−1)+2 ≤ −s1 + 2z − (n − k + 3) + 1 = −s1 + n − 2 ≤ −sn−1 ,
+        
+        
+        
+                 ..
+(7.3)             .
+        
+        
+        
+        
+        
+           sn−1 ≤ −s1 + 2z − (n − 1) + 1 = −s1 + n − (k − 3) − 1 ≤ −sn−k+3 ,
+        
+        
+        
+            sn ≤ −s1 + 2z − n + 1 ≤ −sn−(k−2) = −sn−k+2 .
+
+       Thus we have q2 (λ) ≥ k − 1 by Lemma 7.1.
+       If q2 (λ) ≥ k + 1, by Lemma 7.1 we will have sn−k+i ≤ −sn−i for 0 ≤ i ≤ k.
+       From z = zk = n − k2 ≤ q+r 2 , we can get 2n − k ≤ q + r. Now we choose a
+       positive integer 0 ≤ i0 ≤ k such that
+                           n − k + i0 ≤ q and n − i0 ≤ r.
+        (i) When n − k + i0 ≤ q and n − i0 ≤ q, we have
+          sn−k+i0 = z − (n − k + i0 ) + 1 ≤ −sn−i0 = −(z − (n − i0 ) + 1),
+           which implies that 1 ≤ −1. Therefore we get a contradiction!
+       (ii) When n − k + i0 ≤ q and q < n − i0 ≤ r, we have
+            sn−k+i0 = z − (n − k + i0 ) + 1 ≤ −sn−i0 = −(z − (n − i0 )),
+           which implies that 1 ≤ 0. Therefore we get a contradiction!
+       To sum up, k + 1 does not satisfy Lemma 7.1 and we must have k − 1 ≤
+       q2 (λ) ≤ k.
+       If q2 (λ) = k−1, z = zk = n− k2 ∈ Z implies that k is even. Thus q2 (λ) = k−1
+       is odd and k(λ) = 2q2od = q2 + 1 = k by Proposition 2.9.
+       If q2 (λ) = k, by Proposition 2.9 we have k(λ) = 2q2od = q2 = k since q2 (λ) = k
+       is even.
+       Similarly the result is the same when n is odd, and we omit the process here.
+    (b) When 2 ≤ n − k + 2 ≤ q (equivalently n − q + 2 ≤ k ≤ n) and n is even, we
+        have the follows.
+         
+         
+             −sn−(k−1)+1 = −s1 + n − k + 1 = −s1 + 2z − n + 1 ≥ sn ,
+         
+         
+         
+             −sn−(k−1)+2 = −s1 + n − k + 2 = −s1 + 2z − (n − 1) + 1 ≥ sn−1 ,
+         
+         
+         
+(7.4)             ..
+                  .
+         
+         
+         
+         
+         
+             −sn−1 ≥ −s1 + n − 2 = −s1 + 2z − (n − k + 3) + 1 ≥ sn−k+3 ,
+         
+         
+              −sn ≥ −s1 + n − 1 = −s1 + 2z − (n − k + 2) + 1 ≥ sn−k+2 .
+                                          20
+       Then we have q2 (λ) ≥ k − 1 by Lemma 7.1. Similarly in this case, we can
+       obtain k(λ) = k by Proposition 2.9. The result is the same when n is odd,
+       and we omit the process here.
+   (c) When z = z1 = n − 12 ≤ 21 (q + r) ≤ n, we will have q = n − 1 < r = n or
+       q = r = n. Thus λ is half-integral and λ1 = · · · = λn−1 = −n > λn = −n − 1
+       or λ1 = · · · = λn = −n. So sn−1 = 23 > sn = n − 21 + λn + 1 = − 12 or 21 . By
+       using R-S algorithm, we have q2 (λ) = 1 if sn = − 12 and q2 (λ) = 0 if sn = 21 .
+       Therefore k(λ) = 1 = k by Proposition 2.9.
+   (d) When z = z0 = n ≤ 21 (q + r) ≤ n, we will have q = r = n. Thus λ will
+       be dominant integral since λ1 = · · · = λn = −n and sn = n + λn + 1 = 1.
+       Therefore k(λ) = 0 = k by Proposition 2.9.
+(3) When z ∈ 21 + Z and n2 ≤ z = zk = n − k2 ≤ 21 (q + r) for 1 ≤ k ≤ n, we
+    still have q2 (λ) = k − 1 by (7.3) and (7.4). In this case q2 (λ) = k − 1 and
+    k(λ) = 2q2ev + 1 = k by Proposition 2.9.
+  To sum up, we have k(λ) = k, where k(λ) is given in Proposition 2.9. Therefore
+we have completed the proof of the case when G = Sp(n, R).
+
+7.3. Proof for G = SO ∗ (2n). For SO ∗ (2n), from [EHW83] the root system Q(λ0 ) =
+R(λ0 ) is of type su(1, q) with 1 ≤ q ≤ n−1 or so∗ (2p) with 3 ≤ p ≤ n. From Table 1,
+we have c = 2 and (ρ, β ∨ ) = 2n − 3. (λ0 + ρ, β ∨ ) = 0 implies that λ1 + λ2 = −2n + 3.
+(1) When Q(λ0 ) = R(λ0 ) is of type su(1, q) with 1 ≤ q ≤ n − 1, we have
+                    λ1 > λ2 = λ3 = · · · = λq+1 > λq+2 ≥ · · · ≥ λn .
+   From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ q. Thus we
+   can write
+        λ = λ0 + zξ + ρ
+              1                        1                 1
+          = ( z + λ1 + n − 1, z + λ2 + n − 2, · · · , z + λq+1 + n − q − 1,
+              2                        2                 2
+            1                                          1
+              z + λq+2 + n − q − 2, · · · , z + λn )
+            2                                          2
+              1                        1                 1
+          = ( z − λ2 − n + 2, z + λ2 + n − 2, · · · , z + λ2 + n − q − 1,
+              2                        2                 2
+            1                                          1
+              z + λq+2 + n − q − 2, · · · , z + λn )
+            2                                          2
+          := (t1 , · · · , tq+1 , tq+2 , · · · , tn ).
+   So (t1 , t2 , · · · , tn ) and (−tn , −tn−1 , · · · , −t1 ) are strictly decreasing sequences,
+   and it is not difficult to get
+                             
+                              t1 > −t1 + z + 1,
+                             
+                                ti ≤ −t1 + z + 2 − i, if 2 ≤ i ≤ n,
+                             
+                             
+                                −tj ≥ −t1 + j − 1,          if 1 ≤ j ≤ n.
+
+   When L(λ) is a unitary highest weight module and n is even, we have the follows.
+   (a) When z < q ≤ n − 1 = zr−1 , we have L(λ) = N (λ) by [EHW83]. Thus
+       k(λ) = n2 = k.
+                                              21
+  (b) When z = q < n − 1 = zr−1 , we have
+
+
+  t1 = 12 z − λ2 − n + 2 ≤ 21 z − λn − n + 2 ≤ − 21 z − λn = −tn ,
+
+
+ t2 = 12 z + λ2 + n − 2 = 21 z − λ1 − 2n + 3 + n − 2 ≤ − 21 z − λn−1 − 1 = −tn−1 ,
+
+
+      ..
+
+
+       .
+
+
+   tn ≤ −t1 .
+       Thus k(λ) = q2ev = [ q22 ] ≥ n2 by Lemma 7.1 and Proposition 2.9. We must
+       have k(λ) = n2 = r since k(λ) ≤ r = [ n2 ] = n2 and n is even.
+   (c) When z = zk = 2n − 3 − 2k = q ≤ n − 1 for 1 ≤ k ≤ r − 1 = n2 − 1, we will
+       have z = zr−1 = n − 1 = q and λ1 > λ2 = λ3 = · · · = λn . Thus we can get
+         
+         
+            t2 = 12 z + λ2 + n − 2 = 12 z − λ1 − n + 1 ≤ − 12 z − λn = −tn ,
+         
+                 ..
+                 .
+         
+         
+             tn ≤ −t2 .
+       Thus q2 (λ) ≥ n − 1 by Lemma 7.1. Note that
+                  1                    1
+             t1 = z − λ2 − n + 2 = − z − λn + 1 = −tn + 1 > −tn .
+                  2                    2
+       So we can not have q2 (λ) = n. Thus q2 (λ) = n − 1 and k(λ) = q2ev = [ q22 ] ≥ n2
+       by Lemma 7.1 and Proposition 2.9.
+       Thus k(λ) = q2ev = [ q22 ] = k by Lemma 7.1 and Proposition 2.9.
+   The argument is similar when n is odd, so we omit the details here. Therefore,
+   when Q(λ0 ) = R(λ0 ) is of type su(1, q) with 1 ≤ q ≤ n − 1, we have k(λ) = k.
+(2) When Q(λ0 ) = R(λ0 ) is of type so∗ (2p) with 3 ≤ p ≤ n, we have
+                                               3
+                λ1 = λ2 = · · · = λp = −n + > λp+1 ≥ · · · ≥ λn .
+                                               2
+    From [EHW83] we know that L(λ) is unitarizable if and only if
+                                 (
+                                   p,       if p is odd,
+                            z≤
+                                   p − 1, if p is even,
+   or z = 2p − 3 − 2j ≤ 2p − 3 for some integer 0 ≤ j ≤ [ p2 ] − 2.
+   Thus we can write
+ λ = λ0 + zξ + ρ
+       1                                  1     1                           1
+   = ( z + λ1 + n − 1, · · · , z + λp + n − p, z + λp+1 + n − p − 1, · · · , z + λn )
+       2                                  2     2                           2
+       1         1         1         3        1            1
+   = ( z + , · · · , z + − p, z + λp+1 + n − p − 1, · · · , z + λn )
+       2         2         2         2        2            2
+   := (t1 , · · · , tp , tp+1 , · · · , tn ).
+   So (t1 , t2 , · · · , tn ) and (−tn , −tn−1 , · · · , −t1 ) are strictly decreasing sequences,
+   and it is not difficult to get
+                             (
+                                ti ≤ −t1 + z + 2 − i, if 1 ≤ i ≤ n,
+                                −tj ≥ −t1 + j − 1,          if 1 ≤ j ≤ n.
+   Suppose p and n are even. Then we have the follows.
+                                              22
+   (a) When z < p − 1 ≤ n − 1 = zr−1 , by similar arguments as in the case of
+       su(1, q) we have q2 (λ) = n. Thus k(λ) = q2ev = [ q22 ] = [ n2 ] = r by Lemma 7.1
+       and Proposition 2.9.
+
+            z ≥ p − 1 and z = zk = 2n − 3 − 2k ≤ 2p − 3 for some 1 ≤ k ≤ r − 1 =
+   (b) When
+         n
+         2 − 1, we have
+
+     
+     
+          tn−(2k+1)+1 ≤ −t1 + z + 2 − (n − 2k) = −t1 + z − n + 2k + 2 ≤ −tn ,
+     
+     
+     
+          tn−(2k+1)+2 ≤ −t1 + z + 2 − (n − 2k + 1) = −t1 + n − 2 ≤ −tn−1 ,
+     
+     
+     
+                ..
+                .
+     
+     
+     
+     
+          tn−1 ≤ −t1 + z + 2 − (n − 1) = −t1 + n − 2k ≤ −tn−(2k+1)+2 ,
+     
+     
+     
+           tn ≤ −t1 + z + 2 − n = −t1 + n − 2k − 1 ≤ −tn−(2k+1)+1 .
+         Thus we have q2 (λ) ≥ 2k + 1 by Lemma 7.1.
+         If q2 (λ) ≥ 2k + 2, by Lemma 7.1 we will have tn−2k−2+i ≤ −tn−i+1 for
+         1 ≤ i ≤ 2k + 2. From z = zk = 2n − 3 − 2k ≤ 2p − 3, we can get
+                    2n − 2k − 1 < 2p ⇒ n − 2k − 2 + n + 1 < 2p.
+         Now we choose a positive integer 1 ≤ i0 ≤ 2k + 2 such that
+                        n + 1 − i0 ≤ p and n − 2k − 2 + i0 ≤ p.
+         Then we have
+                                 1      1
+                    tn−2k−2+i0 =   z + − (n − 2k − 2 + i0 − 1)
+                                 2      2
+                                      1   1
+                     ≤ −tn+1−i0 = −( z + − (n + 1 − i0 − 1)),
+                                      2   2
+         which implies that
+                             z − 2n + 2k + 4 ≤ 0 ⇒ 1 ≤ 0.
+         Therefore we get contradiction! So we must have q2 (λ) = 2k + 1.
+         Thus k(λ) = q2ev = [ q22 ] = k by Lemma 7.1 and Proposition 2.9.
+   The argument is similar when n is odd, so we omit the details here.
+7.4. Proof for G = SO(2, 2n − 2). For SO(2, 2n − 2), from [EHW83] the root
+system Q(λ0 ) = R(λ0 ) is of type su(1, p) with 1 ≤ p ≤ n − 1 or so(2, 2n − 2). From
+Table 1, we have c = n − 2 and (ρ, β ∨ ) = 2n − 3. (λ0 + ρ, β ∨ ) = 0 implies that
+λ1 + λ2 = −2n + 3.
+(1) When Q(λ0 ) = R(λ0 ) is of type su(1, p) with 1 ≤ p ≤ n − 1, we have
+                                                                 1
+          |λn | ≤ λn−1 ≤ · · · ≤ λp+2 < λp+1 = λp = · · · = λ2 ∈ Z>0 .
+                                                                 2
+   From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ p. From
+   Theorem 5.1, we have k(λ) = 2 if and only if λ is not integral or
+   z ≤ −|λn | − λ1 − n + 1 = −|λn | + λ2 + 2n − 3 − n + 1 = −|λn | + λ2 + n − 2.
+   Now when z < n − 1 = z1 , z will be not integral, or z ∈ Z and z ≤ n − 2 ≤
+   −|λn | + λ2 + n − 2. Thus we have k(λ) = 2. Note that when p ≤ n − 2, we
+   always have z ≤ p ≤ n − 1.
+                                          23
+   Now when z = n − 1 = z1 , we must have p = n − 1 since z ≤ p ≤ n − 1. Then
+   we have λ2 = · · · = λn−1 = |λn | ∈ 21 Z>0 . From Theorem 5.1, we have k(λ) = 1
+   if and only if λ is integral and
+           −|λn | − λ1 − n + 1 = −|λn | + λ2 + n − 2 < z ≤ λ2 − λ1 − 1,
+   equivalently we have
+                             n − 2 < z ≤ 2λ2 + 2n − 4.
+   Thus when z = n − 1 = z1 , we will have k(λ) = 1.
+(2) When Q(λ0 ) = R(λ0 ) is of type so(2, 2n − 2), we have
+                              λ2 = λ3 = · · · = λn = 0.
+   From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ n − 1 = z1
+   or z = 2n − 3 = z0 . In this case, we have λ1 = −2n + 3.
+   From Theorem 5.1, we have k(λ) = 2 if and only if λ is not integral or
+                          z ≤ −|λn | − λ1 − n + 1 = n − 2.
+   Now when z < n − 1 = z1 , z will be not integral, or z ∈ Z and z ≤ n − 2. Thus
+   we have k(λ) = 2.
+   From Theorem 5.1, we have k(λ) = 1 if and only if λ is integral and
+                      −|λn | − λ1 − n + 1 < z ≤ λ2 − λ1 − 1,
+   equivalently we have
+                                n − 2 < z ≤ 2n − 4.
+   Thus when z = n − 1 = z1 , we will have k(λ) = 1.
+   From Theorem 5.1, we have k(λ) = 0 if and only if λ is integral and
+                               z ≥ λ2 − λ1 = 2n − 3.
+   Thus when z = 2n − 3 = z0 , we will have k(λ) = 0.
+Now we complete the proof for all cases.
+
+7.5. Proof for G = SO(2, 2n − 1). For SO(2, 2n − 1), from [EHW83] the root
+system Q(λ0 ) = R(λ0 ) is of type su(1, p) with 1 ≤ p ≤ n − 1 or so(2, 2n − 1), or
+Q(λ0 ) = su(1, n − 1) and R(λ0 ) = so(2, 2n − 1). From Table 1, we have c = n − 23
+and (ρ, β ∨ ) = 2n − 2. (λ0 + ρ, β ∨ ) = 0 implies that λ1 + λ2 = −2n + 2.
+(1) When Q(λ0 ) = R(λ0 ) is of type su(1, p) with 1 ≤ p ≤ n − 1, we have
+               0 ≤ λn ≤ λn−1 ≤ · · · ≤ λp+2 < λp+1 = λp = · · · = λ2 .
+   From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ p.
+                                                       / 12 Z, or z ∈ Z and
+   From Theorem 4.1, we have k(λ) = 2 if and only if z ∈
+                        1                       1
+   z < λ2 − λ1 , or z ∈ 2 + Z and z ≤ −λ1 − n + 2 .
+
+   Now z ≤ p < n − 21 = z1 , we will have z ∈
+                                            / 12 Z, or z ∈ Z and z < n − 12 < 2n − 2 ≤
+   λ2 − λ1 , or z ∈ 2 + Z and z ≤ n − 2 < λ2 + n − 32 = −λ1 − n + 21 . Thus we have
+                    1                  3
+
+   k(λ) = 2 by Theorem 4.1.
+                                           24
+(2) When Q(λ0 ) = R(λ0 ) is of type so(2, 2n − 1), we have
+                               λ2 = λ3 = · · · = λn = 0.
+   From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ n − 21 = z1
+   or z = 2n − 2 = z0 . In this case, we have λ1 = −2n + 2.
+   From Theorem 4.1, we have k(λ) = 2 if and only if z ∈  / 12 Z, or z ∈ Z and
+                                1
+   z < λ2 − λ1 = 2n − 2, or z ∈ 2 + Z and z ≤ −λ1 − n + 2 = n − 32 .
+                                                        1
+
+
+                                             / 12 Z, or z ∈ Z and z < n − 21 < 2n − 2,
+   Now when z < n − 12 = z1 , we will have z ∈
+          1                   3
+   or z ∈ 2 + Z and z ≤ n − 2 . Thus we have k(λ) = 2.
+   From Theorem 4.1, we have k(λ) = 1 if and only if z ∈ 12 + Z and z > −λ1 −
+   n + 21 = n − 23 . Thus when z = z1 = n − 12 > n − 32 , we will have k(λ) = 1.
+   From Theorem 4.1, we have k(λ) = 0 if and only if z ∈ Z and z ≥ λ2 −λ1 = 2n−2.
+   Thus when z = z0 = 2n − 2, we will have k(λ) = 0.
+(3) When Q(λ0 ) = su(1, n − 1) and R(λ0 ) = so(2, 2n − 1), we have
+                                                   1
+                             λ2 = λ3 = · · · = λn = .
+                                                   2
+    From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ n − 12 .
+   From Theorem 4.1, we have k(λ) = 2 if and only if z ∈  / 12 Z, or z ∈ Z and
+                                1                       1
+   z < λ2 − λ1 = 2n − 1, or z ∈ 2 + Z and z ≤ −λ1 − n + 2 = n − 1.
+                                             / 12 Z, or z ∈ Z and z < n − 21 < 2n − 1,
+   Now when z < n − 12 = z1 , we will have z ∈
+          1                   3
+   or z ∈ 2 + Z and z ≤ n − 2 < n − 1. Thus we have k(λ) = 2.
+   From Theorem 4.1, we have k(λ) = 1 if and only if z ∈ 12 + Z and z > −λ1 −
+   n + 21 = n − 1. Thus when z = z1 = n − 21 > n − 1, we will have k(λ) = 1.
+  Now we complete the proof of all cases.
+7.6. Proof for G = E6(−14) . For E6(−14) , from [EHW83, §12] the root system
+Q(λ0 ) = R(λ0 ) is of type su(1, p) with 1 ≤ p ≤ 5, so(2, 8) or e6(−14) . For all cases,
+we have λ6 = λ7 = −λ8 := b by [Bou02]. From Table 1, we have c = 3 and
+(ρ, β ∨ ) = 11. (λ0 + ρ, β ∨ ) = 0 implies that λ1 + · · · + λ5 − λ6 − λ7 + λ8 = −22.
+(1) When Q(λ0 ) = R(λ0 ) is of type su(1, 5), we have
+                                                        1
+                       −λ1 = λ2 = λ3 = λ4 = λ5 := a ∈     Z≥0 .
+                                                        2
+   From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ 5. In this
+   case, we have 3a − 3b = −22 since λ1 + · · · + λ5 − λ6 − λ7 + λ8 = −22.
+   From Theorem 6.1, we have
+                             1             1
+              −(λ0 , β1,2 ) = (a + 3b) = (a + 3a + 22) = 2a + 11
+                             2             2
+   and k(λ) = 2 if and only if λ is not integral or z ∈ Z and
+                        z ≤ −4 + min{−(λ0 , β1,2 )} = 7 + 2a.
+   Now we have z ≤ 5 < 7 + 2a, so k(λ) = 2.
+   The proof for other cases of type su(1, p) with 1 ≤ p ≤ 4 is similar, and we omit
+   the details here.
+                                           25
+(2) When Q(λ0 ) = R(λ0 ) is of type so(2, 8), we have
+                         λ1 = λ2 = λ3 = λ4 = 0 < λ5 ∈ Z>0 .
+    From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ 4 or z = 7.
+    In this case, we have λ5 − 3b = −22.
+    From Theorem 6.1, we have
+                       1            1              1
+        −(λ0 , β1,2 ) = (a + 3b) = (λ5 + 3b) = (λ5 + λ5 + 22) = λ5 + 11
+                       2            2              2
+    and k(λ) = 2 if and only if λ is not integral or z ∈ Z and
+                        z ≤ −4 + min{−(λ0 , β1,2 )} = 7 + λ5 .
+    Now we have z ≤ 7 < 7 + λ5 , so k(λ) = 2.
+(3) When Q(λ0 ) = R(λ0 ) is of type e6(−14) , we have
+                             λ1 = λ2 = λ3 = λ4 = λ5 = 0.
+    From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ 8 = z1 or
+    z = 11 = z0 . In this case, we have 3b = 22.
+    From Theorem 6.1, we have
+                                           1
+                             −(λ0 , β1,2 ) = (0 + 3b) = 11
+                                           2
+    and k(λ) = 2 if and only if λ is not integral or z ∈ Z and
+                           z ≤ −4 + min{−(λ0 , β1,2 )} = 7.
+
+    Now when z < 8 = z1 , z will be not integral, or z ∈ Z and z ≤ 7. Thus we have
+    k(λ) = 2.
+    From Theorem 6.1, we have
+                                         1
+                             −(λ0 , α1 ) = (0 + 3b) = 11
+                                         2
+    and k(λ) = 1 if and only if z ∈ Z and
+                7 = −4 + min{−(λ0 , β1,2 )} < z ≤ −(λ0 , α1 ) − 1 = 10.
+    Thus when z = z1 = 8, we will have k(λ) = 1.
+    From Theorem 6.1, we have k(λ) = 0 if and only if z ∈ Z and
+                               z > −(λ0 , α1 ) − 1 = 10.
+    Thus when z = z0 = 11, we will have k(λ) = 0.
+Now we complete the proof for all cases.
+7.7. Proof for G = E7(−25) . For E7(−25) , from [EHW83, §13] the root system
+Q(λ0 ) = R(λ0 ) is of type su(1, p) with 1 ≤ p ≤ 6, so(2, 10) or e7(−25) . For all cases,
+we have λ7 = −λ8 by [Bou02]. From Table 1, we have c = 4 and (ρ, β ∨ ) = 17.
+(λ0 + ρ, β ∨ ) = 0 implies that λ8 = − 17
+                                       2 .
+
+(1) When Q(λ0 ) = R(λ0 ) is of type su(1, 6), we have
+                                                       7
+                                         1            X
+        0 < λ1 = λ2 = λ3 = λ4 = λ5 := a ∈ Z and λ8 − (   λi ) + λ1 = 0.
+                                         2
+                                                              i=2
+                                               26
+    From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ 6. In this
+    case we have λ6 = −17 − 3a.
+    From Theorem 6.2 we have k(λ) = 3 if and only if λ is not integral or z ∈ Z and
+                       z ≤ −9 + min{−(λ0 , β3,4,5 )} = 8 + 2a.
+    Now we have z ≤ 6 < 8 + 2a, so k(λ) = 3.
+    The proof for other cases of type su(1, p) with 1 ≤ p ≤ 5 is similar, and we omit
+    the details here.
+(2) When Q(λ0 ) = R(λ0 ) is of type so(2, 10), we have
+                                                     X7
+           λ1 = λ2 = λ3 = λ4 = 0 < λ5 ∈ N∗ and λ8 − (   λi ) + λ1 = 0.
+                                                           i=2
+
+    From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ 5 = z3 or
+    z = 9 = z2 . In this case λ5 + λ6 = λ8 − λ7 = −17.
+   From Theorem 6.2 we have
+                   1
+  −(λ0 , β3,4 ) = − (−λ5 + λ6 − λ7 + λ8 ) = λ5 + 17, −(λ0 , β5 ) = −(λ5 + λ6 ) = 17
+                   2
+   and k(λ) = 3 if and only if λ is not integral or z ∈ Z and
+                          z ≤ −9 + min{−(λ0 , β3,4,5 )} = 8.
+    Now when z < 9 = z2 , z will be not integral, or z ∈ Z and z ≤ 8. Thus we have
+    k(λ) = 3.
+    From Theorem 6.2 we have k(λ) = 2 if and only if z ∈ Z and
+           8 = −9 + min{−(λ0 , β3,4,5 )} < z ≤ −(λ0 , β6,7 ) − 5 = λ5 + 12.
+    Thus when z = 9 = z2 , we will have k(λ) = 2.
+(3) When Q(λ0 ) = R(λ0 ) is of type e7(−25) , we have
+                                                   X7
+              λ1 = λ2 = λ3 = λ4 = λ5 = 0 and λ8 − (   λi ) + λ1 = 0.
+                                                        i=2
+
+    From [EHW83] we know that L(λ) is unitarizable if and only if z ≤ 9 = z2 or
+    z = 13 = z1 or z = 17 = z0 . In this case we have λ6 = −17.
+    From Theorem 6.2 we have k(λ) = 3 if and only if z is not integral or z ∈ Z and
+                          z ≤ −9 + min{−(λ0 , β3,4,5 )} = 8.
+    Now when z < 9 = z2 , z will be not integral, or z ∈ Z and z ≤ 8, hence we have
+    k(λ) = 3.
+    From Theorem 6.2 we have k(λ) = 2 if and only if z ∈ Z and
+              8 = −9 + min{−(λ0 , β3,4,5 )} < z ≤ −(λ0 , β6,7 ) − 5 = 12.
+    Thus when z = 9 = z2 , we will have k(λ) = 2.
+    From Theorem 6.2 we have k(λ) = 1 if and only if z ∈ Z and
+                   12 = −(λ0 , β6,7 ) − 5 < z ≤ −(λ0 , β8 ) − 1 = 16.
+    Thus when z = 13 = z1 , we will have k(λ) = 1.
+                                           27
+   From Theorem 6.2 we have k(λ) = 0 if and only if z ∈ Z and
+                             z ≥ −(λ0 , β8 ) − 1 = 16.
+   Thus when z = 17 = z0 , we will have k(λ) = 0.
+  So far, we have completed the proof of all cases of Theorem 7.2.
+Acknowledgments. Z. Bai was supported in part by the National Natural Science
+Foundation of China (No. 12171344) and the National Key R & D Program of China
+(No. 2018YFA0701700 and No. 2018YFA0701701).
+
+                                  References
+[BH15]   Z. Q. Bai and M. Hunziker. “The Gelfand-Kirillov dimension of a unitary
+         highest weight module”. In: Sci. China Math. 58.12 (2015), pp. 2489–
+         2498.
+[BMW23] Z. Q. Bai, J. J. Ma, and Y. T. Wang. “A combinatorial characterization
+         of the annihilator varieties of highest weight modules for classical Lie
+         algebras”. In: arXiv: 2304.03475 (2023).
+[BXX23] Z. Q. Bai, W. Xiao, and X. Xie. “Gelfand-Kirillov dimensions and as-
+         sociated varieties of highest weight modules”. In: Int. Math. Res. Not.
+         IMRN no. 10 (2023), pp. 8101–8142.
+[BX19]   Z. Q. Bai and X. Xie. “Gelfand-Kirillov dimensions of highest weight
+         Harish-Chandra modules for SU (p, q)”. In: Int. Math. Res. Not. IMRN
+         no. 14 (2019), pp. 4392–4418.
+[Bai+24] Z. Q. Bai et al. “On the associated variety of a highest weight Harish-
+         Chandra module”. In: arXiv:2402.08886 (2024).
+[BC76]   P. Bala and R. W. Carter. “Classes of unipotent elements in simple
+         algebraic groups. I”. In: Math. Proc. Cambridge Philos. Soc. 79.3 (1976),
+         pp. 401–425.
+[BV82]   D. Barbasch and D. A. Vogan. “Primitive ideals and orbital integrals in
+         complex classical groups”. In: Math. Ann. 259.2 (1982), pp. 153–199.
+[Bar+23] D. Barbasch et al. “Special unipotent representations of real classical
+         groups: construction and unitarity”. In: arXiv:1712.05552v5, (2023).
+[BZ17]   L. Barchini and R. Zierau. “Characteristic cycles of highest weight Harish-
+         Chandra modules for Sp(2n, R)”. In: Transform. Groups 22.3 (2017),
+         pp. 591–630.
+[BB82]   W. Borho and J.-L. Brylinski. “Differential operators on homogeneous
+         spaces. I. Irreducibility of the associated variety for annihilators of in-
+         duced modules”. In: Invent. Math. 69.3 (1982), pp. 437–476.
+[BB85]   W. Borho and J.-L. Brylinski. “Differential operators on homogeneous
+         spaces. III. Characteristic varieties of Harish-Chandra modules and of
+         primitive ideals”. In: Invent. Math. 80.1 (1985), pp. 1–68.
+[Bou02]  N. Bourbaki. Lie groups and Lie algebras. Elements of Mathematics
+         (Berlin). Translated from the 1968 French original by Andrew Press-
+         ley. Springer-Verlag, Berlin, 2002, pp. xii+300.
+[Car85]  R. W. Carter. Finite groups of Lie type. Pure and Applied Mathemat-
+         ics (New York). Conjugacy classes and complex characters, A Wiley-
+         Interscience Publication. John Wiley & Sons, Inc., New York, 1985,
+         pp. xii+544.
+[CM93]   David H. Collingwood and William M. McGovern. Nilpotent orbits in
+         semisimple Lie algebras. Van Nostrand Reinhold Mathematics Series.
+         Van Nostrand Reinhold Co., New York, 1993, pp. xiv+186.
+                                        28
+[EHW83]    T. J. Enright, R. Howe, and N. Wallach. “A classification of unitary high-
+           est weight modules”. In: Representation theory of reductive groups (Park
+           City, Utah, 1982). Vol. 40. Progr. Math. Birkhäuser Boston, Boston,
+           MA, 1983, pp. 97–143.
+[GSK21]    D. Gourevitch, E. Sayag, and I. Karshon. “Annihilator varieties of dis-
+           tinguished modules of reductive Lie algebras”. In: Forum Math. Sigma
+           9 (2021), Paper No. e52, 30.
+[Jak83]    H. P. Jakobsen. “Hermitian symmetric spaces and their unitary highest
+           weight modules”. In: J. Funct. Anal. 52.3 (1983), pp. 385–412.
+[Jos78]    A. Joseph. “Gelfand-Kirillov dimension for the annihilators of simple
+           quotients of Verma modules”. In: J. London Math. Soc. (2) 18.1 (1978),
+           pp. 50–60.
+[Jos85]    A. Joseph. “On the associated variety of a primitive ideal”. In: J. Algebra
+           93.2 (1985), pp. 509–523.
+[Jos92]    A. Joseph. “Annihilators and associated varieties of unitary highest
+           weight modules”. In: Ann. Sci. École Norm. Sup. (4) 25.1 (1992), pp. 1–
+           45.
+[NOT01]    K. Nishiyama, H. Ochiai, and K. Taniguchi. “Bernstein degree and asso-
+           ciated cycles of Harish-Chandra modules—Hermitian symmetric case”.
+           In: 273. Nilpotent orbits, associated cycles and Whittaker models for
+           highest weight representations. 2001, pp. 13–80.
+[Vog78]    D. A. Vogan Jr. “Gelfand-Kirillov dimension for Harish-Chandra mod-
+           ules”. In: Invent. Math. 48.1 (1978), pp. 75–98.
+[Vog91]    D. A. Vogan Jr. “Associated varieties and unipotent representations”. In:
+           Harmonic analysis on reductive groups (Brunswick, ME, 1989). Vol. 101.
+           Progr. Math. Birkhäuser Boston, Boston, MA, 1991, pp. 315–388.
+
+  Department of Mathematical Sciences, Soochow University, Suzhou 215006, China
+  Email address: zqbai@suda.edu.cn
+
+  School of mathematical Sciences, Shanghai Key Laboratory of Pure Mathematics
+and Mathematical Practice, East China Normal University, Shanghai 200241, China
+  Email address: jjsd6514@163.com
+
+
+
+
+                                         29
+

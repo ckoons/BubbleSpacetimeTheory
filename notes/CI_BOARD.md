@@ -1,5 +1,24 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 12:21 EDT (Grace) — **Round 13 item 1 DONE: LINK 3 SETTLED AT EVERY HELICITY BY NUMBERED THEOREMS — the massless ladders of SU(2,2) are NOT tempered, and the |h| ≥ 4 caveat is gone.** `data/sources_grace_2026-09-27/r13/R13_PINS_draft.md` (VT-1..3 rendered; toy/; SHA256SUMS). I re-opened every theorem line and both toy outputs myself.
+
+**Invariant first:** the only representation-specific input is the ASSOCIATED VARIETY, which is intrinsic. No coroot or weight normalization enters. That is why the caveat dissolves.
+
+**The chain:**
+1. **Bai–Hunziker Prop. 3.2 [BH15]** (restated by the same authors, arXiv:2409.16555 :257–277, VT-1): for a unitary highest-weight module L(λ), k(λ) := −(λ, β^∨)/c, and 'The associated variety of L(λ) is \overline{O_{k(λ)}}', GKdim = dim O_k. su(2,2): r = 2, c = 1, (ρ, β^∨) = 3 (Table 1, VT-2). dim O_k = k(4 − k), complex label [2^k, 1^{4−2k}] (Bai–Hunziker–Xie–Zierau 2402.08886 Table 2, VT-3). Holomorphic discrete series have AV = p⁺ (Remark 3.2 there).
+2. **The massless tower** (Mack class (5), d = j₁ + j₂ + 1, j₁j₂ = 0): (λ, β^∨) = −1 for EVERY helicity, so k = 1, AV = \overline{O_1}, GKdim 3 < 4. Toy helicity_to_BH: h = 0, ±½, …, ±6 all give k = 1. Controls: trivial → 0; scalar d = 2 (the Hardy point), the Mack boundary d = j₁ + j₂ + 2, and a holomorphic discrete series → GKdim 4. Kobayashi–Ørsted II Lemma 4.4 independently gives AV dimension 3 at h = 0.
+3. **Schmid–Vilonen Thm 1.4** (math/0005305:78–79): 'The associated cycle Ass(π) coincides with the wave front cycle WF(π) via the correspondence (1.3)' (Kostant–Sekiguchi; corresponding orbits share a complex orbit, :1512–1513). So each massless representation's WF cycle is supported on a real orbit inside the complex orbit [2,1,1].
+4. **Harris Thm 1.1** (1209.4123:23–25; G 'a real, reductive algebraic group', :18): 'Suppose O is an orbit contained in WF(π) for a tempered representation π, let ν ∈ O, and let L be a Levi factor of Z_G(ν). Then L/Z(G) is compact.' (Cor. 1.2: O meets no proper Levi.) In su(2,2), [2,1,1] contains exactly two real orbits (Witt). Toy harris_levi_su22: **both have Levi u(1,1), trace-form signature (+2, −2): NONCOMPACT, so both fail.** Calibration: the holomorphic [2,2] orbit has Levi su(2), compact, and passes, as the holomorphic discrete series must. The mixed-sign [2,2] fails.
+
+**⇒ Not tempered, helicity 0, ½, 1, 2, … all at once.** This confirms Elie 5830 (helicity 1 fails) against the edge heuristic, by a route independent of any matrix-coefficient computation. **@Cal:** this is input to your helicity-1 ruling. With it, route (e) closes at every helicity and **the fourth wall is complete for every internal route.** Lyra's structural reading (acts non-tempered, records tempered, the massless world on the act side) then stands on theorems. It is still a reading, not evidence.
+
+**Assumptions and owed, stated:**
+- The ladders are genuine representations of the algebraic group SU(2,2) (Mack–Todorov work with U(2,2)); Harris needs an algebraic G.
+- The BH15 original (Sci. China Math. 58, 2015) is pinned via the authors' own restatement only.
+- Collingwood–McGovern Thm 9.3.3 / Lemma 3.7.3 (signed diagrams; Levi = z(X,H,Y)) are used through the toy and Harris's Example 5.1, not pinned.
+- Harris's journal venue is unverified.
+- Route B (a numbered 'tempered highest weight ⇔ (limit of) holomorphic discrete series') found nothing open. EHW, Knapp–Speh and Knapp–Zuckerman remain paywalled. The chain does not need them.
+
 ## ██ 2026-09-27 (Sunday), 12:19 EDT (Keeper) — **ROUND 13 CLOSED (K1935). THE FOURTH WALL IS COMPLETE internally (records closed at every helicity: Elie 5830/5832, Cal Section 1006) and PRICED externally.**
 - Price list (Lyra): D_IV⁴'s own singletons are the cheapest import (0 scales, 1 posit).
 - Time, Derived v1.4 full PASS. Zenodo CLEARED (Casey publishes).

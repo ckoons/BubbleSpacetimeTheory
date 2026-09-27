@@ -1,0 +1,1022 @@
+                                             GELFAND-KIRILLOV DIMENSIONS OF HIGHEST WEIGHT
+                                                   HARISH-CHANDRA MODULES FOR SU (p, q)
+
+
+
+
+arXiv:1707.02565v2 [math.RT] 1 May 2018
+                                                                         ZHANQIANG BAI AND XUN XIE
+
+
+
+
+                                                   Abstract. Let (G, K) be an irreducible Hermitian symmetric pair of non-
+                                                   compact type with G = SU (p, q), and let λ be an integral weight such that
+                                                   the simple highest weight module L(λ) is a Harish-Chandra (g, K)-module.
+                                                   We give a combinatorial algorithm for the Gelfand-Kirillov dimension of L(λ).
+                                                   This enables us to prove that the Gelfand-Kirillov dimension of L(λ) decreases
+                                                   as the integer hλ + ρ, β ∨ i increases, where ρ is the half sum of positive roots and
+                                                   β is the maximal noncompact root. Finally by the combinatorial algorithm,
+                                                   we obtain a description of the associated variety of L(λ).
+
+
+                                                                                 1. Introduction
+                                              In the representation theory of Lie groups and Lie algebras, the Gelfand-Kirillov
+                                          dimension is an important invariant to measure the size of an infinite-dimensional
+                                          module. This kind of invariant was first introduced by Gelfand and Kirillov [6].
+                                          In this paper, we are concerned with the Gelfand-Kirillov dimensions of highest
+                                          weight (g, K)-modules, where g is the Lie algebra of the Hermitian type Lie group
+                                          G = SU (p, q) and K is the maximal compact subgroup K = S(U (p) × U (q)) with
+                                          n = p + q.
+                                              To state our problem, we need some notations from [4]. Let (G, K) be an irre-
+                                          ducible Hermitian symmetric pair of non-compact type. We denote       N       their Lie N alge-
+                                          bras by (g0 , k0 ),
+                                                           L  and denote   their complexification   by g =  g 0   C  and   k =  k0     C.
+                                          Then k = CH [k, k] with ad(H) having eigenvalues   L L       0, 1, −1  on  g.  If  we   denote
+                                          p± = {X ∈ g | [H, X] = ±X}. Then g = p− k p+ . Let h0 ⊆ k0 be a Cartan
+                                          subalgebra. Let Φ denote the set of roots with respect to (g, h), let W denote the
+                                          Weyl group of g, and let Φc (resp. Φn ) denote the set of compact roots (resp. non-
+                                          compact roots). Choose a Borel subalgebra b containing h. Let β denote the unique
+                                          maximal non-compact root of Φ+ . Now choose ζ ∈ h∗ so that ζ is orthogonal to
+                                          Φc and hζ, β ∨ i = 1. For λ ∈ h∗ , the simple highest weight module L(λ) is a (g, K)-
+                                          module if and only if λ is Φ+  c -dominant integral (i.e λ is dominant and integral as a
+                                          k-weight) and hλ + ρ, β ∨ i ∈ R. In this paper, we call such a module L(λ) a highest
+                                          wight (g, K)-module for simplicity. Note that if L(λ) is a (g, K)-module then we
+                                          can write λ = λ̃ + zζ, for some z ∈ R and for an integral and Φ+       c -dominant weight
+                                          λ̃ such that hλ̃ + ρ, β ∨ i = 0; in fact z = hλ + ρ, β ∨ i and λ̃ = λ − zζ.
+                                              The motivation of this paper origins from the study on unitary highest weight
+                                          (g, K)-modules; see [2]. In [2], the Gelfand-Kirillov dimension of a unitary highest
+
+                                            Date: March 4, 2022.
+                                            2010 Mathematics Subject Classification. Primary 22E47; Secondary 17B10.
+                                            Key words and phrases. Gelfand-Kirillov dimension, Lusztig’s a-function, associated variety,
+                                          Young tableau, Harish-Chandra module.
+                                                                                            1
+2                              ZHANQIANG BAI AND XUN XIE
+
+
+weight module L(λ) is expressed explicitly in terms of z := hλ + ρ, β ∨ i. From this
+result, one can see that the Gelfand-Kirillov dimension decreases as z takes unitary
+reduction points and increases. Then a natural question is to ask whether a similar
+result holds for all highest weight (g, K)-modules. We will obtain a positive answer
+in this paper for the Lie group SU (p, q).
+    In 1978, Joseph [11] found that the GK-dimension of a highest weight sl(n)-
+module Lw := L(−wρ − ρ) with w ∈ W can be computed by Robinson-Schensted
+correspondence. This result suggests a combinatorial algorithm for highest weight
+(g, K)-modules in the case G = SU (p, q). It is known that GKdim L(λ) for any
+weight λ can be reduced to Lw for some w ∈ W by using Jantzen’s translation
+functors [9], but we fail to find a concrete result in published literatures. In the
+first part of this paper, we will formulate an explicit algorithm for GKdim L(λ) for
+g = sl(n) and any weight λ ∈ h∗ . A main tool that we use is Lusztig’s a-function
+on the Weyl group.
+    The a-function is defined in a combinatorial way using the Kazhdan-Lusztig basis
+of the Hecke algebra; see [13] or §3.2. There is a formula connecting the a-function
+and the Gelfand-Kirillov dimension
+
+                          GKdim Lw = |Φ+ | − a(w) for w ∈ W,
+
+which is formulated in [14]. Thus computations of Gelfand-Kirillov dimensions
+can be ultimately reduced to that of Lusztig’s a-functions. In the case g = sl(n),
+the Weyl group is isomorphic to the symmetric group Sn in n letters, and the
+a-functions on Sn can be easily determined by using some known properties about
+two-side cells. Our results can be stated as follows.
+
+Proposition 1.1 (See Prop. 3.8). Let g be a simple complex Lie algebra. For
+λ ∈ h∗ , let W[λ] be the integral Weyl group relative to λ, i.e the subgroup of W
+generated by the set of reflections {sα | hλ + ρ, α∨ i ∈ Z} and let a[λ] : W[λ] → N be
+the Lusztig’s a-function associated to W[λ] . Then we have
+
+                              GKdim L(λ) = |Φ+ | − a[λ] (w)
+
+where w ∈ W[λ] is the element of minimal length such that w−1 .λ is antidominant
+(under the dot action).
+
+   Now we assume that g = sl(n). By the proposition above, we have an explicit
+algorithm of GKdim L(λ). For a weight λ ∈ h∗ we write λ + ρ = (λ1 , λ2 , · · · , λn );
+see §4.2. We associated to λ a set P (λ) of some Young tableaux as follows. Let
+λX : λi1 , λi2 , . . . , λir be a maximal subsequence of λ1 , λ2 , . . . , λn such that λik , 1 ≤
+k ≤ r are congruent to each other modulo Z. Then the Young tableau associated
+to the subsequence λX using Schensted insertion algorithm (see §4.1) is a Young
+tableau in P (λ). If λ is an integral weight then P (λ) consists of only one Young
+tableau and we identify P (λ) with this Young tableau in this case.
+                                                    P
+   If Y is a Young tableau, we define A(Y ) := i≥1 ci (c2i −1) where ci is the number
+                                                                            P
+of entries in the i-th column of Y . And we define A(P (λ)) := Y ∈P (λ) A(Y ).
+
+Theorem 1.2 (See Thm. 4.6). Let g = sl(n). For any λ ∈ h∗ , we have
+                                             n(n − 1)
+                           GKdim L(λ) =               − A(P (λ)).
+                                                2
+              GK DIMENSIONS OF CERTAIN HARISH-CHANDRA MODULES                           3
+
+
+Example 1.3. If λ + ρ = (3, 3.5, 2, 1.5, −1, 5.5, −1, 0, 1.1), then P (λ) has three
+Young tableaux:
+                      −1 −1 0          1.5 5.5      1.1
+                            2                3.5
+                            3
+                                   9
+                                                       9
+                                                                    
+By the theorem, GKdim L(λ) =       2    − A(P (λ)) =    2    − 32 − 22 = 36 − 3 − 1 = 32.
+   Set G P= SU (p, q). In this case, we have ρ = (−1, −2, . . . , −n), β = ǫ1 − ǫn ,
+             p
+and ζ = i=1 ǫi . A necessary condition for L(λ) being a (g, K)-module is that
+λ is a (p, q)-dominant weight, i.e. λi − λj ∈ Z>0 for all 1 ≤ i < j ≤ p and
+p + 1 ≤ i < j ≤ p + q where λ + ρ = (λ1 , λ2 , · · · , λn ). Now we can concentrate on
+GKdim L(λ) for a (p, q)-dominant weight.
+Theorem 1.4 (See Thm. 5.2). Assume that λ is (p, q)-dominant with λ + ρ =
+(λ1 , λ2 , · · · , λn ). Then
+      (i) If λ1 − λp+1 ∈ Z, i.e. λ is an integral weight, then P (λ) is a Young tableau
+           with at most two columns. In this case we have GKdim L(λ) = m(n − m)
+           where m is the number of entries in the second column of P (λ).
+     (ii) If λ1 − λp+1 ∈     / Z, then P (λ) consists of two Young tableaux with single
+           column. In this case we have GKdim L(λ) = pq.
+   By this theorem, to determine the Gelfand-Kirillov dimension of a highest weight
+(g, K)-module, we only need to determine the number m in (i). We have a combi-
+natorial model for computing m as follows.
+   Let λ be an integral and (p, q)-dominant weight with λ + ρ = (λ1 , · · · , λn ). We
+associate to λ a line of white and black balls as follows. Assume that we have n
+balls, which are filled with integers λi , 1 ≤ i ≤ n. We paint a ball black (resp.
+white) if it contains λi for some 1 ≤ i ≤ p (resp. p + 1 ≤ i ≤ p + q = n). Then we
+arrange these balls in a line such that the entries in these balls weakly decrease and
+such that if λi = λj for some 1 ≤ i ≤ p, p + 1 ≤ j ≤ n, the white ball containing
+λj is on the left side of the black ball containing λi . We call two balls an adjacent
+white-black pair if they are adjacent with the left ball white and the right ball
+black. We remove the adjacent white-black pairs from this line of balls over and
+over again until there are no adjacent white-black pairs.
+Theorem 1.5 (See Thm. 5.6). Keep notations as above. The number m of entries
+in the second column of P (λ) is precisely the number of adjacent white-black pairs
+that we can remove from this line of balls.
+Example 1.6. Let λ be a (5, 5)-dominant weight such that
+                          λ + ρ = (5, 4, 3, 2, 1, 9, 8, 7, 6, 2).
+Then the line of balls associated to λ is as follows:
+
+The number of adjacent white-black pairs that we can remove from this line of balls
+is 5. Hence m = 5, and GKdim L(λ) = 5 × (10 − 5) = 25.
+   From this combinatorial model, we can reprove a result of [2] on Gelfand-Kirillov
+dimensions of unitary highest weight modules (in the case G = SU (p, q)); see Prop.
+6.2. Furthermore, we can prove the following result.
+4                           ZHANQIANG BAI AND XUN XIE
+
+
+Theorem 1.7 (See Thm. 6.3). Assume that G = SU (p, q) and λ̃ is a (p, q)-
+dominant weight such that hλ̃ + ρ, β ∨ i = 0. Then GKdim L(λ̃ + zζ) deceases to 0
+as z increases in Z. And GKdim L(λ̃ + zζ) = pq if z ∈ R \ Z.
+   From Vogan [19], we know that the associated variety of any highest weight
+(g, K)-module is the closure of some KC orbit in p+ ∼
+                                                    = (g/(k + p+ ))∗ . The closures
+                 +
+of KC orbits in p form a linear chain of varieties:
+(1.1)                {0} = Ō0 ⊆ Ō1 ⊆ ... ⊆ Ōr−1 ⊆ Ōr = p+ ,
+where r is the rank of the Hermitian symmetric space G/K. In the case of G =
+SU (p, q), r = min{p, q}.
+Theorem 1.8 (See Thm. 6.4). If G = SU (p, q) and λ is an integral weight such
+that L(λ) is a highest weight (g, K)-module, then the associated variety of L(λ)
+is the m-th closure Ōm in (1.1), where m is the number of entries in the second
+column of the Young tableau P (λ).
+   As pointed out by one of our referees, Garfinkle [5] also obtained Gelfand-Kirillov
+dimensions and associated varieties of irreducible Harish-Chandra modules with
+trivial infinitesimal character for SU (p, q) by a different method. One of advantages
+of our method in this paper is that we can uniformly and directly obtain these
+invariants from the highest weight of any simple highest weight Harish-Chandra
+module. We thank the referee for pointing out Garfinkle’s work.
+
+             2. Preliminaries on Gelfand-Kirillov Dimension
+  In this section we recall the definition and some properties of the Gelfand-Kirillov
+dimension. The details can be found in [3, 10, 12, 16, 18, 19].
+Definition 2.1. Let A be an algebra generated by a finite-dimensional subspace V .
+Let V n denote the linear span of all products of length at most n in elements of V .
+The Gelfand-Kirillov dimension of A is defined by:
+                                               log dim(V n )
+                         GKdim(A) = lim sup
+                                        n→∞        log n
+   It is well-known that the above definition is independent of the choice of the
+finite dimensional generating subspace V (see [3, 12]). Clearly GKdim(A) = 0 if
+and only if dim(A) < ∞.
+   The notion of Gelfand-Kirillov dimension can be extended for left A-modules.
+In fact, we have the following definition.
+Definition 2.2. Let A be an algebra generated by a finite-dimensional subspace
+V . Let M be a left A-module generated by a finite-dimensional subspace M0 . The
+Gelfand-Kirillov dimension GKdim(M ) of M is defined by
+                                              log dim(V n M0 )
+                      GKdim(M ) = lim sup                      .
+                                       n→∞          log n
+Lemma 2.3. Let g be a finite dimensional Lie algebra, M be a finitely gen-
+erated U (g)-module and F be a finite dimensional U (g)-module. Then we have
+GKdim(M ⊗ F ) = GKdim(M ).
+               GK DIMENSIONS OF CERTAIN HARISH-CHANDRA MODULES                       5
+
+
+          3. Gelfand-Kirillov dimensions and Lustig’s a-functions
+3.1. Translation functors. We first recall the category O of a semisimple Lie
+algebra; see for example [7]. Let g be a semisimple Lie algebra over C and h be a
+Cartan subalgebra. Let Φ ⊆ h∗ be the root system of g with respect to h. Choose
+a set Φ+ of positive roots. Let ∆ be the set of simple roots and let      −
+                                                                       L Φ = −Φ .
+                                                                                  +
+                                               −         +         +
+We have L  a triangular decomposition  g  =  n   ⊕ h ⊕ n   where n   =      g
+                                                                        α∈Φ+ α  and
+n− =      α∈Φ− gα . Let b
+                           +
+                              = h ⊕ n+ (resp. b− = h ⊕ n− ) be the positive (resp.
+negative) Borel subalgebra with respect to ∆.
+   Let ( , ) : h∗ × h∗ → C be the bilinear form such that for all α ∈ Φ+ , λ(α∨ ) =
+2(λ,α)               ∗       ∨                                                ∨
+ (α,α) , where λ ∈ h and α ∈ h is the coroot of α. As usual, we write hλ, α i for
+    ∨
+λ(α ). The Weyl group W is generated by reflections sα , α ∈ Φ where sα acts on
+h∗ by
+                        sα (λ) = λ − hλ, α∨ iα for all λ ∈ h∗ .
+Then W is a Coxeter group with S = {sα | α ∈ ∆} being the set of generators. Let
+ρ be the half sum of all positive roots. The shifted action
+                          w.λ := w(λ + ρ) − ρ, w ∈ W, λ ∈ h∗
+is called the dot action of W on h∗ . If we denote w0 by the longest element of W ,
+then w0 .0 = −2ρ, and for any w ∈ W we have w.(−2ρ) = −wρ − ρ.
+   The Verma module of g with highest weight λ ∈ h∗ is defined to be
+                               M (λ) := U (g) ⊗U(b+ ) Cλ
+where Cλ is a U (b+ )-module such that
+                    h.m = λ(h)m, n+ .m = 0, for h ∈ h∗ , m ∈ Cλ .
+The Verma module M (λ) has a unique simple quotient, which is denoted by L(λ).
+These modules L(λ) with λ ∈ h∗ are called the simple highest weight g-modules.
+  Let Λ = {λ ∈ h∗ | hλ, α∨ i ∈ Z for all α ∈ Φ+ }, whose elements are called integral
+weights. A weight λ ∈ h∗ is called antidominant if hλ + ρ, α∨ i ∈
+                                                                / Z>0 for all α ∈ Φ+ .
+Let
+(3.1)        Φλ := {α ∈ Φ | sα .λ − λ ∈ Zα} = {α ∈ Φ | hλ + ρ, α∨ i ∈ Z},
+and let W[λ] be the subgroup of W generated by {sα | α ∈ Φλ }. Note that W[λ] is
+still a Coxeter group, but in general it is not generated by a subset of S. There is
+one and only one antidominant weight in W[λ] .λ.
+   The category O consists of g-modules which are
+        • semisimple as h-modules;
+        • finitely generated as U (g)-modules;
+        • locally n-finite.
+It is known that O is an abelian category which is both notherian and artinian,
+and has enough projective objects and injective objects. The simple objects of O
+are precisely those L(λ) with λ ∈ h∗ . A block of O is an indecomposable summand
+of O as an abelian subcategory. Let Oλ be the block containing the simple module
+L(λ). Then we have Oλ = Oµ if and only if µ ∈ W[λ] .λ; equivalently, the simple
+modules in Oλ are precisely L(µ), µ ∈ W[λ] .λ. Since there is a unique antidominant
+weight in W[λ] .λ, we can assume that λ is antidominant when considering a block
+6                            ZHANQIANG BAI AND XUN XIE
+
+
+Oλ . By definition we have
+                                          M
+                                O=                    Oλ .
+                                     λ antidominant
+
+When λ = 0, Oλ = O0 is called the principal block. The simple modules in O0 are
+denoted by
+                              Lw := L(w.(−2ρ)), w ∈ W.
+   In what follows, we recall Jantzen’s translation functors which are used to com-
+pare two blocks. Here we only consider the case of integral weights, which is enough
+for the purpose of this paper.
+   Let E := ZΦ ⊗Z R. It is a Euclidean space, on which the bilinear form is just
+the restriction to E of the bilinear form ( , ) on h∗ defined above. One can see that
+Λ ⊆ E. The Weyl group W also acts on E by dot action. Consider the hyperplanes
+Hα = {λ ∈ E | hλ + ρ, α∨ i = 0}, α ∈ Φ+ . These hyperplanes give rise to some
+facets. Precisely, a facet F is a maximal subset of E such that for any λ, µ ∈ F ,
+hλ + ρ, α∨ i = 0 (resp. < 0, or > 0) if and only if hµ + ρ, α∨ i = 0 (resp. < 0, or > 0)
+              +
+for all
+    S α ∈ Φ . The facets of maximal dimension are the+connected−components of
+E \ α∈Φ+ Hα , which are called chambers. Denote by C (resp. C ) the chamber
+consisting of λ such that hλ + ρ, α∨ i > 0 (resp. < 0) for all α ∈ Φ+ .
+   For a facet F with λ ∈ F , let Φ>0 (F ) = {α ∈ Φ+ | hλ + ρ, α∨ i > 0}, Φ=0 (F ) =
+{α ∈ Φ+ | hλ + ρ, α∨ i = 0}, Φ<0 (F ) = {α ∈ Φ+ | hλ + ρ, α∨ i < 0}. The upper
+closure of F is defined to be the set of µ such that
+                          hµ + ρ, α∨ i > 0 for α ∈ Φ>0 (F ),
+                          hµ + ρ, α∨ i = 0 for α ∈ Φ=0 (F ),
+                        and hµ + ρ, α∨ i ≤ 0 for α ∈ Φ<0 (F ).
+For example, the upper closure of C − is the closure C − , and the upper closure of
+C + is C + itself.
+Lemma 3.1. The space E is the disjoint union of upper closures of chambers. For
+any integral weight λ ∈ Λ, there is a unique w ∈ W such that λ is in the upper
+closure of the chamber w.C − containing w.(−2ρ). Moreover, the element w here
+is characterized as the unique element of W of minimal length such that w−1 .λ is
+antidominant. Generally, for any weight λ ∈ h∗ , there is a unique element w ∈ W[λ]
+of minimal length such that w−1 .λ is antidominant.
+    For λ, µ ∈ Λ, we set γ = µ − λ. We can find a weight γ̄ ∈ W γ such that
+hγ̄, α∨ i ≥ 0 for all α ∈ Φ+ . Then L(γ̄) is finite dimensional. The Jantzen’s
+translation functor
+                                   Tλµ : Oλ → Oµ
+is an exact functor given by Tλµ (M ) := Prµ (L(γ̄) ⊗ M ), where M ∈ Oλ and Prµ is
+the natural projection O → Oµ . From [9, §2.10-2.11], we have the following lemma.
+Lemma 3.2. Let λ, µ ∈ Λ.
+   (i) Tλµ is biadjoint to Tµλ .
+  (ii) If λ ∈ Λ is in a facet F and µ ∈ Λ is in the closure F̄ , then
+                          (
+               µ        ∼   L(µ), if µ is in the upper closure of F ;
+             Tλ (L(λ)) =
+                            0,     otherwise.
+              GK DIMENSIONS OF CERTAIN HARISH-CHANDRA MODULES                         7
+
+
+Corollary 3.3. Let λ ∈ Λ. We have
+                                 λ
+                                Tw.(−2ρ) (Lw ) = L(λ)
+where w ∈ W is the unique element of minimal length such that w−1 .λ is antidom-
+inant.
+Proof. By Lemma 3.1, λ is in the upper closure of the facet that contains w.(−2ρ).
+Then the corollary follows from Lemma 3.2 (ii).                                 
+Lemma 3.4. Let λ ∈ Λ be an element of a facet F and µ ∈ Λ is in the upper
+closure of F , then
+                     GKdim L(λ) = GKdim L(µ).
+Proof. By definition, we have GKdim Tλµ L(λ) ≤ GKdim L(λ) and GKdim Tµλ L(µ) ≤
+GKdim L(µ).
+   By Lemma 3.2 (ii), GKdim L(µ) = GKdim Tλµ L(λ) ≤ GKdim L(λ). By Lemma
+3.2 (i), we have Hom(L(λ), Tµλ L(µ)) = Hom(Tλµ L(λ), L(µ)) = Hom(L(µ), L(µ)) 6=
+0, which implies that GKdim L(λ) ≤ GKdim Tµλ L(µ) ≤ GKdim L(µ). Then the
+lemma follows.                                                                
+3.2. Lusztig’s a-function. Recall that the Weyl group W of g is a Coxeter group
+generated by S = {sα | α ∈ ∆}. Then we have a Hecke algebra H over A :=
+Z[v, v −1 ], which is generated by Tw , w ∈ W with relations
+                      Tw Tw′ = Tww′ if l(ww′ ) = l(w) + l(w′ ),
+                       and (Ts + v −1 )(Ts − v) = 0 for any s ∈ S.
+   If λ ∈ h∗ , associated to the Weyl group W[λ] of gλ , we have a Hecke algebra H[λ] .
+One need to note that in general H[λ] is not a subalgebra of H, since W[λ] is not
+necessarily generated by a subset of S.
+   The Kazhdan-Lusztig basis Cw , w ∈ W of H are characterized as the unique
+elements Cw such that
+                        Cw = Cw ,       Cw ≡ Tw     mod H<0
+where ¯ : H → H is the bar involution such that q̄ = q −1 , Tw = Tw−1    −1 , and
+        L                         −1    −1
+H<0 = w∈W A<0 Tw , A<0 = v Z[v ].
+   If Cy occurs in the expansion of hCw with respect to the KL-basis for some
+h ∈ H, then we write y ←L w. And we extend ←L to a preorder ≺L on W . Define
+the equivalence relation ∼L by that x ∼L y if and only if x ≺L y and y ≺L x.
+An equivalence class of ∼L on W is called a left cell of W . We define x ≺R y by
+x−1 ≺L y −1 and define x ∼R y by x−1 ∼L y −1 . The equivalence class of ∼R is
+called a right cell. Define ≺LR to be the preorder generated by ≺L and ≺R . And
+we have an equivalence relation ∼LR on W corresponding to ≺LR ; a equivalence
+class of ∼LR is called
+                  P a two-sided cell of W .
+   Let Cx Cy =       z∈W hx,y,z Cz with hx,y,x ∈ A. Then Lusztig’s a-function a :
+W → N is defined by
+                   a(z) = max{deg hx,y,z | x, y ∈ W } for z ∈ W.
+  We state a lemma which will be used later.
+Lemma 3.5.        (i) The equivalence relation ∼LR is generated by ∼L and ∼R .
+   (ii) a(w) = a(w−1 ) for all w ∈ W .
+  (iii) a : W → N is constant on each two-sided cell of W .
+8                           ZHANQIANG BAI AND XUN XIE
+
+
+    (iv) If wI is the longest element of the parabolic subgroup of W generated by a
+         subset I ⊆ S, the a(wI ) is equal to the length l(wI ) of wI .
+     (v) If W is a direct product of Coxeter subgroups W1 and W2 , then
+                               a(w) = a(w1 ) + a(w2 )
+         for w = (w1 , w2 ) ∈ W1 × W2 = W .
+Proof. We use the properties P1-P15 in §14.2 of [15]. The statement (i) follows
+from P9-P11, (iii) follows from P4, (iv) follows from P12, and (ii),(v) are deduced
+from the definition.                                                              
+    For λ ∈ h∗ the a-function of W[λ] is denoted by
+                                  a[λ] : W[λ] → N,
+which is defined using the Hecke algebra H[λ] . One need to note that a[λ] is not
+the restriction of a : W → N.
+3.3. Gelfand-Kirillov dimensions of simple highest weight modules. By
+[14, §1], there is a formula connecting the Gelfand-Kirillov dimension and the
+Lusztig’s a-function. Recall that Lw is the simple g-module in O0 with highest
+weight w.(−2ρ).
+Lemma 3.6 (Lusztig). The Gelfand-Kirillov dimension of Lw is given by
+                        GKdim Lw = ν0 − a(w) for w ∈ W,
+               +
+where ν0 = |Φ | is the number of positive roots of g.
+Definition 3.7. For λ ∈ h∗ , we define
+                                  a(λ) := a[λ] (w)
+where w is the element of W[λ] of minimal length such that w−1 .λ is antidominant.
+Proposition 3.8. For any λ ∈ h∗ , we have
+                             GKdim L(λ) = ν0 − a(λ).
+Proof. First, we assume that λ ∈ Λ. In this case, W[λ] = W . By Corollary 3.3,
+Lemma 3.4 and Lemma 3.6, we have
+                         3.3+3.4                   3.6
+(3.2)        GKdim L(λ) = GKdim L(w.(−2ρ)) = |Φ+ | − a(w),
+where w is the element of W of minimal length such that w−1 .λ is antidominant.
+Then we see that the proposition holds for integral weights.
+   Now we return to the general assumption that λ ∈ h∗ . In the following, we will
+reduce the proof to the integral weight case.
+   Let gλ be a reductive Lie algebra such that its Cartan subalgebra coincides with
+the Cartan subalgebra h of g and its root system is given by Φλ (see (3.1)). Then
+W[λ] is the Weyl group of gλ . Note that in general we can not realize gλ as a Lie
+subalgebra of g unless g is of ADE-type.
+   We denote by O 0 the category O for gλ with respect to Φ+                +
+                                                               λ := Φλ ∩ Φ , and
+denote by L (µ) (resp. M (µ)) the simple module (resp. Verma modules) in O 0
+            0               0
+
+with highest weight µ ∈ h∗ . Let Oλ0 be the block of O 0 that containing L0 (λ).
+All the simple modules (resp. Verma module) in Oλ0 are given by L0 (w.λ) (resp.
+M 0 (w.λ)) with w ∈ W[λ] . By [17, Thm.11], we have an equivalence of categories
+(3.3)                                Oλ0 ≃ Oλ
+                GK DIMENSIONS OF CERTAIN HARISH-CHANDRA MODULES                                 9
+
+
+under which L0 (w.λ) (resp. M 0 (w.λ)) corresponds
+                                                L to L(w.λ) (resp. M (w.λ)).
+   Recall that for a semisimple h-module M = λ∈h∗ Mλ with Mλ = {m ∈ M |
+h.m = λ(h)m}
+         P       and dim Mλ < ∞, the character of M is defined to be a formal sum
+chM = µ∈h∗ (dim Mµ )eµ . For more details about the characters of modules in O,
+see [7, §1.15]. For w ∈ W[λ] , we have
+                              ew.λ                                           ew.λ
+        chM (w.λ) = Q                  −α )
+                                            ,        chM 0 (w.λ) = Q                  −α )
+                                                                                           .
+                           α∈Φ+ (1 − e                                    α∈Φ+ (1 − e
+                                                                                 λ
+
+                                      1
+Hence, chM (w.λ) = Q                      chM 0 (w.λ). From the equivalence (3.3),
+                               (1 − e−α )
+                            α∈Φ+ \Φ+
+                       P           λ
+we see that chL(w.λ) = y∈W[λ] ay,w chM (y.λ) for some integers ay,w if and only
+               P
+if chL0 (w.λ) = y∈W[λ] ay,w chM 0 (y.λ). Thus,
+                                                 1
+                       chL(w.λ) = Q                         −α )
+                                                                   chL0 (w.λ).
+                                          α∈Φ+ \Φ+ (1 − e
+                                                 λ
+
+This implies that1
+(3.4)               GKdim L(w.λ) = |Φ+ | − |Φ+            0
+                                             λ | + GKdim L (w.λ).
+By the definition of gλ , λ is integral with respect to gλ . Then by the first part of
+the proof, we have
+                            GKdim L0 (λ) = |Φ+  λ | − a(λ).
+Combined with (3.4), we obtain that
+                                 GKdim L(λ) = |Φ+ | − a(λ).
+Then the proposition follows.                                                                  
+
+                     4. Gelfand-Kirillov dimensions for sl(n)
+4.1. Schensted insertion algorithm. A Young diagram is a collection of boxes
+arranged in left-justified rows, with the row lengths weakly increasing. Let Γ be a
+totally ordered set; in the situation that we will encounter in this paper, Γ is taken
+to be c + N for some c ∈ C. A Young tableau Y is a Young diagram with each box
+filled with an element of Γ. A Young tableau is called standard if the entries in
+each row and in each column are strictly increasing. And a Young tableau is called
+semistandard if the entries in each row (resp. column) are weakly (resp. strictly)
+increasing.
+    1This implication is not obvious. It can be proved in the following way. The enveloping
+algebra U (g) is filtered by the subspaces Un (g) which
+                                                      Lis spanned by the monomials of degrees
+less than or equal to n. It is known that grU (g) =       n≥1 Un (g)/Un−1 (g) is isomorphic to the
+symmetric
+L           algebra S(g). Let µ ∈ h∗ , and vµ ∈ L(µ) be a highest weight vector. Then grL(µ) :=
+   n≥1 Un (g).vµ /Un−1 (g).vµ is an S(g)-module generated by vµ . Since S(g) is commutative, we
+have n+ .grL(µ) = S(g)n+ .vµ = 0.
+    Since gµ is a subspace of g, we have an embedding S(gµ ) ֒→ S(g). One can see that there is
+a surjective map S(g) ⊗S(gµ +n+ ) grL0 (µ) ։ grL(µ) of S(g)-algebras, where the S(gµ )-module
+grL0 (µ) is extended to an S(gµ + n+ )-module by letting n+ .grL0 (µ) = 0. This map is actually
+                                             1
+an isomorphism since chL(µ) = Q                           chL0 (µ). Then by the definition of GK
+                                     α∈Φ+ \Φ+
+                                               (1 − e−α )
+                                             µ
+dimension, we have GKdim grL(µ) = |Φ+ | − |Φ+                   0
+                                              µ | + GKdim grL (µ). Now (3.4) follows from [12,
+Prop. 6.6]. (Note that in general we have no map U (g) ⊗U (gµ +n+ ) L0 (µ) → L(µ), since gµ is not
+necessarily a Lie subalgebra of g.)
+10                            ZHANQIANG BAI AND XUN XIE
+
+
+   Let γ = (γ1 , · · · , γn ) be a sequence of elements in Γ. The following Schensted
+insertion algorithm associates γ to a pair (P (γ), Q(γ)) of semistandard Young
+tableaux.
+   Let P0 , Q0 be two empty Young tableaux. Assume that we have constructed
+Young tableaux Pk , Qk associated to (γ1 , · · · , γk ), 0 ≤ k < n. Then Pk+1 is
+obtained by adding γk+1 to Pk as follows. First add γk+1 to the first row of Pk by
+replacing the leftmost entry x in the first row which is strictly bigger than γk+1 .
+(If there is no such an entry x, we just add a box with entry γk+1 to the right
+side of the first row, and end this process.) Then add x to the next row as the
+same way of adding γk+1 to the first row. The Young Qk+1 is obtained by adding
+a box with entry k + 1 to Qk at the position of Pk+1 \ Pk . Then we put P (γ) = Pn
+and Q(γ) = Qn . Note that P (γ) is a semistandard Young tableau and Q(γ) is a
+standard Young tableau, and they have the same shape.
+   For example, if γ = (3, 5, 2, 2, 1), then the Young tableaux produced by this
+algorithm are:
+                                                 1 2
+                                     2 5 → 2 2 →
+                   3 → 3 5 →                     2 5 = P (γ),
+                                     3     3 5
+                                                 3
+
+                                                 1 2
+                                     1 2 → 1 2 →
+                   1 → 1 2 →                     3 4 = Q(γ).
+                                     3     3 4
+                                                 5
+
+4.2. Lusztig’s a-function for g = sl(n). In this section, g is assumed to be
+the special linear Lie algebra sl(n) and the Cartan subalgebra h is taken to be the
+subalgebra consists of all diagonal matrices in sl(n). Let ǫi , i ∈ [1, n] be the elements
+of h∗ such that ǫi (Ejj ) = δijPwhere Eij is the matrix unitL      with entry 1 P at (i, j)-
+position. We have a relation ni=1 ǫi = 0 and we have h∗ = ( ni=1 Cǫi )/C( ni=1 ǫi ).
+The set of positive roots of sl(n) is taken to be Φ+ = {ǫi − ǫj | i < j}. The set of
+simple roots is ∆ = {ǫi −ǫi+1 | i < n}. The number of positive roots is ν0 = n(n−1)   2    .
+   For a weight λ ∈ h∗ , we write
+                                    λ + ρ = (λ1 , λ2 , · · · , λn ),
+               Pn                             Pn
+where λ+ρ = i=1 λi ǫi , λi ∈ C. Since i=1 ǫi = 0 we have (λ1 +c, λ2 +c, · · · , λn +
+c) = (λ1 , λ2 , · · · , λn ) for any c ∈ C. For example, 2ρ = (n − 1, n − 3, · · · , −n + 1)
+and ρ = (−1, −2, · · · , −n).
+   Let Sn be the symmetric group in n letters 1, 2, 3, · · · , n. Then Sn can be
+identified with the Weyl group of sl(n) via the action
+                            σ(ǫi ) = ǫσ(i) , i ∈ [1, n], σ ∈ Sn .
+Then simple reflections of Sn with respect       to ∆ are (i, i + 1),1 ≤ i < n. For an
+                                                    1   2 ··· n
+element σ ∈ Sn , we use the notation σ =                                 where σi = σ(i),
+                                                    σ1 σ2 · · · σn
+i ∈ [1, n]. We denote by P (σ) and Q(σ) the standard Young tableaux associated
+to the sequence (σ1 , σ2 , · · · , σn ), which are produced by the Schensted insertion
+                                                                             1 4
+                                                 1 2 3 4
+algorithm in §4.1. For example, if σ =                          then P (σ) = 2       and
+                                                 3 4 2 1
+                                                                               3
+              GK DIMENSIONS OF CERTAIN HARISH-CHANDRA MODULES                          11
+
+
+           1 2
+Q(σ) =     3    . The well-known Robinson-Schensted correspondence says that
+           4
+there is a one-to-one correspondence between Sn and the set of pairs of standard
+Young tableaux (filled with 1, 2, . . . , n) of the same shape. Moreover, we have
+Lemma 4.1.         (i) P (σ) = Q(σ −1 ) for any σ ∈ Sn .
+   (ii) σ, τ ∈ Sn are in the same right (resp. left ) cell if and only if P (σ) = P (τ )
+        (resp. Q(σ) = Q(τ )); see §3.2 for the definition of cells.
+  (iii) σ, τ ∈ Sn are in the same two-sided cell if and only if P (σ), P (τ ) have the
+        same shape.
+Proof. (i) is straightforward from the definition. (ii) follows from [1, Thm. A] and
+(i). The “ only if ” part of (iii) follows from (i) of Lemma 3.5 and (ii) of this
+lemma. And the “ if ” part follows from the “ only if ” part, the following Lemma
+4.2 and the known fact that the number of two-sided cells of Sn is equal to that of
+partitions of n.                                                                   
+Lemma 4.2. Let Y be a Young tableau with ci entries in the i-th column, and
+P
+  i ci = n. Let σY be the longest P
+                                     element in the parabolic subgroup of Sn generated
+by sk = (k, k + 1), k ∈ [1, n] \ { ij=1 cj | i ≥ 1}. Then P (σY ) and Y have the same
+shape. More precisely, the entries in the i-th column of P (σY ) are the integers x
+          P                 Pi
+such that i−1j=1 cj < x ≤      j=1 cj .
+
+Proof. This is straightforward from the algorithm for P (σ).                           
+Definition 4.3. Let Y be a Young tableau with ci entries in the i-th column. Define
+                       P
+A(Y ) to be the integer i≥1 ci (c2i −1) , which is the length of the element σY in the
+above lemma.
+Proposition 4.4. For σ ∈ Sn , we have
+                                   a(σ) = A(P (σ)).
+Proof. Let Y = P (σ). Since P (σY ) and P (σ) are of the same shape (see Lemma
+4.2), σY and σ are in the same two-sided cell by Lemma 4.1(iii). Hence a(σ) =
+a(σY ) = l(σY ) = A(Y ) by Lemma 3.5 (iii), (iv) and the Definition 4.3.     
+   This proposition gives an efficient algorithm for Lusztig’s function a : Sn → N.
+In next subsection we will give a similar algorithm for a(λ), λ ∈ h∗ (see Definition
+3.7).
+4.3. Algorithm for a(λ). Recall that for λ ∈ h∗ we write λ + ρ = (λ1 , λ2 , · · · , λn ).
+One can see that λ is an integral weight if and only if λi − λj ∈ Z for all i, j, and
+λ is antidominant if and only
+                           P if λi ≤ λjPwhenever λi − λj ∈ Z, i < j. If σ ∈ Sn ,
+then σ.λ + ρ = σ(λ + ρ) = i λi ǫσ(i) = j λσ−1 (j) ǫj .
+   If λ ∈ Λ is an integral weight, we associated to the sequence (λ1 , · · · , λn ) an
+semistandard Young tableau P (λ); see §4.1.
+Lemma 4.5. Assume that λ is an integral weight.
+   (i) There is a unique σλ ∈ Sn such that for i < j
+(4.1)                   λi ≤ λj if and only if σλ (i) < σλ (j),
+
+(4.2)                 and λi > λj if and only if σλ (i) > σλ (j).
+12                                ZHANQIANG BAI AND XUN XIE
+
+
+      (ii) The element σλ ∈ Sn is of minimal length such that σλ .λ is antidominant.
+     (iii) P (λ) and P (σλ ) have the same shape. Hence
+(4.3)                                      a(λ) = A(P (λ));
+         see Definition 4.3 for the definition of the function A.
+Proof. (i) is obvious. Let σ = σλ . Then σ.λ + ρ = (λσ−1 (1) , λσ−1 (2) , · · · , λσ−1 (n) ).
+If a = σ(p) < σ(q) = b then by (4.1), (4.2) we always have λp ≤ λq , i.e. λσ−1 (a) ≤
+λσ−1 (b) . Thus σ.λ is antidominant. To prove σ is of minimal length we only need
+to prove that when sα .λ = λ with α ∈ Φ+ we have σsα > σ, or equivalently that if
+λi = λj , i < j then σ(ǫi − ǫj ) ∈ Φ+ , i.e. σ(i) < σ(j). But this is just (4.1).
+   (iii). By the construction of σλ and the Schensted insertion algorithm, we see
+immediately that P (λ) and P (σλ ) have the same shape. Then
+                Def. 3.7              Lem. 3.5(ii)            Prop. 4.4
+         a(λ)     =        a(σλ−1 )       =          a(σλ )      =        A(P (σλ )) = A(P (λ)).
+This completes the proof.                                                                          
+
+   Now we turn to the general case where λ is not necessarily integral.
+   We fix a weight λ ∈ h∗ . Denote by Xλ or just X the set of subsets X of [1, n]
+such that i, j are in X if and only if λi − λj ∈ Z. If X = {i1 ≤ i2 ≤ · · · ≤ ik }
+then denote by λX the weight such that λX + ρ′ = (λi1 , λi2 , · · · , λik ), where λX
+is viewed as an integral weight of sl(k) and ρ′ is the half sum of positive roots of
+sl(k).
+   Then we associate to λ the set P (λ), which consists
+                                                    P of all the Young tableaux
+P (λX ) with X ∈ X. And we define A(P (λ)) to be X∈X A(P (λX )).
+Theorem 4.6. Assume that g = sl(n), λ ∈ h∗ . Then
+                                           a(λ) = A(P (λ)).
+Hence by Proposition 3.8, we have
+                                                     n(n − 1)
+                             GKdim L(λ) =                     − A(P (λ)).
+                                                        2
+This gives rise to a combinatorial algorithm for GKdim L(λ).
+Proof. First we have
+                                                        Y
+                                            W[λ] =            WX
+                                                       X∈X
+
+where WX is the subgroup of W = Sn generated by (i, j) with i, j ∈ X. Then w
+is of minimal length in W[λ] such that w−1 .λ is antidominant if and only if wX is
+                                        −1
+of minimal length in WX such that wX       .λX is antidominant, where w = (wX )X∈X .
+Then we have
+                               Lem. 3.5(v) X
+               a(λ) = a[λ] (w)     =           a[λX ] (wX )
+                                                      X∈X
+                             X              Lem. 4.5
+                                                        X
+                       =          a(λX )       =               A(P (λX )) = A(P (λ)).
+                            X∈X                        X∈X
+
+This completes the proof of the theorem.                                                           
+                  GK DIMENSIONS OF CERTAIN HARISH-CHANDRA MODULES                             13
+
+
+                     5. GKdim L(λ) for (p, q)-dominant weights
+   Let g = sl(n), p + q = n with p, q ∈ Z≥1 .
+Definition 5.1. We say λ ∈ h∗ is (p, q)-dominant if λi − λj ∈ Z>0 for all i, j such
+that 1 ≤ i < j ≤ p or p + 1 ≤ i < j ≤ p + q, where λ + ρ = (λ1 , λ2 , · · · , λn ). In
+particular, λ1 > λ2 > · · · > λp and λp+1 > λp+2 > · · · > λp+q .
+   The results in this section give rise to a quick algorithm for GKdim L(λ) when
+λ is a (p, q)-dominant weight.
+Theorem 5.2. Assume that λ ∈ h∗ is (p, q)-dominant.
+   (i) If λ1 − λp+1 ∈ Z, i.e. λ is an integral weight, then P (λ) is a Young tableau
+       with at most two columns. And in this case GKdim L(λ) = m(n− m) where
+       m is the number of entries in the second column of P (λ).
+  (ii) If λ1 − λp+1 ∈/ Z, then P (λ) consists of two Young tableaux with single
+       column:
+                                    λp     λp+q
+                                                .
+                                     ..      ..
+                                      .       .
+                                    λ2     λp+2
+                                    λ1     λp+1
+         And in this case GKdim L(λ) = pq.
+Proof. The shape of P (λ) follows directly from the definition. And the Gelfand-
+Kirillov dimension follows from Theorem 4.6.                                  
+
+5.1. An algorithm for m. By the above theorem, we only need to determine m
+in the case where λ is integral and (p, q)-dominant.
+Proposition 5.3. Assume that λ is an integral and (p, q)-dominant weight. Then
+we have the following three cases.
+   Case (i) λp+1 ≥ λp > λp+q . Then we can find an integer 1 ≤ k ≤ q such that
+λp ≤ λp+k and λp > λp+k+i for all i > 0. Let λ′ be the weight corresponding to
+(λ1 , λ2 , · · · , λp−1 , λp+1 , · · · , λp+k−1 ), i.e. deleting the entries λp , λp+k+j , j ≥ 0.
+                         q
+
+
+Then P (λ) is obtained from P (λ′ ) in the following way.
+
+                        λp+q
+                          ..                                λp+q λp+k
+             λp                       λp+k                    ..
+                           .
+                       λp+k+1                                  .
+                                                           λp+k+1
+                                                             λp
+                                                                            = P (λ)
+
+                  P (λ′ ) =
+14                           ZHANQIANG BAI AND XUN XIE
+
+
+In other words, the second column of P (λ) can be obtained from that of P (λ′ ) by
+adding a box containing λp+k on the top.
+   Case (ii) λp ≤ λp+q . Let λ′ be the weight corresponding to
+                        (λ1 , λ2 , · · · , λp−1 , λp+1 , · · · , λp+q−1 ),
+i.e. deleting the entries λp , λp+q from λ. Then P (λ) is obtained from P (λ′ ) in the
+following way.
+                            λp         λp+q
+
+
+
+
+                P (λ′ ) =
+
+
+                                                                             = P (λ)
+
+
+
+
+In other words, the second column of P (λ) is obtained from that of P (λ′ ) by adding
+a box containing λp+q on the top.
+   Case (iii) λp ≥ λp+1 . Then P (λ) is just a Young tableau with single column.
+Proof. This directly follows from Schensted insertion algorithm (see §4.1).            
+   This proposition gives rise to an algorithm for P (λ) in the following way. First,
+we construct a sequence of weights λ(0), λ(1), · · · , λ(l) for some l. Here λ(0) = λ.
+Assume that we have obtained λ(i) in some step. If the entries corresponding to
+λ(i) are not strictly decreasing, then we set λ(i + 1) = λ(i)′ as we do in Proposition
+5.3(i)(ii). Otherwise, we set λ(i) to be the last weight λ(l).
+   Note that P (λ(l)) is an empty Young tableau or a Young tableau with single
+column. Then one can obtain P (λ(l − 1)) from P (λ(l)) by using (i) or (ii) of
+Proposition 5.3. Repeating this process, we get P (λ(i)) from P (λ(i + 1)) for all i,
+in particular P (λ) = P (λ(0)). From the process we know that the number m of
+entries in the second column of P (λ) is just l and m ≤ min(p, q). Then GKdim L(λ)
+also follows from this algorithm by using Theorem 5.2(i).
+   In fact, we do not need to write down the each P (λ(i)), since we can immediately
+write down the second column of P (λ) from λ(i)’s; see the following example.
+Example 5.4. Let n = 10, p = 4, q = 6 and λ + ρ = (6, 5, 3, 2, 9, 8, 7, 4, 2, 1).
+
+                                             6 5          3 2
+                                 9 8 7                4     2 1
+
+Using the above notation, we have
+                             λ(1)     → (6, 5, 3, 9, 8, 7, 4),
+                             λ(2)     → (6, 5, 9, 8, 7),
+                             λ(3)     → (6, 9, 8),
+              GK DIMENSIONS OF CERTAIN HARISH-CHANDRA MODULES                                        15
+
+
+                             λ(4)     → (9).
+One can see that the second column of P (λ) is {8, 7, 4, 2}. Hence we have
+                           1     2
+                           2     4
+                   P (λ) = 3     7         GKdim L(λ) = 4 × 7 = 24.
+                           5     8
+                           6
+                           9
+5.2. A combinatorial model. Let λ be an integral and (p, q)-dominant weight
+such that λ + ρ = (λ1 , λ2 , · · · , λn ). Let a1 be the number of λp+i , i ≥ 1 such
+that λp+i ≥ λ1 and let b1 be the number of λj , j ≥ 1 such that λj > λp+a1 +1 .
+Inductively, let ak+1 be the number such that
+                                                              Pk
+                         P                     P
+            #{λp+i | λ kt=1 bt > λp+i ≥ λ( kt=1 bt )+1 }, if (P t=1 bt ) + 1 ≤ p;
+            
+                                                                k
+    ak+1 = #{λp+i | λPk bt > λp+i },                        if      bt = p;
+            
+                          t=1
+                                                               Pt=1
+                                                                k
+              0,                                            if  t=1 bt > p.
+
+and bk+1 the number such that
+                                                                               Pk+1
+                      P
+          #{λj | λp+ k+1
+                              ≥ λj > λp+(Pk+1 at )+1 }                     if ( t=1 at ) + 1 ≤ q;
+                        t=1 at             t=1
+                                                                               Pk+1
+   bk+1 = #{λj | λp+Pk+1 at ≥ λj }                                          if       at = q;
+          
+                       t=1
+                                                                               Pt=1
+                                                                                 k+1
+            0                                                               if   t=1 at > q.
+
+Let r ∈ Z≥1 be the minimal integer such that ar+1 = br+1 = 0. Then we write
+                          ξ(λ) := (a1 , b1 , a2 , b2 , · · · , ar , br ).
+Note that ai and bi are positive except that a1 , br may be 0. For the weight λ in
+Example 5.4, we have ξ(λ) = (3, 2, 1, 1, 1, 1, 1, 0).
+  From the definition of ξ(λ) we have the following lemma.
+Lemma 5.5. If λ, µ are integral and (p, q)-dominant weights satisfying ξ(λ) =
+ξ(µ), then P (λ) and P (µ) have the same shape. In particular, GKdim L(λ) =
+GKdim L(µ).
+Proof. This follows from Proposition 5.3.                                                            
+   The rest of this section is devoted to a combinatorial model, which enables us
+to obtain m directly from ξ(λ).
+   Assume that we have p black balls and q white balls, which are arranged in a
+line such that from left to right there are a1 white balls, b1 black balls, a2 white
+balls, . . . , br black balls. We call two balls an adjacent white-black pair if they are
+adjacent with the left ball white and the right ball black. We remove the adjacent
+white-black pairs from this line of balls over and over again until there are no
+adjacent white-black pairs, i.e the remaining black balls are all in the left side of
+every white ball. One can check that the number of pairs that are removed in this
+process are independent of the order, which is denoted by Gr .
+Theorem 5.6. Let λ be an integral (p, q)-dominant weight such that
+                               ξ(λ) = (a1 , b1 , · · · , ar , br ).
+16                             ZHANQIANG BAI AND XUN XIE
+
+
+Let m be the number of entries in the second column of P (λ). And let Gk , 1 ≤ k ≤ r
+be the number of adjacent white-black pairs in the sequence (a1 , b1 , · · · , ak , bk ) of
+balls, described as above.
+     (i) We have m = Gr . Hence GKdim L(λ) = Gr (n − Gr ) by Theorem 5.2.
+    (ii) There is a recursive formula
+                                          k+1
+                                          X
+                    Gk+1 = Gk + min{            ai − Gk , bk+1 }, for k < r.
+                                          i=1
+
+Proof. (i) follows from Proposition 5.3.
+   (ii). After deleting all adjacent white-black pairs in the sequence (a1 , b1 , · · · , ak , bk ),
+           Pk                                         Pk
+there are =1 bi − Gk black balls on the left and i=1 ai − Gk white balls on the
+                                                                             Pk
+right. If we take ak+1 , bk+1 into account, then from left to right we have i=1 bi −Gk
+              Pk+1
+black balls, i=1 ai − Gk white balls, and bk+1 black balls. Thus we in addition
+              Pk+1
+obtain min{ i=1 ai − Gk , bk+1 } adjacent white-black pairs. Then (ii) follows. 
+     For the latter use, we formulate the following lemma.
+Lemma 5.7. Let ξ be a sequence of white and black balls as above. Then, locally,
+we can do the following two kinds of operations on ξ
+
+
+
+
+such that the number of adjacent white-black pairs in ξ does not change under these
+operations.
+Proof. It is an easy consequence of the fact that the number of adjacent white-black
+pairs is independent of the choice of deleting order.                             
+     If λ is as in Example 5.4, the sequence ξ(λ) of balls is illustrated as follows:
+
+
+Then we can remove 4 adjacent white-black pairs. And the remaining balls are
+arranged as follows:
+
+So m = Gr = 4. Using certain operations in Lemma 5.7, ξ(λ) can transform into
+
+
+5.3. Another model. At last, we want to give an algebraic model to compute m.
+Proposition 5.8. Let A be a Z[v]-algebra generated by x, y with only relation
+xy = v where v is an indeterminate. It is obvious that A has a standard Z[v]-basis
+{y s xt | s, t ∈ N}.
+   Let λ be an integral (p, q)-dominant weight with ξ(λ) = (a1 , b1 , · · · , ar , br ). Then
+we have
+                          xa1 y b1 · · · xar y br = v m y p−m xq−m
+where m is the number of entries in the second column of P (λ).
+Proof. This directly follows from Theorem 5.6 by viewing white (resp. black) balls
+as x (resp. y).                                                                 
+                GK DIMENSIONS OF CERTAIN HARISH-CHANDRA MODULES                                    17
+
+
+  Applying this proposition to Example 5.4, we have x3 y 2 xyxyx = v m y 4−m x6−m ,
+which implies that m = 4.
+
+                           6. Application to (g, K)-modules
+6.1. Application to unitary highest weight SU (p, q)-modules. The unitary
+highest weight (g, K)-modules had been classified by [4] and [8]. Let L(λ) be
+a unitary highest weight (g, K)-module. We use notations from [4]. Let β be the
+unique maximal root in the positive roots Φ+ and ζ be the unique weight orthogonal
+to Φc and satisfying (ζ, β ∨ ) = 1. Then we can write λ = λ̃ + zζ, where λ̃ is a k-
+dominant weight of h∗ such that (λ̃ + ρ, β)=0, and z ∈ R. A formula for the
+Gelfand-Kirillov dimensions of all unitary highest weight (g, K)-modules is found
+in [2]. Now by our algorithm, we can reprove it in the case G = SU (p, q).
+    Assume that λ̃ is a (p, q)-dominant weight such that λ̃1 = λ̃p+q where λ̃ + ρ =
+(λ̃1 , · · · , λ̃n ). Without loss of generality, we can assume that all λ̃i ∈ Z. We have
+ζ = (1, 1 · · · 1, 0 · · · , 0). Let p′ be the maximal integer in [1, p] such that λ̃1 , λ̃2 , · · · ,
+         | {z } | {z }
+          p          q
+λ̃p′ are consecutive integers. And let q ′ be the maximal integer in [1, q] such that
+λ̃p+q−q′ +1 , · · · , λ̃p+q are consecutive integers.
+    From [4, Thm. 7.4], we have the following lemma.
+Lemma 6.1. Let z ∈ R. The simple highest weight module L(λ̃ + zζ) is a unitary
+SU (p, q)-module if and only if z ∈ Iλ̃ , where
+               Iλ̃ = {z ∈ R | z ≤ max {p′ , q ′ }} ∪ {z ∈ Z | z ≤ p′ + q ′ − 1}.
+   Then we have the following result.
+Proposition 6.2. Keep the notations as above. When z ∈ Iλ̃ , the Gelfand-Kirillov
+dimension of L(λ̃ + zζ) only depends on z. Precisely,
+     (i) If z ∈ Iλ̃ \ Z, we have GKdim L(λ̃ + zζ) = pq.
+    (ii) If z ∈ Iλ̃ ∩ Z, we have
+                           (
+                             pq,                 if z < max{p, q};
+    GKdim L(λ̃ + zζ) =
+                             (z + 1)(n − z − 1), if max{p, q} ≤ z ≤ p′ + q ′ − 1.
+
+Proof. (i) follows from Theorem 5.2(ii).
+   (ii). Let µ̃ + ρ = (p, p − 1, · · · , 1, p + q − 1, p + q − 2, · · · , p). By using operations
+in Lemma 5.7 one can check that P (λ̃ + zζ) and P (µ̃ + zζ) have the same shape
+when z ∈ Iλ̃ ∩ Z. Then by Theorem 4.6, we have
+                  GKdim(λ̃ + zζ) = GKdim(µ̃ + zζ) for all z ∈ Iλ̃ ∩ Z.
+Then (ii) is reduced to the computation of GKdim(µ̃ + zζ), which explains why
+GKdim L(λ̃+zζ) only depends on z if z ∈ Iλ̃ ∩Z. Now we compute GKdim L(µ̃+zζ)
+for all z ∈ Z. Using Theorem 5.6, one can check that the number m of entries in
+the second column of P (µ̃ + zζ) with z ∈ Z is
+                       
+                       min{p, q}, if z < max{p, q};
+                       
+                  m= n−1−z            if max{p, q} ≤ z ≤ n − 1;
+                       
+                       
+                         0            if z ≥ n.
+18                           ZHANQIANG BAI AND XUN XIE
+
+
+Hence by Theorem 5.2, we have
+                         
+                         pq,
+                                                   if z < max{p, q};
+      GKdim L(µ̃ + zζ) = (z + 1)(n − 1 − z)         if max{p, q} ≤ z ≤ n − 1;
+                         
+                         
+                           0                        if z ≥ n.
+which completes the proof.                                                          
+6.2. Application to highest weight SU (p, q)-modules. It is proved in [2] that
+GKdim L(λ̃ + zζ) decreases as z takes unitary points and increases. Now we gen-
+eralize this result to all highest weight (g, K)-modules in the case G = SU (p, q).
+Theorem 6.3. Let L(λ̃ + zζ) be a highest weight SU (p, q)-module. Then
+                                GKdim(L(λ̃ + zζ))
+will (weakly) decrease as z ∈ Z increases. Moreover, GKdim(L(λ̃ + zζ)) = 0 if z
+is an integer bigger than λ̃p+1 − λ̃p .
+Proof. By the combinatorial model in Theorem 5.6, the value of m for P (λ̃+(z+1)ζ)
+is less than or equal to the value of m for P (λ̃ + zζ). So m decreases as the integer
+z increases. Note that m ≤ min(p, q) ≤ [ n2 ]. Then Theorem 5.2 implies that
+GKdim L(λ̃ + zζ) decreases as m decreases. So GKdim L(λ̃ + zζ) decreases as the
+integer z increases.                                                                
+  Now we turn to consider associated varieties of highest weight (g, K)-modules.
+We have the decomposition g = p− + k + p+ under the adjoint action of KC . From
+Vogan [19], we know that the associated variety of any highest weight (g, K)-module
+L(λ) is the closure of some KC orbit in p+ ∼ = (g/(k + p+ ))∗ , and closures of these
+KC orbits form a linear chain of varieties:
+(6.1)                {0} = Ō0 ⊆ Ō1 ⊆ ... ⊆ Ōr−1 ⊆ Ōr = p+ ,
+where r is the rank of the Hermitian symmetric space G/K. In [2], it is proved that
+                          dim Ōk = khρ, β ∨ i − k(k − 1)C,
+where C is a constant only depending on G.
+   In the case G = SU (p, q), we have hρ, β ∨ i = n − 1 and C = 1, and hence
+dim Ōk = k(n−k). Since GKdim L(λ) = m(n−m) where m is the number of entries
+in the second column of P (λ), then the associated variety of L(λ) must be Ōm . To
+summarize, we have the following theorem about Gelfand-Kirillov dimensions and
+associated varieties of a highest weight (g, K)-modules in the case G = SU (p, q).
+Theorem 6.4. Let G = SU (p, q). Let L(λ) be a highest weight (g, K)-module.
+   (i) If λ is an integral weight, then
+        (a) P (λ) is a Young tableau with at most two columns;
+        (b) GKdim L(λ) = m(n − m) where m is the number of entries in the
+            second column of P (λ);
+        (c) The associated variety of L(λ) is Ōm .
+  (ii) If λ is not integral, then
+        (a) P (λ) consists of two Young tableaux with single column;
+        (b) GKdim L(λ) = pq;
+        (c) The associated variety of L(λ) is Ōr , r = min{p, q}.
+                GK DIMENSIONS OF CERTAIN HARISH-CHANDRA MODULES                                  19
+
+
+Acknowledgments. The first author is supported by NSFC Grant No.11601394
+and China Postdoctoral Science Foundation Grant No.2016M602337. The second
+author is supported by NSFC Grant No.11631001 and NSFC Grant No.11601116.
+Both authors thank the anonymous referees for valuable comments and suggestions.
+
+
+                                         References
+ [1] S. Ariki. Robinson-Schensted correspondence and left cells. In Combinatorial methods in
+     representation theory (Kyoto, 1998), volume 28 of Adv. Stud. Pure Math., pages 1–20. Ki-
+     nokuniya, Tokyo, 2000. 11
+ [2] Z. Q. Bai and M. Hunziker. The Gelfand-Kirillov dimension of a unitary highest weight
+     module. Sci. China Math., 58(12):2489–2498, 2015. 1, 3, 17, 18
+ [3] W. Borho and H. Kraft. Über die Gelfand-Kirillov-Dimension. Math. Ann., 220(1):1–24, 1976.
+     4
+ [4] T. Enright, R. Howe, and N. Wallach. A classification of unitary highest weight modules.
+     In Representation theory of reductive groups (Park City, Utah, 1982), volume 40 of Progr.
+     Math., pages 97–143. Birkhäuser Boston, Boston, MA, 1983. 1, 17
+ [5] D. Garfinkle. The annihilators of irreducible Harish-Chandra modules for SU(p, q) and other
+     type An−1 groups. Amer. J. Math., 115(2):305–369, 1993. 4
+ [6] I. M. Gelfand and A. A. Kirillov. Sur les corps liés aux algèbres enveloppantes des algèbres
+     de Lie. Inst. Hautes Études Sci. Publ. Math., (31):5–19, 1966. 1
+ [7] J. E. Humphreys. Representations of semisimple Lie algebras in the BGG category O, vol-
+     ume 94 of Graduate Studies in Mathematics. American Mathematical Society, Providence,
+     RI, 2008. 5, 9
+ [8] H. P. Jakobsen. Hermitian symmetric spaces and their unitary highest weight modules. J.
+     Funct. Anal., 52(3):385–412, 1983. 17
+ [9] J. C. Jantzen. Moduln mit einem höchsten Gewicht, volume 750 of Lecture Notes in Mathe-
+     matics. Springer, Berlin, 1979. 2, 6
+[10] J. C. Jantzen. Einhüllende Algebren halbeinfacher Lie-Algebren, volume 3 of Ergebnisse der
+     Mathematik und ihrer Grenzgebiete (3) [Results in Mathematics and Related Areas (3)].
+     Springer-Verlag, Berlin, 1983. 4
+[11] A. Joseph. Gelfand-Kirillov dimension for the annihilators of simple quotients of Verma mod-
+     ules. J. London Math. Soc. (2), 18(1):50–60, 1978. 2
+[12] G. R. Krause and T. H. Lenagan. Growth of algebras and Gelfand-Kirillov dimension. Prov-
+     idence, RI: American Mathematical Society, revised edition, 2000. 4, 9
+[13] G. Lusztig. Cells in affine Weyl groups. In Algebraic groups and related topics (Kyoto/Nagoya,
+     1983), volume 6 of Adv. Stud. Pure Math., pages 255–287. North-Holland, Amsterdam, 1985.
+     2
+[14] G. Lusztig. The two-sided cells of the affine Weyl group of type Ãn . In Infinite-dimensional
+     groups with applications (Berkeley, Calif., 1984), volume 4 of Math. Sci. Res. Inst. Publ.,
+     pages 275–283. Springer, New York, 1985. 2, 8
+[15] G. Lusztig. Hecke algebras with unequal parameters, volume 18 of CRM Monograph Series.
+     American Mathematical Society, Providence, RI, 2003. 8
+[16] K. Nishiyama, H. Ochiai, K. Taniguchi, H. Yamashita, and S. Kato. Nilpotent orbits, associ-
+     ated cycles and Whittaker models for highest weight representations. Société Mathématique
+     de France, Paris, 2001. Astérisque No. 273 (2001). 4
+[17] W. Soergel. Kategorie O, perverse Garben und Moduln über den Koinvarianten zur Weyl-
+     gruppe. J. Amer. Math. Soc., 3(2):421–445, 1990. 8
+[18] D. A. Vogan, Jr. Gelfand-Kirillov dimension for Harish-Chandra modules. Invent. Math.,
+     48(1):75–98, 1978. 4
+[19] D. A. Vogan, Jr. Associated varieties and unipotent representations. In Harmonic analysis
+     on reductive groups (Brunswick, ME, 1989), volume 101 of Progr. Math., pages 315–388.
+     Birkhäuser Boston, Boston, MA, 1991. 4, 18
+
+
+   School of Mathematics and Statistics, Wuhan University, Wuhan 430072, China
+   E-mail address: Zhanqiang.bai@whu.edu.cn
+20                        ZHANQIANG BAI AND XUN XIE
+
+
+   School of Mathematics and Statistics, Beijing Institute of Technology, Beijing
+100081, China
+   E-mail address: xieg7@163.com
+

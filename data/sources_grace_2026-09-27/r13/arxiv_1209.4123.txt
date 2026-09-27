@@ -1,0 +1,515 @@
+                                           TEMPERED REPRESENTATIONS AND NILPOTENT ORBITS
+
+                                                                              BENJAMIN HARRIS
+
+
+
+
+arXiv:1209.4123v2 [math.RT] 4 May 2015
+                                                  Abstract. Given a nilpotent orbit O of a real, reductive algebraic group, a
+                                                  necessary condition is given for the existence of a tempered representation π
+                                                  such that O occurs in the wave front cycle of π. The coefficients of the wave
+                                                  front cycle of a tempered representation are expressed in terms of volumes of
+                                                  precompact submanifolds of an affine space.
+
+
+
+
+                                                                              1. Introduction
+                                             Let G be a real, reductive algebraic group with Lie algebra g, and let π be an
+                                         irreducible, admissible representation of G. The wave front cycle of π, denoted
+                                         WF(π), is an integral linear combination of nilpotent coadjoint orbits defined in
+                                         [2], [13].
+                                         Theorem 1.1. Suppose O is an orbit contained in WF(π) for a tempered repre-
+                                         sentation π, let ν ∈ O, and let L be a Levi factor of ZG (ν). Then L/Z(G) is
+                                         compact.
+                                            This theorem was conjectured by David Vogan. It makes precise the widely held
+                                         intuition that orbits occuring in the wave front cycles of tempered representations
+                                         are necessarily large.
+
+                                            In [1] Bala and Carter attempted a uniform understanding of nilpotent orbits in
+                                         complex semisimple Lie algebras. They observed that for every nilpotent orbit O,
+                                         there is an unique (up to conjugacy) maximal complex Levi subalgebra l meeting O.
+                                         Moreover, O ∩ l is a single orbit for the adjoint group of l. Bala and Carter defined
+                                         a nilpotent orbit to be distinguished if it does not meet a proper Levi subalgebra,
+                                         and they observed that to parametrize nilpotent orbits it is enough to parametrize
+                                         distinguished nilpotent orbits in every Levi subalgebra.
+                                            Motivated by the work of Bala and Carter, we define a nilpotent orbit for a real
+                                         reductive algebraic group to be real distinguished if it does not meet a proper Levi
+                                         subalgebra. By Levi subalgebra, we mean the Levi factor of a real parabolic subal-
+                                         gebra. Using the notion of a real distinguished nilpotent orbit, one could attempt a
+                                         Bala-Carter style classification of real nilpotent orbits. Noël gave a different gener-
+                                         alization of Bala-Carter theory for real nilpotent orbits using the notion of a noticed
+                                         nilpotent orbit which is different from the notion of a real distinguished nilpotent
+                                         orbit [8].
+
+
+                                            Date: August 21, 2011.
+                                            2000 Mathematics Subject Classification. Primary 22E46; Secondary 43A65, 22E45.
+                                            Key words and phrases. Tempered Representation, Discrete Series Representation, Wave Front
+                                         Cycle, Associated Variety, Reductive Lie Group, Real Reductive Algebraic Group, Nilpotent Orbit,
+                                         Distinguished Nilpotent Orbit, Coadjoint Orbit.
+                                                                                        1
+2                                  BENJAMIN HARRIS
+
+
+    If Oν is a nilpotent orbit, then one checks that ZG (ν) is compact modulo Z(G)
+iff Oν is a real distinguished nilpotent orbit by utilizing the fact that every real
+Levi subalgebra can be written as the centralizer of a hyperbolic element. Thus,
+we have an alternate way of stating Theorem 1.1.
+
+Corollary 1.2. If O ⊂ g∗ is a nilpotent coadjoint orbit occurring in the wave front
+cycle of a tempered representation, then O does not meet m∗ for any proper Levi
+subalgebra m ⊂ g.
+
+   Note that this corollary relates a set of nilpotent orbits that arises naturally in
+representation theory with a set of nilpotent orbits that arises naturally in structure
+theory.
+   For p-adic groups, similar results were obtained much earlier. In [6], Moeglin
+shows that the p-adic analogue for supercuspidal representations follows from re-
+sults of [7]. Similarly, Moeglin proves the result for tempered representations of
+classical p-adic groups in [6].
+
+   The purpose of this paper is to show that there is a simple proof of Theorem
+1.1, which is in the spirit of the Kostant-Kirillov orbit method.
+
+   In [10] and [11], Rossmann associated to each irreducible, tempered represen-
+tation π a finite union of regular coadjoint orbits we call Oπ . If π has regular infin-
+itesimal character, then Oπ is a single coadjoint orbit. For each nilpotent coadjoint
+orbit, O ⊂ g∗ , fix X ∈ O. Identify g ∼  = g∗ via a G-equivariant isomorphism, and
+let {X, H, Y } be an sl2 -triple containing X. Put SX = X + Zg (Y ).
+
+Theorem 1.3. There exists a canonical measure on SX ∩ Oπ such that
+                                      X
+                    WF(π) =                        vol(Oπ ∩ SX )OX .
+                               Oπ ∩SX precompact
+
+
+The sum is over nilpotent coadjoint orbits OX such that Oπ ∩ SX is precompact.
+
+   If π has regular infinitesimal character, then ‘precompact’ may be replaced by
+‘compact’ in the above theorem. In the case where G is compact, the wave front
+cycle of π is dim(π) · 0 where 0 denotes the zero orbit. In this case, our formula
+reduces to the well known observation of Kirillov that the symplectic volume of the
+coadjoint orbit associated to π is the dimension of π (see for instance page 173 of [5]).
+
+   The reader will see in section four that the compactness in Theorem 1.1 is a
+consequence of the compactness of the manifold Oπ ∩ SX in the case of regular
+infinitesimal character.
+
+   All of these results should be true for an arbitrary reductive Lie group. We only
+state them in the case of real, reductive algebraic groups because we use results of
+[10], [11], and [12], which are only stated for real, reductive algebraic groups. How-
+ever, the author believes that these results should be true for an arbitrary reductive
+Lie group.
+              TEMPERED REPRESENTATIONS AND NILPOTENT ORBITS                         3
+
+
+    2. Rao’s Lemma and three Corollaries of Barbasch and Vogan
+   Let O ⊂ g∗ be a coadjoint orbit. The Kostant-Kirillov symplectic form ω is
+defined on O by the formula
+                           ωλ (ad∗X λ, ad∗Y λ) = λ([X, Y ]).
+The top dimensional form
+                                        ωm
+                                      m!(2π)m
+on O gives rise to the canonical measure on O. Here m = dim2 O . We will often
+abuse notation and write O for the orbit as well as the canonical measure on the
+orbit.
+   In this section, we recall an unpublished lemma of Rao and three corollaries of
+Barbasch and Vogan. All of this material can be found on pages 46, 47, and 48
+of [2]. However, unlike the previous treatment, we need to carefully keep track of
+certain constants for our applications. Thus, we provide updated statements, and
+for the convenience of the reader we provide sketches of updated proofs.
+   Identify g ∼
+              = g∗ via a G-equivariant isomorphism. Let OX be a nilpotent orbit
+     ∗ ∼
+in g = g, and let {X, H, Y } be an sl2 -triple with nilpositive element X. Put
+SX = X + Zg (Y ). The map
+                                  φ : G × SX → g ∗
+given by φ : (g, ξ) 7→ g · ξ is a submersion. In particular, every orbit Oν ⊂ G · SX
+is transverse to SX , and G · SX ⊂ g∗ is open.
+    Fix a Haar measure on G. This choice determines a Lebesgue measure on g ∼  = g∗ .
+If ξ ∈ SX , then we have a direct sum decomposition
+                       g = [g, X] ⊕ Zg (Y ) ∼
+                                            = TX OX ⊕ Tξ SX .
+We then obtain a Lebesgue measure on SX as the ‘quotient’ of the Lebesgue measure
+on g and the canonical measure on OX ⊂ g∗ . Further, given ν ∈ g∗ , denote by Fν
+the fiber over ν under the map φ. If g · ξ = ν, then we have an exact sequence
+                                                        ∗
+                0 → Tν∗ (G · SX ) → T(g,ξ)
+                                     ∗
+                                           (G × SX ) → T(g,ξ) Fν → 0.
+This exact sequence together with the above remarks and our choice of Haar mea-
+sure on G determine a smooth measure on Fν . Moreover, integration against these
+measures on the fibers of φ yields a continuous surjective map
+                       φ∗ : Cc∞ (G × SX ) −→ Cc∞ (G · SX ).
+Dualizing, we get an injective pullback map on distributions
+                          φ∗ : D(G · SX ) → D(G × SX ).
+Now, we are ready to state Rao’s lemma.
+Lemma 2.1 (Rao). If ν ∈ SX , then there exists a smooth measure mν,X on Oν ∩SX
+such that
+                           φ∗ (Oν ) = mG ⊗ mν,X .
+Here mG denotes the fixed choice of Haar measure on G. Although φ∗ depends on
+this choice of Haar measure, mν,X does not.
+4                                 BENJAMIN HARRIS
+
+
+    One can write down mν,X by giving a top dimensional form on Oν ∩ SX , well-
+defined up to sign. Essentially, we just divide the canonical measure on Oν by
+the canonical measure on OX . More precisely, the composition of the inclusion
+[g, ν] ֒→ g and the projection defined by the decomposition g = [g, X] ⊕ Zg (Y )
+yields a map
+                              = [g, ν] → [g, X] ∼
+                        Tν Oν ∼                 = TX OX .
+This map is a surjection because Oν is transverse to SX . It pulls back to an exact
+sequence
+                          ∗
+                    0 → TX  OX → Tν∗ Oν → Tν∗ (Oν ∩ SX ) → 0.
+The canonical measures on Oν and OX determine top dimensional alternating ten-
+sors up to sign on Tν∗ Oν and TX∗
+                                  OX . Hence, our exact sequence gives a top dimen-
+                               ∗
+sional, alternating tensor on Tν (Oν ∩ SX ), well-defined up to sign.
+
+   We will need three corollaries of Barbasch and Vogan. Let N ⊂ g∗ be the
+nilpotent cone. If ν ∈ g∗ , define
+                                 Nν = N ∩ ∪t>0 Otν .
+Corollary 2.2 (Barbasch and Vogan). We have four statements.
+(a) If OX is a nilpotent orbit, then OX ⊂ Nν if, and only if Oν ∩ SX 6= ∅.
+(b) An orbit OX ⊂ Nν is open if, and only if Oν ∩ SX is precompact.
+(c) If ν is semisimple, then OX ⊂ Nν is open if, and only if Oν ∩ SX is compact.
+(d) Further, OX ∩ SX = {X} for any nilpotent orbit OX .
+   We sketch a proof. Note G·SX ⊂ g∗ is an open subset containing OX ; thus, OX ⊂
+Nν iff Otν ∩ SX 6= ∅ for sufficiently small t > 0. However, if γt = exp(− 12 (log(t))H),
+then
+                         Otν ∩ SX = X + tγt (Oν ∩ SX − X).
+In particular, Oν ∩ SX 6= ∅ iff Otν ∩ SX 6= ∅ for any t > 0. This verifies part (a).
+   For parts (b) and (c), one shows that Oν ∩ SX bounded implies that SX ∩
+Nν = {X} and Oν ∩ SX unbounded implies that SX ∩ Nν is unbounded. This
+follows from a straightforward calculation utilizing the adH -decomposition of Zg (Y )
+into eigenspaces with non-positive eigenvalues and the above relationship between
+Oν ∩ SX , Otν ∩ SX , and γt . Using that (G · SX ) ∩ N is the union of nilpotent orbits
+containing OX in their closures, parts (b) and (c) follow.
+   If we let ν = X in the last paragraph, we arrive at part (d).
+Corollary 2.3 (Barbasch and Vogan). Let n = 12 (dim Oν − dim Nν ). Then
+                                  X
+                lim t−n Otν =             vol(Oν ∩ SX )OX .
+                   t→0+
+                                       OX ⊂Nν
+                                   dim OX =dim Nν
+
+The volumes are computed with respect to the measures defined in Lemma 2.1.
+Moreover, the Fourier transform of the right hand side is the first non-zero term in
+                                                     cν .
+the asymptotic expansion of the generalized function O
+   Again, we sketch a proof. Fix X, a nilpotent element with OX ⊂ Nν open, and
+let m = 21 (dim Oν − dim OX ). We first show
+                           lim t−m Otν = vol(Oν ∩ SX )OX
+                          t→0+
+               TEMPERED REPRESENTATIONS AND NILPOTENT ORBITS                          5
+
+
+on the open set G · SX . By Rao’s lemma, φ∗ (Oν ) = mG ⊗ mν,X . Thus, it is enough
+to show
+                   lim t−m mG ⊗ mtν,X = vol(Oν ∩ SX )mG ⊗ δX
+                  t→0+
+
+if OX ⊂ Nν is an open orbit. Note that the support of the measure mtν,X is the
+precompact set Otν ∩ SX , and the precompact sets Otν ∩ SX converge uniformly
+to δX by the above relationship between Oν ∩ SX , Otν ∩ SX , and γt . Thus, it is
+enough to show
+                         t−m vol(Otν ∩ SX ) = vol(Oν ∩ SX ).
+This follows from a straightforward computation utilizing the above definition of
+the measures mtν,X .
+                                           cν has an asymptotic expansion at the
+   By Theorem 3.2 of [2], the distribution O
+origin
+                                    d
+                                 tr O      l
+                                     tν ∼ t Dl + · · ·
+
+where Dl is the leading term and r is the number of positive roots of G. If we
+show n = l − r, then our limit will exist everywhere. If n > l − r, then the
+limit limt→0+ tn O dtν must be zero everywhere. However, we have seen that the
+Fourier transform of this limit is nonzero on OX whenever OX ⊂ Nν is of maximal
+dimension.
+   The limit limt→0+ t−l+r Otν must exist and be nonzero. However, if n < l − r,
+then the homogeneity degree of this invariant distribution and Corollary 3.9 of [2]
+imply that such a distribution would have to be supported on orbits of dimension
+greater than dim Nν . But, this is impossible since the limit limt→0+ t−l+r Otν , if it
+exists, is clearly supported in Nν . Hence, n = l − r and the limit limt→0+ t−n Otν
+exists.
+   Now, let k = dim Nν , and let Nk be the union of nilpotent orbits of dimension
+                                         X limit formula holds on Nk . However, in
+at least k. We have shown that our desired
+theory the limit could differ from               vol(Oν ∩ SX )OX by a distribution
+                                       OX ⊂Nν
+                                   dim OX =dim Nν
+u supported on orbits of dimension less than Nν . However, we deduce u = 0 from
+Corollary 3.9 of [2] after checking the homogeneity degree of the terms in our limit
+formula.
+
+Corollary 2.4 (Barbasch and Vogan). Suppose h ⊂ g is a Cartan, and let C ⊂
+(h∗ )′ be a connected component of the regular set. If ν, λ ∈ C, then Nν = Nλ .
+
+   Suppose OX ⊂ Nν is an open orbit, let n = 21 (dim Oν − dim OX ), and observe
+                          1
+limt→0+ t−n Otν = limt→0+ n! ∂(ν)n |tν Otν on G · SX by the proof of Corollary 2.3.
+By Lemma 22 of [4],
+
+                         lim ∂(ν)n |tν Otν = lim ∂(ν)n |tλ Otλ
+                         t→0+                t→0+
+
+on G·SX if ν, λ ∈ C. Clearly the support of limt→0+ ∂(ν)n |tλ Otλ must be contained
+in Nλ . Thus, the explicit formula for the limit on the left on G · SX for open orbits
+OX ⊂ Nν in the proof of Corollary 2.3 then implies OX ⊂ Nλ whenever OX ⊂ Nν
+is open. Thus, we deduce Nν ⊂ Nλ . By symmetry we have equality.
+6                                BENJAMIN HARRIS
+
+
+                     3. Rossmann’s Character Formula
+  Let V be a finite dimensional, real vector space, and let µ be a smooth, rapidly
+decreasing measure on V . Then the Fourier transform of µ is defined to be
+                                    Z
+                            b(l) =
+                            µ           eihl,Xi dµ(X).
+                                         V
+     b is a Schwartz function on V . Given a tempered distribution D on V ∗ , its
+Note µ                              ∗
+                  b is a tempered, generalized function on V defined by
+Fourier transform D
+                                 hb
+                                  D, µi := hD, µ
+                                               bi.
+   Let G be a real, reductive algebraic group, and let π be an irreducible, tempered
+representation of G with character Θπ . Let θπ be the Lie algebra analogue of the
+character of π. Rossmann associated to π a finite union of regular, coadjoint orbits
+Oπ ⊂ g∗ . He proved the following theorem [10], [11].
+Theorem 3.1 (Rossmann). As generalized functions, we have
+                                        cπ = θπ .
+                                        O
+     cπ denotes the Fourier transform of the canonical measure on Oπ .
+Here O
+   If Oπ = Oν is a single orbit, then the leading term of the asymptotic expansion
+   cπ = O
+of O     cν is
+                                X
+                                                      d
+                                         vol(Oπ ∩ SX )O X
+                              OX ⊂Nν
+                          dim OX =dim Nν
+by Corollary 2.3. More generally, suppose Oπ = ∪Oνi , and define AS(π) = ∪Nνi .
+Then the leading term of O cπ is a sum over the leading terms of the O
+                                                                     dνi of minimal
+                                                 d
+degree. This is just the sum over vol(Oπ ∩ SX )OX where OX ⊂ AS(π) varies over
+orbits of maximal dimension. Hence, we have shown
+                                     X
+                    WF(π) =                   vol(Oπ ∩ SX )OX .
+                                 OX ⊂AS(π)
+                             dim OX =dim AS(π)
+
+   Thus, to prove Theorem 1.3, we need only show that OX ⊂ AS(π) is of maximal
+dimension iff Oπ ∩ SX is precompact and non-empty. If OX ⊂ AS(π) is of maximal
+dimension, then OX ∩ Nνi is open for every i and non-empty for at least one i. And
+by Corollary 2.2, Oνi ∩ SX is precompact for every i and non-empty for at least
+one i. We conclude Oπ ∩ SX is precompact and non-empty.
+   Conversely, suppose Oπ ∩ SX is precompact and non-empty. Then Oνi ∩ SX
+is precompact for every i and non-empty for some i. Corollary 2.2 tells us that
+OX ⊂ Nνi is open for some i and OX ∩ Nνi is open for every i. Hence, we have
+that OX ⊂ AS(π) is open. But, by Theorem D of [12], AS(π) is the closure of
+the union of the orbits in AS(π) of maximal dimension. Thus, OX ⊂ AS(π) open
+implies that OX ⊂ AS(π) is of maximal dimension.
+
+                           4. Proof of Theorem 1.1
+   In this section we prove Theorem 1.1. It is enough to prove the theorem when
+π is an irreducible, tempered representation. Let OX ⊂ AS(π) be an open orbit,
+and identify g ∼= g∗ via a G-equivariant isomorphism. Let L ⊂ ZG (X) be a Levi
+              TEMPERED REPRESENTATIONS AND NILPOTENT ORBITS                         7
+
+
+factor. Then there exists an sl2 -triple {X, H, Y } such that L = ZG {X, H, Y }. To
+prove the theorem, we must show
+                       ZG {X, H, Y }/Z(G) is compact. (∗)
+
+   Now, if Oπ = ∪Oνi , then AS(π) = ∪Nνi . Any open orbit in AS(π) must be open
+in some Nνi . Hence, it is enough to prove (∗) whenever OX is open in Nν for a
+regular element ν ∈ g∗ .
+   Next, supplement A and supplement C of [9] imply that every regular orbit Oν
+can be written as a limit of regular semisimple orbits in the following sense. Let
+ξ ∈ g∗ ∼= g be a semisimple element in the closure of Oν , and let h ⊂ g be a
+fundamental Cartan in Zg (ξ). Then there exists a connected component C ⊂ (h∗ )′
+such that
+                                   lim Oλ = Oν .
+                                   λ∈C
+                                   λ→ξ
+Hence, Nν = Nλ for some regular semisimple element λ, and it is enough to prove
+(∗) for OX open in Nλ with λ regular, semisimple.
+   Fix X and suppose OX ⊂ Nλ is open for some λ regular semisimple. By Corol-
+lary 2.2, Oλ ∩ SX is compact and non-empty. Now, L = ZG {X, H, Y } acts on this
+space, and L must have at least one closed orbit (for instance, one can take an orbit
+of minimal dimension). Without loss of generality, we make it L · λ ⊂ Oλ ∩ SX .
+Choose a Cartan h and a component of the regular set C ⊂ (h∗ )′ such that λ ∈ C.
+If ξ ∈ U1 = G · C, then OX ⊂ Nλ = Nξ is open by Corollary 2.4. It then follows
+from Corollary 2.2 that Oξ ∩ SX is compact for all ξ in the open set U1 . Define
+U = U1 ∩ SX , an open subset of SX .
+   Now, L/ZG (λ) ∼  = L · λ ⊂ Oλ ∩ SX is a closed subset of a compact set; hence,
+L/ZG (λ) is compact. Note that ZG (λ) ⊂ G is a Cartan since λ is regular, semisim-
+ple. Thus, ZL (λ) ⊂ ZG (λ) is abelian and consists of semisimple elements. Hence,
+the connected component of the identity ZL (λ)0 must be contained in a Cartan B
+of L. We have seen that L/ZL (λ) is compact; hence, L/ZL (λ)0 is compact because
+ZL (λ) has finitely many components. This implies L/B is compact and finally
+                                      L/Z(L)
+is compact since semisimple groups are compact iff they are compact modulo a
+Cartan.
+   Because the fibers of the projection
+                                L/Z(G) → L/Z(L)
+are homeomorphic to Z(L)/Z(G), to show that L/Z(G) is compact, it is enough to
+show Z(L)/Z(G) is compact.
+The following lemma is the key step in proving that Z(L)/Z(G) is compact.
+Lemma 4.1. Let Z(l) denote the center of l = Lie(L), and let Z(g) denote the
+center of g. Then       \
+                           (Z(l) ∩ Zl (ξ)) = Z(g).
+                             ξ∈U
+
+Proof. Clearly the right hand side is contained in the left hand side. To show the
+other direction, suppose W ∈ (Z(l) ∩ Zl (ξ)) for all ξ ∈ U . We will show W ∈ Z(g).
+Since W ∈ l, we know X, H, Y ∈ Zg (W ). Further, Zg (W ) ∩ Zg (Y ) ⊂ Zg (Y ) is a
+8                                  BENJAMIN HARRIS
+
+
+vector subspace containing U − X since W ∈ Zl (ξ) for ξ ∈ U and X ∈ Zg (W ).
+Since U − X ⊂ Zg(Y ) is an open subset, we must have
+                                   Zg (W ) ⊃ Zg (Y ).
+Now, view g as a finite dimensional module for SpanR {X, H, Y } ∼  = sl2 R. Note
+Zg(W ) ⊂ g is a subalgebra and a submodule for SpanR {X, H, Y } since X, H, Y ∈
+Zg(W ). But, the lowest weight vectors of each irreducible summand of g are in
+Zg(W ) since Zg (W ) ⊃ Zg (Y ), and the lowest weight vectors of any finite dimen-
+sional sl2 module generate the entire module. Thus, Zg (W ) = g and W ∈ Z(g) as
+desired.                                                                        
+   Before we get back to showing that Z(L)/Z(G) is compact, we need two general
+remarks. First, suppose A is an abelian, real algebraic group, suppose φ : A →
+Aut(V ) is a representation of A on a real vector space V , and suppose S ⊂ V is a
+compact A-stable subset of V . Then A acts on S with compact orbits. This can
+be proved as follows. After complexifying the representation, we may diagonalize
+the action of the image φ(A) since it is abelian and consists of semisimple elements.
+Now, A must be isomorphic to a product of copies of S 1 , R× , and C× . Using that
+every one dimensional character of these groups has either compact or unbounded
+image in C, we deduce that every orbit of A on V ⊗ C is either compact or un-
+bounded. In particular, A must act on a compact S ⊂ V with compact orbits.
+
+   Second, if A is an abelian, real algebraic group and A1 , A2 are cocompact, alge-
+braic, closed subgroups, then A1 ∩ A2 is cocompact in A. This is because the fibers
+of the map
+                                A/(A1 ∩ A2 ) → A/A1
+are homeomorphic to A1 /(A1 ∩ A2 ) ∼   = A1 A2 /A2 , which is compact because it is
+a closed subset of A/A2 . More generally, if A1 , . . . , An is a finite collection of
+cocompact, algebraic, closed subgroups of a real, abelian algebraic group A, then
+                                      A/ ∩ni=1 Ai
+is compact.
+
+  Now, back to the proof that Z(L)/Z(G) is compact. By the first remark,
+Z(L) acts on Oξ ∩ SX with compact orbits for every ξ ∈ U . In particular,
+Z(L)/(Z(L) ∩ ZL (ξ)) is compact for all ξ ∈ U . In the above lemma, we showed
+                           \
+                              (Z(l) ∩ Zl (ξ)) = Z(g).
+                             ξ∈U
+
+However, one can clearly choose ξ1 , . . . , ξk ∈ U such that the identity still holds
+when taking the intersection over this finite set. Then, by the second remark,
+                                     k
+                                     \
+                             Z(L)/        (Z(L) ∩ ZL (ξi ))
+                                     i=1
+                  T
+is compact. Since ki=1 (Z(L) ∩ ZL (ξi )) is a real algebraic group, it has a finite
+number of connected components and
+                                     k
+                                     \
+                            Z(L)/(       (Z(L) ∩ ZL (ξi )))0
+                                    i=1
+               TEMPERED REPRESENTATIONS AND NILPOTENT ORBITS                          9
+
+                       Tk
+is also compact where ( i=1 (Z(L)∩ZL (ξi )))0 denotes the identity component. But,
+       T
+since ki=1 (Z(L) ∩ ZL (ξi )) and Z(G) share a Lie algebra, Z(L)/Z(G) is a quotient
+of
+                                   \k
+                             Z(L)/( (Z(L) ∩ ZL (ξi )))0 .
+                                    i=1
+Thus, Z(L)/Z(G) is compact. This completes the proof of Theorem 1.1.
+
+                                 5. Two Examples
+In this section, we give two examples. The author learned these examples from
+David Vogan.
+Example 5.1. Nilpotent orbits in U(2, 2) can be parametrized by signed Young
+diagrams of signature (2, 2) (see page 140 of [3]). A nilpotent orbit of U(2, 2)
+is real distinguished iff it corresponds to a signed Young diagram for which any
+two rows of equal length begin with the same sign. One can read this off of an
+explicit description of the Levi factor of the centralizer of a nilpotent element in the
+corresponding nilpotent orbit, which in turn can be easily computed from Remark
+5.1.18 on page 74 of [3] and the discussion on pages 139-140 of [3].
+On the other hand, which nilpotent orbits of U(2, 2) occur in the wave front cycle
+of a discrete series can be read off from Example 2.6.7 on page 363 of [14]. In
+Yamamoto’s table, the far left column is filled in by sequences of numbers and
+signs. The entry corresponds to a discrete series representation if the sequence
+contains only signs. One then observes from Yamamoto’s table that the nilpotent
+orbits corresponding to discrete series for U(2, 2) are precisely the real distinguished
+nilpotent orbits of U(2, 2).
+Of course, Yamamoto is really computing the associated variety of a discrete series
+representation. That the associated variety of the representation corresponds to the
+wave front cycle of the representation under the Kostant-Sekiguchi correspondence
+is a deep result of [13].
+Example 5.2. Nilpotent orbits in Sp(4, C) can be parametrized by partitions of
+four whose odd parts occur with even multiplicity (see page 70 of [3]). Of these
+orbits, the principal orbit (corresponding to the trivial partition 4) and the subreg-
+ular orbit (corresponding to the partition 22 ) are the real distinguished ones as can
+be read off of page 88 of [3].
+However, the wave front cycle of any tempered representations of Sp(4, C) con-
+tains only the principal orbit. Therefore, in this case, the set of nilpotent orbits
+corresponding to tempered representations is a proper subset of the set of real
+distinguished nilpotent orbits.
+
+                              6. Acknowledgments
+The author would like to thank his advisor, David Vogan, for suggesting the rela-
+tionship between tempered representations and nilpotent orbits that is explored in
+this paper. The author would also like to thank David Vogan for many helpful com-
+ments and corrections. The author would like to thank Esther Galina for pointing
+out a mistake in a remark relating the results of this paper with the results of Noël.
+We have fixed this error in this draft.
+10                                   BENJAMIN HARRIS
+
+
+                                        References
+ 1. P. Bala, R. Carter, Classes of unipotent elements in simple algebraic groups. I, Math Proc.
+    Cambridge. Philos. Soc., 79 (1976), 401-425.
+ 2. D. Barbasch, D. Vogan, The Local Structure of Characters, J. Funct. Anal. 37 (1980), 27-55.
+ 3. D. Collingwood, W. McGovern, Nilpotent Orbits in Semisimple Lie Algebras, Van Nostrand
+    Reinhold, (1993), New York, NY.
+ 4. Harish-Chandra, Some Results on an Invariant Integral on a Semi-Simple Lie Algebra, Ann.
+    of Math. (2), 80 (1964), 551-593.
+ 5. Kirillov, Lectures on the Orbit Method, Graduate Studies in Mathematics, Volume 64, Amer-
+    ican Mathematical Society, (2004), Providence, RI.
+ 6. C. Moeglin, Front d’Onde des Representations des Groupes Classiques p-adiques, American
+    Journal of Mathematics, 118, no. 6 (1996), 1313-1346.
+ 7. C. Moeglin, J.L. Waldspurger, Modeles de Whittaker Degeneres pour des Groupes p-adiques,
+    Math Z, 196 (1987), 427-452.
+ 8. A. Noël, Nilpotent Orbits and Theta Stable Parabolic Subalgebras, Journal of Representation
+    Theory, No. 2, (1998), 1-32.
+ 9. W. Rossmann, Limit Orbits in Reductive Lie Algebras, Duke Math. J. 49 No. 1 (1982), 215-
+    229.
+10. W. Rossmann, Limit Characters of Reductive Lie Groups, Invent. Math. 61 (1980), no. 1,
+    53-66.
+11. W. Rossmann, Tempered Representations and Orbits, Duke Math. J. 49 No. 1 (1982), 231-247.
+12. W. Rossmann, Picard-Lefschetz Theory and Characters of a Semisimple Lie Group, Invent.
+    Math. 121 (1995), 579-611.
+13. W. Schmid, K. Vilonen, Characteristic Cycles and Wave Front Cycles of Representations of
+    Reductive Lie Groups, Ann. of Math. (2), 151 (2001), 1071-1118.
+14. A. Yamamoto, Orbits in the Flag Variety and Images of the Moment Map for Classical Groups
+    I, Journal of Representation Theory, No. 1, (1997), 329-404.
+
+  Department of Mathematics, Massachusetts Institute of Technology, Cambridge,
+Massachusetts 02139
+  E-mail address: blharris@math.mit.edu
+

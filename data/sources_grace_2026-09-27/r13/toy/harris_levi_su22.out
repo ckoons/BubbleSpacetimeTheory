@@ -1,0 +1,5 @@
+dim su(2,2) basis = 15
+min_plus   rank X=1 rank X^2=0  dim l=4  tr(AB) signature (+2,-2,0:0)  l compact: False
+min_minus  rank X=1 rank X^2=0  dim l=4  tr(AB) signature (+2,-2,0:0)  l compact: False
+hol22      rank X=2 rank X^2=0  dim l=3  tr(AB) signature (+0,-3,0:0)  l compact: True
+mixed22    rank X=2 rank X^2=0  dim l=3  tr(AB) signature (+2,-1,0:0)  l compact: False

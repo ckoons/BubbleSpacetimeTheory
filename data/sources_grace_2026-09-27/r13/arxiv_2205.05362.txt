@@ -1,0 +1,3835 @@
+                                             GELFAND-KIRILLOV DIMENSIONS AND REDUCIBILITY OF
+                                              SCALAR TYPE GENERALIZED VERMA MODULES FOR
+
+
+
+
+arXiv:2205.05362v1 [math.RT] 11 May 2022
+                                                          CLASSICAL LIE ALGEBRAS
+
+                                                                     ZHANQIANG BAI AND JING JIANG*
+
+
+                                                   Abstract. Let g be a classial Lie algebra and p be a maximal parabolic subal-
+                                                   gebra. Let M be a generalized Verma module induced from a one dimensional
+                                                   representation of p. Such M is called a scalar type generalized Verma mod-
+                                                   ule. Its simple quotient L is a highest weight moudle. In this paper, we will
+                                                   determine the reducibility of such scalar type generalized Verma modules by
+                                                   computing the Gelfand-Kirillov dimension of L.
+                                                   Keywords: Generalized Verma module; Gelfand-Kirillov dimension; Young
+                                                   tableau
+
+
+
+
+                                                                              1. Introduction
+                                              Let g be a finite-dimensional complex semisimple Lie algebra and U (g) be its
+                                           universal enveloping algebra. Fix a Cartan subalgebra h and denote by ∆ the root
+                                           system associated with (g, h). Choose a positive root system ∆+ ⊂ ∆ and a simple
+                                           system Π ⊂ ∆+ . Let ρ be the half sum of roots in ∆+ . Let g = ū ⊕ h ⊕ u be the
+                                           Cartan decomposition of g with nilpotent radical u and its dual space ū. Choose
+                                           a subset I ⊂ Π and it generates a subsystem ∆I ⊂ ∆. Let qI be the standard
+                                           parabolic subalgebra corresponding to I with Levi decomposition qI = lI ⊕ uI . We
+                                           frequently drop the subscript I if there is no confusion.
+                                              Let F (λ) be a finite-dimensional irreducible l-module with highest weight λ ∈ h∗ .
+                                           It can also be viewed as a q-module with trivial u-action. The generalized Verma
+                                           modules MI (λ) is defined by
+                                                                         MI (λ) := U (g) ⊗U(q) F (λ).
+                                           The simple quotient of MI (λ) is denoted by L(λ). In the case when dim(F (λ)) = 1,
+                                           MI (λ) is called a generalized Verma module of scalar type.
+                                              The reducibility of generalized Verma modules is very importan in representation
+                                           theory. It is closely related with many other problems, see for example [3, 9, 17].
+                                           The most important tool is Jantzen’s criterion [12]. But in general, this criterion is
+                                           very complicated in application. Kubo [16] found some practical reducibility crite-
+                                           ria for all the scalar generalized Verma modules associated with maximal parabolic
+                                           subalgebras. By using Kubo’s result, He [10] gave the reducibily for all scalar-type
+                                           generalized Verma modules of Hermitian symmetric pairs. Then He-Kubo-Zierau
+                                           [11] found the reducibily for all scalar-type generalized Verma modules associated
+                                           with maximal parabolic subalgebras. Bai-Xiao [3] found the reducibily for all gen-
+                                           eralized Verma modules of Hermitian symmetric pairs.
+
+                                             2010 Mathematics Subject Classification. 17B10, 17B20, 22E47.
+                                             *Corresponding author.
+                                                                                        1
+2                           ZHANQIANG BAI AND JING JIANG*
+
+
+   Gelfand-Kirillov dimension is an important invariant for infinite-dimensional al-
+gebraic structures. Since Joseph [13], Gelfand-Kirillov dimension is used to measure
+the size of representations of Lie algebras and Lie groups. Recently Bai-Xiao [2]
+proved that a scalar-type generalized Verma module M is reducible if and only if
+the Gelfand-Kirillov dimension of its simple quotient L is strictly less than dim(uI ).
+By using this result and their algorithms [4] of computing GK dimensions, we can
+give a new proof for the complete list of parameters λ + ρ for which the scalar-type
+generalized Verma modules associated with maximal parabolic subalgebras are re-
+ducible. Then by using same method, we can give the GK dimensions of all scalar
+type highest weight moudles. Those modules with minimal positive GK dimensions
+can be easily found from our formula.
+   The paper is organized as follows. The necessary priliminaries for maximal
+parabolic subalgebras and Gelfand-Kirillov dimension are given in Section 2 and 3.
+In Section 4, we give the reducibility of scalar generalized Verma modules for type
+A. In Section 5, we give the reducibility of scalar generalized Verma modules for
+types B and C. In Section 6, we give the reducibility of scalar generalized Verma
+modules for type D. In Section 7, we give the explicit formula of Gelfand-Kirillov
+dimensions for scalar type highest weight modules.
+   Acknowledgments. This project is supported by the National Science Foun-
+dation of China (Grant No. 12171344).
+
+
+                       2. Maximal parabolic subalgebras
+     Let g be a finite-dimensional complex semisimple Lie algebra and let b = h ⊕
+    ⊕ gα be a fixed borel subalgebra of g. For a maximal parabolic subalgebra
+α∈∆+
+q = l ⊕ u, it corresponds to the subsets I = Π \ {αi } for some αi ∈ Π. In this
+section, we give the explicit values of dim(u). The results are as follows.
+      (1) If g is of type An−1 , for I = Π \ {αp }, we have
+
+               ∆+ (l) = {ei − ej |1 ≤ i < j ≤ p or p + 1 ≤ i < j ≤ n}.
+
+
+                  ∆(u) = {ei − ej |1 ≤ i < j ≤ p, p + 1 ≤ i < j ≤ n}.
+
+          So dim(u) = p(n − p).
+      (2) If g is of type Bn ,
+           (a) for I = Π \ {α1 }, we have
+
+                  ∆+ (l) = {ei ± ej |2 ≤ i < j ≤ n} ∪ {ej |2 ≤ j ≤ n},
+
+
+                  ∆(u) = ∆+ − ∆+ (l) = {e1 ± ej |1 ≤ j ≤ n} ∪ {e1 }.
+
+              So dim(u) = 2(n − 1) + 1 = 2n − 1.
+          (b) for I = Π \ {αp }, we have
+
+            ∆+ (l) = {ei − ej |1 ≤ i < j ≤ p} ∪ {ei ± ej |p + 1 ≤ i < j ≤ n}
+                   ∪ {ej |p + 1 ≤ i < j ≤ n}.
+                              GKDIM AND REDUCIBILITY                              3
+
+
+             So
+                        dim(u) = |∆+ − ∆+ (l)|
+                               = n2 − Cp2 − (n − p) − 2Cn−p
+                                                        2
+
+                                        3      1
+                               = 2np − p2 + p.
+                                        2      2
+         (c) for I = Π \ {αn }, we have
+                          ∆+ (l) = {ei − ej |1 ≤ i < j ≤ n},
+
+         ∆(u) = ∆+ − ∆+ (l) = {ei + ej |1 ≤ i < j ≤ n} ∪ {ej |1 ≤ j ≤ n}.
+
+        So dim(u) = Cn2 + n = n(n+1) 2   .
+    (3) If g is of type Cn , in the case of Bn and Cn , dim(u) is equal.
+    (4) If g is of type Dn
+         (a) for I = Π \ {α1 }, we have
+                          ∆+ (l) = {ei ± ej |2 ≤ i < j ≤ n},
+
+                  ∆(u) = ∆+ − ∆+ (l) = {e1 ± ej |2 ≤ i < j ≤ n}.
+             So dim(u) = 2(n − 1).
+         (b) for I = Π \ {αp }, we have
+          ∆+ (l) = {ei − ej |1 ≤ i < j ≤ p} ∪ {ei ± ej |p + 1 ≤ i < j ≤ n}.
+             So dim(u) = |∆+ − ∆+ (l)| = n2 − n − Cp2 − 2Cn−p
+                                                          2
+                                                              = 2pn − 23 p2 − 12 p.
+         (c) for I = Π \ {αn }, we have
+                          ∆+ (l) = {ei − ej |1 ≤ i < j ≤ n},
+
+                  ∆(u) = ∆+ − ∆+ (l) = {ei + ej |1 ≤ i < j ≤ n}.
+
+             So dim(u) = Cn2 = n(n−1)
+                                  2   .
+   For scalar generalized Verma modules associated with a maximal parabolic sub-
+algebra, we have the following two lemmas.
+Lemma 2.1 ([11, Lemma 1.4]). When MI (λ) is of scalar type, we will have λ = zξi
+for some z ∈ R, and ξi is the fundamental weight corresponding to the simple root
+αi associated with the given maximal parabolic subalgebra.
+Lemma 2.2 ([2, Lemma 4.5]). For any z ∈ R, we have
+                       GKdim(L((z + 1)ξ)) ≤ GKdim(L(zξ)).
+In particular, if MI (zξ) is reducible, then MI ((z + 1)ξ) is also reducible.
+
+                        3. Gelfand-Kirillov dimension
+  Let M be a finite generated U (g)-module. Fix a finite dimensional generating
+subspace M0 of M . Let Un (g) be the standard filtration of U (g). Set Mn =
+                         ∞
+                         L
+Un (g) · M0 and gr(M ) =    grn M, where grn M = Mn /Mn−1 . Thus gr(M ) is a
+                           n=0
+graded module of gr(U (g)) ≃ S(g).
+4                             ZHANQIANG BAI AND JING JIANG*
+
+
+Definition 3.1. The Gelfand-Kirillov dimension of M is defined by
+                                                  log dim(Un (g)M0 )
+                           GKdim M = lim                             .
+                                            n→∞          log n
+Definition 3.2. The associated variety of M is defined by
+               V (M ) := {X ∈ g∗ | f (X) = 0 for all f ∈ AnnS(g) (gr M )}.
+  The above two definitions are independent of the choice of M0 , and dim V (M ) =
+GKdim M (e.g., [18]).
+Definition 3.3. Let g be a finite-dimensional semisimple Lie algebra. Let I be a
+two-sided idel in U (g). Then gr(U (g)/I) ≃ S(g)/grI is a graded S(g)-module. Its
+annihilator is grI. We define its associated variety by
+               V (I) := V (U (g)/I) = {X ∈ g∗ | p(X) = 0 for all p ∈ grI}.
+    We have the following theorem.
+Theorem 3.4 ( [14]). Let g be a reductive Lie algebra and I be a primitive ideal
+in U (g).Then V (I) is the closure of a single nilpotent coadjoint orbit OI in g∗ . In
+particular, for a highest weight module L(λ), we have V (AnnL(λ)) = OAnn(L(λ)) .
+   Let G be a connected semisimple finite dimensional complex algebraic group
+with Lie algebra g. Let W be the Weyl group of g. We use Lw to denote the
+simple highest weight g-module of highest weight −wρ − ρ with w ∈ W . We denote
+Iw = Ann(Lw ). Then we have the following theorem.
+Theorem 3.5 ( [6]). V (Iw ) = O w .
+   From Vogan [19], we have dim V (Iw ) = 2GKdim(Lw ). In [5] and [4], Bai-Xiao-
+Xie have found an algorithm to compute the Gelfand-Kirillov dimensions of highest
+weight modules of classical Lie algebras. We recall their algorithms here.
+   For a totally ordered set Γ, we denote by Seqn (Γ) the set of sequences x =
+(x1 , x2 , · · · , xn ) of length n with xi ∈ Γ. We say q = (q1 , · · · , qN ) is the dual
+partition of a partition p = (p1 , · · · , pN ) and write q = pt if qi is the length of
+i-th column of the Young diagram p. Let p(x) be the shape of the Young tableau
+Y (x) obtained by applying Robinson-Schensted algorithm to x ∈ Seqn (Γ). For
+convenience, we set q(x) = p(x)t .
+   For a Young diagram p, use (k, l) to denote the box in the k-th row and the l-th
+column. We say the box (k, l) is even (resp. odd ) if k + l is even (resp. odd). Let
+pev                odd
+ i (resp. pi ) be the number of even (resp. odd) boxes in the i-th row of the
+Young diagram p. One can easily check that
+                          (                         ( 
+                              pi                         pi
+                     ev       2    if i is odd,   odd         if i is odd,
+(3.6)              pi =  pi                    pi =  p2i 
+                              2    if i is even,         2    if i is even.
+Here for a ∈ R, ⌊a⌋ is the largest integer n such that n ≤ a, and ⌈a⌉ is the smallest
+integer n such that n ≥ a. For convenience, we set
+                    pev = (pev   ev
+                            1 , p2 , · · · ) and p
+                                                   odd
+                                                       = (podd  odd
+                                                           1 , p2 , · · · ).
+
+    For x = (x1 , x2 , · · · , xn ) ∈ Seqn (Γ), set
+               x− =(x1 , x2 , · · · , xn−1 , xn , −xn , −xn−1 , · · · , −x2 , −x1 ).
+                                  GKDIM AND REDUCIBILITY                                            5
+
+
+Theorem 3.7 ([4, Theorem 1.5]). Let λ + ρ = (λ1 , λ2 , · · · , λn ) ∈ h∗ be integral.
+Then
+                     n(n−1) P
+                    
+                        2   −     (i − 1)p(λ + ρ)i                         if ∆ = An−1
+                    
+                     2 P i≥1
+                    
+       GKdim L(λ) =   n −      (i − 1)p((λ + ρ)− )odd
+                                                  i                         if ∆ = Bn /Cn
+                    
+                          i≥1   P
+                       2
+                    
+                     n −n−
+                                  (i − 1)p((λ + ρ)− )ev
+                                                      i                     if ∆ = Dn
+                                          i≥1
+
+   We define three functions FA , FB , FD as
+                                       X
+                             FA (x) =     (k − 1)pk ,
+                                                k≥1
+                                                X
+                                   FB (x) =           (k − 1)pev
+                                                              k ,
+                                                k≥1
+                                                X
+                                   FD (x) =           (k − 1)podd
+                                                              k ,
+                                                k≥1
+
+where p = p(x) = (p1 , p2 , · · · ).
+Definition 3.8. Fix λ + ρ = (λ1 , · · · , λn ) ∈ h∗ .
+   For g = gl(n, C), we define [λ] to be the set of maximal subsequences x of λ + ρ
+such that any two entries of x has an integral difference.
+   For g = sp(n, C), so(2n+1, C) or so(2n, C), we define [λ] to be the set of maximal
+subsequences x of λ + ρ such that any two entries of x have an integral difference
+or sum. In this case, we set [λ]1 (resp. [λ]2 ) be to the subset of [λ] consisting of
+sequences with all entries belonging to Z (resp. 12 + Z). Since there is at most
+one element in [λ]1 and [λ]2 , we denote them by (λ + ρ)(0) and (λ + ρ)( 21 ) . We set
+[λ]1,2 = [λ]1 ∪ [λ]2 , [λ]3 = [λ] \ [λ]1,2 .
+Definition 3.9. Let x = (λi1 , λi2 , · · · λir ) ∈ [λ]3 . Let y = (λj1 , λj2 , · · · , λjp ) be the
+maximal subsequence of x such that j1 = i1 and the difference of any two entries of
+y is an integer. Let z = (λk1 , λk2 , · · · , λkq ) be the subsequence obtained by deleting
+y from x, which is possible empty. Define
+                    x̃ = (λj1 , λj2 , · · · , λjp , −λkq , −λkq−1 , · · · , −λk1 ).
+Theorem 3.10 ([4, Theorem 5.8]). The GK dimension of L(λ) can be computed
+as follows.
+    (1) If g = gl(n, C),
+                                    n(n − 1)   X
+                       GKdim L(λ) =          −   FA (x).
+                                       2
+                                                             x∈[λ]
+
+    (2) If g = sp(n, C),
+                                                                                 X
+        GKdim L(λ) = n2 − FB ((λ + ρ)−                  −
+                                     (0) ) − FD ((λ + ρ)( 1 ) ) −                        FA (x̃).
+                                                                        2
+                                                                                x∈[λ]3
+
+    (3) If g = so(2n + 1, C),
+                                                                                 X
+        GKdim L(λ) = n2 − FB ((λ + ρ)−                  −
+                                     (0) ) − FB ((λ + ρ)( 1 ) ) −                        FA (x̃).
+                                                                        2
+                                                                                x∈[λ]3
+6                              ZHANQIANG BAI AND JING JIANG*
+
+
+     (4) If g = so(2n, C),
+                                                                               X
+      GKdim L(λ) = n2 − n − FD ((λ + ρ)−                  −
+                                       (0) ) − FD ((λ + ρ)( 1 ) ) −                 FA (x̃).
+                                                                     2
+                                                                           x∈[λ]3
+
+    The follow lemma is very useful in our proof.
+Lemma 3.11 ([2, Theorem 1.1]). A scalar generalized Verma module MI (λ) is
+irreducible if and only if GKdim (L(λ)) = dim(u).
+
+    4. Reducibility of scalar generalized Verma modules for type An
+   From Lemma 2.1 and Lemma 2.2, we only need to find the first reducible point
+of the scalar generalized Verma module MI (zξ).
+   First we recall some notation and results from Bai-Xie [5].
+Definition 4.1. We say λ + ρ ∈ h∗ is (p, q)-dominant if λi − λj ∈ Z>0 for all i, j
+such that 1 ≤ i < j ≤ p or p + 1 ≤ i < j ≤ p + q, where λ + ρ = (λ1 , λ2 , . . . , λn ).
+In particular, λ1 > λ2 > · · · > λp andλp+1 > λp+2 > · · · > λp+q .
+Lemma 4.2 ([2, Theorem 5.2]). Assume that λ ∈ h∗ is (p, q)-dominant.
+  (1) If λ1 − λp+1 ∈ Z, that is, λ is an integral weight, then P (λ) is a Young
+      tableau with at most two columns. And in this case GKdim (L(λ)) = m(n −
+      m) where m is the number of entries in the second column of P(λ).
+  (2) If λ1 − λp+1 ∈ / Z, then P (λ) consists of two Young tableaux with single
+      column, and in this case GKdim (L(λ)) = pq.
+Remark 4.3. In this paper, the element i in a Young tableau represents the i-th
+component of λ+ρ or(λ+ρ)− . For example, the Young tableau for λ+ρ = (2, 0, 3, 1)
+is
+                                                  0       1
+                                        Y =                   .
+                                                  2       3
+
+We use
+                                              2       4
+
+                                              1       3
+
+to represent our Young tableau Y .
+Proposition 4.4. Let g = sl(n, C). MI (λ) is a scalar generalized Verma module
+with highest weight λ = zξ, where ξ = ξp is the fundamental weight corresponding to
+αp = ep − ep+1 . Then MI (λ) is reducible if and only if z ∈ 1 − min{p, n − p} + Z≥0.
+Proof. Take g = sl(n, C), and ∆+ (l) = {α1 , . . . , αp−1 , αp+1 , . . . , αn }, αp = ep −ep+1 .
+   When MI (λ) is of scalar type, we know that λ = zξ for some z ∈ R by Lemma
+2.1, and ξ = (a, . . . , a, a − 1, . . . , a − 1) for a = n−p
+                                                           n .
+              | {z } |              {z         }
+                   p             n−p
+  In [9], we know that 2ρ = (n − 1, n − 3, . . . , −n + 3, −n + 1), thus
+                             n−1 n−3            −n + 3 −n + 1
+                     ρ=(          ,      ,...,          ,         ),
+                               2      2            2         2
+              n−1               n − 2p + 1                n − 2p − 1                      −n + 1
+λ+ρ = (za +        . . . , za +            , (a − 1)z +              , . . . , (a − 1)z +        ).
+        |      2         {z         2    } |                  2      {z                     2 }
+                           p                                             n−p
+                                         GKDIM AND REDUCIBILITY                                               7
+
+
+  When za + n−2p+1
+              2    − (a − 1)z n−2p−1
+                                2    =z+1∈
+                                         / Z, we will have z ∈
+                                                             / Z, and
+                            n(n − 1) p(p − 1) (n − p)(n − p − 1)
+        GKdim (L(λ)) =                −          −
+                                2           2               2
+                              p2         p2
+                         = − + np −         = np − p2 = p(n − p) = dim(u).
+                              2          2
+By Lemma 3.11 we obtain that MI (λ) is irreducible.
+   When za + n−2p+12   − (a − 1)z n−2p−1
+                                    2    = z + 1 ∈ Z, in other words, z ∈ Z, zξ + ρ =
+λ + ρ is (p, q)-dominant. By Lemma 4.2, we know that GKdim (L(λ)) = m(n − m),
+where m is the number of entries in the second column of P (λ).
+   When m = min{p, n − p}, GKdim (L(λ)) = m(n − m) = p(n − p) = dim(u), in
+this case MI (λ) is irreducible.
+   When m(n − m) < p(n − p) = dim(u) ⇒ (m − p)n < (m + p)(m − p), in this case
+MI (λ) is reducible. In other words, when m < min{p, n − p}, MI (λ) is reducible.
+Suppose that p ≤ n − p.
+    (1) When z = −1, we will have
+
+                             p            p    p+1                n    p+1
+
+
+                         p−1             p−1                      .
+                                                                  .
+                                                                  .
+                                     →                  99K                     = P (λ).
+                             .             .                      .
+                             .             .                      .
+                             .             .                      .
+
+                             1             1                      1
+
+
+         So m = 1 < p, in this case MI (λ) is reducible.
+    (2) When z = −2, we will have
+
+                 p               p   p+1            p    p+2                n    p+2
+
+
+              p−1            p−1                   p−1 p+1              n−1 p+1
+                         →                     →                  99K                    = P (λ).
+                 .               .                  .                       .
+                 .               .                  .                       .
+                 .               .                  .                       .
+
+                 1               1                  1                       1
+
+
+         Hence m = 2 < p, in this case MI (λ) is reducible.
+    (3) When z = 1 − p, we will have
+
+         p           p   p+1              p    p+2            p       p+3           p     2p − 1
+
+
+       p−1       p−1                     p−1 p+1            p−1 p+2                p − 1 2p − 2
+             →                       →                  →                   99K                    = P (λ).
+         .           .                    .                   .                      .      .
+         .           .                    .                   .                      .      .
+         .           .                    .                   .                      .      .
+
+         1           1                    1                   1                     2      p+1
+
+
+                                                                                    1
+
+
+           Thus m = (2p − 1 − (p + 1) + 1) = p − 1 < p, in this case MI (λ) is
+        reducible.
+8                             ZHANQIANG BAI AND JING JIANG*
+
+
+     (4) When z = −p, we will have
+
+          p        p    p+1         p   p+2        p     p+3            p   2p
+
+
+        p−1       p−1             p−1 p+1         p−1 p+2            p − 1 2p − 1
+              →               →               →                99K                  = P (λ).
+          .        .                .              .                    .    .
+          .        .                .              .                    .    .
+          .        .                .              .                    .    .
+
+          1        1                1              1                    2   p+1
+
+
+                                                                        1
+
+
+Thus m = (2p − (p + 1) + 1) = p, in this case MI (λ) is irreducible.
+   So, z = 1 − p is the first reducible point. Similarly if p ≥ n − p, z = p − n + 1 is
+the first reducible point. Hence for g = sl(n, C), MI (λ) is reducible if and only if
+z ∈ 1 − min{p, n − p} + Z≥0 .                                                        
+Example 4.5. Let g = sl(3, C), We consider the parabolic subalgebra q corre-
+sponding to the subset Π \ {α1 }. In this case, we have p = 1 and n = 3. So the
+scalar generalized Verma module MI (λ) (with highest weight λ = zξ1 ) is reducible
+if and only if z ∈ 1 − min{1, 2} + Z≥0 = Z≥0 . This result is the same with [10] and
+[16].
+
+    5. Reducibility of scalar genralized Verma modules for types Bn
+                                  and Cn
+   In this section, we consider the types Bn and Cn . Let MI (λ) be a scalar gener-
+alized Verma module with highest weight λ = zξ, where ξ = ξp is the fundamental
+weight corresponding to the simple root αp .
+Proposition 5.1. Let g = so(2n + 1, C). MI (λ) is reducible if and only if
+   (1) if p = 1, then
+             z ∈ ( 23 − n + Z≥0 ) ∪ (Z≥0 );
+   (2) if 2 ≤ p ≤ n − 1, then
+                
+                      1 − n + p2 + 21 Z≥0 if p is even or 3p < 2n + 1
+            z∈        1        p    1                                  ;
+                      2 − n + 2 + 2 Z≥0    if p is odd and 3p ≥ 2n + 1
+     (3) if p = n, then
+                                
+                                    2 − n + Z≥0        if n is even
+                          z∈                                        .
+                                    1 − n + Z≥0        if n is odd
+Proof. Take g = so(2n+1, C), and ∆+ (l) = {α1 , . . . , αn−1 }, where αi = ei −ei+1 1 ≤
+i ≤ n − 1 and αn = en . When MI (λ) is of scalar type, we know that λ = zξ for
+some z ∈ R by Lemma 2.1.
+   By the definition of fundamental weight, we can compute that ξ = ( 12 , 21 , . . . , 12 ),
+then
+                            1        1 1           3       1      1
+                  λ + ρ = ( z + n − , z + n − , . . . , z + ),
+                            2        2 2           2       2      2
+               −     1        1      1     1 1           1        1    1
+        (λ + ρ) = ( z + n − , . . . , z + , − z − , . . . , − z + − n).
+                     2        2      2     2 2           2        2    2
+When n is even, we will have the follows.
+                                       GKDIM AND REDUCIBILITY                                              9
+
+
+    (1) If z ∈ Z, then
+           (λ + ρ)− is integral, by Lemma 3.7, we know that
+                                       X
+                   GKdim L(λ) = n2 −      (i − 1)p((λ + ρ)− )odd
+                                                             i .
+                                                     i≥1
+
+         When 12 z + 21 > − 21 z − 21 ⇒ z > −1, we have
+
+        p((λ + ρ)− ) = (1, 1, . . . , 1) and p((λ + ρ)− )odd = (0, 1, 0, 1, . . . , 0, 1) .
+                        | {z }                                  |         {z            }
+                                    2n                                                    2n
+
+         Thus,
+                            X
+GKdim L(λ) = n2 −                 (i − 1)p((λ + ρ)− )odd
+                                                     i
+                            i≥1
+
+               = n2 − (0 · 0 + 1 · 1 + 2 · 0 + 3 · 1 + 4 · 0 + · · · + (2n − 2) · 0 + (2n − 1) · 1)
+               = n2 − (1 + 3 + · · · + 2n − 1)
+                      2n · n
+(5.2)          = n2 −        = 0 < dim(u).
+                         2
+         By Lemma 3.11 we know that MI (λ) is reducible.
+         (a) When z = −1, we will have
+
+                             n            n    n+1              2n    n+1
+
+
+                            n−1          n−1               2n − 1
+                                   →                 99K                    = P (λ).
+                             .            .                     .
+                             .            .                     .
+                             .            .                     .
+
+                             1            1                     1
+
+
+
+               So p((λ + ρ)− ) = (2, 1, 1, . . . , 1) and p((λ + ρ)− )odd = (1, 1, 0, . . . , 1, 0).
+                                     | {z }                                  |        {z          }
+                                                2n−2                                                2n−1
+                             X
+ GKdim L(λ) = n2 −                 (i − 1)p((λ + ρ)− )odd
+                                                      i
+                             i≥1
+                        2
+                 = n − (0 · 1 + 1 · 1 + 2 · 0 + 3 · 1 + · · · + (2n − 3) · 1 + (2n − 2) · 0)
+                 = n2 − (1 + 3 + · · · + 2n − 3)
+                 = n2 − n2 + 2n − 1 = 2n − 1 < dim(u).
+             By Lemma 3.11 we know that MI (λ) is reducible.
+         (b) When z = −2, we will have
+
+         n          n       n+1           n    n+2         n+3 n+2                2n   n+2
+
+
+        n−1       n−1                    n−1 n+1            n        n+1         2n − 1 n + 1
+              →                    →                 →                     99K                  = P (λ).
+          .         .                     .                 .                      .
+          .         .                     .                 .                      .
+          .         .                     .                 .                      .
+
+         1          1                     1                 1                      1
+10                               ZHANQIANG BAI AND JING JIANG*
+
+
+             So p((λ + ρ)− )odd = (1, 1, 0, 1, 0, 1 . . . , 0, 1), and
+                                   |           {z               }
+                                                           2n−2
+                            X
+ GKdim L(λ) = n2 −                (i − 1)p((λ + ρ)− )odd
+                                                     i
+                            i≥1
+                       2
+                = n − (0 · 1 + 1 · 1 + 2 · 0 + 3 · 1 + · · · + (2n − 4) · 0 + (2n − 3) · 1)
+                = n2 − (1 + 3 + · · · + 2n − 3)
+                = n2 − n2 + 2n − 1 = 2n − 1 < dim(u).
+
+              By Lemma 3.11 we know that MI (λ) is reducible.
+          (c) When z = 2 − n, we will have
+
+      n           n        n+1         n     n+2            n        2n − 3           2n   2n − 2
+
+
+     n−1        n−1                   n−1 n+1              n − 1 2n − 4              2n − 12n − 3
+            →                     →                  →                         99K                  = P (λ).
+      .           .                    .                     .         .               n   2n − 4
+      .           .                    .                     .         .
+      .           .                    .                     .         .
+
+      1           1                    1                     3       n+1               .      .
+                                                                                       .      .
+                                                                                       .      .
+
+                                                             2                         2   n+1
+
+
+                                                             1                         1
+
+
+
+             So p((λ + ρ)− )odd = (1, 1, 1, . . . , 1, 0, 1, 0, 1), and
+                                   |     {z         }
+                                                     n−2
+                                           X
+           GKdim L(λ) = n2 −                     (i − 1)p((λ + ρ)− )odd
+                                                                    i
+                                           i≥1
+
+                             = n2 − (1 + 2 + 3 + · · · + n − 3 + n − 1 + n + 1)
+                                  (n − 2)(n − 3)
+                             = n2 −              − 2n
+                                        2
+                              1     1
+                             = n2 + n − 3 < dim(u).
+                              2     2
+           By Lemma 3.11 we know that MI (λ) is reducible.
+       (d) When z = 1 − n, we will have
+
+      n           n        n+1         n     n+2                 n    2n − 1          2n   2n − 1
+
+
+     n−1         n−1                  n−1 n+1               n − 1 2n − 2               n   2n − 2
+            →                     →                  99K                        →                   = P (λ).
+       .           .                   .                         .         .           .     .
+       .           .                   .                         .         .           .     .
+       .           .                   .                         .         .           .     .
+
+       1          1                    1                         2     n+1             3   n+1
+
+
+                                                                 1                     2
+
+
+                                                                                       1
+                                GKDIM AND REDUCIBILITY                                           11
+
+
+             So p((λ + ρ)− )odd = (1, 1, 1, . . . , 1), and
+                                   |     {z         }
+                                              n
+
+
+                                 X
+         GKdim L(λ) = n2 −             (i − 1)p((λ + ρ)− )odd
+                                                          i
+                                 i≥1
+                            2
+                       = n − (0 · 1 + 1 · 1 + 2 · 1 + 3 · 1 + · · · + (n − 1) · 1)
+                              n(n − 1)
+                       = n2 −
+                                  2
+                         n(n + 1)
+                       =          = dim(u).
+                            2
+
+
+             By Lemma 3.11 we know that MI (λ) is irreducible.
+           Thus z = 2 − n is the first reducible point.
+             / Z, then (λ + ρ)−
+    (2) If z ∈                                −
+                              (0) = 0, (λ + ρ)( 21 ) = 0 and λ + ρ ∈ [λ]3 .
+           From Theorem 3.10 we will have
+
+                                                                               X
+       GKdim L(λ) = n2 − FB ((λ + ρ)−                  −
+                                    (0) ) − FB ((λ + ρ)( 1 ) ) −                       FA (x̃)
+                                                                      2
+                                                                              x∈[λ]3
+                                X
+                      = n2 −          (i − 1)pi (λ + ρ)
+                                i≥1
+
+                      = n2 − (0 · 1 + 1 · 1 + 2 · 1 + 3 · 1 + · · · + (n − 1) · 1)
+                             (n)(n − 1)
+                      = n2 −
+                                 2
+                        n(n + 1)
+                      =          = dim(u).
+                           2
+
+
+           So MI (λ) is irreducible.
+
+    Hence if n is even, z ∈
+                          / Z, MI (λ) is irreducible and if z ∈ Z, MI (λ) is reducible
+if and only if z ∈ 2 − n + Z≥0 .
+    When n is odd, we will have the follows.
+
+    (1) If z ∈ Z and z > −1, from (5.2) we have GKdim L(λ) = 0 < dim(u). By
+        Lemma 3.11, MI (λ) is reducible.
+         (a) When z = −1, we will have
+
+
+                       n          n     n+1          2n      n+1
+
+
+                      n−1       n−1                 2n − 1
+                            →                 99K                  = P (λ).
+                        .         .                   .
+                        .         .                   .
+                        .         .                   .
+
+                       1          1                   1
+12                              ZHANQIANG BAI AND JING JIANG*
+
+
+           So p((λ + ρ)− ) = (2, 1, 1, . . . , 1) and p((λ + ρ)− )odd = (1, 1, 0, . . . , 1, 0) .
+                                 | {z }                                  |        {z          }
+                                            2n−2                                              2n−1
+
+                           X
+ GKdim L(λ) = n2 −               (i − 1)p((λ + ρ)− )odd
+                                                    i
+                           i≥1
+                      2
+               = n − (0 · 1 + 1 · 1 + 2 · 0 + 3 · 1 + · · · + (2n − 3) · 1 + (2n − 2) · 0)
+               = n2 − (1 + 3 + · · · + 2n − 3)
+               = n2 − n2 + 2n − 1 = 2n − 1 < dim(u).
+
+           By Lemma 3.11, MI (λ) is reducible.
+       (b) When z = −2, we will have
+
+
+       n          n       n+1         n   n+2         n+3 n+2                2n   n+2
+
+
+     n−1        n−1                  n−1 n+1           n       n+1          2n − 1 n + 1
+           →                     →              →                    99K                   = P (λ).
+       .          .                   .                .                      .
+       .          .                   .                .                      .
+       .          .                   .                .                      .
+
+       1          1                   1                1                      1
+
+
+
+
+           So p((λ + ρ)− )odd = (1, 1, 0, 1, 0, 1 . . . , 0, 1) .
+                                 |           {z               }
+                                                    2n−2
+
+                           X
+ GKdim L(λ) = n2 −               (i − 1)p((λ + ρ)− )odd
+                                                    i
+                           i≥1
+                      2
+               = n − (0 · 1 + 1 · 1 + 2 · 0 + 3 · 1 + · · · + (2n − 4) · 0 + (2n − 1) · 0)
+               = n2 − (1 + 3 + · · · + 2n − 3)
+               = n2 = n2 + 2n − 1 = 2n − 1 < dim(u).
+
+           By Lemma 3.11, MI (λ) is reducible.
+       (c) When z = 1 − n, we will have
+
+
+      n          n        n+1         n   n+2              n   2n − 1        2n   2n − 1
+
+
+     n−1        n−1                  n−1 n+1          n − 1 2n − 2            n   2n − 2
+           →                     →              99K                     →                  = P (λ).
+       .          .                   .                    .     .            .     .
+       .          .                   .                    .     .            .     .
+       .          .                   .                    .     .            .     .
+
+       1         1                    1                    2   n+1            3   n+1
+
+
+                                                           1                  2
+
+
+                                                                              1
+                                  GKDIM AND REDUCIBILITY                                           13
+
+
+             So p((λ + ρ)− )odd = (1, 1, 1, . . . , 1, 0, 1).
+                                   |     {z         }
+                                               n−1
+                      X
+GKdim L(λ) = n2 −            (i − 1)p((λ + ρ)− )odd
+                                                i
+                       i≥1
+                  2
+             = n − (0 · 1 + 1 · 1 + 2 · 1 + 3 · 1 + · · · + (n − 2) · 1 + (n − 1) · 0 + n · 1)
+             = n2 = (1 + 2 + · · · + n − 2) − n
+                  (n − 1)(n − 2)
+             = n2 −              −n
+                        2
+              1     1
+             = n2 + n − 1 < dim(u).
+              2     2
+            By Lemma 3.11, MI (λ) is reducible.
+        (d) When z = −n, we will have
+
+        n         n   n+1          n     n+2          n    2n − 1        n     2n
+
+
+      n−1       n−1               n−1 n+1            n − 1 2n − 2       n − 1 2n − 1
+            →                 →                99K                  →                  = P (λ).
+        .         .                .                   .     .            .     .
+        .         .                .                   .     .            .     .
+        .         .                .                   .     .            .     .
+
+        1         1                1                   2   n+1            1   n+1
+
+
+                                                       2
+
+
+
+             So p((λ + ρ)− )odd = (1, 1, 1, . . . , 1).
+                                   |     {z         }
+                                               n
+                                  X
+        GKdim L(λ) = n2 −               (i − 1)p((λ + ρ)− )odd
+                                                           i
+                                  i≥1
+                              2
+                        = n − (0 · 1 + 1 · 1 + 2 · 1 + 3 · 1 + · · · + (n − 1) · 1)
+                               (n)(n − 1)
+                        = n2 −
+                                   2
+                          n(n + 1)
+                        =          = dim(u).
+                             2
+             By Lemma 3.11, MI (λ) is irreducible.
+       So z = 1 − n is the first reducible point.
+   (2) If z ∈
+            / Z, we will have similar arguments (i.e., when n is even). Thus MI (λ)
+       is irreducible when z ∈/ Z.
+All in all, when p = n, MI (λ) is reducible if and only if
+                             
+                                2 − n + Z≥0 if n is even
+                         z∈
+                                1 − n + Z≥0 if n is odd.
+
+
+  Now we take ∆+ (l) = {α2 , . . . , αn−1 , αn }.
+  By the definition of fundamental weight, we can compute that ξ = (1, 0, 0, . . . , 0).
+                                                                       | {z }
+                                                                                             n−1
+14                            ZHANQIANG BAI AND JING JIANG*
+
+
+     So we have
+                                             1     3         1
+                             λ + ρ = (z + n − , n − , . . . , ),
+                                             2     2         2
+                                1     3         1 1                1
+             (λ + ρ)− = (z + n − , n − , . . . , , − , . . . , −z + − n).
+                                2     2         2 2                2
+      (1) When z ∈ Z, we will have the follows.
+          (a) When z > −1, we will have
+
+                            p((λ + ρ)− )odd
+                                        i   = (0, 1, 0, 1, . . . , 0, 1).
+
+            By Theorem 3.7, we get
+                        X
+      GKdim L(λ) = n2 −   (i − 1)p((λ + ρ)− )odd
+                                             i
+                              i≥1
+                        2
+                    = n − (0 · 0 + 1 · 1 + 2 · 0 + · · · + (2n − 2) · 0 + (2n − 1) · 1)
+                    = n2 − (1 + 3 + · · · + 2n − 1)
+                    = n2 − n2 = 0 < dim(u).
+
+              By Lemma 3.11 we know that MI (λ) is reducible.
+          (b) When z = −1, we will have
+                              3     3         1 1           3    3
+               (λ + ρ)− = (n − , n − , . . . , , − , . . . , − n, − n),
+                              2     2         2 2           2    2
+
+              n    1         n+1      1         2n − 1   1       2n − 1     2n
+
+
+             n−1               n                2n − 2           2n − 2     1
+                        →                 99K                →                   = P (λ).
+              .                 .                  .                .
+              .                 .                  .                .
+              .                 .                  .                .
+
+              2                2                   2                2
+
+
+
+              So p((λ+ρ)− ) = (2, 2, 1, . . . , 1) and p((λ+ρ)− )odd = (1, 1, 0, 1, . . . , 0, 1).
+                                     | {z }                                   |      {z        }
+                                            2n−4                                            2n−4
+                              X
+      GKdim L(λ) = n2 −             (i − 1)p((λ + ρ)− )odd
+                                                       i
+                              i≥1
+                        2
+                    = n − (0 · 0 + 1 · 1 + 2 · 0 + · · · + (2n − 4) · 0 + (2n − 3) · 1)
+                    = n2 − (1 + 3 + · · · + 2n − 3)
+                    = n2 − (n − 1)2 = 2n − 1 = dim(u).
+
+              By Lemma 3.11, MI (λ) is irreducible.
+          Thus z = 0 is the first reducible point.
+      (2) When z ∈/ 12 Z, we will have
+
+                                              1     3         1
+                            (λ + ρ) = (z + n − , n − , . . . , ),
+                                              2     2         2
+                               GKDIM AND REDUCIBILITY                                        15
+
+                                                    3      1     1           3
+     (λ + ρ)−                        −
+            (0) = (0) and (λ + ρ)( 12 ) = (n − 2 , . . . , 2 , − 2 , . . . , 2 − n).
+       X
+           FA (x̃) = 0 · 0 + 1 · 1 + 2 · 0 + · · · + (2n − 4) · 0 + (2n − 3) · 1
+      x∈[λ]3
+                      = 1 + 3 + · · · + 2n − 3
+                     (2n − 2)(n − 1)
+                      =              = (n − 1)2 .
+                            2
+         So we can conclude that
+                GKdim L(λ) = n2 − 0 − (n − 1)2 = 2n − 1 = dim(u)
+     By Lemma 3.11, MI (λ) is irreducible.
+ (3) When z ∈ 21 + Z, we will have the follows.
+     (a) When z = − 21 , we will have
+                                     3         1 1           3
+               (λ + ρ)− = (n − 1, n − , . . . , , − , . . . , − n, 1 − n),
+                                     2         2 2           2
+                                                     3           1 1               3
+(λ + ρ)−                                −
+       (0) = (n − 1, 1 − n) and (λ + ρ)( 12 ) = (n − 2 , . . . , 2 , − 2 , . . . , 2 − n),
+
+                   X
+                       (i − 1)p((λ + ρ)−   )odd = (n − 1)2 .
+                                       (1) i  2
+                        i≥1
+
+          So GKdim L(λ) = n2 − (0 · 0 + 1 · 1) − (n − 1)2 = 2n − 2 < dim(u).
+          By Lemma 3.11, MI (λ) is reducible.
+      (b) When z = 23 − n, we will have
+                   3         1 1           3
+ (λ + ρ)− = (1, n − , . . . , , − , . . . , − n, −1) and (λ + ρ)−
+                                                                (0) = (1, −1).
+                   2         2 2           2
+         So GKdim L(λ) = 2n − 2 < dim(u). By Lemma 3.11, MI (λ) is re-
+         ducible.
+     (c) When z = 21 − n, we will have
+                       3       1 1           3
+   (λ + ρ)− = (0, n − , . . . , , − , . . . , − n, 0) and (λ + ρ)−
+                                                                 (0) = (0, 0).
+                       2       2 2           2
+          So GKdim L(λ) = 2n − 1 = dim(u). By Lemma 3.11, MI (λ) is irre-
+          ducible.
+     So z = 23 − n is the first reducible point.
+All in all, when p = 1, MI (λ) is reducible if and only if z ∈ (Z≥0 )∪( 32 − n+ Z≥0 ).
+
+Finally, we consider the second case.
+Take ∆+ (l) = {α1 , . . . , αp−1 , αp+1 , . . . , αn }.
+By the definition of fundamental weight, we can compute that ξ = (1, 1, . . . , 1, 0, · · · , 0).
+                                                                  | {z }
+                                                                                  p
+So we have
+                            1                   1         1         1
+          λ + ρ = (z + n − , · · · , z + n − p + , n − p − , · · · , )
+                            2                   2         2         2
+First we consider the case when p is odd and 3p ≥ 2n + 1.
+ (1) When z ∈ Z, we will have the follows.
+16                              ZHANQIANG BAI AND JING JIANG*
+
+
+            (a) When z > −1, we will have
+                                    p((λ + ρ)− )odd = (0, 1, . . . , 0, 1).
+               By Theorem 3.7, we get
+      GKdim L(λ) = n2 − (0 · 0 + 1 · 1 + 2 · 0 + · · · + (2n − 2) · 0 + (2n − 1) · 1)
+                      = n2 − (1 + 3 + · · · + 2n − 1)
+                      = n2 − n2 = 0 < dim(u).
+                So MI (λ) is reducible.
+            (b) When z = −1, we will have
+                                3                 1         1         1
+                    λ + ρ = (n − , . . . , n − p − , n − p − , · · · , ).
+                                2                 2         2         2
+
+        p   p+1        n      p+1             k   p+1          k   k+1           2n   k+1
+
+
+      p−1             n−1                   k−1              k−1 p+1           2n − 1 p + 1
+                  →                   99K               →                99K                  = P (λ).
+        .                 .                   .                .                 .
+        .                 .                   .                .                 .
+        .                 .                   .                .                 .
+
+        1                 1                   1                1                 1
+
+
+               In the above tableau, we denote k = 2n − p.
+               So p((λ + ρ)− )odd = (1, 1, 0, 1, . . . , 0, 1).
+                                           |      {z        }
+                                                        2n−4
+                              X
+ GKdim L(λ) = n2 −                  (i − 1)p((λ + ρ)− )odd
+                                                       i
+                              i≥1
+                      2
+                  = n − (0 · 1 + 1 · 1 + 2 · 0 + 3 · 1 + · · · + (2n − 4) · 0 + (2n − 3) · 1)
+(5.3)             = n2 − n2 + 2n − 1 = 2n − 1 < dim(u).
+                By Lemma 3.11, MI (λ) is reducible.
+            (c) When z = 21 − n + p2 , we will have
+            p           p            1         1 1                    1 p              p
+(λ + ρ)− = ( , . . . , − + 1, n − p − , . . . , , − , . . . , −n + p + , − 1, . . . , − ).
+            2           2            2         2 2                    2 2              2
+               So p((λ + ρ)− )odd = (1, 2, . . . , 1, 2, 1, . . . , 1 , 0, 1).
+                                     |      {z        } | {z }
+                                                   2n−2p       3p−2n−1
+                               X
+     GKdim L(λ) = n2 −               (i − 1)p((λ + ρ)− )odd
+                                                        i
+                               i≥1
+                          2
+                   = n − (2 + 2 + 3 · 2 + 4 + · · · + 2n − 2p − 2 + (2n − 2p − 1) · 2)
+                   − (2n − 2p + · · · + p − 2 + p)
+                                                                       (2n − p − 1)(3p − 2n − 2)
+                   = n2 − 2Cn−p
+                            2
+                                − 2(n − p)2 − 2n + p −
+                                                                                   2
+                          3    p
+                   = 2np − p2 + − 1 = dim(u) − 1.
+                          2    2
+               By Lemma 3.11, MI (λ) is reducible.
+                                   GKDIM AND REDUCIBILITY                               17
+
+
+         (d) When z = − 21 − n + p2 , we will have
+
+            p              p         1         1 1                    1 p           p
+(λ + ρ)− = ( − 1, . . . , − , n − p − , . . . , , − , . . . , −n + p + , , . . . , − + 1),
+            2              2         2         2 2                    2 2           2
+
+             So p((λ + ρ)− )odd = (1, 2, . . . , 1, 2, 1, 1, . . . , 1).
+                                   |      {z        } | {z }
+                                             2n−2p          3p−2n
+
+                          X
+  GKdim L(λ) = n2 −              (i − 1)p((λ + ρ)− )odd
+                                                    i
+                           i≥1
+                     2
+                 = n − (2 + 2 + 3 · 2 + 4 + · · · + 2n − 2p − 2 + (2n − 2p − 1) · 2)
+                 − (2n − 2p + · · · + p − 1)
+                                                      (2n − p − 1)(3p − 2n)
+                 = n2 − 2Cn−p
+                          2
+                              − 2(n − p)2 −
+                                                                2
+                        3    p
+                 = 2np − p2 + = dim(u).
+                        2    2
+             By Lemma 3.11, MI (λ) is irreducible.
+        So z = 21 − n + p2 is the first reducible point.
+    (2) When z ∈ / 12 Z, we have
+
+                                       1         1 1                    1
+               (λ + ρ)−
+                      ( 21 )
+                             = (n − p − , . . . , , − , . . . , −n + p + ),
+                                       2         2 2                    2
+
+                                      1                     1
+                 (λ + ρ)(z) = (z + n − , . . . , z + n − p + ) ∈ [λ]3 .
+                                      2                     2
+
+                GKdim L(λ) = n2 − (n − p)2 − (1 + 2 + · · · + p − 1)
+                                   3      p
+                           = 2np − p2 + = dim(u).
+                                   2      2
+        So MI (λ) is irreducible.
+    (3) When z ∈ 21 + Z, we will have the follows.
+         (a) When z ≥ − 21 , we will have GKdim L(λ) = 0.
+             So MI (λ) is reducible.
+         (b) When z = − 23 , we will have
+
+                                       1         1 1                    1
+(5.4)          (λ + ρ)−
+                      ( 21 )
+                             = (n − p − , . . . , , − , . . . , −n + p + ),
+                                       2         2 2                    2
+
+
+(5.5)       (λ + ρ)(0) = (n − 2, . . . , n − p − 1, −n + p + 1, . . . , −n + 2).
+
+             We divide the discussion into two cases:
+              (i) p = n − 1. We will have
+
+                            p((λ + ρ)−
+                                     (0) )
+                                          odd
+                                              = (0, 1, . . . , 0, 1).
+                                                 |      {z        }
+                                                          2p−2
+18                            ZHANQIANG BAI AND JING JIANG*
+
+
+     GKdim L(λ) = n2 − (n − p)2 − (1 + 3 + · · · + 2p − 3)
+                    = n2 − (n − p)2 − (1 + 3 + · · · + 2p − 3 + 2p − 1) + 2p − 1
+                    = 2np − 2p2 + 2p − 1
+                             3     p 1      3
+                    = 2np − p2 + − p2 + p − 1
+                             2     2 2      2
+                             3 2 p
+                    < 2np − p + = dim(u).
+                             2     2
+               (ii) p < n − 1. We will have
+                              p((λ + ρ)−
+                                       (0) )
+                                            odd
+                                                = (0, 1, . . . , 0, 1).
+                                                   |      {z        }
+                                                               2p
+
+
+               GKdim L(λ) = n2 − (n − p)2 − (1 + 3 + · · · + 2p − 1)
+                             = 2np − 2p2
+                                        3     p 1         1
+                             = 2np − p2 + − p2 − p
+                                        2     2 2         2
+                                        3 2 p
+                             < 2np − p + = dim(u).
+                                        2     2
+             All in all, when z = − 23 , MI (λ) is reducible.
+         (c) When z = 1 − n + p2 , we will have
+          p 1               p 3         1         1 1                     1 p 3   p 1
+(λ+ρ)− = ( + , . . . , − + , n−p− , . . . , , − , . . . , −n+p+ , − , . . . , − − ),
+          2 2               2 2         2         2 2                     2 2 2   2 2
+                                p   1          p    3  p     3           p   1
+           (λ + ρ)−  (0) = ( 2 + 2 , . . . , − 2 + 2 , 2 − 2 , . . . , − 2 − 2 ),
+
+                                         1         1 1                      1
+            (λ + ρ)−   ( 21 )
+                              = (n − p − , . . . , , − , . . . , −n + p + ).
+                                         2         2 2                      2
+               p         p      p+1            p    2p − 2           2p      2p − 2
+
+
+             p−1       p−1                    p−1     .             2p − 1     .
+                                                      .                        .
+                                                      .                        .
+                   →                    99K                  99K                      = P (λ).
+               .          .                    .    p+1               .      p+1
+               .          .                    .                      .
+               .          .                    .                      .
+
+               1         1                     1                      1
+
+
+             So p((λ + ρ)−
+                         (0) )
+                              odd
+                                  = (1, . . . , 1, 1, 0, 1).
+                                     | {z }
+                                              p−2
+
+             GKdim L(λ) = n − (n − p)2 − (1 + 2 + · · · + p − 2 + p)
+                                    2
+
+                                                               (p − 1)(p − 2)
+                               = n2 − (n − p)2 − p −
+                                                                     2
+                                  3      p
+                       = 2np − p2 + − 1 = dim(u) − 1.
+                                  2      2
+            By Lemma 3.11, MI (λ) is reducible.
+        (d) When z = −n + p2 , we will have
+                             p 1               p 1 p 1                   p 1
+              (λ + ρ)−
+                     (0) = ( 2 − 2 , . . . , − 2 + 2 , 2 − 2 , . . . , − 2 + 2 ).
+                                 GKDIM AND REDUCIBILITY                                     19
+
+
+               GKdim L(λ) = n2 − (n − p)2 − (1 + 2 + · · · + p − 1)
+                                                           p(p − 1)
+                                 = n2 − (n − p)2 −
+                                                               2
+                                        3    p
+                                 = 2np − p2 + = dim(u).
+                                        2    2
+           By Lemma 3.11, MI (λ) is irreducible.
+          Hence z = 1 − n + p2 is the first reducible point.
+     So when p is odd and 3p ≥ 2n + 1, MI (λ) is reducible if and only if z ∈
+( 21 − n + p2 + Z≥0 ) ∪ (1 − n + p2 + Z≥0 ) = 21 − n + p2 + 21 Z≥0 .
+
+  Next we consider the case when p is even.
+   (1) When z ∈ Z, we have the follows.
+       (a) When z ≥ 0, we will have
+           GKdim L(λ) = 0 < dim(u) ⇒ MI (λ) is reducible.
+       (b) When z = −1, MI (λ) is reducible since (7.5).
+       (c) When z = 1 − n + p2 , we divide the discussion into three cases:
+             (i) 3p ≤ 2n − 2. We have
+
+              p((λ + ρ)− )odd = (1, 2, . . . , 1, 2, 1, 1, 1, 1, 0, 1, . . . , 0, 1).
+                                 |      {z        }              |      {z        }
+                                             p−2                        2n−3p−2
+
+
+
+   GKdim L(λ) = n2 − (2 + 2 + 3 · 2 + 4 + · · · + p − 4 + (p − 3) · 2)
+                    − (p − 2 + p − 1 + p + p + 1) − (p + 3 + · · · + 2n − 2p − 1)
+                        (p − 2)(p − 4) (p − 2)2            (2n − p)(n − 3p
+                                                                         2 )
+                 = n2 −               −         − 3p + 3 −
+                              4           2                       2
+                         3      p
+                 = 2np − p2 + − 1 = dim(u) − 1.
+                         2      2
+              (ii) n = p + 1 and p > 2. We have
+
+                  p((λ + ρ)− )odd = (1, 2, 1, 1, . . . , 1, 0, 1, . . . , 0, 1).
+                                           | {z } |                {z        }
+                                                    2n−p−6         2p−2n+6
+
+
+
+    GKdim L(λ) = n2 − (2 + 2 + 3 + · · · + 2n − p − 5)
+                      − (2n − p − 3 + 2n − p − 1 + · · · + p + 1)
+                            (2n − p − 4)(2n − p − 5) (2n − 2)(p − n + 3)
+                   = n2 − 1 −                       −
+                                       2                      2
+                          1 2        7
+                   = 2np − p + 5n − p − np − 8
+                          2          2
+                          3 2 1
+                   = 2np − p + p − 3 = dim(u) − 3.
+                          2     2
+             (iii) 3p ≥ 2n and n 6= p + 1. We have
+
+             p((λ + ρ)− )odd = (1, 2, . . . , 1, 2, 1, 1, . . . , 1, 0, 1, . . . , 0, 1).
+                                |      {z        } | {z } |                 {z        }
+                                            p−2          2n−3p+2         3p−2n+2
+20                           ZHANQIANG BAI AND JING JIANG*
+
+
+     GKdim L(λ) = n2 − (2 + 2 + 3 · 2 + 4 + · · · + p − 4 + (p − 3) · 2)
+                     − (p − 2 + p − 1 + · · · + 2n − 2p − 1)
+                     − (2n − 2p + 1 + 2n − 2p + 3 · · · + p + 2)
+                         (p − 2)(p − 4) (p − 2)2        (2n − p − 3)(2n − 3p + 2)
+                  = n2 −                  −           −
+                               4                 2                  2
+                      (2n − p + 3)( 32 p − n + 23 )
+                    −
+                                  2
+                          3 2 3p             13
+                  = 2np − p −         +n−         < dim(u).
+                          2       2           4
+              To sum up, z = 1 − n + p2 is a reducible point.
+          (d) When z = −n + p2 , we will have
+          p 1           p 1       1        1 1                 1 p 1           p 1
+(λ+ρ)− = ( − , . . . , − + , n−p− , . . . , , − , . . . , −n+p+ , − , . . . , − + ).
+          2 2           2 2       2        2 2                 2 2 2           2 2
+           Also we divide the discussion into two cases:
+             (i) 3p ≥ 2n. We have
+                      p((λ + ρ)− )odd = (1, 2, . . . , 1, 2, 1, 1, . . . , 1).
+                                         |      {z        } | {z }
+                                                   2n−2p          3p−2n
+
+
+GKdim L(λ) = n2 − (2 + 2 + 3 · 2 + 4 + · · · + 2n − 2p − 2 + (2n − 2p − 1) · 2)
+                 − (2n − 2p + 2n − 2p + 1 + · · · + p − 1)
+                          (n − p)(n − p − 1)     (2n − 2p)(n − p) (2n − p − 1)(3p − 2n)
+               = n2 − 2 ·                    −2·                 −
+                                  2                     2                   2
+                        3 2 1
+               = 2np − p + p = dim(u).
+                        2      2
+                (ii) 3p < 2n. We have
+                     p((λ + ρ)− )odd = (1, 2, . . . , 1, 2, 0, 1, . . . , 0, 1).
+                                        |      {z        } |       {z        }
+                                                    p             2n−3p
+
+
+          GKdim L(λ) = n2 − (2 + 2 + 3 · 2 + 4 + · · · + p − 2 + (p − 1) · 2)
+                            − (p + 1 + p + 3 + · · · + 2n − 2p − 1)
+                                p(p − 2) p2      (2n − p)(n − 3p2 )
+                         = n2 −          −     −
+                                    4        2            2
+                                 3      p
+                        = 2np − p2 + = dim(u).
+                                 2      2
+             To sum up, z = −n + p2 is an irreducible point.
+           So z = 1 − n + p2 is the first reducible point.
+     (2) When z ∈/ 21 Z, we can easily get that MI (λ) is irreducible.
+     (3) When z ∈ 21 + Z, we have the follows.
+         (a) When z ≥ − 21 , we will have
+                GKdim L(λ) = n2 − (1 + 3 + · · · + 2p − 1) − (n − p)2
+                                = n2 − p2 − n2 + 2np − p2
+(5.6)                           = 2np − 2p2 < dim(u).
+                                 GKDIM AND REDUCIBILITY                            21
+
+
+               By Lemma 3.11, MI (λ) is reducible.
+           (b) When z = − 23 , by (7.7) and (7.8), MI (λ) is reducible.
+           (c) When z = 23 − n + p2 , we will have
+                              p                p                1         1
+                    λ + ρ = ( + 1, . . . , − + 2, n − p − , . . . , ),
+                              2                2                2         2
+                                p                p      p                p
+                 (λ + ρ)−
+                        (0) = ( 2 + 1, . . . , − 2 + 2, 2 − 2, . . . , − 2 − 1),
+
+                      p((λ + ρ)− )odd = (1, 1, . . . , 1, 1, 0, 1, 0, 1, 0).
+                                         | {z }
+                                                 p−3
+
+
+        GKdim L(λ) = n2 − (1 + 2 + 3 + · · · + p − 3 + p − 1 + p + 1) − (n − p)2
+                            (p − 2)(p − 3)
+                     = n2 −                − 2p − (n − p)2
+                                  2
+                             3      p
+                     = 2np − p2 + − 3 = dim(u) − 3.
+                             2      2
+               So z = 23 − n + p2 is a reducible point.
+           (d) When z = 12 − n + p2 , we will have
+
+                                p            p               1           1
+                      λ + ρ = ( , . . . , − + 1, n − p − , . . . , ),
+                                2            2                2          2
+                                    p             p      p                p
+                     (λ + ρ)−
+                            (0) = ( 2 , . . . , − 2 + 1, 2 − 1, . . . , − 2 ),
+
+                            p((λ + ρ)− )odd = (1, 1, . . . , 1, 1, 0).
+                                               | {z }
+                                                        p
+
+
+           GKdim L(λ) = n2 − (1 + 2 + 3 + · · · + p − 2 + p − 1) − (n − p)2
+                              p(p − 1)
+                         = n2 −         − (n − p)2
+                                  2
+                               3       p
+(5.7)                 = 2np − p2 + = dim(u).
+                               2       2
+          By Lemma 3.11, MI (λ) is irreducible.
+  So z = 23 − n + p2 is the first reducible point.
+  All in all, when p is even, MI (λ) is reducible if and only if z ∈ (1 − n + p2 +
+Z≥0 ) ∪ ( 32 − n + p2 + Z≥0 ) = 1 − n + p2 + 21 Z≥0 .
+
+  Finally we consider the case when p is odd and 3p < 2n + 1.
+    (1) When z ∈ Z≥0 , we will have
+         GKdim L(λ) = 0.
+    (2) When z = −1, we will have
+         GKdim L(λ) = 2n − 1.
+    (3) When z = 32 − n + p2 , we will have
+                              p             p            1         1
+                    λ + ρ = ( + 1, . . . , − + 2, n − p − , . . . , ).
+                              2             2            2         2
+             Since p is odd, we have the follows.
+22                            ZHANQIANG BAI AND JING JIANG*
+
+
+          (a) When 3p = 2n − 1, we will have
+                     p((λ + ρ)−
+                              (0) )
+                                   odd
+                                       = (1, 2, . . . , 1, 2, 1, 1, 1, 1, 0, 1).
+                                          |      {z        }
+                                                     p−3
+
+
+GKdim L(λ) = n2 − (2 + 2 + 3 · 2 + · · · + p − 5 + (p − 4) · 2) − (p − 3 + · · · + p + p + 2)
+                     (p − 3)(p − 5) (p − 3)2
+               = n2 −              −         − 5p + 4
+                           4             2
+                     3      17
+              = n2 − p2 −
+                     4      4
+                       3 2 p
+              = 2np − p + − 4 = dim(u) − 4.
+                       2     2
+          (b) When 3p < 2n − 1, we will have
+                           odd
+             p((λ + ρ)−
+                      (0) )    = (1, 2, . . . , 1, 2, 1, 1, 1, 1, 1, 1, 0, 1, . . ., 0, 1).
+                                  |      {z        }                    |      {z       }
+                                            p−3                             2n−3p−3
+
+
+GKdim L(λ) = n2 − (2 + 2 + 3 · 2 + · · · + p − 5 + (p − 4) · 2) − (p − 3 + · · · + p + 1 + p + 2)
+              − (p + 4 + p + 6 + · · · + 2n − 2p − 1)
+                     (p − 3)(p − 5) (p − 3)2             (2n − p + 1)(n − 32 p − 21 )
+               = n2 −                −       − 5p + 5 −
+                           4               2                         2
+                      3 2 p
+            = 2np − p + − 3 = dim(u) − 3.
+                      2       2
+          Hence when z = 2 − n + p2 , MI (λ) will be reducible.
+                            3
+
+     (4) When z = 21 − n + p2 , we will have
+                              p           p            1         1
+                     λ + ρ = ( , . . . , − + 1, n − p − , . . . , ).
+                              2           2            2         2
+         Since p is odd, we have
+                  p((λ + ρ)−
+                           (0) )
+                                odd
+                                    = (1, 2, . . . , 1, 2, 1, 1, 0, 1, . . . , 0, 1).
+                                       |      {z        }        |      {z        }
+                                                  p−1                 2n−3p−1
+
+
+     GKdim L(λ) = n2 − (2 + 2 + 3 · 2 + · · · + p − 3 + (p − 2) · 2 + p − 1)
+                   − (p + p + 2 + p + 4 + · · · + 2n − 2p − 1)
+                         (p − 1)(p + 1) (p − 1)2         (2n − p − 1)(n − 32 p + 12 )
+                   = n2 −                 −           −
+                                 4               2                   2
+                          3 2 p
+                 = 2np − p + = dim(u).
+                          2        2
+         So when z = 12 − n + p2 , MI (λ) is irreducible.
+     (5) When z ∈ 21 + Z and z ≥ − 12 , by(7.9) we have
+           GKdim L(λ) = 2np − 2p2 .
+     (6) When z = 1 − n + p2 , we will have
+                              p 1               p 3 p 3                   p 1
+               (λ + ρ)−
+                      (0) = ( 2 + 2 , . . . , − 2 + 2 , 2 − 2 , . . . , − 2 − 2 ),
+
+                         p((λ + ρ)−
+                                  (0) )
+                                       odd
+                                           = (1, 1, . . . , 1, 1, 0, 1, 0).
+                                              | {z }
+                                                        p−2
+                                 GKDIM AND REDUCIBILITY                              23
+
+
+       GKdim L(λ) = n2 − (1 + 2 + 3 + · · · + p − 3 + p − 2 + p) − (n − p)2
+                           (p − 1)(p − 2)
+                       = n2 −             − (n − p)2 − p
+                                  2
+                            3       p
+                  = 2np − p2 + − 1 = dim(u) − 1.
+                            2       2
+         Hence when z = 1 − n + p2 , MI (λ) is reducible.
+    (7) When z = −n + p2 , we will have
+                              p 1               p 1 p 1                   p 1
+               (λ + ρ)−
+                      (0) = ( 2 − 2 , . . . , − 2 + 2 , 2 − 2 , . . . , − 2 + 2 ).
+
+
+                GKdim L(λ) = n2 − (1 + 2 + · · · + p − 1) − (n − p)2
+                                    p(p − 1)
+                                = n2 −        − (n − p)2
+                                        2
+                                     3       p
+                          = 2np − p2 + = dim(u).
+                                     2       2
+           So when z = −n + p2 , MI (λ) is irreducible.
+     In other words, z = 1 − n + p2 and z = 32 − n + p2 are the first two reducible
+points, and in this case, MI (λ) is reducible if and only if z ∈ (1 − n + p2 + Z≥0 ) ∪
+( 23 − n + p2 + Z≥0 ) = 1 − n + p2 + 21 Z≥0 by Lemma 2.2.
+     So far, we have completed the proof of all cases of the second case of type Bn . 
+
+Example 5.8. Let g = so(7, C). We consider the parabolic subalgebra q corre-
+sponding to the subset I = Π \ {α3 }. In this case, we have p = 3 and n = 3.
+So the scalar generalized Verma module MI (zξ3 ) is reducible if and only if z ∈
+1 − n + Z≥0 = −2 + Z≥0 . This result is the same with [10] and [16].
+   The arguments of sp(2n, C) are similar to that of so(2n + 1, C). Next, we will
+discuss the reducibility of the scalar generalized Verma modules of g = sp(2n, C).
+Proposition 5.9. Let g = sp(2n, C). The scalar generalized Verma module MI (λ)
+is reducible if and only if
+    (1) if p = 1, then z ∈ Z≥0 ;
+    (2) if 2 ≤ p ≤ n − 1, then
+                     p        1  1
+               z∈     2 − n + 2 + 2 Z≥0          if p is odd or 3p > 2n
+                      p        1
+                      2 − n + 2 Z≥0              if p is even and 3p ≤ 2n;
+    (3) if p = n, then z ∈ 12 − n2 + 21 Z≥0 .
+
+Proof. First, let’s consider the case p = 1.
+   Take ∆+ (l) = {α2 , . . . , αn }, where αi = ei − ei+1 1 ≤ i ≤ n − 1 and αn = 2en .
+When MI (λ) is of scalar type, λ = zξ for some z ∈ R by Lemma 2.1.
+   By the definition of fundamental weight, we can compute that ξ = (1, 0, . . . , 0),
+so
+                          λ + ρ = (z + n, n − 1, n − 1, . . . , 1),
+                  (λ + ρ)− = (z + n, . . . , 1, −1, . . . , 1 − n, −z − n).
+Then we have the follows.
+24                             ZHANQIANG BAI AND JING JIANG*
+
+
+     (1) When z ∈ Z and z > −1, (λ + ρ)− is an integral weight.
+         p((λ + ρ)− ) = (1, 1, . . . , 1) and p((λ + ρ)− )odd
+                                                          i   = (0, 1, 0, 1, . . . , 0, 1).
+                         | {z }                                  |        {z            }
+                                   2n                                             2n
+
+        By Lemma 3.7, we obtain that
+                   X
+ GKdim L(λ) = n2 −   (i − 1)p((λ + ρ)− )odd
+                                        i
+                            i≥1
+
+                   = n2 − (0 · 0 + 1 · 1 + 2 · 0 + 3 · 1 + · · · + (2n − 2) · 0 + (2n − 1) · 1)
+                   = n2 − n2 = 0 < dim(u).
+          By Lemma 3.11, MI (λ) is reducible.
+          (a) When z = −1, we will have
+                   (λ + ρ)− = (n − 1, n − 1, . . . , 1, −1, . . . , 1 − n, 1 − n).
+
+               1      2           3      2           n   2         2n − 1    2n
+
+
+                                  1                  .             2n − 2    2
+                                                     .
+                                                     .
+                          →                    99K           99K                  = P (λ).
+                                                     3               .
+                                                                     .
+                                                                     .
+
+                                                     1               3
+
+
+                                                                     1
+
+
+     So p((λ + ρ)− ) = (2, 2, 1, 1, . . . , 1) and p((λ + ρ)− )odd = (1, 1, 0, 1, . . . , 0, 1).
+                              | {z }
+                                        2n−4
+                           X
+ GKdim L(λ) = n2 −                (i − 1)p((λ + ρ)− )odd
+                                                     i
+                            i≥1
+
+                   = n2 − (0 · 0 + 1 · 1 + 2 · 0 + 3 · 1 + · · · + (2n − 4) · 0 + (2n − 3) · 1)
+                   = n2 − n2 + 2n − 1 = dim(u).
+            By Lemma 3.11, MI (λ) is irreducible.
+     (2) When z ∈ 21 + Z, we will have
+                      (λ + ρ)− = (z + n, . . . , 1, −1, . . . , 1 − n, −z − n),
+     (λ + ρ)−                                                      −
+            (0) = (n − 1, . . . , 1, −1, . . . , 1 − n) and (λ + ρ)( 1 ) = (z + n, −z − n).
+                                                                         2
+
+             By Theorem 3.10, we get
+      GKdim L(λ) = n2 − (1 · 1 + 2 · 0 + 3 · 1 + · · · + (2n − 4) · 0 + (2n − 3) · 1)
+                      = n2 − n2 + 2n − 1 = dim(u).
+         By Lemma 3.11, MI (λ) is irreducible.
+                / 21 Z, we have
+     (3) When z ∈
+                          (λ + ρ)−
+                                 (0) = (n − 1, . . . , 1, −1, . . . , 1 − n),
+
+                         odd
+            ((λ + ρ)−
+                    (0) )    = (1, 1, 1, . . . , 1) and (λ + ρ)(z) = (z + n) ∈ [λ]3 .
+                                |     {z         }
+                                         2n−2
+                                  GKDIM AND REDUCIBILITY                                        25
+
+
+        By Theorem 3.10, we get
+    GKdim L(λ) = n2 − (1 · 1 + 2 · 0 + 3 · 1 + · · · + (2n − 4) · 0 + (2n − 3) · 1)
+                   = n2 − n2 + 2n − 1
+                   = 2n − 1 = dim(u).
+       By Lemma 3.11, MI (λ) is irreducible.
+  In summary, when p = 1, MI (λ) is reducible if and only if z ∈ Z≥0 .
+
+   Now we consider the case p = n.
+   Take ∆+ (l) = {α1 , . . . , αn−1 }, where αi = ei − ei+1 1 ≤ i ≤ n − 1 and αn = 2en .
+When MI (λ) is of scalar type, λ = zξ for some z ∈ R by Lemma 2.1.
+   By the definition of fundamental weight, we can compute that ξ = (1, 1, . . . , 1),
+then
+     (λ + ρ)− = (z + n, z + n − 1, . . . , z + 1, −z − 1, . . . , −z + 1 − n, −z − n).
+  First we consider the case when p = n is even.
+   (1) If z ∈ Z and z > −1, (λ + ρ)− is an integral weight, so
+                                p((λ + ρ)− ) = (1, 1, . . . , 1),
+                                                | {z }
+                                                           2n
+                                       − odd
+                   p((λ + ρ) )    = (0, 1, 0, 1, . . . , 0, 1).
+      By Lemma 3.7, we get
+                   X
+ GKdim L(λ) = n2 −   (i − 1)p((λ + ρ)− )odd
+                                        i
+                        i≥1
+
+               = n2 − (0 · 0 + 1 · 1 + 2 · 0 + 3 · 1 + · · · + (2n − 2) · 0 + (2n − 1) · 1)
+               = n2 − n2 = 0 < dim(u).
+        By Lemma 3.11, MI (λ) is reducible.
+        (a) When z = −1, we will have
+                (λ + ρ)− = (n − 1, n − 2, . . . , 0, 0, . . . , 2 − n, 1 − n).
+
+                        n          n    n+1           2n        n+1
+
+
+                       n−1        n−1                2n − 1
+                              →                99K                    = P (λ).
+                        .          .                   .
+                        .          .                   .
+                        .          .                   .
+
+                        1          1                   1
+
+
+             So p((λ + ρ)− ) = (2, 1, 1, . . . , 1) and p((λ + ρ)− )odd = (1, 1, 0, . . . , 1, 0) .
+                                   | {z }                                  |        {z          }
+                                          2n−2                                       2n−1
+                        X
+ GKdim L(λ) = n2 −            (i − 1)p((λ + ρ)− )odd
+                                                 i
+                        i≥1
+                   2
+               = n − (0 · 1 + 1 · 1 + 2 · 0 + 3 · 1 + · · · + (2n − 3) · 1 + (2n − 2) · 0)
+               = n2 − (1 + 3 + · · · + 2n − 3)
+               = n2 − n2 + 2n − 1 = 2n − 1 < dim(u).
+26                                     ZHANQIANG BAI AND JING JIANG*
+
+
+                  By Lemma 3.11, MI (λ) is reducible.
+              (b) When z = 1 − n2 , we will have
+
+                                      n     n           n    n              n n
+                  (λ + ρ)− = (          + 1, , . . . , − + 2, − 2, . . . , − , − − 1).
+                                      2     2           2    2              2   2
+
+
+
+          n            n       n+1          n       n+2           n       2n − 3           2n       2n − 3
+
+
+         n−1          n−1                  n−1 n+1               n−1        .             2n − 1         .
+                                                                            .                            .
+                                                                            .                            .
+                  →                   →                   99K                       99K                      = P (λ).
+          .            .                    .                     .       n+1                  .    n+1
+          .            .                    .                     .                            .
+          .            .                    .                     .                            .
+
+          1            1                    1                     1                            1
+
+
+
+
+                   So p((λ + ρ)− )odd = (1, 1, . . . , 1, 1, 0, 1, 0, 1, 0).
+                                         | {z }
+                                                          n−3
+
+
+                               X
+GKdim L(λ) = n2 −                     (i − 1)p((λ + ρ)− )odd
+                                                         i
+                                i≥1
+                           2
+(5.10)             = n − (1 · 1 + 2 · 1 + 3 · 1 + · · · + (n − 3) · 1 + (n − 1) · 1 + (n + 1) · 1)
+                   = n2 − (1 + 2 + · · · + n − 3) − 2n
+                        (n − 2)(n − 3)
+                   = n2 −              − 2n
+                              2
+                    1     1
+                   = n2 + n − 3 < dim(u).
+                    2     2
+
+                  By Lemma 3.11, MI (λ) is reducible.
+              (c) When z = − n2 , we will have
+
+                              n n              n    n              n      n
+                  (λ + ρ)− = ( , − 1, . . . , − + 1, − 1, . . . , − + 1, − ).
+                              2 2              2    2              2      2
+
+
+
+              n            n   n+1              n   n+2               n    2n − 1         2n       2n − 1
+
+
+         n−1          n−1                  n−1 n+1               n − 1 2n − 2              n       2n − 2
+                  →                    →                   99K                      →                        = P (λ).
+              .            .                    .                     .         .          .         .
+              .            .                    .                     .         .          .         .
+              .            .                    .                     .         .          .         .
+
+              1            1                    1                     2    n+1             3       n+1
+
+
+                                                                      1                    2
+
+
+                                                                                           1
+                                  GKDIM AND REDUCIBILITY                                 27
+
+
+             So p((λ + ρ)− )odd = (1, 1, 1, . . . , 1).
+                                   |     {z         }
+                                               n
+                                  X
+       GKdim L(λ) = n2 −                (i − 1)p((λ + ρ)− )odd
+                                                           i
+                                  i≥1
+                              2
+                        = n − (0 · 1 + 1 · 1 + 2 · 1 + 3 · 1 + · · · + (n − 1) · 1)
+                               (n)(n − 1)
+                        = n2 −
+                                   2
+                          n(n + 1)
+                        =          = dim(u).
+                             2
+           By Lemma 3.11, MI (λ) is irreducible.
+      So z = 1 − n2 is the first reducible point.
+           / 12 Z, we will have (λ + ρ)−
+  (2) If z ∈                                                −
+                                       (0) = (0) and (λ + ρ)( 1 ) = (0), then
+                                                                         2
+
+
+                     λ + ρ = (z + n, z + n − 1, . . . , z + 1) ∈ [λ]3 .
+
+        By Theorem 3.10, we get
+                          X
+       GKdim L(λ) = n2 −      FA (x̃)
+                                  x∈[λ]3
+                              2
+                        = n − (0 · 1 + 1 · 1 + 2 · 1 + 3 · 1 + · · · + (n − 1) · 1)
+                               n(n − 1)
+                        = n2 −
+                                   2
+                          n(n + 1)
+                        =          = dim(u).
+                             2
+      By Lemma 3.11, MI (λ) is irreducible.
+  (3) If z ∈ 21 + Z, we have
+
+   (λ + ρ)− = (z + n, z + n − 1, . . . , z + 1, −z − 1, . . . , −z + 1 − n, −z − n),
+
+                    (λ + ρ)−                    −              −
+                           (0) = (0) and (λ + ρ)( 1 ) = (λ + ρ) .
+                                                          2
+
+
+       (a)   When z ∈ 12 + Z≥−1 , we will have
+
+                           p((λ + ρ)−
+                                    ( 12 )
+                                           )ev = (1, 0, . . . , 1, 0).
+                                                  |      {z        }
+                                                          2n
+
+         By Theorem 3.10, we get
+                  X
+GKdim L(λ) = n2 −   (i − 1)p((λ + ρ)−
+                                    (1)
+                                        )ev
+                                                   2
+                        i≥1
+
+              = n2 − (0 · 1 + 1 · 0 + 2 · 1 + 3 · 0 + · · · + 2(n − 1) · 1 + (2n − 1) · 0)
+                           n(n − 1)
+              = n2 − 2 ·            = n < dim(u).
+                              2
+           By Lemma 3.11, MI (λ) is reducible.
+       (b) When z = − 23 , we will have
+28                           ZHANQIANG BAI AND JING JIANG*
+
+
+
+
+       n           n   n+1         n   n+2        n+3 n+2               2n   n+2
+
+
+     n−1         n−1              n−1 n+1           n    n+1           2n − 1 n + 1
+             →                →              →                   99K                  = P (λ).
+       .           .               .                .                    .
+       .           .               .                .                    .
+       .           .               .                .                    .
+
+       1           1               1                1                    1
+
+
+
+
+             So p((λ + ρ)− )ev = (1, 1, 1, 0, 1, 0 . . . , 1, 0).
+                                  |           {z              }
+                                                2n−2
+
+
+                        X
+ GKdim L(λ) = n2 −            (i − 1)p((λ + ρ)− )ev
+                                                 i
+                        i≥1
+
+                = n2 − (0 · 1 + 1 · 1 + 2 · 1 + 3 · 0 + · · · + (2n − 4) · 1 + (2n − 3) · 0)
+                = n2 − (1 + 2 + 4 + · · · + 2n − 4)
+                                  (n − 1)(n − 2)
+                = n2 − 1 − 2 ·                   = 3n − 3 < dim(u).
+                                        2
+
+              By Lemma 3.11, MI (λ) is reducible.
+          (c) When z = 21 − n2 , we will have
+
+
+                       n 1 n 1          3 n n 3         1 n 1 n
+      (λ + ρ)− = (       + , − , . . . , − , − , . . . , − , − − ).
+                       2  2 2 2         2 2 2 2         2 2   2 2
+
+
+
+
+      n           n    n+1         n   n+2         n    2n − 3          2n   2n − 2
+
+
+     n−1         n−1              n−1 n+1        n − 1 2n − 4          2n − 12n − 3
+            →                 →              →                   99K                  = P (λ).
+      .           .                .               .      .              n   2n − 4
+      .           .                .               .      .
+      .           .                .               .      .
+
+      1           1                1               4    n+1              .      .
+                                                                         .      .
+                                                                         .      .
+
+                                                   3                     5   n+1
+
+
+                                                   2                     4
+
+
+                                                   1                     3
+
+
+                                                                         2
+
+
+                                                                         1
+                                 GKDIM AND REDUCIBILITY                                   29
+
+
+            So p((λ + ρ)− )ev = (1, 1, 1, . . . , 1, 1, 0, 1, 0).
+                                 |     {z         }
+                                            n−2
+                       X
+                   2
+GKdim L(λ) = n −             (i − 1)p((λ + ρ)− )ev
+                                                i
+                       i≥1
+                   2
+             = n − (1 · 1 + 2 · 1 + · · · + (n − 3) · 1 + (n − 2) · 1 + (n − 1) · 0 + n · 1)
+             = n2 − (1 + 2 + · · · + n − 2) − n
+                   (n − 1)(n − 2)
+             = n2 −                 −n
+                          2
+              1      1
+            = n2 + n − 1 < dim(u).
+              2      2
+            By Lemma 3.11, MI (λ) is reducible.
+        (d) When z = − 21 − n2 , we will have
+                       n 1 n 3          1 n n 1         3 n 1 n
+        (λ + ρ)− = (     − , − , . . . , − , − , . . . , − , − ).
+                       2  2 2 2         2 2 2 2         2 2 2 2
+               n            n    n+1        n       n+2          n     2n
+
+
+             n−1           n−1             n−1 n+1              n − 1 2n − 1
+                       →               →                  99K                  = P (λ).
+               .             .              .                     .     .
+               .             .              .                     .     .
+               .             .              .                     .     .
+
+               1             1              1                     1   n+1
+
+
+            So p((λ + ρ)− )ev = (1, 1, 1, . . . , 1).
+                                 |     {z         }
+                                                n
+                       X
+                   2
+GKdim L(λ) = n −             (i − 1)p((λ + ρ)− )ev
+                                                i
+                       i≥1
+                   2
+             = n − (0 · 1 + 1 · 1 + 2 · 1 + · · · + (n − 3) · 1 + (n − 2) · 1 + (n − 1) · 1)
+             = n2 − (1 + 2 + · · · + n − 1)
+                       n(n − 1)   n(n + 1)
+             = n2 −             =            = dim(u).
+                          2           2
+              By Lemma 3.11, MI (λ) is irreducible. And z = 12 − n2 is the first
+              reducible point when z ∈ 12 + Z.
+            When p = n is odd, the argument is similar.
+            In summary, for the case p = n, MI (λ) is reducible if and only if z ∈
+                                           1        1
+         { 1−n                n                 n
+            2 + Z≥0 } ∪ {1 − 2 + Z≥0 } = 2 − 2 + 2 Z≥0 .
+   Finally, let’s consider the case 2 ≤ p ≤ n − 1. Under the circumstances, the
+arguments of type Bn and type Cn are almost the same, so we will omit the proof
+of this part.                                                                    
+
+  6. Reducibility of scalar genralized Verma modules for type Dn
+   In this section, we consider the type Dn . Let MI (λ) be a scalar generalized
+Verma module with highest weight λ = zξ, where ξ = ξp is the fundamental weight
+corresponding to the simple root αp . We have the following proposition.
+Proposition 6.1. Let g = so(2n, C). MI (λ) is reducible if and only if
+30                            ZHANQIANG BAI AND JING JIANG*
+
+
+      (1) if p = 1, then z ∈ 2 − n + Z≥0 ;
+      (2) if 2 ≤ p ≤ n − 2, then
+                       3 p         1
+                 z∈     2 + 2 − n + 2 Z≥0 if p is odd or 3p < 2n
+                            p       1
+                        1 + 2 − n + 2 Z≥0 if p is even and 3p ≥ 2n;
+
+      (3) if p = n − 1 or n, then
+                               
+                                  2 − n + Z≥0              if n is even
+                           z∈
+                                  3 − n + Z≥0              if n is odd.
+
+Proof. For p = 1, we take ∆+ (l) = {α2 , . . . , αn }, where αi = ei − ei+1 1 ≤ i ≤ n − 1
+and αn = en−1 + en+1 . When MI (λ) is of scalar type, we know that λ = zξ for
+some z ∈ R by Lemma 2.1.
+   By the definition of fundamental weight, we can compute that ξ = (1, 0, . . . , 0),
+(see details in[15]), so
+
+                              λ + ρ = (z + n − 1, n − 2, . . . , 0),
+
+             (λ + ρ)− = (z + n − 1, n − 2, . . . , 0, 0, . . . , 2 − n, 1 − n − z).
+     Then we have the follows.
+      (1) When z ∈ Z and z > −1, λ + ρ is integral.
+
+                             p((λ + ρ)− ) = (1, 0, 1, 0, 1, . . . , 0, 1).
+                                                |        {z            }
+                                                            2n−2
+
+          By Lemma 3.7, we get
+                                          X
+           GKdim L(λ) = n2 − n −                 (i − 1)p((λ + ρ)− )ev
+                                                                    i
+                                           i≥1
+                                2
+                           = n − n − (0 · 1 + 1 · 0 + 2 · 1 + · · · + (2n − 2) · 1)
+                           = n2 − n − 2(1 + 2 + · · · + n − 1)
+                                              n(n − 1)
+                           = n2 − n − 2 ·              = 0 < dim(u).
+                                                 2
+          By Lemma 3.11, MI (λ) is reducible.
+          (a) When z = −1, we will have
+
+                   (λ + ρ)− = (n − 2, n − 2, . . . , 0, 0, . . . , 2 − n, 2 − n).
+
+              n      2          n   n+1           2n − 1 n + 1       2n − 1   2n
+
+
+             n−1              n−1     2           2n − 2   2         2n − 2 n + 1
+                         →                 99K                   →                  = P (λ).
+              .                 .                    .               2n − 3   2
+              .                 .                    .
+              .                 .                    .
+
+              1                 1                   1                  .
+                                                                       .
+                                                                       .
+
+                                                                       1
+                              GKDIM AND REDUCIBILITY                                                 31
+
+
+           So p((λ + ρ)− )ev = (1, 1, 1, 0, 1, 0, 1, . . . , 0, 1).
+                                         |        {z            }
+                                                       2n−6
+                              X
+GKdim L(λ) = n2 − n −               (i − 1)p((λ + ρ)− )ev
+                                                       i
+                              i≥1
+
+               = n2 − n − (0 · 1 + 1 · 1 + 2 · 1 + · · · + (2n − 5) · 0 + (2n − 4) · 1
+               = n2 − n − 1 − 2(1 + 2 + · · · + n − 2)
+                                          (n − 1)(n − 2)
+               = n2 − n − 1 − 2 ·                        = 2n − 3 < dim(u).
+                                                2
+          By Lemma 3.11, MI (λ) is reducible.
+      (b) When z = 2 − n, we will have
+
+                  (λ + ρ)− = (1, n − 2, . . . , 0, 0, . . . , 2 − n, −1).
+
+
+  1    4            1   n−2           1    n−1         2n − 1 n + 1        2n − 1   2n
+
+
+  3               n−1               n−2                2n − 2 n − 1        2n − 2 n + 1
+            99K               →                  99K                   →                  = P (λ).
+  2                 .                 .                  .                 2n − 3 n − 1
+                    .                 .                  .
+                    .                 .                  .
+
+                    2                 2                  2                   .
+                                                                             .
+                                                                             .
+
+                                                                             2
+
+
+
+           So p((λ + ρ)− )ev = (1, 1, 1, 0, 1, 0, 1, . . . , 0, 1).
+                                         |        {z            }
+                                                       2n−6
+                              X
+GKdim L(λ) = n2 − n −               (i − 1)p((λ + ρ)− )ev
+                                                       i
+                              i≥1
+                   2
+               = n − n − (0 · 1 + 1 · 1 + 2 · 1 + · · · + (2n − 5) · 0 + (2n − 4) · 1
+               = n2 − n − 1 − 2(1 + 2 + · · · + n − 2)
+                                          (n − 1)(n − 2)
+               = n2 − n − 1 − 2 ·                        = 2n − 3 < dim(u).
+                                                2
+          By Lemma 3.11, MI (λ) is reducible.
+      (c) When z = 1 − n, we will have
+
+                   (λ + ρ)− = (0, n − 2, . . . , 0, 0, . . . , 2 − n, 0).
+
+
+ 1     3           1     n            1     n    n+1          2n − 1   n    n+1     2n
+
+
+ 2                n−1               n−1                       2n − 2
+           99K                →                        99K                                = P (λ).
+                   .                  .                         .
+                   .                  .                         .
+                   .                  .                         .
+
+                   2                  2                         2
+32                            ZHANQIANG BAI AND JING JIANG*
+
+
+               So p((λ + ρ)− )ev = (2, 0, 1, 0, 1, . . . , 0, 1).
+                                       |        {z            }
+                                                   2n−4
+                                 X
+     GKdim L(λ) = n2 − n −             (i − 1)p((λ + ρ)− )ev
+                                                          i
+                                 i≥1
+
+                  = n2 − n − (0 · 2 + 1 · 0 + 2 · 1 + · · · + (2n − 5) · 0 + (2n − 4) · 1)
+                  = n2 − n − 2(1 + 2 + · · · + n − 2)
+                                  (n − 1)(n − 2)
+                  = n2 − n − 2 ·                 = 2n − 2 = dim(u).
+                                        2
+               By Lemma 3.11, MI (λ) is irreducible.
+          So z = 2 − n is the first reducible point when z ∈ Z.
+      (2) When z ∈ 12 + Z, we have
+                           ev
+             p((λ + ρ)−
+                      (0) )   = (1, 0, 1, . . . , 0, 1) and p((λ + ρ)−
+                                                                     ( 21 )
+                                                                            )ev = (1).
+                                    |      {z        }
+                                            2n−4
+
+          By Theorem 3.10, we get
+GKdim L(λ) = n2 − n − (0 · 1 + 1 · 0 + 2 · 1 + · · · + (2n − 5) · 0 + (2n − 4) · 1) − (0 · 1)
+                = n2 − n − 2(1 + 2 + · · · + n − 2)
+                             (n − 1)(n − 2)
+                = n2 − n − 2 ·              = 2n − 2 = dim(u).
+                                   2
+          By Lemma 3.11, MI (λ) is irreducible.
+                 / 21 Z, we have
+      (3) When z ∈
+                      ev
+        p((λ + ρ)−
+                 (0) )   = (1, 0, 1, . . . , 0, 1) and (λ + ρ)(z) = (z + n − 1) ∈ [λ]3 .
+                               |      {z        }
+                                     2n−4
+
+             By Theorem 3.10, we get
+GKdim L(λ) = n2 − n − (0 · 1 + 1 · 0 + 2 · 1 + · · · + (2n − 5) · 0 + (2n − 4) · 1) − (0 · 1)
+                = n2 − n − 2(1 + 2 + · · · + n − 2)
+                           (n − 1)(n − 2)
+                = n2 − n − 2 ·              = 2n − 2 = dim(u).
+                                   2
+          By Lemma 3.11, MI (λ) is irreducible.
+     Combining (2) and (3), we can get a conclusion that if z ∈
+                                                              / Z, MI (λ) is irreducible.
+     In summary, when p = 1, MI (λ) is reducible if and only if z ∈ 2 − n + Z≥0 .
+
+   Now we consider the case p = n − 1.
+   Take ∆+ (l) = {α1 , . . . , αn−2 , αn }, where αi = ei − ei+1 1 ≤ i ≤ n − 1 and
+αn = en−1 + en+1 . When MI (λ) is of scalar type, λ = zξ for some z ∈ R by Lemma
+2.1.
+   By the definition of fundamental weight, we can compute that ξ = ( 12 , 21 , . . . , 12 ),
+(see details in[15]), then
+                           1                 1    1                  1
+              (λ + ρ)− = ( z + n − 1, . . . , z, − z, . . . , 1 − n − z).
+                           2                 2    2                  2
+First we consider the case when n is even.
+                                     GKDIM AND REDUCIBILITY                                         33
+
+
+    (1) If z ∈ Z and z > 0, λ + ρ is integral and p((λ + ρ)− )ev = (1, 0, . . . , 1, 0).
+           By Lemma 3.7, we get
+                                           X
+             GKdim L(λ) = n2 − n −               (i − 1)p((λ + ρ)− )ev
+                                                                    i
+                                           i≥1
+                                 2
+                           = n − n − (0 · 1 + 1 · 0 + 2 · 1 + · · · + (2n − 2) · 1)
+                           = n2 − n − 2(1 + 2 + · · · + n − 1)
+                                              n(n − 1)
+                           = n2 − n − 2 ·              = 0 < dim(u).
+                                                 2
+
+        So MI (λ) is reducible.
+         (a) When z = 0, we will have
+
+(6.2)              (λ + ρ)− = (n − 1, n − 2, . . . , 0, 0, . . . , 2 − n, 1 − n),
+
+
+                               p((λ + ρ)− )ev = (1, 0, 1, . . . , 0, 1).
+                                                    |      {z        }
+                                                              2n−2
+
+
+                By Theorem 3.10, we get
+                                           X
+             GKdim L(λ) = n2 − n −               (i − 1)p((λ + ρ)− )ev
+                                                                    i
+                                           i≥1
+                                 2
+                           = n − n − (0 · 1 + 1 · 0 + 2 · 1 + · · · + (2n − 2) · 1)
+                           = n2 − n − 2(1 + 2 + · · · + n − 1)
+                                              n(n − 1)
+                           = n2 − n − 2 ·              = 0 < dim(u).
+                                                 2
+
+             So MI (λ) is reducible.
+         (b) When z = 2 − n, we will have
+
+                         1 1                   1 1                   1    1
+             (λ + ρ)− = ( n, n − 1, . . . , 1 − n, n − 1, . . . , 1 − n, − n).
+                         2 2                   2 2                   2    2
+
+
+         n          n    n+1          n   n+2            n    2n − 1       2n   2n − 1
+
+
+        n−1        n−1               n−1 n+1            n − 1 2n − 2       n    2n − 2
+               →               →                  99K                  →                 = P (λ).
+         .          .                 .                   .     .          .      .
+         .          .                 .                   .     .          .      .
+         .          .                 .                   .     .          .      .
+
+         1          1                 1                   2   n+1          3    n+1
+
+
+                                                          1                2
+
+
+                                                                           1
+34                                ZHANQIANG BAI AND JING JIANG*
+
+
+             So p(λ + ρ)− = (2, 2, . . . , 2, 1, 1) and p((λ + ρ)− )ev = (1, 1, . . . , 1, 0, 1).
+                             | {z }                                       | {z }
+                                            n−1                                                n−1
+
+                                  X
+GKdim L(λ) = n2 − n −                   (i − 1)p((λ + ρ)− )ev
+                                                           i
+                                  i≥1
+                     2
+              = n − n − (0 · 1 + 1 · 1 + 2 · 0 + · · · + (n − 2) · 1 + (n − 1) · 0 + n · 1)
+              = n2 − n − (1 + 2 + · · · + n − 2) − n
+                      (n − 1)(n − 2)
+              = n2 − n −             −n
+                            2
+               1    1         1      1
+              = n2 − n − 1 < n2 − n = dim(u).
+               2    2         2      2
+
+             So MI (λ) is reducible.
+         (c) When z = 1 − n, we will have
+
+                          1   1         1 1 1 1           1 1
+              (λ + ρ)− = ( n − , . . . , − n, − n, . . . , − n).
+                          2   2         2 2 2 2           2 2
+
+
+                n             n     n+1            n     n+2          n     2n
+
+
+               n−1           n−1                  n−1 n+1            n − 1 2n − 1
+                         →                  →                  99K                  = P (λ).
+                 .            .                    .                   .     .
+                 .            .                    .                   .     .
+                 .            .                    .                   .     .
+
+                1             1                    1                   1   n+1
+
+
+
+             So p((λ + ρ)− )ev = (1, 1, . . . , 1).
+                                                X
+           GKdim L(λ) = n2 − n −                       (i − 1)p((λ + ρ)− )ev
+                                                                          i
+                                                i≥1
+                                   2
+                             = n − n − (0 · 1 + 1 · 1 + 2 · 1 + · · · + (n − 1) · 1)
+                             = n2 − n − (1 + 2 + · · · + n − 1)
+                                                n(n − 1)
+                             = n2 − n −
+                                                   2
+                                  1 2 1
+                             =      n − n = dim(u).
+                                  2    2
+
+              So MI (λ) is irreducible.
+         Thus z = 2 − n is the first reducible point when z ∈ Z.
+     (2) If z ∈
+              / Z, we have
+
+                           1                  1    1                  1
+               (λ + ρ)− = ( z + n − 1, . . . , z, − z, . . . , 1 − n − z),
+                           2                  2    2                  2
+
+                                                            1                  1
+p((λ + ρ)−
+         ( 12 )
+                )ev = p((λ + ρ)−
+                               (0) )
+                                    ev
+                                       = (0) and (λ + ρ) = ( z + n − 1, . . . , z) ∈ [λ]3 .
+                                                            2                  2
+                                     GKDIM AND REDUCIBILITY                                             35
+
+
+            By Theorem 3.10, we get
+             GKdim L(λ) = n2 − n − (0 · 1 + 1 · 1 + 2 · 1 + · · · + (n − 1) · 1)
+                              = n2 − n − (1 + 2 + · · · + n − 1)
+                                               n(n − 1)
+                              = n2 − n −
+                                                  2
+                          1 2 1
+                            n − n = dim(u).
+                              =
+                          2       2
+        So MI (λ) is irreducible by Lemma 3.11.
+   To sum up, when n is even, MI (λ) is reducible if and only if z ∈ 2 − n + Z≥0 .
+
+  When n is odd, the arguments are similar to the case when n is even. Finally,
+we can get the result that MI (λ) is reducible if and only if z ∈ 3 − n + Z≥0 . We
+omit the details here.
+
+   All in all, when p = n − 1, MI (λ) is reducible if and only if
+                             
+                                2 − n + Z≥0 if n is even
+                         z∈
+                                3 − n + Z≥0 if n is odd.
+   The arguments of the case when p = n are similar to that of p = n − 1, we omit
+the details here.
+
+   Finally we consider the case when 2 ≤ p ≤ n − 2.
+   First we consider the case when p is even and 3p ≥ 2n.
+    (1) If z ∈ Z and z > −1, we have
+(λ+ ρ)− = (z + n− 1, . . . , z + n− p, n− p− 1, . . . , 0, 0, . . . , −n+ p+ 1, . . . , −z − n+ 1),
+                               p((λ + ρ)− )ev = (1, 0, 1, . . . , 0, 1, 1).
+                                                    |      {z        }
+                                                            2n−2
+            By Theorem 3.7, we get
+             GKdim L(λ) = n2 − n − (0 · 1 + 1 · 0 + 2 · 1 + · · · + (2n − 2) · 1)
+                              = n2 − n − 2(1 + 2 + · · · + n − 1)
+                                        n(n − 1)
+(6.3)                         = n2 − n − 2 ·     = 0 < dim(u).
+                                           2
+            By Lemma 3.11, MI (λ) is reducible.
+            (a) When z = −1, we will have
+(λ + ρ)− = (n − 2, . . . , n − p − 1, n − p − 1, . . . , 0, 0, . . . , −n + p + 1, . . . , −n + 2).
+
+        p   p+1          n    p+1         n     n+1          k   k+1           2n   k+1
+
+
+    p−1                 n−1             n−1 p+1             k−1 n+1           2n − 1 n + 1
+                  99K               →                 99K              99K                   = P (λ).
+        .                .              n−2                  .   p+1            .   p+1
+        .                .                                   .                  .
+        .                .                                   .                  .
+
+        1                1                 .                 1                  1
+                                           .
+                                           .
+
+                                          1
+36                              ZHANQIANG BAI AND JING JIANG*
+
+
+                 In the above Young tableau, k = 2n − p.
+                 So p((λ + ρ)− )ev = (1, 1, 1, 0, 1, . . . , 0, 1, 1).
+                                               |      {z        }
+                                                         2n−6
+                 By Theorem 3.7, we get
+           GKdim L(λ) = n2 − n − (0 · 1 + 1 · 1 + 2 · 1 + · · · + (2n − 4) · 1)
+                           = n2 − n − 1 − 2(1 + 2 + · · · + n − 2)
+                                              (n − 1)(n − 2)
+                           = n2 − n − 1 − 2 ·                         = 2n − 3 < dim(u).
+                                                         2
+               By Lemma 3.11, MI (λ) is reducible.
+           (b) When z = p2 − n + 1, we will have
+                 p           p                                                 p              p
+     (λ + ρ)− = ( , . . . , − + 1, n − p − 1, . . . , 0, 0, . . . , −n + p + 1, − 1, . . . , − ),
+                 2           2                                                 2              2
+                        p((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 1, . . . , 1, 0, 1).
+                                             |      {z        } | {z }
+                                                    2n−2p−2         3p−2n
+                 By Theorem 3.7, we get
+GKdim L(λ) = n2 − n − (1 · 1 + 2 · 2 + · · · + (2n − 2p − 2) · 2) − (2n − 2p − 1 + · · · + p − 2) − p
+                                                        (n − p)(n − p − 1) (2n − p − 3)(3p − 2n)
+                  = n2 − n − (n − p − 1)2 − 4 ·                           −                      −p
+                                                                2                    2
+(6.4)
+                         3        1
+                = 2np − p2 − p − 1 = dim(u) − 1 < dim(u).
+                         2        2
+                By Lemma 3.11, MI (λ) is reducible.
+            (c) When z = p2 − n, we will have
+                 p              p                                              p           p
+     (λ + ρ)− = ( − 1, . . . , − , n − p − 1, . . . , 0, 0, . . . , −n + p + 1, , . . . , − + 1),
+                 2              2                                              2           2
+                          p((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 1, . . . , 1 ).
+                                               |      {z        } | {z }
+                                                       2n−2p−2       3p−2n+1
+                 By Theorem 3.7 and (6.4), we get
+GKdim L(λ) = n2 − n − (n − p − 1)2 − 4 · Cn−p2
+                                                 − (2n − 2p − 1 + · · · + p − 2) − p + 1
+                      3 2 1
+            = 2np − p − p = dim(u).
+                      2     2
+           By Lemma 3.11, MI (λ) is irreducible.
+         So z = p2 − n + 1 is the first reducible point when z ∈ Z.
+           / 12 Z, we have
+  (2) If z ∈
+(λ+ρ)−
+     (0) = (n−p−1, . . . , 0, 0, . . . , −n+p+1) and (λ+ρ)(z) = (z+n−1, . . . , z+n−p) ∈ [λ]3 .
+
+
+           GKdim L(λ) = n2 − n − (1 + · · · + p − 1) − (2 + · · · + 2n − 2p − 2)
+                                     p(p − 1)     (n − p)(n − p − 1)
+                           = n2 − n −         −2·
+                                         2                2
+                                  3 2 1
+(6.5)                    = 2pn − p − p = dim(u).
+                                  2      2
+           So MI (λ) is irreducible.
+                                    GKDIM AND REDUCIBILITY                                                 37
+
+
+    (3) If z ∈ 21 + Z and z ≥ p − n, we have
+(6.6)    p((λ + ρ)−
+                  (0) )
+                       ev
+                          = (1, 0, 1, . . . , 0, 1) and p((λ + ρ)−
+                                                                 ( 12 )
+                                                                        )ev = (1, 0, . . . , 1, 0).
+                                |      {z        }                             |      {z        }
+                                        2n−2p−2                                                       2p
+
+
+        GKdim L(λ) = n2 − n − (1 + · · · + 2p − 2) − (2 + · · · + 2n − 2p − 2)
+                                     p(p − 1)     (n − p)(n − p − 1)
+                          = n2 − n − 2 ·      −2·
+                                        2                 2
+                                 3 2 1
+                          = 2pn − p − p − Cp2 < dim(u).
+                                 2    2
+        By Lemma 3.11, MI (λ) is reducible.
+        (a) When z = p2 − n + 1 + 21 , we will have
+          p 1           p 3                                      p 3           p 1
+(λ+ρ)− = ( + , . . . , − + , n−p−1, . . . , 0, 0, . . . , −n+p+1, − , . . . , − − ).
+          2 2           2 2                                      2 2           2 2
+
+                      p    p+1               p    2p − 2                2p        2p − 2
+
+
+                    p−1                     p−1        .               2p − 1       .
+                                                       .                            .
+                                                       .                            .
+                                  99K                        99K                           = P (λ).
+                      .                      .     p+1                   .        p+1
+                      .                      .                           .
+                      .                      .                           .
+
+                      1                      1                           1
+
+
+              So p((λ + ρ)−
+                          ( 21 )
+                                 )ev = (1, 1, . . . , 1, 1, 0, 1).
+                                        | {z }
+                                                   p−2
+
+        GKdim L(λ) = n2 − n − (n − p)2 + n − p − (1 + 2 + · · · + p − 2 + p)
+                                                                                  (p − 1)(p − 2)
+                          = n2 − n − (n − p)2 + n − p −                                          −p
+                                                                                        2
+                                 3    1
+                          = 2pn − p2 − p − 1 < dim(u).
+                                 2    2
+             By Lemma 3.11, MI (λ) is reducible.
+         (b) When z = p2 − n + 12 , we will have
+          p 1           p 1                                      p 1           p 1
+(λ+ρ)− = ( − , . . . , − + , n−p−1, . . . , 0, 0, . . . , −n+p+1, − , . . . , − + ).
+          2 2           2 2                                      2 2           2 2
+
+                           p            p        p+1              p          2p
+
+
+                          p−1        p−1                         p − 1 2p − 1
+                                →                          99K                       = P (λ).
+                            .           .                          .          .
+                            .           .                          .          .
+                            .           .                          .          .
+
+                           1            1                         1      p+1
+
+
+              So
+(6.7)                           p((λ + ρ)−
+                                         ( 12 )
+                                                )ev = (1, 1, 1, . . . , 1).
+                                                       |     {z         }
+                                                                          p
+38                            ZHANQIANG BAI AND JING JIANG*
+
+
+       GKdim L(λ) = n2 − n − (n − p)2 + n − p − (1 + 2 + · · · + p − 2 + p − 1)
+                                                                (p − 1)(p − 2)
+                    = n2 − n − (n − p)2 + n − p −                              −p+1
+                                                                      2
+                                3     1
+                    = 2pn − p2 − p = dim(u).
+                                2     2
+              By Lemma 3.11, MI (λ) is irreducible.
+          Hence, z = p2 − n + 1 + 12 is the first reducible point when z ∈ 21 + Z.
+   All in all, when p is even and 3p ≥ 2n, MI (λ) is reducible if and only if
+z ∈ ( p2 − n + 1 + Z≥0 ) ∪ ( p2 − n + 1 + 21 + Z≥0 ) = p2 − n + 1 + 21 Z≥0 .
+
+     Next, let’s look at the case when p is odd.
+      (1) When z ∈ Z and z > −1, MI (λ) is reducible by (6.3).
+           (a) When z = −1, MI (λ) is reducible by (6.4).
+           (b) When z = p2 − n + 32 , we will have
+          p 1           p 1                                      p 1           p 1
+(λ+ρ)− = ( + , . . . , − + , n−p−1, . . . , 0, 0, . . . , −n+p+1, − , . . . , − − ).
+          2 2           2 2                                      2 2           2 2
+           We divide the discussion into three cases:
+            (i) p is odd and 3p > 2n. We have
+                   p((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 1, . . . , 1 , 1, 0, 1).
+                                        |      {z        } | {z }
+                                                 2n−2p−2        3p−2n−1
+
+                     By (6.4), MI (λ) is reducible.
+                (ii) p is odd and 2n − 5 < 3p < 2n. We have
+               p((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 1, . . . , 1 , 0, 1, . . . , 0, 1).
+                                    |      {z        } | {z } |               {z        }
+                                                p−3         2n−3p+1        3p−2n+3
+
+GKdim L(λ) = n2 − n − (1 + 4 + · · · + p − 4 + (p − 3) · 2) − (p − 2 + · · · + 2n − 2p − 2)
+                 − (2n − 2p + 2n − 2p + 2 · · · + p + 1)
+                                             p−1 p−3
+                            (p − 3) p−3         · 2    (2n − p − 4)(2n − 3p + 1)
+               = n2 − n −            2
+                                        −4· 2        −
+                                 2              2                  2
+                          p 1 3p           3
+                 − (n − + )( − n + )
+                          2 2 2            2
+                         3 2             5
+               = 2pn − p − 2p + n − < dim(u).
+                         2               2
+                     By Lemma 3.11, MI (λ) is reducible.
+               (iii) p is odd and 3p ≤ 2n − 5. We have
+               p((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 1, 1, 1, 1, 0, 1, . . . , 0, 1).
+                                    |      {z        }              |      {z        }
+                                                p−3                        2n−3p−3
+
+ GKdim L(λ) = n2 − n − (1 + 4 + · · · + p − 4 + (p − 3) · 2) − (p − 2 + p − 1 + p)
+                  − (p + 1 + p + 3 + · · · + 2n − 2p − 2)
+                                        p−1 p−3
+                         (p − 3) p−3        · 2   (2n − p − 1)(n − 32 p − 12 )
+                = n2 − n −        2
+                                     −4· 2      −
+                              2             2                 2
+                       3 2 1
+                = 2pn − p − p − 1 < dim(u).
+                       2     2
+                                 GKDIM AND REDUCIBILITY                                     39
+
+
+                 By Lemma 3.11, MI (λ) is reducible.
+             Combining with (i),(ii) and (iii), z = p2 − n + 32 is a reducible point.
+         (c) When z = p2 − n + 12 , we will have
+
+          p 1           p 1                                      p 1           p 1
+(λ+ρ)− = ( − , . . . , − + , n−p−1, . . . , 0, 0, . . . , −n+p+1, − , . . . , − + ).
+          2 2           2 2                                      2 2           2 2
+             We divide the discussion into two cases:
+              (i) p is odd and 3p + 1 ≥ 2n. We have
+
+                      p((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 1, . . . , 1 ).
+                                           |      {z        } | {z }
+                                                   2n−2p−2        3p−2n+1
+
+
+
+
+GKdim L(λ) = n2 − n − (1 + 4 + · · · + (2n − 2p − 2) · 2) − (2n − 2p − 1 + · · · + p − 2) − p + 1
+                   3      1
+           = 2pn − p2 − p = dim(u).
+                   2      2
+                    By Lemma 3.11, MI (λ) is irreducible.
+               (ii) p is odd and 3p + 1 < 2n. We have
+
+                    p((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 0, 1, . . . , 0, 1).
+                                         |      {z        } |       {z        }
+                                                   p−1            2n−3p−1
+
+
+
+
+GKdim L(λ) = n2 − n − (1 + 4 + · · · + p − 2 + (p − 1) · 2) − (p + 1 + p + 3 + · · · + 2n − 2p − 2)
+                                     p+1 p−1
+                      (p − 1) p−1       · 2    (2n − p − 1)(n − 23 p − 12 )
+             = n2 − n −        2
+                                  −4· 2      −
+                           2            2                  2
+                    3 2 1
+             = 2pn − p − p = dim(u).
+                    2     2
+                     By Lemma 3.11, MI (λ) is irreducible.
+             From (i) and (ii), we can see that z = p2 − n + 21 is an irreducible point.
+        So z = p2 − n + 32 is the first reducible point when z ∈ Z.
+             / 21 Z, MI (λ) is irreducible by (6.5).
+    (2) If z ∈
+    (3) If z ∈ 21 + Z and z ≥ p − n, MI (λ) is reducible by (6.6).
+         (a) When z = p2 − n + 2, we will have
+
+                                p              p    p              p
+               (λ + ρ)−
+                      ( 21 )
+                             = ( + 1, . . . , − + 2, − 2, . . . , − − 1).
+                                2              2    2              2
+
+
+                p          p   p+1            p   2p − 3         2p     2p − 3
+
+
+              p−1        p−1                p−1      .         2p − 1     .
+                                                     .                    .
+                                                     .                    .
+                    →                 99K                  →                     = P (λ).
+                .          .                  .    p+1           .      p+1
+                .          .                  .                  .
+                .          .                  .                  .
+
+                1          1                  1                  1
+40                               ZHANQIANG BAI AND JING JIANG*
+
+
+               So p((λ + ρ)−
+                           ( 12 )
+                                  )ev = (1, 1, 1, . . . , 1, 1, 0, 1, 0, 1, 0).
+                                         |     {z         }
+                                                 p−3
+
+       GKdim L(λ) = n2 − n − (n − p)2 + n − p − (1 + 2 + · · · + p − 2 + p) − 2
+                                                               (p − 1)(p − 2)
+                      = n2 − n − (n − p)2 + n − p −                           −p−2
+                                                                     2
+                             3    1
+                      = 2pn − p2 − p − 3 < dim(u).
+                             2    2
+              By Lemma 3.11, MI (λ) is reducible.
+          (b) When z = p2 − n + 1, we will have
+                                       p           p    p              p
+                      (λ + ρ)−
+                             ( 21 )
+                                    = ( , . . . , − + 1, − 1, . . . , − ).
+                                       2           2    2              2
+
+                  p          p     p+1           p   2p − 1         2p    2p − 1
+
+
+                p−1        p−1                 p−1     .            p       .
+                                                       .                    .
+                                                       .                    .
+                       →                 99K                  →                    = P (λ).
+                  .          .                   .   p+1             .    p+1
+                  .          .                   .                   .
+                  .          .                   .                   .
+
+                  1          1                   1                  1
+
+
+               So p((λ + ρ)−
+                           ( 21 )
+                                  )ev = (1, 1, 1, . . . , 1, 1).
+                                         |     {z         }
+                                                 p−1
+               By (6.7), MI (λ) is irreducible.
+          So z = p2 − n + 2 is the first reducible point when z ∈ 21 + Z.
+  To sum up, when p is odd, MI (λ) is reducible if and only if z ∈ ( p2 − n + 32 +
+Z≥0 ) ∪ ( p2 − n + 2 + Z≥0 ) = p2 − n + 32 + 21 Z≥0 .
+
+     Ultimately, we discuss the case when p is even and 3p < 2n.
+      (1) If z ∈ Z and z > −1, MI (λ) is reducible by (6.3).
+           (a) When z = −1, we will have
+                            p((λ + ρ)− )ev = (1, 1, 1, 0, 1, . . . , 0, 1).
+                                                       |      {z        }
+                                                                   2p−6
+
+
+               GKdim L(λ) = n2 − n − (1 · 1 + 2 · 1 + · · · + (2n − 4) · 1)
+                                 = 2n − 3 < dim(u).
+              By Lemma 3.11, MI (λ) is reducible.
+          (b) When z = p2 − n + 2, we will have
+            p              p                                                 p              p
+(λ + ρ)− = ( + 1, . . . , − + 2, n − p − 1, . . . , 0, 0, . . . , −n + p + 1, − 2, . . . , − − 1).
+            2              2                                                 2              2
+            Since p is even, we have the follows.
+               (i) p = 2 and 3p ≥ 2n−4. The the corresponding Young tableau has
+                   only two columns. So it is easy to calculate that GKdim L(λ) <
+                   dim(u).
+              (ii) p = 2 and 3p < 2n − 4. Similar to the above case.
+                                   GKDIM AND REDUCIBILITY                                         41
+
+
+                (iii) p > 2 and 3p ≥ 2n − 4. We have
+(6.8)                  p((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 1, 1, 1, 1, 0, 1)
+                                            |      {z        }
+                                                         p−4
+                                    − ev
+(6.9)               or p((λ + ρ) )         = (2, 1, 2, . . . , 1, 2, 1, 1, 1, 1, 1, 1).
+                                                 |      {z        }
+                                                         p−4
+
+                      For (6.8), we get
+GKdim L(λ) = n2 − n − (1 · 1 + 2 · 2 + · · · + (p − 4) · 2) − (p − 3 + · · · + p + p + 2)
+                                        p−2 p−4
+                      (p − 4) · p−4         · 2
+               = n2 − n −        2
+                                    −4· 2        − 5p + 4
+                            2              2
+                      3
+          = n2 − n − p2 − 4 < dim(u) (since 3p = 2n − 2 or 2n − 4).
+                      4
+                By Lemma 3.11, MI (λ) is reducible.
+                For (6.9), we get
+                        3
+ GKdim L(λ) = n2 − n − p2 − p − 3 < dim(u) (since 3p = 2n − 2 or 2n − 4).
+                        4
+                By Lemma 3.11, MI (λ) is reducible.
+           (iv) p > 2 and 3p < 2n − 4. We have
+              ((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 1, 1, 1, 1, 1, 1, 0, 1, . . . , 0, 1).
+                                  |      {z        }                    |      {z        }
+                                            p−4                              2n−3p−4
+
+
+GKdim L(λ) = n2 − n − (1 · 1 + 2 · 2 + · · · + (p − 4) · 2) − (p − 3 + · · · + p + p + 1)
+                  − (p + 2 + p + 4 + · · · + 2n − 2p − 2)
+                                                   p−2 p−4
+                             (p − 4) · p−4              · 2                        (2n − p)(n − 23 p − 1)
+               = n2 − n −               2
+                                           −4· 2                  − 5p + 5 −
+                                   2                    2                                   2
+                          3 2 1
+             = 2pn − p − p − 3 < dim(u).
+                          2      2
+                    By Lemma 3.11, MI (λ) is reducible.
+             Hence when z = p2 − n + 2, MI (λ) will be reducible.
+         (c) When z = p2 − n + 1, we will have
+              p            p                                                      p            p
+  (λ + ρ)− = ( , . . . , − + 1, n − p − 1, . . . , 0, 0, . . . , −n + p + 1, − 1, . . . , − ),
+              2            2                                                      2            2
+                p((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 1, 1, 0, 1, . . . , 0, 1).
+                                         |  {z        }          |    {z        }
+                                                   p−2                  2n−3p−2
+
+GKdim L(λ) = n2 − n − (1 · 1 + 2 · 2 + · · · + (p − 4) · 2) − (p − 1 + p)
+                  − (p + 2 + p + 4 + · · · + 2n − 2p − 2)
+                                               p p−2
+                           (p − 2) · p−2        ·                    (2n − p)(n − 23 p − 1)
+               = n2 − n −             2
+                                         − 4 · 2 2 − 2p + 1 −
+                                 2                2                           2
+                        3 2 1
+              = 2pn − p − p = dim(u).
+                        2      2
+              By Lemma 3.11, MI (λ) is irreducible.
+            So far we have proved that z = p2 − n + 2 is the first reducible point when
+         z ∈ Z and 3p < 2n.
+42                               ZHANQIANG BAI AND JING JIANG*
+
+
+               / 21 Z, MI (λ) is irreducible by (6.5).
+      (2) If z ∈
+      (3) If z ∈ 21 + Z and z ≥ p − n, MI (λ) is reducible by (6.6).
+           (a) When z = p2 − n + 32 , we will have
+                                 p 1           p 1 p 1           p 1
+               p(λ + ρ)−
+                       ( 12 )
+                              = ( + , . . . , − + , − , . . . , − − ).
+                                 2 2           2 2 2 2           2 2
+
+                  p          p     p+1            p    2p − 1        2p   2p − 1
+
+
+                p−1        p−1                  p−1      .           p         .
+                                                         .                     .
+                                                         .                     .
+                       →                  99K                   →                  = P (λ).
+                  .          .                     .   p+1            .   p+1
+                  .          .                     .                  .
+                  .          .                     .                  .
+
+                  1          1                    1                  1
+
+
+               So p((λ + ρ)−
+                           ( 21 )
+                                  )ev = (1, 1, 1, . . . , 1, 0, 1).
+                                         |     {z         }
+                                                   p−1
+
+         GKdim L(λ) = n2 − n − (n − p)2 + n − p − (1 + 2 + · · · + p − 2 + p)
+                                                                     (p − 1)(p − 2)
+                        = n2 − n − (n − p)2 + n − p −                               −p
+                                                                           2
+                               3    1
+                        = 2pn − p2 − p − 1 < dim(u).
+                               2    2
+              By Lemma 3.11, MI (λ) is reducible.
+          (b) When z = p2 − n + 12 , we will have
+                                 p 1           p 1 p 1           p 1
+               p(λ + ρ)−
+                       ( 12 )
+                              = ( − , . . . , − − , + , . . . , − + ),
+                                 2 2           2 2 2 2           2 2
+                                 p((λ + ρ)−
+                                          ( 12 )
+                                                 )ev = (1, 1, 1, . . . , 1).
+                                                        |     {z         }
+                                                                 p
+
+              By (6.7), MI (λ) is irreducible.
+          Hence, z = p2 − n + 32 is the first reducible point when z ∈ 12 + Z and
+          3p < 2n.
+    All in all, when 3p < 2n, MI (λ) is reducible if and only if z ∈ ( p2 − n + 23 + Z≥0 ) ∪
+( 2 − n + 2 + Z≥0 ) = p2 − n + 32 + 21 Z≥0 .
+  p
+
+     Finally we completed the proof of our proposition.
+                                                                                              
+
+7. Gelfand-Kirillov dimensions of scalar generalized verma modules
+   Let g be a finite-dimensional complex semisimple Lie algebra. For a maximal
+parabolic subalgebra q = l ⊕ u, if u is abelian, the corresponding scalar general-
+ized Verma module MI (λ) will be called Hermitian type. These modules are very
+important in the calssification of unitary highest weight moudles, see for example
+[7, 9].
+   We use L(zξp ) to denote the irreducible quotient of the scalar generalized Verma
+module MI (zξp ). In this section, we will give the specific Gelfand-Kirillov dimen-
+sions of highest weight moudles L(zξp ).
+                            GKDIM AND REDUCIBILITY                             43
+
+
+Proposition 7.1. Let g = sl(n, C). Denote r = min{p, n − p}. Then
+                          
+                           p(n − p) if z < 1 − r or z ∈/Z
+         GKdim L(zξp ) =     k(n − k) if z = −k ∈ Z, 1 ≤ k ≤ r − 1
+                          
+                             0         if z ∈ Z≥0 .
+Proof. This is a direct corollary of Lemma 4.2.                                
+
+   From [8], we know that the highest weight module L(−kξp ) is the k-th Wallach
+representation of SU (p, q) for 1 ≤ k ≤ r − 1, which is unitary.
+Proposition 7.2. Let g = so(2n + 1, C). Then we have
+   (1) If p = 1, then
+
+                        
+                                                               / 12 Z
+                         2n − 1 if z < 23 − n or z ∈ Z<0 or z ∈
+                                        3
+        GKdim L(zξ1 ) =   2n − 2 if z = 2 − n + k, k ∈ Z≥0
+                        
+                          0      if z ∈ Z≥0 .
+  (2) If 2 ≤ p ≤ n − 1, then
+       (a) When 3p ≥ 2n + 1 and p is odd, we have
+               
+               
+                 0                                     if z ∈ Z≥0
+               
+               
+               
+                 2np − 32 p2 + p2                      if z < 21 − n + p2 or z ∈/ 21 Z
+               
+                k(2n − 2k + 1)
+                                                       if z = −k, 1 ≤ k ≤ n − p
+GKdimL(zξp ) =    2np − 2p2 + 2kp − 2k 2 + n            if z = p − n − k, 1 ≤ k ≤ n − p
+                  2np − 2p2 + 2kp − 2k 2 + k            if z = p − n − k, n − p < k ≤ p−1
+               
+               
+               
+                                                                                        2
+                  2np − 2p2                             if z = −k − 12 , k < n − p
+               
+               
+               
+               
+                                                        if z = p − n − k − 21 , 0 ≤ k ≤ p−3
+               
+                  2np − 2p2 + k(2p − 2k − 3) + 2p − 1                                    2 .
+
+      (b) When p is even, we have
+               
+               
+                0                                      if z ∈ Z≥0
+                     − 32 p2 + 21 p                     if z < 1 − n + p2 or z ∈/ 12 Z
+               
+               
+               
+                2np
+               
+               
+               
+                k(2n − 2k + 1)                         if z = −k, p ≥ k and 1 ≤ k ≤ n − p
+               
+                 p(2n − 2p + 1)                         if z = −k, p < k ≤ n − p
+GKdimL(zξp ) =
+               
+                2np − 2p2 + 2kp − 2k 2 + n             if z = p − n − k, k < p2 and 1 ≤ k ≤ n − p
+                 2np − 2p2 + 2kp − 2k 2 + k             if z = p − n − k, n − p < k ≤ p2 − 1
+               
+               
+               
+               
+                 2np − 2p2                              if z = −k − 21 , k < n − p
+               
+               
+               
+               
+                                                        if z = p − n − k − 21 , 0 ≤ k ≤ p−4
+               
+                 2np − 2p2 + k(2p − 2k − 3) + 2p − 1                                     2 .
+
+      (c) When 3p < 2n + 1 and p is odd, we have
+               
+               
+                0                                      if z ∈ Z≥0
+               
+               
+               
+                2np − 32 p2 + p2                       if z < 1 − n + p2 or z ∈/ 12 Z
+               
+                k(2n − 2k + 1)                         if z = −k, p ≥ k and 1 ≤ k ≤ n − p
+               
+               
+                p(2n − 2p + 1)                         if z = −k, p < k ≤ n − p
+GKdimL(zξp ) =
+               
+                2np − 2p2 + 2kp − 2k 2 + n             if z = p − n − k, 1 ≤ k ≤ 2p − n
+                 2np − 2p2 + (2k + 1)(p − k)            if z = p − n − k, 2p − n < k ≤ p−3
+               
+               
+               
+                                                                                         2
+                 2np − 2p2                              if z = −k − 12 , k < n − p
+               
+               
+               
+               
+                                                        if z = p − n − k − 21 , 0 ≤ k ≤ p−3
+               
+                 2np − 2p2 + k(2p − 2k − 3) + 2p − 1                                     2 .
+
+   (3) If p = n, then
+44                            ZHANQIANG BAI AND JING JIANG*
+
+
+         (a) When n is even, we have
+                      1 2 1
+                      2n + 2n        if z < 2 − n or z ∈
+                                                        /Z
+     GKdim L(zξn ) =   k(2n − 2k + 1) if z = −2k or − 2k + 1, 1 ≤ k ≤ n−2
+                                                                       2
+                     
+                       0              if z ∈ Z≥0 .
+         (b) When n is odd, we have
+                      1 2 1
+                      2n + 2n        if z < 1 − n or z ∈
+                                                        /Z
+     GKdim L(zξn ) =   k(2n − 2k + 1) if z = −2k or − 2k + 1, 1 ≤ k ≤ n−1
+                                                                       2
+                     
+                       0              if z ∈ Z≥0 .
+Proof. Some details of the arguments can be found in the proof of Proposition 5.1.
+First we consider the case p = 1.
+    (1) If z ∈ Z, we know that z = 0 is the first reducible point by Proposition 5.1.
+        And GKdimL(zξ1 ) = 0 when z ∈ Z≥0 . So GKdimL(zξ1 ) = dim(u) = 2n−1
+        when z ∈ Z<0 .
+    (2) If z ∈ 23 − n + Z≥0 , we have the follows.
+         (a) When z = 32 − n, we will have GKdim L(λ) = 2n − 2 from the proof
+              the Proposition 5.1.
+         (b) When z = 23 − n + k (k ≥ 1), we will have
+                                  1      3      1 1         3                 1
+           (λ + ρ)− = (z + n − , n − , . . . , , − , . . . , − n, −z − n + ),
+                                  2      2      2 2         2                 2
+                                                 1             1
+                          (λ + ρ)−(0) = (z + n − 2 , −z − n + 2 ).
+
+               Since z + n − 12 > −z − n + 21 , we get
+                                          X
+          p((λ + ρ)−
+                   (0) )odd
+                            = (0, 1) and     (i − 1)p((λ + ρ)−(1)
+                                                                  )odd = (n − 1)2 .
+                                                                       2
+                                              i≥1
+
+               So
+                       GKdim L(λ) = n2 − (n − 1)2 − (0 · 0 + 1 · 1)
+                                       = 2n − 2.
+     Thus, we completed the proof of this case.
+
+     Now we consider the case p = n.
+     We can get from the previous calculation that ξ = ( 12 , 21 , . . . , 21 ).
+      (1) n is even. From Proposition 5.1, we know z = 2 − n is the first reducible
+          point for MI (zξn ).
+           (a) When z = 2 − n, we will have
+                            1   1        3 1 1        3               1 1
+               (λ + ρ)− = ( n + , . . . , − n, n − , . . . , − − n),
+                            2   2        2 2 2        2               2 2
+                           p((λ + ρ)− )odd = (1, 1, . . . , 1, 0, 1, 0, 1).
+                                              | {z }
+                                                     n−2
+
+                       2
+     GKdim L(λ) = n − (1 · 1 + 2 · 1 + · · · + (n − 3) · 1 + (n − 1) · 1 + (n + 1) · 1)
+                    = n2 − (1 + 2 + · · · + n − 3) − 2n
+                             (n − 2)(n − 3)       1    1
+(7.3)               = n2 −                  − 2n = n2 + n − 3.
+                                   2              2    2
+                                GKDIM AND REDUCIBILITY                               45
+
+
+        (b) When z = 3 − n, we will have
+                          1                  1 1                    1
+              (λ + ρ)− = ( n + 1, . . . , 2 − n, n − 2, . . . , −1 − n),
+                          2                  2 2                    2
+
+                     p((λ + ρ)− )odd = (1, 1, . . . , 1, 1, 0, 1, 0, 1, 0)
+                                        | {z }
+                                                  n−3
+                                         = (1, 1, . . . , 1, 0, 1, 0, 1).
+                                            | {z }
+                                                  n−2
+
+             By (7.3), GKdim L(λ) = 21 n2 + 12 n − 3.
+         (c) When z = 4 − n, we will have
+                         1   3         5 1 1    5           3 1
+             (λ + ρ)− = ( n + , . . . , − n, n − , . . . , − − n),
+                         2   2         2 2 2    2           2 2
+                     p((λ + ρ)− )odd = (1, 1, . . . , 1, 0, 1, . . . , 0, 1).
+                                        | {z } |                {z        }
+                                                  n−4                8
+
+
+           GKdim L(λ) = n2 − (1 · 1 + 2 · 1 + · · · + (n − 5) · 1) − 4n
+                          = n2 − (1 + 2 + · · · + n − 5) − 4n
+                             (n − 4)(n − 5)       1    1
+(7.4)                     = n2 −            − 4n = n2 + n − 10.
+                                     2            2    2
+        (d) When z = 5 − n, we will have
+                     p((λ + ρ)− )odd = (1, 1, . . . , 1, 1, 0, . . . , 1, 0)
+                                        | {z } |                {z        }
+                                                  n−5               10
+                                         = (1, 1, . . . , 1, 0, 1, . . . , 0, 1).
+                                            | {z } |                {z        }
+                                                  n−4                8
+
+             By (7.4), GKdim L(λ) = 21 n2 + 12 n − 10.
+         (e) when z = −2 or −1
+             GKdim L(λ) = 2n − 1.
+             So far, we have calculated all the GKdim L(λ), it is not difficult to find
+             the law.
+    (2) n is odd. From Proposition 5.1, we know z = 1 − n is the first reducible
+        point for MI (zξn ).
+           The process is similar to the case when n is even, so we can get that
+                     1 2 1
+                     2n + 2n            if z < 1 − n or z ∈
+                                                           /Z
+    GKdim L(λ) =       k(2n − 2k + 1) if z = −2k or − 2k + 1, 1 ≤ k ≤ n−1     2
+                    
+                       0                 if z ∈ Z≥0 .
+  Now we consider the case when p is odd and 3p ≥ 2n + 1.
+    (1) When z ∈ Z, z = 21 − n + p2 is the first reducible point of MI (zξp ) by
+        Proposition 5.1. We will have the follows.
+        (a) When z ∈ Z ≥ 0, we will have GKdim L(λ) = 0 by Proposition 5.1.
+        (b) When z = −1, we will have
+                               3                 1         1 1
+                   λ + ρ = (n − , . . . , n − p − , n − p − , ).
+                               2                 2         2 2
+46                             ZHANQIANG BAI AND JING JIANG*
+
+
+              So p((λ + ρ)− )odd = (1, 1, 0, 1, . . . , 0, 1).
+                                          |      {z        }
+                                                    2n−4
+                          X
+ GKdim L(λ) = n2 −              (i − 1)p((λ + ρ)− )odd
+                                                   i
+                          i≥1
+
+                = n2 − (0 · 1 + 1 · 1 + 2 · 0 + 3 · 1 + · · · + (2n − 4) · 0 + (2n − 3) · 1)
+(7.5)           = n2 − n2 + 2n − 1 = 2n − 1 < dim(u).
+          (c) When z = −2, we have p((λ + ρ)− ) = (24 , 12n−8 ).
+              So p((λ + ρ)− )odd = (1, 1, 1, 1, 0, 1, . . . , 0, 1).
+                                                |      {z        }
+                                                          2n−8
+                                 X
+        GKdim L(λ) = n2 −              (i − 1)p((λ + ρ)− )odd
+                                                          i
+                                 i≥1
+                           2
+                      = n − (1 · 1 + 2 · 1 + 3 · 1 + 5 · 1 + · · · + (2n − 4 − 1) · 1)
+(7.6)                 = n2 − 2 − (n − 2)2 = 4n − 6 < dim(u).
+          (d) When z = −k, 1 ≤ k ≤ n − p, we have
+                                 p((λ + ρ)− ) = (22k , 12n−4k ),
+              and GKdim L(λ) = 2k(n − k + 21 ).
+          (e) When z = −(n − p) − k, 1 ≤ k ≤ n − p, we have
+                       p((λ + ρ)− ) = (32k , 22n−2p−2k , 14p−2k−2n ).
+              So GKdim L(λ) = 2np − 2p2 + 2kp − 2k 2 + n.
+          (f) When z = −(n − p) − k, 1 + n − p ≤ k ≤ p−1
+                                                      2 , we have
+
+                       p((λ + ρ)− ) = (32n−2p , 22k−2n+2p , 12p−4k ).
+              So GKdim L(λ) = 2np − 2p2 + 2kp − 2k 2 + k.
+          (g) When z = 12 − n + p2 , we will have
+            p           p            1         1 1                    1 p              p
+(λ + ρ)− = ( , . . . , − + 1, n − p − , . . . , , − , . . . , −n + p + , − 1, . . . , − ).
+            2           2            2         2 2                    2 2              2
+              So p((λ + ρ)− )odd = (1, 2, . . . , 1, 2, 1, . . . , 1 , 0, 1).
+                                    |      {z        } | {z }
+                                              2n−2p        3p−2n−1
+             GKdim L(λ) = 2np − 32 p2 + p2 − 1.
+     (2) When z ∈/ 12 Z, MI (λ) is irreducible.
+     (3) When z ∈ 21 + Z, z = 1 − n + p2 is the first reducible point of MI (zξp ) by
+         Proposition 5.1. We will have the follows.
+         (a) When z ≥ − 21 , we will have GKdim L(λ) = n2 − p2 − (n − p)2 =
+             2np − 2p2 .
+         (b) When z = − 23 , we will have
+                                        1         1 1                    1
+(7.7)           (λ + ρ)−
+                       ( 21 )
+                              = (n − p − , . . . , , − , . . . , −n + p + ),
+                                        2         2 2                    2
+
+(7.8)        (λ + ρ)(0) = (n − 2, . . . , n − p − 1, −n + p + 1, . . . , −n + 2).
+              We divide the discussion into two cases:
+                              GKDIM AND REDUCIBILITY                                             47
+
+
+            (i) p = n − 1. We will have
+                                                     2p−2
+                              p((λ + ρ)−
+                                       (0) ) = (2, 1      ),
+
+                                       odd
+                         p((λ + ρ)−
+                                  (0) )    = (0, 1, . . . , 0, 1).
+                                              |      {z        }
+                                                         2p−2
+
+                GKdim L(λ) = 2np − 2p2 + 2p − 1.
+           (ii) p < n − 1. We will have
+                                       odd
+                         p((λ + ρ)−
+                                  (0) )    = (0, 1, . . . , 0, 1).
+                                              |      {z        }
+                                                           2p
+
+               GKdim L(λ) = 2np − 2p2 .
+         In general, when z = −k − 12 , we have
+
+                     GKdim L(λ) = 2np − 2p2 if k < n − p.
+         And
+                       2p+2k+1−2n 4n−2p−4k−2                                             p+3
+   p((λ + ρ)−
+            (0) ) = (2           ,1          ) if n − p ≤ k ≤ n −                            .
+                                                                                          2
+         So GKdim L(λ) = 2np − 2p2 + (k − n + p)(2n − 2k − 3) + 2p − 1. In
+         other words, when z = −(n − p) − k − 12 with 0 ≤ k ≤ p−3
+                                                               2 , we have
+
+           GKdim L(λ) = 2np − 2p2 + k(2p − 2k − 3) + 2p − 1.
+
+
+Next we consider the case when p is even.
+ (1) When z ∈ Z, z = 1 − n + p2 is the first recucible point of MI (zξp ) by
+     Proposition 5.1. We have the follows.
+     (a) When z ≥ 0, we will have GKdim L(λ) = 0.
+     (b) When z = −1, we have GKdim L(λ) = 2n − 1 since (7.5).
+      (c) When z = 1 − n + p2 , we divide the discussion into three cases:
+           (i) 3p ≤ 2n − 2. We have
+           p((λ + ρ)− )odd = (1, 2, . . . , 1, 2, 1, 1, 1, 1, 0, 1, . . . , 0, 1).
+                              |      {z        }              |      {z        }
+                                          p−2                        2n−3p−2
+
+                GKdim L(λ) = 2np − 32 p2 + p2 − 1.
+           (ii) n = p + 1 and p > 2. We have
+               p((λ + ρ)− )odd = (1, 2, 1, 1, . . . , 1, 0, 1, . . . , 0, 1).
+                                        | {z } |                {z        }
+                                                 2n−p−6         2p−2n+6
+
+                 GKdim L(λ) = 2np − 32 p2 + 21 p − 3.
+          (iii) 3p ≥ 2n and n 6= p + 1. We have
+          p((λ + ρ)− )odd = (1, 2, . . . , 1, 2, 1, 1, . . . , 1, 0, 1, . . . , 0, 1).
+                             |      {z        } | {z } |                 {z        }
+                                         p−2          2n−3p+2         3p−2n+2
+
+                 GKdim L(λ) = 2np − 32 p2 − 3p     13
+                                             2 +n− 4 .
+48                         ZHANQIANG BAI AND JING JIANG*
+
+
+          (d) When z = −n + p2 , we will have
+          p 1           p 1      1         1 1                 1 p 1           p 1
+(λ+ρ)− = ( − , . . . , − + , n−p− , . . . , , − , . . . , −n+p+ , − , . . . , − + ).
+          2 2           2 2      2         2 2                 2 2 2           2 2
+
+                                          3      p
+                     GKdim L(λ) = 2np − p2 + = dim(u).
+                                          2      2
+           (e) When p ≥ k, z = −k, 1 ≤ k ≤ n − p, we have
+                              p((λ + ρ)− ) = (22k , 12n−4k ),
+               and GKdim L(λ) = 2k(n − k + 12 ).
+           (f) When z = −(n − p) − k, 1 ≤ k ≤ n − p, we have
+                      p((λ + ρ)− ) = (32k , 22n−2p−2k , 14p−2k−2n ),
+              and GKdim L(λ) = 2np − 2p2 + 2kp − 2k 2 + n.
+          (g) When z = −(n − p) − k, 1 + n − p ≤ k ≤ p2 − 1, we have
+                      p((λ + ρ)− ) = (32n−2p , 22k−2n+2p , 12p−4k ),
+              and GKdim L(λ) = 2np − 2p2 + 2kp − 2k 2 + k.
+          (h) When p < k, z = −k, p < k ≤ n − p, we have
+                              p((λ + ρ)− ) = (22p , 12n−4p ),
+               and GKdim L(λ) = p(2n − 2p + 1).
+           (i) When z < 1 − n + p2 , we have
+                                                   3     1
+                          GKdim L(λ) = 2np − p2 + p.
+                                                   2     2
+                 / 12 Z, MI (λ) is irreducible, so we have
+      (2) When z ∈
+                                                  3       1
+                           GKdim L(λ) = 2np − p2 + p.
+                                                  2       2
+      (3) When z ∈ 21 + Z, z = 23 − n + p2 is the first recucible point of MI (zξp ) by
+          Proposition 5.1. We have the follows.
+          (a) When z ≥ − 21 , we will have
+                 GKdim L(λ) = n2 − (1 + 3 + · · · + 2p − 1) − (n − p)2
+                              = n2 − p2 − n2 + 2np − p2
+(7.9)                         = 2np − 2p2 .
+          (b) In general, when z = −k − 21 , we have
+                        GKdim L(λ) = 2np − 2p2 if k < n − p.
+           (c) When z = −(n − p) − k − 12 , 0 ≤ k ≤ p−4
+                                                     2 , we have
+                                          2p+2k+1−2n 4n−2p−4k−2
+                      p((λ + ρ)−
+                               (0) ) = (2           ,1          ).
+               So GKdim L(λ) = 2np − 2p2 + k(2p − 2k − 3) + 2p − 1.
+
+     Finally we consider the case when p is odd and 3p < 2n + 1.
+      (1) When z ∈ Z, z = 32 − n + p2 is the first recucible point of MI (zξp ) by
+          Proposition 5.1. We have the follows.
+                              GKDIM AND REDUCIBILITY                                     49
+
+
+    (a) When z ∈ Z≥0 , we will have
+        GKdim L(λ) = 0.
+    (b) When z = −1, we will have
+        GKdim L(λ) = 2n − 1.
+    (c) When z = 32 − n + p2 , we will have
+                        p             p            1         1
+              λ + ρ = ( + 1, . . . , − + 2, n − p − , . . . , ).
+                        2             2            2         2
+         Since p is odd, we have the follows.
+           (i) When 3p = 2n − 1, we will have
+                p((λ + ρ)−
+                         (0) )
+                              odd
+                                  = (1, 2, . . . , 1, 2, 1, 1, 1, 1, 0, 1).
+                                     |      {z        }
+                                                p−3
+
+                 GKdim L(λ) = 2np − 23 p2 + p2 − 4.
+           (ii) When 3p < 2n − 1, we will have
+                      odd
+        p((λ + ρ)−
+                 (0) )    = (1, 2, . . . , 1, 2, 1, 1, 1, 1, 1, 1, 0, 1, . . ., 0, 1).
+                             |      {z        }                    |      {z       }
+                                       p−3                             2n−3p−3
+
+                 GKdim L(λ) = 2np − 32 p2 + p2 − 3.
+    (d) In general, when p ≥ k, z = −k, 1 ≤ k ≤ n − p, we have
+                             p(λ + ρ)− = (22k , 12n−2k ),
+         and GKdim L(λ) = k(2n − 2p + 1).
+     (e) When z = −k, p < k ≤ n − p, we have
+                             p(λ + ρ)− = (22p , 12n−2p ),
+         and GKdim L(λ) = p(2n − 2p + 1).
+     (f) When p ≥ n − p + k, z = −(n − p) − k, 1 ≤ k ≤ 2p − n, we have
+                   p(λ + ρ)− = (32k , 22n−2p−2k , 14p−2n−2k ),
+        and GKdim L(λ) = 2np − 2p2 − 2k 2 + 2kp + n.
+    (g) When p < n − p + k, z = −(n − p) − k, 2p − n < k ≤ p−3
+                                                            2 , we have
+
+                     p(λ + ρ)− = (32k , 22p−4k , 1−4p+2n+2k ),
+        and GKdim L(λ) = 2np − 2p2 − 2k 2 + 2kp + p − k.
+    (h) When z = −(n − p) − k, p − 3 < 2k, equivalently z < p+3
+                                                             2 − n, we have
+
+                              p(λ + ρ)− = (3p , 12n−3p ),
+        and GKdim L(λ) = 2np − 32 p2 + 21 p.
+(2) When z ∈ 21 + Z, z = 1 − n + p2 is the first recucible point of MI (zξp ) by
+    Proposition 5.1. We have the follows.
+    (a) When z ≥ − 21 , by (7.9) we have GKdim L(λ) = 2np − 2p2 .
+    (b) When z = 1 − n + p2 , we will have
+                         p 1               p 3 p 3                   p 1
+          (λ + ρ)−
+                 (0) = ( 2 + 2 , . . . , − 2 + 2 , 2 − 2 , . . . , − 2 − 2 ),
+
+                                  odd
+                    p((λ + ρ)−
+                             (0) )    = (1, 1, . . . , 1, 1, 0, 1, 0).
+                                         | {z }
+                                    p−2
+                            3 2   p
+         GKdim L(λ) = 2np − 2 p + 2 − 1 = dim(u) − 1.
+50                          ZHANQIANG BAI AND JING JIANG*
+
+
+          (c) In general, when z = −k − 21 , we have
+
+                          GKdim L(λ) = 2np − 2p2 if k < n − p.
+
+         (d) When z = −(n − p) − k − 12 , 0 ≤ k ≤ p−3
+                                                   2 , we have
+
+                                        2p+2k+1−2n 4n−2p−4k−2
+                    p((λ + ρ)−
+                             (0) ) = (2           ,1          ).
+
+              So GKdim L(λ) = 2np − 2p2 + k(2p − 2k − 3) + 2p − 1.
+                                                                                     
+
+   From [8], we know that the highest weight module L(−(n − 32 )ξ1 ) is the unique
+Wallach representation of SO(2, 2n − 1), which is unitary.
+   For type Bn , we have given the detailed arguments for the calculations in the
+case when 2 ≤ p ≤ n − 1. Now we omit some similar arguments for types Cn and
+Dn .
+
+Proposition 7.10. Let g = so(2n, C) and L(zξp ) be a scalar highest weight module.
+Then we have the follows.
+     (1) If p = 1, then
+
+                                
+                                 2n − 2       if z < 2 − n or z ∈
+                                                                 /Z
+                GKdim L(zξ1 ) =   2n − 3       if 2 − n ≤ z ≤ −1
+                                
+                                  0            if z ∈ Z≥0 .
+
+     (2) If 2 ≤ p ≤ n − 2, then
+          (a) When 3p ≥ 2n and p is even, we have
+               
+               
+                0                                               if z ∈ Z≥0
+                     − 23 p2 − 21 p                              if z < 1 + p2 − n or z ∈/ 12 Z
+               
+               
+               
+                2np
+                2nk − 2k 2 − k
+               
+                                                                if z = −k, 1 ≤ k < n − p
+GKdimL(zξp ) =   2np − 2p2 + k(2p − 2k − 2) + n − p − 1          if z = p − n − k, 0 ≤ k < n − p
+                 2np − 2p2 + k(2p − 2k − 1)                      if z = p − n − k, n − p ≤ k < p2
+               
+               
+               
+               
+                 2np − 2p2                                       if z = −k + 12 , k ≤ n − p
+               
+               
+               
+               
+                                                                 if z = p − n − k − 21 , 0 ≤ k ≤ p−4
+               
+                 2np − 2p2 + k(2p − 2k − 5) + 2p − 3                                              2 .
+
+         (b) When p is odd, we have
+                  
+                   0                                        if z ∈ Z≥0
+                  
+                  
+                  
+                   2np − 23 p2 − 12 p                       if z < 3+p
+                                                                      2
+                                                                        − n or z ∈ / 21 Z
+                  
+                  
+                   2nk − 2k2 − k                            if z = −k, k < n − p and 1 ≤ k ≤ p
+                  
+                   2np − 2p2 − p
+                                                            if z = −k, p < k < n − p
+GKdim L(zξp ) =       2np − 2p2 + k(2p − 2k − 3) + p − 1     if z = p − n − k, max{0, 2p − n} < k ≤ p−3
+                                                                                                     2
+                  
+                  
+                   2np − 2p2 + k(2p − 2k − 2) + n − p − 1   if z = p − n − k, k ≤ 2p − n and 0 ≤ k < n − p
+                  
+                  
+                  
+                   2np − 2p2 + k(2p − 2k − 1)               if z = p − n − k, n − p ≤ k ≤ p−32
+                            2
+                   2np − 2p
+                  
+                                                            if z = −k + 21 , k ≤ n − p
+                      2np − 2p2 + k(2p − 2k − 5) + 2p − 3    if z = p − n − k − 21 , 0 ≤ k ≤ p−5
+                                                                                              2
+                                                                                                 .
+                                   GKDIM AND REDUCIBILITY                                             51
+
+
+      (c) When 3p < 2n and p is even, we have
+               
+               
+                0                                                              if z ∈ Z≥0
+                     − 32 p2 − 21 p                                             if z < 3+p            / 21 Z
+               
+                 2np                                                                     2 − n or z ∈
+               
+               
+               
+                 2nk − 2k 2 − k
+               
+               
+               
+                                                                               if z = −k, 1 ≤ k < n − p and k < p
+                 2np − 2p2 − p
+               
+                                                                                if z = −k, p ≤ k < n − p
+GKdimL(zξp ) =
+               
+                2np − 2p2 + k(2p − 2k − 2) + n − p − 1                         if z = p − n − k, 0 ≤ k ≤ 2p − n
+                                                                                if z = p − n − k, 2p − n < 0 ≤ k ≤ p−3
+               
+               
+               
+                2np − 2p2 + k(2p − 2k − 3) + p − 1                                                                  2
+                                                                                if z = −k + 12 , k ≤ n − p
+               
+               
+               
+                2np − 2p2
+               
+                 2np − 2p2 + k(2p − 2k − 5) + 2p − 3                            if z = p − n − k − 21 , 0 ≤ k ≤ p−4
+                                                                                                                 2 .
+   (3) If p = n − 1 or p = n, then
+        (a) When n is even, we have
+                     1 2 1
+                     2n − 2n         if z < 2 − n or z ∈
+                                                        /Z
+   GKdim L(zξp ) =     k(2n − 2k − 1) if z = −2k or − 2k + 1, 1 ≤ k ≤ n−2
+                                                                       2
+                    
+                       0              if z ∈ Z≥0 .
+       (b) When n is odd, we have
+                    1 2 1
+                    2n − 2n        if z < 3 − n or z ∈
+                                                      /Z
+   GKdim L(zξp ) =   k(2n − 2k − 1) if z = −2k or − 2k + 1, 1 ≤ k ≤ n−3
+                                                                     2
+                   
+                     0              if z ∈ Z≥0 .
+Proof. The details of the arguments for the case p = 1 can be found in the proof
+of Proposition 5.9.
+   Now we consider the case p = n. From Proposition 5.9, z = 12 − n2 is the first
+reducible point of MI (zξn ).
+    (1) When z = 12 − n2 , we will have GKdim L(λ) = 12 n2 + 12 n − 1.
+    (2) When z = 1 − n2 , we will have
+           p((λ + ρ)− )odd = (1, . . . , 1, 1, 0, 1, 0, 1, 0) = (1, . . . , 1, 0, 1, 0, 1).
+                              | {z }                             | {z }
+                                      n−3                               n−2
+
+       By (5.10), GKdim L(λ) = 21 n2 + 12 n − 3.
+   (3) When z = 32 − n2 , we will have
+                           3 n           n 5 n 5           n 3
+               (λ + ρ)− = ( + , . . . , − + , − , . . . , − − ),
+                           2 2           2 2 2 2           2 2
+      p((λ + ρ)− )ev = (1, . . . , 1, 1, 0, 1, 0, 1, 0, 1, 0) = (1, . . . , 1, 0, 1, 0, 1, 0, 1).
+                        | {z }                                   | {z }
+                                n−4                                     n−3
+
+       GKdim L(λ) = 21 n2 + 21 n − 6.
+   (4) When z = 2 − n2 , we will have
+      p((λ + ρ)− )ev = (1, . . . , 1, 1, 0, . . . , 1, 0) = (1, . . . , 1, 0, 1, 0, 1, 0, 1, 0, 1).
+                        | {z } |             {z        }     | {z }
+                                n−5            10                 n−4
+
+       GKdim L(λ) = 12 n2 + 21 n − 10.
+   (5) When z = −2, we will have
+                          p((λ + ρ)− )odd = (1, 1, 1, 1, 0, . . . , 1, 0).
+                                                      |      {z        }
+                                                                 2n−6
+
+       GKdim L(λ) = 4n − 6.
+52                          ZHANQIANG BAI AND JING JIANG*
+
+
+  In general, we find that GKdim L(λ) = kn − k(k−1)
+                                                 2   if z = − k2 for 1 ≤ k ≤ n − 1.
+                1                          1
+  When z = − 2 + k, z = k (k ≥ 0) and z ∈/ 2 Z, we have obtained GKdim L(λ) in
+Proposition 5.9.
+
+   For the case 2 ≤ p ≤ n − 1, we only consider the case when 3p ≤ 2n and p is
+even.
+    (1) When z ∈ Z, z = p2 −n is the first reducible point of MI (zξp ) by Proposition
+        5.9. We have the follows.
+         (a) When z > −1, we have
+                                    GKdim L(λ) = 0.
+         (b) When z = −1, we have
+                                 GKdim L(λ) = 2n − 1.
+         (c)   When z = p2 − n + 1, we will have
+              p              p                                          p              p
+ (λ + ρ)− = ( + 1, . . . , − + 2, n − p, . . . , 1, −1, . . . , −n + p, − 2, . . . , − − 1),
+              2              2                                          2              2
+             and
+                                                     3        1
+                         GKdim L(λ) = 2np − p2 + p − 1.
+                                                     2        2
+        (d) When z = p2 − n, we will have
+                  p          p                                          p              p
+     (λ + ρ)− = ( , . . . , − + 1, n − p, . . . , 1, −1, . . . , −n + p, − 1, . . . , − ),
+                  2          2                                          2              2
+             and
+                                                       3         1
+                            GKdim L(λ) = 2np − p2 + p.
+                                                       2         2
+           In general, we can have the follows.
+         (a) When z = −k, n − p ≥ k − 1 and p ≥ k > 0, we have
+                             p(λ + ρ)− = (22k−1 , 12n−4k+2 ),
+             and GKdim L(λ) = k(2n − 2k + 1).
+         (b) When z = −k, n − p ≥ k − 1 and p < k, we have
+                               p(λ + ρ)− = (22p , 12n−4p ),
+             and GKdim L(λ) = p(2n − 2p + 1).
+         (c) When z = −2k, n − p ≤ 2(k − 1) and p ≥ 2k, we have
+                   p(λ + ρ)− = (34k−2n+2p−2 , 24n−4p−4k+3 , 12p−4k ),
+               and GKdimL(λ) = 2n(4k+2p−n)−2(2k+p2)+4k(p+1)−3(n−p)−1.
+               If we write z = −(n − p) − k ∈ 2Z, 2 ≤ k ≤ 2p − n, we will have
+               GKdim L(λ) = 2np − 2p2 + k(2p − 2k − 2) − 5(n − p) − 1.
+         (d) When z = −2k − 1, n − p + 1 ≤ 2k and p ≥ 2k + 1, we have
+                   p(λ + ρ)− = (34k−2n+2p , 24n−4p−4k+1 , 12p−4k−2 ),
+               and GKdim L(λ) = (2k + p)(4n − 4k − 2p) + (p − 1)(4k + 1) − n(2n − 1).
+               If we write z = −(n − p) − k ∈ 1 + 2Z, 2 ≤ k ≤ 2p − n, we will have
+               GKdim L(λ) = 2np − 2p2 + k(2p − 2k + 2) − (n − p) − 1.
+                               GKDIM AND REDUCIBILITY                                 53
+
+
+         (e) When z = −(n − p) − k, 2p − n < k ≤ 21 p, we have
+                     p(λ + ρ)− = (32k−2 , 22p−4k+4 , 12n−4p+2k−2 ),
+             and GKdim L(λ) = 2np − 2p2 + (2k − 1)(p − k) + 2k − 1 = 2np − 2p2 +
+             k(2p − 2k + 3) − p − 1.
+         (f) When z = −(n − p) − k, k ≥ 12 p + 1, we have
+                               p(λ + ρ)− = (3p , 12n−3p ),
+           and GKdim L(λ) = 2np − 32 p2 + 21 p.
+               / 21 Z, we have
+    (2) When z ∈
+(λ+ρ)−
+     (0) = (n−p−1, . . . , 0, 0, . . . , −n+p+1) and (λ+ρ)(z) = (z+n−1, . . . , z+n−p) ∈ [λ]3 .
+
+
+        GKdim L(λ) = n2 − n − (1 + · · · + p − 1) − (2 + · · · + 2n − 2p − 2)
+                                p(p − 1)      (n − p)(n − p − 1)
+                       = n2 − n −         −2·
+                                    2                  2
+                             3 2 1
+                     = 2np − p + p = dim(u).
+                             2      2
+                              p
+    (3) When z ∈ 2 + Z, z = 2 − n + 21 is the first reducible point of MI (zξp ) by
+                   1
+
+        Proposition 5.9. We have the follows.
+        (a) When z ≥ − 23 , we have
+                            GKdim L(λ) = p(2n − 2p + 1).
+         (b)   When z = p2 − n + 12 , we will have
+            p 1           p 3                                       p 3           p 1
+(λ + ρ)− = ( + , . . . , − + , n − p, . . . , 1, −1, . . . , −n + p, − , . . . , − − ).
+            2 2           2 2                                       2 2           2 2
+            So
+                                                 3        1
+                       GKdim L(λ) = 2np − p2 + p − 1.
+                                                 2        2
+          In general, we have the follows.
+        (a) When z = −k − 21 , k ≤ n − p, we have
+                            GKdim L(λ) = p(2n − 2p + 1).
+         (b) When z = −k − 21 , k ≥ n − p + 1 and n ≤ 21 p + k, we have
+                                             3    1
+                           GKdim L(λ) = 2np − p2 + p.
+                                             2    2
+         (c) When z = −(n − p) − k − 21 , 1 ≤ k ≤ p−2
+                                                   2 , we have
+
+                        p(λ + ρ)−
+                                (1)
+                                    = (22k−2n+2p , 14n−4k−2p ),
+                                  2
+
+               and GKdim L(λ) = 2np − 2p2 + (p − k)(2k + 1) = 2np − 2p2 + k(2p −
+               2k − 1) + p.
+                                                                               
+   From [8], we know that the highest weight module L(− k2 ξn ) is the k-th Wallach
+representation of Sp(n, R) for 1 ≤ k ≤ n − 1, which is unitary.
+Proposition 7.11. Let g = so(2n, C) and L(zξp ) be a scalar highest weight module.
+Then we have the follows.
+54                        ZHANQIANG BAI AND JING JIANG*
+
+
+     (1) If p = 1, then
+                                
+                                 2n − 2      if z < 2 − n or z ∈
+                                                                /Z
+                GKdim L(zξ1 ) =   2n − 3      if 2 − n ≤ z ≤ −1
+                                
+                                  0           if z ∈ Z≥0 .
+  (2) If 2 ≤ p ≤ n − 2, then
+       (a) When 3p ≥ 2n and p is even, we have
+               
+               
+                 0                                           if z ∈ Z≥0
+                      − 23 p2 − 21 p                          if z < 1 + p2 − n or z ∈/ 12 Z
+               
+               
+               
+                 2np
+                2nk − 2k 2 − k
+               
+                                                             if z = −k, 1 ≤ k < n − p
+GKdimL(zξp ) =    2np − 2p2 + k(2p − 2k − 2) + n − p − 1      if z = p − n − k, 0 ≤ k < n − p
+                  2np − 2p2 + k(2p − 2k − 1)                  if z = p − n − k, n − p ≤ k < p2
+               
+               
+               
+               
+                  2np − 2p2                                   if z = −k + 12 , k ≤ n − p
+               
+               
+               
+               
+                                                              if z = p − n − k − 21 , 0 ≤ k ≤ p−4
+               
+                  2np − 2p2 + k(2p − 2k − 5) + 2p − 3                                          2 .
+
+      (b) When p is odd, we have
+                
+                 0                                        if z ∈ Z≥0
+                
+                
+                
+                 2np − 23 p2 − 12 p                       if z < 3+p
+                                                                    2
+                                                                      − n or z ∈ / 21 Z
+                
+                
+                 2nk − 2k2 − k                            if z = −k, k < n − p and 1 ≤ k ≤ p
+                
+                 2np − 2p2 − p
+                                                          if z = −k, p < k < n − p
+GKdim L(zξp ) =   2np − 2p2 + k(2p − 2k − 3) + p − 1       if z = p − n − k, max{0, 2p − n} < k ≤ p−3
+                                                                                                   2
+                
+                
+                 2np − 2p2 + k(2p − 2k − 2) + n − p − 1   if z = p − n − k, k ≤ 2p − n and 0 ≤ k < n − p
+                                                                                          p−3
+                
+                
+                 2np − 2p2 + k(2p − 2k − 1)               if z = p − n − k, n − p ≤ k ≤ 2
+                
+                
+                
+                 2np − 2p2                                if z = −k + 21 , k ≤ n − p
+                            2
+                      2np − 2p + k(2p − 2k − 5) + 2p − 3   if z = p − n − k − 21 , 0 ≤ k ≤ p−5
+                                                                                            2
+                                                                                               .
+      (c) When 3p < 2n and p is even, we have
+               
+               
+                0                                            if z ∈ Z≥0
+                     − 32 p2 − 21 p                           if z < 3+p            / 21 Z
+               
+                 2np                                                   2 − n or z ∈
+               
+               
+               
+                 2nk − 2k 2 − k
+               
+               
+               
+                                                             if z = −k, 1 ≤ k < n − p and k < p
+                 2np − 2p2 − p
+               
+                                                              if z = −k, p ≤ k < n − p
+GKdimL(zξp ) =
+               
+                2np − 2p2 + k(2p − 2k − 2) + n − p − 1       if z = p − n − k, 0 ≤ k ≤ 2p − n
+                                                              if z = p − n − k, 2p − n < 0 ≤ k ≤ p−3
+               
+               
+               
+                2np − 2p2 + k(2p − 2k − 3) + p − 1                                                2
+                                                              if z = −k + 12 , k ≤ n − p
+               
+               
+               
+                2np − 2p2
+               
+                 2np − 2p2 + k(2p − 2k − 5) + 2p − 3          if z = p − n − k − 21 , 0 ≤ k ≤ p−4
+                                                                                               2 .
+
+     (3) If p = n − 1 or p = n, then
+          (a) When n is even, we have
+                       1 2 1
+                       2n − 2n         if z < 2 − n or z ∈
+                                                          /Z
+     GKdim L(zξp ) =     k(2n − 2k − 1) if z = −2k or − 2k + 1, 1 ≤ k ≤ n−2
+                                                                         2
+                      
+                         0              if z ∈ Z≥0 .
+         (b) When n is odd, we have
+                      1 2 1
+                      2n − 2n        if z < 3 − n or z ∈
+                                                        /Z
+     GKdim L(zξp ) =   k(2n − 2k − 1) if z = −2k or − 2k + 1, 1 ≤ k ≤ n−3
+                                                                       2
+                     
+                       0              if z ∈ Z≥0 .
+Proof. First we consider the case when p = 1. From Proposition 6.1, MI (λ) is
+irreducible when z < 2 − n and z ∈
+                                 / Z. So we only consider the case when z ∈ Z.
+                                GKDIM AND REDUCIBILITY                        55
+
+
+   (1) When z = 2 − n, we will have
+                   (λ + ρ)− = (1, n − 2, . . . , 0, 0, . . . , 2 − n, −1),
+                      p((λ + ρ)− )odd = (1, 1, 1, 0, 1, . . . , 0, 1).
+                                                  |      {z        }
+                                                 2n−6
+                          2           (n−1)(n−2)
+       GKdim L(λ) = n         −n−1−2·     2      = 2n − 3.
+   (2) When z = 3 − n, we will have
+                   (λ + ρ)− = (2, n − 2, . . . , 0, 0, . . . , 2 − n, −2),
+                      p((λ + ρ)− )odd = (1, 1, 1, 0, 1, . . . , 0, 1).
+                                                  |      {z        }
+                                                 2n−6
+                          2           (n−1)(n−2)
+       GKdim L(λ) = n         −n−1−2·     2      = 2n − 3.
+   (3) When z = −1, similarly we will have
+           GKdim L(λ) = 2n − 3.
+   (4) When z ≥ 0, We can easily get GKdim L(λ) = 0.
+  Finally, combining with Proposition 6.1 we can get the formula of GKdim L(λ)
+when p = 1.
+
+  Now we consider the case when p = n − 1 and p = n.
+   (1) When p = n − 1 and n is even, we have the follows.
+       (a) When z = 2 − n, we will have GKdim L(λ) = 21 n2 − 21 n − 1 from the
+           proof of Proposition 6.1.
+       (b) When z = 3 − n, we will have
+                        n 1          3 1 1               3         1 1
+           (λ + ρ)− = ( + , . . . , − n, n − , . . . , − n − ),
+                        2    2       2 2 2               2         2 2
+                      p((λ + ρ)− )ev = (1, . . . , 1, 1, 0, 1, 0).
+                                        | {z }
+                                        n−2
+                             1 2   1
+             So GKdim L(λ) = 2 n − 2 n − 1.
+         (c) When z = 4 − n, we will have
+                          n                1 1                        1
+              (λ + ρ)− = ( + 1, . . . , 2 − n, n − 2, . . . , − n − 1),
+                          2                2 2                        2
+                     p((λ + ρ)− )ev = (1, . . . , 1, 0, 1, 0, 1, 0, 1).
+                                         | {z }
+                                               n−3
+             So
+                                        1 2 1
+(7.12)                        GKdim L(λ) =n − n − 6.
+                                        2    2
+         (d) When z = 5 − n, we will have
+                         n 3         5 1 1     5          1   3
+             (λ + ρ)− = ( + , . . . , − n, n − , . . . , − n − ),
+                         2   2       2 2 2     2          2   2
+                      p((λ + ρ)− )ev = (1, . . . , 1, 1, 0, . . . , 1, 0)
+                                        | {z } |             {z        }
+                                               n−4             8
+                                        = (1, . . . , 1, 0, 1, 0, 1, 0, 1).
+                                           | {z }
+                                               n−3
+
+             By (7.12), GKdim L(λ) = 21 n2 − 12 n − 6.
+56                             ZHANQIANG BAI AND JING JIANG*
+
+
+            (e) When z = −2 and z = −1, we will have
+                GKdim L(λ) = 2n − 3.
+            (f) When z ≥ 0, we will have
+                GKdim L(λ) = 0.
+              From the above discussion, we can find the formula of GKdim L(λ).
+      (2) When p = n − 1 and n is odd.
+              The process is similar to the case when n is even. We omit this part of
+           the process.
+      (3) When p = n.
+              The process is similar to the case when p = n − 1, whether n is odd or
+           even. We omit this part of the process.
+     If 2 ≤ p ≤ n − 2, we only consider the case when p is odd.
+      (1) When z ∈ Z, z = p2 − n + 32 is the first reducible point of MI (zξp ) by
+           Proposition 6.1. We have the follows.
+            (a) When z ≤ 0, we have GKdim L(λ) = 0.
+            (b) When z = −1, we have GKdim L(λ) = 2n − 3.
+            (c) When z = p2 − n + 32 , we will have
+          p 1           p 1                                      p 1           p 1
+(λ+ρ)− = ( + , . . . , − + , n−p−1, . . . , 0, 0, . . . , −n+p+1, − , . . . , − − ).
+          2 2           2 2                                      2 2           2 2
+           We divide the discussion into three cases:
+            (i) 3p > 2n. We have
+                    p((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 1, . . . , 1 , 1, 0, 1).
+                                         |      {z        } | {z }
+                                                  2n−2p−2        3p−2n−1
+
+                     By (6.4), GKdim L(λ) = 2np − 23 p2 − 21 p − 1.
+                (ii) 2n − 5 < 3p < 2n. We have
+                p((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 1, . . . , 1 , 0, 1, . . . , 0, 1).
+                                     |      {z        } | {z } |               {z        }
+                                                 p−3         2n−3p+1        3p−2n+3
+
+                      So GKdim L(λ) = 2pn − 23 p2 − 2p + n − 25 .
+                (iii) 3p ≤ 2n − 5. We have
+                p((λ + ρ)− )ev = (2, 1, 2, . . . , 1, 2, 1, 1, 1, 1, 0, 1, . . . , 0, 1).
+                                     |      {z        }              |      {z        }
+                                                 p−3                        2n−3p−3
+
+                      So GKdim L(λ) = 2pn − 23 p2 − 21 p − 1.
+          In general, we can have the follows.
+           (a) When z = −k, n − p ≥ k + 1 and 1 ≤ k ≤ p, we have
+                                p(λ + ρ)− = (22k+1 , 12n−4k−2 ),
+              and GKdim L(λ) = k(2n − 2k − 1).
+          (b) When z = −k, n − p ≥ k + 1 and p < k, we have
+                                p(λ + ρ)− = (22p+1 , 12n−4k−2 ),
+               and GKdim L(λ) = p(2n − 2p − 1).
+           (c) When z = −(n − p) − k, 0 ≤ k < n − p and p ≥ n − p + k, we have
+                      p(λ + ρ)− = (4, 32k , 22n−2p−2k−2 , 14p−2k−2n ),
+               and GKdim L(λ) = 2np − 2p2 − 2k(k − p + 1) + n − p − 1.
+                                GKDIM AND REDUCIBILITY                                        57
+
+
+        (d) When z = −(n − p) − k, p−3
+                                    2 ≥ k ≥ n − p, we have
+
+                  p(λ + ρ)− = (4, 32n−2p−2 , 22k+2p−2n+2 , 12p−4k−2 ),
+             and GKdim L(λ) = 2np − 2p2 + k(2p − 2k − 1).
+         (e) When z = −(n − p) − k, max{0, 2p − n} < k ≤ p−3
+                                                          2 , we have
+
+                      p(λ + ρ)− = (4, 32k , 22p−4k−2 , 12n−−4p+2k ),
+          and GKdim L(λ) = 2np − 2p2 + k(2p − 2k − 3) + p − 1.
+              / 12 Z, we have
+   (2) When z ∈
+                                               3       1
+                        GKdim L(λ) = 2np − p2 − p.
+                                               2       2
+   (3) When z ∈ 12 + Z, z = p2 − n + 2 is the first reducible point of MI (zξp ) and
+       we have follows.
+       (a) When z ≥ p − n, we have
+                                GKdim L(λ) = 2np − 2p2 .
+        (b) When z = p2 − n + 2, we have
+                               p              p    p              p
+             (λ + ρ)−( 21 )
+                            = ( + 1, · · · , − + 2, − 2, · · · , − − 1).
+                               2              2    2              2
+            So
+                                                3     1
+                         GKdim L(λ) = 2np − p2 − p − 3.
+                                                2     2
+       In general, we have the follows.
+        (a) When z = −k + 21 , k ≤ n − p, we have GKdim L(λ) = 2np − 2p2 .
+        (b) When z = p − n − k − 12 , 0 ≤ k ≤ p−5       2 , we have GKdim L(λ) =
+            2np − 2p2 + k(2p − 2k − 5) + 2p − 3.
+                                                                               
+    From [8], we know that the highest weight module L(−(n − 2)ξ1 ) is the unique
+Wallach representation of SO(2, 2n − 2), which is unitary. L(−2kξn ) is the k-th
+Wallach representation of SO∗ (2n) for 1 ≤ k ≤ [ n2 ] − 1, which is unitary.
+    The Gelfand-Kirillov dimensions of Wallach representations are also uniformly
+listed in [2, Proposition 4.1].
+
+                                       References
+   [1] Z. Q. Bai and M. Hunziker, The Gelfand–Kirillov dimension of a unitary highest weight
+       module, Sci. China Math. 58, no. 12 (2015), 2489-2498.
+   [2] Z. Q. Bai and W. Xiao, Gelfand-Kirillov dimension and reducibility of scalar generalized
+       Verma modules, Acta Math. Sin. (Engl. Ser.) 35 (2019), no. 11, 1854-1860. 2, 3, 6, 57
+   [3] Z. Q. Bai and W. Xiao, Reducibility of generalized Verma modules for Hermitian sym-
+       metric pairs, J. Pure Appl. Algebra 225 (2021), no. 4, Paper No. 106561, 21 pp. 1
+   [4] Z. Q. Bai, W. Xiao and X. Xie, Gelfand-Kirillov dimensions and associated varieties of
+       highest weight modules, to appear in IMRN, https://doi.org/10.1093/imrn/rnac081. 2, 4,
+       5
+   [5] Z. Q. Bai and X. Xie, Gelfand-Kirillov dimensions of highest weight Harish-Chandra
+       modules for SU(p,q), Int. Math. Res. Not. IMRN 2019, no. 17, 4392-4418. 4, 6
+   [6] W. Borho and J.-L. Brylinski, Differential operators on homogeneous spaces. III. Char-
+       acteristic varieties of Harish-Chandra modules and of primitive ideals, Invent. Math. 80
+       (1985), no. 1, 1-68. 4
+   [7] T. J. Enright and A. Joseph, An intrinsic analysis of unitarizable highest weight modules,
+       Math. Ann. 288 (1990), no. 4, 571-594. 42
+58                             ZHANQIANG BAI AND JING JIANG*
+
+
+      [8] T. J. Enright and M. Hunziker, Resolutions and Hilbert series of determinantal varieties
+          and unitary highest weight modules, J. Algebra 273 (2004), no. 2, 608-639. 43, 50, 53, 57
+      [9] T. J. Enright , R. Howe and N. Wallach, A classification of unitary highest weight modules,
+          in: “Representation Theory of Reductive Groups,” Progress in Math. 40, Birkh¨auser
+          Boston Inc., 97-143 (1983). 1, 6, 42
+     [10] H. He, On the reducibility of scalar generalized Verma modules of abelian type, Algebr.
+          Represent. Theory 19 (2016), no. 1, 147-170. 1, 8, 23
+     [11] H. He, T. Kubo and R. Zierau, On the reducibility of scalar generalized Verma modules
+          associated to maximal parabolic subalgebras, Kyoto J. Math. 59 (2019), no. 4, 787-813.
+          1, 3
+     [12] J. C. Jantzen, Kontravariante Formen auf induzierten Darstellungen halbeinfacher Lie-
+          Algebren, Math. Ann. 226 (1977), no. 1, 53-65. 1
+     [13] A. Joseph, Gelfand-Kirillov dimension for the annihilators of simple quotients of Verma
+          modules, J. London Math. Soc. (2) 18 (1978), no. 1, 50-60. 2
+     [14] A. Joseph, On the associated variety of a primitive ideal, J. Algebra 93 (1985), no. 2,
+          509-523. 4
+     [15] A. W. Knapp, Lie groups beyond an introduction. Second edition. Progress in Mathemat-
+          ics, 140. Birkhäuser Boston, Inc., Boston, MA, 2002. 30, 32
+     [16] T. Kubo, On reducibility criterions for scalar generalized Verma modules associated to
+          maximal parabolic subalgebras, in: Lie Theory and Its Applications in Physics (V. Dobrev
+          (ed.), Springer Proc. Math. Stat. vol. 191, Springer, Tokyo, 465-473, 2016. 1, 8, 23
+     [17] H. Matumoto, The homomorphisms between scalar generalized Verma modules associated
+          to maximal parabolic subalgebras, Duke Math. J. 131 (1) (2006), 75-118. 1
+     [18] K. Nishiyama, H. Ochiai and K. Taniguchi, Bernstein degree and associated cycles of
+          Harish-Chandra modules—Hermitian symmetric case, in: Nilpotent orbits, associated
+          cycles and Whittaker models for highest weight representations. Astérisque No. 273 (2001),
+          13-80.
+     [19] D. A. Vogan, Gelfand-Kirillov dimension for Harish-Chandra modules, Invent. Math. 48
+          (1978), 75-98. 4
+          4
+
+  (Bai) School of Mathematical Sciences, Soochow University, Suzhou 215006, P. R.
+China
+  Email address: zqbai@suda.edu.cn
+
+  (Jiang) School of Mathematical Sciences, Soochow University, Suzhou 215006, P. R.
+China
+  Email address: jjsd6514@163.com
+

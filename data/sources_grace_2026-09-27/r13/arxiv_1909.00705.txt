@@ -1,0 +1,2084 @@
+                                                   ON THE CELLS AND ASSOCIATED VARIETIES OF HIGHEST WEIGHT
+                                                                  HARISH-CHANDRA MODULES
+
+                                                                       ZHANQIANG BAI, YIXIN BAO, ZHAO LIANG AND XUN XIE
+
+
+
+
+arXiv:1909.00705v3 [math.RT] 31 Mar 2025
+                                                   Abstract. Let G be a Hermitian type Lie group with the complexified Lie algebra g. We use L(λ) to
+                                                   denote a highest weight Harish-Chandra G-module with infinitesimal character λ. Let w be an element
+                                                   in the Weyl group W . We use Lw to denote a highest weight module with highest weight −wρ − ρ. In
+                                                   this paper we prove that there is only one Kazhdan–Lusztig right cell such that the corresponding highest
+                                                   weight Harish-Chandra modules Lw have the same associated variety. Then we give a characterization for
+                                                   those w such that Lw is a highest weight Harish-Chandra module and the associated variety of L(λ) will
+                                                   be characterized by the information of the Kazhdan–Lusztig right cell containing some special wλ . We also
+                                                   count the number of those highest weight Harish-Chandra modules Lw in a given Harish-Chandra cell.
+
+
+
+
+                                                                                                 Contents
+                                             1. Introduction                                                                                                     1
+                                             2. Preliminaries                                                                                                    3
+                                             3. Associated varieties of highest weight modules                                                                   5
+                                             4. The case of type An−1                                                                                            9
+                                             5. The case of type Dn                                                                                             12
+                                             6. The cases of type E6 and type E7                                                                                18
+                                             7. The cases of type Bn and type Cn                                                                                25
+                                             References                                                                                                         31
+
+
+
+                                                                                             1. Introduction
+                                              Let g be a finite-dimensional complex simple Lie algebra. In the 1960s, Gelfand and Kirillov [GK66]
+                                           introduced an quantity to measure the size of finitely generated U (g)-modules, which is now known as the
+                                           Gelfand–Kirillov dimension. For a finitely generated U (g)-module M , Bernstein [Ber71] constructed a variety
+                                           V (M ) in g∗ , which is called the associated variety of M . Identifying g∗ with g via the Killing form, the
+                                           associated variety could also be viewed as a variety in g. It is proved that the dimension of V (M ) equals to
+                                           the Gelfand–Kirillov dimension of M . The characterization of associated varieties has risen as a significant
+                                           topic of infinite-dimensional representation theory of Lie algebras and Lie groups in recent years.
+                                              Fix a triangular decomposition g = n ⊕ h ⊕ n̄ so that h is a Cartan subalgebra of g and b = h + n is
+                                           a Borel subalgebra. Let Φ be the root system of (g, h) with the positive system Φ+ and simple system ∆.
+                                           Denote by W the Weyl group of Φ. Let G denote the algebraic adjoint group of g and let B denote the
+                                           Borel subgroup of G corresponding to b. For λ ∈ h∗ , let L(λ) be the highest weight module of g with highest
+                                           weight λ − ρ, where ρ is half the sum of positive roots. We use Lw to denote the simple highest weight
+                                           module with highest weight −wρ − ρ.
+                                              Joseph [Jos84] proved that the associated variety V (Lw ) is a union of orbital varieties defined as follows.
+                                           Let O ⊆ g be a nilpotent G-orbit. The irreducible components of O ∩n are called orbital varieties of O. They
+                                           all take the form V(w) = B(n ∩ wn) for some w ∈ W . The associated variety V (Lw ) is called irreducible if
+                                           and only if it contains only one orbital variety. Tanisaki [Tan88] showed that there exist reducible associated
+                                           varieties of the form V (Lw ) in type B and C. For a long time, people conjectured that all associated varieties
+
+                                             2010 Mathematics Subject Classification. Primary 22E47; Secondary 17B08.
+                                             Key words and phrases. Highest weight module, Associated variety, Young tableau, Kazhdan–Lusztig cell.
+
+
+                                                                                                       1
+of the form V (Lw ) are irreducible in the case of type A (see [BB85] and [Mel93]). However, Williamson [Wil15]
+showed that there exist counter examples. So the structure of V (Lw ) or V (L(λ)) is still mysterious even in
+type A.
+   Suppose G is a Hermitian type Lie group with Lie algebra gR and complexified Lie algebra g. Let K be
+the maximal compact Lie group of G with Lie algebra kR and complexified Lie algebra k. Let g = p− ⊕ k ⊕ p+
+be the usual decomposition of g as a KC -module. When L(λ) is a highest weight Harish-Chandra module
+for G, the associated variety of L(λ) is contained in (g/(k + p+ ))∗ ≃ p+ . It is well-known that the closures
+of the KC -orbits in p+ form a chain
+
+(1.1)                                  {0} = O0 ( O1 ( · · · ( Or = p+,
+
+where r is the real rank of gR , which is also equal to the rank of the symmetric space G/K. It follows from
+[Vog91] that
+
+(1.2)                               V (L(λ)) = Ok , for some k = 0, 1, . . . , r.
+
+   When L(λ) is a unitary highest weight Harish-Chandra module, its associated variety is given By Bai-
+Hunziker [BH15] in a uniform formula. Recently, a combinatorial algorithm was found to compute the
+Gelfand–Kirillov dimensions of all highest weight Harish-Chandra modules in [BX19; BXX23]. From this
+algorithm, we can determine the associated varieties of all highest weight Harish-Chandra modules. A
+uniform formula for the associated varieties of highest weight Harish-Chandra modules is given in [Bai+24].
+   In this paper, we want to give some characterization for highest weight Harish-Chandra modules by their
+associated varieties and Kazhdan–Lusztig right cells.
+                                                                                       R
+   We refer to [KL79] or §2.2 for the definition of Kazhdan–Lusztig right cell and use ∼ to denote the right
+cell equivalence relation.
+   The purpose of this paper is to give a characterization of those w such that Lw is a Harish-Chandra
+module. Define
+
+(1.3)                              W := {w ∈ W | −wρ is Φ+ (k)-dominant}.
+
+It follows that W = {w ∈ W | n ∩ Ad(w)n ⊆ p+ }. Note that the cardinality of W is #W = #(W/W (k)),
+where W (k) is the Weyl group of k.
+   We will prove the following theorem.
+
+Theorem 1.1 (Theorem 3.8 and Theorem 3.12). Suppose that Lw and L(λ) are highest weight Harish-
+                                         R    R
+Chandra modules. Let y ∈ W , then w ∼ y ∼ wλ if and only if V (Lw ) = V (Ly ) = V (Lwλ ) = V (L(λ)) = Ok
+for some 0 ≤ k ≤ r, where wλ is the minimal length element of W such that wλ−1 λ is antidominant.
+
+   From this theorem, we can see that there is only one right cell Ck (or Harish-Chandra cell) such that the
+corresponding highest weight Harish-Chandra modules have the same associated variety Ok . In order to find
+out this right cell, we will consider Wallach representations L(−kcξ + ρ) (see [EHW83] or Table 1 for the
+explicit value of the constant c and ξ is the fundamental weight orthogonal to Φ+ (k) such that (ξ, β ∨ ) = 1
+with β being the highest root of Φ+ ) for most types. Then we find out the minimal length element wλ such
+that wλ−1 λ is antidominant for these Wallach representations. These special wλ ’s are given in Theorem 4.5,
+Theorem 5.1, Theorem 5.3, Theorem 7.1, Theorem 6.3, Theorem 6.6, Theorem 7.6 and Theorem 7.7.
+   In the case of sp(n, R), so(2, 2n − 1), e6(−14) and e7(−25) , the elements of W or the right cell Ck are
+described in [BZ17; Zie18].
+   We will count the size of each Ck , especially for the case of su(p, q), so∗ (2n) and so(2, 2n − 2). The results
+are given in Theorem 7.4, Theorem 5.6 and Theorem 5.7 respectively. By using PyCox [Gec12], we can find
+out all the elements in a given right cell Ck , see Remark 5.8.
+   This paper is organized as follows. In §2, we give some necessary preliminaries about Kazhdan–Lusztig
+cells and associated varieties of highest weight Harish-Chandra modules. In §3, we recall the results in
+[BXX23] about associated varieties and prove Theorem 1.1. In §4-7, we determine those special wλ ’s and
+count the size of each Ck .
+
+                                                         2
+                                             2. Preliminaries
+  In this section, we recall the definitions of Gelfand–Kirillov dimensions and associated varieties of highest
+weight modules. More details can be found in Vogan [Vog78].
+2.1. GK dimension and associated variety. Let g be a finite-dimensional simple Lie algebra. Let M be
+a U (g)-module generated by a finite-dimensional subspace M0 . Let {Un (g)}n≥0 be the standard filtration of
+                                                      ∞
+                                                      L
+U (g). The graded module of M is defined by gr(M ) =     grn M (here Mn = Un (g)M0 , grn M = Mn /Mn−1 ),
+                                                       n=0
+which is a finitely generated gr(U (g))(≈ S(g))-module.
+Definition 2.1. Then the Gelfand–Kirillov dimension of M is defined by
+                                                      log dim(Un (g)M0 )
+                                    GKdim M = lim                        .
+                                                  n→∞        log n
+  It is well-known that the above definition is independent of the choice of M0 (see [NOT01]).
+  The associated variety of M is defined by
+                          V (M ) := {X ∈ g∗ | p(X) = 0 for all p ∈ AnnS(g) (gr M )}.
+From [NOT01], we have dim V (M ) = GKdim M .
+   Let G be a simple real Lie group with the complexified Lie algebra g and a maximal compact subgroup
+K with complexified Lie algebra k, so that G/K is a Hermitian symmetric space. Let g = p− ⊕ k ⊕ p+ be the
+usual decomposition of k-modules, where p± are abelian. Then q = k ⊕ p+ is a maximal parabolic subalgebra
+of g with nilradical p+ . Let h be a Cartan subalgebra of k and g. Let Φ be the root system of (g, h) with the
+positive system Φ+ and simple system ∆.
+   Let F (λ) be the finite-dimensional irreducible k-module of highest weight λ − ρ ∈ h∗ . By letting p+ act
+trivially on F (λ), we may consider F (λ) as a module of q. The generalized Verma module N (λ) is defined
+to be
+                                           N (λ) := U (g) ⊗U(q) F (λ).
+The simple quotient of N (λ) is denoted by L(λ). We call it a highest weight Harish-Chandra module. The
+classification of (unitary) highest weight Harish-Chandra modules had been done by Enright–Howe–Wallach
+[EHW83] and Jakobsen [Jak83] independently.
+Proposition 2.2 (Vogan [Vog91]). Let L(λ) be a highest weight Harish-Chandra module. Then we have
+V (L(λ)) = Ok(λ) for some integer k(λ) ≥ 0.
+   Let β denote the highest root of the root system Φ and ρ be half the sum of positive roots in Φ+ . Let
+(−, −) : h × h∗ → C be the canonical pairing. The dual Coxeter number h∨ of the root system Φ is defined
+by
+                                              h∨ := (ρ, β ∨ ) + 1.
+The Wallach set is a special set consisting of unitary highest weight modules with highest weights:
+                                   Ws = {−kcξ | k ∈ Z and 0 ≤ k ≤ r − 1},
+where ξ is the fundamental weight orthogonal to Φ(k) and (ξ, β ∨ ) = 1, and c is a constant associated to the
+Hermitian symmetric space G/K. From [BH15], we have the following table.
+  When L(λ) is a unitary highest weight Harish-Chandra module, the explicit value of k(λ) had been given
+by Bai-Hunziker [BH15] in a simple uniform way.
+Proposition 2.3 ([BH15]). Suppose L(λ) is a unitary highest weight Harish-Chandra module with highest
+weight λ − ρ. We denote z = z(λ) = (λ, β ∨ ), then
+                                  
+                                   rzr−1 , if z < zr−1
+                   GKdim L(λ) =      kzk−1 , if z = zk = (ρ, β ∨ ) − kc, 1 ≤ k ≤ r − 1
+                                     0,         if z = z0 = (ρ, β ∨ ).
+                                  
+                               ∨
+  Denote k = k(λ) := − (λ−ρ,β
+                          c
+                              )
+                                . Then
+    (1) If k > r − 1, we have GKdim L(λ) = rzr−1 = 12 dim(G/K).
+
+                                                       3
+                                Table 1. Some constants associated to G/K
+
+                                   gR = Lie(G)                 r        c      h∨ − 1
+                            su(p, q), n = p + q − 1      min{p, q}      1          n
+                                       sp(n, R)                n       1/2         n
+                                   ∗
+                               so (2n), n = 2m                 m        2      2n − 3
+                               ∗
+                             so (2n), n = 2m + 1               m        2      2n − 3
+                                   so(2, 2n − 1)               2     n − 3/2   2n − 2
+                                   so(2, 2n − 2)               2      n−2      2n − 3
+                                        e6(−14)                2        3          11
+                                        e7(−25)                3        4          17
+
+
+    (2) If 0 ≤ k ≤ r − 1, then k is a non-negative integer and
+                         GKdim L(λ) = k((ρ, β ∨ ) − (k − 1)c) = kzk−1 = dim O k(λ) .
+The associated variety of L(λ) is Ok(λ) .
+  When L(λ) is just a highest weight Harish-Chandra module (unitary or not), the explicit value of k(λ)
+had been given in [BX19; BXX23].
+
+2.2. Kazhdan–Lusztig cell and Harish-Chandra cell. The Weyl group W of g is a Coxeter group
+generated by S = {sα | α ∈ ∆}. Let ℓ(−) be the length function on W . The Hecke algebra H over
+A := Z[v, v −1 ] is generated by Tw , w ∈ W with relations
+                                       Tw Tw′ = Tww′ if ℓ(ww′ ) = ℓ(w) + ℓ(w′ ),
+
+                                   and (Ts + v −1 )(Ts − v) = 0 for any s ∈ S.
+The unique elements Cw such that
+                                        Cw = Cw , and Cw ≡ Tw (mod H<0 )
+is known as the Kazhdan–Lusztig basis of H, where ¯ : H → H is the bar involution such that
+                                                               M
+                            q̄ = q −1 , Tw = Tw−1
+                                                −1 , and H<0 =     A<0 Tw
+                                                                      w∈W
+              −1    −1
+with A<0 = v Z[v ].
+   If Cy occurs in the expansion of hCw (resp. Cw h) with respect to the KL-basis for some h ∈ H, we write
+y ←L w (resp. y ←R w). Extend ←L (resp. ←R ) to a preorder ≤L (resp. ≤R ) on W . For x, w ∈ W ,
+write x ≤LR w if there exists x = w0 , w1 , · · · , wn = w such that for every 0 ≤ i < n we have wi ≤L wi+1
+                       L R LR
+or wi ≤R wi+1 . Let ∼, ∼, ∼ be the equivalence relations associated with ≤L , ≤R , ≤LR . The equivalence
+                   L R LR
+classes on W for ∼, ∼, ∼ are called left cells, right cells and two-sided cells respectively. From [Lus03, §8.1],
+           R                       L
+we have x ∼ y if and only if x−1 ∼ y −1 .
+   Now we recall the concept of Harish-Chandra cells, which is defined by Barbasch–Vogan [BV83a]. Let
+X, Y be two irreducible (Harish-Chandra) modules with the same infinitesimal character. We write X > Y if
+there exists a finite-dimensional g-module F such that Y appears a sub-quotient of X ⊗ F . We write X ∼ Y
+if both X > Y and Y > X. The equivalence classes for the relation ∼ are called cells of (Harish-Chandra)
+modules or (Harish-Chandra) cells.
+Proposition 2.4 ([BV83b, Prop. 2.9]). Two highest weight Harish-Chandra modules Lw and Ly belong to
+                                                                                    R
+the same Harish-Chandra cell with infinitesimal character ρ if and only if w ∼ y.
+
+                                                           4
+   It follows from the definition that if a Harish-Chandra cell contains one highest weight Harish-Chandra
+module, then all representations in this cell are highest weight Harish-Chandra modules. Also the associated
+variety is constant on any given Harish-Chandra cell.
+   From [BZ17, §3.2], we know that a Harish-Chandra cell CHC will determine a representation of W which
+is spanned by CHC and will be denoted by V (CHC ). Suppose OC is the complex nilpotent orbit appeared
+in the associated variety of the annihilator of the highest weight Harish-Chandra module L(λ). Then the
+irreducible W -module π(OC , 1) for OC via the Springer correspondence is a W -submodule of V (CHC ). Thus
+we have #CHC = dim V (CHC ) ≥ dim π(OC , 1).
+
+                        3. Associated varieties of highest weight modules
+  In this section, we recall the relation between associated varieties and cells.
+3.1. Right cells and associated varieties. Recall that any subset I ⊆ ∆ generates a subsystem ΦI ⊆ Φ
+with corresponding parabolic subalgebra pI = lI ⊕ uI ⊃ b of g.
+   We say λ ∈ h∗ is Φ+                               ∨
+                     I -dominant if and only if (λ, α ) ∈ Z>0 for all α ∈ I. So L(λ) is a highest weight
+                                           +
+Harish-Chandra module if and only if λ is Φ (k)-dominant.
+Proposition 3.1 ([Bai+23]). Let g be a simple complex Lie algebra and λ ∈ h∗ . Then λ is Φ+
+                                                                                          I -dominant if
+and only if V (L(λ)) ⊆ uI .
+    Denote Iw = Ann(Lw ). By Borho-Brylinski [BB82] and Joseph [Jos85], we know that V (Iw ) = V (U (g)/Iw )
+is the closure of a single special (in the sense of Lusztig [Lus79]) nilpotent orbit. From [KL79] and [BV83b],
+there is a bijection between special nilpotent orbits of g and two-sided cells of the Weyl group W , see also
+[Tan88]. The special orbits are listed in Collingwood-McGovern [CM93]. For a nilpotent orbit O, denote
+by Irr(O ∩ n) the set of irreducible components in O ∩ n. Each irreducible component of O ∩ n is called an
+orbital variety, which can be written as V(w) := B(n ∩ wn) for some w ∈ W [Tan88].
+Proposition 3.2 ([Jos84, Lem. 6.6] and [BB85, Cor. 6.3]). V (Lw ) is constant on each KL right cell.
+  The following result was conjectured by Tanisaki [Tan88, Conj.3.4]. The case of type A was proved by
+Borho-Brylinski [BB85], while the case of the other classical types was proved by McGovern [McG00].
+Proposition 3.3. Suppose that g is classical. Let C be the two-sided cell corresponding to a special nilpotent
+orbit O. Denote by CR the set of right cells contained in C . Then there exists a bijection from CR to Irr(O∩n)
+(w → Yw ) and an ordering ≺ on Irr(O ∩ n) such that V (Lw ) = Yw ∪ Ỹw , where Ỹw is a union of some orbital
+varieties Y in Irr(O ∩ n) with Y ≺ Yw .
+Remark 3.4. Yw depends on the right cell containing w. It may not be V(w). In Tanisaki’s original
+conjecture [Tan88, Conj.3.4], g is not necessarily classical, where the cases of type E6 and G2 were proved
+by himself. For the case of type F4 , Tanisaki showed that the conjecture is true for nine special nilpotent
+orbits among all the eleven ones. The cases of type E7 , E8 , F4 are still unknown.
+                                                                       R
+Theorem 3.5. Suppose g is of classical type. Let w, y ∈ W , then w ∼ y if and only if V (Lw ) = V (Ly ).
+            R
+Proof. If w ∼ y, we can get V (Lw ) = V (Ly ) by Proposition 3.2. Now assume that V (Lw ) = V (Ly ). In view
+of [BB82, Cor. 4.11] and [CM93, Thm. 10.2.2], V (Iw ) = V (Iy ) is the closure of a nilpotent orbit O. Let C
+be the two-sided cell corresponding to O in the Springer correspondence. With V (Lw ) = V (Ly ), Proposition
+                                                               R
+3.3 yields Yw ∪ Ỹw = Yy ∪ Ỹy . This forces Yw = Yy . Hence w ∼ y.
+                                                                                                             
+Remark 3.6. Theorem 3.5 will hold for all simple Lie algebras once Tanisaki’s original conjecture [Tan88,
+Conj. 3.4] is proved completely.
+Proposition 3.7 ([Bai+24, Prop. 4.2]). Suppose Φ is simply laced and let w ∈ W. For k = 0, 1, . . . , r, the
+set
+                                    {Lw | w ∈ W and V (Lw ) = Ok }
+is a Harish-Chandra cell and the corresponding W -module is irreducible. In fact, we have V (Lw ) = V(w)
+for any w ∈ W.
+
+                                                       5
+                                                                                                   R
+Theorem 3.8. Suppose that Lw is a highest weight Harish-Chandra module. Let y ∈ W , then w ∼ y if and
+only if V (Lw ) = V (Ly ).
+Proof. From Theorem 3.5 and Remark 3.4, we only need to prove the case of g = E7 . Now we assume
+that V (Ly ) = V (Lw ) ⊆ p+ . Then by Proposition 3.1, we have y, w ∈ W and Ly is also a highest weight
+Harish-Chandra module.
+   Now r = 3, thus V (Ly ) = V (Lw ) = Oi for some 0 ≤ i ≤ 3. By Proposition 2.4 and 3.7, we must have
+  R
+w ∼ y since there is only one right cell (Harish-Chandra cell) for each case.
+                                                                                                            
+Example 3.9. For gR = e7(−25) , the cardinality of W is 56 and r = 3. So there are four KC -orbits
+O0 , O1 ,O2 and O3 in p+ . From [BZ17, §3], we know that there is an irreducible W -module π(OiC , 1) for
+each complex nilpotent G-orbit OiC via the Springer correspondence. Table 2 contains some data for e7(−25)
+(using the notation of [Car85] where φa,b denotes the corresponding irreducible W -module π(OiC , 1) which
+has dimension a and degree b).
+
+                                    Table 2. KC -orbits for gR = e7(−25)
+
+                                   i     dim(Oi )      π(OiC , 1)      OiC
+                                   0         0             φ1,63          0
+                                   1        11             φ7,46       A1
+                                   2        16             φ27,37     2A1
+                                   3        16             φ21,36    (3A1 )′′
+
+   There are four Harish-Chandra cells C0 = {C}, C1 , C2 and C3 . We have #C0 = 1. By §2.2 and Table 2, we
+have #C1 ≥ 7, #C2 ≥ 27 and #C3 ≥ 21, but #W = 56, so equality holds. Thus Proposition 3.7 holds for
+this case.
+3.2. Translation functor and associated varieties. For µ ∈ h∗ , define
+                                        Φ[µ] := {α ∈ Φ | (µ, α∨ ) ∈ Z}.
+Set
+                                       W[µ] := {w ∈ W | wµ − µ ∈ ZΦ}.
+Then Φ[µ] is a root system with Weyl group W[µ] . Let ∆[µ] be the simple system of Φ[µ] . Set J = {α ∈ ∆[µ] |
+(µ, α∨ ) = 0}. Denote by WJ the Weyl group generated by reflections sα with α ∈ J. Let ℓ[µ] be the length
+function on W[µ] . Thus ℓ[µ] = ℓ when µ is integral. Put
+                           J
+                         W[µ] := {w ∈ W[µ] | ℓ[µ] (wsα ) = ℓ[µ] (w) + 1 for all α ∈ J}.
+        J
+Thus W[µ] consists of the shortest representatives of the cosets wWJ with w ∈ W[µ] . When µ is integral, we
+simply write W J := W[µ]
+                       J
+                          .
+   A weight µ ∈ h is called anti-dominant if (µ, α∨ ) ∈
+                  ∗
+                                                        / Z>0 for all α ∈ Φ+ . For any λ ∈ h∗ , there exists a
+                                   ∗                        J
+unique anti-dominant weight µ ∈ h and a unique wλ ∈ W[µ]       such that λ = wλ µ.
+
+Proposition 3.10 ([Hum08, Prop. 3.5]). Let λ ∈ h∗ , with corresponding root system Φ[λ] and Weyl group
+W[λ] . Let ∆[λ] be the simple system of Φ[λ] ∩ Φ+ in Φ[λ] . Then λ is antidominant if and only if one of the
+following three equivalent conditions holds:
+     (1) (λ, α∨ ) ≤ 0 for all α ∈ ∆[λ] ;
+     (2) λ ≤ sα λ for all α ∈ ∆[λ] ;
+     (3) λ ≤ wλ for all w ∈ W[λ] .
+Therefore, there is a unique antidominant weight in the orbit W[λ] λ.
+
+                                                       6
+    Let O be the BGG category consists of g-modules which are semisimple as h-modules, finitely generated
+as U (g)-modules and locally n-finite. A block of O is an indecomposable summand of O as an abelian
+subcategory. Let Oλ be the block containing the simple module L(λ).
+    For two integral weights λ, µ ∈ h∗ , we set γ = µ − λ. Then we can find a weight γ̄ ∈ W γ such that
+hγ̄, αi ≥ 0 for all α ∈ ∆+ . Then L(γ̄) is finite dimensional. The Jantzen’s translation functor (see Jantzen
+[Jan79] or Humphreys [Hum08]):
+                                                  Tλµ : Oλ → Oµ
+is an exact functor given by Tλµ (M ) := prµ (L(γ̄) ⊗ M ), where M ∈ Oλ and prµ is the natural projection
+O → Oµ .
+    From Borho-Brylinski-MacPherson [BBM89, Lem. 5.2], we know that the associated variety of an irre-
+ducible g-module is invariant under Jantzen’s translation functor. In particular, we have the following lemma
+from Bai-Xie [BX19, Cor. 3.3] and [BB85, Cor. 4.3.1].
+Lemma 3.11. For any integral weight λ, we have
+                                                   λ
+                                                  T−wλ ρ−ρ
+                                                           (Lwλ ) = L(λ)
+and V (L(λ)) = V (Lwλ ) ⊇ V(wλ ), where wλ ∈ W is the unique element of minimal length such that wλ−1 λ is
+antidominant.
+Theorem 3.12. Suppose that L(λ) is a highest weight Harish-Chandra module with integral highest weight
+                                                                                   R
+λ − ρ. Suppose µ ∈ h∗ is also integral. Then V (L(λ)) = V (L(µ)) if and only if wλ ∼ wµ .
+Proof. From V (Lwλ ) = V (L(λ)) = V (L(µ)) = V (Lwµ ) ⊆ p+ , we will have V (Lwλ ) = V (Lwµ ) ⊆ p+ . Then
+                                  R
+by Theorem 3.8, we have wλ ∼ wµ .
+  The other direction follows from Proposition 3.2.
+                                                                                                               
+  Recall that the Wallach representations L(−kcζ + ρ) are unitarizable highest weight Harish-Chandra
+modules with V (L(−kcζ + ρ)) = Ok for k = 0, 1, . . . , r (see Joseph [Jos92] or Bai-Hunziker [BH15]). Thus
+we only need to consider these Wallach representations.
+3.3. Associated varieties of highest weight HC modules. For a Young diagram P with shape p, we
+use (k, l) to denote the box in the k-th row and the l-th column. We say the box (k, l) is even (resp. odd ) if
+k + l is even (resp. odd). Let pev          od
+                                 i (resp. pi ) be the number of even (resp. odd) boxes in the i-th row of the
+Young diagram P . One can easily check that
+                                (                            ( 
+                                    pi                           pi
+                           ev       2  , if i is odd,     od          , if i is odd,
+(3.1)                     pi =  pi                     pi =  p2i 
+                                    2 ,    if i is even,          2 ,    if i is even.
+Here for a ∈ R, ⌊a⌋ is the largest integer n such that n ≤ a, and ⌈a⌉ is the smallest integer n such that
+n ≥ a. For convenience, we set
+                                  pev = (pev   ev
+                                          1 , p2 , · · · ) and p
+                                                                 od
+                                                                    = (pod   od
+                                                                        1 , p2 , · · · ).
+
+  For x = (x1 , x2 , · · · , xn ) ∈ Seqn (Γ), we denote
+                            x− =(x1 , x2 , · · · , xn−1 , xn , −xn , −xn−1 , · · · , −x2 , −x1 ),
+                            −
+                                x =(−xn , −xn−1 , · · · , −x2 , −x1 , x1 , x2 , · · · , xn−1 , xn ).
+    For i < j ∈ Z, denote [i, j] = {i, i + 1, · · · , j − 1, j}. When the root system Φ = Bn or Cn with n > 1,
+the Weyl group is W = Wn , where Wn is the group consisting of permutations w of the set [−n, n] such
+that w(−i) = −w(i) for all i ∈ [1, n]. Denote si := sαi for 1 ≤ i ≤ n − 1. Let t ∈ Wn be the element
+with t = (−1, 2, . . . , n) := (1, −1). Then (Wn , Tn ) is a Coxeter system, with Tn = {t, s1 , . . . sn−1 }. Let
+u ∈ Wn be the element with u = (−2, −1, 3, . . . , n) := (1, −2). Then (Wn′ , Tn′ ) is a Coxeter system, with
+Tn′ = {u, s1 , . . . sn−1 }.
+    The Weyl group (W, S) of Bn is isomorphic to (Wn , Tn ) via
+                                      sεi −εi+1 7→ sn−i , 0 ≤ i ≤ n − 1, and sεn 7→ t.
+
+                                                                7
+  The Weyl group (W, S) of Cn is isomorphic to (Wn , Tn ) via
+                                  sεi −εi+1 7→ sn−i , 0 ≤ i ≤ n − 1, and s2εn 7→ t.
+  The Weyl group (W, S) of Dn is isomorphic to (Wn′ , Tn′ ) via
+(3.2)                           sεi −εi+1 7→ sn−i , 1 ≤ i ≤ n − 1, and sεn−1 +εn 7→ u.
+Lemma 3.13. Assume that λ is an integral weight with λ = (λ1 , · · · , λn ).
+    (1) There is a unique element w ∈ Wn such that
+          (i) if λi 6= 0 then σi′ has the same sign with λi ;
+         (ii) if λi = 0 then σi′ < 0;
+        (iii) if λi < λj , then σi′ < σj′ ;
+        (iv) if λi = λj and i < j, then σi′ < σj′ .
+        where (σ1′ , σ2′ , · · · , σn′ ) = (−w−1 (n), −w−1 (n − 1), · · · , −w−1 (1)).
+    (2) The element w in (1) is precisely the minimal length element such that w−1 λ is antidominant. We
+        denote is by wλ .
+    (3) Let w be the element in (1) and t = (1, −1) ∈ Wn . Then one of w and wt belongs to Wn′ , and we
+        denote it by wλ . Then wλ is precisely the minimal length element such that wλ−1 λ is antidominant.
+Proof. See the arguments in the proof of [BXX23, Lem. 5.2 and Lem. 5.3]
+                                                                                                                
+
+Remark 3.14. Let µ be the antidominant weight in the orbit W λ, with µ = (µ1 , · · · , µ2 ). One can obtain a
+(reduced) string diagram by connecting the equal numbers, in different rows and one time for each number,
+of the diagram
+                        λ1 λ2 · · · λn−1 λn −λn −λn−1 · · · −λ2 −λ1
+                        µ1 µ2 · · · µn−1 µn −µn −µn−1 · · · −µ2 −µ1 .
+Then such a string diagram represents an element w ∈ Wn . By construction, we have w−1 λ = µ, and w
+satisfies (i) and (iii) of (1). If in the same time we require w to satisfy (ii) and (iv), then the string diagram
+has a minimal number of crossings, and hence w will be the element with minimal length such that w−1 λ = µ.
+   Let w be the element found in (1) of Lemma 3.13. We may have w ∈            / Wn′ but wt ∈ Wn′ . By [BXX23,
+Rem. 4.11], we have (wt)(k) = −w(k) when |w(k)| = 1 and (wt)(k) = w(k) when |w(k)| > 1. For example,
+if w = (2, 1, −3, 4), we will have wt = (2, −1, −3, 4) ∈ Wn′ .
+Example 3.15. Let g = so(11, C) and λ = (2, −1, 1, −3, 1). Then from Proposition 3.10, the antidominant
+weight in W λ is µ = (−3, −2, −1, −1, −1). We have a string diagram:
+                    λ− :    2      −1      1     −3      1     −1      3     −1       1   −2
+
+
+
+
+                    µ− : −3        −2     −1     −1     −1      1      1      1       2   3 .
+By Lemma 3.13, this diagram represents an element w = (−3, −1, 4, −5, 2) ∈ W5 .
+Lemma 3.16 ([BXX23, Lem. 5.2]). Suppose Φ = Bn or Cn . Let λ = wµ for w ∈ W J . Then p(λ− ) = p(− w).
+Lemma 3.17 ([BXX23, Lem. 5.3]). Suppose Φ = Dn . Let λ = wµ for w ∈ W J . Then p(λ− ) = p(− w) or
+p(− (wt)).
+Proposition 3.18 ([BX19, Thm. 6.4]). Let L(λ) be a Harish-Chandra module of SU (p, q) with highest
+weight λ − ρ and λ = (λ1 , · · · , λn ) ∈ h∗ .
+
+                                                          8
+     (i) If λ1 − λp+1 ∈ Z, i.e. λ is an integral weight, then P (λ) is a Young tableau with at most two columns.
+         In this case, we will have V (L(λ)) = O k , where k is the number of entries in the second column of
+         P (λ).
+    (ii) If λ1 − λp+1 ∈/ Z, i.e. λ is not an integral weight, we will have V (L(λ)) = Or , where r = min(p, q).
+Proposition 3.19 ([BXX23, Thm. 6.2]). Let L(λ) be a Harish-Chandra module of G with highest weight
+λ − ρ and λ = (λ1 , · · · , λn ) ∈ h∗ . Set q = q(λ− ) = (q1 , q2 , · · · , q2n ) = p(λ− )t when G is of type B, C or D.
+Then V (L(λ)) = Ok(λ) with k(λ) given as follows.
+    (1) G = Sp(n, R) with n ≥ 2. Then
+                                              
+                                                   od
+                                              2q2 ,
+                                                                     if λ1 ∈ Z,
+                                        k(λ) = 2q2ev + 1,             if λ1 ∈ 21 + Z,
+                                              
+                                                n,                    otherwise.
+                                              
+
+    (2) G = SO∗ (2n) with n ≥ 4. Then
+                                                     (
+                                                         q ev ,       if λ1 ∈ 21 Z,
+                                            k(λ) =       2n 
+                                                           2      ,   otherwise.
+    (3) G = SO(2, 2n − 1) with n ≥ 3. Then
+                                       
+                                       0,
+                                                    if λ1 − λ2 ∈ Z, λ1 > λ2 ,
+                                k(λ) = 1,            if λ1 − λ2 ∈ 21 + Z, λ1 > 0,
+                                       
+                                         2,          otherwise.
+                                       
+
+    (4) G = SO(2, 2n − 2) with n ≥ 4. Then
+                                    
+                                    0, if λ1 − λ2 ∈ Z, λ1 > λ2 ,
+                                    
+                             k(λ) = 1, if λ1 − λ2 ∈ Z, − |λn | < λ1 ≤ λ2 ,
+                                    
+                                      2, otherwise.
+                                    
+
+
+                                           4. The case of type An−1
+   In this section, we assume g = sl(n, C).
+   First we recall the famous Robinson–Schensted algorithm. Some more details can be found in [BX19].
+   For a totally ordered set Γ, we denote by Seqn (Γ) the set of sequences x = (x1 , x2 , . . . , xn ) of length n
+with xi ∈ Γ. In our paper, we usually take Γ to be Z or a coset of Z in C. Then we have a Young tableau
+P (x) obtained by applying the following Robinson-Schensted algorithm to x ∈ Seqn (Γ).
+Definition 4.1 (Robinson–Schensted algorithm). For an element x ∈ Seqn (Γ), we write x = (x1 , . . . , xn ).
+We associate to x a Young tableau P (x) as follows. Let P0 be an empty Young tableau. Assume that we
+have constructed Young tableau Pk associated to (x1 , . . . , xk ), 0 ≤ k < n. Then Pk+1 is obtained by adding
+xk+1 to Pk as follows. Firstly we add xk+1 to the first row of Pk by replacing the leftmost entry xj in the
+first row which is strictly bigger than xk+1 . (If there is no such an entry xj , we just add a box with entry
+xk+1 to the right side of the first row, and end this process). Then add this xj to the next row as the same
+way of adding xk+1 to the first row. Finally we put P (x) = Pn .
+  We use p(x) = (p1 , .P
+                       . . , pk ) to denote the shape of P (x), where pi is the number of boxes in the i-th
+row of P (x). When            pi = N , p(x) will be a partition of N and we still denote this partition by
+                        1≤i≤k
+p(x) = [p1 , . . . , pk ].
+   For an element w ∈ Sn , we write w = (w1 , ..., wn ). By using our RS algorithm, we can associate to w a
+Young tableau P (w). This is the usual RS algorithm. Some more details can be found in [Sag01].
+Proposition 4.2 ( [Ari00] or [KL79]). For g = sl(n, C) and W = Sn , two elements x and y in Sn are in
+the same KL right cell if and only if P (x) = P (y).
+
+                                                                  9
+   Recall that we use p = [p1 , p2 , . . . , pk ] to denote a partition of n such that p1 ≥ p2 ≥ · · · ≥ pk is a sequence
+of non-negative integers and |p| := p1 + · · · + pk = n. A partition p can be identified with a Young diagram
+P such that pi is the number of boxes of the i-th row of the Young diagram P . By abuse of notation, we
+also use p to denote the Young diagram corresponding to the partition p. As usual dt = [q1 , q2 , . . . , ql ] is
+the dual partition of p corresponding to the transpose of the Young diagram p.
+   From [CM93, Thm. 10.1.1], we can identify the set of Young diagrams of total size n with the set of
+complex nilpotent orbits such that each row corresponds to a Jordan block. Consequently, the set of Young
+diagrams is also identified with the set Irr(Sn ) via the Springer correspondence. We use πp to denote the
+corresponding irreducible representation of Sn for a given partition p. Note that the trivial orbit p = [1n ]
+(the Young diagram having a single column) corresponds to the sign representation sgn of Sn .
+                                                                                                                    R
+Proposition 4.3 (Steinberg [Ste88]). For any w, y ∈ W = Sn , we have V(w) = V(y) if and only if w ∼ y.
+Proposition 4.4 (Joseph [Jos84]). For g = sl(n, C) and W = Sn , we have V(w) ⊆ V (Lw ) and dim V(w) =
+dim V (Lw ) = GKdim(Lw ).
+4.1. The case of su(p, q). In this subsection, we assume g = sl(n, C) and gR = su(p, q) with p + q = n.
+A weight λ = (λ1 , λ2 , ..., λn ) is called integral if and only if λi − λi+1 ∈ Z for 1 ≤ i ≤ n − 1, and called
+(p, q)-dominant if and only if λi − λj ∈ Z>0 for 1 ≤ i < j ≤ p and p + 1 ≤ i < j ≤ p + q = n. From Enright–
+Howe–Wallach [EHW83], we know that the highest weight SU (p, q)-module L(λ) is a Harish-Chandra module
+if and only if λ is (p, q)-dominant. Therefore, Lw is a highest weight Harish-Chandra SU (p, q)-module if and
+                                                                                              n!
+only if −wρ is (p, q)-dominant. The number of these modules is |W| = |Sn /(Sp × Sq )| = p!q!     .
+    From [NOT01], for G = SU (p, q) we know that
+                                                   
+                                              0 c
+                                    Oj = {             |c ∈ Mp×q (C), rank(c) = j}
+                                              0 0
+is the j-th KC -orbit of G. Also we have
+                                                 
+                                  a           0 c
+                           Om =      Oj = {         |c ∈ Mp×q (C), rank(c) ≤ j}.
+                                              0 0
+                                    j≤m
+
+Sometime we will write it as O m (p, q) to emphasize that it comes from SU (p, q).
+   Suppose s ≥ t. An element w ∈ Sn is called (s, t)-decreasing if w = (xs , ..., x1 , yt , ..., y1 ) with xs > ... > x1 ,
+yt > ... > y1 and x1 < y1 ,...,xt < yt .
+Theorem 4.5. Suppose Lw is a highest weight module of sl(n, C). Then the followings are equivalent:
+   (1) Lw is a Harish-Chandra SU (p, q)-module.
+   (2) V (Lw ) = V(w) = Ok (p, q) for some 0 ≤ k ≤ min{p, q}.
+          R
+  (3) w ∼ wp,k = (n, ..., p + k + 1, p, ..., 1, p + k, ..., p + 1).
+Proof. When Lw is a Harish-Chandra SU (p, q)-module, we will have V (Lw ) = V(w) = Ok (p, q) by Proposi-
+tion 3.18 and Proposition 4.4. Thus (1) ⇒ (2).
+   From Proposition 3.1, V (Lw ) = V(w) = Ok (p, q) ⊆ p+ will imply that Lw is a highest weight Harish-
+Chandra SU (p, q)-module. Thus (2) ⇒ (1).
+   Suppose (1) holds. Now we prove that w is right cell equivalent to
+                     wp,k = (n, n − 1, ..., p + k + 1, p, p − 1, ..., 1, p + k, p + k − 1, ..., p + 1).
+  Step 1. We write λ = −wρ = (λ1 , ..., λp , λp+1 , ..., λn ), which is (p, q)-dominant. Let k be the maximum
+nonnegative integer for which there exists a sequence of indices
+                               1 ≤ i1 < i2 < ... < ik ≤ p < p + 1 ≤ jk < ... < j1 ≤ n
+such that
+                            λi1 − λj1 ≤ 0, λi2 − λj2 ≤ 0, ..., λik − λjk ≤ 0.
+Then from [BX19, Thm. 5.2], we can get a Young tableau P (λ) with two columns or one column (for
+w = −Id). We only consider the nontrivial case. Then from [BX19, Lem. 4.5], P (λ) and P (w) have the
+same shape. From the construction of P (λ), we know that the number of entries in the second column of
+
+                                                            10
+P (λ) equals to k. Suppose the entries in the first column of P (w) are (s1 , ..., sn−k ) and the entries in the
+second column of P (w) are (a1 , ..., ak ) from top to bottom. Then we get
+                                                 R
+                                           w ∼ (sn−k , ..., s1 , ak , ..., a1 ) := πw ,
+while πw is (n − k, k)-decreasing. By Proposition 3.18 and Proposition 4.4, we have
+                                           V (Lw ) = Ok (p, q) = V(w) = V(πw ).
+  Step 2. Now we take a special element
+                                   σp,k = (p, ..., p − k + 1, n, ..., p + 1, p − k, ..., 1),
+which is (k, n − k)-decreasing. By using the RS algorithm, we can get
+
+                p−k+1         p−k+1 n−k+1                p−k+1      p+1             1      p+1
+
+
+
+
+                   .               .         .             .            .           .        .
+                   .
+                   .
+                         →         .
+                                   .
+                                             .
+                                             .
+                                                     →     .
+                                                           .
+                                                                        .
+                                                                        .
+                                                                            →       .
+                                                                                    .
+                                                                                             .
+                                                                                             .
+                                                                                                   = P (σp,k ).
+
+
+                   p               p         n             p        p+k             p      p+k
+
+
+
+
+                                                         p+k+1                  p+k+1
+
+
+
+
+                                                           .                        .
+                                                           .                        .
+                                                           .                        .
+
+
+
+                                                           n                        n
+
+
+
+  Note that if we write −ρ = (b1 , ...bn ), then
+                    −σp,k ρ = (bn , bn−1 , ..., bn−p+k+1 , bk , bk−1 , ...b1 , bn−p+k , ..., b2k , ...bk+1 )
+is (p, q)-dominant. So σp,k ∈ W. Applying the process in Step 1 to σp,k , we can get that σp,k is right cell
+equivalent to πσp,k = wp,k . From [BX19, Thm. 6.4] and Proposition 4.4, we have
+                                       V (Lσp,k ) = Ok (p, q) = V(σp,k ) = V(wp,k ).
+                                                                    R       R
+Thus V(πw ) = V(wp,k ). By Proposition 4.3, we have w ∼ πw ∼ wp,k . Thus (1) ⇒ (3).
+                       R
+  Now we suppose w ∼ wp,k for some 0 ≤ k ≤ min{p, q}. By a direct calculation, we have
+                           1
+                 −wp,k ρ = (n − 2k − 1, n − 2k − 3, · · · , n − 2k − 2p + 1,
+                           2
+                           n − 1, n − 3, · · · , n − 2k + 1, n − 2k − 2p − 1, · · · , 1 − n).
+It is easy to check that −wp,k ρ is (p, q)-dominant and
+                                             V (Lwp,k ) = Ok (p, q) = V(wp,k ).
+Thus (3) ⇒ (1) and (2).
+  Now we complete the proof.
+                                                                                                                  
+   From Theorem 4.5, we can see that there is only one Harish-Chandra cell (of infinitesimal character ρ)
+with associated variety Ok (p, q). This is compatible with Theorem 3.8.
+Corollary 4.6. When G = SU (p, q), let L(λ) be an integral highest weight Harish-Chandra module. Then
+we have V (L(λ)) = V (Lw ) = Ok (p, q) if and only if
+                               R       R
+                           wλ ∼ w ∼ wp,k = (n, ..., p + k + 1, p, ..., 1, p + k, ..., p + 1).
+
+                                                               11
+   Note that wp,k is reduced to (p, p−1, · · · , 1, n, n−1, · · · , p+1) in Corollary 4.6 if p+k+1 > n (equivalently
+p ≥ q = k).
+
+4.2. The size of highest weight Harish-Chandra cells of type An−1 . Recall the concept of Harish-
+Chandra cells in Section 2. In the case of type C, Barchini–Zierau [BZ17] had computed the size of each
+Harish-Chandra cell consisting of highest weight Harish-Chandra modules with a given associated variety.
+In the case of type A, we will give a similar result. To prove our result, we recall the famous hook formula.
+Some details can be found in James [Jam78]
+Proposition 4.7 (The hook formula). Let P be a standard Young tableau and C be the corresponding
+Kazhdan–Lusztig right cell in the symmetric group Sn . Then
+                                                              n!
+                                                   #C =               ,
+                                                          h1 h2 ...hn
+where hi are the ”hooks” of the Young tableau of shape P .
+Theorem 4.8. We use Ck to denote a Harish-Chandra cell consisting of highest weight Harish-Chandra
+SU (p, q)-modules Lw with associated variety Ok (p, q), then for 2 ≤ k ≤ min{p, q}, we have
+                  #Ck = dim π[2k ,1n−k ] = the number of standard Young tableaux of shape P (w)
+                        n(n − 1)...(n − k + 2)(n − 2k + 1)
+                      =
+                                     k!
+                         n          n
+                      =     −           .
+                         k       k−1
+And #C0 = 1, #C1 = n − 1.
+Proof. From the proof of Theorem 4.5, we know that the number of modules in the Harish-Chandra cell Ck
+equals the number of elements in the right cell Ck which contains wp,k . On the other hand, #Ck equals the
+number of the standard Young tableau of shape p(wp,k ) = [2k , 1n−k ], which is just the dimension of πp(wp,k ) .
+We know the numbers of entries in the two columns of P (wp,k ) are c1 (P (wp,k )) = n − k and c2 (P (wp,k )) = k.
+From James [Jam78], the corresponding hooks of P (wp,k ) is a Young tableau Pk consisting of two columns.
+The entries in the first column of Pk are (n − (k − 1), n − k, ..., n − 2k + 2, n − 2k, ..., 1) and the entries in
+the second column of Pk are (k, k − 1, ..., 1) from top to bottom. From Proposition 4.7, we have
+                                                             n!
+                    #Ck =
+                            (n − (k − 1)) × ... × (n − 2k + 2) × (n − 2k) × ... × 1 × k × ... × 1
+                            n(n − 1)...(n − k + 2)(n − 2k + 1)
+                          =
+                                         k!
+                             n          n
+                          =      −          .
+                             k       k−1
+  When k = 1, we will have c1 (P (wp,k )) = n − 1 and c2 (P (wp,k )) = 1, so
+                                                          n!
+                                       #C1 =                             = n − 1.
+                                               n × (n − 2) × ... × 1 × 1
+  When k = 0, we will have c1 (P (wp,k )) = n and c2 (P (wp,k )) = 0, so #C0 = 1.
+                                                                                                                  
+              n              n
+                               
+  If we set   0    = 1 and   −1     = 0, our formula in Theorem 4.8 will be uniform.
+
+                                               5. The case of type Dn
+  In this section, we assume g = so(2n, C) and gR = so∗ (2n) or so(2, 2n − 2). We use Wn′ to denote the
+Weyl group of g = so(2n, C).
+
+                                                           12
+5.1. The case of so∗ (2n). From Enright–Howe–Wallach [EHW83], we know that the highest weight module
+L(λ) is an integral Harish-Chandra module if and only if λi − λi+1 ∈ Z>0 for 1 ≤ i ≤ n − 1 and 2λk ∈ Z
+for 1 ≤ k ≤ n. Therefore, Lw is a highest weight Harish-Chandra SO∗ (2n)-module if and only if −wρ =
+(λ1 , λ2 , · · · , λn ) with λi − λi+1 ∈ Z>0 for 1 ≤ i ≤ n − 1. The number of these modules is |W| = |Wn′ /Sn | =
+n!2n−1
+  n!     = 2n−1 .
+   First we consider the Wallach representations.
+
+Theorem 5.1. Suppose gR = so∗ (2n) and L(λ) is a highest weight Harish-Chandra module with highest
+weight λ − ρ = −kcζ. Suppose wλ ∈ W is the minimal length element such that µ = wλ−1 λ is antidominant,
+then we have
+
+    (1) if k ∈ Z, 1 ≤ k ≤ [ n2 ] and 2k ≤ n − 1, then
+
+                         
+                         
+                          (k + 1, −(k + 2), k, −(k + 3), k − 1, . . . ,
+                         
+                         −2k, 2, −(2k + 1), 1, −(2k + 2), . . . , −n),                   if n − k is odd,
+                    wλ =
+                         
+                         
+                          (k + 1, −(k + 2), k, −(k + 3), k − 1, . . . ,
+                           −2k, 2, −(2k + 1), −1, −(2k + 2), . . . , −n),                 if n − k is even.
+                         
+
+
+    (2) if n is even and k = n2 , then
+
+                       (
+                           ( n2 + 1, −( n2 + 2), n2 , −( n2 + 3), n2 − 1, . . . , −n, 2, 1),       if n2 is odd,
+                wλ =
+                           ( n2 + 1, −( n2 + 2), n2 , −( n2 + 3), n2 − 1, . . . , −n, 2, −1),      if n2 is even.
+
+Proof. From [EHW83], we have λ = −kcζ + ρ = (n − 1 − k, n − 2 − k, . . . , 1 − k, −k). By Proposition 3.19,
+we have V (L(λ)) = O k .
+   Now we suppose n − 1 − k ≥ k. By Proposition 3.10, we have µ = (−(n − 1 − k), . . . , −(k + 1), −k, −k, 1 −
+k, 1 − k, . . . , −1, −1, 0). Thus we have:
+
+
+            λ− : n − 1 − k   ...    1       0     −1    ...    −k       k     ...     1       0     −1    ... 1 + k − n
+
+
+
+
+            µ− : 1 + k − n   ...    −k     ...    −1    −1      0       0      1      1      ...     k    ... n − 1 − k
+
+
+
+
+  By Lemma 3.13, we can find that
+
+                         
+                         
+                          (k + 1, −(k + 2), k, −(k + 3), k − 1, . . . ,
+                         
+                         −2k, 2, −(2k + 1), 1, −(2k + 2), . . . , −n),                   if n − k is odd,
+                    wλ =
+                         
+                         
+                          (k + 1, −(k + 2), k, −(k + 3), k − 1, . . . ,
+                           −2k, 2, −(2k + 1), −1, −(2k + 2), . . . , −n),                 if n − k is even.
+                         
+
+
+                                                               13
+By using the RS algorithm, when n − k is odd, we will have
+
+                                                                     −n         1
+
+
+                                                                  −n + 1        .
+                                                                                .
+                                                                                .
+
+                                                                     .      2k + 1
+                                                                     .
+                                                                     .
+
+                                                  P (− wλ ) =        −1              .
+
+                                                                   2k + 2
+
+
+                                                                     .
+                                                                     .
+                                                                     .
+
+                                                                     n
+
+
+
+   By using the RS algorithm, when n − k is even, we will have
+
+                                                                     −n         −1
+
+
+                                                                  −n + 1        2
+
+
+                                                                     .          .
+                                                                     .          .
+                                                                     .          .
+
+                                                                     −2     2k + 1
+                                                  P (− wλ ) =                        .
+                                                                     1
+
+
+                                                                   2k + 2
+
+
+                                                                     .
+                                                                     .
+                                                                     .
+
+                                                                     n
+
+
+
+    If n − 1 − k < k ≤ [ n2 ], n will be even and k = n2 . Then we have λ = −kcζ + ρ = ( n2 − 1, n2 −
+2, . . . , 1, 0, −1, . . . , − n2 ). By Proposition 3.10, we have µ = (− n2 , −( n2 − 1), −( n2 − 1), . . . , −1, −1, 0). Thus
+we have:
+                  n −1   ...                     ...   1− n   −n          n         n −1   ...                      ...    1− n
+           λ− :   2            1      0    −1             2    2          2         2             1     0    −1               2
+
+
+
+
+           µ− :   −n
+                   2
+                         1− n
+                            2
+                              1− n
+                                 2
+                                     ...   ...   −1     −1    0             0        1      1    ...   ...   n -1
+                                                                                                             2
+                                                                                                                    n -1
+                                                                                                                    2
+                                                                                                                            n
+                                                                                                                            2
+
+
+
+
+   By Lemma 3.13, we can find that
+                   (
+                      ( n2 + 1, −( n2 + 2), n2 , −( n2 + 3), n2 − 1, . . . , −n, 2, 1),                if n2 is odd,
+              wλ =
+                      ( n2 + 1, −( n2 + 2), n2 , −( n2 + 3), n2 − 1, . . . , −n, 2, −1),               if n2 is even.
+
+
+                                                                14
+   By using the RS algorithm, when n2 is odd, we will have
+
+                                                                        −n   1
+
+
+                                                     P (− wλ ) =        .
+                                                                        .
+                                                                             .
+                                                                             .    .
+                                                                        .    .
+
+                                                                        −1   n
+
+
+
+   By using the RS algorithm, when n2 is even, we will have
+
+                                                                        −n   −1
+
+
+                                                                    −n + 1   2
+                                                     P (− wλ ) =                  .
+                                                                         .   .
+                                                                         .   .
+                                                                         .   .
+
+                                                                        −1   n
+
+
+
+                                                                                                                                    
+
+    Note that when n is even and k = n2 is odd, we may regard that wλ = (k + 1, −(k + 2), k, −(k + 3), k −
+1, . . . , −2k, 2, −(2k + 1), 1, −(2k + 2), . . . , −n) is reduced to ( n2 + 1, −( n2 + 2), n2 , −( n2 + 3), n2 − 1, . . . , −n, 2, 1).
+When n is even and k = n2 is even, the reduction is similar.
+    By using Theorem 3.8, we have the following result.
+
+Corollary 5.2. When G = SO∗ (2n), let L(λ) be an integral highest weight Harish-Chandra module. Then
+we have V (L(λ)) = V (Lw ) = Ok for some k ∈ Z and 1 ≤ k ≤ [ n2 ] if and only if
+                              
+                              
+                               (k + 1, −(k + 2), k, −(k + 3), k − 1, . . . ,
+                              
+                              −2k, 2, −(2k + 1), 1, −(2k + 2), . . . , −n),
+                        R   R                                                                if n − k is odd,
+                     wλ ∼ w ∼
+                              
+                              
+                               (k + 1, −(k + 2), k, −(k + 3), k − 1, . . . ,
+                                −2k, 2, −(2k + 1), −1, −(2k + 2), . . . , −n),               if n − k is even.
+                              
+
+5.2. The case of so(2, 2n − 2). From Enright–Howe–Wallach [EHW83], we know that the highest weight
+module L(λ) is an integral Harish-Chandra module if and only if λ1 ±λ2 ∈ Z, λi −λi+1 ∈ Z>0 for 2 ≤ i ≤ n−1
+and λn−1 − |λn | > 0. Therefore, Lw is a highest weight Harish-Chandra SO(2, 2n − 2)-module if and only if
+−wρ = (λ1 , λ2 , · · · , λn ) with λi − λi+1 ∈ Z>0 for 2 ≤ i ≤ n − 1 and λn−1 − |λn | > 0. The number of these
+                                        n!2n−1
+modules is |W| = |Wn′ /Wn−1    ′
+                                  | = (n−1)!2n−2 = 2n.
+
+   First we consider the Wallach representations.
+
+Theorem 5.3. Suppose gR = so(2, 2n − 2) and L(λ) is a highest weight Harish-Chandra module with highest
+weight λ − ρ = −kcζ. Suppose wλ ∈ W is the minimal length element such that µ = wλ−1 λ is antidominant,
+then we have
+                       
+                       
+                        (1, −n, −2, . . . , −(n − 1)),           if k = 1 and n is odd,
+                       
+                       (−1, −n, −2, . . . , −(n − 1)),           if k = 1 and n is even,
+                  wλ =
+                       
+                       
+                        (1, −2, . . . , −(n − 2), n, −(n − 1)),  if k = 2 and n is even,
+                         (−1, −2, . . . , −(n − 2), n, −(n − 1)), if k = 2 and n is odd.
+                       
+
+Proof. From [EHW83], we have λ = −kcζ + ρ = (−k(n − 2) + (n − 1), n − 2, n − 3, . . . , 1, 0). By Proposition
+3.19, we have V (L(λ)) = Ok .
+
+                                                                   15
+   When k = 1, λ = (1, n − 2, n − 3, . . . , 1, 0). By Proposition 3.10, we have µ = (−(n − 2), −(n −
+1), . . . , −2, −1 − 1, 0). Thus we have:
+
+                   λ− :    1   n− 2 n− 1 ...            1       0    0    −1    . . . 1 − n 2 − n −1
+
+
+
+
+                   µ− : 2 − n 1 − n . . .         −1    −1      0    0     1      1      ... n− 1 n− 2
+
+By Lemma 3.13, we can find that
+                                         (
+                                             (1, −n, −2, . . . , −(n − 1)),  if n is odd,
+                                  wλ =
+                                             (−1, −n, −2, . . . , −(n − 1)), if n is even.
+
+   When k = 2, λ = (3 − n, n − 2, n − 3, . . . , 2, 1, 0). By Proposition 3.10, we have µ = (−(n − 2), −(n −
+3), −(n − 3), −(n − 4), . . . , −2, −1, 0). Thus we have:
+
+            λ− :     3−n    n−2    n−3      ...    2        1   0    0    −1    −2     ...   3−n      2−n   n−3
+
+
+
+
+            µ− :     2−n    3−n    3−n      ...    −2    −1     0    0     1     2     ...   n−3      n−3   n−2
+
+
+
+By Lemma 3.13, we can find that
+                             (
+                               (1, −2, . . . , −(n − 2), n, −(n − 1)),  if n is even,
+                      wλ =
+                               (−1, −2, . . . , −(n − 2), n, −(n − 1)), if n is odd.
+
+                                                                                                                  
+
+  By using Theorem 3.8, we have the following result.
+
+Corollary 5.4. When G = SO(2, 2n − 2), let L(λ) be an integral highest weight Harish-Chandra module.
+Then we have V (L(λ)) = V (Lw ) = O 1 if and only if
+                                   (
+                            R    R    (1, −n, −2, . . . , −(n − 1)),  if n is odd,
+                        wλ ∼ w ∼
+                                      (−1, −n, −2, . . . , −(n − 1)), if n is even,
+
+and V (L(λ)) = V (Lw ) = O 2 if and only if
+                                 (
+                         R     R   (1, −2, . . . , −(n − 2), n, −(n − 1)),            if n is even,
+                      wλ ∼ w ∼
+                                   (−1, −2, . . . , −(n − 2), n, −(n − 1)),           if n is odd.
+
+
+                                                                16
+5.3. The size of highest weight Harish-Chandra cells of type Dn . First we recall Lusztig’s D-symbols
+[Lus77]. Let                                               
+                                             λ1 λ2 · · · λm
+                                                              ,m ≥ 0
+                                             µ1 µ2 · · · µm
+be a tableau of nonnegative integers such that entries in each row are strictly increasing. Define an equivalence
+relation on the set of all such tableaux via
+                                                                                           
+                     µ1 µ2 · · · µm      λ1 λ2 · · · λm        0 λ1 + 1 λ2 + 1 · · · λm + 1
+                                     ∼                     ∼                                       .
+                     λ1 λ2 · · · λm      µ1 µ2 · · · µ m       0 µ1 + 1 µ2 + 1 · · · µm + 1
+                                                                                                                       
+                                                                                                         λ1 λ2 · · · λm
+Denote by ΣD the set of equivalence classes under this relation ∼. Use the same notation Λ =                              ∈
+                                                                                                         µ1 µ2 · · · µm
+ΣD to denote its equivalence class, called a D-symbol.
+   Suppose g is of type Dn . Let Od be a nilpotent orbit of g with partition
+                                                                                d = [d1 , . . . , dk ] of 2n, then k is
+                                                          λ1 λ2 · · · λm
+even. From [CM93, §10.1], there is a D-symbol Λ =                          such that, as multisets
+                                                          µ1 µ2 · · · µm
+                               {2λi + 1, 2µj | i ≤ m, j ≤ m} = {dl + k − l | l ≤ k},
+where 2m = k.
+    Recall that the elements of Irr(Wn′ ) are parameterized by the unordered bipartitions {d, f } with |d| +
+|f | = n, except that if n = 2m is even and d = f , then the unordered bipartition {d, d} corresponds to
+                         I          II
+two representations, π{d,d}   and π{d,d} . So there is a one-to-one correspondence between D-symbols and
+unordered
+           bipartitions
+                        except that if n = 2m is even and d = f . It can be described as follows. Let
+       λ1 λ2 · · · λm
+Λ=                      ∈ ΣD . We subtract i − 1 from the i-th element of the top row and bottom row. Then
+        µ1 µ2 · · · µm
+we get an unordered bipartition {d, f } corresponding to the new top row and bottom row.
+Proposition 5.5 ([CM93, Thm. 10.1.2 and Thm. 10.1.3]). Suppose g is of type Dn . Then we have
+                                       ( 
+                                          n
+                                              dim πd · dim πf , if d 6= f
+                          dim π{d,f } = 1|d|n          2
+                                         2 |d| (dim πd ) ,      if d = f .
+Theorem 5.6. We use Ck to denote a Harish-Chandra cell consisting of highest weight Harish-Chandra
+SO∗ (2n)-modules Lw with associated variety Ok for some k ∈ Z and 0 ≤ k ≤ [ n2 ]. Then we have
+                                             ( 
+                                                n
+                                                   ,   if k 6= n2 ,
+                                      #Ck = 1k n 
+                                               2 n ,   if k = n2 .
+                                                          2
+
+
+Proof. From [BZ17, §3], we know that there is an irreducible Wn′ -module π(OkC , 1) for each complex nilpotent
+G-orbit OkC via the Springer correspondence. Suppose k > 0. From [BJ24], we know that the partition
+corresponding to OkC is p = [22k , 12n−4k ]. The corresponding D-symbol is
+                                                                               
+                                      0 · · · n − 2k − 1 n − 2k + 1 · · · n − k
+                              Λ=                                                  ,
+                                       1 ···     n − 2k n − 2k + 1 · · · n − k
+and the corresponding bipartition is
+                                        {d, f } = {[1k ], [1n−k ]}.
+  By Proposition 4.7, we have dim πd = dim πf = 1. Note that when d = f , we will have |d| = |f | = n2 = k.
+Thus by Proposition 5.5, we can get
+                                              ( 
+                                                 n
+                                                   ,       if k 6= n2 ,
+                                      #Ck = 1k n 
+                                                2 n ,      if k = n2 .
+                                                          2
+
+When k = 0, we have #C0 = 1 since C0 = {C}.                                                                          
+Theorem 5.7. We use Ck to denote a Harish-Chandra cell consisting of highest weight Harish-Chandra
+SO(2, 2n − 2)-modules Lw with associated variety Ok for 0 ≤ k ≤ 2. Then we have
+                                       #C2 = n − 1, #C1 = n and #C0 = 1.
+
+                                                          17
+Proof. The argument is similar to the proof of Theorem 5.6. From [BJ24], we know that the partition
+corresponding to O2C is p = [3, 12n−3 ]. The corresponding D-symbol is
+                                                               
+                                                0 ··· n− 3 n − 2
+                                          Λ=                      ,
+                                                 1 ··· n− 2 n
+and the corresponding bipartition is
+                                             {d, f } = {∅, [2, 1n−2]}.
+  By Proposition 4.7, we have dim πd = 1 and dim πf = n − 1. Thus by Proposition 5.5, we can get
+                                         
+                                          n
+                                  #C2 =      dim πd · dim πf = n − 1.
+                                          0
+  From [BJ24], we know that the partition corresponding to O1C is p = [2, 2, 12n−4 ]. The corresponding
+D-symbol is                                               
+                                           0 ··· n− 3 n − 1
+                                     Λ=                       ,
+                                           1 ··· n− 2 n − 1
+and the corresponding bipartition is
+                                              {d, f } = {[1], [1n−1 ]}.
+By Proposition 4.7, we have dim πd = 1 and dim πf = 1. Thus by Proposition 5.5, we can get #C1 = n.
+Finally, we have #C0 = 1.
+                                                                                                 
+
+Remark 5.8. By using PyCox [Gec12], we can easily find out all the elements in a given Harish-Chandra
+cell Ck . In PyCox [Gec12], the order “klcellrepelm(W, w)” will give us the index iw of the left cell CL (w)
+containing w ∈ Wn′ . Then the order “left− cell− infos[iw ]” will given us all the elements contained in this left
+cell CL (w). If we choose w = wλ−1 for some wλ in Theorem 5.1 and Theorem 5.3, then by using PyCox,
+we can find out all the elements {x1 , . . . , xm } contained in the same left cell CL (wλ−1 ). Thus the right cell
+CR (w−1 ) = CR (wλ ) consists of the following elements:
+                                                   {x−1           −1
+                                                     1 , . . . , xm }.
+
+
+                                  6. The cases of type E6 and type E7
+   In this section, we consider highest weight Harish-Chandra modules of type E. We use W (En ) to denote
+the Weyl group of En .
+   First we recall the method of finding out the minimal length element wλ for an integral weight λ such
+that wλ−1 λ = µ is antidominant.
+   Let ∆ = {αi | 1 ≤ i ≤ n} be the simple roots of an exceptional type root system Φ with corresponding
+fundamental weights {ωi | 1 ≤ i ≤ n}. The Cartan matrix is defined by A = (Aij )n×n with Aij = (αi , α∨ j)
+                                                    n
+                                                      Ajk ωk . For any λ ∈ h∗ , we can write λ =
+                                                   P                                             P
+and Aij ∈ {0, −1, −2, −3} for i 6= j. Then αj =                                                      ki ωi ,
+                                                         k=1                                                     1≤i≤n
+where ki = (λ, α∨
+                i ). Then an integral weight λ is antidominant if and only if ki ∈ Z≤0 for all 1 ≤ i ≤ n.
+   Now we want to find wλ for an integral weight λ. When λ is antidominant (resp. dominant), wλ = Id
+(resp. −Id). Suppose λ is not antidominant, then there exist some ki ∈ Z>0 . We choose the largest index
+iλ = i1 such that ki1 ∈ Z>0 . Denote the simple reflection sαi by si . Then we have
+                                                  n
+                                                  X                                       n
+                                                                                          X
+                  si1 λ = λ − ki1 αi1 = λ − ki1         Ai1 j ωj = λ − 2ki1 ωi1 − ki1               Ai1 j ωj .
+                                                  j=1                                   j=1,j6=i1
+
+Then the coefficient of ωi1 in si1 λ becomes −ki1 .
+  The above process is called the positive reduction algorithm.
+Lemma 6.1 ([Don23, Lem. 3.1]). For any integral weight λ (regular or singular), we can get an antidominant
+weight µ after finite steps of the positive reduction algorithm. We multiply all the si appeared in these steps
+and get a wλ . Then this wλ has the minimal length in W such that wλ−1 λ is antidominant.
+
+                                                            18
+Example 6.2. Let λ = (−1, 1, −1, −1, −1, 1, 1, −1) be an integral weight of type E6 . We can write λ =
+−ω1 + 2ω3 − 2ω4 := [−1, 0, 2, −2, 0, 0]. The largest index of λ with a positive element is i1 = 3. Recall that
+α3 = −ω1 + 2ω3 − ω4 =: [−1, 0, 2, −1, 0, 0]. Thus s3 λ = λ − 2α3 = [1, 0, −2, 0, 0, 0]. The largest index of s3 λ
+with a positive element is i2 = 1. Recall that α1 = 2ω1 − ω3 . Thus s1 s3 λ = s3 λ − α1 = [−1, 0, −1, 0, 0, 0],
+which is already antidominant. Thus we have wλ = s3 s1 .
+6.1. The case of e6(−14) . In this subsection, we assume that g is of type E6 and gR = e6(−14) .
+   The root system Φ can be realized as a subset of R8 . The simple roots are
+                                     1
+                               α1 = (ε1 − ε2 − ε3 − ε4 − ε5 − ε6 − ε7 + ε8 ),
+                                     2
+                               α2 = ε1 + ε2 ,
+                               αk = εk−1 − εk−2 with 3 ≤ k ≤ 6.
+   For type E6 , we have
+                                                     n1 X5                              X5           o
+              Φ+ = {εi ± εj | 5 ≥ i > j ≥ 1} ∪         ( (−1)n(i) εi − ε6 − ε7 + ε8 ) |     n(i) even
+                                                      2 i=1                             i=1
+
+and h∗ = {(λ1 , λ2 , · · · , λ8 ) ∈ C8 | λ6 = λ7 = −λ8 }. Then λ = (λ1 , λ2 , · · · , λ8 ) is an integral weight if and
+only if λ1 − λ2 − · · · − λ7 + λ8 ∈ 2Z, λ1 − λ2 ∈ Z, λ2 − λ3 ∈ Z, λ3 − λ4 ∈ Z, λ4 − λ5 ∈ Z and 2λi ∈ Z for
+1 ≤ i ≤ 5.
+   From Enright–Howe–Wallach [EHW83], we know that the highest weight module L(λ) is an integral
+Harish-Chandra module if and only if λ5 > λ4 > · · · > λ2 > |λ1 |, 2λk ∈ Z for 1 ≤ k ≤ 5 and λi − λi+1 ∈ Z
+for 1 ≤ i ≤ 4. Therefore, Lw is a highest weight Harish-Chandra module of E6 if and only if −wρ =
+(λ1 , λ2 , · · · , λn ) with λ5 > λ4 > · · · > λ2 > |λ1 | and 2λk ∈ Z for 1 ≤ k ≤ 5. The number of these modules is
+                               7 4
+|W| = |W (E6 )/W5′ | = 22435!5 = 27.
+   From [Bou02], the Cartan matrix of E6 is
+                                                                              
+                                                2     0 −1 0         0     0
+                                              0
+                                                     2     0 −1 0         0  
+                                              −1 0         2 −1 0         0 
+                                              0 −1 −1 2 −1 0  .
+                                                                              
+                                                                              
+                                              0      0     0 −1 2 −1 
+                                                0     0     0    0 −1 2
+   First we consider the Wallach representations. Denote si sj sk := [i, j, k].
+Theorem 6.3. Suppose gR = e6(−14) and L(λ) is a highest weight Harish-Chandra module with highest
+weight λ − ρ = −kcζ. Suppose wλ ∈ W is the minimal length element such that µ = wλ−1 λ is antidominant,
+then we have                 
+                             
+                              [6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 2, 4, 5, 6, 3, 4,
+                             
+                             5, 2, 4, 3, 1, 3, 4, 5, 6, 2, 4, 5, 3, 4, 2, 1, 3], if k = 1,
+                        wλ =
+                             
+                             
+                              [6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 2, 4, 5, 6,
+                               3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6, 2, 4],            if k = 2.
+                             
+
+Proof. From [EHW83], we have λ = −kcζ + ρ = (0, 1, 2, 3, 4, 2k − 4, 2k − 4, −2k + 4). By Proposition 3.19,
+we have V (L(λ)) = O k for k = 0, 1, 2.
+  When k = 1, we have λ = (0, 1, 2, 3, 4, −2, −2, 2). Then we can write λ = −2ω1 + ω2 + ω3 + ω4 + ω5 + ω6 :=
+[−2, 1, 1, 1, 1, 1]. By Lemma 6.1, we have the following steps to find wλ :
+                         λ : = [−2, 1, 1, 1, 1, 1]
+                             −α 6                        −2α
+                                                          5
+                             −−−→ [−2, 1, 1, 1, 2, −1] −−−→ [−2, 1, 1, 3, −2, 1]
+                             −α 6                          −3α
+                                                           4
+                             −−−→ [−2, 1, 1, 3, −1, −1] −−−→ [−2, 4, 4, −3, 2, −1]
+                             −2α5                          6−α
+                             −−−→ [−2, 4, 4, −1, −2, 1] −−−→ [−2, 4, 4, −1, −1, −1]
+
+                                                            19
+                          −4α3                          4   −3α
+                          −−−→ [2, 4, −4, 3, −1, −1] −−−→ [2, 7, −1, −3, 2, −1]
+                          −2α5                          6   −α
+                          −−−→ [2, 7, −1, −1, −2, 1] −−−→ [2, 7, −1, −1, −1, −1]
+                          −7α2                           4    −6α
+                          −−−→ [2, −7, −1, 6, −1, −1] −−−→ [2, −1, 5, −6, 5, −1]
+                          −5α5                          6   −4α
+                          −−−→ [2, −1, 5, −1, −5, 4] −−−→ [2, −1, 5, −1, −1, −4]
+                          −5α3                           4    −4α
+                          −−−→ [7, −1, −5, 4, −1, −4] −−−→ [7, 3, −1, −4, 3, −4]
+                          −3α5                           2    −3α
+                          −−−→ [7, 3, −1, −1, −3, −1] −−−→ [7, −3, −1, 2, −3, −1]
+                          −2α4                           3    −α
+                          −−−→ [7, −1, 1, −2, −1, −1] −−−→ [8, −1, −1, −1, −1, −1]
+                          −8α1                            3       −7α
+                          −−−→ [−8, −1, 7, −1, −1, −1] −−−→ [−1, −1, −7, 6, −1, −1]
+                          −6α4                           5    −5α
+                          −−−→ [−1, 5, −1, −6, 5, −1] −−−→ [−1, 5, −1, −1, −5, 4]
+                          −4α6                            2       −5α
+                          −−−→ [−1, 5, −1, −1, −1, −4] −−−→ [−1, −5, −1, 4, −1, −4]
+                          −4α4                           5    −3α
+                          −−−→ [−1, −1, 3, −4, 3, −4] −−−→ [−1, −1, 3, −1, −3, −1]
+                          −3α3                           4    −2α
+                          −−−→ [2, −1, −3, 2, −3, −1] −−−→ [2, 1, −1, −2, −1, −1]
+                          −α 2                            1      −2α
+                          −−−→ [2, −1, −1, −1, −1, −1] −−−→ [−2, −1, 1, −1, −1, −1]
+                          −α 3
+                          −−−→ [−1, −1, −1, 0, −1, −1]
+                          := µ.
+       −kj αj
+Here x −−−−→ y means that sj x = x − kj αj = y since xj = kj .
+  Thus we have
+
+                                  wλ =[6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 2, 4, 5, 6, 3, 4,
+                                        5, 2, 4, 3, 1, 3, 4, 5, 6, 2, 4, 5, 3, 4, 2, 1, 3].
+
+  When k = 2, we have λ = (0, 1, 2, 3, 4, 0, 0, 0). Then we can write λ = −5ω1 + ω2 + ω3 + ω4 + ω5 + ω6 :=
+[−5, 1, 1, 1, 1, 1]. By Lemma 6.1, we have the following steps to find wλ :
+
+                      λ : = [−5, 1, 1, 1, 1, 1]
+                          −α 6                         5−2α
+                          −−−→ [−5, 1, 1, 1, 2, −1] −−−→ [−5, 1, 1, 3, −2, 1]
+                          −α 6                          4  −3α
+                          −−−→ [−5, 1, 1, 3, −1, −1] −−−→ [−5, 4, 4, −3, 2, −1]
+                          −2α5                          6   −α
+                          −−−→ [−5, 4, 4, −1, −2, 1] −−−→ [−5, 4, 4, −1, −1, −1]
+                          −4α3                           4    −3α
+                          −−−→ [−1, 4, −4, 3, −1, −1] −−−→ [−1, 7, −1, −3, 2, −1]
+                          −2α5                           6    −α
+                          −−−→ [−1, 7, −1, −1, −2, 1] −−−→ [−1, 7, −1, −1, −1, −1]
+                          −7α2                            4       −6α
+                          −−−→ [−1, −7, −1, 6, −1, −1] −−−→ [−1, −1, 5, −6, 5, −1]
+                          −5α5                           6    −4α
+                          −−−→ [−1, −1, 5, −1, −5, 4] −−−→ [−1, −1, 5, −1, −1, −4]
+                          −5α3                           4    −4α
+                          −−−→ [4, −1, −5, 4, −1, −4] −−−→ [4, 3, −1, −4, 3, −4]
+                          −3α5                           2    −3α
+                          −−−→ [4, 3, −1, −1, −3, −1] −−−→ [4, −3, −1, 2, −3, −1]
+                          −2α4                           3    −α
+                          −−−→ [4, −1, 1, −2, −1, −1] −−−→ [5, −1, −1, −1, −1, −1]
+                          −5α1                            3       −4α
+                          −−−→ [−5, −1, 4, −1, −1, −1] −−−→ [−1, −1, −4, 3, −1, −1]
+                          −3α4                           5    −2α
+                          −−−→ [−1, 2, −1, −3, 2, −1] −−−→ [−1, 2, −1, −1, −2, 1]
+
+                                                            20
+                                −α 6                            2      −2α
+                                −−−→ [−1, 2, −1, −1, −1, −1] −−−→ [−1, −2, −1, 1, −1, −1]
+                                −α 4
+                                −−−→ [−1, −1, 0, −1, 0, −1]
+                                := µ.
+   Thus we have
+                                            wλ =[6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 2, 4, 5, 6,
+                                                  3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6, 2, 4].
+                                                                                                                             
+
+Corollary 6.4. When gR = e6(−14) , let L(λ) be an integral highest weight Harish-Chandra module. Then
+we have V (L(λ)) = V (Lw ) = O1 if and only if
+                  R     R
+             wλ ∼ w ∼ [6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6, 2, 4, 5, 3, 4, 2, 1, 3],
+and V (L(λ)) = V (Lw ) = O 2 if and only if
+                            R   R
+                      wλ w ∼ ∼ [6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6, 2, 4].
+Theorem 6.5. When gR = e6(−14) , we use Ck to denote a Harish-Chandra cell consisting of highest weight
+Harish-Chandra modules Lw with associated variety Ok for 0 ≤ k ≤ 2. Then we have
+                                             #C2 = 20, #C1 = 6, and #C0 = 1.
+Proof. See [Bai+24, Exa. 4.5].                                                                                               
+
+   Note that the elements in W are described in [Zie18, Tab. 3].
+
+6.2. The case of type e7(−25) . In this subsection, we assume that g is of type E7 and gR = e7(−25) .
+   The root system Φ can be realized as a subset of R8 . The simple roots are
+                                          1
+                                     α1 =   (ε1 − ε2 − ε3 − ε4 − ε5 − ε6 − ε7 + ε8 ),
+                                          2
+                                     α2 = ε1 + ε2 ,
+                                     αk = εk−1 − εk−2 with 3 ≤ k ≤ 7.
+   For type E7 , we have
+                                                            n1 X6                         X6          o
+                 Φ+ = {εi ± εj | 6 ≥ i > j ≥ 1} ∪             ( (−1)n(i) εi − ε7 + ε8 ) |     n(i) odd
+                                                             2 i=1                        i=1
+
+and h∗ = {(λ1 , λ2 , · · · , λ8 ) ∈ C8 | λ7 = −λ8 }. Then λ = (λ1 , λ2 , · · · , λ8 ) is an integral weight if and only if
+λ1 − λ2 − · · · − λ7 + λ8 ∈ 2Z, λi − λi+1 ∈ Z and 2λk ∈ Z for 1 ≤ i ≤ 5 and 1 ≤ k ≤ 6.
+   From Enright–Howe–Wallach [EHW83], we know that the highest weight module L(λ) is an integral
+Harish-Chandra module if and only if λ5 > λ4 > · · · > λ2 > |λ1 |, 2λk ∈ Z for 1 ≤ k ≤ 5 and λi − λi+1 ∈ Z
+for 1 ≤ i ≤ 4. Therefore, Lw is a highest weight Harish-Chandra module of E6 if and only if −wρ =
+(λ1 , λ2 , · · · , λn ) with λ5 > λ4 > · · · > λ2 > |λ1 |, 2λk ∈ Z for 1 ≤ k ≤ 5. The number of these modules is
+                                  10 4
+|W| = |W (E7 )/W (E6 )| = 2 273345·7   5 = 56.
+   From [Bou02], the Cartan matrix of E7 is
+                                                                                 
+                                             2    0 −1 0          0    0       0
+                                         0
+                                                 2    0 −1 0          0       0 
+                                         −1 0         2 −1 0          0       0
+                                                                                 
+                                          0 −1 −1 2 −1 0                      0
+                                                                                 .
+                                         0
+                                                 0    0    −1    2   −1       0  
+                                                                                  
+                                         0       0    0     0 −1 2 −1
+                                             0    0    0     0    0 −1 2
+
+                                                                  21
+Theorem 6.6. Suppose gR = e7(−25) and L(λ) is a highest weight Harish-Chandra module with highest
+weight λ − ρ = −kcζ. Suppose wλ ∈ W is the minimal length element such that µ = wλ−1 λ is antidominant,
+then we have
+                 
+                 
+                  [6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 7, 2, 4, 5, 6, 7, 3, 4, 5, 6, 2, 4, 5, 3, 4, 2, 1, 3, 4, 5,
+                 
+                   6, 7, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6, 7, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1],    if k = 1,
+                 
+                 
+                 
+                 
+                 
+                 [6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 2, 4, 5, 6, 7, 3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6,
+            wλ =
+                 
+                 
+                  7, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6, 7, 2, 4, 5, 6, 3, 4, 5, 2],                if k = 2,
+                   [6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1,
+                 
+                 
+                 
+                 
+                 
+                   3, 4, 5, 6, 7, 2, 4, 5, 6, 3, 4, 5, 2, 4, 1, 3, 4, 5, 6, 7, 2],                            if k = 3.
+                 
+
+Proof. From [EHW83], we have λ = −kcζ + ρ = (0, 1, 2, 3, 4, 5 − 4k, 2k − 17        17
+                                                                               2 , 2 − 2k). By Proposition 3.19,
+we have V (L(λ)) = O k for k = 0, 1, 2, 3.
+    When k = 1, we have λ = (0, 1, 2, 3, 4, 1, − 13  13
+                                                 2 , 2 ). Then we can write λ = ω1 +ω2 +ω3 +ω4 +ω5 +ω6 −ω7 :=
+[1, 1, 1, 1, 1, 1, −3]. By Lemma 6.1, we have the following steps to find wλ :
+
+                  λ : = [1, 1, 1, 1, 1, 1, −3]
+                      −α 6                        −2α 5
+                      −−−→ [1, 1, 1, 1, 2, −1, −2] −−−→ [1, 1, 1, 3, −2, 1, −2]
+                      −α 6                          −3α4
+                      −−−→ [1, 1, 1, 3, −1, −1, −1] −−−→ [1, 4, 4, −3, 2, −1, −1]
+                      −2α5                           −α6
+                      −−−→ [1, 4, 4, −1, −2, 1, −1] −−−→ [1, 4, 4, −1, −1, −1, 0]
+                      −4α3                           −3α
+                                                       4
+                      −−−→ [5, 4, −4, 3, −1, −1, 0] −−−→ [5, 7, −1, −3, 2, −1, 0]
+                      −2α5                           −α6
+                      −−−→ [5, 7, −1, −1, −2, 1, 0] −−−→ [5, 7, −1, −1, −1, −1, 1]
+                      −α 7                              −7α
+                                                        2
+                      −−−→ [5, 7, −1, −1, −1, 0, −1] −−−→ [5, −7, −1, 6, −1, 0, −1]
+                      −6α4                           −5α
+                                                       5
+                      −−−→ [5, −1, 5, −6, 5, 0, −1] −−−→ [5, −1, 5, −1, −5, 5, −1]
+                      −5α6                           −4α
+                                                       7
+                      −−−→ [5, −1, 5, −1, 0, −5, 4] −−−→ [5, −1, 5, −1, 0, −1, −4]
+                      −5α3                               4−4α
+                      −−−→ [10, −1, −5, 4, 0, −1, −4] −−−→ [10, 3, −1, −4, 4, −1, −4]
+                      −4α5                              −3α
+                                                        6
+                      −−−→ [10, 3, −1, 0, −4, 3, −4] −−−→ [10, 3, −1, 0, −1, −3, −1]
+                      −3α2                                4   −3α
+                      −−−→ [10, −3, −1, 3, −1, −3, −1] −−−→ [10, 0, 2, −3, 2, −3, −1]
+                      −2α5                               3−2α
+                      −−−→ [10, 0, 2, −1, −2, −1, −1] −−−→ [12, 0, −2, 1, −2, −1, −1]
+                      −α 4                                2−α
+                      −−−→ [12, 1, −1, −1, −1, −1, −1] −−−→ [12, −1, −1, 0, −1, −1, −1]
+                      −12α1                                  3  −11α
+                      −−−−→ [−12, −1, 11, 0, −1, −1, −1] −−−−→ [−1, −1, −11, 11, −1, −1, −1]
+                      −11α4                                  5  −10α
+                      −−−−→ [−1, 10, 0, −11, 10, −1, −1] −−−−→ [−1, 10, 0, −1, −10, 9, −1]
+                      −9α6                               7−8α
+                      −−−→ [−1, 10, 0, −1, −1, −9, 8] −−−→ [−1, 10, 0, −1, −1, −1, −8]
+                      −10α2                                4  −9α
+                      −−−−→ [−1, −10, 0, 9, −1, −1, −8] −−−→ [−1, −1, 9, −9, 8, −1, −8]
+                      −8α5                               6 −7α
+                      −−−→ [−1, −1, 9, −1, −8, 7, −8] −−−→ [−1, −1, 9, −1, −1, −7, −1]
+                      −9α3                               4 −8α
+                      −−−→ [8, −1, −9, 8, −1, −7, −1] −−−→ [8, 7, −1, −8, 7, −7, −1]
+                      −7α5                              −7α
+                                                        2
+                      −−−→ [8, 7, −1, −1, −7, 0, −1] −−−→ [8, −7, −1, 6, −7, 0, −1]
+                      −6α4                              −5α
+                                                        3
+                      −−−→ [8, −1, 5, −6, −1, 0, −1] −−−→ [13, −1, −5, −1, −1, 0, −1]
+                      −13α1                                3  −8α
+                      −−−−→ [−13, −1, 8, −1, −1, 0, −1] −−−→ [−5, −1, −8, 7, −1, 0, −1]
+
+                                                           22
+                     −7α4                              5      −6α
+                     −−−→ [−5, 6, −1, −7, 6, 0, −1] −−−→ [−5, 6, −1, −1, −6, 6, −1]
+                     −6α6                              7      −5α
+                     −−−→ [−5, 6, −1, −1, 0, −6, 5] −−−→ [−5, 6, −1, −1, 0, −1, −5]
+                     −6α2                               4        −5α
+                     −−−→ [−5, −6, −1, 5, 0, −1, −5] −−−→ [−5, −1, 4, −5, 5, −1, −5]
+                     −5α5                              6      −4α
+                     −−−→ [−5, −1, 4, 0, −5, 4, −5] −−−→ [−5, −1, 4, 0, −1, −4, −1]
+                     −4α3                                4          −4α
+                     −−−→ [−1, −1, −4, 4, −1, −4, −1] −−−→ [−1, 3, 0, −4, 3, −4, −1]
+                     −3α5                               2        −2α
+                     −−−→ [−1, 3, 0, −1, −3, −1, −1] −−−→ [−1, −3, 0, 2, −3, −1, −1]
+                     −2α4                                3          −2α
+                     −−−→ [−1, −1, 2, −2, −1, −1, −1] −−−→ [1, −1, −2, 0, −1, −1, −1]
+                     −α 1
+                     −−−→ [−1, −1, −1, 0, −1, −1, −1]
+                     := µ.
+  Thus we have
+                   wλ =[6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 7, 2, 4, 5, 6, 7, 3, 4, 5, 6, 2, 4, 5, 3, 4, 2, 1, 3, 4, 5,
+                          6, 7, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6, 7, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1].
+
+    When k = 2, we have λ = (0, 1, 2, 3, 4, −3, − 29 , 29 ). Then we can write λ = ω1 +ω2 +ω3 +ω4 +ω5 +ω6 −7ω7 :=
+[1, 1, 1, 1, 1, 1, −7]. By Lemma 6.1, we have the following steps to find wλ :
+                    λ : = [1, 1, 1, 1, 1, 1, −7]
+                         −α6                            5  −2α
+                        −−−→ [1, 1, 1, 1, 2, −1, −6] −−−→ [1, 1, 1, 3, −2, 1, −6]
+                         −α6                             4    −3α
+                        −−−→ [1, 1, 1, 3, −1, −1, −5] −−−→ [1, 4, 4, −3, 2, −1, −5]
+                         −2α
+                           5                             6     −α
+                        −−−→ [1, 4, 4, −1, −2, 1, −5] −−−→ [1, 4, 4, −1, −1, −1, −4]
+                         −4α
+                           3                              4      −3α
+                        −−−→ [5, 4, −4, 3, −1, −1, −4] −−−→ [5, 7, −1, −3, 2, −1, −4]
+                         −2α
+                           5                              6      −α
+                        −−−→ [5, 7, −1, −1, −2, 1, −4] −−−→ [5, 7, −1, −1, −1, −1, −3]
+                         −7α
+                           2                               4         −6α
+                        −−−→ [5, −7, −1, 6, −1, −1, −3] −−−→ [5, −1, 5, −6, 5, −1, −3]
+                         −5α
+                           5                              6      −4α
+                        −−−→ [5, −1, 5, −1, −5, 4, −3] −−−→ [5, −1, 5, −1, −1, −4, 1]
+                         −α7                               3        −5α
+                        −−−→ [5, −1, 5, −1, −1, −3, −1] −−−→ [10, −1, −5, 4, −1, −3, −1]
+                         −4α
+                           4                               5        −3α
+                        −−−→ [10, 3, −1, −4, 3, −3, −1] −−−→ [10, 3, −1, −1, −3, 0, −1]
+                         −3α
+                           2                               4        −2α
+                        −−−→ [10, −3, −1, 2, −3, 0, −1] −−−→ [10, −1, 1, −2, −1, 0, −1]
+                         −α3                                 1        −11α
+                        −−−→ [11, −1, −1, −1, −1, 0, −1] −−−−→ [−11, −1, 10, −1, −1, 0, −1]
+                         −10α
+                            3                                4         −9α
+                        −−−−→ [−1, −1, −10, 9, −1, 0, −1] −−−→ [−1, 8, −1, −9, 8, 0, −1]
+                         −8α
+                           5                               6         −8α
+                        −−−→ [−1, 8, −1, −1, −8, 8, −1] −−−→ [−1, 8, −1, −1, 0, −8, 7]
+                         −7α
+                           7                               2         −8α
+                        −−−→ [−1, 8, −1, −1, 0, −1, −7] −−−→ [−1, −8, −1, 7, 0, −1, −7]
+                         −7α
+                           4                               5         −7α
+                        −−−→ [−1, −1, 6, −7, 7, −1, −7] −−−→ [−1, −1, 6, 0, −7, 6, −7]
+                         −6α
+                           6                               3         −6α
+                        −−−→ [−1, −1, 6, 0, −1, −6, −1] −−−→ [5, −1, −6, 6, −1, −6, −1]
+                         −6α
+                           4                             5     −5α
+                        −−−→ [5, 5, 0, −6, 5, −6, −1] −−−→ [5, 5, 0, −1, −5, −1, −1]
+                         −5α
+                           2                              4      −4α
+                        −−−→ [5, −5, 0, 4, −5, −1, −1] −−−→ [5, −1, 4, −4, −1, −1, −1]
+                         −4α
+                           3                               1         −9α
+                        −−−→ [9, −1, −4, 0, −1, −1, −1] −−−→ [−9, −1, 5, 0, −1, −1, −1]
+
+                                                                 23
+                          −5α
+                           3                                4            −5α
+                        −−−→ [−4, −1, −5, 5, −1, −1, −1] −−−→ [−4, 4, 0, −5, 4, −1, −1]
+                          −4α
+                           5                              6        −3α
+                        −−−→ [−4, 4, 0, −1, −4, 3, −1] −−−→ [−4, 4, 0, −1, −1, −3, 2]
+                          −2α
+                           7                               2          −4α
+                        −−−→ [−4, 4, 0, −1, −1, −1, −2] −−−→ [−4, −4, 0, 3, −1, −1, −2]
+                          −3α
+                           4                               5          −2α
+                        −−−→ [−4, −1, 3, −3, 2, −1, −2] −−−→ [−4, −1, 3, −1, −2, 1, −2]
+                          −α
+                           6                                3           −3α
+                        −−−→ [−4, −1, 3, −1, −1, −1, −1] −−−→ [−1, −1, −3, 2, −1, −1, −1]
+                          −2α
+                           4                               5          −α
+                        −−−→ [−1, 1, −1, −2, 1, −1, −1] −−−→ [−1, 1, −1, −1, −1, 0, −1]
+                          −α
+                           2
+                        −−−→ [−1, −1, −1, 0, −1, 0, −1]
+                        := µ.
+  Thus we have
+                        wλ =[6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 2, 4, 5, 6, 7, 3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6,
+                                7, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6, 7, 2, 4, 5, 6, 3, 4, 5, 2].
+
+  When k = 3, we have λ = (0, 1, 2, 3, 4, −7, − 25 , 52 ). Then we can write λ = ω1 + ω2 + ω3 + ω4 + ω5 + ω6 −
+11ω7 := [1, 1, 1, 1, 1, 1, −11]. By Lemma 6.1, we have the following steps to find wλ :
+                 λ : = [1, 1, 1, 1, 1, 1, −11]
+                     −α6                             5   −2α
+                    −−−→ [1, 1, 1, 1, 2, −1, −10] −−−→ [1, 1, 1, 3, −2, 1, −10]
+                     −α6                             4    −3α
+                    −−−→ [1, 1, 1, 3, −1, −1, −9] −−−→ [1, 4, 4, −3, 2, −1, −9]
+                     −2α
+                       5                             6     −α
+                    −−−→ [1, 4, 4, −1, −2, 1, −9] −−−→ [1, 4, 4, −1, −1, −1, −8]
+                     −4α
+                       3                              4       −3α
+                    −−−→ [5, 4, −4, 3, −1, −1, −8] −−−→ [5, 7, −1, −3, 2, −1, −8]
+                     −2α
+                       5                              6       −α
+                    −−−→ [5, 7, −1, −1, −2, 1, −8] −−−→ [5, 7, −1, −1, −1, −1, −7]
+                     −7α
+                       2                               4        −6α
+                    −−−→ [5, −7, −1, 6, −1, −1, −7] −−−→ [5, −1, 5, −6, 5, −1, −7]
+                     −5α
+                       5                              6       −4α
+                    −−−→ [5, −1, 5, −1, −5, 4, −7] −−−→ [5, −1, 5, −1, −1, −4, −3]
+                     −5α
+                       3                                4          −4α
+                    −−−→ [10, −1, −5, 4, −1, −4, −3] −−−→ [10, 3, −1, −4, 3, −4, −3]
+                     −3α
+                       5                                2          −3α
+                    −−−→ [10, 3, −1, −1, −3, −1, −3] −−−→ [10, −3, −1, 2, −3, −1, −3]
+                     −2α
+                       4                                3          −α
+                    −−−→ [10, −1, 1, −2, −1, −1, −3] −−−→ [11, −1, −1, −1, −1, −1, −3]
+                     −11α
+                        1                                   3            −10α
+                    −−−−→ [−11, −1, 10, −1, −1, −1, −3] −−−−→ [−1, −1, −10, 9, −1, −1, −3]
+                     −9α
+                       4                               5        −8α
+                    −−−→ [−1, 8, −1, −9, 8, −1, −3] −−−→ [−1, 8, −1, −1, −8, 7, −3]
+                     −7α
+                       6                               7        −4α
+                    −−−→ [−1, 8, −1, −1, −1, −7, 4] −−−→ [−1, 8, −1, −1, −1, −3, −4]
+                     −8α
+                       2                                4           −7α
+                    −−−→ [−1, −8, −1, 7, −1, −3, −4] −−−→ [−1, −1, 6, −7, 6, −3, −4]
+                     −6α
+                       5                               6        −3α
+                    −−−→ [−1, −1, 6, −1, −6, 3, −4] −−−→ [−1, −1, 6, −1, −3, −3, −1]
+                     −6α
+                       3                               4        −5α
+                    −−−→ [5, −1, −6, 5, −3, −3, −1] −−−→ [5, 4, −1, −5, 2, −3, −1]
+                     −2α
+                       5                               2        −4α
+                    −−−→ [5, 4, −1, −3, −2, −1, −1] −−−→ [5, −4, −1, 1, −2, −1, −1]
+                     −α4                               1        −5α
+                    −−−→ [5, −3, 0, −1, −1, −1, −1] −−−→ [−5, −3, 5, −1, −1, −1, −1]
+                     −5α
+                       3                               4        −4α
+                    −−−→ [0, −3, −5, 4, −1, −1, −1] −−−→ [0, 1, −1, −4, 3, −1, −1]
+                     −3α
+                       5                              6       −2α
+                    −−−→ [0, 1, −1, −1, −3, 2, −1] −−−→ [0, 1, −1, −1, −1, −2, 1]
+
+                                                                   24
+                     −α7                               2           −α
+                    −−−→ [0, 1, −1, −1, −1, −1, −1] −−−→ [0, −1, −1, 0, −1, −1, −1]
+                    := µ.
+  Thus we have
+                                 wλ =[6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1,
+                                          3, 4, 5, 6, 7, 2, 4, 5, 6, 3, 4, 5, 2, 4, 1, 3, 4, 5, 6, 7, 2].
+                                                                                                                         
+
+Corollary 6.7. When gR = e7(−25) , let L(λ) be an integral highest weight Harish-Chandra module. Then
+we have V (L(λ)) = V (Lw ) = O1 if and only if
+                    R      R
+                wλ ∼ w ∼[6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 7, 2, 4, 5, 6, 7, 3, 4, 5, 6, 2, 4, 5, 3, 4, 2, 1, 3, 4, 5,
+                               6, 7, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6, 7, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1],
+
+and V (L(λ)) = V (Lw ) = O 2 if and only if
+                          R       R
+                     wλ ∼ w ∼[6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 2, 4, 5, 6, 7, 3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6,
+                                      7, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1, 3, 4, 5, 6, 7, 2, 4, 5, 6, 3, 4, 5, 2],
+
+and V (L(λ)) = V (Lw ) = O 3 if and only if
+                                   R       R
+                              wλ ∼ w ∼[6, 5, 6, 4, 5, 6, 3, 4, 5, 6, 2, 4, 5, 6, 3, 4, 5, 2, 4, 3, 1,
+                                               3, 4, 5, 6, 7, 2, 4, 5, 6, 3, 4, 5, 2, 4, 1, 3, 4, 5, 6, 7, 2].
+Theorem 6.8. When gR = e7(−25) , we use Ck to denote a Harish-Chandra cell consisting of highest weight
+Harish-Chandra modules Lw with associated variety Ok for 0 ≤ k ≤ 3. Then we have
+                                       #C3 = 21, #C2 = 27, #C1 = 7 and #C0 = 1.
+Proof. See Example 3.9.                                                                                                  
+
+  Note that the elements in W are described in [Zie18, Tab. 4].
+
+                                        7. The cases of type Bn and type Cn
+  In this section, we consider highest weight Harish-Chandra modules of types Bn and Cn . We use Wn to
+denote their Weyl groups.
+
+7.1. The case of so(2, 2n − 1). In this subsection, we assume g = so(2n + 1, C) and gR = so(2, 2n − 1).
+From Enright–Howe–Wallach [EHW83], we know that the highest weight module L(λ) is an integral Harish-
+Chandra module if and only if λ1 − λ2 ∈ Z, λi − λi+1 ∈ Z>0 for 2 ≤ i ≤ n − 1 and 2λk ∈ Z>0 for 2 ≤ k ≤ n.
+Therefore, Lw is a highest weight Harish-Chandra SO(2, 2n−1)-module if and only if −wρ = (λ1 , λ2 , · · · , λn )
+with λ2 > λ3 > · · · > λn > 0. The number of these modules is |W| = |Wn /Wn−1 | = 2n.
+   First we consider the Wallach representations.
+Theorem 7.1. Suppose gR = so(2, 2n − 1) and L(λ) is a highest weight Harish-Chandra module with highest
+weight λ − ρ = −kcζ. Suppose wλ ∈ W is the minimal length element such that µ = wλ−1 λ is antidominant,
+then we have
+    (1) if k = 2, then
+                          wλ = (−1, −2, . . . , −(n − 2), n, −(n − 1)) and V (L(λ)) = O2 .
+    (2) if k = 0, then
+                                                  wλ = −Id and V (L(λ)) = O 0 .
+
+                                                                      25
+Proof. From [EHW83], we have λ = −kcζ + ρ = (−k(n − 32 ) + (n − 12 ), n − 23 , . . . , 12 ).
+  When k = 2, λ = (−(n − 25 ), n − 23 , n − 52 , . . . , 23 , 12 ). By Proposition 3.19, we have V (L(λ)) = O 2 . By
+Proposition 3.10, we have µ = (−(n − 25 ), −(n − 25 ), −(n − 32 ), . . . , − 23 , − 12 ). Thus we have:
+
+              λ− :    −(n − 25 )    n − 23   ...     3           1
+                                                                        − 21       − 23   . . . −(n − 3 )   n − 52
+                                                     2           2                                    2
+
+
+
+
+              µ− :    −(n − 32 ) −(n − 25 ) . . .   − 23     − 21         1
+                                                                          2
+                                                                                    3
+                                                                                    2
+                                                                                          ...   n − 52      n − 23
+
+By Lemma 3.13, this diagram represents an element
+
+                                    wλ = (−1, −2, . . . , −(n − 2), n, −(n − 1)).
+
+By using the RS algorithm, we have
+
+                                                            −n       −n + 1    n
+
+
+                                                           −n + 2
+                                                −
+                                             P ( wλ ) =                            .
+                                                             .
+                                                             .
+                                                             .
+
+                                                           n−1
+
+
+
+  When k = 0, we have λ = ρ, thus wλ = −Id.
+                                                                                                                     
+
+  In general, we have the following.
+
+Theorem 7.2. Suppose gR = so(2, 2n − 1) and L(λ) is a highest weight Harish-Chandra module with highest
+weight λ − ρ. Denote λ = (λ1 , ...λn ). Suppose wλ ∈ W is the minimal length element such that µ = wλ−1 λ is
+antidominant, then we have
+    (1) if λi ≥ λ1 > λi+1 (2 ≤ i < n), then
+
+                 wλ = (−1, . . . , −(n − i), −n, −(n − i + 1), . . . , −(n − 1)) and V (L(λ)) = O 2 .
+
+    (2) if λn ≥ λ1 > 0, then
+
+                                wλ = (−n, −1, . . . , −(n − 1)) and V (L(λ)) = O2 .
+
+    (3) if 0 ≥ λ1 > −λn , then
+
+                           wλ = (n, −1, . . . , −(n − 2), −(n − 1)) and V (L(λ)) = O 2 .
+
+    (4) if −λi+1 ≥ λ1 > −λi for some 2 ≤ i ≤ n − 1, then
+
+                 wλ = (−1, . . . , −(n − i), n, −(n − i + 1), . . . , −(n − 1)) and V (L(λ)) = O2 .
+
+    (5) if −λ2 ≥ λ1 , then
+
+                                 wλ = (−1, . . . , −(n − 1), n) and V (L(λ)) = O2 .
+
+                                                            26
+Proof. If λi ≥ λ1 > λi+1 (2 ≤ i < n), we will have:
+
+               λ− :   λ1    λ2     ...        λi    λi+1      ...      λn        −λn      ...      −λi+1 −λi      ...   −λ2   −λ1
+
+
+
+
+               µ− :   −λ2   ...    −λi    −λ1 −λi+1           ...   −λn          λn       ...      λi+1     λ1    λi    ...   λ2
+
+
+
+  By Lemma 3.13, we can find that
+                            wλ = (−1, . . . , −(n − i), −n, −(n − i + 1), . . . , −(n − 1)).
+By using the RS algorithm, we have
+                                                                            −n   −n + 1
+
+
+                                                                       −n + 2      n
+
+                                                         P (− wλ ) =                      .
+                                                                            .
+                                                                            .
+                                                                            .
+
+                                                                        n−1
+
+
+  If λn ≥ λ1 > 0, we will have
+
+                            λ− :         λ1        λ2       ...     λn           −λn       ...       −λ2         −λ1
+
+
+
+
+                            µ− :     −λ2           ...      −λn     −λ1          λ1           λn      ...        λ2
+
+By Lemma 3.13, we can find that
+                                                   wλ = (−n, −1, . . . , −(n − 1)).
+                −
+In this case, P ( wλ ) is the same as the previous one.
+   If 0 ≥ λ1 > −λn , we will have:
+
+                            λ− :         λ1        λ2       ...     λn           −λn       ...       −λ2         −λ1
+
+
+
+
+                            µ− :     −λ2           ...      −λn        λ1        −λ1          λn      ...        λ2
+
+By Lemma 3.13, we can find that
+                                          wλ = (n, −1, . . . , −(n − 2), −(n − 1)).
+In this case, P (− wλ ) is the same as the previous one.
+
+                                                                       27
+  If −λi+1 ≥ λ1 > −λi for some 2 ≤ i ≤ n, we will have:
+
+              λ− :   λ1   λ2    ...      λi    λi+1          ...    λn       −λn   ...       −λi+1   −λi   ...    −λ2   −λ1
+
+
+
+
+              µ− : −λ2    ...   −λi      λ1    −λi+1         ...    −λn      λn    ...       λi+1    −λ1     λi   ...   λ2
+
+
+
+  By Lemma 3.13, we can find that
+                            wλ = (−1, . . . , −(n − i), n, −(n − i + 1), . . . , −(n − 1)).
+By using the RS algorithm, we have
+
+                                                                    −n    −n + 1   n
+
+
+                                                                   −n + 2
+                                                       −
+                                               P ( wλ ) =                                .
+                                                                     .
+                                                                     .
+                                                                     .
+
+                                                                   n−1
+
+
+  If −λ2 ≥ λ1 , we will have:
+
+                            λ− : λ1           λ2           ...     λn       −λn    ...         −λ2     −λ1
+
+
+
+
+                            µ− : λ1           −λ2          ...     −λn      λn     ...         λ2      −λ1
+
+  By Lemma 3.13, we can find that
+                                               wλ = (−1, . . . , −(n − 1), n).
+               −
+In this case, P ( wλ ) is the same as the previous one.
+                                                                                                                              
+
+   By using Theorem 3.8 or Garfinkle’s domino tableau algorithm [Gar90], we can see that these 2n − 1 wλ ’s
+in Theorem 7.2 belong to the same KL right cell. By Proposition 3.19, no Lw can have associated variety
+O1 .
+Corollary 7.3. When G = SO(2, 2n − 1), let L(λ) be an integral highest weight Harish-Chandra module.
+Then we have V (L(λ)) = V (Lw ) = O 2 if and only if
+                                         R         R
+                                      wλ ∼ w ∼ (n, −1, . . . , −(n − 2), −(n − 1)).
+And V (L(λ)) = V (Lwλ ) = O0 if and only if wλ = −Id.
+
+                                                                    28
+Corollary 7.4. We use Ck to denote a Harish-Chandra cell consisting of highest weight Harish-Chandra
+SO(2, 2n − 1)-modules Lw with associated variety Ok . Then we have #C2 = 2n − 1 and #C0 = 1.
+Proof. From |W| = |Wn /Wn−1 | = 2n = #C0 + #C2 and #C0 = 1, we can get #C2 = 2n − 1 since there is
+only one KL cell such that V (Lw ) = O2 by Corollary 7.3.                                       
+
+   Note that the 2n − 1 elements Lw in C2 correspond to the 2n − 1 wλ ’s in Theorem 7.2.
+   When λ is a half integral highest weight Harish-Chandra module of SO(2, 2n− 1), the integral root system
+will be isomorphic to the root system of type A1 × Bn−1 and the integral Weyl group W[λ] will be isomorphic
+to S2 × Wn−1 . From Proposition 3.19 and Theorem 7.2, we have the following result.
+Corollary 7.5. Suppose gR = so(2, 2n− 1) and L(λ) is a half integral highest weight Harish-Chandra module
+with highest weight λ − ρ. Write wλ = wA × wB . Then we have V (L(λ)) = O 1 if and only if
+                                                            wA = s1 = (2, 1),
+and V (L(λ)) = O2 if and only if
+                                                       wA = IdA1 = (1, 2).
+Proof. We write λ = (λ1 , . . . , λn ). From the construction of L(λ), we have λ1 − λ2 ∈ 21 + Z, λi − λi+1 ∈ Z>0
+for 2 ≤ i ≤ n − 1 and 2λk ∈ Z>0 for 2 ≤ k ≤ n since λ is half integral. Thus we have two maximal
+subsequences x = (λ1 ) and y = (λ2 , . . . , λn ). The corresponding integral root system Φ[λ] is isomorphic to
+the root system of type A1 × Bn−1 and wλ = wx × wy = wx × (−Id).
+   By Proposition 3.19, we have V (L(λ)) = O1 if and only if x = λ1 > 0, equivalently wA = s1 = (2, 1).
+And V (L(λ)) = O2 if and only if x = λ1 ≤ 0, equivalently wA = IdA1 = (1, 2).
+                                                                                                              
+
+7.2. The case of sp(n, R). In this subsection, we assume g = sp(n, C) and gR = sp(n, R). From Enright–
+Howe–Wallach [EHW83], we know that the highest weight module L(λ) is an integral Harish-Chandra module
+if and only if λi − λi+1 ∈ Z>0 for 1 ≤ i ≤ n − 1 and λk ∈ Z for 1 ≤ k ≤ n. Therefore, Lw is a highest
+weight Harish-Chandra Sp(n, R)-module if and only if −wρ = (λ1 , λ2 , · · · , λn ) with λi − λi+1 ∈ Z>0 for
+                                                                   n
+1 ≤ i ≤ n − 1. The number of these modules is |W| = |Wn /Sn | = n!2
+                                                                 n! = 2 .
+                                                                          n
+
+   First we consider the Wallach representations.
+Theorem 7.6. Suppose gR = sp(n, R) and L(λ) is a highest weight Harish-Chandra module with highest
+weight λ − ρ = −kcζ. Suppose wλ ∈ W is the minimal length element such that µ = wλ−1 λ is antidominant,
+then we have
+                      k  k    k       k     k
+               wλ = ( , − − 1, − 1, − − 2, − 2, . . . , −(k − 1), 1, −k, −(k + 1), . . . , −n)
+                      2  2    2       2      2
+if k ∈ 2Z, 1 ≤ k ≤ n.
+Proof. From [EHW83], we have λ = −kcζ + ρ = (n − k2 , (n − 1) − k2 , . . . , 1 − k2 ). By Proposition 3.19, we
+have V (L(λ)) = O k . By Proposition 3.10, we have µ = (−(n − k2 ), . . . , − k2 , −( k2 − 1), −( k2 − 1), . . . , −1, −1, 0).
+Thus we have:
+              λ− :   n− k
+                        2
+                              ...   1       0   −1    ...     1− k
+                                                                 2
+                                                                     k −1
+                                                                     2
+                                                                              ...   1    0    −1     . . . −(n − k )
+                                                                                                                 2
+
+
+
+
+                         k             k   . . . −1                                     ...   k −1         n− k
+              µ− : −(n − 2 ) . . . 1 − 2              −1       0          0    1    1         2
+                                                                                                     ...
+                                                                                                              2
+
+
+
+
+                                                                     29
+By Lemma 3.13, we can find that
+                    k    k     k   k    k
+             wλ = ( , − − 1, − 1, − − 2, − 2, . . . , −(k − 1), 1, −k, −(k + 1), . . . , −n).
+                    2    2     2   2    2
+By using the RS algorithm, we have
+                                                                      −n     1
+
+
+                                                                  −n + 1     .
+                                                                             .
+                                                                             .
+
+                                                                       .    k−1
+                                                                       .
+                                                         −             .
+                                                   P ( wλ ) =                     .
+                                                                      −1
+
+
+                                                                      k+1
+
+
+                                                                       .
+                                                                       .
+                                                                       .
+
+                                                                       n
+
+
+                                                                                                                                
+
+   Note that when k = 2, wλ = ( k2 , −( k2 + 1), . . . , −(k − 2), 2, −(k − 1), 1, −k, . . . , −n) will be reduced to
+(1, −2, −3, . . . , −n). When k = 4, wλ will be reduced to (2, −3, 1, −4, −5, . . . , −n). When k = n = 2m, wλ
+will be reduced to ( k2 , − k2 − 1, k2 − 1, − k2 − 2, k2 − 2, . . . , − k2 − ( k2 − 1), k2 − ( k2 − 1), −n) = ( k2 , − k2 − 1, k2 −
+1, − k2 − 2, k2 − 2, . . . , −n + 1, 1, −n).
+Theorem 7.7. Suppose gR = sp(n, R) and L(λ) is an integral highest weight Harish-Chandra module with
+highest weight λ − ρ and V (L(λ)) = O n with n being odd. Suppose wλ ∈ W is the minimal length element
+such that µ = wλ−1 λ is antidominant, then we have
+                                                         R
+                                                  wλ ∼ (n, n − 1, . . . , 2, 1).
+Proof. Set w = (n, n − 1, . . . , 2, 1). Then −wρ = (−1, −2, . . . , n) and V (Lw ) = On by Proposition 3.19.
+   For an integral highest weight Harish-Chandra module L(λ), if V (L(λ)) = V (L(wλ )) = On = V (Lw ), we
+             R
+will have wλ ∼ w by Theorem 3.8.
+                                                                                                              
+
+   By using Theorem 3.8, we have the following result.
+Corollary 7.8. When G = Sp(n, R), let L(λ) be an integral highest weight Harish-Chandra module. Then
+we have the followings:
+    (1) suppose k ∈ 2Z and 1 ≤ k ≤ n, then V (L(λ)) = V (Lw ) = Ok if and only if
+                 R   R k    k    k      k    k
+              wλ ∼ w ∼ ( , − − 1, − 1, − − 2, − 2, . . . , −(k − 1), 1, −k, −(k + 1), . . . , −n).
+                        2   2    2      2    2
+    (2) suppose n is odd, then V (L(λ)) = V (Lw ) = On if and only if
+                                                    R        R
+                                               wλ ∼ w ∼ (n, n − 1, . . . , 2, 1).
+Corollary 7.9. We use Ck to denote a Harish-Chandra cell consisting of highest weight Harish-Chandra
+Sp(n, R)-modules Lw with associated variety Ok for some k ∈ 2Z and 0 ≤ k ≤ n. Then we have
+                                      ( n+1
+                                          k  , if k ∈ 2Z and 0 ≤ k ≤ n,
+                              #Ck =       2 
+                                          n
+                                         n−1 ,   if k = n is odd.
+                                                     2
+
+
+Proof. This follows from [BZ17, Prop. 33].                                                                                      
+
+                                                                 30
+   Note that the elements in W are described in [BZ17, §3].
+   When λ is a half integral highest weight Harish-Chandra module of Sp(n, R), the integral root system
+will be isomorphic to the root system of type Dn and the integral Weyl group W[λ] will be isomorphic to
+Wn′ . From Proposition 3.19 and Theorem 5.1, we have the following result.
+Corollary 7.10. Suppose gR = sp(n, R) and L(λ) is a half integral highest weight Harish-Chandra module
+with highest weight λ − ρ. Then we have V (L(λ)) = O2k+1 for some k ∈ Z and 1 ≤ 2k + 1 ≤ n if and only if
+                            
+                            
+                             (k + 1, −(k + 2), k, −(k + 3), k − 1, . . . ,
+                            
+                            −2k, 2, −(2k + 1), 1, −(2k + 2), . . . , −n),
+                    LR                                                       if n − k is odd,
+                wλ ∼ zk :=
+                            
+                            
+                             (k + 1, −(k + 2), k, −(k + 3), k − 1,  . . . ,
+                              −2k, 2, −(2k + 1), −1, −(2k + 2), . . . , −n), if n − k is even.
+                            
+
+Proof. When wλ belongs to the given two-sided cell containing zk , we have q2ev = k since there are k even
+boxes in the second columns of the Young tableaux appeared in the argument of Theorem 5.1. By Proposition
+3.19, we have V (L(λ)) = O2k+1 .
+   Conversely, suppose that L(λ) is a half integral highest weight Harish-Chandra module and we have
+                                                                      LR
+V (L(λ)) = O2k+1 . Then by Proposition 3.19, we have k = q2ev and wλ ∼ zk .                             
+Acknowledgments. Z. Bai was supported by the National Natural Science Foundation of China (Grant
+No. 12171344). Y. Bao was supported by the National Natural Science Foundation of China (Grant No.
+11971315 and No. 11801117). X. Xie was supported by the National Natural Science Foundation of China
+(Grant No. 12171030 and No. 12431002). We thank the referee for his/her helpful comments and suggestions.
+
+                                               References
+[Ari00]    S. Ariki. “Robinson-Schensted correspondence and left cells”. In: Combinatorial methods in rep-
+           resentation theory (Kyoto, 1998). Vol. 28. Adv. Stud. Pure Math. Kinokuniya, Tokyo, 2000,
+           pp. 1–20.
+[BH15]     Z. Bai and M. Hunziker. “The Gelfand-Kirillov dimension of a unitary highest weight module”.
+           In: Sci. China Math. 58 (2015), pp. 2489–2498.
+[BJ24]     Z. Bai and J. Jiang. “On the annihilator variety of a highest weight Harish-Chandra module”.
+           In: arXiv: 2408.07951, (2024).
+[BXX23]    Z. Bai, W. Xiao, and X. Xie. “Gelfand-Kirillov dimensions and associated varieties of highest
+           weight modules”. In: Int. Math. Res. Not. IMRN (2023), pp. 8101–8142.
+[BX19]     Z. Bai and X. Xie. “Gelfand-Kirillov dimensions of highest weight Harish-Chandra modules for
+           SU (p, q)”. In: Int. Math. Res. Not. IMRN (2019), pp. 4392–4418.
+[Bai+23]   Z. Bai et al. “A classification of minimal highest weight modules”. In: arXiv: 1909.00914v2,
+           (2023).
+[Bai+24]   Z. Bai et al. “On the associated variety of a highest weight Harish-Chandra module”. In: arXiv:2402.08886
+           (2024).
+[BV83a]    D. Barbasch and D. Vogan. “Weyl group representations and nilpotent orbits”. In: Representation
+           theory of reductive groups (Park City, Utah, 1982). Vol. 40. Progr. Math. Birkhäuser Boston,
+           Boston, MA, 1983, pp. 21–33.
+[BV83b]    D. Barbasch and D.A. Vogan. “Primitive ideals and orbital integrals in complex exceptional
+           groups”. In: J. Algebra 80.2 (1983), pp. 350–382.
+[BZ17]     L. Barchini and R. Zierau. “Characteristic cycles of highest weight Harish-Chandra modules for
+           Sp(2n, R)”. In: Transform. Groups 22.3 (2017), pp. 591–630.
+[Ber71]    I. N. Bernšteın. “Modules over a ring of differential operators. An investigation of the fundamental
+           solutions of equations with constant coefficients”. In: Funkcional. Anal. i Priložen. 5.2 (1971),
+           pp. 1–16.
+[BB82]     W. Borho and J.-L. Brylinski. “Differential operators on homogeneous spaces. I. Irreducibility
+           of the associated variety for annihilators of induced modules”. In: Invent. Math. 69.3 (1982),
+           pp. 437–476.
+
+
+
+                                                    31
+[BB85]  W. Borho and J.-L. Brylinski. “Differential operators on homogeneous spaces. III. Characteristic
+        varieties of Harish-Chandra modules and of primitive ideals”. In: Invent. Math. 80.1 (1985),
+        pp. 1–68.
+[BBM89] W. Borho, J.-L. Brylinski, and R. MacPherson. Nilpotent orbits, primitive ideals, and character-
+        istic classes. Vol. 78. Progress in Mathematics. A geometric perspective in ring theory. Birkhäuser
+        Boston, 1989, pp. vi+131.
+[Bou02] N. Bourbaki. Lie groups and Lie algebras. Chapters 4–6. Elements of Mathematics (Berlin).
+        Translated from the 1968 French original by Andrew Pressley. Springer-Verlag, Berlin, 2002,
+        pp. xii+300.
+[Car85] R. W. Carter. Finite groups of Lie type. Pure and Applied Mathematics (New York). Conjugacy
+        classes and complex characters, A Wiley-Interscience Publication. John Wiley & Sons, Inc., New
+        York, 1985, pp. xii+544.
+[CM93]  D. H. Collingwood and W. M. McGovern. Nilpotent orbits in semisimple Lie algebras. Van Nos-
+        trand Reinhold Mathematics Series. Van Nostrand Reinhold Co., New York, 1993, pp. xiv+186.
+[Don23] C.-P. Dong. “On the Helgason-Johnson bound”. In: Israel J. Math. 254.1 (2023), pp. 373–397.
+[EHW83] T. J. Enright, R. Howe, and N. Wallach. “A classification of unitary highest weight modules”.
+        In: Representation theory of reductive groups (Park City, Utah, 1982). Vol. 40. Progr. Math.
+        Birkhäuser Boston, Boston, MA, 1983, pp. 97–143.
+[Gar90] D. Garfinkle. “On the classification of primitive ideals for complex classical Lie algebras. I”. In:
+        Compositio Math. 75.2 (1990), pp. 135–169.
+[Gec12] M. Geck. “P yCox: computing with (finite) Coxeter groups and Iwahori-Hecke algebras”. In: LMS
+        J. Comput. Math. 15 (2012), pp. 231–256.
+[GK66]  I. M. Gelfand and A. A. Kirillov. “Sur les corps liés aux algèbres enveloppantes des algèbres de
+        Lie”. In: Inst. Hautes Études Sci. Publ. Math. 31 (1966), pp. 5–19.
+[Hum08] J. E. Humphreys. Representations of semisimple Lie algebras in the BGG category O. Vol. 94.
+        Graduate Studies in Mathematics. American Mathematical Society, Providence, RI, 2008, pp. xvi+289.
+[Jak83] H. P. Jakobsen. “Hermitian symmetric spaces and their unitary highest weight modules”. In: J.
+        Funct. Anal. 52.3 (1983), pp. 385–412.
+[Jam78] G. D. James. The representation theory of the symmetric groups. Vol. 682. Lecture Notes in
+        Mathematics. Springer, Berlin, 1978, pp. v+156.
+[Jan79] J. C. Jantzen. Moduln mit einem höchsten Gewicht. Vol. 750. Lecture Notes in Mathematics.
+        Springer, Berlin, 1979, pp. ii+195.
+[Jos84] A. Joseph. “On the variety of a highest weight module”. In: J. Algebra 88.1 (1984), pp. 238–278.
+[Jos85] A. Joseph. “On the associated variety of a primitive ideal”. In: J. Algebra 93.2 (1985), pp. 509–
+        523.
+[Jos92] A. Joseph. “Annihilators and associated varieties of unitary highest weight modules”. In: Ann.
+        Sci. École Norm. Sup. (4) 25.1 (1992), pp. 1–45.
+[KL79]  D. Kazhdan and G. Lusztig. “Representations of Coxeter groups and Hecke algebras”. In: Invent.
+        Math. 53.2 (1979), pp. 165–184.
+[Lus77] G. Lusztig. “Irreducible representations of finite classical groups”. In: Invent. Math. 43.2 (1977),
+        pp. 125–175.
+[Lus79] G. Lusztig. “A class of irreducible representations of a Weyl group”. In: Nederl. Akad. Wetensch.
+        Indag. Math. 41.3 (1979), pp. 323–335.
+[Lus03] G. Lusztig. Hecke algebras with unequal parameters. Vol. 18. CRM Monograph Series. American
+        Mathematical Society, Providence, RI, 2003, pp. vi+136.
+[McG00] W. M. McGovern. “A triangularity result for associated varieties of highest weight modules”. In:
+        Comm. Algebra 28.4 (2000), pp. 1835–1843.
+[Mel93] A. Melnikov. “Irreducibility of the associated varieties of simple highest weight modules in sl(n)”.
+        In: C. R. Acad. Sci. Paris Sér. I Math. 316.1 (1993), pp. 53–57.
+[NOT01] K. Nishiyama, H. Ochiai, and K. Taniguchi. “Bernstein degree and associated cycles of Harish-
+        Chandra modules—Hermitian symmetric case”. In: 273. Nilpotent orbits, associated cycles and
+        Whittaker models for highest weight representations. 2001, pp. 13–80.
+
+
+
+                                                  32
+[Nis+01]   K. Nishiyama et al. Nilpotent orbits, associated cycles and Whittaker models for highest weight
+           representations. Astérisque No. 273 (2001). Société Mathématique de France, Paris, 2001, i–vi
+           and 1–163.
+[Sag01]    B. E. Sagan. The symmetric group. Second. Vol. 203. Graduate Texts in Mathematics. Represen-
+           tations, combinatorial algorithms, and symmetric functions. Springer-Verlag, New York, 2001,
+           pp. xvi+238.
+[Ste88]    Robert Steinberg. “An occurrence of the Robinson-Schensted correspondence”. In: J. Algebra
+           113.2 (1988), pp. 523–528.
+[Tan88]    T. Tanisaki. “Characteristic varieties of highest weight modules and primitive quotients”. In:
+           Representations of Lie groups, Kyoto, Hiroshima, 1986. Vol. 14. Adv. Stud. Pure Math. Academic
+           Press, Boston, MA, 1988, pp. 1–30.
+[Vog78]    D. A. Vogan. “Gelfand-Kirillov dimension for Harish-Chandra modules”. In: Invent. Math. 48.1
+           (1978), pp. 75–98.
+[Vog91]    D. A. Vogan. “Associated varieties and unipotent representations”. In: Harmonic analysis on
+           reductive groups (Brunswick, ME, 1989). Vol. 101. Progr. Math. Birkhäuser Boston, Boston,
+           MA, 1991, pp. 315–388.
+[Wil15]    G. Williamson. “A reducible characteristic variety in type A”. In: Representations of reductive
+           groups. Vol. 312. Progr. Math. Birkhäuser/Springer, Cham, 2015, pp. 517–532.
+[Zie18]    R. Zierau. “Characteristic cycles of highest weight Harish-Chandra modules”. In: São Paulo J.
+           Math. Sci. 12.2 (2018), pp. 389–410.
+  (Bai) School of Mathematical Sciences, Soochow University, Suzhou 215006, China
+  Email address: zqbai@suda.edu.cn
+
+  (Bao) School of Sciences, Harbin Institute of Technology, Shenzhen, 518055, China
+  Email address: baoyixin@hit.edu.cn
+
+  (Liang) School of Mathematical Sciences, Soochow University, Suzhou 215006, China
+  Email address: 20224207008@stu.suda.edu.cn
+
+  (Xie) School of Mathematics and Statistics, Beijing Institute of Technology, Beijing 100081, China
+  Email address: xieg7@163.com
+
+
+
+
+                                                      33
+

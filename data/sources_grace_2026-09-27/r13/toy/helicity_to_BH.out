@@ -1,0 +1,32 @@
+massless tower (Mack class 5: d = j1+j2+1, j1*j2 = 0):
+  h= 0: d=1 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=+1/2: d=3/2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=-1/2: d=3/2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=+1: d=2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=-1: d=2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=+3/2: d=5/2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=-3/2: d=5/2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=+2: d=3 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=-2: d=3 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=+5/2: d=7/2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=-5/2: d=7/2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=+3: d=4 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=-3: d=4 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=+7/2: d=9/2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=-7/2: d=9/2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=+4: d=5 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=-4: d=5 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=+9/2: d=11/2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=-9/2: d=11/2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=+5: d=6 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=-5: d=6 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=+11/2: d=13/2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=-11/2: d=13/2 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=+6: d=7 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+  h=-6: d=7 (lambda,beta^v)=-1 k=1 GKdim=3 AV=O_1 closure (dim 3), label [2^1,1^2]
+controls:
+  scalar d=2 (Hardy-space point): (lambda,beta^v)=-2 k=2 GKdim=4 AV=O_2 = p+ (dim 4)
+  d=j1+j2+2 boundary: (lambda,beta^v)=-2 k=2 GKdim=4 AV=O_2 = p+ (dim 4)
+  scalar d=4 (hol. discrete series, d>3): (lambda,beta^v)=-4 k=4 GKdim=4 AV=O_2 = p+ (dim 4)
+  trivial: (lambda,beta^v)=0 k=0 GKdim=0 AV=O_0 closure (dim 0), label [2^0,1^4]
+SCORE: every massless helicity 0..6 has k=1, GKdim=3, AV = closure of O_1: PASS

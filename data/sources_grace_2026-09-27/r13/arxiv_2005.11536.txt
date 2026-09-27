@@ -1,0 +1,1626 @@
+                                            GELFAND-KIRILLOV DIMENSIONS AND ASSOCIATED
+                                               VARIETIES OF HIGHEST WEIGHT MODULES
+
+
+
+
+arXiv:2005.11536v3 [math.RT] 8 Dec 2021
+                                                             ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+
+
+
+                                                  Abstract. In this paper, we present a uniform formula of Lusztig’s
+                                                  a-functions on classical Weyl groups. Then we obtain an efficient al-
+                                                  gorithm for the Gelfand-Kirillov dimensions of simple highest weight
+                                                  modules of classical Lie algebras, whose highest weight is not necessarily
+                                                  regular or integral. To deal with type D, we prove an interesting prop-
+                                                  erty about domino tableaux associated with Weyl group elements by
+                                                  introducing an invariant, called the hollow tableau. As an application,
+                                                  the associated varieties of all the simple highest weight Harish-Chandra
+                                                  modules are explicitly determined, including the exceptional cases.
+
+                                                                           1. Introduction
+                                          1.1. GK dimensions and associated varieties. Let g be a complex
+                                          semisimple Lie algebra and U (g) be its enveloping algebra. The Gelfand-
+                                          Kirillov (GK) dimension is an essential invariant to measure the size of an
+                                          infinite-dimensional U (g)-module M [GK66]. The associated variety of M ,
+                                          whose dimension is equal to the GK dimension of M , is another invari-
+                                          ant to distinguish U (g)-modules [Ber71]. These two invariants are closely
+                                          related and play significant roles in representation theory, see for example
+                                          [Jos80a, Jos80b, Jos81, Tra01, LM15].
+                                             The computations of these two invariants are generally complicated. The
+                                          case of simple highest weight modules for complex simple Lie algebras has at-
+                                          tracted considerable amount of attention (e.g., [Jos84, BB85, Tan88, Mel93,
+                                          McG00, Wil15]), as well as the case of Harish-Chandra (HC) modules for
+                                          real reductive groups (e.g., [Vog78, Vog91, Gar93, AV21]). The first main
+                                          result of this paper is an efficient algorithm for GK dimensions of highest
+                                          weight modules for classical Lie algebras. A formula of GK dimensions of
+                                          regular integral highest weight modules for type A was obtained by Joseph
+                                          [Jos78]. Based on the theory of Lusztig’s a-function [Lus77, Lus79, Lus82,
+                                          Lus84, Lus85a, Lus85b], Bai-Xie were able to extend Joseph’s result to sin-
+                                          gular and nonintegral cases for type A [BX19]. More efforts are needed for
+                                          the other classical types. In this paper, formulas of GK dimensions for sim-
+                                          ple highest weight modules are explicitly presented in the most generality
+                                             Date: December 9, 2021.
+                                             2010 Mathematics Subject Classification. Primary 22E47; Secondary 17B10, 20C08.
+                                             Key words and phrases. Lusztig’s a-function, Gelfand-Kirillov dimension, associated
+                                          variety, domino insertion, highest weight Harish-Chandra module .
+                                                                                      1
+2                  ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+(Theorem 1.5 and 5.7). As a critical step, we give a uniform formula of
+a-functions (Theorem 1.3) on classical Weyl groups.
+   The second main result of this paper is a full description of the associated
+varieties of all the highest weight HC modules. Such a result was expected
+for a long time. In 1992, Joseph [Jos92] found a recursive relation for asso-
+ciated varieties of unitary highest weight modules in a case-by-case fashion.
+After that, the GK dimensions of holomorphic representations were obtained
+for Hermitian symmetric groups in the dual pair settings by Tan-Zhu [TZ96].
+Nishiyama-Ochiai-Taniguchi [NOT01] and Enright-Willenbring [EW04] in-
+dependently gave characterizations of the GK dimensions and associated
+varieties for unitary highest weight HC modules appearing in the dual pair
+settings. In recent years, a uniform formula for the GK dimensions and
+associated varieties of unitary highest weight HC modules was discovered
+by Bai-Hunziker [BH15]. Almost at the same time, Barchini-Zierau [BZ17]
+and Zierau [Zie18] computed the characteristic cycles of highest weight HC
+modules with regular integral infinitesimal characters, which can give some
+information of the corresponding associated varieties. In this paper, we de-
+termine associated varieties of the highest weight HC modules for all the
+Hermitian types (Theorems 6.2 and 7.1), where the highest weights are not
+necessarily regular or integral and the modules are not necessarily unitary.
+Note that the case of type A was already known in [BX19].
+
+1.2. Lusztig’s a-functions. There is a beautiful formula by Lusztig [Lus85b]
+connecting the GK dimensions and the a-functions. Using this formula, one
+can translate the computation of GK dimensions of simple highest weight
+modules to the computation of Lusztig’s a-functions on the integral Weyl
+subgroups [BX19]. Thus, for our purposes we need to find a fine formula of
+Lusztig’s a-functions first.
+   Fix a Cartan subalgebra h of g. Let Φ be the root system of (g, h) and
+W be its Weyl group. The function a : W → N first appeared in Lusztig’s
+works on representations of finite groups of Lie type and Weyl groups [Lus77,
+Lus79, Lus82, Lus84]. It is originally defined as a function on the set of
+irreducible representations of Weyl groups. In the study of cells of affine
+Weyl groups, Lusztig [Lus85a, Lus85b] introduced the a-functions on Weyl
+groups defined in terms of Kazhdan-Lusztig basis of Hecke algebras. He
+found many interesting properties about a-functions and cells. In fact, the a-
+functions on the set of simple modules and on the Weyl group are compatible
+[Lus03, Prop. 20.6].
+   It is well known that there is an algorithm of the a-functions for Weyl
+groups of type A, using Robinson-Schensted insertion. This gives rise to a
+combinatorial algorithm of GK dimensions of simple highest weight modules
+of sl(n, C) [BX19, Thm. 4.6]. From this, we can determine the GK dimen-
+sions and the associated varieties of highest weight HC modules for type A
+(see [BX19] for more details). This paper is a sequel of [BX19], and we will
+give an answer for other classical types.
+                  GK DIMENSIONS AND ASSOCIATED VARIETIES                            3
+
+   Note that the Weyl groups of type B and C are the same. For Weyl
+groups of types B and D, Lusztig gave a formula for the a-functions on the
+set of irreducible representations of the Weyl groups [Lus77, Lus79, Lus84].
+Since the irreducible representations are parametrized by Lusztig’s symbols
+[Lus77], we need a certain combinatorial correspondence between the ele-
+ments of Weyl groups and the irreducible representations. This was realized
+in the work [BV82] by Barbasch and Vogan. In other words, they gave a way
+of associating an element of the Weyl group to a symbol. Combining these
+results together, we get combinatorial algorithms for computing a-functions
+on the Weyl groups of types B and D (Propositions 3.2 and 3.5). It is
+quite surprising that we can simplify these algorithms and get a uniform
+and efficient formula of a-functions on classical Weyl groups (Theorem 1.3).
+
+1.3. A uniform formula. Now we describe our formula in detail. Fix a
+positive integer N . We represent a partition of N as a decreasing sequence
+p = (p1 , p2 , · · · , pN ) of nonnegative integers. For simplicity, we often omit
+the trailing zeros in p. Each partition of N corresponds a Young diagram,
+which is an array of N boxes having left-justified rows with the i-th row
+containing pi boxes for 1 ≤ i ≤ N . We will not distinguish a partition and
+its Young diagram. A Young tableau Y of shape p is obtained by filling each
+box of the Young diagram p with a number (which could be integral, real
+or complex, as required in context). In this case, we write p = sh(Y ).
+   For a Young diagram p, use (k, l) to denote the box in the k-th row and
+the l-th column. We say the box (k, l) is even (resp. odd) if k + l is even
+(resp. odd). Let pev                  odd
+                          i (resp. pi ) be the number of even (resp. odd) boxes
+in the i-th row of the Young diagram p. One can easily check that
+                 (                               ( 
+                       pi                             pi
+                             if i is odd,    odd           if i is odd,
+       pev
+         i  =         2
+                       pi                  p i   =   2
+                                                      pi                     (1.1)
+                       2     if i is even,            2    if i is even.
+Here for a ∈ R, ⌊a⌋ is the largest integer n such that n ≤ a, and ⌈a⌉ is the
+smallest integer n such that n ≥ a. For convenience, we set
+              pev = (pev   ev
+                      1 , p2 , · · · ) and p
+                                             odd
+                                                 = (podd  odd
+                                                     1 , p2 , · · · ).
+
+Example 1.1. Let p = (5, 5, 4, 3, 3). The even boxes in p are marked as
+follows.
+                             ×      ×   ×
+                                ×     ×
+                             ×      ×
+                                ×
+                             ×      ×
+Then pev = (3, 2, 2, 1, 2) and podd = (2, 3, 2, 2, 1).
+  For a totally ordered set Γ, we denote by Seqn (Γ) the set of sequences
+x = (x1 , x2 , · · · , xn ) of length n with xi ∈ Γ. For the aim of this paper, it is
+enough to take Γ to be Z or a coset of Z in C.
+4                      ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+Definition 1.2. Applying the Robinson-Schensted algorithm to x ∈ Seqn (Γ),
+we get a Young tableau Y (x). Denote p(x) = sh(Y (x)).
+    For x = (x1 , x2 , · · · , xn ) ∈ Seqn (R), set
+             x− =(x1 , x2 , · · · , xn−1 , xn , −xn , −xn−1 , · · · , −x2 , −x1 ),
+             −
+          x =(−xn , −xn−1 , · · · , −x2 , −x1 , x1 , x2 , · · · , xn−1 , xn ).
+Let W be a classical Weyl group. For w ∈ W , denote by w               #» the sequence
+(w(1), w(2), · · · , w(n)).
+Theorem 1.3. For an element w of a classical Weyl group W ,
+                  P
+                                   #»
+                  Pi≥1 (i − 1)p( w)i        if Φ = An−1 ,
+           a(w) =                   − #» odd
+                      i≥1 (i − 1)p( w)i     if Φ = Bn ,
+                  P                  #» ev
+                           (i − 1)p(− w)
+                                 i≥1         if Φ = D .
+                                                      i                 n
+                            #» = (3, 4, −1, 5, 2). We have
+Example 1.4. Let Φ = B5 and w
+                                        −5 −4 −3 −1 2           5
+                          Y (− w)
+                               #» =                                 .
+                                        −2 1      3       4
+          #» odd = (3, 2) and a(w) = 0 · 3 + 1 · 2 = 2.
+Hence p(− w)
+1.4. GK dimensions of highest weight modules. Based on the above
+result for the a-functions, we can deduce an efficient algorithm for the GK
+dimensions of simple highest weight modules for classical Lie algebras.
+   Let Φ+ ⊆ Φ be the set of positive roots determined by a Borel subalgebra
+b of g. Denote by ∆ the set of simple roots in Φ+ . For λ ∈ h∗ , define the
+Verma module
+                          M (λ) = U (g) ⊗U (b) Cλ−ρ ,
+where Cλ−ρ is a one-dimensional b-module with weight λ − ρ and ρ is half
+the sum of positive roots. Denote by L(λ) the simple quotient of M (λ).
+Theorem 1.5. Let λ = (λ1 , λ2 , · · · , λn ) ∈ h∗ be an integral weight. Then
+                   n(n−1) P
+                  
+                   2 P− i≥1 (i − 1)p(λ)i                  if Φ = An−1 ,
+                     2
+    GKdim L(λ) = n − i≥1 (i − 1)p(λ )i         −  odd      if Φ = Bn /Cn ,
+                  
+                   2           P                   − ev
+                    n − n − i≥1 (i − 1)p(λ )i              if Φ = Dn .
+   The case of type A is already known (e.g., [BX19]). The case of types
+B/C, for which we need to consider upper closures of chambers, is a rel-
+atively straightforward consequence of Theorem 1.3. The case of type D,
+however, is much more difficult than we expected, for which we need to prove
+a critical property (Theorem 4.10) about the domino tableaux in [Gar90].
+To achieve this, a new invariant, the hollow tableau, is proposed in §4. Van
+Leeuwen’s result [van96], which is about the connection between Garfinkle’s
+bumping description of domino tableaux and the left-right insertion descrip-
+tion given in earlier work of Barbasch-Vogan [BV82], is also necessary.
+                 GK DIMENSIONS AND ASSOCIATED VARIETIES                     5
+
+Example 1.6. Let Φ = B8 and λ = (3, 4, 1, −2, 0, −3, 5, 6). Then
+                                      −6 −5 −4 −3
+                                      −3 −1 0        2
+                               −
+                          Y (λ ) = −2 0          5   6 .
+                                      1      3
+                                      3      4
+Therefore, p(λ− )odd = (2, 2, 2, 1, 1) and
+        GKdim L(λ) = 82 − (0 · 2 + 1 · 2 + 2 · 2 + 3 · 1 + 4 · 1) = 51.
+  The non-integral case which needs more effort is given in Theorem 5.7.
+A main step is to decompose of the integral part Φ[λ] of Φ relative to λ into
+some orthogonal subsystems. It is proved that these could be of type A or
+B if Φ = Bn ; A, C or D if Φ = Cn ; A or D if Φ = Dn .
+Remark 1.7. It is an easy consequence that the a-functions and the GK
+dimensions can also be calculated by column lengths of the Young diagrams,
+using Lemma 2.11. This is useful when the tableaux have many rows and
+much fewer columns.
+1.5. Associated varieties of highest weight modules. Now we can
+compute GK dimensions of the highest weight HC modules for all Hermit-
+ian type Lie groups. For the classical types, we apply the above algorithm
+for GK dimensions of simple highest weight modules. For the exceptional
+types, we will need some results in [CIS88]. By Vogan [Vog81b] and Ya-
+mashita [Yam01], the associated varieties of such modules form a linear
+chain of closures of certain orbits, and hence they are determined by their
+GK dimensions. Combining these results, we can explicitly describe the as-
+sociated varieties for all the highest weight HC modules, see Theorems 6.2
+and 7.1.
+1.6. Organization. This paper is organized as follows. In §2, we prepare
+some necessary preliminaries. In §3, the formulas of Lusztig’s a-functions on
+classical Weyl groups are described. In §4, we prove a key result (Theorem
+4.10) about the domino tableaux. Then the GK dimensions of all the simple
+highest weight modules for classical Lie algebras are obtained in §5. In
+§6 and §7, we pin down the associated varieties of the highest weight HC
+modules for all Hermitian type Lie groups.
+Acknowledgments. We would like to thank G. Lusztig for helpful discus-
+sions about a-functions. We are also very grateful to D. A. Vogan for his
+informative comments on a-functions and related topics. The first author is
+supported by NSFC Grant No. 12171344 and National Key R&D Program
+of China (No. 2018YFA0701700 and No. 2018YFA0701701), the second
+author is supported by NSFC Grant No. 11701381 and the third author is
+supported by NSFC Grant No. 11801031 and 12171030.
+6                  ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+                              2. Preliminaries
+  In this section, we will give some brief preliminaries on GK dimensions,
+associated varieties and a-functions. See [Vog78, Vog91, Lus84] for more
+details.
+
+2.1. GK dimensions and associated varieties. Let M be a finite gen-
+erated U (g)-module. Fix a finite dimensional generating space M0 of M .
+Let Un (g) be the standard filtration of U (g). Set Mn = Un (g) · M0 and
+           L
+           ∞
+gr(M ) =      grn M, where grn M = Mn /Mn−1 . Thus gr(M ) is a graded
+          n=0
+module of gr(U (g)) ≃ S(g).
+Definition 2.1. The Gelfand-Kirillov dimension of M is defined by
+                                       log dim(Un (g)M0 )
+                   GKdim M = lim                          .
+                                 n→∞          log n
+Definition 2.2. The associated variety of M is defined by
+         V (M ) := {X ∈ g∗ | f (X) = 0 for all f ∈ AnnS(g) (gr M )}.
+   The above two definitions are independent of the choice of M0 , and
+dim V (M ) = GKdim M (e.g., [NOT01]). If M0 is a-invariant for a sub-
+algebra a ⊆ g, then
+                            V (M ) ⊆ (g/a)∗ .                     (2.1)
+
+2.2. Associated varieties of Harish-Chandra modules. Let G be a Lie
+group of Hermitian type with a maximal compact subgroup K. Denote by
+g and k their complexified Lie algebras respectively. Let g = k ⊕ p+ ⊕ p− be
+the usual decomposition of g as k-modules. The closures of KC -orbits in p+
+form a linear chain of varieties [Yam01, Prop. 3.1],
+                 {0} = O0 ⊆ O1 ⊆ ... ⊆ Or−1 ⊆ Or = p+ ,
+where r is the rank of the Hermitian symmetric space G/K (see Table 1).
+   We say the finite generated U (g)-module M is a Harish-Chandra module
+if it has compatible actions of g and K, and every m ∈ M lies in a finite-
+dimensional K-invariant subspace, and every irreducible K-representation
+has finite multiplicity in M (e.g., [Vog81a]).
+   In particular, if M = L(λ) is a highest weight HC-module, we can choose
+M0 to be the finite dimensional U (k)-module generated by Cλ−ρ . Then M0
+is k ⊕ p+ -invariant. In view of (2.1),
+                  V (L(λ)) ⊆ (g/(k ⊕ p+ ))∗ ≃ (p− )∗ ≃ p+ ,
+where the last isomorphism is induced from the Killing form. As shown in
+[Vog91], the associated variety V (M ) is also K-invariant. In fact, Yamashita
+[Yam01] proved that V (M ) must be one of Ok .
+                GK DIMENSIONS AND ASSOCIATED VARIETIES                   7
+
+
+              Lie(G)           r                  c         h∨ − 1
+              su(k, n − k)     min{k, n − k} 1              n−1
+              sp(n, R)         n                  1/2       n
+              so∗ (2n)         ⌊ n2 ⌋             2         2n − 3
+              so(2, 2n − 1) 2                     n − 3/2 2n − 2
+              so(2, 2n − 2) 2                     n−2       2n − 3
+              e6(−14)          2                  3         11
+              e7(−25)          3                  4         17
+
+           Table 1. Constants of Lie groups of Hermitian type
+
+
+Lemma 2.3. Let L(λ) be a highest weight HC-module. Then
+                                V (L(λ)) = Ok(λ)
+for some 1 ≤ k(λ) ≤ r.
+  Bai-Hunziker [BH15] found a uniform expression for the dimension of Ok .
+Proposition 2.4. For 0 ≤ k ≤ r,
+                         dim Ok = k(h∨ − 1) − k(k − 1)c.
+The data of r, h∨ and c are listed in Table 1.
+2.3. The a-function. Recall that the Weyl group W of g is a Coxeter group
+generated by the set S = {sα | α ∈ ∆} of simple reflections. Let ℓ : W → N
+be the length function on W . Given an indeterminate v, we have a Hecke
+algebra H over A := Z[v, v −1 ]. It has a basis Tw , w ∈ W over A with
+relations
+                  Tw Tw′ = Tww′ if ℓ(ww′ ) = ℓ(w) + ℓ(w′ ),
+                 and (Ts + v −1 )(Ts − v) = 0 for any s ∈ S.
+The Kazhdan-Lusztig basis Cw , w ∈ W of H are defined to be the unique
+elements Cw such that
+                    Cw = Cw ,           Cw ≡ Tw       mod H<0
+where ¯ : H → H is the bar involution such that q̄ = q −1 and Tw =
+  −1                                              −1     −1
+Pw−1 . Here H<0 = ⊕w∈W A<0 Tw with A<0 = v Z[v ]. Let Cx Cy =
+T
+   z∈W hx,y,z Cz with hx,y,x ∈ A. Then a : W → N is defined by
+               a(z) = max{deg hx,y,z | x, y ∈ W } for z ∈ W.
+  The following results can be found in [Lus03].
+Lemma 2.5. Let (W, S) be a Coxeter group.
+  (1) For all w ∈ W , a(w) = a(w−1 ) .
+8                    ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+     (2) If wI is the longest element of the parabolic subgroup of W generated
+         by a subset I ⊆ S, then a(wI ) = ℓ(wI ).
+     (3) If W is a direct product of Coxeter subgroups W1 and W2 , then
+                              a(w) = a(w1 ) + a(w2 )
+          for w = (w1 , w2 ) ∈ W1 × W2 = W .
+2.4. GK dimensions. Let (−, −) be the standard bilinear form on h∗ . For
+µ ∈ h∗ , define
+                       Φ[µ] := {α ∈ Φ | hµ, α∨ i ∈ Z},
+where hµ, α∨ i = 2(µ, α)/(α, α). Set
+                        W[µ] := {w ∈ W | wµ − µ ∈ ZΦ}.
+Then Φ[µ] is a root system with Weyl group W[µ] . Let ∆[µ] be the simple
+system of Φ[µ] . Set J = {α ∈ ∆[µ] | hµ, α∨ i = 0}. Denote by WJ the Weyl
+group generated by reflections sα with α ∈ J. Let ℓ[µ] be the length function
+on W[µ] . Thus ℓ[µ] = ℓ when µ is integral. Put
+             J
+           W[µ] := {w ∈ W[µ] | ℓ[µ] (wsα ) = ℓ[µ] (w) + 1 for all α ∈ J}.
+        J consists of the shortest representatives of the cosets wW with
+Thus W[µ]                                                            J
+w ∈ W[µ] . When µ is integral, we simply write W J := W[µ]
+                                                         J .
+
+  A weight µ ∈ h∗ is called anti-dominant if hµ, α∨ i ∈
+                                                      / Z>0 for all α ∈ Φ+ .
+For any λ ∈ h , there exists a unique anti-dominant weight µ ∈ h∗ and a
+             ∗
+             J such that λ = wµ.
+unique w ∈ W[µ]
+Proposition 2.6 ([BX19, Prop. 3.8]). Let λ ∈ h∗ . Suppose that λ = wµ,
+                                   J . Then
+where µ is anti-dominant and w ∈ W[µ]
+                         GKdim L(λ) = |Φ+ | − a[λ] (w),
+where a[λ] is the a-function on W[λ] = W[µ] .
+2.5. Upper closures of chambers. Let E := RΦ. For λ ∈ E ⊆ h∗ , define
+                         Ψ+         +       ∨
+                          λ = {α ∈ Φ | hλ, α i > 0}.                        (2.2)
+The set
+                 C◦ := {λ ∈ E | hλ, α∨ i < 0 for all α ∈ Φ+ }.
+is called the anti-dominant chamber in E. For any chamber C, there exists
+a unique w ∈ W such that C = wC◦ . Denote
+                  Φ+         +       ∨
+                   C = {α ∈ Φ | hλ, α i > 0 for all λ ∈ C},
+                  Φ−         +       ∨
+                   C = {α ∈ Φ | hλ, α i < 0 for all λ ∈ C}.
+                −              +    +
+Thus Φ+ = Φ+
+           C ⊔ ΦC . Obviously ΦC = Ψλ for any λ ∈ C.
+                                                          b of C is the set
+Definition 2.7. If C is a chamber of E, the upper closure C
+                                        +
+of λ ∈ E such that hλ, α i > 0 for α ∈ ΦC and hλ, α i ≤ 0 for α ∈ Φ−
+                        ∨                          ∨
+                                                                    C.
+
+    Here we collect some easy facts [Hum90].
+                    GK DIMENSIONS AND ASSOCIATED VARIETIES                                  9
+
+                                    F d
+Lemma 2.8.            (1) E =         wC◦ .
+                                w∈W
+                                      −
+    (2) Φ+           +   −1                       +   −1
+         wC◦ = {α ∈ Φ | w α < 0} and ΦwC◦ = {α ∈ Φ | w α > 0}.
+Lemma 2.9. Let w ∈ W and µ be an integral anti-dominant weight. Set
+J = {α ∈ ∆ | hµ, α∨ i = 0}. Then the following conditions are equivalent:
+                                                 d◦ ; (4) Ψ+
+(1) w ∈ W J ; (2) wγ > 0 for all γ ∈ J; (3) wµ ∈ wC              +
+                                                           wµ = ΦwC◦ .
+
+Proof. The equivalence of (1) and (2) is clear, while the equivalence of (3)
+and (4) follows from Definition 2.7. Set λ = wµ and C = wC◦ .
+   Now we show (2) implies (3). Let α ∈ Φ+                           −1
+                                              C . Lemma 2.8 yields w α < 0.
+             −1               ∨
+Set β = −w α. We get hµ, β i ≤ 0 since µ is anti-dominant. The equality
+can not hold; otherwise, β must be a sum of roots in J, and then (2) yields
+−α = wβ > 0, a contradiction. Thus hµ, β ∨ i < 0, and hence hλ, α∨ i > 0.
+On the other hand, if α ∈ Φ−                ∨          −1 ∨
+                             C , then hλ, α i = hµ, (w α) i ≤ 0. Then (3)
+is proved.
+                                               d◦ , then we can find w′ ∈ W J
+   It remains to show (3) implies (1). If λ ∈ wC
+such that λ = w′ µ = wµ. The previous argument implies λ ∈ w′      [ C◦ . This
+         ′
+forces w = w, in view of Lemma 2.8(1).                                      
+   The following result is an easy consequence of Lemmas 2.6 and 2.9.
+                                                         b are two
+Lemma 2.10. Let C be a chamber of E. Suppose that λ, ν ∈ C
+integral weights. Then GKdim L(λ) = GKdim L(ν).
+2.6. Partitions and dual partitions. We say q = (q1 , · · · , qN ) is the dual
+partition of a partition p = (p1 , · · · , pN ) and write q = t p if qi is the length
+of i-th column of the Young diagram p. Recall that p(x) is the shape of the
+Young tableau Y (x) obtained by applying Robinson-Schensted algorithm to
+x ∈ Seqn (Γ). For convenience, we set q(x) = t p(x).
+Lemma 2.11 (Definition). Let x ∈ Seqn (Γ). Then
+                X               X qi (qi − 1)
+     Fa (x) : =     (i − 1)pi =                ,
+                                        2
+                i≥1             i≥1
+                X                 X              X
+                            odd
+     Fb (x) : =     (i − 1)pi =      (qiodd )2 +   qiodd (qiodd − 1),
+                      i≥1                   2∤i             2|i
+                     X            X                   X
+          Fd (x) : =  (i − 1)pev
+                              i =   qiev (qiev − 1) +   (qiev )2 ,
+                      i≥1                 2∤i                     2|i
+
+where p = p(x) = (p1 , p2 , · · · , pn ) and q = q(x) = t p(x) = (q1 , q2 , · · · , qn ).
+Proof. Here we only prove the first equation since the ideas are similar. In
+fact, the first one follows from
+                           pi            qj
+       X                  XX            XX            X qj (qj − 1)
+              (i − 1)pi =     (i − 1) =     (i − 1) =               .
+                                                              2
+        i≥1               i≥1 j=1               j≥1 i=1             j≥1
+                                                                                            
+10                    ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+Example 2.12. If x = (x1 ) is a sequence of length 1, we have
+                                              (
+                                                0 if x1 ≤ 0
+          Fa (x) = Fd (x− ) = 0, Fb (x− ) =                 .
+                                                1 if x1 > 0
+     The following lemma is useful.
+Lemma 2.13. Let x = (x1 , · · · , xn ) ∈ Seqn (Γ). Assume that y ∈ Seqn (Γ)
+such that for all 1 ≤ i < j ≤ n, yi < yj whenever xi ≤ xj and yi > yj
+whenever xi > xj . Then p(x) = p(y).
+   For x ∈ Seqn (Γ) and k ≤ n, denote by ck (x) (resp. dk (x)) the maximal
+length of subsequences which can be written as a union of k weakly increasing
+(resp. strictly decreasing) subsequences of x. The following result is an
+immediate consequence of [Gre74] and Lemma 2.13.
+Theorem 2.14 (Greene’s Theorem). Let x ∈ Seqn (Γ) and k ≤ n. Then
+            ck (x) = p1 + p2 + ... + pk and dk (x) = q1 + q2 + ... + qk ,
+where p = p(x) = (p1 , p2 , · · · , pn ) and q = q(x) = t p(x) = (q1 , q2 , · · · , qn ).
+
+                         3. Formulas for a-functions
+  In this section, we will prove Theorem 1.3 about formulas for a-functions.
+The formula for type A is well-known (Proposition 3.1). We will deal mainly
+with the cases of types B (Proposition 3.3) and D (Proposition 3.6).
+  For i, j ∈ Z with i < j, set [i, j] = {i, i + 1, · · · , j − 1, j}. Recall that
+we map w ∈ W for classical types to the sequence w        #» = (w(1), · · · , w(n)).
+Denote by si the involution w ∈ W such that w(i) = i + 1, w(i + 1) = i and
+w(k) = k for all k ∈ [1, i − 1] ∪ [i + 2, n].
+3.1. The system An−1 . In this case, W is the symmetric group Sn of n
+letters and S = {s1 , · · · , sn−1 } is the set of adjacent transpositions.
+Proposition 3.1. Let Φ = An−1 and w ∈ W . Then
+                          X
+                  a(w) =              #» = F ( w).
+                            (i − 1)p( w)       #»
+                                                     i     a
+                                   i≥1
+
+Proof.                        #» = t p( w).
+         Fix w and set q = q( w)        #» In view of [BX19], we have a(w) =
+P      1
+  i≥1 2 qi (qi − 1). Then the proposition follows from Lemma 2.11.         
+3.2. The system Bn and B-symbols. In this case, W = Wn , where Wn is
+the group consisting of permutations w of the set [−n, n] such that w(−i) =
+                                                          #»
+−w(i) for all i ∈ [1, n]. Let t ∈ Wn be the element with t = (−1, 2, · · · , n).
+Then (Wn , Sn ) is a Coxeter system, with Sn = {t, s1 , · · · sn−1 }. If n = 1,
+W1 ≃ S2 is the Weyl group of type A1 ; if n ≥ 2, Wn is the Weyl group of
+type Bn . For convenience, we set B1 = A1 .
+   Now we recall the Lusztig’s symbols [Lus77]. Let
+                                             
+                             λ1 λ2 · · · λm+1
+                                                ,m ≥ 0
+                              µ1 µ2 · · · µm
+                 GK DIMENSIONS AND ASSOCIATED VARIETIES                             11
+
+be a tableau of nonnegative integers such that entries in each row are strictly
+increasing. Define an equivalence relation on the set of all such tableaux via
+                                                               
+            λ1 λ2 · · · λm+1      0 λ1 + 1 λ2 + 1 · · · λm+1 + 1
+                              ∼                                     .
+             µ1 µ2 · · · µm         0 µ1 + 1 µ2 + 1 · · · µm + 1
+Denote by ΣB the set of equivalence
+                                      classes under ∼. We use the same
+              λ1 λ2 · · · λm+1
+notation Λ =                     ∈ ΣB to denote its equivalence class, called
+               µ1 µ2 · · · µm
+a B-symbol. There is a well-defined function
+                                       cB : ΣB → N                            (3.1)
+such that
+                X                               X
+  cB (Λ) =               min{λi , λj } +                min{µi , µj }
+             1≤i<j≤m+1                      1≤i<j≤m
+                                        X                      1
+                                  +             min{λi , µj } − m(m − 1)(4m + 1).
+                                                               6
+                                      1≤i≤m+1
+                                       1≤j≤m
+
+For w ∈ Wn , recall that Y (− w)
+                              #» is the Young tableau obtained by applying
+the Robinson-Schensted algorithm to the sequence
+     − #»
+       w = (−w(n), −w(n − 1), · · · , −w(1), w(1), · · · , w(n − 1), w(n)),
+         #» = sh(Y (− w)),
+and p(− w)            #» which is a partition of 2n. By [BV82, Prop.17],
+                                         
+                         λ1 λ2 · · · λm+1
+there is a symbol Λ =                       ∈ ΣB such that, as multisets
+                          µ1 µ2 · · · µm
+ {2λi , 2µj + 1 | i ≤ m + 1, j ≤ m} = {pk + 2m + 1 − k | k ≤ 2m + 1}, (3.2)
+where p = p(− w) #» = (p , p , · · · ) with p
+                          1   2               = 0. Here we set p = 0 when
+                                                 2m+2                   l
+l > 2n. It gives a well-defined map
+                                  SymbB : Wn → ΣB .                           (3.3)
+Proposition 3.2. The a-function on Wn is the composition cB ◦ SymbB of
+maps from (3.1) and (3.3), that is, a(w) = cB ◦ SymbB (w) for all w ∈ Wn .
+  This proposition is implied in the works of Barbasch-Vogan and Lusztig.
+Since we have not found a straightforward statement about it in the litera-
+ture, we provide a proof here.
+Proof. Here W = Wn . Write c = cB , Σ = ΣB and Symb = SymbB .
+Let Irr(W ) be the set of isomorphism classes of simple W -modules over C.
+Consider the two-sided cells defined in [KL79], which are the equivalence
+classes of a relation “∼LR ” on W . By [Lus03, §20.2] (or [Lus84, §5.1]), each
+simple W -module E ∈ Irr(W ) corresponds to a unique two-sided cell e of
+W . In this case, Lusztig wrote E ∼LR x for every x ∈ e. By [Lus03, §20.6],
+there is a function
+                         a : Irr(W ) → N, E 7→ aE ,
+12                    ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+such that aE = a(x) whenever E ∼LR x. In [Lus84, §4.5], Lusztig defined a
+bijection
+                         Symb′ : Irr(W ) → Σ,
+and proved that aE = c(Symb′ (E)) for every E ∈ Irr(W ).
+  On the other hand, it was shown in [BV82, Prop. 17, Thm.18, Lem.29]
+that E ∼LR x if and only if Symb′ (E) is a permutation of Symb(x). For each
+x ∈ W , take E ∈ Irr(W ) such that Symb′ (E) = Symb(x). Then E ∼LR x,
+and a(x) = aE = c(Symb′ (E)) = c(Symb(x)).                                
+Proposition 3.3. Use notation in §1.3 and §2.6. For w ∈ Wn ,
+                          X
+                  a(w) =     (k − 1)podd = F (− w),
+                                            k
+                                                #»
+                                                     b
+                                 k≥1
+
+where p = p(− w)
+              #» = (p , p , · · · ).
+                     1 2
+
+Proof. Assume that p2m+2 = 0 and
+                                                   
+                                   λ1 λ2 · · · λm+1
+                   SymbB (w) =                        .
+                                    µ1 µ2 · · · µm
+         j          k
+Let αk = pk +2m+1−k
+              2       for 1 ≤ k ≤ 2m + 1. In view of (3.2),
+
+           {λi , µj | 1 ≤ i ≤ m + 1, 1 ≤ j ≤ m} = {αk | 1 ≤ k ≤ 2m + 1} .
+It follows from Proposition 3.2 that
+                    X                           1
+         a(w) =               min {αk1 , αk2 } − m(m − 1)(4m + 1).
+                                                6
+                   1≤k1 <k2 ≤2m+1
+
+Since αk is decreasing with respect to k,
+                        X                   1
+             a(w) =           (k − 1)αk − m(m − 1)(4m + 1).
+                                            6
+                     1≤k≤2m+1
+                                       
+By (1.1), one has αk = podd
+                         k   + 2m+1−k
+                                   2      . Then the lemma follows from
+ 2m+1
+  X                          m−1
+                                X
+                2m + 1 − k                             1
+      (k − 1)                =     (m − i)(4i − 1) = m(m − 1)(4m + 1).
+                     2                                 6
+     k=1                            i=1
+                                                                                  
+Remark 3.4. One can easily see that a(w) is independent of m, as long as
+p2m+2 = 0, which can be easily achieved if we set for example m = n.
+3.3. The system Dn and D-symbols. In this case, W = Wn′ , which
+consists of those elements w of Wn such that the number of negative integers
+in {w(1), w(2), · · · , w(n)} is even. Let u = ts1 t and Sn′ = {u, s1 , s2 , · · · ,
+sn−1 }. Thus (Wn′ , Sn′ ) is a Coxeter system. If n = 1, then Wn′ is trivial; if
+n = 2 (resp. n = 3, n ≥ 4), Wn′ is a Weyl group of type A1 × A1 (resp. A3 ,
+Dn ). For convenience, we set D2 = A1 × A1 , D3 = A3 .
+                    GK DIMENSIONS AND ASSOCIATED VARIETIES                          13
+
+  Here we need Lusztig’s D-symbols [Lus77]. Let
+                                        
+                          λ1 λ2 · · · λm
+                                           ,m ≥ 0
+                         µ1 µ2 · · · µm
+be a tableau of nonnegative integers such that entries in each row are strictly
+increasing. Define an equivalence relation on the set of all such tableaux by
+                                                                     
+    µ1 µ2 · · · µm      λ1 λ2 · · · λm      0 λ1 + 1 λ2 + 1 · · · λm + 1
+                    ∼                   ∼                                   .
+    λ1 λ2 · · · λm      µ1 µ2 · · · µm       0 µ1 + 1 µ2 + 1 · · · µm + 1
+Denote by ΣD the set
+                    of equivalence  classes under this relation ∼. Use the
+                     λ1 λ2 · · · λm
+same notation Λ =                     ∈ ΣD to denote its equivalence class,
+                     µ1 µ2 · · · µm
+called a D-symbol. Define a map
+                                 d : ΣB → ΣD ,                                 (3.4)
+                                                                        
+               λ1 λ2 · · · λm+1         λ1  λ2   ···                  λm+1
+                                  7→
+                µ1 µ2 · · · µm          0 µ1 + 1 · · ·               µm + 1
+and a function
+                                      cD : ΣD → N                              (3.5)
+given by
+                 X                           X
+  cD (Λ) =              min{λi , λj } +              min{µi , µj }
+             1≤i<j≤m                       1≤i<j≤m
+                                       X                       1
+                                 +              min{λi , µj } − m(m − 1)(4m − 5),
+                                                               6
+                                      1≤i,j≤m
+                               
+                 λ1 λ2 · · · λm
+where Λ =                        .
+                 µ1 µ2 · · · µm
+  Let
+                                 SymbD : Wn′ → ΣD                              (3.6)
+be the restriction to Wn′ of the composition d ◦ SymbB of maps from (3.3)
+and (3.4).
+Proposition 3.5. The a-function on Wn′ is the composition cD ◦ SymbD of
+maps from (3.5) and (3.6), that is, a(w) = cD ◦ SymbD (w) for w ∈ Wn′ .
+Proof. We can simply imitate the proof of Proposition 3.2.                          
+Proposition 3.6. Use notation in §1.3 and §2.6. For w ∈ Wn′ ,
+                          X
+                  a(w) =     (k − 1)pev       − #»
+                                      k = Fd ( w),
+                                     k≥1
+
+where p = p(− w)
+              #» = (p , p , · · · ).
+                     1 2
+14                    ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+Proof. Assume that p2m+1 = 0 and
+                                                 
+                                 λ1 λ2 · · · λm+1
+                   SymbB (w) =                      .
+                                  µ1 µ2 · · · µm
+We have
+     {2λi , 2µj + 1 | i ≤ m + 1, j ≤ m} = {0} ∪ {pk + 2m + 1 − k | k ≤ 2m}.
+Thus λ1 = 0 and λi ≥ 1 for i > 1. The equivalence relation yields
+                                                                  
+                λ1    λ2     · · · λm+1        λ2 − 1 · · · λm+1 − 1
+ SymbD (w) =                               =                           .
+                0 µ1 + 1 · · · µm + 1            µ1     ···     µm
+
+         j +1−k k
+If pk + 2m       is even, then pk + 2m + 1 − k = 2λi for some i, and hence
+λi −1 = pk +2m−k
+             2     . If pk +2m+1−k is odd, then pk + 2m + 1 − k = 2µj +1
+                             j       k
+for some j, and hence µj = pk +2m−k
+                                 2     . Therefore,
+
+       {λi − 1, µj | 2 ≤ i ≤ m + 1, 1 ≤ j ≤ m} = {βk | 1 ≤ k ≤ 2m} ,
+           j           k
+where βk = pk +2m−k
+                 2       . It follows from Proposition 3.5 that
+                           X                          1
+           a(w) =                   min {βk1 , βk2 } − m(m − 1)(4m − 5)
+                                                      6
+                     1≤k1 <k2 ≤2m
+                     2m
+                     X         1
+                 =  (k − 1)βk − m(m − 1)(4m − 5).
+                               6
+                k=1
+                                  2m−k 
+With (1.1), one has βk = pevk +      2    . A quick calculation yields the
+lemma.                                                                  
+
+                       4. Combinatorics of Dominoes
+   In this section, we introduce a new invariant, the hollow tableau. It will
+be used to prove a key result (Theorem 4.10), which is necessary in the proof
+of Theorem 1.5. First we need to recall the domino insertion algorithm of
+Garfinkle [Gar90].
+
+4.1. Domino insertion. A domino is a skew shape consisting of two adja-
+cent boxes. A (standard) domino tableau D consists of a tiling of the Young
+diagram by dominoes and a filling of each domino with a positive integer,
+such that the numbers are strictly increasing along each row and column. If
+D has shape p, we write p = sh(D). We say D is a skew domino tableau if
+D = Y /Z for two domino tableaux Z ⊆ Y .
+Example 4.1. There are 3 possible domino tableaux of shape (4, 2) filled
+with {1, 2, 3}:
+                       1       2        1     3             3
+                                                     1 2
+                       3                2
+                   GK DIMENSIONS AND ASSOCIATED VARIETIES                      15
+
+  For any positive integer j, denote by D≤j (resp. D≥j ) the sub-tableau of
+D which consists of those dominoes filled with integers less (resp. greater)
+than or equal to j. Obviously D≤j is a domino tableau. If j occurs in D,
+we write domj (D) for the domino in D filled with j.
+  Now recall the domino insertion algorithm, which was introduced by
+Garfinkle [Gar90]. Here we follow the description in [BGIL10, §3.2].
+Definition 4.2 (Domino insertion algorithm). Let D be a domino tableau
+with shape p and i be a positive integer which does not appear in D. Now
+we define a new domino tableau E = D ← ci with c = ±1 as follows.
+      (1) Let E≤i be the domino tableau obtained from D≤i−1 by adding a
+          horizontal (resp. vertical) domino with value i in the first row (resp.
+          column) when c = 1 (resp. c = −1).
+      (2) For j > i, assume that we have obtained E≤j−1 with shape qj−1 . If D
+          contains no domino labeled j, then set E≤j = E≤j−1 , otherwise E≤j
+          is a domino tableau obtained from E≤j−1 by bumping the domino
+          domj in D occupied by j in the following way.
+            (i) If qj−1 ∩ domj = ∅, then E≤j = E≤j−1 ∪ domj .
+           (ii) If qj−1 ∩ domj is precisely a box (k, l), then we add a domino
+                containing j to E≤j−1 to obtain E≤j which has shape qj−1 ∪
+                domj ∪(k + 1, l + 1).
+          (iii) If qj−1 ∩ domj = domj and domj is horizontal (resp. vertical),
+                then we bump the domino domj to the next row (resp. column),
+                and set E≤j to be the union of E≤j−1 with a horizontal (resp.
+                vertical) domino with value j adding in the next row (resp.
+                column) of domj .
+      (3) Repeat (2) until D≥j+1 is empty, then set E = E≤j .
+Example 4.3. Let E = D ← −1 with
+                                        2       5
+                                D=              6    .
+                                      3 4
+
+Then we have
+
+
+  1        1 2       1 2        1 2 4           1 2 4 5       1 2 4 5
+       →         →         →                →             →                = E.
+                       3         3               3              3      6
+  For w ∈ Wn , define a domino tableau as
+               P (w) := ((· · · ((∅ ← w(1)) ← w(2)) · · · ) ← w(n)).
+The sequence of shapes obtained in the process gives rise to another domino
+tableau Q(w) which is called the recording tableau. Let x = (x1 , x2 , · · · xn )
+be a sequence of nonzero integers with distinct absolute values. By a little
+16                     ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+abuse of notation, we still denote by P (x) the domino tableau corresponding
+to the sequence x and by Q(x) the recording domino tableau.
+Example 4.4. Let w  #» = (−3, −4, 1, 5, −2) ∈ W . Then
+                                                               5
+
+                               1               1   5               1   5
+           3       3
+               →       →       3   →           3           →               = P (w),
+                                                               2 3
+                   4       4               4
+                                                                   4
+
+                                                   4                   4
+          1        1       1 3             1 3                 1 3
+               →       →           →                       →               = Q(w).
+
+                   2       2               2                   2 5
+
+   The following result, which is due to Garfinkle [Gar90], is a generalization
+of the Robinson–Schensted correspondence (e.g., [Sag01, Thm. 3.1.1]).
+Theorem 4.5. The assignment w 7→ (P (w), Q(w)) gives rise to a bijection
+between Wn and the set of pairs of domino tableaux of the same shapes filled
+with {1, 2, · · · , n}. Moreover,
+                                       P (w) = Q(w−1 ).                               (4.1)
+  The following result shows that the a-functions can also be calculated by
+domino algorithm (keeping in mind of Theorem 1.3).
+Proposition 4.6. Let w ∈ W . Then p(− w)
+                                       n
+                                          #» = sh(P (w)) = sh(Q(w)).
+
+  Although it had been observed in earlier work of Garfinkle [Gar90], a
+complete proof of this proposition was given in [van96].
+4.2. Hollow tableaux. Now we introduce the hollow tableau.
+Definition 4.7. By removing all the odd boxes from a domino tableau D,
+we obtain a tableau H(D) consisting of only even boxes and inheriting the
+filling from D. We say H(D) is the hollow tableau of D.
+Example 4.8. When D is the tableau in Example 4.3, we have
+                           2       5                   2       5
+                   D=              6           →           4       6 = H(D).
+                        3 4
+                                                       3
+     The following lemma follows from the definition.
+Lemma 4.9. If (k, l) is a box filled in H(D), then all the even boxes (a, b)
+are filled for all 1 ≤ a ≤ k, 1 ≤ b ≤ l
+   This subsection is devoted to proving the following theorem, which is
+interesting in its own right and will play a significant role in determining
+the GK dimensions of highest weight modules for type D.
+                  GK DIMENSIONS AND ASSOCIATED VARIETIES                           17
+
+Theorem 4.10. Let w ∈ Wn . Then
+                      H(P (w)) = H(P (tw)) = H(P (wt)),
+                      H(Q(w)) = H(Q(tw)) = H(Q(wt)).
+                              #»          #»
+In particular, p(− w)ev = p(− tw)ev = p(− wt)ev .
+                   #»
+
+Remark 4.11. It can be easily verified that (tw)(k) = −w(k) when |w(k)| =
+1 and (tw)(k) = w(k) when |w(k)| > 1. Similarly, (wt)(1) = −w(1) and
+(wt)(k) = w(k) when k > 1.
+                                                       #»
+                        #» = (−3, 1, 4, −2) ∈ W . Then tw
+Example 4.12. Let w                            4          = (−3, −1, 4, −2),
+#»
+wt = (3, 1, 4, −2), and
+                                  1      4                           4
+                                                              1 3
+           P (w) = P (wt) =                    ,   P (tw) =                 .
+                                2 3
+                                                              2
+
+                                          1        4
+They have the same hollow tableau              3       .
+                                          2
+   Let x ∈ Seqn (Z) be a sequence of integers with distinct absolute values.
+Define tx to be the sequence obtained from x by changing the sign of ±1 in
+x. In particular, if ±1 6∈ {x1 , x2 , · · · , xn }, then tx = x.
+Lemma 4.13. Let x ∈ Seqn (Z) be a sequence of nonzero integers with
+distinct absolute values. Assume that 1 ∈ {x1 , x2 , · · · , xn }. Let ak (x) (resp.
+bk (x)) be the sum of lengths of the first k rows (resp. columns) of Q(x).
+Then for all k ≥ 1,
+            ak (x) − ak (tx) = 0 or 1,       bk (x) − bk (tx) = 0 or − 1.
+Proof. By Proposition 4.6, p(− x) = sh(Q(x)), and hence by Greene’s theo-
+rem (Theorem 2.14), ak (x) can be explained as the maximal length of sub-
+sequences which can be written as a union of k increasing subsequences of
+− x. In other words, there is a subsequence σ of − x, which is a disjoint union
+
+of increasing subsequences σ1 , · · · , σk with ak (x) = |σ1 | + · · · + |σk | = |σ|.
+    Set y = tx. First we claim that ak (y) ≥ ak (x) − 1. In fact, if (−1, 1) is not
+a subsequence of any σi , then tσi is also an increasing subsequence of − y,
+which implies that ak (y) ≥ |tσ| = |σ| = ak (x) by Greene’s theorem. Assume
+now that (−1, 1) is a subsequence of one of σi ’s, say σ1 . Then σ1 is not a sub-
+sequence of − y. Deleting −1 or 1 from σ1 , we get an increasing subsequence
+σ1′ of − y. Then σ1′ , σ2 , · · · , σk form k disjoint increasing subsequences of − y,
+of total length |σ| − 1. By Greene’s theorem, ak (y) ≥ |σ| − 1 = ak (x) − 1.
+    With y = tx, we obtain −1 ∈ {y1 , y2 , · · · , yn }. Thus (−1, 1) is not a
+subsequence of − y. The previous argument (with x replaced by y) shows
+that ak (x) ≥ ak (y).
+18                   ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+    Now the first statement is obtained. Similarly, one can prove bk (y) −
+bk (x) = 0 or 1, by a column version of Greene’s theorem.                
+Lemma 4.14. Let w ∈ Wn . Then for any 1 ≤ j ≤ n,
+                         domj (P (w)) ∩ domj (P (wt)) 6= ∅.
+Proof. In view of Theorem 4.5, it is equivalent to
+                          domj (Q(z)) ∩ domj (Q(tz)) 6= ∅
+for all z ∈ Wn .
+   Assume without loss of generality that 1 ∈ {z(1), · · · , z(n)}. Let
+                               zk = (z(1), · · · , z(k)).
+Set yk = tzk . If 1 ∈ {z(1), · · · , z(k)}, Lemma 4.13 implies al (zk )−al (yk ) = 0
+or 1, and bl (zk ) − bl (yk ) = 0 or −1 for all 1 ≤ l ≤ k, otherwise yk = zk and
+al (zk ) − al (yk ) = bl (zk ) − bl (yk ) = 0.
+    By definition, Q(zk ) (resp. Q(yk )) is obtained from Q(zk−1 ) (resp. Q(yk−1 ))
+by adding domk (Q(zk )) (resp. domk (Q(yk ))). It suffices to prove that
+                        domk (Q(zk )) ∩ domk (Q(yk )) 6= ∅
+for all 1 ≤ k ≤ n.
+   Assume that it does not hold for k. Then there exists some l > 0 such
+that one of domk (Q(zk )) and domk (Q(yk )) is contained in the first l rows
+(or columns) and the other one is contained in other rows (or columns).
+   When domk (Q(zk )) is contained in the first l rows,
+                   al (zk ) = al (zk−1 ) + 2,   al (yk ) = al (yk−1 ),
+which implies that
+              al (zk ) − al (yk ) = 2 + al (zk−1 ) − al (yk−1 ) = 2 or 3,
+a contradiction with Lemma 4.13.
+   When domk (Q(zk )) is contained in the first l columns,
+                   bl (zk ) = bl (zk−1 ) + 2,   bl (yk ) = bl (yk−1 ),
+which implies that
+               bl (zk ) − bl (yk ) = 2 + bl (zk−1 ) − bl (yk−1 ) = 2 or 1,
+also a contradiction with Lemma 4.13.
+   The remaining cases deduce similar contradictions.                          
+     In general, we also need to consider the domino tableau
+               P (w)k := ((· · · ((∅ ← w(1)) ← w(2)) · · · ) ← w(k))
+for k ≤ n. Since the domino insertion depends only on the relative order
+of the corresponding numbers. Lemma 4.14 can be easily generalized as
+follows.
+Lemma 4.15. Let w ∈ Wn . If j occurs in P (w)k , then
+                       domj (P (w)k ) ∩ domj (P (wt)k ) 6= ∅.
+                 GK DIMENSIONS AND ASSOCIATED VARIETIES                         19
+
+  Recall the domino insertion algorithm from Definition 4.2.
+Proposition 4.16. Let D, D be two standard domino tableaux with H(D) =
+H(D). Let E = D ← ci and E = D ← ci with c = ±1. If domj (E) ∩
+domj (E) 6= ∅ for all j ≥ i occurred in E and E, then H(E) = H(E).
+Proof. We use induction on j to prove that H(E≤j ) = H(E ≤j ) for j ≥ i. If
+j = i, it is clear. Now assume that j > i and H(E≤j−1 ) = H(E ≤j−1 ). If j
+does not occur in D and D, obviously H(E≤j ) = H(E ≤j ). If j occurs in D
+and D, H(domj (D)) = H(domj (D)). There are the following two cases.
+   Case 1. H(domj (D)) does not overlap with H(E≤j−1 ). Then only cases
+(i) and (ii) in Definition 4.2 could happen, which implies that
+                     H(E≤j ) = H(E≤j−1 ) ⊔ H(domj (D)).
+Since H(domj (D)) also does not overlap with H(E ≤j−1 ),
+                     H(E ≤j ) = H(E ≤j−1 ) ⊔ H(domj (D).
+Hence H(E≤j ) = H(E ≤j ).
+   Case 2. H(domj (D)) overlaps with H(E≤j−1 ) at an even box (k, l). By
+(ii) and (iii) in Definition 4.2 , if domj (D) is horizontal (resp. vertical), then
+H(E≤j ) is obtained from H(E≤j−1 ) by adding an even box filled with j to
+the next row (resp. column) of (k, l). It is similar for H(E ≤j ).
+   If domj (D) and domj (D) have the same direction, then H(E≤j ) = H(E ≤j ).
+   Next assume without loss of generality that domj (D) is horizontal and
+domj (D) is vertical. Then H(domj (E)) = H(E≤j ) \ H(E≤j−1 ) is at an even
+box (k + 1, r) with r ≤ l + 1. Similarly, H(domj (E)) = H(E ≤j ) \ H(E ≤j−1 )
+is at an even box (s, l + 1) with s ≤ k + 1.
+   If r = l + 1, then (k + 1, l + 1) ∈ H(E≤j ), and (a, l + 1) ∈ H(E≤j−1 ) =
+H(E ≤j−1 ) for all 1 ≤ a ≤ k with a + l + 1 even by using Lemma 4.9. Since
+the even box (s, l + 1) 6∈ H(E ≤j−1 ), one has s = k + 1. Similarly, if s = k + 1,
+we get r = l + 1. In these cases, we have H(E≤j ) = H(E ≤j ).
+   Finally assume that s < k + 1 and r < l + 1. This yields s ≤ k − 1 and
+r ≤ l − 1. We always have domj (E≤j )∩ domj (E ≤j ) = ∅, a contradiction. 
+The proof of Theorem 4.10. Note that (wt)(1) = −w(1) and (wt)(k) =
+w(k) for k > 1. With P (w)1 = ∅ ← w(1) and P (wt)1 = ∅ ← −w(1),
+obviously H(P (w)1 ) = H(P (wt)1 ) is the even box (1, 1) filled with |w(1)|.
+Applying Lemma 4.15 and Proposition 4.16, we can show that H(P (w)k ) =
+H(P (wt)k ) by induction on k. In particular, when k = n, one has H(P (w)) =
+H(P (wt)). Moreover, H(Q(w)) = H(Q(wt)) follows immediately from the
+definition of the Q-tableau. Then we apply (4.1) to complete the proof.
+
+            5. GK dimensions of highest weight modules
+  In this section, we will prove Theorem 1.5 about GK dimensions of highest
+weight modules for classical types.
+20                 ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+   We always assume that µ is an anti-dominant weight. Recall in §2.4 that
+J = {α ∈ ∆[µ] | hµ, α∨ i = 0} and W[µ]
+                                    J = {w ∈ W
+                                               [µ] | w is shortest in wWJ }.
+If µ is integral, then J ⊆ ∆ and W[µ] = W .
+5.1. General notations. We assume that Φ = Bn , Cn or Dn and apply the
+usual realization of Φ [Hum78]. So Φ is a subset of a real vector space E = Rn
+which admits a natural W -invariant bilinear form (−, −) with orthonormal
+basis εi . Write the set ∆ of simple roots as {α1 , · · · , αn−1 , αn } such that
+αi = εi − εi+1 for 1 ≤ i < n and αn = εn , 2εn , εn−1 + εn , respectively. Let
+                  Λ = {λ ∈ h∗ | hλ, α∨ i ∈ Z for all α ∈ Φ+ }
+be the set of integral weights. Note that we can write λ ∈ h∗ as
+                        λ = (λ1 , · · · , λn ) = λ1 ε1 + · · · λn εn
+with λ1 , · · · , λn ∈ C.
+  Define action sα on h∗ by sα λ = λ − hλ, α∨ iα for all λ ∈ h∗ and α ∈ Φ.
+Then the Weyl group W is a Coxeter group with S = {sα | α ∈ ∆} being
+the set of generators. For Φ = Bn or Cn , we have an isomorphism between
+the Coxeter systems (W, S) and (Wn , Sn ) (see §3.2) via
+               sεi −εi+1 7→ sn−i , 0 ≤ i < n, and s2εn = sεn 7→ t.
+We identify these groups, and hence sn−i (1 ≤ i < n) acts on h∗ by in-
+terchanging the coefficients of εi and εi+1 , and t changing the sign of the
+coefficient of εn . More generally, if w ∈ Wn , then
+            w(εn+1−k ) = sgn(w(k))εn+1−|w(k)| , for all 1 ≤ k ≤ n,                 (5.1)
+where sgn : R → {0, 1, −1} is the usual sign function.
+Lemma 5.1. Let w ∈ Wn and δ = (−n, · · · , −2, −1). Then
+               wδ = (−w−1 (n), −w−1 (n − 1), , · · · , −w−1 (1)).
+Proof. Note that w−1 (w(i)) = i. By (5.1), one has
+                  Xn                Xn
+        wδ = −w(      iεn+1−i ) = −     i sgn(w(i))εn+1−|w(i)|
+                     i=1                     i=1
+                  n
+                  X                                        n
+                                                           X
+             =−         w   −1
+                                 (|w(i)|)εn+1−|w(i)| = −         w−1 (k)εn+1−k ,
+                  i=1                                      k=1
+which implies the lemma.                                                              
+5.2. The integral case. In this subsection, the anti-dominant weight µ is
+always integral.
+Lemma 5.2. Suppose Φ = Bn or Cn . Let λ = wµ for w ∈ W J . Then
+p(λ− ) = p(− w).
+             #»
+
+Proof. Choose δ = (−n, · · · , −1) as in Lemma 5.1. Set ν = wδ. Then δ ∈ C◦
+and ν ∈ wC◦ . With w ∈ W J , Lemma 2.9 yields λ ∈ wC     d◦ . By Definition
+2.7, this implies
+                  GK DIMENSIONS AND ASSOCIATED VARIETIES                               21
+
+    (1) if 1 ≤ i < j ≤ n and νi < νj , then λi ≤ λj ;
+    (2) if 1 ≤ i < j ≤ n and νi > νj , then λi > λj ;
+    (3) if 1 ≤ i, j ≤ n and νi < −νj , then λi ≤ −λj ;
+    (4) if 1 ≤ i, j ≤ n and νi > −νj , then λi > −λj .
+Applying Lemma 2.13 to λ− and ν − , we get p(λ− ) = p(ν − ). Set z = w−1 .
+Lemma 5.1 implies ν − = − #»                             z ) = p(− w)
+                            z . Furthermore, one has p(− #»        #» in view
+of (4.1) and Proposition 4.6. This proves the lemma.                        
+Lemma 5.3. Suppose Φ = Dn . Let λ = wµ for w ∈ W J . Then p(λ− ) is
+                       #»
+             #» or p(− wt).
+equal to p(− w)
+Proof. Set δ = (−n, · · · , −1). In this case, W = Wn′ and tC◦ = C◦ . In
+particular, both δ and tδ are contained in the anti-dominant chamber C◦ .
+Note that the anti-dominant weight µ satisfies µ1 ≤ · · · ≤ µn−1 ≤ −|µn | in
+this case. If µn ≤ 0, then µ is also an anti-dominant weight of the system
+Bn . In view of Lemma 2.9 and Lemma 5.2, we can find z ∈ Wn such that
+λ = zµ is contained in the upper closure of the Bn -chamber which contains
+zδ. Since Dn can be treated as a subsystem of Bn , λ is also contained in
+the upper closure of Dn -chamber which contains zδ. This chamber is zC◦ .
+On the other hand, Lemma 2.9 implies λ ∈ wC    d◦ . Thus wC◦ = zC◦ = ztC◦ .
+It is evident that exactly one of {z, zt} belongs to Wn′ . This forces w = z or
+                                                                            #»
+                                                                  #» or p(− wt).
+zt, in view of Lemma 2.8. Lemma 5.2 then yields p(λ− ) = p(− w)
+If µn > 0, the argument is similar with µ replaced by tµ.                     
+Proposition 5.4. Let Φ = Bn or Cn and λ ∈ h∗ be integral. Then
+                           GKdim L(λ) = n2 − Fb (λ− ).
+Proof. This is a consequence of Theorem 1.3 (or Proposition 3.3), Proposi-
+tion 2.6, Lemma 5.2 and the fact that |Φ+ | = n2 .                      
+Proposition 5.5. Let Φ = Dn and λ ∈ h∗ be integral. Then
+                     GKdim L(λ) = n2 − n − Fd (λ− ).
+                                                        #»
+                                             #» or p(− wt).
+Proof. By Lemma 5.3, one has p(λ− ) = p(− w)                 Here we apply
+                                      # » ev
+                          #» ev = p(− wt)
+Theorem 4.10 and get p(− w)                   = p(λ− )ev . Then the lemma
+follows from Theorem 1.3 (or Proposition 3.6), Proposition 2.6 and the fact
+that |Φ+ | = n2 − n.                                                     
+5.3. The general case. In this section, we will consider the GK dimension
+of L(λ) with λ not necessarily integral.
+   Now Φ = Bn , Cn or Dn . Fix λ ∈ h∗ ≃ Cn . First we describe a decom-
+position of the root system Φ[λ] = {α ∈ Φ | hλ, α∨ i ∈ Z} ⊆ Φ into some
+orthogonal subsystems.
+   Let K(z) := {i ≤ n | λi ∈ z + Z} for z ∈ C. For each z ∈ C, we define a
+set Φ(z) as follows.
+   In general, if z 6∈ 12 Z, we set
+ Φ(z) := {εi − εj , ±(εj + εk ), εk − εl | i, j ∈ K(z) , k, l ∈ K(−z) , i 6= j, k 6= l}.
+22                   ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+If Φ = Bn and z ∈ 21 Z, we set
+              Φ(z) := {±(εi ± εj ), ±εk | i, j, k ∈ K(z) and i < j}.
+If Φ = Cn and z ∈ Z, we set
+             Φ(z) := {±(εi ± εj ), ±2εk | i, j, k ∈ K(z) and i < j}.
+If Φ = Cn and z ∈ 12 + Z, we set
+                  Φ(z) := {±(εi ± εj ) | i, j ∈ K(z) and i < j}.
+If Φ = Dn and z ∈ 12 Z, we set
+                  Φ(z) := {±(εi ± εj ) | i, j ∈ K(z) and i < j}.
+  For z ∈ C, let K(z) = {i1 < · · · < ir } and K(−z) = {j1 < · · · < js }.
+Suppose that Φ(z) 6= ∅. If z 6∈ 12 Z, then Φ(z) is generated by simple roots
+      {εik − εik+1 | 1 ≤ k < r} ∪ {εir + εjs } ∪ {εjl − εjl+1 | 1 ≤ l < s},
+so Φ(z) is a root system of type Ar+s−1 . If Φ = Bn (resp. Dn ) and z ∈ 21 Z,
+Φ(z) is a root system of type B (resp. D). If Φ = Cn and z ∈ Z (resp. z ∈
+1
+2 + Z), Φ(z) is a root system of type C (resp. D). Note that C1 = B1 = A1 ,
+D3 = A3 , D2 = A1 × A1 . Hence Φ(z) is irreducible except when it is of type
+D2 .
+   As usual, Re(z) is used to denote the real part of a complex number z.
+Proposition 5.6. Fix Φ = Bn , Cn or Dn . For λ ∈ h∗ ,
+                                  G
+                       Φ[λ] =             Φ(z) .
+                                        0≤Re(z)≤1/2
+
+Moreover, Φ(z) , 0 ≤ Re(z) ≤ 1/2 are orthogonal with each other.
+Proof. For β = εi − εj ∈ Φ (resp. εi + εj , εi , 2εi ∈ Φ), β ∈ Φ[λ] if and only
+if λi − λj ∈ Z (resp. λi + λj , 2λi , λi ∈ Z). This implies that Φ(z) ⊆ Φ[λ] ,
+and that any β ∈ Φ[λ] must belong to some Φ(z) . Hence Φ[λ] is a union of
+all the Φ(z) , z ∈ C.
+    For z, z ′ ∈ C, if z + z ′ ∈ Z or z − z ′ ∈ Z , then Φ(z) = Φ(z ′ ) . Thus for any
+z ′ ∈ C, there exists some z with 0 ≤ Re(z) ≤ 21 such that Φ(z) = Φ(z ′ ) .
+    If z ± z ′ 6∈ Z, then Φ(z) ∩ Φ(z ′ ) = ∅, and in fact they are orthogonal with
+each other. This completes the proof.                                                
+                                                                            / 12 Z,
+   As above, K(z) = {i1 < · · · < ir } and K(−z) = {j1 < · · · < js }. If z ∈
+set
+     λ(z) = (λi1 , λi2 , · · · , λir , −λjs , −λjs−1 , · · · , −λj1 ) ∈ Seqr+s (z + Z).
+If z ∈ 12 Z, we always set
+                              λ(z) = (λi1 , λi2 , · · · , λir ),
+and we have λ−
+             (z)
+                 ∈ Seq2r (z + Z).
+Theorem 5.7. Let λ = (λ1 , λ2 , · · · , λn ) ∈ h∗ .
+                  GK DIMENSIONS AND ASSOCIATED VARIETIES                                         23
+
+    (1) If Φ = Bn , then
+                                                                X
+                                         −
+     GKdim L(λ) = n2 − Fb (λ−
+                            (0) ) − Fb (λ( 1 ) ) −                              Fa (λ(z) ).
+                                               2
+                                                        0≤Re(z)≤ 12 ,z6=0, 21
+
+    (2) If Φ = Cn , then
+                                                                X
+                                         −
+     GKdim L(λ) = n2 − Fb (λ−
+                            (0) ) − Fd (λ( 1 ) ) −                              Fa (λ(z) ).
+                                                2
+                                                        0≤Re(z)≤ 12 ,z6=0, 21
+
+    (3) If Φ = Dn , then
+                                                                   X
+                                          −
+  GKdim L(λ) = n2 − n − Fd (λ−
+                             (0) ) − Fd (λ( 1 ) ) −                                Fa (λ(z) ).
+                                                    2
+                                                           0≤Re(z)≤ 12 ,z6=0, 21
+
+Proof. Set S = {z ∈ C | 0 ≤ Re(z) ≤ 12 } and a′ = a[λ] : W[λ] → N.
+   Let W(z) be the Weyl group corresponding to Φ(z) . Then W[λ] must be a
+direct product of subgroups W(z) with z ∈ S by Proposition 5.6.
+   Write λ = wµ for µ anti-dominant and w ∈ W[µ]              J (§2.4). Let w =
+Q                                                             ′
+                                                                      P        ′
+  z∈S w(z) , where w(z) is the component in W(z) . Then a (w) =           z∈S a (w(z) ).
+                    ′                                   −             −
+One can see that a (w(z) ) is given by Fa (λ(z) ), Fb (λ(z) ) or Fd (λ(z) ) according
+to the type of Φ(z) (using results in the integral cases). The theorem then
+follows from Proposition 2.6.
+   We should pay attention to some extreme cases. If λ(z) has exactly one
+entry for Φ = Cn , z = 12 or Φ = Dn , z = 0, 12 , the root system Φ(z) is empty.
+Fortunately Example 2.12 shows that Fd (λ−     (z) ) = 0 in this case, which will
+not change our formulas.                                                            
+
+Example 5.8. Let Φ = C10 . Assume that
+
+               λ = (3.1, 2.3, 1.1, −4, −4.1, 2.5, 1.9, 2, 2.1, 0) ∈ h∗ .
+
+Set x = λ(0.1) = (3.1, 1.1, 2.1, −1.9, 4.1), y = λ(0.3) = (2.3), z = λ(0) =
+(−4, 2, 0), w = λ(0.5) = (2.5). It can be verified that p(x) = (3, 12 ), p(y) =
+(1), p(z − ) = (4, 12 ) and p(w− ) = (12 ). Therefore p(z − )odd = (2, 1) and
+p(w− )ev = (1). By Theorem 5.7, we have
+
+            GKdim L(λ) = n2 − Fa (x) − Fa (y) − Fb (z − ) − Fd (w− )
+                           = 102 − 3 − 0 − 1 − 0 = 96.
+
+
+             6. Associated varieties for classical groups
+  In this section, we will determine the associated varieties of simple highest
+weight HC modules for the classical Lie groups. We refer to §2.2 for necessary
+preliminaries about associated varieties and HC-modules.
+24                   ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+6.1. The associated varieties. Recall that q(x) is the dual partition of
+p(x) for x ∈ Seqn (Γ) (see §2.6). The case of type A is already known.
+Theorem 6.1 ([BX19, Thm. 6.4]). Let L(λ) be a HC module of SU (k, n−k)
+(1 ≤ k < n) with λ = (λ1 , · · · , λn ) ∈ h∗ . Set q = q(λ) = (q1 , · · · , qn ). Then
+V (L(λ)) = Ok(λ) with
+                       (
+                           q2                    if λ is integral,
+                k(λ) =
+                           min{k, n − k} otherwise.
+     Now we state our criteria for the other classical Hermitian groups.
+Theorem 6.2. Let L(λ) be a HC module of G with λ = (λ1 , · · · , λn ) ∈ h∗ .
+Set q = q(λ− ) = (q1 , · · · , q2n ). Then V (L(λ)) = Ok(λ) with k(λ) given as
+follows.
+    (1) G = Sp(n, R) with n ≥ 2. Then
+                                 
+                                     odd     if λ1 ∈ Z,
+                                 2q2
+                    k(λ) = 2q2 + 1 if λ1 ∈ 12 + Z,
+                                      ev
+                                 
+                                 
+                                   n          otherwise.
+      (2) G = SO ∗ (2n) with n ≥ 4. Then
+                                 (
+                                   q ev  if λ1 ∈ 12 Z,
+                          k(λ) = 2n 
+                                     2   otherwise.
+      (3) G = SO(2, 2n − 1) with n ≥ 3. Then
+                          
+                          0 if λ1 − λ2 ∈ Z, λ1 > λ2 ,
+                          
+                  k(λ) = 1 if λ1 − λ2 ∈ 12 + Z, λ1 > 0,
+                          
+                          
+                            2 otherwise.
+      (4) G = SO(2, 2n − 2) with n ≥ 4. Then
+                       
+                       0 if λ1 − λ2 ∈ Z, λ1 > λ2 ,
+                       
+                k(λ) = 1 if λ1 − λ2 ∈ Z, −|λn | < λ1 ≤ λ2
+                       
+                       
+                         2 otherwise.
+  The idea of the proof is straightforward. First we compute the GK di-
+mension of L(λ) using Theorem 5.7, then compare it with the formula in
+Proposition 2.4. The column algorithm in Lemma 2.11 will be helpful.
+6.2. The GK dimensions. Let Φc be the set of compact roots, which is
+the root system of (k, h). Denote Φ+                   +
+                                            c = Φc ∩ Φ . Then it is generated by
+∆c := ∆ ∩ Φ+                                                                  +
+                    c . Recall that L(λ) is a HC module if and only if λ is Φc -
+                              ∨                     +
+dominant, that is, hλ, α i ∈ Z>0 for all α ∈ Φc . We always put q = q(λ ) = −
+
+(q1 , q2 · · · , q2n ) when Φ[λ] is a root system of type B, C or D.
+Lemma 6.3. Let G = Sp(n, R) (n ≥ 2) and L(λ) be a HC module of G.
+  (1) If λ1 ∈ Z, then GKdim L(λ) = q2odd (2n + 1 − 2q2odd ).
+                 GK DIMENSIONS AND ASSOCIATED VARIETIES                          25
+
+   (2) If λ1 ∈ 12 + Z, then GKdim L(λ) = n + q2ev (2n − 1 − 2q2ev ).
+             / 12 Z, then GKdim L(λ) = n(n+1)
+   (3) If λ1 ∈                            2   .
+Proof. In this case, Φ+c = {εi − εj | i < j} (e.g., [EHW83]). We get λ1 >
+· · · > λn and λi − λj ∈ Z since λ is Φ+ c -dominant.
+     If λ1 ∈ Z, Theorem 5.7 yields GKdim L(λ) = n2 − Fb (λ− ). By Greene’s
+Theorem, q(λ− ) = (q1 , q2 ). It follows from Lemma 2.11 that
+   GKdim L(λ) = n2 − (q1odd )2 − q2odd (q2odd − 1) = q2odd (2n + 1 − 2q2odd ),
+where the last equality follows from the fact that q1odd + q2odd = n.
+   If λ1 ∈ 21 + Z, then GKdim L(λ) = n2 − Fd (λ− ). Applying Lemma 2.11,
+a similar argument shows that
+    GKdim L(λ) = n2 − q1ev (q1ev − 1) − (q2ev )2 = n + q2ev (2n − 1 − 2q2ev ).
+  If λ1 6∈ 12 Z, then GKdim L(λ) = n2 − Fa (λ). By Greene’s Theorem and
+Lemma 2.11, we have
+                                                n(n − 1)   n(n + 1)
+          GKdim L(λ) = n2 − Fa (λ) = n2 −                =          .
+                                                   2          2
+                                                                                 
+Lemma 6.4. Let G = SO ∗ (2n) (n ≥ 4) and L(λ) be a HC module of G.
+  (1) If λ1 ∈ 12 Z, then GKdim L(λ) = q2ev (2n − 1 − 2q2ev ).
+            / 12 Z, then GKdim L(λ) = n(n−1)
+  (2) If λ1 ∈                             2   .
+Proof. In this case, Φ+  c = {εi − εj | i < j}. We get λ1 > · · · > λn and
+λi − λj ∈ Z.
+   If λ1 ∈ 21 Z, Theorem 5.7 implies GKdim L(λ) = n2 − n − Fd (λ− ), which
+is equal to q2ev (2n − 1 − 2q2ev ) in view of Lemma 2.11.
+         / 12 Z, then GKdim L(λ) = n2 − n − Fa (λ) = n(n−1)
+   If λ1 ∈                                                2 using Theorem
+5.7 and Lemma 2.11.                                                      
+Lemma 6.5. Let G = SO(2, 2n − 1) (n ≥ 3) and L(λ) be its HC module.
+                                          (
+                                           0        if λ1 > λ2 ,
+  (1) If λ1 − λ2 ∈ Z, then GKdim L(λ) =
+                                           2n − 1 if λ1 ≤ λ2 .
+                                              (
+                    1                          2n − 2 if λ1 > 0,
+  (2) If λ1 − λ2 ∈ 2 + Z, then GKdim L(λ) =
+                                               2n − 1 if λ1 ≤ 0.
+                 / 12 Z, then GKdim L(λ) = 2n − 1.
+  (3) If λ1 − λ2 ∈
+Proof. Now Φ+   c = {εi ± εj | 2 ≤ i < j ≤ n} ∪ {εi | 2 ≤ i ≤ n}. Then
+λ2 > λ3 > · · · > λn > 0, λ2 ∈ 12 Z and λi − λj ∈ Z for all i, j ≥ 2. Set
+x = (λ1 ) and y = (λ2 , · · · , λn ).
+   If λ1 − λ2 ∈ Z, Theorem 5.7 shows that GKdim L(λ) = n2 − Fb (λ− ). By
+Greene’s Theorem, if λ1 > λ2 , q(λ− ) = (2n); if λ1 ≤ λ2 , q(λ− ) = (2n − 2, 2)
+or (2n − 2, 12 ). Then (1) follows from Lemma 2.11.
+26                  ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+   If λ1 − λ2 ∈ 21 + Z, then GKdim L(λ) = n2 − Fb (x− ) − Fb (y − ). It is easy
+to verify that q(x− ) = (12 ) (when λ1 ≤ 0) or (2) (when λ1 > 0). Moreover,
+q(y − ) = (2n − 2). Lemma 2.11 yields (2).
+   If λ1 − λ2 ∈/ 12 Z, then GKdim L(λ) = n2 − Fa (x) − Fb (y − ). We obtain
+q(x) = (1) and q(y − ) = (2n − 2). Then (3) follows from Lemma 2.11.         
+Lemma 6.6. Let G = SO(2, 2n − 2) (n ≥ 4) and L(λ) be its HC module.
+                                        
+                                        
+                                        0       if λ1 > λ2 ,
+  (1) If λ1 − λ2 ∈ Z, then GKdim L(λ) = 2n − 3 if − |λn | < λ1 ≤ λ2 ,
+                                        
+                                        
+                                          2n − 2 if λ1 ≤ −|λn |.
+  (2) If λ1 − λ2 ∈/ Z, then GKdim L(λ) = 2n − 2.
+Proof. Now Φ+  c = {εi ±εj | 2 ≤ i < j ≤ n}. We obtain λ2 > λ3 > · · · > |λn |,
+λ2 ∈ 12 Z and λi − λj ∈ Z for all i, j ≥ 2. Set x = (λ1 ) and y = (λ2 , · · · , λn ).
+   First assume that λ1 − λ2 ∈ Z. Theorem 5.7 yields GKdim L(λ) = n2 −
+n − Fd (λ− ). If λ1 > λ2 , then q(λ− ) = (2n) (when λn > 0) or (2n − 1, 1)
+(when λn ≤ 0). In both cases, Fd (λ− ) = n2 − n. If −|λn | < λ1 ≤ λ2 , then
+q(λ− ) = (2n−2, 2) or (2n−3, 3), we get Fd (λ− ) = n2 −3n+3. If λ1 ≤ −|λn |,
+then q(λ− ) = (2n − 2, 12 ) or (2n − 3, 13 ), one has Fd (λ− ) = n2 − 3n + 2.
+Then (1) follows.
+   Next assume that λ1 − λ2 ∈ 21 + Z. Theorem 5.7 gives GKdim L(λ) =
+n2 − n − Fd (x− ) − Fd (y − ). With q(x− ) = (2) or (12 ), we always have
+Fd (x− ) = 0. By Greene’s Theorem, q(y − ) = (2n − 2) or (2n − 3, 1). In
+either case Fd (y − ) = (n − 1)(n − 2).
+   Finally assume that λ1 − λ2 ∈ / 21 Z. Then GKdim L(λ) = n2 − n − Fa (x) −
+Fd (y − ). The argument is similar.                                               
+Proof of Theorem 6.2. By Proposition 2.4 and Table 1, we get the
+following facts.
+   For G = Sp(n, R), dim Ok = 12 k(2n − k + 1) with 0 ≤ k ≤ n.
+                                                             
+   For G = SO ∗ (2n), dim Ok = k(2n − 2k − 1) with 0 ≤ k ≤ n2 .
+   For G = SO(2, 2n − 1), dim Ok = 0, 2n − 2, 2n − 1 with k = 0, 1, 2.
+   For G = SO(2, 2n − 2), dim Ok = 0, 2n − 3, 2n − 2 with k = 0, 1, 2.
+   Note that dim Ok is monotone in k. Now the theorem follows immediately
+from Lemmas 6.3-6.6 and the fact that GKdim L(λ) = dim Ok(λ) .
+
+          7. Associated varieties for Exceptional groups
+  In this section, we give the associated varieties of highest weight HC
+modules for the two exceptional groups. Now Φ is of type E6 or E7 . As
+usual Φ can be realized as a subset of R8 . The simple roots are
+                     1
+               α1 = (ε1 − ε2 − ε3 − ε4 − ε5 − ε6 − ε7 + ε8 ),
+                     2
+               α2 = ε1 + ε2 ,
+               αk = εk−1 − εk−2 with 3 ≤ k ≤ n,
+                 GK DIMENSIONS AND ASSOCIATED VARIETIES                       27
+
+where n = 6, 7. Here we adopt notation in [EHW83]. In particular, if
+Φ = E6 , then ∆c = ∆\{α1 }; if Φ = E7 , then ∆c = ∆\{α7 }.
+
+    1      3      4       5     6     1      3       4       5     6      7
+
+
+                      2                                  2
+
+                      Figure 1. Diagrams of E6 and E7
+
+
+7.1. The associated varieties. Recall from (2.2) that, for an integral
+weight λ ∈ h∗ , we have Ψ+         +       ∨
+                         λ = {α ∈ Φ | hλ, α i > 0}.
+
+Theorem 7.1. Let L(λ) be a HC module of G of type E6 /E7 . If λ ∈ h∗ is
+not integral, then V (L(λ)) = Ok(λ) with k(λ) = 2 (for E6 ) or 3 (for E7 ). In
+the case when λ is integral, k(λ) is given as follows.
+   (1) If G is of type E6 , then
+                      
+                                +
+                      0 if Ψλ ∩ S2 6= ∅,
+                                                  +
+              k(λ) = 1 if Ψ+     λ ∩ S1 6= ∅ and Ψλ ∩ S2 = ∅,
+                      
+                      
+                        2 if Ψ+  λ ∩ S1 = ∅,
+
+       where S1 = { 12 (±(ε1 +ε2 +ε3 −ε4 )−ε5 −ε6 −ε7 +ε8 )} and S2 = {α1 }.
+   (2) If G is of type E7 , then
+                      
+                      
+                       0 if Ψ+   λ ∩ S3 6= ∅,
+                      
+                      1 if Ψ+ ∩ S 6= ∅ and Ψ+ ∩ S = ∅,
+                                  λ     2            λ     3
+              k(λ) =              +                  +
+                      
+                       2    if Ψ   ∩ S 1 6
+                                          = ∅  and Ψ   ∩ S 2 = ∅,
+                      
+                                 λ                  λ
+                                  +
+                        3 if Ψλ ∩ S1 = ∅,
+
+        where S1 = { 12 (±(ε1 − ε2 − ε3 + ε4 ) − ε5 + ε6 − ε7 + ε8 ), ε5 + ε6 },
+        S2 = {±ε1 + ε6 } and S3 = {−ε5 + ε6 }.
+Example 7.2. Let Φ = E6 and λ = ρ − 2α1 = (−1, 2, 3, 4, 5, −3, −3, 3).
+Since λ is Φ+
+            c -dominant, L(λ) is a HC module. It can be easily verified that
+S1 ⊆ Ψ +
+       λ  and  α1 6∈ Ψ+
+                      λ . Therefore V (L(λ)) = O 1 by Theorem 7.1(1).
+
+Remark 7.3. When L(λ) is a HC module of exceptional types, we know
+that its associated variety are determined by the corresponding a-functions,
+in view of Propositions 2.4 and 2.6. The computation of a-functions for
+exceptional Weyl groups is by no means an easy problem even using com-
+puters. However, as shown in the above example, with Theorem 7.1, the
+associated variety can be easily obtained by hand.
+  The rest of this section is devoted to the proof of Theorem 7.1.
+28                   ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+7.2. Some facts. Let Wc be the Weyl group of the compact root system
+Φc . Denote by W c the set of minimal length coset representatives of Wc \W .
+Then W = Wc W c . Let w ∈ W . For simplicity, we write (see §2.5)
+                                         +   −1
+                      Φ+     +
+                       w := ΦwC◦ = {α ∈ Φ | w α < 0}.
+Let w = sγ1 sγ2 · · · sγk be a reduced expression of w with γ1 , · · · , γk ∈ ∆. For
+1 ≤ r ≤ k, define positive roots
+                              βr = sγ1 sγ2 · · · sγr−1 γr .
+Then βr ’s are distinct and (see for example [Hum90, §1.7])
+                              Φ+
+                               w = {βr | 1 ≤ r ≤ k}.                             (7.1)
+In particular, this set is independent of the choice of the reduced expressions
+of w. Recall the Bruhat ordering “≤” on W (e.g., [Hum90, §5.9]).
+Lemma 7.4. Let G be a Lie group of Hermitian type. Suppose that y ≤ w
+for y, w ∈ W c . Write z = y −1 w. Then ℓ(w) = ℓ(y) + ℓ(z), and
+                             Φ+       +            +
+                              wc w = Φwc y ⊔ wc y(Φz ).                          (7.2)
+Proof. If ℓ(w) = ℓ(y) + 1, one can write w = ysβ for some β ∈ Φ+ . It is well-
+known that (see for example [BC86]) in all Hermitian cases we may always
+choose β simple. Thus z = sβ and ℓ(w) = ℓ(y) + ℓ(z). If ℓ(w) > ℓ(y) + 1,
+Deodhar [Deo77] showed that there is a sequence y = y0 < y1 < · · · < yk = w
+in W c such that ℓ(yi ) = ℓ(yi−1 ) + 1 for 1 ≤ i ≤ k. The previous argument
+               −1
+implies that yi−1 yi are simple reflections. This gives the first result. The
+second statement is an easy consequence of the first one and (7.1).        
+     The following result is due to [EHW83, Lem. 3.17].
+Lemma 7.5. Suppose that G is of type E6 or E7 . Let L(λ) be a highest
+weight HC module of G. If λ is not integral, then GKdim L(λ) = |Φ+ \Φ+
+                                                                     c |.
+
+     With this lemma, it suffices to consider the case when λ is integral.
+7.3. A decomposition of W c . Denote by w◦ (resp. wc ) the longest el-
+ement in W (resp. Wc ). All the Φ+         c -dominant weights with infinitesimal
+character −ρ can be written as wc w(−ρ) with w ∈ W c . According to
+[CIS88, Lem. 7.1], the set W c can be partitioned into some subsets such
+that GKdim L(−wc wρ) is constant when w varies in each subset.
+   Indeed, we label elements of W c in the same way as [CIS88, Figs. 7.1, 7.2],
+where W c = {w0 , w1 , · · · , w26 } for type E6 and W c = {w0 , w1 , · · · , w55 } for
+type E7 . Reduced expressions of these elements can be easily read from
+[CIS88, Figs. 7.1, 7.2], keeping in mind that our labels on simple roots (see
+Figure 1) are different from those in [CIS88, page 81]. For example, in type
+E6 , a reduced expression of w9 is given by sα1 sα3 sα4 sα5 sα2 sα6 .
+   Denote by W≤w c the subset {y ∈ W c | y ≤ w} for any w ∈ W c . In [CIS88,
+
+Fig. 7.1], the set W c for type E6 is decomposed into three subsets C0 =
+W≤wc              c
+         , C1 = W≤w    \W≤w c      and C2 = W≤w  c      c
+                                                      \W≤w    = {w26 }. Similarly,
+      19            25          19                 26      25
+                  GK DIMENSIONS AND ASSOCIATED VARIETIES                            29
+
+in [CIS88, Fig. 7.2], the set W c for type E7 is decomposed into 4 disjoint
+subsets C0 = W≤wc              c
+                      , C1 = W≤w        c
+                                     \W≤w            c
+                                             , C2 = W≤w      c
+                                                           \W≤w    and C3 =
+                   23             48      23            54      48
+   c      c
+W≤w55 \W≤w54 = {w55 }.
+Lemma 7.6. Recall the sets Sk defined in Theorem 7.1.
+  (1) Let Φ = E6 . Fix 0 ≤ k ≤ 2. The following conditions are equivalent:
+      (1a) z ∈ Ck ;
+      (1b) GKdim L(−wc zρ) = (2 − k)(8 + 3k) = |Φ+ | − a(wc z);
+      (1c) Φ+                               +
+             wc z ∩ Sk 6= ∅ when k ≥ 1 and Φwc z ∩ Sk+1 = ∅ when k ≤ 1.
+  (2) Let Φ = E7 . Fix 0 ≤ k ≤ 3. The following conditions are equivalent:
+      (2a) z ∈ Ck ;
+      (2b) GKdim L(−wc zρ) = (3 − k)(9 + 4k) = |Φ+ | − a(wc z);
+      (2c) Φ+                               +
+             wc z ∩ Sk 6= ∅ when k ≥ 1 and Φwc z ∩ Sk+1 = ∅ when k ≤ 2.
+Proof. Here we only prove the case k = 0 for Φ = E7 , while the proofs for
+the other cases are similar. In this case, W c \C0 has three minimal elements
+w16 , w24 , w26 under the Bruhat order. Moreover, [CIS88, Figs. 7.2] shows
+that
+  w16 = w13 sα7 ≥ w13 , w24 = w21 sα2 ≥ w21 and w26 = w23 sα5 ≥ w23 , (7.3)
+with w13 , w21 , w23 ∈ C0 . In view of (7.2), we denote by β16 , β24 and β26
+the unique roots in Φ+           +         +         +           +         +
+                       wc w16 \ Φwc w13 , Φwc w24 \ Φwc w21 and Φwc w26 \ Φwc w23 ,
+respectively. By (7.2) and (7.3), we can get
+              β16 = wc w13 α7 , β24 = wc w21 α2 and β26 = wc w23 α5
+A straightforward computation shows that {β16 , β24 , β26 } = S1 . It can be
+also directly verified that the set Φ+ wc w23 ∩ S1 = ∅.
+   The equivalence of (2a) and (2b) is due to [CIS88, Lemma 7.1] and Propo-
+sition 2.6. If (2a) holds, that is, z ∈ C0 , then z ≤ w23 since w23 is the
+unique maximal element in C0 . Lemma 7.4 yields Φ+                +
+                                                          wc z ⊆ Φwc w23 and thus
+  +                                                          +
+Φwc z ∩ S1 = ∅. This gives (2c). Conversely, suppose Φwc z ∩ S1 = ∅. Recall
+that w16 , w24 , w26 are all the minimal elements in W c \C0 . If z 6∈ C0 , then
+at least one of Φ+           +            +                       +
+                   wc w16 , Φwc w24 and Φwc w26 is contained in Φwc z , in view of
+                +
+(7.2). Thus Φwc z ∩ S1 6= ∅, a contradiction.                                   
+Proof of Theorem 7.1. If λ is not integral, we can apply Proposition 2.4
+and Lemma 7.5.
+    Now assume that λ is integral, then there exists a unique w ∈ W such that
+λ ∈ wCd◦ ⊆ wC◦ . Thus µ = w−1 λ ∈ C ◦ is anti-dominant. Proposition 2.6
+                                                                   +
+and Lemma 2.9 imply GKdim L(λ) = |Φ+ | − a(w) and Ψ+                        +
+                                                              λ = ΦwC◦ = Φw .
+Note that L(λ) is a HC module if and only if λ is Φ+      c -dominant, that is,
+         +
+Φ+c  ⊆ Ψ λ = Φ + . This means w = w z for some z ∈ W c . The theorem then
+               w                      c
+follows from Proposition 2.4 and Lemma 7.6.
+
+                                   References
+[AV21] J. Adams and D. A. Vogan, Jr. Associated varieties for real reductive groups. to
+       appear in Pure and Applied Mathematics Quarterly, 2021.
+30                    ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+[BB85] W. Borho and J.-L. Brylinski. Differential operators on homogeneous spaces. III.
+        Characteristic varieties of Harish-Chandra modules and of primitive ideals. In-
+        vent. Math., 80(1):1–68, 1985.
+[BC86] B. D. Boe and D. H. Collingwood. A multiplicity one theorem for holomorphically
+        induced representations. Math. Z., 192(2):265–282, 1986.
+[Ber71] I. N. Bernšteı̆n. Modules over a ring of differential operators. An investigation
+        of the fundamental solutions of equations with constant coefficients. Funkcional.
+        Anal. i Priložen., 5(2):1–16, 1971.
+[BGIL10] C. Bonnafé, M. Geck, L. Iancu, and T. Lam. On domino insertion and Kazhdan-
+        Lusztig cells in type Bn . In Representation theory of algebraic groups and quantum
+        groups, volume 284 of Progr. Math., pages 33–54. Birkhäuser/Springer, New York,
+        2010.
+[BH15] Z. Bai and M. Hunziker. The Gelfand-Kirillov dimension of a unitary highest
+        weight module. Sci. China Math., 58:2489–2498, 2015.
+[BV82] D. Barbasch and D. A. Vogan. Primitive ideals and orbital integrals in complex
+        classical groups. Math. Ann., 259(2):153–199, 1982.
+[BX19] Z. Bai and X. Xie. Gelfand-Kirillov dimensions of highest weight Harish-Chandra
+        modules for SU (p, q). Int. Math. Res. Not. IMRN, pages 4392–4418, 2019.
+[BZ17] L. Barchini and R. Zierau. Characteristic cycles of highest weight Harish-Chandra
+        modules for Sp(2n, R). Transform. Groups, 22(3):591–630, 2017.
+[CIS88] D. H. Collingwood, R. S. Irving, and B. Shelton. Filtrations on generalized Verma
+        modules for Hermitian symmetric pairs. J. Reine Angew. Math., 383:54–86, 1988.
+[Deo77] V. V. Deodhar. Some characterizations of Bruhat ordering on a Coxeter group
+        and determination of the relative Möbius function. Invent. Math., 39(2):187–198,
+        1977.
+[EHW83] T. J. Enright, R. Howe, and N. Wallach. A classification of unitary highest
+        weight modules. In Representation theory of reductive groups (Park City, Utah,
+        1982), volume 40 of Progr. Math., pages 97–143. Birkhäuser Boston, Boston, MA,
+        1983.
+[EW04] T. J. Enright and J. F. Willenbring. Hilbert series, Howe duality and branching
+        for classical groups. Ann. of Math. (2), 159(1):337–375, 2004.
+[Gar90] D. Garfinkle. On the classification of primitive ideals for complex classical Lie
+        algebras. I. Compositio Math., 75(2):135–169, 1990.
+[Gar93] D. Garfinkle. The annihilators of irreducible Harish-Chandra modules for SU(p, q)
+        and other type An−1 groups. Amer. J. Math., 115(2):305–369, 1993.
+[GK66] I. M. Gelfand and A. A. Kirillov. Sur les corps liés aux algèbres enveloppantes
+        des algèbres de Lie. Inst. Hautes Études Sci. Publ. Math., (31):5–19, 1966.
+[Gre74] C. Greene. An extension of Schensted’s theorem. Adv. Math., 14:254–265, 1974.
+[Hum78] J. E. Humphreys. Introduction to Lie algebras and representation theory, vol-
+        ume 9 of Graduate Texts in Mathematics. Springer-Verlag, New York-Berlin, 1978.
+        Second printing, revised.
+[Hum90] J. E. Humphreys. Reflection groups and Coxeter groups, volume 29 of Cambridge
+        Studies in Advanced Mathematics. Cambridge University Press, Cambridge, 1990.
+[Jos78] A. Joseph. Gelfand-Kirillov dimension for the annihilators of simple quotients of
+        Verma modules. J. London Math. Soc. (2), 18(1):50–60, 1978.
+[Jos80a] A. Joseph. Goldie rank in the enveloping algebra of a semisimple Lie algebra. I,.
+        J. Algebra, 65:269–283, 1980.
+[Jos80b] A. Joseph. Goldie rank in the enveloping algebra of a semisimple Lie algebra. II,.
+        J. Algebra, 65:284–306, 1980.
+[Jos81] A. Joseph. Goldie rank in the enveloping algebra of a semisimple Lie algebra. III.
+        J. Algebra, 73(2):295–326, 1981.
+[Jos84] A. Joseph. On the variety of a highest weight module. J. Algebra, 88(1):238–278,
+        1984.
+                   GK DIMENSIONS AND ASSOCIATED VARIETIES                                31
+
+[Jos92] A. Joseph. Annihilators and associated varieties of unitary highest weight mod-
+        ules. Ann. Sci. École Norm. Sup. (4), 25(1):1–45, 1992.
+[KL79] D. Kazhdan and G. Lusztig. Representations of Coxeter groups and Hecke alge-
+        bras. Invent. Math., 53(2):165–184, 1979.
+[LM15] H. Y. Loke and J.-J. Ma. Invariants and K-spectrums of local theta lifts. Compos.
+        Math., 151(1):179–206, 2015.
+[Lus77] G. Lusztig. Irreducible representations of finite classical groups. Invent. Math.,
+        43(2):125–175, 1977.
+[Lus79] G. Lusztig. A class of irreducible representations of a Weyl group. Nederl. Akad.
+        Wetensch. Indag. Math., 41(3):323–335, 1979.
+[Lus82] G. Lusztig. A class of irreducible representations of a Weyl group. II. Nederl.
+        Akad. Wetensch. Indag. Math., 44(2):219–226, 1982.
+[Lus84] G. Lusztig. Characters of reductive groups over a finite field, volume 107 of Annals
+        of Mathematics Studies. Princeton University Press, Princeton, NJ, 1984.
+[Lus85a] G. Lusztig. Cells in affine Weyl groups. In Algebraic groups and related topics
+        (Kyoto/Nagoya, 1983), volume 6 of Adv. Stud. Pure Math., pages 255–287. North-
+        Holland, Amsterdam, 1985.
+[Lus85b] G. Lusztig. The two-sided cells of the affine Weyl group of type Ãn . In Infinite-
+        dimensional groups with applications (Berkeley, Calif., 1984), volume 4 of Math.
+        Sci. Res. Inst. Publ., pages 275–283. Springer, New York, 1985.
+[Lus03] G. Lusztig. Hecke algebras with unequal parameters, volume 18 of CRM Mono-
+        graph Series. American Mathematical Society, Providence, RI, 2003.
+[McG00] W. M. McGovern. A triangularity result for associated varieties of highest weight
+        modules. Comm. Algebra, 28(4):1835–1843, 2000.
+[Mel93] A. Melnikov. Irreducibility of the associated varieties of simple highest weight
+        modules in sl(n). C. R. Acad. Sci. Paris Sér. I Math., 316(1):53–57, 1993.
+[NOT01] K. Nishiyama, H. Ochiai, and K. Taniguchi. Bernstein degree and associated cy-
+        cles of Harish-Chandra modules—Hermitian symmetric case. Number 273, pages
+        13–80. 2001. Nilpotent orbits, associated cycles and Whittaker models for highest
+        weight representations.
+[Sag01] B. E. Sagan. The symmetric group, volume 203 of Graduate Texts in Mathematics.
+        Springer-Verlag, New York, second edition, 2001. Representations, combinatorial
+        algorithms, and symmetric functions.
+[Tan88] T. Tanisaki. Characteristic varieties of highest weight modules and primitive quo-
+        tients. In Representations of Lie groups, Kyoto, Hiroshima, 1986, volume 14 of
+        Adv. Stud. Pure Math., pages 1–30. Academic Press, Boston, MA, 1988.
+[Tra01] P. E. Trapa. Annihilators and associated varieties of Aq (λ) modules for U (p, q).
+        Compositio Math., 129(1):1–45, 2001.
+[TZ96] E.-C Tan and C.-Bo Zhu. Poincaré series of holomorphic representations. Indag.
+        Math. (N.S.), 7(1):111–126, 1996.
+[van96] M. A. A. van Leeuwen. The Robinson-Schensted and Schützenberger algorithms,
+        an elementary approach. Electron. J. Comb., 3(2), 1996.
+[Vog78] D. A. Vogan, Jr. Gelfand-Kirillov dimension for Harish-Chandra modules. Invent.
+        Math., 48(1):75–98, 1978.
+[Vog81a] D. A. Vogan, Jr. Representations of real reductive Lie groups, volume 15 of
+        Progress in Mathematics. Birkhäuser, Boston, Mass., 1981.
+[Vog81b] D. A. Vogan, Jr. Singular unitary representations. In Noncommutative harmonic
+        analysis and Lie groups (Marseille, 1980), volume 880 of Lecture Notes in Math.,
+        pages 506–535. Springer, Berlin-New York, 1981.
+[Vog91] D. A. Vogan, Jr. Associated varieties and unipotent representations. In Harmonic
+        analysis on reductive groups (Brunswick, ME, 1989), volume 101 of Progr. Math.,
+        pages 315–388. Birkhäuser Boston, Boston, MA, 1991.
+32                   ZHANQIANG BAI, WEI XIAO, AND XUN XIE
+
+[Wil15] G. Williamson. A reducible characteristic variety in type A. In Represen-
+        tations of reductive groups, volume 312 of Progr. Math., pages 517–532.
+        Birkhäuser/Springer, Cham, 2015.
+[Yam01] H. Yamashita. Cayley transform and generalized Whittaker models for irre-
+        ducible highest weight modules. Number 273, pages 81–137. 2001. Nilpotent or-
+        bits, associated cycles and Whittaker models for highest weight representations.
+[Zie18] R. Zierau. Characteristic cycles of highest weight Harish-Chandra modules. São
+        Paulo J. Math. Sci., 12(2):389–410, 2018.
+
+
+   (Bai) School of Mathematical Sciences, Soochow University, Suzhou 215006,
+P. R. China
+   Email address: zqbai@suda.edu.cn
+
+  (Xiao) College of Mathematics and statistics, Shenzhen Key Laboratory of
+Advanced Machine Learning and Applications, Shenzhen University, Shenzhen
+518060, Guangdong, P. R. China
+  Email address: xiaow@szu.edu.cn
+
+  (Xie) School of Mathematics and Statistics, Beijing Institute of Technol-
+ogy, Beijing 100081, China
+  Email address: xieg7@163.com
+
