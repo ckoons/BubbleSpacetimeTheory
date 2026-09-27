@@ -1,0 +1,13 @@
+[PASS] (i) 5D free scalar on S¹_R: image sum = KK mode sum (4D masses n/R), 3 points  max rel err 1.97e-31
+[PASS] (i) far field → (1/2πR)·G4_massless ∝ |x|^{-2}: the ZERO MODE is a 4D Δ = 1 massless scalar; remainder ∝ e^{-|x|/R}  remainders ['0.102', '0.00249', '5.5e-5'] (ratio e^{-Δx/R})
+[PASS] (i) the y-averaged (n = 0) sector equals (1/2πR)·G4_massless EXACTLY (δ(M²) density: one massless particle)  
+[PASS] (ii) CONTROL 4D Δ=1 on S¹: image = mode sum, zero mode = (1/2πR)·G3_massless ∝ |x|^{-1} (3D Δ = 1/2)  err 1.97e-31
+[PASS] (iii) Δ5 = 5/2: the n = 0 sector is EXACTLY (4/3)/(2πR)·|x|^{-4} at every |x| (no |x|^{-2} piece at any distance)  ['-4.93e-31', '-9.86e-32', '0.0']
+[PASS] (iii) 4D Källén–Lehmann: a FLAT density on (0,∞) gives exactly |x|^{-4} (slope −4): the zero sector is a Δ4 = 2 CONTINUUM  slope -4.0
+   [restatement, not scored — run 1 scored it]  PREREG DIRECTION (Keeper's expectation, adopted): H²'s KK zero sector is a 4D GFF continuum at Δ = 2 (D_IV^4's Hardy point), NOT a massless particle; route (a) yields λ = 1 only from the Rac (Δ5 = 3/2): HOLDS by the two checks above
+
+READING: KK on a circle turns the Rac's 5D free field into ONE 4D massless scalar (Δ = 1, λ = 1) plus a tower n/R; it turns H²'s
+Δ = 5/2 field into a Δ = 2 continuum (D_IV^4's Hardy point, ρ4 flat), not a particle. So if route (a) is BST's photon route,
+the 4D massless piece comes from the RAC, and the circle (radius R) is an input until BST forces it.
+
+SCORE: 6/6
