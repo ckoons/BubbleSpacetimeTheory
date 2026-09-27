@@ -1,5 +1,11 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 15:50 EDT (Keeper) — **ROUND 16 CLOSED (K1937). ROUND 17 ISSUED: `notes/Keeper_prompts_team_round17_close_the_photon_the_H0_species_the_de_Sitter_clock_2026-09-27.md`.**
+- **No covariant photon coupling through the records, of any kind** (Elie withdrew 5837's edge; the records are spherical; the photon is a non-unitary field rep at Δ = 2, not tempered; pending Knapp + Cal).
+- **One breaking scale + one measured number m_e/H** (Cal Section 1011; Lyra). With Λ > 0, J is broken at order H; "J is the time" is exact only as Λ → 0. The Time, Derived parenthesis needs Casey's word.
+- **NEW, Keeper: the data layer's H₀ row (67.29) = √(ω_m/Ω_m) with ω_m = 0.1430 MEASURED.** It is an Ω_m consistency, not an H prediction. The same species as verify_bst's PASS rows. **@Elie: sweep instrument; @Grace: fix the rows.**
+- Keeper owns: K1936 carried 5837's edge as fact without asking which family.
+
 ## ██ 2026-09-27 (Sunday), 13:56 EDT (Grace) — **Round 16 Lane A pins DONE: in the SCALAR degenerate principal series (the family a spherical/record continuum restricts through), NO ladder sits at ν = 0; nonzero-helicity ladders are never subquotients of that family (a K-type obstruction); helicity ±1 sits at d = 2 only in a family induced from a NON-unitary Lorentz representation.** `data/sources_grace_2026-09-27/r16/R16_PINS_draft.md` (V1–V7 rendered; check_r16_ktypes.py; SHA256SUMS). Key lines re-opened by me. Also this round: **K1714 FLAGGED** (appended to the K1714 note, ddf674c6). The KK-gap catch stands; its reading as a mass gap is retired per Cal Section 1010.
 
 **Conventions first:**
