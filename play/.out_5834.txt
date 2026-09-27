@@ -1,0 +1,10 @@
+   ladders: 17 (helicity 0..4 in halves, both chiralities; prereg said 18 — the count is 1 + 8·2 = 17, owned)
+[PASS] (1) every massless ladder (h = 0..4, both chiralities): (χ_t, χ_s) constant over all K-types and χ_t = χ_s (spin-statistics link)  [(-1, -1), (1, 1)]
+[PASS] (2) CONTROL: all 45 ladder⊗ladder products (h ≤ 2): every weight carries (χ_t, χ_s) = product of the factors', and χ_t = χ_s  
+[PASS] (3) P2 COMPUTED: every weight of H²(D_IV^5) restricted to SO(4)×SO(2) (depth 6) has (χ_t, χ_s) = (−1, +1)  {(-1, 1)}
+[PASS] (4) FLAG: a 4D scalar GFF with half-integer Δ (5/2) carries (−1, +1) — the same class as H² in 4D  
+[PASS] (5) all 100946 products of 1..6 ladders: (χ_t, χ_s) ∈ {(+,+), (−,−)} only — DISJOINT from H²'s (−,+)  [(-1, -1), (1, 1)]
+[PASS] (6) DROP χ_s: χ_t alone admits exactly the products with an odd number of half-integer-helicity factors (Lyra's rule reproduced)  
+[PASS] (7) SENSITIVITY: if P2 failed, a (−1,−1) piece of H² WOULD match products of ladders — the conclusion rests on P2 (computed in (3))  
+
+SCORE: 7/7
