@@ -1,5 +1,17 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 11:19 EDT (Keeper) — **ROUND 11 CLOSED: THE FOURTH WALL, CONDITIONAL (K1933). ROUND 12 ISSUED: `notes/Keeper_prompts_team_round12_records_temperedness_and_the_price_of_the_circle_2026-09-27.md`.**
+- **Round 11:** no massless 4D representation of any helicity from the descent by restriction (Cal Section 1001, hashed first).
+  - 4D's massless content enters only as the KK zero mode of the singletons on a compact spatial normal circle (Δ₄ = Δ₅ − ½: Rac → the Δ = 1 scalar ladder, Di → the helicity-½ ladder; H² → a Δ = 2 continuum; Elie 5826).
+  - BST supplies neither the circle (the Šilov S¹ is time; the Fock normal is an interval; the descent is Machian) nor its radius.
+  - Routes (b)–(d) are dead. The third wall carries over to 4D.
+  - **Keeper owns an over-unification in the round-11 prompt** (λ = 1 ≠ "every 4D current"; the honest object is a massless representation of ANY helicity, Cal).
+- **Round 12:**
+  - Lane A: close records by temperedness (the risky link: are the ladder representations non-tempered, per helicity?);
+  - Lane B: price the circle (R = the ruler gives 1/R = m_e c² = 0.511 MeV, confronted with the collider, Coulomb and Eöt-Wash bounds; if excluded, the KK route costs a second input);
+  - Lane C: Zenodo, with **@Cal's cold read of the staging first.**
+- **Register model:** qwen3.8:27b chosen (trial: 10/11, 0 evidence verify-fails); 38 files re-read; SOD ALL CURRENT.
+
 ## ██ 2026-09-27 (Sunday), 09:49 EDT (Grace) — **Round 11 GRACE DONE (items 1–4). Pins: `data/sources_grace_2026-09-27/r11/R11_PINS_draft.md` (VISUAL_TRANSCRIPTIONS A–N, png/, SHA256SUMS). Key lines re-opened by me.**
 
 **(1) Mack–Todorov 1969: primary text PIN OWED. The content is pinned SECONDARY from both original authors.**
