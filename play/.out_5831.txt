@@ -1,0 +1,23 @@
+   R = ħc/m_e c² = 3.86159e-13 m ; 1/R = 0.51099895 MeV
+[PASS] (i) image sum of the 4-space Coulomb = (α/r)·coth(r/2R) = Coulomb + Yukawa tower (masses n/R, coupling 2α)  
+[PASS] (i) CONTROL R → 0: δV/V = 2/(e^{r/R} − 1) → 0 (pure Coulomb); at r/R = 100 it is 2e^{-100}·(1 + O(e^{-100}))  
+   (ii) δV/V at the Bohr radius (r = R/α): 6.124e-60  (= 2e^(-137.04))
+[PASS] (ii) atomic Coulomb tests CANNOT see the tower at the ruler: δV/V(a0) = 2/(e^{1/α} − 1) ≈ 6.1e-60 (nonzero, computed; label read 2.9e-60 in the first fixed run)  
+[PASS] (iii) I(0) = 1/2 (Schwinger control: α/2π for a massless vector of coupling α)  
+[PASS] (iii) I(ρ) → 1/(3ρ²) for ρ ≫ 1 (decoupling control)  0.999965
+   (iii) Σ_n I(n) = 0.257018  ⇒  Δa_e(tower at the ruler) = 0.001194;  n = 1 alone: 0.0004859
+[PASS] (iii) independent of Grace R171: 2ΣI = ΣF = 0.514 and Δa_e ≈ 1.2e-3 (her derived figure reproduced)  2ΣI = 0.51404
+   (iii) excess over the g−2 agreement level ~7.0e-13 (Grace's derived figure): factor 1.71e+9
+[PASS] KILL (Lane B) FIRES: the circle at the ruler is excluded by the electron g−2 by ~1e9  
+[PASS] (iv) g−2 requirement solved in the heavy limit and VERIFIED by the exact tower sum at that 1/R (ratio within 1e-3)  exact/target = 0.999965
+   (iv) required 1/R for g−2: > 30.83 GeV  (ρ0 = 6.032e+4 m_e)
+   (iv) g−2 (derived here): 1/R > 30.8 GeV — ruler short by a factor 6.03e+4
+   (iv) mUED collider 1.4–1.5 TeV (PDG 2026, Grace pin): 1/R > 1.45e+3 GeV — ruler short by a factor 2.84e+6
+   (iv) gauge-bulk 3.4–6 TeV (Grace pin): 1/R > 4.7e+3 GeV — ruler short by a factor 9.2e+6
+[FAIL] (iv) every photon-tower bound exceeds the ruler's 1/R = 0.511 MeV by ≥ 1e5 (g−2 ~ few×1e5 in 1/R, 1e9 in Δa; colliders ~3e6–1e7)  
+
+READING: the circle at BST's one length is excluded — atoms are blind to it (2e^-137), but the electron g−2 sees the whole tower
+(Δa_e ≈ 1.2e-3 vs agreement ~1e-12) and colliders put 1/R above ~1.5 TeV. A photon KK circle therefore needs a SECOND scale
+≳ 10^6 × m_e. Gravity-only on the circle is allowed (R < 30 μm, Grace) but carries no photon tower, so it does not place the photon.
+
+SCORE: 8/9

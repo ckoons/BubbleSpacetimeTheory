@@ -1,0 +1,11 @@
+   R = ħc/m_e c² = 3.86159e-13 m ; 1/R = 0.51099895 MeV
+[PASS] (i) image sum of the 4-space Coulomb = (α/r)·coth(r/2R) = Coulomb + Yukawa tower (masses n/R, coupling 2α)  
+[FAIL] (i) CONTROL R → 0: coth(r/2R) → 1 (pure Coulomb) — deviation at r/R = 100 is 2e^{-100}  
+   (ii) δV/V at the Bohr radius (r = R/α): 0.0  (= 2e^(-137.04))
+[PASS] (ii) atomic Coulomb tests CANNOT see the tower at the ruler: δV/V(a0) ≈ 2e^{-137} ~ 3e-60  
+[PASS] (iii) I(0) = 1/2 (Schwinger control: α/2π for a massless vector of coupling α)  
+[PASS] (iii) I(ρ) → 1/(3ρ²) for ρ ≫ 1 (decoupling control)  0.999965
+   (iii) Σ_n I(n) = 0.257018  ⇒  Δa_e(tower at the ruler) = 0.001194;  n = 1 alone: 0.0004859
+[PASS] (iii) independent of Grace R171: 2ΣI = ΣF = 0.514 and Δa_e ≈ 1.2e-3 (her derived figure reproduced)  2ΣI = 0.51404
+   (iii) excess over the g−2 agreement level ~7.0e-13 (Grace's derived figure): factor 1.71e+9
+[PASS] KILL (Lane B) FIRES: the circle at the ruler is excluded by the electron g−2 by ~1e9  
