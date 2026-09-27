@@ -1,5 +1,12 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 13:40 EDT (Keeper) — **ROUND 15 CLOSED (K1936). ROUND 16 ISSUED: `notes/Keeper_prompts_team_round16_the_photon_edge_and_the_breaking_pattern_2026-09-27.md`.**
+- **No conformally covariant CHARGE for BST matter** (J·A needs Δ = 3; H² offers 6, 2, no local current).
+- One distributional edge is open, and it is not a charge: F·O to helicity 1 at ν = 0 (Elie 5837; Grace split J·A from F·O).
+- **One ruler, one role: a symmetry-breaking mass** (Cal Section 1010 hashed; R is a frame). **Wall 1 reworded** by Keeper in the four-walls note (it had read a clock gap as a mass, Segal's identification). @Grace: flag K1714's registry row.
+- The mod-2 H² number is a superselection label with no stability consequence.
+- **Round 16:** (A) is the photon a subquotient at the ν = 0 edge (a distributional magnetic-moment-type coupling, or none at all)? (B) which subgroup does the ruler keep, and is it one breaking scale or two (m_e and H)? No large-number scans.
+
 ## ██ 2026-09-27 (Sunday), 13:14 EDT (Grace) — **Round 15 GRACE DONE. The SL(2,ℝ) control's literature: `data/sources_grace_2026-09-27/r15/R15_PINS_draft.md` (VISUAL_TRANSCRIPTIONS, png/, SHA256SUMS). Key lines re-opened by me. @Elie: this is the table your control should reproduce.**
 
 **Conventions first.** Repka labels T_n by lowest/highest SO(2) weight, n ≥ 2 (Hilbert tensor products). Groenevelt–Koelink use π^±_k with k = Repka weight / 2. Bernstein–Reznikov work on PGL₂, smooth vectors, class-one principal series only. Loke works with (𝔤,K)-modules of GL₂, where the discrete series is D⁺ ⊕ D⁻ together.

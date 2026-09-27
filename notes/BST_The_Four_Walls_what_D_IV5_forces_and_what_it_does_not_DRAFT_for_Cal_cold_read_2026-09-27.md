@@ -15,7 +15,7 @@ On 26–27 September Casey asked how physical processes run from the discrete in
 - **The placement of the massless content, if a circle is supplied:** each singleton's 4D helicity is fixed (Δ₄ = Δ₅ − ½: the Rac gives the massless scalar; the Di gives the massless spin-½; H² gives only a continuum). *(Lyra R11; Elie 5826.)*
 
 ## The four walls
-1. **Masses: the ruler times a number.** Nothing in the geometry breaks 4D conformal symmetry to Poincaré × scale. The only gap is the ruler's Kaluza–Klein gap (5/2)ħc/R. *(Lyra R6; K1714; Elie 5812.)*
+1. **Masses: the ruler times a number.** The geometry supplies no mass gap. Nothing in it breaks 4D conformal symmetry to Poincaré × scale, and every mass is the ruler entering as a symmetry-breaking mass. *(Lyra R6; Elie 5812; **reworded 2026-09-27 on Cal Section 1010**: the earlier "the only gap is the ruler's KK gap (5/2)ħc/R" read a CLOCK gap as a MASS. That is Segal's identification, which T2632 forbids. The clock J_R at any radius is conjugate to every other by dilations, so R is a frame, and a preferred radius ħ/(mc) exists only once a mass does. K1714's KK-gap reading inherits the same fix.)*
 2. **Couplings: identified, not derived.** The coupling enters Barut's tilt as the constant the equation fixes, not as a geometric angle. Under a menu null hashed before any candidate existed (6.77 × 10⁷ forms), Wyler's α formula lands at chance for its complexity. *(Cal Section 994; K1930.)*
 3. **Dynamics: none.** At the level of the geometry the boundary's two-body spectrum is that of a **generalized free field**. The multiplicity-one channel list admits any pattern of anomalous dimensions, so the geometry constrains none. H² carries no conserved current and no stress tensor. The colour bit (K1926) picks the group, not whether anything interacts. *(K1931 amendment; Cal Section 997; Lyra R9; register Section D, v0.32.)*
 4. **4D massless particles: not from the descent, not from the records — and the only route has a price.**
@@ -35,6 +35,11 @@ On 26–27 September Casey asked how physical processes run from the discrete in
 
 *Ruled (Cal Section 1009; K1935 amendment): **no conformally covariant vertex odd in H²** — H² is never emitted or absorbed singly by massless 4D particles (two central characters; SU(2,2) = G̃/⟨γ₁γ₂²⟩, Mack 1977). "The ruler at the vertex" is proved for odd-H² vertices and conjectural for pair vertices (the current coupling J·A is open, round 15).*
 
+## Charge (round 15; K1936)
+BST matter carries **no conformally covariant electric charge**. Minimal coupling J·A needs a local conserved current at Δ = 3; H²'s bilinear sits at 6, its records at 2, and it has no local current *(Lyra R15; Minwalla via Grace)*. Every charge vertex needs the ruler entering as a mass. One distributional edge is open, and it is not a charge: a field-strength (F·O) coupling to the helicity-1 ladder at the ν = 0 point of the record continuum *(Elie 5837; round 16)*.
+
+**In one line:** *the geometry forces the kinematics; every mass and every charge vertex enters through one symmetry-breaking scale, the ruler, entering as a mass; the dimensionless couplings are identified.*
+
 ## What the walls do NOT say (calibration, both ways)
 - They do not retract any derived result. The gauge-group skeleton, one generation's hypercharges, three generations at the floor and the mixing sector's order stand as derived statements about **structure**. The walls say where structure stops and dynamics would have to begin.
 - They are not new losses of the kind in Section E. No prediction fired to produce them. They mark the limits of what the geometry supplies.
@@ -42,4 +47,4 @@ On 26–27 September Casey asked how physical processes run from the discrete in
 - **What survives is exact and zero-knob:** the spectra, the channel list, the selection rules, and the placement of every singleton's helicity. Any future dynamics must live inside that list.
 
 ## One sentence for the front page (proposed; after Cal's cold read, not today)
-> *D_IV⁵ forces the kinematics — spectra, channels, multiplicities, selection rules — and none of the dynamics: masses are the ruler times a number, couplings are identified, processes are free at the geometric level, and 4D's massless particles arrive only through a compact direction the geometry does not supply, at a second length above about 30 GeV to 1.5 TeV.*
+> *D_IV⁵ forces the kinematics — spectra, channels, multiplicities, selection rules — and none of the dynamics: every mass is the one ruler entering as a symmetry-breaking mass, couplings are identified, processes are free at the geometric level, BST's matter carries no conformally covariant charge, and 4D's massless particles arrive only through a compact direction the geometry does not supply, at a second length above about 30 GeV to 1.5 TeV.*
