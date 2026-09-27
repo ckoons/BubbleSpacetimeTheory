@@ -1,7 +1,7 @@
 BST Zenodo version update, September 2026. Staged by Keeper, 2026-09-27 11:23 EDT.
 Staging note: notes/ZENODO_STAGING_version_update_2026-09-27_restaged_on_the_current_state.md
 
-00_State_of_the_Program.pdf            PENDING: built after Cal's cold read of Part A (front-page currency pass)
+00_State_of_the_Program.pdf            the state block after Part A (Cal Sections 1003 + 1007 PASS), built 2026-09-27 12:13
 01_What_BST_Is_and_Is_Not.pdf           data/bst_this_is.md
 02_Derived_Core_INDEX.pdf               Curriculum/Spine_DIV5_QM_GR_SM/INDEX.md
 03-12 Lecture_01 ... Lecture_10         the ten-lecture derived core

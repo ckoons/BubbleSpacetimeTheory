@@ -34,7 +34,7 @@ The state block (`notes/BST_PRESENTATION_STATE_BLOCK.md`, synced to four consume
 4. `notes/Elie_FALSIFIER_REGISTER_v0_2_…_2026-08-24.md` (header v0.33) → 13_Falsifier_Register.pdf
 5. `notes/BST_Tier_System_Readers_Guide_v0_1_Keeper_2026-08-24.md` → 14_How_to_Read_a_BST_Claim.pdf (**check it against the four-word standard used since 09-14 before inclusion**)
 6. `notes/BST_Forcing_and_Evidence_FLAGSHIP_v1_0_…` → 15_Forcing_and_Evidence.pdf (**currency check owed: written 08-23, before A9, A2's firing and the walls; include with a dated head, or omit**)
-7. Reproduction: `play/verify_bst.py`, `play/reproduce_A9_run1.sh` (in the repository snapshot; named in the description). **`play/toy_541_five_integers_to_everything.py` REMOVED from the manifest 09-27:** it presents g_A = 4/π (E7 FIRED) as a match and counts it among "derived quantities" (Level 2). Elie fixes it; it returns after the fix.
+7. Reproduction: `play/verify_bst.py`, `play/reproduce_A9_run1.sh` (in the repository snapshot; named in the description). **`play/toy_541_five_integers_to_everything.py` RESTORED 09-27 after Elie's fix (2e13ce7f: g_A marked E7 FIRED, excluded from the count, 50 quantities, 'FREE PARAMETERS: 0' box fixed). It had been REMOVED earlier that day:** it presents g_A = 4/π (E7 FIRED) as a match and counts it among "derived quantities" (Level 2). Elie fixes it; it returns after the fix.
 
 ## Part D — Today's steps
 1. **Cal:** cold read of Parts A and B (the front page and the words the world will read).
@@ -51,3 +51,9 @@ The state block (`notes/BST_PRESENTATION_STATE_BLOCK.md`, synced to four consume
 - **B3:** "Every quantitative claim is reproducible" → "The headline numbers are reproducible", naming what each script covers.
 - **A-1:** the threshold sentence is split (16/3 at 3.0σ on DR2 at the published correlation; A2 fired). **A-2:** the guard now reads "ruled 09-27, not yet cold-read for the front page".
 - **Gate:** @Cal re-reads only the changed lines. On PASS, Keeper applies Part A to the state block, syncs, builds 00, and hands Casey Part B.
+
+## Part G — READY FOR CASEY (12:13 EDT)
+- **Cal Section 1007: PASS** on the changed lines (verify_bst's fired and retired rows verified by run; B2, B3, A-1, A-2 applied).
+- **Part A applied** to the state block and synced to its four consumers (`sync_presentation_state.py --check` exit 0). The consumer PDFs are rebuilt.
+- **`zenodo_2026-09_staging/` is complete, 00–13:** 00 is the state page after Part A; 02 is rebuilt from the synced Spine INDEX.
+- Casey's steps: edit Part B in your own voice (Cal re-reads only what you change, if you change a claim); snapshot the repo per the April procedure; open a Zenodo "new version" on DOI lineage 10.5281/zenodo.19454185; paste Part B; upload 00–13; publish.

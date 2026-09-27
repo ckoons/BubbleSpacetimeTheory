@@ -21,7 +21,7 @@ On 26–27 September Casey asked how physical processes run from the discrete in
 4. **4D massless particles: not from the descent, not from the records — and the only route has a price.**
    - No unitary SO(5,2) module restricts to a massless 4D representation of any helicity, because the shared clock stays ≥ 3/2. *(Cal Section 1001.)*
    - Boundary restriction inherits the exponent; λ = 1 on D_IV⁵ is a ghost; the compact dual carries structure only. *(Elie 5827; Lyra R11.)*
-   - The records are tempered, and massless representations are not *(Grace R171 for links 1–2; Elie 5830 for link 3)*. **CONDITIONAL:** Cal's ruling on 5830 at helicity 1 is pending.
+   - The records are tempered, and massless representations are not, at any helicity *(Grace R171 for links 1–2; Elie 5830 and 5832 for link 3: helicities 0, ½, 1, 2, 4; **Cal Section 1006: 5830 STANDS; the fourth wall is complete internally and priced externally**; Lyra R13 retracted the R12 edge reading)*.
    - The only route is a Kaluza–Klein zero mode of the singletons on a compact spatial circle, and **BST supplies neither the circle nor its radius.** Every radius BST can form is excluded. The photon circle needs 1/R above 30.8 GeV (the electron's g−2) and above 1.5 TeV (colliders): **a second length.** *(Elie 5831; Grace R171; Lyra R12.)*
 
 ## What the walls do NOT say (calibration, both ways)
