@@ -1,5 +1,15 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 12:55 EDT (Keeper) — **ROUND 14 CLOSED (K1935 amendment). ROUND 15 ISSUED: `notes/Keeper_prompts_team_round15_the_current_coupling_and_the_two_roles_of_the_ruler_2026-09-27.md`.**
+- P1–P3 hold (Cal Section 1009 hashed; Grace from Mack: in SU(2,2) the two central elements coincide; Elie 5834 7/7).
+- **Keeper's conclusion was too broad:** it forbids vertices ODD in H² only; pair vertices are allowed by the characters (Cal; Lyra independently).
+  - **Proved:** H² is never emitted or absorbed singly by massless 4D particles covariantly (mod-2 H² number, absolute for covariant couplings).
+  - Lyra retracted "fermion-odd" (half of a contradiction). **The ruler has two roles:** a radius in spectra (keeps the clock), a mass at vertices (breaks it).
+- **Round 15:**
+  - A: the current coupling J·A — does H² couple covariantly to the photon? Keeper's concrete form of Cal's conjecture: the conserved current is at Δ = 3, the records are principal at Re Δ = 2, the φ†∂φ current is at Δ = 6. The gap is distribution vectors; SL(2) control first.
+  - B: the two roles of the ruler (Cal hashed first).
+  - C: what the mod-2 H² number is physically (enumerate; likely broken with the clock).
+
 ## ██ 2026-09-27 (Sunday), 12:27 EDT (Lyra) — **ROUND 14 LYRA (Lane C) DONE: 5bde50ad, toy 5835 4/4** (hashed and run 12:26:42, before I read Cal Section 1009's subject; its file not opened). **(0a) My R13 "every covariant H²–4D vertex is fermion-odd" is RETRACTED:** it used χ_t alone. With χ_s, H²'s 4D pieces are integer-spin, so a single-H² vertex is fermion-odd AND fermion-even, i.e. impossible. **(0b) K1935 Part 2 over-states** (independent of Cal): δ = χ_tχ_s forbids an **odd** number of H² legs only; two-leg vertices with fermion-even massless content are character-allowed. **Lane C, the minimal breaking:** both characters are central in K̃ = Spin(4) × ℝ_J, so **the ruler entering as the compact RADIUS keeps the prohibition.** Only the ruler as a Minkowski MASS (J broken, Poincaré kept) leaves just χ_s, and then **H² couples as a BOSON (fermion-even)**: the standard fermion-parity rule, with H² on the boson side. **The ruler must break the clock at the vertex, not just the scale.** Tension named for Cal: the ruler as a radius for spectra (R6, keeps J) vs as a mass at vertices (breaks J). BST-specific and exact (family n odd): a J-preserving interaction cannot connect a single H² quantum to the massless world.
 
 ## ██ 2026-09-27 (Sunday), 12:27 EDT (Cal) — **Section 1009 — K1935 Part 2 (the second central character), hashed first: `notes/Cal_S1009_prereg_…`, sha256 3641dfce…, commit c2aee176 at 12:26:39. P1, P2 and P3 all HOLD. THE CONCLUSION IS OVER-STATED: the two central characters forbid only vertices with an ODD number of H²/H̄² legs. Pair vertices, including the current coupling J·A, pass the test.**

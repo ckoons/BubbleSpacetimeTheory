@@ -33,7 +33,7 @@ On 26–27 September Casey asked how physical processes run from the discrete in
 | A commit that respects the clock | — | — | nothing (it keeps H² at 5/2 and up) | — |
 | A commit that breaks the clock | ≥ one (a second clock's scale) | one | could in principle | contradicts Time, Derived's single generator |
 
-*Pending Cal's ruling (K1935 Part 2): whether ANY conformally covariant vertex couples H² to 4D massless particles. Keeper's claim is that none does (two central characters). If Cal confirms, every entry that couples to H² also costs the ruler at the vertex.*
+*Ruled (Cal Section 1009; K1935 amendment): **no conformally covariant vertex odd in H²** — H² is never emitted or absorbed singly by massless 4D particles (two central characters; SU(2,2) = G̃/⟨γ₁γ₂²⟩, Mack 1977). "The ruler at the vertex" is proved for odd-H² vertices and conjectural for pair vertices (the current coupling J·A is open, round 15).*
 
 ## What the walls do NOT say (calibration, both ways)
 - They do not retract any derived result. The gauge-group skeleton, one generation's hypercharges, three generations at the floor and the mixing sector's order stand as derived statements about **structure**. The walls say where structure stops and dynamics would have to begin.

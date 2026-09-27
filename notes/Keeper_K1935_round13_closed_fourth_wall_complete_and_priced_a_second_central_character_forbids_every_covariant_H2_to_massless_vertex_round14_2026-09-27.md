@@ -52,3 +52,23 @@ rubric_cell: "Ext-4 Recover GR/spacetime; Internal — mechanism open (coupling 
   - Extend to products of up to 6 factors.
 - **Lane C (Lyra): the vertex with the ruler.** If covariance must break at the vertex, what is the MINIMAL breaking? For example, with dilation broken but Lorentz kept, only χ_s might constrain. Whether a selection rule then survives, and which one, is to be DERIVED, not assumed. Name what survives as a selection rule once only Poincaré is kept. Reconnect wall 1 (masses = the ruler × a number).
 - **Lane D (Keeper): the four-walls note** gains the price list and Part 2 (after Cal's ruling), then goes to Cal's cold read. Zenodo: Casey publishes.
+
+---
+
+## AMENDMENT 12:55 EDT — Part 2's conclusion was too broad (round 14; an amendment, not a new K-number)
+**Antecedent restated (Part 2, verbatim):** *"⟹ NO conformally covariant vertex connects H² to any number of 4D massless particles."*, and its consequence, *"the coupling … cannot be conformally covariant. It needs the ruler at the vertex."*
+- **Premises P1–P3 HOLD** (Cal Section 1009, hashed 12:26:39 before anyone read Part 2; Grace pinned P1 from Mack 1977: the centre Γ ≅ ℤ₂ × ℤ, γ₁ the 2π rotation, and SU(2,2) = G̃/⟨γ₁γ₂²⟩; Elie 5834 7/7 read P2 from H²'s restricted character, not from a list).
+- **Grace's one line:** in SU(2,2) the clock's full turn and the spatial 2π rotation are the SAME element. Every massless representation, and every product of them, factors through SU(2,2). H²'s pieces do not; they live only on the universal cover. A covariant coupling commutes with that element, which acts as −1 on H² and +1 on anything massless.
+- **THE BREAK (Cal; Lyra independently, 5835 run before she read Cal's subject):** the two characters forbid vertices with an **ODD number of H² legs**, not all vertices. Two legs (H² ⊗ H² or H² ⊗ H̄²) carry (+1, +1) and match bosonic products (Cal enumerated to 6 factors).
+  - **What is proved:** *H² is never emitted or absorbed singly by any number of massless 4D particles in a conformally covariant coupling.* That is Section 996's mod-2 conservation of H² number, made absolute for covariant couplings.
+  - **"The ruler at every vertex"** is proved only for odd-H² vertices. It is conjectural for pair vertices.
+  - **My error:** I wrote "any number of massless particles" and did not count the H² legs. That is enumerate-before-therefore, on the leg count.
+- **Lyra retracted her R13 "fermion-odd":** with χ_s, a single-H² vertex would have to be fermion-odd (by the clock) AND fermion-even (by spin), so it cannot exist. "Fermion-odd" was half of a contradiction.
+- **Pair vertices:**
+  - H² ⊗ H² → one massless particle is excluded by lowest weights and spin types (Cal).
+  - **The current coupling J·A (H² ⊗ H̄² with a photon) is OPEN.** Cal conjectures temperedness excludes it (a tempered H² ⊗ H̄² against a non-tempered ladder), with the gap in distribution vectors.
+- **Lyra's Lane C:**
+  - a ruler entering as a compact RADIUS keeps the clock, and both signs survive;
+  - only a ruler entering as a Minkowski MASS (breaking J, keeping Poincaré) lifts the clock sign, after which H² couples as a boson.
+  - **Exact and BST-specific (odd n):** *an interaction that keeps the clock cannot connect a single H² quantum to the massless world.*
+  - **The tension, handed to Cal:** in spectra the ruler enters as a radius (the (5/2)ħc/R gap keeps the clock); at vertices it must enter as a mass (breaking the clock). Nothing in BST yet says which enters where.
