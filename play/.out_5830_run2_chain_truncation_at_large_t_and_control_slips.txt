@@ -1,0 +1,23 @@
+[PASS] truncation converged (chain coefficient at t = 3 stable to 1e-12 for M = 200, 300, 400)  0.00986603716544
+[PASS] root normalisation: sl2 relations hold on the chain and ad(X) has eigenvalues (−2, 0, 2) ⇒ long root = 2t, ρ_SU(1,1) = 1  ad eigenvalues [-2.  0.  2.]
+   block |0,0>: coefficient at t=3,4,5 = [0.09932793 0.03661899 0.01330819]; decay rate 1.005024;  |vals − sech^1| max 1.7e-04
+   block |1,0>: coefficient at t=3,4,5 = [ 0.00986604  0.00134095 -0.00160135]; decay rate 0.909126;  |vals − sech^2| max 1.8e-03
+   block |2,0>: coefficient at t=3,4,5 = [ 9.79973023e-04  4.91032826e-05 -9.53338086e-03]; decay rate -1.137515;  |vals − sech^3| max 9.5e-03
+[FAIL] block coefficients measured: |k,0> decays at rate k+1 (k = 0,1,2), equal to sech^{k+1} t  
+   helicity 0 (Δ=1), vacuum: block rates (1.005, 1.005); rays where decay < ρ: [((1, 0), 1.005, 3), ((0, 1), 1.005, 3), ((1, 1), 2.01, 4), ((2, 1), 3.015, 7), ((1, 2), 3.015, 7)]
+[PASS] helicity 0 (Δ=1), vacuum: NOT tempered (decay slower than e^{-ρ} on some ray ⇒ |φ|^{2+ε} e^{2ρ} grows)  
+   helicity 1/2 (Δ=3/2), |1a1>: block rates (0.909, 1.005); rays where decay < ρ: [((1, 0), 0.909, 3), ((0, 1), 1.005, 3), ((1, 1), 1.914, 4), ((2, 1), 2.823, 7), ((1, 2), 2.919, 7)]
+[PASS] helicity 1/2 (Δ=3/2), |1a1>: NOT tempered (decay slower than e^{-ρ} on some ray ⇒ |φ|^{2+ε} e^{2ρ} grows)  
+   helicity 1 (Δ=2), |2a1>: block rates (-1.138, 1.005); rays where decay < ρ: [((1, 0), -1.138, 3), ((0, 1), 1.005, 3), ((1, 1), -0.132, 4), ((2, 1), -1.27, 7), ((1, 2), 0.873, 7)]
+[PASS] helicity 1 (Δ=2), |2a1>: NOT tempered (decay slower than e^{-ρ} on some ray ⇒ |φ|^{2+ε} e^{2ρ} grows)  
+   helicity 1 (Δ=2), |1a1 1a2>: block rates (0.909, 0.909); rays where decay < ρ: [((1, 0), 0.909, 3), ((0, 1), 0.909, 3), ((1, 1), 1.818, 4), ((2, 1), 2.727, 7), ((1, 2), 2.727, 7)]
+[PASS] helicity 1 (Δ=2), |1a1 1a2>: NOT tempered (decay slower than e^{-ρ} on some ray ⇒ |φ|^{2+ε} e^{2ρ} grows)  
+[FAIL] CONTROL SU(1,1): two-mode vacuum (limit of discrete series) rate = ρ = 1 — borderline, tempered (Ξ ~ t e^{-t})  
+[FAIL] CONTROL principal series: φ_ν = P_{-1/2+iν}(cosh 2t) solves the radial Laplacian (checked) and decays at rate 1 = ρ: tempered  ode residual 6.46e-27, rate 1.280
+[FAIL] NEGATIVE CONTROL complementary series (s = 0.4): rate 1 − s = 0.6 < ρ: NOT tempered  rate 0.200
+[PASS] NEGATIVE CONTROL trivial representation: φ ≡ 1, rate 0 < ρ on every ray: NOT tempered  
+
+READING: every massless ladder (helicity 0, 1/2, 1) has a lowest-K-type coefficient decaying slower than e^{-ρ} on some ray —
+NOT tempered — so link 3 holds per helicity; with links 1–2 (Grace/Lyra pins) the record space carries no massless 4D rep.
+
+SCORE: 7/11
