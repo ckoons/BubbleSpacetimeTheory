@@ -1,0 +1,23 @@
+R14 — Mack 1977, DESY 75/50 preprint (source PDF: data/sources_grace_2026-09-26/r6_conformal/mack_desy75-050_preprint_inspire.pdf), transcribed by Grace from renders in png/ (130 dpi).
+
+M-8  (pdf p.10, typed p.8, png/mack_p10-10.png), Section 2.B "The Lie groups":
+  "Explicitly K̃ ≃ ℝ × (SU(2) × SU(2)). Here ℝ is the additive group of real numbers, × denotes the direct product.
+   The center Γ of G̃ is contained in K̃. ... This gives the chain of isomorphisms
+     (conf. group of Minkowski space) ≃ SO(4,2)/ℤ₂ ≃ SU(2,2)/ℤ₄ ≃ G̃/ℤ₂ × ℤ .
+   The conformal group of Minkowski space has trivial center. The center Γ of G̃ is thus isomorphic to ℤ₂ × ℤ
+   and has two generating elements γ₁ and γ₂, with γ₁² = e.
+     Γ = { γ₁^{n₁} γ₂^{n₂} , n₁ = 0,1 , n₂ = 0,±1,... } ≡ Γ₁Γ₂
+   γ₁ is the rotation by 2π contained in SL(2,ℂ). An explicit formula"
+M-9  (pdf p.11, typed p.9, png/mack_p11-11.png):
+  "for γ₂ will be given in the next section.
+   Finally, G̃ is also a covering of G, viz G ≃ G̃/Γ′. Γ′ ⊂ Γ is given by Γ′ = { (γ₁γ₂²)ⁿ , n = 0,±1,... }.
+   The image Γ/Γ′ of Γ in G is the center of G, it consists of the elements iᵐI, m = 0...3, I = 4×4 unit matrix."
+   [G here = SU(2,2), Mack's notation throughout.]
+M-10 (pdf p.12, typed p.10, png/mack_p12-12.png), Section 3 "Representations with positive energy":
+  "Consider next the action of the center Γ of G̃. It consists of elements of the form
+     Γ : γ = γ₁^{n₁} γ₂^{n₂} , γ₂ = R exp iπH_c , γ₁² = 1 .
+   Since the UIR T is irreducible
+     T(γ)Ψ = ω(γ)Ψ  for all Ψ in ℋ                                  (3.1)
+   with ω(γ) = exp 2πind  for γ = γ₂^{2n} = exp 2πinH_c .
+   d is some real number which is determined up to an integer."
+  [R = exp 2πiH₂ (typed p.10 line 5), with R P⁰ R⁻¹ = K⁰.]
