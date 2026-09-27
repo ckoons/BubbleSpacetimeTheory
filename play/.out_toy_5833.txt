@@ -1,0 +1,5 @@
+P1 Delta-j = 1 < 3 for j=0..6 (not tempered); control lambda=3 j=0 -> 3 >= 3 -> True
+P2 z = (-1)^{2j} on massless ladders -> True
+P3 product has z=-1 (couples to H2) iff odd number of half-integer helicities, n<=4 -> True
+P4 massless bottoms 1, 3/2, 2 all below H2 floor 5/2 -> True
+SCORE 4/4
