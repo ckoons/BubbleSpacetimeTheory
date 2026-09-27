@@ -146,7 +146,7 @@ A grep for "dilation" to reconnect Round 133 will return the lapse 24 times and 
 
 — Grace
 
-## Section 10 (added 2026-09-27, Grace, round 12) — "tempered": TWO objects
+## 12. (added 2026-09-27, Grace, round 12) — "tempered": TWO objects
 | sense | definition | corpus users | status |
 |---|---|---|---|
 | (T-a) **automorphic / Ramanujan** | local components of an automorphic representation on Γ\G are tempered (Ramanujan–Petersson type); in the corpus also "the tempered tower" = the spectral strip Re ν = ρ | T1299 (v3; temperedness row WITHDRAWN 09-06, ε-parity an identity — L5_T1299), L7_T2621 ("PROVED for D_IV⁵ temperedness" withdrawn), K1865, K917 (quark rungs on the tempered tower vs discrete-series poles) | withdrawn / open |
