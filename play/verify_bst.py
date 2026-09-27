@@ -376,6 +376,15 @@ def is_core(name):
 # VERIFICATION ENGINE
 # ═══════════════════════════════════════════════════════════
 
+# Register status overrides (Keeper, 2026-09-27, Cal Section 1003 B1). A row whose claim is RETIRED or whose falsifier
+# FIRED prints its register status, never PASS, and is excluded from the pass tally. Keyed by the row's exact name.
+REGISTER_STATUS = {
+    "sin(theta_C) (Cabibbo angle, T1444 corrected)": "RETIRED",   # the 2/sqrt(79) form; Lecture 07: "It is retired"
+    "|V_ud|": "FIRED(A2)",                                          # sqrt(19/20): A2's other face (one row, certified FIRED; Keeper added, Cal listed three)
+    "|V_us|": "FIRED(A2)",                                          # 1/sqrt(20): A2 fired on K_mu2 (K1928, certified)
+    "g_A (nucleon axial coupling)": "FIRED(E7)",                    # 4/pi: E7 fired, 5.7 sigma (certified 2026-09-27)
+}
+
 def verify(core_only=False):
     # K942 fix 1: --core restricts to SM/particle/nuclear/cosmology physics.
     preds = [p for p in PREDICTIONS if is_core(p[0])] if core_only else list(PREDICTIONS)
@@ -404,6 +413,7 @@ def verify(core_only=False):
     n_warn = 0
     n_fail = 0
     n_exact = 0
+    n_status = 0
 
     for i, (name, formula, bst_val, obs_val, source, tier) in enumerate(preds, 1):
         if obs_val == 0:
@@ -414,7 +424,10 @@ def verify(core_only=False):
         else:
             dev_pct = abs(bst_val - obs_val) / abs(obs_val) * 100
 
-        if dev_pct == 0.0 or (isinstance(obs_val, (int, float)) and bst_val == obs_val):
+        if name in REGISTER_STATUS:
+            result = REGISTER_STATUS[name]
+            n_status += 1
+        elif dev_pct == 0.0 or (isinstance(obs_val, (int, float)) and bst_val == obs_val):
             result = "EXACT"
             n_exact += 1
         elif dev_pct < 1.0:
@@ -461,11 +474,12 @@ def verify(core_only=False):
 
     print()
     print("=" * 74)
-    print(f"  RESULTS: {good}/{total} at <1% precision")
+    print(f"  RESULTS: {good}/{total} at <1% precision  ({n_status} FIRED/RETIRED rows excluded from this tally)")
     print(f"    EXACT: {n_exact:3d}  (integer or machine-precision match)")
     print(f"    PASS:  {n_pass:3d}  (<1% deviation — above noise floor)")
     print(f"    WARN:  {n_warn:3d}  (1-2% — grey zone, needs structural support)")
     print(f"    FAIL:  {n_fail:3d}  (>2% — consistency check, not prediction)")
+    print(f"    FIRED/RETIRED: {n_status:3d}  (register status overrides the match; excluded from the tally — see REGISTER_STATUS)")
     print()
     # K962 tier ladder (supersedes D/I/S): Proved / Derived / Identified / Conditional / Structural / Fitted / Runner.
     # "Derived" = GR-level (geometrically forced OR two structural routes; no closed proof needed), NOT "mechanism proved".

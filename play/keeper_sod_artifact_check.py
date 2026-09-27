@@ -392,6 +392,21 @@ if _unmarked:
 else:
     findings.append(("OK", "fired", "every presentation line showing λ = 1/√20 carries A2's fired status", None))
 
+# ---------- K1933/Cal Section 1003 (2026-09-27): the reproduction script's OUTPUT must not print PASS on a fired/retired row ----------
+# The prose rule above scanned presentation sites; verify_bst.py printed PASS on 2/√79 (retired), 1/√20 (A2 fired), 4/π (E7 fired).
+# Row names below are the register's fired/retired claims as they appear in the script; extend when a row fires.
+_fired_script_rows = ["Cabibbo angle, T1444", "|V_us|", "|V_ud|", "g_A (nucleon axial"]
+try:
+    import subprocess as _sp
+    _out = _sp.run([sys.executable, "play/verify_bst.py"], capture_output=True, text=True, timeout=120).stdout
+    _bad = [l.strip()[:70] for l in _out.splitlines() if any(k in l for k in _fired_script_rows) and re.search(r"\b(PASS|EXACT|WARN)\s*$", l)]
+    if _bad:
+        findings.append(("DRIFT", "fired", f"verify_bst.py prints a pass on {len(_bad)} fired/retired row(s): {'; '.join(_bad[:3])}", "Keeper"))
+    else:
+        findings.append(("OK", "fired", "verify_bst.py prints register status (not PASS) on every fired/retired row", None))
+except Exception as _e:
+    findings.append(("REVIEW", "fired", f"could not run verify_bst.py for the fired-row check: {_e}", "Keeper"))
+
 # ---------- REPORT ----------
 order = {"ERROR":0,"DRIFT":1,"STALE":2,"WARN":3,"REVIEW":4,"NOTE":5,"OK":6}
 findings.sort(key=lambda f: order.get(f[0], 9))
