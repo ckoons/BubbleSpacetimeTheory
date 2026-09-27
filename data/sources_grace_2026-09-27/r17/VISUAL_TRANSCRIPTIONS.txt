@@ -1,0 +1,84 @@
+R17 VISUAL TRANSCRIPTIONS (Grace lane, 2026-09-27)
+Each entry: the PNG (in png/), the PDF and physical page it was rendered from (pdftoppm -r 110), and a verbatim
+transcription of the statement as printed. Rendered because the pdftotext -layout output splits the
+super/subscripts of Ind_H^G, the direct-sum signs, or the italics across lines.
+
+VT-A  png/BKII_p11-11.png  <- ../r12_tempered/arxiv_1706.10131.pdf physical p.11 (printed p.11)
+      Benoist-Kobayashi, "Tempered homogeneous spaces II", arXiv:1706.10131. txt lines 425-451.
+  "Definition 2.1. The unitary representation π is said to be tempered or G-tempered if π is weakly
+   contained in the regular representation λ_G of G in L²(G) i.e. if every matrix coefficient of π is a
+   uniform limit on every compact subset of G of a sequence of sums of matrix coefficients of λ_G."
+  "Remark 2.2. The notion of temperedness is stable by passage to a finite index subgroup G′ of G, i.e. a
+   unitary representation π of G is tempered if and only if π is tempered as a representation of G′.
+   This notion is also preserved by induction."
+  "Lemma 2.3. Let G be a locally compact group, H be a closed subgroup of G and π be a unitary
+   representation of H. If π is H-tempered then the induced representation Ind_H^G(π) is G-tempered."
+  "Proof. Since the H-representation π is weakly contained in the regular representation λ_H of H, the
+   G-representation Ind_H^G(π) is weakly contained in the regular representation λ_G = Ind_H^G(λ_H), and
+   hence is G-tempered."
+  "Remark 2.4. 1) When G is amenable, according to the Hulanicki–Reiter theorem in [1, Th. G.3.2], every
+   unitary representation of G is tempered.
+   2) When G is a product of two closed subgroups G = SZ with Z central, a unitary representation π of G
+   is G-tempered if and only if it is S-tempered. [...]"
+
+VT-B  png/BKII_p21-21.png  <- ../r12_tempered/arxiv_1706.10131.pdf physical p.21 (printed p.21). txt lines 832-840.
+  "Lemma 4.3. Let P = LU be a real algebraic group which is a semidirect product of a reductive subgroup L
+   and its unipotent radical U. Let π_0 be a unitary representation of P which is L-tempered and trivial
+   on U. Then the representation π_0 is also P-tempered."
+  "Proof. The weak containment π_0 ≺ L²(L) as unitary representations of L implies the weak containment
+   π_0 ≺ L²(P/U) as unitary representations of P because U acts trivially on the both sides. Since U is
+   amenable, the trivial representation of U is U-tempered, therefore by Lemma 2.3 the regular
+   representation of P in L²(P/U) is P-tempered, and π_0 is also P-tempered."
+
+VT-C  png/BHV_p439-439.png <- ../r12_tempered/bhv_KazhdanTotal.pdf physical p.439 (printed p.433). txt 18346-18376.
+  "Proposition F.3.2 Let π1, π2, ρ1, ρ2 be unitary representations of the topological group G such that
+   π1 ≺ ρ1 and π2 ≺ ρ2. Then π1 ⊗ π2 ≺ ρ1 ⊗ ρ2."
+  "Theorem F.3.5 (Continuity of induction) Let H be a closed subgroup of the locally compact group G.
+   Let σ and τ be unitary representations of H such that σ ≺ τ. Then Ind_H^G σ ≺ Ind_H^G τ."
+
+VT-D  png/BHV_p417-417.png <- ../r12_tempered/bhv_KazhdanTotal.pdf physical p.417 (printed p.411). txt 17395-17422.
+  "Example E.1.8 (i) If H = {e} and σ = 1_H, then Ind_H^G σ is the left regular representation λ_G of G.
+   (ii) More generally, for any closed subgroup H, the representation Ind_H^G 1_H is the quasi-regular
+   representation λ_{G/H} introduced in Definition B.1.9.
+   (iii) The group G = SL2(R) acts on the real projective line Ω = R∪{∞}, with the Lebesgue measure as
+   quasi-invariant measure (see Example A.6.4). Fix t ∈ R. The principal series representation π_it^± of
+   G is the unitary representation on L²(Ω), given by
+     π_it^+ ((a b),(c d)) f(ω) = |−cω + a|^{−1−it} f((dω − b)/(−cω + a))
+     π_it^− ((a b),(c d)) f(ω) = sgn(−cω + a)|−cω + a|^{−1−it} f((dω − b)/(−cω + a)).
+   It is equivalent to Ind_P^G χ_t^±, where P is the subgroup of all upper triangular matrices and χ_t^±
+   is the unitary character of P defined by χ_t^±((a b),(0 a^{−1})) = ε^±(a)|a|^{it},
+   with ε^+(a) = 1 and ε^−(a) = sgn(a); see Exercise E.4.1."
+
+VT-E  png/BHV_p418-418.png <- ../r12_tempered/bhv_KazhdanTotal.pdf physical p.418 (printed p.412). txt 17456-17483.
+  "Proposition E.2.2 Let (σ_i, K_i)_i be a family of unitary representations of H. Then Ind_H^G(⊕_i σ_i)
+   is equivalent to ⊕_i Ind_H^G σ_i."
+  "Theorem E.2.4 (Induction by stages) Let H and K be closed subgroups of G with K ⊂ H, and let τ be a
+   unitary representation of K. Then Ind_H^G(Ind_K^H τ) is equivalent to Ind_K^G τ."
+
+VT-F  png/CCH_p16-16.png   <- arxiv_1409.8654.pdf physical p.16 (printed p.16). txt 618-650.
+      Clare-Crisp-Higson, "Parabolic induction and restriction via C*-algebras and Hilbert C*-modules".
+  Remark 4.1 (end): "But the representation of C*(G) on C_r*(G/N)_ψ is easily checked to be weakly
+   contained in L²(G/N), and the representation of C*(G) on this Hilbert space factors through C_r*(G)
+   because N is amenable."
+  "4.2 Proposition. (See [Cla13, Corollary 1].) Let τ be a tempered unitary representation of L on a
+   Hilbert space H. The parabolically induced representation Ind_P^G τ is unitarily equivalent to the
+   representation of G on the Hilbert space C_r*(G/N) ⊗_{C_r*(L)} H."
+
+VT-G  png/CCH-28.png       <- arxiv_1409.8654.pdf physical p.28 (printed p.28). txt 1175-1179.
+  "6.4 Definition. We denote by I(σ, φ) the finite-dimensional C*-algebra of operators on the Hilbert
+   space of the principal series representation Ind_P^G(σ ⊗ φ) generated by the Knapp-Stein intertwiners
+   U_{w,φ} associated with the elements of the finite group W_{σ,φ}."
+
+VT-H  png/CCH-29.png       <- arxiv_1409.8654.pdf physical p.29 (printed p.29). txt 1204-1211.
+  "6.6 Theorem. [HC76, Theorem 38.1] Let σ be an irreducible square-integrable unitary representation
+   representation of M, and let φ be a unitary character of A. The finite-dimensional C*-algebra I(σ, φ)
+   is the full commutant of the parabolically induced representation Ind_P^G(σ ⊗ φ).
+   Proof. See [KS80, Corollary 9.8] and [Kna86, Theorem 14.31]."
+   (The doubled word "representation representation" is in the source.)
+
+VT-I  png/HSY_p13-13.png   <- ../r12_tempered/arxiv_1705.02088.pdf physical p.13 (printed p.13). txt 596-610.
+      Hochs-Song-Yu, arXiv:1705.02088.
+  "Let ν ∈ ia*. A basic representation of G is a representation of the form
+     Ind_P^G(π^M_{λ,R_M^+,χ_M} ⊗ e^ν ⊗ 1_N),
+   where 1_N is the trivial representation of N."
+  "Theorem 2.2 (Knapp–Zuckerman). Every tempered representation of G is basic."

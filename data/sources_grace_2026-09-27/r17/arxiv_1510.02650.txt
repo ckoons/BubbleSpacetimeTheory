@@ -1,0 +1,902 @@
+                                                 On the analogy between real reductive groups and Cartan
+                                                     motion groups. I: The Mackey-Higson bijection
+                                                                                             Alexandre Afgoustidis*
+
+
+                                                                                                        Abstract
+
+
+
+
+arXiv:1510.02650v5 [math.RT] 18 Oct 2021
+                                                      George Mackey suggested in 1975 that there should be analogies between the irreducible unitary repre-
+                                                  sentations of a noncompact reductive Lie group G and those of its Cartan motion group G0 − the semidirect
+                                                  product of a maximal compact subgroup of G and a vector space. He conjectured the existence of a natu-
+                                                  ral one-to-one correspondence between “most” irreducible (tempered) representations of G and “most” irre-
+                                                  ducible (unitary) representations of G0 . We here describe a simple and natural bijection between the tempered
+                                                  duals of both groups, and an extension to a one-to-one correspondence between the admissible duals.
+
+
+                                                                                                  1.    Introduction
+
+                                           1.1. Contractions of Lie groups and a conjecture of Mackey
+
+                                           When G is a Lie group and K is a closed subgroup, one can use the linear action of K on the vector space
+                                           V = Lie(G)/Lie(K) to define a new Lie group: the semidirect product G0 = K ⋉ V , known as the contraction
+                                           of G with respect to K. The notion first arose in mathematical physics (see Segal [37], İnönü and Wigner [21],
+                                           Saletan [36] and the lecture by Dyson [14]): the Poincaré group of special relativity admits as a contraction
+                                           the Galilei group of classical inertial changes, and it is itself a contraction of the de Sitter group of general
+                                           relativity.
+                                               It is a classical problem to try to determine whether there is a relationship between the representation the-
+                                           ories of G and G0 : for instance, the unitary (irreducible) representations of the Poincaré group famously yield
+                                           spaces of quantum states for (elementary) particles [50], and it is quite natural to wonder about the existence
+                                           of “nonrelativistic” analogues in the representation theory of the Galilei group [20]. In many cases of physical
+                                           interest, the observation that the contraction G0 can be seen as the special point of a one-parameter family
+                                           (Gt )t∈R of Lie groups (where the parameter t usually has some physical significance, and Gt is isomorphic with
+                                           G for all t 6= 0) has led to attempts to exhibit some representations of G0 as “limiting cases” of representations
+                                           of G; early examples include [20], [17], [32], [31].
+                                               For most Lie groups, unitary representations do not behave well under the contraction. The parameters
+                                           needed to identify an irreducible representation of G are often visibly different from those determining an
+                                           irreducible representation of G0 , and some of the differences are important for physics − a consequence of
+                                           the bad behaviour in the case of the Poincaré group is that the notion of (rest) mass has different meanings in
+                                           special and Galilean relativity.
+                                               Now, suppose G is a reductive Lie group and K is a maximal compact subgroup. The contraction G0 is
+                                           known in that case as the Cartan motion group of G, probably as a tribute to Élie Cartan’s study of symmetric
+                                           spaces: the group G acts by isometries on the negatively curved G/K, while G0 acts by Euclidean rigid motions
+                                           on the (flat) tangent space to G/K at the identity coset.
+                                               The algebraic structures of G and G0 and their representation theories are quite different. Denote the unitary
+                                           dual of a Lie group Γ by b  Γ; then George Mackey’s early work on semidirect products [28, 29] describes G   c0 in
+
+                                             * CNRS, Institut Élie Cartan de Lorraine, Nancy & Metz, France.
+
+                                           Mathematics Subject Classification (2020): 22E50, 22E46
+
+
+                                                                                                                1
+very simple and concrete terms, but describing G  b remains to this day an extremely deep problem. A complete
+understanding of the tempered dual G   b temp (the support of the Plancherel measure) was attained in the early
+1980s, crowning tremendous efforts of Harish-Chandra and others that had begun in 1945.
+   In 1975, however, Mackey noticed surprising analogies, for several simple examples of reductive groups
+G, between his accessible description of G    c0 and Harish-Chandra’s subtle parametrization of G btemp . In the
+                                                    c
+examples studied by Mackey, “large” subsets of G0 and G     btemp could be described using the same parameters,
+and the classical constructions for some of the corresponding representations were reminiscent of one another.
+Quantum-mechanical considerations led him to believe that there was more to this than chance, and he went on
+                                                                                                  c0 and G
+to conjecture that there should be a natural one-to-one correspondence between “large” subsets of G        btemp
+[30]:
+
+The physical interpretation suggests that there ought to exist a “natural” one-to-one correspondence between
+almost all the unitary representations of G0 and almost all the unitary representations of G − in spite of the
+rather different algebraic structure of these groups.
+
+   Mackey’s idea seems to have been widely considered overenthusiastic at the time. It is true that in the
+years immediately following his proposal, studying the relationship between G-invariant harmonic analysis
+on G/K and G0 -invariant analysis on G0 /K became a flourishing subject (see e.g. [16, 34]), with beautiful
+ramifications for all Lie groups [12, 22], and the close relationship between the two kinds of harmonic analysis
+does call to mind Mackey’s observations on the principal series. But few of the authors who pursued this subject
+explicitly referred to Mackey’s suggestion. Exceptions include Dooley and Rice [11], who established in 1985
+that the operators for (minimal) principal series representations of G do weakly converge, as the contraction
+is performed, to operators for a generic representation of G0 ; and Weinstein [49], who wrote down a Poisson
+correspondence relating coadjoint orbits of G attached to (minimal) principal series representations and generic
+coadjoint orbits for G0 .
+   But as one moves away from the principal series of G to the other parts of the tempered dual, it must have
+seemed difficult in the 1970s to imagine that anything general could be extracted from Mackey’s suggestions.
+The geometrical construction of representations in the deeper parts of G  btemp , for instance that of the discrete
+                                                                              c0 look somewhat trivial. Mackey
+series, was then a burning subject; in contrast, the most degenerate parts of G
+had of course noticed the absence, for these deeper parts, of any clear geometrical relationship:
+
+Above all [the conjectured analogy] is a mere coincidence of parametrizations, with no evident relationship
+between the constructions of corresponding representations.
+
+1.2. Connection with the Connes–Kasparov isomorphism; Higson’s work
+
+In the late 1980s and in the 1990s, Mackey’s conjecture found an echo in the study of group C⋆ -algebras. The
+Baum–Connes conjecture, in its “Lie group” version due to Connes and Kasparov, describes the K-theory of
+the reduced C⋆ -algebra Cr⋆ (G) of a connected Lie group G in terms of the representation ring of a maximal
+compact subgroup and Dirac induction. For real reductive groups, the conjecture was first established by
+A. Wassermann [48]; a later proof would follow from V. Lafforgue’s work [27]. Viewing the operator K-theory
+of Cr⋆ (G) as a noncommutative-geometry version of the topological K-theory of the tempered dual G   btemp , Paul
+Baum, Alain Connes and Nigel Higson pointed out in the 1990s that the Connes–Kasparov isomorphism can be
+                                  btemp and G
+reinterpreted as a statement that G         c0 share algebraic-topological invariants: see [5, §4]. The Baum–
+Connes–Kasparov isomorphism can thus be viewed as a cohomological reflection of Mackey’s conjectured
+analogy.
+   Nigel Higson later remarked that Mackey had in mind a measure-theoretic correspondence (which may have
+been defined only for “almost every” representation), but that the interplay with the Connes–Kasparov isomor-
+phism brought the topologies of G  btemp and G
+                                             c0 into the game, albeit at the level of cohomology. Because the
+relationship between the Fell topologies and the Plancherel measure is nontrivial, he noted [18, 19] that the
+
+
+                                                        2
+simplest way to reconcile both points of view was to guess that there might exist a natural one-to-one corre-
+spondence between every irreducible tempered representation of G and every unitary irreducible representation
+of G0 .
+   After the turn of the century, Higson took up the issue in more detail and examined the case of complex
+semisimple groups, in which the tempered dual G      btemp is completely described by the principal series. He
+constructed in 2008 a natural bijection between G b temp and Gc0 in the complex case [18], and used it to analyze
+the structures of Cr⋆ (G) and Cr⋆ (G0 ) − discovering building blocks for the two C⋆ -algebras that fit together
+rigidly in the deformation from Cr⋆ (G) to Cr⋆ (G0 ). With the help of tools crafted for the purpose in the early
+1990s by Connes and himself (see [9] and [8, §II.10.δ ]), he was led to a new proof of the Connes–Kasparov
+isomorphism for complex semisimple groups that is both natural from the point of view of representation theory
+and elementary from the point of view of K-theory.
+
+1.3. Contents of this paper
+
+    We here construct a simple and natural bijection between G btemp and Gc0 , for any real reductive group G (more
+precisely, whenever G is the group of real points of a connected reductive algebraic group defined over R. The
+construction may work for a wider class of reductive groups, as we will see).
+    David Vogan’s notion of lowest K-types will play a crucial part: we shall imitate Mackey’s classical parametriza-
+        c0 (recalled in §2) and build a Mackey-like parametrization of G
+tion of G                                                                  btemp using Vogan’s work on tempered
+irreducible representations with real infinitesimal character (see §3.1).
+    Our bijection will turn out (see §4) to preserve lowest K-types and be compatible with a natural notion
+of variation of continuous parameters in the representation theories of both groups. As we shall see (in §5),
+the Langlands classification of admissible representations provides an immediate extension to a one-to-one
+correspondence between the admissible duals of both groups.
+    This paper’s main result, Theorem 3.5, can of course be viewed a classification theorem for irreducible
+tempered representations. Its overall form may seem particularly simple in view of the equivalent classifications
+of Knapp–Zuckerman or Vogan–Zuckerman. One should not forget, though, that our proofs entirely rely on
+results extracted from these very deep classifications.
+    With Mackey’s conjecture established at the level of parameters, we shall turn elsewhere to the deformation
+(Gt )t∈R to try to better understand the reasons for, and implications of, the existence of the correspondence. A
+first companion paper [4] gives a geometrical realization for the Mackey–Higson bijection, describing a natural
+deformation (at the level of representation spaces) of every irreducible tempered representation π of G onto the
+corresponding representation of G0 . A second companion [3] focuses on the topologies on G         btemp and G
+                                                                                                             c0 and
+                                                                                                    ⋆
+the behavior of matrix coefficients, establishing rigidity properties of the deformation at the C -algebraic level
+and deducing a new proof of the Connes–Kasparov isomorphism.
+    Together, these companion papers lead to a somewhat different perspective on the bijection’s definition,
+which we may summarize in elementary terms as follows (I thank a referee for this formulation). The ir-
+reducible tempered representations with a given lowest K-type can be parametrized by a real vector space
+(modulo a finite group). Moving along a ray in one of these vector spaces towards infinity, and inspecting the
+matrix coefficient functions attached to lowest K-type vectors in a representation π of G, one can see that these
+functions actually converge, after a simple rescaling along the deformation (Gt )t∈R , to certain matrix coeffi-
+cients for a representation of G0 . This is the one corresponding to π . Unlike the short algebraic construction of
+this paper, the more geometrical approach does not provide a proof for the bijection; but it is very relevant to
+the existing applications.
+    These further developments are hopefully clear signs that there may be much more to the Mackey–Higson
+bijection than the unexpected “coincidence of parametrizations” to be established here.
+
+
+
+
+                                                        3
+Acknowledgements
+
+   Daniel Bennequin encouraged my interest for this subject and offered extremely kind and helpful advice.
+Several conversations with Michel Duflo, Nigel Higson and Michèle Vergne were very useful and important
+to me. François Rouvière and David Vogan read the manuscript of my thesis [2] very carefully; the present
+version owes much to their suggestions and corrections. Jeremy Daniel heard preliminary (and false) versions
+of many of my ideas. I am very much indebted to all of them.
+   During my time as a PhD student, in which many of the results of this paper were obtained, I benefited from
+excellent working conditions at Université Paris-7 and the Institut de Mathématiques de Jussieu–Paris Rive
+Gauche. This work was completed later, at Université Paris-Dauphine: I am very grateful to my colleagues at
+CEREMADE for their support.
+
+                                 2. Representations of the Cartan motion group
+
+2.1. Notation
+
+   Let G be the group of real points of a connected reductive algebraic group defined over R (see for instance
+[1], §3), and let g be its Lie algebra. (All Lie algebras in this paper are real, unless they come with a subscript
+C.)
+   Fix a maximal compact subgroup K of G, write θ for the Cartan involution of G with fixed-point-set K, and
+form the corresponding Cartan decomposition g = k ⊕ p of G. Here k is the Lie algebra of K and p is a linear
+subspace of g which, although not a Lie subalgebra, is stable under the adjoint action Ad : K → End(g).
+   Recall that the semidirect product K ⋉ p is the group whose underlying set is the Cartesian product K × p,
+equipped with the product law
+
+                    (k1 , v1 ) ·0 (k2 , v2 ) := (k1 k2 , v1 + Ad(k1 )v2 )   (k1 , k2 ∈ K,   v1 , v2 ∈ p).
+
+We will denote that group by G0 and call it the Cartan motion group of G.
+    Writing V ⋆ for the space of linear functionals on a vector space V and viewing p⋆ as the space of linear
+functionals on g which vanish on k, note that in the coadjoint action Ad⋆ : G → End(g⋆ ), the subspace p⋆ ⊂ g⋆
+is Ad⋆ (K)-invariant.
+    We fix once and for all an abelian subalgebra a of g that is contained in p and is maximal among the abelian
+subalgebras of g contained in p. We write A for expG (a).
+    When Γ is a Lie group, we will write Γb for its unitary dual and Γ
+                                                                     badm for its admissible dual (see for instance
+[42, §0.3] or [47, §3.3]). For the motion group G0 , which is amenable, the support of the Plancherel measure
+          c0 . For our reductive group G, the support of the Plancherel measure is the tempered dual G
+is all of G                                                                                              btemp : the
+set of representations π ∈ G b whose K-finite matrix elements lie in L (G/ZG ) for every ε > 0. (See [10];
+                                                                         2+ ε
+
+here ZG is the center of G.) If G/ZG is noncompact, then the trivial representation of G is not tempered, and so
+Gbtemp 6= G.
+          b
+
+
+2.2. Mackey parameters
+
+When χ is an element of p⋆ , we write Kχ for its stabilizer in the coadjoint action of K on p; this compact group
+is usually disconnected. In physics, it is known as the “little group at χ ”.
+    We define a Mackey parameter (or: Mackey datum) to be any pair δ = (χ , µ ) where χ is an element of p⋆
+and µ is an irreducible representation of Kχ .
+    We say that two Mackey parameters (χ , µ ) and (χ ′ , µ ′ ) are equivalent when there exists an element k in K
+such that
+     • χ = Ad⋆ (k) · χ ′ , and
+     • µ is equivalent, as an irreducible representation of Kχ , with the representation u → µ ′ (k−1 uk).
+This defines an equivalence relation on the set of Mackey data; we will write D for the set of equivalence
+
+
+                                                                4
+classes.
+   It may be useful to mention two elementary facts from structure theory (see [23], sections V.2 and V.3):
+   (i) Every Mackey datum is equivalent to a Mackey datum (χ , µ ) in which χ lies in a⋆ ; furthermore, if χ and
+        χ ′ are two elements of a⋆ , and if µ and µ ′ are irreducible representations of Kχ and Kχ ′ , then the Mackey
+        data (χ , µ ) and (χ ′ , µ ′ ) are equivalent if and only if there is an element of the Weyl group W = W (g, a)
+        which sends χ to χ ′ and µ to µ ′ .
+   (ii) The dimension of the Ad⋆ (K)-orbit of χ in p⋆ is maximal (among all possible dimensions of Ad⋆ (K)-
+        orbits in p⋆ ) if and only if χ is regular. All regular elements in a⋆ have the same Ad⋆ (K)-stabilizer, viz.
+        the centralizer M = ZK (a) of a in K.
+
+2.3. Unitary dual of the motion group
+
+We recall the usual way to build a unitary representation of G0 from a Mackey parameter δ = (χ , µ ).
+                               χ
+   Consider the centralizer L0 of χ in G0 (for the coadjoint action). It is Kχ ⋉ p, where Kχ is the little group of
+§2.2.
+   Out of δ and χ , build an irreducible representation of this centralizer: fix a (finite-dimensional) carrier space
+V for µ , and define an action of L0χ on V , where (κ , v) ∈ Kχ ⋉ p acts through eihχ ,vi µ (k). Write σ = µ ⊗ eiχ for
+this representation of L0χ .
+   Now, observe the induced representation
+
+                                                   G             G             
+                                      M0 (δ ) = IndL00 (σ ) = IndKχ0 ⋉p µ ⊗ eiχ .                                (2.1)
+                                                      χ
+
+
+Theorem 2.1 (Mackey [28]).
+(a) For every Mackey parameter δ , the representation M0 (δ ) is irreducible.
+(b) Suppose δ and δ ′ are two Mackey parameters. Then the representations M0 (δ ) and M0 (δ ′ ) are unitarily
+    equivalent if and only if δ and δ ′ are equivalent as Mackey parameters.
+                                                                                 c0 , one obtains a bijection
+(c) By associating to any Mackey parameter δ the equivalence class of M0 (δ ) in G
+                    c
+    between D and G0 .
+
+Remark 2.2. If χ is zero, then Kχ equals K and the representation of M0 (χ , µ ) of G0 is the trivial extension of
+                                                 c0 a family of finite-dimensional representations; every member
+µ where p acts by the identity. There is thus in G
+                                                   b
+of the family is equal to M0 (0, µ ) for some µ in K.
+Remark 2.3. In §4, we will need information about the K-module structure of M0 (χ , µ ). Recall that M0 (χ , µ )
+can be realized by fixing a µ (K)-invariant inner product on V , then equipping the Hilbert space
+                            
+                         H = f ∈ L2 (K,V ) / ∀m ∈ Kχ , ∀k ∈ K, f (km) = µ (m−1 ) f (k)
+
+with the G0 -action in which
+                                                                 h          ⋆
+                                                                                               i
+                        g0 = (k, v) acts through π0 (k, v) : f 7→ u 7→ eihAd (u)χ ,vi f (k−1 u) ;
+
+the restriction to K of that action is a classical picture for IndKKχ (µ ).
+
+2.4. Admissible dual of the motion group
+
+We now outline Champetier and Delorme’s description of the admissible dual of G   c0 adm (see [6]; see also Rader
+[33]). Recall that the action Ad⋆ of K on p⋆ induces an action on the complexified space p⋆C , in which K acts
+separately on the real and imaginary parts. We will still write Ad⋆ for it.
+   We define an admissible Mackey parameter to be any pair (χ , µ ) in which χ lies in a⋆C and µ is an irreducible
+representation of Kχ . In contrast to the previous section, we require from the outset that χ lie in a⋆C : it is no
+
+                                                            5
+longer true that Ad⋆ (K) · a⋆C coincides with p⋆C .
+   We define on the set of admissible Mackey parameters the same equivalence relation as described in §2.2
+and write D adm for the set of equivalence classes of admissible Mackey data.
+                                                                                                    G
+   When δ = (χ , µ ) is an admissible Mackey datum, we write M0 (δ ) for the representation IndKχ0 ⋉p (µ ⊗ eχ ) of
+G0 . This is an admissible representation of G0 (for details on admissible representations of G0 , and equivalences
+between them, see [6]). This representation is unitary if and only if the real part of χ is zero; in that case it
+coincides with the representation defined in §2.3 using the imaginary part of χ .
+
+Theorem 2.4 ([6], Théorème A).
+(a) For every admissible Mackey parameter δ , the representation M0 (δ ) is irreducible.
+(b) Suppose δ and δ ′ are two admissible Mackey parameters. Then the admissible representations M0 (δ ) and
+    M0 (δ ′ ) are equivalent if and only if δ and δ ′ are equivalent as admissible Mackey parameters.
+(c) By associating to any admissible Mackey parameter δ the equivalence class of M0 (δ ) in G  badm , one obtains
+                                       adm
+                                  c0
+    a bijection between D adm and G          .
+
+                      3. The Mackey–Higson bijection for tempered representations
+
+In this section, we introduce a natural one-to-one correspondence between G   c0 and G btemp .
+   The key step is to determine the subset of Gbtemp that should correspond to the “discrete part” of G c0 encoun-
+tered in Remark 2.2, which is a copy of Kb in Gc0 .
+   For some reductive groups, there is a natural candidate for that subset of G btemp : the discrete series. If G is
+a reductive group with nonempty discrete series, it is well-known from the work of Harish-Chandra, Blattner,
+Hecht–Schmid (see [15]) that every discrete series representation π comes with a distinguished element of K,     b
+the minimal K-type of π (see for example [13, §1.5]); furthermore, inequivalent discrete series representations
+of G have inequivalent minimal K-types.
+   There are at least two obvious reasons not to use the discrete series for our construction, however:
+  (i) there are reductive groups with no discrete series representations;
+                                                                        b which cannot be realized as the
+ (ii) even when G has a nonempty discrete series, there are elements of K
+      minimal K-type of any discrete series representation.
+                                                                                   btemp to the copy of K
+To define a natural candidate for the class of representations to be associated in G                         c0 ,
+                                                                                                        b in G
+we turn to David Vogan’s work on lowest K-types for other representations.
+
+3.1. Real-infinitesimal-character representations and a theorem of Vogan
+
+Fix a reductive group G and a maximal compact subgroup K. Given a Cartan subalgebra t of k and and a choice
+of positive root system ∆+c for the pair (kC , tC ), Vogan defines ([40]) a positive-valued function µ → kµ kKb on
+b                                      b                        +
+K: starting from an irreducible µ in K, one can consider its ∆c -highest weight µ̃ and the half-sum ρc of positive
+roots in ∆+                                ⋆
+          c ; these are two elements of tC , and that space comes with a Euclidean norm k·kt⋆C ; one then defines
+kµ kKb = kµ̃ + 2ρc kt⋆ .
+                      C
+   When π is an admissible (but not necessarily irreducible) representation of G, the lowest K-types of π are the
+elements of K b that appear in the restriction of π to K and have the smallest possible norm among the elements
+   b
+of K that appear in π|K . Every admissible representation has a finite number of lowest K-types, and these do
+not depend on the choice of T and ∆+   c.
+   Given an irreducible tempered representation π of G, we say π has real infinitesimal character when there
+exists a cuspidal parabolic subgroup P of G, with Langlands decomposition P = MAN, and a discrete series
+representation σ of M, so that π is equivalent with one of the irreducible factors of IndG   P (σ ⊗ 1). We will not
+need to explain the link with the notion of infinitesimal character and refer the reader to [45].
+
+
+
+
+                                                         6
+   We write G bRIC for the subset of Gbtemp whose elements are the equivalence classes of irreducible tempered
+representations of G with real infinitesimal character. I thank Michel Duflo for calling my attention to that
+subset.
+   Vogan discovered ([42], see also [41]) that if π is an irreducible tempered representations of G with real
+infinitesimal character, then π has a unique lowest K-type. He went on to prove that every K-type is the lowest
+K-type of exactly one representation in G bRIC :
+
+Theorem 3.1 (Vogan [42]; see [46], Theorem 1.2). The map from G      bRIC to Kb which, to an irreducible tempered
+representation π of G with real infinitesimal character, associates the lowest K-type of π , is a bijection.
+
+   When µ is (the class of) an irreducible representation of K, we will write VG (µ ) for the real-infinitesimal-
+character irreducible tempered representation of G with lowest K-type µ .
+Remark 3.2. We shall need to use Theorem 3.1 for groups G that are not quite the group of real points of a
+connected reductive algebraic group; therefore let us note that Theorem 3.1 is also valid when G is a linear
+reductive group in Harish-Chandra’s class and has all its Cartan subgroups abelian (see §0.1 in [42]).
+Remark 3.3. Still assuming that G is a linear reductive group in Harish-Chandra’s class with abelian Cartan
+subgroups, Vogan proved that if π is an irreducible admissible representation, then the lowest K-types of π all
+occur with multiplicity one in π |K (see [42, §6.5], and for comments, [1, §6]).
+Remark 3.4. The relationship between the highest weight of µ and the infinitesimal character of VG (µ ) is an
+important ingredient of the results in [42]. An improved approach, using Carmona’s observation that the subtle
+part of the relationship can be interpreted as a convex cone projection, is explained in [35], which also contains
+a summary of the lowest-K-type approach to the classification of representations in [41, 42].
+
+3.2. Construction of the bijection
+
+We first proceed to build tempered representations of G by following as closely as possible the procedure
+described in §2.3 to build representations of G0 from Mackey parameters.
+   Fix a Mackey parameter (χ , µ ).
+   Consider, as we did in §2.3, the centralizer Lχ of χ in G for the coadjoint action. This is the group of
+real points of a connected reductive algebraic group. Furthermore, the “little group” Kχ is a maximal compact
+subgroup of Lχ . Applying Vogan’s Theorem 3.1, we can build, out of the irreducible representation µ of Kχ , a
+tempered irreducible representation of Lχ : the representation VLχ (µ ).
+   The centralizer Lχ is the θ -stable Levi factor of a real parabolic subgroup of G (see [45, Lemma 3.4(4)]).
+Write Lχ = Mχ Aχ for its Langlands decomposition − a direct product decomposition in which Aχ is abelian
+and contained in expG (p), so that χ defines an abelian character of Lχ .
+   From our Mackey datum (χ , µ ), we can thus build as in §2.3 a tempered irreducible representation σ =
+VLχ (µ ) ⊗ eiχ of the centralizer Lχ .
+   In order to obtain a tempered irreducible representation of G, it is however not reasonable to keep imitating
+the previous construction and induce without further precaution from Lχ to G. Indeed, our centralizer Lχ =
+ZG (χ ) in G is a poor geometric analogue of the centralizer L0χ = ZG0 (χ ): these two groups usually do not
+have the same dimension and the contraction of Lχ with respect to Kχ is usually not isomorphic with L0χ . The
+induced representation IndG  Lχ (σ ) is also likely to be very reducible.
+   But we recalled that there exists at least one parabolic subgroup Pχ = Lχ Nχ of G whose θ -stable Levi factor
+is Lχ . The parabolic subgroups with θ -stable Levi factor Lχ are all contained in a single associate class of
+parabolic subgroups.
+   Now, the subgroup Pχ is closer to being a good geometric analogue in G of the centralizer L0χ : these two
+groups have the same dimension, and whenever Pχ′ is a parabolic subgroup of G with θ -stable Levi factor Lχ ,
+the contraction of Pχ′ with respect to Kχ is none other than L0χ .
+   It seems, then, that the representation obtained by extending σ to Pχ is the simplest possible analogue of the
+
+
+
+                                                        7
+representation of L0χ used in §2.3. This makes it natural to form the induced representation
+
+                                                                              iχ
+                                M(δ ) = IndPχ (σ ) = IndG
+                                                        Mχ Aχ Nχ (VMχ (µ ) ⊗ e ⊗ 1).                                 (3.1)
+
+This is a tempered representation. For the last equality in (3.1), we note that Mχ satisfies the hypothesis of Re-
+mark 3.2 (see [42, page 142]), so that Theorem 3.1 does apply to Mχ as well as Lχ ; and that VLχ (µ ) coincides
+                                                                                                     RIC
+with the representation of Lχ obtained by extending VM (µ ) to Lχ , because both belong to (L    d χ)    and have
+                                                                χ
+the same lowest Kχ -type.
+
+   We can now state our main result.
+
+Theorem 3.5.
+(a) For every Mackey parameter δ , the representation M(δ ) is irreducible and tempered.
+(b) Suppose δ and δ ′ are two Mackey parameters. Then the representations M(δ ) and M(δ ′ ) are unitarily
+    equivalent if and only if δ and δ ′ are equivalent as Mackey parameters.
+                                                                             btemp , one obtains a bijection
+(c) By associating to a Mackey parameter δ the equivalence class of M(δ ) in G
+    between D and G  btemp .
+                                         c0 in §2.3, this yields a bijection
+   Combined with Mackey’s description of G
+                                                         ∼ btemp
+                                                     c0 −→
+                                                  M :G     G     .                                                   (3.2)
+
+We will refer to it as the Mackey–Higson bijection.
+
+Proof of Theorem 3.5. Our result is a simple and straightforward consequence of the classification of tempered
+irreducible representations of G. In other words, it is a simple and straightforward consequence of an immense
+body of work (the bulk of which is due to Harish-Chandra).
+    We first remark that given Remark 2.2.(i) and the properties of unitary induction, we may assume without
+losing generality that χ lies in a⋆ .
+    In that case, Mχ is a reductive subgroup of G that contains the compact subgroup M = ZK (a) mentioned in
+§2.2, point (ii); in addition, Aχ is contained in A, it is related with its own Lie algebra aχ through Aχ = expG (a χ ),
+and the group Mχ centralizes Aχ . We recall that Lχ is generated by M and the root subgroups for those roots of
+(gC , aC ) whose scalar product with χ is zero; in the Langlands decomposition, the subgroup Aχ is by definition
+the intersection of the kernels of these roots (viewed as abelian characters of A).
+    In order to choose a precise Nχ , fix an ordering on a⋆ : with it comes a notion of positive weight for (g, aχ );
+the sum of root subspaces corresponding to positive weights yields a subalgebra nχ , and we set Nχ = expG (nχ ).
+But of course another choice for Nχ and Pχ in (3.1) would yield an equivalent representation of G.
+    Recall that an element in a⋆ is called a χ -regular when its scalar product with every root for the pair (gC , a χ ,C )
+is nonzero. We now call in a theorem due to Harish-Chandra, although Harish-Chandra never published it
+himself; see [26, Theorem 4.11] for semisimple G, [23, Theorem 14.93] for linear connected reductive G, and
+[45, Lemma 3.2(5)] (with proofs in [39]) for the current class of reductive groups:
+    If β ∈ a⋆ is aχ -regular and if η is an irreducible tempered representation of Mχ with real infinitesimal
+character, then IndG                     iβ
+                          Mχ Aχ Nχ (η ⊗ e ) is irreducible.
+    To show that χ is aχ -regular, consider a root γ of (gC , aC ) whose scalar product with χ is zero. Then γ is a
+root for (lχ ,C , a χ ,C ) (see the remarks on the structure of Lχ above), so that a χ is contained in the kernel of γ (see
+the same remarks). Thus, the restriction of γ to a χ must be zero, and γ cannot be a root of (gC , aχ ,C ), because
+the latter are precisely the roots which do not vanish on a χ .
+    Using Harish-Chandra’s theorem above, we obtain part (a) in Theorem 3.5. Part (b) then follows from the
+usual criteria for equivalence between parabolically induced representations (see for instance [26, Theorem
+4.11(i))]: if M1 A1 N1 and M2 A2 N2 are two parabolic subgroups containing a parabolic subgroup MAN, if β1 and
+
+
+                                                            8
+β2 are elements of a⋆1 and a⋆2 which are respectively a1 and a2 -regular, and if η1 and η2 are two real-infinitesimal-
+character irreducible tempered representations of M1 and M2 , then the representations IndG                     iβ1
+                                                                                                M1 A1 N1 (η1 ⊗ e ) and
+IndG                iβ2
+    M2 A2 N2 (η2 ⊗ e ) are equivalent if and only if there is an element in W = W (gC , aC ) that sends β1 to β2 and
+η1 to η2 .
+   We now turn to (c), which is a simple consequence of the Knapp–Zuckerman classification of irreducible
+tempered representations [24, 25]. Suppose π is an arbitrary irreducible tempered representation of G; then
+there exists a parabolic subgroup P = MP AP NP of G, a tempered irreducible representation σ of MP with real
+infinitesimal character, and an element ν of (aP )⋆ , so that
+
+                                                                  iν
+                                                                       
+                                                IndG
+                                                   MP AP NP σ ⊗ e
+
+
+is irreducible and equivalent with π . See [45, Theorem 3.3]; for proofs, see of course [24, 25] in the connected
+compact-center case, and [38, §5.4], for disconnected groups in the present class (see also the comments in [7]).
+    We need to prove that such a representation is equal to M(δ ) for some Mackey parameter δ . We first remark
+that P is associate to a parabolic subgroup contained in Pν : since ν lies in (aP )⋆ , the centralizer LP = MP AP of
+a⋆P for the coadjoint action is contained in Lν ; given the above remarks on the Langlands decomposition and
+the construction of parabolic subgroups, we deduce that LP is contained in Lν , so that Mν contains MP and that
+Aν is contained in AP , and finally that Nν is conjugate to a subgroup N ′ contained in NP . So P is associate to
+MP AP N ′ , which is contained in Pν .
+    Write Ã and Ñ for the subgroups of G whose Lie algebras are the orthogonal complements of aν and n′ in aP
+and nP , respectively. Then AP = Aν Ã and NP = ÑN ′ ; from the fact that mν is orthogonal to aν ⊕ n′, we deduce
+that Ã and Ñ are contained in Mν . Since AP is abelian and NP normalizes A, we obain
+
+                                             iν
+                                                                          0      iν
+                                                                                     
+                            IndG                       G
+                               MP AP NP τ ⊗ e ⊗ 1 ≃ Ind(M ÃÑ)A N ′ (τ ⊗ e ) ⊗ e      .
+                                                               P       ν
+
+
+Now, P̃ = MP ÃÑ is a subgroup of Mν and MP Ã is the centralizer of Ã in Mν , so P̃ is a parabolic subgroup of
+                                   Mν
+Mν . Finally, we note that σ̃ = IndM ÃÑ
+                                          (σ ⊗ e0 ) is a tempered representation of Mν , that it has real infinitesimal
+character (by induction in stages from the definition of real infinitesimal character), and that it is irreducible
+(otherwise π would not be). By induction in stages, we conclude that
+                                                                                 
+                                            iν
+                              IndG
+                                 Pν σ̃ ⊗ e       ≃ IndG              Mν
+                                                        Mν Aν N ′ IndP̃ σ ⊗ e0 ⊗ eiν :
+
+thus π is equivalent with M(ν , µ ), where µ is the lowest Kν -type of the representation IndP̃Mν (σ ⊗ e0 ). This
+concludes the proof.
+
+Remark 3.6. It seems likely that Theorem 3.5 and its proof are valid in a wider class than used here. Presumably
+they hold as soon as G satisfies Theorem 3.1, the Harish-Chandra irreducibility criterion above, and the Knapp–
+Zuckerman classification. Concerning Theorem 3.1, some care is definitely needed: I am not aware of any
+reference for nonlinear groups, and there are nonlinear groups in Harish-Chandra’s class which do not satisfy
+the (additional) multiplicity-one property. For G in Harish-Chandra’s class, the irreducibility criterion is stated
+in [45, Lemma 3.2], and a version of the Knapp–Zuckerman classification is stated in [43, Theorem 2.9].
+
+                                       4. First properties of the bijection
+
+In our construction of the Mackey–Higson bijection in §3.2, the notion of lowest K-type for admissible repre-
+sentations of G was of critical importance. Since K is also a maximal compact subgroup in G0 , the notion of
+lowest K-type for admissible representations of G0 can similarly be brought in, and every irreducible admissible
+representation of G0 has a finite number of lowest K-types.
+   We now prove that the Mackey–Higson bijection M : G    c0 → G btemp preserves lowest K-types.
+
+
+
+
+                                                          9
+Proposition 4.1. Suppose π0 is a unitary irreducible representation of G0 . Then the representation π0 of G0
+and the representation M (π0 ) of G have the same lowest K-types.
+
+Proof. We recall that π0 is equivalent with M0 (χ , µ ) for some Mackey datum (χ , µ ). From Remark 2.3, we
+know that as a K-module, M0 (χ , µ ) is isomorphic with IndKKχ (µ ). So we need to show that the lowest K-types
+of the G-representation M(χ , µ ) are exactly the irreducible K-submodules of IndKKχ (µ ) with minimal norm.
+                                                                                                             
+   Now, the definition of parabolic induction shows that as K-modules, M(χ , µ ) and IndKKχ V(µ )|Kχ are
+isomorphic (see the “compact picture” description of M(χ , µ ) in [23, §VII.1]). Of course the latter K-module
+contains IndKKχ (µ ).
+                                                                 
+   Suppose then that α is a lowest K-type in IndKKχ V(µ )|Kχ , but is not a lowest K-type in IndKKχ ( µ ). Then
+there is an element µ1 of Kcχ , distinct from µ , such that α is a lowest K-type in IndKK (µ1 ), and since α must
+                                                                                        χ
+appear with multiplicity one in IndKKχ V(µ )|Kχ (see Remark 3.3), µ1 must appear with multiplicity one in
+V(µ )|Kχ . Because the latter has only one lowest Kχ -type, we know that kµ1 kKcχ must be greater than kµ kKcχ .
+                                                                                                               
+   If α were a lowest K-type in IndKKχ V(µ1 )|Kχ , the representations IndKKχ V(µ )|Kχ and IndKKχ V(µ1 )|Kχ
+would have a lowest K-type in common; but that cannot happen, because of the following reformulation of a
+result by Vogan:
+Lemma 4.2. Suppose MAN is a cuspidal parabolic subgroup of G, and µ1 , µ2 are inequivalent irreducible K ∩
+M-modules. Then the representations IndKK∩M (V(µ1 )) and IndKK∩M (V(µ2 )) have no lowest K-type in common.
+
+Proof. When V(µ1 ) and V(µ2 ) are in the discrete series of M, this follows from Theorem 3.6 in [44] (see also
+Theorem 1 in the announcement [40], and of course [41]). In the other cases, this actually follows from the
+same result, but we need to give some details.
+   Assume that both V(µ1 ) and V(µ2 ) are either in the discrete series or nondegenerate limits of discrete series.
+Then both IndG                          G
+                 MAN (V(µ1 )) and IndMAN (V(µ2 )) are irreducible constituents of some representations induced
+from discrete series, from larger parabolic subgroups if need be: see [24, Theorem 8.7]. If IndG       M∗ A∗ N ∗ (δ1 ) (with
+δ1 in the discrete series of M ⋆ ) contains IndG  MAN  (V( µ 1 )) as an irreducible  constituent, it must contain it with
+                                                                G
+multiplicity one, and the set of lowest K-types are IndM∗ A∗ N ∗ (δ1 ) is the disjoint union of the sets of lowest
+K-types of its irreducible constituents (which are finite in number): see [23, Theorem 15.9]. If IndG        MAN (V(µ1 ))
+          G
+and IndMAN (V(µ2 )) are constituents of the same representation induced from discrete series, then the desired
+conclusion follows; if that is not the case we are now in a position to apply Vogan’s result to the two repre-
+sentations induced from discrete series under consideration (Vogan’s disjointness-of-K-types theorem is true of
+reducible induced-from-discrete-series representations).
+   Now, if V(µ1 ), in spite of its real infinitesimal character, is neither in the discrete series of M nor a non-
+degenerate limit of discrete series, then there is a smaller parabolic subgroup M⋆ A⋆ N⋆ and a discrete series
+or nondegenerate limit of discrete series representation ε1 of M⋆ such that IndKK∩M (V(µ1 )) = IndKK∩M⋆ (ε1 ). If
+necessary, we can rewrite IndKK∩M (V(µ2 )) in an analogous way; then we can use Vogan’s result again, after
+some embeddings in reducible representations induced from discrete series as above if necessary. This proves
+Lemma 4.2.
+                                                                                                                          
+   Coming back to the proof of Proposition 4.1, we now know that if α is a lowest K-type in IndKKχ V(µ )|Kχ ,
+                                                                                                                         
+then it cannot be a lowest K-type in IndKKχ V(µ1 )|Kχ . Let then α1 in K     b be a lowest K-type in IndKK V(µ1 )|Kχ ;
+                                                                                                           χ    
+we note that kα1 kKb < kα kKb . If α1 were to appear in IndKKχ (µ1 ), it would appear in IndKKχ V(µ )|Kχ , and that
+cannot be the case because α is already a lowest K-type there.
+   We conclude that there exists α1 in K    b and µ1 in Kcχ such that
+   — kα1 kKb < kα kKb and kµ1 kKcχ > kµ kKcχ
+                                                     
+   — α1 is a lowest K-type in IndKKχ V(µ1 )|Kχ , but it is not a lowest K-type in IndKKχ (µ1 ).
+   This seems to trigger an infinite recursion, because the same argument can be used again, beginning with
+(α1 , µ1 ) instead of (α , µ ); however, there are not infinitely many K-types which are strictly lower than α . Thus
+our hypothesis that the lowest K-type α in M(χ , µ ) is not a lowest K-type in IndKKχ (µ ) leads to a contradiction.
+
+
+                                                            10
+  To complete the proof, notice (from the compatibility of induction with direct sums) the equality of K-
+modules
+                                                        
+                             M(χ , µ ) = IndKKχ V(µ )|Kχ = IndKKχ ( µ ) ⊕ M̃,                        (4.1)
+
+with M̃ induced from a (quite reducible) Kχ -module.
+   We already proved that every lowest K-type in M(χ , µ ) must occur in as a lowest K-type in IndKKχ (µ ).
+Conversely, every lowest K-type in IndKKχ (µ ) does occur as a lowest K-type in M(χ , µ ): from (4.1) we know
+that it must occur there, and from the above argument we already know that it is lower than every K-type
+occuring in M̃, so that it is a lowest K-type in IndKKχ ( µ ). This proves Proposition 4.1.
+
+   We should mention that the above proof establishes, in a somewhat roundabout way, the following property
+of unitary representations of G0 :
+
+Corollary 4.3. In every unitary irreducible representation of G0 , each lowest K-type occurs with multiplicity
+one.
+
+Proof. Suppose π0 is a unitary irreducible representation of G0 ; choose a Mackey parameter (χ , µ ) for π0 ;
+recall that M0 (χ , µ ) is equivalent, as a K-module, with IndKKχ (µ ). In (4.1) we see that the multiplicity of every
+lowest K-type in π0 is lower than its multiplicity in M(χ , µ ); every lowest K-type occurs at least once in π0 and
+exactly once in M(χ , µ ); the corollary follows.
+
+   The Mackey–Higson bijection is compatible with other natural features of Gbtemp and G
+                                                                                       c0 . We mention an
+elementary one, related to the existence in each dual of a natural notion of renormalization of continuous
+parameters for irreducible representations:
+    • On the G0 -side, there is for every α > 0 a natural bijection
+
+                                                             c0 → G
+                                                      RGα0 : G    c0
+
+      obtained from Mackey’s description of G  c0 in §2.3 by sending a representation π0 ≃ M0 (χ , µ ) of G0 to
+                                    χ
+      the equivalence class of M0 ( α , µ ).
+    • On the G-side, there is also for every α > 0 a natural bijection
+
+                                                         btemp → G
+                                                   RGα : G       btemp
+
+       obtained from the Knapp–Zuckerman classification (see the proof of Theorem 3.5) as follows.
+                                                                                                                    
+       Starting with π in G  btemp , we know that π is equivalent with some representation IndG                   iν ,
+                                                                                                   MP AP NP σ ⊗ e
+       where MP A P NP , σν and ν are as in the proof of Theorem 3.5. The tempered          representation π α =
+                                                                                         
+                                                                                       iν , so it is irreducible. We
+       IndG
+          MP AP NP σ ⊗ e
+                          iα
+                                has the same R-group ([24, §10]) as IndGMP AP NP σ ⊗ e
+        define RGα (π ) as the equivalence class of π α .
+   It is immediate from the construction in §3.2 that the Mackey–Higson bijection is compatible with these
+renormalization maps:
+
+Proposition 4.4. For every α > 0, we have RGα ◦ M = M ◦ RGα0 .
+
+   Together Propositions 4.1 and 4.4 may shed some light on our construction of the correspondence: any
+bijection
+                                            B:G c0 → Gbtemp
+
+must, if it is to satisfy Proposition 4.4, induce a bijection between the fixed-point-sets
+                   n                                    o     n                                o
+                     π0 ∈ Gc0 : ∀α > 0, RGα (π0 ) = π0 and π ∈ G   btemp : ∀α > 0, RGα (π ) = π .
+                                             0
+
+
+                                                                                   bRIC discussed in §3.1. So B
+The first class is the copy of Kb discussed in Remark 2.2; the second is the class G
+
+
+                                                         11
+must send any K-type µ to an element of G bRIC ; if B is to satisfy Proposition 4.1, it must send µ to VG (µ ), like
+our correspondence M .
+   Now, observing the Knapp–Zuckerman classification, Lemma 4.2 and Proposition 4.1, and inserting the
+above remark, we note that if π0 ≃ M(χ , µ ) is a unitary irreducible representation of G with nonzero χ , any
+representation of G having the same set of lowest K-types as π0 must read
+                                                                          
+                                             IndMχ Aχ Nχ VMχ (µ ) ⊗ eiν
+
+for some ν in a⋆χ . We may view our correspondence M as that obtained by choosing ν = χ .
+
+                                     5. Extension to the admissible duals
+
+                                                                                  c0 → G
+We now come back to the setting of §3.2 and exend the Mackey–Higson bijection M : G    btemp to a natural
+                                          adm       adm
+                                       c0
+bijection between the admissible duals G          c .
+                                              and G
+    Let us first describe a way to build, out of an admissible Mackey datum δ = (χ , µ ), an admissible represen-
+tation of G (here χ ∈ a⋆C , µ ∈ Kcχ , see §2.4).
+    Write χ = α + iβ , where α and β lie in a⋆ . Consider the centralizer Lχ of χ for the coadjoint action: Lχ
+is the intersection Lα ∩ Lβ . Notice that in the notations of the proof of Theorem 3.5, Lχ is the centralizer of
+aα + aβ ; thus Lχ appears as the θ -stable Levi factor of a real parabolic subgroup Pχ = Mχ Aχ Lχ of G, in which
+Kχ is a maximal compact subgroup. In slight contrast with the construction of §3.2, we require from the outset
+that Pχ be chosen in a specific way: we fix an ordering of a⋆ making α (the “real part” of χ ) nonnegative, and
+choose Pχ accordingly. See the proof of Theorem 3.5.
+    As before, we can build from δ the representation VMχ (µ ) ⊗ eχ of Pχ ; we define
+
+                                                                             χ
+                              M̃(δ ) = IndG            G
+                                          Pχ (σ ) = IndMχ Aχ Nχ (VMχ (µ ) ⊗ e ⊗ 1),
+
+
+an admissible representation of G.
+
+Theorem 5.1.
+(a) For every admissible Mackey parameter δ , the representation M̃(δ ) has a unique irreducible quotient
+    Madm (δ ).
+(b) Suppose δ and δ ′ are two admissible Mackey parameters. Then Madm (δ ) and Madm (δ ′ ) are equivalent if
+    and only if δ and δ ′ are equivalent as admissible Mackey parameters.
+(c) By associating to any admissible Mackey parameter δ the equivalence class of Madm (δ ) in G  badm , one
+    obtains a bijection between D adm and G badm .
+
+                                    c0 adm in §2.4, this yields a natural bijection
+   Combined with the description of G
+
+                                                      c0 adm −→
+                                              M adm : G
+                                                              ∼ badm
+                                                                G                                             (5.1)
+
+                     c0 is the Mackey–Higson bijection (3.2) between tempered representations.
+whose restriction to G
+
+
+Proof of Theorem 5.1. We use the Langlands classification to reduce the description of the irreducible admissi-
+ble representations of G to that of the irreducible tempered representations of reductive subgroups of G.
+   We will write (aα )o for the set of linear functionals on a whose restriction to aα is zero. Decompose
+
+                      χ = α + i(β1 + β2 ),     where     α ∈ a⋆ ,   β1 ∈ a⋆α and β2 ∈ (aα )o .
+
+Consider the parabolic subgroup Pα = Mα Aα Nα attached to α . We point out that it is possible to view (β1 , µ )
+as a (tempered) Mackey parameter for the reductive group Mα : indeed, Mα admits Kα as a maximal compact
+
+                                                         12
+subgroup, and if we view β1 as a linear functional on mα ∩ p (where mα is the Lie algebra of Mα ), then the
+stabilizer of β1 for the action of Kα on (mα ∩ p)⋆ is Kα ∩ Kβ1 = Kχ (since Kα is contained in Kβ2 ). Besides,
+the group Mα satisfies the hypothesis of Remark 3.2: we can therefore construct, as in §3.2, the tempered
+representation MMα (β1 , µ ).
+   We now remark that                                                            
+                                                                           α +iβ2
+                                   M̃(χ , µ ) ≃ IndG
+                                                   Pα   MMα (β 1 , µ ) ⊗ e          .                   (5.2)
+
+To see this, recall that MMα (β , µ ) is built using the centralizer
+
+                      ZMα (β1 ) = {g ∈ Mα , Ad⋆ (g)β1 = β1 } = Mα ∩ Lβ1 = Mχ (Aχ ∩ Mα ) ;
+
+thus, it is induced from a parabolic subgroup P of Mα , which reads P = Mχ (Aχ ∩ Mα )Ñ − here Ñ normalizes
+ZMα (β1 ) and its Lie algebra is a sum of positive root spaces for the given ordering. The right-hand side of (5.2)
+can thus be rewritten as
+                                         h                                           i
+                                                                        iβ1
+                             IndG            Mα
+                                 Mα Aα Nα IndM (A ∩M )Ñ VMχ (µ ) ⊗ e         ⊗ eα +iβ2 ,
+                                                χ   χ    α
+
+
+which, by induction in stages, can in turn be written with only one parabolic induction as
+                                                                                      
+                                                                                 α +iβ
+                                 IndGMχ [(Aχ ∩Mα )(Aα )](ÑNα )
+                                                                  V Mχ ( µ ) ⊗ e         .
+
+Since (Aχ ∩ Mα )(Aα ) is none other than Aχ , the parabolic subgroup that appears in the final expression is equal
+to Pχ . This proves (5.2).
+    From (5.2) we see that M̃(χ , µ ) is induced from a tempered representation; furthermore, in (5.2) we know
+from the proof of Theorem 3.5 that α is aα -regular. It also has a positive scalar product with every positive root
+of (g, aα ) in the ordering used to define Pα . Therefore M̃(χ , µ ) meets the usual criterion for the existence of a
+unique irreducible quotient: see [23, Theorem 8.54]. This proves part (a) in Theorem 5.1; part (b) then follows
+from the usual criteria for equivalence between Langlands quotients (implicit in [23, Theorem 8.54]).
+    To prove part (c), recall from the Langlands classification that when π is an admissible irreducible represen-
+tation of G, there exists a parabolic subgroup P = MP AP NP of G such that AP ⊂ A, there exists an aP -regular
+element α in a⋆P , and there exists an element β1 in a⋆P , as well as an irreducible tempered representation σ of
+                                                                                          
+                                                                                    α +iβ1 . Since α is a -regular,
+MP , so that π is equivalent with the unique irreducible quotient of IndG   P σ ⊗e                         P
+the subgroups Pα and P are associate. Applying Theorem 3.5 to Mα , we know that the tempered representation
+σ of MP is equivalent with MMα (β2 , µ ) − for some linear functional β2 on a ∩ (mα ∩ p) and some irreducible
+representation µ of Kα ∩ZMα (β2 ) = Kα +iβ1 +iβ2 . (The group Mα does not necessarily satisfy the “real points of a
+connected complex algebraic group” hypothesis of §3.2, but the centralizer Lα does, and it is the direct product
+between Mα and the abelian vector group Aα ; thus Theorem 3.5 does hold for Mα ). We note that β2 ∈ (aα )o ,
+and conclude that π is equivalent with a representation of the kind that appears in the right-hand side of (5.2).
+This proves (c) and Theorem 5.1.
+
+                                                        References
+
+ [1] Jeffrey D. Adams, Marc A. A. van Leeuwen, Peter E. Trapa, and David A. Vogan, Jr., Unitary represen-
+     tations of real reductive groups, Astérisque (2020), no. 417, viii + 188. MR4146144
+ [2] Alexandre Afgoustidis, Représentations de groupes de lie et fonctionnement géométrique du cerveau,
+     Ph.D. thesis, Université Paris-7, July 2016.
+ [3]          , On the analogy between real reductive groups and Cartan motion groups: a proof of the Connes-
+       Kasparov isomorphism, J. Funct. Anal. 277 (2019), no. 7, 2237–2258. MR3989145
+ [4]           , On the analogy between real reductive groups and Cartan motion groups: contraction of irre-
+       ducible tempered representations, Duke Math. J. 169 (2020), no. 5, 897–960. MR4079418
+
+                                                             13
+ [5] Paul Baum, Alain Connes, and Nigel Higson, Classifying space for proper actions and K-theory of group
+     C∗ -algebras, C∗ -algebras: 1943–1993 (San Antonio, TX, 1993), Contemp. Math., vol. 167, Amer. Math.
+     Soc., Providence, RI, 1994, pp. 240–291. MR1292018
+ [6] Calixte Champetier and Patrick Delorme, Sur les représentations des groupes de déplacements de Cartan,
+     J. Funct. Anal. 43 (1981), no. 2, 258–279. MR633979
+ [7] Laurent Clozel and Patrick Delorme, Le théorème de Paley-Wiener invariant pour les groupes de Lie
+     réductifs. II, Ann. Sci. École Norm. Sup. (4) 23 (1990), no. 2, 193–228. MR1046496
+ [8] Alain Connes, Noncommutative geometry, Academic Press, Inc., San Diego, CA, 1994. MR1303779
+ [9] Alain Connes and Nigel Higson, Déformations, morphismes asymptotiques et K-théorie bivariante, C. R.
+     Acad. Sci. Paris Sér. I Math. 311 (1990), no. 2, 101–106. MR1065438
+[10] Michael Cowling, Uffe Haagerup, and Roger Howe, Almost L2 matrix coefficients, J. Reine Angew. Math.
+     387 (1988), 97–110. MR946351
+[11] Anthony H. Dooley and John W. Rice, On contractions of semisimple Lie groups, Trans. Amer. Math.
+     Soc. 289 (1985), no. 1, 185–202. MR779059
+[12] Michel Duflo, Opérateurs différentiels bi-invariants sur un groupe de Lie, Ann. Sci. École Norm. Sup. (4)
+     10 (1977), no. 2, 265–288. MR0444841
+[13]           , Représentations de carré intégrable des groupes semi-simples réels, Séminaire Bourbaki, 30e
+       année (1977/78), Lecture Notes in Math., vol. 710, Springer, Berlin, 1979, pp. Exp. No. 508, pp. 22–40.
+       MR554213
+[14] Freeman J. Dyson, Missed opportunities, Bull. Amer. Math. Soc. 78 (1972), 635–652. MR0522147
+[15] Henryk Hecht and Wilfried Schmid, A proof of Blattner’s conjecture, Invent. Math. 31 (1975), no. 2,
+     129–154. MR0396855
+[16] Sigurdur Helgason, A duality for symmetric spaces with applications to group representations. III. Tangent
+     space analysis, Adv. in Math. 36 (1980), no. 3, 297–323. MR577307
+[17] Robert Hermann, The Gell-Mann formula for representations of semisimple groups, Comm. Math. Phys.
+     2 (1966), 155–164. MR0206151
+[18] Nigel Higson, The Mackey analogy and K-theory, Group representations, ergodic theory, and mathemat-
+     ical physics: a tribute to George W. Mackey, Contemp. Math., vol. 449, Amer. Math. Soc., Providence,
+     RI, 2008, pp. 149–172. MR2391803
+[19]          , On the analogy between complex semisimple groups and their Cartan motion groups, Noncom-
+       mutative geometry and global analysis, Contemp. Math., vol. 546, Amer. Math. Soc., Providence, RI,
+       2011, pp. 137–170. MR2815133
+[20] Erdal İnönü and Eugene P. Wigner, Representations of the Galilei group, Nuovo Cimento (9) 9 (1952),
+     705–718. MR0050594
+[21]         , On the contraction of groups and their representations, Proc. Nat. Acad. Sci. U. S. A. 39 (1953),
+       510–524. MR0055352
+[22] Masaki Kashiwara and Michèle Vergne, The Campbell-Hausdorff formula and invariant hyperfunctions,
+     Invent. Math. 47 (1978), no. 3, 249–272. MR0492078
+[23] Anthony W. Knapp, Representation theory of semisimple groups, Princeton Landmarks in Mathematics,
+     Princeton University Press, Princeton, NJ, 2001, An overview based on examples, Reprint of the 1986
+     original. MR1880691
+[24] Anthony W. Knapp and Gregg J. Zuckerman, Classification of irreducible tempered representations of
+     semisimple groups, Ann. of Math. (2) 116 (1982), no. 2, 389–455. MR672840
+[25]           , Classification of irreducible tempered representations of semisimple groups. II, Ann. of Math.
+       (2) 116 (1982), no. 3, 457–501. MR678478
+
+                                                       14
+[26] Johan A. C. Kolk and Veeravali S. Varadarajan, On the transverse symbol of vectorial distributions and
+     some applications to harmonic analysis, Indag. Math. (N.S.) 7 (1996), no. 1, 67–96. MR1621372
+[27] Vincent Lafforgue, K-théorie bivariante pour les algèbres de Banach et conjecture de Baum-Connes,
+     Inventiones Mathematicae 149 (2002), no. 1, 1–95.
+[28] George W. Mackey, Imprimitivity for representations of locally compact groups. I, Proc. Nat. Acad. Sci.
+     U. S. A. 35 (1949), 537–545. MR0031489
+[29]           , Unitary representations of group extensions. I, Acta Math. 99 (1958), 265–311. MR0098328
+[30]          , On the analogy between semisimple Lie groups and certain related semi-direct product groups,
+       Lie groups and their representations (Proc. Summer School, Bolyai János Math. Soc., Budapest, 1971),
+       Halsted, New York, 1975, pp. 339–363. MR0409726
+[31] Jouko Mickelsson and Jiřı́ Niederle, Contractions of representations of de Sitter groups, Comm. Math.
+     Phys. 27 (1972), 167–180. MR0309502
+[32] Narasimhaiengar Mukunda, Expansions of Lie groups and representations of SL(3, C), J. Mathematical
+     Phys. 10 (1969), 897–911. MR0246583
+[33] Cary Rader, Spherical functions on Cartan motion groups, Trans. Amer. Math. Soc. 310 (1988), no. 1,
+     1–45. MR965746
+[34] François Rouvière, Symmetric spaces and the Kashiwara-Vergne method, Lecture Notes in Mathematics,
+     vol. 2115, Springer, Cham, 2014. MR3307324
+[35] Susana A. Salamanca-Riba and David A. Vogan, Jr., On the classification of unitary representations of
+     reductive Lie groups, Ann. of Math. (2) 148 (1998), no. 3, 1067–1133. MR1670073
+[36] Eugene J. Saletan, Contraction of Lie groups, J. Mathematical Phys. 2 (1961), 1–21. MR0127213
+[37] Irving E. Segal, A class of operator algebras which are determined by groups, Duke Math. J. 18 (1951),
+     221–265. MR0045133
+[38] Diana Shelstad, L-indistinguishability for real groups, Math. Ann. 259 (1982), no. 3, 385–430.
+     MR661206
+[39] Birgit Speh and David A. Vogan, Jr., Reducibility of generalized principal series representations, Acta
+     Math. 145 (1980), no. 3-4, 227–299. MR590291
+[40] David A. Vogan, Jr., Classification of the irreducible representations of semisimple Lie groups, Proc. Nat.
+     Acad. Sci. U.S.A. 74 (1977), no. 7, 2649–2650. MR0453930
+[41]           , The algebraic structure of the representation of semisimple Lie groups. I, Ann. of Math. (2) 109
+       (1979), no. 1, 1–60. MR519352
+[42]          , Representations of real reductive Lie groups, Progress in Mathematics, vol. 15, Birkhäuser,
+       Boston, Mass., 1981. MR632407
+[43]        , Unitarizability of certain series of representations, Ann. of Math. (2) 120 (1984), no. 1, 141–187.
+       MR750719
+[44]          , Classifying representations by lowest K-types, Applications of group theory in physics and math-
+       ematical physics (Chicago, 1982), Lectures in Appl. Math., vol. 21, Amer. Math. Soc., Providence, RI,
+       1985, pp. 269–288. MR789294
+[45]           , A Langlands classification for unitary representations, Analysis on homogeneous spaces and
+       representation theory of Lie groups, Okayama–Kyoto (1997), Adv. Stud. Pure Math., vol. 26, Math. Soc.
+       Japan, Tokyo, 2000, pp. 299–324. MR1770725
+[46]           , Branching to a maximal compact subgroup, Harmonic analysis, group representations, automor-
+       phic forms and invariant theory, Lect. Notes Ser. Inst. Math. Sci. Natl. Univ. Singap., vol. 12, World Sci.
+       Publ., Hackensack, NJ, 2007, pp. 321–401. MR2401817
+
+
+                                                        15
+[47] Nolan R. Wallach, Real reductive groups. I, Pure and Applied Mathematics, vol. 132, Academic Press,
+     Inc., Boston, MA, 1988. MR929683
+[48] Antony Wassermann, Une démonstration de la conjecture de Connes-Kasparov pour les groupes de Lie
+     linéaires connexes réductifs, C. R. Acad. Sci. Paris Sér. I Math. 304 (1987), no. 18, 559–562. MR894996
+[49] Alan Weinstein, Poisson geometry of the principal series and nonlinearizable structures, J. Differential
+     Geom. 25 (1987), no. 1, 55–73. MR873455
+[50] Eugene Wigner, On unitary representations of the inhomogeneous Lorentz group, Ann. of Math. (2) 40
+     (1939), no. 1, 149–204. MR1503456
+
+
+
+
+                                                      16
+

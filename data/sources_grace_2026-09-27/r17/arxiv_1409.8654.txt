@@ -1,0 +1,2118 @@
+                                                  Parabolic induction and restriction via
+
+
+
+
+arXiv:1409.8654v3 [math.RT] 11 Dec 2015
+                                                   C ∗-algebras and Hilbert C ∗-modules
+                                                     Pierre Clare            Tyrone Crisp ∗            Nigel Higson †
+
+
+                                                                                  Abstract
+                                                       This paper is about the reduced group C ∗ -algebras of real reduc-
+                                                  tive groups, and about Hilbert C ∗ -modules over these C ∗ -algebras. We
+                                                  shall do three things. First we shall apply theorems from the tempered
+                                                  representation theory of reductive groups to determine the structure of
+                                                  the reduced C ∗ -algebra (the result has been known for some time, but
+                                                  it is difficult to assemble a full treatment from the existing literature).
+                                                  Second, we shall use the structure of the reduced C ∗ -algebra to de-
+                                                  termine the structure of the Hilbert C ∗ -bimodule that represents the
+                                                  functor of parabolic induction. Third, we shall prove that the parabolic
+                                                  induction bimodule admits a secondary inner product, using which we
+                                                  can define a functor of parabolic restriction in tempered representation
+                                                  theory. We shall prove in a sequel to this paper that parabolic restric-
+                                                  tion is adjoint, on both the left and the right, to parabolic induction
+                                                  in the context of tempered unitary Hilbert space representations.
+
+
+                                          1       Introduction
+                                          The unitary dual Gb of a locally compact group G may be topologized through
+                                          the uniform convergence on compact sets of matrix coeﬃcient functions. The
+                                          reduced dual is the closed subset of Gb consisting of (equivalence classes of)
+                                          irreducible unitary representations that are weakly contained in the regular
+                                          representation on L2 (G). The unitary dual identiﬁes naturally, as a topo-
+                                          logical space, with the spectrum of the group C ∗ -algebra C ∗ (G), while the
+                                              ∗
+                                                Partially supported by the Danish National Research Foundation through the Centre
+                                          for Symmetry and Deformation (DNRF92).
+                                              †
+                                                Partially supported by the US National Science Foundation DMS-1101382.
+
+                                                                                      1
+reduced dual identiﬁes with the spectrum of the reduced group C ∗ -algebra
+Cr∗ (G), which is the operator norm-closure of the L1 -convolution algebra of
+G inside the algebra of bounded operators on L2 (G). For all this see [Dix77]
+or [BdlHV08, Appendix F].
+     The purpose of this paper is to examine the structure of the reduced dual
+and the reduced group C ∗ -algebra in the case of a real reductive group, for
+which the irreducible representations in the reduced dual are precisely Harish-
+Chandra’s irreducible tempered representations; see for example [CHH88].
+We shall pay special attention to the functor of parabolic induction, which
+is not surprising given the dominant role that parabolic induction plays in
+constructing irreducible tempered representations.
+     Let G be a real reductive group and let P be a parabolic subgroup
+with Levi factor L (the precise class of groups that we shall consider is
+described in Section 3). We shall approach parabolic induction through
+the (Cr∗ (G), Cr∗ (L))-correspondence introduced in [Cla13] (the notation used
+there was E(G/N); here we shall use Cr∗ (G/N)). The general properties
+of this correspondence, especially the fact that Cr∗ (G) acts on Cr∗ (G/N) by
+compact operators (in the Hilbert module sense), contribute in a very helpful
+way to the determination of the structure of Cr∗ (G). In the reverse direction,
+once the structure of the reduced C ∗ -algebra has been determined, it is not
+diﬃcult to determine the structure of the correspondence.
+     The problems of determining the unitary dual or the reduced dual as
+topological spaces, and of determining the structure of the associated C ∗ -
+algebras, have a long history. To give just a sampling of interesting advances
+we oﬀer the list [Fel60, Lip70, Mil73, BM76, PP83, Val85, Was87]. The ﬁnal
+paper in the list, a short announcement by Wassermann, gives in some sense
+the ﬁnal word on the subject in the case of the reduced C ∗ -algebra. But it
+relies on a short announcement [Art75] by Arthur on the structure of the
+Harish-Chandra Schwartz algebra of a real reductive group, and neither of
+Wassermann’s nor Arthur’s announcements were followed by detailed pub-
+lished accounts. Because of this, and because in any case a direct approach
+through C ∗ -algebras, rather than Schwartz algebras, is a bit more economical
+(see for example the use of elementary C ∗ -algebra ideas in Lemmas 5.10, 5.12
+and 5.14), we felt it worthwhile to provide an account of the matter here.
+     We should emphasize the obvious, that the structure theorem for Cr∗ (G)
+relies very heavily on results from tempered representation theory, due mostly
+to Harish-Chandra and Langlands. Our contribution is to indicate how the
+structure of Cr∗ (G) can be obtained as a relatively simple consequence of
+
+                                      2
+these results.
+     Actually our main interest is parabolic induction, not the structure of
+Cr∗ (G), and in our view the main contribution of this paper lies there. It is
+shown in [Cla13] that if Hτ is the Hilbert space of a tempered representation
+τ of L, then the Hilbert module tensor product
+
+                             Cr∗ (G/N) ⊗Cr∗ (L) Hτ ,
+
+which is a Hilbert space carrying a representation of Cr∗ (G), is the representa-
+tion of G parabolically induced from τ . In the ﬁnal part of this paper we shall
+construct a functor of parabolic restriction, from tempered representations of
+G to tempered representations of L.
+    To do so we shall study the adjoint module Cr∗ (N\G) = Cr∗ (G/N)∗ . As a
+vector space this is simply the complex conjugate of Cr∗ (G/N), and we equip
+it with the structure of a Cr∗ (L)-Cr∗ (G)-bimodule using the formula
+
+                                b · e · a = a∗ eb∗ .
+
+Our main observation is that Cr∗ (N\G) carries a compatible (Cr∗ (L), Cr∗ (G))-
+correspondence structure, namely a compatible, complete, Cr∗ (G)-valued in-
+ner product, hence a secondary norm which is equivalent to the original one.
+We can then deﬁne parabolic restriction using the Hilbert module tensor
+product
+                           Cr∗ (N\G) ⊗Cr∗ (G) Hπ ,
+which carries tempered representations of G to tempered representations of
+L. The details are given in Section 8. It is not diﬃcult to calculate the
+functor, given all the structure theory in the preceding sections, and we
+shall give some examples in Section 8. But the most important feature of
+the parabolic restriction functor is that it is both left and right adjoint to
+the functor of parabolic induction between categories of tempered unitary
+representations. This we shall prove in a separate paper [CCH14] (the proof
+is not diﬃcult, but it involves a quite diﬀerent set of ideas from operator
+space theory that would be a bit out of place in the present paper).
+    Of course, the presence of an adjoint to parabolic induction on both
+sides calls to mind Bernstein’s second adjoint theorem in the representation
+theory of p-adic reductive groups [Ber92, Chapter 3]. We hope to return
+to the relationship between the second adjoint theorem and our bimodule
+elsewhere (for a few preliminary comments, see Remark 8.9 in this paper).
+
+                                         3
+But at the moment, a full understanding of the parabolic restriction functor
+introduced here is beyond our reach. It would be especially interesting to
+obtain a geometric perspective on parabolic restriction and the second adjoint
+theorem in the real case (compare [BK11] for the p-adic case).
+    In the ﬁnal section of the paper we shall explain the relation between
+our parabolic restriction functor and the Plancherel formula. Using Harish-
+Chandra’s wave packets we give a simple explicit formula for the Cr∗ (G)-
+valued inner product on (a dense subspace of) Cr∗ (N\G).
+
+
+2       Compact Operators on Hilbert Modules
+Throughout the paper we shall use the language of Hilbert modules over
+C ∗ -algebras. For background information we refer the reader to [Lan95].1 In
+this section we shall ﬁx some terminology and notation, and describe some
+specialized ideas concerning group actions that will soon feature prominently.
+
+Compact Operators
+2.1 Definition. Let C be a C ∗ -algebra, and let H1 and H2 be Hilbert C-
+modules. We shall denote by B(H1 , H2 ) the space of bounded operators
+T : H1 → H2 that possess an adjoint T ∗ : H2 → H1 , characterized by the
+usual formula
+                         hT v1 , v2 i = hv1 , T ∗ v2 i
+for all v1 ∈ H1 and all v2 ∈ H2 . We say that T is adjointable if it possesses
+an adjoint.
+2.2 Definition. An adjointable operator in B(H1 , H2 ) is compact if it lies
+in the operator norm-closure of the linear span of the elementary operators
+                               v2 ⊗ v1∗ : v 7→ v2 hv1 , vi
+determined by vectors v1 ∈ H1 and v2 ∈ H2 . We shall denote by K(H1 , H2 )
+the closed subspace in B(H1 , H2 ) consisting of all compact operators.
+    See [Lan95, Chapter 1]. The algebra K(H) of all compact operators on
+a single Hilbert C-module H is in fact a C ∗ -algebra (so is the algebra of all
+bounded, adjointable operators, but this will play a lesser role).
+    Whereas the term Hilbert C ∗ -module is used in [Lan95], here we shall use the con-
+    1
+
+tracted form Hilbert module.
+
+                                           4
+Group Actions
+Let H be a Hilbert module over a C ∗ -algebra C. We shall need to consider
+group actions on the C ∗ -algebra K(H) that are constructed from the following
+sorts of automorphisms of H:
+
+2.3 Definition. By a twisted unitary automorphism of H we shall mean the
+following data:
+
+(a) an automorphism c 7→ α(c) of the C ∗ -algebra C, and
+
+(b) a complex-linear automorphism v 7→ U(v) of H, with the property that
+
+      (i) U(vc) = U(v)α(c) for all v ∈ H, all c ∈ C, and
+     (ii) hU(v1 ), U(v2 )i = α(hv1 , v2 i) for all v1 , v2 ∈ H.
+
+We shall say that the automorphism U : H → H covers the C ∗ -algebra au-
+tomorphism α : C → C.
+
+2.4 Example. Let X be a locally compact space, and let
+
+                                   w : X −→ X
+
+be a homeomorphism. Let E be an equivariant Hermitian vector bundle over
+X, and let
+                             w̃ : E −→ E
+be a homeomorphism that covers w and is ﬁberwise a unitary vector space
+isomorphism. Let C = C0 (X) and let H be the Hilbert C-module of contin-
+uous sections of E vanishing at inﬁnity on X. Then the formulas
+
+         αw (f )(x) = f (w −1x) and Uw̃ (v)(x) = w̃(v(w −1x)) ∈ Ex
+
+deﬁne a twisted unitary automorphism of H.
+
+2.5 Definition. Suppose that u is a unitary element in C, or in the multiplier
+algebra of C; see [Ped79, Section 3.12] or [Lan95, Chapter 2]. The multiplier
+C ∗ -algebra contains C as a closed, two-sided ideal, and the right C-action on
+H extends uniquely to the multiplier algebra. Because of this, we can deﬁne
+a twisted unitary automorphism of H as follows:
+
+(a) α(c) = ucu∗ for all c ∈ C, and
+
+                                          5
+(b) U(v) = vu∗ for all v ∈ H.
+
+We shall call U an inner twisted unitary automorphism of H.
+
+   Every twisted unitary automorphism g = (α, U) of a Hilbert module H
+induces an ordinary C ∗ -algebra automorphism
+
+                               Adg : K(H) −→ K(H),
+
+since if an operator T : H → H is compact in the sense of Deﬁnition 2.2, then
+so is the composition
+
+(2.1)                    Adg (T ) = U ◦ T ◦ U −1 : H −→ H.
+
+In fact
+
+(2.2)                      g(v2 ⊗ v1∗ ) = U(v2 ) ⊗ U(v1 )∗ .
+
+2.6 Lemma. If g is an inner automorphism of H, then the induced auto-
+morphism Adg of K(H) is the identity automorphism.
+
+   Assume now that a group W acts by automorphisms2 on the C ∗ -algebra
+C. Assume that associated to each element w ∈ W we are given a twisted
+unitary automorphism
+                             Uw : H −→ H
+that covers w. In addition, assume that for all w, z ∈ W the composition
+                                      wU   z    U
+                                   H −→ H −→ H
+
+is the composition of Uzw with an inner automorphism (on either the left
+or the right). Necessarily3 the inner automorphism covers the identity auto-
+morphism of C; that is, it is constructed, as in Deﬁnition 2.5, from a central
+unitary u in C or in the multiplier algebra of C.
+
+2.7 Definition. In this situation we shall say that the group W acts projec-
+tively on the Hilbert module H.
+   2
+     More generally we could consider an action by outer automorphisms, that is, an action
+modulo inner automorphisms. But this extra generality will not be needed for the examples
+we shall consider in this paper.
+   3
+     This would not be so if we were considering outer actions; see the previous footnote.
+
+
+                                            6
+   Such a projective action of W on H induces an ordinary action of W by
+ ∗
+C -algebra automorphisms on K(H), and we shall be studying throughout
+the paper the associated ﬁxed-point algebra:
+2.8 Definition. We shall denote by K(H)W the ﬁxed-point C ∗ -subalgebra
+of K(H) under the above action.
+2.9 Remark. Given any projective action we can form the group extension
+
+(2.3)                              f −→ W −→ 1,
+                    1 −→ Inn(H) −→ W
+
+in which Inn(H) is the group of inner automorphisms of H associated to cen-
+                                                            f is the Cartesian
+tral unitary elements of C or its multiplier algebra, while W
+product Inn(H) × W as a set, but with group structure
+
+                        (U1 , w1 )(U2 , w2 ) = (U12 , w1 w2 )
+
+where
+                    U1 Uw1 U2 Uw2 = U12 Uw1 w2 : H −→ H.
+                                                           f on H by twisted
+There is then an actual (rather than projective) action of W
+unitary automorphisms. The ﬁxed point algebras associated to W    f and W
+are the same.
+
+Hilbert Correspondences and Tensor Products
+2.10 Definition. Let B and C be C ∗ -algebras and let H be a Hilbert
+C-module. We shall call H a correspondence from B to C, or a (B, C)-
+correspondence if it is equipped with an action homomorphism of C ∗ -algebras
+
+(2.4)                             B −→ B(H).
+
+2.11 Definition. Let E be a Hilbert B-module and let H be a correspon-
+dence from B to C. The interior tensor product E ⊗B H is constructed from
+the algebraic tensor product E ⊗alg
+                                B H by completion in the norm associated
+to the C-valued inner product
+
+                    e1 ⊗ v1 , e2 ⊗ v2 C = v1 , he1 , e2 iB v2 C .
+
+On the right hand side, the element he1 , e2 iB ∈ B is regarded as an operator
+on H via the action homomorphism (2.4).
+
+                                         7
+   See [Lan95, Proposition 4.5] for details. If E is a Hilbert correspondence
+from A to B, then the interior tensor product is a correspondence from A to
+C.
+
+2.12 Lemma. If E is a Hilbert B-module, if B acts on a Hilbert C-module
+H through compact operators, and if S is a compact operator on E, then S ⊗I
+is a compact operator on E ⊗B H.
+
+Proof. This follows directly from [Lan95, Proposition 4.7].
+   For the rest of this section we shall be concerned with the situation in
+which a ﬁnite group W acts projectively on a Hilbert C-module H by twisted
+unitary automorphisms, as in the previous section. We shall take
+
+(2.5)                           B = K(H)W ,
+
+which acts on H in the obvious way and gives H the structure of a corre-
+spondence from B to C.
+    We shall examine the structure of the interior tensor product E ⊗B H in
+this case, and the structure of the C ∗ -algebra K(E ⊗B H) of compact operators
+on the tensor product.
+
+2.13 Lemma. If H and B are as above, then the formula
+
+                           Uw (e ⊗ v) = e ⊗ Uw (v)
+
+defines a projective action of W by twisted unitary automorphisms on the
+interior tensor product E ⊗B H.
+
+Proof. The action on the algebraic tensor product is isometric in the interior
+tensor product norm, and so extends to the completion E ⊗B H. The com-
+patibility conditions in Deﬁnition 2.3 can be checked on the algebraic tensor
+product, and then they extend by continuity to the completion.
+   Now let e ∈ E. The formula
+
+(2.6)                           Te : v 7→ e ⊗ v
+
+deﬁnes an operator Te : H → E ⊗B H with adjoint
+
+(2.7)                       Te∗ : f ⊗ v 7→ he, f iv.
+
+                                       8
+2.14 Lemma. Each of the operators Te in (2.6) is compact and W -equivariant.
+Proof. The W -equivariance of Te is clear from the deﬁnition of the action
+in Lemma 2.13. Assuming, as we are in (2.5), that B acts on H through
+compact operators, the composition
+
+                               Te∗ Te : v 7→ he, eiv
+
+is evidently compact. Therefore Te is compact, too.
+   Now consider the map
+
+(2.8)                        E −→ K(H, E ⊗B H)W
+
+that sends e ∈ E to the compact operator Te . Consider the target space as a
+Hilbert B-module under the inner product
+
+                          hS, T i = S ∗ T ∈ K(H)W .
+
+2.15 Proposition. The map (2.8) is an isometric isomorphism of Hilbert
+B-modules.
+Proof. Consider the diagram of isometric isomorphisms of Hilbert B-modules
+                         ∼
+                         =               ∼
+                                         =
+                      E ←− E ⊗B B −→ E ⊗B K(H)W ,
+
+in which the left-hand map is multiplication and the right-hand map simply
+recalls the deﬁnition of B in (2.5). Using the isomorphisms, we can think of
+(2.8) as a map
+                     E ⊗B K(H)W −→ K(H, E ⊗B H)W .
+On elementary tensors the map has the form
+
+                       e ⊗ (v1 ⊗ v2∗ ) 7→ (e ⊗ v1 ) ⊗ v2∗ ,
+
+It preserves inner products and has dense range, so it is an isometric isomor-
+phism.
+   We turn now to a description of K(E). The formula S 7→ S ⊗ I deﬁnes a
+homomorphism of C ∗ -algebras
+
+(2.9)                        K(E) −→ B(E ⊗B H).
+
+See [Lan95, p.42].
+
+                                        9
+2.16 Lemma. The operators S ⊗ I are compact and W -invariant.
+Proof. The W -invariance is clear. Compactness is a consequence of Lemma 2.12.
+
+
+2.17 Proposition. The map S 7→ S ⊗ I determines an isomorphism of
+C ∗ -algebras
+                            ∼
+                            =
+                      K(E) −→ K(E ⊗B H)W .
+2.18 Remark. The value of this result is that in our application the C ∗ -
+algebra C will have a very simple structure—in fact it will be abelian, and
+it will be easy to calculate the tensor product E ⊗B H.
+Proof of the Proposition. It is proved in [Lan95, Proposition 4.7] that the
+homomorphism is injective, and moreover it is proved there that the homo-
+morphism is an isomorphism when W is trivial. The following small modiﬁ-
+cation of the argument in [Lan95] handles surjectivity in the general case. It
+suﬃces to show that the operator
+                                              
+(2.10)         Average (e2 ⊗ v2 ) ⊗ (e1 ⊗ v1 )∗ ∈ K(E ⊗B H)W
+lie in the image of our homomorphism of C ∗ -algebras, where the average is
+taken over the W -action on compact operators. The operator (2.10) acts on
+E ⊗B H as follows:
+                         1 X
+(2.11)        e ⊗ v 7→           e2 ⊗ Uw (v2 ) Uw (v1 ), he1 , ei v .
+                        |W | w∈W
+
+Here, in the case of a projective action, we lift each element w ∈ W to an
+element of the group Wf in (2.3) before acting on H; the choice of lift does
+not aﬀect the formula. Using (2.2) we can rewrite (2.11) as
+                 e ⊗ v 7→ e2 ⊗ Average[v2 ⊗ v1∗ ] · he1 , ei · v,
+
+or equivalently (since the tensor product is over B = K(H)W )
+                 e ⊗ v 7→ e2 · Average[v2 ⊗ v1∗ ] ⊗ he1 , ei · v.
+But this is the formula for the action of the operator S ⊗ I, where
+                    S = e2 Average[v2 ⊗ v1∗ ] ⊗ e∗1 ∈ K(E),
+and so the proof is complete.
+
+                                       10
+Direct Sums
+In the coming sections the C ∗ -algebras B of concern to us, namely the reduced
+group C ∗ -algebras of reductive groups, will be direct sums of C ∗ -algebras of
+the type K(H)W considered in the last section. Thus we shall be considering
+C ∗ -algebras of the form
+                               M         M
+(2.12)                    B=       Bα =      K(Hα )Wα .
+                               α             α
+
+The direct sum is to be taken in the C ∗ -algebraic sense, which is to say that
+B is the completion of the algebraic direct sum in the supremum norm. The
+C ∗ -algebra operations are deﬁned coordinatewise.
+     If E is a Hilbert module over B = ⊕α Bα , then E decomposes in a unique
+way as a direct sum
+                                      M
+(2.13)                            E=      Eα ,
+                                         α
+
+with Eα a Hilbert module over Bα . Once again, the direct sum here is the
+completion of the algebraic direct sum in the supremum norm, and all op-
+erations are deﬁned pointwise (so for example distinct summands of E are
+orthogonal to one another, and the inner product of two elements from a
+single summand Eα lies in the summand Bα of B).
+    In the situation displayed in (2.12), applying Proposition 2.15 coordinate-
+wise we obtain an isomorphism
+                            ∼
+                            =
+                               M
+(2.14)                   E −→       K(Hα , E ⊗B Hα )Wα ,
+                                α
+
+which describes the summands Eα . Here Hα is given a left action of B through
+the projection
+                         B −→ Bα = K(Hα )Wα .
+Similarly, applying Proposition 2.17 coordinatewise we obtain an isomor-
+phism
+                             ∼
+                             =
+                                M
+(2.15)                K(E) −→       K(Eα ⊗B Hα )Wα .
+                                    α
+
+
+
+
+                                        11
+3    Reductive Groups and Parabolic Subgroups
+We shall not attempt to strive for the utmost generality in the class of groups
+we shall consider. Instead we shall aim for (relative) simplicity. This will also
+guarantee that the diverse references that we shall cite in the next several
+sections will actually cover our class of groups.
+    Consider ﬁrst the class of connected, self-adjoint matrix groups. This is
+the class of those closed, connected subgroups of the matrix groups GL(n, R)
+that are invariant under the transpose operation on matrices. Given such a
+group G ⊆ GL(n, R), the connected Lie subgroup GC ⊆ GL(n, C) whose Lie
+algebra is the complexiﬁcation of the Lie algebra of G is a connected (in the
+algebraic sense [Hum75, §7.3]) reductive algebraic group deﬁned over R. The
+group G is an open subgroup (in the usual analytic topology on matrices)
+in the group of real points of this algebraic group. The group of all real
+points need not itself be connected, although it has at most ﬁnitely many
+components.
+    Although connectedness is a natural assumption, for technical reasons it
+will be more convenient to work with the full group of real points. So from
+now on, we shall let G ⊆ GL(n, R) be a self-adjoint group which is also the
+group of real points of a connected (and necessarily reductive) algebraic group
+deﬁned over R. For brevity, we shall simply say that G is a real reductive
+group.
+    This convention excludes some examples that we might otherwise consider
+(for instance the group of all matrices with positive determinant), but it has
+the winning advantage for us that the class of groups under consideration
+now is closed under passage to the standard Levi subgroups whose deﬁnition
+we shall recall in a moment.
+3.1 Definition. Let K = G ∩ O(n), which is a maximal compact subgroup
+of G [Kna86, Proposition 1.2].
+3.2 Definition. Let A be a maximal abelian subgroup of positive-deﬁnite
+matrices in G.
+3.3 Remark. The group A is not unique, but it is unique up to conjugacy
+by an element of K [Kna02, Chap. VII].
+   The positive-deﬁnite group A is isomorphic to its Lie algebra a via the
+exponential map. We can use elements of a to deﬁne standard Levi subgroups
+of G, as follows.
+
+                                       12
+3.4 Definition. The standard Levi subgroups of G (for a given choice of
+subgroup A ⊆ G) are the subgroups of the form
+           L = LX = { g ∈ G : exp(tX)g exp(−tX) = g ∀t ∈ R },
+associated to elements X ∈ a. They are real reductive groups.
+    There is a dense open set of elements X ∈ a that all deﬁne the same
+group L. This particular L is minimal in dimension among all standard Levi
+subgroups and indeed is contained in every other standard Levi subgroup
+(for example, if G = GL(n, R), and if A is the group of positive diagonal
+matrices, then all X with distinct diagonal entries deﬁne the same standard
+Levi subgroup of diagonal matrices). Fix a connected component of this
+dense open set in a, and call it the positive chamber a+ ⊆ a (there are
+ﬁnitely many choices).
+3.5 Definition. The standard unipotent subgroups of G (for a given choice
+positive-deﬁnite group A and positive chamber a+ ⊆ a) are the closed sub-
+groups
+            N = NX = { g ∈ G : lim exp(tX)g exp(−tX) = e },
+                                  t→+∞
+
+associated to elements X ∈ a+ . The standard parabolic subgroups of G are
+the closed subgroups
+                        P = PX = LX NX = LN,
+associated to elements X ∈ a+ .
+   It is obvious from the deﬁnitions that L normalizes N, so the product P =
+LN is indeed a subgroup, isomorphic to the semidirect product of L acting
+on N by conjugation. In fact P is a closed subgroup of G, diﬀeomorphic to
+the Cartesian product of the spaces L and N [Kna02, Chap. VII §7].
+3.6 Example. If G = GL(n, R), and if a+ consists of diagonal matrices
+whose entries increase down the diagonal, then the standard parabolic sub-
+groups are the various block upper triangular subgroups (for the various
+possible sequences of block sizes). Their Levi factors L are the block diag-
+onal groups, and the unipotent subgroups N are the block unipotent upper
+triangular subgroups.
+3.7 Remark. Diﬀerent choices of chamber a+ ⊆ a are conjugate to one
+another via elements of K that normalize a. As a result, diﬀerent choices of
+chamber lead to conjugate families of standard parabolic subgroups.
+
+                                     13
+4       Parabolic Induction
+Fix throughout this section a real reductive group G (along with a choice
+of positive-deﬁnite subgroup A and positive chamber a+ ). In addition, ﬁx a
+standard parabolic subgroup P = LN ⊆ G, as in the previous section.
+    Apart from being a subgroup of P = L ⋉ N, the Levi factor L = P/N
+is also a quotient. So if τ : L → U(H) is a unitary representation of L, then
+we can consider τ as a representation of P too, and so form the unitarily
+induced representation
+                            IndG               G
+                               P τ : G −→ U(IndP H).
+
+This is the functor of parabolic induction, going from unitary representations
+of L to unitary representations of G, and its behaviour on tempered unitary
+representations will be our main concern in the rest of the paper.
+    We shall now recall the construction of the (Cr∗ (G), Cr∗ (L))-correspondence
+  ∗
+Cr (G/N) from [Cla13, Section 2], and then prove a few elementary facts
+about it.
+    As a Banach space, Cr∗ (G/N) is a completion of the space of smooth,
+compactly supported functions on the homogeneous space G/N. There is a
+G-invariant smooth measure on G/N, which is unique up to a multiplicative
+constant. We choose it with respect to the ﬁxed Haar measures on G and N
+so that             Z              Z    Z
+                        f (g) dg =          f (gn) dn d(gN)
+                      G             G/N        N
+
+for any measurable function f . By G-invariance the natural left translation
+action of G on Cc∞ (G/N) is unitary for the L2 -inner product. There is an
+associated convolution action
+                     Cc∞ (G) ⊗ Cc∞ (G/N) −→ Cc∞ (G/N)
+deﬁned by the usual formula
+                                      Z
+(4.1)               (f0 ∗ f )(gN) =           f0 (γ)f (γ −1 gN) dγ.
+                                          G
+
+    The G-invariant measure on G/N is not invariant for the natural right
+action of the Levi factor L. Instead there is a character δ : L → R×
+                                                                   + such that
+                     Z                         Z
+                                            −1
+                           f (xℓ) dx = δ(ℓ)        f (x) dx
+                      G/N                            G/N
+
+
+                                          14
+for all f ∈ Cc∞ (G/N) and all ℓ ∈ L. In fact
+
+(4.2)                     δ(ℓ) = |det (Adℓ : n → n)| .
+
+But if we adjust the right action of L on the function space Cc∞ (G/N) by
+means of the formula
+                                                             1
+                          (f · ℓ)(x) = δ(ℓ)− 2 f (xℓ−1 ),
+
+then we obtain a unitary action for the natural L2 -inner product. There is
+an associated convolution action
+
+                     Cc∞ (G/N) ⊗ Cc∞ (L) −→ Cc∞ (G/N)
+
+deﬁned by                            Z
+                                                         1
+                    (f ∗ f1 )(x) =         δ(ℓ)− 2 f (xℓ−1 )f1 (ℓ) dℓ
+                                     ZL
+                                                     1
+                                 =         δ(ℓ) 2 f (xℓ)f1 (ℓ−1 ) dℓ,
+                                      L
+
+where the integrals are equal because L is unimodular. Finally, a Cc∞ (L)-
+valued inner product is deﬁned on Cc∞ (G/N) by
+                                          Z
+                                        1
+                    hh, f i : ℓ 7→ δ(ℓ) 2   h(x)f (xℓ) dx,
+                                                    G/N
+
+or equivalently
+                                                Z
+                                         − 21
+                   hh, f i : ℓ 7→ δ(ℓ)                       h(xℓ−1 )f (x) dx
+                                                 G/N
+
+(the integrands are compactly supported functions because the right action
+of L on the homogeneous space G/N is proper, which in turn follows from
+the fact that LN is a closed subgroup of G). All these structures extend by
+completion to give the Hilbert module Cr∗ (G/N). See [Cla13, Proposition 1].
+
+4.1 Remark. In [Cla13], the Hilbert module Cr∗ (G/N) is shown to admit a
+left action of the full group C ∗ -algebra C ∗ (G). To see that the left action
+factors through Cr∗ (G), let f0 ∈ Cc∞ (G) and let
+
+                          T : Cr∗ (G/N) −→ Cr∗ (G/N)
+
+                                                15
+be the convolution operator determined by the formula (4.1). We need to
+prove that the operator norm of T is bounded by the reduced C ∗ -algebra
+norm of f0 .
+   Let ψ be a faithful state of Cr∗ (L). The formula
+                                                            
+                       hf1 , f2 iψ = ψ hf1 , f2 iCr∗ (G/N )
+
+deﬁnes a scalar inner product on Cr∗ (G/N). Denote by Cr∗ (G/N)ψ the as-
+sociated Hilbert space completion. Each bounded, adjointable operator on
+Cr∗ (G/N) extends to a bounded operator on Cr∗ (G/N)ψ , and the localization
+map
+                     B(Cr∗ (G/N)) −→ B(Cr∗ (G/N)ψ )
+deﬁned in this manner is an injective, and hence isometric, homomorphism
+of C ∗ -algebras; see [Lan95, page 55].
+    Returning to the matter at hand, it follows that the norms of T as an
+operator on Cr∗ (G/N) and on Cr∗ (G/N)ψ are equal. But the representation
+of C ∗ (G) on Cr∗ (G/N)ψ is easily checked to be weakly contained in L2 (G/N),
+and the representation of C ∗ (G) on this Hilbert space factors through Cr∗ (G)
+because N is amenable.
+   The signiﬁcance of the correspondence Cr∗ (G/N) is that it implements
+the functor of parabolic induction:
+4.2 Proposition. (See [Cla13, Corollary 1].) Let τ be a tempered unitary
+representation of L on a Hilbert space H. The parabolically induced represen-
+tation IndG
+          P τ is unitarily equivalent to the representation of G on the Hilbert
+        ∗
+space Cr (G/N) ⊗Cr∗ (L) H.
+4.3 Remark. We might call the correspondence Cr∗ (G/N) the C ∗ -algebraic
+universal principal series, following similar terminology that is used in the
+p-adic context; see [BK11].
+4.4 Definition. Let H be a correspondence from Cr∗ (L) to a C ∗ -algebra C.
+We deﬁne the parabolically induced Hilbert module IndG
+                                                     P H to be the Hilbert
+module
+                      IndG        ∗
+                          P H = Cr (G/N) ⊗Cr∗ (L) H.
+
+It is a correspondence from Cr∗ (G) to C.
+4.5 Proposition. The C ∗ -algebra Cr∗ (G) acts by compact operators on the
+Hilbert module Cr∗ (G/N).
+
+                                      16
+Proof. Let f0 ∈ Cc∞ (G) and let f ∈ Cc∞ (G/N). Then
+                                     Z
+                      (f0 ∗ f )(x) =    f0 (γ)f (γ −1 x) dγ
+                                     ZG
+                                   =       k(x, y)f (y) dy,
+                                         G/N
+
+where                                    Z
+                       k(g1 N, g2 N) =         f0 (g1 ng2−1 ) dn.
+                                          N
+The kernel function
+
+(4.3)                       k : G/N × G/N −→ C
+
+deﬁned from f0 by the above integral is δ-homogeneous under the right action
+of L in the sense that
+
+(4.4)                      k(xℓ, yℓ) = δ(ℓ)−1 k(x, y).
+
+Here δ is the character (4.2). So the support of k is an L-invariant closed set
+in G/N × G/N for the diagonal right action of L.
+   We claim that the image of the support of the kernel function k in the
+quotient space (G/N × G/N) /L is a compact set. To see this, consider the
+mapping from G/P × supp(f0 ) to (G/N × G/N) /L given by
+
+(4.5)                   (h1 P, h2 ) 7→ (h1 N, h−1
+                                               2 h1 N)L.
+
+If (g1 N, g2 N) lies in the support of k then there is some n ∈ N for which
+g1 ng2−1 lies in the support of f0 , and then the image of (g1 N, g2 N) in the
+quotient (G/N × G/N) /L is equal to the image of the point (g1 P, g1 ng2−1 )
+under (4.5). Thus the image of the support of k in (G/N × G/N) /L is
+contained in the image of (4.5). But G = KP [Kna02, Proposition 7.83], so
+G/P is compact and (4.5) has compact image.
+    Now, any smooth kernel function as in (4.3) with the homogeneity prop-
+erty (4.4) whose support is compact in (G/N × G/N) /L deﬁnes a bounded,
+adjointable operator on Cr∗ (G/N). We shall show that these operators are
+all compact.
+    Each such kernel function k may be written in the form
+                                     Z
+                           k(x, y) =   u(xℓ, yℓ)δ(ℓ) dℓ
+                                     L
+
+                                         17
+for some u ∈ Cc∞ (G/N × G/N). The function u may be approximated in
+the uniform norm by linear combinations of elementary functions (x, y) 7→
+h1 (x)h2 (y), with all the elementary functions uniformly compactly supported.
+It suﬃces to show that a kernel function
+                                      Z
+                        k(x1 , x2 ) =   h1 (x1 ℓ)h2 (x2 ℓ)δ(ℓ) dℓ
+                                    L
+
+associated to a single elementary function gives rise to a compact operator.
+   The operator in this case maps f ∈ Cc∞ (G/N) to the function
+                        Z    Z
+                   x 7→         h1 (xℓ)h2 (yℓ)δ(ℓ)f (y) dydℓ,
+                          G/N   L
+
+which may be re-written as
+                  Z                  Z
+                           1                               1
+             x 7→     δ(ℓ) 2 h1 (xℓ)           h2 (yℓ)δ(ℓ) 2 f (y) dydℓ.
+                      L                  G/N
+
+This is precisely how the rank one operator
+
+                           h1 ⊗ h∗2 : f 7→ h1 hh2 , f i,
+
+acts.
+
+4.6 Corollary. If Cr∗ (L) acts through compact operators on a Hilbert module
+H, then Cr∗ (G) acts through compact operators on the parabolically induced
+Hilbert module IndG
+                  P H.
+
+Proof. This is a consequence of Proposition 4.5 and Lemma 2.12.
+    The corollary applies to any irreducible unitary Hilbert space represen-
+tation of G as a result of a fundamental theorem of Harish-Chandra (see
+[HC53, Theorem 6, p.230]):
+
+4.7 Theorem. The C ∗ -algebra of a real reductive group acts by compact
+operators in any irreducible unitary representation of G.
+
+4.8 Remark. For proofs of this theorem more congenial to operator algebra
+theory, see [God52, Theorem 2] or [Sti58]. See also [Dix57].
+
+
+
+                                         18
+    Let us now examine the tempered representations of L in more detail.
+The group L factors canonically as a Cartesian product of two closed and
+commuting Lie subgroups. We’ll follow tradition and express this in terms
+of the Langlands decomposition
+                     P = (MP × AP ) ⋉ NP = MP AP NP ,
+where:
+(a) NP = N.
+(b) MP AP = L.
+(c) AP is the group of positive-deﬁnite matrices in the center of L.
+(d) MP may be characterized as the subgroup of L generated by the compact
+    subgroups of L. We shall call it the compactly generated part of L.
+See for example [Kna02, Chap. VII §7]. We ﬁnd that every tempered ir-
+reducible representation of L is a product σ ⊗ ϕ of a tempered irreducible
+representation σ of MP with a unitary character ϕ of AP . We are especially
+interested in the special case where
+                              σ : MP −→ U(Hσ )
+is an irreducible square-integrable unitary Hilbert space representation of MP .
+It is not actually necessary to specialize to square integrable representations
+for the results of this section, but we shall do so anyway, to ﬁx ideas and
+notation for the next two sections. The representations obtained from such
+σ by extending σ ⊗ ϕ to P trivially across N then inducing to G:
+                                 IndG
+                                    P (σ ⊗ ϕ)
+
+are the (unitary) principal series representations of G.
+4.9 Definition. Denote by
+                                        b Hσ )
+                               Hσ = C0 (A,
+                b
+the Hilbert C0 (A)-module of continuous functions, vanishing at inﬁnity, from
+                     b                                     b
+the Pontrjagin dual A into the Hilbert space Hσ . The C0 (A)-module    action
+                                             b
+is by pointwise multiplication, and the C0 (A)-valued inner product is the
+                                                              b
+pointwise inner product of Hilbert space-valued functions on A.
+
+                                      19
+    The C ∗ -algebra Cr∗ (L) acts on Hσ through the family of representations
+σ ⊗ ϕ of L = MA on the Hilbert space Hσ . Thus if f ∈ Cr∗ (L) and h ∈
+C0 ( b
+    A, Hσ ), then
+                          (f · h)(ϕ) = (σ ⊗ ϕ)(f )h(ϕ)
+             b
+for all ϕ ∈ A.
+4.10 Lemma. The C ∗ -algebra Cr∗ (L) acts by compact operators on the Hilbert
+module Hσ .
+Proof. The reduced C ∗ -algebra of L = MA has the form
+                        = Cr∗ (M) ⊗ Cr∗ (A) ∼
+                Cr∗ (L) ∼                                   b
+                                            = Cr∗ (M) ⊗ C0 (A),
+where the ﬁrst isomorphism uses the product structure of L and the sec-
+ond uses the Fourier transform for the abelian group A. The ﬁrst factor in
+Cr∗ (M) ⊗ C0 (A)b acts on C0 (A,
+                              b Hσ ) through compact operators on Hσ , and
+the second factor acts through pointwise multiplications. So the reduced
+                                                    b K(Hσ )). This is the C ∗ -
+C ∗ -algebra of L acts through the C ∗ -algebra C0 (A,
+algebra of compact operators on Hσ = C0 (A,  b Hσ ).
+4.11 Remark. In fact the action map is a surjective homomorphism from
+Cr∗ (L) onto K(Hσ ).
+4.12 Corollary. The C ∗ -algebra Cr∗ (G) acts as compact operators on the
+Hilbert module IndG
+                  P Hσ .
+
+
+
+5    Decomposition of the Reduced C*-Algebra
+In this section we shall use the analysis of the tempered dual, carried out
+mostly by Harish-Chandra and Langlands, to decompose the reduced group
+C ∗ -algebra into a direct sum of component C ∗ -algebras. The decomposition is
+well known, but not especially well documented. In any case, the arguments
+are quite simple and ﬁt well into the Hilbert module context.
+5.1 Definition. Let P be a parabolic subgroup of G, and let σ be an irre-
+ducible, square-integrable representation of the compactly generated part of
+the Levi factor of P . Denote by
+                           Cr∗ (G)P,σ ⊆ K(IndG
+                                             P Hσ )
+
+the image of the C ∗ -algebra Cr∗ (G) under its action as compact operators on
+the Hilbert module IndG  P Hσ . See Corollary 4.12.
+
+
+                                      20
+    Our aim is to show that the natural quotient homomorphisms from Cr∗ (G)
+to the component algebras Cr∗ (G)P,σ determine an isomorphism of C ∗ -algebras
+                                   ∼
+                                   =
+                                      M
+                          Cr∗ (G) −→      Cr∗ (G)P,σ ,
+                                       [P,σ]
+
+where the sum is over representatives of suitable equivalence classes of para-
+bolic subgroups P and irreducible square-integrable representations σ.
+   First, we shall describe the equivalence relation used above on pairs (P, σ).
+5.2 Definition. Two pairs (P1 , σ1 ) and (P2 , σ2 ), each consisting of a (stan-
+dard) parabolic subgroup and an irreducible, square-integrable representa-
+tion of the compactly generated part of the Levi factor of the parabolic,
+are associate if there is an element of G that conjugates the Levi factor of
+P1 to the Levi factor of P2 , and conjugates σ1 to a representation unitarily
+equivalent to σ2 .
+   The relevance of this concept of equivalence stems from the following
+result, which is the ﬁrst of several substantial theorems in representation
+theory that we shall merely quote.
+5.3 Theorem. (See [HC72, Section 11].) If (P1 , σ1 ) and (P2 , σ2 ) are asso-
+ciate, then every parabolically induced representation IndGP1 (σ1 ⊗ ϕ1 ) is uni-
+tarily equivalent to some parabolically induced representation IndGP2 (σ2 ⊗ ϕ2 ).
+
+5.4 Remark. In fact it is also true that the representations of G on the
+Hilbert modules IndG               G
+                     P1 Hσ2 and IndP2 Hσ2 are unitarily equivalent, as we shall
+note in the next section, but this is a more diﬃcult result. Theorem 5.3 is
+proved by computing that the characters of IndG                     G
+                                               P1 (σ1 ⊗ϕ1 ) and IndP2 (σ2 ⊗ϕ2 )
+are equal, but this technique does not apply in the Hilbert module case.
+    Next, we shall need the following theorem of Harish-Chandra [HC66,
+Section 36] (see also [Wal88, Section 7.7] for an exposition) that is the coun-
+terpart, for tempered representations of real reductive groups, of Bernstein’s
+uniform admissibility theorem [Ber92, Section 1.4]. Hence the title we shall
+give it here.
+5.5 Theorem. (Uniform admissibility.) Let G be a reductive group with max-
+imal compact subgroup K. Let τ be an irreducible representation of K. There
+are at most finitely many equivalence classes of irreducible, square-integrable
+representations of the compactly generated part of G whose restrictions to K
+contain τ as a subrepresentation.
+
+                                       21
+5.6 Corollary. Let L = MA be a Levi subgroup of G and form the direct
+sum Hilbert space representation ⊕[σ] Hσ of M, indexed by a set of represen-
+tatives of the unitary equivalence classes of the irreducible, square-integrable
+representations of M. The action of Cr∗ (M) on ⊕[σ] Hσ is through compact
+operators.
+Proof. As p ranges over the isotypical projections associated to irreducible
+representations of K ∩M (a maximal compact subgroup of M) the subspaces
+Cr∗ (M)p span a dense subspace of Cr∗ (M). But according to Theorem 5.5 the
+elements of Cr∗ (M)p act as the zero operator in all but ﬁnitely many of the
+Hilbert spaces Hσ . The result follows from this and from Theorem 4.7.
+                                               b
+5.7 Corollary. Form the direct sum Hilbert C0 (A)-module
+                              M
+                                  IndG
+                                     P Hσ
+                                  [P,σ]
+
+
+indexed by a set of representatives of the associate classes of pairs (P, σ).
+The action of Cr∗ (G) on this Hilbert module is through compact operators.
+Proof. First, ﬁx a standard Levi subgroup, and consider only those parabolics
+P with that Levi factor. As in the proof of Lemma 4.10, it follows from
+Corollary 5.6 that the action of Cr∗ (L) on the orthogonal direct sum Hilbert
+module                    M           M
+                              Hσ =            b Hσ )
+                                          C0 (A,
+                            [σ]            [σ]
+
+is through compact operators. It follows from Proposition 4.5 and Lemma 2.12
+that Cr∗ (G) acts on ⊕[P,σ] IndG
+                               P Hσ through compact operators. The full re-
+sult follows from the fact that there are only ﬁnitely many standard Levi
+subgroups.
+   We obtain from the corollary a homomorphism of C ∗ -algebras
+                                  M
+                      Cr∗ (G) −→     K(IndG
+                                          P Hσ ),
+                                          [P,σ]
+
+and so by deﬁnition a homomorphism
+                                   M
+(5.1)                   Cr∗ (G) −→   Cr∗ (G)P,σ .
+                                           [P,σ]
+
+
+
+                                           22
+5.8 Remark. Of course the important point about (5.1) is that the image
+lies within the C ∗ -algebraic direct sum, consisting of families of elements
+aσ ∈ Cr∗ (G)P,σ with limσ→∞ kaσ k = 0. See for instance [Lan95, p.6].
+
+    Our next task is to compute the image of the homomorphism (5.1). For
+this we shall need the following important theorem of Langlands on the
+disjointness of principal series representations. References for this result are
+[Lan89, p. 142ﬀ.] and [HC72]. See also [Kna86, Theorem 14.90].
+
+5.9 Theorem. (Disjointness) If two principal series representations
+
+                    IndG
+                       P1 (σ1 ⊗ ϕ1 ) and     IndG
+                                                P2 (σ2 ⊗ ϕ2 )
+
+share an irreducible constituent, then there is an element of G that conjugates
+the Levi factor of P1 to the Levi factor of P2 , and conjugates σ1 ⊗ ϕ1 to a
+representation of P2 that is unitarily equivalent to σ2 ⊗ ϕ2 .
+
+    We shall also need to apply some elementary facts from C ∗ -algebra rep-
+resentation theory to (5.1).
+
+5.10 Lemma. The irreducible representations of the C ∗ -algebra C ∗ (G)P,σ ,
+viewed as irreducible representations of G through the quotient mapping
+
+                             Cr∗ (G) −→ Cr∗ (G)P,σ ,
+
+are precisely the irreducible constituents of the principal series representations
+IndG                              b
+   P (σ ⊗ ϕ), as ϕ ranges over A.
+
+Proof. If C is any C ∗ -subalgebra of a C ∗ -algebra B, then every irreducible
+representation of C is equivalent to the restriction of an irreducible represen-
+tation of B to a C-invariant, C-irreducible subspace (see [Dix77, Proposition
+2.10.2]). In the present case, where C = Cr∗ (G)P,σ and B = K(IndG    P Hσ ), the
+irreducible representations of B are the natural representations given by eval-
+uation at ϕ ∈ A b on the Hilbert spaces IndG Hσ⊗ϕ . Indeed, IndG Hσ gives a
+                                              P                     P
+Morita equivalence between B and the commutative C ∗ -algebra C0 (A),  b so the
+irreducible representations of B are exactly those induced from irreducible
+                        b which are in turn given by evaluation maps. To
+representations of C0 (A),
+conclude, observe that IndG                        G
+                                      b Cϕ ≃ IndP Hσ⊗ϕ as Hilbert spaces, so
+                            P Hσ ⊗C0 (A)
+that once restricted to C, this is precisely the principal series representation
+IndGP (σ ⊗ ϕ).
+
+
+                                       23
+5.11 Definition. Let ϕ : A → B be a surjective homomorphism of C ∗ -
+algebras. The support of ϕ is the subset of the dual A      b consisting of all
+irreducible representations that factor through ϕ (that is, they vanish on the
+kernel of ϕ).
+5.12 Lemma. If ϕ1 : A → B1 and ϕ2 : A → B2 are surjective homomor-
+phisms of C ∗ -algebras, and if the support of ϕ1 is disjoint from the support
+of ϕ2 , then the homomorphism
+
+                           ϕ1 ⊕ ϕ2 : A −→ B1 ⊕ B2
+
+is surjective.
+Proof. To say that the supports are disjoint is to say that no irreducible
+representation can vanish on the kernels of both ϕ1 and ϕ2 . But this can only
+happen when the algebraic sum of the kernels, which is in any case a closed,
+two-sided ideal in A, is equal to A (otherwise the quotient C ∗ -algebra A/(J1 +
+J2 ) would have a non-zero irreducible representation). But elementary linear
+algebra shows that if J1 + J2 = A, then the natural projection map
+
+                        ϕ1 ⊕ ϕ2 : A −→ A/J1 ⊕ A/J2
+
+is surjective.
+5.13 Corollary. If ϕk : A → Bk for k = 1, . . . , n are surjective homomor-
+phisms of C ∗ -algebras, and if the supports of the ϕk are pairwise disjoint,
+then the homomorphism
+                            M              M
+                                ϕk : A −→      Bk
+                              k              k
+
+is surjective.
+5.14 Lemma. Let {ϕα : A → Bα } be a family of surjective homomorphisms
+of C ∗ -algebras. Assume that
+(a) the supports of the homomorphisms ϕα are pairwise disjoint, and
+(b) the direct sum ⊕α ϕα maps A into ⊕α Bα . That is,
+
+                                  lim kϕα (a)k = 0
+                                  α→∞
+
+    for every a ∈ A.
+
+                                        24
+Then the homomorphism
+                            M                       M
+                                    ϕα : A −→            Bα
+                                α                    α
+
+that results from (b) is surjective.
+
+Proof. Fix any index α0 and organize the direct sum C ∗ -algebra as
+                         M               M
+                            Bα = Bα0 ⊕        Bα .
+                            α                       α6=α0
+
+To prove the lemma it suﬃces to show that the image of the homomorphism
+⊕ϕα contains all elements in the direct sum that are zero in the second term.
+Let J be the kernel of ϕα0 . The image of J in ⊕α6=α0 Bα is a closed C ∗ -
+subalgebra, as indeed is the image of any C ∗ -algebra homomorphism. But it
+follows from Corollary 5.13 and the assumption (b) in the lemma that the
+image is also a two-sided ideal. This image ideal must be all of ⊕α6=α0 Bα , for
+if it wasn’t, the quotient C ∗ -algebra would have an irreducible representation
+π. Its equivalence class, viewed as a point in A, b would lie in the support of
+ϕα0 , and also in the support of ϕα for some α 6= α0 , contradicting disjointness
+of supports.
+   Combining the Langlands Disjointness Theorem with these elementary
+observations we arrive at the following result:
+
+5.15 Proposition. Form the C ∗ -algebra direct sum
+                            M
+                                 Cr∗ (G)P,σ
+                                    [P,σ]
+
+
+indexed by a set of representatives of the associate classes of pairs (P, σ). The
+quotient mappings from Cr∗ (G) into each summand determine a C ∗ -algebra
+homomorphism                            M
+                           Cr∗ (G) −→       Cr∗ (G)P,σ ,
+                                            [P,σ]
+
+and moreover this homomorphism is surjective.
+
+Proof. It follows from Theorem 5.9 that condition (a) in Lemma 5.14 is
+satisﬁed. As for (b), it holds by Remark 5.8.
+
+                                            25
+    We need one ﬁnal result from representation theory in this section:
+5.16 Theorem. (See [Lan89, Lemma 4.10] or [Tro77].) Every tempered
+irreducible representation of G may be realized as a subrepresentation of a
+principal series representation.
+5.17 Proposition. Let G be a real reductive group. The C ∗ -algebra homo-
+morphism                           M
+                       Cr∗ (G) −→     Cr∗ (G)P,σ
+                                        [P,σ]
+
+is an isomorphism.
+Proof. If the kernel was non-zero, then there would be an irreducible repre-
+sentation of Cr∗ (G) which did not vanish on it, and which therefore was dis-
+tinct from any parabolically induced representation, or any subrepresentation
+of a parabolically induced representation, contrary to Theorem 5.16.
+5.18 Remark. It obviously follows from all of the above that the C ∗ -algebra
+C ∗ (G)P,σ depends only on the associate class of the pair (P, σ), up to iso-
+morphism. This will be made more explicit in the next section.
+
+
+6     Structure of the Component C*-Algebras
+In this section we shall determine the structure of the individual component
+C ∗ -algebras Cr∗ (G)P,σ in Deﬁnition 5.1 (or at any rate, enough of the structure
+of these algebras for our purposes). Once again, to do so we shall rely on
+some substantial results in representation theory, namely Theorems 6.1 and
+6.6 below.
+     Let P1 and P2 be standard parabolic subgroups of G with Levi factors
+Li = MPi APi , and suppose given irreducible square-integrable unitary repre-
+sentations σi of MPi for i ∈ {1, 2}.
+6.1 Theorem. If w ∈ K conjugates L1 into L2 , and if Ad∗w σ1 ≃ σ2 , then
+there is an Ad∗w -twisted unitary isomorphism of Hilbert modules
+
+                         Uw : IndG            G
+                                 P1 Hσ1 −→ IndP2 Hσ2
+
+that covers the isomorphism
+                                     bP1 ) −→ C0 (A
+                          Ad∗w : C0 (A            bP2 )
+
+                                       26
+in the sense of Definition 2.3 and that commutes with the action of Cr∗ (G).
+It is unique up to a composition with an inner automorphism.
+Proof. Each Hilbert module IndG    Pi Hσi can be seen as a continuous ﬁeld of
+                       b
+Hilbert spaces over APi . The existence of the operators Uw then follows from
+that of the so-called Knapp-Stein normalized intertwiners, constructed in
+[KS80] and providing unitary equivalences between principal series represen-
+                              G
+tations IndG                           ∗
+            P1 σ1 ⊗ϕ and IndP2 σ2 ⊗Adw ϕ (see for instance [KS80, Proposition
+8.5.(v)]).
+    As for the uniqueness assertion, let P be P1 or P2 . There is a dense open
+set of characters ϕ ∈ A  bP for which the unitary Hilbert space representation
+    G
+IndP Hσ⊗ϕ is irreducible. This is due to Bruhat [Bru56] if P is minimal and
+to Harish-Chandra [HC76] in general. See also [MP82]. In any case it follows
+from the more advanced Theorem 6.6 below. Given two Ad∗w -twisted unitary
+automorphisms, the composition of one with the inverse of the other is a
+unitary Hilbert module automorphism IndG     P Hσ that intertwines the action
+of Cr∗ (G). Again viewing the Hilbert module as a continuous ﬁeld of Hilbert
+spaces over A  bP , our unitary automorphism is then a continuous family of
+unitary self-intertwiners of the representations IndGP Hσ⊗ϕ .
+
+6.2 Remark. Another approach to Knapp-Stein theory in the context of
+Hilbert modules consists in constructing w-twisted unitary operators directly
+at the level of Cr∗ (G/N). That point of view was adopted in [Cla15] and
+[Cla14] where explicit unitary intertwiners were obtained in the case of the
+special linear group.
+   Consider now a single parabolic subgroup P ⊆ G and associated Levi
+subgroup L, and form the group
+(6.1)                 W = NK (L)/K ∩ L = NG (L)/L.
+It is a finite group; see [Kna86, Chap. V]. Next, ﬁx an irreducible square-
+integrable unitary representation σ of the compactly generated part M of L.
+The group W acts as outer automorphisms of M, and hence it acts on the
+set of equivalence classes of representations of M. We deﬁne Wσ to be the
+isotropy group of the equivalence class of σ:
+                 Wσ = {w ∈ NK (L) : Ad∗w σ ≃ σ }/K ∩ L.
+The group W , and hence in particular the subgroup Wσ acts as a group of
+automorphisms of the vector group A ⊆ L.
+
+                                     27
+   According to Theorem 6.1 there is a group extension
+
+                1 −→ Inner(IndG         f
+                              P Hσ ) −→ Wσ −→ Wσ −→ 1.
+
+where
+(a) Inner(IndG                                                          G
+              P Hσ ) is the group of inner unitary automorphims of IndP Hσ .
+                                                                           b
+    It is isomorphic to the unitary group of the multiplier algebra of C0 (A),
+    or in other words the group of modulus-one continuous functions on b   A.
+    fσ is the group of all twisted unitary automorphisms of IndG Hσ asso-
+(b) W                                                          P
+    ciated with elements of the normalizer group NK (L) that ﬁx σ up to
+    equivalence, as in Theorem 6.1.
+In particular, the self-intertwiners associated to the elements of Wσ by Theo-
+rem 6.1 yield a projective unitary action in the sense of Deﬁnition 2.7 of Wσ
+on IndGP Hσ , hence an action homomorphism of the form
+
+(6.2)                       Cr∗ (G) −→ K(Hσ )Wσ .
+
+We are going to show that this map is surjective.
+                          b let
+6.3 Definition. Given ϕ ∈ A,
+
+                      Wσ,ϕ = { w ∈ Wσ : Ad∗w (ϕ) = ϕ }.
+
+    For each w ∈ Wσ,ϕ the twisted unitary automorphism Uw of IndG   P Hσ
+appearing in Theorem 6.1 restricts to an actual unitary automorphism Uw,ϕ
+of the ﬁber IndG
+               P (σ ⊗ ϕ).
+
+6.4 Definition. We denote by I(σ, ϕ) the ﬁnite-dimensional C ∗ -algebra of
+operators on the Hilbert space of the principal series representation IndG
+                                                                         P (σ ⊗
+ϕ) generated by the Knapp-Stein intertwiners Uw,ϕ associated with the ele-
+ments of the ﬁnite group Wσ,ϕ .
+   We start by making note of the representation theory of the ﬁxed point
+algebra (compare the discussion in [Dix77, 5.4.13]).
+                   b and p ∈ I(σ, ϕ) be a minimal projection.
+6.5 Lemma. Let ϕ ∈ A
+(a) The C ∗ -algebra K(IndG
+                          P Hσ )
+                                 Wσ
+                                    is represented irreducibly on the range of
+    p.
+
+                                      28
+(b) Every irreducible representation of K(IndG
+                                             P Hσ )
+                                                    Wσ
+                                                       arises this way, up to
+    unitary equivalence.
+
+(c) The representations associated to two minimal projections
+
+                        p1 ∈ I(σ, ϕ1 ) and p2 ∈ I(σ, ϕ2 )
+
+    are equivalent if and only if there is some element w ∈ Wσ such that
+    Ad∗w (ϕ1 ) = ϕ2 and such that the projection Ad∗w (p1 ) ∈ I(σ, ϕ2 ) is equiv-
+    alent to p2 .
+   The following result is known as Harish-Chandra’s Completeness Theo-
+rem.
+6.6 Theorem. [HC76, Theorem 38.1] Let σ be an irreducible square-integrable
+unitary representation representation of M, and let ϕ be a unitary character
+of A. The finite-dimensional C ∗ -algebra I(σ, ϕ) is the full commutant of the
+parabolically induced representation IndGP (σ ⊗ ϕ).
+
+Proof. See [KS80, Corollary 9.8] and [Kna86, Theorem 14.31].
+6.7 Proposition. The action homomorphism
+
+                          Cr∗ (G) −→ K(IndG
+                                          P Hσ )
+                                                 Wσ
+
+
+is surjective, and therefore Cr∗ (G)P,σ = K(IndG
+                                               P Hσ )
+                                                      Wσ
+                                                         .
+Proof. It is evident from Lemma 6.5 that the C ∗ -algebra
+
+                              B = K(IndG
+                                       P Hσ )
+                                              Wσ
+
+
+is postliminal, meaning that the image of B in any irreducible representation
+is the C ∗ -algebra of compact operators on the representation Hilbert space.
+We may therefore invoke Dixmier’s version of the Stone-Weierstrass Theorem
+[Dix77, Theorem 11.1.8] to prove surjectivity. According to Dixmier’s theo-
+rem, it suﬃces to prove that the irreducible representations of B pull back
+to irreducible representations of Cr∗ (G), and that inequivalent irreducible
+representations of B pull back to inequivalent irreducible representations of
+Cr∗ (G).
+     It follows from Harish-Chandra’s Completeness Theorem that every irre-
+ducible representation of B does indeed pull back to an irreducible represen-
+tation of Cr∗ (G), and that for a given unitary character ϕ of A, the irreducible
+
+                                       29
+representations of B associated to inequivalent minimal projections in I(σ, ϕ)
+remain inequivalent when pulled back to Cr∗ (G). Part (b) of Lemma 6.5 en-
+sures that irreducible representations of B associated to unitary characters of
+A in distinct Wσ orbits remain inequivalent when pulled back to Cr∗ (G).
+   The isomorphism of Proposition 5.17 can now be rephrased as follows:
+
+6.8 Theorem. Let G be a real reductive group. The combined action homo-
+morphism
+                                M
+(6.3)               Cr∗ (G) −→      K(IndGP Hσ )
+                                                 Wσ
+
+                                      [P,σ]
+
+
+is an isomorphism of C ∗ -algebras.
+
+6.9 Remark. A reﬁned version of this decomposition appears in Wasser-
+mann’s short note [Was87]. It incorporates additional information, due to
+Knapp and Stein, about the structure of the stabilizers Wσ (see [KS72],
+[KS80], and [Kna86, XIV §9]), who showed that the group Wσ,ϕ admits a
+semidirect product decomposition
+                                    ′
+                            Wσ,ϕ = Wσ,ϕ ⋊ Rσ,ϕ ,
+
+in which the factor Rσ,ϕ , called the R-group attached to (σ, ϕ), consists of
+those elements that actually contribute nontrivially to the intertwining al-
+gebra of IndG
+            P (σ ⊗ ϕ). The full group Wσ can also be written as semidirect
+product
+                               Wσ = Wσ′ ⋊ Rσ ,
+and Wassermann notes that
+
+                   K(IndG      Wσ            bP /W ′ ) ⋊ Rσ .
+                        P Hσ )        ∼ C 0 (A    σ
+                                    Morita
+
+This is needed in the computation of the K-theory of Cr∗ (G), which was
+Wassermann’s main concern. See [BCH94, §4] for an account of the K-
+theoretic aspects of Cr∗ (G) (the Connes-Kasparov and Baum-Connes conjec-
+tures). The theory of the R-group will not be required for our purposes. The
+decomposition of Theorem 6.8 will be enough.
+
+
+
+
+                                         30
+6.10 Example. The structure of the reduced C ∗ -algebra of real-rank one
+groups was elucidated in [BM76]. Let us consider the basic case of G =
+SL(2, R) (see [BM76, §4] and [BCH94, p.256]).
+   Up to association there are two parabolic subgroups—the group G itself
+and the group P of upper triangular matrices. The group M in the de-
+composition P = MAN consists of ±I, while A is isomorphic to R+ . The
+Weyl group consists of only two elements, both of which ﬁx each of the two
+representations σ0 and σ1 of M (the ﬁrst being the trivial representation).
+   According to Theorem 6.8 the reduced C ∗ -algebra decomposes as
+                  M                         Z                  Z
+        Cr∗ (G) ∼
+                =    K(Hπ ) ⊕ C0 R, K(Hσ0 ) 2 ⊕ C0 R, K(Hσ1 ) 2 ,
+                   [π]
+
+where the ﬁrst direct sum is indexed by the discrete series of G.
+6.11 Remark. A more reﬁned analysis, as in Remark 6.9, shows that
+                               Z2
+                 C0 R, K(Hσ0 )      ∼ C0 (R/Z2 )
+                                            Morita
+
+and                                  Z2
+                     C0 R, K(Hσ1 )          ∼ C0 (R) ⋊ Z2 .
+                                           Morita
+
+
+
+7       Structure of the Universal Principal Series
+In this section we shall work with a ﬁxed standard parabolic subgroup
+(7.1)                              P = LN
+of a real reductive group G. We shall determine the structure of the corre-
+spondence Cr∗ (G/N) using the information about reduced group C ∗ -algebras
+that we presented in Sections 5 and 6.
+    Applying the results in those sections to the real reductive group L rather
+than G, we ﬁnd that the action of L on its principal series representations
+determines an isomorphism
+                                ∼
+                                =
+                                    M               Wσ
+(7.2)                  Cr∗ (L) −→       K IndLQ Hσ      .
+                                   [Q,σ]
+
+To review, the sum is over associate classes of pairs (Q, σ) consisting of a
+standard parabolic subgroup Q ⊆ L and an irreducible, square-integrable
+representation of the compactly generated part of the Levi factor of Q.
+
+                                       31
+    As we indicated in (2.13), the above direct sum decomposition of Cr∗ (L)
+gives rise to a direct sum decomposition of any Hilbert Cr∗ (L)-module, and
+our ﬁrst task is to understand these summands in the case of Cr∗ (G/N).
+According to (2.14), if E is any Hilbert Cr∗ (L)-module, then the summands
+have the form
+                                                        Wσ
+(7.3)                  K IndLQ Hσ , E ⊗Cr∗ (L) IndLQ Hσ     ,
+
+so we shall need to compute the tensor product Cr∗ (G/N) ⊗Cr∗ (L) IndLQ Hσ .
+    To this end, we shall ﬁrst make explicit what we mean by standard in the
+context of the group L. If A is the given maximal abelian positive-deﬁnite
+subgroup of G, then A ∩ L is a maximal abelian positive-deﬁnite subgroup
+of L. Similarly if a+ is a chamber deﬁning a family of standard parabolic
+subgroups for G, then a+ ∩ l is contained in a chamber deﬁning a family of
+standard parabolic subgroups for L. We shall make compatible choices in
+this way. Having made these choices, it follows from [Vog81, Lemma 4.1.17]
+that:
+
+7.1 Lemma. If P = LNP , as in (7.1), and if Q is any standard parabolic
+subgroup of L, then the product QNP is a standard parabolic subgroup of G.
+Moreover, if we denote by NQ the unipotent radical of the standard parabolic
+subgroup Q ⊆ L, then the unipotent radical of QNP is NQ NP .
+
+     Deﬁne a convolution product
+
+(7.4)           Cc∞ (G/NP ) ⊗ Cc∞ (L/NQ ) −→ Cc∞ (G/NP NQ )
+
+by                                Z
+                                               1
+                (f1 ∗ f2 )(x) =        δ(ℓ)− 2 f1 (xℓ−1 NP )f2 (ℓNQ ) dℓ
+                                  ZL
+                                           1
+                             =         δ(ℓ) 2 f1 (xℓNP )f2 (ℓ−1 NQ ) dℓ,
+                                   L
+
+where δ = δPG is the character (4.2) involved in the deﬁnition of Cr∗ (G/NP ).
+This product factors through the tensor product over Cc∞ (L) and has dense
+range. Moreover, denoting the Levi component of Q by J so that Q = JNQ
+and QNP = JNQ NP , it is compatible with the Cc∞ (J)-valued inner products,
+as follows:
+
+
+
+                                            32
+7.2 Lemma. (Induction in Stages.) The convolution product (7.4) deter-
+mines a unitary isomorphism of Hilbert Cr∗ (J)-modules
+                                               ∼
+                                               =
+              Cr∗ (G/NP ) ⊗Cr∗ (L) Cr∗ (L/NQ ) −→ Cr∗ (G/NP NQ ).
+
+that is compatible with the left actions of Cr∗ (G) on both sides.
+
+7.3 Remark. Induction in stages for representations of C ∗ -algebras was
+described in the original work of Rieﬀel [Rie74, Theorems 5.9 and 5.11]. The
+lemma above reﬂects relations amongst successively induced principal series
+representations that can be found in [Vog81, Proposition 4.1.18].
+
+   From this it is easy to compute the Hilbert module tensor product that
+appears in (7.3).
+
+7.4 Corollary. Let Q be a standard parabolic subgroup of L with Levi fac-
+tor J, and let σ be an irreducible, square-integrable representation of the
+compactly generated part of J. There is a unitary isomorphism of Hilbert
+Cr∗ (J)-modules
+                                               ∼
+                                               =
+                  Cr∗ (G/N) ⊗Cr∗ (L) IndLQ Hσ −→ IndG
+                                                    QN Hσ .
+
+compatible with the left actions of Cr∗ (G).
+
+Proof. This is an immediate consequence of the above lemma and the fact
+that IndLQ Hσ = Cr∗ (L/NQ ) ⊗Cr∗ (J) Hσ .
+   Applying the results of Section 2 we obtain the following description of
+the C ∗ -algebraic universal principal series.
+
+7.5 Theorem. There is a unitary isomorphism of Hilbert modules
+                        ∼
+                        =
+                           M                         Wσ
+             Cr∗ (G/N) −→      K IndLQ Hσ , IndG
+                                               QN Hσ
+                                 [Q,σ]
+
+
+with the following properties:
+
+(a) The left action of Cr∗ (G) on Cr∗ (G/N) corresponds under the isomor-
+    phism to the left action of Cr∗ (G) on each principal series Hilbert module
+    IndG
+       QN Hσ .
+
+
+
+
+                                         33
+(b) The right action of Cr∗ (L) on Cr∗ (G/N) corresponds under the isomor-
+    phism to the left action of Cr∗ (L) on each principal series Hilbert module
+    IndLQ Hσ .
+
+(c) The summands on the right hand side are orthogonal to one another, and
+    the Hilbert module inner product on any one of them is
+
+                                  hS, T i = S ∗ T,
+
+    where the operator S ∗ T ∈ K(IndLQ Hσ )Wσ is to be viewed as an element
+    of Cr∗ (L) via the isomorphism (7.2).
+
+7.6 Example. In the case of a minimal parabolic subgroup P = LN =
+MAN, one has                  M              
+                    Cr∗ (L) ∼
+                            =        b K(Hσ ) .
+                                 C0 A,
+                                      c
+                                  [σ]∈M
+
+Note that there are no proper parabolic subgroups of L, and M is compact, so
+that each Hσ is in fact ﬁnite-dimensional. The decomposition of Theorem 7.5
+reduces to
+                    M                       M                        
+      Cr∗ (G/N) ∼=       K(Hσ , IndG Hσ ) ∼
+                                          =    C 0
+                                                   b K(Hσ , IndG Hσ ) .
+                                                   A,
+                                   P                           P
+                     c
+                   σ∈M                          c
+                                              σ∈M
+
+Note that the groups Wσ (L) are trivial in this case.
+
+7.7 Remark. Results analogous to Theorem 7.5 at the Hilbert space level
+are presented in the ﬁnal chapter of [Wal92] in connection with Whittaker
+functions. See in particular 15.9.3 for the Plancherel decomposition of the
+quasiregular representation of G on L2 (G/N).
+
+
+8    The Adjoint Hilbert Module
+8.1 Definition. Let A and B be C ∗ -algebras, and let E be a Hilbert corre-
+spondence from A to B. We shall denote by E ∗ the complex conjugate vector
+space to E, equipped with the following (algebraic) B-A-bimodule structure:
+
+                               b · e · a = a∗ eb∗ .
+
+This is the adjoint bimodule to E.
+
+                                       34
+     The adjoint bimodule E ∗ will not typically carry the structure of a cor-
+respondence from B to A, but in this section we shall show that when
+E = Cr∗ (G/N), the adjoint bimodule Cr∗ (G/N)∗ can be equipped with a
+Cr∗ (G)-valued inner product that makes it a correspondence from Cr∗ (L) to
+Cr∗ (G). In the next section we shall characterize this secondary inner product
+using the Plancherel theorem.
+     The signiﬁcance of this fact is that interior tensor product with Cr∗ (G/N)∗ ,
+as in Deﬁnition 2.11, gives a functor of parabolic restriction from tempered
+representations of G to tempered representations of L. In this paper we shall
+merely introduce the parabolic restriction functor. In a subsequent paper
+[CCH14] we shall show that the new functor is simultaneously left and right
+adjoint to the functor of parabolic induction between categories of unitary
+tempered Hilbert space representations.
+     The construction of the Cr∗ (G)-valued inner product on Cr∗ (G/N)∗ is in
+fact very straightforward, given the structure theory developed in the last
+several sections.
+     Recall that according to Theorem 6.8 there is an isomorphism
+                                   ∼
+                                   =
+                                       M
+(8.1)                    Cr∗ (G) −→        K(IndGP Hσ )
+                                                        Wσ
+                                                           ,
+                                        [P,σ]
+
+while according to Theorem 7.5 there is an isomorphism
+                          ∼
+                          =
+                             M                         Wσ
+(8.2)          Cr∗ (G/N) −→      K IndLQ Hσ , IndG
+                                                 QN Hσ     .
+                                [Q,σ]
+
+
+The ﬁrst thing to say about the Cr∗ (G)-valued inner product is that, by
+deﬁnition, the summands in (8.2), or rather the adjoint modules associated
+to them, will be orthogonal to one another.
+    As for the individual summands in (8.2), the inner product of a pair of
+elements from the [Q, σ]-summand will lie in the [QN, σ]-summand of (8.1);
+see Lemma 7.1. In order to deﬁne this inner product it will be helpful to
+reﬁne a little the notation for groups of intertwining operators Wσ that we
+have used up to now. Let J be a standard Levi subgroup of L, where L is
+in turn a standard Levi subgroup of G, and let σ be an irreducible, square-
+integrable representation of the compactly generated part of J. We shall now
+use the notations
+
+                 Wσ (G) = {w ∈ NK (J) : Ad∗w σ ≃ σ }/K ∩ J
+
+                                           35
+and
+               Wσ (L) = {w ∈ NK∩L (J) : Ad∗w σ ≃ σ }/K ∩ J,
+which take into account the fact that J may regarded as a standard Levi
+subgroup of either G or L. Of course,
+
+                                Wσ (L) ⊆ Wσ (G).
+
+Suppose then we are given two elements in one summand of Cr∗ (G/N)∗ , say
+
+                     S 1 , S 2 ∈ K(IndLQ Hσ , IndG
+                                                 QN Hσ )
+                                                         Wσ (L)
+
+
+(the complex conjugates are present as a result of our deﬁnition of the adjoint
+module). We deﬁne
+
+(8.3)        S 1 , S 2 C ∗ (G) = AvWσ (G) (S1 S2∗ ) ∈ K(IndG
+                                                           QN Hσ )
+                                                                   Wσ (G)
+                                                                          ,
+                      r
+
+
+where on the right-hand side we have taken the average over the action of
+the ﬁnite group Wσ (G) on the C ∗ -algebra K(IndG QN Hσ ).
+   The formula (8.3) satisﬁes the algebraic requirements for a Hilbert module
+inner product. In addition, the [Q, σ]-summand that we are studying is
+complete in the norm associated to the inner product. This is because
+                                                        |Wσ (L)| ∗
+                 S, S C ∗ (G) = AvWσ (G) (SS ∗ ) ≥               SS ,
+                          r                             |Wσ (G)|
+and so, since kSS ∗ k = kS ∗ Sk,
+                                          |Wσ (L)|
+(8.4)                 kSk2Cr∗ (G/N )∗ ≥            kSk2Cr∗ (G/N ) .
+                                          |Wσ (G)|
+Therefore we obtain a Hilbert Cr∗ (G)-module structure on the [Q, σ]-summand
+of Cr∗ (G/N)∗ , as required.
+     To complete the construction we need to show that the (complex conju-
+gate of the) Hilbert module direct sum (8.2), which is the completion of the
+algebraic direct sum in the Cr∗ (G/N)-norm, is also the Hilbert module direct
+sum in the Cr∗ (G/N)∗ -norm.
+     Each summand of the Hilbert module is supported, as either a Hilbert
+Cr∗ (G)-module or a Hilbert Cr∗ (L)-module, in a single summand of the re-
+duced group C ∗ -algebra (that is, all the inner products lie in a single sum-
+mand in the direct sum decomposition of the C ∗ -algebra). Moreover there
+
+                                           36
+is a uniform bound on the number of Hilbert module summands that are
+supported in any given C ∗ -algebra summand. Finally, in addition to the
+inequality (8.4) we also have the inequality
+
+                         kSk2Cr∗ (G/N ) ≥ kSk2Cr∗ (G/N )∗
+
+in each Hilbert module summand. So the Cr∗ (G/N)-norm in each summand
+is bounded uniformly by a multiple of the Cr∗ (G/N)∗ -norm, and vice versa.
+It follows that the Cr∗ (G/N)-norm and the Cr∗ (G/N)∗ -norm are bounded by
+multiples of each other on the algebraic direct sum, so the completion in the
+two norms agree, as required.
+8.2 Definition. Let G be a real reductive group and let P = LN be a
+parabolic subgroup of G. We shall denote the correspondence from Cr∗ (L) to
+Cr∗ (G) just constructed by
+
+                          Cr∗ (N\G) = Cr∗ (G/N)∗ .
+
+8.3 Remark. The notation reﬂects the fact that the L-G-bimodule Cr∗ (G/N)∗
+can be viewed as a completion of Cc∞ (N\G), with the left L-action and right
+G-action deﬁned analogously to our approach in Section 4 to the actions on
+Cc∞ (G/N). One associates to a function f ∈ Cc∞ (N\G) the function
+
+                            f ∗ : gN 7→ f (Ng −1)
+
+on G/N.
+8.4 Definition. If H is a Hilbert space carrying a tempered unitary rep-
+resentation of G, or in other words a nondegenerate representation of the
+C ∗ -algebra Cr∗ (G), then the parabolic restriction of H is the Hilbert space
+
+                       ResG      ∗
+                          P H = Cr (N\G) ⊗Cr∗ (G) H,
+
+together with the tempered unitary representation of L that it carries.
+     Here are the results of some easy sample calculations, along with some
+remarks about parabolic restriction as it is understood from a more standard
+representation-theoretic point of view.
+     In each case the calculation is carried out using the explicit forms of
+Cr∗ (G) and Cr∗ (G/N) that we have determined in the paper. In other words
+the calculations, though short, are far from basic, in that they presuppose a
+great deal of representation theory of the sort relied upon in this paper.
+
+                                       37
+8.5 Example. The ﬁrst thing to be said is that if an irreducible represen-
+tation π is square-integrable on the compactly generated part of G, then
+ResGP Hπ = 0 for all proper parabolic subgroups P ⊆ G. This is because
+  ∗
+Cr (G) can be written as a sum of two complementary ideals, one acting
+trivially on Hπ and the other acting trivially on Cr∗ (N\G).
+    In contrast, the usual (left) adjoint to parabolic induction considered
+in representation theory (the space of n-coinvariants of a (g, K)-module)
+is nonzero in this and indeed any admissible case, by Casselman’s famous
+subrepresentation theorem.
+8.6 Example. Consider next a principal series representation IndG  P Hσ⊗ϕ . If
+the isotropy group Wσ,ϕ of Deﬁnition 6.3 is trivial (and so, for example, by
+Theorem 6.6 the representation is irreducible), then
+                                         M
+                     ResG  IndG
+                                H σ⊗ϕ
+                                       ∼
+                                       =      Hw(σ⊗ϕ)
+                         P    P
+                                          w∈W
+
+This is consistent with the standard situation in representation theory.
+8.7 Example. More interesting, perhaps is the case of a principal series
+representation for which the intertwining group Wσ,ϕ is large. Consider for
+example the base of the spherical principal series. Here one has
+
+                            ResG    G    ∼
+                               P IndP C0 = C0 .
+
+As in Example 8.5, this is smaller than the space of n-coinvariants of the
+associated (g, K)-module.
+   As we have already mentioned, the central fact about the functor of
+parabolic restriction, which we shall establish in [CCH14], is as follows.
+8.8 Theorem. The functor ResG    P , from tempered unitary representations of
+G to tempered unitary representations of L, is both left and right adjoint to
+the functor IndG
+               P of parabolic induction.
+
+   The proof is not diﬃcult, granted the structure theory for Cr∗ (G/N) that
+we have developed here, but it involves a separate set of operator-algebraic
+ideas, and it is for this reason that we have chosen to defer it.
+8.9 Remark. Let us close this section by making a few informal comments
+for the beneﬁt of those who are familiar with Bernstein’s second adjoint theo-
+rem for smooth representations of reductive p-adic groups [Ber92]. Bernstein
+
+                                     38
+begins by observing that there is a natural candidate unit map for his ad-
+junction. It takes the form of a bimodule map
+
+                  Cc∞ (L) −→ Cc (N \ G) ⊗Cc∞ (G) Cc∞ (G/N),
+
+where N is the unipotent subgroup opposite to N, and it is associated to the
+inclusion of N · L · N as an open subset in G.
+    Passing to C ∗ -algebras and Hilbert modules (in either the real or the p-
+adic contexts) one can ask, does Bernstein’s map extend to completions? It
+does not. However it is reasonably well-behaved as an unbounded operator
+(it is regular [Lan95, Chapter 9]).
+    Another manageable problem is the appearance of N in place of a second
+copy of N (as we use in this paper and its sequel). The C ∗ -correspondences
+associated to the two diﬀerent unipotents are isomorphic.
+    After switching N for N, the unit map that arises from Theorem 8.8 can
+be viewed as a bounded transform (in roughly the sense of [Lan95, Chapter
+10]). But we emphasize that it exists only at the Hilbert space level, not the
+Hilbert module level.
+    In conclusion, then, Bernstein’s unit, and hence his adjunction, is distinct
+from that of Theorem 8.8, but related to it.
+    A perhaps more interesting and more fundamental observation is that at
+the level of Harish-Chandra’s Schwartz space (see the next section) and its
+associated bimodules, Bernstein’s unit is indeed well-deﬁned. Moreover we
+have checked for G = SL(2, R) that the counterpart of Bernstein’s theorem
+is true (and we believe it is true generally). See [CH16] for some prelimi-
+nary computations in this direction; a fuller treatment of these matters is in
+preparation.
+
+
+9    Relation to the Plancherel Formula
+We shall close this paper with a calculation that relates the inner product
+on the adjoint correspondence Cr∗ (N\G) to the Plancherel formula.
+   It will be convenient to work with Harish-Chandra’s Schwartz space C(G).
+This is a Fréchet space of smooth functions on G that contains as a dense
+subspace the smooth and compactly supported functions. The Schwartz
+space is included continuously as a dense subspace in both L2 (G) and Cr∗ (G).
+See [HC66, Part I] and, for an exposition, [Wal88, Chapter 7]. In every
+
+
+                                      39
+irreducible representation of Cr∗ (G) the functions in C(G) act as Hilbert-
+Schmidt operators.
+    We begin by reviewing the Plancherel formula for G (and for this purpose
+we shall not need to ﬁx yet a parabolic subgroup P ⊆ G).
+    Choose a representative (P, σ) for each of the associate classes [P, σ] for
+G, as in Deﬁnition 5.2. There is a Langlands decomposition P = MP AP NP ,
+and, as we noted earlier the group AP , which consists entirely of positive-
+deﬁnite matrices, is isomorphic to its Lie algebra via the exponential map.
+So AP carries the structure of a vector space, and we can speak its space
+of Schwartz functions in the ordinary sense of harmonic analysis. The same
+                                       bP . By a tempered measure on A
+goes for the unitary (Pontrjagin) dual A                                bP we
+mean a smooth measure for which integration extends to a continuous linear
+functional on the Schwartz space.
+    Finally, let us write
+                             πσ,ϕ = IndG
+                                       P (σ ⊗ ϕ)
+
+for the representation of G parabolically induced from the representation
+σ ⊗ ϕ of L = MP AP . Using this terminology and notation, the general
+structure of Harish-Chandra’s Plancherel formula for the group G [HC76] is
+as follows (see [Wal92, Chapter 13] for an exposition).
+9.1 Theorem. There are unique smooth, tempered, Wσ -invariant measures
+                   bP such that
+mP,σ on the spaces A
+                            XZ
+                    2
+                kf kL2(G) =     kπσ,ϕ (f )k2H-S dmP,σ (ϕ),
+                                     bP
+                                     A
+                             [P,σ]
+
+for every f ∈ C(G).
+           bP varies, the Hilbert spaces IndG Hσ⊗ϕ can be identiﬁed with one
+    As ϕ ∈ A                                P
+another as representations of K. Denote by IndG  P Hσ this common Hilbert
+space (as we have done earlier) and form the Hilbert space tensor product
+                                                  
+(9.1)                      bP , mP,σ ⊗ L2 IndG Hσ ,
+                        L2 A                   P
+
+where L2 (IndG P Hσ ) denotes the Hilbert space of Hilbert-Schmidt operators
+on IndGP H σ .
+   If f ∈ C(G) is K-finite, meaning that its left and right K-translates span
+a ﬁnite-dimensional subspace of C(G), then for every pair (P, σ) the function
+                      bP ∋ ϕ 7→ πσ,ϕ (f ) ∈ L2 (IndG Hσ )
+                      A                            P
+
+
+                                          40
+                            bP into a K-finite part of L2 (IndG Hσ ), meaning
+is a Schwartz function from A                                  P
+a ﬁnite-dimensional subspace that is invariant under the left and right actions
+of K. We can regard the function as an element of the Hilbert space tensor
+product (9.1).
+
+9.2 Definition. Let f ∈ C(G) be a K-ﬁnite function. Its Fourier transform
+is the element of the direct sum Hilbert space
+                      M                              
+                          L2 A bP , mP,σ ⊗ L2 IndG
+                                                 P Hσ
+                      [P,σ]
+
+
+determined by the operator-valued functions ϕ 7→ πσ,ϕ (f ).
+
+    The Plancherel formula can be reformulated in these terms, as follows.
+
+9.3 Theorem. The Fourier transform, defined initially on K-bi-finite func-
+tions in C(G), extends to an isometric linear map
+                           M                           
+                L2 (G) −→         bP , mP,σ ⊗ L2 IndG
+                               L2 A                 P Hσ .
+                               [P,σ]
+
+
+   We shall also need the following determination of the range of the Fourier
+transform. See [Art83, Chap. 3, Section 1].
+
+9.4 Theorem. The Fourier transform is a Hilbert space isometry from L2 (G)
+onto the Hilbert subspace
+Mh                          iWσ (G) M 2                     
+     bP , mP,σ ⊗ L2 IndG
+  L2 A                 P H σ         ⊆ L AbP , mP,σ ⊗L2 IndG
+                                                           P Hσ .
+[P,σ]                                        [P,σ]
+
+
+   We shall use this fact to calculate the adjoint to the Fourier transform in
+Deﬁnition 9.2.
+
+9.5 Definition. Let h be a Schwartz-class function from A bP into a K-ﬁnite
+         2    G
+part of L (IndP Hσ ). The wave packet associated to h is the scalar function
+                        Z
+                                                
+(9.2)           ȟ(g) =    Trace πσ,ϕ (g −1)h(ϕ) dmP,σ (ϕ).
+                              bP
+                              A
+
+on the group G.
+
+
+                                       41
+   A fundamental theorem of Harish-Chandra asserts that wave packets are
+Schwartz functions on G. See for example [Wal92, Theorems 12.7.1 and
+13.4.1].
+
+9.6 Theorem. The wave packets (9.2) associated to the Schwartz-class func-
+           bP into the K-finite parts of L2 (IndG Hσ ) all belong to the Harish-
+tions from A                                    P
+Chandra Schwartz space C(G).
+
+   We can now carry out the following crucial computation involving wave
+packets, which is a simple consequence of Theorem 9.4.
+
+9.7 Proposition. If f is a Harish-Chandra Schwartz function on G, and if
+h is a Schwartz function from AP to the K-finite part of L2 (IndG
+                                                                P Hσ ), then
+
+                     hf, ȟiL2 (G) = hfˆ, hiL2 (A,m
+                                                b P,σ )⊗L2 (IndG Hσ ) .
+                                                                P
+
+
+Proof. We calculate that
+                       Z
+       hf, ȟiL2 (G) =     f (g) ȟ(g) dg
+                       Z G        Z
+                                                                  
+                     =     f (g)       Trace πσ,ϕ (g −1) · h(ϕ) dmP,σ (ϕ)dg
+                                    bP
+                       ZG           A
+                                    Z                              
+                     =      Trace        f (g)πσ,ϕ (g −1 ) dg · h(ϕ) dmP,σ (ϕ)
+                         b
+                       Z AP            G
+                                                    
+                     =      Trace πσ,ϕ (f )∗ h(ϕ) dmP,σ (ϕ)
+                          bP
+                          A
+
+                     = hfˆ, hiL2 (AbP ,mP,σ )⊗L2 (IndG Hσ ) ,
+                                                     P
+
+
+as required.
+
+9.8 Corollary. The wave-packet operator h 7→ ȟ, defined on Schwartz func-
+tions with values in K-finite parts of the Hilbert-Schmidt spaces L2 (IndG
+                                                                         P Hσ ),
+extends to a bounded linear operator
+                 M                                
+                     L2 AbP , mP,σ ⊗ L2 IndG Hσ −→ L2 (G)
+                                              P
+                  [P,σ]
+
+
+that is adjoint to the Fourier transform.
+
+
+
+                                             42
+                                           
+   Now if h ∈ L2 A bP , mP,σ ⊗ L2 IndG Hσ , then deﬁne AvWσ (h) to be the
+                                       P
+average over the action of the ﬁnite group Wσ :
+                                     1 X                   
+                AvWσ (G) (h)(ϕ) =             w h(w −1 (ϕ)) .
+                                   |Wσ | w∈W
+                                                  σ
+
+
+The averaging operator
+                                                                
+               bP , mP,σ ⊗ L2 IndG Hσ −→ L2 A
+ AvWσ (G) : L2 A                            bP , mP,σ ⊗ L2 IndG Hσ
+                                 P                            P
+
+is the orthogonal projection onto the Wσ (G)-invariant part of the tensor
+product.
+9.9 Corollary. The [P, σ]-component of the Fourier transform of the wave
+packet ȟ is given by the formula
+                          πϕ (ȟ) = AvWσ (G) (h)(ϕ).
+The other components of the Fourier transform are zero.
+   We are ready to give a formula for our Cr∗ (G)-valued inner product on
+the summand
+              h                       Wσ (L) i∗
+                K IndLQ Hσ , IndG
+                                QN Hσ            ⊆ Cr∗ (G/N)∗
+
+as in (8.2). Write
+                             Wσ (L)                                  Wσ (L)
+     K IndLQ Hσ , IndG                 ∼    b K(IndLQ Hσ , IndG
+                     QN Hσ             = C0 A,                QN Hσ )         ,
+and suppose we are given two functions
+                                                        
+                              bP , K(IndL Hσ , IndG Hσ ) Wσ (L)
+                S1 , S2 ∈ C 0 A         Q         QN
+
+                                         bP into a ﬁnite part of the Hilbert-
+that are in fact Schwartz functions from A
+                  2   L         G
+Schmidt space L (IndQ Hσ , IndQN Hσ ).
+9.10 Theorem. Given S1 and S2 as above, the inner product
+                             hS 1 , S 2 iCr∗ (G) ∈ Cr∗ (G)
+is the following Harish-Chandra Schwartz function on G:
+                          h     Z                                        i
+                                              ∗       −1
+                                                              
+(9.3) hS 1 , S 2 iCr (G) = g 7→
+                   ∗              Trace S2 (ϕ) πσ,ϕ (g )S1 (ϕ) dmP,σ (ϕ)
+                                 bP
+                                 A
+
+
+                                          43
+Proof. By deﬁnition, the inner product is the unique element of Cr∗ (G) that
+is equal to
+                              AvWσ (G) (S1 S2∗ )
+in the [QN, σ]-component of the direct sum decomposition (6.3) of Cr∗ (G),
+and that is zero in the other components of the direct sum decomposition.
+See (8.3). If we write the right-hand side of (9.3) as
+                    Z
+                                                       
+               g 7→     Trace πσ,ϕ (g −1 )S1 (ϕ)S2 (ϕ)∗ dmP,σ (ϕ)
+                    bP
+                    A
+
+using the trace property, then we see from Corollary 9.9 that this function
+has precisely the required property.
+
+
+References
+[Art75]    J. Arthur, A theorem on the Schwartz space of a reductive Lie
+           group, Proc. Nat. Acad. Sci. U.S.A. 72 (1975), no. 12, 4718–4719.
+           MR 0460539 (57 #532)
+
+[Art83]          , A Paley-Wiener theorem for real reductive groups, Acta
+           Math. 150 (1983), no. 1-2, 1–89. MR 697608 (84k:22021)
+
+[BCH94]    P. Baum, A. Connes, and N. Higson, Classifying space for proper
+           actions and K-theory of group C ∗ -algebras, C ∗ -algebras: 1943–
+           1993 (San Antonio, TX, 1993), Contemp. Math., vol. 167, Amer.
+           Math. Soc., Providence, RI, 1994, pp. 240–291. MR 1292018
+           (96c:46070)
+
+[BdlHV08] B. Bekka, P. de la Harpe, and A. Valette, Kazhdan’s property (T),
+          New mathematical monographs, vol. 11, Cambridge University
+          Press, 2008.
+
+[Ber92]    J. Bernstein, Representations of p-adic groups, Lecture notes,
+           Harvard University, written by K. E. Rumelhart, 1992.
+
+[BK11]     R. Bezrukavnikov and D. Kazhdan, Geometry of second adjoint-
+           ness for p-adic groups, preprint arXiv: 1112.6340, 2011.
+
+
+
+                                    44
+[BM76]    R. Boyer and R. Martin, The regular group C ∗ -algebra for real-
+          rank one groups, Proc. Amer. Math. Soc. 59 (1976), no. 2, 371–
+          376. MR 0476913 (57 #16464)
+
+[Bru56]   F. Bruhat, Sur les représentations induites des groupes de Lie,
+          Bull. Soc. Math. France 84 (1956), 97–205.
+
+[CCH14]   P. Clare, T. Crisp, and N. Higson, Adjoint functors between cat-
+          egories of Hilbert C*-modules, Preprint arXiv:1409.8656, 2014.
+
+[CH16]    T. Crisp and N. Higson, Parabolic induction, categories of rep-
+          resentations and operator spaces, to appear in Operator algebras
+          and their applications: a tribute to Richard V. Kadison, Con-
+          temp. Math., vol. 671, Amer. Math. Soc., Providence, RI, 2016.
+
+[CHH88]   M. Cowling, U. Haagerup, and R. Howe, Almost L2 matrix coef-
+          ficients, J. Reine Angew. Math. 387 (1988), 97–110. MR 946351
+          (89i:22008)
+
+[Cla13]   P. Clare, Hilbert modules associated to parabolically induced rep-
+          resentations, J. Operator Theory 69 (2013), no. 2, 483–509. MR
+          3053351
+
+[Cla14]           , C*-algebraic intertwiners for degenerate principal series
+          of special linear groups, Chin. Ann. Math. Ser. B 35 (2014), no. 5,
+          691–702. MR 3246931
+
+[Cla15]          , C∗ -algebraic intertwiners for principal series: case of
+          SL(2), J. Noncommut. Geom. 9 (2015), no. 1, 1–19. MR 3337952
+
+[Dix57]   J. Dixmier, Sur les représentations unitaires des groupes de Lie
+          algébriques, Ann. Inst. Fourier, Grenoble 7 (1957), 315–328. MR
+          0099380 (20 #5820)
+
+[Dix77]           , C ∗ -algebras, North-Holland Publishing Co., Amsterdam-
+          New York-Oxford, 1977, Translated from the French by Fran-
+          cis Jellett, North-Holland Mathematical Library, Vol. 15. MR
+          0458185 (56 #16388)
+
+[Fel60]   J. M. G. Fell, The dual spaces of C ∗ -algebras, Trans. Amer. Math.
+          Soc. 94 (1960), 365–403. MR 0146681 (26 #4201)
+
+                                    45
+[God52]   R. Godement, A theory of spherical functions I, Trans. Amer.
+          Math. Soc. 73 (1952).
+
+[HC53]    Harish-Chandra, Representations of semisimple Lie groups on a
+          banach space I, Trans. Amer. Math. Soc 75 (1953), 185–243.
+
+[HC66]           , Discrete series for semisimple Lie groups. II. Explicit
+          determination of the characters, Acta Math. 116 (1966), 1–111.
+          MR 0219666 (36 #2745)
+
+[HC72]           , On the theory of the Eisenstein integral, Lecture Notes in
+          Mathematics, vol. 266, pp. 123–149, Springer-Verlag, Berlin-New
+          York, 1972.
+
+[HC76]          , Harmonic analysis on real reductive groups III. the
+          Maaß-Selberg relations and the Plancherel formula, Ann. of Math.
+          104 (1976), 117–201.
+
+[Hum75]   J. E. Humphreys, Linear algebraic groups, Springer-Verlag, New
+          York-Heidelberg, 1975, Graduate Texts in Mathematics, No. 21.
+          MR 0396773 (53 #633)
+
+[Kna86]   A. W. Knapp, Representation theory of semisimple groups,
+          Princeton Landmarks in Mathematics, Princeton University
+          Press, 1986.
+
+[Kna02]         , Lie groups beyond an introduction, second ed., Progress
+          in Mathematics, vol. 140, Birkhäuser Boston, Inc., Boston, MA,
+          2002.
+
+[KS72]    A. W. Knapp and E. M. Stein, Irreducibility theorems for the
+          principal series, Conference on Harmonic Analysis (Univ. Mary-
+          land, College Park, Md., 1971), Springer, Berlin, 1972, pp. 197–
+          214. Lecture Notes in Math., Vol. 266. MR 0422512 (54 #10499)
+
+[KS80]    A. W. Knapp and E. M. Stein, Intertwining operators for
+          semisimple groups II, Invent. Math. 60 (1980), no. 1, 9–84.
+
+[Lan89]   R. P. Langlands, On the classification of irreducible represen-
+          tations of real algebraic groups, Representation theory and har-
+          monic analysis on semisimple Lie groups, Math. Surveys Monogr.,
+
+                                    46
+          vol. 31, Amer. Math. Soc., Providence, RI, 1989, pp. 101–170.
+          MR 1011897 (91e:22017)
+
+[Lan95]   E. C. Lance, Hilbert C*-modules, LMS Lecture Note Series, Cam-
+          bridge University Press, 1995.
+
+[Lip70]   R. L. Lipsman, The dual topology for the principal and discrete se-
+          ries on semisimple groups, Trans. Amer. Math. Soc. 152 (1970),
+          399–417. MR 0269778 (42 #4673)
+
+[Mil73]   D. Miličić, On C ∗ -algebras with bounded trace, Glasnik Mat. Ser.
+          III 8(28) (1973), 7–22. MR 0324429 (48 #2781)
+
+[MP82]    D. Miličić and M. Primc, On the irreducibility of unitary principal
+          series representations, Math. Ann. 260 (1982), no. 4, 413–421.
+          MR 670190 (84c:22019)
+
+[Ped79]   G. K. Pedersen, C ∗ -algebras and their automorphism groups,
+          London Mathematical Society Monographs, vol. 14, Academic
+          Press, Inc. [Harcourt Brace Jovanovich, Publishers], London-New
+          York, 1979. MR 548006 (81e:46037)
+
+[PP83]    M. G. Penington and R. J. Plymen, The Dirac operator and
+          the principal series for complex semisimple Lie groups, J. Funct.
+          Anal. 53 (1983), no. 3, 269–286. MR 724030 (85d:22016)
+
+[Rie74]   M. A. Rieﬀel, Induced representations of C*-algebras, Adv. Math.
+          13 (1974), 176–257.
+
+[Sti58]   W. F. Stinespring, A semi-simple matrix group is of type I, Proc.
+          Amer. Math. Soc. 9 (1958), 965–967. MR 0104756 (21 #3509)
+
+[Tro77]   P. C. Trombi, The tempered spectrum of a real semisimple Lie
+          group, Amer. J. Math. 99 (1977), no. 1, 57–75. MR 0453929 (56
+          #12182)
+
+[Val85]   A. Valette, Dirac induction for semi-simple Lie groups having
+          one conjugacy class of Cartan subgroups, Lecture Notes in Math-
+          ematics 1132 (1985), 526–555.
+
+
+
+
+                                    47
+[Vog81]   D. A. Vogan, Jr., Representations of real reductive Lie groups,
+          Progress in Mathematics, vol. 15, Birkhäuser, Boston, Mass.,
+          1981. MR 632407 (83c:22022)
+
+[Wal88]   N. R. Wallach, Real reductive groups. I, Pure and Applied Math-
+          ematics, vol. 132, Academic Press, Inc., Boston, MA, 1988. MR
+          929683 (89i:22029)
+
+[Wal92]          , Real reductive groups. II, Pure and Applied Mathe-
+          matics, vol. 132, Academic Press, Inc., Boston, MA, 1992. MR
+          1170566 (93m:22018)
+
+[Was87]   A. Wassermann, Une démonstration de la conjecture de Connes-
+          Kasparov pour les groupes de Lie linéaires connexes réductifs, C.
+          R. Acad. Sci. Paris 18 (1987), no. 304, 559–562.
+
+
+
+
+                                   48
+
