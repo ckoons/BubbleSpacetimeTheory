@@ -94,4 +94,14 @@ check("(6) DROP χ_s: χ_t alone admits exactly the products with an odd number 
 # (7) sensitivity: a hypothetical half-integer-spin piece of H² in 4D would be (−1, −1) and overlap
 check("(7) SENSITIVITY: if P2 failed, a (−1,−1) piece of H² WOULD match products of ladders — the conclusion rests on P2 (computed in (3))",
       (-1, -1) in classes)
+# (8) ROUND 15 ADDITION (Cal's two-leg control; K1935 amendment: 'the rule forbids vertices with an odd number of H² legs, not all'):
+#     count the legs — products of k H² pieces (each (−1,+1), computed in (3)) with 1..6 ladders
+ok8 = True; seen = {}
+for k in range(1, 5):
+    hk = ((-1)**k, 1)
+    allowed = hk in classes
+    seen[k] = allowed
+    if allowed != (k % 2 == 0): ok8 = False
+check("(8) [round 15] LEG COUNT: k H² legs carry ((−1)^k, +1); even k MATCHES a ladder class (pair vertices NOT forbidden), odd k never does",
+      ok8, str(seen))
 print(f"\nSCORE: {sum(score)}/{len(score)}")

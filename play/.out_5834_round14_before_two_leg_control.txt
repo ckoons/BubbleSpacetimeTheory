@@ -6,6 +6,5 @@
 [PASS] (5) all 100946 products of 1..6 ladders: (χ_t, χ_s) ∈ {(+,+), (−,−)} only — DISJOINT from H²'s (−,+)  [(-1, -1), (1, 1)]
 [PASS] (6) DROP χ_s: χ_t alone admits exactly the products with an odd number of half-integer-helicity factors (Lyra's rule reproduced)  
 [PASS] (7) SENSITIVITY: if P2 failed, a (−1,−1) piece of H² WOULD match products of ladders — the conclusion rests on P2 (computed in (3))  
-[PASS] (8) [round 15] LEG COUNT: k H² legs carry ((−1)^k, +1); even k MATCHES a ladder class (pair vertices NOT forbidden), odd k never does  {1: False, 2: True, 3: False, 4: True}
 
-SCORE: 8/8
+SCORE: 7/7

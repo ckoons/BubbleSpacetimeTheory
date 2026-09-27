@@ -1,0 +1,22 @@
+[PASS] (A) D⁺ relations: [J,L±] = ±L±, [L+,L−] = −2J (low block)  
+[PASS] (A) D⁻ via σ satisfies the same relations  
+[PASS] (A)(i) no lowest-weight vector with c > a − b (s < 0): the boundary term forces x ≡ 0  
+   (A) a = 4.5, b = 1.5: (c, measured exponent of |x_m|, L² norm if convergent): [(3.0, -2.9919, 1.599999999999996), (2.0, -1.9929, 4.666666631843273), (1.0, -0.9944, 55.7905761248973), (0.0, 0.0037, inf), (-1.0, 1.0012, inf), (-2.0, 1.9983, inf)]
+[PASS] (A)(ii) |x_m| ~ m^{−c}: measured exponents match −c for c = 3, 2, 1, 0, −1, −2  
+[PASS] (A)(iii) L² ⇔ c > 1/2: the discrete pieces are c = a−b−s ∈ {3, 2, 1} (finitely many); c ≤ 1/2 only distributional  [1.0, 2.0, 3.0]
+[PASS] (A)(iv) a = b (the H ⊗ H̄ case): c = −s ≤ 0 only ⇒ NO discrete piece, every lowest-weight vector non-L² (Repka's picture, pin owed)  
+[PASS] (A) explicit matrices: (L−⊗1 + 1⊗L−')v = 0 on the interior (recursion verified independently)  
+   (B) oscillator Casimir on lowest states vs Δ(Δ−4)+2j1(j1+1)+2j2(j2+1): {'h=0': (-3.0, -3), 'h=1/2 L': (-2.25, -2.25), 'h=1/2 R': (-2.25, -2.25), 'h=1 L': (0.0, 0), 'h=1 R': (0.0, 0), 'h=2 L': (9.0, 9)}  affine fit [ 1. -0.]
+[PASS] (B) gl(4) relation holds for the oscillator bilinears (sample)  
+[PASS] (B) the COMPUTED quadratic Casimir on every ladder lowest state is an eigenvalue and equals one affine map of Δ(Δ−4)+2Σj(j+1) (fitted on h = 0, ½; predicts h = ½R, 1L, 1R, 2)  
+[PASS] (B) |λ_HC|² − |ρ|² = Δ(Δ−4) + 2j1(j1+1) + 2j2(j2+1) with ρ = (2,1,0) (the HC parametrisation is consistent with the computed Casimir)  
+   (B) ladders whose infinitesimal character equals a principal-series point on Re Δ = 2 (ν = 0): {(0.0, 1): [], (0.5, 1): [], (0.5, -1): [], (1.0, 1): [(0.0, 1.0), (1.0, 0.0)], (1.0, -1): [(0.0, 1.0), (1.0, 0.0)], (1.5, 1): [], (1.5, -1): [], (2.0, 1): [], (2.0, -1): []}
+[PASS] (B) ONLY helicity 1 matches: (1,0)/(0,1) principal series at ν = 0 — the photon ladder sits at the EDGE of the record continuum; helicities 0, ½, 2 match no unitary-axis point (excluded from H ⊗ H̄ even distributionally)  
+
+READING: (A) SL(2): D⁺_a⊗D⁻_b has lowest-weight vectors exactly for c ≤ a−b, L² only for c > 1/2; for a = b none is L².
+(B) The helicity-1 ladder has the SAME infinitesimal character as the (1,0) principal series at ν = 0, the edge of H ⊗ H̄'s continuum;
+no other helicity does. So the center cannot exclude a distributional J·A vertex for the photon, and ONLY for the photon; ν = 0 has
+Plancherel measure zero, so no L² intertwiner. Whether a distributional form exists = whether the ladder is a quotient of that
+reducible ν = 0 principal series and pairs with H ⊗ H̄: OPEN here (Keeper's kill line is not decided by this toy, as preregistered).
+
+SCORE: 11/11
