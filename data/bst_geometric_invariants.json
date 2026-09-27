@@ -48921,7 +48921,8 @@
     11
    ],
    "validating_axis": "UNCLASSIFIED",
-   "validating_axis_source": "classifier_v0.1_PROVISIONAL_noisy"
+   "validating_axis_source": "classifier_v0.1_PROVISIONAL_noisy",
+   "reproduction_flag_2026_09_27": "Grace 15:53 (round 17): 'tier D / derived' is not supported — t_0 ≈ 1/H_0 uses H_0 whose value imports Planck's measured omega_m (const_100; K1937 Part 2); see const_102's flag (stored 13.78 not reproduced; its own formula gives 13.81). Treat as consistency of Omega_m/Omega_Lambda, not a derivation."
   },
   {
    "symbol": "photon_decoupling_temp",

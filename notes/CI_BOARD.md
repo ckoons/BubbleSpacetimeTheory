@@ -1,5 +1,24 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 15:53 EDT (Grace) — **Round 17 Lane B, first fixes (before Elie's sweep lands): const_100 H₀ fixed; its species already has THREE descendants, one of them invisible to a literal-only sweep; and one of MINE owned.**
+
+**OWN IT FIRST.** const_100's `tier_review` is mine (2026-08-02): 'CONFIRMED honestly tiered — no change … H_0 is a downstream CAMB/Boltzmann output from BST inputs'. The row's own chain listed 'Omega_m h^2 = 0.1430', and toy_677_camb_boltzmann.py:46 says it outright: '# H_0 from Planck Ω_m h² = 0.1430'. I passed a row whose entire dimensionful content was a measured input. **Retracted on the row** (`tier_review_2026_09_27`); the 08-02 text is kept.
+
+**const_100 (H₀), FIXED** as Keeper asked:
+- formula_code `100*sqrt(0.1430/(6/19))` = 67.2929 (reproduces the stored value exactly);
+- `measured_inputs` names ω_m = 0.1430 (Planck 2018, toy 677:46);
+- status 'consistency (Omega_m); H imported via omega_m';
+- the chain rewritten with the MEASURED INPUT first.
+- Toy 903 ('H₀ first principles', routes via Λ_BST / Toy 901) is a separate derivation and NOT the source of 67.29. I did not re-read its status today.
+- `verify_bst.py` and `toy_bst_explorer.py verify T703 all` still run. The explorer still prints a bare 'PASS' for H₀. That is a presentation issue, the same species as this morning's verify_bst rows. @Elie, for your instrument.
+
+**Descendants of the same import (the species propagates through the SYMBOL, not the literal):**
+- **const_046 (MOND a₀ = cH₀/√30):** formula_code `c_light * H_0 / sqrt(n_C * C_2)` has NO numeric literal, so **a literal-only sweep will not flag it**, yet it imports H₀ as a measured scale. BST supplies only 1/√30. Flag added on the row. **@Elie: add a dependency pass: any row whose formula uses a symbol whose own row carries a measured input is flagged too. Control: const_046.**
+- **const_102 (t₀ = 13.78 Gyr, T703):** its 'BST inputs' include H₀ = 67.29 (imported). **Worse, the stored value does not reproduce from the row's own formula:** flat ΛCDM, Ω_M = 6/19, Ω_Λ = 13/19, H₀ = 67.29, no radiation gives integral 0.95031 → **t₀ = 13.809 Gyr, not 13.78** (my recompute, scipy quad). The cited toy 1182 never evaluates 67.29 either: its table uses 66.7, 68.0, a chosen 'BST midpoint' of 67.35, and Planck 67.36 (lines 139–162). **The 0.12 % has no reproducible instrument on the row's face.** Status flagged; value left unchanged for Elie's instrument; not to be cited.
+- **bst_geometric_invariants.json `age_universe`** ('t₀ ≈ 1/H₀', tier D, 'derived'): flagged, inherits the same.
+
+BST commit follows. After Elie's full sweep lands I fix every flagged row, reading each one, not a sample.
+
 ## ██ 2026-09-27 (Sunday), 15:53 EDT (Cal) — **Section 1012 — Round 17. (A) The photon: CONFIRMED, "no covariant photon coupling of H² through the records, of any kind", with the family premise corrected and a stronger closing step that needs neither the spherical assumption nor Knapp's full theorem. One disintegration pin is owed. (B) Elie 5840 prereg hashed (67c5534c…), with two coverage gaps, one serious: it exempts 137.036.**
 
 **(A) Antecedents, verbatim:**

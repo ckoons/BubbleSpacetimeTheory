@@ -2320,7 +2320,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.4%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "inherited_input_flag_2026_09_27": "Grace 15:52 (round 17): uses the symbol H_0, whose stored value (const_100) carries Planck's measured omega_m = 0.1430 (K1937 Part 2). a_0 = c*H_0/sqrt(30) therefore imports H_0 as a MEASURED scale; BST supplies only the factor 1/sqrt(n_C*C_2). A literal-only sweep of formula_code will not flag this row (no numeric literal); dependency on a flagged symbol must be checked too."
   },
   {
    "id": "const_047",
@@ -4576,9 +4577,9 @@
    "theorem_id": "T703",
    "name": "Hubble constant H_0",
    "symbol": "H_0",
-   "formula_latex": "H_0 \\text{ from } \\Omega_\\Lambda = 13/19, \\Omega_b = 18/361",
-   "formula_display": "H_0 = 67.29 km/s/Mpc from BST LCDM (Omega_Lambda = 13/19, Omega_b = 18/361, n_s = 1 - 5/137)",
-   "formula_code": "67.29",
+   "formula_latex": "H_0 = 100\\sqrt{\\omega_m^{\\rm Planck}/\\Omega_m^{\\rm BST}},\\ \\omega_m^{\\rm Planck}=\\Omega_m h^2=0.1430\\ (\\text{measured}),\\ \\Omega_m^{\\rm BST}=6/19",
+   "formula_display": "H_0 = 100*sqrt(omega_m/Omega_m) km/s/Mpc with omega_m = Omega_m h^2 = 0.1430 MEASURED (Planck 2018) and Omega_m = 6/19 (BST)",
+   "formula_code": "100*sqrt(0.1430/(6/19))",
    "bst_value": 67.29,
    "observed_value": 67.36,
    "observed_source": "Planck 2018",
@@ -4593,12 +4594,12 @@
     "N_c"
    ],
    "derivation_chain": [
-    "BST derives: Omega_Lambda = 13/19, Omega_b = 18/361, n_s = 1 - 5/137",
-    "Full CAMB Boltzmann code with BST inputs: Omega_m h^2 = 0.1430",
-    "H_0 = 67.29 km/s/Mpc vs Planck 67.36 (0.10%)",
-    "Full chi^2/N = 0.01 over 2500 CMB multipoles (Toy 677)"
+    "MEASURED INPUT: omega_m = Omega_m h^2 = 0.1430 (Planck 2018; toy 677 line 46)",
+    "BST: Omega_m = 6/19",
+    "H_0 = 100*sqrt(omega_m/Omega_m) = 67.29 km/s/Mpc (identity; no BST dimensionful input)",
+    "Compare Planck 67.36: the 0.10% is Omega_m(BST) vs Omega_m(Planck) through the same omega_m"
    ],
-   "mechanism": "Hubble constant from BST-derived LCDM parameters through full Boltzmann code. 0.10% from Planck.",
+   "mechanism": "NOT a prediction of H. 100*sqrt(0.1430/(6/19)) = 67.2929 reproduces the stored value exactly: all dimensionful content is Planck's measured omega_m; BST supplies only Omega_m = 6/19. The 0.10% agreement with Planck's H_0 restates Omega_m(BST) vs Omega_m(Planck) through the same omega_m. Toy 903's routes (H_0 from Lambda_BST via Toy 901) are a separate derivation, not the source of 67.29; their status is not re-read here.",
    "domain": "cosmology",
    "source_section": "Section 14",
    "source_theorems": [
@@ -4608,15 +4609,19 @@
     677,
     903
    ],
-   "status": "derived",
+   "status": "consistency (Omega_m); H imported via omega_m",
    "ace": "(1,0)",
    "tier_review": "TIER-REFRESH (Grace, 2026-08-02): CONFIRMED honestly tiered — no change. H_0 is a downstream CAMB/Boltzmann output from BST inputs {Ω_Λ, Ω_b, n_s}; the propagation is standard physics (no BST-specific forcing), so its tier is INHERITED, bounded by the weakest input (Ω_Λ PD, n_s PD). 'Identified' is honest/conservative. Calibrate-both-directions: this one PASSES, not everything demotes. Ω_b=18/361=Ω_m/(1+16/3) similarly downstream.",
-   "publication_tier": "Structure-Derived (form forced; value set by the named input)",
+   "publication_tier": "Consistency (tests Omega_m = 6/19 against Planck, restated in km/s/Mpc; the dimensionful content is the measured omega_m)",
    "observed_uncertainty": null,
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.10%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "omega_m = Omega_m h^2 = 0.1430 (Planck 2018; toy_677_camb_boltzmann.py:46 '# H_0 from Planck Ω_m h² = 0.1430')"
+   ],
+   "tier_review_2026_09_27": "GRACE RETRACTION, 2026-09-27 15:52 (round 17; K1937 Part 2): my 2026-08-02 TIER-REFRESH ('CONFIRMED honestly tiered — no change … H_0 is a downstream CAMB/Boltzmann output from BST inputs') was WRONG in its reason: the chain's own step 'Omega_m h^2 = 0.1430' is Planck's MEASURED omega_m (toy 677:46), not a BST output, and 100*sqrt(0.1430/(6/19)) = 67.29 exactly (Keeper K1937; recomputed by Grace). A consistency check of Omega_m, not a derivation of H. Formula and status now name the input on the face; the 08-02 text is kept."
   },
   {
    "id": "const_101",
@@ -4700,14 +4705,18 @@
    "source_toys": [
     1182
    ],
-   "status": "derived",
+   "status": "consistency (Omega_Lambda); H imported via omega_m (const_100); stored value NOT reproduced",
    "ace": "(1,0)",
    "publication_tier": "Structure-Derived (form forced; value set by the named input)",
    "observed_uncertainty": null,
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.12%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "H_0 = 67.29, which is 100*sqrt(omega_m/(6/19)) with Planck's MEASURED omega_m = 0.1430 (const_100; K1937 Part 2)"
+   ],
+   "reproduction_flag_2026_09_27": "Grace 15:53 (round 17): (1) the row's H_0 = 67.29 imports Planck's omega_m (const_100). (2) The stored 13.78 is NOT reproduced by the row's own formula: flat LCDM, Omega_M = 6/19, Omega_Lambda = 13/19, H_0 = 67.29, no radiation → integral 0.95031 → t_0 = 13.809 Gyr (scipy quad; Grace recompute). (3) The cited source, toy 1182, never evaluates H_0 = 67.29: its table uses 66.7, 68.0, a 'BST midpoint' 67.35 and Planck 67.36 (lines 139-162). The 0.12% therefore has no reproducible instrument on the row's face. Value left unchanged pending Elie's round-17 instrument; not to be cited."
   },
   {
    "id": "const_103",
