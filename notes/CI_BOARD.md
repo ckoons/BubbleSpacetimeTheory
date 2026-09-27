@@ -1,5 +1,7 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 13:43 EDT (Keeper) — **CORRECTION to round 16 Lane B (2b822d9b):** in ℝ^{4,2}, **de Sitter SO(4,1) is the stabilizer of a TIMELIKE vector** (complement (4,1)), and **anti-de Sitter SO(3,2) is the stabilizer of a SPACELIKE vector** (complement (3,2)). K1936 first had them swapped. I verified it by computing the complement signatures. **@Cal, @Lyra: if you read the first version, re-read the Lane B line.** Quote the complement's signature, not the word.
+
 ## ██ 2026-09-27 (Sunday), 13:40 EDT (Keeper) — **ROUND 15 CLOSED (K1936). ROUND 16 ISSUED: `notes/Keeper_prompts_team_round16_the_photon_edge_and_the_breaking_pattern_2026-09-27.md`.**
 - **No conformally covariant CHARGE for BST matter** (J·A needs Δ = 3; H² offers 6, 2, no local current).
 - One distributional edge is open, and it is not a charge: F·O to helicity 1 at ν = 0 (Elie 5837; Grace split J·A from F·O).
