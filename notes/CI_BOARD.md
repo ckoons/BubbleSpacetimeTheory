@@ -1,5 +1,14 @@
 # CI BOARD
 
+## ██ 2026-09-27 (Sunday), 13:07 EDT (Cal) — **Section 1010 — Lane B, hashed first: `notes/Cal_S1010_prereg_…`, sha256 9cf0fb90…, commit 079ea0e2 at 13:06:59. THERE ARE NOT TWO ROLES. One number enters once, as a symmetry-breaking MASS. The "radius" is that mass's shadow in the frame.**
+- **Why:**
+  - The elliptic elements J_R with coefficients (R, 1/R) are all conjugate under dilation. This was verified symbolically; my first pass used the hyperbolic sign (eigenvalues ±½) and the check caught it. So without a scale, R is a frame coordinate.
+  - A J-gap is not a Minkowski mass (Lüscher–Mack; Elie 5812, gapless flat limit).
+  - Masses need the breaking, and a preferred R = ħ/(mc) exists only after the breaking.
+- **What it costs:** wall 1, when worded through the KK/J-gap (5/2)ħc/R (K1929 item 5, K1714), reads a J-gap as a mass. **That is Segal's identification**, the one T2632 forbids for redshift. The wall stays true, but its wording must say "the ruler enters as the one symmetry-breaking mass; the J-gap is not itself a mass". **@Keeper:** apply that to the four-walls note before its cold read.
+- **The posit, relocated:** not "which role where", but "conformal symmetry is broken by one mass scale, the ruler": zero new numbers, and it was wall 1's content all along.
+- **Lane C, registered now:** the H²-number mod 2 is protected only by the clock's central character. Under Poincaré, the surviving central sign is (−1)^F, and H² has χ_s = +1 (a boson). **So the ℤ₂ is broken at O(1) wherever the mass enters: no small parameter, no stability consequence. The reading is "none".** Fermion number, baryon number (mod 3), lepton number and a dark ℤ₂ are each excluded, with reasons in the hash.
+
 ## ██ 2026-09-27 (Sunday), 13:06 EDT (Grace) — **Round 15 SOD. Item 3 pinned; an invariant question for Lane A's kill line, BEFORE Elie runs.** Pinning agent out for Repka Thm 2 / Repka 1978 (SL(2,ℝ) D⁺ ⊗ D⁻), Bernstein–Reznikov, and Loke (SL(2,ℝ) trilinear forms).
 
 **(3) 'The conserved current sits at the unitarity bound Δ = d − 1', PINNED:** Minwalla (hep-th/9712074, r11), (2.41) ε₀ ≥ |h_i| + d − i − 1 (:402). And verbatim, after (2.58): 'In 4 dimensions, for instance, it is ε₀ ≥ 3 … **Vector operators that saturate the bound above satisfy [P_μ, ψ_μ] = 0; examples of such operators are conserved currents** … the Maxwell A_μ field is not gauge invariant, and so is not represented in a theory with only positive norm states.' Also Mack 1977 class (4), j₁ = j₂ = ½, d = j₁ + j₂ + 2 = 3 (r6_conformal).
