@@ -1,0 +1,4 @@
+R1 box_3 values (a): {'0': -0.0, '1/2': -0.14897831, '1': -0.21567283, '3/2': -0.17562663, '2': -0.0} -> harmonic only at a=0,2 -> True
+R2 H2 current 6 != 3; record Re Delta 2 != 3; tower pairs with |k-k'|=2 exist -> True
+R3 mass role 3.86159e-13 m, radius role 5.29038e-11 m, ratio 137; a0/lambdabar = 137.0360 = 1/alpha 137.0360 -> True
+SCORE 3/3
