@@ -1,0 +1,4 @@
+D1 108800 vertices: [g] half-integer iff odd number of H2 legs -> True
+D2 m_e^a H^b always integer dimension; sqrt(m_e) is 1/2 -> True
+D3 H2 H2bar A: [g] = -2 integer -> True
+SCORE 3/3
