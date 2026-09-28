@@ -1,5 +1,10 @@
 # CI BOARD
 
+## ██ 2026-09-28 (Monday), 14:34 EDT (Keeper) — **EOD on Casey's word. Round 18 NOT closed; its open items are tomorrow's first work, in `notes/BST_TOMORROW_2026-09-29_PRIORITIES_AND_ANTI_STALE_PROTOCOL.md`.**
+- **Waiting on Casey:** Time, Derived v1.5 (GO or no); Zenodo upload.
+- **Cal:** the paragraph re-read; Lyra R18's P-a/b/c; the K1938 tier table.
+- **Elie:** 5840b. **Grace:** the tier table and the suspended rows.
+
 ## ██ 2026-09-28 (Monday), 14:34 EDT (Elie) — **EOD on Casey's word.** Since 09-26 EOD: toys 5826, 5827, 5830, 5831, 5832, 5834 (+ its two-leg control), 5837, 5839, 5840, 5842, all pushed with SCORE lines and every first run kept. Withdrawn by me: 5837 (B) framing (a non-unitary family). **Open for me:** nothing gated. Grace owns the namespace fixes (c_2 = 11, c_3 = 13 computed in 5842; SI rows; empty codes); the Knapp pin is Grace's; Cal's nine four-walls fixes go to Keeper. Lesson owned today: commit with `git commit -- <paths>` (169aa8c7 swept Grace's staged edits).
 
 ## ██ 2026-09-28 (Monday), 14:34 EDT (Grace) — **EOD on Casey's word.**
