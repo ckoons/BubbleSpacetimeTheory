@@ -1,0 +1,50 @@
+R18 VISUAL TRANSCRIPTIONS (Grace lane, 2026-09-28 14:05 EDT)
+Rendered with pdftoppm -r 110 into png/. Each entry: source PDF page -> PNG -> transcription.
+pdftotext garbles fractions/subscripts; these transcriptions are read off the PNGs.
+
+[V1] arXiv:2301.04146v2 (Penedones-Salehi Vaziri-Sun), PDF p.6 (printed -4-), png/arxiv_2301.04146_p6-06.png
+Table 1.4 (caption says "into UIRs of SO(2,d+1)" -- typo in source; the table header reads SO(2,d+1) -> SO(1,d+1)):
+   SO(2,d+1) -> SO(1,d+1) |  R_{~Delta,0}                              | R_{~Delta,l}
+   d = 1                  |  Int_Delta P_Delta  (+)  C_{1-~Delta}       | Int_Delta P_Delta (+) Sum_{k=1}^{|l|} D_k^{sign(l)}
+   d = 2                  |  Int_Delta P_{Delta,0} (+) C_{2-~Delta}     | Sum_{|m|<=l} Int_Delta P_{Delta,m}
+   d >= 3                 |  Int_Delta P_{Delta,0} (+) C_{d-~Delta,0} ^7| Sum_{s=0}^{l} Int_Delta P_{Delta,s} ^8
+ "Int_Delta is a sum over all principal series with Delta = d/2 + i lambda and lambda in R_{>=0}."
+ Footnote 7 (PDF p.5): "A complementary series is present if and only if ~Delta < d/2."
+
+[V2] arXiv:2301.04146v2, PDF p.54 (printed -52-), png/arxiv_2301.04146_p54-54.png
+ (5.33)  [e^{-(Delta-d/2)|t|} - e^{-(Delta'-d/2)|t|}] / (1 - e^{-|t|}) = Int_R dlambda K_rel(lambda) e^{i lambda t}
+ (5.34)  K_rel(lambda) = (1/2pi) Sum_{+/-} [ psi(Delta' - d/2 +/- i lambda) - psi(Delta - d/2 +/- i lambda) ]     [for Delta, Delta' > d/2]
+ (5.35)  (d-1)/2 < Delta < d/2 :  LHS(5.33) = Int_R dlambda K_rel e^{i lambda t} + [e^{-(Delta-d/2)t} + e^{(Delta-d/2)t}]/(1-e^{-|t|})
+ (5.36)  Theta^{SO(2,d+1)}_{R_Delta} - Theta^{SO(2,d+1)}_{R_Delta'} = Int_0^inf dlambda K_rel(lambda) Theta^{SO(1,d+1)}_{Delta_lambda} + Theta^{SO(1,d+1)}_{d-Delta}
+  "which suggests Delta_c = d/2 and the existence of a single complementary series representation C_{d-Delta} in R_Delta when (d-1)/2 < Delta < d/2."
+ (5.38)  C|phi_n) = (1/2)(4n(n+Delta)+(d+1)Delta)|phi_n) + (1/4)|phi_{n+1}) + 4n(n+Delta-1)(n+(d-1)/2)(n+Delta-(d+1)/2)|phi_{n-1})
+
+[V3] arXiv:2301.04146v2, PDF p.55 (printed -53-), png/arxiv_2301.04146_p55-55.png
+ (5.39)  Q_nn = 2n(n+Delta) + (1/2)(d+1)Delta ;  Q_{n+1,n} = Q_{n,n+1} = sqrt[(n+1)(n+Delta)(n+(d+1)/2)(n+Delta-(d-1)/2)]
+ q_lambda = d^2/4 + lambda^2 ; continuous spectrum of C^{SO(1,d+1)} on [d^2/4, inf).
+ Fig 5.3 caption (dS4, SO(1,4)): gray line Q = Delta(3-Delta); dashed line Q = 9/4.
+
+[V4] arXiv:2306.00090v5 (Loparco-Penedones-Salehi Vaziri-Sun), PDF p.54 (printed -52-), png/arxiv_2306.00090_p54-054.png
+ (5.47)  rho^{P,0}_O(lambda) = c_O * 2^{1+d-2Delta} pi^{(d-1)/2} Gamma(-d/2 + Delta +/- i lambda) / [Gamma(Delta) Gamma((1-d)/2 + Delta)] * lambda sinh(pi lambda)
+         (Gamma(a +/- b) = product of both signs; Delta here is the bold CFT dimension)
+ (5.48)  lambda = +/- i (Delta - d/2)
+ (5.49)  Delta > (d-1)/2
+ (5.50)  <O(Y1)O(Y2)> = Int_R dlambda rho^{P,0}_O(lambda) G_{lambda,0}(Y1,Y2) + theta(d/2 - Delta) rho^{C,0}_O G_{i(Delta-d/2),0}(Y1,Y2)
+ (5.51)  rho^{C,0}_O = c_O 4 pi^{d/2} Gamma(1 - d/2 + Delta) sin(pi/2 (d - 2Delta)) / Gamma(Delta) = 4 pi i Res_{lambda = i(Delta-d/2)} rho^P_O(lambda)
+ (5.52)  at Delta = (d-1)/2: rho^{P,0}_O = 0 and <OO> = rho^{C,0}_O G_{i(Delta-d/2),0}  ("conformally coupled scalar in dS_{d+1}")
+
+[V5] arXiv:1202.5743v2 (Kobayashi-Oshima), PDF p.14, png/arxiv_1202.5743_p14-14.png
+ Table 1 row:  g = so(m,n) ;  g^sigma = so(m,k) (+) so(n-k)  (m > 1) ;  minimal: (*) ;  A_q(lambda): circle (present)
+ (*) : minimal reps of so(m,n) exist iff m+n even, m,n>=2, m+n>=8; or (m,n)=(3,2l),(2l,3), l>=2; or (2,2l+1),(2l+1,2), l>=1.
+ => (so(4,2), so(4,1)) with m=4,n=2,k=1 IS in Table 1 (A_q(lambda) column circled; minimal column not satisfied since 4+2<8).
+
+[V6] arXiv:math/0111085v1 (Kobayashi-Orsted II), PDF p.13, png/arxiv_math_0111085_p13-13.png
+ Theorem 7.1. Let p+q in 2N. If q'' >= 1 and q'+q'' = q:
+ (7.1.1) varpi^{p,q}|_{O(p,q') x O(q'')} ~= Sum^{(+)}_{l>=0} pi^{p,q'}_{+, l+q''/2-1} [x] pi^{0,q''}_{-, l+q''/2-1}
+                                        ~= Sum^{(+)}_{l>=0} pi^{p,q'}_{+, l+q''/2-1} [x] H^l(R^{q''})
+ (7.2.1) (PDF p.14, text layer line 839; stated under "q >= 3" for simplicity):
+         varpi^{p,q}|_{O(p,q-1) x O(1)} ~= pi^{p,q-1}_{+,-1/2} [x] 1  (+)  pi^{p,q-1}_{+,1/2} [x] sgn
+
+[V7] arXiv:math/0607002v1 (Kobayashi), PDF p.24, png/arxiv_math_0607002_p24-24.png
+ Table 3.4.2 (anti-holomorphic type): so(2,n) | so(1,p) + so(1,n-p)
+ Table 3.4.1 (holomorphic type, PDF p.23 text line 1073): so(2,n) | so(2,p) + so(n-p)

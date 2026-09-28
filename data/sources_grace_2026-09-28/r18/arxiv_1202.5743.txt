@@ -1,0 +1,1056 @@
+                                          CLASSIFICATION OF SYMMETRIC PAIRS WITH DISCRETELY
+                                             DECOMPOSABLE RESTRICTIONS OF (g, K)-MODULES
+
+
+
+
+arXiv:1202.5743v2 [math.RT] 15 May 2013
+                                                             TOSHIYUKI KOBAYASHI∗ AND YOSHIKI OSHIMA∗∗
+
+
+
+
+                                                   Abstract. We give a complete classification of reductive symmetric pairs
+                                                   (g, h) with the following property: there exists at least one infinite-dimensional
+                                                   irreducible (g, K)-module X that is discretely decomposable as an (h, H ∩ K)-
+                                                   module.
+                                                       We investigate further if such X can be taken to be a minimal representa-
+                                                   tion, a Zuckerman derived functor module Aq (λ), or some other unitarizable
+                                                   (g, K)-module. The tensor product π1 ⊗ π2 of two infinite-dimensional irre-
+                                                   ducible (g, K)-modules arises as a very special case of our setting. In this
+                                                   case, we prove that π1 ⊗ π2 is discretely decomposable if and only if they are
+                                                   simultaneously highest weight modules.
+
+
+                                                                                 1. Introduction
+                                             The subject of this article is discretely decomposable restrictions of irreducible
+                                          representations with respect to symmetric pairs.
+                                             In order to explain our motivation, we begin by confining ourselves to unitary
+                                          representations. Let π be an irreducible unitary representation of a Lie group G,
+                                          and H a subgroup in G. We may think of π as a representation of the subgroup
+                                          H, denoted simply by π|H . Then the restriction π|H is no longer irreducible in
+                                          general, but is unitarily equivalent to a direct integral of irreducible unitary repre-
+                                          sentations of H, possibly with continuous spectrum. Branching problems ask how
+                                          the restriction π|H decomposes.
+                                             In the case where (G, H) is a pair of real reductive Lie groups, we can take K
+                                          and H ∩ K to be maximal compact subgroups of G and H, respectively. Then,
+                                          as an algebraic analogue of branching problems of unitary representations, we may
+                                          consider how the underlying (g, K)-module X of π behaves as an (h, H ∩K)-module
+                                          in the category of Harish-Chandra modules. We proved in [12] that either (1) occurs
+                                          or (2) occurs:
+                                              (1) X is discretely decomposable as an (h, H ∩ K)-module.
+                                              (2) Homh,H∩K (Y, X) = 0 for any irreducible (h, H ∩ K)-module Y .
+                                          The case (1) fits well into algebraic approach to branching problems. In this case,
+                                          the branching laws of the restrictions of π and X coincide in the following sense:
+                                                                       X⊕
+                                                         π|H         ≃       mπ (τ )τ     (Hilbert direct sum),
+                                                                             b
+                                                                          τ ∈H
+                                                                          M
+                                                          X|(h,H∩K) ≃            mπ (τ )τH∩K     (algebraic direct sum),
+                                                                             b
+                                                                          τ ∈H
+
+
+                                              Key words and phrases. real reductive group, branching law, symmetric pair, minimal repre-
+                                          sentation, Harish-Chandra module, discretely decomposable restriction, nilpotent variety.
+                                              2010 MSC: Primary 22E46; Secondary 53C35.
+                                              * Partially supported by Grant-in-Aid for Scientific Research (B) (22340026), Japan Society
+                                          for the Promotion of Science.
+                                              ** Supported by Grant-in-Aid for JSPS Fellows.
+                                                                                           1
+2                    TOSHIYUKI KOBAYASHI AND YOSHIKI OSHIMA
+
+
+where H b denotes the set of equivalence classes of irreducible unitary representations
+of H, τH∩K is the underlying (h, H ∩ K)-module of τ , and the multiplicity mπ (τ )
+is the same in both the analytic and algebraic branching laws [14]. On the other
+hand, the case (2) occurs if the irreducible decomposition of the restriction π|H
+involves continuous spectrum.
+   More generally, the feature of the restriction of irreducible (g, K)-modules X
+remains essentially the same as (h, H ∩ K)-modules without assuming unitarizabil-
+ity. Namely, either (1) or (2) occurs for any irreducible (g, K)-module X even if X
+does not come from a unitary representation of the group G (we note that ‘discrete
+decomposability’ in Definition 2.1 is slightly weaker than ‘complete reducibility’).
+   Obviously (1) always holds for the pairs (G, H) with H = K because K is
+compact, whereas (1) never holds for the pair (G, H) = (SL(n, C), SL(n, R)) if
+dim X = ∞ ([12, Theorem 8.1]). Such pairs are examples of so-called symmetric
+pairs (G, Gσ ), where Gσ is the fixed point group of an involutive automorphism σ of
+G. The classification of reductive symmetric pairs was accomplished by M. Berger
+[1] on the Lie algebra level (g, gσ ).
+   In this paper we highlight the restriction of representations with respect to sym-
+metric pairs (G, Gσ ). The tensor product of two representations can be treated
+as a special case of this framework. Indeed, the ‘group case’ (G′ × G′ , diag G′ ) is
+a symmetric pair as diag G′ is the fixed point group of the involution σ given by
+σ(x, y) = (y, x). Thus branching laws with respect to symmetric pairs are thought
+of as a natural generalization of the irreducible decomposition of the tensor product
+representations.
+   We consider the following.
+Problem A. Classify all the reductive symmetric pairs (G, Gσ ) for which there
+exists at least one infinite-dimensional irreducible (g, K)-module X satisfying the
+property (1).
+    The problem reduces to the following two cases:
+       • g is a simple Lie algebra;
+       • (G, Gσ ) is the ‘group case’ (G′ × G′ , diag G′ ) with g′ simple.
+    Our main result of this paper is a complete solution to Problem A on the Lie
+algebra level. The classification is given in Theorem 5.2 for simple g, and in The-
+orem 6.1 for the ‘group case’. For simple g, we shall see that there is quite a
+rich family of such symmetric pairs (G, Gσ ) in addition to the obvious case where
+Gσ = K or where (g, gσ ) is of holomorphic type (Definition 5.1). See Table 1. Our
+list contains even the case where g is complex and gσ is its real form (Corollary 5.9).
+    In the course of the proof, we need a finer understanding of the (g, K)-modules
+X that are discretely decomposable as (gσ , K σ )-modules (cf. [10, 11, 12]):
+Problem B. Let (g, gσ ) be a reductive symmetric pair. Which infinite-dimensional
+irreducible (g, K)-modules X are discretely decomposable as (gσ , K σ )-modules?
+   Problem B was solved previously when X is any Zuckerman derived functor mod-
+ule Aq (λ), which is cohomologically induced from a θ-stable parabolic subalgebra
+q of gC : we gave a necessary and sufficient condition for discrete decomposability
+in [10, 12], and a complete classification of the triples (g, gσ , q) such that Aq (λ) is
+discretely decomposable as a (gσ , K σ )-module in a recent paper [20]. We then ob-
+served that there exist symmetric pairs (g, gσ ) for which none of Aq (λ) is discretely
+decomposable as a (gσ , K σ )-module except for q = gC . Even so, however, some
+other (g, K)-modules X might satisfy the property (1). This happens, for example,
+when g is a split real form of eC    C        C
+                                6 , e7 , and e8 . This observation has brought us to
+focus on Problem B for some other ‘small’ representations X as well. In particular,
+           SYMMETRIC PAIRS WITH DISCRETELY DECOMPOSABLE MODULES                                3
+
+
+we prove an easy-to-check criterion in Theorem 4.14 for discrete decomposability
+of a minimal representation X. These results serve as a part of the proof of our
+main results.
+   One might wonder in Problem B whether or not it is possible to find such a unita-
+rizable (g, K)-module X if there exists at least one such (possibly, non-unitarizable)
+X. We shall show in Corollary 5.8 that this is always possible. (Notice that the
+classification of unitarizable irreducible (g, K)-modules is a long-standing problem
+in representation theory. Fortunately, it turns out that previous achievements on
+this unsolved problem suffice to obtain Corollary 5.8.)
+   Finally, we prove in Theorem 6.1 that the tensor product of two infinite-dimensional
+irreducible (g, K)-modules is discretely decomposable if and only if G/K is a Her-
+mitian symmetric space and these modules are simultaneously highest weight mod-
+ules or they are simultaneously lowest weight modules. This is in sharp contrast to
+the solution to Problem A for symmetric pairs (g, gσ ) with g simple: in this case
+there exist quite often a family of irreducible (g, K)-modules X that are discretely
+decomposable as (gσ , K σ )-modules but that are neither highest weight modules nor
+lowest weight modules.
+   In unitary representation theory of real reductive groups, it is in general a hard
+problem to find branching laws. Even the tensor product of two irreducible unitary
+representations, which is a special case of the restriction to symmetric pairs, seems
+to be too wide for detailed analysis because of its wild feature like infinite multiplici-
+ties in its irreducible decomposition for both discrete and continuous spectrum, and
+the branching problem has been far from being solved. Our motivation to highlight
+discretely decomposable restrictions is to single out a very nice framework among
+general branching problems for unitary representations, in which we could expect
+a detailed study, and in which even a purely algebraic approach would make sense.
+See [2, 4, 9, 10, 15, 18, 19, 24] for explicit branching laws in various settings in the
+discretely decomposable case.
+   The significance of discretely decomposable branching laws is not limited inside
+representation theory in the narrow sense. Restrictions of representations arise nat-
+urally from geometric settings. In particular, discretely decomposable restrictions
+have found their applications in the following different areas of mathematics in
+recent years:
+
+      • modular varieties — vanishing theorems of cohomologies [17],
+      • construction of new discrete series for non-symmetric spaces [10],
+      • spectral analysis on non-Riemannian locally symmetric spaces [8],
+      • parabolic geometry — construction of equivariant differential operators [16].
+
+   The (g, K)-modules with the smallest Gelfand–Kirillov dimension (e.g. minimal
+representations) are especially interesting in the context of discretely decomposable
+restrictions. As we will formulate precisely in this article, minimal representations
+are the most likely to be discretely decomposable. Moreover, we can observe from
+some examples that the branching laws of minimal representations become fairly
+simple. The Segal–Shale–Weil representation is a minimal representation of the
+metaplectic group and its restrictions to subgroups have been particularly well-
+studied in the connection of Howe’s dual pair correspondence. The restrictions
+of the minimal representation of indefinite orthogonal group O(p, q) to symmetric
+subgroups O(p′ , q ′ ) × O(p′′ , q ′′ ) were studied in [18]. If one of p′ , q ′ , p′′ or q ′′ is
+zero, the minimal representation is discretely decomposable and is a direct sum
+of Zuckerman derived functor modules. Moreover, the Parseval–Plancherel type
+theorem explains the unitary structure for the minimal representations in terms
+of those for Zuckerman derived functor modules. The classification theorem of
+4                    TOSHIYUKI KOBAYASHI AND YOSHIKI OSHIMA
+
+
+this article would suggest a further study of both algebraic and analytic nature of
+branching laws for minimal representations in more general cases.
+   Here is a brief outline of the article. Loosely speaking, the ‘smaller’ X is, the
+more likely the restriction X|(h,H∩K) is discretely decomposable. We formulate
+this feature by using associated varieties of (g, K)-modules. For this purpose, some
+basic properties of associated varieties are given in Section 3. We review a general
+necessary condition (Fact 4.3) and a general sufficient condition (Fact 4.4) for the
+discrete decomposability of restrictions in Section 4. We apply them to the case
+that X attains the minimum of the Gelfand–Kirillov dimension, and obtain a sim-
+ple criterion for discrete decomposability in this case (Theorem 4.10). The main
+theorem (classification) is given in Section 5. Concerning the tensor product of two
+irreducible representations, Problems A and B are solved completely in Section 6.
+
+   h Acknowledgement i The authors would like to thank the American Insti-
+tute of Mathematics for supporting the workshop “Branching Problems for Unitary
+Representations” (July, 2011) and the Max Planck Institute for Mathematics for
+their hospitality, where a part of this project was carried out.
+
+
+                                   2. Preliminaries
+    Let G be a connected real reductive Lie group with Lie algebra g. We fix a
+Cartan decomposition g = k + p, write gC = kC + pC for its complexification,
+g∗C = k∗C + p∗C for the dual space, and K for the connected subgroup of G with Lie
+algebra k. We denote by KC the subgroup of the inner automorphism group Int gC
+of gC generated by exp(ad(kC )). Notice K is not necessarily a subgroup of KC , but
+there is a natural morphism K → KC . The adjoint group KC acts canonically on
+pC and on the dual space p∗C . We take a Cartan subalgebra t of k and choose a
+positive system ∆+ (kC , tC ). Let BK be the Borel subgroup of KC corresponding to
+the positive roots.
+    Let N (g∗C ) be the nilpotent variety of the dual space g∗C , and set N (p∗C ) :=
+N (g∗C )∩p∗C . By Kostant–Rallis [21], there are only finitely many KC -orbits in N (p∗C )
+and each orbit is stable under multiplication by C× . Write the orbit decomposition
+as N (p∗C ) = {0} ⊔ O1 ⊔ · · · ⊔ On . We say that Oi is minimal if it is minimal among
+O1 , . . . , On with respect to the closure relation, or equivalently, if the closure of Oi
+is Oi ⊔ {0}.
+    A simple Lie group G or its Lie algebra g is said to be of Hermitian type if the
+associated Riemannian symmetric space G/K is a Hermitian symmetric space, or
+equivalently, if the center zK of k is one-dimensional. If G is of Hermitian type,
+the KC -module pC decomposes into two irreducible KC -modules: pC = p+ + p− ,
+and p− can be identified with the holomorphic tangent space at the base point in
+G/K. The decomposition p∗C = p∗+ + p∗− for the dual space is again an irreducible
+decomposition as KC -modules. The following notation will be used throughout the
+paper.
+
+Definition 2.1 (highest non-compact root). Let G be a non-compact connected
+simple Lie group.
+                                                                     ∗
+                 √ of ∗Hermitian type, then KC ∗acts irreducibly on pC and we denote
+    (1) If G is not
+        by β ∈ −1t the highest weight in pC .
+    (2) If G is of Hermitian type, we label√ the KC -irreducible decomposition as
+        pC = p+ + p− and denote by β ∈ −1t∗ the highest weight in p∗+ .
+
+  Since p∗C is isomorphic to pC as a KC -module by the Killing form, −β is also a
+weight in p∗C . For g of Hermitian type, p∗− is dual to p∗+ and therefore −β occurs in
+          SYMMETRIC PAIRS WITH DISCRETELY DECOMPOSABLE MODULES                        5
+
+
+p∗− . In either case, the weight spaces p∗β and p∗−β in p∗C are one-dimensional. Notice
+that β depends on the labeling p± in Definition 2.1 (2).
+    Here is a description of minimal KC -orbits in N (p∗C ).
+Proposition 2.2. Let G be a non-compact connected simple Lie group.
+   (1) If G is not of Hermitian type, then there is a unique minimal KC -orbit in
+       N (p∗C ), which is given by KC · (p∗β \ {0}).
+   (2) If G is of Hermitian type, then there are two minimal KC -orbits in N (p∗C ),
+       which are given by KC · (p∗β \ {0}) and KC · (p∗−β \ {0}). They have the same
+       dimension.
+Proof. (1) Suppose that G is not of Hermitian type. Then p∗C is an irreducible KC -
+module with highest weight β. Let Z be a non-zero KC -stable subset of N (p∗C ). To
+prove (1), it is enough to show that the closure Z of Z contains p∗β . Take a non-zero
+                                                                       P
+element x ∈ Z and write x as the sum of t-weight vectors in p∗C : x = α∈∆(p∗ ,tC ) xα .
+                                                                               C
+Since any non-zero BK -submodule of p∗C contains p∗β , we may assume that xβ 6= 0
+                                                                √
+by replacing x by bx (b ∈ BK ). We take an element a ∈ −1t that is regular
+dominant with respect to ∆+ (kC , tC ). Then α(a) ∈ R for any α ∈ ∆(p∗C , tC ) and
+β(a) > α(a) if α ∈ ∆(p∗C , tC ) \ {β}. Define x(s) := exp(ad(sa))(x) ∈ p∗C for s ∈ R.
+Then
+                                            X
+                    e−sβ(a) x(s) = xβ +              esα(a)−sβ(a) xα
+                                              C ,tC )\{β}
+                                         α∈∆(p∗
+
+and hence
+                                lim e−sβ(a) x(s) = xβ .
+                               s→∞
+Since any KC -stable subset of N (p∗C ) is stable under the multiplication by C× , the
+vector e−sβ(a) x(s) is contained in Z for all s ∈ R. As a consequence, Z ∋ xβ and
+therefore Z ⊃ p∗β .
+   (2) Suppose that G is of Hermitian type. Then p∗+ is an irreducible KC -module
+with highest weight β. Since p∗− is its contragredient representation, it is an irre-
+ducible KC -module with lowest weight −β. Let Z be a non-zero KC -stable subset
+of N (p∗C ). It is enough to show that Z ⊃ p∗β or Z ⊃ p∗−β . Take a non-zero element
+x = x+ + x− ∈ Z where x+ ∈ p∗+ and x− ∈ p∗− . We assume that x+ 6= 0. Let zK
+                                              √
+be the center of k and take an element z ∈ −1zK such that ad(z) = 1 on p∗+ and
+ad(z) = −1 on p∗− . Then by an argument similar to the case (1) we have
+                             lim e−s exp(ad(sz))x = x+
+                            s→∞
+
+and therefore Z ∋ x+ . By using a similar argument again, we see that the closure
+of KC · x contains xβ and hence Z ⊃ p∗β . If x+ = 0, then x− 6= 0 and we can prove
+similarly that Z ⊃ p∗−β .
+   We can switch the two orbits KC · (p∗β \ {0}) and KC · (p∗−β \ {0}) by taking the
+complex conjugates with respect to the real form g. In particular they have the
+same dimension.                                                                   
+  Proposition 2.2 justifies the following notation:
+               Omin :=KC · (p∗β \ {0})         (g: not of Hermitian type),
+            Omin,± :=KC · (p∗±β \ {0})         (g: Hermitian type).
+Their closures in p∗C are given by
+                      Omin = KC · p∗β ,       Omin,± = KC · p∗±β .
+  They are related to the minimal nilpotent coadjoint orbit in the following way.
+Suppose that gC is a complex simple Lie algebra. This is equivalent to assuming
+6                    TOSHIYUKI KOBAYASHI AND YOSHIKI OSHIMA
+
+
+that g is a simple real Lie algebra without complex structure. Then there exists a
+unique non-zero minimal nilpotent (Int gC )-orbit in g∗C , which we denote by Omin,C .
+Lemma 2.3. In the setting above, exactly one of the following cases occurs.
+     (1) Omin,C ∩ p∗C = ∅.
+     (2) g is not of Hermitian type and Omin,C ∩ p∗C = Omin.
+     (3) g is of Hermitian type and Omin,C ∩ p∗C = Omin,+ ∪ Omin,− .
+   This follows from the fact [21]: for any (Int gC )-orbit OC in the nilpotent variety
+N (g∗C ), the intersection OC ∩ p∗C is either empty or the union of a finite number of
+equi-dimensional KC -orbits O1 , . . . , Om , and the dimension of Oj (1 ≤ j ≤ m) is
+equal to half the dimension of OC . We note
+            Omin,C 6= (Int gC ) · Omin                             in Case (1),
+            Omin,C = (Int gC ) · Omin                              in Case (2),
+            Omin,C = (Int gC ) · Omin,+ = (Int gC ) · Omin,−       in Case (3).
+In Corollary 5.9, we provide six equivalent conditions to Case (1) including a classi-
+fication of such g. (Notice that the pair (gC , g) in Lemma 2.3 corresponds to (g, gσ )
+in the notation there.)
+   We define
+                         (
+                           dimC Omin      (g: not of Hermitian type),
+                m(g) :=
+                           dimC Omin,± (g: of Hermitian type).
+   For the reader’s convenience, we list explicit values of m(g). By the Kostant–
+Sekiguchi correspondence, m(g) coincides with half the dimension of the (real)
+minimal nilpotent coadjoint orbit(s) in g∗ . In Case (1) this is given in [22] as
+follows:
+      g   su∗ (2n) so(n − 1, 1)   sp(m, n)              f4(−20)   e6(−26)
+     m(g) 4n − 4      n−2       2(m + n) − 1               11        16
+    In Case (2) and Case (3), m(g) is determined only by the complexified Lie algebra
+gC : for g without complex structure we have m(g) = 12 dimC Omin,C . The dimension
+of the (complex) minimal nilpotent orbit dimC Omin,C is well-known. Thus we have:
+      gC  An      Bn (n ≥ 2) Cn       Dn      gC
+                                               2   fC
+                                                    4     eC
+                                                           6 eC
+                                                              7 eC
+                                                                 8
+     m(g) n        2n − 2    n       2n − 3    3    8     11 17 29
+    If g is a complex Lie algebra, m(g) is twice the number above (e.g. m(eC
+                                                                           8 ) = 58).
+
+
+                     3. Associated Varieties of g-modules
+   The associated varieties Vg (X) are a coarse approximation of g-modules X, which
+we brought in [12] into the study of discretely decomposable restrictions of Harish-
+Chandra modules. In this paper, we further develop its idea. For this, we collect
+some important properties of associated varieties that will be used in the later
+sections.
+   Let {Uj (gC )}j∈N be the standard increasing filtration of the universal enveloping
+algebra U (gC ). Suppose X is a finitely generated g-module X. A filtration {Xi }i∈N
+is called a good filtration if it satisfies the following conditions.
+         S
+       • i∈N Xi = X.
+       • Xi is finite-dimensional for any i ∈ N.
+       • Uj (gC )Xi ⊂ Xi+j for any i, j ∈ N.
+       • There exists n such that Uj (gC )Xi = Xi+j for any i ≥ n and j ∈ N.
+          SYMMETRIC PAIRS WITH DISCRETELY DECOMPOSABLE MODULES                         7
+
+                                    L
+   The graded algebra gr U (gC ) :=  j∈N Uj (gC )/Uj−1 (gC ) is isomorphic to the
+symmetric algebra S(gC ) byLthe Poincaré–Birkhoff–Witt theorem and we regard
+the graded module gr X := i∈N Xi /Xi−1 as an S(gC )-module. Define
+             AnnS(gC ) (gr X) := {f ∈ S(gC ) : f v = 0 for any v ∈ gr X},
+             Vg (X) := {x ∈ g∗C : f (x) = 0 for any f ∈ AnnS(gC ) (gr X)}.
+Then Vg (X) does not depend on the choice of good filtration and is called the
+associated variety of X.
+   The following basic properties on the associated variety are well-known.
+Lemma 3.1. Let X be a finitely generated g-module.
+  (1) If X is of finite length, then Vg (X) ⊂ N (g∗C ).
+  (2) Vg (X) = 0 if and only if X is finite-dimensional.
+   (3) Let h be a Lie subalgebra of gC . Then Vg (X) ⊂ h⊥ if h acts locally finitely
+       on X, where h⊥ := {x ∈ g∗C : x|h = 0}.
+  (1) and (3) imply that if X is a (g, K)-module of finite length, then Vg (X) is a
+KC -stable closed subvariety of N (p∗C ) because k⊥    ∗
+                                                  C = pC .
+  We may recall that there is another well-known variety in g∗C attached to a g-
+module X by using the annihilator ideal of X in U (gC ). Define the two-sided ideal
+                   Ann X := {f ∈ U (gC ) : f v = 0 for any v ∈ X}
+and view the quotient U (gC )/ Ann(X) as a g-module by the product from left. Then
+its associated variety Vg (U (gC )/ Ann X) is an (Int gC )-stable closed subvariety of
+g∗C . If X is irreducible, it is known that there is a unique nilpotent (Int gC )-orbit
+OC in g∗C such that OC = Vg (U (gC )/ Ann X). It should be noted that Vg (X) has
+more information about the original (g, K)-module X than Vg (U (g)/ Ann X), and
+we shall use Vg (X) for the study of branching problems. A relation between Vg (X)
+and Vg (U (gC )/ Ann X) for a (g, K)-module X is summarized as follows:
+Fact 3.2 ([27, Theorem 8.4]). Let X be an irreducible (g, K)-module. Let OC be
+as above. Then we have:
+    (1) Vg (X) ⊂ Vg (U (gC )/ Ann X) ∩ p∗C .
+    (2) OC ∩ p∗C is the union of a finite number of KC -orbits O1 , . . . , Om , each of
+        which has dimension equal to half the dimension of OC .
+    (3) Some of Oi are contained in Vg (X) and they are precisely the KC -orbits of
+        maximal dimension in Vg (X).
+   The Gelfand–Kirillov dimension of X, to be denoted by DIM(X), is defined to be
+the dimension of Vg (X), or equivalently, half the dimension of Vg (U (gC )/ Ann X). It
+follows from Proposition 2.2 that any infinite-dimensional (g, K)-module X satisfies
+DIM(X) ≥ m(g). The equality holds if and only if
+            (
+              Omin                                     (g: not of Hermitian type),
+   Vg (X) =
+              Omin,+ , Omin,− , or Omin,+ ∪ Omin,− (g: of Hermitian type).
+   Since Vg (X) is KC -stable, the space of regular functions O(Vg (X)) on Vg (X) can
+be viewed as a KC -module and hence as a K-module through the natural morphism
+K → KC . The following proposition shows that the K-type of a (g, K)-module X
+can be approximated by that of O(Vg (X)). We write X ≤ Y for K-modules X and
+                                                           K
+Y if dim HomK (τ, X) ≤ dim HomK (τ, Y ) for any irreducible K-module τ .
+Proposition 3.3. Let X be a finitely generated (g, K)-module. Then there exist
+finite-dimensional K-modules F and F ′ such that
+              X|K ≤ O(Vg (X)) ⊗ F,       and    O(Vg (X)) ≤ X|K ⊗ F ′ .
+                    K                                      K
+8                      TOSHIYUKI KOBAYASHI AND YOSHIKI OSHIMA
+
+
+Proof. Take a finite-dimensional K-submodule X0 of X such that U (gC )X0 = X.
+We get a good filtration {Xi := Ui (gC )X0 }i∈N of X, where Ui (g
+                                                                LC ) is the standard
+increasing filtration of U (gC ). The graded module gr X :=       i∈N Xi /Xi−1 is a
+finitely
+p        generated  S(p C )-module and is isomorphic to X  as a K-module.   Let I :=
+   AnnS(pC ) (gr X) be the radical of the annihilator of gr X. Then I is KC -stable
+and there is an isomorphism
+                                      O(Vg (X)) ≃ S(pC )/I
+of S(pC )-modules, which respects the actions of KC .
+   Put Xj′ := I j · gr X for j ≥ 0. Then there exists n such that Xn′ = 0. If n is the
+smallest such integer, we get a finite filtration:
+                           0 = Xn′ ⊂ Xn−1
+                                      ′
+                                          ⊂ · · · ⊂ X0′ = gr X
+                                 ′
+and each successive quotient Xj−1    /Xj′ is an (S(pC )/I)-module. Since Xj−1
+                                                                            ′
+                                                                                /Xj′
+is finitely generated as an (S(pC )/I)-module, we can take a finite-dimensional K-
+                     ′
+submodule Fj of Xj−1    /Xj′ such that the map (S(pC )/I) ⊗ Fj → Xj−1′
+                                                                        /Xj′ is sur-
+jective. Then we have
+                      ′
+                     Xj−1 /Xj′ ≤ (S(pC )/I) ⊗ Fj ≃ O(Vg (X)) ⊗ Fj
+                                 K
+and hence
+                 n
+                 M                     n
+                                       M                               n
+                                                                       M
+                        ′
+         X|K ≃         Xj−1 /Xj′ ≤       (S(pC )/I) ⊗ Fj ≃ O(Vg (X)) ⊗   Fj .
+                                 K
+                 j=1                   j=1                                            j=1
+                                                                         Ln
+The first inequality in the lemma follows by setting F = j=1 Fj .
+   Let us prove the opposite estimate. We write Vg (X) = Z1 ∪ · · · ∪ Zm for the
+irreducible decomposition, and Pi for the defining ideal of Zi in S(pC ). For each i, Zi
+and Pi are KC -stable because KC is connected. Since P1 , . . . , Pm are minimal prime
+ideals containing AnnS(pC ) (gr X), they are associated primes of the S(pC )-module
+gr X (see [3, Theorem 3.1]). This means that there exists an element vi ∈ gr X
+such that the kernel of the map S(pC ) → gr X, f 7→ f vi equals Pi . Let Fi be a
+finite-dimensional K-submodule of gr X that contains vi . Then we get a map
+                     ϕi : S(pC ) → HomC (Fi , gr X),            f 7→ (v 7→ f v),
+which respects the actions of K. Let evi be the evaluation map
+                       evi : HomC (Fi , gr X) → gr X,            α 7→ α(vi ).
+Then Ker(ϕi ) ⊂ Ker(evi ◦ϕi ) = Pi . As a consequence,
+                                m
+                                M                m
+                                                 M
+              O(Vg (X)) ≤             O(Zi ) ≃           S(pC )/Pi
+                            K
+                                i=1                i=1
+                                Mm                             m
+                                                               M
+                           ≤          S(pC )/ Ker(ϕi ) ≤             HomC (Fi , gr X).
+                            K                              K
+                                i=1                            i=1
+By combining these inequalities with the natural isomorphisms of K-modules
+            M m                     Mm                     Mm
+                HomC (Fi , gr X) ≃      gr X ⊗ Fi∗ ≃ X|K ⊗     Fi∗ ,
+               i=1                           i=1                              i=1
+                                                                                Lm        ∗
+we obtain the second inequality in the lemma by setting F ′ =                       i=1 Fi .   
+    An irreducible g-module X is called a highest weight module if there exists a
+Borel subalgebra b of gC such that X has a one-dimensional b-stable subspace. If a
+simple Lie group G allows an infinite-dimensional irreducible (g, K)-module which
+is simultaneously a highest weight module, then the group G must be of Hermitian
+          SYMMETRIC PAIRS WITH DISCRETELY DECOMPOSABLE MODULES                            9
+
+
+type and the Borel subalgebra b is compatible with the decomposition pC = p+ +p− ,
+namely, either b ⊃ p+ or b ⊃ p− holds.
+Definition 3.4. Suppose that G is a simple Lie group of Hermitian type. An
+irreducible (g, K)-module X is called a highest weight (g, K)-module (resp. lowest
+weight (g, K)-module) if X has a non-zero vector annihilated by p+ (resp. p− ).
+  The highest weight (g, K)-modules and the lowest weight (g, K)-modules are
+characterized by their associated varieties:
+Lemma 3.5. Suppose that G is a connected simple Lie group of Hermitian type,
+and X is an irreducible (g, K)-module. Then X is a highest weight (g, K)-module
+if and only if Vg (X) ⊂ p∗− . Likewise, X is a lowest weight (g, K)-module if and
+only if Vg (X) ⊂ p∗+ .
+Proof. If X is a highest weight (g, K)-module, Lemma 3.1 (3) gives Vg (X) ⊂ p∗C ∩
+(p+ )⊥ = p∗− .
+   Suppose that Vg (X) ⊂ p∗− . Then Proposition 3.3 yields an estimate of the K-
+type of X:
+(3.1)                    X|K ≤ O(Vg (X)) ⊗ F ≤ O(p∗− ) ⊗ F,
+                               K                  K
+where√ F is a finite-dimensional K-module. Let zK be the center of k and choose
+z ∈ −1zK such that ad(z) = 1 on p+ and ad(z) = −1 on p− . Since O(p∗− ) is
+isomorphic to the symmetric algebra S(p− ), the eigenvalues of z on O(p∗− ) are all
+negative. By (3.1), the set of eigenvalues of z on X is bounded above. Hence
+there exists a maximal eigenvalue of z and then p+ annihilates the corresponding
+eigenspace, which implies that X is a highest weight (g, K)-module.
+   The proof for lowest weight (g, K)-modules is similar.                        
+
+                          4. Discrete Decomposability
+   Let G be a real reductive Lie group and σ an involutive automorphism of G.
+Then σ induces involutions of the Lie algebra g, its complexification gC , the inner
+automorphism group Int gC , etc., for which we use the same letter σ. The subgroup
+Gσ := {g ∈ G : σ(g) = g} is a reductive Lie group with Lie algebra gσ = {x ∈
+g : σ(x) = x}, and the pair (G, H) is called a reductive symmetric pair if H is
+an open subgroup of Gσ . Since the discrete decomposability of the restriction (see
+Definition 4.1 below) does not depend on (finitely many) connected components of
+the subgroup, we shall consider the case H = Gσ without loss of generality. We
+can and do take a Cartan involution θ of G that commutes with σ. Then θ|Gσ is a
+Cartan involution of Gσ . We set K = Gθ and K σ = Gσ ∩ K.
+   The notion of discrete decomposability of g-modules was introduced in [12]. We
+apply it to the restriction with respect to symmetric pairs, from (g, K)-modules to
+(gσ , K σ )-modules.
+Definition 4.1. A (g, K)-module X is said to be discretely decomposable as a
+(gσ , K σ )-module if there exists an increasing filtration {Xi }i∈N of (gσ , K σ )-modules
+such that
+          S
+       • i∈N Xi = X and
+       • Xi is of finite length as a (gσ , K σ )-module for any i ∈ N.
+Discrete decomposability is preserved by taking submodules, quotients, and the
+tensor product with finite-dimensional representations.
+Remark 4.2 (see [12, Lemma 1.3]). Suppose that X is a unitarizable (g, K)-
+module. Then X is discretely decomposable as a (gσ , K σ )-module if and only if X
+is isomorphic to an algebraic direct sum of irreducible (g, K)-modules.
+10                  TOSHIYUKI KOBAYASHI AND YOSHIKI OSHIMA
+
+
+   We will state a necessary and a sufficient condition for the discrete decompos-
+ability, which were established in [11], [12].
+   We write
+                                    pr : g∗C → gσC ∗
+for the restriction map.
+Fact 4.3 (necessary condition [12, Corollary 3.5]). Let X be a (g, K)-module of
+finite length and suppose that X is discretely decomposable as a (gσ , K σ )-module.
+Then pr(Vg (X)) ⊂ N (gσC ∗ ), where N (gσC ∗ ) is the nilpotent variety of gσC ∗ .
+    We take a σ-stable Cartan subalgebra t = tσ +t−σ of k such that t−σ is a maximal
+abelian subalgebra of k−σ . We say a positive system ∆+ (kC , tC ) is (−σ)-compatible
+if {α|t−σ : α ∈ ∆+ (kC , tC )} \ {0} is a positive system of the restricted root system
+      C
+Σ(kC , t−σ                                                                +
+        C ). Write BK for the Borel subgroup of KC corresponding to ∆ (kC , tC ). If
+   +                                      σ
+∆ (kC , tC ) is (−σ)-compatible, then (KC · BK )/BK is an open dense subset of the
+flag variety KC /BK . In Section 4 and Section 5, we always take a (−σ)-compatible
+positive system ∆+ (kC , tC ).                                                √
+    The asymptotic K-support ASK (X) of a K-module X is a closed cone in −1t∗ \
+{0}, which is defined as the limit cone of the highest weights of irreducible K-
+modules occurring in X. The asymptotic K-support is preserved by taking the
+tensor product of X with a finite-dimensional representation. An estimate of the
+singularity spectrum of a hyperfunction character of X yields a criterion of ‘K ′ -
+admissibility’ of X for a subgroup K ′ of K. See [11, Theorem 2.8]. When it is
+applied to the restriction with respect to reductive symmetric pairs (g, gσ ) we have:
+Fact 4.4 (sufficient condition [11, Example
+                                         √ 2.14]). Let X be a (g, K)-module of
+finite length and suppose that ASK (X) ∩ −1(tσ )⊥ = ∅. Then X is discretely
+decomposable as a (gσ , K σ )-module.
+Remark 4.5. Let θ be a Cartan involution of G such that θσ = σθ. Then θσ
+becomes another involution of G and the symmetric pair (g, gθσ ) is called the asso-
+ciated pair of (g, gσ ). We note that K σ = K θσ . We can prove that a (g, K)-module
+X is discretely decomposable as a (gσ , K σ )-module if and only if it is discretely
+decomposable as a (gθσ , K θσ )-module, though we do not use this in the paper.
+   In the rest of this section, we suppose that G is a non-compact connected simple
+Lie group.
+Lemma 4.6. Let G be a non-compact connected simple Lie group and let β be the
+highest non-compact root given in Definition 2.1. Then pr(KC · p∗β ) ⊂ N (pσC ∗ ) if
+and only if σβ 6= −β.
+Proof. Suppose that σβ = −β. Take a non-zero vector x ∈ p∗β . Then σ(x) ∈ p∗−β ,
+x ∈ p∗−β , and σ(x) ∈ p∗β . Here, x denotes the complex conjugate of x with respect
+to the real form g of gC . Replacing x by cx (c ∈ C) if necessary, we may assume
+that y := x + σ(x) is non-zero. Since y ∈ p∗β and σ(y) ∈ p∗σβ = p∗−β , the projection
+pr(y) = 21 (y + σ(y)) is non-zero. We have moreover
+                        1              1
+                pr(y) =   (y + σ(y)) = (x + x + σ(x) + σ(x)) ∈ p∗ ,
+                        2              2
+which is a semisimple element. Therefore, pr(y) 6∈ N (pσC ∗ ) and hence pr(KC · p∗β ) 6⊂
+N (pσC ∗ ).                                                           √
+   Conversely, suppose that σβ 6= −β. We can choose a vector a ∈ −1t such that
+β(a) > 0 and σβ(a) > 0. This implies that the subspace p∗β + p∗σβ of p∗C is contained
+in the nilradical of some Borel subalgebra of gC . In particular, p∗β + p∗σβ ⊂ N (p∗C )
+           SYMMETRIC PAIRS WITH DISCRETELY DECOMPOSABLE MODULES                        11
+
+
+and hence pr(x) = 12 (x + σ(x)) ∈ N (pσC ∗ ) for x ∈ p∗β . We regard p∗β as a one-
+dimensional BK -module and let KC ×BK p∗β be the KC -equivariant line bundle on
+the flag variety KC /BK with typical fiber p∗β . Let µ : KC ×BK p∗β → p∗C be the map
+given by [(k, x)] 7→ k(x). Then, we have Image µ = KC · p∗β . Let us consider the
+composition of the maps
+                                             µ      pr
+                                            → p∗C −→ pσC ∗ .
+                                 KC ×BK p∗β −
+Since pr(x) ∈ N (pσC ∗ ) for x ∈ p∗β and the composition pr ◦µ is KCσ -equivariant, we
+have pr ◦µ([(k, x)]) = k·pr(x) ∈ N (pσC ∗ ) for k ∈ KCσ and x ∈ p∗β . On the other hand,
+since we have chosen ∆+ (kC , tC ) to be (−σ)-compatible, (KCσ · BK )/BK is dense in
+KC /BK . Hence the subset {[(k, x)] : k ∈ KCσ , x ∈ p∗β } is dense in KC ×BK p∗β . We
+therefore have
+                     pr(KC · p∗β ) = pr ◦µ(KC ×BK p∗β ) ⊂ N (pσC ∗ )
+because N (pσC ∗ ) is closed in pσC ∗ .                                                
+Proposition 4.7. Let X be an infinite-dimensional irreducible (g, K)-module. If
+X is discretely decomposable as a (gσ , K σ )-module, then σβ 6= −β. Here β is the
+highest non-compact root given in Definition 2.1.
+Proof. The associated variety Vg (X) is a non-zero KC -stable closed subset of p∗C .
+By Proposition 2.2, it follows that Vg (X) ⊃ Omin if g is not of Hermitian type,
+and that Vg (X) ⊃ Omin,+ or Vg (X) ⊃ Omin,− if g is of Hermitian type. In either
+case, we have Vg (X) ⊃ KC · p∗β or Vg (X) ⊃ KC · p∗−β . Hence pr(KC · p∗β ) ⊂ N (pσC ∗ )
+or pr(KC · p∗−β ) ⊂ N (pσC ∗ ) by Fact 4.3. For the former case, the claim σβ 6= −β
+follows from Lemma 4.6. For the latter case, the claim can be proved by using an
+argument similar to the proof of Lemma 4.6.                                          
+   The following lemma relates the asymptotic K-support to the associated variety
+of a (g, K)-module.
+Lemma 4.8. Let X be a (g, K)-module of finite length. Let O(Vg (X)) be the
+coordinate ring of the associated variety Vg (X), which is endowed with a natural
+KC -module structure and hence with a K-module structure through the morphism
+K → KC . Then we have
+                                ASK (X) = ASK (O(Vg (X))).
+Proof. This is immediate from Proposition 3.3.                                         
+Lemma 4.9. Let β be as in Definition 2.1. Suppose X is an irreducible (g, K)-
+module whose associated variety Vg (X) is equal to KC · p∗β . Then
+                       ASK (X) = R>0 (−w0 β) ≡ {−sw0 β : s > 0},
+where w0 is the longest element of the Weyl group for ∆(kC , tC ).
+Proof. Put Z := KC · p∗β . Let S(pC ) be the symmetric algebra of pC , which is
+identified with the space of regular functions on p∗C . Write I ⊂ S(pC ) for the defining
+ideal of Z and write O(Z) for the coordinate ring of Z so that O(Z) ≃ S(pC )/I.
+By Lemma 4.8, it is enough to prove that
+(4.1)                           ASK (O(Z)) = R>0 (−w0 β).
+Let µ : KC ×BK p∗β → p∗C be the map as in the proof of Lemma 4.6. Since µ maps onto
+Z, the pull-back map µ∗ : O(Z) → O(KC ×BK p∗β ) is injective. As a representation
+of BK , the contragredient representation of p∗β is isomorphic to C−β , the character
+of BK corresponding to −β ∈ t∗C . Therefore the regular functions O(KC ×BK p∗β ) are
+identified with the regular sections of the vector bundle KC ×BK S(C−β ) on KC /BK ,
+12                    TOSHIYUKI KOBAYASHI AND YOSHIKI OSHIMA
+
+
+where S(C−β ) is the symmetric tensor of C−β . By the Borel–Weil theorem, the
+space of regular sections of KC ×BK S n (C−β ) is irreducible as a K-module and has
+highest weight −nw0 β. Hence (4.1) follows.                                      
+Theorem 4.10. Let G be a non-compact connected simple Lie group and sup-
+pose that X is an infinite-dimensional irreducible (g, K)-module having the small-
+est Gelfand–Kirillov dimension, namely DIM(X) = m(g). Then X is discretely
+decomposable as a (gσ , K σ )-module if and only if σβ 6= −β, where β is the highest
+non-compact root given in Definition 2.1.
+Proof. The ‘only if’ part follows from Proposition 4.7.
+   Conversely, suppose that σβ 6= −β. We then have σw0 β 6= −w0 β, where w0 is the
+longest element of the Weyl group for ∆(kC , tC ). Indeed, since KC · pβ = KC · pw0 β ,
+Lemma 4.6 shows pr(KC · pw0 β ) ⊂ N (pσC ∗ ). Then by using an argument similar to
+Lemma 4.6 we can prove that σw0 β 6= −w0 β. We prove the ‘if’ part of the theorem
+in the case where g is of Hermitian type and Vg (X) = Omin,+ ∪ Omin,− . Then as
+in the proof of Lemma 4.9, we see that ASK (X) = R>0√    (−w0 β) ∪ R>0 β. Therefore,
+σβ 6= −β and σw0 β 6= −w0 β imply that ASK (X) ∩ −1(tσ )⊥ = ∅. Hence the
+theorem in this case follows from Fact 4.4. The proof is similar for other cases. 
+   For most non-compact simple Lie groups G, there exist (g, K)-modules satisfying
+the assumption of Theorem 4.10 (by replacing G with a covering group of G if
+necessary). However, if G is SO0 (p, q) (p + q : odd, p, q ≥ 4) or its covering group,
+then no irreducible (g, K)-module X satisfies DIM(X) = m(g) (see [26]).
+   A typical example of (g, K)-modules X that satisfy the assumption of Theo-
+rem 4.10 is a minimal representation.
+Definition 4.11. Suppose that G is a simple Lie group without complex structure.
+This means that the complexified Lie algebra gC is still a simple Lie algebra. An
+irreducible (g, K)-module X is said to be a minimal representation of G if the
+annihilator of the U (gC )-module X is the Joseph ideal of U (gC ) ([7]).
+     By the definition of the Joseph ideal, we have:
+Proposition 4.12. Let G be a connected simple Lie group without complex struc-
+ture. Suppose that X is a minimal representation of G. Then
+           (
+             Omin                                 if g is not of Hermitian type,
+  Vg (X) =
+             Omin,+ , Omin,− , or Omin,+ ∪ Omin,− if g is of Hermitian type.
+Proof. Let J be the Joseph ideal of U (gC ), which implies that Vg (U (gC )/J) =
+Omin,C . Here Omin,C is the minimal nilpotent (Int gC )-orbit in g∗C . Then the propo-
+sition follows from Lemma 2.3 and Fact 3.2.                                         
+Remark 4.13. Actually, we can sharpen Proposition 4.12 slightly: if G is a con-
+nected simple Lie group of Hermitian type and X is a minimal representation of
+G, then Vg (X) is either Omin,+ or Omin,− . This is deduced from the following fact
+[27]: if O is a KC -orbit in N (p∗C ) and if O is an irreducible component of Vg (X),
+then at least one of the following two conditions holds:
+      • Vg (X) = O,
+      • O \ O has codimension one in O.
+   As a special case of Theorem 4.10, we obtain a criterion for discrete decompos-
+ability of the restriction of minimal representations.
+Corollary 4.14. Let G be a connected simple Lie group without complex structure.
+Suppose that G has a minimal representation X. Then X is discretely decomposable
+          SYMMETRIC PAIRS WITH DISCRETELY DECOMPOSABLE MODULES                         13
+
+
+as a (gσ , K σ )-module if and only if σβ 6= −β. Here β is the highest non-compact
+root given in Definition 2.1.
+Remark 4.15. The converse statement of Proposition 4.12 is not true in general.
+   (1) Let G = SL(n, R). The Joseph ideal of U (gC ) is not defined for gC =
+       sl(n, C), but there exists an irreducible (g, K)-module X isomorphic to the
+       underlying (g, K)-module of some degenerate principal series representation
+       such that Vg (X) = Omin .
+   (2) Let G = Sp(m, n). Then Omin,C does not intersect with p∗C (see Corol-
+       lary 5.9). From Fact 3.2, there exists no minimal representation of G.
+       However, there exists an irreducible (g, K)-module X isomorphic to some
+       Aq (λ) such that Vg (X) = Omin.
+   (3) If X is a minimal representation, then any infinite-dimensional (g, K)-
+       module in its coherent family has the same associated variety as X. How-
+       ever, most of them are not a minimal representation because a minimal
+       representation must have a fixed infinitesimal character.
+Theorem 4.10 can be applied to these representations as well.
+
+                                 5. Classification
+   In this section we assume G to be a non-compact connected simple Lie group. Let
+K be the connected subgroup of G associated to a Cartan decomposition g = k + p.
+The Cartan involution θ is chosen to satisfy σθ = θσ and the positive system
+∆+ (kC , tC ) is chosen to be (−σ)-compatible if an involutive automorphism σ of G
+is given.
+Definition 5.1. Let g be a non-compact real simple Lie algebra and (g, gσ ) a
+symmetric pair. We say (g, gσ ) is of holomorphic type if g is of Hermitian type
+and the center zK of k is contained in gσ , or equivalently, σ induces a holomorphic
+involution on the Hermitian symmetric space G/K.
+   For example, the symmetric pairs (sp(n, R), u(m, n−m)) and (sp(n, R), sp(m, R)⊕
+sp(n − m, R)) are of holomorphic type for any m and n, whereas the symmetric
+pair (sp(n, R), gl(n, R)) is not of holomorphic type.
+   Here is the main result of this paper:
+Theorem 5.2 (classification). Let g be a non-compact real simple Lie algebra and
+(g, gσ ) a symmetric pair. The following three conditions on the symmetric pair
+(g, gσ ) are equivalent:
+      (i) There exists an infinite-dimensional irreducible (g, K)-module X (by re-
+          placing G with a covering group of G if necessary) such that X is discretely
+          decomposable as a (gσ , K σ )-module.
+     (ii) σβ 6= −β (β is the highest non-compact root given in Definition 2.1).
+    (iii) The pair (g, gσ ) satisfies one of the following.
+           (a) σ is a Cartan involution, i.e. gσ = k.
+           (b) (g, gσ ) is of holomorphic type (see [20, Table 2] for a classification of
+               symmetric pairs of holomorphic type).
+           (c) The pair (g, gσ ) appears in Table 1 (up to isomorphisms).
+
+Remark 5.3. In Table 1, a symmetric pair and its associated pair are listed in
+the same row. For example, we list two symmetric pairs (sl(2n, R), sl(n, C) ⊕ u(1)),
+(sl(2n, R), sp(n, R)) in the first row and one is the associated pair of the other.
+In the second row, only one symmetric pair (su(2m, 2n), sp(m, n)) is listed. This
+means that the pair (su(2m, 2n), sp(m, n)) is self-associated.
+Remark 5.4. Here is a guidance to the notation used in Table 1.
+14                   TOSHIYUKI KOBAYASHI AND YOSHIKI OSHIMA
+
+
+           g                              gσ                          minimal    Aq (λ)
+       sl(2n, R)           sl(n, C) ⊕ u(1),         sp(n, R)                     n=2
+      su(2m, 2n)                     sp(m, n)
+                                           n
+       so(m, n)                     u( m
+                                       2 , 2)                           (∗)
+                         so(m, k) ⊕ so(n − k) (m > 1)                   (∗)
+      sp(2n, R)                      sp(n, C)                                    n=1
+       sp(m, n)            sp(k, l) ⊕ sp(m − k, n − l)
+       sl(2n, C)               sp(n, C),       su∗ (2n)
+       so(n, C)      so(n − 1, C),       so(n − 1, 1) (n ≥ 5)                   n : even
+       sp(n, C)      sp(k, C) ⊕ sp(n − k, C),          sp(k, n − k)
+         f4(4)             sp(2, 1) ⊕ su(2),         so(5, 4)
+        f4(−20)                         so(8, 1)
+         e6(6)                su∗ (6) ⊕ su(2),        f4(4)
+         e6(2)         so(6, 4) ⊕ so(2), su(4, 2) ⊕ su(2)
+                                 sp(3, 1), f4(4)
+                                 so∗ (10) ⊕ so(2)
+        e6(−14)                          f4(−20)
+                          ∗
+         e7(7)          so (12) ⊕ su(2),           e6(2) ⊕ so(2)
+        e7(−5)                su(6, 2), e6(2) ⊕ so(2)
+                                 so(8, 4) ⊕ su(2)
+                                  e6(−14) ⊕ so(2)
+         e8(8)                    e7(−5) ⊕ su(2)
+        e8(−24)            so(12, 4),      e7(−5) ⊕ su(2)
+          fC
+           4                    so(9, C),      f4(−20)
+          eC
+           6                       fC
+                                    4,     e6(−26)
+                                         Table 1.
+
+
+     (1) The circle     below “minimal” means that there exists a minimal represen-
+         tation for some Lie group G with Lie algebra g. For these pairs in Table 1, a
+         minimal representation X is discretely decomposable as a (gσ , K σ )-module
+         by Corollary 4.14, and thus the condition (i) is fulfilled.
+             The asterisk (∗) for g = so(m, n) reflects the fact that the existence of
+         minimal representations depends on the parameters m and n: there exists
+         a minimal representation for some Lie group G with Lie algebra so(m, n)
+         if and only if (m, n) satisfies one of the following.
+            • m + n is even, m, n ≥ 2, and m + n ≥ 8.
+            • (m, n) = (3, 2l), (2l, 3) for l ≥ 2.
+            • (m, n) = (2, 2l + 1), (2l + 1, 2) for l ≥ 1.
+     (2) The circle      below “Aq (λ)” means that there exists a θ-stable parabolic
+         subalgebra q (6= gC ) such that the Zuckerman derived functor modules
+         Aq (λ) are discretely decomposable as (gσ , K σ )-modules.
+     (3) For real exceptional Lie algebras, we follow the notation of [5, Chapter X].
+          SYMMETRIC PAIRS WITH DISCRETELY DECOMPOSABLE MODULES                          15
+
+
+Remark 5.5. We did not intend to make the conditions (a), (b), and (c) in Theo-
+rem 5.2 to be exclusive with one another. For example, the pair (so(m, n), u( m   n
+                                                                              2 , 2 ))
+is of holomorphic type if m = 2.
+   Before giving a proof of Theorem 5.2, we prepare the following:
+Lemma 5.6. Let g be a non-compact real simple Lie algebra. Assume that the sym-
+metric pair (g, gσ ) is not of holomorphic type. Then the following three conditions
+on σ are equivalent:
+     (i) σβ 6= −β.
+    (ii) −σβ is not dominant with respect to ∆+ (kC , tC ).
+   (iii) The pair (g, gσ ) satisfies (a) or (b).
+          (a) σ is a Cartan involution, i.e. gσ = k.
+         (b) The pair (g, gσ ) appears in Table 1 (up to isomorphisms).
+Proof. (i) ⇔ (ii) We set
+                       (
+                            p∗C       if g is not of Hermitian type,
+                    V :=
+                            p∗+       if g is of Hermitian type.
+Then KC acts irreducibly on V and β is the highest weight of V . We claim that the
+set ∆(V, tC ) of weights is preserved by −σ. In fact, if g is not of Hermitian type,
+                                                             ∗
+σp∗C = p∗C and hence σ(∆(p∗C , tC )) = ∆(p∗C , tC ) = −∆(p √ C , tC ). If g is of Hermitian
+type, let zK be the center of k. Then σ(z) = −z for z ∈ −1zK because (g, gσ ) is not
+of holomorphic type. Hence σp∗+ = p∗− and σ(∆(p∗+ , tC )) = ∆(p∗− , tC ) = −∆(p∗+ , tC ).
+Thus −σ(∆(V, tC )) = ∆(V, tC ) in either case.
+    Since β, −σβ ∈ ∆(V, tC ) are of the same length, −σβ is dominant if and only if
+−σβ coincides with the highest weight β of the irreducible representation V . Hence
+the equivalence (i) ⇔ (ii) is proved.
+    (ii) ⇔ (iii) We recall that a classification of symmetric pairs with −σβ dominant
+was carried out in [20]. In the case that (g, gσ ) is a symmetric pair not of holomor-
+                                                                                   √
+phic type, the weight −σβ is dominant if and only if the real form kσ + −1k−σ
+is split or (g, gσ ) is one of those listed in [20, Appendix B.1]. Consequently, (g, gσ )
+satisfies −σβ 6= β if and only if the following two conditions hold:
+                √
+        • kσ + −1k−σ is not a split real form of kC ;
+        • (g, gσ ) is not listed in [20, Appendix B.1].
+Table 1 is obtained as the complementary subset of these pairs in all the symmetric
+pairs with g simple (not of holomorphic type), for which the classification was
+established earlier by M. Berger [1]. Hence the equivalence (ii) ⇔ (iii) is proved. 
+   We are ready to prove Theorem 5.2.
+Proof of Theorem 5.2. (i) ⇒ (ii) This is Proposition 4.7.
+   (ii) ⇔ (iii) If the pair (g, gσ ) is of holomorphic type, then we can take a non-zero
+element z in the center zK of k and we have β(z) 6= 0. Since σ acts as the identity
+on zK , it follows that (σβ)(z) = β(σ(z)) = β(z) and hence −σβ 6= β.
+   If the pair (g, gσ ) is not of holomorphic type, our assertion follows from Lemma 5.6.
+   (iii) ⇒ (i) To prove this implication, we have to find a discretely decompos-
+able (g, K)-module X. If gσ = k, then any irreducible (g, K)-module is discretely
+decomposable as a (gσ , K σ )-module. If (g, gσ ) is of holomorphic type, then g is of
+Hermitian type and there exist infinite-dimensional highest weight (g, K)-modules.
+It is known that any highest weight (g, K)-module is discretely decomposable as a
+(gσ , K σ )-module if (g, gσ ) is of holomorphic type (see [13, Theorem 7.4]).
+   Suppose that the pair (g, gσ ) is isomorphic to one of those listed in Table 1. We
+give three sufficient conditions for (i):
+16                     TOSHIYUKI KOBAYASHI AND YOSHIKI OSHIMA
+
+
+    (1) There exists a minimal representation X for some connected covering group
+         of G.
+    (2) g is a complex Lie algebra and g 6≃ sl(n, C).
+    (3) There exists a θ-stable parabolic subalgbra q(6= gC ) such that the Zucker-
+         man derived functor modules Aq (λ) are discretely decomposable as (gσ , K σ )-
+         modules.
+   (1) is satisfied for g = so(m, n) with a certain condition on m, n (see Remark 5.4),
+g = sp(2n, R), f4(4) , e6(6) , e6(2) , e6(−14) , e7(7) , e7(−5) , e8(8) , e8(−24) (see [25]). Then by
+Theorem 4.14, a minimal representation X is discretely decomposable as a (gσ , K σ )-
+module.
+   If (2) holds, then put X = U (g)/J, where J is the Joseph ideal of U (g). We can
+regard X as a (g, K)-module (sometimes referred to as a Harish-Chandra bimodule)
+and we have that Vg (X) is the closure of the minimal nilpotent KC -orbit in p∗C .
+Hence Theorem 4.10 shows that X is discretely decomposable as a (gσ , K σ )-module.
+   By the classification [20, Table 3 and Table 4], (3) is satisfied for the pairs
+in Table 1 with g = sl(4, R), su(2m, 2n), so(m, n), sp(2, R), sp(m, n), sl(2n, C),
+so(2n, C), f4(4) , f4(−20) , e6(2) , e6(−14) , e7(−5) , e8(−24) .
+   The only remaining pairs that are not covered by (1), (2) and (3) are (g, gσ ) =
+(sl(2n, R), sl(n, C) ⊕ u(1)) and (sl(2n, R), sp(n, R)). In this case, let G = SL(2n, R)
+and P a maximal parabolic subgroup of G with Levi part L = S(GL(2n − 1, R) ×
+GL(1, R)). Let X be the underlying (g, K)-module of a degenerate principal se-
+ries representation of G induced from a character of P . Then it turns out that
+ASK (X) = R>0 (−w0 β) and hence X is discretely decomposable as a (gσ , K σ )-
+module by the criterion given in Fact 4.4.
+   Thus we have found at least one discretely decomposable (g, K)-module for all
+the pairs (g, gσ ) in Table 1. This completes the proof of the theorem.                             
+Remark 5.7. Concrete branching laws are given in [19] for the last two cases in the
+proof above, that is, (g, gσ ) = (sl(2n, R), sl(n, C) ⊕ u(1)) and (sl(2n, R), sp(n, R)).
+   From the proof of Theorem 5.2, we can take X in the condition (i) of Theorem 5.2
+to be unitarizable.
+Corollary 5.8 (unitarizable X). In the setting of Theorem 5.2, the conditions (i),
+(ii), and (iii) are also equivalent to (i′ ).
+     (i′ ) there exists an infinite-dimensional irreducible unitarizable (g, K)-module
+           X (by replacing G with a covering group of G if necessary) such that X is
+           discretely decomposable as a (gσ , K σ )-module.
+Proof. It is enough to see that the (g, K)-modules X in the proof of Theorem 5.2
+can be taken to be unitarizable in all cases. For highest weight (g, K)-modules, we
+can take (for example) holomorphic discrete series representations. For minimal
+representations, see [25]. For X = U (g)/J with g complex and J the Joseph ideal,
+see [6, §12.4] and [26]. For Aq (λ) and degenerate principal series representations,
+we use the fact that the Zuckerman derived functor preserves unitarity under a cer-
+tain positivity condition and that the classical parabolic induction always preserves
+unitarity.                                                                         
+     We pin down a special case that g is a complex simple Lie algebra:
+Corollary 5.9. Suppose that g is a complex simple Lie algebra and gσ is a real
+form of g. We regard the pair (g, gσ ) as a symmetric pair of real Lie algebras. Then
+the following six conditions on (g, gσ ) are equivalent.
+     (i) There exists an infinite-dimensional irreducible (g, K)-module X such that
+         X is discretely decomposable as a (gσ , K σ )-module.
+          SYMMETRIC PAIRS WITH DISCRETELY DECOMPOSABLE MODULES                         17
+
+
+    (ii) pr(KC · p∗β ) ⊂ N (pσC ∗ ).
+   (iii) σβ 6= −β (β is the highest non-compact root given in Definition 2.1).
+   (iv) The minimal nilpotent orbit of g does not intersect with the real form gσ .
+    (v) The minimal nilpotent orbit of gσC (≃ g) does not intersect with pσC .
+   (vi) The real form gσ of g is compact, or is isomorphic to su∗ (2n), so(n −
+         1, 1)(n ≥ 5), sp(m, n), f4(−20) , or e6(−26) .
+Remark 5.10. (1) Corollary 5.9 generalizes [12, Theorem 8.1], which dealt with
+split real forms gσ of g.
+(2) In the condition (vi) of Corollary 5.9, the associated symmetric pair (g, gθσ )
+is (g, g), or is a complex symmetric pair (sl(2n, C), sp(n, C)), (so(n, C), so(n −
+1, C))(n ≥ 5), (sp(m + n, C), sp(m, C) ⊕ sp(n, C)), (fC                    C C
+                                                       4 , so(9, C)), or (e6 , f4 ), re-
+spectively.
+Proof. The equivalence of (i), (ii), (iii) and (vi) follows from Theorem 5.2 and
+Lemma 4.6. If g is a complex simple Lie algebra, then k is a real form of g and
+                                                                   ∼
+there is a natural √
+                   isomorphism of complex Lie   √ algebras ι : kC −→ g that is identity
+on k. Then ι(kσ + −1k−σ ) = gσ . Put a := ι( −1t−σ ), h := ι(tC ), and let ∆+ (g, h)
+be the positive system corresponding to ∆+ (kC , tC ). Then h is a Cartan subalgebra
+of g, a is a maximal abelian subalgebra of pσ , and ∆+ (g, h) is compatible with some
+positive system Σ+ (g, a) of the restricted root system. Under the isomorphism ι,
+the kC -module p∗C can be identified with the adjoint representation of g. Then
+the weight β corresponds to the highest root in ∆+ (g, h) and the condition (iii)
+amounts to that the highest root is zero on tσ (i.e. a real root). By a result of
+T. Okuda [22], this is equivalent to (iv). The equivalence of (iv) and (v) follows
+from the Kostant–Sekiguchi correspondence [23, Proposition 1.11].                    
+
+               6. Discretely Decomposable Tensor Product
+   The tensor product of two irreducible representations is regarded as a special
+case of our setting.
+   Let G be a connected simple Lie group. Let g = k + p be a Cartan decomposition
+of the Lie algebra and K the connected subgroup with Lie algebra k. Put G e = G×G,
+Ke = K × K and let σ act on G  e by switching factors. Then any irreducible (e g, e
+                                                                                  K)-
+module X is of the form of the exterior product X1 ⊠ X2 with two irreducible
+(g, K)-modules X1 and X2 . Then X, regarded as a (e       e σ )-module by restriction,
+                                                     gσ , K
+is nothing but the tensor product representation X1 ⊗ X2 . The following theorem
+determines when X1 ⊗ X2 is discretely decomposable.
+Theorem 6.1. Let G be a non-compact connected simple Lie group. Let X1 and
+X2 be infinite-dimensional irreducible (g, K)-modules. Then the tensor product
+representation X1 ⊗ X2 is discretely decomposable as a (g, K)-module if and only
+if G is of Hermitian type and both X1 and X2 are simultaneously highest weight
+(g, K)-modules or simultaneously lowest weight (g, K)-modules.
+Proof. If X1 and X2 are both highest weight (g, K)-modules or they are both lowest
+weight (g, K)-modules, it is known that the tensor product X1 ⊗ X2 is discretely
+decomposable (see [13, Theorem 7.4]).
+   Conversely, let us prove that X1 ⊗ X2 is not discretely decomposable as a (g, K)-
+module unless X1 and X2 are highest weight modules or they are lowest weight
+modules. Let t be a Cartan subalgebra of k. Fix a positive system ∆+ (kC , tC ). We
+    g = g ⊕ g, ek = k ⊕ k, and et = t ⊕ t. Then et is a Cartan subalgebra of ek. We have
+set e
+an isomorphism e  gσ ≃ g and the restriction map pr : g  e∗C → geσ∗
+                                                                 C is identified with the
+map gC ⊕ gC → gC given by (x, y) 7→ x + y. We take a positive system ∆+ (ekC , teC ) to
+      ∗    ∗       ∗
+
+be the union of ∆+ (kC , tC ) in the first factor and −∆+ (kC , tC ) in the second factor
+18                     TOSHIYUKI KOBAYASHI AND YOSHIKI OSHIMA
+
+                                                     √
+so that ∆+ (ekC , teC ) is (−σ)-compatible. Let β ∈ −1t be the highest non-compact
+root given in Definition 2.1.
+   Suppose that g is not of Hermitian type. Since X1 and X2 are infinite-dimensional,
+we have Vg (X1 ), Vg (X2 ) 6= {0} by Lemma 3.1(2). Hence they contain KC · p∗β and
+KC · p∗−β , in particular Vg (X1 ) ⊃ p∗β and Vg (X2 ) ⊃ p∗−β . We therefore have
+
+                      Vge(X1 ⊠ X2 ) = Vg (X1 ) ⊕ Vg (X2 ) ⊃ p∗β ⊕ p∗−β .
+
+As in the proof of Lemma 4.6, we can see pr(p∗β ⊕ p∗−β ) 6⊂ N (p∗C ) and hence
+pr(Vge(X1 ⊠ X2 )) 6⊂ N (p∗C ). Therefore Fact 4.3 shows that X1 ⊗ X2 is not dis-
+cretely decomposable.
+   Suppose that g is of Hermitian type. By Lemma 3.1 (2) and Lemma 3.5, if a
+highest weight (g, K)-module X is also a lowest weight (g, K)-module, then X is
+finite-dimensional. Since X1 and X2 are infinite-dimensional, at least one of the
+following holds.
+     (1) X1 and X2 are highest weight modules.
+     (2) X1 and X2 are lowest weight modules.
+     (3) X1 is not a lowest weight module and X2 is not a highest weight module.
+     (4) X1 is not a highest weight module and X2 is not a lowest weight module.
+By switching X1 and X2 if necessary, it is enough to prove that X1 ⊗ X2 is not
+discretely decomposable under the assumption (3). We thus assume that X1 is
+not a lowest weight (g, K)-module and X2 is not a highest weight (g, K)-module.
+By Lemma 3.5, this assumption is equivalent to Vg (X1 ) 6⊂ p∗− and Vg (X2 ) 6⊂ p∗+ .
+Hence it follows from the proof of Proposition 2.2 that Vg (X1 ) ⊃ p∗β and Vg (X2 ) ⊃
+p∗−β . Then by using the previous argument we see that X1 ⊗ X2 is not discretely
+decomposable.                                                                       
+
+
+                                         References
+ [1] M. Berger, Les espaces symétriques non compacts, Ann. Sci. École Norm. Sup. 74 (1957),
+     85–177.
+ [2] M. Duflo, J. A. Vargas, Branching laws for square integrable representations, Proc. Japan
+     Acad. Ser. A Math. Sci. 86 (2010), 49–54.
+ [3] D. Eisenbud, “Commutative Algebra with a View toward Algebraic Geometry”, Graduate
+     Texts in Mathematics 150, Springer-Verlag, 1995.
+ [4] B. Gross, N. Wallach, Restriction of small discrete series representations to symmetric sub-
+     groups, Proc. Sympos. Pure Math. 68, 255–272, Amer. Math. Soc., 2000.
+ [5] S. Helgason, “Differential Geometry, Lie Groups, and Symmetric Spaces”, Graduate Studies
+     in Mathematics 34, Amer. Math. Soc., 2001.
+ [6] J.-S. Huang, “Lectures on Representation Theory”, World Scientific Publishing Co., Inc.,
+     River Edge, 1999.
+ [7] A. Joseph, The minimal orbit in a simple Lie algebra and its associated maximal ideal, Ann.
+     Sci. École Norm. Sup. (4) 9 (1976), 1–29.
+ [8] F. Kassel, T. Kobayashi, Stable spectrum for pseudo-Riemannian locally symmetric spaces,
+     C. R. Math. Acad. Sci. Paris 349 (2011), 29–33.
+ [9] T. Kobayashi, The restriction of Aq (λ) to reductive subgroups, Proc. Japan Acad. Ser. A
+     Math. Sci. 69 (1993), 262–267.
+[10] T. Kobayashi, Discrete decomposability of the restriction of Aq (λ) with respect to reductive
+     subgroups and its applications, Invent. Math. 117 (1994), 181–205.
+[11] T. Kobayashi, Discrete decomposability of the restriction of Aq (λ), II. —micro-local analysis
+     and asymptotic K-support, Ann. of Math. 147 (1998), 709–729.
+[12] T. Kobayashi, Discrete decomposability of the restriction of Aq (λ), III. —restriction of
+     Harish-Chandra modules and associated varieties, Invent. Math. 131 (1998), 229–256.
+[13] T. Kobayashi, Discrete series representations for the orbit spaces arising from two involutions
+     of real reductive Lie groups, J. Funct. Anal. 152 (1998), 100–135.
+[14] T. Kobayashi, Discretely decomposable restrictions of unitary representations of reductive Lie
+     groups-examples and conjectures, Advanced Study in Pure Mathematics, 26, (2000), 98–126.
+           SYMMETRIC PAIRS WITH DISCRETELY DECOMPOSABLE MODULES                                 19
+
+
+[15] T. Kobayashi, Multiplicity-free theorems of the restrictions of unitary highest weight modules
+     with respect to reductive symmetric pairs. Representation theory and automorphic forms, 45–
+     109, Progr. Math., 255, Birkhäuser, Boston, 2008.
+[16] T. Kobayashi, F -method for constructing equivariant differential operators, to appear in
+     “Geometric Analysis and Integral Geometry” (E. T. Quinto, F. B. Gonzalez, and J. Chris-
+     tensen, eds.), Contemp. Math., 598, Amer. Math. Soc., (2013), 141–148. (available at arXiv:
+     1212.6862).
+[17] T. Kobayashi, T. Oda, A vanishing theorem for modular symbols on locally symmetric spaces,
+     Comment. Math. Helv. 73 (1998), 45–70.
+[18] T. Kobayashi, B. Ørsted, Analysis of the minimal representation of O(p, q) II. Branching
+     laws, Adv. Math. 180 (2003), 513–550.
+[19] T. Kobayashi, B. Ørsted, M. Pevzner, Geometric analysis on small unitary representations
+     of GL(N, R), J. Funct. Anal. 260 (2011), 1682–1720.
+[20] T. Kobayashi, Y. Oshima, Classification of discretely decomposable Aq (λ) with respect to
+     reductive symmetric pairs, Advances in Mathematics 231 (2012), 2013–2047.
+[21] B. Kostant, S. Rallis, Orbits and representations associated with symmetric spaces, Amer. J.
+     Math. 93 (1971), 753–809.
+[22] T. Okuda, Smallest complex nilpotent orbits with real points, in preparation.
+[23] J. Sekiguchi, Remarks on real nilpotent orbits of a symmetric pair, J. Math. Soc. Japan 39
+     (1987), 127–138.
+[24] B. Speh, Restriction of some representations of U(p, q) to a symmetric subgroup, Contemp.
+     Math. 557, 371–388, Amer. Math. Soc., 2011.
+[25] P. Torasso, Méthode des orbites de Kirillov–Duflo et représentations minimales des groupes
+     simples sur un corps local de caractéristique nulle, Duke Math. J. 90 (1997), 261–377.
+[26] D. Vogan, Singular unitary representations, Lecture Notes in Math. 880, 506–535, Springer,
+     1981.
+[27] D. Vogan, Associated varieties and unipotent representations, Progr. Math. 101, 315–388,
+     Birkhäuser, 1991.
+
+  (Toshiyuki Kobayashi) Kavli IPMU and Graduate School of Mathematical Sciences,
+The University of Tokyo, 3-8-1 Komaba, Meguro, 153-8914 Tokyo, Japan
+
+   (Yoshiki Oshima) Kavli IPMU, The University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa,
+277-8583 Chiba, Japan
+

@@ -1,0 +1,2214 @@
+                                                  ANALYSIS ON THE MINIMAL REPRESENTATION OF O(p, q)
+                                                      – III. ULTRAHYPERBOLIC EQUATIONS ON Rp−1,q−1
+
+
+
+
+arXiv:math/0111086v1 [math.RT] 7 Nov 2001
+                                                                Toshiyuki KOBAYASHI and Bent ØRSTED
+                                                                      RIMS Kyoto and SDU-Odense University
+
+                                                    Abstract. For the group O(p, q) we give a new construction of its minimal unitary
+                                                    representation via Euclidean Fourier analysis. This is an extension of the q = 2
+                                                    case, where the representation is the mass zero, spin zero representation realized in a
+                                                    Hilbert space of solutions to the wave equation. The group O(p, q) acts as the Möbius
+                                                    group of conformal transformations on Rp−1,q−1 , and preserves a space of solutions
+                                                    of the ultrahyperbolic Laplace equation on Rp−1,q−1 . We construct in an intrinsic
+                                                    and natural way a Hilbert space of solutions so that O(p, q) becomes a continuous
+                                                    irreducible unitary representation in this Hilbert space. We also prove that this
+                                                    representation is unitarily equivalent to the representation on L2 (C), where C is the
+                                                    conical subvariety of the nilradical of a maximal parabolic subalgebra obtained by
+                                                    intersecting with the minimal nilpotent orbit in the Lie algebra of O(p, q).
+
+
+
+
+                                                                                         Contents
+                                            §1.    Introduction
+                                            §2.    Ultrahyperbolic equation on Rp−1,q−1 and conformal group
+                                            §3.    Square integrable functions on the cone
+                                            §4.    Green function and inner product
+                                            §5.    Bessel function and an integral formula of spherical functions
+                                            §6.    Explicit inner product on solutions Rp−1,q−1 f = 0
+
+                                                                                   §1. Introduction
+
+                                             1.1. In this paper we study the symmetries of the ultrahyperbolic Laplace operator
+                                             on a real finite-dimensional vector space equipped with a non-degenerate symmetric
+                                             bilinear form. We shall work in coordinates so that the operator becomes
+
+                                                                               ∂2               ∂2       ∂2                ∂2
+                                                       Rp−1,q−1 ≡ z :=            + · · · +         −       − · · · −           ,
+                                                                              ∂z1 2           ∂zp−1 2   ∂zp 2           ∂zp+q−2 2
+
+                                             on Rn = Rp−1,q−1 . In the case of Minkowski space (q = 2) we are studying the wave
+                                             equation, which is well-known to have a conformally invariant space of solutions,
+                                             see [14]. This corresponds to the fact that the equation Rp−1,q−1 f = 0 in this
+                                             case describes a particle of zero mass. Incidentally, it may also be interpreted as
+                                             the bound states of the Hydrogen atom, namely each energy level corresponds to
+                                             a K-type - for (p, q) = (4, 2). This gives the angular momentum values by further
+                                             restriction to O(3). In general the indefinite orthogonal group G = O(p, q) acts as
+
+                                                                                                                          Typeset by AMS-TEX
+                                                                                              1
+the Möbius group of meromorphic conformal transformations on Rp−1,q−1 , leaving
+a space of solutions to Rp−1,q−1 f = 0 invariant.
+1.2. The main object of the present paper is to construct in an intrinsic and
+natural way a Hilbert space of solutions of Rp−1,q−1 so that the action of O(p, q)
+becomes a continuous unitary irreducible representation in this Hilbert space for
+(p, q) such that p, q ≥ 2 and p + q > 4 is even. From an algebraic view point of
+representation theory, our representations are:
+   i) minimal representations if p + q ≥ 8 (i.e. the annihilator is the Joseph ideal).
+   ii) not spherical if p 6= q (i.e. no non-zero K-fixed vector).
+   iii) not highest weight modules of SO0 (p, q) if p, q ≥ 3.
+   In a long history of representation theory of semisimple Lie groups, it is only
+quite recent that our representations for p, q ≥ 3 have been paid attention, espe-
+cially as minimal unitary representations; they were first discovered by Kostant [13]
+for (p, q) = (4, 4) and generalized by Binegar-Zierau [3] as subrepresentations of de-
+generate principal series representations. There is also another algebraic approach
+to the same representations by using the theta correspondence for the trivial repre-
+sentation of SL(2, R) by Huang-Zhu. Our previous papers [11] and [12] treated the
+same representation by geometric methods and with other points of view. We think
+that such various approaches reflect a rich structure of the minimal representations.
+   It is perhaps of independent interest that the (in some sense maximal group
+of) symmetries O(p, q) of the space of solutions of Rp−1,q−1 f = 0 lead to such a
+natural Hilbert space. Our inner product ( , )W defined by an integration over
+a non-characteristic hyperplane (see (1.5.1)) is a generalization of the one coming
+from energy considerations in the case of wave equations, and even the translation
+invariance of the inner product contains some new information about solutions.
+   It is also of independent interest from the representation theory of semisimple
+Lie groups that our representations are unitarily equivalent to the representations
+on L2 (C), where C is the null cone of the quadratic form on Rp−1,q−1 . This
+result is proved via the Fourier transform in Theorem 4.9. Such L2 -realizations
+of “unipotent representations” is expected from the philosophy of the Kostant-
+Kirillov orbit method, but has not been proved except for some special cases of
+highest weight modules or spherical representations.
+   We have avoided most of the references to the theory of semisimple Lie groups
+and representation theory, and instead given direct constructions of the key objects,
+such as for example the minimal K-type; this is given as an explicit hypergeometric
+function, and we also calculate its Fourier transform in terms of a Bessel function.
+By application of explicit differential operators forming the Lie algebra of G we can
+generate the whole Hilbert space of solutions beginning from the minimal K-type.
+1.3. For q = 2 (or p = 2) we are dealing with highest weight representations (when
+restricting to the identity component SO0 (p, 2)), and these have been studied by
+many authors, in particular in the physics literature. For a nice introduction to this
+representation and its construction via geometric quantization (and more) see [8].
+In this case the K-types may be identified with energy levels of the bound states
+of the Hydrogen atom, and the smallest one with the bound state of lowest energy.
+   We can summarize the situation, covering both the classical Kepler problem and
+its quantization in case q = 2, as in the diagram below. Here the left-hand side
+represents the classical descriptions of respectively the Kepler problem and geodesic
+flow on the sphere; by “symplectic transform” we are alluding to the change of
+                                          2
+variables between these two Hamiltonian systems as presented in [8]. The right-
+hand side involves the quantizations of these two systems, where the wave-equation
+is considered as the quantization of geodesic flow, also to be thought of as geometric
+optics. The quantum analogue of the “symplectic transform” involves the Fourier
+transform. Finally we invoke conformal geometry and combine it with the Fourier
+transform, which in a different (and new as far as constructing Hilbert spaces and
+unitary actions) way appears in passing from the wave equation to the Fourier
+realization of solutions - this is the last arrow on the right-hand side.
+
+                                      Classical ⇒ Quantum
+
+
+                      Kepler problem           ⇒    Hydrogen atom
+                   ⇓ symplectic transform                   ⇓ Fourier transform
+                     geometric optics          ⇒    (A) wave equation
+                                                             conformal geometry
+                                                            ⇓ Fourier transform
+                                                    (B) other realizations and
+                                                          explicit inner products
+                                                      of minimal representations
+
+The main focus of this paper is on the boxes (A) and (B). In particular, we give an
+explicit inner product in the model (A) (Theorems 1.4 and 1.5) and construct via
+Fourier transform a new realization of the minimal representation (Theorem 1.6)
+for general p, q.
+1.4. From now, suppose that n := p + q − 2 is an even integer greater than 2, and
+p, q ≥ 2. Let us briefly state some of our main results in a more explicit way.
+    First, we find a formula of the Green function E0 of the ultrahyperbolic Laplace
+operator Rp−1,q−1 , in Proposition 4.2, namely, E0 is given by a constant multiple
+of the imaginary part of the regularized Schwartz distribution:
+             √
+                 −1π(q−1)                                                        √          n
+         e          2       (x1 2 + · · · + xp−1 2 − xp 2 − · · · − xp+q−1 2 +       −10)1− 2 .
+
+See the recent paper of Hörmander [9] for further details on distributions associated
+with this ultrahyperbolic equation. Then we construct solutions of Rp−1,q−1 f = 0
+by the integral transformation:
+
+                   S : C0∞ (Rn ) → C ∞ (Rn ),        ϕ 7→ E0 ∗ ϕ       (see (4.3.1)).
+
+The image S(C0∞ (Rn )) turns out to be “large” in Ker Rp−1,q−1 (see §4.7, Re-
+mark (2)). On this image, we define a Hermitian form ( , )N by
+                               Z Z
+(1.4.1)         (f1 , f2 )N :=       E0 (y − x)ϕ1 (x)ϕ2 (y) dxdy,
+                                          Rn   Rn
+
+where fi = E0 ∗ ϕi (i = 1, 2). Here is a part of Theorem 4.7, which is the first of
+our main results:
+                                                     3
+Theorem 1.4. ( , )N is positive-definite on the image of S. Furthermore, O(p, q)
+acts as an irreducible unitary representation on its Hilbert completion H.
+   We shall write (̟Rmin
+                       p−1,q−1 , H) for this unitary representation. We also prove
+that this representation is isomorphic to the minimal representation of O(p, q),
+constructed previously by Kostant, Binegar-Zierau ([13], [3]). Thus, Theorem 1.4
+may be regarded as a realization of the minimal representation (with an explicit
+inner product) in the solution space of the ultrahyperbolic equation.
+1.5. The above definition of the inner product ( , )N (see (1.4.1)) uses the integral
+expression of solutions of Rp−1,q−1 f = 0. Can we write the inner product without
+knowing the preimage? Yes, the second of our main results is to give an intrinsic
+inner product on the same solution space by using the Cauchy data. For simplicity,
+we take z1 = 0 as a non-characteristic hyperplane. Then, we decompose a solution
+
+                                      f = f+ + f−
+
+such that f± (z1 , . . . , zn ) is holomorphic with respect to the first variable z1 in the
+complex domain of {z1 ∈ C : ± Im z1 > 0} of the z1 -variable. This is an expression
+of f as a hyperfunction, and such a pair (f+ , f− ) can be obtained by the convolution
+in the z1 -variable (see (6.2.3)):
+                                 1       ±1
+                    f± (z) =     √  ·     √   ∗ f (z1 , . . . , zn ),
+                               2π −1 z1 ∓ −10
+where the integration makes sense for f with suitable decay at infinity. Then we
+define a Hermitian form
+                              Z                       
+                           1             ∂f+      ∂f−
+(1.5.1)       (f, f )W := √           f+     − f−        |z1 =0 dz2 · · · dzn .
+                            −1 Rn−1      ∂z1      ∂z1
+
+Then we shall prove that ( , )W is independent of the specific choice of a non-
+characteristic hyperplane, as follows from the (non-trivial) isometric invariance.
+Much more strongly, ( , )W is conformally invariant. A precise formulation for this
+is given in Theorem 6.2, which includes:
+Theorem 1.5. 4π( , )W = ( , )N . In particular, ( , )W is positive definite and
+O(p, q)-invariant.
+   Hence, in place of Theorem 1.4, we can obtain the same irreducible unitary
+representation of O(p, q) on the Hilbert completion of a space of solutions with
+respect to the inner product ( , )W .
+   An interesting property of this inner product is its large invariance group. Even
+in the case of the usual wave equation (q = 2 case) our approach to the Hilbert
+space of solutions and the corresponding representation offers some new points of
+view. In this case, if we take the non-characteristic hyperplane as fixed time coordi-
+nate (namely, if z1 stands for the time), then the translational invariance amounts
+to a remarkable “conservation law”. Instead, we can take the non-characteristic
+hyperplane by fixing one of the space coordinates, and an analogous integration
+over the hypersurface (containing the time coordinate) still gives the same inner
+product ! As a final remark in §6.7, we note the connection to the theory of con-
+served quantities for the wave equation (q = 2 case), such as the energy and others
+obtained by the action of the conformal group.
+                                            4
+1.6. The Gelfand-Kirillov dimension of our representation (̟Rmin  p−1,q−1 , H) is p +
+
+q − 3. So, we may expect that the representation could be realized on a (p + q − 3)-
+dimensional manifold. For this purpose, we define the null cone of the metric as
+
+              C := {ζ ∈ Rn : ζ1 2 + · · · + ζp−1 2 − ζp 2 − · · · − ζn 2 = 0}.
+
+   The third of our main results is another realization of the unitary representation
+(̟Rmin
+    p−1,q−1 , H) in a function space on a (p + q − 3)-dimensional manifold C. The
+
+Fourier transform F maps solutions of Rp−1,q−1 f = 0 to distributions supported
+on the null cone C. Surprisingly, the inner product of our Hilbert space turns out
+to be simply the L2 -norm on C with respect to a canonical measure dµ (see (3.3.3))
+! Here is a part of Theorem 4.9: We regard L2 (C) as a subspace of distributions
+by a natural injective map T : L2 (C) → S ′ (Rn ).
+                        n
+Theorem 1.6. (2π)− 2 T −1 ◦ F is a surjective unitary operator from H to L2 (C).
+   Theorem 1.6 defines an irreducible unitary representation of G = O(p, q) on
+L (C), denoted by π, which is unitarily equivalent to (̟Rmin
+ 2
+                                                                p−1,q−1 , H).   Since the
+                                 max                           p−1,q−1
+maximal parabolic subgroup P         of G (see §2.7) acts on R            as affine trans-
+formations, the restriction π|P max has a very simple form, namely, the one obtained
+by the classical Mackey theory (see (3.3.5)). In this sense, Theorem 1.6 may be
+also regarded as an extension theorem of an irreducible unitary representation
+from the maximal parabolic subgroup P max to the whole group G.
+1.7. The fourth of our main results is about the representation (π, L2 (C)) as
+(g, K)-modules on the Fourier transform side, especially to find an explicit vector
+in the minimal K-type.
+   In the realization on L2 (C), the action π(g) is not simple to describe except for
+g ∈ P max . Instead, we consider the differential action dπ of the Lie algebra g0
+on smooth vectors of L2 (C), which turns out to be given by differential operators
+at most of second order (see §3.2). This makes the analogy with the metaplectic
+representation (where G is replaced by the symplectic group) a good one . Here we
+are recalling the fact, that the even part of the metaplectic representation may be
+realized as an L2 -space of functions on the cone generated by rank one projections
+in Rn .
+   Moreover, by using a reduction formula of an Appell hypergeometric function,
+we find explicitly the Fourier transform of a Jacobi function multiplied by some
+conformal factor which equals to a scalar multiple of
+                                      3−q
+                       ψ0,e (ζ) := |ζ| 2 K q−3 (2|ζ|)dµ ∈ S ′ (Rn ).
+                                               2
+
+
+
+Here Kν (ζ) is a modified Bessel function of the second kind. This vector ψ0,e (ζ)
+corresponds to the bound state of lowest energy for q = 2 case . For general p, q,
+the K-span of ψ0,e (ζ) generates the minimal K-type in the realization on L2 (C).
+   We define a subspace U of S ′ (Rn ) to be the linear span of its iterative differentials
+
+               dπ(X1 ) · · · dπ(Xk )ψ0,e (ζ)       (X1 , . . . , Xk ∈ g0 ⊗R C).
+
+What comes out of §5 may be formulated in this way (combining with Theorem
+4.9, see §3.2 for notation): Suppose p + q ∈ 2Z, p + q > 4 and p ≥ q ≥ 2.
+                                               5
+                        3−q
+Theorem 1.7. 1) |ζ| 2 K q−3 (2|ζ|) is a K-finite vector in L2 (C).
+                              2
+                                                     b n−2 ,ǫ .
+2) U is an infinitesimally unitary (g, K)-module via ̟
+                                                        2
+                                        2
+3) U is dense in the Hilbert space T (L (C)).
+4) The completion of (2) defines an irreducible unitary representation of G on
+T (L2 (C)), and then also on L2 (C).
+
+
+
+   In the paper [4] one finds a similar construction of Hilbert spaces and unitary
+representations for Koecher-Tits groups associated with semisimple Jordan algebras
+under the assumption that the representations are spherical, and there also occur
+Bessel functions as spherical vectors. In our situation the representations are not
+spherical if p 6= q. Our approach is completely different from [4], and contrary to
+what is stated in [4] (p. 206) we show that for G = O(p, q) it is possible to extend
+the Mackey representation of the maximal parabolic subgroup to the whole group.
+Furthermore, even for p = q case, our approach for Theorem 1.7 has an advantage
+that we give the exact constants normalizing the unitary correspondence between
+the minimal K-type in other realizations and the Bessel function in our realization
+on L2 (C) (see Theorem 5.5).
+
+1.8. The paper is organized as follows: We begin by recalling some results from
+conformal geometry and facts about the conformal group, in particular in [11]. In
+section 3 we give the basic setup for a realization on the null cone via Fourier trans-
+form. Then we construct the intertwining operator from the minimal representation
+to the model treated here and calculate the new expression for the inner product
+(see Theorem 1.4). We show in Proposition 4.2 that the Green function of Rp−1,q−1
+has a Fourier transform equal to the invariant measure on the null-cone, allowing
+one more expression for the inner product (see Theorem 1.6); also we obtain from
+this an intertwining operator from test functions to solutions. Indeed, in section
+4 Proposition 4.6 we prove that the Green function is up to a constant exactly
+the kernel in the Knapp-Stein intertwining integral operator between degenerate
+principal series representations at the parameters we study; this makes the proof of
+unitarity of the minimal representation elementary and formulated independent of
+the semi-simple theory usually employed here. Note that all normalizing constants
+are computed explicitly. Lemma 2.6 states the irreducibility and unitarizability,
+which we use; we give in [12] independent proofs of these facts.
+
+   In section 5 we construct the lowest K-type as a modified Bessel function, whose
+concrete properties are important for K-type information about L2 (C). The idea
+here is to use a classical formula on the Hankel transform due to Baily in 1930s,
+and then apply reduction formulae of an Appell hypergeometric function of two
+variables.
+
+   Section 6 contains formulae for the inner product ( , )W in terms of integration
+over a Cauchy hypersurface. Summarizing, we give five different realizations of
+the inner product together with the normalizations of these relative to each other.
+Namely, in addition to ( , )N and ( , )W we also define three more: ( , )M (coming
+from a pseudodifferential operator on M = S p−1 × S q−1 ), ( , )A (coming from a
+normalized Knapp-Stein intertwining operator), and finally ( , )C , which is just
+                                          6
+L2 (C). This is seen in the key diagram (see Section 4.11)
+
+                              S                F        T
+                                      e M ) → S ′ (Rn ) ←֓ L2 (C)
+                    C0∞ (Rn ) →Ψ∗n−2 (∆
+                                    2
+
+                                   ∩
+                                  Ker Rp−1,q−1
+
+where the spaces correspond to four different ways of generating solutions to our
+ultrahyperbolic equation. S will be an integral transform against the Green kernel
+(essentially, a Knapp-Stein intertwining operator with a specific parameter), and
+F the Fourier transform, mapping solutions to distributions supported on the null
+cone C. Correspondingly to the various ways of generating solutions, we write
+down explicitly the unitary inner product and its Hilbert space. We have tried
+to avoid the use of any semi-simple theory and stay within classical analysis on
+spheres and Euclidean spaces; still our treatment may also be of interest to people
+working with the classification of the unitary dual of semi-simple Lie groups, since
+we are providing new models of some unipotent representations. Tools like the
+standard Knapp-Stein intertwining operators become very natural to use here, also
+from the more elementary viewpoint, and the close connection between these and
+Green functions for ultrahyperbolic differential operators seems not to have been
+noticed before.
+   The first author expresses his sincere gratitude to SDU - Odense University for
+the warm hospitality.
+
+   §2. Ultrahyperbolic equation on Rp−1,q−1 and conformal group
+
+2.1. As explained in the Introduction, we shall give a flat picture, the so-called N -
+picture, of the minimal representation, which is connected to classical facts about
+conformal geometry in Rn . We shall give a unitary inner product in this realization
+(see Theorem 6.2) and also in its Fourier transform (Theorem 4.9), together with
+an explicit form of minimal K-type in this realization (see Theorem 5.5).
+   We shall assume p+q ∈ 2N, p ≥ 2, q ≥ 2 and (p, q) 6= (2, 2). The parity condition
+p + q ∈ 2N is not necessary when we consider a representation of the parabolic
+subgroup P max or of the Lie algebra g. Indeed, it will be interesting to relax this
+parity condition in order to obtain an infinitesimally unitary representation, which
+does not integrate to a global unitary representation of G.
+   Throughout this paper, we let
+
+                                    n=p+q−2
+
+  This section is written in an elementary way, intended also for non-specialists of
+semisimple Lie groups. §2.2 and §2.6 review the needed results in [11].
+2.2. We recall some basic fact of the distinguished representation of a conformal
+group (see [11], § 2). Let M be an n-dimensional manifold with pseudo-Riemannian
+metric gM . We denote by ∆M the Laplace operator on M , and by KM the scalar
+curvature of M . The Yamabe operator is defined to be
+
+                            e M := ∆M − n − 2 KM .
+                            ∆
+                                       4(n − 1)
+                                           7
+Suppose (M, gM ) and (N, gN ) are pseudo-Riemannian manifolds. A local diffeo-
+morphism Φ : M → N is called a conformal map if there exists a positive-valued
+function Ω on M such that Φ∗ gN = Ω2 gM . For λ ∈ C, we introduce a twisted
+pull-back
+
+(2.2.1)               Φ∗λ : C ∞ (N ) → C ∞ (M ), f 7→ Ωλ · f ◦ Φ.
+
+Then the conformal quasi-invariance of the Yamabe operator is expressed by:
+
+(2.2.2)                                  eN = ∆
+                                   Φ∗n+2 ∆    e M Φ∗n−2 .
+                                       2                      2
+
+
+Let G be a Lie group acting conformally on M . If we write the action as x 7→ Lh x
+(h ∈ G, x ∈ M ), we have a positive function Ω(h, x) ∈ C ∞ (G × M ) such that
+
+                           L∗h gM = Ω(h, ·)2 gM               (h ∈ G).
+
+We form a representation ̟λ of G, with parameter λ ∈ C, on C ∞ (M ) as follows:
+
+(2.2.3)      ̟λ (h−1 )f (x) = Ω(h, x)λ f (Lh x),           (h ∈ G, f ∈ C ∞ (M ), x ∈ M ).
+
+Note that the right-hand side is given by the twisted pull-back (Lh )∗λ according to
+the notation (2.2.1). Then, Formula (2.2.2) implies that ∆e M : C ∞ (M ) → C ∞ (M )
+is a G-intertwining operator from ̟ n−2 to ̟ n+2 . Thus, we have constructed a
+                                       2        2
+distinguished representation of the conformal group:
+Lemma 2.2 (see [11], Theorem 2.5). Ker ∆ e M is a representation space of the
+conformal group G of a pseudo-Riemannian manifold (M, gM ), through ̟ n−2 .
+                                                                                        2
+
+   If (N, gN ) is also a pseudo-Riemannian manifold on which the same group G
+acts conformally, then one can also define a representation ̟λ,N on C ∞ (N ). Then
+the twisted pull-back Φ∗λ is a G-intertwining operator.
+2.3. Here is a setup on which we construct the minimal representation of O(p, q)
+by applying Lemma 2.2. Let p, q ≥ 2. We note n = p+q−2. We write {e0 , . . . , en+1 }
+for a standard basis of Rp+q and the corresponding coordinate as
+
+                      (v0 , . . . , vn+1 ) = (x, y) = (v0 , z ′ , z ′′ , vn+1 ),
+
+where x ∈ Rp , y ∈ Rq , z ′ ∈ Rp−1 , z ′′ ∈ Rq−1 . The notation (x, y) will be used for
+S p−1 × S q−1 , while (z ′ , z ′′ ) for Rn = R(p−1)+(q−1) . The standard norm on Rl will
+be written as | · | (l = p − 1, p, q − 1, q).
+   We denote by Rp,q the pseudo-Riemannian manifold Rp+q equipped with the flat
+pseudo-Riemannian metric:
+
+(2.3.1)          gRp,q = dv0 2 + · · · + dvp−1 2 − dvp 2 − · · · − dvn+1 2 .
+
+We put two functions on Rp+q by
+
+(2.3.2)           ν : Rp+q → R,            (x, y) 7→ |x|,
+                                                                  1
+(2.3.3)           µ : Rp+q → R, (v0 , . . . , vn+1 ) 7→             (v0 + vn+1 ).
+                                                                  2
+                                                  8
+and define three submanifolds of Rp,q by
+
+                Ξ := {(x, y) ∈ Rp,q : |x| = |y| 6= 0},
+                M := {v ∈ Rp,q : ν(v) = 1} ∩ Ξ                  = S p−1 × S q−1 ,
+                                                                ∼
+                N := {v ∈ Rp,q : µ(v) = 1} ∩ Ξ                  ← Rn .
+                                                                 ι
+
+where the bijection ι : Rn → N is given by
+
+                                                 |z ′ |2 − |z ′′ |2 ′ ′′     |z ′ |2 − |z ′′ |2
+(2.3.4)      ι : Rn → N, (z ′ , z ′′ ) 7→ (1 −                     ,z ,z ,1+                    ).
+                                                         4                           4
+   We say a hypersurface L of Ξ is transversal to rays if the projection
+                                                           v
+(2.3.5)                            Φ : Ξ → M, v 7→
+                                                          ν(v)
+
+induces a local diffeomorphism Φ|L : L → M . Then, one can define a pseudo-
+Riemannian metric gL of signature (p − 1, q − 1) on L by the restriction of gRp,q .
+In particular, M itself is transversal to rays, and the induced metric gS p−1 ×S q−1
+equals gS p−1 ⊕ (−gS q−1 ), where gS n−1 denotes the standard Riemannian metric on
+the unit sphere S n−1 . Likewise, the induced pseudo-Riemannian metric on Rn
+through ι : Rn ֒→ Rp,q coincides with the standard flat pseudo-Riemannian metric
+gRp−1,q−1 on Rn .
+2.4. Let Ip,q := diag(1, . . . , 1, −1, . . . , −1) ∈ GL(p + q, R). The indefinite orthog-
+onal group
+                G = O(p, q) := {g ∈ GL(p + q, R) : tgIp,q g = Ip,q },
+acts isometrically on Rp,q by the natural representation, denoted by v 7→ g · v.
+This action stabilizes the light cone Ξ. We note that the multiplicative group
+R×
+ + := {r ∈ R : r > 0} also acts on Ξ as dilation, which commutes with the linear
+action of G. Then, using dilation, one can define an action of G on M , and also a
+meromorphic action on Rp−1,q−1 as follows:
+
+                                              h·v
+(2.4.1)    Lh : M → M,                       v 7→                               (h ∈ G),
+                                            ν(h · v)
+                                                             
+                  p−1,q−1    p−1,q−1         −1     h · ι(z)
+(2.4.2)    Lh : R         →R         , z 7→ ι                                   (h ∈ G).
+                                                  µ(h · ι(z))
+
+Then, both of these actions are conformal:
+
+(2.4.3)                        (Lh )∗ gM = ν(h · v)−2 gM
+(2.4.4)                 (Lh )∗ gRp−1,q−1 = µ(h · ι(z))−2 gRp−1,q−1 .
+
+We note that (2.4.2) and (2.4.4) are well-defined if µ(h · ι(z)) 6= 0. In fact, G
+acts only meromorphically on Rp−1,q−1 . An illustrative example for this feature
+is the linear fractional transformation of SL(2, C) on P1 C = C ∪ {∞}, which is
+a meromorphic action on C. This example essentially coincides with (2.4.2) for
+(p, q) = (3, 1), since SL(2, C) is locally isomorphic to O(3, 1) and C ≃ R2 .
+                                                  9
+2.5. The (meromorphic) conformal groups for the submanifolds M and N of Ξ are
+the same, namely, G = O(p, q), while their isometry groups are different subgroups
+of G, as we shall see in Observation 2.5. In order to describe them, we define
+subgroups K, M max , N max , Amax and N max of G as follows:
+   First, we set
+
+          m0 := −Ip+q ,
+             K := G ∩ O(p + q)                                        = O(p) × O(q),
+      max
+     M+   := {g ∈ G : g · e0 = e0 , g · en+1 = en+1 } ≃ O(p − 1, q − 1),
+     M max := M+
+               max       max
+                   ∪ m0 M+                                            ≃O(p − 1, q − 1) × Z2 .
+
+The Lie algebra of G is denoted by g0 = o(p, q), which is given by matrices:
+
+                     g0 ≃ {X ∈ M (p + q, R) : XIp,q + Ip,q tX = O}.
+
+Next, we keep n = p + q − 2 in mind and put
+                                       
+                                            1     (1 ≤ j ≤ p − 1),
+(2.5.1)                        εj =
+                                            −1    (p ≤ j ≤ n),
+
+and define elements of g0 as follows:
+
+(2.5.2)(a)      N j := Ej,0 + Ej,n+1 − εj E0,j + εj En+1,j                 (1 ≤ j ≤ n),
+(2.5.2)(b)       Nj := Ej,0 − Ej,n+1 − εj E0,j − εj En+1,j                 (1 ≤ j ≤ n),
+(2.5.2)(c)        E := E0,n+1 + En+1,0 ,
+
+where Eij denotes the matrix unit. Now, we define abelian subgroups of G by
+                      n
+                      X                                     n
+                                                            X
+                                            max
+      N max := exp(         RN j ),     N         := exp(         RNj ),    Amax := exp(RE).
+                      j=1                                   j=1
+
+                   max                             max max
+For example, M+         is the Lorentz group and M+   N     is the Poincaré group if
+                                               n       max
+(p, q) = (2, 4). It is convenient to identify R with N     by putting
+                               n
+                               X
+(2.5.3)           na := exp(         aj Nj ) ∈ N max          for a = (a1 , . . . , an ) ∈ Rn .
+                               j=1
+
+
+The geometric point here will be the following:
+Observation 2.5. 1) On S p−1 × S q−1 , G acts conformally, while K isometrically.
+2) On Rp−1,q−1 , G acts meromorphically and conformally, while the motion group
+   max max
+M+    N    isometrically.
+
+2.6. Next, let us consider the pseudo-Riemannian manifold M = S p−1 × S q−1 . It
+follows from (2.3.3) and (2.4.3) that we can define a representation ̟λ,M of G on
+C ∞ (M ) by
+                      (̟λ,M (h−1 )f )(v) := ν(h · v)−λ f (Lh v),
+                                                   10
+   The Yamabe operator on M is of the form:
+
+          e M = ∆S p−1 − ∆S q−1 − ( p − 2 )2 + ( q − 2 )2 = e
+          ∆                                                          e S q−1 .
+                                                            ∆S p−1 − ∆
+                                      2            2
+Applying Lemma 2.2, we obtain a representation of the conformal group G =
+O(p, q), denoted by (̟ p,q , V p,q ), as a subrepresentation of ̟ p+q−4 ,M :
+                                                                           2
+
+
+
+                  e M = {f ∈ C ∞ (M ) : ∆
+     V p,q := Ker ∆                     e M f = 0},
+                                        p+q−4
+     (̟ p,q (h−1 )f )(v) := ν(h · v)−     2     f (Lh v),   for h ∈ G, v ∈ M, f ∈ V p,q .
+
+   The restriction of ̟ p,q from the conformal group to the isometry group gives a
+useful knowledge on the representation ̟ p,q . For this, we recall the classical theory
+of spherical harmonics, which is a generalization of Fourier series for S 1 . For p ≥ 2
+and k ∈ N, we define the space of spherical harmonics of degree k by
+
+(2.6.1)    Hk (Rp ) = {f ∈ C ∞ (S p−1 ) : ∆S p−1 f = −k(k + p − 2)f },
+                                                                      
+                             ∞    p−1     e            1        p−2 2
+                    = {f ∈ C (S       ) : ∆S p−1 f =     − (k +      ) f }.
+                                                       4         2
+                                                                        L∞
+Then O(p) acts irreducibly on Hk (Rp ) and the algebraic direct sum k=0 Hk (Rp )
+is dense in C ∞ (S p−1 ). We note that Hk (R2 ) 6= {0} only if k = 0 or 1.
+   Now, we review a basic property of this representation (̟ p,q , V p,q ) on M =
+  p−1
+S     × S q−1 :
+Lemma 2.6 (see [3]; [11], §3). Assume p, q ≥ 2, p + q ∈ 2N and (p, q) 6= (2, 2).
+1) (̟ p,q , V p,q ) is an infinite dimensional irreducible representation of G.
+2) (K-type formula) V p,q contains the algebraic direct sum
+                                  M
+(2.6.2)                                     Ha (Rp ) ⊗ Hb (Rq )
+                                 a,b∈N
+                               a+ p     q
+                                  2 =b+ 2
+
+
+as a dense subspace with respect to the Fréchet topology on C ∞ (M ).
+3) G preserves the norm on V p,q defined by
+
+                 1 e         1
+                                                       X              q−2
+                                 2
+     kF k2M := k( − ∆ S p−1 ) F kL2 (M ) =
+                             4                                 (a +       )kFa,b k2L2 (M ) .
+                 4                                                     2
+                                                  a≥max(0, p−q
+                                                            2 )
+
+          P
+if F =      a Fa,b ∈ V
+                         p,q
+                             with Fa,b ∈ Ha (Rp ) ⊗ Hb (Rq ) and b = a + p−q    2 . Here,
+  1   e        1                                                              1   e S q−1 ) 14
+( 4 − ∆S p−1 ) 4 is a pseudo-differential operator on M , which is equal to ( 4 − ∆
+on Ker ∆ eM.
+
+   We write ( , )M for the corresponding inner product. We denote by V p,q the
+Hilbert completion of V p,q , on which G acts as an irreducible unitary representation
+of G. We shall use the same notation ̟ p,q to denote this unitary representation.
+                                                              p−q
+   If p ≥ q then V p,q contains the K-type of the form 1⊠H 2 (Rq ). This K-type is
+called a minimal K-type in the sense of Vogan, namely, its highest weight (with
+respect to a fixed positive root system of k0 ) attains the minimum distance from
+                                                 11
+the sum of negative roots of k0 among all highest weights of K-types occurring in
+̟ p,q . Likewise for p < q.
+Remark. 1) If p + q ≥ 8, ̟ p,q is called the minimal representation in the repre-
+sentation theory of semisimple Lie groups, in the sense that the annihilator is the
+Joseph ideal.
+2) The formula (2.6.2) is regarded as a branching law from the conformal group G
+to the isometry subgroup K of the pseudo-Riemannian manifold M = S p−1 × S q−1
+(see Observation 2.5). In [12], we generalized this branching law with respect to
+a non-compact reductive subgroup and proved the Parseval-Plancherel formula, in
+the framework of discretely decomposable restrictions [10].
+2.7. Let us consider the flat pseudo-Riemannian manifold Rp−1,q−1 . The Yamabe
+operator on Rp−1,q−1 is of the form:
+                                ∂2               ∂2       ∂2                ∂2
+          Rp−1,q−1 ≡ z :=          + · · · +         −       − · · · −           ,
+                               ∂z1 2           ∂zp−1 2   ∂zp 2           ∂zp+q−2 2
+because the scalar curvature on Rp−1,q−1 vanishes. Since G = O(p, q) acts on
+Rp−1,q−1 as a (meromorphic) conformal transform by (2.4.4), we obtain a ‘repre-
+sentation’ with parameter λ ∈ C as in (2.2.3):
+(2.7.1)      ̟λ,ǫ,Rn (g −1 )f (z) = |µ(gι(z))|−λ χǫ (sgn(µ(gι(z))))f (Lg z),   (g ∈ G).
+Here, for ǫ = ±1, we put
+                                      χǫ : R× → {±1}
+by χ1 ≡ 1 and χ−1 = sgn. We may write ̟λ,ǫ,Rp−1,q−1 for ̟λ,ǫ,Rn if we emphasize
+a view point of conformal geometry on the flat space Rp−1,q−1 .
+    We note that C ∞ (M ) is not stable by ̟λ,ǫ,Rp−1,q−1 (g −1 ) because Lg is mero-
+morphic. To make (2.7.1) a representation, we need to consider suitable class of
+functions controlled at infinity. One method for this is to use a conformal compact-
+ification
+                         Rp−1,q−1 ֒→ (S p−1 × S q−1 )/ ∼ Z2 ,
+and to take a twisted pull-back Ψ∗λ from C ∞ (M ) by a conformal map Ψ. This
+method is easy, and we shall explain it soon in §2.8 and §2.9. The other is to
+find an inner product for specific parameter λ so that G acts as a continuous
+unitary representation on the Hilbert space. This is particularly non-trivial for a
+subrepresentation, and we shall consider it for Ker Rp−1,q−1 in §6.
+   Before taking a suitable class of functions, we first write a more explicit form of
+(2.7.1). First, we note that the maximal parabolic subgroup
+             P max := Amax M max N max = (R×
+                                           + × O(p − 1, q − 1) × Z2 ) ⋉ R
+                                                                          n
+
+
+acts transitively on the manifold ι(Rn ) as affine transformations. Furthermore,
+M max N max acts on ι(Rn ) as isometries (see Observation 2.5). Correspondingly, the
+representation ̟λ,ǫ ≡ ̟λ,ǫ,Rn given in (2.7.1) has a simple form when restricted to
+the subgroup P max :
+
+(2.7.2)(a)            (̟λ,ǫ (m)f )(z) = f (m−1 z)              max
+                                                         (m ∈ M+   ),
+                     (̟λ,ǫ (m0 )f )(z) = ǫf (z),
+(2.7.2)(b)           (̟λ,ǫ (etE )f )(z) = eλt f (et z)   (t ∈ R),
+(2.7.2)(c)            (̟λ,ǫ (na )f )(z) = f (z − 2a)     (a ∈ Rn ).
+                                               12
+   Second, we write an explicit formula of the differential action of (2.7.1). We
+define a linear map
+                                ω : g0 → C ∞ (Rn )
+by the Lie derivative of the conformal factor Ω(h, z) := µ(h · ι(z))−1 (see (2.4.4)).
+For Y = (Yi,j )0≤i,j≤n+1 ∈ g0 and z ∈ Rn , we have
+                                                      n
+                        d        tY                1X
+(2.7.3)        ω(Y )z := |t=0 Ω(e , z) = −Y0,n+1 −       (Y0,j + Yn+1,j )zj .
+                        dt                         2 j=1
+
+  We write the Euler vector field on Rn as
+                                                  n
+                                                  X            ∂
+(2.7.4)                                   Ez =           zj       .
+                                                  j=1
+                                                              ∂zj
+
+Then the differential d̟λ : g0 → End(C ∞ (Rn )) is given by
+
+(2.7.5) d̟λ (Y ) = −λω(Y ) − ω(Y )Ez
+                                                                              
+          n 
+          X                          ′ 2    ′′ 2
+                                   |z | − |z |
+                                                                     n
+                                                                     X          ∂
+        −       (Yi,0 + Yi,n+1 ) +               (−Yi,0 + Yi,n+1 ) +   Yi,j zj
+                                        4                                      ∂zj
+            i=1                                                                      j=1
+
+
+for Y = (Yi,j )0≤i,j≤n+1 ∈ g0 and z ∈ Rn . In particular, we have
+
+                                           1                       ∂
+(2.7.6)    d̟λ (Nj ) = −λεj zj − εj zj Ez + (|z ′ |2 − |z ′′ |2 )     ,                 (1 ≤ j ≤ n).
+                                           2                      ∂zj
+
+2.8. We recall M = S p−1 × S q−1 . This subsection relates the representation
+̟λ,M and ̟λ,Rp−1,q−1 by the stereographic projection Ψ−1 : M → Rp−1,q−1 defined
+below.
+   We set a positive valued function τ : Rn → R by
+
+          τ (z) ≡ τ (z ′ , z ′′ ) := ν ◦ ι(z)
+                                                                          12
+                                            |z ′ |2 − |z ′′ |2 2     ′ 2
+                                  = (1 −                      ) + |z |
+                                                    4
+                                                                           12
+                                            |z ′ |2 − |z ′′ |2 2
+                                  = (1 +                      ) + |z ′′ |2
+                                                    4
+                                                             1                            1
+                                            |z ′ | + |z ′′ | 2 2           |z ′ | − |z ′′ | 2 2
+(2.8.1)                           = 1+(                     )      1+(                     )    .
+                                                   2                              2
+
+   We define an injective diffeomorphism as a composition of ι : Rp−1,q−1 ֒→ Ξ (see
+(2.3.4)) and Φ : Ξ → M (see (2.3.5)):
+
+(2.8.2)                    Ψ : Rp−1,q−1 → M,              z 7→ τ (z)−1 ι(z).
+
+The image of Ψ is
+
+(2.8.3)   M+ := {u = (u0 , u′ , u′′ , un+1 ) ∈ M = S p−1 × S q−1 : u0 + un+1 > 0}.
+                                                    13
+Then, Ψ is a conformal map (see [11], Lemma 3.3, for example) such that
+(2.8.4)                       Ψ∗ gM = τ (z)−2 gRp−1,q−1 .
+The inverse of Ψ : Rp−1,q−1 → M+ is given by
+                                             u0 + un+1 −1 ′ ′′         −1
+(2.8.5)      Ψ−1 (u0 , u′ , u′′ , un+1 ) = (          ) (u , u ) = µ(u) (u′ , u′′ )
+                                                 2
+  −1
+Ψ is nothing but a stereographic projection if q = 1. We note that Ψ induces a
+conformal compactification of the flat space Rp−1,q−1 :
+                         Rp−1,q−1 ֒→ (S p−1 × S q−1 )/ ∼ Z2 .
+Here ∼ Z2 denotes the equivalence relation in the direct product space S p−1 × S q−1
+defined by u ∼ −u.
+   As in (2.2.1), we define the twisted pull-back by
+(2.8.6)          Ψ∗λ : C ∞ (M ) → C ∞ (Rn ),     F 7→ τ (z)−λ F (Ψ(z)).
+Let
+           C ∞ (M )ǫ := {f ∈ C ∞ (M ) : f (−u) = ǫf (u), for any u ∈ M }.
+Then Ψ∗λ |C ∞ (M )ǫ is injective. The inverse map is given by
+(2.8.7) (Ψ∗λ,ǫ )−1 : Ψ∗λ (C ∞ (M )ǫ ) → C ∞ (M )ǫ ,
+                                           ( u +u
+                                             | 0 2 n+1 |−λ f (Ψ−1 (u))     (u ∈ M+ )
+                                      f 7→
+                                             ǫ| u0 +u
+                                                    2
+                                                      n+1 −λ
+                                                         | f (Ψ−1 (−u))    (u ∈ M− ).
+We note that (Ψ∗λ,ǫ )−1 f makes sense for f ∈ C0∞ (Rn ), since we have
+                              C0∞ (Rn ) ⊂ Ψ∗λ (C ∞ (M )ǫ ).
+   Now, the representation ̟λ,ǫ,Rn is well-defined on the following representation
+space: Ψ∗λ (C ∞ (M )), a subspace of C ∞ (Rn ) through ̟λ,M .
+   Then, by (2.2.2) (see [11], Proposition 2.6), we have:
+                                                              eM.
+Lemma 2.8. Ψ∗n−2 (V p,q ) ⊂ Ker Rp−1,q−1 , where V p,q = Ker ∆
+                   2
+
+
+2.9. In the terminology of representation theory of semisimple Lie groups, Ψ∗λ is
+a G-intertwining operator from the K-picture (̟λ,M , C ∞ (M )ǫ ) to the N -picture
+(̟λ,ǫ,Rn , Ψ∗λ (C ∞ (M ))). To see this in an elementary way, we argue as follows: For
+ν ∈ C, we denote by the space
+(2.9.1)       S ν (Ξ) := {h ∈ C ∞ (Ξ) : h(tξ) = tν h(ξ), for any ξ ∈ Ξ, t > 0},
+of smooth functions on Ξ of homogeneous degree ν. Then G acts on S ν (Ξ) by left
+translations. Furthermore, for ǫ = ±1, we put
+(2.9.2)       S ν,ǫ (Ξ) := {h ∈ S ν (Ξ) : h(−ξ) = ǫh(ξ), for any ξ ∈ Ξ}.
+Then we have a direct sum decomposition
+                            S ν (Ξ) = S ν,1 (Ξ) + S ν,−1 (Ξ),
+on which G acts by left translations, respectively. Then S ν,ǫ (Ξ) corresponds to the
+degenerate principal series representation (see [11] for notation):
+                                                          n
+(2.9.3)                 C ∞ - IndG
+                                 P max (ǫ ⊗ Cλ ) ≃ S
+                                                     −λ− 2 ,ǫ
+                                                              (Ξ),
+where P max = M max Amax N max .
+                                           14
+Lemma 2.9. 1) The restriction S −λ,ǫ (Ξ) → C ∞ (M )ǫ , h 7→ h|M induces the iso-
+morphism of G-modules between S −λ,ǫ (Ξ) and (̟λ , C ∞ (M )ǫ ) for any λ ∈ C.
+2) The restriction S −λ,ǫ (Ξ) → C ∞ (Rn ), h 7→ h|Rn induces the isomorphism of G-
+modules between S −λ,ǫ (Ξ) and (̟λ,ǫ,Rn , Ψ∗λ (C ∞ (M )ǫ )) for any λ ∈ C.
+Proof. See [11], Lemma 3.7.1 for (1). (2) follows from the commutative diagram:
+
+                                                S −λ,ǫ (Ξ)
+(2.9.4)                               r1 ւ                   ց r2
+                                                    Ψ∗
+                             C ∞ (M )ǫ               λ
+                                                    −→              C ∞ (Rn ),
+
+because r1 is bijective and r2 is injective.                
+                                                            n                n
+2.10.      A natural bilinear form h , i : S −λ− 2 (Ξ) × S λ− 2 (Ξ) → C is defined by
+                                  Z
+(2.10.1)          hh1 , h2 i :=           h1 (b)h2 (b) db
+                                      M
+                                  Z
+(2.10.2)                    =2             h1 (ι(z))h2 (ι(z)) dz            (see (2.3.4)).
+                                      Rn
+
+Here, db is the Riemannian measure on M = S p−1 × S q−1 . The second equation
+follows from (h1 h2 )(ι(z)) = τ (z)−n (h1 h2 )(Ψ(z)) and the Jacobian for Ψ : Rn → M
+is given by τ (z)−n (see (2.8.4)). Then h , i is K-invariant and N max -invariant from
+(2.10.1) and (2.10.2), and thus G-invariant since G is generated by K and N max .
+
+                  §3. Square integrable functions on the cone
+
+3.1. In this section we shall study the irreducible unitary representation of the
+                max max
+motion group M+      N     ≃ O(p − 1, q − 1) ⋉ Rp+q−2 and the maximal parabolic
+subgroup P max = M max Amax N max on the space of solutions to our ultrahyperbolic
+equation Rp−1,q−1 f = 0. This is a standard induced representation by the Mackey
+machine, and will be later extended to the minimal representation of G = O(p, q)
+(see Theorem 4.9 (3)).
+3.2. In the flat picture Rp−1.q−1 , our minimal representation V p,q of O(p, q) can
+be realized in a subspace of Ker Rp−1,q−1 (see Lemma 2.8). We shall study the
+representation space by means of the Fourier transform.
+   We normalize the Fourier transform on S(Rn ) by
+                             Z        √
+                 (F f )(ζ) =   f (z)e −1(z1 ζ1 +···+zn ζn ) dz1 · · · dzn ,
+                                      Rn
+
+and extends it to S ′ (Rn ), the space of the Schwartz distributions.
+  By composing the following two injective maps
+                                  Ψ∗n−2
+                                                                        F
+                       ∞      2
+                     C (M )ǫ −→ C ∞ (Rn ) ∩ S ′ (Rn ) −→ S ′ (Rn ),
+
+we define a representation of G and g on the image F Ψ∗n−2 (C ∞ (M )), denoted
+                                                                                  2
+           b λ,ǫ,Rn , so that F ◦ Ψ∗n−2 is a bijective G-intertwining operator from
+   b λ,ǫ ≡ ̟
+by ̟
+                                                2
+                                                     15
+the representation space (̟λ,M , C ∞ (M )ǫ ) to (̟
+                                                 b λ,ǫ , F Ψ∗n−2 (C ∞ (M )ǫ )). Then, it
+                                                                      2
+                                             b λ,ǫ has a simple form when restricted
+follows from (2.7.2) that the representation ̟
+                   max      max max max
+to the subgroup P      =M       A    N     :
+
+                                                                            max
+(3.2.1)(a)       b λ,ǫ (m)h)(ζ) = h(tmζ)
+                (̟                                                    (m ∈ M+   ),
+                b λ,ǫ (m0 )h)(ζ) = ǫh(ζ),
+               (̟
+            b λ,ǫ (etE )h)(ζ) = e(λ−n)t h(e−t ζ)
+(3.2.1)(b) (̟                                                         (t ∈ R),
+                                      √
+(3.2.1)(c)      b λ,ǫ (na )h)(ζ) = e2 −1(a1 ζ1 +···+an ζn ) h(ζ)
+               (̟                                                     (a ∈ Rn ).
+
+We remark that in the above formula, we regarded h as a function. The action of
+Amax on the space of distributions is slightly different by the contribution of the
+measure dζ:
+
+(3.2.1)(b′ )              b λ,ǫ (etE )φ)(ζ) = eλt φ(e−t ζ)
+                         (̟                                        (t ∈ R),
+
+if we write φ(ζ) = h(ζ)dζ ∈ S ′ (Rn ).
+   The differential representation d̟  b λ,ǫ of g0 on F Ψ∗n−2 (C ∞ (M )) is given by the
+                                                           2
+following lemma:
+Lemma 3.2. We recall that Eζ is the Euler operator (see (2.7.4)). With notation
+in (2.5.2), we have
+                           √
+           b λ,ǫ (N j ) = 2 −1ζj
+          d̟                                                                  (1 ≤ j ≤ n),
+                                                         
+                          √         ∂          ∂   1
+           b λ,ǫ (Nj ) = −1 λεj
+          d̟                          − Eζ εj     + ζj ζ                     (1 ≤ j ≤ n),
+                                  ∂ζj         ∂ζj  2
+            b λ,ǫ (E) = λ − n − Eζ .
+           d̟
+
+
+Proof. Lemma follows from the correspondence under the Fourier transform ∂z∂ j ↔
+  √                   √
+− −1ζj , zj ↔ − −1 ∂ζ∂ j , and therefore from Ez ↔ −n − Eζ , P (z) ↔ −ζ , where
+P (z) := z1 2 + · · · + zp−1 2 − zp 2 − · · · − zp+q−2 2 . 
+Remark. 1) We note that d̟    b λ,ǫ is independent of the signature ǫ = ±1.
+2) In Theorem 4.9, we shall find that L2 (C), the Hilbert space of square integrable
+functions on the cone C in Rn , is a G-invariant subspace of the Schwartz distri-
+butions S ′ (Rn ). Then, the action of the Lie algebra g can be written in terms of
+differential operators along the cone C at most of second order.
+3.3.   We define a quadratic form Q on Rn (≃ (Rn )∗ ) as the dual of P (z) on Rn by
+
+(3.3.1) Q(ζ) := ζ1 2 + · · · + ζp−1 2 − ζp 2 − · · · − ζp+q−2 2           for ζ ∈ Rn = Rp+q−2
+
+and define a closed cone by
+
+(3.3.2)                           C := {ζ ∈ Rn : Q(ζ) = 0}.
+
+It follows from Lemma 2.8 that the support of the distribution F Ψ∗n−2 F is contained
+                                                                    2
+in the cone C, for any F ∈ V p,q . Surprisingly, F Ψ∗n−2 F becomes square integrable
+                                                             2
+                                                16
+on C (see Theorem 4.9). As a preparation for the proof, we study a natural action
+on L2 (C) of a parabolic subgroup P max in this subsection.
+  We take a differential (n − 1)-form dµ on C such that
+
+                              dQ ∧ dµ = dζ1 ∧ · · · ∧ dζn .
+
+Then the restriction dµ to the cone C defines a canonical measure (we use the same
+notation dµ). Using polar coordinates on C: ζ = (sω, sω ′) with s > 0, ω ∈ S p−2 ,
+ω ′ ∈ S q−2 , we write down the canonical measure dµ on C explicitly by
+                Z           Z Z         Z
+                          1 ∞
+(3.3.3)             φdµ =                      φ(sω, sω ′ )sn−3 ds dω dω ′
+                  C       2  0    S p−2  S q−2
+
+
+for a test function φ. If n > 2, that is if p + q > 4, then the measure dµ defines a
+Schwartz distribution on Rn , which is equal to the Delta function δ(Q) supported
+on the cone C (see [7]).
+   For a measurable function φ on C, we define a norm of φ by
+                                           Z
+                                     2
+(3.3.4)                           kφk :=       |φ|2 dµ
+                                             C
+
+and denote by L2 (C) ≡ L2 (C, dµ) the Hilbert space of square integrable functions.
+  By the Mackey theory, we can define a natural representation π of the maximal
+parabolic subgroup P max = Amax M max N max on L2 (C) if p + q ∈ 2Z, by
+                                 n−2
+(3.3.5)(a)   (π(etE )ψ)(ζ) := e− 2 t ψ(e−t ζ),                (t ∈ R)
+                                 t                                  max
+(3.3.5)(b)    (π(m)ψ)(ζ) := ψ( mζ)                            (m ∈ M+   ),
+                                     p−q
+             (π(m0 )ψ)(ζ) := (−1) 2 ψ(ζ)
+                                √
+(3.3.5)(c)   (π(na )ψ)(ζ) := e2 −1(a1 ζ1 +···+an ζn ) ψ(ζ)    (a ∈ Rn ).
+
+Proposition 3.3. 1) The representation (π, L2 (C)) of P max is unitary.
+2) The representation π is still irreducible when restricted to the motion group
+  max max
+M+   N     ≃ O(p − 1, q − 1) ⋉ Rp+q−2 . In particular, it is irreducible as a P max -
+module.
+Proof. (1) is straightforward from the definitions (3.3.4) and (3.3.5).
+Let us prove (2). It follows from (3.3.5)(c) that any N max -invariant closed subspace
+of L2 (C) is of the form L2 (C ′ ) where C ′ is a measurable subset of C. As M+    max
+                          2    ′     max                                     ′
+acts transitively on C, L (C ) is M+ -invariant only if the measure of C is either
+null or conull. Thus, L2 (C ′ ) equals either {0} or L2 (C). Therefore, the unitary
+representation L2 (C) is irreducible as an M+  max max
+                                                  N    -module. 
+
+3.4. It is not clear a priori if (π, L2 (C)) extends from P max to G. We shall prove
+in Theorem 4.9 that if p, q ≥ 2 and n(= p + q − 2) > 2 then π extends to G as an
+irreducible unitary representation through an injective map T : L2 (C) ֒→ S ′ (Rn ),
+defined as follows:
+   By using the Cauchy-Schwarz inequality, we see the following map
+                                                    Z
+                                     n
+                        T (ψ) : S(R ) → C, ϕ 7→         ϕψ dµ
+                                                        C
+                                           17
+is well-defined and continuous if n > 2, for each ψ ∈ L2 (C). Thus we have a natural
+map
+
+(3.4.1)                   T : L2 (C) −→ S ′ (Rn ),               ψ 7→ ψdµ.
+
+Clearly, T is injective. We shall regard T (L2 (C)) as a Hilbert space such that T is
+a unitary operator.
+Lemma 3.4. 1) T is a P max -intertwining operator from (π, L2 (C)) to
+ b n−2 ,ǫ |P max , S ′ (Rn )).
+(̟
+    2
+    b n−2 ,ǫ |P max , T (L2 (C))) is an irreducible unitary representation of P max . It is
+2) (̟
+          2
+still irreducible as an M max N max -module.
+Proof. (1) follows directly from the definitions (3.2.1) and (3.3.5). (2) follows from
+(1) and Proposition 3.3 (2). 
+
+                    §4. Green function and inner product
+
+4.1. In this section, we shall construct solutions of the ultrahyperbolic equation
+Rp−1,q−1 f = 0 by the integral transform given by convolution with the Green
+kernel. Then, we shall show that the Green kernel coincides with a special value
+of the Knapp-Stein intertwining operator for a degenerate principal series. This
+observations gives another expression of the inner product of the minimal repre-
+sentation of O(p, q) by using the Green kernel (see Theorem 4.7), and also leads to
+a realization of the minimal representation on L2 (C), the Hilbert space of square
+integrable functions on a cone C as will be discussed in §6.
+   We put
+                    P (x) = x1 2 + · · · + xp−1 2 − xp 2 − · · · − xn 2
+for x ∈ Rn = Rp+q−2 .
+4.2. A distribution E satisfying Rp−1,q−1 E = δ (Dirac’s delta function) is called
+a fundamental solution of the ultra-hyperbolic Laplace operator Rp−1,q−1 . Recall
+from [7], page 354, if n is even and n > 2 then
+                                             √
+                                              −1π(q−1)
+                       −Γ( n2 − 1)e              2                      √            n
+                    E=            n                          (P (x) +       −10)1− 2
+                               4π 2
+                                                        √
+is a fundamental solution of√Rp−1,q−1 , where (P (x) + −10)λ stands for the limit
+of the distribution (P (x) + −1R(x))λ as a positive definite quadratic form R(x)
+tends to 0. In view of the integral formula in [7], Chapter III, §2.6
+                                                         √
+                                                n            −1π(q−1)
+                         √          1− n     4π 2 e−     2                     √
+                F (P +       −10)      2   =                            (Q −       −10)−1 ,
+                                                 Γ( n2 − 1)
+
+we have readily the following formula for the Green function E0 of Rp−1,q−1 :
+Proposition 4.2. We define a distribution E0 on Rn by
+
+                                              1
+(4.2.1)                             E0 =      √ (−E + E).
+                                            2π −1
+                                                    18
+Then Rp−1,q−1 E0 = 0 and its Fourier transform is given by
+
+                            1              √                   √
+(4.2.2)         F E0 =      √      ((Q −       −10)−1 − (Q +       −10)−1 ) = δ(Q).
+                           2π −1
+
+   In the Minkowski case, i.e. q = 2, such a formula has been known ([1]), since
+the so-called two-point functions
+                             √ in −1 the quantum field theory for a zero mass field
+exactly corresponds to (Q + −10) for negative frequency. In this case C natu-
+rally splits in two components, a forward and a backward light cone, and functions
+supported on the forward cone have Fourier transforms that extend to holomorphic
+functions on the corresponding tube domain, thus yielding a unitary highest weight
+representation of the connected group. The reproducing kernel of this representa-
+tion is the Fourier transform of the measure on the forward cone, in analogy with
+what happens in Proposition 4.2.
+4.3. In order to give the integral expression of solutions Rp−1,q−1 f = 0, we define
+a convolution map by the Green kernel:
+
+(4.3.1)                S : C0∞ (Rn ) → C ∞ (Rn ),      ϕ 7→ E0 ∗ ϕ.
+
+Fix ν ∈ C. We consider the representation ̟ν,ǫ ≡ ̟ν,ǫ,Rn of G on a subspace
+of C ∞ (Rn ) (see §2). The restriction to P max stabilizes C0∞ (Rn ), as follows from
+(2.7.2).
+Lemma 4.3. 1) Image S ⊂ Ker Rp−1,q−1 .
+2) S is an intertwining operator of P max -modules between on one side ̟ν+2,ǫ |P max
+and on the other side ̟ν,ǫ |P max for any ν ∈ C and ǫ = ±1.
+Proof. (1) As Rp−1,q−1 E0 = 0, we have Image S ⊂ Ker Rp−1,q−1 .
+The proof of (2) is direct from (2.7.2). We illustrate it by the action of etE ∈ Amax :
+                                     Z
+                      tE
+          S(̟ν+2,ǫ (e )ϕ)(y) =            E0 (y − z)e(ν+2)t ϕ(et z) dz
+                                     Rn
+                                     Z
+                                 =        E0 (et y − et z)e(ν+2)t+(n−2)t ϕ(et z) dz
+                                     Rn
+                                 = e (Sϕ)(et y)
+                                     νt
+
+
+                                 = ̟ν,ǫ (etE )(Sϕ)(y).
+
+This shows that S intertwines the action of Amax . The case for the action of
+M max N max is similar and easier. 
+  We shall see that S extends to a G-intertwining operator for ν = n2 − 1 in
+Proposition 4.6.
+4.4.   Recall the notation in §2.9. Let
+
+              [u, v] := u0 v0 + · · · + up−1 vp−1 − up vp − · · · − un+1 vn+1
+
+for u, v ∈ Rn+2 = Rp+q . The Knapp-Stein intertwining operator
+                                           n              n
+                            Aλ,ǫ : S −λ− 2 ,ǫ (Ξ) → S λ− 2 ,ǫ (Ξ)
+                                               19
+is given by the integral operator with kernel function
+
+(4.4.1)                  ψλ− n2 ,ǫ (u0 − un+1 ) = ψλ− n2 ,ǫ ([u, ξ0 ])
+
+on Ξ. Here, we put ξ0 := t(1, 0, . . . , 0, 1) ∈ Ξ and ψν,ǫ is a distribution (or a
+hyperfunction) of one variable is defined by
+
+                                            1       ν
+                          ψν,ǫ (y) :=     2ν+3−ǫ |y| χǫ (sgn y).
+                                        Γ( 4 )
+
+   Via the bijection r1 in the commutative diagram (2.9.4),
+
+                              Aλ,ǫ : C ∞ (M )ǫ → C ∞ (M )ǫ
+
+is written as
+                                           Z
+          (AM
+            λ,ǫ f )(u) ≡ (Aλ,ǫ f )(u) :=          ψλ− n2 ,ǫ ([u, v]) f (v) dv   (u ∈ M )
+                                              M
+
+in the compact picture M ≃ S p−1 × S q−1 .
+   The Gamma factor in the definition of ψν,ǫ (y) exactly cancels the poles of the
+distribution |y|ν χǫ (sgn y) of one variable y with meromorphic parameter ν. This
+means that the distribution ψν,ǫ ([u, v]) of multi-variables makes sense for any ν ∈ C
+when restricted to the open set {(u, v) ∈ M × M : u 6= ±v}, where [u, dv]+[v, du] 6=
+0. Then ψν,ǫ ([u, v]) continues meromorphically as a distribution on M × M with
+possible poles only at λ = 0, −1, . . . , whose residues are distributions supported on
+{(u, v) ∈ M × M : u = ±v}.
+   In view of the normalization of our parameter (see Lemma 2.9), Aλ,ǫ is a G-
+intertwining operator from ̟λ+ n2 to ̟−λ+ n2 for λ 6= 0, −1, −2, . . . . What we
+need is the case λ = 1 and we recall from [11], §3.9 (basically since we know the
+composition series of the induced representations and the eigenvalue of Aλ,ǫ on each
+K-type):
+Lemma 4.4. Let p ≡ q mod 2, p, q ≥ 2 and (p, q) 6= (2, 2). We put
+                                          
+                                p−q           1        p − q ≡ 0, 4 mod 8,
+(4.4.2)(a)          ǫ := (−1)    2    =
+                                              −1       p − q ≡ 2, 6 mod 8.
+                                          
+                                q−p           1        p − q ≡ 0, 2 mod 8,
+(4.4.2)(b)          δ := (−1)[ 4 ] =
+                                              −1       p − q ≡ 4, 6 mod 8.
+
+1) The image (̟ n2 −1 , A1,ǫ(C ∞ (M )ǫ )) is a dense subrepresentation of (̟ p,q , V p,q ),
+where we recall V p,q = Ker ∆eM.
+   Let us define a Hermitian form ( , )A on the same image A1,ǫ (C ∞ (M )ǫ ) by
+
+(4.4.3)              (F1 , F2 )A := δhA1,ǫ ϕ1 , ϕ2 i = δhϕ1 , A1,ǫϕ2 i,
+
+for Fi = A1,ǫ ϕi , ϕi ∈ C ∞ (M )ǫ (i = 1, 2), where h , i is the bilinear form given as
+the integral over M (see (2.10.1)).
+2) The Hermitian form ( , )A is well-defined (namely, independent of the choice
+                                                  20
+of ϕi ) and G-invariant under the action of ̟ n2 −1 .
+3) In comparison with the inner product ( , )M given in Lemma 2.6, we have
+
+(4.4.4)        (F1 , F2 )A = c1 (F1 , f2 )M                 for any F1 , F2 ∈ A1,ǫ (C ∞ (M )ǫ ),
+
+where we put
+                                                      Γ( n−1−ǫ
+                                                           4   )
+                                            c1 :=
+                                             n   n+1 .
+                                           22π 2
+In particular, the Hermitian form ( , )A is positive definite and the completion of
+a pre-Hilbert space (A1,ǫ (C ∞ (M )ǫ ), ( , )A ) coincides with the Hilbert space V p,q
+given in §2.6.
+
+4.5.   In the flat picture Rp−1,q−1 , we have
+
+                             −ξ0 + ξn+1 = |z ′ |2 − |z ′′ |2 = P (z)
+
+for ξ = ι(z) by (2.3.4). Then, via the injection r2 in the commutative diagram
+(2.9.4), the Knapp-Stein intertwining operator is given by the convolution:
+                               n
+(4.5.1)                   AR
+                           λ,ǫ ϕ ≡ Aλ,ǫ ϕ := 2ψλ− 2 ,ǫ (P (z)) ∗ ϕ
+                                                  n
+
+
+
+when restricted to C0∞ (Rn ) ⊂ Ψ∗n+2 (C ∞ (M )ǫ ). Then we have
+                                            2
+
+                                        n
+                                           ∗       ∗       M
+(4.5.2)                            AR
+                                    1,ǫ ◦ Ψ n+2 = Ψ n−2 ◦ A1,ǫ .
+                                                  2           2
+
+
+Lemma 4.5. Retain the setting of Lemma 4.4. We put
+                                            √
+                                                −1π(q−1)          √          n
+(4.5.3)                      h(y) := e             2       (y +       −10)1− 2 .
+
+Then we have
+                                              Γ( −1+n+ǫ )
+(4.5.4)                 ψ   1− n
+                               2 ,ǫ
+                                      (y) = δ     √4      (h(y) − h(y)).
+                                               2π −1
+                      √                               √
+Proof. Solving (y ±       −10)ν = y+
+                                   ν
+                                     + e± −1πν y−
+                                                ν
+                                                  , we have
+                        √             √           √            √
+                     (e− −1νπ − ǫ)(y + −10)ν − (e −1νπ − ǫ)(y − −10)ν
+          ψν,ǫ (y) =                  √                               .
+                                    −2 −1 sin πνΓ( 2ν+3−ǫ
+                                                      4
+                                                          )
+
+Then, Lemma 4.5 follows from a residue calculation:
+                                                                                    √
+              √                                   √                                     −1π(q−1)
+           e − −1νπ
+                    −ǫ           e       − (−1)  − −1aπ                q      −δe          2       Γ( −1+n+ǫ
+                                                                                                         4   )
+  lim n           2ν+3−ǫ  = lim         5−n−ǫ     =                                                              .
+ ν→1− 2 sin πν Γ(
+                     4
+                         ) a→0 sin πa Γ( 4 + a2 )                                             π
+
+
+4.6. Our key observation is that the special value of the Knapp-Stein operator
+is given by the Green function up to a scalar constant. In particular, the image
+of C0∞ (Rn ) under the integral transform S satisfies not only the ultra-hyperbolic
+equation Rp−1,q−1 f = 0 but also a certain decay condition at infinity that matches
+a conformal compactification of Rp−1,q−1 (see §2.8).
+                                                       21
+Proposition 4.6. Retain the notation as in Proposition 4.2 and Lemma 4.4. We
+recall that δ, ǫ = ±1 are determined by p − q mod 8 as in (4.4.2) and define the
+constant c2 by
+                                        n
+                                    4δπ 2 Γ( −1+n+ǫ
+                                                4   )
+                              c2 :=        n          .
+                                       Γ( 2 − 1)
+Then we have:
+
+(4.6.1)                                   ψ1− n2 ,ǫ (P (z)) = c2 E0 ,
+                                                       n
+(4.6.2)                                     AR
+                                             1,ǫ |C0∞ (Rn ) = 2c2 S.
+
+
+In particular, S(C0∞ (Rn )) ⊂ Ψ∗n−2 (V p,q ).
+                                               2
+
+
+Proof. The first formula follows from Lemma 4.5 and from the definition of E0
+(see (4.2.1)). The second formula then follows from the definition (4.5.1). Then,
+in view of (4.5.2) and (4.6.2), S extends to a G-intertwining operator between
+(̟ n+2 , Ψ∗n+2 (C ∞ (M )ǫ )) and (̟ n−2 , Ψ∗n−2 (C ∞ (M )ǫ )). Then we have
+    2      2                                       2          2
+
+
+                      n
+                               ∞            ∗            ∞            ∗
+  S(C0∞ (Rn )) ⊂ AR     ∗                          M
+                  1,ǫ (Ψ n+2 (C (M )ǫ )) = Ψ n−2 (A1,ǫ (C (M )ǫ )) ⊂ Ψ n−2 (V
+                                                                              p,q
+                                                                                  ).
+                                  2                                    2                  2
+
+
+
+because C0∞ (Rn ) ⊂ Ψ∗n+2 (C ∞ (M )ǫ ). 
+                          2
+
+
+
+4.7. We are ready to introduce an inner product on Ker Rp−1,q−1 by using the
+Green function E0 (see (4.2.1)), so that our minimal representation is realized here
+as a unitary representation.
+   We define a Hermitian form on S(C0∞ (Rn )) ⊂ Ker Rp−1,q−1 by
+                                      Z        Z
+(4.7.1)          (f1 , f2 )N :=                            E0 (y − x)ϕ1 (x)ϕ2 (y) dx dy
+                                          Rn       Rn
+
+
+for fi = Sϕi = E0 ∗ ϕi (1 ≤ i ≤ 2). The right-hand side of (4.7.1) does not depend
+on the choice of ϕi because of the formula
+
+                     (f1 , f2 )N = (f1 , ϕ2 )L2 (Rn ) = (ϕ1 , f2 )L2 (Rn ) .
+
+We recall from Proposition 4.6 and Lemma 2.8 the inclusive relations:
+(4.7.2)
+                  n
+                              ∞            ∗
+ S(C0∞ (Rn )) ⊂ AR     ∗
+                 1,ǫ (Ψ n+2 (C (M )ǫ )) ⊂ Ψ n−2 (V
+                                                   p,q
+                                                       ) ⊂ Ker Rp−1,q−1 ⊂ C ∞ (Rn ).
+                              2                                    2
+
+
+
+Theorem 4.7. Let p ≡ q mod 2, p, q ≥ 2 and (p, q) 6= (2, 2). Recall n = p + q − 2
+             p−q
+and ǫ = (−1) 2 .
+1) The Hermitian form ( , )N is positive definite on S(C0∞ (Rn )).
+2) The Hermitian form ( , )N is invariant under ω n−2 ,ǫ,Rn (G).
+                                                      2
+   Let H be the completion of the pre-Hilbert space (S(C0∞ (Rn )), ( , )N ).
+3) The Fréchet representation ω n−2 ,ǫ,Rn of G on Ψ∗n−2 (C ∞ (M )ǫ ) induces a repre-
+                                                   2                       2
+sentation of G on the Hilbert space H, which we shall denote by (̟Rmin
+                                                                    p−1,q−1 , H).
+
+                                                              22
+4) The unitary representation (̟Rmin
+                                  p−1,q−1 , H) is irreducible.
+
+5) The map (see (2.8.7) for the definition)
+
+                            (Ψ∗n−2 ,ǫ )−1 :S(C0∞ (Rn ))→V p,q
+                                  2
+
+                                                  ∩                 ∩
+                                                  ∞        n        ∞
+                                                 C (R )           C (M )
+
+extends uniquely to a unitary isomorphism between (̟Rmin
+                                                      p−1,q−1 , H) and the minimal
+                  p,q  p,q
+representation (̟ , V ) up to a scalar constant. More precisely, for any f1 , f2 ∈
+H, we have
+
+(4.7.3)                           (f1 , f2 )N = 22−n (F1 , F2 )M ,
+
+where we put
+                             Fi := (Ψ∗n−2 ,ǫ )−1 fi ,          (i = 1, 2).
+                                             2
+
+
+
+Remark. 1) We shall give a different proof of the first statement of Theorem 4.7 in
+Theorem 4.9 by using the Fourier transform of the Green kernel.
+2) As we shall see in the proof of Theorem 4.7, S(C0∞ (Rn )) is dense in Ψ∗n−2 (V p,q )
+                                                                              2
+with respect to the above inner product.
+3) We can realize naturally the Hilbert space H as a subspace of the Schwartz
+distributions S ′ (Rn ), namely, F −1 T (L2 (C)), as we shall prove in Theorem 4.9.
+4.8.    In order to prove Theorem 4.7, we need:
+Lemma 4.8. Retain the notation of Theorem 4.7.
+1) For any f1 , f2 ∈ S(C0∞ (Rn )), we have
+
+(4.8.1)                               (f1 , f2 )N = c3 (F1 , F2 )A ,
+
+where                                             n
+                                             π 2 Γ( −1+n+ǫ
+                                                       4   )
+                                       c3 :=       n         .
+                                                Γ( 2 − 1)
+                                                                                 n
+                                                                  ∗
+  We extend the Hermitian form ( , )N from S(C0∞ (Rn )) to AR            ∞
+                                                            1,ǫ (Ψ n+2 (C (M )ǫ ))
+                                                                                         2
+by using the right side of (4.8.1) (recall the inclusive relation (4.7.2)).
+                                                                n
+                                                                     ∗      ∞
+2) The Hermitian form ( , )N is positive definite on AR        1,ǫ (Ψ n+2 (C (M )ǫ )), in
+                                                                                     2
+which S(C0∞ (Rn )) is dense. In particular, the Hilbert space H (see Theorem 4.7)
+coincides with the completion of the pre-Hilbert space A1,ǫ (Ψ∗n+2 (C ∞ (M )ǫ )).
+                                                                             2
+
+  We first finish the proof of Theorem 4.7, and then give a proof of Lemma 4.8.
+Proof of Theorem 4.7. (1) is clear from Lemma 4.8 (1) and Lemma 4.4. Next, let
+us prove (4.7.3). We consider the G-intertwining operator
+                                       ∞
+                                                        ∞
+          (Ψ∗n−2 ,ǫ )−1 : Ψ∗n−2 AM                 M
+                                 1,ǫ (C (M )ǫ ) → A1,ǫ (C (M )ǫ ) ⊂ V
+                                                                      p,q
+                                                                          ,
+               2              2
+
+
+or equivalently by (4.5.2),
+                                      n
+                                                             
+                    (Ψ∗n−2 ,ǫ )−1 : AR
+                                     1,ǫ  Ψ∗
+                                            n+2 (C ∞
+                                                     (M ) ǫ )   → V p,q .
+                        2                             2
+                                                      23
+  Combining (4.4.4) and (4.8.1), we have
+               (f1 , f2 )N = c3 (F1 , F2 )A = c1 c3 (F1 , F2 )M = 22−n (F1 , F2 )M ,
+where the second equality follows from a classical formula of the Gamma function:
+                                          1     √
+                        22z−1 Γ(z) Γ(z + ) = π Γ(2z).
+                                          2
+Thus, we have proved (4.7.3), especially, (Ψ∗n−2 ,ǫ )−1 is an isometry up to scalar.
+                                                           2
+Then (Ψ∗n−2 ,ǫ )−1 extends to an isometric (up to scalar) G-intertwining operator
+           2
+H → V p,q . This map is surjective because (̟ p,q , V p,q ) is an irreducible unitary
+representation of G (see Lemma 2.6). All other statements are now clear. 
+Proof of Lemma 4.8. 1) Suppose fi = Sϕi , ϕi ∈ C0∞ (Rn ) (i = 1, 2). Recall the
+constant c2 in Proposition 4.6, we have
+                         Z
+          (f1 , f2 )N =       (Sϕ1 )(x)ϕ2 (x)dx
+                           Rn
+                               Z
+                           1            n
+                      =            (AR1,ǫ ϕ1 )(x) ϕ2 (x) dx
+                         2c2 Rn
+                               Z
+                           1
+(4.8.2)               =            (AM ((Ψ∗n+2 ,ǫ )−1 ϕ1 )(b) (Ψ∗n+2 ,ǫ )−1 ϕ2 (b) db.
+                         4c2 M 1,ǫ              2                   2
+
+We put
+                             1
+                     ψi := (Ψ∗n+2 ,ǫ )−1 ϕi ∈ C ∞ (M )ǫ , (i = 1, 2).
+                            c2      2
+
+
+Then Fi = AM  1,ǫ ψi by (4.5.2). Therefore,
+                                   Z
+                             1 2                                   δc2
+               (4.8.2) =        c2     (AM 1,ǫ ψ1 )(b) ψ2 (b) db =     (F1 , F2 )A
+                           4c2       M                              4
+which equals the right side of (4.8.1).
+2) It is enough to show that S(C0∞ (Rn )) is dense in a pre-Hilbert space
+A1,ǫ (Ψ∗n+2 (C ∞ (M )ǫ )) because the inner product ( , )A is positive definite from
+         2
+Lemma 4.4.
+  Suppose f = A1,ǫ ϕ (ϕ ∈ Ψ∗n+2 (C ∞ (M )ǫ )) is orthogonal to S(C0∞ (Rn )) with
+                                          2
+respect to the inner product ( , )A . This means that (f, A1,ǫφ)A = 0 for any
+φ ∈ C0∞ (Rn ). Then we have
+        Z
+            (Ψ∗n−2 ,ǫ )−1 f (b) (Ψ∗n−2 ,ǫ )−1 φ(b) db = 0 for any φ ∈ C0∞ (Rn ).
+                   2                  2
+          M
+         ∗
+Since (Ψ n−2 ,ǫ )−1 (C0∞ (Rn )) is dense in L2 (M )ǫ := {f ∈ L2 (M ) : f (−u) = ǫf (u)},
+          2
+we have (Ψ∗n−2 ,ǫ )−1 f = 0, and thus f = 0. 
+               2
+
+
+4.9.   We recall Ψ∗n−2 (V p,q ) ⊂ Ψ∗n−2 (C ∞ (M )ǫ ) ⊂ S ′ (Rn ), on which we can define
+                        2                     2
+the Fourier transform F . We consider the following maps (see §4.3, §3.2, §3.4):
+                                  S                    F         T
+                       C0∞ (Rn ) → Ψ∗n−2 (V p,q ) → S ′ (Rn ) ←֓ L2 (C)
+                                              2
+
+Here is a description of the Fourier transform of the minimal unitary representation
+(̟Rmin
+    p−1,q−1 , H) of G = O(p, q) which is obtained as the completion of a pre-Hilbert
+
+space (S(C0∞ (Rn )), ( , )N ) (see Theorem 4.7).
+                                                  24
+Theorem 4.9. 1) F S(C0∞ (Rn )) is contained in T (L2 (C)). Furthermore, it is
+dense in the Hilbert space T (L2 (C)).
+2) T −1 ◦ F : S(C0∞ (Rn )) → L2 (C) extends uniquely to a unitary map H → L2 (C)
+up to a scalar constant. This constant is given explicitly by
+
+(4.9.1)                    (2π)n (f, f )N = kT −1 ◦ F f k2L2 (C) .
+
+
+3) The P max -module (π, L2 (C)) extends to an irreducible unitary representation of
+                                               n
+G, denoted by the same letter π, so that (2π)− 2 T −1 ◦ F gives a unitary equivalence
+between (̟Rmin                    2
+            p−1,q−1 , H) and (π, L (C)).
+     −1       ∗        p,q    2
+4) T ◦ F ◦ Ψ n−2 : V       → L (C) induces a unitary equivalence between irreducible
+                 2
+unitary representations (̟ p,q , V p,q ) and (π, L2 (C)), up to a scalar constant given
+by:
+
+(4.9.2)                 (φ, φ)M = 4π n kT −1 ◦ F ◦ Ψ∗n−2 φk2L2 (C)
+                                                         2
+
+
+
+
+Proof. If f = E0 ∗ ϕ (ϕ ∈ C0∞ (Rn )), then it follows from the integration formula of
+the Green function (see Proposition 4.2) that its Fourier transform is given by
+
+             F f = F (E0 ∗ ϕ) = (F E0 )(F ϕ) = (F ϕ)δ(Q) = T ((F ϕ)|C ).
+
+Since ϕ ∈ C0∞ (Rn ), we have (F ϕ)|C ∈ L2 (C). Hence, F S(C0∞ (Rn )) is contained in
+T (L2 (C)). Then we have (4.9.1), as follows from
+
+(4.9.3)   k(F ϕ)|C k2L2 (C) = ((F E0 )(F ϕ), F ϕ) = (F (E0 ∗ ϕ), F ϕ) = (2π)n (f, f )N .
+
+We note that (4.9.3) gives a different proof that ( , )N is a positive definite Her-
+mitian form on S(C0∞ (Rn )) (see Remark after Theorem 4.7).
+  It follows from Lemma 3.4 that T −1 ◦ F is an P max -intertwining operator from
+(̟ n−2 ,ǫ,Rn |P max , S(C0∞ (Rn ))) to (π, L2 (C)). This map is isometric up to a scalar
+    2
+by (4.9.1). Then, it extends naturally to an P max -intertwining operator from
+                                2                                       2
+(̟Rmin
+    p−1,q−1 |P max , H) to (π, L (C)), which is surjective because (π, L (C)) is irre-
+
+ducible (see Proposition 3.3). Hence we have proved (1), (2) and (3). The statement
+(4) follows from (2) and Theorem 4.7. Thus, we have proved Theorem 4.9. 
+
+4.10. By semisimple theory, it is known that a minimal representation is still
+irreducible when restricted to any maximal parabolic subgroup. In particular, ̟ p,q
+is irreducible as an P max -module. In our case, this fact can be strengthened as
+follows:
+
+Corollary 4.10. The restriction of the minimal representation ̟ p,q (equivalently,
+̟Rmin            max max
+   p−1,q−1 ) to M+  N    ≃ O(p − 1, q − 1) × Rp+q−2 is still irreducible.
+
+Proof. Theorem 4.7 and Theorem 4.9 show that ̟ p,q , ̟Rmin
+                                                        p−1,q−1 and π are unitary
+
+equivalent to one another. Now, Corollary follows from Proposition 3.3. 
+                                             25
+4.11. For the convenience of the reader, we summarize the maps used in the
+proofs.
+
+                         Ψ∗n−2
+            ∞                                            F
+(4.11.1) C (M )            2
+                          −→ C ∞ (Rn ) ∩ S ′ (Rn ) −→ S ′ (Rn )
+          ∪                         ∪                   ∪
+                              ∼                          ∼
+            V p,q             → Ψ∗n−2 (V p,q )           → F Ψ∗n−2 (V p,q )
+                                     2                            2
+
+             ∩ dense                ∩ dense                    ∩ dense
+                           ∼                             ∼                    ∼
+          (̟ p,q , V p,q ) →        (̟Rmin
+                                        p−1,q−1 , H)     → T (L2 (C))         ← (π, L2 (C)).
+                                                                              T
+
+In the last line, we have written also the notation for unitary representations.
+
+§5. Bessel function and an integral formula of spherical functions
+
+5.1. In this section, we shall compute explicitly the lowest K-type of our minimal
+representation in the N -picture, i.e. find it as a solution to Rp−1,q−1 f = 0, and also
+its Fourier transform as a function on C; this turns out to be written in terms of a
+Bessel function (see Theorem 5.5). Note that except when p = q we are not dealing
+with a spherical representation of G (namely, there is no non-zero K-fixed vector
+in our representation). At the end of this section, we reformulate the equivalent
+realizations of the minimal representation found in the previous section, using now
+the minimal K-type to understand the different pictures.
+5.2. Without loss of generality, we may and do assume p ≥ q in this section.
+Instead of K-fixed vectors, our idea here is to focus on an O(p) × O(q − 1)-fixed
+vector. Then, it follows from Lemma 2.6 that such a vector, which we shall denote
+by F0 , is unique in our minimal representation (̟ p,q , V p,q ) up to a scalar multiple,
+                                                                 p−q
+and is contained in the minimal K-type of the form 1 ⊠ H 2 (Rq ). (We note that
+this K-type is not one dimensional if p 6= q).
+   We shall find an explicit formula of the Fourier transform of this vector F0 after
+a conformal change of coordinates. We start with the following classical lemma,
+for which we give a proof for the sake of the completeness. We take a coordinate
+(up+1 , . . . , up+q ) in Rq and realize O(q − 1) in O(q) such that it stabilizes the last
+coordinate up+q .
+Lemma 5.2. For any l ∈ N, O(q − 1)-invariant spherical harmonics of degree l
+form a one dimensional vector space. More precisely, we have
+
+                     O(q−1)               −l q − 2 + l q − 1
+          Hl (Rq )            ≃ C 2F1 (     ,         ;      ; up+1 2 + · · · + up+q−1 2 ).
+                                          2      2       2
+
+Proof. In terms of the polar coordinate of S q−1 :
+                                          π
+(5.2.1)          Φ++ : S q−2 × (0,          ) → S q−1 , (y, θ) 7→ ((sin θ)y, cos θ),
+                                          2
+the Laplace-Beltrami operator on S q−1 takes the form:
+
+                                    ∂2                   ∂    1
+(5.2.2)                 ∆S q−1 =         + (q − 2) cot θ   +      ∆ q−2 .
+                                    ∂θ 2                 ∂θ sin2 θ S
+                                                    26
+If F ∈ Hl (Rq ) is O(q −1)-invariant, then F ◦Φ++ (θ, y) depends only on θ, for which
+we write h(θ). Then h(θ) is an even function satisfying:
+
+                             d2                   d
+                         (      2
+                                  + (q − 2) cot θ    + l(l + q − 2))h(θ) = 0.
+                             dθ                   dθ
+
+Since h(θ) is regular at θ = 0, it is a scalar multiple of the Jacobi function:
+
+                 q−3
+                     ,− 1        √            −l q − 2 + l q − 1
+                ϕ√2−1(l+2 q−2 ) ( −1θ) = 2F1 ( ,             ;      ; sin2 θ)
+                           2                   2       2        2
+                                                             q − 1 1 − cos θ
+                                       = 2F1 (−l, q − 2 + l;      ;           ).
+                                                               2         2
+Thus, we have proved the lemma. 
+
+5.3.   In view of Lemma 2.6, the special case of Lemma 5.2 with l = p−q
+                                                                     2
+                                                                        yields:
+Proposition 5.3. Suppose p ≥ q ≥ 2, p + q ∈ 2N and (p, q) 6= (2, 2). Let
+(u1 , . . . , up+q ) be the coordinate of M = S p−1 ×S q−1 in Rp+q . We define a function
+F0 : M → C by
+
+                                                 q−p p+q−4 q−1
+(5.3.1) F0 (u1 , . . . , up+q ) := 2F1 (            ,     ;    ; up+1 2 + · · · + up+q−1 2 ).
+                                                  4    4    2
+
+Then F0 is an O(p) × O(q − 1)-invariant analytic function on M satisfying the
+                e M F0 = 0. Conversely, any such function is a scalar multiple of
+Yamabe equation ∆
+F0 .
+Remark. If p + q is odd, then F0 in the right side of (5.3.1) still gives a solution
+e M F = 0 on an open dense set of M such that up+q 6= 0. Furthermore, F0 is a
+∆
+continuous function on M . However, it does not solve the Yamabe equation as a
+distribution on M .
+5.4. We recall τ (z ′ , z ′′ ) is a conformal factor defined in (2.8.1). Let us define
+f0 := Ψ∗n−2 F0 , namely,
+          2
+
+
+
+                                                     p+q−4           q−p p+q−4 q−1      |z ′′ |2
+(5.4.1)       f0 (z ′ , z ′′ ) := τ (z ′ , z ′′ )−     2
+                                                             2F1 (      ,     ;    ;                  ).
+                                                                      4    4    2    τ (z ′ , z ′′ )2
+
+We note that |τ (z ′ , z ′′ )| ≥ |z ′′ | for any (z ′ , z ′′ ) ∈ Rp−1,q−1 . The equality holds if
+and only if |z ′ |2 − |z ′′ |2 = −4.
+  The following Proposition is immediate from Lemma 2.8 and Proposition 5.3:
+Proposition 5.4. With the same assumption on p, q in Proposition 5.3, we have:
+1) f0 is a real analytic function on Rn that solves Rp−1,q−1 f0 = 0.
+2) f0 is O(p) × O(q − 1)-invariant.
+                                                      e M , and f0 is that of
+  We say F0 is the generating function of V p,q = Ker ∆
+  min
+(̟Rp−1,q−1 , H).
+Remark. More strongly than Proposition 5.4, one can prove that f0 is a real analytic
+solution of Rp−1,q−1 f0 = 0 if p + q > 4 by using Proposition 5.6, where we do not
+                                                              27
+assume that p + q is even. The real analyticity is not obvious from the expression
+(5.4.1) in the neighbourhood of the hypersurface of |z ′ |2 − |z ′′ |2 = −4.
+5.5.    We recall the definitions of Bessel functions:
+             ∞
+             X (−1)m ( 1 z)ν+2m
+                         2
+ Jν (z) =                                     (Bessel function),
+             m=0
+                 m! Γ(ν + m + 1)
+             ∞
+             X   ( 21 z)ν+2m
+ Iν (z) =                                     (modified Bessel function of the first kind),
+          m=0
+              m! Γ(ν + m + 1)
+        π I−ν (z) − Iν (z)
+Kν (z) =                              (modified Bessel function of the second kind).
+        2       sin νπ
+Then Kν satisfies
+                             2
+                                                  
+                          2 d       d      2    2
+                        z       +z     − (z + ν ) Kν (z) = 0.
+                           dz 2    dz
+  The asymptotic of the functions Kν is well-known, for example z −ν Kν (z) decays
+exponentially as z → +∞.
+                                                                   1
+Theorem 5.5. We put |ζ| := (ζ1 2 + · · · + ζn 2 ) 2 for ζ = (ζ1 , . . . , ζn ) ∈ Rn . Let
+F0 ∈ C ∞ (M ) be the generating function of V p,q = Ker ∆e M (see Proposition 5.3).
+Then
+               ∗                    p+q−2
+                                                  − p−5       Γ( q−1
+                                                                  2 )
+                                                                                3−q
+          (F Ψ n−2 F0 )(ζ) = (2π)     2       2      2               |ζ|         2    K q−3 (2|ζ|)δ(Q).
+                   2                                      Γ( p+q−4
+                                                               2
+                                                                   )                       2
+
+
+                       3−q
+  Note that the |ζ| 2 K q−3 (2|ζ|) belongs to the Hilbert space L2 (C) if p + q > 4
+                         2
+by the asymptotic behaviour of the Bessel function Kν and by the explicit form of
+δ(Q) in (3.3.3).
+5.6.    Theorem 5.5 follows from the following Proposition:
+Proposition 5.6. We write F −1 for the inverse Fourier transform. With notation
+in (5.4.1), we have
+                     3−q                           Γ( p+q−4 )
+                 −1                                       2
+(5.6.1)        F     |ζ| 2 K q−3 (2|ζ|)δ(Q) (z) = q+3 p+q−2         f0 (z).
+                              2
+                                                 2 2 π 2 Γ( q−1 2
+                                                                  )
+
+Proof. Let φ(r) be a function of one variable, which will be taken later to be
+ 3−q
+r 2 K q−3 (2r). Then, it follows from (3.3.3) that for z = (z ′ , z ′′ ) ∈ Rp−1,q−1 ,
+         2
+
+
+       2F −1 (φ(|ζ|)δ(Q)) (z)
+                        Z ∞Z           Z                      √         ′             ′′
+        = (2π) −(p+q−2)
+                                                   φ(r)e− −1((z ,rω)+(z ,rη)) r p+q−5 dr dω dη
+                          0    S p−2       S q−2
+                   R       √                         m       m
+Using the formula S m−1 e −1t(η,ω) dω = (2π) 2 t1− 2 J m2 −1 (t), we have
+                Z ∞
+                                   3−p                         3−q
+        − p+q−2
+  =(2π)     2        φ(r) (r|z ′ |) 2 J p−3 (r|z ′ |)(r|z ′′ |) 2 J q−3 (r|z ′′ |)r p+q−5 dr
+                                         2                           2
+                 0
+                                Z ∞
+          p+q−2    3−p     3−q                                            p+q−4
+  =(2π)− 2 |z ′ | 2 |z ′′ | 2         φ(r)J p−3 (r|z ′ |)J q−3 (r|z ′′ |)r 2 dr.
+                                                          2                 2
+                                       0
+                                                     28
+                               3−q
+Now, put φ(r) := r 2 K q−3 (2r). We use the following formula of the Hankel
+                            2
+transform due to Bailey [2] (see also [6], §19.6 (8))
+              Z ∞
+                     tλ−1 Jµ (at)Jν (bt)Kρ (ct)dt
+                  0
+              2   a b Γ( 21 (λ + µ + ν − ρ))Γ( 21 (λ + µ + ν + ρ))
+                  λ−2 µ ν
+          =
+                           cλ+µ+ν Γ(µ + 1)Γ(ν + 1)
+                    1                  1                              a2    b2
+              × F4 ( (λ + µ + ν − ρ), (λ + µ + ν + ρ); µ + 1, ν + 1; − 2 , − 2 ).
+                    2                  2                              c     c
+Here, F4 is the Appell hypergeometric function of two variables, defined by
+                                                         ∞ X
+                                                         X ∞
+                                                             (a)i+j (b)i+j
+                             F4 (a, b; c, d; x, y) =                             xi y j .
+                                                         i=0 j=0
+                                                                 i!j!(c)i (d)j
+
+Then we have:
+
+
+    F −1 (φ(|ζ|)δ(Q)) (z)
+                                           Z ∞
+          − p+q−2        ′ 3−p    ′′ 3−q                                                    p−1
+  =(2π)       2       |z |  2    |z | 2           K q−3 (2r)J p−3 (r|z ′ |)J q−3 (r|z ′′ |)r 2 dr
+                                                     2           2           2
+                                           0
+              p+q−2     p−3   Γ( p+q−4 )          p − 1 p + q − 4 p − 1 q − 1 −|z ′ |2 −|z ′′ |2
+  =(2π)−        2     2 2          2
+                                           F4 (        ,         ;     ,     ;        ;          ).
+                               Γ( q−1
+                                   2 )
+                                                    2       2       2     2     4        4
+
+
+5.7. Then, the proof of Proposition 5.6 will be finished by showing the following
+reduction formula:
+Lemma 5.7. Let τ (z ′ , z ′′ ) be the conformal factor defined in (2.8.1). We have
+
+                           p − 1 p + q − 4 p − 1 q − 1 −|z ′ |2 −|z ′′ |2
+                     F4 (            ,        ;       ,   ;       ;            )
+                               2           2      2     2     4        4
+                                       p+q−4  q−p p+q−4 q−1              |z ′′ |2
+(5.7.1)             =τ (z ′ , z ′′ )− 2 2F1 (       ,       ;       ;                  ).
+                                                4       4       2     τ (z ′ , z ′′ )2
+
+Proof of Lemma 5.7. We recall a reduction formula of Appell’s hypergeometric
+functions (see [5], §5.10, (8)):
+
+                                                   −x             −y
+(5.7.2)                F4 (α, β; 1 + α − β, β;              ,               )
+                                              (1 − x)(1 − y) (1 − x)(1 − y)
+                                                     −x(1 − y)
+                     =(1 − y)α 2F1 (α, β; 1 + α − β;           )
+                                                       1−x
+
+and a quadratic transformation for hypergeometric functions (see [5], §2.11 (32)):
+
+                                                  α α + 1 − 2β                −4z
+(5.7.3) 2F1 (α, β, 1 + α − β; z) = (1 − z)−α 2F1 ( ,           ; 1 + α − β;          ).
+                                                  2     2                   (1 − z)2
+                                                          29
+Combining (5.7.2) with (5.7.3) for α = p+q−4   2    and β = p−1
+                                                              2 , and using the symmetry
+of a and b; (c, x) and (d, y) in F4 (a, b; c, d; x, y), we have
+
+        p−1 p+q−4 p−1 q−1                        −x              −y
+     F4 (     ,          ;       ;        ;                ,              )
+           2       2         2       2      (1 − x)(1 − y) (1 − x)(1 − y)
+                         p+q−4
+          (1 − x)(1 − y)     2
+                                        p + q − 4 q − p q − 1 4y(1 − x)(1 − y)
+      =                           2F1 (           ,      ;     ;               )
+              1 − xy                         4        4      2      (1 − xy)2
+
+   If we put
+                      |z ′ |2         x                   |z ′′ |2         y
+                              =                ,                   =
+                        4       (1 − x)(1 − y)              4        (1 − x)(1 − y)
+then a simple computation shows
+                                               2
+               ′   ′′ 2            1 − xy                     |z ′′ |2      4y(1 − x)(1 − y)
+            τ (z , z ) =                             ,         ′     ′′ 2
+                                                                          =                  .
+                               (1 − x)(1 − y)              τ (z , z )          (1 − xy)2
+
+Thus, Lemma 5.7 is proved.              
+
+5.8. Using the generating function F0 we may recover the whole representation
+by letting the Lie algebra of G act. Let us see how our previous results may be
+                                                b n−2 ,ǫ (see §3.2) that the linear map
+reformulated: It follows from the definition of ̟
+                                                                  2
+
+
+
+                                    F ◦ Ψ∗n−2 : C ∞ (M ) → S ′ (Rn )
+                                            2
+
+
+
+                                                             b n−2 ,ǫ , F Ψ∗n−2 (V p,q )) as
+induces a natural intertwining map from (̟ p,q , V p,q ) to (̟
+                                                                              2             2
+                                                                           p−q
+G-modules and also as g-modules. Here again ǫ = (−1)                        2  , V   p,q         e M (⊂
+                                                                                           = Ker ∆
+C ∞ (M )) and Ψ∗n−2 (V p,q ) ⊂ Ker Rp−1,q−1 .
+                      2
+   For b ∈ Rn , m ∈ O(p − 1, q − 1), we put a function on the cone C by
+                                            √               3−q
+(5.8.1)                    ψb,m (ζ) := e −1hb,ζi |mζ| 2 K q−3 (2|mζ|).
+                                                                      2
+
+
+
+In particular, we have
+                                                     3−q
+                                     ψ0,e (ζ) = |ζ| 2 K q−3 (2|ζ|).
+                                                              2
+
+
+   Here we give explicit functions which are dense in the minimal representations.
+Theorem 5.8. Suppose p ≥ q ≥ 2, p + q ∈ 2N, and (p, q) 6= (2, 2).
+1) ψ0,e (ζ) is a K-finite vector of (π, L2 (C)). It belongs to the minimal K-type of
+π.
+2) C-span{ψb,m : b ∈ Rn , m ∈ O(p − 1, q − 1)} is a dense subspace of the minimal
+representation (π, L2 (C)).
+2′ ) C-span{ψb,m δ(Q) : b ∈ Rn , m ∈ O(p − 1, q − 1)} is a dense subspace of the min-
+imal representation (̟ b n−2 ,ǫ , F Ψ∗n−2 (V p,q )).
+                                2           2
+
+Proof. This follows by combining Theorem 4.9 and Lemma 5.5, and using that by
+Mackey theory we have an irreducible representation of the parabolic group. 
+                                                     30
+5.9. The advantage in the realization on L2 (C) is that the action for P max and the
+inner product are easily described. On the other hand, the action of K is not easy
+to be described, and especially, the K-finiteness in the statement (2) is non-trivial.
+   Let U (g) the enveloping algebra of the complexified Lie algebra g. We define a
+subspace of S ′ (Rn ) by
+
+(5.9.1)                          b n−2 ,ǫ (U (g))(ψ0,eδ(Q)).
+                           U := d̟
+                                      2
+
+                                                         3−q
+That is, U is the linear span of a Bessel function |ζ| 2 K q−3 (2|ζ|)dµ on the cone
+                                                              2
+C and its iterative differentials corresponding to the action of the Lie algebra g.
+   We have seen that F Ψ∗n−2 (V p,q ) ⊂ T (L2 (C)) in Theorem 4.9. We may restate
+                             2
+in this way:
+Theorem 5.9. 1) U is an infinitesimally unitary (g, K)-module via ̟    b n−2 ,ǫ .
+                                                                          2
+2) U is dense in the Hilbert space T (L2 (C)).
+3) The completion of (1) defines an irreducible unitary representation of G on
+T (L2 (C)), and then also on L2 (C). This gives an extension of π from P max to G.
+   This has already been done by Theorem 4.9 and the irreducibility of the minimal
+representation.
+   One of non-trivial parts of the above assertion is to show
+
+                                 U ∩ T (L2 (C)) 6= {0}
+
+which was proved in Theorem 5.5.
+
+          §6. Explicit inner product on solutions Rp−1,q−1 f = 0
+
+6.1. The aim of this section is to provide an explicit inner product on a certain
+subspace (see (6.2.1)) of solutions of the ultrahyperbolic equation Rp−1,q−1 f = 0,
+such that its Hilbert completion gives the unitarization of the minimal representa-
+tion of O(p, q).
+   Roughly speaking, the inner product will be given in terms of the integration
+over a hyperplane after convoluting a distribution along the normal direction.
+   We assume n > 2. We fix i ∈ {1, 2, . . . , n} once and for all. The hyperplane
+on which we integrate will be {z = (z1 , . . . , zn ) ∈ Rn : zi = 0}, for which we simply
+write Rn−1 .
+6.2. Let C (i) := {ζ ∈ C : ζi 6= 0}, an open dense subset of the null cone C (see
+(3.3.2)). We note that C0∞ (C \ {0}) is dense in L2 (C). We define a subspace of
+solutions of Ker Rp−1,q−1 by
+
+(6.2.1)                       W := F −1 ◦ T (C0∞ (C (i) )).
+
+Here, we recall T : L2 (C) ֒→ S ′ (Rn ) is the embedding via the measure dµ on the
+cone C. By the Paley-Wiener theorem for compactly supported distributions, W
+consists of real analytic solutions of Rp−1,q−1 f = 0.
+  Using an interpretation of the Dirac delta function in terms of hyperfunctions:
+                                                              
+                                1           1           1
+                   δ(zi ) =    √            √      −    √        ,
+                            2π −1 zi − −10 zi + −10
+                                           31
+we decompose f ∈ W as
+                                            (i)        (i)
+(6.2.2)                          f (z) = f+ (z) + f− (z),
+          (i)
+where f± (z) is defined by the convolution in the zi -variable:
+
+                           (i)          1      ±1
+(6.2.3)                  f± (z) :=      √      √  · ∗ f (z).
+                                     2π −1 zi ∓ −10
+We shall see later that the decomposition (6.2.2) makes sense not only for f ∈ W
+but also for any f ∈ F −1 ◦ T (L2 (C)) (see Lemma 6.5). We set
+                                                           
+                           Z               (i)          (i)
+                       1          f+(i) ∂f+      (i) ∂f−                     ci · · · dzn
+(6.2.4) (f, f )W := √                          − f−           |zi =0 dz1 · · · dz
+                       −1 Rn−1            ∂zi          ∂zi
+
+Theorem 6.2. Fix any i ∈ {1, 2, . . . , n}.
+1) The formula (6.2.4) defines a positive definite Hermitian form on W , a subspace
+                                                             2                 2          2
+of solutions of the ultrahyperbolic operator Rp−1,q−1 = ∂z∂ 1 2 + · · · + ∂z∂p−1 2 − ∂z∂ p 2 −
+            2
+           ∂           p−1,q−1
+· · · − ∂zp+q−2 2 on R         .
+2) The inner product (6.2.4) is independent of the choice of i ∈ {1, 2, . . . , n}.
+3) The action of G = O(p, q) preserves the inner product (6.2.4), so that the Hilbert
+completion W of W defines a unitary representation of G = O(p, q).
+4) The resulting unitary representation is unitarily equivalent to the minimal rep-
+resentation (̟ p,q , V p,q ). The G-intertwining operator Ψ∗n−2 : V p,q → W gives a
+                                                             2
+unitary equivalence up to a scalar constant.
+5) cF −1 ◦ T : L2 (C) → W is a unitary G-intertwining operator, if we put c =
+   n+2   n+1
+2 2 π 2 .
+   This Theorem gives a new formulation of the Hilbert space of the minimal rep-
+resentation purely in terms of intrinsic objects in the flat space Rp−1,q−1 where the
+differential equation is the classical ultrahyperbolic one. It generalizes the q = 2
+case where an inner product was known in terms of integration of Cauchy data -
+here one could interpret the inner product in terms of the energy generator. The
+interesting property about the inner product is its large invariance group; even
+translational invariance amounts to a remarkable “conservation law”, and we may
+also note that the integration over a coordinate hyperplane can be replaced by
+integration over any non-characteristic hyperplane (since such a hyperplane is con-
+jugate to either z1 = 0 or zn = 0 by O(p − 1, q − 1) ⋉ Rp−1,q−1 ), or even the image
+of such a hyperplane under conformal inversion.
+   The strategy of the proof of Theorem 6.2 is as follows: We recall from Theo-
+rem 4.7 that the Hilbert space H is the completion of the space S(C0∞ (Rn )) with
+respect to another inner product ( , )N (S is an integral transform by the Green
+kernel). Since C0∞ (C \ {0}) is dense in L2 (C) and since T −1 ◦ F : H → L2 (C) is an
+isomorphism of Hilbert spaces (up to a scalar) by Theorem 4.9 (1), W is a dense
+subspace of the Hilbert space (H, ( , )N ). In light of this, the key ingredient of the
+proof of Theorem 6.2 is to give a formula of ( , )W by means of ( , )L2 (C) . We shall
+prove:
+
+(6.2.5)         2(2π)n+1 (f, f )W = kT −1 ◦ F f k2L2 (C)     for any f ∈ W.
+                                                  32
+Once we prove (6.2.5), it follows from (4.9.1) that
+
+                                                 4π( , )W = ( , )N
+
+on the subspace W . In particular, we have
+
+                                                      H = W,
+
+and all other statements of Theorem 6.2 on our inner product ( , )W are clear from
+the corresponding results on the inner product ( , )N proved in Theorem 4.7 and
+Theorem 4.9 (e.g. Theorem 6.2 (4) corresponds to Theorem 4.7 (5); Theorem 6.2 (5)
+to Theorem 4.9 (3)).
+   The rest of this section is devoted to the proof of the formula (6.2.5).
+6.3.     We define an open subset of the cone C by
+
+                                           (i)
+                                        C± := {ζ ∈ C : ±ζi > 0}.
+
+Then
+                                                             (i)         (i)
+                                                 C (i) := C+ ∪ C−
+is an open dense subset of the cone C, and we have a direct sum decomposition of
+the Hilbert space:
+                                         (i)        (i)
+                           L2 (C) = L2 (C+ ) ⊕ L2 (C− ).
+                                                    (i)
+We define the Heaviside function Y± (ζ) of the variable ζi by
+                                       
+              (i)                          1     if ±ζi > 0,
+             Y± (ζ1 , . . . , ζn ) =                                      for ζ = (ζ1 , . . . , ζn ) ∈ Rn .
+                                           0     if ±ζi ≤ 0,
+
+   For φ ∈ C0∞ (C (i) ), we put
+                                                    (i)            (i)
+                                                   φ± := Y± φ.
+                  (i)       (i)
+Then Supp φ± ⊂ C± , and we have
+
+                                                    (i)      (i)
+(6.3.1)                                    φ = φ+ + φ− ,
+                                                      (i)                      (i)
+(6.3.2)                           kφk2L2 (C) = kφ+ k2L2 (C) + kφ− k2L2 (C) .
+
+                                                                                     (i)
+6.4. Let us take the n−1 variables ζ1 , . . . , ζbi , . . . , ζn as a coordinate on C± . Then
+we have
+                              q
+(6.4.1)                 ζi = ± Q(i) (ζ1 , . . . , ζbi , . . . , ζn )
+
+       (i)
+on C± , respectively, if we put
+                                                                                                     
+                                                                         d2 ± · · · − ζ
+(6.4.2) Q(i) (ζ1 , . . . , ζbi , . . . , ζn ) := −εi ζ1 2 + ζ2 2 + · · · ±ζ                 2
+                                                                                              − ζ   2
+                                                                                                        ,
+                                                                            i           n−1       n
+                                                            33
+where εi = ±1 is the signature of ζi 2 in the quadratic form Q(ζ) as in (2.5.1). We
+note that Q(i) (ζ1 , . . . , ζbi , . . . , ζn ) ≥ 0 on the cone C, and the map
+                                                                        p
+                     (ζ1 , . . . , ζbi , . . . , ζn ) 7→ (ζ1 , . . . , ± Q(i) , . . . , ζn )
+
+gives a bijection from {(ζ1 , . . . , ζbi , . . . , ζn ) ∈ Rn : Q(i) (ζ1 , . . . , ζbi , . . . , ζn ) 6= 0} onto
+                                                  (i)
+C (i) . By substituting (6.4.1) into φ± , we put
+                  (i)                                   (i)
+                                                                         p
+                ϕ± (ζ1 , . . . , ζbi , . . . , ζn ) := φ± (ζ1 , . . . , ± Q(i) , . . . , ζn ).
+                                                                   ci · · · dζn , we have
+Since the measure dµ on the cone C is of the form √1 (i) dζ1 · · · dζ
+                                                                    2   Q
+
+                              Z          (i)
+             (i)           |ϕ± (ζ1 , . . . , ζbi , . . . , ζn )|2            ci · · · dζn
+(6.4.3)    kφ± k2L2 (C) =              p                           dζ1 · · · dζ
+                      Rn−1           2 Q(i)
+                           Z          √
+         −1  (i)       1           − −1(z1 ζ1 +···+zd          i ζi +···+zn ζn )
+(6.4.4) F T φ± (z) =             e
+                     (2π)n Rn−1
+                        √    √         (i)                  b
+                      ∓ −1zi Q(i) ϕ± (ζ1 , . . . , ζi , . . . , ζn )                 ci · · · dζn .
+                   ×e                                p                     dζ1 · · · dζ
+                                                  2 Q(i)
+From (6.4.4) we have the following:
+Lemma 6.4. We write FRk for the Fourier transform in Rk (k = n − 1, n). Then,
+                                               (i)
+                                                    !
+                            (i)     1 −1      ϕ±
+                    FR−1
+                       n T φ± |zi =0 =F n−1 p         (z1 , . . . , zbi , . . . , zn ),
+                                   4π R        Q(i)
+                                     √
+                ∂        −1    (i) ∓ −1 −1  (i) 
+                  |z =0 FRn T φ± =       FRn−1 ϕ± (z1 , . . . , zbi , . . . , zn ).
+               ∂zi i                 4π
+
+6.5.    We recall the Fourier transform of the Riesz potential
+             Z ∞ √
+                                  √     √
+                                          −1λπ             √
+                   e −1xξ ξ+
+                           λ
+                             dx = −1e 2 Γ(λ + 1)(ξ + −10)−λ−1
+                  −∞
+
+for a meromorphic parameter λ. Letting λ = 0, we have
+                          √
+                   (i)   ∓ −1        √
+              −1
+            F (Y± ) =           (zi ∓ −10)−1 δ(z1 , . . . , zbi , . . . , zn ),
+                           2π
+where δ(z1 , . . . , zbi , . . . , zn ) is the Dirac delta function of n − 1 variables. Then we
+have
+                    (i)                        (i)
+           F −1 (Y± · T φ) = (F −1 Y± ) ∗ (F −1 T φ)
+                               √
+                             ∓ −1         √
+                           =        (zi ∓ −10)−1 δ(z1 , . . . , zbi , . . . , zn ) ∗ f (z)
+                               2π
+                               ±1          √
+                           =    √ (zi ∓ −10)−1 ∗ f (z).
+                             2π −1
+Here the first two convolutions are for n variables z1 , . . . , zn , while the last one for
+                                           (i)      (i)
+only zi ∈ R. In view of the definition of φ± and f± , we have proved
+                                                      34
+                                              (i)            (i)
+Lemma 6.5. If f = F −1 T φ then f± = F −1 T φ± .
+
+6.6. We are now ready to complete the proof of Theorem 6.2. By using Lemma 6.4
+and Lemma 6.5, the Plancherel formula for Rn−1 , and the integration formula
+(6.4.3), respectively, we have
+
+                 (i)                        √                (i)
+    (i)        ∂f±                        ± −1 −1           ϕ±                  (i)
+  (f± |zi =0 ,       |zi =0 )L2 (Rn−1 ) =        (F Rn−1
+                                                         ( p       )), FR−1
+                                                                          n−1 (ϕ± ))L2 (Rn−1 )
+                ∂zi                        16π 2             Q (i)
+                                               √           (i)
+                                            ± −1          ϕ±        (i)
+                                       =               ( p       , ϕ± )L2 (Rn−1 )
+                                         16π 2 (2π)n−1     Q (i)
+                                            √
+                                          ± −1       (i)
+                                       =           kφ k2 2 .
+                                         2(2π)n+1 ± L (C)
+
+Hence,
+
+                       1                                 1
+                                 (i) 2       (i) 2
+      (f, f )W =         n+1
+                               kφ   k  2
+                                 + L (C) + kφ− L (C) =
+                                                k  2            kφk2L2 (C) .
+                   2(2π)                               2(2π)n+1
+
+This finishes the proof of the formula (6.2.5) and hence Theorem 6.2. 
+6.7. The main content of Theorem 6.2 is to give yet another realization of the
+inner product and of the Hilbert space. This is very close to the form most known
+in the case of the wave equation, where one integrates Cauchy data on the zero
+time hypersurface to get the inner product. Note the connection to the theory of
+conserved quantities for the wave equation - we end the paper by making more
+explicit this final remark:
+   When p = 2 let us introduce time and space coordinates (t, x) by
+
+                         (t, x) = (t, x1 , . . . , xn−1 ) = (z1 , . . . , zn )
+
+and the dual variable k to x so that positive-energy
+                                         √           solutions to the wave equation
+are given by the Fourier transform (i = −1)
+                                         Z
+                            +                                     ϕ+ (k)
+                          u (t, x) =                ei(kx−t|k|)          dk
+                                           Rn−1                    |k|
+
+and similarly for negative-energy solutions
+                                         Z
+                            −                                     ϕ− (k)
+                          u (t, x) =                ei(kx+t|k|)          dk
+                                             Rn−1                  |k|
+
+where kx denotes the usual scalar product, |k| the Euclidean length, and dk =
+dk1 · · · dkn−1 . Any solution is the sum of two such: u = u+ + u− . The energy of
+the wave u is given by
+                                          Z
+                                    1
+                             E(u) =                 (|ut |2 + |∇u|2 )dx
+                                    2        Rn−1
+                                                    35
+and is a conserved quantity, i.e. independent of which constant-time hyperplane we
+integrate over. It is easy to see that cross-terms drop out, so that on the Fourier
+transform side we obtain
+                                    Z
+                   E(u) = (2π)  n−1
+                                         (|ϕ+ (k)|2 + |ϕ− (k)|2 )dk
+                                          Rn−1
+
+for the energy. Note that this energy only differs from our inner product by a
+density factor of |k|, and that it may be thought of as an integral over C. In terms
+of our conformally invariant inner product (6.2.4) this is up to a constant just
+
+                           (u, |H|u) = (u+ , Hu+ ) − (u− , Hu− ),
+
+where H = i∂t is the energy generator (infinitesimal time translations). In the
+same way, we have the analogous “conserved quantities” for the ultrahyperbolic
+equation and the inner product (6.2.4), namely: Let Hj = i∂zj be the generator of
+translations in the coordinate zj , then for a solution f in the Hilbert space
+
+                                      Ej (f ) = (f, |Hj |f )
+
+is invariant under translations in the coordinate zj . Furthermore, the quantity Ej (f )
+can be expressed in terms of an integral of local quantities. In particular we may
+use this to study uniqueness and decay properties of solutions to Rp−1,q−1 f = 0.
+Since this is outside the scope of the present paper, we shall not do so here; but note
+that one easy consequence is the fact, that if a solution and its normal derivative
+vanish on a coordinate hyperplane, then it is identically zero - a classical fact about
+the energy (time zero hyperplane).
+
+                                         References
+[1]  M. Abramowitz and I. A. Stegun (eds.), Handbook of mathematical functions with formulas,
+     graphs, and mathematical tables, Dover, 1992, Reprint of the 1972 edition.
+[2] W. N. Bailey, Some infinite integrals involving Bessel functions, Proc. London Math. Soc.
+     40 (1935-36), 37–48.
+[3] B. Binegar and R. Zierau, Unitarization of a singular representation of SO(p, q), Comm.
+     Math. Phys. 138 (1991), 245–258.
+[4] A. Dvorsky and S. Sahi, Explicit Hilbert spaces for certain unipotent representations II,
+     Invent. Math. 138 (1999), 203-224.
+[5] A. Erdélyi, Higher Transcendental Functions, vol. I, McGraw-Hill, New York, 1953.
+[6] A. Erdélyi, Tables of Integral Transforms, vol. II, McGraw-Hill, New York, 1954.
+[7] I. M. Gelfand and G. E. Shilov, Generalized Functions, I, Academic Press, 1964.
+[8] V. Guillemin and S. Sternberg, Variations on a theme by Kepler, AMS Colloquium Publica-
+     tions, vol. 42, 1990.
+[9] L. Hörmander, Asgeirsson’s mean value theorem and related identities, J. Func. Anal. 184
+     (2001), 337–402.
+[10] T. Kobayashi, Discrete decomposability of the restriction of Aq (λ) with respect to reductive
+     subgroups and its applications, Invent. Math. 117 (1994), 181–205 ; Part II, Ann. of Math.
+     147 (1998) 709–729; Part III, Invent. Math. 131 (1998) 229–256.
+[11] T. Kobayashi and B. Ørsted, Analysis on the minimal representation of O(p, q) – I. Realiza-
+     tion via conformal geometry, preprint.
+[12]         , Analysis on the minimal representation of O(p, q) – II. Branching laws, preprint.
+[13] B. Kostant, The vanishing scalar curvature and the minimal unitary representation of
+     SO(4, 4), Operator Algebras, Unitary Representations, Enveloping Algebras, and Invariant
+     Theory (Connes et al, eds.), vol. 92, Birkhäuser, Boston, 1990, pp. 85–124.
+                                                 36
+[14] I. T. Todorov, Derivation and solution of an infinite-component wave equation for the rel-
+     ativistic Coulomb problem, Lecture Notes in Physics, Group representations in mathematics
+     and physics (Rencontres, Battelle Res. Inst., Seattle, 1969), vol. 6, Springer, 1970, pp. 254–
+     278.
+
+   RIMS, Kyoto University, Sakyo-ku, Kyoto, 606-8502, Japan
+   Department of Mathematics and Computer Science, SDU-Odense University, Cam-
+pusvej 55, DK-5230, Odense M, Denmark
+   E-mail address: toshi@kurims.kyoto-u.ac.jp; orsted@imada.sdu.dk
+
+
+
+
+                                                37
+

@@ -1,0 +1,1286 @@
+                                               ANALYSIS ON THE MINIMAL REPRESENTATION OF O(p, q)
+                                                     – I. REALIZATION VIA CONFORMAL GEOMETRY
+
+
+
+
+arXiv:math/0111083v1 [math.RT] 7 Nov 2001
+                                                              Toshiyuki KOBAYASHI and Bent ØRSTED
+                                                                   RIMS Kyoto and SDU-Odense University
+
+                                                  Abstract. This is the first in a series of papers devoted to an analogue of the meta-
+                                                  plectic representation, namely the minimal unitary representation of an indefinite
+                                                  orthogonal group; this representation corresponds to the minimal nilpotent coad-
+                                                  joint orbit in the philosophy of Kirillov-Kostant. We begin by applying methods
+                                                  from conformal geometry of pseudo-Riemannian manifolds to a general construction
+                                                  of an infinite-dimensional representation of the conformal group on the solution space
+                                                  of the Yamabe equation. By functoriality of the constructions, we obtain different
+                                                  models of the unitary representation, as well as giving new proofs of unitarity and
+                                                  irreducibility. The results in this paper play a basic role in the subsequent papers,
+                                                  where we give explicit branching formulae, and prove unitarization in the various
+                                                  models.
+
+
+
+                                                                                      Contents
+                                            §1. Introduction
+                                            §2. Conformal geometry
+                                            §3. Minimal unipotent representations of O(p, q)
+
+
+                                                                                 §1. Introduction
+
+                                             1.0. This is the first in a series of papers devoted to a study of the so-called
+                                             minimal representation of the semisimple Lie group G = O(p, q). We have taken
+                                             the point of view that a rather complete treatment of this representation and its
+                                             various realizations can be done in a self-contained way; also, such a study involves
+                                             many different tools from other parts of mathematics, such as differential geometry
+                                             (conformal geometry and pseudo-Riemannian geometry), analysis of solution spaces
+                                             of ultrahyperbolic differential equations, Sobolev spaces, special functions such as
+                                             hypergeometric functions of two variables, Bessel functions, analysis on semisimple
+                                             symmetric spaces, and Dolbeault cohomology groups. Furthermore, the represen-
+                                             tation theory yields new results back to these areas, so we feel it is worthwhile to
+                                             illustrate such an interaction in as elementary a way as possible. The sequel (Part
+                                             II) to the present paper contains sections 4-9, and we shall also refer to these here.
+                                             Part III is of more independent nature.
+                                                 Working on a single unitary representation we essentially want to analyze it by
+                                             understanding its restrictions to natural subgroups, and to calculate intertwining
+                                             operators between the various models - all done very explicitly. We are in a sense
+                                                                                                                       Typeset by AMS-TEX
+                                                                                            1
+studying the symmetries of the representation space by breaking the large symme-
+try present originally with the group G by passing to a subgroup. Geometrically
+the restriction is from the conformal group G to the subgroup of isometries H,
+where different geometries (all locally conformally equivalent) correspond to differ-
+ent choices of H. Changing H will give rise to radically different models of the
+representation, and at the same time allow calculating the spectrum of H.
+   Thus the overall aim is to elucidate as many aspects as possible of a distinguished
+unitary irreducible representation of O(p, q), including its explicit branching laws
+to natural subgroups and its explicit inner product on each geometric model. Our
+approach is also useful in understanding the relation between the representation and
+a certain coadjoint orbit, namely the minimal one, in the dual of the Lie algebra.
+In order to give a good view of the perspective in our papers, we are giving below
+a rather careful introduction to all these aspects.
+   For a semisimple Lie group G a particularly interesting unitary irreducible rep-
+resentation, sometimes called the minimal representation, is the one corresponding
+via “geometric quantization” to the minimal nilpotent coadjoint orbit. It is still
+a little mysterious in the present status of the classification problem of the uni-
+tary dual of semisimple Lie groups. In recent years several authors have considered
+the minimal representation, and provided many new results, in particular, Kostant,
+Torasso, Brylinski, Li, Binegar, Zierau, and Sahi, mostly by algebraic methods. For
+the double cover of the symplectic group, this is the metaplectic representation, in-
+troduced many years ago by Segal, Shale, and Weil. The explicit treatment of the
+metaplectic representation requires various methods from analysis and geometry,
+in addition to the algebraic methods; and it is our aim in a series of papers to
+present for the case of G = O(p, q) the aspects pertaining to branching laws. From
+an algebraic view point of representation theory, our representations ̟ p,q are:
+   i) minimal representations if p + q ≥ 8 (i.e. the annihilator is the Joseph ideal).
+   ii) not spherical if p 6= q (i.e. no non-zero K-fixed vector).
+   iii) not highest weight modules of SO0 (p, q) if p, q ≥ 3.
+   Apparently our case provides examples of new phenomena in representation the-
+ory, and we think that several aspects of our study can be applied to other cases as
+well. The metaplectic representation has had many applications in representation
+theory and in number theory. A particularly useful concept has been Howe’s idea
+of dual pairs, where one considers a mutually centralizing pair of subgroups in the
+metaplectic group and the corresponding restriction of the metaplectic representa-
+tion. In Part II of our papers, we shall initiate a similar study of explicit branching
+laws for other groups and representations analogous to the classical case of Howe.
+Several such new examples of dual pairs have been studied in recent years, mainly
+by algebraic techniques. Our case of the real orthogonal group presents a combi-
+nation of abstract representation theory and concrete analysis using methods from
+conformal differential geometry. Thus we can relate the branching law to a study
+of the Yamabe operator and its spectrum in locally conformally equivalent mani-
+folds; furthermore, we can prove the existence of and construct explicitly an infinite
+discrete spectrum in the case where both factors in the dual pair are non-compact.
+   The methods we use are further motivated by the theory of spherical harmonics,
+extending analysis on the sphere to analysis on hyperboloids, and at the same time
+using elliptic methods in the sense of analysis on complex quadrics and the theory
+of Zuckerman-Vogan’s derived functor modules and their Dolbeault cohomological
+realizations. Also important are general results on discrete decomposability of
+                                          2
+representations and explicit knowledge of branching laws.
+    It is noteworthy, that as we have indicated, this representation and its theory of
+generalized Howe correspondence, illustrates several interesting aspects of modern
+representation theory. Thus we have tried to be rather complete in our treatment
+of the various models of the representations occurring in the branching law. See
+for example Fact 5.4, where we give three realizations: derived functor modules or
+Dolbeault cohomology groups, eigenspaces on semisimple symmetric spaces, and
+quotients of generalized principal series, of the representations attached to minimal
+elliptic orbits.
+    Most of the results of Part I and Part II were announced in [22], and the branch-
+ing law in the discretely decomposable case (Theorem 7.1) was obtained in 1991,
+from which our study grew out. We have here given the proofs of the branching
+laws for the minimal unipotent representation and postpone the detailed treatment
+of the corresponding classical orbit picture as announced in [22] to another paper.
+Also, the branching laws for the representations associated to minimal elliptic orbits
+will appear in another paper by one of the authors.
+    It is possible that a part of our results could be obtained by using sophisticated
+results from the theory of dual pairs in the symplectic group, for example the
+see-saw rule (for which one may let our representation correspond to the trivial
+representation of one SL(2, R) member of the dual pair ([11], [12]). We emphasize
+however, that our approach is quite explicit and has the following advantages:
+    (a) It is not only an abstract representation theory but also attempts new in-
+teraction of the minimal representation with analysis on manifolds. For example,
+in Part II we use in an elementary way conformal differential geometry and the
+functorial properties of the Yamabe operator to construct the minimal representa-
+tion and the branching law in a way which seems promising for other cases as well;
+each irreducible constituent is explicitly constructed by using explicit intertwining
+operators via local conformal diffeomorphisms between spheres and hyperboloids.
+    (b) For the explicit intertwining operators we obtain Parseval-Plancherel type
+theorems, i.e. explicit L2 versions of the branching law and the generalized Howe
+correspondence. This also gives a good perspective on the continuous spectrum, in
+particular yielding a natural conjecture for the complete Plancherel formula.
+    A special case of our branching law illustrates the physical situation of the con-
+formal group of space-time O(2, q); here the minimal representation may be in-
+terpreted either as the mass-zero spin-zero wave equation, or as the bound states
+of the Hydrogen atom (in q − 1 space dimensions). Studying the branching law
+means breaking the symmetry by for example restricting to the isometry group of
+De Sitter space O(2, q − 1) or anti De Sitter space O(1, q). In this way the original
+system (particle) breaks up into constituents with less symmetry.
+    In Part III, we shall realize the same representation on a space of solutions of the
+ultrahyperbolic equation Rp−1,q−1 f = 0 on Rp−1,q−1 , and give an intrinsic inner
+product as an integration over a non-characteristic hypersurface.
+    Completing our discussion of different models of the minimal representation,
+we find yet another explicit intertwining operator, this time to an L2 - space of
+functions on a hypersurface (a cone) in the nilradical of a maximal parabolic P in
+G. We find the K-finite functions in the case of p + q even in terms of modified
+Bessel functions. We remark that Vogan pointed out a long time ago that there
+is no minimal representation of O(p, q) if p + q > 8 is odd [34]. On the other
+hand, we have found a new interesting phenomenon that in the case p + q is odd
+                                           3
+there still exists a geometric model of a “minimal representation” of o(p, q) with a
+natural inner product (see Part III). Of course, such a representation does not have
+non-zero K-finite vectors for p + q odd, but have K ′ -finite vectors for smaller K ′ .
+What we construct in this case is an element of the category of (g, P ) modules in
+the sense that it globalizes to P (but not K); we feel this concept perhaps plays a
+role for other cases of the orbit method as well.
+    In summary, we give a geometric and intrinsic model of the minimal representa-
+tion ̟ p,q (not coming from the construction of ̟ p,q by the θ-correspondence) on
+S p−1 × S q−1 and on various pseudo-Riemannian manifolds which are conformally
+equivalent, using the functorial properties of the Yamabe operator, a key element
+in conformal differential geometry. The branching law for ̟ p,q gives at the same
+time new perspectives in conformal geometry, and we give an independent proof
+of the unitarity of a subspace of the kernel of the Yamabe operator. The main
+interest in this special case of a small unitary representation is not only to obtain
+the formulae, but also to investigate the geometric and analytic methods, which
+provide new ideas in representation theory.
+    Leaving the general remarks, let us now for the rest of this introduction be a
+little more specific about the contents of the present paper.
+1.1. Let G be a reductive Lie group, and G′ a reductive subgroup of G. We
+denote by Gb the unitary dual of G, the equivalence classes of irreducible unitary
+representations of G. Likewise Gc′ for G′ . If π ∈ G,
+                                                   b then the restriction π|G′ is
+not necessarily irreducible. By a branching law, we mean an explicit irreducible
+decomposition formula:
+                             Z ⊕
+(1.1.1)             π|G′ ≃         mπ (τ )τ dµ(τ )   (direct integral),
+                              c′
+                              G
+
+                                                     c′ .
+where mπ (τ ) ∈ N ∪ {∞} and dµ is a Borel measure on G
+1.2. We denote by g0 the Lie algebra of G. The orbit method due to Kirillov-
+Kostant in the unitary representation theory of Lie groups indicates that the coad-
+joint representation Ad∗ : G → GL(g∗0 ) often has a surprising intimate relation
+with the unitary dual G.b It works perfectly for simply connected nilpotent Lie
+groups. For real√reductive Lie groups G, known examples suggest that the set of
+coadjoint orbits −1g∗0 /G (with certain integral conditions) still gives a fairly good
+                                   b
+approximation of the unitary dual G.
+1.3. Here is a rough√sketch of a unitary representation πλ of G, attached to an
+elliptic element λ ∈ −1g∗0 : The elliptic coadjoint orbit Oλ = Ad∗ (G)λ carries
+a G-invariant complex structure, and one can define a G-equivariant holomorphic
+line bundle L  fλ := Lλ ⊗ (∧top T ∗ Oλ ) 12 over Oλ , if λ satisfies some integral condition.
+Then, we have a Fréchet representation of G on the Dolbeault cohomology group
+           fλ ), where S := dimC Ad∗ (K)λ (see [36] for details), and of which a unique
+H∂S¯ (Oλ , L
+dense subspace we can define a unitary representation πλ of G ([32]) if λ satisfies
+certain positivity. The unitary representation πλ is irreducible and non-zero if λ is
+sufficiently regular. The underlying (g, K)-module is so called “Aq (λ)” in the sense
+of Zuckerman-Vogan after certain ρ-shift.
+    In general, the decomposition (1.1.1) contains both discrete and continuous spec-
+trum. The condition for the discrete decomposition (without continuous spectrum)
+                                               4
+has been studied in [15], [16], [17], and [20], especially for πλ attached to elliptic
+orbits Oλ . It is likely that if π ∈ Gb is “attached to” a nilpotent orbit, which is
+contained in the limit set of Oλ , then the discrete decomposability of π|G′ should
+be inherited from that of the elliptic case πλ |G′ . We shall see in Theorem 4.2 that
+this is the case in our situation.
+1.4. There have been a number of attempts to construct representations attached
+to nilpotent orbits. Among all, the Segal-Shale-Weil representation (or the oscillator
+                    f
+representation) of Sp(n,   R), for which we write ˜̟, has been best studied, which is
+supposed to be attached to the minimal nilpotent orbit of sp(n, R). The restriction
+   ˜ to a reductive dual pair G′ = G′1 G′2 gives Howe’s correspondence ([10]).
+of ̟
+                f
+   The group Sp(n,    R) is a split group of type Cn , and analogous to ˜̟, Kostant
+constructed a minimal representation of SO(n, n), a split group of type Dn . Then
+Binegar-Zierau generalized it for SO(p, q) with p + q ∈ 2N. This representation
+(precisely, of O(p, q), see Section 3) will be denoted by ̟ p,q .
+1.5. Let G′ := G′1 G′2 = O(p′ , q ′ ) × O(p′′ , q ′′ ), (p′ + p′′ = p, q ′ + q ′′ = q), be a
+subgroup of G = O(p, q). Our object of study in Part II will be the branching law
+̟ p,q |G′ . We note that G′1 and G′2 form a mutually centralizing pair of subgroups
+in G.
+    It is interesting to compare the feature of the following two cases:
+(i) the restriction ˜ ̟|G′1 G′2 (the Segal-Shale-Weil representation for type Cn ),
+(ii) the restriction ̟ p,q |G′1 G′2 (the Kostant-Binegar-Zierau representation for type
+Dn ).
+    The reductive dual pair (G, G′ ) = (G, G′1 G′2 ) is of the ⊗-type in (i), that is,
+induced from GL(V ) × GL(W ) → GL(V ⊗ W ); is of the ⊕-type in (ii), that is,
+induced from GL(V ) × GL(W ) → GL(V ⊕ W ). On the other hand, both of the
+restrictions in (i) and (ii) are discretely decomposable if one factor G′2 is compact.
+On the other hand, ̟    ˜ is (essentially) a highest weight module in (i), while ̟ p,q is
+not if p, q > 2 in (ii).
+1.6. Let p + q ∈ 2N, p, q ≥ 2, and (p, q) 6= (2, 2). In this section we state the
+main results of the present paper and the sequels (mainly Part II; an introduction
+of Part III will be given separately in [24]). The first Theorem A below (Theorem
+2.5) says that there is a general way of constructing representations of a conformal
+group by twisted pull-backs (see Section 2 for notation). It is the main tool to give
+different models of our representation.
+Theorem A. Suppose that a group G acts conformally on a pseudo-Riemannian
+manifold M of dimension n.
+1) Then, the Yamabe operator (see (2.2.1) for the definition)
+
+                               e M : C ∞ (M ) → C ∞ (M )
+                               ∆
+
+is an intertwining operator from ̟ n−2 to ̟ n+2 (see (2.5.1) for the definition of
+                                     2        2
+̟λ ).
+2) The kernel Ker ∆e M is a subrepresentation of G through ̟ n−2 .
+                                                                      2
+
+                                                      p,q
+Theorem B. 1) The minimal representation ̟ of O(p, q) is realized as the ker-
+nel of the Yamabe operator on S p−1 × S q−1 .
+2) ̟ p,q is also realized as a subspace (roughly, half ) of the kernel of the Yamabe
+                                             5
+operator on the hyperboloid {(x, y) ∈ Rp,q : |x|2 − |y|2 = 1}.
+3) ̟ p,q is also realized in a space of solutions to the Yamabe equation on Rp−1,q−1
+which is a standard ultrahyperbolic constant coefficient differential equation.
+4) ̟ p,q is also realized as the unique non-trivial subspace of the Dolbeault cohomol-
+ogy group H∂p−2
+              ¯   (G/L, L p+q−4 )
+                                         2
+
+    In Theorem B (1) is contained in Part I, Theorem 3.6.1; (2) in Part II, Corol-
+lary 7.2.1; and (3) in Part III, Theorem 4.7. In each of these models, an explicit
+model is given explicitly. In the models (2) and (3), the situation is subtle because
+the “action” of O(p, q) is no more smooth but only meromorphic. Then Theorem A
+does not hold in its original form, and we need to carry out a careful analysis for
+it (see Part II and Part III). The proof of the statement (4) will appear in another
+paper. Here G/L is an elliptic coadjoint orbit as in §1.3, and L = SO(2)×O(p−2, q).
+    The branching laws in Theorem C and Theorem D are the main themes in Part
+II; for notation see section 7 and section 9.
+                                                                      f∗ of the local
+Theorem C. If q ′′ ≥ 1 and q ′ + q ′′ = q, then the twisted pull-back Φ 1
+conformal map Φ1 between spheres and hyperboloids gives an explicit irreducible
+decomposition of the unitary representation ̟ p,q when restricted to O(p, q ′ )×O(q ′′ ):
+                                                        ∞
+                                                        X ⊕ p,q ′                                    ′′
+                            p,q
+                        ̟         |O(p,q ′ )×O(q ′′ ) ≃    π      q ′′               ⊠ Hl (Rq ).
+                                                                     +,l+ 2 −1
+                                                          l=0
+
+   In addition, we give in §8, Theorem 8.5 the Parseval-Plancherel theorem for
+the situation in Theorem C on the “hyperbolic space model”. This may be also
+regarded as the unitarization of the minimal representation ̟ p,q .
+   The twisted pull-back for a locally conformal diffeomorphism is defined for an
+arbitrary pseudo-Riemannian manifold (see Definition 2.3).
+Theorem D. The twisted pull-back of the locally conformal diffeomorphism also
+constructs
+                  X⊕                   p ,q  ′   ′
+                                               p ,q  ′′   ′′                  X⊕                  p ,q    ′
+                                                                                                          p ,q′   ′′   ′′
+                                      π+,λ  ⊠ π−,λ  ⊕                                            π−,λ  ⊠ π+,λ
+       λ∈A′ (p′ ,q ′ )∩A′ (q ′′ ,p′′ )                             λ∈A′ (q ′ ,p′ )∩A′ (p′′ ,q ′′ )
+
+
+as a discrete spectra in the branching law.
+
+1.7. The papers (Part I and Part II) are organized as follows: Section 2 provides
+a conformal construction of a representation on the kernel of a shifted Laplace-
+Beltrami operator. In section 3, we construct an irreducible unitary representa-
+tions, ̟ p,q of O(p, q) (p + q ∈ 2N, p, q ≥ 2) “attached to” the minimal nilpotent
+orbit applying Theorem 2.5. This representation coincides with the minimal rep-
+resentation studied by Kostant, Binegar-Zierau ([2], [25]). In section 3 we give a
+new intrinsic characterization of the Hilbert space for the minimal representation
+in this model, namely as a certain Sobolev space of solutions, see Theorem 3.9 and
+Lemma 3.10. Such Sobolev estimate will be used in the construction of discrete
+spectrum of the branching law in section 9. Section 4 contains some general results
+on discrete decomposable restrictions ([16], [17]), specialized in detail to the present
+case. Theorem 4.2 characterizes which dual pairs in our situation provide discrete
+decomposable branching laws of the restriction of the minimal representation ̟ p,q .
+                                                               6
+                                                             p,q
+In section 5, we introduce unitary representations, π±,λ             of O(p, q) “attached to”
+minimal elliptic coadjoint orbits. In sections 7 and 9, we give a discrete spectrum
+of the branching law ̟ p,q |G′ in terms of π±,λp′ ,q ′    \
+                                                       ∈ O(p
+                                                                             ′′ ′′
+                                                                                      \
+                                                            ′ , q ′ ) and π p ,q ∈ O(p′′ , q ′′ ).
+                                                                           ±,λ
+In particular, if one factor G′2 = O(p′′ , q ′′ ) is compact (i.e. p′′ = 0 or q ′′ = 0),
+the branching law is completely determined together with a Parseval-Plancherel
+theorem in section 8.
+   Notation: N = {0, 1, 2, . . . }.
+   The first author expresses his sincere gratitude to SDU - Odense University for
+the warm hospitality.
+
+                               §2. Conformal geometry
+
+2.1. The aim of this section is to associate a distinguished representation ̟M of
+the conformal group Conf(M ) to a general pseudo-Riemannian manifold M (see
+Theorem 2.5).
+2.2. Let M be an n dimensional manifold with pseudo-Riemannian metric gM
+(n ≥ 2). Let ∇ be the Levi-Civita connection for the pseudo-Riemannian metric
+gM . The curvature tensor field R is defined by
+
+          R(X, Y )Z := ∇X ∇Y Z − ∇Y ∇X Z − ∇[X,Y ] Z,               X, Y, Z ∈ X(M ).
+
+We take an orthonormal basis {X1 , · · · , Xn } of Tx M for a fixed x ∈ M . Then the
+scalar curvature KM is defined by
+                                     n X
+                                     X n
+                        KM (x) :=              gM (R(Xi , Xj )Xi , Xj ) .
+                                     i=1 j=1
+
+The right side is independent of the choice of the basis {Xi } and so KM is a well-
+defined function on M . We denote by ∆M the Laplace-Beltrami operator on M .
+The Yamabe operator is defined to be
+
+(2.2.1)                         e M := ∆M − n − 2 KM .
+                                ∆
+                                           4(n − 1)
+
+See for example [26] for a good discussion of the geometric meaning and applications
+of this operator. Our choice of the signature of KM and ∆M is illustrated as follows:
+Example 2.2. We equip Rn and S n with standard Riemannian metric. Then
+                                                                            n
+                                                                            X
+                  n                                     e Rn = ∆Rn =          ∂2
+           For R ;             KRn ≡ 0,                 ∆                                .
+                                                                                  ∂x2i
+                                                                            i=1
+
+           For S n ;           KS n ≡ (n − 1)n,         e S n = ∆S n − 1 n(n − 2).
+                                                        ∆
+                                                                       4
+
+2.3. Suppose (M, gM ) and (N, gN ) are pseudo-Riemannian manifolds of dimension
+n. A local diffeomorphism Φ : M → N is called a conformal map if there exists a
+positive valued function Ω on M such that
+
+                                        Φ∗ g N = Ω2 g M .
+                                                 7
+Φ is isometry if and only if Ω ≡ 1 by definition.
+   We denote the group of conformal transformation (respectively, isometry) of a
+pseudo-Riemannian manifold (M, gM ) by
+
+             Conf(M ) := {Φ ∈ Diffeo(M ) : Φ : M → M is conformal},
+             Isom(M ) := {Φ ∈ Diffeo(M ) : Φ : M → M is isometry}.
+
+Clearly, Isom(M ) ⊂ Conf(M ).
+  If Φ is conformal, then we have (e.g. [37]; [9], Chapter II, Excer. A.5)
+
+                           n+2                     n−2
+(2.3.1)                          eNf) = ∆
+                         Ω 2 (Φ∗ ∆      e M (Ω 2 Φ∗ f )
+
+for any f ∈ C ∞ (N ). We define a twisted pull-back
+
+(2.3.2)              Φ∗λ : C ∞ (N ) → C ∞ (M ),   f 7→ Ωλ (Φ∗ f ),
+
+for each fixed λ ∈ C. Then the formula (2.3.1) is rewritten as
+
+(2.3.1′ )                            eNf = ∆
+                               Φ∗n+2 ∆     e M Φ∗n−2 f.
+                                 2                 2
+
+
+
+The case when λ = n−2  2  is particularly important. Thus, we write the twisted
+pull-back for λ = n−2
+                   2
+                      as follows:
+                                                               n−2
+                f∗ = Φ∗n−2 : C ∞ (N ) → C ∞ (M ),
+Definition 2.3. Φ                                        f 7→ Ω 2 (Φ∗ f ).
+                           2
+
+
+   Then the formula (2.3.1) implies that
+
+(2.3.3)       eNf = 0
+              ∆                                   e M (Φ
+                          on Φ(M ) if and only if ∆    f∗ f ) = 0        on M
+
+because Ω is nowhere vanishing.
+  If n = 2, then ∆e M = ∆M , ∆ e N = ∆N , and Φf∗ = Φ∗ . Hence, (2.3.3) implies
+a well-known fact in the two dimensional case that a conformal map Φ preserves
+harmonic functions, namely,
+
+                        f is harmonic ⇔ Φ∗ f is harmonic.
+
+
+2.4. Let G be a Lie group acting conformally on a pseudo-Riemannian manifold
+(M, gM ). We write the action of h ∈ G on M as Lh : M → M, x 7→ Lh x. By
+the definition of conformal transformations, there exists a positive valued function
+Ω(h, x) (h ∈ G, x ∈ M ) such that
+
+                          L∗h gM = Ω(h, ·)2 gM    (h ∈ G).
+
+Then we have
+                                           8
+Lemma 2.4. For h1 , h2 ∈ G and x ∈ M , we have
+
+                         Ω(h1 h2 , x) = Ω(h1 , Lh2 x) Ω(h2 , x).
+
+
+Proof. It follow from Lh1 h2 = Lh1 Lh2 that
+
+                               L∗h1 h2 gM = L∗h2 L∗h1 gM .
+                                                                                      
+Therefore we have Ω(h1 h2 , ·)2 gM = L∗h1 h2 gM = L∗h2 L∗h1 gM = L∗h2 Ω(h1 , ·)2 gM
+= Ω(h1 , Lh2 ·)2 Ω(h2 , ·)2 gM . Since Ω is a positive valued function, we conclude that
+Ω(h1 h2 , x) = Ω(h1 , Lh2 x) Ω(h2 , x). 
+
+2.5. For each λ ∈ C, we form a representation ̟λ ≡ ̟M,λ of the conformal group
+G on C ∞ (M ) as follows:
+                      
+(2.5.1)     ̟λ (h−1 )f (x) := Ω(h, x)λ f (Lh x),     (h ∈ G, f ∈ C ∞ (M ), x ∈ M ).
+
+Then Lemma 2.4 assures that ̟λ (h1 ) ̟λ (h2 ) = ̟λ (h1 h2 ), namely, ̟λ is a repre-
+sentation of G.
+   Denote by dx the volume element on M defined by the pseudo-Riemannian
+structure gM . Then we have
+
+                         L∗h (dx) = Ω(h, x)n dx     for h ∈ G.
+
+Therefore, the map f 7→ f dx gives a G-intertwining operator from (̟n , C ∞ (M ))
+into the space of distributions D ′ (M ) on M .
+   Here is a construction of a representation of the group of conformal diffeomor-
+phisms of M .
+
+Theorem 2.5. Suppose that a group G acts conformally on a pseudo-Riemannian
+manifold M of dimension n. Retain the notation before.
+1) Then, the Yamabe operator
+
+                              e M : C ∞ (M ) → C ∞ (M )
+                              ∆
+
+is an intertwining operator from ̟ n−2 to ̟ n+2 .
+                                    2        2
+                   e
+2) The kernel Ker ∆M is a subrepresentation of G through ̟ n−2 .
+                                                                   2
+
+
+Proof. (1) is a restatement of the formula (2.3.1). (2) follows immediately from
+(1). 
+                                 e M given in Theorem 2.5(2) will be denoted by
+  The representation of G on Ker ∆
+̟ ≡ ̟M .
+2.6. Here is a naturality of the representation of the conformal group Conf(M )
+in Theorem 2.5:
+                                           9
+Proposition 2.6. Let M and N be pseudo-Riemannian manifolds of dimension
+n, and a local diffeomorphism Φ : M → N be a conformal map. Suppose that Lie
+groups G′ and G act conformally on M and N , respectively. The actions will be
+denoted by LM and LN , respectively. We assume that there is a homomorphism
+i : G′ → G such that
+
+                     LN,i(h) ◦ Φ = Φ ◦ LM,h          ( for any h ∈ G′ ).
+
+   We write conformal factors ΩM , ΩN and Ω as follows:
+
+                        L∗M,h gM = ΩM (h, ·)2 gM           (h ∈ G′ ),
+                        L∗N,h gN = ΩN (h, ·)2 gN          (h ∈ G),
+                        Φ∗ g N    = Ω2 g M .
+
+1) For x ∈ M and h ∈ G′ , we have
+
+   (2.6.1)            Ω(LM,h x) ΩM (h, x) = Ω(x) ΩN (i(h), Φ(x)).
+
+2) Let λ ∈ C and Φ∗λ : C ∞ (N ) → C ∞ (M ) be the twisted pull-back defined in (2.3.2).
+   Then Φ∗λ respects the G-representation (̟N,λ , C ∞ (N )) and the G′ -representation
+   (̟M,λ , C ∞ (M )) through i : G′ → G.
+   f∗ = Φ∗n−2 : C ∞ (N ) → C ∞ (M ) sends Ker ∆
+3) Φ                                            e N into Ker ∆ e M . In particular, we
+            2
+   have a commutative diagram:
+
+                                                f∗
+                                                Φ
+                                 Ker ∆              eM
+                                      e N −−−−→ Ker ∆
+                                                  
+                                                  ̟ (h)
+   (2.6.2)                  ̟N (i(h))y             y M
+                                                   eM
+                                     e N −−−−→ Ker ∆
+                                 Ker ∆
+                                                f∗
+                                                Φ
+
+
+   for each h ∈ G′ .
+4) If Φ is a diffeomorphism onto N , then (Φ−1 )∗λ is the inverse of Φ∗λ for each λ ∈ C.
+   In particular, Φf∗ is a bijection between Ker e
+                                                 ∆N and Ker e ∆M with inverse (Φ ^ −1 )∗ .
+
+
+Proof. 1) Because LN,i(h) ◦ Φ = Φ ◦ LM,h for h ∈ G′ , we have
+
+                  (Φ∗ L∗N,i(h) gN )(x) = (L∗M,h Φ∗ gN )(x),     for x ∈ M.
+
+Hence,
+
+             ΩN (i(h), Φ(x))2 Ω(x)2 gM (x) = Ω(LM,h x)2 ΩM (h, x)2 gM (x).
+
+Because all conformal factors are positive-valued functions, we have proved (2.6.1).
+2) We want to prove
+
+(2.6.3)             (̟M,λ (h−1 )Φ∗λ f )(x) = (Φ∗λ ̟N,λ (i(h−1 ))f )(x)
+                                               10
+for any x ∈ M , h ∈ G′ and λ ∈ C. In view of the definition, we have
+
+          the left side of (2.6.3) =(̟M,λ (h−1 )(Ωλ Φ∗ f ))(x)
+                                 =ΩM (h, x)λ Ω(LM,h x)λ (Φ∗ f )(LM,h x)
+                                 =Ω(x)λ ΩN (i(h), Φ(x))λ f (Φ ◦ LM,h x).
+
+Here the last equality follows from (2.6.1).
+
+       The right side of (2.6.3) =(Φ∗λ ΩN (i(h), ·)λ f (LN,h ·))(x)
+                                 =Ω(x)λ ΩN (i(h), Φ(x))λ f (LN,i(h) ◦ Φ(x)).
+
+Therefore, we have (2.6.3), because LN,i(h) ◦ Φ = Φ ◦ LM,h .
+3) If f ∈ C ∞ (N ) satisfies ∆e N f = 0, then ∆     f∗ f ) = Ω n+2
+                                               e M (Φ           2 (Φ∗ ∆e N f ) = 0 by
+(2.3.1). Hence Φf∗ (Ker ∆
+                        e N ) ⊂ Ker ∆
+                                    e M . The commutativity of the diagram (2.6.2)
+follows from (2) and Theorem 2.5 (2), if we put λ = n−2  2
+                                                           .
+4) Because (Φ−1 )∗ gM = (Ω ◦ Φ−1 )−2 gN , the twisted pull-back (Φ−1 )∗λ F is given by
+the following formula from definition (2.3.2):
+
+      (Φ−1 )∗λ : C ∞ (M ) → C ∞ (N ), F 7→ (Φ−1 )∗λ F = (Ω ◦ Φ−1 )−λ (F ◦ Φ−1 ).
+
+Now the statement (4) follows immediately. 
+
+             §3. Minimal unipotent representations of O(p, q)
+
+3.1. In this section, we apply Theorem 2.5 to the specific setting where M =
+S p−1 × S q−1 is equipped with an indefinite Riemannian metric, and where the
+indefinite orthogonal group G = O(p, q) acts conformally on M . The resulting
+representation, denoted by ̟ p,q , is non-zero, irreducible and unitary if p + q ∈
+2N, p, q ≥ 2 and if (p, q) 6= (2, 2). This representation coincides with the one
+constructed by Kostant, Binegar-Zierau ([2], [25]), which has the Gelfand-Kirillov
+dimension p + q − 3 (see Part II, Lemma 4.4). This representation is supposed to
+be attached to the unique minimal nilpotent coadjoint orbit, in the sense that its
+annihilator in the enveloping algebra U (g) is the Joseph ideal if p + q ≥ 8, which is
+the unique completely prime primitive ideal of minimum nonzero Gelfand-Kirillov
+dimension.
+    Our approach based on conformal geometry gives a geometric realization of the
+minimal representation ̟ p,q for O(p, q). One of the advantages using conformal
+geometry is the naturality of the construction (see Proposition 2.6), which allows
+us naturally different realizations of ̟ p,q , not only on the K-picture (a compact
+picture in §3), but also on the N -picture (a flat picture) (see Part III), and on the
+hyperboloid picture (see Part II, §7, Corollary 7.2.1), together with the Yamabe op-
+erator in each realization. In later sections, we shall reduce the branching problems
+of ̟ p,q to the analysis on different models on which the minimal representation
+̟ p,q is realized.
+    The case of SO(3, 4) was treated by [27]; his method was generalized in [30] to
+cover all simple groups with admissible minimal orbit, as well as the case of a local
+field of characteristic zero.
+                                          11
+3.2. We write a standard coordinate of Rp+q as (x, y) = (x1 , . . . , xp , y1 , . . . , yq ).
+Let Rp,q be the pseudo-Riemannian manifold Rp+q equipped with the pseudo-
+Riemannian metric:
+
+(3.2.1)              ds2 = dx1 2 + · · · + dxp 2 − dy1 2 − · · · − dyq 2 .
+
+We assume p, q ≥ 1 and define submanifolds of Rp,q by
+
+(3.2.2)          Ξ := {(x, y) ∈ Rp,q : |x| = |y|} \ {0},
+(3.2.3)          M := {(x, y) ∈ Rp,q : |x| = |y| = 1} ≃ S p−1 × S q−1 .
+
+   We define a diagonal matrix by Ip,q := diag(1, . . . , 1, −1, . . . , −1). The indefinite
+orthogonal group
+
+                  G = O(p, q) := {g ∈ GL(p + q, R) : tgIp,q g = Ip,q },
+
+acts isometrically on Rp,q by the natural representation, denoted by z 7→ g · z
+(g ∈ G, z ∈ Rp,q ). This action stabilizes the light cone Ξ. The multiplicative group
+R×+ := {r ∈ R : r > 0} acts on Ξ as a dilation and the quotient space Ξ/R+ is
+                                                                                  ×
+
+identified with M . Because the action of G commutes with that of R×       + , we can
+                                                       ×
+define the action of G on the quotient space Ξ/R+ , and also on M through the
+diffeomorphism M ≃ Ξ/R×    + . This action will be denoted by
+
+
+                       Lh : M → M, x 7→ Lh x (x ∈ M, h ∈ G).
+
+In summary, we have a G-equivariant principal R×
+                                               + -bundle:
+
+
+                                               x y      1
+(3.2.4)             Φ : Ξ → M, (x, y) 7→ (       , )=         (x, y),
+                                              |x| |y| ν(x, y)
+
+where ν : Ξ → R+ is defined by
+
+(3.2.5)                             ν(x, y) = |x| = |y|.
+
+
+
+3.3. Suppose N is a p+q−2-dimensional submanifold of Ξ. We say N is transversal
+to rays if Φ|N : N → M is locally diffeomorphic. Then, the standard pseudo-
+Riemannian metric on Rp,q induces a pseudo-Riemannian metric on N which has
+the codimension 2 in Rp,q . The resulting pseudo-Riemannian metric is denoted by
+gN , which has the signature (p − 1, q − 1). In particular, M ≃ S p−1 × S q−1 itself is
+transversal to rays, and the induced metric gS p−1 ×S q−1 = gS p−1 ⊕ (−gS q−1 ), where
+gS n−1 denotes the standard Riemannian metric on the unit sphere S n−1 .
+Lemma 3.3. Assume that N is transversal to rays. Then Φ|N : N → M is a
+conformal map. Precisely, we have
+
+(3.3.1)             (Φ∗ gM )z = ν(z)−2 (gN )z , for z = (x, y) ∈ N .
+                                              12
+Proof. Write the coordinates as (u1 , · · · , up , v1 , · · · , vq ) = Φ(x, y) ∈ S p−1 × S q−1 .
+Then
+                                                         p
+                         ∗           dxj         xj X
+                        Φ (duj ) =           − 3              xi dxi .
+                                      |x|       |x| i=1
+Therefore, we have
+             
+      p               p                   p                     p        p
+     X                X                   X                     X        X
+Φ∗  (duj )2  = |x|−2 (dxj )2 − 2|x|−4 (   xj dxj )2 + |x|−6 (   x2j )(   xi dxi )2
+      j=1                       j=1                        j=1                       j=1   i=1
+                                p
+                                X                         p
+                                                          X
+                      = |x|−2         (dxj )2 − |x|−4 (         xj dxj )2 .
+                                j=1                       j=1
+
+Similarly, we have
+                
+     Xq                     q
+                            X                q
+                                             X
+  ∗            2
+Φ        (dvj )    = |y| −2         2     −4
+                              (dyj ) − |y| (   yj dyj )2 .
+      j=1                       j=1                     j=1
+                             Pp                   Pq
+Because |x|2 = |y|2 and          j=1 xj dxj =        k=1 yk dyk , we have
+                     p
+                     X           q
+                                 X                    p             q
+                                                                    X
+                                                1 X
+              Φ∗ (     (duj )2 −   (dvj )2 ) =      (   (dx j ) 2
+                                                                  −   (dyk )2 )
+                                               |x|2
+                     j=1              j=1                       j=1            k=1
+
+Hence, we have proved (3.3.1) from our definition of gM and gN . 
+
+3.4. If we apply Lemma 3.3 to the transformation on the pseudo-Riemannian
+manifold M = S p−1 × S q−1 , we have:
+Lemma 3.4.1. G acts conformally on M . That is, for h ∈ G, z ∈ M , we have
+                                                1
+                                L∗h gM =               gM          at Tz M .
+                                             ν(h · z)2
+
+Proof. The transformation Lh : M → M is the composition of the isometry M →
+                                                                   ξ
+h · M, z 7→ h · z, and the conformal map Φ|h·M : h · M → M, ξ 7→ ν(ξ) . Hence
+Lemma 3.4.1 follows. 
+   Several works in differential geometry treat the connection between the geometry
+of a manifold and the structure of its conformal group. For the identity
+                      Conf(S p−1 × S q−1 ) = O(p, q),                 (p > 2, q > 2),
+see for example [13], Chapter IV.
+   As in Example 2.2, the Yamabe operator on M = S p−1 × S q−1 is given by the
+formula:
+
+       ∆e M = ∆S p−1 − ∆S q−1 − p + q − 4 ((p − 1)(p − 2) − (q − 1)(q − 2))
+                               4(p + q − 3)
+                                                      
+                          1     2              1       2
+(3.4.1)     = ∆S p−1 − (p − 2) − ∆S q−1 − (q − 2)
+                          4                    4
+                                         
+            = ∆ e S p−1 − 1 − ∆ e S q−1 − 1 .
+                          4               4
+                                                   13
+We define a subspace of C ∞ (S p−1 × S q−1 ) by
+
+(3.4.2)                                                  e M f = 0}.
+                    V p,q := {f ∈ C ∞ (S p−1 × S q−1 ) : ∆
+
+By applying Theorem 2.5, we have
+
+Theorem 3.4.2. Let p, q ≥ 1. For h ∈ O(p, q), z ∈ M = S p−1 × S q−1 , and
+f ∈ V p,q , we define
+
+                                                                 p+q−4
+(3.4.3)                 (̟ p,q (h−1 )f )(z) := ν(h · z)−           2     f (Lh z).
+
+Then (̟ p,q , V p,q ) is a representation of O(p, q).
+
+3.5. In order to describe the K-type formula of ̟ p,q , we recall the basic fact of
+spherical harmonics. Let p ≥ 2. The space of spherical harmonics of degree k ∈ N
+is defined to be
+
+          Hk (Rp ) = {f ∈ C ∞ (S p−1 ) : ∆S p−1 f = −k(k + p − 2)f },
+
+
+                               e S p−1 = ∆S p−1 − 1 (p − 1)(p − 3) (see Example 2.2)
+which is rewritten in terms of ∆                  4
+as
+                                                                                   
+                                   ∞       p−1     e S p−1 f =       1        p−2 2
+(3.5.1)            = {f ∈ C (S                   ):∆                   − (k +    ) f }.
+                                                                     4         2
+
+The orthogonal group O(p) acts on Hk (Rp ) irreducibly and we have the dimension
+formula:
+                                                                                  
+                               k       p          p+k−2                  p+k−3
+(3.5.2)             dimC H (R ) =                                +
+                                                    k                     k−1
+
+For p = 1, it is convenient to define representations of O(1) by
+                          
+                           C (trivial representation)
+                                                                              (k = 0)
+               Hk (R1 ) := C (signature representation)                        (k = 1)
+                          
+                          
+                            0                                                  (k ≥ 2).
+
+Then we have irreducible decompositions as O(p)-modules for p ≥ 1:
+
+                                       ∞
+                                       X ⊕
+                    2
+                  L (S   p−1
+                               )≃            Hk (Rp )      (Hilbert direct sum).
+                                       k=0
+
+
+
+3.6.   Here is a basic property of the representation (̟ p,q , V p,q ).
+                                                      14
+Theorem 3.6.1. Suppose that p, q are integers with p ≥ 2 and q ≥ 2.
+1) The underlying (g, K)-module (̟ p,q )K of ̟ p,q has the following K-type formula:
+                                             M
+(3.6.1)                  (̟ p,q )K ≃                   Ha (Rp ) ⊠ Hb (Rq ).
+                                            a,b∈N
+                                                   q
+                                          a+ p
+                                             2 =b+ 2
+
+
+
+
+2) In the Harish-Chandra parametrization, the Z(g)-infinitesimal character of ̟ p,q
+is given by (1, p+q      p+q
+                 2 − 2, 2 − 3, . . . , 1, 0).
+3) V p,q is non-zero if and only if p + q ∈ 2N.
+4) If p + q ∈ 2N and if (p, q) 6= (2, 2), then (̟ p,q , V p,q ) is an irreducible represen-
+tation of G = O(p, q) and the underlying (g, K)-module (̟K        p,q
+                                                                      , VKp,q ) is unitarizable.
+    Although Theorem 3.6.1 overlaps with the results of Kostant, Binegar-Zierau,
+Howe-Tan, Huang-Zhu obtained by algebraic methods ([2], [11], [12], [25]), we shall
+give a self-contained and new proof from our viewpoint: conformal geometry and
+discrete decomposability of the restriction with respect to non-compact subgroups.
+The method of finding K-types will be generalized to the branching law for non-
+compact subgroups (§7, §9). The idea of proving irreducibility seems interesting
+by its simplicity, because we do not need rather complicated computations (cf.
+[2], [11]) but just use the discretely decomposable branching law with respect to
+O(p, q ′ ) × O(q ′′ ). We shall give two different proofs of the unitarizability of ̟ p,q
+because of the importance of “small” representations in the current status of unitary
+representation theory.
+Proof. Let F ∈ V p,q ⊂ C ∞ (M ). Then F is developed as
+                            X
+                     F =           Fa,b       (Fa,b ∈ Ha (Rp ) ⊠ Hb (Rq )),
+                           a,b∈N
+
+
+where the right side converges in the topology of C ∞ (M ). Applying the Yamabe
+operator, we have
+
+                           X               2        2 !
+               eMF =                    p−2        q−2
+               ∆                   − a+       + b+          Fa,b .
+                                         2          2
+                          a,b∈N
+
+
+      e M F = 0, Fa,b can be non-zero if and only if
+Since ∆
+
+                                          p−2          q−2
+(3.6.2)                            |a +       | = |b +     |,
+                                           2            2
+
+whence (1) and (3). The statement (2) follows from Lemma 3.7.2 and (3.7.4).
+An explicit (unitarizable) inner product for ̟ p,q will be given in §3.9 (see also
+Remark 3.9, §8).
+   We shall give a simple proof of the irreducibility of ̟ p,q in Theorem 7.6 by using
+discretely decomposable branching laws to non-compact subgroups (Theorem 4.2
+and Theorem 7.1). 
+Remark 3.6.2. 1) ̟ 2,2 contains the trivial one dimensional representation as a
+subrepresentation. The quotient ̟ 2,2 /C is irreducible as an O(2, 2)-module and
+                                                  15
+splits into a direct sum of four irreducible SO0 (2, 2)-modules. The short exact
+sequence of O(2, 2)-modules 0 → C → ̟ 2,2 → ̟ 2,2 /C → 0 does not split, and ̟ 2,2
+is not unitarizable as an O(2, 2)-module.
+   This case is the only exception that ̟ p,q is not unitarizable as a Conf(S p−1 ×
+  q−1
+S     )-module.
+2) The K-type formula for the case p = 1 or q = 1 is obtained by the same method
+as in Theorem 3.6.1. Then we have that
+                  4
+                 C
+                         if (p, q) = (1, 1),
+           p,q
+         V     ≃   C2     if (p, q) = (1, 3), (3, 1),
+                 
+                 
+                   {0} if p = 1 or q = 1 with p + q > 4 or if p + q ∈ / 2N.
+
+V p,q consists of locally constant functions on S p−1 × S q−1 if (p, q) = (1, 1), (1, 3)
+and (3, 1).
+3) In the case of the Kepler problem, i.e. the case of G = O(4, 2), the above K-
+type formula has a nice physical interpretation, namely: the connected component
+of G acts irreducibly on the space with positive Fourier components for the action
+of the circle SO(2), the so-called positive energy subspace; the Fourier parameter
+n = 1, 2, 3, ... corresponds to the energy level in the usual labeling of the bound
+states of the Hydrogen atom, and the dimension (also called the degeneracy of
+the energy level) for the spherical harmonics is n2 , as it is in the labeling using
+angular momentum and its third component of the wave functions ψnlm . Here n
+corresponds to our b.
+3.7. Let us understand ̟ p,q as a subrepresentation of a degenerate principal
+series.
+   For ν ∈ C, we denote by the space
+
+(3.7.1)        S ν (Ξ) := {f ∈ C ∞ (Ξ) : f (tξ) = tν f (ξ), ξ ∈ Ξ, t > 0}
+
+of smooth functions on Ξ of homogeneous degree ν. Furthermore, for ǫ = ±1, we
+put
+                 S ν,ǫ (Ξ) := {f ∈ S ν (Ξ) : f (−ξ) = ǫf (ξ), ξ ∈ Ξ}.
+Then we have a direct sum decomposition
+
+                            S ν (Ξ) = S ν,1 (Ξ) + S ν,−1 (Ξ),
+
+on which G acts by left translations, respectively.
+Lemma 3.7.1. The restriction C ∞ (Ξ) → C ∞ (M ), f 7→ f |M induces the isomor-
+phism of G-modules between S −λ (Ξ) and (̟λ , C ∞ (M )) (given in (2.5.1)) for any
+λ ∈ C.
+Proof. If f ∈ S −λ (Ξ), h ∈ G and z ∈ M , then
+                                    
+                             h·z                                            
+     f (h · z) = f ν(h · z)            = ν(h · z)−λ f (Lh z) = ̟λ (h−1 )f |M (z),
+                            ν(h · z)
+
+where the last formula follows from the definition (2.5.1) and Lemma 3.4.1. 
+                                           16
+   Let us also identify S ν,ǫ (Ξ) with degenerate principal series representations in a
+standard notation. The indefinite orthogonal group G = O(p, q) acts on the light
+cone Ξ transitively. We put
+(3.7.2)                    ξ o := t(1, 0, . . . , 0, 0, . . . , 0, 1) ∈ Ξ.
+                                                  max max          max
+Then the isotropy subgroup at ξ o is of the form M+  N    , where M+   ≃ O(p −
+1, q − 1) and N max
+                    ≃R p+q−2
+                             (abelian Lie group). We set
+                               E := E1,p+q + Ep+q,1 ∈ g0 ,
+where Eij denotes the matrix unit. We define an abelian Lie group by Amax :=
+exp RE (⊂ G), and put
+(3.7.3)                              m0 := −Ip+q ∈ G.
+We define M max to be the subgroup generated by M+
+                                                 max
+                                                     and m0 , then
+                                P max := M max Amax N max
+is a Langlands decomposition of a maximal parabolic subgroup P max of G. If
+a = exp(tE) (t ∈ R), we put aλ := exp(tλE) for λ ∈ C. We put
+                                      p+q−2
+                                       ρ :=    .
+                                          2
+For ǫ = ±1, we define a character χǫ of M max by the composition
+                    χǫ : M max → M max /M+
+                                         max
+                                             ≃ {1, m0 } → C× ,
+such that χǫ (m0 ) := ǫ. We also write sgn for χ−1 and 1 for χ1 . We define F to be
+the A, B, C ∞ or D ′ valued degenerate principal series by
+      F - IndG
+             P max (ǫ ⊗ Cλ ) := {f ∈ F (G) : f (gman) = χǫ (m
+                                                             −1 −(λ+ρ)
+                                                               )a      f (g)},
+which has Z(g)-infinitesimal character
+                         p+q        p+q               p+q    p+q
+(3.7.4)             (λ,        − 2,      − 3, . . . ,     −[      ])
+                           2         2                  2     2
+in the Harish-Chandra parametrization. The underlying (g, K)-module will be
+denoted by IndG
+√
+                                                      G
+                P max (ǫ ⊗ Cλ ). We note that IndP max (ǫ ⊗ Cλ ) is unitarizable if λ ∈
+  −1R.
+   In view of the commutative diagram of G-spaces:
+                       max max                ∼                        max max
+                    G/M+  N                   → Ξ,                   gM+  N    7→ g · ξ o .
+                    ↓                             ↓Φ
+                Z   max max max ∼
+      G/P max ←2 G/M+  A   N    → M ≃ Ξ/R×
+                                         +
+
+we have an isomorphism of G-modules:
+                                                                p+q−2
+(3.7.5)                 C ∞ - IndG
+                                 P max (ǫ ⊗ Cλ ) ≃ S
+                                                     −λ−          2   ,ǫ
+                                                                           (Ξ).
+   It follows from Theorem 2.5 and Lemma 3.7.1 that (̟ p,q , V p,q ) is a subrepresen-
+             p+q−4
+tation of S − 2 (Ξ). Furthermore, ̟ p,q (m0 ) acts on each K-type Ha (Rp )⊠Hb (Rq )
+(a + p2 = b + 2q ) as a scalar
+                                                      p−q            p−q
+                           (−1)a+b = (−1)2a+ 2 = (−1) 2 .
+Hence, we have the following:
+                                                 17
+Lemma 3.7.2. ̟ p,q is a subrepresentation of S a,ǫ (Ξ) with a = − p+q−4
+                                                                    2
+                                                                        and ǫ =
+    p−q                             G          p−q
+(−1) 2 , or equivalently, of C - IndP max ((−1) 2 ⊗ C−1 ).
+                              ∞
+
+     The quotient will be described in (5.5.5).
+Remark 3.7.3. 1) ̟ p,q splits into two irreducible components as SO(p, q)-modules,
+      p,q                                          p,q
+say ̟±    , if p = 2 and q ≥ 4. Then, ̟ p,q (or ̟±     if p = 2 and q ≥ 4) coincides
+with the “minimal representations” constructed in [2], [25], [30].
+2) In [2], it was claimed that the minimal representations of SO(p, q) are realized
+in the subspace of {ψ ∈ C ∞ (S p−1 × S q−1 ) : ψ(−y) = (−1)d ψ(y)} for d = 2 − p+q
+                                                                                 2 .
+But this parity is not correct when both p and q are odd.
+3) Our parametrization of S a,ǫ (Ξ) is the same with S a,ǫ (X 0 ) in the notation of
+[11].
+                                                                                   2
+3.8. Let p ≥ 2. The differential operator −∆S p−1 + (p−2)    4 acts on the space
+H (R ) of spherical harmonics as a scalar a(a + p − 2) + 4 (p − 2)2 = (a + p−2
+  a  p                                                     1
+                                                                            2
+                                                                               )2 .
+Therefore, we can define a non-negative self-adjoint operator
+
+(3.8.1)                            Dp : L2 (S p−1 ) → L2 (S p−1 )
+
+by
+                                                                            41
+                                                       (p − 2)2
+                                Dp :=        −∆S p−1 +
+                                                          4
+with the domain of definition given by
+                             ∞
+                             X                             ∞
+                                                           X
+                                           2                            p−2
+      Dom(Dp ) := {F =             Fa ∈ L (S    p−1
+                                                      ):         (a +       )kFa k2L2 (S p−1 ) < ∞}.
+                             a=0                           a=0
+                                                                         2
+
+     Here is a convenient criterion which assures a given function to be in Dom(Dp ):
+                                                                        2
+Lemma 3.8.1. If F ∈ L2 (S p−1 ) satisfies Y F ∈ L2− p (S p−1 ) for any smooth vector
+field Y on S p−1 then F ∈ Dom(Dp ). Namely, Dp F is well-defined and Dp F ∈
+L2 (S p−1 ).
+   In order to prove Lemma 3.8.1, we recall an inequality due to W. Beckner:
+                                                                         P∞
+Fact 3.8.2 ([1], Theorem 2). Let 1 ≤ δ ≤ 2 and F ∈ Lδ (S n ). Let F = k=0 Fk
+be the expansion in terms of spherical harmonics Fk ∈ Hk (Rn+1 ), which converges
+in the distribution sense. Then
+                 ∞
+                 X                                                      Γ( nδ )Γ(k + n − nδ )
+(3.8.2)                γk kFk k2L2 (S n ) ≤ kF k2Lδ (S n ) ,      γk :=                       .
+                                                                        Γ(n − nδ )Γ(k + nδ )
+                 k=0
+
+   For our purpose, we need to give a lower estimate of γk in Fact 3.8.2. By Stirling’s
+formula for the Gamma function, we have
+                               Γ(k + a)     (a − b)(a + b − 1)
+                       k b−a            ∼1+                    +...
+                               Γ(k + b)             2k
+as k → ∞. Hence, there exists a positive constant C depending only on n and δ so
+that
+                                                      2
+(3.8.3)                                    Ck n(1− δ ) ≤ γk
+                                                    18
+for any k ≥ 1. Combining (3.8.2) and (3.8.3), we have:
+                                 ∞
+                                 X              2
+(3.8.4)                      C         k n(1− δ ) kFk k2L2 (S n ) ≤ kF k2Lδ (S n ) .
+                                 k=1
+
+Now we are ready to prove Lemma 3.8.1.
+Proof of Lemma 3.8.1. Let {Xi } be an orthonormal basis of o(p) with respect
+to (−1)× the Killing form. The action of O(p) on S p−1 induces
+                                                        P      a Lie algebra
+homomorphism L : o(p) → X(S p−1 ). Then we have ∆S p−1 = i L(Xi )2 . We write
+     P∞
+F = k=0 Fk where Fk ∈ Hk (Rp ). We note that L(X)Fk ∈ Hk (Rp ) for any k and
+for any X ∈ o(p), because ∆S p−1 commutes with L(X). If we apply (3.8.4) with
+δ = 2 − p2 and n = p − 1, then we have
+
+                      ∞
+                      X
+                 C          k −1 kL(Xi )Fk k2L2 (S p−1 ) ≤ kL(Xi )F k2 2− 2                     .
+                                                                              L    p (S p−1 )
+                      k=1
+
+Because L(Xi ) is a skew-symmetric operator, we have
+X                                      X
+     kL(Xi )Fk k2L2 (S p−1 ) = −            (∆S p−1 Fk , Fk )L2 (S p−1 ) = k(k + p − 2)kFk k2L2 (S p−1 ) ,
+ i                                      i
+
+and therefore
+               ∞
+               X                                              X
+           C         (k + p − 2)kFk k2L2 (S p−1 ) ≤               kL(Xi )F k2 2− 2              < ∞.
+                                                                             L    p (S p−1 )
+               k=1                                            i
+
+Hence we have proved that Dp F is well-defined and
+                                                ∞
+                                                X            p−2
+                     kDp F k2L2 (S p−1 ) =            (k +       )kFk k2L2 (S p−1 ) < ∞.
+                                                              2
+                                                k=0
+
+This completes the proof of Lemma 3.8.1 
+
+3.9. Let p ≥ 2 and q ≥ 2. We extend Dp to a self-adjoint operator (with the
+same notation) on L2 (M ). Then
+                             q Dp is a pseudo-differential operator acting on
+Ha (Rp ) ⊠ L2 (S q−1 ) as a scalar a + p−2
+                                         2
+                                           . Likewise, we define Dq as a self-adjoint
+               2   q−1                2
+operator on L (S       ) and also on L (M ). It follows from (3.6.2) that
+
+(3.9.1)                                     Dp = Dq           on VKp,q .
+
+Let us consider an explicit unitary inner product for ̟ p,q . We define the Knapp-
+Stein intertwining operator
+
+                         Aλ,ǫ : IndG                    G
+                                   P max (ǫ ⊗ Cλ ) → IndP max (ǫ ⊗ C−λ )
+
+by                                          Z
+                      (Aλ,ǫ f )(x) :=           ψλ−ρ,ǫ ([x, b]) f (b) db (x ∈ M ).
+                                            M
+                                                         19
+Here, db is the Riemannian measure on M ≃ S p−1 × S q−1 , ρ = p+q−2
+                                                                2
+                                                                    , and
+                                                       1             ν
+                               ψν,ǫ (t) :=                    |t|        χǫ (sgn t).
+                                                  Γ( 2ν+3−ǫ
+                                                        4   )
+Then, Aλ,ǫ has an eigenvalue on Ha (Rp ) ⊠ Hb (Rq ) (ǫ = (−1)a−b ) as follows ([21]):
+                                   p+q+2          p+q−1            a−b
+                               2     2   −λ
+                                              π     2     (−1)[ 2 ] Γ(λ) Γ(−Bλ++ )
+(3.9.2)
+                Γ( 12 ) Γ( −2λ+p+q−1−ǫ
+                                4
+                                       ) Γ(1 + Bλ−− ) Γ(1 + Bλ+− ) Γ(1 + Bλ−+ )
+where for ǫ1 , ǫ2 = ±, we have put
+                                                                             p               q
+(3.9.3)        Bλǫ1 ,ǫ2 ≡ Bλǫ1 ,ǫ2 (a, b) := λ − 1 − ǫ1 (a +                   − 1) − ǫ2 (b + − 1).
+                                                                             2               2
+                                                                                                                     p−q
+   In particular, if p + q ∈ 2N, p ≥ 2, q ≥ 2, (p, q) 6= (2, 2) and ǫ = (−1) 2 ,
+then A1,ǫ : IndG                     G
+                P max (ǫ ⊗ C1 ) → IndP max (ǫ ⊗ C−1 ) is non-zero only on the submodule
+  p,q
+̟K    , and has an eigenvalue on Ha (Rp ) ⊠ Hb (Rq ) (a + p2 = b + 2q ) given by
+     p+q   p+q−1           q−p                                                      p+q−2       p+q−1         q−p
+   2 2 π     2     (−1)[ 4 ] Γ(1) Γ(2a + p − 2)                                 2     2     π     2     (−1)[ 4 ]
+                   p−q                                              =                            p−q
+
+   Γ( p+q−3−(−1)                                                         Γ( p+q−3−(−1)                  ) (a + p2 − 1)
+                    2                                                                             2
+            4
+                         ) Γ(2a + p − 1) Γ(1) Γ(1)                                4
+namely,
+                                              1                     1
+                                                   =
+                                        a + p2 − 1   b + 2q − 1
+                                                      q−p
+up to a non-zero constant scalar (−1)[ 4 ] c1 , where
+                                                                     p−q
+
+                                              Γ( p+q−3−(−1)
+                                                                      2
+                                                       4
+                                                                            )
+(3.9.4)                                c1 =       .  p+q−2         p+q−1
+                                   2     π             2             2
+
+Because the integration on G/P max ≃ M/ ∼ Z2 gives a G-invariant non-degenerate
+sesquilinear form
+                         IndG                    G
+                            P max (ǫ ⊗ C1 ) × IndP max (ǫ ⊗ C−1 ) → C,
+
+the underlying (g, K)-module VKp,q (p, q ≥ 2, (p, q) 6= (2, 2), p + q ∈ 2N) is unitariz-
+able with the inner product
+                        Z
+                               p
+          (f1 , f2 ) :=    (a + − 1)f1 f2 dω, f1 , f2 ∈ Ha (Rp ) ⊠ Hb (Rq ),
+                         M     2
+namely,
+                           Z                                   Z
+(3.9.5)     (f1 , f2 ) =           (Dp f1 )Dp f2 dω =               (Dq f1 )Dq f2 dω,              f1 , f2 ∈ VKp,q
+                           M                                   M
+where dω is the standard measure on M .
+   We denote by V p,q the Hilbert completion of V p,q , on which G acts as an (ir-
+reducible) unitary representation of G. We shall use the same notation ̟ p,q to
+denote this unitary representation.
+   In view of §3.8, we can describe V p,q as follows: Let V be the Hilbert space of
+the completion of C ∞ (M ) by the norm defined by
+                kF k2L2 (M ) + k(Dp + Dq )F k2L2 (M )                      for F ∈ C ∞ (M ).
+Then, V is a dense subspace of L2 (M ) and V = Dom(Dp ) ∩ Dom(Dq ). With this
+notation, the closure V p,q is characterized directly by the following:
+                                                          20
+Theorem 3.9.
+
+                                                             e M f = 0},
+                   V p,q = {f ∈ V : Dp f = Dq f } = {f ∈ V : ∆
+
+where ∆e M f = 0 is in the distribution sense. The norm for the unitary repre-
+                                                                 P
+sentation V p,q equals 41 k(Dp + Dq )F k2L2 (M ) . Namely, if F = a Fa,b ∈ V p,q with
+                                                             P q
+Fa,b ∈ Ha (Rp ) ⊠ Hb (Rq ) and b = a + p−q2  , then  Dp F =    a a + p−2
+                                                                      2 Fa,b and
+
+                                       X           p−2
+                             kF k2 =        (a +       )kFa,b k2L2 (M ) .
+                                        a
+                                                    2
+
+Here the sum is taken over integers a with a ≥ max(0, p−q
+                                                       2 ).
+
+Remark. By comparing the construction of [2], (3.9.4) coincides with the formula
+obtained by Binegar-Zierau by a different method (see Remark 3.7.3 (1)). These
+authors defined a similar operator Dn of [2], page 249; we remark that there is
+a typographical error in the definition of Dn ; n − 2 should read (n − 2)2 . Then,
+the square Dp2 of our operator corresponds to Dp if p 6= 2; |Dp | if p = 2, with the
+notation in [2].
+3.10.     The following lemma is rather weak, but is clear from the Sobolev estimate.
+Lemma 3.10. Suppose W is an open set of M such that the measure of M \ W is
+zero. Suppose F is a C ∞ function on W satisfying ∆ e M F = 0 on W . If F ∈ L2 (M )
+and if Y Y ′ F ∈ L1 (M ) for any Y, Y ′ ∈ X(M ) (differentiation in the sense of the
+Schwartz distributions), then F ∈ V p,q .
+
+                                            References
+[1]    W. Beckner, Geometric inequalities in Fourier analysis, Essays on Fourier analysis in honor
+       of Elias M. Stein (C. Fefferman, R. Fefferman and S. Wainger, ed.), Princeton Univ. Press,
+       1995, pp. 36–68.
+[2]    B. Binegar and R. Zierau, Unitarization of a singular representation of SO(p, q), Comm.
+       Math. Phys. 138 (1991), 245–258.
+[3]    R. Brylinski and B. Kostant, Minimal representations of E6 , E7 and E8 and the generalized
+       Capelli identity, Proc. Nat. Acad. Sci. U.S.A. 91 (1994), 2469–2472.
+[4]            , Differential operators on conical Lagrangian manifolds, Lie theory and geometry,
+       vol. 123, Progress in Math., 1994, pp. 65–96.
+[5]            , Lagrangian models of minimal representations of E6 , E7 and E8 , Functional anal-
+       ysis on the eve of the 21st century, 1, vol. 131, Progress in Math., 1995, pp. 13–63.
+[6]    A. Erdélyi, Higher Transcendental Functions, vol. I, McGraw-Hill, New York, 1953.
+[7]    A. Erdélyi, Tables of Integral Transforms, vol. II, McGraw-Hill, New York, 1954.
+[8]    I. M. Gelfand and G. E. Shilov, Generalized Functions, I, Academic Press, 1964.
+[9]    S. Helgason, Differential Geometry, Lie Groups and Symmetric Spaces, Pure and Appl.
+       Math., vol. 80, Academic Press, 1978.
+[10]   R. Howe, Transcending classical invariant theory, Jour. A. M. S. 2 (1989), 535–552.
+[11]   R. Howe and E. Tan, Homogeneous functions on light cones, Bull. A. M. S. 28 (1993), 1–74.
+[12]   J-S. Huang and C-B. Zhu, On certain small representations of indefinite orthogonal groups,
+       Representation Theory 1, 190–206.
+[13]   S. Kobayashi, Transformation Groups in Differential Geometry, Classics in Mathematics,
+       vol. 70, Springer, 1995.
+[14]   T. Kobayashi, Singular Unitary Representations and Discrete Series for Indefinite Stiefel
+       Manifolds U(p, q; F)/U(p − m, q; F), vol. 462, Memoirs A. M. S., 1992.
+                                                    21
+[15]           , Discrete decomposability of the restriction of Aq (λ) with respect to reductive sub-
+       groups and its applications, Invent. Math. 117 (1994), 181–205.
+[16]           , Discrete decomposability of the restriction of Aq (λ) with respect to reductive sub-
+       groups II — micro-local analysis and asymptotic K-support, Ann. of Math. 147 (1998),
+       709–729.
+[17]           , Discrete decomposability of the restriction of Aq (λ) with respect to reductive sub-
+       groups III — restriction of Harish-Chandra modules and associated varieties, Invent. Math.
+       131 (1998), 229–256.
+[18]           , Multiplicity free branching laws for unitary highest weight modules, Proceedings of
+       the Symposium on Representation Theory held at Saga, Kyushu 1997 (eds. K. Mimachi)
+       (1997), 9–17.
+[19]           , Multiplicity-free theorem in branching problems of unitary highest weight modules,
+       preprint.
+[20]           , Discretely decomposable restrictions of unitary representations of reductive Lie
+       groups, Analysis on Homogeneous Spaces and Representation Theory of Lie Groups,
+       Okayama-Kyoto (T. Kobayashi et al, eds.), vol. 26, 2000, pp. 98–126.
+[21]           , Branching laws of O(p, q) associated to minimal elliptic orbits, (in preparation).
+[22]   T. Kobayashi and B. Ørsted, Conformal geometry and branching laws for unitary represen-
+       tations attached to minimal nilpotent orbits, C. R. Acad. Sci. Paris 326 (1998), 925–930.
+[23]           , Analysis on the minimal representation of O(p, q) - II. Branching laws, Preprint.
+[24]           , Analysis on the minimal representation of O(p, q) - III. Ultrahyperbolic equations
+       on Rp−1,q−1 , Preprint.
+[25]   B. Kostant, The vanishing scalar curvature and the minimal unitary representation of
+       SO(4, 4), Operator Algebras, Unitary Representations, Enveloping Algebras, and Invariant
+       Theory (Connes et al, eds.), vol. 92, Birkhäuser, Boston, 1990, pp. 85–124.
+[26]   J. M. Lee and T. H. Parker, The Yamabe problem, Bull. A. M. S. 17 (1987), 37–91.
+[27]   H. Sabourin, Une représentation unipotente associée à l’orbite minimale: Le cas de SO(4,3),
+       J. Funct. Anal. 137 (1996), 394–465.
+[28]   H. Schlichtkrull, Eigenspaces of the Laplacian on hyperbolic spaces: composition series and
+       integral transforms, J. Funct. Anal. 70 (1987), 194–219.
+[29]   W. Schmid, Boundary value problems for group invariant differential equations (1985), As-
+       terisque, hors s’erie, 311–321, Élie Cartan et les mathématiques d’aujourd’hui.
+[30]   P. Torasso, Méthode des orbites de Kirillov-Dufulo et representations minimales des groupes
+       simples sur un corps local de caractéristique nulle, preprint (1997).
+[31]   D. Vogan Jr., Representations of Real Reductive Lie Groups, Progress in Math., vol. 15,
+       Birkhäuser, 1981.
+[32]           , Unitarizability of certain series of representations, Ann. of Math. (1984), 141–187.
+[33]           , Unitary Representations of Reductive Lie Groups, Ann. Math. Stud. 118, Princeton
+       U. P., Princeton, New Jersey, 1987.
+[35]           , Irreducibility of discrete series representations for semisimple symmetric spaces,
+       Advanced Studies in Pure Math. 14 (1988), 191–221.
+[34]           , Singular unitary representations, Springer Lecture Notes in Mathematics 880
+       (1980), 506–535.
+[36]   H. Wong, Dolbeault cohomologies and Zuckerman modules associated with finite rank repre-
+       sentations, ph. D. dissertation, Harvard University (1992).
+[37]   B. Ørsted, A note on the conformal quasi-invariance of the Laplacian on a pseudo-
+       Riemannian manifold, Lett. Math. Phys. 1 (1977), 183.
+[38]           , Conformally invariant differential equations and projective geometry, J. Funct.
+       Anal. 44 (1981), 1–23.
+
+  RIMS, Kyoto University, Sakyo-ku, Kyoto, 606-8502, Japan
+  Department of Mathematics and Computer Science, SDU - Odense University,
+Campusvej 55, DK-5230, Odense M, Denmark
+  E-mail address: toshi@kurims.kyoto-u.ac.jp; orsted@imada.sdu.dk
+
+
+
+
+                                                  22
+

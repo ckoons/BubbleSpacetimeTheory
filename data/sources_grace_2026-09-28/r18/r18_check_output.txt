@@ -1,0 +1,21 @@
+d^2/4 = 2.25
+Delta=1.2: lowest 3 eigs (N=4000) = [2.1607 2.4098 2.8073] ; naive Delta(3-Delta)=2.160
+Delta=1.4: lowest 3 eigs (N=4000) = [2.2506 2.462  2.8859] ; naive Delta(3-Delta)=2.240
+Delta=1.5: lowest 3 eigs (N=4000) = [2.2765 2.4903 2.9246] ; naive Delta(3-Delta)=2.250
+Delta=2.0: lowest 3 eigs (N=4000) = [2.3338 2.6065 3.0971] ; naive Delta(3-Delta)=2.000
+Delta=2.5: lowest 3 eigs (N=4000) = [2.3564 2.6793 3.2278] ; naive Delta(3-Delta)=1.250
+Delta=3.5: lowest 3 eigs (N=4000) = [2.3814 2.77   3.4102] ; naive Delta(3-Delta)=-1.750
+Delta=4.5: lowest 3 eigs (N=4000) = [2.3976 2.8313 3.5395] ; naive Delta(3-Delta)=-6.750
+Delta=5.5: lowest 3 eigs (N=4000) = [2.4103 2.8793 3.6421] ; naive Delta(3-Delta)=-13.750
+k=0 lam=0.3: rho(5.47)=0.376991118431 closed=0.376991118431 relerr=4.89e-18
+k=0 lam=1.7: rho(5.47)=12.1056036918 closed=12.1056036918 relerr=1.47e-16
+k=0 lam=6.0: rho(5.47)=150.796447372 closed=150.796447372 relerr=7.55e-16
+k=1 lam=0.3: rho(5.47)=0.0273946879393 closed=0.0273946879393 relerr=2.53e-16
+k=1 lam=1.7: rho(5.47)=3.13938655742 closed=3.13938655742 relerr=2.57e-17
+k=1 lam=6.0: rho(5.47)=371.964570185 closed=371.964570185 relerr=7.64e-16
+k=2 lam=0.3: rho(5.47)=0.00320126496205 closed=0.00320126496205 relerr=1.36e-16
+k=2 lam=1.7: rho(5.47)=0.618010668017 closed=0.618010668017 relerr=1.8e-16
+k=2 lam=6.0: rho(5.47)=425.102365926 closed=425.102365926 relerr=9.36e-16
+k=3 lam=0.3: rho(5.47)=0.000461896801667 closed=0.000461896801667 relerr=2.36e-16
+k=3 lam=1.7: rho(5.47)=0.116637251472 closed=0.116637251472 relerr=2.38e-16
+k=3 lam=6.0: rho(5.47)=303.64454709 closed=303.64454709 relerr=9.36e-16
