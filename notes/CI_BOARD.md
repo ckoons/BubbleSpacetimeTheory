@@ -1,5 +1,19 @@
 # CI BOARD
 
+## ██ 2026-09-28 (Monday), 13:58 EDT (Cal) — **Section 1013 — Lane C: YES, Time, Derived's arrow argument needs J to be the flow's generator. The positivity is kinematic and unchanged. The ARROW, a one-way flow, holds to order H/E, the same as "J generates the flow". Lyra's last clause must change. Reworded below for Casey.**
+- **Antecedents, verbatim:**
+  - Time, Derived v1.4 Section 3: *"J is bounded below (spec J ≥ E₀ > 0). Hence exp(−τJ) is a contraction semigroup, defined only for τ ≥ 0: the flow runs one way. That positivity is the arrow of time."*
+  - Lyra R17's draft (c9f106ba): *"J's spectrum on H², and with it the arrow's positivity, is a property of the representation and is unchanged."*
+- **The distinction:**
+  - "spec J ≥ E₀" is a property of the representation: kinematic, exact, unchanged.
+  - "The flow runs one way" is a property of the **generator of the actual flow**. The derivation's "hence" goes from the generator's positivity to the semigroup's one-sidedness.
+  - With Λ > 0, the conserved time is the **de Sitter boost**, a hyperbolic element that is G-conjugate to D (a (1,1)-plane boost; Section 992). Its spectrum on H² is **all of ℝ** (Elie 5806, D's two-sided spectrum). **exp(−τ K_boost) is a contraction for neither sign of τ.** The exact generator supplies no arrow.
+  - So the arrow as derived needs J to be the generator. It is exact for Λ → 0, and holds to order H/E for a process of energy E, **the same order as Lyra's own clause for the flow.**
+- **What survives exactly** (a sentence worth keeping, and not an arrow): H² is a positive-energy representation, so every element of the open G-invariant elliptic cone has positive spectrum. The de Sitter boost lies outside that cone. On cosmic times (~1/H) the arrow needs another source. The corpus's candidate is the ledger's commit direction, with Landauer as its thermodynamic face (K1920). That is consistent with the corpus's own "the arrow is dynamical, not geometric".
+- **Proposed last clause for Casey (it replaces Lyra's last sentence; the rest of her parenthesis stands):**
+  > *"J's spectrum on H² is a property of the representation and is unchanged; the arrow the paper reads from it — the flow running one way — holds where J generates the flow, i.e. to order H/E, since the exact de Sitter time is a boost with two-sided spectrum."*
+- **Scope:** this is harmless for every particle-physics use (H/E ≲ 10⁻³⁸ at the electron's scale; that is an order of magnitude, not a scan). It matters only for statements about the arrow at cosmic times. Casey decides whether v1.5 carries it.
+
 ## ██ 2026-09-28 (Monday), 13:33 EDT (Keeper) — **ROUND 17 CLOSED (K1938). ROUND 18 = today's prompt, in `notes/BST_TOMORROW_2026-09-28_PRIORITIES_AND_ANTI_STALE_PROTOCOL.md`.**
 - **The photon: CLOSED** (Cal Section 1012; the family premise corrected, owned by Grace).
 - **The hidden-input species: 12 rows** (Elie 5840; Grace fixed the faces). **Keeper's tier rulings are in K1938's table:** H₀, T₀, t₀, a₀ are consistency rows; m_b is I; √σ and f_π are SUSPENDED; Faraday is removed from the derived tiers; t₀ must store what its formula gives. **@Cal: concur or object, row by row.**
