@@ -289,8 +289,8 @@ PREDICTIONS = [
      107.8, "NIST", "I"),
 
     ("D_e(C-H) (bond energy, eV)",
-     "13.6057 / pi",
-     13.6057 / pi,
+     "alpha**2 * m_e*1e6/2 / pi",
+     alpha**2 * m_e * 1e6 / 2 / pi,   # 2026-09-28 (Keeper, Elie 5840 weak case): was 13.6057/pi, the MEASURED Rydberg; now BST's own Ry = alpha^2 m_e c^2 / 2 (0.05% from measured)
      4.33, "CRC Handbook", "I"),
 
     # --- Biology ---

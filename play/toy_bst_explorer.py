@@ -326,6 +326,7 @@ def cmd_verify(data, query):
     passed = 0
     failed = 0
     skipped = 0
+    consistency = 0
 
     for c in targets:
         code = c.get('formula_code', '')
@@ -341,14 +342,23 @@ def cmd_verify(data, query):
             if isinstance(obs_val, (int, float)) and obs_val != 0:
                 pct = abs(bst_val - obs_val) / abs(obs_val) * 100
                 status = "PASS" if pct < 5 else "MISS"
-                if status == "PASS":
+                # 2026-09-28 (Keeper; Elie 5840 / Grace R176-R177): a row whose own status says its weight comes from an
+                # imported measurement (a consistency, a CAMB output, an SI restatement) prints MATCH* with that status, and
+                # is not counted as a pass. The match is real; the prediction is not ours.
+                row_status = str(c.get('status') or '')
+                imported = any(k in row_status.lower() for k in ("import", "consistency", "camb output", "restated", "si definition", "measured input"))
+                if status == "PASS" and imported:
+                    status = "MATCH*"
+                    consistency += 1
+                elif status == "PASS":
                     passed += 1
                 else:
                     failed += 1
                 if query != 'all' or status == "MISS":
-                    color = "\033[92m" if status == "PASS" else "\033[91m"
+                    color = "\033[92m" if status == "PASS" else ("\033[93m" if status == "MATCH*" else "\033[91m")
+                    note = f"  [status: {row_status[:90]}]" if status == "MATCH*" else ""
                     print(f"  {color}{status}{RESET} [{c['theorem_id']}] {c['name']}: "
-                          f"BST={bst_val:.6g} vs Obs={obs_val:.6g} ({pct:.4f}%)")
+                          f"BST={bst_val:.6g} vs Obs={obs_val:.6g} ({pct:.4f}%){note}")
             else:
                 skipped += 1
         except Exception as e:
@@ -359,7 +369,7 @@ def cmd_verify(data, query):
     if query == 'all':
         total = passed + failed
         print(f"\n  Verification: {passed}/{total} passed ({passed/total*100:.1f}%), "
-              f"{skipped} skipped (dimensionful/special)")
+              f"{skipped} skipped (dimensionful/special), {consistency} MATCH* (the row's weight is an imported measurement; not counted)")
 
 def cmd_random(data):
     """Pick a random constant and tell its story."""
