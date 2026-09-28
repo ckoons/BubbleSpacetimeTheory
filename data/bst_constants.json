@@ -818,7 +818,7 @@
     "n_C = 5 from D_IV^5 complex dimension",
     "m_p = 6*pi^5 * m_e (derived)",
     "alpha = 1/137 (derived)",
-    "m_W = n_C * m_p/(8*alpha) = 5 * 938.254/(8/137) / 1000 (m_p = 6 pi^5 m_e = 938.254) = 80.361 GeV"
+    "m_W = n_C * m_p/(8*alpha) = 5 * 938.272/(8/137) / 1000 = 80.361 GeV"
    ],
    "category": "electroweak",
    "tier": "PD",
@@ -840,8 +840,7 @@
    "precision_stored_ARCHIVED": "0.02%",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
    "text_flag": "the chain's arithmetic line writes 938.272 (measured m_p) while saying 'm_p derived'; the CODE uses the namespace m_p = 6*pi^5*m_e (938.254), which is BST's. Text only; the value is BST's.",
-   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — text fix: the chain's arithmetic now shows BST's m_p; value unchanged (code already used it)."
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_013",
@@ -1649,11 +1648,11 @@
    "symbol": "D_e(C-H)",
    "formula_latex": "D_e(C-H) = R_y/\\pi",
    "formula_display": "D_e(C-H) = Ry/pi",
-   "formula_code": "m_e*1e6/(2*N_max**2) / pi",
-   "bst_value": 4.3331,
+   "formula_code": "13.6057 / pi",
+   "bst_value": 4.3306,
    "observed_value": 4.33,
    "observed_source": "CRC Handbook",
-   "precision": 0.071594,
+   "precision": 0.0138568,
    "unit": "eV",
    "bst_integers_used": [],
    "derivation_chain": [
@@ -1671,7 +1670,7 @@
     "T767"
    ],
    "source_toys": [],
-   "status": "derived form Ry/pi with BST's own Rydberg m_e/(2 N_max^2)",
+   "status": "derived form Ry/pi; value uses the measured Rydberg",
    "ace": "(0,0)",
    "publication_tier": "Derived",
    "observed_uncertainty": null,
@@ -1679,9 +1678,11 @@
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.02%",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_inputs": [
+    "Ry = 13.6057 eV is the MEASURED Rydberg (alpha = 1/137.036)"
+   ],
    "weak_flag": "BST's own Ry = m_e/(2 N_max^2) = 13.6128 eV (+0.05%); 13.6057/pi = 4.3308 vs BST-Ry/pi = 4.3331. Recode with m_e/(2*N_max**2) to make the row BST's.",
-   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — recoded with BST's Ry = 13.6128 eV (was the measured 13.6057)."
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_032",
@@ -1907,7 +1908,7 @@
     "chi^2/N = 0.01 across all CMB peaks"
    ],
    "category": "cosmology",
-   "tier": "consistency",
+   "tier": "D",
    "ac_depth": 1,
    "mechanism": "Full CAMB run with BST inputs (alpha, Omega_b, Omega_DM, n_s, A_s). chi^2/N = 0.01 across all CMB peaks.",
    "domain": "cosmology",
@@ -1916,7 +1917,7 @@
     "T196e"
    ],
    "source_toys": [],
-   "status": "consistency, inherited (CAMB output; four measured inputs named)",
+   "status": "CAMB output; inputs not all named (h, T_CMB)",
    "ace": "(0,0)",
    "publication_tier": "Derived",
    "observed_uncertainty": null,
@@ -1925,14 +1926,10 @@
    "precision_stored_ARCHIVED": "0.4 sigma",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
    "measured_inputs": [
-    "omega_m = 0.1430 (Planck; sets h = 0.6729 and omega_c = omega_m − Omega_b h^2)",
-    "T_CMB = 2.7255 K (measured)",
-    "A_s = 2.1e-9 (Planck best fit)",
-    "tau_reion = 0.054 (Planck)"
+    "CAMB also requires h (H_0) and T_CMB, not named on the row; the program's H_0 = 67.29 carries Planck's measured omega_m (const_100); T_CMB presumably the measured 2.7255 K — NOT STATED"
    ],
    "tier_recommendation": "not D until every CAMB input is named",
-   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — inputs named from the source run, toy_677_camb_boltzmann.py lines 46–61 ('External inputs (not BST-derived)'). NOTE: const_037's chain lists 'A_s=(3/4)*alpha^4' as a BST input, but the run used A_s = 2.1e-9 (Planck best fit) — the chain misstates the run. z* and r* depend mainly on omega_b and omega_c, here built from Planck's total omega_m."
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_038",
@@ -1957,7 +1954,7 @@
     "All inputs derived, no tuning"
    ],
    "category": "cosmology",
-   "tier": "consistency",
+   "tier": "I",
    "ac_depth": 1,
    "mechanism": "Sound horizon from full CAMB with BST cosmological parameters. All inputs derived, no tuning.",
    "domain": "cosmology",
@@ -1966,7 +1963,7 @@
     "T196f"
    ],
    "source_toys": [],
-   "status": "consistency, inherited (CAMB output; four measured inputs named)",
+   "status": "CAMB output; inputs not all named (h, T_CMB)",
    "ace": "(0,0)",
    "publication_tier": "Indicative (Register-gated: recompute on genuine geometry before Derived)",
    "register_status": "RATIFIED Indicative (Cal hunt, Casey sign-off 2026-08-03): r_* is a CAMB/Boltzmann OUTPUT smuggling the cosmological Mpc/H_0 SECOND scale beyond the m_e/tick anchor. Not a BST-forced number until recomputed without the cosmological scale.",
@@ -1977,14 +1974,10 @@
    "precision_stored_ARCHIVED": "1.0 sigma",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
    "measured_inputs": [
-    "omega_m = 0.1430 (Planck; sets h = 0.6729 and omega_c = omega_m − Omega_b h^2)",
-    "T_CMB = 2.7255 K (measured)",
-    "A_s = 2.1e-9 (Planck best fit)",
-    "tau_reion = 0.054 (Planck)"
+    "CAMB also requires h (H_0) and T_CMB, not named on the row; see const_037"
    ],
    "tier_recommendation": "not I-as-derived until every CAMB input is named",
-   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — inputs named from the source run, toy_677_camb_boltzmann.py lines 46–61 ('External inputs (not BST-derived)'). NOTE: const_037's chain lists 'A_s=(3/4)*alpha^4' as a BST input, but the run used A_s = 2.1e-9 (Planck best fit) — the chain misstates the run. z* and r* depend mainly on omega_b and omega_c, here built from Planck's total omega_m."
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_039",
@@ -2328,7 +2321,7 @@
     "a_0 = c*H_0/sqrt(30)"
    ],
    "category": "cosmology",
-   "tier": "consistency",
+   "tier": "S",
    "ac_depth": 1,
    "mechanism": "MOND scale = c*H_0/sqrt(n_C*C_2). Product n_C*C_2 = 30 sets transition. Structural connection to BST.",
    "domain": "cosmology",
@@ -2337,7 +2330,7 @@
     "T197"
    ],
    "source_toys": [],
-   "status": "consistency (a_0 = c*H_0/sqrt(30) imports H_0 via Planck's omega_m, const_100); BST supplies 1/sqrt(n_C*C_2)",
+   "status": "structural",
    "ace": "(1,0)",
    "publication_tier": "Indicative",
    "observed_uncertainty": null,
@@ -2345,8 +2338,7 @@
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.4%",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
-   "inherited_input_flag_2026_09_27": "Grace 15:52 (round 17): uses the symbol H_0, whose stored value (const_100) carries Planck's measured omega_m = 0.1430 (K1937 Part 2). a_0 = c*H_0/sqrt(30) therefore imports H_0 as a MEASURED scale; BST supplies only the factor 1/sqrt(n_C*C_2). A literal-only sweep of formula_code will not flag this row (no numeric literal); dependency on a flagged symbol must be checked too.",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — consistency row; H imported via Planck's omega_m (const_100)"
+   "inherited_input_flag_2026_09_27": "Grace 15:52 (round 17): uses the symbol H_0, whose stored value (const_100) carries Planck's measured omega_m = 0.1430 (K1937 Part 2). a_0 = c*H_0/sqrt(30) therefore imports H_0 as a MEASURED scale; BST supplies only the factor 1/sqrt(n_C*C_2). A literal-only sweep of formula_code will not flag this row (no numeric literal); dependency on a flagged symbol must be checked too."
   },
   {
    "id": "const_047",
@@ -3773,7 +3765,7 @@
    "symbol": "f_pi",
    "formula_latex": "f_\\pi = (m_p/10)(1 - (\\text{rank}/N_c)(m_\\pi/m_p)^2)",
    "formula_display": "f_pi = (m_p/10)*(1 - (rank/N_c)*(m_pi/m_p)^2) = 92.4 MeV",
-   "formula_code": "(m_p/10) * (1 - (rank/N_c)*((sqrt(n_C*(n_C+1))*rank*n_C**2*m_e)/m_p)**2)",
+   "formula_code": "(m_p/10) * (1 - (rank/N_c)*(140.2/m_p)**2)",
    "bst_value": 92.43,
    "observed_value": 92.1,
    "observed_source": "FLAG 2024",
@@ -3801,7 +3793,7 @@
     "T250"
    ],
    "source_toys": [],
-   "status": "structural (resolved: 140.2 replaced by BST's own m_pi, const_057)",
+   "status": "structural; contains an unsourced literal 140.2",
    "ace": "(1,0)",
    "publication_tier": "Indicative",
    "observed_uncertainty": null,
@@ -3809,9 +3801,11 @@
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.41%",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
-   "unsourced_literal": "resolved 2026-09-28: 140.2 replaced by const_057's expression sqrt(n_C(n_C+1))*rank*n_C^2*m_e = 139.943 MeV",
-   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — RESOLVED by the same rule (BST-only inputs): f_pi = 92.43 MeV (was 92.43 with the unsourced 140.2; change +0.005 MeV)."
+   "measured_inputs": [
+    "140.2 (a pion mass) — UNSOURCED: neither BST's 139.9 (const_057) nor the measured 139.57"
+   ],
+   "unsourced_literal": "140.2 in formula_code has no source on the row; replace by const_057's BST expression or name its origin. Not to be cited as is.",
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_083",
@@ -4614,7 +4608,7 @@
    "precision": 0.103919,
    "unit": "km/s/Mpc",
    "category": "cosmological",
-   "tier": "consistency",
+   "tier": "I",
    "ac_depth": 1,
    "bst_integers_used": [
     "n_C",
@@ -4649,8 +4643,7 @@
    "measured_inputs": [
     "omega_m = Omega_m h^2 = 0.1430 (Planck 2018; toy_677_camb_boltzmann.py:46 '# H_0 from Planck Ω_m h² = 0.1430')"
    ],
-   "tier_review_2026_09_27": "GRACE RETRACTION, 2026-09-27 15:52 (round 17; K1937 Part 2): my 2026-08-02 TIER-REFRESH ('CONFIRMED honestly tiered — no change … H_0 is a downstream CAMB/Boltzmann output from BST inputs') was WRONG in its reason: the chain's own step 'Omega_m h^2 = 0.1430' is Planck's MEASURED omega_m (toy 677:46), not a BST output, and 100*sqrt(0.1430/(6/19)) = 67.29 exactly (Keeper K1937; recomputed by Grace). A consistency check of Omega_m, not a derivation of H. Formula and status now name the input on the face; the 08-02 text is kept.",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — consistency row; H imported via Planck's omega_m (const_100)"
+   "tier_review_2026_09_27": "GRACE RETRACTION, 2026-09-27 15:52 (round 17; K1937 Part 2): my 2026-08-02 TIER-REFRESH ('CONFIRMED honestly tiered — no change … H_0 is a downstream CAMB/Boltzmann output from BST inputs') was WRONG in its reason: the chain's own step 'Omega_m h^2 = 0.1430' is Planck's MEASURED omega_m (toy 677:46), not a BST output, and 100*sqrt(0.1430/(6/19)) = 67.29 exactly (Keeper K1937; recomputed by Grace). A consistency check of Omega_m, not a derivation of H. Formula and status now name the input on the face; the 08-02 text is kept."
   },
   {
    "id": "const_101",
@@ -4666,7 +4659,7 @@
    "precision": 0.34856,
    "unit": "K",
    "category": "cosmological",
-   "tier": "consistency",
+   "tier": "I",
    "ac_depth": 1,
    "bst_integers_used": [
     "N_max",
@@ -4700,8 +4693,7 @@
    "measured_inputs": [
     "inherits H_0 = 67.29 → Planck's measured omega_m (const_100)"
    ],
-   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — consistency row; H imported via Planck's omega_m (const_100)"
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_102",
@@ -4709,15 +4701,15 @@
    "name": "Cosmic age t_0",
    "symbol": "t_0",
    "formula_latex": "t_0 = \\int_0^\\infty \\frac{dz}{(1+z)\\sqrt{\\Omega_M(1+z)^3 + \\Omega_\\Lambda}} / H_0",
-   "formula_display": "t_0 = 13.81 Gyr from the flat LCDM integral (no radiation) with Omega_Lambda = 13/19, Omega_M = 6/19, H_0 = 67.29 (imported via Planck omega_m)",
-   "formula_code": "13.81",
-   "bst_value": 13.81,
+   "formula_display": "t_0 = 13.78 Gyr from full LCDM integral with Omega_Lambda = 13/19, H_0 = 67.29",
+   "formula_code": "13.78",
+   "bst_value": 13.78,
    "observed_value": 13.797,
    "observed_source": "Planck 2018",
-   "precision": 0.086975,
+   "precision": 0.123215,
    "unit": "Gyr",
    "category": "cosmological",
-   "tier": "consistency",
+   "tier": "I",
    "ac_depth": 1,
    "bst_integers_used": [
     "n_C",
@@ -4739,7 +4731,7 @@
    "source_toys": [
     1182
    ],
-   "status": "consistency (Omega_Lambda, Omega_m); H imported via omega_m (const_100)",
+   "status": "consistency (Omega_Lambda); H imported via omega_m (const_100); stored value NOT reproduced",
    "ace": "(1,0)",
    "publication_tier": "Structure-Derived (form forced; value set by the named input)",
    "observed_uncertainty": null,
@@ -4750,8 +4742,7 @@
    "measured_inputs": [
     "H_0 = 67.29, which is 100*sqrt(omega_m/(6/19)) with Planck's MEASURED omega_m = 0.1430 (const_100; K1937 Part 2)"
    ],
-   "reproduction_flag_2026_09_27": "Grace 15:53 (round 17): (1) the row's H_0 = 67.29 imports Planck's omega_m (const_100). (2) The stored 13.78 is NOT reproduced by the row's own formula: flat LCDM, Omega_M = 6/19, Omega_Lambda = 13/19, H_0 = 67.29, no radiation → integral 0.95031 → t_0 = 13.809 Gyr (scipy quad; Grace recompute). (3) The cited source, toy 1182, never evaluates H_0 = 67.29: its table uses 66.7, 68.0, a 'BST midpoint' 67.35 and Planck 67.36 (lines 139-162). The 0.12% therefore has no reproducible instrument on the row's face. Value left unchanged pending Elie's round-17 instrument; not to be cited.",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — stored value replaced by what the row's own formula gives: integral 0.95031 → 13.809 Gyr (scipy quad; Grace 09-27). The previous 13.78 had no reproducing instrument (toy 1182 never evaluates H_0 = 67.29). Precision now vs 13.797."
+   "reproduction_flag_2026_09_27": "Grace 15:53 (round 17): (1) the row's H_0 = 67.29 imports Planck's omega_m (const_100). (2) The stored 13.78 is NOT reproduced by the row's own formula: flat LCDM, Omega_M = 6/19, Omega_Lambda = 13/19, H_0 = 67.29, no radiation → integral 0.95031 → t_0 = 13.809 Gyr (scipy quad; Grace recompute). (3) The cited source, toy 1182, never evaluates H_0 = 67.29: its table uses 66.7, 68.0, a 'BST midpoint' 67.35 and Planck 67.36 (lines 139-162). The 0.12% therefore has no reproducible instrument on the row's face. Value left unchanged pending Elie's round-17 instrument; not to be cited."
   },
   {
    "id": "const_103",
@@ -5204,7 +5195,7 @@
     "m_b = (7/3) * 1776.86 = 4146.0 MeV"
    ],
    "category": "particle",
-   "tier": "I",
+   "tier": "D",
    "ac_depth": 1,
    "mechanism": "Genus/color bridge: m_b/m_tau = g/N_c. Uses measured m_tau.",
    "domain": "particle_physics",
@@ -5229,8 +5220,7 @@
     "m_tau = 1776.86 MeV (MEASURED, PDG) — the base of the row"
    ],
    "tier_recommendation": "I (ratio identified; not D: the MeV scale is measured m_tau, not the ruler)",
-   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — I: the identified ratio m_b/m_tau = 7/3; m_tau measured, named."
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_111",
@@ -5336,7 +5326,7 @@
     "BST reading: N_A encodes mole = counting unit; e = alpha*sqrt(hbar*c) = electromagnetic coupling quantum"
    ],
    "category": "fundamental",
-   "tier": "N/A (SI definition)",
+   "tier": "I",
    "ac_depth": 0,
    "mechanism": "SI-defined constant. BST derives alpha = 1/N_max which sets the electromagnetic scale; Faraday is the molar version.",
    "domain": "electromagnetism",
@@ -5345,7 +5335,7 @@
     "T198"
    ],
    "source_toys": [],
-   "status": "SI definition N_A*e restated — REMOVED from the derived tiers",
+   "status": "SI definition restated — not a BST derivation",
    "ace": "(1,0)",
    "publication_tier": "Structure-Derived (form forced; value set by the named input)",
    "observed_uncertainty": null,
@@ -5357,8 +5347,7 @@
     "F = 96485.33212 C/mol is the SI-exact N_A*e (2019 definitions) restated"
    ],
    "tier_recommendation": "remove from the derived tiers (move, or mark 'SI definition')",
-   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending"
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_114",
@@ -5382,7 +5371,7 @@
     "mu_p derived from BST (T1447, 0.012%)"
    ],
    "category": "nuclear",
-   "tier": "N/A (conversion of measured)",
+   "tier": "D",
    "ac_depth": 1,
    "mechanism": "Proton gyromagnetic ratio from BST-derived magnetic moment (T1447). rank = 2 is the g-factor denominator.",
    "domain": "nuclear_physics",
@@ -5391,7 +5380,7 @@
     "T1447"
    ],
    "source_toys": [],
-   "status": "unit conversion of CODATA's MEASURED mu_p — not a BST derivation (recode from const_043 to make it one)",
+   "status": "unit conversion of the MEASURED mu_p (CODATA restated); NOT a BST derivation as coded",
    "precision_percent": 0.001,
    "notes": "From mu_p = (2g/n_C)(1 - 11/(10*N_max*pi)) at 0.0001%. Toy 1693.",
    "ace": "(0,0)",
@@ -5408,8 +5397,7 @@
    ],
    "code_chain_mismatch": "the chain says 'mu_p derived from BST (T1447)', but formula_code uses CODATA's measured mu_p. Either code const_043's BST mu_p or keep this as a unit conversion.",
    "tier_recommendation": "not D; 'conversion of measured' unless recoded from const_043",
-   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending"
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_115",
@@ -5464,8 +5452,7 @@
     "G_F (MEASURED) and m_Z (MEASURED) in the chain's headline Gamma_Z = G_F*m_Z^3/(6*pi*sqrt(2))*R_Z = 2.486 GeV"
    ],
    "tier_recommendation": "give the row a code; name G_F, m_Z",
-   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — G_F and m_Z measured (named); no D until a formula exists; tier S kept."
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_122",
@@ -5521,12 +5508,12 @@
    "name": "QCD string tension",
    "symbol": "sqrt(sigma)",
    "formula_latex": "\\sqrt{\\sigma} = m_p \\sqrt{N_c/(\\text{rank} \\cdot g)}",
-   "formula_display": "sqrt(sigma) = m_p * sqrt(N_c/(rank*g)) = m_p*sqrt(3/14)",
-   "formula_code": "m_p * sqrt(N_c/(rank*g))",
-   "bst_value": 434.33,
+   "formula_display": "sqrt(sigma) = m_p * sqrt(N_c/(rank*g)) = m_p * sqrt(3/14)",
+   "formula_code": "sqrt(10) * 139.57",
+   "bst_value": 441.0,
    "observed_value": 440.0,
    "observed_source": "Lattice QCD (FLAG 2024), +/- 10 MeV",
-   "precision": 1.288636,
+   "precision": 0.227273,
    "unit": "MeV",
    "bst_integers_used": [
     "N_c",
@@ -5550,7 +5537,7 @@
    "source_toys": [
     "1678"
    ],
-   "status": "identified (resolved to the chain's BST-only form)",
+   "status": "UNRESOLVED: formula_code != derivation_chain",
    "notes": " Formula: sqrt(sigma) = sqrt(10)*m_pi. Reconciled May 10.",
    "ace": "(1,0)",
    "publication_tier": "Structure-Derived (form forced; value set by the named input)",
@@ -5559,10 +5546,12 @@
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.23%",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
-   "code_chain_mismatch": "resolved 2026-09-28 (see k1938)",
+   "measured_inputs": [
+    "m_pi = 139.57 MeV (MEASURED) in formula_code sqrt(10)*139.57"
+   ],
+   "code_chain_mismatch": "formula_code sqrt(10)*139.57 = 441.36 MeV uses MEASURED m_pi; the chain says m_p*sqrt(3/14) with m_p = 6 pi^5 m_e, which gives 434.33 MeV (Grace recompute). Two formulas, 1.6% apart; the stored 441.0 matches neither exactly. Owner to reconcile; not to be cited.",
    "tier_recommendation": "none until reconciled",
-   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — RESOLVED to one form by the rule written before comparing values: keep the form using only BST inputs, as the row's own chain declares. Code was sqrt(10)*139.57 (measured m_pi; 441.36); chain m_p*sqrt(3/14) = 434.33 MeV (m_p = 6 pi^5 m_e). New value 434.33 vs lattice 440 ± 10 (−1.29 %, −0.57 sigma). The old 441.0 was the code's measured-input form."
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "id": "const_124",
@@ -6107,8 +6096,8 @@
    "name": "Proton charge radius",
    "symbol": "r_p",
    "formula": "rank^2 * hbar*c/m_p",
-   "formula_code": "rank**2 * hbar_c / m_p",
-   "value": 0.84125,
+   "formula_code": "rank**2 * 197.327 / 938.272",
+   "value": 0.84122,
    "observed_value": 0.8414,
    "precision": null,
    "unit": "fm",
@@ -6121,9 +6110,11 @@
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.02%",
    "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "measured_inputs": [
+    "m_p = 938.272 MeV (MEASURED) in formula_code; hbar*c = 197.327 MeV fm (unit)"
+   ],
    "weak_flag": "BST's m_p = 6 pi^5 m_e = 938.254 MeV; rank^2*197.327/938.254 = 0.84125 fm vs the coded 0.84124 (0.002%). Recode with the namespace m_p to make the row BST's.",
-   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — recoded with BST's m_p (6 pi^5 m_e) and hbar_c: 0.84125 fm."
+   "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)"
   },
   {
    "name": "Cosmic neutrino background temperature ratio",

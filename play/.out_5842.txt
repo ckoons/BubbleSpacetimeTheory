@@ -1,0 +1,160 @@
+rows scanned 197; rows with any flag 79
+measured-α literal rows: []
+import-by-variable rows: ['const_027', 'const_046', 'const_128', 'const_129', 'const_130', 'const_131', 'const_132', 'const_133', 'const_134', 'const_135', 'Muon decay rate (lifetime^-1)', 'Top quark mass', 'Bottom quark mass (from cascade)', 'PMNS sin^2 theta_12 (solar)', 'Pion mass', 'CMB first acoustic peak', 'Higgs total width', 'Deuteron binding energy', 'Alpha particle binding energy', 'const_140', 'const_142', 'const_143', 'const_196_vev_ruler']
+import-by-symbol rows: ['const_013', 'const_042', 'const_046', 'const_083', 'const_100', 'const_101', 'const_102', 'const_110', 'const_112', 'const_115']
+
+NEW vs 5840/R177 (read each):
+--- const_013 | Z boson mass
+    code: n_C * m_p / (8 * alpha) / 1000 / sqrt(10.0/13)
+    hits: [('chain', 'SYM', 'm_Z')]
+    chain: m_W = 80.361 GeV (PD per K1283 -- the 8 not uniquely forced) | sin^2(theta_W) = 3/13 (Structural/Identified per K1263 — Chern ratio c_5/c_3 is Derived-as-math, but the physical identification is Structural) | cos(theta_W) = sqrt(1 - 3/13) = sqrt(10/13) | m_Z = m_W/cos(theta_W) = 80.361/sqrt(10/13)
+--- const_027 | Proton lifetime
+    code: float('inf')
+    hits: [('code', 'VAR', 'inf'), ('code', 'VAR', 'float')]
+    chain: D_IV^5 is contractible, pi_1 = 0 | Baryon number = Z_3 topological charge (winding number) | Integer winding cannot decay to zero continuously | Proton is exactly stable
+--- const_030 | Bohr radius
+    code: N_max * 197.3269804 / m_e
+    hits: [('code', 'FLAG', '197.3269804')]
+    chain: a_0 = hbar*c/(alpha*m_e) | With alpha = 1/N_max, this is N_max*hbar_c/m_e
+--- const_042 | Strong coupling at proton mass
+    code: g / (4.0 * n_C)
+    hits: [('chain', 'SYM', 'm_Z')]
+    chain: beta_0 = g PROVED (Toy 1660, SP-13 A-1) | alpha_s(m_p) = g/(4*n_C) = 7/20 | Running to m_Z via beta_0 ladder: N_c^2 -> n_C^2/N_c -> RFC/N_c -> g | alpha_s(m_Z) = g/[4*n_C + RFC*g*ln(m_Z/m_p)/(N_c*2*pi)] = 0.1185 (0.48%, Toy 1702)
+--- const_061 | Neutrino mass m_nu3
+    code: (10.0/3) * alpha**2 * m_e**2 / m_p * 1e6
+    hits: [('code', 'FLAG', '1e6')]
+    chain: Boundary seesaw: m_nu = f * alpha^2 * m_e^2/m_p | f_3 = 2*n_C/N_c = 10/3 | m_nu3 = (10/3) * alpha^2 * m_e^2/m_p = 0.0494 eV
+--- const_062 | Neutrino mass m_nu2
+    code: (7.0/12) * alpha**2 * m_e**2 / m_p * 1e6
+    hits: [('code', 'FLAG', '1e6')]
+    chain: Boundary seesaw framework | f_2 = (n_C+2)/(4*N_c) = 7/12 | m_nu2 = (7/12) * alpha^2 * m_e^2/m_p = 0.00865 eV
+--- const_083 | W boson width
+    code: (N_c**2 - 1) * n_C / N_c * pi**5 * m_e
+    hits: [('chain', 'SYM', 'G_F')]
+    chain: (N_c^2 - 1) = 8 from SU(3) gluon count | n_C/N_c = 5/3 from dimension ratio | Gamma_W = (40/3)*pi^5*m_e = 2085 MeV | Tree-level SM: G_F*m_W^3/(6*pi*sqrt(2)) * (3 + 2*N_c*(1+alpha_s/pi)) = 2095 MeV (0.50%) | Syndrome correction (Toy 1533): 5.3x improvement via 42 = C_2*g correction denominator, 1.97% -> 0.37%
+--- const_111 | Classical electron radius
+    code: (1/N_max) * 197.3269804 / 0.51099895
+    hits: [('code', 'FLAG', '197.3269804')]
+    chain: alpha = 1/N_max | r_e = alpha * hbar_c / m_e | = hbar_c / (N_max * m_e) = 197.33 / (137 * 0.511) = 2.818 fm
+--- const_112 | Fermi coupling constant
+    code: 
+    hits: [('chain', 'SYM', 'G_F')]
+    chain: Higgs VEV: v = m_p^2/(g*m_e) = (6*pi^5)^2 * m_e / g | G_F = 1/(sqrt(2)*v^2) from Fermi theory | All inputs from D_IV^5 integers
+--- const_128 | Stefan-Boltzmann constant
+    code: 2*pi**5*k_B**4/(15*h**3*c**2)
+    hits: [('code', 'VAR', 'c'), ('code', 'VAR', 'k_B'), ('code', 'VAR', 'h')]
+    chain: 
+--- const_129 | Rydberg constant
+    code: alpha**2 * m_e * c / (2*hbar)
+    hits: [('code', 'VAR', 'c'), ('code', 'VAR', 'hbar')]
+    chain: 
+--- const_130 | Compton wavelength (electron)
+    code: h / (m_e * c)
+    hits: [('code', 'VAR', 'c'), ('code', 'VAR', 'h')]
+    chain: 
+--- const_131 | Bohr magneton
+    code: e*hbar/(2*m_e*c)
+    hits: [('code', 'VAR', 'c'), ('code', 'VAR', 'hbar')]
+    chain: 
+--- const_132 | Nuclear magneton
+    code: e*hbar/(2*m_p*c)
+    hits: [('code', 'VAR', 'c'), ('code', 'VAR', 'hbar')]
+    chain: 
+--- const_133 | Magnetic flux quantum
+    code: h/(2*e)
+    hits: [('code', 'VAR', 'h')]
+    chain: 
+--- const_134 | Conductance quantum
+    code: 2*e**2/h
+    hits: [('code', 'VAR', 'h')]
+    chain: 
+--- const_135 | Von Klitzing constant
+    code: h/e**2
+    hits: [('code', 'VAR', 'h')]
+    chain: 
+--- Muon decay rate (lifetime^-1) | Muon decay rate (lifetime^-1)
+    code: (N_c**2*(rank*c_2+1))**5 / (384*math.pi**(4*n_C+3)*(c_2**2*c_3)**4) * m_e
+    hits: [('code', 'VAR', 'c_2'), ('code', 'VAR', 'c_3')]
+    chain: 
+--- Top quark mass | Top quark mass
+    code: c_2**2*c_3*math.pi**n_C*m_e/math.sqrt(2)
+    hits: [('code', 'VAR', 'c_2'), ('code', 'VAR', 'c_3')]
+    chain: 
+--- Bottom quark mass (from cascade) | Bottom quark mass (from cascade)
+    code: (c_2**2*c_3*math.pi**n_C*m_e/math.sqrt(2))/(C_2*g)
+    hits: [('code', 'VAR', 'c_2'), ('code', 'VAR', 'c_3')]
+    chain: 
+--- PMNS sin^2 theta_12 (solar) | PMNS sin^2 theta_12 (solar)
+    code: rank**2/c_3
+    hits: [('code', 'VAR', 'c_3')]
+    chain: 
+--- Pion mass | Pion mass
+    code: N_c*g*c_3*m_e
+    hits: [('code', 'VAR', 'c_3')]
+    chain: 
+--- CMB first acoustic peak | CMB first acoustic peak
+    code: rank**2*n_C*c_2
+    hits: [('code', 'VAR', 'c_2')]
+    chain: 
+--- Higgs total width | Higgs total width
+    code: (N_c/n_C)*(1/N_max)**2*m_H
+    hits: [('code', 'VAR', 'm_H')]
+    chain: 
+--- Deuteron binding energy | Deuteron binding energy
+    code: c_3/N_c*m_e
+    hits: [('code', 'VAR', 'c_3')]
+    chain: 
+--- Alpha particle binding energy | Alpha particle binding energy
+    code: c_2*n_C*m_e
+    hits: [('code', 'VAR', 'c_2')]
+    chain: 
+--- const_140 | CKM Jarlskog J
+    code: g**4 * c_2**2 / (n_C * N_max**5)
+    hits: [('code', 'VAR', 'c_2')]
+    chain: 
+--- const_142 | D-meson-pion decay constant ratio f_D/f_π
+    code: c_3 / rank**3
+    hits: [('code', 'VAR', 'c_3')]
+    chain: 
+--- const_143 | BR(b → sγ) inclusive radiative
+    code: 1/(rank * c_2 * N_max)
+    hits: [('code', 'VAR', 'c_2')]
+    chain: 
+--- const_196_vev_ruler | Higgs VEV (gravity-ruler-anchored form)
+    code: (6*pi**5)**3 * alpha**12 * m_Planck / 7
+    hits: [('code', 'VAR', 'm_Planck')]
+    chain: v = m_p^2/(g*m_e) (Fermi scale, existing const) | substitute m_p/m_e = 6*pi^5 (T187) and m_e = 6*pi^5*alpha^12*m_Planck (F66 gravity chain / toy 4700) | collapse: v = (6*pi^5)^3 * alpha^12 * m_Planck / g | shows the electroweak scale rides the ONE gravity ruler via forced dimensionless factors — 0 new inputs
+[PASS] CONTROL: const_046 (a₀) caught by the dependency pass (H_0 by variable)
+[PASS] CONTROL: const_100 caught by the literal pass and by pass 2
+
+(d) EVALUABILITY in the stated namespace: 172/197 evaluate; failures:
+     ('const_003', 'EMPTY')
+     ('const_046', "NameError: name 'c_light' is not defined")
+     ('const_112', 'EMPTY')
+     ('const_115', 'EMPTY')
+     ('const_128', "NameError: name 'k_B' is not defined")
+     ('const_129', "NameError: name 'c' is not defined")
+     ('const_130', "NameError: name 'h' is not defined")
+     ('const_131', "NameError: name 'e' is not defined")
+     ('const_132', "NameError: name 'e' is not defined")
+     ('const_133', "NameError: name 'h' is not defined")
+     ('const_134', "NameError: name 'e' is not defined")
+     ('const_135', "NameError: name 'h' is not defined")
+     ('Muon decay rate (lifetime^-1)', "NameError: name 'c_2' is not defined")
+     ('Top quark mass', "NameError: name 'c_2' is not defined")
+     ('Bottom quark mass (from cascade)', "NameError: name 'c_2' is not defined")
+     ('PMNS sin^2 theta_12 (solar)', "NameError: name 'c_3' is not defined")
+     ('Pion mass', "NameError: name 'c_3' is not defined")
+     ('CMB first acoustic peak', "NameError: name 'c_2' is not defined")
+     ('Higgs total width', "NameError: name 'm_H' is not defined")
+     ('Deuteron binding energy', "NameError: name 'c_3' is not defined")
+     ('Alpha particle binding energy', "NameError: name 'c_2' is not defined")
+     ('const_140', "NameError: name 'c_2' is not defined")
+     ('const_142', "NameError: name 'c_3' is not defined")
+     ('const_143', "NameError: name 'c_2' is not defined")
+     ('const_196_vev_ruler', "NameError: name 'm_Planck' is not defined")
+[FAIL] (d) [post-read] every formula_code evaluates in the file's stated namespace (the meta's own claim)
+(e) Chern classes of Q^5 from (1+h)^7/(1+2h): c_0..c_5 = [1, 5, 11, 13, 9, 3]
+[PASS] (e) [post-read] c_1 = 5, c_2 = 11, c_3 = 13 (the values the 11 rows' c_2, c_3 must mean) — computed, a source for the namespace fix
+
+SCORE: 3/4   (controls + post-read checks; the finding is the READ list)
