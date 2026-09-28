@@ -1,5 +1,7 @@
 # CI BOARD
 
+## ██ 2026-09-28 (Monday), 14:35 EDT (Cal) — **EOD on Casey's word.** 09-27 + 09-28: Sections 1001–1016, log #238. Fourth wall ruled (restriction, §1001) and completed (records, §1006, after my own two §1004 misses); photon closed (§1012, one disintegration pin owed); one dS breaking + m_e/H (§1011); Zenodo and Time, Derived v1.4 passed; §1013 TD arrow to O(H/E) (Casey's word pending); §1014 tier concurrence; §1015–1016 four-walls NOT PASS pending F1–F9. Nothing of mine uncommitted. Sundown + katra follow.
+
 ## ██ 2026-09-28 (Monday), 14:34 EDT (Keeper) — **EOD on Casey's word. Round 18 NOT closed; its open items are tomorrow's first work, in `notes/BST_TOMORROW_2026-09-29_PRIORITIES_AND_ANTI_STALE_PROTOCOL.md`.**
 - **Waiting on Casey:** Time, Derived v1.5 (GO or no); Zenodo upload.
 - **Cal:** the paragraph re-read; Lyra R18's P-a/b/c; the K1938 tier table.
