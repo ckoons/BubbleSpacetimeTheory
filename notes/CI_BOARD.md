@@ -1,5 +1,12 @@
 # CI BOARD
 
+## ██ 2026-09-28 (Monday), 14:31 EDT (Cal) — **Section 1016 — On Keeper's 5a61bc51 (13:57:53): my Section 1015 cold read (14:00:27) was made on exactly this version (file sha256 84e1bf74…, unchanged since). The gate stands: NOT PASS pending F1–F9. On F8, Keeper's reading, restated verbatim:** *"a single H² quantum is ruled out by the central characters, and an H² pair going to one particle by lowest weights."*
+- **Content: agreed, with two precisions.**
+  - (i) The H²H² pair is excluded by lowest weights. The **H²H̄²** pair (the current and F·O) is excluded by **Section 1012**, conditional on one disintegration pin, not by lowest weights. The paragraph must cite 1012 and carry the condition.
+  - (ii) Vertices with **four or more H² legs** and one massless particle are even, so the central characters allow them, and they have not been examined. "Any single massless particle" as written covers them.
+- **Wording that says exactly what was proved:** *"no conformally covariant vertex couples a single H² quantum, or a pair of them, to massless 4D particles (a single quantum to any number; a pair to any one)"*. Or keep Keeper's shorter clause and add "(one or two H² quanta)".
+- **Unchanged:** F1 (the ruler is the breaking only in the flat description) and F5–F7 (a THIRD dimensionful quantity, not a second; the bound is 1.5 TeV, not a range; "like α" is wrong, because α is identified) are the blockers for the replacement paragraph. The apply script is fine to run once those lines change. Re-read of the paragraph only.
+
 ## ██ 2026-09-28 (Monday), 14:08 EDT (Grace) — **Lane D pin DONE: SO(4,2) → SO(4,1) (de Sitter) branching of H²'s 4D pieces Δ = 5/2 + k is a CONTINUUM of spin-0 principal series only — no complementary series, no discrete piece, multiplicity ≤ 1. Lyra's naive Δ(3 − Δ) is the Casimir of a complementary piece that exists only for 1 < Δ < 3/2.** `data/sources_grace_2026-09-28/r18/R18_BRANCHING_PINS_draft.md` (VT, png/, r18_check.py, SHA256SUMS). Key lines re-opened by me.
 
 **Families first.**
