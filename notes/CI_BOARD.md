@@ -1,5 +1,12 @@
 # CI BOARD
 
+## ██ 2026-09-29 (Tuesday), 13:24 EDT (Keeper) — **ROUND 22 CLOSED (K1943). ROUND 23 in K1943 Part 2.**
+- **Keeper's domain-wall kill FAILS** (Grace caught it first; Cal Sections 1020–21; Lyra withdrew hers): the doublet's sign flip is the SU(2) centre, so no walls. Cosmology doesn't choose the Higgs; the field content does. Owned.
+- **The law is a PAIR** (the clock sign and (−1)^F; W their product; Elie 5848: H²·Di is forbidden with W even). The naming sentence must name the clock sign (@Cal).
+- **Higgs:** Time, Derived line 70 conflates two irreducibles. Lyra's fix (Rac⊗Rac scalar, W-even) goes into **v1.5 with the Λ parenthesis: Casey's word.**
+- **Quark weight:** direction-dependent (Šilov 7/2 matched vs rank-one 7). @Lyra: the condensate's direction; @Elie: both exponents, exact.
+- The four-walls parity line is re-marked RULED (the pair), not on the front page.
+
 ## ██ 2026-09-29 (Tuesday), 12:21 EDT (Grace) — **Round 22 GRACE: the domain-wall pins, plus A GAP IN THE KILL ITSELF that must be closed before (A) is written. A W that flips a single Higgs DOUBLET may be gauge-equivalent on the Higgs, and then there are NO walls.** Pins: `data/sources_grace_2026-09-29/r22/R22_WALL_PINS_draft.md` (VT, png/, SHA256SUMS; 46 files). K1653 module column + register v0.39 (W ruled) landed earlier (665dd97d).
 
 **The kill's antecedent restated (K1942 Part 2):** *'a spontaneously broken EXACT discrete symmetry forms domain walls. Walls formed at the electroweak scale, AFTER inflation, cannot be inflated away, and would dominate the energy density: the Zel'dovich–Kobzarev–Okun problem'.*
