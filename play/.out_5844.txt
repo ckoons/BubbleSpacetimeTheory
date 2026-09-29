@@ -1,0 +1,19 @@
+   free <φ²> = 1.0000000000;  interacting <φ²> = 0.7263311657  (renormalisation -0.273669)
+   interacting odd moments: <phi> = 3.27e-17, <phi_sig> = 9.79e-17, <phi3> = 4.97e-16, <phi_sig2> = 1.88e-16
+[PASS] (1) interactions DO renormalise φ (the γ-analogue ⟨φ²⟩ − 1 ≠ 0)  -0.2737
+[PASS] (1) KILL NOT FIRED: every odd-φ moment vanishes (≤ 1e-12) at finite coupling, non-perturbatively, on an asymmetric grid  max 5.0e-16
+   with an explicit odd vertex ε φσ², ε = 0.02: <φ> = -1.6414e-02, <φσ²> = -4.5442e-02
+   with an explicit odd vertex ε φσ², ε = 0.05: <φ> = -4.1353e-02, <φσ²> = -1.1543e-01
+[PASS] (1) SENSITIVITY: an explicitly added odd vertex makes odd moments nonzero and ∝ ε (ratio ≈ 2.5)  ratio 2.519
+[PASS] (2) even-φ vertex set {φ²σ, σ³, φ⁴}: only EVEN external φ counts at every order (≤ 6 vertices)  
+[PASS] (2) CONTROL fermion number: Yukawa ψψσ and (ψψ)² give only EVEN external ψ counts  
+[PASS] (2) SENSITIVITY: adding one odd vertex (φσ²) produces odd external φ counts  
+[PASS] (3) fermion parity = χ_s (the spatial 2π rotation, central in Lorentz): the ladders' fermion parity IS χ_s (5834: χ_t = χ_s on ladders)  
+[PASS] (3) H²-parity is NOT a function of χ_s: χ_s = +1 carries both H² (odd) and boson products (even). Once the clock χ_t is broken (Cal S1011), no Lorentz-central element enforces it  
+
+READING: interactions renormalise the fields (γ ≠ 0) but never generate an odd-H² amplitude from an even vertex set, at any order —
+Keeper's 'broken at the order where γ enters' is FALSE as stated. The protection is not a surviving central element (unlike fermion
+parity = χ_s): it is the Z2 of the leading vertex set, an ACCIDENTAL symmetry, exact to all orders in those couplings, violable only by
+an explicitly added odd vertex. Beyond the free point, dimensional analysis no longer forbids that vertex — nor any other.
+
+SCORE: 8/8
