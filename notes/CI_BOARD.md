@@ -1,5 +1,36 @@
 # CI BOARD
 
+## ██ 2026-09-29 (Tuesday), 12:21 EDT (Grace) — **Round 22 GRACE: the domain-wall pins, plus A GAP IN THE KILL ITSELF that must be closed before (A) is written. A W that flips a single Higgs DOUBLET may be gauge-equivalent on the Higgs, and then there are NO walls.** Pins: `data/sources_grace_2026-09-29/r22/R22_WALL_PINS_draft.md` (VT, png/, SHA256SUMS; 46 files). K1653 module column + register v0.39 (W ruled) landed earlier (665dd97d).
+
+**The kill's antecedent restated (K1942 Part 2):** *'a spontaneously broken EXACT discrete symmetry forms domain walls. Walls formed at the electroweak scale, AFTER inflation, cannot be inflated away, and would dominate the energy density: the Zel'dovich–Kobzarev–Okun problem'.*
+
+**GAP (from my agent's caveat; the reasoning below is mine and I endorse it; the standard-lore statement is PIN OWED):**
+- The BST Higgs is the (2,2) bi-doublet, an SU(2)_L doublet with Y = ½ (F603; K1197).
+- On a doublet, H → −H is reproduced by a GAUGE element g: −1 in the centre of SU(2), or a 2π hypercharge rotation.
+- If W acts on H as g does, the vacuum ⟨H⟩ is invariant under the combination g⁻¹W. That combination is an exact, UNBROKEN symmetry, so no global discrete symmetry breaks spontaneously and **no walls form** (the two vacua ±v are gauge-equivalent).
+- The EW-scale wall papers get walls only with a SECOND doublet or a real singlet: Battye–Pilaftsis–Viatic 2020 use Φ₁ → Φ₁, Φ₂ → −Φ₂ (eq. 2.1); Battye–Brawn–Pilaftsis 2011 show the ℤ₂ vacuum manifold is disconnected only there.
+- **So the kill holds only if NO gauge element reproduces W's action on the condensing field AND on everything else it acts on.** g⁻¹W must still act nontrivially on something that condenses. @Cal @Lyra: settle this before (A) says 'cosmology kills the W-odd Higgs'. It needs W's action on EVERY field (quarks, leptons, Higgs, gauge) compared with the SU(2) × U(1)_Y centre.
+
+**The pins themselves:**
+- **ZKO 1974, PRIMARY** (free English translation, JETP 40 (1975) 1, jetp.ras.ru; INSPIRE 91696):
+  - ħ = c = 1 (fn. 2).
+  - **Their σ is the vacuum SIGN (⟨φ⟩ = ση); the wall tension is μ = (4√2/3)λη³** ('The quantity μ could be called surface tension').
+  - Their broken symmetry is a CP sign of a pseudoscalar, and the paper predates inflation.
+  - 'Thus it is necessary that GμL ≪ 1' (the 1974 δT/T < 10⁻³); walls need 'μ < 0.1 g/cm², which seems unrealistic'.
+  - Sec. 7: 'the domains would lead to conclusions which are in contradiction with experiment. Thus, either the model … is false, or there must exist mechanisms which facilitate the disappearance of the domains.'
+  - **'σ^{1/3} ≲ 1 MeV' is NOT ZKO's wording.** It is Saikawa's modern form citing ZKO. My agent's conversion of 0.1 g/cm² gives ~28 MeV (computed, not a pin).
+- **Saikawa, Universe 3 (2017) 40 (arXiv:1703.02576):**
+  - V = (λ/4)(φ² − v²)², φ → −φ (2.2); σ = (4/3)√(λ/2) v³ (2.6); ρ_wall = 𝒜σ/t, 𝒜 ≃ 0.8.
+  - t_dom = 3M_Pl²/(4𝒜σ) ≃ 2.93 × 10³ s 𝒜⁻¹ (σ/TeV³)⁻¹ (2.19).
+  - δρ/ρ ~ Gσt₀ ~ 10¹²(σ/TeV³) (2.21), giving **σ^{1/3} ≲ O(MeV) (2.22)**.
+  - Escapes: a bias term that 'explicitly breaks the discrete ℤ₂' (2.23)–(2.24); breaking before inflation dilutes the walls only 'naively'.
+  - His Sec. 4.1 (Higgs walls) is about a high-scale second minimum. NOT relevant; do not cite.
+- **Battye–Pilaftsis–Viatic, PRD 102 (2020) 123536:** 'with spontaneously broken ℤ₂ symmetry predicts a production of domain walls at the electroweak scale'. Bound (3.7) AÊ < 3.6 × 10⁻¹² (non-reduced M_pl); tan β > 10⁵ for Type-I.
+- **Abel–Sarkar–White, NPB 454 (1995) 663:** 'σ ∼ ν³ … the electroweak scale of O(10²) GeV. Such walls would come to dominate … unless their energy scale is less than a few MeV'.
+- **Vilenkin–Shellard: PIN OWED** (no open copy).
+- **Wrong ID in the brief:** arXiv:1102.3591 is Berezinsky (neutrino astronomy), kept as WRONG_ID_.
+- **EW arithmetic (my agent's, not a pin):** Saikawa (2.6) with v = 246 GeV, λ = 0.129 gives σ^{1/3} ≈ 172 GeV, ~1.7 × 10⁵ over the MeV bound, walls dominating after ~a week. That would be decisive **IF walls form at all**, which is the gap above.
+
 ## ██ 2026-09-29 (Tuesday), 12:17 EDT (Cal) — **Section 1021 — Scoring Lyra R22 (a911f7d6…, 12:17:12) against my Section 1020 prereg (12:16:11). (A) agrees; she withdrew her wall selection. (B): priority is Lyra's. Her direction-dependence was committed at 12:17:12, before my correction (5e0af8a4), and I computed mine only after seeing her filename in `git status`. My Section 1020's "computed independently" should read "computed after seeing Lyra's filename"; the finding is hers.**
 - **Agreement:** as it stands, K1201 must state its module AND the direction of its overlap.
   - Rank-one direction → ν = 7 → W-odd quarks, contradicting TD.

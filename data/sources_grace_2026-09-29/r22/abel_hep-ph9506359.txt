@@ -1,0 +1,992 @@
+                                                                                                                       OUTP-95-22P
+                                                                                                                     RAL-TR-95-019
+                                                                                                                         June 1995
+                                                                                                                    hep-ph/9506359
+
+
+
+
+                                             On the Cosmological Domain Wall Problem
+                                                    for the Minimally Extended
+
+
+
+
+arXiv:hep-ph/9506359v1 19 Jun 1995
+                                                  Supersymmetric Standard Model
+
+
+                                                          S.A. Abela , S. Sarkarb1 and P. L. Whiteb
+
+                                                                     a
+                                                                      Rutherford Appleton Laboratory
+                                                                     Chilton, Didcot OX11 0QX, U.K.
+
+                                                              b
+                                                                  Theoretical Physics, University of Oxford
+                                                                   1 Keble Road, Oxford OX1 3NP, U.K.
+
+
+
+
+                                                                                 Abstract
+                                           We study the cosmology of the Supersymmetric Standard Model augmented by a
+                                           gauge singlet to solve the µ-problem and describe the evolution of the domain walls
+                                           which are created during electroweak symmetry breaking due to the discrete Z3
+                                           symmetry in this model. The usual assumption, that non-renormalizable terms in-
+                                           duced by gravity (which explicitly break this symmetry) may cause the walls to
+                                           collapse on a cosmologically safe timescale, is reconsidered. Such terms are con-
+                                           strained by considerations of primordial nucleosynthesis, and also by the fact that
+                                           by not respecting the Z3 symmetry they induce divergences which destabilise the
+                                           hierarchy and reintroduce the µ–problem. We find that, even when the Kähler po-
+                                           tential is ‘non-minimal’ (i.e. when the hidden sector couples directly to the visible)
+                                           the model is either ruled out cosmologically or suffers from a naturalness problem.
+
+
+
+
+                                     1
+                                         PPARC Advanced Fellow
+1    Introduction
+The purpose of introducing (softly broken) supersymmetry into the Standard Model is
+to bring under control the quadratic divergences associated with a fundamental Higgs
+boson and make it ‘natural’ for its mass to be at the electroweak scale [1]. Yet the
+minimal supersymmetric Standard Model (MSSM) has its own naturalness problem. Its
+Lagrangian contains a term µ H1 H2 mixing the two Higgs doublets which are now required
+to give masses separately to the up- and down- type quarks. For successful phenomenology
+µ should also be of order the electroweak scale but this must now be set by hand — the ‘µ–
+problem’ [2, 3]. To address this problem, the next-to-minimal supersymmetric Standard
+Model (NMSSM) [4] contains an additional singlet Higgs superfield N. By invoking a Z3
+symmetry under which every chiral superfield Φ transforms as Φ → e2πi/3 Φ, the allowed
+terms in the superpotential are now λNH1 H2 − k3 N 3 (in addition to the usual Yukawa
+terms generating fermion masses) while the Higgs part of the soft supersymmetry breaking
+potential is extended by the inclusion of two additional trilinear soft terms Aλ and Ak to
+
+                     Higgs                           k
+                   Vsoft   = −λAλ (NH1 H2 + h.c.) − Ak (N 3 + h.c.)
+                                                     3
+                             +mH1 |H1 | + mH2 |H2 | + m2N |N|2 ,
+                               2       2   2       2
+                                                                                         (1)
+
+where H1 H2 = H10 H20 − H − H + . The µ–term can now be simply set to zero by invoking
+the Z3 symmetry. An effective µ–term of the form λhNi will still be generated during
+SU(2)×U(1) breaking but it is straightforward to arrange that hNi is of order a soft
+supersymmetry breaking mass. Apart from solving the ‘µ–problem’ the NMSSM also has
+interesting implications for supersymmetric phenomenology [5] and dark matter [6].
+    Unfortunately, the NMSSM runs into a cosmological difficulty. The Z3 of the model
+is broken during the phase transition associated with electroweak symmetry breaking in
+the early universe. Due to the existence of causal horizons in an evolving universe, such
+spontaneously broken discrete symmetries lead to the formation of domains of different
+degenerate vacua separated by domain walls [7, 8]. These have a surface energy density
+σ ∼ ν 3 where ν is a typical vacuum expectation value (vev) of the fields, here the elec-
+troweak scale of O(102 ) GeV. Such walls would come to dominate the energy density of
+the universe and create unacceptably large anisotropies in the cosmic microwave back-
+ground radiation unless their energy scale is less than a few MeV [9]. Therefore cosmology
+requires the Z3 walls to disappear well before the present era. Following the original sug-
+gestion by Zel’dovich et al [7], this may be achieved by breaking the degeneracy of the
+vacua, eventually leading to the dominance of the true vacuum. This happens when the
+pressure, i.e. the difference in energy density between the distinct vacua, begins to exceed
+the tension σ/R, where σ is the surface energy density of the walls and R the scale of their
+curvature. When R becomes large enough for the pressure term to dominate, the domain
+corresponding to the true vacuum begins to expand into the domains of false vacuum and
+eventually fills all of space. It was recently argued [10] that gravitational interactions at
+the Planck scale MPl would explicitly violate any discrete symmetry, causing just such
+a non-degeneracy in the minima of O(ν 5 /MPl ) where ν is a generic vev (of O(MW ) in
+our example). In fact, this suggestion had been applied already to the NMSSM in the
+context of string theories [11]. Thus there would appear to be a natural solution to the
+cosmological domain wall problem for the NMSSM.
+
+                                             2
+     In this paper we study whether this solution is indeed viable. In the following section
+we derive the structure of the walls, and show that the surface energy is approximately
+   3
+MW    as expected on dimensional grounds. We go on to describe the evolution of the walls
+under the influence of the tension, the pressure due to the small explicit Z3 breaking and
+the friction due to particle reflections. In particular we demonstrate that wall domination
+of the energy density of the universe is avoided if the gravitationally induced terms are
+of order six or less. This is not however the tightest constraint on the domain walls; by
+applying constraints based on primordial nucleosynthesis we show that the magnitude
+of Z3 breaking must be ∼    > 10−7 σM 2 /M , in order to make the walls disappear before
+                                       W    Pl
+the nucleosynthesis era begining at T ∼ 1 MeV. Thus only operators of dimension five
+(suppressed by at most one power of the Planck mass) are permitted. This reduces to
+three the number of possible Z3 breaking terms which are allowed in the superpotential
+or Kähler potential and which induce dimension-5 operators in the effective potential. By
+inspection we find that the existence of one or more of these operators implies that there is
+no symmetry (discrete, global, gauged, R-symmetry or gauged R-symmetry) under which
+the low-energy singlet can be charged. This implies that there cannot be any explanation
+for the absence of three allowed low energy operators which include the µ–term itself
+as well as quadratic and linear terms in N. Thus our first conclusion is that not only
+does the NMSSM not solve the µ–problem, it actually makes things worse by introducing
+additional operators and by disallowing any symmetry which would forbid them.
+     We then go on to consider the fact that the singlet which appears in the NMSSM may
+introduce destabilising divergences [12]. Essentially the problem is that by introducing
+non-renormalizable terms together with soft supersymmetry breaking, we may produce
+corrections to the potential which are quadratically divergent and thus proportional to
+powers of the cut-off Λ in the effective supergravity theory. Since the natural scale for this
+cut-off is MPl , these can in principle destabilise the hierarchy, forcing the singlet
+                                                                                   √ vev and
+hence the scale of electroweak breaking to become very large (at least of order MW MPl ).
+By examining the possible Z3 breaking terms, we demonstrate that the removal of domain
+walls by this mechanism indeed destabilises the hierarchy. We conclude that the two
+constraints, viz. stability of the hierarchy and domain walls, cannot be simultaneously
+satisfied by any gravitationally suppressed operators which one can add to the Lagrangian.
+     We consider alternative ways for dealing with the domain walls. One possible solution
+is to reintroduce the µ term in the superpotential in such a way as to avoid the introduction
+of the dangerous non-renormalisable operators. If we drop the assumption of minimality
+in the Kähler potential by allowing certain couplings of the hidden sector fields to the
+visible sector (as in Ref.[3]) we can retain Z3 symmetry in the full theory, but break it
+spontaneously when supersymmetry is broken. In this way the hierarchy is not destabilised
+by tadpole diagrams. However the naturalness problem cannot be solved even for these
+more general models.
+     Finally we consider how gauge singlets may be accommodated in supersymmetry,
+without invoking these problems. There appear to be only a few possibilities, none of
+which yields a phenomenology bearing any resemblance to the NMSSM.
+
+
+
+
+                                              3
+2    Domain Walls in the NMSSM
+When a discrete symmetry is spontaneously broken as the universe expands and cools,
+‘domains’ of the different degenerate vacua form separated by narrow regions of higher po-
+tential called ‘domain walls’ [9]. The structure of these walls may be determined by finding
+time-independent solutions to the classical field equations after imposing the boundary
+conditions that at the endpoints the fields should be in distinct vacuum configurations.
+This has been done using numerical methods for the NMSSM potential [13] and we re-
+iterate the essential features of the Z3 walls. As might be expected from dimensional
+arguments and by analogy with the analytically soluble case of a single real scalar field
+in a Z2 symmetric potential [9], the thickness and energy density of the walls are of order
+ν −1 and ν 3 respectively, where ν is a typical vacuum expectation value. For naturalness
+reasons one would tend to assume that all three vacuum expectation values are of the
+same order; q however, it is also possible that the singlet vev, x, is much larger than the
+usual ν = ν12 + ν22 = 174 GeV. This is in fact quite likely in the light of recent analyses
+where unification of soft terms and gauge couplings is imposed at the GUT scale; the only
+viable scenarios are then found to have x/ν ∼   > 10 with especially large values when the
+
+Higgs sector Yukawa couplings are very small [14]. In such cases, we would expect the
+wall to have a much higher surface energy σ; indeed we find that this is well approximated
+by                                                     ! 
+                                          7    3    k      x 3
+                              σ ≃ 5 × 10 GeV                    ,                         (2)
+                                                   0.1    5ν
+when x is at least a few times larger than ν. This formula is accurate to about a factor
+of 2 in practice and is very good for large x, relative to both the trilinear soft terms and
+to ν.
+    Similarly the thickness of walls is given by
+                                                             !−1         −1
+                                       −2         −1    k            x
+                          δ ≃ 2 × 10        GeV                                          (3)
+                                                       0.1           5ν
+which again is most accurate when x ≫ ν and x ≫ Ak , Aλ . We show an example of a
+wall with large x in Figure 1. In comparison to the cases shown in Ref.[13], we see that
+the wall is thinner and the surface energy higher, as expected.
+    We note that if both Ak and Aλ are zero, then the Z3 symmetry of the scalar potential
+becomes a U(1) symmetry, and so the wall energy falls to zero and its width becomes
+infinite; in this limit however we have an axion problem. We find that if Ak or Aλ are
+greater than a few GeV then the wall energy is insensiteve to their exact values.
+    Immediately after the electroweak phase transition the universe is filled with equal
+volumes of the three degenerate phases. These are correlated on a length scale which
+depend on the nature of the phase transition, varying from ξ ∼ Tc−1 for a second-order
+transition to ξ ∼ H −1 for a strongly first-order transition [9, 15]. Since the probability
+for each vacuum (0.333) is just above the percolation threshold (which for continuum
+percolation theories is found to be 0.295 [16]), the universe is then filled with highly
+convoluted, infinite regions separated by stable domain walls of typical curvature scale ξ,
+which rapidly grows to the size of the horizon.
+    Let us now turn to the dynamics of cosmological networks of such walls. As discussed
+in Ref.[7], the most important forces acting on the walls are surface tension, friction and
+
+                                                  4
+pressure. The equation
+                q      of motion for a quasi-spherical piece of wall moving with velocity
+Ṙ (with γ ≡ 1/ 1 − Ṙ2 ) and having local radius of curvature R, is
+                               d2 R    2   hnpvi   ε
+                                  2
+                                    =− 2 −     3
+                                                 − 3 .                                         (4)
+                               dt     Rγ    σγ    σγ
+    The first term on the RHS reflects the fact that it is energetically favourable for the
+wall network to reduce its surface area through surface tension, and hence small domains
+will collapse, irregularities in the surfaces will straighten out, and the correlation length
+will increase. This term expresses just the conservation of energy in the absence of pressure
+and friction.
+    The second term on the RHS corresponds to friction arising due to the interactions of
+the wall network with the thermal plasma. As particles reflect off the walls, they exert a
+force given by the thermally averaged momentum transfer hnpvi, where n is the particle
+density, v the particle velocity relative to the wall, and p the momentum perpendicular
+to the wall. (Actually the friction is ∝ v only when v ≪ c.) Friction is clearly important
+at times very close to the electroweak phase transition if the top quark and gauge boson
+fields are still in equilibrium in the plasma. At later times, when the number density of
+these particles is exponentially suppressed, the main source of friction is the interaction
+of the walls with lighter fermions in the plasma. The constant difference in phase in
+the mass terms on either side of the wall (i.e. π/3 or 2π/3) does not by itself cause
+any reflection but rather just a phase shift in the fermion masses (as can be checked by
+equating transmission and reflection coefficients at the wall). In order to estimate the
+reflection coefficient, it is useful to describe the space dependent mass by the inverted
+bell-shaped function
+                                                       λ(λ − 1)
+                                 m2 (x⊥ ) = m2 − a2              ,                            (5)
+                                                      cosh2 ax⊥
+where x⊥ is the perpendicular distance from the wall, and m is the mass given to the
+reflecting particle by the Higgs fields which comprise the domain wall of width a−1 . The
+task of finding the reflection coefficient (using the Klein-Gordon equation) then reduces to
+a known problem, the modified Pöschl-Teller potential, which can be solved analytically
+(see for example Ref.[17]). We take the depth of the well to be m2 and the width a−1 ∼
+MW . The depth parameter is λ = (1 + m2 /MW           2
+                                                        ) and the reflection coefficient is then
+found to be
+                                            π 2 m4               m4
+                            |R|2 = 2 4                      ≈         ,                       (6)
+                                   π m + MW     4
+                                                  sinh2 πpa    p2 MW2
+
+where we have taken MW ≫ p ≫ m as is appropriate once the gauge bosons and top
+quark have fallen out of equilibrium. (There is a region at low energy |p| < m2 /MW in
+which the particles experience total reflection [9]. However this contribution is insignif-
+icant here, being suppressed by many powers of m2 /MW .) Clearly particles which are
+heavy, especially the bottom quark, will be more important here. We can estimate the
+friction by considering a particle of mass m, when the wall velocity through the plasma,
+u, is small. Then
+                   d3 p m4 p2⊥
+                                 "                                                         #
+                                        1                       1
+              Z
+  hnpvi = g            3 2 2
+                                                     −                                         ,
+                  (2π) p MW E exp(γE + γup⊥ )/T ) + 1 exp(γE − γup⊥ )/T ) + 1
+                                                                                               (7)
+
+                                               5
+where T is the temperature of the plasma, and g is the number of degrees of freedom of
+the reflecting particles. Expanding this function in u keeping the leading term only and
+performing the angular integral, we find
+
+                                            gu 4 T 2
+                               hnpvi =          T  2
+                                                     F (xm ),                           (8)
+                                            8π 2 MW
+
+where
+                                                                    ex
+                                     Z ∞
+                         F (xm ) =         dx x4m (x2 − x2m )             ,             (9)
+                                      xm                        (ex + 1)2
+and we have defined x ≡ Eγ/T and xm ≡ mγ/T . This integral is very well approximated
+by                                               3
+                             F (xm ) = x5m 0.6e−xm .                            (10)
+Summing over all the particle species in the plasma, we find that
+
+                                                           T4
+                                     hnpvi = f (T ) u           ,                     (11)
+                                                           8π 2
+where f (T ) < 5 × 10−4 at all temperatures. We show f (T ) in Figure 2 where, apart from
+omitting the contribution of the up and down quarks, we have neglected the possible effect
+of the quark-hadron phase transition. In the era when pressure is negligible (i.e. when
+the typical curvature scale is small), we can calculate the terminal wall velocity, uterm ,
+and establish a posteriori that our approximation of small u to obtain eq.(8) is indeed
+correct, i.e. friction is important. Substituting the friction into eq.(4), we find
+
+                                          16π 2   σ
+                                                             
+                                  uterm =              .                              (12)
+                                          f (T ) T 4 R
+
+For typical values of the radius, R ∼ uterm t, we see that friction is important only at
+temperatures above a few hundred MeV. We therefore conclude that shortly after the
+quark-hadron phase transition the walls move with velocities comparable to the speed of
+light and so we may safely neglect friction in what follows.
+    The last term on the RHS in eq.(4) is the pressure corresponding to the difference ε
+in the energy density between the different vacua. As remarked earlier, this will become
+dominant when it exceeds the surface tension, i.e. when
+                                                     σ
+                                             ε>        .                              (13)
+                                                     R
+We show this happening in Figure 3, where we have performed a simple thin wall sim-
+ulation of a network of domain walls using techniques similar to those used in ref.[18],
+and which we have discussed in more detail elsewhere [13]. In the absence of friction it is
+convenient to rescale the parameters with some typical length scale, R0 , which we choose
+to be 1 cm, corresponding approximately to the curvature scale when pressure becomes
+                    5
+dominant if ε ∼ MW    /MPl . Thus defining ρ ≡ R/R0 , and τ ≡ t/R0 , eq.(4) becomes
+
+                                     d2 ρ      2    εR0
+                                          = −     −      .                            (14)
+                                     dτ 2     ργ 2 γ 3 σ
+
+                                                 6
+Thus there are only two independent parameters in our simulation, given by the pressure
+in each of the two false vacua, εR0 /σ. Initially, the walls expand under their own tension,
+and the structure develops in the manner discussed in Refs.[18, 19]. Eventually pressure
+dominates as expected and the entire volume is cleared of walls. This contrasts with the
+no-pressure case, where one or two horizon-sized walls always remain [13]. The behaviour
+for different values of the pressure or surface tension is identical if the time and length,
+respectively, are scaled appropriately.
+    One might consider the possibility that since frictionless, pressureless walls expand
+until there is roughly one wall per horizon scale [9], domain walls may be accomodated by
+simply assuming that our local region of space-time just happens to be empty of them,
+i.e. that there is a wall lurking just outside our present horizon. There are at least two
+objections to this. Firstly the walls eventually come to dominate the energy density of the
+universe, causing unacceptable ‘power-law’ inflation [20], unless their separation is many
+times greater than the present horizon scale, which is clearly impossible by causality.
+Secondly, even such a wall outside the horizon will have a curvature scale comparable to
+the present horizon scale and thus induce unacceptably large anisotropy in the cosmic
+microwave background [21].
+
+
+3     When Walls Collide
+What value of the pressure (i.e. explicit Z3 breaking) is required to safely remove the
+walls? The crudest estimate we can make is simply to insist that the walls are removed
+before they dominate over the radiation energy density in the universe in order to avoid
+wall driven inflation. Since the walls move at close to the speed of light below the quark
+hadron phase transition, their curvature scale will be roughly the horizon size, R ∼
+           1/2
+t ∼ MPl /g∗ T 2 . Since the energy density of the walls is
+                                                    σ
+                                         ρwalls ∼     ,                                   (15)
+                                                    R
+                                             1/2
+and the radiation energy density is ρrad ∼ g∗ T 4 , we see that walls dominate the evolution
+below a temperature
+                                                    !1/2
+                                              σ
+                                    T⋆ ∼    1/2
+                                                         .                              (16)
+                                           g∗ MPl
+To prevent this we require the pressure to have become dominant before this epoch, i.e.
+
+                                            σ    σ2
+                                       ε>      ∼ 2.                                       (17)
+                                            R⋆  MPl
+
+A pressure of this magnitude would be produced by dimension-6 operators in the potential.
+However, one should consider further constraints coming from primordial nucleosynthesis,
+and we find that only operators of dimension-5 or less are sufficient to satisfy these. In fact
+                                                                                 2   1/2  3
+for weak scale walls the time associated with the temperature T⋆ is t⋆ ∼ MPl       /g∗ MW    ∼
+108 sec, i.e. long after nucleosynthesis. The entropy produced when the walls collide
+(which is by now a major proportion of the total entropy in the universe) is dumped into
+all the decay products of neutral Higgs particles, i.e. Standard Model quarks and leptons.
+
+                                              7
+In order to check whether this violates phenomenological bounds, we compute the relative
+energy density released in such collisions, viz.
+                       ρwalls       σ
+                              ∼
+                        nγ         tnγ
+                                                           t 1/2
+                                                      !
+                                                   σ
+                                                              
+                                         −11
+                              ∼ 7 × 10 GeV          3
+                                                                 ,                  (18)
+                                                 MW       sec
+where we have taken the number of relativistic degrees of freedom in the plasma to be
+g∗ = 43/4. Detailed consideration of the effects of high energy particles on primordial
+nucleosynthesis and on the 2.73 K Planckian spectrum of the microwave background ra-
+diation impose severe upper limits on this parameter [22]. For the typical values of σ in
+Figure 1, we find that the walls are required to disappear before the onset of nucleosyn-
+thesis at about 0.1 sec, as otherwise the hadrons in the showers triggered by the decay
+products would alter the neutron-to-proton ratio, resulting in a 4 He mass fraction in ex-
+cess of the conservative observational upper bound of 25% [23]. This means that in order
+not to disrupt primordial nucleosynthesis, we require explicit Z3 breaking of magnitude
+                                               2
+                                      ε ∼ λ′ σMW /MPl ,                               (19)
+with
+                                            λ′ ∼
+                                               > 10−7 .                               (20)
+
+
+4      The Return of the µ Problem
+Having established that one needs dimension-5, Z3 breaking operators to appear in the
+effective potential, we can consider ways in which this can be achieved by adding terms
+to the Kähler potential or superpotential. We first assume that these are ‘minimal’ in the
+sense that they do not contain couplings between the hidden and visible sectors (which
+couple only through gravity). Later we shall consider the most general non-minimal
+case. In all cases we find that there is a naturalness problem associated with the explicit
+breaking of the Z3 symmetry.
+    Let us write down the contributions to the supergravity Lagrangian which explicitly
+break Z3 , and which are invariant under the NMSSM gauge group. These are
+                           N4             N 2 (H1 H2 )              (H1 H2 )2
+                      λ′       ,     λ′                ,       λ′             ,       (21)
+                           MPl                MPl                     MPl
+in the superpotential, and
+                       (N + N † )(Hi H i† )             N † H1 H2 + h.c.
+                                                                             !
+                    αi                      ,         β                  /,           (22)
+                             MPl                              MPl
+in the Kähler potential. As in Ref.[12], we can absorb the last two contributions into the
+                        −1
+superpotential to O(MPl    ) by making the redefinitions
+                                            αi N
+                                                          
+                                   Hi → 1 −       Hi
+                                            MPl
+                                            β(H1 H2 )
+                                   N → N−             ,                               (23)
+                                              MPl
+
+                                                  8
+and so we shall consider only the first three contributions in what follows. Inspecting
+these, we observe that N must be a singlet under any additional symmetry in order
+for any one of these terms to exist in addition to the terms N 3 and NH1 H2 in the low
+energy superpotential. In other words, each of them implies that the following ‘unnatural’
+contribution to the superpotential is invariant
+
+                         δW‘unnatural’ = µ′′ N + µ′ N 2 + µH1H2 .                         (24)
+
+Thus not only have we reintroduced the µ–problem, we now have two additional natural-
+ness problems. Whereas the standard µ–problem may well be solved at a future date (for
+example by the mechanism of Ref.[3]), we shall see that the naturalness problem which
+has reappeared here can have no solution based on an underlying symmetry.
+
+
+5     The Return of the Hierarchy Problem
+As if the difficulties above were not bad enough, there is the possibility of quadratic tadpole
+divergences which can lead to a destabilisation of the hierarchy [12]. This exacerbates
+our problems, since such divergences arise at each order in perturbation theory, forcing
+us to re-fine-tune. These are a potential problem in any supergravity model with gauge
+singlets since the dangerous diagrams are not excluded by gauge invariance.
+    These diagrams arise when supersymmetry is spontaneously broken, because super-
+Weyl-Kähler invariance necessitates that the vev of the Kähler potential become non-
+trivial. In fact [12]
+                                                                        
+                    he2K/3 i ≈ e2K/3 1 + θ2 Ms2 + θ̄2 Ms2 + θ2 θ̄2 Ms4
+                                                  
+                        hφi ≈ φ| 1 + θ2 Ms2 ,                                             (25)
+
+where φ is the chiral compensator, Ms is the scale of supersymmetry breaking in the
+hidden sector, and the RHS refers to only the scalar components. The leading tadpole
+divergences are quadratic and appear at two-loop order for the first two operators in
+eq.(21). In our case, the diagrams responsible are shown in Figures 4a and 4b, and they
+lead to the terms
+                   λ′ k             ∗      2        λ′ k
+                           (φ N + φ N )M  m
+                                        Pl 3/2 +            (FN + FN∗ )MPl m3/2           (26)
+                3(16π 2 )2                       3(16π 2 )2
+and
+                   λ′ λ          ∗       2       λ′ λ
+                      2 2
+                          (φN + φN )MPl m3/2 +      2 2
+                                                        (FN + FN∗ )MPl m3/2               (27)
+                 (16π )                        (16π )
+respectively, where
+               q     we have taken the cut-off to be Λ ∼ MPl and introduced the gravitino
+                    2
+mass m3/2 ∼ Ms /MPl . Here λ and k are the Higgs sector Yukawa couplings defined
+earlier. The third term in eq.(21) gives rise to a divergence at three-loop order as shown
+in Figure 4c and the calculation is a little more tricky. Using the perturbation theory
+rules of Ref.[12], quadratic divergences are indeed found to arise of the form
+
+                                  λ′ λ2 k
+                                           (φN + φ∗N )MPl m23/2                           (28)
+                                 (16π 2 )3
+
+                                               9
+and
+                                      λ′ λ2 k
+                                               (FN + FN∗ )MPl m3/2 ,                     (29)
+                                     (16π 2 )3
+                                                                                        2
+where we have replaced a quadratically divergent three loop integral with a cut-off, MPl  .
+All of these terms naturally q drive the vev of the singlet (and hence of H1 , H2 ) to the
+hidden sector scale, hxi ≈ m3/2 MPl ∼ 1011 GeV. If we wish to avoid the reappearance
+of the hierarchy problem, these terms should be smaller than ∼ (φN + φ∗N )m33/2 or ∼
+(FN + FN∗ )m23/2 . Even for the three loop diagram this requires
+
+                                             λ′ ∼
+                                                < 3 × 10−11 ,                            (30)
+
+where we have taken m3/2 ∼ MW . Clearly this bound is only approximate, since we do
+not know the precise values of the Yukawa couplings λ and k, which we have taken here to
+be of O(1). However, it should also be borne in mind that one would like to have control
+over the scale of electroweak symmetry breaking. That is we do not wish the mass of the
+W to depend strongly on the (unknown) physics at the Planck scale, i.e. on λ′ . In order
+to achieve this, the above bound should be tightened even further.
+    The bound in eq.(30) is clearly incompatible with that in eq.(20) required for successful
+nucleosynthesis, and we conclude that the NMSSM at least in the models with ‘minimal’
+Kähler potentials has either a domain wall problem or a hierarchy problem.
+
+
+6     A Solution to the Hierarchy Problem
+Is it possible that we can solve these problems by allowing the hidden and visible sectors
+to mix? In this section we shall see that the answer is yes for the destabilising divergences,
+but no for the naturalness problem. In other words, we are able to regain perturbative
+control over the scale of electroweak symmetry breaking, but we find, quite generally, that
+certain couplings must be set by hand initially to be small. This leads to a naturalness
+problem of at least one part in 109 .
+    In order to eliminate destablising divergences, we must drop our insistence on mini-
+mality in the Kähler potential, by allowing the hidden and visible sectors to mix. In this
+case models similar to the NMSSM can be constructed. We use a mechanism similar to
+that in ref.[3], and find that models with (standard model) singlets can have naturally
+large N 2 , N 3 and µ terms.
+    The Giudice-Masiero mechanism [3] seeks to solve the µ problem for the MSSM by
+generating it via the Kähler potential. That is we have
+                                                                                    2
+                                          α †                        f (z) + g(y)
+                                                          
+              G = y i yi† + zz † +                             2
+                                             z H1 H2 + h.c. + MPl ln        3
+                                                                                         (31)
+                                         MPl                             MPl
+where the yi fields belong to the visible sector, and the z singlet field belongs to the
+hidden sector. G is Kähler invariant. The label ‘hidden’ is justified when we take the
+“flat” limit MPl → ∞ in the effective potential (keeping Ms2 /MPl fixed), and find that
+the z field, which acquires a vev of O(MPl ), decouples from the visible sector, apart from
+inducing soft SUSY breaking terms and a µ term proportional to α, via gravitational
+couplings. These are all of O(Ms2 /MPl ), where Ms is the aforementioned scale of SUSY
+
+                                                   10
+breaking in the hidden sector which we introduce by hand. Having introduced a new
+coupling between the visible and hidden sectors, we must invoke some symmetry which
+forbids other couplings as well as a coupling MPl H1 H2 in the superpotential. This could
+be a Peccei-Quinn symmetry, a discrete symmetry, or a gauged or global R symmetry.
+In addition the presence of a new symmetry rules out the simplest version of the Polonyi
+model (which in view of its severe cosmological problems [24] might not be such a bad
+thing).
+    For the next-to-minimal choice of Kähler potential above, the terms in the scalar
+potential are
+                                     h                                                        i
+   Vscalar = ĝi ĝ i + m23/2 yi y i + m† y i gi + (A − 3)ĝ (3) + (B − 2)m3/2 µH1 H2 + h.c. ,    (32)
+
+where ĝ (3) are the trilinear terms of the superpotential, rescaled according to
+
+                                  ĝ (3) = hexp (zz † /2MPl
+                                                         2
+                                                            )ig (3) .                             (33)
+
+Here ĝ is the new low energy superpotential including the µ term
+
+                                         ĝ = ĝ (3) + µH1 H2 ,                                   (34)
+
+and m3/2 is the gravitino mass
+                                                       2
+                                  m3/2 = hexp (zz † /2MPl )f (2) i,                               (35)
+
+where the vev of f (2) = Ms2 /MPl is set by hand such that Ms ∼ 1011 GeV. The µ term is
+given by                                     *        +
+                                               MPl fz
+                                   |µ| = αm             .                          (36)
+                                                 f
+Applying the constraint of vanishing cosmological constant, the authors of Ref.[3] found
+
+                                 B = (2A − 3)/(A − 3)
+                                                      √
+                                |µ| = |mα(A − 3)/ 3|,                              (37)
+                                                        √
+where A is the universal trilinear scalar coupling, A = 3hz/MPl i. Now let us apply the
+same mechanism to a model with MSSM singlets, N. The most obvious extension is to
+choose the Kähler potential
+                                                                                          2
+                                          α′ † 2
+                                                                  !
+                             α †                                  f (z) + g(y)
+     G = y i yi† + zz † +       z H1 H2 +                   2
+                                              z N + h.c. + MPl ln        3
+                                                                               ,                  (38)
+                            MPl           MPl                         MPl
+
+where, in this case, f (y) is the superpotential of the NMSSM. The hidden sector field,
+z, has the opposite charge to N under the Z3 symmetry so that the full theory is Z3 -
+invariant. In this case Z3 is broken spontaneously at the Planck scale and the resulting
+domain walls are presumably removed during inflation. The low energy scalar potential
+is
+                             h                                                                      i
+Vscalar = ĝi ĝ i +m2 yi y i +m† y i gi + (A − 3)ĝ (3) + (B − 2)mµH1 H2 + (B − 2)mµ′ N 2 + h.c. ,
+                                                                                              (39)
+
+                                                  11
+where
+
+                                   ĝ = ĝ (3) + µH1 H2 + µ′ N 2
+                                          mα(A − 3)
+                                 |µ| =           √
+                                                   3
+                                               ′
+                                          mα (A − 3)
+                                |µ′ | =          √      .                              (40)
+                                                   3
+Notice that the low energy model has generally far more terms in its low energy lagrangian
+than the NMSSM. The latter (and the Z3 symmetry) is in fact recovered when we let
+α = α′ = 0; thus we can break the Z3 symmetry by as much or as little as we like.
+    Although this model has removed the problem of destabilising divergences (it is now
+no longer possible to write down any of the divergent tadpole diagrams), it does not quite
+solve the naturalness problem (i.e. the presence of small couplings unprotected by any
+symmetry), since there is still the coupling zN which is allowed under the Z3 symmetry,
+and which no other symmetry can forbid. These may be set to zero by hand and will stay
+zero by virtue of the nonrenormalization theorem.
+    One might wonder if by somehow extending the Kähler potential it may be possible
+to exclude these terms. As we now show however, this is not the case, and no matter how
+complicated we make the Lagrangian, the naturalness problem associated with the absence
+of the zN couplings stays with us. Consider the most general supergravity Lagrangian,
+in which the only requirement we make is that the superpotential contains the terms
+                                k abc (ξ)
+                      δg(y) =             Na Nb Nc + λabc (ξ)(H1H2 )ab Nc ,            (41)
+                                   3!3
+where a, b, c are indices representing some symmetry group (discrete or otherwise), and
+the couplings are holomorphic function of the hidden sector fields, ξa = za /MPl . The
+breaking of Z3 symmetry in the visible sector by operators of dimension-5, requires that
+we also include at least one of the operators,
+
+                                   Λab (ξ, ξ̄)Na Nb
+                                   Λab (ξ, ξ̄)(H1 H2 )ab
+                                   Λab
+                                    c (ξ, ξ̄)Na Nb N
+                                                      †c
+
+                                   Λab
+                                    c (ξ, ξ̄)(H1 H2 )ab N
+                                                          †c
+
+                                   Λabcd (ξ)Na Nb Nc Nd
+                                   Λabcd (ξ)Na Nb (H1 H2 )cd
+                                   Λabcd (ξ)(H1H2 )ab (H1 H2 )cd ,                     (42)
+
+where the first four operators give dimension-5 operators if they appear in the Kähler
+potential or superpotential, but the last three operators must appear in the superpotential,
+hence their couplings are holomorphic functions of the hidden sector fields. If we make
+the assumption that the couplings k abc and λabc are invertible, then corresponding to each
+of the operators above, there is an additional invariant operator which is some function
+of the hidden sector fields multiplied by Na . These are, respectively,
+
+                                Λ†ab (k −1 )†abc Nc
+
+                                                 12
+                                Λ†ab (λ−1 )†abc Nc
+                                Λab    −1
+                                  c (k )abd (k )
+                                                  −1 †cde
+                                                           Ne
+                                  ab   −1         −1 †cde
+                                Λc (λ )abd (k ) Ne
+                                Λabcd (k −1 )abe (k −1 )cdf (k −1 )†ef g Ng
+                                Λabcd (k −1 )abe (λ−1 )cdf (k −1 )†ef g Ng
+                                Λabcd (λ−1 )abe (λ−1 )cdf (k −1 )†ef g Ng .              (43)
+
+The least damage to the effective potential occurs if these terms appear in the Kähler
+potential, in which case we find terms of the form
+
+                                       m23/2 MPl φN + h.c.                               (44)
+
+appearing in the effective potential. Thus the natural scale of the singlet vev is ∼ 1011
+GeV and since it should be less than the electroweak scale, this constitutes a naturalness
+problem of at least one part in 109 .
+
+
+7      Conclusions
+Before we conclude there are a few escape clauses which should be mentioned none of
+which however are very appealing:
+
+    1. The most obvious is to introduce the µ term into the superpotential by the mech-
+       anism of Ref. [3] and simply set to zero all of the operators which might give N a
+       large vev. (Although this appears to be rather unaesthetic, one might remark that
+       the naturalness problem which results is no worse than that already with us due to
+       the smallness of Ms compared to the Planck mass. Since the “unnaturalness” is of
+       the same order, it may even be possible to construct the Kähler potential so that
+       the two naturalness problems are connected.)
+
+    2. Alternatively one can invoke inflation at the weak scale to remove all the domain
+       walls, just as has been suggested in the context of other unwanted relics, e.g. string
+       moduli [25]. However such a scenario must be very finely tuned — the domain walls
+       must be adequately diluted without erasing the density perturbations generated by
+       inflation at the GUT scale [26]). (Although density perturbations are also generated
+       during weak scale inflation, the small value of the Hubble parameter would make
+       these too small to account for the microwave background anisotropies observed by
+       COBE.) Secondly, the reheat temperature must be high enough for both successful
+       baryogenesis and nucleosynthesis. We are not aware of any compelling candidate
+       for the required scalar field.
+
+    3. The Z3 symmetry could be broken at a high scale, Mcontrived , in the visible sector and
+       explicit Z3 breaking terms induced. This is similar to the solution to the hierarchy
+       problem discussed earlier, with the “advantage” that the fine tuning is driven by
+       Mcontrived rather than MPl . However this will still entail a fine tuning of approxi-
+       mately one part in 1012 , since in order for the walls to be inflated away, Mcontrived
+       should exceed the inflationary scale of ∼ 1014 GeV as deduced from normalisation
+
+                                                 13
+     to the COBE data [26]. Otherwise one would have to invoke a second epoch of
+     inflation at an intermediate scale, with its own attendant problems (see above).
+
+  4. The Z3 symmetry could be made anomalous by adding extra fields to the theory
+     which couple to SU(3)c (for example an additional generation). In this case the
+     symmetry is broken non-perturbatively at the quark-hadron phase transition, and
+     the walls collapse very soon thereafter [27]. However, it is difficult to see how this
+     constitutes a solution to fine-tuning, since at the same time it seems to preclude a
+     solution to the strong CP problem as discussed in Ref.[27].
+
+  5. The Z3 symmetry could be embedded in a continuous gauge or global group which is
+     broken at some high scale. This is the Lazarides-Shafi mechanism [29], in which the
+     apparent discrete symmetry is a subgroup of the centre of the continuous group. In
+     this case only U(1), SU(3n) (where n is an integer) and E6 are suitable candidates
+     (see for example Ref.[28]). After the electroweak phase transition, one expects only
+     a network of walls bounded by strings to form and then quickly collapse [29].
+
+    To summarize, we have shown that the domain wall problem in the NMSSM causes
+it to be ruled out on cosmological grounds unless we break the Z3 symmetry of the
+model explicitly. The breaking may be driven by terms which are non-renormalisable
+and have no direct effect on the low energy theory. However their introduction will in
+general generate terms which destabilise the hierarchy. In models with “minimal” Kähler
+potentials, we have shown that there are no non-renormalisable operators which can be
+added to the superpotential with a coefficient which is simultaneously large enough to
+solve the cosmological problem and small enough to avoid reintroducing the hierarchy
+problem. Furthermore, if any of these operators are allowed by the symmetries of the
+theory at the supergravity scale, then there is no possible symmetry which could prevent
+the existence of an operator zN in the superpotential whose coefficient must be ∼ < 10−17 .
+
+If we allow mixing between the hidden and visible sectors, the reintroduction of the
+hierarchy problem can be avoided, and the naturalness problem can be formulated in a
+way very similar to the µ problem in the MSSM. However, even here we must arbitrarily
+select coefficients of certain dangerous operators to be of O(10−9 ) or less once we have
+aranged for a µ parameter of a reasonable size, and we have also reintroduced the µ
+problem which the model was at least partly designed to solve. Thus we conclude that
+the parameters in the NMSSM must be very strongly fine tuned if we wish to avoid both
+the cosmological problems associated with domain walls and the hierarchy problem, and
+hence that the model suffers from severe naturalness problems.
+
+
+Acknowledgements: We would like to thank Graham Ross for encouraging us to
+undertake this study and for many discussions. We are also grateful to H. Dreiner,
+U. Ellwanger, E.W. Kolb and M. Rausch de Traubenberg for their criticism and comments,
+and especially to J. Bagger for discussions concerning destabilising divergences.
+
+
+
+
+                                            14
+References
+ [1] For reviews see, H.P. Nilles, Phys. Rep. 110 (1984) 1;
+     H.E. Haber and G.L. Kane, Phys. Rep. 117 (1985) 75.
+ [2] L. Hall, J. Lykken and S. Weinberg, Phys. Rev. D27 (1983) 2359;
+     J.E. Kim and H.P. Nilles, Phys. Lett. B138 (1984) 150;
+     K. Inoue, A. Kakuto and T. Takano, Prog. Theor. Phys. 75 (1986) 664;
+     A.A. Ansel’m and A.A. Johansen, Phys. Lett. B200 (1988) 331
+ [3] G. Giudice and A. Masiero, Phys. Lett. B206 (1988) 480
+ [4] P. Fayet, Nucl. Phys. B90 (1975) 104;
+     H.-P. Nilles, M. Srednicki and D. Wyler, Phys. Lett.B120 (1983) 346;
+     J.-M. Frere, D. R. T. Jones and S. Raby, Nucl. Phys. B222 (1983) 11;
+     J.-P. Derendinger and C. A. Savoy, Nucl. Phys. B237 (1984) 307;
+     L. Durand and J. L. Lopez, Phys. Lett. B217 (1989) 463;
+     M. Drees, Intern. J. Mod. Phys. A4 (1989) 3645;
+     J. Ellis, J. Gunion, H. Haber, L. Roszkowski and F. Zwirner, Phys. Rev. D39 (1989) 844
+ [5] J. Espinosa and M. Quiros, Phys. Lett. B279 (1992) 92; ibid B302 (1993) 51
+     U. Ellwanger and M. Lindner, Phys. Lett. B301 (1993) 365;
+     U. Ellwanger and M. Rausch de Traubenberg, Z Phys C53 (1992) 521;
+     U. Ellwanger, Phys. Lett. B303 (1993) 271;
+     G. Kane, C. Kolda and J. Wells, Phys. Rev. Lett. 70 (1993) 2686;
+     T. Elliott, S.F. King and P.L. White, Phys. Lett. B305 (1993) 71; ibid B314 (1993) 56
+     P.N. Pandita, Phys. Lett. B318 (1993) 338; Z Phys C59 (1993) 575;
+     T. Elliott, S.F. King and P.L. White, Phys. Rev. D49 (1994) 2435;
+     U. Ellwanger, M. Rausch de Traubenberg and C.A. Savoy, hep-ph/9502206;
+     F. Franke and H. Fraas, Phys. Lett. B336 (1994) 415; hep-ph/950427
+ [6] B.R. Greene and P.J. Miron, Phys. Lett. B168 (1986) 226;
+     R.A. Flores, K. Olive and D. Thomas, Phys. Lett. B263 (1991) 425;
+     K. Olive and D. Thomas, Nucl. Phys. B335 (1991) 192;
+     S.A. Abel, S. Sarkar and I.B. Whittingham, Nucl. Phys. B392 (1993) 83
+ [7] Ya.B. Zel’dovich, I.Yu. Kobzarev and L.B. Okun, Sov. Phys. JETP 40 (1975) 1
+ [8] T.W.B. Kibble, J. Phys. A9 (1976) 1387; Phys. Rep. 67 (1980) 183
+ [9] A. Vilenkin, Phys. Rep. 121 (1985) 263;
+     A. Vilenkin and E.P.S. Shellard, Cosmic Strings and Other Topological Defects (Cambridge
+     University Press, 1994)
+[10] B. Holdom, Phys. Rev. D28 (1983) 1419;
+     B. Rai and G. Senjanovic, Phys. Rev. D49 (1994) 2729
+[11] J. Ellis, K. Enqvist, D. V. Nanopoulos, K. Olive, M. Quiros and F. Zwirner, Phys. Lett.
+     B176 (1986) 403
+[12] U. Ellwanger, Phys. Lett. B133 (1983) 187;
+     J. Bagger and E. Poppitz, Phys. Rev. Lett. 71 (1993) 2380;
+     J. Bagger, E. Poppitz and L. Randall, hep-ph/9505244;
+     V. Jain, hep-ph/9407382
+
+                                              15
+[13] S.A. Abel and P.L. White, hep-ph/9505241
+
+[14] U. Ellwanger, M. Rausch de Traubenberg and C.A. Savoy, Phys. Lett. B315 (1993) 331;
+     Ph. Brax, U. Ellwanger and C.A. Savoy, Phys. Lett. B347 (1995) 269;
+     U. Ellwanger, M. Rausch de Traubenberg and C. A. Savoy, hep-ph/9502206;
+     T. Elliott, S.F. King and P.L. White, Phys. Lett. B351 (1995) 213;
+     S.F. King and P.L. White, hep-ph/9505326
+
+[15] H. Hodges, Phys. Rev. D39 (1989) 3557
+
+[16] D. Stauffer, Phys. Rep. 54 (1979) 1;
+     B. Lorenz, I. Orgzall and H.-O. Heuer, J. Phys. A26 (1993) 4711
+
+[17] S. Flügge, Practical Quantum Mechanics (Springer Verlag, 1971)
+
+[18] L. Kawano, Phys. Rev. D41 (1990) 1013
+
+[19] W.H. Press, B.S. Ryden, D.N. Spergel, Astrophys. J. 347 (1989) 590; ibid 357 (1990) 293
+
+[20] D. Seckel, Inner Space–Outer Space, eds. E.W. Kolb et al (University of Chicago Press,
+     1986) p 367
+
+[21] L.P. Grischuk and Ya.B. Zeldovich, Sov. Astron. 22 (1978) 125
+
+[22] J. Ellis et al , Nucl. Phys. B373 (1992) 399;
+     W. Hu and J. Silk, Phys. Rev. Lett. 70 (1993) 2661;
+     S. Sarkar, Oxford preprint OUTP-95-16P (submitted to Rep. Prog. Phys.)
+
+[23] M.H. Reno and D. Seckel, Phys. Rev. D37 (1988) 3441;
+     S. Dimopoulos, R. Esmailzadeh, L.J. Hall and G.D. Starkman, Nucl. Phys. B311 (1989)
+     699
+
+[24] G.D. Coughlan, W. Fischler, E.W. Kolb, S. Raby and G.G. Ross, Phys. Lett. B131 (1983)
+     59
+
+[25] L. Randall and S. Thomas, hep-ph/9407248;
+     D.H. Lyth and E.D. Stewart, hep-ph/9502417
+
+[26] K.A. Olive, Phys. Rep. 190 (1990) 307;
+     A. Liddle and D. Lyth, Phys. Rep. 231 (1993) 1.
+
+[27] J. Preskill, S.P. Trivedi, F. Wilczek and M.B. Wise, Nucl. Phys. B363 (1991) 207
+
+[28] J.E. Kim, Phys. Rep. 150 (1987) 1
+
+[29] G. Lazarides and Q. Shafi, Phys. Lett. B115 (1982) 21;
+     S.M. Barr, D.B. Reiss and A. Zee, Phys. Lett. B116 (1982) 227
+
+
+
+
+                                             16
+Figure Captions
+Figure 1a,b
+An example of a wall configuration with the singlet vev x = 10ν. Here we have chosen tan β = 2,
+λ = k = 0.2, Ak = Aλ = 200GeV. Total surface energy density is 8.6 × 108 GeV3 . Figure 1a
+shows the values of the three scalar fields as a function of position; Figure 1b shows the energy
+density in the wall relative to the vacuum.
+Figure 2
+The function f (T ) (see eq.12) related to friction plotted against temperature, as discussed in
+the text.
+Figure 3
+A typical example of the evolution of the wall network with pressure. The figure shows the
+wall network at four times separated by intervals of 10−10 sec, with a pressure of term of order
+σMW 2 /M , beginning at the time when pressure starts to dominate the evolution.
+          Pl
+Figure 4a,b,c
+The three dangerous diagrams for each of the three operators which can destabilise the hierarchy.
+
+
+
+
+                                               17
+                                                                         Figure 1a
+                                     1800                                                                     1800
+
+
+                                     1600                                                                     1600
+
+
+                                     1400                                                                     1400
+
+
+
+
+absolute magnitude of fields (GeV)
+                                     1200                                                                     1200
+
+
+                                     1000                                                                     1000
+
+
+                                     800                                                                      800
+
+
+                                     600                                                                      600
+
+
+                                     400                                                                      400
+
+
+                                     200                                                                      200
+
+
+                                       0                                                                       0
+                                       -0.02   -0.015   -0.01   -0.005      0        0.005   0.01   0.015   0.02
+
+                                                                         z (GeV-1)
+                                                                Figure 1b
+                              4                                                                      4
+
+
+                             3.5                                                                     3.5
+
+
+                              3                                                                      3
+
+
+
+
+energy density (1011 GeV4)
+                             2.5                                                                     2.5
+
+
+                              2                                                                      2
+
+
+                             1.5                                                                     1.5
+
+
+                              1                                                                      1
+
+
+                             0.5                                                                     0.5
+
+
+                              0                                                                       0
+                              -0.02   -0.015   -0.01   -0.005      0        0.005   0.01   0.015   0.02
+
+                                                                z (GeV-1)
+                            Figure 2
+       0.0006
+
+
+
+       0.0005
+
+
+
+       0.0004
+
+
+
+f(T)   0.0003
+
+
+
+       0.0002
+
+
+
+       0.0001
+
+
+
+       0.0000
+            1e+02   1e+03              1e+04   1e+05
+                            T (MeV)
+Figure 3
+N     N         N   H1     N         H2
+
+
+
+
+      N                    N
+
+
+
+
+    Figure 4a            Figure 4b
+H2 H1       H2 H1
+
+
+   N          N
+
+        N
+
+
+
+
+    Figure 4c
+

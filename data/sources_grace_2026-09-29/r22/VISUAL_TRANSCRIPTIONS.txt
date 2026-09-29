@@ -1,0 +1,49 @@
+VISUAL TRANSCRIPTIONS -- R22 domain-wall pins
+Rendered with pdftoppm; transcribed by eye from the PNGs in png/. 2026-09-29 12:17 EDT.
+The text layer of the ZKO scan (zko_jetp_raw.txt) is OCR and garbles every formula; the transcriptions below are authoritative for formulas.
+
+=== ZKO 1974, Sov. Phys. JETP 40, 1 (file zko_jetp_e_040_01_0001.pdf) ===
+
+[Z-V1] png/zko_p-1.png, Sec. 2, model Lagrangian (bottom left):
+  L = (1/2)(d phi)^2 - lambda^2 (phi^2 - eta^2)^2 + psi-bar( i d-slash - m - i g gamma_5 phi ) psi
+  "Here phi is a pseudoscalar field, psi is the baryon field and lambda and eta are real parameters."
+  "<phi> = sigma eta, where sigma = +-1" ; m_chi = 2 sqrt(2) lambda eta.
+  NOTE convention: ZKO's quartic is lambda^2 (not lambda/4). ZKO's "sigma" is the vacuum sign, NOT the wall tension; ZKO call the tension mu.
+
+[Z-V2] png/zko_p-2.png, Sec. 3 "PROPERTIES OF THE DOMAIN WALLS":
+  "the thickness of a boundary layer at rest (we shall call this layer a wall) is Delta ~ 1/m_chi ~ 1/(lambda eta), and its surface density is mu ~ lambda eta^3 [footnote 2]."
+  kink: phi = eta th( sqrt(2) lambda eta x )
+  mu = Integral [ (1/2)(grad phi)^2 + lambda^2 (phi^2 - eta^2)^2 ] dx
+  mu = sqrt(2) lambda eta^3 Integral_{-inf}^{+inf} (ch xi)^{-4} d xi = (4 sqrt(2)/3) lambda eta^3
+  "The quantity mu could be called surface tension."
+
+[Z-V3] png/zko_p-3.png, Sec. 5 (right column):
+  "the potential Phi has a discontinuity in its derivative equal to G mu, so that the change of potential within a cell of size L is of the order delta Phi = G mu L."
+  "(delta T/T < 10^-3). The gravitational redshift should yield delta T/T ~ alpha delta Phi."  "In general alpha < 1, but probably alpha > 0.05"
+  "Thus it is necessary that G mu L << 1."
+  "Substituting epsilon = mu/L = 1/(G t^2), L = G t^2, we arrive at the conclusion that t_2 < 1/(mu G) = t_1."
+  "...necessary that the superficial density of walls be mu < 0.1 g/cm^2, which seems unrealistic from the viewpoint of the theory of elementary particles, since it corresponds to lambda >~ 10^3 [sic; rendered '\lambda \gtrsim 10^3'] for m_chi ~ m_p"
+  Left column: "T = m, L = m^-1, epsilon = T^4 = m^4, t_0 = 1/(m^2 sqrt(G)) = t_n^2/t_G" ; "t_1 = 1/(G m^3) = t_n^3/t_G^2 = t_0 t_n/t_G ~ 10^14 sec."
+
+[Z-V4] png/zko_p-5.png footnote 2: "We utilize units with hbar = c = 1."
+
+=== Saikawa, Universe 3 (2017) 40, arXiv:1703.02576v2 (file saikawa_1703.02576.pdf) ===
+[S-V1] png/saikawa_p-06.png (pdf p.6): Eq. (2.19)
+  t_dom = 3 M_Pl^2 / (4 A sigma)  ~= 2.93 x 10^3 sec A^-1 ( sigma / TeV^3 )^-1
+  [A = calligraphic-A "area parameter", Eq. (2.17) rho_wall(t) = A sigma / t ; (2.18) A ~= 0.8 +- 0.1]
+[S-V2] png/saikawa_p-07.png (pdf p.7): Eqs. (2.20)-(2.24)
+  (2.20) R(t) propto t^2
+  (2.21) delta rho / rho ~ rho_wall / rho_c ~ G sigma t_0 ~ 10^12 ( sigma / TeV^3 )
+  (2.22) sigma^{1/3} <~ O(MeV)
+  (2.23) Delta V(phi) = epsilon v phi ( (1/3) phi^2 - v^2 )
+  (2.24) V_bias = V(-v) - V(+v) = (4/3) epsilon v^4
+[S-V3] Eq. (2.2) V(phi) = (lambda/4)(phi^2 - v^2)^2 ; Eq. (2.6) sigma = Int dz T_00 = (4/3) sqrt(lambda/2) v^3   (text layer legible; checked against png/saikawa_p-03/04.png)
+
+=== Battye, Pilaftsis, Viatic, arXiv:2010.09840 = PRD 102 (2020) 123536 (file battye_pilaftsis_viatic_2010.09840.pdf) ===
+[B-V1] png/bpv2020_p-07.png (pdf p.7, printed "-6-"): Eqs. (3.1)-(3.3)
+  (3.1) E = Int_{-inf}^{inf} calE(x) dx
+  (3.2) calE(x) = (1/2)(dv1/dx)^2 + (1/2)(dv2/dx)^2 - (1/2) mu1^2 v1^2 - (1/2) mu2^2 v2^2 + (1/4) lambda1 v1^4 + (1/4) lambda2 v2^4 + (1/4) lambda~345 v1^2 v2^2
+  (3.3) rho_dw = A E-hat M_h v_SM^2 t^-1 ,   v_SM = sqrt(v1^2 + v2^2)
+[B-V2] png/bpv2020_p-08.png (pdf p.8): (3.6) 8 pi A E-hat M_h v_SM^2 / (3 H0^2 t0 Mpl^2) < 1 ; (3.7) A E-hat < 3 H0^2 t0 Mpl^2 / (8 pi M_h v_SM^2) ~= 3.6 x 10^-12
+  [B-V3] png/bpv2020_p-09.png (pdf p.9, printed "-8-"): "energy per unit area, E = M_h v_SM^2 E-hat where M_h = 125 GeV and v_SM = 246 GeV".
+  Fig. 1 right panel (tan beta = 1): E-hat axis runs 0.28 -- 0.44 over cos(alpha-beta) in [0,1] for M_H = 100, 200, 400 GeV (read off plot; not a printed number).

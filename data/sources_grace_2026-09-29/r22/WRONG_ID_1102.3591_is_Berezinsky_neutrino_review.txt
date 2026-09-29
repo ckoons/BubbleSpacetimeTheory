@@ -1,0 +1,478 @@
+                                                                                                                                                     Nuclear Physics B
+                                                                                                                                                       Proceedings
+                                                                                                                                                       Supplement
+                                                                              Nuclear Physics B Proceedings Supplement 00 (2018) 1–8
+
+
+
+
+                                                                                High Energy Neutrino Astronomy
+
+                                                                                                      V. Berezinsky
+                                                                           INFN - Laboratori Nazionali del Gran Sasso, I–67010 Assergi (AQ), Italy
+
+
+
+
+arXiv:1102.3591v1 [astro-ph.HE] 17 Feb 2011
+                                              Abstract
+                                                 The short review of theoretical aspects of ultra high energy (UHE) neutrinos. The accelerator sources, such as
+                                              Supernovae remnants, Gamma Ray Bursts, AGN etc are discussed. The top-down sources include Topological Defects
+                                              (TDs), Superheavy Dark Matter (SHDM) and Mirror Matter. The diffuse fluxes are considered accordingly as that of
+                                              cosmogenic and top-down neutrinos. Much attention is given to the cascade upper limit to the diffuse neutrino fluxes
+                                              in the light of Fermi-LAT data on diffuse high energy gamma radiation. This is most general and rigorous upper limit,
+                                              valid for both cosmogenic and top-down models. At present upper limits from many detectors are close to the cascade
+                                              upper limit, and 5 yr IceCube upper limit will be well below it.
+                                              Keywords: High Energy Neutrinos, Diffuse Gamma Radiation, Ultra High Energy Cosmic Rays
+
+
+                                              1. Introduction                                                        Detection of neutrino jets with energies above 1020 −
+                                                                                                                  1021 eV means discovery of Topological Defects, im-
+                                                 Many neutrino telescopes, using different technique              portant objects in standard cosmology.
+                                              of observation, were searching for High Energy (HE)                    Registration of HE neutrinos from the center of the
+                                              cosmic neutrinos during last 30-40 years. Among ex-                 Sun or Earth indicate the annihilation of Dark Matter
+                                              isting neutrino telescopes there are deep underwater/ice            (DM) particles there.
+                                              detectors (Baikal, ANTARES, IceCube, NESTOR), Ex-                      Mirror matter can be discovered with help of oscilla-
+                                              tensive Air Shower detectors (Auger and HiRes) and                  tion mirror neutrinos into visible ones.
+                                              radio-telescopes: ANITA-lite, RICE, GLUE, FORTE
+                                              and others. Even bigger projects include JEM-EUSO
+                                                                                                                  2. Basics of HE neutrino astrophysics
+                                              and Super-EUSO.
+                                                 Why is there such great interest to HE neutrinos?
+                                                                                                                     We summarize here some basic features of HE neu-
+                                                 HE neutrinos can provide us with most important in-              trino astrophysics.
+                                              formation in physics and astrophysics.
+                                                 Detection of HE neutrinos from SN remnants will                  Production of UHE cosmic neutrinos
+                                              prove that these objects are sources of galactic cosmic             occurs in pp and pγ collisions of UHE protons with the
+                                              rays (CR) and the Standard Model of Galactic Cosmic                 target nuclei and with low-energy photons. They can be
+                                              Ray origin will be confirmed.                                       also produced by annihilation of DM particles and by
+                                                 Jet models of Gamma Ray Bursts (GRBs) and Active                 decays of superheavy particles. In all these cases neu-
+                                              Galactic Nuclei (AGN) can be proved.                                trinos are produced in the chain of pion decays.
+                                                 Detection of cosmogenic neutrinos can clarify the                UHE neutrino sources
+                                              origin of Ultra High Energy Cosmic Rays (UHECR)                     are subdivided into accelerator and top-down sources,
+                                              and determine the model of transition from galactic to              where neutrinos are produced in decays and annihilation
+                                              extragalactic CRs.                                                  of heavy particles. The examples of such sources are
+                              V. Berezinsky / Nuclear Physics B Proceedings Supplement 00 (2018) 1–8                           2
+
+given by annihilation of neutralinos in the Sun and Earth            neutrinos is Earth-skimming effect [12], due to which
+[1], by topological defects (for a review see [2]), which            the Auger observatory obtained the upper limit on UHE
+produce superheavy unstable particles, and by decays of              τ- neutrino flux [13].
+quasi-stable superheavy DM particles [3].                               Z-bursts provide a signal from the space, caused by
+   Usually HE neutrinos are accompanied by other ra-                 the resonant Z 0 production by UHE neutrino on DM
+diations, most notably by HE gamma-rays and cos-                     neutrino [14], ν + ν̄DM → Z 0 → hadrons. The en-
+mic rays (CR). There are, however, so called “hid-                   ergy of the detected neutrino must be tremendous: E0 =
+den sources” where all accompanying radiations are                   m2Z /2mν ∼ 1024 eV.
+strongly or fully absorbed. The examples of such ob-                 Neutrino oscillations
+jects are the Sun and Earth, in center of which neutrali-            play the essential role. The neutrino flavors ν̄e and ντ are
+nos annihilate. Another ideal example is given by mir-               inefficiently produced in the accelerator sources. The
+ror matter, where all mirror particles interact with visi-           flavor oscillation ν̄µ ↔ ν̄e and νµ ↔ ντ can equalize the
+ble matter gravitationally, and only mirror neutrinos can            fluxes of these neutrinos. The oscillation length L(E) is
+oscillate into visible ones. The almost “hidden” source              given by
+is given by the Stecker model [4] of AGN, where UHE                                                        10−4 eV2 !
+                                                                                   4πE              E
+photons and protons are mostly absorbed or confined,                      L(E) =         = 8.0                           pc
+and only HE neutrinos emerge from there.                                           ∆m2           1010 GeV      ∆m2
+   In [5] a hidden neutrino source is produced in evo-               where ∆m2 are 2.4 × 10−3 eV2 and 7.7 × 10−5 eV2
+lution of stellar cluster at its contraction. Collisions of          for atmospheric and solar neutrino oscillations, respec-
+neutron stars at the center of a cluster produce a rarefied          tively. Thus oscillation length is very short for cosmic
+cavity filled by ultra-relativistic fireballs from colliding         distances and neutrino oscillations are very efficient. If
+neutron stars. The cavity is surrounded by thick gas en-             neutrino flux is produced by decays of pions and muons
+velope produced by destructed stars. All HE particles,               with ratio π+ /π− = 1, the initial neutrino flavor ratio
+such as protons, gamma and X-rays are absorbed in the                is νe : νµ : ντ = 1 : 2 : 0, and the observed flavor
+thick envelope, and only UHE neutrinos escape.                       ratio (after oscillation) is νe : νµ : ντ = 1 : 1 : 1
+   Recently, the ultra-relativistic jet surrounded by the            (equipartition). This is the case of neutrinos produced
+envelope of collapsing star is considered [6] as hidden              in pp-collisions. In case of pγ pion production ν̄e can
+UHE neutrino source.                                                 be strongly suppressed, but flavor equipartition after os-
+   There are also some other more conventional exam-                 cillation is approximately holds. Many cases of flavor
+ples of astrophysical hidden sources [7, 8].                         ratios with different conditions (e.g. neutron decay and
+                                                                     survival, muon survival etc are studied in [15].
+Neutrino detection                                                      The matter neutrino oscillations in the sources and in
+includes four remarkable reactions:                                  the Earth can also occur (see e.g. [6]).
+Muon production νµ + N → µ + all gives an excellent
+tool to search for the discrete sources, since directions            HE neutrinos from early universe.
+of UHE muon and neutrino coincide.                                   One might think (and many did think) that large neu-
+                                                                     trino fluxes can be produced at cosmological epochs
+Resonant production of W-boson, ν̄e +e → W − → ν̄µ +µ                with large red shift z, e.g. due to decay of superheavy
+(the Glashow resonance [9]) and ν̄e + e → W − →                      particles and production by topological defects. In fact,
+hadrons [10] have the large cross-sections. For the prac-            this possibility is disfavored [16, 17] by absorption of
+tical applications the latter reaction is more important             HE neutrinos and by nucleosynthesis bound on their
+since it results in production of monoenergetic showers              fluxes. Neutrinos are absorbed in νν̄ collisions with big-
+with energy E0 = m2W /2me = 6.3 × 106 GeV [10] and                   bang neutrinos and horizon of observation for neutrinos
+can be observable in IceCube and future 1 km3 under-                 with energy Eν0 (at present) is given by redshift
+water detectors.
+Tau production in a detector, ντ + N → τ + hadrons, is                            zabs = 7.9 × 104 (Eν0 /1 TeV)−1/3 .
+characterized by time sequence of three signals [11]: a              Neutrino fluxes produced at large z (e.g. by topological
+shower from prompt hadrons, the Cherenkov light from                 defects) are strongly restricted by production of D and
+τ and hadron shower from τ-decay. UHE ντ are ab-                     3
+                                                                       He at the epochs after Big Bang nucleosynthesis. Neu-
+sorbed less in the Earth due to regeneration: absorbed               trinos cause e-m cascades and MeV photons from these
+ντ is converted into τ, which decays producing ντ again.             cascades produce D and 3 He in collisions with 4 He nu-
+Another remarkable phenomenon produced by UHE τ-                     clei.
+                             V. Berezinsky / Nuclear Physics B Proceedings Supplement 00 (2018) 1–8                          3
+
+3. Astrophysical (accelerator) sources                              the spectrum assumed to be ∝ 1/E 2 . Neutrinos are
+                                                                    produced in pγ collisions with GRB photons. All es-
+   Protons are assumed to be accelerated mostly by the
+                                                                    timates are very transparent and follow from assump-
+shocks and produce neutrinos in pp and pγ collisions.
+                                                                    tion that the energy outputs in GRB photons, acceler-
+HE neutrinos from SN remnants
+                                                                    ated protons and produced neutrinos are about the same:
+Detection of HE neutrinos from SN remnants is one of                Wν ∼ W p ∼ WGRB . Then the total number of neutrinos
+the most important tasks of HE neutrino astronomy, and              with energy E per burst is
+this task looks perfectly realistic for IceCube and other
+1 km3 detectors. Acceleration of protons and nuclei in                                               WGRB
+                                                                                     Nν (E) ∼                  E −2 ,
+SN remnants (SNRs) is the basic element of the Stan-                                             ln Emax /Emin
+dard Model for Galactic CR (see e.g. [18]). These
+                                                                    where Emin and Emax are minimum and maximum ac-
+sources successfully explain the spectra and fluxes of
+                                                                    celeration energy, respectively. Now one can express
+CR observed in our Galaxy, and the knee is interpreted
+                                                                    the flux of neutrinos from a single GRB, in terms of
+as the end of Galactic CR. Accelerated protons interact-
+                                                                    neutrino fluence S ν :
+ing with the gas in a SNR must emit gamma-rays and
+neutrinos through production and decays of neutral and                                           1       Sν
+charged pions. HE gamma rays are detected from sev-                             Fνµ +ν̄µ (E) =                      E −2 ,
+                                                                                                 3 ln (Emax /Emin )
+eral SNRs, but from most of them the signal is compat-
+ible with the bremsstrahlung or Inverse Compton pro-                and calculate the number of muons produced in 1 km3
+duction by HE electron. There are in some cases the                 detector per burst as
+indications to the hadronic gamma-rays (i.e. produced                                   Z
+by neutral pions born in pp-collisions), however in all                        Pµ = Nn dE Fνµ +ν̄µ (E) σνN (E),
+these cases one still may argue in HE electron produc-
+tion of the observed signal. Detection of HE neutrino
+                                                                    where Nn = 6 × 1038 is the number of nucleons in
+signal gives unambiguous prove of pion production by
+                                                                    the detector and σνN is νµ N - cross-section. For S ν ∼
+accelerated protons.
+                                                                    10−5 erg/cm2 , with frequency of bursts as in Fermi GRB
+   There are at least two SN remnants, W28 and W44,
+                                                                    Monitor Ṅb ∼ 500 yr−1 , one finds the number of pro-
+for which the evidence for hadronic gamma-ray signal
+                                                                    duced muons with E ≥ 10 TeV for 5 yr as Pµ Ṅb t ∼ 0.06,
+is rather strong. For both of them gamma-radiation is
+                                                                    i.e. too low for detection by IceCube.
+produced in a nearby dense molecular cloud. Gamma
+                                                                       The diffuse flux is estimated in identical way through
+radiation from W28 was observed by AGILE detector
+                                                                    the local neutrino emissivity Lν (0) and evolutionary
+at E > 400 MeV [19], and by Fermi-LAT [21] and
+                                                                    factor kevol
+H.E.S.S [20] at higher energies. The proof is based on
+spectral characteristics and molecular cloud as the tar-                                     1 cH0−1   Lν (0)
+get. The case of W44 observed by Fermi-LAT is simi-                         Jνµ +ν̄µ (E) =                        kevol ,
+                                                                                             3 4π E ln Emax /Emin
+                                                                                                     2
+lar: gamma-radiation is observed from dense cloud ring
+around W44 [22].                                                    where evolutionary factor is given by
+   SNRs discussed above are candidates for detectable                              Z zmax
+                                                                                             dz           fevol (z)
+neutrino fluxes by IceCube. Another candidate for the                      kevol =                                    .
+                                                                                          (1 + z) 2
+                                                                                                      (1 + z)3 Ωm + Λ
+                                                                                                    p
+detected hadronic gamma-rays SNR RX J1713.7-3946                                    0
+was analyzed in [23] for detectable neutrino flux. The
+authors accurately recalculated the observed gamma-                 For the evolutionary function fevol (z) we take the case of
+ray flux, assuming its hadronic origin, to HE neutrino              strong star-formation evolution from [26], which results
+flux, and found that it corresponds to 2 - 3 events per             in kevol = 7.0 as a maximum value. For the emissivity
+year at energy above 1 TeV for a detector as IceCube.               we use
+Gamma Ray Bursts.                                                          Lν (0) ≤ LGRB (0) = 0.6 × 1043 erg/Mpc3 yr,
+GRBs are most exiting sources of UHE neutrinos. There               where the local GRB emissivity is taken from [27]. The
+are two mechanisms of HE neutrino generation. In the                most recent estimate 0.5 × 1043 erg/Mpc3 yr [28] agrees
+first one [24] particles are accelerated by external shock          with the value above. For more detailed discussion see
+and neutrinos are produced in pγ collisions with GRB                [29].
+photons behind the shock. In the second mechanism                      As a result E 2 Jνµ +ν̄µ (E) = 1.15 eV/cm2 s sr, i.e. 25
+[25] protons are accelerated by internal shocks, with               times lower than sensitivity of IceCube shown in Fig.4.
+                               V. Berezinsky / Nuclear Physics B Proceedings Supplement 00 (2018) 1–8                                      4
+
+   GRB neutrinos are detectable by IceCube in case the
+hadronic energy output is an order of magnitude higher
+than one observed in photons, but it further strength-
+ens the energetic deficit in GRB models. From observa-
+tional point of view the signature of neutrino observa-
+tion is very reliable due to time and direction correlation
+with gamma-radiation.
+HE neutrinos from AGN jets.
+The models of HE neutrino production in the AGN jets
+are very similar to that for GRBs. The protons are ac-
+celerated by the multiple shocks in the AGN jets, es-
+pecially in their inner parts. Neutrinos are produced in
+the collisions with photons from the accretion disc and
+from photons produced in the jet by accelerated elec-
+trons and protons. Neutrino flux from individual AGN                  Figure 1: Diffuse all-flavor neutrino spectrum from necklaces for
+is very small, but the diffuse flux is predicted to be de-            mX = 1 × 1014 GeV [3]. The thick curve gives p + γ flux normal-
+                                                                      ized to the AGASA UHECR data. If to normalize the proton flux in
+tectable by IceCube detector. The estimates can be per-               this figure by HiRes data all curves, including one labeled ν (neutrino
+formed similar to those in subsection above. One can                  flux), should be lowered by factor 3 - 5.
+found the detailed calculations in [30, 31, 32].
+HE neutrinos from galaxy clusters [33].                               decays of superheavy particles with the masses up to
+The clusters of galaxies are able to confine the UHE                  MGUT ∼ 1016 GeV. Neutrino spectrum can be approxi-
+particles for a time exceeding the age of the universe.               mately described at highest energies as dE/E 2 .
+This is the key phenomenon which makes galaxy clus-
+ters the powerful sources of UHE neutrinos. The parti-                Neutralino annihilation in the Sun and Earth.
+cles are accelerated in clusters by various mechanisms:               Neutralino is the best motivated DM particle. Cross-
+in the normal galaxies by SN shocks, in AGN and cD-                   ing the Sun or Earth a neutralino can loose its energy
+galaxies, in the process of galactic merging etc. The                 in collisions with nuclei and diminish its velocity below
+diffuse HE neutrino flux is determined entirely by basic              the escape velocity. If it happens, a neutralino becomes
+parameters characterizing the clusters. In particular, for            gravitationally trapped in the object, and loosing further
+the lower limit of the diffuse flux provided by normal                their energies, neutralinos are accumulated in the cen-
+galaxies in a cluster with CR luminosity L p and gen-                 ter of a celestial body [1]. Annihilating there they pro-
+eration index γg , both taken as ones in our galaxy, the              duce short-lived hadrons, e.g. D-mesons, which decay
+diffuse flux is given as                                              to neutrinos. The process of annihilation strongly de-
+                                                                      pends on neutralino mass and composition (mixture of
+                                    Ng                                basic fields: zino, bino and two higgsinos).
+               Jν (E) ∝ L p E −γg          ξΩb ρcr ,
+                                    R3cl                              Superheavy Dark Matter (SHDM)
+where Rcl ∼ 2 Mpc is the virial radius of a cluster,                  The first proposal of SHDM [34] was motivated by Ul-
+Ng ∼ 100 is richness of a cluster, ρcr is critical cos-               tra High Energy Cosmic Rays (UHECR) and by natu-
+mological density, and ξΩb is cosmological baryonic                   ral character of DM production at the epochs soon af-
+density provided by clusters. The flux is marginally                  ter inflation. In particular SHDM particles can be pro-
+detectable by IceCube.                                                duced gravitationally [35], when the Hubble parame-
+                                                                                                              > mX . The ob-
+                                                                      ter H(t) exceeds the particle mass H(t) ∼
+                                                                      served density of DM in the universe Ωcdm ≈ 0.23, de-
+                                                                      termines the mass of the particle as mX ∼ 1013 GeV.
+4. Non-accelerator neutrino sources                                   The SHDM particles (X-particles) can be stable (due to
+                                                                      e.g. discrete gauge symmetry) or quasi-stable (due to
+  These sources include objects with annihilation of                  superweak discrete gauge symmetry breaking). The en-
+DM (the Sun, Earth, cores of the galaxies), objects                   ergy spectrum of produced particles has approximately
+with the decays of SHDM particles (galactic halos) and                power-law form at the highest energies ∝ E −1.9 [3]. The
+TDs. In the last two cases neutrinos are produced in the              dominant decay particles are photons and neutrinos. As
+                                    V. Berezinsky / Nuclear Physics B Proceedings Supplement 00 (2018) 1–8                          5
+
+                                                                           reach the tremendous energies.
+                                                                           Superconducting strings
+                                                                           can be powerful sources of neutrinos. In a wide class of
+                                                                           elementary particle models, strings behave like super-
+                                                                           conducting wires. The charge carriers are massless in-
+                                                                           side the string and superheavy outside. Moving through
+                                                                           cosmic magnetic fields, such strings develop electric
+                                                                           current. When the current reaches the critical value, the
+                                                                           charge carriers escape from a string, turn into massive
+                                                                           mode and decay. This process is strongly enhanced near
+                                                                           the cusps due to the Lorentz boost. The decay prod-
+                                                                           ucts, in particular neutrinos, are emitted isotropically in
+                                                                           a frame of cusp segment at rest, and propagate in the
+                                                                           laboratory system as a very narrow jet with the opening
+Figure 2: UHE neutrino flux in the dip model with AGN as the sources       angle ϑ ∼ 1/Γ. This scenario was analyzed numerically
+of UHECR. The cosmological evolution of AGN with m = 2.7 up to             in [38] with two main model features included. First,
+zc = 1.2 is taken from X-ray observations of AGN. At larger z the          from all known structures of the universe, the excita-
+evolution is frozen up to zmax = 2.0. The fit of the dip is very good,
+                                                                           tion of electric current occurs most efficiently in clus-
+though requires γg = 2.52 different from the non-evolutionary case
+m = 0. The neutrino fluxes are given for one neutrino flavor.              ters of galaxies for which the magnetic field reaches
+                                                                           B ∼ 10−6 G and filling factor f ∼ 10−3 . Second, the
+                                                                           symmetry breaking scale of order 109 − 1012 GeV must
+                                                                           be assumed for detectable neutrino fluxes. The typical
+any cold DM, X-particles are accumulated in the halos
+                                                                           Lorentz factor of the radiating cusp segment is calcu-
+of galaxies, in particular in our galaxy with overdensity
+                                                                           lated to be Γc ∼ 1012 , and the maximum energy of emit-
+2.1 × 105 . One can expect the detectable fluxes of UHE
+                                                                           ted particle can reach Γc η ∼ 1022 GeV. The neutrino
+photons and neutrinos from the Galactic Center region.
+                                                                           spectrum is assumed ∝ 1/E 2 , similar to ∝ E −1.9 [3].
+Topological defects (TDs).                                                 The spectrum E 2 Jν (E) =const can be very close to the
+TDs are fundamental cosmological objects. They are                         E −2 -cascade upper limit in Fig.4.
+produced in early universe due to symmetry break-                          Necklaces (monopoles connected by string)
+ing accompanied by the phase transitions. In many                          are produced in the G → H × U(1) → H × Z2 sequence
+cases TDs become unstable and decompose to con-                            of symmetry breaking, with each monopole being at-
+stituent fields, superheavy gauge and Higgs bosons (X-                     tached to two strings, and a loop reminds a necklace
+particles), which then decay producing UHE neutrinos                       with monopoles playing the role of beads. In the pro-
+(see [2, 36] for the reviews).                                             cess of evolution the strings shrink due to gravitational
+Ordinary strings are produced by U(1) symmetry break-                      radiation and M M̄ pairs in the necklace inevitably an-
+ing. There are several mechanisms by which ordinary                        nihilate. This model is most plausible and well devel-
+strings can emit HE neutrinos: collapse of the string                      oped for UHE neutrino production. Diffuse neutrino
+loops, self-intersection, annihilation of cusps, produc-                   flux from necklaces are shown in Fig. 1 according to
+tion and annihilation of tiny loops. In most cases pro-                    calculations in [3].
+duced neutrino fluxes are too low for detection. More
+promising scenario is given by the radiation of X-                         5. Cosmogenic neutrinos
+particles through the cusp, a peculiar point where ve-
+locity reaches velocity of light. This point appears on a                    Starting from pioneering work [39] the fluxes of cos-
+loop during each period. The points of the loop in the                     mogenic neutrinos have been calculated in many works
+cusp region have distribution in values of the Lorentz                     [40] - [49]. The predicted fluxes differ very consider-
+factors Γ from a maximum value in the cusp point to                        ably, depending on the assumptions about mass com-
+Γ = 1. The particles escaping through a cusp region are                    position of accelerated particles, on maximum energy
+boosted by these Lorentz factors. Recently, such case                      of acceleration and on cosmological evolution of the
+has been considered in [37]. The bosonic (Higgs) con-                      sources. We present here the UHE neutrino fluxes
+densate in a string loop, emits Higgses through the cusp,                  calculated in the dip model for the observed UHECR
+and due to the Lorentz factor boost, these particles can                   [29, 50], assuming AGN as the sources [51]. This
+                                     V. Berezinsky / Nuclear Physics B Proceedings Supplement 00 (2018) 1–8                                    6
+
+
+
+
+Figure 3: Evolution factor kev , which describes increasing of neutrino     Figure 4: The experimental upper limits on UHE neutrino fluxes in
+flux due to cosmological evolution of the sources. The evolution fac-       comparison with e-m cascade upper limit in assumption of E −2 gen-
+tor is shown as function of zmax for different indices γg and parameters    eration spectrum (curve E −2 cascade) and with predictions for cos-
+of evolution m. The evolution factor kev is large for large m and zmax .    mogenic neutrinos in the dip model (curves dip-min and dip-AGN),
+                                                                            for neutrinos from necklaces and from SHDM. Neutrino fluxes from
+                                                                            necklaces and SHDM are normalized by AGASA data, and for nor-
+model is valid for the proton-dominated composition of                      malization by HiRes data the fluxes should be diminished by fac-
+                                                                            tor 3 - 5. Neutrino flux from superconducting strings is given by
+UHECR, based on observations of HiRes. The pair pro-                        E 2 J(E) =const and it can reach the upper limit ’E −2 cascade’. Neu-
+duction dip is a feature of interaction of extragalactic                    trino fluxes are given for three flavors.
+UHE protons propagating through CMB. It is caused by
+energy losses of protons due to p + γCMB → e+ + e− + p
+scattering. This feature in proton spectrum is well con-                    6. Cascade upper limit on diffuse neutrino flux
+firmed by observational data [29, 50].
+    To calculate neutrino flux produced by UHE protons                         The e-m cascade upper bound puts the rigorous up-
+it is enough to know the generation rate of UHE protons                     per limit on UHE neutrino flux [53, 8]. This limit, in
+at each cosmological epoch. We take it as Q(E)(1 + z)m ,                    contrast to WB upper limit [54], is valid for both ac-
+where Q(E) ∝ E −γg and (1+z)m describes the cosmolog-                       celerator and non-accelerator neutrinos. The produc-
+ical evolution of the sources up to some maximal red-                       tion of neutrinos is accompanied by production of high
+shift zmax . In calculations we consider two cases: with-                   energy photons and electrons from pion decays. Col-
+out evolution when we have only one free parameter,                         liding with low-energy target photons, a primary pho-
+the generation index γg , and evolutionary scenario with                    ton or electron produces e-m cascade due to reactions
+three free parameters γg , m and zmax . We must fit the                     γ + γtar → e+ + e− , e + γtar → e0 + γ0 , etc. The cascade
+observed HiRes spectrum with one calculated at z = 0.                       spectrum in its high-energy part is proportional to E −2 ,
+In non-evolutionary scenario the best fit with very good                    which is very close to the EGRET observations in the
+χ2 is given by γg = 2.7. For the fit with evolutionary                      range 10 MeV - 100 GeV [55]. The observed energy
+model we assume AGN as the sources and take the AGN                         density in this range is ωEGRET ≈ (2 − 3) × 10−6 eV/cm3 .
+evolution from X-ray observations [52]: (1 + z)m with                       The cascade energy density must be ωcas ≤ ωEGRET ,
+m = 2.7 up to zc = 1.2, and frozen evolution from zc                        and it limits diffuse neutrino flux. The situation has
+to zmax = 2. The generation index is fixed as γg = 2.52                     dramatically changed with the new data of Fermi-LAT
+for the best fit of HiRes data (see Fig. 2). One may no-                    [56] on the flux and spectrum of diffuse extragalac-
+tice that the theoretical dip automatically describes the                   tic gamma-radiation. In comparison with EGRET this
+ankle at E ≈ 5 × 1018 eV. The calculated one-flavor neu-                    flux is lower and spectrum is steeper (∝ E −2.4 ). It re-
+trino fluxes for the AGN evolutionary model are shown                       sults in stronger upper limit on the cascade energy den-
+in Fig. 2 for two values of Emax .                                          sity ωcas ≤ 5.8 × 10−7 eV/cm3 [57], which severely
+    The evolution is able to increase strongly the neutrino                 diminishes the allowed UHE neutrino fluxes [57, 58].
+flux. The increase of the flux is given by the evolution                    The maximally allowed cascade energy density ωmax    cas ≈
+factor kev , which depends on m, zmax and γg . This de-                     5.8 × 10−7 eV/cm3 provides the upper limit on the inte-
+pendence is shown in Fig. 3.                                                gral UHE neutrino flux Jν (> E) (sum of all flavors). It
+                                 V. Berezinsky / Nuclear Physics B Proceedings Supplement 00 (2018) 1–8                        7
+
+is given by chain of the following inequalities                            The concept of mirror matter, as first was suggested
+                                                                        by Lee and Yang [59], consists in existence of sector
+            4π ∞
+               Z                       Z ∞
+                                  4π                                    of matter fully symmetric with ordinary one and gen-
+     ωcas >         EJν (E)dE >      E      Jν (E)dE
+             c E                   c    E                               erated by space-reflection transformation. Kobzarev,
+                                                                        Okun and Pomeranchuk [60] added the basic assump-
+where ωcas < ωmax cas , and the integral in rhs of Eq. (6)              tion that these two sectors communicate only gravita-
+gives the integral spectrum of neutrinos J(> E). Thus,
+                                                                        tionally. The gravitational interaction results in mixing
+this equation gives the upper limit on the integral neu-
+                                                                        of mirror and ordinary neutrinos and their oscillations
+trino flux, which can be expressed in terms of the upper
+                                                                        [61]. In two-inflaton cosmological model [62] the mir-
+limit on differential neutrino spectrum Jν (E) as
+                                                                        ror matter is suppressed, while mirror TDs can strongly
+                     c max                                              dominate. Mirror TDs copiously produce mirror neutri-
+     E 2 Jν (E) <     ω .                                    (1)
+                    4π cas                                              nos with extremely high energies, which oscillate into
+   Eq. (1) gives the rigorous upper limit on the neutrino               visible ones, while all other mirror particles, which ac-
+flux. It is valid for neutrinos produced by HE protons,                 company production of mirror neutrinos, remain invis-
+by topological defects, by annihilation and decays of su-               ible for our detectors. Therefore, the upper limits on
+perheavy particles, i.e. in all cases when neutrinos are                HE neutrinos in our world do not exist and their fluxes
+produced through decay of pions and kaons. It holds for                 can be above the upper limit shown in Fig. 4. Neutri-
+arbitrary neutrino spectrum falling down with energy. If                nos from TDs typically have very high energies and one
+one assumes some specific shape of neutrino spectrum,                   can see that fluxes of discussed neutrinos are now very
+the cascade limit becomes stronger. For E −2 genera-                    severely constrained by ANITA-lite data [63].
+tion spectrum, which is used for analysis of observa-
+tional data one obtains the stronger upper limit. Given                 7. Conclusions
+for three neutrino flavors it reads
+                                                                           UHE neutrinos are expected to solve many problems
+                     c     ωmax                                         in astrophysics and cosmology. Detection of HE neu-
+     E 2 Jν (E) ≤            cas
+                                       ,                     (2)
+                    4π ln(Emax /Emin )                                  trinos from SNRs by IceCube is needed for confirma-
+This upper limit is shown in Fig. 4.                                    tion of Standard Model for GCRs. UHE neutrinos from
+   The most interesting energy range in Fig. 4 corre-                   GRBs will clarify the nature of these most unusual and
+sponds to Eν > 1021 eV, where acceleration cannot                       controversial objects. As far as HE radiation is con-
+provide protons with sufficient energy for production of                cerned, this is true for AGN, too.
+these neutrinos. At present the region of Eν > 1021 eV,                    The diffuse UHE neutrino radiation is presented by
+and Eν  1021 eV is considered as a signature of top-                   cosmogenic and top-down neutrinos, in particular neu-
+down models, which provide these energies quite natu-                   trinos from TDs. The fundamental problem of astro-
+rally.                                                                  physics involved in cosmogenic neutrinos is acceler-
+   As one can see from Fig. 4 the observational upper                   ation of particles. The shock acceleration at present
+limit for IceCube after 5 yr of observations will be be-                knowledge of its theory cannot provide Emax higher than
+low the cascade upper limit. Crossing it, this detec-                   1021 − 1022 eV, and thus energies of cosmogenic neutri-
+tor will enter the physically allowed region of neutrino                nos cannot exceed 3 × 1020 eV. TDs naturally produce
+fluxes, and it can be regarded as historical event. The                 neutrinos emitted from cusps with energies by many or-
+WB upper limit is not relevant for UHE neutrinos: it is                 ders of magnitude higher. Detection of neutrinos with
+not valid for top-down scenarios because proton produc-                 these energies mean discovery of new physics.
+tion is strongly suppressed for top-down sources, and it                   Cascade upper limit is very general bound valid for
+is very uncertain for cosmogenic neutrinos, where for                   both cosmogenic and top-down neutrinos. This upper
+the same proton flux the fluxes of accompanying neu-                    limit became stronger with new Fermi-LAT data on ex-
+trinos may differ by one-two orders of magnitudes (see                  tragalactic HE diffuse gamma-radiation. From all exist-
+Fig. 2). However, the WB upper bound remains the con-                   ing detectors only IceCube reached the sensitivity be-
+venient low-flux benchmark for detection of neutrino                    low the cascade upper limit (see Fig. 4) and entered the
+fluxes.                                                                 physically allowed region for detectable neutrino fluxes.
+                                                                        It can be considered as historical event for HE neutrino
+Mirror matter and mirror neutrinos.                                     astronomy.
+Mirror neutrinos give the only example of fluxes not                       The flux of cosmogenic neutrinos can be large only in
+limited by the cascade upper limit.                                     case UHECR are proton-dominated. Even in this case
+                                  V. Berezinsky / Nuclear Physics B Proceedings Supplement 00 (2018) 1–8                                     8
+
+the flux is detectable if maximum acceleration energy                    [30] A. Atoyan and C.D. Dermer, Ap. J. 586 (2003) 79.
+Emax is large and sources have strong cosmological evo-                  [31] A. Atoyan and C.D. Dermer, New Astron. Rev. 48 (2004) 381.
+                                                                         [32] C.D. Dermer et al., New J.Phys. 11 (2009) 065016.
+lution (see [57, 58]).                                                   [33] V. Berezinsky, P. Blasi, V. Ptuskin, Astroph. J. 487 (1997) 529;
+   Cosmogenic neutrinos of highest energies are de-                           P. Blasi and S. Colafrancesco, Astropart. Phys. 122 (1999) 169;
+tectable by future experiment JEM-EUSO in rather ex-                          D. DeMarco et al., Phys. Rev. D 73 (2006) 043004.
+treme models with large Emax and strong cosmological                     [34] V. Berezinsky, M. Kahelriess, and A. Vilenkin, Phys. Rev. Lett.,
+                                                                              79 (1997) 4302;
+evolution (see [57, 58]).                                                     V.A. Kuzmin and V.A. Rubakov, Yad. Fiz. 61 (1998) 1122;
+   The search for UHE neutrinos in any case is a search                       D.J.H. Chung, E.W. Kolb, and A. Riotto, Phys. Rev. D 60 (1999)
+for a new physics, either for astrophysics (the new accel-                    063504.
+eration mechanisms and cosmological evolution of the                     [35] D.J.H. Chung, E.W. Kolb, and A. Riotto, Phys. Rev. D 59 (1998)
+                                                                              023501;
+sources) or for topological defects, mirror topological                       V. Kuzmin and I. Tkachev, JETP Lett. 68 (1998) 271.
+defects and superheavy dark matter.                                      [36] V. Berezinsky, Nucl. Phys. B (Proc. Suppl) 75A (1999) 119.
+                                                                         [37] T. Vachaspati, arXiv:0911.2655.
+                                                                         [38] V. Berezinsky, K. Olum, E. Sabancilar and A. Vilenkin, Phys.
+8. Acknowledgments                                                            Rev. D 80 (2009) 023014.
+                                                                         [39] V. S. Berezinsky and G. T. Zatsepin, Phys. Lett., B 28 (1969)
+  I am grateful to Askhat Gazizov for many discussions                        423; V. S. Berezinsky and G. T. Zatsepin, Soviet Journal of Nu-
+                                                                              clear Physics 11 (1970) 111.
+and help in preparing the figures.                                       [40] R. Engel, D. Seckel and T. Stanev, Phys. Rev., D 64 (2001)
+                                                                              093010.
+                                                                         [41] O. E. Kalashev, V. A. Kuzmin, D. V. Semikoz and G. Sigl, Phys.
+References                                                                    Rev. D 66 (2002) 063004.
+                                                                         [42] Z. Fodor, S. Katz, A. Ringwald and H. Tu, JCAP 0311 (2003)
+ [1] W.H. Press and D.N. Spergel, Ap.J 296 (1985) 679.                        015.
+ [2] P. Bhattacharjee and G. Sigl, Phys. Rep. 327 (2000) 109.            [43] V. Berezinsky, A. Gazizov and S. Grigorieva, Proc. of 11th Int.
+ [3] R. Aloisio, V. Berezinsky, M. Kachelrieß, Phys. Rev. D 69                Workshop “Neutrino Telescopes”ed. M. Baldo-Ceoilin p. 339
+     (2004) 094023.                                                           (2005), astro-ph/0509675.
+ [4] F.W. Stecker et al, Phys. Rev. Lett., 66 (1991) 2697;               [44] D. Hooper, A. Taylor, S. Sarkar, Astropart.Phys. 23 (2005) 11.
+ [5] V. Berezinsky and V. Dokuchaev, Astrop. Phys. 15 (2001) 87.         [45] M. Ave et al., Astropart.Phys. 23 (2005) 19 .
+ [6] S. Razzaque, A.Yu. Smirnov, JHEP 03 (2010) 031.                     [46] D. Seckel, T. Stanev, Phys. Rev. Lett. 95 (2005) 141101 (2005).
+ [7] V. Berezinsky, C. Castagnoli, P. Galeotti, Niovo Cim. C, 8          [47] T. Stanev, astro-ph/0808.1045.
+     (1985) 185.                                                         [48] D. Allard et al., JCAP 0609 (2006) 005 .
+ [8] V. S. Berezinsky, S. V. Bulanov, V. A. Dogiel, V. L. Ginzburg       [49] K. Kotera, D. Allard, A. Olinto, arXiv:1009.1382.
+     and V. S. Ptuskin, Astrophysics of Cosmic Rays, North-Holland       [50] V. Berezinsky, A. Gazizov, S. Grigorieva, Phys. Lett. B 612
+     1990.                                                                    (2005) 147.
+ [9] S.L. Glashow, Phys. Rev. D 118 (1960) 316.                          [51] V. Berezinsky, A. Gazizov, S. Grigorieva, arXiv:astro-
+[10] V.S. Berezinsky and A.Z. Gazizov, JETP Lett., 25 (1977) 254.             ph/0210095.
+[11] J. Learned and S. Pakvasa, Astropart. Physics, 3 (1995) 267.        [52] Y. Ueda et al, Astroph. J., 598 (2003) 886;
+[12] D. Fargion, Ap.J. 570 (2002) 909.                                        A. J. Barger et al, Astron. J., 129 (2005) 578.
+[13] J. Abraham et al. [The Pierre Auger Collaboration], Phys. Rev.      [53] V. Berezinsky and A. Smirnov, Ap. Sp. Sci., 32 (1975) 461.
+     Lett. 100 (2008) 211101.                                            [54] E. Waxman and J. Bahcall, Phys. Rev. D 59 (1999) 023002 .
+[14] T. Weiler, Astropart. Phys. 11 (1999) 303.                          [55] P. Sreekumar et al. [EGRET collaboration], Astroph. J. 494
+[15] S. Pakvasa, W. Rodejohann, T. Weiler, JHEP, 0802:005 (2008).             (1998) 523.
+[16] V. Berezinsky, Nucl. Phys. B 380 (1992) 478 .                       [56] A.A. Abdo et al., [Fermi-Lat collaboration], Phys. Rev. Lett. 104
+[17] R. Protheroe, T. Stanev, V. Berezinsky, Phys. Rev. D 51 (1995)           (2010) 101101.
+     4134.                                                               [57] V. Berezinsky, A. Gazizov, M. Kachelrieß, S. Ostapchenko,
+[18] E.G. Berezhko and H.J. Völk, Ap.J. 661 (2007) L175.                     arXiv:1003.1496.
+[19] A. Giuliani et al [AGILE Collaboration], arXiv:1005.0784.           [58] M. Ahlers et al., Astropart. Phys. 34 (2010) 106;
+[20] F. Aharonian et al, Astron.Astroph. 481 (2008) 401.                      arXiv:1005.2620.
+[21] A.A. Abdo et al [Fermi Collaboration] arXiv: 1005.4474.             [59] T.D. Lee and C.N. Yang, Phys. Rev. 104 (1956) 254.
+[22] A.A. Abdo et al [Fermi Collaboration], Science, 327 (2010)          [60] V. Kobzarev, L. Okun, I. Pomeranchuk, Sov. J. Nucl. Phys. 3
+     1103.                                                                    (1966) 837.
+[23] F. Vissani, G. Pagliaroli, F. Villante, arXiv:0912.4580.            [61] Z.G. Berezhiani and R.N. Mohapatra, Phys. Rev. D 52 (1995)
+[24] M. Vietri, Phys. Rev. Lett. 80 (1998) 3690.                              6607,
+[25] E. Waxman and J. Bahcall, Phys. Rev. Lett. 78 (1997) 2292.               V. Berezinsky, M. Narayan, and F. Vissani, Nucl. Phys. B 658
+[26] S.D. Wick, C.D. Dermer, A.Atoyan, Astropart. Phys. 21 (2004)             (2003) 254.
+     125.                                                                [62] V. Berezinsky and A. Vilenkin, Phys. Rev. D 62 (2000) 083512.
+[27] Maarten Schmidt, Astroph. J. 559 (2001) L79 and private com-        [63] P. Gorham et al. [ANITA-lite collaboration] Phys. Rev. D 82
+     munication 2002.                                                         (2010) 022004.
+[28] D. Eichler, D. Guetta, M. Pohl, arXiv:1007.3742
+[29] V. Berezinsky, A. Gazizov, S. Grigorieva, Phys. Rev. D 74
+     (2006) 043005.
+

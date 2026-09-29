@@ -1,0 +1,654 @@
+Cosmological consequences of a spontaneous breakdown of a
+discrete symmetry
+Va. 8. Zel'dovich, I. Yu. Kobzarev, and L. B. Okun'
+Institute for Applied Mathematics. USSR Academy of Sciences
+(Submitted January 31, 1974)
+Zh. Eksp. Teor. Fiz. 67, 3-11 (July 1974)
+In theories involving spontaneous symmetry breakdown one may expect a domain structure of the
+vacuum. Such a structure does not exist near a cosmolgical singularity, when the temperature is
+above the Curie point, but this structure must appear later during the cosmological expansion and
+cooling down. We discuss the properties of the domain interfaces and of the space with domains in
+the large, the law of cosmological expansion in the presence of domains, and the influence of
+domains of the homogeneity of the Universe at a late stage.
+
+1. INTRODUCTION
+Recently field-theoretical models with spontaneous
+symmetry breakdown have been used for the construction of a unified theory of weak and electromagnetic
+interactions [I, 21. Within the framework of these models
+attempts have been made, in particular, to understand
+such phenomena as the violation of CP-invariance [3,41.
+Below we shall discuss possible cosmological and astrophysical consequences of such models on the example of a simple model of violation of CP-invariance.
+We recall that the violation of 8P-invariance, discovered in 1964 in the decay of KL -mesons, has so far
+.10t shown up in the decay of any other -particle. The
+nature of the interaction which violates the CP-invariance remains mysterious. All experimental data do not
+contradict the assumption of a superweak interaction
+(with dimension-less coupling constant of the order of
+10'13), although other possibilities are not excluded,
+e.g., a milliweak interaction (with a coupling constant
+of the order of ~ 10'9). The model which we are going
+to discuss belongs to the type of milliweak interactions.
+In this model the initial Lagrangian is CP-invariant,
+and the CP-violation is a consequence of the fact that
+there are two minimal-energy states, each of which
+has its own nonvanishing classical field (Condensate).
+The interactions of these fields with the particles is
+CP-noninvariant. Such a mechanism is called a mechanism of spontaneous symmetry breakdown.
+The problem of cosmological consequences of a
+spontaneous symmetry breakdown has been considered
+earlier by several authors (cf. the review article b)'
+Grib, Damaskinskii and Maksimov[6]). Bogolyubov[7]
+has remarked, in particular, that in this case it is
+natural to ex~ect the existence of vacuum domains.
+Kirzhnits[s,9 has called attention to the fact that
+during the early stages of the hot (big-bang) Universe
+the spontaneously broken symmetry is reestablished
+and the intermediate Bosons in the Weinberg Model
+become massless. T. D. Lee has noted that the Sign of
+the condensate, which determines the signs of the
+CP-noninvariant phases in observable phenomena, turns
+out to take on 011e or the other of its values in a random
+manner, becoming fixed durin~ the early stages of
+cooling down of the Universe l5 .
+2. THE LAGRANGIAN AND THE TWO VACUA
+We discuss the problem of establishing the sign of
+the CP-noninvariant phases, and the domain structure
+of the vacuum which appears as a consequence, on the
+example of the mode 1 Lagrangian [5 I I)
+1
+-"
+.
+!l' = -(J<p) '_A' (<p'-T)')'+¢(iJ-m-,g1,<p) 1jJ.
+2
+SOy. Phys.-JETP, Vol. 40, No.1
+
+Here cp is a pseudoscalar field, zjJ is the baryon field
+and !\. and TJ are real parameters.
+The Lagyanglan~variant. However, the
+vacuum is characterized by one of the two classical
+solutions, each by itself being CP-noninvariant;
+( cp) = aTJ, where a = ± 1 (the brackets denote the vacuum
+expectation value). This leads to a violation of the CPinvariance of each of the two possible Lagrangians
+which result when one goes over to a stable vacuum. Indeed, substituting cP = X + aTJ and carrying out the rotation
+1jJ .... exp (ic'1') 1jJ,
+
+tg 2a.=-gcrf]/m,
+
+we have
+1
+,1, ,
+'3"
+( ."
+igm
+g'crT))
+!l'=z(Jy.l- 2 m,x·-4crAf]X-Ax+;P!J-M-M"'1'X- M X 1jJ,
+
+where
+M=l'm'+g'T)',
+
+m,=2l'2AT).
+
+The simultaneous presence in the Lagrangian of the two
+last terms which have opposite CP-symmetry exhibits
+the CP-violation, for which the Sign of the phase depends on the sign a. Thus, a x-meson exchange between
+baryons leads to violation of CP- and T-invariance in
+baryon-baryon scattering. Our model Lagrangian contains no strange particles. However, it is not difficult
+to include them and to derive CP-violating effects in
+the decays of K mesons.
+We now discuss the parameters!\. and TJ which
+occur in the Lagrangian. The first is dimensionless and
+characterizes the degree of nonlinearity of the theory;
+the second has the dimension of mass and characterizes
+the amplitude of the classical condensate. The quantity
+mX = 2"ff:ATJ can hardly be much smaller than several
+Ge V. In particular the possibility of existence of light
+X mesons, e.g., with mass mX S 1 MeV, is excluded.
+The existence of such light X particles would lead to
+the result that the emission of real X particles would
+be much more probable than the observed CP-noninvariant processes between the usual particles, where
+X mesons participate only as virtual particles. Such
+a possibility is excluded, e.g., by the data from a
+search for the mode K+ _11" + light neutral particle.
+The upper bound for the rate of this mode is smaller
+than 4 x 10' 6(K+) (cLl101).
+As regards the parameter!\., it is reasonable to
+consider A S 1 within the framework of our approach.
+The occurence of A » 1 in the renormalized Lagrangian seems unlikely. At any rate, the tree approximation becomes illegitimate for!\. » 1 and one must take
+account the contribution from loops. Taking this into
+account we come to the conclusion that 11:;: 1.
+Copyright © 1975 American Institute of Physics
+
+In the simplest version of the theory the quantity
+is random and depends on the evolution history. One
+may then assume that there are regions with (J = +1
+and (J =-1, i.e., with opposite signs of the CP-violation.
+The signs of all the CP-noninvariant effects in these
+regions are opposite to one another and,
+particular
+so .is the sign of the parameter E in the KL decay.
+(J
+
+\9
+
+3. PROPERTIES OF THE DOMAIN WALLS
+We consider the boundary between two such regions.
+A large energy density must appear here. Minimizing
+it, we find that the thickness of a boundary layer at
+rest (we shall call this layer a wall) is D. ~ 1/mJ( ~1/A1),
+and its surface density is JJ. ~ A3 2).
+The classical wave equation for the field qJ in vacuo,
+in the stationary case (a cp/at = 0) has the form
+()
+
+11(jJ=-A.2 «(jJ'-1]')'.
+{)(jJ
+
+This equation has the trivial, coordinate-independent
+solutions cp = 0, cp = -1), cp = +1), of which the first is
+unstable. It is easy to find the solution describing the
+transition layer between cp = -1) and cp = +1), namely:
+
+'1'=1] th 1'2>-1]x
+for a layer situated in the yz-plane. The Lagrangian
+!f' has been chosen in such a manner that in the regions
+cp = -17 and cp = 1) the energy density vanishes identically. In the transition layer there is some additional
+energy proportiollal to the area, with superficial density fl
+Il =
+
+J H-(V<p)2 H 2(<p2_1]2)2] dx.
+
+Substituting the solution, we obtain
++41'2
+1l=1'2A1]'J (ch s)-' ds = 3A.1]'·
+
+One can verify that, in agreement with the general
+principles, the solution minimizes the integral which
+expresses JJ. for given values of cp = ±:rJ at x = ±oo.
+The quantity JJ. could be called surface tension. In a
+generally covariant notation TOOdV = JJ.S, where S is
+the area of the separation surface which falls into the
+integration region. Without a formal proof we list the
+consequences of this. If the boundary is situated in the
+x = const. plane, then
+
+f
+
+JT dV JT" dV=-l'S.
+w
+
+=
+
+The other components of the stress tensor vanish, in
+particular Rxx = O. The integral Tttdn =-fl (t is a
+tangent direction and n is the normal to the surface) is
+obviously the total tension on the surface: force per
+unit length.
+
+f
+
+The separation surface is invariant with respect to
+tangential motion. Let, in the rest system of the surface,
+Il =
+
+JToo dn= - JT" dn, JT" dn=O.
+
+Under a Lorentz boost along the surface with speed v:
+
+(S Too dn )' = l~v' [J Too dn+v' JT" dn ] = JToo dn,
+(J T" dn ) '= 1~V2 [S Too dn + JTil dn ] = 0 = S1'" dn,
+(J T" dn )' = 1~v' [ v' JT,," dn + JT" dn ] = JT" dn.
+
+However, a motion along the normal to the surface
+(speed w) is quite observable. Carrying out the appropriate Lorentz transformation we obtain
+(SToodn ),,=1'!l'1-W 2 ,
+
+(J T,,,dn )"=IlW!l'1-W2,
+
+(J T""dn)"=l'W'1Y1-W'.
+The other (tangential) components do not change. Curved
+portions of the surface undergo a normal acceleration,
+equal to (in units with c = 1) the mean curvature
+d'x/dt'=l/R"+1/R,,
+
+according to the intuitive picture of the motion of a .
+stretched film. Along the film curvature waves x ~ e1ky
+can propagate with propagation velocity exactly equal
+to the speed of light.
+4. THE DYNAMICS OF THE WALLS
+We consider a volume containing a large number of
+chaotically oriented surfaces at rest. We denote by
+s(cm 2/cm 3 ) the average area per unit volume; it is obvious that s is of the order of the reciprocal mean distance L between two surfaces, i.e., of the reciprocal
+thickness of the vacuum domain of one sign.
+Averaging over the volume the energy and stress
+densities, we obtain
+e=lls,
+
+1';,=6"p,
+
+p=-2Ils/3=-2£/3.
+
+Such an "equation of state" of a multi-domain vacuum
+agrees with intuitive consIderations. We consider a
+volume V and apply to it the first law of thermodynamics:
+E=eV, dE=-pdV, Vd£+edV=2edV/3,
+E_V'I" de/e=-dV/3V, e-V-'Io.
+
+If the domains are scaled up conformally, V ~ L 3 , the
+area ocL 2 ~ V 2I3 • It is necessary to underline the fact
+
+that this result is valid only for conformally expanding
+domains (I.e., remaining similar to themselves).
+V. I. Zakharov has remarked that in the general case
+a chaotic normal motion of the surfaces leads to the
+appearance of positive components of the tensor Tik'
+so that p > -2 E /3; in particular, for a definite intensity
+of the motion it is possible that p> 0. 3 )
+If the motion itself is caused by a tension on initially
+stationary walls, the motion leads to a decrease of the
+area. We disregard the general cosmological expansion,
+so that V = const. Then obviously E = const., E = const.
+For constant E the decrease of S is accompanied by an
+increase in p.
+
+We consider the "collapse of a bubble" of condensate
+with (J =-1 surrounded by condensate with (J = + 1.
+This collapse occurs under the action of the tension of the curved wall. Taking into account
+energy conservation we have y =R~/R2(t), where
+y = (1 - w 2f1!2 and Ro is the initial radius of the bubble
+with walls at rest. Substituting w = dR/dt and solving
+the equation we obtain that the collapse time of the
+bubble is t ~ 1.3Ro, i.e., the bubble contracts with
+almost the speed of light. During the final stage the
+walls get destroyed emitting J( mesons and other
+particles.
+
+It follows from these equations that one cannot distinguish any single rest frame in the separation plane.
+
+In a cosmological situation the expansion of the
+Universe diminishes all the momenta and counteracts
+the increase of p. On the other hand, when a collision
+of surfaces occurs under a finite angle in the process
+of motion (process analogous to the formation of caus-
+
+2
+
+Va. B. Zel'dovich et al.
+
+SOy. Phys.·JETP, Vol. 40, No.1
+
+2
+
+tics in optics), there must appear oscillations of the
+X field, or, using a different language, there appear
+quanta of the X field and possibly other particles.
+The detailed dynamics of the process has not been
+studied until now. 4) The limiting case of a conformal
+stretching p = -2E/3 is logically possible. For example,
+one could consider a cubic lattice with alternating regions with cp = +1) and cp = -1). The plane boundaries
+guarantee the basence of accelerations 5).
+
+5. LAW OF COSMOLOGICAL EXPANSION OF THE
+DOMAIN STRUCTURE
+We consider on a macroscopic level the cosmological
+expansion of a cellular medium with equation of state
+p =-2E/3, and the corresponding scale-dependence
+of p and E: p ~ E = k/b, where k is a coefficient determined by the structure of the cells. For simplicity we
+consider a spatially flat Universe 6 ) with the metric
+ds'=dt'-b'(t) [dx'+dy'+dz'].
+
+The Einstein equation is of the form (cf. hl ])
+1 ( db )'
+
+2 at
+
+411
+411
+=TGeb'=TGkb.
+
+Its solution is
+b=b,t',
+
+e=3/211Gt',
+
+L=m- ' , e=T'=m"
+
+«
+
+Thus it is necessary that GfJ.L
+1. Probably a
+detailed analysis of the Hubble redshift of the galaxies
+(the relation log z vs. log m for given M, where m is
+the apparent magnitude and M is the absolute magnitude
+of the galaxy) will lead to the same conclusion: GfJ.L < 1,
+albeit with a weaker inequality.
+Substituting E = fJ./L = l/Ge, L = Ge, we arrive at
+the conclusion that t2 < 1/ fJ.G = t , .
+
+k=3b ,/211G
+
+{the constant b , is arbitrary and cancels out from all
+phYSical results). Prescribing the surface density of
+the wall fJ. = m 3, we obtain the average distance between
+the walls 7 ): L = Gm 3e (we omit dimensionless factors).
+The domains are formed at the time to:
+T=m,
+
+tropy and homogeneity of the Universe and the total
+energy density in the whole Universe, require that
+domains with heavy walls disappear at a quite early
+stage of the evolution (we denote the corresponding
+instant by t 2). In order to show this we consider the
+domain structure in terms of newtonian gravitation
+theory. At the separation surfaces the potential ~ has
+a discontinuity in its derivative equal to Gil, so that the
+change of potential within a cell of size L is of the order 8) 0<1> =GfJ.L. The Universe is filled with background
+radiation (temperature 2.7°K). Observations show that
+this radiation does not depend on the direction
+(aT /T < 10- 3). The gravitational redshift should yield
+aT/T ~ aO~. Here the dimensionless a = 0 only in the
+extremely unlikely case of spherical symmetry of the
+separating surfaces relative to the observation point.
+In general a < 1, but probably a > 0.05, e.g., for a
+cubic lattice.
+
+to=1/m'-yG=tn'/tG'
+
+where tn ~ 10- 24 sec is the "nuclear" time,
+tG ~ 10- 43 sec is the "Planck gravitational time" G I/2
+so that to ~ 10- 5 sec.
+The instant tl is defined by the condition L = t "
+hence
+
+The observable picture of the Universe (its visible
+isotropy and homogeneity) is incompatible with the
+assumption of a coarse domain structure with domains
+having dimensions of the order of or larger than today's
+t. Either the parameters of the walls are such that at
+the present time (Le., for an average matter density
+of 10- 29 _10- 30g/cm s ) one can place a large number of
+walls over a distance of ct = 2 x 1028 cm 9 (for this it is
+necessary that the superficial density of walls be
+Il < 0.1 g/cm 2, which seems unrealistic from the viewpoint of the theory of elementary particles, since it
+corresponds to A 103 for mX ~ m p ), or (and below it
+is this variant we will discuss) the domains disappeared
+at some time t2 < t " suffiCiently early so that the homogeneity does not get noticeably violated; in addition,
+for an early t2 (before the recombination of the electrons
+and the protons) the Compton scattering evens out the
+anisotropy of the background radiation. The disappearance of the domain walls means a transformation of the
+surface energy of the walls into other energy forms-the
+energy of massive quanta of the X field or into the
+general equilibrium radiation. A consideration of these
+consequences leads to restrictions on t 2.
+
+<.
+
+t, =1/Gm'=tn'/tG'=tot"/t G -1D" sec.
+
+If the boundaries of the domains are in a state of
+chaotic relativistic motion, then, as for a relativistic
+gas, p = E/3. In this case the energy density of the
+boundaries decreases like b- 4, where b is the distance
+between two arbitrarily chosen points of the expanding
+Universe. Obviously, this is possible only if the boundaries are not "stretched" and the corresponding
+average energy denSity ym 3/L is much larger than its
+minimal value. The latter is defined by the fact that the
+maximal dimension of a domain does not exceed t, and
+consequently E 2: m 3 /t (we assume that the superficial
+density of walls at rest is fJ. ~ m 3, where m ~ mp for
+A ~ 1). In the case of rapid chaotic motions of the
+boundaries there is a large excess area of the walls, the
+empty volumes increase as b 3 for unchanged area of the
+walls, and the motions decay according to the law
+y ~ l/b. At the same time E decays as l/Ge. Such a
+regime is possible up to E = l/Ge:;: m 3/t, i.e., up to
+the time t, . After this time the walls get stretched and
+E decreases according to the law l/b and L ~ Gm 3
+for t :;: t , .
+
+e
+
+6. A CAUSAL COUPLING BETWEEN REMOTE
+OBJECTS
+In the model where the domain structure and the
+equation of state p = -2E/3 is restricted to the time
+interval to < t < t 2, we consider the propagation of
+disturbances with the speed of light in two stages:
+from to to t2 and from t2 to t4 of today. We take
+into account that the second stage is subdivided into:
+2a) p = E/3, t2 < t < t3 and 2b) p = 0, t3 < t < t 4 •
+Accordingly we have in the metric
+
+If the walls of the domains were stretched from the
+time to (e.g., in the case of the above mentioned cubic
+structure), the law L ~ Gm 3 would start not at
+t ~ t " but at t ~ to
+The present observational data relative to the iso-
+
+"Following Misner[13], we compare the region encom-
+
+3
+
+Va. B. Zel'dovich et al.
+
+e
+
+Sov. Phys.·JETP, Vol. 40, No.1
+
+1) b=/t',
+
+2a) b=gt'\
+
+26) b=ht';'
+
+with the matching conditions
+
+3
+
+passed by present-day observations, P (present), and
+the region which is causally connected by signal propagation to the singularity, C (causality). The region P
+can be determined by considering the rays passing
+through the coordinate origin (X = 0) at the instant t 4.
+The region C is determined by considering the rays
+emerging from the origin at time to. An invariant measure of the region, independent of the arbitrariness in
+the selection of the scale factor b(t), is its present size
+X = b(t4)x, where x is a comoving coordinate (cf. the
+metric). A simple computation yields for Xp
+Xp =
+
+dt
+S"b(i)
+= 3h I.,
+-I 'I.
+
+X p =31,.
+
+For the determination of the C -region it is essential
+to use the matching conditions
+Xc =
+
+S b~tl) = r t
+
+o- ' ,
+
+I,
+
+Owing to the peculiar expansion law during the initial
+(domain) stage it is quite possible that XC» Xp. Indeed
+assume I for instance, that to = 10- s sec, t2 = t3 = 10 12
+sec, t4 = 6 X 10 17 sec. In units of length
+X p =c·3t,=6·1O" cm x c=ct".1O" ·10-'=3· 10"Xp =2· 10" cm
+The inequality Xc » Xp remains true under more
+modest assumptions, e.g., for to = 10- s sec, t2 = lOS sec
+(z = 3 x 107), t3 = 1013 sec, and t4 =6 X 10 17 sec, we
+obtain Xc = 10 2 Xp. 10 ) But it is just such a situation
+which Misner considered necessary, and for its sake
+he considered preferable an anisotropic closed model
+of the Universe. The condition Xc » Xp denotes the
+posSibility in principle that the conditions in the accessible part of the Universe are evening out. In the domain
+theory this condition is compatible with a flat or with
+an open homogeneous and isotropic Friedmann cosmological solution!
+
+7. CONCLUSIONS AND SOME UNSOLVED
+PROBLEMS
+We can thus draw three fundamental conclusions:
+1. Spontaneous violation of CP-invariance leads to
+the formation of a domain structure of the vacuum.
+This occurs because during the cooling down of causally
+disjointed points of the Universe the signs of the condensate appear in a random fashion.
+
+2. For ,\ < 1 the walls of the domains are so heavy
+that their existence would lead to a radical change of
+the cosmological evolution of the Universe.
+3. If there is no mechanism that leads to the disappearance of domains at a sufficiently early stage of
+the evolution of the Universe, the domains would lead
+to conclusions which are in contradiction with experiment.
+
+Thus, either the model of spontaneous breakdown of
+CP-symmetry discussed by us is false, or there must
+exist mechanisms which facilitate the disappearance of
+the domains.
+
+breakdown devoid of content. The idea appears to relate
+the symmetry breakdown to the material content of the
+Universe, and more concretely, to the excess of baryons,
+or maybe even with the fact that the Universe is expanding, i.e., the fact that one considers a solution which is
+not symmetric under the interchange of It and -t. It
+would be very interesting to establish a relation between
+the local violation of CP-invariance and the charge
+asymmetry of the Universe as a whole. This observed
+asymmetry consists in an excess of baryons over the
+antibaryons; there is possibly an excess of neutrinos
+over antineutrinos. Unfortunately we have not found
+yet a concrete interaction which satisfies these conditions.
+A "skewing" of the initial Lagrangian could be
+caused by a term of the type IPiJ!CP, but such a term is
+forbidden by the CP-invariance of the Lagrangian. A
+term of the form ljJYsiJ!CP which is permitted by the CPinvariance, vanishes when averaged over the spins and
+momenta of the baryon excess.
+If the skewness in favor of one of the solutions
+II = +1 or II = -1 could be determined by the expansion
+
+of the Universe, then this would lead to a connection
+between the direction of the arrow of time in the microcosm and the macrocosm. The choice of the Sign of the
+T-noninvariant phases in all CP-noninvariant phenomena would in this case occur during the E!arly stages of
+the evolution of the Universe due to its expansion.
+Of particular interest is the problem of interaction
+of particles with the walls and in particular, the problem of transparency of walls conSisting of neutral matter with respect to photons of various wavelengths.
+We have not found a realistic answer to the question
+of what observations one could use for the determination
+of the sign of in some remote region of space. The
+reason for this is that all known CP-noninvariant
+effects are very small and specific. If we were dealing
+with a spontaneous breakdown of P-parity, then the
+neutrinos would furnish us information about the Sign
+of the condensate, since the polarization of the neutrinos
+produced in different domains would be opposite 11 ).
+This would be so if, e.g., the weak current would contain terms of the form eYa(l + YsCP/1))v in distinction
+from models considered until now, such a theory would
+be unrenormalizable).
+In the case of a discrete symmetry the walls cannot
+become wide and light owing to the joint action of two
+terms: the kinetic one (8 cp)2 and the potential one
+,\2(cp2 _1)2)2. For the case of continuous symmetries of
+the gauge type the potential contains ,\ 2( 1<p 12 _1)2)2 and
+the transition from the domain with cP = 1) exp (ia1) to
+a domain with cp = 1) exp (i~) occurs on account of a
+change of the phase a at constant modulus 1cpl , so that
+the potential energy in the transition layer does not
+increase. This leads to the result that in the case of
+gauge symmetry the walls will flow apart and there will
+appear longer and longer wavelength changes of the
+phase of the condensate. We hope to return later to
+this question.
+
+How early should one remove the domain walls and
+make the whole Universe into a single domain? For
+this one obviously must first violate the symmetry of
+the two solutions cp = ±1) . On the other hand, the symmetry breakdown should not be contained in the Lagrangian. This would make the idea of spontaneous symmetry
+
+Finally, we dwell on the unsolved problem of renormalization of the vacuum energy, i.e., the cosmological
+constant. This question exists even without connection
+to models of spontaneous symmetry breakdown, but in
+these models it is more acute. To date it is not clear
+
+4
+
+Va. B. Zel'dovich et al.
+
+SOy. Phys.-JETP, Vol. 40. No.1
+
+4
+
+what mechanism is responsible for the form of the
+renormalized Lagrangian such that the minimum of the
+energy corresponds to a value zero of the energy. If
+this were not so, the condensate would yield a cosmolOgical term, which depending on the sign would either
+prevent or enhance the expansion of the Universe.
+The authors are grateful to E. B. Bogomol'nyi, V.
+N. Gribov, A. D. Dolgov, V. 1. Zakharov, D. A. Kirzhnits, A. D. Linde and A. B. Migdal for useful discussions.
+1)ln quantum theory !l'is the renormalized Lagrangian.
+2)We utilize units with I'! = c = I.
+3)We are indebted to V. I. Zakharov for useful discussions of the question
+of the cosmological role of domains, and in particular, for pOinting out
+that rapidly moving chaotically oriented walls are similar to a relativistic gas (cr. infra).
+4)ln some special cases of nonlinear equations solitons, particularly
+solitons of the type of a I)-function and not only those of the I)-function type, do not convert into a set of weak waves due to collisions.
+Therefore care is needed in conclusions about the disappearance of
+the walls.
+5)The problem of stability of edges and corners remains open.
+6)1t is curious that in the case p = -2€/3, as in the problem with the
+cosmological constant, it is possible to combine the spatial closure of
+the universe with unbounded expansion in time. For p > 0 only an
+open universe can expand.
+7) An accelerated (and not retarded, as usual) expansion follows from
+the fact that in general relativity Newton's equation for b involves
+(€ + 3p)/c2 in place of p. For p = -2€/3 we have € + 3p = -€ < O.
+8)ln CGS units the potential has the dimension of the square of a velocity. Using units with c = I'! = I we consider the potential (<f.>/c 2) as
+dimensionless.
+9)ln comparing with the paper of Sokolov and Shvartsman f 12) on the
+possibility of partitioning the Universe one must keep in mind that
+they consider the topology of the Universe without violating the
+homogeneity; in our case the walls really exist and have finite density.
+
+5
+
+Sov. Phys.-JETP, Vol. 40, No.1
+
+IO)The theory of cosmological nucleosynthesis can yield more stringent
+restrictions on t2 (t 2 < I s). Then the inequality Xc ~ Xp is possible
+for mX~ mp.
+II)Couid the results of the Davis experiment indicate that the Sun is
+situated in a different domain than the Earth?
+
+IS. Weinberg, Phys. Rev. Lett. 19, 1264 (1967); 31,494
+(1973)
+2A. Salam, Elementary Particle Theory, Proc. of the
+8th Nobel Symposium, Stockholm, 1968.
+3A. PaiS, Phys. Rev. Lett. 29, 1712 (1972); 30,114(E)
+(1973).
+4 T . D. Lee, Phys. Rev. DB, 1226 (1973).
+ST. D. Lee, CP-Nonconservation and Spontaneous Symmetry Breaking, Preprint CO-2271-22, Columbia
+Univ. to be published in Physics Reports.
+eA. A. Grib, E. V. Damaskinskir and V. M. Maksimov,
+Usp. Fiz. Nauk 102, 587 (1970) [Sov. Phys. Uspekhi
+13,798 (1971)].
+7N. N. Bogolubov, Suppl. Nuovo Cimento 4, 347 (1966).
+SU. A. Kirzhnits, ZhETF Pis. Red. 15,745 (1972)
+[JETP Lett. 15,529 (1972)].
+~. A. Kirzhnits and A. D. Linde, Phys. Lett. 42B, 471
+(1972).
+IOJ. H. Klems, R. H. Hildebrand and R. Stiening, Phys.
+Rev. D4, 66 (1971).
+IlYa. B. Zel'dovich and I. D. Novikov, Relyativistskaya
+astrofizika (Relativistic Astrophysics), Nauka, 1967
+[Engl. Transl. U. of Chicago Press, 1971].
+12D. D. Sokolov and V. F. Shvarzman, Zh. Eksp. Teor.
+Fiz. 66, 412 (1974) [Sov. Phys. JETP 39, 196 (1974)].
+13C . W. Misner, Phys. Rev. Lett. 22, 1073 (1969).
+Translated by Meinhard E. Mayer
+1
+
+Va. B. Zel'dovich et al.
+
+5
+
+
