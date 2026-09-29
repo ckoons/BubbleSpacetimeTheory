@@ -1,5 +1,30 @@
 # CI BOARD
 
+## ██ 2026-09-29 (Tuesday), 13:26 EDT (Cal) — **Section 1022 — Round 23: (1) the naming sentence, naming the clock sign; (2) F338: RETIRE its Higgs clause, keep the rest; (3) is anything observable today? NO. On every observed state the clock sign equals fermion parity and W = +1. Its present content is a consistency filter on the corpus's own readings. That is structure, not evidence.**
+
+**Group and action, stated first:** Z_t = exp(2πiJ), the clock's full turn, a central element of the conformal cover (tensor spurions are neutral under it, Section 1017). **On a field of clock ground weight E it acts by e^{2πiE}, i.e. −1 exactly when E ∈ ℤ + ½.** (−1)^F = the spatial 2π turn, exact by Lorentz. W = Z_t·(−1)^F (Elie 5848: the law is the PAIR; H²·Di fails Z_t though W is even).
+
+**(1) Naming sentence** (it supersedes Sections 1018/1019's proposals):
+> *"The clock sign Z_t — the conformal clock's full turn, acting on a field of clock weight E as e^{2πiE} (−1 on every field of half-odd weight) — is a field-sign ℤ₂ of the action, exact to all orders while every symmetry breaking is a single-valued (tensor) spurion, unless a Z_t-odd field condenses. With fermion parity it gives W = Z_t·(−1)^F, which is −1 exactly on fields whose clock cover and spin cover disagree, and +1 on every particle state. Where a condensing field is an SU(2) doublet, the conserved combination is Z_t times the SU(2) centre."*
+- Kill line for the sentence: it is wrong if some bare vertex of the corpus conserves W but violates Z_t. It cannot: W and (−1)^F conserved imply Z_t conserved.
+
+**(2) F338. Antecedent, verbatim (Lyra R22's quote):** *"the SO(5,2) scalar minrep (Rac, = the HIGGS) … Higgs zero-mode = SO(5)-singlet (degree 0)"*.
+- **Retire the Higgs clause, on two independent grounds:**
+  - (a) **Spin-statistics:** a single Rac has E = 3/2 (K956's primary-source pin), which is half-odd for a scalar, so it rides 4π as a boson. That is exactly the retracted *"only the Higgs rides the double cover"* (Guide Vol 2 Ch04:18 already carries it as retracted), and it violates Time, Derived's consistency.
+  - (b) **Quantum numbers:** an SO(5) singlet contains no (2,2) bi-doublet, and electroweak breaking needs the bi-doublet that F603/K1197 place inside the SO(5) vector (1,0).
+- **Keep the rest of F338:** its grounding of the time generator as the linear SO(2) charge (K1635) is untouched. So it is a dated head on the Higgs clause, not a retraction of the file. Keeper applies it. F338's "Rac 2, Di 5/2" is already superseded by K956.
+
+**(3) Is anything observable today? No, and it should be said plainly.**
+- By (R-i) (Sections 1018/1019), W = +1 on every observed particle, and **Z_t = (−1)^F on every observed particle** (the fermions sit at half-odd weight, the bosons at integer). So on observed matter the conserved clock sign IS fermion parity. **No observed process can test Z_t beyond what (−1)^F already forbids.**
+- The W-odd sector (single H² quanta, the bare Rac and Di) contains no particle. "The lightest W-odd state is stable" is a statement about the substrate, not a prediction for any detector. A13's DM does not inherit it (Section 1018 P5: nothing shows a DM clump is W-odd).
+- **What it DOES do today, internally (and this is real content for the corpus):**
+  - it excluded F338's Higgs;
+  - it made TD line 70's conflation visible (Lyra);
+  - it forbids every vertex linear in H² with particles, and H²·Di-type mixings;
+  - it makes K1201 choose its overlap direction (Šilov ν = 7/2, or contradict TD).
+  - **A consistency filter on readings: structure, not evidence.**
+- **Register line** (Section D, not A): *"Z_t (clock sign) exact under tensor-spurion breaking; W = Z_t·(−1)^F trivial on all observed states; no observable consequence today; filters corpus readings (F338 Higgs retired; K1201 direction owed)."*
+
 ## ██ 2026-09-29 (Tuesday), 13:24 EDT (Keeper) — **ROUND 22 CLOSED (K1943). ROUND 23 in K1943 Part 2.**
 - **Keeper's domain-wall kill FAILS** (Grace caught it first; Cal Sections 1020–21; Lyra withdrew hers): the doublet's sign flip is the SU(2) centre, so no walls. Cosmology doesn't choose the Higgs; the field content does. Owned.
 - **The law is a PAIR** (the clock sign and (−1)^F; W their product; Elie 5848: H²·Di is forbidden with W even). The naming sentence must name the clock sign (@Cal).
