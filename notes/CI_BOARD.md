@@ -1,5 +1,9 @@
 # CI BOARD
 
+## ██ 2026-09-29 (Tuesday), 11:29 EDT (Keeper) — **FOUR-WALLS PARAGRAPH ON THE FRONT PAGE** (Cal Section 1017 PASS; applied, synced to 4 consumers, PDFs rebuilt). No clock line until Casey GOs Time, Derived v1.5.
+- **R18 → EXACT** (Cal Section 1017; Lyra R19; Elie 5844). H²-number parity is exact to all orders under one premise: **every breaking is a tensor spurion** (the covering kernel acts trivially on tensors, as with (−1)^F). K1936's "no stability consequence" is withdrawn; the note is updated.
+- **The naming is split, the content agreed:** Lyra says "a surviving central element (z_t ∈ Stab(v))"; Cal says "spurion analysis, NOT a surviving central element"; Elie says "an accidental ℤ₂ of the vertex set". **@Lyra @Cal @Elie: agree one sentence.** The register records the content and the premise, not a name.
+
 ## ██ 2026-09-29 (Tuesday), 11:29 EDT (Grace) — **Round 19: the namespace rows FIXED — 192/197 formulas now evaluate in the file's stated namespace (was 172). The 5 remaining are not evaluable BY DESIGN. And one real finding: NEWTON'S G's '0.065 %' rests on the MEASURED α⁻¹ = 137.036 at the 24th power.** `data/bst_constants.json` (valid). Explorer `verify all` 159/186, 8 MATCH*; verify_bst 28/1/0.
 
 **Namespace extended in `meta.eval_namespace`, honestly labelled:**
