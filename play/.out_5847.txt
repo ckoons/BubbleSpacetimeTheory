@@ -1,0 +1,13 @@
+[PASS] (1) [H, Q] = 0 exactly (L = 8): Q = ∏σˣ is a symmetry of the Hamiltonian (the 'action Z2')  
+[PASS] (1) Jordan–Wigner sectors CHECKED against ED: Q = +1 ↔ NS even-parity, Q = −1 ↔ R odd-parity (lowest 10 levels each)  Q+ ↔ [('NS', 0)], Q− ↔ [('R', 0), ('R', 1)]
+   extrapolated (1/L² fit): Δ_σ = 0.12500000, Δ_ε = 1.00000000, Δ_ψ = 0.50000000   (L = 1024 raw: [0.12500002 0.99999961 0.4999998 ])
+[PASS] (2) dimensions from the exact spectrum: Δ_σ = 1/8, Δ_ε = 1, Δ_ψ = 1/2 (to 1e-6)  
+[PASS] (3) Q-charge multiplicative across σ×σ ∋ ε: Qσᶻ Q = −σᶻ, Q(σᶻσᶻ)Q = +σᶻσᶻ (the energy density, a term of H)  
+   clock label: c(σ)² = 1j, c(ε) = (1-0j)  → |difference| = 1.4142
+[PASS] (4) the clock label e^{2πiΔ} is NOT multiplicative across the interacting fusion σ×σ ∋ ε (|c(σ)² − c(ε)| = √2)  
+[PASS] (5) CONTROL free sector: ψ×ψ ∋ ε (fermion bilinear) — c(ψ)² = c(ε): the label IS multiplicative where fusion is free  0.0e+00
+
+READING: in an interacting fusion (σ×σ ∋ ε with 2Δ_σ = 1/4 ≢ Δ_ε = 1 mod 1) a clock-phase label does not multiply, while the
+Hamiltonian's Z2 (Q) is exactly multiplicative; in the free fermion sector both hold. The mechanism Lyra's (b) names, computed.
+
+SCORE: 6/6
