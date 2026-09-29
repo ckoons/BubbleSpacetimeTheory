@@ -65,7 +65,30 @@
     "Fraction",
     "abs",
     "pow"
-   ]
+   ],
+   "geometric_Q5_chern": {
+    "c_1": 5,
+    "c_2": 11,
+    "c_3": 13,
+    "c_4": 9,
+    "c_5": 3,
+    "_source": "Chern classes of Q^5 from (1+h)^7/(1+2h): [1,5,11,13,9,3] (Elie toy 5842 (e), computed)"
+   },
+   "SI_exact_not_BST": {
+    "c": "299792458 (m/s)",
+    "c_light": "299792458 (m/s)",
+    "h": "6.62607015e-34 (J s)",
+    "hbar": "h/(2*pi)",
+    "e": "1.602176634e-19 (C)",
+    "k_B": "1.380649e-23 (J/K)",
+    "N_A": "6.02214076e23 (1/mol)",
+    "_note": "SI 2019 defining constants — unit conventions, NOT BST inputs"
+   },
+   "SI_ruler_measured": {
+    "m_e_kg": "9.1093837139e-31 (kg) — the ruler in SI, MEASURED (CODATA 2022; data/sources_grace_2026-09-29/r19/nist/nist_me.html)",
+    "m_p_kg": "6*pi**5*m_e_kg (BST's m_p in SI)"
+   },
+   "_not_in_namespace": "H_0, m_H, m_Planck are imported/measured scales and are deliberately NOT namespace names; rows that need them are marked not evaluable in the BST namespace."
   },
   "total": 185,
   "tier_system": "D/I/C/S (Derived/Identified/Conditional/Structural)",
@@ -408,7 +431,7 @@
    "symbol": "G",
    "formula_latex": "G = \\hbar c (6\\pi^5)^2 \\alpha^{24} / m_e^2",
    "formula_display": "G = hbar*c*(6*pi^5)^2 * alpha^24 / m_e^2",
-   "formula_code": "",
+   "formula_code": "hbar*c*(6*pi**5)**2*alpha**24/m_e_kg**2",
    "bst_value": 6.679e-11,
    "observed_value": 6.6743e-11,
    "observed_source": "CODATA 2022",
@@ -452,7 +475,9 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.07%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "measured_alpha_flag": "0.065% requires alpha^-1 = 137.036 (measured) at power 24; BST namespace alpha = 1/137 gives 6.7209e-11 (0.70%)",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): code was EMPTY. Evaluated from the row's own formula in the file's namespace (alpha = 1/N_max): G = 6.7209e-11, 0.70% from 6.6743e-11. **The stored 6.679e-11 (the '0.065%') reproduces only with the MEASURED alpha^-1 = 137.036 at the 24th power** ((137/137.036)^24 = 0.9937). Stored value NOT changed here — the measured-alpha dependence is a tier question for Keeper/Cal (the species Cal Section 1012 named: exempting 137.036 hides it; this row hid it behind an empty code)."
   },
   {
    "id": "const_004",
@@ -1320,10 +1345,10 @@
    "formula_latex": "\\sin^2\\theta_{23} = \\frac{n_C-1}{n_C+2} \\cos^2\\theta_{13} = \\frac{4}{7} \\cdot \\frac{44}{45}",
    "formula_display": "sin^2(theta_23) = (n_C - 1)/(n_C + 2) = 4/7",
    "formula_code": "(n_C - 1) / (n_C + 2)",
-   "bst_value": 0.55873,
+   "bst_value": 0.571429,
    "observed_value": 0.572,
    "observed_source": "NuFIT 2024",
-   "precision": 2.31993,
+   "precision": 0.099825,
    "unit": "",
    "bst_integers_used": [
     "n_C"
@@ -1354,7 +1379,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.40%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): status says the 44/45 suffix was REMOVED and θ23 = 4/7 is canonical, but the stored 0.55873 = (4/7)(44/45) kept it; stored now 4/7 = 0.571429 as the code gives."
   },
   {
    "id": "const_024",
@@ -1521,7 +1547,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "exact",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): code float('inf') (proton lifetime = infinite, by design) is not evaluable in a builtins-free namespace; left as is and marked."
   },
   {
    "id": "const_028",
@@ -2346,7 +2373,8 @@
    "precision_stored_ARCHIVED": "0.4%",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
    "inherited_input_flag_2026_09_27": "Grace 15:52 (round 17): uses the symbol H_0, whose stored value (const_100) carries Planck's measured omega_m = 0.1430 (K1937 Part 2). a_0 = c*H_0/sqrt(30) therefore imports H_0 as a MEASURED scale; BST supplies only the factor 1/sqrt(n_C*C_2). A literal-only sweep of formula_code will not flag this row (no numeric literal); dependency on a flagged symbol must be checked too.",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — consistency row; H imported via Planck's omega_m (const_100)"
+   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — consistency row; H imported via Planck's omega_m (const_100)",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): not evaluable in the BST namespace BY DESIGN — needs an imported/measured scale (H_0 / m_H / m_Planck), deliberately not a namespace name."
   },
   {
    "id": "const_047",
@@ -5279,11 +5307,11 @@
    "symbol": "G_F",
    "formula_latex": "G_F = \\frac{1}{\\sqrt{2} v^2}, \\quad v = \\frac{m_p^2}{g \\, m_e}",
    "formula_display": "G_F = 1/(sqrt(2)*v^2), v = m_p^2/(g*m_e) = Higgs VEV from BST",
-   "formula_code": "",
-   "bst_value": 1.166e-05,
+   "formula_code": "1/(sqrt(2)*((6*pi**5)**2*m_e/g/1000)**2)",
+   "bst_value": 1.16745e-05,
    "observed_value": 1.1663788e-05,
    "observed_source": "CODATA 2022",
-   "precision": 0.0324766,
+   "precision": 0.091914,
    "unit": "GeV^-2",
    "bst_integers_used": [
     "C_2",
@@ -5314,7 +5342,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.03%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): code was EMPTY; the row's formula (v = (6 pi^5)^2 m_e/g) gives G_F = 1.16745e-05 GeV^-2 (+0.093%); the stored 1.166e-5 did not reproduce (it rounds the measured value). Stored value now what the row produces."
   },
   {
    "id": "const_113",
@@ -5465,7 +5494,8 @@
    ],
    "tier_recommendation": "give the row a code; name G_F, m_Z",
    "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — G_F and m_Z measured (named); no D until a formula exists; tier S kept."
+   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — G_F and m_Z measured (named); no D until a formula exists; tier S kept.",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): formula_code still EMPTY — the headline uses measured G_F, m_Z (named); no evaluable BST formula exists yet. Not evaluable by design."
   },
   {
    "id": "const_122",
@@ -5612,10 +5642,10 @@
    "formula_latex": "B_\\alpha = c_3(Q^5) \\cdot \\alpha m_p / \\pi = 13 \\cdot \\alpha m_p / \\pi",
    "formula_display": "B_alpha = 13 * alpha*m_p/pi = c_3(Q^5) * alpha*m_p/pi",
    "formula_code": "13 * (1/N_max) * 6*pi**5*m_e / pi",
-   "bst_value": 28.21,
+   "bst_value": 28.34,
    "observed_value": 28.2957,
    "observed_source": "NNDC/NUBASE 2020",
-   "precision": 0.302873,
+   "precision": 0.156561,
    "unit": "MeV",
    "bst_integers_used": [
     "N_c",
@@ -5653,7 +5683,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.29%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): the row's code 13*(1/N_max)*m_p/pi gives 28.34 MeV; the stored 28.21 does not reproduce (not with measured alpha or measured m_p either). Stored now what the row produces."
   },
   {
    "id": "const_126",
@@ -5768,10 +5799,10 @@
    "id": "const_129",
    "name": "Rydberg constant",
    "symbol": "R_inf",
-   "formula_code": "alpha**2 * m_e * c / (2*hbar)",
+   "formula_code": "alpha**2*m_e_kg*c/(2*h)",
    "formula_display": "R_inf = alpha^2*m_e*c/(rank*hbar)",
    "observed_value": 10973731.569,
-   "bst_value": 10973731.569,
+   "bst_value": 10979499.4,
    "precision_percent": 0,
    "notes": "Exact in terms of alpha and m_e. alpha = 1/N_max.",
    "tier": "S",
@@ -5782,14 +5813,15 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": null,
-   "precision": 0.0,
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision": 0.05256,
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): code had 2*hbar (wrong by 2 pi; R_inf = alpha^2 m_e c/(2h)); m_e in kg. The stored 10973731.569 was CODATA's MEASURED R_inf (measured alpha). With BST's alpha = 1/137 the row gives 10979499.4 (+0.053%). Stored value now what the row produces."
   },
   {
    "id": "const_130",
    "name": "Compton wavelength (electron)",
    "symbol": "lambda_C",
-   "formula_code": "h / (m_e * c)",
+   "formula_code": "h/(m_e_kg*c)",
    "formula_display": "lambda_C = rank*pi*hbar/(m_e*c)",
    "observed_value": 2.42631023867e-12,
    "bst_value": 2.42631023867e-12,
@@ -5804,13 +5836,14 @@
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": null,
    "precision": 0.0,
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): m_e in kg (the ruler in SI, measured); reproduces 2.42631e-12 — a unit conversion of the ruler."
   },
   {
    "id": "const_131",
    "name": "Bohr magneton",
    "symbol": "mu_B",
-   "formula_code": "e*hbar/(2*m_e*c)",
+   "formula_code": "e*hbar/(2*m_e_kg)",
    "formula_display": "mu_B = e*hbar/(rank*m_e*c)",
    "observed_value": 9.2740100783e-24,
    "bst_value": 9.2740100783e-24,
@@ -5825,16 +5858,17 @@
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": null,
    "precision": 0.0,
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): code had a spurious /c; mu_B = e hbar/(2 m_e) reproduces 9.27401e-24 — an SI conversion of the ruler."
   },
   {
    "id": "const_132",
    "name": "Nuclear magneton",
    "symbol": "mu_N",
-   "formula_code": "e*hbar/(2*m_p*c)",
+   "formula_code": "e*hbar/(2*m_p_kg)",
    "formula_display": "mu_N = mu_B/(6*pi^5) = mu_B/(C_2*pi^n_C)",
    "observed_value": 5.0507837461e-27,
-   "bst_value": 5.0507837461e-27,
+   "bst_value": 5.0508788197e-27,
    "precision_percent": 0,
    "notes": "mu_N = mu_B/mass_ratio. mass_ratio = C_2*pi^n_C.",
    "tier": "S",
@@ -5845,8 +5879,9 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": null,
-   "precision": 0.0,
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision": 0.001882,
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): stored 5.0507837461e-27 was CODATA's (MEASURED m_p); with BST's m_p = 6 pi^5 m_e the row gives 5.050879e-27 (+0.0019%). Stored value now what the row produces."
   },
   {
    "id": "const_133",
@@ -6088,7 +6123,7 @@
    "name": "Muon decay rate (lifetime^-1)",
    "symbol": "Gamma_mu",
    "formula": "(N_c^2*(rank*c_2+1))^5 / (384*pi^(4*n_C+3)*(c_2^2*c_3)^4) * m_e",
-   "formula_code": "(N_c**2*(rank*c_2+1))**5 / (384*math.pi**(4*n_C+3)*(c_2**2*c_3)**4) * m_e",
+   "formula_code": "(N_c**2*(rank*c_2+1))**5 / (384*pi**(4*n_C+3)*(c_2**2*c_3)**4) * m_e / 1000",
    "value": 3.04e-19,
    "observed_value": 3e-19,
    "precision": null,
@@ -6101,7 +6136,9 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.46%",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): 'math.' prefixes replaced by the namespace names pi, sqrt.",
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): code gave MeV while unit is GeV; /1000 added; 3.038e-19 GeV reproduces the stored 3.04e-19."
   },
   {
    "name": "Proton charge radius",
@@ -6167,10 +6204,10 @@
    "name": "Top quark mass",
    "symbol": "m_t",
    "formula": "v/sqrt(2) = c_2^2*c_3*pi^n_C*m_e/sqrt(2)",
-   "formula_code": "c_2**2*c_3*math.pi**n_C*m_e/math.sqrt(2)",
-   "value": 174.1,
+   "formula_code": "c_2**2*c_3*pi**n_C*m_e/sqrt(2)/1000",
+   "value": 173.93,
    "observed_value": 172.69,
-   "precision": null,
+   "precision": 0.71805,
    "unit": "GeV",
    "notes": "Top Yukawa = 1 (geometric unit). m_t at Higgs vev scale. Predicts no 4th-gen top-like quark. T2009, Toy 2536.",
    "tier": "D",
@@ -6180,16 +6217,18 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.82%",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): 'math.' prefixes replaced by the namespace names pi, sqrt.",
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): code gave MeV (173933) while unit is GeV; /1000 added; the row produces 173.93 GeV, NOT the stored 174.1 — stored value now what the row produces."
   },
   {
    "name": "Bottom quark mass (from cascade)",
    "symbol": "m_b",
    "formula": "m_t/(C_2*g) = m_t/42",
-   "formula_code": "(c_2**2*c_3*math.pi**n_C*m_e/math.sqrt(2))/(C_2*g)",
-   "value": 4.145,
+   "formula_code": "(c_2**2*c_3*pi**n_C*m_e/sqrt(2))/(C_2*g)/1000",
+   "value": 4.141,
    "observed_value": 4.18,
-   "precision": null,
+   "precision": 0.933014,
    "unit": "GeV",
    "notes": "m_t/m_b = 42 = total Chern Q^5 (T1990). Fourth observable using the 42 recurrence. T2013, Toy 2539. [Cal verdict #18 applied 2026-05-18 Grace: BST primary form C_2·g (D-tier mechanism) drives this derivation. The standalone 'm_t/m_b=42 recurrence' framing without C_2·g specification stays S-tier Type C catalog. Current entry uses C_2·g form correctly — D-tier preserved per T1990 STRUCTURAL stands.]",
    "tier": "D",
@@ -6199,7 +6238,9 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.83%",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): 'math.' prefixes replaced by the namespace names pi, sqrt.",
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): MeV→GeV (/1000); the row produces 4.141 GeV, not the stored 4.145 — stored now what the row produces."
   },
   {
    "name": "Higgs self-coupling lambda",
@@ -6243,7 +6284,7 @@
    "name": "Strong coupling at M_Z",
    "symbol": "alpha_s_MZ",
    "formula": "N_c/(rank^3*pi)",
-   "formula_code": "N_c/(rank**3*math.pi)",
+   "formula_code": "N_c/(rank**3*pi)",
    "value": 0.1194,
    "observed_value": 0.1181,
    "precision": null,
@@ -6256,7 +6297,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "1.1%",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): 'math.pi' → 'pi' (namespace name); reproduces 0.1194."
   },
   {
    "name": "Number of light neutrino flavors",
@@ -6459,7 +6501,7 @@
    "symbol": "|sin δ_PMNS| (forward-falsifier bet)",
    "formula": "N_c*pi/g",
    "formula_code": "rank/g",
-   "value": 1.3464,
+   "value": null,
    "observed_value": 3.44,
    "precision": null,
    "unit": "rad",
@@ -6481,7 +6523,8 @@
    "group_consistency_ref": "meta.OBSERVABLE_GROUPS.pmns_delta_cp",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "LABELED FORWARD-FALSIFIER BET — not derived, no agreement claimed. BST bets the MAGNITUDE |sin δ_PMNS| = rank/g = 2/7 (target-innocent, clean primaries). The SIGN/branch (197° vs 163°) is NOT geometric yet (sign Im ε undervied, Cal §21); the full δ value and J_PMNS stay OFF (CP existence-only, K1304). Falsifiable: if |sin δ| ≠ 2/7, this bet fails.",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): status says delta/J VALUES were purged and only the |sin δ| = 2/7 magnitude is kept, but the stored 1.3464 rad phase remained. Stored value cleared (None); the code rank/g = 0.2857 is the kept magnitude |sin δ|, not a phase in rad."
   },
   {
    "name": "Proton magnetic moment",
@@ -6533,9 +6576,9 @@
    "symbol": "m_u",
    "formula": "c_3*N_c^2/(rank^2*g)*m_e",
    "formula_code": "13*9/(4*7)*m_e",
-   "value": 2.13,
+   "value": 2.135,
    "observed_value": 2.16,
-   "precision": null,
+   "precision": 1.157407,
    "unit": "MeV",
    "notes": "m_u = 13*9/28 * m_e. T2032 (closes light quark sector).",
    "tier": "D",
@@ -6545,7 +6588,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "1.4%",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): the row produces 2.1352 MeV (13*9/28 m_e); the stored 2.13 was a rounding."
   },
   {
    "name": "Down quark mass",
@@ -6589,7 +6633,7 @@
    "name": "Effective neutrino number cosmology",
    "symbol": "N_eff",
    "formula": "N_c + 2*pi/N_max",
-   "formula_code": "N_c + 2*math.pi/N_max",
+   "formula_code": "N_c + 2*pi/N_max",
    "value": 3.046,
    "observed_value": 3.044,
    "precision": null,
@@ -6602,7 +6646,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.06%",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): 'math.pi' → 'pi'; reproduces 3.046."
   },
   {
    "name": "alpha_em^-1 at M_Z",
@@ -6659,7 +6704,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "2.4%",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): not evaluable in the BST namespace BY DESIGN — needs an imported/measured scale (H_0 / m_H / m_Planck), deliberately not a namespace name."
   },
   {
    "name": "Deuteron binding energy",
@@ -6806,7 +6852,8 @@
    "group_consistency_ref": "meta.OBSERVABLE_GROUPS.ckm_jarlskog",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "CP EXISTENCE-ONLY — magnitude OFF (K1304): the J value is construction-dependent (~O(100×) spread, reverse-fit); NOT a forward prediction, NO agreement claimed",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): row already RETIRED; note also that its code with c_2 = 11 gives 1.204e-6, NOT the stored 3.01e-5 — c_2 here never meant the Chern class. Do not cite."
   },
   {
    "theorem_id": "T2233",
@@ -7308,7 +7355,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.01%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): not evaluable in the BST namespace BY DESIGN — needs an imported/measured scale (H_0 / m_H / m_Planck), deliberately not a namespace name."
   },
   {
    "id": "const_197",
