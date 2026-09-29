@@ -1,0 +1,4 @@
+O1 h(tx,tx) = (t - 1)**2*(t + 1)**2 -> True
+O2 h(te,te) = 1 - t**2 (rank-one, linear in t^2; vanishes at the boundary of this direction) -> True
+O3 exponent 7/2: lambda = 7/2 (real/Silov direction) or 7 (rank-one direction) -> True
+SCORE 3/3
