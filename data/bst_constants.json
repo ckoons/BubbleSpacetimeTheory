@@ -2,7 +2,7 @@
  "meta": {
   "version": 1,
   "title": "BST Derived Constants",
-  "description": "All constants derived from D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)] with zero free parameters. Every formula evaluates in namespace {pi, alpha, N_c, n_C, g, C_2, N_max, rank, m_e, m_p, hbar_c}.",
+  "description": "Constants read from D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)], each tiered in its row (derived / identified / consistency / structural). Inputs: one measured identification (N_c = 3 <-> colour) and one dimensionful ruler (m_e); alpha is IDENTIFIED as 1/N_max; rows whose value carries a measured quantity name it in measured_inputs. No claim of zero free parameters (struck 2026-08-23; this line said so until 2026-09-29). Formulas are meant to evaluate in namespace {pi, alpha=1/N_max, N_c, n_C, g, C_2, N_max, rank, m_e, m_p = 6 pi^5 m_e = 938.254 MeV, hbar_c}; as of 2026-09-28, 25 of 197 rows do not (Elie toy 5842; Grace fixing).",
   "count": 144,
   "tier_counts": {
    "D": 75,

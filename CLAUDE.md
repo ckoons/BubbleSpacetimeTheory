@@ -48,7 +48,7 @@ Builds its own Python environment, fetches the Quaia catalogue from Zenodo (reco
 
 **If you're a human**: Then read `OneGeometry.md` (the narrative front door) or open `play/bst_explorer.html` in a browser.
 
-**If you want to verify a result**: Pick a constant from `data/bst_constants.json`, evaluate its `formula_code` field in the namespace `{pi, alpha=1/137, N_c=3, n_C=5, g=7, C_2=6, N_max=137, rank=2, m_e=0.511 MeV, m_p=938.272 MeV}`, and compare to `observed_value`.
+**If you want to verify a result**: Pick a constant from `data/bst_constants.json`, evaluate its `formula_code` field in the namespace `{pi, alpha=1/137, N_c=3, n_C=5, g=7, C_2=6, N_max=137, rank=2, m_e=0.511 MeV, m_p=6π⁵m_e=938.254 MeV}` (this line said m_p=938.272, the measured value, until 2026-09-29; the code has always used BST's own m_p; about 25 rows do not yet evaluate here — Elie 5842, Grace fixing), and compare to `observed_value`.
 
 ## Repository Layout
 
