@@ -1,0 +1,15 @@
+   field classes (z_t, z_s): {'H²': [(-1, 1)], 'Rac': [(-1, 1)], 'Di': [(1, -1)], 'φ': [(1, 1)], 'ψ': [(-1, -1)]}
+   E1 H²·Rac·φ     : tensor-product signs [(1, 1)]  W = +1  P = -1  (−1)^F = +1  → ALLOWED
+   E2 H²·Di        : tensor-product signs [(-1, -1)]  W = +1  P = -1  (−1)^F = -1  → FORBIDDEN
+   E3 H²·Di·ψ      : tensor-product signs [(1, 1)]  W = +1  P = -1  (−1)^F = +1  → ALLOWED
+   control Di·φ·φ  : tensor-product signs [(1, -1)]  W = -1  P = +1  (−1)^F = -1  → FORBIDDEN
+[PASS] E1 H²·Rac·φ is ALLOWED (both Z2s neutral), keeps W (+1) and BREAKS P (−1): the label is W, not H²-number  
+[PASS] E2 H²·Di is FORBIDDEN (clock and fermion parity both violated)  
+[PASS] E2 NUANCE (prereg, stated in advance): W(H²·Di) = +1 — W ALONE would allow it; the two Z2s (Cal's refinement) forbid it: W is necessary, not sufficient  
+[PASS] E3 H²·Di·ψ is ALLOWED, W = +1, fermion number even  
+[PASS] CONTROL fermion parity: every allowed vertex has (−1)^F = +1, and a single-fermion vertex Di·φ·φ is FORBIDDEN  
+
+READING: the full action constraint is the PAIR of Z2s (clock character, fermion parity); W is their product. E1 separates W from P;
+E2 shows W alone is not the whole constraint (it is W-even yet forbidden); E3 allowed; fermion parity conserved throughout.
+
+SCORE: 5/5
