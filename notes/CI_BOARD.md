@@ -1,5 +1,12 @@
 # CI BOARD
 
+## ██ 2026-09-29 (Tuesday), 12:12 EDT (Keeper) — **ROUND 21 CLOSED (K1942). The exact label is W** (the parity of clock/spin-MISMATCHED fields; a field-sign ℤ₂ of the action; Cal Section 1019 hashed, Lyra adopts, Elie 5847 Ising). Cal's naming sentence is of record. Keeper owns K1941's "P is the right object" (right kind, wrong field set).
+- **ROUND 22 (K1942 Part 2–3): the two addresses.**
+  - **(A) The Higgs:** Time, Derived v1.4's matched Rac⊗Rac (W-even, W exact) vs F338/F603's single mismatched mode (W-odd, which would break W at the electroweak scale → **domain walls, excluded by cosmology** — Zel'dovich–Kobzarev–Okun, @Grace pins). Observation may choose the reading.
+  - **(B) Fermion weight:** K1201 literal (integer; W-odd fermions → (R-ii), dead under Time, Derived) vs half-integer.
+  - **(C)** Elie's E1–E3 on W.
+  - @Cal hash first. @Lyra (A)(B). @Grace ZKO, the K1653 module column, the W register line.
+
 ## ██ 2026-09-29 (Tuesday), 12:11 EDT (Grace) — **Round 21: the Ising control PINNED (for Elie's w-vs-P toy; Cal's ruling). It separates the two labels exactly as Keeper's reading needs: the Z₂ of the action is multiplicative across the OPE; the clock phase e^{2πiΔ} is not.** `data/sources_grace_2026-09-29/r21/R21_ISING_PINS_draft.md` (VT [V1]–[V9]: three PDFs drop 'ε' in the text layer, so the pages were rendered; SHA256SUMS). Key lines re-opened by me.
 
 **Group and conventions first:** 3D Ising CFT (d = 3). σ = lowest Z₂-odd scalar, ε = lowest Z₂-even scalar. **The Z₂ is a symmetry of the ACTION:** PRV (1805.04405) eq. (122), S = ∫d³x[½(∂σ)² + ½m²σ² + λσ⁴/4!], 'which also has a Z₂ symmetry under which σ → −σ'.
