@@ -1,0 +1,14 @@
+   h(z,z): Šilov (t - 1)**2*(t + 1)**2;  rank-one -(t - 1)*(t + 1)
+[PASS] (1) Šilov direction: h = (1 − t²)² ⇒ A_ν = (1 − t²)^ν exactly (general ν)  
+[PASS] (1) rank-one direction: h = 1 − t² ⇒ A_ν = (1 − t²)^{ν/2} exactly (general ν)  
+[PASS] (1) primitive idempotent: |c|² = 1/2, c·c = 0 (rank-one), x·x = 1 (Šilov)  
+   Hardy boundary integral / h(z,z)^{-5/2}  (t, Šilov, rank-one): [(0.2, 1.0, 1.0), (0.5, 1.0, 1.0), (0.7, 1.0, 1.0)]
+[PASS] (2) CONTROL Hardy point: the Šilov-boundary L² norm of S(·,z) reproduces h(z,z)^{−5/2} along the Šilov direction  
+[PASS] (2) CONTROL Hardy point: … and along the rank-one direction (the kernel and both direction definitions are right)  
+[PASS] (2) the boundary measure is normalised (S(z,0) = 1, ‖1‖ = 1)  
+[PASS] (3) inversion: an observed exponent E = 7/2 means ν = 7/2 on a Šilov direction, ν = 7 on a rank-one direction  
+
+READING: Lyra's two exponents are exact: A_ν = (1−t²)^ν along a Šilov direction and (1−t²)^{ν/2} along a rank-one direction; the
+Hardy control (a genuine boundary integral) confirms the kernel and both directions. Which direction the condensate occupies is Lyra's.
+
+SCORE: 7/7
