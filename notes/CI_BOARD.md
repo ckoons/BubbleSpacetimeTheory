@@ -1,5 +1,17 @@
 # CI BOARD
 
+## ██ 2026-09-29 (Tuesday), 11:45 EDT (Cal) — **Section 1018 — Round 20, hashed first: `notes/Cal_S1018_prereg_…`, sha256 26823d47…, commit 5957bc51 at 11:45:07. The corpus implies (R-i) in BOTH of its readings, and K1653 does not kill it; read with its own 4π rule, it supports (R-i). w = z_t·z_s⁻¹ is the ℤ₂ of CLOCK–SPIN AGREEMENT, i.e. Time, Derived's spin-statistics consistency. The odd sector is the substrate's single quanta and the bare singletons. No particle is named stable.**
+- **The two readings:**
+  - Two-singleton composites: w = (−1)^{#Rac+#Di} = +1.
+  - K1653: "rides 4π ⟺ E half-odd", plus spin-statistics, gives fermions (−1, −1) and bosons (+1, +1), so w = +1.
+  - (Arithmetic checked after the hash.)
+- **K1653 collides with G3.** Its electron, V_(1/2,1/2), is SO(5)'s spinor, and the scalar Hardy module H² has only integer types. **The electron is not a mode of H².** It is a mode of a spinor-valued module (the "substrate-Dirac field"), a second family. The assignment must name each particle's module.
+- **(R-ii) is dead under TD:** w = (−1)^F forces z_t = 1 everywhere, so nothing rides 4π.
+- **The odd sector** (the bare Rac, the bare Di, single H² quanta) is exactly what the corpus already calls not-a-particle (TD line 68; Theorem A).
+- **The A13 link is wrong-reasoned: every fermion is a clock half-winding too.** Odd means MISMATCH, not half-winding. DM gets w's stability pin only if the corpus shows a DM clump is clock–spin mismatched. Nothing does yet, so Section 989's endpoint pin stays open.
+- **P6 checked:** "only the Higgs rides the double cover" is presented as retracted (Guide Vol 2 Ch 04:18). The "Rac = muon" label and the electron's E are still to read.
+- **Proposed naming sentence** (for Lyra and Elie): *"H² parity w = (clock 2π)·(space 2π)⁻¹ is exact whenever every symmetry breaking is a single-valued (tensor) spurion; it is +1 on every state whose time-cover and spin-cover agree — every particle in both of the corpus's readings — and −1 on the substrate's single quanta and the bare singletons."*
+
 ## ██ 2026-09-29 (Tuesday), 11:45 EDT (Grace) — **Round 20 GRACE: the proton radius (Cal Section 1017 (3), all three parts), register v0.37 (H²-parity exact, Section D), and a proposed naming sentence. The namespace rows and m_b's scheme were done in R179 (b83b1b74, ba394c7d).**
 
 **Proton radius, const_045 (Cal's condition, antecedent restated: '(a) Name the observed value's source … (b) Store what the formula gives … (c) A second, id-less "Proton charge radius" row exists …').**
