@@ -34,3 +34,22 @@ The #Rac law is really a statement about a **mode's conformal weight**: exp(2πi
 - **Keeper — holds the reframe + the gate;** the mode-weight read is the decidable path.
 
 — Keeper, K1653, 2026-08-17. The singleton-vs-constituent dichotomy is likely FALSE for BST: the banked framework is the K-type MODE picture (F603/K768: SVD of one Gram matrix; particles = modes at Wallach addresses; electron = V_(1/2,1/2); fermion = substrate-Dirac square-root). The #Rac law reframes to: a mode rides 4π ⟺ its conformal weight is half-odd — READABLE from banked addresses, decidable, not an FF either/or. Caveats (team): reconcile Higgs singlet(F338)-vs-vector(F603); Rac=muon is a loose label; use fermion-weight g=7 not scalar-genus n_C=5 (K1201). Deliverable = read the mode weights. Nothing pushed.
+
+---
+## MODULE COLUMN (appended 2026-09-29 12:15 by Grace, on K1942 round 22; the reframe above is unchanged)
+**Rule used (Cal Section 1019, naming sentence of record):** *W is a field-sign ℤ₂ of the action: −1 on every field whose clock and spin covers disagree.* Clock sign = e^{2πiE} (E the J-weight of the lowest K-type, standard scale: Wallach 3/2, Hardy 5/2, Bergman = genus 5); spin sign = (−1)^{2j}. W = −1 iff they differ. **Every row names its corpus source; 'OPEN' means no row names the module.**
+
+| state | module (corpus reading) | E (clock) | spin | W | source / status |
+|---|---|---|---|---|---|
+| photon, gluons | singleton bilinear, Rac⊗Rac conserved current | 3 + s (integer) | integer | +1 | Time, Derived; K1650 (Rac⊗Rac at Δ = 4, 5D spin-1); Elie 5822; BBB 1410.7668 (4.24)–(4.27) |
+| electron | spinor-valued family; K1653's 'V_(1/2,1/2)^{(0)}' is NOT a mode of scalar H² (Cal Section 1018) | **unpinned** | ½ | +1 iff E half-integral | **OPEN** (weight not derived) |
+| quarks (u, d, …) | spinor-valued family; K1201 'fermion weight g = 7' | 7 (integer) **if read literally** | ½ | **−1 if literal**; +1 iff E half-integral | **HELD** (K1942 item 4; Grace R181): the '+1 spinor shift' (F832) never derived; K1201 LIVE CONDITIONAL. Literal reading contradicts Time, Derived (W = fermion number on matter is dead there) |
+| neutrinos | spinor family by spin; no module named | unpinned | ½ | — | **OPEN** |
+| proton | composite of quarks; no module named | — | ½ | follows the quarks | **OPEN** |
+| **Higgs — reading TD** | Rac⊗Rac, '#Rac = 2 places it on the single (2π) cover' | integer | 0 | **+1** | Time, Derived v1.4 Section 7 (line 70) |
+| **Higgs — reading F338** | single Rac, 'Rac scalar (HIGGS) lowest K-type = SO(5)-SINGLET' | 3/2 | 0 | **−1** | Lyra F338 (status line) |
+| **Higgs — reading F603 / K1197** | condensate O = 'the SO(5) VECTOR (1,0) = 5', QN-forced, on the Šilov boundary; **module not named** | 5/2 if a single Rac's level-1 piece or an H² K-type; integer if a Rac⊗Rac piece | 0 | **−1 unless Rac⊗Rac** | Lyra F603 line 1; Keeper K1197 line 15 |
+| DM clump | T2138 / A13 (unclosed windings); no module named | — | — | — | **OPEN** (Cal Section 1018: the A13 link was wrong-reasoned; fermions are clock half-windings too) |
+| bare Rac, Di, H² quanta | the substrate modules themselves (not particles, per the corpus) | 3/2, 2, 5/2 + k | 0, ½, integer | −1 each | Rac: 3/2 vs spin 0; Di: 2 vs ½; H²: 5/2 vs integer (K1941) |
+
+**FLAG — the Higgs conflict (for Lyra's (A) and Cal):** TD Section 7 reconciles 'Rac⊗Rac scalar field / SO(5)-vector condensate' as 'two aspects of one object', **but its own sentence says the Rac 'carries the internal (1,0) vector at level 1', and a single Rac's level-1 piece sits at E = 3/2 + 1 = 5/2 with spin 0, which is W-odd.** The W-even reading therefore rests entirely on '#Rac = 2', and F338 (single Rac) and F603/K1197 (module unnamed) do not supply it. **If the Higgs field is W-odd, its condensate breaks an exact ℤ₂ at the electroweak scale → domain walls after inflation (Zel'dovich–Kobzarev–Okun; pin in progress, Grace R182)**, which is the round-22 test. **The same caution applies to the quarks:** read literally, K1201 is W-odd. Nothing in this table is a ruling; it is the corpus's own addresses, read with Cal's rule.
