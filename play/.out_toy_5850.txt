@@ -1,0 +1,4 @@
+S1 h(tu,tu) = (1-t^2)^2 for Silov points at several phases -> True
+S2 Silov ray nu = [7/2] ; rank-one control nu = [7] -> True
+S3 z_t(7/2) = -1 = z_s(spinor): matched; z_t(7) = +1: mismatched -> True
+SCORE 3/3
