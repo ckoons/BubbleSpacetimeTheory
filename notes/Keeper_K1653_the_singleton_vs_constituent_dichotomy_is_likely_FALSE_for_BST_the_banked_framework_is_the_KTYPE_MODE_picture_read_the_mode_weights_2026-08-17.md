@@ -64,3 +64,10 @@ The #Rac law is really a statement about a **mode's conformal weight**: exp(2πi
   - (v) **Cosmology does NOT choose the reading:** on an SU(2) doublet W's sign flip is the SU(2) centre, a gauge element; the vacuum manifold S³ is connected; no walls (Cal Sections 1020–1021; Grace R182 gap; gauge-centre pin in progress, R183). **ZKO bites only a W-odd gauge SINGLET.**
 - **Quarks — CONFLICT MARKED, direction-dependent (Lyra R22):** K1201's matched Yukawa exponent 7 reads as **ν = 7/2 along a Šilov (boundary) direction** (half-integer clock: MATCHED, consistent with Time, Derived) or **ν = 7 along a rank-one direction** (integer clock: MISMATCHED, W-odd, contradicting Time, Derived). **One geometric fact decides it: the condensate's direction** (Lyra, round 23), with both overlap exponents computed exactly (Elie, control at the Hardy point). Until then the quark row stays HELD.
 - **Unchanged OPEN rows:** electron, neutrinos, proton, DM clump (no module named).
+
+
+### ROUND-23 UPDATE (appended 2026-09-29 13:32 by Grace)
+- **Naming of record (Cal Section 1022):** the operative sign is the clock sign **Z_t = e^{2πiE}**; W = Z_t·(−1)^F. On every observed particle Z_t = (−1)^F (not observable today; a consistency filter).
+- **Higgs row:** F338's single-Rac reading **RETIRED** (Cal Section 1022 (2)); the Higgs = the **Rac⊗Rac scalar** (Z_t = +1, W-even) per Time, Derived v1.5, **pending Casey's GO**. F603/K1197's condensate is that scalar's bi-doublet piece.
+- **Quark row:** **RESOLVED to MATCHED** — the condensate sits on the Šilov boundary (K1197 verbatim; Lyra R23), so K1201's matched Yukawa gives **ν = 7/2** (half-integer clock, Z_t = −1 = (−1)^F, W = +1); the rank-one ν = 7 (mismatched) is the control that did not apply (Elie 5851). The derivation of ν = g/2 from the spinor family is still OWED.
+- **Still OPEN:** electron, neutrinos, proton, DM clump — no module named.
