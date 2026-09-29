@@ -1,0 +1,1681 @@
+                                                                                                                            LPTENS–12/07
+
+
+
+
+                                                                     Solving the 3D Ising Model
+                                                                    with the Conformal Bootstrap
+
+
+                                                           Sheer El-Showka , Miguel F. Paulosb , David Polandc ,
+
+
+
+
+arXiv:1203.6064v3 [hep-th] 1 Aug 2012
+                                                      Slava Rychkovd , David Simmons-Duffine , Alessandro Vichif
+
+                                                       a
+                                                           Institut de Physique Théorique CEA Saclay, CNRS-URA 2306,
+                                                                            91191 Gif sur Yvette, France
+
+                                                 b
+                                               Laboratoire de Physique Théorique et Hautes Energies, CNRS UMR 7589,
+                                            Université Pierre et Marie Curie, 4 place Jussieu, 75252 Paris Cedex 05, France
+
+                                                            c
+                                                                School of Natural Sciences, Institute for Advanced Study,
+                                                                          Princeton, New Jersey 08540, USA
+
+                                                                d
+                                                             Faculté de Physique, Université Pierre et Marie Curie
+                                                & Laboratoire de Physique Théorique, École Normale Supérieure, Paris, France
+
+                                            e
+                                                Jefferson Physical Laboratory, Harvard University, Cambridge, MA 02138, USA
+
+                                        f
+                                          Theoretical Physics Group, Ernest Orlando Lawrence Berkeley National Laboratory
+                                        & Center for Theoretical Physics, University of California, Berkeley, CA 94720, USA
+
+
+
+                                                                                       Abstract
+
+                                                    We study the constraints of crossing symmetry and unitarity in general 3D Confor-
+                                                mal Field Theories. In doing so we derive new results for conformal blocks appearing
+                                                in four-point functions of scalars and present an efficient method for their computation
+                                                in arbitrary space-time dimension. Comparing the resulting bounds on operator
+                                                dimensions and OPE coefficients in 3D to known results, we find that the 3D Ising
+                                                model lies at a corner point on the boundary of the allowed parameter space. We also
+                                                derive general upper bounds on the dimensions of higher spin operators, relevant in
+                                                the context of theories with weakly broken higher spin symmetries.
+
+
+
+
+                                            March 2012
+Contents
+1 Introduction                                                                                2
+
+2 Operator Content of the 3D Ising Model                                                     3
+
+3 Conformal Bootstrap                                                                        5
+
+4 Conformal Blocks                                                                            6
+
+5 Bounds and Consequences for the 3D Ising Model                                             10
+  5.1   Bounds on ∆ε . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   11
+  5.2   Bounds Assuming a Gap Between ε and ε0 . . . . . . . . . . . . . . . . . . .         13
+  5.3   Bounds on the Gap in the Spin 2 Sector . . . . . . . . . . . . . . . . . . . .       15
+  5.4   Bounds on Higher Spin Primaries . . . . . . . . . . . . . . . . . . . . . . . .      16
+  5.5   Bounds on the Central Charge . . . . . . . . . . . . . . . . . . . . . . . . . .     20
+
+6 Discussion                                                                                 21
+
+A Recursion Relations at Fixed External Dimensions                                           24
+
+B Scalar and Spin 1 Blocks at z = z̄                                                         25
+
+C Recursion Relation for the Transverse Derivatives                                          27
+
+D Linear Programming Implementation                                                          27
+
+
+
+
+                                              1
+1    Introduction
+This paper is the first in a series of works which will conceivably lead to a solution of the
+Conformal Field Theory (CFT) describing the three dimensional (3D) Ising model at the
+critical temperature. Second-order phase transitions in a number of real-world systems are
+known to belong to the same universality class: most notably liquid-vapor transitions and
+transitions in binary fluids and uniaxial magnets.
+    Field-theoretical descriptions of critical phenomena and computations of critical expo-
+nents have a long tradition [1]. One well-known approach to this problem is the -expansion
+[2]. In this method the critical exponents are computed using the usual, perturbative
+field theory in D = 4 −  dimensions, and the physically interesting case of D = 3 is
+obtained by extrapolating to  = 1. The obtained series in  are divergent and need to be
+resummed. Apart from small ambiguities, the final results for the critical exponents agree
+well with experiments and with a host of other approximation techniques (high-temperature
+expansion, Monte-Carlo simulations, etc.).
+    In this paper we will develop an alternative method for determining critical exponents
+in D = 3, based on Polyakov’s hypothesis of conformal invariance of critical fluctuations
+[3], which was a major motivation for the development of Conformal Field Theory. CFT
+methods have been extremely fruitful in D = 2, allowing one to solve many models of
+critical behavior [4]. The novelty of our project is to apply them in D = 3. The existing
+quantitative approaches to critical phenomena in D = 3 do not take full advantage of
+conformal invariance.
+    The CFT describing the 3D Ising model at criticality is not known to possess any
+additional symmetry apart from conformal invariance and Z2 invariance. For this reason we
+will be able to rely only on the most general properties of conformal theories. The study of
+such general properties goes back to the 1970s. The required fundamental concepts are the
+classification of primary operators, the conformally-invariant operator product expansion,
+conformal blocks, and the idea of the nonperturbative conformal bootstrap, which were
+introduced in the work of Mack and Salam [5], Ferrara, Gatto, Grillo and Parisi [6–11] and
+Polyakov [12]. In addition, we will need explicit expressions for the conformal blocks. Here
+we will be able to rely on the recent work of Dolan and Osborn [13–15].
+   While most of these ingredients were understood many years ago, until recently it was
+not known how to put them together in order to extract dynamical information about CFTs.
+This important know-how was developed in a series of recent papers [16–23]. That work
+was largely motivated by particle physics (in particular the theory of electroweak symmetry
+breaking) and concerned CFT in D = 4. However, the time is now ripe to transfer these
+techniques to D = 3. The cases D = 3 and D = 4 are similar in that the conformal algebra
+has finitely many generators (unlike in D = 2 where it has an infinite-dimensional extension,
+the Virasoro algebra).
+   This paper is structured as follows. In Section 2 we review what is known about the
+operator content of the 3D Ising model. In Section 3 we discuss the conformal bootstrap
+approach to studying 3D CFTs, and in Section 4 we present an efficient method for com-
+
+                                             2
+puting the conformal partial waves appearing in four-point functions of scalars for CFTs in
+any dimension (including D = 3). In Section 5 we present bounds on 3D CFTs that follow
+from crossing symmetry and compare them to what is known about the 3D Ising model.
+Finally, we discuss our results and future directions for this program in Section 6.
+
+
+2    Operator Content of the 3D Ising Model
+We assume that the reader is familiar with the basic facts about the Ising model and the
+critical phenomena in general, see [24–27, 1].
+   In this paper, we will be aiming for a solution of the 3D Ising model in the continuum
+limit and at the critical temperature T = Tc . While the 2D Ising model was solved exactly
+on the lattice and for any temperature by Onsager and Kaufman in the 1940’s, the 3D lattice
+case has resisted all attempts for an exact solution. Istrail [28] proved in 2000 that solving
+the 3D Ising model on the lattice is an NP-complete problem. However, this theorem does
+not exclude the possibility of finding a solution in the continuum limit.
+    The standard way to think about the continuum theory is in terms of local operators (or
+fields). At T = Tc , the theory has scale (and, as we discuss below, conformal) invariance,
+and each operator is characterized by its scaling dimension ∆ and O(3) spin. The operators
+of spin higher than 1 are traceless symmetric tensors.
+     In Table 1 we list a few notable local operators, which split into odd and even sectors
+under the global Z2 symmetry (the Ising spin flip). The operators σ and ε are the lowest
+dimension Z2 -odd and even scalars respectively—these are the continuum space versions of
+the Ising spin and of the product of two neighboring spins on the lattice. The two next-
+to-lowest scalars in each Z2 -sector are called σ 0 and ε0 . Their dimensions are related to
+the irrelevant critical exponents ωA and ω measuring corrections to scaling. The operator
+ε00 is analogously related to the next-to-leading Z2 -even irrelevant exponent ω2 . The stress
+tensor Tµν has spin 2 and, as a consequence of being conserved, canonical dimension ∆T = 3.
+The lowest-dimension spin 4 operator Cµνκλ has a small anomalous dimension, related to
+the critical exponent ωNR measuring effects of rotational symmetry breaking on the cubic
+lattice.
+
+                    Operator    Spin l   Z2   ∆             Exponent
+                       σ          0      −    0.5182(3)     ∆ = 1/2 + η/2
+                       σ0         0      −    & 4.5         ∆ = 3 + ωA
+                       ε          0      +    1.413(1)      ∆ = 3 − 1/ν
+                       ε0         0      +    3.84(4)       ∆=3+ω
+                      ε00         0      +    4.67(11)      ∆ = 3 + ω2
+                      Tµν         2      +    3             n/a
+                     Cµνκλ        4      +    5.0208(12)    ∆ = 3 + ωNR
+
+
+           Table 1: Notable low-lying operators of the 3D Ising model at criticality.
+
+
+                                               3
+    The approximate values of operator dimensions given in the table have been determined
+from a variety of theoretical techniques, most notably the -expansion, high temperature
+expansion, and Monte-Carlo simulations; see p. 47 of Ref. [1] for a summary. The achieved
+precision is rather impressive for the lowest operator in each class, but quickly gets worse
+for the higher fields. While ultimately we would like to beat the old methods, it would be
+unwise to completely dismiss this known information and restart from scratch. Rather, we
+will be using it for guidance while sharpening our own methods.
+    Among the old techniques, the -expansion of Wilson and Fisher [2] deserves a separate
+comment. The well-known idea of this approach is that the 3D Ising critical point and the
+4D free scalar theory can be connected by a line of fixed points by allowing the dimension
+of space to vary continuously between 3 and 4. For D = 4 − , the Wilson-Fisher fixed point
+is weakly coupled and the dimensions of local operators can be expanded order-by-order in
+. For the most important operators, like σ and ε, these expansions have been extended to
+terms of order as high as 5 [26], requiring a five-loop perturbative field theory computation.
+However, as often happens in perturbation theory, the resulting series are only asymptotic.
+For the physically interesting case  = 1, their divergent nature already starts to show
+after the first couple of terms. Nevertheless, after appropriate resummation the -expansion
+produces results in agreement with the other methods. So its basic hypothesis must be
+right, and can give useful qualitative information about the 3D Ising operator spectrum,
+even where accurate quantitative computations are missing.
+    It is now time to bring up the conformal invariance of the critical point, conjectured
+by Polyakov [3]. This symmetry is left unused in the RG calculations leading to the -
+expansion, and in most other existing techniques.1 This is because it only emerges at the
+critical point; it’s not present along the flow. Conformal invariance seems to be a generic
+feature of criticality, but why exactly is not fully understood [31]. Recently there has been
+a renewed interest in the question of whether there exist interesting scale invariant but not
+conformal systems [32–37]. We will simply assume as a working hypothesis that the 3D
+Ising critical point is conformal.
+   A nice experimental test of conformal invariance would be to measure the three-point
+function hσ(x)σ(y)ε(z)i on the lattice, to see if its functional form agrees with the one fixed
+by conformal symmetry [3]. We do not know if this has been done.
+    Using 3D conformal invariance, local operators can be classified into primaries and
+descendants [5]. The primaries2 transform homogeneously under the finite-dimensional con-
+formal group, while the descendants are derivatives of primaries and transform accordingly.
+All operators listed in Table 1 are primaries. This is obvious for σ and ε—the lowest
+dimension scalars in each Z2 -symmetry class. That σ 0 , ε0 , ε00 , Cµνκλ are all primaries and
+not derivative operators follows from the fact that they are associated with corrections to
+scaling, while adding a derivative operator to the Lagrangian has no effect. Finally, the
+stress tensor is always a primary.
+      It can be seen that all operators in Table 1 have non-negative anomalous dimensions
+  1
+      Conformal invariance has been used in studies of critical O(N ) models in the large N limit [29, 30].
+  2
+      These are usually called quasi-primaries in 2D CFTs.
+
+
+                                                       4
+(by which we mean the difference between the operator dimension and the dimension of
+the lowest 3D free scalar theory operator with the same quantum numbers). This is not
+accidental, but is related to reflection positivity, which is the Euclidean space version of
+unitarity. Primaries in reflection positive (or unitary) CFTs are known to have non-negative
+anomalous dimensions [11, 38–41]:
+
+                   ∆ ≥ D/2 − 1 (l = 0) ,          ∆ ≥ l + D − 2 (l ≥ 1) .                (2.1)
+
+The 3D Ising model is reflection positive on the lattice [42], and this property is inherited
+in the continuum limit, so that the ‘unitarity bounds’ (2.1) are respected.
+    Can conformal symmetry be used to determine the local operator dimensions rather
+than to interpret the results obtained via other techniques? In 2D this was done long ago
+[4] using the Virasoro algebra. This also justified post factum the assumption of conformal
+invariance, since the critical exponents and other quantities agreed with the exact lattice
+solution. The Virasoro algebra does not extend to 3D, but in the next section we will
+describe a method which is applicable for any D.
+
+
+3    Conformal Bootstrap
+Primary operators in a CFT form an algebra under the Operator Product Expansion (OPE).
+This means that the product of two primary operators at nearby points can be replaced
+inside a correlation function by a series in other local operators times coordinate-dependent
+coefficient functions. Schematically, the OPE of two primaries has the form:
+                                            X
+                         φi (x1 )φj (x2 ) =   fijk C(x1 − x2 , ∂2 )φk (x2 ).             (3.1)
+                                         k
+
+The differential operators C are fixed by conformal invariance, and only primary operators
+need to be included in the sum on the RHS. Here we are suppressing indices for clarity. In
+general, scalar operators as well as operators of nonzero spin will appear on the RHS. Fairly
+explicit expressions for the C’s have been known since the 70’s, at least in the case when
+the φi,j are scalars and φk is a traceless symmetric tensor of arbitrary rank [6, 13], but we
+will not need them here.
+   The numerical coefficients fijk are called structure constants, or OPE coefficients. These
+numbers, along with the dimensions and spins of all primary fields, comprise the ‘CFT data’
+characterizing the algebra of local operators.
+   The conformal bootstrap condition [8, 12, 4], shown schematically in Fig. 1, says that
+the operator algebra must be associative. In that figure we consider the correlator of four
+primaries
+                               hφ1 (x1 )φ2 (x2 )φ3 (x3 )φ4 (x4 )i                     (3.2)
+and use the OPE in the (12)(34) or (14)(23)-channel to reduce it to a sum of two-point
+functions. The answer should be the same, which gives a quadratic condition on the
+
+
+                                              5
+structure constants of the schematic form
+                            X                      X
+                               f12k f34k (. . .) =   f14k f23k (. . .) .                                   (3.3)
+                                    k                       k
+
+The (. . .) factors are functions of coordinates xi , called conformal partial waves. They are
+produced by acting on the two-point function of the exchanged primary field φk with the
+differential operators C appearing in the OPE of two external primaries. Thus, they are also
+fixed by conformal invariance in terms of the dimensions and spins of the involved fields.
+
+                     φ1                        φ4                      φ1                        φ4
+                                                                                   f14k
+             �                    φk                            �
+                       f12k                f34k         =                               φk
+               k                                                 k
+                     φ2                        φ3                      φ2          f23k          φ3
+      Figure 1: The conformal bootstrap condition = associativity of the operator algebra.
+
+
+   The dream of the conformal bootstrap is that the condition (3.3), when imposed on four-
+point functions of sufficiently many (all?) primary fields, should allow one to determine the
+CFT data and thus solve the CFT. Of course, there are presumably many different CFTs,
+and so one can expect some (discrete?) set of solutions. One of the criteria which will help
+us to select the solution representing the 3D Ising model is the global symmetry group,
+which must be Z2 .
+   Our method of dealing with the conformal bootstrap will require explicit knowledge of
+the conformal partial waves. In the next section we will gather the needed results.
+
+
+4      Conformal Blocks
+In this paper we will be imposing the bootstrap condition only on four-point functions of
+scalars. Conformal partial waves for such correlators were introduced in [7] and further
+studied in [9, 10]; they were also discussed in [12]. Recently, new deep results about them
+were obtained in [13–15]. Significant progress in understanding non-scalar conformal partial
+waves was made recently in [43] (building on [44]), which also contains a concise introduction
+to the concept. Below we’ll normalize the scalar conformal partial waves as in [15]; see
+Appendix A for further details on our conventions.
+   Consider a correlation function of four scalar primaries φi of dimension ∆i , which is fixed
+by conformal invariance to have the form [3]
+                                          2  12 ∆12  2  12 ∆34
+                                          x24          x14                       g(u, v)
+    hφ1 (x1 )φ2 (x2 )φ3 (x3 )φ4 (x4 )i =   2            2                  1               1           ,   (4.1)
+                                          x14          x13         (x212 ) 2 1 2 ) (x234 ) 2 (∆3 +∆4 )
+                                                                             (∆ +∆
+
+
+                                                        6
+where xij ≡ xi − xj , ∆ij ≡ ∆i − ∆j , and g(u, v) is a function of the conformally invariant
+cross-ratios
+                                      x2 x234           x214 x223
+                                u = 12          ,  v =            .                    (4.2)
+                                      x213 x224         x213 x224
+The conformal partial wave expansion in the (12)(34) channel gives a series representation
+for this function:                      X
+                             g(u, v) =        f12O f34O G∆,l (u, v) ,                  (4.3)
+                                             O
+where the sum is over the exchanged primaries O of dimension ∆ and spin l and the functions
+G∆,l (u, v) are called conformal blocks. We must learn to compute them efficiently.
+    In even dimensions, conformal blocks have relatively simple closed-form expressions in
+terms of hypergeometric functions [10, 13–15]. For example, the 2D and 4D blocks are given
+by:
+                                       1
+                         GD=2
+                          ∆,l (u, v) =    [k∆+l (z)k∆−l (z̄) + (z ↔ z̄)] ,
+                                       2
+                                   1     z z̄
+                   GD=4
+                    ∆,l (u, v) =              [k∆+l (z)k∆−l−2 (z̄) − (z ↔ z̄)] ,           (4.4)
+                                 l + 1 z − z̄
+where                                                                            
+                       kβ (x) ≡ xβ/2 2 F1    1
+                                             2
+                                               (β − ∆12 ), 21 (β + ∆34 ); β; x       ,     (4.5)
+and the complex variable z and its complex conjugate z̄ are related to u, v via
+                                 u = z z̄,    v = (1 − z)(1 − z̄) .                        (4.6)
+The meaning of the variable z is explained in Fig. 2. From the known analyticity properties
+of 2 F1 , it follows that the conformal blocks are smooth single-valued functions in the z plane
+minus the origin and the (1, +∞) cut along the real axis. This is not accidental and should
+be valid for any D. By standard radial quantization reasoning (see [45], Sec. 2.9), the OPE
+by which the conformal blocks are defined is expected to converge as long as there is a sphere
+separating x1 and x2 from x3 and x4 . This sphere degenerates into a plane and disappears
+precisely when z crosses the cut.
+   We now pass to the results for general D, including the case D = 3 we are interested in,
+which are rather more complicated. From now on we consider only conformal blocks of four
+identical scalars, so that ∆12 = ∆34 = 0. In any dimension, such blocks depend only on
+the dimension and spin of the exchanged primary. For scalar exchange (l = 0), conformal
+blocks have a double power series representation ([13], Eq. (2.32)):
+                                    ∞
+                                    X
+                              ∆/2             [(∆/2)m (∆/2)m+n ]2
+              G∆,0 (u, v) = u                           D
+                                                                     um (1 − v)n ,         (4.7)
+                                    m,n=0
+                                          m! n!(∆ + 1 −   )
+                                                        2 m
+                                                            (∆) 2m+n
+
+where (x)n is the Pochhammer symbol. In this paper we will only use this representation
+at z = z̄, in order to derive the closed form expression (4.10) given below. In principle the
+series converges absolutely in the region
+                                        (
+                                          1,         0 ≤ u < 1,
+                              |1 − v| <    √                                            (4.8)
+                                          2 u − u, u ≥ 1 ,
+
+                                                   7
+                                                               x4 → ∞
+                                   1             x2
+                                          z
+                                 x1              x3
+                                                  1            2
+
+
+                                 �1
+
+
+  Figure 2: Using conformal freedom, three operators can be fixed at x1 = 0, x3 = (1, 0, . . . , 0),
+  x4 → ∞, while the fourth point x2 can be assumed to lie in the (12) plane. The variable z
+  is then the complex coordinate of x2 in this plane, while z̄ is its complex conjugate. Also
+  shown: the conformal block analyticity cut (thick black), and the boundary of the absolute
+  convergence region of the power series representation (4.7) (thin red).
+
+
+
+whose boundary is traced in red in Fig. 2.
+    For exchanged operators of nonzero spin, the conformal blocks can be computed via vari-
+ous recursion relations. Some recursion relations previously appeared in [13], Eqs. (2.30), but
+these will not be useful for us since they express the blocks with equal external dimensions
+in terms of blocks where the external dimensions differ by an integer.
+   In Appendix A, we exhibit a recursion relation which follows from the results of Ref. [15]
+and does not require shifts in the external dimensions. In general, this recursion involves
+taking derivatives of G∆,l (z, z̄), which is not very easy to perform numerically. However,
+along the line z = z̄ the terms involving derivatives drop out and the recursion relation for
+the conformal block G∆,l (z) ≡ G∆,l (z, z) becomes extremely simple:
+
+  (l + D − 3)(2∆ + 2 − D)G∆,l (z)
+                                          2−z
+        = (D − 2)(∆ + l − 1)G∆,l−2 (z) +       (2l + D − 4)(∆ − D + 2)G∆+1,l−1 (z)
+                                            2z
+              ∆(2l + D − 4)(∆ + 2 − D)(∆ + 3 − D)(∆ − l − D + 4)2
+           −                                                           G∆+2,l−2 (z). (4.9)
+             16(∆ + 1 − D2 )(∆ − D2 + 2)(l − ∆ + D − 5)(l − ∆ + D − 3)
+
+   This recursion relation can easily compute all conformal blocks along the z = z̄ line in
+terms of spin 0 and 1 blocks.3 On the other hand, as shown in Appendix B, the spin 0 and 1
+blocks along the z = z̄ line can be simply expressed in terms of generalized hypergeometric
+  3
+     This works for general D. In D = 3, one can instead recurse from G∆,0 and G∆,−1 ≡ G∆,0 , where the
+latter equality follows from (A.3).
+
+
+
+                                                  8
+functions (α ≡ D/2 − 1):
+                              ∆/2                                       
+                          z2                ∆ ∆ ∆     ∆+1            z2
+             G∆,0 (z) =              3 F2     , , − α; 2 , ∆ − α;
+                                             2 2 2
+                                                                             ,      (4.10)
+                         1−z                                      4(z − 1)
+                     2  ∆+1                                                  
+             2−z       z     2
+                                        ∆+1 ∆+1 ∆+1      ∆                z2
+  G∆,1 (z) =                    3 F2     2
+                                            , 2 , 2 − α; 2 + 1, ∆ − α;            . (4.11)
+              2z      1−z                                              4(z − 1)
+
+     These explicit expressions, together with the recursion relation (4.9), solve the problem
+of finding conformal blocks along the z = z̄ line. What about z 6= z̄? We should explain that
+in our numerical implementation of conformal bootstrap we will not actually use the values
+of conformal blocks at generic values of z. Instead, we will Taylor-expand the conformal
+bootstrap condition around the point z = z̄ = 1/2. This is an approach which proved
+efficient in prior work in 4D and 2D, and we will pursue it here as well. So, we will have to
+evaluate derivatives of conformal blocks at the point z = z̄ = 1/2, both along and transverse
+to the z = z̄ line.
+    Now, derivatives along the z = z̄ line will be evaluated as follows. For the spin 0 and 1
+conformal blocks we can take advantage of the fact that the 3 F2 hypergeometric functions
+satisfy a third-order differential equation:
+                                                     
+                 xD̂a1 D̂a2 D̂a3 − D̂0 D̂b1 −1 D̂b2 −1 3 F2 (a1 , a2 , a3 ; b1 , b2 ; x) = 0 , (4.12)
+
+where D̂c ≡ x∂x + c. This equation can be used to obtain recursion relations which express
+the third-order and higher derivatives of the spin 0 and 1 blocks in terms of their first and
+second derivatives. The values of the latter derivatives at z = z̄ = 1/2 will be tabulated as
+a function of ∆.
+    Derivatives of the higher spin blocks are then computed using the recursion relations
+following from (4.9). This completely settles the question of obtaining derivatives along the
+z = z̄ line.
+    In order to obtain the derivatives transverse to the z = z̄ line, we’ll take advantage of the
+fact that conformal partial waves are eigenfunctions of the quadratic Casimir operator of
+the conformal group, which implies that conformal blocks satisfy a second-order differential
+equation [14]:
+
+                               DG∆,l (z, z̄) = 12 C∆,l G∆,l (z, z̄) ,                         (4.13)
+
+where C∆,l ≡ ∆(∆ − D) + l(l + D − 2) and
+                                                      
+                         2 2     2         z z̄(1 − z)
+             D ≡ (1 − z)z ∂z − z − (D − 2)               ∂z + (z ↔ z̄) .                      (4.14)
+                                               z − z̄
+
+Let us now make a change of variables:
+                                    √                              √
+                          z = (a + b)/2,               z̄ = (a −       b)/2.                  (4.15)
+
+
+                                                   9
+The point z = z̄ = 1/2 which interests us corresponds to a = 1, b = 0. Moreover, since
+conformal blocks are symmetric in z ↔ z̄, their power series expansion away from the z = z̄
+line will contain only even powers of (z − z̄), and hence integer powers of b. In the new
+variables the differential operator D takes the form
+                                   
+              2 1                 2
+D = (2 − a)a       (D − 1)∂b + b ∂b
+                 2
+                                                                                         
+                    2 2      1                                      1 2        1       2 2
+      + (2 − 3a)b ∂b + (D − 9)a − a(3a − 4)∂a − D + 3 b ∂b − Da ∂a + (2 − a)a ∂a
+                             2                                      4          4
+                                                 
+                        1             1
+      + −b2 ∂a ∂b + (D − 4)∂a + (2 − 3a)∂a2 b ,                                     (4.16)
+                        4             4
+where the terms have been grouped into lines according to how they change the power of b.
+The first line contains the leading terms, which lower the power of b by one unit. Notice that
+the leading terms generate a nonvanishing coefficient when acting on any positive power of
+b, as long as 0 < a < 2 (which corresponds to 0 < z < 1). Thus, in a neighborhood of this
+interval the Casimir differential equation (4.13) can be solved à la Cauchy-Kovalevskaya,
+recursively in a power series expansion in b using the known conformal blocks at b = 0 as a
+boundary value.
+    Let us denote the ∂am ∂bn derivative of the conformal block evaluated at z = z̄ = 1/2 by
+hm,n . Since we know the conformal blocks along the z = z̄ line, we can compute all the
+derivatives hm,0 . On the other hand, the Cauchy-Kovalevskaya argument above implies that
+there will be a recursion relation for hm,n (with n > 0) in terms of hm,n with lower values
+of n. The recursion relation is given in Appendix C and has the general structure:
+                  X                     X
+       hm,n =          m(. . .)hm0 ,n +      [(. . .)hm0 ,n−1 + (n − 1)(. . .)hm0 ,n−2 ] . (4.17)
+               m0 ≤m−1               m0 ≤m+2
+
+The appearance of m0 up to m + 2 is related to the fact that, the Casimir equation being
+second-order, derivatives of up to second-order in a appear in the RHS of (4.16). The first
+term being proportional to m ensures that h0,n terms generated by repeatedly applying the
+recursion are eventually reduced to h1,0 and h0,0 . This recursion then solves the problem of
+computing the conformal block derivatives transverse to the line z = z̄.
+
+
+5     Bounds and Consequences for the 3D Ising Model
+In this section we will use the bootstrap equations discussed above in order to derive rigorous
+bounds on 3D CFTs. When comparing these bounds to the 3D Ising model, we’ll focus on
+constraints coming from the four-point function of the Ising spin operator hσσσσi. The
+conformal block expansion of this four-point function has the form
+                                   X
+                                                                 2
+                         g(u, v) =    p∆,l G∆,l (u, v) , p∆,l ≡ f∆,l ≥ 0,                  (5.1)
+
+where the sum runs over the dimensions and spins of all primary operators appearing in the
+σ × σ OPE. This OPE contains all of the Z2 -even operators listed in Table 1, in addition
+
+                                               10
+to infinitely many other even-spin operators. Note that odd-spin operators cannot appear
+because of Bose symmetry. The coefficients p∆,l appearing in the conformal block expansion
+are squares of the OPE coefficients, and are thus constrained to be positive.
+    The conformal bootstrap equation (3.3) takes a particularly simple form for this corre-
+lator, since the (12)(34) and (14)(23) channel involve the same OPE coefficients. It can be
+stated as a crossing symmetry constraint on the function g(u, v):
+
+                                  v ∆σ g(u, v) = u∆σ g(v, u) .                           (5.2)
+
+Substituting the conformal block decomposition, we get an equation
+                               X0                                        
+                  u∆σ − v ∆σ =     p∆,l v ∆σ G∆,l (u, v) − u∆σ G∆,l (v, u) ,             (5.3)
+       P
+where 0 is the sum over all operators except the unit operator, whose contribution has
+been separated in the LHS. It was shown in [16] and confirmed in subsequent work [17–23]
+that this type of equation can be used to extract dynamical information about 4D and 2D
+CFTs. We will now apply the same methods in 3D.
+    First, we will Taylor-expand (5.3) around the point z = z̄ = 1/2 up to some large
+fixed order. That this is a reasonable point to expand around follows from the fact that
+it is democratic with respect to the direct and crossed channels in the conformal block
+decomposition: by making a conformal transformation the four points can be put at the
+vertices of a square.
+    The Taylor-expanded (5.3) can be viewed as a finite system of linear equations (one for
+each Taylor coefficient) for a large (strictly speaking infinite) number of variables p∆,l . A
+priori, there is one variable p∆,l for each pair (∆, l) consistent with the unitarity bounds
+(2.1). However, one may wish to posit additional constraints on the spectrum (such as
+assumptions about gaps). Below we will study which of these constraints are consistent
+with the existence of a solution.
+    This system of linear equations should also be augmented by inequalities expressing the
+fact that variables p∆,l are non-negative. Fortunately, problems involving linear inequalities
+are almost as tractable as pure systems of linear equalities. These problems form a chapter
+of linear algebra called linear programming, and there exist efficient algorithms for solving
+them (such as Dantzig’s simplex method or interior point methods). Once the additional
+constraints on the spectrum are specified, one can use linear programming methods to find
+out if the system has a solution. If the answer is negative, a CFT with such a spectrum
+cannot exist. The details of our implementation of this problem are given in Appendix D.
+
+
+5.1    Bounds on ∆ε
+
+We are now ready to start asking concrete questions about the 3D Ising CFT to which we
+can give unambiguous answers. The first question is as follows. Let’s be agnostic about the
+dimension of the spin field, allowing it to vary in the interval 0.5 ≤ ∆σ . 0.8. The lower
+
+
+                                              11
+                            DΕ
+                          1.8
+                                 Ising
+                          1.6
+
+                          1.4
+
+                          1.2
+
+                          1.0
+                           0.50      0.55      0.60   0.65    0.70   0.75   0.80
+                                                                                   DΣ
+
+  Figure 3: Shaded: the part of the (∆σ , ∆ε ) plane allowed by the crossing symmetry constraint
+  (5.3). The boundary of this region has a kink remarkably close to the known 3D Ising model
+  operator dimensions (the tip of the arrow). The zoom of the dashed rectangle area is shown in
+  Fig. 4. This plot was obtained with the algorithm described in Appendix D with nmax = 11.
+
+
+
+end of this interval is fixed by the unitarity bound, while the upper end has been chosen
+arbitrarily. For each ∆σ in this range, we ask: What is the maximal ∆ε allowed by (5.3)?
+    The result is plotted in Fig. 3: only the points (∆σ , ∆ε ) in the shaded region are allowed.4
+Just like similar plots in 4D and 2D [16, 17, 23] the curve bounding the allowed region starts
+at the free theory point and rises steadily. Moreover, just like in 2D [17] the curve shows a
+kink whose position looks remarkably close to the Ising model point.5 This is better seen in
+Fig. 4 where we zoom in on the kink region. The boundary of the allowed region intersects
+the red rectangle drawn using the ∆σ and ∆ε error bands given in Table 1.
+
+                                DΕ
+                          1.44
+                          1.43
+                          1.42
+                                             Ising
+                          1.41
+                          1.40
+                          1.39
+                          1.38
+                            0.510           0.515     0.520      0.525
+                                                                                 D
+                                                                            0.530 Σ
+
+  Figure 4: The zoom of the dashed rectangle area from Fig. 3. The small red rectangle is
+  drawn using the ∆σ and ∆ε error bands given in Table 1.
+
+
+    From this comparison, we can draw two solid conclusions. First of all, the old results
+for the allowed dimensions are not inconsistent with conformal invariance, though they are
+   4
+     To avoid possible confusion: we show only the upper boundary of the allowed region. 0.5 ≤ ∆ε ≤ 1 is
+also a priori allowed.
+   5
+     In contrast, the 4D dimension bounds do not show kinks, except in supersymmetric theories [23].
+
+
+                                                        12
+based on completely different techniques. Second, we can rigorously rule out about half of
+the (∆σ , ∆ε ) rectangle allowed by the table. It seems that the 3D Ising model lies remarkably
+close to the boundary of the allowed region, if not on the boundary. At present we don’t
+have an explanation of why this had to be the case.
+
+
+5.2    Bounds Assuming a Gap Between ε and ε0
+
+We will next give a series of plots showing the impact of assuming a gap in the Z2 -even
+scalar spectrum (as proposed in [46]). In other words, we will impose that the first operator
+after ε has dimension ∆ε0 above a certain value.
+   Going from weaker to stronger, we will consider three constraints: ∆ε0 ≥ 3, 3.4, 3.8.
+Thus, we will ask: What is the region of the (∆σ , ∆ε ) plane allowed by (5.3) when this extra
+constraint is taken into account?
+      The weakest of the three assumptions, ∆ε0 ≥ 3, has been chosen since it can be justified
+experimentally: we know that the 3D Ising critical point is reached by fine-tuning just one
+parameter (the temperature). Therefore, it has just one relevant Z2 -even scalar, ε, while
+ε0 , ε00 etc. must be irrelevant. As we see in Fig. 5(a), this piece of information allows to
+exclude a fair part of the region allowed by Fig. 3. Unfortunately, close to the 3D Ising we
+do not gain constraining power: the new and the old bounds coincide there.
+    On the other hand, the stronger assumptions ∆ε0 ≥ 3.4, 3.8 exclude a much larger portion
+of dimension space, carving out an allowed region with two branches; see Figs. 5(b,c). The
+upper branch seems to end at the 3D Ising point, while the lower branch terminates near the
+free theory. It is simple to understand why the intermediate region should not be allowed
+– assuming a gap ∆ε0 > ∆∗ should exclude the gaussian line ∆ε = 2∆σ up to a dimension
+of ∆σ = ∆∗ /2 − 1, since the spectrum of this solution is 2∆σ + 2n + l for integer n. Our
+bounds are slightly weaker than that.
+    Zooming in on the tip near the 3D Ising point, we see that the allowed region in Fig. 5(c)
+barely intersects with the red rectangle. Were we to assume even larger gaps, the intersection
+would eventually disappear altogether. We performed this analysis and found that this
+happens for ∆ε0 ≥ 3.840(2). This result rules out the upper half of the ∆ε0 range allowed by
+Table 1, assuming that the more accurate determinations of ∆σ and ∆ε in the same table
+are correct.
+    The same phenomenon is seen in a slightly different way in Fig. 6. Here we compute the
+maximal allowed ∆ε0 under the condition that ∆ε has already been fixed to the maximal
+value allowed by Fig. 3. Notice the rapid growth of the ∆ε0 bound just below the 3D Ising
+model σ dimension, which allows ε0 to become irrelevant. Similar growth has been observed
+in the 2D case in [46]. Around the 3D Ising ∆σ the bound is ∆ε0 . 3.84, consistent with
+the value cited above.
+   This story illustrates how the conformal bootstrap equation imposes nontrivial depen-
+dencies between various operator dimensions. Once some dimensions are determined, the
+other ones are no longer arbitrary. Such interrelations are probably not easy to see from
+
+                                              13
+           Allowed Region Assuming DHΕ'L³3                             HZoomedL Allowed Region Assuming DHΕ'L³3
+ DΕ                                                                DΕ
+                                                                1.44
+1.8
+       Ising                                                    1.43
+1.6                                                             1.42
+                                                                                Ising
+                                                                1.41
+1.4
+                                                                1.40
+1.2
+                                                                1.39
+1.0
+ 0.50     0.55   0.60   0.65   0.70    0.75   0.80
+                                                     DΣ         1.38
+                                                                  0.510       0.515      0.520      0.525
+                                                                                                                   D
+                                                                                                              0.530 Σ
+                                                          (a)
+          Allowed Region Assuming DHΕ'L³3.4                            HZoomedL Allowed Region Assuming DHΕ'L³3.4
+ DΕ                                                                DΕ
+                                                                1.44
+1.8
+       Ising                                                    1.43
+1.6                                                             1.42
+                                                                                Ising
+                                                                1.41
+1.4
+                                                                1.40
+1.2
+                                                                1.39
+1.0
+ 0.50     0.55   0.60   0.65   0.70    0.75   0.80
+                                                     DΣ         1.38
+                                                                  0.510       0.515      0.520      0.525
+                                                                                                                   D
+                                                                                                              0.530 Σ
+                                                          (b)
+          Allowed Region Assuming DHΕ'L³3.8                            HZoomedL Allowed Region Assuming DHΕ'L³3.8
+ DΕ                                                                DΕ
+                                                                1.44
+1.8
+       Ising                                                    1.43
+1.6                                                             1.42
+                                                                                Ising
+                                                                1.41
+1.4
+                                                                1.40
+1.2
+                                                                1.39
+1.0
+ 0.50     0.55   0.60   0.65   0.70    0.75   0.80
+                                                     DΣ         1.38
+                                                                  0.510       0.515      0.520      0.525
+                                                                                                                   D
+                                                                                                              0.530 Σ
+                                                          (c)
+      Figure 5: Same as Figs. 3, 4, but imposing the extra constraints ∆ε0 ≥ {3, 3.4, 3.8}.
+
+
+
+
+                                                          14
+                         DΕ'
+                       4.5
+
+                       4.0
+
+                       3.5
+
+                       3.0
+
+                       2.5             Ising
+                       2.0
+                        0.50    0.52    0.54    0.56      0.58    0.60
+                                                                         DΣ
+
+ Figure 6: The bound on ∆ε0 under the condition that ∆ε has already been fixed to the
+ maximal value allowed by Fig. 3. Here nmax = 10 (see Appendix D). The width of the vertical
+ red line marking the 3D Ising value of ∆σ is about five times the error band in Table 1.
+
+
+
+the renormalization group point of view. For instance, when using the -expansion, each of
+the operator dimensions listed in Table 1 requires an independent computation.
+
+
+5.3    Bounds on the Gap in the Spin 2 Sector
+
+The above discussion concerned the scalar sector of the 3D Ising model, but eventually we
+would like to also constrain operators with nonvanishing spin. For a first try, let’s study
+here the gap in the spin 2 sector. The first spin 2 operator in the σ × σ OPE is the stress
+                                                                                    0
+tensor Tµν , and we will be interested in the dimension of the second one, call it Tµν .
+   In Fig. 7 we give a rigorous upper bound on ∆T 0 following from the crossing symmetry
+constraint (5.3). The bound is shown as a function of ∆σ only, and is in this sense analogous
+to our first bound in Fig. 3. Unlike for the case of ε0 studied in the previous section, we
+found that the bound on T 0 is only very weakly correlated with the value of ∆ε , and so we
+do not show separately the allowed regions in the (∆σ , ∆ε ) plane.
+    The ∆T 0 bound shows fascinating behavior which is the opposite to that of Fig. 6. It
+has a plateau at ∆T 0 ∼ 5.7 for low ∆σ and suddenly drops to much lower values ∆T 0 ∼ 3.5
+as the dimension of σ is increased. To begin with, this implies that any moderate gap in
+the T 0 dimension, e.g. ∆T 0 ≥ 4, leads to a sharp upper bound on ∆σ . Taken together with
+the plots in Fig. 5, one then obtains very small closed regions in the (∆σ , ∆ε ) plane.
+    Moreover, the sudden drop in the ∆T 0 bound happens precisely when ∆σ passes the 3D
+Ising value. The actual bound there is:
+                               ∆σ ≈ 0.518      =⇒      ∆T 0 . 5.6 .                      (5.4)
+Unfortunately, Table 1 is mute about ∆T 0 as we are not aware of any prior studies. However,
+we can get a rough estimate of this dimension by interpolating between 2D and 4D. In the
+4D free scalar theory the first Z2 -even spin 2 operator after the stress tensor is
+                                  0
+                                 Tµν = : φ2 Tµν :        (4D) ,                          (5.5)
+
+                                               15
+                          DT '
+                         6.0
+                                            Ising
+                         5.5
+
+                         5.0
+
+                         4.5
+
+                         4.0
+
+                         3.5
+
+                         3.0
+                          0.50      0.52     0.54     0.56      0.58   0.60
+                                                                              DΣ
+
+  Figure 7: Upper bound on the dimension of the second spin 2 operator Tµν    0 from the crossing
+
+  symmetry constraint (5.3). The algorithm from Appendix D was used with nmax = 10. The
+  3D Ising vertical red line is five times wider than the error band in Table 1. We do not show
+  the region of ∆σ close to the unitarity bound, which is subject to numerical instabilities.
+
+
+
+which has dimension 6. To be more precise, in the free scalar theory this operator is
+decoupled from the φ × φ OPE, but we expect it to couple in the Wilson-Fischer fixed point
+in 4 −  dimensions.
+   In the 2D Ising model the first such quasiprimary operator is
+
+                                 T 0 = (L−4 − 35 L2−2 )L̄−2 1      (2D) ,                    (5.6)
+
+again of dimension 6. Notice that another 2D candidate spin 2 quasiprimary, (L−2 − 43 L2−1 )ε
+of dimension 3, is a null state since the field ε = φ2,1 is degenerate on level 2 in the 2D Ising
+model.
+   Assuming as usual that the 2D Ising and the 4D free scalar are continuously connected
+by the line of Wilson-Fischer fixed points to which the 3D Ising model also belongs, we
+expect by interpolation that ∆T 0 ≈ 6 in 3D, not far from the upper end of the range allowed
+by the rigorous bound (5.4).
+
+
+5.4    Bounds on Higher Spin Primaries
+
+In addition to bounding operators in the scalar and spin 2 sectors, we can also attempt to
+place bounds on higher spin primaries in the σ × σ OPE. The first such operator in the 3D
+Ising model is the spin 4 operator Cµνκλ . This operator is interesting because it controls
+the leading effects of rotational symmetry breaking when the 3D Ising model is placed on a
+cubic lattice. The corresponding perturbation of the CFT Lagrangian can be written as
+
+                                  δLCFT ∝ C1111 + C2222 + C3333 .                            (5.7)
+
+Because of this connection with phenomenology, the dimension of C has been computed
+rather precisely: ∆C ≃ 5.0208(12) ([47], Eq. (4.9)).
+
+                                                    16
+                                          Spin 4 Bound
+                         DC
+                        5.6
+                        5.5
+                        5.4
+                        5.3
+                        5.2
+                        5.1                   Ising
+                        5.0
+                         0.50   0.55   0.60   0.65    0.70   0.75   0.80
+                                                                           DΣ
+
+  Figure 8: Upper bound on the dimension of the first spin 4 operator in the σ × σ OPE
+  from the crossing symmetry constraint (5.3). The algorithm from Appendix D was used with
+  nmax = 10. The tip of the arrow shows the point (∆σ , ∆C ) with the 3D Ising model values
+  from Table 1. The dashed line is the gaussian solution ∆4 = 2∆σ + 4.
+
+
+
+    In Fig. 8 we give a rigorous upper bound on ∆C following from crossing symmetry and
+unitarity, making no other assumptions about the spectrum. While this bound passes above
+the value of ∆C in the 3D Ising model, this is easily understood by the fact that the gaussian
+solution to crossing symmetry has ∆C = 2∆σ + 4, which must be respected by our bound.
+The interesting and highly nontrivial statement is then that the gaussian solution seems to
+essentially saturate the bound. The bound that we find is fit well by the curve:
+                                                                            
+                ∆max
+                  C   ≃ (2∆σ + 4) + 0.1176 (∆σ − 1/2)2 + O (∆σ − 1/2)3 ,                 (5.8)
+
+so that one can see that linear deviations are not required, and quadratic deviations are at
+least somewhat suppressed. It is tempting to conjecture that the optimal bound (taking
+nmax → ∞) will exactly follow the gaussian line. It will be important in future studies
+to closely examine behavior of the bound at even larger external dimensions, to better
+understand whether deviations from this conjectured behavior are allowed.
+    Does this behavior of closely following the gaussian line hold for higher spins? To explore
+this, in Fig. 9 we show the analogous upper bound on the lowest-dimension spin 6 operator
+in the σ × σ OPE. This operator would control breaking of rotational symmetry on the
+tetrahedral lattice, but we are not aware of prior 3D studies of its dimension. Again we see
+that the bound closely follows the gaussian line ∆6 = 2∆σ + 6, with a fit:
+                                                         2                   3
+                 ∆max
+                   6  ≃  (2∆ σ + 6) +  0.1307 (∆ σ − 1/2)  + O   (∆ σ − 1/2)    ,         (5.9)
+
+so that again quadratic deviations are suppressed. We have verified that this trend continues
+for operators of spin 8 and 10.
+    An important feature of these bounds is that they approach the dimensions of spin l
+conserved currents ∆l = l + 1 as ∆σ → 1/2. It is well known that theories of free scalars
+contain higher spin conserved currents. Our bound shows that theories containing almost-
+free scalars necessarily contain higher spin operators that are almost conserved currents.
+
+                                                17
+                                            Spin 6 Bound
+                          D6
+                        7.6
+                        7.5
+                        7.4
+                        7.3
+                        7.2
+                        7.1
+                        7.0
+                         0.50   0.55     0.60   0.65   0.70   0.75   0.80
+                                                                            DΣ
+
+  Figure 9: Upper bound on the dimension of the first spin 6 operator in the σ × σ OPE
+  from the crossing symmetry constraint (5.3). The algorithm from Appendix D was used with
+  nmax = 10. The dashed line is the gaussian solution ∆6 = 2∆σ + 6.
+
+
+
+A CFT version of the Coleman-Mandula theorem proved recently in [48] shows that theories
+containing higher spin currents and a finite central charge necessarily have the correlation
+functions of free field operators. This implies that we should also be able to derive a lower
+bound on the dimensions of higher spin operators, perhaps under the assumption of a finite
+central charge. It would be also interesting to connect these studies with an old result of
+Nachtmann [49] that in a unitary theory the leading twists
+                                       τl = ∆l − (l + D − 2),                             (5.10)
+where ∆l is the dimension of the lowest spin l operator, must form a nondecreasing and
+convex upward sequence for l ≥ 2. We leave exploration of these very interesting directions
+to future work.
+    These bounds are also particularly interesting in the context of the AdS/CFT correspon-
+dence, since they place tight constraints on O(1/N 2 ) corrections to the dimensions of double-
+trace operators. Concretely, free scalars in AdS give rise to spin-l double-trace operators
+with gaussian dimensions 2∆σ +2n+l for integer n, while bulk interactions generate O(1/N 2 )
+corrections to these dimensions. Some explicit examples of these corrections were studied,
+e.g., in [50, 51]. If our conjecture that the gaussian solution saturates the bound is true, then
+the bounds forbid bulk interactions that generate positive corrections to these dimensions,
+which in turn may imply positivity constraints on (higher derivative) interactions in AdS.
+Such constraints could then be related to the constraints on higher derivative interactions
+studied in [52]. This is clearly another direction worth studying in future work.
+   Finally, let us mention that similar bounds can be derived on the lowest dimension spin
+2 operator in (non-local) theories where a stress tensor does not appear in the σ × σ OPE.
+This bound (Fig. 10) shows similar features to the higher spin bounds.
+    Such non-local theories may be interesting for several reasons. First, they commonly
+arise in statistical mechanics as models of long-range critical behavior. One much studied
+example is the critical point of the long-range Ising model, defined by a lattice Hamiltonian
+
+                                                  18
+                                            Spin 2 Bound
+                           D2
+                          3.6
+                          3.5
+                          3.4
+                          3.3
+                          3.2
+                          3.1
+                          3.0
+                           0.50   0.55   0.60   0.65   0.70       0.75   0.80
+                                                                                DΣ
+
+  Figure 10: Upper bound on the dimension of the first spin 2 operator in the σ × σ OPE
+  from the crossing symmetry constraint (5.3) in non-local theories without a stress tensor. The
+  algorithm from Appendix D was used with nmax = 10. The dashed line is the gaussian solution
+  ∆2 = 2∆σ + 2.
+
+
+
+with a power-law spin-spin interaction:
+                                                 X si sj
+                                         H=−           D+γ
+                                                              .                                 (5.11)
+                                                  i,j
+                                                      rij
+
+The precise universality class of this model depends on the value of γ. According to classic
+results [53, 54] supported by Monte-Carlo simulations [55]6 , there are three regions. For
+γ sufficiently small, namely γ ≤ D/2, the critical point is the gaussian model with the
+spin-field dimension determined by the naı̈ve continuous limit of (5.11): ∆σ = (D − γ)/2.
+Then there is an intermediate region, and finally the region of large γ, in which the model
+belongs to the usual, short-range, Ising model universality class and the critical exponents
+do not depend on γ. The boundary between the intermediate and short-range region lies at
+γ = D − 2∆Ising
+             σ   , determined by the short-range Ising model spin-field dimension. This can
+be also understood by studying stability of the short-range Ising model with respect to non-
+local perturbations. Analogously, the boundary between the gaussian and the intermediate
+region lies at the value of γ for which the operator σ 4 becomes marginal.
+    In the intermediate region, the σ dimension is still given by the mean-field formula ∆σ =
+(D − γ)/2, but the dimensions of other operators, such as ε, have nontrivial dependences on
+γ deviating from the gaussian values. So these fixed points are interacting. Because of their
+origin as relevant perturbations of the non-local gaussian scalar theory, they are expected
+to have conformal symmetry (and not just scale invariance), but not a stress-tensor. It is
+for such non-local CFTs that our bound in Fig. 10 may be of interest.
+    Another reason to be interested in theories without a stress tensor is that they realize
+a simpler case of AdS/CFT, in which bulk gravity is decoupled, so that the AdS metric is
+  6
+    Note added: very recent accurate Monte-Carlo simulations [56] indicate deviations near the boundary
+of the intermediate and the short-range regions from the established picture as described below.
+
+
+
+                                                  19
+viewed as a fixed non-fluctuating background.7 This may be useful when one is interested
+in aspects of the correspondence which are not necessarily related to gravity, as e.g. in
+[50]. Also, removing gravity allows one to find nontrivial UV-complete AdS/CFT examples
+which are purely field-theoretic (no strings): any UV-complete quantum field theory on
+the AdSD+1 background can be interpreted as providing a dual description to a non-local
+D-dimensional CFT on the boundary.
+
+
+5.5     Bounds on the Central Charge
+
+Our final application concerns the central charge CT of the 3D Ising model, defined for an
+arbitrary D as the coefficient of the canonically normalized stress tensor two-point function:
+                                                                             
+                                   CT 1       1                       1
+               hTµν (x)Tλσ (0)i = 2 2 D         (Iµλ Iνσ + Iµσ Iνλ ) − δµν δλσ ,
+                                   SD (x )    2                       D
+                               Iµν = δµν − 2xµ xν /x2 ,        SD = 2π D/2 /Γ(D/2) .                 (5.12)
+It seems that the 3D Ising central charge has been computed only to the second order in
+the -expansion, with the result [58–60, 30]
+                                               5 2
+                                   CT /CTfree = 1 −
+                                                   + O(3 ) ,                     (5.13)
+                                              324
+where CTfree = D/(D − 1) is the free scalar field central charge. Substituting  → 1 and
+neglecting the unknown higher-order terms, this estimate would suggest that CT /CTfree is
+very close to 1, around 0.98 or so.
+   In our method, we can get control over CT because the stress tensor conformal block
+enters the crossing symmetry constraint (5.3) with a CT dependent coefficient:8
+                                                     D ∆2σ
+                                           pD,2 =            .                                       (5.14)
+                                                    D − 1 CT
+Following [19, 20], the conformal bootstrap can be used to bound the coefficient p3,2 from
+above, which bounds the central charge from below. In Fig. 11 we show the lower bound on
+CT as a function of ∆σ . We see that the bound has a distinctive minimum close to the 3D
+Ising value of the σ dimension. The position of the minimum corresponds to CT /CTfree ≈ 0.94.
+One may also redo the plot in Fig. 11 making some assumption about ∆ε , like that ∆ε ≥ ∆σ .
+The most aggressive assumption would be to fix ∆ε to the maximal value allowed by the
+upper bound in Fig. 3. One finds that the shape of the bound on CT is very weakly
+dependent on these assumptions, but that the minimum moves to the right, even closer to
+the 3D Ising ∆σ , and slightly higher up to CT /CTfree ≈ 0.95.
+  We believe that the observed minimum in the CT lower bound is not accidental, but
+must be close to the true value of CT .9 This would imply a small but noticeable discrepancy
+   7
+     Such theories may alternately be viewed as the starting point for “constructive holography” by defining
+a CFT perturbatively around the c → ∞ point as done in e.g. [57].
+   8
+     The prefactor is different from [20] due to the different conformal block normalization, see Eq. (A.2).
+   9
+     In 2D, a similar analysis reproduces the exact value of the 2D Ising model central charge with 10−4
+accuracy [61].
+
+
+                                                    20
+with the -expansion estimate of CT , which can be attributed to the unknown higher-order
+terms. In fact, we can also derive upper bounds on CT in presence of a gap between T
+and T 0 . The strength of these bounds depends on the assumption about the gap, and for
+T 0 close to the maximal value allowed by (5.4) would rigorously rule out the -expansion
+estimate. We leave full exploration of such upper bound bounds to future work.
+
+                          CT CT free
+                           1.25
+                           1.20
+                           1.15
+                           1.10
+                           1.05
+                           1.00
+                           0.95                Ising
+                             0.50       0.52   0.54         0.56   0.58   0.60
+                                                                                 DΣ
+
+    Figure 11: The lower bound on CT as a function of ∆σ . The plot was obtained with
+    nmax = 11. The 3D Ising vertical red line is five times wider than the error band in Table 1.
+
+
+
+
+6      Discussion
+The results of the previous section have many implications whose importance is hard to
+overestimate. First, all of our bounds are consistent with everything that was previously
+known about the critical exponents of the 3D Ising model, as computed via RG methods and
+measured in experiments and Monte Carlo simulations. We should take this a very strong
+evidence that the 3D Ising model has a full conformal symmetry, justifying post factum the
+use of conformal symmetry in studying this theory. It would be good to further test the
+conformal invariance experimentally or on the lattice, for example by measuring the form
+of the 3-point functions. One can also compare any new measurements (e.g., of the central
+charge) against the constraints obtained using the methods in this paper.
+    It is worth emphasizing that the bootstrap approach to studying 3D CFTs taken in this
+paper has, in principle, a significant advantage over other methods – at every step in the
+program we can present constraints that are completely rigorous (up to numerical errors
+that can be made arbitrarily small). This is significantly better than the usual situation
+in field theory computations, where one computes the first several terms in a series (say,
+the -expansion or a loop expansion) and one can only estimate the errors from neglecting
+higher terms. It is also an advantage over lattice simulations, where it can be very difficult
+to gain control over errors induced by discretizing the theory.
+   In this paper we have imposed only the first and the simplest of the infinitely many
+bootstrap conditions – the one following from the crossing symmetry of the σ four-point
+function. It turns out that this condition alone carves out a significant portion of the
+
+                                                       21
+operator dimension space. The 3D Ising model seems to lie on the boundary of the allowed
+region, and at a rather special point – a corner. This empirical fact suggests that the model is
+algebraically special, for two reasons. First, the crossing symmetry constraint is expected to
+allow fewer solutions at the boundary of the allowed region as compared to the bulk, perhaps
+just a unique solution. Second, the non-analytic behavior of the bound at a corner point
+can be attributed to rapid rearrangements of the operator spectrum [46]. Indeed, Figs. 6
+and 7 show rapid changes happening for the next-to-leading operator dimensions in the
+scalar and spin 2 sectors. Such spectrum rearrangements signal linear (near-)degeneracies
+among various conformal blocks. It is very important to explore this phenomenon in detail
+as it offers tantalizing hope for distilling some analytical understanding of the 3D Ising
+model dimensions from our numerical approach. More generally, the fact that some special
+theories seem to lie at the edge of the region allowed by crossing symmetry may suggest a
+new classification scheme for understanding CFTs in D > 2.
+    Furthermore, it is intriguing that most of our bounds (not just ∆ε ) seem to be essentially
+saturated by the values realized in the 3D Ising model. This fact suggests the strategy of
+determining the spectrum recursively: first fix ε at the maximal allowed dimension, then ε0
+at the maximal allowed dimension given ∆ε , etc. We hope to explore the viability of this
+approach (perhaps also including gaps in higher spin operators) in future work.
+    Another badly needed development is to add conformal bootstrap constraints coming
+from other correlators, which can lead to interesting interplay. For example, we would like
+to include hσεσεi expanding in the σ × ε channel, since this expansion will be crossing
+                                                                                            2
+symmetric. Moreover, the conformal block of σ will appear with the same coefficient fσσε
+as the conformal block of ε in the analysis of hσσσσi. It is also interesting to include hεεεεi
+whose expansion involves the same Z2 -even operators as hσσσσi. Due to (5.14), the stress
+tensor will appear in both expansions with related coefficients. One can also consider 4-
+point functions containing the stress tensor, where the recent results of [43] on conformal
+blocks for external operators with spin can be used.
+    Another future task is to study 3D CFTs with larger global symmetry groups, such as
+O(N ) symmetry. The general theory of analyzing bootstrap constraints in the presence of a
+continuous global symmetry was given in [21]. The equations look more difficult as the OPE
+contributions should be classified into various representations and the crossing symmetry
+transformation involves a Fierz matrix. Nevertheless, there are always as many equations
+as representation channels and the total constraining power is expected to be comparable
+to the Z2 -symmetric case. In 4D, this has been convincingly demonstrated in [22, 23],
+where many strong bounds for O(N ) and SU (N ) symmetric CFTs have been obtained. It
+would be interesting to generalize these methods to 3D and see how the resulting bounds
+on operator dimensions compare to what is known about the O(N )-vector models.
+    Cross-fertilizing in the opposite direction, it is worth applying in 4D what we have learned
+in this paper in the 3D context – how interesting it is to study the effects of gaps in the
+operator spectrum. In addition, we should stress that the recursion relations for conformal
+blocks exhibited in this paper are valid for any space-time dimension D. Thus, we can use
+them to numerically compute conformal blocks in 4 −  dimensions for different values of
+, where we can make contact with operator dimensions and OPE coefficients computed
+
+                                              22
+perturbatively in the -expansion.
+   Our results and discussion in Section 5.4 show that one can also learn interesting state-
+ments about higher spin operators from crossing symmetry. It will be interesting to explore
+what can be learned further, particularly in the context of the AdS/CFT correspondence,
+where for example the O(N )-vector models in the large N limit are described by higher spin
+gauge theories in AdS4 [62, 63]. There is clearly still much to be learned about the role that
+higher spin operators play in ensuring consistency of the theory, and about how gaps in the
+lower-spin spectrum affect what these operators are allowed to do.
+   Overall, our results fly in the face of the prevailing opinion that above two dimensions
+conformal symmetry by itself is not sufficiently restrictive to solve models. Clearly, the
+conformal bootstrap in D > 2 works. We have not yet solved the 3D Ising model, but we
+have definitely cornered it.
+
+
+Acknowledgements
+We are grateful to Zohar Komargodski, Juan Maldacena, Hugh Osborn, Mohammad Ra-
+jabpour and Sasha Zhiboedov for useful discussions and remarks. The work of S.R. is
+supported in part by the European Program Unification in the LHC Era, contract PITN-
+GA-2009-237920 (UNILHC), and by the Émergence-UPMC-2011 research program. The
+work of D.P. is supported by D.O.E. grant DE-FG02-90ER40542. The work of A.V. is
+supported by the Office of High Energy Physics of the U.S. Department of Energy under the
+Contract DE-AC02-05CH1123. The work of S.E. is supported primarily by the Netherlands
+Organization for Scientific Research (NWO) under a Rubicon grant and also partially by
+the ERC Starting Independent Researcher Grant 240210 - String-QCD-BH.
+    The computations in this paper were run on several different clusters: the Odyssey cluster
+supported by the FAS Science Division Research Computing Group at Harvard University,
+the Aurora cluster supported by the School of Natural Sciences Computing Staff at the
+Institute for Advanced Study, and the Kelvin cluster at the C.E.A. Saclay funded by the
+European Research Council Advanced Investigator Grant ERC–AdG–228301. S.E. would
+like to thank D. Kosower for providing access to the Kelvin cluster.
+
+
+
+
+                                             23
+A        Recursion Relations at Fixed External Dimensions
+Our conformal blocks are the same as the functions Fλ1 ,λ2 of Ref. [15]:
+
+                          G∆,l = Fλ1 ,λ2 ,      λ1 = 12 (∆ + l), λ2 = 12 (∆ − l) .                    (A.1)
+
+This normalization is different from the one used in a number of previous works. E.g., in
+[13, 43] conformal blocks contain an extra factor of10
+
+                                         (2α)l                  D
+                                                  ,        α≡     − 1.                                (A.2)
+                                       (−2)l (α)l               2
+
+This follows by comparing Eq. (2.25-29) of [15] with Eq. (2.22) of [43].
+    We note in passing one reason for using the new normalization: once conformal blocks
+are analytically continued to all real l, one has a symmetry relation ([15], Eq. (4.10))
+
+                                             G∆,l = G∆,−l−D+2 .                                       (A.3)
+
+In particular, we have G∆,−1 = G∆,0 in 3D, which can be useful as explained in footnote 3.
+    Below we consider only the case ∆12 = ∆34 = 0, which corresponds to setting a = b = 0
+in the notation of [15]. Denote
+
+                                     p2
+                       βp ≡                     ,          Dz ≡ z 2 (1 − z)∂z2 − z 2 ∂z ,             (A.4)
+                              4(2p − 1)(2p + 1)
+             1 1                                                               z − z̄
+      F0 ≡    + − 1,            F1 ≡ (1 − z)∂z + (1 − z̄)∂z̄ ,          F2 ≡          (Dz − Dz̄ ) .   (A.5)
+             z z̄                                                                z z̄
+It was shown in [15] that Fi Fλ1 λ2 can be expressed as linear combinations of Fλ01 λ02 . More
+specifically, we have (see [15], Eqs. (4.28), (4.29), (4.32))
+
+                  l + 2α                 l
+    F 0 F λ1 λ2 =         Fλ1 λ2 −1 +         Fλ −1λ
+                   l+α                l +α 1 2                                           
+                    (∆ − 1)(∆ − 2α)          l + 2α                    l
+                +                                    βλ Fλ +1λ +           βλ −α Fλ1 λ2 +1 ,      (A.6)
+                  (∆ − 1 − α)(∆ − α) l + α 1 1 2 l + α 2
+                  l + 2α                    l                            (∆ − 1)(∆ − 2α)
+    F 1 F λ1 λ2 =        λ2 Fλ1 λ2 −1 +          (λ1 + α) Fλ1 −1λ2 +                         ×
+                   l+α                   l+α                           (∆ − 1 − α)(∆ − α)
+                                                                                                 
+                    l + 2α                                      l
+                ×          (−λ1 + α + 1) βλ1 Fλ1 +1λ2 +            (−λ2 + 2α + 1) βλ2 −α Fλ1 λ2 +1 ,
+                     l+α                                      l+α
+                                                                                                  (A.7)
+                                      
+                           l(l + 2α)
+    F2 Fλ1 λ2 = (∆ − 1)                 Fλ1 λ2 −1 − Fλ1 −1λ2
+                             l+α
+                                                                                   
+                      (∆ − 2α)(∆ − 1 − 2α)                                        
+                  −                                βλ1 Fλ1 +1λ2 − βλ2 −α Fλ1 λ2 +1 ,              (A.8)
+                       (∆ − 1 − α)(∆ − α)
+ 10
+      α was called  in [15], but we already have two other epsilons in this paper.
+
+
+                                                      24
+where ∆ = λ1 + λ2 , l = λ1 − λ2 .
+   Let us now view (A.6) and (A.8) as a linear 2 × 2 system for the spin l + 1 conformal
+blocks Fλ1 +1λ2 and Fλ1 λ2 −1 . Eliminating one of these, say Fλ1 +1λ2 , we get a recursion relation
+expressing the remaining spin l+1 block in terms of spin l and spin l−1 blocks only. Shifting
+the spin by one and passing to the G∆,l notation, this relation takes the form:
+                                                                                   
+  (∆ − α)(l + 2α − 1)             α(∆ + l − 1)           1                      F2
+                        G∆,l =                 G∆,l−2 +      (∆ − 2α)F0 +             G∆+1,l−1
+        l+α−1                       l+α−1                2                    l−1
+                                         ∆(∆ − 2α)(∆ − 2α + 1)
+                                      −                             β 1 (∆−l+2−2α) G∆+2,l−2 . (A.9)
+                                           (∆ − α)(∆ − α + 1)         2
+
+
+When we specialize to the line z = z̄, the term involving F2 vanishes. We are then left with
+a nonderivative recursion relation, Eq. (4.9) of the main text.
+   Alternatively, we can apply the same logic to the system formed by (A.6) and (A.7).
+Eliminating again Fλ1 +1λ2 in favor of Fλ1 λ2 −1 , shifting the spin by one and passing to the
+G∆,l notation, we get:
+                                                             
+  (∆ − α)(l + 2α − 1)           1
+                       G∆,l =     (∆ + l − 2α − 2)F0 + F1 G∆+1,l−1
+      (l + α − 1)               2
+                                                                                  
+                      ∆(∆ − 2α + 1)                                 ∆+l−1
+        − (l − 1)                       β1              G∆+2,l−2 +           G∆,l−2 . (A.10)
+                    (∆ − α)(∆ − α + 1) 2 (∆−l+2−2α)                 l+α−1
+
+    Recursions (A.9) and (A.10) have complementary advantages. The first one becomes
+nonderivative at z = z̄ and can be used to compute high spin blocks on this line efficiently.
+However, it needs both l = 0 and l = 1 blocks to start up (except in D = 3 where it can be
+started from l = 0 and l = −1, but we would like a framework which works in any D). On
+the other hand, recursion (A.10) has spin l − 2 blocks entering with a factor (l − 1) and can
+be started up with just spin 0. In Appendix B, we’ll use (A.10) to compute spin 1 blocks
+at z = z̄ from spin 0, but switch to the nonderivative recursion (A.9) for higher spins.
+
+
+B      Scalar and Spin 1 Blocks at z = z̄
+In this appendix we’ll derive formulas for the spin 0 and 1 conformal blocks at z = z̄ for
+equal external dimensions.
+    We start with the double series expansion (4.7) for the scalar conformal block. Perform-
+ing the summation in n, we get (α = D/2 − 1)
+              ∞
+                           4                                                
+             X          ∆
+                                      ∆              ∆        ∆
+                        2 m             +m
+     G∆,0 =                         u2     2 F1 m +     , m + ; 2m + ∆; 1 − v .        (B.1)
+             m=0
+                 m!(∆) 2m (∆ − α) m                   2       2
+We now replace 2 F1 by its Euler integral representation
+                                                  Z 1
+                                          Γ(c)           tb−1 (1 − t)c−b−1
+                    F
+                   2 1 (a, b; c; x) =                 dt                   .                  (B.2)
+                                      Γ(b)Γ(c − b) 0        (1 − tx)a
+
+                                                25
+The series in m under the integral sign turns out to be hypergeometric in the variable
+                                                       (1 − t)tu
+                                             X=                   ,                                   (B.3)
+                                                     1 − t(1 − v)
+so that we find:
+                                       Z 1                                                   
+                             Γ(∆)               dt                        ∆ ∆
+                     G∆,0 =      2                   X ∆/2 2 F1           , ; ∆ − α; X           .   (B.4)
+                            Γ ∆2         0   t(1 − t)                     2 2
+
+Now let us use the hypergeometric identity
+                                                                                     
+                                                   −b                            x
+                       2 F1 (a, b; c; x) = (1 − x)      2 F1       c − a, b; c;           .           (B.5)
+                                                                                x−1
+The resulting expression factorizes nicely in terms of z and z̄:
+                              Z 1                                      
+                       Γ(∆)         dt      ∆/2        ∆ ∆
+              G∆,0 =       2             Y     2 F1    , − α; ∆ − α; −Y ,                            (B.6)
+                      Γ ∆      0 t(1 − t)              2 2
+                               2
+
+                                      X           t(1 − t)z z̄
+                                    Y ≡     =                    .                       (B.7)
+                                    1−X        (1 − tz)(1 − tz̄)
+Now replace 2 F1 by its defining power series expansion in (−Y ) and integrate the series term
+by term. For z = z̄, the resulting integrals are of the form (4.7) and give hypergeometric
+functions 2 F1 (∆ + 2n, ∆/2 + n; ∆ + 2n; z), which are elementary.11 So we get:
+                              2 ∆/2 X   ∞                         2 n
+                               z             [(∆/2)n ]3 (∆/2 − α)n    z
+                G∆,0 |z=z̄ =                                                 .           (B.8)
+                              1−z        n=0
+                                                n!(∆)2n (∆ − α)n    z−1
+
+Expressing (∆)2n via the duplication formula for the Γ function, the series is recognized to
+be of the 3 F2 type, and we get precisely Eq. (4.10).
+   Is there a similar closed form representation for generic unequal external dimensions or,
+more specifically, for generic ∆12 = ∆34 6= 0 (as would be needed for the crossing symmetry
+analysis of the hσεσεi correlator)? The following reasoning shows that this may be difficult.
+For D = 2, Eq. (4.10) can be derived starting from the explicit expression (4.4), passing to
+the variable z 2 /(4(z − 1)) via the identity
+                                                                                    
+                                     z          − a+1       1−a+2b a+1       1   z2
+             F
+            2 1  (a, b, 2b, z) = 1 − 2
+                                         (1 − z)   2   F
+                                                      2 1     2
+                                                                  , 2
+                                                                       , b +   ;
+                                                                             2 4(z−1)
+                                                                                        , (B.9)
+
+and then aiming for Clausen’s formula ([64], Sec. 4.3) to express the square of a 2 F1 as a
+3 F2 . However, Eq. (B.9) is not useful for generic unequal dimensions.
+
+    Passing to the spin 1 case, the idea is to use the second recursion relation (A.10) which
+expresses spin 1 blocks via the spin 0 ones. This relation can be restricted to the z = z̄ line,
+as the differential operator F1 acts within the line; for l = 1 it gives
+                                                                     
+                             1       2−z
+              G∆,1 (z) =                   (∆ − 2α − 1) + (1 − z)∂z G∆+1,0 (z) .        (B.10)
+                         2(∆ − α)     2z
+ 11
+      For z 6= z̄ we would have obtained a series in Appel F1 functions.
+
+
+                                                        26
+Substituting the spin 0 closed form expression (4.10), we find
+                                                              ∆+1
+                                    2−z                  z2      2
+                       G∆,1 (z) =                                     [y ∂y + ∆ − α]f (y) ,               (B.11)
+                                  2(∆ − α)z             1−z
+where f (y) (with y ≡ z 2 /4(z − 1)) is the 3 F2 function entering the expression for G∆+1,0 (z).
+Eq. (4.11) then follows, since the 3 F2 function satisfies
+
+       [y∂y + b2 − 1]3 F2 (a1 , a2 , a3 ; b1 , b2 ; y) = (b2 − 1)3 F2 (a1 , a2 , a3 ; b1 , b2 − 1; y) .   (B.12)
+
+
+C      Recursion Relation for the Transverse Derivatives
+The following recursion relation for hm,n can be derived by applying ∂am ∂bn to the Casimir
+equation (4.13) written in the a, b coordinates, setting a → 1, b → 0, and shifting n → n−1:
+
+    2(D + 2n − 3)hm,n =
+         2m(D + 2n − 3)[−hm−1,n + (m − 1)hm−2,n + (m − 1)(m − 2)hm−3,n ]
+         − hm+2,n−1 + (D − m − 4n + 4)hm+1,n−1
+                                                                        
+              + 2C∆,l + 2D(m + n − 1) + m2 + 8mn − 9m + 4n2 − 6n + 2 hm,n−1
+                                                                        
+              + m D(m − 2n + 1) + m2 + 12mn − 15m + 12n2 − 30n + 20 hm−1,n−1
+         + (n − 1)[hm+2,n−2 − (D − 3m − 4n + 4)hm+1,n−2 ] .                 (C.1)
+
+
+D       Linear Programming Implementation
+Let us write the crossing constraint Eq. (5.3) as
+                                              X0
+                                  ∆s                    ∆σ
+                            0 = F0,0 (u, v) +     p∆,l F∆,l (u, v) ,                                      (D.1)
+        ∆σ
+where F∆,l (u, v) ≡ v ∆σ G∆,l (u, v) − u∆σ G∆,l (v, u). To rule out some spectrum of operator
+dimensions, it suffices to find a linear functional Λ acting on functions of (u, v) such that
+
+          ∆σ
+    1. Λ(F0,0 ) = 1 (normalization condition)
+          ∆σ
+    2. Λ(F∆,l ) ≥ 0 for all ∆, l in the spectrum (positivity constraints).
+
+Any such Λ would be inconsistent with the crossing relation Eq. (D.1) and positivity of the
+coefficients p∆,l , implying that the putative spectrum cannot be realized in a unitary (or
+reflection positive) CFT.
+    In practice, we consider Λ of the form
+                                         X
+                    Λ : F (u, v) 7→                            λm,n ∂am ∂bn F (a, b)|a=1,b=0              (D.2)
+                                              m+2n≤2nmax +1
+
+
+                                                         27
+where the variables a, b are defined in Eq. (4.15), λm,n are real coefficients, and the range of
+                                            ∆σ
+m, n depends on an integer nmax . Since F∆,l   (u, v) is antisymmetric under u ↔ v, only odd
+a-derivatives are nonzero, and a given nmax corresponds to (nmax + 1)(nmax + 2)/2 nonzero
+coefficients λm,n . Larger nmax gives stronger bounds, but is more computationally intensive.
+                   ∆σ
+Derivatives of F∆,l   are simply linear combinations of derivatives of the conformal blocks
+G∆,l , which we compute in Mathematica using the methods outlined in Section 4. We first
+evaluate the derivatives ∂am G∆,l up to m = 2nmax + 1 and all the other derivatives in the
+range m + 2n ≤ 2nmax + 1 follow via the recursion relation of Appendix C. To compare with
+previous work, we have nmax = N/2 = k − 1 where N and k are the parameters used in [17]
+and [23], respectively.
+    We implement the positivity constraints above by discretizing the set of dimensions and
+restricting the spin to lie below some large finite value. The conformal blocks G∆,l (u, v)
+converge quickly for large dimensions and spins, so this is a reasonable approximation. It
+can be made arbitrarily good by using finer discretizations and a larger maximum dimension
+and spin. The plots in this paper were generated with the choices given in Table 2.
+
+                                             δ         ∆max   Lmax
+                                   T1    2 × 10−5        3      0
+                                   T2    5 × 10−4        8      6
+                                   T3    2 × 10−3       22     20
+                                   T4      0.02        100     50
+                                   T5       1          500    100
+
+  Table 2: In this work, we used a combination of five tables T1-T5 of conformal blocks
+  (and their derivatives) with different discretizations, maximum dimensions, and maximum
+  spins. For each table, dimensions were chosen from the unitarity bound ∆min ≡ l + 1 − 12 δl,0
+  to ∆max + 2(Lmax − l) with step δ, and spins were restricted to 0 ≤ l ≤ Lmax . The choices
+  above allow for high-resolution studies of the low-spin spectrum (T1-T3), while simultaneously
+  ensuring control of intermediate dimensions and spins (T4), and also asymptotic behavior (T5).
+
+
+    After restricting the dimensions and spins to lie in a finite set, our problem becomes
+a standard linear programming problem which can be solved on a computer. Solvers are
+available in a wide variety of software libraries and applications, including for example
+Mathematica. Here, we choose to use the dual simplex algorithm implementation in IBM’s
+ILOG CPLEX Optimizer.12
+    To generate plots like those in Figure 5, we must scan over different choices of dimensions
+∆σ , ∆ , . . . , solving a linear program each time to determine the boundary between feasible
+and infeasible choices. When scanning over a single dimension, for example, this is most
+efficiently done using a binary search. One can additionally generalize binary searches to
+work in higher dimensions by recursively refining a lattice of points. These algorithms are
+readily parallelizable, and it is very convenient to take advantage of a cluster of machines
+to perform the computations. Our search logic is implemented in Scala, taking advantage
+ 12
+      http://www-01.ibm.com/software/integration/optimization/cplex-optimizer/
+
+
+                                                  28
+of its actor model for distributing parallel tasks across a network, and ILOG CPLEX’s Java
+(Scala compatible) API for performing the computations.
+
+
+References
+ [1] A. Pelissetto and E. Vicari, “Critical phenomena and renormalization-group theory,”
+     Phys. Rept. 368 (2002) 549–727, arXiv:cond-mat/0012164.
+
+ [2] K. G. Wilson and M. E. Fisher, “Critical exponents in 3.99 dimensions,” Phys. Rev.
+     Lett. 28 (1972) 240–243.
+
+ [3] A. M. Polyakov, “Conformal symmetry of critical fluctuations,” JETP Lett. 12 (1970)
+     381–383.
+
+ [4] A. A. Belavin, A. M. Polyakov, and A. B. Zamolodchikov, “Infinite conformal
+     symmetry in two-dimensional quantum field theory,” Nucl. Phys. B241 (1984)
+     333–380.
+
+ [5] G. Mack and A. Salam, “Finite component field representations of the conformal
+     group,” Ann. Phys. 53 (1969) 174–202.
+
+ [6] S. Ferrara, A. F. Grillo, and R. Gatto, “Manifestly conformal covariant
+     operator-product expansion,” Lett. Nuovo Cim. 2S2 (1971) 1363–1369.
+
+ [7] S. Ferrara, A. F. Grillo, G. Parisi, and R. Gatto, “Covariant expansion of the
+     conformal four-point function,” Nucl. Phys. B49 (1972) 77–98.
+
+ [8] S. Ferrara, A. F. Grillo, and R. Gatto, “Tensor representations of conformal algebra
+     and conformally covariant operator product expansion,” Annals Phys. 76 (1973)
+     161–188.
+
+ [9] S. Ferrara, A. F. Grillo, R. Gatto, and G. Parisi, “Analyticity Properties and
+     Asymptotic Expansions of Conformal Covariant Green’s Functions,” Nuovo Cim.
+     A19 (1974) 667–695.
+
+[10] S. Ferrara, R. Gatto, and A. F. Grillo, “Properties of Partial Wave Amplitudes in
+     Conformal Invariant Field Theories,” Nuovo Cim. A26 (1975) 226.
+
+[11] S. Ferrara, R. Gatto, and A. F. Grillo, “Positivity Restrictions on Anomalous
+     Dimensions,” Phys. Rev. D9 (1974) 3564.
+
+[12] A. M. Polyakov, “Nonhamiltonian approach to conformal quantum field theory,” Zh.
+     Eksp. Teor. Fiz. 66 (1974) 23–42.
+
+[13] F. Dolan and H. Osborn, “Conformal four point functions and the operator product
+     expansion,” Nucl.Phys. B599 (2001) 459–496, arXiv:hep-th/0011040 [hep-th].
+
+
+
+                                            29
+[14] F. Dolan and H. Osborn, “Conformal partial waves and the operator product
+     expansion,” Nucl.Phys. B678 (2004) 491–507, arXiv:hep-th/0309180 [hep-th].
+
+[15] F. Dolan and H. Osborn, “Conformal Partial Waves: Further Mathematical Results,”
+     arXiv:1108.6194v2 [hep-th].
+
+[16] R. Rattazzi, V. S. Rychkov, E. Tonni, and A. Vichi, “Bounding scalar operator
+     dimensions in 4D CFT,” JHEP 12 (2008) 031, arXiv:0807.0004 [hep-th].
+
+[17] V. S. Rychkov and A. Vichi, “Universal Constraints on Conformal Operator
+     Dimensions,” Phys. Rev. D80 (2009) 045006, arXiv:0905.2211 [hep-th].
+
+[18] F. Caracciolo and V. S. Rychkov, “Rigorous Limits on the Interaction Strength in
+     Quantum Field Theory,” Phys. Rev. D81 (2010) 085037, arXiv:0912.2726
+     [hep-th].
+
+[19] D. Poland and D. Simmons-Duffin, “Bounds on 4D Conformal and Superconformal
+     Field Theories,” JHEP 1105 (2011) 017, arXiv:1009.2087 [hep-th].
+
+[20] R. Rattazzi, S. Rychkov, and A. Vichi, “Central Charge Bounds in 4D Conformal
+     Field Theory,” Phys. Rev. D83 (2011) 046011, arXiv:1009.2725 [hep-th].
+
+[21] R. Rattazzi, S. Rychkov, and A. Vichi, “Bounds in 4D Conformal Field Theories with
+     Global Symmetry,” J. Phys. A44 (2011) 035402, arXiv:1009.5985 [hep-th].
+
+[22] A. Vichi, “Improved bounds for CFT’s with global symmetries,” JHEP 1201 (2012)
+     162, arXiv:1106.4037 [hep-th]. 24 pages, 6 figures.
+
+[23] D. Poland, D. Simmons-Duffin, and A. Vichi, “Carving Out the Space of 4D CFTs,”
+     arXiv:1109.5176 [hep-th].
+
+[24] A. Z. Patashinsky and V. N. Pokrovsky, Fluctuation Theory of Phase Transitions.
+     Oxford, England: Pergamon Pr., 1979. 321 p.
+
+[25] J. L. Cardy, Scaling and renormalization in statistical physics. Cambridge lecture
+     notes in physics: 3. Cambridge, UK: Univ. Pr., 1996. 238 p.
+
+[26] J. Zinn-Justin, Quantum Field Theory and Critical Phenomena. Oxford, England:
+     Clarendon Pr., 2002. 1054 p.
+
+[27] H. Kleinert and V. Schulte-Frohlinde, Critical properties of φ4 theories. Singapore:
+     World Scientific, 2001. 489 p.
+
+[28] S. Istrail, “Statistical Mechanics, Three-Dimensionality and NP-Completeness: I.
+     Universality of Intractability of the Partition Functions of the Ising Model Across
+     Non-Planar Lattices,” in Proceedings of the 32nd ACM Symposium on the Theory of
+     Computing (STOC00), ACM Press, Portland, Oregon, May 21-23, 2000, pp. 87–96.
+
+
+
+
+                                             30
+[29] K. Lang and W. Ruhl, “The Critical O(N ) Sigma Model at Dimension 2 < D < 4
+     and Order 1/N 2 : Operator Product Expansions and Renormalization,” Nucl. Phys.
+     B377 (1992) 371–404.
+
+[30] A. Petkou, “Conserved Currents, Consistency Relations, and Operator Product
+     Expansions in the Conformally Invariant O(N ) Vector Model,” Annals Phys. 249
+     (1996) 180–221, arXiv:hep-th/9410093.
+
+[31] J. Polchinski, “Scale and Conformal Invariance in Quantum Field Theory,” Nucl.
+     Phys. B303 (1988) 226.
+
+[32] D. Dorigoni and V. S. Rychkov, “Scale Invariance + Unitarity =⇒ Conformal
+     Invariance?,” arXiv:0910.1087 [hep-th].
+
+[33] S. El-Showk, Y. Nakayama, and S. Rychkov, “What Maxwell Theory in D 6= 4
+     Teaches Us About Scale and Conformal Invariance,” Nucl. Phys. B848 (2011)
+     578–593, arXiv:1101.5385 [hep-th].
+
+[34] I. Antoniadis and M. Buican, “On R-Symmetric Fixed Points and
+     Superconformality,” Phys. Rev. D83 (2011) 105011, arXiv:1102.2294 [hep-th].
+
+[35] J.-F. Fortin, B. Grinstein, and A. Stergiou, “Scale without Conformal Invariance:
+     Theoretical Foundations,” arXiv:1107.3840 [hep-th].
+
+[36] Y. Nakayama, “Comments on scale invariant but non-conformal supersymmetric field
+     theories,” arXiv:1109.5883 [hep-th].
+
+[37] J.-F. Fortin, B. Grinstein, and A. Stergiou, “Scale without Conformal Invariance at
+     Three Loops,” arXiv:1202.4757 [hep-th].
+
+[38] G. Mack, “All Unitary Ray Representations of the Conformal Group SU(2,2) with
+     Positive Energy,” Commun.Math.Phys. 55 (1977) 1.
+
+[39] R. R. Metsaev, “Massless Mixed Symmetry Bosonic Free Fields in D- Dimensional
+     Anti-de Sitter Space-Time,” Phys. Lett. B354 (1995) 78–84.
+
+[40] S. Minwalla, “Restrictions Imposed by Superconformal Invariance on Quantum Field
+     Theories,” Adv. Theor. Math. Phys. 2 (1998) 781–846, arXiv:hep-th/9712074.
+
+[41] B. Grinstein, K. A. Intriligator, and I. Z. Rothstein, “Comments on Unparticles,”
+     Phys. Lett. B662 (2008) 367–374, arXiv:0801.1140 [hep-ph].
+
+[42] J. Glimm and A. M. Jaffe, Quantum Physics. a Functional Integral Point of View.
+     New York, Usa: Springer, 1981. 417 p.
+
+[43] M. S. Costa, J. Penedones, D. Poland, and S. Rychkov, “Spinning Conformal Blocks,”
+     JHEP 1111 (2011) 154, arXiv:1109.6321 [hep-th].
+
+
+
+
+                                            31
+[44] M. S. Costa, J. Penedones, D. Poland, and S. Rychkov, “Spinning Conformal
+     Correlators,” JHEP 1111 (2011) 071, arXiv:1107.3554 [hep-th]. 46 pages, 3
+     figures/ V2: references added.
+
+[45] J. Polchinski, String theory. Vol. 1: An introduction to the bosonic string. Cambridge,
+     UK: Univ. Pr., 1998. 402 p.
+
+[46] S. Rychkov, “Conformal Bootstrap in Three Dimensions?,” arXiv:1111.2115
+     [hep-th].
+
+[47] M. Campostrini, A. Pelissetto, P. Rossi, and E. Vicari, “Improved high temperature
+     expansion and critical equation of state of three-dimensional Ising - like systems,”
+     Phys.Rev. E60 (1999) 3526–3563, arXiv:cond-mat/9905078 [cond-mat].
+
+[48] J. Maldacena and A. Zhiboedov, “Constraining Conformal Field Theories with A
+     Higher Spin Symmetry,” arXiv:1112.1016 [hep-th].
+
+[49] O. Nachtmann, “Positivity constraints for anomalous dimensions,” Nucl.Phys. B63
+     (1973) 237–247.
+
+[50] I. Heemskerk, J. Penedones, J. Polchinski, and J. Sully, “Holography from Conformal
+     Field Theory,” JHEP 0910 (2009) 079, arXiv:0907.0151 [hep-th].
+
+[51] A. Fitzpatrick, E. Katz, D. Poland, and D. Simmons-Duffin, “Effective Conformal
+     Theory and the Flat-Space Limit of AdS,” JHEP 1107 (2011) 023, arXiv:1007.2412
+     [hep-th].
+
+[52] A. Adams, N. Arkani-Hamed, S. Dubovsky, A. Nicolis, and R. Rattazzi, “Causality,
+     analyticity and an IR obstruction to UV completion,” JHEP 0610 (2006) 014,
+     arXiv:hep-th/0602178 [hep-th].
+
+[53] M. E. Fisher, S.-k. Ma, and B. G. Nickel, “Critical Exponents for Long-Range
+     Interactions,” Phys. Rev. Lett. 29 (1972) 917–920.
+
+[54] J. Sak, “Recursion Relations and Fixed Points for Ferromagnets with Long-Range
+     Interactions,” Phys. Rev. B 8 (1973) 281–285.
+
+[55] E. Luijten and H. W. J. Blote, “Boundary between Long-Range and Short-Range
+     Critical Behavior in Systems with Algebraic Interactions,” Phys. Rev. Lett. 89 (2002)
+     025703, arXiv:cond-mat/0112472 [cond-mat].
+
+[56] M. Picco, “Critical behavior of the Ising model with long range interactions,”
+     arXiv:1207.1018 [cond-mat.stat-mech].
+
+[57] S. El-Showk and K. Papadodimas, “Emergent Spacetime and Holographic CFTs,”
+     arXiv:1101.4163 [hep-th].
+
+[58] S. J. Hathrell, “Trace Anomalies and λφ4 Theory in Curved Space,” Ann. Phys. 139
+     (1982) 136.
+
+
+                                            32
+[59] I. Jack and H. Osborn, “Background Field Calculations in Curved Space-Time. 1.
+     General Formalism and Application to Scalar Fields,” Nucl. Phys. B234 (1984) 331.
+
+[60] A. Cappelli, D. Friedan, and J. I. Latorre, “C Theorem and Spectral Representation,”
+     Nucl. Phys. B352 (1991) 616–670.
+
+[61] A. Vichi, A New Method to Explore Conformal Field Theories in Any Dimension.
+     Ph.D. Thesis, EPFL, 2011, 164 pp. http://library.epfl.ch/theses/?nr=5116.
+
+[62] I. Klebanov and A. Polyakov, “AdS dual of the critical O(N) vector model,”
+     Phys.Lett. B550 (2002) 213–219, arXiv:hep-th/0210114 [hep-th].
+
+[63] E. Sezgin and P. Sundell, “Massless higher spins and holography,” Nucl.Phys. B644
+     (2002) 303–370, arXiv:hep-th/0205131 [hep-th].
+
+[64] H. Bateman and A. Erdélyi, Higher transcendental functions, Vol. 1.
+
+
+
+
+                                           33
+

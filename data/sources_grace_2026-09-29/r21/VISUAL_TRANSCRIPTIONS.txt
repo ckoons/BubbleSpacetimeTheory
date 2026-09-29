@@ -1,0 +1,71 @@
+VISUAL_TRANSCRIPTIONS.txt -- r21 Ising pins (Grace, 2026-09-29)
+Reason: pdftotext drops the epsilon glyph in 1603.04436, 1612.08471, 1805.04405 (e.g. "∆ = 1.412625(10)"
+with the subscript epsilon missing). Each item below was transcribed by eye from the rendered PNG named.
+
+[V1] png/KPSV_p9-09.png  (arXiv:1603.04436v1, PDF p.9, printed p.9, Section 3 "Results")
+  "... to determine the scaling dimensions and OPE coefficient ratio in the 3d Ising model to high precision at Λ = 43, giving
+     Δ_σ = 0.5181489(10),        (3.1)
+     Δ_ϵ = 1.412625(10),         (3.2)
+     λ_ϵϵϵ/λ_σσϵ = 1.456889(50). (3.3)"
+  "λ_σσϵ = 1.0518537(41), (3.4)   λ_ϵϵϵ = 1.532435(19). (3.5)"
+
+[V2] png/SD_p7-07.png  (arXiv:1612.08471, PDF p.7, printed p.4, Section 2.1)
+  "Consider the four-point functions ⟨σσσσ⟩, ⟨σσϵϵ⟩, and ⟨ϵϵϵϵ⟩ where σ and ϵ are the lowest-dimension
+   Z2-odd and Z2-even scalars in the 3d Ising CFT, respectively."
+     Δ_σ = 0.5181489(10),   f_σσϵ = 1.0518537(41),
+     Δ_ϵ = 1.412625(10),    f_ϵϵϵ = 1.532435(19).      (2.1)
+
+[V3] png/SD_p75-75.png  (arXiv:1612.08471, PDF p.75, printed p.72, Table 2)
+  Upper block header: O | Z2 | ℓ | Δ | τ=Δ−ℓ | f_σσO | f_ϵϵO
+   ϵ        + 0 1.412625(10)   1.412625(10)   1.0518537(41)   1.532435(19)   [bold = rigorous: (10),(10),(41),(19)]
+   ϵ'       + 0 3.82968(23)    3.82968(23)    0.053012(55)    1.5360(16)
+            + 0 6.8956(43)     6.8956(43)     0.0007338(31)   0.1279(17)
+            + 0 7.2535(51)     7.2535(51)     0.000162(12)    0.1874(31)
+   T_μν     + 2 3              1              0.32613776(45)  0.8891471(40)
+   T'_μν    + 2 5.50915(44)    3.50915(44)    0.0105745(42)   0.69023(49)
+            + 2 7.0758(58)     5.0758(58)     0.0004773(62)   0.21882(73)
+   C_μνρσ   + 4 5.022665(28)   1.022665(28)   0.069076(43)    0.24792(20)
+            + 4 6.42065(64)    2.42065(64)    0.0019552(12)   −0.110247(54)
+            + 4 7.38568(28)    3.38568(28)    0.00237745(44)  0.22975(10)
+            + 6 7.028488(16)   1.028488(16)   0.0157416(41)   0.066136(36)
+  Lower block header: O | Z2 | ℓ | Δ | τ=Δ−ℓ | f_σϵO | -
+   σ        − 0 0.5181489(10)  0.5181489(10)  1.0518537(41)   [bold = rigorous]
+   σ'       − 0 5.2906(11)     5.2906(11)     0.057235(20)
+            − 2 4.180305(18)   2.180305(18)   0.38915941(81)
+            − 2 6.9873(53)     4.9873(53)     0.017413(73)
+            − 3 4.63804(88)    1.63804(88)    0.1385(34)
+            − 4 6.112674(19)   2.112674(19)   0.1077052(16)
+            − 5 6.709778(27)   1.709778(27)   0.04191549(88)
+  Caption: "Table 2: Stable operators with dimensions Δ ≤ 8. The leftmost column shows the names of the operators
+   from [20]. Errors in bold are rigorous. All other errors are non-rigorous. Because we have chosen different
+   conventions for conformal blocks, our normalization of OPE coefficients differs from those in [20, 68] by (A.17)."
+  (Text-layer copy at 1612.08471.txt:4142-4163 agrees on every number; only the ϵ/ϵ'/T'/σ' labels are lost.)
+
+[V4] png/SD_p10-10.png  (arXiv:1612.08471, PDF p.10, printed p.7, Section 2.2)
+  "τ_[σσ]0(J) ≈ 2Δ_σ + Σ_{O=ϵ,T_μν} f²_σσO c0(τ_O,ℓ_O)/J^{τ_O} (1 + c1(τ_O,ℓ_O)/J²),   (2.3)"
+  "In the 3d Ising CFT, it turns out that τ1 = 2Δσ + 2 ≈ 3.04 is numerically close to τ2 = 2Δϵ ≈ 2.83."
+  "The off-diagonal terms will come from the σ operator in the σ × ϵ OPE and behave like ℓ^{−Δσ}."
+
+[V5] png/PRV_p32-32.png  (arXiv:1805.04405, PDF p.32 = printed p.32, Sec. V.B.1 "General results")
+  "In the CFT context, a Z2 symmetry imposes selection rules on the possible operators appearing in different
+   OPE channels. Let us take a Z2-odd scalar operator σ and consider the σ × σ OPE. It can only contain Z2-even operators:
+     σ × σ ∼ 1 + λ_σσϵ ϵ + λ_σσT T^μν + ... .   (119)
+   Here, 1 is the identity operator, ϵ is the leading Z2-even scalar, T^μν is the stress-energy tensor, and so on.
+   In particular, unlike in (117), σ does not appear in the OPE."
+  Same page, left column, Sec. V.A: "The simplest example of a 3d multicritical point is the free scalar field φ.
+   It has a Z2 global symmetry acting as φ → −φ, with two relevant singlet scalars, φ² and φ⁴, of dimension 1 and 2 respectively."
+
+[V6] png/PRV_p-34.png  (arXiv:1805.04405, PDF p.34, Sec. V.B.1)
+  "An advantage of including the correlator ⟨σσϵϵ⟩ is that it allows one to probe the Z2-odd operators appearing in the OPE:
+     σ × ϵ ∼ λ_σϵσ σ + λ_σϵσ' σ' + ... .   (120)"
+  Sec. V.B.2 "Critical Ising model": "Notice that the lattice model has a manifest Z2 symmetry under which s_i → −s_i.
+   This symmetry is inherited by the CFT, which contains local operators that are either even or odd under its Z2 global symmetry."
+
+[V7] png/PRV_p37-37.png  (arXiv:1805.04405, PDF p.37, TABLE II)
+  Same numbers as [V3] (Δ and f columns; no τ column). Caption: "TABLE II Stable operators in the critical 3d Ising
+   model with dimensions Δ ⩽ 8 (Simmons-Duffin, 2017c). ... Errors in bold are rigorous. All other errors are
+   non-rigorous but, in our opinion, realistic. ... the OPE coefficients are related to our convention by λ_ijO = 2^{ℓ/2} f_ijO (see Table I)."
+  Checked: ϵ + 0 1.412625(10); σ − 0 0.5181489(10); ϵ' + 0 3.82968(23); σ' − 0 5.2906(11); T_μν + 2 3.
+
+[V8] png/ESPPRSV_p4-04.png, png/ESPPRSV_p14-14.png  (arXiv:1203.6064) -- text layer clean (uses ε not ϵ); PNGs kept as witness.
+[V9] png/PRV_p25-25.png  (arXiv:1805.04405, PDF p.25, MFT paragraph + footnote 81) -- text layer clean; PNG kept as witness.

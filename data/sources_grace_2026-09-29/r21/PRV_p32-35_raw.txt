@@ -1,0 +1,1030 @@
+.
+
+(B4)
+
+nent seems less
+in the tables.
+monopole opertheory coupled
+ns. The study
+uid with possierbertsmithite)
+ole operators in
+/N expansions
+rmal bootstrap
+
+O0 ⇥ O0 ⇠ O0 + O00 + · · · ,
+where O00 is the other scalar operator with the second
+lowest scaling dimension 00 .
+
+DΕ
+
+1.8
+
+◆
+
+.
+
+H78 comp.L
+
+3d Ising ?
+1.6
+1.4
+
+es of so-called
+iant WLG thehase transition.
+
+r )Tr
+
+32
+
+1.2
+1.0
+0.50
+
+†
+
+(B5)FIG. 6 (Color online) Upper bound on the dimension of the
+FIG. 3. Bounds on the scaling dimensions of the second-lowest
+
+second
+singlet
+O00as a
+as a
+function
+neutral
+scalarscalar
+operator
+function
+of 0 .of the dimension of
+charged underthe first O0 (Nakayama and Ohtsuki, 2016, Supplementary
+n symmetry, soMaterial).
+del throughout
+We can study the consistency of the four-point funcyon symmetry.
+tion hO0 O0 O0 O0 i with the crossing symmetry by using
+O(n) notation
+the numerical conformal bootstrap program to derive the
+case is when S = 1, as is realized for the
+lly normalized)A common
+upper bound on 00 . Compared to the Z2 -odd scalar
+Ising
+model studied
+and O(N
+) models
+discussed
+rator det ⇠critical
+four-point function
+in [3][5],
+the only
+di↵erencebelow.
+is
+wewesay
+that
+have a require
+criticalthe
+point.
+Finally, the
+that
+have
+to we
+additionally
+non-negativity
+esponds to STThen
+functionalasacting
+on the conformal
+block
+e note that thecaseofSthe
+> 1linear
+is classified
+a multicritical
+point.97
+0
+coming
+from
+O
+cts on det as The
+itself.
+Although
+the
+bounds
+on
+withis the
+0
+0
+simplest example of a 3d multicritical point
+O0 appearing in the OPE could be weaker than those
+espite the conscalar field
+φ. found
+It hasthat
+a Z2these
+global
+acting as
+O0 , we
+lar, we did notfreewithout
+twosymmetry
+bounds actually
+2
+relevant
+singlet
+scalars,
+φ4 , of
+coincidewith
+(Fig.two
+3). From
+this
+plot we
+obtain φ
+the and
+necesthat is micro-φ → −φ,
+sary
+condition
+in the e↵ectivedimension
+(equivalently,
+0.511)
+for φ6
+1
+and 20 > 1.044
+respectively. A
+third⌫ >
+singlet
+scalar
+
+has dimension exactly 3 and is marginal (it is actually
+marginally irrelevant). This CFT describes a tricritical
+3d Ising model. Many nontrivial multicritical fixed points
+can be realized in systems of multiple interacting scalar
+fields.
+Suppose that we know that we have a critical point,
+but not a multicritical point, i.e. that there is one and
+only one singlet scalar, call it O0 . The OPE of O0 with
+itself has the schematic form
+O0 × O0 ∼ 1 + λO0 + λ0 O00 + . . .
+
+(117)
+
+where since O0 is a singlet it can appear on the r.h.s., we
+denote the next singlet scalar as O00 , and . . . stands for all
+other operators. In this setup, Nakayama and Ohtsuki
+(2016) used the numerical bootstrap to derive an upper
+bound on the dimension of O00 as a function of dimension
+of O0 , shown in Fig. 6. From this plot, the requirement
+∆O00 > 3 translates into the lower bound
+∆O0 > 1.044
+
+for any critical 3d CFT.
+
+(118)
+
+In terms of the critical exponent ν = 1/(3 − ∆O0 ),
+this means that ν > 0.511 for any critical (but not
+multicritical) 3d fixed point described by a unitary CFT.
+
+97 In microscopic realizations which do not have the full symmetry
+
+G, one must tune a number of parameters equal to the number
+of relevant singlets under the microscopic symmetry.
+
+0.52
+
+0.54
+
+0.56
+
+0.58
+
+0.60
+
+0.62
+
+0.64
+
+DΣ
+
+FIG. 7 (Color online) Upper bound on ∆ as a function of
+∆σ in 3d CFTs (El-Showk et al., 2012).
+
+Among all critical 3d fixed points that we know of, the
+lowest ∆O0 ≈ 1.41 is realized in the critical Ising model,
+see below. This satisfies the above general bound (118)
+by a large margin.
+B. Z2 global symmetry
+1. General results
+
+We are not aware of any unitary 3d CFTs which do
+not possess any global symmetry.98 Actually, most 3d
+CFTs have continuous global symmetries. Here we will
+start by considering the effect of having a discrete Z2 ,99
+which may be a full symmetry as for the 3d Ising model,
+or a subgroup of a larger group.100
+In the CFT context, a Z2 symmetry imposes selection
+rules on the possible operators appearing in different
+OPE channels. Let us take a Z2 -odd scalar operator σ
+and consider the σ × σ OPE. It can only contain Z2 -even
+operators:
+σ × σ ∼ 1 + λσσ  + λσσT T µν + . . . .
+
+(119)
+
+Here, 1 is the identity operator,  is the leading Z2 -even
+scalar, T µν is the stress-energy tensor, and so on. In
+particular, unlike in (117), σ does not appear in the OPE.
+
+98 The Lee-Yang model has no global symmetry but is nonunitary,
+
+see Sec. VIII. In any CFT with a global symmetry G, the singlet
+sector is closed under OPE. From the bootstrap point of view the
+singlet sector can be studied in isolation, results of Sec. V.A being
+an example, and would appear as a perfectly consistent CFT with
+no global symmetry. Dealing only with local operators, we do
+not consider this construction as defining a complete CFT, as
+the singlet sector can in principle be extended back by including
+the other sectors (although it is not known how to decide in
+practice whether such an extension is possible by looking at the
+correlators of the singlet sector).
+99 The bounds described in this section will also hold if the Z is
+2
+taken to be a parity or time-reversal symmetry.
+100 Another physically important discrete symmetry is cubic
+symmetry, see Sec. V.C.4 and footnote 116.
+
+33
+
+ccfree
+
+Allowed Region Assuming DHΕ'L³3
+
+1.25
+
+DΕ
+
+1.20
+
+1.8
+
+1.15
+
+Ising
+
+1.10
+
+1.6
+
+1.05
+1.4
+
+1.00
+0.95
+
+1.2
+1.0
+0.50
+
+0.55
+
+0.60
+
+0.65
+
+0.70
+
+0.75
+
+D
+0.80 Σ
+
+FIG. 8
+(Color online) Allowed region in the {∆σ , ∆ }
+plane under the assumption that  is the only relevant scalar
+(El-Showk et al., 2012).
+
+0.90
+0.50
+
+0.52
+
+T
+
+101 Nakayama
+
+and Ohtsuki (2016) observed empirically that the
+bounds in Figs. 6 and 7 coincide. A priori one may have expected
+a stronger bound in Fig. 7 due to the extra constraint of not
+allowing σ in the r.h.s. of the OPE.
+
+0.56
+
+0.58
+
+0.60
+
+DΣ
+
+FIG. 9 (Color online) Lower bound on the central charge as
+a function of ∆σ (El-Showk et al., 2012).
+
+DT '
+
+6.0
+
+In this setup, we would like to ask what is the
+maximal allowed value of ∆ . A numerical bootstrap
+analysis of the 4pt function function hσσσσi (via linear
+or semidefinite programming) produces an upper bound
+on ∆ as a function of ∆σ , shown in Fig. 7.101 The
+point {1/2, 1} corresponds to the theory of a free massless
+scalar while the point ∼ {0.518, 1.413}, sitting near a
+discontinuity in the boundary, corresponds to the critical
+3d Ising model which we discuss further below. Other
+theories that live in the interior of this region are the
+critical O(N ) models (see Sec. V.C), where we can
+identify σ with a component of the O(N ) fundamental φi
+and  with a component of the O(N ) symmetric tensor
+tij , as well as the line of mean field theory CFTs with
+∆ = 2∆σ (see Sec. III.I.1).
+A particularly physically interesting class of
+Z2 -symmetric CFTs are those with only one relevant
+Z2 -even operator (i.e., they have S = 1). If the
+microscopic realization of the theory preserves the Z2
+symmetry, then this condition ensures that only one
+parameter must be tuned in order to reach the critical
+point. This allowed region in {∆σ , ∆ } space was also
+computed in El-Showk et al. (2012) from the hσσσσi
+correlator, assuming that all scalars aside from the
+contribution at ∆ are irrelevant. This region is shown
+in Fig. 8, with the assumption having the effect of
+carving into the allowed region from both the left and
+from the bottom.
+Another general result from this 4pt function is a lower
+bound on the central charge CT shown in Fig. 9, obtained
+by computing an upper bound on the coefficient λσσT ∝
+√∆σ (see Sec. III.H and Eq. (86)). As ∆σ → 1/2, the
+C
+
+0.54
+
+Ising
+
+5.5
+5.0
+4.5
+4.0
+3.5
+3.0
+0.50
+
+0.52
+
+0.54
+
+0.56
+
+0.58
+
+0.60
+
+DΣ
+
+FIG. 10 (Color online) Upper bound on the dimension ∆T 0
+of the first Z2 -even spin-2 operator after the stress tensor, as
+a function of ∆σ (El-Showk et al., 2012).
+
+Spin 4 Bound
+
+DC
+5.6
+5.5
+5.4
+5.3
+5.2
+
+Ising
+
+5.1
+5.0
+0.50
+
+0.55
+
+0.60
+
+0.65
+
+0.70
+
+0.75
+
+0.80
+
+DΣ
+
+FIG. 11 (Color online) Upper bound on the dimension of the
+leading Z2 -even spin-4 operator (El-Showk et al., 2012).
+
+lower bound on CT approaches the free scalar value, while
+near the critical 3d Ising dimension ∆σ ∼ 0.518, the lower
+bound on CT is seen to have a minimum. This particular
+bound was computed with the mild assumption ∆ ⩾ 1,
+so it is applicable to any theory living in the allowed
+region seen in Fig. 7.
+Before we move on to discussing what can be learned
+
+34
+allowed region with ∆σ′ ≥ 3 (nmax = 6)
+
+∆ϵ
+1.7
+
+∆ϵ
+1.5
+
+allowed region with various gaps in ∆ϵ′ , ∆σ′ (nmax = 6)
+
+1.6
+
+1.4
+1.5
+
+1.3
+
+1.4
+1.3
+
+∆ϵ′ ≥ 3
+
+Single Correlator
+
+1.2
+
+1.2
+
+1.1
+
+1.1
+1
+0.5
+
+0.51
+
+0.52
+
+0.53
+
+0.54
+
+0.55
+
+0.56
+
+0.57
+
+∆σ
+0.58
+
+Figure 2: Allowed region of (∆σ , ∆ϵ ) in a Z2 -symmetric CFT3 where ∆σ′ ≥ 3 (only one
+Z
+scalar is
+relevant). This
+bound uses
+crossing
+symmetry and
+unitarity for
+2 -odd12
+FIG.
+(Color
+online)
+Allowed
+region
+following
+from⟨σσσσ⟩,
+the
+⟨σσϵϵ⟩, and ⟨ϵϵϵϵ⟩, with nmax = 6 (105-dimensional functional), νmax = 8. The 3D Ising point
+analysis
+functions
+assuming
+⩾ 3 for
+with
+noa
+is
+indicatedof
+withthree
+black 4pt
+crosshairs. The
+gap in the Z2 -odd
+sector ∆
+is σ 0
+responsible
+creating
+small
+closed region
+around
+Ising et
+point.
+assumption
+on ∆
+(Kos
+al., 2014a).
+0 the
+
+The allowed region around the Ising point shrinks further when we increase the value
+of
+n ax . Finding
+the of
+allowed
+region at n
+= 275) is
+computationally
+intensive,
+from
+systems
+several
+4pt
+functions,
+we would
+like
+to
+max = 10 (N
+so we tested only the grid of 700 points shown in figure 5. The disallowed points in the
+highlight
+thatby upper
+bounds
+the
+leading
+unknown
+′
+figure
+were excluded
+assuming both
+∆σ′ ≥ 3on
+and ∆
+≥
+3.
+On
+the
+same
+plot,
+we
+also
+ϵ
+using
+a very diﬀerent
+show the nmax
+= 14 single-correlator
+bound
+on ∆ϵ computed
+in [22] be
+scaling
+dimension
+in other
+channels
+can also
+computed
+optimization algorithm. The final allowed region is the intersection of the region below the
+and
+are often quite strong. For example, an upper
+n
+max = 14 curve and the region indicated by our allowed multiple correlator points.
+0
+bound
+on
+the
+leadingto the 3D
+unknown
+spin-2
+dimension
+Since the
+point
+corresponding
+Ising model
+must lie somewhere
+in the∆T
+allowed
+region, first
+we canZthink
+of the allowed region as a rigorous prediction of the Ising model
+(the
+2 -even spin-2 operator after the stress tensor)
+dimensions, giving ∆σ = 1/2 + η/2 = 0.51820(14) and ∆ϵ = 3 − 1/ν = 1.4127(11). In
+is
+shown
+Fig.
+and
+anwith
+upper
+bound on
+the using
+leading
+figure 6
+we in
+compare
+our 10,
+rigorous
+bound
+the best-to-date
+predictions
+Monte
+Carlo simulations
+[35] and the
+c-minimization
+conjecture
+[22]. Although
+our result
+has unspin-4
+dimension
+∆
+is
+shown
+in
+Fig.
+11.
+The
+bound
+C
+certainties greater than c-minimization by a factor of ∼10 and Monte-Carlo determinations
+ona ∆
+shows
+a sharp
+jump
+near0.03%
+theand 0.08%
+critical
+3duncertainty,
+Ising
+by
+factor
+they still
+determine ∆σ
+and ∆ϵ with
+relative
+T 0 of ∼3,
+respectively. Increasing nmax further could potentially lead to even better determinations of
+value,
+while
+no
+such
+transition
+is
+seen
+in
+the
+bound
+∆σ and ∆ϵ . Indeed, the single correlator bound at nmax = 14 passing through the allowed
+indicatesisthat
+the nmax
+allowed region
+is not yet by
+optimal.
+At this
+region∆
+inCfigure 5
+on
+(which
+close
+to= 10
+being
+saturated
+MFT:
+point, it is not even clear whether continually increasing nmax might lead to a finite allowed
+∆
+C = 2∆σ + 4). The jump in ∆T 0 shows that it is
+possible for the low-dimension
+spin-2 operator present
+25
+in the spectrum for ∆σ & 0.52 to decouple at smaller
+values of ∆σ . We discuss operator decoupling phenomena
+further in Sec. V.B.3 .
+Next one can ask what is the effect of adding
+constraints from other 4pt functions.
+So far the
+main system that has been studied in the literature
+is {hσσσσi, hσσi, hi}, though other systems may
+also prove interesting. An advantage of including the
+correlator hσσi is that it allows one to probe the Z2 -odd
+operators appearing in the OPE:
+
+σ ×  ∼ λσσ σ + λσσ0 σ 0 + . . . .
+
+(120)
+
+In Kos et al. (2014a) it was found that with no
+assumptions this system leads to an allowed region
+identical to Fig. 7, while by inputting the assumption of
+a single relevant Z2 -odd operator (i.e., ∆σ0 ⩾ 3) it leads
+to the allowed region shown in Fig. 12. In this plot one
+can see a detached “island” containing the critical Ising
+model as well as a “bulk” region further to the right.
+This “bulk” region has so far not been systematically
+explored in the literature: it would be very interesting to
+understand what other CFTs lie inside of it.
+In Fig. 13 we also show the difference between
+assuming ∆0 ⩾ 3, ∆σ0 ⩾ 3, and both assumptions
+simultaneously. One can see that the assumption of
+
+1
+0.5
+
+0.505
+
+0.51
+
+0.515
+
+0.52
+
+∆σ
+0.53
+
+0.525
+
+Figure 3: Allowed regions in a Z2 -symmetric CFT3 , assuming various gaps in the scalar
+
+spectrum.
+dashed lineonline)
+is an upperThis
+bound plot
+on ∆ϵ using
+crossing ∆0
+symmetry
+unitarity
+FIG.
+13 The(Color
+assumes
+⩾ and
+3 (light
+of ⟨σσσσ⟩, with no assumptions about gaps, at nmax = 6. The black dotted line is the same
+0
+blue),
+∆
+⩾
+3
+(medium
+blue),
+or
+both
+gaps
+simultaneously
+bound withσnmax = 10. The light blue shaded region assumes a gap ∆ϵ ≥ 3 in the Z2 -even
+sector. The
+medium blue
+shaded
+region
+assumes
+3 in the Z2 -odd sector, and uses
+(dark
+blue).
+Figure
+from
+(Kos
+eta gap
+al.,∆σ ≥
+2014a).
+′
+
+′
+
+crossing symmetry for the system of correlators ⟨σσσσ⟩, ⟨σσϵϵ⟩, ⟨ϵϵϵϵ⟩ (same as figure 2). The
+dark blue region assumes both ∆σ′ , ∆ϵ′ ≥ 3, and uses the system of multiple correlators. All
+bounds other than the black dotted line are computed with nmax = 6, νmax = 8 (21 components
+for single correlator bounds, 105 components for multiple correlator bounds). The 3D Ising
+point is indicated with 2
+black crosshairs.
+
+a gap in the Z -odd spectrum is primarily responsible
+for creating the detached region. In the next section
+we describe the connection to the critical Ising model
+region or a single isolated point.
+in more detail, as well as the techniques and additional
+We note that in our determinations we did not assume the c-minimization conjecture or
+inputssimilar.
+that The
+canonlybeassumption
+used to
+make
+thisandetached
+islandwasasthe
+anything
+besides
+unitarity
+conformal symmetry
+existence as
+of a Z2
+symmetry and the assumption that σ and ϵ are the only relevant scalars.
+small
+possible.
+It is therefore encouraging that the two methods are in such good agreement.
+6
+Discussion
+2. Critical
+Ising model
+In this work we have elucidated the power of mixed correlators in the context of the 3D
+conformal
+bootstrap.
+upper bound
+the is
+leading
+Z2 -even
+operator
+Perhaps
+the While
+mostthe simplest
+well-known
+3d on
+CFT
+the
+critical
+dimension ∆ϵ does not diﬀer from the single correlator bootstrap, mild assumptions about
+3d
+Ising
+model.
+The
+study
+of
+this
+model
+has
+a
+long
+the number of relevant operators give rise to very tight constraints on the allowed values of
+
+history (Domb, 1974), in part because it describes critical
+26
+behavior in uniaxial magnets,
+liquid-vapor transitions,
+binary fluid mixtures, the quark-gluon plasma, and more
+(Pelissetto and Vicari, 2002). While these applications
+are predominantly for systems in three spatial dimensions
+at finite temperature, described by a 3d Euclidean
+CFT, the critical Ising model can also be realized as a
+Lorentzian (2+1)d quantum critical point (Fradkin and
+Susskind, 1978; Henkel, 1984). Here we work in the
+Euclidean signature; the Lorentzian version is obtainable
+by Wick rotation and has the same set of CFT data.
+In its original formulation as a model of
+ferromagnetism, the 3d Ising model is described
+using a set of spins si = ±1 on a cubic lattice in R3 with
+nearest neighbor interactions, with partition function
+
+
+X
+X
+Z=
+exp −J
+si sj .
+(121)
+{si }
+
+hiji
+
+At a critical value of the coupling J, the model becomes
+a nontrivial CFT at long distances. Notice that the
+lattice model has a manifest Z2 symmetry under which
+si → −si . This symmetry is inherited by the CFT, which
+contains local operators that are either even or odd under
+its Z2 global symmetry.
+Another microscopic realization is in terms of a
+continuous scalar field theory in 3 dimensions, with
+
+35
+action
+S=
+
+Z
+
+d3 x
+
+
+
+
+1
+1
+1
+(∂σ)2 + m2 σ 2 + λσ 4 ,
+2
+2
+4!
+
+(122)
+
+which also has a Z2 symmetry under which σ → −σ.
+Because both m2 and λ describe relevant couplings, this
+theory is described by a free scalar at short distances but
+has nontrivial behavior at long distances. At a critical
+value of the dimensionless ratio m2 /λ2 the long-distance
+behavior is described by a CFT, which is the same as for
+the above lattice model.
+From the conformal bootstrap perspective, the
+Ising CFT has a Z2 global symmetry, one relevant
+Z2 -odd scalar operator σ, and one relevant Z2 -even
+scalar operator . This is evident from experimental
+realizations,
+where
+Z2 -preserving
+microscopic
+realizations require one tuning (e.g., tuning the
+temperature in uniaxial magnets) and Z2 -breaking
+microscopic realizations require two tunings (e.g.,
+tuning both temperature and pressure in liquid-vapor
+transitions).102 Note that the assumption that the only
+relevant scaling dimensions are ∆σ and ∆ is the same
+assumption that went into producing the dark blue
+detached region of Fig. 13.
+Kos et al. (2016) pursued a numerical analysis of
+the mixed-correlator bootstrap system containing σ and
+ to high derivative order. In addition, they studied
+the impact of scanning over different possible values of
+the ratio λ /λσσ . This scan effectively inputs the
+information that there is a single operator in the OPE
+occurring at the scaling dimension ∆ , whereas the plot of
+Fig. 13 allowed for the possibility of multiple degenerate
+operator contributions at the dimension ∆ .103 This led
+to the three-dimensional allowed region shown in Fig. 14
+and its projection to the {∆σ , ∆ } plane shown in Fig. 15.
+In addition, for each point in this region the magnitude of
+the leading OPE coefficients were also bounded, with the
+result shown in Fig. 16. These world-record numerical
+determinations are summarized below in Table. II.
+Finally let us mention that recent studies of the
+conformal bootstrap for stress-tensor 4pt functions have
+also made contact with the 3d Ising model. In particular,
+after inputting known values of the leading parity-even
+spectrum, Dymarsky et al. (2018) gave a new bound
+on the leading parity-odd Z2 -even scalar, ∆odd <
+
+existence of Z2 -breaking liquid-vapor experimental
+realizations, allowing one to get Z2 as an emergent symmetry
+and predict the total number of relevant scalars, is a nice feature
+of the Ising model which does not have analogues for the O(N )
+models.
+103 More precisely, the scan inputs that the outer product of OPE
+coefficients (λσσ λ ) ⊗ (λσσ λ ) appearing in Eq. (103)
+at dimension ∆ is a rank 1 matrix, rather than the more
+generic rank 2 possibility which occurs if there are degenerate
+contributions.
+102 The
+
+FIG. 14
+(Color online) Allowed region in the
+{∆σ , ∆ , λ /λσσ } space obtained in Kos et al. (2016).
+Ising: Scaling Dimensions
+Δϵ
+Monte Carlo
+
+1.4130
+1.41265
+
+1.4129
+
+1.41264
+1.41263
+1.41262
+
+1.4128
+
+1.41261
+1.41260
+
+0.518146 0.518148 0.518150 0.518152
+
+1.4127
+1.4126
+
+Bootstrap
+
+1.4125
+0.51808
+
+0.51810
+
+0.51812
+
+0.51814
+
+0.51816
+
+0.51818
+
+Δσ
+
+FIG. 15 (Color online) Projection of the 3d region in Fig. 14
+on the {∆σ , ∆ } plane and its comparison with a Monte Carlo
+prediction for the same quantities (Kos et al., 2016).
+
+11.2, and constrained the independent coefficient in the
+stress-tensor 3pt function (parametrized by the variable
+θ) to be in the range 0.01 < θ < 0.05 if ∆odd > 3 and in a
+tighter range 0.01 < θ < 0.018 − 0.019 if ∆odd is close to
+saturating its bound. We will discuss these constraints
+in more detail in Sec. V.F.
+
+3. Spectrum extraction and rearrangement
+
+We have seen in the previous section the remarkable
+precision with which the leading scaling dimensions of
+the critical 3d Ising model can be determined. This
+raises the immediate question of how well we can
+extract other operator dimensions and OPE coefficients
+in the spectrum using bootstrap methods (specifically the
+strategies described in Sec. IV.D)
+Even prior to the mixed-correlator studies mentioned
+above, El-Showk et al. (2014b) extracted the spectrum
+using the primal simplex method strategy, from a
+solution to crossing for the hσσσσi correlator which
+
+
