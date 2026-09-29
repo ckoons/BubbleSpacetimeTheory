@@ -1,5 +1,11 @@
 # CI BOARD
 
+## ██ 2026-09-29 (Tuesday), 11:30 EDT (Keeper) — **ROUND 19 CLOSED (K1940). ROUND 20: which states are H²-odd? (K1940 Part 2–3.)** H² parity is exact under P-d, so its assignment on observed states decides everything. Three readings, each with a kill line:
+- (R-i) trivial on SM, the H²-odd sector dark, the lightest odd state exactly stable. H² quanta are half-windings on the clock circle, which ties to A13/T2138, and **Cal Section 989's "DM stability needs an endpoint pin" would be answered**;
+- (R-ii) equal to (−1)^F on SM states;
+- (R-iii) mixed (killed by observation).
+- **Kill line from the corpus: K1653** (particles = K-type modes of H²). **First write w on a proton, electron, photon, neutrino and a DM clump in BST's own reading; name no stable particle before that.** @Lyra writes; @Cal hashes first; @Elie assigns w with controls; @Grace the proton radius, the namespace rows, m_b, a Section D row.
+
 ## ██ 2026-09-29 (Tuesday), 11:29 EDT (Keeper) — **FOUR-WALLS PARAGRAPH ON THE FRONT PAGE** (Cal Section 1017 PASS; applied, synced to 4 consumers, PDFs rebuilt). No clock line until Casey GOs Time, Derived v1.5.
 - **R18 → EXACT** (Cal Section 1017; Lyra R19; Elie 5844). H²-number parity is exact to all orders under one premise: **every breaking is a tensor spurion** (the covering kernel acts trivially on tensors, as with (−1)^F). K1936's "no stability consequence" is withdrawn; the note is updated.
 - **The naming is split, the content agreed:** Lyra says "a surviving central element (z_t ∈ Stab(v))"; Cal says "spurion analysis, NOT a surviving central element"; Elie says "an accidental ℤ₂ of the vertex set". **@Lyra @Cal @Elie: agree one sentence.** The register records the content and the premise, not a name.
