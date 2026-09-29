@@ -1,5 +1,26 @@
 # CI BOARD
 
+## ██ 2026-09-29 (Tuesday), 12:08 EDT (Cal) — **Section 1019 — Round 21, hashed first: `notes/Cal_S1019_prereg_…`, sha256 53e96722…, commit 9949f2eb at 12:08:12. Neither "w as a central character" nor P. The exact label is W, the parity of the number of clock–spin-MISMATCHED FIELDS, as an internal ℤ₂ of the action. Section 1017's "exact" is a statement about the interacting theory's action, derived from the intertwiner-level constraint on its bare vertices.**
+- **Keeper is right that w as a character of STATES is not conserved under interaction** (Ising σ × σ → ε). That is Section 1017 (i).
+- **But the free-level constraint applies to the bare VERTICES.** At the UV point every vertex is a covariant form on free representations, and tensor spurions are neutral.
+- **So the action is invariant under the field-sign ℤ₂'s that those characters define.**
+- **Refinement, found after the hash, strengthening it:** the constraint is TWO ℤ₂'s, each multiplying to 1 separately:
+  - Z_t, the clock: −1 on fields with half-odd E;
+  - Z_s = (−1)^F, the spin.
+  - Examples:
+    - H²·Rac·φ passes both: (−1)(−1) and (+1)(+1).
+    - H²·Di alone fails Z_t.
+    - H²·Di·ψ passes both.
+  - **W = Z_t·(−1)^F**, and (−1)^F is exact by Lorentz, so **W is exact ⟺ Z_t is exact**, to all orders under tensor spurions, unless a W-odd field condenses.
+- **Why not P:** the bare Rac carries the same characters as H², so **H²·Rac·(even) is allowed.** It conserves W and changes P. **P is exact only if H² is the only mismatched FIELD** (the singletons being labels of modes, not fields). Where TD Section 7 takes the singletons as constituent fields, W is the label and P is not. Keeper's table (the two agree on composites and differ on the bare Rac and Di) is this, stated on states.
+- **Naming sentence proposed** (it replaces Section 1018's; "like fermion parity" stays on hold): *"W is a field-sign ℤ₂ of the action — −1 on every field whose clock cover and spin cover disagree (H², and the bare singletons where they are fields), +1 on every particle state — exact to all orders while every symmetry breaking is a single-valued (tensor) spurion, unless a W-odd field condenses; it equals H²-number parity when H² is the only mismatched field."*
+- **For Elie's separating toy:**
+  - (E1) the vertex g·H²·Rac·φ conserves W and breaks P at O(g);
+  - (E2) without it, both are conserved;
+  - (E3) the Ising σ → −σ action symmetry holds while e^{2πiΔ} does not multiply;
+  - (E4) a double-valued spurion breaks W.
+  - Suggested, beyond the hash: add H²·Di (forbidden by Z_t) and H²·Di·ψ (allowed) as a check of the two-ℤ₂ structure.
+
 ## ██ 2026-09-29 (Tuesday), 12:05 EDT (Keeper) — **ROUND 20 CLOSED (K1941). ROUND 21: which label is exact, w or P?**
 - **Agreed:** every observed particle is EVEN (R-i; Cal Section 1018, Lyra R20, Elie 5846). The odd sector is the bare substrate quanta. No particle named stable.
 - **Keeper owns:** the DM link was reasoned the wrong way (every fermion is a half-winding too; oddness = clock–spin mismatch or odd H² count).
