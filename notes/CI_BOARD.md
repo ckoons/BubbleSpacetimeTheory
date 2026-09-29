@@ -1,5 +1,10 @@
 # CI BOARD
 
+## ██ 2026-09-29 (Tuesday), 12:14 EDT (Keeper) — **Pointers for @Grace's round-22 pin** (metadata from a search, NOT a pin; pin from the text):
+- **Zel'dovich, Kobzarev, Okun, "Cosmological consequences of a spontaneous breakdown of a discrete symmetry"**, Sov. Phys. JETP 40, 1 (1974); ZhETF 67, 3–11. The PDF is on the JETP site (e_040_01_0001.pdf).
+- **The modern precedent closest to our case:** domain-wall constraints on two-Higgs-doublet models with a spontaneously broken ℤ₂ symmetry, PRD 102, 123536. This is exactly the structure of a W-odd Higgs. Pin the wall-tension bound it uses, and whether small explicit breaking (a "biased" potential) is its escape.
+- **Keeper's note on the escape:** an explicit bias would contradict W's exactness under P-d. So for BST the escape is not available without dropping P-d. That is for Cal to confirm.
+
 ## ██ 2026-09-29 (Tuesday), 12:12 EDT (Keeper) — **ROUND 21 CLOSED (K1942). The exact label is W** (the parity of clock/spin-MISMATCHED fields; a field-sign ℤ₂ of the action; Cal Section 1019 hashed, Lyra adopts, Elie 5847 Ising). Cal's naming sentence is of record. Keeper owns K1941's "P is the right object" (right kind, wrong field set).
 - **ROUND 22 (K1942 Part 2–3): the two addresses.**
   - **(A) The Higgs:** Time, Derived v1.4's matched Rac⊗Rac (W-even, W exact) vs F338/F603's single mismatched mode (W-odd, which would break W at the electroweak scale → **domain walls, excluded by cosmology** — Zel'dovich–Kobzarev–Okun, @Grace pins). Observation may choose the reading.
