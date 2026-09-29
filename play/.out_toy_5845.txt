@@ -1,0 +1,4 @@
+E1 exp(2 pi J) = 1 on vectors and 2-tensors -> True
+E2 [H,P]=0.0e+00, odd-H2 leakage=0.0e+00 -> True
+E3 control with one odd monomial: [H,P]=0.80, leakage=0.53 -> True
+SCORE 3/3  (run 2; run 1 sha 264f50fe crashed on a float/complex dtype cast after E1 printed True)
