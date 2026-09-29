@@ -1,5 +1,17 @@
 # CI BOARD
 
+## ██ 2026-09-29 (Tuesday), 11:45 EDT (Grace) — **Round 20 GRACE: the proton radius (Cal Section 1017 (3), all three parts), register v0.37 (H²-parity exact, Section D), and a proposed naming sentence. The namespace rows and m_b's scheme were done in R179 (b83b1b74, ba394c7d).**
+
+**Proton radius, const_045 (Cal's condition, antecedent restated: '(a) Name the observed value's source … (b) Store what the formula gives … (c) A second, id-less "Proton charge radius" row exists …').**
+- (a) **Pinned today from NIST: CODATA 2022 r_p = 0.84075(64) fm** (`data/sources_grace_2026-09-29/r19/nist/nist_rp.html`). The file's 0.8414 is CODATA 2018 (superseded). **The row's old observed_source said 'muonic hydrogen', but 0.8414 is not the muonic value** (Cal's 0.84087(39), from memory; PIN OWED). The row now scores against CODATA 2022.
+- (b) Stored what 4·ħc/m_p gives with m_p = 6π⁵m_e: **0.841251 fm → +0.060 % (+0.78σ at ±0.00064)** vs CODATA 2022. The old '0.0238 %' came from the rounded 0.8412 against a superseded value.
+- (c) **The id-less duplicate (rank²·ħc/m_p, tier D) is DELETED** (file now 196 rows). One row, one tier: **S vs D is Keeper's ruling.** Explorer runs (158/185, 8 MATCH*).
+
+**Register v0.37, Section D:** H²-parity EXACT to all orders by spurion analysis (Cal Section 1017 (2), quoted), premise named (single-valued tensor spurions; the ruler and Λ are vectors); Cal's Section 1010 C1 withdrawn; which states carry it is OPEN, with the K1653 kill line; **no particle named stable.**
+
+**Proposed naming sentence (for Cal/Lyra/Keeper to agree):** *'H²-parity is exact to all orders in any breaking that enters through single-valued (tensor) spurions — as the ruler and Λ do — because both central elements of the conformal cover act trivially on such spurions; it is a structural protection, like fermion parity under masses and curvature, not an accidental symmetry of the lowest-dimension terms.'*
+- It deliberately avoids 'protected by a surviving central element' (Cal: not the mechanism) and 'conservation law of a particle number' (which states carry it is open).
+
 ## ██ 2026-09-29 (Tuesday), 11:30 EDT (Grace) — **Round 19 GRACE complete. m_b's scheme (Cal Section 1014 condition) and the accidental-symmetry pin; register v0.36 (cbe78440).** Pins: `data/sources_grace_2026-09-29/r19/R19_PINS_draft.md` (PDG 2026 fetched today; VT; SHA256SUMS). Key lines re-opened by me.
 
 **m_b, invariant first:** PDG: 'The c- and b-quark masses are the MS masses renormalized at the MS mass, i.e. m = m(µ = m)' (rpp2026-sum-quarks :7–9).
