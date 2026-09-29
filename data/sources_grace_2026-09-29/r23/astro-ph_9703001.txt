@@ -1,0 +1,748 @@
+                                           Signatures of Topological Defects in the Microwave Sky: An
+                                                                  Introduction
+
+
+
+
+arXiv:astro-ph/9703001v1 28 Feb 1997
+                                                                             R. Durrer
+                                                   Univérsité de Genève, Département de Physique Théorique
+                                                                       24, Quai E. Ansermet
+                                                                     CH–1211 Genève, Suisse
+
+                                           An introduction to topological defects in cosmology is given. We discuss their pos-
+                                           sible relevance for structure formation. Especial emphasis is given on the signature
+                                           of topological defects in the spectrum of anisotropies in the cosmic microwave back-
+                                           ground. We present simple analytic estimates for the CMB spectrum on large and
+                                           intermediate scales and compare them with the corresponding approximations for
+                                           models where initial perturbations are generated during an inflationary epoch.
+
+
+                                       1   Introduction
+
+                                       The formation of structure in the universe is one of the mayor open problems
+                                       in cosmology. Already in 1946 Lifshitz has noted 1 that expansion counter-
+                                       acts gravitational attraction in such a way, that in an expanding universe the
+                                       gravitational potential cannot grow by linear gravitational instability. Also the
+                                       growth of density perturbations is reduced to a power law due to expansion.
+                                       In a radiation dominated universe, radiation pressure inhibits any significant
+                                       growth of density fluctuations. In all, density fluctuations can have grown at
+                                       most by a factor ∼ a0 /aeq = zeq ∼ 104 due to linear gravitational instabil-
+                                       ity, where a0 denotes the value of the cosmological scale factor today and aeq
+                                       denotes its value at the time of equal matter and radiation.
+                                            Therefore, initial fluctuations on the order of 10−4 caused by some other
+                                       mechanism than gravitational instability are needed. Such initial fluctuations
+                                       can then be enhanced by gravity and lead to density fluctuations of order unity
+                                       and finally to the observed structures in the universe. Currently two classes of
+                                       models which can generate initial perturbations are under investigation.
+                                            In the first class, initial perturbations emerge from quantum fluctuations
+                                       of a scalar field, which expand during a period of inflation to scales larger than
+                                       the Hubble scale and then “freeze in” as classical fluctuations in the energy
+                                       density. Generically, inflationary models lead to a so called Harrison-Zel’dovich
+                                       spectrum of fluctuations2 . This spectrum is defined by the requirement of
+                                       having constant mass fluctuations at horizon crossing:
+                                                                  *       2      +
+                                                                       δM
+                                                                                     = constant,                       (1)
+                                                                        M kH (t),t
+
+                                                                                    1
+where kH (t) = 2π/t denotes the wave number corresponding to the horizon
+scale at time t.
+    In inflationary models, initial fluctuations typically are Gaussian, i.e., with
+random initial phases. After inflation they evolve deterministically according
+to homogeneous linear cosmological perturbation equations. The evolution
+of an arbitrary mode k of a perturbations variable δ can thus be described
+by means of a deterministic transfer function T and the initial value δ(ti ) is
+perfectly coherent with δ(t) = T (t, ti )δ(ti ). In other words
+
+               h|δ(ti )δ(t)|i           h|δ(ti )T (t, ti )δ(ti )|i
+            p                       =p                                   =1.   (2)
+             h|δ(ti )|2 ih|δ(t)|2 i   h|δ(ti )|2 ih|T (t, ti )δ(ti )|2 i
+
+     In the second class of models, perturbations are induced by topological
+defects which may form during a symmetry breaking phase transition. This
+mechanism is explained in the next section. The amplitude of initial fluctua-
+tions due to topological defects which form at a symmetry breaking energy scale
+η is on the order of ǫ = 4πGη 2 . To obtain the correct amplitude thus requires
+defects which form during a phase transition at GUT scale η ∼ 1016 GeV.
+     In this situation, perturbations in the cosmic fluid are constantly sourced
+by topological defects and evolve according to inhomogeneous linear pertur-
+bation equations. Since the defects make up only a small perturbation of
+the cosmic energy density and since (soon after the phase transition) they do
+not interact with the cosmic fluid other than gravitationally, they evolve ac-
+cording to the unperturbed geometry (in linear perturbation approximation).
+However, defect evolution is in general non-linear and the random initial con-
+ditions of the source term in the linear cosmological perturbation equations
+of given scale k ’sweep’ into other scales. Therefore, the perfect coherence of
+inflationary perturbations is no longer maintained and Eq. (2) is violated. How
+strong and how significant this decoherence is, depends on the details of the
+model considered.
+     Due to this general behavior inflationary models are sometimes called ’co-
+herent’ and ’passive’ (no source terms in the linear perturbation equation)
+while defect models are called ’decoherent’ and ’active’ (fluid perturbations
+are constantly sourced by the defect energy momentum tensor) 3 . In this talk,
+we concentrate on the second class of models. The main similarities and dif-
+ferences of the two classes are summed up in table 1.
+
+
+
+
+                                           2
+    Inflationary models                    Topological defects
+                                     Similarities
+    • Cosmic structure formation is due to gravitational instability of small
+     ’initial’ fluctuations. → Gravitational perturbation theory
+     can be applied.
+    • GUT scale physics is involved in generating initial fluctuations.
+    • The only relevant ’large scale’ is the horizon scale. → Harrison-
+     Zel’dovich spectrum.
+                                     Differences
+    •The amplitude of fluctuations         •The amplitude of fluctuations
+     depends on details of the inflatio-    is fixed by the symmetry breaking
+     nary potential → fine tuning.          scale η, ǫ = 4πGη 2 .
+    •The linear perturbation eqs. are      •The linear perturbation eqs. are in-
+     homogeneous (passive).                 homogeneous, have sources (active).
+    •For given initial perturbations,      •The source evolution is non-linear
+     the entire problem is linear.          at all times.
+    •Randomness enters only in the         •Randomness enters at all times due
+     initial conditions.                    to the mixing of scales in the non-
+                                            linear source evolution (sweeping).
+    •The phases of perturbations at        •Phases may become incoherent.
+    a given scale λ are coherent.
+    •There exist correlations on super •No correlations on super Hubble
+     Hubble scales.                         scales.
+     Perturbations are ’acausal’.           Perturbations are ’causal’.
+
+Table 1: Similarities and and differences of inflationary perturbations versus perturbations
+                                     induced by seeds.
+
+
+
+2     Topological Defects
+
+Topological defects are as ubiquitous in physics as are symmetry breaking
+phase transitions. Usually they are described by means of a scalar field (order
+parameter, Higgs field) evolving in a temperature dependent potential. In
+the Landau Ginzburg theory of super-conductivity, e.g., the order parameter
+represents the “Cooper pairs” which are described by means of a complex scalar
+field. In this example, the scalar field is electrically charged and interacts with
+the electromagnetic gauge field. For sake of simplicity, we consider here a pure
+scalar field φ, with φ4 interaction term but without gauge field. If φ is in a
+thermal bath at temperature T and we have ’integrated out’ the excitations of
+energies E ≪ T , we obtain an effective Lagrangian density with temperature
+
+                                             3
+dependent potential 4,5
+                                     1
+                            L(φ) =     (∂µ φ)2 − VT (φ) .                          (3)
+                                     2
+At very low temperature V approaches the zero temperature potential, V0 =
+1      2   2 2
+4 λ(|φ| − η ) with vacuum manifold
+
+                              M0 = {φ |φ|2 = η 2 } .                               (4)
+
+(The vacuum manifold denotes the space of minima of the potential V .) At
+higher temperatures, there are corrections to V which in general depend on
+the interactions of the scalar field with other (fermionic and bosonic) fields.
+In our simple case, the main correction is of the form T 2 φ2 which, at high
+enough temperature, namely for T > Tc = 2η, changes the ’Mexican hat’
+into a parabolic shape with M0 = {0}. At T > Tc therefore, not only the
+
+
+
+                                                      T>Tc
+
+
+
+
+                                                             T<<Tc
+
+
+
+Figure 1: The temperature dependence of potential of a complex scalar field. The vacuum
+                 manifold is a circle for T < Tc and a point for T > Tc .
+
+Lagrangian density but also the only possible vacuum state < φ >= 0 is
+symmetric under phase rotations, φ → eiα φ. As soon as the temperature falls
+below Tc , the vacuum manifold becomes a full circle, M0 = S1 and a given
+vacuum state < φ >= r(T )eiα is no longer invariant under phase rotations.
+The function r(T ) is a temperature dependent amplitude with
+
+                         r(Tc ) = 0 and       lim r(T ) = η .                      (5)
+                                              T →0
+
+                                          4
+This process is the ’spontaneous’ breakdown of a symmetry (here phase ro-
+tations or U (1)). Even though the Lagrangian density and M0 as a whole
+are invariant under phase rotation, at T < Tc , this is no longer manifest in
+phenomena which can be described by expansion around the vacuum, since
+the choice of a vacuum state spontaneously breaks the symmetry.
+     If such a phase transition takes place in the early universe, the coher-
+ence length is finite (it is bounded by the causal horizon). As the universe
+cools below the critical temperature, we expect the field φ to assume differ-
+ent vacuum expectation values at different patches of space which are sepa-
+rated by distances larger than the coherence length. If we now prescribe a
+closed curve in a plane through physical space, γ : [0, 1] → R2 : s → x(s),
+x(0) = x(1), the field φ can change its phase along the curve Γ = γ([0, 1]).
+< φ > (x(s)) = r(T )eiα(s) . By continuity reasons the phase must change by
+a multiple of 2π during a full turn, α(1) = α(0) + n2π. If n 6= 0, the loop
+Γ cannot be contracted to a point with α(s) changing continuously. The ex-
+pectation value < φ > thus must pass through 0 somewhere in the interior of
+Γ. In other words, φ must leave the vacuum manifold and assume a state of
+higher energy in some small region in the interior of Γ. If we now leave the
+
+
+
+
+                                      Γ
+
+Figure 2: If the map indicated in this figure, : Γ → M : x(s) 7→ φ(x(s)) is non-trivial, a
+                                   cosmic string forms.
+
+
+plane and continue this argument in the third dimension, we obtain a long,
+thin string within which φ assumes higher energy, a cosmic string. The cross
+section of the string, i.e. of the region where φ leaves the vacuum manifold,
+is typically of order 1/η. The length of a string is either infinite or the string
+must be closed. The mechanism of defect formation described here is called
+the ’Kibble mechanism’ 5 .
+     The main ingredient for the Kibble mechanism is the existence non-trivial
+
+                                            5
+(non-shrinkable) maps from a closed curve is space ∼ S1 to the vacuum mani-
+fold. The classes of these maps form a group, the first homotopy group Π1 (M).
+     Similarly, if maps from spheres in space into M cannot be shrunk to a
+point, i.e. Π2 (M) is non-trivial, φ might have to leave the vacuum manifold in
+a small patch in 3-space, leading to a tiny region of higher energy, a monopole.
+Again, the spatial extension of the monopole is on the order of 1/η and thus
+extremely small in comparison to cosmological scales.
+     Furthermore, if we consider configurations which are asymptotically con-
+stant (φ(x) →|x|→∞ const.), we can compactify 3-space to R3 = (R3 ∪ ∞) ∼
+S3 , and assign to φ(∞) the value of the asymptotic constant. We then en-
+counter the question whether there exist non-shrinkable maps from S3 → M.
+(Non-trivial homotopy group Π3 (M).) One can show, that such a configura-
+tion is always unstable and will shrink and eventually leave the vacuum mani-
+fold and unwind. (In the case of finite energy configurations this is Derrick’s
+theorem6 .) A configuration φ which winds once around S3 is called ’texture’ of
+winding number 1. (Textures of higher winding numbers are probably unstable
+and decay into simple textures.)
+     There are some doubts about the applicability of this concept to cosmol-
+ogy; especially the notion of an asymptotically constant configuration is not at
+all causal. However, in the case of Π3 (and only in this case!) one can define
+a texture number density nφ (x), such that
+                                       Z
+                                   3
+                            wφ (R ) =       nφ (x)d3 x                       (6)
+                                         R3
+
+determines the winding number (i.e. texture number) of the map φ : R3 → M.
+Clearly, if this map is well defined, wφ (R3 ) is always an integer. Nevertheless,
+we can also consider the winding number in a finite volume V ∈ R3 and
+determine                               Z
+                              wφ (V ) =    nφ (x)d3 x                          (7)
+                                         V
+which need not be an integer. Numerical investigations7 have shown that a
+                                            >
+configuration shrinks whenever wφ (VH ) ∼ 1/2, where VH denotes the Hubble
+volume, independent of the behavior of φ at spatial infinity. Therefore, it
+makes sense to talk about textures also in a cosmological context.
+    Depending on whether the symmetry is local (gauged) or global (rigid),
+defects are called ’local’ or ’global’. In the case of local defects, gradients are
+compensated by the gauge potential (∂µ → Dµ = ∂µ + ieAµ ), and there is no
+considerable gradient energy. This has two important consequences:
+   • The energy of defects is strongly confined, i.e. the extension of defect
+     energy is given by the inverse symmetry breaking scale, 1/η.
+
+                                        6
+    • Soon after their formation, local defects cease to interact. There are no
+      long range interactions between local defects.
+
+In the case of global defects, there are no gauge fields to compensate gradi-
+ents and the energy is dominated by gradient energy which is spread out over
+typically the horizon scale t. Interactions between defects are very strong. De-
+fects of opposite charge annihilate leading to a few (or less) defects per horizon
+volume. Energy density always behaves like ρdefect ∼ η 2 /t2 (up to possible
+logarithmic corrections) and we thus find ρdefect/ρmatter ∼ 4πGη 2 = ǫ. The
+defect energy amounts to a constant small fraction of the total energy density
+of the universe. This behaviour is called scaling.
+     In the case of local defects, only strings scale. Local monopoles soon come
+to dominate the energy density of the universe and local textures quickly die
+out. Defects responsible for structure formation and CMB anisotropies are
+thus either local strings or global defects.
+     In the case of global fields, gradient energy is the main seed for perturba-
+tions in the geometry. Whether these gradients lead to topological defects or
+not is actually less important. E.g. scalar fields with a φ4 potential and N > 4
+components do not lead to topological defects in 3-dimensional space, but
+structure formation seeded by such fields is very similar to the N = 4 (global
+texture) and N = 3 (global monopoles) models. The limit N → ∞ where the
+field equations can be solved exactly, provides a useful approximation to global
+defect scenarios 8,9 .
+     At temperatures significantly below the symmetry breaking scale, the di-
+mensionless field β = φ/η obeys to a very good approximation the scale free
+equation of a non-linear σ–model 10 . Scaling arguments then yield O(β̇) =
+O(∂i β) = O(1/t).
+     The typical amplitude of geometrical fluctuations in scaling defect models
+is given by
+                         4πGρdefect/(ȧ/a)2 ∼ 4πGη 2 ≡ ǫ .                     (8)
+
+The COBE experiment provides the normalization ǫ ∼ 10−5 and thus η ∼
+1016 GeV. In order to create large enough fluctuation to seed the formation of
+structure in the universe, defects must thus form during a symmetry breaking
+phase transition at Tc ∼ 1016 GeV, i.e. at a typical scale of grand unification.
+
+
+3   The CMB Anisotropy Spectrum from Topological Defects
+
+Anisotropies in the cosmic microwave background (CMB) are small and can
+thus be calculated within linear cosmological perturbation theory.
+
+                                        7
+    If we neglect the finite thickness of the last scattering surface, t = tdec , the
+temperature anisotropies in the cosmic microwave background can be found
+by integrating photon geodesics from tdec until today, t0 . This leads to
+                                                      Z f
+  δT          1 (r)
+     (n) =      D + Vj nj + (Ψ − Φ) (tdec , xdec ) +        (Ψ̇ − Φ̇)(x′ , t′ )dt . (9)
+  T           4                                          i
+
+Here D(r) denotes a gauge invariant variable describing intrinsic density fluctu-
+ations in the radiation, V is the peculiar baryon velocity, i.e. the velocity of the
+emitter (the corresponding term for the observer, which just results in the well-
+known dipole contribution has been omitted), and Φ and Ψ are the Bardeen
+potentials11 , two geometric variables which describe scalar perturbations of the
+Friedmann geometry. Ψ is a close analog of the Newtonian potential. If the
+matter causing the geometric perturbation is either non-relativistic or an ideal
+fluid, Φ = −Ψ. A derivation of Eq. (9) can be found in Ref. 12.
+     The first two terms in Eq. (9) are mainly caused by acoustic oscillations
+of the baryon photon fluid prior to recombination. This causal process acts
+only on sub horizon scales and thus comes to dominate on angular scales θ <
+1o . The third term is the ordinary Sachs Wolfe contribution13 . It is due
+to the gravitational potential at the last scattering surface, which induces a
+redshift(blueshift) of the free photons climbing out of it (falling down from it).
+The integral in Eq. (9) is the integrated Sachs Wolfe term, which is induced
+by a time varying gravitational potential along the path of the photon from
+the last scattering surface into the antenna of the observer. The Sachs Wolfe
+contributions are relevant on large angular scales, θ ≫ 1o .
+     The finite thickness of the last scattering surface leads to diffusion damp-
+ing at very small angular scales: During recombination, the mean free path of
+photons grows from effectively 0 to much larger than the Hubble scale. Pertur-
+bations with are small enough so that photons can diffuse out of them during
+the recombination process, are thus damped away. This process is called Silk
+damping14 . To a reasonable approximation it can be taken into account by
+multiplying the result of Eq. (9) with an exponential damping envelope15 . For
+a more accurate treatment, one has to solve Boltzmann’s equation taking into
+account non-relativistic Compton scattering of photons and electrons12 .
+     In addition to these fluctuations which are determined entirely within lin-
+ear perturbation theory, some secondary effects due to the formation of the
+first non-linear structures might influence the perturbations. There are no-
+tably gravitational lensing, the Rees Sciama effect and the Sunyaev Zel’dovich
+effect which can influence very small scales; as well as early reionization which
+may lead to damping of fluctuations on intermediate scales. Here we just dis-
+cuss the Sachs Wolfe and acoustic contributions which dominate on large and
+
+                                          8
+intermediate angular scales.
+    Since δT
+           T is a function on the sphere, it make sense to expand it in terms
+of spherical harmonics:
+
+                             δT       X
+                                (n) =   aℓm Yℓm (n) .                              (10)
+                              T
+                                        ℓm
+
+The anisotropy spectrum is then defined by
+
+                                 h m |aℓm |2 i
+                                  P
+                            Cℓ =               .                                   (11)
+                                     2ℓ + 1
+In the case of Gaussian perturbations, the Cℓ ’s contain the full statistical
+information of the CMB anisotropies since they are the ’harmonic transform’
+of the two point correlation functiona :
+                            
+               δT     δT ′                  1 X
+  C(cos ϑ) ≡      (n) (n ) (n·n′ =cos ϑ) =       (2ℓ + 1)Cℓ Pℓ (cos ϑ) , (12)
+               T       T                   4π
+                                                       ℓ
+
+where Pℓ denotes the Legendre polynomial of order ℓ.
+    Since the relevant quantity for CMB anisotropies are the Cℓ ’s, angular
+regimes are often translated into intervals of ℓ’s. Small ℓ’s probe large angular
+scales whereas large ℓ’s probe small angular scales. The angular scale corre-
+sponding to a given ℓ is about θℓ ∼ 1/ℓ. In terms of ℓ, ’large angular scales’
+                 <                                                   >
+correspond to ℓ ∼ 50 and Silk damping becomes relevant at ℓ ∼ 800. The
+scales in between are intermediate angular scales.
+
+3.1   Large scales
+Angular scales, θ ≫ 1o , which correspond to spherical harmonics with index
+ℓ ≪ 200 subtend a distance which is larger than the size of the horizon at
+recombination. Temperature fluctuations on these angular scales are either
+due to super horizon fluctuations, if they result from fluctuations at the last
+scattering surface, the ’recombination shell’, or they have been induced during
+the propagation of the photons from the last scattering surface into the antenna
+of the observer.
+     The Sachs Wolfe (SW) contributions to the CMB anisotropies from infla-
+tionary models and defect models are as different as they can be. Nevertheless
+   a The expansion into spherical harmonics on the sphere is the exact analog of Fourier
+
+transform in Rn . Since the sphere is compact, the ’harmonic transform’ of a function on
+the sphere lives on a discrete set.
+
+                                           9
+they finally lead to the same Harrison Zel’dovich spectrum of Cℓ ’s. Let us
+elaborate on this ’accident’ in some detail.
+     For a pure CDM (cold dark matter) model, it is easy to show from the
+linear perturbation equations that Φ = −Ψ and Ψ̇ = 0. Furthermore, assum-
+ing adiabatic perturbations, one finds from the analog of Poisson’s equation,
+(1/4)D(r) = −(5/3)Ψ + O((kt)2 ). On super horizon scales, kt ≪ 1, Eq. (9)
+thus yields for pure CDM
+
+                           δT      1
+                              (n) = Ψ(tdec , xdec ) .                        (13)
+                           T       3
+This is the well known Sachs Wolfe result. For a typical inflationary spectrum,
+the Bardeen potentials behave like
+
+                  h|Ψ(k)|2 i ∝ 1/k 3    for inflation + CDM.                 (14)
+
+Using this and Eq. (13), one can calculate the anisotropy spectrum and finds
+(see appendix)
+                                         1
+                               Cℓ ∝           .                         (15)
+                                     ℓ(ℓ + 1)
+For topological defect models, the situation is very different. One can show,
+that (due to compensation) the Bardeen potentials have white noise spectra on
+super horizon sales 3,16 . By dimensional reasons therefore h|Ψ(k)|2 it−3 =constant.
+Furthermore, one finds that D(r) behaves like (kt)2 Ψ and is thus negligible on
+super horizon scales. Once a perturbation enters the horizon, t ∼ 1/k the de-
+fect contribution decays and it is dominated by the contribution due to CDM
+which then becomes time independent. A reasonable approximation to the
+Bardeen potentials from defect models is thus
+              3
+                t ,       on super horizon scales, kt ≤ 1,
+h|Ψ(k)|2 i ∝                                                  for defects + CDM.
+                1/k 3 , on sub horizon scales,     kt ≥ 1,
+                                                                             (16)
+Using this approximation, it is easy to see that the ordinary Sachs Wolfe effect
+is very small (for scales which are super horizon at decoupling), whereas the
+integrated SW term behaves like the inflationary SW contribution leading to
+the same spectrum of CMB anisotropies on large angular scales, Eq (15). A
+derivation of this result is given in the appendix.
+     Of course, our argumentation in the case of topological defects is very
+crude. It is, however, useful to interpret the findings from numerical simula-
+tions. Large scale CMB anisotropies from simulations of Global defects17 are
+presented in Fig. 3. Similar results have been obtained for cosmic strings18 .
+
+                                       10
+Figure 3: The large scale CMB anisotropies from global texture simulations. The spectra
+for 27 observers are plotted. The sharp drop after ℓ ∼ 30 is due to finite resolution. (Figure
+                           taken from Durrer and Zhou, Ref. 17.)
+
+
+
+3.2   Intermediate scales
+The signal from CMB anisotropies on intermediate scales is most interesting
+since it contains the most structure and thus the most detailed information.
+     As already mentioned, fluctuations on intermediate scales are due to acous-
+tic oscillations in the tightly coupled photon baryon plasma prior to recombi-
+nation. To understand the basic principle, we treat these oscillations here in
+a very simple way. We neglect the presence of baryons and thus set the sound
+velocity of the plasma, c2s = 1/3. Energy and momentum conservation then
+lead to the following equations of motion for the density perturbation D(r) and
+the peculiar velocity potential V (r) (see Ref. 12):
+
+                            4                               1
+                   Ḋ(r) = − kV (r) ,         V̇ (r) = 2kΨ + kD(r) .                     (17)
+                            3                               4
+
+(In the second equation we have suppressed the difference between Ψ and
+−Φ which is unimportant for our qualitative discussion.) Eqs. (17) can be
+combined to a second order equation for D:
+
+                                     1            8
+                              D̈(r) + k 2 D(r) = − k 2 Ψ .                               (18)
+                                     3            3
+                                             11
+Using the behavior Ψ ∝ t3/2 on super horizon scales, and Ψ ∝ k −3/2 on sub
+horizon scales, we obtain the solutions
+                 32
+                    (kt)2 Ψ√
+           
+              − 105                 on super horizon scales, kt ≪ 1
+   D(r) =                                                             (19)
+              8Ψ(cos(kt/ 3) − 1) on sub horizon scales,      kt ≫ 1.
+
+     This behavior of D(r) is very different to the adiabatic inflationary
+                                                                 √          case.
+There D(r) ∼ Ψ on super horizon scales and D(r) ∼ Ψ(sin(kt/ 3) − 1) on sub
+horizon scales. For defects thus D(r) is very small at horizon crossing and first
+has to grow to achieve its maximum whereas in the adiabatic inflationary case,
+D(r) is already at its maximum on super horizon scales and starts decaying at
+horizon crossing. This is the reason why the first acoustic peak is displaced to
+larger ℓ for defect models. In a flat, Ω = 1 universe the position of the first
+acoustic peak is about ℓpeak ∼ 360 for global defects where it is at ℓ = 220 for
+adiabatic inflationary models19,20 .
+     I carefully always said ’adiabatic inflationary models’ since the second or-
+der Eq. (18) of course allows for two modes and in inflationary models one
+is actually free to choose the adiabatic mode, which is defined by V (r) =
+V (CDM) on super horizon scales or the isocurvature mode which is defined by
+D(r) →kt→0 0. For defect models, however, we want to pick out the peculiar
+solution induced by the defect fluctuations without adding an arbitrary ho-
+mogeneous solution, a perturbation which then would have to be induced by
+some other mechanism like, e.g. inflation. For defect models we thus have no
+freedom in the choice of the mode. The resulting CMB anisotropy spectrum
+for a typical model with global defects is shown in Fig. 4.
+     An additional phenomenon which can be important for the acoustic peaks
+in the CMB anisotropy spectrum is decoherence: For inflationary perturbations
+the phase of an acoustic oscillation is entirely determined by its wave number,
+i.e. all fluctuations with fixed wave number k are at fixed phase in their
+temporal oscillations. In models with topological defects, the fluctuations are
+induced by the defect energy which evolves in a complicated non-linear way.
+Decoherence can be described by the decay of the correlation function
+
+                                  h|Ψ(k, t)Ψ(k, ti )|i
+                     C(k, t) = p                             .              (20)
+                                h|Ψ(k, t)|2 ih|Ψ(k, ti )|2 i
+
+Since defects evolve causally, they are ’frozen in’ on super horizon scales and
+no decoherence can thus occur on these scales, C(k, t) = 1, for kt ≪ 1. As soon
+as defects enter the horizon, they start evolving in a complicated non-linear
+way and their gravitational potential looses coherence with a characteristic
+time scale tc . On the other hand, the defects themselves decay with a decay
+
+                                        12
+Figure 4: The CMB anisotropy spectrum from global topological defects. The vertical scale
+   is arbitrary. This result was obtained by a model calculation as explained in Ref. 16.
+
+
+
+
+time td . Once the defects have decayed, dark matter and radiation fluctua-
+tions evolve according to homogeneous perturbation equations not loosing any
+remaining coherence. The question whether decoherence is effective or not, is
+thus determined by the ratio r = tc /td . For r ≤ 1 decoherence is unimportant
+where as for r ≫ 1 decoherence smears out secondary acoustic peaks leaving
+over just one broad ’hump’ 3 . This process is illustrated in Fig. 5.
+     Local cosmic strings decay only via the very weak process of gravitational
+radiation and are thus relatively long lived. A cosmic string loop, after entering
+the horizon, typically survives for about 104 horizon times. Global defects, on
+the other hand, decay very effectively within a few horizon times via the radia-
+tion of massless Goldstone modes. Furthermore, there are hints from numerical
+simulations, that coherence decays exponentially for cosmic strings3 but only
+like a power law for global defects9 . These findings have led to the conjecture
+that decoherence is effective in scenarios with local cosmic strings but not for
+global defects. However, to fully understand and quantify decoherence, more
+detailed simulations and analytical work are needed.
+
+
+
+
+                                           13
+                         100        1000   100        1000   100     1000
+
+
+
+
+Figure 5: CMB anisotropies from topological defects. The effect of decoherence is shown.
+The variables τc and xc correspond to td and tc respectively. The ratio r is thus largest for
+ the top right frame and smallest for the bottom left one. (From Magueijo et al., Ref. 3.)
+
+
+
+4   Conclusion
+
+We have seen that the anisotropies in the CMB provide interesting possibil-
+ities to distinguish between models of structure formation from inflationary
+perturbations or from topological defects. The first tests for physical theories
+at very high energies ∼ 1016 GeV might thus come from cosmology and not
+from accelerator experiments!
+     One of the reasons for its usefulness certainly lies in the simplicity of calcu-
+lations of CMB anisotropies. All the effects discussed here can be determined
+within linear perturbation analysis. The complicated non-linear physics in-
+volved in the formation of celestial bodies plays only a minor role for CMB
+anisotropies, while it might significantly obscure the relation between observa-
+tions and calculations of large scale structure. There, the quantities simple to
+
+                                                 14
+observe are the clustering properties of light, while linear perturbation analysis
+just determines the clustering of mass.
+    We have justified hopes that the next decade, when experimental results
+determine CMB anisotropy to an accuracy of a few percent, will revolutionize
+cosmology. On the one hand, the dependence of the details of the acoustic
+peaks on cosmological parameters22 might help us to determine these param-
+eters to an accuracy of a few percent. On the other hand, the acoustic peaks
+probably contain information about the physics at GUT scales which is not
+available to us by any other means.
+    I have not discussed here the distinction of inflationary and defect models
+by statistical means: While generic inflationary models lead to Gaussian per-
+turbations, topological defects are inherently non-Gaussian. It may however
+be quite difficult to detect this deviation from Gaussian statistics: On very
+large scales, a significant obstacle is cosmic variance, while on intermediate
+scales, several defects might contribute to a given perturbation and thus re-
+duce non-Gaussian signatures (central limit theorem). The best prospects are
+probably on small scales, where one might actually ’see’ the discontinuity due
+to one cosmic string21 . An interesting discussion of the problem of statistics is
+given in the contribution by J. Magueijo in these proceedings.
+
+
+Acknowledgments
+
+It is a pleasure to thank Monique Signoret and Francesco Melchiorri for orga-
+nizing this short but stimulating and active meeting. I also want to express my
+thanks to Mairi Sakellariadou who contributed to much of the original work
+reported here. I gratefully acknowledge support by the Fonds National Suisse.
+
+
+Appendix
+
+In this appendix we show in some detail how Eqs. (14) and (16) lead both
+to a Harrison Zel’dovich spectrum of microwave background anisotropies, i.e.
+Cℓ ∝ 1/ℓ(ℓ + 1).
+     Using xdec = x0 −n(t0 −tdec ) ≈ x0 −nt0 , the Fourier transform of Eq. (13)
+yields
+                     δT          1
+                        (n, k) = exp(in · kt0 )Ψ(tdec , k) .                (21)
+                      T          3
+Using the well-known identity23 exp(iαµ) = ℓ (2ℓ + 1)iℓ jℓ (α)Pℓ (µ), where jℓ
+                                              P
+denotes the spherical Bessel function and Pℓ is the Legendre polynomial of
+
+                                       15
+index ℓ, we find
+                            δT          X
+                               (k, µ) =   iℓ ∆ℓ (k)Pℓ (µ) ,                    (22)
+                            T
+                                             ℓ
+
+with µ = n · k/k, and
+                                       2ℓ + 1
+                         ∆ℓ (k) =             Ψ(k, tdec )jℓ (kt0 ) .           (23)
+                                          3
+Inserting this in the two point correlation function, Eq. (12), one obtains
+
+                                 2         h|∆(k)|2 i
+                                   Z
+                           Cℓ =      dkk 2            .                     (24)
+                                 π         (2ℓ + 1)2
+
+To arrive at this result we replace the ensemble average of Eq. (12) by an
+integration over observer positions x0 , a kind of ’ergodic hypothesis’. Then we
+use unitarity of the Fourier transform and elementary orthogonality properties
+of spherical harmonics. The average h|∆(k)|2 i represents an integral over k-
+directions. For Eq. (24) to hold, it is important that the Fourier transform is
+defined by
+                                1
+                                   Z
+                      fˆ(k) = √       d3 xf (x) exp(ik · x) ,               (25)
+                                 V V
+otherwise, the pre-factor in front of the integral in Eq. (24) changes.
+    Inserting now h|Ψ|2 (k)i = Ak −3 , the integral in Eq (24) becomes
+                                   2A     dx
+                                       Z
+                             Cℓ =            jℓ (x)2 .
+                                   9π      x
+
+This integral can be performed exactly with the result24
+
+                   (inf lation)            AΓ(ℓ)             A
+                Cℓ                =                    =            .          (26)
+                                      36Γ(3/2)Γ(ℓ + 2)   9πℓ(ℓ + 1)
+The dimensionless constant A is given by the specific inflationary model and
+has to be tuned to A ∼ 10−9 .
+    For topological defects the situation is somewhat more complicated since
+Ψ is time dependent. The same reasoning which led to Eq. (23) yields
+                                               Z t0
+        1
+            ∆ℓ (k) = 2Ψ(tdec , k)jℓ (kt0 ) + 2       Ψ̇(t, k)jℓ (k(t0 − t))dt . (27)
+     2ℓ + 1                                     tdec
+
+If we now make use of the approximation for the p
+                                                geometry perturbations from
+defects given in Eq. (16) and simply set Ψ(k) ∼ h|Ψ(k)|2 i , the integration
+
+                                              16
+in Eq. (27) has to be performed only until t = 1/k, since Ψ̇ vanishes for
+kt > 1. We thus may neglect the weak time dependence of jℓ in the interval of
+integration. The integral in Eq. (27) can then be performed. The ordinary SW
+contribution is canceled by the lower limit of the integral and only the much
+larger contribution from the upper limit of the integral remains leading to
+
+                    ∆ℓ (k) = 2(2ℓ + 1)Ψ(t = 1/k, k)jℓ (kt0 ) .                (28)
+
+Inserting this finding in Eq. (24) with h|Ψ(t = 1/k, k)|2 i = Aǫ2 k −3 , we find as
+in Eq. (26)
+                               (defect)     8Aǫ2
+                             Cℓ         =           .                          (29)
+                                          πℓ(ℓ + 1)
+Here A is a dimensionless constant which is model dependent, but generically
+of order unity, and ǫ = 4πGη 2 is given by the symmetry breaking scale.
+    Even if the integration encountered in this derivation can be performed
+exactly, we should not forget that the crucial ingredient, Eq. (16) is a simple
+approximation and the constant A should be determined by numerical sim-
+ulations. Also in the simple inflationary CDM model, massless neutrini and
+the contribution of radiation to the expansion of the universe induce a small
+integrated SW contribution which has been neglected in this approximation.
+    In general, if h|∆ℓ (k)|2 i = Ak −n t3−n
+                                         0   in a certain range of harmonics ℓ,
+one can compute the Cℓ ’s in this range exactly with the result
+
+                               Γ(n − 1)Γ(ℓ + 3−n
+                                               2 )
+                       Cℓ = A n−1                    .
+                             2    Γ(n/2)2 Γ(ℓ + n+1
+                                                 2 )
+
+
+References
+
+  1. E. Lifshitz, J. Phys. USSR 10, 116 (1946).
+  2. E. Harrison, Phys. Rev. D1 2726 (1970);
+     Ya. B. Zel’dovich, Mont. Not. R. Astr. Soc. 160, P1 (1972).
+  3. J. Magueijo, A. Albrecht, P. Ferreira and D. Coulson, Phys. Rev. D54,
+     3727 (1996).
+  4. J.I. Kapusta, “Finite Temperature Field Theory”, Cambridge University
+     Press (1989).
+  5. T. W. B. Kibble, Phys. Rep. 67, 183 (1980).
+  6. J. Derrick, Math. Phys. 5, 1252 (1964).
+  7. J. Borill, E.J. Copeland, A.R. Liddle, A. Stebbins and S. Veeraraghavan,
+     Phys. Rev. D50, 2469 (1994), and references therein.
+  8. N. Turok and D. Spergel, Phys. Rev. Lett. 66, 3093 (1991).
+
+                                        17
+ 9. M. Kunz and R. Durrer, Phys Rev. D, in press, archived under
+    astro-ph/9612202 (1996).
+10. R. Durrer in: Formation and Interaction of Topological Defects, NATO
+    ASI Series B349, eds. A.C. Davis and R. Brandenberger (1995).
+11. J. Bardeen, Phys. Rev. D22, 1882 (1980).
+12. R. Durrer, Fund. of Cosmic Physics 15, 209 (1994).
+13. R.K. Sachs and A.M. Wolfe, Astrophys. J. 147, 73 (1967).
+14. J. Silk, Astrophys. J. 151, 459 (1968).
+15. W. Hu and N. Sugiyama, Astrophys. J. 471, 542 (1996).
+16. R. Durrer and M. Sakellariadou, Phys. Rev. D, submitted, archived un-
+    der astro-ph/9702028 (1997). (See also Sakellariadou & Durrer, these
+    proceedings.)
+17. R. Durrer and Z.H. Zhou Phys Rev. D53 (1995).
+18. B. Allen, R.R. Caldwell, E.P.S. Shellard A. Stebbins and S. Veeraragha-
+    van, Phys. Rev. Lett., submitted, archived under astro-ph/9609038
+    (1996)
+19. R. Crittenden and N. Turok, Phys. Rev. Lett. 75, 2642 (1995).
+20. R. Durrer, A. Gangui and M. Sakellariadou, Phys. Rev. Lett. 76, 579
+    (1996).
+21. N. Kaiser and A. Stebbins, Nature 310, 391 (1984);
+    A. Stebbins Astrophys. J. 327, 584 (1988).
+22. W. Hu, N. Sugiyama and J. Silk, Nature, in press, archived under
+    astro-ph/9604166 (1997).
+23. M. Abramowitz and I.A. Stegun, Handbook of Mathematical Functions,
+    Dover Publications, New York (1972).
+24. I.S. Gradshteyn and I.M. Ryzhik, Tables of Integrals, Series and Prod-
+    ucts, Academic Press, San Diego (1980).
+
+
+
+
+                                   18
+

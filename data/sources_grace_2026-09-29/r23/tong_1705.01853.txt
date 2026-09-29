@@ -1,0 +1,778 @@
+                                          Preprint typeset in JHEP style - HYPER VERSION
+
+
+
+
+arXiv:1705.01853v2 [hep-th] 12 Jun 2017
+                                          Line Operators in the Standard Model
+
+
+
+                                          David Tong
+                                             Department of Applied Mathematics and Theoretical Physics,
+                                             University of Cambridge, UK
+                                             d.tong@damtp.cam.ac.uk
+
+
+
+                                          Abstract: There is an ambiguity in the gauge group of the Standard Model. The
+                                          group is G = SU(3) × SU(2) × U(1)/Γ, where Γ is a subgroup of Z6 which cannot
+                                          be determined by current experiments. We describe how the electric, magnetic and
+                                          dyonic line operators of the theory depend on the choice of Γ. We also explain how the
+                                          periodicity of the theta angles, associated to each factor of G, differ.
+Contents
+1. Introduction                                                                       1
+
+2. A Review of Line Operators                                                         3
+
+3. Line Operators in the Standard Model                                               7
+   3.1 Theta Angles                                                                  10
+   3.2 Electroweak Symmetry Breaking                                                 12
+
+4. Summary                                                                           14
+
+
+
+
+1. Introduction
+At the parochial distance scales accessible by experiment, the world in which we live is
+governed by the Standard Model. The gauge sector is one of the most beautiful con-
+structs in theoretical physics, involving an intricate interplay between chiral fermions
+to ensure the cancellation of anomalies. Indeed, the matter content in one generation
+forms what is arguably the simplest non-Abelian four-dimensional chiral gauge theory.
+
+   Despite the fact that the Standard Model is built around the idea of gauge symme-
+try, there is a little-advertised ambiguity in the choice of gauge group. We learn in
+kindergarten that we should take
+
+                            G̃ = U(1) × SU(2) × SU(3)
+
+But this is not quite accurate. Experimental considerations tell us only that the gauge
+group is
+
+                                      G = G̃/Γ
+
+where Γ is a discrete group. As we review below, the matter content of the Standard
+Model is invariant under a suitably chosen Z6 subgroup of G̃. For this reason, it is
+sometimes stated that one should take the gauge group to include the quotient Γ = Z6 .
+
+
+
+                                           1
+This, however, is putting the cart before the horse. At present, we can only say that
+the gauge group involves a quotient by Γ, which is a subgroup of Z6 , i.e.
+
+                                       Γ = Z6 , Z3 , Z2 or 1
+
+Each of these possibilities defines a different theory and, ultimately, gives rise to differ-
+ent physics. The obvious questions are: which describes our world? And how can we
+tell?
+
+   These are difficult questions to answer. Correlation functions of local operators in
+  1,3
+R depend only on the Lie algebra of the gauge group and are unaffected by global
+issues such as the choice of Γ. This means that no current experiment can distinguish
+between the four possibilities1 . Nonetheless, the physics in flat space can depend in
+subtle ways on Γ (and in more dramatic ways when spacetime has interesting topology).
+The purpose of this paper is to describe the crudest differences between the theories:
+the spectrum of line operators and the periodicities of theta angles.
+
+   The fact that the spectrum of line operators depends on the global structure of
+the gauge group was emphasised by Aharony, Seiberg and Tachikawa [1]. The line
+operators can be thought of as heavy electric and magnetic test particles which can be
+used to probe the dynamics of the gauge fields. Roughly speaking, taking a quotient
+restricts the allowed electric line operators but, in doing so, relaxes the constraint of
+Dirac quantisation and so frees up the allowed magnetic line operators. The first goal
+of this paper is to classify the allowed line operators for each choice of Γ.
+
+   The authors of [1] also explained why the periodicity of θ-angles depends on the
+global structure of the gauge group. The second goal of this paper is to understand
+how the ranges of the various θ-angles in the Standard Model are affected by the choice
+of Γ. The θ-angle for SU(3) is much discussed and the smallness of its (un)observed
+value, θ3 . 10−10 , is one of the great open problems in particle physics. In contrast
+there is seemingly no mystery about the θ-angle for SU(2) since the existence of the
+anomalous global B + L symmetry means that it can always be rotated away. (As we
+will see in Section 3, this argument needs a small correction.)
+
+  Finally, there is also a θ-angle for U(1)Y hypercharge. This has received very little
+attention in the literature and with good reason, for Abelian gauge groups have no finite
+   1
+     The theoretical prejudice of unification suggests that Γ = Z6 , since only then is G is a subgroup of
+SU (5) or Spin(10). It may well be true that this is the way Nature works. However, the philosophy of
+this paper is to admit our ignorance of the ultra-violet, and instead use our knowledge of the infra-red
+to restrict what we may ultimately find as we explore higher energies.
+
+
+
+
+                                                    2
+action configurations carrying topological charge. This means that, unlike their non-
+Abelian counterparts, the electric spectrum and correlation functions do not depend
+on θY . Nonetheless, Abelian θ-angles can change the physics in more subtle ways.
+This happens, for example, in the magnetic sector through the Witten effect [2, 3]. It
+also happens when θ-angles vary in space or, relatedly, in the presence of boundaries.
+Indeed, much of the rich and beautiful phenomenology of topological insulators can be
+understood as a domain wall between θem = 0 and θem = π [4, 5]. We will see below
+that the periodicity of θY is determined by Γ and that, after electroweak symmetry
+breaking, this affects the periodicity of the electromagnetic theta angle, which is a
+particular combination of θ2 and θY .
+
+  The paper is organised as follows. Section 2 is a review of the results of [1], specifically
+how the line operators and associated theta angles differ for SU(N) and SU(N)/ZN .
+Section 3 contains all the main results of the paper, including how the line operators and
+θ-angles in the Standard Model depend on the choice of discrete quotient Γ. Particular
+attention is paid to the values of θ for which the gauge sector is invariant under CP or,
+equivalently, under time reversal. We also describe the fate of the line operators un-
+der electroweak symmetry breaking, since this determines the allowed electromagnetic
+charges of particles.
+
+  The distinctions between the different gauge groups G = G̃/Γ described here are
+rather formal in nature. We end in Section 4 with some speculations on how these
+distinctions may manifest themselves physically.
+
+
+2. A Review of Line Operators
+We start by reviewing the properties of line operators, described in [1], that we will
+later need.
+
+   Wilson lines are operators which describe the insertion of an infinitely massive, elec-
+trically charged particle sitting at the origin of space [6]. They are labelled by repre-
+sentations R of the gauge group G, and given by
+                                                Z        
+                             WR = TrR P exp i dt A0
+
+Wilson lines exist for all representations R, regardless of the dynamical matter content
+of the theory. This means, in particular, that different gauge groups G will have a
+different spectrum of Wilson lines, even if they share a common Lie algebra g. We
+denote the weight lattice of g as Λw . Then the representations of the universal cover of
+
+
+
+                                              3
+G — which we denote as G̃ — are labelled by points in the lattice Λw /W where W is
+the Weyl group. Representations of G = G̃/Γ are labelled by an appropriate sublattice
+Λw /W .
+
+   ’t Hooft lines are operators which describe the insertion of an infinitely massive,
+magnetically charged particle sitting at the origin of space [7]. They are best thought
+of as defect operators, in which the gauge fields have suitable boundary conditions
+imposed on the worldline of the magnetic source [8]. For a gauge group G, ’t Hooft
+lines are labelled by some sublattice of Λmw /W where Λmw is the magnetic weight
+lattice [9]; it is the weight lattice of the dual Lie algebra g⋆ , or the dual of the root
+lattice of g.
+
+  More generally, we may probe the theory with a dyonic Wilson-’t Hooft line. These
+are labelled by some sublattice of (Λw × Λmw )/W [8]. We will denote the weights as
+(λe , λm ) ∈ Λw × Λmw , with the identification (λe , λm ) ∼ (wλe , wλm ), where w ∈ W .
+
+  Given a choice of gauge group G = G̃/Γ, we would like to determine the allowed
+spectrum of line operators. This problem was solved in [1] for connected groups. (Here
+we consider only line operators which enjoy an independent existence, as opposed to
+those which survive only on the boundary of a surface operator.) Certain line operators
+exist regardless of the choice of the discrete quotient Γ. For the Wilson lines, these
+correspond to the root lattice Λr ⊂ Λw . They include, for example, the Wilson line in
+the adjoint representation. Different choices of Γ then determine which of the remaining
+Wilson lines are allowed. These can be characterised by their transformation under
+Λw /Λr = Z(G̃), the centre of G̃.
+
+   A similar story plays out for the ’t Hooft lines: for every choice of G = G̃/Γ there is
+a ’t Hooft line corresponding to the co-root lattice Λcr ⊂ Λmw or, equivalently the root
+lattice of g⋆ . The remaining ’t Hooft lines are characterised by Λmw /Λcr = Z(G̃) and
+their admissibility depends on the choice of Γ.
+
+  The upshot of this is that line operators decompose into classes, labelled by the
+
+                                (z e , z m ) ∈ Z(G̃) × Z(G̃)
+
+Furthermore, the line operators form a group; the operator product gives rise to an
+addition law while the reversal of orientation provides an inverse. These properties are
+enough to ensure that if one member of the class labelled by (z e , z m ) is present in the
+theory the the entire class is present.
+
+
+
+                                              4
+     Zm                       Zm                        Zm                       Zm
+
+
+
+
+                  Ze                        Ze                       Ze                        Ze
+
+
+
+
+Figure 1: The spectrum of line operators for: a) SU (3); b) SU (3)/Z3 at θ = 0; c) SU (3)/Z3
+at θ = 2π; d) SU (3)/Z3 at θ = 4π.
+
+
+   The admissible electric line operators (z e , 0) are determined by the choice of gauge
+group G = G̃/Γ, with only those z e which are invariant under Γ present. The magnetic
+and dyonic line operators are then restricted by Dirac quantisation. To be specific,
+consider gauge groups with centre Z(G̃) = ZN . In this case both z e and z m are
+integers mod N. Two lines (z e , z m ) and (z ′ e , z ′ m ) can both exist as operators only if
+
+                               z e z ′ m − z m z ′ e = 0 mod N                           (2.1)
+
+This is the Dirac quantisation condition for non-Abelian lines. The important role
+played by the centre of the gauge group in Dirac quantisation was first pointed out by
+Corrigan and Olive [10].
+
+An Example: SU(N) vs SU(N)/ZN
+For g = su(N), the centre of the group is Z(SU(N)) = ZN . When the gauge group
+is G = S(N), all electric line operators are allowed; that is z e = 0, 1, 2, . . . , N − 1. In
+contrast, the magnetic line operators are restricted to lie on the magnetic root lattice,
+meaning that z m = 0. The resulting set of line operators for SU(3) are shown in Figure
+1a, plotted in the (z e , z m ) lattice. The figure shows the charges extended to z e,m ∈ Z;
+the key physics can be seen in the grey box, which restricts to z e,m = 0, 1, 2. The lattice
+is then formed by tiling this box.
+
+   For SU(N)/ZN , the only purely electric line operators lie on the root lattice. They
+have (z e , z m ) = (0, 0). The magnetic line operators are more interesting and there are
+several, different solutions to the quantisation condition (2.1). The simplest such solu-
+tion is to admit the purely magnetic line operators (0, z m ) with z m = 0, 1, 2, . . . N − 1.
+No further dyonic operators are then allowed. The resulting spectrum of line operators
+for G = SU(3)/Z3 is shown in Figure 1b.
+
+
+
+                                                 5
+  For G = SU(N)/ZN (but not for all other gauge groups [1]), other solutions to (2.1)
+are generated by the theta angle. This arises through the Witten effect [2] – which
+holds for line operators as well as dynamical particles [8, 11] – and ensures that, in the
+presence of θ 6= 0, purely magnetic line operators turn into dyonic line operators. In
+particular, as θ → θ + 2π, each line operator picks up an electric charge given by
+
+                         λe → λe + λm      ⇒    ze → ze + zm
+
+For the G = SU(N) theory, the set of line operators transforms into itself under
+θ → θ + 2π. In contrast, for G = SU(N)/ZN , the set of line operators turns into
+something different. This means that the theory with θ = 0 is not the same as the
+theory with θ = 2π. Instead, for G = SU(N)/ZN , the theta angle takes values in the
+range
+
+                                     θ ∈ [0, 2πN)
+
+This extended range of θ is associated to the fact that G = SU(N)/ZN admits instan-
+tons with fractional charge 1/N. Starting with the set of line operators generated by
+(z e , z m ) = (0, 1), under a shift θ → θ + 2πk we have a new theory with line operators
+generated by (z e , z m ) = (k, 1). For G = SU(3)/Z3 , the set of line operators are shown
+in Figures 1c and 1d for k = 1 and k = 2 respectively.
+
+How Does the Dynamics Differ?
+In four-dimensional Minkowski spacetime, R3,1 , the difference between Yang-Mills with
+gauge group SU(N) and SU(N)/ZN is rather formal. In particular, any local observer
+is blind to the distinction. Nonetheless, the different line operators mean that there
+are subtle differences between the two theories. This appears, for example, after con-
+finement. In either theory, the confining phase can be viewed as arising through the
+condensation of magnetic monopoles with charge λm ∈ Λmr . For SU(N) Yang-Mills,
+these are the minimally charged monopoles. However, for SU(N)/ZN , these are not
+the minimum charge. This means that (at θ = 0) this theory exhibits topological order,
+with an emergent magnetic discrete ZN gauge symmetry in the infra-red [1].
+
+   The difference between the two theories takes on a more meaningful role when the
+theory is compactified on a space with non-trivial topology, since now the Wilson line
+for the ZN gauge symmetry can get an expectation value, resulting in different physics
+in the lower dimension. This is perhaps clearest in the N = 1 super Yang-Mills, where
+one has more control over the dynamics. When compactified on a circle, or on a higher
+dimensional torus, the Witten indices for SU(N) and SU(N)/ZN differ [12, 13].
+
+
+
+                                            6
+3. Line Operators in the Standard Model
+In this section, we extend the analysis of [1] to the non-connected gauge group
+                                 U(1)Ỹ × SU(2) × SU(3)
+                                G=
+                                            Γ
+where Γ ⊆ Z6 . The quotient group Γ lies in the centres of SU(2) and SU(3), combined
+with a suitable U(1)Ỹ rotation. The quotient Γ = Z6 is generated by
+                                      ξ = e2πiq/6 ⊗ η ⊗ ω
+where η ∈ Z(SU(2)) obeys η 2 = 1 and ω ∈ Z(SU(3)) obeys ω 3 = 1 and q is the U(1)Ỹ
+charge. The quotient Γ = Z3 is generated by ξ 2 and the quotient Γ = Z2 is generated
+by ξ 3 .
+
+  Line operators are now labelled by three electric charges and three magnetic charges,
+one pair for each factor of the gauge group. As reviewed in Section 2, for non-Abelian
+gauge groups the line operators fall into classes, labelled by z2e , z2m = 0, 1 for SU(2)
+and z3e , z3m = 0, 1, 2 for SU(3). We also require the additional labels (q, g) to describe
+the electric and magnetic charge under U(1)Ỹ . We chose conventions2 such that q ∈ Z
+and, in the absence of any discrete quotient, g ∈ Z as well. However, as we will see,
+the presence of a discrete quotient Γ 6= 1 means that g can take fractional values.
+
+  The Dirac quantisation condition is simplest to state between purely electric and
+purely magnetic lines: it is
+                                      e m            e m
+                               (−1)z2 z2 (e2πi/3 )z3 z3 e−2πiqg = 1
+Or, equivalently,
+                                  3z2e z2m + 2z3e z3m − 6qg ∈ 6Z                               (3.1)
+We deal with each choice of Γ = 1, Z2 , Z3 and Z6 in turn. We start by describing
+the spectrum of line operators when θ = 0 for each factor of the gauge group; we will
+subsequently see how the spectrum changes with θ.
+
+  Γ = 1: With no quotient, there is no restriction on the allowed electric line operators:
+the theory contains Wilson lines with charges z e = 0, 1 and z3e = 0, 1, 2, dressed with
+any Abelian q ∈ Z. Solutions to (3.1) then require z2m = 0 mod 2 and z3m = 0 mod 3
+while g ∈ Z.
+   2
+     The convention that charges under U (1)Ỹ are integer valued is standard in more formal areas of
+field theory, but differs from the usual normalisation of hypercharge in the Standard Model, which is
+given by Y = Ỹ /6. Later, we will make the assumption that the minimal hypercharge q = 1 is realised
+in the Standard Model (by the left-handed quarks).
+
+
+
+
+                                                 7
+          Z 3,m                                                                                 Z 3,m
+            z2,m                  z2,m                  z2,m                                      z2,m                  z2,m                  z2,m
+
+
+
+
+                         z2,e                  z2,e                  z2,e                                      z2,e                  z2,e                  z2,e
+
+
+            z2,m                  z2,m                  z2,m                                      z2,m                  z2,m                  z2,m
+
+
+
+
+                         z2,e                  z2,e                  z2,e                                      z2,e                  z2,e                  z2,e
+
+
+            z2,m                  z2,m                  z2,m                                      z2,m                  z2,m                  z2,m
+
+  g=1/2                                                                                 g=1/2
+
+  g=0                                                                       Z 3,e       g=0                                                                       Z 3,e
+                         z2,e                  z2,e                  z2,e                                      z2,e                  z2,e                  z2,e
+
+          q=0      q=1          q=0      q=1          q=0      q=1                              q=0      q=1          q=0      q=1          q=0      q=1
+
+  Figure 2: Γ = 1. The Abelian lines are                                                Figure 3: Γ = Z2 . The Abelian lines are
+  generated by (q, g) = (1, 0) and (0, 1)                                               generated by (q, g) = (2, 0) and (0, 1)
+
+
+   The resulting electric and magnetic charges of line operators are depicted in Figure
+2. This, and subsequent figures, show the four possible (z2e , z2m ) charges superposed on
+the nine possible (z3e , z3m ) charges. In this case, we can add Abelian line operators with
+(q, g) = (1, 0) and (q, g) = (0, 1).
+
+  Γ = Z2 : Wilson lines must now be invariant under ξ 3 This means that electric lines
+with z2e = 0 must have q even, while those with z2e = 1 must have q odd. Each of these
+can have any z3e = 0, 1, 2.
+
+  The quantization condition condition (3.1) still requires z3m = 0 mod 3. However, now
+magnetic lines exist with z2m = 1 provided they are accompanied by Abelian magnetic
+charge g = 21 . We can add to these Abelian line operators with (q, g) = (2, 0) and
+(q, g) = (0, 1). The resulting spectrum of line operators is that of U(2) × SU(3) and is
+shown in Figure 3.
+
+ Γ = Z3 : Wilson lines must now be invariant under ξ 2 . This mean that electric lines
+must have q = z3e mod 3. Each of these can have any z2e = 0, 1.
+
+   The quantization condition condition (3.1) now allows lines with SU(3) magnetic
+charge z3m = 0, 1, 2, as long as they are accompanied by Abelian magnetic charge
+g = z3m /3. No SU(2) magnetic charge is allowed: z2m = 0 mod 2. We can add to these
+Abelian line operators with (q, g) = (3, 0) and (q, g) = (0, 1). The resulting spectrum
+of line operators is that of SU(2) × U(3) and is shown in Figure 4.
+
+  Γ = Z6 : Purely electric operators are invariant under ξ. This means that the Abelian
+charge is q = 3z2e − 2z3e mod 6. It is noticeable that all fundamental fermions in
+
+
+
+                                                                                    8
+          Z 3,m                                                                                 Z 3,m
+            z2,m                  z2,m                  z2,m                                      z2,m                  z2,m                  z2,m
+
+                                                                                        g=1/6
+
+  g=2/3                  z2,e                  z2,e                  z2,e
+                                                                                        g=2/3                  z2,e                  z2,e                  z2,e
+
+
+            z2,m                  z2,m                  z2,m                                      z2,m                  z2,m                  z2,m
+
+                                                                                        g=5/6
+
+  g=1/3                  z2,e                  z2,e                  z2,e
+                                                                                        g=1/3                  z2,e                  z2,e                  z2,e
+
+
+            z2,m                  z2,m                  z2,m                                      z2,m                  z2,m                  z2,m
+
+                                                                                        g=1/2
+
+  g=0                                                                       Z 3,e       g=0                                                                       Z 3,e
+                         z2,e                  z2,e                  z2,e                                      z2,e                  z2,e                  z2,e
+
+          q=0      q=0          q=1      q=1          q=2      q=2                              q=0      q=3          q=4      q=1          q=2      q=5
+
+  Figure 4: Γ = Z3 . The Abelian lines are                                              Figure 5: Γ = Z6 . The Abelian lines are
+  generated by (q, g) = (3, 0) and (0, 1)                                               generated by (q, g) = (6, 0) and (0, 1)
+
+
+the Standard Model obey this relationship between the charges3 . Specifically, the
+representations under U(1) × SU(2) × SU(3) are
+
+                                Leptons: lL : (2, 1)−3                                  ⇒       (z2e , z3e )q = (1, 0)−3
+                                                      eR : (1, 1)−6                     ⇒       (z2e , z3e )q = (0, 0)−6
+                                Quarks:               qL : (2, 3)+1                     ⇒       (z2e , z3e )q = (1, 1)+1
+                                                      uR : (1, 3)+4                     ⇒       (z2e , z3e )q = (0, 1)+4
+                                                      dR : (1, 3)−2                     ⇒       (z2e , z3e )q = (0, 1)−2
+
+We could add to this the right-handed neutrino νR which is a gauge singlet. The
+Higgs also obeys the relationship between electric charges, sitting in the representation
+(2, 1)3 ⇒ (z2e , z3e )q = (1, 0)3 . The fact that all Standard Model fields satisfy q =
+3z2e − 2z3e mod 6 is, of course, equivalent to the statement made in the introduction
+that the Standard Model gauge group is consistent with U(1) × SU(2) × SU(3)/Z6 .
+
+   The quotient Γ = Z6 allows for the richest spectrum of magnetic line operators. Now
+purely magnetic operators exist for any choice of (z2m , z3m ) provided they are accompa-
+nied by an Abelian magnetic charge 6g = 3z2m + 2z3m mod 6. For example, a basis of
+magnetic operators is (z2m , z3m )g = (1, 0)1/2 and (0, 1)1/3 . We can add to these Abelian
+line operators with (q, g) = (6, 0) and (0, 1). The resulting spectrum is shown in Figure
+5.
+   3
+    Wilson lines should be thought of as the insertion of infinitely heavy particles, and so are not
+directly associated to these massless, chiral fermions. Nonetheless, both sit in representations of the
+gauge group with Γ = Z6 .
+
+
+
+
+                                                                                    9
+3.1 Theta Angles
+We can now ask how the spectrum of line operators changes as we vary the θ-angles.
+A priori, there are three such angles, one for each factor of the gauge group. We call
+these θỸ , θ2 and θ3 . Within the framework discussed in this paper it makes sense to
+ask how the line operators vary under each of these.
+
+  Before we proceed, it is worth reviewing the role of theta angles in the Standard
+Model. The most discussed is the QCD theta angle, θ3 . Bounds on strong CP violation
+restrict θ3 . 10−10 . (The value θ3 = π also preserves CP but the meson spectrum
+derived from the chiral Lagrangian differs from the observed values [14, 15].)
+
+  It is usually stated that the weak theta angle, θ2 , can be rotated away in the Standard
+Model . This follows from the existence of an anomalous global symmetry B +L → ZNf
+where Nf = 3 is the number of generations. We will revisit this below.
+
+    Finally, there is very little, if any, discussion of the theta angle for hypercharge
+θỸ . This changes neither the spectrum nor correlation functions of local operators.
+Nonetheless, it can play a role in the presence of magnetic monopoles or boundaries of
+space. Correspondingly, it also changes the spectrum of line operators.
+
+  Here we start by ignoring the effects of global anomalies and focus on the spectrum
+of line operators and the Witten effect. As reviewed in Section 2, for simple gauge
+groups, a quotient by the centre has the effect of extending the range of θ. In the
+present context, the quotient Γ = Zp extends the range of the Abelian theta angle
+only4 . We have
+
+                            θ2 , θ3 ∈ [0, 2π) and θỸ ∈ [0, 2πp2 )                            (3.2)
+
+This is simplest to see for the case of Z2 and Z3 where the gauge group is G = U(2) ×
+SU(3) and G = SU(2) × U(3) respectively. Here
+
+                                             U(1) × SU(N)
+                                   U(N) =
+                                                  ZN
+We denote the U(1) gauge field as ã, the SU(N) gauge field as a and their corresponding
+field strengths as f˜ and f . The theta terms for the U(1) × SU(N) theory are
+
+                                 θN                       θ̃
+                                        Z                       Z
+                           Sθ =                  ⋆
+                                            tr (f f ) +             f˜ ⋆f˜
+                                16π 2                   16π 2
+   4
+   For the hypercharge with normalisation Y = Ỹ /6, the range is 36θY ∈ [0, 2πp2 ), so θY ∈ [0, 2π)
+when Γ = Z6 .
+
+
+
+
+                                                10
+To describe the U(N) theory, we introduce the canonically normalised gauge field
+                                      b = a + ã1N
+with corresponding field strength g. The theta terms can then be written as
+                         θN                θ̃ − NθN
+                              Z                     Z
+                                     ⋆
+                 Sθ =           tr (g g) +            (tr g) ⋆ (tr g)                 (3.3)
+                        16π 2               16π N
+                                                2 2
+
+
+We see that θN ∈ [0, 2π) while θ̃ ∈ [0, 2πN 2 ).
+
+  Similarly, for the Z6 quotient, one can check that the spectrum of line operators is
+invariant under the identification (3.2), with θ̃ ∈ [0, 72π).
+
+  (Some examples with the Z6 quotient: the theory with θ2 = 0, θ3 = 2π and Abelian
+theta angle θ̃ has the same spectrum of line operators as the theory with θ2 = θ3 = 0
+and Abelian theta angle θ̃′ = θ̃ + 48π; the theory with θ2 = 2π, θ3 = 0 and Abelian
+theta angle θ̃ has the same spectrum of line operators as the theory with θ2 = θ3 = 0
+and Abelian theta angle θ̃′ = θ̃ + 36π.)
+
+Time Reversal Invariant States
+It is interesting to ask: for which values of the θ angles does the theory respect time
+reversal invariance or, equivalently, CP? There are eight possibilities, two for each factor
+of the gauge group.
+
+  Γ = 1: All theta angles have periodicity 2π. It is well known that θ2 , θ3 and θ̃ can
+each take values 0 or π.
+
+  Γ = Z2 : Here θ̃ ∈ [0, 8π). The values θ3 = 0 and π are both time reversal invariant.
+We can read off the U(2) θ angles from (3.3). When θ2 = 0, θ̃ = 0 or 4π; when θ2 = π
+then θ̃ = 2π or 6π.
+
+   Γ = Z3 : Here θ̃ ∈ [0, 18π). The values θ2 = 0 and π are both time reversal invariant.
+The U(3) theta angles can be θ3 = 0 and θ̃ = 0 or 9π. Alternatively, we can have
+θ3 = π and θ̃ = 3π or 12π.
+
+  Γ = Z6 : We have θ̃ ∈ [0, 72π). The time reversal invariant theories have
+   • θ2 = 0 and θ3 = 0 and θ̃ = 0 or 36π.
+
+   • θ2 = 0 and θ3 = π and θ̃ = 12π or 48π.
+
+   • θ2 = π and θ3 = 0 and θ̃ = 18π or 54π.
+
+   • θ2 = π and θ3 = π and θ̃ = 30π or 66π.
+
+
+
+                                            11
+The Effect of Global Anomalies
+The chiral nature of the Standard Model means that the theta angle θ2 can be rotated
+away. Here we review this argument. In fact, as we will see, a more careful statement
+is that a linear combination of θ2 and θ̃ can be removed.
+
+  In general, theta angles can be rotated away if the theory admits a continuous global
+symmetry which suffers a mixed anomaly with the gauge symmetry. This arises most
+naturally in the presence of a massless chiral fermion. (For example, a massless up
+quark provides an elegant solution to the strong CP problem, albeit one that appears
+not to be favoured by Nature). However, even with non-vanishing Yukawa couplings, so
+that all fermions have a mass, the Standard Model still admits two global symmetries:
+these are lepton and baryon number:
+
+                               lL   qL     eR   uR     dR      νR
+                          L   +1     0     +1    0      0     +1
+                          B    0    + 13   0    + 13   + 31    0
+
+where, for once, we have bowed to tradition and employed the non-integer normalisation
+of the baryon current. Both L and B suffer mixed anomalies with both SU(2) and
+U(1)Ỹ . They are
+       X                X                              X              X
+           L SU(2)2 =       B SU(2)2 = −1 and              L Ỹ 2 =       B Ỹ 2 = +18
+
+We recover the well known fact that the combination B − L is non-anomalous. Mean-
+while, under a transformation of L, parameterised by αL , we have
+
+                        L : θ2 → θ2 − αL , θ̃ → θ̃ + 18αL
+
+The linear combination θ̃ + 18θ2 is physical and cannot be rotated away. We will see
+the interpretation of this shortly.
+
+3.2 Electroweak Symmetry Breaking
+Let’s now see what becomes of our line operators after electroweak symmetry breaking.
+The Higgs field H lies in the (2, 1)3 representation and condenses, breaking U(1)Ỹ ×
+SU(2) → U(1)em of electromagnetism. We will denote the electric charges of U(1)em
+as Q and the magnetic charges as G. We choose to normalise electric charges such that
+the electron has Q = −1.
+
+
+
+                                           12
+  The allowed electric and magnetic charges under U(1)em depend on our choice of
+discrete quotient Γ. The electric charge under U(1)em is given by
+
+                                          q
+                                    Q=      + λe2
+                                          6
+
+with q the U(1)Ỹ charge and with the normalisation λ22 ∈ Z so that, for example,
+λe2 = ±1 corresponds to the fundamental representation of SU(2). (Written in terms
+of Y = Ỹ /6, this takes the more familiar form Q = Y + λe2 .)
+
+  Meanwhile, after condensation of the Higgs, most ’t Hooft and dyonic line opera-
+tors with U(1)Ỹ or SU(2) magnetic charge exhibit an area law. Those that remain
+deconfined obey the condition
+
+                          6g = λm
+                                2     ⇒    6g = z2m mod 2
+
+The resulting magnetic charge under U(1)em is given by
+
+                                       G = 6g
+
+In this normalisation, the Dirac quantisation condition for pure electromagnetism reads
+QG ∈ Z. We can now describe the spectrum of electric and magnetic U(1)em charges
+for each quotient.
+
+   Γ = 1: The minimum electric charge is Q = 1/6 and the minimum magnetic charge
+is G = 6. These arise, for example, from the Wilson line (1, 1)1 and the ’t Hooft line
+with g = 1 and λm
+                2 = 6.
+
+
+   Γ = Z2 : The minimum electric charge is Q = 1/3 and the minimum magnetic charge
+is G = 3. These arise, for example, from the Wilson line (1, 1)2 and the ’t Hooft line
+with g = 1/2 and λm2 = 3.
+
+
+   Γ = Z3 : The minimum electric charge is Q = 1/6 and the minimum magnetic charge
+is G = 2. These arise, for example, from the Wilson line (1, 3)1 and the ’t Hooft line
+with g = 1/3 and λm2 = 2.
+
+
+   Γ = Z6 : The minimum electric charge is Q = 1/3 and the minimum magnetic charge
+is G = 1. These arise, for example, from the Wilson line (1, 3)−2 and the ’t Hooft line
+with g = 1/6 and λm2 = 1.
+
+
+
+
+                                          13
+   Note that for Γ = Z3 and Γ = Z6 , the spectrum is not consistent with the naive,
+electromagnetic Dirac quantisation QG ∈ Z. This is simply the statement that a
+minimum Dirac monopole is inconsistent with the fractional charge of the quarks. The
+resolution to this was given long ago [10]: the magnetic monopole must also carry colour
+magnetic charge, and this provides an extra contribution to the Dirac quantisation
+condition, rendering the spectrum consistent. (This fact is also emphasised in [17] in
+the context of GUT monopoles.) Indeed, it is simple to check from Figures 4 and 5 that
+the relevant ’t Hooft lines do indeed carry SU(3) magnetic charge. This is tantamount
+to the fact that, in these cases, the low-energy gauge group is actually U(3) rather than
+U(1) × SU(3).
+
+   We denote the electromagnetic field strength as F , again normalised such that the
+electron carries charge −1. After symmetry breaking, the electromagnetic theta term
+is
+                                  θỸ + 18θ2
+                                             Z
+                            Sθ =               d4 x ⋆ F F
+                                     64π 2
+
+We see that θem = (θỸ + 18θ2 )/4, precisely the combination that cannot be removed by
+a chiral rotation. This, of course, is no coincidence: it follows from ’t Hooft anomaly
+matching and the fact that the Higgs multiplet (2, 1)3 can give mass to all chiral
+fermions, leaving behind the vector-like theory of QED.
+
+  The range of θem depends on the quotient Γ. For Γ = 1, Z2 , the gauge group is
+U(1) × SU(3) and θem ∈ [0, 2πQ2 ) where Q is the minimum charge. For Γ = Z3 , Z6 ,
+the gauge group is U(3) and θem ∈ [0, 18πQ2 ). In particular, when Γ = Z6 we have
+θem ∈ [0, 2π) despite the presence of fractional quark charge.
+
+
+4. Summary
+The global structure of the Standard Model gauge group depends on the choice of
+quotient Γ. The differences in these theories described above are rather formal in
+nature. Just because a line operator exists in a theory does not mean that it is available
+to experimenters. It is clearly interesting to better understand the physical implications
+of the different choices of Γ to see if they may reveal themselves in some way in our
+world.
+
+  Some minor, and fairly cheap, respite can be found in the conjecture that, in any
+theory with gravity, the full set of charges carried by line operators are also carried by
+dynamical objects [18]. The best arguments for this come from black hole physics [19].
+
+
+
+                                           14
+In the absence of gravity, one can always decouple fields by taking their mass to infinity,
+leaving behind only the non-dynamical line operators. In a theory with gravity, this is
+not possible: the backreaction of the line operator will eventually form a black hole,
+which carries the appropriate electric and magnetic charges.
+
+   Conversely, the global structure of the gauge group determines the fluxes that are
+allowed through cycles in a non-trivial spacetime. A black hole provides such a space-
+time, with an S2 horizon, and the fluxes which can thread this are determined by the
+choice of Γ.
+
+  The further requirement that elementary particles should not form black holes [20]
+suggests that there are new magnetic (and possibly electric) particles to be found
+whose charges depend on Γ. Obviously, if a neutral quark is discovered, transforming
+in the (1, 3)0 representation of G, then we must take Γ = Z2 or 1. In contrast, as we
+saw above, the discovery of a magnetic monopole, consistent with the minimum Dirac
+quantisation with respect to the electron, but not with respect to the quark, would
+mean that Γ = Z6 . Of course, these predictions are rather toothless: the particles have
+a mass which is constrained only by the Planck scale are unlikely to be abundant; one
+must hope that Nature is kind [21].
+
+  One can ask if there are more subtle ways to distinguish between the theories. As ex-
+plained in [1], and reviewed in Section 2, after confinement the Yang-Mills theory with
+gauge group SU(N)/ZN exhibits topological order, with an emergent ZN magnetic
+gauge symmetry. This gives rise to the possibility of more interesting physics arising in
+spacetimes with non-trivial topologies or boundaries. For the Standard Model, there
+exists a magnetic Z3 symmetry arising when Γ = Z3 or Z6 but the states which carry
+charge under this also carry magnetic charge under under U(1)em . It would be interest-
+ing to see if this has any implications for physics in the presence of non-trivial topology
+or, more interestingly, in dynamical spacetime. This may allow us to answer the basic
+question: what is the gauge group of the Standard Model?
+
+Acknowledgements
+My thanks to Bobby Acharya, Nick Dorey, Zohar Komargodski, Tony Padilla and
+John Terning for useful discussions. This work was supported by STFC grant
+ST/L000385/1 and by the European Research Council under the European Union’s
+Seventh Framework Programme (FP7/2007-2013), ERC grant agreement STG
+279943, Strongly Coupled Systems. I am a Wolfson Royal Society Research Merit
+Award holder.
+
+
+
+                                            15
+References
+ [1] O. Aharony, N. Seiberg and Y. Tachikawa, “Reading between the lines of
+     four-dimensional gauge theories,” JHEP 1308, 115 (2013) [arXiv:1305.0318 [hep-th]].
+ [2] E. Witten, “Dyons of Charge eθ/2π,” Phys. Lett. 86B, 283 (1979).
+ [3] F. Wilczek, “Two Applications of Axion Electrodynamics,” Phys. Rev. Lett. 58, 1799
+     (1987).
+ [4] X. L. Qi, T. Hughes and S. C. Zhang, “Topological Field Theory of Time-Reversal
+     Invariant Insulators,” Phys. Rev. B 78, 195424 (2008) [arXiv:0802.3537
+     [cond-mat.mes-hall]].
+ [5] X. L. Qi, R. Li, J. Zang and S. C. Zhang, “Seeing the magnetic monopole through the
+     mirror of topological surface states”, Science 323, 1184 (2009) [arXiv:0811.1303
+     [cond-mat.mes-hall]].
+ [6] K. G. Wilson, “Confinement of Quarks,” Phys. Rev. D 10, 2445 (1974).
+ [7] G. ’t Hooft, “On the Phase Transition Towards Permanent Quark Confinement,” Nucl.
+     Phys. B 138, 1 (1978).
+ [8] A. Kapustin, “Wilson-’t Hooft operators in four-dimensional gauge theories and
+     S-duality,” Phys. Rev. D 74, 025005 (2006) [hep-th/0501015].
+ [9] P. Goddard, J. Nuyts and D. I. Olive, “Gauge Theories and Magnetic Charge,” Nucl.
+     Phys. B 125, 1 (1977).
+[10] E. Corrigan and D. I. Olive, “Color and Magnetic Monopoles,” Nucl. Phys. B 110, 237
+     (1976).
+[11] M. Henningson, “Wilson-’t Hooft operators and the theta angle,” JHEP 0605, 065
+     (2006) [hep-th/0603188].
+[12] E. Witten, “Supersymmetric index in four-dimensional gauge theories,” Adv. Theor.
+     Math. Phys. 5, 841 (2002) [hep-th/0006010].
+[13] Y. Tachikawa, “Magnetic discrete gauge field in the confining vacua and the
+     supersymmetric index,” JHEP 1503, 035 (2015) [arXiv:1412.2830 [hep-th]].
+[14] V. Baluni, “CP Violating Effects in QCD,” Phys. Rev. D 19, 2227 (1979).
+[15] R. J. Crewther, P. Di Vecchia, G. Veneziano and E. Witten, “Chiral Estimate of the
+     Electric Dipole Moment of the Neutron in Quantum Chromodynamics,” Phys. Lett.
+     88B, 123 (1979) Erratum: [Phys. Lett. 91B, 487 (1980)].
+[16] A. A. Anselm and A. A. Johansen, “Can electroweak theta term be observable?,” Nucl.
+     Phys. B 412, 553 (1994) [hep-ph/9305271].
+[17] J. Preskill, “Magnetic Monopoles,” Ann. Rev. Nucl. Part. Sci. 34, 461 (1984).
+
+
+
+
+                                            16
+[18] J. Polchinski, “Monopoles, duality, and string theory,” Int. J. Mod. Phys. A 19S1, 145
+     (2004) [hep-th/0304042].
+[19] T. Banks and N. Seiberg, “Symmetries and Strings in Field Theory and Gravity,”
+     Phys. Rev. D 83, 084019 (2011) [arXiv:1011.5120 [hep-th]].
+[20] N. Arkani-Hamed, L. Motl, A. Nicolis and C. Vafa, “The String landscape, black holes
+     and gravity as the weakest force,” JHEP 0706, 060 (2007) [hep-th/0601001].
+[21] B. Acharya et al. [MoEDAL Collaboration], “The Physics Programme Of The
+     MoEDAL Experiment At The LHC,” Int. J. Mod. Phys. A 29, 1430050 (2014)
+     [arXiv:1405.7662 [hep-ph]].
+
+
+
+
+                                            17
+

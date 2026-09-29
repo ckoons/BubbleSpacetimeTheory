@@ -1,0 +1,1506 @@
+                                                 Lectures on Cosmic Topological Defects
+
+
+                                                               Tanmay Vachaspati
+
+
+
+
+arXiv:hep-ph/0101270v2 4 Feb 2001
+                                                    Department of Astronomy and Astrophysics,
+                                                          T.I.F.R., Homi Bhabha Road,
+                                                          Colaba, Mumbai 400 005, India
+                                                                       and
+                                                               Physics Department,
+                                                        Case Western Reserve University,
+                                                        Cleveland, OH 44106-7079, USA.
+
+                                    These lectures review certain topological defects and aspects of their cosmology.
+                                    Unconventional material includes brief descriptions of electroweak defects, the
+                                    structure of domain walls in non-Abelian theories, and the spectrum of magnetic
+                                    monopoles in SU(5) Grand Unified theory.
+
+
+
+
+                                                                           1
+Contents
+  I. Introduction
+       A. Friedman-Robertson-Walker cosmology
+       B. Cosmological phase transitions
+       C. Vacuum manifold
+ II. Domain Walls
+       A. Topology: π0
+       B. Example: Z2
+       C. SU(5)
+       D. Formation
+       E. Evolution and constraints
+       F. Further complexities
+ III. Strings
+       A. Topology: π1
+       B. Example: U(1) local
+       C. Semilocal and electroweak strings
+       D. Formation and Evolution
+       E. One scale model
+       F. Cosmological constraints and signatures
+          (a) CMB and P(k)
+          (b) Gravitational wave background
+          (c) Gravitational lensing
+          (d) Other signatures
+       H. Zero modes and superconducting strings
+ IV. Magnetic Monopoles (in brief)
+       A. Topology: π2
+       B. Examples: SU(2)
+       C. Electroweak monopoles
+       D. SU(5)
+       D. Cosmology (extremely brief)
+       A. Further reading
+
+
+                                      2
+1     Introduction
+1.1    FRW cosmology
+As indicated by observations, the universe is assumed to be homogeneous and
+isotropic on large scales. The line element is:
+                                     dr2
+                                                                   
+                                                            2
+               ds2 = dt2 − a2 (t)          + r 2
+                                                 (dθ 2
+                                                       + sin  θdφ2
+                                                                   )     (1)
+                                   1 − kr2
+where the function a(t) is known as the scale factor, and the parameter k =
+−1, 0, +1 labels an open, flat or closed universe. The Einstein equations give:
+                             2
+                              ȧ       k    8πG
+                                    + 2 =       ρ(t)                        (2)
+                              a       a      3
+where ρ(t) is the energy density of the cosmological fluid. Conservation of
+energy-momentum yields
+                            ρ̇ + 3H(ρ + p) = 0                          (3)
+where H ≡ ȧ/a is the Hubble parameter and p denotes the pressure of the
+cosmological fluid. The properties of the cosmological fluid are given by its
+equation of state:
+                                  p = p(ρ)                               (4)
+which must be specified to determine the expansion rate of the universe. If the
+fluid is relativistic (eg. photons): p = ρ/3; while if it is dust: p = 0; and for
+vacuum energy (cosmological constant): p = −ρ.
+     If the fluid is in thermal equilibrium, the evolution of the temperature of
+the fluid can be derived by using the conservation of entropy which gives
+
+                                a(t)T = constant .                           (5)
+
+The temperature of the cosmic microwave background radiation (i.e. cosmo-
+logical photons as opposed to those produced by stars and other astrophysical
+sources) at the present epoch is measured to be 2.7◦ K.
+     It is sometimes convenient to work with the “conformal time” τ instead of
+the “cosmic time” t. The relation defining τ in terms of t is:
+
+                                   dt = a(t)dτ .                             (6)
+
+In terms of the conformal time, the FRW line element is:
+                                      dr2
+                                                                    
+                                                2     2      2    2
+            ds2 = a2 (t(τ )) dτ 2 −         + r   (dθ   + sin  θdφ  )  .     (7)
+                                    1 − kr2
+
+                                         3
+1.2    Cosmological phase transitions
+We consider a field theory of scalar, spinor and vector fields:
+
+                                    L = LB + LF                             (8)
+
+with the bosonic Lagrangian:
+                            1                      1 a µνa
+                    LB =      Dµ Φi Dµ Φi − V (Φ) − Fµν F                   (9)
+                            2                      4
+where Φi are the components of the scalar fields. The fermionic Lagrangian
+for a fermionic multiplet Ψ is:
+
+                           LF = iΨ̄γ µ Dµ Ψ − Ψ̄Γi ΨΦi .                  (10)
+
+In addition we have the following definitions:
+
+                                 Dµ ≡ ∂µ − ieAaµ T a                      (11)
+
+where the T a are group generators;
+                        a
+                       Fµν ≡ ∂µ Aaν − ∂ν Aaµ + +ef abc Abµ Acν            (12)
+
+where, Aaµ are the gauge fields.
+   If the expectation values of the scalar fields are denoted by Φ0i , then the
+mass matrices of the various fields are written as:
+                                 ∂2V
+                       µ2ij =                ,       scalar fields        (13)
+                                ∂Φi ∂Φj Φ=Φ0
+
+                            m = Γi Φ0i ,       spinor fields              (14)
+where, the Γi are the Yukawa coupling matrices, and
+                      2
+                     Mab = e2 (Ta Tb )ij Φ0i Φ0j ,     vector fields      (15)
+
+      Then the finite temperature, one-loop effective potential is:
+
+                                                  M2 2 π 2
+                    Vef f (Φ0 , T ) = V (Φ0 ) +      T −    NT4           (16)
+                                                  24     90
+where
+                                           7
+                                   N = NB + NF                            (17)
+                                           8
+                                           4
+is the number of bosonic and fermionic spin states, and
+
+                                       1
+                   M2 = Trµ2 + 3TrM 2 + Tr(γ 0 mγ 0 m) .                    (18)
+                                       2
+Note that M2 depends on the expectation value Φ0 through the defining equa-
+tions for the mass matrices given above. Then, for example, M2 will contain
+a term proportional to Tr(Φ20 ).
+     For us the important feature of the effective potential is that it can lead
+to cosmological phase transitions. If there are scalar fields with negative mass
+squared terms in V (Φ), the contributions from the M2 T 2 term in the effective
+potential can make the effective mass squared positive for these fields if the
+temperature is high enough. Therefore when the universe is at a high temper-
+ature, the effective squared mass is positive and the minimum of the potential
+is at Φ0 = 0. In the more recent cooler universe the effective mass squared is
+negative and the minima of the effective potential will occur at non-zero values
+of Φ0 . That is, the scalar fields will acquire vacuum expectation values. This
+is the phenomenon of spontaneous symmetry breaking and, if it occurs, will
+manifest itself as a cosmological phase transition.
+
+1.3   Vacuum manifold
+In general the field theoretic action under consideration will be invariant under
+some transformations of the fields. The set of all such symmetry transforma-
+tions form a group which we denote by G.
+     Next consider the situation where a scalar field acquires a vacuum expec-
+tation value (VEV) φ0 . Then all transformations of φ0 by elements of G will
+also be legitimate VEVs of the scalar field. However, not all elements of G will
+have a non-trivial effect on φ0 . There will be a subgroup of G which will have
+a trivial action on φ0 . This is the unbroken subgroup of G and we denote it
+by H.
+     Now we wish to determine the set of possible VEVs of the scalar field.
+This set is given by the elements of G that have a non-trivial action on φ0 .
+Now consider an element of g ∈ G that has a non-trivial action on φ0 and
+transforms it to φ1 . Then every element of the form gh where h ∈ H, also
+takes φ0 to φ1 . Therefore the non-trivial transformations are given by the left
+cosets of H, and the space of all non-trivial transformations is called a coset
+space and denoted by G/H. Therefore the vacuum manifold of the theory is
+G/H.
+     As we shall see, topological defects occur due to non-trivial topology of
+the vacuum manifold.
+
+                                       5
+    Note that the topology does not care if the symmetries are local or global.
+For most of these lectures, I will consider local (gauged) symmetries.
+
+2     Domain walls
+2.1    Topology: π0
+Domain walls occur when the vacuum manifold has two or more disconnected
+components. For example, G can be a discrete group like Z2 which can be
+broken completely (H = 1). Then G/H consists of just two points.
+     The topology of various manifolds has been studied by mathematicians
+and they characterize the type of topology by stating the homotopy groups of
+the manifold. The nth homotopy group of the manifold G/H is denoted by
+πn (G/H) and denotes the group that is formed by considering the mapping of
+n−dimensional spheres into the manifold G/H. Each element of the group πn
+is the set of mappings that can be continuously deformed into one another.
+     In the case when the vacuum manifold has disconnected components,
+π0 (G/H) is non-trivial since there are points (zero dimensional spheres) that
+lie in different components that cannot be continuously deformed into one
+another. Therefore domain walls occur whenever π0 (G/H) is non-trivial.
+
+2.2    Example: Z2
+Consider the Z2 Lagrangian in 1+1 dimensions labeled by (t, z)
+
+                              1          λ
+                         L=     (∂µ φ)2 − (φ2 − η 2 )2                     (19)
+                              2          4
+where φ(t, z) is a real scalar field - also called the order parameter. The La-
+grangian is invariant under φ → −φ and hence possesses a Z2 symmetry. For
+this reason, the potential has two minima: φ = ±η, and the “vacuum manifold”
+has two-fold degeneracy.
+     Consider the possibility that φ = +η at z = +∞ and φ = −η at z = −∞.
+In this case, the continuous function φ(z) has to go from −η to +η as z is
+taken from −∞ to +∞ and so must necessarily pass through φ = 0. But
+then there is energy in this field configuration since the potential is non-zero
+when φ = 0. Also, this configuration cannot relax to either of the two vacuum
+configurations, say φ(z) = +η, since that involves changing the field over an
+infinite volume from −η to +η, which would cost an infinite amount of energy.
+     Another way to see this is to notice the presence of a conserved current:
+
+                                 j µ = ǫµν ∂ν φ
+
+                                       6
+where µ, ν = 0, 1 and ǫµν is the antisymmetric symbol in 2 dimensions. Clearly
+j µ is conserved and so we have a conserved charge in the model:
+                            Z
+                       Q = dzj 0 = φ(+∞) − φ(−∞) .
+
+For the vacuum Q = 0 and for the configuration described above Q = 1. So
+the configuration cannot relax into the vacuum - it is in a different topological
+sector.
+    To get the field configuration with the boundary conditions φ(±∞) = ±η,
+one would have to solve the field equation resulting from the Lagrangian (19).
+This would be a second order differential equation. Instead, one can use the
+clever method first derived by Bogomolnyi 1 and obtain a first order differential
+equation. The method uses the energy functional:
+                   1          1
+             Z
+     E =        dz[ (∂t φ)2 + (∂z φ)2 + V (φ)]
+                   2          2
+                   1          1
+             Z
+                dz[ (∂t φ) + (∂z φ − 2V (φ) )2 + 2V (φ)∂z φ]
+                          2
+                                       p             p
+         =
+                   2          2
+                                                      Z φ(+∞)
+                   1          1
+             Z                         p                           p
+                          2                      2
+         =      dz[ (∂t φ) + (∂z φ − 2V (φ) ) ] +               dφ′ 2V (φ′ )
+                   2          2                         φ(−∞)
+
+
+Then, for fixed values of φ at ±∞, the energy is minimized if
+
+                                      ∂t φ = 0
+
+and                                   p
+                             ∂z φ −    2V (φ) = 0 .
+Furthermore, the minimum value of the energy is:
+                                 Z φ(+∞)           p
+                        Emin =               dφ′    2V (φ′ ) .
+                                  φ(−∞)
+
+In our case,                            r
+                            p          λ 2
+                             V (φ) =     (η − φ2 )
+                                       4
+which can be inserted in the above equations to get the “kink” solution:
+                                      r        
+                                           λ
+                             φ = ηtanh       ηz
+                                           2
+
+                                         7
+for which the energy per unit area is:
+                                   √              √
+                                  2 2√ 3         2 2 m3
+                         σkink =         λη =         √                      (20)
+                                    3              3    λ
+             √
+where m = λη is the mass scale in the model (see eq. (19)). Note that the
+energy density is localized in the region where φ is not in the vacuum, i.e. in
+a region of thickness ∼ m−1 around z = 0.
+     We can extend the model in eq. (19) to 3+1 dimensions and consider the
+case when φ only depends on z but not on x and y. We can still obtain the
+kink solution for every value of x and y and so the kink solution will describe
+a “domain wall” in the xy−plane.
+     At the center of the kink, φ = 0, and hence the Z2 symmetry is restored in
+the core of the kink. In this sense, the kink is a “relic” of the symmetric phase
+of the system. If kinks were present in the universe today, their interiors would
+give us a glimpse of what the universe was like prior to the phase transition.
+
+2.3   SU(5)
+An example that is more relevant to cosmology is motivated by Grand Unifi-
+cation. Here we will consider the SU(5) model:
+
+                                  1
+                   L = Tr(Dµ Φ)2 − Tr(Xµν X µν ) − V (Φ)                    (21)
+                                  2
+where, in terms of components, Φ = Φa T a is an SU(5) adjoint, the gauge field
+                           a
+strengths are Xµν = Xµν      T a and the SU(5) generators T a are normalized such
+that Tr(T a T b ) = δ ab /2. The definition of the covariant derivative is:
+
+                            Dµ Φ = ∂µ Φ − ie[Xµ , Φ]                        (22)
+
+and the potential is the most general quartic in Φ:
+
+      V (Φ) = −m2 Tr(Φ2 ) + h[Tr(Φ2 )]2 + λTr(Φ4 ) + γTr(Φ3 ) − V0 ,        (23)
+
+where, V0 is a constant that we will choose so as to set the minimum value of
+the potential to zero.
+    The SU (5) symmetry is broken to [SU (3) × SU (2) × U (1)]/Z6 if the Higgs
+acquires a VEV equal to
+                             η
+                        Φ0 = √ diag(2, 2, 2, −3, −3)                        (24)
+                            2 15
+                                       8
+where
+                               m                7
+                         η = √ , λ′ ≡ h + λ .                          (25)
+                                λ′             30
+For the potential to have its global minimum at Φ = Φ0 , the parameters are
+constrained to satisfy:
+                               λ ≥ 0 , λ′ ≥ 0 .                        (26)
+For the global minimum to have V (Φ0 ) = 0, in eq. (23) we set
+                                           λ′ 4
+                                 V0 = −      η .                           (27)
+                                           4
+    The model in eq. (21) does not have any topological domain walls because
+there are no broken discrete symmetries. In particular, the Z2 symmetry under
+Φ → −Φ is absent due to the cubic term. However if γ is small, there are walls
+connecting the two vacua related by Φ → −Φ that are almost topological.
+In our analysis we will set γ = 0, in which case the symmetry of the model
+is SU (5) × Z2 and an expectation of Φ breaks the Z2 symmetry leading to
+topological domain walls.
+    The kink solution is the Z2 kink along the Φ0 direction (see eq. (24)).
+Therefore:
+                               Φk = tanh(σz)Φ0                            (28)
+              √
+with σ ≡ m/ 2 (see eq. (25)), and all the gauge fields vanish. It is straight-
+forward to check that Φk solves the equations of motion with the boundary
+conditions Φ(z = ±∞) = ±Φ0 .
+    The energy per unit area of the kink is (see eq. (20)):
+                                       √
+                                      2 2 m3
+                               Mk =            .                          (29)
+                                       3 λ′
+    The existence of a static solution to the equations of motion only guar-
+antees that it is an extremum of the energy but this extremum may not be
+a minimum. To determine if the kink is a minimum energy solution we need
+to examine its stability under arbitrary perturbations. (As far as I know, a
+Bogomolnyi type analysis has not been constructed for the SU(5) model.)
+    Here we will examine the stability of the kink under general perturbations.
+So we write:
+                                 Φ = Φk + Ψ                                (30)
+Since the kink solution is invariant under translations and rotations in the
+xy−plane, it is easy to show that the perturbations that might cause an in-
+stability arise from perturbations of the scalar field and can only depend on z.
+Therefore we may set the gauge fields to zero and take Ψ = Ψ(t, z).
+
+                                       9
+     The Z2 kink is stable and hence we can restrict the scalar perturbations to
+be orthogonal to Φk . The perturbative stability of the kink has been studied
+by Dvali et. al. 2 , and, Pogosian and Vachaspati 3 . Here we only consider the
+off-diagonal perturbation
+
+                         Ψ = ψT ≡ ψdiag(τ 1 , 0, 0, 0) ,                    (31)
+
+where τ 1 is the first Pauli spin matrix.
+   Next we analyze the linearized Schrodinger equation for small excitations
+ψ = ψ0 (z)exp(−iωt) in the background of the kink:
+
+                   [−∂z2 − m2 + φ2k (z)(h + λr)]ψ0 = ωi2 ψ0 ,               (32)
+
+where φk ≡ tanh(σz) and r = 7/30. The kink is unstable if there is a solution
+to eq. (32) with a negative ω 2 . Substituting eq. (28) into eq. (32) yields:
+
+                    [−∂z2 + m2 (tanh2 (σz) − 1)]ψ0 = ω 2 ψ0 .               (33)
+
+This equation has a bound state solution ψ0 ∝ sech(σz) with the eigenvalue
+ω 2 = −m2 /2. Since this result is independent of the parameters in the poten-
+tial, we conclude that the kink in SU(5) is always unstable.
+     So we still need to find the topological domain wall solution in the model.
+     The domain wall solution is obtained if we choose the gauge fields to vanish
+at infinity and the scalar field to satisfy the boundary conditions:
+                                 η
+             Φ(z = −∞) = Φ− ≡ √ diag(3, −2, −2, 3, −2)
+                              2 15
+                                                 √
+                           r
+                             5              η
+                        =η      (λ3 + τ3 ) − (Y − 5λ8 )                     (34)
+                             12             6
+and
+                                  η
+              Φ(z = +∞) = Φ+ ≡ √ diag(2, −3, 2, 2, −3)
+                                2 15
+                                               √
+                         r
+                            5             η
+                      =η      (λ3 + τ3 ) + (Y − 5λ8 ) .                     (35)
+                           12             6
+Here λ3 , λ8 , τ3 and Y are the diagonal generators of SU(5):
+                                 1
+                          λ3 =     diag(1, −1, 0, 0, 0) ,                   (36)
+                                 2
+                              1
+                         λ8 = √ diag(1, 1, −2, 0, 0) ,                      (37)
+                             2 3
+                                        10
+                                  1
+                           τ3 =     diag(0, 0, 0, 1, −1) ,                   (38)
+                                  2
+                           1
+                       Y = √ diag(2, 2, 2, −3, −3) .                         (39)
+                          2 15
+Alternately, we could have chosen the boundary conditions to be like those of
+the kink with Φ(z = +∞) = −Φ(z = −∞). However, then the solution for the
+domain wall will not be diagonal at all z. We prefer to use the above boundary
+conditions so that the solution is diagonal throughout.
+    The domain wall solution can be written as
+
+                ΦDW (z) = a(z)λ3 + b(z)λ8 + c(z)τ3 + d(z)Y .                 (40)
+
+The functions a, b, c, and d must satisfy the static equations of motion:
+
+                                2λ 2                λ 2
+           a′′ = [−m2 + (h +       )d     +   (h +    )(a + b2 ) + hc2 ]a
+                                 5                  2
+                                               2λabd
+                                          +     √                            (41)
+                                                  5
+
+
+                                2λ 2                 λ 2
+           b′′ = [−m2 + (h +       )d     +   (h +     )(a + b2 ) + hc2 ]b
+                                 5                   2
+                                               λd
+                                          +    √ (a2 − b2 )                  (42)
+                                                5
+
+
+                                     9λ 2                λ 2
+               c′′ = [−m2 + (h +        )d + (h      +     )c
+                                     10                  2
+                                                     +   h(a2 + b2 )]c       (43)
+
+
+                                       7λ 2          2λ 2
+              d′′ = [−m2    +     (h +    )d + (h +     )(a + b2 )
+                                       30             5
+                                       9λ 2       λb       b2
+                            +     (h +    )c ]d + √ (a2 − ) ,                (44)
+                                       10          5        3
+
+where primes refer to derivatives with respect to z. For reference, the kink so-
+lution (eq. (28)) corresponds to a(z) = 0 = b(z) = c(z) and d(z) = η tanh(σz).
+     The equations of motion for b and c and can be solved quite easily:
+                                √
+                        b(z) = − 5d(z) , c(z) = a(z) .                      (45)
+
+                                         11
+This is consistent with the boundary conditions in eqs. (34) and (35). In
+addition, we require
+                                r
+                                   5                    η
+                a(z = ±∞) = +η       , d(z = ±∞) = ± .                (46)
+                                  12                    6
+Then the remaining equations can be written in a cleaner form by rescaling:
+                       r
+                          12 a             d
+                A(z) =         , D(z) = 6 , Z = mz .                    (47)
+                          5 η              η
+This leads to
+                               (1 − p) 2 (4 + p) 2
+                                                  
+                    A′′ = −1 +        D +         A A                       (48)
+                                  5         5
+                                                
+                         ′′          2         2
+                        D = −1 + pD + (1 − p)A D                            (49)
+
+where primes on A and D denote differentiation with respect to Z, and
+                                           
+                               1       5λ
+                          p=       1+         .                       (50)
+                               6      12λ′
+
+Note that p ∈ [1/6, ∞) because of the constraints in eq. (26). The boundary
+conditions now are:
+
+                   A(z = ±∞) = +1 ,         D(z = ±∞) = ±1 .                (51)
+
+     This system of equations has been solved by numerical relaxation and a
+sample solution is shown in Fig. 1. To find an approximate analytical solution,
+assume that |A′′ /A| << 1 is small everywhere. This assumption will be true
+for a certain range of the parameter p which we can later determine. Then the
+square bracket on the right-hand side of eq. (48) is very small. This gives:
+                                                  1/2
+                                        (1 − p) 2
+                                   
+                                 5
+                       A≃            1−        D                            (52)
+                                4+p        5
+
+We insert this expression for A in eq. (49) and obtain the kink-type differential
+equation:
+                              D′′ = q[−1 + D2 ]D ,                          (53)
+where
+                                  6p − 1      6λ
+                            q=           =                                  (54)
+                                  p+4      λ + 60λ′
+                                       12
+  0.8
+
+
+
+
+  0.6
+
+
+
+
+  0.4
+
+
+
+
+  0.2
+
+
+
+
+    0
+
+
+
+
+ -0.2
+          -20          0          20
+                       z
+
+
+
+
+Figure 1: Numerical solution for the domain wall in the case λ = 1, h = −0.2 (p = 2.25).
+The solid line shows a(z) and the dashed line shows d(z).
+
+
+and the solution is:                      r 
+                                            q
+                               D(Z) ≃ tanh    Z                                    (55)
+                                            2
+The parameter q lies in the interval [0, 6]. For q = 1 (i.e. p = 1) it is easy to
+check that this analytical solution is exact.
+    We can now check that our assumption |A′′ /A| << 1 is self-consistent
+provided p is not much larger than a few.
+    The energy density for the fields A and D can be found from the La-
+grangian in eq. (21) together with the ansatz in eq. (40), the solution for b
+and c in eq. (45) and the rescalings in eq. (47). The resulting expression for
+the energy per unit area of the domain wall is:
+                             m3
+                                  Z
+                                           2     2
+                  MDW =         ′
+                                    dZ[5A′ + D′ + V (A, D)]                  (56)
+                            12λ
+where,
+                                                 (p + 4) 4
+                V (A, D) = −5A2        − D2 +           A
+                                                    2
+                                           p 4
+                                       +     D + (1 − p)A2 D2 + 3 .                (57)
+                                           2
+                                           13
+      Table 1: Size distribution of + clusters found by simulations on a cubic lattice.
+
+
+
+ Cluster size         1          2          3          4         6        10         31082
+      Number         462         84        14         13         1         1              1
+
+
+
+The energy can be found numerically. However, here we will find an approx-
+imate analytic result. We can insert the approximate solution given above in
+eq. (56) but this leads to an expression that is not transparent. Instead it is
+more useful to consider another approximation for A and D:
+                                           r      
+                                                p
+                        A ≃ 1 , D ≃ tanh          Z .                     (58)
+                                                2
+
+(This approximation is exact for p = 1.) A straightforward evaluation then
+gives:                                      √
+                                              p
+                          MDW approx = Mk                             (59)
+                                             6
+where, Mk is given in eq. (29).
+     It can be shown for a range of parameters that this domain wall solution
+is perturbatively stable. Numerically we find that it is lighter than the kink
+for all values of p. (Eq. (59) shows it to be lighter for p < 36.)
+     The interior of the domain wall has less symmetry than the exterior. So the
+domain wall does not contain a trapped region of the early universe. Instead
+it is a region that may be to our future where the SU (3) symmetry is broken
+down to SU (2) × U (1). In this sense, the domain wall is a relic from the early
+universe but not a relic of the unbroken symmetry of the theory.
+
+2.4    Formation
+The properties of the network of domain walls at formation has been deter-
+mined by numerical simulations. The idea behind the simulations is that the
+vacuum in any correlated region of space is determined at random. Then, if
+there are only two degenerate vacuua (call them + and -), there will be spatial
+regions that will be in the + phase and others in the - phase. The boundaries
+between these regions of different phases is the location of the domain walls.
+    By performing numerical simulations, the statistics shown in Table I was
+obtained 4 .
+
+                                             14
+     The data shows that there is essentially one giant connected + cluster. By
+symmetry there will be one connected - cluster. In the infinite volume limit,
+these clusters will also be infinite and their surface areas will also be infinite.
+Therefore the topological domain wall formed at the phase transition will be
+infinite.
+
+2.5   Evolution
+Once the inifinite domain wall forms, it tries to straighten out since it has
+tension – in this way, the wall can minimize its energy. In the cosmological
+setting, the wall will be stretched out by the Hubble expansion. In addition,
+the wall will interact with the ambient matter and suffer friction. Sometimes
+different parts of the walls will collide and interact. The interaction leads to
+the reconnection of colliding walls.
+     The details of the evolution of the walls are quite complicated. However,
+the simplest cosmological scenario is easy to analyze and leads to an interesting
+bound. The basic idea is to use causality to get an upper bound on the energy
+density in domain walls at any epoch. Causality tells us that the different
+domains that are separated by walls cannot smooth out faster than the speed
+of light. Therefore every causal horizon must contain at least one domain
+wall at any epoch and so the energy density in domain walls ρDW obeys the
+following bound:
+
+                       energy in one wall in horizon  σt2  σ
+               ρDW ≥                                 ≃ 3 =                    (60)
+                             horizon volume            t   t
+where σ is the energy per unit area of the wall. If we require that the energy
+density in walls be less than the present critical density of the universe ρcr =
+3H 2 /8πG with H ≃ 70 km/s/Mpc we get the constraint
+
+                                       3H 2 t0
+                                  σ<           ,                              (61)
+                                        8πG
+where t0 ∼ 1017 secs is the present epoch.
+     If we use eq. (20) to connect σ to the symmetry breaking scale and take the
+coupling constant to be order one, we find that the symmetry breaking scale
+is constrained to be less than about a GeV. A stronger bound is obtained by
+realizing that the energy density fluctuations in domain walls should not cause
+fluctuations in the cosmic microwave background radiation (CMBR) greater
+than 1 part in 105 . This leads to the constraint that η should be less than
+a few MeV. Particle physics at such low energy scales – such as the standard
+model – do not show any phase transitions involving domain walls and so we
+
+                                        15
+do not expect to have domain walls in the universe. Another way to view the
+constraint is that if a particle physics model predicts domain walls above the
+few MeV scale, cosmology rules out the model.
+
+
+2.6    Further complexities
+
+One can evade the constraints derived in the previous section by introducing
+some new cosmological and particle physics elements.
+     For example, the constraint that domain walls have to be formed below
+the few MeV scale does not hold if cosmological inflation follows the phase
+transition in which heavy domain walls were produced. In such a scenario, the
+domain walls are inflated away and our present horizon need not contain any
+domain wall.
+     In particle physics model building, one might have a situation where a
+discrete symmetry is broken at some high temperature and then restored at
+some lower temperature. In this case, heavy domain walls would be formed
+at the first phase transition and then would “dissolve” at the second phase
+transition. Then there would be a period in the early universe where domain
+walls would be present but they would not be around today.
+     Another situation of some interest is when the discrete vacuua are not
+exactly degenerate. In the SU(5) example discussed above, if γ (eq. (23)) is
+very small, domain walls will be formed at the phase transition. Suppose the +
+phase has slightly less energy density than the - phase. Then the domain walls
+will experience a pressure on them that will drive them towards the higher
+energy - phase. However, if γ is small, this pressure difference is also small and
+is negligible for the early evolution of the wall system. Only after the walls
+have straightened out to an extent that the curvature forces are less than the
+pressure, will the pressure start to drive the walls and eventually eliminate
+them.
+
+
+3     Strings
+
+3.1    Topology: π1
+
+If the vacuum manifold has one dimensional closed paths that cannot be con-
+tracted, there are topological string solutions in the field theory. The homotopy
+group π1 (G/H) is the group formed by the equivalence classes of paths that
+can be deformed into each other and the group operation joins two paths to get
+another path. Each element of π1 (G/H) labels a topologically distinct string
+solution.
+
+                                       16
+    An example of a field theory in which string solutions exist is based on a
+U (1) (global or local) group which is broken down completely. The coset space
+U (1)/1 is a one dimensional sphere (circle). Closed paths that wrap around
+the circle cannot be contracted to a point and this implies that the U (1) model
+contains string solutions.
+    The U (1) model is very important as it is relevant to the simplest su-
+perfluids and superconductors. However, in more complicated systems the
+symmetry groups are larger and calculating the homotopy group can be more
+involved. Fortunately there is a result that simplifies matters immensely for
+most (though not all!) particle physics applications. This is the result that if
+πn (G) and πn−1 (G) are both trivial then,
+                             πn (G/H) = πn−1 (H) .                         (62)
+With n = 1 this gives
+                               π1 (G/H) = π0 (H)                           (63)
+provided π1 (G) = 1 = π0 (G). So if G does not contain any incontractable
+closed paths and does not have disconnected pieces, then the topologically
+distinct incontractable paths of G/H are given by the disconnected pieces of
+H. So one can usually tell that there are strings in a particle physics model
+simply by checking if the symmetry breaking involves a broken U (1) or if the
+unbroken group contains a discrete symmetry. This result cannot be applied
+to the electroweak model since there we have G = [SU (2) × U (1)]/Z2 and
+π1 (G) = Z 6= 1.
+
+3.2   Example: U(1) local
+Consider the Lagrangian
+                        1          1          λ
+                  L=      |Dµ Φ|2 − Fµν F µν − (Φ∗ Φ − η 2 )2
+                        2          4          8
+where Φ is a complex field and
+                                Dµ = ∂µ − ieAµ
+where, Aµ is an Abelian gauge potential. This model has a U(1) gauge sym-
+metry since it is invariant under
+                                               1
+                        Φ → eiθ Φ ,   Aµ → Aµ + ∂µ θ                       (64)
+                                               e
+Now since π1 (U (1)/1) = Z, the model has string solutions labeled by an integer
+(the winding number).
+
+                                       17
+    The string solutions correspond to the non-trivial windings of a circle at
+spatial infinity on to the vacuum manifold. Therefore the boundary conditions
+that will yield the string solution will have the form:
+
+                        Φ(r = ∞, θ) = ηeinθ ,       n ∈ Z − {0}                     (65)
+
+The gauge fields at infinity must be such that the covariant derivative vanishes
+there:
+                            Di Φ = 0 , at r = ∞ .                           (66)
+    Let us now construct the string solution using Bogomolnyi’s method 1 . The
+energy for static configurations in two spatial dimensions is
+                                                             
+                            1          1           1
+                    Z
+               E = d2 x |Dx Φ|2 + |Dy Φ|2 + Bz2 + V (Φ)                    (67)
+                            2          2           2
+with
+                                          λ
+                                V (Φ) =     (|Φ|2 − η 2 )2                          (68)
+                                          8
+The trick is to write this as:
+                                    √
+                                         
+                  1            1            e
+         Z                                      Z
+    E = d2 x |Dx Φ ± iDy Φ|2 + (Bz − 2V )2 + η 2 d2 xBz                             (69)
+                  2            2            2
+
+in the special case that λ = e2 (so called “critical coupling”) a . The Bogomolnyi
+equations are:
+                                 Dx Φ + iDy Φ = 0                             (70)
+                                         √
+                                  Bz − 2V = 0                                 (71)
+and the energy per unit length of the string is:
+                      e                 e
+                           Z                I
+                 µ = η 2 d2 xBz = η 2 dθAθ = πη 2 .                                 (72)
+                      2                 2
+For non-Bogomolnyi strings, this expression will be multiplied by a factor
+which depends on λ/e2 . Unless this parameter is very large or small, numerical
+evaluations show that the numerical coefficient is of order unity.
+    For strings formed at the Grand Unified phase transition η ∼ 1016 GeV, we
+find µ ∼ 1022 gms/cm which is like the mass of a mountain range packed into
+a centimeter of string. When calculating the gravitational effects of strings
+µ always appears in the dimensionless combination Gµ. For GUT strings,
+Gµ ∼ 10−6 .
+a Unlike in the case of the Z
+                             2 domain wall, the Bogomolnyi trick over here works only for
+the form of the potential given in eq. (68) and with critical coupling.
+
+                                           18
+3.3   Semilocal and electroweak strings
+The standard model symmetry breaking is SU (2)L ×U (1)Y → U (1)em and does
+not give topological strings. However, it still contains embedded strings which
+can be perturbatively stable for a range of parameters which are not realized
+in Nature. In these lectures I will only briefly describe semilocal strings 5 .
+    Consider the generalization of the Abelian Higgs model in which the com-
+plex scalar field is replaced by an SU (2) doublet ΦT = (φ1 , φ2 ). The action
+is
+                 "                                                2 #
+                                                               η2
+                                                      
+                                      1
+         Z
+              4                  2            µν          †
+    S = d x |(∂µ − iqYµ )Φ| − Yµν Y               − λ Φ Φ−              ,      (73)
+                                      4                         2
+
+where Yµ is the U (1) gauge potential and Yµν = ∂µ Yν − ∂ν Yµ its field strength.
+     This model has symmetry under G = [SU (2)global × U (1)local ]/Z2 . Ele-
+ments of the SU (2)global act on the Higgs doublet, while elements of U (1)local
+multiply the doublet by an overall phase and transform the gauge field in the
+usual manner. The action of the center of SU (2)global on the Higgs doublet
+is identical to a U (1)global phase rotation by π. This is the reason for the Z2
+identification. The model in eq. (73) is just the scalar sector of the Glashow-
+Salam-Weinberg (GSW) electroweak model with sin2 θw = 1.
+     Once Φ acquires a vacuum expectation value, the symmetry breaks down
+to H = U (1)global , as in the GSW model. The vacuum manifold is S 3 . This
+may also be seen by minimizing the potential explicitly. The vacuum manifold
+is described by Φ† Φ = η 2 /2 which is a three sphere. Hence there are no
+incontractable paths on the vacuum manifold. Yet, it is possible to perform a
+Bogomolnyi type analysis to find that the configuration:
+                                       
+                                        0           v(ρ)
+                         Φ = f (ρ)eiθ       , Yθ =                           (74)
+                                        1            qρ
+
+is a solution in cylindrical coordinates (ρ, θ). The profile functions f (ρ) and
+v(ρ) can be determined by solving the Bogomolnyi equations.
+     It is also possible to show that the solution is perturbatively stable when
+2λ < q 2 , neutrally stable at critical coupling (2λ = q 2 ) and unstable for 2λ >
+q2 .
+     For the case when the SU(2) is gauged, the string solution continues to
+exist and can be stable for sin2 θw > 0.9 if the scalar mass is small. In the
+standard model, however, sin2 θw = 0.23 and the string solution is certainly
+unstable. Certain external conditions (eg. a magnetic field) can stablize the
+string.
+
+                                        19
+3.4   Formation and evolution
+The formation of strings has been studied by numerical methods. Here one
+throws down U (1) phases on a lattice and checks for topological winding around
+the plaquettes. If the winding around a plaquette is non-trivial, it means that
+a string is passing through it. Then the strings are connected and in this way
+one obtains a network of closed and open strings.
+     The lattice simulations show several interesting properties of the initial
+network of strings. First and foremost is the result that most (over 80%) of
+the string density is in strings that are infinite. Secondly, the string loops
+occur in a scale invariant distribution – that is, the number density of loops
+having size between R and R + dR is proportional to dR/R4 , just as would
+be expected based on dimensional analysis. Thirdly, the long strings have
+a Brownian shape and so the length l of string in a distance R is given by:
+l ∝ R2 .
+     There has been much effort in extending the lattice simulations to make
+them more realistic and closer to what might actually happen at a phase tran-
+sition. However, the essential results of the lattice simulations have held up
+very well. There has also been a lot of theoretical and experimental effort de-
+voted to determining the density of defects after the phase transition. (In the
+simulations the density of defects is set by the lattice spacing.) The statistical
+properties of the network described above are expected to be insensitive to
+the initial string density. The exact fraction of strings in infinite strings might
+vary somewhat.
+     Once the string network has formed, it evolves under the forces that we
+discussed in the domain wall case: (i) tension, (ii) friction with ambient mat-
+ter, (iii) Hubble expansion, (iv) intercommuting (reconnection) when strings
+collide, and (iv) energy loss mechanisms such as gravitational wave emission.
+Of these factors, frictional forces are important for a short period (for GUT
+strings) since the Hubble expansion dilutes the ambient matter. The energy
+loss mechanisms are important but to calculate their effect on the string dy-
+namics is a nasty back-reaction problem. The “zeroth order” factors are the
+tension, Hubble expansion and intercommutings.
+     Ignoring friction, energy loss and intercommutings for now, the strings
+move according to the Nambu-Goto action in a background FRW spacetime:
+                                      Z      p
+                              S = −µ d2 σ −g (2)                               (75)
+
+where g (2) is the determinant of the two dimensional string world-sheet metric.
+If the string worldsheet is written as: xµ (σ a ) with a = 0, 1 where (σ 0 , σ 1 ) are
+
+                                         20
+the worldsheet coordinates, then the worldsheet metric is:
+                               (2)
+                             gab = gµν ∂a xµ ∂b xν                         (76)
+
+where, gµν is the four dimensional spacetime metric in which the strings move.
+    The freedom of choosing coordinates on the worldsheet (reparametrization
+invariance) can be used to simplify the equations of motion for the string
+derived from eq. (75). We choose
+
+                               σ0 = τ ,    σ1 = ζ                          (77)
+
+where ζ is a parameter along the string at any given instant of the conformal
+time τ (see eq. (6)). Then the equation of motion is:
+                                                   ′ ′
+                                                   x
+                        ẍ + 2H(1 − ẋ2 )ẋ = ǫ−1                         (78)
+                                                   ǫ
+where overdots refer to derivatives with respect to τ and primes with respect
+to ζ.
+     The equation of motion for a single string allows numerical evolution of
+the network of strings but does not take intercommutings into account. In
+practice, the network is numerically evolved until two strings intersect and
+then the reconnection is done by hand.
+     To study the evolution of cosmic strings by solving the equations of motion
+is similar to studying a box of gas by solving Newton’s equations of motion for
+each particle in the box and taking care of collisions by hand. For almost all
+cosmological purposes, only the statistical properties of the string network are
+relevant. So one should define “statistical variables” and find their evolution.
+The one scale model for string evolution is precisely such an attempt.
+
+3.5   One scale model
+As the name suggests, the “one scale model” is based on the assumption that
+there is only one length scale that characterizes the infinite strings in the
+network 6,7 . (The short loops are considered separately.) If we denote this
+scale by L then the distance between strings and the correlation length of a
+single string (the distance out to which it is straight) are both given by L.
+With time L can change and hence we need to derive an equation for L(t).
+    The usual way of defining the length L is by considering the total energy
+E in strings lying inside a volume V . Then
+                                      E   µ
+                                 ρ≡     ≡ 2                                (79)
+                                      V  L
+                                      21
+defines L. The energy changes with time since the Hubble expansion dilutes
+and stretches the string network. Also, the velocity of a string redshifts due
+to the Hubble expansion. Long strings also lose energy by self-intersecting to
+form short loops. This gives
+                                         2                   ρ
+                           ρ̇ = −2H(1 + vrms )ρ − c                            (80)
+                                                             L
+where
+                                                    dζǫẋ2
+                                               R
+                              2
+                             vrms ≡ hv 2 i =       R                           (81)
+                                                     dζǫ
+is the average rms velocity of strings and c is a parameter that accounts for the
+frequency of self-intersection (the so called “chopping efficiency”). Equation
+(80) can also be written as an equation for L:
+                                          2             c
+                             L̇ = HL(1 + vrms )+                               (82)
+                                                        2
+(Since the chopping term must vanish if the velocity of the strings vanishes,
+one frequently writes c = c̃vrms .)
+     The network is said to scale if, at every epoch, the network has the same
+statistical properties. Hence the scale L should be a fixed fraction of the horizon
+size t. In this case, the energy density ρ in long strings will fall off like 1/t2 ,
+exactly as the total matter density does in a radiation or matter dominated
+universe. In a universe with a cosmological constant, scaling will hold in a
+trivial sense since the rapid expansion will dilute the strings to vanishing energy
+density. Scaling will not hold in the epochs during the period in which the
+universe changes from being radiation dominated to matter dominated, or from
+matter dominated to cosmological constant dominated. Both these transitions
+are relevant for examining the cosmological signatures of strings (eg. the cosmic
+microwave background anisotropies), making the problem quite hard.
+     To check for scaling we write
+
+                                   L = γ(t)t ,                                 (83)
+
+insert this relation into eq. (80) to get
+                                                         
+                        γ̇   1 c                   2
+                           =        − {1 − Ht(1 + vrms )}                      (84)
+                        γ    t 2γ
+There is a fixed point solution (γ̇ = 0) at the point:
+                                c         1
+                           γ=                   2
+                                                      .                        (85)
+                                2 1 − (Ht)(1 + vrms )
+
+                                        22
+Note that for a power law expansion Ht does not depend on time. The rms
+                                                           2
+velocity could depend on time though we can prove that vrms     = 1/2 in flat
+spacetime suggesting that it may be a reasonable assumption to take it to be
+roughly constant even in the expanding universe. However, we can derive an
+equation for vrms by differentiating eq. (81) with respect to time and then
+using the equation of motion. This gives
+                                                     
+                                    2      k
+                      v̇rms = (1 − vrms )    − 2Hvrms                   (86)
+                                           L
+
+where k is a parameter (the “momentum parameter”) related to the typical
+radius of curvature of the strings. The second term gives the redshifting of the
+velocity due to Hubble expansion while the first describes the change in the
+velocity due to the tension in the string.
+    Equation (82) and (86) are the one scale model equations for the string
+network. These equations depend on the chopping efficiency c (or c̃) and the
+momentum parameter k that need to be specified. The practice has been to
+use the values found in numerical simulations. Martins and Shellard 8 give
+
+                                c̃ = 0.23 ± 0.04                           (87)
+
+and a velocity dependent value of k
+                                       √
+                                      2 2 1 − 8v 6
+                             k(v) =                                        (88)
+                                       π 1 + 8v 6
+
+4     Cosmological constraints and signatures
+Numerical evidence suggests that the density of strings scales with the expan-
+sion of the universe and so we have: ρ ∼ µ/t2 . Compared to the critical density
+in a radiation- or matter-dominated universe ρc ∼ 1/Gt2 , the string density
+is at least a factor ∼ Gµ smaller at all times. So the strings never come to
+dominate the universe.
+
+4.1    CMB and P(k)
+The energy-momentum of the network of strings causes perturbations in the
+metric which can introduce fluctuations in the cosmic microwave background.
+The metric produced by a straight string is conical with deficit angle 8πGµ and
+photons arriving to us from either side of a moving string have a temperature
+difference of ∼ 8πGµv where v is the velocity component of the string trans-
+verse to the direction of propagation of the photons. Therefore, on dimensional
+
+                                       23
+grounds, the CMBR anisotropy produced by strings is:
+                                  δT
+                                     ∼ 8πGµ                                (89)
+                                   T
+which for GUT strings is about what is observed.
+     Several sophisticated calculations of the CMBR anisotropy induced by
+strings have been done. I would like to draw a distinction between some of
+the analyses that have been done for global strings and others that have been
+done for local strings. Here I will only discuss the specific analysis done by
+Pogosian and me of CMBR anisotropies produced by local strings 9 .
+     First of all we need to find the energy-momentum tensor of the string
+network as it evolves over time. For this we adopt a model first developed by
+Albrecht, Battye and Robinson 10 . The string network at any time is taken
+to be a gas of straight string segments of length L and moving with velocity
+vrms . Then we evaluate the energy-momentum tensor of the network. For the
+evolution, we follow the one-scale model described earlier. A tricky part of the
+problem is to allow some of the strings to decay. This is done by eliminating
+some of the segments with time in such a way as to preserve the scaling form
+of the string energy density. Once the energy-momentum of the string network
+is obtained, we feed it into the program CMBFAST to evaluate the anisotropy
+and also the power spectrum of density fluctuations.
+     Some of the results are shown in Fig. 2. (I am assuming that you have
+already been introduced to the theory behind the microwave background mea-
+surements.) Clearly there is only one Doppler peak and it occurs at l ∼ 400
+and this does not agree with observations.
+     It is known that larger values of Ω bring down the position of the Doppler
+peak. So Pogosian has recently investigated local strings in a closed model 11 .
+The result that the peak position only scales as Ω−1.58 would seem to imply
+that we would need to go to Ω ∼ 3 in order to bring down the peak position by a
+factor of two or so. However, this result does not apply to perturbation sources
+such as cosmic strings where the anisotropy is affected by the gravitational
+potentials produced after last scattering. Simulations by Pogosian 11 show
+that the peak position shifts to l ∼ 200 for Ω ≃ 1.3 (see Fig. 3). Furthermore,
+the closest fit to the data occurs for Gµ = 1 − 2 × 10−6 . While this matches
+the GUT scale, the poor fit to the data means that GUT strings cannot be
+solely responsible for producing the required density inhomogeneities.
+
+4.2   Gravitational wave background
+When local strings oscillate at very low frequencies, they can only radiate
+very low energy particles. Frequencies set by cosmic scales are ∼ 1/t and the
+
+                                      24
+  100
+
+
+
+
+   80
+
+
+
+
+   60
+
+
+
+
+   40
+
+
+
+
+   20
+
+
+
+
+    0
+              10           100         1000
+                       l
+
+
+
+
+Figure 2: The spectrum of microwave background fluctuations for the network of wiggly
+strings with L = 0.1. The solid and dotted lines correspond to two values of the network
+parameters. The observations with error bars are also shown.
+
+
+
+
+   80
+
+
+
+
+   60
+
+
+
+
+   40
+
+
+
+
+   20
+
+
+
+
+               10                100          1000
+                       l
+
+
+
+
+Figure 3: As in Fig. 2 but for a closed universe with Ω = 1.3. See the article by Pogosian
+11 for fuller account of the parameters used and the underlying assumptions.
+
+
+
+                                                 25
+only known particles that can be radiated are massless - photons and gravitons.
+(Neutrinos are assumed to have a non-zero mass.) Generally the (local) strings
+are made of neutral fields and hence do not radiate significantly in photons b .
+Then the primary decay channel for strings is into gravitons c .
+     To estimate the power emitted in gravitational radiation by a string loop
+of length L, it is most convenient to use the quadrupole formula. The only
+dimensional parameters available to us are G, µ and L. However, we know
+that the power loss into gravitational waves is proportional to one factor of G
+and two factors of µ since the power is the square of the quadrupole moment.
+Now since the power has dimensions of mass squared, we must have
+
+                                         P ∼ Gµ2                                        (90)
+
+and the length of the loop drops out from the estimate. In the cosmic scenario
+we are interested in the average gravitational energy emitted per unit time by
+all strings. So we write:
+                                  P̄ = ΓGµ2                               (91)
+where Γ is a numerical factor. By examining the power emitted by many
+different loops, one finds Γ ∼ 100 12 .
+     To find the present gravitational wave background amplitude and spectrum
+one needs to sum over all strings in the network, include appropriate redshift
+factors etc.. The final result is 13 :
+                                                         β−1
+                              18π 2 (β − 1)2 νGµ
+                                                  
+                                                    4π
+                    Ωg (ω) =                                                            (92)
+                             (3 − β) sin[(2 − β)π] Γµωt0
+
+where ν is a parameter that sets the amplitude for the number density of loops
+and 4/3 ≤ β << 2 is a parameter that characterizes the typical spectrum of
+gravitational radiation emitted by loops, t0 is the present epoch. The peak of
+the spectrum is at
+                                          4π
+                               ωpeak ∼          .                         (93)
+                                       ΓGµt0
+    The strongest constraints on the amplitude of the gravitational wave back-
+ground arise from the timing of the millisecond pulsar. In 1993 the constraint
+was:
+                              Ωg < 4 × 10−7 h−2                           (94)
+b If the strings are superconducting they may carry electrical charges and currents, and then
+
+they would lose energy by emitting photons.
+c Global string loops decay primarily by emitting Goldstone bosons.
+
+
+
+                                             26
+The constraint gets more stringent the longer the millisecond pulsar is ob-
+served without encountering noise in its timing. Today the constraint would
+be slightly stronger than in 1993. In terms of Gµ, this gives
+
+                                Gµ < 4 × 10−5                               (95)
+
+    The emission of gravitational radiation from strings also contributes to
+the energy density prior to nucleosynthesis. If the gravitational radiation con-
+tribution to the content of the universe exceeds about 5% , it will interfere
+unacceptably with BBN. This gives another constraint on the parameter Gµ
+that is slightly better, though comparable to, the one in eq. (95).
+
+4.3    Gravitational lensing
+Spacetime distortions due to cosmic strings would lead to gravitational lensing
+of background sources. The angular separation of images can be deduced from
+the value of the conical deficit angle to be:
+                                             d
+                               δφ = 8πGµ                                    (96)
+                                            d+l
+where d is the distance between the source and the string and l is the distance
+between string and observer. This leads to an image separation of about 5 arc
+sec from GUT strings and is quite large by astronomical standards.
+     Initially it was thought that a string would produce a line of lensed images
+of sources and this would be a unique signature. However, since the strings
+are wiggly, this conclusion is no longer obvious. Instead one needs to examine
+the lensing of sources due to a more realistic (wiggly) string. This was done
+by de Laix et. al. 14 and the results are shown in Fig. 4.
+
+4.4    Other signatures
+Cosmic strings and other topological defects have been considered as sources
+for ultra high energy cosmic rays and gamma ray bursts.
+
+5     Zero modes and superconducting strings
+The interaction of fermions with strings can often lead to “zero modes” i.e.
+zero energy solutions to the Dirac equation in the string background. If these
+fermions carry electric charge, electric fields along the string (equivalently,
+string motion through a magnetic field) can produce electric currents on the
+string which will persist even when the electric field is turned off. Hence such
+strings are said to be “superconducting”.
+
+                                       27
+         20
+
+
+
+
+         10
+
+
+
+
+          0
+              0           10             20
+                           arc sec
+
+
+
+
+Figure 4: The projection of a long wiggly string on the sky is shown together with a variety
+of point sources (hatched circles). The images of the point sources are shown as unfilled
+circles.
+
+
+
+
+                                              28
+     The current on a superconducting string depends on the initial current on
+it at formation and also on the flux of magnetic field that it has traversed.
+The motion of the current carrying string leads to electromagnetic radiation
+that can dissipate the string energy. At the same time, the electromagnetic
+radiation can cause spectral distortions in the cosmic microwave background.
+This places constraints on the density of superconducting strings in the early
+universe and also the amount of current on them if they exist.
+
+6     Magnetic monopoles
+6.1    Topology: π2
+Magnetic monopoles are formed when the vacuum manifold has incontractable
+two spheres. The relevant homotopy group is π2 (G/H). As discussed in the
+string case, if π2 (G) = 1 = π1 (G), then
+
+                               π2 (G/H) = π1 (H) .                            (97)
+
+Hence we get magnetic monopoles whenever the unbroken group contains in-
+contractable paths. We know that today the unbroken group contains the U(1)
+electromagnetic gauge symmetry which contains incontractable paths. Hence,
+any GUT predicts magnetic monopoles.
+
+6.2    Example: SU(2)
+The ’t Hooft-Polyakov monopole is based on an SU(2) model:
+                           1 a aµν 1
+                      L = − Xµν X + (Dµ Φa )2 − V (Φ) ,                       (98)
+                           4       2
+                                           a
+where Φ is an SU(5) adjoint scalar field, Xµν  (a = 1, ..., 24) are the gauge field
+strengths and the covariant derivative is defined by:
+
+                           Dµ Φa = ∂µ Φa − ie[Xµ , Φ]a                        (99)
+
+and the group generators are normalized by Tr(Ta Tb ) = δab /2. Once Φ acquires
+a VEV, the symmetry is broken down to U(1), consisting of SU(2) rotations
+that leave Φ invariant.
+    It is possible to give a Bogomolnyi type derivation of the monopole solution
+in the case that the potential vanishes i.e. V (Φ) = 0. The explicit solution in
+spherical coordinates is 15 :
+                                1    Cr
+                          Φ=     2
+                                   (       − 1)xa Ta                         (100)
+                               er tanh(Cr)
+
+                                        29
+                        xj
+                                              
+                                       Cr
+              Wia = ǫaij 2     1−                  .(a, i, j = 1, 2, 3) ,   (101)
+                         er         sinh(Cr)
+This V = 0 monopole is referred to as the Bogomolnyi- Prasad-Sommerfield
+(BPS) monopole. For V 6= 0, the profile functions can be found numerically.
+    The mass of the BPS monopole also follows from the Bogomolnyi analysis
+and is:
+                                     4π
+                               M = 2 mV                               (102)
+                                      e
+where mV is the mass of the massive vector bosons after symmetry breaking.
+In terms of the vacuum expectation value η of Φ, mV = eη.
+
+6.3   Electroweak monopoles
+The standard electroweak model does not contain the suitable topology to
+have magnetic monopole solutions. This is because π1 (G) 6= 1 and the in-
+contractable loops in the unbroken U(1) are also incontractable in G. Yet, as
+originally discovered by Nambu 16 , the model does contain magnetic monopoles
+that are confined by strings. (This is closely analagous to the picture of quarks
+being confined by QCD strings.)
+    The standard model has a doublet Φ, SU(2) gauge fields Wµa and the hy-
+percharge gauge field Yµ . The SU(2) and U(1) coupling constants are denoted
+by g and g ′ and the vacuum expectation value of Φ is denoted by η. The
+weak mixing angle θw is defined via tan θw = g ′ /g. The asymptotic configura-
+tion of the electroweak monopole can be written in spherical coordinates (with
+r → ∞) as:                                         
+                                 η       cos(θ/2)
+                           Φ= √                  iϕ                         (103)
+                                  2 sin(θ/2)e
+            gWµa = −ǫabc nb ∂µ nc + i cos2 θw na (Φ† ∂µ Φ − ∂µ Φ† Φ)        (104)
+
+                    g ′ Yµ = −i sin2 θw (Φ† ∂µ Φ − ∂µ Φ† Φ)                 (105)
+where
+                                        Φ† (x)τ a Φ(x)
+                           na (x) ≡ −                  .                    (106)
+                                         Φ† (x)Φ(x)
+     Note that the configuration has a singularity along the negative z axis –
+the lower component of Φ is not single-valued here. This is the location of a
+real string. As described in Sec. 3.3, this string is the semilocal string when
+θw = π/2 and the electroweak Z-string for general θw .
+     The electroweak monopole is not a static solution of the equations of mo-
+tion but only a field configuration. One way to see this is that to note that the
+
+                                        30
+Table 2: The quantum numbers (n8 , n3 and n1 ) on stable SU (5) monopoles are shown
+and these correspond to the SU (3), SU (2) and U (1) charges on the corresponding standard
+model fermions shown in the right-most column.
+
+
+                n       n8 /3         n3 /2         n1 /6
+                +1      1/3           1/2            1/6         (u, d)L
+                -2      1/3            0            -1/3           dR
+                -3       0            1/2           -1/2         (ν, e)L
+                +4      1/3            0            2/3            uR
+                -6       0             0              -1           eR
+
+
+string is pulling on the monopole and this unbalanced force will tend to accel-
+erate the monopole and to shorten the string. Eventually the monopole will
+annihilate the antimonopole at the other end of the string. However this fact
+may not diminish the importance of the monopole – the important aspect to
+consider is the lifetime of the electroweak monopole and antimonopole and to
+evaluate if they can lead to some experimental signatures 16 . At the moment,
+it seems unlikely that the electroweak monopole can survive long enough to be
+seen in accelerator experiments though this issue needs further exploration.
+
+6.4   SU(5) monopoles
+The Grand Unified symmetry breaking SU (5) → [SU (3) × SU (2) × U (1)]/Z6
+leads to topological magnetic monopoles. The magnetic monopoles in this
+model have been constructed 17 . Here I will not go into the details of the con-
+struction. Instead I will only point out an interesting feature of the spectrum
+of stable magnetic monopoles.
+     The winding one monopole in the model has SU(3), SU(2) and U(1)
+charges. Then one can construct higher winding monopoles by assembling
+together unit winding monopoles. In some cases, the assembly will be stable
+while in other cases the higher winding monopole will be unstable to decay-
+ing into lower winding monopoles. It turns out that, for a broad range of
+parameters, the stable monopoles are the winding ±1, ±2, ±3, ±4, and ±6
+monopoles. The magnetic charges on these can be calculated. As shown in
+Table II an interesting feature is that the known quarks and leptons have pre-
+cisely the same spectrum of charges in the electric sector! This observation has
+led to the possibility that it might be possible to understand the fundamental
+particles as magnetic monopoles 18 .
+
+
+
+                                           31
+6.5    Cosmology of monopoles
+Once magnetic monopoles are produced at a phase transition in the early uni-
+verse, their energy density will redshift like pressureless matter ρm ∝ 1/a3 .
+The radiation redshifts as ργ ∝ 1/a4 . Hence magnetic monopoles will start
+dominating the universe at some epoch. The exact epoch of domination will de-
+pend on the details of monopole formation and their evolution. However, even
+if we assume one monopole per causal horizon at formation, GUT monopoles
+would have started dominating well before big bang nucleosynthesis, which is
+clearly in conflict with observations 19,20 .
+     Another bound on the monopole density arises from the observation that
+galaxies have magnetic fields that would accelerate any magnetic monopoles
+that are present. In this way the monopoles would dissipate the magnetic
+field. This “Parker bound” leads to a constraint that is stronger than the
+cosmological constraint for lighter monopoles 21 .
+     The present constraints on monopoles imply that magnetic monopoles
+must be more massive than about 1010 GeV if they are to be present in cos-
+mology. For certain types of monopoles (eg. those that catalyse proton decay),
+the constraints from stellar physics can be much stronger.
+     The constraints on magnetic monopoles are clearly in conflict with the
+result that the GUT phase transition must have produced magnetic monopoles.
+Hence either the GUT philosophy is incorrect, or the standard FRW cosmology
+is incorrect. The popular solution to the monopole over-abundance problem
+is that the standard cosmology should be modified to include an inflationary
+phase of the universe. Then the monopole producing GUT phase transition
+occurs during the inflationary stage and any monopoles that were produced
+are rapidly diluted to insignificant densities. Other possible solutions are to (i)
+modify particle physics such that the monopoles get connected by strings and
+then annihilate, 22 (ii) never have an epoch where the Grand Unified symmetry
+is restored 23 , and (iii) produce domain walls that sweep away the monopoles
+2
+  .
+
+7     Further reading
+The topological defects literature is vast and the citations have not done jus-
+tice to all the work that has been done. Fortunately a number of excellent
+review articles and books have been written that can be a guide to the original
+literature. Here are some of these articles:
+
+      • “Solitons and Particles”, eds. C. Rebbi and G. Soliani (World Scientific,
+        Singapore, 1984). This is an invaluable resource for learning the subject
+
+                                        32
+     and for reading most of the classic papers on the field theoretic aspects.
+
+   • “Cosmic Strings and Other Topological Defects”, A. Vilenkin and E.P.S.
+     Shellard, Cambridge University Press (1994). This is a comprehensive
+     description of the field.
+
+   • M.B. Hindmarsh and T.W.B. Kibble, Rept. Prog. Phys. 58, 477 (1995).
+     An excellent discussion of the many different facets of cosmic strings.
+
+   • P. Goddard and D. I. Olive, Rep. Prog. Phys. 41 1357-1437 (1978). A
+     classic on magnetic monopoles.
+
+   • S. Coleman, “The magnetic monopoles, fifty years later”, in: The Unity
+     of Fundamental Interactions, ed A. Zichichi (Plenum, London, 1983).
+     Another classic.
+
+   • J. Preskill, “Vortices and monopoles”, in: Architecture of Fundamental
+     Interactions at Short Distance, eds P. Ramond and R. Stora (Elsevier,
+     1987). And yet another.
+
+   • “Semilocal and Electroweak Strings”, A. Achúcarro and T. Vachaspati,
+     Phys. Rep. 327, 347 (2000).
+
+   • “Aspects of 3 He and the Standard Electroweak Model”, G.E. Volovik
+     and T. Vachaspati, Int. J. Mod. Phys. B10 471-521 (1996). A review
+     of topological defects in He-3 with a particle physics connection.
+
+Acknowledgements
+This work was supported by the Department of Energy, USA.
+
+References
+  1. E. B. Bogomolny, Sov. J. Nucl. Phys. 24 449 (1976); reprinted in
+     “Solitons and Particles”, eds. C. Rebbi and G. Soliani (World Scientific,
+     Singapore, 1984).
+  2. G. Dvali, H. Liu and T. Vachaspati, Phys. Rev. Lett. 80, 2281 (1998).
+  3. L. Pogosian and T. Vachaspati, Phys. Rev. D62, 123506 (2000).
+  4. T. Vachaspati and A. Vilenkin, Phys. Rev. D30, 2036 (1984).
+  5. T. Vachaspati and A. Achúcarro, Phys. Rev. D44, 3067 (1991).
+  6. T.W.B. Kibble, Nucl. Phys. B261, 750 (1985).
+  7. D.P. Bennett, Phys. Rev. D33, 872 (1986); Erratum: Phys. Rev. D34,
+     3932 (1986).
+
+                                     33
+ 8. C. J. A. P. Martins and E. P. S. Shellard, hep-ph/0003298 (2000).
+ 9. L. Pogosian and T. Vachaspati, Phys. Rev. D60, 083504 (1999).
+10. A. Albrecht, R. Battye and J. Robinson, Phys. Rev. D59, 023508 (1999).
+11. L. Pogosian, astro-ph/0009307 (2000).
+12. T. Vachaspati and A. Vilenkin, Phys. Rev. D31, 3052 (1985).
+13. R.R. Caldwell and B. Allen, Phys. Rev. D45, 3447 (1992).
+14. A.A. de Laix, L.M. Krauss and T. Vachaspati, Phys. Rev. Lett. 79,
+    1968 (1997).
+15. M.K. Prasad and C.H. Sommerfield, Phys. Rev. Lett. 35, 760 (1975).
+16. Y. Nambu, Nucl. Phys. B130, 505 (1977).
+17. C.P. Dokos and T.N. Tomaras, Phys. Rev. D21, 2940 (1980).
+18. T. Vachaspati, Phys. Rev. Lett. 76, 188 (1996).
+19. Ya.B. Zeldovich and M.Yu. Khlopov, Phys. Lett. B79, 239 (1978).
+20. J. Preskill, Phys. Rev. Lett. 43, 1365 (1979).
+21. E.N. Parker, Ap. J. 160, 383 (1970).
+22. P. Langacker and S.-Y. Pi, Phys. Rev. Lett. 45, 1 (1980).
+23. G. Dvali, A, Melfo and G. Senjanovic, Phys. Rev. Lett. 75, 4559 (1995)
+
+
+
+
+                                   34
+
