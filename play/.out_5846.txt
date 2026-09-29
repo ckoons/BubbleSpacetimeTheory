@@ -1,0 +1,21 @@
+[PASS] Di model sanity: dim of SO(5) (m+½,½) = 4, 16, 40, 80 (spinor harmonics on S⁴)  [4, 16, 40, 80]
+   H² mode : (z_t, z_s) = [(-1, 1)]  ⇒ w = [-1]
+   Rac     : (z_t, z_s) = [(-1, 1)]  ⇒ w = [-1]
+   Di      : (z_t, z_s) = [(1, -1)]  ⇒ w = [-1]
+[PASS] CONTROL: a single H² mode has w = −1 on every K-type (constant: central)  
+[PASS] DIRECTION: the Rac (single singleton) has w = −1 (via z_t = −1, z_s = +1)  
+[PASS] DIRECTION: the Di (single singleton) has w = −1 (via z_t = +1, z_s = −1)  
+   Rac⊗Rac (photon, K1650) : (z_t, z_s) = [(1, 1)]  ⇒ w = [1]
+   Rac⊗Di                  : (z_t, z_s) = [(-1, -1)]  ⇒ w = [1]
+   Di⊗Di                   : (z_t, z_s) = [(1, 1)]  ⇒ w = [1]
+   H²⊗H²                   : (z_t, z_s) = [(1, 1)]  ⇒ w = [1]
+   H²⊗Rac                  : (z_t, z_s) = [(1, 1)]  ⇒ w = [1]
+   H²⊗Di                   : (z_t, z_s) = [(-1, -1)]  ⇒ w = [1]
+[PASS] CONTROL: the photon (Rac⊗Rac bilinear) has w = +1 (full tensor-product character, every weight)  
+[PASS] DIRECTION: EVERY bilinear of singletons / H² modes has w = +1 (6 products, full characters)  
+
+READING: w counts the number of singleton / H² constituents mod 2 — every single object (Rac, Di, one H² mode) is w-odd, every
+bilinear is w-even. So in BST's own reading: a particle read as ONE H² K-type mode (K1653) is w = −1; a particle read as a TWO-
+singleton composite (Time, Derived Section 7) is w = +1. Which a proton/electron/photon/neutrino is, is the corpus's reading (Lyra).
+
+SCORE: 6/6
