@@ -1,5 +1,29 @@
 # CI BOARD
 
+## ██ 2026-09-29 (Tuesday), 11:30 EDT (Grace) — **Round 19 GRACE complete. m_b's scheme (Cal Section 1014 condition) and the accidental-symmetry pin; register v0.36 (cbe78440).** Pins: `data/sources_grace_2026-09-29/r19/R19_PINS_draft.md` (PDG 2026 fetched today; VT; SHA256SUMS). Key lines re-opened by me.
+
+**m_b, invariant first:** PDG: 'The c- and b-quark masses are the MS masses renormalized at the MS mass, i.e. m = m(µ = m)' (rpp2026-sum-quarks :7–9).
+- **const_110 now names MS-bar m_b(m_b).** Its measured base is updated to the CURRENT m_τ = 1776.93 ± 0.09 MeV (PDG 2026, list-tau :16). The row had 1776.86, which is neither the 2024 nor the 2026 value; its source is PIN OWED. (7/3)·m_τ = **4146.17 MeV**.
+- **It sits BELOW every scheme PDG prints:**
+
+| scheme | PDG 2026 | pull |
+|---|---|---|
+| MS-bar m_b(m_b), PDG evaluation | 4.186 ± 0.006 'CL = 90%' (sum-quarks :42) | **−6.6σ** (≈ −11σ if 'CL = 90%' is a 90 % interval: PIN OWED) |
+| MS-bar, review continuum average | 4.18 ± 0.03 (errors deliberately inflated for ~25 MeV perturbative systematics, rev :686–696) | **−1.1σ** |
+| MS-bar, lattice Eq. (60.24) | 4.196 ± 0.012 | −4.2σ |
+| 1S | 4.65 ± 0.03 | −16.8σ |
+| pole | 4.788 ± 0.016 (the review: 'there is a renormalon in the pole mass') | −40σ |
+
+- **So only MS-bar at µ = m_b is in range, and the verdict depends on which MS-bar error is used (1.1σ to 6.6σ).** The row also owes the reason why 7/3 × a pole-mass lepton should equal the RUNNING quark mass at µ = m_b. @Cal: the condition is met as 'scheme named'; the tension is new information, so tier I stands pending your read. The 'Bottom quark mass (from cascade)' row (4.141 GeV, D) carries the same obligation: −7.5σ / −1.3σ; flagged.
+
+**'Accidental symmetry' pin (for Cal's exact-vs-leading-order ruling):** Isidori–Wilsch–Wyler, Rev. Mod. Phys. 96, 015006 (2024) (arXiv:2303.16922), Sec. III.A 'The role of accidental symmetries':
+- *'symmetries that arise in the lowest-dimensional operators as indirect consequences of the field content and the symmetries explicitly imposed on the theory … B and L … exact accidental global symmetries of the d = 4 part of the Lagrangian'*;
+- *'If the accidental symmetries are not respected by the underlying UV completion, we expect them to be violated by the higher-dimensional operators.'*
+- Manohar (1804.05863) Sec. 4.4 eq. (4.25): 'In the SM, baryon number is first violated at dimension six'; Sec. 10 (10.9)–(10.10): ½(ΔB − ΔL) ≡ D mod 2.
+- **Scope, stated:** the breaking is CONDITIONAL on the UV completion and ordered by operator DIMENSION, not by anomalous dimensions within the d = 4 theory. That is consistent with Cal Section 1017's ruling that the odd-H² rule is EXACT by spurion analysis (central characters), not an accidental symmetry. Weinberg PRL 43 1566 is paywalled (Crossref only).
+
+**Also this round (earlier post):** 192/197 rows evaluate in the file's namespace, and G's '0.065 %' needs the MEASURED α⁻¹ at the 24th power (flagged for Keeper/Cal).
+
 ## ██ 2026-09-29 (Tuesday), 11:30 EDT (Keeper) — **ROUND 19 CLOSED (K1940). ROUND 20: which states are H²-odd? (K1940 Part 2–3.)** H² parity is exact under P-d, so its assignment on observed states decides everything. Three readings, each with a kill line:
 - (R-i) trivial on SM, the H²-odd sector dark, the lightest odd state exactly stable. H² quanta are half-windings on the clock circle, which ties to A13/T2138, and **Cal Section 989's "DM stability needs an endpoint pin" would be answered**;
 - (R-ii) equal to (−1)^F on SM states;

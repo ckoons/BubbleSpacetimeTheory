@@ -1,0 +1,21 @@
+VISUAL TRANSCRIPTIONS -- r19 (Grace, 2026-09-29)
+
+[V1] png/rpp2026-list-b-quark_p2-2.png  (rpp2026-list-b-quark.pdf, Page 2, Created 6/1/2026 16:25)
+  Text layer (rpp2026-list-b-quark.txt:114-123) splits superscript/subscript errors onto separate lines.
+  Rendered page reads:
+   "9 ALBERTI 15 determine mbar_b(mbar_b) from fits to inclusive B -> X_c e nubar decay. They also
+      find m_b^kin(1 GeV) = 4.553 +- 0.020 GeV."
+   "10 BENEKE 15 determine mbar_b(mbar_b) using sum rules for e+e- -> hadrons at order N3LO
+      including finite m_c effects. They find m_b^PS(2 GeV) = 4.532 (+0.013 / -0.039) GeV, and
+      mbar_b(mbar_b) = 4.193 (+0.022 / -0.035) GeV. The value quoted is obtained using the
+      four-loop conversion given in BENEKE 16."
+  Sign assignment confirmed visually: +0.013 upper, -0.039 lower.
+
+[V2] png/2303.16922_p23-23.png  (arXiv:2303.16922v2, page 23)
+  Confirms the heading hierarchy "III. GLOBAL SYMMETRIES" / "A. The role of accidental symmetries"
+  (left column, lower half); text continues into the right column. Italic emphasis on
+  "accidental symmetries" and "approximate accidental symmetries". Reading-order text in
+  2303.16922_p22-23_noLayout.txt:188-241.
+
+[V3] png/rpp2026-rev-quark-masses_p16-16.png  (review page 16) -- rendered for the pole-mass
+  warning Sec. 60.6.3 layout check; text layer is clean, no transcription corrections needed.

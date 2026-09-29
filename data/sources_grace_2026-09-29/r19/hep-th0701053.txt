@@ -1,0 +1,3097 @@
+                                     Effective Field Theories                                                                             1
+
+
+
+
+                                            Introduction to Effective Field Theory
+
+                                     C.P. Burgess
+
+
+
+
+arXiv:hep-th/0701053v2 18 Jan 2007
+                                     Department of Physics & Astronomy, McMaster University,
+
+                                     1280 Main Street West, Hamilton, Ontario, Canada, L8S 4M1
+
+                                     and
+
+                                     Perimeter Institute, 31 Caroline Street North,
+
+                                     Waterloo, Ontario, Canada, N2L 2Y5
+
+
+
+
+                                     Key Words Effective field theory; Low-energy approximation; Power-counting
+
+
+                                     Abstract This review summarizes Effective Field Theory techniques, which are the modern
+
+                                     theoretical tools for exploiting the existence of hierarchies of scale in a physical problem. The
+
+                                     general theoretical framework is described, and explicitly evaluated for a simple model. Power-
+
+                                     counting results are illustrated for a few cases of practical interest, and several applications to
+
+                                     Quantum Electrodynamics are described.
+
+
+                                     CONTENTS
+
+
+                                     Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           2
+
+                                        A toy model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    3
+
+
+                                     General formulation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            6
+
+                                        The 1PI and 1LPI actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       6
+
+                                        The Wilson action . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     20
+                   Ann. Rev. Nucl. Part. Sci. 2000          1056-8700/97/0610-00
+
+Power counting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             28
+
+    A class of effective interactions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    28
+
+    Power-counting rules . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     29
+
+    The Effective-Lagrangian Logic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       32
+
+
+Applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             34
+
+    Quantum Electrodynamics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        34
+
+    Power-counting examples: QCD and Gravity           . . . . . . . . . . . . . . . . . . . . . . .   46
+
+
+
+1    Introduction
+
+
+It is a basic fact of life that Nature comes to us in many scales. Galaxies, planets,
+
+aardvarks, molecules, atoms and nuclei are very different sizes, and are held
+
+together with very different binding energies. Happily enough, it is another fact
+
+of life that we don’t need to understand what is going on at all scales at once in
+
+order to figure out how Nature works at a particular scale. Like good musicians,
+
+good physicists know which scales are relevant for which compositions.
+
+    The mathematical framework which we use to describe nature — quantum field
+
+theory — itself shares this basic feature of Nature: it automatically limits the role
+
+which smaller distance scales can play in the description of larger objects. This
+
+property has many practical applications, since a systematic identification of how
+
+scales enter into calculations provides an important tool for analyzing systems
+
+which have two very different scales, m ≪ M . In these systems it is usually
+
+profitable to expand quantities in the powers of the small parameter, m/M , and
+
+the earlier this is done in a calculation, the more it is simplified.
+
+    This review intends to provide a practical introduction to the technique of
+
+Effective Field Theory, which is the main modern tool for exploiting the simplifi-
+
+
+
+                                                   2
+Effective Field Theories                                                          3
+
+cations which arise for systems which exhibit a large hierarchy of scales (1,2,3,4).
+
+The goal is to provide an overview of the theoretical framework, but with an em-
+
+phasis on practical applications and concrete examples. The intended audience
+
+is assumed to be knowledgable in the basic techniques of quantum field theory,
+
+including its path-integral formulation.
+
+  Although it is not the main focus, one of the more satisfying threads which
+
+I hope you’ll find running through this review is the picture which emerges of
+
+the physics underlying the technique of renormalization. Renormalization is a
+
+practice which used to be widely regarded as distasteful, and so was largely done
+
+in the privacy of one’s own home. That has all changed. As used in effective
+
+field theories renormalizing is not only respectable, it is often the smart thing to
+
+do when extracting the dependence of physical quantities on large logarithms of
+
+scale ratios, ∼ log(M/m).
+
+  Another attractive conceptual spinoff of effective field theory techniques is the
+
+understanding they provide of the physical interpretation of nonrenormalizable
+
+theories, like Einstein’s General Theory of Relativity. Although much has been
+
+made about the incompatibility of gravity and quantum mechanics, we shall find
+
+the quantization of nonrenormalizable theories can make perfect sense provided
+
+they are only applied to low-energy predictions.
+
+
+1.1   A toy model
+
+In order make the discussion as concrete as possible, consider a system involving
+
+two spinless particles, l and H, with one — l — being very light compared with
+
+the other — H. Taking the classical action for the system to be the most general
+4                                                                        Effective Field Theories
+
+renormalizable one consistent with the discrete symmetry l → −l gives1
+
+                                               1
+                                 Z                                                 
+                                      4
+                 Sc [l, H] = −       d x          ∂µ l ∂ µ l + ∂µ H ∂ µ H + V (l, H) ,        (1)
+                                               2
+
+where the interaction potential is
+
+                 1 2 2 1 2 2 gl 4 gh 4 glh 2 2 m̃ 2  g̃h M 3
+ V (l, H) =        m l + M H + l + H +    l H + l H+      H . (2)
+                 2      2     4!  4!    4      2       3!
+
+M and m denote the two particle masses, and we imagine the three dimensionful
+
+quantities — m, m̃ and M — to satisfy M ≫ m, m̃, in order to ensure a large
+
+hierarchy of scales.
+
+    Now imagine computing a low-energy physical process in this model, which we
+
+take for simplicity to be two-body l − l scattering at centre-of-mass energies much
+
+smaller than the heavy-particle mass: Ecm ≪ M . The Feynman graphs which
+
+give rise to this scattering at tree level are given in Fig. (1).
+
+    The S-matrix element which follows from these graphs may be written:
+
+
+              S(p1 , p2 ; p3 , p4 ) = i(2π)4 δ4 (p1 + p2 − p3 − p4 ) A(p1 , p2 , p3 , p4 ),   (3)
+
+
+where
+
+                                                    1                   1
+                                                   
+          A(p1 , p2 , p3 , p4 ) = −gl + m̃2           2    2
+                                                              +
+                                            (p1 − p3 ) + M      (p1 − p4 )2 + M 2
+                                                                  1
+                                                                            
+                                                        +
+                                                          (p1 + p2 )2 + M 2
+                                       3 m̃2 4 m̃2 m2        
+                                                                 −6
+                                                                    
+                               ≈ −gl +       +          + O    M      .                       (4)
+                                       M2        M4
+
+This last (approximate) equality assumes momenta and energies to be much
+
+smaller than M . The final line also uses the identity (p1 − p4 )2 + (p1 − p3 )2 +
+
+(p1 + p2 )2 = −4m2 , which follows from the mass-shell condition p2 = −m2 .
+
+    There are two points to be emphasized about this last expression. First, this
+
+scattering amplitude (and all others) simplifies considerably in the approximation
+    1
+        We use units h̄ = c = kB = 1 and adopt the ‘mostly plus’ metric signature.
+Effective Field Theories                                                            5
+
+that powers of m/M , m̃/M and Ecm /M may be neglected. Second, the result up
+
+to O(M −4 ) could be obtained for a theory involving only l particles interacting
+
+through the following ‘effective’ potential:
+                                                                      !
+                         (4)    1       3 m̃2 4 m̃2 m2
+                       Veff =      gl −      −                            l4 .    (5)
+                                4!      M2       M4
+
+Even more interesting, the O(M −4 ) contribution to all other observables involving
+
+low-energy l scattering are completely captured if the following terms are added
+
+to the above potential:
+
+                                      m̃2       glh   gl
+                                                          
+                                (6)
+                            Veff =                  −          l6 .               (6)
+                                      M4        16    6
+
+  There are several reasons why it is very useful to establish at the outset that
+
+the low-energy interactions amongst light particles are described, in the large-M
+
+limit, by some sort of effective interactions like eqs. (5) and (6). Most prosaically,
+
+it is obviously much easier to calculate more complicated processes starting from
+
+eqs. (5) and (6) than by computing the full result using eqs. (1) and (2), and only
+
+then expanding in powers of 1/M . For more difficult calculations — such as the
+
+cross section for the reaction 6 l → 12 l, for instance — such ease of calculation
+
+can be the difference which decides whether a computation is feasible or not.
+
+Furthermore, knowledge of the types of effective interactions which are possible
+
+at a given order in 1/M might guide us to identify which low-energy observables
+
+are most (or least) sensitive to the properties of the heavy particles.
+
+  Fortunately, it appears to be a basic property of quantum field theories that
+
+so long as a large hierarchy of masses exists, a low-energy description in terms of
+
+a collection of effective interactions is indeed possible. The point of this review
+
+is to sketch why this is so, what may be said about its properties, and how to
+
+compute it (if possible) from a full theory of both light and heavy particles.
+6                                                                    Effective Field Theories
+
+2      General formulation
+
+
+A great variety of observables could be used as the vehicle for illustrating effec-
+
+tive field theory techniques, but since these can be computed from knowledge
+
+of the various correlation functions of the theory, it is convenient to phrase the
+
+discussion in terms of the generating functional for these. In particular, we focus
+
+attention on the generator, Γ, of one-particle-irreducible (1PI) correlation func-
+
+tions. Although this quantity is often called the ‘effective action,’ particularly in
+
+older references, we reserve this name for another quantity of more direct interest
+
+which we come to later.
+
+
+2.1      The 1PI and 1LPI actions
+
+We start by reviewing the standard definition for the generating functional. Con-
+
+sider a theory whose fields are generically denoted by φ. Our interest in this the-
+
+ory is in the correlation functions of these fields, since other physical quantities
+
+can generically be constructed from these. These correlations may be obtained
+
+by studying the response of the theory to the application of an external field,
+
+J(x), which couples to φ(x).
+
+    For instance, a path-integral definition of the correlation function would be
+
+                                       Z                               Z            h   i
+                             −iW [J]                                         4
+    hφ(x1 ) . . . φ(xk )iJ ≡ e             Dφ [φ(x1 ) . . . φ(xk )] exp i   d x L + Jφ        ,
+
+                                                                                              (7)
+
+where L denotes the lagrangian density which describes the system’s dynamics,
+
+and the quantity W [J] is defined by:
+
+                         n       o     Z             Z        h            i
+                    exp iW [J] =           Dφ exp i       d4 x L[φ] + Jφ         .            (8)
+Effective Field Theories                                                               7
+
+W [J] generates the connected correlations of the operator φ, in the sense that
+
+                                                                δk W
+                       hφ(x1 ) · · · φ(xk )ic,J = (−i)k                         .     (9)
+                                                          δJ(x1 ) · · · δJ(xk )
+
+This can be taken to define the connected part, but it also agrees with the usual
+
+graphical sense of connectedness. When this average is evaluated at J = 0
+
+it coincides with the covariant time-ordered — more properly, T ∗ -ordered —
+
+vacuum expectation value of φ.
+
+2.1.1       The 1PI generator:               One-particle reducible graphs are defined as
+
+those connected graphs which can be broken into two disconnected parts simply
+
+by cutting a single internal line. One-particle irreducible (1PI) graphs are those
+
+connected graphs which are not one-particle reducible.
+
+  A non-graphical formulation of 1-particle reducibility of this sort can be had
+
+by performing a Legendre transformation on the functional W [J] (5). With this
+
+choice, if the mean field, ϕ, is defined by
+
+                                              δW
+                                    ϕ(J) ≡       = hφ(x)iJ ,                        (10)
+                                              δJ
+
+then the Legendre transform of W [J] is defined to be the functional Γ[ϕ], where
+
+                                                        Z
+                                 Γ[ϕ] ≡ W [J(ϕ)] −          d4 x ϕ J.               (11)
+
+
+Here we imagine J(ϕ) to be the external current that is required to obtain the
+
+expectation value hφiJ = ϕ, and which may be found, in principle, by inverting2
+
+eq. (10). If Γ[ϕ] is known, J(ϕ) can be found by directly differentiating the
+
+defining equation for Γ[ϕ], which gives:
+
+                                          δΓ[ϕ]
+                                                + J = 0.                            (12)
+                                           δϕ
+  2
+      For simplicity, the inversion of eq. (10) is assumed to be possible.
+8                                                              Effective Field Theories
+
+    This last equation implies another important property for Γ[ϕ]: its stationary
+
+point specifies the expectation value of the original operator, hφ(x)iJ=0 . This can
+
+be seen from eqs. (10) and (12) above. For time-independent field configurations,
+
+u, this argument can be sharpened to show that Γ[ϕ] is the minimum expectation
+
+value of the system’s Hamiltonian, given that the expectation of the field φ(x) is
+
+constrained to equal ϕ(x) (6).
+
+    A graphical representation for Γ[ϕ] can be obtained by setting up a path-
+
+integral representation for it. An expression for Γ[ϕ] as a path integral is found
+
+by combining the definitions of eqs. (8) and (11):
+
+                 n      o       Z            Z        h                   i
+             exp iΓ[ϕ]      =       Dφ exp i       d4 x L(φ) + J (φ − ϕ)
+                                Z            Z        h               i
+                            =       D φ̂ exp i     d4 x L(ϕ + φ̂) + J φ̂    .       (13)
+
+
+    At first sight this last equation is a doubtful starting point for calculations since
+
+it gives only an implicit expression for Γ[ϕ]. Eq. (13) is only implicit because the
+
+current, J, appearing on its right-hand side must itself be given as a function of ϕ
+
+using eq. (12): J = −(δΓ/δϕ), which again depends on Γ[ϕ]. The implicit nature
+
+of eq. (13) turns out not to be an obstacle for computing Γ[u], however. To see
+
+this recall that a saddle-point evaluation of eq. (8) gives W [J] as the sum of all
+
+connected graphs that are constructed using vertices and propagators built from
+
+the classical lagrangian, L, and having the currents, J, as external lines. But Γ[ϕ]
+
+                                               d4 x Jϕ, and evaluating the result at the
+                                           R
+just differs from W [J] by subtracting
+
+specific configuration J[ϕ] = −(δΓ/δϕ). This merely lops off all of the 1-particle
+
+reducible graphs, ensuring that Γ[ϕ] is given by summing 1-particle irreducible
+
+graphs.
+Effective Field Theories                                                           9
+
+  This gives the following result for Γ[ϕ] semiclassically:
+
+
+                    Γ[ϕ] = S[ϕ] + Γ1 [ϕ] + (Feynman Graphs).                     (14)
+
+
+                                                                       L(ϕ) d4 x. The
+                                                                   R
+Here, the leading (tree-level) term is the classical action: S =
+
+next-to-leading result is the usual one-loop functional determinant,
+
+                             1        h               i
+                    Γ1 = ∓     log det δ2 S/δφ(x)δφ(y)      ,                    (15)
+                             2                          φ=ϕ
+
+
+of the quadratic part of the action expanded about the configuration φ = ϕ. The
+
+sign, ∓, is − for bosonic fields and + for fermionic ones.
+
+  Finally, the ‘Feynman Graphs’ contribution denotes the sum of all possible
+
+graphs which (i) involve two or more loops; (ii) have no external lines (with
+
+ϕ-dependent internal lines constructed by inverting δ2 S/δφ(x)δφ(y) evaluated at
+
+φ = ϕ); and (iii) are one-particle irreducible (1PI).
+
+2.1.2   Light-particle correlations:           We now specialize this general frame-
+
+work to the specific model described above containing the two scalar fields, work-
+
+ing in the limit where one is much more massive than the other. If we couple
+
+an external current, j, to l and another, J, to H, then the generator of 1PI
+
+correlations in this model, Γ[ℓ, h], depends on two scalar variables, ℓ = hlijJ and
+
+h = hHijJ . The correlation functions it generates can be used to construct general
+
+scattering amplitudes for both l and H particles by using standard techniques.
+
+  Our interest is in determining the dependence on the heavy mass, M of low-
+
+energy observables, where ‘low energy’ here means those observables for which
+
+all of the particles involved have centre-of-mass (CM) momenta and energies
+
+which satisfy p, E ≪ M . If only l particles are initially present in any scattering
+
+process at such low energies, then no heavy particles can ever appear in the final
+
+state since there is not enough energy available for their production. As a result,
+10                                                          Effective Field Theories
+
+the heavy-field correlations can be ignored, and it suffices to consider only the
+
+generator of 1PI correlations exclusively for the light fields in the problem.
+
+     Since H-correlators are of no interest to us we are free to set J = 0 when
+
+evaluating Γ[ℓ, h], since we never need differentiate with respect to J. As the
+
+previous sections show, the condition J = 0 is equivalent to evaluating Γ[ℓ, h]
+
+with its argument, h, evaluated at the stationary point, h = h(ℓ), where δΓ/δh
+
+vanishes.
+
+     Furthermore, if only low-energy observables are of interest we may also restrict
+
+the external current j to be slowly varying in space, so that its Fourier trans-
+
+form only has support on low-momentum modes for which p, E ≪ M . As above
+
+for J and h, the vanishing of these modes of j correspond to using the condi-
+
+tion δΓ/δℓ = 0 to eliminate the high-frequency components of ℓ in terms of the
+
+low-frequency components. The restriction of Γ[ℓ, h] with these two conditions,
+
+denoted γ[ℓ], in principle contains all of the information required to compute any
+
+low-energy observable.
+
+     How is γ[ℓ] computed? Recall that Γ[ℓ, h], obtained by performing a Legendre
+
+transformation on both j and J, is obtained by summing over all 1PI graphs
+
+in the full theory. But γ[ℓ] differs from Γ[ℓ, h] only by setting both J and the
+
+short-wavelength components of j to zero (rather than to the configurations J =
+
+−δΓ/δh and j = −δΓ/δℓ). Since it is the currents which are responsible for
+
+cancelling out the one-particle reducible graphs in Γ[ℓ, h], we see that setting
+
+currents to vanish simply means that this cancellation does not take place.
+
+     We see from this that γ[ℓ] is given by the sum of one-light-particle-irreducible
+
+(1LPI) graphs: i.e. the graphs which contribute to γ[ℓ] are one-particle irreducible
+
+only with respect to cutting low-momentum, low-frequency light-particle, l, lines,
+Effective Field Theories                                                             11
+
+but are one-particle reducible with respect to cutting high-momentum l lines or
+
+H lines having any momentum.
+
+  To make these manipulations concrete, the remainder of this section derives
+
+explicit expressions for both Γ[ℓ, h] and γ[ℓ] in the toy model, working to the tree
+
+and one-loop approximations.
+
+2.1.3    Tree-level calculation:                  Suppose both Γ[ℓ, h] and γ[ℓ] are com-
+
+puted approximately within a semiclassical loop expansion: Γ = Γt +Γ1−loop +· · ·
+
+and γ = γ t + γ 1−loop + · · ·. Explicit formulae for both are particularly simple at
+
+tree level since the tree approximation, Γt , to Γ is simply given by evaluating the
+
+classical action at l = ℓ and H = h: Γt [ℓ, h] = S[ℓ, h]. The tree approximation
+
+for γ t [ℓ] is therefore obtained by solving the classical equations of motion for h
+
+— and the high-frequency part of ℓ) as a function of (the low-frequency part of)
+
+ℓ — and then substituting this result, ht (ℓ), back into the classical action.
+
+  We next compute the resulting expression for γ t [ℓ] in the limit that M is much
+
+larger than all of the other scales of interest. The classical equation of motion
+
+for h which is obtained from eqs. (1) and (2) is
+
+                                 1            gh 3 m̃ 2 g̃h M 2
+                h − M 2h −         glh ℓ2 h −    h − ℓ −     h = 0,                 (16)
+                                 2            3!    2      2
+
+so the solution, ht (ℓ) can be formally written:
+                                               −1 
+                                       glh 2           m̃ 2 gh 3 g̃h M 2
+                                                                         
+           ht (ℓ) =           − M2 −      ℓ              ℓ +    h +   h .           (17)
+                                        2              2     3!     2
+
+This may be solved perturbatively in powers of gh , g̃h and 1/M , with the leading
+
+contribution obtained by taking h = 0 on the right-hand side. This leads to the
+
+explicit solution
+
+                     1      1       glh 2         m̃ 2
+                                                              
+        ht (ℓ) =       2
+                          −
+                          − 4     −     ℓ + ···      ℓ + O(gh , g̃h )
+                    M      M         2             2
+                    m̃ 2 glh m̃ 4       m̃  2        1
+                                                         
+               = −       ℓ +      ℓ −       ℓ    + O        ,                       (18)
+                   2M 2      4M 4      2M 4            M5
+12                                                                 Effective Field Theories
+
+where the leading contributions involving nonzero gh and g̃h contribute at O(M −5 ).
+
+     Substituting this last result back into the classical action gives the tree level
+
+expression for the generating functional, γ[ℓ], as an expansion in powers of 1/M .
+
+We find the result γ t [ℓ] = γ0t [ℓ] + γ2t [ℓ]/M 2 + γ4t [ℓ]/M 4 + · · ·, with:
+                                                                         !
+                                           1             m2 2 gl 4
+                               Z
+                  γ0t [ℓ] =        d4 x   − ∂µ ℓ ∂ µ ℓ −   ℓ − ℓ ,
+                                           2             2    4!
+                                                 !
+                 γ2t [ℓ]                   m̃2 4
+                               Z
+                                    4
+                           =       d x         ℓ ,                                    (19)
+                 M2                       8M 2
+                                                                             !
+                 γ4t [ℓ]                     m̃2 2              glh m̃2 6
+                               Z
+                                    4                     µ
+                           =       d x    −      ℓ ∂µ ℓ ∂   ℓ −         ℓ .
+                 M4                         2M 4                16M 4
+
+     These expressions for γ t [ℓ] also have a simple representation in terms of Feyn-
+
+man graphs. All of the M -dependent terms may be obtained by summing con-
+
+nected tree diagrams having only ℓ particles as external lines and only h particles
+
+for internal lines, and then Taylor expanding all of the h propagators in powers
+
+of 1/M . The graphs of this type which contribute up to and including O(1/M 6 )
+
+are given explicitly in Fig. (2).
+
+     This calculation brings out several noteworthy points:
+
+• Decoupling: All of the M dependence in γ t [ℓ] vanishes as M → ∞, reflecting
+
+(at tree level) the general result that particles decouple from low-energy physics
+
+in the limit that their mass becomes large.
+
+• Truncation: The only part of γ t [ℓ] which survives as M → ∞ consists of
+
+those terms in the classical action which are independent of the heavy field, h.
+
+That is, at tree level γ0t [ℓ] is obtained from the classical action, S[ℓ, h], simply by
+
+truncating it to h = 0: γ0t [ℓ] = S[ℓ, 0]. Notice that this relies on two assumptions:
+
+the absence of M 3 H terms in the potential, and the condition m̃ ≪ M . (Even
+            t
+though h (ℓ) would still vanish like 1/M if m̃ were O(M ), this is not enough to
+                                                 t
+ensure the vanishing of terms like M 2 (h )2 . This latter condition often breaks
+Effective Field Theories                                                                        13
+
+down in supersymmetric theories (7).)
+
+• Locality: Although the exact expression for ht (ℓ), and hence for γ t [ℓ], involves
+                                                                    −1
+nonlocal quantities such as G(x, x′ ) = hx| − + M 2                       |x′ i, the entire result
+
+becomes local once these are expanded in powers of 1/M because of the locality
+
+of propagators in this limit:
+                                    "         ′
+                                                  #
+                              d4 p eip(x−x )   1
+                         Z                                                
+                    ′
+            G(x, x ) =            4 2      2
+                                             =   +   + · · · δ4 (x − x′ ).                    (20)
+                             (2π) p + M        M2 M4
+
+This locality is ultimately traceable to the uncertainty principle. The key obser-
+
+vation is that the M -dependent interactions in γ[ℓ] express the effects of virtual
+
+heavy particles whose energies Eh ≥ M , are much higher than those of any of
+
+the light particles whose scatterings are under consideration in the low-energy
+
+limit. Indeed, it is precisely the high energy of these particles which precludes
+
+their being inadvertently produced as real final-state particles in any low-energy
+
+scattering process, and so guarantees that they only mediate transitions amongst
+
+the light-particle states.
+
+  But the virtual contribution of heavy particles to low-energy processes can
+
+nevertheless occur within perturbation theory because the uncertainty principle
+
+permits the violation of energy conservation required for their production, pro-
+
+vided it takes place only over short enough times, ∆t <
+                                                      ∼ 1/∆Eh <
+                                                              ∼ 1/M . As
+
+a consequence, from the low-energy perspective the influence of heavy particles
+
+appears to be instantaneous (i.e. local in time). The uncertainty principle simi-
+
+larly relates the momentum required to produce heavy virtual particles with the
+
+distances over which they can travel, thereby making their influence also local in
+
+space.3
+   3
+       We assume a relativistic dispersion relation, E 2 = p2 +m2 , so states having large momentum
+
+also have high energy, and must therefore be excluded from the low-energy theory.
+14                                                                       Effective Field Theories
+
+     The influence at low energies, E, of very massive particles, M ≫ E, can
+
+therefore generically be reproduced to a fixed order in E/M by local interactions
+
+involving only the particles which are present at low energies. It is precisely this
+
+locality which makes possible the construction of a low-energy effective theory
+
+which accurately describes these virtual effects.
+
+•Redundant interactions: At face value eq. (19) is not precisely the same as the
+
+effective potential, V (4) + V (6) , encountered in eqs. (5) and (6) of the introduc-
+
+tion. This apparent difference is illusory, however, because the difference can be
+
+removed simply by performing a field redefinition.
+
+     To see how this works, suppose we have an action, S[φi ], given as a series in
+
+some small parameter ε:
+
+
+                      S[φi ] = S0 [φi ] + ε S1 [φi ] + ε2 S2 [φi ] + · · · ,                (21)
+
+
+where ε could be a small loop-counting parameter or a small energy ratio, E/M .
+
+Suppose also that somewhere amongst the interactions which appear in the O(εn )
+
+contribution, Sn [φi ], there is a term, SnR [φi ], which vanishes when the fields, φi
+
+are chosen to satisfy the equations of motion for the lowest-order action, S0 [φi ].
+
+In equations:
+                                                              δS0
+                                          Z
+                              SnR [φ] =       d4 x f i (x)           ,                      (22)
+                                                             δφi (x)
+
+where the coefficients f i (x) are ultra-local functions of the fields and their deriva-
+
+tives at the spacetime point x.
+
+     The claim is that, to order εn , any such interaction, SnR [φi ], can be removed by
+
+performing a field redefinition without altering any of the other terms at lower
+
+or equal order, and so can have no physical consequences. The required field
+Effective Field Theories                                                                                                             15
+
+redefinition is:
+
+                                       φi (x) → φ̃i (x) = φi (x) − εn f i (x),                                                      (23)
+
+since under this redefinition the O(εn ) terms in the action vary into:
+
+                                                                                                    δS0
+                                                                      Z
+                   i
+             S[φ ] → S[φ̃ ] = S[φ ] − εi                 i        n
+                                                                          d4 x f i (x)                     + O(εn+1 ).              (24)
+                                                                                                   δφi (x)
+
+Clearly, to O(εn ) the sole effect of this redefinition is simply to cancel SnR [φi ].
+
+  Applying this reasoning to γ[ℓ], above, notice that integrating by parts gives
+
+                                                                                      1
+                                       Z                                                  Z
+                                               d4 x ℓ2 ∂µ ℓ ∂ µ ℓ = −                         d4 x ℓ3       ℓ,                      (25)
+                                                                                      3
+
+and so using the lowest-order equations of motion for ℓ derived from γ0t [ℓ] – i.e.
+
+  ℓ = m2 ℓ + gl ℓ3 /3! – implies
+
+                                                  1                                                    gl
+                       Z                                                  Z                                      
+                                   4           2
+                               d x ℓ ∂µ ℓ ∂ ℓ = −       µ
+                                                                              d x     4
+                                                                                                  m ℓ + ℓ6 .
+                                                                                                   2 4
+                                                                                                                                    (26)
+                                                  3                                                    3!
+
+Using this in eq. (19) reproduces the potential of eqs. (5) and (6).
+
+ 2.1.4    One-loop calculation:                                       More can be learned by examining some
+
+of the subdominant terms in the loop expansion for γ[ℓ].
+
+  At face value keeping one-loop corrections changes γ[ℓ] in two different ways:
+
+through the one-loop corrections to the functional form of Γ[ℓ, h]; and through the
+
+corrections that these imply for the stationary point, h(ℓ). In practice, however,
+
+the correction to h(ℓ) does not contribute to γ[ℓ] at one loop. To see this use the
+                                                                                          t        1−loop
+expansions Γ = Γt + Γ1−loop + · · · and h = h + h                                                           + · · · into the definition
+
+γ[ℓ]. To one-loop order this gives
+
+                                                   1−loop                                     t
+         γ[ℓ] = Γt [ℓ, ht + h                                ] + Γ1−loop [ℓ, h ] + · · ·
+                       "                                                  !                         #
+                                                                  δΓt
+                                                   Z
+                                           t             4                                1−loop                        t
+              =                t
+                           Γ [ℓ, h ] +                 d x                            h                 + Γ1−loop [ℓ, h ] + · · ·
+                                                                  δh          h
+                                                                                  t
+
+                           t                   1−loop         t
+              = γ [ℓ] + Γ                               [ℓ, h ] + · · · ,                                                           (27)
+16                                                                      Effective Field Theories
+                                                                                   t
+where the second equality follows by expanding Γt about h = h , keeping only
+
+terms of tree and one-loop order, and the last equality uses the fact that δΓt /δh =
+                           t                                                                         t
+0 when evaluated at h , together with the tree-level result, γ t [ℓ] = Γt [ℓ, h (ℓ)].
+
+Eq. (27) states that the one-loop approximation to γ is obtained by evaluating
+                                                   t                                        t
+Γ1−loop at the tree-level configuration h : i.e. γ 1−loop [ℓ] = Γ1−loop [ℓ, h (ℓ)].
+
+     To proceed we require the one-loop contribution, Γ1−loop , which is given by:
+                                              (− + Vℓℓ )/µ2             Vℓh /µ2
+                                                                                       
+                             i                                                          ,
+             Γ1−loop [ℓ, h] = log det                                                                   (28)
+                             2                     Vℓh   /µ2       (− + Vhh      )/µ2
+where µ is an arbitrary scale required on dimensional grounds, and the matrix of
+
+second derivatives of the scalar potential is given by
+                    Vℓℓ   Vℓh
+                               
+
+        V =                    
+                    Vℓh Vhh
+                    m2 + g2l ℓ2 + g2lh h2 + m̃h                   glh ℓh + m̃ℓ
+                                                                                               
+
+            =                                                                                   . (29)
+                           glh ℓh + m̃ℓ                  M 2 + g̃h M h + g2h h2 + g2lh ℓ2
+     Evaluating the functional determinant in the usual way gives an expression
+
+which diverges in the ultraviolet. For the two-scalar theory under consideration
+
+these divergences only appear (at one loop) in that part of Γ[ℓ, h] which does
+
+not depend on derivatives of ℓ or h (i.e. the scalar ‘effective potential’). If the
+
+divergent terms are written Γdiv = − d4 x Vdiv , then Vdiv is:
+                                               R
+
+
+                        1                       1
+                                                                                       
+             Vdiv =         C + (Vℓℓ + Vhh )Λ2 − (Vℓℓ2 + Vhh
+                                                          2       2
+                                                             + 2Vℓh )L                                   (30)
+                      32π 2                     2
+
+where C is a field-independent, divergent constant, and L = log Λ2 /µ2 . Λ is
+                                                                                                 
+
+
+an ultraviolet cutoff which has been used to regulate the theory, and which is
+
+assumed to be sufficiently large compared to all other scales in the problem that
+
+all inverse powers of Λ can be neglected.
+
+     Alternatively, using dimensional regularization instead of an ultraviolet cutoff
+
+leads to the same expressions as above, with two changes: (i) all of the terms
+Effective Field Theories                                                                                17
+
+proportional to C or to Λ2 are set to zero, and (ii) the logarithmic divergence is
+
+replaced by L → 2/(4− n) = 1/ε, where n = 4− 2ε is the dimension of spacetime.
+
+  All of the divergences can be absorbed into renormalizations of the parameters
+
+of the lagrangian, by defining the following renormalized couplings:
+
+                        1                                       1
+                                                                                   
+      AR = A0 +                 C + (M 2 + m2 )Λ2 − (M 4 + m4 ) L ,
+                      32π 2                                     2
+                        1     h
+                                                     2       2              3
+                                                                                    i
+      BR =     B0 +            ( m̃  +  g̃h  M  )Λ     − (m    m̃ +  g̃h M    )  L    ,
+                      32π 2
+                         1 h                                                                 i
+     m2R =     m2 +             (g l +  g  lh )Λ 2
+                                                    −  (gl m 2
+                                                               +  glh M   2
+                                                                            +   2 m̃  2
+                                                                                        )  L   ,        (31)
+                      32π 2
+                         1 h                                                                        i
+     MR2 =     M2 +              (g h +   g lh )Λ  2
+                                                      −   glh m 2
+                                                                  +  (g  h +  g̃h
+                                                                                 2
+                                                                                   )M    2
+                                                                                           +   m̃ 2
+                                                                                                     L ,
+                       32π 2
+                        1
+     m̃R =     m̃ −         (gl m̃ + glh g̃h M + 4glh m̃) L,
+                     32π 2
+                        3            m̃
+                                                     
+   (g̃h )R =   g̃h −            glh       + gh g̃h L
+                     32π 2           M
+                       3
+    (gl )R =   gl −         (g2 + glh 2
+                                          )L
+                     32π 2 l
+                        3
+   (gh )R =    gh −          (g2 + glh 2
+                                            )L
+                     32π 2 h
+                         1
+   (glh )R =   glh −          (gl + gh + 4glh )glh L.
+                      32π 2
+
+  In these expressions A0 and B0 are the coefficients of the terms A + Bh which
+
+do not appear in the classical potential, but which are not forbidden by any sym-
+
+metries. By not including such terms in the classical potential we are implicitly
+
+choosing A0 and B0 to satisfy the renormalization condition AR = BR = 0, which
+
+can be ensured by appropriately shifting the renormalized fields. Similarly, the
+
+assumed heirarchy of masses between the light field, ℓ, and the heavy field, h,
+
+assumes the renormalized quantities satisfy mR , m̃R ≪ MR . Notice that these
+
+conditions are ‘unnatural’ in that they require that large O(M ) renormalization
+
+corrections must be cancelled by the bare quantities A0 , B0 , m and m̃, in addi-
+
+tion to the cancellation of any divergent parts. In what follows we assume that
+
+this renormalization has been performed, and that all parameters which appear
+18                                                                              Effective Field Theories
+
+in expressions are the renormalized quantities — even though the subscript ‘R’
+
+is not explicitly written.
+
+     Once this renormalization has been performed the remaining expression is finite
+
+and its dependence on the heavy mass scale, M , can be identified. As for the tree-
+
+level analysis, it is convenient to organize γ 1−loop [ℓ] into an expansion in powers
+
+of 1/M . A new feature which arises at one loop is that the dominant term in this
+
+expansion now varies as M 4 log M rather than as M 0 when M → ∞. We therefore
+                   1−loop        1−loop        1−loop
+write: γ 1−loop = γ−4     M 4 + γ−2     M 2 + γ−1     M + γ01−loop + γ21−loop /M 2 + · · ·.
+
+     It turns out that those terms in γ 1−loop [ℓ] which involve derivatives of ℓ first
+
+appear at order 1/M 2 in this expansion.4 To identify all of the terms which are
+
+larger than O(1/M 2 ) it therefore suffices to work only with the effective scalar
+
+potential. After performing the renormalizations indicated in eqs. (31), the one-
+
+loop result for the scalar potential becomes:
+
+                                     1                            V+                           V−
+                                           Z                                                    
+                  1−loop
+                 γpot    [ℓ] = −               d4 x V+2 log                + V−2 log                     ,   (32)
+                                   64π 2                          µ2                           µ2
+
+where V± denotes the two eigenvalues of the matrix V, which are given explicitly
+
+by:
+                                 1
+                                                q                                         
+                         V± =                                        2 .
+                                   (Vℓℓ + Vhh ) ± (Vℓℓ − Vhh )2 + 4Vℓh                                       (33)
+                                 2
+
+Our interest is in a potential for which Vhh ≫ Vℓℓ , Vℓh , and so these expressions
+
+can be simplified to:
+                                                                                   !
+                                         V2          2
+                                               Vℓℓ Vℓh                        1
+                            V+    ≈ Vhh + ℓh +     2   +O                      3       ,
+                                         Vhh    Vhh                          Vhh
+                                                                                   !
+                                         V2          2
+                                               Vℓℓ Vℓh                        1
+                            V−    ≈ Vℓℓ − ℓh −     2   +O                      3       ,                     (34)
+                                         Vhh    Vhh                          Vhh
+     4
+         This result is a special feature of the two-scalar system at one loop. At two loops, or at one
+
+loop for other systems, kinetic terms like ∂µ ℓ ∂ µ ℓ can appear proportional to logarithms of M .
+Effective Field Theories                                                                                                          19
+
+and:
+
+                             1                                          Vhh                        Vℓℓ
+                                   Z                                                                 
+ 1−loop
+γpot    [ℓ] = −                         d4 x Vhh
+                                              2
+                                                 log                              + Vℓℓ2 log                                     (35)
+                           64π 2                                        µ2                         µ2
+                                                                                                                                 !)
+                                        
+                                                      Vhh
+                                                                                    2
+                                                                                2Vℓℓ Vℓh     Vhh
+                                                                                                            
+                                                                                                                            1
+                                2
+                             +Vℓh           1 + 2 log                         +          log                     +O          2        .
+                                                      µ2                          Vhh        Vℓℓ                           Vhh
+
+  Using the explicit expressions given above for the scalar potential, and evalu-
+                                        t
+ating the result at h = h (ℓ), the first few terms of the 1/M expansion at one
+
+loop are given by:
+                                                                !Z
+        1−loop                 M4                       M2
+   M 4 γ−4                = −       log                                 d4 x,
+                              64π 2                     µ2
+                                             "                      !         #Z
+     1−loop                    M2                        M2               1
+M 2 γ−2     [ℓ]           = −                    log                    +           d4 x glh ℓ2 ,                                (36)
+                              64π 2                      µ2               2
+                                             "                      !         #Z
+    1−loop                     M                         M2               1
+ M γ−1     [ℓ]            = +                    log                    +           d4 x g̃h m̃ ℓ2 ,
+                              64π 2                      µ2               2
+                                                        "                               !                    !
+                                1
+                                            Z                    2
+                                                                glh                                 M2
+           γ01−loop       = −                    d x4
+                                                                    ℓ4 + 2m̃2 ℓ2 log
+                              64π 2                              4                                  µ2
+                                                                                                                      g2
+                                                                                               !2                           
+                                        3g2                   g2                                          m2 + 2l ℓ2
+                                       + lh ℓ4 + m̃2 ℓ2 + m2 + l ℓ2                                 log              .
+                                         8                     2                                             µ2
+
+  We see that this shares two of the crucial properties of the tree-level result:
+
+•Decoupling: Notice that — superficially — the effects of the heavy particle no
+
+longer appear to vanish as M → ∞. However, all of the terms which grow as M
+
+grows have the same form as does the classical lagrangian, and so they can all be
+
+absorbed into finite renormalizations of AR , m2R and (gl )R . That is, if we define
+
+the new quantities:
+                                                        !
+       ′            M4                          M2
+  AR        = AR +       log
+                   64π 2                        µ2
+                                   (                                    "                          !#                            !)
+                     1                                      m̃                               M2                             M2
+                                                
+   2 ′                2                     2                                                                    2
+(mR )       = mR +                     M          glh − g̃h                   1 + 2 log                  + 4m̃ log
+                   64π 2                                    M                                µ2                             µ2
+                                                            !
+       ′
+                          2
+                       3 glh                        M2
+(gl )R      = (gl )R +       log                                ,                                                                 (37)
+                       32π 2                        µ2
+20                                                                       Effective Field Theories
+
+then the one-loop contribution, γ 1−loop [ℓ], to the 1LPI generator becomes:
+                                         "
+                        1
+                              Z                2
+                                             3glh
+     γ 1−loop [ℓ] = −             d4 x            ℓ4 + m̃2 ℓ2                                   (38)
+                      64π 2                   8
+                                                     !2                       !
+                                         g2                         m2 + 12 gl2 ℓ2     1
+                                                                                               
+                                  + m 2 + l ℓ2            log             2
+                                                                                   +O              ,
+                                          2                             µ              M
+
+where m2 represents (m2R )′ , and so on.
+
+     Clearly, after such renormalizations are performed, all of the remaining M
+
+dependence vanishes in the limit M → ∞. Provided the values of renormalized
+
+couplings are in any case inferred from experiment, all of the physical effects of
+
+the heavy particle really are suppressed for large M , ensuring the heavy particle
+
+does decouple from physical observables.
+
+•Locality: Since the one-loop action, γ 1−loop [ℓ], is the integral over spacetime of a
+
+quantity which is evaluated at a single spacetime point when expanded in inverse
+
+powers of M , it shares the locality of the classical result. The underlying source
+
+of this locality is again the uncertainty principle, which precludes violations of
+
+energy and momentum conservation over large distances – a result which hinges
+
+on our keeping only states that are defined by their low energy.
+
+
+2.2     The Wilson action
+
+We next reorganize the same calculation, with the goal of making the M de-
+
+pendence of physical results manifest from the outset. To this end, suppose we
+
+start from the path-integral expression for the 1LPI generating functional, γ[ℓ],
+
+derived as eq. (13) above,
+                 n    o       Z                     Z          h                  i
+                                                           4
+             exp iγ[ℓ] =          Dl DH exp i             d x L(ℓ + l, H) + jl          ,       (39)
+
+
+with the external current, j, regarded as being defined by j[ℓ] = −δγ[ℓ]/δℓ. No
+
+similar current is coupled to the heavy field, H, in eq. (39) since our attention
+Effective Field Theories                                                                   21
+
+is restricted to low-energy processes for which no heavy particles appear in the
+
+initial or final states.
+
+2.2.1     The Wilson action:               Now imagine schematically dividing the func-
+
+tional integral into its low-energy and high-energy parts, Dl DH = [Dl]l.e. [Dl DH]h.e. ,
+
+relative to some arbitrary intermediate scale, λ. (For instance, this might be done
+
+by requiring high-energy modes to satisfy p2 + m2 > λ2 in Euclidean signature.)
+
+Using this distinction between low- and high-energy modes it becomes possible to
+
+perform the functional integration over — or to ‘integrate out’ — the high-energy
+
+modes once and for all:
+
+                   n    o    Z                 Z                                 
+                                                      4
+            exp iγ[ℓ] =          [Dl]l.e. exp i     d x [LW (ℓ + ll.e. ) + jll.e. ] ,     (40)
+
+
+                   d4 x LW is called the Wilson action, and is defined as the result of
+               R
+where SW =
+
+performing the high-energy part of the functional integral:
+
+           n                o     Z                       n                           o
+        exp iSW [ℓ + ll.e. ] =        [Dl DH]h.e. exp iS [ℓ + ll.e. , lh.e. , Hh.e. ] .   (41)
+
+
+Eqs. (40) and (41) are the central definitions from which the calculation of γ[ℓ] à
+
+la Wilson proceed.
+
+  There are two points about these last expressions which bear special emphasis.
+
+Notice first that LW appears in eq. (40) in precisely the same way as would the
+
+classical lagrangian in a theory for which no heavy field existed. Consequently,
+
+once LW is known it may be used to compute γ[ℓ] in the usual way: one must sum
+
+over all 1LPI vacuum Feynman graphs using the interactions and propagators for
+
+the light fields which are dictated by the effective lagrangian density, LW .
+
+  The second point — which is what makes eq. (40) so useful — is that because
+
+LW is computed by integrating only over high-energy modes, the uncertainty
+
+principle guarantees that it is local once it is expanded in inverse powers of the
+22                                                           Effective Field Theories
+
+heavy scales. Consequently, to the extent that we work only to a fixed order in
+
+this expansion, we need not worry that eq. (41) will generate arbitrary non-local
+
+interactions.
+
+ 2.2.2     The physics of renormalization:             Eqs. (40) and (41) share an-
+
+other beautiful feature. Although the Wilson action depends explicitly on the
+
+scale λ which is used in its definition, this dependence always drops out of any
+
+physical observables. It must drop out since it only arises from our choice to
+
+perform the calculation in two steps: first integrating modes heavier than λ, and
+
+then integrating the lighter modes.
+
+     In detail, this cancellation arises because λ enters into the low-energy part of
+
+the calculation in two ways. The first way is through the explicit λ dependence
+
+of all of the couplings of the Wilson action, SW . However, λ also enters because
+
+all of the contributions of virtual particles in the low-energy theory have their
+
+momenta cutoff at the scale λ. The λ dependence of the couplings in SW is just
+
+what is required to cancel the λ’s which enter through the cutoff.
+
+     This entire discussion of λ-cancellation induces a strong sense of déja vu, be-
+
+cause it exactly parallels the traditional renormalization programme wherein the
+
+regularization dependence of divergent loop integrals are cancelled by introduc-
+
+ing regularization-dependent interactions (or counter-terms) into the classical ac-
+
+tion, S. This similarity makes it irresistible to regard the original classical action,
+
+S[l, H], as itself being the Wilson action for a yet more fundamental theory which
+
+applies at still higher energies, above the cutoff Λ. Any such Wilson action would
+
+be used to compute physical observables in precisely the same way as one tradi-
+
+tionally uses the classical action, including the renormalization of all couplings
+
+to cancel the cutoff dependence of all observable quantities. The great benefit of
+Effective Field Theories                                                         23
+
+adopting this point of view is the insight it gives into the physical nature of this
+
+cancellation.
+
+ 2.2.3   The dimensionally regularized Wilson action:                  The Wilson
+
+action defined with an explicit cutoff is somewhat cumbersome for practical cal-
+
+culations, for a variety of reasons. Cutoffs make it difficult to keep the gauge
+
+symmetries of a problem manifest when there are spin-one gauge bosons (like
+
+photons) in the problem. Cutoffs also complicate our goal of following how the
+
+heavy scale, M , appears in physically interesting quantities like γ[ℓ], because
+
+they muddy the dimensional arguments used to identify which interactions in SW
+
+contribute to observables order-by-order in 1/M .
+
+  It is much more convenient to use dimensional regularization, even though
+
+dimensional regularization seems to run counter to the entire spirit of a low-energy
+
+action by keeping momenta which are arbitrarily high. This is not a problem in
+
+practice, however, because the error we make by keeping such high-momentum
+
+modes can itself always be absorbed into an appropriate renormalization of the
+
+effective couplings. This is always possible precisely because our ‘mistake’ is
+
+to keep high-energy modes, whose contributions at low energies can always be
+
+represented using local effective interactions. Whatever damage we do by using
+
+dimensional regularization to define the low-energy effective action can always be
+
+undone by appropriately renormalizing our effective couplings.
+
+  We are led to the following prescription for defining a dimensionally-regularized
+
+effective action in the two-scalar toy model. First dimensionally regulate the full
+
+theory involving both fields l and H, using for convenience the mass-independent
+
+M S renormalization scheme. At one loop this amounts to renormalizing as in
+
+eqs. (31), but with all of the quartically and quadratically divergent terms set to
+24                                                                 Effective Field Theories
+
+zero, and substituting L → 1/ε + k in the logarithmically divergent terms, where
+
+k = γ − log(4π) and γ = 0.577 215 · · · is the Euler-Mascherelli constant.
+
+     Next define the effective theory to include only the light field l, also regulated
+
+using dimensional regularization. However rather than using minimal subtraction
+
+in the effective theory we instead renormalize the effective couplings by demand-
+
+ing that they successfully reproduce the low-energy limit of the full theory, using
+
+for this purpose any convenient set of observables. Once this matching calculation
+
+has been done, the resulting effective theory can be used to compute any other
+
+quantities as required. This construction is best understood using the concrete
+
+example of the two-scalar model.
+
+2.2.4      Tree-Level Calculation:                Imagine computing both γ and LW within
+
+the loop expansion: γ = γ t + γ 1−loop + · · · and LW = LtW + L1−loop
+                                                               W      + · · ·. At
+
+                                                       d4 x LW , and the 1LPI generator, γ,
+                                                   R
+tree level the distinction between SW =
+
+completely degenerates. This is because the tree approximation to γ[ℓ] is simply
+
+obtained by evaluating the integrands of eqs. (40) and (41) at the classical saddle
+
+point. In the present case this implies that γ t is simply given by evaluating LtW
+
+at l = ℓ, leading to:
+                                             Z
+                                 γ t [ℓ] =       d4 x LtW (ℓ).                         (42)
+
+     Similarly, evaluating the path integral expression of eq. (41) to obtain LW in
+
+the tree approximation entails evaluating the classical action at the saddle point
+                      t
+l = ℓ and H = h (ℓ). Graphically, this gives the tree-level Wilson action as
+
+the sum over all tree graphs which have only heavy particles propagating in their
+
+internal lines, and only light particles for external lines. Retracing the steps taken
+
+in previous sections to compute γ[ℓ] at tree level gives an explicit expression for
+Effective Field Theories                                                                           25
+             t
+LtW = L(ℓ, h (ℓ)):
+                                                                         !
+                     1             m2 2                   gl   m̃2
+          LtW (ℓ) = − ∂µ ℓ ∂ µ ℓ −   ℓ −                     −               ℓ4                   (43)
+                     2             2                      4! 8M 2
+                                         !                                   !
+                                   m̃2       2                     glh m̃2
+                                −                     µ
+                                             ℓ ∂µ ℓ ∂ ℓ −                        ℓ6 + · · · ,
+                                  2M 4                             16M 4
+                                                                                         !
+                          1             m2 2              gl   m̃2   m2 m̃2
+                       = − ∂µ ℓ ∂ µ ℓ −   ℓ −                −     −                         ℓ4   (44)
+                          2             2                 4! 8M 2    6M 4
+                                                          !
+                                  glh m̃2   gl m̃2
+                                −         −                   ℓ6 + · · · ,
+                                  16M 4     36M 4
+
+where the freedom to redefine fields has been used, and ellipses represent terms
+
+which are higher order in 1/M than are those displayed. This result also could
+
+be obtained by asking what local lagrangian involving only light fields reproduces
+
+the 2-body and 3-body scattering of the full theory to O(1/M 4 ).
+
+2.2.5    One-Loop Calculation:                   At one loop many of the nontrivial fea-
+
+tures of the Wilson action emerge for the first time. As usual we assume the
+
+renormalized dimensional parameters which ensure the hierarchy of scales in the
+
+two-scalar model satisfy m ∼ m̃ ≪ M .
+
+  The most general possible Wilson action which is local and consistent with the
+
+symmetry ℓ → −ℓ is
+
+                                a2 2 a4 4 1
+                   Z                                                                      
+                        4
+      SW [ℓ] = −       d x a0 +   ℓ +    ℓ + (1 + b2 ) ∂µ ℓ ∂ µ ℓ + · · · ,                       (45)
+                                2     4!    2
+
+where ellipses denote higher-dimension interactions and the constants ak , bk , etc.
+
+to be determined by matching to the full theory, as is now described.
+
+  For simplicity we specialize to matching to O(M 0 ), since this allows us to
+
+specialize to background configurations for which ℓ is spacetime independent —
+
+i.e. ∂µ ℓ = 0. The only effective couplings which are relevant in this case (more
+
+about this in the next section) are a0 , a2 and a4 , and it is convenient to determine
+
+these by requiring the one-loop result for γ 1−loop [ℓ], computed using SW , agrees
+26                                                                                  Effective Field Theories
+
+with the result computed with the full theory, to O(M 0 ).
+
+     The previous section gives the one-loop calculation in the full theory to this
+                                                    t
+order as eq. (35), evaluated at h = h (ℓ) = −(m̃/2M 2 ) ℓ2 + O(1/M 4 ). This gives
+ 1−loop
+        [ℓ] = − d4 x V 1−loop , with V 1−loop as given in eq. (36):
+                   R
+γpot
+                                       (                         !
+              1−loop             1          4            M2
+          V            (ℓ) =               M log
+                               64π 2                     µ2
+                                                                               "           !            #
+                                            2                              2          M2         1 2
+                                 + (glh M − g̃h m̃M + 2m̃ ) log                                +   ℓ
+                                                                                      µ2         2
+                                        "                    !       #
+                                   g2                   M2         3 4
+                                  + l log                        +   ℓ
+                                    4                   µ2         2
+                                                                               m2 + 21 gl ℓ2
+                                                             2                                !)
+                                          gl
+                                        
+                                                2
+                                     + m + ℓ2                        log                            ,       (46)
+                                          2                                        µ2
+
+neglecting O(1/M ) terms. With ultraviolet divergences regularized in n = 4 − 2ε
+
+dimensions, and renormalized using the M S renormalization scheme, the counter-
+
+terms used to obtain this expression are those of eq. (31):
+
+                                        1
+                   AR = A0 −                 (M 4 + m4 ) L,
+                                      64π 2
+                                        1
+                   BR =        B0 −          (m2 m̃ + g̃h M 3 ) L,
+                                      32π 2
+                                         1
+                   m2R =       m2 −          (gl m2 + glh M 2 + 2m̃2 ) L,                                   (47)
+                                      32π 2
+                                         1                                        
+                  MR2 =        M2 −             glh m 2
+                                                        + (g h  + g̃h
+                                                                     2
+                                                                       )M 2
+                                                                            + m̃ 2
+                                                                                     L,
+                                       32π 2
+                                        1
+                   m̃R =       m̃ −         (gl m̃ + glh g̃h M + 4glh m̃) L,
+                                     32π 2
+                                        3           m̃
+                                                               
+                 (g̃h )R =     g̃h −           g lh     + g  g̃
+                                                           h h      L
+                                     32π 2          M
+                                       3
+                 (gl )R =      gl −         (g2 + glh2
+                                                        )L
+                                     32π 2 l
+                                        3
+                 (gh )R =      gh −          (g2 + glh2
+                                                        )L
+                                     32π 2 h
+                                         1
+                (glh )R =      glh −          (gl + gh + 4glh )glh L,
+                                      32π 2
+
+with L = 1/ε + k.
+
+     Repeating the same calculation using the Wilson action, eq. (45), instead leads
+Effective Field Theories                                                                                27
+
+to:
+                                                                      â2 + â24 ℓ2
+                                                           2                         !
+                                    1             â4 2
+                                          
+                       1−loop
+                     Veff     =             â2 +    ℓ          log                       ,            (48)
+                                  64π 2            2                       µ2
+
+where â2 = a2 /(1+ b2 ) ≈ a2 (1− b2 + · · ·) and â4 = a4 /(1+ b2 )2 ≈ a4 (1− 2b2 + · · ·).
+
+Here the constants ak have been renormalized in the effective theory, being related
+
+to the bare couplings by expressions similar to eq. (47):
+
+                                                      a22
+                                   (a0 )R = a0 −            L,
+                                                     64π 2
+                                                     a4 a2
+                                   (a2 )R     = a2 −        L,                                         (49)
+                                                     32π 2
+                                                      3 a24
+                                   (a4 )R     = a4 −        L.
+                                                     32π 2
+
+  The constants ak are now fixed by performing the UV-finite renormalization
+
+required to make the two calculations of V t + V 1−loop agree. The bk are similarly
+
+determined by matching the two-derivative terms in γ 1−loop , and so on. (For the
+
+scalar model under consideration this gives b2 = 0 to the order of interest, since
+
+a single H loop first contributes to the ∂µ ℓ ∂ µ ℓ term at O(1/M 2 ).) Requiring the
+
+                     t = a + 1 a ℓ2 + 1 a ℓ4 , to capture the terms in V 1−loop
+tree contribution, Veff   0  2 2      4! 4
+
+                       1−loop
+which are missing in Veff     gives the required effective couplings in the Wilson
+
+action:
+                                                       !
+                           1                    M2
+               ′
+          (a0 )R    = A+       M 4 log
+                         64π 2                  µ2
+                                                                         "                    !    #
+                             1                                                        M2
+          (a2 )′R   = m2 +       (glh M 2 − g̃h m̃M + 2m̃2 ) 2 log                                +1
+                           64π 2                                                      µ2
+                                    "              !        #
+               ′           3 gl2              M2         3
+          (a4 )R    = gl +           log               +   .                                           (50)
+                           32π 2              µ2         2
+
+  Such finite renormalizations, arising as a heavy particle is integrated out, are
+
+called threshold corrections, and it is through these that the explicit powers of M
+
+get into the low-energy theory in dimensional regularization. (Notice also that
+
+the coefficients of M 2 in these expressions need not agree with those of Λ2 in a
+28                                                                Effective Field Theories
+
+cutoff low-energy theory, revealing the fallacy of using quadratic divergences in
+
+an effective theory to track heavy-mass dependence (8).)
+
+
+
+3     Power counting
+
+
+As is clear from the two-scalar model, effective lagrangians typically involve po-
+
+tentially an infinite number of interactions corresponding to the ultimately infinite
+
+numbers of terms which can arise once the M -dependence of physical observables
+
+is expanded in powers of 1/M . If it were necessary to deal with even a large
+
+number of these terms there would be no real utility in using them in practical
+
+calculations.
+
+     The most important part of an effective-lagrangian analysis is therefore the
+
+identification of which terms in Leff are required in order to compute observables
+
+to any given order in 1/M , and this is accomplished using the power-counting
+
+rules of this section.
+
+
+3.1      A class of effective interactions
+
+To keep the discussion interestingly general, in this section we focus on a broad
+
+class of effective lagrangians that can be written in the following way:
+
+                                           X ck             φ
+                                                            
+                                       4
+                            Leff = f                  Ok      .                      (51)
+                                           k
+                                               M dk         v
+
+In this expression, φ is meant to generically represent the fields of the problem,
+
+which for simplicity of presentation are taken here to be bosons and so to have the
+
+canonical dimension of mass, using fundamental units for which h̄ = c = 1. (The
+
+generalization to more general situations, including fermions, is straightforward.)
+
+The quantities f , v and M are all constants also having the dimensions of mass.
+
+The index ‘k’ runs over all of the labels of the various effective interactions which
+Effective Field Theories                                                              29
+
+appear in Leff , and which are denoted by Ok , and which are assumed to have
+
+dimension (mass)dk . Since the ratio φ/v is dimensionless, all of this dimension is
+
+carried by derivatives, ∂φ. As a result, dk simply counts the number of derivatives
+
+which appear in the effective interaction, Ok .
+
+
+3.2     Power-counting rules
+
+Imagine now computing Feynman graphs using these effective interactions, with
+
+the goal of tracking how the result depends on the scales f , v and M , as well as
+
+the mass scale, m, of the low-energy particles. Consider in particular a graph,
+
+AE (q), involving E external lines whose four-momenta are collectively denoted by
+
+q. Suppose also that this graph has I internal lines and Vik vertices. The labels i
+
+and k indicate two of the properties of the vertices: with i counting the number
+
+of lines which converge at the vertex, and k counting the power of momentum
+
+which appears in the vertex. Equivalently, i counts the number of powers of the
+
+fields, φ, which appear in the corresponding interaction term in the lagrangian,
+
+and k counts the number of derivatives of these fields which appear there.
+
+3.2.1    Some useful identities:              The positive integers, I, E and Vik , which
+
+characterize the Feynman graph in question are not all independent since they
+
+are related by the rules for constructing graphs from lines and vertices. One such
+
+a relation is obtained by equating the two equivalent ways of counting the number
+
+of ends of internal and external lines in a graph. On one hand, since all lines end
+
+at a vertex, the number of ends is given by summing over all of the ends which
+
+appear in all of the vertices:       ik i Vik .   On the other hand, there are two ends
+                                 P
+
+
+for each internal line, and one end for each external line in the graph: 2I + E.
+30                                                                            Effective Field Theories
+
+Equating these gives the identity which expresses the ‘conservation of ends’:
+
+                               X
+                    2I + E =          i Vik ,           (Conservation of Ends).                    (52)
+                                ik
+
+     A second useful identity defines of the number of loops, L, for each (connected)
+
+graph:
+                                        X
+                      L=1+I −                   Vik ,       (Definition of L).                     (53)
+                                           ik
+
+This definition doesn’t come out of thin air, since for graphs which can be drawn
+
+on a plane it agrees with the intuitive notion of the number of loops in a graph.
+
+ 3.2.2     Estimating integrals:                    Reading the Feynman rules from the la-
+
+grangian of eq. (51) shows that the vertices in the Feynman graph of interest
+
+contribute a factor
+                                       "                                          !#Vik
+                                                                             f4
+                                                                    k
+                                                                p
+                                                            
+                                                    4 4
+                                Y
+                   (Vertex) =              i(2π) δ (p)                                    ,        (54)
+                                 ik
+                                                                M            vi
+
+where p generically denotes the various momenta running through the vertex.
+
+     Similarly, each internal line contributes the additional factors:
+                                       "                                 !                #I
+                                                     d4 p       M 2 v2          1
+                                                Z
+                (Internal Line) = −i                                                           ,   (55)
+                                                    (2π)4        f4          p + m2
+                                                                              2
+
+
+where, again, p denotes the generic momentum flowing through the line. m
+
+denotes the mass of the light particles which appear in the effective theory, and it
+
+is assumed that the kinetic terms which define their propagation are those terms
+
+in Leff involving two derivatives and two powers of the fields, φ.
+
+     As usual for a connected graph, all but one of the momentum-conserving delta
+
+functions in eq. (54) can be used to perform one of the momentum integrals in
+
+eq. (55). The one remaining delta function which is left after doing so depends
+
+only on the external momenta, δ4 (q), and expresses the overall conservation of
+
+four-momentum for the process. Future formulae are less cluttered if this factor
+Effective Field Theories                                                                           31
+
+is extracted once and for all, by defining the reduced amplitude, A, by
+
+
+                                     AE (q) = i(2π)4 δ4 (q) AE (q).                              (56)
+
+
+  The number of four-momentum integrations which are left after having used
+                                                                                P
+all of the momentum-conserving delta functions is then I −                        ik Vik + 1 = L. This
+
+last equality uses the definition, eq. (53), of the number of loops, L.
+
+  In order to track how the result depends on the scales in Leff it is convenient
+
+to estimate the results of performing the various multi-dimensional momentum
+
+integrals using dimensional analysis. Since these integrals are typically ultraviolet
+
+divergent, they must first be regulated, and this is where the use of dimensional
+
+regularization pays off. The key observation is that if a dimensionally regulated
+
+integral has dimensions, then its size is set by the light masses or external mo-
+
+menta which appear in the integrand. That is, dimensional analysis applied to a
+
+dimensionally-regulated integral implies
+                                          A                            2A
+                                   dn p            pB               1
+                  Z         Z                                 
+                      ···                                  ∼                  mnA+B−2C ,         (57)
+                                  (2π)n        (p2 + m2 )C         4π
+
+with a dimensionless prefactor which depends on the dimension, n, of spacetime,
+
+and which may be singular in the limit that n → 4. Here m represents the
+
+dominant scale which appears in the integrand of the momentum integrations. If
+
+the light particles appearing as external states in AE (q) should be massless, or
+
+highly relativistic, then the typical external momenta, q, are much larger than
+
+m, and m in the above expression should be replaced by q.5 q is used as the light
+
+scale controlling the size of the momentum integrations in the formulae quoted
+
+below.
+   5
+       Any logarithmic infrared mass singularities which may arise in this limit are ignored here,
+
+since our interest is in following powers of ratios of the light and heavy mass scales.
+32                                                                          Effective Field Theories
+
+     With this estimate for the size of the momentum integrations, we find the
+
+following quantity appears in the amplitude AE (q)
+                                    !L    P
+                                          p ik kVik
+                                                                   2L
+                             d4 p                              1
+              Z         Z                                                          P
+                  ···                                 ∼                  q 4L−2I+     ik
+                                                                                           kVik
+                                                                                                  ,   (58)
+                            (2π)4        (p2 + q 2 )I         4π
+
+which, with liberal use of the identities (52) and (53), gives as estimate for AE (q):
+                                     E             2L          2+P         (k−2)Vik
+                                     1         Mq              q            ik
+                  AE (q) ∼ f 4                                                              .         (59)
+                                     v        4πf 2            M
+
+     This last formula is the main result, which is used in the various applications
+
+considered later. Its utility lies in the fact that it links the contributions of the
+
+various effective interactions in the effective lagrangian, (51), with the dependence
+
+of observables on small mass ratios such as q/M . Notice in particular that more
+
+and more complicated graphs – for which L and Vik become larger and larger
+
+– are only suppressed in their contributions to observables if q is much smaller
+
+than the scales M and f .
+
+     Notice also that the basic estimate, eq. (57), would have been much more
+
+difficult to do if the effective couplings were defined using a cutoff, λ, because
+
+in this case it is the cutoff which would dominate the integral, since it is then
+
+the largest external scale. But we knowing this cutoff dependence is less useful
+
+because the general arguments of the previous sections show that λ is guaranteed
+
+to drop out of any physical quantity.
+
+
+3.3      The Effective-Lagrangian Logic
+
+Power-counting estimates of this sort suggest the following general logic concern-
+
+ing the use of effective lagrangians:
+
+
+Step I Choose the accuracy (e.g. one part per mille) with which observables,
+
+        such as AE (q), are to be computed.
+Effective Field Theories                                                         33
+
+Step II Determine the order in the small mass ratios q/M or m/M that must
+
+     be required in order to achieve the desired accuracy.
+
+Step III Use the power counting result, eq. (59), to find which terms in the
+
+     effective lagrangian are needed in order to compute to the desired order in
+
+     q/M and m/M . Eq. (59) also determines which order in the loop expansion
+
+     is required for each effective interaction of interest.
+
+Step IVa Compute the couplings of the required effective interactions using the
+
+     full underlying theory. If this step should prove to be impossible, due either
+
+     to ignorance of the underlying theory or to the intractability of the required
+
+     calculation, then it may be replaced by the following alternative:
+
+Step IVb If the coefficients of the required terms in the effective lagrangian
+
+     cannot be computed then they may instead be regarded as unknown pa-
+
+     rameters which are to be taken from experiment. Once a sufficient number
+
+     of observables are used to determine these parameters, all other observables
+
+     may be unambiguously predicted using the effective theory.
+
+
+  A number of points cry out for comment at this point.
+
+• Utility of Step IVb: The possibility of treating the effective lagrangian phe-
+
+nomenologically, as in Step IVb above, immeasurably broadens the utility of
+
+effective lagrangian techniques, since they need not be restricted to situations for
+
+which the underlying theory is both known and calculationally simple. Implicit
+
+in such a program is the underlying assumption that there is no loss of gener-
+
+ality in working with a local field theory. This assumption has been borne out
+
+in all known examples of physical systems. It is based on the conviction that
+
+the restrictions which are implicit in working with local field theories are simply
+34                                                         Effective Field Theories
+
+those that follow from general physical principles, such as unitarity and cluster
+
+decomposition.
+
+• When to expect renormalizability: Since eq. (59) states that only a finite number
+
+of terms in Leff contribute to any fixed order in q/M , and these terms need appear
+
+in only a finite number of loops, it follows that only a finite amount of labour
+
+is required to obtain a fixed accuracy in observables. Renormalizable theories
+
+represent the special case for which it suffices to work only to zeroth order in
+
+the ratio q/M . This can be thought of as being the reason why renormalizable
+
+theories play such an important role throughout physics.
+
+• How to predict using nonrenormalizable theories: An interesting corollary of
+
+the above observations is the fact that only a finite number of renormalizations
+
+are required in the low-energy theory in order to make finite the predictions for
+
+observables to any fixed order in q/M . Thus, although an effective lagrangian
+
+is not renormalizable in the traditional sense, it nevertheless is predictive in the
+
+same way that a renormalizable theory is.
+
+
+
+4     Applications
+
+
+We next turn briefly to a few illustrative applications of these techniques.
+
+
+4.1    Quantum Electrodynamics
+
+The very lightest electromagnetically interacting elementary particles are the pho-
+
+ton and the electron, and from the general arguments given above we expect that
+
+the effective field theory which describes their dominant low-energy interactions
+
+should be renormalizable, corresponding to the neglect of all inverse masses heav-
+
+ier than the electron. The most general such renormalizable interactions which
+Effective Field Theories                                                        35
+
+are possible given the electron charge assignment is
+
+                                       1
+                   LQED (Aµ , ψ) = −     Fµν F µν − ψ(/
+                                                      D + me )ψ,              (60)
+                                       4
+
+where Fµν = ∂µ Aν − ∂ν Aµ gives the electromagnetic field strength in terms of the
+
+electromagnetic potential, Aµ , and the electron field, ψ, is a (four-component)
+
+Dirac spinor. The covariant derivative for the electron field is defined by Dµ ψ =
+
+∂µ ψ + ieAµ ψ, where e is the electromagnetic coupling constant.
+
+  Notice that this is precisely the lagrangian of Quantum electrodynamics (QED).
+
+In this we have the roots of an explanation of why QED is such a successful de-
+
+scription of electron-photon interactions.
+
+4.1.1   Integrating Out the Electron:              Many practical applications of
+
+electromagnetism involve the interaction of photons with macroscopic electric
+
+charge and current distributions at energies, E, and momenta, p, much smaller
+
+than the electron mass, me . As a result they fall within the purview of low-energy
+
+techniques, and so lend themselves to being described by an effective theory which
+
+is defined below the electron mass, me , as is now described.
+
+  For present purposes it suffices to describe the macroscopic charge distribu-
+
+                                                  µ , which can be considered
+tions using an external electromagnetic current, Jem
+
+as an approximate, mean-field, description of a collection of electrons in a real
+
+material. This approximation is extremely good for macroscopically large sys-
+
+tems, if these systems are only probed by electromagnetic fields whose energies
+
+are very small compared to their typical electronic energies. We take the inter-
+
+action term coupling the electromagnetic field to this current to be the lowest
+
+dimension interaction that is possible:
+
+                                            µ
+                                LJ = −e Aµ Jem .                              (61)
+36                                                              Effective Field Theories
+
+This coupling is only consistent with electromagnetic gauge invariance if the ex-
+
+                                             µ = 0, independent of any equations
+ternal current is identically conserved: ∂µ Jem
+
+of motion, and falls off sufficiently quickly to ensure that there is no current flow
+
+at spatial infinity. Two practical examples of such conserved configurations would
+
+                                               0 = ρ(r), J
+be those of (i) a static charge distribution: Jem         em = 0, or (ii) a static
+
+                     0 = 0 and J
+electrical current: Jem         em = j(r), where ρ(r) and j(r) are localized,
+
+
+time-independent distributions, satisfying ∇ · j = 0.
+
+     Our interest is in the properties of electromagnetic fields outside of such distri-
+
+butions, and of tracking in particular the low-energy effects of virtual electrons.
+
+The most general effective theory involving photons only which can govern the
+
+low-energy limit is:
+                                                      µ
+                                L4 = Leff (A) − e Aµ Jem .                         (62)
+
+where Leff may be expanded in terms of interactions having successively higher
+
+dimensions. Writing Leff = L4 + L6 + L8 + · · · we have
+
+                          Z
+               L4 = −       Fµν F µν ,                                             (63)
+                          4
+                        a                  a′
+               L6 =        2
+                             Fµν F µν + 2 ∂µ F µν ∂ λ Fλν ,
+                        me                 me
+                         b                   c
+               L8 =          (Fµν F µν )2 + 4 (Fµν F̃ µν )2 + (∂ 4 F 2 terms),     (64)
+                        m4e                 me
+
+and so on. In this expression for L8 , F̃ represents the ‘dual’ field-strength tensor,
+
+defined by F̃µν = 12 ǫµνλρ F λρ , and possible terms involving more derivatives exist,
+
+but have not been written. A power of 1/me has been made explicit in the
+
+coefficient of each term, since we work perturbatively in the electromagnetic
+
+coupling, and me is the only mass scale which appears in the underlying QED
+
+lagrangian. With this power extracted, the remaining constants, Z, a, a′ , b, c,
+
+etc., are dimensionless.
+Effective Field Theories                                                                     37
+
+  Notice that no ∂ 2 F 3 terms appear since any terms involving an odd number
+
+of F ’s are forbidden by charge-conjugation invariance, for which Fµν → −Fµν .
+
+This is Furry’s theorem in its modern, low-energy, guise.
+
+  Notice also that we may use the freedom to redefine fields to rewrite the 1/m2e
+
+terms in terms of direct current-current ‘contact’ interactions. The simplest way
+
+to do so is to rewrite these interactions using the lowest-dimension equations of
+
+motion, ∂µ F µν = eJem
+                    ν – and so also                            ν − ∂ ν J µ ) – following the
+                                                 F µν = e(∂ µ Jem       em
+
+general arguments of earlier sections. Together with an integration by parts, this
+
+allows L6 to be written
+
+                                        e2 ′          ν
+                                 L6 =       (a − 2a) Jem Jem ν .                            (65)
+                                        m2e
+
+This shows in particular that these interactions are irrelevant for photon propa-
+
+gation and scattering.6
+
+  In principle, we may now proceed to determine which of these effective inter-
+
+actions are required when working to a fixed order in 1/m2e in any given physical
+
+observable. Having done so, we may then compute the relevant dimensionless
+
+coefficients Z, a′ − 2a, b, c etc.. and thereby retrieve the low-energy limit of the
+
+full QED prediction for the observable in question.
+
+ 4.1.2       The Scattering of Light by Light:                    Inspection of the effective
+
+lagrangian, eq. (63), shows that the simplest interaction to receive contributions
+
+to O(m−4
+      e ) is the scattering of light by light, for which the leading contribution to
+
+the cross section at centre-of-mass energies Ecm ≪ me can be inferred relatively
+
+easily.
+
+  The first step is to determine precisely which Feynman graphs built from the
+
+interactions in the effective lagrangian of eq. (63) contribute, order-by-order in
+   6
+       Things are more interesting if conducting boundaries are present however, see (9).
+38                                                                    Effective Field Theories
+
+1/me . For this we may directly use the general power-counting results of the
+
+previous chapter, since the effective lagrangian of eq. (63) is a special case of the
+
+form considered in eq. (51), with the appropriate dimensionful constants being
+
+f = M = v = me . Directly using eq. (59) for the E-point scattering amplitude,
+
+AE (q), leads in the present case to:
+                                         E            2L         P        (k−2)Vik
+                                    1             q             q
+                                
+                                                                          ik
+               AE (q) ∼ q m2e
+                         2
+                                                                                          .   (66)
+                                    me          4π me           me
+
+     We may also use some specific information for the QED lagrangian which
+
+follows from the gauge invariance of the problem. In particular, since the gauge
+
+potential, Aµ , only appears in Leff through its field strength, Fµν , all of the
+
+interactions of the effective theory must contain at least as many derivatives as
+
+they have powers of Aµ . In equations: Vik = 0 unless k ≥ i. In particular, since
+
+k = 2 therefore implies i ≤ 2, we see that the only term in Leff having exactly
+
+two derivatives is the kinetic term, Fµν F µν . Since this is purely quadratic in Aµ ,
+
+it is not an interaction (rather, it is the unperturbed lagrangian), and so we may
+
+take Vik = 0, for k ≤ 2. A consequence of these considerations is the inequality
+
+  ik (k − 2)Vik ≥ 2, and this sum equals 2 only if Vik = 0 for all k > 4, and if
+P
+
+
+Vi4 = 1.
+
+     For two-body photon-photon scattering we may take E = 4, and from eq. (66)
+
+it is clear that the minimum power of q/me which can appear in A4 (q) corresponds
+
+to taking (i) L = 0, and (ii) Vik = 0 for k 6= 4, and Vi4 = 1 for precisely one
+
+vertex for which k = 4. This tells us that the only graph which is relevant for
+
+photon-photon scattering at leading order in Ecm /me is the one shown in Fig. (3),
+
+which uses precisely one of the two vertices in L(8) , for which i = k = 4, and
+
+gives a result of order q 6 /m8e (where q ∼ Ecm ).
+
+     The effective lagrangian really starts saving work when sub-leading contribu-
+Effective Field Theories                                                                                     39
+
+tions are computed. For photon-photon scattering eq. (66) implies the terms
+
+suppressed by two additional powers of Ecm /me requires one insertion of the
+
+k = 4, i = 2 interaction, but since this is in L6 it cannot contribute, making the
+
+next-to-leading contribution down by at least (Ecm /me )4 relative to the leading
+
+terms.
+
+  The leading term comes from using the quartic interactions of L8 in eq. (63)
+
+in the Born approximation. This gives the following differential cross section for
+
+unpolarized photon scattering, in the CM frame:
+                                                      !                          "                  !#
+   dσγγ    278 h                    i           6
+                                               Ecm                         2               4
+                                                                                            Ecm
+                       2          2                                    2
+        =       (b + c)  + (b − c)                            3 + cos θ              1+O                 .
+    dΩ    65π 2                                m8e                                          m4e
+                                                                                                     (67)
+
+Here Ecm is the energy of either photon in the CM frame, dΩ is the differential
+
+element of solid angle for one of the outgoing photons, and θ is the angular
+
+position of this solid-angle element relative to the direction of (either of) the
+
+incoming photons. Notice that, to this point, we have used only the expansion
+
+in powers of Ecm /me , and have not also expanded the cross section in powers of
+
+α = e2 /4π.
+
+  The final result for QED is reproduced once the constants b and c are com-
+
+puted from the underlying theory, and it is at this point that we first appeal to
+
+perturbation theory in α. To lowest order in α, the relevant graph is shown in
+
+Fig. (4). This graph is ultraviolet finite so no counterterms are required, and the
+
+result is simply:
+                                           4    α2
+                                     b=      c=    ,                                                 (68)
+                                           7    90
+
+leading to the standard result (10)
+                                !2         !                           "                   !#
+          dσγγ  139        α2         6
+                                     Ecm                         2                  4
+                                                                                     Ecm
+                                                              2
+               = 2                                 3 + cos θ               1+O                  .    (69)
+           dΩ   4π         90        m8e                                             m4e
+40                                                              Effective Field Theories
+
+4.1.3      Renormalization and Large Logs:             We next return to the terms
+
+in Leff which are unsuppressed at low energies by powers of 1/me , for both prac-
+
+tical and pedagogical reasons. Pedagogy is served by using this to introduce the
+
+Decoupling Subtraction renormalization scheme, which is the natural generaliza-
+
+tion of minimal subtraction to the effective lagrangian framework. The practical
+
+purpose of this example is to demonstrate how classical electromagnetism gives
+
+an exact description of photon response at low energies, whose corrections require
+
+powers of 1/me (and not, for example, simply more powers of α).
+
+     The only term in the effective lagrangian of eq. (63) which is not suppressed
+
+by powers of 1/me is the term
+
+                                    Z
+                           L4 = −     Fµν F µν − e Aµ Jem
+                                                       µ
+                                                          .                        (70)
+                                    4
+
+All of the influence of the underlying physics appears here only through the
+
+dimensionless parameter, Z, whose leading contribution from virtual electrons
+
+may be explicitly computed in QED to be
+                                     "                     !#
+                               α 1                   m2e
+                         Z =1−      + k + log                   ,                  (71)
+                               3π ε                  µ2
+
+where we regulate ultraviolet divergences using dimensional regularization. k
+
+is the constant encountered in section 2.2.3, which appears universally with the
+
+divergence, 1/ε, in dimensional regularization, and µ is the usual (arbitrary) mass
+
+scale introduced in dimensional regularization to keep the coupling constant, e,
+
+dimensionless.
+
+     The physical interpretation of Z is found by performing the rescaling Aµ =
+      1
+Z − 2 AR
+       µ , to put the photon kinetic term into canonical form. In this case we
+
+recover the effective theory
+
+                                  1
+                         L4 = −     Fµν F µν − ephys Aµ Jem
+                                                         µ
+                                                            .                      (72)
+                                  4
+Effective Field Theories                                                           41
+              1
+where e ≡ Z 2 ephys . We see that to leading order virtual electrons affect low-
+
+energy photon properties only through the value taken by the physical electric
+
+charge, ephys , and does not otherwise affect electromagnetic properties.
+
+  This conclusion has important practical implications concerning the accuracy
+
+of the calculations of electromagnetic properties at low energies in QED. It states
+
+that the justification of simply using Maxwell’s equations to describe photon
+
+properties at low energies is the neglect of terms of order 1/me , and not the neglect
+
+of powers of α. Thus, for example, even though the classical formulae for the
+
+scattering of electromagnetic waves by a given charge distribution is a result which
+
+is obtained only in tree approximation in QED, corrections to these formulae
+
+do not arise at any order in α unsuppressed by powers of Ecm /me . To zeroth
+
+order in 1/me the sole affect of all higher-loop corrections to electromagnetic
+
+scattering is to renormalize the value of α in terms of which all observables are
+
+computed. The significance of this renormalization enters once it is possible to
+
+measure the coupling at more than one scale, since then the logarithmic running
+
+of couplings with scale causes real physical effects, in particular encoding the
+
+potential dependence of observables on some of the logarithms of large mass
+
+ratios.
+
+  To see how to extract large logarithms most efficiently, in this section we first
+
+contrasting two useful renormalization schemes. The first of these is the one de-
+
+fined above, in which all of Z is completely absorbed into the fields and couplings:
+
+                                 −1                             1
+                         Aµ = Zphys
+                                 2
+                                    Aphys
+                                     µ    ,       and     e = Zphys
+                                                               2
+                                                                    ephys ,
+                                              "                     !#
+                                         α 1                  m2e
+          with           Zphys = Z = 1 −      + k + log                  .       (73)
+                                         3π ε                 µ2
+
+The subscript ‘phys’ emphasizes that the charge, ephys , is a physical observable
+42                                                                      Effective Field Theories
+
+whose value can be experimentally determined, in principle. For instance, it
+
+could be measured by taking a known static charge distribution, containing a
+
+predetermined number of electrons, and then using Maxwell’s equations to predict
+
+the resulting flux of electric field at large distances from these charges. Comparing
+
+this calculated flux with the measured flux gives a measurement of ephys .
+
+     The alternative scheme of choice for most practical calculations is the M S
+
+scheme, for which the renormalization is defined to subtract only the term 1/ε+k
+
+in Z. That is:
+
+                                 −1                                 1
+                       Aµ = ZM 2S AM S
+                                   µ ,                and    e = ZM
+                                                                  2
+                                                                     e ,
+                                                                    S MS
+
+                                                α 1
+                                                             
+                       with          ZM S = 1 −      +k .                                  (74)
+                                                3π ε
+
+In terms of this scheme the effective lagrangian becomes, to this order in α:
+                         "                        !#
+                      1    α                m2e         M S µν            S µ
+             Leff = −   1−    log                      Fµν FM S − eM S AM
+                                                                        µ  Jem .           (75)
+                      4    3π               µ2
+
+The M S coupling defined in this way is not itself a physical quantity, but is
+
+simply a parameter in terms of which the effective lagrangian is expressed. The
+
+physical coupling αphys = e2phys /4π and the M S coupling αM S = e2M S /4π are
+
+related in the following way:
+                                     !            "                     !#
+                             Zphys                   α            m2e
+                αM S =                   αphys = 1 −    log                  αphys .       (76)
+                             ZM S                    3π           µ2
+
+     A key observation is that, since αphys is a physical quantity, it cannot depend
+
+on the arbitrary scale µ. As a result, this last equation implies a µ-dependence
+
+for αM S . It is only for µ = me that the two couplings agree:
+
+
+                                     αM S (µ = me ) = αphys .                              (77)
+
+
+     As usual, there is profit to be gained by re-expressing the µ dependence of αM S
+Effective Field Theories                                                                     43
+
+of eq. (76) as a differential relation:
+
+                                                  2
+                                                 αM
+                                       dαM S
+                                  µ2         = +    S
+                                                      .                                     (78)
+                                        dµ2       3π
+
+This is useful because the differential expression applies so long as αM S ≪ 1,
+
+while eq. (76) also requires αM S log(m2e /µ2 ) ≪ 1. Integrating eq. (78) allows a
+
+broader inference of the µ-dependence of αM S :
+                                                                       !
+                           1         1        1                  µ2
+                                =           −   log                        ,                (79)
+                       αM S (µ)   αM S (µ0 ) 3π                  µ20
+
+which is accurate to all orders in (α/3π) log(m2e /µ2 ), so long as (α/3π) ≪ 1.
+
+  Eq. (79) is useful because it provides a simple way to keep track of how some
+
+large logarithms appear in physical observables. For instance, consider the cross
+
+section for the scattering of electrons (plus an indeterminate number of soft pho-
+
+tons, having energies up to Emax = f E) with 1 > f ≫ me /E). Such a quantity
+
+has a smooth limit as me /E → 0 when it is expressed in terms of αM S (µ) (11,12),
+
+so on dimensional grounds we may write
+
+                                 1                 E                       me
+                                                                               
+           σ(E, me , αphys ) =             F         , αM S (µ), f, θk + O              ,   (80)
+                                 E2                µ                       E
+
+where the θk denote any number of dimensionless quantities (like angles) on which
+
+the observable depends, and the explicit µ-dependence of F must cancel the µ-
+
+dependence which appears implicitly through αM S (µ). However F is singular
+
+when me /E → 0 when it is expressed in terms of αphys , because of the appearance
+
+of large logarithms. These may be included to all orders in α log(E 2 /m2e ) simply
+
+by choosing µ = E in eq. (80) and using eq. (79) with eq. (77).
+
+  For the next section it is important that eq. (78) integrates so simply because
+
+the M S renormalization is a mass-independent scheme. That is, dα/dµ depends
+
+only on α and does not depend explicitly on mass scales like me . (‘On shell’
+44                                                                   Effective Field Theories
+
+renormalizations, such as where e is defined in terms of the value of a scattering
+
+amplitude at a specific momentum transfer, furnish examples of schemes which
+
+are not mass-independent.)
+
+ 4.1.4     Muons and the Decoupling Subtraction scheme:                                Consider
+
+now introducing a second scale into the problem by raising the energies of in-
+
+terest to those above the muon mass. In this case the underlying theory is
+
+                         1
+                  L=−      Fµν F µν − ψ(/
+                                        D + me )ψ − χ(/
+                                                      D + Mµ )χ,                           (81)
+                         4
+
+where χ is the Dirac spinor representing the muon, and Mµ is the muon mass.
+
+Our interest is in following how large logarithms like log(Mµ /me ) appear in ob-
+
+servables.
+
+     In this effective theory the M S and physical electromagnetic couplings are
+
+related to one another by:
+
+                                                             Mµ2
+                         (        "              !                 !#)
+                                α          m2e
+                αM S =       1−    log               + log                   αphys .       (82)
+                                3π         µ2                µ2
+
+This relation replaces eq. (76) of the purely electron-photon theory. Notice, in
+
+particular, that in this theory the physical coupling, αphys is no longer simply
+                                                               p
+equal to αM S (µ = me ) but is now equal to αM S (µ =              me Mµ ). The correspond-
+
+ing RG equation for the running of αM S therefore becomes:
+
+                                       dαM S     2α2
+                                  µ2         = +     ,                                     (83)
+                                        dµ2      3π
+
+and its solution is
+                                                                     !
+                             1       1        2                µ2
+                                =           −   log                      .                 (84)
+                       αM S (µ)   αM S (µ0 ) 3π                µ20
+
+     Here we see an inconvenience of the M S renormalization scheme: the right-
+
+hand-side of eq. (83) is twice as large as its counterpart, eq. (78), in the pure
+
+electron-photon theory, simply because the mass-independence of the M S scheme
+Effective Field Theories                                                         45
+
+ensures that both the electron and the muon contribute equally to the running
+
+of αM S . The problem is that this is equally true for all µ, and it even applies at
+
+scales µ ≪ Mµ , where we expect the physical influence of the muon to decouple.
+
+Of course, the physical effects of the muon indeed do decouple at scales well below
+
+the muon mass, it is just that this decoupling is not manifest at intermediate steps
+
+in any calculation performed with the M S scheme.
+
+  The dimensionally-regularized effective lagrangian furnishes a way to circum-
+
+vent this disadvantage, by keeping the decoupling of heavy particles manifest
+
+without giving up the benefits of a mass-independent renormalization scheme.
+
+The remedy is to work with minimal subtraction, but to do so only when running
+
+couplings in an energy range between charged-particle thresholds. As the energy
+
+falls below each charged-particle threshold, a new effective theory is defined by
+
+‘integrating out’ this particle, with the couplings in the new low-energy theory
+
+found by matching to the coupling defined in the underlying theory above the rel-
+
+evant mass scale. The scheme defined by doing so through all particle thresholds
+
+is called the decoupling subtraction (DS) renormalization scheme (13).
+
+  For instance, for the electrodynamics of electrons and muons, the coupling
+
+constant as defined in the M S and DS schemes is identical for the full theory
+
+which describes energies greater than the muon mass: µ > Mµ . For me < µ <
+
+Mµ we integrate out the muon and construct an effective theory involving only
+
+photons and electrons. This effective theory consists of the usual QED lagrangian,
+
+plus an infinite number of higher-dimension effective interactions encoding the
+
+low-energy implications of virtual muons. Within this effective lagrangian the
+
+coupling constant is again defined by the coefficient Z in front of the Fµν F µν
+
+term, using minimal subtraction. But, because there is no muon within this
+46                                                                      Effective Field Theories
+
+effective theory, only the electron contributes to its running.
+
+     The initial conditions for the RG equation at the muon mass is obtained by
+
+matching, as in the previous sections. They are chosen to ensure that the effective
+
+theory reproduce the same predictions for all physical quantities as does the full
+
+theory, order-by-order in the low-energy expansion. If there were other charged
+
+particles in the problem, each of these could be integrated out in a similar fashion
+
+as µ falls below the corresponding particle threshold.
+
+     Quantitatively, to one loop the RG equation for the DS scheme for the theory
+
+of electrons, muons and photons becomes:
+
+                           dαDS       2α2
+                      µ2          =        ,         if      µ > Mµ ;
+                            dµ2       3π
+                                      α2
+                                  =      ,           if       me < µ < Mµ ;
+                                      3π
+                                  = 0,               if      µ < me ,                        (85)
+
+with the boundary conditions that the αDS should be continuous at µ = Mµ and
+
+αDS (µ = me ) = αphys at µ = me . Integrating then gives
+                                                     !
+          1                 1 1                E2
+                  =         −   log                          for me < E < Mµ ,               (86)
+        αDS (E)        αphys 3π                Mµ2
+                                               Mµ2
+                                                     !                     !
+                            1 1                              2       E2
+                  =         −   log                       −    log             for Mµ < E.
+                       αphys 3π                m2e          3π       Mµ2
+
+This last expression shows how to efficiently display the various large logarithms
+
+by running a coupling with the ease of a mass-independent scheme, but with
+
+each particle explicitly decoupling as µ drops through the corresponding particle
+
+threshold.
+
+
+4.2      Power-counting examples: QCD and Gravity
+
+We close with a sketch of the utility of eq. (59) for two important examples:
+
+the interactions amongst pions and kaons at energies well below a GeV; and
+Effective Field Theories                                                                47
+
+gravitational self-interactions for macroscopic systems.
+
+ 4.2.1   Below the QCD scale: mesons                       We start with the interactions
+
+of pions and kaons at energies below a GeV. This represents a useful low-energy
+
+limit of the Standard Model because these mesons are Goldstone bosons for the
+
+spontaneous breaking of an approximate symmetry of the strong interactions
+
+(14). As such, their interactions are suppressed in this low-energy limit, as a
+
+general consequence of Goldstone’s theorem (15). Because they interact so weakly
+
+we represent them with fundamental scalar fields in the effective theory which
+
+applies at energies E ≪ Λ ∼ 1 GeV (?).
+
+  The resulting scalar lagrangian has the form of eq. (51), with the constants
+                                                            √
+appearing in the effective lagrangian being: f =                Fπ Λ, M = Λ and v = Fπ ,
+
+where Fπ ∼ 100 MeV defines the scale of the order parameter which describes
+
+the spontaneous breaking of the relevant approximate symmetry. In this case the
+
+powercounting estimate of eq. (59) becomes:
+                                          E           2L  P        (k−2)Vik
+                                      1            q        q
+                                 
+                                                                   ik
+              AE (q) ∼ Fπ2 q 2                                                     ,   (87)
+                                     Fπ          4πFπ       Λ
+
+which is a famous result, due first to Weinberg (16). The explicit suppression of
+
+all interactions by powers of q/Λ ∼ q/(4πFπ ) explicitly encodes the suppression of
+
+interactions that Goldstone’s theorem requires. Since the pion mass is mπ ∼ 140
+
+MeV, this suppression is clearly only suppressed for scattering at energies near
+
+threshhold, Ecm ∼ mπ .
+
+  The dominant terms in Leff which govern the scattering at these energies cor-
+
+responds to choosing the smallest possible value for which L = 0, and Vik 6= 0
+
+only if k = 2. Since it happens that symmetries determine the effective couplings
+
+of all such terms purely in terms of Fπ (in the limit of massless quarks), a great
+
+deal can be said about such low-energy meson interactions without knowing any
+48                                                                   Effective Field Theories
+
+of the dynamical details about their explicit wave-functions. These predictions
+
+are consequences of the symmetry-breaking pattern, and are known as ‘soft pion’
+
+theorems. Comparison of these predictions, including next-to-leading corrections
+
+and nonzero quark masses, are in good agreement with observations (17).
+
+ 4.2.2         General Relativity as an Effective Field Theory                          It is in-
+
+structive to repeat this powercounting analysis for the gravitational effective the-
+
+ory, since this case furnishes a less familiar example. The result obtained also
+
+justifies the neglect of quantum effects in performing practical calculations with
+
+gravity on macroscopic scales. Even better: it permits the systematic calculation
+
+of the leading corrections in the semiclassical limit, should these ever be desired.
+
+     The field relevant for gravity (18) is the metric, gµν (whose matrix inverse is
+
+denoted gµν ). For applications on macroscopic scales we use the most general
+
+effective lagrangian consistent with general covariance:7
+
+          √   1 2                                           e1
+                                                                                           
+  − Leff = −g   Mp R + c1 R2 + c2 Rµν Rµν + c3 Rµνλρ Rµνλρ + 2 R3 + · · · ,
+              2                                             me
+                                                                                            (88)
+
+where g = det(gµν ), while Rρµλν , Rµν = gλρ Rλµρν and R = gµν Rµν respectively
+
+denote the Riemann and Ricci tensors, and the Ricci scalar, each of which involves
+
+two derivatives of gµν . The ellipses denote terms involving at least six derivatives,
+
+one term of which is displayed explicitly in eq. (88). The term linear in R is the
+
+usual Einstein-Hilbert action, with Mp denoting the usual Planck mass. The
+
+remaining effective couplings — ck and ek — are dimensionless, and not all of
+
+the terms written need be independent of one another. The scale me denotes
+
+the lightest particle (say, the electron) to have been integrated out to obtain this
+     7
+         No cosmological term is written here since this precludes a perturbative expansion about
+
+flat space.
+Effective Field Theories                                                                          49
+
+effective lagrangian.
+                                                               p
+  Eq. (88) has the form considered earlier, with f =                me Mp , Λ = me and
+
+v = Mp . Furthermore, with these choices, the dimensionless couplings of all of
+
+the interactions except for the Einstein term, are explicitly suppressed by the
+
+factor m2e /Mp2 . With these choices the central powercounting result, eq. (59),
+
+becomes (19, 20):
+                             !E          !2L         !P       Vik            P        (k−2)Vik
+                        1           q          m2e    i;k>2
+                                                                        q
+                                                                    
+                                                                                  ik
+ AE (q) ∼ q 2 Mp2
+                        Mp        4πMp         Mp2                      me
+                             !E          !2L         !P       Vik            P           (k−4)Vik
+                        1           q          q2     i;k>2
+                                                                        q
+                                                                    
+                                                                                  i;k>4
+         ∼   q Mp2
+              2
+                                                                                              (89)
+                        Mp        4πMp         Mp2                      me
+
+where covariance requires Vik = 0 unless k = 2, 4, 6..., with k = 2 corresponding
+
+to the Einstein-Hilbert term, k = 4 the curvature-squared terms, and so on.
+
+  As before, the dominant term comes from choosing L = 0 and using only the
+
+interactions of the usual Einstein-Hilbert action: i.e. Vik = 0 for k > 2. The
+
+dominant contribution to gravitational physics is therefore obtained by working
+
+to tree level with the Einstein action, which is to say that one is to compute the
+
+classical response of the gravitational field, using the full Einstein equations to
+
+compute this response.
+
+  The graphs responsible for the next-to-leading terms are also simple to de-
+
+termine. The minimum additional suppression by q/Mp is obtained either by
+
+working to one loop order (L = 1) using the Einstein action (Vik = 0 for k > 2),
+
+or by working to tree level (L = 0) using precisely one insertion of one of the
+
+curvature-squared interactions (i.e. with Vi2 arbitrary but Vi4 = 1 for one inter-
+
+action with k = 4). Both cases give an additional suppression of q 2 /Mp2 relative
+
+to the leading contribution. The one-loop contribution also carries the usual
+
+additional loop factor, (1/4π)2 .
+50                                                           Effective Field Theories
+
+     Notice that the derivative expansion is an expansion in q/me as well as in q/Mp ,
+
+due to the inverse powers of me which appear in the higher-curvature terms.
+
+Notice also that all of the me -dependence drops out for graphs constructed only
+
+using the Einstein and the curvature-squared terms (i.e. Vik = 0 for k > 4), as
+
+it should since 1/m2e first enters eq. (88) at order curvature-cubed. Although
+
+the condition q ≪ me may come as something of a surprise, it is nevertheless an
+
+excellent expansion for macroscopic applications, such as in the solar system.
+
+
+
+Acknowledgements
+
+
+This review is based on a series of lectures given for the Swiss Troisième Cycle in
+
+Lausanne, and in the University of Oslo, in June 1995, whose organizers I thank
+
+for their kind invitations, and whose students I thank for their questions and
+
+comments. My research during the preparation of these lectures was funded in
+
+part by NSERC (Canada), FCAR (Québec) and the Killam Foundation.
+
+
+Literature Cited
+
+
+ 1. There is a vast literature on effective field theory, many of which are ap-
+
+      plied to chiral perturbation theory. The following represent the tip of the
+
+      iceberg: Appelquist T, Carazzone J. Phys. Rev. D 11:2856 (1975); Buch-
+
+      muller W, Wyler D. Nucl. Phys. B 268:621 (1986); Grinstein B, Wise MB.
+
+      Phys. Lett. B 265:326 (1991); Meissner UG. Rept. Prog. Phys. 56:903 (1993)
+
+      (hep-ph/9302247); Leutwyler H. in the proceedings of Hadron Physics 94,
+
+      (hep-ph/9406283); Manohar A. in Schladming 1996, Perturbative and non-
+
+      perturbative aspects of quantum field theory, p. 311. (hep-ph/9606222); Pich
+
+      A. in the proceedings of the Les Houches Summer School in Theoretical
+Effective Field Theories                                                      51
+
+    Physics, Session 68: Probing the Standard Model of Particle Interactions,
+
+    Les Houches, France, 1997, (hep-ph/9806303); Kaplan D. in the proceed-
+
+    ings of the 7th Summer School in Nuclear Physics Symmetries, Seattle, WA,
+
+    1995, (nucl-th/9506035); Georgi H. Ann. Rev. Nucl. Part. Sci. 43:205 (1995);
+
+    Burgess CP, Godfrey S, Konig H, London D, Maksymyk I. Phys. Rev. D
+
+    49:6115 (1994) (hep-ph/9312291); Rothstein IZ. (hep-ph/0308266); Han Z,
+
+    Skiba W. Phys. Rev. D 71:075009 (2005) (hep-ph/0412166).
+
+ 2. For textbook discussions: Georgi H. Weak Interactions and Modern Particle
+
+    Theory. Benjamin/Cummings (1984); Donoghue JF, Golowich E, Holstein
+
+    BR. Dynamics of the Standard Model. Cambridge University Press (1992);
+
+    Weinberg S. The Quantum Theory of Fields Vol. II. Cambridge University
+
+    Press (1996); Burgess CP, Moore GD. The Standard Model: A Primer. Cam-
+
+    bridge University Press (2007).
+
+ 3. Reviews of effective field theories applied to degenerate systems: Polchinski
+
+    J. in the proceedings of the 1992 Theoretical Advanced Study Institute, Boul-
+
+    der, Colorado, (hep-th/9210046); Shankar R. Rev. Mod. Phys. 66:129 (1994)
+
+    (cond-mat/9307009); Chen T, Fröhlich J, Seifert M. in the proceedings of
+
+    the Les Houches Summer School (1994) (cond-mat/9508063); Burgess CP.
+
+    Phys. Rep. C330:193 (2000) (hep-ph/9808176); Braaten E, Hammer HW.
+
+    Ann. Phys. (NY) 322:120 (2007) (cond-mat/0612123).
+
+ 4. Applications to non-relativistic bound states may be found in Caswell WE,
+
+    Lepage GP. Phys. Lett. B 167:437 (1986); Luke ME, Manohar AV, Roth-
+
+    stein IZ. Phys. Rev. D 61:074025 (2000) (hep-ph/9910209); Lepage P. in the
+
+    proceedings of the VIII Jorge Andre Swieca Summer School (Brazil, 1997)
+
+    (nucl-th/9706029); Neubert M. (hep-ph/0512222).
+52                                                       Effective Field Theories
+
+ 5. Goldstone J, Salam A, Weinberg S. Phys. Rev. 127:965 (1962); Jona-Lasinio
+
+     G. Nuov. Cim. 34:1790 (1964).
+
+ 6. Symanzik K. Comm. Math. Phys. 16:48 (1970); Coleman S. Aspects of Sym-
+
+     metry, Cambridge University Press (1985), p. 139.
+
+ 7. Burgess CP, Font A, Quevedo F. Nucl. Phys. B 272:661 (1986).
+
+ 8. Burgess CP, London D. Phys. Rev. Lett. 69:3428 (1992); Burgess CP, London
+
+     D. Phys. Rev. D 48:4337 (1993) (hep-ph/9203216).
+
+ 9. Aghababaie Y, Burgess CP. Phys. Rev. D 70:085003 (2004) (hep-th/0304066).
+
+10. For a textbook discussion see: Itzykson C, Zuber JB. Quantum Field Theory,
+
+     McGraw-Hill (1980).
+
+11. An entertaining discussion can be found in: Weinberg S. in Cambridge 1981,
+
+     Proceedings, Asymptotic Realms Of Physics, p. 1.
+
+12. For a textbook discussion, see: Collins J. Renormalization, Cambridge Uni-
+
+     versity Press (1984).
+
+13. Weinberg S. Phys. Lett. B91 (1980) 51; Ovrut BA, Schnitzer HJ. Phys. Lett.
+
+     B100 (1981) 403–406; Ovrut BA, Schnitzer HJ. Nucl. Phys. B179 (1981)
+
+     381–416; Hall LJ. Nucl. Phys. B 178:75 (1981).
+
+14. Weinberg S. Phys. Rev. Lett. 18:188 (1967); Weinberg S. Phys. Rev. 166:1568
+
+     (1968); Callan CG, Coleman S, Wess J, Zumino B. Phys. Rev. 177:2247
+
+     (1969); Gasser J, Leutwyler H. Ann. Phys. (NY) 158:142 (1984).
+
+15. Goldstone J. Nuo. Cim. 9:154 (1961); Nambu Y. Phys. Rev. Lett. 4:380
+
+     (1960); Goldstone J, Salam A, Weinberg S. Phys. Rev. 127:965 (1962).
+
+16. Weinberg S. Physica 96A:327 (1979).
+
+17. For a comprehensive summary see: Donoghue JF, Golowich E, Holstein BR.
+
+     Dynamics of the Standard Model, Cambridge University Press (1992); Meiss-
+Effective Field Theories                                                       53
+
+    ner UG, Bernard V. Ann. Rev. Nucl. Part. Sci. (this volume) (2007).
+
+18. See, for example: Weinberg S. Gravitation and Cosmology, John Wiley and
+
+    Sons (1972); Misner CW, Thorne KS, Wheeler JA. Gravitation, W.H. Free-
+
+    man (1973); Wald R. General Relativity, University of Chicago Press (1984).
+
+19. Burgess CP. Liv. Rev. Rel. 7:5 (2004) (gr-qc/0311082); Burgess CP. Phys.
+
+    Rep. C330:193 (2000) (hep-ph/9808176); Donoghue JF. (gr-qc/9512024).
+
+20. Power-counting is much more complicated for non-relativistic sources:
+
+    Donoghue JF, Torma T. Phys. Rev. D 54:4963 (1996) (hep-th/9602121);
+
+    Goldberger   WD,       Rothstein   IZ.   Phys.   Rev.   D   73:104029   (2006)
+
+    (hep-th/0409156); W. D. Goldberger, (hep-ph/0701129).
+54                                                        Effective Field Theories
+
+
+
+                                                                  ❅
+                                                                  ❅
+                                                                       ❅
+                                                                       ❅③
+      ❅
+      ❅                       ❅
+                              ❅
+           ❅
+           ❅③                     ❅
+                                  ❅③              ③
+             ❅
+             ❅                                    ❅
+                                                  ❅
+                                                                          ③
+                   ❅
+                   ❅                                   ❅
+                                                       ❅                  ❅
+                                                                          ❅
+                                                                               ❅
+                                                                               ❅
+
+
+Figure 1: The Feynman graphs which contribute to two-body light-particle scat-
+
+tering at tree level in the Toy Model. Solid (dashed) lines represent the heavy
+
+(light) scalar.
+
+
+
+      ❅
+      ❅                                   ❅
+                                          ❅           ❅
+                                                      ❅
+           ❅
+           ❅③            ③                     ❅
+                                               ❅③          ❅
+                                                           ❅③             ③
+                         ❅
+                         ❅                                                ❅
+                                                                          ❅
+                              ❅
+                              ❅                                                ❅
+                                                                               ❅
+
+
+Figure 2: The Feynman graphs which contribute the corrections to the tree level
+
+generating functional, γ[ℓ], to order 1/M 4 . Solid (dashed) lines represent heavy
+
+(light) scalars.                        ✓
+
+                                        ✒✏
+
+                          ✓✏✓✓✏✓✑✏
+                              ⑦
+                           ✒✑
+                            ✓✒✑✑✒✑
+
+                                    ✒✏
+
+                                        ✑
+
+
+Figure 3: The Feynman graph which contributes the leading contribution to
+
+photon-photon scattering in the effective theory for low-energy QED. The vertex
+
+represents either of the two dimension-eight interactions discussed in the text.
+Effective Field Theories                                                    55
+
+
+
+
+             ✓✏✓✏                                  ✓✏✓✏
+                 ③                    ✲            ③
+              ✒✑                                     ✒✑
+
+
+
+                           ✻
+                                                   ❄
+
+
+                  ✓✏                                 ✓✏
+                ③                      ✛           ③
+             ✒✑✒✑                                  ✒✑✒✑
+
+
+
+
+Figure 4: The leading Feynman graphs in QED which generate the effective
+
+four-photon operators in the low energy theory. Straight (wavy) lines represent
+
+electrons (photons).
+

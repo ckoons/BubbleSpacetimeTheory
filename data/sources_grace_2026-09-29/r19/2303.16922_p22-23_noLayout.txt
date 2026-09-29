@@ -1,0 +1,248 @@
+22
+is the 2 → N cross section (σ ≥ 0). After analytically
+continuing s to the complex plane, the analytic structure
+of A(s) is determined by isolated poles, due to intermediate single-particle on-shell production, and branch cuts,
+due to multi-particle on-shell production. This allows
+for
+P
+a power expansion of the amplitude: A(s) = k λk sk .
+To isolate individual expansion coefficients, we can then
+apply Cauchy’s integral formula
+I
+1
+ds
+λn =
+A(s) ,
+(2.45)
+2πi γ sn+1
+where we integrate along a suitable contour γ as indicated
+by the green/inner dashed line in Fig. 4. For simplicity,
+we consider only a branch cut on the real axis for |s| > s0
+(gray shaded regions). Enlarging the radius of our contour γ (green/inner dashed line), we can deform it to a
+new contour containing a circle γ ′ (blue/outer dashed
+line) and an integration around the branch cuts (orange
+dashed lines marked by “Disc”). We find
+I
+ds
+1
+A(s)
+λn =
+2πi γ ′ sn+1
+(2.46)
+Z −s0 Z ∞ 
+1
+ds
++
+Disc A(s) ,
++
+2πi
+sn+1
+−∞
+s0
+where we defined the discontinuity on the real axis by
+Disc A(s) = limϵ→0 [A(s + iϵ) − A(s − iϵ)] = 2i Im A(s),
+using the Schwarz reflection principle, A(s∗ ) = A(s)∗ .
+Assuming that A(s) falls off sufficiently rapidly at infinity,
+such that the integral along γ ′ vanishes when the radius
+of the circle is taken to infinity, we obtain
+Z
+ ∞ ds
+1
+1 + (−1)n
+λn =
+Im A(s)
+n+1
+π
+s0 s
+(2.47)
+Z
+ ∞ ds
+1
+=
+1 + (−1)n
+σ(s)
+,
+n
+π
+s0 s
+
+where we changed variables s → −s in the first integral
+of the second line in Eq. (2.46) and used A(−s) = A(s),
+which holds due to the crossing symmetry of the forward scattering amplitude, from which we can deduce
+Disc A(−s) = −Disc A(s). Furthermore, we directly applied the optical theorem (2.44) in the second equality.
+We thus find λn = 0 for odd n, whereas
+Z
+2 ∞ ds
+λn =
+σ(s) ≥ 0
+(2.48)
+π s0 sn
+holds for even n. The latter condition provides a positivity
+constraint on a combination of Wilson coefficients. For
+more details on this topic see (Adams et al., 2006).
+
+As a concrete but simple example, consider an EFT
+of a real massless scalar ϕ, whose Lagrangian contains a
+
+s
+
+Disc
+
+Disc
+
+γ
+γ0
+Figure 4 Analytical structure of a scattering amplitude containing a branch cut (gray shaded region) on the real s axis.
+We also show certain integration contours that we use to determine positivity constraints on the coefficients entering the
+amplitude. See text for more details.
+
+single d = 8 interaction term:
+L=
+
+1
+C8
+2
+(∂µ ϕ)(∂ µ ϕ) +
+[(∂µ ϕ)(∂ µ ϕ)] .
+2
+2Λ4
+
+(2.49)
+
+The 2 → 2 scattering amplitude M for this theory reads
+2
+2
+8
+M(s, t) = 2 C
+Λ4 (s + t + st), where we used s + t + u = 0.
+Thus, we obtain the forward amplitude
+A(s) = lim M(s, t) = 2
+t→0
+
+C8 2
+s .
+Λ4
+
+(2.50)
+
+Realizing that λ2 = 2C8 /Λ4 and using our previous result
+in Eq. (2.48) we find C8 > 0. Therefore, we find that
+the Wilson coefficient C8 must be positive based only on
+unitarity and analyticity. More details on this specific
+example can be found in (Remmen and Rodd, 2019).
+This type of bounds can also be exploited for more
+complicated theories, such as the SMEFT. Of course, in
+general the λn depend on several different coefficients
+and we can thus only determine certain combinations of
+Wilson coefficients that must be positive. In fact, there
+has been a lot of progress on this front recently (Bellazzini
+et al., 2021; Chala and Santiago, 2022; Dvali et al., 2012;
+Remmen and Rodd, 2019, 2022; Yamashita et al., 2021;
+Zhang and Zhou, 2019), narrowing down the possible
+range of SMEFT coefficients, at both dimension six and
+eight.
+
+23
+3. Gauge anomalies and reparametrization invariance
+
+To conclude this section, we mention two additional
+aspects of the SMEFT coefficients related to the symmetry
+properties of the underlying theory.
+The first aspect deals with gauge anomalies. As is
+well known, in (classically) renormalizable theories the
+criterion for the absence of gauge anomalies relies entirely on the charges of the fermion fields under the local
+symmetry (Georgi and Glashow, 1972). When moving
+from the renormalizable case to the non-renormalizable
+one, this property is less obvious. In particular, doubts
+have been raised if the request of anomaly cancellations
+does impose any additional constraint on the SMEFT
+Wilson coefficients. This issue has been clarified recently
+in (Feruglio, 2021), where it has been shown that the
+dependence of the anomaly on the non-renormalizable
+part of the Lagrangian can be removed by adding a local
+counterterm to the theory. As a result, the condition
+for gauge anomaly cancellation is controlled only by the
+charge assignment of the fermion sector, exactly as in
+the renormalizable theory. In other words, no additional
+constraints can be derived on the SMEFT by requesting
+anomaly cancellations.
+The second aspect is the so-called reparametrization
+invariance of the dimension-six coefficients appearing in
+ψ̄ψ → ψ̄ψ scattering amplitudes (Brivio and Trott, 2017).
+In the Warsaw basis, the operators contributing ψ̄ψ → ψ̄ψ
+scattering give rise to a flat direction. For some time,
+this created confusion in global SMEFT fits, given the
+central role played by ψ̄ψ → ψ̄ψ data in constraining the
+parameter space. As pointed out in (Brivio and Trott,
+2017), this fact is a consequence of the combined action of
+a field redefinition (for the vector fields) together with a
+shift of the vector–fermion couplings. This transformation
+leaves all the (physical) ψ̄ψ → ψ̄ψ amplitudes unchanged.
+However, this is not a complete degeneracy of the theory,
+and indeed it is lifted when considering other amplitudes,
+such as ψ̄ψ → ψ̄ψ ψ̄ψ. This property illustrates well the
+importance of considering complete sets of data, and
+a complete operator basis, when performing bottom-up
+analyses of the SMEFT parameter space.
+
+III. GLOBAL SYMMETRIES
+A. The role of accidental symmetries
+
+A key concept in any EFT is that of accidental symmetries, i.e., symmetries that arise in the lowest-dimensional
+operators as indirect consequences of the field content
+and the symmetries explicitly imposed on the theory.
+Within the SMEFT, two well-known examples are baryon
+number (B) and lepton number (L). These are exact
+accidental global symmetries of the d = 4 part of the
+Lagrangian, or the SM: they do not need to be imposed
+
+in the SM because gauge invariance forbids to write any
+d = 4 operator violating B or L.
+If the accidental symmetries are not respected by the
+underlying UV completion, we expect them to be violated by the higher-dimensional operators. The strong
+bounds on B-violating terms from proton stability, and
+the tiny coefficient of the L-violating Weinberg operator
+in Eq. (2.2) from neutrino masses, indicate that such
+symmetries remain almost unbroken in the SMEFT. This
+observation can be interpreted in a natural way assuming
+that the fundamental interactions responsible for B and L
+violation appear at very high energy scales, therefore, assuming a very high cutoff scale for these operators. This is
+not in contradiction with the possibility of having a lower
+cutoff scale for the d = 6 SMEFT operators preserving
+B and L, since the symmetry-preserving sector cannot induce violations of the global symmetries. In other words,
+accidental global symmetries allow us to define a stable
+partition of the tower of effective operators into different
+sectors characterized by different cutoff scales, reflecting
+a possible multi-scale structure of the underlying theory.
+The key point is that this partition is stable with respect
+to quantum corrections.
+Besides B and L, the SM Lagrangian (or better the
+SMEFT at d = 4) has two additional exact accidental
+global symmetries related to the individual lepton flavor,
+that we can conventionally choose as Le−µ and Lµ−τ
+(combined with L, these correspond to the conservation
+of each individual lepton flavor). However, a much larger
+number of approximate accidental symmetries appears in
+the limit where we neglect the tiny Yukawa couplings of
+the light families and the small off-diagonal entries of the
+Cabibbo-Kobayashi-Maskawa matrix. These approximate
+flavor symmetries are responsible for the smallness of
+flavor-changing neutral-current (FCNC) processes, such
+as B–B and K–K mixing, which are severely constrained
+by data. Despite the precision and the energy scales involved are very different, the situation is similar to that
+of B and L: the experimental bounds on FCNC processes imply high cutoff scales for the d = 6 operators
+violating the approximate SM flavor symmetries. Similarly to the case of exact accidental symmetries, also
+the approximate accidental symmetries allow us to conceive an underlying multi-scale structure, separating the
+symmetry-preserving and symmetry-breaking sectors of
+the theory (the maximal scale separation being limited by
+the size of the explicit symmetry-breaking terms). This
+implies that the scale of the symmetry-preserving sector
+of the SMEFT can be as low as few TeV, if at that scale
+not only B and L, but also the tightly constrained accidental flavor symmetries, remain valid, or are broken only
+by small symmetry-breaking terms.
+The technical implementation of the concept of small
+symmetry-breaking terms, in presence of approximate
+(or exact) symmetries in the low-energy sector of the
+EFT, is obtained via the spurion technique, discussed
+
+

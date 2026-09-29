@@ -5216,11 +5216,11 @@
    "symbol": "m_b",
    "formula_latex": "m_b = \\frac{g}{N_c} \\, m_\\tau",
    "formula_display": "m_b = (g/N_c) * m_tau = (7/3)*m_tau",
-   "formula_code": "g / N_c * 1776.86",
-   "bst_value": 4146.0,
-   "observed_value": 4180,
-   "observed_source": "PDG 2024 (MS-bar at m_b)",
-   "precision": 0.813397,
+   "formula_code": "g / N_c * 1776.93",
+   "bst_value": 4146.17,
+   "observed_value": 4186,
+   "observed_source": "PDG 2026 summary, MS-bar m_b(m_b) = 4.186 ± 0.006 GeV, 'CL = 90%' (rpp2026-sum-quarks.txt:42)",
+   "precision": 0.951505,
    "unit": "MeV",
    "bst_integers_used": [
     "g",
@@ -5254,11 +5254,12 @@
    "precision_stored_ARCHIVED": "0.8%",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
    "measured_inputs": [
-    "m_tau = 1776.86 MeV (MEASURED, PDG) — the base of the row"
+    "m_tau = 1776.93 ± 0.09 MeV (MEASURED; PDG 2026, rpp2026-list-tau.txt:16 'OUR AVERAGE'; the row's former 1776.86 was not the PDG 2024 or 2026 value)"
    ],
    "tier_recommendation": "I (ratio identified; not D: the MeV scale is measured m_tau, not the ruler)",
    "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — I: the identified ratio m_b/m_tau = 7/3; m_tau measured, named."
+   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — I: the identified ratio m_b/m_tau = 7/3; m_tau measured, named.",
+   "mass_scheme_2026_09_29": "Grace 11:30 (round 19; Cal Section 1014 condition). SCHEME NAMED: MS-bar m_b(m_b) — PDG: 'The c- and b-quark masses are the MS masses renormalized at the MS mass, i.e. m = m(µ = m)' (sum-quarks :7–9). (7/3)·m_tau = 4146.17 MeV lies BELOW every scheme PDG prints: pulls MS-bar PDG evaluation 4.186 ± 0.006 → −6.6σ (and ≈ −11σ if 'CL = 90%' means a 90 % interval, PIN OWED); review continuum average 4.18 ± 0.03 (errors deliberately inflated for ~25 MeV perturbative systematics, rev-quark-masses :686–696) → −1.1σ; lattice Eq. (60.24) 4.196 ± 0.012 → −4.2σ; 1S 4.65 ± 0.03 → −16.8σ; pole 4.788 ± 0.016 (renormalon-ambiguous) → −40σ. Only MS-bar at µ = m_b is in range, and the row owes a reason why 7/3 × a pole-mass lepton equals the running quark mass at that scale. Sources: data/sources_grace_2026-09-29/r19/."
   },
   {
    "id": "const_111",
@@ -6240,7 +6241,8 @@
    "precision_stored_ARCHIVED": "0.83%",
    "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
    "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): 'math.' prefixes replaced by the namespace names pi, sqrt.",
-   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): MeV→GeV (/1000); the row produces 4.141 GeV, not the stored 4.145 — stored now what the row produces."
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): MeV→GeV (/1000); the row produces 4.141 GeV, not the stored 4.145 — stored now what the row produces.",
+   "mass_scheme_2026_09_29": "Grace 11:30: scheme not named on the row; 4.141 GeV vs MS-bar m_b(m_b) 4.186 ± 0.006 (PDG 2026) → −7.5σ; vs review 4.18 ± 0.03 → −1.3σ; below 1S (4.65) and pole (4.788). Same scheme obligation as const_110."
   },
   {
    "name": "Higgs self-coupling lambda",
