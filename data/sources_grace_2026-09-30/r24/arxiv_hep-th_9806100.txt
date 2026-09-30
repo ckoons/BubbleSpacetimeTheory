@@ -1,0 +1,1610 @@
+                                                                  Masslessness in n-dimensions1
+
+
+
+                                                         Eugenios ANGELOPOULOS and Mourad LAOUES
+
+
+
+
+arXiv:hep-th/9806100v1 12 Jun 1998
+                                                                  Laboratoire Gevrey de Mathématique Physique
+                                                                        UNIVERSITÉ DE BOURGOGNE
+                                                                              9 avenue Alain Savary
+                                                                      B.P. 400, F-21011 Dijon Cedex, France
+                                                                       [E-mail: physmath@u-bourgogne.fr]
+
+
+
+                                                                                   July 10, 1997
+
+
+
+
+                                         abstract. We determine the representations of the “conformal” group SO 0 (2, n), the
+                                     restriction of which on the “Poincaré” subgroup SO0 (1, n − 1).Tn are unitary irreducible.
+                                     We study their restrictions to the “De Sitter” subgroups SO0 (1, n) and SO0 (2, n−1) (they
+                                     remain irreducible or decompose into a sum of two) and the contraction of the latter to
+                                     “Poincaré”. Then we discuss the notion of masslessness in n dimensions and compare the
+                                     situation for general n with the well-known case of 4-dimensional space-time, showing the
+                                     specificity of the latter.
+
+
+
+
+                                       1
+                                           To be published in Reviews in Mathematical Physics, vol.10 (1998)
+2                                                   E. Angelopoulos and M. Laoues
+
+
+Introduction
+The formulation of a unifying theory which would include all fundamental interactions
+of physics is still an open problem, though the need for it was realized early in this
+century, when modern physics (relativistic and quantum) was introduced and in spite of
+unsuccessful efforts of many of its founders. A major difficulty consists in unifying the
+so-called gauge interactions and gravitation. A number of approaches to this question,
+appearing in various models such as the Kaluza-Klein theories or supergravity [7, 12], use
+an imbedding of the four-dimensional Minkowski space-time into a higher dimensional one
+(that is, Rn endowed with a (1, n − 1)-Lorentz metric), then getting rid of the redundant
+spatial dimensions by various techniques, such as spontaneous compactification.
+    On the other hand, an essential feature of relativity is the boundary character of the
+speed of light, which implies qualitatively distinct behaviours for massless and for massive
+particles. Mathematically, this is expressed by the (1,3) signature of Minkowski space
+and the distinction between the massless and massive case is kinematically expressed by
+distinct types of unitary irreducible representations (UIR) [14] of the kinematic group,
+the Poincaré group P.
+   Masslessness in four dimensions has been quite well studied from the group theoretical
+point of view. We shall start by recalling the relations between P and the De Sitter groups.
+Let Mρ be a four-dimensional manifold with constant curvature ρ. Its isometry group is
+the De Sitter group Gρ , which is isomorphic to SO0 (2, 3) (resp. SO0(1, 4)) if ρ > 0 (resp.
+ρ < 0); a physical reason for the introduction of the curvature is that it provides efficient
+invariant infrared regularization in the limit of zero curvature [4]. Mρ is isomorphic to
+the homogeneous space Gρ /L where L is the Lorentz group SO0(1, 3).
+    In the limit ρ = 0, Mρ becomes the (flat) Minkowski space and Gρ contracts to
+the Poincaré group P. Concerning representations, it may however happen that two
+nonequivalent UIR of Gρ contract to the same massless representation of P. Moreover,
+if ρ < 0, the representations of P one gets by contraction have an unbounded energy
+spectrum.
+    Now the conformal group G = SO0(2, 4) acts on compactified Minkowski space. Mass-
+less UIR of P with discrete helicity extend uniquely to UIR of G acting on the same Hilbert
+space, and are the only ones with this property, besides the trivial [1]. It turns out that
+if such a UIR is extended to G, then restricted to the De Sitter subgroup SO0 (2, 3),
+and finally contracted to P, the initial representation of P is recovered. Therefore, from
+a kinematical point of view, the representations of the De Sitter group SO0 (2, 3) thus
+obtained provide a satisfactory tool for the extension of masslessness on Mρ . Further-
+more one can define a gauge theory in the sense of Gupta-Bleuler and show that massless
+particles propagate on the light cone, and so on [2, 13].
+    Since the geometry of the n-dimensional Minkowski space-time is determined by its
+Lorentzian metric (1, n − 1), its kinematic group is Pn = SO0 (1, n − 1).Tn , and all groups
+related to it (Lorentz, conformal, De Sitter) are similarly defined. It is then natural
+Masslessness in n Dimensions                                                                3
+
+
+to ask which properties of massless UIR of the Poincaré group extend to n dimensions,
+independently of other considerations: this is the purpose of this paper.
+   More precisely, we shall study here the following topics:
+     i) Which UIR U of Pn extend to irreducible representations d of the corresponding
+conformal group Gn = SO0 (2, n)? To be precise we are dealing with projective represen-
+tations but it turns out that all the interesting ones are representations of the twofold
+covering for all groups concerned.
+ii) Is the extended representation d unitary, and is it unique?
+iii) Is the restriction d′ of d on the De Sitter subgroups SO0 (1, n) and SO0 (2, n − 1) irre-
+ducible?
+iv) Can d′ be contracted to the initial one, U?
+    The answers to these questions for n = 4 were given in [2] (except for those concerning
+SO0(1, 4)), some of the results being anterior to that paper: only (and all) UIR with zero
+mass and discrete helicity do extend to Gn with uniqueness and unitarity; the restriction
+to SO0 (2, 3) is irreducible unless the inducing representation of the little group is trivial
+(zero helicity) and it can be contracted back to the initial UIR.
+    For structural reasons (all groups concerned have similar structure and real rank at
+most 2), a straightforward generalization was expected, at least for n even. It turned out,
+however, that though most features do indeed generalize, the constraints on the existence
+of the extension increase significantly with n. To be more precise, U must again be
+massless, that is induced by a UIR S of the little group SO0 (n − 2).Tn−2 (the Euclidean
+group in n − 2 dimensions). Not only S has to be trivial on the translations (the analogue
+of discrete helicity), but it must also be a very degenerate representation of SO0 (n − 2).
+    Acceptable S are characterized by a discrete parameter 2s ∈ Z when n is even (2s is
+the helicity for n = 4), while for n odd S must be either trivial or spinorial. Also, the
+results for the De Sitter subgroup generalize, with the sole exception of the irreducibility
+of d′ for odd n: it reduces into the direct sum of two simple factors for spinorial S too.
+As far as SO0(1, n) is concerned, d′ is always irreducible.
+   We therefore see once more, in this simple (kinematical) group theoretical study, that
+the 4-dimensional space-time of special relativity and the related universes with constant
+curvature are really special. In higher dimensions the notion of masslessness becomes
+more involved and requires, in addition to zero mass, a degeneracy far greater than the
+requirement of discrete helicity in 4 dimensions.
+   The paper is organized as follows. In Section 1 we fix notations for Gn , Pn and the
+normalizer Wn of Pn in Gn . Since we are interested in projective UIR we also present
+their universal coverings; in fact, as we shall see later, only twofold coverings are needed,
+corresponding to the covering of SO(n) by Spin(n). We also identify the compactified
+n−Minkowski space with the quotient Gn /Wn and describe the action of Gn on it. We
+then establish the unitary dual of P n , using the orbit-stabilizer method, and discuss the
+possibility of extending a UIR U to Wn . Propositions 1.1 and 1.2 give the (expected)
+4                                                   E. Angelopoulos and M. Laoues
+
+
+result: U must be massless, and induced by a representation S with trivial restriction on
+the Euclidean translation subgroup.
+    Section 2 is devoted to determine which among the representations d of Gn can be
+viewed as extensions of massless UIR of Pn , using Lie algebraic methods. We begin by
+expressing the weight representations of the complexified so(N)C , in a way which can be
+used both for so(2, n) and for the compact real form so(n − 2) of the little group. We next
+translate into enveloping algebra properties the fact that the squared n-mass operator
+P µ Pµ is mapped to 0 by d, calling such a d a massless representation. After the study
+of low N, we determine the finite-dimensional ones, parameterizing them by a discrete
+parameter (Thm 2.3).
+    We next study infinite-dimensional ones, showing that on every so(n)-type the char-
+acter of the so(2) which commutes with so(n) is fixed and increases in absolute value with
+the Casimir of so(n), keeping a fixed sign. Moreover, the lowest k-type must be a massless
+representation of so(n) itself: this constraint has no effect when n = 4, but does cut off
+a huge part in general (Thm 2.4). Massless representations are unitary and possess an
+extremal weight.
+    In the following paragraph we identify the UIR U S of P n which extend to massless
+UIR of the conformal group Gn . The inducing S must be a finite-dimensional massless
+UIR of SO(n − 2). The expression of the generators of Gn as differential operators is
+uniquely determined by those of Pn .
+    Section 3 discusses De Sitter subgroups. Irreducibility of the restriction is examined
+on k-types, which all have multiplicity one. As for the contraction to Poincaré, the proof
+of [2] extends easily to the general case. The paper ends with a few remarks, where in
+particular we briefly recall and present in the light of the present study the known results
+for the lower dimensional cases n = 3 and n = 2.
+
+    ACKNOWLEDGEMENTS
+    The authors wish to thank Moshé Flato for suggesting the problem and his constant
+interest in this work and Daniel Sternheimer for helpful criticism of the manuscript. This
+work was partially supported by E.U. Program ERBCHRXCT940701.
+Masslessness in n Dimensions                                                                    5
+
+
+1       Poincaré and Conformal Group in n-dimensions
+
+    a) The n-Poincaré group Pn
+    Let n ≥ 3 be a fixed integer. Let {eµ }µ∈J , with J = {0, 1, . . . , n − 1} be a basis of Rn ;
+let J ′ = {1, . . . , n − 1} and define a quadratic form q, such that:
+
+
+(1.1)                          q(e0 ) = 1 = −q(eµ′ )    ∀µ′ ∈ J ′ .
+
+    The associated symmetric bilinear form is denoted by g, with gµν = g(eµ , eν ), which
+is equal to q(eµ ) if µ = ν and equal to zero otherwise. The quadratic space (Rn , q) will
+be denoted R1,n−1 , and called the n-Minkowski space. It can be identified with its dual,
+the dual basis being {eµ }µ∈J , with
+
+                                              ′
+(1.2)                         e0 = e0 and eµ = −eµ′ for µ′ ∈ J ′
+
+and we shall write g µν = g(eµ , eν ), with the same properties as gµν . Any element x ∈
+R1,n−1 has the form:
+
+
+(1.3)                 x = xµ eµ = xµ eµ , with xµ = gµν xν     gµν g µλ = δµλ
+
+where δ is the Kronecker symbol.
+   Remark: The Einstein summation convention over the set J is used in (1.3). It will be
+used throughout this paper. The range of summation will not always be the same, and
+we shall use distinct index variables
+                              X       for distinct ranges of summation. For instance we
+                                    (xµ′ )2 , using the primed letter µ′ instead of µ to avoid
+                 µ′
+shall write xµ′ x instead of −
+                              1≤µ′ ≤n−1
+confusion. If the range of summation is J, greek letters λ, µ, ν, . . . will always be used.
+    The connected component of the Lie group of linear transformations of Rn which
+leave g invariant, SO0 (1, n − 1), will be called the n-Lorentz group and denoted by Ln . Its
+maximal compact subgroup is SO(n − 1). The twofold covering of the latter (universal if
+n > 3) will be denoted by Spin(n − 1) and the corresponding covering of Ln by Ln .
+    The abelian group of translations of Rk , homeomorphic to Rk , will be denoted by Tk ,
+for k ∈ N. The semidirect product Ln · Tn , where Ln acts canonically on Tn , will be called
+the n-Poincaré group and denoted by Pn . Its twofold covering (universal if n > 3) Ln · Tn
+will be denoted by P n .
+   The Lie algebra pn of Pn is spanned by generators Xµν = −Xνµ ∈ ln = Lie (Ln ) and
+Pµ ∈ tn = Lie (Tn ), with µ, ν ∈ J, satisfying the commutation relations
+
+(1.4a)               [Xλµ , Xνρ ] = gµν Xλρ − gλν Xµρ − gµρ Xλν + gλρ Xµν
+6                                                     E. Angelopoulos and M. Laoues
+
+
+(1.4b)                            [Xλµ , Pν ] = gµν Pλ − gλν Pµ
+
+(1.4c)                             [Pλ , Pµ ] = 0
+
+   The element Pµ P µ = g µν Pµ Pν of the enveloping algebra U(pn ) commutes with all
+generators. In the classical case n = 4, when used in theoretical physics, it gives the
+squared mass of a particle.
+
+
+    b) The n-conformal group Gn
+    Let I = {−1, 0, 1, . . . , n} = J ∪ Jˆ with Jˆ = {−1, n}. Extend the basis {eµ }µ∈J of Rn to
+the basis {eA }A∈I of Rn+2 , and extend the quadratic form q to Rn+2 by putting q(e−1 ) =
+1 = −q(en ). The quadratic space thus obtained will be denoted R2,n ; the associated
+symmetric bilinear form will be again denoted by g, with gAB = g(eA , eB ), g AB = g(eA , eB )
+for the dual basis, and gAB g BC = δAC .
+   The connected group SO0 (2, n) which conserves the bilinear form g will be called the
+n-conformal group and denoted by Gn . Its maximal compact subgroup is SO(2) × SO(n),
+with universal covering (for n ≥ 3) R× Spin(n), that is, infinite-fold times twofold. The
+universal covering of Gn will be denoted Gn .
+   The Lie algebra gn of Gn is spanned by generators XAB = −XBA (A, B ∈ I), with
+commutation relations:
+
+
+(1.5)            [XAB , XCD ] = gBC XAD − gAC XBD − gBD XAC + gAD XBC .
+
+      We shall denote by C the Casimir element of the enveloping algebra U(gn ), defined
+by:
+
+                              1          1
+(1.6)                      C = XAB X BA = XAB g BC XCD g DA .
+                              2          2
+     The stabilizer of the basis elements e−1 , en is obviously Ln . Moreover, the set of
+generators Xµ,−1 ± Xµ,n (µ ∈ J) spans an n-dimensional abelian subalgebra isomorphic to
+tn , on which ln acts like (1.4b), for either choice of the ± sign. The corresponding group
+elements have the (n + 2) × (n + 2) matrix form:
+
+                                                                               
+                                            1 − q(t)/2      t      ±q(t)/2
+                                                                               
+                                                                               
+                expt (Xµ,−1 ± Xµ,n ) = 
+                    µ                      #                         #          
+(1.7)                                   −t                1In     ±t           
+                                                                               
+                                         ∓q(t)/2           ±t      1 + q(t)/2
+
+where t# is the column vector (tµ ) and t the line vector (tµ ).
+Masslessness in n Dimensions                                                              7
+
+
+    The two Poincaré subgroups thus obtained are conjugated in Gn , through the involu-
+tionary mapping:
+                                  Θ = Adexp(πXn−1,n ) .
+We shall write hereafter
+
+
+(1.8)                  Pµ = Xµ,−1 + Xµ,n        ;    P̂µ = Xµ,−1 − Xµ,n
+
+and we shall identify Tn as the subgroup spanned by exp(tµ Pµ ); the “other” translation
+subgroup will be denoted T̂n , and the corresponding n-Poincaré subgroups Pn and P̂n .
+The twofold covering P n is a subgroup of Gn (for n = 3 the universal covering of Pn is
+not contained in Gn ).
+   The remaining generator D = Xn,−1 will be called the dilatation, it commutes with
+the Lorentz generators and its nonzero commutation relations are
+
+
+(1.9)                       [D, Pµ ] = Pµ   ;       [D, P̂µ ] = −P̂µ
+
+   One also has:
+
+
+(1.10)                          [Pµ , P̂ν ] = −2(Xµν + gµν D)
+
+   The normalizer Wn of Pn in Gn is the semidirect product Yn ·Tn , with Yn = A×(W ·Ln ),
+where A = {exp tD}t∈R and W = {1, w} is a group of order two, with w = exp(π(X0,−1 +
+Xn−1,n )). The action of w on Pµ is given by:
+
+
+(1.11)         Adw (Pµ ) = ǫµ Pµ ; ǫ0 = ǫn−1 = 1; ǫj = −1 if 1 ≤ j ≤ n − 2.
+
+   W · Ln is the non-connected group SO(1, n−1). The group Wn is a maximal parabolic
+subgroup of Gn . The same holds for the normalizer Ŵn = Yn · T̂n of P̂n , and one has the
+Bruhat-type decomposition:
+
+
+(1.12)                       Gn ≃ T̂n Yn Tn = Ŵn Tn = T̂n Wn
+
+that is, the set of elements which can be written in this form is a Zarisky open in Gn . To
+be more precise, Pn (resp. P̂n ) stabilizes the point e = e−1 + en (resp. ê = e−1 − en ) of
+Rn+2 . The orbit of e under Gn is the isotropic cone minus the origin, that is Gn /Pn =
+Q = {y, y ∈ Rn+2 /y 6= 0 and yA y A = 0}. The group A × W sends e to λe (and ê to
+λê), λ ∈ R − {0}, so that Gn /Wn = C0 = Q/(R − {0}) ∼      = (S1 × Sn−1 )/Z2 is the set of
+directions of Q. The translation group Tn stabilizes the direction λe and acts transitively
+on the complementary subset of C0 . Thus the complementary subset of Ŵn Tn in Gn is
+{g; ge ∈ e⊥ }.
+8                                                         E. Angelopoulos and M. Laoues
+
+
+   C0 is thus diffeomorphic to the compactified Tnc of Tn , that is Tnc = R1,n−1 ∪ C∞ where
+C∞ is the (n − 1)-dimensional compactified “light cone at infinity” [3][8][13]. Writing R2,n
+and R1,n−1 as line vectors we have the imbedding ϕ from R1,n−1 to Q:
+
+
+(1.13)                                  ϕ(t) = e′ exp(tµ Pµ )
+
+with e′ = (1, 0, . . . , 0, 1); using (1.7) one has:
+
+
+(1.14)                            ϕ(t) = (1 − q(t), 2t, 1 + q(t)).
+
+   One can thus define almost everywhere an action of Gn on R1,n−1 by means of the
+decomposition (1.12), writing, for t ∈ Tn and g ∈ Gn
+
+
+(1.15)                    tg = γ(t, g)t′    ;   γ(t, g) ∈ Ŵn , e′ g = ϕ(t′ )
+
+   Clearly, if g = (∧, x) ∈ Wn with ∧ ∈ Yn , x ∈ Tn , one has t′ = t ∧ +x; if g = x̂ =
+exp(x̂µ P̂µ ) ∈ T̂n one gets
+
+(1.16)                     t′ = (t − (tµ x̂µ )x̂)(1 − 2tµ x̂µ + q(t)q(x̂))−1
+
+and t′ is defined when the denominator does not vanish. Elements of T̂n acting on Tn are
+called special conformal transformations.
+
+    c) Representations of Pn and Gn
+     We are interested in determining which unitary irreducible representations of P n can
+be extended to Gn , or, conversely, which ones of Gn remain irreducible when restricted to
+P n . It will appear that they can all be realized as functional spaces over the n-Minkowski
+space. We shall here begin by studying the UIR of P n and operate a first selection among
+them; in the next chapter we shall study the representations of Gn which satisfy the
+necessary constraints, and give a complete description of the possible cases.
+   Since Pn = Ln · Tn is a semidirect product with abelian normal subgroup Tn , its UIR
+are determined by the theory of Mackey [10]: let O be an orbit of the dual of Tn under
+the action of Ln , and Γ the stabilizer of a point in O; every UIR of Pn is equivalent
+to a representation U S induced by a UIR S of Γ. Different orbits, or non-equivalent
+representations of Γ for the same orbit, induce non-equivalent UIR of Pn .
+   To construct U S one may proceed as follows: let V be the representation space of S;
+denote by x 7−→ xh the action of Ln on O, with x ∈ O and h ∈ Ln ; let ξ be the point of
+O stabilized by Γ, and let x 7−→ τx be a smooth injective mapping from O to Ln , so that
+x = ξτx ; denote by γ(x, h) the unique element of Γ satisfying γ(x, h)τ(xh) = τx h; let dµ
+be a quasi-invariant measure on O and let α be the positive function of O × Ln such that
+Masslessness in n Dimensions                                                                          9
+
+
+dµ(xh) = α(x, h)dµ(x). Let H = L2 (O, V, dµ) be the Hilbert space of V -valued functions
+f such that:                  Z
+                                           ||f (x)||2V dµ(x) < ∞.
+                                       O
+
+    For h ∈ Ln , t ∈ Tn and f ∈ H define U S , acting on H, by:
+                         S
+(1.17)                 [U(h,t) f ](x) = [α(x, h)]1/2 .exp[ig(x, t)]Sγ(x,h) f (xh)
+
+where i2 = −1.
+    One thus has to determine the partition of the n-Minkowski space into orbits under
+Ln , and the corresponding stabilizers and their UIR. For n = 4 this was done by E.P.
+Wigner, who also established all the theoretical background neaded for this purpose, in
+a famous paper [4], anterior to the formulation of the general theory by G. Mackey. For
+other n ≥ 3, the resolution into orbits is a straightforward generalization of Wigner’s
+results; it is given in Table 1.
+
+            Table 1: Orbits and little groups for the n-Poincaré group
+
+             Type              Orbit        Stabilized point                Stabilizer
+                0              x=0                  0                          Ln
+               I±        q(x) = 0, ±x0 > 0   ±(e0 + en−1 )                    En−2
+             II±|m|
+                               2
+                      q(x) = m > 0, ±x0 > 0     ±|m|e0                     Spin(n − 1)
+                                     2
+             III|m|       q(x) = −m < 0         |m|en−1                   Spin(1, n − 2)
+
+
+    In Table 1 the parameter |m| runs over positive real numbers; Spin(1, n − 2) denotes
+the twofold covering of SO0 (1, n − 2) (for n = 3 this covering is merely SO0 (1, 1) × Z2 );
+En−2 is the twofold covering of the Euclidean group in n−2 dimensions, Spin(n−2) · Tn−2
+(for n = 3 this reduces to Z2 × T1 ).
+   One can immediately establish:
+Proposition 1.1: The UIR of P n corresponding to orbits of types II, III and 0 (with the
+exception of the trivial one) cannot be extended to UIR of Gn .
+   Proof: UIR of type 0 have trivial restriction on Tn . Since gn = tn ⊕[t̂n , tn ]⊕[t̂n , [t̂n , tn ]],
+the trivial representation of P n is the only possibility.
+    Concerning types II and III, let U e be the UIR of Gn obtained by extending U. Since
+the parabolic subgroup Wn = Yn .Tn contains Pn , the restriction of U     e on Wn must also be
+irreducible. Since Wn is a semidirect product, its UIR are again obtained by the orbit-
+stabilizer method. It turns out that the orbits of Tn under Wn are x = 0, xµ xµ = 0, xµ xµ <
+                                                                                             e to
+0, and xµ xµ > 0, with sign(x0 ) fixed if xµ xµ ≥ 0; thus, if xµ xµ 6= 0, the restriction of U
+Pn is a direct integral, of representations over the parameter |m|, which is not irreducible.
+                                                                                               ✷
+10                                                          E. Angelopoulos and M. Laoues
+
+
+    So let us focus to UIR of type I, called massless hereafter, by reference to the n = 4
+case. Since Ln is an invariant subgroup of Y n , both groups acting on the same ho-
+mogeneous space O, En−2 is an invariant subgroup of Γ′ , the stabilizer of ξ in Y n , and
+Y n /Ln = W × A ≈ Z2 × R+∗ is isomorphic to Γ′ /En−2 . More precisely one has
+
+
+(1.18)                          Γ′ = (W × A′ × Spin(n − 2)).Tn−2
+
+such that Lie (Tn−2 ) is generated by elements Lj = Xj0 + Xj,n−1, 1 ≤ j ≤ n − 2;
+Lie (Spin(n − 2)) = so(n − 2) is generated by Xj,k , 1 ≤ j, k ≤ n − 2; A′ = {expt(X0,n−1 +
+Xn,−1 )}t∈R ≈ R+∗ and W = {1, expπ(X0,−1 + Xn−1,n )}; Γ′ consists of the elements of Gn
+which commute whit P0 + Pn−1 = X0,−1 + X0,n + Xn−1,−1 + Xn−1,n .
+    Let S ′ be the inducing representation of Γ′ and S its restriction to En−2 , so that U S
+                                                   ′
+is the restriction to P n of the representation U S of W n . Since U S must be irreducible, S
+must be irreducible too.
+   To determine the UIR of Γ′ , one can again apply Mackey’s theory of resolution into
+orbits. Without entering into many details, one can see that W × Spin(n − 2) stabilizes
+                  n−2
+                  X
+the “length” x2 =     (xj )2 = −xj xj of an element x of Tn−2 , acting transitively on the
+                         j=1
+corresponding sphere.
+    On the other hand, λ ∈ A′ acts as a dilatation on Tn−2 , sending x to λx. If S ′
+corresponds to a nonzero orbit, its restriction S is a direct integral of representations and
+U S is reducible. This leaves us with:
+Proposition 1.2: A necessary condition for a massless representation U S of P n to
+extend to Gn is that the inducing representation S is a (finite-dimensional) UIR of
+Spin(n − 2).Tn−2 with trivial restriction to the normal subgroup Tn−2 .          ✷
+    For every such choice of S and for either choice of sign(x0 ), U S extends to W n , since
+S always extends to S ′ : one can always do this by choosing a one-dimensional UIR of
+A′ × W the choice being of course not unique. To see if the extension to Gn is possible, we
+shall use Lie algebraic methods. Before proceeding further, we shall give the expression
+of the infinitesimal operators of P n , acting on a dense subspace of analytic vectors of H,
+the representation space of U S .
+     To be more precise about H, the orbit O can be parametrized by Rn−1 − {0} : if
+                                       n−1
+                                       X
+(x0 , ~x) ∈ Tn is in O, let ||~x|| = (     x2µ′ )1/2 . Since the orbit is massless, one has x20 = ||~x||2 ,
+                                     µ′ =1
+                   n−1
+so that if ~x ∈ R  − {0} is given, x0 is fixed, its sign being determined by the choice of
+O. The quasi-invariant measure dµ is defined by
+
+
+(1.19)                                   dµ(x) = dn−1~x/||x||.
+Masslessness in n Dimensions                                                                  11
+
+
+    In fact dµ turns out to be invariant under the action of Ln (but not under the action
+of dilatations), so that the factor α in (1.17) equals 1. Putting Sjk = dS(Xjk ) acting on
+V , one obtains the following expressions:
+
+                                          √
+                     
+                      Pµ            =         −1 xµ
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                      Xjk           = Ljk + Sjk          , 1 ≤ j, k ≤ n − 2
+                     
+                     
+                     
+(1.20)                 Xj,n−1        = Lj,n−1 + Bj , 1 ≤ j ≤ n − 2
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                      X0j           = x0 ∂j + Bj         , 1≤j ≤n−2
+                     
+                     
+                     
+                     
+                     
+                       X0,n−1        = x0 ∂n−1
+
+where
+
+                                                                             n−2
+                                                                             X
+(1.21)          Lµ′ ν ′ = xµ′ ∂ν ′ − xν ′ ∂µ′ ,     Bj = (x0 + xn−1 )   −1
+                                                                                   xk Sjk .
+                                                                             k=1
+
+   We recall that we use the standard notation
+
+                                       ′
+(1.22)                ∂µ′ = ∂/∂xµ = −∂/∂xµ′                  (1 ≤ µ′ ≤ n − 1).
+
+   This implies in particular:
+
+
+(1.23)                                     [∂µ′ , x0 ] = −xµ′ /x0
+
+   It is clear that U S sends to zero the central element P µ Pµ of U(pn ). This feature will
+be the startpoint for the study of representations of gn , candidates to solve the problem.
+12                                                   E. Angelopoulos and M. Laoues
+
+
+2       Representations of so(2, n) sending PµP µ to 0
+
+     a) Weight representations of so(N)C and the Casimir element
+    Let g be a symmetric nondegenerate bilinear form on RN , I a set of cardinality
+N, {eA }A∈I a basis of RN and gAB = g(eA , eB ). The orthogonal Lie algebra g = so(N, g)
+is spanned by generators XAB = −XBA such that
+
+
+(2.1)         [XAB , XCD ] = gBC XAD − gBD XAC − gAC XBD + gAD XBC
+their action on RN being (with bracket notations)
+
+
+(2.2)                          [XAB , eC ] = eA gBC − eB gAC
+    If {eA } is the dual basis, with < eA , eB >= δBA , denoting by g again the associated
+bilinear form on the dual, with g(eA , eB ) = g AB , nondegeneracy implies g AB gBC = δCA .
+    We shall use the tensor g for raising and lowering indices, writing for instance XA B
+for XAC g CB .
+   The complexified Lie algebra gC is independent of the choice of g (up to isomorphism),
+the various real forms being obtained by a suitable choice of the basis {eA }, fixing RN in
+CN .
+    We shall now introduce a Cartan subalgebra and a Borel-type decomposition in gC as
+follows:
+Proposition 2.1: Let the indexing set I be {1, . . . , N} and assume (gAA )2 = (g AA )2 = 1,
+for every A ∈ I. Fix the constant γ by γ = N/2 − Rank(g), that is γ = 0 if N is even
+and γ = 21 if N is odd. Let Iˆ = {γ + 1, γ + 2, . . . , N/2} be an indexing set of cardinality
+                                              ˆ fix the constant ηa such that
+Rank (g); let qA = g(eA , eA ); for every a ∈ I,
+
+
+(2.3)                                  ηa2 = −q2a−1 q2a
+(Lence ηa4 = 1 and ηa∗ = ηa−1 = ηa3 ) and define Ha ∈ gC by:
+
+
+(2.4)                                 Ha = ηa X2a−1,2a
+   The eigenvalues of adHa are 0, +1, −1; for every index A′ ∈ I − {2a − 1, 2a}, the linear
+combinations
+                        
+                          +
+                      
+                       X a ′ = X2a,A′
+                      
+                                 A
+                                                   + ηa q2a X2a−1,A′
+(2.5)                     
+                      
+                      
+                       X −a          = X2a−1,A′ + ηa q2a−1 X2a,A′
+                                 A′
+Masslessness in n Dimensions                                                                    13
+
+
+are eigenvectors of adHa , satisfying:
+                                                     
+                               ±                        ±
+                  
+                     [Ha , X a ]                = ± X a
+                  
+                             A  
+                                    ′                       A′
+                             +          −
+(2.6)                 ηa [X a      , X a ] = 2 (XA′ B′ + gA′ B′ Ha )
+                
+                           A′   B ′                      
+                
+                 [X +a               +               −         −
+                                 ,X a ]          = [X a     ,X a ] = 0
+                             A ′        B ′             A ′       B′
+                                             ′
+                                             ǫ ǫ
+    Similarly the linear combinations X a b defined by:
+                                                                  
+                         ε +     ε                                    ε
+                      
+                       X a b = X a                        + ηb q2b X a
+                                  2b                                   2b−1
+(2.7)                     ε −                                          
+                      
+                                 ε                                      ε
+                       X a b = X a                        + ηb q2b−1 X a
+                                                    2b−1                         2b
+
+are simultaneous eigenvectors for every adHc , belonging to the eigenvalue ε1 if c = a, to
+ε′ 1 if c = b and to 0 otherwise.
+   Then:
+   1) The elements Ha span a Cartan subalgebra h of gC .
+                   ±           ˆ A′ < 2a − 1} span a nilpotent subalgebra n± of gC , for
+   2) The set {X a       , a ∈ I,
+                             A′
+either choice of the ± sign, such that n− ⊕ h ⊕ n+ is aBorel-type decomposition of gC .
+                                                            + −
+     3) When N is an even integer, all elements X a b together with h span a subalgebra
+                                                
+                                             ± ±
+l isomorphic to gl(N/2), while elements X a b span abelian subalgebras n±± , such that
+l ⊕ (n++ ⊕ n−− ) is a Cartan decomposition of gC corresponding to the real form so∗ (N).
+    4) A Cartan-Weyl basis of gC is
+                                                            
+                            i√           ε ε′              ′
+                     B0 =      ηa ηb X           , ε = ±, ε = ±
+                            2            a b                     a<b
+if N is even and
+                                             r               
+                                            ηa     ε
+                         B1/2 = B0 ∪           X         ,ε = ±
+                                            q1     a 1            a
+if N is odd. Indeed one has, if {ea }a is the dual basis of {Ha }a :
+                                                       
+             i√           + ±         i√           − ∓
+             2
+                ηa ηb X             , 2 ηa ηb X               = Ha ± Hb
+                          a b                       a b
+                                                                                       
+                    √                 ± ±                           √                 ± ±
+               H, 2i ηa ηb    X                  = ±(ea + eb )(H) 2i ηa ηb   X
+                                      a b                                             a b
+                                                                                       
+                    √                 ± ∓                           √                 ± ∓
+               H, 2i ηa ηb    X                  = ±(ea − eb )(H) 2i ηa ηb   X
+                                      a b                                             a b
+14                                                      E. Angelopoulos and M. Laoues
+
+
+and, if N is odd:        hq            q       i
+                              ηa      +    ηa    −
+                              q1
+                                 X    a ,  q1
+                                              X  a   = 2Ha
+                                        1            1
+                         h q        i          q       
+                                    ±                    ±
+                          H, ηqa1 X a   = ±ea (H) ηqa1 X a .
+                                            1                         1
+     The root system is thus given by
+
+                            ∆0 = {εea + ε′ eb , ε = ±, ε′ = ±}a<b
+
+if N is even and
+                                 ∆1/2 = ∆0 ∪ {εea , ε = ±}a
+if N is odd
+                                                                 
+                                                            ±
+Remark: If q2a = −q2a−1 then the elements Ha and X               belong to the real form
+                                                            a A′
+g from which we started: with suitable modification of the indexing set I, one sees that
+the dilatation operator or the Poincaré translations Pµ , imbedded in the conformal Lie
+algebra, are of this form. On the contrary, such elements do not belong to the real form
+when q2a = q2a−1 since ηa is imaginary.
+     We are now interested in relating the eigenvalue of the Casimir element C of g, defined
+by
+
+                             1                   1
+(2.8)                     C = XAB g BC XCD g DA = XAB X BA
+                             2                   2
+to the extremal weight which defines a finite-dimensional irreducible representation D of g.
+Though this result is classical, we shall give some details in view of further developments.
+   So let I = I ′ ∪ I ′′ , with I ′ = {1, . . . , N − 2} and I ′′ = {N − 1, N}. Splitting the
+summations one has:
+
+(2.9)                                  C = C ′ + C ′′ + B
+
+where C ′ is the Casimir element of so(N − 2) and C ′′ that of the complementary so(2),
+that is
+                                 1
+                       C ′′ =    2
+                                   (XN −1,N X N,N −1 + XN,N −1 X N −1,N )
+
+(2.10)                      = −q N q N −1 (XN −1,N )2
+
+                            = (ηN/2 XN −1,N )2 = (HN/2 )2
+while
+
+                                                         ′′   ′
+(2.11)                                 B = −XA′′ A′ X A A
+Masslessness in n Dimensions                                                                                     15
+
+
+where primed and double-primed indices are summed over the sets I ′ and I ′′ respectively.
+    Develop now the expression BA−+                                 ′   ′   ′
+                                  ′ B ′ , symmetric in the indices A , B ∈ I , defined as
+
+follows:
+
+                                            −               +               −            +
+             BA−+
+                ′ B′ =           1
+                                   η (X
+                                 2 N/2
+                                             N/2        X     N/2          +X   N/2        X   N/2        )
+                                                   A′                 B′              B′             A′
+
+                                 1
+                     =             η (XN −1,A′ + ηN/2 qN −1 XN,A′ )(XN,B′ + ηN/2 qN XN −1,B′ )+
+                                 2 N/2
+
+                                 1
+                                   η (XN −1,B′ + ηN/2 qN −1 XN,B′ )(XN,A′ + ηN/2 qN XN −1,A′ )
+                                 2 N/2
+
+                                 1
+                     =             (η (XN −1,A′ XN,B′ − XN,A′ XN −1,B′ )−
+                                 2 N/2
+(2.12)
+                             (q N −1 XN −1,A′ XN −1,B′ + q N XN,A′ XN,B′ ))
+
+                             + 21 (ηN/2 (XN −1,B′ XN,A′ − X,N B′ XN −1,A′ )−
+
+                             (q N −1 XN −1,B′ XN −1,A′ + q N XN,B′ XN,A′ ))
+
+                     = −HN/2 gA′ B′ − 12 g A B (XA′′ A′ XB′′ B′ + XA′′ B′ XB′′ A′ )
+                                                         ′′   ′′
+
+
+
+
+                         ′   ′
+   Summing with g A B over the set I ′ of cardinality N − 2 yields:
+
+
+(2.13)                                      B = (N − 2)HN/2 + B −+
+
+where B −+ = BA−+       AB   ′    ′
+                 ′ B′ g    (notice that the permutation N ←→ N − 1 exchanges the +
+and − signs and transforms HN/2 to −HN/2 , while B is left unchanged). Thus one has
+
+(2.14)                                C = HN/2 (HN/2 + N − 2) + C ′ + B −+
+
+   Let now V be a finite-dimensional irreducible g-module, corresponding to the repre-
+sentation D. Let sN/2 be the eigenvalue of D(HN/2 ) with maximal real part, and let V ′
+be the subspace
+
+(2.15)                                 V ′ = {ϕ ∈ V ; D(HN/2 )ϕ = sN/2 ϕ}
+
+   If N = 2, then dim V = dim V ′ = 1since                                         2
+                                           the Lie algebra is abelian, and D(C) = s1 =
+                                                         +
+D(H12). If N > 2, then V ′ ⊆ ker D(X                    N/2         ) for every A′ ∈ I ′ . It follows that V ′ is an
+                                                               A′
+irreducible g′ -submodule, where g′ = so(N − 2) is the subalgebra generated by XA′ B′ with
+A′ , B ′ ∈ I ′ and also D(BA−+                     ′
+                             ′ B ′ ) vanishes on V . Moreover, D is integrable to the compact
+
+real form since V is finite dimensional, so that D(Ha ) and ±D(Hb ) are conjugate for any
+choice of + or − and of a, b in I:    ˆ it can be proved that this implies that every eigenvalue
+of D(Ha ± Hb ) (hence 2D(Ha )) is an integer; in particular, 2sN/2 ∈ N.
+16                                                                           E. Angelopoulos and M. Laoues
+
+
+     If N = 3, then g′ = {0}, C ′ = 0, dim V ′ = 1 and one gets the well known formula
+
+
+(2.16)                                          D(C) = s(s + 1), with s = s3/2
+
+   If N > 3, one may apply the same procedure to the g′ -module V ′ , introducing the
+maximal eigenvalue sN/2−1 of D(HN/2−1 ) restricted on V ′ , and so on. Taking in account
+that |sa | ≤ |sa+1 | because D(Ha ) and D(Hb) are conjugate for every a and b, one easily
+gets by induction:
+Theorem 2.1: The extremal weight of an irreducible finite-dimensional representation
+D of so(N), N > 2, is determined by a sequence of positive numbers sa , a ∈ ˆ
+                                                                            I, satisfying
+sa+1 − sa ∈ N, 2sa ∈ N, and such that
+
+
+                                                              N/2
+                                                              X
+(2.17)                                          D(C) =                sa (sa + 2a − 2).
+                                                           a=γ+1
+
+
+    There is an extremal weight vector ϕ 6= 0, spanning a one-dimensional subspace in-
+variant by the Borel subalgebra h ⊕ n, such that
+
+                                          D(n+ )ϕ = {0}, D(Ha)ϕ = sa ϕ if a > 1
+
+and, when N is an even integer, D(H1 ) = ±s1 ϕ (representations with different choice of
+sign being inequivalent).                                                             ✷
+   One can also show that D is determined by the extremal weight up to equivalence,
+and that the representation space is D(U(n− ))ϕ. We shall denote such a representation
+here after by D(sN/2 , sN/2−1 , . . . , s1+γ ).
+   The corresponding Coxeter-Dynkin diagrams are:
+
+         2S         S     -S                           S     -S                S     -S
+          3/2       5/2        3/2                         a+1 a               N/2        N/2-1
+                                                                                                  (Nodd)
+
+
+
+
+     S          S
+     2          1
+
+
+
+                    S -S             S -S              S     -S                S     -S
+                    3          2      4     3          a+1        a            N/2        N/2-1
+
+                                                                                                  (Neven)
+
+
+
+
+     S          S
+     2          1
+Masslessness in n Dimensions                                                              17
+
+
+Remark: Extremal weight representations of g with arbitrary range of the sa ’s can be
+defined, so that (2.17) still holds: I being the left ideal of U(g) corresponding to a one-
+dimensional representation of h ⊕ n+ , the left regular representation on U(g)/I has the
+desired form. Integrability over some real form implies restrictions on the range of sa . In
+                                                                N −2,ε
+particular, for the real form so(2, N − 2), we shall denote by d(α,~
+                                                                   s) such a representation,
+                                                         N −2,ε
+where ε ∈ {−1, +1} and 2α 6∈ N; the spectrum of d(α,~s) (−εHN/2 ) is {α−k, k ∈ N} and the
+eigenspace corresponding to the maximal eigenvalue α is an irreducible so(N − 2)-module
+corresponding to the weight ~s = (s(N −2)/2 , . . . , s1+γ ).
+
+    b) Massless representations:
+    Let us define the elements F̄AB of the enveloping algebra U of g = so(N)C by:
+
+                    1                                             1
+(2.18)        F̄AB = (XAC g CD XDB + XBC g CD XDA ) = XA C XCB − ( N − 1)XAB
+                    2                                             2
+and the elements FAB as:
+
+                                       1                       2
+(2.19)                  FAB = F̄AB −     gAB F̄CD g CD = F̄AB − g AB C
+                                       N                       N
+   The elements FAB are symmetric in the indices A, B (as well as the F̄AB ) and they
+span an irreducible g-submodule F of g ⊗ g under ad ⊗ ad. For N > 2 the dimension of
+F is N(N + 1)/2 − 1 = (N − 1)(N + 2)/2 (for N = 2, F is {0}); F is isomorphic, as a
+g-module, to the Cartan subspace p in the Cartan decomposition sl(N) = so(N) ⊕ p of
+sl(N).
+    Since F is irreducible, for every Y ∈ F the two-sided ideal U Y U of U contains F ; it
+follows:
+Lemma 2.1: Given a representation U of g, if there is Y ∈ F such that U(Y ) = 0, then
+U(Y ′ ) = 0 for every Y ′ in U Y U, and, in particular, for every Y ′ ∈ F .         ✷
+   Split now the indexing set I into two disjoint sets I ′ and I ′′ = {S, T }. Let, as in the
+preceeding section, η be such that η 2 = −g SS g T T and let H = ηXST . The eigenvectors of
+adH are given by:
+
+
+(2.20)                  XA+′ = XSA′ − ηqS XT A′ ; XA−′ = XT A′ + ηqT XSA′
+
+for every A′ in I ′ .
+    Summing over A′ ∈ I ′ these expressions one gets
+
+                           ′   ′                                              4
+(2.21)         ηXA±′ XB∓′ g A B = −η 2 (qT FS + qS FT ) − 2H 2 ± (N − 2)H +     C
+                                                                              N
+18                                                                  E. Angelopoulos and M. Laoues
+
+
+and
+
+
+                               XA+′ XB+′ g A B
+                                              ′    ′
+                                                       = FT T − 2ηqT FST − η 2 FSS
+(2.22)
+                               XA−′ XB−′ g A B
+                                              ′    ′
+                                                       = FSS − 2ηqS FST − η 2 FT T
+
+    One thus gets:
+Lemma 2.2: For every generator XST with qS2 = qT2 = 1, the expressions XA±′ XB∓′ g A B ,
+                                                                                           ′ ′
+
+
+in which the summation runs over I − {S, T } and the XA±′ are the eigenvectors defined in
+(2.20), belong to F . In particular, if N = n + 2, I = {−1, 0, 1, . . . , n}, {ST } = {−1, n},
+the element Pµ P µ of the Poincaré enveloping algebra, canonically imbedded in U(so(2, n)),
+belongs to F .                                                                               ✷
+   From these two lemmas it follows:
+Proposition 2.2: If a representation U of U(so(2, n)) satisfies U(Pµ P µ ) = 0, then U
+vanishes on F .                                                                      ✷
+     Such a representation will be called massless hereafter.
+     We shall begin the study of massless representations by establishing:
+Proposition 2.3: Let U be a representation of g which vanishes on F . Let N = N ′ +N ′′
+be any splitting of N into two positive integers, I = I ′ ∪ I ′′ the corresponding splitting
+of the indexing set, g′ = so(N ′ ) and g′′ = so(N ′′ ) the corresponding subalgebras. Their
+Casimir elements C ′ and C ′′ are related to the Casimir element C of g by:
+
+
+                                          ′          N ′ − N ′′
+                                                          ′′
+(2.23)                               U(C ) − U(C ) =            U(C)
+                                                         N
+     In particular, if N ′′ = 1 and I ′′ = {1} one has:
+
+                                                               N −2
+(2.24)                                            U(C ′ ) =         U(C)
+                                                                N
+
+
+                                                                   2q1
+(2.25)                                  U(g AB X1A XB1 ) =             U(C)
+                                                                   N
+    Proof: Using distinct summations over I ′ , I ′′ and using the definition of FA′ B′ one has
+                   ′ ′            ′ ′            ′ ′                    ′′ ′′       2g
+                g A B FA′ B′ = g A B (XA′ C ′ g C D XD′ B′ + XA′ A′′ g A B XB′′ B′ − AN′ B′ C)
+(2.26a)
+                                                                          ′
+                             = 2C ′ + XA′ A′′ XB′′ B′ g A B g A B − 2N
+                                                         ′ ′   ′′ ′′
+                                                                        N
+                                                                            C
+                                                                                        ′′
+                  g A B FA′′ B′′ = 2C ′′ + XA′′ A′ XB′ B′′ g A B g A B − 2N
+                     ′′   ′′                                          ′   ′   ′′   ′′
+(2.26b)                                                                   N
+                                                                            C
+and by substraction one gets the desired result, since U vanished on F .                       ✷
+Masslessness in n Dimensions                                                                   19
+
+
+   Let us now determine the irreducible massless representations. Starting from low
+values of N, one first establishes:
+Theorem 2.2: For N = 2, every representation is massless, F being {0}.
+For N = 3 the only irreducible massless representations are the trivial and the spinorial
+(two-dimensional) one. For N = 4, if g = g1 ⊕ g2 is the decomposition of so(4) into two
+ideals, each isomorphic to so(3), an irreducible representation is massless if and only if it
+vanishes on either g1 or g2 .
+    Sketch of the proof: For N = 3, g ⊗ g = F ⊕ g ⊕ C.C, and one can show (we leave
+this to the reader) that (C − 34 ).g belongs to the ideal U F U, so that the quotient is a
+five-dimensional complex algebra, which turns out to be EndC (C2 ) ⊕ C.
+  For N = 4 one first sees that F is the span of all elements X1 X2 with Xi ∈ gi sot that
+UF = F U is the intersection of the two maximal ideals g1 U and g2 U, hence the result.✷
+   So, from now on we shall suppose N ≥ 5.
+   Examining first the finite-dimensional case one gets:
+Theorem 2.3: A representation D(sN/2 , . . . , s1+γ ) is massless if and only if |sa | = s for
+every a ∈ Iˆ where if N is even (and γ = 0) then 2s ∈ N while if N is odd (γ = 12 ) then
+s ∈ {0, 12 }. The corresponding value of the Casimir element is
+
+                                     1        1
+(2.27)                          C = Ns(s + N − 1).
+                                     2        2
+    Moreover, if N is even, an extremal weight subspace carries a one dimensional rep-
+resentation of the parabolic subgroup gl(N/2) ⊕ n++ , with trivial action of sl(N/2) and
+n++ .
+    Proof: We shall calculate F̄AB on an extremal vector ϕ. Using the notations of the
+preceeding section and taking in account that n+ vanished on ϕ, let A, B < 2a − 1 for
+some a ∈ ˆI; a calculation similar to (2.12) yields:
+                         X       1
+(2.28)                             (XAi XjB + XBi XjA )g ij ϕ = Ha gAB ϕ
+                                 2
+                       i,j∈{2a−1,2a}
+
+   On the other hand, let I ′ = {1, . . . , 2b} and I ′′ (b) = {2b − 1, 2b} ⊂ I ′ . Using distinct
+summations on primed and double-primed indices, with A′ , B ′ ∈ I ′ and A′′ , B ′′ ∈ I ′′ (b),
+one has, using inductively (2.12):
+
+                            ′′   ′′                  ′   ′
+(2.29)                  g A B XA′′ A′ XB′ B′′ GA B ϕ = Hb (2Hb + 2b − 2)ϕ
+hence
+
+                       X                 ′′   ′′
+                                                                                 X
+(2.30)                                 g A B F̄A′′ B′′ ϕ = 2[Hb (Hb + b − 1) +         Ha ]ϕ
+                A′′ ,B ′′ ∈{2b−1,2b}                                             a>b
+20                                                          E. Angelopoulos and M. Laoues
+
+
+     Since FA′′ B′′ vanishes, one obtains:
+                                2                         X
+(2.31)                            Cϕ = [Hb (Hb + b − 1) +   Ha ]ϕ
+                                N
+                                                               a>b
+
+    Equalling the expressions obtained for b and b + 1, one gets for consecutive eigenvalues
+sb and sb+1 :
+
+
+(2.32)        0 = sb (sb + b − 1) − sb+1 (sb+1 + b − 1) = (sb − sb+1 )(sb + sb+1 + b − 1)
+
+   For b ≥ 1 and N odd or b > 1 and N even one has 0 ≤ sb ≤ sb+1 so that one must
+have sb = sb+1 , and for b = 1, N even, (2.32) becomes |s1 | = |s2 |, so that s = |sa | is
+constant. For b = N/2, (2.31) gives the values of the Casimir.
+   For N odd one also has, by taking A = B = 1 in (2.28) and summing all over a ∈ I:   ˆ
+
+                         X        1          2         1
+(2.33)                        sa = (N − 1)s = C = s(s + N − 1)
+                            ˆ
+                                  2          N         2
+                          a∈I
+
+hence s(s − 21 ) = 0.               
+                              ε ε′
+     Notice also that X       a b        ϕ = 0 unless ε = ε′ = −, because otherwise an eigenvalue
+equal to s + 1 would appear for some Ha , which is impossible. Since also Ha − Hb vanishes
+on ϕ, ϕ spans a one-dimensional representation of gl(N/2) ⊕ n++ for even N, as stated.
+   It remains to show every representation of this form is a massless one. If s = 0 we
+have the trivial one which is massless, and if s = 21 we have a spinorial representation D
+and Ker D is a bilateral ideal of U containing F ; this ends the odd N case. For even N
+and s ≥ 1 one has D(g.g)ϕ = (D(n−− .n−− ) + D(n−− ) + C)ϕ.
+    Diagonalizing the space F with respect to the Cartan subalgebra h one gets, among
+others, elements Fa++ and Fa−− such that [Ha , Fb±± ] = ±2δab Fb±± , and all these elements
+are in Ker D,Psince no elements of n−− .n−− or n−− have this property. Writing h = h′ ⊕CH
+                           ′                                        ′
+with H =       a Ha and h = h ∩ sl(N/2), one can substitute h with any conjugated
+                                                              ±±
+subalgebra, and this does not affect ϕ. The new elements Fb thus obtained are distinct
+from the original ones, and as h varies the whole of F is spanned by such elements.
+It follows that D(F )ϕ = {0}, and since F U = UF , D(F ) vanishes on D(U)ϕ, so the
+representation D is massless.                                                            ✷
+    Consider now infinite-dimensional massless representations integrable to the universal
+covering of the conformal group. Putting n = N − 2, the maximal compact subalgebra is
+k = so(2) ⊕ so(n), and the complexified Cartan subspace pC is isomorphic to the k-module
+C2 ⊗ Cn . We shall again use the usual notations for the n-conformal algebra, that is the
+                                                                                                   ˆ
+indexing set will be I = I ′ ∪ I ′′ with I ′ = {1, . . . , n}, I ′′ = {−1, 0} and the indexing set I,
+                                    n n
+for the Cartan subalgebra, {0, 2 , 2 − 1, . . . }, we shall denote by H0 the central element
+ηX−1,0 (with η 2 = −1 and g−1,−1 = g00 = 1) of kC .
+Masslessness in n Dimensions                                                                                     21
+
+
+     The space H of the representation U is a direct sum of k submodules W (s0 , ~s), where
+s0 is the eigenvalue of H0 and ~s the extremal weight of so(n). pC acts on W (s0 , ~s) like
+(C2 ⊗ Cn ) ⊗ W (s0 , ~s): this tensor product splits in general into 2n components W (s0 +
+ε, ~s + ∆~s) with ε = ±1 and ∆sa = (∆~s)a = ±1 for one a ∈ Iˆ − {0} (at most if n is odd,
+exactly if n is even), all remaining coordinates of ∆~s being 0 (if n is odd ∆~s = ~0 also
+exists in general). When ∆sa = ±1 and sa+1 = sa the corresponding component vanishes,
+since the resulting weight would not respect the ordering sa+1 ≥ sa . In particular, Cn ⊗W
+always contains a component W ↑ for which ∆sn/2 = 1 (the maximal eigenvalue increases)
+and a component W ↓ for which ∆sn/2 = −1; this latter is nonzero only if sn/2 −1 ≥ sn/2−1 .
+    Assume now U irreducible and massless and take ϕ in W (s0 , ~s). Because of (2.23) s0
+is related to the Casimir C ′ of so(n) by
+
+                                                              n−2
+(2.34)                                (C ′ − s20 )ϕ =             Cϕ
+                                                              n+2
+   Let |s0 | = εs0 . For ϕ in W (s0 , ~s) one has:
+
+                                                        
+                                     ±ε                   ±ε
+(2.35)                   [H02 , X    0  ]ϕ = (±2εs0 + 1)X 0  ϕ
+                                            A′                                   A′
+                                                                                
+                                                                             +
+   On the other hand, if ϕ is an extremal vector then X n/2                                ϕ belongs to W (s0 , ~s)↑
+                                                                                     A′′
+(with A′′ ∈ {−1, 0} = I ′′ ) since the maximal eigenvalue increases, so that, by (2.17):
+                                                           
+                                +                              +
+                      ′
+(2.36)              [C , X n/2         ]ϕ = (2sn/2 + n − 1)X n/2      ϕ
+                                      A′′                                              A′′
+
+   Since the difference C ′ − H02 is constant, these two equations imply:
+
+                                                                        
+                                                                ±ε   +
+(2.37)                     (sn/2 + n/2 − 1 ∓ |s0 |)X               0 n/2 ϕ = 0
+                                                       
+           −ε    +                               +ε   +
+hence X       0 n/2 vanishes on ϕ; X             0 n/2 ϕ is an extremal vector of W (s0 , ~s)↑ and the
+                                                 X            
+                                                                +
+                                                        A′
+only non-vanishing component of                        λ X n/2       ϕ, so it is nonzero (otherwise
+                                      A′ ∈I−{n−1,n}                      A′
+sn/2 , hence C ′ , would be bounded and U would be finite dimensional),and we get:
+
+
+(2.38)                                 |s0 | = sn/2 + n/2 − 1
+
+for every W (s0 , ~s). It also follows that
+22                                                       E. Angelopoulos and M. Laoues
+
+
+
+                                      
+                                      −ε
+(2.39)                              X 0  W (s0 , ~s) ⊂ W (s0 , ~s)↓
+                                              A′
+
+and one can transform (2.21) to:
+                                  
+                      − −ε       + ε
+                                          2
+(2.40a)           X n/2 0 X n/2 0 ϕ = 4( n+2 C − sn/2 (sn/2 + n/2))ϕ
+                                  
+                            +   ε− −ε
+                                              2
+(2.40b)               X n/2 0 X n/2 0 ϕ = 4( n+2 C − (sn/2 − 1)(sn/2 − 1 + n/2))ϕ
+                                             
+                                     −   −ε
+ One also checks that X n/2 0 ϕ is the only nonvanishing component in
+X ′ −ε
+  λA X 0       ϕ (otherwise an eigenvalue of Hn/2 superior to sn/2 − 1 would ap-
+A′ ∈I ′          A′
+pear),
+     and it is again an extremal vector. When sn/2 reaches its minimal value, s, every
+    −ε
+X 0       ϕ is zero and (2.40b) gives
+          A′
+
+                                                                                      n
+(2.41)         2C = (n + 2)(s − 1)(s − 1 + n/2) = (n + 2). Inf |s0 |.( Inf|s0 | −       ).
+                                                                                      2
+    It follows that −εH0 has a negative maximal value equal to −(s−1+n/2); an extremal
+vector ϕ for sn/2 = s is an extremal vector for the whole representation space and the
+nilpotent subalgebra n+ vanishes on ϕ. As for the remaining coordinates of ~s, one easily
+sees that they are all equal to s (or −s for the last one for even n), and that s = 0 or 1/2
+when n is odd, the proof being exactly the same as in the finite-dimensional case.
+     Using the notations of Theorem 2.1 and the Remark following it, one can summarize:
+Theorem 2.4: Every infinite-dimensional irreducible massless representation of so(2, n),
+for n ≥ 3, integrable to Gn , is a weight representation dn,ε (−(s+n/2−1),~s) , D(~
+                                                                                  s) being itself a
+massless representation of Spin(n), that is |sa | = s for every a. The eigenspace of εH0
+corresponding to the eigenvalue (s + n/2 − 1 + k), k ∈ N, is an irreducible so(n)-module
+corresponding to the representation D(~s+(k, 0, . . . , 0)). The values of the Casimir element
+C is given by (2.41).                                                                            ✷
+  In addition one has:
+Proposition 2.4: The massless representations dn,ε
+                                               (−(s+ 1 n−1),~s)
+                                                                are integrable to unitary
+                                                               2
+representations of Ḡn .
+    Proof: From what precedes, every so(n)-submodule Wk has multiplicity one, it carries
+the representation D(~s + (k, 0, . . . , 0)) of so(n), and the unique eigenvalue of εH0 on it is
+s + k + 21 n − 1(k ∈ N). Since there is a natural k-invariant scalar product on each Wk and
+since p.Wk ⊂ Wk−1 ⊕ Wk+1 , it is sufficient to show that ||Xϕ||2 = q(X)||ϕ||2 for every
+Masslessness in n Dimensions                                                             23
+
+
+X ∈ p such that [εH0 , X] = ±X, with q(X) ≥ 0; it is clear that q(X) belongs to the
+spectrum of X ∗ X.
+   There is no loss of generality in assuming that ϕ is an
+                                                          extremal vector
+                                                                       of W
+                                                                           k ; but
+                                                        +   ε                 −   −ε
+then X must be proportional to either X+ = X n/2 0               or X− = X n/2 0 , with
+(X± )∗ = −X∓ and where X± ϕ is an extremal vector of Wk±1 ; from (2.40) one sees that
+X ∗ X is scalar, with
+
+    X+∗ X+ = (s + k)(s + k + n2 ) − (s − 1)(s − 1 + n2 ) = (k + 1)(2s + k − 1 + n2 )
+
+    X−∗ X− = (s + k − 1)(s + k − 1 + n2 ) − (s − 1)(s − 1 + n2 ) = k(2s + k − 2 + n2 )
+
+and these expressions are positive for k ∈ N, s ≥ 0 and n ≥ 3.                            ✷
+
+c) Conformal imbedding of Poincaré massless representations
+    Having determined all possible candidates, up to equivalence, we shall now examine
+whether a massless representation U of Poincaré extends to one of them, and how.
+    We shall proceed by combining the expressions of the generators of Pn given in (1.20)
+to obtain elements of the ideal UF . One first establishes:
+Proposition 2.5: Given the expressions (1.20) of the Poincaré generators of U, if Pµ is
+identified with Xµ,−1 + Xµ,n (with µ ∈ J = {0, . . . , n − 1}), then the dilatation operator
+D = Xn,−1, satisfying [D, Pµ ] = Pµ , is given by
+
+                                 ′
+(2.42)                D = xµ′ ∂ µ + (n − 2)/2, µ′ ∈ {1, . . . , n − 1}.
+
+   Proof: Using a summation index λ ∈ J, and since g−1,−1 = −gn,n = 1, one has:
+
+
+(2.43)
+   F−1µ + Fnµ = (X−1λ + Xnλ )Xµ λ + (Xn,−1 X−1,µ − X−1,n Xn,µ ) − 12 n(X−1,µ + Xnµ )
+
+                = Pλ (Xµ λ + (D + 1 − n2 )δµλ )
+
+substituting the expressions of the generators, and putting FAB = 0, one gets, for every
+µ in J:
+
+                                                  n     ′
+(2.44)                         0 = xµ (D + 1 −      − xµ ∂µ′ )
+                                                  2
+hence the result announced.                                                               ✷
+   Now, one can rewrite (2.23) as:
+24                                                          E. Angelopoulos and M. Laoues
+
+
+
+                              1            n−2
+(2.45)                          Xλµ X µλ =     C + D 2 ( mod UF )
+                              2            n+2
+and one also has
+
+
+              1                                1                       2
+(2.46)          (Pµ P̂ν + Pν P̂µ ) = Xµ λ Xλν − (n − 2)Xµν − gµν (D +     C) − Fµν
+              2                                2                      n+2
+
+where P̂ν = Xν,−1 − Xνn , satisfying [D, P̂ν ] = −P̂ν .
+   Substituting the expressions of the generators in (2.45) and (2.46), one obtains, after
+some calculations which we do not reproduce:
+
+
+                                       n + 2 ′′ 1
+(2.47)                           C=         C − (n + 2)(n − 2)
+                                       n−2      4
+
+where C ′′ = 21 Sij S ij (i, j ∈ {1, . . . , n − 2}) is the Casimir element of the inducing repre-
+sentation S; from (2.46) one gets expressions of the form
+
+
+(2.48)                         Pµ P̂ν + Pν P̂µ = xν Gµ + xµ Gν + Eµν
+
+with
+(2.49a)           Eik = (Sij Skj + Skj Sij ) − n−2
+                                                4
+                                                   gik C ′′ ; i, j, k ∈ {1, . . . , n − 2}
+
+(2.49b)           Eαk = σ(α)xi Eik (x0 + xn−1 )−1 ; α ∈ {0, n − 1}, σ(0) = −σ(n − 1) = −1
+
+(2.49c)        Eαβ = σ(α)σ(β)xi xk Eik (x0 + xn−1 )−2 ; α, β ∈ {0, n − 1}
+                √
+   Since Pµ = −1 xµ , the consistency of the n(n+1)    2
+                                                             equations (2.48) implies that
+Eµν = 0; in particular Eik = 0, that is S is a massless representation of the little group
+Spin(n − 2). Carrying out the calculations, one finally obtains:
+Theorem 2.5: A massless representation of P̄n (n ≥ 3) induced by the representation S
+of Spin(n−2).Tn−2 (trivial on Tn−2 ) extends to a massless UIR of Ḡn iff S itself is massless,
+that is of the form D(s, . . . , s, ±s), 2s ∈ N, if n is even and of the form D(s, . . . , s), s = 0
+or 21 , if n is odd. The extension is unique, the form of the remaining generators (of gn )
+being completely determined by those of pn in (1.20): Xn,−1 = D is given by (2.42) and
+P̂µ by:
+
+                          √
+(2.50)                        −1P̂µ = xµ ∆ + 2(x0 + xn−1 )−1 Dµ + 2D∂µ
+Masslessness in n Dimensions                                                                   25
+
+                   n−1
+                   X
+with ∂0 = 0, ∆ =         ∂j2 and:
+                   j=1
+(2.50a)                          Dj = (L0k − Lk,n−1 )S k j   (j, k ∈ {1, . . . , n − 2})
+
+(2.50b)                              Dn−1 = −D0 = 21 Ljk Skj + s(s + 12 n − 2)
+
+and the values of the Casimir element for the inducing and the extended representations
+are:
+
+                    1            1           1                  1
+(2.51)        C ′′ = (n − 2)s(s + n − 2); C = (n + 2)(s − 1)(s + n − 1)
+                    2            2           2                  2
+                                                                                                 ✷
+    Remark: The constraints upon S are relevant for n > 4. Indeed, for the classical
+case, n = 4, the little group is SO(2).T2, and the elements Eij in (2.49) are identically
+zero: every such representation extends to the conformal group, as shown in [2]. For
+n = 3, so(n − 2) = {0} and all elements Sij vanish; notice that C ′′ vanishes in (2.51) for
+n = 3 and for either s = 0 or s = 21 . However, the choice of S is relevant: it corresponds
+to the inducing representation of Spin(1) = {1, −1} and determines whether the center of
+Spin(3) = SU(2) is trivially represented (s = 0) or not (s = 21 ), the lowest so(3)-module
+occuring in the representation space having dimension 2s + 1.
+    Now, for given s, there are two possible choices for the extension, dn,ε
+                                                                          (−(s+ 21 n−1),~s)
+                                                                                            , such
+                        √
+that the spectrum of ε −1 X−1,0 is positive, so that it remains to identify which one is
+obtained. We shall show:
+Proposition 2.6: For a given sign ε of x0 = ε.|x0 |, the representation U S of P̄n extends
+to dn,ε
+    (−(s+ 1 n−1),~s)
+                     .
+          2
+
+   Proof: On every so(3)-submodule Wk the absolute value of s0 is s + k + 12 n − 1,
+while
+ √ the eigenvalues of Hn/2 run from −(s + k) to s + k, so that the spectrum of E =
+2 −1(X−1,0 + Xn−1,n ) has the same sign as H0 and a lowest element equal, in absolute
+value, to n − 2. Substituting with the differential operators obtained one gets:
+
+                         √
+               E =           −1(−P̂0 − P̂n−1 − P0 + Pn−1 )
+
+                   = −(x0 + xn−1 )∆ − 2D∂n−1 + (x0 − xn−1 ), D = xµ′ ∂ u + n−2
+                                                                                      ′
+                                                                            2
+                                                                  ′
+    Take f ∈ H so that f depends only on x0 = ε(−xµ xµ′ )1/2 , and denote by d0 the
+differential operator dxd0 . For such an f one has:
+
+                             Ef = ((x0 − xn−1 )(1 − d20 ) − (n − 2)d0 )f.
+   If d0 2 f = f , that is, for example, if f (x0 ) = e±εx0 v, with v ∈ V , one gets:
+                                         Ef = ∓ε(n − 2)f
+26                                                   E. Angelopoulos and M. Laoues
+
+
+   Since only e−εx0 v is a square-integrable function from Rn−1 to V, εE has a positive
+spectrum, and so does εH0 , hence the desired result.                                ✷
+    Remark: When S is trivial, the Fourrier transform on H sends it on the subspace Ĥ
+of L2 (R1,n−1 , dµ) which is the closure of all analytic functions satisfying ∂µ ∂ µ f = 0. The
+action of Ḡn /P̄n on Ĥ is obtained from the action of dilatations and special conformal
+transformations on the n-Minkowski space. What we have shown is that, for S acting on
+V , the representation U S acting on Ĥ ⊗ V can be extended iff S is massless.
+Masslessness in n Dimensions                                                                    27
+
+
+3       Massless representations and the De Sitter groups
+a) Subgroups of Gn
+     Let x ∈ Rn+2 . If its quadratic form q(x) is positive (negative), its stabilizer Sn (x)
+is isomorphic to SO0 (1, n))(SO0(2, n − 1)). For distinct choices of x, Sn (x) and Sn (x′ )
+are conjugated subgroups iff q(x).q(x′ ) > 0, so we shall denote them by Sn± (for q(x) =
+±|q(x)|) and call them the n-De Sitter subgroups of real rank 1 or 2 respectively, in
+analogy with the classical case n = 4. Clearly, Sn− = Gn−1 . When q(x) = 0 the stabilizer
+is isomorphic to Pn .
+    We shall examine here the restriction to the twofold covering S̄n± of a massless rep-
+resentation d of Ḡn , establishing that it is either irreducible, or the direct sum of two
+factors. Also, since Pn is a Wigner-Inonü contraction of Sn± , we shall establish that the
+restriction of d on S̄n± can be contracted to its restriction on P̄n .
+
+b) Restriction of dn,ε (−(s+ n
+                                           ±
+                               −1),~s) to Sn
+                             2
+     We have already established that the Casimir element C ′ of Sn± is scalar and equal to
+C.(N − 1)/N, in (2.27). We shall next continue with
+     Lemma 3.1: Let g′ be the Lie algebra of Sn± , U ′ its enveloping algebra, and let
+ew , w ∈ I, be a basis vector stabilized by g′ . Let d be a massless representation of g acting
+on a Hilbert space H and W ′ be a g′ ∩ k invariant subspace of a k-type W . Let V0 , V1 be
+the prehilbert spaces
+
+                                                     X
+(3.1)                       V0 = d(U ′ )W ′ ; V1 =           d(U ′ XAw )W ′
+                                                         A
+
+and H0 , H1 their closures. Then either H = H0 = H1 or H = H0 ⊕ H1 .
+   Proof: Let x the g′ -invariant subspace of g spanned by the generators XAw , such
+that g = x ⊕ g′ . Since U ′ = ⊕k∈N U ′ S k (x), where S k (x) contains the fully symmetrized
+polynomials of degree k in the generators of x, it is sufficient to show that d sends S 2 (x)
+to S 0 (x) = C. But one has:
+
+                                                     ′                 ′
+(3.2)       XA′ w XB′ w + XB′ w XA′ w = gww (XA′ D XD′ B + XB′ D XD′ A′ ) − 2F̄A′ B′ )
+and since d(F̄A′ B′ ) = gA′ B′ 2C/N ∈ C, d sends S 2 (x) to U ′ .                                ✷
+    Now, if G′ = Sn+ , x = {λA X−1,A }, g′ ∩ k = so(n), and the k-type W (k) is irreducible
+under the action of g′ ∩ k. The generator XA′′ 0 ∈ g (for A′′ ∈ {1, . . . , n}) sends W (k) to
+W (k) ⊕ W (k ± 1) and so does [C ′ , XA′′ 0 ], C ′ being the Casimir of so(n), so that, for every
+k ∈ N, there is a shift operator XA±′′ ∈ d(U ′ ), linear combination of XA′′ 0 and [C ′ , XA′′ 0 ],
+sending W (k) to W (k ± 1). Every W (k) being of multiplicity one, d(U ′ )ϕ contains every
+k-type of d, so that the closure of V0 is H and the restriction to G′ is irreducible.
+   If G′ = Sn− , the situation is somewhat more complicated. Let e1 be the stabilized
+vector , so that x is spanned by {X1A }, k ∩ g′ being isomorphic to so(2) ⊕ so(n − 1).
+28                                                                 E. Angelopoulos and M. Laoues
+
+
+Assume first s = 0, so that H contains a trivial so(n)-submodule W (0). Let ϕ ∈ W (0):
+clearly X1A′ ϕ = 0 if A′ ∈ {2, . . . , n} and X (−ε
+                                                  0 ) ϕ = 0 too, so that xW (0) is spanned by
+                                                     1
+              +
+X ( 0 )1 ϕ = ϕ . Since so(n − 1) commutes with X (+ε
+    +ε
+                                                          0 ) , it stills act trivially on xW (0),
+                                                             1
+while the eigenvalue of H0 increases by 1 in absolute value, so that k ∩ g′ stabilizes xW (0).
+Moreover, for A′ ∈ {2, . . . , n},
+
+
+                     +
+                                                                         √
+(3.3)     X (−ε
+             0 ) ′ ϕ
+                A      = (X ( 0) X ( 0 ) ′ − [X (0) , X ( 0 ) ′ ])ϕ = 2ε
+                              ε
+                                1
+                                    −ε
+                                        A
+                                                 ε
+                                                   1
+                                                         −ε
+                                                             A            −1 X1A′ ϕ = 0
+
+so ϕ+ is an extremal weight vector of g′ , as well as ϕ, so that V0 ∩ V1 = {0}.
+    Assume next s 6= 0 and n√even (n ≥ 4). Since d(H1 ) = ±d(Ha ) on an extremal vector
+for every W (k), one has d( −1 X12 )ϕ = ±sϕ 6= 0 on an extremal vector of W (0), so
+that
+
+
+(3.4)      U(so(n − 1)).(x ∩ k)W (0) = U(so(n − 1))W (0) = U(so(n))W (0) = W (0)
+
+and V0 = V1 .
+     Assume finally n odd and s = 21 . The lowest so(n)-type is a spinorial representation,
+and it is well known that such a representation of so(2r + 1)(r ∈ N) splits into two
+inequivalent spinorial representations of so(2r) of equal dimensions; they are labelled
+D( 21 , . . . , 12 , ± 12 ) with the two different choices of sign.
+     Summarizing one has:
+Proposition 3.1: The representation dn,ε     (−(s+ n −1),~s) remains irreducible when restricted
+                                                   2
+to SO0 (1, n). Its restriction on SO0 (2, n − 1) when s = 0 is the direct sum
+
+                                         n−1,ε            n−1,ε
+                                        d(−( n
+                                               −1),~0)
+                                                       ⊕ d(− n ~ ;
+                                                              ,0)
+                                               2                    2
+
+
+for s = 21 and n = 2r + 1 odd, its restriction is
+
+                                d2r,ε
+                                 (−r, 1 ,... , 1 ,+ 1 )
+                                                        ⊕ d2r,ε
+                                                           (−r, 1 ,... , 1 ,− 1 )
+                                                                                  ;
+                                       2      2    2               2     2    2
+
+for s 6= 0 and n = 2r even, the restriction is irreducible and equal to
+
+                                               2r−1,ε
+                                              d(−(s+r−1),∂~
+                                                          s) ,
+
+where ∂~s comes from ~s = (s, . . . , s, ±s) by dropping the last coordinate ±s.                ✷
+
+c. Contraction of representations
+    The Wigner-Inonü contraction of Lie algebras [15] can be defined as follows: given
+a Lie algebra g and a continuous family Φα ∈ GL(g) of linear transformations of the
+underlying vector space, with 0 < α ≤ 1 and Φ1 = 1, a Lie algebra gα isomorphic to g is
+defined on the same underlying space by the Lie bracket:
+Masslessness in n Dimensions                                                             29
+
+
+
+
+(3.5)                            [X, Y ]α = Φ−1
+                                             α [Φα X, Φα Y ].
+
+    If lim (Φα ) is a non invertible mapping and [X, Y ]0 = lim([X, Y ]α ) exists when α −→
+      α−→0
+0, the Lie algebra g0 defined on the same underlying space is the contracted of g by the
+family {Φα }.
+   Contraction of representations Uα of gα on Hα are defined in analogy. Here we shall
+limit ourselves to a fixed representation space H. Given a continuous family {Zα } of closed
+invertible linear transformations of H for 0 < α ≤ 1 with Z1 = 1, and a representation
+U1 = U of g1 = g, defined on a dense domain E of analytic vectors, the map
+
+
+(3.6)                         X 7−→ Uα (X) = Zα−1 U(Φα X)Zα
+
+is a representation of gα ; indeed, one has:
+
+
+                 [Uα (X), Uα (Y )] = Zα−1 [U(Φα Y ), U(Φα Y )]Zα
+
+(3.7)                               = Zα−1 U([Φα X, Φα Y ])Zα
+
+                                    = Zα−1 U(Φα [X, Y ]α )Zα = Uα ([X, Y ]α )
+
+   If the limit of Uα (X) exists for every X ∈ g when α −→ 0 (regardless to whether Zα
+has a limit), then U0 = lim Uα is a representation of the contracted Lie algebra g0 : we
+                         α−→0
+shall say that it is the contracted of U1 through the family (Zα ).
+    Let us apply this to g1 = Lie (Sn± ) = ln ⊕ y where y is spanned by the generators
+Yµ = Xµw , µ ∈ J, with w = n for Sn+ and w = −1 for Sn− ; one has [y, y] = ln . We shall
+define the familly {Φα } by:
+
+
+(3.8)                    Φα (Xµν ) = Xµν ; Φα (Yµ ) = α(2 − α)Yµ .
+
+   Clearly, one has
+
+
+(3.9)             [Yµ , Yν ]α = α2 (2 − α)2 [Yµ , Yν ]; [Xµν , Yλ ]α = [Xµν , Yλ ]
+
+so that the contacted algebra g0 is isomorphic to pn .
+    Let now d be a massless representation of Ḡn on H, with analytic domain E, on which
+all operators of the√Lie algebra are defined, their expressions being given by (1.20) (in
+particular d(Pµ ) = −1 xµ ) and (2.50).
+    Let U = U1 be the restriction of d to g1 , so that one has
+30                                                      E. Angelopoulos and M. Laoues
+
+
+
+                                          1
+(3.10)                            U(Yµ ) = (d(Pµ ) ∓ d(P̂µ )).
+                                          2
+     Define the family {Zα } by
+
+
+(3.11)                            (Zα ϕ)(x) = α(n−2)/2 ϕ(αx)
+
+Zα is a unitary operator, equal to exp(d(Logα Xn,−1 )), which has no limit for α −→ 0. It
+satisfies:
+
+(3.12)              Zα−1 d(Pµ )Zα = α−1 d(Pµ ); Zα−1 d(P̂µ )Zα = α d (P̂µ )
+
+so that:
+
+                                              α
+(3.13)                      Uα (Yµ ) = (1 −     )(d(Pµ ) ∓ α2 d(P̂µ ))
+                                              2
+while Uα (Xµν ) = U(Xµν ). It is clear that the limit of Uα (Yµ ) exists for α −→ 0, and it is
+equal to d(Pµ ). We have thus proved:
+                                                   ±
+Proposition 3.2: The restriction U on S n of the massless representation d of Ḡn
+contracts to its restriction on P n through the family of unitary operators {Zα }. ✷
+Masslessness in n Dimensions                                                              31
+
+
+4     Conclusion
+Comparing the results obtained here with the classical case n = 4, we first observe that
+the main features are conserved: only massless representations U S of P n can be extended
+to ones of Gn , and when this is possible the extension d is unique: it is a unitary ir-
+reducible representation with extremal weight, vanishing on the two-sided ideal of the
+enveloping algebra generated by Pµ P µ . The form of the remaining Lie algebra generators
+is completely determined when those of pn are given (that is, d is not only fixed up to
+equivalence, but when U S is fixed inside its equivalence class so is d).
+    Moreover, d is a representation of either Gn itself (when U S is one of Pn , that is
+s integer) or of a twofold covering (when s is half-integer). All representations d are
+realizable on a functional space over the corresponding Minkowski space or over a half-
+cone of its Fourier dual (in fact, when S is trivial d is equivalent to the representation
+induced by the trivial representation of the parabolic subgroup Wn ).
+   The only feature which does not generalize concerns the restrictions imposed on the
+inducing representation S. For n = 4, the only restriction is that S is trivial on the
+translation subgroup T2 of the twofold covering of the Euclidean group E2 . This discards
+the so-called continuous spin representations and allows all helicities ±s ∈ 12 Z.
+    For n > 4, S must still vanish on the translations, but there are additional constraints
+on S, depending on the parity of n: if n = 2r is even every coordinate of the extremal
+weight must equal in absolute value to the last one (the minimal one), which is equal to
+±s. This constraint is automatically satisfied for n = 4, since so(n − 2) has rank 1 and
+the last coordinate of the weight is also the only one: the study of the case n = 4 alone
+gives no hint about this new constraint.
+   For odd n the constraints are quite drastic: S may be either trivial or spinorial. This
+appears as a straightforward generalization of the case n = 3 [5], if one defines Spin(1)
+as Z2 .
+    If, instead of increasing n, one decreases it to n = 2, one finds again that the only
+UIR of the simply connected P2 = SO0(1, 1).T2 (besides the trivial one) which extend to
+G2 = SO0 (2, 2) are the massless ones: the massless orbits are the connected components
+of the isotropic cone, that is, 4 half lines (instead of two half ones) and the stabilizer is
+just {1}, so that massless UIR vanish on the subgroup spanned by P0 + P1 or P0 − P1 ,
+the factor group on which they are faithful being here isomorphic to the connected affine
+group (x 7−→ ax + b) of the real line. By theorem 2.2, the extension to so(2, 2) = u+ ⊕ u−
+must vanish on one of the two factors u± (both isomorphic to so(2, 1)). The Casimir
+operator may take any value C and by (2.46) one gets P̂0 = (P0 )−1 (D 2 − D + 21 C). There
+is no uniqueness of the extension, not even unitarity (C may be any complex number):
+lowering n to 2 removes all constraints. One should however mention that in this case the
+full conformal group is infinite, as is well-known. We shall not discuss this case further
+here.
+    Concerning the Poincaré - De Sitter relations, the sequence “extension to Gn , then
+32                                                   E. Angelopoulos and M. Laoues
+
+
+restriction to Sn± , then contraction to P n ” is cyclic for every n ≥ 3; the demonstration is
+practically identical with the one for n = 4 [2]. As for the irreduciblility of the restriction
+to the real rank two De Sitter subgroup Sn− , the result for n even is a straightforward
+generalization of the case n = 4: the restriction splits into two simple factors if the
+inducing representation is trivial, otherwise it is irreducible. When n is odd, it splits into
+                                                                      +
+two simple factors for both s = 0 and s = 21 . The restriction on S n = SO0 (1, n) is always
+irreducible.
+   Finally we should mention that there are some interesting open problems involving
+massless representations, such as their tensor products with other representations (in
+particular their tensor squares) or their appearance as factors in indecomposable repre-
+sentations.
+Masslessness in n Dimensions                                                         33
+
+
+References
+ [1] E. Angelopoulos and M. Flato: On unitary implementability of conformal trans-
+     formations. Lett. Math. Phys. 2, 405-412 (1977/78).
+
+ [2] E. Angelopoulos, M. Flato, C. Fronsdal and D. Sternheimer: Massless par-
+     ticles, conformal group and De Sitter universe. Phys. Rev. D 23, 1278-1289 (1981).
+
+ [3] M. Cahen, S. Gutt and A. Trautman: Spin structures on real projective quadrics.
+     J. Geom. Phys. 10, 127-154 (1993).
+
+ [4] M. Flato and C. Fronsdal: Spontaneously generated field theories, zero-center
+     modules, colored singletons and the virtues of N = 6 supergravity. In Essays on
+     Supersymmetry (C. Fronsdal Ed.), pp. 123-162, Mathematical Physics Studies vol.8,
+     D. Reidel Publishing Company (1986).
+
+ [5] M. Flato, C. Fronsdal and J.P. Gazeau: Masslessness and light-cone propagation
+     in 3 + 2 De Sitter and 2 + 1 Minkowski spaces, Phys. Rev. D 33, 415-420 (1986).
+
+ [6] M. Flato and D. Sternheimer: Remarques sur les automorphismes causals de
+     l’espace-temps, C. R. Acad. Sci. Paris 263, 935-938 (1966).
+
+ [7] C. Fronsdal: In Essays on Supersymmetry (C. Fronsdal Ed.), Mathematical Physics
+     Studies vol.8, D. Reidel Publishing Company (1986).
+
+ [8] W. Kopczyński and S.L. Woronowicz: A geometrical approach to the twistor
+     formalism, Rep. Math. Phys. 2, 35-51 (1971).
+
+ [9] G. Mack and I. Todorov: Irreducibility of the ladder representations of U(2, 2)
+     when restricted to the Poincaré subgroup, J. Math. Phys. 10, 2078-2085 (1969).
+
+[10] G. Mackey: Induced representations of locally compact groups I; II, Ann. of Math.
+     55, 101-139 (1952); Ann. of Math. 58, 193-221 (1953). See also: Unitary representa-
+     tions of group extensions I, Acta. Math. 99, 265-311 (1958).
+
+[11] J. Mickelsson and J. Nierderle: Conformally covariant field equations,
+     Ann. Inst. Henri Poicaré Sect. A (N.S.) 23, 277-295 (1975).
+
+[12] A. Salam and J. Strathdee: On Kaluza-Klein theory, Ann. Phys. (N.Y.) 141,
+     316-352 (1982).
+34                                                  E. Angelopoulos and M. Laoues
+
+
+[13] I. Todorov: Local Field Representations of the Conformal Group and their Appli-
+     cations. In Mathematics and Physics (L. Streit, Ed.), Vol. 1, 195-338, World Scientific
+     (1985).
+
+[14] E.P. Wigner: On unitary representations of the inhomogeneous Lorentz group,
+     Ann. of Math. 40, 149 (1939).
+
+[15] E.P. Wigner and E. Inonü: On the contraction of groups and their representations,
+     Proc. Nat. Acad. Sci. USA 39, 510-524 (1953).
+

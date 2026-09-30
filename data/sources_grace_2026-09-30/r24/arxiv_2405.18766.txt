@@ -1,0 +1,1914 @@
+                                              A COMBINATORIAL INTERPRETATION OF THE BERNSTEIN DEGREE
+                                                        OF UNITARY HIGHEST WEIGHT MODULES
+
+                                                                        WILLIAM Q. ERICKSON AND MARKUS HUNZIKER
+
+
+                                                   Abstract. The Bernstein degree (Deg) is a fundamental invariant of admissible representations
+                                                   of a real reductive Lie group GR . Our main result concerns the classical dual pairs (GR , HR (k)),
+                                                   namely (U(p, q), U(k)), (Mp(2n, R), O(k)), and (O∗ (2n), Sp(k)), where k is any positive integer.
+
+
+
+
+arXiv:2405.18766v3 [math.CO] 18 Mar 2026
+                                                   In this setting, via Howe duality, each irreducible representation σ of HR (k) corresponds to a
+                                                   unitary highest weight module Lλ(σ) for GR . A landmark result of Nishiyama–Ochiai–Taniguchi
+                                                   (2001) expressed Deg Lλ(σ) as a product of two quantities: the dimension of σ and the degree of
+                                                   the associated variety. However, this result was limited to a specific range of the parameter k
+                                                   (namely k ≤ r, the real rank of GR ). The present paper resolves this limitation by introducing, for
+                                                   all k, the combinatorial interpretation Deg Lλ(σ) = #(Qk (σ) × Pk ), where Qk (σ) is a certain set of
+                                                   semistandard tableaux and Pk is a set of plane partitions. (The result remains partly conjectural
+                                                   in the Mp(2n, R) case.) Beyond the dual pair setting, we generalize the set Pk to all groups GR
+                                                   of Hermitian type, and we exhibit analogues of the Nishiyama–Ochiai–Taniguchi result for certain
+                                                   families of unitary highest weight modules of E6 and E7 .
+
+
+
+
+                                                                                              Contents
+                                             1.   Introduction                                                                                              1
+                                             2.   Howe duality                                                                                              5
+                                             3.   The set Qk (σ)                                                                                            8
+                                             4.   The set Pk                                                                                               15
+                                             5.   Stanley decompositions of unitary highest weight modules                                                 19
+                                             6.   Main result                                                                                              26
+                                             7.   Open problems and observations                                                                           27
+                                             References                                                                                                    34
+
+
+
+
+                                                                                          1. Introduction
+                                           1.1. Bernstein degree of unitary highest weight modules. Let X be the (g, K)-module of an
+                                           admissible representation of a connected noncompact real reductive Lie group GR with finite center.
+                                           Two invariants arising from the asymptotic growth of a good U (g)-filtration on X are its Gelfand–
+                                           Kirillov dimension Dim(X) and its Bernstein degree Deg X. By a result of Vogan [42, Thm. 1.1],
+
+                                               2020 Mathematics Subject Classification. Primary 22E46; Secondary 05E10, 14L30, 32M15.
+                                               Key words and phrases. Unitary highest weight modules, Bernstein degree, associated variety, Hermitian symmet-
+                                           ric space, Howe duality, Stanley decompositions.
+
+
+                                                                                                    1
+for any good filtration {Xn },
+                                             Deg X Dim(X)
+                                     dim Xn ∼       n
+                                            Dim(X)!
+as n → ∞. Equivalently, there is a unique polynomial QX (t) with integer coefficients, such that
+the reduced Hilbert series of X is given by
+                                       QX (t)
+(1.1)                    HX (t) =                 ,       and   Deg X = QX (1).
+                                    (1 − t)Dim(X)
+Uniting these two invariants is the notion of the associated variety AV(X) ⊂ g∗ , introduced by
+Vogan [42, 43]. In particular, we have Dim(X) = dim AV(X), while Deg X encodes the multiplicity
+of AV(X) as an algebraic cycle.
+   Harish-Chandra [20, 21] showed that a noncompact simple Lie group GR admits nontrivial uni-
+tary highest weight modules if and only if GR is of Hermitian type, that is, GR /KR is a Hermitian
+symmetric space (where KR is a maximal compact subgroup). From now on, suppose that GR /KR
+is an irreducible Hermitian symmetric space of noncompact type. Let gR = kR ⊕ pR be the corre-
+sponding Cartan decomposition of gR , and let g = p− ⊕ k ⊕ p+ be the triangular decomposition
+of its complexification. The action of the complexified group K on the abelian nilradical p+ has
+finitely many orbits, whose closures form a chain of algebraic varieties
+(1.2)                            {0} = O0 ⊂ O1 ⊂ · · · ⊂ Or = p+ ,
+where r denotes the real rank of GR .
+  If L is an irreducible unitary highest weight module of GR , then its associated variety AV(L)
+equals one of the orbit closures Ok in (1.2), and its associated cycle [44] takes the form
+                                          AC(L) = mL [Ok ]
+for some positive integer multiplicity mL . This yields the following expression for the Bernstein
+degree:
+(1.3)                                   Deg L = mL · deg Ok ,
+where deg denotes the degree as an algebraic variety.
+1.2. The Nishiyama–Ochiai–Taniguchi result. The main result obtained by Nishiyama–Ochiai–
+Taniguchi in their paper [33] is an elegant formula for Bernstein degree in the following dual pair
+setting. Given a positive integer k, consider one of the three pairs
+(1.4)      (GR , HR (k)) = (U(p, q), U(k)),    (Mp(2n, R), O(k)),       or   (O∗ (2n), Sp(k)),
+where Mp(2n, R) denotes the metaplectic double cover of Sp(2n, R). In each dual pair setting (1.4),
+let H(k)
+     b    denote the set of irreducible representations of the compact group HR (k) (equivalently,
+of its complexification H(k)). The irreducible representations σ ∈ H(k)
+                                                                      b     parametrize a family of
+irreducible unitary highest weight modules of GR , in the sense that there is a map
+(1.5)                                         σ 7→ Lλ(σ)
+where Lλ(σ) is the simple g-module with highest weight λ(σ). (See Table 2 for details.) Upon
+restricting to those σ’s for which Lλ(σ) ̸= 0, the map (1.5) is injective. Moreover, for GR = U(p, q)
+or Mp(2n, R), all irreducible unitary highest weight modules arise in this way as some Lλ(σ) .
+
+  For σ ∈ b H(k), it is known (see [12, Thm. 6] or [27]) that AV(Lλ(σ) ) = Omin{k,r} , and hence
+by (1.3) there is some positive integer mk (σ) such that
+(1.6)                            Deg Lλ(σ) = mk (σ) · deg Omin{k,r} .
+
+                                                      2
+The main result of Nishiyama–Ochiai–Taniguchi [33, Thm. B] states that for sufficiently small k,
+this multiplicity mk (σ) is given by the dimension of the irreducible representation Uσ of HR (k)
+labeled by σ:
+(1.7)                        If k ≤ r, then Deg Lλ(σ) = dim Uσ · deg Ok .
+
+1.3. Main result of this paper. The Bernstein degree formula (1.7) is limited to the range
+k ≤ r. In this paper, we generalize (1.7) by introducing a uniform combinatorial interpretation
+that is valid for all k. In particular, we replace dim Uσ in (1.7) by the cardinality of a certain set
+Qk (σ) of semistandard tableaux, and we replace deg Ok by the cardinality of a set Pk of plane
+partitions. (See Definitions 3.1 and 4.1.) Our main result is the following theorem.
+Theorem 1.1. Let GR be one of the groups in the dual pair setting (1.4), where k is any positive
+integer. (In the GR = Mp(2n, R) case, the result remains conjectural within a certain range of
+k-values; see details in Theorem 6.2.) For all σ ∈ H(k),
+                                                   b     we have
+                                                            
+                                   Deg Lλ(σ) = # Qk (σ) × Pk .
+
+   In particular, the cardinality of Qk (σ) equals the multiplicity mk (σ) in (1.6), and the tableaux in
+Qk (σ) satisfy certain constraints on the entries in their initial columns (see Definition 3.1). A key
+feature of our construction is that as k increases, these constraints on Qk (σ) progressively relax.
+As a result, the sets Qk (σ) interpolate between linear bases of two distinguished representations:
+                                               (
+                                                dim Uσ      if k ≤ r,
+(1.8)                              #Qk (σ) =
+                                                dim Fλ(σ) if k ≥ s,
+where Fλ(σ) is the simple K-module with highest weight λ(σ), and where s is the threshold beyond
+which every Lλ(σ) is free as a C[p+ ]-module. (See Table 2.) Indeed, when k ≤ r, our set Qk (σ) (up
+to a constant shift in tableau entries) recovers a well-known tableau set modeling a basis for Uσ :
+in the U(p, q) case, this is the set of rational tableaux given by Stembridge [40], and in the other
+two cases, this is the set of orthogonal or symplectic tableaux given by Proctor [36]. On the other
+hand, when k ≥ s, the initial column constraints on Qk (σ) vanish, meaning that the sets Qk (σ)
+become full sets of semistandard tableaux that model linear bases for irreducible representations
+of general linear groups (the group K in our setting). In this way, our construction of Qk (σ) sheds
+light on the mysterious gap r < k < s left open in (1.7).
+   The cardinality of Pk equals the degree of the orbit closure Omin{k,r} in (1.6), and the plane
+partitions in Pk are bounded by k and contained inside a certain diagram Dk (see Definition 4.1).
+In the dual pair setting, Omin{k,r} is a determinantal variety inside a space of generic, symmetric,
+or skew-symmetric matrices (7.7); consequently, this fact #Pk = deg Omin{k,r} is likely known to
+experts, due to the extensive work in the 1990s on determinantal rings and lattice paths. (The
+bijection Θ in Definition 4.4 connects the plane partition perspective with that of lattice paths.)
+It is worth mentioning that the classical plane partition formulas for #Pk (see Proposition 4.2)
+are much simpler than the original degree formulas due to Giambelli–Thom–Porteous [18, 22, 34].
+Within the vast literature concerning plane partitions, we highlight Proctor’s work [35] relating
+various families of bounded plane partitions to weight bases for representations of classical Lie
+groups.
+
+1.4. Method of proof. Via Howe duality (see Section 2), the unitary highest weight modules
+Lλ(σ) can be viewed as modules of covariants Mσ (see (2.4) below) for the complex classical groups
+H(k) from (1.4). The identification Lλ(σ) ∼
+                                          = Mσ , as graded modules over the ring C[p+ ], follows
+
+                                                   3
+from viewing Lλ(σ) as the Uσ -isotypic multiplicity space in the Howe duality decomposition (2.6).
+In our previous work [14, Thm. 3.2], we introduced a combinatorial model for Mσ by organizing
+Jackson’s [25] linear basis of standard monomials into a Stanley decomposition (see Definition 5.3).
+In particular, we expressed Mσ as a direct sum of Stanley spaces indexed by a set Jk (σ) consisting
+of combinatorial objects we call jellyfish (see Definition 5.6). Very roughly speaking, a jellyfish
+is an ordered pair (T, F) where T is a semistandard tableau of shape σ, and F is a union of k
+nonintersecting lattice paths whose endpoints are compatible (in a technical sense) with the initial
+column of T . Section 5 in the present paper is a self-contained summary of our results from [14].
+
+   The two invariants in the opening paragraph, namely the Gelfand–Kirillov dimension Dim X
+and the Bernstein degree Deg X, have analogues in the setting of graded modules: these are the
+Krull dimension Kdim M and the multiplicity e(M ), respectively. Thus, in translating between
+this paper and our previous paper [14], we have Deg Lλ(σ) = e(Mσ ). In turn, it is a general fact
+(see Lemma 5.4) that for any Stanley decomposition of a graded module M , the multiplicity e(M )
+equals the number of Stanley spaces of maximum Krull dimension. Thus by identifying the subset
+Jbk (σ) of jellyfish with maximum Krull dimension, we obtain the following (see Lemma 5.7):
+
+                                   Deg Lλ(σ) = e(Mσ ) = #Jbk (σ).
+
+The heart of the argument, leading immediately to Theorem 1.1, occurs in Lemma 6.1, where we
+establish a bijection
+
+(1.9)                             id × Θ : Qk (σ) × Pk −→ Jbk (σ),
+
+where Θ takes a plane partition in Pk to its corresponding union of lattice paths. In this way, upon
+restriction to the k ≤ r case, we produce a new and very different proof of the Nishiyama–Ochiai–
+Taniguchi result (1.7), in addition to extending it to arbitrary values of k.
+
+   We mentioned above that in the case GR = Mp(2n, R), Theorem 1.1 remains partially conjectural,
+namely in the range r < k < s. (See Conjecture 6.3, which we have verified extensively by
+computer.) In the U(p, q) and O∗ (2n) cases, our construction of the jellyfish in [14] was guided
+by the standard monomial results in Jackson [25], whereas the Mp(2n, R) case (being considerably
+more delicate) fell outside the scope of Jackson’s methods. Hence in the Mp(2n, R) case, our proof
+of Theorem 1.1 for k ≤ r and k ≥ s appeals to (1.7)–(1.8).
+
+1.5. Beyond the dual pair setting. The ultimate goal of this research program is to generalize
+Theorem 1.1 uniformly outside the dual pair setting. This goal requires finding analogues for the
+sets Qk (σ) and Pk , for all groups GR of Hermitian type (including the exceptional groups). In this
+paper, we take the first step toward this goal by generalizing the set Pk as follows.
+
+   Recall that in the dual pair setting detailed above (see also Definition 4.1), we defined Pk as the
+set of plane partitions bounded by k and contained in a certain diagram Dk (either a rectangle or a
+staircase). By redefining these underlying diagrams Dk in terms of the Hasse diagram of the poset
+Φ(p+ ) of positive noncompact roots (see Definition 7.4), we obtain analogous diagrams Dk across
+all Hermitian types. We refer the reader to Table 4 (page 33) for the depictions of these Dk ’s in
+all types. In this way, we generalize not only the motivating property #Pk = deg Ok , but also the
+combinatorial interpretation of the Hilbert series of the coordinate ring C[Ok ] in terms of Pk . In
+the following proposition (which we prove in Section 7, restated as Proposition 7.6), given a plane
+partition P ∈ Pk , the statistic c(P ) is obtained by summing local differences over all the entries
+in P ; see (7.3). We write |Dk | to denote the number of boxes in the diagram Dk .
+
+
+                                                  4
+Proposition 1.2. Let (GR , KR ) be an irreducible Hermitian symmetric pair of noncompact type,
+and let r denote the real rank of GR . For all 1 ≤ k ≤ r, we have the Hilbert series
+
+                                                               c(P )
+                                                     P
+                                                        P ∈Pk t
+                                   HC[Ok ] (t) =                        .
+                                                   (1 − t)dim p+ −|Dk |
+
+
+(As mentioned above, in the dual pair setting, Proposition 1.2 can be easily aligned with the equiv-
+alent result obtained in the 1990s [3, 4, 6, 17, 41] for generic, symmetric, and skew-symmetric deter-
+minantal rings, via well-known bijections between plane partitions and families of nonintersecting
+lattice paths.) We conclude Section 7 by observing analogues of the Nishiyama–Ochiai–Taniguchi
+result (1.7) where GR is one of the exceptional groups E6 or E7 ; see Table 3 (page 32). These
+striking examples suggest the existence of a new analogue of Howe duality for the exceptional
+groups.
+
+
+
+
+                                         2. Howe duality
+2.1. Hermitian symmetric pairs. Suppose GR is a connected real reductive group, with real
+rank r. Further suppose that KR ⊂ GR is a maximal compact subgroup such that GR /KR is
+an irreducible Hermitian symmetric space of noncompact type. Let gR = kR ⊕ pR be a Cartan
+decomposition of the Lie algebra of GR , and let g = k ⊕ p be the corresponding decomposition of
+the complexified Lie algebra. From the general theory of Hermitian symmetric pairs, there exists a
+distinguished element h0 ∈ z(k) such that ad h0 acts on g with eigenvalues 0 and ±1. We thus have
+a triangular decomposition
+
+                                           g = p− ⊕ k ⊕ p+ ,
+
+where p± = {x ∈ g : [h0 , x] = ±x}. The subalgebra q = k ⊕ p+ is a maximal parabolic subalgebra
+of g, with Levi subalgebra k and abelian nilradical p+ . Upon fixing a Cartan subalgebra h of both
+g and k, we write Φ for the root system of (g, h), and gα for the root space corresponding to the
+root α ∈ Φ. Then we put
+
+                                    Φ(p+ ) := {α ∈ Φ : gα ⊆ p+ },
+(2.1)
+                                         S := C[p+ ] = C[zij ],
+
+where the zij ’s are the matrix coordinate functions on p+ (see Table 1).
+
+    Let K be the complexification of KR . Then k is the Lie algebra of K, and the adjoint action of k
+on g exponentiates to a K-action. In particular, K acts on p+ . The K-orbits in p+ are O0 := {0}
+and Ok := K · (eγ1 + · · · + eγk ) for 1 ≤ k ≤ r, where eγi ∈ gγi denotes a root vector corresponding to
+γi , and where γ1 , . . . , γr are Harish-Chandra’s set of strongly orthogonal roots. Recall from (1.2)
+that the closures of the K-orbits in p+ form a chain of algebraic varieties
+
+                                  {0} = O0 ⊂ O1 ⊂ · · · ⊂ Or = p+ .
+
+
+
+                                                     5
+                                                                                        p+ =
+                                                      A B                  A 0                    
+     GR           gR        g         K        g=               : ...   k=                          0B
+                                                        C D                     0 D                 0 0
+
+   U(p, q)      u(p, q)    glp+q   GLp × GLq     no constraints           glp ⊕ glq        Mp,q
+
+                                                     A = −Dt ,
+ Mp(2n, R)     sp(2n, R)   sp2n       GL
+                                      fn              B = Bt,                 gln          SMn
+                                                      C = Ct
+
+                                                     A = −Dt ,
+    ∗
+   O (2n)       so∗ (2n)   so2n       GLn            B = −B t ,               gln          AMn
+                                                     C = −C t
+
+        Table 1. The real reductive groups GR arising in the dual pair setting; see Table 2
+        for the corresponding complex classical groups H(k). Note that GL f n denotes the
+                                              ×            2
+                      f n := {(g, s) ∈ GLn × C : det(g) = s }.
+        double cover GL
+
+2.2. Howe duality. In this paper, we focus on the three groups in Table 1, namely GR = U(p, q),
+Mp(2n, R), or O∗ (2n), defined as follows:
+                                                                    
+                                                Ip   0     ∗     Ip   0
+               U(p, q) := g ∈ GL(p + q, C) : g           g =                ,
+                                                 0 −Iq            0 −Iq
+                                                                   
+                                               0   In t         0   In
+            Sp(2n, R) := g ∈ GL(2n, C) : g             g =                ∩ U(n, n),
+                                              −In 0            −In 0
+             Mp(2n, R) := the metaplectic double cover of Sp(2n, R),
+                                                                 
+                 ∗                             0 In t          0 In
+               O (2n) := g ∈ GL(2n, C) : g             g =              ∩ U(n, n),
+                                              In 0            In 0
+where In denotes the n × n identity matrix. Note that we have U(p, q) ∩ U(p + q) ∼
+                                                                                 = U(p) × U(q),
+                       ∼              ∗              ∼
+and Sp(2n, R) ∩ U(2n) = U(n), and O (2n) ∩ U(2n) = U(n), where in the last two cases U(n) is
+embedded block-diagonally as follows:
+                                                     
+                                  a     0
+                                              : a ∈ U(n) ∼= U(n).
+                                  0 (a−1 )t
+It follows that Sp(2n, R) ⊆ SL(2n, C) and O∗ (2n) ⊆ SL(2n, C). For this reason, many authors
+write SO∗ (2n) to denote O∗ (2n). From now on, we denote the complex classical groups by GLn :=
+GL(n, C) and On := O(n, C), and Sp2n := Sp(2n, C).
+Remark 2.1. Our definition of Sp(2n, R) above differs from the more standard definition by a Cayley
+transform as follows. Let c ∈ SL(2n, C) be the matrix given by
+                                                      √      
+                                        1      In        −1In
+                                  c := √     √                  .
+                                         2     −1In      In
+Then c Sp(2n, R)c−1 ⊆ SL(2n, R), with equality if and only if n = 1.
+
+  Let k be a positive integer. Corresponding to each group GR in Table 1 is a compact group
+HR (k), giving rise to the following compact dual pairs (GR , HR (k)):
+                   (U(p, q), U(k)),    (Mp(2n, R), O(k)),           (O∗ (2n), Sp(k)).
+
+                                                 6
+Let H(k) denote the complexification of HR (k), given in (2.2) below. The group H(k) acts naturally
+on the following space W of complex matrices, as follows:
+
+                         GR        H(k)         W            H(k)-action on W
+                       U(p, q)     GLk     Mp,k ⊕ Mk,q    h · (X, Y ) = (Xh−1 , hY )
+(2.2)
+                     Mp(2n, R)      Ok        Mk,n               h · X = hX
+                       O∗ (2n)     Sp2k       M2k,n              h · X = hX
+
+This induces the usual action by H(k) on C[W ], via (h · f )(w) = f (h−1 · w). Let D(W ) denote
+the Weyl algebra of polynomial-coefficient differential operators on C[W ], and let D(W )H(k) denote
+the subalgebra of H(k)-invariant operators. Then the complexified Lie algebra g of GR embeds
+in D(W )H(k) as a Lie subalgebra, and is spanned by a generating set of the associative algebra
+D(W )H(k) . Let
+                                        ω : g −→ D(W )H(k)
+denote the injective homomorphism; then g acts on C[W ] via its image ω(g) in D(W )H(k) . For
+details, see the appendix in [14], where we write down explicitly the homomorphism ω and the
+action of g by differential operators.
+   Let H(k)
+        b      denote the set of irreducible rational representations of H(k), up to equivalence. It is
+standard to view the elements σ ∈ b      H(k) as partitions (or pairs of partitions, for GLk ), as given in
+Table 2. We recall that a partition is a finite, weakly decreasing sequence of positive integers. Given
+a partition σ = (σ1 , . . . , σm ), we write ℓ(σ) := m for its length. We write σj′ := #{i : σi ≥ j}. When
+H(k) = GLk , we will generalize the notion of a partition by considering decreasing k-tuples σ of
+(possibly nonpositive) integers. Any such k-tuple can be expressed uniquely as a pair σ = (σ + , σ − ),
+where σ + and σ − are true partitions: in particular, σ + consists of the positive coordinates of σ, and
+σ − is the partition obtained by negating and reversing the negative coordinates of σ. For example,
+if σ = (6, 3, 3, 2, 0, 0, −1, −3, −5), then σ + = (6, 3, 3, 2) and σ − = (5, 3, 1).
+  Let Uσ denote a model for the irreducible representation σ ∈ H(k).
+                                                                   b      If H(k) = Sp2k or GLk ,
+then Uσ is the irreducible representation of H(k) with highest weight σ (in standard coordinates).
+For H(k) = Ok , which is not connected, the situation is more subtle; see [19, pp. 438–9] for a
+detailed construction of the representations Uσ . If σ ∈ H(k),
+                                                         b     then D(W )H(k) and hence g acts on
+the multiplicity space
+(2.3)                                 Mσ := HomH(k) (Uσ∗ , C[W ]).
+The action of an operator D ∈ D(W )H(k) on φ ∈ Mσ is given by D · φ = D ◦ φ. The algebra
+D(W )H(k) acts irreducibly on Mσ , and hence g does as well. Due to the canonical isomorphisms
+                                    n                                                    o
+(2.4)    Mσ ∼= (C[W ] ⊗ Uσ )H(k) ∼
+                                 = H(k)-equivariant polynomial functions from W to Uσ ,
+one can identify Mσ with the module of covariants on the right-hand side of (2.4); see [14, §4].
+   Roughly speaking, a (g, K)-module is a complex vector space carrying representations of both g
+and K, such that K acts locally finitely and the actions of g and K are compatible; see [38, Def. 3.2.3]
+for details. In the dual pair setting, the “classical” k-action on Mσ is given by the differential of
+the right matrix multiplication by K on W , but this classical action is not the action obtained
+by restricting the g-action to k. Instead, we should view Mσ as a k-module on which the classical
+k-action is “twisted” by multiplying by a suitable power of the determinant. Hence, writing Mσclass.
+to denote the k-module with the classical action, we will view Mσ as the k-module Mσclass. ⊗ F−kcζ ,
+
+                                                      7
+                                                      Σ=
+     GR        H(k)      H(k)
+                         b    = {σ : . . .}                                      λ(σ)              r          s
+                                                 {σ ∈ b
+                                                      H(k) : . . .}
+
+                                                    ℓ(σ + ) ≤ q,           ←−−          −−→ 
+                                                                      
+   U(p, q)      GLk     ℓ(σ + ) + ℓ(σ − ) ≤ k                             −σ − − k σ +          min{p, q}   p+q−1
+                                                    ℓ(σ − ) ≤ p
+
+ Mp(2n, R)       Ok         σ1′ + σ2′ ≤ k            ℓ(σ) ≤ n               −←
+                                                                             σ− − k2               n        2n − 1
+
+   O∗ (2n)      Sp2k         ℓ(σ) ≤ k                ℓ(σ) ≤ n               −←
+                                                                             σ− − k              ⌊n/2⌋       n−1
+
+        Table 2. Companion table to Table 1; see Theorem 2.2. The parameter r is the
+        real rank of GR , and s is the sharp bound such that k ≥ s implies that Lλ(σ) is free
+        for all σ ∈ b
+                    H(k). The arrow notation for λ(σ) is the shorthand given in (2.5).
+
+where F−kcζ is a certain one-dimensional k-module; in particular, c is a certain constant intrinsic
+to GR /KR (see [2, §2]), and ζ is the unique fundamental weight of g that is orthogonal to the
+compact roots. In this way, the twisted k-action on Mσ integrates to a K-action in a manner
+compatible with the g-action, and hence Mσ can be viewed as a (g, K)-module. Further, Mσ is
+a highest weight g-module, which follows from work of Harish-Chandra [20, 21] since GR /KR is
+Hermitian symmetric. We denote this highest weight by λ(σ). To write down λ(σ) in coordinates,
+we introduce the following shorthand for a weight of g:
+                   −
+                   →
+                σ := vector obtained from σ by padding with 0’s on the right,
+                   ←
+(2.5)           σ := vector obtained by reversing −
+                   −                              →
+                                                  σ,
+              µ−k := vector obtained from µ by subtracting k from every coordinate.
+In Table 2, we write weights for g in standard epsilon coordinates on the Cartan subalgebra consist-
+ing of diagonal matrices. In particular, a weight for g = glp+q is written as (a1 , . . . , ap | b1 , . . . , bq );
+a weight for g = sp2n or so2n is written as (a1 , . . . , an ).
+Theorem 2.2 (Howe duality; see [24], [28]). Assume one of the three settings in Tables 1 and 2, with
+W as in (2.2). We have the following multiplicity-free decomposition as a (g, K) × H(k)-module:
+
+                                     C[W ] ∼
+                                              M
+(2.6)                                       =     Mσ ⊗ Uσ∗ ,
+                                                       σ∈Σ
+
+where Mσ is the multiplicity space in (2.3), and where Σ := {σ ∈ bH(k) : Mσ ̸= 0}. Furthermore,
+the map σ 7→ λ(σ) is an injective map from Σ into the set of k-dominant integral weights, such that
+as a (g, K)-module
+(2.7)                  Mσ ∼
+                          = Lλ(σ) := simple g-module with highest weight λ(σ),
+and Lλ(σ) is unitarizable with respect to gR .
+
+
+                                                3. The set Qk (σ)
+3.1. Semistandard tableaux. Recall the definition of a partition from Section 2.2. We adopt the
+shorthand (am ) := (a, . . . , a), and we write 0 to denote the empty partition, which has length 0.
+The Young diagram associated to a partition σ is an arrangement of boxes in left-justified rows,
+such that the ith row from the top contains σi boxes. Note that σj′ := #{i : σi ≤ j} can be viewed
+as the number of boxes in column j of the Young diagram of σ.
+
+                                                          8
+   A semistandard Young tableau is a Young diagram in which the boxes are filled with positive
+integer entries, weakly increasing across each row and strictly increasing down each column. We
+write closed intervals of integers using the standard notation [m, n] := {x ∈ Z : m ≤ x ≤ n}, and
+we adopt the usual shorthand [n] := [1, n]. The shape of a tableau is the partition corresponding
+to its underlying Young diagram. The empty tableau ∅ is the tableau with shape 0. We write
+                     n                                                                     o
+      SSYT(σ, n) := semistandard Young tableaux of shape σ, with entries taken from [n] .
+Below, we show an example of a partition σ along with a tableau T ∈ SSYT(σ, n):
+                                                1 2 6
+                                                3 3
+(3.1)                σ = (3, 2, 1, 1)     ⇝     5
+                                                         ∈ SSYT(σ, n), where n ≥ 6.
+                                                6
+
+Note that if ℓ(σ) > n, then we automatically have SSYT(σ, n) = ∅. On the other hand, if σ = 0
+is the empty partition, then SSYT(0, n) = {∅} is the singleton consisting of the empty tableau.
+Given a tableau T , we write
+                           T1 := set of entries in column 1 of T ,
+                      T1 ⊎ T2 := multiset of entries in columns 1 and 2 of T ,
+where we count columns from the left. For the tableau T displayed in (3.1), we have T1 = {1, 3, 5, 6}
+and T1 ⊎ T2 = {{1, 2, 3, 3, 5, 6}}. In the GR = U(p, q) setting, where b
+                                                                       H(k) consists of pairs σ =
+(σ , σ ), a tableau T of shape σ is an ordered pair T = (T , T ) of tableaux such that T ± has
+  +   −                                                       +   −
+
+shape σ ± .
+3.2. The set Qk (σ). In Definition 3.1 below, we define Qk (σ) as a subset of a full set T (σ) of
+semistandard tableaux of shape σ. As mentioned above, for GR = U(p, q), each “tableau” T ∈ T (σ)
+is actually an ordered pair T = (T + , T − ).
+Definition 3.1. Assume one of the three settings in Table 2. For σ ∈ H(k),
+                                                                      b     define
+                                                                           
+                                      αi (T ) < i,                         
+                Qk (σ) := T ∈ T (σ) : for all positive integers i such that   ,
+                                       k−r <i≤k
+                                                                           
+
+where T (σ) and αi (T ) are defined as follows:
+
+                     GR                 T (σ)                          αi (T )
+
+                                 SSYT(σ + , q)                #{x ∈ T1+ : x < q − k + i}
+                   U(p, q)
+                               × SSYT(σ − , p)              + #{y ∈ T1− : y < p − k + i}
+
+                 Mp(2n, R)       SSYT(σ, n)             #{x ∈ T1 ⊎ T2 : x < n − k + i}
+
+                   O∗ (2n)       SSYT(σ, n)             #{x ∈ T1 : x < n − 1 − 2k + 2i}
+
+   Comparing the Σ column in Table 2 with Definition 3.1, we observe that σ ∈ Σ if and only if
+T (σ) ̸= ∅.
+Remark 3.2. For GR = Mp(2n, R) or O∗ (2n), it is straightforward to verify by Definition 3.1 that
+the constraint αi (T ) < i is trivial if i ≤ k − r; hence there is no harm in omitting the lower bound
+on i, so that 1 ≤ i ≤ k. By contrast, for GR = U(p, q), the constraint αi (T ) < i is not necessarily
+trivial for i ≤ k − r, so we cannot omit this lower bound without changing the definition of Qk (σ).
+
+                                                        9
+On the other hand, if one wishes to avoid checking trivial constraints (see Example 3.3 below),
+then one need only check positive integers i such that
+                
+                                                 +     −
+                min{2k − s, k − r} < i ≤ ℓ(σ ) + ℓ(σ ) if GR = U(p, q),
+                
+                  2k − s < i ≤ σ1′ + σ2′                    if GR = Mp(2n, R),
+                                                            if GR = O∗ (2n).
+                
+                  2k − s < i ≤ ℓ(σ)
+                
+
+Example 3.3.
+   (1) Let GR = U(p, q), where (p, q) = (3, 5) and k = 5. By Table 2, we have r = 3, so k − r = 2.
+       In αi (T ) in Definition 3.1, the conditions are x < q −k+i = i and y < p−k+i = i−2. Thus,
+       the set Qk (σ) consists of those tableaux T ∈ T (σ) such that #{x ∈ T1+ : x < i} + #{y ∈
+       T1− : y < i − 2} < i, for i = 3, 4, 5:
+                          #{x ∈ T1+ : x < 3} + #{y ∈ T1− : y < 1} < 3,
+                          #{x ∈ T1+ : x < 4} + #{y ∈ T1− : y < 2} < 4,
+                          #{x ∈ T1+ : x < 5} + #{y ∈ T1− : y < 3} < 5.
+       (Note that the first constraint is trivial, since it is satisfied by any semistandard tableau.)
+       Thus we have
+                                                                                          
+                                                           ∗   1           ∗   1         ∗   2   
+Qk (σ) = T ∈ T (σ) : (T + , T − ) has initial columns  ∗ , 2  or  ∗ , 3  or  ∗ , 3  ,
+                                                                                                 
+                                                         ≥5               ≥4                     ∗
+
+       where the stars denote arbitrary entries, and where we keep only the topmost ℓ(σ + ) and
+       ℓ(σ − ) many boxes in the left- and right-hand column, respectively.
+   (2) Let GR = Mp(2n, R), where n = 4 and k = 5. By Table 2, we have r = 4, so k − r = 1.
+       In αi (T ) in Definition 3.1, the condition is x < n − k + i = i − 1. Thus, Qk (σ) consists of
+       those tableaux T ∈ T (σ) such that #{x ∈ T1 ⊎ T2 : x < i − 1} < i, for i = 2, 3, 4, 5:
+                                    #{x ∈ T1 ⊎ T2 : x < 1} < 2,
+                                    #{x ∈ T1 ⊎ T2 : x < 2} < 3,
+                                    #{x ∈ T1 ⊎ T2 : x < 3} < 4,
+                                    #{x ∈ T1 ⊎ T2 : x < 4} < 5.
+       (Note that the first two constraints are trivial.) Thus we have
+                                                                                        
+                                                          1 ∗       1 ∗         ∗   ∗ 
+           Qk (σ) = T ∈ T (σ) : T has initial columns 2 ≥4 or 2 ≥3 or            3   ∗       ,
+                                                                                        
+                                                              3       4          4
+
+       where we keep only the topmost σ1′ and σ2′ many boxes in the first and second column,
+       respectively.
+   (3) Let GR = O∗ (2n), where n = 7 and k = 4. By Table 2, we have r = 3, so k − r = 1. In
+       αi (T ) in Definition 3.1, the condition on x ∈ T1 is x < n − 1 − 2k + 2i = 2i − 2. Thus, the
+       set Qk (σ) consists of those tableaux T ∈ T (σ) such that #{x ∈ T1 : x < 2i − 2} < i, for
+       i = 2, 3, 4:
+                                      #{x ∈ T1 : x < 2} < 2,
+                                      #{x ∈ T1 : x < 4} < 3,
+                                      #{x ∈ T1 : x < 6} < 4.
+
+
+                                                 10
+          (Note that the first constraint is trivial.) Thus we have
+                                                                              
+                                                                         ∗    
+                                    
+                                                                              
+                                                                               
+                                                                          ∗
+                          Qk (σ) = T ∈ T (σ) : T has initial column                ,
+                                    
+                                                                         ≥4 
+                                                                             
+                                                                              
+                                                                          ≥6
+
+
+          where we keep only the topmost ℓ(σ) many boxes.
+
+Lemma 3.4. Assume one of the three settings in Tables 1 and 2, where σ ∈ H(k).
+                                                                         b     Let Fλ(σ) denote
+the simple k-module with highest weight λ(σ).
+
+   (a) If k ≤ r, then #Qk (σ) = dim Uσ .
+
+   (b) If k ≥ s, then #Qk (σ) = dim Fλ(σ) .
+
+
+Proof.
+
+   (a) Suppose k ≤ r. Then by Definition 3.1, we have T ∈ Qk (σ) if and only if αi (T ) < i for
+all 1 ≤ i ≤ k. Equivalently, in the definition of αi (T ) and in the condition αi (T ) < i, one can
+replace all the strict inequalities < by weak inequalities ≤, and shift the range of i-values so that
+0 ≤ i ≤ k − 1. But at i = 0, the resulting constraint is trivial, so it may be omitted; at i = k,
+the resulting constraint is automatically satisfied by the fact that σ ∈ b
+                                                                         H(k), so there is no harm in
+including it. Hence we may still use the range 1 ≤ i ≤ k.
+
+        • Let GR = U(p, q). Then Uσ is the irreducible representation of H(k) = GLk with highest
+          weight σ. Let Q(σ) denote the set of all pairs (U + , U − ) ∈ SSYT(σ + , k) × SSYT(σ − , k)
+          such that #{x ∈ U1+ : x ≤ i} + #{y ∈ U1− : y ≤ i} ≤ i, for all 1 ≤ i ≤ k. Then Q(σ)
+          is Stembridge’s set of rational tableaux in [40, Def. 2.2]. By [40, Prop. 2.4(a)], we have
+          dim Uσ = #Q(σ). To complete the proof, we exhibit the bijection Qk (σ) −→ Q(σ) given
+                               +   −           +         −
+          by (T + , T − ) 7→ (T , T ), where T (resp., T ) is obtained by subtracting q − k (resp.,
+                                        +         −
+          p − k) from every entry in T (resp., T ).
+
+        • Let GR = Mp(2n, R). Then Uσ is the irreducible representation of H(k) = Ok labeled by σ.
+          Let Q(σ) denote the set of all U ∈ SSYT(σ, k) such that #{x ∈ U1 ⊎ U2 : x ≤ i} ≤ i, for all
+          1 ≤ i ≤ k. Then Q(σ) is Proctor’s set of orthogonal tableaux in [36, p. 30]. By [37, Thm. 3.1],
+          we have dim Uσ = #Q(σ). To complete the proof, we exhibit the bijection Qk (σ) −→ Q(σ)
+          given by T 7→ T , where T is obtained by subtracting n − k from every entry in T .
+
+        • Let GR = O∗ (2n). Then Uσ is the irreducible representation of H(k) = Sp2k with highest
+          weight σ. Let Q(σ) denote the set of all U ∈ SSYT(σ, 2k) such that #{x ∈ U1 : x ≤
+          2i} ≤ i, for all 1 ≤ i ≤ k. Then Q(σ) is Proctor’s set of symplectic tableaux in [36, p. 30].
+          By [37, Thm. 3.1], we have dim Uσ = #Q(σ). To complete the proof, we exhibit the
+          bijection Qk (σ) −→ Q(σ) given by T 7→ T , where T is obtained by subtracting n − 2k from
+          every entry in T .
+
+  (b) Suppose k ≥ s. For each group GR , it is straightforward to check directly from Definition 3.1
+that the conditions αi (T ) < i are all trivial for k − r < i ≤ k. Hence we have
+
+(3.2)                                        Qk (σ) = T (σ).
+
+                                                    11
+It remains to show that #T (σ) = dim Fλ(σ) . If GR = U(p, q), then by Table 1 we have k = glp ⊕ glq .
+Letting Fp (µ) denote the simple glp -module with highest weight µ (and similarly for glq ), we have
+                                                                    −−→            −−→
+         #T (σ) = # SSYT(σ − , p) · # SSYT(σ + , q)) = dim Fp (σ − ) · dim Fq (σ + )
+                                                            −−→                 ∗        −−→
+                                                     = dim Fp (σ − ) ⊗ Fp (k p ) · dim Fq (σ + )
+                                                                  ←−−               −−→ 
+                                                     = dim Fp (−σ − − k) ⊗ Fq (σ + )
+                                                          = dim F(−←−−      −
+                                                                            −→ = dim F
+                                                                   σ − −k | σ + )      λ(σ) .
+
+If GR = Mp(2n, R) or O∗ (2n), then by Table 1 we have k = gln , and since T (σ) = SSYT(σ, n), the
+proof is just a simpler version of the U(p, q) case above.                                     □
+
+   The following lemma gives an equivalent (case-by-case) criterion for T ∈ Qk (σ) which will be
+useful in proving Proposition 3.6. We write Tj,ℓ to denote the entry in row j and column ℓ of T . For
+a set S of integers, we write S(j) to denote the jth smallest element of S. Hence we have equivalent
+notation Tj,ℓ = (Tℓ )(j) .
+
+Lemma 3.5. Let σ ∈ H(k)
+                   b    in one of the settings in Table 2. Let T ∈ T (σ) as in Definition 3.1.
+                                   +             −
+   (1) Let GR = U(p, q). Let T (resp., T ) be the tableau obtained by adding k − q (resp., k − p)
+       to each entry of T + (resp., T − ). Define the sign
+                                               (
+                                                + if p ≤ q,
+                                          ϵ :=
+                                                − if p > q.
+         We have T ∈ Qk (σ) if and only if
+                                       −ϵ            ϵ              −ϵ
+                                   T 1,1 ≥ 1, and T j,1 ≥ ([k] \ T 1 )(j)
+         for all positive integers j such that k − min{p, q} < j ≤ ℓ(σ ϵ ).
+   (2) Let GR = Mp(2n, R). Define the interval I := [n − k + 1, n].
+         We have T ∈ Qk (σ) if and only if
+                                 T1,1 ≥ n − k + 1, and Tj,2 ≥ (I \ T1 )(j)
+         for all positive integers j such that 1 ≤ j ≤ σ2′ .
+   (3) Let GR = O∗ (2n). We have T ∈ Qk (σ) if and only if
+                             Tj,1 ≥ n + 2(j − k) − 1       for all 1 ≤ j ≤ ℓ(σ).
+
+Proof.
+  (1) Let GR = U(p, q). Suppose p ≤ q; then we have r = p, and T ϵ = T + and T −ϵ = T − . By
+                                                          +                    −
+Definition 3.1, we have T ∈ Qk (σ) if and only if #{x ∈ T 1 : x < i} + #{y ∈ T 1 : y < i} < i for all
+max{0, k − p} < i ≤ k. Equivalently, shifting the index i by 1, we have T ∈ Qk (σ) if and only if
+                      +                      −
+(3.3)       #{x ∈ T 1 : x ≤ i} + #{y ∈ T 1 : y ≤ i} ≤ i,         for all max{0, k − p} ≤ i ≤ k − 1.
+    −
+If T 1,1 ≤ 0, then k < p, and so i = 0 lies in the interval max{0, k − p} ≤ i ≤ k; but then (3.3) is
+                                                                                   −
+violated for i = 0, and thus T ∈
+                               / Qk (σ). Therefore, T ∈ Qk (σ) implies T 1,1 ≥ 1, as claimed in this
+
+                                                     12
+                                      −
+lemma. Consequently, we have T 1 ⊆ [k], and so (3.3) is equivalent to the following:
+                     +                               −
+          #{x ∈ T 1 : x ≤ i} ≤ i − #{y ∈ T 1 : y ≤ i}
+(3.4)                                                    −
+                                 = #{z ∈ ([k] \ T 1 ) : z ≤ i},          for all max{0, k − p} ≤ i ≤ k − 1.
+If k ≤ p, then (3.4) occurs if and only if
+                                                 +                −
+(3.5)                                          T j,1 ≥ ([k] \ T 1 )(j)
+                         +                                                          −
+for all 1 ≤ j ≤ #T 1 = ℓ(σ + ), and we are done. If k > p, then T 1 ⊆ [k − p + 1, k], and thus
+        −
+[k] \ T 1 contains the initial interval [k − p]; in this case, (3.4) occurs if and only if (3.5) holds for
+all k − p < j ≤ ℓ(σ + ), so we are done. This completes the proof for the p ≤ q case; the p > q case
+                                                                              +       −
+is identical, upon interchanging the roles of p and q, and the roles of T and T .
+   (2) Let GR = Mp(2n, R). By Definition 3.1 and by Remark 3.2, we have T ∈ Qk (σ) if and only
+if #{x ∈ T1 ⊎ T2 : x < n − k + i} < i for all 1 ≤ i ≤ k. Equivalently, T ∈ Qk (σ) if and only if
+(3.6)      #{x ∈ T1 : x ≤ n − k + i} + #{y ∈ T2 : y ≤ n − k + i} ≤ i,                    for all 0 ≤ i ≤ k − 1.
+If T1,1 ≤ n − k, then T violates the i = 0 case in (3.6), and we have T ∈  / Qk (σ); hence T ∈ Qk (σ)
+implies T1,1 ≥ n − k + 1, as claimed in this lemma. Thus we may assume that both T1 and T2 are
+subsets of I = [n − k + 1, n], and so (3.6) is equivalent to the following:
+        #{y ∈ T2 : y ≤ n − k + i} ≤ i − #{x ∈ T1 : x ≤ n − k + i}
+                                         = #{z ∈ (I \ T1 ) : z ≤ n − k + i},            for all 1 ≤ i ≤ k − 1,
+which occurs if and only if Tj,2 ≥ (I \ T1 )(j) for all 1 ≤ j ≤ #T2 = σ2′ .
+  (3) Let GR = O∗ (2n). In Definition 3.1, replacing i by j, we have αj (T ) < j if and only if
+#{x ∈ T1 : x < n − 1 − 2k + 2j} < j, if and only if
+(3.7)                           Tj,1 ≥ n − 1 − 2k + 2j = n + 2(j − k) − 1.
+Therefore, by Definition 3.1, we have T ∈ Qk (σ) if and only if (3.7) is true for all positive integers
+j such that k − r < j ≤ #T1 = ℓ(σ). Equivalently, by Remark 3.2, we can take 1 ≤ j ≤ ℓ(σ).           □
+
+                                                                            a
+                                                                             
+  In the following proposition, we adopt the convention that                b    = 0 if a or b is negative.
+
+Proposition 3.6. Assume one of the three settings in Table 2, where σ ∈ H(k).
+                                                                        b     Recall the set
+Qk (σ) from Definition 3.1.
+   (1) Let GR = U(p, q). We have
+                                                                    
+                                                 σi − i + j + cj + dj
+                              #Qk (σ) = det                                     ,
+                                                    σi − i + j + c j    1≤i,j≤k
+        where
+                      (                                                 (
+                       0       if j ≤ k − r,                             R                if j ≤ k − r,
+                cj :=                            and         dj := −1 +
+                       σ1−ϵ    if j > k − r                              min{k, r}        if j > k − r,
+
+        with r := min{p, q} and R := max{p, q} and the sign ϵ as in Lemma 3.5(1).
+   (2) Let GR = Mp(2n, R). We have
+                                                              
+                            X        σi − i + j + n − aj (C) − 1
+                 #Qk (σ) =     det
+                                            σi − i + j − 1        1≤i,j≤σ ′
+                                     C                                                         2
+
+
+
+                                                             13
+          with the sum ranging over all σ1′ -element subsets C ⊆ [max{1, n − k + 1}, n], and
+                                         aj (C) := max{C(j) , (I \ C)(j) },
+          where I = [n − k + 1, n].
+   (3) Let GR = O∗ (2n). We have
+                                                                     
+                                                   σi − i + j + n − aj
+                                 #Qk (σ) = det                                   ,
+                                                       σi − i + j        1≤i,j≤k
+
+          where aj := max{1, n + 2(j − k) − 1}.
+
+Proof. We appeal to a well-known result of Gessel–Viennot [16, §6]; see also the exposition by
+Krattenthaler [31, §10.13]. In particular, let λ and µ be partitions of length at most k, such that
+µi ≤ λi for all 1 ≤ i ≤ k. Let λ/µ denote the skew shape obtained by removing the Young diagram
+of µ from that of λ, where the upper-left corners of the diagrams coincide. Let a = (a1 , . . . , ak )
+and b = (b1 , . . . , bk ) be weakly increasing sequences of integers such that each ai ≤ bi . Define
+                                                                                       
+                                          semistandard Young tableaux of shape λ/µ,
+                SSYT(λ/µ, a, b) :=                                                        .
+                                          where all entries in row i lie in [ai , bi ]
+Note that SSYT(λ, n) is the special case where µ = 0 and a = (1, . . . , 1) and b = (n, . . . , n).
+By [31, Thm. 10.13.3], we have
+                                                                      
+                                           λi − µ j − i + j + b i − a j
+(3.8)            # SSYT(λ/µ, a, b) = det                                          .
+                                                λi − µj − i + j           1≤i,j≤k
+
+  (1) Let GR = U(p, q), and suppose p ≤ q. Thus r = p, R = q, and σ −ϵ = σ − . (Just as in
+Lemma 3.5(1), the p > q case is obtained by switching the roles of p and q, and of T + and T − .) Let
+                       ±
+T ∈ T (σ), and define T as in Lemma 3.5(1). We construct a single (possibly skew) semistandard
+          ′
+tableau T as follows:
+                            +
+        • Start with T , observing that
+                        +
+(3.9)               T       ∈ SSYT(σ + /0, a, b),     where each ai = k − q + 1 and bi = k.
+                                                                                     +
+        • Adjoin the top-justified columns Cσ− , . . . , C3 , C2 , C1 to the left of T , where each
+                                                     1
+                                                                  −
+                                                    Cℓ := [k] \ T ℓ .
+
+        • If k > p, then remove the topmost k − p rows from each column Cℓ above.
+Note that the columns Cσ− , . . . , C1 form a semistandard tableau C with entries in [k]; this follows
+from the same arguments used in the proof of Lemma 3.5(1), or from a result of Stembridge [40,
+                                                      −
+Lemma 2.5(b)]. Moreover, since (by Lemma 3.5) T consists of entries in the interval [max{1, k −
+p + 1}, k], if j ≤ k − p then the jth entry in every column Cℓ equals j; this is the reason for having
+removed the rectangular block of k −p rows and σ1− columns from the upper-left (since these entries
+are all forced, and have no effect on enumerating tableaux). On the other hand, if j > k − p, then
+                                             +
+by Lemma 3.5(1), the entry in row j of T 1 is no less than the entry in row j of C1 , and therefore
+                      ′                                     ′
+the entire tableau T is semistandard. By construction, T has shape λ/µ, where λ = σ + ((σ1− )k ),
+and where µ = ((σ1− )k−p ) if k > p and µ = 0 otherwise. Note that if j ≤ k − p, then row j in
+  ′                            +
+T is the same as row j in T , whose entries are bounded below by aj = k − q + 1 and above by
+bj = k, by (3.9). If j > k − p, then the initial entries in row j come from the Cℓ ’s, whose entries
+
+                                                           14
+                                                                                                   ′
+are bounded below by aj = max{1, k − p + 1} and above by bj = k. Hence the map T 7→ T gives
+a bijection
+                                   Qk (σ) −→ SSYT(λ/µ, a, b),
+where, for all 1 ≤ i, j ≤ k,
+                              (                        (
+                                 −
+                               σ   if j ≤ k − p,          k−q+1             if j ≤ k − p,
+      λi = σi + σ1− ,    µj =    1
+                                                  aj =
+                               0   otherwise,             max{1, k − p + 1} otherwise,
+and bi = k. The result follows from (3.8), upon setting cj := σ1− − µj and dj := k − aj .
+   (2) Let GR = Mp(2n, R). Given T ∈ Qk (σ), we decompose T into its initial column T1 and
+the tableau T>1 consisting of its remaining columns T2 , . . . , Tσ1 . By Lemma 3.5(2), this map
+T 7→ (T1 , T>1 ) gives a bijection
+               a                                      (T>1 )j,1 ≥ max{(T1 )(j) , (I \ T1 )(j)
+                                                                                              
+                                              σ1′
+   Qk (σ) −→         {T1 } × T>1 ∈ SSYT(σ − (1 ), n) :                                            ,
+                                                       for all 1 ≤ j ≤ σ2′
+               T1
+
+where the disjoint union ranges over all possible initial columns T1 , that is, where T1 is a σ1′ -element
+subset of [max{1, n−k +1}, n]. Upon replacing T1 by C, we see that the cardinality of each disjoint
+                                                             ′
+component in the right-hand side equals # SSYT(σ − (1σ1 ), a, b), where aj = max{C(j) , (I \ C)(j) }
+and where every bi = n. The result now follows from (3.8).
+   (3) Let GR = O∗ (2n). By Lemma 3.5(3), we have Qk (σ) = SSYT(σ/0, a, b), where a =
+(a1 , . . . , ak ) is given by aj = max{1, n + 2(j − k) − 1}, and where b = (n, . . . , n). The result
+follows from (3.8).                                                                                 □
+Remark 3.7. In light of Lemma 3.4, we conclude that the determinantal formulas in Proposition 3.6
+must collapse to a simple product formula when k ≤ r or k ≥ s. In particular, if k ≤ r, then
+#Qk (σ) = dim Uσ is given by the well-known hook-content formulas for H(k) = GLk , Ok , and
+Sp2k . Likewise, if k ≥ s, then #Qk (σ) = dim Fλ(σ) is given by the hook-content formula for
+K = GLp × GLq or GLn .
+
+                                            4. The set Pk
+4.1. Plane partitions and the set Pk . We use the term diagram to describe any edge-connected
+union D of unit squares (boxes), not necessarily the Young diagram of a partition. In particular, the
+following diagrams play an important role. A p × q rectangle is the Young diagram with shape (q p ).
+Following Proctor [35], we define an n-staircase to be the Young diagram with shape (n, . . . , 3, 2, 1),
+and a shifted n-staircase to be the horizontal reflection of an n-staircase.
+   Let k be a positive integer. In this paper, a plane partition bounded by k, and contained in a
+diagram D, is a filling of D with entries taken from [0, k], such that the entries weakly increase from
+left to right, and from bottom to top. NB: This means that our two-dimensional pictures of plane
+partitions are 90-degree clockwise rotations of the usual convention in the literature. Nonetheless,
+when using the typical three-dimensional depiction of a plane partition — where an entry t is
+represented by a stack of t unit cubes — this difference in convention vanishes. See Figure 1 for an
+example of the plane partitions in the following definition.
+Definition 4.1. Assume one of the three settings in Table 2, and define the diagram
+                      
+                      a (p − k) × (q − k) rectangle
+                                                         if GR = U(p, q),
+                 Dk := an (n − k)-staircase               if GR = Mp(2n, R),
+                        a shifted (n − 2k − 1)-staircase if GR = O∗ (2n).
+                      
+                      
+
+
+                                                    15
+We define the set
+             Pk := {plane partitions bounded by k and contained in the diagram Dk }.
+
+  See the top row of Figure 1 for examples of the plane partitions in Pk . We observe from
+Definition 4.1 that if k ≥ r then Dk = ∅, and thus Pk = {∅}, where ∅ is the empty plane
+partition. Thus,
+(4.1)                                    if k ≥ r then #Pk = 1.
+Proposition 4.2. Let Pk be as defined in Definition 4.1.
+   (1) If GR = U(p, q), then
+                                            p−k    q−k
+                                            Y      Y        k+i+j−1
+                                    #Pk =                           .
+                                                             i+j−1
+                                             i=1   j=1
+
+   (2) If GR = Mp(2n, R), then
+                                                   Y        k+i+j−1
+                                    #Pk =                           .
+                                                             i+j−1
+                                            1≤i≤j≤n−k
+
+   (3) If GR = O∗ (2n), then
+                                                   Y          2k + i + j
+                                    #Pk =                                .
+                                                                i+j
+                                            1≤i≤j≤n−2k−1
+
+
+Proof. Part (1) is the formula for boxed (p − k) × (q − k) × k plane partitions due to MacMahon [32,
+§IX]. Part (2) is the formula for symmetric boxed (n − k) × (n − k) × k plane partitions, conjectured
+by MacMahon and ultimately proved by Andrews [1, §2]. Part (3) is given by Proctor [35, Thm. 1],
+upon setting q = 1 in his formula (CGH) or (CGI).                                                   □
+
+4.2. Plane partitions, lattice paths, and order complexes. We next highlight a well-known
+bijection between plane partitions and families of nonintersecting lattice paths. To make this
+precise, we introduce a poset (P, ≤) whose underlying set P ⊂ N2 is given as follows:
+                       
+                       {(i, j) : 1 ≤ i ≤ p and 1 ≤ j ≤ q} if GR = U(p, q),
+                       
+(4.2)             P := {(i, j) : 1 ≤ i ≤ j ≤ n}             if GR = Mp(2n, R),
+                                                            if GR = O∗ (2n).
+                       
+                         {(i, j) : 1 ≤ i < j ≤ n}
+                       
+
+For GR = U(p, q) or O∗ (2n), we equip P with the product order, whereby (i, j) ≤ (i′ , j ′ ) if and
+only if i ≤ i′ and j ≤ j ′ . For GR = Mp(2n, R), we reflect this partial order so that (i, j) ≤ (i′ , j ′ )
+if and only if i ≤ i′ and j ≥ j ′ . In all cases, we will depict P so that the minimal element is in the
+northwest corner; thus each element is covered by the element to its east and the element to its
+south. Thus, adapting the terminology from Definition 4.1, we observe that our depiction of P is
+a p × q rectangle, an n-staircase, and a shifted (n − 1)-staircase, respectively:
+
+
+
+
+                 GR = U(p, q),              GR = Mp(2n, R),                  GR = O∗ (2n),
+                 (p, q) = (8, 12)               n=8                             n=9
+
+                                                       16
+Remark 4.3. Recall the set Φ(p+ ) from (2.1). When GR = U(p, q) or O∗ (2n), the Lie algebra g is
+simply laced, and we have an isomorphism of posets P −→ Φ(p+ ) given by
+                            
+                            (i, j) 7−→ (←
+                                         ϵ−i | −−
+                                                ϵ→j ) if GR = U(p, q),
+                                              ←−−−−−
+                                   (i, j) 7−→ ϵi + ϵj        if GR = O∗ (2n).
+                                  
+
+We further develop this observation in Section 7.
+
+   Recall that a chain in P is a totally ordered subset of P. An antichain is a subset of P in which
+any two elements are incomparable. The width of a subset S ⊆ P is the cardinality of the largest
+antichain contained in S. For a positive integer k, the kth order complex on P is the abstract
+simplicial complex
+(4.3)                           ∆k (P) := {S ⊆ P : S has width at most k}.
+A facet of ∆k (P) is an element of ∆k (P) that is maximal with respect to inclusion. We denote the
+set of facets by
+(4.4)                           Fbk := {F : F is a facet of ∆k (P)}.
+Observe that for all three cases in (4.2), the width of P equals the parameter r (see Table 2).
+Therefore, if k ≥ r then ∆k (P) is just the power set of P, and Fbk = {P}.
+   Note that a saturated chain in P is a lattice path, obtained by taking steps in the direction
+(1, 0) or (0, 1). Accordingly, in our diagrams the steps in a lattice path are either south or east.
+If the starting point and endpoint coincide, then the lattice path contains only that single point.
+Assuming k ≤ r, it is well known that
+(4.5)          Fbk = {F : F is a maximal union of k nonintersecting lattice paths in P}.
+Note that in all three settings (still assuming k ≤ r), there are certain points common to every
+F ∈ Fbk :
+        • Let GR = U(p, q). Let a1 , . . . , ak ∈ P be the points lying on the kth antidiagonal i+j = k+1,
+          listed from northeast to southwest. Let b1 , . . . , bk ∈ P be obtained by translating a1 , . . . , ak
+          (respectively) by (p − k, q − k). Then every F contains the disjoint union kt=1 (Kt ⊔ Mt ),
+                                                                                           `
+          where Kt is the horizontal lattice path ending at at , and Mt is the vertical lattice path
+          starting at bt .
+        • Let GR = Mp(2n, R). Let a1 , . . . , ak ∈ P be the points lying on the kth antidiagonal, listed
+          from northeast to southwest. Then every F contains the disjoint union kt=1 Kt , where Kt
+                                                                                     `
+          is defined in the same way as the U(p, q) case above.
+        • Let GR = O∗ (2n). Let a1 , . . . , ak ∈ P be the points lying on the 2kth antidiagonal i + j =
+          2(k + 1), listed from northeast to southwest. Let b1 , . . . , bk ∈ P be obtained by translating
+          a1 , . . . , ak (respectively) by (n − 2k − 1, n − 2k − 1) (equivalently, reflecting about the line
+          i + j = n + 1). Then every F contains the disjoint union kt=1 (Kt ⊔ Mt ), defined in the
+                                                                            `
+          same way as the U(p, q) case above.
+See the bottom row of Figure 1, where we indicate the at ’s (resp., bt ’s) with enlarged dots in the
+northwest (resp., southeast) corner of P. The Kt ’s (resp., Mt ’s) are the gray paths ending at the
+at ’s (resp., starting at the bt ’s). In the following definition, for each plane partition P ∈ Pk we
+construct a subset Θ(P ) ⊆ P.
+Definition 4.4. Let P ∈ Pk , as in Definition 4.1. Recall that k ≥ r implies Pk = {∅}; in this
+case, we define Θ(∅) := P. If k < r, then construct Θ(P ) ⊆ P as follows:
+
+                                                        17
+                   GR :                U(p, q)            Mp(2n, R)            O∗ (2n)
+            Parameters :       (p, q) = (7, 9), k = 3    n = 7, k = 3       n = 11, k = 3
+
+                                    1 2 2 3 3 3             1 2 3 3            1 2 3 3
+                                    0 1 2 2 3 3             0 2 2                1 2 2
+                 P ∈ Pk :           0 0 1 1 2 2             0 1                    0 2
+                                    0 0 0 0 0 1             0                        1
+
+
+
+
+    3D depiction of P :
+
+
+
+
+      With L1 , . . . , Lk :
+
+
+
+
+            Θ(P ) ∈ Fbk :
+
+
+
+
+            Figure 1. The bijection Θ : Pk −→ Fbk in Definition 4.4 and Lemma 4.5.
+
+     • For 1 ≤ t ≤ k:
+          – Align the upper-left corner of P with the point at .
+         – Draw the lattice path Lt ⊆ P from at to bt (or if H(k) = Ok , from at to the main antidi-
+            agonal of P) such that Lt is the southwest boundary of the subdiagram Pt containing
+            those boxes with entries strictly greater than k − t.
+     • Define Θ(P ) := kt=1 Nt , where Nt := Kt ∪Lt ∪Mt ; if GR = Mp(2n, R), then Nt := Kt ∪Lt .
+                       `
+
+
+   For examples of the map P 7→ Θ(P ) in Definition 4.4, see the top and bottom row of Figure 1;
+in the bottom row, the paths L1 , . . . , Lk (from northeast to southwest) are drawn in black. In
+Figure 1, we also show the three-dimensional depiction of P , which makes it easy to trace out
+L1 , . . . , Lk (from top to bottom).
+  The following lemma is closely related to the bijections given by Krattenthaler [30], who used
+two-row arrays (equivalently, nonnegative integer matrices) instead of plane partitions. (See in
+particular Propositions 28, 30, and 33 in [30], corresponding to our cases GR = U(p, q), O∗ (2n),
+and Mp(2n, R), respectively.)
+
+
+                                                  18
+Lemma 4.5. The map P 7→ Θ(P ) in Definition 4.4 gives a bijection Θ : Pk −→ Fbk .
+
+Proof. (Throughout the proof, suppress any mention of bt and Mt in the GR = Mp(2n, R) case.) By
+construction, Θ(P ) is a family of k lattice paths in P, since each Kt ends at the starting point at of
+Lt , which ends at the starting point bt of Mt . Since P1 ⊆ · · · ⊆ Pk , the southwest boundary of Pt+1
+lies weakly southwest of the southwest boundary of Pt ; thus, since the starting point at+1 of Lt+1
+is strictly southwest of the starting
+                                   ` point at of Lt , the paths L1 , . . . , Lt are indeed nonintersecting.
+This justifies the disjoint union t Nt written in the last step of Definition 4.4. Maximality follows
+immediately from the starting and ending points of the Nt ’s. Hence by (4.5), we have Θ(P ) ∈ Fbk .
+It is clear that distinct plane partitions in Pk yield distinct families {L1 , . . . , Lk }, so Θ is one-to-one.
+   In the other direction, given F ∈ Fbk , one can decompose F into a maximal union of k nonin-
+tersecting lattice paths N1 , . . . , Nk , by (4.5), such that each Nt contains Kt and Mt . This leaves
+nonintersecting lattice paths Lt from at to bt , for 1 ≤ t ≤ k. Now by superimposing these paths
+Lt so that they all start in the upper-left corner of the diagram Dk , we obtain the plane parti-
+tion Θ−1 (F) ∈ Pk as follows: the entry in each box of Dk equals the number of Lt ’s lying to the
+southwest of that box. Hence Θ is onto, which completes the proof.                                   □
+
+              5. Stanley decompositions of unitary highest weight modules
+  This section is a self-contained summary of the main result in [14]; see Lemma 5.5 below. This
+lemma plays a key role in proving our main result in Section 6.
+
+5.1. Multiplicity and Stanley decompositions. We recall some fundamental results from com-
+mutative algebra concerning finitely generated graded modules over polynomial rings.
+Definition 5.1. Let M = ∞
+                          L
+                             n=0 Mn be a finitely generated graded S-module with Krull dimension
+d, where S is a polynomial ring over C in determinates of degree 1. The Hilbert–Poincaré series of
+M is the formal power series
+                                               X∞
+                                     HM (t) :=    (dim Mn )tn .
+                                                     n=0
+
+
+  Let M be as in Definition 5.1. By the Hilbert–Serre theorem (see also [4, Cor. 4.1.8]), there
+exists a unique QM (t) ∈ Z[t] with Q(1) ̸= 0 such that
+                                                         QM (t)
+(5.1)                                        HM (t) =            .
+                                                        (1 − t)d
+Definition 5.2. Let M be as in Definition 5.1, with reduced Hilbert series given by (5.1). The
+multiplicity of M is the positive integer e(M ) := QM (1).
+
+   The multiplicity e(M ) equals (d−1)! times the leading coefficient of the Hilbert polynomial PM (t);
+see the exposition in [4], particularly page 150 and Proposition 4.1.9. Comparing Definition 5.2
+with (1.1), we see that multiplicity is synonymous with Bernstein degree, in the following sense.
+Given a good filtration {Xn } in the context of (1.1), the graded object
+                                                     ∞
+                                                     M
+                                           gr X :=         Xn /Xn−1
+                                                     n=0
+
+is a graded module over S(g), and following [33, Def. 1.3], we define
+(5.2)                                        Deg X := e(gr X).
+
+                                                      19
+Definition 5.3 (see [5, Def. 2.1]). Let M be as in Definition 5.1. A Stanley decomposition of M
+is a finite family (Si , ηi )i∈I where ηi ∈ M is homogeneous, and Si is a graded C-algebra retract of
+S such that Si ∩ Ann ηi = 0, and
+                                                    M
+(5.3)                                         M=       Si ηi
+                                                 i∈I
+as a graded vector space. Each Si ηi in (5.3) is called the Stanley space corresponding to i ∈ I.
+
+   By [23, Lemma 1.1], any module M satisfying the hypotheses of Definition 5.1 admits a Stanley
+decomposition. (The terminology refers to Stanley’s work [39] on commutative monoids.) Note
+that a Stanley decomposition (5.3) yields the following closed form for the Hilbert series:
+                                            X        tdeg ηi
+(5.4)                             HM (t) =                        ,
+                                            i∈I
+                                                 (1 − t)Kdim(Si )
+where Kdim denotes the Krull dimension. Comparing this with the reduced form of the Hilbert
+series in (5.1), we make the following key observation.
+Lemma 5.4 ([26, p. 1018]). Let M be as in Definition 5.1, and let (Si , ηi )i∈I be a Stanley decom-
+position of M . Then
+                             d := Kdim(M ) = max{Kdim(Si )}.
+                                                      i∈I
+Furthermore, defining
+                                   Ib := {i ∈ I : Kdim(Si ) = d},
+we have
+                                            e(M ) = #I.
+                                                     b
+
+5.2. Stanley decompositions of unitary highest weight modules. In this paper, the role
+of M in (5.3) is played by the unitary highest weight modules Lλ(σ) arising in the dual pair
+setting (2.7). The role of S is played by the ring defined in (2.1), namely
+                                  S = C[p+ ] = C[zij : (i, j) ∈ P],
+where P is the poset in (4.2). Each Lλ(σ) has the structure of a graded S-module, where the
+grading is induced from the degree filtration coming from U (g), normalized so that the weight
+space corresponding to the highest weight λ has degree 0. In particular, the degree of the µ-weight
+space is (λ − µ)(h0 ), where h0 ∈ z(k) is the distinguished element described at the beginning of
+Section 2.1. Thus by (5.2), the Bernstein degree of Lλ(σ) is synonymous with its multiplicity as a
+graded S-module:
+(5.5)                                  Deg Lλ(σ) = e(Lλ(σ) ).
+
+   In previous work [14], we obtained Stanley decompositions of all modules Lλ(σ) , for the groups
+U(p, q) and O∗ (2n). The role of the index set I in (5.3) is played by a set Jk (σ) consisting of
+combinatorial objects we call jellyfish of shape σ. Note that in [14], we stated this result in terms
+of the modules of covariants Mσ of the classical groups H(k); see (2.3)–(2.4) and (2.6) above.
+Recall from (2.7) that (upon viewing Mσ as the k-module Mσclass. ⊗ F−kcζ ) we have Mσ ∼   = Lλ (σ) as
+(g, K)-modules; moreover, in [14] we observed that, upon shifting the natural grading on Mσ via
+d 7→ (d − |σ|)/2, we also have Mσ ∼ = Lλ(σ) as graded S-modules. Therefore, in stating Lemma 5.5
+below (where we record our main result from [14]), we apply to Lλ(σ) our Stanley decompositions
+of Mσ . After the lemma, we will explain the notation in detail. (In light of Lemma 5.4, however,
+we will omit here those details that do not pertain to the Krull dimension of the Stanley spaces;
+we refer the reader to the exposition in [14, §3].)
+
+                                                 20
+Lemma 5.5 ([14, Thm. 3.2]). Assume the setting in Table 2 where GR = U(p, q) or O∗ (2n).
+   If k < s, then the graded S-module Lλ(σ) admits a Stanley decomposition
+                                                                        
+
+                    Lλ(σ) ∼
+                                     M                            Y
+(5.6)                     = Mσ =            C[zij : (i, j) ∈ F]     zij  φT ,
+                                      (T,F)∈Jk (σ)                   (i,j)∈cor(F)
+
+where
+        • Jk (σ) is the set of jellyfish to be defined below (Definition 5.6);
+        • each T is a tableau in the set T (σ) from Definition 3.1;
+        • each F is a (not necessarily maximal) union of k nonintersecting lattice paths in P (see (4.2)),
+          and thus is an element of the complex ∆k (P) defined above in (4.3); see also (5.8) below;
+        • cor(F) is the set of “corners” of the lattice paths determining F, defined in [14, eqn. (3.4)];
+          the details are not pertinent to the result in the present paper.
+        • φT is an H(k)-equivariant map canonically induced by T , and defined in [14, eqn. (2.12)];
+          the details are not pertinent to the result in the present paper.
+   If k ≥ s, then Lλ(σ) is a free S-module with Stanley decomposition
+
+                                     Lλ(σ) ∼
+                                                     M
+(5.7)                                      = Mσ =         S φT .
+                                                          T ∈T (σ)
+
+
+5.3. Jellyfish: uniform overview. Sections 5.3–5.5 will be a summary of our exposition in [14,
+§3]. In this subsection, we give a uniform definition of the set Jk (σ) parametrizing the Stanley spaces
+in (5.6). Then in the following two subsections, we will give the details specific to GR = O∗ (2n)
+and U(p, q), respectively; we choose this order because the combinatorial details in the O∗ (2n) case
+are considerably more straightforward.
+   From now on, assume that k < s. We recall the set P from (4.2). We will define a region A ⊆ P
+lying above a certain antidiagonal. Then δ(A) or δ(P) will denote the set of points lying on a
+certain boundary of A or P, respectively. We define the set
+                      n              k
+                                     a                                                 o
+                                  
+(5.8)         Fk :=       A \ δ(A) ⊔   Lt : each Lt is a lattice path from δ(A) to δ(P) ,
+                                      t=1
+
+which contains the facet set Fbk defined above in (4.4). Given F ∈ Fk , a corner of F is an east-
+to-south turn in one of its lattice paths, such that the string of points to its southwest contains at
+least one point not in F. (Although in the U(p, q) case the decomposition of F into lattice paths
+Lt is in general not unique, nonetheless the corners of F are well defined.) The symbol cor(F) in
+Lemma 5.5 denotes the set of corners of F; this will not, however, be relevant to the main result in
+this paper.
+   We define the collection
+                                            {Lt }kt=1 is a family of nonintersecting
+                                                                                    
+                                      k
+(5.9)        Ek :=   {endpoint of Lt }t=1 :                                            ,
+                                            lattice paths from δ(A) to δ(P)
+consisting of all possible sets E ⊆ δ(P) of endpoints for the lattice paths appearing in (5.8). We
+then partition Fk and T (σ) (from Definition 3.1) into subsets FE and TE (σ) as follows.
+
+                                                     21
+  For E ∈ E, define
+
+                               F = (A \ δ(A)) ⊔ kt=1 Lt ,
+                                                  `                          
+(5.10)       FE := F ∈ Fk :                                                     .
+                               where each Lt is a lattice path from δ(A) to E
+
+For GR = O∗ (2n) we will have Fk = E∈E FE , but for GR = U(p, q) it is possible that FE = FE′ .
+                                    `
+Note that #F is determined by the endpoints of its lattice paths; hence, for each E ∈ E, every
+element of FE has the same cardinality. In light of Lemma 5.4, we define
+                                dk := max {#F},
+                                      F∈Fk
+(5.11)                          Fbk := {F ∈ Fk : #F = dk },
+                                Ebk := {E ∈ Ek : if F ∈ FE then F ∈ Fbk }.
+
+Note that this definition of Fbk is equivalent to the one given in (4.4).
+
+  Given σ ∈ H(k),
+            b     and recalling the tableau set T (σ) from Definition 3.1, we will define a map
+(5.12)                                       end : T (σ) −→ Ek ,
+so that (very roughly speaking) end(T ) is the set of endpoints most closely aligning with the initial
+column of T . From now on, we write Tt,1 to denote the entry of T in row t and column 1. For each
+E ∈ Ek , we define the fiber
+(5.13)                             TE (σ) := {T ∈ T (σ) : end(T ) = E}.
+                  `
+Clearly T (σ) =       E∈E TE (σ), although we may have TE (σ) = ∅ for certain E ∈ Ek .
+
+Definition 5.6. Let GR = U(p, q) or O∗ (2n), with k < s and σ ∈ H(k),
+                                                                b     as in Table 2. A jellyfish
+of shape σ is an element of the set
+                                              a
+                                    Jk (σ) :=   TE (σ) × FE ,
+                                                  E∈Ek
+
+with TE (σ) and FE as in (5.13) and (5.10), and with case-by-case details to be described below.
+Recalling the set Fbk from (5.11), we say a jellyfish is maximal if it belongs to the subset
+                                          n                         o
+                                Jbk (σ) := (T, F) ∈ Jk (σ) : F ∈ Fbk .
+
+Lemma 5.7. Let GR = U(p, q) or O∗ (2n), with k < s and σ ∈ H(k),
+                                                           b     as in Table 2. We have
+
+                                          Deg Lλ(σ) = #Jbk (σ).
+
+
+Proof. Consider the Stanley decomposition of Lλ(σ) in (5.6), which is the k < s case of Lemma 5.5.
+Each (T, F) ∈ Jk (σ) corresponds to the Stanley space S(T,F) η(T,F) , where S(T,F) = C[zij : (i, j) ∈ F]
+has Krull dimension equal to #F. Now we can apply Lemma 5.4, where the role of M is played by
+Lλ(σ) , the role of d is played by dk from (5.11), the role of I is played by Jk (σ), and the role of Ib
+is played by Jbk (σ) from Definition 5.6. In this special case, Lemma 5.4 yields
+                                                 
+                                          e Lλ(σ) = #Jbk (σ).
+
+The result follows from (5.5).                                                                        □
+
+                                                     22
+5.4. Details for O∗ (2n). Let GR = O∗ (2n). Then P = {(i, j) : 1 ≤ i < j ≤ n} is depicted as an
+(n − 1)-staircase, with (1, 2) in the northwest corner, and (n − 1, n) in the southeast corner. Let
+                             A := {(i, j) ∈ P : i + j ≤ 2(k + 1)},
+                          δ(A) := {(i, j) ∈ A : i + j = 2(k + 1) or j = n},
+                          δ(P) := {(i, j) ∈ P : j = n}.
+Note that δ denotes the eastern boundary. Explicitly, we have
+                                                 (
+                                                  n                      if t < 2(k + 1) − n,
+(5.14)        δ(A) = {(t, bt )}kt=1 , where bt =
+                                                  2(k + 1) − t           otherwise.
+Referring to (5.8), we observe that each F ∈ Fk admits a unique decomposition F = (A \ δ(A)) ⊔
+`k
+  t=1 Lt , where each Lt is a southeast lattice path starting at (t, bt ) and ending in δ(P). In (5.15)
+below, where n = 11, we show examples of an element F ∈ Fk for two different values of k.
+Following (5.8), we shade the points in F, and we draw squares to indicate the elements of cor(F):
+
+
+
+(5.15)
+
+
+                            k=4                                         k=7
+
+Let E = {(it , n)}kt=1 ∈ Ek where the it ’s are listed in increasing order. By (5.10), if F ∈ FE , then
+each Lt is a lattice path from (t, bt ) to (it , n). Hence
+                                      k
+                                      X
+(5.16)        #F = #(A \ δ(A)) +             #Lt ,     where   #Lt = (it − t) + (n − bt ) + 1.
+                                       t=1
+
+The bt ’s in (5.14) are independent of F, and thus #F depends only on the sum kt=1 it . Crucially,
+                                                                              P
+due to the nonintersecting property of the lattice paths, the maximum attainable value ı̂t for it is
+given by
+                                   (
+                                    t                if t < 2(k + 1) − n,
+(5.17)                       ı̂t =
+                                    n + 2(t − k) − 1 otherwise.
+Note that the topmost case in (5.17) corresponds to those t’s (if any) for which Lt = {(t, bt )}
+is necessarily a singleton; for example, in the right-hand example in (5.15), this occurs for t <
+                                                                                 b := {(ı̂t , n)}k ,
+2(k +1)−n = 5, and indeed the four topmost lattice paths are singletons. Putting E               t=1
+it follows from the above discussion that F attains the maximum possible cardinality dk if and only
+if F ∈ FEb ; that is, recalling the sets Ek and Fk defined in (5.11),
+                                         b      b
+
+(5.18)                           Ebk = { b
+                                        E}, and therefore Fbk = FE
+                                                                 b.
+
+
+  We now define the “end” map (5.12) as follows, for T ∈ T (σ) = SSYT(σ, n):
+(5.19)                   end(T ) := {(it , n)}kt=1 ,    where it = min{Tt,1 , ı̂t }.
+Since Tt,1 is undefined for t > ℓ(σ), in this range the equation (5.19) reduces to it = ı̂t . In the
+running examples below, for a given tableau T we indicate end(T ) by highlighting its elements in
+
+                                                       23
+red inside the vertical strip δ(P):
+                              end(T )                                               end(T )
+                                                                                  ı̂1 →
+                                        2   ← T1,1                                ı̂2 →       2   ← T1,1
+                                                                          2 3 5   ı̂3 →
+                            ı̂1 →                                         4 6 8   ı̂4 →       4 ← T2,1
+                2 3 5 5                                                   5 7                 5 ← T3,1
+          T =   8 9         ı̂2 →                                   T =   6 8     ı̂5 →       6 ← T4,1
+                9                                                         7 9                 7 ← T5,1
+                            ı̂3 →       8   ← T2,1                        8       ı̂6 →       8 ← T6,1
+                                        9   ← T3,1                        9                   9 ← T7,1
+                            ı̂4 →                                                 ı̂7 →
+
+                               k=4                                                   k=7
+
+
+5.5. Details for U(p, q). Let GR = U(p, q). Then P = {(i, j) : 1 ≤ i ≤ p, 1 ≤ j ≤ q} is a p × q
+grid, with (1, 1) in the northwest corner, and (p, q) in the southwest corner. Let
+                            A := {(i, j) ∈ P : i + j ≤ k + 1},
+                          δ(A) := {(i, j) ∈ A : i + j = k + 1 or i = p or j = q},
+                          δ(P) := {(i, j) ∈ P : i = p or j = q}.
+Note that δ denotes the southeastern boundary. Given σ ∈ b
+                                                         H(k), it will be useful to define
+                                            k + := max{ℓ(σ + ), k − p},
+(5.20)
+                                            k − := k − k + ,
+so that k = k + + k − . The purpose of (5.20) is to divide δ(A) into two sides: due to the upcoming
+definition of end(T ) in (5.26), it will turn out that (T, F) ∈ Jk (σ) only if the k + many southernmost
+lattice paths in F have endpoints along the southern edge of δ(P), and the remaining k − many
+easternmost lattice paths have endpoints along the eastern edge of δ(P). In particular, if k − p is
+positive, then it equals the number of starting points along the southern edge of δ(A) ∩ δ(P) that
+                                                                                           +         −
+are necessarily their own endpoints. Explicitly, then, we have δ(A) = {(au , u)}ku=1 ⊔ {(t, bt )}kt=1 ,
+where
+                   (                                               (
+                     p             if u ≤ k − p,                     q            if t ≤ k − q,
+(5.21)       au =                                    and      bt =
+                     k − u + 1 otherwise,                            k − t + 1 otherwise.
+By (5.8), for each F ∈ Fk we have F = (A \ δ(A)) ⊔ L, for a (not necessarily unique) disjoint union
+      ` +        `k − −                                                                              −
+L = ku=1 L+  u ⊔
+                                            +
+                    t=1 Lt , where each Lu is a southeast lattice path from (au , u) to δ(P), and Lt
+is a southeast lattice path from (t, bt ) to δ(P). Below, for (p, q) = (7, 10), we show examples of an
+element F ∈ Fk for three different values of k:
+
+
+
+
+                k=4                                     k=8                               k = 12
+
+                     +
+Let E = {(p, ju )}ku=1 ⊔ {(it , q)}kt=1 ∈ Ek where the ju ’s and it ’s are listed in increasing order.
+                                                                                                  −
+By (5.10), if F ∈ FE , then each L+     u is a lattice path from (au , u) to (p, ju ), and each Lt is a
+lattice path
+          P from (t, bt ) to (it , q). By same argument as in (5.16), #F depends only on        the sum
+P                                                                                            +        −
+   u ju +   t it . Crucially, due to the nonintersecting condition on the lattice paths Lu and Lt ,
+
+
+                                                          24
+each E ∈ Ek has the following property: the ℓ × ℓ square in the lower-right corner of P contains at
+most ℓ points in E, for all 1 ≤ ℓ ≤ min{k, r}. Thus we have the tight inequalities
+(5.22)           #{u : ju > q − ℓ} + #{t : it > p − ℓ} ≤ ℓ          for all 1 ≤ ℓ ≤ min{k, r}.
+It follows that F attains the maximum possible cardinality dk if and only if the inequalities (5.22)
+are all tight at E, that is, #{u : ju > q − ℓ} + #{t : it > p − ℓ} = ℓ for all 1 ≤ ℓ ≤ min{k, r}.
+Equivalently, since #E = k, we have that #F = dk if and only if
+(5.23)        #{u : ju ≤ q − ℓ} + #{t : it ≤ p − ℓ} = k − ℓ              for all 1 ≤ ℓ ≤ min{k, r},
+that is, if and only if F contains the isosceles right triangle in the southeastern corner of P with
+side length min{k, r}. Thus by (5.11),
+
+(5.24)              Fbk = FE if and only if E ∈ Ebk = {E ∈ Ek : E satisfies (5.23)}.
+
+    Observe from (5.23) that upon fixing the ju ’s, the maximum attainable value ı̂t of it is given by
+ı̂t = t if t < k − q, while if t ≥ k − q, then the ı̂t ’s are the largest elements ı̂min{1, k−q} < · · · < ı̂k−
+of the set
+                                     n                               +
+                                                                       o
+(5.25)                                 i ∈ [p] : q − p + i ∈/ {ju }ku=1 .
+
+In other words, for min{1, k − q} ≤ t ≤ k − , the ı̂t ’s are the distinct elements chosen from [p] to be
+as large as possible without violating (5.22); see the example (5.27) below.
+  We define the “end” map (5.12) as follows, for T = (T + , T − ) ∈ T (σ) = SSYT(σ + , q) ×
+SSYT(σ − , p):
+                                                             +                     −
+                                    end(T ) := {(p, ju )}ku=1 ⊔ {(it , q)}kt=1 ,
+where
+                            (
+                             u         if u ≤ k − p,                               −
+(5.26)                 ju =    +                              and        it = min{Tt,1 , ı̂t }.
+                             Tu,1      otherwise,
+       −
+Since Tt,1 is undefined for t > ℓ(σ − ), in this range the right-hand side of (5.26) reduces to it = ı̂t .
+As an example below, we indicate end(T ) by highlighting its elements in red inside δ(P):
+
+
+                                                  
+                                 3 4 8   1 2 5                             end(T )
+                               47 68 9 47 6 
+                           T =        ,                                               1      −
+                                                                                            ← T1,1
+                                 9 9                                     ı̂1 →
+                                10                                       ı̂2 →
+                                                                                               −
+                                                                                        4   ← T2,1
+(5.27)                     k=8                                           ı̂3 →
+                           +                                                                   −
+                          k =5                                                          7   ← T3,1
+
+                          k− = 3                              3 4    7       9 10
+                                                              ↑                   ↑
+                                                              +                   +
+                                                             T1,1                T5,1
+
+
+
+The dashed lines in (5.27) are meant to illustrate the definition of the ı̂t ’s in (5.25). Specifically, on
+                                                                                                  +
+the southern edge of δ(P), take the easternmost points that are not in the set {(p, ju )}ku=1 ; then
+the ı̂t ’s are their corresponding points along the eastern edge of δ(P).
+
+                                                        25
+                                             6. Main result
+   We recall the sets Qk (σ) and Pk from Definitions 3.1 and 4.1, along with the facet set Fbk
+from (4.4), and the map Θ : Pk −→ Fbk from Definition 4.4. We also recall the set Jbk (σ) of
+maximal jellyfish in Definition 5.6.
+Lemma 6.1. Let GR = U(p, q) or O∗ (2n), where k < s (see Table 2). We have a bijection
+                                      id × Θ : Qk (σ) × Pk −→ Jbk (σ).
+
+Proof. By Lemma 4.5, id × Θ is a bijection from Qk (σ) × Pk to Qk (σ) × Fbk . Hence it suffices to
+prove that
+(6.1)                                      Jbk (σ) = Qk (σ) × Fbk .
+Starting from Definition 5.6, we have
+                                                                      a
+(6.2)                    Jbk (σ) := {(T, F) ∈ Jk (σ) : F ∈ Fbk } =            TE (σ) × FE ,
+                                                                      E∈Ebk
+
+where the second equality follows from (5.11) and Definition 5.6.
+  First let GR = O∗ (2n). By (5.18), we can rewrite (6.2) as
+(6.3)                                             b × Fb
+                                       Jbk (σ) = TE         b × Fk .
+                                                         = TE   b
+                                                       E
+
+By (5.13), T ∈ TE                                             k
+                   b if and only if end(T ) = E = {(ı̂t , n)}t=1 , with the ı̂t ’s defined in (5.17). In
+                                               b
+turn, by (5.19), end(T ) = E  b if and only if Tt,1 ≥ ı̂t for all 1 ≤ t ≤ ℓ(σ). This is automatic
+for t < 2(k + 1) − n, that is for t ≤ 2k − n + 1, so we need only check that Tt,1 ≥ ı̂t for all
+max{0, 2k − n + 1} < j ≤ ℓ(σ). But by comparing this and (5.17) with Lemma 3.5(3), where j
+plays the role of t, we conclude that T ∈ TEb if and only if T ∈ Qk (σ). Hence TE     b = Qk (σ), and so
+                                                            ∗
+by (6.3) we obtain (6.1), which completes the proof for O (2n).
+   Similarly, let GR = U(p, q). By (5.24), we can rewrite (6.2) as
+                                                         !
+                                               a
+(6.4)                              Jbk (σ) =       TE (σ) × Fbk .
+                                                   E∈Ebk
+                   `
+By (5.13), T ∈     E∈Ebk E
+                          T (σ) if and only if end(T ) ∈ Ek . In turn, by (5.24), end(T ) ∈ Ek if and only
+                                                           b                                      b
+                         +                −
+if end(T ) = {(p, ju )}ku=1 ⊔ {(it , q)}kt=1 satisfies (5.23), which we reproduce below:
+                 #{u : ju ≤ q − ℓ} + #{t : it ≤ p − ℓ} = k − ℓ        for all 1 ≤ ℓ ≤ min{k, r}.
+                 +             −
+By (5.26), each Tu,1 ≥ ju and Tt,1 ≥ it , and therefore, we have end(T ) ∈ Ebk if and only if
+                   +                     −
+            #{u : Tu,1 ≤ q − ℓ} + #{t : Tt,1 ≤ p − ℓ} ≤ k − ℓ           for all 1 ≤ ℓ ≤ min{k, r},
+if and only if
+(6.5)     #{x ∈ T1+ : x ≤ q − ℓ} + #{y ∈ T1− : y ≤ p − ℓ} ≤ k − ℓ                for all 1 ≤ ℓ ≤ min{k, r};
+then by setting i := k − ℓ + 1, we rewrite (6.5) as
+(6.6) #{x ∈ T1+ : x < q − k + i} + #{y ∈ T1− : y < p − k + i} < i               for all max{0, k − r} < i ≤ k,
+which coincides with the necessary and sufficient condition for T ∈ Qk (σ) in Definition 3.1. Con-
+                                                         `
+sequently, end(T ) ∈ Ebk if and only if T ∈ Qk (σ). Hence E∈Eb TE (σ) = Qk (σ), and so by (6.4) we
+obtain (6.1), which completes the proof for U(p, q).                                             □
+
+                                                      26
+Theorem 6.2. Assume one of the three settings in Table 2; if GR = Mp(2n, R), then assume that
+k∈
+ / [n + 1, 2n − 2]. Let Lλ(σ) be the simple g-module with highest weight λ(σ). We have
+                                   Deg Lλ(σ) = #(Qk (σ) × Pk ),
+with Qk (σ) and Pk as in Definitions 3.1 and 4.1. In particular, if k ≥ r, then Deg Lλ(σ) = #Qk (σ).
+Conjecture 6.3. Theorem 6.2 remains true without the assumption on k in the Mp(2n, R) case.
+
+Proof of Theorem 6.2. Let GR = U(p, q) or O∗ (2n). First suppose k < s. By Lemma 5.7 we have
+Deg Lλ(σ) = #Jbk (σ), and so the result follows from the bijection id × Θ in Lemma 6.1. In the case
+k ≥ r, we have #Pk = 1 by (4.1).
+   Suppose k ≥ s. The k ≥ s case of Lemma 5.5, in (5.7), states that Lλ(σ) ∼
+                                                                              L
+                                                                            = T ∈T (σ) S φT . In this
+decomposition, the number of Stanley spaces equals #T (σ), all of which have the same dimension
+(i.e., the Krull dimension of S, namely #P). Thus by Lemma 5.4, we have Deg Lλ(σ) = #T (σ).
+Since k ≥ s ≥ r, we have T (σ) = Qk (σ) by (3.2), and #Pk = 1 by (4.1). This completes the proof
+for U(p, q) and O∗ (2n).
+   Let GR = Mp(2n, R). Recall from Table 2 that r = n. Thus if k ≤ n, then by the result (1.7)
+from [33], we have
+                                 Deg Lλ(σ) = dim Uσ · deg Ok .
+But we have dim Uσ = #Qk (σ) by Lemma 3.4(a), and deg Ok = #Pk by Proposition 7.6 below.
+This completes the proof for the case k ≤ n. On the other hand, recall from Table 2 that s = 2n−1,
+and now suppose that k ≥ 2n − 1. Then Lλ(σ) ∼  = S ⊗ Fλ(σ) is a free S-module, and it follows that
+Deg Lλ(σ) = dim Fλ(σ) . By Lemma 3.4(b), we have dim Fλ(σ) = #Qk (σ), and by (4.1), we have
+#Pk = 1. This completes the proof for the case k ≥ 2n − 1.                                      □
+
+  Note that explicit formulas for the Bernstein degree are obtained by combining Theorem 6.2
+with our enumerative Propositions 3.6 and 4.2.
+
+                             7. Open problems and observations
+  The main result in this paper leads naturally to the following problems.
+Problem 7.1. Prove Conjecture 6.3.
+
+   From our perspective, the ideal way to solve Problem 7.1 would be to extend Lemma 5.5 to the
+GR = Mp(2n, R) case, by defining analogues of jellyfish for Mp(2n, R). Note that Conjecture 6.3
+at least provides a candidate for the subset of maximal jellyfish, namely Jbk (σ) = Qk (σ) × Θ(Pk ).
+We hope that this may ultimately suggest the correct way to define the full set Jk (σ) of jellyfish,
+which (upon proof) would then lead to the solution of Problem 7.1.
+Problem 7.2. Extend Theorem 6.2 to those unitary highest weight modules of O∗ (2n) arising
+outside the dual pair setting.
+
+   Unlike the groups U(p, q) and Mp(2n, R), the group O∗ (2n) admits unitary highest weight rep-
+resentations arising outside the dual pair setting; that is, certain unitary highest weight modules
+are not of the form Lλ(σ) for some σ ∈ H(k).
+                                          b      For details, see [7, pp. 48–49]. Without the group
+H(k) in the picture, Problem 7.2 amounts to determining a set of combinatorial objects, whether
+tableaux or otherwise, to play the role of Qk (σ) in Theorem 6.2.
+
+                                                 27
+   Solving Problems 7.1–7.2 would establish a uniform combinatorial interpretation of the Bernstein
+degree of all unitary highest weight modules for the groups U(p, q), Mp(2n, R), and O∗ (2n). The
+ultimate goal of the program is to extend such an interpretation beyond those groups:
+Problem 7.3. Extend Theorem 6.2 uniformly to arbitrary unitary highest weight modules (in-
+cluding those of the exceptional groups).
+
+   Unlike Problem 7.1 (where for Mp(2n, R) we had already defined Qk (σ) and Pk ), and Problem 7.2
+(where for O∗ (2n) we had already defined Pk ), solving Problem 7.3 requires us to define analogues
+of both Qk (σ) and Pk in a uniform manner for Hermitian symmetric pairs of all types. As a first
+step toward solving Problem 7.3, we now give a uniform generalization of the diagram Dk that
+yields an analogous set Pk for all groups of Hermitian type; see Proposition 7.6 below.
+   In the following discussion, suppose GR is of Hermitian type, that is, one of the seven groups
+listed in Table 4 (page 33). Recall from (2.1) the set Φ(p+ ) of positive noncompact roots of the
+complexified Lie algebra g. This set Φ(p+ ) is a graded poset, where the grading is given by the
+height of the roots in Φ(p+ ). In the third column of Table 4, we show the Hasse diagram of Φ(p+ )
+for the five types in which g is simply laced. For the remaining two types, g is not simply laced:
+        • GR = Mp(2n, R), in which case gR = sp(2n, R) and g = sp(2n, C).
+        • GR = SO(2, 2n − 1), in which case gR = so(2, 2n − 1) and g = so(2n + 1).
+
+In each of these two types, however, there is a certain Hermitian symmetric pair (egR , ekR ) with e
+                                                                                                   g
+simply laced, admitting a natural embedding gR ,→ g eR , as shown below (taking n = 7):
+
+
+                              gR         Φ(p+ )           gR
+                                                          e           p+ )
+                                                                   Φ( e
+
+
+                           sp(2n, R)                   u(n, n)
+
+(7.1)
+
+
+                         so(2, 2n − 1)                 so(2, 2n)
+
+
+
+(In terms of Cartan types, Ce n = A2n−1 and B
+                                            e n = Dn+1 , respectively.) We observe from (7.1) that
+    +
+   p ) is self-dual as a graded poset, with height 2n − 1. The dotted line in (7.1) indicates the
+Φ( e
+“middle rank,” that is, those roots α ∈ Φ( ep+ ) such that height(α) = n. Define the lower order
+ideal
+(7.2)                            e+ )⩽ := {α ∈ Φ( e
+                              Φ( p                p+ ) : height(α) ≤ n},
+                                                       p+ ); see the third column of Table 4.
+whose Hasse diagram is the bottom “half” of that of Φ( e
+Definition 7.4. Let GR be of Hermitian type, with real rank r. Let
+                                                           (
+                                                            Φ(p+ )           if g is simply laced,
+ D0 := the 135◦ clockwise rotation of the Hasse diagram of
+                                                               e+ )⩽
+                                                            Φ( p             if g is not simply laced,
+
+                                                  28
+with each point in the Hasse diagram replaced by a box in D0 . The interior of a diagram D is the
+set of all boxes that have a box of D directly to their southwest. For 1 ≤ k ≤ r, recursively define
+                                           Dk := interior of Dk−1 .
+
+   In Table 4 (page 33), we present the case-by-case details from Definition 7.4. Note that for GR =
+U(p, q) or Mp(2n, R) or O∗ (2n), we recover the diagrams Dk given in Definition 4.1. Therefore, the
+following is a true generalization of Definition 4.1:
+Definition 7.5. In the setting of Definition 7.4, we define
+                    Pk := {plane partitions bounded by k and contained in Dk }.
+
+   For P ∈ Pk , let Pij denote its entry in row i (from the top) and column j (from the left). If no
+such entry exists, then set Pij = 0. Define the statistic
+                                        X                               
+(7.3)                          c(P ) :=      Pij − max{Pi+1,j , Pi,j−1 } ,
+                                            i,j
+
+where the sum ranges over all pairs (i, j) corresponding to a box in Dk .
+Proposition 7.6. Let (GR , KR ) be an irreducible Hermitian symmetric pair of noncompact type,
+and let r denote the real rank of GR . For all 1 ≤ k ≤ r, we have the Hilbert series
+                                                             c(P )
+                                                    P
+                                                      P ∈Pk t
+                                   HC[Ok ] (t) =                      ,
+                                                 (1 − t)dim p+ −|Dk |
+and therefore
+                                                   #Pk = deg Ok .
+
+Proof. Observe that the bijection Θ : Pk −→ Fbk (see Definition 4.4) generalizes uniformly across
+all Hermitian symmetric types, where Fbk now denotes the set of facets of the kth order complex of
+Φ(p+ ) or Φ( ep+ )⩽ . (From now on, to simplify our descriptions, we will consider the 135◦ clockwise
+rotation of this Hasse diagram, meaning that it has the same shape and orientation as the diagram
+D0 . We write (i, j) to denote the root in row i and column j with respect to this orientation.) Thus
+by (4.5), if P ∈ Pk then Θ(P ) is a maximal family of nonintersecting lattice paths N1 , . . . , Nk in
+the Hasse diagram of Φ(p+ ) or Φ( e p+ )⩽ . For F = N1 ⊔ · · · ⊔ Nk ∈ Fbk , define its corners as follows:
+                       k
+                       a
+(7.4)      cor(F) :=         cor(Nt ),   where cor(Nt ) := {(i, j) ∈ Nt : (i − 1, j), (i, j + 1) ∈ Nt }.
+                       t=1
+In other words, a corner of F is a point at which one of its constituent lattice paths Nt turns from
+south to east. (This is a typical convention in the literature, although it differs from the definition
+of a corner in our paper [14].) Since all elements of Fbk have the same cardinality, we may define
+                              dk := #F for any (equivalently, every) F ∈ Fbk ,
+coinciding with the definition of dk in (5.11). We observe from Definition 7.4 that
+(7.5)                                             dk = |D0 | − |Dk |.
+Moreover, we have
+                                           (
+                                            2n − 1              if GR = SO(2, 2n − 1),
+(7.6)                   dim p+ = #Φ(p+ ) =
+                                            |D0 |               otherwise.
+
+                                                          29
+   First consider the dual pair setting (i.e., the first three rows of Table 4). In this setting, the
+K-orbit closure Ok is the determinantal variety
+                            
+                            {X ∈ Mp,q : rk X ≤ k}
+                                                           if GR = U(p, q),
+(7.7)                 Ok = {X ∈ SMn : rk X ≤ k}             if GR = Mp(2n, R),
+                              {X ∈ AMn : rk X ≤ 2k} if GR = O∗ (2n),
+                            
+                            
+
+with notation as in the last column of Table 1. Applying the well-known results from the 1990s [3,
+6, 17, 41] on Stanley decompositions and Hilbert series of these determinantal rings, we obtain
+                                                          #cor(F)
+                                                 P
+                                                  F∈F bk t
+(7.8)                              HC[Ok ] (t) =                  .
+                                                   (1 − t)dk
+Let P ∈ Pk , and put Θ(P ) = N1 ⊔ · · · ⊔ Nk as in Definition 4.4. Recall the subdiagrams Pt in
+Definition 4.4. A box (i, j) in Pt is said to be an outer corner if Pt contains neither (i + 1, j)
+nor (i, j − 1). By the construction of Θ in Definition 4.4, for all 1 ≤ t ≤ k there is a bijective
+correspondence
+                                cor(Nt ) ←→ {outer corners of Pt },
+where cor(Nt ) was defined in (7.4). Therefore, we have
+                              k
+                              X                    k
+                                                   X
+              #cor(Θ(P )) =          #cor(Nt ) =         #{outer corners of Pt }
+                               t=1                 t=1
+                                                   X
+                                              =          #{t : (i, j) is an outer corner of Pt }
+                                                   i,j
+                                                   X                                    
+                                              =           Pij − max{Pi+1,j , Pi,j−1 }
+                                                   i,j
+(7.9)                                         = c(P ).
+Thus, starting with (7.8) and applying the bijection Θ along with (7.5)–(7.6) and (7.9), we obtain
+                                     #cor(F)            #cor(Θ(P ))               c(P )
+                            P                  P                         P
+                             F∈Fbk t             P ∈Pk t                   P ∈Pk t
+(7.10)        HC[Ok ] (t) =                  =                      =                      ,
+                              (1 − t)dk         (1 − t)|D0 |−|Dk |    (1 − t)dim p+ −|Dk |
+which completes the proof in the dual pair setting.
+   Outside the dual pair setting, with the exception of the case GR = SO(2, 2n − 1), we carried out
+a case-by-case verification of (7.8) in our previous paper [14, §7]. We stated this result in [14] in
+terms of the kth Wallach representation L−kcζ , whose Hilbert series coincides with that of C[Ok ].
+Hence for all but GR = SO(2, 2n − 1), the result follows again from (7.10).
+   Finally, let GR = SO(2, 2n − 1). Since r = 2, we need only verify the case k = 1. As above, the
+Hilbert series of C[O1 ] coincides with that of the first Wallach representation of gR . By [8, Thm. 27],
+this Hilbert series is given by
+                                                          1+t
+                                        HC[O1 ] (t) =             .
+                                                      (1 − t)2n−2
+Since D1 is a single box, we have P1 = { 0 , 1 }, where c( 0 ) = 0 and c( 1 ) = 1, and we have
+dim p+ − |Dk | = 2n − 2 by (7.6). This completes the proof.                                 □
+Remark 7.7. Proposition 7.6 provides a combinatorial interpretation for the Wonderful Correspon-
+dence observed in [10, §8.1]. In particular, if GR = U(p, q) or Mp(2n, R) or O∗ (2n), then there is a
+
+                                                         30
+“reduced” Hermitian symmetric pair (g′R , k′R ), such that the Hilbert series of C[Ok ] (equivalently,
+of the kth Wallach representation L−kcζ of gR ) can be expressed in rational form as
+                                                           HE (t)
+                                   HC[Ok ] (t) =                            ,
+                                                   (1 − t)dim p+ −dim p′+
+where E is the simple finite-dimensional g′ -module with highest weight kζ ′ . (Here ζ ′ is the unique
+fundamental weight of g′ that is orthogonal to the compact roots; for details, see Table 3 on page
+178 of [10], and Table 3 in [15] for Types I–IIIa.) Thus, comparing with Proposition 7.6, it follows
+that the Hilbert series of E can be understood as the generating function for the c statistic on plane
+partitions, namely                                 X
+                                         HE (t) =      tc(P ) ,
+                                                      P ∈Pk
+or equivalently, the generating function for the number of turns in maximal families of k noninter-
+secting lattice paths in P. Moreover, we have |Dk | = dim p′+ . The Wonderful Correspondence is a
+special case of Enright–Shelton reduction [11, 13]. In fact, for all seven types in Table 4, the sub-
+diagram Dk can be interpreted as the Hasse diagram of Φ(p′+ ) for a certain pair (g′R , k′R ) obtained
+via Enright–Shelton reduction.
+
+Beyond the Wallach representations. In Table 3, we list certain families of unitary highest
+weight modules for the exceptional groups E6(−14) and E7(−25) , excluding the Wallach representa-
+tions mentioned above. For certain families among these modules Lλ , we have observed an analogue
+of the Nishiyama–Ochiai–Taniguchi result (1.7), which we recall below:
+(7.11)                                Deg Lλ = dim Uσ · deg Ok ,
+where k is the positive integer such that Ok = AV(Lλ ), and Uσ is the irreducible representation of
+the group HR (k) (corresponding to GR via Howe duality) with highest weight σ. By an analogue of
+this result for GR = E6(−14) or E7(−25) , we mean a family of unitary highest weight modules Lλ for
+GR , along with a corresponding group HR (k), and a correspondence λ 7→ σ that satisfies (7.11). In
+this sense, the findings in Table 3 suggest an analogue of the dual reductive pairs (GR , HR (k)) arising
+from Howe duality. The one-parameter family for (E7 , B4 ) was observed by Kato–Ochiai [29]; see
+their Proposition 5.2 and Remark 5.5. However, the family for E6 and the two-parameter family
+for (E7 , F4 ) seem to be new.
+
+
+
+
+                                                      31
+GR                 λ                  k   deg Ok        HR (k)        σ                dim Uσ
+
+                                                         B3       [a, 0, 0]     (a + 1)(a + 2)(a + 3)
+E6      [0, 0, 0, 0, a, −2a−6],                                                 (a + 4)(2a + 5)
+                                      2     1
+                for a ≥ 0
+                                                         G2        [a, 0]        ÷ 120
+
+                                                                                (a + 1)(a + 2)(a + 3)
+                                                                                (a + 4)(a + 5)
+E7     [0, 0, 0, 0, 0, a, −2a−8],     2     3            B4      [a, 0, 0, 0]
+                for a ≥ 0                                                       (a + 6)(2a + 7)
+                                                                                 ÷ 5040
+                                                                                (a + 1)(a + 2)(a + 3)2
+                                                                                (a + 4)(a + 5)(b + 1)
+                                                                                (a + b + 2)(a + b + 3)
+                                                                                (a + b + 4)2 (a + b + 5)
+E7   [0, 0, 0, 0, a, b, −3a−2b−12],   3     1            F4      [0, 0, a, b]   (a + b + 6)(2a + b + 5)
+                for a, b ≥ 0
+                                                                                (2a+b+6)(2a+b+7)2
+                                                                                (2a+b+8)(2a+b+9)
+                                                                                (3a+b+10)(3a+2b+11)
+                                                                                 ÷ 12070840320000
+
+     Table 3. Certain families of unitary highest weight modules for E6(−14) and E7(−25) ,
+     outside the Wallach representations. In the cases where HR (k) is given, we have
+     Deg Lλ = dim Uσ ·deg Ok . The highest weights λ and σ (for g and H(k), respectively)
+     are written in fundamental weight coordinates, following Bourbaki. The Bernstein
+     degree was obtained using the Hilbert series given in [9], in §§6–7. The formulas for
+     dim Uσ were obtained using the Weyl dimension formula in Mathematica.
+
+
+
+
+                                                   32
+    GR             r        Φ(p+ ) or Φ( p
+                                         e+ )⩽       D0            k          Dk
+
+                                                      q                    (p − k)
+                                                                          ×(q − k)
+   U(p, q)      min{p, q}                        p               k≤r
+
+
+
+
+                                                      n
+                                                                            n−k
+
+ Mp(2n, R)         n                                             k≤r
+
+
+
+
+                                                     n−1
+                                                                          n − 2k − 1
+   O∗ (2n)       ⌊n/2⌋                                           k≤r
+
+
+
+
+                                                     n−1
+
+SO(2, 2n − 2)      2                                               1
+
+
+
+
+                                                      n
+SO(2, 2n − 1)      2                                               1
+
+
+
+
+   E6(−14)         2                                               1
+
+
+
+                                                                   1
+   E7(−25)         3
+
+
+                                                                   2
+
+
+
+ Table 4. The diagram Dk in Definition 7.4. In the two non-simply laced cases,
+ namely Mp(2n, R) and SO(2, 2n − 1), the third column shows the Hasse diagram of
+    p+ )⩽ defined in (7.2). For our diagrams we take n = 10, with k = 3 in the first
+ Φ( e
+ three rows. Note that Dr = ∅ in all types.
+                                           33
+                                                    References
+ [1] G. Andrews, MacMahon’s conjecture on symmetric plane partitions, Proc. Natl. Acad. Sci. USA 74 (1977),
+     426–429. ↑16
+ [2] Z. Bai and M. Hunziker, The Gelfand–Kirillov dimension of a unitary highest weight module, Sci. China Math.
+     58 (2015), no. 12, 2489–2498. MR3429262 ↑8
+ [3] W. Bruns and J. Herzog, On the computation of a-invariants, Manuscripta Math. 77 (1992), no. 2-3, 201–213.
+     MR1188581 ↑5, 30
+ [4]         , Cohen-Macaulay rings., Rev. ed., Camb. Stud. Adv. Math., vol. 39, Cambridge: Cambridge University
+     Press, 1998. ↑5, 19
+ [5] W. Bruns, C. Krattenthaler, and J. Uliczka, Stanley decompositions and Hilbert depth in the Koszul complex, J.
+     Commut. Algebra 2 (2010), no. 3, 327–357. MR2728147 ↑20
+ [6] A. Conca, Gröbner bases of ideals of minors of a symmetric matrix, J. Algebra 166 (1994), no. 2, 406–421.
+     MR1279266 ↑5, 30
+ [7] M. Davidson, T. Enright, and R. Stanke, Differential operators and highest weight representations, Mem. Amer.
+     Math. Soc. 94 (1991), no. 455, iv+102. MR1081660 ↑27
+ [8] T. Enright and M. Hunziker, Resolutions and Hilbert series of determinantal varieties and unitary highest weight
+     modules, J. Algebra 273 (2004), no. 2, 608–639. MR2037715 ↑30
+ [9]         , Resolutions and Hilbert series of the unitary highest weight modules of the exceptional groups, Represent.
+     Theory 8 (2004), 15–51. ↑32
+[10] T. Enright, M. Hunziker, and W. Pruett, Diagrams of Hermitian type, highest weight modules, and syzygies of
+     determinantal varieties, Symmetry: Representation Theory and its Applications, 2014, pp. 121–184. MR3363009
+     ↑30, 31
+[11] T. Enright and B. Shelton, Categories of highest weight modules: applications to classical Hermitian symmetric
+     pairs, Mem. Amer. Math. Soc. 67 (1987), no. 367, iv+94. MR888703 ↑31
+[12] T. Enright and J. Willenbring, Hilbert series, Howe duality and branching for classical groups, Ann. of Math.
+     (2) 159 (2004), no. 1, 337–375. MR2052357 ↑2
+[13] Thomas J. Enright and Brad Shelton, Highest weight modules for Hermitian symmetric pairs of exceptional type,
+     Proc. Amer. Math. Soc. 106 (1989), no. 3, 807–819. MR961404 ↑31
+[14] W. Erickson and M. Hunziker, Stanley decompositions of modules of covariants, Algebr. Combin. To appear.
+     arXiv:2312.16749. ↑4, 7, 19, 20, 21, 29, 30
+[15]         , Dimension identities, almost self-conjugate partitions, and BGG complexes for Hermitian symmetric
+     pairs, J. Combin. Theory Ser. A 219 (2026), 106118. ↑31
+[16] I. Gessel and G. Viennot, Binomial determinants, paths, and hook length formulae, Adv. Math. 58 (1985), 300–
+     321. ↑14
+[17] S. Ghorpade and C. Krattenthaler, The Hilbert series of Pfaffian rings, Algebra, arithmetic and geometry with
+     applications (West Lafayette, IN, 2000), 2004, pp. 337–356. MR2037100 ↑5, 30
+[18] G. Giambelli, Sulle varietà rappresentate coll’ annullare determinanti minori contenuti in un determinante sim-
+     metrico od emisimmetrico generico di forme., Torino Atti 41 (1906), 102–125. ↑3
+[19] R. Goodman and N. Wallach, Symmetry, Representations, and Invariants, Graduate Texts in Mathematics,
+     vol. 255, Springer, Dordrecht, 2009. MR2522486 ↑7
+[20] Harish-Chandra, Representations of semisimple Lie groups. IV, Amer. J. Math. 77 (1955), 743–777. ↑2, 8
+[21]         , Representations of semisimple Lie groups. V, Amer. J. Math. 78 (1956), 1–41. ↑2, 8
+[22] J. Harris and L. Tu, On symmetric and skew-symmetric determinantal varieties, Topology 23 (1984), 71–84
+     (English). ↑3
+[23] J. Herzog, M. Vladoiu, and X. Zheng, How to compute the Stanley depth of a monomial ideal, J. Algebra 322
+     (2009), no. 9, 3151–3169. ↑20
+[24] R. Howe, Remarks on classical invariant theory, Trans. Amer. Math. Soc. 313 (1989), no. 2, 539–570. MR986027
+     ↑8
+[25] S. Jackson, Standard monomial theory for reductive dual pairs, Ph.D. Thesis, Yale University, 2003. MR2704428
+     ↑4
+[26] A. Jahan, Prime filtrations of monomial ideals and polarizations, J. Algebra 312 (2007), no. 2, 1011–1032.
+     MR2333198 ↑20
+[27] A. Joseph, Annihilators and associated varieties of unitary highest weight modules, Ann. Sci. Éc. Norm. Supér.
+     (4) 25 (1992), no. 1, 1–45. ↑2
+[28] M. Kashiwara and M. Vergne, On the Segal–Shale–Weil representations and harmonic polynomials, Invent. Math.
+     44 (1978), no. 1, 1–47. MR463359 ↑8
+
+
+
+
+                                                           34
+[29] S. Kato and H. Ochiai, The degrees of orbits of the multiplicity-free actions, Nilpotent Orbits, Associated Cycles
+     and Whittaker Models for Highest Weight Representations, 2001, pp. 139–158. ↑31
+[30] C. Krattenthaler, The major counting of nonintersecting lattice paths and generating functions for tableaux,
+     Mem. Amer. Math. Soc. 115 (1995), no. 552, vi+109. MR1254150 ↑18
+[31]         , Lattice path enumeration, Handbook of Enumerative Combinatorics, 2015, pp. 589–678. ↑14
+[32] P. MacMahon, Combinatory Analysis. Vol. I, II, 1960. New York: Chelsea Publishing Company. xix, 340 p. ↑16
+[33] K. Nishiyama, H. Ochiai, and K. Taniguchi, Bernstein degree and associated cycles of Harish-Chandra modules—
+     Hermitian symmetric case, Astérisque 273 (2001), 13–80. MR1845714 ↑2, 3, 19, 27
+[34] I. Porteous, Simple singularities of maps, 1971. Proc. Liverpool Singularities-Sympos. I, Dept. Pure Math. Univ.
+     Liverpool 1969-1970, Lect. Notes Math. 192, 286-307 (1971). ↑3
+[35] R. Proctor, New symmetric plane partition identities from invariant theory work of De Concini and Procesi,
+     European J. Combin. 11 (1990), no. 3, 289–300. ↑3, 15, 16
+[36]         , A Schensted algorithm which models tensor representations of the orthogonal group, Canad. J. Math.
+     42 (1990), no. 1, 28–49. MR1043509 ↑3, 11
+[37]         , Young tableaux, Gelfand patterns, and branching rules for classical groups, J. Algebra 164 (1994), no. 2,
+     299–360. ↑11
+[38] W. Schmid, Geometric methods in representation theory, Poisson geometry, deformation quantisation and group
+     representations, 2005, pp. 273–323. Lecture notes taken by Matvei Libine. MR2166454 ↑7
+[39] R. Stanley, Linear Diophantine equations and local cohomology, Invent. Math. 68 (1982), no. 2, 175–193.
+     MR666158 ↑20
+[40] J. Stembridge, Rational tableaux and the tensor algebra of gln , J. Combin. Theory Ser. A 46 (1987), no. 1,
+     79–120. MR899903 ↑3, 11, 14
+[41] B. Sturmfels, Gröbner bases and Stanley decompositions of determinantal rings, Math. Z. 205 (1990), no. 1,
+     137–144. MR1069489 ↑5, 30
+[42] D. Vogan, Gel’fand-Kirillov dimension for Harish-Chandra modules, Invent. Math. 48 (1978), no. 1, 75–98.
+     MR506503 ↑1, 2
+[43]         , Singular unitary representations, Noncommutative harmonic analysis and Lie groups, 1981, pp. 506–535
+     (English). ↑2
+[44]         , Associated varieties and unipotent representations, Harmonic analysis on reductive groups., 1991,
+     pp. 315–388. ↑2
+
+
+   Department of Mathematics, Baylor University, One Bear Place #97328, Waco, TX 76798
+   Email address: william.q.erickson@gmail.com
+
+   Department of Mathematics, Baylor University, One Bear Place #97328, Waco, TX 76798
+   Email address: Markus Hunziker@baylor.edu
+
+
+
+
+                                                          35
+

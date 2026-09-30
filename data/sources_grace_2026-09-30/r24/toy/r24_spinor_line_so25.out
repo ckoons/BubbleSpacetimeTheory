@@ -1,0 +1,30 @@
+scalar line: nu -> z, min_s [||(l-s)^+ +rho||^2-||l+rho||^2]
+  nu=   0 z=   4 dirac_min=(Fraction(-6, 1), (0, 1))
+  nu=   1 z=   3 dirac_min=(Fraction(-2, 1), (0, 1))
+  nu= 3/2 z= 5/2 dirac_min=(Fraction(0, 1), (0, 1))
+  nu=   2 z=   2 dirac_min=(Fraction(2, 1), (0, 1))
+  nu= 5/2 z= 3/2 dirac_min=(Fraction(4, 1), (0, 1))
+  nu=   3 z=   1 dirac_min=(Fraction(6, 1), (0, 1))
+  nu= 7/2 z= 1/2 dirac_min=(Fraction(7, 1), (1, 0))
+  nu=   4 z=   0 dirac_min=(Fraction(8, 1), (1, 0))
+  nu= 9/2 z=-1/2 dirac_min=(Fraction(9, 1), (1, 0))
+spinor line: E0 -> z, min_s ...  (strict >0 => N(lambda) irreducible & unitary, PPST1 Thm1.1(2))
+  E0=   1 z= 7/2 dirac_min=(Fraction(-2, 1), (0, 1))
+  E0= 3/2 z=   3 dirac_min=(Fraction(-1, 1), (1, 0))
+  E0=   2 z= 5/2 dirac_min=(Fraction(0, 1), (1, 0))
+  E0= 5/2 z=   2 dirac_min=(Fraction(1, 1), (1, 0))
+  E0=   3 z= 3/2 dirac_min=(Fraction(2, 1), (1, 0))
+  E0= 7/2 z=   1 dirac_min=(Fraction(3, 1), (1, 0))
+  E0=   4 z= 1/2 dirac_min=(Fraction(4, 1), (1, 0))
+  E0= 9/2 z=   0 dirac_min=(Fraction(5, 1), (1, 0))
+  E0=   5 z=-1/2 dirac_min=(Fraction(6, 1), (1, 0))
+HC max_{alpha in Delta(p+)} (lambda+rho,alpha^vee): <0 => holomorphic discrete series
+  spinor E0=7/2: 1
+  spinor E0=4: 1/2
+  spinor E0=9/2: 0
+  spinor E0=5: -1/2
+  scalar nu=4: 0
+  scalar nu=9/2: -1/2
+scalar: lambda0=('-4', '0', '0') (lambda0+rho,beta^vee)=0; Phi_c=[(0, 1, -1), (0, 1, 1), (0, 1, 0), (0, 0, 1)]; |Q|=18 lens=[Fraction(1, 1), Fraction(2, 1)]; extra short=[]; |R|=18 lens=[Fraction(1, 1), Fraction(2, 1)]
+spinor: lambda0=('-9/2', '1/2', '1/2') (lambda0+rho,beta^vee)=0; Phi_c=[(0, 1, -1)]; |Q|=6 lens=[Fraction(2, 1)]; extra short=[(0, 1, 0), (0, 0, 1)]; |R|=18 lens=[Fraction(1, 1), Fraction(2, 1)]
+  |root system| key: A1=2, A2=6, B2=8, B3=18

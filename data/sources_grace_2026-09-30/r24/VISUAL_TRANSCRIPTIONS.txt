@@ -1,0 +1,53 @@
+R24 visual transcriptions (pdftotext -layout garbled these displays; transcribed by eye from png/ renders at 110 dpi)
+Grace lane, 2026-09-30 (clock 10:33 EDT at start of writing).
+
+VT-1  arxiv_2512.08199.pdf page 9 (png/arxiv_2512.08199_p-09.png); text arxiv_2512.08199.txt:460-475
+  Section 2.5, "Unitary highest weight modules", then Figure 1 "The set Z(λ0)".
+  Figure 1: a horizontal z-axis, arrow to the right labelled z. Tick at 0. A THICK solid ray runs from the
+  left edge (−∞) up to a filled dot labelled a(λ0). To the right of a(λ0) there are further filled dots,
+  equally spaced, the spacing marked "c" (arrows between two adjacent dots), ending at the dot labelled
+  b(λ0). Nothing unitary to the right of b(λ0).
+  Reading: Z(λ0) = (−∞, a(λ0)] ∪ {a(λ0) + jc : j = 0,1,…} ∩ (−∞, b(λ0)].  The ray is on the SMALL-z side.
+
+VT-2  arxiv_2512.08199.pdf page 10 (png/arxiv_2512.08199_p-10.png); text :476-510
+  Table 2 "Some constants of Lie groups of Hermitian type", row so(2, 2n−1):  r = 2,  c = n − 3/2,  h∨ = 2n − 1.
+  Row su(p, n−p): r = min{p, n−p}, c = 1, h∨ = n.
+  Theorem 2.24 ([3, Thm. 3.2]). The last unitary reduction point b(λ0) is given by
+        b(λ0) = h∨_{Q(λ0)} − 1 + ( r_{R(λ0)} − r_{Q(λ0)} ) / 2 ,
+  where r_{Q(λ0)} and r_{R(λ0)} denote the split rank of Q(λ0) and R(λ0) respectively.
+  (Text above: "For a root system Φ, we write h∨_Φ = (ρ, β∨) + 1 to denote the dual Coxeter number of Φ".)
+
+VT-3  arxiv_2209.15324.pdf page 26 (png/arxiv_2209.15324_p-26.png); text :1311-1340
+  Lemma 3.86. The basic Dirac inequality for s = s1 is given by
+  (3.87)   λ1 ≤ 0                 for λ = (λ1, 0, …, 0)
+           λ1 ≤ 1 − n             for λ = (λ1, 1/2, …, 1/2)
+           λ1 + λ2 ≤ 1 + p − 2n   for λ = (λ1, λ2, …, λp, …, λn) where 1 ≤ λ2 = ⋯ = λp > λp+1 and 2 ≤ p ≤ n.
+  Case 2 proof: (λ − s1)+ = (λ1 − 1, −1/2, 1/2, …, 1/2)+ = (λ1 − 1, 1/2, …, 1/2) = λ − ε1;
+  "Plugging γ = ε1 into (3.84) we obtain 2(λ1 + n − 1/2) ≤ 1 which gives (3.88) λ1 ≤ 1 − n."
+  Theorem 3.89 (Scalar case). Let λ = (λ1, 0, …, 0) such that λ1 < 3/2 − n. Then (3.84) holds for any Schmid module s.
+
+VT-4  arxiv_hep-th_9712074.pdf pdf-page 11 = printed page 10 (png/arxiv_hep-th_9712074_p-11.png; p-10 holds (2.39)-(2.41) and the general spinor sentence); text :428-437
+  "In d = 5 representations are labeled by SO(5) highest weights h1 and h2. The conditions are
+     ǫ0 ≥ 0         (h1 = h2 = 0)          (2.47)
+     ǫ0 ≥ 2         (h1 = h2 = 1/2)        (2.48)
+     ǫ0 ≥ h + 2     (h1 = h2 = h ≠ 0, 1/2) (2.49)
+     ǫ0 ≥ h1 + 3    (h1 > h2)              (2.50)"
+  (pdftotext split the fractions 1/2 onto the preceding line.)
+
+VT-5  arxiv_hep-th_9806100.pdf page 22 (png/arxiv_hep-th_9806100_p-22.png); text :1100-1108
+  "(2.41)  2C = (n + 2)(s − 1)(s − 1 + n/2) = (n + 2)·Inf|s0|·(Inf|s0| − n/2).
+   It follows that −εH0 has a negative maximal value equal to −(s − 1 + n/2); an extremal vector φ for
+   s_{n/2} = s is an extremal vector for the whole representation space … s = 0 or 1/2"
+
+VT-6  arxiv_2305.15892.pdf page 5 (png/arxiv_2305.15892_p-05.png); text :221-245
+  (1.10) λ = λ0 + zζ, z ∈ R; ζ orthogonal to Δk, normalized 2⟨ζ,β⟩/⟨β,β⟩ = 1; ⟨λ0 + ρ, β⟩ = 0.
+  No garbling of substance; rendered to confirm the normalization of ζ (i.e. (ζ, β∨) = 1).
+
+VT-5b arxiv_hep-th_9806100.pdf page 22 (same png); text :1113-1123
+  "Theorem 2.4: Every infinite-dimensional irreducible massless representation of so(2, n), for n ≥ 3,
+   integrable to Ḡn, is a weight representation d^{n,ε}_{(−(s+n/2−1), s⃗)}, D(s⃗) being itself a massless
+   representation of Spin(n), that is |s_a| = s for every a. The eigenspace of εH0 corresponding to the
+   eigenvalue (s + n/2 − 1 + k), k ∈ N, is an irreducible so(n)-module corresponding to the representation
+   D(s⃗ + (k, 0, …, 0)). The values of the Casimir element C is given by (2.41)."
+  "Proposition 2.4: The massless representations d^{n,ε}_{(−(s+½n−1), s⃗)} are integrable to unitary
+   representations of Ḡn."
