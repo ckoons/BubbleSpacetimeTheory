@@ -1,0 +1,13 @@
+   Rac⊗Di lowest weight 7/2; SO(5) content there: [(('1/2', '1/2'), 4)]
+[PASS] (1) lowest K-type of Rac⊗Di: weight 7/2, SO(5) spinor (½,½), multiplicity 1 — exactly K1653's electron K-type V_(1/2,1/2)  
+[PASS] (2) character identity to depth 5: Rac⊗Di = [generic spin-½ at 7/2] ⊕ Σ_{s≥3/2} [conserved spin-s at 3+s] (half-integer Flato–Fronsdal)  
+[PASS] (2) NEGATIVE: with GENERIC characters for every s the identity FAILS (conservation is real for s ≥ 3/2)  
+[PASS] (3) CONTROL Rac⊗Rac (5822): scalar at 3 + conserved currents at 3 + s, identity holds (d = 5, depth 6)  
+   Di⊗Di lowest weight 4; content [(('1', '1'), 10), (('1', '0'), 5), (('0', '0'), 1)]
+[PASS] (4) NEGATIVE CONTROL Di⊗Di: no half-integer-spin K-type anywhere (no electron K-type); lowest weight 4 = (1,1)⊕(1,0)⊕(0,0)  
+[PASS] (5) the lowest summand is NOT at a conservation bound: 7/2 > 2 (the spinor unitarity endpoint, 5853) ⇒ a generic irreducible module  
+
+READING: Rac⊗Di's lowest summand is ONE spinor module at weight 7/2, lowest K-type (½,½) with multiplicity one — K1653's electron
+K-type — generic (not conserved); the higher pieces s ≥ 3/2 are conserved at 3+s. Di⊗Di carries no spinor at all. Cal rules the identification.
+
+SCORE: 6/6
