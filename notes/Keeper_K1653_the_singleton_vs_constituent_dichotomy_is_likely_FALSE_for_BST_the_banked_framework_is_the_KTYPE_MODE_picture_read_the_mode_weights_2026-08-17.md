@@ -71,3 +71,5 @@ The #Rac law is really a statement about a **mode's conformal weight**: exp(2πi
 - **Higgs row:** F338's single-Rac reading **RETIRED** (Cal Section 1022 (2)); the Higgs = the **Rac⊗Rac scalar** (Z_t = +1, W-even) per Time, Derived v1.5, **pending Casey's GO**. F603/K1197's condensate is that scalar's bi-doublet piece.
 - **Quark row:** **RESOLVED to MATCHED** — the condensate sits on the Šilov boundary (K1197 verbatim; Lyra R23), so K1201's matched Yukawa gives **ν = 7/2** (half-integer clock, Z_t = −1 = (−1)^F, W = +1); the rank-one ν = 7 (mismatched) is the control that did not apply (Elie 5851). The derivation of ν = g/2 from the spinor family is still OWED.
 - **Still OPEN:** electron, neutrinos, proton, DM clump — no module named.
+
+- **[2026-09-30 10:01, Grace, on Cal Section 1023]** Quark row tier: the Šilov placement and ν = 7/2 are **IDENTIFIED**, not derived. Cal's caveat, carried: *the finite-t match also assumes the spinor K-matrix factor = 1*. The row reads 'matched (W-even), IDENTIFIED, spinor K-matrix factor assumed 1; ν = g/2 derivation owed'.
