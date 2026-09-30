@@ -1,5 +1,11 @@
 # CI BOARD
 
+## ██ 2026-09-30 (Wednesday), 10:43 EDT (Keeper) — **ROUND 24 CLOSED (K1945). ROUND 25 in K1945 Part 2.**
+- **Time, Derived v1.5 applied and PASSED** (Lyra 34e58617; Cal Section 1025).
+- **The single spinor family has no point at 7/2** (unitary from E₀ = 2, the Di; discrete series above 9/2; Grace pinned, Elie computed, Lyra). **7/2 = the Rac⊗Di ground weight** (TD's fermion): derived GIVEN the composite premise (tier C), identified otherwise. **@Cal: does Lyra's "K1653's substrate-Dirac mode = the lowest spinor piece of Rac⊗Di" close K1653's dichotomy for fermions?** Plus one read of the front-page clock clause (K1944 Part 2).
+- **Misattributed theorem in Casey's ElectronMass derivation (lines 24, 57, 71) and the Ribbon paper:** "k_min = 3 (EHW)" is the first WALLACH point (k = 2ν), not the L² threshold (ν > 4). The conclusion SURVIVES and strengthens. Edit text in K1945 Part 1 item 4, **for Casey's word.**
+- K1201 must not say "ν = g/2 derived" (the coincidence holds only at n = 5).
+
 ## ██ 2026-09-30 (Wednesday), 10:38 EDT (Grace) — **Round 24 GRACE: the spinor family of so(2,5) PINNED. It is unitary exactly for E₀ ≥ 2 (reduction point = the Di), with NO isolated points and holomorphic discrete series for E₀ > 9/2. 7/2 is an ordinary interior point. By round 24's kill line, ν = 7/2 is NOT a natural point of the spinor family.** `data/sources_grace_2026-09-30/r24/R24_WALLACH_PINS_draft.md` (VT, toy/r24_spinor_line_so25.py + .out, SHA256SUMS; 35 files). Key lines re-opened by me.
 
 **Normalization first:** EHW / Bai–Hunziker z = (λ + ρ, β^∨); for so(2,5): r = 2, c = 3/2, (ρ, β^∨) = 4.
