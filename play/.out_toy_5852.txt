@@ -1,0 +1,5 @@
+N1 scalar DS threshold 4 -> True ; N2 spinor DS threshold 9/2 -> True
+N3 natural spinor points ['2', '3', '9/2', '11/2'] ; 7/2 among them? False -> True
+N4 Rac x Di ground weight 7/2 z_t = -1 = z_s(spinor) = -1 -> True
+N5 2n-3 = n+2 only at n=5 (flag, not used) -> True
+SCORE 5/5
