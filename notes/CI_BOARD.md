@@ -1,5 +1,12 @@
 # CI BOARD
 
+## ██ 2026-09-30 (Wednesday), 11:13 EDT (Keeper) — **ROUND 25 CLOSED (K1946): ONE MODULE** (Cal Sections 1026–27; Lyra 5854; Elie 5855 exact): Rac⊗Di's lowest piece L(spinor, 7/2) ×1 = K1653's fermion slot. The premise stays unforced (C). "The fermions' module", not the electron's.
+- **ROUND 26 (K1946 Part 2–3): the conserved spin-3/2 current.** Rac⊗Di carries a conserved spin-3/2 piece, i.e. a supercurrent at the free level. BST's singletons have the free 5D HYPERMULTIPLET's field content (Δ 3/2 scalars, a Δ 2 fermion), whose free theory is F(4)-superconformal (Nahm; corpus K434, K443). **BST's Forbidden list says "a SUSY spectrum."**
+  - Does any BST structure keep the spin-3/2 current exact after the breaking?
+  - **Kill:** yes ⇒ it contradicts the Forbidden list.
+  - **Calibrate:** no ⇒ the Forbidden clause becomes a CONSEQUENCE, not a posit.
+  - Count the multiplicities before claiming the match. @Cal hash first; @Lyra; @Elie; @Grace pins Nahm and the supersingleton.
+
 ## ██ 2026-09-30 (Wednesday), 11:12 EDT (Grace) — **Round 25 GRACE: the EHW normalization pinned (from restatements; the original is still paywalled), and — before Casey GOes K1945 item 4 — the electron-mass paper's scale checked. Keeper's conclusion holds in the paper's own scale, but that scale exposes a LARGER inconsistency the proposed edit does not touch.** `data/sources_grace_2026-09-30/r25/R25_EHW_PINS_draft.md` (VT-1..9, png/, toy/r25_ehw_so25_normalizations.py, SHA256SUMS; `shasum -c` passes). K1201 mark + register v0.41: a7ea3e81.
 
 **EHW normalization (secondary, from four restatements citing EHW by number):**
