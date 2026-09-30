@@ -1,0 +1,16 @@
+[PASS] setup: p⁺ = eigenvectors of ad Z with eigenvalue +i; p⁺ abelian; the Cl(5) spin rep has the matrices' so(5) brackets  
+   Z sign fixed by the scalar control: 1
+   scalar, levels 1–2: unitary at λ ∈ [0.0, 3.0, 3.25, 3.5, 3.75, 4.0] … (grid 0.25)
+[FAIL] CONTROL scalar (levels 1–2): unitary exactly at λ = 0 and λ ≥ 3/2 on the grid (the known Wallach set {0} ∪ [3/2, ∞))  
+   spinor, levels 1–2: unitary at λ ∈ [3.5, 3.75, 4.0, 4.25, 4.5, 4.75, 5.0, 5.25, 5.5, 5.75, 6.0]
+   spinor (fine grid 0.05, levels 1–2): continuum from λ = 3.35; isolated unitary points []
+   spinor level-3 PSD at {3.35: False, 3.5: True, 4.5: True}
+[FAIL] spinor unitarity set (levels ≤ 2, confirmed at level 3): the continuum endpoint is λ = 2 (the Di singleton, (n−1)/2)  
+   spinor sign changes of min eigenvalue: level 1 at [2.0]; level 2 at [3.318355]
+[PASS] CONTROL: the HC holomorphic-discrete-series threshold for the scalar is λ > 4 = p − 1  
+   HC holomorphic discrete series threshold: scalar 4.0, spinor 4.5
+   natural points of the spinor family: {'spinor unitarity endpoint (Di)': 3.35, 'spinor HC discrete-series threshold': 4.5, 'reduction pt (level 1) 2.0': 2.0, 'reduction pt (level 2) 3.318355': 3.318355}
+   points equal to 7/2: []
+[PASS] THE QUESTION: is 7/2 a natural point of the spinor family? (reported either way; my prereg said NO)  
+
+SCORE: 3/5
