@@ -47,3 +47,12 @@ d_u = 11.27 ∈ [11.0, 11.4] ✓, and there is **no added term** (genus-7 gives 
 I built blind-pin ceremony (K1197/K1198/K1199) around a number that took one line. Just compute.
 
 — K1201, Keeper, 2026-08-05. Did the calculation: genus = g = 7 → y_u = n_C^{−g} = 5^{−7} = 1.28e-5 (obs 1.26e-5, 1.2%), d_u = 7·ln(5) = 11.27 (obs 11.28), in window. The "naive 9.84 + 1.44 gap" was a wrong-formula artifact; toy 5073 was booleans. Retract K1200 (bare genus 5 vs fermion weight g=7; T753 flag withdrawn). Clean form y_u = n_C^{−g}. Still to derive: weight=g and gap=1/n_C² (both came out clean). Vs K1199: PASS on number, CONDITIONAL on the two forcings. Supersedes K1200. See toys 5071/5073, m_u=2.2, v=246 GeV.
+
+---
+## MARK 2026-09-30 11:00 (Grace, on K1945 Part 1 items 3 and 5; Cal Section 1025; Lyra R24). The note above is not edited; this mark governs how it may be cited.
+- **'ν = g/2' is NOT derived, and must never be cited as derived.** g/2 = (n+2)/2 and Rac + Di = 3/2 + 2 = (2n − 3)/2 both equal 7/2 ONLY at n = 5 (Cal's menu flag, Section 1025; Lyra R24), so neither is support for the other.
+- **Status of the weight:**
+  - For a single spinor-valued family of D_IV⁵, **ν = 7/2 is an IDENTIFIED INPUT.** That family is unitary exactly from E₀ = 2 (the Di, its reduction point), has no isolated points, is discrete series above 9/2, and has nothing special at 7/2 (Grace R184 pins: PPST1 (3.88), Bai–Hunziker 2409.16555 Section 5.2, Minwalla (2.48); Elie 5853).
+  - **Given the premise that fermions are Rac⊗Di composites (Time, Derived), ν = 7/2 is CONDITIONAL (C):** it is that composite's ground weight.
+- **Title words superseded:** 'genus 7' / 'genus = g = 7' in the title are a mislabel. The genus of D_IV⁵ is 5 (K1213; Xiao–Yuan, pinned 09-09). The exponent is read as **7/2 toward the Šilov boundary** (Cal Section 1023: IDENTIFIED; the finite-t match also assumes the spinor K-matrix factor = 1).
+- The match itself, y_u = 5^{−7} (1.2 %), stands as an identification.
