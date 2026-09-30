@@ -1,0 +1,69 @@
+R25 VISUAL TRANSCRIPTIONS (Grace, 2026-09-30, from PNGs in png/ rendered by pdftoppm -r 130)
+Each entry: PNG -> source PDF page -> verbatim transcription of the display whose text layer garbles.
+
+VT-1  png/arxiv_2412.06317_p-05.png  (PPST3, arXiv:2412.06317v2, printed p. 5; txt :197-211)
+  Lemma 3.3. The basic Dirac inequalitiy for s = β is given by
+        λ1 ≤ 0                    for λ = (λ1, 0, ..., 0)
+  (3.4) λ1 ≤ 1 − n                for λ = (λ1, 1/2, ..., 1/2)
+        λ1 + λ2 ≤ 1 + p − 2n      for λ = (λ1, λ2, ..., λp, ..., λn)
+                                  where 1 ≤ λ2 = ··· = λp > λp+1 and 2 ≤ p ≤ n.
+  Theorem 3.5. Non-scalar modules are unitarizabile if and only if (3.4) holds. If the inequality
+  is satisfied strictly, the modules are irreducible Verma modules. In the scalar case, unitarizable
+  highest weight modules are the trivial module, the Wallach module (3/2−n, 0, ..., 0) and
+  irreducible Verma modules (λ1, 0, ..., 0), λ1 < 3/2−n.
+  [text layer agrees; PNG confirms "3/2−n" and "1 − n".]
+
+VT-2  png/arxiv_2412.06317_p-04.png  (PPST3 printed p. 4; txt :171-186)
+  ρ = (n − 1/2, n − 3/2, ..., 1/2)   [text layer splits the fractions over two lines]
+  positive noncompact roots {ε1 ± εj | 2 ≤ j ≤ n} ∪ {ε1};  β = ε1 + ε2.
+
+VT-3  png/arxiv_2409.16555_p-05.png  (Bai–Hunziker, arXiv:2409.16555v1, printed p. 5; txt :241-251)
+  "We have the following table from [EHW83]:"
+   g_R            r            c        (ρ, β∨)
+   su(p, n−p)     min{p,n−p}   1        n − 1
+   sp(n, R)       n            1/2      n
+   so*(2n)        [n/2]        2        2n − 3
+   so(2, 2n−1)    2            n − 3/2  2n − 2
+   so(2, 2n−2)    2            n − 2    2n − 3
+   e6(−14)        2            3        11
+   e7(−25)        3            4        17
+  Table 1. Some constants of Lie groups of Hermitian type
+
+VT-4  png/arxiv_2512.08199_p-09.png  (BEHJ, arXiv:2512.08199v1, printed p. 9; txt :459-472)
+  Figure 1 "The set Z(λ0)": a z-axis (arrow to the right, labelled z). A thick solid ray runs from
+  the left edge through the tick "0" and ends at a filled dot labelled a(λ0). To the right of a(λ0)
+  there are isolated filled dots at equal spacing, the spacing marked "c" between two of them by
+  arrows; the last dot is labelled b(λ0). Nothing is drawn to the right of b(λ0).
+  So: Z(λ0) = (−∞, a(λ0)] ∪ {a(λ0) + c, a(λ0) + 2c, ..., b(λ0)}  [reading of the figure].
+
+VT-5  png/arxiv_2512.08199_p-10.png  (BEHJ printed p. 10; txt :475-490)
+   g_R            r            c        h∨
+   su(p, n−p)     min{p,n−p}   1        n
+   sp(n, R)       n            1/2      n + 1
+   so*(2n)        [n/2]        2        2n − 2
+   so(2, 2n−1)    2            n − 3/2  2n − 1
+   so(2, 2n−2)    2            n − 2    2n − 2
+   e6(−14)        2            3        12
+   e7(−25)        3            4        18
+  Table 2. Some constants of Lie groups of Hermitian type
+  [with h∨_Φ = (ρ, β∨) + 1 (txt :503-504); consistent with VT-3 column-by-column.]
+
+VT-6  png/arxiv_0712.4375_p-04.png  (Dobrev, arXiv:0712.4375v5, printed p. 4; r13 txt :158-161, fn 6 :169-173)
+  "The unitary lowest weight generalized Verma modules are infinitesimally equivalent to
+  holomorphic discrete series when d = d0 + kc0 , k = A(λ0) + 1, 2, . . ., c0, A(λ0) ∈ IN, [4].
+  The GVMs with d = d0 + c0A(λ0) are infinitesimally equivalent to the so-called limits of
+  discrete series [4]."
+  Footnote 6: "Note that EHW [4] work with highest weight modules, thus, their ranges are limited
+  from above, while we work with lowest weight modules and our ranges are limited from below. ...
+  There is also a shift of the initial points - in our case d - as energy - is positive, while in
+  the notation of [4] the spectrum includes the point zero."
+  [The PNG shows the list literally as "k = A(λ0) + 1, 2, . . .,"; it states c0, A(λ0) ∈ ℕ.]
+
+VT-7  png/arxiv_0712.4375_p-17.png  (Dobrev printed p. 17; r13 txt :754-769) — text layer clean;
+  PNG confirms "(the FRP is z = A(λ0) = 2)", "(z = 1 by [4])", "(z = 0 by [4])", "(z < 0 by [4])".
+
+VT-8  png/arxiv_2305.15892_p-05.png  (PPST2, printed p. 5; r24 txt :221-226)
+  "Here ζ ∈ t∗ is orthogonal to ∆k and normalized so that 2⟨ζ,β⟩/⟨β,β⟩ = 1"
+
+VT-9  png/arxiv_2409.16555_p-02.png  (BH printed p. 2; r24 txt :54-64) — text layer clean:
+  "(ζ, β∨)=1", "(λ0 + ρ, β)=0", "z = (λ + ρ, β∨) ∈ R".

@@ -1,0 +1,292 @@
+      A PIERI RULE FOR HERMITIAN SYMMETRIC PAIRS
+
+
+          Thomas J. Enright, Markus Hunziker and Nolan R. Wallach
+
+         Abstract. Let (G, K) be a Hermitian symmetric pair and let g and k denote
+         the corresponding complexified Lie algebras. Let g = k ⊕ p+ ⊕ p− be the usual
+         decomposition of g as a k-module. K acts on the symmetric algebra S(p− ).
+         We determine the K-structure of all K-stable ideals of the algebra. Our results
+         resemble the Pieri Rule for Young diagrams. The result implies a branching
+         rule for a class of finite dimensional representations that appear in the work
+         of [EW] and [EH] on Hilbert series for unitarizable highest weight modules.
+
+
+   1.1 Introduction The Pieri rule for the unitary group U (m) gives the decom-
+position of the tensor product of an irreducible representation F and a symmet-
+ric power of Cm . In the simplest case, if (n1 , n2 , · · · nm ) with n1 ≥ n2 ≥ · · · ≥
+nm ≥ 0, ni ∈ Z is the highest weight of F then F ⊗ Cm decomposes multiplicity
+free with highest weights (n1 + 1, n2 , · · · , nm ) and, for each j, 2 ≤ j ≤ m with
+ni−1 > ni , (n1 , n2 , · · · ni−1 , ni + 1, · · · , nm ). Here we consider a related question
+about the module structure of ideals in the context of Hermitian symmetric pairs.
+   Let (G, K)
+            N be an irreducable symmetric pair of Hermitian type. That              N is, if
+g = Lie(G)
+        L      C then    it  is a simple  Lie    algebra  over C and if k = Lie(K)    C then
+k = CH [k, k] with ad(H) having eigenvalues 0, 1, −1 on g. We write
+                             p± = {X ∈ g|[H, X] = ±X}.
+               L    L
+ Then g = p− k p+ a direct sum of k-modules. Let B denote the Killing form
+of g. Then B induces a perfect pairing between p+ and p− . Thus we can look
+upon the symmetric algebra S(p− ) as polynomials on p+ and S(p+ ) as differential
+operators with constant coefficients on p+ .
+   The main result of this article describes the k-module structure of any K-stable
+ideal in the symmetric algebra S(p− ). This result is a consequence of Theorem 1
+whose form resembles the Pieri rule described above and indicates that K-invariant
+ideals are similar in K-structure to monomomial ideals.
+   This question regarding K structure of ideals in S(p− ) arose the study of the
+the Hilbert series of unitarizable highest weight representations (with respect to the
+grading induced by H). By the Transfer Theorem [EW][EH], many unitarizable
+highest weight representations L have Hilbert series of the form:
+
+                                             f (t)
+                                    hL (t) = R      ,
+                                           (1 − t)d
+where d equals the Gelfand Kirillov dimension of L, f (t) is the (polynomial)
+Hilbert series of a finite dimensional representation EL of the reduced Hermit-
+ian symmetric pair (GL , KL ) and R is the ratio of the dimensions of the zero grade
+                                                                  1
+in L and EL . For the Wallach representations this ratio is f (0)   . The connec-
+tion with this article comes when we note that for a Wallach representation L of
+Sp(n, R), SU (p, q) or SO(2, n), the GL -representation EL has a KL -stable highest
+weight space (i.e. f (0) = 1). Therefore EL is isomorphic to the quotient of S(p− L)
+                                               1
+2                     A PIERI RULE FOR HERMITIAN SYMMETRIC PAIRS
+
+
+by a KL -invariant ideal. For these cases the results proved here are used in [EH]
+to offer explicit formulas for the Hilbert series of the Wallach representations .
+   2.1 k-invariant ideals We continue with the Hermitian symmetric setting and
+notation of the introduction. We fix a Cartan subalgebra h of k and a system of
+positive roots Φ+ such that if α ∈ Φ+ then α(H) ≥ 0. We set Φ+               n = {α ∈
+Φ|α(H) = 1}. Let Φ+     c =  Φ +
+                                 − Φ+
+                                    n  then Φ +
+                                              c is a system of positive roots for k on h.
+Let γ1 < γ2 < ... < γr denote Harish-Chandra’s strongly orthogonal roots. Schmid
+[S] has shown that as a K-module under the restriction of the adjoint representation
+S(p− ) is multiplicity free and the irreducible constituents are exactly the K-modules
+with highest weights of the form
+                    −(n1 γ1 + ... + nr γr ), n1 ≥ n2 ≥ ... ≥ nr ≥ 0, ni ∈ Z.
+                 −
+We will write S(pP )[n1 , ..., nr ] for the corresponding isotypic component. We also
+note that if d =   ni then S(p− )[n1 , ..., nr ] ⊂ S d (p− ) (the homogeneous elements
+of degree d). The main result is
+Theorem 1. Let n1 ≥ n2 ≥ ... ≥ nr ≥ 0, ni ∈ Z then
+                                                                    M
+            S(p− )[n1 , ..., nr ]p− = S(p− )[n1 + 1, n2 , ..., nr ]
+                                       M
+                                                S(p− )[n1 , ..., ni−1 , ni + 1, ..., nr ] ,
+                                      2≤i≤r
+                                      ni < ni−1
+with multiplication in S(p− ).
+   2.2 Proof of Theorem 1 We first recall four well known results on the
+strongly orthogonal roots (mostly due to C.Moore). Let (., .) denote the dual form
+to B|h .
+
+    1) (γi , γi ) = (γj , γj ) for all i, j.
+
+    2) If α ∈ Φ+ then (α, a) ≤ (γ1 , γ1 ).
+
+   Let h− denote the linear span of the coroots, γ̌i , of the γi . Then dim h− = r and
+the γ̌i form an orthogonal basis of h− .
+                                                                           1
+   3) If α ∈ Φ+ n and if α 6= γi for any i then α|h− is either of the form 2 (γi + γj )
+             1
+for i < j or 2 γi for some i.
+
+                                                   1                           1
+    4) If α ∈ Φ+
+               c then α|h− is either of the form − 2 (γi − γj ) for i < j or − 2 γi .
+    With this notation in place we can prove
+
+Lemma 1. Let n1 ≥ n2 ≥ ... ≥ nr ≥ 0, ni ∈ Z then
+                                                                                              M
+                                         S(p− )[n1 , ..., nr ]p− ⊂ S(p− )[n1 + 1, ..., nr ]
+             M
+                       S(p− )[n1 , ..., ni−1 , ni + 1, ..., nr ].
+         2≤i≤r
+         ni < ni−1
+                        A PIERI RULE FOR HERMITIAN SYMMETRIC PAIRS                        3
+
+                  P
+Proof. Let λ = − ni γi then it is standard that the possible highest weights that
+can occur in S(p− )[n1 , ..., nr ] ⊗ p− are of the form λ − α with α ∈ Φ+   n . Schmid’s
+result implies that if this highest weight occurs in S(p− )[n1 , ..., nr ]p− then
+                         X
+             λ−α=−            mi γi with m1 ≥ m2 ≥ ... ≥ mr ≥ 0, mi ∈ Z.
+Thus, in particular, we have
+                                                            X
+                                         λ − α|h− = −           mi γi
+with the conditions above satisfied. Using the forms of α|h− in 3) above we see
+that since the coefficients on the right hand side of the equation are all integers the
+only possibility for α is one of the γi . Now the Schmid conditions on the highest
+weights imply the lemma.                                                             ¤
+
+
+   This simple result reduces the proof to showing that the predicted components
+actually occur. For our proof of this assertion (and hence of the theorem) we
+recall several results from [W]. Let n+c denote the sum of the root spaces for the
+                                                                                +
+elements of Φ+  c .  We   choose a non-zero element ui in S(p− )[n1 , ..., nr ]nc with
+nj = 1, j ≤ i, nj = 0, j > i. Then one can easily see from Schmid’s result that:
+                 +
+    5) S(p− )nc is the polynomial ring on the algebraically independent elements
+u1 , ..., ur .
+
+   We will now analyze these covariants in further detail. For each 1 ≤ j ≤ r, let
+Φ+                                       +                                   1
+  0,j denote the set of elements, α, of Φ such that α|h− is of the form 2 (γp ± γq )
+                                +        +
+with q ≤ p ≤ j. Then Φ0,j = Φ0,j ∪ −Φ0,j is a subrootsystem of Φ. Let g0,j denote
+the subalgebra of g generated by the root spaces for the roots in Φ0,j . If uj is the
+sum of all ideals of g0,j contained in g0,j ∩ k then (g0,j /u, (k ∩ g0,j )/u) is also an
+irreducible symmetric pair of Hermitian type. Set p±                  ±
+                                                      0,j = g0,j ∩ p . One has (see
+[W])
+
+      6) uj ∈ S(p−
+                 0,j ).
+
+
+    We denote by x 7→ x the conjugation of g with respect to Lie(G). Then p− = p+ .
+If x ∈ p+ then we denote by ∂(x) the derivation of S(p− ) defined by ∂(x)y = B(x, y)
+for y ∈ p− . We will also denote the extension of ∂ to S(p+ ) by ∂. In addition we
+will use the notation u 7→ u(0) for the augmentation map of S(p− ) to C given as
+the extension to a homomorphism of y 7→ 0 for y ∈ p− . We define for u, v ∈ S(p− ),
+hu, vi = (∂(v)u)(0). The following observation is well known and easily checked.
+
+   7) The Hermitian form h., .i is positive definite and K-invariant. Furthermore,
+if u, v, w ∈ S(p− ) thenhuv, wi = hv, ∂(u)wi .
+
+   We now begin the proof that the predicted representations in Theorem 1 actually
+                                                                         nr−1 −nr nr
+occur. If n1 ≥ ... ≥ nr ≥ 0 then we note that un1 1 −n2 un2 2 −n3 · · · ur−1     ur is a
+basis of the highest weight space of S(p− )[n1 , ..., nr ]. Thus to prove the result we
+must show that
+                                               n        −nr nr
+(i)                  u1n1 −n2 +1 u2n2 −n3 · · · ur−1
+                                                  r−1
+                                                           ur ∈ S(p− )[n1 , ..., nr ]p−
+4                        A PIERI RULE FOR HERMITIAN SYMMETRIC PAIRS
+
+
+and if r ≥ j > 1 and nj−1 > nj then
+(ii)
+                              nj−1 −nj −1 nj −nj+1 +1        nr−1 −nr nr
+   un1 1 −n2 un2 2 −n3 · · · uj−1        uj           · · · ur−1     ur ∈ S(p− )[n1 , ..., nr ]p− .
+Equation (i) is obvious since u1 = X−γ1 . This proves the theorem if r = 1. We
+proceed by induction on r. If r = 1 then we have already observed that the result
+is true. Assume that the result is true for r − 1 ≥ 1. If nr = 0 and if n j−1 > nj
+with j < r then the inductive hypothesis and (6) above implies that:
+                             n        −nj −1 nj −nj+1 +1        nr−1
+    un1 1 −n2 un2 2 −n3 · · · uj−1
+                                j−1
+                                            uj           · · · ur−1  ∈ S(p−                        −
+                                                                          0,r−1 )[n1 , ..., nr−1 ]p0,r−1
+
+so (ii) is true in this case. By (6), the highest weights although not the full k-modules
+are contained in S(p−    0,r ) and thus we may reduce to the case g = g0,r which we now
+assume. This implies that the k-module S(p− )[n, n, ..., n] is one dimensional. We
+have:
+                  S(p− )[n1 , ..., nr ] = S(p− )[n1 − nr , ..., nr−1 − nr , 0]unr r .
+So the result for j < r and nr > 0 follows from the case when nr = 0. To complete
+the proof we look at the remaining case; when nr−1 > nr ≥ 0. As before we are
+reduced to proving (ii) for j = r, nr = 0 and nr−1 > 0 to complete the induction.
+Let D = ∂(ur ). Then
+                         D : S(p− )[n1 , ..., nr ] → S(p− )[n1 − 1, ..., nr − 1].
+Here if nr < 0 then we write S(p− )[n1 , ..., nr ] = {0}. Suppose this last case is not
+true. Then (8) holds.
+
+                                                  n    −1
+                  8) u1n1 −n2 u2n2 −n3 · · · ur−1
+                                               r−1
+                                                               / S(p− )[n1 , ..., nr−1 , 0]p− .
+                                                            ur ∈
+This implies:
+                                       ¡                            ¢
+                                      D S(p− )[n1 , ..., nr−1 , 0]p− = 0.
+From this we conclude:
+0 = hD S(p− )[n1 , ..., nr−1 , 0]p− , S(p− )i = hS(p− )[n1 , ..., nr−1 , 0], ∂(p+ ) ur S(p− )i
+
+                           = hS(p− )[n1 , ..., nr−1 , 0], (∂(p+ ) ur ) S(p− )i .
+Again since we have reduced to the case where g = g0,r , ur spans a one dimensional
+k-module and so
+                         ∂(p+ ) ur = S(p− )[1, 1, ..., 1, 0].
+Combining these last two identities gives:
+                              0 = hS(p− )[n1 , ..., nr−1 , 0], ur−1 S(p− )i .
+By induction on rank we conclude:
+                       0 = hS(p− )[n1 , ..., nr−1 , 0], S(p− )[n1 , ..., nr−1 , 0]i ,
+for all n1 ≥ n2 ≥ · · · ≥ nr−1 ≥ 1. This is a contradiction and so (8) does not hold.
+This completes the induction.
+
+  As a consequence of this result we can describe the ideals generated by isotypic
+components in S(p− ).
+                    A PIERI RULE FOR HERMITIAN SYMMETRIC PAIRS                             5
+
+
+Corollary 1. Let n1 ≥ n2 ≥ ... ≥ nr then
+
+                                                    M
+         S(p− )(S(p− )[n1 , ..., nr ]) =                          S(p− )[m1 , ..., mr ].
+                                               mi ≥ ni
+                                           m1 ≥ ... ≥ mr ≥ 0
+
+
+
+
+   Let I be a K-invariant ideal in S(p− ). Then I is generated as an ideal by a finite
+set of K-isotypic subspaces, say S(p− [nj ]), where nj = [nj1 , · · · , njm ], 1 ≤ j ≤ t. If
+n, m ∈ Zr thenSwe write n Â m if ni ≥ mi for all i = 1, .., n. Let Lj = {n ∈ Zr |n Â
+nj } and LI = Lj . With this notation in place we have
+                j
+
+
+Corollary 2. The ideal I is multiplicity free with K-decomposition:
+
+                                       M
+                       I=                             S(p− )[m1 , ..., mr ].
+                                   m ∈ LI
+                               m1 ≥ ... ≥ mr ≥ 0
+
+
+
+
+   Let ω be the unique fundamental weight orthogonal to the compact roots. For
+any dominant integral weight ξ, let Fξ be the irreducible finite dimensional k-
+module with highest weight ξ. Let N (ξ + ρ) denote the generalized Verma module
+U (g) ⊗U (k⊕p+ ) Fξ .
+
+Theorem 2. For m ∈ N. let Em be the irreducible finite dimensional g-module
+with highest weight mω. Then as a k-module,
+
+                                M
+                    Em ∼
+                       =                     F−n1 γ1 −n2 γ2 −···−nr γr ⊗ Fmω .
+                           m≥n1 ≥...≥nr ≥0
+
+
+  2.1 Proof of Theorem 2 Let α denote the unique simple noncompact root.
+Then α = γ1 . From the BGG resolution we obtain the exact sequence:
+
+
+                     N (sα (mω + ρ)) → N (mω + ρ) → Emω → 0 .
+
+
+The k-module Fmω is one dimensional, so the image of the left term has the form
+I ⊗ Fmω where I is the ideal in S(p− ) generated by S(p− )[m + 1, 0, · · · , 0]. The
+result now follows from the lemma.
+6                A PIERI RULE FOR HERMITIAN SYMMETRIC PAIRS
+
+
+    REFERENCES
+
+   [EH] Enright,Thomas J. and Hunziker, Markus, Resolutions and Hilbert series of
+determinantal varieties and unitary highest weight modules , preprint 2002 , 1-26.
+   [EW] Enright, T. J. and Willenbring, J. F. Hilbert series, Howe duality and
+branching for classical groups preprint 2001 , 1-37.
+   [S] Schmid, Wilfried, Die randwerte holomorpher funktionen auf hermitesch sym-
+metrischen raumen, Invent. Math. 9 (1969-70), 61-80.
+   [W] Wallach, N.R. The analytic continuation of the discrete series I and II.
+Trans. Amer. Math. Soc. 251, (1979), 1-17 and 19-37.
+

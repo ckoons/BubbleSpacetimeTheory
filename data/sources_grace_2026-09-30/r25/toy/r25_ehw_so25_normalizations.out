@@ -1,0 +1,27 @@
+rho = (Fraction(5, 2), Fraction(3, 2), Fraction(1, 2))  (rho,beta^vee) = 4  c = 3/2  r = 2  dim p+ = 5
+Table-1 check: (rho,beta^vee)=2n-2 -> 4 ; c=n-3/2 -> 3/2 ; h^vee=(rho,beta^vee)+1 = 5
+z_k = (rho,beta^vee) - k c, k=0..r: [Fraction(4, 1), Fraction(5, 2), Fraction(1, 1)]
+nu=   0  z=    4  unitary=True   HDS(z<0)=False  k_BH=nu/c=    0  k_shift=nu-3/2=-3/2  k_dbl=2nu=  0
+nu=   1  z=    3  unitary=False  HDS(z<0)=False  k_BH=nu/c=  2/3  k_shift=nu-3/2=-1/2  k_dbl=2nu=  2
+nu= 3/2  z=  5/2  unitary=True   HDS(z<0)=False  k_BH=nu/c=    1  k_shift=nu-3/2=   0  k_dbl=2nu=  3
+nu= 5/2  z=  3/2  unitary=True   HDS(z<0)=False  k_BH=nu/c=  5/3  k_shift=nu-3/2=   1  k_dbl=2nu=  5
+nu=   3  z=    1  unitary=True   HDS(z<0)=False  k_BH=nu/c=    2  k_shift=nu-3/2= 3/2  k_dbl=2nu=  6
+nu=   4  z=    0  unitary=True   HDS(z<0)=False  k_BH=nu/c=  8/3  k_shift=nu-3/2= 5/2  k_dbl=2nu=  8
+nu= 9/2  z= -1/2  unitary=True   HDS(z<0)=True   k_BH=nu/c=    3  k_shift=nu-3/2=   3  k_dbl=2nu=  9
+nu=   5  z=   -1  unitary=True   HDS(z<0)=True   k_BH=nu/c= 10/3  k_shift=nu-3/2= 7/2  k_dbl=2nu= 10
+Thresholds by scale (L2 = HDS):
+  EHW z      : Wallach z in {4, 5/2} U (-inf,5/2); Hardy z=3/2; L2 z<0
+  FK nu=4-z  : Wallach {0,3/2} U (3/2,inf); Hardy 5/2; L2 nu>4
+  BH k=nu/c  : Wallach {0,1} U (1,inf); Hardy 5/3; L2 k>8/3
+  k=nu-3/2   : Wallach {-3/2,0} U (0,inf); Hardy 1; L2 k>5/2
+  k=2nu      : Wallach {0,3} U (3,inf); Hardy 5; L2 k>8
+  first L2 nu on nu in Z (SO_0(2,5)): 5 -> k_BH=10/3, k_shift=7/2, k_dbl=10
+  first L2 nu on nu in Z/2 (double cover along the central SO(2); NOT Spin(2,5): B3 weights are all-integer or all-half-integer, and (nu,0,0) with nu in 1/2+Z is neither): 9/2 -> k_BH=3, k_shift=3, k_dbl=9
+  general n: first Z/2 L2 point nu=n_C-1/2 -> k_shift=(n_C+1)/2 for all n_C; k_BH=(2n_C-1)/(n_C-2) equals 3 only at n_C=5
+    n_C=3: k_shift=2  (n_C-1)/2+1=2  k_BH=5
+    n_C=4: k_shift=5/2  (n_C-1)/2+1=5/2  k_BH=7/2
+    n_C=5: k_shift=3  (n_C-1)/2+1=3  k_BH=3
+    n_C=6: k_shift=7/2  (n_C-1)/2+1=7/2  k_BH=11/4
+    n_C=7: k_shift=4  (n_C-1)/2+1=4  k_BH=13/5
+    n_C=8: k_shift=9/2  (n_C-1)/2+1=9/2  k_BH=5/2
+    n_C=9: k_shift=5  (n_C-1)/2+1=5  k_BH=17/7

@@ -1,0 +1,1771 @@
+                                             ON THE CLASSIFICATION OF UNITARY HIGHEST WEIGHT
+                                                    MODULES IN THE EXCEPTIONAL CASES
+
+
+
+
+arXiv:2412.06317v2 [math.RT] 21 Jan 2025
+                                           PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+                                                    Abstract. In our previous paper [PPST3], we gave a complete classification
+                                                    of the unitary highest weight modules for the universal covers of the Lie groups
+                                                    Sp(2n, R), SO ∗ (2n) and SU (p, q), using the Dirac inequality and the so called
+                                                    PRV product. In this paper, we complete the classification of the unitary
+                                                    highest weight modules for the remaining cases; i.e., universal covers of the
+                                                    Lie groups SOe (2, n), E6(−14) and E7(−25) . We also describe unitary highest
+                                                    weight modules with given infinitesimal characters.
+
+
+
+
+                                                                                1. Introduction
+                                           Let G denote the universal cover of one of the Lie groups SOe (2, n), E6(−14) and
+                                           E7(−25) , and let K denote the subgroup of elements of G fixed by a fixed Cartan
+                                           involution of G. In all these cases G is of Hermitian type, so there exist unitary
+                                           highest weight Harish-Chandra modules, i.e., unitary Harish-Chandra modules gen-
+                                           erated by a highest weight vector that is annihilated by the action of all positive
+                                           root spaces in the complexified Lie algebra g of G ([HC1], [HC2]). Let g0 = k0 ⊕ p0
+                                           be the Cartan decomposition of the Lie algebra g0 of G corresponding to the Cartan
+                                           involution. As usual, we drop the subscript 0 to denote the complexifications. Since
+                                           in our cases (G, K) is Hermitian, the K-module p decomposes into two irreducible
+                                           submodules, p = p+ ⊕ p− , and each of p± is an abelian subalgebra of g. Further-
+                                           more, g and k have equal rank, and we choose a Cartan subalgebra t of g contained
+                                                                                                                          +
+                                           in k. We fix compatible choices of positive roots for (g, t) and (k, t), ∆+
+                                                                                                                     g ⊃ ∆k , such
+                                                  +                                                      +
+                                           that p is contained in the Borel subalgebra defined by ∆g . Let W and Wk denote
+                                           the Weyl groups of g and k respectively.
+                                           If the highest weight module is in addition a (g, K)–module, then its highest weight
+                                           must be the highest weight of a K–type, hence it is dominant and integral for k.
+                                           For each highest weight λ, there is a unique irreducible highest weight module with
+                                           highest weight λ and it can be constructed as the unique irreducible quotient L(λ)
+                                           of the generalized Verma module N (λ) with highest weight λ (see [PPST3, Section
+                                           1] for more details). We will consider only real weights (i.e., contained in the real
+                                           span of roots) since otherwise, the associated highest-weight module can not be
+                                           unitary. In [PPST3] we determined for which k-dominant integral and real weight
+                                           λ the module L(λ) is unitary in cases when G is the universal cover of the Lie
+
+                                               2010 Mathematics Subject Classification. primary: 22E47.
+                                               Key words and phrases. highest weight modules, unitary.
+                                               P.Pandžić and A.Prlić are supported by the QuantiXLie Center of Excellence, a project co-
+                                           financed by the Croatian Government and European Union through the European Regional Devel-
+                                           opment Fund - the Competitiveness and Cohesion Operational Programme (grant PK.1.1.02.0004).
+                                           V. Tuček was supported by the QuantiXLie Center of Excellence and by the grant GX19-28628X.
+                                           V. Souček was supported by the grants GX19-28628X and GA24-10887S of GAČR.
+                                                                                           1
+2   PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+groups Sp(2n, R), SO∗ (2n) or SU (p, q). This result was already proved in [EHW]
+and independently in [J], but our approach was more elementary. In this paper, we
+will do the same in cases when G is the universal cover of the Lie groups SO(2, n),
+E6 and E7 . In [PPST3] the essential tool was the Dirac inequality of [P2]. We will
+explain it briefly and refer the reader to a more detailed introduction of [PPST3].
+Let B be the Killing form on g and let C(p) be the Clifford algebra of p with respect
+to B. Let bi be any basis of p and let di be the dual basis with respect to B. The
+Dirac operator (defined in [P1]) is defined as
+                              X
+                         D=       bi ⊗ di     ∈ U (g) ⊗ C(p).
+                               i
+
+The square of D is the spin Laplacean (Parthasarathy [P1]):
+(1.1)               D2 = −(Casg ⊗1 + kρk2 ) + (Cask∆ +kρk k2 ),
+where Casg , Cask∆ are the Casimir elements of U (g), U (k∆ ), where k∆ is the diag-
+onal copy of k in U (g) ⊗ C(p) defined by
+                     k ֒→ g ֒→ U (g) and k → so(p) ֒→ C(p),
+and ρ and ρk are the half sums of positive roots for g respectively k.
+If M is a (g, K)-module, then D and D2 act on M ⊗ S, where S is the spin module
+for C(p). If M is a unitary (g, K)-module, we can tensor the inner product on
+M with the inner product on S (See [HP2, 2.3.9] for more details about the inner
+product on the spin module) to obtain an inner product on M ⊗S, with the property
+that D is self adjoint with respect to this inner product. It follows that D2 ≥ 0;
+this is Parthasarathy’s Dirac inequality mentioned above.
+Dirac inequality can be rewritten in more concrete terms using the formula (1.1)
+for D2 and the relation between Casimir actions and infinitesimal characters. As
+in the introduction of [PPST3] it can be easily shown that if L(λ) is unitary, then
+the inequality
+(1.2)                              kµ + ρk ≥ kλ + ρk,
+must hold for any K-type µ of L(λ).
+Proposition 1.3. [EHW, Proposition 3.9.] With the notation as above, L(λ) is
+unitary if and only if the inequality (1.2) holds strictly for any K-type µ 6= λ of
+L(λ).
+The problem with this approach is that it is difficult to determine all the K–types of
+L(λ). Luckily, it is enough to consider the so-called PRV components of the tensor
+products of the irreducible finite-dimensional k-module Fλ with highest weight λ
+and each K–type of the module S(p− ), the so-called Schmid modules, which are
+very well known (see [S], [PPST3]). More precisely, the following corollary holds
+(see [PPST3, Corollary 2.5] for the proof):
+Corollary 1.4. (1) Let s0 be a Schmid module such that for any Schmid module s
+of strictly lower level than s0 , the strict Dirac inequality
+(1.5)                       k(λ − s)+ + ρk2 > kλ + ρk2
+holds. (Here (λ − s)+ denotes the unique Wk –conjugate of λ − s). Furthermore,
+suppose that
+                         k(λ − s0 )+ + ρk2 < kλ + ρk2 .
+                         UNITARY HIGHEST WEIGHT MODULES                             3
+
+
+Then L(λ) is not unitary.
+(2) If (1.5) holds for all Schmid modules s, then N (λ) is irreducible and unitary.
+In [PPST3], we constructed all unitary highest weight modules in the discrete part
+of the classification via the Segal-Shale-Weil representation and its decompositions,
+tensor products and PRV products (see [PPST3, Definition 2.10.]). Unfortunately,
+in exceptional cases, we cannot construct unitary highest-weight modules in the
+discrete part via the PRV products. However, we give a shorter proof of [EHW,
+Proposition 12.6] in Section 6 using the theta correspondence. For the proof that
+all highest weight modules in the discrete part of the classification for the case E7
+are unitary see [EHW, Pages 139 and 140]). The situation is similar to the classical
+case in the sense that for E7 the proof of [EHW] uses the decomposition of the
+second tensor power of scalar unitarizable module from the discrete part.
+In the second part of the paper, we describe unitary highest-weight modules with
+given infinitesimal characters.
+
+                     2. Classification for so(2, 2n − 2), n ≥ 3
+In this case g is so(2n, C) and k is so(2n − 2, C) plus a one-dimensional center.
+We use standard coordinates and the standard positive root system. The positive
+compact roots are
+                             ǫi ± ǫj , 2 ≤ i < j ≤ n
+and the positive noncompact roots are
+                                  ǫ1 ± ǫj ,   2 ≤ j ≤ n.
+So the half sum of all positive roots is
+                                   ρ = (n − 1, . . . , 0)
+and a weight λ = (λ1 , . . . , λn ) is k-dominant if and only if
+                             λ2 ≥ λ3 ≥ · · · ≥ λn−1 ≥ |λn |.
+Integrality with respect to k amounts to λi ± λj ∈ Z for 2 ≤ i, j ≤ n.
+The highest (noncompact) root is β = ǫ1 + ǫ2 . There are just two basic Schmid
+representations, one with highest weight β and the other one with highest weight
+β2 = 2ǫ1 .
+The basic Dirac inequality for a PRV component with a Schmid module s is
+(2.1)                         k(λ − s)+ + ρk2 ≥ kλ + ρk2
+This is equivalent to
+(2.2)                              2hγ | λ + ρi ≤ kγk2
+where γ is defined by (λ − s)+ = λ − γ. Since every root has norm squared equal
+to 2, this is further equivalent to
+(2.3)                                hγ | λ + ρi ≤ 1.
+The Weyl group of k acts on weights by permuting coordinates λ2 , . . . , λn and
+changing an even number of their signs. It is because of these sign changes and
+spinor representations that we have to distinguish several cases. The following
+lemma was proved in [PPST1, Lemma 3.1.].
+4   PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+Lemma 2.4. The basic Dirac inequalitiy for s = β is given by
+                    λ1 ≤ 0 for λ = (λ1 , 0, . . . , 0)
+                    λ1 ≤ 3/2 − n for λ = (λ1 , 1/2, . . . , ±1/2)
+(2.5)
+              λ1 + λ2 ≤ 2 + p − 2n for λ = (λ1 , λ2 , . . . , λp , . . . , λn )
+                        where 1 ≤ λ2 = · · · = λp > λp+1 and 2 ≤ p ≤ n.
+We will refer to the first case as the scalar case, the second case is the spinor case
+and the remaining one is the general case. The following theorem gives a complete
+classification of unitary highest weight modules for SO(2, 2n − 2).
+Theorem 2.6. Non-scalar modules are unitarizabile if and only if (2.5) holds. If
+the inequality is satisfied strictly, the modules are irreducible Verma modules. In the
+scalar case, unitarizable highest weight modules are the trivial module, the Wallach
+module (2 − n, 0, . . . , 0) and irreducible Verma modules (λ1 , 0, . . . , 0), λ1 < 2 − n.
+Proof. In view of Corollary 1.4, the theorem follows from [PPST1, Theorems 3.5,
+3.6 and 3.7]. Namely, the only module which is not in the continuous part of its
+line, and is not at the end of the continuous part, is the trivial module, which is of
+course unitary.                                                                     
+
+                    3. Classification for so(2, 2n − 1), n ≥ 2
+In this case g is so(2n+1, C) and k is so(2n−1, C) plus a one-dimensional center. We
+use standard coordinates and standard positive root system. The positive compact
+roots are
+                       {ǫi ± ǫj | 2 ≤ i < j ≤ n} ∪ {ǫi | 2 ≤ i ≤ n}
+and the positive noncompact roots are
+                                {ǫ1 ± ǫj | 2 ≤ j ≤ n} ∪ {ǫ1 }
+So the half sum of all positive roots is
+                                        1     3         1
+                                ρ = (n − , n − , . . . , )
+                                        2     2         2
+and a weight λ = (λ1 , . . . , λn ) is k-dominant if and only if
+                                   λ2 ≥ λ3 ≥ · · · λn ≥ 0.
+Integrality with respect to k amounts to λi − λj ∈ Z and and 2λi ∈ N for all
+2 ≤ i, j ≤ n. The highest (noncompact) root is β = ǫ1 + ǫ2 . There are just two basic
+Schmid representations and the second one has the highest weight β2 = 2ǫ1 .
+The basic Dirac inequality for a PRV component with a Schmid module is
+(3.1)                          k(λ − s)+ + ρk2 ≥ kλ + ρk2
+This is equivalent to
+(3.2)                                2hγ | λ + ρi ≤ kγk2
+where γ is defined by (λ − s)+ = λ − γ.
+The Weyl group of k acts on weights by permuting coordinates λ2 , . . . , λn and
+changing signs on them. The following lemma was proved in [PPST1, Lemma 3.3.].
+                         UNITARY HIGHEST WEIGHT MODULES                                                   5
+
+
+Lemma 3.3. The basic Dirac inequalitiy for s = β is given by
+               λ1 ≤ 0                                                       for λ = (λ1 , 0, . . . , 0)
+               λ1 ≤ 1 − n                                             for λ = (λ1 , 1/2, . . . , 1/2)
+(3.4)
+        λ1 + λ2 ≤ 1 + p − 2n                       for λ = (λ1 , λ2 , . . . , λp , . . . , λn )
+                                   where 1 ≤ λ2 = · · · = λp > λp+1 and 2 ≤ p ≤ n.
+The following theorem follows from [PPST1, Theorems 3.8 and 3.9] and from Corol-
+lary 1.4.
+Theorem 3.5. Non-scalar modules are unitarizabile if and only if (3.4) holds. If
+the inequality is satisfied strictly, the modules are irreducible Verma modules. In the
+scalar case, unitarizable highest weight modules are the trivial module, the Wallach
+module (3/2−n, 0, . . . , 0) and irreducible Verma modules (λ1 , 0, . . . , 0), λ1 < 3/2−n.
+The above theorem gives a complete classification of unitary highest weight modules
+for SO(2, 2n − 1). Namely, the only module which is not in the continuous part of
+its line, and is not at the end of the continuous part, is the trivial module, which
+is of course unitary.
+
+                            4. Classification for e6(−14)
+We consider roots as vectors in a six-dimensional subspace of an eight-dimensional
+space (see [Kn]), precisely we will consider them as 8–tuples which have the same
+sixth and seventh coordinate, and the eight coordinate is equal to minus the sixth
+coordinate. The positive compact roots are
+                                   εi ± εj ,      5 ≥ i > j.
+and the positive noncompact roots are
+                                     5                                5
+                                                           !
+                1                    X
+                                               n(i)
+                                                                      X
+                    ε8 − ε7 − ε6 +         (−1)       εi       with         n(i) even.
+                2                    i=1                              i=1
+
+In this case
+                               ρ = (0, 1, 2, 3, 4, −4, −4, 4).
+The set of simple roots is
+Π = {α1 , α2 , α3 , α4 , α5 , α6 }
+    ß                                                                                             ™
+      1
+  =     (ε8 − ε7 − ε6 − ε5 − ε4 − ε3 − ε2 + ε1 ) , ε2 + ε1 , ε2 − ε1 , ε3 − ε2 , ε4 − ε3 , ε5 − ε4 .
+      2
+The numbering of simple roots in the Dynkin diagram is given by
+                                   Ç      å
+                                     13456
+                                            .
+                                       2
+The strongly orthogonal non-compact positive roots are (see [EJ])
+       Ç      å
+         12321                                        1
+ β1 =           = α1 + 2α3 + 3α4 + 2α5 + α6 + 2α2 = (1, 1, 1, 1, 1, −1, −1, 1) ,
+           2                                          2
+       Ç      å
+         11111                              1
+ β2 =           = α1 + α3 + α4 + α5 + α6 = (−1, −1, −1, −1, 1, −1, −1, 1).
+           0                                2
+6    PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+The highest weight (g, K)–modules have highest weights of the form
+    λ = (λ1 , λ2 , λ3 , λ4 , λ5 , λ6 , λ6 , −λ6 ),   |λ1 | ≤ λ2 ≤ λ3 ≤ λ4 ≤ λ5 ,
+                                                     λi − λj ∈ Z, 2λi ∈ Z,           i, j ∈ {1, 2, 3, 4, 5}
+The basic Schmid k–modules in S(p− ) have lowest weights −si , i = 1, 2, where
+                                        1
+                              s 1 = β1 =  (1, 1, 1, 1, 1, −1, −1, 1) ,
+                                        2
+                              s2 = β1 + β2 = (0, 0, 0, 0, 1, −1, −1, 1).
+The basic necessary condition for unitarity is the Dirac inequality
+                                    ||(λ − s1 )+ + ρ||2 ≥ ||λ + ρ||2 .
+The following theorem follows from [PPST2, Theorems 2.1, 2.2, and 2.3] and from
+Corollary 1.4.
+Theorem 4.1. If λ = (0, 0, 0, 0, 0, λ6, λ6 , −λ6 ), then L(λ) is unitarizable if and
+only if λ6 ≥ 2 or λ6 = 0 (in this case L(λ) is trivial). If λ6 > 2, then L(λ) = N (λ).
+If λ = (0, 0, 0, 0, λ5, λ6 , λ6 , −λ6 ), where λ5 6= 0, then L(λ) is unitarizable if 3λ6 −
+λ5 ≥ 14 and L(λ) is not unitarizable if 3λ6 − λ5 ∈ h−∞, 14i \ {8}. If 3λ6 − λ5 > 14,
+then L(λ) = N (λ).
+If λ is such that (λ1 , λ2 , λ3 , λ4 ) 6= (0, 0, 0, 0), then L(λ) is unitarizable if and only
+if the basic Dirac inequality
+                                     ||(λ − s1 )+ + ρ||2 ≥ ||λ + ρ||2
+holds. If the strict basic Dirac inequality holds, then L(λ) = N (λ).
+The only modules that are not in the continuous part of their lines, and are not at
+the end of the continuous part, are the trivial module, which is of course unitary, and
+a series of modules of the form L(0, 0, 0, 0, 3λ6 − 8, λ6 , λ6 , −λ6 ), such that 3λ6 − 8
+is a positive integer. These modules are also unitary. This follows from [EHW,
+Corollary 12.6.] where the authors verified (1.2) directly on all K-types. We will
+give a shorter proof in Section 6.
+
+                                   5. Classification for e7(−25)
+We consider roots as vectors in a seven-dimensional subspace of an eight-dimensional
+space (see [Kn]), precisely we will consider them as 8–tuples which have the eighth
+coordinate equal to minus the seventh coordinate. The positive compact roots are
+                                               5                     5
+                                                           !
+                           1                  X
+                                                      n(i)
+                                                                    X
+   εi ± εj , 5 ≥ i > j,        ε8 − ε7 − ε6 +     (−1) εi with          n(i) even.
+                           2                  i=1                   i=1
+
+and the positive noncompact roots are
+                                                                5                               5
+                                                                                     !
+                                          1                     X
+                                                                         n(i)
+                                                                                                X
+ε6 ±εi ,     1 ≤ i ≤ 5,       ε8 −ε7 ,         ε8 − ε7 + ε6 +         (−1)      εi       with         n(i) odd.
+                                          2                     i=1                             i=1
+
+In this case                           Å                         ã
+                                                           17 17
+                                    ρ = 0, 1, 2, 3, 4, 5, − ,      .
+                                                           2 2
+                            UNITARY HIGHEST WEIGHT MODULES                                 7
+
+
+The set of simple roots is
+Π = {α1 , α2 , α3 , α4 , α5 , α6 , α7 }
+    ß                                                                                                       ™
+      1
+  =     (ε8 − ε7 − ε6 − ε5 − ε4 − ε3 − ε2 + ε1 ) , ε2 + ε1 , ε2 − ε1 , ε3 − ε2 , ε4 − ε3 , ε5 − ε4 , ε6 − ε5 .
+      2
+The numbering of simple roots in the Dynkin diagram is given by
+                                        Ç       å
+                                          134567
+                                                  .
+                                            2
+The strongly orthogonal non-compact positive roots are (see [EJ])
+     Ç       å
+       234321
+β1 =            = 2α1 + 3α3 + 4α4 + 3α5 + 2α6 + α7 + 2α2 = (0, 0, 0, 0, 0, 0, −1, 1) ,
+         2
+     Ç       å
+       012221
+β2 =            = α3 + 2(α4 + α5 + α6 ) + α7 + α2 = (0, 0, 0, 0, 1, 1, 0, 0) ,
+         1
+β3 = α7 = (0, 0, 0, 0, −1, 1, 0, 0) .
+The basic Schmid k–modules in S(p− ) have lowest weights −si , i = 1, 2, 3, where
+                         s1 = β1 = (0, 0, 0, 0, 0, 0, −1, 1) ,
+                         s2 = β1 + β2 = (0, 0, 0, 0, 1, 1, −1, 1) ,
+                         s3 = β1 + β2 + β3 = (0, 0, 0, 0, 0, 2, −1, 1) .
+The highest weight (g, K)–modules have highest weights of the form
+           λ = (λ1 , λ2 , λ3 , λ4 , λ5 , λ6 , λ7 , −λ7 ),   |λ1 | ≤ λ2 ≤ λ3 ≤ λ4 ≤ λ5 ,
+         λi − λj ∈ Z, 2λi ∈ Z, 1 ≤ i ≤ j ≤ 5
+         1
+           (λ8 − λ7 − λ6 − λ5 − λ4 − λ3 − λ2 + λ1 ) ∈ N0 .
+         2
+The basic necessary condition for unitarity is the Dirac inequality
+                                 ||(λ − s1 )+ + ρ||2 ≥ ||λ + ρ||2 .
+The following theorem follows from [PPST2, Theorems 2.4, 2.5, and 2.6] and from
+Corollary 1.4.
+Theorem 5.1. If λi = 0, i ∈ {1, 2, 3, 4, 5}, λ6 = −2λ7 , then L(λ) is unitarizable if
+λ7 ≥ 4 or λ7 = 0 (in this last case L(λ) is trivial) and L(λ) is not unitarizable in
+case λ7 ∈ h−∞, 0i ∪ h0, 2i ∪ h2, 4i. If λ7 > 4, then L(λ) = N (λ).
+If λi = 0, i ∈ {1, 2, 3, 4}, λ5 > 0, −λ5 − λ6 − 2λ7 = 0, then L(λ) is unitarizable
+if λ7 ≥ 6 and L(λ) is not unitarizable if λ7 ∈ h−∞, 6i \ 4. If λ7 > 6, then
+L(λ) = N (λ).
+In all other cases L(λ) is unitarizable if and only if the basic Dirac inequality
+                                 ||(λ − s1 )+ + ρ||2 ≥ ||λ + ρ||2
+holds. If the strict basic Dirac inequality holds, then L(λ) = N (λ).
+The only modules that are not in the continuous part of their lines, and are not at
+the end of the continuous part, are the trivial module, which is of course unitary,
+the Wallach module L(0, 0, 0, 0, 0, −4, 2, −2) and a series of modules of the form
+L(0, 0, 0, 0, λ5, −λ5 − 8, 4, −4), such that λ5 is a positive integer. These modules
+are also unitarizable. For a proof, we refer to [EHW, Pages 139 and 140].
+8   PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+                                6. An E6 dual pair
+6.1. Minimal representation of E7 . Let g be a split (complex) Lie algebra of
+type E7 . We fix a root space decomposition of g. We identify the root system
+to the one from Bourbaki tables. It sits in the hyperplane in R8 perpendicular to
+e7 + e8 . Positive roots are
+                         ±ei + ej , (1 ≤ i < j ≤ 6), e8 − e7
+and
+                                  6                      6
+                    1            X                      X
+                      (e8 − e7 +     (−1)ν(i) ei ) with     ν(i) odd
+                    2            i=1                    i=1
+We identify roots and co-roots so that the natural pairing between root and co-root
+lattices are given by the usual dot product. Let
+                                        1
+                              z = e6 + (e8 − e7 ) ∈ g
+                                        2
+be the 7-th fundamental co-weight for E7 . The 7-th fundamental weight is minus-
+cule, thus the adjoint action of z om g gives a short Z-grading
+                                    g = n̄ ⊕ m ⊕ n
+where m is the centralizer of z and n is spanned by roots α such that α(z) = 1.
+These roots are
+                          ±ei + e6 , (1 ≤ i < 6), e8 − e7
+and
+                                    5                      5
+                 1                 X                      X
+                   (e8 − e7 + e6 +     (−1)ν(i) ei ) with     ν(i) odd.
+                 2                 i=1                    i=1
+The derived algebra m1 = [m, m] is of type E6 and m = m1 + Cz. Observe that the
+centralizer of m in g is Cz, thus (m, Cz) is a dual pair in g.
+Let En [m] denote the irreducible representation of m such that, as a representation
+of m1 , the highest weight is n̟1 where
+                                      2
+                               ̟1 =     (e8 − e7 − e6 ),
+                                      3
+and z acts by multiplication by m. Observe that n ∼      = E1 [1]. The minimal rep-
+resentation is an irreducible, unitarizable (g, M )-module with types [SS, Theorem
+C]
+                                Π = ⊕∞  n=0 En [n + 6].
+This module itself is a correspondence between Cz-modules and m1 -modules. On
+the level of infinitesimal characters this is
+                                 n ↔ ρ + (n − 6)̟1 .
+
+6.2. A branching. Let
+                              h = 2(e8 − e7 − e6 ) ∈ m1
+Let l be the centralizer of h in m1 . Then l = l1 + Ch where l1 = [l, l] is of type D6
+with positive roots
+                              ±ei + ej , (1 ≤ i < j ≤ 5).
+                          UNITARY HIGHEST WEIGHT MODULES                                     9
+
+
+Consider n as an l = l1 + Ch-module. Using h-grading, we have an ugly decompo-
+sition,
+                               n = Vλ (−2) ⊕ Vµ (1) ⊕ C(4)
+where the action of h is given by the integer in the parenthesis. The summands
+are, respectively, of dimension 10, 16 and 1, as one checks that they are spanned
+by roots
+                                   ±ei + e6 , (1 ≤ i ≤ 5),
+
+                                      5                      5
+                   1                 X                      X
+                     (e8 − e7 + e6 +     (−1)ν(i) ei ) with     ν(i) odd,
+                   2                 i=1                    i=1
+
+
+                                        and e8 − e7 .
+Here λ and µ are the highest weights of the miniscule l1 -modules of dimensions 10
+and 16, respectively.
+
+6.3. Another dual pair. Let W be the Weyl group of g. Recall that −1 ∈ W .
+Let
+                                   1
+                        z ′ = −e6 + (e8 − e7 ) ∈ g.
+                                   2
+It is a Weyl group conjugate of z, more precisely, apply −1 followed by the reflection
+about e8 − e7 . Thus the adjoint action of z on g gives a short Z-grading
+
+                                      g = n̄′ ⊕ m′ ⊕ n′
+
+where m′ is the centralizer of z ′ and n′ is spanned by roots α such that α(z ′ ) = 1.
+These roots are
+                              ±ei − e6 , (1 ≤ i < 5), e8 − e7
+and
+                                     5                      5
+                  1                 X                      X
+                    (e8 − e7 − e6 +     (−1)ν(i) ei ) with     ν(i) even.
+                  2                 i=1                    i=1
+
+The derived algebra m′1 = [m′ , m′ ] is of type E6 , m′ = m′1 + Cz ′ and (m′ , Cz ′ ) is a
+dual pair in g.
+Let
+                                h′ = 2(e8 − e7 + e6 ) ∈ m′1 .
+Let l′ be the centralizer of h′ in m′1 . Then l′ = l′1 + Ch′ where l′1 = [l′ , l′ ]. Since z, h
+and z ′ , h′ span the same two-dimensional space, it is clear that l′1 = l1 .
+We record some relations for later use.
+
+                       h + h′ = 4(z + z ′ ) and h′ − h = 2(z − z ′ )
+
+                              h′ = 3z + z ′ and h = 3z ′ + z.
+10 PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+6.4. An exceptional theta correspondence. Write
+                                M
+                            Π=     Π[m − 2]′
+                                       m∈Z
+
+where Π[m − 2]′ is the summand where z ′ acts by multiplication by m − 2. This is
+clearly a unitarizable (m′1 , l′ )-module. Since z has only positive eigenvalues,
+                                  h′ = 3z + z ′ ≥ z ′ ,
+thus Π[m − 2]′ are lowest weight modules. We shall determine their type structure
+and prove that they are irreducible.
+Consider n as an l1 + Cz ′ -module. Since
+                                     3z ′ = −z + h
+we have a nice decomposition,
+                     E1 [1] ∼
+                            = n = Vλ [−1]′ ⊕ Vµ [0]′ ⊕ C[1]′
+where the action of z ′ is given by the integer in the parenthesis. We shall need the
+following branching rule, Lemma 5.5.1 in [L].
+Lemma 6.1. As l1 + Cz ′ -module, En [n] is a sum
+                                   Vaλ+bµ [−a + c]′
+over all non-negative integers a + b + c = n.
+Using the lemma, the types of Π[m − 2]′ are easily determined. In view of the
+relation 3z ′ = h − z, when restricting from En [n + 6], the factor [−a + c]′ needs to
+be replaced by [−a + c − 2]′ . Thus
+                                                                 ′
+            Π[m − 2]′ = ⊕∞
+                         n=0 ⊕a+b+c=n,−a+c=m Vaλ+bµ (3n + m + 16)
+
+where the integer in the last parenthesis denotes the action of h′ = 3z + z ′ . (Note
+that z ′ = m − 2 on Π[m − 2]′ and z = n + 6 on En [n + 6].)
+We now explicate minimal types. There are two cases. Assume m ≥ 0. Then the
+first type of Π[m − 2]′ appears in the restriction of Em [m + 6] and it is for a = b = 0
+and c = m. Thus this is the one-dimensional type
+                                     C(4m + 16)′ .
+Assume m ≤ 0. Then the first type of Π[m − 2]′ appears in the restriction of
+E|m| [|m| + 6] and it is for a = |m| and b = c = 0. Thus the minimal type is
+                                  V|m|λ (2|m| + 16)′ .
+
+Proposition 6.2. Π[m − 2]′ are irreducible.
+Proof. By the matching of infinitesimal characters for the correspondence all sub-
+modules of Π[m − 2]′ have the same infinitesimal character. By replacing h by −h,
+we can pass to the language of highest weight modules. Let χ be the highest weight
+of Π[m − 2]′ . The infinitesimal character is χ + ρ. Let Fµ be a type in Π[m − 2]′
+generating a proper submodule, if any. Then its infinitesimal character is µ + ρ.
+Since µ are known, we can check that ||χ + ρ|| < ||µ + ρ|| for all µ 6= χ. Hence the
+submodule would have a different infinitesimal character, a contradiction.
+                                                                                  
+                                  UNITARY HIGHEST WEIGHT MODULES                                     11
+
+
+6.5. Application. Firstly we rephrase our result in terms of E6 centralized by z.
+(We remove ′ everywhere.) For every integer k ≥ 0 we have a unitarizable module
+Π[−k − 2] with the lowest h-weight 2k + 16 and the corresponding minimal l1 -type
+Vkλ where Vλ is the 10-dimensional representation. Replacing h by −h we have the
+highest weight −2k − 16.
+On the other hand we want to prove unitarity of the module with the highest weight
+                                        χ = (0, 0, 0, 0, k, l, l, −l)
+with 3l − k = 8. The minimal l1 -type is Vkλ and the highest h-weight is
+                   χ(h) = −2l − 2l − 2l = −6l = −2(k + 8) = −2k − 16.
+Thus this module is isomorphic to the unitarizable module Π[−k − 2].
+
+7. Unitary highest weight modules with fixed infinitesimal character
+7.1. The case of so(2, 2n − 2), n ≥ 3. Recall that ρ = (n − 1, n − 2, . . . , 0) and
+that all k-dominant weights λ are of the form
+                                          λ = (λ1 , λ2 , . . . , λn ),
+where λ2 ≥ λ3 . . . ≥ λn−1 ≥ |λn |. Since we also assume that λ is k–integral, we have
+λi ± λj ∈ Z for 2 ≤ i, j ≤ n, or equivalently, λ2 , . . . , λn ∈ Z or λ2 , . . . , λn ∈ 21 + Z.
+By definition, the parameter of the irreducible highest weight (g, K)–module L(λ)
+is Λ = λ + ρ. It is a particular representative of the infinitesimal character of
+L(λ). We will denote by Λdom the g–dominant representative of the infinitesimal
+character Λ, i.e., we have
+                                  Λdom
+                                   1   ≥ Λdom
+                                          2   ≥ . . . ≥ Λdom     dom
+                                                         n−1 ≥ |Λn |.
+
+All parameters Λ corresponding to highest weight (g, K)–modules must be domi-
+nant regular for k, i.e
+                         Λ2 > Λ3 > . . . > Λn−1 > |Λn |.
+Recall that Theorem 2.6 implies that L(λ) is unitary if and only if λ is of the form
+                 (λ1 , 0, . . . , 0),                            λ1 = 0 or λ1 ≤ 2 − n
+                 Å                      ã
+                        1             1                                            3
+                   λ1 , , . . . , ±       ,                                 λ1 ≤     −n
+                        2             2                                            2
+or
+       (λ1 , λ2 , . . . , λn ),     1 ≤ λ2 = · · · = λp > λp+1 ,         λ1 + λ2 ≤ 2 + p − 2n,
+for some p ∈ {2, . . . , n}.
+In terms of the corresponding parameter Λ = λ + ρ, L(λ) is unitary if and only if
+Λ is of the form
+              (Λ1 , n − 2, . . . , 1, 0),                           Λ1 = n − 1 or Λ1 ≤ 1
+              Å                           ã
+                         3           3 1                                                   1
+                Λ1 , n − , . . . , , ±      ,                                      Λ1 ≤
+                         2           2 2                                                   2
+or
+        (Λ1 , Λ2 , . . . , Λn ), n − 1 ≤ Λ2 ,          Λi+1 = Λi − 1,       i ∈ {2, . . . , p − 1}
+                                     Λp+1 ≤ Λp − 2,         Λ1 + Λ2 ≤ p − 1.
+for some p ∈ {2, . . . , n}.
+12 PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+We want to fix Λdom and describe a criterion for a parameter Λ conjugate to Λdom
+to be unitary.
+Note that in order to have any k-dominant regular integral Weyl group conjugates,
+                                                              dom
+Λdom must contain at least n − 1 coordinates, Λdom
+                                                i1 , . . . , Λin−1 , so that
+
+                                                                      dom       1
+(7.1)           either Λdom           dom
+                        i1 , . . . , Λin−1 ∈ Z      or Λdom
+                                                        i1 , . . . , Λin−1 ∈      + Z;
+                                                                                2
+                                                dom
+                Λdom
+                 i1  > Λdom
+                        i2  > · · · > Λdom
+                                       in−2 > |Λin−1 |.
+
+There are now two cases:
+                                                                  dom
+Case 1. Λdom contains n − 1 coordinates Λdom        i1 , . . . , Λin−1 satisfying (7.1), and
+                                                                                   dom
+another coordinate x, so that x is either not congruent to Λdom      i1 , . . . , Λin−1 modulo
+                          dom           dom      dom
+Z, or is equal to one of Λi1 , . . . , Λin−2 , ±Λin−1 .
+Case 2. The coordinates of Λdom are either all in Z or all in 21 + Z, and they satisfy
+(7.2)                      Λdom
+                            1   > Λdom
+                                   2   > · · · > Λdom     dom
+                                                  n−1 > |Λn |.
+
+
+
+We start by examining Case 1. The assumption implies that the only k-dominant
+regular integral conjugates of Λdom are
+                              dom     dom                    dom           dom      dom
+(7.3) Λ = (x | Λdom
+                i1 , . . . , Λin−2 , Λin−1 ) and Λ̃ = (−x | Λi1 , . . . , Λin−2 , −Λin−1 ).
+
+The answer to the unitarity question for Λ and Λ̃ is the following result.
+Theorem 7.4. Assume Λdom is in Case 1 and let Λ, Λ̃ be the two possible conjugates
+of Λdom described in (7.3). Then
+    (1) Suppose that
+                                            dom
+                             Λdom
+                              i1 , . . . , Λin−1 = n − 2, . . . , 1, 0,
+
+        so that Λ and Λ̃ are both in the scalar case. Then Λ is unitary if and only
+        if 0 ≤ x ≤ 1, while Λ̃ is unitary if and only if x ≥ 0.
+    (2) (a) Suppose that
+                                        dom       3         3 1
+                        Λdom
+                          i1 , . . . , Λin−1 = n − , . . . , , ,
+                                                  2         2 2
+        so Λ and Λ̃ are both in the spinor case. Then Λ is unitary if and only if
+        − 21 ≤ x ≤ 12 while Λ̃ is unitary if and only if x ≥ − 21 .
+            (b) If
+                                        dom         3       3 1
+                         Λdom
+                          i1 , . . . , Λin−1 = n − , . . . , , − ,
+                                                    2       2 2
+        so that Λ and Λ̃ are again both in the spinor case, then Λ is unitary if
+        and only if x = 12 , which is already covered in (a), as Λ̃ for x = − 21 .
+        Furthermore, Λ̃ is unitary if and only if x ≥ 12 ; here the case x = 12 is
+        already covered in (a), as Λ for x = − 21 .
+                                      dom                                       3           3     1
+    (3) Suppose that Λdom
+                        i1 , . . . , Λin−1 are neither n−2, . . . , 1, 0 nor n− 2 , . . . , 2 , ± 2 ,
+        so that Λ and Λ̃ are both in the general case. Let p, p̃ ∈ {2, . . . , n} be the
+        integers corresponding to Λ, Λ̃ (or rather to λ = Λ − ρ, λ̃ = Λ̃ − ρ) as in
+        Theorem 2.6.
+            If x > 0, then Λ is not unitary, while the unitarity of Λ̃ is equivalent to
+        −x + Λdomi1  ≤ p̃ − 1.
+                           UNITARY HIGHEST WEIGHT MODULES                                       13
+
+
+            If x < 0, then Λ̃ is not unitary, while the unitarity of Λ is equivalent to
+         x + Λdom
+               i1  ≤ p − 1.
+            If x = 0, then Λ and Λ̃ are both nonunitary.
+Proof. (1) Note first that x must be ≥ 0. By the unitarity criterion of Theorem
+2.6, Λ is unitary if and only x ≤ 1, so that 0 ≤ x ≤ 1 (x can not be n − 1 since we
+are assuming Λdom is in Case 1). On the other hand, unitarity of Λ̃ is equivalent
+to −x ≤ 1, which is automatic since x ≥ 0. This proves (1).
+                                   1                  1
+(2) (a) Note first that Λdom
+                           in−1 = 2 implies x ≥ − 2 . By the unitarity criterion of
+Theorem 2.6, Λ is unitary if and only if x ≤ 12 ; so − 21 ≤ x ≤ 12 . On the other hand,
+unitarity of Λ̃ is equivalent to −x ≤ 21 , which is automatic since x ≥ − 12 .
+                              1                       1
+(b) In this case Λdom
+                    in−1 = − 2 , which implies x ≥ 2 . By the unitarity criterion of
+Theorem 2.6, Λ is unitary if and only if x ≤ 21 , which is only possible if x = 21 . On
+the other hand, unitarity of Λ̃ is equivalent to −x ≤ 12 , which is automatic since
+x ≥ 21 . This proves (2).
+(3) The assumptions imply that
+                                                                dom
+(7.5)               Λdom
+                       i1   ≥ n − 1 if Λdom     i1 , . . . , Λin−1 ∈ Z,           and
+                                  1                              dom       1
+                    Λdom
+                       i1   ≥n−         if Λdom  i1 , . . . , Λin−1 ∈         + Z.
+                                  2                                        2
+                                                                                            dom
+Moreover, since Λdom is g-dominant, Λdom         in−1 < 0 implies x > 0, and Λin−1 ≥ 0
+implies x ≥ −Λdom
+                in−1 .
+Since Λ and Λ̃ are both in the general case, the unitarity conditions are x + Λdom             i1 ≤
+                             dom                                                dom
+p − 1 respectively −x + Λi1 ≤ p̃ − 1. This, together with Λi1 ≥ n − 1 (which
+follows from (7.5)), and with p, p̃ ≤ n, implies that Λ is not unitary if x > 0 and
+that Λ̃ is not unitary if x < 0.
+If x > 0, then the unitarity of Λ̃ is equivalent to −x + Λdom             i1    ≤ p̃ − 1 by Theorem
+2.6.
+If x < 0, then the unitarity of Λ is equivalent to x + Λdom         i1     ≤ p − 1 by Theorem 2.6.
+                                                      dom       dom
+Finally, suppose that x = 0. If Λdomi1    , . . . , Λ in−2 , Λ  in−1  are    in Z, then x must be a
+                                               dom
+repeated coordinate, so it follows that Λin−1 = 0. (In particular, Λ = Λ̃ and p = p̃.)
+Since Λdom
+         i1  ≥ n − 1, this forces p < n, so x + Λdom         i1    = Λdomi1    ≥ n − 1 > p − 1 and
+                              dom        dom         dom               1
+Λ = Λ̃ is not unitary. If Λi1 , . . . , Λin−2 , Λin−1 are in 2 + Z, then it follows from
+(7.5) that x + Λdom
+                 i1   = Λdom
+                          i1   ≥ n − 12 > n − 1. Since p and p̃ are both ≤ n, it follows
+that Λ and Λ̃ are both nonunitary.                                                                
+We now handle the remaining case, Case 2. The result is
+Theorem 7.6. Let Λdom be as in Case 2.
+  (1) Suppose that
+                        Λdom = (Λdom   1   , n − 2, . . . , 1, 0),
+      with Λ1 ∈ Z, Λ1 ≥ n − 1. If Λdom
+            dom       dom
+                                              1   = n − 1, then the unitary conjugates
+      of Λdom = (n − 1, n − 2, . . . , 1, 0) are
+                        (n − 1 | , n − 2, . . . , 1, 0),          and
+                                                  ’
+                        (−n + i | n − 1, . . . , n − i, . . . , 0), i = 1, . . . , n
+         where the hat denotes that the coordinate is omitted.
+14 PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+              If Λdom
+                  1   ≥ n, then the only unitary conjugate of Λdom is
+                                       (−Λdom
+                                          1   | n − 2, . . . , 1, 0).
+     (2) Suppose that
+                                                          3      3 1
+                         Λdom = (Λdom     1      , n − , . . . , , ± ),
+                                                          2      2 2
+                                                             1
+          with Λ1dom   1
+                     ∈ 2 + Z and Λ1       dom
+                                                  ≥ n − 2 . If Λdom 1   ≥ n + 12 , then the only
+                                                      dom
+          unitary parameter conjugate to Λ                  is
+                                                      3        3 1
+                              (−Λdom
+                                   1       | n − , . . . , , ∓ ).
+                                                      2        2 2
+          If Λdom = (n − 12 , n − 32 , . . . , 32 , 12 ), then the unitary parameters conjugate
+          to Λdom are (−n + 21 | n − 23 , . . . , 32 , − 21 ) and
+
+                   1         1        Ÿ1                    3 1
+        (−(n − i + ) | n − , . . . , n − i + , . . . , , − ), i = 2, 3, . . . , n − 1.
+                   2         2                    2         2 2
+              dom        1       3           3     1
+         If Λ     = (n − 2 , n − 2 , . . . , 2 , − 2 ), then the unitary parameters conjugate
+         to Λdom are (−n + 21 | n − 23 , . . . , 32 , 12 ),
+
+                          1        1            Ÿ            1     3 1
+         (−(n − i + ) | n − , . . . , n − i + , . . . , , ), i = 2, 3, . . . , n − 1,
+                          2        2                         2     2 2
+          and (− 21 | n − 21 , n − 23 , . . . , 32 ).
+     (3) Suppose that Λdom is not as in (1) or (2), i.e., Λdom                  2  , . . . , Λdom
+                                                                                              n   are not
+          n − 2, . . . , 1, 0 or n − 23 , . . . , 32 , ± 21 . Suppose further that Λdom is of the form
+(7.7)                   Λdom = (a, a − 1, . . . , a − q + 1, Λdom          dom
+                                                              q+1 , . . . Λn ),
+
+          with |Λdom
+                 q+1 | ≤ a − q − 1, for some q such that 1 ≤ q ≤ n − 1. Then the
+          unitary parameters conjugate to Λdom are
+ (−a + i | a, a − 1, . . . , a‘
+                              − i, . . . , a − q + 1, Λdom             dom
+                                                       q+1 , . . . , −Λn ),              i = 0, . . . , q − 1.
+                 dom
+          If Λ         is of the form
+(7.8)                    Λdom = (a, a − 1, . . . , a − n + 2, ±(a − n + 1))
+          (with a ≥ n so that Λdom is not as in (1) or (2)), then the unitary param-
+          eters conjugate to Λdom are
+   (−a + i | a, a − 1, . . . , a‘
+                                − i, . . . , a − n + 2, ∓(a − n + 1)),                i = 0, . . . , n − 2,
+          and in case Λdom = (a, . . . , a − n + 2, −(a − n + 1)) also (−(a − n + 1) | a, a −
+          1, . . . , a − n + 2).
+Proof. (1) The parameter (Λdom         1      | n − 2, . . . , 1, 0) is in the scalar case, and by
+Theorem 2.6 it is unitary if Λdom        1       = n − 1 and nonunitary if Λdom         1       ≥ n, while
+(−Λ1 | n − 2, . . . , 1, 0) is unitary for any Λdom
+    dom
+                                                         1     .  The  other  possible   Λ    for this Λdom
+are
+(7.9)
+(n − i | Λdom
+          1
+                               ’
+              , n − 2, . . . , n − i, . . . , 0) and (−n + i | Λdom      1
+                                                                                              ’
+                                                                             , n − 2, . . . , n − i, . . . , 0),
+where i ∈ {2, . . . , n}, and the hat denotes that the coordinate is omitted. All of
+these Λ are in the general case.
+                           UNITARY HIGHEST WEIGHT MODULES                                     15
+
+
+If Λdom1     = n − 1, then p = i for both Λ in (7.9). For Λ = (n − i | n − 1, n −
+           ’
+2, . . . , n − i, . . . , 0), we can assume that i < n (if i = n then the two Λ in (7.9) are
+equal). Then we have
+                          Λ1 + Λ2 = 2n − i − 1 > i − 1 = p − 1,
+                                                                      ’
+and the module is nonunitary. For Λ = (−n + i | n − 1, n − 2, . . . , n − i, . . . , 0),
+                                  Λ1 + Λ2 = i − 1 = p − 1,
+so the module is unitary.
+If Λdom
+    1   ≥ n, then p = 2 for both Λ in (7.9). Then Λdom
+                                                   1   ±(n−i) ≥ i ≥ 2 > 1 = p−1,
+so both Λ in (7.9) are nonunitary. This proves (1).
+(2) The first two conjugates of Λdom we examine are
+                     3         3 1                         3         3 1
+      Λ = (Λdom
+            1   | n − , . . . , , ± ) and Λ̃ = (−Λdom
+                                                  1   | n − , . . . , , ∓ ).
+                     2         2 2                         2         2 2
+Since Λ and Λ̃ are both in the spinor case, Theorem 2.6 implies that Λ is not
+unitary, while Λ̃ is unitary.
+The next conjugates of Λdom we examine are
+                           1 dom         3        Ÿ1               3 1
+             Λ = (n − i +    | Λ1 , n − , . . . , n − i + , . . . , , ± )      and
+                           2             2                2        2 2
+                               1            3         Ÿ1               3 1
+             Λ̃ = (−(n − i + ) | Λdom
+                                  1   , n − , . . . , n − i + , . . . , , ∓ ),
+                               2            2                 2        2 2
+where i ∈ {2, 3, . . . , n− 1}. Now Λ and Λ̃ are both in the general case, and Theorem
+2.6 says that their unitarity depends on the corresponding integers p and p̃. Since
+n − i + 12 is taken out of the (i + 1)st place, p and p̃ are both ≤ i. If Λdom
+                                                                           1   ≥ n + 21 ,
+it follows that
+                                 1                1             1
+                    ±(n − i + ) + Λdom1    ≥ n + − (n − i + ) = i
+                                 2                2             2
+which is > p − 1 and > p̃ − 1, so Λ and Λ̃ are both nonunitary. If however
+Λdom
+ 1   = n − 21 , then p = p̃ = i, and while n − i + 21 + Λdom
+                                                         1   is still > p − 1,
+                      1              1          1
+             −(n − i + ) + Λdom
+                            1   = n − − (n − i + ) = i − 1 = p − 1
+                      2              2          2
+so Λ̃ is unitary.
+The remaining conjugates of Λdom = (Λdom
+                                     1   , n − 32 , . . . , 23 , 21 ) are
+          1            3       5 3                      1              3      5 3
+     Λ = ( | Λdom ,n− ,..., , )         and     Λ̃ = (− | Λdom   , n − , . . . , − ).
+          2 1          2       2 2                      2 1            2      2 2
+They again belong to the general case, and Λ is nonunitary since 21 + Λdom
+                                                                         1     ≥n>
+p − 1. On the other hand, Λ̃ has a gap at the last coordinate, so p̃ < n and so
+                             1
+                          − + Λdom 1  ≥ n − 1 > p̃ − 1,
+                             2
+and we see that Λ̃ is also nonunitary.
+Suppose now that Λdom = (Λdom 1      , n− 23 , . . . , 32 , − 12 ). Then the remaining conjugates
+of Λdom are
+            1              3          3                          1             3        5 3
+     Λ = (− | Λdom    , n − , . . . , ) and Λ̃ = ( | Λdom                , n − , . . . , , − ).
+            2 1            2          2                          2 1           2        2 2
+16 PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+They are in the general case, and Λ̃ is nonunitary because as before p̃ ≤ n − 1 and
+1    dom
+2 + Λ1   ≥ n. On the other hand,
+                                     1
+(7.10)                              − + Λdom
+                                         1   ≥n−1≥p−1
+                                     2
+and the inequality is strict (making Λ nonunitary) unless Λdom1    = n − 12 , in which
+case (7.10) is an equality and so Λ is unitary. This finishes the proof of (2).
+(3) Note first that the condition (7.2) together with the fact that coordinates of
+Λdom do not include n − 2, . . . , 1, 0 or n − 23 , . . . , 23 , ± 21 implies that
+
+(7.11)                                      Λdom
+                                             1   ≥ n.
+This immediately implies that the conjugates Λ = Λdom and
+
+        Λ = (Λdom | Λdom , Λdom      ’
+                                ,...,Λ dom , . . . , Λdom , Λdom ),         2 ≤ j ≤ n − 1,
+              j      1      2          j              n−1    n
+
+of Λdom are all nonunitary. On the other hand,
+                              Λ = (Λdom
+                                    n   | Λdom
+                                           1   , Λdom
+                                                  2   , . . . , Λdom
+                                                                 n−1 )
+
+is nonunitary if Λdom
+                   n  ≥ 0, since in that case Λdom
+                                               n   +Λdom
+                                                     1   ≥ n > pΛ −1. If Λdom
+                                                                           n    < 0,
+                                        dom     dom
+then unitarity of Λ is equivalent to Λn + Λ1        = Λ1 − |Λdom
+                                                       dom
+                                                                n | ≤ pΛ − 1, but
+since by (7.2) Λdom
+                 1   − |Λdom
+                         n | ≥ n − 1, this is equivalent to Λ
+                                                              dom
+                                                                  being of the form
+(7.8), with last coordinate negative.
+It remains to consider conjugates
+
+   Λ(j) = (−Λdom | Λdom , Λdom     ’
+                               ,...Λ dom , . . . , Λdom , −Λdom ),             2 ≤ j ≤ n − 1,
+             j      1      2         j              n−1     n
+
+and
+                        Λ = (−Λdom
+                               n   | Λdom
+                                      1   , Λdom
+                                             2   , . . . , Λdom     dom
+                                                            n−2 , −Λn−1 )
+
+of Λdom . If Λdom is as in (7.7), then for j ≤ q, setting i = j − 1, we see that for
+
+       Λ(j) = (−a + i | a, a − 1, . . . , a‘
+                                           − i, . . . , a − q + 1, Λdom            dom     dom
+                                                                    q+1 , . . . , Λn−1 , −Λn ),
+
+                      (j)     (j)
+pΛ(j) = i + 1, so Λ1 + Λ2 = −a + i + a = i = pΛ(j) − 1, so Λ(j) is unitary. If on the
+                                        (j)   (j)
+other hand j > q, then pΛ(j) = q and Λ1 + Λ2 = −Λdom   j   + a ≥ q + 1 > pΛ(j) − 1,
+so Λ(j) is not unitary.
+Finally, suppose that Λdom is as in (7.8). Then by the same argument as above, all
+parameters
+
+      (−a + i | a, a − 1, . . . , a‘
+                                   − i, . . . , a − n + 2, ∓(a − n + 1)),      1 ≤ i ≤ n − 2,
+are unitary.
+If Λdom = (a, a − 1, . . . , a − n + 2, −(a − n + 1)), then
+                      Λ = (a − n + 1 | a, . . . , a − n + 3, −(a − n + 2))
+is nonunitary since a − n + 1 + a ≥ n > pΛ − 1.
+If Λdom = (a, a − 1, . . . , a − n + 2, a − n + 1), then
+                    Λ = (−(a − n + 1) | a, . . . , a − n + 3, −(a − n + 2))
+is nonunitary, since pΛ = n − 1 and Λ1 + Λ2 = n − 1 > n − 2 = pΛ − 1.                             
+                                    UNITARY HIGHEST WEIGHT MODULES                                    17
+
+
+7.2. The case of so(2, 2n − 1), n ≥ 2. Recall that ρ = (n − 21 , n − 32 , . . . , 12 ) and
+that all k-dominant weights λ are of the form
+                                               λ = (λ1 , λ2 , . . . , λn ),
+where λ2 ≥ λ3 ≥ . . . ≥ λn ≥ 0. Since we also assume that λ is k–integral, we
+have λi ± λj ∈ Z for 2 ≤ i, j ≤ n, and 2λi ∈ Z, or equivalently λ2 , . . . , λn ∈ Z or
+λ2 , . . . , λn ∈ 12 + Z.
+By definition, the parameter of the irreducible highest weight (g, K)–module L(λ)
+is Λ = λ + ρ. It is a particular representative of the infinitesimal character of
+L(λ). We will denote by Λdom the g–dominant representative of the infinitesimal
+character Λ, i.e., we have
+                                     Λdom
+                                      1   ≥ Λdom
+                                             2   ≥ . . . ≥ Λdom
+                                                            n   ≥ 0.
+All parameters Λ corresponding to highest weight (g, K)–modules must be domi-
+nant regular for k, i.e
+                                     Λ2 > Λ3 > . . . > Λn−1 > Λn > 0.
+Recall that Theorem 3.5 implies that L(λ) is unitary if and only if λ is of the form
+                                                                                      3
+                    (λ1 , 0, . . . , 0),                            λ1 = 0 or λ1 ≤      −n
+                    Å                    ã                                            2
+                           1           1
+                      λ1 , , . . . ,       ,                                     λ1 ≤ 1 − n
+                           2           2
+or
+         (λ1 , λ2 , . . . , λn ),    1 ≤ λ2 = · · · = λp > λp+1 ,             λ1 + λ2 ≤ 1 + p − 2n,
+for some p ∈ {2, . . . , n}.
+In terms of the corresponding parameter Λ = λ + ρ, L(λ) is unitary if and only if
+Λ is of the form
+              Å                           ã
+                             3       3 1                       1
+                Λ1 , n − , . . . , ,        ,        Λ1 = n − or Λ1 ≤ 1
+                             2       2 2                       2
+                                                                           1
+              (Λ1 , n − 1, . . . , 2, 1),                         Λ1 ≤
+                                                                           2
+or
+                                        1
+        (Λ1 , Λ2 , . . . , Λn ), n − ≤ Λ2 , Λi+1 = Λi − 1, i ∈ {2, . . . , p − 1}
+                                        2
+                                  Λp+1 ≤ Λp − 2, Λ1 + Λ2 ≤ p − 1.
+for some p ∈ {2, . . . , n}.
+In order to have any k-dominant regular integral Weyl group conjugates, Λdom must
+                                                   dom
+contain at least n − 1 coordinates, Λdom
+                                     i1 , . . . , Λin−1 , so that
+
+                                                                                 dom      1
+(7.12)              either Λdom           dom
+                            i1 , . . . , Λin−1 ∈ Z             or Λdom
+                                                                   i1 , . . . , Λin−1 ∈     + Z;
+                                                                                          2
+                                                   dom
+                    Λdom
+                     i1  > Λdom
+                            i2  > · · · > Λdom
+                                           in−2 > Λin−1 > 0.
+
+There are now two cases:
+                                                               dom
+Case 1. Λdom contains n − 1 coordinates Λdom     i1 , . . . , Λin−1 satisfying (7.12), and
+another coordinate x (which must be ≥ 0), so that x is either not congruent to
+               dom                                   dom           dom     dom
+Λdom
+ i1 , . . . , Λin−1 modulo Z, or is equal to one of Λi1 , . . . , Λin−2 , Λin−1 or x = 0.
+18 PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+Case 2. The coordinates of Λdom are either all in Z or all in 21 + Z, and they satisfy
+(7.13)                   Λdom
+                          1   > Λdom
+                                 2   > · · · > Λdom    dom
+                                                n−1 > Λn   > 0.
+
+
+We start by examining Case 1. The assumption implies that the only k-dominant
+regular integral conjugates of Λdom are
+                               dom     dom                    dom           dom     dom
+(7.14) Λ = (x | Λdom
+                 i1 , . . . , Λin−2 , Λin−1 ) and Λ̃ = (−x | Λi1 , . . . , Λin−2 , Λin−1 ).
+
+The answer to the unitarity question for Λ and Λ̃ is the following result.
+Theorem 7.15. Assume Λdom is in Case 1 and let Λ, Λ̃ be the two possible conju-
+gates of Λdom described in (7.14). Then
+    (1) Suppose that
+                                           dom       3         3 1
+                            Λdom
+                             i1 , . . . , Λin−1 = n − , . . . , , ,
+                                                     2         2 2
+        so that Λ and Λ̃ are both in the scalar case. Then Λ is unitary if and only
+        if x ≤ 1, while Λ̃ is always unitary.
+    (2) Suppose that
+                                            dom
+                             Λdom
+                              i1 , . . . , Λin−1 = n − 1, . . . , 2, 1,
+
+        so Λ and Λ̃ are both in the spinor case. Then Λ is unitary if and only if
+        x ≤ 12 , while Λ̃ is always unitary.
+                                       dom                  3           3 1
+    (3) Suppose that Λdomi1 , . . . , Λin−1 are neither n − 2 , . . . , 2 , 2 nor n − 1, . . . , 2, 1,
+        so that Λ and Λ̃ are both in the general case. Let p, p̃ ∈ {2, . . . , n} be the
+        integers corresponding to Λ, Λ̃ (or rather to λ = Λ − ρ, λ̃ = Λ̃ − ρ) as in
+        Theorem 3.5. Then Λ is never unitary.
+           If x ≤ 12 then Λ̃ is not unitary.
+           If x > 12 , then the unitarity of Λ̃ is equivalent to −x + Λdom       i1  ≤ p̃ − 1.
+Proof. (1) By the unitarity criterion of Theorem 3.5, Λ is unitary if and only x ≤ 1,
+so that 0 ≤ x ≤ 1 (x can not be n − 21 since we are assuming Λdom is in Case 1).
+On the other hand, unitarity of Λ̃ is equivalent to −x ≤ 1, which is automatic since
+x ≥ 0. This proves (1).
+(2) Note first that x must be ≥ 0. By the unitarity criterion of Theorem 3.5, Λ is
+unitary if and only if x ≤ 21 ; so 0 ≤ x ≤ 21 . On the other hand, unitarity of Λ̃ is
+equivalent to −x ≤ 12 , which is automatic since x ≥ 0.
+(3) The assumptions imply that
+                                                    dom
+(7.16)                   Λdom
+                          i1  ≥n  if Λdom
+                                      i1 , . . . , Λin−1 ∈ Z,     and
+                                  1                      dom    1
+                         Λdom
+                          i1  ≥n−     if Λdom
+                                           i1 , . . . , Λin−1 ∈   + Z.
+                                  2                             2
+Since Λ and Λ̃ are both in the general case, the unitarity conditions are x + Λdom   i1  ≤
+p − 1 respectively −x + Λdom i1   ≤ p̃ − 1. This, together with Λdom i1    ≥ n − 21 (which
+follows from (7.16)), and with p, p̃ ≤ n, implies that Λ is never unitary since x ≥ 0,
+and Λ̃ is not unitary if x < 12 .
+If x = 21 , then the unitarity of Λ̃ is equivalent to − 12 + Λdom
+                                                                i1   ≤ p̃ − 1 by Theorem
+                       1
+3.5, i.e. Λi1 ≤ p̃ − 2 . If Λi1 , . . . , Λin−2 , Λin−1 are in Z, then Λdom
+            dom                 dom        dom     dom
+                                                                          i1  ≥ n, so Λ̃ is
+                            UNITARY HIGHEST WEIGHT MODULES                                             19
+
+                               dom     dom         1
+not unitary. If Λdom
+                 i1 , . . . , Λin−2 , Λin−1 are in 2 + Z, then it follows from (7.16) that
+Λdom
+ i1  ≥ n − 21 . So, if Λ̃ is unitary, then p̃ = n and Λdom  i1  = n − 21 , but in this case
+we have
+                                      dom         1       5 3       1
+                     Λdom
+                        i1 , . . . , Λin−1 = n − , . . . , , , x =
+                                                  2       2 2       2
+and this is not Case 1. Therefore, if x = 21 , then Λ̃ is not unitary.
+If x > 12 , then the unitarity of Λ̃ is equivalent to −x + Λdom
+                                                              i1  ≤ p̃ − 1 by Theorem
+3.5.
+                                                                                    
+
+We now handle the remaining case, Case 2. The result is
+Theorem 7.17. Let Λdom be as in Case 2.
+    (1) Suppose that
+                                                 3         3 1
+                               Λdom = (Λdom
+                                        1   , n − , . . . , , ),
+                                                 2         2 2
+         with Λdom
+               1    ∈ 12 + Z, Λdom
+                                1   ≥ n − 21 . If Λdom      1     = n − 21 , then the unitary
+                         dom        1       3           3 1
+         conjugates of Λ     = (n − 2 , n − 2 , . . . , 2 , 2 ) are
+                     1          3       3 1
+                  (n − | , n − , . . . , , ),      and
+                     2          2       2 2
+                            1        1      Ÿ     1        1
+                (−n + i − | n − , . . . , n − i + , . . . , ), i = 1, . . . , n
+                            2        2            2        2
+         where the hat denotes that the coordinate is omitted.
+           If Λdom
+               1    ≥ n + 21 , then the only unitary conjugate of Λdom is
+                                               3         3 1
+                                   (−Λdom
+                                      1   | n − , . . . , , ).
+                                               2         2 2
+    (2) Suppose that
+                                Λdom = (Λdom
+                                         1   , n − 1, . . . , 2, 1),
+         with Λdom
+               1    ∈ Z and Λdom
+                               1   ≥ n. If Λdom
+                                            1   ≥ n + 1, then the only unitary
+         parameter conjugate to Λdom is
+                                    (−Λdom
+                                       1   | n − 1, . . . , 2, 1).
+         If Λdom = (n, n−1, . . . , 2, 1), then the unitary parameters conjugate to Λdom
+         are
+                                          ’
+              (−n + i | n, n − 1, . . . , n − i, . . . , 2, 1),   i = 0, 1, . . . , n − 1.
+    (3) Suppose that Λdom is not as in (1) or (2), i.e., Λdom              2   , . . . , Λdom
+                                                                                          n   are not
+        n − 32 , . . . , 32 , 12 or n − 1, . . . , 2, 1. Suppose further that Λdom is of the form
+
+(7.18)              Λdom = (a, a − 1, . . . , a − q + 1, Λdom          dom
+                                                          q+1 , . . . Λn ),
+
+         with Λdom
+               q+1 ≤ a − q − 1, for some q such that 1 ≤ q ≤ n. Then the unitary
+         parameters conjugate to Λdom are
+
+(−a + i | a, a − 1, . . . , a‘
+                             − i, . . . , a − q + 1, Λdom             dom
+                                                      q+1 , . . . , −Λn ),          i = 0, . . . , q − 1.
+20 PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+Proof. (1) The parameter (Λdom        1   | n − 23 , . . . , 23 , 12 ) is in the scalar case, and by
+Theorem 3.5 it is unitary if Λ1 = n − 21 and nonunitary if Λdom
+                                      dom
+                                                                                  1   ≥ n + 12 , while
+              3           3   1
+(−Λdom
+    1   | n − 2 , . . . , 2 , 2 ) is unitary for any Λdom     1      . The other possible Λ for this
+  dom
+Λ     are
+(7.19)                (n − i + 12 | Λdom                    Ÿ
+                                         , n − 32 , . . . , n − i + 21 , . . . , 21 ) and
+                                     1
+
+                        (−n + i − 12 | Λdom                    Ÿ
+                                            , n − 32 , . . . , n − i + 21 , . . . , 12 ),
+                                        1
+
+where i ∈ {2, . . . , n}, and the hat denotes that the coordinate is omitted. All of
+these Λ are in the general case.
+If Λdom
+    1    = n − 21 , then p = i for both Λ in (7.19). For Λ = (n − i + 21 | n − 21 , n −
+3      Ÿ
+  ,...,n − i + 1 , . . . , 1 ) we have
+2                 2          2
+
+                                 Λ1 + Λ2 = 2n − i > i − 1 = p − 1,
+                                                                          Ÿ
+and the module is nonunitary. For Λ = (−n+i− 21 | n− 21 , n− 23 , . . . , n − i + 21 , . . . , 21 ),
+                                       Λ1 + Λ2 = i − 1 = p − 1,
+so the module is unitary.
+If Λdom
+    1   ≥ n + 21 , then p = 2 for both Λ in (7.19). Then Λdom
+                                                          1   ± (n − i + 21 ) ≥ i ≥
+2 > 1 = p − 1, so both Λ in (7.19) are nonunitary. This proves (1).
+(2) The first two conjugates of Λdom we examine are
+           Λ = (Λdom
+                 1   | n − 1, . . . , 2, 1) and Λ̃ = (−Λdom
+                                                        1   | n − 1, . . . , 2, 1).
+Since Λ and Λ̃ are both in the spinor case, Theorem 3.5 implies that Λ is not
+unitary, while Λ̃ is unitary.
+The next conjugates of Λdom we examine are
+                         Λ = (n − i | Λdom
+                                       1
+                                                            ’
+                                           , n − 1, . . . , n − i, . . . , 2, 1)  and
+                                         dom                  ’
+                         Λ̃ = (−n + i | Λ1 , n − 1, . . . , n − i, . . . , 2, 1),
+where i ∈ {1, 2, . . . , n− 1}. Now Λ and Λ̃ are both in the general case, and Theorem
+3.5 says that their unitarity depends on the corresponding integers p and p̃. Since
+n − i is taken out of the (i + 2)nd place, p and p̃ are both ≤ i + 1. If Λdom
+                                                                            1  ≥ n + 1,
+it follows that
+                         ±(n − i) + Λdom
+                                     1   ≥ n + 1 − (n − i) = i + 1
+which is > p− 1 and > p̃ − 1, so Λ and Λ̃ are both nonunitary. If however Λdom
+                                                                           1   = n,
+then p = p̃ = i + 1, and while n − i + Λdom
+                                         1    is still > p − 1,
+                                      −n + i + Λdom
+                                                1   = i = p̃ − 1
+so Λ̃ is unitary. This finishes the proof of (2).
+(3) Note first that the condition (7.13) together with the fact that coordinates of
+Λdom do not include n − 23 , . . . , 32 , 12 or n − 1, . . . , 2, 1 implies that
+                                                      1
+(7.20)                                        Λdom
+                                               1   ≥n+ .
+                                                      2
+This immediately implies that the conjugates Λ = Λdom and
+
+            (Λdom | Λdom , Λdom      ’
+                                ,...,Λ dom , . . . , Λdom , Λdom ),                 1 < j ≤ n,
+              j      1      2          j              n−1    n
+                                   UNITARY HIGHEST WEIGHT MODULES                                    21
+
+
+     of Λdom are all nonunitary. It remains to consider conjugates
+
+           Λ(j) = (−Λdom | Λdom , Λdom     ’
+                                       ,...Λ dom , . . . , Λdom , Λdom ),               1 ≤ j ≤ n,
+                     j      1      2         j              n−1    n
+
+     of Λdom . If Λdom is as in (7.18), then for j ≤ q, setting i = j − 1, we see that for
+           Λ(j) = (−a + i | a, a − 1, . . . , a‘
+                                               − i, . . . , a − q + 1, Λdom            dom    dom
+                                                                        q+1 , . . . , Λn−1 , Λn ),
+                           (j)         (j)
+     pΛ(j) = i + 1, so Λ1 + Λ2 = −a + i + a = i = pΛ(j) − 1 for j 6= 1, so Λ(j) is unitary
+     for j ∈ {2, . . . , q}. If j = 1, we have
+                                                                           dom    dom
+                    Λ(1) = (−a | a − 1, . . . , a − q + 1, Λdom
+                                                            q+1 , . . . , Λn−1 , Λn ),
+                     (1)         (1)
+     pΛ(1) = q, so Λ1 + Λ2 = −a + a − 1 = −1 < pΛ(1) − 1, so Λ(1) is unitary. If on the
+                                           (j)  (j)
+     other hand j > q, then pΛ(j) = q and Λ1 + Λ2 = −Λdomj   + a ≥ q + 1 > pΛ(j) − 1,
+     so Λ(j) is not unitary.                                                         
+     7.3. The case of e6 . In this case ρ = (0, 1, 2, 3, 4, −4, −4, 4) and all k–dominant
+     weights λ are of the form
+                                       λ = (λ1 , λ2 , λ3 , λ4 , λ5 | λ6 , λ6 , −λ6 ),
+     where |λ1 | ≤ λ2 ≤ λ3 ≤ λ4 ≤ λ5 . Since we also assume that λ is k–integral, we have
+     λi ± λj ∈ Z for 1 ≤ i, j ≤ 5 or equivalently λ1 , . . . , λ5 ∈ Z or λ1 , . . . , λ5 ∈ 21 + Z.
+     As before, Λdom is the g–dominant representative of the infinitesimal character Λ,
+     i.e. we have
+                           |Λdom
+                             1   | ≤ Λdom
+                                      2   ≤ Λdom
+                                              3    ≤ Λdom4      ≤ Λdom
+                                                                   5
+     and
+                                                    5
+                                                    X
+                                         Λdom
+                                          1   −           Λdom
+                                                           i   − 3Λdom
+                                                                   6   ≥ 0.
+                                                    i=2
+     All parameters Λ corresponding to highest weight (g, K)–modules must be domi-
+     nant regular for k, i.e.
+                               |Λ1 | < Λ2 < Λ3 < Λ4 < Λ5 .
+     Recall that the generators of Wg are sεi ±εj , 5 ≥ i > j and sα1 , where α1 =
+     1       P7                                                                dom
+     2 (ε1 −  i=2 εi + ε8 ). First we will determine which Wg –conjugates of Λ     are
+     k–dominant. We use SageMath [SAGE] for this purpose.
+1    sage :   R =  RootSystem ( " E6 " ) . ambient_space ()
+2    sage :   rho  = R . rho ()
+3    sage :   W =  WeylGroup ([ ’E ’ , 6])
+4    sage :   def  k_dominant ( t ) :
+5    ....:         x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+6    ....:         return abs ( x1 ) <= x2 <= x3 <= x4 <= x5
+7    sage :   W_1 =[]
+8    sage :   for alpha in W :
+9    ....:         a = alpha . action ( rho )
+10   ....:         b =( a [0] , a [1] , a [2] , a [3] , a [4] , a [5] , a [6] , a [7])
+11   ....:         if k_dominant ( b ) :
+12   ....:                W_1 . append ( alpha )
+13   sage :   for alpha in W_1 :
+14   ....:         print ( alpha )
+15   ....:         print ( " " )
+    22 PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+    Let us define the function f : {x ∈ R8 | x6 = x7 = −x8 } → R as
+                                                          5
+                                                          X
+                                          f (x) = 3x6 −          xi .
+                                                           i=1
+    Recall that Theorem 4.1 and [PPST2, p. 732, 733] (cases 1.1, 1.2, 1.3, 1.4, 1.5 and
+    1.7) imply that L(λ) is unitary if and only if λ is of the form
+    (0, 0, 0, 0, 0 | λ6, λ6 , −λ6 ), f (λ) = 0 or f (λ) ≥ 6
+    (0, 0, 0, 0, λ5 | λ6 , λ6 , −λ6 ), λ5 > 0, f (λ) = 8 or f (λ) ≥ 14
+    (λ1 , λ2 , λ3 , λ4 , λ5 | λ6 , λ6 , −λ6 ), λ1 + λ2 ≥ 1, f (λ) ≥ 20
+    (λ1 , λ2 , λ3 , λ4 , λ5 | λ6 , λ6 , −λ6 ), λ2 = −λ1 , λ3 − λ2 ≥ 1, f (λ) ≥ 18
+    (λ1 , λ2 , λ3 , λ4 , λ5 | λ6 , λ6 , −λ6 ), λ3 = λ2 = −λ1 , λ2 > 0, λ4 − λ2 ≥ 1, f (λ) ≥ 16
+    (0, 0, 0, λ4 , λ5 | λ6 , λ6 , −λ6 ), λ4 ≥ 1, f (λ) ≥ 14
+    (λ1 , λ2 , λ3 , λ4 , λ5 | λ6 , λ6 , −λ6 ), λ4 = λ3 = λ2 = −λ1 , λ2 > 0, λ5 − λ2 ≥ 1, f (λ) ≥ 14
+    (λ1 , λ2 , λ3 , λ4 , λ5 | λ6 , λ6 , −λ6 ), λ5 = λ4 = λ3 = λ2 = −λ1 , λ2 > 0, f (λ) ≥ 12.
+    In terms of the corresponding parameter Λ = λ + ρ, L(λ) is unitary if and only if
+    Λ is of the form
+    Case 1: (0, 1, 2, 3, 4 | Λ6, Λ6 , −Λ6 ), f (Λ) = −22 or f (Λ) ≥ −16
+    Case 2: (0, 1, 2, 3, Λ5 | Λ6 , Λ6 , −Λ6 ), Λ5 > 4, f (Λ) = −14 or f (Λ) ≥ −8
+    Case 3: (Λ1 , Λ2 , Λ3 , Λ4 , Λ5 | Λ6 , Λ6 , −Λ6 ), Λ1 + Λ2 ≥ 2, f (Λ) ≥ −2
+    Case 4: (Λ1 , Λ2 , Λ3 , Λ4 , Λ5 | Λ6 , Λ6 , −Λ6 ), Λ2 = −Λ1 + 1, Λ3 − Λ2 ≥ 2, f (Λ) ≥ −4
+    Case 5: (Λ1 , Λ2 , Λ3 , Λ4 , Λ5 | Λ6 , Λ6 , −Λ6 ), Λ3 = Λ2 + 1 = −Λ1 + 2, Λ2 > 1,
+              Λ4 − Λ2 ≥ 3, f (Λ) ≥ −6
+    Case 6: (0, 1, 2, Λ4, Λ5 | Λ6 , Λ6 , −Λ6 ), Λ4 ≥ 4, f (Λ) ≥ −8
+    Case 7: (Λ1 , Λ2 , Λ3 , Λ4 , Λ5 | Λ6 , Λ6 , −Λ6 ), Λ4 = Λ3 + 1 = Λ2 + 2 = −Λ1 + 3, Λ2 > 1,
+              Λ5 − Λ2 ≥ 4, f (Λ) ≥ −8
+    Case 8: (Λ1 , Λ2 , Λ3 , Λ4 , Λ5 | Λ6 , Λ6 , −Λ6 ), Λ5 = Λ4 + 1 = Λ3 + 2 = Λ2 + 3 = −Λ1 + 4,
+              Λ2 > 1, f (Λ) ≥ −10.
+    For each g-dominant infinitesimal character Λdom , the following Python code in
+    SageMath returns a list of unitary and nonunitary infinitesimal characters which are
+    Wg –conjugates of Λdom . For a given infinitesimal character Λ, the first part of the
+    code checks which of the above eight cases Λ belongs to. Next, we define a function
+    f as above and then the function unitary which checks if the corresponding k–
+    dominant Wg –conjugate of Λdom is k–regular and unitary. Finally, the code returns
+    the lists of unitary and nonunitary parameters.
+1   sage : def case_1 ( t ) :
+2   ....: ....:       x1 , x2 , x3 , x4 , x5 , x6 , x7 ,                 x8 = t
+3   ....: ....:       return ( x1 == 0) and ( x2 ==                      1) and ( x3 == 2)
+        and ( x4 == 3) and ( x5 == 4)
+4   sage : def case_2 ( t ) :
+5   ....: ....:       x1 , x2 , x3 , x4 , x5 , x6 , x7 ,                 x8 = t
+6   ....: ....:       return ( x1 == 0) and ( x2 ==                      1) and ( x3 == 2)
+        and ( x4 == 3) and ( x5 > 4)
+                          UNITARY HIGHEST WEIGHT MODULES                         23
+
+
+7    sage : def case_3 ( t ) :
+8    ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+9    ....: ....:          return ( x1 + x2 >= 2)
+10   sage : def case_4 ( t ) :
+11   ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+12   ....: ....:          return ( x2 == - x1 +1) and ( x3 - x2 >= 2)
+13   sage : def case_5 ( t ) :
+14   ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+15   ....: ....:          return ( x3 == x2 + 1 == - x1 + 2) and ( x2 > 1)
+         and ( x4 - x2 >= 3)
+16   sage : def case_6 ( t ) :
+17   ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+18   ....: ....:          return ( x1 == 0) and ( x2 == 1) and ( x3 == 2)
+         and ( x4 >= 4)
+19   sage : def case_7 ( t ) :
+20   ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+21   ....: ....:          return ( x4 == x3 + 1 == x2 + 2 == - x1 + 3) and
+         ( x2 > 1) and ( x5 - x2 >= 4)
+22   sage : def case_8 ( t ) :
+23   ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+24   ....: ....:          return ( x5 == x4 + 1 == x3 + 2 == x2 + 3 == - x1
+           + 4) and ( x2 > 1)
+25   sage : def f ( t ) :
+26   ....:        x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+27   ....:        return 3 * ( x6 ) - x1 - x2 - x3 - x4 - x5
+28   sage : def k_dom_reg ( t ) :
+29   ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+30   ....:          return abs ( x1 ) < x2 < x3 < x4 < x5
+31   sage : def g_dom ( t ) :
+32   ....:        x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+33   ....:        return abs ( x1 ) <= x2 <= x3 <= x4 <= x5 and x1 - x2 -
+         x3 - x4 - x5 - 3* x6 >= 0
+34   sage : def unitary ( t ) :
+35   ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+36   ....:          return (( case_1 ( t ) == true ) and ( k_dom_reg ( t ) ==
+         true ) and ( f ( t ) == -22 or f ( t ) >= - 16) ) or (( case_2 ( t ) ==
+         true ) and ( k_dom_reg ( t ) == true ) and ( f ( t ) == -14 or f ( t ) >=
+           - 8) ) or (( c
+37   ....: ase_3 ( t ) == true ) and ( k_dom_reg ( t ) == true ) and ( f ( t ) >=
+         - 2) ) or (( case_4 ( t ) == true ) and ( k_dom_reg ( t ) == true )
+         and ( f ( t ) >= - 4) ) or (( case_5 ( t ) == true ) and ( k_dom_reg ( t
+         ) == true )
+38   ....: and ( f ( t ) >= - 6) ) or (( case_6 ( t ) == true ) and (
+         k_dom_reg ( t ) == true ) and ( f ( t ) >= - 8) ) or (( case_7 ( t ) ==
+         true ) and ( k_dom_reg ( t ) == true ) and ( f ( t ) >= - 8) ) or ((
+         case_8 ( t ) == true )
+39   ....: and ( k_dom_reg ( t ) == true ) and ( f ( t ) >= - 10) )
+40   sage : def unitary_in f _c h a r_ l is t ( t ) :
+41   ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+42   ....:          v = vector ([ x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 ])
+43   ....:          unitary_list = []
+44   ....:          for alpha in W_1 :
+     24 PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+45   ....:                if ( unitary ( alpha . to_matrix () * v ) and (
+         k_dom_reg ( alpha . to_matrix () * v ) == true ) and (( alpha .
+         to_matrix () * v ) not in unitary_list ) ) :
+46   ....:                        unitary_list . append ( alpha . to_matrix () * v )
+47   ....:        if not g_dom ( t ) :
+48   ....:                return " The entered parameter is not g - dominant "
+49   ....:        else :
+50   ....:                return ( unitary_list )
+51   sage : def n o n u n i t a r y _ i n f _ c h a r _ l i s t( t ) :
+52   ....:       x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+53   ....:       v = vector ([ x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 ])
+54   ....:        nonunitary_l is t = []
+55   ....:        for alpha in W_1 :
+56   ....:                if (( unitary ( alpha . to_matrix () * v ) == false )
+         and ( k_dom_reg ( alpha . to_matrix () * v ) == true ) and (( alpha .
+         to_matrix () * v ) not in nonunitary_l is t ) ) :
+57   ....:                                                  nonunitary_ li st . append ( alpha .
+         to_matrix () * v )
+58   ....:        if not g_dom ( t ) :
+59   ....:                  return " The entered parameter is not g - dominant
+         "
+60   ....:        else :
+61   ....:                  return ( nonunitary_l is t )
+
+
+     Example 7.21. We get the following lists if we put t = ρ = (0, 1, 2, 3, 4, −4, −4, 4).
+1    sage : t = (0 , 1 , 2 , 3 , 4 , -4 , -4 , 4)
+2    sage : unitary_in f_ c h ar _ li s t ( t )
+3    [(0 , 1 , 2 , 3 , 4 , -4 , -4 , 4) ,
+4    ( -3/2 , 5/2 , 7/2 , 9/2 , 11/2 , 3/2 , 3/2 , -3/2) ,
+5    (0 , 1 , 2 , 3 , 8 , 0 , 0 , 0) ,
+6    ( -1 , 2 , 3 , 4 , 6 , 2 , 2 , -2) ,
+7    (0 , 1 , 2 , 5 , 6 , 2 , 2 , -2) ,
+8    ( -1/2 , 3/2 , 5/2 , 9/2 , 11/2 , 5/2 , 5/2 , -5/2) ,
+9    (0 , 1 , 3 , 4 , 5 , 3 , 3 , -3) ,
+10   (1/2 , 3/2 , 5/2 , 7/2 , 9/2 , 7/2 , 7/2 , -7/2) ,
+11   (0 , 1 , 2 , 3 , 4 , 4 , 4 , -4) ]
+12   sage : n o n u n i t a r y _ i n f _ c h a r _ l i s t( t )
+13   [( -1/2 , 3/2 , 5/2 , 7/2 , 9/2 , -7/2 , -7/2 , 7/2) ,
+14   (0 , 1 , 3 , 4 , 5 , -3 , -3 , 3) ,
+15   (1/2 , 3/2 , 5/2 , 9/2 , 11/2 , -5/2 , -5/2 , 5/2) ,
+16   (1 , 2 , 3 , 4 , 6 , -2 , -2 , 2) ,
+17   (3/2 , 5/2 , 7/2 , 9/2 , 11/2 , -3/2 , -3/2 , 3/2) ,
+18   (0 , 1 , 2 , 5 , 6 , -2 , -2 , 2) ,
+19   (1/2 , 3/2 , 5/2 , 9/2 , 13/2 , -3/2 , -3/2 , 3/2) ,
+20   (1 , 2 , 3 , 5 , 6 , -1 , -1 , 1) ,
+21   (0 , 1 , 3 , 4 , 7 , -1 , -1 , 1) ,
+22   (1/2 , 3/2 , 7/2 , 9/2 , 13/2 , -1/2 , -1/2 , 1/2) ,
+23   (0 , 1 , 4 , 5 , 6 , 0 , 0 , 0) ,
+24   ( -1/2 , 3/2 , 5/2 , 7/2 , 15/2 , -1/2 , -1/2 , 1/2) ,
+25   (0 , 2 , 3 , 4 , 7 , 0 , 0 , 0) ,
+26   ( -1/2 , 3/2 , 7/2 , 9/2 , 13/2 , 1/2 , 1/2 , -1/2) ,
+27   ( -1 , 2 , 3 , 5 , 6 , 1 , 1 , -1) ,
+                              UNITARY HIGHEST WEIGHT MODULES                                 25
+
+
+28   (1/2 , 3/2 , 5/2 , 7/2 , 15/2 , 1/2 , 1/2 , -1/2) ,
+29   (0 , 1 , 3 , 4 , 7 , 1 , 1 , -1) ,
+30   ( -1/2 , 3/2 , 5/2 , 9/2 , 13/2 , 3/2 , 3/2 , -3/2) ]
+
+                                                                     17
+     7.4. The case of e7 . In this case ρ = (0, 1, 2, 3, 4, 5, − 17
+                                                                 2 , 2 ) and all k–dominant
+     weights λ are of the form
+                                    λ = (λ1 , λ2 , λ3 , λ4 , λ5 , λ6 | λ7 , −λ7 ),
+                                                                   P6
+     where |λ1 | ≤ λ2 ≤ λ3 ≤ λ4 ≤ λ5 and λ1 − i=2 λi − 2λ7 ≥ 0. Since we also
+     assume that λ is k–integral, we have λi ± λj ∈ Z for 1 ≤ i, j ≤ 5 or equivalently
+     λ1 , . . . , λ5 ∈ Z or λ1 , . . . , λ5 ∈ 21 + Z and 12 (λ1 − 7i=2 λi + λ8 ) ∈ Z. As before,
+                                                                        P
+
+     Λdom is the g–dominant representative of the infinitesimal character Λ, i.e. we have
+                        |Λdom
+                          1   | ≤ Λdom
+                                   2   ≤ Λdom
+                                          3   ≤ Λdom
+                                                 4   ≤ Λdom
+                                                        5   ≤ Λdom
+                                                               6
+
+     and
+                                          6
+                                          X
+                                 Λdom
+                                  1   −         Λdom
+                                                 i   − 2Λdom
+                                                         7   ≥ 0.
+                                          i=2
+     All parameters Λ corresponding to highest weight (g, K)–modules must be domi-
+     nant regular for k, i.e.
+                                                             6
+                                                             X
+                     |Λ1 | < Λ2 < Λ3 < Λ4 < Λ5 and λ1 −             λi − 2λ7 > 0
+                                                              i=2
+
+     Recall that the generators of Wg are sεi ±εj , 6 ≥ i > j and sα1 , where α1 =
+     1
+             P7                                                                 dom
+     2 (ε1 −   i=2 εi + ε8 ). First we will determine which Wg –conjugates of Λ     are
+     k–dominant. We use a very similar code in SageMath [SAGE] as for e6 , with the
+     exception of the commands
+                                       if len(W1 ) == 56:
+                                              break
+                                                                        |W |
+     which speed up the program. It is well known that |W1 | = |Wgk | = 56.
+1    sage : R = RootSystem ( " E7 " ) . ambient_space ()
+2    sage : rho = R . rho ()
+3    sage : W = WeylGroup ([ ’E ’ , 7])
+4    sage : def k_dominant ( t ) :
+5    ....:       x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+6    ....:       return ( abs ( x1 ) <= x2 <= x3 <= x4 <= x5 and x1 - x2
+         - x3 - x4 - x5 - x6 - 2* x7 >= 0)
+7    sage : W_1 =[]
+8    sage : for alpha in W :
+9    ....:       a = alpha . action ( rho )
+10   ....:       b =( a [0] , a [1] , a [2] , a [3] , a [4] , a [5] , a [6] , a [7])
+11   ....:       if k_dominant ( b ) :
+12   ....:              W_1 . append ( alpha )
+13   ....:       if len ( W_1 ) ==56:
+14   ....:              break
+15   sage : for alpha in W_1 :
+16   ....:       print ( alpha )
+17   ....:       print ( " " )
+26 PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+Let us define functions f, g : {x ∈ R8 | x7 = −x8 } → R by
+                                                           6
+                                                  1       X
+                        f (x) = x7 ,    g(x) =      (x1 −     xi − 2x7 )
+                                                  2       i=2
+
+Recall that Theorem 5.1 and [PPST2, p. 743, 744, 745, 746] (cases 1.1, 1.2.1, 1.2.2.,
+1.2.3, 1.2.4, 1.2.5 and 1.2.7) imply that L(λ) is unitary if and only if λ is of the
+form
+(λ1 , λ2 , λ3 , λ4 , λ5 , λ6 | λ7 , −λ7 ), g(λ) ≥ 1 and f (λ) ≥ 8
+                                                                         15
+(λ1 , λ2 , λ3 , λ4 , λ5 , λ6 | λ7 , −λ7 ), g(λ) = 0, λ1 < λ2 and f (λ) ≥
+                                                                          2
+(λ1 , λ2 , λ3 , λ4 , λ5 , λ6 | λ7 , −λ7 ), g(λ) = 0, λ1 = λ2 < λ3 and f (λ) ≥ 7
+                                                                                         13
+(λ1 , λ2 , λ3 , λ4 , λ5 , λ6 | λ7 , −λ7 ), g(λ) = 0, 0 < λ1 = λ2 = λ3 < λ4 and f (λ) ≥
+                                                                                          2
+(0, 0, 0, λ4 , λ5 , λ6 | λ7 , −λ7 ), g(λ) = 0, 0 < λ4 and f (λ) ≥ 6
+(λ1 , λ2 , λ3 , λ4 , λ5 , λ6 | λ7 , −λ7 ), g(λ) = 0, 0 < λ1 = λ2 = λ3 = λ4 < λ5 and f (λ) ≥ 6
+(0, 0, 0, 0, λ5, λ6 | λ7 , −λ7 ), g(λ) = 0, 0 < λ5 and (f (λ) ≥ 6 or f (λ) = 4)
+                                                                                              11
+(λ1 , λ2 , λ3 , λ4 , λ5 , λ6 | λ7 , −λ7 ), g(λ) = 0, 0 < λ1 = λ2 = λ3 = λ4 = λ5 and f (λ) ≥
+                                                                                               2
+(0, 0, 0, 0, 0, λ6 | λ7 , −λ7 ), g(λ) = 0, (f (λ) ≥ 4 or f (λ) = 2 or f (λ) = 0).
+In terms of the corresponding parameter Λ = λ + ρ, L(λ) is unitary if and only if
+Λ is of the form
+                                                                          1
+Case 1: (Λ1 , Λ2 , Λ3 , Λ4 , Λ5 , Λ6 | Λ7 , −Λ7 ), g(Λ) ≥ 2 and f (Λ) ≥ −
+                                                                          2
+Case 2: (Λ1 , Λ2 , Λ3 , Λ4 , Λ5 , Λ6 | Λ7 , −Λ7 ), g(Λ) = 1, Λ1 < Λ2 − 1 and f (Λ) ≥ −1
+                                                                                                   3
+Case 3: (Λ1 , Λ2 , Λ3 , Λ4 , Λ5 , Λ6 | Λ7 , −Λ7 ), g(Λ) = 1, Λ1 = Λ2 − 1 < Λ3 − 2 and f (Λ) ≥ −
+                                                                                                   2
+Case 4: (Λ1 , Λ2 , Λ3 , Λ4 , Λ5 , Λ6 | Λ7 , −Λ7 ), g(Λ) = 1,
+          0 < Λ1 = Λ2 − 1 = Λ3 − 2 < Λ4 − 3 and f (Λ) ≥ −2
+                                                                                  5
+Case 5: (0, 1, 2, Λ4, Λ5 , Λ6 | Λ7 , −Λ7 ), g(Λ) = 1, 3 < Λ4 and f (Λ) ≥ −
+                                                                                  2
+Case 6: (Λ1 , Λ2 , Λ3 , Λ4 , Λ5 , Λ6 | Λ7 , −Λ7 ), g(Λ) = 1,
+                                                                         5
+          0 < Λ1 = Λ2 − 1 = Λ3 − 2 = Λ4 − 3 < Λ5 − 4 and f (Λ) ≥ −
+                                                                         2
+                                                                         5            9
+Case 7: (0, 1, 2, 3, Λ5, Λ6 | Λ7 , −Λ7 ), g(Λ) = 1, 4 < Λ5 and (f (Λ) ≥ − or f (Λ) = − )
+                                                                         2            2
+Case 8: (Λ1 , Λ2 , Λ3 , Λ4 , Λ5 , Λ6 | Λ7 , −Λ7 ), g(Λ) = 1,
+          0 < Λ1 = Λ2 − 1 = Λ3 − 2 = Λ4 − 3 = Λ5 − 4 and f (Λ) ≥ −3
+Case 9: (0, 1, 2, 3, 4, Λ6 | Λ7 , −Λ7 ), g(Λ) = 1,
+                      9                 13              17
+        (f (Λ) ≥ − or f (Λ) = −             or f (Λ) = − ).
+                      2                  2              2
+For each g-dominant infinitesimal character Λdom , the following Python code in
+SageMath returns a list of unitary and nonunitary infinitesimal characters which
+are Wg –conjugates of Λdom .
+                         UNITARY HIGHEST WEIGHT MODULES                      27
+
+
+
+1    sage : def g ( t ) :
+2    ....:       x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+3    ....:       return (1/2) *( x1 - x2 - x3 - x4 - x5 - x6 - 2* x7 )
+4    sage : def case_1 ( t ) :
+5    ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+6    ....: ....:          return ( g ( t ) >= 2)
+7    sage : def case_2 ( t ) :
+8    ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+9    ....: ....:          return ( g ( t ) == 1) and ( x1 < x2 - 1)
+10   sage : def case_3 ( t ) :
+11   ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+12   ....: ....:          return ( g ( t ) ==1) and ( x1 == x2 - 1 < x3 - 2)
+13   sage : def case_4 ( t ) :
+14   ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+15   ....: ....:          return ( g ( t ) == 1) and (0 < x1 == x2 - 1 == x3
+         - 2 < x4 - 3)
+16   sage : def case_5 ( t ) :
+17   ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+18   ....: ....:          return ( g ( t ) == 1) and (0 == x1 == x2 - 1 == x3
+           - 2) and ( x4 > 3)
+19   sage : def case_6 ( t ) :
+20   ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+21   ....: ....:          return ( g ( t ) == 1) and (0 < x1 == x2 - 1 == x3
+         - 2 == x4 - 3 < x5 - 4)
+22   sage : def case_7 ( t ) :
+23   ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+24   ....: ....:          return ( g ( t ) == 1) and (0 == x1 == x2 - 1 == x3
+           - 2 == x4 - 3) and ( x5 > 4)
+25   sage : def case_8 ( t ) :
+26   ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+27   ....: ....:          return ( g ( t ) == 1) and (0 < x1 == x2 - 1 == x3
+         - 2 == x4 - 3 == x5 - 4)
+28   sage : def case_9 ( t ) :
+29   ....: ....:          x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+30   ....: ....:          return ( g ( t ) == 1) and (0 == x1 == x2 - 1 == x3
+           - 2 == x4 - 3 == x5 - 4)
+31   sage : def f ( t ) :
+32   ....:       x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+33   ....:       return x7
+34   sage : def k_dom_reg ( t ) :
+35   ....:        x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+36   ....:        return ( abs ( x1 ) < x2 < x3 < x4 < x5 ) and ( g ( t ) > 0)
+37   sage : def g_dom ( t ) :
+38   ....:       x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+39   ....:       return abs ( x1 ) <= x2 <= x3 <= x4 <= x5 <= x6 and ( g ( t )
+         >= 0)
+40   sage : def unitary ( t ) :
+41   ....:        x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+     28 PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+42   ....:           return (( case_1 ( t ) == true ) and ( k_dom_reg ( t ) ==
+         true ) and ( f ( t ) >= -1/2) ) or (( case_2 ( t ) == true ) and (
+         k_dom_reg ( t ) == true ) and ( f ( t ) >= -1) ) or (( case_3 ( t ) ==
+         true ) and ( k_dom_reg ( t ) == true ) and ( f ( t ) >= -3/2) ) or ((
+         case_4 ( t ) == true ) and ( k_dom_reg ( t ) == true ) and ( f ( t ) >=
+         -2) ) or (( case_5 ( t ) == true ) and ( k_dom_reg ( t ) == true ) and
+           ( f ( t ) >= -5/2) ) or (( case_6 ( t ) == true ) and ( k_dom_reg ( t )
+         == true ) and ( f ( t ) >= -5/2) ) or (( case_7 ( t ) == true ) and (
+         k_dom_reg ( t ) == true ) and (( f ( t ) >= -5/2) or ( f ( t ) == -9/2)
+         ) ) or (( case_8 ( t ) == true ) and ( k_dom_reg ( t ) == true ) and (
+         f ( t ) >= -3) ) or (( case_9 ( t ) == true ) and ( k_dom_reg ( t ) ==
+         true ) and (( f ( t ) >= -9/2) or ( f ( t ) == -13/2) or ( f ( t ) ==
+         -17/2) ) )
+43   sage : def unitary_in f _c h a r_ l is t ( t ) :
+44   ....:           x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+45   ....:           v = vector ([ x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 ])
+46   ....:            unitary_list = []
+47   ....:           for alpha in W_1 :
+48   ....:                if ( unitary ( alpha . to_matrix () * v ) and (
+         k_dom_reg ( alpha . to_matrix () * v ) == true ) and (( alpha .
+         to_matrix () * v ) not in unitary_list ) ) :
+49   ....:                        unitary_list . append ( alpha . to_matrix () * v )
+50   ....:           if not g_dom ( t ) :
+51   ....:                return " The entered parameter is not g - dominant "
+52   ....:           else :
+53   ....:                return ( unitary_list )
+54   sage : def n o n u n i t a r y _ i n f _ c h a r _ l i s t( t ) :
+55   ....:           x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 = t
+56   ....:           v = vector ([ x1 , x2 , x3 , x4 , x5 , x6 , x7 , x8 ])
+57   ....:            nonunitary_l is t = []
+58   ....:           for alpha in W_1 :
+59   ....:                if (( unitary ( alpha . to_matrix () * v ) == false )
+         and ( k_dom_reg ( alpha . to_matrix () * v ) == true ) and (( alpha .
+         to_matrix () * v ) not in nonunitary_l is t ) ) :
+60   ....:                                                  nonunitary_ li st . append ( alpha .
+         to_matrix () * v )
+61   ....:           if not g_dom ( t ) :
+62   ....:                  return " The entered parameter is not g - dominant
+         "
+63   ....:           else :
+64   ....:                  return ( nonunitary_l is t )
+
+                                                                                        17
+     Example 7.22. We get the following lists if we put t = ρ = 0, 1, 2, 3, 4, 5, − 17
+                                                                                           
+                                                                                    2 , 2 .
+
+1    sage : t = (0 , 1 , 2 , 3 , 4 , 5 , -17/2 , 17/2)
+2    sage : unitary_in f_ c h ar _ li s t ( t )
+3    [(0 , 1 , 2 , 3 , 4 , 5 , -17/2 , 17/2) ,
+4    (0 , 1 , 2 , 3 , 9 , -8 , -9/2 , 9/2) ,
+5    (3/2 , 5/2 , 7/2 , 9/2 , 11/2 , -21/2 , -3 , 3) ,
+6    (1 , 2 , 3 , 4 , 6 , -11 , -5/2 , 5/2) ,
+7    (0 , 1 , 2 , 5 , 6 , -11 , -5/2 , 5/2) ,
+8    (1/2 , 3/2 , 5/2 , 9/2 , 11/2 , -23/2 , -2 , 2) ,
+9    (0 , 1 , 3 , 4 , 5 , -12 , -3/2 , 3/2) ,
+                              UNITARY HIGHEST WEIGHT MODULES       29
+
+
+10   ( -1/2 , 3/2 , 5/2 , 7/2 , 9/2 , -25/2 , -1 , 1) ,
+11   (0 , 1 , 2 , 3 , 4 , -13 , -1/2 , 1/2) ,
+12   (0 , 1 , 2 , 3 , 4 , -13 , 1/2 , -1/2) ]
+13   sage : n o n u n i t a r y _ i n f _ c h a r _ l i s t( t )
+14   [(0 , 1 , 2 , 3 , 5 , 4 , -17/2 , 17/2) ,
+15   (0 , 1 , 2 , 4 , 5 , 3 , -17/2 , 17/2) ,
+16   (0 , 1 , 3 , 4 , 5 , 2 , -17/2 , 17/2) ,
+17   (0 , 2 , 3 , 4 , 5 , 1 , -17/2 , 17/2) ,
+18   ( -1 , 2 , 3 , 4 , 5 , 0 , -17/2 , 17/2) ,
+19   (1 , 2 , 3 , 4 , 5 , 0 , -17/2 , 17/2) ,
+20   (0 , 2 , 3 , 4 , 5 , -1 , -17/2 , 17/2) ,
+21   (3/2 , 5/2 , 7/2 , 9/2 , 11/2 , -1/2 , -8 , 8) ,
+22   (1/2 , 5/2 , 7/2 , 9/2 , 11/2 , -3/2 , -8 , 8) ,
+23   (0 , 1 , 3 , 4 , 5 , -2 , -17/2 , 17/2) ,
+24   (1/2 , 3/2 , 7/2 , 9/2 , 11/2 , -5/2 , -8 , 8) ,
+25   (0 , 1 , 2 , 4 , 5 , -3 , -17/2 , 17/2) ,
+26   (0 , 1 , 4 , 5 , 6 , -3 , -15/2 , 15/2) ,
+27   (1/2 , 3/2 , 5/2 , 9/2 , 11/2 , -7/2 , -8 , 8) ,
+28   (0 , 1 , 2 , 3 , 5 , -4 , -17/2 , 17/2) ,
+29   (0 , 1 , 3 , 5 , 6 , -4 , -15/2 , 15/2) ,
+30   (1/2 , 3/2 , 5/2 , 7/2 , 11/2 , -9/2 , -8 , 8) ,
+31   (0 , 1 , 2 , 3 , 4 , -5 , -17/2 , 17/2) ,
+32   ( -1/2 , 3/2 , 5/2 , 11/2 , 13/2 , -9/2 , -7 , 7) ,
+33   (0 , 1 , 3 , 4 , 6 , -5 , -15/2 , 15/2) ,
+34   (1/2 , 3/2 , 5/2 , 7/2 , 9/2 , -11/2 , -8 , 8) ,
+35   (0 , 1 , 2 , 6 , 7 , -5 , -13/2 , 13/2) ,
+36   ( -1/2 , 3/2 , 5/2 , 9/2 , 13/2 , -11/2 , -7 , 7) ,
+37   (0 , 1 , 3 , 4 , 5 , -6 , -15/2 , 15/2) ,
+38   (0 , 1 , 2 , 5 , 7 , -6 , -13/2 , 13/2) ,
+39   ( -1 , 2 , 3 , 4 , 7 , -6 , -13/2 , 13/2) ,
+40   ( -1/2 , 3/2 , 5/2 , 9/2 , 11/2 , -13/2 , -7 , 7) ,
+41   ( -1/2 , 3/2 , 5/2 , 9/2 , 15/2 , -13/2 , -6 , 6) ,
+42   (0 , 1 , 2 , 5 , 6 , -7 , -13/2 , 13/2) ,
+43   ( -1 , 2 , 3 , 4 , 6 , -7 , -13/2 , 13/2) ,
+44   (0 , 1 , 3 , 4 , 8 , -7 , -11/2 , 11/2) ,
+45   ( -1/2 , 3/2 , 5/2 , 9/2 , 13/2 , -15/2 , -6 , 6) ,
+46   ( -3/2 , 5/2 , 7/2 , 9/2 , 11/2 , -15/2 , -6 , 6) ,
+47   (1/2 , 3/2 , 5/2 , 7/2 , 17/2 , -15/2 , -5 , 5) ,
+48   (0 , 1 , 3 , 4 , 7 , -8 , -11/2 , 11/2) ,
+49   ( -1 , 2 , 3 , 5 , 6 , -8 , -11/2 , 11/2) ,
+50   (1/2 , 3/2 , 5/2 , 7/2 , 15/2 , -17/2 , -5 , 5) ,
+51   ( -1/2 , 3/2 , 7/2 , 9/2 , 13/2 , -17/2 , -5 , 5) ,
+52   (0 , 1 , 2 , 3 , 8 , -9 , -9/2 , 9/2) ,
+53   (0 , 2 , 3 , 4 , 7 , -9 , -9/2 , 9/2) ,
+54   (0 , 1 , 4 , 5 , 6 , -9 , -9/2 , 9/2) ,
+55   ( -1/2 , 3/2 , 5/2 , 7/2 , 15/2 , -19/2 , -4 , 4) ,
+56   (1/2 , 3/2 , 7/2 , 9/2 , 13/2 , -19/2 , -4 , 4) ,
+57   (0 , 1 , 3 , 4 , 7 , -10 , -7/2 , 7/2) ,
+58   (1 , 2 , 3 , 5 , 6 , -10 , -7/2 , 7/2) ,
+59   (1/2 , 3/2 , 5/2 , 9/2 , 13/2 , -21/2 , -3 , 3) ]
+30 PAVLE PANDŽIĆ, ANA PRLIĆ, GORDAN SAVIN, VLADIMÍR SOUČEK, AND VÍT TUČEK
+
+
+                                           References
+[EHW]   T. Enright, R. Howe, N. Wallach, A classification of unitary highest weight modules, in
+        Representation theory of reductive groups, Park City, Utah, 1982, Birkhäuser, Boston,
+        1983, 97–143.
+[EJ]    T. Enright, A. Joseph, An intrinsic analysis of unitarizable highest weight modules,
+        Math. Ann. 288 (1990), no. 4, 571–594.
+[HC1]   Harish-Chandra, Representations of semisimple Lie groups, IV, Amer. J. Math., 77
+        (1955), 743–777.
+[HC2]   Harish-Chandra, Representations of semisimple Lie groups, V, Amer. J. Math., 78
+        (1956), 1–41.
+[HP2]   J.-S. Huang, P. Pandžić, Dirac Operators in Representation Theory, Mathematics: The-
+        ory and Applications, Birkhauser, 2006.
+[J]     H.P. Jakobsen, Hermitian symmetric spaces and their unitary highest weight modules,
+        J. Funct. Anal. 52 (1983), 385–412.
+[Kn]    A.W. Knapp, Lie Groups beyond an Introduction, Progr. Math., vol. 140, Birkhäuser,
+        1996.
+[L]     S. Lang, Study of different cases in the theta correspondence. Ph.D.Thesis, University
+        of Utah, 2020.
+[PPST1] P. Pandžić, A. Prlić, V. Souček, V. Tuček, Dirac inequality for highest weight Harish-
+        Chandra modules I, Math. Inequalities Appl. 26 (1) (2023), 233–265.
+[PPST2] P. Pandžić, A. Prlić, V. Souček, V. Tuček, Dirac inequality for highest weight Harish-
+        Chandra modules II, Math. Inequalities Appl. 26 (3) (2023), 729–760
+[PPST3] P. Pandžić, A. Prlić, V. Souček, V. Tuček, On the classification of unitary highest weight
+        modules, arXiv 2305.15892
+[P1]    R. Parthasarathy, Dirac operator and the discrete series, Ann. of Math. 96 (1972), 1–30.
+[P2]    R. Parthasarathy, Criteria for the unitarizability of some highest weight modules, Proc.
+        Indian Acad. Sci. 89 (1980), 1–24.
+[S]     W. Schmid, Die Randwerte holomorpher Funktionen auf hermitesch symmetrischen
+        Räumen, Invent. Math. 9 (1969/1970), 61—80.
+[SS]    S. Sahi, Unitary representations on the Shilov boundary of a symmetric tube domain.
+        In: Representation theory of groups and algebras, Contemp. Math., 145, American
+        Mathematical Society, Providence, RI, (1993), 275–286.
+[SAGE] SageMath licensed under the GPL, SageMath, Version 10.3, www.sagemath.org, released
+        on March 2024.
+
+(Pandžić) Department of Mathematics, Faculty of Science, University of Zagreb, Bi-
+jenička 30, 10000 Zagreb, Croatia
+Email address: pandzic@math.hr
+
+(Prlić) Department of Mathematics, Faculty of Science, University of Zagreb, Bijenička
+30, 10000 Zagreb, Croatia
+Email address: anaprlic@math.hr
+
+(Savin) Department of Mathematics, University of Utah, Salt Lake City, UT 84112,
+Email address: savin@math.utah.edu
+
+(Souček) Matematický ústav UK, Sokolovská 83, 186 75 Praha 8, Czech Republic
+Email address: soucek@karlin.mff.cuni.cz
+
+(Tuček) Department of Mathematics, Faculty of Science, University of Zagreb, Bi-
+jenička 30, 10000 Zagreb, Croatia
+Email address: vit.tucek@gmail.com
+
