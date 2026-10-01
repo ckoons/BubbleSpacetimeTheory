@@ -1,0 +1,17 @@
+[PASS] (i) the full identity holds with conserved characters for every s ≥ 3/2 (5855 re-run)  
+[PASS] (i) replacing ONLY the s = 3/2 character by the generic one BREAKS the identity: the spin-3/2 piece itself is conserved  
+[PASS] (i) the spin-3/2 piece: lowest K-type (3/2, ½) at weight 9/2 = d − 2 + s (the 5D conservation bound), multiplicity 1 in Rac⊗Di  
+   K-type dims: Rac [1, 5, 14, 30, 55, 91]; Di [4, 16, 40, 80, 140, 224]
+   dim Rac_m = (m + 1)*(m + 2)*(2*m + 3)/6;  dim Di_m = 2*(m + 1)*(m + 2)*(m + 3)/3
+[PASS] (ii) dimension formulas fitted on m = 0..4 PREDICT m = 5 for both (the closed forms are exact)  
+[PASS] (ii) boson/fermion growth: dim Di_m / dim Rac_m → 2 exactly (one Di carries the states of two Racs)  limit 2
+   hypermultiplet one-particle content 4·Rac ⊕ 2·Di: F/B growth 1;  BST's Rac₅ ⊕ Di₅: F/B growth 2
+[PASS] (ii) the hypermultiplet (4 real scalars + 1 Dirac-equivalent) is BALANCED (F/B → 1) at ratio #Rac : #Di = 2 : 1  
+[PASS] (ii) BST's Rac₅ ⊕ Di₅ (1 : 1) is NOT balanced (F/B → 2): it matches the hypermultiplet's Δs and spins but NOT its multiplicities  
+[PASS] CONTROL: Rac⊗Rac (the free scalar's bilinears) has NO half-integer-spin K-type, so no spin-3/2 current  
+
+READING: Rac⊗Di carries a conserved spin-3/2 piece at 9/2 (the conservation is that piece's own). It exists for ANY numbers of Racs
+and Dis at the free level, so by itself it is not supersymmetry. BST's singleton content matches the hypermultiplet's Δs and spins
+but NOT its multiplicities: a balanced multiplet needs #Rac : #Di = 2 : 1 (the su(2)_R doublet); BST has 1 : 1.
+
+SCORE: 8/8
