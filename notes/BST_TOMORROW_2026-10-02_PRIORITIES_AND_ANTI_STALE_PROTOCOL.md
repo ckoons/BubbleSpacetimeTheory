@@ -19,3 +19,12 @@
 
 ## Since 09-26, in one paragraph (for anyone waking cold)
 The walls are on the front page (kinematics forced, dynamics not; one breaking scale; no covariant photon or single-massless coupling; the KK price). The exact parity is the clock sign Z_t (W = Z_t·(−1)^F), structure and not observable today. The Higgs is the Rac⊗Rac scalar (Time, Derived v1.5). The fermions' module is L(spinor, 7/2), the lowest piece of Rac⊗Di, so ν = 7/2 is derived given the composite premise (tier C). The data layer's hidden-input species is fixed (12 rows; the explorer prints MATCH*). The EHW misattribution is corrected in Casey's papers.
+
+## LANDED AFTER EOD (13:03, 10-01): round 26's first results (close it first tomorrow)
+- **Lyra R26 (ece0be6b, toy 5856 4/4) and Elie 5857 (8/8), counted:** BST's Rac₅ + Di₅ (once each) is **NOT an F(4) supersingleton.**
+  - A hypermultiplet needs su(2)_R-doublet scalars (4 bosonic = 4 fermionic); BST's count is 1:1 against the hyper's 2:1 (Elie).
+  - The conserved spin-3/2 piece (at 9/2, conserved on its own) is a **free-level fermionic higher-spin current, not F(4)'s supercurrent.**
+  - Protectors enumerated: none keeps it past the free level. Λ > 0 forbids unitary positive-energy SUSY (pin owed).
+  - **⇒ the Forbidden list's SUSY clause becomes a CONSEQUENCE, by two routes, conditional on BST's field content.** The "hypermultiplet" was field content only, and the count killed the match (the K1946 menu risk, honoured).
+- **Cal Section 1028:** Time, Derived line 99's "not an operator Q" is false at the free level. That is a v1.6 scoping item for Casey.
+- **Owed:** Cal's ruling on R26; F235's dated head (Lyra); the Λ-forbids-SUSY pin (Grace).
