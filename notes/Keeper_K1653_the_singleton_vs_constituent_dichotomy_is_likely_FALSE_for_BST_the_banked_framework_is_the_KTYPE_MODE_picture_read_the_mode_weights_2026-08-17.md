@@ -73,3 +73,12 @@ The #Rac law is really a statement about a **mode's conformal weight**: exp(2πi
 - **Still OPEN:** electron, neutrinos, proton, DM clump — no module named.
 
 - **[2026-09-30 10:01, Grace, on Cal Section 1023]** Quark row tier: the Šilov placement and ν = 7/2 are **IDENTIFIED**, not derived. Cal's caveat, carried: *the finite-t match also assumes the spinor K-matrix factor = 1*. The row reads 'matched (W-even), IDENTIFIED, spinor K-matrix factor assumed 1; ν = g/2 derivation owed'.
+
+---
+## RE-KEY 2026-10-01 13:00 (Grace, on K1946 Part 1 items 1–3; Cal Sections 1026–1027; Lyra R25 / toy 5854; Elie 5855). The reframe above and the 09-29 module column are kept as history.
+**K1653's 'electron = V_(1/2,1/2)^{(0)}' is RE-KEYED: V_(1/2,1/2) is the lowest K-type of THE FERMIONS' MODULE, not 'the electron'.** Cal Section 1027's wording: it is the fermion FAMILY's module (the electron, muon, neutrino and quarks sit there; species labels live beyond). Write 'the fermions' module', never 'the electron is …'.
+- **The module (family stated):** Rac⊗Di = **L(spinor, 7/2)** ⊕ (conserved spin-(s + ½) pieces at 3 + s for s ≥ 3/2), a half-integer Flato–Fronsdal decomposition. The lowest piece L(spinor, 7/2) has multiplicity one and lowest K-type **V_(1/2,1/2)**, exactly this note's slot (Lyra 5854 in full SO(5) characters; Elie 5855, an exact character identity to depth 5; controls: Rac⊗Rac reproduces 5822; Di⊗Di has no half-integer-spin piece).
+- **K1653's dichotomy (singleton-as-particle vs composite vs K-type mode) DISSOLVES FOR FERMIONS:** the 'substrate-Dirac' mode and the Rac⊗Di composite's lowest piece are ONE module.
+- **What stays a premise (Cal Section 1026):** representation theory cannot distinguish 'posit L(spinor, 7/2)' from 'build it as Rac⊗Di'. So **ν = 7/2 is derived GIVEN the two-singleton premise (tier C).** For a single spinor family it is an identified input (register v0.41; K1201 mark). The premise now has one reading instead of two.
+- **W column (09-29):** the fermions' module has clock weight 7/2 (half-odd) and spin ½, so Z_t = (−1)^F = −1 and W = +1, matched. The 'electron / quarks / neutrinos / proton' rows read 'in the fermions' module (species labels beyond)'. The DM row stays OPEN.
+- **Round 26 (open):** the conserved spin-3/2 piece at 9/2 (s = 3/2: 3 + 3/2) is the candidate supercurrent. Is it kept after the breaking? That is Cal's and Lyra's question, with pins on Nahm 1978 and the F(4) hypermultiplet in progress (Grace R186).
