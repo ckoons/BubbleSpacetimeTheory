@@ -1,0 +1,5 @@
+F1 F(4) = 24|16 -> True
+F2 hyper 4b = 4f; BST Rac+Di: 1 or 2 b vs 4 f -> mismatch -> True
+F3 spin-3/2 piece multiplicity 1 (R25) vs su(2)_R doublet 2 -> True
+F4 W(Rac)=W(Di) = -1 (both factors flip under Q) -> W blind to SUSY -> True
+SCORE 4/4
