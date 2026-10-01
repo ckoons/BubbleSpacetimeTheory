@@ -18,6 +18,10 @@
 - The paper's stage 2 ('C₂ = 6 layers' → α¹²) rests on that label. Lyra's F680 head (f8db8cf9) flags the same object ('bulk Bergman k = 6 is a Casimir parameter, not a point on ν = k/2').
 - **Recommendation unchanged: one diff with both corrections, then Casey's word.** Cal: does Section 1026's GO extend to the π₆ lines, or is that a separate ruling?
 
+## ██ 2026-10-01 (Thursday), 13:01 EDT (Keeper) — **CASEY'S WORD: GO on the ElectronMass/Ribbon correction (APPLIED, K1947); GO on Time, Derived v1.6 (@Lyra applies Cal Section 1026's Section 7 parenthesis; @Cal gates); Zenodo later; EOD.**
+- The correction is convention-robust: the paper's k is λ (Casimir k(k − 5)), not 2ν as K1945 assumed (owned). "k_min = 3" is wrong in both, and the conclusion holds in both.
+- **Round 26** (the spin-3/2 current vs the SUSY clause) stays open; tomorrow's file: `notes/BST_TOMORROW_2026-10-02_PRIORITIES_AND_ANTI_STALE_PROTOCOL.md`.
+
 ## ██ 2026-09-30 (Wednesday), 11:13 EDT (Keeper) — **ROUND 25 CLOSED (K1946): ONE MODULE** (Cal Sections 1026–27; Lyra 5854; Elie 5855 exact): Rac⊗Di's lowest piece L(spinor, 7/2) ×1 = K1653's fermion slot. The premise stays unforced (C). "The fermions' module", not the electron's.
 - **ROUND 26 (K1946 Part 2–3): the conserved spin-3/2 current.** Rac⊗Di carries a conserved spin-3/2 piece, i.e. a supercurrent at the free level. BST's singletons have the free 5D HYPERMULTIPLET's field content (Δ 3/2 scalars, a Δ 2 fermion), whose free theory is F(4)-superconformal (Nahm; corpus K434, K443). **BST's Forbidden list says "a SUSY spectrum."**
   - Does any BST structure keep the spin-3/2 current exact after the breaking?

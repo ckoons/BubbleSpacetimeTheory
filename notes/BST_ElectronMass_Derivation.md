@@ -4,6 +4,8 @@ author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 ---
 
+> **CORRECTION, dated 2026-10-01 (Casey's GO; Keeper K1945/K1947; Grace R184; Cal Sections 1026–1027).** This paper calls "k_min = 3" the Wallach-set threshold and attributes it to Enright–Howe–Wallach. **That is misattributed in either normalization.** In this paper's own convention (Casimir k(k − n_C), line 125, so k = the scalar weight λ), the scalar Wallach set of D_IV⁵ is {0} ∪ [3/2, ∞), and the holomorphic discrete series (the L² range) is k > n − 1 = 4 (Kobayashi–Pevzner Remark 6.4). In the doubled scale k = 2ν, 3 is the FIRST WALLACH POINT, not an L² threshold. **The conclusion survives and strengthens:** k = 1 lies outside the Wallach set altogether, so no unitary scalar module exists there, and a fortiori the electron is not in the holomorphic discrete series. Every "k_min = 3" below is retired as an attribution, not deleted. Read it as "the electron's k = 1 lies below the Wallach set's first point".
+
 # BST: Deriving the Electron Mass from D_IV^5 Geometry
 # The alpha^{2C_2} Hierarchy from the Wallach Set and Bergman Embedding Depth
 
@@ -21,7 +23,7 @@ $$m_e = C_2 \pi^{n_C} \alpha^{2C_2} m_{\text{Pl}} = 6\pi^5 \alpha^{12} m_{\text{
 
 This note provides the geometric derivation of the exponent 2C_2 = 12. The argument proceeds in three stages:
 
-1. **The Wallach set** (rigorous): The electron, at Bergman weight k=1, is below the Wallach set threshold k_min = 3 for D_IV^5. It is not a normalizable bulk state -- it exists only on the Shilov boundary S^4 x S^1.
+1. **The Wallach set** (rigorous): The electron, at Bergman weight k=1, is below the Wallach set threshold k_min = 3 for D_IV^5 *[attribution corrected 2026-10-01: the Wallach set is {0} ∪ [3/2, ∞) in this paper's k; k = 1 lies outside it — see the head]*. It is not a normalizable bulk state -- it exists only on the Shilov boundary S^4 x S^1.
 
 2. **The Casimir depth** (rigorous): The bulk Bergman space A^2(D_IV^5) = pi_6 has Casimir eigenvalue C_2(pi_6) = 6. Between the electron (boundary, k=1) and the gravitational sector (Planck scale), there are C_2 = 6 independent representation-theoretic "layers" through the Bergman embedding.
 
@@ -68,7 +70,7 @@ The discrete series representations pi_3, pi_4, pi_5, pi_6, pi_7, ... are all un
 
 The electron corresponds to a minimal S^1 winding on the Shilov boundary S = S^4 x S^1. In the Harish-Chandra parameterization, the S^1 factor carries SO(2)-weight k. The electron's minimal winding has k = 1.
 
-**Since k = 1 < k_min = 3, the electron is NOT in the holomorphic discrete series.**
+**Since k = 1 < k_min = 3, the electron is NOT in the holomorphic discrete series.** *[2026-10-01: true a fortiori — k = 1 is outside the Wallach set {0} ∪ [3/2, ∞), and the discrete series is k > 4; '3' is not EHW's threshold]*
 
 This has a precise mathematical consequence:
 
@@ -122,7 +124,7 @@ The discrete series representations of SO_0(5,2) and their Casimir values:
 |----------|---------------|---------------|
 | 1 | 1(1-5) = -4 | Electron (boundary, below Wallach set) |
 | 2 | 2(2-5) = -6 | Below Wallach set |
-| 3 | 3(3-5) = -6 | Wallach set boundary (k_min) |
+| 3 | 3(3-5) = -6 | ~~Wallach set boundary (k_min)~~ *interior of the continuous Wallach range (3/2, ∞); not a boundary (corrected 2026-10-01)* |
 | 4 | 4(4-5) = -4 | Complementary series |
 | 5 | 5(5-5) = 0 | Limit of discrete series (vacuum boundary) |
 | **6** | **6(6-5) = 6** | **Bergman space = proton** |
@@ -397,8 +399,8 @@ Step 5's **exponent** ($2C_2 = 12$) is now structural — the $|\text{amplitude}
 
 | Statement | Status | Source |
 |-----------|--------|--------|
-| D_IV^5 has Wallach set threshold k_min = 3 | **Proved** | Enright-Howe-Wallach; Vergne-Rossi |
-| Electron at k=1 is below Wallach set | **Proved** | k=1 < k_min=3 |
+| D_IV^5 has Wallach set threshold k_min = 3 | ~~**Proved**~~ **RETIRED as stated (2026-10-01)**: the Wallach set is {0} ∪ [3/2, ∞) and the discrete series k > 4 | Enright-Howe-Wallach; Vergne-Rossi |
+| Electron at k=1 is below Wallach set | **Proved** | k=1 < 3/2, the Wallach set's first nonzero point *(corrected 2026-10-01)* |
 | Electron state is not L^2-normalizable on D_IV^5 | **Proved** | Consequence of k < k_min |
 | Electron is a boundary excitation on S^4 x S^1 | **Proved** | Distributional boundary value theory |
 | A^2(D_IV^5) = pi_6 with C_2 = 6 | **Proved** | Harish-Chandra discrete series |
@@ -531,7 +533,7 @@ The derivation:
 
 | Step | Content | Status |
 |------|---------|--------|
-| 1 | Electron is at k=1, below Wallach set k_min=3 | **Proved** (EHW theorem) |
+| 1 | Electron is at k=1, below Wallach set k_min=3 | **Proved** (EHW theorem) *[2026-10-01: below the Wallach set's first nonzero point 3/2; '3' misattributed]* |
 | 2 | Electron is a boundary excitation on S^4 x S^1 | **Proved** (non-normalizability) |
 | 3 | Bergman space pi_6 has C_2 = 6 (Casimir eigenvalue) | **Proved** (Harish-Chandra) |
 | 4 | C_2 = 6 Bergman layers between boundary and bulk | **Proved** (kernel power = Casimir) |
