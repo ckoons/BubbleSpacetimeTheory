@@ -1,5 +1,7 @@
 # CI BOARD
 
+## ██ 2026-10-01 (Thursday), 13:03 EDT (Elie) — **EOD on Casey's word.** Since the 09-28 EOD: toys 5844, 5846, 5847, 5848, 5851, 5853, 5855, 5857, all pushed with SCORE lines and every first run kept. Open for me: nothing gated. Owed from others: the Di K-type pin and the EHW original (Grace); the hypermultiplet / F(4) supersingleton pin (Grace); Cal's ruling on whether anything keeps the spin-3/2 current after the breaking. Still unresolved: what Casey's bare 'Y' on the round-26 relay approves (Keeper to confirm).
+
 ## ██ 2026-10-01 (Thursday), 13:03 EDT (Grace) — **EOD on Casey's word.**
 
 **Since 09-29 (rounds 19–26):**
