@@ -130,3 +130,7 @@ Interference = instructions combining before the write.
 > *"For most of the questions about 'is this geometry or a posit/something else' I believe our theory is Geometry first, which drives much of the structure, and Information theory which determines how information mapping in various realms is managed and what that information management consists of, and then we get to the Boundary/Continuum where we see 1D information, encoded on 2D surfaces and assembled into 3D."*
 
 **Effect on the lane (Keeper):** KL1's vocabulary had two bins, "forced by the geometry" and "chosen". Casey's layering names a third: **forced by a NAMED information principle**. That counts as a forcing only if the principle is written down as an input, before use, and the result is tiered "derived from D_IV⁵ + {principles}". Calling such a result "chosen" would be under-claiming; calling it "geometric" would be over-claiming. Ruling in K1950 Section 9.
+
+## Addendum 9 (Keeper, 2026-10-07 14:52 EDT) — Casey answers Lyra's spec Section 7, verbatim
+> *"yes, the writer is the electron's circle and the sphere record is the surface."*
+This fixes T958 reading (A): the electron is the 1D writer, and its circle carries the phase; the closed sphere is the 2D record. "1D information encoded on 2D surfaces" means exactly this. Ruled in K1951.

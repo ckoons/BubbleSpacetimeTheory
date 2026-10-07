@@ -56,7 +56,7 @@ $$I_n(\rho) = \int_0^\infty dt\, t^{-2}\, K_{S^4}(t)\, e^{-\pi^2 n^2 \rho^2 / t}
 **Saddle point analysis:** At $\rho = 137$, the saddle is at $t^* = \pi n \rho / 2 \approx 215$ (for $n=1$). At this value, $K_{S^4}(t^*) \sim e^{-4 \times 215} = e^{-860}$. The dominant exponential factor is:
 $$I_n(137) \sim e^{-4\pi n \times 137} = e^{-1722 n}$$
 
-For $n=1$: $I_1(137) \sim 10^{-748}$. **Numerically zero.**
+For $n=1$: $I_1(137) \sim 10^{-748}$. **Numerically zero.** *[Corrected 2026-10-07, Elie toy 5862: this is the $l \ge 1$ part only. With the $l = 0$ zero mode, which the code includes, $I_1(137) \approx 1/(\pi^2 \rho^2) \approx 5.4\times10^{-6}$, and the winding piece is the circle Casimir term $-1/(6\rho)$.]*
 
 The finite Casimir piece is only significant for $\rho \lesssim 5$:
 
@@ -131,7 +131,7 @@ The regularized sum $\zeta_{S^4}(-1) = +0.015170$ determines the UV Casimir coef
 |---|---|---|
 | $\alpha = 1/137$ from Wyler | **Confirmed** | — |
 | $\zeta_{S^4}(-1)$ via Hurwitz | **Confirmed** | — |
-| Winding modes negligible for $\rho \gg 1$ | **Proved** | — |
+| Winding modes negligible for $\rho \gg 1$ | ~~**Proved**~~ **Computed, corrected 2026-10-07** (Elie 5862: with the zero mode the winding piece is $-1/(6\rho)$, ~0.3% at 137, not $10^{-748}$; negligible for the minimum question) | — |
 | Casimir min at $\rho = 137$ from UV+winding | **Ruled out** | — |
 | Casimir stability from Bergman weighting | **Superseded** | See Section 6 below |
 | Physical units $R_b$, $R_s$ | **Open** | Follows from Wyler ratio |

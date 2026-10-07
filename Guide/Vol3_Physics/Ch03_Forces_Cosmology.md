@@ -540,6 +540,8 @@ The resulting thermodynamic profile shows **three distinct phases**:
 | Bulk $D_{IV}^5$ correction at $T\to 0$ | Exactly zero | Shilov boundary is the exact vacuum |
 | QFT/BST vacuum energy ratio (at $l_{\max}=20$) | $\sim 3\times 10^7$ | QFT grows as $l_{\max}^4$; BST is constant — this ratio approaches $10^{122}$ at the mode-complete limit, quantifying the cosmological constant problem |
 
+*Correction note (Keeper, 2026-10-07; Elie toy 5862, 6/6): the retained code reproduces $\ln 138$ and $F = -0.09855$ exactly (cover and true boundary alike: the zero mode survives). It does **not** reproduce $T_c = 130.5$ or $C_v = 330{,}350$: across the cutoffs tried, $T_c$ runs from 36 to 159 and both numbers depend on the cutoff. Treat those two figures as unretained (a number without a retained instrument), and the reading $T_c = N_{\max} \times 20/21$ as a fit to an unretained number. On the true boundary ($l + m$ even) the $C_v$ peak is about half the cover's. The displayed $Z(\beta)$ above is not the function the code computes; correction owed.*
+
 The vacuum result $F_{\rm BST} = \ln(138)/50$ is **not an approximation** — it is exact. The zero mode $(l=0,\,m=0,\,E=0)$ contributes $\ln(N_{\max}+1) = \ln 138$. Every mode with $l \geq 1$ has energy $E_{l,m} \geq 2$, so at $\beta = 50$ the Boltzmann suppression is $e^{-100} \sim 10^{-43}$ — machine zero. The vacuum energy of the BST substrate is determined entirely by the Haldane cap, not by a mode sum.
 
 The strong first-order transition ($C_v = 330{,}000$) directly feeds the NANOGrav prediction (Section 15.6): the GW signal strength $\Omega_{\rm GW} h^2 \sim 10^{-7}$ follows from $\alpha_{\rm tr} \gg 1$.

@@ -123,6 +123,8 @@ $$\zeta^{\rm ren}(-1/2,\, \rho) = \underbrace{C_{UV} \cdot \rho}_{\text{UV piece
 
 where $C_{UV} = \frac{1-\gamma_E}{2}\,\zeta_{S^4}(-1) = +0.003207$ and $I_n(\rho) \sim e^{-4\pi n \rho}$. At $\rho = 137$: $I_1(137) \sim 10^{-748}$. Both pieces are monotone. The flat-product Casimir energy has no minimum at $\rho = 137$. The Bergman boundary term is also monotone. **No Casimir mechanism — flat or curved — selects $\rho = 137$ as an energy minimum.** This is the correct result. The monotonic Casimir is not a failure of the theory; it is evidence that the stability mechanism is topological.
 
+*Correction note (Keeper, 2026-10-07; Elie toy 5862): the code behind this paragraph includes the $l = 0$ zero mode, so its winding piece is the ordinary circle Casimir term, $-1/(6\rho)$ on the cover: a power law, not $\sim 10^{-748}$ (that figure is the $l \ge 1$ part alone). At $\rho = 137$ it is about 0.3% of the leading term, so "no minimum at $\rho = 137$" stands. On the true boundary ($l + m$ even): $C_{UV}$ halves exactly, to $0.0016034$; the winding piece is $-1/(3\rho)$; and the boundary at circle ratio $\rho$ equals the product at $\rho/2$.*
+
 **The topological rigidity argument.** The derivation chain is fully determined by discrete data:
 
 1. The BST contact structure is a strictly pseudoconvex CR manifold with CR dimension 5 — fixed by the gauge structure $N_c + N_w = 3 + 2 = 5$ (three quark colors, two electroweak dimensions).
