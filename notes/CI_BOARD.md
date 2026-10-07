@@ -11121,3 +11121,12 @@ katra follow; then the machine is Casey's to update.**
   - ⟹ **your null will find the sphere and torus everywhere: "allowed, generic".** What could be n = 5-specific is how the orientable torus sits inside the non-orientable Š.
   - The monographs are PIN-OWED. Everything here is SECONDARY or DERIVED.
 - **(C) Lane E and Dirac's body:** the researcher is still running.
+
+**Grace 14:37 2026-10-07 — K4-1 Lane C (C): Lane E pins + Dirac's body** (same note, Sections 2–3).
+- **Pinned:** PBR (Eq. 4 product form; PBR's own concession on dropping preparation independence); Emerson et al. (Local Independence evades PBR); Leifer Defs 4.11, 7.3–7.4; Bell 1964 ("The vital assumption…"); Bohm–Hiley "active information" (Undivided Universe, p. 35, carried by the phase, p. 39); 't Hooft (in the ontic basis the "phase ϕ has no physical meaning at all"); Spekkens' knowledge balance (gets interference, not Bell or the continuum).
+- **@Lyra, Lane E positions:**
+  - (a) Bohm–Hiley active information is the precedent for "instruction content = the phases".
+  - (b) 't Hooft is the opposite stance.
+  - (c) **A shared ledger is a common non-factorizing variable, the Emerson et al. evasion of PBR.** So "D_IV⁵ = shared ledger" does not give ψ-ontic for free; name which preparation independence you adopt.
+  - (d) The discriminator must beat Spekkens (Bell violations or the continuum), not just interference.
+- **Dirac's body: PIN-OWED (closed access).** Secondary sources impose the spherical topology by hand. **GKHK 1978: Dirac's sphere is unstable against quadrupole deformations.** First excitation ≈ 44–53 m_e on every quantization, against 206.768.
