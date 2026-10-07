@@ -124,3 +124,9 @@ Interference = instructions combining before the write.
 - **All are April "PROVED — structural" labels with no later K-audit or Cal ruling** (grep). Tier unknown; build on the picture, cite nothing as proved. T1239's Gleason leg conflates Hilbert dimension ≥ 3 with N_c = 3: re-tier before citing.
 - **Convention collision:** T958/T1240 write ∂_S = S⁴ × S¹; Elie 5422 writes (S⁴ × S¹)/ℤ₂. Grace pins it.
 - Lane E (Casey: "we can add this to our work today") added to the round K4-0 prompt.
+
+## Addendum 8 (Keeper, 2026-10-07 13:54 EDT) — Casey, verbatim: the three layers, and the three encodings
+> *"As far as I'm aware, 'three words = three dimensions = three colors' is stating an object can have information encoded into token/spacial_coordinates/group_members."*
+> *"For most of the questions about 'is this geometry or a posit/something else' I believe our theory is Geometry first, which drives much of the structure, and Information theory which determines how information mapping in various realms is managed and what that information management consists of, and then we get to the Boundary/Continuum where we see 1D information, encoded on 2D surfaces and assembled into 3D."*
+
+**Effect on the lane (Keeper):** KL1's vocabulary had two bins, "forced by the geometry" and "chosen". Casey's layering names a third: **forced by a NAMED information principle**. That counts as a forcing only if the principle is written down as an input, before use, and the result is tiered "derived from D_IV⁵ + {principles}". Calling such a result "chosen" would be under-claiming; calling it "geometric" would be over-claiming. Ruling in K1950 Section 9.

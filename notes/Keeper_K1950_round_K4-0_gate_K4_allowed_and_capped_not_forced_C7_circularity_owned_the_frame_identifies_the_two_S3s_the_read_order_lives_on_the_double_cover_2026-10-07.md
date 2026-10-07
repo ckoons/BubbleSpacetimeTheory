@@ -91,3 +91,24 @@ Most uses are harmless (winding numbers). **Plan, not executed:**
 - **Grace:** Lane E pins (PBR, Bell, Bohm–Hiley, 't Hooft, Spekkens).
 
 **Counter next: K1951.**
+
+## 9. Amendment (Keeper, 2026-10-07 13:54 EDT): Casey's three layers; Lyra's three encodings; Grace's Dirac pin
+**(a) A third bin for "forced".** Casey: geometry first, then information theory (how information is mapped and managed), then the boundary/continuum (1D values on 2D surfaces, assembled into 3D). **Ruling:** a K4 property is FORCED-BY-PRINCIPLE when a named information principle, written before use, forces it. Its tier reads "D_IV⁵ + {P1, …}", and the principles are counted as inputs (enumerate-inputs rule). Under this, KL1 has three outcomes, not two: geometric / by named principle / chosen. Candidate principles for the sphere record, to be written by Lyra, not assumed:
+- **(P-closed)** a committed record has no dangling edge: every edge borders two faces;
+- **(P-minimal)** the record is the smallest such surface.
+Together these give the tetrahedron boundary, i.e. K4. Genus is NOT fixed by them; Casey's torus records are the genus-1 case, and on a torus planarity allows K7 (Cal KL1). The words-vs-instructions split must say which genus each is.
+
+**(b) Grace (708a3381): Dirac merges R1 and R2 into one posit, "the record surface is a closed sphere."** Agreed: the minimal sphere triangulation and the largest complete graph on the sphere are both K4. Dirac's own record is pinned honestly (muon ≈ 53 m_e vs 206.77; no spin; size). Davidson–Paz's "four scalars, three varieties" is caged (Grace's new rule: a hand-made last step is named as the posit; adopted).
+**Grace's rank-two lead, with Keeper's addition (both from memory, PIN-OWED):** the rank-2 totally geodesic sub-domain D_IV² ≅ H × H. Its compact dual is the quadric Q² ≅ S² × S² (two 2-spheres); its Šilov boundary is a 2-torus. **If confirmed, the sphere and the torus both appear in the same sub-geometry**: spheres on the compact-dual side, a torus on the boundary. Generic to every D_IV^n with n ≥ 2, so it is allowed, not forced by n = 5 (Cal's genericity; Grace's null across rank-two domains).
+
+**(c) Lyra's three encodings. Antecedent, verbatim:** *"The groups nest: S₃ ⊂ SO(3) ⊂ SU(3). Permutation matrices sit inside the rotations (after fixing signs)…"* and *"At the token level, an odd permutation flips the determinant's sign; only the even ones, A₃ = ℤ₃, preserve it. So if a committed triple must be invariant, only cyclic reorderings of its three words are allowed. That gives one orientation, fixed everywhere."*
+- The nesting is right. S₃ embeds in SO(3) by σ ↦ sgn(σ)·P_σ, SO(3) is the real subgroup of SU(3), and the image lies in N(T) and maps onto the Weyl group of SU(3).
+- **The two arguments use DIFFERENT embeddings of S₃** (Keeper, computed, all six permutations):
+  - **signed** permutations (the ones that nest in SO(3) ⊂ SU(3)) preserve ε_abc for ALL six, so no orientation is selected;
+  - **bare** permutations (in U(3), not SU(3)) preserve ε only for A₃, so an orientation is selected.
+- **So the nest and the orientation cannot both come from one embedding.** The odd permutation's sign lives in det = the U(1) factor of U(3) = (SU(3) × U(1))/ℤ₃.
+- **Position (not a result):** the read orientation is selected if and only if the committed record is sensitive to the determinant PHASE. That phase is a U(1), which points at the one circle (J = clock = chirality, Lyra R3 09-25).
+- Also, at the ρ = vv† level the sign squares away: orientation is an amplitude-level fact (Lyra's own level-mismatch point 2).
+- **MODERATE gap, owed by Lyra in the spec:** pick the embedding; if bare, say what puts the token level outside SU(3).
+
+**(d) Cage line updated as Lyra asked:** "three words = three dimensions = three colours" is now an ISOMORPHISM CLAIM. Exhibit the maps between tokens, coordinates and group members; show the geometry or a named principle forces each; name which K4 "3" is used (Cal: seven K4 invariants equal 3).

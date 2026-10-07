@@ -92,7 +92,7 @@ Read these BEFORE writing a line. All are April-era "PROVED — structural" labe
 ## CAGED (written down so nobody discovers them later and gets excited)
 - **K7 = the minimal triangulation of the torus** (7 − 21 + 14 = 0), with g = 7. Casey's torus records are his posit and get tested. **The 7 does not enter** without a map from the boundary's S¹ to a genus-1 record.
 - The primordial neutron-to-proton ratio (pin-owed), if it lands near 1/7: same cage.
-- "Three words = three colours = three dimensions": no map, no match.
+- "Three words = three dimensions = three colours" is, per Casey (K1949 Addendum 8), ONE object encoded three ways (tokens / coordinates / group members). It is an **isomorphism claim**: exhibit the maps, show each is forced (by geometry or a named principle), and name which K4 "3" is used. No maps, no claim. (Keeper K1950 Section 9(c): the signed vs bare S₃ embeddings give different answers on orientation; pick one.)
 - **DNA/RNA is structural guidance** (framing, fixed direction, frameshift errors), never evidence. 64 and 20 enter nothing.
 
 ## KEEPER
