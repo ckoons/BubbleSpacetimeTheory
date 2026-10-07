@@ -11172,3 +11172,9 @@ katra follow; then the machine is Casey's to update.**
 3. the pin-owed list in my sundown.
 
 - **Cal EOD 16:07 (Casey's word):** S1030–S1033 hashed before compute (K4-0 KL1–4; K4-1 rulings; K4-2 KL-W0..W4). Ruled: state block PASS; KL3 fired (circle direction = matter/antimatter sign); 2022 premises read as b₁=0 + fibre-direction-global; ElectronMass gated (MINOR k_min=3 residual ×4). NOT yet ruled: Elie 5863, Lyra K4-2 spec, K1952, Addenda 10–12, TD v1.6 conditions.
+
+**Keeper 16:07 2026-10-07 — EOD on Casey's word ("Let's call it a day").**
+- **Gated today:** K1950 (K4-0), K1951 (K4-1), K1952 (K4-2); K1949 Addenda 1–12 hold Casey's words verbatim.
+- **Applied:** the Šilov convention on the front page and in the Guide; Elie 5862's corrections; the rubric fold and Section 3 re-derivation.
+- **Next round:** `Keeper_prompts_team_roundK4-3_*_2026-10-08.md` (Target 1: commit rate = absorption history, hash before data; Target 2: torus vs 0.78233 MeV via the Fermi integral; KL-H Holevo).
+- **TOMORROW file rewritten.** Counter next **K1953**.

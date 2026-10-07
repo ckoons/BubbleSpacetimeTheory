@@ -1,22 +1,34 @@
 # BST TOMORROW — next session after 2026-10-07 — PRIORITIES AND ANTI-STALE PROTOCOL
-*Written by Keeper at EOD on 10-07 (10:27 EDT; Casey: "do an EOD").*
+*Rewritten by Keeper at the second EOD on 10-07 (16:06 EDT; Casey: "Let's call it a day"). This replaces the 10:27 version, whose items 1–3 all moved this afternoon.*
 
 ## Start of day
-- Run `date`. Read the rubric (Section 2's 10-07 fold; Section 3's 10-07 re-derivation, item (f)), THIS file, your sundown, the board.
-- Pull with `git pull --rebase --autostash BubbleSpacetimeTheory main` (a bare pull races; unstaged counter files block a plain rebase).
-- Anti-stale: `git log --since=2026-10-07T10:27`.
+- Run `date`.
+- Read the rubric: Section 2's **10-07 15:29** entry (the K4 lane) and Section 3's **10-07 15:29** re-derivation. Then THIS file, your sundown, and the board.
+- Pull with `git pull --rebase --autostash BubbleSpacetimeTheory main`.
+- Anti-stale: `git log --since=2026-10-07T16:00`.
 
 ## Open, in order
-1. **THE NEW LANE (Casey 10-07): the boundary process end to end, K4 as the candidate atom of information.** Plan and kill lines: `notes/Keeper_K1949_*`.
-   - **K4-0 first:** Lyra writes the boundary object's spec WITHOUT naming K4; Grace pins the Šilov boundary data ((S⁴×S¹)/ℤ₂, the ℤ₂, the K-action) and the prior art (quantum tetrahedron, Regge, CDT, spin networks, causal sets). Cal hashes K4-1's kill line before Elie computes.
-   - Success, Casey's words: "improve our ability to project physics into the continuum." First projection target: the filling law.
-   - The Google-model draft is input as questions only.
-2. **Casey's word owed:** the ElectronMass dated diff (Cal Section 1029 Part B; strike two "Proved" rows; stage 2 → Identified; four-file sweep). Elie offers toy 5858 first.
-3. **GO, not applied:** Time, Derived v1.6 (Lyra; Cal gates).
-4. **K1948 M2:** where colour sits in Rac⊗Di (Lyra), then 5857's count on it (Elie). It also feeds K4-2 (which singleton carries what at the write event).
+1. **Round K4-3, the cycle and the projection.** Prompt: `notes/Keeper_prompts_team_roundK4-3_the_cycle_and_the_projection_commit_rate_from_absorption_history_2026-10-08.md`. Casey relays it.
+   - Target 1: the commit rate as the cosmic absorption history, giving a growing commit fraction for the filling law. **Rate law hashed before any number is read.**
+   - Target 2: the torus record vs 0.78233 MeV, using the Fermi integral, not E₀⁵.
+   - Kill lines: Holevo (KL-H); KL4 unchanged.
+2. **Closing items (no Casey word needed):**
+   - Cal's pass on Time, Derived v1.6 (Condition 2 inserted, 22e7d33b), after which it is DONE;
+   - Grace: the four "k_min = 3" lines, and the Guide Z(β) display from Elie 5863.
+3. **Register:** Cal S1033 and Lyra K4-2 lack rows. Run `play/keeper_register_nightly.sh`.
+4. **Carried:** K1948 M2 (colour placement in Rac⊗Di); the R1 red-team.
 
 ## Waiting on Casey
-- The ElectronMass diff; Zenodo (staged); frontier vs book is now answered for the near term: the new lane.
+- Nothing blocking. Zenodo is DEFERRED ("too early").
+- Casey's delegation stands: cleanups Keeper judges important run (10-07).
 
-## Since 10-02, in one paragraph
-Round 26 CLOSED (Cal Section 1029; K1948): "no SUSY spectrum" is a consequence by one route (counting), tier C; Λ > 0 forbids only exact SUSY; colour placement owed. The ElectronMass paper's stage 2 lost its derivation (A² = π₅ with C₂ = 0; the kernel route gives α¹⁰); the formula stays at tier I pending Casey's diff. The scorecard was folded through 10-02 (it had not moved since 09-26). Casey opened the boundary-process / K4 lane.
+## 10-07 in one paragraph
+Casey opened the boundary-process lane, with K4 as the atom of information, and four rounds ran in one day.
+- **K4 is forced by NAMED principles** (one-channel from Casey's 2022 argument, closed, minimal), not by the geometry, which allows and caps it.
+- **The writer is the electron's circle, the record a closed sphere.** One photon carries the information. The three faces at the frame vertex are the three dimensions, and the fourth face is the closure checksum (exact). Casey's faces and Lyra's vertices are one self-dual object.
+- **Three is the fewest states with a gauge-invariant phase** (Lyra; Keeper verified).
+- **The read order is global,** and is the matter/antimatter sign, not handedness.
+- **Front page:** the Šilov boundary went up as (S⁴ × S¹)/ℤ₂ (Cal PASS). The l + m even recheck exposed two unretained Guide figures and a wrong 10⁻⁷⁴⁸.
+- **ElectronMass:** stage 2 relabelled Identified.
+- **Time, Derived v1.6:** applied, pending Cal's pass.
+- **Owned by Keeper:** C7's circularity; the momentum candidate (killed); "read order on the cover" (retracted); "Internal C has no artifact" (it was banked 08-17).
