@@ -101,3 +101,26 @@ Grace pins the Šilov boundary's data (the ℤ₂, the K-action on it) from the 
 > *"As far as torus shaped record, I suspect that when matter is emitted the records are perhaps shaped as toruses for more complex nucleons. It may be that only hydrogen nuclei (protons) are emitted, but then how would a neutron occur, the 'assembly instructions' may require a torus."*
 
 **Keeper:** the torus is now Casey's posit, not a numerology find; it gets a test, not a wave-through. Sphere record (K4, genus 0) = the proton / hydrogen; torus record (genus 1) = the assembly instructions that let a neutron persist. Supporting shape: a free neutron decays; it is stable only bound in a nucleus. **Still caged:** K7 = the minimal torus and g = 7; the primordial n/p ratio (pin-owed) if it lands near 1/7. Neither enters without a map from the boundary's S¹ to a genus-1 record. Team prompt: `Keeper_prompts_team_roundK4-0_the_boundary_process_K4_words_2026-10-07.md`.
+
+## Addendum 6 (Keeper, 2026-10-07 13:36 EDT) — Casey, verbatim: a new reading of the wave function
+> *"Can we come up with a new interpretation for 'wave functions'. It seems the continuum attempts to understand the discrete processes using fuzzy real numbers, and uncertainty is a resolution limit. Is there a more full definition of a wave function that includes 'assembly instructions' that we might find?"*
+
+**Keeper's candidate definition (a position, for the team):** ψ = v ∈ H²(D_IV⁵) carries two parts:
+- the **record content**, ρ = vv†, which is what commitment writes (the Born square is already the record's bilinearity);
+- the **instruction content**, the relative phases that ρ forgets (K1926: the record loses q; Casey 09-25: "the record keeps the measurement, forgets the potential").
+Interference = instructions combining before the write.
+
+**A real mathematical link to the torus posit:** a phase around a closed loop (holonomy; Aharonov–Bohm, Berry) needs a loop that cannot be shrunk. H¹(S²) = 0 and H¹(T²) = ℤ². A sphere record has no room for loop-phase instructions; a torus record has two independent ones. The Šilov boundary's S¹ is where a U(1) phase lives. Position, not evidence.
+
+**Kill lines / walls to face (pins owed, Grace):**
+- **PBR (Pusey–Barrett–Rudolph):** "ψ is only fuzzy knowledge of a discrete state" (ψ-epistemic) is excluded under preparation independence. "Instructions are real" is a ψ-ontic reading and survives; say which.
+- **Bell:** a discrete underlying process must be nonlocal or superdeterministic. The shared ledger (D_IV⁵ as one global object) is a candidate nonlocality; say so explicitly.
+- **Heisenberg is a property of the state (Fourier), not only of the measurement.** "Resolution limit" must reproduce preparation uncertainty, not just instrument limits. The 09-15 discriminator (bounded quantization floor vs CQ diffusion) is the test; its toy is still owed.
+- **Prior art:** Bohm–Hiley "active information" (the wave function as information that guides: nearest to "assembly instructions"); 't Hooft's cellular-automaton interpretation (discrete beneath, QM as the continuum description); Spekkens' toy model (uncertainty from a knowledge limit). Novelty only after these are read.
+
+## Addendum 7 (Keeper, 2026-10-07 13:40 EDT) — corpus reconnect: April already holds versions of today's picture
+- **T958 (04-10):** neutron = S⁴ × S¹ (proton S⁴, electron S¹; β-decay = factorization). Casey asked then: "Does the universe only create neutrons?" Today: "only protons emitted?" **Both put the loop in the neutron and none in the proton**, which matches Addendum 6's holonomy point. The open question becomes the DIRECTION of assembly.
+- T1239 (Born rule = reproducing property), T1240 (decoherence = approach to the Šilov boundary), T1241/T1255/T1238 (weak force = error correction; neutrino = error syndrome) are earlier forms of Lane E and of "grammar / residue".
+- **All are April "PROVED — structural" labels with no later K-audit or Cal ruling** (grep). Tier unknown; build on the picture, cite nothing as proved. T1239's Gleason leg conflates Hilbert dimension ≥ 3 with N_c = 3: re-tier before citing.
+- **Convention collision:** T958/T1240 write ∂_S = S⁴ × S¹; Elie 5422 writes (S⁴ × S¹)/ℤ₂. Grace pins it.
+- Lane E (Casey: "we can add this to our work today") added to the round K4-0 prompt.

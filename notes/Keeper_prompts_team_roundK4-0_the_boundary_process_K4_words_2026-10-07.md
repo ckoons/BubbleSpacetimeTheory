@@ -63,6 +63,32 @@ Our interior work is strong; we have no process for the two-sided Šilov boundar
 - **KL4 (Casey's test):** a K4 projection that reproduces only what the Szegő kernel already gives is a relabel, not progress.
 - **Cal's position-vs-value bar on every number in the lane.**
 
+## CORPUS RECONNECT (Keeper, added after the prompt was issued) — April already holds early versions of today's ideas
+Read these BEFORE writing a line. All are April-era "PROVED — structural" labels, never re-audited under the current tier regime (Keeper grep: no K-audit or Cal ruling cites T958). **Treat each as tier-unknown: build on the picture, cite nothing as proved.**
+- **T958 (2026-04-10), the neutron as Šilov-boundary composite:** neutron = S⁴ × S¹, proton = S⁴, electron = S¹, β-decay = the factorization. Casey's question then: "Does the universe only create neutrons?" **Today he asked the reverse (only protons emitted?).** Both readings put a loop (the S¹) in the neutron and none in the proton, which is the torus/holonomy point of Addendum 6. The direction of assembly is now the open question.
+- **T1239, the Born rule as the Bergman kernel's reproducing property.** Lane E's "record = vv†" builds on it; do not re-derive. (Keeper flag: its Gleason leg reads "dim ≥ N_c = 3"; Gleason needs Hilbert-space dimension ≥ 3, which is not N_c. Re-tier before citing that leg.)
+- **T1240, decoherence as the approach to the Šilov boundary** (interior = quantum, boundary = classical). This is the instruction-erasure step of Lane E.
+- **T1241 (weak force as error correction), T1255 (neutrino as error syndrome), T1238.** These are earlier forms of Casey's "weak = grammar" and "neutrino = residue".
+- **Convention collision to pin (Grace, B5):** T958/T1240 write the Šilov boundary as S⁴ × S¹; Elie 5422 has (S⁴ × S¹)/ℤ₂. One is the double cover. Pin it before anyone uses "the S¹" or "the ℤ₂".
+
+## LANE E — the wave function as record + assembly instructions (Casey 10-07, added to today's work; K1949 Addendum 6)
+- **Candidate definition:** ψ = v ∈ H²(D_IV⁵) = **record content** (ρ = vv†, written at commitment, T1239) + **instruction content** (the relative phases that ρ forgets, K1926). Interference = instructions combining before the write. Measurement keeps the record and erases the instructions (T1240).
+- **Topology link:** loop-phase instructions need a non-contractible loop: H¹(S²) = 0, H¹(T²) = ℤ². Sphere record = content only; torus (or S⁴ × S¹, T958) = content + instructions.
+- **Lyra:** write the definition properly. State whether it is ψ-ontic (it must be; see PBR). Say exactly what the instructions are in H² terms: phases? the S¹ (K-type) grading? the q that K1926's record loses?
+- **Grace (pins):**
+  - PBR (Pusey–Barrett–Rudolph, the ψ-epistemic no-go and its preparation-independence assumption);
+  - Bell, and where a global ledger sits (nonlocal vs superdeterministic);
+  - Bohm–Hiley "active information";
+  - 't Hooft's cellular-automaton interpretation;
+  - Spekkens' toy model.
+- **Elie:**
+  - the 09-15 discriminator toy, still owed: a bounded quantization floor (N_max/τ₀) vs CQ diffusion (Gaussian, accumulating). It must reproduce PREPARATION uncertainty (Fourier), not only instrument limits.
+  - Then exact: does a torus-carried phase pair reproduce a two-path interference pattern that a sphere record cannot?
+- **Cal, kill lines:**
+  - **KL5:** a ψ-epistemic reading dies on PBR unless the violated assumption is named.
+  - **KL6:** "uncertainty = resolution limit" dies if it gives only measurement uncertainty and not preparation uncertainty.
+  - **KL7:** "instructions" must predict something the standard phase does not, or it is a relabel (KL4's twin).
+
 ## CAGED (written down so nobody discovers them later and gets excited)
 - **K7 = the minimal triangulation of the torus** (7 − 21 + 14 = 0), with g = 7. Casey's torus records are his posit and get tested. **The 7 does not enter** without a map from the boundary's S¹ to a genus-1 record.
 - The primordial neutron-to-proton ratio (pin-owed), if it lands near 1/7: same cage.
