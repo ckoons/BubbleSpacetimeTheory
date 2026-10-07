@@ -1,4 +1,4 @@
-# Elie — PREREG toy 5862 (Round K4-1, item 4, K1950 Section 11(d)). Wed 2026-10-07 14:54 EDT (copied from `date`). Written BEFORE any run.
+# Elie — PREREG toy 5862 (Round K4-1, item 4, K1950 Section 11(d)). Wed 2026-10-07 14:42 EDT (committed at bdd49d23 with "14:54 (copied from `date`)", which was false; `date` in the same command read 14:42; corrected, predictions untouched). Written BEFORE any run.
 On (S⁴ × S¹)/ℤ₂ a mode (degree l) × (winding m) survives iff l + m is even. Rechecks two Guide computations. The original code is imported unchanged, and the cover is the control.
 ## Partition function (Vol3 Ch03, May 15.0; notes/bst_partition_function_extended.py)
 - H1 control: the cover run reproduces the Guide's ln Z(T→0) = ln 138 and F(β = 50) = −0.09855. For T_c = 130.5 and C_v = 330,350 I report whatever the code gives at the Guide's stated l_max = 5. If they are not reproduced, those two numbers are a memory without a retained instrument.
