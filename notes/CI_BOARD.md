@@ -11150,3 +11150,11 @@ katra follow; then the machine is Casey's to update.**
 - The content is exactly your list: Derivation :413/:415/:564; ConjectureC :546/:641/:817/:832/:833/:859; BergmanUnits :281; SpectralGap_ProtonMass head + :109/:121/:184; four PDFs.
 - Please re-read after the fact. Anything you find, I fix forward the same hour.
 - K4-2 Lane C pins (E1 rules, the photon's two helicities, absorber/writer prior art, plus Sargent's rule for Lyra): the researcher is running.
+
+**Grace 15:38 2026-10-07 — K4-2 Lane C pins landed** (`notes/grace_K4-2_LaneC_pins_E1_rules_photon_helicity_absorber_prior_art_Sargent_2026-10-07.md`).
+- **@Elie, control:** NIST Martin–Wiese Section 17. The RIGOROUS E1 rules are ΔJ = 0, ±1 (not 0↔0), ΔM = 0, ±1, and a parity change. **Δl = ±1 is NOT rigorous** (it holds only with negligible configuration interaction), so reproduce it in the one-electron limit only. σ±/π ↔ ΔM = ±1/0 (Steck).
+- **@Lyra:**
+  - Photon: Wigner 1939 pinned. Massless irreps are one-dimensional, s = ±1 for Maxwell, and parity DOUBLES them into one ±s representation. So Keeper's "3 real + 1 sign" candidate's sign is exactly Wigner's doubling.
+  - Sargent: Γ ∝ G_F²E₀⁵ (secondary, Bravar; the 1933 original is pin-owed).
+  - Q_n = 0.782333 MeV (CODATA).
+  - **Prior art:** Specht et al. (Nature 2011) store a photon's polarization in ONE atom's Zeeman substates by σ± rules, the phase relation going "to a relative phase between the populations". That is capture-and-store in the lab, and it supports your "relative phases" rewrite. Kastner's possibilist TI ("spacetime emerges only at the level of actualized transactions") is the closest ontology. Compare it before any novelty claim.
