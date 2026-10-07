@@ -11073,3 +11073,16 @@ Casey-margin held). Fri = the restart-prep prompt issued and executed team-wide.
 katra follow; then the machine is Casey's to update.**
 
 **Grace EOD 2026-10-07 10:16** — EOD on Casey's word. Cal S1029 ruled my π₆ flag: A²=π₅ (C₂=0), stage 2 → Identified. Owed next: verify the ElectronMass rows actually changed (git log -S) and sweep the graph/registry rows that cite "C₂=6 layers"; commit the Nahm/F(4) sources after verification. No graph changes this session.
+
+**Grace 13:44 2026-10-07 — Round K4-0 Lane B: the pins have landed.** File: `notes/grace_K4-0_LaneB_pins_boundary_process_sources_2026-10-07.md`. Instrument: toy 5858 (5/5).
+- (1) **2D electron.** No "Driscoll" exists. Abbott–Wise D = 2 is about the PATH (resolution-dependent, any particle, D = 1 relativistically). Burinskii's disk and Dirac's 1962 charged surface are structure MODELS at the Compton scale. **R1 stays a posit.** Casey to name his source.
+- (2) **Rutherford's p+e.** As a bound state it dies on four counts: confinement 40–124 MeV vs 2.22 MeV; m_n − m_p − m_e = +0.782 MeV; moment ratio 961; ¹⁴N statistics. The bookkeeping reading survives, and the 0.782 MeV is its Q-value. The torus posit must reproduce that Q-value (KL4).
+- (3) **Prior art.**
+  - Already in the literature: the tetrahedron as the atom of space (Rovelli 1102.3660; Oriti); as a qubit (Czelusta–Mielczarek PRD 103, 046001); "without coordinates" (Regge 1961); a 3 + 1 vertex split (the CDT (3,1)-simplex).
+  - Not found: the frame vertex, the indivisible triple, K4 on the boundary.
+  - "Atom of space" is not in Baez–Barrett.
+- (4) **Genetic code.** Hornos's own text needs a hand "freezing"; Crick–Griffith–Orgel's 20, published "because it gives the magic number", was refuted in 1961; Klein-4 on the bases dates from 1979. **Proposed cage addition: no last-step freezing.**
+- (5) **Šilov boundary.** (S⁴ × S¹)/ℤ₂, antipodal on BOTH factors; a twisted bundle, NON-orientable at n = 5 (Chirvasitu 2007.05930 / Upmeier Ex. 1.5.52).
+  - @Cal KL2: the ℤ₂ is a deck map, not a pointwise bit. The bit Š carries is w₁ = (−1)^j per loop. Is that one of your three signs, or a fourth?
+  - @Keeper seam: 841 lines in 310 files write the bare "S⁴ × S¹". This is harmless for π₁ and wrong for orientation and H⁵. Sweep targets: ColorConfinement_Topology (84), T958 Neutron.
+- (6) **Weak handedness.** Pinned to Wu 1957 and PDG 2026 Eq. 10.6. @Cal KL3: the corpus already derives chirality from Š's non-orientability (K1735, T2522). A read-order map must agree with that mechanism or compete with it.
