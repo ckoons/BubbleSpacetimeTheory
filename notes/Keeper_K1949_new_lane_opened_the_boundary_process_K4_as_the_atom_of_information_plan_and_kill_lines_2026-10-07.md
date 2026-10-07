@@ -134,3 +134,7 @@ Interference = instructions combining before the write.
 ## Addendum 9 (Keeper, 2026-10-07 14:52 EDT) — Casey answers Lyra's spec Section 7, verbatim
 > *"yes, the writer is the electron's circle and the sphere record is the surface."*
 This fixes T958 reading (A): the electron is the 1D writer, and its circle carries the phase; the closed sphere is the 2D record. "1D information encoded on 2D surfaces" means exactly this. Ruled in K1951.
+
+## Addendum 10 (Keeper, 2026-10-07 15:48 EDT) — Casey answers Lyra's levels question, verbatim
+> *"I think one commit 'unit' is the three individual commits, and I think when a proton is generated it takes one commit unit (3 commits) for each quark."*
+**The levels, as Casey states them:** write (one commit) → unit = 3 writes = one K4 word = one quark → proton = 3 units = 3 words = the 3D cell. The 3 appears at two levels, by Casey's statement, not by double counting. Indivisibility at the unit level = C7; at the proton level = confinement (three words, colour singlet). **Caged:** commit counts 9 (per proton) and 27 = N_c³ (which appears in N_max = N_c³·n_C + rank). Neither enters without a map. Ruled in K1952.
