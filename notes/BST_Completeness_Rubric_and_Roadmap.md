@@ -44,6 +44,21 @@ The external rubric is a generic "recover known physics" checklist — necessary
 
 ## 2. Where we are — dual scorecard (honest tiers, post-2026-08-15)
 
+- **★ 2026-10-07 10:20 — FOLD OF 09-27 → 10-02 (rounds 11–26; K1933–K1948; Cal Sections 1000–1029; register v0.29–v0.41). Written by Keeper; this section had not moved since 09-26 (owned: eleven days of rounds outside the checklist, the 08-22 pattern).**
+  - **Net, in one line:** the walls got prices and reached the front page, one front-page species of fake match was relabelled, the SUSY clause moved from asserted to derived (tier C), and one of Casey's papers lost its stated derivation of an exponent. **No new number was derived.** The lane has reached a floor: the third wall says the geometry forces kinematics, not dynamics, so further rounds there sharpen walls rather than produce values.
+  - **External 1 / Internal A–B (what the geometry forces):**
+    - **THE FOUR WALLS ON THE FRONT PAGE** (Cal Section 1017 PASS): kinematics forced, dynamics not; one breaking scale plus the MEASURED m_e/H; no covariant charge, no covariant photon coupling (photon CLOSED, Section 1012); the massless 4D world needs a second length (KK price: 1/R > 30.8 GeV from g−2, > 1.5 TeV from colliders).
+    - **The exact parity is the clock sign Z_t** (W = Z_t·(−1)^F): structure, a selection rule, not observable today. The domain-wall kill FAILED (the doublet is the SU(2) centre; Grace caught it).
+    - **Higgs = the Rac⊗Rac scalar** (Time, Derived v1.5, Casey GO). **The fermions' module = L(spinor, 7/2), the lowest piece of Rac⊗Di**: ν = 7/2 derived GIVEN the two-singleton premise, tier C (round 25). No spinor-family point sits at 7/2.
+  - **External 5 / Internal E (falsifiable):**
+    - **The Forbidden list's "no SUSY spectrum" is now a CONSEQUENCE, tier C** (round 26; Cal Section 1029 closed; K1948). One route only (counting: BST's Rac : Di = 1 : 1, the hypermultiplet needs 2 : 1, convention-independent). Λ > 0 forbids only EXACT SUSY. The condition is stated SU(2)_L-proof. **Open (K1948 M2): where colour sits. If on the Rac, (Rac⊗3) ⊃ a doublet and the count reopens.**
+    - Front door: CLAUDE.md m_p = 6π⁵m_e; "zero free parameters" dropped; the proton radius tiered I.
+  - **Internal D (forced, not fitted):**
+    - **The hidden-input species: 12 front-page rows carried a measured input** (H₀ = √(ω_m/Ω_m) with ω_m measured, and eleven more). Relabelled; the explorer prints MATCH*.
+    - **EHW misattribution corrected** in the ElectronMass and Ribbon papers (Casey GO 10-01).
+    - **ElectronMass stage 2 FAILS AS DERIVED** (Grace flag; Cal Section 1029; Keeper spot-check K1948). The 08-21 kernel fix (N⁻⁵, genus 5) never cascaded. The Bergman space is π₅ (C₂ = 0), not π₆; the kernel-weight route gives α¹⁰, not α¹²; two "Proved" rows (406–407, 538–539) are false. The formula m_e = 6π⁵α¹²m_Pl stands as an identification (tier I). **Casey's word owed on the dated diff; four more files carry "π₆ = Bergman".**
+  - **Internal C (presentation):** Time, Derived v1.5 applied; **v1.6 (GO 10-01) NOT yet applied** as of 10-07 (Lyra; adds Cal Section 1028's line-99 scoping).
+
 - **★ 2026-09-26 12:56 — ROUNDS 5–7 (K1926 amendments, K1927–K1929; Cal Sections 989–992; falsifier register v0.27–v0.28; Grace R164–R165). External 5 (falsifiers) moved; Internal "container yes, mechanism open" advanced at the boundary.**
   - **SCORECARD GAP OWNED:** this section's last entry before this one is 09-14. The 09-15 → 09-25 work (A9 run 1 = Landing C, not decidable, K1910/K1911; the ledger picture: Λ = consistency with GR, the filling law OPEN, K1919–K1921; register rows A10–A13) is recorded in K-audits and the register but was never folded here. **Re-derive Section 3 before planning from it.**
   - **External, falsifiers (register v0.28):**
@@ -230,6 +245,13 @@ The external rubric is a generic "recover known physics" checklist — necessary
 ---
 
 ## 3. The task list to complete BOTH rubrics (next few months)
+
+> **RE-DERIVED 2026-10-07 10:20 (Keeper; Section 2 moved — the 09-27 → 10-02 fold). Supersedes 09-26.**
+> - **(a) Casey's words owed, in order:** (1) the ElectronMass dated diff (head with corrected objects; strike the two "Proved" rows; stage 2 → Identified; sweep 4 files: BergmanUnits, ConjectureC_MassProof, BOOKDAY_LEDGER item 3, UniverseNeutron_ThinkingLog). Lyra drafts, Cal gates, Keeper checks. Elie's toy 5858 (kernel exponent from monomial norms, type-I control) is offered as the rerunnable number. (2) Frontier vs book (Elie and Cal lean book; Lyra names the filling law as the one frontier lane with a named obstruction). (3) Zenodo (staged).
+> - **(b) Applying, already GO:** Time, Derived v1.6 (Lyra; Cal gates).
+> - **(c) One check owed:** K1948 M2, colour placement in Rac⊗Di, then 5857's count on it (Lyra places, Elie counts). Until then the SUSY clause carries "given the colourless content".
+> - **(d) Before the book (Cal):** clean the false "Proved" rows a reader would meet first; run R1 (red-team) at the same time.
+> - **(e) The singleton/walls lane is at its floor.** No further round there without a NEW POSIT, stated as one.
 
 > **RE-DERIVED 2026-09-26 12:57 (Keeper; Section 2 moved today — rounds 5–7). Derived from the scorecard entry above; round 7 is in flight.**
 > - **(a) PACKAGING, highest priority. A DERIVED row now carries a fired falsifier.** The state block and Lecture 07 list the Cabibbo angle λ = 1/√20 as "derived given an identified input". A2 (the same λ, with |V_ud| = √(19/20)) FIRED on K_μ2 at FLAG precision (K1928, certified). Every presentation site that shows λ = 1/√20 must carry "A2 fired on K_μ2; FLAG 2027 decides" beside it:
