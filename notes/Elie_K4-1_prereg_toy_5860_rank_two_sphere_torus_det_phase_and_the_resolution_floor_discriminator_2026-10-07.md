@@ -1,4 +1,4 @@
-# Elie — PREREG toy 5860 (Round K4-1, Lane B). Wed 2026-10-07 14:36 EDT. Written BEFORE any code.
+# Elie — PREREG toy 5860 (Round K4-1, Lane B). Wed 2026-10-07 14:34 EDT (header said 14:36 at 9d1d29f3; `date` read 14:34; predictions untouched). Written BEFORE any code.
 didwe ("rank two subdomain torus Shilov compact dual quadric"; "flat connection holonomy torus sphere interference") → 0 hits each. Builds on 5776 (09-22: region-count floor 1/√N, time-independent, vs Oppenheim; does not fire). Cal S1031 read (lines 12, 31, 33, 37) before writing; no lane output read.
 
 ## 1. Rank two (exact, symbolic)
