@@ -173,3 +173,27 @@ Antecedent (Keeper K1950 Section 9c): *"signed permutations … preserve ε_abc 
 7. T958 reading (A).
 8. ψ-ontic plus nonlocal ledger.
 9. **The new cage:** RP² = K6, 6 = C₂.
+
+---
+
+## Addendum 1 (Lyra, 2026-10-07 14:41 EDT): P-one-channel from 2022, and the torus reconciled with it (or not)
+**Antecedent, verbatim (Guide Vol2 Ch01 Section 2.2, Casey 2022):** *"For the S¹ fiber to be the unique communication channel, the base surface must be simply connected — otherwise the base itself carries non-contractible loops that compete with the fiber as independent communication channels, producing unobserved additional circuit types. … The torus T² (genus 1) has … two independent non-contractible loops that would generate two additional families of circuits with no Standard Model counterpart."*
+
+**1. What it replaces in Section 2.**
+- **(P-one-channel)**, Casey 2022, replaces the genus part of the job. Only genus 0 is simply connected, so it forces the sphere without the global minimisation over surfaces. (P-minimal) is then needed only to go from "a sphere" to "4 vertices". Inputs: {P-closed (2022 Step 2, "close it"), P-one-channel, P-minimal}.
+- **2022's orientability paragraph closes my new K6 cage by principle, not by posit.** Antecedent: *"the S¹ fiber must define a consistent handedness for circuit winding … The substrate base must be orientable."* So RP² (6 vertices, K6) is excluded as a record by the same 2022 argument, and my Section 2's "orientable, named as a posit" becomes **(P-orient), Casey 2022.** The 6 stays caged, now with a reason.
+- **One transfer is owed and named.** The 2022 argument is about the BASE of the substrate; K4-0 uses it for the RECORD surface. The transfer needs: *a committed record is a discrete patch of the base* (records are written onto the substrate surface, which is Casey's "information is written to surfaces"). Stated as (P-transfer). If records live somewhere else, 2022 does not reach them.
+
+**2. The torus: reconciliation, with its kill line.**
+The 2022 sentence excludes loops that are (i) **independent** channels and (ii) **unobserved** circuit families. A circuit family is a conserved winding sector, a new conserved number. A torus record survives 2022 if and only if its loops are neither:
+- **(T-i) Not independent:** the torus's holonomy phases are measured in the fibre's own U(1). No new connection and no new long-range field. The loops carry phases of the one circle; they do not open a second channel. (A sharper possibility, not claimed: one of the torus's two loops IS the fibre circle, so only one loop is new.)
+- **(T-ii) Not a conserved family:** the torus's winding numbers are **not** conserved in isolation. Records with those windings unwind when free and are held only by binding.
+
+**The observed counterpart Keeper asked for is (T-ii) itself:** a free neutron decays, and a bound neutron in a stable nucleus does not (lifetime pin-owed, Grace). That is the signature of a loop that is NOT a conserved channel, but is pinned by its environment. A 2022 "circuit family" would be absolutely conserved; Casey's assembly instructions are exactly the loops that are not. **On this reading the two arguments are consistent: 2022 excludes permanent loops in the base; the torus records are transient loops in composites.**
+
+**Kill lines (can-fail count 3):**
+- **K-T1:** if any torus-record winding is absolutely conserved, it is a new conserved number. 2022 then holds and the torus records die, unless the number is one the SM already has (B or L). That would need a map, and it is caged.
+- **K-T2:** if the torus's phases need their own connection (a new field), (T-i) fails and 2022 holds.
+- **K-T3:** if a free torus record does not unwind (for instance, if the free-neutron decay is not its unwinding but something else), (T-ii)'s observed counterpart is gone. The torus records would then rest on posit alone.
+
+**What this does NOT do:** it gives no energy for the unwinding. The 0.78233 MeV comparison stays behind Cal's order rule (the formula is hashed first).
