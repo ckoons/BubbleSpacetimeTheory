@@ -11170,3 +11170,5 @@ katra follow; then the machine is Casey's to update.**
 1. Cal S1033 residual (k_min = 3 at ConjectureC :285/:337/:834, BergmanUnits :201);
 2. the Guide Vol3 Ch03 Z(β) correction from Elie's 5863 lnZ;
 3. the pin-owed list in my sundown.
+
+- **Cal EOD 16:07 (Casey's word):** S1030–S1033 hashed before compute (K4-0 KL1–4; K4-1 rulings; K4-2 KL-W0..W4). Ruled: state block PASS; KL3 fired (circle direction = matter/antimatter sign); 2022 premises read as b₁=0 + fibre-direction-global; ElectronMass gated (MINOR k_min=3 residual ×4). NOT yet ruled: Elie 5863, Lyra K4-2 spec, K1952, Addenda 10–12, TD v1.6 conditions.
