@@ -44,6 +44,23 @@ The external rubric is a generic "recover known physics" checklist — necessary
 
 ## 2. Where we are — dual scorecard (honest tiers, post-2026-08-15)
 
+- **★ 2026-10-07 15:29 — THE K4 LANE, ROUNDS K4-0 AND K4-1 (K1949 Addenda 1–9, K1950, K1951; Cal S1030–S1032; Elie 5859, 5860, 5862; Grace 5858 and the Lane B pins; Lyra's K4-0 spec + Addendum 1). Written by Keeper the same day.**
+  - **Net, in one line:** the boundary process has a candidate atom whose 4 is forced by NAMED PRINCIPLES (not by the geometry); the read order is global but is the matter/antimatter sign, not handedness; the boundary's own convention was corrected on the front page; and a recheck caught two unretained Guide figures. **No new number yet.** Casey's success test (project something new into the continuum) is still ahead, in K4-3.
+  - **Internal C (commitment ontology; BANKED 08-17, "update as new developments occur"):**
+    - **K4 as the record: FORCED BY NAMED PRINCIPLES.** Tier: D_IV⁵ + {one-channel (Casey 2022, restated in the form the true boundary satisfies), closed, minimal}, plus the bridge input "a record is a discrete patch of the surface". The geometry ALLOWS and CAPS K4 at 4 for D_IV⁴…D_IV⁷ but does not force it (Elie 5859; Cal predicted it blind).
+    - **The writer (Casey, verbatim):** "the writer is the electron's circle and the sphere record is the surface."
+    - **The read order is the circle's direction:** global on the true boundary, and it is the matter/antimatter sign. **KL3 FIRED:** it is not the weak handedness, which keeps its four-sphere source (T2522).
+    - **Indivisibility (C7) is still a posit.** It reduces to K1926's one condition plus one-way writes. C7 cannot be the source of the filling law's factor three (Cal KL4; Keeper owned the circularity).
+    - **The wave function as record + instructions (Lane E): DEFECT.** A pure record forgets only the unobservable overall phase. To be rewritten as relative phases.
+    - **Torus records: consistency only.** Target to be declared before any formula (0.78233 or 1.29333 MeV); decoy 0.78233/m_e ≈ 3/2.
+  - **External 4 / Internal B (presentation of the boundary):** the Šilov boundary is (S⁴ × S¹)/ℤ₂, non-orientable through the four-sphere, with the circle's direction global (Grace 5858). It is now on the FRONT PAGE (state block, Cal PASS) and in dated notes in six Guide chapters and Lecture 01. On it only modes with l + m even survive (Elie 5862): ln 138, F and "no Casimir minimum at 137" stand; C_UV, the C_v peak and the QFT/BST ratio halve.
+  - **Internal D (forced, not fitted):**
+    - **The Guide's T_c = 130.5 and C_v = 330,350 have no retained program** (T_c 36–159, cutoff-dependent). Marked unretained, and "T_c = N_max × 20/21" marked a fit.
+    - **The Casimir "10⁻⁷⁴⁸" was wrong** (it is a power law, −1/(6ρ)). The Casimir_Analysis "Proved" row is struck.
+    - **ElectronMass: Casey GO (via Keeper's delegation, 10-07).** Grace applied it on disk; Cal CONDITIONAL (five leftover lines + BST_SpectralGap_ProtonMass in the same push). Zenodo DEFERRED by Casey.
+  - **Internal C (presentation):** Time, Derived v1.6 applied by Lyra (261b5ff7). Line 99 was ruled under Casey's delegation (K1951 Section 3); Cal's Condition 2 is owed before the pass.
+  - **Owned:** K1949 called Internal C "the one criterion without a named artifact". **Wrong:** C was BANKED on 08-17 (row C below). The K4 lane UPDATES C with a boundary mechanism; it does not create its artifact.
+
 - **★ 2026-10-07 10:20 — FOLD OF 09-27 → 10-02 (rounds 11–26; K1933–K1948; Cal Sections 1000–1029; register v0.29–v0.41). Written by Keeper; this section had not moved since 09-26 (owned: eleven days of rounds outside the checklist, the 08-22 pattern).**
   - **Net, in one line:** the walls got prices and reached the front page, one front-page species of fake match was relabelled, the SUSY clause moved from asserted to derived (tier C), and one of Casey's papers lost its stated derivation of an exponent. **No new number was derived.** The lane has reached a floor: the third wall says the geometry forces kinematics, not dynamics, so further rounds there sharpen walls rather than produce values.
   - **External 1 / Internal A–B (what the geometry forces):**
@@ -245,6 +262,18 @@ The external rubric is a generic "recover known physics" checklist — necessary
 ---
 
 ## 3. The task list to complete BOTH rubrics (next few months)
+
+> **RE-DERIVED 2026-10-07 15:29 (Keeper; Section 2 moved — the K4 lane, rounds K4-0/K4-1). Supersedes 10-07 10:20.**
+> - **(a) Closing now (no Casey word needed):**
+>   - the ElectronMass push (Grace; Cal S1032's five lines + SpectralGap_ProtonMass);
+>   - Time, Derived v1.6 Condition 2 (Lyra; Cal passes);
+>   - the Guide Z(β) display (Elie supplies the computed function; Grace applies).
+> - **(b) The K4 lane, in flight: round K4-2, the write event** (`Keeper_prompts_team_roundK4-2_*`). The K1937 wall is named in it: any write event must name its breaking. E1 selection rules come first as the control. Kill line: a K4 word's 3 + 1 follows only with the map exhibited.
+> - **(c) Then K4-3, Casey's success test:** project something the Szegő kernel cannot. Credit ONLY for (i) indivisibility forced from outside C7, (ii) the per-write exponent derived, or (iii) K1922's saturation supplied (Cal KL4). The torus energy formula is hashed before any MeV comparison.
+> - **(d) Carried, unchanged:**
+>   - K1948 M2 (colour placement in Rac⊗Di);
+>   - (d) before the book: clean the false "Proved" rows a reader meets first (ElectronMass and Casimir done today); R1 red-team.
+> - **(e) Off the list:** Zenodo (Casey: "too early"). The singleton/walls lane stays at its floor; the K4 lane is the new posit it asked for.
 
 > **RE-DERIVED 2026-10-07 10:20 (Keeper; Section 2 moved — the 09-27 → 10-02 fold). Supersedes 09-26.**
 > - **(a) Casey's words owed, in order:** (1) the ElectronMass dated diff (head with corrected objects; strike the two "Proved" rows; stage 2 → Identified; sweep 4 files: BergmanUnits, ConjectureC_MassProof, BOOKDAY_LEDGER item 3, UniverseNeutron_ThinkingLog). Lyra drafts, Cal gates, Keeper checks. Elie's toy 5858 (kernel exponent from monomial norms, type-I control) is offered as the rerunnable number. (2) Frontier vs book (Elie and Cal lean book; Lyra names the filling law as the one frontier lane with a named obstruction). (3) Zenodo (staged).

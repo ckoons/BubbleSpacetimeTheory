@@ -1,7 +1,7 @@
 # K1949 — New lane opened (Casey, 10-07): the boundary process end to end, with K4 as the candidate "atom of information". Plan and kill lines.
 
 **Keeper, Wednesday 2026-10-07, 10:25 EDT.** Casey's word: "we will take up the investigation related to K4 and our end-to-end process description. If we improve our ability to project physics into the continuum we will have made progress."
-**Rubric cells:** Internal C (commitment ontology, the one criterion without a named artifact); External 4 / Internal B (projecting into the continuum, i.e. recovering GR-side physics); the third wall (dynamics not forced) is the boundary this lane works against.
+**Rubric cells:** Internal C (commitment ontology; ~~the one criterion without a named artifact~~ **[corrected 2026-10-07 15:29: C was BANKED 08-17; this lane UPDATES it with a boundary mechanism]**); External 4 / Internal B (projecting into the continuum, i.e. recovering GR-side physics); the third wall (dynamics not forced) is the boundary this lane works against.
 **didwe:** "K4 tetrahedron complete graph boundary" → 0 hits. Corpus K4 mentions are four-colour, Schwinger C4, the alpha-particle and the 3/4 isomorphism, none about the boundary. **This lane is new.**
 
 ## 1. Casey's picture, verbatim (10-07)
