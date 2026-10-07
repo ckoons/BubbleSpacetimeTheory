@@ -36,7 +36,7 @@ actual BST mathematics. Files read:
 4. **BST_NeutronLifetime.md** — Neutron mass, lifetime, g_A = 4/π candidate
 5. **BST_Casimir_Analysis.md** — Stability is topological (Cartan classification),
    NOT from a Casimir energy minimum
-6. **BST_SpectralGap_ProtonMass.md** — C₂(π₆) = 6, Bergman space = proton sector,
+6. **BST_SpectralGap_ProtonMass.md** — C₂(π₆) = 6, Bergman space = proton sector *[S1029, 2026-10-07: π₆ is a weighted space, not the Bergman space π₅; C₂(π₆) = 6 stands]*,
    electron below Wallach set
 7. **BST_Chronology_BigBang.md** — The unfreezing of one SO(2) generator at 3.1s
 8. **BST_BaryonCircuit_ContactIntegral.md** — The 1920 cancellation:

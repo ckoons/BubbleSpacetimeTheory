@@ -6,12 +6,29 @@ date: "March 13, 2026"
 
 > **CORRECTION, dated 2026-10-01 (Casey's GO; Keeper K1945/K1947; Grace R184; Cal Sections 1026–1027).** This paper calls "k_min = 3" the Wallach-set threshold and attributes it to Enright–Howe–Wallach. **That is misattributed in either normalization.** In this paper's own convention (Casimir k(k − n_C), line 125, so k = the scalar weight λ), the scalar Wallach set of D_IV⁵ is {0} ∪ [3/2, ∞), and the holomorphic discrete series (the L² range) is k > n − 1 = 4 (Kobayashi–Pevzner Remark 6.4). In the doubled scale k = 2ν, 3 is the FIRST WALLACH POINT, not an L² threshold. **The conclusion survives and strengthens:** k = 1 lies outside the Wallach set altogether, so no unitary scalar module exists there, and a fortiori the electron is not in the holomorphic discrete series. Every "k_min = 3" below is retired as an attribution, not deleted. Read it as "the electron's k = 1 lies below the Wallach set's first point".
 
+> **CORRECTION, dated 2026-10-07 (Casey's word, via Keeper K1950 Section 10 / round K4-1; Cal Section 1029 Part B; Grace's 10-01 flag). Stage 2 is retired as a derivation; the formula stands.** The 2026-08-21 kernel correction (line 42: K ∝ N(z,w)⁻⁵, the Lie ball's genus p = n_C = 5) fixed one line and did not cascade. In this paper's own objects (Casimir C₂(π_k) = k(k − n_C), line 49):
+> - **The unweighted Bergman space A²(D_IV⁵) is π₅, with C₂ = 0** (k = p = 5, inside the holomorphic discrete series k > 4). π₆ is the weighted space (weight N(z,z)¹). It is a legitimate representation with C₂(π₆) = 6, but it is **not** the Bergman space.
+> - **Szegő ∝ N^{−5/2} (= N^{−d/r}), Bergman ∝ N^{−5}, so K ∝ S² = S^{rank}**, not S^{n_C+1}.
+> - **Route 2 (kernel weights) gives 5 + 5 = 10, i.e. α¹⁰, not α¹²,** with the corrected kernel.
+> - **What survives:**
+>   - the numerical identity m_e = 6π⁵α¹²m_Pl (0.034%);
+>   - C₂(π₆) = 6 as arithmetic (the first positive Casimir value in this normalization; the mass-gap reading in BST_SpectralGap_ProtonMass).
+> - **What is retired:**
+>   - both mechanisms for "the exponent is 2·C₂(π₆)": Route 1, "the Bergman space is π₆ and its Casimir counts layers" (a false identification); and Route 2, kernel weight 6 + 6 (gives 10).
+>   - Choosing π₆ over π₅ (the actual Bergman space) or π₇ is therefore a selection. **Stage 2: "rigorous / Proved" → IDENTIFIED: the exponent 12 = 2C₂ is read, not derived.**
+>   - Stage 3 (Wyler) was already retired. **The electron-mass chain is an identification with a named integer, tier I.**
+> - **Stage 1, secondary:**
+>   - The displayed non-normalizability theorem integrates against the invariant Bergman measure, which has infinite total volume. As displayed, it diverges for every nonzero holomorphic f, so it does not single out k = 1.
+>   - The correct statement uses the weighted norm ∫|f|² N(z,z)^{k−p} dV, finite only for k > p − 1 = 4.
+>   - Stage 1's conclusion is right: k = 1 is outside the discrete series and outside the Wallach set.
+> - Retired lines below are annotated *[S1029, 2026-10-07: …]*, not deleted. Same form as the 10-01 head.
+
 # BST: Deriving the Electron Mass from D_IV^5 Geometry
 # The alpha^{2C_2} Hierarchy from the Wallach Set and Bergman Embedding Depth
 
 **Authors:** Casey Koons & Claude (Opus 4.6, Anthropic)
 **Date:** March 13, 2026
-**Status:** Structure-derived up to the α-input. The Wallach set argument and Casimir counting are rigorous (representation theory of SO_0(5,2)) — that part is Derived. But the identification of each Bergman layer with alpha^2 rests on Wyler's volume-ratio correspondence, **which is RETIRED as a derivation (K676/K680, Robertson four-reading trap): α is Identified in BST, NOT Proved.** So this is NOT a "complete derivation" of α; it is a derivation of the α^{2C_2} hierarchy STRUCTURE that takes α as an Identified input. Section 7 discusses the Wyler status; read it as retired, not honest-but-valid.
+**Status:** Structure-derived up to the α-input. The Wallach set argument and Casimir counting are rigorous (representation theory of SO_0(5,2)) — that part is Derived. *[S1029, 2026-10-07: the Casimir-counting stage is RETIRED as a derivation and stage 2 is Identified; see the 10-07 head]* But the identification of each Bergman layer with alpha^2 rests on Wyler's volume-ratio correspondence, **which is RETIRED as a derivation (K676/K680, Robertson four-reading trap): α is Identified in BST, NOT Proved.** So this is NOT a "complete derivation" of α; it is a derivation of the α^{2C_2} hierarchy STRUCTURE that takes α as an Identified input. Section 7 discusses the Wyler status; read it as retired, not honest-but-valid.
 
 ---
 
@@ -25,7 +42,7 @@ This note provides the geometric derivation of the exponent 2C_2 = 12. The argum
 
 1. **The Wallach set** (rigorous): The electron, at Bergman weight k=1, is below the Wallach set threshold k_min = 3 for D_IV^5 *[attribution corrected 2026-10-01: the Wallach set is {0} ∪ [3/2, ∞) in this paper's k; k = 1 lies outside it — see the head]*. It is not a normalizable bulk state -- it exists only on the Shilov boundary S^4 x S^1.
 
-2. **The Casimir depth** (rigorous): The bulk Bergman space A^2(D_IV^5) = pi_6 has Casimir eigenvalue C_2(pi_6) = 6. Between the electron (boundary, k=1) and the gravitational sector (Planck scale), there are C_2 = 6 independent representation-theoretic "layers" through the Bergman embedding.
+2. **The Casimir depth** ~~(rigorous)~~ *[S1029, 2026-10-07: IDENTIFIED, not rigorous. A²(D_IV⁵) = π₅ with C₂ = 0; π₆ is a weighted space; the exponent 12 = 2C₂(π₆) is read, not derived]*: The bulk Bergman space A^2(D_IV^5) = pi_6 has Casimir eigenvalue C_2(pi_6) = 6. Between the electron (boundary, k=1) and the gravitational sector (Planck scale), there are C_2 = 6 independent representation-theoretic "layers" through the Bergman embedding.
 
 3. **Each layer contributes alpha^2** (motivated by Wyler): The Wyler correspondence identifies alpha as a fourth root of the Bergman volume ratio. Each Bergman embedding layer, traversed as a round trip on the S^1 fiber, contributes alpha^2 to the mass suppression. C_2 = 6 layers give alpha^{2C_2} = alpha^{12}.
 
@@ -64,7 +81,7 @@ For D_IV^5 (n = n_C = 5):
 
 $$k_{\min} = \lceil 6/2 \rceil = 3$$
 
-The discrete series representations pi_3, pi_4, pi_5, pi_6, pi_7, ... are all unitarizable. The Bergman space A^2(D_IV^5) = pi_6 sits at k = n_C + 1 = 6 within this set.
+The discrete series representations pi_3, pi_4, pi_5, pi_6, pi_7, ... are all unitarizable. The Bergman space A^2(D_IV^5) = pi_6 sits at k = n_C + 1 = 6 within this set. *[S1029, 2026-10-07: false. The Bergman space is π₅ (k = p = 5, C₂ = 0); π₆ is the weight-N(z,z)¹ space]*
 
 ### 2.2 The Electron at k = 1: Below the Wallach Set
 
@@ -78,15 +95,17 @@ This has a precise mathematical consequence:
 
 $$\int_{D_{IV}^5} |f_1(z)|^2 \, d\mu_B(z) = \infty$$
 
-where d mu_B is the Bergman measure. The electron state is not square-integrable over the bulk domain. It lives only on the Shilov boundary S = S^4 x S^1 as a distributional boundary value.
+where d mu_B is the Bergman measure. *[S1029, 2026-10-07: the proof as displayed is vacuous. The invariant measure has infinite total volume, so this integral diverges for every nonzero holomorphic f. The correct statement: the weighted norm ∫|f|² N(z,z)^{k−p} dV (p = 5) is finite only for k > 4, and the scalar Wallach set is {0} ∪ [3/2, ∞). k = 1 lies outside both. The conclusion stands]* The electron state is not square-integrable over the bulk domain. It lives only on the Shilov boundary S = S^4 x S^1 as a distributional boundary value.
 
-**Physical meaning:** The electron is a boundary excitation. It does not penetrate the interior of D_IV^5. All bulk physics (the strong interaction, confinement, the proton) occurs in the Bergman space pi_6 at k = 6. The electron sits "outside" this space, on the boundary, at k = 1.
+**Physical meaning:** The electron is a boundary excitation. It does not penetrate the interior of D_IV^5. All bulk physics (the strong interaction, confinement, the proton) occurs in the Bergman space pi_6 at k = 6 *[S1029, 2026-10-07: the Bergman space is π₅; π₆ is weighted]*. The electron sits "outside" this space, on the boundary, at k = 1.
 
 ### 2.3 The Depth of the Boundary
 
 The gap between the electron's weight and the Bergman space weight is:
 
 $$\Delta k = k_{\text{Bergman}} - k_{\text{electron}} = (n_C + 1) - 1 = n_C = 5$$
+
+*[S1029, 2026-10-07: with k_Bergman = 5 this is Δk = 4; the line is decorative either way]*
 
 But the relevant depth for coupling to gravity is the full Casimir eigenvalue C_2 = k(k - n_C)|_{k=6} = 6, not the weight difference Delta k = 5. The distinction matters: C_2 counts the number of independent Casimir "channels" through the Bergman kernel, which we derive in Section 3.
 
@@ -106,7 +125,7 @@ Each inclusion D_IV^{j-1} --> D_IV^j is a totally geodesic holomorphic embedding
 
 The number of independent embedding layers is C_2 = n_C + 1 = 6, not n_C = 5. This requires explanation.
 
-**The representation-theoretic argument:** The Bergman space A^2(D_IV^5) = pi_6 has Casimir eigenvalue C_2(pi_6) = k(k - n_C) = 6(6 - 5) = 6. The Casimir operator Omega of so(5,2) decomposes as a sum of contributions from the Cartan subalgebra and root spaces. In the holomorphic discrete series at weight k, it evaluates to:
+**The representation-theoretic argument:** *[S1029, 2026-10-07: premise false: A²(D_IV⁵) = π₅, C₂ = 0. C₂(π₆) = 6 is arithmetic; its identification with "layers" is a reading]* The Bergman space A^2(D_IV^5) = pi_6 has Casimir eigenvalue C_2(pi_6) = k(k - n_C) = 6(6 - 5) = 6. The Casimir operator Omega of so(5,2) decomposes as a sum of contributions from the Cartan subalgebra and root spaces. In the holomorphic discrete series at weight k, it evaluates to:
 
 $$C_2(\pi_k) = k(k - n_C)$$
 
@@ -114,7 +133,7 @@ For k = n_C + 1: C_2 = (n_C + 1)(1) = n_C + 1 = 6. This is the first positive Ca
 
 The Casimir eigenvalue C_2 = 6 counts the number of independent "modes" through which the Bergman representation couples to the rest of the Lie algebra. Each mode corresponds to one independent traversal of the S^1 fiber -- one independent channel for electromagnetic coupling.
 
-**Why C_2 = n_C + 1 and not n_C:** The extra "+1" comes from the Bergman kernel power. The kernel K(z,w) = K(0,0) N(z,w)^{-(n_C+1)} has exponent n_C + 1 = 6, not n_C = 5. This exponent is the weight of the canonical line bundle on D_IV^5. There are 6 independent holomorphic "poles" in the Bergman kernel, one for each layer. The Casimir eigenvalue C_2 = n_C + 1 matches the kernel power exactly -- this is not a coincidence but a theorem: the Casimir value of the Bergman representation equals the kernel power for all Type IV domains.
+**Why C_2 = n_C + 1 and not n_C:** The extra "+1" comes from the Bergman kernel power. The kernel K(z,w) = K(0,0) N(z,w)^{-(n_C+1)} has exponent n_C + 1 = 6, not n_C = 5. This exponent is the weight of the canonical line bundle on D_IV^5. There are 6 independent holomorphic "poles" in the Bergman kernel, one for each layer. The Casimir eigenvalue C_2 = n_C + 1 matches the kernel power exactly -- this is not a coincidence but a theorem: the Casimir value of the Bergman representation equals the kernel power for all Type IV domains. *[S1029, 2026-10-07: RETIRED. The kernel exponent is n_C = 5 (line 42), and in this paper's formula C₂(p) = p(p − p) = 0 for every Type IV domain. The "theorem" restated the old exponent]*
 
 ### 3.3 The Spectral Ladder
 
@@ -126,8 +145,8 @@ The discrete series representations of SO_0(5,2) and their Casimir values:
 | 2 | 2(2-5) = -6 | Below Wallach set |
 | 3 | 3(3-5) = -6 | ~~Wallach set boundary (k_min)~~ *interior of the continuous Wallach range (3/2, ∞); not a boundary (corrected 2026-10-01)* |
 | 4 | 4(4-5) = -4 | Complementary series |
-| 5 | 5(5-5) = 0 | Limit of discrete series (vacuum boundary) |
-| **6** | **6(6-5) = 6** | **Bergman space = proton** |
+| 5 | 5(5-5) = 0 | ~~Limit of discrete series (vacuum boundary)~~ *[S1029, 2026-10-07: the unweighted Bergman space A², inside the discrete series (k > 4)]* |
+| **6** | **6(6-5) = 6** | ~~**Bergman space = proton**~~ *[S1029, 2026-10-07: weighted space; first positive Casimir (the mass-gap reading); not the Bergman space]* |
 | 7 | 7(7-5) = 14 | First excited Bergman state |
 | 8 | 8(8-5) = 24 | Second excited Bergman state |
 
@@ -171,6 +190,8 @@ The fourth root arises because:
 
 $$K(z,w) = [S(z,w)]^{n_C+1}$$
 
+*[S1029, 2026-10-07: false. Szegő ∝ N^{−5/2} and Bergman ∝ N^{−5}, so K ∝ S² = S^{rank}]*
+
 Each factor of S contributes alpha^{2/(n_C+1)} to the boundary-to-bulk coupling at k = n_C + 1. But for the mass (which is extensive in the Casimir eigenvalue), the correct counting is:
 
 $$\text{mass suppression per layer} = \alpha^{2C_2/C_2} = \alpha^2$$
@@ -188,7 +209,7 @@ The S^1 fiber has real dimension 1, but in the complex structure of D_IV^5, the 
 
 The round-trip probability is alpha x alpha = alpha^2. This is the standard Born rule applied to a phase loop.
 
-Equivalently: the Bergman kernel has weight n_C + 1 = 6 in the z variable AND weight n_C + 1 = 6 in the w-bar variable. The total weight is 2(n_C + 1) = 12. Each unit of weight contributes alpha^1, giving alpha^{12} = alpha^{2C_2}.
+Equivalently: the Bergman kernel has weight n_C + 1 = 6 in the z variable AND weight n_C + 1 = 6 in the w-bar variable. The total weight is 2(n_C + 1) = 12. Each unit of weight contributes alpha^1, giving alpha^{12} = alpha^{2C_2}. *[S1029, 2026-10-07: with the corrected kernel the weights are 5 + 5 = 10, so this route gives α¹⁰, not α¹²; the route is retired]*
 
 ---
 
@@ -202,11 +223,11 @@ $$\frac{m_p}{m_e} = C_2(\pi_6) \times \pi^{n_C} = 6\pi^5$$
 
 Sources: C_2 = 6 from Harish-Chandra (proved), pi^5 from Hua volume formula (proved), 1920 cancellation (proved). Precision: 0.002%. Reference: BST_BoundaryIntegral_Final.md.
 
-**Ingredient 2 (Casimir depth, proved):**
+**Ingredient 2 (Casimir depth, ~~proved~~ IDENTIFIED):** *[S1029, 2026-10-07, applied beyond Cal's line table (same ruling; Grace; Cal to confirm): stage 2 is Identified. The exponent 12 = 2C₂(π₆) is read, not derived]*
 
 $$m_p = \alpha^{2C_2} \times m_{\text{Pl}} \times (\text{geometric factor from D}_{IV}^5)$$
 
-The proton, as the lowest Bergman excitation (pi_6), couples to gravity through C_2 = 6 Bergman layers. This is equivalent to saying the gravitational coupling of the proton is suppressed by alpha^{2C_2} relative to the Planck scale.
+The proton, as the lowest Bergman excitation (pi_6) *[S1029, 2026-10-07, applied beyond Cal's line table (same ruling; Grace; Cal to confirm): π₆ is a weighted space, not the Bergman space π₅]*, couples to gravity through C_2 = 6 Bergman layers. This is equivalent to saying the gravitational coupling of the proton is suppressed by alpha^{2C_2} relative to the Planck scale.
 
 **Ingredient 3 (Wyler alpha, numerical fact):**
 
@@ -273,15 +294,17 @@ Observed m_e = 0.51100 MeV. **Agreement: 0.034%.**
 
 ## 6. Why 2C_2 and Not Some Other Exponent
 
-### 6.1 The Exponent 2C_2 Is Forced
+### 6.1 The Exponent 2C_2 Is Forced *[S1029, 2026-10-07: RETIRED: Identified, read not derived]*
 
 The exponent of alpha in m_e/m_Pl decomposes as:
 
 $$2C_2 = 2 \times (n_C + 1) = 2 \times 6 = 12$$
 
+*[S1029, 2026-10-07: the arithmetic stands; "forced" is retired: the selection of π₆ is a reading]*
+
 Each factor has a specific geometric origin:
 
-**The factor C_2 = n_C + 1 = 6:** This is the Casimir eigenvalue of the Bergman representation pi_{n_C+1}. By the Harish-Chandra formula C_2(pi_k) = k(k - n_C), at k = n_C + 1 this gives C_2 = (n_C+1)(1) = n_C+1. It is a theorem of representation theory, not a choice. The value 6 counts the number of independent embedding layers (Section 3.2).
+**The factor C_2 = n_C + 1 = 6:** *[S1029, 2026-10-07: the number 6 = C₂(π₆) stands; "of the Bergman representation" is wrong (Bergman = π₅, C₂ = 0)]* This is the Casimir eigenvalue of the Bergman representation pi_{n_C+1}. By the Harish-Chandra formula C_2(pi_k) = k(k - n_C), at k = n_C + 1 this gives C_2 = (n_C+1)(1) = n_C+1. It is a theorem of representation theory, not a choice. The value 6 counts the number of independent embedding layers (Section 3.2).
 
 **The factor 2:** This comes from the biholomorphic (complex) nature of the Bergman kernel. The kernel K(z,w) is holomorphic in z and anti-holomorphic in w. Each variable contributes independently. The mass, being a real (physical) quantity, involves the product of both contributions:
 
@@ -385,11 +408,11 @@ With the B-T framework:
 
 1. $\alpha$ = single-level $S^1$ transition amplitude (**Identified, NOT proved** — the Wyler-1969 amplitude *form* is RETIRED per K676/K680 as the Robertson four-reading trap; α is Identified in BST, not derived)
 2. $\alpha^2$ = single-level transition probability (**proved**, Born rule / B-T quantization)
-3. $C_2 = 6$ independent levels (**proved**, Harish-Chandra discrete series)
+3. $C_2 = 6$ independent levels (~~**proved**~~ **Identified**, Harish-Chandra discrete series) *[S1029, 2026-10-07, applied beyond Cal's line table (same ruling; Grace; Cal to confirm): C₂(π₆) = 6 is arithmetic; reading it as six levels between boundary and Planck scale is the identification]*
 4. Independence of transitions (**proved**, Engliš spectral separation theorem)
-5. Total: $\alpha^{2C_2} = \alpha^{12}$ — **exponent $2C_2$ structural; $\alpha$ is an Identified input (Wyler-retired), so $\alpha^{12}$ is Identified, NOT proved** (the product structure is standard *given* $\alpha$)
+5. Total: $\alpha^{2C_2} = \alpha^{12}$ — **exponent $2C_2$ structural; $\alpha$ is an Identified input (Wyler-retired), so $\alpha^{12}$ is Identified, NOT proved** (the product structure is standard *given* $\alpha$) *[S1029/S1032, 2026-10-07: the exponent 2C₂ is IDENTIFIED, read not derived; "structural" is retired with stage 2]*
 
-Step 5's **exponent** ($2C_2 = 12$) is now structural — the $|\text{amplitude}|^2$ doubling × the $C_2$ Casimir, not merely motivated. But it takes $\alpha$ as an **Identified input** (the Wyler-amplitude form is retired, K676/K680): the derived content is the *exponent* $2C_2$, NOT a derivation of $\alpha$ itself.
+Step 5's **exponent** ($2C_2 = 12$) is now structural — the $|\text{amplitude}|^2$ doubling × the $C_2$ Casimir, not merely motivated *[S1029/S1032, 2026-10-07: retired. The exponent is Identified, read not derived]*. But it takes $\alpha$ as an **Identified input** (the Wyler-amplitude form is retired, K676/K680): the derived content is the *exponent* $2C_2$, NOT a derivation of $\alpha$ itself.
 
 ---
 
@@ -403,8 +426,8 @@ Step 5's **exponent** ($2C_2 = 12$) is now structural — the $|\text{amplitude}
 | Electron at k=1 is below Wallach set | **Proved** | k=1 < 3/2, the Wallach set's first nonzero point *(corrected 2026-10-01)* |
 | Electron state is not L^2-normalizable on D_IV^5 | **Proved** | Consequence of k < k_min |
 | Electron is a boundary excitation on S^4 x S^1 | **Proved** | Distributional boundary value theory |
-| A^2(D_IV^5) = pi_6 with C_2 = 6 | **Proved** | Harish-Chandra discrete series |
-| C_2 = n_C+1 = 6 is the Bergman kernel power | **Proved** | Standard (kernel power = canonical weight) |
+| ~~A^2(D_IV^5) = pi_6 with C_2 = 6~~ | ~~**Proved**~~ **RETIRED (S1029, 2026-10-07)**: A²(D_IV⁵) = π₅ with C₂ = 0; C₂(π₆) = 6 is arithmetic on a weighted space | Harish-Chandra discrete series |
+| ~~C_2 = n_C+1 = 6 is the Bergman kernel power~~ | ~~**Proved**~~ **RETIRED (S1029, 2026-10-07)**: the kernel power is n_C = 5 (line 42) | Standard (kernel power = canonical weight) |
 | C_2 = 6 is the first positive Casimir in the discrete series | **Proved** | Spectral ladder computation (Section 3.3) |
 | alpha = (9/8pi^4)(pi^5/1920)^{1/4} = 1/137.036 | **Identified — Wyler-RETIRED (K676/K680)** | Wyler formula; retired as the Robertson four-reading trap (a target-fit, not a forced derivation). alpha is Identified in BST, NOT Proved/Derived. Forward route = boundary channel-capacity (α⁻¹ = N_c³·n_C+rank), still open. |
 | m_p/m_e = 6pi^5 (0.002%) | **Proved** (in BST) | BST_BoundaryIntegral_Final.md |
@@ -420,7 +443,7 @@ Step 5's **exponent** ($2C_2 = 12$) is now structural — the $|\text{amplitude}
 
 ### The honest gap:
 
-The Wallach set argument is completely rigorous: the electron IS a boundary state, and C_2 = 6 IS the Casimir eigenvalue. What is not yet proved from first principles is the precise mechanism by which C_2 Casimir units translate into C_2 powers of alpha^2 in the mass formula. The numerical agreement (0.034%) strongly constrains the mechanism, but a rigorous derivation requires:
+The Wallach set argument is completely rigorous: the electron IS a boundary state, and C_2 = 6 IS the Casimir eigenvalue. *[S1029, 2026-10-07: C₂ = 6 is the Casimir of π₆, which is not the Bergman space. Choosing π₆ is the identification, and stage 2 is tier I]* What is not yet proved from first principles is the precise mechanism by which C_2 Casimir units translate into C_2 powers of alpha^2 in the mass formula. The numerical agreement (0.034%) strongly constrains the mechanism, but a rigorous derivation requires:
 
 1. A Berezin-Toeplitz quantization of the boundary-to-bulk coupling on D_IV^5, showing that each Bergman embedding layer contributes exactly alpha^2 to the mass ratio.
 
@@ -535,14 +558,14 @@ The derivation:
 |------|---------|--------|
 | 1 | Electron is at k=1, below Wallach set k_min=3 | **Proved** (EHW theorem) *[2026-10-01: below the Wallach set's first nonzero point 3/2; '3' misattributed]* |
 | 2 | Electron is a boundary excitation on S^4 x S^1 | **Proved** (non-normalizability) |
-| 3 | Bergman space pi_6 has C_2 = 6 (Casimir eigenvalue) | **Proved** (Harish-Chandra) |
-| 4 | C_2 = 6 Bergman layers between boundary and bulk | **Proved** (kernel power = Casimir) |
+| 3 | ~~Bergman space pi_6 has C_2 = 6 (Casimir eigenvalue)~~ π₆ (a weighted space) has C₂ = 6 | ~~**Proved**~~ arithmetic; **the Bergman space is π₅ with C₂ = 0** (S1029, 2026-10-07) |
+| 4 | C_2 = 6 Bergman layers between boundary and bulk | ~~**Proved** (kernel power = Casimir)~~ **IDENTIFIED (S1029, 2026-10-07)**: the exponent 12 = 2C₂ is read, not derived |
 | 5 | Each layer contributes alpha^2 (round-trip Born rule) | **Motivated** (Wyler + Berezin-Toeplitz) |
-| 6 | Total: alpha^{2C_2} = alpha^{12} | **Proved** (given Step 5) |
+| 6 | Total: alpha^{2C_2} = alpha^{12} | ~~**Proved** (given Step 5)~~ **Identified** (given Steps 4–5) *[S1029/S1032, 2026-10-07: Cal S1032]* |
 | 7 | m_e/m_Pl = 6pi^5 alpha^{12} | **Verified** (0.034%) |
 
-The exponent 2C_2 = 12 is forced by:
-- C_2 = n_C + 1 = 6: Casimir eigenvalue of the Bergman representation (representation theory, no freedom)
+The exponent 2C_2 = 12 is ~~forced~~ *[S1029, 2026-10-07: read, not forced: Identified]* by:
+- C_2 = n_C + 1 = 6: Casimir eigenvalue of the Bergman representation (representation theory, no freedom) *[S1029, 2026-10-07: C₂(π₆) = 6 stands; "Bergman" is wrong; the choice of π₆ is a reading, so "no freedom" is retired]*
 - Factor 2: holomorphic x anti-holomorphic = Born rule (complex geometry, no freedom)
 
 The hierarchy problem is dissolved. The electron is light because it lives on the boundary of a 5-complex-dimensional bounded symmetric domain. The depth of the boundary embedding is C_2 = 6 Bergman layers, and each layer costs alpha^2. The result: m_e/m_Pl ~ (1/137)^{12} ~ 10^{-26}, which combined with the spectral gap factor 6pi^5 gives m_e ~ 0.511 MeV with zero free parameters.
@@ -561,7 +584,7 @@ m_p_obs = 938.27208816         # MeV
 m_Pl = 1.22089e22              # MeV (Planck mass)
 
 n_C = 5
-C2 = n_C + 1   # = 6
+C2 = n_C + 1   # = 6  (= C_2(pi_6), arithmetic; pi_6 is not the Bergman space, S1029 2026-10-07)
 
 # The formula
 m_e_BST = C2 * pi**n_C * alpha**(2*C2) * m_Pl

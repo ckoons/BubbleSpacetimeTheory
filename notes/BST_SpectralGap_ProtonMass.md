@@ -5,6 +5,8 @@ date: "March 2026"
 ---
 
 # BST Spectral Gap and the Proton Mass
+
+> **CORRECTION, dated 2026-10-07 (Cal Sections 1029 Part B and 1032; applied by Grace on Casey's word via K1950 Section 10).** The unweighted Bergman space A²(D_IV⁵) is **π₅, with C₂ = 0** (genus p = n_C = 5; kernel ∝ N⁻⁵, corrected 2026-08-21). π_{n_C+1} = π₆ is the weighted space (weight N(z,z)¹) and is not the Bergman space. **What stands in this note:** C₂(π₆) = 6 as arithmetic, the first positive Casimir value in this normalization, which is this note's mass-gap reading. Only the identification "π₆ = the Bergman space" is retired. Annotated lines are marked *[S1029/S1032, 2026-10-07: …]*.
 **Amy (mathematical physics analysis) for Casey Koons, March 2026**
 **Question from Claude: Does the discrete series L²-spectral gap of D_IV^5 at weight n_C+1=6 equal 6π^5?**
 
@@ -108,6 +110,8 @@ The Bergman space $A^2(D_{IV}^5) = \{\text{square-integrable holomorphic functio
 
 $$A^2(D_{IV}^5) = \pi_{n_C+1} = \pi_6$$
 
+*[S1029/S1032, 2026-10-07: false: A²(D_IV⁵) = π₅ (C₂ = 0); π₆ is the weight-N(z,z)¹ space]*
+
 This is *not* the minimum weight discrete series (k_min = 3), but rather the specific weight dictated by the Bergman kernel power $n_C+1 = 6$. The Bergman space corresponds to the *canonical bundle weight* of $D_{IV}^5$.
 
 ---
@@ -118,7 +122,7 @@ This is *not* the minimum weight discrete series (k_min = 3), but rather the spe
 
 $$C_2(\pi_k) = k(k - n) \quad \text{[in Killing-form normalization]}$$
 
-**For the Bergman space** $A^2(D_{IV}^5) = \pi_6$ with $k = n_C+1 = 6$, $n = n_C = 5$:
+**For the Bergman space** *[S1029/S1032, 2026-10-07: read: for the weighted space π₆; the Bergman space is π₅]* $A^2(D_{IV}^5) = \pi_6$ with $k = n_C+1 = 6$, $n = n_C = 5$:
 
 $$\boxed{C_2(\pi_{n_C+1}) = (n_C+1)(n_C+1 - n_C) = (n_C+1) \cdot 1 = n_C+1 = 6}$$
 
@@ -181,7 +185,7 @@ $$\frac{m_p}{m_e} = C_2\!\left(\pi_{n_C+1}\right) \times \pi^{n_C} = 6 \times \p
 
 1. The restricted root system of so(5,2) is B₂ with the multiplicities stated. **Proven.**
 2. $|\rho|^2 = 17/2$; continuous L²-spectrum of $-\Delta$ is $[17/2,\infty)$. **Proven.**
-3. $A^2(D_{IV}^5) = \pi_6$ (Bergman space = holomorphic discrete series at weight 6). **Proven.**
+3. $A^2(D_{IV}^5) = \pi_6$ (Bergman space = holomorphic discrete series at weight 6). ~~**Proven.**~~ *[S1029/S1032, 2026-10-07: RETIRED. A² = π₅ (weight 5, C₂ = 0); π₆ at weight 6 is a weighted space. C₂(π₆) = 6 stands]*
 4. $C_2(\pi_6) = 6 = n_C+1$ (Casimir eigenvalue). **Proven.**
 5. The integer 6 is the Bergman kernel power; the Bergman space is the canonical-bundle representation. **Proven.**
 

@@ -5,6 +5,8 @@ date: "March 2026"
 ---
 
 # BST: The Electron Mass in Bergman Units — Closing the Mass Gap Proof
+
+> **CORRECTION, dated 2026-10-07 (Cal Section 1029 Part B, applied by Grace on Casey's word via K1950 Section 10; cascade from BST_ElectronMass_Derivation.md).** The unweighted Bergman space A²(D_IV⁵) is **π₅, with C₂ = 0** (genus p = n_C = 5; kernel ∝ N⁻⁵, corrected 2026-08-21). π₆ is a weighted space; C₂(π₆) = 6 stands as arithmetic but is **not** "the Casimir of the Bergman space". Szegő ∝ N^{−5/2}, so K ∝ S² = S^{rank}. The kernel-weight route gives α¹⁰, not α¹². **For this note:** every use of C₂(π₆) = 6 as a number stands. Only the phrase "of the Bergman space / Bergman discrete series" attached to π₆ is wrong. Retired lines are annotated *[S1029, 2026-10-07: …]*, not deleted.
 **Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)
 **Date:** March 2026
 **Status:** Partial proof. The main identification is established algebraically and geometrically. One step (why pi^{n_C} appears as the proton-electron Bergman conversion factor) remains open at the level of first-principles BST circuit derivation. All other steps are rigorous or 0.002%-confirmed.
@@ -242,7 +244,7 @@ This gives m_p/m_e = C_2 * K(0,0) * m_e / [1/pi^{n_C}]... needs more careful boo
 
 ## 8. The Most Economical Statement of the Result
 
-**Theorem (Algebraic, from proved results):** *In the unit system where the proton mass equals the Casimir eigenvalue C_2(pi_{n_C+1}) = n_C+1 of the Bergman space A^2(D_IV^{n_C}), the electron mass is:*
+**Theorem (Algebraic, from proved results):** *In the unit system where the proton mass equals the Casimir eigenvalue C_2(pi_{n_C+1}) = n_C+1 of the Bergman space A^2(D_IV^{n_C}) *[S1029, 2026-10-07: π_{n_C+1} is a weighted space; the Bergman space is π_{n_C} with C₂ = 0; the number stands]*, the electron mass is:*
 
 $$m_e \;=\; \frac{1}{\pi^{n_C}} \;=\; \frac{K_{n_C}(0,0)}{n_C!\cdot 2^{n_C-1}}$$
 
@@ -276,7 +278,7 @@ The BST Yang-Mills proof has the following structure (see also BST_YangMills_Que
 
 **Step 1 (proved):** H_YM = c * Delta_B with c = 7/(10*pi), from Kähler-Einstein property + Uhlenbeck-Yau.
 
-**Step 2 (proved):** The proton state is in A^2(D_IV^5) = pi_6, with C_2(pi_6) = 6, below the continuous L^2-spectrum.
+**Step 2 (proved):** *[S1029/S1032, 2026-10-07: π₆ is a weighted space; A²(D_IV⁵) = π₅ with C₂ = 0; C₂(π₆) = 6 stands as arithmetic]* The proton state is in A^2(D_IV^5) = pi_6, with C_2(pi_6) = 6, below the continuous L^2-spectrum.
 
 **Step 3 (proved algebraically):** m_e = 1/pi^5 in Casimir units, equivalent to m_p/m_e = 6*pi^5.
 
@@ -399,7 +401,7 @@ The BST Yang-Mills mass gap proof requires three main results:
 
 **[Open]** The circuit-theoretic derivation: the Z_3 baryon circuit contact integral on the Shilov boundary S^4 × S^1 equals C_2 * pi^{n_C} * m_e. This is the single remaining open step.
 
-The Yang-Mills mass gap paper can now state: *"The proton occupies the Bergman discrete series pi_6 with Casimir eigenvalue C_2 = 6. In the unit system set by the electron (minimal S^1 winding), the proton mass in Casimir-Bergman units = C_2 * pi^{n_C}, where pi^{n_C} is the Hua-Bergman volume factor of D_IV^{n_C}."*
+The Yang-Mills mass gap paper can now state: *"The proton occupies the Bergman discrete series pi_6 *[S1029, 2026-10-07: "Bergman" is wrong; π₆ is a weighted holomorphic discrete series member]* with Casimir eigenvalue C_2 = 6. In the unit system set by the electron (minimal S^1 winding), the proton mass in Casimir-Bergman units = C_2 * pi^{n_C}, where pi^{n_C} is the Hua-Bergman volume factor of D_IV^{n_C}."*
 
 The assertion **m_e = 1/pi^{n_C}** is established as an algebraic identity in the Casimir-Bergman unit system, with geometric content supplied by Hua's volume formula and the Shilov S^1 phase product interpretation.
 

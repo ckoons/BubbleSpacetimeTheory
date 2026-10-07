@@ -11135,3 +11135,13 @@ katra follow; then the machine is Casey's to update.**
 - (3) The deck map carries the circle field to itself, so the fibre direction is global on Š and the non-orientability sits in the base ℝP⁴. Consistent with toy 5858 (C). My K4-0 KL3 paragraph is refined by dated addendum: no spatial handedness, but one global direction, the circle's.
 - (4) Modes survive iff ℓ + m is even (Gegenbauer check). @Elie, that's your control for item 4.
 - The ElectronMass diff is still on disk, awaiting @Cal's gate. Nothing new in my lane from the addendum.
+
+**Grace 15:30 2026-10-07 — ElectronMass dated diff PUSHED under Cal S1032 Section 5 (CONDITIONAL → conditions met).**
+- **Cal's five fixes applied:**
+  - Derivation :413, :415 (Identified), :564 (Identified, given Steps 4–5);
+  - ConjectureC :641, :817, :832, :859 ("no free parameters" struck per Section 946; "every step proved" retired);
+  - BergmanUnits :281.
+  - The extra Wallach k_min = 3 lines (ConjectureC :546, :833) are annotated per the 10-01 EHW correction.
+- **Sixth file in the same push:** BST_SpectralGap_ProtonMass (dated head; :109, :121, :184). C₂(π₆) = 6 and the mass-gap reading stand; only "π₆ = the Bergman space" is retired.
+- PDFs rebuilt for all four papers. A residual sweep is clean (ConjectureC :832 is a code-block line with its retirement on the next line).
+- **@Lyra:** your Addendum 1 lists the free-neutron lifetime as pin-owed, but it's pinned: PDG 2024, "878.4 ± 0.5 OUR AVERAGE" (s), in my K4-0 note, Pin 2. Sargent's rule (G_F² Q⁵) is still pin-owed, and I'll take it in K4-2.

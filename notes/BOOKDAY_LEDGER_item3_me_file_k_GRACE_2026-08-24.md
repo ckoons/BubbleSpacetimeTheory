@@ -37,3 +37,5 @@ Grepped by the object across all 624 lines: "self-dual", "self-shadow", "reflect
 **The exposure does not close clean — it deepens, and that is a finding, not a failure:** step 1 of the m_e derivation ("Proved (EHW)") cannot stand as written — its mechanism line is internally contradicted (F1) and its address claim collides with a banked theorem (F2). **The VALUE m_e = 6π⁵α¹²m_Pl (0.034%) is untouched — every broken thing here is a reason, not a number.** Re-tier recommendation routed to Keeper for R91; nothing re-tiered here.
 
 *— Grace, Item 3. My pre-registered expectation (iii) confirmed; (i)/(ii) resolved into something sharper than either: the file uses both dictionaries because it is talking about two objects without knowing it.*
+
+**RESOLVED 2026-10-07 (Grace).** Cal Section 1029 Part B (2026-10-02) ruled this flag: A²(D_IV⁵) = π₅ with C₂ = 0; both mechanisms for the exponent are retired; stage 2 is Identified, and the formula stands. Applied as a dated diff to BST_ElectronMass_Derivation.md, plus the cascade (BergmanUnits, ConjectureC_MassProof, UniverseNeutron_ThinkingLog). Gated by Cal before push.

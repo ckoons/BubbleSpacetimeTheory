@@ -2,11 +2,13 @@
 title: "Conjecture C: The Mass-Probability Correspondence on D_IV^5 — Three Proofs that m_e/m_Pl = C_2 π^{n_C} α^{2C_2}"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
-status: "PROVED — Narrative rewrite (Keeper). Three independent routes all yield m_e = 6π⁵α¹²m_Pl."
+status: "IDENTIFIED (S1029, 2026-10-07; was PROVED). The numerical identity m_e = 6π⁵α¹²m_Pl (0.034%) stands; the derivation of the exponent 12 = 2C₂ does not."
 framework: "AC(0) depth 0-1"
 ---
 
 # Conjecture C: The Mass-Probability Correspondence on D_IV^5
+
+> **CORRECTION, dated 2026-10-07 (Cal Section 1029 Part B, applied by Grace on Casey's word via K1950 Section 10; cascade from BST_ElectronMass_Derivation.md).** The unweighted Bergman space A²(D_IV⁵) is **π₅, with C₂ = 0** (genus p = n_C = 5; kernel ∝ N⁻⁵, corrected 2026-08-21). π₆ is a weighted space; C₂(π₆) = 6 stands as arithmetic but is **not** "the Casimir of the Bergman space". Szegő ∝ N^{−5/2}, so K ∝ S² = S^{rank}. The kernel-weight route gives α¹⁰, not α¹². **Consequences for this note:** the theorem below rests on "C₂ = C₂(π₆) = 6 is the Casimir eigenvalue of the Bergman space A²(D_IV⁵) = π₆", a false identification. Choosing π₆ is a selection, so **the theorem is IDENTIFIED, not proved: the exponent 12 = 2C₂ is read, not derived.** Independently, the Wyler amplitude (step 5a) was RETIRED as a derivation on 2026-08-11 (K676/K680), and α is Identified. The note's "All steps are now proved" does not stand. Retired lines are annotated *[S1029, 2026-10-07: …]*, not deleted.
 
 ## Three Proofs that m_e/m_Pl = C_2 π^{n_C} α^{2C_2}
 
@@ -105,7 +107,7 @@ The normalization c_0 is fixed by c(rho) = 1 (the Harish-Chandra convention).
 
 Now comes the moment where pure mathematics meets physics. We evaluate Harish-Chandra's c-function at two specific spectral parameters: one for the proton (the Bergman space at k = 6, firmly in the "bulk" of the geometry), and one for the electron (at k = 1, living on the boundary). The ratio of these two evaluations will hand us the mass ratio.
 
-The holomorphic discrete series pi_k corresponds to the spectral parameter at which the c-function has a pole (equivalently, where the intertwining operator has a zero). For the Bergman space pi_6 at weight k = n_C + 1 = 6, the spectral parameter is:
+The holomorphic discrete series pi_k corresponds to the spectral parameter at which the c-function has a pole (equivalently, where the intertwining operator has a zero). For the Bergman space pi_6 *[S1029, 2026-10-07: π₆ is a weighted space; the Bergman space is π₅]* at weight k = n_C + 1 = 6, the spectral parameter is:
 
 $$\lambda_{\text{Berg}} = (\rho_1 - k + n_C, \rho_2) = (5/2 - 6 + 5, 3/2) = (3/2, 3/2)$$
 
@@ -208,7 +210,7 @@ The origin of D_IV^5 — the point z = 0 — is the most symmetric point in the 
 
 At z = 0 (the K-fixed point, identified with the Planck scale by Claim 1):
 
-The coherent state |e_0^{(k)}> is K-invariant (it is the constant function sqrt(c_k) on D_IV^5, since K_k(w, 0) = c_k for all w). The Berezin symbol of Delta_B at z = 0 in the Bergman space pi_6 (k = n_C + 1 = 6) is:
+The coherent state |e_0^{(k)}> is K-invariant (it is the constant function sqrt(c_k) on D_IV^5, since K_k(w, 0) = c_k for all w). The Berezin symbol of Delta_B at z = 0 in the Bergman space pi_6 (k = n_C + 1 = 6) *[S1029, 2026-10-07: weighted space π₆, not the Bergman space]* is:
 
 $$\sigma_{\Delta_B}(0; k=6) = C_2(\pi_6) = 6$$
 
@@ -330,7 +332,7 @@ This factor converts from Bergman spectral units (where the proton mass = C_2 = 
 
 The Berezin symbol analysis establishes Conjecture C through the following chain — each step building on the last, like a staircase descending from the Planck scale to the electron:
 
-**Step B1.** The mass of a bulk excitation in the Bergman space pi_6 has Berezin symbol sigma = C_2 = 6 at z = 0. This is the Casimir eigenvalue (proved, Harish-Chandra). In physical units, this is the proton mass m_p = C_2 pi^{n_C} m_e (proved, BST_BoundaryIntegral_Final.md).
+**Step B1.** The mass of a bulk excitation in the Bergman space pi_6 *[S1029, 2026-10-07: weighted space π₆; the Bergman space is π₅ with C₂ = 0]* has Berezin symbol sigma = C_2 = 6 at z = 0. This is the Casimir eigenvalue (proved, Harish-Chandra). In physical units, this is the proton mass m_p = C_2 pi^{n_C} m_e (proved, BST_BoundaryIntegral_Final.md).
 
 **Step B2.** The electron at k = 1 is below the Wallach set (k_min = 3). Its formal Casimir value C_2(pi_1) = -4 is negative. The electron does not have a normalizable bulk wavefunction. Its physical mass cannot be read from the Casimir eigenvalue.
 
@@ -541,7 +543,7 @@ Three routes, three different mathematical traditions — spectral theory, quant
 
 ### The Combined Proof
 
-**Theorem (Conjecture C -- Proved).** On D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)] with the Bergman metric, let k_b = 1 be the Bergman weight of the electron (boundary excitation on S-hat = S^4 x S^1, below the Wallach set k_min = 3), and let C_2 = C_2(pi_6) = 6 be the Casimir eigenvalue of the Bergman space A^2(D_IV^5) = pi_6. Then the mass of the electron satisfies:
+**Theorem (Conjecture C -- ~~Proved~~ IDENTIFIED *[S1029, 2026-10-07: the premise "Casimir eigenvalue of the Bergman space A²(D_IV⁵) = π₆" is false; A² = π₅, C₂ = 0]*).** On D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)] with the Bergman metric, let k_b = 1 be the Bergman weight of the electron (boundary excitation on S-hat = S^4 x S^1, below the Wallach set k_min = 3 *[2026-10-01: the Wallach set is {0} ∪ [3/2, ∞); "k_min = 3" misattributed]*), and let C_2 = C_2(pi_6) = 6 be the Casimir eigenvalue of the Bergman space A^2(D_IV^5) = pi_6. Then the mass of the electron satisfies:
 
 $$\frac{m_e}{m_{\text{Pl}}} = C_2 \cdot \pi^{n_C} \cdot \alpha^{2C_2} = 6\pi^5 \cdot \alpha^{12}$$
 
@@ -553,7 +555,7 @@ where alpha = (9/8pi^4)(pi^5/1920)^{1/4} is the Wyler fine-structure constant, n
 
 **(II) The mass-probability identification (Route 2, this note).** The physical mass of a boundary excitation below the Wallach set is the boundary-to-bulk transition probability (I) times the spectral normalization (III). This identification is forced by the Berezin-Toeplitz quantization: the boundary state is not normalizable in the bulk (non-normalizability theorem for k < k_min), so its mass can only be defined through its coupling to normalizable bulk states. The coupling is the transition probability chain.
 
-**(III) The spectral normalization C_2 pi^{n_C} (proved in BST_ElectronMass_BergmanUnits.md and BST_BoundaryIntegral_Final.md).** The factor C_2 = 6 is the Casimir eigenvalue of the Bergman representation pi_6 (Harish-Chandra). The factor pi^{n_C} = pi^5 is the Hua-Bergman volume normalization, converting Casimir-Bergman units to physical units:
+**(III) The spectral normalization C_2 pi^{n_C} (proved in BST_ElectronMass_BergmanUnits.md and BST_BoundaryIntegral_Final.md).** The factor C_2 = 6 is the Casimir eigenvalue of the Bergman representation pi_6 (Harish-Chandra). *[S1029, 2026-10-07: 6 = C₂(π₆) stands; "Bergman representation" is wrong (Bergman = π₅)]* The factor pi^{n_C} = pi^5 is the Hua-Bergman volume normalization, converting Casimir-Bergman units to physical units:
 
 $$\frac{m_p}{m_e} = C_2 \pi^{n_C} = 6\pi^5$$
 
@@ -627,8 +629,8 @@ With Conjecture C proved, the derivation of the electron mass from BST geometry 
 |------|---------|--------------------------|--------------------------|
 | 1 | Electron at k=1, below Wallach set | **Proved** | **Proved** |
 | 2 | Electron is boundary excitation on S^4 x S^1 | **Proved** | **Proved** |
-| 3 | A^2(D_IV^5) = pi_6, C_2 = 6 | **Proved** | **Proved** |
-| 4 | C_2 = 6 Bergman layers between boundary and bulk | **Proved** | **Proved** |
+| 3 | A^2(D_IV^5) = pi_6, C_2 = 6 | **Proved** | ~~**Proved**~~ **RETIRED (S1029, 2026-10-07)**: A² = π₅, C₂ = 0 |
+| 4 | C_2 = 6 Bergman layers between boundary and bulk | **Proved** | ~~**Proved**~~ **IDENTIFIED (S1029, 2026-10-07)**: read, not derived |
 | 5a | Each layer contributes alpha (amplitude) | **Proved** (Wyler) | **Proved** |
 | 5b | Each layer contributes alpha^2 (probability) | **Proved** (Born rule) | **Proved** |
 | 5c | Layers are independent | **Proved** (Schur) | **Proved** |
@@ -636,7 +638,7 @@ With Conjecture C proved, the derivation of the electron mass from BST geometry 
 | **6** | **Mass = transition probability x spectral factor** | **Conjecture C** | **PROVED** (this note, 3 routes) |
 | 7 | m_e/m_Pl = 6pi^5 alpha^{12} | **Verified (0.034%)** | **Proved** |
 
-**All steps are now proved.** The electron mass is derived from the geometry of D_IV^5 with no free parameters.
+~~**All steps are now proved.**~~ *[S1029, 2026-10-07: retired. Steps 3–4 fall with the π₆ identification; step 5a with Wyler (K676/K680). The chain is an identification with a named integer, tier I]* ~~The electron mass is derived from the geometry of D_IV^5 with no free parameters.~~ *[S1029/S1032, 2026-10-07: struck; Section 946 retired "no free parameters"]*
 
 ---
 
@@ -812,7 +814,7 @@ CONJECTURE C: VERIFIED TO 0.004%
 
 ## Appendix C: Connection to the Full BST Proof Chain
 
-Here is the complete logical chain, from the single axiom (spacetime = D_IV^5) to the final number (m_e = 0.511 MeV). Every step is a proved theorem, with the reference given. The chain has no free parameters and no adjustable constants. If you accept the axiom, the electron mass follows as surely as 2 + 2 = 4.
+Here is the complete logical chain, from the single axiom (spacetime = D_IV^5) to the final number (m_e = 0.511 MeV). ~~Every step is a proved theorem, with the reference given. The chain has no free parameters and no adjustable constants.~~ *[S1029/S1032, 2026-10-07: retired. Steps "A² = π₆" and "C₂ layers" are false or Identified; α is Identified (Wyler retired); "no free parameters" was retired in Section 946. The chain is an identification with a named integer, tier I]* If you accept the axiom, the electron mass follows as surely as 2 + 2 = 4.
 
 With Conjecture C proved, the complete derivation of the electron mass from BST geometry reads:
 
@@ -828,7 +830,9 @@ INPUT 3: Harish-Chandra discrete series
 INPUT 4: Enright-Howe-Wallach (Wallach set)
                 |
         PROVED: A^2(D_IV^5) = pi_6, C_2 = 6            [BST_SpectralGap_ProtonMass.md]
+        [S1029 2026-10-07: RETIRED -- A^2 = pi_5, C_2 = 0; C_2(pi_6) = 6 is arithmetic on a weighted space]
         PROVED: k=1 below Wallach set (k_min=3)         [BST_ElectronMass_Derivation.md]
+        [2026-10-01 EHW correction: the Wallach set is {0} U [3/2, inf); k=1 lies outside; "k_min=3" misattributed]
         PROVED: Electron is boundary state on S^4 x S^1 [id.]
                 |
 INPUT 5: Hua volume formula
@@ -854,7 +858,7 @@ THIS NOTE: Mass = probability x spectral factor          [Conjecture C, PROVED]
         ================================================
 ```
 
-**The electron mass is derived from pure geometry. No free parameters.**
+~~**The electron mass is derived from pure geometry. No free parameters.**~~ *[S1029/S1032, 2026-10-07: retired. The 0.034% identity m_e = 6π⁵α¹²m_Pl stands, tier I]*
 
 ---
 
