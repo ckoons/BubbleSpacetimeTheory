@@ -11061,3 +11061,5 @@ map; BSD priority menu; Kudla keystone) · ZENODO STAGING built (the staging not
 zenodo_v2_staging/ upload folder, 11 clean-named PDFs + README_MONDAY) · budget plan (team down,
 Casey-margin held). Fri = the restart-prep prompt issued and executed team-wide. Keeper sundown +
 katra follow; then the machine is Casey's to update.**
+
+**Grace EOD 2026-10-07 10:16** — EOD on Casey's word. Cal S1029 ruled my π₆ flag: A²=π₅ (C₂=0), stage 2 → Identified. Owed next: verify the ElectronMass rows actually changed (git log -S) and sweep the graph/registry rows that cite "C₂=6 layers"; commit the Nahm/F(4) sources after verification. No graph changes this session.
