@@ -252,6 +252,7 @@ The external rubric is a generic "recover known physics" checklist — necessary
 > - **(c) One check owed:** K1948 M2, colour placement in Rac⊗Di, then 5857's count on it (Lyra places, Elie counts). Until then the SUSY clause carries "given the colourless content".
 > - **(d) Before the book (Cal):** clean the false "Proved" rows a reader would meet first; run R1 (red-team) at the same time.
 > - **(e) The singleton/walls lane is at its floor.** No further round there without a NEW POSIT, stated as one.
+> - **(f) NEW LANE, Casey 10-07: the boundary process end to end, K4 as the candidate atom of information** (K1949). Cells: Internal C; External 4 / Internal B (projection into the continuum). Rounds K4-0 (spec before the object) → K4-1 (why 4: forced or chosen) → K4-2 (the electron–photon write event) → K4-3 (projection; success = project something new, first target the filling law). This is the new posit (e) asked for.
 
 > **RE-DERIVED 2026-09-26 12:57 (Keeper; Section 2 moved today — rounds 5–7). Derived from the scorecard entry above; round 7 is in flight.**
 > - **(a) PACKAGING, highest priority. A DERIVED row now carries a fired falsifier.** The state block and Lecture 07 list the Cabibbo angle λ = 1/√20 as "derived given an identified input". A2 (the same λ, with |V_ud| = √(19/20)) FIRED on K_μ2 at FLAG precision (K1928, certified). Every presentation site that shows λ = 1/√20 must carry "A2 fired on K_μ2; FLAG 2027 decides" beside it:
