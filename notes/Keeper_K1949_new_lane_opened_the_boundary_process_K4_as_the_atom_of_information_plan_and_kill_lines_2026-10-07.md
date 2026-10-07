@@ -63,7 +63,7 @@ Grace pins the Šilov boundary's data (the ℤ₂, the K-action on it) from the 
 
 **New claims (added to Section 1):**
 - **C6 (universality):** one structure in interior, boundary and exterior. Consequence: K4-1's search for a forced S₄/A₄ runs in the INTERIOR too, where the tools are strongest.
-- **C7 (indivisible triple):** three writes form one indivisible commitment. This is the answer K1922's cells-vs-bits gap asked for: the unit charged once is the 3D cell, so the product reading (factor three at D = 3) survives. **Tier: Casey's posit until something forces indivisibility.** K1922's saturation item remains owed.
+- **C7 (indivisible triple):** three writes form one indivisible commitment. **[AMENDED K1950 Section 3: C7 REMOVES the cells-vs-bits obstruction BY POSIT; it does not SUPPLY the factor three. Projecting the factor three through C7 returns its own input (Cal S1030 KL4).]** Original text: This is the answer K1922's cells-vs-bits gap asked for: the unit charged once is the 3D cell, so the product reading (factor three at D = 3) survives. **Tier: Casey's posit until something forces indivisibility.** K1922's saturation item remains owed.
 
 **"Why 4" gets a conditional forcing route:** coordinate-free (C1) ⇒ complete graph; carried on a 2D surface ⇒ Kuratowski caps it at K4. Load moves to: is the electron's 2D-ness forced? Source pin owed (Grace); candidates to check, none cited yet: Hestenes (zitterbewegung), Abbott–Wise (Hausdorff dimension of quantum paths).
 
