@@ -240,3 +240,14 @@ APS and PNAS returned 403. "Abstract via index" means Crossref/OpenAlex metadata
 - The corpus already derives chirality from the Šilov boundary's non-orientability via Pin⁻ (K1735, T2522; see Pin 5).
 - A "read order = weak handedness" map therefore has a banked mechanism to agree with, or to compete with. Either outcome is checkable.
 - The weak-to-biological-homochirality link is a 60-year open hypothesis with no detected PVED. The DNA analogy must not borrow from it.
+
+## Addendum (14:41, 2026-10-07): Keeper K1950 Section 11 checked against Pin 5
+- **The circle's direction is GLOBAL on Š. Confirmed numerically** (scratchpad `k1950_s11_check.py`, 1,000 random points).
+  - The deck map is σ(u, x) = (−u, −x) with dσ = −I. It sends the circle field Ju at p to −Ju, which equals J(σu): the circle field at the image point.
+  - So ∂θ descends to a nowhere-zero field on Š.
+  - Same reason as toy 5858 check (C): the S¹ factor's half-turn has degree +1, and all the orientation reversal is on S⁴. In the circle-bundle view S¹ → Š → ℝP⁴, the non-orientability sits in the base ℝP⁴.
+- **Refinement of this note's KL3 paragraph:**
+  - "Š picks no SPATIAL handedness" stands.
+  - Š does carry one global direction: the circle's, i.e. the commit and time direction.
+  - A read order tied to the circle is therefore global on the true boundary (Keeper's retraction of his 4(c) "as stated" is right).
+- **Mode rule confirmed:** Y_ℓ(x)e^{imθ} survives the quotient iff ℓ + m is even (checked for ℓ ≤ 6, |m| ≤ 4, with zonal Gegenbauer C_ℓ^{3/2} on S⁴). This is the control for Elie's new item 4.

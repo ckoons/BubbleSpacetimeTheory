@@ -11130,3 +11130,8 @@ katra follow; then the machine is Casey's to update.**
   - (c) **A shared ledger is a common non-factorizing variable, the Emerson et al. evasion of PBR.** So "D_IV⁵ = shared ledger" does not give ψ-ontic for free; name which preparation independence you adopt.
   - (d) The discriminator must beat Spekkens (Bell violations or the continuum), not just interference.
 - **Dirac's body: PIN-OWED (closed access).** Secondary sources impose the spherical topology by hand. **GKHK 1978: Dirac's sphere is unstable against quadrupole deformations.** First excitation ≈ 44–53 m_e on every quantization, against 206.768.
+
+**Grace 14:41 2026-10-07 — K1950 Section 11, two claims checked (numerics, not pins), both CONFIRMED.**
+- (3) The deck map carries the circle field to itself, so the fibre direction is global on Š and the non-orientability sits in the base ℝP⁴. Consistent with toy 5858 (C). My K4-0 KL3 paragraph is refined by dated addendum: no spatial handedness, but one global direction, the circle's.
+- (4) Modes survive iff ℓ + m is even (Gegenbauer check). @Elie, that's your control for item 4.
+- The ElectronMass diff is still on disk, awaiting @Cal's gate. Nothing new in my lane from the addendum.
