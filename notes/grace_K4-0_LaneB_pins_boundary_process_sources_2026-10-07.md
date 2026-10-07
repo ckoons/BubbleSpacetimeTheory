@@ -12,7 +12,7 @@
 1. **The 2D electron.** No "Driscoll" exists.
    - The best-sourced "2D" result (Abbott–Wise) is about the PATH: resolution-dependent, any particle, D = 1 relativistically.
    - The structure claims (Burinskii's disk, Dirac's 1962 charged surface) are models at the Compton scale.
-   - **R1 stays a posit.** Casey to name which source he meant.
+   - **RESOLVED 13:46: Casey's source is Dirac 1962** (a charged conducting closed surface, spherical equilibrium). R1 and R2 merge into one posit: is the record surface a closed S²? The model's muon came out at 53 m_e against a measured 206.768 (×3.90), and it had no spin. See Pin 1.
 2. **Rutherford's p+e.**
    - The bound state dies on four counts, each with a number: confinement 40–124 MeV against 2.22 MeV; m_n − m_p − m_e = +0.782 MeV; a moment ratio of 961; ¹⁴N statistics.
    - **The bookkeeping reading survives**, and the 0.782 MeV is its Q-value.
@@ -92,6 +92,36 @@
 | 2 | Burinskii, Kerr–Newman electron: hep-th/0512095; arXiv:1505.03439; arXiv:0712.0577 | PRIMARY (abstracts) | "the structure of spinning particle in the form of a relativistically rotating disk, a highly oblate bag of the Compton radius"; "a spinning disk bounded by a closed singular string of Compton size" | **STRUCTURE: a disk.** The strongest "electron is 2D" claim. |
 | 3 | ★ Hestenes, Found. Phys. 20 (1990) 1213 | PRIMARY | "The imaginary unit i … is a bivector for a plane in space, the 'spin plane' in which the zbw circulation takes place"; helix diameter = Compton wavelength. He REJECTS an extended body: "this is much too big! Scattering experiments limit the size of the electron … to less than 10⁻¹⁸ m." | planar MOTION of a point charge |
 | 4 | Dirac, Proc. R. Soc. A 268 (1962) 57 | publisher abstract (Crossref) | "the electron should be considered classically as a charged conducting surface, with a surface tension … first excited state … about 53 times the rest-energy … may be considered as a muon. The present theory has no electron spin." | **STRUCTURE: a 2D surface.** "Dirac" → "Driscoll" is a plausible autocorrect. |
+
+### RESOLVED (Casey, 2026-10-07 13:46): "Driscoll" = **Dirac**
+
+**P. A. M. Dirac, "An extensible model of the electron", Proc. R. Soc. Lond. A 268 (1332), 57–67, published 19 June 1962, DOI 10.1098/rspa.1962.0124.**
+- Full abstract, verbatim from the publisher deposit (Crossref API, opened by Grace). The paper body is PIN-OWED (royalsocietypublishing returned 403):
+> "It is proposed that the electron should be considered classically as a charged conducting surface, with a surface tension to prevent it from flying apart under the repulsive forces of the charge. Such an electron has a state of stable equilibrium with spherical symmetry, and if disturbed its shape and size oscillate. The equations of motion are deduced from an action principle and a Hamiltonian formalism is obtained. The energy of the first excited state with spherical symmetry is worked out according to the Bohr-Sommerfeld method of quantization, and is found to be about 53 times the rest-energy of the electron. It is suggested that this first excited state may be considered as a muon. The present theory has no electron spin, so it cannot agree accurately with experiment."
+
+**What Dirac's model gives the lane (positions, not evidence):**
+- **The electron is a closed 2-surface whose equilibrium is spherical**, i.e. topologically S². With Dirac as the source, Keeper's two routes to "why 4" **merge into one posit**:
+  - R2: the minimal triangulation of a closed S² is the tetrahedron's boundary, K4.
+  - R1: a complete graph drawn on S² caps at K4 (Kuratowski).
+  - Both now rest on a single load: **is the electron's record surface a closed S²?** Dirac supplies that as a classical model. D_IV⁵ has not been shown to force it.
+- **The model's one number failed.** Dirac's first excitation is ≈ 53 m_e. Measured m_μ/m_e = **206.7682827(46)** (CODATA 2022, NIST, opened). So 53/206.768 = 0.256, off by ×3.90.
+- **Dirac's own last sentence:** "no electron spin, so it cannot agree accurately with experiment."
+- **Hestenes's objection** applies to any extended charged surface: size bounds of < 10⁻¹⁸ m from scattering, and 10⁻²⁰ cm in Dehmelt's model-dependent bound. Our version must say why a record surface is not a size, e.g. that it is a boundary object, not a body in space. Otherwise it inherits the bound.
+
+**Follow-ups to Dirac's model (abstracts PINNED, opened by Grace):**
+- **Davidson & Paz, Phys. Lett. B 300 (1993) 234, arXiv:hep-th/9302081:** "We extend Dirac's 'extensible model of the electron' to include spin and family. … the harmonic excitations may furnish half integer SU(2)_spin⊗U(1)_g representations. Our spin–1/2 'electron' is described by four world-manifold scalar fields. Its three varieties are associated with different minima of the (6th–order) surface-tension scalar potential."
+  - **CAGE.** "Four fields" and "three varieties (families)" on a Dirac bubble is a published 4-and-3 that is NOT our K4-and-three-words.
+  - Any match between them needs a map, and counts that agree by coincidence do not count as one.
+  - It is also prior art that must be cited if spin or family ever enters via the membrane.
+- **Davidson & Rubin, Class. Quant. Grav. 26 (2009) 235006, arXiv:0907.1189:** "The Dirac bubble, treated as a 3-dim electrically charged brane, is dynamically embedded within a 4-dim Z₂-symmetric Reissner-Nordstrom bulk."
+  - **Adjacent to C2 (two-sided).** A Dirac membrane with a ℤ₂ symmetry across it is a published "both sides of the surface" construction. Compare it with the orientation double cover of Š (Pin 5) before claiming C2 is new.
+
+**A lead for Elie (K4-1), not a claim:**
+- If the record surface must be an S², the question becomes whether D_IV⁵ carries a forced S².
+- The Šilov boundary's sphere is S⁴, not S².
+- The standard place a 2-sphere appears is the rank-one sub-geometry. A Hermitian symmetric space of rank r contains a totally geodesic polydisc Δʳ (here r = 2), whose compact dual is (ℂP¹)ʳ = (S²)ʳ.
+- This is Wolf/Helgason-type structure, from memory and **PIN-OWED** before anyone cites it.
+- Positive control: the search must also find the S² inside rank-one domains. Null: does it "find" S² equally in every rank-2 domain? If so, it forces nothing specific to D_IV⁵, and the round says so.
 
 **Experiment:** Dehmelt, Nobel Lecture 1989 (PRIMARY): "R ≈ 10⁻²⁰ cm … an important new upper limit". This is **model-dependent**: a Brodsky–Drell |g−2| extrapolation. High-energy collisions give 10⁻¹⁷ cm. The LEP contact bounds are PIN-OWED.
 

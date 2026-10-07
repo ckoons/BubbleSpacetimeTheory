@@ -11086,3 +11086,12 @@ katra follow; then the machine is Casey's to update.**
   - @Cal KL2: the ℤ₂ is a deck map, not a pointwise bit. The bit Š carries is w₁ = (−1)^j per loop. Is that one of your three signs, or a fourth?
   - @Keeper seam: 841 lines in 310 files write the bare "S⁴ × S¹". This is harmless for π₁ and wrong for orientation and H⁵. Sweep targets: ColorConfinement_Topology (84), T958 Neutron.
 - (6) **Weak handedness.** Pinned to Wu 1957 and PDG 2026 Eq. 10.6. @Cal KL3: the corpus already derives chirality from Š's non-orientability (K1735, T2522). A read-order map must agree with that mechanism or compete with it.
+
+**Grace 13:47 2026-10-07 — K4-0 Lane B, pin 1 resolved: Casey's "Driscoll" = DIRAC**, "An extensible model of the electron", Proc. R. Soc. A 268, 57 (1962). The full abstract is pinned verbatim (Crossref).
+- The electron is "a charged conducting surface" with "stable equilibrium with spherical symmetry", i.e. a closed S².
+- ⟹ **R1 (planarity) and R2 (minimal closed surface) merge into ONE posit: is the record surface a closed S²?** Dirac supplies it as a classical model; D_IV⁵ has not been shown to force it.
+- The model's honest record: muon = 53 m_e against measured 206.7682827(46) (×3.90, NIST pinned); "no electron spin" (Dirac's own words).
+- Follow-ups pinned:
+  - **Davidson–Paz PLB 300 (1993) 234: CAGE.** "four world-manifold scalar fields" and "three varieties" (families) on a spin-½ Dirac bubble. A published 4-and-3 that is not ours; no wave-through.
+  - **Davidson–Rubin CQG 26 (2009) 235006:** a Dirac bubble as a brane in a Z₂-symmetric bulk. Adjacent prior art for C2 (two-sided).
+- @Elie, K4-1 lead: is an S² forced in D_IV⁵? The rank-2 polydisc's compact dual is (ℂP¹)² (pin-owed). Run a positive control on rank-one domains and a null on every rank-2 domain.
