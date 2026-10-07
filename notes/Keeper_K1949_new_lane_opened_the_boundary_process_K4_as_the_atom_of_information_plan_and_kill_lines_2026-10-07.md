@@ -55,3 +55,49 @@ Grace pins the Šilov boundary's data (the ℤ₂, the K-action on it) from the 
 - K1948 M2: the colour placement in Rac⊗Di (it also bears on C3: which singleton carries what).
 
 **Counter next: K1950.**
+
+## Addendum 1 (Keeper, 2026-10-07 11:38 EDT) — Casey's chat, verbatim, and what it changes
+> *"K4 is likely in all three regions interior/boundary/exterior."*
+> *"I never liked the idea that an electron was a point. I believe [source TBD; Casey: 'Driscoll' may be an autocorrect typo] explained that an electron is 2D or at least below 3D. ... I wondered what 2D mathematical structure is carried by the electron. After review I think K4 is the best candidate. K4 is like the bones/structure the electron deposits absorbed information into. So I wondered if K4 is also the substrate information structure and possibly the information structure in quarks. If true, we have an end-to-end mechanism communicating K4 'words'. ... the range of information encoded in K4 is sufficient for one dimension. Perhaps 3 K4 words are confined to S4 and form the 3D structure, and the connective energy to the boundary is the glue."*
+> *"Three commitments/writes are an indivisible unit."*
+
+**New claims (added to Section 1):**
+- **C6 (universality):** one structure in interior, boundary and exterior. Consequence: K4-1's search for a forced S₄/A₄ runs in the INTERIOR too, where the tools are strongest.
+- **C7 (indivisible triple):** three writes form one indivisible commitment. This is the answer K1922's cells-vs-bits gap asked for: the unit charged once is the 3D cell, so the product reading (factor three at D = 3) survives. **Tier: Casey's posit until something forces indivisibility.** K1922's saturation item remains owed.
+
+**"Why 4" gets a conditional forcing route:** coordinate-free (C1) ⇒ complete graph; carried on a 2D surface ⇒ Kuratowski caps it at K4. Load moves to: is the electron's 2D-ness forced? Source pin owed (Grace); candidates to check, none cited yet: Hestenes (zitterbewegung), Abbott–Wise (Hausdorff dimension of quantum paths).
+
+**Open, asked of Casey:** (i) "S4" = the sphere S⁴ in the Šilov boundary, or the group S₄ = Aut(K4)? (ii) what "sufficient for one dimension" counts (4 vertices, 6 edges, cycle rank 3)? (iii) is the electron one word or a whole triple?
+
+## Addendum 2 (Keeper, 2026-10-07 11:45 EDT) — Casey, verbatim
+> *"I think the K4 vertices carry three one dimensional values and one parity bit. I wonder if charge relates 'stickiness to the boundary'. Protons/neutrons encode information into matter in the outward projection. The D_IV^5 manifold is the shared ledger."*
+
+**Keeper's reading, positions to test:**
+- **3 + 1 breaks S₄ → S₃** (the stabilizer of the parity vertex). S₃ is the Weyl group of SU(3), a position to test, NOT evidence; no map yet. **Tension with C1:** a marked vertex is a coordinate of sorts, so either the parity bit is not a vertex value, or C1 holds only before the mark.
+- **Candidate parity bits (pick one; convention-collision check first):** the Šilov ℤ₂ in (S⁴×S¹)/ℤ₂ (would make the parity bit the side of the boundary, C2); the clock sign Z_t; (−1)^F (K1946–47: W = Z_t·(−1)^F).
+- **Charge = stickiness to the boundary:** a dynamics posit sitting inside the walls (no covariant charge, K1936; no covariant photon coupling without the breaking, K1937). The neutron is neutral yet archives, so stickiness must act on constituents, not net charge.
+- **Nucleons archive outward; D_IV⁵ = the shared ledger:** consistent with K1924 (archive = the bound particle) and the ledger picture (K1919–K1921).
+- **Open:** are the three values discrete or real? (a resolution floor would make them discrete). Which three values per dimension? How do 3 values per word square with one word = one dimension?
+
+## Addendum 3 (Keeper, 2026-10-07 11:51 EDT) — Casey, verbatim
+> *"To me a neutron is just a proton (permanent record of information) assembled with an electron and a neutrino (residue to balance the books). The unmarked K4 vertex may be parity and used to start/stop the reading of the K4."*
+
+**Keeper:**
+- **Neutron = proton + electron + neutrino as BOOKKEEPING** survives: charge, baryon and lepton number balance; it matches β-decay and Casey's 09-25 "neutrino = residue". **As a literal bound state it is prior art and dead:** Rutherford's compact p+e neutron (1920) failed on confinement energy, the magnetic moment and nuclear spin-statistics; the neutrino repairs the spin count only. Numbers pin-owed (Grace). Phrase it as a ledger statement, never a spatial one.
+- **Parity vertex as start/stop = a framing bit** (a delimiter, not data). That eases the C1 tension: a delimiter carries no coordinate.
+- **A read that starts and stops at one vertex is a closed walk.** Visiting the three value-vertices once = a Hamiltonian cycle of K4. Exact count: 3 undirected, 6 directed; each one's 2 unused edges form a perfect matching (K4 has 3). **Open:** does the reading order of the three values matter? If yes, something must orient the triangle (S₃ → ℤ₃, a handedness: cf. the K1926 handedness lead). If no, a word is an unordered triple.
+
+## Addendum 4 (Keeper, 2026-10-07 11:55 EDT) — Casey, verbatim
+> *"I suspect the order of read always views the dimension in the same order. Information is written to surfaces. The surfaces are discrete. This is very much like DNA or RNA."*
+
+**Keeper:**
+- **A fixed read order everywhere = a universal handedness** (S₃ → ℤ₃ with one orientation chosen globally). Physics has exactly one universal handedness: the weak interaction couples only left-handed fields. Casey 09-25 (K1924): "weak force = accounting/grammar". **Position to test: the grammar IS the read order.** No map yet.
+- **Discrete surfaces give "why 4" a second, independent route:** K4 embedded in the sphere has F = 4 triangular faces (Euler 4 − 6 + 4 = 2); the tetrahedron's boundary is the MINIMAL triangulation of S². If a record is the smallest closed discrete surface, K4 is forced. (Load: why closed, why S².)
+- **Caged on purpose:** the minimal triangulation of the torus is K7 (Möbius–Császár: 7 − 21 + 14 = 0), and the Šilov boundary carries an S¹. g = 7. **A fact, not a lead.** It enters nothing without a map from the boundary's structure to a torus record (feedback: no wave-through on a perfect number).
+- **DNA/RNA is a structural analogy, not evidence:** 4 letters, 3-letter indivisible codons, start/stop, fixed 5'→3' direction, frameshift errors. Roles do not line up one-to-one (DNA: 4 = alphabet, 3 = codon length; here: 4 = 3 values + frame, 3 = words per unit). **No 64/20 counts enter.** Prior art in the genetic-code-symmetry graveyard (e.g. Hornos–Hornos algebraic models) pin-owed before any word is written.
+- **Discreteness:** surfaces discrete per Casey; values presumed discrete, to confirm.
+
+## Addendum 5 (Keeper, 2026-10-07 13:33 EDT) — Casey, verbatim, and the team is called
+> *"As far as torus shaped record, I suspect that when matter is emitted the records are perhaps shaped as toruses for more complex nucleons. It may be that only hydrogen nuclei (protons) are emitted, but then how would a neutron occur, the 'assembly instructions' may require a torus."*
+
+**Keeper:** the torus is now Casey's posit, not a numerology find; it gets a test, not a wave-through. Sphere record (K4, genus 0) = the proton / hydrogen; torus record (genus 1) = the assembly instructions that let a neutron persist. Supporting shape: a free neutron decays; it is stable only bound in a nucleus. **Still caged:** K7 = the minimal torus and g = 7; the primordial n/p ratio (pin-owed) if it lands near 1/7. Neither enters without a map from the boundary's S¹ to a genus-1 record. Team prompt: `Keeper_prompts_team_roundK4-0_the_boundary_process_K4_words_2026-10-07.md`.
