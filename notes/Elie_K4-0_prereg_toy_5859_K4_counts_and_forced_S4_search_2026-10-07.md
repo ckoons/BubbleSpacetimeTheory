@@ -1,4 +1,4 @@
-# Elie — PREREG toy 5859 (Round K4-0, Lane C). Wed 2026-10-07 13:52 EDT. Written BEFORE any code.
+# Elie — PREREG toy 5859 (Round K4-0, Lane C). Wed 2026-10-07 13:39 EDT (header said 13:52 at commit c2455ce6; `date` read 13:39, corrected after, predictions untouched). Written BEFORE any code.
 
 didwe "K4 S4 forced Weyl group Shilov boundary" → 0 hits. Predictions below are blind. Each item can fail.
 
