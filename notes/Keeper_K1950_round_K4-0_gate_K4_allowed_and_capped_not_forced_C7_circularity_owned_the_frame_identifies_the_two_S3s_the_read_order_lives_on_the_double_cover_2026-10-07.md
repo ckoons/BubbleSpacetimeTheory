@@ -112,3 +112,10 @@ Together these give the tetrahedron boundary, i.e. K4. Genus is NOT fixed by the
 - **MODERATE gap, owed by Lyra in the spec:** pick the embedding; if bare, say what puts the token level outside SU(3).
 
 **(d) Cage line updated as Lyra asked:** "three words = three dimensions = three colours" is now an ISOMORPHISM CLAIM. Exhibit the maps between tokens, coordinates and group members; show the geometry or a named principle forces each; name which K4 "3" is used (Cal: seven K4 invariants equal 3).
+
+## 10. Casey's word (13:58 EDT), verbatim, and what Keeper does with it
+> *"I've lost the thread on what I owed you because of my recent hiatus. If any cleanup or other actions are important in your eyes, then we should do it. It's too early to produce another Zenodo."*
+- **Zenodo: DEFERRED** by Casey. It comes off the owed list; it is not waiting on him.
+- **ElectronMass dated diff (Cal S1029 Part B): GO on Keeper's judgment.** Important: two "Proved" tier rows are false in the paper's own corrected objects, and they are the rows a referee reads first. Applied by Grace, gated by Cal, in round K4-1.
+- **S⁴ × S¹ convention: GO on Keeper's judgment, in the scope of Section 7** (a dated notice + the front-facing hosts that use orientation; no mass edit). Keeper does it.
+- Time, Derived v1.6: Casey's GO stands (10-01); Lyra applies.
