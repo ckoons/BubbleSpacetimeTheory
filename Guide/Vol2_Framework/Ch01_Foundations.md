@@ -181,6 +181,8 @@ Every particle plays a role in this cycle:
 
 The electron (boundary excitation, $k=1$, below Wallach set) is light because it lives on the Shilov boundary $\check{S} = S^4 \times S^1$. The proton (bulk resonance, $k=6$, Bergman space $\pi_6$) is heavy because it resonates through the full interior of $D_{IV}^5$. The neutrino ($m_1 = 0$ exactly) is the vacuum itself — the substrate's geometric ground state in propagating form. The mass ratio $m_p/m_e = 6\pi^5$ measures how much more geometry the proton traverses compared to the electron's single winding.
 
+*Convention note (Keeper, 2026-10-07; Grace toy 5858, K1950): the Šilov boundary is $(S^4 \times S^1)/\mathbb{Z}_2$, non-orientable; where this chapter writes $S^4 \times S^1$ it means that boundary through its orientation double cover. The circle's direction is global; the $S^4$ orientation is not.*
+
 Full particle descriptions: `notes/BST_ParticleFamily_Portrait.md`.
 
 -----
@@ -210,6 +212,8 @@ Each step is forced by the failure of the simpler alternative. The result — ci
 The uniqueness of $S^2$ as the base is a theorem, not an assertion. For the $S^1$ fiber to be the unique communication channel, the base surface must be simply connected — otherwise the base itself carries non-contractible loops that compete with the fiber as independent communication channels, producing unobserved additional circuit types. The classification of closed orientable surfaces is complete: they are enumerated by genus $g = 0, 1, 2, \ldots$, and only genus $g = 0$ is simply connected. The torus $T^2$ (genus 1) has $\pi_1(T^2) = \mathbb{Z}^2$ and $H_1(T^2) = \mathbb{Z}^2$ — two independent non-contractible loops that would generate two additional families of circuits with no Standard Model counterpart. Every surface of genus $g \geq 1$ fails for the same reason. $S^2$ is the unique closed orientable surface satisfying the minimality requirement.
 
 **Orientability.** Non-orientable surfaces (Klein bottle, projective plane $\mathbb{RP}^2$) are excluded by a separate requirement: the $S^1$ fiber must define a consistent handedness for circuit winding. On a non-orientable surface, the fiber direction reverses when transported around an orientation-reversing loop — making "winding number 1" and "winding number $-1$" circuits physically identical. The resulting absence of a conserved winding direction eliminates the distinction between circuits and anti-circuits, predicting no conserved electromagnetic charge. The substrate base must be orientable. Together with the genus-0 requirement, this uniquely selects $S^2$.
+
+*Note (Keeper, 2026-10-07, K1950): this argument concerns the circle's direction, and it survives on the actual Šilov boundary $(S^4 \times S^1)/\mathbb{Z}_2$: the deck map rotates the circle by $\pi$, so winding $+1$ and $-1$ stay distinct and charge stays conserved. The boundary is nonetheless non-orientable, through its $S^4$ part (the base $\mathbb{RP}^4$); that non-orientability is the corpus's source of chirality (T2522). The genus-0 argument above (one channel: no non-contractible loops in the base competing with the fiber) is the 2022 form of the information principle that would force a closed-sphere record in the K4 lane (K1950 Section 11).*
 
 ### 2.3 Three Dimensions from Minimality
 

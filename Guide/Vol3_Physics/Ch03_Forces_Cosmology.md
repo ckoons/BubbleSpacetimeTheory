@@ -517,6 +517,8 @@ Both versions are **weight-independent** — neither references period domains, 
 
 The thermodynamics of the BST substrate is computed from the partition function with Haldane exclusion on the Shilov boundary $\Sigma = S^4 \times S^1$ of $D_{IV}^5$. The computation runs over $S^4$ spherical harmonics (degree $l$, degeneracy $d_l$) and $S^1$ winding modes (number $m$, energy $|m|$), with Haldane cap $N_{\max} = 137$:
 
+*Convention note (Keeper, 2026-10-07; Grace toy 5858, K1950): the Šilov boundary of $D_{IV}^5$ is $(S^4 \times S^1)/\mathbb{Z}_2$, the deck map sending $(x,\theta) \mapsto (-x,\theta+\pi)$. It is non-orientable (the antipodal map on $S^4$ reverses orientation), while the circle's direction stays global (the deck map rotates it). The plain product $S^4 \times S^1$ written in this chapter is its orientation double cover. Spectral sums written over the product were taken on the cover; on the boundary itself only modes with $l + m$ even survive (degree-$l$ harmonic × winding $m$). Recheck owed (round K4-1, Elie).*
+
 $$Z(\beta) = \sum_{l,m} d_l \cdot \ln\!\left[\binom{d_l + N_{\max}}{N_{\max}}\right] e^{-\beta E_{l,m}}$$
 
 The resulting thermodynamic profile shows **three distinct phases**:

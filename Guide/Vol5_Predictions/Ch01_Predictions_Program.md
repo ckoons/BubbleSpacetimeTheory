@@ -409,6 +409,8 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |$V_m(\text{Benz})/V_m(\text{Acet})$  |$C_2/n_C = 6/5$|$1.200$|$\checkmark$ **EXACT** (T810)|
 |$V_m(\text{MeOH})/V_m(\text{H}_2\text{O})$  |$N_c^2/2^{\rm rank} = 9/4$|$2.244$|$\checkmark$ 0.28% (T810)|
 
+*Convention note (Keeper, 2026-10-07; Grace toy 5858, K1950): the Šilov boundary is $(S^4 \times S^1)/\mathbb{Z}_2$, non-orientable; where this chapter writes $S^4 \times S^1$ it means that boundary through its orientation double cover. The circle's direction is global; the $S^4$ orientation is not.*
+
 |**FQHE Laughlin fractions**  |$1/N_c, 1/n_C, 1/g = 1/3, 1/5, 1/7$; odd BST integers|$1/3, 1/5, 1/7$ (10+ digits)|$\checkmark$ **EXACT** (T813)|
 |**FQHE Jain+ sequence**  |$1/N_c, 2/n_C, 3/g, 4/N_c^2 = 1/3, 2/5, 3/7, 4/9$|26/28 observed = BST|$\checkmark$ **EXACT** (T814)|
 |**FQHE spacing ratios**  |$\Delta\nu_1/\Delta\nu_2 = g/N_c = 7/3$; $\Delta\nu_2/\Delta\nu_3 = N_c^2/n_C = 9/5$|Measured|$\checkmark$ **EXACT** (T814)|

@@ -119,3 +119,28 @@ Together these give the tetrahedron boundary, i.e. K4. Genus is NOT fixed by the
 - **ElectronMass dated diff (Cal S1029 Part B): GO on Keeper's judgment.** Important: two "Proved" tier rows are false in the paper's own corrected objects, and they are the rows a referee reads first. Applied by Grace, gated by Cal, in round K4-1.
 - **S⁴ × S¹ convention: GO on Keeper's judgment, in the scope of Section 7** (a dated notice + the front-facing hosts that use orientation; no mass edit). Keeper does it.
 - Time, Derived v1.6: Casey's GO stands (10-01); Lyra applies.
+
+## 11. Amendment (Keeper, 2026-10-07 14:35 EDT): the cleanup, done, and what it turned up
+**(a) The cleanup, scope of Section 7, as authorized in Section 10.**
+- Dated convention notes in six Guide chapters (Vol1 Ch01; Vol2 Ch01, Ch02; Vol3 Ch01, Ch03; Vol5 Ch01).
+- Lecture 01's sentence sharpened to (S⁴ × S¹)/ℤ₂ with the deck map written out.
+- A T958 note in Vol2 Ch02: an April label, never re-audited; the factorization holds on the double cover only.
+- All seven PDFs regenerated (14:34–14:35; WARN = pre-existing glyph warnings, built).
+- **The state-block line is NOT applied.** Proposed text, for Cal's cold read before sync: "Its Šilov boundary is (S⁴ × S¹)/ℤ₂, non-orientable through the four-sphere, with the circle's direction global; 'S⁴ × S¹' in older notes is the orientation double cover."
+
+**(b) CORRECTION to my Section 4(c), and a refinement of Cal's KL3(a). Antecedent (Cal S1030 KL3(a), verbatim):** *"A non-orientable boundary carries NO global orientation. 'One fixed read order everywhere', read as a global orientation of written triangles, cannot be inherited from this boundary."*
+- True of the 5-manifold's orientation.
+- **But the deck map (x, θ) ↦ (−x, θ + π) ROTATES the circle; it does not reflect it.** So the boundary is a circle bundle over ℝP⁴ whose FIBRE direction is global (K's SO(2) acts globally), while the non-orientability lives entirely in the base ℝP⁴ (the four-sphere's orientation).
+- **Consequence:** a read order tied to the circle (Lyra R3 09-25: commit direction = the positive-frequency direction of the one circle) IS global on the physical boundary. My Section 4(c) said the read order "lives on the double cover". That holds only for an order tied to the S⁴ orientation. **Retracted as stated; restated:** Casey's "same order always" is consistent on the boundary itself **if and only if the read order is the circle's direction**, which is also where Lyra's det phase lives (Section 9c).
+- Physical reading, a position: the clock/commit direction is global; spatial handedness is not. That fits maximal P violation with a global arrow. Cal rules.
+
+**(c) Casey's 2022 founding argument already contains the information principle for genus 0** (Guide Vol2 Ch01 Section 2.2; Vol1 Ch01 Step 3).
+- In 2022: "For the S¹ fiber to be the unique communication channel, the base surface must be simply connected — otherwise the base itself carries non-contractible loops that compete with the fiber as independent communication channels."
+- **That is P-one-channel: a named information principle, written in 2022, that forces genus 0.** With P-closed ("Step 2: close it") and P-minimal, it forces the tetrahedron, i.e. K4, in Casey's third bin (Section 9a).
+- **The same argument cuts against the torus records.** 2022 excludes the torus because its two non-contractible loops "would generate two additional families of circuits with no Standard Model counterpart". Casey's torus "assembly instructions" re-admit exactly those loops. **Reconciliation owed (Lyra):** the 2022 exclusion is about the BASE substrate; the torus records are composite objects (nuclei). Their extra loops must then be the instructions, and must be OBSERVED (nuclear structure), not unobserved circuit families. Say which, or one of the two arguments falls.
+- 2022's orientability requirement (no fibre reversal, so charge conserved) SURVIVES on the true boundary by (b). The Foundations note says so.
+
+**(d) MODERATE, new: spectral sums written over the product count both parities.**
+- On the quotient, a mode (degree-l harmonic on S⁴) × (winding m) survives the deck map iff (−1)^{l+m} = +1, i.e. **l + m even**.
+- The Guide's Haldane partition function (Vol3 Ch03) and the Seeley–DeWitt Casimir zeta (Vol2 Ch02) are written over S⁴ × S¹. If they were computed on the cover, the boundary's own values differ.
+- **Recheck owed (Elie):** is any number on a front page computed over both parities? The notes in those chapters say "recheck owed"; nothing is re-tiered until the recheck lands.

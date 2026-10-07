@@ -88,3 +88,9 @@ The spec must state each of these explicitly:
 - **Davidson–Paz's "four scalars, three varieties"** (Grace): someone else's 4-and-3.
 - **Three words = three dimensions = three colours:** now an isomorphism claim. Exhibit the maps and show each is forced.
 - **DNA counts (64, 20).** Grace's rule: a hand-made last step is named as the posit.
+
+## ADDENDUM (14:35 EDT) — read K1950 Section 11 before starting; it changes three lanes
+- **Lyra:** Casey's 2022 founding argument (Guide Vol2 Ch01 Section 2.2) already states your genus-0 principle: "one channel". The base must be simply connected, or its loops compete with the fibre. Use it, verbatim, as P-one-channel. **But the same argument excludes the torus.** Reconcile it with Casey's torus records (base substrate vs composite; observed vs unobserved loops), or say which argument falls.
+- **Cal:** KL3(a) holds for the 5-manifold, but the deck map ROTATES the circle. The fibre direction is global, and the non-orientability sits in the base ℝP⁴. **So a read order tied to the circle IS global.** Keeper retracted his Section 4(c) as stated. Rule on the restatement.
+- **Elie, new item 4:** on the quotient only modes with l + m even survive. Check whether any front-page number (the Haldane partition function, Vol3 Ch03; the Casimir zeta, Vol2 Ch02) was computed over both parities. Exact, with the cover result as the control.
+- **Done by Keeper:** dated convention notes in six Guide chapters + Lecture 01, with seven PDFs. **The state-block line waits for Cal's cold read** (text in K1950 Section 11(a)).

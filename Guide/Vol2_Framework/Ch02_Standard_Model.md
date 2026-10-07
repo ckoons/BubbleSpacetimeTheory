@@ -68,6 +68,8 @@ BST answers Robertson’s question. $D_{IV}^5$ is the configuration space of the
 
 **The explicit formula.** The Bergman kernel of $D_{IV}^5$ evaluated at the Shilov boundary $S^4 \times S^1$ gives a natural metric in which the ratio of scales is set by the domain volume. The Wyler formula is:
 
+*Convention note (Keeper, 2026-10-07; Grace toy 5858, K1950): the Šilov boundary of $D_{IV}^5$ is $(S^4 \times S^1)/\mathbb{Z}_2$, the deck map sending $(x,\theta) \mapsto (-x,\theta+\pi)$. It is non-orientable (the antipodal map on $S^4$ reverses orientation), while the circle's direction stays global (the deck map rotates it). The plain product $S^4 \times S^1$ written in this chapter is its orientation double cover. Spectral sums written over the product were taken on the cover; on the boundary itself only modes with $l + m$ even survive (degree-$l$ harmonic × winding $m$). Recheck owed (round K4-1, Elie).*
+
 $$\boxed{\alpha = \frac{9}{8\pi^4} \left(\frac{\pi^5}{2^4 \cdot 5!}\right)^{1/4} = \frac{9}{8\pi^4} \left(\frac{\pi^5}{1920}\right)^{1/4}}$$
 
 The exponent $1/4$ arises from the normalization of the Bergman kernel on $D_{IV}^5$: the Plancherel measure for spherical functions on the symmetric space $\mathrm{SO}_0(5,2)/(\mathrm{SO}(5)\times\mathrm{SO}(2))$ introduces $\mathrm{Vol}(D_{IV}^5)^{1/4}$ as the natural geometric scale for the principal series representation associated with the $S^1$ winding mode. In the Harish-Chandra construction, the c-function for the relevant representation contributes a $V_5^{1/4}$ factor from the boundary-to-bulk normalization of the Bergman kernel — a result of the Bergman metric transformation law, not a simple ratio of dimensions. The volume $\text{Vol}(D_{IV}^5) = \pi^5/1920$ is fixed by the group theory of $\mathrm{SO}_0(5,2)/(\mathrm{SO}(5) \times \mathrm{SO}(2))$. The full derivation via the Harish-Chandra c-function follows immediately below.
@@ -427,6 +429,8 @@ The first factor is the fraction of the real dimensions occupied by the color fi
 **The Neutron as Shilov Boundary Composite (T958).** The Shilov boundary of $D_{IV}^5$ is $S^4 \times S^1$. The neutron is the physical realization of this product: an unstable composite that factorizes into irreducible pieces through beta decay. The mapping is exact:
 
 $$n \to p + e^- + \bar{\nu}_e \quad \longleftrightarrow \quad S^4 \times S^1 \to S^4 + S^1 + (+1)$$
+
+*Note (Keeper, 2026-10-07, K1950): T958 carries an April label and has not been re-audited under the current tiers; read it as a picture, not a proof. The factorization $S^4 \times S^1 \to S^4 + S^1$ holds on the orientation double cover; the Šilov boundary itself, $(S^4 \times S^1)/\mathbb{Z}_2$, is not a product.*
 
 The proton lives on $S^4$ (compact, simply connected, topologically stable, color-confined). The electron lives on $S^1$ (compact, winding-number-protected, light). The antineutrino is the $+1$ remainder of T914 — the irreducible observer term that appears whenever a composite factorizes at the boundary.
 

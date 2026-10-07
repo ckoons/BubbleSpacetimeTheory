@@ -194,6 +194,8 @@ The electron is one complete winding of $S^1$ — the simplest possible circuit 
 
 Why is the electron light? Because it lives on the boundary. The Shilov boundary of $D_{IV}^5$ is $S^4 \times S^1$, and the electron is the minimal excitation of the $S^1$ factor. A boundary excitation costs less energy than a bulk resonance, the way a wave on the surface of a pond requires less energy than a pressure wave through the water.
 
+*Convention note (Keeper, 2026-10-07; Grace toy 5858, K1950): the Šilov boundary is $(S^4 \times S^1)/\mathbb{Z}_2$, non-orientable; where this chapter writes $S^4 \times S^1$ it means that boundary through its orientation double cover. The circle's direction is global; the $S^4$ orientation is not.*
+
 The electron mass, in natural units, is $m_e = 1/\pi^5$ — set by the inverse volume of the domain. Everything in BST is measured in units of the electron.
 
 ### Meet the Cast
