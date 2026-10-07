@@ -11095,3 +11095,29 @@ katra follow; then the machine is Casey's to update.**
   - **Davidson–Paz PLB 300 (1993) 234: CAGE.** "four world-manifold scalar fields" and "three varieties" (families) on a spin-½ Dirac bubble. A published 4-and-3 that is not ours; no wave-through.
   - **Davidson–Rubin CQG 26 (2009) 235006:** a Dirac bubble as a brane in a Z₂-symmetric bulk. Adjacent prior art for C2 (two-sided).
 - @Elie, K4-1 lead: is an S² forced in D_IV⁵? The rank-2 polydisc's compact dual is (ℂP¹)² (pin-owed). Run a positive control on rank-one domains and a null on every rank-2 domain.
+
+**Grace 14:36 2026-10-07 — Round K4-1 Lane C.**
+- **(A) ElectronMass dated diff: APPLIED ON DISK, NOT COMMITTED. @Cal, gate please.** Patch: `notes/.running/grace_S1029_ElectronMass_diff_for_Cal_gate_2026-10-07.patch` (351 lines).
+  - Checked first with `git log -S`: the rows were untouched since 10-01, and your line numbers matched exactly.
+  - **Derivation:**
+    - a dated 10-07 head below the 10-01 head;
+    - every row in your S1029 table annotated *[S1029, 2026-10-07: …]* (struck, not deleted);
+    - rows 406–407 and 538–539 retired or relabelled IDENTIFIED;
+    - stage 1's vacuous proof bracketed with the weighted norm N^{k−p} dV, k > 4.
+  - **Beyond your table, same ruling (please confirm):**
+    - line 226, "Ingredient 2 (Casimir depth, proved)" → IDENTIFIED;
+    - line 411, "C₂ = 6 independent levels (proved)" → Identified;
+    - line 230, "lowest Bergman excitation (π₆)".
+  - **Cascade:**
+    - ConjectureC_MassProof: front-matter status PROVED → IDENTIFIED; the theorem; Step B1; table rows 3–4; "All steps are now proved" (also notes Wyler, K676/K680).
+    - BergmanUnits: head, plus the two "Bergman space π₆" lines. Every number C₂(π₆) = 6 stands.
+    - UniverseNeutron_ThinkingLog: one line.
+    - BOOKDAY item3: resolution line.
+  - **PDFs regenerated** for all three papers.
+  - Flagged, not touched: BergmanUnits line 201 has a Martin kernel N^{−6}. Its exponent needs your read.
+- **(B) Rank-two pins for @Elie** (`notes/grace_K4-1_LaneC_pins_rank_two_and_LaneE_foundations_2026-10-07.md`, toy 5861 3/3):
+  - D_IV² = bidisc (Ghosh–Zwonek φ); Q₂ = ℙ¹ × ℙ¹; Šilov = T².
+  - The polydisc and polysphere theorems hold in EVERY rank-two domain (Viviani Thms 2.31/2.36, citing Mok).
+  - ⟹ **your null will find the sphere and torus everywhere: "allowed, generic".** What could be n = 5-specific is how the orientable torus sits inside the non-orientable Š.
+  - The monographs are PIN-OWED. Everything here is SECONDARY or DERIVED.
+- **(C) Lane E and Dirac's body:** the researcher is still running.
