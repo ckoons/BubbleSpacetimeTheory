@@ -1,0 +1,25 @@
+# BST TOMORROW — next session after 2026-10-09 — PRIORITIES AND ANTI-STALE PROTOCOL
+*Written by Keeper at EOD 10-09 (17:2x EDT; Casey: "let's plan for tomorrow and do your EOD process, we will restart in the morning with the new Anthropic version"). Replaces the 10-08 file, every item of which ran on 10-09.*
+
+## Start of day
+- Run `date`. **Casey says the model version changes daily: write it on the board at wake.**
+- Read the rubric: Section 2's **10-09 EOD** entry (the K4 lane, days 1–3) and Section 3's **10-09** re-derivation. Then THIS file, your sundown, the board.
+- `python3 play/lexicon.py "<Casey's first message>"` before replying to it. `didwe` before any lane.
+- Pull with `git pull --rebase --autostash BubbleSpacetimeTheory main`. Anti-stale: `git log --since=2026-10-09T17:00`.
+
+## Open, in order
+1. **Round K4-8 — the five record phases are a quadrupole: where do they live on Š?** (Lyra's K4-7 finding, caged.) A commit's record is a density matrix on ℂ³ = 1 ⊕ 3 ⊕ 5 under the act's SO(3): the bit, the axis-with-helicity, and a quadrupole. The quadrupole is the tangent space of SU(3)/SO(3); so(5,2)'s restricted roots are B₂ (no 2e₁), so it has no home among the generators and can live only in the record. **Instrument first (Elie): 5870's L²(Š) decomposition refined by M-type — does the l = 2 of M = SO(3) appear at fixed k, and in which of H², H̄², R?** Candidate homes named by Lyra: the R-sector; the S⁴ harmonics by M-type; the Bargmann phases (3, not 5 — cannot be the whole). **Cal hashes which outcome would mean what BEFORE Elie runs. CAGED: "5 = n_C".** Rubric cell: Internal B/C.
+2. **Casey's inputs, entered 10-09, to be used as premises:** one commit per quark, three per baryon (Addendum 10 retired); "the 3D record is the baryon (three confined quarks)"; S₄ = the group, S⁴ = the sphere; "exterior" = anything beyond the boundary in the continuum (Lyra writes the map to her "conjugate tube"). **Open by Casey's word:** endedness; which explanation of the 39-decade gap (a substrate-level rate needing a NON-AREA sentence, or Λ's count fixed by the de Sitter end).
+3. **Closing items (no Casey word needed):**
+   - Lyra: the exterior ↔ conjugate-tube map (one paragraph); the det theorem carried into her K4-6 addendum (Cal S1044 Section 2 wording).
+   - Grace: the S4 sweep (1087 S⁴ / 73 S₄ / 147 bare) — convention adopted, fix the 147; Dicke 1961 pin.
+   - Cal: cold read of Lyra's quadrupole paragraph; the electron-module pin (S1037 Section 3's condition) if Lyra states the module in one normalization.
+   - Keeper: register rows for the 10-09 files (nightly ran at EOD; confirm); the Eddington–Dirac row reads CLOSED NEGATIVE as a credit route.
+4. **Carried:** Target 2 (the neutron) stays DECLARED AND UNATTEMPTED until a mechanism precedes the formula. The colour Coleman–Mandula answer (act vs record) at tier C; the diquark retrodiction. The R-sector as the home of the neutral self-conjugate fields (caged). Horn (i) of the gap: if Casey wants it, a non-area sentence.
+5. **Tooling (Casey's lane, when he wants it):** the lexicon hook (run `play/lexicon.py` on every Casey message automatically) — awaits his go; 36 concepts, 62+ anchors, hash-checked, control 13/13. The nightly register run should also refresh lexicon shas.
+
+## Waiting on Casey
+- Nothing blocking. Zenodo DEFERRED. Endedness and the gap's explanation are his, no hurry.
+
+## 10-09 in one paragraph (K1953–K1959; Cal S1034–S1044; Lyra 4 notes; Grace 4 pin files; Elie 17 toys)
+Three pre-registered negatives and one standing object. **α running at Q* = m_e: MISS** (Q = 1.43 m_e; the curvature term K675 carries the 0.036). **T3, the absolute count: MISS by 39.2 decades** — one K4 per atomic absorption is not Λ's count. **H-AREA: CLOSED NEGATIVE on the sentences** before any number (the lattice takes the recoil; the proton landing is Eddington–Dirac, credit zero). **"Three faces = three dimensions": RETIRED** (Stokes is the double of space; one axis per commit survives). **What held:** β = 2 from the null flux (zero knobs); Λ by identity with k = 2 the one input, D = 3 as k = 2 seen twice; one K4 per non-null absorption (N = W); the three-way boundary split; side = matter/antimatter, threshold = boundary/bulk, Q a torus weight, thirds via ℤ₃ ⊂ U(3); M2 closed; the π audit two-class; 42 → 29 literals. **The object:** a commit writes a null unit vector in the short-root 3-space; forgetting the bilinear form is colour; three distinct circulations make a baryon; its five extra phases are a quadrupole the algebra cannot hold. **Owned by Keeper:** the "orders of magnitude" calibration; ρ + 3p for ρ + p; the leak (cured by K1958's open design on Casey's word); "helicity = orientation" adopted under a wrong label (it is the weight parity); "horn" said to Casey unexplained; Wald's equation numbers swapped; reduced vs un-reduced Compton in a menu. **Casey's rule of the day:** *"humans learn things then prove them. It's not wrong if you build the test honestly."*

@@ -41,6 +41,8 @@
 - For REAL states the phase is only a sign, so route 2 meets route 1's condition. **One can-fail line, not two. Not yet a forcing.**
 
 ## 4. Casey's levels (K1949 Addendum 10)
+> *RETIRED 2026-10-09 (Cal S1044; ground: Elie 5875, Cal S1040 P7): "the three faces at the frame vertex are the three dimensions" is withdrawn as an identity. Under a physical rotation by θ about the photon's axis the Stokes vector turns by 2θ and the tangent 3-space by θ; the Schur map between them intertwines only the double angle, so the K4's faces are not spatial directions (Stokes is the double of space, not its spinor; the 4π belongs to the Jones phase, 5875 H6). What survives rotation-equivariantly is ONE direction per commit — the photon's axis k̂ with its helicity sign (5875 H4, 5878 E1) — and the record's content is a null unit vector in g_{e₁} ⊗ ℂ (Lyra K4-6, Elie 5880). Three dimensions are spanned by many commits' axes, never by one commit's faces. The sentence is kept, dated, as the record of what was thought on 10-07.*
+> *RETIRED 2026-10-09 (Casey, K1959 Section 7): "3 photons = 3 commits = one unit (one quark)" — Casey: "1 commit per quark"; three commits = one baryon (det of three null vectors, Lyra K4-6). Kept, dated.*
 - **write → unit (3 writes = 1 word = 1 quark) → proton (3 words = the 3D cell).**
 - Indivisibility at the unit level is C7. At the proton level it is confinement.
 - Lyra's question is answered: both levels, stated by Casey, so the 3 is not counted twice.

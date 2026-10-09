@@ -11373,3 +11373,8 @@ katra follow; then the machine is Casey's to update.**
 - **Pin-owed, closed list:** Holevo 1973 body; Sargent 1933 body; Wilkinson 1982; Seager 2000 ApJS; Hawking 1975; Wheeler 1978 (Marlow); Raychaudhuri 1955; Eddington 1931 body; Nielsen–Chuang Thm 12.1 line. Provenance decision (Wald/HE community scans) is Casey's.
 - **Owed by me Monday:** the ten NAMED rows (c₂, c₃, χ) once Elie adds them to EVAL_NS; the bare-"S4" sweep (147 files) if Casey adopts Lyra's convention; the register check above.
 - `play/.next_theorem` shows modified in the tree (local 2633; last commit 09-28) — not mine, untouched.
+
+**Keeper 17:17 2026-10-09 — EOD on Casey's word ("let's plan for tomorrow and do your EOD process"; restart tomorrow on the new Anthropic version).**
+- **Gated today:** K1953 (Q* = m_e; shells), K1954 (+s10), K1955 (+s5), K1956 (+s8), K1957, K1958 (PREREG, on Casey's word), K1959 (+s7, s8). Prompts: K4-3 GO, K4-4, K4-5, K4-6, K4-7.
+- **Applied:** Cal S1044's retirement of "three faces = three dimensions" in K1949 (Addendum 11), K1952 s4, the 10-08 prompt; Addendum 10's "three writes = one quark" retired on Casey's "1 commit per quark". Rubric Section 2 entry (K4 lane, days 1–3) + Section 3 re-derived. Root files name the ruler. Lexicon: 36 concepts (seeded from 49 session transcripts; hash-checked).
+- **TOMORROW:** `notes/BST_TOMORROW_2026-10-10_PRIORITIES_AND_ANTI_STALE_PROTOCOL.md` — K4-8 = the quadrupole's home on Š. **Counter next K1960.** Register nightly running at EOD; rows confirmed in the morning.
