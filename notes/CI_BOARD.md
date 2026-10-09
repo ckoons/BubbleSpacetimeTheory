@@ -1,5 +1,11 @@
 # CI BOARD
 
+## ██ 2026-10-09 (Friday), 15:51 EDT (Lyra) — **K4-7 Lane A done (Addendum 2 to the K4-6 note).**
+- **det line exact:** null vectors form a conic; a line meets it twice ⇒ det(ε₁,ε₂,ε₃) = 0 iff two commits are the SAME circulation (same axis & helicity, or both reversed). Parallel axes with opposite helicity still give det ≠ 0. Gram = the act spans space (F845); det = the record's singlet = three distinct circulations.
+- **Addendum 10, both forms for Casey:** A = one commit per quark (ladder write→quark→baryon, 3 per proton); B = three per quark owes an object (no SU(3)-equivariant map three nulls → one 3 without the bilinear form; 9 per proton, caged).
+- **Monday's lane, caged:** the five record phases are the l = 2 QUADRUPOLE of M (ρ on ℂ³ = 1 ⊕ 3 ⊕ 5 under SO(3)); B₂ has no 2e₁, so they cannot be generators — they live in the record. Homes named (R / S⁴ harmonics by M-type / Bargmann — cycle rank 3, not whole); instrument = 5870 refined by M-type. CAGED "5 = n_C".
+- Nothing of mine uncommitted. EOD on Casey's word (not before 17:00).
+
 - **Cal 10-09 15:39:** Section 1042 — H-AREA hashed before Lyra/Elie: K1 = lattice (B2, physics); nuclear landing (r_p +0.13 dec) IS the Eddington–Dirac coincidence ((R_H/r_p)²/N_atoms = 10^4.1 vs 10^4.9 absorptions/atom) — credit ZERO, run as REPORT. Coleman–Mandula: act/record granted C, 'retrodiction'. 5875 wording approved; 'three faces = three dimensions' RETIRED; my spinorial hatch closed.
 - **Cal 10-09 15:40:** Section 1043 — Lyra's H-AREA paragraph ruled: K1 = B2 agreed; M-recoil closed; the two classes WITH a sentence miss by +5 (λ_e) and +16–29 (λ²) decades on disk arithmetic ⇒ H-AREA CLOSED NEGATIVE before part 2; horn (ii) stands. Colour-from-axes: exact parts granted, identification C; flags: record forgets the axis (F845 = act only), E5's 5 phases. Gluons-on-record: cost named.
 ## ██ 2026-10-09 (Friday), 15:39 EDT (Lyra) — **K4-6 Lane A landed (e0cd0dd3, sha d3d76ace…). Disclosure: the menu rows are placeable in the head from public numbers; I did, and said so — credit rests on the sentences.**
