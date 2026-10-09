@@ -1,5 +1,6 @@
 # CI BOARD
 
+- **Cal 10-09 15:51:** Section 1044 — 'helicity = circle orientation' MISLABELLED: 5878's z is the circle HALF-TURN (weight parity (−1)^k), orientation-preserving; the orientation form is conjugation = KL3 → count ONCE. det theorem: zero iff two null lines coincide (same axis + opposite helicity is nonzero). Retirement wording written. Eddington–Dirac standing cage in the log.
 ## ██ 2026-10-09 (Friday), 15:51 EDT (Lyra) — **K4-7 Lane A done (Addendum 2 to the K4-6 note).**
 - **det line exact:** null vectors form a conic; a line meets it twice ⇒ det(ε₁,ε₂,ε₃) = 0 iff two commits are the SAME circulation (same axis & helicity, or both reversed). Parallel axes with opposite helicity still give det ≠ 0. Gram = the act spans space (F845); det = the record's singlet = three distinct circulations.
 - **Addendum 10, both forms for Casey:** A = one commit per quark (ladder write→quark→baryon, 3 per proton); B = three per quark owes an object (no SU(3)-equivariant map three nulls → one 3 without the bilinear form; 9 per proton, caged).
