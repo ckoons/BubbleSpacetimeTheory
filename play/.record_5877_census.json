@@ -32,5 +32,7 @@
   "dust_absorptions_primary_zbar2_Eabs2eV": 0.748308167740593
  },
  "toy_sha_at_part1": "aa5b3d8b8860bd0e",
- "N_req": null
+ "N_req": 2.240491511677719e+122,
+ "log10_ratio_primary": -39.1802842957695,
+ "verdict": "MISS (the pincer fires)"
 }

@@ -1,0 +1,14 @@
+CAMB 1.6.6; recombination model Recfast; YHe = 0.2459 (CAMB's BBN default; MODEL) → X_H = 0.7541
+n_H,0 = 1.893e-07 cm^-3; V_H,0 = 1.085e+79 m^3; hydrogen atoms in V_H,0 = 2.054e+78
+
+PART 2 — N_req from the K1919 Section 7 identity (census on disk: primary 1.479e+83, part-1 sha aa5b3d8b8860bd0e)
+  N_req = Omega_L rho_crit V_H / E_commit = 2.240e+122   (log10 122.35);  identity (pi Omega_L/ln2) (c/H0)^2/l_P^2 = 2.240e+122
+  [PASS] I1: N_req = (pi Omega_Lambda/ln 2)(c/H0)^2/l_P^2 — the horizon-area count in Planck units: K1919 Sec. 7's identity, exactly
+
+  N_census (primary) = 1.479e+83;  N_req = 2.240e+122;  log10(N_census/N_req) = -39.18
+  fork span to N_req: smallest fork 8.64e+82 is 39.4 decades below N_req; largest fork 4.22e+83 is 38.7 below
+  chance of a ±1-decade landing on a log-uniform null over the span (Cal's null): 2/39.4 = 0.051
+  Cal S1041 rule: |log10| = 39.18 → MISS (the pincer fires)
+  [FAIL] T3: CREDIT iff |log10| <= 1: MISS (the pincer fires) — the two counts differ by 39.2 decades; no fork comes within 38 decades (a FAIL here is the hashed test's own verdict, reported as such)
+
+SCORE (part 2): 1/2  (I1 the identity; T3 the hashed test — FAIL = MISS under Cal S1041)
