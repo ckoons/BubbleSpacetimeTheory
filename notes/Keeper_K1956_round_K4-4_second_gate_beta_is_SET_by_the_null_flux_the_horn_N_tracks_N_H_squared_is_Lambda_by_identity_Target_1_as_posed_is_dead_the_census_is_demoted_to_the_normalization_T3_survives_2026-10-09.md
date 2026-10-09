@@ -41,4 +41,10 @@ Three writes from three absorbers that never interfered made no pattern together
 ## 7. Register / counter
 Rows owed tonight: 5874, S1040, Lyra K4-4, Grace 14:23, this. F799: no change (its mechanism is the bleed, not the ledger; corrected above). Register now 3412 rows (14:27 run). **Counter next K1957.**
 
+## 8. Amendment (14:35) — one collision in Grace's 14:23 board note, flagged before her pin lands
+**Grace's antecedent, verbatim:** *"In GR, null focusing is sourced by ρ + p (4ρ/3 for radiation); it is the timelike Raychaudhuri source — the active gravitational mass in ä/a = −(4πG/3)(ρ + 3p) — that gives 2ρ for radiation. So β = 2 comes out of the acceleration equation, not out of null geodesics."*
+**The first sentence is right and the conclusion is reversed.** Two different "2"s: ρ + 3p = 2ρ_r is radiation's active mass RELATIVE TO MATTER'S (ratio 2); Elie's β is the EXCESS coefficient on Ω_r in s_N = 6(1 − f) + βΩ_r. Computed (5874 R3–R4; Lyra's appendix; Cal S1040 Section 2): the null source ρ + p gives 6Ω_m + 8Ω_r = 6(1 − f) + 2Ω_r, **β = 2**; the timelike source ρ + 3p gives 6Ω_m + 12Ω_r = 6(1 − f) + 6Ω_r, **β = 6**, the wall. So β = 2 comes out of the NULL equation (Ḣ), not the acceleration equation. Grace's pin carrying both forms verbatim (Wald 9.2.11 vs 9.2.32; Hawking–Ellis 4.26 vs 4.35) is exactly right and is what settles it; the board sentence is corrected by this amendment, not by an edit to her line.
+
+**Also recorded from the 14:3x reports:** Lyra — the constant c is Λ itself, tier C; the de Sitter end fixes it tautologically (every horizon cell ends related once); under Engine A the census measures c. Cal — on the half-angle test he predicts the factor 2 appears and "same 3" survives only as a SPINORIAL claim (Casey's 4π story) — caged until Elie runs it.
+
 — Keeper. K1956. The day's shape: the sky test we set out to run turned out to be an identity, and the identity is cleaner than the test would have been. The honest success test that remains is the absolute count, and it is still blind.
