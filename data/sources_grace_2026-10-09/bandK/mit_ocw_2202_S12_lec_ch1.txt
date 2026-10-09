@@ -1,0 +1,807 @@
+Massachusetts Institute of Technology
+
+
+
+
+                    22.02
+         INTRODUCTION
+               to
+    APPLIED NUCLEAR PHYSICS
+
+
+                  Spring 2012
+
+
+
+
+          Prof. Paola Cappellaro
+
+
+
+
+    Nuclear Science and Engineering Department
+[This page intentionally blank.]
+
+
+
+
+                2
+Contents
+
+1 Introduction to Nuclear Physics                                                                                                   5
+  1.1 Basic Concepts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    5
+       1.1.1 Terminology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      5
+       1.1.2 Units, dimensions and physical constants . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         6
+       1.1.3 Nuclear Radius . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       6
+  1.2 Binding energy and Semi-empirical mass formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          6
+       1.2.1 Binding energy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     6
+       1.2.2 Semi-empirical mass formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        7
+       1.2.3 Line of Stability in the Chart of nuclides . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     9
+  1.3 Radioactive decay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    11
+       1.3.1 Alpha decay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   11
+       1.3.2 Beta decay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    13
+       1.3.3 Gamma decay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       15
+       1.3.4 Spontaneous ﬁssion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    15
+       1.3.5 Branching Ratios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    15
+
+2 Introduction to Quantum Mechanics                                                                                              17
+  2.1 Laws of Quantum Mechanics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+  2.2 States, observables and eigenvalues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+       2.2.1 Properties of eigenfunctions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+       2.2.2 Review of linear Algebra . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+  2.3 Measurement and probability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+       2.3.1 Wavefunction collapse . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+       2.3.2 Position measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+       2.3.3 Momentum measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+       2.3.4 Expectation values . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+  2.4 Energy eigenvalue problem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+       2.4.1 Free particle . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+  2.5 Operators, Commutators and Uncertainty Principle . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+       2.5.1 Commutator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+       2.5.2 Commuting observables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+       2.5.3 Uncertainty principle . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+
+3 Scattering, Tunneling and Alpha Decay                                                                                           35
+  3.1 Review: Energy eigenvalue problem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+  3.2 Unbound Problems in Quantum Mechanics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+      3.2.1 Inﬁnite barrier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+      3.2.2 Finite barrier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+  3.3 Alpha decay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+      3.3.1 Energetics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+      3.3.2 Quantum mechanics description of alpha decay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+
+4 Energy Levels                                                                                                                     47
+  4.1 Bound problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+      4.1.1 Energy in Square inﬁnite well (particle in a box) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+      4.1.2 Finite square well . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+  4.2 Quantum Mechanics in 3D: Angular momentum . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+      4.2.1 Schrödinger equation in spherical coordinates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+      4.2.2 Angular momentum operator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+      4.2.3 Spin angular momentum . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+      4.2.4 Addition of angular momentum . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57
+  4.3 Solutions to the Schrödinger equation in 3D . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+      4.3.1 The Hydrogen atom . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+      4.3.2 Atomic periodic structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62
+      4.3.3 The Harmonic Oscillator Potential . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+  4.4 Identical particles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+      4.4.1 Bosons, fermions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+      4.4.2 Exchange operator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+      4.4.3 Pauli exclusion principle . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+
+                                                                  3
+5 Nuclear Structure                                                                                                              69
+  5.1 Characteristics of the nuclear force . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69
+  5.2 The Deuteron . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+      5.2.1 Reduced Hamiltonian in the center-of-mass frame . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+      5.2.2 Ground state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+      5.2.3 Deuteron excited state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72
+      5.2.4 Spin dependence of nuclear force . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+  5.3 Nuclear models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74
+      5.3.1 Shell structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74
+      5.3.2 Nucleons Hamiltonian . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75
+      5.3.3 Spin orbit interaction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+      5.3.4 Spin pairing and valence nucleons . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80
+
+6 Time Evolution in Quantum Mechanics                                                                                           83
+  6.1 Time-dependent Schrödinger equation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
+      6.1.1 Solutions to the Schrödinger equation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
+      6.1.2 Unitary Evolution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85
+  6.2 Evolution of wave-packets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85
+  6.3 Evolution of operators and expectation values . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87
+      6.3.1 Heisenberg Equation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 88
+      6.3.2 Ehrenfest’s theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 88
+  6.4 Fermi’s Golden Rule . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 90
+
+7 Radioactive decay                                                                                                               93
+  7.1 Gamma decay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93
+      7.1.1 Classical theory of radiation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
+      7.1.2 Quantum mechanical theory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95
+      7.1.3 Extension to Multipoles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
+      7.1.4 Selection Rules . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98
+  7.2 Beta decay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 100
+      7.2.1 Reactions and phenomenology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 100
+      7.2.2 Conservation laws . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101
+      7.2.3 Fermi’s Theory of Beta Decay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101
+
+8 Applications of Nuclear Science                                                                                               105
+  8.1 Interaction of radiation with matter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 105
+      8.1.1 Cross Section . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 105
+      8.1.2 Neutron Scattering and Absorption . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106
+      8.1.3 Charged particle interaction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 110
+      8.1.4 Electromagnetic radiation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 117
+
+
+
+
+                                                                 4
+1. Introduction to Nuclear Physics
+
+
+1.1  Basic Concepts
+    1.1.1 Terminology
+    1.1.2 Units, dimensions and physical constants
+    1.1.3 Nuclear Radius
+1.2 Binding energy and Semi-empirical mass formula
+    1.2.1 Binding energy
+    1.2.2 Semi-empirical mass formula
+    1.2.3 Line of Stability in the Chart of nuclides
+1.3 Radioactive decay
+    1.3.1 Alpha decay
+    1.3.2 Beta decay
+    1.3.3 Gamma decay
+    1.3.4 Spontaneous ﬁssion
+    1.3.5 Branching Ratios
+
+
+
+
+1.1 Basic Concepts
+
+In this chapter we review some notations and basic concepts in Nuclear Physics. The chapter is meant to setup a
+common language for the rest of the material we will cover as well as rising questions that we will answer later on.
+
+
+1.1.1 Terminology
+
+A given atom is speciﬁed by the number of
+- neutrons: N
+- protons: Z
+- electrons: there are Z electron in neutral atoms
+Atoms of the same element have same atomic number Z. They are not all equal, however. Isotopes of the same
+element have diﬀerent # of neutrons N .
+Isotopes are denoted by A
+                        Z XN or more often by
+
+                                                        A
+                                                        ZX
+
+
+where X is the chemical symbol and A = Z + N is the mass number. E.g.: 235
+                                                                       92 U,
+                                                                             238
+                                                                                 U [the Z number is redundant,
+thus it is often omitted].
+When talking of diﬀerent nuclei we can refer to them as
+• Nuclide: atom/nucleus with a speciﬁc N and Z.
+• Isobar: nuclides with same mass # A (�= Z, N ).
+• Isotone: nuclides with same N, �= Z.
+• Isomer: same nuclide (but diﬀerent energy state).
+
+                                                         5
+1.1.2 Units, dimensions and physical constants
+
+Nuclear energies are measured in powers of the unit Electronvolt: 1eV = 1.6 × 10−19 J. The electronvolt corresponds
+to the kinetic energy gained by an electron accelerated through a potential diﬀerence of 1 volt. Nuclear energies are
+usually in the range of MeV (mega-electronvolt, or 106 eV).
+Nuclear masses are measured in terms of the atomic mass unit : 1 amu or 1u = 1.66 × 10−27 kg. One amu is equivalent
+to 1/12 of the mass of a neutral ground-state atom of 12 C. Since electrons are much lighter than protons and neutrons
+(and protons and neutrons have similar mass), one nucleon has mass of about 1amu.
+Because of the mass-energy equivalence, we will often express masses in terms of energy units. To convert between
+energy (in MeV) and mass (in amu) the conversion factor is of course the speed of light square (since E = mc2 ). In
+these units we have: c2 = 931.502 MeV/u.
+- Proton mass: 938.280MeV/c2 .
+- Neutron mass: 938.573MeV/c2 .
+- Electron mass: 0.511MeV/c2 .
+Note: you can ﬁnd most of these values in Krane (and online!)
+Scales of magnitude for typical lengths are femtometer (1fm=10−15 m) also called Fermi (F) and Angstrom 1˚     A=
+10−10 m (for atomic properties) while typical time scales span a very broad range.
+Physical constants that we will encounter include the speed of light, c = 299, 792, 458 m s−1 , the electron charge,
+e = 1.602176487 × 10−19 C, the Planck constant h = 6.62606896 × 10−34 J s and �, Avogadro’s number Na =
+6.02214179 × 1023 mol−1 , the permittivity of vacuum ǫ0 = 8.854187817 × 10−12 F m−1 (F=Faraday) and many
+others. A good reference (online) is NIST: http://physics.nist.gov/cuu/index.html
+There you can also ﬁnd a tool to convert energy in diﬀerent units:
+http://physics.nist.gov/cuu/Constants/energy.html
+
+
+1.1.3 Nuclear Radius
+
+The radius of a nucleus is not well deﬁned, since we cannot describe a nucleus as a rigid sphere with a given radius.
+However, we can still have a practical deﬁnition for the range at which the density of the nucleons inside a nucleus
+approximate our simple model of a sphere for many experimental situations (e.g. in scattering experiments).
+A simple formula that links the nucleus radius to the number of nucleons is the empirical radius formula:
+
+
+                                                     R = R0 A1/3
+
+
+
+1.2 Binding energy and Semi-empirical mass formula
+
+1.2.1 Binding energy
+
+Two important nuclear propert that we want to study are the nuclear binding energy and the mass of nuclides.
+You could think that since we know the masses of the proton and the neutron, we could simply ﬁnd the masses of all
+                                         ?
+nuclides with the simple formula: mN = Zmp + N mn . However, it is seen experimentally that this is not the case.
+From special relativity theory, we know that to each mass corresponds some energy, E = mc2 . Then if we just sum
+up the masses of all the constituents of a nucleus we would have how much energy they represent. The mass of a
+nucleus is also related to its intrinsic energy. It thus makes sense that this is not only the sum of its constituent
+energies, since we expect that some other energy is spent to keep the nucleus together. If the energy were equal, then
+it wouldn’t be favorable to have bound nuclei, and all the nuclei would be unstable, constantly changing from their
+bound state to a sum of protons and neutrons.
+The binding energy of a nucleus is then given by the diﬀerence in mass energy between the nucleus and its constituents.
+For a nucleus AZ XN the binding energy B is given by
+                                             �                     
+                                          B = Zmp + N mn − mN (A X) c2
+
+However, we want to express this quantity in terms of experimentally accessible quantities. Thus we write the nuclear
+mass in terms of the atomic mass, that we can measure, mN (A X)c2 = [mA (A X) − Zme ]c2 + Be , where mA (A X)
+is the atomic mass of the nucleus. We further neglect the electronic binding energy Be by setting mN (A X)c2 =
+[mA (A X) − Zme ]c2 .
+                                                          6
+We ﬁnally obtain the expression for the nuclear binding energy :
+                                        
+                                     B = Zmp + N mn − [mA (A X) − Zme ] c2
+
+
+
+
+               8
+
+
+               6
+
+
+               4
+
+
+               2
+
+
+
+                              50            100             150          200            250
+      Fig. 1: Binding energy per nucleon (B/A in MeV vs. A) of stables nuclides (Red) and unstable nuclides (Gray).
+
+
+Quantities of interest are also the neutron and proton separation energies:
+                                                              A−1
+                                            Sn = B(A
+                                                   Z XN ) − B(Z   XN −1 )
+                                                                 A−1
+                                            Sp = B(A Z XN ) − B(Z−1 XN )
+which are the analogous of the ionization energies in atomic physics, reﬂecting the energies of the valence nucleons.
+We will see that these energies show signatures of the shell structure of nuclei.
+
+
+1.2.2 Semi-empirical mass formula
+The binding energy is usually plotted as B/A or binding energy per nucleon. This illustrates that the binding energy
+is overall simply proportional to A, since B/A is mostly constant.
+There are however corrections to this trend. The dependence of B/A on A (and Z) is captured by the semi-empirical
+mass formula. This formula is based on ﬁrst principle considerations (a model for the nuclear force) and on experi­
+mental evidence to ﬁnd the exact parameters deﬁning it. In this model, the so-called liquid-drop model, all nucleons
+are uniformly distributed inside a nucleus and are bound together by the nuclear force while the Coulomb interaction
+causes repulsion among protons. Characteristics of the nuclear force (its short range) and of the Coulomb interaction
+explain part of the semi-empirical mass formula. However, other (smaller) corrections have been introduced to take
+into account variations in the binding energy that emerge because of its quantum-mechanical nature (and that give
+rise to the nuclear shell model).
+The semi-empirical mass formula (SEMF) is
+                                      M (Z, A) = Zm(1 H) + N mn − B(Z, A)/c2
+where the binding energy B(Z, A) is given by the following formula:
+
+                                                                            (A − 2Z)2
+                     B(A, Z) = av A − as A2/3 − ac Z(Z − 1)A−1/3 − asym               + δap A−3/4
+                                                                                A
+                           ր      ↑                  ↑                   ↑                         տ
+                      volume surface              Coulomb             symmetry                pairing
+We will now study each term in the SEMF.
+                                                            7
+A. Volume term
+
+The ﬁrst term is the volume term av A that describes how the binding energy is mostly proportional to A. Why is
+that so?
+Remember that the binding energy is a measure of the interaction among nucleons. Since nucleons are closely packed
+in the nucleus and the nuclear force has a very short range, each nucleon ends up interacting only with a few
+neighbors. This means that independently of the total number of nucleons, each one of them contribute in the same
+way. Thus the force is not proportional to A(A − 1)/2 ∼ A2 (the total # of nucleons one nucleon can interact with)
+but it’s simply proportional to A. The constant of proportionality is a ﬁtting parameter that is found experimentally
+to be av = 15.5MeV.
+This value is smaller than the binding energy of the nucleons to their neighbors as determined by the strength of the
+nuclear (strong) interaction. It is found (and we will study more later) that the energy binding one nucleon to the
+other nucleons is on the order of 50 MeV. The total binding energy is instead the diﬀerence between the interaction
+of a nucleon to its neighbor and the kinetic energy of the nucleon itself. As for electrons in an atom, the nucleons are
+fermions, thus they cannot all be in the same state with zero kinetic energy, but they will ﬁll up all the kinetic energy
+levels according to Pauli’s exclusion principle. This model, which takes into account the nuclear binding energy and
+the kinetic energy due to the ﬁlling of shells, indeed gives an accurate estimate for av .
+
+
+B. Surface term
+
+The surface term, −as A2/3 , also based on the strong force, is a correction to the volume term. We explained the
+volume term as arising from the fact that each nucleon interacts with a constant number of nucleons, independent of
+A. While this is valid for nucleons deep within the nucleus, those nucleons on the surface of the nucleus have fewer
+nearest neighbors. This term is similar to surface forces that arise for example in droplets of liquids, a mechanism
+that creates surface tension in liquids.
+Since the volume force is proportional to BV ∝ A, we expect a surface force to be ∼ (BV )2/3 (since the surface
+S ∼ V 2/3 ). Also the term must be subtracted from the volume term and we expect the coeﬃcient as to have a
+similar order of magnitude as av . In fact as = 13 − 18MeV.
+
+
+C. Coulomb term
+
+The third term −ac Z(Z −1)A−1/3 derives from the Coulomb interaction among protons, and of course is proportional
+to Z. This term is subtracted from the volume term since the Coulomb repulsion makes a nucleus containing many
+protons less favorable (more energetic).
+To motivate the form of the term and estimate the coeﬃcient ac , the nucleus is modeled as a uniformly charged
+sphere. The potential energy of such a charge distribution is
+
+                                                            1 3 Q2
+                                                      E=
+                                                           4πǫ0 5 R
+                                                                                                       ( d3
+since from the uniform distribution inside the sphere we have the charge q(r) = 43 πr3 ρ = Q Rr             and the potential
+energy is then:
+                                  Z                       Z                        Z R
+                              1             q (~
+                                               �r)    1             q(�r~)     1                   (
+                                                                                                  q(r)
+                       E=            dq(�r)        =        d3�r~ ρ        =           dr 4 πr2 ρ
+                            4 πǫ0            |�r|    4πǫ0            |�r|    4πǫ0 0                 r
+                                  ZR                         !              Z R
+                        1                   3Q 2  r �3 1                1         3 Q2 r4      1 3 Q2
+                     =        4π      dr          r Q            =              dr         =
+                       4πǫ0        0      4πR3         R r           4πǫ0 0          R6       4πǫ0 5 R
+
+Using the empirical radius formula R = R0 A1/3 and the total charge Q2 = e2 Z(Z − 1) (reﬂecting the fact that this
+term will appear only if Z > 1, i.e. if there are at least two protons) we have :
+
+                                                    Q2   e2 Z(Z − 1)
+                                                       =
+                                                    R      R0 A1/3
+                                                                                                                  2
+which gives the shape of the Coulomb term. Then the constant ac can be estimated from ac ≈ 35 4πǫe0 R0 , with
+R0 = 1.25fm, to be ac ≈ 0.691 MeV, not far from the experimental value.
+                                                             8
+                                                                                  Volume
+                                15
+                                                                        Volume + Surface
+
+                                10                           Volume + Surface+Coulomb
+
+                                                   Volume + Surface+Coulomb+Asymmetry
+                                 5
+
+
+
+
+                                              50           100          150           200
+
+Fig. 2: SEMF for stable nuclides. We plot B(Z, A)/A vs. A. The various term contributions are added one by one to arrive at
+the ﬁnal formula.
+
+
+D. Symmetry term
+The Coulomb term seems to indicated that it would be favorable to have less protons in a nucleus and more neutrons.
+However, this is not the case and we have to invoke something beyond the liquid-drop model in order to explain
+the fact that we have roughly the same number of neutrons and protons in stable nuclei. There is thus a correction
+term in the SEMF which tries to take into account the symmetry in protons and neutrons. This correction (and the
+following one) can only be explained by a more complex model of the nucleus, the shell model, together with the
+quantum-mechanical exclusion principle, that we will study later in the class. If we were to add more neutrons, they
+will have to be more energetic, thus increasing the total energy of the nucleus. This increase more than oﬀ-set the
+Coulomb repulsion, so that it is more favorable to have an approximately equal number of protons and neutrons.
+                                          2
+The shape of the symmetry term is (A−2Z)
+                                       A    . It can be more easily understood by considering the fact that this term
+goes to zero for A = 2Z and its eﬀect is smaller for larger A (while for smaller nuclei the symmetry eﬀect is more
+important). The coeﬃcient is asym = 23MeV
+
+
+E. Pairing term
+The ﬁnal term is linked to the physical evidence that like-nucleons tend to pair oﬀ. Then it means that the binding
+energy is greater (δ > 0) if we have an even-even nucleus, where all the neutrons and all the protons are paired-oﬀ.
+If we have a nucleus with both an odd number of neutrons and of protons, it is thus favorable to convert one of
+the protons into a neutrons or vice-versa (of course, taking into account the other constraints above). Thus, with
+all other factor constant, we have to subtract (δ < 0) a term from the binding energy for odd-odd conﬁgurations.
+Finally, for even-odd conﬁgurations we do not expect any inﬂuence from this pairing energy (δ = 0). The pairing
+term is then                                        
+                                                     +ap A−3/4 even-even
+                                       +δap A−3/4 =     0 even-odd
+                                                        −ap A−3/4 odd-odd
+                                                    
+
+with ap ≈ 34MeV. [Sometimes the form ∝ A−1/2 is also found].
+
+
+1.2.3 Line of Stability in the Chart of nuclides
+By taking the ﬁrst derivative wrt Z we can calculate the optimal Z such that the mass is minimum. We obtain:
+                                                           1 −1/3 ac
+                                                                          �
+                                                  A 1+ 4 A          asym
+                                         Zmin =                     ac
+                                                  2    1 + 41 A2/3 asym
+                                                     )−1                        )
+                                   A      1 2/3 ac            A         1 2/3 ac
+                                ≈      1+ A                ≈       1− A
+                                   2      4      asym          2        4    asym
+which gives Z ≈ A 2 at small A, but has a correction for larger A such that Z ≈ 0.41A for heavy nuclei. [ Note the
+approximation and series expansion is taken because ac ≪ asym ]
+If we plot Z/A vs. A the nuclides lie between 1/2 and 0.41. There is a line of stability, following the stable isotopes
+(red in ﬁgure 4 and black in ﬁgure 3). The isotopes are then variously labeled, for example here by their lifetime.
+Interactive information is available at http://www.nndc.bnl.gov/chart/.
+
+                                                            9
+© Brookhaven National Laboratory. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see http://ocw.mit.edu/fairuse.
+
+Fig. 3: Chart of nuclides from http://www.nndc.bnl.gov/chart/ . Each nuclide is color-labeled by its half-life (black for stable
+nuclides)
+
+
+120
+                                                               0.55
+100
+                                                               0.50
+ 80
+                                                               0.45
+ 60
+                                                               0.40
+ 40
+                                                               0.35
+ 20
+
+                                                                             50       100       150       200       250
+            50        100       150      200       250
+Fig. 4: Nuclide chart (obtained with the software Mathematica). Left: Z vs. A, Right: Z/A vs. A. In red, stable nuclides. The
+black line represents Z = A/2.
+
+
+
+
+                                                              10
+1.3 Radioactive decay
+Radioactive decay is the process in which an unstable nucleus spontaneously loses energy by emitting ionizing particles
+and radiation. This decay, or loss of energy, results in an atom of one type, called the parent nuclide, transforming
+to an atom of a diﬀerent type, named the daughter nuclide.
+The three principal modes of decay are called the alpha, beta and gamma decays. We will study their diﬀerences and
+exact mechanisms later in the class. However these decay modes share some common feature that we describe now.
+What these radioactive decays describe are fundamentally quantum processes, i.e. transitions among two quantum
+states. Thus, the radioactive decay is statistical in nature, and we can only describe the evolution of the expectation
+values of quantities of interest, for example the number of atoms that decay per unit time. If we observe a single
+unstable nucleus, we cannot know a priori when it will decay to its daughter nuclide. The time at which the decay
+happens is random, thus at each instant we can have the parent nuclide with some probability p and the daughter
+with probability 1 − p. This stochastic process can only be described in terms of the quantum mechanical evolution
+of the nucleus. However, if we look at an ensemble of nuclei, we can predict at each instant the average number of
+parent an daughter nuclides.
+If we call the number of radioactive nuclei N , the number of decaying atoms per unit time is dN/dt. It is found that
+this rate is constant in time and it is proportional to the number of nuclei themselves:
+
+                                                    dN
+                                                       = −λN (t)
+                                                    dt
+
+The constant of proportionality λ is called the decay constant. We can also rewrite the above equation as
+                                                            dN/dt
+                                                      λ=−
+                                                             N
+where the RHS is the probability per unit time for one atom to decay. The fact that this probability is a constant is
+a characteristic of all radioactive decay. It also leads to the exponential law of radioactive decay :
+
+                                                  N (t) = N (0)e−λt
+
+We can also deﬁne the mean lifetime
+                                                        τ = 1/λ
+
+and the half-life
+                                                    t1/2 = ln (2)/λ
+
+which is the time it takes for half of the atoms to decay, and the activity
+
+                                                      A(t) = λN (t)
+
+Since A can also be obtained as d N , the activity can be estimated from the number of decays ΔN during a small
+                                  dt
+time δt such that δt ≪ t1/2 .
+A common situation occurs when the daughter nuclide is also radioactive. Then we have a chain of radioactive decays,
+each governed by their decay laws. For example, in a chain N1 → N2 → N3 , the decay of N1 and N2 is given by:
+
+                                   dN1 = −λ1 N1 dt,      dN2 = +λ1 N1 dt − λ2 N2 dt
+
+Another common characteristic of radioactive decays is that they are a way for unstable nuclei to reach a more
+energetically favorable (hence stable) conﬁguration. In α and β decays, a nucleus emits a α or β particle, trying
+to approach the most stable nuclide, while in the γ decay an excited state decays toward the ground state without
+changing nuclear species.
+
+
+1.3.1 Alpha decay
+
+If we go back to the binding energy per mass number plot (B/A vs. A) we see that there is a bump (a peak) for
+A ∼ 60 − 100. This means that there is a corresponding minimum (or energy optimum) around these numbers. Then
+the heavier nuclei will want to decay toward this lighter nuclides, by shedding some protons and neutrons. More
+speciﬁcally, the decrease in binding energy at high A is due to Coulomb repulsion. Coulomb repulsion grows in fact
+as Z 2 , much faster than the nuclear force which is ∝ A.
+                                                           11
+This could be thought as a similar process to what happens in the ﬁssion process: from a parent nuclide, two daughter
+nuclides are created. In the α decay we have speciﬁcally:
+                                              A            A−4 ′
+                                              Z XN   −→    Z−2 XN −2 + α
+
+where α is the nucleus of He-4: 24 He2 .
+The α decay should be competing with other processes, such as the ﬁssion into equal daughter nuclides, or into pairs
+including 12 C or 16 O that have larger B/A then α. However α decay is usually favored. In order to understand this,
+we start by looking at the energetic of the decay, but we will need to study the quantum origin of the decay to arrive
+at a full explanation.
+
+
+
+
+                                                      α Particle
+                                                                                  4
+                                                                                  2 He
+
+
+
+
+                                                                        Image by MIT OpenCourseWare.
+
+                                             Fig. 5: Alpha decay schematics
+
+
+
+
+A. Energetics
+
+In analyzing a radioactive decay (or any nuclear reaction) an important quantity is Q, the net energy released in the
+decay: Q = (mX − mX ′ − mα )c2 . This is also equal to the total kinetic energy of the fragments, here Q = TX ′ + Tα
+(here assuming that the parent nuclide is at rest).
+When Q > 0 energy is released in the nuclear reaction, while for Q < 0 we need to provide energy to make the
+reaction happen. As in chemistry, we expect the ﬁrst reaction to be a spontaneous reaction, while the second one
+does not happen in nature without intervention. (The ﬁrst reaction is exo-energetic the second endo-energetic).
+Notice that it’s no coincidence that it’s called Q. In practice given some reagents and products, Q give the quality of
+the reaction, i.e. how energetically favorable, hence probable, it is. For example in the alpha-decay log (t1/2 ) ∝ √ 1 ,
+                                                                                                                     Qα
+which is the Geiger-Nuttall rule (1928).
+The alpha particle carries away most of the kinetic energy (since it is much lighter) and by measuring this kinetic
+energy experimentally it is possible to know the masses of unstable nuclides.
+We can calculate Q using the SEMF. Then:
+
+                 Qα = B(A−4  ′          4        A                                      4
+                        Z−2 XN −2 ) + B( He) − B(Z XN ) = B(A − 4, Z − 2) − B(A, Z) + B( He)
+
+We can approximate the ﬁnite diﬀerence with the relevant gradient:
+
+                                                                                      ∂B     ∂B
+     Qα = [B(A − 4, Z − 2) − B(A, Z − 2)] + [B(A, Z − 2) − B(A, Z)] + B(4 He) ≈= −4       −2      + B(4 He)
+                                                                                      ∂A     ∂Z
+                                                                                          2
+                               8     −1/3           Z       Z                  2Z         −7/4
+                = 28.3 − 4av + as A       + 4ac 1 −               − 4asym 1 −      + 3ap A
+                               3                    3A     A1/3                 A
+Since we are looking at heavy nuclei, we know that Z ≈ 0.41A (instead of Z ≈ A/2) and we obtain
+
+                                        Qα ≈ −36.68 + 44.9A−1/3 + 1.02A2/3 ,
+
+where the second term comes from the surface contribution and the last term is the Coulomb term (we neglect the
+pairing term, since a priori we do not know if ap is zero or not).
+
+                                                           12
+Then, the Coulomb term, although small, makes Q increase at large A. We ﬁnd that Q ≥ 0 for A � 150, and it is
+Q ≈ 6MeV for A = 200. Although Q > 0, we ﬁnd experimentally that α decay only arise for A ≥ 200.
+Further, take for example Francium-200 (20087 Fr113 ). If we calculate Qα from the experimentally found mass diﬀerences
+we obtain Qα ≈ 7.6MeV (the product is 196 At). We can do the same calculation for the hypothetical decay into a
+12
+   C and remaining fragment (188
+                              81 Tl 107 ):
+
+                             Q12 C = c2 [m(Z
+                                           A
+                                             XN ) − m(A−12 ′          12
+                                                      Z−6 XN −6 ) − m( C)] ≈ 28M eV
+
+Thus this second reaction seems to be more energetic, hence more favorable than the alpha-decay, yet it does not
+occur (some decays involving C-12 have been observed, but their branching ratios are much smaller).
+Thus, looking only at the energetic of the decay does not explain some questions that surround the alpha decay:
+- Why there’s no 12 C-decay? (or to some of this tightly bound nuclides, e.g O-16 etc.)
+- Why there’s no spontaneous ﬁssion into equal daughters?
+- Why there’s alpha decay only for A ≥ 200?
+                                                              1
+- What is the explanation of Geiger-Nuttall rule? log t1/2 ∝ √Q
+                                                                              α
+
+
+
+
+1.3.2 Beta decay
+
+The beta decay is a radioactive decay in which a proton in a nucleus is converted into a neutron (or vice-versa).
+Thus A is constant, but Z and N change by 1. In the process the nucleus emits a beta particle (either an electron
+or a positron) and quasi-massless particle, the neutrino.
+
+
+
+
+                                     Courtesy of Thomas Jefferson National Accelerator Facility - Office
+                                     of Science Education. Used with permission.
+
+                                                 Fig. 6: Beta decay schematics
+There are 3 types of beta decay:
+                                               A           A    ′       −
+                                               Z XN      → Z+1 XN −1 + e + ν̄
+
+This is the β − decay (or negative beta decay). The underlying reaction is:
+
+                                                        n → p + e− + ν̄
+
+that corresponds to the conversion of a proton into a neutron with the emission of an electron and an anti-neutrino.
+There are two other types of reactions, the β + reaction,
+                              A        A    ′       +
+                              Z XN   → Z−1 XN +1 + e + ν                   ⇐⇒        p → n + e+ + ν
+
+which sees the emission of a positron (the electron anti-particle) and a neutrino; and the electron capture:
+                              A        −       A    ′
+                              Z XN + e       → Z−1 XN +1 + ν               ⇐⇒        p + e− → n + ν
+
+a process that competes with, or substitutes, the positron emission.
+                                                                   13
+Recall the mass of nuclide as given by the semi-empirical mass formula. If we keep A ﬁxed, the SEMF gives the
+binding energy as a function of Z. The only term that depends explicitly on Z is the Coulomb term. By inspection
+we see that B ∝ Z 2 . Then from the SEMF we have that the masses of possible nuclides with the same mass number
+lie on a parabola. Nuclides lower in the parabola have smaller M and are thus more stable. In order to reach that
+minimum, unstable nuclides undergo a decay process to transform excess protons in neutrons (and vice-versa).
+
+
+                                                                                          A=128
+                                 A=125
+                                                                          49In
+                                                    56Ba
+                    49In
+                                                                                                         57La
+
+
+                                                        55Cs                       51Sb
+                   50Sn                                                 50Sn                      55Cs
+                             51Sb                                                          53I            56Ba
+                                        53I      54Xe
+
+                                 52Te                                              52Te           54Xe
+
+
+                               Fig. 7: Nuclear Mass Chain for A=125, (left) and A=128 (right)
+
+
+The beta decay is the radioactive decay process that can convert protons into neutrons (and vice-versa). We will
+study more in depth this mechanism, but here we want simply to point out how this process can be energetically
+favorable, and thus we can predict which transitions are likely to occur, based only on the SEMF.
+For example, for A = 125 if Z < 52 we have a favorable n → p conversion (beta decay) while for Z > 52 we have
+p → n (or positron beta decay), so that the stable nuclide is Z = 52 (tellurium).
+
+
+A. Conservation laws
+
+As the neutrino is hard to detect, initially the beta decay seemed to violate energy conservation. Introducing an
+extra particle in the process allows one to respect conservation of energy.
+The Q value of a beta decay is given by the usual formula:
+
+                                              Qβ − = [mN (A X) − mN (A    ′         2
+                                                                     Z+1 X ) − me ]c .
+
+Using the atomic masses and neglecting the electron’s binding energies as usual we have
+
+            Qβ − = {[mA (A X) − Zme ] − [mA (A    ′                       2       A         A    ′   2
+                                             Z+1 X ) − (Z + 1)me ] − me }c = [mA ( X) − mA (Z+1 X )]c .
+
+The kinetic energy (equal to the Q) is shared by the neutrino
+and the electron (we neglect any recoil of the massive nucleus).
+Then, the emerging electron (remember, the only particle that
+we can really observe) does not have a ﬁxed energy, as it
+was for example for the gamma photon. But it will exhibit
+a spectrum of energy (or the number of electron at a given
+energy) as well as a distribution of momenta. We will see how
+we can reproduce these plots by analyzing the QM theory of
+beta decay.
+Examples
+               ր    64        −
+         64         30 Zn + e + ¯ ν,     Qβ = 0.57M eV
+         29 Cu ց    64
+                       Ni + e +
+                                + ν,     Qβ = 0.66M eV
+                    28
+
+The neutrino and beta particle (β ± ) share the energy. Since         © Neil Spooner. All rights reserved. This content is excluded
+the neutrinos are very diﬃcult to detect (as we will see they          from our Creative Commons license. For more information,
+                                                                       see http://ocw.mit.edu/fairuse.
+are almost massless and interact very weakly with matter), the
+                                                               Fig. 8: Beta decay spectra: Distribution of momentum
+electrons/positrons are the particles detected in beta-decay
+                                                               (top plots) and kinetic energy (bottom)      .     for β − (left) and
+and they present a characteristic energy spectrum (see Fig. β + (right) decay.
+8).
+The diﬀerence between the spectrum of the β ± particles is due to the Coulomb repulsion or attraction from the
+nucleus.
+                                                                14
+Notice that the neutrinos also carry away angular momentum. They are spin-1/2 particles, with no charge (hence
+the name) and very small mass. For many years it was actually believed to have zero mass. However it has been
+conﬁrmed that it does have a mass in 1998.
+Other conserved quantities are:
+- Momentum: The momentum is also shared between the electron and the neutrino. Thus the observed electron
+momentum ranges from zero to a maximum possible momentum transfer.
+- Angular momentum (both the electron and the neutrino have spin 1/2)
+- Parity? It turns out that parity is not conserved in this decay. This hints to the fact that the interaction responsible
+violates parity conservation (so it cannot be the same interactions we already studies, e.m. and strong interactions)
+- Charge (thus the creation of a proton is for example always accompanied by the creation of an electron)
+- Lepton number: we do not conserve the total number of particles (we create beta and neutrinos). However the
+number of massive, heavy particles (or baryons, composed of 3 quarks) is conserved. Also the lepton number is
+conserved. Leptons are fundamental particles (including the electron, muon and tau, as well as the three types of
+neutrinos associated with these 3). The lepton number is +1 for these particles and -1 for their antiparticles. Then
+an electron is always accompanied by the creation of an antineutrino, e.g., to conserve the lepton number (initially
+zero).
+Although the energy involved in the decay can predict whether a beta decay will occur (Q > 0), and which type of
+beta decay does occur, the decay rate can be quite diﬀerent even for similar Q-values. Consider for example 22 Na
+and 36 Cl. They both decay by β decay:
+                           22       22         +
+                           11 Na11 →10 Ne12 + β + ν,         Q = 0.22MeV,      T 12 = 2.6years
+
+                          36       36         −
+                          17 Cl19 →18 Ar18 + β + ν̄       Q = 0.25MeV,      T 12 = 3 × 105 years
+Even if they have very close Q-values, there is a ﬁve order magnitude in the lifetime. Thus we need to look closer to
+the nuclear structure in order to understand these diﬀerences.
+
+
+1.3.3 Gamma decay
+
+In the gamma decay the nuclide is unchanged, but it goes from an excited to a lower energy state. These states are
+called isomeric states. Usually the reaction is written as:
+                                                  A ∗
+                                                  Z XN   −→A
+                                                           Z XN + γ
+
+where the star indicate an excited state. We will study that the gamma energy depends on the energy diﬀerence
+between these two states, but which decays can happen depend, once again, on the details of the nuclear structure
+and on quantum-mechanical selection rules associated with the nuclear angular momentum.
+
+
+1.3.4 Spontaneous ﬁssion
+
+Some nuclei can spontaneously undergo a ﬁssion, even outside the particular conditions found in a nuclear reactor.
+In the process a heavy nuclide splits into two lighter nuclei, of roughly the same mass.
+
+
+1.3.5 Branching Ratios
+
+Some nuclei only decay via a single process, but sometimes they can undergo many diﬀerent radioactive processes,
+that compete one with the other. The relative intensities of the competing decays are called branching ratios.
+Branching ratios are expressed as percentage or sometimes as partial half-lives. For example, if a nucleus can decay
+by beta decay (and other modes) with a branching ration bβ , the partial half-life for the beta decay is λβ = bβ λ.
+
+
+
+
+                                                           15
+[This page intentionally blank.]
+
+
+
+
+              16
+MIT OpenCourseWare
+http://ocw.mit.edu
+
+
+
+
+22.02 Introduction to Applied Nuclear Physics
+Spring 2012
+
+
+
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms.
+

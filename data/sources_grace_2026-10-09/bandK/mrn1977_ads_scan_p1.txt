@@ -1,0 +1,72 @@
+1977ApJ. . .217. .425M
+                         The Astrophysical Journal, 217:425-433, 1977 October 15
+                         © 1977. The American Astronomical Society. All rights reserved. Printed in U.S.A.
+
+
+
+
+                                                          THE SIZE DISTRIBUTION OF INTERSTELLAR GRAINS
+                                                          John S. Mathis, William Rumpl, and Kenneth H. Nordsieck
+                                                                Washburn Observatory, University of Wisconsin-Madison
+                                                                   Received 1977 January 24; accepted 1977 April 11
+                                                                                  ABSTRACT
+                                        The observed interstellar extinction over the wavelength range 0.11 /xm < À < 1 /¿m was
+                                     fitted with a very general particle size distribution of uncoated graphite, enstatite, olivine, silicon
+                                     carbide, iron, and magnetite. Combinations of these materials, up to three at a time, were con-
+                                     sidered. The cosmic abundances of the various constituents were taken into account as constraints
+                                     on the possible distributions of particle sizes.
+                                        Excellent fits to the interstellar extinction, including the narrowness of the À2160 feature,
+                                     proved possible. Graphite was a necessary component of any good mixture, but it could be used
+                                     with any of the other materials. The particle size distributions are roughly power law in nature,
+                                     with an exponent of about —3.3 to —3.6. The size range for graphite is about 0.005 /zm to about
+                                     1 ¿on. The size distribution for the other materials is also approximately power law in nature,
+                                     with the same exponent, but there is a narrower range of sizes: about 0.025-0.25 /¿m, depending
+                                     on the material. The number of large particles is not well determined, because they are gray.
+                                     Similarly, the number of small particles is not well determined because they are in the Rayleigh
+                                     limit. This power-law distribution is drastically different from an Oort-van de Hulst distribution,
+                                     which is much more slowly varying for small particles but drops much faster for particles larger
+                                     than average.
+                                         The extinction was also fitted with spherical graphite particles plus cylinders of each of the other
+                                      materials. Linear and circular polarizations were then determined for the cylinders on the assump-
+                                     tion of Davis-Greenstein alignment. The extinction was quite satisfactory, but the linear polariza-
+                                     tion reached a maximum in the ultraviolet (about 1600 Â). This is because the mixture contains
+                                     many small particles. If the small particles are not elongated or aligned, the wavelength depend-
+                                      ence of the polarization can be fitted, but the larger particles which are aligned do not provide
+                                      enough polarization per magnitude of extinction. However, a fit to polarization and extinction
+                                      can be achieved if the material responsible for the polarization contributes only a small part of
+                                      the extinction but consists of fairly large particles and is very well aligned. Dielectric particles
+                                      with coatings could also provide the polarization.
+                                      Subject headings: interstellar : matter «— polarization — ultraviolet : spectra
+
+
+                                                   I. INTRODUCTION                                           ground. This paper will discuss fitting the extinction
+                             The wavelength dependence of the interstellar                                   data from A = 1 pm to A = 0.11 pm.
+                                                                                                               We will concentrate on the extinction rather than
+                          extinction is remarkably uniform over the sky (Bless
+                                                                                                             the polarization data for two reasons. First, the ob-
+                          and Savage 1972; York et al 1973; Nandy et al. 1976).
+                          The wavelength dependence of the linear polarization                               served extinction, if normalized, is well observed and
+                                                                                                             uniform, while polarization is much more variable.
+                          is much more variable, but is a simple function of
+                                                                                                             Second, extinction can be calculated with much more
+                          (A/Amax), where Amax is the wavelength of maximum                                  confidence than can the linear polarization, which in
+                          polarization (generally about 5500 Â). In only a few                               turn is more predictable than the circular polarization.
+                          directions, such as the Orion or p Oph regions, does                               We discuss our method of fitting the extinction in § II
+                          the extinction differ markedly from the “standard”                                 and the results of such fitting in § III. In § IV we discuss
+                          law. In these regions the linear polarization is also                              polarization rather briefly.
+                          peculiar (Serkowski, Mathewson, and Ford 1976). The
+                          circular polarization (Martin 1974, 1975) has been                                         II. TECHNIQUES OF FITTING EXTINCTION
+                          observed for comparatively few objects. Its most
+                          interesting property is a change in signs, occurring at                               We wish to find a suitable size distribution of
+                          about Amax.                                                                        particles of various materials : graphite; silicon carbide,
+                             There have been dozens of papers throughout the                                 SiC; enstatite, (Fe, Mg)Si03; olivine, (Fe, Mg)2Si04;
+                          years on interpreting the extinction of dust in terms of                           iron; and magnetite, FegC^. Other materials such as
+                          various constituents. Most of these have necessarily                               magnesium carbonates (Gillett, Forrest, and Merrill
+                          dealt with the spectral region accessible from the                                 1973) could be added, but we feel that most features
+                                                                                                      425
+
+
+
+
+                              © American Astronomical Society • Provided by the NASA Astrophysics Data System
+

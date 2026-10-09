@@ -228,8 +228,21 @@ Written 15:4x, before Cal's hash and before any (L/ℓ_P)² is computed by anyon
 ### 14.3 The Mössbauer pin (K1 / binder fork B2)
 *(filled from band J)*
 
-### 14.4 CODATA 2022 values for rows 2, 8, 9, 10, 11; r₀; MRN; a lattice constant
-*(filled from band K)*
+### 14.4 CODATA 2022 values for rows 2, 8, 9, 10, 11; r₀; MRN; a lattice constant (band K; NIST Value pages saved as HTML; every value re-grepped from the page text)
+**★ PRIMARY: NIST CODATA 2022 "Value" pages (physics.nist.gov/cgi-bin/cuu/Value?…), "Source: 2022 CODATA recommended values":**
+| Quantity | NIST page | Numerical value (as shown) | Std. unc. | Rel. unc. |
+|---|---|---|---|---|
+| electron Compton wavelength λ_C = h/(m_e c) (row 9, UN-reduced; = `const_130`) | `ecomwl` | 2.426 310 235 38 × 10⁻¹² m | 0.000 000 000 76 × 10⁻¹² m | 3.1 × 10⁻¹⁰ |
+| reduced Compton wavelength ƛ_C = ħ/(m_e c) (row 9 as K1958 writes it) | `ecomwlbar` | 3.861 592 6744 × 10⁻¹³ m | 0.000 000 0012 × 10⁻¹³ m | 3.1 × 10⁻¹⁰ |
+| proton Compton wavelength h/(m_p c) (row 2, UN-reduced; K1958 writes ħ/(m_p c) = this/2π) | `pcomwl` | 1.321 409 853 60 × 10⁻¹⁵ m | 0.000 000 000 41 × 10⁻¹⁵ m | 3.1 × 10⁻¹⁰ |
+| Bohr radius a₀ (row 8; `const_030`) | `bohrrada0` | 5.291 772 105 44 × 10⁻¹¹ m | 0.000 000 000 82 × 10⁻¹¹ m | 1.6 × 10⁻¹⁰ |
+| classical electron radius r_e (row 10; `const_111`) | `re` | 2.817 940 3205 × 10⁻¹⁵ m | 0.000 000 0013 × 10⁻¹⁵ m | 4.7 × 10⁻¹⁰ |
+| proton rms charge radius r_p (row 1; `const_045`) | `rp` | 8.4075 × 10⁻¹⁶ m | 0.0064 × 10⁻¹⁶ m | 7.6 × 10⁻⁴ |
+| Planck length ℓ_P (row 11; the ruler's length) | `plkl` | 1.616 255 × 10⁻³⁵ m | 0.000 018 × 10⁻³⁵ m | 1.1 × 10⁻⁵ |
+The ratio check on the 2π: ƛ_C × 2π = 2.42631 × 10⁻¹² m = λ_C, as it must; a₀ = ƛ_C/α and r_e = α ƛ_C use the REDUCED row.
+- **Nuclear radius r₀ (row 3): SECONDARY.** HyperPhysics "Nuclear Size and Density" (citing Krane Ch. 3): *r = r₀A^{1/3}, r₀ = 1.2 × 10⁻¹⁵ m = 1.2 fm*. MIT OCW 22.02 (Spring 2012) Ch. 1, p. 6: *"empirical radius formula: R = R₀A^{1/3}"*; p. 8: *"R₀ = 1.25fm"*. **Two conventions, 1.2 vs 1.25 (0.04 decades on an area); r₀ is a fit, not a constant.** Krane's own page not opened (not OA).
+- **Grain sizes (row 4): ★ PRIMARY, Mathis, Rumpl & Nordsieck 1977, ApJ 217, 425** (ADS scan, OCR; μ renders as "/zm" etc., flagged): abstract p. 425: size distribution *"roughly power law in nature, with an exponent of about −3.3 to −3.6. The size range for graphite is about 0.005 μm to about 1 μm … narrower range of sizes: about 0.025–0.25 μm, depending on the material"*; p. 430, the MRN law: *"log n(a) = K_C − 3.5 log(a/1 μm) for graphite and log n(a) = K_Ol − 3.5 log(a/1 μm) for olivine (0.005 μm < a < 0.25 μm) … K_C = −15.24 and K_Ol = −15.21."* Draine 2003 (band F, lines 1361–1365): *"dn/da ∝ a⁻³·⁵, truncated at a minimum size a₋ ≈ 50 Å and a maximum size a₊ ≈ 2500 Å."* **K1958's {0.01, 0.1, 1} μm: 0.01 and 0.1 are inside MRN; 1 μm is at the graphite extreme and outside the olivine range — flag for Cal.**
+- **Lattice constant (row 4, B2 "lattice"): SECONDARY.** Forsterite Mg₂SiO₄ (webmineral.com, citing Birle, Gibbs, Moore & Smith, Am. Mineral. 53 (1968) 807): cell a = 4.756, b = 10.195, c = 5.981 Å, Z = 4, Pbnm. (AMCSD/RRUFF timed out; graphite not pursued.) Note: a lattice constant is NOT a menu length — the B2 binder is the whole grain (row 4); the cell size would matter only if someone argued the write lands on one unit cell, which no mechanism class says.
 
 ## 10. The ruler (K1953's ask) — RULED by Casey (K1953 addendum, 12:40), ledger line written
 - **What I found first (12:40 board):** the ledger (`bst_constants.json` `SI_ruler_measured`, toy 541's input count, front page) named m_e; T2569 (08-20) and toy 5118 (08-08) named the Planck unit. Same ladder, opposite ends.

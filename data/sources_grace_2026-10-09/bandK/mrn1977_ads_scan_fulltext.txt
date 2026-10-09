@@ -1,0 +1,609 @@
+1977ApJ. . .217. .425M
+                         The Astrophysical Journal, 217:425-433, 1977 October 15
+                         © 1977. The American Astronomical Society. All rights reserved. Printed in U.S.A.
+
+
+
+
+                                                          THE SIZE DISTRIBUTION OF INTERSTELLAR GRAINS
+                                                          John S. Mathis, William Rumpl, and Kenneth H. Nordsieck
+                                                                Washburn Observatory, University of Wisconsin-Madison
+                                                                   Received 1977 January 24; accepted 1977 April 11
+                                                                                  ABSTRACT
+                                        The observed interstellar extinction over the wavelength range 0.11 /xm < À < 1 /¿m was
+                                     fitted with a very general particle size distribution of uncoated graphite, enstatite, olivine, silicon
+                                     carbide, iron, and magnetite. Combinations of these materials, up to three at a time, were con-
+                                     sidered. The cosmic abundances of the various constituents were taken into account as constraints
+                                     on the possible distributions of particle sizes.
+                                        Excellent fits to the interstellar extinction, including the narrowness of the À2160 feature,
+                                     proved possible. Graphite was a necessary component of any good mixture, but it could be used
+                                     with any of the other materials. The particle size distributions are roughly power law in nature,
+                                     with an exponent of about —3.3 to —3.6. The size range for graphite is about 0.005 /zm to about
+                                     1 ¿on. The size distribution for the other materials is also approximately power law in nature,
+                                     with the same exponent, but there is a narrower range of sizes: about 0.025-0.25 /¿m, depending
+                                     on the material. The number of large particles is not well determined, because they are gray.
+                                     Similarly, the number of small particles is not well determined because they are in the Rayleigh
+                                     limit. This power-law distribution is drastically different from an Oort-van de Hulst distribution,
+                                     which is much more slowly varying for small particles but drops much faster for particles larger
+                                     than average.
+                                         The extinction was also fitted with spherical graphite particles plus cylinders of each of the other
+                                      materials. Linear and circular polarizations were then determined for the cylinders on the assump-
+                                     tion of Davis-Greenstein alignment. The extinction was quite satisfactory, but the linear polariza-
+                                     tion reached a maximum in the ultraviolet (about 1600 Â). This is because the mixture contains
+                                     many small particles. If the small particles are not elongated or aligned, the wavelength depend-
+                                      ence of the polarization can be fitted, but the larger particles which are aligned do not provide
+                                      enough polarization per magnitude of extinction. However, a fit to polarization and extinction
+                                      can be achieved if the material responsible for the polarization contributes only a small part of
+                                      the extinction but consists of fairly large particles and is very well aligned. Dielectric particles
+                                      with coatings could also provide the polarization.
+                                      Subject headings: interstellar : matter «— polarization — ultraviolet : spectra
+
+
+                                                   I. INTRODUCTION                                           ground. This paper will discuss fitting the extinction
+                             The wavelength dependence of the interstellar                                   data from A = 1 pm to A = 0.11 pm.
+                                                                                                               We will concentrate on the extinction rather than
+                          extinction is remarkably uniform over the sky (Bless
+                                                                                                             the polarization data for two reasons. First, the ob-
+                          and Savage 1972; York et al 1973; Nandy et al. 1976).
+                          The wavelength dependence of the linear polarization                               served extinction, if normalized, is well observed and
+                                                                                                             uniform, while polarization is much more variable.
+                          is much more variable, but is a simple function of
+                                                                                                             Second, extinction can be calculated with much more
+                          (A/Amax), where Amax is the wavelength of maximum                                  confidence than can the linear polarization, which in
+                          polarization (generally about 5500 Â). In only a few                               turn is more predictable than the circular polarization.
+                          directions, such as the Orion or p Oph regions, does                               We discuss our method of fitting the extinction in § II
+                          the extinction differ markedly from the “standard”                                 and the results of such fitting in § III. In § IV we discuss
+                          law. In these regions the linear polarization is also                              polarization rather briefly.
+                          peculiar (Serkowski, Mathewson, and Ford 1976). The
+                          circular polarization (Martin 1974, 1975) has been                                         II. TECHNIQUES OF FITTING EXTINCTION
+                          observed for comparatively few objects. Its most
+                          interesting property is a change in signs, occurring at                               We wish to find a suitable size distribution of
+                          about Amax.                                                                        particles of various materials : graphite; silicon carbide,
+                             There have been dozens of papers throughout the                                 SiC; enstatite, (Fe, Mg)Si03; olivine, (Fe, Mg)2Si04;
+                          years on interpreting the extinction of dust in terms of                           iron; and magnetite, FegC^. Other materials such as
+                          various constituents. Most of these have necessarily                               magnesium carbonates (Gillett, Forrest, and Merrill
+                          dealt with the spectral region accessible from the                                 1973) could be added, but we feel that most features
+                                                                                                      425
+
+
+
+
+                              © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1977ApJ. . .217. .425M
+                         426                                             MATHIS, RUMPL, AND NORDSIECK                                              Vol. 217
+                         of the problem will emerge by considering the six                and, very importantly, the number of the various atoms
+                         substances already mentioned. If the complex indices             used by the materials cannot exceed the cosmic
+                         of refraction of each material are known, the extinc-            abundances of each element. If the element E has an
+                         tion cross section of a sphere or an infinite cylinder of        atomic abundance relative to hydrogen of AE, and the
+                         a given size are readily determined (Greenberg 1968).            molecule of constituent m contains NEm atoms of E,
+                         The net extinction is then an integral over the size             then
+                         distribution n(d) of each material, where n(a)da is the                                                               1
+                         number of particles in the interval (a, a + da). There                       Ae ^ 2             2                         5   (4b)
+                         is no reliable theoretical way of predicting n(d); and                            m             ;
+                         we will assume a very general distribution, with many            where pm is the density of the material, /xm is the
+                         variable parameters, and minimize the squared devia-             molecular weight of molecule m, raH is the mass of the
+                         tions of the total predicted extinction from the observed        hydrogen atom, and V}- is the total material volume
+                         extinction.                                                      associated with the jth bin :
+                            We consider the size distribution of each material
+                         to be a linear combination of simple size distributions
+                         which we refer to as “bins.” We divide the size interval                           Vj = Í     hj{a)v{a)da.                     (5)
+                         from 0 to 1 /xm into discrete sizes aj. The jth bin in-                                 Juj-i
+                         cludes a uniform distribution of sizes in the interval           Here v(d) = 47tæ3/3 for spheres and ira2 for cylinders
+                         aj -1 to <Zy. We then have, for the extinction of the yth        (the extinction is calculated per unit length for the
+                         bin at the /th wavelength for the mth material                   latter).
+                                                 Ça1                                         The abundances of C, Mg, Si, and Fe, relative to
+                                   Cmji   :==
+                                                 I                    K)da ,              106 H atoms, were taken from Cameron (1973) to be
+                                                Jdj-l                                     370, 33, 31, and 26, respectively. Oxygen is so abundant
+                                                                                          that it cannot be locked up in uncoated grains. The
+                                   ñ^a) = 1 /xm"1           (aj.1 < a <        ,   (1)    column density of H atoms per magnitude of color
+                                   «/a) = 0 ,           otherwise ,                       excess EB-V was taken from Jenkins and Savage (1974)
+                                                                                          to be 7.5 x 1021 atoms mag-1 cm-2. CobSf{ was nor-
+                         where Cm(a, À) is the extinction cross section of the            malized to the number of optical depths of extinction
+                         material m, at wavelength Xu appropriate to the shape            per H atom which gives an extinction difference
+                         (sphere or cylinder) we are considering. The bin sizes           between A4350 and A5500 of (1.086 x 7.5 x 1021)"1 =
+                         were chosen to completely cover the range of sizes               1.22 x 10"22. The wavelength dependence of C0bs,i
+                         0 < a < 1 /xm, in 18 steps, such that        # \.5aj-u           was taken from two sources: Code et al. (1976), which
+                         ax = 0.0025 /xm, and aQ — 0. Several slightly different          will be referred to as the OAO extinction, and from
+                         choices of üj were made to study effects of the choices          Nandy et al. (1975), which will be called the TD-1
+                         on the final distribution. The observed interstellar             extinction. They are in fact quite similar.
+                         extinction is compared to a predicted extinction, which             Table 1 gives the 16 wavelengths used, and the values
+                         is a linear combination of the extinctions of all bins           of the uncertainty parameters, 07, associated with each
+                         of each material we wish to consider. The linear                 wavelength. The a/s are smaller than the differences
+                         combination is chosen to achieve the best fit, in a              between the OAO and TD-1 extinctions and should
+                         certain sense to be defined below. The extinction                not be interpreted as measures of the observational
+                         predicted for the mixture at the wavelength Xt is                errors on Cobs>i. Instead, they were chosen to be
+                                                                                          artificially small (0.001) at the wavelengths of 2000,
+                                           Cpred.i = 22 XmjCimji ?                 (2)    2160, 2300, and 2500 Â in order to force the computed
+                                                                                          extinction to provide an excellent fit to the width and
+                         where the coefficients Xmj have been chosen to                   position of the A2160 bump, both of which are very
+                         minimize a quantity x2 defined as follows :                      well determined (Savage 1975). This procedure of
+                                                                                          normalizing the predicted values to the bump by means
+                                  X2 = 2 (Cpred,i - Cobs,i)2/(aiCobs>i)2 •         (3)
+                                                                                                                TABLE 1
+                         The quantities 07 have the formal role of relative errors                   Adopted Wavelengths and Weights*
+                         associated with the observed extinction at Ai? but were
+                         in fact made artificially small at some wavelengths in                    A(Â)                             A(Â)               Vi
+                         order to force a fit of the calculated extinction there,          1100.                 0.15          2500.                   0.001
+                         as will be discussed below.                                       1300.                 0.15          3000.                   0.03
+                            There are many more parameters to be chosen,                   1430.                 0.10          3460.                   0.01
+                         Xmy, than there are extinction points to be fitted,               1670.                 0.02          4350.                   0.01
+                                                                                           1800.                 0.005         4861.                   0.01
+                         ^obs.i- The underdetermination is only apparent,                  2000.                 0.001         5555.                   0.01
+                         because the choice of the Xmj is subject to constraints.          2160.                 0.001         6563.                   0.01
+                         Clearly Xmj must be nonnegative,                                  2300.                 0.001        10000.                   0.01
+                                                        Xmj > 0 ,                  (4a)      * For definition, see discussion after eq. (3).
+
+
+
+
+                               © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1977ApJ. . .217. .425M
+                         No. 2, 1977                   SIZE DISTRIBUTION OF INTERSTELLAR GRAINS                                          427
+                                                                     2
+                         of small <r’s of course tends to make x artificially         of graphite are especially important, particularly for
+                         large; hence a fit is acceptable if x2 < 100, say,           radiation with the electric vector perpendicular to the
+                         instead of the usual criterion of requiring x2 to be not     basal plane of the crystal. The constants of Tosatti
+                         much larger than the number of wavelength points             and Bassani (1970 ; hereafter TB) allow quite acceptable
+                         fitted. The rather large values of ^ associated with         fits when graphite is used with another material.
+                         1300 Â and 1100 Â arise from the fact that the extinc-       However, if we use exactly the optical constants of
+                         tion does vary among stars at these wavelengths.             Taft and Philipp (1965; hereafter TP), we find no
+                            The technique for minimizing x2? subject to linear        reasonable fit for graphite plus any one other material;
+                         constraints like the inequalities (4), is a fairly well-     X2 > 200 for all mixtures. Such a large value of x2
+                         known process known as quadratic programming. It             corresponds to a substantial difference between the
+                         is described briefly in Faber (1972). The actual algorithm   predicted and observed extinctions. The problems of
+                         used in this paper is described in Cottle (1968) and         fitting with the TP constants disappear if they are
+                         Cottle and Danztig (1968).                                   slightly changed at two of the wavelengths at which
+                             In order to calculate the Cnu from equation (1), one     they were experimentally measured. We obtain a good
+                         needs the indices of refraction of each substance at         fit if we increase the imaginary part of the index of
+                         each wavelength. For graphite, the index is different        refraction by 10% (from 1.71 to 1.90) at the measure-
+                         for light with electric vector parallel to the basal plane   ment wavelength of 2254 Â, and 8% (from 2.08 to
+                         than for light polarized with the electric vector per-       2.24) at 2384 Â. Of course these changes in measured
+                         pendicular to the basal plane. Constants for the             values are reflected, by interpolation, into changes at
+                         perpendicular direction were taken from Taft and             our wavelengths in the range 2000-2500 Â. The changes
+                         Philipp (1965), Tosatti and Bassani (1970), and others.      in the TP values are well within the experimental
+                         They will be discussed further in the next section. The      uncertainties of about 20% at most wavelengths as
+                         extinction cross sections computed with these con-           shown by the disagreements of TP, TB, Greenaway
+                         stants we will call CGrtper. The optical constants used      et al. (1969), Carter et al. (1965), Zeppenfeld (1968),
+                         when the electric vector is parallel to the basal plane      and Klucker, Skibowski, and Steinman (1974). Near
+                         were taken from Tosatti and Bassani (1970). The              the bump, where the constants are changing rapidly,
+                         extinction cross section computed with these values          the agreement among the various determinations is
+                         will be called Corear- For the extinction of a graphite      only to within about 50%. For the remainder of this
+                         particle with incident unpolarized radiation, we used        paper, when we use “graphite,” we mean the TB
+                          (^Car.per + CGr,Par)A which is appropriate for small-       constants, or, almost equivalently, the TP constants
+                          sized (a « X/2tt) particles (Greenberg 1966). This          with the modifications described above.
+                          relation becomes increasingly inexact as the size is            The uncertainties in the optical constants of course
+                         increased, but to our knowledge no extinction cross          impose a limit on the absolute significance of any
+                          sections are available for finite-sized spheroids of        conclusions we (or anyone else) can make by using
+                          anisotropic material. In view of the necessarily            calculated cross sections of particles, especially since
+                          approximate nature of our calculated graphite extinc-       the substances which constitute real interstellar grains
+                          tion, we feel that consideration of such effects as         are by no means pure. Furthermore, their crystal
+                          temperature dependence of optical constants is not          structure has possibly been damaged by either radia-
+                          warranted.                                                  tion or cosmic rays. Our approximation to the cross
+                             The other materials all have isotropic optical           section of graphite grains (by combining cross sections
+                          properties, although of course the shape of the             of spheres using the perpendicular and parallel optical
+                          cylinders renders their extinction dependent upon the       constants) imposes similar limits. In this paper, we
+                          polarization of the incident radiation. For Si C we         only hope to show that with reasonable optical
+                          used the constants from Thibault (1944) and Philipp         constants some mixtures can reproduce the observed
+                          and Taft (1960). For enstatite, we used those of            extinction law very well, and are therefore rendered
+                          Huffman and Stapp (1973); for iron, those of                plausible while others cannot reproduce it. This test
+                          Wickramasinghe and Nandy (1971).                            for plausibility is a quite restrictive one which only a
+                                                                                      very limited number of mixtures survive. We will find
+                                   III. RESULTS OF FITTING EXTINCTION                  some general properties shared by all plausible
+                                                                                      mixtures which we consider. Of course we cannot rule
+                           In this section we consider the results of fitting the      out models with coated grains by our calculations.
+                         extinction with combinations of spherical particles of           Attempts to fit the extinction were made using each
+                         the various materials mentioned earlier. Cylinders are       individual substance, all combinations of two sub-
+                         discussed in § IV. Let us denote graphite by the symbol       stances, and many of the combinations of three
+                         C; olivine, by Ol; enstatite, En; and magnetite, Mag.         substances. Graphite alone gave x2 = 1200; each of
+                         We will refer to a mixture of graphite and olivine           the other materials alone gave x2 = 3 x 105. Most of
+                         particles as (C + Ol) with similar notation for other        the problems of fitting arise from the bump. While it is
+                         mixtures.                                                    true as Huffman and Stapp (1971) suggested that
+                            Because high accuracy is required for wavelengths          silicates can qualitatively reproduce the bump, they
+                         near the À2200 bump, how well we fit the extinction          fail badly in our program because of our insistence on
+                         depends very strongly upon the optical constants we           a fit over a long-wavelength baseline and because of
+                         adopt for wavelengths near the bump. The constants           the abundance constraints. Even with the abundance
+
+
+
+
+                            © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1977ApJ. . .217. .425M
+                         428                                     MATHIS, RUMPL, AND NORDSIECK                                                   Vol. 217
+                                                                                 2
+                         constraints removed, silicates did no better than x =
+                         675 for enstatite. This is better than for graphite alone,
+                         but still not acceptable. The best enstatite mixture used
+                         3.2 times as much silicon as is available cosmically. As
+                         Ney, Strecker, and Gehrz (1973) have pointed out, the
+                         presence of a strong silicate emission feature at 10 /¿m
+                         in the Orion Nebula coupled with the fact that 6 Ori
+                         shows the smallest known A2160 bump suggests on
+                         observational grounds that the bump is not caused by
+                         silicates. In addition, Day, Steyer, and Huffman (1974)
+                         have shown that the strength of the 10 /xm emission
+                         feature suggests that silicates are not the major producer
+                         of extinction in the visual.
+                             Some mixtures achieved excellent fits, with x2 # 10.
+                         All of these mixtures contained graphite used in
+                         conjunction with another material. The (C + 01),                   Fig. 1.—The size distribution function for a graphite-
+                         (C + En), and (C + SiC) combinations gave quite                 olivine mixture, OAO extinction, using single independent
+                         satisfactory results with x2 increasing slightly in the         bins, spherical particles. The size limits of each bin are cross-
+                                                                                         hatched along the horizontal axis. Abscissa: logarithm of n(a),
+                         order given. However, (C + Mag) and (C + Fe) are                the number of particles   per micron sized for a column density
+                         not excluded by our results, with x2 = 44 and 69,               of one H atom cm-2, displaced downward by an amount A
+                         respectively. Thus we cannot make any statement                 for clarity. Light boxes: graphite, with A = 0. Heavy boxes:
+                         about which materials must be used in conjunction               olivine, with A — 2.
+                         with graphite.
+                             The values of x2 for any three-component mixture            feature of all our acceptable distributions for all
+                         are no larger than those for any pair of the com-               substances.
+                         ponents, since an allowed solution for the three                   Although it is not clear from Figure 1 alone, we find
+                          components is to have Xmj = 0 for all values of j for          from considering all acceptable distributions that the
+                          any one component. Sometimes the three-component               distribution for both the graphite and the other
+                          mix gave a dramatic reduction in x2. Using the TB              material followed approximately the same power law
+                          constants for graphite, the (C + En) mixture gave              with a wider spread in sizes for the graphite.
+                          X2 = 22, while (C + En + Ol) gave x2 = 5. However,                The numbers of very small particles and the size of
+                         the fit is quite acceptable for the binary mixture. The         the smallest particles are not well determined by our
+                          extinction in the tertiary mixture was always caused           procedure. The reason is that for particles in the
+                          mostly by C, followed by the material which makes the          Rayleigh limit, with a « A/27T, the extinction per gram
+                          best binary mixture with C (Ol, En, SiC, in that order),       of material is independent of the particle sizes and
+                          followed by the third component. For example, at               therefore cannot be used to determine the size
+                          5500 Â in a (C + Ol + SiC) mixture the relative                distribution. The smallest particles selected by
+                          contributions to the extinction are 0.65, 0.27, and            minimizing x2 are in the Rayleigh limit for all but the
+                          0.082, respectively. The optical properties (albedo and        smallest wavelengths, and hence the small-size cutoff
+                          phase function) agreed with those of (C + Ol) to two           is poorly determined.
+                          significant figures. For this reason, only binary mix-            The largest particles chosen varied between 0.25 and
+                          tures will be discussed in this paper, although almost         1 ¿on for various mixtures. The fact that our distribu-
+                          all possible combinations were actually investigated.          tions have 0.25 /xm or larger particles means that rather
+                             The size distributions obtained were all generally          gray extinction is needed, since these particles are near
+                          of the same character, with n(a) decreasing rapidly            the geometrical limit except for the longest wavelengths
+                          with a. Figure 1 shows a plot of the size distribution         we considered. Still larger particles could be present
+                          for the (C + Ol) mixture which is typical of other             but would use more mass to provide the same
+                          mixtures as well. There are two important charac-              extinction.
+                          teristics of all acceptable distributions. First, there is a      The gaps occurring whenever independent bins are
+                          wide range in sizes of particles (roughly between 0.005        used are, of course, unphysical. We therefore ensured
+                          and 0.25 ¿on for graphite and 0.025 and 0.25 /xm for           that there would be a monotonically decreasing size
+                          the other material). Second, there is a rapid decrease         distribution by considering bins which contain particles
+                          of number with size. There are gaps in the distribution,       distributed uniformly in the range 0 < a < aj9 instead
+                          as expected when the number used in each bin is                of ctj-i < a < Ay. We determined extinction cross
+                          independent of that used in adjacent bins. However,            sections Cmji such that
+                          if we connect the nonzero values in Figure 1, we obtain
+                          approximately a power law, with n(a) oc a~9, with q
+                          in the range 3.3 < q < 3.6 for the various substances.                 Cm* = 2 Cmki = Í n'(a)Cm(a, X^da ,
+                          As Figure 1 shows, there can be rather substantial                           k<j      Jo
+                          deviations from this power-law distribution at some                    ft (a) = 1 /xm-1,      0 < a < Ay,                    (6)
+                          sizes, but the trend of n{d) over the large interval in a
+                          is clearly power law in nature. This is a general                      ft (a) = 0 ,    otherwise .
+
+
+
+
+                               © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1977ApJ. . .217. .425M
+                         No. 2, 1977                    SIZE DISTRIBUTION OF INTERSTELLAR GRAINS                                              429
+                                   -5                                                  required for the monotonically decreasing as well as
+                                                                                       for the single bin distributions. Again, the substance
+                                                                                       other than graphite shows a smaller range of sizes than
+                                                                                       the graphite does, but shows about the same exponent.
+                                                                                          Figure 4 shows the calculated extinction from the
+                                                                                       (C + 01) mixture of Figure 2 and the contribution to
+                                                                                       that extinction from the graphite. Graphite is the
+                                                                                       major contributor to the extinction at all wavelengths.
+                                                                                       The same is true for the other acceptable mixtures.
+                                                                                          According to our models, one or more of the heavy
+                                                                                       elements (Si, Mg, or Fe) contained in our materials is
+                                                                                       completely locked up in the grains, naturally into the
+                                                                                       material used with the graphite. Sometimes, but not
+                                                                                       always, carbon was also used up. However, lowering
+                                                                                       the allowed abundance of C relative to H from 3.7 x
+                                                                                       10"4 to 2.4 x 10"4 made little difference, but further
+                                                    Log a(p)                           lowering it to 1.8 x 10"4 increased x2 drastically. Thus
+                           Fig. 2.—Same as Fig. 1, using bins which are uniform in     the abundance of C above about 2 x 10"4 might be
+                         particle sizes from zero to a microns (the “ monotonically    observed in the ISM. The depletions observed by
+                         decreasing distribution”). Solid curves: OAO extinction;      Copernicus (Spitzer and Jenkins 1975) show mild
+                         dashed curves: TD-1 extinction. Upper lines: graphite, with   depletion of C and severe depletions of Mg, Si, and Fe
+                         A = 0. Lower lines: olivine, with ,4 = 3.
+                                                                                       as predicted by our models.
+                                                                                          It has been suggested (Gilra 1972) that the narrow-
+                         Clearly, any linear combination of ñ\á) with non-             ness and position of the À2200 feature implies that
+                         negative coeiBcients must be monotonically decreasing         graphite particles, if they produce the feature, must be
+                         with d. Coefficients X'j are obtained from minimizing         near the Rayleigh limit (i.e., a « 0.04 /¿m), uncoated
+                         X2 in just the standard way, which Cmji used in place         with ices, and spherical. However, in our mixtures the
+                         of Cmji. We will refer to the resulting distribution as a     extinction at A2160 tends to be quite well distributed
+                         “monotonically decreasing distribution.” Of course,           among the various sizes with roughly half con-
+                         this procedure forces the solution to contain particles       tributed by particles with a > 0.04 /¿m. We need small
+                         of sizes which are not of the optimum sizes since             graphite particles to provide only a narrow peak in
+                         independent bins allow the greatest freedom of choice.        extinction at 2160 Â superposed upon a broader
+                         For the (C + Ol) mixture shown in Figure 1, x2 was            feature from the larger particles. It follows from
+                         increased by about 407o for monotonically decreasing          Gilra’s work that our small graphite particles must be
+                         bins. This increase is quite acceptable.                      uncoated.
+                            Figure 2 shows log n(a\ plotted against log a for the
+                         (C + 01) mixture with monotonically decreasing
+                         sizes. Figure 3 shows the same plot for (C + SiC).
+                         Each distribution extends formally to zero sizes, but
+                         in fact the particles smaller than half the minimum
+                         size chosen provide little extinction and use little
+                         material and hence can be excluded. With this in mind,
+                         we see that an approximately power-law distribution is
+
+
+
+
+                                                                                          Fig. 4.—Optical depths, for column densities of 1022 H
+                                                                                       atoms cm-2, versus inverse wavelength. Solid line: observed
+                                                                                       by OAO. Triangles: the extinction of (C + Ol) mixture of
+                                                                                       Fig. 2. Dashed line: the contribution of graphite to the
+                            Fig. 3.—Same as Fig. 2, except for graphite-SiC mixture,   extinction. Dots: a mixture of graphite and olivine, n(a) oc
+                         with only OAO extinction shown. ,4 = 0 for graphite, A = 3    û"3-5, 0.005 ^m < a < 0.25 /am, forced to fit at the maximum
+                         for SiC.                                                      of the “bump” at 4.6/am-1.
+
+
+
+
+                             © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1977ApJ. . .217. .425M
+                         430                                   MATHIS, RUMPL, AND NORDSIECK                                             Vol. 217
+                            We therefore suggest that the approximate uni-
+                         formity of the interstellar extinction law over the entire
+                         sky arises from having the same broad distribution of
+                         sizes established, rather than from needing any one or
+                         two special sizes be abundant everywhere. The details
+                         of the distribution at very large particles (which
+                         provide gray extinction) or small particles (in the
+                         Rayleigh limit) are not important. It seems reasonably
+                         likely that a uniformity in the distribution function
+                         in the middle sizes (0.01 < a < 0.1 jum) could be
+                         established stochastically, such as by collisions soon
+                         after particles are formed in a stellar atmosphere, or
+                         in the process of formation, so that the uniformity is
+                         simply the reflection of a most probable distribution.
+                             The approximately power-law distribution found by           Fig. 5.—The albedo versus wavelength. Solid curve: the
+                                                                                      (C + Ol) mixture of Fig. 2. Dots: observational values of
+                         minimizing x2 leads naturally to the question: What          Lillie and Witt (1976). Triangles: values from Morgan et al.
+                         would the extinction of an exactly power-law distri-         (1976), with g = 0.75.
+                         bution be? Figure 4, dots, shows the extinction of a
+                         (C + 01) mixture with log n{d) = Kc — 3.5 log(ö/l jum)
+                         for graphite and log n(a) = K01 — 3.5 log (a/1 //m) for      the (C + Ol), monotonically decreasing mixture of
+                         olivine (0.005 fim < a < 0.25 ¿an). The constants, for       Figure 2. The predicted values agree fairly well with
+                         n{d) in units of particles per H atom per micron, are        the observed ones, both predictions and observations
+                         Kc = -15.24 and K0l = -15.21. All the available              having a minimum of m at about 2000 Â. The mini-
+                         silicon was assumed to reside in the olivine together        mum is caused by graphite absorption and is a feature
+                         with enough C in the graphite to make the extinction         common to all of our acceptable mixtures. The values
+                         agree with the observed extinction at À = 2160 Â.            of the phase parameter g are all about 0.5-0.6 for all
+                         Hence the amount of graphite is the only adjusted            wavelengths.
+                         parameter in the distribution; the exponent and size             Another plausibility check on our mixtures is the
+                         limits were optimized (but of course the general results     ratio of the strength of the 10 /on absorption feature,
+                          of the x2-fitting went into guessing reasonable values      usually attributed to silicates, to the visual extinction
+                          for them). The fit is quite satisfactory.                   (Martin 1975). Let r10 be the optical depth at a maxi-
+                             The observed extinction law has been fitted many         mum of the 10 ¿on absorption feature. The ratio
+                         times in the past by adjusting parameters of the Oort-       Avlr10 has been reliably determined for only one star:
+                          van de Hulst (1946) distribution or an approximation        VICygNo. 12(Rieke 1974). The value given there is
+                          to it. Such distributions have a fairly flat n(a) out to    24 ± 4. To produce this value, the silicates in our
+                          some value of a, say ä, and then a fairly abrupt drop       models would have to have an absorption strength of
+                          for a > ä. In fact, the Oort-van de Hulst distribution       104cm_1, which is about equal to what is actually
+                          would not look very different, on the scale of Figure 2,     observed for both terrestrial and lunar silicate rocks,
+                          from a single rectangular bin used in constructing our      but a factor of 6 less than the measured value for
+                          monotonically decreasing mixtures. Hence our mono-          pure olivine. Thus, to have all or most of the non-
+                          tonically decreasing distributions are roughly com-         graphite extinction in the form of silicates is consistent
+                          posed of superpositions of six or eight Oort-van de         with the strength of the 10 ¿on feature.
+                          Hulst distributions. Similarly, sometimes Gaussian              We have neglected coatings, presumably of H20,
+                          distributions have been used; they correspond roughly       NH3, and CN4, in this study. There are several reasons
+                          to one of our single bins because they decrease so          why this is reasonable. One is that it is important to see
+                          rapidly for both small and large sizes.                     if the extinction can be well fitted without them. As
+                             Some tests were made to determine how much the           mentioned above, the narrowness and position of the
+                          derived n(d) depends upon the values of the limits          2160 Â bump require that there be no coatings on our
+                          adopted for the various bins. We have tried changing        very small graphite particles. The uniformity of the
+                          the size limits on our bins in various ways and found       normal extinction suggests that the particle size
+                          similar results. Hence we are confident that the nature      distribution does not vary greatly from region to
+                          of n{d) is not influenced by our choices of                  region, which is more difficult to explain if one has to
+                             For each mixture we calculate the scattering and          have uniformity in coatings as well as cores. Unfor-
+                          phase properties as well as the extinction. We express       tunately, the determinations of the depletions of
+                          the scattering by means of the albedo, td-, and the          oxygen and nitrogen in the interstellar medium
+                          phase function through g, the average value of the           (Spitzer and Jenkins 1975) depend on rather saturated
+                           cosine of the scattering angle. Witt and Lillie (1973)      lines and are therefore consistent with either very little
+                           and Lillie and Witt (1976) determined w and g from          or quite extensive coatings. We suspect that the grains
+                           OAO measurements of the diffuse galactic light.             in very dense regions, such as the p Oph cloud
+                           Morgan, Nandy, and Thompson (1976) made similar             (Carrasco, Strom, and Strom 1973), appear larger (or
+                           determinations using TD-1 data. Figure 5 shows the          at least a larger Amax of polarization) because they are
+                          newer determination of vr and the predicted values for       coated, as one might expect in a dense region of lower
+
+
+
+
+                               © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1977ApJ. . .217. .425M
+                         No. 2, 1977                  SIZE DISTRIBUTION OF INTERSTELLAR GRAINS                                            431
+                         interstellar radiation density and of temperature lower     rotating in the plane perpendicular to the magnetic
+                         than normal. The 3.07 /¿m H20 absorption band is in         field. In order to calculate the maximum linear
+                         fact observed in such dense clouds as the Orion             polarization possible, we assume that the field is
+                         Becklin-Neugebauer object (Gillett and Forrest 1973)        perpendicular to the line of sight. The extinction and
+                         or a peculiar cloud in Cygnus (Merrill and Soifer           linear polarization are calculated for each bin by the
+                         1974). Our assumption that there are no coatings is         expressions in Greenberg (1968); the circular polariza-
+                         most likely to break down for the large particles           tion was discussed by Martin (1972), and in this paper
+                         (whose temperature fluctuations are small, and whose        we follow his sign convention. We ignored the
+                         temperatures are low) where our graphite cross              polarization but not the extinction of graphite partly
+                         sections are most likely to be incorrect anyway.            because we could see no sensible method of calculating
+                             We have two reservations about our models other         the polarization of anisotropic flakes with tensor
+                         than those already mentioned. We now briefly discuss        constants by combinations of infinite cylinders having
+                         each in turn.                                               uniform indices of refraction. This approach is close
+                             We have some doubts about the use of the classical      to assuming that graphite flakes are randomly oriented
+                         Mie theory which arise from the very careful experi-        because they are difficult to align (Greenberg 1969;
+                         ments of Huffman (1975) on graphite smoke. He mea-          Purcell 1969). Furthermore, Greenberg (1969) has
+                         sures both the particle sizes and the extinction of the     shown that for small aligned graphite particles, the
+                         smoke directly. He finds good agreement for A >             wavelength dependence of polarization should be that
+                          1700 Â but increasingly poor agreement for shorter         of the extinction, contrary to observations. However,
+                         wavelengths, in the sense that the experimental values      one cannot say what the polarization of large aligned
+                         become much larger than the Mie calculations. The           graphite flakes would be.
+                         cause of this discrepancy is still unknown. If the cross        We found that mixtures with cylinders provided
+                         section of graphite below 1700 Â is in fact higher than     acceptable fits for the extinction, although the x2
+                         the Mie calculations predict, we would require fewer        was larger than it was for spheres. As with spheres,
+                          small particles than the present models or a larger        there were no reasonable fits to the extinction without
+                          lower limit to the size distribution. One possibility,      graphite in the mixture.
+                          suggested by D. R. Huffman (private communication),            Our standard bin sizes, each covering a range of
+                          is that the smoke consists of “glassy” carbon (Hage-        1.5 in size, are too coarse for a really careful study for
+                          mann, Gudat, and Kunz 1974) which has a À2200Â              polarization; linear and (especially) circular polariza-
+                          feature similar in shape to that of graphite, but much      tion are fairly rapidly varying functions of x = Ina/X
+                          weaker. We found that the glassy carbon cannot be           (Martin 1972). Having each bin cover a range of
+                          substituted in place of graphite for fitting the inter-     particle sizes of a factor of 1.5 precludes discussing the
+                          stellar extinction because its À2200 feature is so weak     wavelength of maximum linear polarization to within
+                          that one needs about 3 times as much carbon as is           the same factor, so that only two of our individual bins
+                          cosmically available.                                       have their maxima of polarization in the visible range.
+                             We have also ignored the effects of damage to the        Since the extinction is fitted without regard to polariza-
+                          crystals of the material from either photons or cosmic      tion, one or both of these bins might be missing from
+                          rays. Drapatz and Michel (1976) have discussed a            the best mixture. However, some general conclusions
+                          radiation-damage model of the bump and conclude             may be drawn from our coarse analysis.
+                          that such a model is attractive but requires a large            For brevity, we will refer to the fraction of linear
+                          concentration of crystal defects.                           polarization as Q, after the Stokes parameter (al-
+                                                                                      though the polarization is actually ö//in the standard
+                                IV. LINEAR AND CIRCULAR POLARIZATION                  notation). Similarly, the fraction of circular polariza-
+                                                                                      tion will be called V.
+                           Observations of polarization provide further infor-            The observations of Q peak somewhere in the
+                         mation about the nature of interstellar particles.           visible portion of the spectrum. In our models, Q
+                         However, polarization imposes less direct constraints        peaked at about 1600 Â, or about 0.4 as long a wave-
+                         than does extinction; it depends upon the difference          length as it should. The circular polarization V is
+                         of cross sections in two orthogonal directions while          observed to be positive at long wavelengths, to go
+                         extinction is quite independent of particle shape             through zero at about the wavelength of the maximum
+                         (Greenberg and Hong 1975). We thus must consider              linear polarization, and to become negative at short
+                         particle shapes for polarization. Furthermore the             wavelengths (Martin 1974). Our models had the same
+                         particles must be aligned, and the alignment mechan-          behavior as expected for dielectrics (but, as men-
+                         ism is by no means certain.                                   tioned, the wrong wavelength of maximum Q). We
+                           We have considered mixtures of graphite spheres             predict the maximum Q at too short a wavelength
+                         plus cylinders of the other materials. We determine           because Q and V are strongly influenced by particles
+                         the size distribution completely on the basis of fitting      which are so small that their extinction in the visible
+                         the extinction. After the size distribution is determined     is not important. Our models required these particles
+                         we investigate the polarization properties of the             for the ultraviolet extinction.
+                         mixture.                                                         The reason why small particles can be important for
+                            We assume the cylinders are perfectly aligned by the        Q and V while being unimportant for visual extinction
+                          Davis-Greenstein (1951) mechanism, so that they are          is that Q and V are proportional to the difference in
+
+
+
+
+                            © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1977ApJ. . .217. .425M
+                         432                                   MATHIS, RUMPL, AND NORDSIECK                                           Vol. 217
+                         cross sections for two orthogonal directions while           it with graphite plus coated grains of almost any sort.
+                         extinction is proportional to the sum. The cross sec-        The coated grains possibly can be more easily aligned
+                         tions in orthogonal directions almost cancel for large       in the magnetic field than uncoated ones. The larger
+                         particles (i.e., in the geometrical limit) while their       Amax in denser clouds and the somewhat grayer
+                         magnitude (and hence sum) continues to increase.             extinction are then easily explained by assuming that
+                         Hence their polarization, relative to their extinction,      coatings in dense clouds are thicker than normal.
+                         is small. For small particles, one cross section is much
+                         larger than the other, and the polarization is about the
+                         same as the extinction.                                                            v. SUMMARY
+                             Martin (1974) fits both Q and V very well with a            1. We have been able to fit the interstellar extinction
+                         dielectric material whose size distribution (approxi-        from infrared (1 pm) to ultraviolet wavelengths. The
+                         mately Oort-van de Hulst) was determined by fitting          strength and width of the A2160 feature are very well
+                         the extinction throughout the visible region. We also        reproduced.
+                         find excellent agreement of predicted and observed Q            2. A variety of mixtures are acceptable. All include
+                         and V for several mixtures so long as we confine our         graphite particles, which are assumed to be spherical
+                         attempt to fit the extinction to X > 3000 Â. Our             and uncoated. The graphite is the main contributor to
+                         difficulties in fitting the polarization arise solely from
+                                                                                      the A2160 feature. Probably the small particles of
+                         our fitting the entire wavelength range of extinction.       graphite must be uncoated if the feature is to be kept
+                             One might bring about agreement of model and             narrow. Uncoated silicates, silicon carbide, and
+                          polarization observations if the offending small
+                                                                                      metallic particles may be used with the graphite.
+                         particles are all spherical or randomly oriented while       Presumably these substances could also be coated since
+                          the large particles responsible for making Q peak in        the extinction they supply does not need any very
+                          the visual are aligned and elongated. However, in order     narrow features.
+                          to have Q always peak in the visual, we need to have            3. The required particle-size distribution is quite
+                          the variations in the sizes of the aligned particles for    broad, with approximately a power-law distribution :
+                          various stars be roughly the range of variation of
+                          Amax which is less than a factor of 1.5. We can imagine     n{d) oc ¿jr3-5. This type of distribution was found for
+                                                                                      all substances. The sizes for graphite vary from about
+                          a size distribution being this uniform, but such narrow     0.005 pm to about 1 pm. This distribution provides
+                          variations in some size-dependent alignment mechan-         that particles of a variety of sizes contribute to the
+                          ism is rather difficult to imagine. Also, having the        extinction at any wavelength. The uniformity of
+                          small particles fail to contribute to the polarization      the extinction over the sky is explained by having the
+                          makes it even more difficult to explain the amount of
+                          polarization per optical depth of extinction, which         exponent in power-law distribution rather uniform.
+                          seems to be difficult for all models including ours to      The exponent may be the result of a stochastic process
+                           account for.                                               in forming the grains and therefore represents the most
+                             The largest observed value of visual polarization per    probable distribution in some sense. The wavelength
+                          extinction optical depth, which we will call Q/E, is         of the extinction bump near A2160 is set by small
+                                                                                      particles of graphite.
+                           about 0.06. Our mixes without Fe or magnetite,
+                                                                                          4. The wavelength of maximum polarization of our
+                           assuming perfect Davis-Greenstein alignment, have
+                                                                                       models occurs at too short a wavelength (in the UV)
+                           Q/E = 0.15, of which 80% is contributed by particles
+                                                                                       if graphite is not aligned and if all the nongraphite
+                           so small that their polarization maximum is in the          particles are aligned. However, the polarization can be
+                           ultraviolet (A < 3000 Â). Hence one could not obtain
+                           enough visual polarization per magnitude of extinction,     explained by either having large particles of magnetite
+                           even with perfect alignment, if the small particles did     aligned by the Davis-Greenstein mechanism or by
+                           not contribute.                                             having aligned coated particles of silicates or other
+                              The metallic substances, Fe and magnetite, have          dielectric material.
+                           Q/E = 0.3 for the mix, if all particles are aligned.
+                           However, the small particles contribute over 90%
+                           of the polarization so that there is again not enough         This work was completed while one of the authors
+                           visual polarization if small particles are not aligned.    (J. S. M.) was a US Senior Scientist Awardee of the
+                           We agree with the suggestion (Shapiro 1975) that well-     Alexander von Humboldt Foundation of the Federal
+                           aligned, large flakes of magnetite could provide the       Republic of Germany. I appreciate the hospitality of
+                           polarization. The high alignment of flakes could           the Foundation and of the Max-Planck-Institut für
+                           perhaps be provided by the “pinwheel” mechanism            Radioastronomie, Bonn, Federal Republic of Germany.
+                           (Purcell 1975). Variations in Amax over the sky could         It is a pleasure to acknowledge partial support of
+                           reflect changes in particle sizes with especially large    this work by the US National Science Foundation.
+                           particles (with large Amax) in dense regions.              Computer time was donated by the Space Astronomy
+                              On the other hand, it is entirely possible that the     Laboratory, University of Wisconsin-Madison. Useful
+                           polarization is provided by grains which have coatings.    conversations were held with many people, including
+                           Since we have been able to fit the extinction well with    Drs. A. D. Code, D. P. Gilra, D. F. Huffman, N.
+                           uncoated graphite and any other uncoated grains,           Panagia, P. G. Mezger, K. W. Michel, and B. D.
+                           sphere or cylinder, we expect no difficulty with fitting   Savage, and especially L. F. Smith.
+
+
+
+
+                            © American Astronomical Society • Provided by the NASA Astrophysics Data System
+1977ApJ. . .217. .425M
+                         No. 2, 1977                     SIZE DISTRIBUTION OF INTERSTELLAR GRAINS                                                      433
+                                                                                    REFERENCES
+                         Bless, R. C, and Savage, B. D. 1972, Ap. /., 171, 293.            Klucker, R., Skibowski, M., and Steinman, W. 1974, Phys.
+                         Cameron, A. G. W. 1973, Space Sei. Rev., 15, 122.                    Status Solidi (B), 65, 703.
+                         Carrasco, L., Strom, S. E., and Strom, K. M. 1973, Ap. J.,        Lillie, C. F., and Witt, A. N. 1976, Ap. J., 208, 64.
+                            182, 95.                                                       Martin, P. G. 1972, M.N.R.A.S., 159, 179.
+                         Carter, J. G., Heubner, R. H., Hamm, R. N., and Birkhoff,                 . 1974, Ap. J., 187, 461.
+                            R. D. 1965, Phy. Rev., 137A, 639.                                      . 1975, Ap. J., 202, 389.
+                         Code, A. D., Davis, J., Bless, R. C., and Hanbury Brown, R.       Merrill, K. M., and Soifer, B. T. 1974, Ap. J. {Letters), 189,
+                            1976, Ap. J., 203, 417.                                           L27.
+                         Cottle, R. W. 1968, in Mathematics of the Decision Sciences,      Morgan, D. H., Nandy, K., and Thompson, G. I. 1976,
+                            Yol. 1, p. 144.                                                   M.N.R.A.S., 177, 531.
+                         Cottle, R. W., and Dantzig, G. B. 1968, Linear Algebra and        Nandy, K., Thompson, G. I., Jamar, C., Monfils, A., and
+                            Its Applications (NY: Elsevier), p. 103.                          Wilson, R. 1975, Astr. Ap., 44, 195.
+                         Davis, L., and Greenstein, J. L. 1951, Ap. J., 114, 206.          Ney, E., Strecker, D., and Gehrz, R. 1973, Ap. J., 180, 809.
+                         Day, K. L., Steyer, T. R., and Huffman, D. R. 1974, Ap. J.,       Oort, J. H., and van de Hulst, H. C. 1946, Bull. Astr. Inst.
+                            191,145.                                                          Netherlands, 10, 1$1.
+                         Drapatz, S., and Michel, K. W. 1976, Mitt.Astr. Ges., 40,187.     Philipp, H. R., and Taft, E. A. 1960, in Conference on Silicon
+                         Faber, S. M. 1972, Astr. Ap., 20, 361.                               Carbide (Boston: Pergamon), p. 366.
+                         Gillett, F. C., and Forrest, W. J. 1973, Ap. J., 179, 483.        Purcell, E. M. 1969, Ap. J., 158, 433.
+                         Gillett, F. C., Forrest, W. J., and Merrill, K. M. 1973, Ap. J.,          . 1975, in Dusty Universe Symposium, ed. G. B. Field
+                            183,87.                                                           and A. G. W. Cameron (New York: Neale Watson), p. 155.
+                         Gilra, D. P. 1972, in The Scientific Results of OAO-2, ed.        Rieke, G. H. 1974, Ap. J. {Letters), 193, L81.
+                            A. D. Code, NASA SP310, p. 295.                                Savage, B. D. 1975, Ap. J., 199, 92.
+                         Greenaway, D. L., Harbeke, G., Bassani, F., and Tosatti, E.       Serkowski, K., Mathewson, D. S., and Ford, V. C. 1975,
+                            1969, Phys. Rev., 178, 1340.                                      Ap. J., 196, 261.
+                         Greenberg, J. M. 1966, Ap. J., 145, 57.                           Shapiro, P. R. 1975, Ap. J., 201, 151.
+                                 . 1968, in Nebulae and Interstellar Matter, ed. B. M.     Spitzer, L., and Jenkins, E. B. 1975, Ann. Rev. Astr. Ap., 13,
+                            Middlehurst and L. H. Aller (Chicago: University of               133.
+                            Chicago Press), p. 221.                                        Taft, Ê. A., and Philipp, H. R. 1965, Phys. Rev., 138A, 197 (TP).
+                                 . 1969, Physica, 41, 67.                                  Thibault, N. W. 1944, Amer. Mineral, 29, 327.
+                         Greenberg, J. M., and Hong, S. S. 1974, IAU Symposium             Tosatti, E., and Bassani, F. 1970, Nuovo Cimento, 65B,
+                            No. 60, Galactic Radio Astronomy, ed. F. J. Kerr and               161 (TB).
+                            S. C. Simonson (Dordrecht: Reidel), p. 155.                    Wickramasinghe, N. C., and Nandy, K. 1971, M.N.R.A.S.,
+                         Hagemann, J. J., Gudat, W., and Kunz, C. 1974, Deutsches             153, 205.
+                            Elektronen-Synchrotron DESY, SR-7417.                          Witt, A. N., and Lillie, C. F. 1973, Astr. Ap., 25, 397.
+                         Huffman, D. R. 1975, Astr. Space Sei., 34, 175.                   York, D. G., Drake, J. F., Jenkins, E. B., Morton, D. C.,
+                         Huffman, D. R., and Stapp, J. L. 1911, Nature Phys. Sei., 229,        Rogerson, J. B., and Spitzer, L. 1973, Ap. J. {Letters), 182,
+                            45.                                                               Ll.
+                         Jenkins, E. B., and Savage, B. D. 1974, Ap. J., 187, 243.         Zeppenfeld, K. 1968, Zs. /. Physik, 211, 391.
+
+
+                         John S. Mathis, Kenneth H. Nordsieck, and William Rumpl: Washburn Observatory, University ofWisconsin-
+                         Madison, 475 N. Charter Street, Madison, WI 53706
+
+
+
+
+                             © American Astronomical Society • Provided by the NASA Astrophysics Data System
+
