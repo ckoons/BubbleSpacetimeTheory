@@ -1,0 +1,60 @@
+No. 4, 1965 NOTES 1635
+
+total flux observed in the X-ray region. One finds (Allen 1963) that the mean recombina-
+tion time for ionized hydrogen is about
+
+= 1.2 10% 727 [In (141.58 X 10/7),
+
+where, T is the electron temperature and m the total number density. Consider first the
+go = 3 relativistic case. At m = 3 X 10~‘ (the value at z = 2, assuming essentially all
+the density in the form of hydrogen) and T = 2 X 108° K (corresponding to a present
+value of 2 X 104 and adiabatic expansion), t, = 7 X 10! sec, or 2 X 10° years. At
+z = 2, the age of the universe was 2 X 10° years; we must thus find a mechanism by
+which the ionization level may be maintained at 5 X 10°. This requires a process with a
+mean ionization time per hydrogen atom of tion = 1.6 10!° sec, or 500 years. Electron
+collisions are inadequate; the mean lifetime for collisional ionization is about (Allen 1963)
+
+teott = 1.75 X 10° T1291 + T/1.6 X 108) exp (1.58 X 105/T),
+
+or about 104 years. Consider now radiative ionization: we find that we need a mean in-
+tensity at the Lyman limit of 1.2 K 10-*° erg cm™ (c/s) sec™ ster~, if the spectrum
+does not fall off too rapidly to the blue.
+
+The flux can come from three sources; normal galaxies, radiogalaxies, and QSS’s, and
+the intergalactic medium itself. The contribution from the first two sources can be esti-
+mated roughly, and almost certainly does not exceed 3 X 10~*4 units at 3 = 2, of which
+about 10 per cent is from quasi-stellar sources (assuming that one can extrapolate the
+visual radiation into the UV with a spectral index of —0.7, and assuming a present space
+density of [600 Mpc]-*).
+
+The intergalactic medium is more promising. For go = 3, the computations of Field
+and Henry give, for T = 2 X 105° K at z = 2, an intensity 6 X 10-*! units at the
+Lyman limit. This is a lower bound, and correction of the Gaunt factor (Karzas and
+Latter 1961) for this temperature and frequency range gives an estimate of about
+1.1 X 10-*° units, which is very nearly equal to the required value; the treatment of the
+singularity at ¢ = 0 is quite uncertain, and the excellent agreement is probably fortuitous.
+Going to larger go increases the free-free intensity, but this is more than compensated
+by the increased level of ionization required and the decreased recombination time.
+If we decrease the temperature slightly, the recombination time will drop but will
+be exactly compensated by an increase in the free-free intensity down to a present
+temperature of about 3 X 10*° K, below which the intensity drops precipitously. We
+have computed this equilibrium assuming that all the mass is in the gas; we find,
+however, that the number density of neutrals is independent of the gas density,
+since the recombination time is proportional to 7! and the ionization time to n~
+Lower densities do, of course, make collisional ionization relatively more important.
+Because of this independence of total number, the dependence on q) enters only through
+the factor (1 -+ 2goz)!? in dl/dz, and differences between reasonable models are smaller
+by far than the uncertainty in the treatment of the free-free intensity integrals near
+t = 0. It seems therefore inappropriate at this time to discuss differences between
+relativistic models with small go. As we go to temperatures (at = 2) higher than about
+5 X 10°, the recombination time increases more rapidly than the radiative ionization
+time; collisions become more important, and the ionization ratio decreases.
+
+For the steady state, the observed ionization ratio is obtained collisionally at a tem-
+perature of about 7 X 10°° K; ton is about 1.5 & 10” sec, and the radiative ionization
+time is very much longer, about 10" sec. If the older density of 2 X 10-*° g/cm' is taken,
+the equilibrium temperature drops to about 4 X 10°. D. W. Sciama (private communica-
+tion) has pointed out that recombinations which result in reionization should be deleted
+from the equilibrium considerations, but it is easily shown that the medium is optically
+
+© American Astronomical Soctety = Provided By the NASA Astrophysics Bats System

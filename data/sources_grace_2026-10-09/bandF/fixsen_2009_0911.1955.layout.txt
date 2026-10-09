@@ -1,0 +1,302 @@
+                                                Draft version November 26, 2024
+                                                Preprint typeset using LATEX style emulateapj v. 08/22/09
+
+
+
+
+                                                                      THE TEMPERATURE OF THE COSMIC MICROWAVE BACKGROUND
+                                                                                                            D. J. Fixsen1
+                                                                                                   Draft version November 26, 2024
+
+                                                                                                 ABSTRACT
+                                                         The FIRAS data are independently recalibrated using the WMAP data to obtain a CMB
+
+
+
+
+arXiv:0911.1955v2 [astro-ph.CO] 10 Nov 2009
+                                                       temperature of 2.7260±0.0013. Measurements of the temperature of the cosmic microwave background
+                                                       are reviewed. The determination from the measurements from the literature is cosmic microwave
+                                                       background temperature of 2.72548±0.00057 K.
+                                                       Subject headings: cosmology: microwave background — cosmology: observations
+
+                                                                    1. INTRODUCTION                                  product/map/current/m products.cfm, with the dipole
+                                                The Wilkinson Microwave Anisotropy Probe (WMAP)                      added back in and divided by the CMB temperature. In
+                                              data presents an opportunity to recalibrate the Far                    generating the WMAP temperature maps a dipole is fit
+                                              InfraRed Absolute Spectrophotometer (FIRAS) exper-                     and removed from the raw data. The residual variations
+                                              iment and produce an independent check of the other                    are due to various sensitivities of the WMAP instrument,
+                                              measurements of the cosmic microwave background                        the changing velocity as the spacecraft makes its annual
+                                              (CMB) temperature. In sections 2 & 3 the WMAP data                     trek around the solar system and the small variations of
+                                              will be presented and combined with the FIRAS data to                  the CMB as a function of position. The WMAP team
+                                              make an independent estimate of the CMB temperature.                   has done an excellent job of removing the instrumental
+                                              In sections 4 & 5 this new estimate will be combined                   effects. By correcting the velocity to the barycenter of
+                                              with others from the literature to generate an improved                the solar system, the effects of the spacecraft velocity
+                                              estimate for the CMB temperature.                                      are also removed. But this information also allows the
+                                                The WMAP data only measures the difference in                        calibration of the WMAP data. But the information is
+                                              intensity between different points on the sky. However,                in velocity rather than temperature. In order to get the
+                                              the precision is sufficient such that the velocity of the              temperature for the published maps an absolute temper-
+                                              WMAP spacecraft can be used to calibrate the velocity                  ature must be assumed. The WMAP team used 2.725 K
+                                              to various points on the surface of last scattering of the             from the previous FIRAS measurements to translate the
+                                              CMB. This velocity in turn is used to form a differential              velocity measurements into temperature units. To get
+                                              spectrum of the CMB. The differential spectrum is                      the velocity maps, the data is divided by 2.725 K to re-
+                                              then fit with a single parameter which is the CMB                      store the velocity calibration in units of v/c. The dipole
+                                              temperature.                                                           (v/c = 0.0012338, l = 263.87◦, b = 48.24◦ ) is added back
+                                                                                                                     in to restore the full velocity. The fitting includes an ab-
+                                                                                                                     solute term which is treated as a nuisance parameter so
+                                                               2. WMAP VELOCITY MAP
+                                                                                                                     no absolute adjustment to the WMAP data is required
+                                                 The standard WMAP sky maps (Hinshaw et al. 2009)                    or made.
+                                              are corrected to the baricenter of the solar system using                 No corrections to the WMAP data are made for
+                                              the JPL ephemeris (Standish & Fienga 2002). The                        Galactic foregrounds. The maps are convolved with
+                                              calibration assumes a CMB temperature of 2.725 K                       the FIRAS beam (approximately a 7 deg tophat) to
+                                              (derived from the FIRAS measurement). However, the                     produce maps with the FIRAS resolution. These maps
+                                              various changes as the WMAP makes its way around the                   are produced with the pixelization of the native FIRAS
+                                              sun (now in its ninth repetition) can be used to calibrate             data.
+                                              the WMAP data in terms of velocity. The velocity                          For each velocity map, the FIRAS data (also available
+                                              of the WMAP spacecraft, with respect to the sun, is                    on the lambda website) are fit to a set of ten templates,
+                                              known to < 1 cm/s, which is a negligible uncertainty                   shown in figure 1. The first template is unity everywhere.
+                                              compared to other uncertainties considered here. This                  This template is included to model the monopole. The
+                                              velocity is used to calibrate a map of velocity relative to            second template is one of the velocity maps from the
+                                              the surface of last scattering of the CMB. Most of this                WMAP data. The remaining eight maps are included
+                                              velocity is the dipole, presumably the motion of the solar             to fit various foregrounds. These templates include the
+                                              system with respect to the frame of the CMB, however it                FIRAS Cii and Nii maps (Fixsen et al. 1999). The
+                                              includes temperature variations due to the Sachs-Wolfe                 Band 8 and 10 DIRBE data also from the COBE mission
+                                              effect which has the same spectrum. This process is                    and a model of the zodiacal emission from the DIRBE
+                                              repeated for each WMAP differential assembly and each                  team (Kelsall et al. 1998). Also included are an Hi map
+                                              year yielding 50 independent maps for the first 5 years                (Dickey & Lockman 1990, Hartmann & Burton 1997),
+                                              of WMAP operation.                                                     an Aluminum-26 emission line map (Diehl et al. 1995)
+                                                 The WMAP velocity maps are the tempera-                             and the Haslam 408 MHz map (Haslam et al. 1981).
+                                              ture maps, available at http://lambda.gsfc.nasa.gov/                   The maps not derived from FIRAS data are convolved
+                                                                                                                     with the FIRAS beam. Templates 3-10 are included to
+                                                1 University of Maryland, Goddard Space Flight Center
+2                                                               Fixsen
+
+
+ a                                                                    f
+
+
+
+
+ b                                                                    g
+
+
+
+
+ c                                                                    h
+
+
+
+
+ d                                                                    i
+
+
+
+
+ e                                                                    j
+
+
+
+
+  Fig. 1.— The templates used to fit the FIRAS data. The templates are in Galactic coordinates with the center of the Galaxy in the
+center of each Mollwide projection. The Galactic equator is a horizontal line across the middle of each figure. From top to bottom the
+templates are a)Data mask b)WMAP velocity c)Cii d)Nii e)Al26 f)Hi g)Zodical model h)DIRBE band 8 i)DIRBE band 10 j)Haslam 408
+MHz.
+                                                          CMB Temperature                                                      3
+
+                                                                      perature T , is shifted such that
+                                                                                                     r
+                                                                                         ′             1+v
+                                                                                        S (ν) = B(T        , ν)              (1)
+                                                                                                       1−v
+                                                                      where ν is the frequency and v is the velocity towards
+                                                                      the source divided by the speed of light.
+                                                                         Thus ignoring negligible second order terms and higher
+                                                                      we have:
+                                                                                                         ∂B(T, ν)
+                                                                               S(ν, p) = B(T, ν) + v(p)T           |T =T0   (2)
+                                                                                                             ∂T
+                                                                      where the spectrum is now a function of position, P ,
+                                                                      on the sky. Note that the first term is absorbed in the
+                                                                      first template. The remaining term, vT ∂B/∂T is the
+                                                                      term related to the 2nd template. The velocity, v, is
+                                                                      already included in the template, thus the term to fit
+                                                                      is T ∂B/∂T , which must match the spectrum. Although
+                                                                      strictly speaking this is nonlinear, a spectrum T ∂B/∂T
+  Fig. 2.— The crosses are the CMB temperature estimation for a       for a T near the CMB temperature (say 2.726 K) can
+given fraction of the brightest part of the sky excluded. The lines   be subtracted from the spectrum and the residual can
+are the nominal +1 σ and -1 σ limits. The error bar is the adopted    then be fit to δT (∂B/∂T + T ∂ 2 B/∂T 2 ) for the small
+value and uncertainty inflated for the excess χ2 .                    δT correction. Since both the process of averaging
+attempt to fit all local features even though many subsets            the velocity maps and the spectral fitting are linear
+of them would do almost as well. Since there are 6063                 processes, they can be done in either order. So the
+pixels the 8 templates make an insignificant reduction in             average spectrum is fit with a result of T = 2.7260.
+the total number of degrees of freedom.                                               3.1. FIRAS Uncertainty
+  The FIRAS data is arbitrarily cut off at 1 THz
+since the CMB spectrum is essentially zero beyond that                  The uncertainty of the temperature is dominated by
+frequency and the uncertainty of the FIRAS data at high               the noise in the FIRAS measurements. Propagating the
+frequencies is not important for this analysis. The fits              uncertainties shown in figure 3 results in an uncertainty
+use the weight map of the FIRAS low frequency data                    estimate of 0.74 mK, but this does not include the
+(which is nearly identical in form to the high frequency              correlations amongst the different frequencies. Including
+weight map). Each frequency is fit separately and so each             the correlations and the PEP error term, which is
+template generates a spectrum for each fit. All of the                important in this context (Fixsen et al. 1994), results
+spectra except the spectrum associated with the velocity              in an uncertainty estimate of 1.09 mK. The χ2 is 98.7
+are treated as nuisance parameters. These increase the                for 69 DOF. Since the χ2 is higher than expected the
+uncertainty but are otherwise unused.                                 uncertainty is inflated to produce a χ2 per DOF of
+  Even with these templates the Galactic plane is too                 unity with a resulting uncertainty of 1.3 mK in the
+large a perturbation to be insignificant. So the pixels               CMB temperature due to the uncertainties of the FIRAS
+with the largest DIRBE band 10 signal are excluded from               measurements.
+the fit. The process was tested with 0% to 90% of the                   In deriving the FIRAS dipole (Fixsen et al. 1996)
+data excluded. Figure 2 shows the average estimated                   amplitude the only term is the δT ∂B/∂T . Here the
+temperature for all 50 WMAP channels and years as a                   second term δT T ∂ 2B/∂T 2 is both larger and at a
+function of the fraction of excluded data. For less than              mean higher frequency. This allows a more precise
+5% of the data excluded, significant variations are seen.             determination of the temperature. Also the velocity map
+The variations are concentrated in the the 22 GHz (K                  allows more control of the systematic effects from the cut.
+band) templates. If more than 50% of the data are                     Some of the variation due to the cuts was due to higher
+excluded the uncertainties are significantly larger, not              order (l > 1) variation in the CMB. Here the variation
+only due to the data loss but also due to the loss of the             in the CMB is included in the velocity maps, so neither
+hot and cold ends of the CMB dipole. The results that                 of these terms add to the uncertainty.
+follow are for 15% of the data excluded. These fits, done
+independently at each frequency, result in 50 spectra.                                3.2. WMAP Uncertainty
+                                                                        The uncertainty from the WMAP measurements also
+            3. CMB VELOCITY TEMPERATURE                               needs to be included. The RMS variation in the
+  The average of the 50 spectra is shown in fig. 3.                   gains (∆v/v) of the 50 independent WMAP maps is
+Since this spectrum is associated with the velocity of the            0.00096. Nominally, the uncertainty of the mean of
+solar system with respect to the CMB (and some Sachs-                 such a set would be 0.00014. Figure 7 of Hinshaw
+Wolfe effect), the spectrum appears not as an absolute                et al. (2009) indicates a .001 uncertainty for each of
+spectrum but as a differential spectrum generated by the              40 individually calibrated data channels which results in
+doppler shift.                                                        a similar uncertainty estimate for the mean.
+  According to the special theory of relativity the spec-               But at the level of 0.00014, the WMAP uncertainties
+trum observed in a reference frame moving with respect                are insignificant. Even if the uncertainty were 0.0005 the
+to the source of a black-body spectrum, B(T, ν), at tem-              WMAP data would not the be a significant source of
+4                                                                Fixsen
+
+
+
+
+ Fig. 3.— The mean spectrum associated with the velocity of the solar system with respect to the CMB. The line is the a priori prediction
+based on the WMAP velocity and the previous FIRAS calibration. The uncertainties are the noise from the FIRAS measurements. The
+error bars are slightly misleading, because they do not show the correlations, but the correlated errors are properly treated in the fit.
+                                                                          WMAP       Year 1    Year 2    Year 3    Year 4    Year 5
+uncertainty. If the mean error were 0.0016, the WMAP
+                                                                             K       2.72511   2.72517   2.72522   2.72512   2.72519
+uncertainty would equal the uncertainty from the FIRAS                      Ka       2.72532   2.72530   2.72526   2.72529   2.72544
+uncertainty and √the final uncertainty would be increased                   Q1       2.72555   2.72541   2.72540   2.72546   2.72557
+by a factor of 2. Each WMAP channel and year                                Q2       2.72553   2.72548   2.72538   2.72543   2.72544
+is processed independently. Unless there is a serious                       V1       2.72625   2.72627   2.72621   2.72620   2.72639
+unexplained error in the WMAP data that correlates                          V2       2.72653   2.72622   2.72630   2.72626   2.72662
+both channels and years the uncertainty of the WMAP                         W1       2.72624   2.72616   2.72644   2.72635   2.72634
+data is insignificant relative to the uncertainty in the                    W2       2.72681   2.72682   2.72656   2.72665   2.72650
+FIRAS data.                                                                 W3       2.72675   2.72678   2.72649   2.72686   2.72714
+  The fitted temperatures for each WMAP channel and                         W4       2.72712   2.72685   2.72617   2.72580   2.72658
+year is shown in table 1. The average is 2.7260 K with a                                     TABLE 1
+standard deviation of 0.6 mK. The implied uncertainty                   Estimated CMB temperatures for the various years and
+of the mean is 0.09 mK. The standard deviation is                      WMAP channels. All of these fits are with the brightest
+smaller than expected because a significant part of the                              15% of the sky excluded.
+variation of the WMAP velocity maps is concentrated in
+the Galactic plane. The 0.09 mK does not include the
+common uncertainty of the WMAP velocity maps or the                    differential measurements of both experiments. Further
+FIRAS errors.                                                          it is insensitive to long term offset drifts in either
+  Combining the uncertainties of the FIRAS and WMAP                    instrument as the measurement is dominated by the
+in quadrature results in an uncertainty of 1.3 mK.                     measurement at the precession period of the WMAP data
+This measurement is unaffected by absolute systematic                  (about 60 minutes) and the orbital period of the COBE
+errors of either FIRAS or WMAP as it uses only                         spacecraft (about 100 minutes).
+                                                     CMB Temperature                                                       5
+
+   In particular it does not depend on the absolute               of the excess χ2 comes from three measurements: the
+calibration of the FIRAS thermometers although it                 Johnson & Wilkinson balloon measurement, the South
+does depend on the gain calibration of the FIRAS                  Pole measurement, and the fourth CN measurement.
+external calibrator thermometers. It also is relatively           With this number of measurements, one or two 2σ results
+insensitive to the FIRAS frequency calibration as the             should be expected but here there are three.
+measurement uncertainty is dominated by the amplitude                Without the FIRAS measurements the weighted aver-
+of the spectrum.                                                  age is 2.729±0.0038 which is 1.0 σ from the final answer.
+   The diamonds in fig 3 are the spectra derived from the         Most of the weight (97%)of the final temperature esti-
+FIRAS data. The uncertainties shown are also derived              mate is from the FIRAS measurements. Each FIRAS
+from the FIRAS data. Note the line in figure 3 is not             measurement will be reviewed in turn.
+a fit but the predicted line from the previous T=2.725               The original concept of the FIRAS instrument was
+FIRAS calibration. The best fit is 2.7260±0.0013 K. The           that the sky would be observed and the internal refer-
+feature at ν = 630 GHz, including the larger uncertainty,         ence would be adjusted to minimize the signal. Then
+is due to the dichroic filter separating the low and high         the external calibrator would be inserted and adjusted to
+frequencies in the FIRAS instrument.                              match the signal from the sky. This method depends on
+                                                                  knowing the calibration of the external calibrator germa-
+                4. CMB TEMPERATURE                                nium resistance thermometers. A 5 mK error in the origi-
+  There were many publications of measurements of the             nal temperature determination of the external calibrator
+CMB temperature from the late ’60s and ’70s. But                  led directly to a 5 mK error in the temperature deter-
+the uncertainties are large and the systematics were not          mination of the CMB. However, the calibration process
+well understood. Here an arbitrary cutoff of 50 mK                corrects other effects of the error to first order (Fixsen
+uncertainty was used to select 15 sources for the CMB             et al. 1994). There were slight modifications to this plan
+temperature from recent publications. These results are           (eg. the internal reference was offset 10 mK for about half
+shown in Table 2.                                                 of the data), but basically the result is 2.7249 K (This
+                                                                  has been rounded off to 2.725 in the literature), including
+ CMB          Temp     Uncertainty                                the 5 mK correction for thermometer self-heating in the
+ Source        (K)       (mK)        Reference                    high current mode. The low current mode is noisy but
+ CN           2.700         40       Meyer & Jura (1985)          there are ∼ 105 measurements to compare the low cur-
+ CN           2.740         50       Crane et al. (1986)          rent readings to the high current readings all at ∼ 2.7 K.
+ Balloon      2.783        25        Johnson & Wilkinson (1987)   The final uncertainty depends on the calibration of the
+ CN           2.750         40       Kaiser & Wright (1990        thermometers at NIST and the readout electronics. The
+ Rocket       2.736         17       Gush et al. (1990)           uncertainty is estimated as 1 mK.
+ S Pole       2.640         39       Levin et al. (1992)
+                                                                     The second calibration of the FIRAS data is based
+ Balloon      2.712        20        Schuster et al. (1993)
+ CN           2.796         39       Crane et al. (1994)
+                                                                  on the color. The temperature can be determined from
+ CN           2.729         31       Roth et al. (1995)           the color of the radiation if the frequency scale can be
+ Balloon      2.730        14        Staggs et al. (1996)         accurately determined. The frequency scale is derived
+ ARCADE1      2.694         32       Fixsen et al. (2004)         from FIRAS observations of the interstellar CO and [C I]
+ ARCADE1      2.721         10       Fixsen et al. (2004)         lines at 1300, 867, 650, and 609 µm (Fixsen et al. 1996).
+ ARCADE2      2.731         5        Fixsen et al. (2009)         These were chosen because they are bright enough to
+ FIRAS        2.7249       1.0       Mather et al. (1999)         determine the frequency and they are in the same part
+ FIRAS        2.7255      0.85       Fixsen et al. (1996)         of the spectrum as the CMB. The temperature scale was
+ FIRAS        2.7260       1.3       This Work                    determined independently from 7 different combinations
+ Mean        2.72548       .57                                    of the four detectors and three scan modes. These
+                                                                  determinations agreed within their uncertainties and the
+                       TABLE 2
+       Measurements and uncertainties of the CMB                  weighted uncertainty is 0.2 mK. There is a common
+                     temperature.                                 uncertainty of 0.82 mK due to the uncertainty of the
+                                                                  frequency scale, which dominates the total uncertainty.
+                                                                  The result is 2.7255 K ±0.85 mK. The thermometer
+                                                                  errors are only weakly coupled to the color temperatures.
+  The weight of the measurements is dominated by the              Indeed, when the first color temperature was published,
+FIRAS measurements, but it is still instructive to look           it disagreed with the thermometer by 4.5 σ. It was only
+at the other measurements. The measurements using CN              with the discovery of the high current self-heating offset
+are entirely different from any of the other measurements.        that the two measurements came into alignment. The
+But the combined CN measurements are 2.742±0.017 K                uncertainty of this method is driven by the uncertainty
+which is only one sigma high. The rocket measurement              in the measurement of the frequency of the CO and [C I]
+from Gush, Halpern and Wishnow (1990) is like the                 lines.
+FIRAS measurement in that it uses a fourier transform                Now there is a third independent method of precisely
+spectrometer, but it has an independent calibrator and            calibrating the FIRAS instrument. The velocity method
+independent thermometers. The other measurements                  was presented before with the COBE DMR data (Fixsen
+depend on external calibrators as the absolute reference,         et al. 1996). However, the DMR data did not have suffi-
+but these are comparatively narrow bands on the low               cient velocity precision to fully exploit this method; the
+frequency side of peak of the CMB radiation. The χ2               WMAP data do. Because the differential measurements
+for the 16 measurements is 17.9 for 15 DOF. A χ2 this             from the FIRAS instrument are taken only 50 minutes
+large should be expected about 26% of the time. Most              (half of an orbit) apart with the instrument in substan-
+6                                                               Fixsen
+
+tially the same state this method has the least poten-              estimates of the CMB temperature agree within 2.5 times
+tial for systematic errors. These spectra have far more             their uncertainties. These estimates were made with a
+supporting data than the calibration data. Each of the              variety of methods from different platforms and different
+WMAP frequencies can be used to construct velocity                  frequencies. Combining all of the estimates results in
+map which in turn can be used to construct a spectrum.              a very modestly elevated χ2 and an improved absolute
+These spectra can then be fit to a dB/dT spectrum with              temperature estimation of 2.72548 ± 0.00057 K.
+the temperature as the single adjustable parameter.
+            5. SUMMARY AND CONCLUSIONS
+  The calibration methods for the Far Infrared Absolute               I thank the WMAP team for providing the smoothed
+Spectrophotometer (FIRAS) have been described and                   sky maps in velocity units. A special thanks to J Weiland
+the accuracy estimated. All of the recent precision                 and G Hinshaw.
+
+                                                       REFERENCES
+Crane P et al. , 1986, ApJ, 309, 882                                Haslam CGT et al. 1981, A&A, 100, 209
+Crane P et al. , 1994, ApJ, 346, 136                                Hinshaw G et al. , 2009, ApJS, 180, 225
+Dickey JM & Lockman FJ, 1990, Annual review of astronomy and        Johnson D & Wilkinson D, 1987, ApJ, 313, L1
+   astrophysics, 28, 215
+                                                                    Kaiser ME & Wright EL 1990, ApJ, 356, L1
+Diehl R et al. , 1995, A&A, 298, 445
+Fixsen DJ et al. , 1994a, ApJ, 420, 457                             Kelsall T et al. , 1998, ApJ, 508, 44
+Fixsen DJ et al. , 1996, ApJ, 473, 576                              Levin S et al. , 1992, ApJ, 396, 3
+Fixsen DJ et al. , 1999, ApJ, 526, 207                              Mather JC et al. , 1999, ApJ, 512, 511
+Fixsen DJ et al. , 2004, ApJ, 612, 86                               Meyer DM & Jura M 1985, ApJ, 297, 119
+Fixsen DJ et al. , 2009, ApJ, in press                              Roth KC et al. , 1995, ApJ, 420, 457
+Gush HP, Halpern M & Wishnow E, 1990, Phys Rev Lett, 65, 537
+Hartmann D & Burton BW, ”Atlas of Galactic Neutral Hydrogen”,       Schuster J et al. , 1993, ApJ412, 47 1993
+   pp. 243. ISBN 0521471117. Cambridge, UK: Cambridge               Staggs S et al. , 1996, ApJ, 473, L1
+   University Press, 1997.                                          Standish EM & Fienga A 2002, A&A, 384, 322
+

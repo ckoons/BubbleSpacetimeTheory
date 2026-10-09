@@ -1,0 +1,125 @@
+ 
+ NIST ASD Output: Lines 
+ NIST Atomic Spectra Database Lines Data 
+ H I : 4 Lines of Data Found 
+ Z = 1, H isoelectronic sequence 
+ Example of how to reference these results: 
+Kramida, A., Ralchenko, Yu., Reader, J., and NIST ASD Team (2024).
+ NIST Atomic Spectra Database (ver. 5.12),
+ [Online]. Available: https://physics.nist.gov/asd 
+ [2026, October 9].
+ National Institute of Standards and Technology, Gaithersburg, MD.
+ DOI: https://doi.org/10.18434/T4W30F 
+ BibTex Citation (new window)
+ Wavelength range : 1215 - 1216 Å 
+ λ in : vacuum below 2000 Å, air between 2000 and 20000 Å, vacuum above 20000 Å 
+ Highest relative intensity : 840000 
+ Primary data sources 
+ Query NIST Bibliographic Databases for 
+ H I (new window) 
+ Energy Levels:
+ Kramida 2010 
+ Most of the given level values are essentially experimental ones. More accurate theoretical data on fine-structure energy levels and transitions between them can be obtained in the NIST Database of Energy Levels of Hydrogen and Deuterium . The levels designated only by a principal quantum number n in the configuration column represent centers of groups of all fine-structure levels having the given n. Their values were derived from line series observed in emission from solar corona and are relevant only for this type of observations. Uncertainties of the level values vary between 3 and 23 in the units of the last given decimal place. The level values in square brackets were obtained by interpolation or extrapolation of experimental fine-structure intervals or by fitting the Ritz-type formulas along series of levels. The level values in parentheses were derived from the theoretical values in the NIST Database of Energy Levels of Hydrogen and Deuterium by adding to them calculated off-diagonal magnetic-dipole hyperfine shifts.
+ H I Energy Levels 
+ Lines:
+ Kramida 2010 
+ The lines corresponding to transitions associated with the levels designated only by the principal quantum numbers (e.g., 2-3 or 1s-2) correspond to observations in which the fine structure of transitions is completely unresolved. Their observed and calculated (Ritz) wavelengths, given here, are pertinent to observations of the solar corona. The observed intensity values of these lines, given in arbitrary units, are pertinent to the same type of observations. Intensity values given in parentheses are extrapolated values. Relative intensities of lines in laboratory light sources differ from those in the solar corona by several orders of magnitude and strongly depend on experimental conditions. Wavelengths of centers of gravity and various blended groups of fine-structure components of the Balmer series lines, derived assuming Boltzmann populations in an optically thin medium, are given without level classifications. Their identities and uncertainties are explained in the "Line Ref." column.
+ H I Line Wavelengths and Classification 
+ Transition Probabilities:
+ Wiese & Fuhr 2009 , Jitrik & Bunge 2004 
+ The data of Jitrik & Bunge 2004 have been scaled to the CODATA-2018 values of the fundamental constants by A. Kramida for the release of ASD v. 5.10 in October 2022.
+ H I Transition Probabilities 
+ Observed Wavelength Vac (Å) 
+ Unc. (Å) 
+ Ritz Wavelength Vac (Å) 
+ Unc. (Å) 
+ Rel. Int. (?) 
+ A ki (s −1 ) 
+ f ik 
+ S ik (a.u.) 
+ Acc. 
+ E i (cm −1 ) 
+ E k (cm −1 ) 
+ Lower Level Conf., Term, J 
+ Upper Level Conf., Term, J 
+ Type 
+ TP Ref. 
+ Line Ref. 
+ 1 215.6699 
+ 0.0020 
+ 1 215.668237310 
+ 0.000000006 
+ 6.2647e+08 
+ 2.7760e-01 
+ 2.2220e+00 
+ AAA 
+ 0.0000000000 
+ - 
+ 82 259.2850014 
+ 1 s 
+ 2 S 
+ 1 / 2 
+ 2 p 
+ 2 P° 
+ 3 / 2 
+ T7771 
+ L12020 
+ 1 215.6699 
+ 0.0020 
+ 1 215.673644608 
+ 0.000000004 
+ 6.2648e+08 
+ 1.3880e-01 
+ 1.1110e+00 
+ AAA 
+ 0.0000000000 
+ - 
+ 82 258.9191133 
+ 1 s 
+ 2 S 
+ 1 / 2 
+ 2 p 
+ 2 P° 
+ 1 / 2 
+ T7771 
+ L12020 
+ 1 215.6701 
+ 0.0021 
+ 1 215.6701 
+ 0.0015 
+ 840000 
+ 4.6986e+08 
+ 4.1641e-01 
+ 3.3331e+00 
+ AAA 
+ 0.0000000000 
+ - 
+ 82 259.158 
+ 1 s 
+ 2 S 
+ 1 / 2 
+ 2 
+ T8637 
+ L12020 
+ 1 215.673123130200 
+ 0.000000000015 
+ 1 215.673123130200 
+ 0.000000000015 
+ 2.495e-06 
+ 5.528e-16 
+ 3.323e-10 
+ AAA 
+ 0.0000000000 
+ - 
+ 82 258.9543992821 
+ 1 s 
+ 2 S 
+ 1 / 2 
+ 2 s 
+ 2 S 
+ 1 / 2 
+ M1 
+ T7651 
+ L12363 
+ If you did not find the data you need, please inform the ASD Team . 
+ 

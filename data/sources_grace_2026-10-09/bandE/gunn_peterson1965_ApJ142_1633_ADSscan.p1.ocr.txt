@@ -1,0 +1,55 @@
+NOTES
+
+ON THE DENSITY OF NEUTRAL HYDROGEN
+IN INTERGALACTIC SPACE
+
+Recent spectroscopic observations by Schmidt (1965) of the quasi-stellar source 3C 9,
+which is reported by him to have a redshift of 2.01, and for which Lyman-a is in the
+visible spectrum, make possible the determination of a new very low value for the
+density of neutral hydrogen in intergalactic space. It is observed that the continuum of
+the source continues (though perhaps somewhat weakened) to the blue of Ly-a; the line
+as seen on the plates has some structure but no obvious asymmetry. Consider, however,
+the fate of photons emitted to the blue of Ly-a. As we move away from the source along
+the line of sight, the source becomes redshifted to observers locally at rest in the expan-
+sion, and for one such observer, the frequency of any such photon coincides with the rest
+frequency of Ly-a in his frame and can be scattered by neutral hydrogen in his vicinity.
+The calculation of the size of the effect is very easily performed as follows:
+
+Let us consider a cosmological model with the metric
+
+ds? = d? — R(t) (dv + &(u)dy’) ,
+where
+sin u,
+o(u) = u
+sinh u
+
+depending on the curvature, and dy is the increment in angle.
+The probability of scattering of a photon in a proper length interval d] = R()du at
+
+cosmic time / is clearly
+dp = n(o(v,)d1,
+
+where n(¢) is the number of neutral hydrogen atoms per unit volume at time / (assumed
+uniform for the present) and o(v) is the radiative excitation cross-section for the Ly-a
+transition. This has the form
+
+ov) =" fev—n),
+
+where f is the oscillator strength (here f = 0.416), and g the profile function, which is
+strongly peaked at v = v,, the Ly-a frequency (2.46 X 10" sec), and has unit integral:
+
+J g(s)de=1.
+
+Let the redshift of the object observed be 29, and suppose the redshift of the resonance
+scattering layer as seen from here is z;  < go, and if the observed frequency is »,
+
+ve = v(it+a2)
+
+is the frequency seen by an observer stationary with respect to the scattering layer.
+Thus the total optical depth at v is
+
+& % dl
+p= fdp= f'nti( slot al Faz.
+1633
+
+© American Astronomical Soctety = Provided By the NASA Astrophysics Bats System

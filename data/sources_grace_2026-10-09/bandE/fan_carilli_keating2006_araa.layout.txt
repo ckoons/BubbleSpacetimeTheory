@@ -1,0 +1,4012 @@
+                                       Cosmic Reionization                                                                            1
+
+
+
+
+                                                Observational constraints on Cosmic
+
+                                                                          Reionization
+
+
+
+
+arXiv:astro-ph/0602375v2 22 May 2006
+                                       Xiaohui Fan1 , C.L. Carilli2 , B. Keating3
+
+                                       1 Steward Observatory, University of Arizona, Tucson, AZ 85721;
+
+
+                                       2 National Radio Astronomy Observatory, Socorro, NM, 87801;
+
+
+                                       3 Department of Physics, University of California, San Diego, CA, 92093
+
+
+
+
+                                       Key Words Cosmology – observational; Galaxy formation; cosmic reionization
+
+
+                                       Abstract
+
+                                       Recent observations have set the first constraints on the epoch of reionization (EoR), corre-
+
+                                       sponding to the formation epoch of the first luminous objects. Studies of Gunn-Peterson (GP)
+
+                                       absorption, and related phenomena, suggest a qualitative change in the state of the intergalactic
+
+                                       medium (IGM) at z ∼ 6, indicating a rapid increase in the neutral fraction of the IGM, from
+
+                                       xHI < 10−4 at z ≤ 5.5, to xHI > 10−3 , perhaps up to 0.1, at z ≥ 6. Conversely, transmis-
+
+                                       sion spikes in the GP trough, and the evolution of the Lyα galaxy luminosity function indicate
+
+                                       xHI < 0.5 at z ∼ 6.5, while the large scale polarization of the cosmic microwave background
+
+                                       (CMB) implies a significant ionization fraction extending to higher redshifts, z ∼ 11 ± 3. The
+
+                                       results suggest that reionization is less an event than a process, with the process beginning as
+
+                                       early as z ∼ 14, and with the ’percolation’, or ’overlap’ phase ending at z ∼ 6. The data are
+
+                                       consistent with low luminosity star forming galaxies as being the dominant sources of reionizing
+
+                                       photons. Low frequency radio telescopes currently under construction should be able to make
+
+                                       the first direct measurements of HI 21cm emission from the neutral IGM during the EoR, and
+2                                                                            Fan, Carilli, Keating
+
+upcoming measurements of secondary CMB temperature anisotropy will provide fine details of
+
+the dynamics of the reionized IGM.
+
+
+CONTENTS
+
+
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             3
+
+
+A basic model of reionization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              5
+
+
+Observations of the Gunn-Peterson Effect at z ∼ 6 . . . . . . . . . . . . . . . . . .                  6
+
+    Gunn-Peterson Effect: Basics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        7
+
+    Complete Gunn-Peterson troughs: phase transition or gradual evolution? . . . . . . . .              8
+
+    Estimating the ionization state and the neutral fraction . . . . . . . . . . . . . . . . . .       11
+
+
+Cosmic Strömgren spheres and surfaces . . . . . . . . . . . . . . . . . . . . . . . .                 13
+
+
+Other IGM Probes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               15
+
+    Evolution of metal absorption systems . . . . . . . . . . . . . . . . . . . . . . . . . . .        15
+
+    GRBs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     16
+
+    Evolution of the IGM thermal state . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       17
+
+    Luminosity function and line profiles of Lyα galaxies . . . . . . . . . . . . . . . . . . .        18
+
+
+Cosmic Microwave Background Probes of Reionization . . . . . . . . . . . . . . . .                     20
+
+    The Generation of CMB Polarization and Temperature Anisotropy During the EoR . .                   21
+
+    Current CMB Results and Future Prospects . . . . . . . . . . . . . . . . . . . . . . . .           28
+
+    Observational Challenges     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   30
+
+    Discussion and Future Prospects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        31
+
+
+Sources of Reionization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              34
+
+    Quasars and AGN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        34
+
+    Lyman Break galaxies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       35
+
+    Dusty and big galaxies at high redshift . . . . . . . . . . . . . . . . . . . . . . . . . . .      37
+
+    X-ray photons and decaying sterile neutrios . . . . . . . . . . . . . . . . . . . . . . . .        38
+                 Annu. Rev. Astro. Astrophy. 2005 1           1056-8700/97/0610-00
+
+HI 21cm probes of Reionization . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             39
+
+    The physics of the neutral IGM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     41
+
+    Capabilities to detect HI 21cm signals from reionization . . . . . . . . . . . . . . . . .       43
+
+    Observational challenges . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   49
+
+
+Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            52
+
+
+
+1    Introduction
+
+
+The baryonic pre-galactic medium (PGM) evolves in three distinct phases. At
+
+high redshifts (z > 1100) the PGM is hot, fully ionized, and optically thick to
+
+Thomson scattering, and hence coupled to the photon field. As the universe
+
+expands, the PGM cools, and eventually recombines, leaving a surface of last
+
+scattering (the cosmic microwave background, CMB), plus a neutral PGM. This
+
+neutral phase lasts from z = 1100 to z ∼ 14. At some point between z ∼ 14 and 6,
+
+hydrogen in the PGM is ‘reionized’, due to UV radiation from the first luminous
+
+objects, leaving the fully reionized intergalactic medium (IGM) seen during the
+
+‘realm of the galaxies’ (6 > z > 0). The ionized, dense PGM at very high redshift
+
+has been well studied through extensive observations of the CMB. Likewise, the
+
+reionized, rarified IGM at low redshift has been well characterized through QSO
+
+absorption line studies. The middle phase – the existence of a neutral IGM
+
+during the so-called ‘dark ages’ (Rees 1998), and the process of reionization of
+
+this medium, is the last directly observable phase of cosmic evolution that remains
+
+to be verified and explored. The epoch of reionization (EoR) is crucial in cosmic
+
+structure formation studies, since it sets a fundamental benchmark indicating
+
+the formation of the first luminous objects, either star forming galaxies or active
+
+galactic nuclei (AGN).
+
+
+                                                  3
+4                                                             Fan, Carilli, Keating
+
+    Cosmic reionization has been discussed within the larger context of mostly the-
+
+oretical reviews on the formation of the first luminous objects (Loeb & Barkana
+
+2002; Barkana & Loeb 2001; Ciardi & Ferrara 2005). The past few years have
+
+seen the first observational evidence for a neutral IGM, and the first constraints
+
+on the process of reionization. In this review we do not repeat the theory of
+
+early structure formation, but focus on these recent observations of reionization
+
+and the evolution of the neutral IGM. Such constraints come from optical and
+
+near-IR spectroscopy of the most distant QSOs, and study of galaxy populations
+
+at the highest redshifts, among others. Detections of the IGM Thomson optical
+
+depth come from observations of the large angular scale polarization of the CMB
+
+(Kogut et al. 2003; Spergel et al. 2006; Page et al. 2006”). These measurements
+
+yield a & 3σ detection of polarized emission of the CMB, and future observations
+
+of the small scale CMB anisotropy will complement the large angular scale polar-
+
+ization by probing the fine-details of the reionization epoch. We also review the
+
+potential sources of reionization, including star forming galaxies, AGN, and de-
+
+caying particles. We conclude with a discussion of low frequency radio telescopes
+
+that are being constructed to detect the neutral IGM directly through the 21cm
+
+line of neutral hydrogen.
+
+    We focus our review on the observations of hydrogen reionization. Neutral
+
+helium reionization likely happened at a similar epoch to that of neutral hydrogen,
+
+due to their similar ionization potential and recombination rate. Reionization
+
+of He II happens at a much lower redshift – the He II Gunn-Peterson effect is
+
+observed in the spectrum of quasars at z ∼ 3 (e.g. Jakobsen et al. 1994, Davidsen,
+
+Anderson et al. 1999, Kriss et al. 2001, Shull et al. 2004, Zheng et al. 2004).
+
+Evolution of the IGM temperture (e.g. Ricotti, Gnedin & Shull 2000, Schaye et
+Cosmic Reionization                                                              5
+
+al. 2000, Theuns et al. 2002a,b) also suggest a rapid change of IGM temperture
+
+at z ∼ 3, consistent with the onset of He II reionization. For a detailed recent
+
+review of HeII reionization, see Ciardi & Ferrara (2005).
+
+
+
+2    A basic model of reionization
+
+
+In order to put recent observations in context, we include a brief, mostly qualita-
+
+tive, description of the reionization process. Again, for more extensive reviews of
+
+early structure formation, see Loeb & Barkana (2002) Barkana & Loeb( 2002),
+
+and Ciardi & Ferrara (2005).
+
+    Assuming reionization is driven by UV photons from the first luminous sources
+
+(stars or AGN), analytic (eg. Madau, Haardt, & Rees 1997; Miralda-Escude,
+
+Haenelt, & Rees 2000; Wyithe & Loeb 2003), and numerical (eg. Gnedin 2000;
+
+Razoumov et al. 2002; Sokasian et al. 2003; Ciardi, Stoehr, & White 2004;
+
+Paschos & Norman 2005), calculations suggest that reionization follows a number
+
+of phases. The first phase will be relatively slow, with each UV source isolated
+
+to its own Strömgren sphere. Eventually, these spheres grow and join, leading to
+
+much faster reionization, due to the combination of accelerating galaxy formation,
+
+plus the much larger mean free path of ionizing photons in the now porous IGM.
+
+This stage is known as ‘overlap’, or ‘percolation’. The last phase entails the
+
+etching-away of the final dense filaments in the IGM by the intergalactic UV
+
+radiation field, leading to a fully ionized IGM (neutral fraction, xHI nH ∼ 10−5 ,
+
+at z = 0).
+
+    There are a number of important caveats to this most basic model. First,
+
+causality, cosmic variance, and source clustering will set an absolute minimum
+
+width in redshift for the fast phase of reionization, ∆z > 0.15, and the process
+6                                                              Fan, Carilli, Keating
+
+itself is likely to be much more extended in time (Wyithe & Loeb 2004). In
+
+particular, Furlanetto & Oh (2005) point out that the overlap phase is a rela-
+
+tively local phenomenon, with significant differences along different lines of sight.
+
+Second, the recombination time for the mean IGM becomes longer than the Hub-
+
+ble time at z ≥ 8, allowing for the possibility of complex reionization histories.
+
+As shown by a number of semi-analytical works (e.g., Cen 2003a,b, Chiu et al.
+
+2003, Wyithe & Loeb 2003, Haiman & Holder 2003), adding feedback from an
+
+early generation of galaxy formation, or adjusting star formation efficiency at
+
+z > 6 − 10, will produce a prolonged, or multi-epoch reionization history. Third,
+
+it remains an open question as to whether reionization proceeds from high to low
+
+density regions (inside-out; Ciardi & Madau 2003, Sokasian et al. 2003; Iliev et
+
+al. 2006), or from low to high density regions (outside-in; Miralda-Escude et al.
+
+2000, Gnedin 2000). Forth, a very different picture arises if we assume reioniza-
+
+tion by decaying fundamental particles, or by penetrating hard Xrays from the
+
+first luminous sources. In this case, the reionization process is not localized to
+
+individual Strömgren spheres, but occurs more uniformly throughout the IGM
+
+(§8.4). Lastly, we have been necessarily vague in terms of precise redshifts and
+
+timescales for the various phases – this is the main concern of the present review.
+
+    Throughout this review, we adopt a standard concordance cosmology (Spergel
+
+et al. 2003, Spergel et al. 2006), unless stated otherwise.
+
+
+
+3    Observations of the Gunn-Peterson Effect at z ∼ 6
+
+
+Gunn & Peterson (1965) first proposed using Lyα resonance absorption in the
+
+spectrum of distant quasars as a direct probe to the neutral hydrogen density
+
+in the IGM at high-redshift (see also Field 1959, Shklovsky 1964, Scheuer 1965,
+Cosmic Reionization                                                                              7
+
+Bahcall & Salpeter 1965). For objects beyond reionization, neutral hydrogen
+
+in the IGM creates complete Gunn-Peterson absorption troughs in the quasar
+
+spectrum blueward of Lyα emission. Observations of the Gunn-Peterson effect
+
+directly constrain the evolution of neutral hydrogen fraction and the ionization
+
+state of the IGM.
+
+
+3.1   Gunn-Peterson Effect: Basics
+
+The Gunn-Peterson (1965) optical depth to Lyα photons is
+
+                                       πe2
+                            τGP =           fα λα H −1 (z)nHI ,                                 (1)
+                                       me c
+
+where fα is the oscillator strength of the Lyα transition, λα = 1216Å, H(z) is
+
+the Hubble constant at redshift z, and nHI is the density of neutral hydrogen in
+
+the IGM. At high redshifts:
+                                            −1/2                       3/2 
+                                    Ωm h2             Ωb h2
+                                                                                     
+                            5                                      1+z            nHI
+         τGP (z) = 4.9 × 10                                                                 ,   (2)
+                                    0.13              0.02          7             nH
+
+for a uniform IGM. Even a tiny neutral fraction, xHI ∼ 10−4 , gives rise to
+
+complete Gunn-Peterson absorption. This test is only sensitive at the end of the
+
+reionization when the IGM is already mostly ionized, and saturates for the higher
+
+neutral fraction in the earlier stage.
+
+  At z < 5, the IGM absorption is resolved into individual Lyα forest lines;
+
+their number density increases strongly with redshift (N (z) ∝ (1 + z) 2.5 , see
+
+Rauch 1998). Earlier attempts to study Gunn-Peterson absorption concentrated
+
+on measuring the amount of flux between individual Lyα forest lines using high-
+
+resolution spectroscopy to place limits on the diffuse neutral IGM. Webb et al.
+
+(1992) and Giallongo et al. (1994) found τ < 0.05 at z ∼ 4. Songaila et al.
+
+(1999) and Fan et al. (2000) place upper limits of τ = 0.1 and 0.4 based on lack
+8                                                            Fan, Carilli, Keating
+
+of complete Gunn-Peterson troughs in SDSS J0338+0021 (z = 5.00) and SDSS
+
+J1044–0125 (z = 5.74), respectively. However, at z > 5, even with a moderately
+
+high resolution spectrum, Lyα forest lines overlap severely, making it impossible
+
+to find a truly ”line-free” region.
+
+    A more accurate picture of the IGM evolution interprets the Lyα forest as a
+
+fluctuating Gunn-Peterson effect: absorption arises from low-density gas in the
+
+IGM that is in approximate thermal equilibrium between photoionization heating
+
+by the UV background and adiabatic cooling due to the Hubble expansion, rather
+
+than as discrete Lyα forest clouds (Bi 1993; Cen et al. 1994; Zhang et al. 1995;
+
+Herquist et al. 1996). The neutral hydrogen fraction and therefore the GP optical
+
+depth depends on the local density of the IGM. By studying the evolution of the
+
+average transmitted flux or effective optical depth, one can trace the evolution of
+
+the UV ionizing background and neutral fraction of the IGM. At high-redshift,
+
+the IGM is highly clumpy (Miralda-Escude et al. 2000), which has to be taken
+
+into account in order to estimate the IGM ionization from observations.
+
+
+3.2    Complete Gunn-Peterson troughs: phase transition or grad-
+
+       ual evolution?
+
+The Sloan Digital Sky Survey (SDSS, York et al. 2000) provides large samples
+
+of luminous quasars over 0 < z < 6.5. Fan et al. (2000, 2001, 2003, 2004, 2006a)
+
+carried out a survey of i-dropout quasars (z > 5.7) using the SDSS imaging data,
+
+resulting in the discovery of 19 luminous quasars in this redshift regime (Figure
+
+1). Other multicolor survey projects (e.g, Mahabal et al. 2005; AGES, Cool et
+
+al. 2006; QUEST, Djorgovski et al. 2005; CFHT Legancy survey, Willott et al.
+
+2005) are also searching for quasars at similar redshifts. They provide by far the
+Cosmic Reionization                                                               9
+
+best probes of IGM evolution towards the end of the EoR.
+
+  Songaila (2004) summarized the evolution of transmitted flux over a wide
+
+redshift range (2 < z < 6.3) using high signal-to-noise, moderate-resolution
+
+(R ≥ 5000) observations of 50 quasars. Strong evolution of Lyα absorption
+
+at zabs > 5 is evident, the transmitted flux quickly approaches zero at z > 5.5
+
+(Figure 2). At zabs > 6, complete absorption troughs begin to appear: the
+
+Gunn-Peterson optical depths are >> 1, indicating a rapid increase in the neu-
+
+tral fraction. However, is this evolution the result of a smooth transition due
+
+to gradual thickening of the Lyα forest (e.g. Songaila & Cowie 2002, Songaila
+
+2004)? Or is it a reflection of a more dramatic change in the IGM evolution,
+
+marking the end of reionization (e.g., Djorgovski et al. 2001, Becker et al. 2001,
+
+Fan et al. 2002)?
+
+  Djorgovski et al. (2001) detected an extended dark gap in the spectrum of
+
+SDSS J1044–0125 (z = 5.74), at zabs = 5.2 − 5.6, with τGP > 4.6. The first clear-
+
+cut Gunn-Peterson trough was discovered in the spectrum of SDSS J1030+0524
+
+(z = 6.28, Fan et al. 2001, Becker et al. 2001, Figure 4), which showed complete
+
+Gunn-Peterson absorption at 5.95 < zabs < 6.15 in both Lyα and Lyβ transitions.
+
+A high S/N spectrum presented in White et al. (2003) placed a stringent limit
+
+τGP > 6.3 in Lyα . However, Songaila (2004) suggested that constraints based
+
+on Lyα alone do not deviate from a simple extrapolation from lower redshift by a
+
+large factor, consistent with a relatively smooth evolution in the ionization state.
+
+  The GP optical depth τ ∝ f λ, where f and λ are the oscillator strengh and
+
+rest-frame wavelength of the transition. For the same neutral density, the GP
+
+optical depth of Lyβ and Lyγ are factors of 6.2 and 17.9 smaller than that of
+
+Lyα. Therefore, Lyβ can provide more stringent constraints on the IGM ion-
+10                                                             Fan, Carilli, Keating
+
+ization state when Lyα absorption saturates. Complete Lyβ absorption implies
+
+a significant rise in the neutral fraction towards SDSS J1030+0524. Songaila
+
+(2004) pointed out that in a clumpy IGM, the simple conversion factor of 6.2
+
+between Lyα and Lyβ optical depths is an upper limit. Using high order Lyman
+
+lines requires proper treatment of the clumpy IGM. Oh & Furlanetto (2005) and
+
+Fan et al. (2006b) found τ α /τ β ∼ 2 − 3 and τ α /τ γ ∼ 4 − 6 for a clumpy IGM.
+
+     Fan et al. (2006b) measured the evolution of Gunn-Peterson optical depths
+
+along the line of sight of the nineteen z > 5.7 quasars from the SDSS (Figure 3).
+
+They found that at zabs < 5.5, the optical depth can be best fit as τ ∝ (1 + z)4.3 ,
+
+while at zabs > 5.5, the evolution of optical depth accelerates: τ ∝ (1 + z)>10 .
+
+There is also a rapid increase in the variation of optical depth along different lines
+
+of sight: σ(τ )/τ increases from ∼ 15% at z ∼ 5, to > 30% at z > 6, in which
+
+τ is averaged over a scale of ∼ 60 comoving Mpc. Figure 4 (White et al. 2003)
+
+compares the Gunn-Peterson absorption in the two highest redshift quasars at the
+
+time of this writing: SDSS J1030+0524 (z = 6.28) shows complete absorption.
+
+On the other hand, SDSS J1148+5251 (z = 6.42) shows clear transmission in Lyα
+
+and Lyβ transitions at the same redshift range, clearly indicating that that this
+
+line of sight is still highly ionized (Oh & Furlanetto 2005, White et al. 2005). The
+
+increased variance in the IGM optical depth at the highest redshifts is further
+
+discussed in Songaila (2004), Djorgovski et al. (2005) and Fan et al. (2006b).
+
+     Wyithe & Loeb (2004) and Furlanetto & Oh (2005) pointed out that at the
+
+end of reionization, the size of ionized bubbles grow rapidly. They estimate an
+
+observed bubble size of tens of Mpc at z ∼ 6, and a scatter in the observed
+
+redshift of overlap along different lines-of-sight to be ∆z ∼ 0.15. Wyithe & Loeb
+
+(2005a) further showed that the Gunn-Peterson optical depth variations to be of
+Cosmic Reionization                                                              11
+
+order unity on a scale of ∼ 100 comoving Mpc. The increased variance on the
+
+IGM optical depth supports the interpretation that the IGM is close to the end
+
+of reionization.
+
+  With the emergence of complete Gunn-Peterson troughs at z > 6, it becomes
+
+increasingly difficult to place stringent limits on the optical depth and neutral
+
+fraction of the IGM. Songaila & Cowie (2002) suggested using the distribution of
+
+optically thick, dark gaps in the spectrum as an alternative statistic. Fan et al.
+
+(2006b) examined the distribution of dark gaps with τ > 2.5 among their sample
+
+of SDSS quasars at z > 5.7, and showed a dramatic increase in the average length
+
+of dark gaps at z > 6 (Figure 5), similar to the model prediction of Paschos &
+
+Norman (2005). Gap statistics provides a powerful new tool to characterize the
+
+IGM ionization at the end of reionization (Gallerani et al. 2006, Kohler et al.
+
+2006), and can be sensitive to larger neutral fractions, as they carry higher-order
+
+information than optical depth alone. Songaila & Cowie (2002), Pentericci et al.
+
+(2002), Fan et al. (2002, 2006b) also studied using the distribution function of
+
+transmited fluxes (e.g. Rauch et al. 1997) or statistics of threshold crossing (e.g.
+
+Miralda-Escudé et al. 1996).
+
+
+3.3   Estimating the ionization state and the neutral fraction
+
+Measurements of Gunn-Peterson optical depth can be used to derive the ioniza-
+
+tion state of the IGM, using parameters such as the mean UV ionizing back-
+
+ground, the mean-free-path of UV photons, and neutral hydrogen fractions. The
+
+evolution of Gunn-Peterson absorption is usually described in the context of pho-
+
+toionization. Weinberg et al. (1997) present the basic formalism to use the IGM
+
+optical depth to measure the cosmic baryon density. McDonald et al. (2000) and
+12                                                             Fan, Carilli, Keating
+
+McDonald & Miralda-Escude (2001) expanded this work to study the evolution
+
+of the ionizing background at z < 5.2 by comparing the observed transmitted
+
+flux to that of artificial Lyα forest spectra created from cosmological simulations.
+
+Although slightly different in technical details, a number of works (Cen & Mc-
+
+Donald 2002, Fan et al. 2002, Lidz et al. 2002, Songaila & Cowie 2002, Songaila
+
+2004) followed the same formalism to calculate the evolution of the ionizing back-
+
+ground at z > 5 and reached consistent results: from z ∼ 5 to z > 6, there is
+
+an order of magnitude decrease in the UV background and the mean-free-path
+
+of UV photons is shown to be < 1 physical Mpc at z > 6 (Fan et al. 2006b).
+
+This scale is comparable to the clustering scale of star-forming galaxies at these
+
+redshifts (e.g. Kashikawa et al. 2005, Hu et al. 2005, Malhotra et al. 2005).
+
+High-redshift star forming galaxies, which likely provide most of the UV photons
+
+for reionization, are highly biased and clustered at similar physical scales to the
+
+mean free path. The assumption of a uniform UV background is no longer valid.
+
+There is a clear indication of a non-uniform UV background at the end of reion-
+
+ization (Fan et al. 2006b). However, current observations at z > 6 are based on
+
+a handful of quasars. A much larger sample is needed to quantify the variation
+
+of the ionization state.
+
+     Using the same data, Fan et al. (2002, 2006b), Lidz et al. (2002), Cen &
+
+McDonald (2002) find that at z > 6 the volume-averaged neutral fraction of
+
+the IGM has increased to > 10−3.5 . The results are displayed in Figure 6. It is
+
+important to note that this is strictly a lower limit, due to the large optical depths
+
+in the Lyα line. Further, the presence of transmitting pixels and the finite length
+
+of dark gaps in the quasar spectrum can also be used to place an independent
+
+upper limit on the neutral fraction to be < 10 − 30% (Furlanetto et al. 2004, Fan
+Cosmic Reionization                                                              13
+
+et al. 2006b). At higher neutral fraction, the Gunn-Peterson damping wing from
+
+the average IGM (see §4.4) could wipe out any isolated HII region transmissions.
+
+    In summary, the latest work on GP absorption toward the highest redshift
+
+QSOs implies a qualitative change in the nature of Lyα absorption at z ∼ 6,
+
+including: (i) a sharp rise in the power law index for the evolution of GP optical
+
+depth with redshift, (ii) a large variation of optical depth between different lines
+
+of sight, and (iii) a dramatic increase in the number of dark gaps in the spec-
+
+tra. The GP results indicate that the IGM is likely between 10−3.5 and 10−0.5
+
+neutral at z ∼ 6. While saturation in the GP part of the spectrum remains
+
+a challenge, the current results are consistent with conditions expected at the
+
+end of reionization, during the transition from the percolation, or overlap, stage
+
+to the post-overlap stage of reionization, as suggested by numerical simulations
+
+(Paschos & Norman 2005; Gnedin 2000, 2004; Ciardi et al. 2001, Razoumov et al.
+
+2002, Gnedin & Fan 2006). Sources at higher redshift, and estimators sensitive
+
+to larger neutral fractions, are needed to probe deeper into the reionization era.
+
+Wide-field deep near-IR surveys using dedicated 4-meter class telescopes, such as
+
+UKIDSS (Lawrance et al. 2006) and VISTA (McPherson et al. 2004), will likely
+
+discover quasars at z ∼ 8 in the next decade (see also §5.2 for GRB observations).
+
+
+
+4    Cosmic Strömgren spheres and surfaces
+
+
+Luminous quasars produce a highly ionized HII region around them even when
+
+the IGM is still mostly neutral otherwise. The presence of (time bounded) cos-
+
+mic Strömgren spheres (CSS) around the highest redshift SDSS QSOs has been
+
+deduced from the observed difference between the redshift of the onset of the GP
+
+effect and the systemic redshift of the host galaxy (White et al. 2003; Wyithe &
+14                                                           Fan, Carilli, Keating
+
+Loeb 2004a; Wyithe et al. 2005; Walter et al. 2003). The physical size of these
+
+spheres is typically ∼ 5 Mpc at z > 6, or an order of magnitude larger volume than
+
+the typical spheres expected from clustered galaxy formation (Furlanetto, Zal-
+
+darriaga, & Hernquist 2004), due to the extreme luminosity of the QSOs (∼ 1014
+
+L⊙ ). The size of the Strömgren spheres is determined by the UV luminosity of
+
+the QSO, the HI density of the IGM, and the age of the QSO. Wyithe & Loeb
+
+(2004a) and Wyithe et al. (2005) use QSO demographics, plus the distribution
+
+of CSS sizes, to infer a mean neutral IGM fraction of xHI ≥ 0.1 at z ∼ 6.
+
+     A complementary analysis considers the ‘cosmic Strömgren surface’ around
+
+the z = 6.28 QSO SDSS J1030+0524. Using high quality spectra (see Figure 4),
+
+Mesinger & Haiman (2004) show that the apparent size of the CSS around this
+
+QSO is smaller using the Lyα than the Lyβ line. They attribute this difference to
+
+the damping wing of Lyα , and from this infer an IGM neutral fraction xHI ≥ 0.2.
+
+     However, Oh & Furlanetto (2004) highlight the many significant uncertainties
+
+in both these calculations, including: knowledge of the systemic redshift of the
+
+source, unknown 3D geometry, QSO age distribution, effect of large scale struc-
+
+ture and clustering of ionizing sources around early luminous quasars, and often
+
+noisy spectra taken in a difficult wavelength range. In particular, recombinations
+
+in denser regions can be a significant photon sink, and hence the clumping factor
+
+becomes a key parameter. Yu & Lu (2005) estimate that these factors could result
+
+in up to an order of magnitude uncertainity in the derived neutral fraction. Also,
+
+there remains debate as to whether these techniques measure a mass or a volume
+
+averaged neutral fraction. Fan et al. (2006b) show that over 5.7 < z < 6.4,
+
+the average size of the quasar Strömgren spheres decreases by ∼ 2.5, consistent
+
+with an increase of the neutral fraction by a factor ∼ 15 over this redshift range,
+Cosmic Reionization                                                             15
+
+assuming the Strömgren radius Rs ∝ F (HI)−1/3 and other conditions being the
+
+same. Measurements of CSS are sensitive to much larger neutral fraction than
+
+using Gunn-Peterson effect, but are also strongly affected by systematics. More
+
+examples of z > 6 QSOs over a larger range in intrinsic luminosity are required
+
+to verify these calculations.
+
+
+
+5     Other IGM Probes
+
+
+In this section, we describe other IGM probes that are either sensitive to a large
+
+neutral fraction, or could be extended to higher redshift in the near future.
+
+
+5.1     Evolution of metal absorption systems
+
+The early star formation that presumably started cosmic reionization also en-
+
+riched the ISM and IGM with heavy elements. Detailed metal enrichment models
+
+in the early universe are reviewed in Ciardi & Ferrara (2005). Songaila (2001,
+
+2005) and Pettini et al. (2003) found that the total CIV abundance Ω(CIV) does
+
+not significantly evolve over 1.5 < z < 5.5. Schaye et al. (2003) found a lower
+
+bound of [C/H] ∼ −4 even in the underdense regions of the IGM at z < 4. Madau
+
+et al. (2001, see also Stiavelli et al. 2004) found that by assuming massive stars
+
+ionized the Universe with yield from Population II or III stars, the Universe would
+
+have a mean metallicity of ∼ 10−3∼−4 Z⊙ after reionization, comparable to those
+
+found in the high-redshift quasar absorption lines. While these measurements do
+
+not directly constrain the reionization history, they suggest that one could detect
+
+numerous metal absorption lines even at z > 6.
+
+    Furlanetto & Loeb (2003) suggest using observations of low-ionization absorp-
+
+tion lines such as CII or OI to constrain properties of the stellar population that
+16                                                            Fan, Carilli, Keating
+
+ionized the Universe at z > 6, such as star formation efficiency and escape fraction
+
+from supernova winds. To directly constrain the reionization history, Oh (2002)
+
+suggested using OIλ1302 absorption as tracer of the neutral fraction. OI has al-
+
+most identical ionization potentials to H and should be in tight charge exchange
+
+equilibrium with H, while its lower abundance means that it would not saturate
+                                                                
+                                              eff = 10−6     hZi    eff . OI (and
+even when the Universe was mostly neutral: τOI               −2
+                                                           10 Z⊙
+                                                                   τHI
+
+SiIIλ 1260) forests could provide combined constraints on the reionization and
+
+metal enrichment histories. Oh (2002) predicted that a handful of OI lines could
+
+be detected in the Gunn-Peterson trough redshift regions of known z > 6 quasars
+
+when observed at high resolution. Becker et al. (2006) obtained high-resolution,
+
+high S/N spectra of a sample of six quasars at z > 5 using Keck/HERES and
+
+detected OI system up to z = 6.26. They do not find a dense OI forest, consistent
+
+with high degree of IGM ionization at z ∼ 6. However, it is puzzling that the line
+
+of sight of SDSS J1148+5251 (z = 6.42), which has the highest ionization fraction
+
+at z > 6 (§3.3), also has the highest density of OI lines, raising the possibility
+
+that low metalicity, not high ionization, may be the cause for the lack of OI lines.
+
+Detailed modelling of IGM enrichment is needed to inteprete high-redshift metal
+
+line results.
+
+
+5.2    GRBs
+
+Gamma-Ray Bursts (GRBs) are the most powerful explosions in the Universe,
+
+and could be detected at z > 10. At high-redshift, the time dilation means that
+
+their afterglow will fade away (1 + z) times slower, aiding rapid spectroscopic
+
+follow-up observations (e.g. Ciardi & Loeb 2000) to probe the IGM evolution.
+
+GRB afterglow has been detected up to z = 6.30 (SWIFT GRB 050904, Price et
+Cosmic Reionization                                                             17
+
+al. 2005, Tagliaferri et al. 2005, Haislip et al. 2005, Kawai et al., 2006).
+
+  For a largely neutral IGM, τ ∼ 105 , the damping wing of the GP trough
+
+arising from the large GP optical depth of the neutral medium will extend into
+
+the red side of the Lyα emission line (Miralda-Escudé 1998). For z ∼ 6, at
+
+∼ 10Å redward of Lyα of the host galaxy, the optical depth is of order unity for a
+
+neutral IGM. However, this GP damping wing test cannot be applied to luminous
+
+quasars, due to the proximity effect from the quasar itself, as shown by Madau &
+
+Rees (2000) and Cen & Haiman (2000) and discussed in §4. Absorption spectra
+
+of GRBs, however, are not affected by the proximity effect and can be used to
+
+probe the existence of damping wings and measure IGM neutral fractions up to
+
+order of unity. However, strong internal absorption from the neutral hydrogen
+
+of the ISM (log N(HI) > 21) in the host galaxy appears to be ubiquitous among
+
+GRB afterglow spectra (e.g., Chen et al. 2005). Such internal absorption, or gas
+
+infall in the host galaxy environment (Barkana & Loeb 2004), will complicate
+
+the interpretation of GRB observations. At large distance from line center, the
+
+damping wing from a diffused IGM has a profile τ ∝ ∆ν −1 , instead of τ ∝ ∆ν −2
+
+for a discrete absorber. Totani et al. (2006) fit a Lyα absorption profile of GRB
+
+050904 (z = 6.30) with contributions from the internal damped Lyα absorption
+
+and the diffuse IGM damping wing simultaneously, and obtain a conservative
+
+limit on the IGM neutral fraction xHI < 0.6.
+
+
+5.3   Evolution of the IGM thermal state
+
+Reionization will photo-heat the IGM to several times 104 K. After this episode,
+
+the IGM will gradually cool mostly due to the Hubble expansion. Because of its
+
+long cooling time, the IGM will retain some of its thermal memory of reioniza-
+18                                                            Fan, Carilli, Keating
+
+tion – earlier reionization leads to a cooler IGM at lower redshifts. Theuns et al.
+
+(2002a) used absorption line width measurements to estimate the IGM temper-
+
+ature at z = 2 − 4, and found an average temperature of ∼ 2.5 × 104 at z ∼ 3.5.
+
+This temperature constrains reionization to be: zreion < 9. Hui & Haiman (2003)
+
+carried out a similar analysis and considered different ionizing sources and differ-
+
+ent ionization histories. Figure 7 shows their models with different reionization
+
+redshifts and a quasar-like ionizing spectrum. They concluded that for all models
+
+where the Universe was ionized at z > 10, and remained ionized thereafter, the
+
+IGM would have reached an asymptotic temperature too cold compared with ob-
+
+servations. The IGM thermal history measurement requires the ionized fraction
+
+of the IGM to have of order unity changes at late (6 < z < 10) epoch, regardless of
+
+whether there is a very early episode of reionization. This independent constraint
+
+on the reionization history is consistent with Gunn-Peterson measurements, and
+
+it points to a rapid ionization transition at low redshift. However, this is a dif-
+
+ficult observation, and the interpretation of IGM temperture evolution may be
+
+further complicated by IGM heating during HeII reonization at lower redshift,
+
+(e.g., Sokasian et al. 2002).
+
+
+5.4   Luminosity function and line profiles of Lyα galaxies
+
+Surveys of galaxies with strong Lyα emission lines through narrow-band imaging
+
+in selected dark windows of the night sky OH emission forest have proven to
+
+be a powerful technique for discovering the highest redshift galaxies (e.g., Hu et
+
+al. 2002, 2004, Kodaira et al. 2003, Rhoads et al. 2003, Malhotra & Rhoads
+
+2004, Tran et al. 2004, Kurk et al. 2004, Santos et al. 2004, Martin & Sawicki
+
+2004, Taniguchi et al. 2005). At the time of this writing, > 100 Lyα galaxies
+Cosmic Reionization                                                             19
+
+candidates have been found at z ∼ 6.5, including > 30 with spectroscopic con-
+
+firmations, plus the most distant galaxy with a confirmed spectroscopic redshift,
+
+SFJ J132418.3+271455 at z = 6.589 (Ajiki et al. 2003). Currently, ambitious
+
+surveys of Lyα galaxies at even higher redshift, through windows in the near-IR,
+
+are underway (e.g. Barton et al. 2004, Horton et al. 2004).
+
+  Lyα galaxies represent a significant fraction of star forming galaxies at high
+
+redshift (Bouwens et al. 2006). Properties of Lyα galaxies directly probe the
+
+IGM neutral fraction. As described above, in a largely neutral IGM, the Gunn-
+
+Peterson damping wing extends to the redside of Lyα emission. Without a large
+
+Strömgren sphere, the intrinsic Lyα emission will be considerably attenuated. In
+
+the simplest picture, one predicts: (1) the Lyα galaxy luminosity function will
+
+decrease sharply in an increasingly neutral IGM, even if the total star formation
+
+rate in the Universe remains roughly constant, and (2) the Lyα profiles will have
+
+a stronger red wing and a smaller average equivalent width before the onset of
+
+reionization.
+
+  Malhotra & Rhoads (2004) and Stern et al. (2004) combined the LALA survey
+
+of Lyα galaxies (Rhoads et al. 2003) with other Lyα surveys in the literature
+
+to determine the luminosity function of Lyα galaxies at z = 6.5 and 5.7. They
+
+found no evolution between these two redshift bins, consistent with the IGM
+
+being largely ionized by z ∼ 6.5 (Figure 8). Hu et al. (2005) constructed Lyα line
+
+profiles at z = 6.5 and 5.7 from their surveys using Keck and Subaru, and found
+
+a similar lack of evolution. The interpretations of these results, however, require
+
+more detailed modelling. Haiman (2002), Santos (2004), Cen et al. (2005) showed
+
+that the local HII regions around Lyα galaxies reduce the attenuations of Lyα
+
+flux. Gnedin & Prada (2004), Wyithe & Loeb (2005b), Cen (2005) and Furlanetto
+20                                                            Fan, Carilli, Keating
+
+et al. (2005) further demonstrated that the clustering of ionizing sources increases
+
+the HII region size and further reduces the attenuation. Haiman & Cen (2005)
+
+estimated that the lack of evolution in the Lyα luminosity function is consistent
+
+with the neutral fraction xHI < 0.25, when no clustering is considered (see also
+
+Malhortra & Rhoads 2005). Including large scale clustering, the constraint on the
+
+IGM neutral fraction becomes less stringent (Furlanetto, Zaldarriago & Hernquist
+
+2005). Santos (2004) showed that the presence of galactic winds may also play
+
+a crucial role in determining the observed Lyα fluxes. Haiman & Cen (2005)
+
+suggest studies of Lyα profiles as a function of luminosity, compared with low-
+
+redshift samples, could provide robust diagnostics to the IGM ionization state.
+
+Furlanetto et al. (2005) showed that at large neutral fraction, only galaxies
+
+in large ionized bubbles can be detected in Lyα, which have larger bias than
+
+individual galaxies. With future large area Lyα surveys, it may be possible
+
+to measure the size distribution of HII regions during reionization in order to
+
+constrain reionization history.
+
+
+
+6    Cosmic Microwave Background Probes of Reionization
+
+
+The Cosmic Microwave Background (CMB) is a rich “fossil record” of the early
+
+universe. The CMB not only reveals the universe’s initial conditions, but also
+
+its structure and dynamics from the time of the CMB’s origin 400,000 years
+
+after the Big Bang to today. A CMB photon arriving in a terrestrial, balloon-
+
+borne, or space-based CMB observatory is encoded with the conditions of the
+
+universe along its 13.7 billion year journey. In particular, since the CMB is the
+
+oldest observable electromagnetic radiation it acts as a backlight, illuminating the
+
+transition from bulk-neutrality to complete reionization. Both the temperature
+Cosmic Reionization                                                            21
+
+anisotropy and polarization of the CMB help reconstruct the details of the EoR.
+
+As we will see, the CMB’s polarization and temperature anisotropy are completely
+
+complementary probes; both in their spatial structure, and in their dependence
+
+on the conditions of the EoR which they probe.
+
+
+6.1   The Generation of CMB Polarization and Temperature Anisotropy
+
+      During the EoR
+
+Thomson scattering produces CMB polarization only when free-electron scatter-
+
+ers are illuminated by an anisotropic photon distribution (Hu & White(1997)).
+
+Moreover, the photon anisotropy, when decomposed into spherical harmonics Yℓ,m
+
+in the rest frame of the electron, must possess a non-zero quadrupole (ℓ = 2) term
+
+– no other contributes due to the orthogonality of the spherical harmonics. Both
+
+free-electrons and anisotropically distributed photons were present during the
+
+transition from complete ionization to the EoR. This epoch produced the pri-
+
+mary CMB polarization signal, referred to as “E-mode” or “gradient mode” ow-
+
+ing to its symmetry properties under parity transformations (Zaldarriaga & Sel-
+
+jak(1997), Kamionkowski et al.(1997)). The anti-symmetric component of CMB
+
+polarization is referred to as “B-mode” or “curl mode” and arises in inflationary
+
+cosmological models which predict a primordial gravitational wave background.
+
+The E-mode polarization anisotropy is produced by the same perturbations which
+
+produce temperature anisotropy and peaks at ≃ 10′ angular scales (or multi-
+
+poles ℓ ≃ 1000) with an amplitude approximately 10% of the CMB temperature
+
+anisotropy at large (> 10◦ ) angular scales.
+
+  We begin this section by briefly reviewing how the EoR produces new CMB
+
+polarization and temperature anisotropy. The physics of CMB polarization and
+22                                                            Fan, Carilli, Keating
+
+anisotropy has been treated in numerous sources. We refer the reader to (Zal-
+
+darriaga & Seljak(1997), Kamionkowski et al.(1997), Hu & White(1997), Dodel-
+
+son(2003)) for analytic and theoretical treatments and (Seljak & Zaldarriaga(1996))
+
+for numerical calculations. Ultimately, the CMB data, in combination with the
+
+21 cm emission and Lyα absorbtion by neutral HI, will allow for a detailed re-
+
+construction of the physics of the EoR.
+
+ 6.1.1     Large Angular Scale CMB Polarization and Reionization
+
+Large-angular scale CMB polarization as a probe of the ionization history of the
+
+universe, has been considered in e.g. (Zaldarriaga(1997), Keating et al.(1998),
+
+Kaplinghat et al.(2003)). The importance of large-angular scale CMB polariza-
+
+tion is that, unlike the 21 cm and Lyα HI-absorption measurements discussed
+
+elsewhere in this review, the polarization of the CMB is sensitive to ionized hy-
+
+drogen (HII) as it is generated by Thomson scattering.
+
+     Reionization produces free-electrons which Thomson-scatter CMB photons,
+
+producing CMB polarization. For angular scales smaller than the horizon at
+
+reionization the scattering damps the CMB temperature in direction n̂ as T ′ (n̂) =
+
+e−τ T (n̂), where τ is the Thomson optical depth. Reionization, therefore, damps
+                                                                ′
+the temperature anisotropy power angular spectrum as CℓT = e−2τ CℓT . The
+
+damping of the temperature power spectrum is degenerate with the primordial
+
+power spectrum’s amplitude, A, for scales smaller than the horizon at last scat-
+
+tering.
+
+     Fortunately, a new feature, e.g. (Zaldarriaga(1997)), in the E-mode power
+
+spectrum develops at large angular scales which breaks the degeneracy between
+
+A and τ . The degeneracy (for the CMB temperature anisotropy) and its breaking
+
+(using CMB polarization) is illustrated in (real-space) in figure 9. Figure 10 shows
+Cosmic Reionization                                                               23
+
+the polarization angular power spectrum associated with these simulations, along
+
+with current observational results (discussed further in 6.2). Note in 10 the new
+
+large-angular scale (low-ℓ) peak which discriminates between models with and
+
+without reionization.
+
+  The polarization anisotropy of the CMB reveals the ionization condition of the
+
+universe in ways which the temperature anisotropy cannot. Following recombi-
+
+nation at z = 1089 ± 1 (3) primordial hydrogen remained neutral until the epoch
+
+of reionization. The term “last-scattering” is only approximately true since we
+
+know that the universe is nearly 100% ionized at present (z = 0). Therefore some
+
+fraction (few to ∼ 10%) of the photons scattered again following decoupling. If
+
+reionization was instantaneous, only the primordial temperature quadrupole at
+
+the “last-scattering surface” (z ≃ 1100) projected to the redshift of reionization
+
+contributes to the CMB polarization at the < 1µK level (at > 10◦ scales). This
+
+reionization feature has been detected by WMAP and is interpreted as a detec-
+
+tion of τ = 0.10 ± 0.03, or τ = 0.09 ± 0.03 when all six cosmological parameters
+
+are fit to all of the WMAP data (TT,TE,EE)(page) .
+
+  Whereas CMB temperature anisotropy is generated by processes occurring af-
+
+ter reionization (e.g., gravitational redshifts due to matter inhomogeneity along
+
+the line of sight – the Integrated Sachs-Wolfe (ISW) effect), the large-scale po-
+
+larization of CMB is not similarly affected. The large-scale CMB polarization is
+
+a cleaner and more precise probe of the onset of the reionization epoch than the
+
+anisotropy for two reasons. The first is that the ratio of the polarized intensity to
+
+the total intensity is unchanged when the CMB propagates through an absorb-
+
+ing medium (such as the post-reionization intergalactic plasma) – both polariza-
+
+tion components are attenuated equally. The second is that both polarization
+24                                                             Fan, Carilli, Keating
+
+components incur equal gravitational redshifts (blueshifts) when climbing out of
+
+(falling into) time-varying gravitational potential wells from last-scattering to to-
+
+day since gravity cannot distinguish between the two linear polarization states.
+
+This is equivalent to asserting that CMB polarization does not experience the
+
+ISW effect, and so the low-multipole E-mode spectrum is not contaminated by
+
+the ISW effect.
+
+     High precision observations of the large-scale polarization will reveal more of
+
+the EoR’s details. The polarization power spectra are sensitive to the dura-
+
+tion of reionization. With upcoming observations the dynamics of the EoR can
+
+be constrained, complementing 21 cm observations (§8), by providing (modest)
+
+redshift information; most notably regarding the transition from partial to to-
+
+tal reionization by constraining xHI (z) – difficult using 21 cm data alone. This
+
+would be a powerful probe of “double reionization” models(?). A cosmic vari-
+
+ance limited experiment, with sufficient control over instrumental systematics
+
+and foregrounds, can distinguish the transition from partial to total reionization
+
+using details of the polarization power spectra (Kaplinghat et al.(2003), Holder
+
+et al.(2003)). Kaplinghat et al. show that large-scale CMB polarization can
+
+constrain the redshift of the transition from partial to total reionization with
+                        √
+precision σzri = 333στ / zri , where στ is the precision with which the experi-
+
+ment measures the optical depth. Upcoming measurements, such as Planck, will
+
+produce percent-level constraints on partial reionization or double reionization
+
+scenarios and discriminate between models with identical τ , but very different
+
+ionization histories(Kaplinghat et al.(2003)).
+
+     Reionization also produces a new low-ℓ peak in the B-mode polarization pat-
+
+tern, which is absent in models without reionization. Even a modest ioniza-
+Cosmic Reionization                                                             25
+
+tion fraction increases the observability of the B-mode (curl-mode) polariza-
+
+tion. This is significant because gravitational lensing of large scale structure
+
+converts E-mode power into B-mode power (Zaldarriaga & Seljak(1998), Hu &
+
+Okamoto(2002)). This contaminant increases with increasing multipoles up to
+
+ℓ ∼ 1000. With the new, low-ℓ structure, a more stringent limit on the inflationary-
+
+generated gravitational wave background can be obtained than would be possible
+
+without reionization(Kaplinghat, Knox and Song (2003)).
+
+ 6.1.2   Small Angular Scale CMB Polarization and Reionization
+
+Because even the primary CMB polarization is so small, observing effects to sec-
+
+ond order in τ or distinguishing the details of the Strömgrensphere percolation
+
+process is extremely challenging using CMB polarization. Fortunately, the small
+
+angular scale CMB anisotropy will provide a rich data set with vital information
+
+on the fine-details of the reionization epoch.
+
+6.1.3    The effects of reionization on CMB temperature anisotropy
+
+CMB polarization probes the onset of reionization and distinguishes partial reion-
+
+ization from complete, but it cannot probe the details of the ionization perco-
+
+lation process as it is sensitive to the integrated Thomson optical depth to the
+
+last scattering surface. In fact, the reionization details which can be provided
+
+by large scale polarization is known to be limited by cosmic variance (Hu &
+
+Holder 2003) and the smoothing inherent in large scale polarization measure-
+
+ments. Fortunately, the CMB temperature anisotropy at small angular scales
+
+may reveal many of these interesting features (?, Gruzinov & Hu (1998), Knox et
+
+al.(1998), Haiman & Knox(1999), Barkana & Loeb 2001, Santos et al. 2003, Zahn
+
+et al.(2005)). Thus, both the bulk and fine details of reionization will be probed
+
+by the complementary measurements of large-scale CMB polarization anisotropy
+26                                                             Fan, Carilli, Keating
+
+and small-scale temperature anisotropy observations.
+
+     In non-instantaneous models of reionization (due to discrete ionizing sources),
+
+reionization proceeds in a “patchy” manner where the Strömgrenspheres of ion-
+
+ized hydrogen surrounding the sources eventually coalesce to produce the fully-
+
+ionized universe observed out to z ∼ 6. This patchiness induces secondary CMB
+
+temperature anisotropy (?, Gruzinov & Hu (1998), Knox et al.(1998), McQuinn
+
+et. al. (2005)). In addition to the damping of the CMB temperature anisotropy
+
+power spectrum, there are two interesting secondary temperature anisotropy ef-
+
+fects: 1) the kinetic Sunyaev-Zel’dovich effect (kSZ) and 2) the Ostriker-Vishniac
+
+effect (OV).
+
+     The kSZ effect is due to the motion of regions of reionized electrons along
+
+the line of sight. It is similar to the kinematic SZ effect produced by inverse
+
+Compton scattering of the CMB by electrons in moving galaxy clusters (Sunyaev
+
+& Zeldovich(1980)), but here it refers to the motions of the ionized electrons in
+
+the pre-galactic medium (PGM) during the EoR. At very small angular scales
+
+(< 4′ ) the primary CMB anisotropy signal is damped due to photon diffusion out
+
+of overdense regions (Silk damping) prior to decoupling. Here the thermal SZ
+
+effect dominates over the primary CMB anisotropy, but at the thermal SZ null
+
+(218 GHz) the EoR kSZ effect may be the dominant source of CMB temperature
+
+anisotropy.
+
+     During reionization, electron spatial inhomogeneity can arise in two ways: ei-
+
+ther by a variable ionization fraction, xi , of by a constant xi and a variable
+
+baryon density. This effect is the OV effect which is primarily generated by
+
+structures in the non-linear regime, i.e., at low-z. The OV effect is the result of
+
+a “patchy” reionzed medium. Much progress has been made due to the devel-
+Cosmic Reionization                                                               27
+
+opment of fast structure formation codes (e.g., smooth particle hydrodynamics
+
+– SPH) which trace the reionization mechanism (since they trace the formation
+
+of baryonic structures). The reionization efficiency of the baryonic structures is
+
+the only free parameter, and many of these approaches, e.g., Zahn et al. (2005)
+
+incorporate semi-analytic reionization models into their simulations. Using an
+
+extended Press-Schechter formalism to model the reionization process Zahn et
+
+al. (2005) find that patchy reionization makes a large contribution to the CMB
+
+anisotropy at scales of 6′ (ℓ ∼ 2000) which exceeds the kSZ effect. In fact, ignor-
+
+ing these secondary, EoR effects will lead to significant biases in the estimation of
+
+cosmological parameters derived from the primary CMB anisotropy, which fur-
+
+ther underscores vital importance of their measurement (Santos et al. 2003,Zahn
+
+et al.(2005)).
+
+  Both the kSZ effect and the OV effects occur at small scales (< 0.1◦ , ℓ > 2000)
+
+and probe both the homogeneity and efficiency of the reionization process. The
+
+shapes of the predicted temperature anisotropy power spectra for these secondary
+
+effects appear to be robust to changes in the reionization model (Knox(2003),
+
+Santos et al. 2003, Zahn et al.(2005)), though the peak-position of the secondary
+
+power spectra occurs when xHI ∼ 0.5, which is model-dependent (Furlanetto et
+
+al. 2005a). In contrast, the overall amplitude of the secondary spectra appears to
+
+be significantly model-dependent. However, the amplitude depends only weakly
+
+on the epoch of reionization and more strongly on the duration of the patchy
+
+phase, making it complementary to the CMB polarization measurements of the
+
+optical depth(McQuinn et. al. (2005)). For completeness we close this subsection
+
+on secondary effects by mentioning that both the polarized kSZ and OV effects are
+
+expected to be nearly negligible and practically impossible to measure(Seshadri
+28                                                            Fan, Carilli, Keating
+
+& Subramanian (1998), Hu (2000))
+
+
+6.2      Current CMB Results and Future Prospects
+
+The first detection of reionization phenomena using CMB observations came
+
+with NASA’s Wilkinson Microwave Anisotropy Probe (WMAP) which reported
+
+a nearly 5σ detection of a reionization feature in the large angular scale (> 10◦ )
+
+temperature-polarization cross-correlation function (hT Ei) with only a single year
+
+of data(Kogut et al.(2003)). This detection was the first use CMB polariza-
+
+tion to measure the physics of the EoR. It also was the first detection of the
+
+Thomson optical depth, τ , rather than the lower limits (provided by Lyα mea-
+
+surements) or upper limits (provided by CMB temperature anisotropy measure-
+
+ments). WMAP’s initial detection of τ in 2003 using the TE-data and subsequent
+
+detection using the E-mode polarization only (page) also determines the primor-
+
+dial power spectrum amplitude A, σA ≃ 2στ (3). WMAP’s detection illustrates
+
+CMB polarization’s power to probe vitally important cosmological parameters
+
+that are essentially unobservable using temperature anisotropy alone.
+
+     WMAP’s three-year data set (page) reports several detections of the E-mode
+
+and temperature-polarization cross-correlation power spectrum, especially at low-
+
+ℓ (due to WMAP’s ability to map most of the sky). CBI, DASI, and BOOMERANG(Piacenti
+
+et al.(2005)) have also detected the hT Ei cross-correlation spectrum, at smaller
+
+angular scales than WMAP. WMAP’s first-year results are relatively robust to
+
+the choice of additional data sets and priors used to constrain cosmological pa-
+
+rameters (including τ ), such as SDSS ((Tegmark et al.(2004))) and Lyα forest
+
+measurements (Seljak et al.(2005)).
+
+     In figures 10 and 11 observational CMB polarization and temperature-polarization
+Cosmic Reionization                                                             29
+
+cross-correlation power spectra are shown for the angular scales relevant for prob-
+
+ing the EoR. The primary effects of reionization are encoded in the E-mode
+
+autocorrelation and temperature polarization cross-correlation power spectra at
+
+ℓ . 50. As demonstrated in, e.g., (Zaldarriaga(1997), Hu & Holder 2003, Keating
+
+& Miller (2005)) essentially all the information on τ comes from ℓ < 50. While
+
+most of the τ -constraint comes from ℓ < 10, a non-negligible amount comes from
+
+10 < ℓ < 40. Currently, only WMAP(page) and BOOMERANG(Montroy et
+
+al.(2005)) have detected E-mode polarization at angular scales greater than 1◦
+
+(ℓ < 200), and only WMAP has detected the E-mode polarization for ℓ < 100.
+
+CBI(Readhead et al.(2004)) and CAPMAP(Barkats et al.(2005)) have detected
+
+the E-mode polarization, though at smaller angular scales (higher ℓ) than are
+
+relevant for probing the EoR with CMB polarization alone.
+
+  While no detections of the kSZ or OV effects have been reported, several groups
+
+have published detections of CMB anisotropy at scales which are relevant to both
+
+secondary temperature effects. For 3000 < ℓ < 10000, the kSZ temperature
+
+anisotropy power spectrum scales roughly as Cl (Ωb h)2 σ8p where 3 < p < 7 (see
+
+e.g. (Zhang et al.(2004))). (Dawson et al.(2002)) report a detection of CMB
+
+anisotropy at sub-arcminute (ℓ ≃ 7000) scales using the BIMA array and (Read-
+
+head et al.(2004b)) report a detection at larger (few-arcminute) scales using CBI.
+
+The results of the two groups are consistent, and seem to indicate significant
+
+power in excess of the CMB primary anisotropy at those scales. Both groups
+
+speculate on the likelihood that this excess structure is due to the thermal SZ
+
+effect. While neither group has detected the kSZ or OV effects, they are valuable
+
+technological and methodological precursors for future CMB anisotropy measure-
+
+ments of the EoR.
+30                                                            Fan, Carilli, Keating
+
+6.3      Observational Challenges
+
+A hallmark of CMB experiments since the detection of the CMB has been the mit-
+
+igation and excision of systematic effects. CMB observations have gone to great
+
+lengths to combat systematic effects, including building duplicate telescopes (e.g.
+
+the COBE and WMAP satellites). Another method of improving experimental
+
+fidelity is to conduct extremely wide-band observations for foreground monitor-
+
+ing and removal. For example, WMAP has radiometers covering more than two
+
+octaves in frequency(Jarosik et al.(2003)), and Planck’s radiometers will cover
+
+nearly five octaves(Lamarre et al.(2003), Mennella et al.(2004)).
+
+     Particularly for the large scale E-mode polarization, measuring the CMB with
+
+multiple frequency channels alone is not sufficient. To overcome statistical (cos-
+
+mic) variance on the low-ℓ CℓE peak, an experiment must observe a large survey
+
+region – at least ∼ 30◦ × 30◦ . Such a large area is likely to be contaminated
+
+by galactic emission, which can only be subtracted to finite precision. The
+
+most conservative approach to deal with galactic foregrounds is to exclude re-
+
+gions of strong foreground emission (such as the galactic plane) from the survey.
+
+For example, the WMAP team used multiple frequency channels in combina-
+
+tion with sky-cuts that removing 15% of the sky surrounding the galactic plane
+
+(Kogut et al.(2003)) and introduced correlations between multipoles at the few
+
+percent-level. Even with sophisticated foreground modelling and multiple fre-
+
+quency coverage the challenges of achieving polarization fidelity at the 100 nK
+
+level over > 10◦ angular scales – required, for example, to detect the signatures of
+
+non-instantaneous reionization scenarios (e.g, (Kaplinghat et al.(2003), Holder et
+
+al.(2003))) – are daunting. The CMB community is well aware of the challenge;
+
+see for example, the CMB Task Force Committee report (Weiss et al.(2005)).
+Cosmic Reionization                                                            31
+
+  Observational challenges for secondary temperature anisotropy (kSZ and OV)
+
+measurements include point sources, primary CMB confusion, secondary CMB
+
+confusion due to gravitational lensing and the thermal SZ effect. To detect the
+
+secondary effects, the primary CMB anisotropy must be overcome by measuring
+
+at scales smaller than the Silk damping scale, requiring large (> 5 m class) tele-
+
+scopes. Of the foregrounds for the kSZ and OV effects, the thermal SZ effect
+
+is perhaps the most straightforward to mitigate – by measuring at the thermal
+
+SZ-null near 218 GHz. At small scales, point sources need to be excised based
+
+on ancillary measurements of their spectra and position. There are also signifi-
+
+cant hurdles to overcome in the theoretical modelling of the secondary temper-
+
+ature effects. In particular, separating the low-z OV effect from high-z patchy
+
+reionization effects will be challenging, though hopefully amenable to theoretical
+
+modelling and simulation.
+
+  Since galactic foregrounds and point sources contribute to spurious polariza-
+
+tion and anisotropy with different systematics, combining the large angular CMB
+
+polarization observations with the small scale temperature anisotropy measure-
+
+ments represents the most promising avenue towards a faithful reconstruction of
+
+the EoR using the CMB.
+
+
+6.4   Discussion and Future Prospects
+
+WMAP’s on-going measurements of CMB polarization are expected to continue
+
+until at least 2007. Planck is expected to be launched in 2008 and will start mak-
+
+ing full-sky observations of the polarization and primary temperature anisotropy
+
+of the CMB. Planck is expected to achieve a nearly cosmic variance limited
+
+measurement of τ . A balloon-borne CMB polarimeter called EBEX (Oxley et
+32                                                               Fan, Carilli, Keating
+
+al.(2005)) will cover a large region of the sky in an attempt to measure the sig-
+
+nature of gravitational waves imprinted on the CMB.
+
+     More reionization information will emerge from CMB B-mode polarization ob-
+
+servations, which search for the imprint of primordial gravitational radiation on
+
+the CMB. Like the E-mode polarization reionization signature, the B-mode po-
+
+larization peaks at super-degree scales so the upcoming experiments optimized
+
+to search for the B-mode signal will have appreciable sensitivity to reionization
+
+features in the E-mode spectrum (Keating & Miller (2005)).
+
+     An ancillary benefit of reionization is that it boosts the primary (inflation gen-
+
+erated) B-mode power spectrum significantly near ℓ = 10. Due to reionization,
+
+a tighter limit on the tensor-to-scalar ratio, r, in the presence of gravitational
+
+lensing (at redshifts z < 10) can be obtained than that calculated in (Knox &
+
+Song(2002), Kesden et al.(2002)). Kaplinghat, Knox & Song (Kaplinghat, Knox
+
+and Song (2003)) demonstrate that the minimum detectable inflationary energy
+
+scale behaves as 1/τ 4 due to the low-ℓ B-mode power spectrum peak produced by
+
+reionization. This motivates very wide-field, or full-sky, observations of CMB po-
+
+larization. NASA’s Beyond Einstein initiative features a CMB polarimeter called
+
+“CMBPol”1 . This instrument is designed to detect the signature of inflationary
+
+gravitational waves over a wide range of inflationary energy scales. This experi-
+
+ment will achieve cosmic variance limited precision on τ , which is essentially the
+
+same as Planck’s sensitivity (Kaplinghat et al.(2003)), but in contrast to Planck,
+
+CMBPol will be optimized to detect CMB polarization.
+
+     Three large-format bolometric array telescopes are currently being developed
+
+to probe CMB temperature anisotropy and the kSZ and OV effects. The Atacama
+     1
+         http://universe.nasa.gov/program/inflation.html
+Cosmic Reionization                                                            33
+
+Cosmology Telescope (ACT, (Kosowsky(2003))) is a 6 m telescope operating in
+
+three frequency bands (145, 225, and 265 GHz) with ≃ 1′ angular resolution.
+
+With concordance cosmological parameters, ACT should be able to constrain the
+
+redshift of reionization to percent-level accuracy (Zhang et al.(2004)). The South
+
+Pole Telescope (SPT, Ruhl et al. 2004) is a 10 m telescope operating in 5 bands
+
+from 100 to 345 GHz with angular resolution ranging from 1.5′ to ≃ 0.5′ . Finally,
+
+the largest CMB anisotropy telescope which will be sensitive to secondary CMB
+
+temperature anisotropy is the 12 m Atacama Pathfinder EXperiment (APEX)
+
+which will use a 320 pixel array of transition edge sensor (TES) bolometers, also
+
+from a high altitude ( 5000 m) observatory in the Chilean Atacama desert. All of
+
+these instruments, with the exception of CMBPol, are scheduled for “first-light”
+
+before 2010.
+
+  This section has emphasized the role of the CMB in illuminating the physics of
+
+the EoR. Both the CMB’s polarization and its temperature anisotropy provide a
+
+wealth of reionization data in a fashion that is complementary to the 21 cm and
+
+Lyα observations discussed elsewhere in this review. While the importance of
+
+large-scale CMB polarization to reionization was recognized early-on, its ability
+
+to reveal more than the bulk Thomson optical depth was not initially appreciated.
+
+Now we understand that the polarization and the temperature anisotropy pro-
+
+vide a detailed view of the EoR. In fact, they do so in completely complementary
+
+ways: the polarization reveals the epoch of reionization in a way the temper-
+
+ature anisotropy cannot. Likewise, the CMB’s temperature anisotropy probes
+
+secondary effects to which the polarization is blind. When the new CMB po-
+
+larization and temperature anisotropy observations are combined a high-fidelity
+
+image of the EoR will emerge.
+34                                                                     Fan, Carilli, Keating
+
+7     Sources of Reionization
+
+
+Regardless of the detailed reionization history, the IGM has been almost fully
+
+ionized since at least z ∼ 6. This places a minimum requirement on the emissiv-
+
+ity of UV ionizing photons per unit comoving volume required to keep up with
+
+recombination and maintain reionization (Miralda-Escudé et al. 2000):
+                                                                    3            2
+                                                                           Ωb h2
+                                                        
+                        51.2 −1     −3       C                1+z
+           Ṅion (z) = 10   s     Mpc                 ×                                 ,   (3)
+                                             30                6           0.02
+
+            hn2 i
+where C ≡ hnHHi2 is the clumping factor of the IGM. It is difficult to determine
+
+C from observations, and has large uncertainty when estimated from simulations
+
+(C = 10 − 100, Gnedin & Osteriker 1997). At z < 2.5, the UV ionizing back-
+
+ground is dominated by quasars and AGN (e.g. Haardt & Madau 1996). At
+
+z > 3, the density of luminous quasars decreases faster than that of star-forming
+
+galaxies, and the ionizing background has an increased contribution from stars
+
+(e.g. Haehelt et al. 2001). In this section we summarize what is known about the
+
+ionizing background contribution from quasars and AGN, young stars, or other
+
+sources of high energy photons (e.g. particle decay).
+
+
+7.1    Quasars and AGN
+
+Quasars and AGN are effective emitters of UV photons. The UV photon escape
+
+fraction is generally assumed to be of order unity. The UV photon emissivity from
+
+quasars and AGN can be directly measured from integrating quasar luminosity
+
+functions at high-redshift. The density evolution of luminous quasars (M1450 <
+
+−27) has been well-determined from surveys such as SDSS (e.g. Warren et al.
+
+1994, Kennefick et al. 1995, Schmidt et al. 1995, Fan et al. 2001a, b, 2004,
+
+Richards et al. 2005) up to z ∼ 6. Luminous quasar density declines exponentially
+Cosmic Reionization                                                                    35
+
+towards high-redshift: it is ∼ 40 times lower at z ∼ 6 than at its peak at z ∼ 2.5.
+
+However, quasars have a steep luminosity function at the bright end – most of the
+
+UV photons come from the faint quasars that are currently below the detection
+
+limit at high-redshift.
+
+  Fan et al. (2001b) showed that quasars could not have maintained IGM ion-
+
+ization at z ∼ 6, as far as the shape of the luminosity function at z ∼ 6 is not
+
+much steeper than that at z < 3. In fact, Fan et al. (2001a) and Richards et al.
+
+(2005) used the SDSS sample to find that at least the bright end slope of quasars
+
+at z > 4 are considerably flatter than that at low-redshift, consistent with the
+
+findings of the COMBO-17 survey (Wolf et al. 2003). Miralda-Escudé (2003),
+
+Yan & Windhorst (2004a) and Meiksin (2005) used different parameterizations of
+
+quasar luminosity function evolution and came to the same conclusion. Willott et
+
+al. (2005) and Mahabal et al. (2005) present surveys of a few deg2 for faint z ∼ 6
+
+quasars. Their detection of only one z ∼ 6 faint QSO implies that the quasar
+
+population contribution to the ionizing background is < 30% that of star-forming
+
+galaxies.
+
+
+7.2   Lyman Break galaxies
+
+Due to the rapid decline in the AGN populations at very high z, most theoretical
+
+models assume stellar sources reionized the universe. However, despite rapid
+
+progress, there is still considerable uncertainty in estimating the total UV photon
+
+emissivity of star-forming galaxies at high-redshift. Modifying the constraint from
+
+Equation 4, Bunker et al. (2004) and Bouwens et al. (2005) showed:
+                                                                           3
+                                                   1           C        1+z
+             ρ˙∗ ≈ (0.026 M⊙ yr−1 Mpc−3 )                                          .   (4)
+                                                fesc,rel       30        7
+36                                                           Fan, Carilli, Keating
+
+where ρ˙∗ is the UV star formation rate rate, C30 is the IGM clumping fac-
+
+tor, fesc,rel is the fraction of ionizing radiation escaping into the intergalactic
+
+medium to that escaping in the U V -continuum (∼ 1500Å). The uncertainties
+
+come from three factors: the star formation rate, clumping factor, and UV es-
+
+cape factor. Current estimates of the star formation rate at z ∼ 6 all come from
+
+photometrically-selected i-dropout objects selected in a small number of deep
+
+fields observed by the HST: the HUDF (Beckwith et al. 2005 in preparation),
+
+GOODS fields (Giavalisco et al. 2004), and UDF ACS Parallels (Thompson et
+
+al. 2005). These estimates are affected strongly by sample (or cosmic) variance
+
+at z ∼ 6 due to the small volume of deep surveys, as well as estimates or extrap-
+
+olations towards faint luminosities. The clumping factor is typically taken from
+
+cosmological simulations (e.g. C ∼ 30, Gnedin & Osteriker 1997). The UV escape
+
+fraction remains problematic. Direct measurements of the escape fraction range
+
+from upper limits, < 0.1 to < 0.4 (e.g. Giallongo et al. 2002, Fernández-Soto et
+
+al. 2003, Inoue et al. 2005) to > 0.5 (Steidel et al. 2001). Therefore, instead
+
+of measuring the accurate UV photon emissivity, most efforts have been trying
+
+to determine whether star-forming galaxies could provide sufficient photons to at
+
+least meet the requirement in Equation 5 at z ∼ 6.
+
+     Using HUDF data, Yan & Windhorst (2004b) found 108 plausible candidates
+
+at 5.5 < z < 6.5 down to mAB (z) = 30.0 mag. They estimated a steep faint-
+
+end luminosity function with a power-law index of −1.8 to −1.9, and concluded
+
+that this steep slope is sufficient to satisfy the reionization requirement, and
+
+that most of the photons that ionized the universe come from dwarf galaxies.
+
+Similarly, Stiavelli et al. (2004) compared GOODS and HUDF observations and
+
+found that the observed mean surface brightness of galaxies at z ∼ 6 is sufficient
+Cosmic Reionization                                                              37
+
+for reionization when the young stellar population has a top heavy IMF. Bunker
+
+et al. (2004), however, found a much lower star formation density at z ∼ 6 from
+
+the HUDF. Their results showed a factor of 6 decline in star formation rate from
+
+z ∼ 3 to 6. Even using the most optimistic escape faction (f = 1), their results
+
+imply insufficient photons to ionize the Universe by z ∼ 6 from stellar sources.
+
+  Bouwens et al. (2005) combined all the available datasets that include 506
+
+i-dropout (z ∼ 6) galaxy candidates to construct a luminosity function. Figure
+
+12 summarizes the determination of the evolution of star-formation rate at both
+
+the luminous and faint end. The star formation rate begins to decline modestly
+
+at z > 5. The shape of the luminosity function has also evolved significantly
+
+from z ∼ 3 to 6. However, the integrated UV luminosity (down to 0.04 L∗z=3 )
+
+did not evolve significantly. Their results support the previous claim that dwarf
+
+galaxies provide the majority of ionizing photons at z ∼ 6, sufficient to ionize the
+
+Universe.
+
+  Most recently, Kashlinsky et al. (2005) have reported the detection of a sig-
+
+nificant excess in the Spitzer IRAC bands above that expected based on known
+
+galaxy counts. They interpret this excess as being due to population III stars
+
+forming at z > 10. These stars would clearly contribute to early reionization,
+
+although the magnitude of the contribution remains uncertain due to the diffi-
+
+culty of the measurement, and the uncertainty of the origin of this mid-infrared
+
+background.
+
+
+7.3   Dusty and big galaxies at high redshift
+
+Recent observations have revealed two surprising types of galaxies at z > 6.
+
+First, millimeter observations of the host galaxies of the highest redshift QSOs
+38                                                          Fan, Carilli, Keating
+
+reveal large dust masses (∼ 108 M⊙ ) in ∼ 30% of the sources (Bertoldi et al.
+
+2003a). And in one case, J1148+5251 at z = 6.42, millimeter line emission from
+
+CO has been detected, indicating a large molecular gas mass (∼ 2 × 1010 M⊙ ;
+
+Walter et al. 2003, 2004; Bertoldi et al. 2003b). Second, Eyles et al. (2005) and
+
+Mobasher et al. (2005) present Spitzer observations of z ∼ 6−6.5 galaxies. These
+
+objects show SEDs characteristic of post-starburst galaxies, with stellar masses
+
+between 1010 − 1011 M⊙ and stellar ages of several hundred Myrs. Reddening is
+
+also infered by Chary, Stern, & Eisenhardt (2005) in one galaxy, implying a dusty
+
+galaxy (Av ∼ 1). These results require active star formation (> 102 M⊙ year−1 )
+
+starting at z ∼ 8 − 15. These objects are capable of ionizing large volumes at
+
+high-redshift, and could have played an important role in the early reionization
+
+of the IGM, depending on their currently ill-constained space density (Panagia
+
+et al. 2005; Barkana & Loeb 2005c).
+
+
+7.4   X-ray photons and decaying sterile neutrios
+
+High-energy X-ray photons from mini-quasars or supernova remnants at high-
+
+redshift could also contribute significantly to the reionization process (Oh 2001;
+
+Venkatesan et al. 2001; Madau et al. 2004; Ricotti & Ostriker 2004). These
+
+photons have long mean-free-paths, and could pre-ionize the IGM significantly,
+
+providing the optical depth required by WMAP polarization measurement, and
+
+produce a rapid ending of reionization at z ∼ 6 as suggested by the Gunn-Peterson
+
+measurements. However, Dijkstra et al. (2004) and Salvaterra et al. (2005) show
+
+that the hard X-rays from these same sources would produce a present-day soft X-
+
+ray background. They calculate the X-ray background if such photons dominated
+
+the reionization budget, and conclude that models with accreting black holes (a
+Cosmic Reionization                                                              39
+
+combination of luminous and faint AGN) would overproduce the observed X-ray
+
+background by a large factor. A population dominated by mini-quasars could
+
+still partially ionize the IGM at z > 6, but its contribution could be severely
+
+constrained if the X-ray background is further resolved into discrete sources.
+
+    Finally, Hansen & Haiman (2004) proposed reionization by decaying sterile
+
+neutrinos at high-redshift. However, Mapelli & Ferrara (2005) showed that by
+
+satisfying limits on the X-ray, optical and near-IR cosmic background, the total
+
+Thomson optical depth from sterile neutrinos is small, and they could have only
+
+played a minor role in reionization. Chen & Kaminkowski (2003) and Pierpaoli
+
+(2003) show that the number of decays needed to reionize the universe at z ∼ 20
+
+will produce a CMB inconsistent with observations.
+
+    Furlanetto et al. (2004b) show that low frequency observations of the power
+
+spectrum of brightness temperature fluctuations in the HI 21cm line from the
+
+neutral IGM during reionization will be able to differentiate between uniform
+
+versus HII region dominated reionization.
+
+
+
+8    HI 21cm probes of Reionization
+
+
+The 21cm line of neutral hydrogren presents a unique probe of the evolution
+
+of the neutral intergalactic medium (IGM), and cosmic reionization. Furlanetto
+
+& Briggs (2004) point out some of the advantages of using the HI line in this
+
+regard: (i) unlike Lyα (ie. the Gunn-Peterson effect), the 21cm line does not
+
+saturate, and the IGM remains ‘translucent’ at large neutral fractions (Carilli et
+
+al. 2002). And (ii) unlike CMB polarization studies, the HI line provides full
+
+three dimensional (3D) information on the evolution of cosmic structure, and
+
+the technique involves imaging the neutral IGM directly, and hence can easily
+40                                                             Fan, Carilli, Keating
+
+distiguish between different reionization models (Furlanetto et al. 2004b). HI
+
+21cm observations can be used to study the evolution of cosmic structure from
+
+the linear regime at high redshift (ie. density-only evolution), through the non-
+
+linear, ‘messy astrophysics’ regime associated with luminous source formation. As
+
+such, HI measurements are sensitive to structures ranging from very large scales
+
+down to the source scale set by the cosmological Jeans mass, thereby making
+
+21cm the “richest of all cosmological data sets” (Barkana & Loeb 2005b).
+
+     Many programs have been initiated to study the HI 21cm signal from cosmic
+
+reionization, and beyond. The largest near-term efforts are the Mileura Wide
+
+Field Array (MWA2 ), the Primeval Structure Telescope (PAST3 ), and the Low
+
+Frequency Array (LOFAR4 ). These telescopes are being optimized to study the
+
+power spectrum of the HI 21cm fluctuations. The VLA-VHF5 system is designed
+
+specifically to set limits on the cosmic Strömgren spheres around z ∼ 6 to 6.4
+
+SDSS QSOs. In the long term the Square Kilometer Array (SKA6 ) should have
+
+the sensitivity to perform true three dimensional imaging of the neutral IGM in
+
+the 21cm line during reionization. And at the lowest frequencies (< 80 MHz),
+
+the Long Wavelength Array (LWA7 ), and eventually the Lunar array (LUDAR;
+
+Corbin et al 2005; Maccone 2005), are being designed for the higher z HI 21cm
+
+signal from the PGM.
+
+     In this section we summarize the current theories and capabilities for detecting
+
+the neutral IGM during, and prior to, reionization using the HI 21cm line (see
+     2
+         web.haystack.mit.edu/arrays/MWA/LFD/index.html
+     3
+         web.phys.cmu.edu/past/
+     4
+         www.lofar.org/
+     5
+         cfa-www.harvard.edu/dawn/
+     6
+         www.skatelescope.org/
+     7
+         lwa.unm.edu/index.shtml
+Cosmic Reionization                                                            41
+
+also Carilli 2005; Furlanetto, Oh, & Briggs 2006).
+
+
+8.1   The physics of the neutral IGM
+
+The physics of radiative transfer of the HI 21cm line through the neutral IGM
+
+have been considered in detail by many authors (Scott & Rees 1990; Bharadwaj
+
+& Ali 2005; Furlanetto & Briggs 2004; Zaldariagga et al. 2004b; Santos et al.
+
+2005; Tozzi et al. 1999; Madau et al. 1997; Morales 2005). We review only the
+
+basic results here.
+
+  In analogy to the Gunn-Peterson effect for Lyα absorption by the neutral IGM,
+
+the optical depth, τ , of the neutral hydrogen to 21cm absorption for our adopted
+
+values of the cosmological parameters is:
+
+               3c3 ~A10 nHI            xHI                          dv
+        τ=          2         ∼ 0.0074     (1 + δ)(1 + z)3/2 [H(z)/( )],       (5)
+             16kB ν21 TS H(z)           TS                          dr
+
+where A is the Einstein coefficient and ν21 = 1420.40575 MHz (eg. Santos et al.
+
+2005). This equation shows immediately the rich physics involved in studying the
+
+HI 21cm line during reionization, with τ depending on the evolution of cosmic
+
+over-densities, δ (predominantly in the linear regime), the neutral fraction, xHI
+
+(ie. reionization), the HI excitation, or spin, temperature, TS , and the velocity
+
+structure, dv
+           dr , including the Hubble flow and peculiar velocities.
+
+  In the Raleigh-Jeans limit, the observed brightness temperature (relative to
+
+the CMB) due to the HI 21cm line at a frequency ν = ν21 /(1 + z), is given by:
+
+                TS − TCMB                      TCM B
+         TB ≈             τ ≈ 7(1 + δ)xHI (1 −       )(1 + z)1/2 mK,           (6)
+                   1+z                          TS
+
+The conversion factor from brightness temperature to specific intensity, Iν , is
+
+given by: Iν = (λ212k                    −2        −2
+                   (1+z))2 TB = 22(1 + z) TB Jy deg . Equation 6 shows that
+                      B
+
+
+
+for TS ∼ TCM B one expects no 21cm signal. When TS >> TCM B , the brightness
+42                                                              Fan, Carilli, Keating
+
+temperature becomes independent of spin temperature. When TS << TCM B , we
+
+expect a strong negative (ie. absorption) signal against the CMB.
+
+     Tozzi et al. (1999) point out that the HI excitation temperature will equilibrate
+                                        5
+with the CMB on a timescale ∼ 3×10
+                              (1+z) year, in absence of other effects. However,
+
+collisions, and resonant scattering of Lyα photons, can drive TS to the gas kinetic
+
+temperature, TK (Wouthuysen 1952; Field 1959; Hirata 2005). Zygelman (2005)
+
+calculates that, for the mean IGM density, collisional coupling between TS and
+
+TK becomes significant for z ≥ 30. Madau et al. (1997) show that resonant
+
+scattering of Lyα photons will couple TS and TK when Jα > 9 × 10−23 (1 + z) erg
+
+cm−2 s−1 Hz−1 sr−1 , or about one Lyα photon per every two baryons at z = 8.
+
+     The interplay between the CMB temperature, the kinetic temperature, and the
+
+spin temperature, coupled with radiative transfer, lead to a number of interesting
+
+physical regimes for the HI 21cm signal (Ali 2005; Barkana & Loeb 2004; Carilli
+
+2005): (I) At z > 200 equilibrium between TCM B , TK , and TS is maintained
+
+by Thomson scattering off residual free electrons and gas collisions. In this case
+
+TS = TCM B and there is no 21cm signal. (II) At z ∼ 30 to 200, the gas cools
+
+adiabatically, with temperature falling as (1+z)2 , ie. faster than the (1+z) for the
+
+CMB. However, the mean density is still high enough to couple TS and TK , and
+
+the HI 21cm signal would be seen in absorption against the CMB (Sethi 2005).
+
+(III) At z ∼ 20 to 30, collisions can no longer couple TK to TS , and TS again
+
+approaches TCM B . However, the Lyα photons from the first luminous objects
+
+(Pop III stars or mini-quasars), may induce local coupling of TK and TS , thereby
+
+leading to some 21cm absorption regions (Cen 2006). At the same time, Xrays
+
+from these same objects could lead to local IGM warming above TCM B (Chen
+
+et al. 2003). Hence one might expect a patch-work of regions with no signal,
+Cosmic Reionization                                                             43
+
+absorption, and perhaps emission, in the 21cm line. (IV) At z ∼ 6 to 20 all the
+
+physical processes come to play. The IGM is being warmed by hard Xrays from
+
+the first galaxies and black holes (Loeb & Zaldarriaga 2004; Barkana & Loeb
+
+2004; Ciardi & Madau 2003), as well as by weak shocks associated with structure
+
+formation (Furlanetto, Zaldarriaga, & Hernquist 2005; Wang & Hu 2005), such
+
+that TK is likely larger than TCM B globally (Furlanetto et al. 2004b). Likewise,
+
+these objects are reionizing the universe, leading to a fundamental topological
+
+change in the IGM, from the linear evolution of large scale structure , to a bubble
+
+dominated era of HII regions (Furlanetto et al. 2005a).
+
+
+8.2   Capabilities to detect HI 21cm signals from reionization
+
+The HI 21cm signature of the neutral IGM during, and prior to, reionization can
+
+be predicted analytically, using a standard Press-Schechter type of analysis of
+
+linear structure formation, plus some recipes to approximate non-linear evolution
+
+(Santos et al. 2005; Zaldariagga et al. 2004a; Ali 2005; Bharadwaj & Ali 2005;
+
+Wang & Hu 2005; Gnedin & Shaver 2004), or through the use of numerical
+
+simulations (Ciardi & Madau 2003; Fulanetto, et al. 2004b; Wang et al. 2005).
+
+  Tomography: Figure 13 shows the expected evolution of the HI 21cm signal
+
+during reionization based on numerical simulations (Zaldaraiagga et al. 2004a;
+
+Furlanetto et al. 2004a; Furlanetto et al. 2004b). They find that the mean HI
+
+signal is about TB ∼ 25 mK prior to reionization, with fluctuations of a few
+
+mK on arcmin scales due to linear density evolution. In this simulation, the HII
+
+regions caused by galaxy formation are seen in the redshift range z ∼ 8 to 10,
+
+reaching scales up to 2′ (frequency widths ∼ 0.3 MHz ∼ 0.5 Mpc physical size).
+
+These regions have (negative) brightness temperatures up to 20 mK relative to
+44                                                                Fan, Carilli, Keating
+
+the mean HI signal. This corresponds to 5µJy beam−1 in a 2′ beam at 140 MHz.
+
+     The point source rms sensitivity (dual polarization) in an image from a syn-
+
+thesis radio telescope is given by:
+
+                               1.9                  Tsys
+                 rms = (               0.5
+                                           )(                 ) Jy beam−1           (7)
+                           (∆νkHz thr )       ǫef f Aant Nant
+
+where ∆ν is the channel width in kHz, t is the integration time in hours, Aant
+
+is the collecting area of each element in the array (m2 ), ǫef f is the aperture
+
+efficiency, and N is the number of elements (ǫAN = total effective collecting
+
+area of the array). At low frequency, the system temperature, Tsys , is dominated
+                                                              ν
+by the synchrotron foreground, and behaves as: TF G ∼ 100( 200MHz )−2.8 , in the
+
+coldest regions of the sky. Consider the SKA, with an effective collecting area of
+
+one square kilometer at 140 MHz, distributed over 4 km, Tsys = 300 K, a channel
+
+width of 0.3 MHz, and integrating for one month. The rms sensitivity is then
+
+1.3µJy beam−1 , with a beam FWHM ∼ 2′ . This square kilometer array will be
+
+adequate to perform three dimensional imaging of the average structure of the
+
+IGM during reionization.
+
+     Unfortunately, the nearer term low frequency path finder arrays will have ≤
+
+10% the collecting of the SKA, and will likely not be able to perform such direct
+
+3D imaging (see Table 1 in Carilli 2005). However, these near term experiments
+
+should have enough sensitivity to probe the neutral IGM in other ways. Figure
+
+14 shows three possible HI 21cm line signatures that might be observed prior to
+
+the SKA.
+
+     Global signal: The left panel in Figure 14 shows the latest predictions of the
+
+global (all sky) increase in the background temperature due to the HI 21cm line
+
+from the neutral IGM (Gnedin & Shaver 2003). The predicted HI emission signal
+
+peaks at roughly 20 mK above the foreground at z ∼ 10. At higher redshift, prior
+Cosmic Reionization                                                             45
+
+to IGM warming, but allowing for Lyα emission from the first luminous objects,
+
+the HI is seen in absorption against the CMB. Since this is an all sky signal,
+
+the sensitivity of the experiment is independent of telescope collecting area, and
+
+the experiment can be done using small area telescopes at low frequency, with
+
+well controlled frequency response (Subrahmanyan, Chippendale, Ekers 2005).
+
+Note that the line signal is only ∼ 10−4 that of the mean foreground continuum
+
+emission at ∼ 150 MHz.
+
+  Power spectra: The middle panel in Figure 14 shows the predicted power
+
+spectrum of spatial fluctuations in the sky brightness temperature due to the HI
+
+21cm line (Mcquinn et al. 2006). For power spectral analyses the sensitivity is
+
+greatly enhanced relative to direct imaging due to the fact that the universe is
+
+isotropic, and hence one can average the measurements in annuli in the Fourier
+
+(uv) domain, ie. the statistics of fluctuations along an annulus in the uv-plane
+
+are equivalent (Santos et al. 2005; Zaldariagga et al. 2004a; Bharadwaj & Ali
+
+2005; Morales 2005; Subrahmanyan et al. 1998; Bowman et al. 2005). Moreover,
+
+unlike the CMB, HI line studies provide spatial and redshift information, and
+
+hence the power spectral analysis can be performed in three dimensions.
+
+  Figure 14 includes the power spectrum arising from linear density fluctuations
+
+following the dark matter, plus the effect of reionization. The signature of reion-
+
+ization can be seen as a bump in the power spectrum above the density-only
+
+curve due to the formation of HII regions. The rms fluctuations at z = 10 peak
+
+at about 10 mK rms on scales ℓ ∼ 5000.8 A factor 2 to 4 increase in the rms
+
+might be expected over this naive (Poisson) calculation due to gas peculiar veloc-
+
+ities, ie. infall into superclusters and along filaments (Barkana & Loeb 2005a, Ali
+                o
+  8
+      Or θ ∼ 180
+               ℓ
+                 = 2.2′ , or k ∼ 10ℓ4 Mpc−1 = 0.5Mpc−1 comoving.
+46                                                             Fan, Carilli, Keating
+
+2005; but cf. Kuhlen et al. 2005), and possible clustering of luminous sources,
+
+ie. biased galaxy formation (Furlanetto et al. 2005a; Santos et al. 2005).
+
+     Also included in Figure 14 are the noise power spectra for near and longer term
+
+radio arrays. The noise power spectrum, in mK2 , in standard spherical harmonic
+
+units, ℓ(ℓ+1) N
+         2π Cℓ , for an array with (roughly) uniform coverage of the uv plane, is
+
+given by:
+                                           2 (2π)3
+                                          Tsys
+                                  CℓN =                                          (8)
+                                          ∆νtfc2 ℓ2max
+
+where ∆ν is the channel width in Hz, t is the integration time in seconds, fc
+
+= areal covering factor of the array = Nant AAant
+                                              tot
+                                                  , Atot is the total area of the
+
+array defined by the longest baseline (Atot 2)2 ), and ℓmax is set by the longest
+
+baseline (bmax ) in the array: ℓmax = 2πbmax /λ (Santos et al. 2005; for a three
+
+dimensional generalization, see Morales 2005). For example, the SKA will have
+
+30% of its collecting area inside 1 km, or fc = 0.3 out to 1 km. Typical noise
+
+values for near-term arrays are ∼ 1 to 10 mK rms in the range ℓ = 103 to 104 , for
+
+long integrations (see Figure 14). This sensitivity is adequate to constrain the
+
+power spectrum of the HI 21cm fluctuations, even if true images of the emission
+
+cannot be constructed.
+
+     A point of debate has been the fraction of HI in collapsed objects, as opposed
+
+to the diffuse IGM (Iliev et al. 2003). This fraction has a complex dependence
+
+on structure formation history. Oh & Mack (2003) and Gnedin (2004) conclude
+
+that the majority of the HI during reionization will remain in the diffuse phase,
+
+while Ahn et al. (2005) argue that most of the HI will reside in mini-halos. Iliev
+
+et al (2003), and Ahn (2005) have considered the HI 21cm power spectrum due to
+
+clustering of such minihalos at high redshift. For a beam size of 1′ , and channel
+
+width of 0.2 MHz, they predict 3σ brightness temperature fluctuations due to
+Cosmic Reionization                                                                47
+
+clustered minihalos ∼ 7mK at z = 8.5, decreasing to 2mK at z = 20.
+
+  Absorption toward discrete radio sources: A interesting alternative to
+
+emission studies is the possibility of studying smaller scale structure in the neutral
+
+IGM by looking for HI 21cm absorption toward the first radio-loud objects (AGN,
+
+star forming galaxies, GRBs) (Carilli et al. 2004b). The rightpanel of Figure 14
+
+shows the predicted HI 21cm absorption signal toward a high redshift radio source
+
+due to the ‘cosmic web’ prior to reionization, based on numerical simulations
+
+(Carilli, Gnedin, Owen 2002). For a source at z = 10, these simulations predict an
+
+average optical depth due to 21cm absorption of about 1%, corresponding to the
+
+‘radio Gunn-Peterson effect’, and about five narrow (few km/s) absorption lines
+
+per MHz with optical depths of a few to 10%. These latter lines are equivalent to
+
+the Ly α forest seen after reionization, and correspond to over-densities evolving
+
+in the linear regime (δ ≤ 10). Fulanetto & Loeb (2002), and Oh & Mack (2003)
+
+predict a similar HI 21cm absorption line density due to gas in minihalos as that
+
+expected for the 21cm forest.
+
+  Fundamental to absorption studies is the existence of radio loud sources during
+
+the EoR. This question has been considered in detail by Carilli et al. (2002),
+
+Haiman et al. (2004), and Jarvis & Rawlings (2005). They show that current
+
+models of radio-loud AGN evolution predict between 0.05 and 1 radio sources
+
+per square degree at z > 6 with S150MHz ≥ 6 mJy, adequate for EoR HI 21cm
+
+absorption studies with the SKA.
+
+  Cosmic Strömgren spheres: While direct detection of the typical structure
+
+of HI and HII regions may be out of reach of the near-term EoR 21cm telescopes,
+
+there is a chance that even this first generation of telescopes will be able to detect
+
+the rare, very large scale HII regions associated with luminous quasars near the
+48                                                            Fan, Carilli, Keating
+
+end of reionization (§4). The expected signal is ∼ 20mK ×xHI on a scale ∼ 10′ to
+
+15′ , with a line width of ∼ 1 to 2 MHz (Wyithe & Loeb 2004b). This corresponds
+
+to 0.5 ×xHI mJy beam−1 , for a 15′ beam at z ∼ 6 to 7. Kohler et al. (2005)
+
+calculate the expected spectral dips due to large HII regions around luminous
+
+quasars (> 2 × 1010 L⊙ ) during the EoR. In a typical spectrum from 100 to 180
+
+MHz with a 10′ beam they predict on average one relatively deep (-2 to -4 mK)
+
+dip per LoS on this scale. Wyithe et al. (2005b) perform a similar calculation
+
+using the evolution of the bright QSO luminosity function to predict the number
+
+of HII regions around active QSOs at z > 6. They conclude that there should
+
+be roughly one SDSS-type HII region around an active QSO (physical radius >
+
+4Mpc) per 400 deg2 field per 16 Mhz bandwidth at z ∼ 6, and one R ≥ 2 Mpc
+
+region at z ∼ 8, and up to ∼ 100× more fossil HII regions due to non-active
+
+AGN, depending on the duty cycle.
+
+     Beyond reionization: Recent calculations of the brightness temperature fluc-
+
+tuations due to the 21cm line have extended to redshifts higher than reionization,
+
+z > 20. Barkana & Loeb (2004; 2005a) predict the power spectrum of fluctua-
+
+tions during the era of ‘Lyα coupling’ (z ∼ 20 to 30; see also Kuhlen et al. 2005
+
+and Cen 2006). Brightness temperature fluctuations can be due to emission from
+
+clustered minihalos, plus enhanced by absorption against the CMB by the diffuse
+
+IGM, with a predicted rms ∼ 10mK for ℓ ∼ 105 , due to a combination of linear
+
+density fluctuations, plus Poisson (‘shot’) noise and biasing in the Lyα source (ie.
+
+galaxy) distribution.
+
+     Loeb & Zaldarriaga (2004) go even further in redshift, to z > 50 to 200. In
+
+this regime the HI generally follows linear density fluctuations, and hence the
+
+experiments are as clean as CMB studies, and TK < TCM B , so a relatively strong
+Cosmic Reionization                                                            49
+
+absorption signal might be expected. They also point out that Silk damping, or
+
+photon diffusion, erases structures on scales ℓ > 2000 in the CMB at recombina-
+
+tion, corresponding to comoving scales = 22 Mpc. The HI 21cm measurements
+
+can explore this physical regime at z ∼ 50 to 300. The predicted rms fluctuations
+
+are 1 to 10 mK on scales ℓ = 103 to 106 (0.2o to 1′′ ). These observations could
+
+provide the best tests of non-Gaussianity of density fluctuations, and constrain
+
+the running power law index of mass fluctutions to large ℓ, providing important
+
+tests of inflationary structure formation. Sethi (2005) also suggests that a large
+
+global signal, up to -0.05 K, might be expected for this redshift range.
+
+  Unfortunately, the sky background is very hot > 104 K at these low frequen-
+
+cies (< 50 MHz), and the predicted signals are orders of magnitude below the
+
+expected sensitivities of even the biggest planned low frequency arrays in the
+
+coming decade.
+
+
+8.3   Observational challenges
+
+Foregrounds: The HI 21cm signal from reionization must be detected on top of a
+
+much larger synchrotron signal from foreground emission (§9.2). This foreground
+
+includes discrete radio galaxies, and large scale emission from our own Galaxy,
+
+with relative contributions of about 10% and 90%, respectively. The expected HI
+
+21cm signal is about 10−4 of the foreground emission at 140 MHz.
+
+  di Matteo et al. (2002) show that, even if point sources can be removed to
+
+the level of 1 µJy, the rms fluctutions on spatial scales ≤ 10′ (ℓ ≥ 1000) due to
+
+residual radio point sources will be ≥ 10 mK just due to Poisson noise, increasing
+
+by a factor 100 if the sources are strongly clustered (see also di Matteo, Ciardi,
+
+& Miniati 2004; Oh & Mack 2003).
+50                                                            Fan, Carilli, Keating
+
+     A key point is that the foreground emission should be smooth in frequency,
+
+predominantly the sum of power-law, or perhaps gently curving, non-thermal
+
+spectra. A number of complimentary approaches have been presented for fore-
+
+ground removal (Morales, Bowman, & Hewitt 2005). Gnedin & Shaver (2003)
+
+and Wang et al (2005) consider fitting smooth spectral models (power laws or low
+
+order polynomials in log space) to the observed visibilities or images. Morales &
+
+Hewitt (2003) and Morales (2004) present a 3D Fourier analysis of the measured
+
+visibilities, where the third dimension is frequency. The different symmetries in
+
+this 3D space for the signal arising from the noise-like HI emission, versus the
+
+smooth (in frequency) foreground emission, can be a powerful means of differenti-
+
+ating between foreground emission and the EoR line signal. Santos et al. (2005),
+
+Bharadwaj & Ali (2005), Zaldariagga et al. (2004a) perform a similar analysis,
+
+only in the complementary Fourier space, meaning cross correlation of spectral
+
+channels. They show that the 21cm signal will effectively decorrelate for chan-
+
+nel separations > 1 MHz, while the foregrounds do not. The overall conclusion
+
+of these methods is that spectral decomposition should be adequate to separate
+
+synchrotron foregrounds from the HI 21cm signal from reionization at the mK
+
+level.
+
+     Ionosphere: A second potential challenge to low frequency imaging over wide
+
+fields is phase fluctuations caused by the ionosphere. These fluctuations are due
+
+to index of refraction fluctuations in the ionized plasma, and behave as ∆φ ∝ ν −2 .
+
+Morever, the typical ‘isoplanatic patch’, or angle over which a single phase error
+
+applies, is a few to 10 degrees (physical scales of 10’s km in the ionosphere),
+
+depending on frequency (Cotton et al. 2004; Lane et al. 2004). Fields larger than
+
+the isoplanatic patch will have multiple phase errors across the field, and hence
+Cosmic Reionization                                                             51
+
+cannot be corrected through standard (ie. single solution) phase self-calibration
+
+techniques. New wide field self-calibration techniques, involving multiple phase
+
+solutions over the field, or a ‘rubber screen’ phase model (Cotton et al. 2004;
+
+Hopkins et al. 2003), are being developed that should allow for self-calibration
+
+over wide fields.
+
+  Interference: Perhaps the most difficult problem facing low frequency radio
+
+astronomy is terrestrial (man-made) interference (RFI). The relevant frequency
+
+range corresponds to 7 to 200 MHz (z = 200 to 6). These are not protected
+
+frequency bands, and commercial allocations include everything from broadcast
+
+radio and television, to fixed and mobile communications.
+
+  Many groups are pursuing methods for RFI mitigation and excision (see Elling-
+
+son 2004). These include: (i) using a reference horn, or one beam of a phased
+
+array, for constant monitoring of known, strong, RFI signals, (ii) conversely, ar-
+
+ranging interferometric phases to produce a null at the position of the RFI source,
+
+and (iii) real-time RFI excision using advanced filtering techniques in time and
+
+frequency, of digitized signals both pre- and post-correlation. The latter requires
+
+very high dynamic range (many bit sampling), and very high frequency and time
+
+resolution.
+
+  In the end, the most effective means of reducing interference is to go to the
+
+remotest sites. The MWA and PAST have selected sites in remote regions of
+
+Western Australia, and China, respectively, because of known low RFI environ-
+
+ments. Of course, the ultimate location would be the far-side of the moon.
+
+  The technical challenges to HI 21cm observations of reionization are many. Use
+
+of spectral decomposition to remove the foregrounds requires careful control of
+
+the synthesize beam as a function of frequency, with the optimal solution being
+52                                                          Fan, Carilli, Keating
+
+a telescope design where the synthesized beam is invariant as a function of fre-
+
+quency (Subrahmanyan et al. 2005). High dynamic range front ends are required
+
+to avoid saturation in cases of strong interference, while fine spectral sampling
+
+is required to avoid Gibbs ringing in the spectral response. The polarization
+
+response must be stable and well calibrated to remove polarized foregrounds
+
+(Haverkorn et al. 2004). Calibation in the presence of a structured ionospheric
+
+phase screen requires new wide field calibration techniques. The very high data
+
+rate expected for many element (≥ 103 ) arrays requires new methods for data
+
+transmission, cross correlation, and storage. At the lowest frequencies, ≤ 20MHz
+
+or so, where we hope to study the PGM, phase fluctuations and the opacity of
+
+the ionosphere becomes problematic, leading to the proposed LUDAR project on
+
+the far side of the moon. The far side of the moon is also the best location in
+
+order to completely avoid terrestrial interference.
+
+
+
+9    Summary
+
+
+The few years since the seminal theoretical reviews of Barkana & Loeb have seen
+
+dramatic progress in determining observational constraints on cosmic reioniza-
+
+tion. Figure 15 shows the current limits on the cosmic neutral fraction versus
+
+redshift. The observations paint an interesting picture. On the one hand, studies
+
+of GP optical depths and variations, and the GP ‘gap’ distribution, as well as of
+
+the thermal state of the IGM at high z, and of cosmic Strömgren spheres and
+
+surfaces around the highest redshift QSOs, suggest a qualitative change in the
+
+state of the IGM at z ∼ 6. These data indicate a significant neutral fraction,
+
+xHI > 10−3 , and perhaps as high as 0.1, at z ≥ 6, as compared to xHI ≤ 10−4
+
+at z < 5.5. The IGM characteristics at this epoch are consistent with the end of
+Cosmic Reionization                                                            53
+
+the ‘percolation’ stage of reionization (Gnedin & Fan 2006). On the other hand,
+
+transmission spikes in the GP trough and study of the evolution of Lyα galaxy
+
+luminosity function indicate a neutral fraction smaller than 50% at z ∼ 6.5.
+
+Moreover, the measurement of the large scale polarization of the CMB implies a
+
+significant ionization fraction extending to higher redshifts, z ∼ 15 to 20. More-
+
+over, the measurement of the large scale polarization of the CMB suggests a
+
+significant ionization fraction extending to higher redshifts, z ∼ 11 ± 3.
+
+  We emphasize that all these measurements have implicit assumptions and un-
+
+certainties, as discussed throughout. Indeed, the GP effect and CMB large scale
+
+polarization studies can be considered complimentary probes of reionization, with
+
+optical depth effects limiting GP studies to the end of reionization, while CMB
+
+studies are weighted toward the higher redshifts, when the densities were higher.
+
+The data argue against a simple reionization history in which the IGM remains
+
+largely neutral from z ∼ 1100 to z ∼ 6 − 7, with a single phase transition at
+
+z ∼ 6 (the “late” model in Figure 15), as well as against a model in which the
+
+Universe reaches complete ionization at z ∼ 15 − 20 and remained so ever since
+
+(the “early” model in Figure 15). These facts, combined with the large line of
+
+sight variations at the end of reionization as indicated by Gunn-Peterson mea-
+
+surements, suggest a more extended reionization history. Interestingly, the latest
+
+theoretical models with reionization caused by Population II star formation are
+
+consistent with both GP optical depth and WMAP CMB polarization measure-
+
+ment (e.g. Gnedin & Fan 2006). Current data do not present strong evidence for
+
+a dominant contribution by metal-free Population III star formation at z > 15 to
+
+reionization (Haiman & Bryan 2006), and have weak constraints on, although do
+
+not require, models with multiple episodes of reionization (the “double” model
+54                                                             Fan, Carilli, Keating
+
+in Figure 15), which were suggested by a possible high CMB Thomspon optical
+
+depth based on early WMAP measurements.
+
+     Overall, we agree with the assessment of Furlanetto et al. (2004b) that reion-
+
+ization is less an event than a process, extended in both time and space. Much
+
+emphasis has been given to the determination of the ‘reionization redshift’. How-
+
+ever, current observations suggest that, unlike recombination, which occurs over
+
+a very narrow range in fractional redshift, zrecomb = 1089 ± 1, cosmic reionization
+
+occurs over a fairly large fractional redshift, from z ∼ 6 up to as high as z ∼ 14.
+
+The redshift of HII region overlap might be quite different than the redshift at
+
+which the IGM is largely (> 50%) ionized. It may also differ in different parts
+
+of the universe. The implication is that the formation of the first liminous ob-
+
+jects (stars and AGN) occurs in a ‘twilight zone’, heavily obscured at (observed)
+
+optical wavelengths by a partially neutral IGM, and observable only at near-IR
+
+through radio wavelengths, and in the hard Xrays.
+
+     We also consider the sources responsible for reionization. Current data are con-
+
+sistent with star forming galaxies, in particular, relatively low luminosity galaxies,
+
+as being the dominant sources of reionizing photons. However, again, there are a
+
+number of important, and poorly constrained, parameters in these calculations,
+
+including the IMF and the UV escape fraction, and we certainly cannot rule-out
+
+a significant contribution from mini-QSOs.
+
+     Lastly, we show that low frequency radio telescopes currently under construc-
+
+tion should be able to make the first direct measurements of HI 21cm emission
+
+from (and/or absorption by) the neutral IGM. These observations will present a
+
+clear picture of the reionization process, and the evolution of the neutral IGM
+
+into the dark ages.
+Cosmic Reionization                                                          55
+
+  Acknowledgements: CC thanks the Max-Planck-Gesellschaft and the Humboldt-
+
+Stiftung for support through the Max-Planck-Forschungspreis, K. Menten and
+
+the MPIfR for their hospitality, and S. Furlanetto for extensive comments. XF
+
+thanks supports from NSF grant AST 03-07384, a Sloan Research Fellowship and
+
+Packard Fellowship for Science and Engineering. BK thanks Nathan Miller for
+
+his contributions to this review and Steven Furlanetto, Manoj Kaplinghat, and
+
+Meir Shimon for helpful comments on this manuscript. CMBFAST was used
+
+in the preparation of this review. The National Radio Astronomy Observatory
+
+(NRAO) is a facility of the National Science Foundation, operated under coop-
+
+erative agreement by Associated Universities, Inc.
+
+
+Literature Cited
+
+
+Anderson, Hogan, Williams, & Carswell(1999)Anderson, S. F., Hogan, C. J.,
+
+  Williams, B. F., & Carswell, R. F. 1999, A.J., 117: 56-62
+
+Ahn et al. 2005Ahn, K., Shapiro, P., Alvarez, M., Iliev, T., Martel, H., Ryu, D.
+
+  2005, New AR, in press (astroph/0509651)
+
+Ajiki et al. (2003)Ajiki, M., et al. 2003, A.J., 126: 2091-2107
+
+Ali 2005Ali, Sk. 2005, MNRAS, in press, (astroph-0503237)
+
+Bahcall & Salpeter (1965)Bahcall, J. N., & Salpeter, E. E. 1965, Ap.J., 142:
+
+  1677-1680
+
+Barkana & Loeb 2001Barkana, R., Loeb, A. 2001, Phys. Rep. 349, 125-238
+
+Barkana & Loeb (2004)Barkana, R., & Loeb, A. 2004, Ap.J., 601, 64-69
+
+Barkana & Loeb 2005aBarkana, R., Loeb, A. 2005a, ApJ, 626, 1-11
+
+Barkana & Loeb 2005bBarkana, R., Loeb, A. 2005b, ApJ, 624, L65-68
+
+Barkana & Loeb 2005cBarkana, R., Loeb, A. 2005c, MNRAS, 363, L36
+56                                                             Fan, Carilli, Keating
+
+Barkats et al.(2005)Barkats, D., et al. 2005, Ap.J., 619, L127-130
+
+Barton et al. (2004)Barton, E. J., Davé, R., Smith, J.-D. T., Papovich, C., Hern-
+
+     quist, L., & Springel, V. 2004, Ap.J. Lett., 604: L1-L4
+
+Becker et al. (2006)Becker06] Becker, G. D., Sargent, W. L. W., Rauch. M., &
+
+     Simcoe, R. A. 2006, ApJ, in press (astro-ph/0510747)
+
+Becker et al. (2001)Becker, R. H., et al. 2001, A.J., 122: 2850-2857
+
+Bertoldi et al. 2003Bertoldi, F., Carilli, C., Cox, P. et al. 2003, A& A, 406, L55-58
+
+Bertoldi et al. 2004Bertoldi, F., Cox, P., Neri, R. et al. 2004, A& A, 409, L47-50
+
+Bharadwaj & Ali 2005Bharadwaj, S. & Ali, Sk. 2005, MNRAS, 356, 1519-1428
+
+Bi 1993Bi, H. 1993, Ap.J., 405: 479-490
+
+Bouwens et al.(2004)Bouwens, R. J., et al. 2004a, Ap.J. Lett., 606, L25-28
+
+Bouwens et al. 2004Bouwens, R.J, et al. 2004c, Ap.J. Lett., 616, L79-82
+
+Bouwens et al. 2005Bouwens, R.J, Illingworth, G.D., Thompson, R.I., & Franx,
+
+     M. 2005, Ap.J., 624, L5-8
+
+Bouwens et al. 2006Bouwens, R. J., Illingworh, G. D., Blakeslee, J. P., & Franx,
+
+     M. 2006, ApJ, in press (astro-ph/0509641)
+
+Bowman et al. 2005Bowman, J, Morales, M., Hewitt, J. 2005, ApJ, 638, 20-28
+
+Bunker et al. 2004Bunker, A. J., Stanway, E. R., Ellis, R. S., & McMahon, R. G.
+
+     2004, MNRAS, 355: 374-384
+
+Carilli et al 2004aCarilli, C., Gnedin, N., Furlanetto, S., & Owen, F. 2004,
+
+     NewAR, 48, 1053-1061
+
+Carilli et al. 2004bCarilli, C., Furlanetto, S., Briggs, F., Jarvis, M., Rawlings, S.,
+
+     Falcke, H. 2004, NewAR, 48, 1029-1038
+
+Carilli et al. 2002Carilli, C., Gnedin, N., Owen, F. 2002, ApJ, 577, 22-30
+
+Cen 2003aCen, R. 2003a, Ap.J., 591, 12-37
+Cosmic Reionization                                                            57
+
+Cen 2003bCen, R. 2003b, Ap.J., 591, L5-8
+
+Cen 2005Cen, R. 2005, ApJL, submitted (astro-ph/0507014)
+
+Cen 2006Cen, R. 2006, ApJL, submitted (astro-ph/0601010)
+
+Cen & Haiman 2000Cen, R., & Haiman, Z. 2000, Ap.J. Lett., 542: L75-L78
+
+Cen, Haiman, & Mesinger 2005Cen, R., Haiman, Z., & Mesinger, A. 2005, Ap.J.,
+
+  621: 89-94
+
+Cen & McDonald 2002Cen, R., & McDonald, P. 2002, Ap.J., 570: 457-462
+
+Cen, Miralda-Escude, Ostriker, & Rauch 1994Cen, R., Miralda-Escude, J., Os-
+
+  triker, J. P., & Rauch, M. 1994, Ap.J. Lett., 437: L9-L12
+
+chary05Chary, R., Stern, D., Eisenhardt, P. 2005, ApJ, 635, L5
+
+Chen et al. 2005Chen, H., Prochaska, J. X., Bloom, J. S., Thompson, I. B, 2005,
+
+  ApJ, 634, L25
+
+Chen & Kamionkowski(2004)Chen, X., & Kamionkowski, M. 2004, Phys. Rev.
+
+  D., 70, 043502
+
+Chen & Miralda-Escude 2004Chen, X. & Miralda-Escude, J. 2004, ApJ, 602, 1-11
+
+Chiu et al. 2003Chiu, W. A., Fan, X., & Ostriker, J. P. 2003, ApJ, 59 9. 759
+
+Ciardi & Ferrara 2005Ciardi, B., & Ferrara, A. 2005, Space Science Reviews, 116:
+
+  625-705
+
+Ciardi & Madau 2003Ciardi, B., Madau, P. 2003, ApJ, 596, 1-8
+
+Ciardi et al. 2003Ciardi, B., Stoehr, F., White, S. 2004, MNRAS, 343, 1101-1109
+
+Ciardi et al. 2001Ciardi, B., Ferrara, A., Marri, S., & Raimondo, G. 2001, MN-
+
+  RAS, 324: 381-388
+
+Ciardi & Loeb 2000Ciardi, B., & Loeb, A. 2000, Ap.J., 540: 687-696
+
+Colombo et al.(2005)Colombo, L. P. L., Bernardi, G., Casarini, L., Mainini, R.,
+
+  Bonometto, S. A., Carretti, E., & Fabbri, R. 2005, Astron. and Astrophys.,
+58                                                            Fan, Carilli, Keating
+
+     435, 413
+
+Cool et al. (2006)Cool06] Cool, R. J., et al. 2006, AJ, in press
+
+Corbin et al. 2005Corbin, M. et al. 2005, exploratory proposal to NASA
+
+Cotton et al. 2004Cotton, W., Condon, J., Perley, R. et al. 2004, SPIE, 5489,
+
+     180-189
+
+Davidsen, Kriss, & Wei(1996)Davidsen, A. F., Kriss, G. A., & Wei, Z. 1996, Na-
+
+     ture, 380: 47-49
+
+Dawson et al.(2002)Dawson, K. S., Holzapfel, W. L., Carlstrom, J. E., Joy, M.,
+
+     LaRoque, S. J., Miller, A. D., & Nagai, D. 2002, Ap.J., 581, 86
+
+Dijkstra, Haiman, & Scharf 2005Dijkstra, M., Haiman, Z. & Loeb, A. 2005, ApJ,
+
+     613, 646-654
+
+Di Matteo et al 2002Di Matteo, T., Rosalba, P., Abel, T., Rees, M. 2002, MN-
+
+     RAS, 564, 576-580
+
+di Matteo et al. 2004Di Matteo, T., Ciardi, B., & Miniati, F. 2004, MNRAS, 355,
+
+     1053 - 1065
+
+Djorgovski, Castro, Stern, & Mahabal 2001Djorgovski, S. G., Castro, S., Stern,
+
+     D., & Mahabal, A. A. 2001, Ap.J. Lett., 560: L5-L8
+
+Djorgovski et al. 2005Djorgovski, S. G., Bogosavljevic, M., & Mahabal, A. 2005,
+
+     atro-ph/0509065
+
+Dodelson(2003)Dodelson, S. 2003, Modern cosmology / Scott Dodelson. Amster-
+
+     dam (Netherlands): Academic Press. ISBN 0-12-219141-2, 2003, XIII + 440
+
+     p.,
+
+Ellingson05Ellingson, S. 2005, Exp. Astron., 17, 261-267
+
+Eyles et al. 2005Eyles, L. et al. 2005, MNRAS, 364, 443-450
+
+Fan et al. 2000Fan, X., et al. 2000, A.J., 120: 1167-1174
+Cosmic Reionization                                                           59
+
+Fan et al. 2001aFan, X., et al. 2001a, A.J., 121: 54-65
+
+Fan et al. 2001bFan, X., et al. 2001b, A.J., 122: 2833-2849
+
+Fan et al. 2002Fan, X., Narayanan, V. K., Strauss, M. A., White, R. L., Becker,
+
+  R. H., Pentericci, L., & Rix, H.-W. 2002, A.J., 123: 1247-1257
+
+Fan et al. 2003Fan, X., et al. 2003, A.J., 125: 1649-1659
+
+Fan et al. 2004Fan, X., et al. 2004, A.J., 128: 515-522
+
+Fan et al. 2006aFan et al. 2006a, AJ, in press (astro-ph/0512080)
+
+Fan et al. 2006bFan et al. 2006b, AJ, submitted (astro-ph/0512082)
+
+Fernández-Soto, Lanzetta, & Chen(2003)Fernández-Soto, A., Lanzetta, K. M., &
+
+  Chen, H.-W. 2003, MNRAS, 342: 1215-1221
+
+Field 1959Field, G.B. 1959, ApJ, 129, 551-565
+
+Furlanetto & Briggs 2004Furlanetto, S. & Briggs, F. 2004, New AR, 48, 1039-
+
+  1052
+
+Furlanetto, Og, Briggs 2006Furlanetto, S., Oh, S.P., Briggs, F. 2006, Physics Re-
+
+  ports, in prep
+
+Furlanetto, OhFurlanetto, S., Oh, S.P. 2005, MNRAS, 363, 1031 - 1048
+
+Furlanetto & Loeb 2002Furlanetto, S, & Loeb, A. 2002, ApJ, 579, 1-9
+
+Furlanetto et al. 2004aFurlanetto, S., Zaldarriaga, M. Hernquist, L. 2004, ApJ,
+
+  613, 16-22
+
+Furlanetto et al. 2004bFurlanetto, S., Sokasian, A., Hernquist, L. 2004, MNRAS
+
+  347, 187-195
+
+Furlanetto et al. 2005aFurlanetto, S., McQuinn, D., Hernquist, L. 2005, MNRAS,
+
+  365, 115
+
+Furlanetto et al. 2005bFurlanetto, S. R., Zaldarriaga, M., & Hernquist, L. 2006,
+
+  MNRAS, 365, 1012-1020
+60                                                               Fan, Carilli, Keating
+
+Furlanetto, Hernquist, & Zaldarriaga 2004cFurlanetto, S. R., Hernquist, L., &
+
+     Zaldarriaga, M. 2004, MNRAS, 354: 695-707
+
+Furlanetto & Loeb 2003Furlanetto, S. R., & Loeb, A. 2003, Ap.J., 588: 18-34
+
+Gallerani et al. 2006Gallerani, S., Roy Choudhury, T., Ferrara, A. 2006, MNRAS,
+
+     submitted (astro-ph/0512129)
+
+Giallongo et al. 2002Giallongo, E., Cristiani, S., D’Odorico, S., & Fontana, A.
+
+     2002, Ap.J. Lett., 568: L9-12
+
+Giallongo et al. 1994Giallongo, E., D’Odorico, S., Fontana, A., McMahon, R. G.,
+
+     Savaglio, S., Cristiani, S., Molaro, P., & Trevese, D. 1994, Ap.J. Lett., 425: L1-
+
+     4
+
+Giavalisco et al. 2004Giavalisco, M., et al. 2004, Ap.J. Lett., 600: L93-98
+
+Gnedin & Ostriker 1997Gnedin, N. Y., & Ostriker, J. P. 1997, Ap.J., 486: 581-
+
+     598
+
+Gnedin 2000Gnedin, N. 2000, ApJ, 535, 530-554
+
+Gnedin & Shaver 2003Gnedin, N. & Shaver, P. 2004, ApJ, 608, 611-621
+
+Gnedin 2004Gnedin, N. 2004, ApJ, 610, 9-13
+
+Gnedin & Prada 2004Gnedin, N. Y., & Prada, F. 2004, Ap.J. Lett., 608: L77-L80
+
+Gnedin & Fan 2006Gnedin, N. Y., & Fan, X. 2006, Ap.J.submitted (as-
+
+     troph/0603794)
+
+Gruzinov & Hu (1998)Gruzinov, A., and Hu, W. 1998, Ap.J., 508, 435
+
+Gunn & Peterson 1965Gunn, J. E., & Peterson, B. A. 1965, Ap.J., 142: 1633-
+
+     1641
+
+Haardt & Madau 1996Haardt, F., & Madau, P. 1996, Ap.J., 461, 20-37
+
+Haehnelt et al. 2001Haehnelt, M. G., Madau, P., Kudritzki, R., & Haardt, F.
+
+     2001, Ap.J. Lett., 549, L151-L154
+Cosmic Reionization                                                           61
+
+Haiman 2002Haiman, Z. 2002, Ap.J. Lett., 576: L1-L4
+
+Haiman & Cen 2005Haiman, Z., & Cen, R. 2005, Ap.J., 623: 627-631
+
+Haiman et al. 2004Haiman, Z., Quartaert, E., Bower, G. 2004, ApJ, 612, 698-705
+
+Haiman & Holder 2003Haiman, Z. & Holder, G. P. 2003, ApJ, 595, 1
+
+Haiman & Knox(1999)Haiman, Z., & Knox, L. 1999, ASP Conf. Ser. 181: Mi-
+
+  crowave Foregrounds, 181, 227
+
+haiman & Bryan 2006Haiman, Z. & Bryan, G.L. 2006, ApJ letters, in press (as-
+
+  troph/0603541)
+
+Haislip et al. 2005Haislip, J. et al. 2005, Nature, submitted (astro-ph/0509660)
+
+Hansen & Haiman 2004Hansen, S. H., & Haiman, Z. 2004, ApJ, 600: 26-31
+
+Haverkorn et al. 2004Haverkorn, M., Katgert, P., de Bruyn, A. 2004, A& A, 427,
+
+  549-559
+
+Hernquist et al. 1996Hernquist, L., Katz, N., Weinberg, D. H., & Miralda-
+
+  Escudé, J. 1996, Ap.J. Lett., 457: L51- L54
+
+Hopkins et al. 2003Hopkins, P., Doeleman, S., Lonsdale, C. 2003, AAS, 203, 4005
+
+Hirata, C.M. 2005, MNRAS, in press
+
+Holder et al.(2003)Holder, G. P., Haiman, Z., Kaplinghat, M., & Knox, L. 2003,
+
+  Ap.J., 595, 13
+
+Horton et al. 2004Horton, A., Parry, I., Bland-Hawthorn, J., Cianci, S., King,
+
+  D., McMahon, R., & Medlen, S. 2004, SPIE, 5492: 1022-1032
+
+Hu (2000)Hu, W. 2000, Ap.J., 529, 12
+
+Hu & White(1997)Hu, W., & White, M. 1997, New Astronomy, 2, 323
+
+Hu & Okamoto(2002)Hu, W., & Okamoto, T. 2002, Ap.J., 574, 566
+
+Hu & Holder 2003Hu, W. & Holder, G., 2003, Phys. Rev. D, 68, 3001-3004
+
+Hu et al. 2002Hu, E. M., Cowie, L. L., McMahon, R. G., Capak, P., Iwamuro,
+62                                                            Fan, Carilli, Keating
+
+     F., Kneib, J.-P., Maihara, T., & Motohara, K. 2002, Ap.J. Lett., 568: L75-L79
+
+Hu et al. 2004Hu, E. M., Cowie, L. L., Capak, P., McMahon, R. G., Hayashino,
+
+     T., & Komiyama, Y. 2004, A.J., 127: 563-575
+
+Hu et al. 2005Hu, E. M., Cowie, L. L., Capak, P., Kakazu, Y.. 2005, to ppear in
+
+     IAU 199 Conf. Proc.: ”Probing Galaxies through Quasar Absorption Lines,”
+
+     eds. Williams, Shu, Menard (astro-ph/0509616)
+
+Hui & Haiman 2003Hui, L., & Haiman, Z. 2003, Ap.J., 596: 9-18
+
+Iliev et al. 2003Iliev, I., Scannapieco, E., Martel, H., Schapiro, P. 2003, MNRAS,
+
+     341, 81-90
+
+Iliev et al. 2005Iliev, I., Mellema, G., Pen, U., Merz, H., Shapiro, P., Alvarez, M.
+
+     2006, MNRAS, in press (astroph/0512187)
+
+Inoue et al. 2005Inoue, A. K., Iwata, I., Deharveng, J.-M., Buat, V., & Bur-
+
+     garella, D. 2005, A&A, 435: 471-482
+
+Jakobsen et al.(1994)Jakobsen, P., Boksenberg, A., Deharveng, J. M., Greenfield,
+
+     P., Jedrzejewski, R., & Paresce, F. 1994, Nature, 370: 35-39
+
+Jarvis & Rawlings 2005Jarvis, M. & Rawlings, S. 2005, New AR, 48, 1173-1185
+
+Jarosik et al.(2003)Jarosik, N., et al. 2003, Ap.J.Supplement, 145, 413
+
+Kashikawa et al. 2005Kashikawa, N. et al. 2005, ApJ, 637, 631
+
+kashilnskyKashlinsky, A., Arendt, R., Mather, J., Moseley, S. 2005, Nature, 438,
+
+     45 – 50
+
+Kamionkowski et al.(1997)Kamionkowski, M., Kosowsky, A., & Stebbins, A.
+
+     1997, Phys. Rev. D., 55, 7368
+
+Kaplinghat et al.(2003)Kaplinghat, M., Chu, M., Haiman, Z., Holder, G. P.,
+
+     Knox, L., & Skordis, C. 2003, ApJ, 583, 24
+
+Kaplinghat, Knox and Song (2003)Kaplinghat M., Knox, L., & Song, Y., 2003,
+Cosmic Reionization                                                            63
+
+  Phys. Rev. Lett., 91, 241301
+
+Kawai et al. 2006Kawai, N., et al. 2006, Nature, in press (astro-ph/0512052)
+
+Keating et al.(1998)Keating, B., Timbie, P., Polnarev, A., & Steinberger, J. 1998,
+
+  Ap.J., 495, 580
+
+Keating et al.(2001)Keating, B. G., O’Dell, C. W., de Oliveira-Costa, A.,
+
+  Klawikowski, S., Stebor, N., Piccirillo, L., Tegmark, M., & Timbie, P. T. 2001,
+
+  Ap.J., 560, L1
+
+Keating & Miller (2005)Keating, B. and Miller, N. 2005, astro-ph 0508269, to
+
+  appear in New Astronomy Reviews
+
+Kesden et al.(2002)Kesden, M., Cooray, A., & Kamionkowski, M. 2002, Physical
+
+  Review Letters, 89, 011304
+
+Kennefick, Djorgovski, & de Carvalho 1995Kennefick, J. D., Djorgovski, S. G., &
+
+  de Carvalho, R. R. 1995, A.J., 110: 2553-2565
+
+Knox et al.(1998)Knox, L., Scoccimarro, R., & Dodelson, S. 1998, Physical Re-
+
+  view Letters, 81, 2004
+
+Knox & Song(2002)Knox, L., & Song, Y.-S. 2002, Physical Review Letters, 89,
+
+  011303
+
+Knox(2003)Knox, L. 2003, New Astronomy Review, 47, 883
+
+Kodaira et al. 2003Kodaira, K., et al. 2003, PASJ, 55: L17-L21
+
+Kogut et al.(2003)Kogut, A., et al. 2003, Ap.J.Suppl., 148, 161
+
+Kosowsky(2003)Kosowsky, A. 2003, New Astronomy Review, 47, 939
+
+Kohler et al. 2005Kohler, K., Gnedin, N., Miralda-Escude, J., Shaver, P. 2005,
+
+  ApJ, 633, 552
+
+Kohler et al. 2006Kohler, K., Gnedin, N., & Hamilton, A. J. S. 2006, submitted
+
+  (astro-ph/0511627)
+64                                                              Fan, Carilli, Keating
+
+Kriss et al.(2001)Kriss, G. A., et al. 2001, Science, 293: 1112-1116
+
+Kuhlen05Kuhlen, M., Madau, P., Montgomery, R. 2005, ApJ, 637, L1
+
+Kurk et al. 2004Kurk, J. D., Cimatti, A., di Serego Alighieri, S., Vernet, J.,
+
+     Daddi, E., Ferrara, A., & Ciardi, B. 2004, A&A, 422: L13-L17
+
+Lamarre et al.(2003)Lamarre, J. M., et al. 2003, New Astronomy Review, 47,
+
+     1017
+
+Lane et al. 2004Lane, W., Cohen, A., Cotton, W., et al. 2004, SPIE, 5489, 354-
+
+     361
+
+Lawrence et al. 2006Lawrence, A., et al. 2006, MNRAS, submitted
+
+Leitch et al.(2005)Leitch, E. M., Kovac, J. M., Halverson, N. W., Carlstrom,
+
+     J. E., Pryke, C., & Smith, M. W. E. 2005, Ap.J., 624, 10
+
+Lidz et al. 2002Lidz, A., Hui, L., Zaldarriaga, M., & Scoccimarro, R. 2002, Ap.J.,
+
+     579: 491-499
+
+Loeb & Barkana 2000Loeb, A., Barkana, R. 2001, ARAA, 39, 19-66
+
+Loeb & Zaldarriaga 2004Loeb, A. & Zaldarriaga, M. 2004, Phys.Rev. Lett. 92,
+
+     1301-1304
+
+Maccone 2004Maccone, C. 2004, 35th COSPAR Assembly, p. 1415-1419
+
+Madau et al. 1997Madau, P., Haardt, F., & Rees, M. J. 1997, Ap.J., 514, 648-659
+
+Madau et al. 2004Madau, P., Rees, M. J., Volonteri, M., Haardt, F., & Oh, S. P.
+
+     2004, Ap.J., 604: 484-494
+
+Madau et al. 2001Madau, P., Ferrara, A., & Rees, M. J. 2001, Ap.J., 555: 92-105
+
+Madau & Rees 2000Madau, P., & Rees, M. J. 2000, Ap.J. Lett., 542: L69-L73
+
+Madau et al. 1997Madau, P., Meiksin, A., Rees, M. 1997, ApJ, 475, 429-444
+
+Mahabal05Mahabal, A., Stern, D., Bogosavljevic, M., Djorgovski, S., Thompson,
+
+     D. 2005, ApJ, 634, L9
+Cosmic Reionization                                                            65
+
+malhotraMalhotra, S. & Rhoads, J. 2005, ApJ, 617, L5
+
+Malhotra et al. 2005Malhotra, S., et al. 2005, Ap.J., 626: 666-679
+
+Malhotra & Rhoads 2004Malhotra, S., & Rhoads, J. E. 2004, Ap.J. Lett., 617:
+
+  L5-L8
+
+Mapelli & Ferrara 2005Mapelli, M., & Ferrara, A. 2005, MNRAS, 364, 2
+
+Martin & Sawicki 2004Martin, C. L., & Sawicki, M. 2004, Ap.J., 603: 414-424
+
+McDonald et al. 2000McDonald, P., Miralda-Escudé, J., Rauch, M., Sargent,
+
+  W. L. W., Barlow, T. A., Cen, R., & Ostriker, J. P. 2000, Ap.J., 543: 1-23
+
+McDonald & Miralda-Escudé 2001McDonald, P., & Miralda-Escudé, J. 2001,
+
+  Ap.J. Lett., 549: L11-L14
+
+mcphersonMcPherson, A., Born, A., Sutherland, W., Emerson, J. 2004, SPIE,
+
+  5489, 638 - 649
+
+McQuinn et. al. (2005)McQuinn, M., Furlanetto, S., Hernquist, L., Zahn, O.,
+
+  Zaldarriaga, M. 2005, Ap.J., 630, 657
+
+mcquinnMcquinn, M., Zahn, O., Zaldarraiga, M., Hernquist, L., Furlanetto, S.
+
+  2006, ApJ, in press (astroph/0512263)
+
+Meiksin 2005Meiksin, A. 2005, MNRAS, 356: 596-606
+
+Melchiorri et al. 2005Melchiorri, A., Choudhury, T. R., Serra, P., & Ferrara, A.
+
+  2005, astro-ph/0506486
+
+Mennella et al.(2004)Mennella, A., et al. 2004, AIP Conf. Proc. 703: Plasmas in
+
+  the Laboratory and in the Universe: New Insights and New Challenges, 703,
+
+  401. Also, astro-ph/0310058
+
+Mesinger, A., Haiman, Z. 2004, ApJ, 611, L69-72
+
+Miralda-Escude 1998Miralda-Escudé, J. 1998, Ap.J., 501: 15-22
+
+Miralda-Escudé 2003Miralda-Escudé, J. 2003, Ap.J., 597: 66-73
+66                                                            Fan, Carilli, Keating
+
+Miralda-Escudé et al. 1996Miralda-Escudé, J., Cen, R., Ostriker, J. P., & Rauch,
+
+     M. 1996, Ap.J., 471: 582-616
+
+Miralda-Escudé et al. 2000Miralda-Escudé, J., Haehnelt, M., & Rees, M. J. 2000,
+
+     Ap.J., 530: 1-16
+
+Mobasher et al. 2005Mobasher, B. et al. 2005 ApJ, 635, 832
+
+Montroy et al.(2005)Montroy, T., et al. 2005, astro-ph/0507514
+
+Morales & Hewitt 2004Morales, M. & Hewitt, J. 2004, ApJ, 615, 7-18
+
+Morales 2005Morales, M. 2005, ApJ, 619, 678-683
+
+Oh 2001Oh, S. P. 2001, Ap.J., 553: 499-512
+
+Oh 2002Oh, S. P. 2002, MNRAS, 336: 1021-1029
+
+Oh & Furlanetto 2005Oh, S. P., & Furlanetto, S. R. 2005, Ap.J. Lett., 620: L9-
+
+     L12
+
+Oh & Haiman 2004Oh, S.P. & Haiman, Z. 2004, MNRAS, 346, 456-472
+
+Oh & Mack 2003Oh, S.P. & Mack, K. 2003, MNRAS, 346, 871-877
+
+Oxley et al.(2005)Oxley, P., et al. 2005, Proc.SPIE Int.Soc.Opt.Eng. 5543 (2004)
+
+     320-331
+
+Piacentini et al.(2005)Piacentini F., et al. 2005, astro-ph/0507507
+
+PierpaoliPierpaoli, E. 2003, MNRAS, 342, L63
+
+pagePage, L., Hinshaw, G., Komantsu, E., 2006, ApJS, in press (as-
+
+     troph/0603450)
+
+Panagia et al. 2005Panagia, N. et al. 2005, ApJ, 633, L1
+
+Paschos & Norman 2005Paschos, P., & Norman, M. L. 2005, Ap.J., 631: 59-84
+
+Pentericci et al. 2002Pentericci, L., et al. 2002, A.J., 123: 2151-2158
+
+Pettini et al. 2003Pettini, M., Madau, P., Bolte, M., Prochaska, J. X., Ellison,
+
+     S. L., & Fan, X. 2003, Ap.J., 594: 695-703
+Cosmic Reionization                                                              67
+
+Price et al. 2005Price, P. A. et al. 2005, ApJL, submitted (astro-ph/0509697)
+
+Rauch 1998Rauch, M. 1998, ARA&A, 36: 267-316
+
+Rauch et al. 1997Rauch, M., et al. 1997, Ap.J., 489: 7-20
+
+Razoumov et al. 2002Razoumov, A. O., Norman, M. L., Abel, T., & Scott, D.
+
+  2002, Ap.J., 572: 695-704
+
+Readhead et al.(2004)Readhead, A. C. S., et al. 2004, Science, 306, 836
+
+Readhead et al.(2004b)Readhead, A. C. S., et al. 2004, Ap.J., 609, 498
+
+Rees98Rees, M.J. 1998, Proceedings of the National Academy of Sciences Col-
+
+  loquium: The Age of the Universe, Dark Matter, and Structure Formation,
+
+  (NAS: Washington DC), p. 47 - 52
+
+Rhoads et al. 2003Rhoads, J. E., et al. 2003, A.J., 125: 1006-1013
+
+Richards et al. 2002Richards, G. T., et al. 2002, A.J., 123: 2945-2975
+
+Richards et al. 2005Richards, G. T., et al. 2005, AJ, submitted
+
+Ricotti, Gnedin, & Shull(2000)Ricotti, M., Gnedin, N. Y., & Shull, J. M. 2000,
+
+  Ap.J., 534: 41-56
+
+Ricotti & Ostriker 2004Ricotti, M., & Osteriker, J. P. 2004, MNRAS, 352: 547-
+
+  562
+
+Ruhl et al.(2004)Ruhl, J., et al. 2004, Proceedings of the SPIE, 5498, 11
+
+Salvaterra et al. 2005Salvaterra, R., Haardt, F., & Ferrara, A. 2005, MNRAS,
+
+  362, L50 - L54
+
+Santos 2004Santos, M. R. 2004, MNRAS, 349: 1137-1152
+
+Santos et al. 2004Santos, M. R., Ellis, R. S., Kneib, J.-P., Richard, J., & Kuijken,
+
+  K. 2004, Ap.J., 606: 683-701
+
+Santos et al. 2005Santos, M., Cooray, A., Knox, L. 2005, ApJ, 625, 575-587
+
+Santos et al. 2003Santos, M. G., Cooray, A. Haiman, Z., Knox, L. and Ma, C.-P.,
+68                                                           Fan, Carilli, Keating
+
+     2003, Ap.J., 598: 756-766
+
+Schaye et al.(2000)Schaye, J., Theuns, T., Rauch, M., Efstathiou, G., & Sargent,
+
+     W. L. W. 2000, MNRAS, 318: 817-826
+
+Schaye et al. 2003Schaye, J., Aguirre, A., Kim, T.-S., Theuns, T., Rauch, M., &
+
+     Sargent, W. L. W. 2003, Ap.J., 596: 768-796
+
+Scheuer 1965Scheuer, P. A. G. 1965, Nature, 207: 963-
+
+Schiminovich et al.(2005)Schiminovich, D., et al. 2005, Ap.J. Lett., 619, L47
+
+Schmidt et al. 1995Schmidt, M., Schneider, D. P., & Gunn, J. E. 1995, A.J., 110:
+
+     68-77
+
+Schneider et al. 2005Schneider, D. P., et al. 2005, A.J., 130: 367-380
+
+Scott & Rees 1990Scott, D., Rees, M.J. 1990, MNRAS, 247, 510-516
+
+Seshadri & Subramanian (1998)Seshadri, T., and Subramanian, K. 1998, Phys.
+
+     Rev. D., 58, 063002
+
+Seljak & Zaldarriaga(1996)Seljak, U., & Zaldarriaga, M. 1996, Ap.J., 469, 437
+
+Seljak et al.(2005)Seljak, U., et al. 2005, Phys. Rev. D., 71, 103515
+
+Sethi 2005Sethi, S. 2005, MNRAS, 363, 818
+
+Shklovsky 1964Shklovsky, I. S. 1964, Astron. Zh. 41: 801
+
+Shull et al.(2004)Shull, J. M., Tumlinson, J., Giroux, M. L., Kriss, G. A., &
+
+     Reimers, D. 2004, Ap.J., 600: 570-579
+
+Sokasian et al. 2002Sokasian, A., Abel, T., Hernquist, L. 2002, MNRAS, 332, 601
+
+Songaila 2004Songaila, A. 2004, A.J., 127: 2598-2603
+
+Songaila 2005Songaila, A. 2005, A.J., in press (astro-ph/0507649)
+
+Songaila & Cowie 2002Songaila, A., & Cowie, L. L. 2002, A.J., 123: 2183-2196
+
+Songaila, Hu, Cowie, & McMahon 1999Songaila, A., Hu, E. M., Cowie, L. L., &
+
+     McMahon, R. G. 1999, Ap.J. Lett., 525: L5-L8
+Cosmic Reionization                                                              69
+
+Spergel, D., Verde, L., Peiris, H. et al. ApJS, 148, 175-194
+
+Spergel, D., Bean, R., O’Dore, M. et al. ApJS, in press (astroph/0603449
+
+Steidel et al. (1999)Steidel, C. C., Adelberger, K. L., Giavalisco, M., Dickinson,
+
+  M. and Pettini, M. 1999, Ap.J., 519, 1.
+
+Steidel et al. 2001Steidel, C. C., Pettini, M., & Adelberger, K. L. 2001, Ap.J.,
+
+  546: 665-671
+
+Stern et al. 2005Stern, D., Yost, S. A., Eckart, M. E., Harrison, F. A., Helfand,
+
+  D. J., Djorgovski, S. G., Malhotra, S., & Rhoads, J. E. 2005, Ap.J., 619: 12-18
+
+Stiavelli, Fall, & Panagia 2004Stiavelli, M., Fall, S. M., & Panagia, N. 2004, Ap.J.
+
+  Lett., 610: L1-L4
+
+Subrahmanyan et al. 1998Subrahmanyan, R., Kesteven, M., Ekers, R., Sinclair,
+
+  M., Silk, J. 1998 MNRAS 298, 1189-1197
+
+Subrahmanyan et al. 2005Subrahmanyan, R., Chippendale, A., Ekers, R. 2005,
+
+  ATNF newsletter, 56, 18-19
+
+Sunyaev & Zeldovich(1980)Sunyaev, R. A., & Zeldovich, I. B. 1980, MNRAS,
+
+  190, 413
+
+Tagliaferri et al. 2005Tagliaferri, G. et al. 2005, A&A, 443, L1
+
+Taniguchi et al. 2005Taniguchi, Y., et al. 2005, PASJ, 57: 165-182
+
+Tegmark et al.(2004)Tegmark, M., et al. 2004, Phys. Rev. D., 69, 103501
+
+Theuns et al. 2002aTheuns, T., Schaye, J., Zaroubi, S., Kim, T.-S., Tzanavaris,
+
+  P., & Carswell, B. 2002,
+
+Theuns et al.(2002b)Theuns, T., Bernardi, M., Frieman, J., Hewett, P., Schaye,
+
+  J., Sheth, R. K., & Subbarao, M. 2002, Ap.J. Lett., 574: L111-L114
+
+  Ap.J. Lett., 567: L103-L106
+
+Thompson et al. 2005Thompson, R. I., et al. 2005, A.J., 130: 1-12
+70                                                             Fan, Carilli, Keating
+
+Totani et al. 2006Totani, T., et al. 2006, PASJ, in press
+
+Tozzi et al. 1999Tozzi, P., Madau, P., Meiksin, A., Rees, M. 2000, ApJ, 528,
+
+     597-606
+
+Tran et al. 2004Tran, K.-V. H., Lilly, S. J., Crampton, D., & Brodwin, M. 2004,
+
+     Ap.J. Lett., 612: L89-L92
+
+Venkatesan et al. 2001Venkatesan, A., Giroux, M. L., & Shull, J. M. 2001, Ap.J.,
+
+     563: 1-8
+
+Walter et al. 2003Walter, F., Bertoldi, F., Carilli, C., et al. 2003, Nature, 424,
+
+     406-408
+
+Walter et al. 2004Walter, F., Carilli, C., Bertoldi, F. et al. 2004, ApJ, 615, L17-20
+
+Wang et al. 2005Wang, X., Tegmark, M., Santos, M., Knox, L. 2005, ApJ, in
+
+     press (astroph-0501081)
+
+Wang & Hu 2005Wang, X., Hu, W. 2005, ApJ, in press (astroph/0511141)
+
+Warren et al. 1994Warren, S. J., Hewett, P. C., & Osmer, P. S. 1994, Ap.J., 421:
+
+     412-433
+
+Webb et al. 1992Webb, J. K., Barcons, X., Carswell, R. F., & Parnell, H. C.
+
+     1992, MNRAS, 255: 319-324
+
+Weinberg et al. 1997Weinberg, D. H., Miralda-Escude, J., Hernquist, L., & Katz,
+
+     N. 1997, Ap.J., 490: 564-570
+
+Weiss et al.(2005)Weiss, R., et al. 2003, http://www.nsf.gov/mps/ast/tfcr.jsp
+
+White et al. 2003White, R. L., Becker, R. H., Fan, X., & Strauss, M. A. 2003,
+
+     A.J., 126: 1-14
+
+White et al. 2005White, R. L., Becker, R. H., Fan, X., & Strauss, M. A. 2005,
+
+     A.J., 129: 2102-2107
+
+Willott et al. 2005Willott, C. J., Percival, W. J., McLure, R. J., Crampton, D.,
+Cosmic Reionization                                                             71
+
+  Hutchings, J. B., Jarvis, M. J., Sawicki, M., & Simard, L. 2005, Ap.J., 626:
+
+  657-665
+
+Wolf et al. 2003Wolf, C., Wisotzki, L., Borch, A., Dye, S., Kleinheinrich, M., &
+
+  Meisenheimer, K. 2003, A&A, 408: 499-514
+
+Wouthuysen 1952Wouthuysen, S. 1952, AJ, 57, 31-33
+
+Wyithe & Loeb 2003Wyithe, J. S. B., & Loeb, A. 2003, ApJ, 586, 693
+
+Wyithe & Loeb 2004Wyithe, J. S. B., & Loeb, A. 2004, Nature, 432: 194-196
+
+Wyithe & Loeb 2005aWyithe, J. S. B., & Loeb, A. 2005a, Ap.J., 625: 1-5
+
+Wyithe & Loeb 2005bWyithe, J. S. B., & Loeb, A. 2005b, ApJ, 625, 1
+
+Wyithe et al. 2005Wyithe, J.S., Loeb, A., Carilli, C. 2005, ApJ, 628, 575-582
+
+Wyithe & Loeb 2004Wyithe, J.S., Loeb, A. 2004b, ApJ, 610, 117
+
+Wyithe et al. 2005bWyithe, J.S., Loeb, A., Barnes, D. 2005, ApJ, 634, 715
+
+Yan & Windhorst 2004aYan, H., & Windhorst, R. A. 2004a, Ap.J. Lett., 600:
+
+  L1-L5
+
+Yan & Windhorst 2004bYan, H., & Windhorst, R. A. 2004b, Ap.J. Lett., 612:
+
+  L93-L96
+
+York et al. 2000York, D. G., et al. 2000, A.J., 120: 1579-1587
+
+Yu & Lu 2005Yu, Q., & Lu, Y. 2005, Ap.J., 620, 31
+
+Zahn et al.(2005)Zahn, O., Zaldarriaga, M., Hernquist, L., & McQuinn, M. 2005,
+
+  Ap.J., 630, 657
+
+Zaldarriaga & Seljak(1997)Zaldarriaga, M., & Seljak, U. 1997, Phys. Rev. D., 55,
+
+  1830
+
+Zaldarriaga(1997)Zaldarriaga, M. 1997, Phys. Rev. D., 55, 1822
+
+Zaldarriaga & Seljak(1998)Zaldarriaga, M., & Seljak, U. 1998, Phys. Rev. D., 58,
+
+  023003
+72                                                         Fan, Carilli, Keating
+
+Zaldariagga et al. 2004aZaldarigga, M., Furlanetto, S., Henquist, L. 2004, ApJ,
+
+     608, 622-635
+
+Zaldariagga et al. 2004bZaldarigga, M., Furlanetto, S., Loeb, A. 2004, ??
+
+Zhang, Anninos, & Norman 1995Zhang, Y., Anninos, P., & Norman, M. L. 1995,
+
+     Ap.J. Lett., 453: L57- L60
+
+Zhang et al.(2004)Zhang, P., Pen, U., Trac, H. 2004, MNRAS, 355, 451 - 460
+
+Zheng et al.(2004)Zheng, W., et al. 2004, Ap.J., 605: 631-644
+
+Zygelman 2005Zygelman, B. 2005, ApJ, 622, 1356-1362
+Cosmic Reionization                                                      73
+
+
+
+
+Figure 1: Moderate resolution spectra of nineteen SDSS quasars at 5.74 < z <
+
+6.42. Adapted from Fan et al. (2006b)
+74                                                       Fan, Carilli, Keating
+
+
+
+
+Figure 2: Transmitted flux blueward of Lyα emission as a function of redshift
+
+from z ∼ 2 to 6.3 using Keck/ESI and HIRES data. Large open squares are points
+
+data for possible BAL quasars. Flux was computed in bins of 15Å. Adapted from
+
+Songaila (2004)
+Cosmic Reionization                                                              75
+
+
+
+
+Figure 3: Evolution of Optical depth with combined Lyα and Lyβ results. The
+
+dash line is for a redshift evolution of τGP ∝ (1 + z)4.3 . At z > 5.5, the best fit
+
+evolution has τGP ∝ (1 + z)>10.9 , indicating an accelerated evolution. The large
+
+open symbols with error bars are the average and standard deviation of optical
+
+depth at each redshift. The sample variance increases also increases rapidly with
+
+redshift. Adapted from Fan et al. (2006b).
+76                                                                                               Fan, Carilli, Keating
+
+
+
+
+                                                               Wavelength
+                                                 8400               8600                        8800
+                                    10   6
+                                                         SDSS J1030+0524
+                                    8    4
+
+                                    6    2
+                                                         Lyman Beta
+                                    4    0
+
+
+
+
+      Flux [10-18 erg cm-2s-1A-1]
+                                    2
+                                                         Lyman Alpha
+                                    0
+
+                                         5.80   5.90    6.00            6.10             6.20          6.30
+                                                 8400               8600                        8800
+                                    10
+                                         6                                 SDSS J1148+5251
+                                    8
+                                         4
+                                    6                                      Lyman Beta
+                                         2
+                                    4
+                                         0
+                                    2
+                                                                           Lyman Alpha
+                                    0
+
+                                         5.80   5.90    6.00               6.10          6.20          6.30
+                                                                Redshift
+
+
+
+
+Figure 4: Close-up of the Lyα and Lyβ troughs in the two highest redshift quasars
+
+currently known. SDSS J1030+0524 (z = 6.28) shows complete Gunn-Peterson
+
+absorption in both Lyα and Lyβ , where SDSS J1148+5251 (z = 6.42) has clear
+
+transmission, suggesting large line of sight variance at the end of reionization.
+
+Adapted from White et al. (2003).
+Cosmic Reionization                                                             77
+
+
+
+
+Figure 5: Distributions of dark gaps, defined as regions in the spectra where all
+
+pixel having observed optical depth larger than 2.5 for Lyα transition. Upward
+
+arrows are gaps immediately blueward of quasar proximity zone, therefore the
+
+length is only a lower limit. Solid lines with error bars are average depth lengths
+
+with 1-σ dispersion at each redshift bin. Long dark gaps start to appear at
+
+z ∼ 5.6, with the average gap length increases rapidly at z > 6, marking the end
+
+of reionization. It is compared with simulation of Paschos & Norman (2005), in
+
+which dashed and dotted lines are for moderate and high spectral resolutions.
+
+The simulation has an overlapping redshift at z ∼ 7. Adapted from Fan et al.
+
+(2006b).
+78                                                          Fan, Carilli, Keating
+
+
+
+
+Figure 6: Evolution of volume-averaged neutral hydrogen fraction of the IGM.
+
+The solid points with error bars are measurements based on the nineteen high-
+
+redshift quasars. The dashed and dashed-dotted-dashed lines is volume-averaged
+
+results from the A4 and A8 simulations of Gnedin (2004). The neutral fraction
+
+inferred from the observations is comparable to that of the transition from over-
+
+lapping stage to post-overlap stage of reionization in simulations (Gnedin 2000).
+
+Adapted from Fan et al. (2006b)
+Cosmic Reionization                                                            79
+
+
+
+
+Figure 7: Evolution of IGM temperature for a quasar-like ionizing spectrum,
+
+assuming different reionization history. In models where the Universe is reionized
+
+early and remained such afterwards, the IGM temperature is too cold comparing
+
+to measurements at z = 2 − 4. Model A has a single-episode reionization at
+
+z = 14 and remains highly ionized thereafter. Model B also has early reionization,
+
+but experienced a drop in ionizing flux until z ∼ 7 at which it undergoes a
+
+second period of reionization. To prevent overcooling, a major heating event
+
+that resulted in large change in the IGM ionization state would have to occur at
+
+z = 6−10. However, different history of HeII reionization history may complicate
+
+this intepretation. Adapted from Hui & Haiman (2003).
+80                                                          Fan, Carilli, Keating
+
+
+
+
+Figure 8: The luminosity function of Lyα galaxies at z ∼ 6.5 and z ∼ 5.7, from
+
+the complications in Malhotra & Rhoads (2004). The luminosity function shows
+
+little evolution between these redshifts, consistent with a largely ionized IGM at
+
+z ∼ 6.5. Adapted from Malhotra & Rhoads (2004).
+Cosmic Reionization                                                               81
+
+
+
+
+Figure 9: Large angular scale temperature (color scale) and polarization (lines)
+
+simulations in real-space. The left panel shows a simulation with no reionization
+
+and the right panel shows the effects of instantaneous reionization with τ = 0.17.
+
+Both maps and CMB observables are smoothed with a 4◦ beam. Reionization
+
+does not affect the large-scale temperature pattern but it produces roughly ten-
+
+times larger polarization at large scales – note the change in scale for polarization
+
+between the two panels. The maximum polarization in the right panel is ≃ 800
+
+nK. Figures courtesy of Eric Hivon.
+82                                                        Fan, Carilli, Keating
+
+
+
+
+Figure 10: Measurements of the large-angular scale gradient-mode polarization
+
+power spectrum CℓE for angular scales greater than 1◦ ⇔ ℓ . 200. The solid line
+
+is the polarization power spectrum for the WMAP best fit cosmological model,
+
+with τ = 0.09 (4,page) The dashed line displays the polarization power spectrum
+
+for a model generated using the WMAP cosmological parameters but with τ = 0,
+
+which is consistent with the E-mode detections by BOOMERANG, CBI, DASI,
+
+and CAPMAP and the upper limit of POLAR.
+Cosmic Reionization                                                         83
+
+
+
+
+Figure 11: Measurements of the temperature-polarization cross-correlation power
+
+spectrum CℓT E . The solid line is the power spectrum for the WMAP best fit
+
+cosmological model, with τ = 0.09 (4, page).
+84                                                            Fan, Carilli, Keating
+
+
+
+
+Figure 12:   The cosmic star formation history (uncorrected for extinction) in-
+
+tegrated down to 0.3L∗z=3 (top panel) and 0.04L∗z=3 (bottom panel). These lu-
+
+minosities correspond to the faint-end limits for z850 and i775 -dropout probes at
+
+z ∼ 7 − 8 and z ∼ 6, respectively. The large red circle denotes determination at
+
+z ∼ 6 from Bouwens et al. (2006). and compared with previous determinations
+
+by Schiminovich et al. (2005) (open squares), Steidel et al. (1999) (green crosses),
+
+Giavalisco et al. (2004b) (black diamonds), Bouwens et al. 2004a (magenta tri-
+
+angle), Bunker et al. (2004) (blue square), Bouwens et al. (2004b) (magenta
+
+pentagon), and Bouwens et al. (2005) (magenta square). The figure is divided
+
+into two panels to illustrate how much stronger the evolution is at the bright end
+
+of the LF (& 0.3L∗z=3 ) than it is when integrated to the i-dropout faint-end limit
+
+(0.04L∗z=3 ). Adapted from Bouwens et al. (2005).
+Cosmic Reionization                                                             85
+
+
+
+
+Figure 13: The simulated HI 21cm brightness temperature distribution during
+
+reionization at z = 12, 9, 7 (Furlanetto et al. 2004a; Zaldariagga et al. 2004a).
+86                                                                             Fan, Carilli, Keating
+
+
+
+
+                                            2
+                                           10
+
+
+
+
+                                  (mK )
+                                 2
+                                            0
+                                           10
+
+
+                                 2
+                                                                            z=8
+                                 (k)/2 π
+                                            −2
+                                           10
+
+                                            2
+                                     ∆T    10
+
+                                 3k P
+                                            0
+                                           10
+
+
+
+                                                                            z = 12
+                                            −2
+                                           10    −2    −1               0             1
+                                                10    10               10            10
+                                                                 −1
+                                                            k (Mpc )
+
+
+
+
+Figure 14: Left: Global (all sky) HI signal from reionization (Gnedin & Shaver
+
+2003). The shaded region shows the expected thermal noise in a carefully con-
+
+trolled experiment. Center: Predicted HI 21cm brightness temperature power
+
+spectrum (in log bins) at redshifts 8 and 12 (McQuinn et al. 2006). The thin
+
+black line shows the signal when density fluctuations dominate. The dashed green
+
+line shows the predicted signal for x̄i = 0.2 at z = 12, and x̄i = 0.6 at z = 8, in
+
+the Furlanetto et al. (2004) semi-analytic model. The thick blue line shows the
+
+SKA sensitivity in 1000hrs. The thick red dot-dash show the sensitivity of the
+
+pathfinder experiment LOFAR. The cutoff at low k is set by the primary beam.
+
+Right: The simulated SKA spectrum of a radio continuum source at z = 10
+
+(Carilli et al. 2002). The straight line is the intrinsic power law (synchrotron)
+
+spectrum of the source. The noise curve shows the effect of the 21cm line in the
+
+neutral IGM, including noise expected for the SKA in a 100 hour integration.
+Cosmic Reionization                                                             87
+
+
+
+
+Figure 15: The volume averaged neutral fraction of the IGM versus redshift using
+
+various techniques. The dash line shows the fiducial model of Gnedin (2004) with
+
+late reionization at z = 6 − 7, the solid line shows an idealized model with double
+
+reionization as described in Cen (2003a), and the dotted line illustrates the model
+
+with early reionization at z ∼ 14.
+

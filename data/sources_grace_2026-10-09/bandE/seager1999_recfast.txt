@@ -1,0 +1,470 @@
+Accepted by The Astrophysical Journal Letters
+Preprint typeset using LATEX style emulateapj v. 04/03/99
+
+A NEW CALCULATION OF THE RECOMBINATION EPOCH
+S. Seagera , D. D. Sasselov1 D. Scottb
+a Astronomy Department, Harvard University, 60 Garden Street, Cambridge, MA 02138
+b Department of Physics & Astronomy, University of British Columbia, Vancouver, BC, V6T 1Z1
+
+arXiv:astro-ph/9909275v2 16 Sep 1999
+
+Accepted by The Astrophysical Journal Letters
+
+ABSTRACT
+We have developed an improved recombination calculation of H, He I, and He II in the early Universe
+which involves a line-by-line treatment of each atomic level. We find two major differences compared
+with previous calculations. Firstly, the ionization fraction xe is approximately 10% smaller for redshifts
+<
+∼ 800, due to non-equilibrium processes in the excited states of H. Secondly, He I recombination is
+much slower than previously thought, and is delayed until just before H recombines. We describe the
+basic physics behind the new results and present a simple way to reproduce our calculation. This should
+enable fast computation of the ionization history (and quantities such as the power spectrum of CMB
+anisotropies which depend on it) for arbitrary cosmologies, without the need to consider the hundreds
+of atomic levels used in our complete model.
+Subject headings: cosmology: theory — atomic processes — early universe — cosmic microwave
+background
+darriaga, Spergel & Seljak (1997), to compute accurate
+CMB power spectra for different cosmologies.
+
+1. INTRODUCTION
+
+We have recently revisited the calculation of the recombination epoch of the early Universe by making as
+few approximations as possible and trying to retain full
+accuracy (Seager, Sasselov, & Scott 1999, hereafter Paper I). We were motivated by the potential to measure
+(with the MAP and Planck satellites) CMB anisotropies
+at the roughly 1% level over a wide range of angular scales,
+and indications (Hu et al. 1995, hereafter HSSW) that the
+existing solution for hydrogen and helium recombination
+has uncertainties at that level. Indeed, we uncovered a
+number of minor improvements, as well as two more major
+effects which change the ionization history in a significant
+way.
+Detailed understanding of the recombination process is
+crucial for modeling the power spectrum of CMB anisotropies. Since the seminal work of the late 1960s (Peebles
+1968, Zel’dovich et al. 1968), several refinements have been
+introduced (see discussion in HSSW and Paper I), but little has changed. Modern codes for evolving the ionization
+fraction xe = ne /nH (where ne is the number density of
+electrons and nH is the total number density of H nuclei)
+have been based almost entirely on the single differential
+equation introduced 30 years ago, with a more accurate recombination coefficient, but no other basic improvement.
+With today’s computing power, there is not the necessity for making sweeping approximations that existed 30
+years ago. We believe our work represents the most accurate picture to date of how exactly the Universe as a
+whole became neutral. In this Letter we summarize what
+is new in the physics involved and present an approximate
+treatment of our set of equations which accurately reproduces our complete calculation. We discuss in detail the
+physical basis for each approximation and pay attention
+to the limits of validity. The paper is supplemented by
+a computer code (recfast) which can be used to do the
+calculation, and in conjunction with, e.g. cmbfast by Zal-
+
+2. HOW THE UNIVERSE BECAME NEUTRAL
+
+2.1. Our Multi-level Calculation
+In the canonical Hot Big Bang picture, the recombination epoch is when the Universe became cool enough
+for protons to capture electrons and form neutral hydrogen. This recombination process was not instantaneous,
+because the electrons, captured into different atomic energy levels, could not cascade instantaneously down to the
+ground state. The electrons were impeded because of fast
+reionizations out of excited states due to the huge reservoir of low energy photons, and because of the high optical depth of the Lyman lines and continuum transitions
+to ground state. Any Lyman line or continuum transition to the ground state emitted a photon with energy
+where there were few blackbody photons, which immediately photoexcited or photoionized a neighbouring atom in
+the ground state. Atoms reached the ground state through
+either cosmological redshifting of the Ly α line photons, or
+by the 2s–1s two photon process. Because these rates
+from n=2 to the ground state were much slower than the
+net recombination rate to n=2, a “bottleneck” occured
+which slowed down the entire recombination process. The
+Universe expanded and cooled faster than recombination
+could be completed, and a small fraction of free electrons
+and protons remained. This fraction, during and after
+recombination, affects the CMB anisotropies through the
+precise shape of the thickness of the photon last scattering
+surface (i.e. the visibility function).
+The ‘standard’ methodology considers an ‘effective 3level atom’ with a ground state, first excited state (n=2)
+and continuum, with the states n > 2 represented by a
+recombination coefficient. A single ordinary differential
+equation can then be derived to describe the ionization
+fraction, equation (1) (See Peebles, 1968, 1993). Many
+1
+
+2
+
+A New Calculation of the Recombination Epoch
+
+assumptions go into this derivation, including: that H excited states are in equilibrium with the radiation; that
+stimulated deexcitation is negligible for the Ly α transition; that a simple recombination coefficient can be used;
+that every net recombination results in a ground state
+atom, so that the ground state number density n1 =
+nH − np (where nH is the total hydrogen number density,
+ionized or neutral, while np is the proton number density,
+i.e. ionized H); that the Ly α redshifting can be dealt with
+using a simple escape probability; that collisional processes
+are negligible; and that He can be ignored.
+Our new methodology, made possible with modern computing power, is to calculate recombination with as few
+approximations as possible. Instead of evolving a single ODE for dxe /dt for H recombination, we evolve one
+ODE for each of 300 atomic energy level populations, as
+well as one for electrons and one for the matter temperature. With this level-by-level treatment, we include thousands of bound-bound transitions which correctly couple
+the ODEs, and we calculate recombination to each atomic
+level as it evolves with redshift which eliminates the need
+for an effective recombination coefficient (α in §3). We
+also included other effects (which turned out to be negligible), such as collisional transitions, feedback of distortions to the radiation field, complete heating and cooling
+terms, and H chemistry. See Paper I for full details on this
+method. Our new method tests the approximations used
+in deriving the standard ODE, and we find all of them
+to be valid, except for the equilibrium assumption. The
+causes and consequences of this are discussed in §2.2.1,
+and the effect can be approximated using the single ODE
+approach, with a small modification that artificially speeds
+up the recombination at low z, as discussed in §3.
+With larger ionization potentials, He I and He II recombined before H. He II recombination shows no deviation from previous calculations, in that we find only
+small differences compared with Saha equilibrium. However, He I recombination is important for the CMB anisotropies (HSSW), and to some extent for the chemistry
+in the early Universe (Stancil et al. 1999), and requires
+closer scrutiny. Our code evolves He I and He II in the
+same level-by-level method describe above, and simultaneously with H. Previous calculations for He I used the
+Saha equilibrium method (e.g. HSSW) or an effective 3level method (Matsuda, Sato & Takeda 1971). We find
+that the excited states of He I remain in equilibrium with
+the radiation (unlike H), but that accurate treatment of
+He I results in a much delayed recombination. This can
+also be reproduced using a simple ODE for He I.
+2.2. What is New in the Physics
+2.2.1. Hydrogen
+Neutral H production is slightly faster when using our
+multi-level calculation, compared to the standard calculation (updated with the most recent parameters (HSSW)),
+as shown in Figure 2.2.1.
+For the standard equilibrium case, the net bound-bound
+rates are zero, and this is an implicit assumption in deriving equation (1). We find that at z <
+∼ 1000, the net boundbound rates become different from zero, because at low
+temperatures, the cool blackbody radiation field means
+there are few photons for photoexcitation of high energy
+
+transitions (e.g. 70–10, 50–4 etc.). In this case spontaneous deexcitation dominates, causing a faster downward
+cascade to the n=2 state. In other words, once an electron is captured to, say, n=70, it can cascade down to
+the n=2 state faster than in the equilibrium case, because
+few photons are around to photoexcite it. In addition, the
+faster downward cascade rate is faster than the photoionization rate from the upper state, and one might view this
+as radiative decay stealing some of the depopulation “flux”
+from photoionization. Both the faster downward cascade
+and the lower photoionization rate contribute to the faster
+net recombination rate.
+
+Fig. 1: Multi-level hydrogen recombination for the standard
+CDM parameters Ωtot = 1.0, ΩB = 0.05, H0 = 50, YP =
+0.24, T0 = 2.728 K. The two lines are the complete calculation
+of Paper I (dotted) and the standard (effective 3-level atom)
+calculation (dashed).
+
+An imbalance develops as the background radiation continues to cool while the entire Lyman series remains optically thick (the “bottleneck” gets worse). A Boltzmann
+distribution relative to n=2 is no longer sustainable − the
+excited states become progressively overpopulated. (Note
+that this is not a population inversion.) The radiation
+field is cool, but strong, and able to keep neighbouring
+states well coupled, as well as to hold the highest Rydberg states in equilibrium with each other. However, in
+comparison with the standard equilibrium capture-cascade
+calculation for α, this unusual situation leads us to higher
+effective recombination rates to the majority of excited
+states, without increasing photoionization proportionally.
+This results in a higher net rate of production of neutral
+hydrogen atoms.
+Because the net effect of our new H calculation is a faster
+recombination (a lower freeze out ionization fraction), our
+results can be reproduced by artificially speeding up recombination in the standard calculation, simply by multiplying the recombination and ionization coefficient by a
+‘fudge factor’ F .
+2.2.2. Helium
+Our new multi-level calculation shows a significantly delayed He I recombination compared to previous calculations. In fact, for our low ΩB models He I recombination
+is still finishing at the very beginning of H recombination.
+Figure 2.2.2 shows the ionization fraction xe through He II,
+He I and H recombination, plotted against the standard H
+calculation and He II and He I recombination calculated
+
+Seager, Sasselov & Scott
+using the Saha ionization equilibrium equation.
+
+3
+
+below). Because the triplet excited states remain unpopulated during recombination, the effective 3-level atom is
+the ground state 11 s, the first singlet excited state, and
+the continuum.
+3. THE APPROXIMATE SET OF EQUATIONS
+
+Fig. 2: Helium and hydrogen recombination for the standard
+CDM parameters with YP = 0.24 and T0 = 2.728 K. The first
+step from right to left is recombination of He III to He II, the
+second step is He II to He I. The dashed line is our new He
+I calculation, while the dotted line is the He Saha equilibrium
+recombination and the H standard calculation.
+
+The recombination of He I is slow for the same reasons that H recombination is, namely because of the optically thick n1 p–11 s transitions which make cascades to
+the ground state slow, and the exclusion of recombinations
+to the ground state. In other words He I follows a Case
+B recombination with an inhibition factor. Because the
+“bottleneck” at n=2 largely controls recombination, it is
+not surprising that He I and H recombination occur at a
+similar redshift; the ionization energy of n=2 is similar in
+both.
+The physics of He I recombination is different than that
+for H recombination because of its different atomic structure. More specifically, the high excited states of He I are
+much more strongly packed towards the continuum compared to those of H: the energy difference between the 3p
+levels and the continuum is 1.6 eV for He I versus 1.5 eV
+for H, compared to 24.6 eV versus 13.6 eV for the ground
+state. Because of this, the radiation field has a stronger effect on the excited states of He I than those of H. This has
+3 main consequences: 1) The strong radiation field during
+He I recombination keeps the ratio of photoionization rate
+to downward cascade rate higher than the H case, resulting
+in a slower recombination than H. 2) The strong radiation
+field also causes the triplet states (e.g. n3 p–n1 s) to be virtually unpopulated. The triplets have only forbidden (i.e.
+very slow) transitions with the singlets, and a metastable
+“ground state” 4.77 eV from the continuum. 3) The radiation field is strong enough that the excited states remain in
+equilibrium with the radiation throughout recombination.
+There is one possibility to speed up the slow He I recombination. It is the existence of some neutral H, which
+could ‘steal’ He I resonance line photons, invalidate the effective Case B by removing the “bottleneck” at n=2, and
+make it a Saha equilibrium recombination instead. However, our detailed calculation shows that the rate for this
+process never comes close to being significant.
+Because He I recombination simply follows a Case B
+recombination and unlike for H the excited singlet states
+remain in equilibrium throughout recombination, it can be
+reproduced using the effective 3-level single ODE (shown
+
+Here we present a set of equations which allow a simple
+way to reproduce our new recombination results from the
+multi-level code. Though approximate, the set provided
+below includes more of the recombination physics than
+the ‘standard’ calculation, and reproduces approximately
+(via parametrizations) the departures from equilibrium in
+H, and the slow He I recombination found in Paper I.
+However, a word of caution is necessary – the set of
+equations below have a range of validity which corresponds
+roughly to the choice of typical cosmologies discussed in
+Paper I. Attempts to calculate recombination in more extreme cosmologies, or with the addition of extra physics,
+will probably require evolution of the full set of equations
+of the multi-level code. In addition, our approximations
+here are designed for optimal use with the CMB anisotropies, and do not fit as well the range below z ≤ 300,
+where molecular formation becomes important. Therefore
+detailed study of the chemistry in the early universe will
+probably also require evolution of the full set of equations
+of the multi-level code.
+The approximate set of equations below — two ODEs
+for the ionization fractions of H and He I, and an equation
+for the matter temperature — should be solved simultaneously. We recommend leaving out He II recombination
+entirely, since it has no effect on the power spectrum of
+CMB anisotropies. Otherwise Saha equilibrium is an adequate approximation. The two ODEs derive from consideration of detailed balance in the effective 3-level atoms of
+H and He I (see Peebles, 1968, 1993). The total recombination coefficients in each case have been parametrized
+to reproduce our multi-level results. The equation of the
+total rate of change of the matter temperature is a truncated version of Paper I eq. (69), including adiabatic and
+Compton cooling terms. The set is as follows:
+
+dxp
+= xe xp nH αH − βH (1 − xp )e−hνH2s /kTM
+dz
+(1+KH ΛH nH (1−xp ))
+× H(z)(1+z)(1+K
+,
+H (ΛH +βH )nH (1−xp ))
+
+(1)
+
+
+dxHeII 
+= xHeII xe nH αHeI − βHeI (fHe − xHeII )e−hνHeI21 s /kTM
+dz
+(2)
+
+−hνps /kTM
+)
+1 + KHeI ΛHe nH (fHe − xHeII )e
+,
+×
+H(z)(1 + z) 1 + KHeI (ΛHe + βHeI )nH (fHe − xHeII )e−hνps /kTM
+αH = F 10−19
+
+r
+TM
+αHeI = q 
+T2
+
+1+
+
+r
+
+TM
+T2
+
+atb
+m3 s−1 ,
+1 + ctd
+!1−p
+
+1+
+
+r
+
+(3)
+
+!1+p −1
+TM
+ m3 s−1 ,
+T1
+(4)
+
+4
+
+A New Calculation of the Recombination Epoch
+
+xe
+2TM
+8σT aR TR4
+dTM
+(TM −TR )+
+=
+.
+dz
+3H(z)(1 + z)me c 1 + fHe + xe
+(1 + z)
+(5)
+Equation (5) is for the matter temperature, which we
+recommend to use in the entire calculation above, due to
+the small but important effect resulting from the difference between TM and TR at low redshift. Below we list
+all constants and parameters which appear in the above
+equations.
+The constants are Boltzmann’s constant k, Planck’s constant h, the speed of light c, Thomson scattering cross
+section σT , the electron mass me , and the radiation constant aR . The three independent variables are proton fraction xp = np /nH , singly ionized helium fraction xHeII =
+nHeII /nH , and matter temperature TM . The dependent
+variable is the electron fraction xe = ne /nH = xp + xHeII .
+Here n refers to number density, and nH is the total hydrogen number density.
+Turning to the atomic data, the H Ly α rest wavelength is λH2p = 121.5682 nm. The H 2s–1s frequency
+νH2s = c/λH2p , is close enough to Ly α that the same averaged wavelength value can be used. The He I 21 p–11 s
+wavelength is λHeI21 p = 58.4334 nm. Note that the He I
+21 s–11 s frequency νHeI2s = c/60.1404 nm. Unlike for H,
+the separation of He I 21 p and 21 s is large enough that
+λHe21 p and λHe21 s must be distinguished, hence the extra
+exponential term in equation (2) over equation (1), with
+νHeI21 p21 s = νHeI21 p − νHeI21 s ≡ νps (where we define this
+last notation to save space). The H 2s–1s two photon
+rate is ΛH = 8.22458 s−1 (Goldman, 1989), while the He I
+21 s–11 s two photon rate is ΛHe = 51.3 s−1 (Drake et al.
+1969).
+Further, αH is the Case B recombination coefficient
+for H, from Hummer (1994), and fitted by Péquignot et
+al. (1991), with a = 4.309, b = −0.6166, c = 0.6703,
+d = 0.5300 and t = TM /104 K. The factor F is 1.14, and allows equation (1) to agree with our multi-level calculation
+by speeding up recombination. Note that it also enters into
+the coefficient β via α as described below. αHe is the Case
+B He I recombination coefficient for singlets, from Hummer and Storey (1998). The parameters are q = 10−16.744 ,
+p = 0.711, T1 = 105.114 K, and T2 fixed arbitrarily at
+3 K. This fit is good to < 0.1% over the relevant temperature range (4,000–10,000 K), and still fairly accurate over a
+much wider range of temperatures. The β are photoionization coefficients and are calculated from the recombination
+coefficients by: β = α(2πme k TM /h2 )3/2 exp(−hν2s /kTM ).
+Here ν2s and α are different for H and He I. Note that TM
+and ν2s are used here, and that incorrectly using TR or ν2p
+will cause a small but important difference for high baryon
+models.
+The cosmological parameters are the redshift z, Hubble
+factor H(z), the cosmological redshifting of H Lyα photons
+KH ≡ λ3H2p /(8πH(z)), the cosmological redshifting of He I
+21 p–11 s photons KHeI ≡ λ3HeI 1 /(8πH(z)), and the radi2 p
+ation temperature TR = T0 (1 + z). The primordial He
+abundance was taken to be YP = 0.24 by mass (Schramm
+& Turner, 1998), and the present-day CMB temperature
+T0 to be 2.728 K (the central value determined by the FIRAS experiment, Fixsen et al. 1996).
+
+A word of caution about the numerical computation.
+The equations are generally stiff, and so there are two
+approaches which can be taken. One is to use an integrator appropriate for stiff sets of equations, the other is to
+use Saha equilibrium values of xe to carry the integrations
+through the stiffest regimes (the beginning of each recombination epoch). The former case is not much slower, and
+certainly will work for arbitrary cosmology. For the latter
+case some experimentation may be necessary in order to
+efficiently choose the redshift to start and finish the Saha
+approximation for particular cosmologies, and then it may
+be faster.
+For He II it is sufficient to use the relevant Saha equation:
+(xe − 1 − fHe )xe
+(2πme kT )3/2 −χHeII /kT
+=
+e
+.
+1 + 2fHe − xe
+h3 nH
+
+(6)
+
+For the non-stiff integrator approach, this can be switched
+on at say z > 5,000. Then there will be a period when
+He is all singly ionized, and after say z = 3500 the Saha
+equation for He I needs to be switched on:
+(2πme kT )3/2 −χHeI /kT
+(xe − 1)xe
+=4
+e
+.
+1 + fHe − xe
+h3 nH
+
+(7)
+
+This can be used until say 1% of the He I has recombined,
+at which point the coupled ODEs can be solved using a
+routine such as dverk (Hull et al., 1976). It is also worth
+fixing the hydrogen to be fully ionized until some redshift,
+then using Saha for H to get recombination started. It
+may also save some integration time if He recombination
+is switched off once the fraction of neutral He has fallen
+below some small number.
+We found that in fact it was not necessary to evolve the
+H and He equations simultaneously, at least for cosmologies which we checked in detail. It appears to be sufficient
+to evolve each separately, even in cases where there is a
+small overlap in the recombination epochs. However, there
+is little computational expense in solving the 3 ODEs simultaneously, and so that is what we recommend.
+4. CONCLUSION
+
+We have presented the basic physics behind our improved recombination calculation which shows a significantly delayed He I recombination and a 10% lower residual xe at freezeout compared to previous calculations. We
+present a set of equations to reproduce our work, which
+are modified versions of those previously used because our
+new, detailed calculation agrees very well with the results
+of the standard calculation. This underscores the tremendous achievement of Peebles, Zel’dovich and colleagues in
+so fully understanding cosmic recombination 30 years ago.
+However, the goal of modern cosmology is to determine
+the cosmological parameters to an unprecedented level of
+precision, and in order to do so it is now necessary to understand very basic things, like recombination, much more
+accurately.
+We would like to thank George Rybicki, Ian
+Dell’Antonio, Avi Loeb and Han Uitenbroek for many useful conversations. Also David Hummer and Alex Dalgarno
+for discussions on the atomic physics, and Jim Peebles for
+
+Seager, Sasselov & Scott
+discussions on several aspects of this work. We thank Martin White, Wayne Hu and Uroš Seljak for insisting on this
+Letter, and the referee for helpful comments. DS is sup-
+
+5
+
+ported by the Canadian Natural Sciences and Engineering
+Research Council.
+
+REFERENCES
+Drake, G. W. F., Victor, G. A., & Dalgarno, A. 1969, Phys. Rev.,
+180, 25
+Fixsen, D. J., Cheng, E. S., Gales, J. M., Mather, J. C., Shafer, R.
+A. & Wright, E. L. 1996, ApJ, 473, 576
+Goldman, S. P. 1989, Phys. Rev. A, 40, 1185
+Hu, W., Scott, D., Sugiyama, N., & White, M. 1995, Phys. Rev. D,
+52, 5498
+Hull, T. E., Enright, W. H., & Jackson, K. R. 1976,
+http://www.cs.toronto.edu/NA/dverk.f.gz
+Hummer, D. G. 1994, MNRAS, 268, 109
+Hummer, D. G., & Storey, D. J. 1998, MNRAS, 297, 1073
+Matsuda, T., Sato, H. & Takeda, H. 1971, Prog. Theor. Phys., 46,
+416
+
+Peebles, P. J. E. 1968, ApJ, 153, 1
+Peebles, P. J. E. 1993, Principles of Physical Cosmology (Princeton
+University Press: Princeton), chapter 6
+Péquignot, D., Petitjean, P., & Boisson, C. 1991, A&A, 251, 680
+Schramm, D. N., & Turner, M. S. 1998, Rev. Mod. Phys., 70, 318
+Seager, S., Sasselov, D. D., & Scott, D. 1999, submitted to ApJ
+(Paper I)
+Seljak, U., & Zaldarriaga, M. 1996, ApJ, 463, 1
+Stancil et al., in preparation
+Zaldarriaga, M., Spergel, D. N., & Seljak, U. 1997, ApJ, 488, 1
+Zel’dovich, Ya. B., Kurt, V. G., & Sunyaev, R. A. 1968, Zh. Eksp.
+Teoret. Fiz., 55, 278. English transl., 1969, Sov. Phys. JETP, 28,
+146
+
+

@@ -1,0 +1,61 @@
+1636 NOTES Vol. 142
+
+thin in the ionization continuum, so that high-energy photons are redshifted past the
+limit before they can ionize.
+
+One interesting consequence of an essentially completely ionized medium is that there
+appears to be an appreciable optical depth in Thompson scattering for very distant ob-
+jects. Since the cross-section for this process is independent of frequency, its only effect
+is to attenuate the over-all level of radiation. The optical depth to redshift < is
+
+p= fond,
+which for the relativistic models is
+
+— tor [3qo+ go2— 1 ve 3go— 1
+and for the steady state is
+noe
+
+p=G n (it 2).
+
+At z = 2, these quantities are 0.38, 0.23, and 0.18 for go = 1, go = 3, and the steady
+state, respectively, and are in such a direction as to decrease the sensitivity of the
+m-log 2 relation to the model. In addition, these figures assume that all the material is
+in the ionized intergalactic medium, a fact that is certainly not known a priori; thus one
+does not know quite how much to correct for the effect, and the interpretation of data
+from very distant sources is no longer a straightforward application of the usual simple
+cosmological tests that involve only the parameters of the metric tensor plus knowledge
+of intrinsic source properties.
+
+We would like to express our sincere thanks to Dr. Maarten Schmidt, who kindly put
+the 3C 9 plates at our disposal for measurement. The qualitative conclusions in the
+present version of this paper are in agreement with the analysis of Dr. J. Bahcall and
+Dr. E. Salpeter (to be published). We are indebted to Dr. J. Bahcall and Dr. E. Salpeter
+and also Dr. D. Sciama for pointing out numerical errors in the circulated preprint.
+This work was supported by the National Science Foundation and the National Aero-
+nautics and Space Administration.
+
+James E. Gunn
+
+Bruce A, PETERSON
+May 26, 1965; revised July 26 and in proof on October 8, 1965
+
+Mowunt WILSON AND PALOMAR OBSERVATORIES
+CARNEGIE INSTITUTION OF WASHINGTON
+CALIFORNIA INSTITUTE OF TECHNOLOGY
+
+REFERENCES
+
+Allen, C. W. 1963, Astrophysical Quantities (London: Athlone Press).
+Field, G. 1962, Ap. J., 135, 684.
+
+Field, G., and Henry, R. 1964, Ap. J., 140, 1002.
+
+Karzas, W., and Latter, R. 1961, Ap. J. Suppl, 6, 167.
+
+Sandage, A. 1961a, Ap. J., 133, 355.
+
+. 19618, ibid., 134, 916.
+
+Schmidt, M. 1965, Ap. J., 141, 1295.
+
+© American Astronomical Soctety = Provided By the NASA Astrophysics Bats System

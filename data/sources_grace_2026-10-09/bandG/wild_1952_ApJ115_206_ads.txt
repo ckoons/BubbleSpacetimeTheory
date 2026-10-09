@@ -1,0 +1,1109 @@
+THE RADIO-FREQUENCY LINE SPECTRUM OF ATOMIC HYDROGEN
+AND ITS APPLICATIONS IN ASTRONOMY
+J. P. Wild
+Division of Radiophysics, Commonwealth Scientific and
+Industrial Research Organization, Australia
+Received September 8, 1951
+ABSTRACT
+Formulae are obtained for the frequencies, transition probabilities, and natural widths of the discrete lines of atomic hydrogen that fall within the radio spectrum. Such lines are due to transitions within
+either the fine structure or the hyperfine structure of the energy levels.
+The conditions necessary for the formation of observable emission and absorption lines are examined.
+Thence an inquiry is made into which of the hydrogen lines are likely to be observable from astronomical systems. It is found
+that the sun may give a detectable absorption line at about 10,000 Mc/sec, corresponding to the 22Si/2-22P3/2 fine-structure transition, but that other solar fines are not likely to be
+observable. From the interstellar gas, the emission line already observed (i.e., the 1420 Mc/sec hyperfine-structure line) is probably the only detectable hydrogen line. The importance of this fine in the study
+of the interstellar gas is discussed. Some general conclusions are drawn from the preliminary evidence
+regarding the motion and kinetic temperature of the regions of un-ionized hydrogen. The ratio data are
+used to obtain a measure of the product of “galactic thickness” and average hydrogen concentration.
+I. INTRODUCTION
+The first astronomical observation of a spectral line in the radio-frequency band has
+recently been announced by Ewen and Purcell1 and has had independent confirmation
+by two other groups of workers.2,3 The observed line is an emission line of frequency
+1420 Mc/sec due to the transition between the hyperfine-s truc ture substates in the
+ground state of atomic hydrogen. It is observed from the general direction of the galaxy.
+The likelihood that this line is detectable from the galaxy was first pointed out by van de
+Hulst.4 In a subsequent discussion, Shklovsky5 concluded that no atoms other than
+hydrogen are likely to produce observable lines, although certain molecules could. The
+possibility of observing radio-frequency lines has also been discussed briefly by Reber
+and Greenstein6 and by Saha.7 The discovery of Ewen and Purcell now arouses new
+interest in the subject.
+The present paper has two objectives. The first is a detailed investigation of the radiofrequency line spectrum of atomic hydrogen. The second is an inquiry into which of
+these lines are likely to be observable from astronomical systems. Included in this part
+is a discussion of the 1420 Mc/sec galactic line and its importance to astronomy. The
+conclusions of the paper are summarized in the final section.
+II. THE RADIO-FREQUENCY LINE SPECTRUM OF ATOMIC HYDROGEN
+A radio-frequency spectral line originates in transitions between a pair of closely
+spaced energy states of an atom or molecule. In the case of atomic hydrogen sufficiently
+close spacing exists (1) between the main levels of high quantum number, (2) between
+1
+
+Nature, 168, 356, 1951.
+C. A. Muller and J. H. Oort, Nature, 168, 357-358, 1951.
+3
+W. N. Christiansen and I. V. Hindman, reported by J. L. Pawsey, Nature, 168, 358, 1951.
+* Nederlandsch. Tijdschr. v. Natuurkunde, 11, 201, 1945.
+*AJ. U.S.S.R., 26, 10, 1949.
+6
+1
+Observatory, 67, 15, 1947.
+Nature, 158, 717, 1946.
+2
+
+206
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+RADIO-FREQUENCY SPECTRUM
+
+207
+
+the fine-structure states of a particular main level, and (3) between the hyperfine-structure substates of a particular fine-structure state. Transitions of the first of these kinds
+are of no particular interest in the study of discrete lines because they are so numerous
+that, without the presence of some selective excitation mechanism, they may be regarded merely as contributing toward a continuous spectrum. We have therefore to
+consider only the fine-structure and hyperfine-structure lines.
+a) THE EINE-STRUCTURE LINES
+The splitting of each main level (characterized by the principal quantum number n)
+into a fine structure is ascribed to the combined effect of the spin and relativistic properties of the electron. In describing the fine structure, we shall initially assume Dirac’s
+theory of the hydrogen atom. The effects of known departures from this theory will be
+discussed later.
+An outcome of Dirac’s theory is that pairs of states having the same n and 7 (but different l) quantum numbers coincide. The energy levels are given with sufficient accuracy
+by
+Rh c Rh ca2 /I
+3
+(i)
+Wnj=
+,
+n¿
+nc
+(tV¿)
+where h is Planck’s constant, c the velocity of light, R Rydberg’s constant, and a the
+fine-structure constant. The quantum numbers l and7 can assume the following values:
+1=0, 1, 2, . . . , n — 1 ;
+j = l±hThe selection rules for electric dipole radiation allow transitions to take place when
+the l and7 of the initial and final states differ by AZ = ± 1, A7 = 0, ± 1. It follows that,
+apart from degenerate transitions of the type in, l,j) — (n,l — 1,7), allowed transitions
+between fine-structure states of the same n are of the type
+(n, l, j) - (n, l — 1, 7 - 1) .
+The frequency, v, of the transitions of this type is given, from equation (1), by
+7... _w
+hv
+TUny
+
+w
+_Rhco2 (( ,* _
+\ 1
+Wnj-i —
+nc
+2
+
+where7 may assume the values f,
+n
+
+. . . , ^
+d
+
+1 ^
+.-11)’
+J ~r 2/
+
+Numerically^
+1
+
+1.7 5 10 X 10 n~ { (7-è)- - (i+è)"1
+
+sec -1
+
+(2)
+
+The frequencies of the fine-structure lines associated with main levels up to n = 4, calculated by equation (2), are given in Table 1.
+We shall now calculate the transition probabilities of this series of lines. The Einstein
+transition probability of spontaneous emission, ^421, for a transition between an upper
+state 2 and a lower state 1, is given by
+A 21
+
+óIttV
+
+c
+
+0)
+
+where g2 = 27 + 1, the statistical weight of state 2, and S21 is the “strength” of the line.
+The strengths of the fine-structure transitions may be calculated by combining four
+equations given by Condon and Shortley,9 namely, their equations numbered 745, 1138,
+8
+The values of physical constants used throughout this paper are those given by R. T. Birge, Rev.
+Mod. Rhys., 13, 233, 1941.
+9
+The Theory of Atomic Spectra (Cambridge: At the University Press, 1935).
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+208
+
+J. P. WILD
+
+663, and 662. For transitions of the type (n, l,j) — (n, l — l,j — 1) we obtain
+S21 =
+
+(4 f - 1) (w2 - P) a¡e2,
+
+(4a)
+
+where ao is the radius of the first Bohr orbit and e is the electronic charge. Also, for
+the degenerate transitions of the type {n, l,j) — (n, l, — l,y)> we obtain
+521
+
+9n2 2 j
+\
+= i6ÿ T+T(n -l ) a°e '
+
+Since 521 is expressed in terms of ale2, the most convenient numerical form of equation
+(3) is
+1
+,421= 7.521 X 10-38 —sec“
+.
+2
+g2 Va 0eV
+
+(5)
+
+Transition probabilities of the fine-structure lines associated with levels up to w = 4,
+calculated from equations (5) and (4¿z), are included in Table 1.
+TABLE 1
+Fine-Structure Lines for n = 2,3, and 4, According
+to Dirac’s Theory
+
+Designation
+
+Frequency
+(Me/Sec)
+
+Transition
+Probability
+(Sec-1)
+
+Natural
+Half-width
+(Mc/Sec)
+
+222P3/2- 2
+32P3/2- -3 2S1/2.
+32D3/2- -32P1/2.
+3 D5/2- -3 P3/2.
+422P3/2- -42SÍ/2.
+42D3/2- 2
+4 D5/2- -4 P3/2.
+422F5/2- -422D3/2.
+4 F7/2 - ■ 4 D5/2.
+
+10,944
+3243
+3243
+1081
+1368
+1368
+456
+456
+228
+
+8.9X10-77
+1.4X10“
+8.7X10"-98
+3.9X10 8
+3.5X10-8
+2.8X10"9
+1.2X107.2X10-1011
+9.6X10-
+
+100
+30
+40
+40
+13.6
+17.2
+17.2
+6.6
+6.6
+
+Tt"
+<=/ , p.
+
+? •<
+
+Finally, we calculate the natural widths of these lines. Even in the absence of all
+extraneous causes of line broadening (e.g., Doppler effect and collisions), a spectral line
+has a finite “natural” width due to the finite lifetime of the excited state. In optical
+spectroscopy this natural width is rarely of practical importance because instrumental
+limitations and other causes of fine broadening tend to make it insignificant. However,
+the natural widths of the radio-frequency fine-structure lines are relatively very large
+and may be the chief factor in determining the widths of actual lines. The natural shape
+of a line is given by
+(l )
+
+'
+
+=
+
+Tôî I ITTT(v-vo)T&P \ ’
+
+(6>
+
+where/(f) dp denotes the probability that a transition of the type (1,2) occurs within the
+frequency interval (v, v + dv), f0 is the center frequency of the line, and ôvis the halfwidth of the line (defined as the total width between half-maximum points). The halfwidth is related to the lifetimes ti and T2 of the lower and upper levels by
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+209
+
+RADIO-FREQUENCY SPECTRUM
+
+This equation and values of lifetimes tabulated by Condon and Shortley9 have been
+used to calculate the half-widths of the fine-structure lines given in Table 1.
+b) THE HYPEREINE-STRUCTURE LINES
+In the above discussion we have ignored the effects of the nuclear magnetic moment
+upon the electron. When this is taken into account, each level {nlj) is split into two sublevels. This hyperfine-structure splitting is small but not negligible compared with the
+fine-structure splitting. Following the first calculations of Fermi, Bethe10 derived the following expression for the hyperfine-structure energy shifts:
+fkhyperfi i
+
+H ^/(/+D -i(i+D - j(j+D
+n* (
+j (j+ 1)(2/+ 1)
+
+(7)
+
+where
+(8)
+
+J'o = g (f) CL2 cR .
+
+Here i is the spin of the nucleus, / is the total quantum number given by the sum of
+the i and y vectors, and g(i) is the Landé factor for the proton. For hydrogen, i = J and
+/=j ±
+It follows from equation (7) that the separation between a pair of hyperfinestructure sublevels, / = / + è and / = j —
+is given in frequency units by
+„ = VJL
+ns
+
+2
+
++
+
+-i±±
+
+■
+
+1 "
+
+(9)
+
+j) ^ O
+This equation gives the frequencies of the hyperfine-structure lines. To determine vo, we
+note that, for the ground state, 12Si/2, the separation is
+
+The value of vG has been measured directly by Nafe and Nelson11 and by Nagle, Julian,
+and Zacharias,12 using the atomic-beam magnetic resonance method. The value, as given
+by Nafe and Nelson, is
+1420.410 ± 0.00 6 Me/sec.
+Hence, by equation (10),
+vq = 532.65 Me/sec
+(the value of vo calculated from eq. [8] differs from the above value by less than 0.3 per
+cent). The frequencies of these lines, calculated from equation (9), for the n = 1 and n =
+2 levels, are given in Table 2.
+The transitions occur between states having the same l quantum number and are
+therefore magnetic dipole transitions. The transition probability,
+for a transition of
+the type (w, /,/,/) — {n, l,j,f — 1) is again given in térmsof the line strength, S21, by
+equation (3), but now we must regard the statistical weight of state 2 as
+£2 = 2/ -f- 1 .
+
+(ii)
+
+Of the. hyperfine-structure lines, by far the most important in astrophysical applications
+is that of frequency 1420 Mc/sec associated with the ground state. The first derivation of
+the strength of this line was made by Shklovsky,6 who obtained (in our notation)
+£21 = f ß2 ,
+10
+
+Handbuch der Physik, Vol. 24/1, chap, iii, pp. 385 ff., 1933.
+Phys. Rev., 73, 718, 1948.
+n
+Phys. Rev., 72, 971, 1947.
+
+11
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+J. P. WILD
+
+210
+where ß denotes the Bohr magneton,
+
+ß=
+
+eh
+^irm c ’
+
+Recently, however, Ewen13 and Purcell (personal communication)14 have found the
+strength of this line to be
+S2i=Sß2.
+(12)
+In Shklovsky’s derivation a quantum-mechanical result of Condon and Shortley, originally expressed in terms of the electronic quantum numbers Z, S, and J, was used, but
+with L, S, and J replaced by /, I, and Z, respectively. Although this substitution is often
+permissible, Purcell pointed out that in this instance it was incorrect, since it implied
+TABLE 2
+Hyperfine-Structure Lines
+FOR W = 1 AND 2
+
+Level
+l2Sl/2.
+22Si/2 •
+222Pi/2.
+2 P3/2.
+
+Frequency
+(Mc/Sec)
+
+Transition
+Probability
+(Sec-1)
+
+1420.4
+177.5
+59.2
+23.7
+
+2.85X10"15
+
+that the magnetic moment of the nucleus bears the same ratio to the quantum number I
+as the orbital and spin components of the electronic magnetic moment bear to the
+quantities L and 2S. (In fact, the ratios differ by the factor m/M, where m and M denote
+the mass of the electron and proton, and it follows that, in calculating the line strength,
+the magnetic moment of the nucleus may be neglected in comparison with that of the
+electron.) We therefore adopt result (12) and, in conjunction with equations (3) and
+(11), obtain for the transition probability of the 1420 Mc/sec line,
+A2\ = 2.85 X 10“15 sec-1 .
+The natural half-width of this line has the minute value of 5 X 10-16 c/sec ( = ^42i/
+27r) and would be quite insignificant in comparison with extraneous causes of line
+broadening under all conditions encountered in practice.
+c) the effects of departures from dirac’s theory upon the fine-structure lines
+We now consider how the series of fine-structure lines discussed in subsection lia
+must be modified, owing to (1) known departures from Dirac’s theory and (2) the hyperfine structure.
+The frequency separation of the 2s and 2p states has recently been measured directly
+by Lamb and Retherford.15 They found that, whereas the separation of the 2Pi/2 and
+2P3/2 levels was in accordance with the theory, the 2Si/2 level did not coincide with the
+13
+“Radiation from Galactic Hydrogen at 1420 Mc/Sec” (Ph.D. thesis, Harvard University, May,
+1951).
+14
+Thanks are due to Professor E. M. Purcell for making this result and the ensuing discussion available to the author prior to publication.
+15
+Phys. Rev., 79, 549, 1950, and 81, 222, 1951.
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+RADIO-FREQUENCY SPECTRUM
+
+211
+
+2Pi/2 level, as predicted, but lay higher by 1062 ± 5 Mc/sec. The modified level scheme
+is shown in Figure 1, b. The shift of the 2Si/2 level has been explained by Bethe and
+others in terms of the interaction of the electron with the quantized electromagnetic field.
+The energy shifts due to the hyperfine structure may be calculated from equation (7).
+The final scheme of the n = 2 sublevels is shown in Figure 1, c. The 22Ps/2—22Si/2 line
+is seen to consist of three components (the appropriate selection rule is A/ = 0, ± 1).
+The relative intensities of these components may be calculated by the usual sum rules
+for Russell-Saunders coupling.9 Figure 2 shows the theoretical profile of this multiplet,
+22P,
+
+f=2, av»+9Mc/s
+
+2 P /{
+\
+
+M, av =“15 Mc/s
+
+I
+
+av=+44Mc/s
+
+O)
+O
+
+2\[
+
+-f-OtAV=H33Mc/s
+
+1062 Mc/s
+
+^-f= t, av=+I5Mc/s
+
+^S,
+22P, {
+
+22P
+y
+
+ili
+
+—f=0,AV = -44Mc/s
+— Relative strengths of
+hyperfine-structure
+components
+
+Dirac theory
+un corrected
+
+Corrected for
+22S, level shift
+
+Final scheme with
+hyperfine structure
+
+(a)
+
+5b)
+
+(c)
+
+Fig. 1.—The structure of the n = 2 level of atomic hydrogen: a, the scheme predicted by Dirac’s
+theory; b, corrected for the Lamb-Retherford shift; c, the final scheme,2 including2 the hyperfine-structure
+splitting. The arrows in c show the allowed transitions between the 2 P3/2 and 2 Si/2 levels. The relative
+strengths of these components are indicated below the arrows.
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+212
+
+J. P. WILD
+
+taking account of the natural shape of the components given by equation (6) with dv =
+100 Mc/sec (see Table 1).
+If the 2P3/2 — 2Si/2 multiplet is regarded as a single line with asymmetrical profile,
+the frequency of the maximum occurs at
+vo= 9847 + 5 Mc/sec ,
+and the “line width,” defined by equation (27) as the reciprocal of/(v0), may be calculated to be
+Av =
+
+—-T- =210 Mc/sec ,
+J M
+
+and the transition probability, using the above value of v0, is found to be
+^2i = 6.5 X 1C“7 sec“1 .
+The removal of the degeneracy between the 22Si/2 and 22Pi/2 levels implies that allowed transitions of finite frequency (^1000 Mc/sec) can occur between them. The
+strengths of such lines are given by equation (4b) ; they are much less than those of the
+type (n, Z, j) — (ny l — 1, j — 1) of comparable frequency, because the latter are associated with considerably higher n levels.
+These remarks have been confined to the n — 2 levels. Similar effects will, of course,
+arise in the n — Z and higher levels. As a first approximation, however, the results of
+subsection lia may be used to calculate the frequency and transition probability of
+these lines.
+III. THE FORMATION OF EMISSION AND ABSORPTION LINES
+In this section we consider the problem of calculating the nature (emission or absorption) and magnitude of a spectral line when the physical conditions affecting its formation are completely specified.
+a) THE EQUATION OF TRANSFER
+We have first to consider the transfer of radiation along any line of sight passing
+through some assembly of atoms. Let the volume coefficients of absorption and emission
+in the frequency element (vj v
+dv) at the'point in the line of sight at distance s from
+the observer be K(v) &nd j(v)dv, respectively. Then the specific intensity, I(v)dv, of the
+radiation at any point is given by the equation of transfer,16
+T — = / W — K (v) I 0) .
+as
+
+A'1
+
+-
+
+;
+
+The solution is
+Vf".
+
+^ ^,.v
+
+, -.
+
+K
+
+^d8 ¿S '
+
+I (v) — f j (v) e
+
+(13
+
+Intensities at radio frequencies are often expressed in terms of the equivalent black-body
+or “brightness” temperature, defined by
+T_I(v)
+
+c2
+
+2 kv1
+
+’
+
+where k is Boltzmann’s constant. This transformation is just the Rayleigh-Jeans formula,
+which is negligibly different from Planck’s exact formula at radio frequencies. Similarly,
+we can express the emission coefficient in temperature units (degrees per centimeter)
+16
+As given here the equation refers to media of unit refractive index. For the general form of the
+equation applicable at radio frequencies see S. F. Smerd and K. C. Westfold, Phil. Mag., 40, 831, 1949.
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+RADIO-FREQUENCY SPECTRUM
+
+213
+
+thus,
+J{v)
+
+jjv)_cz
+2kv2
+
+Equation (13) may then be written
+S
+
+T=
+
+: — df0 Kinds' d-i S .
+
+(14)
+
+Let us now suppose that some or all of the atoms in view are capable of a transition
+between some upper state “2” and a lower state “1” corresponding to a line of nominal
+frequency, vq (the line will, of course, have finite width). It will be assumed that, in the
+neighborhood of the frequency z^o, the spectrum of the radiation may be resolved into (1)
+a continuous uniform “background” (due to a large number of unspecified transitions,
+no one of which predominates) and (2) the “line” due to the transition (1, 2). This may
+be stated formally as follows: Let the coefficients J(v) and K{v) be written as the sum of
+two terms,
+J {v) = Ja (y) +/b ,
+K(v) = Ka (v) + Kh ,
+where the subscript a denotes the contribution of transitions of the type (1, 2) and b
+denotes the contribution of all other transitions. Then we assume that in the neighborhood of the line the “background” coefficients Jb and Kb are constant.
+In accordance with equation (14), the brightness temperature in the line is
+Totiv) = ["{Jai?) +Jb}e-?[K“U,+Kt’Us‘ds ,
+
+(15)
+
+and that of the background is
+Th= f™Jbe~?Kbds'd s .
+
+(16)
+
+The difference between the two will be referred to as the “excess brightness temperature,” AT:
+AT = Tab —Tb.
+~
+^ Evidently, positive AT implies an emission line and negative AT an absorption line. It
+may simply be shown that, if we neglect the very special cases of excitation for which Ka
+is negative, the excess brightness temperature of an emission line cannot exceed the
+value
+(Ar)max= /
+
+Ja(v)ds.
+
+(17)
+
+Similarly, the negative excess brightness temperature of an absorption line cannot exceed
+the value
+( — AT) max =
+( 1 — e-Ta) ^ r6Ta ,
+(18)
+where
+Z' 00
+Ta = / Ka(v) ds.
+b) EVALUATION OE THE COEFFICIENTS OF ABSORPTION AND EMISSION
+In terms of the total numbers of atoms per cubic centimeter, ni and ^2, in states 1
+and 2, the coefficients of absorption and emission for the line radiation are given by17
+Ka (v) = a (v) ( ^! — n2 — ),
+\
+£2/
+17
+See, e.g., E. A. Milne, Handbuch der Astrophysik, Vol. 3, chap, ii, pp. 159 ff., 1930.
+
+(19)
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+214
+
+J. P. WILD
+Ja (y) = a 0) — ?Z2 ^ .
+g2
+k
+
+(20)
+
+Here a(v) is the atomic absorption coefficient, defined by
+a („) =lL4|iü /w,
+O TTv gi
+
+(21)
+
+where f(v)dv denotes the probability that a transition of type (1, 2) occurs within the
+frequency range (v, v
+dv). The function/(v) thus determines the shape and width of
+the line.
+It is often convenient to express the coefficients in terms of the excitation temperature,
+6a, defined by
+— = Sl
+ni
+gi
+
+(22)
+
+In general, the excitation temperature expresses merely the relative distribution of
+atoms between states 1 and 2. In particular circumstances, such as thermodynamic equilibrium, da is identical with the temperature.
+When hv <£ kda (which is usual at radio frequencies), equations (19), (20), and (22)
+- give
+Ka (p) = a (p) n, ~
+
+(23)
+
+-m- , \
+.
+Ja (v) = a M
+
+(24)
+
+and
+kV
+—.
+
+We note that
+Ja O')
+Ka 00
+
+(25)
+
+This is Kirchhofi’s law and is quite generally valid.
+It is shown in the Appendix that, in a uniform medium of thickness Z, the excess
+brightness temperature is given by the following approximation, provided that KJ <$C 1
+and 0a» TV
+T “T
+,
+AT ~ 0a ( 1 — ß -Kal) .
+(26)
+Finally, we have to consider the ííline-shape,, function f(v). Its value,/(ï'o), at the center
+of the line is clearly just the reciprocal of the line width, Ay, when defined by
+(27)
+
+/ (y0) Ay =
+
+When the line width is determined entirely by the natural width,/(y) is given by equation (6). When Doppler broadening predominates, the center of the line is shifted to the
+frequency v'0 = yo(l + [y/c]), where ^ is the mean velocity of the atoms along the line of
+sight. If ni(v)dv denotes the number of atoms with velocity between v and v
+dv and if
+the velocity dispersion, Av, is defined by
+n co
+n1(v)Av= I ni(v)dv = ni,
+00
+then
+Ay = — A
+c
+
+,
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+RADIO-FREQUENCY SPECTRUM
+
+215
+
+and
+(28)
+
+When the motion of the atoms is entirely thermal,
+(
+Ap
+
+M
+
+v/2
+
+vo
+
+(29)
+
+where M is the atomic mass and 0e the kinetic temperature.
+IV. ASTRONOMICAL APPLICATIONS 1
+Atomic hydrogen is known to be the prevalent constituent of both stars and interstellar gas. Both, therefore, may be sources of radio-frequency hydrogen lines.
+Radio-frequency techniques are unsuited to the observation of individual stars, because the angular resolution of practicable aerial systems is extremely low. The only
+star that can be resolved as a single source is the sun. The aggregate of other stars can
+occupy only a minute fraction of the solid angle of the aerial beam. The general background continuum of galactic radio radiation is believed to be nonstellar in origin. It
+follows that, unless lines of great strength can be obtained from the sun (regarded as a
+typical star), it is unlikely that any lines would be observable in the aggregate radiation
+of other stars. Apart from the interstellar gas, therefore, the sun is the most likely source
+of radio-frequency hydrogen lines.
+a) THE SUN
+When the sun is viewed at radio frequencies, the disk which is seen corresponds not
+to the photosphere but to some diffuse layer in the solar atmosphere. The height of this
+absorbing layer above the photosphere is determined by the refractive and adsorptive
+properties of the solar atmosphere and depends critically on frequency.18 In general,
+the lower the frequency, the higher the absorbing layer. It is clear that the only atoms
+which can contribute to the formation of a spectral line are those which lie above, and
+to some extent within, the absorbing layer corresponding to the frequency of the line.
+Let Ni and Nz denote the number of atoms in states 1 and 2 contained in a cylinder
+of 1 cm2 cross-section between the observer and the absorbing layer corresponding to the
+frequency, i>o, of the transition (1, 2). Then it follows from equations (17), (18), (19),
+and (20) that the maximum possible excess brightness temperature of the line is given by
+(AT) max = a (^o) -—r-Nz
+g2 k
+( — Ar)max ^ Tha (^o) ^-A^i — A2
+
+for an emission line ,
+
+for an absorption line .
+
+(30)
+
+(3D
+
+With the use of these equations it may readily be shown that, for all but one of the
+radio-frequency hydrogen lines, the value of Nz or (N\ — ^[gi/^]) required to produce
+a measurable value of AT(~1(j0 K, say) is inconceivably high.
+The exception is the fine-structure line 22P3/2—22Si/2 (near 10,000 Mc/sec) in absorption. Two circumstances combine to make this line the most favorable for detection.
+The first is its high frequency : radiation of 10,000 Me/sec can penetrate quite deeply into
+the chromosphere, where neutral hydrogen is far more abundant than in the corona. The
+second is the metastability19 of the 22Si/2 state; this results in an overpopulation of the
+18
+See, e.g., S. F. Smerd, Australian J. Sei. Res., A, 3, 34, 1950.
+19
+The
+metastability of state 22Si/2 is not significantly affected by the allowed transition to the lower
+2
+state 2 Pi/2 because the latter transition has a lifetime of some 40 years.
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+216
+
+J. P. WILD
+
+22Si/2 State (cf. Giovanelli20)—i.e., a high value of Ni. The atomic absorption coefficient
+at the center of this line is found, from equation (21) and the numerical values given at
+the end of subsection lie, to be
+a (v0) = 2.3 X 10-15 cm2 .
+The average brightness temperature of 10,000 Mc/sec solar radiation over the optical
+disk is known from observations to be about 2X104° K. Taking this value of
+and
+neglecting {gi/g^Nz in comparison with Wi, we obtain from equation (31)
+( — AT) max ~ 5 X lO-11^! (in degrees Kelvin, when
+
+is measured in cm-2) .
+
+Thus, to obtain an absorption line with an excess brightness temperature of — 50°K,
+we require N\ ^ 1012 cm-2. Now in the present case N\ denotes the number of absorbing
+atoms in state 22Si/2 contained in a cylinder of 1 cm2 cross-section between the observer
+and the absorption layer of the 10,000 Mc/sec background radiation. Most of these
+atoms will be concentrated into the last thousand kilometers or so near the top of the
+chromosphere. It may be noted that the value Wi = 1012 cm-2 corresponds to a mean
+concentration of ni = 104 cm-3 over a length of 1000 kilometers (about one-tenth the
+total thickness of the chromosphere). Estimates by Giovanelli20 of the concentration of
+atoms in the state 22Si/2 under chromospheric conditions indicate values between about
+10 and 107 cm-3. Thus with present knowledge it can be concluded only that the line may
+be detectable and that a search for it seems worth while.
+The possibility has been considered of clouds of relatively dense, cold matter in the
+corona, such as prominence material, producing significant line absorption near the
+center of the solar disk or line emission near the limb. The most likely line was found
+to be the ground-state hyperfine-structure line (1420 Mc/sec) in emission. For example,
+a uniform sheet of gas beyond the solar limb of thickness 109 cm and kinetic temperature
+104° K would give a 1420 Mc/sec emission line of excess brightness temperature AT =
+10° K (the Doppler width Av = 1.1 X 106 sec-1) if the total concentration of atoms in
+the ground state were
++ ^2 — 4 X 1011 cm-3. (Lower concentrations would suffice for
+lower kinetic temperatures.) It is generally believed that hydrogen concentrations in
+prominences are somewhat smaller than this value. Furthermore, the observation of
+such a line would probably require the use of an aerial of extraordinarily high directivity.
+b) INTERSTELLAR GAS
+Although it has been known for some years that hydrogen is the principal constituent
+of the interstellar gas, most of our knowledge on the subject has been derived from the
+spectroscopic study of other much less abundant elements, notably sodium and calcium.
+The pioneering observation by Ewen and Purcell1 of the 1420 Me/sec hyperfine-structure
+hydrogen line from the galaxy has initiated what promises to be a powerful new tool
+for the direct investigation of interstellar hydrogen. The immediate virtues of this new
+technique arise, first, in the peculiar circumstance that the emission is due to atoms in
+the ground state, and, second, in the relatively high accuracy with which Doppler shifts
+and line widths may be measured by means of radio techniques.
+The interstellar gas is confined mainly to regions near the galactic plane extending to
+distances of the order of 100 parsecs on either side. The mean density of hydrogen atoms
+in these regions is generally taken to be about 1 cm-3. The gas distribution is known to
+be highly irregular,most of the atoms being concentrated in clouds which occupy perhaps
+5 per cent of space near the galactic plane.21 The clouds have random velocities of about
+5-10 km/sec (root mean square), though much higher velocities are sometimes observed.
+The hydrogen in all clouds except those near O and B stars is un-ionized. The kinetic
+20
+Australian J. Sei. Res., 4,1, 289,1948 .
+21
+B. Strömgren, Ap. /., 108, 242, 1948.
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+RADIO-FREQUENCY SPECTRUM
+
+217
+
+temperature of the un-ionized clouds has been estimated by Spitzer and Savedoff22 to be
+about 60° K. Using these data to make calculations of the kind employed above for the
+sun, it is found that, even if the clouds are assumed to exist throughout the extent of the
+galaxy (about 20 kiloparsecs), the possibility of observing any radio-frequency hydrogen
+line other than that at 1420 Mc/sec is extremely remote. In spite of its low transition
+probability, the 1420 Mc/sec line gains over all others because of the overwhelming preponderance of neutral interstellar hydrogen in the ground state. Some aspects of this
+interstellar line and its importance to interstellar studies will now be discussed.
+The absorption coefficient of the line, given by equations (21), (23), and (27), is
+fl
+a (v0) n-^hvo
+(32)
+Ka^Ka M
+= 8.0 X 1C3
+- parsec-1 ,
+kda
+where ^(^4%) is the total number of ground-state hydrogen atoms per cubic centimeter,
+da the excitation temperature in ° K, and kv the “line width/’ in the sense of equation
+(27), in cycles per second. The value of Ay corresponds to the observed line width only
+when the line is observed in directions of low optical thickness; otherwise, self-absorption and hence additional broadening occur. The preliminary observations indicate that
+Ay is about 60 kc/sec, corresponding to a root-mean-square velocity dispersion of
+5 km/sec. The value is in general agreement with the random cloud velocities derived
+from opticál observations.
+Let us now suppose that the region of interstellar hydrogen is bounded by two planes,
+each parallel to and distant d from the galactic plane. For simplicity, we assume the sun
+to be in the galactic plane, though this assumption is not essential to the main argument.
+In any direction through the galactic longitude of the galactic center, the line optical
+thickness will be
+Ta = Kad cosec b
+(where b is galactic latitude), except for very small angles (probably less than Io) near
+= 0, where a limit is imposed by the finite extent of the galaxy. Now it is known that
+the galaxy is optically thin for the general background radiation at frequencies around
+1400 Mc/sec. Under this condition the excess brightness temperature of the line is given
+by the approximation (26),
+AT ~ 0a ( 1 — e~Ta) = 0a ( 1 — e-KadcoSeob) ,
+
+(33)
+
+provided that da is large compared with the brightness temperature of the general background radiation (about 10° K toward the galactic center at these frequencies). The
+latter condition will tentatively be assumed to be satisfied. The full curves of Figure 3
+show the variation of AT/6a with 6, according to equation (33), for various values of
+Kad. The effect of the finite extent of the galaxy is merely to cut off the tops of the curves
+near = 0 over a fraction of a degree; the effect should be quite negligible for all but the
+lowest curve plotted.
+Figure 4 shows an experimental plot, obtained by W. N. Christiansen,23 of the excess
+aerial temperature through the galactic center. The observations were taken along the
+line of declination —30°, which passes obliquely across the galactic equator. The width
+of the aerial beam (about 2J° between half-power points) was narrow in comparison
+with that of the source, so that the measured (aerial) temperature should give a true
+measure of brightness temperature. In drawing the curve through the experimental
+points, it was assumed that the maximum occurred at the galactic equator. The same
+experimental points are replotted in Figure 3, in which the ordinates have been normalized to the assumed maximum and the abscissas converted into galactic latitudes.
+™Ap.
+ill, 593, 1950.
+23
+The author is indebted to Mr. Christiansen for making available these observations which are as
+yet unpublished.
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+218
+
+J. P. WILD
+
+The large angular width of the observed source indicates that the optical thickness
+near the galactic plane is large, and so the brightness temperature at the maximum is a
+true measure of the excitation temperature.24 This deduction was first made by Ewen
+and Purcell1 and is contrary to the prediction of Shklovsky5 that the galaxy should be
+optically thin through the galactic center. Ewen and Purcell found the absolute value
+of the temperature (presumably the aerial temperature, which would be rather less than
+the brightness temperature when the width of the aerial beam is comparable with that
+of the source) to be about 35° K.
+It was suggested by Shklovsky5 that, since the lifetime of the upper level of the transition has an enormous length of the order of 107 years, the distribution of atoms in the
+upper and lower levels is likely to be determined almost entirely by collisions; in this
+
+Fig. 3.—The curves show the calculated variation with galactic latitude of the excess brightness temperature (in units of 0O) of the 1420 Mc/sec hydrogen line along the longitude of the galactic center.
+Curves corresponding to several values of Kad are plotted {Ka denotes the line-absorption coefficient in the
+galactic region of un-ionized hydrogen, and d the distance from the galactic plane to which this region
+extends). The experimental points correspond to those in Figure 4.
+24
+According to the approximate relation (26), AT ~ Qa when ra = œ. Precisely, however, the total
+brightness temperature (AT -f 7^) is equal to Qa when t0 = «>.
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+RADIO-FREQUENCY SPECTRUM
+
+219
+
+case the excitation temperature is just the kinetic temperature of the gas. Ewen and
+Purcell1 have suggested that radiative processes may play a significant but minor role
+and that the kinetic temperature may be rather higher than the excitation temperature.
+In any case it is not unlikely that the brightness temperature provides us with a direct
+method of measuring, in order of magnitude at least, the kinetic temperature of the
+clouds of un-ionized hydrogen. It is noteworthy that the observed value of Ewen and
+Purcell is in order-of-magnitude agreement with Spitzer and Savedoff’s22 estimate of
+60° K.
+Returning, now, to Figure 3, we note that the experimental points correspond to a
+value of Kad of about 0.15. Hence, substituting da = 40° K,
+= 6 X 104 c/sec in
+equation (32), we obtain
+Kad = 3.3 X 1C-3W = C.15 ,
+i.e., nd = 45 (n in cm-3, d in parsecs). Muller and Oort2 consider that, owing to the low
+random velocities of the atoms producing the emission line, the mean value of d cannot
+<L>
+i_
+3
+
+Fig. 4.—The variation of excess aerial temperature in the 1420 Mc/sec hydrogen line with right ascension along declination —30°, observed by W. N. Christiansen (unpublished). Points corresponding to
+positive and negative galactic latitude are shown by circles and triangles, respectively, to facilitate comparison with Figure 3.
+be greater than about 50 parsecs. Taking w to be 1 cm-3, this would give nd < 50, which
+is consistent with the above result.
+If ^ is taken to be 1 cm-3, an optical depth of unity is reached in a distance of about
+300 parsecs. Hence it seems that, toward the galactic center, the inner regions of the
+galaxy are not open to observation by this technique. Away from the galactic center,
+however, the inner regions should be open to investigation, owing to the effect of the
+differential rotation of the galaxy to introduce systematic variations in velocity along
+the line of sight. Near the sun the radial velocity varies directly as the distance; its
+magnitude in the optimum directions (45° away from the galactic center and anticenter)
+is about 18 km/sec/kiloparsec. In such directions the monochromatic emission and absorption of distant atoms occur at frequencies well displaced from the nominal frequency,
+and so we should expect to observe considerable line broadening. If it is supposed that
+the atomic concentration, averaged over large volumes, is the same in the inner regions
+as locally, then, if Figure 5, a, represents the profile (brightness temperature versus
+frequency) of the line observed toward the galactic center, Figure 5, b, shows the kind
+of profile to be expected from 45° either side of the galactic center (it may be nearly
+“flat-topped” over several megacycles per second). However, since the more displaced
+frequencies are received from greater distances and therefore through smaller solid
+angles, the observed profile (i.e., aerial temperature versus frequency) will be of the kind
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+220
+
+J. P. WILD
+
+shown in Figure 5, c; the rapidity with which the “tail” recedes to the base line increases
+with the width of the aerial beam.
+Experimental confirmation of the increase in line width due to the effects of differential galactic rotation has already been obtained by Muller and Oort,2 who use their results to make an estimate of galactic rotation. In a particularly elegant demonstration,
+they show that, when observed at a well-displaced frequency in a direction 30° from that
+of the galactic center, the source of monochromatic radiation subtends a much smaller
+angle in galactic latitude than that observed at the nominal frequency. It seems that
+
+Galactic
+centre
+
+Galactic plane
+45* from centre
+
+Fig. 5.—Predicted frequency profiles of the 1420 Mc/sec hydrogen line when received from a the
+galactic center and ô, c, 45° away from the galactic center in the galactic plane. The curves are sketched
+and are intended only to indicate the general shape of profiles to be expected.
+sky surveys carried out at displaced frequencies should give useful information on the
+rotation of the galaxy and the distribution of un-ionized hydrogen in the galactic interior.
+V. SUMMARY OF CONCLUSIONS
+The discrete radio-frequency lines of atomic hydrogen fall into two main series. The
+first is associated with transitions in the fine structure of each main level, the second with
+transitions in the hyperfine structure of each fine-structure level. The highest-frequency
+line of the fine-structure series is associated with the level n = 2 and occurs at about 9850
+Mc/sec; the highest frequency of the hyperfine-structure series is associated with the
+ground level (n = 1) and occurs at 1420.4 Mc/sec. The fine-structure lines are due to
+electric dipole transitions and have much greater transition probabilities than the
+hyperfine-structure lines which are due to magnetic dipole transitions.
+An investigation into the prospects of observing these lines from astronomical systems
+leads to the conclusion that, apart from the known galactic emission line at 1420 Me/sec,
+the only reasonable possibility is the 9850 Mc/sec fine-structure line in absorption from
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+1952ApJ. . .115. .2 O 6W
+
+RADIO-FREQUENCY SPECTRUM
+
+221
+
+the sun. There is a slight possibility that the 1420 Me/sec hyperfine-structure line may
+be observable in emission from prominences on the solar limb.
+The 1420 Mc/sec galactic line must originate mainly in interstellar atoms and provides the only known direct method of investigating interstellar hydrogen in the ground
+state. Line widths observed so far confirm estimates of random cloud velocities derived
+from optical observations (about 5 km/sec). Observation of the line is likely to provide a
+means of measuring the kinetic temperature of the clouds of un-ionized hydrogen; the
+early measurements indicate temperatures well below 100° K. Observation of the variation of the intensity of the line with galactic latitude allows measurement to be made of
+the product nd, where n is the large-scale mean atomic concentration and d the average
+distance from the galactic plane to which the emitting region extends. The early observations indicate a value of nd = 45 cm-3 parsecs (consistent with the values n ^ 1 cm-3,
+d « 50 parsecs). At some galactic longitudes the effects of differential galactic rotation
+make it possible to receive the monochromatic radiation from the inner regions of the
+galaxy.
+Note added November, 1951.—The most recent observations of Christiansen and Hindman (unpublished) indicate that the band width, Az>, of the 1420 Mc/sec interstellar line
+may be as large as 1.2-1.4 X 105 c/sec, i.e., about twice the value assumed in the text.
+The latter value would correspond to root-mean-square cloud velocities of about 10 km/
+sec and would lead to a value of the product nd of about 100 cm-3 parsecs.
+APPENDIX (SEE EQ. [26])
+To show that for a uniform medium {constant K’s and J’s) of thickness /, the excess brightness
+temperature is given by the approximation
+NT~ea{\-e-Kai),
+provided that Kbl < 1, 0O >
+_
+When Kbl <& 1, the solutions of the equation of transfer (eqs. [16] and [15]), for a uniform
+medium are:
+Tb — Jbl
+and
+ra6 = ^±-h(i-e-AV);
+v
+so that
+AT = Tab-Tb =
+
+A-a
+
+( i _ e-A-oi) _ Tb.
+
+Writing
+Ta = ^(l-e-Ka‘) = ea(l-e-K°l)
+Xa
+Ta
+
+(34)
+(35)
+
+X==
+
+Ta
+
+and
+No-
+
+Tj,
+d’
+
+where da is given by equation (25), we obtain
+AF-r.
+
+jy]j.
+
+Now the condition that da ^ Th implies that da, and therefore X0, is positive. For positive Ka
+it follows from equations (34) and (35) that 0 ^ ^ 1. In this range of x the expression in
+brackets varies between J and 1. Hence if y < 1, AT ^ Ta; that is to say, if da^ Tb, then
+AT~ da{\- e~Kai) .
+
+© American Astronomical Society • Provided by the NASA Astrophysics Data System
+
+

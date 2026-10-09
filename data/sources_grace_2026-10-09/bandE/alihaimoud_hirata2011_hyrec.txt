@@ -1,0 +1,3550 @@
+HyRec: A fast and highly accurate primordial hydrogen and helium recombination
+code
+Yacine Ali-Haı̈moud and Christopher M. Hirata
+
+arXiv:1011.3758v2 [astro-ph.CO] 21 Jan 2011
+
+California Institute of Technology, Mail Code 350-17, Pasadena, CA 91125
+(Dated: November 26, 2024)
+We present a state-of-the-art primordial recombination code, HyRec, including all the physical
+effects that have been shown to significantly affect recombination. The computation of helium
+recombination includes simple analytic treatments of hydrogen continuum opacity in the He I 21 P o −
+11 S line, the He I] 23 P o − 11 S line, and treats feedback between these lines within the on-the-spot
+approximation. Hydrogen recombination is computed using the effective multilevel atom method,
+virtually accounting for an infinite number of excited states. We account for two-photon transitions
+from 2s and higher levels as well as frequency diffusion in Lyman-α with a full radiative transfer
+calculation. We present a new method to evolve the radiation field simultaneously with the level
+populations and the free electron fraction. These computations are sped up by taking advantage of
+the particular sparseness pattern of the equations describing the radiative transfer. The computation
+time for a full recombination history is ∼ 2 seconds. This makes our code well suited for inclusion
+in Monte Carlo Markov chains for cosmological parameter estimation from upcoming high-precision
+cosmic microwave background anisotropy measurements.
+
+I.
+
+INTRODUCTION
+
+Until recently, primordial recombination was considered one of the few solved problems in astrophysics and
+cosmology. The seminal works of Peebles [1] and Zeldovich et al. [2] in the 1960s established that hydrogen
+recombination did not proceed in Saha equilibrium, and
+that two-photon decays from 2s are critical to the recombination dynamics because of the very low escape
+rate of Lyman-α photons. They provided a simple effective three-level atom model to compute primordial
+hydrogen recombination histories. With the advent of
+high-precision cosmic microwave background (CMB) experiments such as WMAP [3] and Planck [4], it has become clear that these early calculations are not sufficently accurate for an unbiased estimate of cosmological parameters [5–7]. Uncertainties in the recombination
+history indeed propagate to the visibility function and
+ultimately to the predicted CMB temperature and polarization anisotropies.
+These considerations have motivated Seager et al.
+[8, 9] to extend Peebles’ effective three-level atom model
+to a multilevel atom calculation. They showed that accounting for excited states of hydrogen leads to a speed
+up of recombination at late times. Their commonly used
+recombination code RecFast approximately reproduces
+these results by solving an effective three-level atom
+model with an artificially enhanced recombination coefficient. While this model is sufficiently accurate for
+current CMB data analysis, it does not meet the ∼ 0.1%
+accuracy target for Planck.
+Several physical effects have since then been shown
+to significantly affect hydrogen and helium recombination. First, the multilevel computations of Seager et
+al. assumed statistical equilibrium among the angular
+momentum substates of a given energy shell of hydrogen. At late times, this assumption breaks down, and
+an accurate multilevel atom computation should resolve
+
+the angular momentum substates [10, 11]. Whereas it
+is a straightforward conceptual generalization of previous works, this problem can be computationally challenging. Several works have tackled the “high-n problem”, including increasingly larger numbers of excited
+states of hydrogen to reach sufficient accuracy [10–13].
+The “standard” multilevel atom (MLA) method used in
+these works requires solving for the abundances of all the
+excited states at every timestep, which makes the computation very time-consuming. In a recent paper (Ref. [14],
+hereafter “Paper I”), we have introduced a new method
+of solution for the multilevel atom problem, which allows
+to only solve for the populations of a few excited states
+(typically, 2s and the low-lying p states), provided one
+uses precomputed effective bound-bound and bound-free
+transition rates, which contain all the information about
+the highly excited states of hydrogen. This method alleviates the computational difficulty associated with the
+highly excited states of hydrogen and is key to the speed
+of the recombination code presented here.
+Another important aspect of the recombination problem is that of radiative transfer in the vicinity of the
+Lyman-α line. In its early stages, hydrogen recombination is mostly controlled by the slow escape (via redshifting) of photons from the Lyman-α line and the rate of
+two-photon decays from the 2s state. Accurate values for
+these rates require treatements of the radiation field that
+go beyond the simple Sobolev approximation [8, 15]. Important corrections include feedback from higher-order
+lines [16, 17], time-dependent effects in Ly-α [18], and
+frequency diffusion due to resonant scattering [19–21].
+An accurate 2s − 1s two-photon decay rate also requires
+following the radiation field to account for stimulated decays [22] and absorption of non-thermal photons [23, 24].
+Dubrovich & Grachev [25] suggested that two-photon
+transitions from higher levels may have a significant effect on the recombination history. Later computations
+confirmed this idea [26], and provided an accurate treate-
+
+2
+ment of radiative transfer in the presence of two-photon
+transitions, as well as a solution for the double-counting
+problem (which arises for resonant two-photon transitions, already included in the one-photon treatment as
+“1+1” transitions) [24, 27].
+The accuracy requirement is less stringent for primordial helium recombination, as it is completed by
+z ∼ 1700, much earlier than the peak of the visibility
+function. Corrections at the percent level are still important, and several works have been devoted to the problem
+[5, 8, 25, 28–35]. The most important effect is continuum
+opacity in the He I 21 P o − 11 S line due to photoionization of neutral hydrogen, which requires a detailed line
++ continuum radiative transfer analysis [30, 31, 34]. The
+inclusion of the intercombination line He I] 23 P o − 11 S
+is also significant.
+Several other processes have been investigated and
+shown not to be significant for CMB anisotropies, for example the effects of the isotopes D and 3 He [15, 17, 33],
+lithium recombination [36], quadrupole transitions [12],
+high-order Lyman line overlap [15], and Thomson scattering [15, 21]. Collisional processes are negligible for helium recombination [33]; for hydrogen recombination, collisional corrections appear to be small [37], but whether
+they are truly negligible is still under investigation.
+Previous works have all concentrated on one or a few
+aspects of the primordial recombination problem. Producing a complete and fast recombination code has so
+far been hindered by the computational burden previously associated with the high-n problem. Given that
+this problem is now solved, and that it seems that the
+main radiative transfer effects have now all been identified, it is timely to deliver a single code that computes
+an accurate hydrogen and helium recombination history
+and incorporates all the relevant physics. The purpose of
+this paper is to introduce our new recombination code,
+HyRec, which is publicly available1 , and can compute a
+highly accurate recombination history (with errors at the
+level of a few times 10−3 for helium recombination and a
+few times 10−4 for hydrogen recombination) in only ∼2
+seconds on a standard laptop. Our code does not account
+for collisional transitions in hydrogen, as their rates are
+poorly known. When accurate rates are available and if
+collisional transitions are shown to significantly impact
+recombination, we will update our code with the appropriate effective rates.
+Recently, a similar work has been carried out by
+Chluba & Thomas [38], also relying on the effective MLA
+method presented in Paper I. The code they present includes the same physics as ours. The main difference is
+the treatment of radiative transfer. In Ref. [38], an “order zero” recombination history is first computed, with
+a simple treatment of radiative transfer. The radiative
+
+1 HyRec
+
+is available for download at the following url:
+http://www.tapir.caltech.edu/∼yacine/hyrec/hyrec.html
+
+transfer equation is then solved, given this order zero history. Corrections to the net decay rates to the ground
+state are then evaluated, and used to compute a corrected
+recombination history. This procedure can in principle
+be iterated, but because the corrections are small, it is
+essentially converged after one iteration. Our solution,
+on the other hand, is non-perturbative, in the sense that
+we solve simultaneously for the radiation field and the
+recombination history. A detailed code comparison is in
+progress, and a full error budget will be presented once
+it is completed.
+This paper is organized as follows. In Sec. II, we review the effective three-level atom model and discuss its
+limitations. We then review the standard MLA computation and describe the effective MLA method in Sec. III.
+We show that weak transitions to the ground state from
+excited states with n ≥ 3 can in fact be accounted for
+almost exactly with an effective four-level atom model.
+Two-photon processes and frequency diffusion are formally described in Sec. IV. In Sec. V, we present our
+numerical solution for the radiative transfer equation.
+We use a new method of solution, extending that of
+Ref. [24] to account for frequency diffusion, that allows
+to solve for the atomic populations and the radiation
+field simultaneously. We describe our treatment of helium recombination in Sec. VI. We conclude in Sec. VII.
+Appendix A demonstrates some relations satified by the
+effective rates, Appendix B describes how we extrapolate the effective rates to an infinite number of excited
+states, Appendix C describes our ordinary differential
+equation (ODE) integrator, and Appendix D derives an
+analytic expression for the post-Saha expansion used at
+early times in hydrogen recombination.
+Throughout this paper we use a flat background
+ΛCDM cosmology with T0 = 2.728 K, Ωb h2 = 0.022,
+Ωm h2 = 0.13, ΩΛ h2 = 0.343, YHe = 0.24 and Nν,eff =
+3.04.
+
+II.
+
+HYDROGEN RECOMBINATION:
+OVERVIEW
+
+A.
+
+The effective three-level atom model
+
+The basic process of primordial hydrogen recombination was already well understood in the late sixties. The
+seminal papers by Peebles [1] and Zeldovich et al. [2]
+established the following picture. Direct recombinations
+to the ground state are highly inefficient, as they produce photons that can immediately ionize another hydrogen atom. Electrons and protons can therefore recombine efficiently only to the excited states of hydrogen.
+This situation is familiar in the study of the interstellar
+medium: it is referred to as “case-B” recombination (see
+e.g. Ref. [39]). Once they have recombined to one of
+the excited states of hydrogen, electrons “cascade down”
+to the n = 2 shell, on a much shorter timescale than
+the overal recombination timescale. Denoting nH the to-
+
+3
+tal number density of hydrogen, xe = ne /nH the free
+electron fraction and x2 = nH(n=2) /nH the fraction of
+hydrogen in the excited state, the effective rate of recombinations to n = 2 shell can be written:
+ẋ2 rec = −ẋe = nH x2e αB (Tm ) − x2 βB (Tr ),
+
+(1)
+
+where Tm is the matter temperature, locked to the radiation temperature Tr by Thomson scattering at most
+times during recombination, αB is the case-B recombination coefficient, and βB is the corresponding photoionization rate, which can be obtained from αB by the principle
+of detailed balance:
+ge
+(2)
+βB (Tr ) = eE2 /Tr nH αB (Tm = Tr ),
+4
+where we have defined
+(2πµe Tr )3/2
+ge ≡
+,
+h3 nH
+
+(3)
+
+where µe is the reduced mass of the electron-proton system.
+Once they have reached the n = 2 shell, electrons can
+reach the ground state by emitting a Lyman-α photon
+from the 2p state. Due to the very high optical depth of
+the Lyman-α transition, emitted photons will however almost certainly be reabsorbed by another atom. The way
+out of this bottleneck is for photons to redshift below
+the Lyα resonant frequency due to cosmological expansion. The net rate of decays to the ground state from the
+2p state is then just the rate at which photons redshift
+across the line and escape reabsorption:
+
+
+ẋ1s 2p = −ẋ2p 1s = RLyα x2p − 3x1s e−E21 /Tr , (4)
+where x1s is the fraction of hydrogen in the ground state
+and the second term accounts for Lyα absorptions and is
+obtained by detailed balance. The rate of escape of Lyα
+photons is given by:
+RLyα ≡
+
+8πH
+.
+3nH x1s λ3Lyα
+
+(5)
+
+Eqs. (4–5) can be derived in the Sobolev approximation,
+in the limit of large Sobolev optical depth (see for example Ref. [15]).
+The escape rate of Lyα photons is comparable to the
+rate of the slow two-photon decays from the 2s state,
+Λ2s,1s ≈ 8.22 s−1 , and the latter process must therefore
+be accounted for. The net rate of two-photon decays from
+the 2s state is:
+
+
+ẋ1s 2s = −ẋ2s 1s = Λ2s,1s x2s − x1s e−E21 /Tr , (6)
+where the second term accounts for two-photon absorptions and can be obtained by a detailed balance argument. Due to the strong thermal radiation bath, the
+excited states of hydrogen are near Boltzmann equilibrium with each other, x2p = 3x2s = (3/4)x2 . The rate of
+
+change of the population of the n = 2 shell due to decays
+to the ground state is therefore:
+
+
+
+3
+1
+ẋ2 1s =
+RLyα + Λ2s,1s
+4x1s e−E21 /Tr − x2 . (7)
+4
+4
+The last step is to realize that the atomic rates, even for
+the slow 2s → 1s decays or the slow escape out of the Lyα
+resonance, are many orders of magnitude larger than the
+overall recombination rate, which is of the order of (10
+times) the Hubble expansion rate, that is ∼ 10−13 −10−12
+s−1 . The population of the n = 2 shell can therefore be
+obtained to high accuracy in the steady-state approximation, i.e. assuming that the rate of recombinations to the
+n = 2 shell equals the rate of transitions to the ground
+state:
+ẋ2 = ẋ2 rec + ẋ2 1s ≈ 0.
+
+(8)
+
+We can therefore solve for x2 and obtain:
+x2 =
+
+nH x2e αB + (3RLyα + Λ2s,1s ) x1s e−E21 /Tr
+βB + 34 RLyα + 14 Λ2s,1s
+
+(9)
+
+From Eq. (1) we then obtain the rate of change of the
+free electron fraction:
+
+
+ẋe = −C nH x2e αB − 4x1s βB e−E21 /Tr ,
+(10)
+where the Peebles C-factor is given by
+C≡
+
+1
+3
+4 RLyα + 4 Λ2s,1s
+.
+βB + 34 RLyα + 41 Λ2s,1s
+
+(11)
+
+As noted by Peebles, this factor represents the probability that an atom initially the n = 2 shell reaches
+the ground state before being photoionized. Note that
+we could have obtained the same equation starting from
+ẋe = −ẋ1s = −(ẋ1s |2p + ẋ1s |2s ) (this is because we have
+set ẋ2 = 0).
+At all relevant times during the epoch of hydrogen recombination, x2  1, and therefore x1s = 1 − xe . If
+matter and radiation temperatures are set to be equal,
+Eq. (10) is therefore a simple ordinary differential equation for xe , that can be easily integrated. A simple improvement is to also explicitly follow the matter temperature evolution, which is determined by the Compton
+evolution equation:
+Ṫm = −2HTm +
+
+8σT ar Tr4 xe (Tr − Tm )
+,
+3(1 + fHe + xe )me c
+
+(12)
+
+where σT is the Thomson cross-section, ar is the radiation
+constant, me is the electron mass and fHe is the He:H
+ratio by number of nuclei.
+The simple yet insightful picture presented here is
+known as the effective three-level atom model. It provides a good approximation for the recombination problem. It is however not sufficiently accurate for highprecision cosmology.
+
+4
+absorptions from the ground state). The free electron
+fraction is many orders of magnitude above the value
+it would have in Saha equilibrium because of the slow
+recombination rate. In that case, the second term in
+Eq. (10) is negligible and the evolution of the free electron
+fraction becomes:
+
+1.000
+Peebles C-factor
+x2/x2(Saha)
+0.100
+
+0.010
+
+0.001
+200
+
+ẋe (z . 700) ≈ −nH x2e αB .
+400
+
+600
+
+800
+
+1000
+
+1200
+
+1400
+
+1600
+
+z
+
+FIG. 1. Peebles C-factor [Eq. (11)] and ratio of the population
+of the n = 2 shell to its value in Saha equilibrium with the
+continuum, as a function of redshift.
+
+B.
+
+Hydrogen recombination phenomenology
+
+We show in Fig. 1 the evolution of the Peebles C-factor
+and the population of the n = 2 shell relative to its value
+in Saha equilibrium with the continuum, as a function of
+redshift, for a standard recombination history. We can
+see that there are two distinct regimes.
+At early times (z & 1000), electrons in the n = 2
+shell have a high probability of being photoionized, and
+the C-factor is much smaller than unity, C  1. As a
+consequence, the population of the n = 2 shell is very
+close to Saha equilibrium with the continuum,
+4
+x2 ≈ x2 Saha ≡ e−E2 /Tm x2e .
+ge
+
+(13)
+
+The rate of change of the free electron fraction is then
+approximately equal to the rate of decays from the n = 2
+shell:
+
+ẋe (z & 1000) ≈ ẋ2 1s x2 = x2 Saha .
+(14)
+During that period, the recombination rate is therefore
+virtually independent of the exact value of the recombination coefficient, but is strongly dependent on the small
+net decay rate from the n = 2 shell to the ground state.
+This is usually referred to as the “n = 2 bottleneck” and
+has motivated abundant work on radiative transfer in the
+vicinity of the Lyman transitions [15–18, 20–24, 26, 27].
+The result from this series of papers is that to the level
+of accuracy required by Planck, Lyman transitions up to
+Lyγ must be included, properly accounting for feedback
+between them. In addition, the radiation field must be
+solved for with a radiative transfer calculation, accounting for two-photon transitions and frequency diffusion in
+the Lyman-α line. We consider all these effects in Sections IV and V.
+At late times (z . 700), C ≈ 1, and the n = 2 shell is
+no longer in Saha equilibrium with the continuum (note
+that it is not in Boltzmann equilibrium with the ground
+state either, as the rate of recombinations to the n = 2
+shell dominates over the net rate of two-photon or Ly-α
+
+(15)
+
+As we can see, the evolution of the free electron fraction is then virtually independent of the rate of decays
+to the ground state from the n = 2 shell, but is highly
+sensitive to the exact value of the effective recombination coefficient. Moreover, the assumption that the excited states are in Boltzmann equilibrium with each other
+brakes down at late times because of the decrease in the
+radiation temperature. An accurate recombination rate
+at late times can only be obtained in a full multilevel
+atom calculation, that accounts for (possibly stimulated)
+bound-bound and bound-free transitions between all –
+at least, a large number of – the excited states of hydrogen [8, 11–13]. We will review the multi-level atom
+calculations in Sec. III.
+Of course, at intermediate redshits 700 . z . 1000
+both the exact recombination rate and the rate of decays
+to the ground state are important and should be carefully
+accounted for.
+III.
+
+THE MULTI-LEVEL ATOM
+
+In this section we first present the “standard” multilevel atom (MLA) method [8], then review the effective
+MLA (hereafter EMLA) method of solution that we presented in Paper I and that allows for a fast computation
+of recombination histories.
+A.
+
+The standard multi-level atom method
+
+The effective three-level atom equations may be easily
+generalized to account for an arbitrarily large number of
+excited states of hydrogen (in practice, one must of course
+impose a cutoff). We denote xnl the fractional abundance of hydrogen atoms in the excited state with principal quantum number n and angular momentum quantum number l. The generalization of Eq. (1) is then, for
+n ≥ 2:
+ẋnl rec = nH x2e αnl (Tm , Tr ) − xnl βnl (Tr ),
+
+(16)
+
+where αnl (Tm , Tr ) is the recombination coefficient to the
+excited state nl, including stimulated recombinations,
+and βnl (Tr ) is rate of photoionizations from nl by blackbody photons.
+The effective three-level atom model does not account for bound-bound transitions between excited states
+(except for instantaneous spontaneous decays that ultimately lead to the n = 2 shell). Transitions between the
+
+5
+nl and n0 l0 states (with n, n0 ≥ 2) change their populations at the rate:
+ẋnl n0 l0 = −ẋn0 l0 nl
+
+= xn0 l0 Rn0 l0 ,nl (Tr ) − xnl Rnl,n0 l0 (Tr ),
+
+(17)
+
+where the bound-bound transition rate from nl to n0 l0 ,
+Rnl,n0 l0 (Tr ), is the rate of absorptions of blackbody photons resonant with the transition if n < n0 and the rate
+of spontaneous and stimulated decays if n > n0 . We give
+explicit expressions of the bound-bound and bound free
+rates and explain how we compute them in Paper I.
+Finally, the rate of decays to the ground state from the
+2s state are given by Eq. (6) (we will see how to make
+this rate more accurate in Sec. IV A). In the Sobolev
+approximation, the net decay rate from the np states to
+the ground state is given by a generalization of Eq. (4),
+accounting for feedback between optically thick Lyman
+lines:
+
+
++
+ẋ1s np = −ẋnp 1s = RLyn xnp − 3x1s fnp
+,
+(18)
+where RLyn ≡ (λLyα /λLyn )3 RLyα is the rate at which
+photons redshift out of the Lyman-n line (with the con+
+is the photon occuvention that Ly-2 is Lyα), and fnp
+pation number incoming on the blue side of the Ly-n
+transition. If no radiative processes affect the radiation
+field between neighboring Lyman lines, then
+−
++
+fnp
+(z) = fn+1,p
+(z 0 ),
+
+(19)
+
+where the earlier redshift z 0 is given by
+z0 =
+
+λLyn
+λLy(n+1)
+
+(1 + z) − 1.
+
+(20)
+
+In the optically thick limit which is valid here, the photon
+occupation number redward of the Ly-n line is given by
+−
+fnp
+= xnp /(3x1s ).
+For excited states nl other than 2s and np, not radiatively connected to the ground state, we have ẋnl 1s = 0.
+The recombination history can then be computed by
+evolving simultaneously the system of differential equations:
+X
+ẋnl = ẋnl rec +
+ẋnl n0 l0 + ẋnl 1s
+(21)
+n0 ≥2,l0
+
+ẋe = −ẋ1s = ẋ2s 1s +
+
+X
+
+ẋnp 1s ,
+
+(22)
+
+n≥2
+
+where in the last equation we used xe = 1 − x1s , valid
+as the fractional abundance of hydrogen in the excited
+states is always much less than unity. The atomic transition rates are many orders of magnitude larger than the
+overall recombination rate (of the order of the Hubble
+rate). A highly accurate approximation therefore consists
+in first solving for the populations of the excited states in
+the steady-state approximation. This first step amounts
+to solving a large system of linear algebraic equations.
+
+The populations x2s , xnp can then be used in Eq. (22) to
+evolve the free electron fraction.
+This generalization of the three-level atom model is
+relatively straightforward conceptually. Its practical implementation is, however, very time-consuming. It requires solving a very large system of algebraic equations
+at each time step (or evolving the same number of stiff
+differential equations). If one accounts for excited states
+up to principal quantum number nmax , then the number of equations is N = nmax (nmax + 1)/2, which, for
+nmax & 100, exceeds several thousands. Furthermore,
+the computational cost of an exact linear system solution scales as O(N 3 ), although this can be significantly
+sped up by using the sparseness of the system due to selection rules [12] and iterative solution techniques [37]. In
+the following section, we review the much more efficient
+yet exactly equivalent effective MLA method.
+
+B.
+
+The effective multi-level atom method
+1.
+
+General description
+
+The effective multilevel atom method, described in Paper I, relies on three aspects of the primordial recombination problem. First, the timescales for transitions out
+of the excited states are much shorter than the overall recombination timescale – this property is used when solving for the populations of the excited states in the steadystate approximation in the standard MLA method. This
+allows us to factor all the nearly instantaneous transitions involving the “interior” excited states (which are
+not radiatively connected to the ground state) into effective transitions into and out of the smaller set of “interface” states which are radiatively connected to the
+ground state. Secondly, all bound-bound and boundfree transitions for which the lower state is an excited
+state are optically thin, and therefore do not distort the
+ambient blackbody radiation field in the vicinity of the
+corresponding frequencies. All the transition rates between “interior” states therefore only depend on the radiation temperature Tr (as well as atomic physics constants). This translates into a simple dependence for the
+effective rates, which are functions of the matter (through
+recombinations of thermal electrons and protons) and radiation temperatures only. If collisional transitions are
+included, they will depend additionally on the free electron (of equivalently the free proton) abundance. Finally,
+the set of “interface” states that need to be considered
+is small. In principle, 2s and all the p states need to
+be considered as “interface” states; however, in practice
+only the lowest order Lyman transitions significantly affect the recombination rate, explicitly only Lyα, Lyβ and
+Lyγ [14, 15]. In addition, when considering two-photon
+transitions from higher levels, one should in principle add
+the ns and nd states as “interface” states. However, only
+two-photon transitions from 2s, 3s and 3d, are important
+(and 4s, 4d at the level of a few 10−4 ) [24, 27]. This
+
+6
+means that one needs to pretabulate only a few functions of temperature that fully account for the multilevel
+structure of hydrogen. These tabulated effective rates
+can then be interpolated when computing a recombination history with an effective few-level atom model. As
+we will show in Sec. III B 2, we can in fact further simplify the problem to an effective four-level atom model
+with virtually no loss of accuracy.
+Following Paper I, we denote Ai (Tm , Tr ) the effective
+recombination coefficient to the “interface” state i, Bi (Tr )
+the effective photoionization rate from this state, and
+Ri,j (Tr ) the transfer rate from the interface state i to
+the interface state j (the dependences are valid in the
+purely radiative case; when collisions are included, all
+effective rates depend on Tm , Tr , ne ). They are obtained
+as follows: for the effective recombination coefficients,
+X
+i
+Ai = αi +
+α K PK
+;
+(23)
+
+Eqs. (18) and (5) for the net np → 1s decay rate. This
+contrasts with the bound-bound rates between excited
+states, which only depend on atomic constants and the
+radiation temperature.
+Once the effective bound-bound and bound-free rates
+for the interface states are tabulated, the recombination
+history can be computed by evolving the small set of
+ordinary differential equations:
+X
+ẋi = x2e nH Ai +
+xj Rj,i + x1s R̃1s,i
+j6=i
+
+
+−xi Bi +
+
+ẋe = −
+
+K
+
+and for the effective inter-state transition rates,
+X
+j
+Ri,j = Ri,j +
+Ri,K PK
+.
+
+(25)
+
+K
+
+i
+is
+Here K is a general index for “interior” states, PK
+the probability that an electron initially in the “interior”
+state K ultimately reaches the “interface” state i, and
+e
+is the probability that an atom initially in the state
+PK
+K ultimately gets photoionized. These probabilities are
+the solutions of the linear systems [14]:
+i
+PK
+=
+
+X RK,L
+L
+
+ΓK
+
+PLi +
+
+RK,i
+ΓK
+
+(26)
+
+PLe +
+
+βK
+,
+ΓK
+
+(27)
+
+and
+e
+PK
+=
+
+X RK,L
+L
+
+ΓK
+
+X
+i
+
+nH x2e Ai − xi Bi
+
+= −ẋ1s =
+(24)
+
+j6=i
+
+Ri,j + R̃i,1s 
+
+(30)
+
+and
+
+K
+
+for the effective ionization coefficient,
+X
+e
+B i = βi +
+Ri,K PK
+;
+
+
+X
+
+X
+i
+
+
+
+(31)
+
+
+x1s R̃1s,i − xi R̃i,1s ,
+
+(32)
+
+where Eqs. (31) and (32) are equivalent as the fractional
+abundance of excited hydrogen is very small. In practice,
+the population of the effective states can once again be
+solved in the steady-state approximation. Eq. (30) becomes a system of a few algebraic linear equations, and
+in that case Eqs. (31) and (32) are mathematically equivalent since we set ẋi = 0 [this can be seen by summing
+Eq. (30) over i].
+Equations (30) and (31), along with the definitions for
+the effective coefficients Eqs. (23–28), are strictly equivalent to the standard MLA equations presented in the
+previous section, as was derived in Paper I [Eq. (31) was
+not derived in that paper and we give a proof in Appendix A 2]. The advantage of the new method is that
+the system of equations that need to be solved at each
+time step is much smaller, as only the low-lying s, p, d
+states need to be followed. In the following section we
+show that we can actually further reduce the problem to
+an effective four-level atom model.
+2.
+
+Further simplification: the effective four-level atom
+
+where
+ΓK ≡
+
+X
+L
+
+RK,L +
+
+X
+
+RK,i + βK
+
+(28)
+
+i
+
+is the inverse lifetime of the state K.
+The net decay rate from the interface state i to the
+ground state can always be expressed as a linear function
+of xi :
+ẋ1s i = −ẋi 1s = xi R̃i,1s − x1s R̃1s,i ,
+
+(29)
+
+where we emphasize with this notation that in general
+the net decay rates may depend in a complicated way on
+the current and past values of the free electron fraction,
+as well as on cosmological parameters – see for example
+
+If we wish to follow n∗ “interface” states, then the system of equations (30), in the steady-state approximation,
+is a n∗ × n∗ system. Moreover, one needs to interpolate
+n∗ functions of 2 variables (the effective recombination
+coefficients – the effective photoionization rates are obtained by detailed balance), and n∗ (n∗ − 1)/2 functions
+of 1 variable (half of the effective bound-bound rates, the
+other half being obtained by detailed balance). Here we
+show how this system can be further reduced to a 2 × 2
+system involving only 2s and 2p, requiring only 2 functions of 2 variables and 2n∗ − 3 functions of one variable,
+with virtually no loss of accuracy.
+For now on we use the general index K for all states
+with principal quantum number n ≥ 3. Even if some of
+
+7
+the states with n ≥ 3 are radiatively connected to the
+ground state, one can still formally define the effective
+transition rates Eqs. (23), (24) and (25) for the 2s and 2p
+states because of the near-instantaneity of transitions out
+of the excited states. However, these coefficients do not
+have a simple temperature dependence anymore, and are
+therefore not well suited for fast interpolation. Indeed,
+i
+e
+the probabilities PK
+and PK
+, where i = 2s, 2p, are still
+defined by Eqs. (26) and (27), but the inverse lifetime of
+the state K, Eq. (28), should now account for the net
+downward transition rate to the ground state, and one
+should make the replacement:
+ΓK → Γ̃K ≡ ΓK (Tr ) + R̃K,1s ,
+
+(33)
+
+where we define ΓK (Tr ) is the inverse lifetime of the K-th
+interface state when transitions to the ground state are
+not included. In addition, we need to define additional
+effective transition rates with the ground state. For i =
+2s, 2p, we define:
+X
+1s
+R̃i,1s ≡ R̃i,1s +
+Ri,K P̃K
+(34)
+K
+
+and
+R̃1s,i ≡ R̃1s,i +
+
+X
+
+i
+R̃1s,K PK
+,
+
+(35)
+
+K
+
+1s
+must satisfy the selfwhere the probabilities P̃K
+consistency relations:
+
+we use the same notation for the effective rates independently of the number of “interface” states considered, but
+they obviously have a different meaning that should be
+clear from the context.
+The coefficients in the above system are in principle not
+simple functions of temperature anymore if one wishes
+to account for the transitions to the ground state from
+excited states with n ≥ 3. We can nevertheless simplify
+their expressions with some minimal approximations. We
+start by noticing that for excited states nl with n ≥ 3,
+the rate of spontaneous decays to the n0 , l ± 1 states
+with 1 < n0 < n is much larger than the net decay
+rate to the ground state. For the 3p state for example, we find that in the Sobolev approximation for Lyβ
+decays, R̃3p,1s /A3p,2s < 8 × 10−6 for 200 < z < 1600,
+where A3p,2s is the Einstein A-coefficient of the 3p → 2s
+transition. Therefore, to an excellent accuracy (with relative errors of order R̃K,1s /ΓK ), one can neglect R̃K,1s in
+Eq. (33), and simply use ΓK (Tr ) instead of Γ̃K wherever
+the latter appears. With this approximation, the rate coefficients A2s/2p , B2s/2p and R2s,2p are simply the usual
+effective rates computed in the case that only 2s and 2p
+are considered as interface states, and depend only on
+matter and radiation temperatures. We explain in Appendix B how we obtain effective rates extrapolated to
+nmax = ∞.
+We show in Appendix A 3 that using Γ̃K ≈ ΓK (Tr ) in
+Eq. (36), we can rewrite Eq. (34) as:
+X
+gK −EK2/Tr i
+e
+PK (Tr ),
+(41)
+R̃i,1s = R̃i,1s +
+R̃K,1s
+gi
+K
+
+1s
+P̃K
+=
+
+X RK,L
+L
+
+R̃K,1s
+P̃L1s +
+.
+Γ̃K
+Γ̃K
+
+(36)
+
+The standard MLA equations, in the steady-state approximation for the excited states with n ≥ 3, can then
+be shown to be exactly equivalent to the following set of
+equations: for the net rate of production of 2s,
+ẋ2s = x2e nH A2s + x2p R2p,2s + x1s R̃1s,2s
+
+
+−x2s B2s + R2s,2p + R̃2s,1s ;
+
+(37)
+
+for the net rate of production of 2p,
+ẋ2p = x2e nH A2p + x2s R2s,2p + x1s R̃1s,2p
+
+
+−x2p B2p + R2p,2s + R̃2p,1s ;
+
+(38)
+
+and for either the net recombination rate or the net rate
+of generation of H(1s),
+X 
+
+ẋe =
+xi Bi − x2e nH Ai
+(39)
+i=2s,2p
+
+=
+
+X h
+i=2s,2p
+
+i
+x1s R̃1s,i − xi R̃i,1s .
+
+(40)
+
+The proof of equivalence is a simple generalization of that
+of Paper I and we do not reproduce it here. Note that
+
+where gK , gi are the statistical weights of the states K, i
+and EK2 ≡ EK − E2 is the energy difference between the
+state K and the n = 2 shell.
+In addition, the populations of the “weak” interface
+states XK are sometimes required – for example the photon occupation number depends on the populations of the
+s and d states, see Section V B. We show in Appendix A 4
+that the following relation is verified for Tm = Tr :
+gK −EK /Tr e
+XK Tm =Tr =
+e
+PK (Tr )x2e
+ge
+X gK
+i
+e−EK2 /Tr PK
+(Tr )xi . (42)
++
+g
+i
+i=2s,2p
+In fact, Tm < Tr and the coefficient of x2e in the above
+equation should be slightly higher. In practice though,
+|Tm /Tr − 1| < 1% for z & 500, and for lower redshifts
+e
+PK
+ 1 and transitions to the ground state are unimportant anyway, so the above equation is very accurate.
+We therefore only need to tabulate the additional
+2p
+2s
+2(n∗ − 2) functions PK
+(Tr ) and PK
+(Tr ) to account for
+n∗ − 2 “weak” interface states in addition to 2s and 2p
+2p
+e
+2s
+(note that PK
+= 1 − PK
+− PK
+).
+In practice, we can further reduce the computational
+2s
+2s
+2p
+2p
+load by simply using Pns
+= Pnd
+= Pnp
+= 0, Pns
+=
+2p
+2s
+Pnd = Pnp = 1. This amounts to assuming that for
+n ≥ 3, ns and nd states are in Boltzmann equilibrium
+
+8
+
+e- + p+
+“interior” states
+
+3s
+2s
+
+3p
+2p
+
+3d
+
+“weak
+interface”
+states
+
+“interface” states
+
+the function ẋe explicitly as an illustration:
+
+
+ẋe = − C2s nH x2e A2s − x1s B2s e−E21 /Tr
+
+
+− C2p nH x2e A2p − 3x1s B2p e−E21 /Tr ,
+
+(43)
+
+where the C-factors are given by
+R
+
+C2s ≡
+
+Λ2s,1s + R2s→2p ΓLyα
+2p
+Γ2s − R2s→2p
+
+R2p→2s
+Γ2p
+
+,
+
+(44)
+
+,
+
+(45)
+
+and
+Λ
+
+1s
+FIG. 2. Schematic representation of the hydrogen atom, with
+the nomenclature used in this paper. Slow transitions from
+the “weak interface” states to the ground state are counted
+as transitions from the n = 2 state with which they are in
+equilibrium.
+
+with 2p, whereas np states are in Boltzmann equilibrium
+with 2s – see Eq. (42), and rewriting transitions from
+n ≥ 3 states as transitions from the n = 2 state to which
+they are tightly coupled. This is extremely accurate at all
+times when two-photon transitions significantly affect recombination. The validity of this statement is somewhat
+weaker for the n = 4 states, which are somewhat in between equilibrium with the 2s state and the 2p state (because allowed transitions connect them to both states).
+However, as decays from 4p, 4s and 4d only marginally
+affect recombination anyway (at the level of a few 10−4 ),
+and 2s and 2p are very close to equilibrium at the relevant times, this approximation is still very accurate. We
+explicitly checked that using the approximate values for
+i
+the PK
+instead of their exact values in Eqs. (35), (41)
+and (42) leads to maximum errors on the recombination
+history |∆xe |/xe < 3 × 10−5 .
+We illustrate the formulation adopted in this paper
+schematically in Fig. 2.
+The system of equations (37), (38) and (39) is just the
+extension of Peebles effective three-level atom to an effective four-level atom, properly accounting for the non-zero
+radiation field, the nearly instantaneous multiple transitions between excited states, the fact that 2s and 2p are
+out of Boltzmann equilibrium, and possibly additional
+radiative transfer effects and decays from higher shells
+through the appropriate coefficients R̃. Making the usual
+steady-state assumption for the excited states, we can
+first solve for x2s and x2p and then evolve xe . When using the simple 2p ↔ 1s and 2s ↔ 1s transition rates of
+Sec. II A, the system is simple enough that we may write
+
+C2p ≡
+
+RLyα + R2p→2s Γ2s,1s
+2s
+Γ2p − R2p→2s
+
+R2s→2p
+Γ2s
+
+and where we have used the effective inverse lifetimes:
+Γ2s ≡ B2s + R2s,2p + Λ2s,1s and
+Γ2p ≡ B2p + R2p,2s + RLyα .
+
+(46)
+
+In Fig. 3 we show the changes to the recombination history resulting from an accurate effective multi-level computation, as compared to the effective three-level atom
+computation, using in both cases the simple decay rates
+to the ground state described in Sec II A. For comparison,
+we also show the resulting changes when using an effective three-level atom model with a fudge factor F = 1.14
+as in the code RecFast [9]. We checked that it is not
+possible to reproduce the correct effective MLA computation with a constant fudge factor in an effective threelevel atom. We find that the best fitting fudge factor
+would be F = 1.126, with relative errors reaching 0.2
+%. In any case, the effective MLA computation is so
+simple and computationally efficient that the need for
+non-physical fudge factors does not arise.
+In Fig. 4 we show the effect of adding higher order
+Lyman transitions and feedback between them. It is sufficient to include Lyman transitions up to Lyγ, as neglecting higher transitions leads to relative changes of
+10−5 only [15]. This initially speeds up recombination
+by adding more decay paths to the ground state, then
+slows it down due to delayed reabsorptions of Lyβ photons in the Lyα line. Our results are similar to those of
+Ref. [17].
+For now on, our “base” model will be the effective
+multi-level atom model with Lyman-α, β and γ transitions and feedback between them (assuming a blackbody
+radiation field incoming on Lyγ). In the next sections we
+graft two-photon processes onto this base model.
+IV.
+
+TWO-PHOTON PROCESSES: FORMAL
+DESCRIPTION
+A.
+
+Overview
+
+It is well known since the first works on primordial
+recombination that 2s → 1s two-photon decays significantly contribute to the recombination dynamics [1, 2].
+
+9
+0.00
+-0.02
+
+! xe/xe
+
+-0.04
+-0.06
+-0.08
+EMLA (2s-2p) vs Peebles
+RecFast vs Peebles
+
+-0.10
+-0.12
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+1400
+
+1600
+
+z
+
+FIG. 3. Fractional changes in the ionization history relative
+to the effective three-level atom model. The “RecFast” model
+is an effective three-level atom with the case-B recombination
+coefficient multiplied by a fudge factor F = 1.14. The same
+prescription for the evolution of the matter temperature is
+used in all cases, see Sec.V E.
+
+see Ref. [24]). The double-counting problem as well as
+the reabsorption problem were resolved with a numerical approach, solving the radiative transfer equations for
+the photon field in Ref. [24], which also provided analytic
+approximations to check the validity of the numerical result. In this work, we will use the same numerical method
+as in Ref. [24], which we then extend to account for frequency diffusion near the Lyα line. In this section, we
+review the formalism presented in Ref. [24] and how to
+solve the double counting problem. In Sec. V we will describe our numerical method for solving simultaneously
+the radiative transfer equation and the evolution of the
+atomic level populations.
+
+B.
+
+Two-photon decays and Raman scattering
+
+We start by defining the coefficient:
+0.0025
+Ly", # + feedback
+Ly", #, $ + feedback
+
+0.0020
+
+6 3 03
+dΛnl
+αfs
+ν ν
+≡
+|M(ν)|2 ,
+dν
+108(2l + 1)EI6
+
+! xe/xe
+
+0.0015
+0.0010
+0.0005
+0.0000
+-0.0005
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+1400
+
+1600
+
+z
+
+FIG. 4. Fractional changes in the ionization history when including higher-order Lyman transitions and feedback between
+them, compared to the effective multi-level atom model with
+2s and 2p only.
+
+Even with a relatively low decay rate, the forbidden
+2s → 1s decays are indeed comparable in efficiency to the
+highly self-absorbed Lyman-α transition; in fact, more
+than half of hydrogen atoms have formed through the
+2s → 1s channel [40]. This process was traditionally accounted for with the total 2s → 1s decay rate in vacuum,
+Λ2s,1s ≈ 8.22 s−1 , with a two-photon absorption rate obtained by detailed balance considerations. For the level
+of accuracy required for future CMB experiments, one
+needs to account for stimulated two-photon decays [22]
+and non-thermal absorptions [23, 24].
+Recently, it was suggested that two-photon decays
+from higher lying ns and nd states may also lead to percent level corrections to the recombination history [25].
+Inclusion of such decays presents an additional conceptual difficulty which was not present for the 2s → 1s
+decays: the problem of double-counting. Indeed, there
+is no fundamental difference between a sequence of two
+allowed one-photon transitions nl → n0 p, n0 p → 1s, with
+1 < n0 < n, and a two photon decay from the nl state
+near resonance (i.e. where the energy of the two photons
+are near Enn0 and En0 1 respectively). Approximate solutions were presented in Refs. [25, 26, 41] (for a review,
+
+(47)
+
+where the matrix element M(ν) is given by Eq. (B5) of
+Ref. [24], and ν 0 ≡ |ν − νn1 |, where νn1 is the frequency
+of the Ly-n transition. For ν < νn1 , dΛnl /dν is the rate
+of spontaneous two-photon decays from nl per frequency
+interval. For ν > νn1 , dΛnl /dν × fν 0 (where fν is the
+photon occupation number at frequency ν) is the rate
+of spontaneous Raman scatterings per frequency interval per atom initially in nl (in the notation of Ref. [24],
+dΛnl /dν = dKnl /dν for ν > νn1 ). The function dΛnl /dν
+is continuous across ν = νn1 , where it vanishes.
+We can now write the net rate of nl ↔ 1s two-photon
+transitions per frequency interval per hydrogen atom, for
+which the highest energy photon has frequency ν < νn1 :
+dΛnl h
+∆nl (ν < νn1 ) =
+xnl (1 + fν 0 )(1 + fν )
+dν
+i
+gnl
+−
+x1s fν 0 fν .
+(48)
+g1s
+For ν > νn1 , the appropriate rate is that of Raman scattering events:
+dΛnl h
+∆nl (ν > νn1 ) =
+xnl fν 0 (1 + fν )
+dν
+i
+gnl
+−
+x1s (1 + fν 0 )fν ,
+(49)
+g1s
+In both cases, we can assume that the photon occupation
+number for the low-energy photons is that of a blackbody,
+since the optical depth for two-photon absorption of the
+low-energy photons is tiny (for a discussion, see Ref. [24]).
+0
+We therefore set fν 0 = (ehν /Tr − 1)−1 . Moreover, the
+photon occupation number for frequencies ν > νLyα /2 is
+much smaller than unity: fν  1. This means that we
+can neglect stimulated emission by the high-energy photons in Eqs. (48) and (49). Given these considerations,
+the net rate of two-photon transitions can be written in
+
+10
+the following form, valid for both ν < νn1 and ν > νn1 :
+∆nl (ν) =
+
+C.
+
+dΛnl h(ν−νn1 )/Tr
+−1
+−1
+e
+dν
+
+
+gnl
+× xnl −
+x1s eh(ν−νn1 )/Tr fν .
+g1s
+
+(50)
+
+Near Lyman resonances, we have
+
+dΛ1s
+(ν ≈ νn1 ) ≈ 3Anp,1s pnsc φV,n (ν),
+dν
+
+(55)
+
+Resonant scattering in Lyman-α
+
+We now consider pure scattering events,
+H(1s) + γ → H(1s) + γ.
+
+(51)
+
+In the low-frequency limit this corresponds to the familiar Rayleigh scattering phenomenon; the cross section
+however has resonances at the Lyman-series lines, which
+correspond to resonant Rayleigh scattering.
+Rayleigh scattering events conserve the photon frequency in the atom’s rest frame. In the comoving frame
+(frame in which the CMB appears isotropic), the frequency of the scattered photon appears shifted due to
+the thermal motions of the scatterers. The frequencies
+of the incoming and outgoing photons are however statistically correlated. Mathematically, there is a definite
+probability distribution p(ν, ν 0 ), such that p(ν, ν 0 )dν 0 is
+the probability that the outgoing photon has frequency
+in [ν 0 , ν 0 + dν 0 ] given that the incoming photon had frequency ν, and this function generally depends on both ν
+and ν 0 . For Tm  hν, which is the case near the Lyman
+lines, the variance of the frequency shifts imparted by
+thermally moving atoms is given by:
+Z
+2Tm 2
+ν .
+(52)
+hδν 2 i ≡ (ν 0 − ν)2 p(ν, ν 0 )dν 0 =
+mH c2
+
+where pnsc = Anp,1s /Γnp is the scattering probability in
+the Lyman-n line (the complementary events being twophoton absorptions and two-photon photoionizations),
+and φV,n (ν) is the Voigt profile for the Ly-n line. In the
+Doppler core, we can approximate the partial redistribution induced by scattering events by a complete redistribution, i.e. approximate p(ν, ν 0 ) ≈ φV,n (ν) ≈ φD,n (ν),
+where φD is the Doppler profile. This approximation
+is valid because in the Doppler core, complete redistribution recovers the correct rms frequency shift during
+scattering events, Eq. (52) (if one averages over the frequencies of absorbed photons).
+In the damping wings of Lyman resonances above Lyα,
+the rate of scatterings is of the same order as the rate of
+two-photon absorptions. Each scattering event shifts the
+photon frequency by a very small amount compared to
+the width over which the radiation field varies (δνrms /ν ∼
+2.5 × 10−5 ). Partial redistribution is therefore essentially
+coherent in the comoving frame, i.e. p(ν, ν 0 ) ≈ δ(ν 0 −
+ν), which implies ∆1s (ν) ≈ 0. For a more quantitative
+argument, see Ref. [15].
+
+(54)
+
+The only frequency regime where Rayleigh scattering
+affects the radiation field in a non-trivial way is in the
+damping wings of Lyα. In this line, indeed, scattering
+events are much more frequent than two-photon absorption events (by a factor of ∼ 104 ). Resonant scattering therefore leads to a significant diffusion in frequency.
+Because the frequency shifts are small compared to the
+width over which the radiation field varies, the integral
+scattering operator can be approximated by a second
+order differential operator – a Fokker-Planck operator
+[20, 21, 42, 43]. For the purpose of numerical implementation, the relevant properties are (i) the fact that this
+operator is nearly local (it only connects neighboring bins
+in frequency) (ii) it must respect detailed balance and
+(iii) the diffusion rate must be correct. We will explain
+our numerical method for the implentation of Lyman-α
+diffusion in Sec. V A.
+
+To be fully general one should compute the scattering
+kernel from first principles. However, simplifications can
+be easily made in various regimes.
+Far from any resonance, the rate of redshifting due
+to the Hubble expansion is much larger than the rate
+of frequency diffusion due to scattering (see for example
+the discussion in Ref. [15]). We can neglect Rayleigh
+scattering there, and set ∆1s (ν) = 0.
+
+We note that a number of analytic treatments of
+Lyman-α scattering in the recombination epoch have
+been proposed in the past [43–47]. However, since twophoton emission and absorption act on the same region
+of frequency space, and since both processes involve high
+optical depth, an accurate recombination history can
+only be obtained by considering all processes simultaneously.
+
+The rate of injection of photons per frequency interval at
+frequency ν, due to resonant Rayleigh scattering in Ly-α,
+can be written in the general form (neglecting stimulated
+scatterings):
+Z
+hZ
+i
+0
+0
+0
+∆1s (ν) = x1s
+fν R(ν , ν)dν − fν R(ν, ν 0 )dν 0 ,
+(53)
+0
+1s
+p(ν,
+ν
+)
+is
+the
+differential
+rate
+of
+where R(ν, ν 0 ) = dΛ
+dν
+scatterings per hydrogen atom in the ground state, per
+unit frequency interval for both the incoming and outgoing photons (it has units of s−1 Hz−2 ). The scattering
+kernel must respect detailed balance:
+0
+
+R(ν, ν 0 )e−hν/Tm = R(ν 0 , ν)e−hν /Tm .
+
+11
+D.
+
+The radiative transfer equation
+
+The radiative transfer equation for the photon occupation number is:
+
+
+3
+X
+∂fν
+c nH 
+∂fν
+− Hν
+=
+∆nl (ν) + ∆1s (ν) , (56)
+∂t
+∂ν
+8πν 2
+
+like to implement it as such. We start by formally separating the integrals in Eqs. (58) and (59) in two contributions: the resonant pieces, for ν ≈ νn0 1 , and a nonresonant piece, for frequencies far enough from any resonance. We therefore rewrite, formally:
+X (n0 p)
+total
+R̃1s,nl
+=
+R̃1s,nl + R̃1s,nl and
+n0
+
+n≥2,l
+
+where the left-hand-side is the derivative of the photon
+occupation number along a photon trajectory in the expanding universe, and the prefactor on the right-handside converts the number of photons per unit frequency
+per hydrogen atom to the photon occupation number.
+
+E.
+
+Inclusion in the effective multi-level atom rate
+equations
+1.
+
+total
+R̃nl,1s
+=
+
+(2γ)
+
+= −ẋ1s nl
+
+total
+total
+= x1s R̃1s,nl
+− xnl R̃nl,1s
+,
+
+where the formal transition rates are given by:
+Z
+dΛnl gnl h(νn1 −ν)/Tr
+−1
+total
+e
+− 1 fν dν
+R̃1s,nl
+≡
+dν g1s
+
+(n0 p)
+
+(n0 p)
+
+where the resonant contributions R̃1s,nl and R̃nl,1s are
+defined in a similar manner as in Eqs. (58) and (59), but
+with the integration being carried over a narrow range
+∆ν near νn0 1 , and R̃1s,nl and R̃nl,1s are the non-resonant
+pieces required to complete the total rates. So far the
+separation is just formal and we have not made any approximation.
+
+(58)
+
+total
+R̃nl,1s
+≡
+
+Z
+
+dΛnl h(ν−νn1 )/Tr
+−1
+e
+− 1 dν,
+dν
+
+“1+1” Resonant contribution
+
+We now notice that near a resonance ν ≈ νn0 1 , the
+two-photon differential decay rate dΛnl /dν takes on the
+following form (if n > n0 ):
+dΛnl
+1
+Anl,n0 p An0 p,1s
+≈
+2
+dν ν≈νn0 1
+4π (ν − νn0 1 )2 + (Γn0 p /4π)2
+An0 p,1s
+φL (ν − νn0 1 ; Γn0 p ), (61)
+= Anl,n0 p
+Γ n0 p
+where Γn0 p is the total inverse lifetime of the state n0 p,
+and the Lorentzian profile is given by
+
+(57)
+
+and
+
+φL (∆ν; Γ) ≡
+
+Γ/(4π 2 )
+∆ν 2 + (Γ/4π)2
+
+Decomposition into “1+1” transitions and non-resonant
+contributions
+
+Two-photon decays from higher excited states constitute, however, a correction to the recombination history
+computed in the standard “1+1” picture, and we would
+
+.
+
+(62)
+
+For n < n0 , the first coefficient in Eq. (61) should be
+gn0 p /gnl × An0 p,nl instead of Anl,n0 p . When accounting
+for the thermal motions of atoms, the Lorentzian profile should be replaced by a Voigt profile. We can now
+approximate the resonant pieces with the following expressions, valid for both n < n0 and n > n0 :
+
+(59)
+
+where the integrals run from νn1 /2 to νc . In principle
+Eq. (57)–(59), can be included in a standard or effective multi-level atom code, provided one solves simultaneously for the radiation field, using the radiative transfer
+equation Eq. (56).
+
+2.
+
+(60)
+
+n0
+
+3.
+
+(2γ)
+
+(n0 p)
+
+R̃nl,1s + R̃nl,1s ,
+
+Formal two-photon decay rates
+
+As mentioned earlier, including two-photon decays
+from states with n > 2 and Raman scattering events
+poses a double-counting problem. In principle, to avoid
+this double counting issue, one should discard “1+1” decays (or decays following an absorption event, which is
+like a Raman scattering event on resonance) altogether.
+If one were to pursue this idea, one should not consider
+the p states at all anymore (as they are formally only
+intermediate states in two-photon processes), but consider all s and d states as “interface states” and allow
+for two-photon recombinations to the ground state. The
+two-photon nl ↔ 1s transition rates would then become:
+ẋnl 1s
+
+X
+
+(n0 p)
+
+R̃1s,nl ≈ 3An0 p,1s f νn0 1
+
+Rn0 p,nl
+Γn0 p
+
+(63)
+
+and
+(n0 p)
+
+R̃nl,1s ≈ Rnl,n0 p
+
+An0 p,1s
+,
+Γ n0 p
+
+(64)
+
+where f νn0 1 is the photon occupation number averaged
+over the Voigt profile near the resonance ν ≈ νn0 1 .
+Eqs. (63) and (64) are exactly what one would obtain in
+the “1+1” picture after “factoring out” the p states (with
+a procedure similar to what is used to get rid of the “interior” states in the EMLA method). Having these resonant rates is exactly equivalent to having optically thin
+
+12
+one-photon transitions between the nl and n0 p states,
+with rates Rnl,n0 p (Tr ) and Rn0 p,nl (Tr ), and optically thick
+Lyman transitions, with net rate:
+
+
+ẋn0 p 1s = −ẋ1s n0 p = An0 p,1s 3x1s f νn0 p − xn0 p . (65)
+To obtain the net decay rates in the Lyman transitions,
+one then needs to solve for the radiation field in the immediate vicinity of Lyman resonances. If the frequency
+region for which two-photon transitions are considered
+as “resonant” is narrow enough, this can be done in the
+Sobolev approximation. Indeed, all the relevant conditions are met (see also discussion in Ref. [24]; for more
+details on the Sobolev approximation, see for example
+Ref. [15]):
+First, the two-photon absorption and emission profiles
+can both be approximated by the same resonance profile
+Eq. (61). This relies on the assumption that the blackbody radiation field varies little across the “resonant”
+region, and requires for its width to satisfy ∆ν  Tr /h.
+Secondly, we argued in Sec. IV C that one could assume
+complete frequency redistribution for resonant scattering
+near the Doppler core of Lyman resonances. The “resonant” region should therefore not exceed a few Doppler
+widths.
+Finally, if we consider regions in frequency narrow
+enough around the resonances, we can use the steadystate approximation. This requires ∆ν/ν  1.
+We can see that considering the “resonant” region
+around each Lyman resonance to be a few Doppler widths
+wide meets all the requirements.
+An additional assumption required here is that excited
+states are near Boltzmann equilibrium, which is very accurate at redshifts for which two-photon processes are important. In the Sobolev approximation, and in the limit
+of large Sobolev optical depth, Eq. (65) becomes the stan+
+is the photon
+dard Lyman decay rate Eq. (18), where fnp
+occupation number incoming on the resonance, preprocessed by two-photon processes and diffusion in the blue
+damping wing of the line.
+The Sobolev approximation is probably the least accurate for Lyα decays where partial redistribution due
+to resonant scattering is important. However, the large
+optical depth to two-photon absorptions in the Lyman-α
+blue damping wing, in conjunction with frequent scatterings, drive the radiation field to the equilibrium value
+fν = xn0 p /(3x1s )e−h(ν−νn0 1 )/Tm over several Doppler
+widths (of the order of 40 Doppler widths, see Ref. [15]).
+As a consequence the net decay rate in the core of the
+resonance is very small anyway. We checked that in the
+presence of two-photon transitions and frequency diffusion, even setting ẋn0 p 1s = 0 instead of the expression
+given by Eq. (65) leads to relative changes to the recombination history of at most 7 × 10−4 . Given that frequency
+diffsion leads to corrections of a few percent at most to
+the decay rate in Lyα when radiative transfer is treated
+carefully even at the line center [20], we can be confident
+that using the Sobolev approximation for the resonant
+
+contributions of two-photon decays is accurate to better
+than 10−4 .
+
+4.
+
+“Pure two-photon” non-resonant contribution
+
+In the previous section we discussed how two-photon
+decays within a few Doppler widths of Lyman resonances
+can in fact be accounted for in the standard “1+1” picture. To evaluate the non-resonant pieces, R̃1s,nl and
+R̃nl,1s , we need to solve the radiative transfer equation,
+Eq. (56), to obtain the photon occupation number. The
+subject of Sec. V is to describe our numerical method of
+solution.
+Note that choosing the “resonant” regions to be a few
+Doppler widths has an additional advantage. Since a
+Doppler width is ∼ 103 times wider than the natural
+width of Lyman lines, it is not necessary to account for
+the pole displacements in the computation of the differential two-photon decay rates in the non-resonant region.
+In addition, the fraction of two-photon decays that are
+considered non-resonant will be small (of the order of
+Γnp /(4π 2 )/∆ν, where ∆ν is the width of the “resonant”
+region). For ∆ν of a few Doppler widths, this fraction
+is ∼ 10−4 . This means that the “pure” two-photon decay rates R̃nl,1s are much smaller than the total inverse
+lifetime of the nl state, Γnl , which is required to simplify
+the effective MLA model to an effective four-level atom
+model as we discussed in Sec.III B 2.
+As a final note, we want to emphasize why the final result is independent of the exact boundary between “resonant” and “non-resonant” regions, so long as the resonant regions are a few Doppler widths wide. If one
+were to increase the width of the “resonant” region, then
+the “pure” two-photon transition rates R̃nl,1s and R̃1s,nl
+would decrease, mainly because of the change of the integration region in the blue wings of the resonance – in the
+red wing, the radiation field has reached near equilibrium
+with the line and the net rate of decays immediately blueward of line center is very small anyway. This decrease
+would be nearly exactly compensated by the increase of
+what is considered as “1+1” decays, as the photon occu+
+pation number incoming on the Lyman resonances, fnp
+,
+would be decreased due to the smaller optical depth due
+to “pure” two-photon absorptions in the blue wing. Hirata (2008) checked the independence of the result form
+the exact value chosen for the width of the “resonant”
+region, and found that even changing this width by a
+factor of 9 lead to relative changes of at most 4 × 10−4
+in the recombination history.
+
+13
+V. NUMERICAL SOLUTION OF THE
+RADIATIVE TRANSFER EQUATION
+A.
+
+Discretization of the radiative transfer equation
+
+To solve the radiative transfer equation [Eq. (56)] numerically in the “non-resonant” frequency region, we follow the method of Hirata (2008), and extend it to also
+account for frequency diffusion.
+We will consider the radiation field in the vicinity of
+N frequency “spikes” νb , for b = 1, 2, ... N . Each spike
+has an associated width ∆νb (which is just the separation
+between consecutive spikes if they are linearly spaced for
+example).
+We use the discretized differential two-photon rate:
+X
+dΛnl
+=
+Anl,b δ (ν − νb ),
+dν used
+
+(66)
+
+b
+
+where we use the coefficients
+Z
+dΛnl
+Anl,b ≡
+dν,
+∆νb dν
+
+B.
+
+(67)
+
+where the integral is carried over the frequency region
+associated with the spike ∆νb . The function δ (ν − νb ) in
+Eq. (66) should be understood as a sharp profile centered
+at νb , which integrates to unity, and has support in [νb −
+, νb + ]. The solution we derive is in the limit  → 0, for
+which δ → δ, the Dirac delta function. Doing so, we are
+simply approximating the optical depth as concentrated
+in discrete frequencies instead of being a smooth function.
+The main new contribution of the present work is the
+discretization method for the scattering operator. We
+use the discretized scattering kernel
+X
+R(ν, ν 0 )
+=
+Rb,b0 δ (ν − νb )δ (ν 0 − νb0 ).
+(68)
+used
+
+b,b0
+
+We enforce detailed balance:
+Rb,b0 e−hνb /Tm = Rb0 ,b e−hνb0 /Tm .
+
+these conditions at the boundaries of the diffusion domain, smaller than the entire frequency domain considered). Using Eq. (70), we then obtain R1,2 and RN,N −1 .
+Using iteratively Eqs. (69) and (70), we can then obtain
+all the coefficients of the numerical diffusion kernel, starting from the boundaries, and up to line center. Denoting
+b1 the highest bin below Ly-α and b1 + 1 the first bin
+above Ly-α, we obtain all coefficients up to RbLyα ,b1 on
+the red side of Ly-α, and up to RbLyα ,b1 +1 on the blue
+side (we do not follow the radiation field at the central
+bin bLyα but can still define these coefficients). Note that
+with this method we cannot ensure that the diffusion rate
+at the central bin is correct. However, the exact value of
+the diffusion rate at line center does not matter, as long
+as it is high enough to ensure that the photon occupation
+number reaches the equilibrium spectrum fν ∝ e−hν/Tm .
+
+(69)
+
+Solution of the discretized radiative transfer
+equation
+
+To simplify the notation, we define the following rate
+coefficients:
+dΛnl
+−1
+eh(νb −νn1 )/Tr − 1 ∆νb and
+dν νb
+gnl h(νb −νn1 )/Tr
+Rb,nl ≡
+e
+Rnl,b .
+(71)
+g1s
+Rnl,b ≡
+
+This coefficients can be thought of as transition rates
+between bound states and a set of “virtual” levels with
+associated energies Eb = hνb [24].
+We define the total Sobolev optical depth in the b-th
+frequency spike:
+!
+X
+c3 nH x1s X
+Rb,nl +
+Rb,b0
+(72)
+∆τb ≡
+8πνb3 H
+0
+nl
+
+b =b±1
+
+We also define the average photon occupation number
+near νb :
+Z νb +
+f νb ≡
+δ (ν − νb )fν dν.
+(73)
+νb −
+
+We moreover use the diffusion approximation for resonant scattering. This allows us to assume that the numerical scattering kernel Rb,b0 is non-vanishing only for
+neighboring bins, b0 = b±1. In order to obtain the correct
+diffusion rate, we set
+(νb+1 − νb )2 Rb,b+1 + (νb−1 − νb )2 Rb,b−1
+=3
+
+A22p,1s
+2Tm 2
+∆νb
+ν ,
+2
+2
+4π (ν − νLyα )
+mH c2 Lyα
+
+(70)
+
+where we used the damping wing approximation for the
+2
+absorption profile (and approximate νb2 ≈ νLyα
+in the
+multiplicative factor).
+As boundary conditions, we assume a vanishing photon flux due to diffusion at the boundaries of our domain, i.e., formally, R1,0 = RN,N +1 = 0 (in fact we set
+
+Finally, we define the equilibrium photon occupation
+number at the b-th frequency spike:
+P
+P
+0 f ν Rb0 ,b
+nl xnl Rnl,b + x1s
+eq
+P
+Pb b0
+(74)
+fνb ≡
+x1s ( nl Rb,nl + b0 Rb,b0 )
+In the vicinity of νb , the discretized radiative transfer
+equation becomes:
+
+
+1 ∂fν
+∂fν
+−
+= ∆τb δ (ν − νb ) fνeqb − fν .
+Hνb ∂t
+∂ν
+
+(75)
+
+In the limit that the support of the delta function becomes vanishingly small,  → 0, the discretized radiative
+transfer equation can be solved in the steady-state approximation, and one can neglect the time derivative.
+
+14
+This is similar to the commonly used Sobolev approximation, except that we are now making this approximation in the vicinity of an artificially introduced spike (as
+opposed to a true resonance line), for the purposes of numerical resolution. Another conceptual difference is that
+the equilibrium photon occupation number also depends
+on the averaged value of the radiation field at neighboring
+bins, because of frequency diffusion. Given the photon
+occupation number at the blue edge of the b-th spike,
+fνb + , this equation has a well known solution fν . The
+quantities of interest for us are the photon occupation
+number at the red edge of the spike fνb − and the average photon occupation number in the spike f νb . They
+are given by the following expressions (for a derivation,
+see for example Refs. [15] and [24]):
+
+fνb − = fνb + e−∆τb + fνeqb 1 − e−∆τb ,
+(76)
+
+with the central frequency bin will ensure that the photon
+occupation number is driven to its equilibrium value near
+line center, fνeq = x2p /(3x1s )e−h(ν−νLyα )/Tm .
+We now use Eq. (42) for the populations xnl with n ≥
+3. We define the coefficients, for i = 2s, 2p:
+X gnl
+i
+Tb,i ≡ −Ri,b −
+(Tr )Rnl,b .
+(83)
+e−En2 /Tr Pnl
+gi
+n≥3,l
+
+We define the new source vector:
+X gnl
+e
+Sb ≡ sb + x2e
+(Tr )Rnl,b ,
+e−En /Tr Pnl
+ge
+We also define the coefficients
+Tb,b±1 ≡ −Rb±1,b .
+
+(77)
+
+1 − e−∆τb
+Πb ≡
+.
+∆τb
+
+(78)
+
+We now use the variables
+xb ≡ x1s f νb .
+
+(79)
+
+As explained in Ref. [24], xb can be interpreted as the
+population of the virtual level b. One should however
+keep in mind that this is is just a convenient rewording
+for the radiation field intensity.
+Using the definition of fνeqb , Eq. (74), we can rewrite
+Eq. (77) in the form:
+X
+X
+Tb,b xb =
+xnl Rnl,b +
+xb0 Rb0 ,b + sb ,
+(80)
+b0 =b±1
+
+1
+1 − Πb
+
+!
+X
+
+Rb,nl +
+
+nl
+
+sb ≡ Πb x1s fνb + Tb,b .
+
+X
+
+Rb,b0
+
+and
+
+b0 =b±1
+
+(81)
+
+We only follow two-photon decays in the damping
+wings of resonances, but we should still account for frequency diffusion between line center and the neighboring
+bins. At the Lyman-α line center, the radiation field is
+in equilibrium with the 2p/1s ratio: fνLyα = x2p /(3x1s ).
+If b1 is the highest frequency bin below Ly-α, (and b1 + 1
+is the first bin above Ly-α), we therefore define the transition rates with 2p:
+R2p,b1 =
+
+b+1
+X
+
+Tb,b0 xb0 = Sb .
+
+(86)
+
+C.
+
+Populations of the excited states
+
+Given the radiation field, we can now compute the twophoton transition rates. Using Eqs. (58) and (59) limited
+to the “non-resonant” frequency region, we obtain, after
+discretization:
+X
+X
+f νb Rb,nl . (87)
+R̃nl,1s =
+Rnl,b and R̃1s,nl =
+b
+
+b
+
+The effective transition rates from the i = 2s and 2p
+states to the ground state are therefore, according to the
+discussion in Sec. III B 2, and using the definition of Tb,i
+Eq. (83):
+X
+X gnp
+i
+RLyn e−En2 /Tr Pnp
+R̃i,1s = −
+Tb,i +
+(Tr ), (88)
+g
+i
+n
+b
+
+where we have defined:
+Tb,b ≡
+
+Tb,2s x2s + Tb,2p x2p +
+
+b0 =b−1
+
+where Πb is the Sobolev escape probability from the b-th
+spike:
+
+nl
+
+(85)
+
+The discretized radiative transfer equation then takes the
+final form:
+
+and
+f νb = Πb fνb + + (1 − Πb )fνeqb ,
+
+(84)
+
+n≥3,l
+
+1
+1
+RbLyα ,b1 and R2p,b1 +1 = RbLyα ,b1 +1 . (82)
+3
+3
+
+Provided that we set Rb1 ,b1 +1 = Rb1 +1,b1 = 0, Eq. (80)
+remains valid for b = b1 , b1 + 1. Adding these transitions
+
+where the first term accounts for two-photon transitions
+and the second term for escape from Lyman lines (it is
+2p
+2s
+understood that P2p
+= 0 and P2p
+= 1). The effective
+transition rate for the reverse process is given by:
+X
+X
+i
++
+R̃1s,i = −
+Ti,b f νb + 3
+RLyn Pnp
+(Tr )fnp
+,
+(89)
+b
+
+n
+
+where we have defined the coefficients, for i = 2s, 2p:
+gi h(νb −ν21 )/Tr
+Tb,i .
+(90)
+Ti,b ≡
+e
+g1s
+For a given radiation field and free electron fraction, we
+can now obtain an equation for the populations of the
+excted states 2s, 2p. We do so in the steady-state approximation, i.e. setting ẋi = 0 for i = 2s, 2p in Eqs. (37)
+and (38). We first define the 2 × 2 matrix of elements
+Ti,i ≡ Bi + Ri,j + R̃i,1s and
+Ti,j ≡ −Ri,j .
+
+(91)
+
+15
+2s 2p b = 1 2
+
+N
+
+system is easily solved because the matrix of coefficients Tb,b0 is triadiagonal and the overall system
+has the particular sparsity pattern shown in Fig. 5.
+Such a sparse system can be solved in O(N ) operations (specifically, we can solve the system in
+∼ 16N operations).
+
+2s
+2p
+b=1
+2
+
+0
+diffusion
+region
+
+0
+
+4. After step #2, we can obtain the function ẋe (z, xe )
+through Eq. (39) or2 (40). This allows us to evolve
+the free electron fraction to the next timestep.
+
+N
+
+FIG. 5. Sparsity pattern of the linear system solved for evolving simultaneously the level populations and the radiation
+field, in the presence of two-photon transtions and frequency
+diffusion.
+
+We also define the source vector of elements
+X
+i
++
+Si ≡ nH x2e Ai + 3
+RLyn Pnp
+(Tr )fnp
+.
+
+(92)
+
+n≥2
+
+The steady-state equation for each state i translates into
+the linear equation:
+X
+X
+Ti,j xj +
+Ti,b xb = Si , i = 2s, 2p.
+(93)
+j=2s,2p
+
+D.
+
+3. We update the photon occupation number at the
+red side of each spike, fνb − , using Eq. (76). At
+−
+the red side of Lyman resonances, we use fnp
+=
+xnp /(3x1s ), valid in the optically thick limit, where
+xnp is given by Eq. (42) for n ≥ 3.
+
+b
+
+Evolution of the coupled system of level
+populations and radiation field
+
+We now have all the necessary pieces to evolve simultaneously the level populations and the radiation field,
+and compute the free electron fraction. In this section
+we summarize the procedure and recall the main equations. We start with an initially thermal radiation field,
+fν = e−hν/Tr . At each time step, we do the following
+computations:
+1. We obtain the photon occupation number incoming on each bin b assuming free streaming between
+frequency spikes:
+
+
+Eb+1
+fνb + (z) = fνb+1 − z 0 = (1 + z)
+−1 .
+(94)
+Eb
+We also obtain in the same way the incoming pho+
+ton occupation number at the Ly-n transitions, fnp
+.
+2. We solve for the populations of the 2s and 2p states
+and the average photon occupation number at each
+frequency spike f νb = xb /x1s simultaneously by
+solving the coupled linear system given by Eqs. (86)
+and (93). Even with a large number of bins for the
+radiation field (N = 311 in our fiducial case), this
+
+E.
+
+Implementation, convergence tests and results
+
+We evolve the free electron fraction during hydrogen
+recombination in several phases. We use even steps in ln a
+(where a = (1 + z)−1 is the scale factor), with ∆ ln a =
+8.5×10−5 . We describe our ODE integrator in Appendix
+C.
+• We checked that hydrogen and helium recombination never overlap and can be followed separately
+(to an accuracy of a few times 10−4 ). We therefore
+start computing the hydrogen recombination history once helium is completely recombined. Quantitatively, we start hydrogen recombination once
+the fractional abundance of He+ ions is less than
+10−4 relative to hydrogen. If this criterion is met
+earlier than z = 1650 we only switch on the hydrogen recombination computation at z = 1650. We
+checked that at this redshift the exact free electron
+fraction differs from the Saha equilibrium value by
+no more than a few times 10−4 anyway.
+• In the first phases of hydrogen recombination, we
+use the post-Saha expansion described in Appendix
+D. We do so as long as the free electron fraction
+differs from the Saha value by ∆xe < 5 × 10−5 . We
+checked that explicitly integrating the ODE for xe
+instead (with a much smaller timestep as the ODE
+is stiff at early times) leads to maximum changes
+of ∆xe /xe . 3 × 10−4 .
+• From then on and until z = 700 we solve simultaneously for the level populations and radiative
+transfer with two photon processes and diffusion as
+described in this section.
+
+2 Eq. (39) contains near exact cancellations but Eq. (40) contains
+
+a large number of terms for which numerical roundoff errors can
+add up. We checked that both equations give the same result
+within numerical roundoff errors. We use Eq. (39) in the final
+code simply because it is more compact.
+
+16
+
+• For the matter temperature evolution, we use the
+asymptotic solution of Hirata [24] [it can be obtained by setting Ṫm = −HTm in Eq. (12)] as long
+as 1 − Tm /Tr < 5 × 10−4 . Depending on cosmology,
+this corresponds to 750 < z < 950. After that we
+switch to solving for xe and Tm simultaneously by
+using Eq. (12).
+All the checks mentioned above were made for a wide
+range of cosmological parameters.
+Our fiducial parameters for the numerical solution of
+radiative transfer are N = 311 frequency bins extending
+from νLyα /2 to νLyγ , and a diffusion region with 80 bins
+extending to ∆ν/νLyα = ±1.7×10−2 . The minimal spacing between bins is min[ln(νb+1 /νb )] = 8.5 × 10−5 , which
+sets the largest step in ln a that we can take (this is also
+half of the width ∆ν/ν of the “resonant” region around
+Lyα). We checked (for the fiducial cosmology only) that
+reducing the diffusion region to ∆ν/νLyα = ±1 × 10−2
+leads to changes |∆xe |/xe < 6 × 10−6 . Reducing the diffusion region to ∆ν/νLyα = ±5 × 10−3 leads to changes
+|∆xe |/xe < 4 × 10−5 . We checked that using a 10
+times finer frequency grid in the diffusion region (and
+a 10 times smaller timestep) leads to maximum changes
+|∆xe |/xe ≈ 1.5 × 10−4 at z ≈ 900.
+We are therefore confident that our numerical treatment is converged at the level of a few parts in 104 .
+We show in Fig. 6 the changes in the recombination
+history due to two-photon processes. We find that including two-photon transitions from the initial states
+2s, 3s, 3d, 4s and 4d is sufficient for the level of accuracy required – we checked that including two-photon
+transitions from 5s and 5d leads to a maximum change
+∆xe /xe ∼ 8 × 10−5 at z ∼ 1200 and can therefore be
+neglected. The effect of frequency diffusion in the Lyα
+line is shown in Fig. 7.
+We compared our results to the two-photon MLA code
+of Hirata [24], as well as to the results of Hirata & Forbes
+[20] for frequency diffusion. For this comparison, we use
+nmax = 30. The result of the comparison is shown in
+Fig. 8. The maximum difference between the codes for
+700 < z < 1600 is |∆xe |/xe = 0.0005. The increase
+of the relative difference at late times is most likely due
+to small differences in the bound-free rates, which are
+computed with different methods (we use the recursion
+relations of Ref. [48] whereas Hirata (2008) directly integrates the products of wave functions to compute matrix
+elements). This difference remains even when switching off two-photon processes. The ∼ 3 × 10−5 kink at
+z ∼ 1570 is a startup transient due to switching from the
+post-Saha solution to solving the full ODE. The kink at
+z = 1350 is due to the Lyβ photons emitted at z = 1600
+
+0.02
+
+! xe/xe
+
+0.01
+
+0.00
+
+-0.01
+
+2s
+2s, 3s, 3d
+2s, 3s, 3d, 4s, 4d
+
+-0.02
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+1400
+
+1600
+
+z
+
+FIG. 6. Changes in the recombination history when including two-photon decays and Raman scattering (no diffusion),
+compared to our “base” model. The line labeled ’2s’ shows
+the changes in xe when one properly accounts for stimulated
+2s → 1s decays, as well as absorptions of distortion photons and Raman scattering form 2s. The other lines show
+the cumlative correction when adding two-photon transitions
+from higher levels.
+0.000
+-0.001
+
+! xe/xe
+
+• For z < 700, we use the simple EMLA equations,
+with simple decay rates from 2s and 2p only (i.e.
+not accounting for higher order Lyman lines and
+radiative transfer effects). We checked that moving
+the last switch to z = 400 instead of 700 leads to
+maximum changes |∆xe |/xe < 10−4 .
+
+-0.002
+-0.003
+-0.004
+-0.005
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+1400
+
+1600
+
+z
+
+FIG. 7. Changes in the recombination history when including
+frequency diffusion in Lyman-α, compared to a model with
+two-photon transitions but no diffusion.
+
+starting to redshift into Lyα. Overall, the agreement is
+excellent (|∆xe |/xe < 10−4 for z > 900), even though
+the codes use different methods to compute atomic rates
+and different approaches for solving the MLA problem
+and treating Lyα frequency diffusion.
+
+VI.
+
+HELIUM RECOMBINATION
+
+Roughly 14% of the electrons in the Universe are associated with helium rather than hydrogen, so it is critical
+to model helium recombination as well [5, 33–35]. Because the ionization energy of helium is greater than that
+of hydrogen (EI1 = 24.6 eV for He I and EI2 = 54.4 eV
+for He II), helium recombines earlier than hydrogen, well
+before the epoch of last scattering. Therefore, we do not
+observe helium recombination directly: rather it affects
+the diffusion of photons at early times and hence controls
+the Silk damping length [5]. A faster helium recombination (smaller xe ) leads to a longer photon mean free path
+and hence a larger damping length. The net effect is then
+to reduce the high-` multipoles of the CMB temperature
+
+17
+Comparison of HyRec to Previous Codes
+
+xe(HyRec)/xe(slow) - 1
+
+0.0004
+
+ionization energy of helium and ge is given by Eq. (3) but
+using the appropriate reduced mass of the electron-He III
+system. We first solve Eq. (95) for q:
+
+Hirata (2008) 2!
+Hirata+Forbes (2009) 2! + Ly" diff
+
+0.0002
+
+2sfHe
+q=
+1 + fHe + s
+
+0
+-0.0002
+-0.0004
+-0.0006
+700 800 900 1000 1100 1200 1300 1400 1500 1600
+z
+
+FIG. 8. Comparison of HyRec with the MLA+two-photon
+code of Hirata (2008) and to the results of Hirata & Forbes
+(2009) who account for Lyα diffusion. See text for comments.
+
+and polarization power spectra [33]. However, since most
+of the Silk damping occurs at later times, we do not need
+extraordinary accuracy in following helium recombination: the corrections identified by Refs. [31–33], which
+changed xe by up to 3% at z ≈ 1800, amounted to a
+∼ 1σ correcton for Planck and ∼ 8σ for a hypothetical
+cosmic variance limited experiment to ` = 3000. Therefore, a helium recombination code accurate to ∼ 0.3%
+should reduce any residual errors to the point of being
+negligible for Planck. Here we describe our “fast” helium
+recombination code.
+Throughout the helium recombination process, we may
+take a single temperature T ≡ Tm = Tr . We make
+several other crude approximations, as detailed below.
+While analytically motivated, their quantitative justification rests on the comparison to the “full” version
+of our calculations [33]. For the equilibrium calculations, the He I level energies and are obtained from
+the NIST database (itself based on the compilation of
+Ref. [49]). The bound-bound Einstein coefficients are
+obtained from Ref. [50]: A[21 P o − 11 S] = 1.7989 × 109
+s−1 and A[23 P o − 11 S] = 177.58 s−1 . The bound-free
+rates are not required here since the excited levels of He
+I remain in equilibrium with the continuum (i.e. these
+rates may simply be taken to be “fast”).
+A.
+
+He III→II recombination
+
+The He III→II recombination has previously been
+found to be in Saha equilibrium to high accuracy [31, 34]
+and is followed using the Saha equation:
+q(1 + fHe + q)
+= s ≡ ge e−EI2 /T ,
+fHe − q
+
+s
+1+
+
+4sfHe
+1+
+(1 + fHe + s)2
+
+!−1
+. (96)
+
+We then obtain the free electron fraction from xe = 1 +
+fHe + q.
+This equation is used to obtain xe until q = xHeIII =
+10−9 (which corresponds to z ∼ 4000).
+B.
+
+He II→I recombination: Near-equilibrium stage
+
+In contrast to He III→II recombination, the He II→I
+recombination is a highly non-equilibrium process (it occurs at much lower density and in a weaker radiation
+field, with a much slower 2γ decay process, and the excited levels of He I are much closer to the continuum as
+a fraction of the ionization energy than those of He II).
+Therefore, it must be followed in several stages.
+The first is the near-equilibrium stage, before the main
+He I resonance line (21 P o –11 S at 584 Å) develops sufficient optical depth to push helium recombination out of
+equilibrium. In this stage, the free electron fraction is
+close to the Saha solution xSaha
+= 1 + q, where q ≡ xHeII
+e
+satisfies
+q(1 + q)
+= s ≡ 4ge e−EI1 /T ,
+fHe − q
+
+(97)
+
+and we assume that all hydrogen is ionized and that the
+helium is distributed between He0 and He+ . In Eq. (97),
+EI1 is the first ionization energy of Helium, and one
+should use the appropriate reduced mass of the electronHe II system in ge . The additional factor of 4 relative
+to Eq. (95) is due to the lower spin degeneracy of He I.
+Again, we first solve Eq. (97) for q:
+2sfHe
+q=
+1+s
+
+s
+1+
+
+4sfHe
+1+
+(1 + s)2
+
+!−1
+,
+
+(98)
+
+from which we get xSaha
+= 1 + q. We then obtain the
+e
+post-Saha expansion for the free electron fraction xe =
+xSaha
++ ∆xe as described in Appendix D. We do so until
+e
+∆xe reaches 5 × 10−4 , which corresponds to 2500 < z <
+3000 depending on cosmology. We checked that using the
+post-Saha expansion until ∆xe = 10−5 instead and then
+numerically integrating the ODE for xe (described in the
+next section) leads to maximum changes of ∼ 3 × 10−4
+in the free electron fraction.
+
+(95)
+
+where q ≡ xHeIII and we assume that the rest of the
+helium is singly ionized, xHeII = fHe −q, and all hydrogen
+is ionized, xe = 1+fHe +q. In Eq. (95), EI2 is the second
+
+C.
+
+He II→I recombination: Non-equilibrium stage
+
+At lower redshifts, one must follow helium recombination carefully, via a Peebles-style ODE [1], i.e. an equa-
+
+18
+tion of the form
+
+1.
+
+ẋe = −F(xe , z; p),
+
+(99)
+
+where p is the vector of cosmological parameters. Despite
+the complicated radiative transfer physics in the helium
+problem, a single ODE turns out to suffice because the
+portion of the ultraviolet spectrum that is relevant is relatively narrow and may be treated as in steady state (it
+encompasses the 584 and 591 Å lines). The construction
+of the F function is however more complicated than the
+Peebles ODE for hydrogen.
+The excited levels of He I (n ≥ 2) have been found to
+remain in Saha equilibrium with the continuum throughout the process since the strong CMB blackbody ionizes
+them far faster than they can reach the ground state [31].
+The significant processes for net decays to the ground
+state are four-fold:
+• The two-photon process, He(21 S)→He(11 S)+γ+γ.
+• Emission of photons via the main resonance line
+21 P o –11 S with λ = 584 Å, followed by redshifting
+out of the line (the He I analogue of the H I Lymanα escape process).
+• The absorption of He I 584 Å photons by H(1s)
+atoms via photoionization, H(1s)+γ →H+ + e− .
+The electron rapidly thermalizes its energy, leading
+to a loss of a resonance line photon and a net decay
+of He I.
+• Emission of photons in the intercombination line He
+I] 23 P o –11 S with λ = 591 Å. This line has Sobolev
+optical depth of order unity during He I recombination so the full Sobolev escape probability formula
+must be used.
+In constructing the function F above, we take several
+steps. First, we compute the abundance of the species
+H I, H II, He I and He II. The formulae for the latter
+are xHeII = xe − 1 + xHI and xHeI = fHe − xHeII , but
+these require knowledge of the H I fraction. This cannot
+be completely ignored, but it is small and so the Saha
+equation for H (Eq. D2) suffices for this purpose.3
+Next is the determination of the excited level (21 S and
+1
+2 P ) abundances assuming equilibrium with the continuum,
+1 −E[21 S] /T
+e
+xe (xe − 1)
+(100)
+4ge
+
+
+and x[21 P ] = 3x[21 S] exp −(E[21 P ] − E[21 S] )/T .
+Armed with this information, we proceed to investigate
+each decay mechanism.
+x[21 S] =
+
+3 Eq. (D2) technically neglects the contribution of helium to the
+
+electron abundance, but this correction is small in the very latest
+stages of He recombination when the H I correction becomes
+significant.
+
+The two-photon process
+
+The downward rate for the He I 2γ decay is Λ =50.94
+s−1 [51], so we find a downward decay rate
+
+
+F (2γ) (xe , z; p) = Λ x[21 S] − e−(E[21 S] −E[11 S] )/T xHeI .
+(101)
+
+2.
+
+The 584 Å line
+
+The rate of emission of photons in the 584 Å line is
+complicated because photons in this line experience multiple processes: (i) “true” absorption and emission, (ii)
+resonant scattering (which redistributes photons in frequency since in the comoving frame the ingoing and outgoing photons need not have the same frequency), (iii)
+H I photoionization opacity (which has absorption and
+emission), and (iv) redshifting due to Hubble expansion.
+We construct here a highly simplified model of these processes; the “full” treatment can be found in Ref. [31].
+Ref. [31] also showed that the resonant scatterings can
+be neglected. It should be noted that in the case of the
+584 Å line, the nontrivial physics takes place in the damping wings: the line center is very optically thick, and the
+reaction
+He(21 P o ) ↔ He(11 S) + γ
+
+(102)
+
+reaches equilibrium there (analogous to the H I Lyman-α
+line).
+In this situation, the radiative transfer equation for the
+photon occupation number fν in the vicinity of the 584
+Å line can be simplified to [Eq. (36) of Ref. [31], with
+individual expressions substituted in]
+∂fν
+f˙ν = Hν
++ Hνηc (e−hν/T − fν )
+∂ν
+eq
++Hντabs φ(ν) (f584
+− fν ) ,
+
+(103)
+
+where ηc is the H I opacity in units of absorption optical
+depth per unit frequency (i.e. Hνηc is the absorption opeq
+tical depth per unit time), and f584
+≡ x[21 P o ] /(3x[11 S] )
+is the equilibrium photon occupation number in the 584
+Å line. In Eq. (103), the e−hν/T term corresponds to
+emission from direct H I recombinations to the ground
+state (i.e. the inverse process of photoionization); τabs
+is the Sobolev optical depth to true absorption in the
+584
+R Å line; φ(ν) is the 584 Å line profile normalized by
+φ(ν) dν = 1. We neglect stimulated emission processes
+at 584 Å, since the photon phase space density is  1.
+In steady state, the left-hand side of Eq. (103) is approximated as zero. The remaining contributions are as
+follows.
+The H I continuum optical depth is, assuming an H I
+abundance in Saha equilibrium with H II (assumed to be
+nearly all hydrogen, i.e. xp ≈ 1),
+ηc =
+
+eEI /T σpi cnH xe
+.
+ge
+Hν
+
+(104)
+
+19
+[This comes from combining Eqs. (27) and (28) of
+Ref. [31].] Here σpi is the photoionization cross section
+of H I at λ = 584 Å and EI is the hydrogen ionization
+energy.
+The line profile is in principle a Voigt profile. However
+near line center where φ(ν) becomes large, we have fν →
+eq
+irrespective of the details in order to keep Eq. (103)
+f584
+finite. Therefore, we approximate it by the damping wing
+approximation,
+φ(ν) ≈
+
+Γ
+,
+4π 2 (ν − ν0 )2
+
+(105)
+
+where ν0 is the central frequency of the line and Γ is the
+intrinsic width. The latter is the sum of the rates for
+all processes that depopulate 21 P o (the width of the 11 S
+state is negligible), i.e. we may write Γ = A584 + Γother ,
+where A584 is the contribution from 21 P o → 11 S and
+Γother is the contribution from all other states:
+Γother =
+
+A[21 P o ],[21 S]
+−(E[21 P o ] −E[21 S] )/T
+
+1−e
+X gi
+Ai,[21 P o ]
++
+,
+(E
+−E
+i
+[21 P o ] )/T − 1
+3e
+i
+
+(106)
+
+where the first term corresponds to decays to 21 1S (supplemented by stimulated transitions) and the second
+term corresponds to absorptions from 21 P o to a higher
+level i. We include the levels n1 S and n1 D for 3 ≤ n ≤ 5.
+In principle we should include higher n and the continuum levels, but in practice the first few levels dominate
+the sum because of the exponential factor.
+We next need the optical depth to true absorption,
+which is the Sobolev optical depth τS times the fraction
+of photon absorptions 11 S → 21 P o that are true absorptions (i.e. do not immediately decay back to 11 S,
+but rather visit another level). This fraction is Γother /Γ.
+Thus
+Γother
+τS Γother
+Γ
+τabs φ(ν) =
+τS 2
+=
+.
+2
+Γ
+4π (ν − ν0 )
+4π 2 (ν − ν0 )2
+(107)
+With these results, and neglecting the variation of the
+blackbody function e−hν/T across the line, Eq. (103) simplifies to
+∂fν
+τS Γother
+eq
+= ηc (fν − e−hν0 /T ) + 2
+(fν − f584
+).
+∂ν
+4π (ν − ν0 )2
+(108)
+The next simplification of this equation occurs if we rescale both the frequency and the phase space density axes
+as
+y = 4π 2
+
+ν − ν0
+τS Γother
+
+(109)
+
+and
+
+leading to
+dξ
+ξ−1
+= τc ξ + 2 ,
+dy
+y
+
+(111)
+
+τS Γother ηc
+.
+4π 2
+
+(112)
+
+where
+τc ≡
+
+For blackbody radiation entering the line, we have the
+boundary condition ξ(+∞) = 0.
+This reduces the radiative transfer equation to a single
+ODE that depends on the single dimensionless parameter τc , which is (roughly speaking) the optical depth to
+H I photoionization within the part of the line that is
+optically thick to true absorption by He I 584 Å. This
+parameter is exponentially increasing in the early parts
+of helium recombination, and becomes of order unity at
+z ≈ 2100. It is the parameter that controls which process
+is a more important sink for resonance line photons: H
+I continuum opacity (τc  1) or escape via redshifting
+(τc  1).
+The net rate at which photons are emitted in the He
+I line in photons per H nucleus per unit time is then
+obtained by integrating the absorption/emission term in
+the rate equation,
+Z
+8πν 2
+eq
+(584)
+F
+=
+Hντabs φ(ν) (f584
+− fν ) dν.
+(113)
+nH c3
+This integral can be converted into an integral over y and
+fν can be replaced with ξ(y); making these substitutions
+and approximating ν ≈ ν0 in the prefactors gives
+F (584) =
+
+
+8πHν03  eq
+f584 − e−hν0 /T E,
+3
+nH c
+
+(114)
+
+1 − ξ(y)
+dy
+y2
+
+(115)
+
+where
+E=
+
+Z
+
+depends on the single parameter τc . We note that without the factor of E, Eq. (114) would be the standard
+decay rate formula with escape probability Pesc = 1/τS
+(appropriate in the high optical depth limit). Thus E can
+be thought of as a correction factor associated with the
+H I continuum opacity.
+Unfortunately, the integral in Eq. (115) is not
+amenable to direct calculation, since the integrand is illconditioned near y ≈ 0. We may obtain an alternative
+form by taking the integral from y = −Y to y = +Y (we
+will take the limit Y → ∞), plugging in Eq. (111) into
+the integrand, and then realizing that ξ(+Y ) → 0 due to
+our boundary condition, we find
+Z Y
+E = ξ(−Y ) + τc
+ξ(y) dy.
+(116)
+−Y
+
+−hν0 /T
+
+ξ(y) =
+
+fν − e
+,
+eq
+f584
+− e−hν0 /T
+
+(110)
+
+Formally, for τc > 0, we have ξ(−Y ) → 0 for Y → ∞,
+but numerically one must keep the first term at small τc .
+
+20
+an “on-the-spot” approximation: we assume that for each
+photon emitted in the 584 Å line, there is a probability
+that the photon is re-absorbed of
+Preabs = e−ηc (E[21 P o ] −E[23 P o ] )/h (1 − e−τ591 ),
+
+E(τc )
+
+E(!c)
+
+10
+
+1
+0.01
+
+0.1
+
+1
+
+τ
+
+10
+
+!c c
+FIG. 9. The function E(τc ) (solid line) and our approximation
+(dashed line).
+
+where the first factor is the probability that the photon
+can redshift from 584 Å to 591 Å without being destroyed
+by H I continuum opacity, and the second factor is the
+probability that, once it reaches the 591 Å line, the photon is indeed absorbed. Thus the 591 Å line has two
+effects: first, it contributes to the net formation of the
+He I ground state in accordance with Eq. (118), and second it reduces the net formation from the 584 Å line by
+a factor of 1 − Preabs . Thus we write
+F (591) =
+
+Equation (111) is stiff and can be solved by the backward Euler method; however even this is too slow to use
+in a “fast” recombination code. Therefore, we have constructed a fitting function for E, valid to within 0.8% for
+all positive τc :
+E(τc ) ≈
+
+p
+
+1 + π 2 τc +
+
+7.74τc
+.
+1 + 70τc
+
+(117)
+
+Note that this has the correct limiting behavior E → 1
+for τc → 0, and for positive τc has E > 1, as one would
+expect. The full function E(τc ) and the approximation of
+Eq. (117) are shown in Fig. 9.
+The use of Eqs. (114) and (117) are sufficient to solve
+for the behavior of the 584 Å line.
+3.
+
+
+
+8πHν03
+eq
+−(E[23 P o ] −E[11 S] )/T
+−τ591
+(1
+−
+e
+)
+f
+−
+e
+, (118)
+591
+nH c3
+where τ591 is the optical depth of the 591 Å line, and
+eq
+f591
+≡ x[23 P o ] /(3x[11 S] ) is the equilibrium value of the
+photon occupation number in the line. Based on the
+ratio of Einstein coefficients [50], we take τ591 = 1.023 ×
+10−7 τ584 .
+However, the 591 Å line can also absorb photons that
+redshifted out of the 584 Å line. We treat this problem by
+
+8πHν03
+(1 − e−τ591 )
+n H c3
+
+
+eq
+− e−(E[23 P o ] −E[11 S] )/T
+× f591
+
+−Preabs F (584) .
+4.
+
+(120)
+
+Hydrogen recombination corrections
+
+As a final step, we include in our rate equation the
+contribution to the ionization fraction due to changes in
+the hydrogen Saha equilibrium:
+F (H) = −
+
+dxHI
+,
+dt Saha
+
+(121)
+
+which is obtained by two-sided finite differencing with
+∆z = ±0.5. This contribution to ẋe is necessary for full
+accuracy at the very last stages of He recombination.
+
+The 591 Å line
+
+The intercombination line He I] 23 P1o → 11 S at 591
+Å can reach optical depths of order unity during helium
+recombination. Therefore it must be considered carefully.
+However, because the damping wings are optically thin,
+it is only the line center that is of interest. Because there
+is negligible H I continuum opacity in the core during
+helium recombination, we use the Sobolev approximation
+for the 591 Å line. If there were no 584 Å line, then
+we would have blackbody radiation entering the line and
+could write the net decay rate as
+
+(119)
+
+5.
+
+Integration details
+
+We may now construct the overall electron fraction
+evolution, F = F (2γ) + F (584) + F (591) + F (H) . The
+equation is stiff at early times, which is why we do not
+turn it on until the free electron fraction given by the
+post-Saha expansion differs from the Saha equilibrium
+value by more than 5 × 10−4 . We then use the ODE
+integrator described in Appendix C.
+The treatment of helium is turned off once the abundance of He+ ions is less than 10−4 per hydrogen atom,
+after which we switch to following hydrogen recombination (we checked that hydrogen and helium recombination never overlap and can be followed separateley).
+D.
+
+Comparison to detailed calculations
+
+The ultimate test of the sweeping approximations
+made in this section is their comparison against more
+detailed computations of the He I recombination history.
+We compare against Switzer & Hirata [33] in Fig. 10.
+
+21
+Helium recombination comparison
+1.08
+1.07
+1.06
+
+xe
+
+1.05
+1.04
+1.03
+1.02
+1.01
+
+HyRec
+Switzer + Hirata (2008)
+
+1
+1800 2000 2200 2400 2600 2800 3000
+z
+FIG. 10. A comparison of the HyRec He II→I recombination
+history to that computed by the “full physics” code of Switzer
+& Hirata [33]. The maximum deviation is 0.3%.
+
+The maximum error is 0.3%, which is roughly equal to
+the stated theoretical uncertainty in the Switzer & Hirata
+calculation.
+
+VII.
+
+CONCLUSIONS
+
+We have presented a complete treatment of primordial
+hydrogen and helium recombination, including all the effects that have been shown to be important so far. Our
+computation accounts for the multilevel character of hydrogen and the non-equilibrium of angular momentum
+substates, radiative feedbacks, two-photon transitions,
+and frequency diffusion in Lyα for hydrogen recombination. For helium recombination, we account for HI continuum opacity in the He I 21 P o − 11 S line, decays in the
+23 P o − 11 S intercombination line, and feedback between
+these lines. We have implemented all these effects in a
+single recombination code, HyRec, which can compute a
+recombination history in ∼ 2 seconds on a standard laptop for a given set of cosmological parameters. Provided
+collisional transitions can be neglected (which remains to
+be established), we estimate the errors of our computation to be a few times 10−3 during helium recombination
+and a few times 10−4 during hydrogen recombination,
+including both numerical errors and errors due to the assumptions and approximations made for physical effects.
+If collisional transitions are shown to have a significant
+effect on recombination, our code can be easily updated
+to account for them with very little loss of computational
+efficiency.
+It has been argued that corrections to the recombination history due to radiative transfer effects are relatively independent of cosmology [52], and that one could
+therefore compute them once and use the resulting correction function to account for them for any given cosmology. Alternatively, one might run a grid of recom-
+
+bination histories for different cosmologies and construct
+a fitting function [6, 53]. Our point of view here is that
+the physics of primordial recombination is simple enough,
+and an exact calculation from first principles is now fast
+enough that there should be no reason to use fudge factors and approximate correction functions. This is especially relevant if one wishes to extend the standard
+recombination calculation by introducing “exotic” new
+physics. We would like to emphasize that the fast computation presented here, using the EMLA method, is very
+well adapted for the computation of the recombination
+history, but that the standard MLA approach and fast
+interpolation methods may still be useful for the computation of the recombination spectrum.
+We believe our code is accurate enough (aside from
+neglecting collisional transitions) and has a sufficiently
+small runtime to be incorporated in Monte Carlo Markov
+chains for upcoming CMB data analysis from the Planck
+mission.
+ACKNOWLEDGMENTS
+
+The authors thank Jens Chluba for stimulating conversations on the physics of recombination and Daniel Grin
+for carefully reading the manuscript of this paper. Y.
+A-H. and C. H. are supported by the U.S. Department
+of Energy (DE-FG03-92-ER40701) and the National Science Foundation (AST-0807337). C. H. is supported by
+the Alfred P. Sloan Foundation and the David & Lucile
+Packard Foundation.
+Appendix A: Proof of some relations involving
+effective rates
+1.
+
+Preliminaries
+
+Here we use the same notation as in Paper I. Capital
+indices K, L refer to “interior” excited states, and lowercase indices i, j refer to “interface” excited states. We
+define the rate matrix M whith coefficients:
+MKL = δKL ΓK − (1 − δKL )RK,L .
+
+(A1)
+
+In Paper I, we have shown that the populations of the
+interface states are given by:
+"
+#
+X
+X
+
+−1
+2
+XK =
+M
+nH xe αL +
+xi Ri,L . (A2)
+LK
+i
+
+L
+
+i
+e
+We also showed that the probabilities PK
+and PK
+are
+given by
+X
+
+i
+=
+PK
+M−1 KL RL,i ,
+(A3)
+L
+
+and
+e
+PK
+=
+
+X
+L
+
+
+M−1 KL βL .
+
+(A4)
+
+22
+In Appendix C of Paper I, we showed that M satisfies
+the following detailed balance relation:
+
+
+QK M−1 KL = QL M−1 LK ,
+(A5)
+
+where we have defined
+X
+
+λi,K (Tr ) ≡
+Ri,L M−1 LK
+L
+
+−EK /Tr
+
+where QK = gK e
+is the contribution of individual
+states to the partition function and gK is the degeneracy
+of the state K.
+
+=
+
+X
+
+=
+
+X
+
+Ri,L
+
+
+QK
+M−1 KL
+QL
+
+RL,i
+
+
+QK
+M−1 KL
+Qi
+
+L
+
+L
+
+2.
+
+gK −EKi /Tr i
+PK (Tr ),
+=
+e
+gi
+
+Rate of change of the free electron fraction
+
+In this section we derive Eq. (31), which was not derived in Paper I. In the standard MLA formulation, the
+rate of change of the free electron fraction can be written
+as:
+X
+
+ẋe = −
+nH x2e αK − XK βK
+K
+
+X
+
+−
+nH x2e αi − xi βi .
+
+This formula is never used in standard MLA codes, as
+it requires a summation over a large number of nearly
+cancelling terms, and MLA codes use instead ẋe = −ẋ1s
+to compute the rate of change of the free electron fraction. Eq. (A6) remains however formally correct. Using
+Eqs. (A2) and (A4), we rewrite:
+"
+#
+X
+X
+X
+
+XK βK =
+βK M−1 LK nH x2e αL +
+xi Ri,L
+"
+=
+
+PLe
+
+#
+
+nH x2e αL +
+
+X
+
+X
+L
+
++
+
+Expression of XK in terms of xi , xe and effective
+rates
+
+Taking Tm = Tr and using the detailed balance relation
+ge nH αL = QL βL , we rewrite Eq. (A2) as follows:
+X
+
+XK = ge−1 x2e
+QL M−1 LK βL
+L
+
+
+QL
+RL,i
+M−1 LK
+Qi
+i
+L
+X
+
+= ge−1 x2e QK
+M−1 KL βL
++
+
+X
+
+xi
+
++
+
+X
+
+
+QK X
+M−1 KL RL,i ,
+xi
+Qi
+
+xi Ri,L
+
+nH x2e αL − nH x2e
+
+X
+i
+
+xi
+
+X
+
+XX
+i
+
+(A7)
+
+L
+
+where in the last
+we have used the complemenP equality
+e
+i
+= 1. Inserting this result into
+tarity relation i PK
++PK
+Eq. (A6), and using the definitions of the effective recombination coefficients and photoionization rates Eqs. (23)
+and (24), we immediately recover Eq. (31).
+3.
+
+Proof of Eq. (41)
+
+Consider Eq. (36) with Γ̃K ≈ ΓK (Tr ). The formal
+1s
+solution for the P̃K
+is given by:
+X
+
+1s
+P̃K
+=
+M−1 KL R̃L,1s .
+(A8)
+L
+
+Therefore one may rewrite Eq. (34), for i = 2s, 2p:
+X
+R̃i,1s = R̃i,1s +
+λi,K (Tr )R̃K,1s ,
+(A9)
+K
+
+(A11)
+
+L
+
+where in the last equality we have used Eq. (A5). Using
+the formal solutions for the probabilities Eqs. (A3), (A4),
+we see that we recover Eq. (42).
+
+αL PLi
+
+L
+
+Ri,L PLe ,
+
+X
+
+L
+
+i
+
+i
+
+L
+
+=
+
+4.
+
+i
+
+K,L
+
+X
+
+where in the second line we used Eq. (A5), in the third
+line we used the detailed balance relation verified by Ri,L
+and RL,i , and in the last line we used the formal solution
+i
+for PK
+, Eq. (A3). We therefore obtain Eq. (41).
+
+(A6)
+
+i
+
+K
+
+(A10)
+
+Appendix B: Extrapolation of the effective rates to
+nmax = ∞
+
+We
+have
+tabulated
+the
+effective
+rates
+A2s (Tm , Tr ), A2p (Tm , Tr ) and R2s,2p (Tr ), including
+all excited states up to the principal quantum number nmax , for several values of nmax up to 600, over
+the temperature range 0.004 eV ≤ Tr ≤ 0.4 eV,
+0.1 ≤ Tm /Tr ≤ 1. This range of temperatures corresponds to 20 < z < 1650 for a wide range of cosmologies.
+For every pair (Tm , Tr ), we have fitted the effective rates
+by the following functional form:
+
+
+κ
+Ai (Tm , Tr ; nmax ) = Ai (Tm , Tr ; ∞) 1 −
+,
+(nmax )γ
+(B1)
+and similarly for R2s,2p , where κ and γ depend on Tm
+and Tr as well as on the coefficient being fitted. This
+allows us to extrapolate the effective rates to nmax → ∞.
+Of course, this is only a formal extrapolation, as for
+
+23
+n larger than a few thousands, the excited states of
+hydrogen are no more well defined (see Ref. [54] for
+a discussion). The extrapolated rates are still more
+accurate than those computed with a a finite number
+of states. The residuals of the fit have a maximum
+relative amplitude of 5 × 10−4 over the whole range
+of temperature considered, for 200 ≤ nmax ≤ 600,
+and more than an order of magnitude smaller on the
+restricted range Tr ≥ 0.04 eV, Tm /Tr ≥ 0.8 which
+corresponds to z & 200 (note that neglecting the
+overlap of the high-lying Lyman lines leads to errors
+in the effective rates of similar amplitude [15]). For
+reference, the maximum relative difference between the
+effective rates computed with nmax = 600 and their
+extrapolation at nmax = ∞ is 0.05 over the whole range
+of temperature considered, and 0.002 over the restricted
+range corresponding to z & 200. We checked that
+our method recovers the
+P correct case-B recombination
+coefficient αB (Tm ) ≡ i=2s,2p Ai (Tm , Tr = 0; ∞). Our
+extrapolated αB agrees with the fit of Ref. [55] to better
+that 0.2 % for Tm > 40 K, which is the accuracy claimed
+by the authors of Ref. [55].
+
+Appendix D: Post-Saha expansion at early phases of
+hydrogen and He II→I recombinations
+
+As explained in Appendix D of Paper I, the ODE
+describing hydrogen recombination is stiff at z & 1500
+and so is the ODE describing He II→I recombination at
+z & 2800. We therefore use an expansion around the
+Saha equilibrium solution:
+,
+d(xSe )
+∂ ẋe
+S
+xe ≈ xe +
+,
+(D1)
+dt
+∂xe xSe
+where xSe is the Saha equilibrium value of the free electron
+fraction.
+1.
+
+Hydrogen recombination
+
+The Saha equilibrium value of the free electron fraction
+is the solution of the following equation:
+(xSe )2
+= s ≡ ge e−EI /T ,
+1 − xSe
+
+(D2)
+
+where ge was given in Eq. (3) and T = Tm = Tr at
+early times. The numerator in Eq. (D1) can be obtained
+analytically by differentiating Eq. (D2):
+H( ETI − 32 )(xSe )2
+d(xSe )
+=−
+.
+dt
+2xSe + s
+
+Appendix C: Numerical ODE integrator
+
+(D3)
+
+For the sake of computational efficiency, we use a second order ODE integrator that uses derivatives computed
+at previous timesteps. This allows us to evaluate derivatives only once at each timestep. Explicitly, to numerically solve the equation y 0 (x) = f (x, y), we use evenly
+spaced steps ∆x, and obtain the solution at the (i + 1)th
+step as follows:
+
+For the denominator in Eq. (D1), we numerically differentiate the derivative ẋe obtained when accounting for
+two-photon processes and diffusion, using a two-sided finite difference with ∆xe = ±0.01(1 − xSe ).
+
+yi+1 = yi + ∆yi ,
+
+
+0
+∆yi = ∆x 1.25yi0 − 0.25yi−2
+,
+
+In that case the free electron fraction in Saha equilibrium is given by xSe = 1 + q, where q can be obtained
+from Eq. (97). As in the hydrogen case, differentiation
+of Eq. (97) gives us an analytic expression for the numerator in Eq. (D1). We numerically differentiate the
+derivative ẋe given by Eq.(99) using a two-sided finite
+difference with ∆xe = ±0.01(1 + fHe − xSe ).
+
+(C1)
+
+where yi0 = f (xi , yi ) is stored at each timestep for later
+use. For the case of interest, we have x = ln a, y = xe
+and f = ẋe /H.
+
+[1] P. J. E. Peebles, Astrophys. J. 153, 1 (Jul. 1968).
+[2] Y. B. Zeldovich, V. G. Kurt, and R. A. Syunyaev, Zhurnal Eksperimental noi i Teoreticheskoi Fiziki 55, 278 (Jul.
+1968).
+[3] E. Komatsu et al., ArXiv e-prints(Jan. 2010),
+arXiv:1001.4538.
+[4] The Planck Collaboration, ArXiv Astrophysics eprints(Apr. 2006), arXiv:astro-ph/0604069.
+[5] W. Hu, D. Scott, N. Sugiyama, and M. White, Phys. Rev.
+D 52, 5498 (Nov. 1995), arXiv:astro-ph/9505043.
+
+2.
+
+He II→I recombination
+
+[6] A. Lewis, J. Weller, and R. Battye, Mon. Not. R. Astron.
+Soc. 373, 561 (Dec. 2006), arXiv:astro-ph/0606552.
+[7] J. A. Rubiño-Martı́n, J. Chluba, W. A. Fendt, and B. D.
+Wandelt, Mon. Not. R. Astron. Soc. 403, 439 (Mar.
+2010), arXiv:0910.4383.
+[8] S. Seager, D. D. Sasselov, and D. Scott, Astrophys.
+J. Suppl. Ser. 128, 407 (Jun. 2000), arXiv:astroph/9912182.
+[9] S. Seager, D. D. Sasselov, and D. Scott, Astrophys. J.
+Lett. 523, L1 (Sep. 1999), arXiv:astro-ph/9909275.
+
+24
+[10] J. A. Rubiño-Martı́n, J. Chluba, and R. A. Sunyaev,
+Mon. Not. R. Astron. Soc. 371, 1939 (Oct. 2006),
+arXiv:astro-ph/0607373.
+[11] J. Chluba, J. A. Rubiño-Martı́n, and R. A. Sunyaev,
+Mon. Not. R. Astron. Soc. 374, 1310 (Feb. 2007),
+arXiv:astro-ph/0608242.
+[12] D. Grin and C. M. Hirata, Phys. Rev. D 81, 083005 (Apr.
+2010), arXiv:0911.1359 [astro-ph.CO].
+[13] J. Chluba, G. M. Vasil, and L. J. Dursi, Mon. Not.
+R. Astron. Soc., 996(Jun. 2010), arXiv:1003.4928 [astroph.CO].
+[14] Y. Ali-Haı̈moud and C. M. Hirata, Phys. Rev. D 82,
+063521 (Sep 2010).
+[15] Y. Ali-Haı̈moud, D. Grin, and C. M. Hirata, ArXiv eprints(Sep. 2010), arXiv:1009.4697 [astro-ph.CO].
+[16] J. Chluba and R. A. Sunyaev, Astron. Astrophys. 475,
+109 (Nov. 2007), arXiv:astro-ph/0702531.
+[17] E. E. Kholupenko, A. V. Ivanchik, and D. A. Varshalovich, Phys. Rev. D 81, 083004 (Apr. 2010),
+arXiv:0912.5454.
+[18] J. Chluba and R. A. Sunyaev, Astron. Astrophys. 496,
+619 (Mar. 2009), arXiv:0810.1045.
+[19] S. I. Grachev and V. K. Dubrovich, Astronomy Letters
+34, 439 (Jul. 2008), arXiv:0801.3347.
+[20] C. M. Hirata and J. Forbes, Phys. Rev. D 80, 023001
+(Jul. 2009), arXiv:0903.4925.
+[21] J. Chluba and R. A. Sunyaev, Astron. Astrophys. 503,
+345 (Aug. 2009), arXiv:0904.2220.
+[22] J. Chluba and R. A. Sunyaev, Astron. Astrophys. 446,
+39 (Jan. 2006), arXiv:astro-ph/0508144.
+[23] E. E. Kholupenko and A. V. Ivanchik, Astronomy Letters
+32, 795 (Dec. 2006), arXiv:astro-ph/0611395.
+[24] C. M. Hirata, Phys. Rev. D 78, 023001 (Jul. 2008),
+arXiv:0803.0808.
+[25] V. K. Dubrovich and S. I. Grachev, ArXiv Astrophysics
+e-prints(Jan. 2005), arXiv:astro-ph/0501672.
+[26] J. Chluba and R. A. Sunyaev, Astron. Astrophys. 480,
+629 (Mar. 2008), arXiv:0705.3033.
+[27] J. Chluba and R. A. Sunyaev, Astron. Astrophys. 512,
+A53+ (Mar. 2010), arXiv:0904.0460 [astro-ph.CO].
+[28] T. Matsuda, H. Satō, and H. Takeda, Progress of Theoretical Physics 42, 219 (Aug. 1969).
+[29] T. Matsuda, H. Sato, and H. Takeda, Progress of Theoretical Physics 46, 416 (Aug. 1971).
+[30] E. E. Kholupenko, A. V. Ivanchik, and D. A. Varshalovich, Mon. Not. R. Astron. Soc. 378, L39 (Jun.
+2007), arXiv:astro-ph/0703438.
+[31] E. R. Switzer and C. M. Hirata, Phys. Rev. D 77, 083006
+(Apr. 2008), arXiv:astro-ph/0702143.
+[32] C. M. Hirata and E. R. Switzer, Phys. Rev. D 77, 083007
+(Apr. 2008), arXiv:astro-ph/0702144.
+
+[33] E. R. Switzer and C. M. Hirata, Phys. Rev. D 77, 083008
+(Apr. 2008), arXiv:astro-ph/0702145.
+[34] J. A. Rubiño-Martı́n, J. Chluba, and R. A. Sunyaev, Astron. Astrophys. 485, 377 (Jul. 2008), arXiv:0711.0594.
+[35] E. E. Kholupenko, A. V. Ivanchik, and D. A. Varshalovich, Astronomy Letters 34, 725 (Nov. 2008),
+arXiv:0812.3067.
+[36] E. R. Switzer and C. M. Hirata, Phys. Rev. D 72, 083002
+(Oct. 2005), arXiv:astro-ph/0507106.
+[37] J. Chluba, G. M. Vasil, and L. J. Dursi, Mon. Not. R. Astron. Soc. 407, 599 (Sep. 2010), arXiv:1003.4928 [astroph.CO].
+[38] J. Chluba and R. M. Thomas, ArXiv e-prints(Oct. 2010),
+arXiv:1010.3631 [astro-ph.CO].
+[39] D. E. Osterbrock and G. J. Ferland, Astrophysics of
+gaseous nebulae and active galactic nuclei, 2nd. ed. by
+D.E. Osterbrock and G.J. Ferland. Sausalito, CA: University Science Books (2006).
+[40] J. Chluba and R. A. Sunyaev, Astron. Astrophys. 458,
+L29 (Nov. 2006), arXiv:astro-ph/0608120.
+[41] W. Y. Wong and D. Scott, Mon. Not. R. Astron. Soc.
+375, 1441 (Mar. 2007), arXiv:astro-ph/0610691.
+[42] G. B. Rybicki, Astrophys. J. 647, 709 (Aug. 2006),
+arXiv:astro-ph/0603047.
+[43] G. B. Rybicki and I. P. dell’Antonio, Astrophys. J. 427,
+603 (Jun. 1994), arXiv:astro-ph/9312006.
+[44] S. I. Grachev, Astrophysics 30, 211 (Mar. 1989).
+[45] J. H. Krolik, Astrophys. J. 338, 594 (Mar. 1989).
+[46] J. H. Krolik, Astrophys. J. 353, 21 (Apr. 1990).
+[47] S. I. Grachev and V. K. Dubrovich, Astrophysics 34, 124
+(Mar. 1991).
+[48] A. Burgess, Mem. R. Astr. Soc. 69, 1 (1965).
+[49] D. C. Morton, Q. X. Wu, and G. W. F. Drake, Canadian
+Journal of Physics 84, 83 (Feb. 2006).
+[50] G. W. F. Drake and D. C. Morton, Astrophys. J. Suppl.
+Ser. 170, 251 (May 2007).
+[51] G. W. F. Drake, Phys. Rev. A 34, 2871 (Oct. 1986).
+[52] J. A. Rubiño-Martı́n, J. Chluba, W. A. Fendt, and B. D.
+Wandelt, Mon. Not. R. Astron. Soc., 96(Jan. 2010),
+arXiv:0910.4383.
+[53] W. A. Fendt, J. Chluba, J. A. Rubiño-Martı́n, and B. D.
+Wandelt, Astrophys. J. Suppl. Ser. 181, 627 (Apr. 2009),
+arXiv:0807.2577.
+[54] D. Grin, The lukewarm frontier: Some cosmological consequences of ’low-energy’ physics (California Institute of
+Technology Doctoral Thesis, 2010).
+[55] D. Pequignot, P. Petitjean, and C. Boisson, Astron. Astrophys. 251, 680 (Nov. 1991).
+
+

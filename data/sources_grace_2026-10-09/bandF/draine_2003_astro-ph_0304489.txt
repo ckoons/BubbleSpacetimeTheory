@@ -1,0 +1,2872 @@
+1
+
+Interstellar Dust Grains
+
+Interstellar Dust Grains
+B. T. Draine
+
+arXiv:astro-ph/0304489v1 28 Apr 2003
+
+Princeton University Observatory, Princeton, NJ 08544 USA
+draine@astro.princeton.edu
+
+KEYWORDS: infrared astronomy, interstellar medium, interstellar grains, light scattering,
+molecular clouds
+
+ABSTRACT: This review surveys the observed properties of interstellar dust grains: the
+wavelength-dependent extinction of starlight, including absorption features, from UV to infrared;
+optical luminescence; infrared emission; microwave emission; optical, UV, and X-ray scattering
+by dust; and polarization of starlight and of infrared emission. The relationship between presolar
+grains in meteorites and the interstellar grain population is discussed. Candidate grain materials
+and abundance constraints are considered. A dust model consisting of amorphous silicate grains,
+graphite grains, and polycyclic aromatic hydrocarbons is compared with observed emission and
+scattering. Some issues concerning evolution of interstellar dust are discussed.
+
+CONTENTS
+INTRODUCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2
+
+EXTINCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3
+
+Milky Way Dust . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Dust in Other Galaxies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3
+6
+
+SPECTROSCOPY OF DUST
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9
+
+2175Å Feature: Aromatic C? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Silicate Features . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Diffuse Interstellar Bands . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.4µm Feature: Aliphatic C-H Stretch . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Ice Features . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.3, 6.2, 7.7, 8.6, 11.3µm PAH Features . . . . . . . . . . . . . . . . . . . . . . . . . .
+X-Ray Absorption Edges . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Extended Red Emission . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9
+10
+13
+14
+14
+15
+17
+17
+
+PRESOLAR GRAINS IN METEORITES AND INTERPLANETARY DUST
+
+. .
+
+18
+
+CANDIDATE GRAIN MATERIALS . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+20
+
+Silicates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Carbonaceous Materials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+SiC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Carbonates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+20
+21
+21
+21
+
+POLARIZATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+22
+
+Optical-UV Polarization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Polarized Far-Infrared Emission . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+22
+22
+
+Annu. Rev. Astron. Astrophys. 2002 41
+
+Preprint astro-ph/...
+
+A PROVISIONAL GRAIN MODEL . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+23
+
+SCATTERING
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+25
+
+Optical and UV . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+X-Ray Scattering . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+25
+26
+
+INFRARED EMISSION
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+28
+
+MICROWAVE EMISSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+31
+
+Spinning Grains . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Magnetic Grains? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+31
+32
+
+ABUNDANCE ISSUES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+33
+
+GRAIN ALIGNMENT
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+35
+
+EVOLUTION OF THE GRAIN POPULATION . . . . . . . . . . . . . . . . . . .
+
+36
+
+FUTURE DIRECTIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+38
+
+1
+
+INTRODUCTION
+
+Dust grains play a central role in the astrophysics of the interstellar medium, from
+the thermodynamics and chemistry of the gas, to the dynamics of star formation.
+In addition, dust shapes the spectra of galaxies: radiation at short wavelengths
+is attenuated, and energy is radiated in the infrared. It is estimated that 30% or
+more of the energy emitted as starlight in the Universe is reradiated by dust in
+the infrared (Bernstein et al. 2002). Interstellar dust determines what galaxies
+look like, how the interstellar medium (ISM) in a galaxy behaves, and the very
+process of star formation that creates a visible galaxy.
+This review summarizes current knowledge of the abundance, composition,
+and sizes of interstellar dust grains, as indicated by observations of extinction,
+scattering, and emission from dust, supplemented by evidence from interstellar
+gas phase abundances and presolar grains in meteorites. The term “dust grain” is
+understood here to extend down to molecules containing tens of atoms, as there
+is no discontinuity in the physics as the particle size decreases from microns to
+Angstroms.
+The distribution of gas and dust in the Galaxy – the structure of the interstellar
+medium – is not discussed.
+The astrophysics of interstellar dust is not covered in this review. This includes
+the physical optics of small particles, charging of dust grains, heating and cooling
+of dust grains, chemistry on dust grain surfaces, forces and torques on dust grains,
+sputtering and shattering of dust grains, and alignment of dust with the magnetic
+field; an introduction to these topics can be found elsewhere (Krügel 2002, Draine
+2003a).
+The review does not attempt to survey or compare different models proposed
+for interstellar dust. One dust model is introduced to illustrate modeling of
+absorption, scattering, and infrared emission from interstellar dust.
+It is not possible to cite all of the important papers in this area; only a few
+articles are cited in connection with each topic. The reader is encouraged to
+also consult prior reviews by Savage & Mathis (1979), Mathis (1990, 1993, 2000),
+Draine (1995), Witt (2000a), Witt (2000b), Voshchinnikov (2002), and the book
+2
+
+Interstellar Dust Grains
+
+3
+
+by Whittet (2003). Dorschner & Henning (1995) discuss the metamorphosis of
+interstellar dust.
+
+2
+
+EXTINCTION
+
+The existence of interstellar dust was first inferred from obscuration, or “extinction”, of starlight (Trumpler 1930). Much of our knowledge of interstellar dust
+continues to be based on studies of the wavelength-dependence of this attenuation, often referred to as “reddening” because of the tendency for the extinction to
+be greater in the blue than in the red. The wavelength-dependence strongly constrains the grain size distribution, and spectral features (§3) reveal the chemical
+composition.
+The extinction is most reliably determined using the “pair method” – comparing spectrophotometry of two stars of the same spectral class; if one star has
+negligible foreground dust while the second star is heavily reddened, comparison of the two spectra, together with the assumption that the dust extinction
+goes to zero at very long wavelength, allows one to determine the extinction
+Aλ ≡ 2.5 log10 (Fλ0 /Fλ ) as a function of wavelength λ, where Fλ is the observed
+flux and Fλ0 is the flux in the absence of extinction. The “pair method” has been
+used to measure extinction curves for many sightlines, in many cases over a range
+of wavelengths extending from the near-infrared to the vacuum UV.
+
+2.1
+
+Milky Way Dust
+
+2.1.1
+
+OPTICAL-UV EXTINCTION CURVES
+
+The dimensionless quantity RV ≡ AV /(AB − AV ) is a common measure of the
+slope of the extinction curve in the optical region. Very large grains would produce gray extinction with RV → ∞. Rayleigh scattering (Aλ ∝ λ−4 ) would
+produce very steep extinction with RV ≈ 1.2. RV is known to vary from one
+sightline to another, from values as low as 2.1 (toward HD 210121) (Welty &
+Fowler 1992) to values as large as 5.6-5.8 (toward HD 36982) (Cardelli et al.
+1989, Fitzpatrick 1999). Cardelli et al. (1989) showed that normalized extinction
+curves Aλ /AI (using the I band extinction to normalize) could be approximated
+by a seven-parameter function of wavelength λ:
+Aλ /AI ≈ f (λ; RV , C1 , C2 , C3 , C4 , λ0 , γ) .
+
+(1)
+
+At wavelengths λ > 3030Å, the function f (λ) depends only on λ and the single
+parameter RV . The parameters C3 , λ0 , and γ determine the strength and shape
+of the 2175Å “bump”, and the coefficients C1 , C2 , and C4 determine the slope
+and curvature of the continuous extinction at λ < 3030Å.
+Cardelli et al. (1989) show that if the single quantity RV is known, it is possible to estimate the values of the other six parameters (C1−4 , λ0 , γ) so that the
+optical-UV extinction can be approximated by a one-parameter family of curves.
+However, if the UV extinction has been measured, an improved fit to the observations can be obtained by fitting C1−4 , λ0 and γ to the measured extinction.
+Empirical extinction curves in diffuse clouds show relatively little variation in
+< λ < 8 µm the function (1) appears
+the infrared, and for wavelengths 0.7 µm ∼
+∼
+to be approximately “universal” (i.e., independent of RV ) in diffuse clouds [in
+
+4
+
+Draine
+
+Figure 1: Extinction curves from prescription of Fitzpatrick (1999), with diffuse interstellar
+bands (DIBs) added as described in §3.3. The DIBs are barely visible on this plot.
+dense clouds grains acquire “ice” mantles (§3.5) which alter the extinction]. Fitzpatrick (1999) pays careful attention to the effects of finite-width photometric
+bandpasses, and gives modified formulae which appear to improve the overall fit
+to observations of ice-free dust. The Cardelli et al. (1989) and Fitzpatrick (1999)
+fits for RV = 3.1 are compared in §8 (Table 4).
+Figure 1 shows extinction curves calculated using the F99 parametrization for
+RV = 2.1, 2.5, 3.1, 4.0, and 5.5. The coefficients in the Cardelli et al. (1989) or
+Fitzpatrick (1999) fitting formulae can be adjusted to improve the fit to specific
+sightlines; such a fit is shown for the extreme case of HD 210121, showing that
+the UV extinction can differ significantly from the average behavior for the same
+value of RV .
+“Pair method” determinations of the reddening law for many sightlines indicate
+that RV ≈ 3.1 for the “average” extinction law for diffuse regions in the local
+Milky Way (Savage & Mathis 1979, Cardelli et al. 1989). Sightlines intersecting
+clouds with larger extinction per cloud tend to have larger values of RV ; the
+larger RV values may indicate grain growth by accretion and coagulation.
+Another approach to determining the wavelength-dependent extinction is to use
+star counts or galaxy counts as a function of apparent brightness. Szomoru &
+Guhathakurta (1999) use UBVRI photometry of Galactic field stars to determine
+the extinction law; for the four high-latitude clouds they studied, they conclude
+< 2, well below the value R
+that RV ∼
+V ≈ 3.1 which is widely considered to be
+“average”, and comparable to the most extreme values of RV ever found in studies
+of individual stars (RV = 2.1 for HD 210121). Further study is needed to reconcile
+this apparent conflict.
+Udalski (2002) uses V and I photometry of “red clump giants” to study the
+reddening law. Toward the LMC he infers RV ≈ 3.1, but toward Galactic bulge
+
+5
+
+Interstellar Dust Grains
+
+regions he finds RV ≈ 1.8 − 2.5.
+Sloan Digital Sky Survey (SDSS) photometry (Lupton et al. 2003) can be
+used to study the reddening toward stars at the “blue tip” of the main sequence
+(Finkbeiner et al. 2003b). The observed reddening appears to be consistent with
+RV ≈ 3.1. Galaxy surface brightnesses can also be used; SDSS galaxy photometry
+is consistent with RV = 3.1 (Schlegel et al. 2003).
+2.1.2
+
+EXTINCTION PER H
+
+Using H Lyman-α and absorption lines of H2 to determine the total H column
+density NH , Bohlin et al. (1978) found
+NH /(AB − AV ) = 5.8 × 1021 cm−2 mag−1
+NH /AV ≈ 1.87 × 1021 cm−2 mag−1
+
+,
+
+for RV = 3.1
+
+(2)
+,
+
+(3)
+
+to be representative of dust in diffuse regions. For RV = 3.1, the F99 reddening
+fit gives AIC /AV = 0.554 for Cousins I band (λ = 0.802 µm), thus
+AIC /NH ≈ 2.96 × 10−22 mag cm2
+
+for RV = 3.1 .
+
+(4)
+
+> 0.7 µm we might expect eq. (4)
+If the extinction curve is really universal for λ ∼
+to apply independent of RV .
+Rachford et al. (2002) report H and H2 column densities for 16 sightlines
+through diffuse and “translucent” clouds. Figure 2 shows AIC /NH versus RV−1 for
+the 14 sightlines with NH known to better than a factor 1.5 . The IC band extinction AIC has been estimated from AB − AV and RV using the F99 RV -dependent
+reddening law.
+Figure 2 appears to show that AIC /NH is not universal for local Milky Way
+dust: the IC band extinction per H deviates from the ratio (4) when RV deviates
+from 3.1, in the sense that AIC /NH increases when RV is larger (larger grains).
+We note that the trend in AIC /NH could be in part the result of errors in determination of RV , (i.e., errors in estimating AV , since E(B − V ) is probably
+accurate to better than 10% for these stars), but the data appear to show a real
+trend. A least-squares fit, constrained to pass through (4), gives
+
+AIC /NH ≈ [2.96 − 3.55 (3.1/RV − 1)] × 10−22 mag cm2
+
+.
+
+(5)
+
+Figure 3 shows Aλ /NH , the extinction per H, estimated from the F99 extinction
+fits and eq. (5). If the F99 extinction fits and eq. (5) are both correct, the
+> 0.3 µm when R increases. Presumably this
+extinction per H increases for λ ∼
+V
+is due to increased scattering by the grains as the grain size increases.
+2.1.3
+
+INFRARED EXTINCTION
+
+Between ∼ 0.9 µm and ∼ 5 µm the continuous extinction curve can be approximated by a power-law, Aλ ∝ λ−β , with β ≈ 1.61 (Rieke & Lebofsky 1985),
+1.70 (Whittet 1988), 1.75 (Draine 1989b), ∼1.8 (Martin & Whittet 1990), ∼1.8
+(Whittet et al. 1993), or 1.70 (Bertoldi et al. 1999, Rosenthal et al. 2000).
+The extinction in the 5–8 µm region is controversial (see Figure 4). Draine
+(1989b) concluded that the observational evidence was consistent with Aλ ∝
+λ−1.75 out to λ ≈ 6 µm. Using ISO observations of H recombination lines, Lutz
+
+6
+
+Draine
+
+Figure 2: AI /NH for 14 sightlines through translucent clouds (Rachford et al. 2002), as a
+function of 1/RV , with RV determined by IR photometry (circles, RV ± 0.2); polarization λmax
+(triangles, RV ± 10%); or UV extinction curve (diamonds, RV ± 10%). Vertical error bars show
+1-σ uncertainty due to errors in NH ; tilted error bars show effects of errors in RV . Least-squares
+fit [eq. 5)] is shown.
+
+et al. (1996) find that the extinction toward Sgr A∗ does not decline with increasing λ in the 4–8 µm region. However, studies using H2 rovibrational lines in the
+Orion molecular cloud, (Bertoldi et al. 1999, Rosenthal et al. 2000) find that the
+extinction continues to decline with increasing λ to a minimum at ∼6.5 µm. The
+wavelength dependence of the continuous dust extinction in the Orion molecular
+cloud could conceivably differ from that on the sightline to Sgr A∗ ; alternatively,
+perhaps the H recombination line intensity ratios differ from the “case B” recombination assumed by Lutz et al. It is interesting to see in Figure 4 that the
+Weingartner & Draine (2001a) grain model for RV = 5.5 is in rough agreement
+with the Lutz et al. results toward the galactic center. Further observational
+study of the 5–8 µm extinction is needed.
+In addition to this continuous extinction, there are strong absorption features
+at 9.7 µm and 18 µm due to silicates (§3.2), a hydrocarbon feature at 3.4 µm
+(§3.4), and PAH absorption at 6.2 µm (§3.6). The extinction in molecular clouds
+also shows additional bands due to ice mantles (§3.5).
+
+2.2
+
+Dust in Other Galaxies
+
+Dust in the Milky Way varies from one sightline to another. It is obviously
+of great interest to study the dust in other galaxies, both in order to correct
+observations for the extinction by the dust, but also to inform our understanding
+of dust astrophysics.
+Our knowledge of the extinction law for dust in other galaxies is greatest for
+the Large and Small Magellanic Clouds (LMC and SMC), where we can study the
+
+Interstellar Dust Grains
+
+7
+
+Figure 3: Aλ /NH for different values of RV , using F99 extinction curve fit and AI /NH from
+eq. (5).
+
+extinction for individual stars, but some progress has been made in determining
+the wavelength-dependence of extinction in more distant galaxies.
+2.2.1
+
+MAGELLANIC CLOUDS
+
+Not surprisingly, there are regional variations within the LMC and SMC. Stars
+more than ∼500 pc away from the 30 Doradus region of the LMC have RV ≈ 3.2
+and an extinction law that appears to be quite similar to the Milky Way diffuse
+cloud extinction law (Fitzpatrick 1986, Misselt et al. 1999). The reddening per
+H atom E(B − V )/NH ≈ 4.5 × 10−23 cm2 /H (Koorneef 1982, Fitzpatrick 1985),
+approximately 40% of the Milky Way value. This is approximately consistent with
+the LMC metallicity: LMC H II regions have Ne/H≈ (3.5 ± 1.4) × 10−5 (Kurt &
+Dufour 1998), ∼30% of the solar Ne/H (= 1.2 × 10−4 ) (Grevesse & Sauval 1998).
+Stars in or near 30 Dor have extinction curves which have a weakened 2175Å
+feature (Fitzpatrick 1986, Misselt et al. 1999).
+In the SMC, stars in the “bar” region have extinction curves which appear to
+lack the 2175Å feature. The reddening per H is only E(B − V )/NH = 2.2 ×
+10−23 cm2 /H, ∼13% of the Milky Way value, again consistent with the SMC
+metallicity: SMC H II regions have Ne/H≈ (1.6 ± 0.2) × 10−5 (Dufour 1984, Kurt
+& Dufour 1998), or 14% of the solar Ne/H, and the gas-phase C/H is only 6% of
+solar.
+Weingartner & Draine (2001a) are able to reproduce the observed extinction
+laws in the LMC and SMC using appropriate mixtures of carbonaceous and silicate grains. The sightlines in the SMC bar which lack the 2175Å extinction
+feature can be reproduced by models which lack carbonaceous grains with radii
+< 0.02 µm.
+a∼
+
+8
+
+Draine
+
+Figure 4: Infrared extinction, relative to extinction at K (2.2 µm), inferred by Rosenthal et al.
+(2000) for dust in the OMC-1 molecular cloud, and by Lutz et al. (1996) for dust toward Sgr
+A∗ , and as calculated for the Weingartner & Draine (2001a) grain models for RV = 3.1 (60ppm
+C in PAH) and RV = 5.5 (30ppm C in PAH). The 6.2 µm absorption feature in the Weingartner
+& Draine (2001a) grain models is due to PAHs.
+
+2.2.2
+
+M31
+
+Bianchi et al. (1996) present UV extinction curves toward selected bright stars
+in M31, finding an extinction law similar to the average Milky Way extinction
+curve, but with the 2175Å feature possibly somewhat weaker than in the Milky
+Way.
+2.2.3
+
+OTHER GALAXIES
+
+There are several different approaches to determining the extinction curve for
+dust in galaxies where individual stars cannot be resolved.
+The dust extinction law can be determined when a foreground galaxy overlaps
+a background galaxy. Berlind et al. (1997) find the extinction curve for dust
+in the spiral arm of NGC 2207 to resemble the Milky Way extinction law for
+RV = 5.0; the interarm dust appears to be even grayer. However, the flatness
+of the extinction curve could be due in part to unresolved optically-thick dust
+patches in the foreground galaxy.
+Keel & White (2001a) find the extinction law in the spiral galaxy AM 1316-241
+to be close to the Milky Way mean extinction, with RV = 3.4 ± 0.2; for the spiral
+galaxy AM 0500-620 the dust extinction law appears to be somewhat steeper
+than the Milky Way average, with RV ≈ 2.5 ± 0.4. Keel & White (2001b) find
+the extinction law in the Sc galaxy NGC 3314A to be close to the Milky Way
+mean, with RV = 3.5± 0.2 over galactocentric radii 1.6–3.8 kpc, with no evidence
+for any radial trend in reddening law.
+
+9
+
+Interstellar Dust Grains
+
+From observations of the overall emission spectrum Calzetti (2001) infers the
+internal extinction by dust in starburst galaxies. The inferred reddening law is
+relatively gray compared to the Galactic reddening law, and shows no evidence
+of a 2175Å feature. It is not clear to what extent the flatness of the apparent
+reddening law may be due to the effects of radiative transfer in optically-thick
+distributions of stars and dust.
+Searches have been made for the 2175Å extinction feature in QSO spectra
+(McKee & Petrosian 1974). Malhotra (1997) reports a statistical detection in a
+sample of 92 QSOs, but Pitman et al. (2000) argue that the detection was not
+statistically significant.
+Gravitationally-lensed QSOs with multiple images can be used to determine
+the extinction law if the intrinsic spectrum is assumed to be time-independent.
+Falco et al. (1999) determine extinction laws in galaxies out to z = 1.01, with RV
+estimates from 1.5 to 7.2. Toft et al. (2000) find the extinction curve in a galaxy
+< R < 2.0. Motta et al. (2002) find that the dust in a
+at z = 0.44 to have 1.3 ∼
+V ∼
+lensing galaxy at z = 0.83 is consistent with a standard Milky Way extinction
+law for RV = 2.1 ± 0.9, including an extinction bump at 2175Å.
+
+3
+
+SPECTROSCOPY OF DUST
+
+The composition of interstellar dust remains controversial. While meteorites (§4)
+provide us with genuine specimens of interstellar grains for examination, these
+are subject to severe selection effects, and cannot be considered representative of
+interstellar grains. Our only direct information on the composition of interstellar
+dust comes from spectral features in extinction, scattering, or emission.
+
+3.1
+
+2175Å Feature: Aromatic C?
+
+By far the strongest spectral feature is the broad “bump” in the extinction curve
+centered at ∼2175Å (see Figure 1).
+Fitzpatrick & Massa (1986) showed that the observed 2175Å feature can be
+accurately fit with a Drude profile
+∆Cext (λ) =
+
+C0 γ 2
+,
+(λ/λ0 − λ0 /λ)2 + γ 2
+
+(6)
+
+−1
+peaking at λ0 = 2175Å (or λ−1
+0 = 4.60 µm ) and with a broadening parameter
+−1
+γ = 0.216 (corresponding to FWHM γλ0 = 469Å, or γλ−1
+0 = 0.992 µm ). The
+strength of the absorption is such that on an average diffuse cloud sightline in
+the Milky Way, the 2175Å profile corresponds to an oscillator strength per H
+nucleon nX fX /nH ≈ 9.3 × 10−6 (Draine 1989a). Since we expect the oscillator
+< 0.5, it can be concluded that the carrier molecule
+strength per molecule fX ∼
+must contain one or more elements from {C,O,Mg,Si,Fe}, as these are the only
+> 4 × 10−5 in the
+condensible elements with sufficiently high abundances nX /nH ∼
+ISM.
+Fitzpatrick & Massa (1986) show that the width of the feature varies considerably from one sightline to another. The FWHM has an average value 0.992 µm−1 ,
+but the distribution has a ±2σ variation of ±12%. This variability in FWHM is
+in contrast to the fact that the central wavelength λ0 is nearly invariant from one
+sightline to another: although variations are detected, λ0 shows ±2σ variations
+of only ±0.46%.
+
+10
+
+Draine
+
+Immediately following discovery of the 2175Å feature by Stecher (1965), Stecher
+& Donn (1965) pointed out that small graphite particles would produce absorption very similar to the observed feature. Although non-carbonaceous carriers
+have been proposed (e.g., OH− on small silicate grains: Steel & Duley 1987),
+it now seems likely that some form of graphitic carbon is responsible for the
+observed feature.
+The C atoms in graphite are bound to one another in hexagonal sheets. Each C
+atom has 4 valence electrons (2s2 2p2 ); 3 of these are in trigonal sp2 or σ orbitals;
+the remaining electron is in a delocalized π orbital, which is shared among the CC bonds. The individual sheets of carbon atoms are held parallel to one another
+only by weak van der Waals forces. Absorption of a photon can excite a π electron
+to an excited orbital (π ∗ ); this π → π ∗ transition is responsible for the absorption
+feature peaking at ∼ 2175Å. Using the dielectric function of graphite (Draine &
+Lee 1984), one finds that randomly-oriented small graphite spheres would have
+an oscillator strength f = 0.16 per C atom (Draine 1989a). Thus the observed
+2175Å extinction feature would require C/H=5.8×10−5 in small graphite spheres,
+compatible with interstellar abundance constraints.
+Although graphite is an attractive candidate, the graphite hypothesis does not
+appear to have a natural way to accomodate the observed variations in FWHM
+of the profile while at the same time holding λ0 nearly constant: variations in
+graphite grain shape and size produce variations in FWHM, but these are accompanied by changes in λ0 (Draine & Malhotra 1993).
+Mennella et al. (1998) propose that the 2175Å feature is due to UV-processed
+HAC particles, but do not appear to have actually measured in the lab a profile
+matching the interstellar 2175Å feature.
+Wada et al. (1999) propose that the 2175Å feature is due to onion-like hyperfullerene carbon particles. While these particles do have an absorption peak near
+2200Å, the feature appears to be broader than the interstellar profile.
+The carbon atom skeleton of polycyclic aromatic hydrocarbon (PAH) molecules
+is very similar to a portion of a graphite sheet, with similar electronic wavefunctions. It is therefore not surprising that PAH molecules generally have strong
+π → π ∗ absorption in the 2000–2500Å region. Thus large PAH molecules are
+candidates to be the carrier of the interstellar 2175Å feature – this is a natural
+extension of the graphite hypothesis.
+The grain model of Weingartner & Draine (2001a) and Li & Draine (2001b)
+has C/H=6.0 × 10−5 in PAH molecules or clusters containing from 20 to 105 C
+atoms – this population of PAH molecules is required to reproduce the observed
+infrared emission (see §9). Absorption profiles are not known for PAH molecules
+of the sizes characteristic of the interstellar PAHs, but one would expect a similar
+π → π ∗ oscillator strength per C as for graphite, or f ≈ 0.16. Thus we see that
+in this grain model, the 2175Å extinction feature is expected to be primarily –
+perhaps entirely – due to large PAH molecules.
+In this interpretation, the observed band profile would be due to a mixture of
+PAHs, and the observed variations in FWHM (and small variations in λ0 ) would
+result from differences in the PAH mix from one sightline to another.
+
+3.2
+
+Silicate Features
+
+The infrared extinction includes a strong absorption feature peaking at ∼9.7 µm.
+Silicate minerals generally have strong absorption resonances near 10 µm due
+
+11
+
+Interstellar Dust Grains
+
+to the Si-O stretching mode, and it seems virtually certain that the interstellar
+9.7 µm feature is due to absorption by interstellar silicate material. This conclusion is strengthened by the fact that a 10 µm emission feature is observed
+in outflows from cool oxygen-rich stars (which would be expected to condense
+silicate dust) but not in the outflows from carbon-rich stars (where silicates do
+not form, because all of the oxygen is locked up in CO). There is also a broad
+feature at 18 µm which is presumed to be the O-Si-O bending mode in silicates
+(McCarthy et al. 1980; Smith et al. 2000).
+The Trapezium (Gillett et al. 1975) emission implies τ (λ) with FWHM≈3.45 µm,
+whereas µ Cep (Russell et al. 1975) has FWHM=2.3 µm, so the silicate properties
+are not universal. On sightlines dominated by relatively diffuse clouds (e.g., toward the B5 hypergiant Cyg OB2-12 or distant WC stars) the 9.7 µm absorption
+appears to be better fit by the narrower µ Cep profile (Roche & Aitken 1984,
+Bowey et al. 1998). The silicates in molecular clouds, however, seem better fit by
+the broader Trapezium profile (Bowey et al. 1998).
+The strength of the 9.7 µm feature relative to AV has been measured toward
+Cyg OB2-12 and toward WC stars. The studies in Table 1 together indicate
+AV /∆τ9.7 = 18.5 ± 2.0, where the uncertainty includes a subjective allowance for
+systematic errors in the model-fitting.
+Table 1: Silicate 9.7 µm Feature Strength
+Sightline
+
+l
+
+b
+d AV
+(◦ )
+(◦ ) (kpc) (mag)
+Gal. center
+0
+0
+8.5 34 ± 4
+Cyg OB2-12 80.10 0.83 1.7 10
+“
+10.2
+“
+10.2
+WR98A
+358.13 -0.03 1.90 12.5
+“
+11.2
+WR112
+12.14 -1.19 4.15 13
+“
+11.9
+“
+12.0
+WR118
+21.80 -0.22 3.13 13.3
+“
+12.6
+“
+12.8
+Local Diffuse ISM
+
+∆τ9.7
+
+AV /∆τ9.7 ref
+
+3.6 ± 0.3
+0.58
+0.54
+0.64
+0.62
+0.64
+0.61
+0.64
+0.56
+0.69
+0.65
+0.71
+
+9±1
+17.2
+18.9
+15.9
+20.2
+17.4
+21.3
+18.6
+21.4
+19.3
+19.4
+18.0
+18.5 ± 2
+
+Roche & Aitken (1985)
+Roche & Aitken (1984)
+Whittet et al. (1997)
+Bowey et al. (1998)
+van der Hucht et al. (1996)
+Schutte et al. (1998)
+Roche & Aitken (1984)
+van der Hucht et al. (1996)
+Schutte et al. (1998)
+Roche & Aitken (1984)
+van der Hucht et al. (1996)
+Schutte et al. (1998)
+overall
+
+The interstellar 9.7 µm feature is broad and relatively featureless, as opposed to
+absorption profiles measured in the laboratory for crystalline silicates, which show
+considerable structure which can be used to identify the precise mineral. The
+absence of substructure in the interstellar profile is believed to indicate that the
+interstellar silicates are largely amorphous rather than crystalline. Amorphous
+or glassy silicates can be produced in the laboratory by ion bombardment of
+initially crystalline material (Kraetschmer & Huffman 1979), formation in smokes
+(Day 1979), rapid quenching of a melt (Jäger et al. 1994) or deposition following
+evaporation (Koike & Tsuchiyama 1992, Stephens et al. 1995, Scott & Duley
+1996). The laboratory absorption profiles are in some cases quite similar to the
+interstellar profile, supporting the view that interstellar silicates are amorphous.
+The observed strength per H nucleon of the interstellar silicate band appears to
+require that close to 100% of the solar abundance of Si, Fe, and Mg be condensed
+into amorphous grains. Mathis (1998) has argued that the observed strength can
+
+12
+
+Draine
+
+only be reproduced if silicate grains are “fluffy”, with ≥25% vacuum, as in the
+grain model of Mathis & Whiffen (1989).
+The observed 10 µm profile appears to be consistent with amorphous material
+with a composition in the olivine family, Mg2x Fe2−2x SiO4 . Since Mg and Fe are
+of approximately equal abundance in the Sun, it would be reasonable to have
+x ≈ 0.5. Li & Draine (2001a) conclude that spectrophotometry of the 9.7 µm
+feature in extinction toward Cyg OB2-12 (Bowey et al. 1998) limits the fraction
+< 5%. Demyk et al. (1999) find that for
+of the Si in crystalline silicates to be ∼
+two protostellar objects, at most 2% of the silicates could be crystalline.
+However, Bowey & Adamson (2002) argue that the observed 10 µm profile
+toward Cyg OB2-12 is consistent with a mixture of amorphous silicates (40% by
+mass) and 8 crystalline pyroxenes (60% by mass); each of the crystalline species in
+their mix contributes ∼7.5% by mass, and the fine structure in the 10 µm profile
+appears to be consistent with the observations. However, this interpretation
+raises various concerns:
+• The lab measurements were for powders in a KBr matrix; spectra in vacuo
+would be different. Bowey & Adamson (2002) state that the “KBr shift”
+is minimal, but it would be expected to be significant near these strong
+resonances.
+• A mix of crystalline grains that gives a smooth absorption profile will not
+give a smooth emission profile unless the different crystalline materials are
+heated to the same temperature.
+• The different crystalline types have distinct far-infrared modes. The smoothness of the far-infrared spectra of star-forming regions places upper limits
+on crystalline abundances. For example, the proposed mixture has ∼7.5%
+of the Si atoms in diopside, but the observations of Onaka & Okada (2003)
+< 2% of interstellar Si.
+(see below) limit diopside to ∼
+• It is not apparent that the proposed mixture would be consistent with the
+18 µm extinction profile.
+• The polarization profile of grains near strong resonances is sensitive to the
+dielectric function. It is not apparent that the proposed mixture would be
+consistent with spectropolarimetric constraints (see below).
+Further study of these points is urgently required. In the text below it is assumed
+that interstellar silicates are predominantly amorphous, but the reader should
+keep in mind that a significant crystalline fraction may be possible.
+The 9.7 and 18 µm silicate features can be observed in polarization, either in
+absorption or in emission. For strong resonances (such as the two silicate features), the polarization profile differs from the absorption profile, so that spectropolarimetry can constrain the dielectric function of the grain material (Martin
+1975). The observed intensity and polarization across the 9.7 µm feature appear
+to be approximately consistent with the “astronomical silicate” dielectric function estimated by Draine & Lee (1984), but the observed 20 µm polarization is
+stronger than expected for that dielectric function (Aitken et al. 1989, Smith et
+al. 2000).
+Onaka & Okada (2003) report detection of an emission feature at 65 µm which
+may be due to diopside CaMgSi2 O6 , containing 5-10% of interstellar Ca (corresponding to 0.35-0.7% of interstellar Si); if confirmed, this would be the first
+evidence for crystalline silicates in the ISM. While crystalline silicates are not
+
+Interstellar Dust Grains
+
+13
+
+abundant in the ISM, there is evidence from distinctive emission features for
+their presence in dust disks around main-sequence stars (see Artymowicz 2000
+for a summary), young stellar objects and evolved stars (see Waelkens et al. 2000
+for a summary), and in some solar-system comets (see Hanner 1999 for a summary); see §5.1 below. Nevertheless, even in these systems most of the silicate
+material remains amorphous.
+
+Figure 5: Diffuse interstellar bands in the 5700-6670Å region, using DIB parameters from
+Jenniskens & Desert (1994).
+
+3.3
+
+Diffuse Interstellar Bands
+
+The observed extinction curve includes a large number of weak extinction features, known as the “diffuse interstellar bands”, or DIBs. The DIBs have FWHM
+>
+<
+∼ 1Å, too broad to be due to molecules with ∼ 5 atoms in the gas phase, and
+are therefore features of the grain population. Jenniskens & Desert (1994) list
+154 “certain” DIBs in the interval 0.38–0.868 µm, plus an additional 52 “probable” detections. Figure 5 shows an average extinction curve for 1.5 µm−1 <
+λ−1 < 1.75 µm−1 , a wavelength range which includes several strong DIBs, most
+notably the DIB at 5780Å. This curve consists of the smooth extinction calculated using the Fitzpatrick (1999) parametrization plus individual diffuse bands
+approximated by Drude profiles with central wavelengths, FWHM, and strengths
+from the tabulation of Jenniskens & Desert.
+The first DIBs were discovered over 80 years ago (Heger 1922) and their interstellar nature was established 69 years ago (Merrill 1934), yet to date not
+a single DIB has been convincingly identified! Some of the DIBs may be absorption features produced by individual PAH molecules in the interstellar PAH
+mixture. Désert et al. (1995) report a positive correlation between the strength of
+the 2175Å bump and the strength of certain DIBs. High resolution observations
+
+14
+
+Draine
+
+of the 5797Å and 6614Å DIBs show fine structure which could be indicative of
+rotational bands (Kerr et al. 1996, 1998).
+DIBs have recently been detected toward reddened stars in the LMC and SMC
+(Ehrenfreund et al. 2002).
+If the DIBs were due to absorption in the aligned grains responsible for the polarization of starlight (§6) there should be excess polarization associated with the
+DIBs (Martin & Angel 1974, Purcell & Shapiro 1977). All attempts to measure
+polarization structure associated with DIBs have yielded only upper limits (see
+Adamson & Whittet 1995) that appear to require that at least the DIBs that
+have been studied originate in non-aligned material, consistent with a molecular
+origin.
+At this time the carriers of the DIBs remain unknown, but it seems likely
+that at least some are due to large molecules/ultrasmall grains, possibly of PAH
+composition.
+
+3.4
+
+3.4µm Feature: Aliphatic C-H Stretch
+
+> 10 mag
+A broad extinction feature at 3.4 µm is measurable on sightlines with AV ∼
+(Adamson et al. 1990). The feature appears to be present in diffuse atomic regions (in contrast to the “ice” features, see §3.5), and therefore is likely due to
+“refractory” grain material. The C-H stretching mode in aliphatic (chain-like)
+hydrocarbons occurs at 3.4 µm. Since such hydrocarbons are plausible grain constituents, the observed 3.4 µm absorption is generally attributed to the aliphatic
+C-H stretch (Sandford et al. 1991).
+Unfortunately, aliphatic hydrocarbons show considerable variation in the C-H
+band strength, so it has not been possible to use the measured 3.4 µm feature
+to determine the abundance of aliphatic hydrocarbon material in the interstellar
+grain population, nor is it possible to identify the specific hydrocarbon material (Pendleton & Allamandola 2002). Sandford et al. (1991, 1995) suggest that
+the 3.4 µm feature in the diffuse ISM is due mainly to short saturated aliphatic
+chains containing ∼4% of the total C abundance. Greenberg et al. (1995) suggest that the 3.4 µm feature is due to carbonaceous organic residues produced by
+UV photolysis of ice mantles; Duley et al. (1998) attribute the feature to hydrogenated amorphous carbon (HAC) material incorporating 20–25% of the total C
+abundance;
+In grain models where the 3.4 µm absorption is assumed to arise in hydrocarbon
+mantles coating silicate grains (e.g., Li & Greenberg 1997), the 3.4 µm feature
+would be polarized when the 9.7 µm silicate feature is polarized; this allows a
+direct test of the silicate core/hydrocarbon mantle model for interstellar dust (Li
+& Greenberg 2002).
+
+3.5
+
+Ice Features
+
+Sightlines passing through dense molecular clouds typically show additional absorption features. The strongest feature is the 3.1 µm O-H stretching mode in
+solid H2 O. Whittet et al. (1988) showed that in the Taurus dark cloud complex,
+the strength of this feature is approximately given by
+∆τ3.1 ≈
+
+
+
+< 3.3 mag ,
+0
+for AV ∼
+> 3.3 mag ,
+0.093(AV − 3.3mag) for AV ∼
+
+(7)
+
+15
+
+Interstellar Dust Grains
+
+suggesting that dust in regions with AV > 3.3 has an ice coating, whereas dust
+in regions with AV < 3.3 is iceless. The 3.1 µm feature is accompanied by a
+number of weaker features due to H2 O, plus additional features due to CO2 ,
+NH3 , CO, CH3 OH, CH4 , and other species. The features due to different species
+often overlap, and the positions and shapes of particular spectral features can
+be sensitive to the composition of the frozen mixture, complicating abundance
+determinations. Table 2 gives the abundances relative to H2 O estimated for
+two sightlines into dense star-forming regions (W33A and W3:IRS5) and for the
+sightline to Sgr A∗ at the Galactic Center. Although all three sightlines have
+similar CO2 /H2 O ratios, the abundances of other species (e.g., CH3 OH) vary
+considerably from one sightline to another. The composition of the ice mantle
+must be sensitive to both local environment and history.
+Table 2: Major Ice Components
+X
+H2 O
+XCN
+CO
+H2 CO
+CH4
+NH3
+CH3 OH
+CO2
+
+λ
+(µm)
+3.1a
+4.62
+4.67
+5.81j
+7.7
+9.0k
+9.8b
+15.2c
+
+∆τλ
+W33A
+5.5 ± 0.5d
+1.4d
+1.3e
+0.17j
+0.11f
+0.9 ± 0.2d
+0.58e
+
+W33A
+1
+.035d
+.081e
+.065j
+.016d
+< 0.05l
+0.18d
+0.13e
+
+N (X)/N (H2 O)
+W3:IRS5
+GC
+1
+1
+.030e
+.0043f
+< .035f
+< .004f
+0.13e
+
+< 0.12h
+< .024h
+.024h
+0.2-0.3g
+< .04h
+0.14e
+
+a
+
+Also 6.0, 13.5, 45µm
+Also 4.27µm
+c
+Also 3.53, 6.85µm
+d
+Gibb et al. (2000)
+e
+Gerakines et al. (1999)
+f
+Gürtler et al. (2002)
+g
+Lacy et al. (1998)
+h
+Chiar et al. (2000)
+j
+Keane et al. (2001)
+k
+Also 2.27, 2.96, 3.48µm
+l
+Taban et al. (2003)
+b
+
+The grains in star-forming clouds are often aligned (see §6.2), and the radiation
+reaching us from embedded sources is often polarized. Polarization has been
+measured in the features at 3.1 µm (H2 O), 4.6 µm (XCN) and 4.67 µm (CO)
+(Chrysostomou et al. 1996, Hough et al. 1996).
+
+3.6
+
+3.3, 6.2, 7.7, 8.6, 11.3µm PAH Features
+
+Many emission nebulae (HII regions, planetary nebulae) and reflection nebulae
+show emission in the 3–15 µm region that is far stronger than expected from
+> 100Å grains heated by the ambient radiation field and emitting thermally.
+a∼
+Much of the emission is concentrated in five features at 3.3, 6.2, 7.7, 8.6, and
+11.3 µm (see Figure 6). Leger & Puget (1984) identified these features as the
+optically-active vibrational modes of PAH molecules. When H atoms are attached
+to the edge of an aromatic ring skeleton, there are characteristic optically-active
+
+16
+
+Draine
+
+Figure 6: PAH emission features in the 5–15 µm spectrum of the reflection nebula NGC 7023.
+vibrational modes (Allamandola et al. 1989):
+• C-H stretching mode at 3.3 µm
+• C-C stretching mode at 6.2 µm
+• C-C stretching mode at 7.7 µm
+• C-H in-plane bending mode at 8.6 µm
+• C-H out-of-plane bending mode with wavelength depending on the number
+of neighboring H atoms:
+– 11.3 µm for “mono” H (no adjacent H)
+– 12.0 µm for “duo” H (2 contiguous H)
+– 12.7 µm for “trio” H (3 contiguous H)
+– 13.55 µm for “quartet” H (4 contiguous H)
+Examples of “mono”, “duo”, “trio”, and “quartet” sites are indicated in Figure
+7. Although the broadness of the observed features precludes identification of
+specific PAH molecules, a population of PAH molecules appears to provide a
+natural explanation for the observed emission spectrum, where the vibrational
+excitation is assumed to be the result of “internal conversion” of energy following
+absorption of an optical or UV photon (Leger & Puget 1984, Allamandola et al.
+1989).
+There should in principle be absorption associated with these emission features.
+An absorption feature at 6.2 µm (see Figure 4) has been observed (Schutte et al.
+1998, Chiar et al. 2000). It matches closely the expected 6.2 µm absorption feature
+(Li & Draine 2001b).
+
+Interstellar Dust Grains
+
+17
+
+Figure 7: The structure of 4 PAH molecules. Examples of mono, duo, trio, and quartet H
+sites are indicated.
+
+3.7
+
+X-Ray Absorption Edges
+
+Interstellar grains absorb and scatter X-rays. The X-ray absorption by atoms
+such as C, O, Mg, Si, and Fe will show photoelectric “absorption edges” similar
+to atoms in the gas phase, but the precise energy and structure of the absorption
+edge will be dependent on the chemical nature of the grain material (Forrey et
+al. 1998, Draine 2003b). Significant structure in both scattering and absorption
+is expected near the C K (284 eV), O K (538 eV), Fe L2,3 (708, 721 eV), Mg K
+(1311 eV), Si K (1846 eV), and Fe K (7123 eV) edges (Draine 2003b). The
+Chandra observatory has been used to study the absorption edges of O (Paerels
+et al. 2001, Takei et al. 2002) and O, Mg, Si, and Fe (Schulz et al. 2002) but it
+has not yet proved possible to identify the chemical form in which the solid-phase
+Mg, Si, Fe and O are bound.
+
+3.8
+
+Extended Red Emission
+
+The “extended red emission” (ERE) from dust grains provides a potentially important clue to the composition of interstellar dust. The ERE consists of a
+broad featureless emission band between ∼ 5400Å and ∼ 9000Å, peaking at
+< λ < 8200Å, and with a FWHM in the range 600–1000Å. The peak
+6100Å ∼
+p ∼
+wavelength λp and band profile appear to vary from one region to another.
+First observed in the Red Rectangle (Schmidt et al. 1980), ERE has since been
+seen in a wide variety of dusty environments, including reflection nebulae (Witt
+& Schild 1985, Witt & Boroson 1990), planetary nebulae (Furton & Witt 1990),
+HII regions (Darbon et al. 2000), the diffuse ISM of our Galaxy (Gordon et al.
+1998, Szomoru & Guhathakurta 1998), and from other galaxies (Pierini et al.
+2002).
+
+18
+
+Draine
+
+The ERE must be photoluminescence: absorption of a starlight photon followed
+by emission of a lower energy photoluminescence photon. Based on the detection
+of ERE from the diffuse ISM, the photon conversion efficiency of interstellar dust
+is estimated to be 10%±3% (Gordon et al. 1998, Szomoru & Guhathakurta 1998).
+The photoluminescence efficiency of the ERE carrier must exceed this, since it is
+presumably not the only UV/visible photon absorber.
+The luminescing substance remains uncertain. Candidate ERE materials include HAC (Duley 1985, Witt & Schild 1988), PAHs (d’Hendecourt et al. 1986),
+quenched carbonaceous composite (Sakata et al. 1992), C60 (Webster 1993), coal
+(Papoular et al. 1996), silicon nanoparticles (Ledoux et al. 1998, Witt et al. 1998,
+Smith & Witt 2002), and carbon nanoparticles (Seahra & Duley 1999).
+Most candidate materials appear unable to match the observed ERE spectra and efficiency (Witt et al. 1998). Lab studies of the luminescence spectrum
+of hydrogenated amorphous carbon (HAC) appeared to show a good match to
+observed ERE spectra (Witt & Schild 1988) provided the HAC is annealed sufficiently to shift the luminescence into the red, where it is observed; however,
+such red-luminescing HAC has a very low photoluminescence efficiency (Furton
+& Witt 1993, Rusli et al. 1996) that is incompatible with the high efficiency
+required to explain the ERE from the diffuse ISM.
+Each of the nanoparticle hypotheses appears to have difficulties: (1) Seahra &
+Duley (1999) argue that small carbon particles with mixed sp2 /sp3 bonding can
+reproduce the observed ERE profile and required efficiency, but they predict a
+second ERE peak at ∼ 1 µm which does not appear to be present in NGC 7023
+(Gordon et al. 2000). (2) The PAH hypothesis has difficulty with (a) ERE emission and PAH emission having differing spatial distributions in HII regions (Sivan
+& Perrin 1993, Darbon et al. 2000), and (b) nondetection of ERE in reflection
+nebulae illuminated by stars with Teff < 7000 K (Darbon et al. 1999), whereas
+PAH emission bands are seen in these regions. (3) The silicon nanoparticle hypothesis appears to be ruled out by nondetection of ∼ 20 µm emission that should
+result from single-photon heating (see §9) in the silicon nanoparticle model (Li
+& Draine 2002a).
+Recently, two new emission features have been reported in the near-infrared,
+at 1.15 and 1.5 µm (Gordon et al. 2000). Smith et al. (2001) propose that the
+1.5 µm feature is due to β-FeSi2 .
+Although it would appear that all current proposals have been ruled out, the
+arguments against them are not yet conclusive. For example, perhaps it is possible to prepare HAC samples that achieve a higher photoluminescence efficiency,
+or there may be some way to explain the lack of PAH emission seen in the Bubble nebula, or silicon nanoparticles might be part of larger structures. At this
+point it seems appropriate to continue consideration of HAC, PAHs, and silicon
+nanoparticles as candidate ERE carriers.
+
+4
+
+PRESOLAR GRAINS IN METEORITES AND INTERPLANETARY DUST
+
+The most primitive meteorites contain presolar grains, which are recognized by
+virtue of isotopically anomalous composition – see Hoppe & Zinner (2000) for a
+recent review. Table 3 lists the six presolar grain types that have been identified
+thus far, along with their abundance (fraction of the total mass) in the bulk
+
+Interstellar Dust Grains
+
+19
+
+meteorite. Nanodiamond (sp3 -bonded carbon) grains make up 0.05% = 500 ppm
+of the meteorite. A tiny fraction of the nanodiamond particles contain a trapped
+Xe atom; the isotopic abundances of the trapped Xe suggests formation in SN
+ejecta. SiC grains are the next most abundant by mass (6 ppm), with isotopic
+patterns that indicate formation primarily in outflows from AGB stars. About
+0.5% of the SiC grains are of “Type X”, with isotopic abundances, including live
+44 Ti (T
+1/2 = 59 yr) at the time of grain formation, which suggest formation in
+Type II supernovae. About 1 ppm of the meteorite consists of graphitic (sp2 bonded carbon) grains, formed in AGB stars, supernovae, and novae. Al2 O3
+corundum grains are found, at least some of which appear to have formed in
+outflows from red giants and AGB stars. Finally, there are also Si3 N4 grains
+which appear to have a SN II origin.
+Table 3: Presolar Grains in Meteorites (Hoppe & Zinner 2000)
+Composition
+diameter( µm) Abundancea
+Originsb
+C(diamond)
+0.002
+5 × 10−4
+SN
+SiCc
+0.3–20
+6 × 10−6
+AGB
+C(graphite)d
+1–20
+1 × 10−6
+AGB,SN II,nova
+SiC type X
+1–5
+6 × 10−8
+SN
+Al2 O3 (corundum)
+0.5-3
+3 × 10−8
+RG,AGB
+Si3 N4
+∼1
+2 × 10−9
+SN II
+a
+Overall abundance in primitive carbonaceous chondrite meteorites.
+b
+SN = supernova; AGB = asymptotic giant branch star; RG = red giant
+c
+SiC grains sometimes contain very small TiC inclusions.
+d
+graphite grains sometimes contain very small TiC, ZrC, and MoC inclusions.
+
+It is important to recognize that the procedures used to search for presolar
+grains in meteorites begin with chemical treatments designed to dissolve the
+silicate matrix in which the presolar grains are embedded. It therefore comes as
+no surprise that silicates are not present in Table 3. It should also be recognized
+that the formation of even the most primitive meteorites involved temperatures
+high enough to melt rocks, in an environment which was presumably oxidizing
+(since the solar nebula had O/C > 1). Therefore the relative abundances in Table
+3 probably have more to do with the ability of grain types to survive a period of
+exposure to a hot, oxidizing environment than with interstellar abundance.
+Much more informative would be the abundances of presolar grains in cometary
+material. A “core sample” would be ideal, but at this time there is no planned
+mission for returning a sample of pristine cometary ice to Earth. However, the
+Stardust mission (Brownlee et al. 2000) will collect cometary dust on an aerogel
+panel during the 6.1 km s−1 encounter of the Stardust spacecraft with Comet
+Wild 2 in January 2004, and return it to Earth.
+Interstellar grains enter the solar system, and have been detected by the
+Ulysses and Galileo spacecraft; the impact rate is consistent with expectations
+> 1 µm grains is much larger
+for a ≈ 0.3 µm grains, but the impact rate for a ∼
+than expected for the average interstellar dust distribution (Frisch et al. 1999,
+Weingartner & Draine 2001a). The Stardust mission will expose an aerogel panel
+to interstellar grains flowing through the solar system; with ∼ 25km s−1 impact
+speeds, these grains are likely to be destroyed, but their residue in the aerogel
+can be analyzed for total mass and composition. We await the return of Stardust
+in January 2006.
+
+20
+
+Draine
+
+Active comets release their dust grains, which become part of the interplanetary dust particle (IDP) population. IDPs can be collected from the Earth’s
+atmosphere (Brownlee 1985). Bradley (1994) identifies a class of glassy silicate
+IDPs, known as GEMS (Glass with Embedded Metals and Sulfides), which appear to be presolar. Most GEMS are between 0.1 and 0.5 µm in diameter –
+similar to the sizes of interstellar silicates (see Figure 8). The 8 − 13 µm infrared
+absorption spectrum of these grains is similar to interstellar silicates (Bradley et
+al. 1999).
+
+5
+
+CANDIDATE GRAIN MATERIALS
+
+Based on the observations and clues described above, it is possible to formulate
+a short list of candidate materials for the bulk of interstellar dust. We will omit
+from consideration “rare” materials like Al2 O3 – even though Al is depleted from
+the gas phase, given the solar abundance of Al (Al/H = 3.1 × 10−6 ) aluminumbased materials account for only a few % of interstellar grain mass.
+
+5.1
+
+Silicates
+
+There is little doubt that silicate material contributes a substantial fraction of
+the total mass of interstellar dust. As discussed above (§3.2), in the ISM, at least
+∼95% of the silicate material is amorphous (Li & Draine 2002a). In some circumstellar disks the crystalline fraction appears to be higher, although it appears
+that the bulk of the silicates remain amorphous. Bouwman et al. (2001) find that
+5-10% of the olivine mass is crystalline in the dust around Herbig Ae/Be stars.
+Cosmic abundances dictate that the dominant metal ions in silicates will be
+either Mg, Fe, or both. There are two general chemical classes of crystalline
+silicates: Mg-Fe pyroxenes Mgx Fe1−x SiO3 (including enstatite MgSiO3 and ferrosilite FeSiO3 ) and olivines Mg2x Fe2−2x SiO4 (including forsterite Mg2 SiO4 and
+fayalite Fe2 SiO4 ). There are two different crystalline structures for the pyroxenes:
+orthopyroxene and clinopyroxene.
+The optical constants of various crystalline pyroxenes have been measured by
+Jäger et al. (1998) and Chihara et al. (2002); crystalline olivines have been measured by Jäger et al. (1998), Koike et al. (1999), and Suto et al. (2002).
+As noted above, some circumstellar dust exhibits emission features characteristic of crystalline silicates, and from the locations and strengths of these features
+it is possible to infer the Mg:Fe ratio. In all cases thus far the crystalline silicate
+material appears to be very Mg-rich and Fe-poor, consistent with pure forsterite
+and enstatite (Tielens et al. 1998, Molster et al. 2002a). Molster et al. (2002b)
+report that enstatite MgSiO3 is more abundant than forsterite Mg2 SiO4 around
+most evolved stars.
+Si is generally heavily depleted in the ISM. If Si is predominantly in silicates,
+and if Fe is not present in silicates, then the interstellar silicates would be expected
+to be enstatite MgSiO3 . The Fe would then presumably be in either metallic Fe
+or in oxide form (FeO, Fe2 O3 , Fe3 O4 ). However, while there is evidence for Mgrich silicate in circumstellar dust, we do not yet have a reliable indication of the
+composition of interstellar silicates, so an appreciable Fe fraction, and olivine-like
+composition, are not ruled out.
+Observed gas-phase abundances of Mg, Fe, and Si, and variations in these
+abundances from one cloud to another, have been interpreted as indicating that
+
+Interstellar Dust Grains
+
+21
+
+silicate grains may have a Mg-rich mantle and Fe-rich core (Spitzer & Fitzpatrick
+1993). The total ratio of (Fe+Mg) atoms to Si atoms in grains is estimated
+to be ∼3.4:1 (Fitzpatrick 1997), ∼3:1 (Howk et al. 1999) – in excess of the 2:1
+ratio expected for olivines, suggesting that metal oxides or metallic Fe may be
+present in addition to silicates. However, these conclusions depend upon assumed
+values of the total interstellar abundances; Sofia & Meyer (2001) conclude that
+the (Fe+Mg):Si ratio in interstellar dust is actually close to 2:1 for both “halo”
+dust and the dust in the well-studied ζOph cloud.
+The composition of interstellar silicates remains uncertain, but the study by
+Sofia & Meyer (2001) suggest that olivine MgFeSiO4 appears to be a reasonable
+approximation.
+
+5.2
+
+Carbonaceous Materials
+
+By “carbonaceous” we mean materials which are predominantly C by mass, including:
+• Diamond: sp3 -bonded carbon.
+• Graphite: sp2 -bonded carbon, either monocrystalline or polycrystalline.
+• Amorphous or glassy carbon: a mixture of sp2 - and sp3 -bonded carbon,
+with only short-range order.
+• Hydrogenated amorphous carbon: amorphous carbon with an appreciable
+hydrogen fraction.
+• Polycyclic aromatic hydrocarbons: sp2 -bonded carbon with peripheral H
+(see §3.6).
+• Aliphatic (chainlike) hydrocarbons (see §3.4)
+The presence of sp2 -bonded carbon is indicated by the 2175Å feature and the
+PAH emission bands. The 2175Å feature requires sp2 -bonded carbon in small
+< 100Å) particles (in larger particles the 2175Å feature is suppressed), and
+(a ∼
+single-photon excitation of the PAH emission features requires very small par< 104 C atoms. A PAH population incorporating a C abundance
+ticles, with ∼
+C/H≈ 60 × 10−6 appears able to account for both the PAH emission features
+(§3.6) and the 2175Å feature (§3.1).
+
+5.3
+
+SiC
+
+SiC grains are found in meteorites (§4) and an emission feature at 11.3 µm is observed in the spectra of many carbon stars (Treffers & Cohen 1974, Blanco et al.
+1998). However, absence of the 11.3 µm feature in the interstellar extinction indicates that the abundance of Si in SiC dust is less than 5% of the abundance of Si
+in silicates (Whittet et al. 1990). Accordingly, SiC grains, although undoubtedly
+present in the ISM, are not a major component of the interstellar grain mix.
+
+5.4
+
+Carbonates
+
+Calcite CaCO3 and dolomite CaMg(CO3 )2 have been detected in dusty disks
+within the planetary nebulae NGC6302 and NGC6537 (Kemper et al. 2002),
+but these carbonates are estimated to contribute less than 1% of the dust mass.
+Carbonates are evidently not a major component of the interstellar grain mix.
+
+22
+
+Draine
+
+6
+
+POLARIZATION
+
+6.1
+
+Optical-UV Polarization
+
+Light reaching us from reddened stars is often linearly polarized, because the extinction depends on the polarization mode. The degree of polarization as a function of wavelength can be approximated by the “Serkowski law”, a 3-parameter
+empirical fitting function (Serkowski 1973):
+h
+
+p(λ) = pmax exp −K(ln(λ/λmax ))2
+
+i
+
+,
+
+(8)
+
+where λmax ≈ 5500Å and K ≈ 1 on typical sightlines through diffuse clouds.
+The polarization arises from differential extinction by aligned dust grains, and
+will depend on the degree of alignment with the local magnetic field, the angle
+between the local magnetic field and the line of sight, and the degree to which
+the direction of the magnetic field varies along the line of sight. Studies of many
+sightlines (Serkowski et al. 1975) find that
+< 0.03A(λ
+pmax ∼
+max )/mag
+
+,
+
+(9)
+
+where A(λ) is the (polarization-averaged) extinction at wavelength λ. Interstellar
+dust grains must be sufficiently nonspherical and sufficiently aligned so that at
+λmax one polarization mode is extincted ∼6% more than the other polarization
+mode. Values of pmax /A(λmax ) < 0.03/mag are presumed to result when the
+magnetic field is disordered or not transverse to the line-of-sight, or from regions
+where the degree of grain alignment is lower.
+The wavelength λmax varies from one sightline to another, and is correlated
+with the value of RV , with
+RV ≈ 3.67(λmax /5500Å) − 0.29
+
+(10)
+
+(Clayton & Mathis 1988), and
+K ≈ 1.02(λmax /5500Å) − 0.10
+
+(11)
+
+(Wilking et al. 1982). The Serkowski law provides quite a good fit to the data for
+< λ < 3 µm−1 . Observations in the vacuum UV (Anderson et al. 1996,
+0.8 µm−1 ∼
+∼
+Clayton et al. 1996, Wolff et al. 1997) show that the degree of polarization continues to decline with decreasing wavelength. This implies that the small grains
+responsible for the rising extinction in the vacuum UV are inefficient polarizers
+– they are either nearly spherical or minimally aligned (Kim & Martin 1995).
+Most stars show no polarization excess in the 2175Å feature but two do: a
+2175Å polarization feature is detected in HD 197770 and HD 147933-4 (Wolff et
+al. 1997).
+
+6.2
+
+Polarized Far-Infrared Emission
+
+The aligned dust grains that polarize starlight will also produce linearly-polarized
+infrared emission, because for an isotropic dielectric function a submicron grain
+will radiate most effectively when the E field is parallel to the “long” axis of the
+grain. It is now possible to map this polarized emission from dense regions. For
+example, the W51 star-forming region has been mapped at 100 µm (Dotson etal
+
+Interstellar Dust Grains
+
+23
+
+2000), 850 µm (Chrysostomou et al. 2002), and 1.3mm (Lai et al. 2001), with
+linear polarizations as large as 10% observed at 1.3mm.
+Hildebrand et al. (1999) have discussed the wavelength-dependence of the measured polarization for dense cloud cores and envelopes. The data suggest that
+the grain alignment is larger in warmer regions.
+Observations of quiescent clouds are consistent with no grain alignment in the
+central regions (Goodman et al. 1995, Padoan et al. 2001).
+Radiative torques due to anisotropic starlight play an important role in the
+process of grain alignment (Draine & Weingartner 1997). These torques would be
+ineffective in the central regions of quiescent dark clouds where external starlight
+is heavily attenuated. In star-forming clouds such as M17 or W51, however,
+starlight is provided within the clouds by recently-formed stars.
+
+7
+
+A PROVISIONAL GRAIN MODEL
+
+Although we have quite good observational determinations of the extinction in the
+near-infrared, optical, and UV regions, the extinction and scattering properties
+of interstellar grains at very short wavelengths and very long wavelengths are
+probably best obtained by calculating them using a physical grain model that has
+been constrained by a variety of observations, including observations of extinction
+and infrared emission.
+Mathis et al. (1977) discovered that the average interstellar extinction could be
+satisfactorily reproduced by a grain model containing two components – graphite
+grains and silicate grains. Remarkably, the extinction curve was reproduced very
+well if both grain components had power-law size distributions, dn/da ∝ a−3.5 ,
+truncated at a minimum size a− ≈ 50Å and a maximum size a+ ≈ 2500Å. The
+success of this grain model led Draine & Lee (1984) to refine the optical constants,
+and extend the treatment into the mid- and far-infrared. The graphite-silicate
+model was applied in the X-ray region by Laor & Draine (1993).
+At the time when the “graphite-silicate” model was developed, PAHs had not
+been recognized as a major interstellar grain material. With the recognition
+that the interstellar grain population appears to include a substantial population
+of ultrasmall grains with PAH composition, the “graphite-silicate” model has
+recently been extended in a very natural way: the carbonaceous grains are now
+assumed to be PAH molecules when very small, but to have physical and chemical
+properties that can be approximated by grains of bulk graphite when larger than
+> 106 C atoms). The properties of the carbonaceous
+∼ 0.01 µm (containing N ∼
+grains are taken to change smoothly from PAH-like to graphite-like as the grain
+size is increased.
+Models developed to account for the infrared emission spectrum of interstellar dust require that the PAH population contain ∼ 15% of the interstellar C
+abundance. These particles necessarily make a major contribution to the UV
+extinction. Weingartner & Draine (2001a) have found size distributions for the
+grains that, including the PAHs, are consistent with the extinction produced by
+the interstellar grain population, and with the size distribution of the PAHs adjusted to reproduce the observed infrared emission from the diffuse ISM (Li &
+Draine 2001b).
+The grain size distribution adopted by Weingartner & Draine (2001a) for average Milky Way dust (with RV = 3.1) is shown in Figure 8, but with abundances
+
+24
+
+Draine
+
+reduced by a factor 0.93 to reproduce AIC /NH from eq. (4). The carbonaceous
+grain distribution is trimodal: The peak at a ≈ 0.3 µm is required to reproduce
+the observed extinction curve; the peak at a ≈ .0005 µm is required to reproduce
+the 3 − 12 µm PAH emission features; and the peak at a ≈ 0.005 µm improves the
+fit to the observed emission near 60 µm. The peaks at ∼ 0.3 µm and ∼ .0005 µm
+are certainly real, but the peak at .005 µm could be an artifact of errors in the
+adopted grain optical and FIR cross sections.
+
+Figure 8: Size distributions for carbonaceous-silicate grain model of Weingartner & Draine
+(2001a) for Milky Way dust with RV = 3.1, but with abundances decreased by a factor 0.93
+(see text).
+
+The dielectric functions of graphite and “astrosilicate” (including structure at
+X-ray absorption edges) have been reestimated by Draine (2003b). The extinction
+and scattering cross sections per H nucleon, calculated for the Weingartner &
+> 20 µm, the
+Draine (2001a) grain model, are shown in Figs. 9 and 10. For λ ∼
+extinction calculated for this grain model can be approximated by τ /NH ≈ 5 ×
+10−25 cm2 (λ/100 µm)−2 , as seen in Figure 10. The scattering varies as expected
+> 4 µm: τ /N ≈ 1.0 × 10−21 cm2 (λ/ µm)−4 .
+for Rayleigh scattering for λ ∼
+sca
+H
+This provisional dust model does not include a component to reproduce the
+> 200Å carobserved 3.4 µm absorption feature (§3.4). If the graphite in the a ∼
+bonaceous grains is replaced with a mixture of graphite and aliphatic hydrocarbons, it seems likely that the extinction curve, including the 3.4 µm feature, could
+be reproduced with only slight adjustments to the grain size distribution.
+The Weingartner & Draine (2001a) model has AV /∆τ9.7 = 14.2 (see Tables 4 –
+6), 25% smaller than the observed value 18.5 for diffuse cloud dust (see Table 1).
+Evidently the silicate abundance or the silicate band strength should be reduced
+by ∼ 30%.
+
+Interstellar Dust Grains
+
+25
+
+Figure 9: Extinction and scattering calculated for Weingartner & Draine (2001a) model for
+RV = 3.1 Milky Way dust, but with abundances reduced by factor 0.93 (see text).
+
+8
+
+SCATTERING
+
+8.1
+
+Optical and UV
+
+Observations of light reflected from dust grains provides another test of dust grain
+models. Individual reflection nebulae are bright, but comparisons with models
+are uncertain because the scattering geometry is in general poorly-determined:
+the illuminating star could be in front of the dust cloud (in which case the typical
+scattering angle would be large) or it could be embedded within it (in which case
+forward scattering by the dust grains between us and the star would dominate).
+The “diffuse galactic light” (DGL) consists of starlight scattered off the dust in
+the diffuse ISM, illuminated by the general interstellar starlight radiation field.
+Since we think we have independent knowledge of the spatial distribution of both
+stars and dust, studies of dust properties using the DGL do not suffer from
+geometric ambiguity. However, the DGL is faint (and must be distinguished
+from the direct light from faint stars), and attempts to infer the grain albedo
+and scattering asymmetry factor g ≡ hcos θi often find that there can be a oneparameter family of (albedo,g) values which are consistent with the observations.
+Figs. 11 and 12 show various observational estimates of albedo and g as a
+function of wavelength for interstellar dust, based on observations of the DGL.
+Determinations of grain scattering properties in the reflection nebulae NGC 7023
+(Witt et al. 1992), IC435 (Calzetti et al. 1995), NGC 2023 (Burgh et al. 2002),
+and the Pleiades (Gibson & Nordsieck 2003) are also shown.
+1. There does appear to be evidence for a decrease in albedo from the optical
+to the vacuum UV, although the results for NGC 7023 and IC435 at λ−1 >
+5 µm−1 do not conform.
+
+26
+
+Draine
+
+Figure 10: Extinction and scattering calculated for Weingartner & Draine (2001a) model for
+RV = 3.1 Milky Way dust, but with abundances reduced by factor 0.93 (see text). The dashed
+lines show the asymptotic behavior of the absorption (∝ λ−2 ) and scattering (∝ λ−4 ) cross
+sections.
+2. The data are consistent with (but do not require) a rise in the scattering
+asymmetry factor g from optical to UV.
+3. The data in Figs. 11 and 12 appear to be consistent with the albedo and g
+calculated for the carbonaceous-silicate grain model.
+The scatter in the results of different studies [e.g., the albedo and g near λ ≈
+1600Å (λ−1 ≈ 6.25 µm−1 ) in Figs. 11 and 12] serves as a warning that determining
+the albedo is model-dependent, requires accurate photometry, and, in the case
+of photodissociation regions like NGC 7023, NGC 2023, or IC 435, may require
+subtraction of fluorescent emission from H2 .
+
+8.2
+
+X-Ray Scattering
+
+Interstellar grains scatter X-rays through small scattering angles, and as a result
+X-ray point sources can appear to be surrounded by a diffuse “halo” of X-rays
+scattered by dust grains between us and the source (Overbeck 1965, Hayakawa
+1970, Martin 1970). Measurements of such halos provide a quantitative test of
+interstellar grain models (Catura 1983, Mauche & Gorenstein 1986, Mitsuda et
+al. 1990, Mathis & Lee 1991, Clark et al. 1994, Woo et al. 1994, Mathis et al.
+1995, Predehl & Klose 1996, Smith & Dwek 1998, Witt et al. 2001, Smith et al.
+2002).
+ROSAT observations of Nova Cygni 1992 provide the best observational data
+at this time. Mathis et al. (1995) concluded that the observed halo on day 291
+(after optical maximum) was best explained if the larger (a ≥ 0.1 µm) interstellar
+grains had a “fluffy” morphology, with a void fraction ≥ 25% – if the grains were
+
+Interstellar Dust Grains
+
+27
+
+Figure 11: Solid lines: scattering albedo calculated for Weingartner & Draine (2001a) model
+for Milky Way dust with RV = 3.1, 4.0, and 5.5. Symbols: observational determinations. After
+Draine (2003b).
+
+compact the scattering halo would be stronger than observed. Smith & Dwek
+(1998) argued that Mathis et al. (1995) had overestimated the scattering due
+to their use of the Rayleigh-Gans approximation, and that in fact the observed
+X-ray halo was consistent with compact grains. The same data was reconsidered
+by Witt et al. (2001), who concluded that the observed halo intensity at small
+scattering angles required a substantial population of large (a ≥ 1 µm) grains.
+Draine & Tan (2003) have revisited this question. Using data for 9 epochs, they
+find that the Weingartner & Draine (2001a) PAH/graphite/silicate grain model
+– with no adjustment to the size distribution – is consistent with the observed
+X-ray halo, for 50′′ –3000′′ halo angles. Observations with ROSAT and Chandra
+of other sources at energies between 0.7 and 4 keV also appear to be in general
+agreement with the scattering expected for this grain model (Draine 2003b).
+
+28
+
+Draine
+
+Figure 12: Solid lines: Scattering asymmetry factor g = hcos θi calculated for Weingartner &
+Draine (2001a) model for Milky Way dust with RV = 3.1, 4.0, and 5.5. Symbols: observational
+determinations. After Draine (2003b).
+
+9
+
+INFRARED EMISSION
+
+Heating of interstellar dust grains is primarily by absorption of starlight (collisional heating dominates only in dense regions in dark clouds – where the starlight
+intensity has been severely attenuated – or in dense, hot, shocked gas). Since the
+heating by starlight photons is quantized and stochastic, the temperature of a
+dust grain is time-dependent. Figure 13 shows the temperature histories of 4
+dust grains, heated by the average starlight background, and cooled by emission of infrared photons, over a time span of about 1 day. It is apparent that
+> 200Å
+for grains heated by the average starlight background, grains with radii a ∼
+< 50Å,
+can be approximated as having a steady temperature. Grains with radii a ∼
+however, undergo very large temperature excursions, and the notion of “average
+temperature” is not applicable. Most of the infrared power radiated by such
+small grains occurs during brief intervals following photon arrivals, when the
+grain temperature is close to the peak.
+In order to calculate the time-averaged emission spectrum for such small grains,
+
+29
+
+Interstellar Dust Grains
+Table 4: Absorption and Scattering for 5 µm > λ > 0.1 µm a
+λ
+band
+µm
+4.750
+M
+3.800
+L′
+3.450
+L
+2.190
+K
+1.630
+H
+1.220
+J
+1.000
+0.9000
+0.8930
+z
+0.8655
+IJ
+0.8020
+IC
+0.7480
+i
+0.7000
+0.6492 RC
+0.6415 RJ
+0.6165
+r
+0.5470
+V
+0.4685
+g
+0.4405
+B
+0.3635
+U
+0.3550
+u
+0.3000
+0.2500
+0.2300
+0.2200
+0.2175
+0.2150
+0.2100
+0.2000
+0.1900
+0.1800
+0.1600
+0.1400
+0.1200
+0.1000
+
+e
+
+CCM89b
+F99c
+modeld
+f
+Cext
+Aλ /AIC Aλ /AIC Aλ /AIC albedo hcos θi
+2
+cm /H
+.0619
+.0456
+0.164 -.041 1.29×10−23
+.0866
+.0700
+0.245 -.013 1.97×10−23
+.0931
+0.103
+.0845
+0.282
+.006
+2.38×10−23
+0.190
+0.212
+0.197
+0.439 0.131 5.56×10−23
+0.304
+0.321
+0.324
+0.520 0.209 9.15×10−23
+0.485
+0.489
+0.514
+0.585 0.289 1.45×10−22
+0.682
+0.668
+0.707
+0.623 0.363 1.99×10−22
+0.792
+0.819
+0.836
+0.642 0.401 2.36×10−22
+0.803
+0.830
+0.847
+0.643 0.404 2.39×10−22
+0.855
+0.879
+0.889
+0.647 0.414 2.51×10−22
+1.000
+1.000
+1.000
+0.658 0.438 2.82×10−22
+1.134
+1.125
+1.111
+0.665 0.459 3.13×10−22
+1.246
+1.255
+1.226
+0.671 0.479 3.46×10−22
+1.365
+1.419
+1.368
+0.674 0.500 3.86×10−22
+1.381
+1.442
+1.391
+0.675 0.503 3.92×10−22
+1.443
+1.531
+1.472
+0.676 0.513 4.15×10−22
+1.665
+1.805
+1.735
+0.674 0.538 4.89×10−22
+2.045
+2.238
+2.114
+0.661 0.560 5.96×10−22
+2.187
+2.396
+2.273
+0.653 0.565 6.41×10−22
+2.550
+2.813
+2.847
+0.616 0.569 8.03×10−22
+2.612
+2.866
+2.847
+0.616 0.569 8.03×10−22
+3.005
+3.306
+3.328
+0.582 0.556 9.38×10−22
+3.826
+4.163
+4.150
+0.530 0.542 1.17×10−21
+4.729
+5.115
+5.052
+0.459 0.545 1.42×10−21
+5.209
+5.584
+5.478
+0.428 0.551 1.54×10−21
+5.264
+5.626
+5.515
+0.424 0.554 1.56×10−21
+5.277
+5.624
+5.507
+0.423 0.557 1.55×10−21
+5.173
+5.503
+5.381
+0.428 0.563 1.52×10−21
+4.698
+5.052
+4.926
+0.452 0.576 1.39×10−21
+4.322
+4.705
+4.542
+0.466 0.594 1.28×10−21
+4.164
+4.546
+4.340
+0.457 0.614 1.22×10−21
+4.232
+4.585
+4.346
+0.403 0.653 1.23×10−21
+4.692
+5.057
+4.838
+0.360 0.678 1.36×10−21
+5.928
+6.234
+5.787
+0.321 0.675 1.63×10−21
+7.492
+0.273 0.649 2.11×10−21
+
+κabs
+cm2 /g
+5.76×102
+7.97×102
+9.16×102
+1.67×103
+2.35×103
+3.22×103
+4.02×103
+4.53×103
+4.57×103
+4.73×103
+5.17×103
+5.62×103
+6.09×103
+6.72×103
+6.83×103
+7.21×103
+8.55×103
+1.08×104
+1.19×104
+1.65×104
+1.65×104
+2.10×104
+2.95×104
+4.12×104
+4.73×104
+4.79×104
+4.80×104
+4.64×104
+4.07×104
+3.66×104
+3.56×104
+3.92×104
+4.67×104
+5.93×104
+8.23×104
+
+a
+
+Tabulated data is available at http://www.astro.princeton.edu/∼draine/dust/dust.html
+Cardelli et al. (1989) extinction fit for RV = 3.1
+c
+Fitzpatrick (1999) extinction fit for RV = 3.1
+d
+RV = 3.1 Milky Way dust model of Weingartner & Draine (2001a) but with abundances
+reduced by 0.93, and using optical constants from Draine (2003b)
+e
+λeff for JHKLL′ M from Bessell & Brett (1988); RJ IJ from Johnson (1965); Cousins
+U BV RC IC from Fukugita et al. (1996); SDSS ugriz from Gunn (2002, private communication).
+f
+Aλ = (2.5/ ln 10)Cext (λ)NH = 1.086Cext (λ)NH
+g
+κabs (λ) = absorption cross section per unit dust mass. For this model, MH /Mdust = 90.
+
+b
+
+one must calculate the energy distribution function dP/dE, for grains of a particular size, where dP is the probability that a grain will have vibrational energy
+in interval (E, E + dE). To solve for dP/dE, one must first calculate the specific
+heat for the grain, and the cross sections for absorption and emission of photons.
+Monte-Carlo simulations can be used to obtain dP/dE, but it is more efficient
+
+30
+
+Draine
+Table 5: Absorption and Scatteringa for λ > 5 µm
+λ
+µm
+1000.
+850.0
+350.0
+200.0
+140.0
+100.0
+60.00
+40.00
+25.00
+18.00
+14.00
+12.00
+9.700
+8.000
+7.000
+6.000
+
+Aλ /AIC
+model
+.00002
+.00003
+.00013
+.00042
+.00092
+.00180
+.0058
+.0156
+.0317
+.0514
+.0327
+.0622
+0.140
+.0491
+.0270
+.0329
+
+albedo
+
+hcos(θ)i
+
+.00000
+.00000
+.00000
+.00001
+.00001
+.00003
+.00007
+.00014
+.00031
+.00066
+.00283
+.00301
+.003
+.017
+.055
+.088
+
+-.004
+-.005
+-.005
+-.004
+.000
+.007
+.000
+-.016
+-.025
+-.026
+-.029
+-.029
+-.036
+-.050
+-.053
+-.052
+
+a
+Cext
+2
+cm /H
+5.48×10−27
+7.15×10−27
+3.58×10−26
+1.19×10−25
+2.59×10−25
+5.07×10−25
+1.62×10−24
+4.40×10−24
+8.95×10−24
+1.45×10−23
+9.22×10−24
+1.75×10−23
+3.94×10−23
+1.38×10−23
+7.60×10−24
+9.27×10−24
+
+a
+κabs
+2
+cm /g
+2.94×10−1
+3.83×10−1
+1.92×100
+6.37×100
+1.39×101
+2.71×101
+8.70×101
+2.36×102
+4.79×102
+7.76×102
+4.92×102
+9.37×102
+2.10×103
+7.29×102
+3.85×102
+4.53×102
+
+a See Table 4
+
+to solve for the steady-state dP/dE (Guhathakurta & Draine 1989, Draine & Li
+2001).
+The notion of “temperature” is somewhat problematic for very small grains,
+but one can define the instantaneous vibrational temperature as being equal to
+the temperature T (E) at which the expectation value of the energy would be
+equal to the actual grain energy; this is the temperature plotted in Figure 13.
+Draine & Li (2001) have shown that a “thermal” estimate for the grain emissivity
+is a good approximation, even for grains containing as few as ∼ 30 atoms.
+The infrared and far-infrared glow from interstellar dust can be measured, and
+a dust model must be able to reproduce the observed intensity and spectrum.
+> 20◦ provides a particularly clean test,
+The diffuse ISM at galactic latitudes |b| ∼
+because we have good estimates for the intensity of the starlight heating the dust,
+and the observed 21 cm emission provides accurate gas column densities which,
+for an assumed dust-to-gas ratio, determine the column density of dust. Although
+the surface brightness of the infrared emission is low, it has been detected by IRAS
+and COBE after averaging over large areas of sky. Figure 14 shows the observed
+emissivity per H nucleon, based on COBE-FIRAS and COBE-DIRBE photometry. 3.0-4.5 µm and 4.5-11.3 µm spectra, measured at b ≈ 0 by the IRTS satellite
+have been added to the plot, normalized to agree with the DIRBE photometry
+in the 3.5, 5.0, and 12 µm bands.
+In this dust model, approximately 20% of the absorbed starlight energy is
+reradiated at λ < 12 µm by PAHs. The same grain model, applied to reflection
+nebulae, can acount for the observed dependence of dust emission spectrum on
+temperature of illuminating star (Li & Draine 2002b). With appropriate changes
+to the grain mixture, the model can also account for the observed IR emission
+from the SMC (Li & Draine 2002c).
+> 50 µm – this is emisApproximately two thirds of the radiated power is at λ ∼
+>
+sion from a ∼ .01 µm grains that are maintained at a nearly steady temperature
+∼ 15 − 20 K by starlight. The remaining ∼ one third of the radiated power is
+< 50Å that are cooling following “temperature spikes”
+from grains with radii a ∼
+
+31
+
+Interstellar Dust Grains
+Table 6: Absorption and Scatteringa for λ < 0.1 µm
+λ
+µm
+.09120
+.04881
+.02339
+.02279
+.02214
+.01240
+.01170
+.006199
+.004397
+.004350
+.004133
+.002480
+.002317
+.002305
+.002296
+.002254
+.001759
+.001751
+.001734
+.001720
+.001710
+.001550
+.001240
+.000620
+
+hν
+eV
+13.6
+25.4
+53.0
+54.4
+56.0
+100
+106
+200
+282
+285
+300
+500
+535
+538
+540
+550
+705
+708
+715
+721
+725
+800
+1000
+2000
+
+Aλ /AIC
+model
+8.256
+5.574
+3.355
+3.577
+3.469
+2.564
+2.908
+2.000
+1.426
+2.355
+1.812
+0.971
+0.691
+1.325
+1.138
+1.056
+0.575
+1.219
+0.799
+0.941
+0.845
+0.751
+0.563
+0.181
+
+albedo
+
+hcos(θ)i
+
+0.248
+0.291
+0.366
+0.369
+0.393
+0.452
+0.432
+0.578
+0.619
+0.452
+0.517
+0.632
+0.386
+0.355
+0.453
+0.478
+0.433
+0.353
+0.515
+0.432
+0.503
+0.514
+0.564
+0.584
+
+0.658
+0.813
+0.953
+0.949
+0.950
+0.988
+0.985
+0.997
+0.999
+0.998
+0.999
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+
+a
+Cext
+2
+cm /H
+2.33×10−21
+1.57×10−21
+9.46×10−22
+1.01×10−21
+9.78×10−22
+7.23×10−22
+8.20×10−22
+5.64×10−22
+4.02×10−22
+6.64×10−22
+5.11×10−22
+2.74×10−22
+1.95×10−22
+3.74×10−22
+3.21×10−22
+2.98×10−22
+1.62×10−22
+3.44×10−22
+2.25×10−22
+2.65×10−22
+2.38×10−22
+2.12×10−22
+1.59×10−22
+5.10×10−23
+
+a
+κabs
+2
+cm /g
+9.37×104
+5.97×104
+3.21×104
+3.41×104
+3.18×104
+2.12×104
+2.49×104
+1.27×104
+8.20×103
+1.95×104
+1.32×104
+5.40×103
+6.40×103
+1.29×104
+9.40×103
+8.32×103
+4.92×103
+1.19×104
+5.84×103
+8.07×103
+6.33×103
+5.51×103
+3.71×103
+1.14×103
+
+a see Table 4
+
+resulting from absorption of individual starlight photons. We can immediately
+< 50Å grains
+see the following: (A) The grain population must contain enough a ∼
+to account for ∼ one third of the absorption of starlight. (B) The resemblance of
+the 3–12 µm emission spectrum from the diffuse ISM to the emission spectrum
+expected from polycyclic aromatic hydrocarbon (PAH) molecules, radicals, and
+ions implies that a large fraction of the smallest grains must be PAHs. Figure
+15 shows the emission calculated for the PAH/carbon/silicate dust model illuminated by the average interstellar radiation field spectrum.
+The far-infrared emission is a good tracer of interstellar dust. The IRAS and
+DIRBE all-sky maps can be used to infer the dust column density (Schlegel et
+al. 1998).
+
+10
+
+MICROWAVE EMISSION
+
+10.1 Spinning Grains
+Theoretical models to account for the observed infrared emission require large
+numbers of extremely small dust grains that, following absorption of starlight
+photons, radiate in their optically-active vibrational modes. In addition to vibrating, these grains will rotate, with rotation rates reaching tens of GHz. If they
+have electric dipole moments, there will be rotational emission from these grains
+at microwave frequencies. Various workers have considered microwave emission
+from spinning grains (Erickson 1957, Hoyle & Wickramasinghe 1970, Ferrara &
+
+32
+
+Draine
+
+Figure 13: A day in the life of 4 carbonaceous grains, heated by the local interstellar radiation
+field. τabs is the mean time between photon absorptions (Draine & Li 2001).
+
+Dettmar 1994). The rotational emission from this grain population has been estimated by Draine & Lazarian (1998a,b), who showed that it could account for
+dust-correlated microwave emission that was discovered by Kogut et al. (1996a,b)
+in studies of the angular structure of the cosmic microwave background.
+The theoretical estimate for the rotational emission, plus the low-frequency
+tail of the vibrational emission, is shown in Figure 16. Figure 16 also shows
+results from a number of observational studies – some over large areas of the
+sky, others over smaller regions. Finkbeiner et al. (2002) detect dust-correlated
+microwave emission in pointed observations of a dark cloud (L1622) and toward
+LPH 201.663+1.643, a diffuse HII region behind heavy obscuration. Most recently, Finkbeiner et al. (2003a) use 8 and 14 GHz surveys to map the anomalous
+microwave emission from the Galactic plane.
+With the exception of the observations toward LPH 201.663+1.643, the observed microwave emission appears to be generally consistent with the theoretical
+prediction for emission from spinning dust grains.
+The observed microwave emission from LPH 201.663+1.643 is, however, an
+order of magnitude stronger than would be expected from the observed column
+of dust. While the rotational emission from spinning dust grains does depend
+on environment Draine & Lazarian (1998b), it does not appear possible to explain the strong emission observed in this direction using reasonable variations
+in environmental conditions.
+
+10.2 Magnetic Grains?
+Although rotational emission from spinning grains is a natural prediction for a
+dust model with large numbers of small grains, other emission mechanisms are
+
+Interstellar Dust Grains
+
+33
+
+Figure 14: Observed emission from diffuse interstellar dust. Crosses: IRAS (Boulanger &
+Perault 1988); Squares: COBE-FIRAS (Finkbeiner et al. 1999); Diamonds: COBE-DIRBE
+(Arendt et al. 1998); Heavy Curve: IRTS (Onaka et al. 1996, Tanaka et al. 1996). The total
+power ∼ 5.1 × 10−24 erg s−1 /H is estimated from the interpolated broken line.
+also possible, including thermal magnetic dipole radiation from magnetic grains
+(Draine & Lazarian 1999). We know that Fe contributes a significant fraction of
+the interstellar dust mass; if some of this Fe is in ferrimagnetic or ferromagnetic
+compounds, grains containing these compounds would emit magnetic dipole radiation. The idea is that the magnetization of the magnetic domains in the grain
+would fluctuate around the minimum-energy state; these fluctuations would be
+at GHz frequencies, and the fluctuating magnetization would generate electromagnetic radiation. If an appreciable fraction of the Fe in interstellar grains were
+in magnetite Fe3 O4 , it is estimated that the resulting thermal magnetic dipole
+emission would be comparable to the observed microwave emission. The power
+radiated per grain is simply proportional to the mass of magnetic material in that
+grain, and proportional to the grain temperature. Since it is presumed that most
+of the magnetic material would be in large grains, it would be expected that the
+large grains would account for the bulk of the magnetic dipole emission.
+It is therefore possible that the observed microwave emission may contain appreciable contributions from both (ultrasmall) spinning grains and (large) magnetic grains.
+
+11
+
+ABUNDANCE ISSUES
+
+Dust population models that are constructed to reproduce the observed wavelengthdependent extinction are found to imply substantial abundances of elements in
+grain material – approaching or exceeding the abundances believed to be appropriate to interstellar matter. Kim & Martin (1996) referred to the “C/H crisis”,
+
+34
+
+Draine
+
+Figure 15: Solid line: infrared emission calculated for WD01 RV = 3.1 Milky Way dust model
+(but with abundances reduced by factor 0.93) for grains heated by diffuse starlight (Li & Draine
+2001b). Squares: COBE-FIRAS (Finkbeiner et al. 1999) Diamonds: COBE-DIRBE (Arendt et
+al. 1998).
+and Mathis (1996) has argued that the problem may be even more severe for Mg,
+Si, and Fe required for silicate grains.
+Whether there is a problem or not depends on the adopted values for total interstellar abundances. Mathis (1996) took the position that interstellar
+abundances should be taken to be ∼70% of solar. However, recent changes in
+inferred solar abundances for C and O, and comparison of photospheric abundances in F and G stars with those in B stars, led Sofia & Meyer (2001) to reject
+the hypothesis that interstellar abundances are appreciably subsolar. Sofia &
+Meyer estimate the dust-phase abundances on the sightline to ζOph if interstellar abundances are taken to be the same as photospheric abundances in F and
+G stars. From these abundances, we can construct carbon grains with volume
+= 2.05 × 10−27 cm3 /H (for an assumed ρ = 2.2 g cm−3 ), and silicate/SiO2 grains
+with volume 2.90 × 10−27 cm3 /H (for an assumed ρ = 3.5 g cm−3 ).
+The provisional grain model of §7 – the WD01 grain model with abundances
+reduced by a factor 0.93 – requires a carbonaceous grain volume Vcarb = 2.10 ×
+10−27 cm3 /H, and a silicate grain volume Vsil = 3.68 × 10−27 cm3 /H: thus we see
+that the carbon abundance is in line with observations, but the provisional grain
+model requires ∼26% more Mg, Si, and Fe than appears to be available.
+Is this 26% discrepancy a serious problem? Consider the following:
+1. 6 of the 14 sightlines in Figure 2 have AI /NH differing by more than 30%
+from the nominal value. This may represent measurement errors, but suggests real variations in AI /NH . Since it is not clear how the sample of
+sightlines is constructed, it is not apparent that the average value of NH /AI
+for the sample is the same as the overall dust-to-gas ratio for the ISM.
+
+Interstellar Dust Grains
+
+35
+
+Figure 16: Dust-correlated microwave emission, expressed as microwave surface brightness per
+unit column density of hydrogen. Curves: theoretical estimate of Draine & Lazarian (1998a,b).
+Symbols: observational determinations of “anomalous microwave emission”.
+
+2. The dust model assumes the grains to be spheres. Real grains are nonspherical. This will tend to provide somewhat more extinction per unit mass of
+grain material; this could increase the visual extinction per unit grain mass
+by ∼ 10 − 20%.
+3. The dust model assumes the grains to be compact, but real grains may
+contain voids. This could conceivably increase the visual extinction per
+unit grain mass by ∼ 10%.
+4. The dust model uses “bulk” optical constants and Mie theory. The outer
+few monolayers of grain material, however, will have electronic structure
+(and therefore optical properties) differing from “bulk” material, so that
+the model calculations should not be considered to be precise even if the
+grains were actually spheres and we had the correct bulk optical constants.
+At the present stage of observational and theoretical knowledge, we do not consider the apparent “abundance crisis” to be sufficient grounds to reject our provisional grain model, but new data could change this conclusion.
+
+12
+
+GRAIN ALIGNMENT
+
+The polarization of starlight (§6) was discovered over 50 years ago (Hall 1949,
+Hiltner 1949), and was immediately recognized as being due to aligned dust
+grains. The mechanism responsible for the alignment has been sought by theorists
+for the past half century. Two separate alignments are involved: (1) alignment
+of the grain’s principal axis of largest moment of inertia with the grain’s angular
+momentum J, and (2) alignment of J with the galactic magnetic field.
+
+36
+
+Draine
+
+The alignment processes turn out to involve quite subtle physics [for an introduction, see Draine (2003a)]. The paramagnetic dissipation process proposed by
+Davis & Greenstein (1951) would be able to gradually align grains, but recent
+work shows that radiative torques due to starlight can be much stronger than the
+Davis-Greenstein torque; the starlight torques can affect both the rate of grain
+rotation – driving grains to suprathermal rotation rates – as well as the direction
+of the grain angular momentum (Draine & Weingartner 1996, 1997). The electronic and nuclear paramagnetism of the grain couple the rotational degrees of
+freedom to the vibrational degrees of freedom, with important consequences for
+the rotational dynamics of a tumbling grain (Lazarian & Draine 1999a,b).
+H2 formation on grain surfaces is thought to take place at a limited number
+of reaction sites, and the recoil from nascent H2 provides a systematic torque on
+the grain that is fixed in body coordinates (Purcell 1979), and that can drive a
+grain to suprathermal rotation rates. When the grain rotational kinetic energy
+is not too large compared to kTd , where Td is the grain temperature, the process
+of “thermal flipping” (Lazarian & Draine 1999a) can cause the H2 formation
+to time-average to zero, so that suprathermal rotation does not take place – a
+process termed “thermal trapping”. Radiative torques due to starlight, however,
+are not fixed in grain body coordinates and therefore do not time-average to zero
+even when thermal flipping is rapid, so that grains subject to starlight torques are
+immune to “thermal trapping”, and are expected to rotate suprathermally most
+> 0.1 µm.
+of the time. Starlight torques are important only for grains with radii a ∼
+>
+This may explain the fact that grains with radii a ∼ 0.2 µm appear to be much
+< 0.05 µm (Kim & Martin 1995).
+more strongly aligned than grains with radii a ∼
+The theory of grain alignment is complicated by the need to describe the dynamics of tumbling grains during intervals when the grain rotational kinetic energy is of order kTgas , including the effects of thermal flipping (Weingartner &
+Draine 2003). Progress is being made, and quantitative calculations of grain
+alignment for model grains should be possible within the next year or two –
+this should allow us to “predict” the wavelength-dependent polarization for a
+grain model once a geometric asymmetry is assumed for the grains. At that time
+we will learn whether our current picture of grain dynamics is consistent with
+observations.
+The very smallest grains spin with GHz rotation rates and emit electric dipole
+radiation in the microwave (§10). If these grains are aligned with the magnetic
+field, the rotational emission will be polarized. It appears, however, that these
+grains will be only minimally aligned, with degrees of alignment of only a few
+percent (Lazarian & Draine 2000). The Davis-Greenstein paramagnetic dissipation mechanism is suppressed in these grains by the unavailability of vibrational
+modes with energies h̄ωrot .
+
+13
+
+EVOLUTION OF THE GRAIN POPULATION
+
+The interstellar grain population in a galaxy reflects the interplay of many processes.
+Are interstellar grains “stardust”? There is ample evidence that grains form
+in some stellar outflows – we see infrared emission from dust in outflows from
+red giants and carbon stars, and in planetary nebulae. In all of these cases it is
+believed that the bulk of the dust condensed out of initially dust-free gas from the
+
+Interstellar Dust Grains
+
+37
+
+stellar envelope. The 10 µm silicate feature is seen in outflows from oxygen-rich
+stars, consistent with the expectation that silicates should be a major condensate
+in cooling gas with O/C > 1. The 10 µm feature is not seen in outflows from
+stars with C/O > 1, where instead one sometimes sees a feature at 11.3 µm
+that is attributed to SiC (Treffers & Cohen 1974, Blanco et al. 1998), consistent
+with the expected condensates from cooling gas with O/C < 1. Because isotopic
+anomalies are used to find them, presolar grains in meteorites generally appear
+to be “stardust” – a given grain was formed in the outflow/ejecta from a single
+star with a particular isotopic composition.
+There is no doubt that dust is formed in many stellar outflows. However, this
+does not imply that the bulk of the dust in the ISM was produced in this way.
+The problem is that interstellar grains are subject to sputtering (Draine &
+Salpeter 1979a) and grain-grain collisions in interstellar shock waves, and theoretical studies of grain destruction in the Milky Way find a mean “residence
+time” of an atom in a grain of order τdest ≈ 3 × 108 yr (Draine & Salpeter 1979b,
+Jones et al. 1994).
+Now suppose that all Si atoms enter the ISM as constituents of dust grains.
+The total mass of the ISM is MISM ≈ 5 × 109 M⊙ , and star formation takes place
+< 5M yr−1 . Thus the mean residence time of a metal atom in the
+at a rate Ṁ⋆ ∼
+⊙
+ISM is τISM = MISM /Ṁ⋆ ≈ 109 yr. Only a fraction τdest /(τdest + τISM ) ≈ 0.2 of
+the Si atoms in the ISM would be found in the original stardust particle in which
+they left a star.
+However, when we observe gas-phase abundances in the ISM, we typically find
+> 90% of the Si atoms missing from the gas phase. Unless we have grossly
+∼
+underestimated the grain destruction time τdest , it must follow that most of the
+Si atoms in interstellar grains joined the grain in the ISM!
+Therefore most interstellar dust is not stardust – the composition of interstellar
+grains is determined by physical processes in the ISM. The importance of interstellar processing is also evident from the large variations seen in the extinction
+curve from one sightline to another – these variations must be the result of interstellar effects, since any given sightline would be expected to average over the
+stardust produced by many individual stars.
+The interstellar processes that alter grains include
+• grain erosion by sputtering;
+• grain shattering in low-velocity grain-grain collisions;
+• grain vaporization in high-velocity grain-grain collisions;
+• grain coagulation;
+• accretion of impinging atoms and molecules on grain surfaces;
+• chemical reaction of impinging atoms and radicals with grain surfaces;
+• photolysis of grain material by UV starlight;
+• alteration of grain material by cosmic ray/X-ray irradiation;
+• photodesorption of atoms and molecules from grain surfaces.
+In addition, the local grain mixture can be modified by size- and compositiondependent drift of dust through the gas, driven by anisotropic starlight: relative
+> 0.1km s−1 can displace large grains from small grains by ∼few pc
+drift speeds ∼
+7
+in 10 yr (Weingartner & Draine 2001b).
+
+38
+
+Draine
+
+Understanding the balance among these different processes requires not only
+an understanding of the microscopic physics but also a quantitative model for
+the transport of grains from one “phase” of the ISM to another. Because grain
+destruction appears to be dominated by processes associated with interstellar
+shock waves, the propagation of these shock waves through the inhomogeneous
+ISM must be modeled.
+The required modeling is complex, and we are not yet at a stage where “a
+priori” modeling of the evolution of the interstellar grain population can be considered reliable. However, the observed depletions can be used to constrain models of the dynamic ISM: in order for grains to be able to “scavenge” elements
+like Si from the gas, there must be rapid “cycling” of matter between the diffuse
+low-density phases (where most grain destruction takes place) and denser regions
+(where densities are high enough for grain growth to be effective), with cycling
+times as short as ∼ 107 yr (Draine 1990).
+
+14
+
+FUTURE DIRECTIONS
+
+Our present understanding of interstellar grains is built upon an observational
+base. New observational facilities can be expected to produce important extensions to this observational base, possibly requiring revisions to our models.
+• SIRTF (Space InfraRed Telescope Facility) will provide low and medium
+resolution 5–40 µm spectra of reflection nebulae, 55–96 µm spectral energy
+distributions, and imaging in 7 photometric bands from 3.5 to 160 µm. We
+can anticipate detection of new emission features in the 15–40 µm region
+(where ISO had limited sensitivity), and studies of variations of dust emission features and spectra with environment.
+• Astro-F (Pearson et al. 2002 and references therein), scheduled for launch
+in 2004, will obtain all-sky maps in 4 bands between 50 and 200 µm, with
+improved spatial resolution and much better sensitivity than IRAS. This
+will greatly improve our knowledge of the distribution of diffuse dust, the
+degree to which dust is correlated with H I 21cm emission, and spatial
+variations in the far-infrared band ratios. Astro-F may be able to provide
+all-sky imaging in 6–11 µm that would provide a map of PAH emission.
+Correlation of the PAH emission with microwave emission would test the
+hypothesis that the microwave emission comes from spinning grains.
+• WMAP (Wilkinson Microwave Anisotropy Probe) is providing maps of the
+microwave sky in 5 bands between 22 and 90 GHz, with FWHM of 0.53◦ at
+40 GHz. These maps will help characterize the spectrum of the microwave
+emission from dust, as well as variations in dust emission (intensity and
+spectrum) from one region to another (Bennett et al. 2003). It will be of
+great interest to cross-correlate the all-sky microwave maps with infrared
+and far-infrared maps from IRAS, COBE, and, when available, Astro-F.
+• Planck/Surveyor, scheduled for launch in 2007, will provide all-sky submm
+maps that will determine the diffuse dust emission spectrum from 30 - 857
+GHz (1 cm – 350 µm).
+• Herschel, scheduled for launch together with Planck, will be capable of
+sensitive broadband diffraction-limited imaging at 60–700 µm, extending
+beyond the 160 µm cutoff of SIRTF. The longer wavelength coverage will
+
+Interstellar Dust Grains
+
+39
+
+provide improved determinations of the emission from cool dust, and will
+allow a census of dust masses in nearby galaxies.
+• The Stardust spacecraft is expected to return to Earth in 2006. Its aerogel
+panels will have interstellar grain material at impact sites and (we hope)
+intact cometary dust particles.
+• SOFIA (Stratospheric Observatory for Infrared Astronomy) will provide
+higher angular resolution dust emission imaging between 5 and 240 µm
+• Ground-based millimeter and submillimeter telescopes and arrays (e.g, BIMA,
+JCMT, CSO, ALMA) can map thermal dust emission from dense regions,
+including polarimetric mapping.
+Many problems await solution, some of which are highlighted here:
+• The carrier of the 2175Å feature remains unidentified. The PAHs required
+by the observed IR emission features are expected to produce strong absorption in this region, but this remains conjecture. We require lab measurements of UV absorption by PAH molecules, radicals, and ions containing
+20–103 C atoms for comparison with the observed 2175Å profile.
+• The nature of the ERE carrier remains an open question. The high intensities reported for diffuse clouds imply that the ERE carrier must be a
+major grain constituent (§3.8). Further observations of the ERE are needed,
+particularly to confirm the intensity of ERE from diffuse clouds. Further
+spectroscopy of ERE emission from bright regions, and laboratory studies
+of candidate ERE carriers, may lead to identification of the ERE carrier.
+• We should be able to identify at least some of the DIBs! Gas-phase spectroscopy of candidate molecules, radicals, and ions is needed. When the
+right candidates are studied, positive spectroscopic identification of DIBs
+will follow.
+• PAH molecules, radicals, and ions appear to be a major part of the grain
+population in the Milky Way, but the origin of these PAHs is unknown.
+Further observational study of spatial variations in PAH abundance (and
+perhaps spectral properties) may provide valuable clues.
+• We would like to understand the balance of processes (growth, coagulation,
+erosion, shattering) accounting for the size distribution of interstellar dust.
+Observational determinations of regional variations in the size distribution
+will frame the theoretical attack on this problem.
+• Are there really separate populations of carbonaceous grains and silicate
+grains? If so, how does grain growth in the ISM maintain these separate
+populations?
+• Is the anomalous microwave emission due primarily to spinning dust grains?
+Is there a significant contribution from magnetic dust materials (§10)?
+• Can we diagnose the composition of interstellar dust using X-ray absorption
+measurements(§3.7)?
+• The problem of interstellar grain alignment (§12) seems ripe for solution.
+Radiative torques due to starlight appear to be an important part of the
+alignment process. A solution to this problem may be in sight.
+
+40
+
+Draine
+
+I thank D Finkbeiner, D Gutkowicz-Krusin, A Li, and J Weingartner for helpful
+comments, and RH Lupton for availability of the SM software package. This
+research was supported in part by NSF grant AST-9988126.
+
+References
+Adamson AJ, Whittet DCB. 1995. Ap. J. 448:L49-52
+Adamson AJ, Whittet DCB, Duley WW. 1990. MNRAS 243:400-4
+Aitken DK, Smith CH, Roche PF. 1989. MNRAS 236:919-27
+Allamandola LJ, Tielens AGGM, Barker JR. 1989. Ap. J. Suppl. 71:733-35
+Anderson CM, Weitenbeck AJ, Code AD, Nordsieck KH, Meade MR, et al. 1996. A.
+J. 112:2726-43
+Arendt RG, Odegard N, Weiland JL, Sodroski TJ, Hauser MG, et al. 1998. Ap. J. 508:74105
+Artymowicz P. 2000. Sp. Sci. Rev. 92:69-86
+Bennett C, Hill RS, Hinshaw G, Nolta MR, Odegard N et al. 2003. Ap. J. submitted
+(astro-ph/0302208)
+Berlind AA, Quillen AC, Pogge RW, Sellgren K. 1997. A. J. 114:107-14
+Bernstein RA, Freedman WL, Madore BF. 2002. Ap. J. 571:107-28
+Bertoldi F, Timmermann R, Rosenthal D, Drapatz S, Wright CM. 1999. Astron. Astrophys. 346:267-77
+Bessell MS, Brett JM. 1988. Pub. Astr. Soc. Pac. 100:1134-51
+Bianchi L, Clayton GC, Bohlin RC, Hutchings JB, Massey P. 1996. Ap. J. 471:203-10
+Blanco A, Borghesi A, Fonti S, Orofino V. 1998. Astron. Astrophys. 330:505-14
+Bohlin RC, Savage BD, Drake JF. 1978. Ap. J. 224:132-42
+Boulanger F, Perault M. 1988. Ap. J. 330:964-85
+Bouwman J, Meeus G, de Koter A, Hony S, Dominik C, Waters LBFM. 2001. Astron.
+Astrophys. 375:950-62
+Bowey JE, Adamson AJ. 2002. MNRAS 334:94-106
+Bowey JE, Adamson AJ, Whittet DCB. 1998. MNRAS 298:131-38
+Bradley JP. 1994. Science 265:925-29
+Bradley JP, Keller LP, Snow TP, Hanner MS, Flynn GJ et al. 1999. Science 285:1716-18
+Brownlee DE. 1985. Ann. Rev. Earth Planet. Sci. 13:147-73
+Brownlee DE, Tsou P, Clark B, Hanner MS, Hörz F et al. 2000. Meteor. Plan. Sci. 35,
+Supplement, p. A35
+Burgh EB, McCandliss SR, Feldman PD. 2002. Ap. J. 575:240-49
+Calzetti D. 2001. Pub. Astr. Soc. Pac. 113:1449-85
+Calzetti D, Bohlin RC, Gordon KD, Witt AN, Bianchi L. 1995. Ap. J. Lett. 446:L97-100
+Cardelli JA, Clayton GC, Mathis JS. 1989. Ap. J. 345:245-56
+Catura RC. 1983. Ap. J. 275:645-651
+Cesarsky D, Lequeux J, Abergel A, Perault M, Palazzi E et al. 1996. Astron. Astrophys. 315:L305-8
+Chiar JE, Tielens AGGM, Whittet DCB, Schutte WA, Boogert ACA et al. 2000. Ap.
+J. 537:749-62
+Chihara H, Koike C, Tsuchiyama A, Tachibana S, Sakamoto D. 2002. Astron. Astrophys. 391:267-73
+Chrysostomou A, Aitken DK, Jenness T, Davis CJ, Hough JH et al. 2002. Astron. Astrophys. 385:1014-21
+Chrysostomou A, Hough JH, Whittet DCB, Aitken DK, Roche PF, Lazarian A. 1996.
+Ap. J. Lett. 465:L61-64
+Clark GW, Woo JW, Nagase F. 1994. Ap. J. 422:336-50
+Clayton GC, Mathis JS. 1988. Ap. J. 327:911-19
+Clayton GC, Wolff MJ, Allen RG, Lupie OL. 1996. Ap. J. 445:947-57
+
+Interstellar Dust Grains
+
+41
+
+Darbon S, Perrin JM, Sivan JP. 1999. Astron. Astrophys. 348:990-92
+Darbon S, Zavagno A, Perrin JM, Savine C, Ducci V, Sivan JP. 2000. Astron. Astrophys. 364:723-31
+Davis L, Greenstein JL. 1951. Ap. J. 114:206-40
+Day KL. 1979. Ap. J. 234:158-61
+Demyk K, Jones AP, Dartois E, Cox P, d’Hendecourt L. 1999. Astron. Astrophys. 349:26775
+de Oliveira-Costa A, Kogut A, Devlin MJ, Netterfield CB, Page LA, Wollack EJ. 1997.
+Ap. J. Lett. 482:L17-20
+de Oliveira-Costa A, Tegmark M, Devlin MJ, Haffner LM, Herbig TM et al. 2000. Ap.
+J. Lett. 542:L5-8
+de Oliveira-Costa A, Tegmark M, Gutiérrez CM, Jones AW, Davies RD et al. 1999. Ap.
+J. Lett. 527:L9-12
+de Oliveira-Costa A, Tegmark M, Page LA, Boughn SP. 1998. Ap. J. Lett. 509:L9-12
+Désert FX, Jenniskens P, Dennefeld M. 1995. Astron. Astrophys. 303:223-32
+d’Hendecourt LB, Léger A, Olofson G, Schmidt W. 1986. Astron. Astrophys. 170:91-96
+Dorschner J, Henning T. 1995. Astron. Astrophys. Rev. 6:271-333
+Dotson JL, Davidson J, Dowell CD, Schleuning DA, Hildebrand RH. 2000. Ap. J.
+Suppl. 128:335-70
+Draine BT. 1989a. In Interstellar Dust (Proc. of IAU Symp. 135), ed. LJ Allamandola,
+AGGM Tielens, pp. 313-27. Dordrecht: Kluwer
+Draine BT. 1989b. In Infrared Spectroscopy in Astronomy, ed. BH Kaldeich, pp. 93-98.
+Noordwijk: ESA
+Draine BT. 1990. In The Evolution of the Interstellar Medium. ed. L Blitz, pp. 193-205.
+San Francisco: Astron. Soc. Pac.
+Draine BT. 1995. In Physics of the Interstellar Medium and Intergalactic Medium, ed. A
+Ferrara, C Heiles, CF McKee, & PR Shapiro, pp. 133-47. San Francisco: Astron. Soc.
+Pac.
+Draine BT. 2003a. In The Cold Universe, ed. D Pfenniger, in press. Berlin: SpringerVerlag (astro-ph/0304488)
+Draine BT. 2003b. Ap. J. submitted (astro-ph/0304060)
+Draine BT, Lazarian A. 1998a. Ap. J. Lett. 459:L19-22
+Draine BT, Lazarian A. 1998b. Ap. J. 508:157-79
+Draine BT, Lazarian A. 1999. Ap. J. 512:740-54
+Draine BT, Lee HM. 1984. Ap. J. 285:89-108
+Draine BT, Li A. 2001. Ap. J. 551:807-24
+Draine BT, Malhotra S. 1993. Ap. J. 414:632-45
+Draine BT, Salpeter EE. 1979a. Ap. J. 231:77-94
+Draine BT, Salpeter EE. 1979b. Ap. J. 231:438-55
+Draine BT, Tan JC. 2003. Ap. J. submitted (astro-ph/0208302)
+Draine BT, Weingartner JC. 1996. Ap. J. 470:551-65
+Draine BT, Weingartner JC. 1997. Ap. J. 480:633-46
+Dufour RJ. 1984. In IAU Symp. 108, Structure and Evolution of the Magellanic Clouds,
+ed. S van den Bergh & KS de Boer, pp. 353-60. Dordrecht: Reidel
+Duley WW. 1985. MNRAS 215:259-63
+Duley WW, Scott AD, Seahra S, Dadswell G. 1998. Ap. J. Lett. 503:L183-85
+Ehrenfreund P, Cami J, Jiménez-Vicente J, Foing BH, Kaper L et al. 2002 Ap. J.
+Lett. 576:L117-20
+Erickson WC. 1957. Ap. J. 126:489-92
+Falco EE, Impey CD, Kochanek CS, Lehár J, McLeod BA et al. 1999. Ap. J. 523:617-32
+Ferrara A, Dettmar R.-J. 1994. Ap. J. 427:155-59
+Finkbeiner DP, Davis M, Schlegel DJ. 1999. Ap. J. 524:867-86
+Finkbeiner DP, Langston G, Minter T. 2003a. Bull. AAS 34 #140.05
+Finkbeiner DP, Schlegel DJ, et al. 2003b. in preparation
+
+42
+
+Draine
+
+Finkbeiner DP, Schlegel DJ, Frank C, Heiles C. 2002. Ap. J. 566:898-904
+Fitzpatrick EL. 1985. Ap. J. 299:219-35
+Fitzpatrick EL. 1986. A. J. 92:1068-73
+Fitzpatrick EL. 1997. Ap. J. Lett. 482:L199-202
+Fitzpatrick EL. 1999. Pub. Astr. Soc. Pac. 111:63-75
+Fitzpatrick EL, Massa D. 1986. Ap. J. 307:286-94
+Forrey RC, Woo JW, Cho K. 1998. Ap. J. 505:236-43
+Frisch PC, Dorschner JM, Geiss J, Greenberg JM, Grün E, et al. Ap. J. 525:492-516
+Fukugita M, Ichikawa T, Gunn JE, Doi M, Shimasaku K, Schneider DP. 1996. A.
+J. 111:1748-56
+Furton DG, Witt AN. 1990. Ap. J. Lett. 364:L45-48
+Furton DG, Witt AN. 1993. Ap. J. Lett. 415:L51-54
+Gerakines PA, Whittet DCB, Ehrenfreund P, Boogert ACA, Tielens AGGM et al. 1999.
+Ap. J. 522:357-77, 526:1062
+Gibb EL, Whittet DCB, Schutte WA, Boogert ACA, Chiar JE et al. 2000. Ap. J. 536:34756
+Gibson SJ, Nordsieck KH. 2003. Ap. J. preprint doi:10.1086/374590
+Gillett FC, Forrest WJ, Merrill KM, Soifer BT, Capps RW. 1975. Ap. J. 200:609-20
+Goodman AA, Jones TJ, Lada EA, Myers PC. 1995. Ap. J. 448:748-65
+Gordon KD, Witt AN, Carruthers GR, Christensen SA, Dohne BC. 1994. Ap. J. 432:64147
+Gordon KD, Witt AN, Friedmann BC. 1998. Ap. J. 498:522-40
+Gordon KD, Witt AN, Rudy RJ, Puetter RC, Lynch DK, et al. 2000. Ap. J. 544:859-66
+Greenberg JM, Li A, Mendoza-Gómez CX, Schutte WA, Gerakines PA, de Groot M.
+1995. Ap. J. Lett. 455:L177-80
+Grevesse N, Sauval AJ. 1998. Sp. Sci. Rev. 85:161-74
+Guhathakurta P, Draine BT. 1989. Ap. J. 345:230-44
+Gürtler J, Klaas U, Henning Th, Ábrahám P, Lemke D et al. 2002. Astron. Astrophys. 390:1075-87
+Haikala LK, Mattila K, Bowyer S, Sasseen TP, Lampton M, Knude J. 1995. Ap. J.
+Lett. 443:L33-36
+Hall JS. 1949. Science 109:166
+Hanner MS. 1999. Sp. Sci. Rev. 90:99-108
+Hayakawa S. 1970. Progr. Theor. Phys. 43:1224-30
+Heger ML. 1922. Lick Obs. Bull. 10:146-47
+Hildebrand RH, Dotson JL, Dowell CD, Schleuning DA, Vaillancourt JE. 1999. Ap.
+J. 516:834-42
+Hiltner WA. 1949. Science 109:165
+Hoppe PM, Zinner E. 2000. J. Geophys. Res. 105:10371-85
+Hough JH, Chrysostomou A, Messinger DW, Whittet DCB, Aitken DK, Roche PF. 1996.
+Ap. J. 461:902-8
+Howk JC, Savage BD, Fabian D. 1999. Ap. J. 525:253-93
+Hoyle F, Wickramasinghe NC. 1970. Nature 227:473-74
+Hurwitz M, Bowyer S, Martin C. 1991. Ap. J. 372:167-84
+Jäger C, Molster FJ, Dorschner J, Henning Th, Mutschke H, Waters LBFM. 1998. Astron.
+Astrophys. 339:904-16
+Jäger C, Mutschke H, Begemann B, Dorschner J, Henning Th. 1994. Astron. Astrophys. 292:641-55
+Jenniskens P, Desert FX. 1994. Astron. Ap. Suppl. 106:39-78
+Johnson HL. 1965. Ap. J. 141:923-42
+Jones AP, Tielens AGGM, Hollenbach DJ, McKee CF. 1994. Ap. J. 433:797-810
+Keane JV, Tielens AGGM, Boogert ACA, Schutte WA, Whittet DCB. 2001. Astron.
+Astrophys. 376:254-70
+Keel, WC, White RE. 2001a. A. J. 121:1442-55
+
+Interstellar Dust Grains
+
+43
+
+Keel, WC, White RE. 2001b. A. J. 122:1369-82
+Kemper F, Jäger C, Waters LBFM, Henning Th., Molster FJ et al. 2002. Nature 415:29597
+Kerr TH, Hibbins RE, Fossey SJ, Miles JR, Sarre PJ. 1998. Ap. J. 495:941-45
+Kerr TH, Hibbins RE, Miles JR, Fossey SJ, Sommerville WB, Sarre PJ. 1996. MNRAS 283:1104-9
+Kim S-H, Martin PG. 1995. Ap. J. 444:293-305
+Kim S-H, Martin PG. 1996. Ap. J. 462:296-308
+Kogut A, Banday AJ, Bennett CL, Górski KM, Hinshaw G, Reach WT. 1996a. Ap.
+J. 460:1-9
+Kogut A, Banday AJ, Bennett CL, Górski KM, Hinshaw G, et al. 1996b. Ap. J.
+Lett. 464:L5-L9
+Koike C, Tsuchiyama A. 1992. MNRAS 255:248-54
+Koike C, Tsuchiyama A, Suto H et al. 1999. In Proc. 32nd ISAS Lunar and Planetary
+Symp. 32:175
+Koorneef J. 1982. Astron. Astrophys. 107:247-51
+Kraetschmer W, Huffman DR. 1979. Ap. Sp. Sci. 61:195-203
+Krügel E. 2002. The Physics of Interstellar Dust. Bristol: Institute of Physics.
+Kurt CM, Dufour RJ. 1998. Rev. Mex. Astr. Ap. 7:202-6
+Lacy JH, Faraji H, Sandford SA, Allamandola LJ. 1998. Ap. J. Lett. 501:L105-9
+Lai SP, Crutcher RM, Girart JM, Rao R. 2001. Ap. J. 561:864-70
+Laor A, Draine BT. 1993. Ap. J. 402:441-68
+Laureijs RJ, Mattila K, Schnur G. 1997. Astron. Astrophys. 184:269-78
+Lazarian A, Draine BT. 1999a. Ap. J. Lett. 516:L37-40
+Lazarian A, Draine BT. 1999b. Ap. J. Lett. 520:L67-70
+Lazarian A, Draine BT. 2000. Ap. J. Lett. 536:L15-18
+Ledoux G, Ehbrecht M, Guillois O, Huisken F, Kohn B, et al. 1998. Astron. Astrophys. 333:L39-42
+Leger A, Puget JL. 1984. Astron. Astrophys. 137:L5-8
+Lehtinen K, Mattila K. 1996. Astron. Astrophys. 309:570-80
+Leitch EM, Readhead ACS, Pearson TJ, Myers ST. 1997. Ap. J. Lett. 486:L23-26
+Li A, Draine BT. 2001a. Ap. J. Lett. 550:L213-17
+Li A, Draine BT. 2001b. Ap. J. 554:778-802
+Li A, Draine BT. 2002a. Ap. J. 564:803-12
+Li A, Draine BT. 2002b. Ap. J. 572:232-37
+Li A, Draine BT. 2002c. Ap. J. 576:762-77
+Li A, Greenberg JM. 1997. Astron. Astrophys. 323:566-84
+Li A, Greenberg JM. 2002. Ap. J. 577:789-94
+Lillie CF, Witt AN. 1976 Ap. J. 208:64-76
+Lupton RH, Ivezic Z, et al. 2003. in preparation
+Lutz D, Feuchtgruber H, Genzel R, Kunze D, Rigopoulou D, et al. 1996. Astron. Astrophys. 315:L269-72
+Malhotra S. 1997. Ap. J. Lett. 488:L101-4
+Martin PG. 1970. MNRAS 149:221-35
+Martin PG. 1975. Ap. J. 292:393-99
+Martin PG, Angel JRP. 1974. Ap. J. 188:517-22
+Martin PG, Whittet DCB. 1990. Ap. J. 357:113-24
+Mathis JS. 1990. Ann. Rev. Astron. Ap. 28:37-70
+Mathis JS. 1993. Rep. Prog. Phys. 56:605-52
+Mathis JS. 1996. Ap. J. 472:643-55
+Mathis JS. 1998. Ap. J. 497:824-32
+Mathis, JS. 2000. J. Geophys. Res. 105:10269-77
+Mathis JS, Cohen D, Finley JP, Krautter J. 1995. Ap. J. 449:320-29
+Mathis JS, Lee C-W. 1991. Ap. J. 376:490-99
+
+44
+
+Draine
+
+Mathis JS, Rumpl W, Nordsieck KH. 1977. Ap. J. 217:425-33
+Mathis JS, Whiffen G. 1989. Ap. J. 341:808-22
+Mattila K. 1970. Astron. Astrophys. 9:53-63
+Mauche CW, Gorenstein P. 1986. Ap. J. 302:371-87
+McCarthy JF, Forrest WJ, Briotta DA, Houck JR. 1980. Ap. J. 242:965-975
+McKee CF, Petrosian V. 1974. Ap. J. 189:17-21
+Mennella V, Colangeli L, Bussoletti E, Palumbo P, Rotundi A. 1998. Ap. J.
+Lett. 507:L177-80
+Merrill PW. 1934. Pub. Astr. Soc. Pac. 46:206-7
+Misselt KA, Clayton GC, Gordon KD 1999: Ap. J. 515:128-39
+Mitsuda K, Takeshima T, Kii T, Kawai N. 1990. Ap. J. 353:480-85
+Molster FJ, Waters LBFM, Tielens AGGM. 2002a. Astron. Astrophys. 382:222-40
+Molster FJ, Waters LBFM, Tielens AGGM, Koike C, Chihara H. 2002b. Astron. Astrophys. 382:241-55
+Morgan DH, Nandy K, Thompson GI. 1976. MNRAS 177:531-44
+Motta V, Mediavilla E, Muñoz JA, Falco E, Kochanek CS, et al. 2002. Ap. J. 574:719-25
+Murthy J, Henry RC. 1995. Ap. J. 448:848-57
+Onaka T, Okada Y. 2003. Ap. J. 585:872-77
+Onaka T, Yamamura I, Tanabe T, Roellig TL, Yuen L. 1996. Pub. Astr. Soc.
+Japan 48:L59-63
+Overbeck JW. 1965. Ap. J. 141:864-66
+Padoan P, Goodman A, Draine BT, Juvela M, Nordlund A, Rögnvaldsson ÖE. 2001. Ap.
+J. 559:1005-18
+Paerels F, Brinkman AC, van der Meer RLJ, Kaastra JS, Kuulkers E et al. 2001. Ap.
+J. 546:338-44
+Papoular R, Conard J, Guillois O, Nenner I, Reynaud C, Rouzaud JN. 1996. Astron.
+Astrophys. 315:222-36
+Pearson CP, Shibai H, Matsumoto T, Murakami H, Nakagawa T, et al. 2002. astroph/0210292v1 (submitted to MNRAS )
+Pendleton YJ, Allamandola LJ. 2002. Ap. J. Suppl. 138:75-98
+Pierini D, Majeed A, Boroson TA, Witt AN. 2002. Ap. J. 569:184-203
+Pitman KM, Clayton GC, Gordon KD. 2000. Pub. Astr. Soc. Pac. 112:537-41
+Predehl P, Klose S. 1996. Astron. Astrophys. 306:283-93
+Purcell EM. 1979. Ap. J. 231:404-16
+Purcell EM, Shapiro PR. 1977. Ap. J. 214:92-105
+Rachford BL, Snow TP, Tumlinson J, Shull JM, Blair WP, et al. 2002. Ap. J. 577:221-44
+Rieke GH, Lebofsky MJ. 1985. Ap. J. 288:618-21
+Roche PF, Aitken DK. 1984. MNRAS 208:481-92
+Roche PF, Aitken DK. 1985. MNRAS 215:425-35
+Rosenthal D, Bertoldi F, Drapatz S. 2000. Astron. Astrophys. 356:705-23
+Rusli, Robertson J, Amaratunga GAJ. 1996. J. Appl. Phys. 80:2998-3003
+Russell RW, Soifer BT, Forrest WJ. 1975. Ap. J. Lett. 198:L41-43
+Sakata A, Wada S, Narisawa T, Asano Y, Iijima Y et al. 1992. Ap. J. 393:L83-86
+Sandford SA, Allamandola LJ, Tielens AGGM, Sellgren K, Tapia M, Pendleton Y. 1991.
+Ap. J. 371:607-20
+Sandford SA, Pendleton YJ, Allamandola LJ. 1995. Ap. J. 440:697-705
+Sasseen TP, Deharveng J.-M. 1996. Ap. J. 469:691-97
+Savage BD, Mathis JS. 1979. Ann. Rev. Astron. Ap. 17:73-111
+Schiminovich D, Friedman PG, Martin C, Morrissey PF. 2001. Ap. J. Lett. 563:L161-64
+Schlegel DJ, Finkbeiner DP, Blanton M, Gunn JE, Hogg DW. 2003. In preparation
+Schlegel DJ, Finkbeiner DP, Davis M. 1998. Ap. J. 500:525-53
+Schmidt GD, Cohen M, Margon B. 1980. Ap. J. Lett. 239:L133-38
+Schulz NS, Cui W, Canizares CR, Marshall HL, Lee JC et al. 2002. Ap. J. 556:1141-49
+Schutte WA, van der Hucht KA, Whittet DCB, Boogert ACA, Tielens AGGM, et al.
+
+Interstellar Dust Grains
+
+45
+
+1998. Astron. Astrophys. 337:261-274
+Scott A, Duley WW. 1996. Ap. J. Suppl. 105:401-5
+Seahra SS, Duley WW. 1999. Ap. J. 520:719-23
+Serkowski K. 1973. In IAU Symp. No. 52, Interstellar Dust and Related Topics, ed. JM
+Greenberg, HC van de Hulst pp. 145-52. Dordrecht: Reidel
+Serkowski K, Mathewson DS, Ford VL. 1975. Ap. J. 196:261-90
+Sivan JP, Perrin JM. 1993. Ap. J. 404:258-63
+Smith CH, Wright CM, Aitken DK, Roche PF, Hough JH. 2000. MNRAS 312:327-61
+Smith RK, Dwek E. 1998. Ap. J. 503:831-42
+Smith RK, Edgar RJ, Shafer RA. 2002. Ap. J. 581:562-69
+Smith TL, Gordon KD, Clayton GC. 2001. Bull. AAS 199 #11.06
+Smith TL, Witt AN. 2002. Ap. J. 565:304-18
+Sofia UJ, Meyer DM. 2001. Ap. J. Lett. 554:L221-24, Ap. J. Lett. 558:L147
+Spitzer LS, Fitzpatrick EL. 1993. Ap. J. 409:299-318
+Stecher TP. 1965. Ap. J. 142:1683-84
+Stecher TP, Donn B. 1965. Ap. J. 142:1681-83
+Steel TM, Duley WW. 1987. Ap. J. 315:337-39
+Stephens JR, Blanco A, Bussoletti E, Colangeli L, Fonti S et al. 1995. Planet. Space
+Sci. 43:1241-46
+Suto H, Koike C, Sogawa H, Tsuchiyama A, Chihara H, Mizutani K. 2002. Astron.
+Astrophys. 389:568-71
+Szomoru A, Guhathakurta P. 1998. Ap. J. Lett. 494:L93-97
+Szomoru A, Guhathakurta P. 1999. A. J. 117:2226-43
+Taban IM, Schutte WA, Pontoppidan KM, van Dishoeck EF. 2003. Astron. Astrophys. 399:169-75
+Takei Y, Fujimoto R, Mitsuda, K, Onaka, T. 2002. Ap. J. 581:307-14
+Tanaka M, Matsumoto T, Murakami H, Kawada M, Noda M, Matsuura S. 1996. Pub.
+Astr. Soc. Japan 48:L53-57
+Tielens AGGM, Waters LBFM, Molster FJ, Justtanont K. 1998. Ap. Sp. Sci. 255:415-26
+Toft S, Hjorth J, Burud I. 2000. Astron. Astrophys. 356:115-19
+Treffers R, Cohen M. 1974. Ap. J. 188:545-52
+Trumpler RJ. 1930. Pub. Astr. Soc. Pac. 42:214-27
+Udalski A. 2002. astro-ph/0210367v1
+van der Hucht KA, Morris PW, Williams PM, Setia Gunawan DYA, Beintema DA, et
+al. 1996. Astron. Astrophys. 315:L193-96
+Voshchinnikov NV. 2002. in Optics of Cosmic Dust, ed. G Videen, M Kocifaj, pp. 1-36
+Dordrecht: Kluwer
+Wada S, Kaito C, Kimura S, Ono H, Tokunaga AT. 1999. Astron. Astrophys. 345:259-64
+Waelkens C, Malfait K, Waters LBFM. 2000. In IAU Symposium 197, Astrochemistry,
+ed. YC Minh, EF van Dishoeck, pp. 435-46. San Francisco: Astron. Soc. Pac.
+Webster A. 1993. MNRAS 264:L1-2
+Weingartner JC, Draine BT. 2001a. Ap. J. 548:296-309
+Weingartner JC, Draine BT. 2001b. Ap. J. 553:581-94
+Weingartner JC, Draine BT. 2003. submitted to Ap. J. (astro-ph/0211342)
+Welty DE, Fowler JR. 1992. Ap. J. 393:193-205
+Whittet DCB. 2003. Dust in the galactic environment, 2nd ed. Bristol: Institute of
+Physics
+Whittet DCB. 1988. In Dust in the Universe ed. ME Bailey, DA Williams, pp. 25-53.
+Cambridge: Cambridge Univ. Press
+Whittet DCB. 2003. Dust in the galactic environment, 2nd ed. Bristol: Institute of
+Physics
+Whittet DCB, Bode MF, Longmore AJ, Adamson AJ, McFadzean AD, et al. 1988.
+MNRAS 233:321-36
+Whittet DCB, Boogert ACA, Gerakines PA, Schutte W, Tielens AGGM, et al. 1997. Ap.
+
+46
+
+Draine
+
+J. 490:729-734
+Whittet DCB, Duley WW, Martin PG. 1990. MNRAS 244:427-31
+Whittet DCB, Martin PG, Fitzpatrick EL, Massa D. 1993. Ap. J. 408:573-78
+Wilking BA, Lebofsky MJ, Rieke GH. 1982. A. J. 87:695-97
+Witt AN. 2000a. J. Geophys. Res. 105:10299-302
+Witt AN. 2000b. In IAU Symp. 197, Astrochemistry, ed. YC Minh, EF van Dishoeck,
+pp. 317-30. San Francisco: Astron. Soc. Pac.
+Witt AN, Boroson TA. 1990. Ap. J. 355:182-89
+Witt AN, Friedmann BC, Sasseen TP. 1997. Ap. J. 481:809-20
+Witt AN, Gordon KD, Furton DG. 1998. Ap. J. 501:L111-15
+Witt AN, Oliveri MV, Schild RE. 1990. A. J. 99:888-97
+Witt AN, Petersohn JK, Bohlin RC, O’Connell RW, Roberts MS, et al. 1992. Ap. J.
+Lett. 395:L5-L8
+Witt AN, Petersohn JK, Holberg JB, Murthy J, Dring A, Henry RC. 1993. Ap. J. 410:71418
+Witt AN, Schild RE. 1985. Ap. J. 294:225-30
+Witt AN, Schild RE. 1988. Ap. J. 325:837-45
+Witt AN, Smith RK, Dwek E. 2001. Ap. J. 550:L201-5
+Witt AN, Walker GAH, Bohlin RC, Stecher TP. 1982. Ap. J. 261:492-509
+Wolff MJ, Clayton GC, Kim SH, Martin PG, Anderson CM. 1997. Ap. J. 478:395-402
+Woo JW, Clark GW, Day CSR, Nagase F, Takeshima T. 1994. Ap. J. Lett. 436:L5-8
+
+

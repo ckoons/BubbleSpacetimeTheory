@@ -1,0 +1,60 @@
+1634 NOTES Vol. 142
+
+Now dl/dz is clearly something like cH—, It can in fact be shown easily using the develop-
+ment angle formalism (Sandage 19618) that
+
+dl =R(1)u du _ cHy!
+az dz (1+ 2)2(14+2q02)'”
+for the relativistic models with vanishing pressure and cosmological constant, and with
+
+deceleration parameter qo (see, e.g., Sandage 1961a for a discussion of these models), For
+the steady-state model, u = gz, and so
+
+dl _ cH"
+dz i+s°
+We then have, for the relativistic models,
+Ha (mt 2) werf
+p= tO oot (LE Bgoay glv(1+ 2) ~va)ed (1 2).
+
+The function g is strongly peaked at zero; its width depends on the intergalactic tem-
+perature, but even at 10°° K its width expressed in velocity units is only 2 X 10-‘ c
+(compared to the redshift, which is of the order of 2). Thus we can take the factor in
+braces out of the integral, evaluated at (1 + 2) = v./v; the integral that is left is unity,
+and we obtain (for Hy) = lo y rt)
+
+Ns reef Ns
+P= (TF 2) +2902)? \mveHe (1+ 2)(1-+ 2go2) 1?"
+
+Here u, is the number density of neutral hydrogen in the scattering region. The flux
+will be reduced, of course, by a factor e~®, but it is difficult to say just how large the
+effect is on the plates of 3C 9. Intensity tracings were made of two plates, and tracings of
+the neighboring night-sky spectra allowed approximate subtraction of the night-sky
+contribution. The blueward component and the wing of the line are noticeably depressed
+(they are enhanced on the plates by a strong, broad night-sky feature at 3640 A that
+gives the line an almost symmetric profile before the sky is removed), but the exact
+amount is difficult to measure; best estimates place the depression at about 40 per cent,
+which corresponds to an optical depth of about }. This yields, for go = 3, a number
+density n, = 6 X 10~" cm™, or a mass density p, = 1 X 10-*4 gm cm7*—a figure five
+orders of magnitude below the limit (for the present density, which should be 27 times
+smaller because of the expansion) obtained from 21-cm observations by Field (1962).
+
+For the go = } model, the total density at z = 2 is 5 X 10-78 gm cm™’; thus only
+about one part in 5 X 106 of the total mass at that time could have been in the form of
+intergalactic neutral hydrogen. For the steady-state model p, = 2 X 10-* and the
+(constant) total density is 4 x 10-*°; the factor here is somewhat less, about 2 X 10°.
+
+We are thus led to the conclusion that either the present cosmological ideas about the
+density are grossly incorrect, and that space is very nearly empty, or that the matter
+exists in some other form. Oort has shown that only about 1 per cent of the go = 3 den-
+sity is accounted for by galaxies, and it has been generally assumed that the remainder
+exists as an intergalactic gas which is presumably mostly or entirely hydrogen. It is pos-
+sible that this interpretation is still valid but that essentially all of the hydrogen is
+ionized; this conclusion can be defended if we are allowed to make the intergalactic
+eléctron temperature high enough. Field and Henry (1964) have shown that the tem-
+perature cannot exceed 2 X 10®° K for the steady state and about 4 X 10°° K for the
+evolving models in the vicinity of go = 4 . Higher temperatures than these would result
+in more free-free (bremsstrahlung) emission from the intergalactic medium than the
+
+= (5 & 10' cm?)
+
+© American Astronomical Soctety = Provided By the NASA Astrophysics Bats System
