@@ -1,0 +1,498 @@
+Gen Relativ Gravit (2009) 41:581–660
+DOI 10.1007/s10714-009-0760-7
+GOLDEN OLDIE
+
+Republication of: Relativistic cosmology
+George F. R. Ellis
+
+Published online: 30 January 2009
+© Springer Science+Business Media, LLC 2009
+
+An editorial note to this paper and a biography can be found via doi:10.1007/s10714-009-0759-0.
+Original paper: G. F. R. Ellis: Relativistic cosmology, In: Sachs, R.K. (ed.) Proceedings of the
+International School of Physics “Enrico Fermi”, Course 47: General relativity and cosmology,
+pp. 104–182. Academic Press, New York and London (1971). Reprinted with the kind permission
+of Elsevier Ltd, the current owner of the Academic Press copyright, and of the author.
+Editorial responsibility: A. Krasiński, e-mail: akr@camk.edu.pl.
+G. F. R. Ellis (B)
+Mathematics Department, University of Cape Town,
+Rondebosch 7701, Cape Town, South Africa
+e-mail: George.Ellis@uct.ac.za
+
+123
+
+582
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+583
+
+123
+
+584
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+585
+
+123
+
+586
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+587
+
+123
+
+588
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+589
+
+123
+
+590
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+591
+
+123
+
+592
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+593
+
+123
+
+594
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+595
+
+123
+
+596
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+597
+
+123
+
+598
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+599
+
+123
+
+600
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+601
+
+123
+
+602
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+603
+
+123
+
+604
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+605
+
+123
+
+606
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+607
+
+123
+
+608
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+609
+
+123
+
+610
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+611
+
+123
+
+612
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+613
+
+123
+
+614
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+615
+
+123
+
+616
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+617
+
+123
+
+618
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+619
+
+123
+
+620
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+621
+
+123
+
+622
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+623
+
+123
+
+624
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+625
+
+123
+
+626
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+627
+
+123
+
+628
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+629
+
+123
+
+630
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+631
+
+123
+
+632
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+633
+
+123
+
+634
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+635
+
+123
+
+636
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+637
+
+123
+
+638
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+639
+
+123
+
+640
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+641
+
+123
+
+642
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+643
+
+123
+
+644
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+645
+
+123
+
+646
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+647
+
+123
+
+648
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+649
+
+123
+
+650
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+651
+
+123
+
+652
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+653
+
+123
+
+654
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+655
+
+123
+
+656
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+657
+
+123
+
+658
+
+123
+
+G. F. R. Ellis
+
+Republication of: Relativistic cosmology
+
+659
+
+123
+
+660
+
+123
+
+G. F. R. Ellis
+
+

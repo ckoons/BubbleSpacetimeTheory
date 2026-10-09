@@ -146,6 +146,30 @@ For Lyra's inputs (ii) absorber densities, (iii) photon number densities, (iv) c
 - Cross sections: Lyman-α oscillator strength and the H photo-ionization threshold cross-section from NIST ASD / Verner et al. 1996 (ApJ 465 487; astro-ph/9601009).
 - Dust: Draine 2003 (ARA&A 41 241; astro-ph/0304489) for grain opacity.
 
+## 11. Round K4-4, Lane C item 1: Raychaudhuri, ρ + 3p (timelike) versus ρ + p (null) — the pin Keeper's β = 2 clue needs
+Band H (14:3x): 4/5 obtained; 34 quotes, each checked against a rendered page image by the researcher and re-grepped by me in the OCR. **Provenance flag:** Wald 1984 and Hawking–Ellis 1973 were opened from archive.org community scans (not lending copies) and Ellis 1971 from a free mirror of the GRG reprint; all three are copyrighted books. The page/equation numbers are the books' own; Casey decides whether a community scan counts as "opened the page" for the record. Raychaudhuri 1955 (Phys. Rev. 98, 1123): NOT OBTAINED (APS paywall, no mirror), PIN-OWED.
+
+### 11.1 ★ PRIMARY: Hawking & Ellis 1973, Sections 4.1–4.3, 5.3
+- Timelike Raychaudhuri, Eq. (4.26), p. 84 (OCR'd; symbols read from the page image). **p. 85, verbatim:** *"By the field equations, the term R_ab V^a V^b = 4π(μ + 3p) for a perfect fluid whose flow lines have tangent vectors V^a."*
+- Eq. (5.11), p. 136: 4π(μ + 3p) − Λ = −3S″/S; p. 137: *"in all models in which μ + 3p is positive"* (the singularity argument).
+- Null Raychaudhuri, Eq. (4.35), p. 88: θ̇ = −R_ab K^a K^b + 2ω² − 2σ² − ½θ²; p. 88: *"Equation (4.35) is the analogue of the Raychaudhuri equation for timelike geodesics … the Ricci tensor term −R_ab K^a K^b will normally be negative, and so cause focussing."* p. 95: the null convergence condition R_ab W^a W^b ≥ 0 *"is implied by the weak energy condition"*, whose type-I form (p. 90) is μ ≥ 0, μ + p_α ≥ 0.
+
+### 11.2 ★ PRIMARY: Wald 1984, Section 9.2
+- Timelike: Eq. (9.2.11), p. 218; R_ab ξ^a ξ^b = 8π[T_ab ξ^a ξ^b + T/2], Eq. (9.2.15), p. 218; strong energy condition T_ab ξ^a ξ^b ≥ −T/2, Eq. (9.2.17), p. 219; for a perfect fluid in principal-pressure form ρ + Σp_i ≥ 0 and ρ + p_i ≥ 0, Eq. (9.2.20), p. 220 ("ρ + 3p" is never written literally).
+- Null: Eq. (9.2.32), p. 222; the condition R_ab k^a k^b ≥ 0 reduces to ρ + p_i ≥ 0, Eq. (9.2.37), p. 223, and Wald says the null requirements *"are weaker than the corresponding requirements in the timelike case."*
+
+### 11.3 ★ PRIMARY: Ellis, "Relativistic Cosmology" (Varenna 1971; GRG 41, 581 (2009) reprint)
+- Eq. (4.12), p. 605: θ̇ + ⅓θ² − u̇^a_{;a} + 2(σ² − ω²) + ½(μ + 3p) − Λ = 0 (units 8πG = c = 1); Eq. (4.13): 3l̈/l = … − ½(μ + 3p) + Λ.
+- **p. 605, verbatim:** *"while the active gravitational mass density is ρ in Newtonian mechanics, it is μ + 3p = ρ + ερ + 3p in general relativity."* No null Raychaudhuri equation in these lectures; μ + p > 0 appears only as a general restriction (3.8a, p. 595).
+
+### 11.4 SECONDARY (arXiv): Kar & SenGupta, Pramana 69, 49 (2007), gr-qc/0611123v1
+- Timelike Eq. (12), p. 10; null Eq. (17), p. 13; the acceleration equation on p. 10 is printed as ä/a = (4πG/3)(ρ + 3p) **WITHOUT the minus sign** (checked on the page image; a typo in v1; the journal version was not obtainable to confirm). Do not quote this line for the sign.
+
+### 11.5 What the pin says about the β = 2 clue (DERIVED; Lyra checks, Cal rules)
+1. **ρ + 3p is the TIMELIKE focusing source** — the Ricci term for a congruence of fluid flow lines (HE p. 85) and, in the same breath, the active gravitational mass (Ellis p. 605) in the acceleration equation 3l̈/l = −4πG(μ + 3p) + Λ. For radiation it is 2ρ_r; for dust ρ_m. **That is where "β_r = 2, β_m = 1" lives.**
+2. **The NULL focusing source is ρ + p**, not ρ + 3p (Wald 9.2.37; HE p. 90 → p. 95), and it is "weaker" by Wald's own word. For radiation ρ + p = 4ρ_r/3; for dust ρ_m. Written against null rays the ratio is 4/3, not 2.
+3. So Keeper's sentence *"the horizon ledger is fed by what focuses null rays"* gives β = 4/3 if taken literally, and β = 2 only if the ledger's source is the **timelike** active mass (the thing that decelerates the scale factor). The clue survives exactly as "the ledger's begin-rate responds to the active gravitational mass ρ + 3p"; it does not survive as "null focusing". Lyra should write the mechanism against Ellis (4.13)/HE (5.11), and Cal's check-first question (does Rule R's 2H already carry ρ + 3p through Ḣ?) is answered in the record by the Friedmann pair: Ḣ = −4πG(ρ + p) and ä/a = −(4πG/3)(ρ + 3p) — **Ḣ carries ρ + p; the acceleration carries ρ + 3p.** Which one Rule R's d ln N/dt = 2H differentiates into is Lyra's to state before the hash. β = 2 ≈ anything stays caged; this section names the equation, not the answer.
+
 ## 10. The ruler (K1953's ask) — RULED by Casey (K1953 addendum, 12:40), ledger line written
 - **What I found first (12:40 board):** the ledger (`bst_constants.json` `SI_ruler_measured`, toy 541's input count, front page) named m_e; T2569 (08-20) and toy 5118 (08-08) named the Planck unit. Same ladder, opposite ends.
 - **Casey's ruling (verbatim, K1953 addendum):** *"there are D_IV^5 internal 'ratios' like a ruler hence the m_e seems to be the base value. Plank is the boundary ruller, so we use Plank as the bridge between interior/exterior."* Two rulers, two jobs.

@@ -1,0 +1,1473 @@
+                                                    The Raychaudhuri equations: a brief review
+
+                                                                               Sayan Kar
+                                                     Department of Physics and Centre for Theoretical Studies,
+                                                     Indian Institute of Technology, Kharagpur 721 302, INDIA
+
+                                                                          Soumitra SenGupta
+                                                                  Department of Theoretical Physics,
+
+
+
+
+arXiv:gr-qc/0611123v1 23 Nov 2006
+                                                          Indian Association for the Cultivation of Science,
+                                                                  Jadavpur, Kolkata 700 032, INDIA
+
+                                                                               Abstract
+                                      We present a brief review on the Raychaudhuri equations. Beginning with a summary of the
+                                    essential features of the original article by Raychaudhuri and subsequent work of numerous authors,
+                                    we move on to a discussion of the equations in the context of alternate non–Riemannian spacetimes
+                                    as well as other theories of gravity, with a special mention on the equations in spacetimes with
+                                    torsion (Einstein–Cartan–Sciama–Kibble theory). Finally, we give an overview of some recent
+                                    applications of these equations in General Relativity, Quantum Field Theory, String Theory and the
+                                    theory of relativisitic membranes. We conclude with a summary and provide our own perspectives
+                                    on directions of future research.
+
+
+
+
+                                                                                   1
+I.    THE BEGINNINGS
+
+
+     About half a century ago, General Relativity (GR) was young (just forty years old!),
+and even the understanding of the simplest solution, the Schwarzschild, was incomplete.
+Cosmology was virtually in its infancy, despite the fact that the Friedmann–Lemaitre–
+Robertson–Walker (FLRW) solutions had been around for quite a while. The question
+about the then–known exact solutions of GR, which worried the serious relativist quite a
+bit, concerned their singular nature. Both the Schwarzschild and the cosmological solutions
+were singular. It is well–known that the creator of GR, Einstein himself, was quite worried
+about the appearance of singularities in his theory. Was there a way out? Was it correct to
+believe in a theory which had singular solutions? Were singularities inevitable in GR?
+     It was during these days in the early 1950’s, Raychaudhuri began examining some of
+these questions in GR. One of his early works during this era involved the construction
+of a non–static solution of the Einstein equations for a cluster of radially moving particles
+in an otherwise empty space [1]. A year before, he had also written an article related to
+condensations in an expanding universe [2] where he dealt with cosmological perturbations
+(in a sense, this article deals with what is today known as structure formation). Subsequent
+to these papers, in 1955, appeared Relativistic Cosmology I [3], which contains the derivation
+of the now–famous Raychaudhuri equation.
+     Fifty years hence, the Raychaudhuri equations have been discussed and analysed in a
+variety of contexts. Their rise to prominence was largely due to their use (through the notion
+of geodesic focusing) in the proofs of the seminal Hawking–Penrose singularity theorems of
+GR. Today, the importance of this set of equations, as well as their applicability in diverse
+scenarios, is a well-known fact.
+     This article is a brief review on these equations. We shall deal with some selected aspects
+in greater detail. We, of course, would like to emphasize that there are many topics which
+we leave untouched or, barely touched. We hope to do justice to these in a later, and more
+extensive article.
+     The overall plan of this article is as follows. In the remainder of this section, we shall recall
+the basic ideas and results in the 1955 paper and the singularity theorems. The next section
+introduces (with illustrative examples) the kinematical quantities (expansion, rotation and
+shear) which govern the characteristics of geodesic flows and also outlines the derivation and
+
+
+                                                  2
+consequences of the equations. Section 3 considers the equations in alternative Riemannian
+and non–Riemannian theories of gravity (R + βR2 theory and the Einstein–Cartan–Sciama–
+Kibble (ECSK) theory, in particular). In Section 4, we give a glimpse of the diverse uses of
+these equations in contexts within, as well as outside the realm of GR. Finally, we present
+a summary and provide our perspectives on possible future work.
+
+
+   A.   The original 1955 paper
+
+
+   The derivation of the Raychaudhuri equation, as presented in the 1955 article, is some-
+what different from the way it is arrived at in standard textbooks today. It must however be
+mentioned, that in a subsequent paper in 1957 [4], Raychaudhuri presented further results
+which bear a similarity with the modern approach to the derivation. Let us now briefly
+summarise the main points of the original derivation of Raychaudhuri.
+(a) Raychaudhuri’s motivation behind this article is almost entirely restricted to cosmology.
+He assumes the fact that the universe is represented by a time–dependent geometry but does
+not assume homogeneity or isotropy at the outset. In fact, one of his aims is to see whether
+non–zero rotation (spin), anisotropy (shear) and/or a cosmological constant can succeed in
+avoiding the intial singularity.
+(b) The entire analysis is carried out in the comoving frame (in the context of cosmological
+line elements) –the frame in which the observer is at rest in the fluid.
+(c) The quantity R44 (spacetime coordinates in the 1955 paper are labeled as x1 , x2 , x3 , x4
+with the fourth one being time), is evaluated in two ways–once using the Einstein equations
+(with a cosmological constant Λ) and, again, using the geometric definition of R44 in terms
+of the metric and its derivatives. In the second way of writing this quantity, Raychaudhuri
+introduces the definitions of shear and rotation.
+(d) Finally, equating the two ways of writing R44 the equation for the evolution of the
+expansion rate is obtained. Note that the definition of expansion given in this paper refers
+to the special case of a cosmological metric.
+(e) Apart from obtaining the equation, the article also arrives at the focusing theorem
+(though it is not mentioned with this name) and some additional results (the last section).
+   In the same year (1955), Heckmann and Schucking [5], while dealing with Newtonian
+cosmology arrived at a set of equations, one of which is the Raychaudhuri equation (in the
+
+
+                                                3
+Newtonian case). Prompted by this work, Raychaudhuri re–derived his equations in a some-
+what different way in an article where he also showed that Heckmann and Schucking’s work
+for the Newtonian case could be generalised without any problems to the fully relativisitic
+scenario. It must also be noted that Komar [6], a year after Raychaudhuri’s article appeared,
+obtained conclusions similar to what is presented in Raychaudhuri’s article. Raychaudhuri
+pointed this out in a letter published in 1957 [7].
+   Subsequently, in 1961, Jordan, Ehlers, Kundt and Sachs wrote an extensive article on the
+relativistic mechanics of continuous media where the derivation of the evolution equations of
+shear and rotation seem to appear for the first time [8]. Furthermore, for null geodesic flows,
+the kinematical quantities: expansion, rotation and shear (related to the so–called optical
+scalars) and the corresponding Raychaudhuri equations, were first introduced by Sachs [9].
+   The Raychaudhuri equation is sometimes referred to as the Landau–Raychaudhuri equa-
+tion. It may be worthwhile to point out precisely, the work of Landau, in relation to this
+equation. Landau’s contribution appears in his treatise The Classical Theory of Fields [10]
+and is also discussed in detail in [6, 11]. Working in the synchronous (comoving) reference
+                                             ∂γαβ
+frame, Landau defines a quantity χαβ =        ∂t
+                                                  , where γαβ   is the 3–metric. Subsequently,
+                          ∂
+using the fact that χαα = ∂t γ, where γ is the determinant of the 3–metric, he writes down an
+                                           ∂ α
+expression for R00 and then, an inequality ∂t χα + 16 (χαα )2 ≥ 0. While deriving the inequality,
+Landau implicitly assumes the Strong Energy Condition (though it is not mentioned with
+this name). Then, using it, he is able to show that γ must necessarily go to zero within a
+finite time. However, he mentions quite clearly that this does not imply the existence of a
+physical singularity in the sense of curvature. Though Landau’s work captures the essence of
+focusing, he does not explicitly mention geodesic focusing–moreover, he does not introduce
+shear and rotation or write down the complete equation for the expansion.
+   Even though it was mentioned in [11] and [8], Raychaudhuri’s contribution found its true
+recognition only after the seminal work of Hawking and Penrose which appeared a decade
+later. It was at that time, along with the proofs of the singularity theorems, the term
+Raychaudhuri equation came into existence in the physics literature.
+
+
+
+
+                                              4
+      B.   The singularity theorems
+
+
+      It must be mentioned that Raychaudhuri did point out the connection of his equations
+to the existence of singularities in his 1955 article. However, more general results (based on
+global techniques in Lorentzian spacetimes) appeared in the form of singularity theorems fol-
+lowing Penrose’s work [12] and, then, Hawking’s contributions [13, 14]. The crucial element
+of the singularity theorems is that the existence of singularities is proved by using a minimal
+set of assumptions (loosely speaking, these are : Lorentz signature metrics and causality, the
+generic condition on the Riemann tensor components, the existence of trapped surfaces and
+energy conditions on matter). In fact, a precise definition of ‘what is a singularity?’ first
+appeared in the works of Hawking and Penrose. The notion of geodesic incompleteness and
+its relation to singularities (not necessarily curvature singularities) was also born in their
+work. One should also realise that the focusing of geodesics arrived at by Raychaudhuri
+and discussed in much detail in later articles by other authors could be completely benign
+(irrespective of any actual singularity being present in the manifold). Thus, a singularity
+would always imply focusing of geodesics but focusing alone cannot imply a singularity (also
+pointed out by Landau [10]). We refrain from discussing the singularity theorems any further
+here–excellent discussion on global aspects in gravitation as well as the Hawking–Penrose
+theorems are available in [15, 16, 17].
+
+
+II.     THE GEOMETRY AND PHYSICS OF THE EQUATIONS
+
+
+      Let us now review the basic ingredients and the derivation of the equations. First, of
+course, we need to know– what do these equations deal with? In a sentence, one may say
+that they are concerned about the kinematics of flows. Flows are generated by a vector
+field–they are the integral curves of the given vector field. These curves may be geodesic
+or non–geodesic, though the former is more useful in the context of gravity. Thus, a flow
+is a congruence of such curves –each curve may be timelike or null or, in the Euclidean
+case, have tangent vectors with a positive definite norm. One does not, in the context of
+these equations, ask, how the flow is generated. In other words, we are more interested,
+in deriving the kinematic characteristics of such flows. The evolution equations (along the
+flow) of the quantitites that characterise the flow in a given background spacetime, are the
+
+
+                                             5
+Raychaudhuri equations. Historically speaking, it is the equation for one of the quantitites
+(the expansion), which is termed as the Raychaudhuri equation. However, in this article,
+we will refer to the full set of equations as Raychaudhuri equations.
+
+
+   A.    Expansion, rotation, shear
+
+
+   What quantities characterise a flow? If λ denotes the parameter labeling points on the
+curves in the flow, then, in order to characterise the flow, we must have different functions
+of λ. In other words, the gradient of the velocity field being a second rank tensor is split
+into three parts : the symmetric traceless part, the antisymmetric part and the trace. These
+define for us the shear, rotation and the expansion of the flow. Specifically,
+
+                                                         1
+                                  ∇b va = σab + ωab +       hab Θ                              (1)
+                                                        n−1
+                                                                                          1
+where the symmetric, traceless part, the shear, is defined as σab = 21 (∇b va + ∇a vb )− n−1 hab Θ,
+the trace, expansion, is Θ = ∇a v a and the antisymmetric rotation is given as, ωab =
+1
+2
+  (∇b va − ∇a vb ).   n is the dimension of spacetime, and hab = gab ± va vb is the projection
+tensor (the plus sign is for timelike curves whereas the minus one is for spacelike ones). Also,
+correspondingly, va v a = ∓1. We shall discuss the case of null geodesic congruences briefly,
+later.
+   The geometric meaning of these quantities is shown through Figure 1 and Figure 2.
+The expansion, rotation and shear are related to the geometry of the cross sectional area
+(enclosing a fixed number of geodesics) orthogonal to the flow lines (Figure 1). As one moves
+from one point to another, along the flow, the shape of this area changes. It still includes
+the same set of geodesics in the bundle but may be isotropically smaller (or larger), sheared
+or twisted. The analogy with elastic deformations or fluid flow is, usually, a good visual
+aid for understanding the change in the geometry of this area. A recent, nice discussion is
+available in [18]. Earlier references where these quantities are explained in quite some detail
+are [19],[20].
+
+
+
+
+                                               6
+                                      Area enclosing a set of flow lines
+
+
+
+
+                                                       A
+
+
+
+
+              FIG. 1: The cross sectional area enclosing a congruence of geodesics
+
+
+                                 Isotropic Expansion                         Shear
+
+
+
+
+                         A1                       A2
+                   Area at λ 1                                     Area at λ 1            Area at λ 2
+                                                Area at λ 2
+
+                                     Rotation
+                                                                Note similarity with
+
+                                                               (i) Elastic deformations
+                                                               (ii) Fluid flow
+
+
+                  Area at λ 1
+                                         Area at λ 2
+
+
+
+
+                        FIG. 2: Illustrating expansion, rotation and shear
+
+
+  B.   Examples
+
+
+  It is useful to illustrate these quantities with a set of examples. We first choose to work
+with Schwarzschild spacetime. Our examples here will involve (i) rotation–free timelike
+geodesic flows and (ii) timelike flows with all three kinematical quantities non–zero. We
+focus on examples with non–zero shear and rotation because these are not usually available
+in standard texts on GR. Our choice of examples are primarily based on the problems
+suggested in a recent monograph by Poisson [18]. In a third example (iii) we discuss briefly
+a timelike geodesic flow in the FLRW universe. Finally, in (iv) we briefly deal with geodesic
+
+
+                                                           7
+flows in wormhole spacetimes.
+(i) From the Frobenius theorem [18], we know that hypersurface orthogonal vector fields
+must necessarily have zero rotation though the shear can have non–zero components. In
+Schwarzschild spacetime, we construct a congruence which has the above properties (i.e. it
+is irrotational but has nonzero shear and expansion). Consider the vector field:
+                                                        s
+                                           1                2M
+                                ua ∂a =        ∂t ±            ∂r                        (2)
+                                        1 − 2M
+                                             r
+                                                             r
+The geodesics corresponding to the above vector field are marginally bound (i.e. ut = −1)
+and the upper and lower signs refer to outgoing and incoming geodesics. It is easy to show
+that the above vector field can be written as ua = ∂a φ, where φ(xa ) = constant would
+represent the hypersurface with respect to which ua is orthogonal. In fact, φ is the same as
+the new time T (the proper time as measured by a freely falling observer starting from rest
+at infinity and moving radially inward) used in the Painleve–Gullstrand representation [18]
+of the Schwarzschild line element.
+  It is easy to calculate the expansion, which turns out to be:
+                                                   s
+                                              3 2M
+                                       Θ=±                                              (3)
+                                              2 r3
+Notice that the expansion is positive for outgoing and negative for incoming geodesics. We
+can also find the nonzero shear tensor components which are given as:
+
+                                                               q
+                                                                    2M
+                                      s
+                                 2M       2M                 r3
+                          σtt = ∓ 2          ; σrr = ∓         2
+                                  r        r             1 − 2M         r
+                                                   s
+                              2M
+                               r2                      Mr     1
+                      σtr =           ; σθθ = ±           =        σφφ                   (4)
+                            1 − 2Mr
+                                                       2    sin2 θ
+                                                                                         (5)
+
+One can then check that the Raychaudhuri equations (given in the next sub–section) hold
+with the above expressions for the shear and expansion.
+(ii) We now move on to an example where all three kinematical quantities are non–zero.
+Consider the following vector field in Schwarzschild spacetime:
+                                                        s          
+                                           1                 M 
+                             ua ∂a ≡ q     ∂t +                ∂θ                       (6)
+                                        3M
+                                      1− r                   r3
+
+                                               8
+where M is the usual mass. It can be verified that the geodesics corresponding to this
+vector field are timelike and they are circular (r is a constant). We intend to calculate the
+expansion, rotation and shear of the above vector field. The expansion is given as :
+                                               v
+                                               u M/r 3
+                                               u
+                                      Θ = cot θt                                           (7)
+                                                      1 − 3M
+                                                           r
+
+Notice that the expansion is positive in the northern hemisphere and negative in the southern
+hemisphere.
+   Following the definition, one can show that the rotation tensor for this vector field is
+given as:
+                                                               s
+                                    M 1 − 6M r                     M
+                               ωtr = 2        3 =                   ωrθ                  (8)
+                                    4r     3M 2                    r3
+                                         1− r
+and the shear tensor is:
+
+                                                                                   
+                                           M            M     1 − 2M
+                                                                   r
+                                      σtt = 3 σθθ = − 3 2            σφφ                 (9)
+                                           r         2r sin θ 1 − 3M
+                                                                                r
+                                            2
+                                     2M
+                   s                                                s
+                       M        M 1− r             1       M 3 (1 − 2Mr
+                                                                         )
+              =−          σtθ =          σrr = −   cot θ                3
+                       r3       r 1 − 3M           3       r5          
+                                       r                        1 − 3M
+                                                                     r
+                                                                          2
+
+                                                      s
+                                                          M          3M (1 − 2M   r
+                                                                                     )
+                                             σtr =           σrθ = −                  3
+                                                          r3         4r 2          
+                                                                            1 − 3M
+                                                                                 r
+                                                                                      2
+
+
+
+
+One can further verify that here too, the Raychaudhuri equations (given below) are satisfied
+for the above quantities. One can also evaluate σ 2 − ω 2 and show that it is positive for
+r > 3M. The expansion is defined for this domain of r (> 3M) and can diverge to negative
+infinity (focusing) at θ = π (south pole).
+   (iii) As a third example, we now quickly discuss the expansion, rotation and shear with
+respect to the vector field ua ∂a = ∂t in the standard cosmological line element (FLRW). The
+shear and rotation are identically zero. The expansion is given as:
+
+                                      ȧ  1 d √ 6 
+                                   Θ=3 = √       a                                        (10)
+                                      a    a6 dt
+Note that a6 is the volume of the expanding 3–space. Hence the term ‘volume’ expansion
+is also used in the literature. Raychaudhuri, in his original article, defined the expansion
+
+                                                  9
+in the this way. However, his treatment did include nonzero shear and rotation because he
+did not assume, to start with, maximally symmetric metrics on spatial slices representing
+R3 , S 3 or H 3 . It may be mentioned here that the equation for the expansion reduces to the
+equation for aä = 4πG
+                    3
+                       (ρ + 3p).
+   (iv) Our final example concerns the case of geodesic flows in a traversable wormhole [21].
+It is known that traversable wormholes require energy–condition–violating matter. These
+are non–singular spacetimes where the spatial slices resemble two asymptotically flat regions
+connected by a throat. Thus a geodesic congruence passing through the throat from one
+asymptotic region to the other would necessarily tend to focus first, not quite reach a focal
+point, and then defocus. For a typical wormhole, the line element is given as:
+
+                                                                         
+                       ds2 = −χ2 (l)dt2 + dl2 + r 2 (l) dθ2 + sin2 θdφ2                 (11)
+
+where, for a wormhole, χ(l) is nonzero and finite for all l and r(l = 0) = b0 with r(l →
+                                                                              ′
+±∞) ∼ l. It is easy to check that the expansion is proportional to rr (the prime denoting
+a derivative w.r.t. l). Thus, the expansion never becomes negative infinity and thus there
+                                                                                    q
+is no focusing. One can work out the expansion for a typical example using r(l) =     b20 + l2
+(the so–called Ellis wormhole) [21].
+
+
+   C.   The equations and the focusing theorem
+
+
+   We now turn towards writing down the evolution equations for the expansion, shear and
+rotation along the flow representing a timelike geodesic congruence. A fact worth mentioning
+here is that, these evolution equations (and their generalisations) are essentially geometric
+statements and are independent of any reference to the Einstein field equations.
+   The modern (textbook) way to derive these equations (see [15]) is as follows. Consider
+the quantity v c ∇c Bab (where Bab = ∇b va ). Evaluate this as an identity and then split it
+into its trace, antisymmetric and symmetric traceless parts. The equations that emerge are
+the ones given below (for n ≡ the dimension of spacetime = 4).
+
+                               dΘ 1 2
+                                  + Θ + σ 2 − ω 2 = −Rab v a v b                        (12)
+                               dλ  3
+
+
+
+
+                                             10
+                    dσab    2                            1              
+                         = − Θσab − σac σ cb − ωac ω cb + hab σ 2 − ω 2
+                     dλ     3                            3
+                                                                      1
+                                                      +Ccbad v c v d + R̃ab                      (13)
+                                                                      2
+
+
+                                    dωab    2
+                                         = − Θωab − 2σ c[b ωa]c                                  (14)
+                                     dλ     3
+where σ 2 = σab σ ab , ω 2 = ωab ω ab , Ccbad is the Weyl tensor and the quantity R̃ab = hac hbd Rcd −
+1
+  h h Rcd .
+3 ab cd
+
+   There are a few points to note here. Firstly, one must realise that these are not equations
+but, essentially, identitites. Hence, in some references [22, 23, 24] we find the usage Ray-
+chaudhuri identity or Codazzi–Raychaudhuri identity (in the context of surface congruences
+to be discussed later) which is, indeed, rigorously correct. The identities, however become
+equations once we use the Einstein equations or any other geometric property (e.g. Einstein
+space, or vacuum, etc.) as an extra input. However, we shall continue to use the term
+equations in this article.
+   Furthermore, the equations are coupled, nonlinear and first order. The equation for the
+expansion is of central interest (in the context of the singularity theorems) and it is rather
+straightforward to analyse. In mathematical parlance, it (the equation for the expansion)
+is known as a Riccati equation. Such equations can be transformed into a second order
+linear form (more precisely a Hill–type equation or a harmonic oscillator equation with a
+                                                          ′
+time-varying frequency) [25, 26]. Redefining Θ = 3 FF one gets:
+
+                               d2 F   1      a b     2     2
+                                                              
+                                    +   Rab v  v  + σ   − ω     F =0                             (15)
+                               dλ2    3
+The analysis of the expansion equation can be done using the above form. One notes that
+the expansion Θ is nothing but the rate of change of the cross–sectional area orthogonal
+to the bundle of geodesics. Therefore, the expansion approaching negative infinity implies
+a convergence of the bundle, whereas a value of positive infinity would imply a complete
+divergence. What are the conditions for convergence? Firstly, for convergence we must have
+an initially negative expansion. Finally, with F ′ negative we must end up at a zero of F
+(at a finite λ), in order to have a negatively infinite expansion [25, 26]. Thus, the criterion
+for the existence of zeros in F at finite values of the affine parameter is what is required for
+
+                                                11
+convergence. Using the well-known Sturm comparison theorems in the theory of differential
+equations one can show that convergence occurs if :
+
+
+                                       Rab v a v b + σ 2 − ω 2 ≥ 0                          (16)
+
+Thus, rotation defies convergence, while shear assists it. The equation for the evolution
+of the rotation ωab , has a trivial solution ωab = 0. The criterion for convergence then
+becomes particularly simple for such hypersurface orthogonal congruences (zero rotation) :
+Rab v a v b ≥ 0. This leads to geodesic focusing.
+   If we make use of the Einstein field equations and rewrite the Ricci tensor in terms of the
+energy–momentum tensor Rab = Tab − 12 gab T the the so–called timelike convergence condition
+                                                                            
+becomes a condition on matter stress energy. This, given as, Tab − 21 gab T v a v b ≥ 0 is known
+as the Strong Energy Condition (SEC). For a diagonal Tab (with T00 = ρ, Taa = pa ) we must
+have ρ + pa ≥ 0, ρ +       a pa ≥ 0 if the SEC is to be obeyed. In other words, geodesic focusing
+                       P
+
+encodes the simple statement that if matter is attractive, geodesics must be eventually drawn
+towards each other. This seemingly trivial statement is proved via the focusing theorem.
+   In the late seventies, Tipler [25, 26] realised that the assumption of the SEC imposed to
+prove focusing and hence the existence of singularities could be further weakened. Among
+other results, he was able to show how, in the proof of the Hawking–Penrose theorem one
+might replace SEC by the Weak Energy Condition (WEC: Tab v a v b ≥ 0 ∀ non–spacelike v a ).
+Tipler also introduced in his article, for the first time, the notion of an averaged energy
+condition (the Averaged Strong and Weak Energy Conditions (ASEC and AWEC) which
+are global in nature. For instance the AWEC is obtained by integrating the WEC along a
+non–spacelike geodesic and gives a number ( λλ12 Tab v a v b dλ ≥ 0). The question of whether a
+                                                   R
+
+violation of the energy conditions could lead to a non–singular solution was also addressed
+by him. One should mention here that a few years before Tipler’s work, Bekenstein [27] and
+Murphy [28] had proposed certain non–singular spacetimes. These models turned out to be
+singular, following the above–mentioned generalisations of the singularity theorems. Tipler
+also quotes, in his paper, the well–known Epstein–Glaser–Yaffe theorem in quantum field
+theory where it is said that there can exist a quantum state w.r.t. which the expectation
+value of the stress–energy tensor can be negative [29]. However, he does mention that
+the existence of one state w.r.t. which the hT00 i is less than zero cannot really lead to the
+prevention of singularities. Of late, however, energy–condition violations have been discussed
+
+                                                 12
+in great detail in the context of wormholes [21], dark energy [30], braneworld models [31] and
+semi–classical gravity (quantum field theory in curved spacetimes) [32]. The experimentally
+observed Casimir effect (the feeble attraction between parallel, conducting capacitor plates)
+[33] has been cited as an example of the existence of negative energy density (though, truly
+speaking this effect is concerned with negative pressures as opposed to actual negative energy
+densities).
+   The quest for further weakening the criteria for geodesic focusing and thereby making the
+singularity theorems stronger was continued later through the work of Borde [34] and Roman
+[35]. Further work on issues related to geodesic focusing, singularites, energy conditions and
+causality violations have been carried out in [36, 37, 38, 39, 40].
+
+
+   D.   Null geodesic congruences
+
+
+   The Raychaudhuri equations for null geodesic congruences were first derived by Sachs [9]
+in 1961. Let us briefly recall the salient features of these equations. It must be mentioned,
+however, that these equations are not very different (in structure as well as consequences
+thereof) from the equations for timelike congruences.
+   The central issue in the case for null geodesic congruences is the construction of the
+transverse parts of the deviation vector and the spacetime metric. Assuming an affine
+parametrisation in the sense dxa = k a dλ with k a ka = 0 and k a ξa = 0 (with ξ a being the
+deviation vector) we realise that we are in trouble because of the above two orthogonality
+relations. Naively writing hab = gab + ka kb will not work here (k a hab 6= 0). The transverse
+metric is thus constructed by introducing an auxiliary null vector N a with ka N a = −1.
+(the choice of minus one is by convention, the essence is that the quantity must be non–
+zero). If we choose ka = −∂a u (u = t − x) then we can have Na = − 12 ∂a v and hence
+hab = gab + ka Nb + kb Na . This satisfies k a hab = 0 and N a hab = 0. Note that hab now is
+entirely two dimensional. Keeping this transverse metric in mind we can proceed in the
+same way as for the timelike case by constructing B̂ab = ∇b ka . We quote below the equation
+for the expansion:
+
+                              dΘ̂ 1 2
+                                 + Θ̂ + σ̂ 2 − ω̂ 2 = −Rab k a k b                       (17)
+                              dλ 2
+where the hatted quantitites are the expansion, rotation and shear for the null geodesic
+
+                                             13
+congruence. The focusing theorem for null geodesic congruences follows in the same way
+as for timelike congruences, with the null convergence condition Rab k a k b ≥ 0 being the
+requirement. Using Einstein equations one can obtain the so–called Null Energy Condition
+Tab k a k b ≥ 0. Similar to the case for timelike congruences, we have corresponding equations
+for the evolution of shear and rotation for null geodesic congruences too. These are available
+in [15, 18].
+
+
+   E.    The acceleration term and non–affine parametrisations
+
+
+   The discussions above were exclusively for geodesic congruences. In the non–geodesic
+(i.e. timelike or null congruences) case, it is obvious that there will be differences. We
+state below, how the equation for the expansion changes via the addition of the so–called
+acceleleration term. The equation is now given as:
+
+                      dΘ 1 2                          
+                        + Θ + σ 2 − ω 2 − ∇a v b ∇b v a = −Rab v a v b                   (18)
+                      dλ 3
+where the fifth term on the R. H. S. is the acceleration term. Notice that this term is zero
+for geodesic congruences (zero acceleration). The average distance between the world lines
+in the flow is changed due to the divergence of the acceleration. The non–geodesic character
+of the flow also affects the equation for the shear.
+   For a non-affine parametrisation of null geodesic congruences, with k a ∇a k b = κk b (κ,
+a constant, defined through the above equation) the definition of the expansion changes :
+Θ = ∇a k a − κ and the Raychaudhuri equation for the expansion takes the form:
+
+                           dΘ̂       1
+                               − κΘ + Θ̂2 + σ̂ 2 − ω̂ 2 = −Rab k a k b                   (19)
+                           dλ        2
+The new feature here is the presence of the linear (in Θ) term. The conclusions on geodesic
+focusing however do not change, except for differences in the values of the expansion.
+
+
+   F.    A theorem for non–rotating singularity–free universes : Raychaudhuri’s later
+papers
+
+
+   Over the entire period of more than forty years, Raychaudhuri did not work much on
+the equations which bear his name today. Interestingly, he came back to have a look at
+
+                                             14
+them once again in the late nineties with a series of papers [41, 42]. In these articles, he
+constructed a theorem on non–rotating singularity–free universes. The main inspiration
+behind these papers were the singularity–free cosmological solutions due to Senovilla [43],
+which created a lot of interest and curiosity among relativists in the 1990’s. In fact, the
+work of Raychaudhuri sets out to show that these solutions may not quite be physically
+relevant, though surely, mathematically correct. Let us now briefly recall the theorem of
+Raychaudhuri.
+  The basic premise of [41, 42] is the use of spacetime averages of quantitites, defined as:
+
+                            R                    q            
+                                 x0 R x1 R x2 R x3
+                                 −x0 −x1 −x2 −x3 χ   |g|d4 x
+                      hχi =  R x R x R x R x q                                         (20)
+                                 0   1   2   3     4
+                                               |g|d x
+                               −x0 −x1 −x2 −x3                     limx0,1,2,3 →∞
+
+Raychaudhuri shows that for a singularity–free non–rotating universe, open in all directions,
+the spacetime average of all stress–energy invariants, including the energy density vanishes.
+The proof is worked out using the spacetime averages of the scalars that appear in the
+Raychaudhuri equation for the expansion. Following the statement of the theorem, Ray-
+chaudhuri claimed that an observationally consistent universe cannot have a zero average
+density and hence one must necessarily give up the hope of having singularity–free solu-
+tions. Subsequent to Raychaudhuri’s work, Saa and Senovilla wrote a couple of comments
+which were mainly concerned with the converse of Raychaudhuri’s theorem and the ques-
+tion whether spacetime averages could really be a property which can distinguish between
+singular and non–singular models. In fact, one must note that the theorem does not say
+that if the spacetime averages are zero the spacetime must be non–singular. Therefore,
+the theorem cannot really be used to distinguish between singular and non–singular cos-
+mological models. Furthermore, Senovilla, in his comment, made a conjecture that spatial
+and not spacetime averages could be a distinguishing property between singular and non–
+singular models. More precisely, his claim was that for non–singular, non–rotating, globally
+hyperbolic and everywhere expanding models where SEC holds, the spatial averages of all
+stress–energy invariants must vanish. Therefore, if such spatial averages do not vanish then
+the model must be singular. More details and a recent proof of the conjecture is available in
+the article by Senovilla in this volume [44]. Despite the conflict between whether spatial or
+spacetime averages was the crucial distinguishing factor between singular and non–singular
+models, it goes without saying that Raychaudhuri’s idea about averages being a deciding
+
+
+                                             15
+factor will surely be remembered as a lasting contribution apart from his coveted equations.
+
+
+III.    THE EQUATIONS IN DIFFERENT GEOMETRIES AND DIFFERENT THE-
+ORIES OF GRAVITY
+
+
+   The Raychaudhuri equations discussed in the previous sections do not change as long as
+we respect the Riemannian (pseudo–Riemannian) metric structure of space or spacetime.
+However, in an alternative theory of gravity, the Einstein field equations are of course dif-
+ferent and hence the relation between the energy–momentum tensor and other geometric
+quantities do change. This results in a modification of the consequences that arise while
+analysing these equations. On the other hand, if the usual Riemannian structure of space-
+time changes, such as in the case of spaces with torsion (Einstein–Cartan–Sciama–Kibble
+theory), then the Raychaudhuri equations are surely different. We shall give an example
+of both these scenarios in the following two subsections. The equations in spacetimes with
+torsion is discussed in relatively greater detail because, this is one scenario where we actually
+notice a generalisation of the usual Raychaudhuri equations.
+
+
+   A.    Metric theories with symmetric connections
+
+
+   As mentioned above, for theories with a symmetric connection, the Raychaudhuri equa-
+tions do not change, though the R.H.S. of the expansion equation when written using mat-
+ter stress-energy can be very different from what it is in GR. This change can surely affect
+geodesic focusing. It must be noted here that any change in the conclusions about geodesic
+focusing in this case is inherently due to the new solutions (spacetime geometries) of the
+modified Einstein equations for a given stress–energy. The abovementioned aspects have
+been analysed in the context of the Brans–Dicke and Hoyle–Narlikar theories [45, 46, 47] as
+well as the R + βR2 theory [48], on which we focus our attention below.
+   The study of the Raychaudhuri equations in the presence of higher curvature terms in the
+action has been a subject of interest for a long time[49]. The equation for the expansion, in a
+spacetime background solution of R+βR2 gravity in the presence of matter (ρ ∝ a(t)−n ) has
+been analysed in [50]. The Strong Energy Condition (SEC) is examined and it is shown that
+the condition for a big-bang singularity changes in such a scenario. Recall that in GR, the
+
+
+                                              16
+singularity theorem indicates the inevitable presence of singularities when the SEC (as well
+as some other conditions) are satisfied. However, at the microscopic scale, in the evolution of
+the expansion of a geodesic congruence, quantum effects are expected to show up – which,
+in turn, may completely change classical predictions. One such quantum effect leads to
+the appearance of higher curvature terms, namely, quadratic gravity [48]. Even though it
+might seem that the analysis in [50] for quadratic gravity is classical, it is, in a broader
+sense, a semi-classical analysis. Classical solutions of quadratic gravity have been studied
+to explore the nature of singularities and it has been shown that the big-bang singularity
+may be avoided [51]. In [50], quadratic gravity, i.e. R + βR2 gravity, was considered as a
+a backreaction effect on pure Einstein’s gravity . It was found that the SEC for R + βR2
+gravity is different from that of Einstein gravity. We briefly summarize the results of [50]
+below.
+   In GR, the SEC follows from the use of Einstein’s equations through the relation:
+
+                                                          1
+                                                                        
+                                   Rab v a v b = 8πG Tab − T gab v a v b ≥ 0                             (21)
+                                                          2
+   for all timelike v a . This, as mentioned before, leads to focussing.
+   The author in [50] is primarily interested in the cosmological singularity. To analyse the
+effects of the quadratic terms one only needs to find the new expression for the Ricci tensor
+Rab in terms of the energy momentum tensor Tab . Therefore, we require the modified field
+equations for quadratic gravity. It is known that this equation is
+
+                                          1 2
+                                                                                         
+                                                              ;n
+             − Gab + 16πGβ                  R gab − 2RRab − 2R;n gab + 2R;a;b = −8πGTab                  (22)
+                                          2
+In a perturbative analysis, we are primarily interested in the first order contribution from
+βR2 to the Raychaudhuri equation. After some algebra one arrives at,
+
+                                                                                 1
+                                                                             
+                                                                   a b
+                                                               Rab v v = G̃(Tab − T gab )
+                                                                                 2
+                               1 2
+                                                                                
+               2β G̃   2
+                                 T gab G̃ − 2T Tab G̃ − T;n;n gab − 2T;a;b            v a v b + O(β 2)   (23)
+                               2
+
+where G̃ = 8πG.
+Comparing the above equation with that in Einstein gravity, we find that an effective energy
+momentum tensor appears in the RHS of the above equation. Assuming a matter dominated
+
+
+
+                                                          17
+universe with a characteristic dependence on the scale factor (i.e., ρ = aρn0 ) and a local
+                                     ρ0
+conservation of Tab leads to p = n−3
+                                  3 an
+                                        . Thus, finally, we have,
+
+
+                   n−2               h                                          i
+        Rab v a v b = −  G̃ρn + β G̃2 3n(n − 1)(n − 4)G̃ρ2n + 6n2 (n − 4)ka−2 ρn +
+                      2
+                         n             h                                          i
+               (A − 1) − G̃ρn + β G̃2 2n2 (n − 4)G̃ρ2n + 4n(n + 2)(n − 4)ka−2 ρn
+                 2
+                                                                                            (24)
+                         3
+
+The above expression is the modified term which appears in the R. H. S. of the Raychaudhuri
+equation for the expansion. It is thereafter analysed in the context of different values of n and
+the possiblities of avoiding the big–bang singularity or its inevitable occurence are pointed
+out for different cases.
+   We repeat once again that for any modified theory of gravity (eg. Brans–Dicke, Einstein–
+Gauss–Bonnet in higher dimensions, induced gravity, low energy effective stringy gravity etc.
+) as long the Riemannian structure of spacetime is respected, changes in conclusions related
+to geodesic focusing can arise only through the modified field equations and its use in the
+convergence condition.
+
+
+   B.     The Raychaudhuri equation in spacetimes with torsion
+
+
+   The symmetric nature of the affine connection is one of the underlying assumptions of
+Riemannian geometry. This fact is also assumed while constructing GR. An antisymmetric
+connection may originate from the presence of spin matter fields in spacetime leading to a
+transition from the V4 to U4 manifolds [52]. This asymmetric part is known as torsion.
+Generalization of the theory of gravity in such a spacetime with torsion was proposed by
+Einstein–Cartan–Sciama–Kibble (ECSK).[53]. Absence of any experimental signature of
+torsion however is the primary criticism of such models although there has been a renewed
+theoretical interest in the context of superstring theories [54] where spacetime torsion ap-
+pears in the form of a massless string mode. The third rank field strength of the massless
+second rank antisymmetric tensor field of string theory (known as the Kalb-Ramond field) is
+identified with spacetime torsion in the low energy limit of the theory. Torsion also appears
+naturally in a theory of gravity where twistors are used [55] as well as in the supergravity
+scenario where torsion, curvature and matter fields are treated in an analogous way [56]. It
+has been shown in several articles [57] that in string inspired models such a background with
+
+                                              18
+torsion results in a departure from the experimentally predicted values of the well known
+phenomena like gravitational lensing, perihelion precession of planetary orbits, gravitational
+redshift, rotation of the plane of polarization of the distant galactic radiowaves etc. All
+the above arguments, and several more, compel us to include torsion in any comprehensive
+theory of gravity. In the context of geodesic congruences it has further been shown that the
+kinematical quantities– shear, rotation, acceleration, expansion and their evolution equa-
+tions are modified by the presence of torsion. This naturally leads to a generalization of
+the Raychaudhuri equations in presence of torsion leading to a more general understanding
+of the phenomenon of geodesic focusing. Here we give a brief review of the work presented
+in [58] where the role of torsion in modifying the Raychaudhuri equations and some of its
+implications have been discussed.
+   The torsion tensor Tab c which is the antisymmetric part of the affine connection Γcab , is
+given by,
+
+                                            1 c
+                                  Tab c =    (Γ − Γcba ) ≡ Γc[ab] ,                      (25)
+                                            2 ab
+where a, b, c = 0, . . . 3.
+   In GR, Tab c is postulated to be zero.
+   From the torsion tensor one constructs the contortion tensor as,
+
+
+                              Kab c = −Tab c − T cab + Tb ca = −Ka cb ,                  (26)
+
+This leads to a general expression for the affine connection given as,
+
+
+                                        Γcab = {cab } − Kab c ,                          (27)
+
+where {cab } is the symmetric part of the connection (Christoffel symbols). With this modified
+connection the commutator of the covariant derivatives of a scalar field φ is
+
+                                      ˜ [a ∇
+                                      ∇    ˜ b] φ = −T c ∇
+                                                         ˜ c φ;                          (28)
+                                                      ab
+
+
+which is zero in absence of torsion.
+Similarly for a vector v a the commutator of the derivative gives,
+
+                                ∇[a ˜
+                                ˜  ∇b] v c = Rabdc v d − 2Tab d ˜
+                                                               ∇d v c ,                  (29)
+
+
+                                                 19
+where the Riemann tensor is defined as,
+
+                             Rabcd = ∂a Γdbc − ∂b Γdac + Γdae Γebc − Γdbe Γeac .             (30)
+
+The contribution of torsion, to the Riemann tensor, is explicitly given through the following
+expression:
+
+                                                 d
+                 Rabc d = Rabc d ({}) − ∇a Kbc + ∇b Kac d + Kae d Kbc e − Kbe d Kac e        (31)
+
+                                                                                 ˜ and ∇
+where Rabcd ({}) is the tensor generated by the Christoffel symbols. The symbols ∇
+have been used to indicate the covariant derivative with and without torsion respectively.
+   From Eq.(31), the expressions for the Ricci tensor and the curvature scalar are
+
+                    Rab = Rab ({}) − 2∇a Tc + ∇b Kac b + Kae b Kbc e − 2Te Kac e             (32)
+
+and
+                            R = R({}) − 4∇a T a + Kceb K bce − 4Ta T a .                     (33)
+
+where,
+                                                Ta = Tab b .                                 (34)
+
+Ta can be either time-like, space-like or light-like.
+
+
+   1.    Contributions of torsion to shear, expansion, vorticity and acceleration
+
+
+   Beginning with the behaviour of fluids and moving on to the initial singularity problem in
+cosmological models, the Raychaudhuri equations have been shown to be the key equation to
+explore the role of torsion in such diverse phenomena.[59],[60],[61],[62]. In [63] an inflationary
+model of the universe in the context of ECSK theory was considered. [64] and [65] addressed
+the crucial role of Raychaudhuri equation in the context of a gauge invariant formalism
+for cosmological perturbations in theories with torsion. We now explain the kinematical
+quantities mentioned before, in a scenario with torsion.
+Torsion in a space-time modifies the definition of kinematical quantities. The covariant
+derivative of the four velocity Ua [16] can be decomposed as,
+
+                                ˜ a Ub = σ̃ab + 1 hab Θ̃ + ω̃ab − Ua ãb
+                                ∇                                                            (35)
+                                                3
+
+                                                     20
+where hab = gab + Ua Ub and
+                                              ˜ a U a = Θ − 2T c Uc ,
+                                         Θ̃ = ∇                                                   (36)
+
+                                           ˜ (c Ud) = σab + 2hc hd K e Ue ,
+                            σ̃ab = hca hdb ∇                                                      (37)
+                                                              a b (cd)
+
+                                            ˜ [c Ud] = ωab + 2hc hd K e Ue ,
+                             ω̃ab = hca hdb ∇                                                     (38)
+                                                               a b [cd]
+
+
+and the acceleration
+                                              ˜ a Uc = ac + U a K d Ud .
+                                    ãc = U a ∇                                                   (39)
+                                                                 ac
+
+
+The quantities without the tilde are the value of the corresponding expressions in a spacetime
+without torsion.
+
+
+   2.   The Raychaudhuri equation
+
+
+   Using the identity for the four-velocity Ua (Ua U a = −1),
+
+                                ˜ c∇
+                             U b∇  ˜ b Ua = ∇
+                                            ˜ c (U b ∇
+                                                     ˜ b Ua ) − ∇
+                                                                ˜ cU b∇
+                                                                      ˜ b Ua                      (40)
+
+and from Eq.(30)
+
+                        ˜ c∇
+                     U b∇  ˜ b Ua = U b ∇
+                                        ˜ b∇
+                                           ˜ c Ua + R d Ud U b − 2U b T c ∇
+                                                                          ˜ d Uc                  (41)
+                                                     cba               ab
+
+
+we find the equation
+
+                                  1
+                                    hca Θ̃ + σ̃ca + ω̃ca − Uc ãa = ˜
+                                                                    ∇c ãa
+                                  3
+                                    1          2          2
+                                 − hca Θ̃ + Θ̃σ̃ca + Θ̃ω̃ca + 2σ̃cb ω̃ba
+                                    9          3          3
+                                                                                        !
+                                                1
+                         σ̃cb σ̃ba + ω̃cb ω̃ba − Uc Θ̃ãa − Uc ãb σ̃ba − Uc ãb ω̃ba
+                                                  3
+                                                              1
+                                                                                           
+                             d       d        b       c
+                     − Rcba Ud U − 2U Tab                       hdc Θ̃ + σ̃dc + ω̃dc − Ud ãc .   (42)
+                                                              3
+Contracting the indices in Eq.(42), one obtains a general expression for the Raychaudhuri
+equation for the expansion, in the presence of torsion as,
+
+                ˜ c ãc − 1 Θ2 − σ̃ ab σ̃ab + ω̃ ab ω̃ab − Rab U a U b − 2U b T d 1 ha Θ̃
+                                                                                            
+             ˙ =∇
+            Θ̃                                                                 ab
+                          3                                                           3 d
+                                                                      + σ̃da + ω̃da − Ud ãa )    (43)
+
+
+                                                          21
+This is the most general form of Raychaudhuri equation in presence of torsion. Simpler
+versions of this equation have been discussed in [61], [66], [62],[67]. It is obvious that there
+would be corresponding equations for shear and rotation too, which we do not mention here.
+Interestingly, it can be shown that if we have torsion as a phantom field (a scalar field with
+a negative kinetic energy term) through the dual of the third rank tensor field strength of a
+string inspired Kalb–Ramond field, one can get a positive contribution in the R.H.S. of the
+above equation, which, in turn, may be useful in eliminating singularities.
+
+
+IV.     THE EQUATIONS IN DIVERSE CONTEXTS
+
+
+   A.    General Relativity and Relativistic Astrophysics
+
+
+   We have already discussed one of the main uses of the Raychaudhuri equations–the
+geodesic focusing theorem. Though it is an entirely geometric result, its use is mostly
+confined to the domain of GR. It is also quite obvious that the null version of these equa-
+tions are useful in the study of gravitational lensing. The focal point in this case is nothing
+but the intersection of trajectories representing light rays and is known as the caustic of
+the bundle of trajectories. The optical scalars (Sachs scalars) are the quantitites of interest
+and their evaluation enables us to understand the nature of the null geodesic flow (light ray
+bundles). Is there anything else one can say apart from focusing, which will be relevant
+for lensing. Some of these issues have been addressed in [68]. For example, it is possible
+to rewrite the Raychaudhuri equation for null geodesics in a form involving the angular
+diameter distance dA :
+
+                                      d′′A    1     1
+                                           = − R00 − σ 2                                    (44)
+                                      dA      2     2
+       d
+where dλ ln dA = 21 Θ. Thus, for the case of zero shear one can determine dA entirely in
+terms of geometry. In [68] the authors have asked the question ‘how do voids affect light
+propagation?’ and made use of the above relation to provide an answer.
+   A second example within relativistic astrophysics, is a study of crack formation [69, 70]
+using this equation. This is an interesting application, quite unique– but not pursued much
+later. The basic question here is – when will a spherical object develop cracks? Appearance
+of total radial forces of different signs in different regions in a perturbed configuration leads
+
+
+                                              22
+to the occurrence of such cracking, which, in turn leads to local anisotropy of fluid/emission
+of incoherent radiation. Using the Einstein and Raychaudhuri equations it is possible to
+express the net radial force R (after perturbation) in terms of dΘ
+                                                                dλ
+                                                                   , pi , ρ, gij . In this way a
+criterion for cracking can be obtained.
+   In 1995, Jacobson [71] in a rather unique paper demonstrated how one might view the
+Einstein field equation as a thermodynamic equation of state. In this calculation, Jacobson
+starts out by arguing that energy flux across a causal horizon is some kind of heat flow
+and the entropy of the system beyond is proportional to the area of the horizon. The heat
+flux δQ is related to the stress–energy tensor whereas the area variation is related to the
+expansion of a bundle of null geodesics. He then makes use of the Raychaudhuri equation
+in its linearised form (ignoring the Θ2 term) to write down the expansion as an integral
+over the Rij k i k j . Thereafter, with the input of the entropy–area relation he arrives at the
+Einstein equation as an equation of state. It is important to note here that Jacobson uses
+the geometric content of the Raychaudhuri equation and views it as more fundamental than
+the Einstein equation, which, in his approach is a derived relation. Extensions of Jacobson’s
+work in the setting of non–equilibrium thermodynamics have appeared recently [72].
+   Scattered around the literature, are innumerable instances where the equations have
+been used in the context of GR and astrophysics. Prominent among them is its use in
+black hole physics–in studying the properties of black holes and in deriving the laws of
+black hole mechanics (see [18] and references therein). Apart from black holes, we mention,
+en passant, a few other situations which we thought were interesting: (i) use in a fluid–
+flow description of density irregularities in cosmology [73], (ii) quantum gravitational optics
+and an effective Raychaudhuri equation [74], (iii) magnetic tension and gravitational collapse
+[75], (iv) the effective Einstein and Raychaudhuri equations derived from higher dimensional
+warped braneworld models [76].
+
+
+   B.   The Capovilla–Guven equations for relativistic membranes
+
+
+   An obvious question, which was never asked till the work of Capovilla and Guven [77]
+appeared in the scene is: what happens if we consider a congruence of extremal surfaces
+instead of geodesics (extremal curves)? Are there similar Raychaudhuri equations?
+   To address this issue, we must first find out how to generalise the notions of expan-
+
+
+                                             23
+sion, rotation and shear for the case of a family of surfaces. Unlike a curve, a surface is
+parametrised by more than one parameter. Thus, it is natural to imagine an expansion, a
+rotation and a shear along each of these independent directions. Introducing a separate label
+for the surface coordinates, we find that we now have Θa , Σaij and Ωaij (here i, j... denotes
+the indices representing the normals to the surface). The relation between the i, j indices
+and the spacetime indices (say µ, ν) is given through the embedding of the surface. Let us
+now make things more concrete and explicit.
+   Define a D–dimensional surface in a N dimensional background through an embedding
+xµ = xµ (ξ a ). Eaµ constitute the tangent vector basis chosen such that gµν E µa E νb = ηab (a,b
+run from 1 to D). nµi are the normals, with gµν nµi nνj = δ ij (i,j run from 1 to N − D). Also
+gµν nµi E νa = 0. K abi are the N − D extrinsic curvatures (one along each normal direction)
+The embedded surface is minimal provided T r(Ki ) = 0.
+   With the above definitions, one can follow the derivation for the case of geodesic curves
+and obtain the equation for the generalised expansion (assuming zero values for the Σij and
+Ωij :
+
+                                              1            i
+                                ∇a Θ a +         Θa Θa + M 2 = 0                            (45)
+                                            N −D             i
+
+where
+
+                                 i
+                             M2         = K abi Kabi + Rµνρα E µa Eaρ nνi nαi               (46)
+                                    i
+
+Note that the above equation is a partial differential equation–the reason being that we
+require more than one parameter to describe a surface. Structurally, the equation is similar to
+the original Raychaudhuri equation for the expansion – one can easily note this by comparing
+the two. However, there are crucial differences – one of which involves the appearance of
+extrinsic curvature terms. It is possible to rewrite this equation in a second order form by
+choosing Θa = ∇a F . We obtain:
+
+                                                         i
+                                        ∇a ∇a F + M 2          F =0                         (47)
+                                                           i
+
+which, resembles a variable–mass wave equation on a D–dimensional surface with a non–
+trivial induced line element. For special cases, one can work out focusing criteria, although
+the notion of focusing will be largely different for surface congruences. For the case of string
+
+
+                                                   24
+world–sheets, it is possible to make use of the conformal character of any two–dimensional
+line element and rewrite the equation as:
+
+                              ∂2F    ∂2F     2
+                                                      
+                                                         2 i
+                                                          
+                                   −      + Ω  (τ, σ)  M     F =0                        (48)
+                              ∂σ 2   ∂τ 2                  i
+
+where τ, σ are the coordinates on the string world sheet and the induced metric is ds2 =
+Ω2 (−dτ 2 + dσ 2 ).
+   It can be shown [78] that the criterion for focusing is given as (where 2 R is the Ricci
+scalar of the worldsheet) :
+
+
+                                    − 2 R + Rµν E µa Eaν > 0                             (49)
+
+which is a requirement for the function F to have zeros. However, there are many questions
+related to focusing of surfaces which remain un–answered. Some of these have been recently
+addressed in [79]. Earlier references on examples of solutions of the Raychaudhuri equations
+for surface congruences and related issues are available in [23, 24, 80].
+   It must be mentioned here that the above generalised equation for the expansion vector
+field is a subset of a full set of equations which include those for the generalised shear and
+rotation too. Moreover, the analysis is entirely for extremal membranes of Nambu–Goto
+type. Here too, if the action changes, we find that the equations change–an example is
+available in [81].
+
+
+   C.   Quantum field theory
+
+
+   In recent times, the kinematic quantitites (expansion, shear and rotation), as well as the
+Raychaudhuri equations, have appeared, quite unexpectedly, in the context of quantum field
+theory. We outline below, some of these scenarios briefly.
+
+
+   1.   The Langevin–Raychaudhuri equation
+
+
+   A couple of years ago, Borgman and Ford investigated gravitational effects of quantum
+stress tensor fluctuations [82], [83]. They showed that these fluctuations produce fluctua-
+tions in the focusing of a bundle of geodesics. An explicit calculation using the Raychaudhuri
+equation, treated as a Langevin equation (ignoring the Θ2 term by a smallness assumption
+
+                                             25
+converts the Raychaudhuri equation to the form dΘ
+                                               dλ
+                                                  = f (λ), a Langevin–type equation) was
+performed to estimate angular blurring and luminosity fluctuations of the images of distant
+sources. The stress–tensor fluctutations were obtained assuming the case of a massless,
+minimally coupled scalar field in a flat background in a thermal state. Scalar field fluctu-
+ations drove the Ricci tensor fluctuations (via the semiclassical Einstein equations), which,
+in turn led to fluctuations in the expansion Θ. These authors also made some numerical
+estimates for the quantity ∆L
+                           L
+                              (the fractional luminosity fluctuation) and pointed out pos-
+sible astrophysical situations (gamma–ray bursts, for example), where an observable value
+of this quantity might exist. However, it is true that their work has many assumptions
+(ignoring shear, rotation as well as the Θ2 term etc.) and much further analysis is required
+to have a clearer picture of the possibility iof actually seeing such effects in the real universe.
+Nevertheless, the idea, on the whole, is novel and interesting in its own right and provides
+us with another application of the Raychaudhuri equation in a very different scenario.
+
+
+   2.   RG flows in theory (coupling) space
+
+
+   Till now we have been looking at geodesic flows in spacetime. However, one might also
+contemplate geodesic flows in fictitious spaces where a metric is defined. Such spaces may
+correspond to certain physical scenarios. We highlight one example here in order to show
+how ubiquitous the notions of expansion, rotation, shear and the Raychaudhuri equation
+are.
+   For a given Lagrangian field theory, the set of couplings can form a space which is known
+as theory/coupling space. A curve in such a space will therefore represent a flow of couplings.
+In such a space, we can define a distance function using two–point functions integrated over
+physical spacetime. Such a definition of metric goes back to the well-known Cramer–Rao
+metric in probability theory and has also been highlighted in the context of field theory by
+Zamolodchikov as well as O’Connor–Stephens (see [84] and references therein).
+   Once we have a metric, we can use it to define derivatives of a vector field. The vector
+field of interest here is the so–called β − f unction vector field, which generates the RG flow.
+The covariant derivative of this vector field when split into the usual trace, anti–symmetric
+and symmetric traceless parts define the usual expansion, rotation and shear. However, we
+also know that the β–function vector field must satisfy the conformal Killing condition (this
+
+
+                                               26
+is the geoemtric form of the RG equation). These facts together imply the result that the
+focal point of the congruence generated by the β-function vector field must necessarily be a
+fixed point (i.e. all βa (‘a’ labels the coupling space coordinates) vanish there) [84]
+   This line of thought is useful in obtaining generic results in field theory –the under-
+standing of shear and rotation in the context of RG flows might provide a better geometric
+understanding of RG flows.
+
+
+   3.   Holography, c–function and the Raychaudhuri equation for the expansion
+
+
+   The holographic principle has recently played a crucial role in our understanding of
+quantum aspects of gravity. The principle states that the information of gravity degrees
+of freedom in a D dimensional volume is encoded in a quantum field theory defined on the
+(D−1) dimensional boundary of this volume. As an immediate realization of this, it is shown
+that the Renormalization Group flow equation for the β–function of a four dimensional
+quantum gauge field theory defined on the boundary of a five dimensional volume can
+be described by geodesic congruences in a scalar–coupled five dimensional gravitational
+theory. Such a gauge-gravity duality was proposed in a more general framework through the
+Maldacena conjecture and can be elegantly described through the Renormalization Group
+equation with the bulk coordinate (or the holographic coordinate) as the Renormalization
+Group parameter. It is shown that if the central charge or the c-function in a quantum
+field theory evolves monotonically under RG then the holographic principle indicates that
+in the corresponding dual gravity in five dimensions, the picture is realized through the
+Raychaudhuri equation governing the monotonic flow of the expansion parameter Θ for
+the geodesic congruences in the gravity sector [85], [86][87]. The central charge of the
+boundary theory, or the c-function, is a measure of the degrees of freedom of the theory.
+As a consequence it is also a measure of the entropy of the black hole in the dual gravity
+sector which is related to the area of the horizon through the Bekenstein-Hawking formula.
+The effective central charge is a function of the couplings of the theory, which monotonically
+decreases as one flows to lower energies through the RG equation. The fixed point described
+by the boundary conformal field theory corresponds to the extrema of this function. It turns
+out that the null geodesic congruences can be used as a probe to decode the holographically
+encoded informations.
+
+
+                                             27
+   Consider a D-dimensional spacetime with a negative cosmological constant where the
+metric gab is foliated by appropriate choices of constant time surfaces. If we now focus on a
+(D − 2) dimensional spacetime surface M at a fixed time t, then one may construct a null
+vector field ma on the light sheets (consisting of spacetime points scanned by null geodesic
+congruences) which is orthogonal to M such that ma na = −1, where na are tangents to the
+geodesic. The metric on M is given by
+
+                                     hab = gab + n(a mb)                                (50)
+
+Defining,
+                                         Bab = Db na                                    (51)
+
+such that Bab = Bba (Frobenius theorem ensures the symmetry property) and
+
+                                          Θ = T rB                                      (52)
+
+it can be shown from the Raychaudhuri equation for the expansion that the geodesics con-
+verge since,
+                                           Θ≤0                                          (53)
+
+The question that arises now is – how is the information on the light sheet encoded in M?
+Assuming that the spacetime admits a timelike Killing vector field, we may visualize the time
+flow of M to constitute the (D−2) + 1 = (D−1) dimensional boundary of the D dimensional
+bulk. The c–function of the corresponding dual gauge theory sits on the boundary. The RG
+flow to lower energy scales is then associated to the motion along the converging congruences
+of null geodesics described by Raychaudhuri equation. In this sense, the null geodesics act
+as a probe for the dual theory at a lower energy scale. Pictorially, it may be described
+as follows. The lower the energy scale, the RG takes us into the gauge theory, deeper
+inside the bulk we move along null geodesic congruences following Raychaudhuri equation.
+The caustic point where the geodesics meet correspond to the fixed point of the RG flow.
+This establishes a remarkable significance of the Raychaudhuri equation in describing the
+holographic principle.
+   As described previously the c-function tells us about the degree of freedom of the system,
+which, in turn, is related to black hole entropy through the area law. Therefore, the c-
+function is naturally related to the area function A(r) as,
+
+                                        c(r) = A(r)/4                                   (54)
+
+                                            28
+In the context of the recently developed attractor mechanism [88]in describing black holes
+in a scalar coupled gravitational theory, one uses this flow of the c-function to decode some
+interesting properties of both supersymmetric and non-supersymmetric attractors. The
+Raychaudhuri equation once again plays a crucial role.It is shown that in any spherically
+symmetric scalar coupled static asymptotically flat solution, c(r) decreases monotonically
+as one moves radially inward from infinity. It is further shown that the minimum value of
+c(r) corresponds to the entropy of the horizon[89]. In order to establish the c-theorem in
+this context once again the Raychaudhuri equation is used. Taking a congruence of null
+geodesics, the expansion is given by,
+                                                 dlnA
+                                          Θ=                                             (55)
+                                                  dλ
+(where λ is the affine parameter). Using the null energy condition,
+
+                                          Tab k a k b ≥ 0                                (56)
+
+and the Raychaudhuri equation, we get
+                                            dΘ
+                                               ≤0                                        (57)
+                                            dλ
+The c-theorem can thus be proved on very general grounds.
+     In summary, these rather novel applications of the equations in the context of quantum
+field theory seems to assert once again the generality and the ubiquitous nature of the
+equations.
+
+
+V.     SUMMARY AND SCOPE
+
+
+     We have reviewed, in this article, the Raychaudhuri equations and its applications in
+diverse contexts. It must be admitted that since its inception, the equations have used
+extensively to enhance our understanding of various situations within, as well as outside the
+scope of GR. The primary reason behind its wide–ranging applicability is (as emphasised
+several times in this article) the fact that the equations encode geometric statements about
+flows. Since flows appear in many different contexts in physics, it goes without saying, that
+the equations will be useful in furthering our understanding in different ways.
+     Among the applications within classical GR, the utility of the equations in understanding
+the singularity problem, is surely the most prominent one. In astrophysics, we have quoted
+
+                                              29
+the use of the equations in the context of lensing, cracking of self–gravitating objects. At a
+more fundamental level, Jacobson’s work exploits the equation and, in some sense, makes
+use of its geometric nature to arrive at a new way of looking at the Einstein equations.
+   On the other hand, in a non–Riemannian spacetime, we have seen how the equations
+change –in particular, in spacetimes with torsion. Torsion appears in disguise in string
+theory and is therefore not totally irrelevant today, even though observations might have
+ruled out the Einstein–Cartan–Sciama–Kibble theory long ago.
+   Furthermore, what has come as a pleasant surprise in recent times, is the utility of these
+equations (and the quantities that appear in the equations: expansion, shear and rotation)
+in the context of quantum field theory. In addition, the generalisation of these equations to
+surface congruences is also an interesting development, despite the fact that not much has
+been done on such generalised Raychaudhuri (Capovilla–Guven) equations.
+   Despite the large body of work on or based on the Raychaudhuri equations, there still
+remain many un–answered questions. In conclusion, we list a few of them. The choice is
+surely biased by our own perspective.
+   (a) Normally, in fluid mechanics, the independent variable is the velocity field. The
+Raychaudhuri equations are for the gradient of the velocity field–they are one derivative
+higher. We mentioned before that they are essentially identities and become equations
+when we choose a geometric property (eg. vacuum, Einstein space etc.) or use Einstein’s
+field equations of GR. Is it possible to set-up and solve the initial value problem for this
+coupled system of equations such that we know the characteristics of a geodesic flow in a
+given spacetime geometry once we specify the initial conditions on expansion, shear and
+rotation? Similar analysis is done while deriving the focusing theorem but can we do it by
+analysing the full system of equations analytically/numerically. Following this approach one
+might be able to reconstruct the gradient of the velocity field and also obtain the velocity
+field itself.
+   (b) In the context of RG flows, is it possible to understand the role of shear and rotation
+and use it to improve our geometric analysis of such flows?
+   (c) For surface congruences, can we obtain equations for families of null surfaces? Or, for
+surfaces defined by the extremality of actions other than Nambu–Goto (rigidity corrections,
+Willmore functionals etc.)
+   (d) In quantum mechanics, we talk about the flow of probability. Imagining this as a fluid,
+
+                                            30
+can we obtain expansion, rotation and shear of such flows and then write down conclusions
+based on the corresponding Raychaudhuri equations?
+   (e) Electrodynamics, is, after all, the physics of the electric and magnetic vector fields.
+Suppose we construct the gradient of the electric/magnetic fields, split it up into expansion,
+rotation and shear and write down Raychaudhuri equations for the so–called Faraday lines
+of force! What does such an analysis tell us?
+   To sum up, we would like to conjecture that wherever there are vector fields describing
+a physical/geometrical quantity, there must be corresponding Raychaudhuri equations. We
+believe, there are many avatars of the same equations, of which, till today, we are aware of
+only a few.
+
+
+   Acknowledgements
+
+
+   The authors thank the editors (N. Dadhich, P. S. Joshi and Probir Roy) of this special vol-
+ume, for giving them the opportunity to write this review. They also specially thank Probir
+Roy and Anirvan Dasgupta for their comments and a careful reading of the manuscript.
+
+
+
+
+ [1] A. Raychaudhuri, Phys. Rev. 89, 417 (1953)
+ [2] A. Raychaudhuri, Phys. Rev. 86, 90 (1952)
+ [3] A. Raychaudhuri, Phys. Rev. 98, 1123 (1955)
+ [4] A. Raychaudhuri, Z. Astrophysik, 43, 161 (1957)
+ [5] O. Heckmann and E. Schucking, Z. Astrophysik 38, 95 (1955)
+ [6] A. Komar, Phys. Rev. 104, 544 (1956)
+ [7] A. Raychaudhuri, Phys. Rev. 106, 172 (1957)
+ [8] J. Ehlers, Contributions to the relativistic mechanics of continuous media, Gen. Rel. Grav.
+    25, 1225 (1993) , English translation of original German article by P. Jordan, J. Ehlers, W.
+    Kundt, R. K. Sachs, Proceedings of the Mathematical–Natural Sciences Section of the Mainz
+    Academy of Sciences and Literature, Nr. 11, 792 (1961)
+ [9] R. K. Sachs, Proc. Roy. Soc. (London) A 264, 309 (1961); ibid A 270, 103 (1962)
+[10] L. Landau and E. M. Lifshitz, Classical theory of fields, (Pergamom Press, Oxford, UK, 1975)
+
+
+
+                                              31
+[11] E. M. Lifshitz and I. M. Khalatnikov, Adv. Phys. 12, 185 (1963)
+[12] R. Penrose, Phys. Rev. Lett. 14, 57 (1965)
+[13] S. W. Hawking, Phys. Rev. Lett. 15, 689 (1965)
+[14] S. W. Hawking, Phys. Rev. Lett. 17, 444 (1966)
+[15] R. M. Wald, General Relativity, (University of Chicago Press, Chicago, USA, 1984)
+[16] S. W. Hawking and G. F. R. Ellis, The large scale structure of spacetime, (Cambridge Uni-
+    versity Press, Cambridge, UK, 1973)
+[17] P. S. Joshi, Global aspects in gravitation and cosmology, (Oxford University Press, Oxford,
+    UK, 1997)
+[18] E. Poisson, A relativist’s toolkit: the mathematics of black hole mechanics, (Cambridge Uni-
+    versity Press, Cambridge, UK, 2004)
+[19] G. F. R. Ellis in General Relativity and Cosmology, International School of Physics, Enrico
+    Fermi–Course XLVII, (Academic Press, New York, 1971)
+[20] I. Ciufolini and J. A. Wheeler, Gravitation and Inertia, (Princeton University Press, Princeton,
+    USA, 1995)
+[21] M. Visser, Lorentzian wormholes from Einstein to Hawking, (AIP Press, USA, 1995)
+[22] T. Frankel, Gravitational curvature, (W. H. Freeman, USA, 1979)
+[23] E. Zafiris, J.Geom.Phys. 28, 271 (1998)
+[24] B. Carter, Contemp.Math. 203, 207 (1997)
+[25] F. J. Tipler, Phys. Rev. D17, 2521 (1978)
+[26] F. J. Tipler, J. Diff. Equ. 30, 165 (1978)
+[27] J. D. Bekenstein, Phys. Rev. D 11, 2072 (1975)
+[28] G. L. Murphy, Phys. Rev. D 8, 4231 (1973)
+[29] H. Epstein, V. Glaser and A. Jaffe, Nuovo Cimento 36, 1016 (1965)
+[30] R. R. Caldwell, M. Kamionkowski and N. N. Weinberg, Phys. Rev. Lett. 91, 071301 (2003);
+    S. M. Carroll, M Hoffman and M. Trodden, Phys. Rev. D68, 023509 (2003); P. Frampton,
+    Phys. Lett. B555, 139 (2003); V. Sahni and Y. Shtanov, JCAP 0311, 014 (2003)
+[31] L. Randall and R. Sundrum, Phys. Rev. Lett. 83, 4690 (1999); C. Csaki, TASI Lectures on
+    Extra Dimensions and Branes hep-ph/0404096
+[32] N. D. Birrell and P. C. W. Davies, Quantum fields in curved space, (Cambridge University
+    Press, Cambridge, UK, 1982)
+
+
+                                                  32
+[33] H. B. G. Casimir, On the attraction between two perfectly conducting plates, Proc. Kon. Nederl.
+    Akad. Wetenschap, 51, 793 (1948)
+[34] A. Borde, Class. Qtm. Grav. 4, 343 (1987)
+[35] T. Roman, Phys. Rev. D 37, 546 (1988)
+[36] F. J. Tipler, Ann. Phys. 108, 1 (1977); ibid. Phys. Rev. Lett. 37, 879 (1976)
+[37] C. Chicone and P. Ehrlich, Manuscripta Math. 31, 297 (1980)
+[38] T. Roman and P. G. Bergmann, Phys. Rev. D28, 1265 (1983)
+[39] T. Roman, Phys. Rev. D 33, 3526 (1986)
+[40] M. Visser, Phys. Rev. D47, 2395 (1993)
+[41] A. K. Raychaudhuri, Phys. Rev. Lett. 80, 654 (1998); A. Saa, Phys. Rev. Lett. 81, 5031
+    (1998); J. M. M. Senovilla, Phys. Rev. Lett. 81, 5032 (1998); A. K. Raychaudhuri, Phys. Rev.
+    Lett. 81, 5033 (1998)
+[42] A.K. Raychaudhuri, Mod. Phys. Lett. A15, 391 (2000)
+[43] J. M. M. Senovilla, Phys. Rev. Lett. 64, 2219 (1990); E. Ruiz and J. M. M. Senovilla, Phys.
+    Rev. D45, 1995 (1992)
+[44] J. M. M. Senovilla, article in this volume.
+[45] A. K. Raychaudhuri and S. Banerji, Zeit. fur. Astrophysik 58, 187 (1964)
+[46] S. Banerji, Phys. Rev. D 9, 877 (1974)
+[47] A. K. Raychaudhuri, Prog. Theor. Phys. 53, 1360 (1975)
+[48] J. H. Kung, Phys. Rev.D 52, 6922 (1995)
+[49] V. Muller and H. J. Schmidt, Gen. Rel. Grav. 17, 769 (1985); D. Page, Phys. Rev. D 36,
+    1607 (1987); J. D. Barrow and A. Ottewill, J. Phys. A: Math. Gen. 16, 2757 (1983)
+[50] J. H. Kung, Phys.Rev. D 53, 3017 (1996)
+[51] B. Whitt, Phys. Lett. 145B, 176 (1984); J. C. Alonso, F. Barbero, J. Julve, and A. Tiemblo,
+    Class. Qtm. Grav. 11, 865 (1994); M. Mijic et al., Phys. Rev. D 34, 2934 (1986).
+[52] J.A. Schouten Ricci Calculus (Springer-Verlag, Berlin, 1954)
+[53] F.W. Hehl, P. von der Heyde, G.D. Kerlick and J.M. Nester, Rev. Mod. Phys. 48, 393 (1976).
+[54] M.B. Green, J.H. Schwarz, E. Witten, Superstring Theory, (Cambridge University Press,
+    Cambridge, UK, 1987); R. Hammond, Il Nuovo Cimento 109B, 319 (1994); Gen. Rel. Grav.
+    28, 419 (1986); V. De Sabbata, Ann. der Physik 7, 419 (1991); V. de Sabbata, Torsion,
+    string tension and quantum gravity, in “Erice 1992”, Proceedings, String Quantum Gravity
+
+
+                                               33
+    and Physics at the Planck Energy Scale, p. 528; Y. Murase, Prog. Theor. Phys. 89, 1331
+    (1993)
+[55] P.S. Howe,    A. Opfermann, G. Papadopoulos,         Twistor spaces for QKT manifold,
+    hep-th/9710072; P.S. Howe, G. Papadopoulos, Phys. Lett. 379B, 80 (1996); V. de Sabbata,
+    C. Sivaram, Il Nuovo Cimento 109A, 377 (1996)
+[56] G. Papadopoulos, P.K. Townsend, Nucl. Phys. B444, 245 (1995); C.M. Hull, G. Papadopoulos,
+    P.K. Townsend, Phys. Lett. 316B 291 (1993); B.D.B. Figueiredo, I. Damiao Soares and J.
+    Tiomno, Class. Qtm. Grav. 9, 1593 (1992); L.C. Garcia de Andrade, Mod. Phys. Lett. 12A
+    2005 (1997); O. Chandia, Phys. Rev. D55, 7580 (1997); P.S. Letelier, Class. Quant. Grav.
+    12, 471 (1995); P. S. Letelier, Class. Qtm. Grav. 12, 2221 (1995); R. W. Kühne, Mod. Phys.
+    Lett. A12, 2473 (1997); D. K. Ross, Int. J. Theor. Phys. 28, (1989) 1333.
+[57] S. Kar, S. SenGupta, S. Sur, Phys. Rev. D67, 044005 (2003); S. Kar , P. Majumdar, S.
+    SenGupta, S. Sur, Class. Qtm. Grav. 19, 677 (2002); S. SenGupta, S. Sur, Phys. Lett. B521,
+    350 (2001); S. Kar , P. Majumdar, S. SenGupta , A. Sinha, Eur. Phys. Jr. C23, 357 (2002); P.
+    Majumdar, S. SenGupta, Class. Qtm. Grav.16, L89 (1999); S. SenGupta , S. Sur, Europhys.
+    Lett. 65, 601 (2004)
+[58] S. Capozziello, G. Lambiase , C. Stornaiolo, Ann. der Phys. 10, 713 (2001), gr-qc/0101038
+[59] R. de Ritis, M. Lavorgna, C. Stornaiolo, Phys.Lett. 95A, 425 (1983)
+[60] A. Trautman, Nature (Phys. Sci.) 242, 7 (1973)
+[61] J. Stewart and P. Hajicek, Nature (Phys. Sci.) 244, 96 (1973)
+[62] G. Esposito, Fortschritte der Physik 40, 1 (1992)
+[63] M. Demianski, R. de Ritis, G. Platania, P. Scudellaro and C. Stornaiolo, Phys. Rev. D35
+    1181 (1987)
+[64] G. F. R. Ellis and M. Bruni, Phys. Rev. D40, 1804 (1989); G. F. R. Ellis, J. Hwang and M.
+    Bruni, Phys. Rev. D40, 1819 (1989); G. F. R. Ellis, M. Bruni and J. Hwang, Phys. Rev. D42,
+    1035 (1990)
+[65] D. Palle, Nuovo Cim. B114, 853 (1999)
+[66] J. Tafel, Phys. Lett. A45, 341 (1973)
+[67] A.K. Raychaudhuri, Theoretical Cosmology, (Clarendon Press, Oxford, UK, 1979)
+[68] N. Sugiura, K. Nakao, D. Ida, N. Sakai, H. Ishihara, Prog. Theor. Phys. 103, 73 (2000)
+[69] L. Herrera, Phys. Letts. A165, 206 (1992)
+
+
+                                              34
+[70] A. di Prisco, E. Fuenmayor, L Herrera, V Varela, Phys. Lett. A 195, 23 (1994)
+[71] T. Jacobson, Phys. Rev. Lett. 75, 1260 (1995)
+[72] C. Eling, R. Guedens, and T. Jacobson, Phys. Rev. Lett. 96, 121301 (2006)
+[73] D. Lyth, M. Mukherjee, Phys. Rev. D38, 485 (1988)
+[74] N. Ahmadi, M. Nouri-Zonoz, Quantum gravitational optics: Effective Raychaudhuri equation,
+    gr-qc/0605009
+[75] C. Tsagas, Magnetic tension and gravitational collapse, gr-qc/0311085
+[76] R. Maartens, Phys. Rev. D 62, 084023 (2000)
+[77] R. Capovilla and J. Guven, Phys. Rev. D52, 1072 (1995); S. Kar, Phys. Rev. D52, 2036
+    (1995); S. Kar, Phys. Rev. D53, 2071 (1996)
+[78] S. Kar, Phys. Rev. D55, 7921 (1997)
+[79] S. Kar, Focusing of branes in warped backgrounds, Ind. J. Phys. (to appear in the special issue
+    commemorating A. K. Raychaudhuri) (2006)
+[80] S. Kar, Phys.Rev. D54, 6408 (1996)
+[81] S. Kar, Generalised Raychaudhuri Equations for Strings and Membranes Proceedings of
+    IAGRG–XVIII (Matscience, Madras, India (Feb. 15-17, 1996), Matscience Report no. 117)
+[82] J. Borgman and L. H. Ford, Phys.Rev. D70, 064032 (2004)
+[83] J. Borgman, Fluctuations of the expansion: The Langevin-Raychaudhuri equation, Ph.d. the-
+    sis, Tufts University, USA (2004)
+[84] S. Kar, Phys. Rev. D64, 105017 (2001)
+[85] V. Balasubramanian, E. Gimon, D. Minic, JHEP 05, 014 (2000)
+[86] V. Sahakian, Phys.Rev. D62, (2000) 126011
+[87] E. Alvarez, C. Gomez, Nucl.Phys. B541, 441 (1999) ibid. Holography and the c-theorem
+    hep-th/0009203
+[88] M. Cvetic and A. A. Tseytlin, Phys. Rev. D 53, 5619 (1996); A.Stromonger, Phys. Lett.
+    B 383, 1996; S. Ferrara and R. Kallosh, Phys. Rev. D 54, 1525 (1996) S. Ferrara, G. W.
+    Gibbons and R. Kallosh, Nucl. Phys. B 500, 75 (1997).
+[89] K. Goldstein, R. P. Jena, G. Mandal and S. P. Trivedi, JHEP 02, 053 (2006)
+
+
+
+
+                                               35
+
