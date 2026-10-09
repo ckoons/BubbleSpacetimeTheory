@@ -1,0 +1,22 @@
+pin: alpha^-1(0) = 137.035999177 +/- 0.000000021 (source sha256 d8b163d8e95991de, '2022 CODATA')
+  [PASS] I0: input read from the saved NIST page (2022 CODATA), not typed
+  [PASS] F0: Delta(0) = 0; Delta/asymptote at Q = 1e4 m_e: 1.0; monotone
+
+(1) at the named point
+    Delta(m_e) = 0.0192353209    alpha_eff^-1(m_e) = 137.016763856    (target 137; gap 0.0167639)
+(2) solve alpha_eff^-1(Q) = 137
+    Q/m_e = 1.429154247      (check: alpha_eff^-1 there = 137.0)
+    +/- 4.96e-7 from the 21e-9 input uncertainty
+(3) against the menu (ratios Q/point; no ranking)
+    Q / (m_e        ) =      1.4291542   |ln| =  0.35708   within factor 2: True
+    Q / (2 m_e      ) =     0.71457712   |ln| =  0.33606   within factor 2: True
+    Q / (alpha m_e  ) =      195.84558   |ln| =   5.2773   within factor 2: False
+    Q / (alpha^2 m_e) =      26837.895   |ln| =   10.198   within factor 2: False
+  [FAIL] T1: CREDIT rule |ln(Q/m_e)| <= ln 1.1: |ln| = 0.35708 vs 0.09531 -> MISS: the 0.036 is NOT QED running from an interior 137 at m_e
+    reported, not credited: factor-2 landings = ['m_e', '2 m_e']
+
+beside (K1953 pincer, forward): the curvature term
+    n_C/N_max = 5/137 = 0.03649635;  measured excess alpha^-1(0) - 137 = 0.035999177;  ratio = 0.986377  (K675's reading: a boundary TERM, not a running; 1.4 % off, as banked)
+  [PASS] T2: curvature term reproduces the 0.036 to 1.4 % (restated, K675; not new credit)
+
+SCORE: 3/4  (T1 is the hashed test and can fail either way; I0, F0 instrument; T2 restates K675)
