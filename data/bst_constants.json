@@ -1677,7 +1677,8 @@
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "exact",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
-   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN: 197.3269804 is the namespace constant hbar_c (a unit conversion, MeV fm). Old code: 'N_max * 197.3269804 / m_e'. Identity check |old-new|/|old| = 0.0e+00."
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN: 197.3269804 is the namespace constant hbar_c (a unit conversion, MeV fm). Old code: 'N_max * 197.3269804 / m_e'. Identity check |old-new|/|old| = 0.0e+00.",
+   "compton_convention_2026_10_09": "Grace 2026-10-09 (K4-7 Lane C item 2; NIST CODATA 2022 pages in data/sources_grace_2026-10-09/bandK/). REDUCED: a_0 = N_max * hbar c/(m_e c^2) = lambdabar_C/alpha (the REDUCED Compton wavelength), = 5.29177210544(82)e-11 m (NIST `bohrrada0`). Not lambda_C/alpha."
   },
   {
    "id": "const_031",
@@ -2345,7 +2346,8 @@
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.058%",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
-   "proton_radius_fix_2026_09_29": "Grace 11:44 (round 20; Cal Section 1017 (3)). (a) observed value now the CURRENT CODATA 2022 0.84075(64) fm (pinned from NIST); the former 0.8414 is CODATA 2018 (superseded; Cal: 'from memory', not re-pinned here). Muonic hydrogen 0.84087(39) fm is PIN OWED (Cal, from memory). (b) stored value is what 4·ħc/m_p gives with m_p = 6π⁵m_e: 0.841251 fm (was the rounded 0.8412; its precision 0.0238 % came from the rounding). Now +0.060 % from CODATA 2022 (+0.78σ at ±0.00064). (c) the id-less duplicate 'Proton charge radius' row (rank²·ħc/m_p, the same number, tier D, recoded by Grace R178) is DELETED; one row, one tier. **Tier S vs D is Keeper's ruling** (this row keeps its S until then). K1938's '0.001 %' was never in the file (Cal)."
+   "proton_radius_fix_2026_09_29": "Grace 11:44 (round 20; Cal Section 1017 (3)). (a) observed value now the CURRENT CODATA 2022 0.84075(64) fm (pinned from NIST); the former 0.8414 is CODATA 2018 (superseded; Cal: 'from memory', not re-pinned here). Muonic hydrogen 0.84087(39) fm is PIN OWED (Cal, from memory). (b) stored value is what 4·ħc/m_p gives with m_p = 6π⁵m_e: 0.841251 fm (was the rounded 0.8412; its precision 0.0238 % came from the rounding). Now +0.060 % from CODATA 2022 (+0.78σ at ±0.00064). (c) the id-less duplicate 'Proton charge radius' row (rank²·ħc/m_p, the same number, tier D, recoded by Grace R178) is DELETED; one row, one tier. **Tier S vs D is Keeper's ruling** (this row keeps its S until then). K1938's '0.001 %' was never in the file (Cal).",
+   "compton_convention_2026_10_09": "Grace 2026-10-09 (K4-7 Lane C item 2; NIST CODATA 2022 pages in data/sources_grace_2026-10-09/bandK/). REDUCED: r_p = 4 hbar/(m_p c) = 4 * lambdabar_p, with lambdabar_p = hbar/(m_p c) the REDUCED proton Compton wavelength (NIST `pcomwl` lists the UN-reduced h/(m_p c) = 1.32140985360(41)e-15 m; reduced = that/(2 pi) = 2.1031e-16 m). Observed r_p = 8.4075(64)e-16 m (NIST `rp`)."
   },
   {
    "id": "const_046",
@@ -5324,7 +5326,8 @@
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.03%",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
-   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN: 197.3269804 -> hbar_c, 0.51099895 -> m_e (both namespace names). Old code: '(1/N_max) * 197.3269804 / 0.51099895'. Identity check |old-new|/|old| = 0.0e+00."
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN: 197.3269804 -> hbar_c, 0.51099895 -> m_e (both namespace names). Old code: '(1/N_max) * 197.3269804 / 0.51099895'. Identity check |old-new|/|old| = 0.0e+00.",
+   "compton_convention_2026_10_09": "Grace 2026-10-09 (K4-7 Lane C item 2; NIST CODATA 2022 pages in data/sources_grace_2026-10-09/bandK/). REDUCED: r_e = alpha * hbar c/(m_e c^2) = alpha * lambdabar_C (the REDUCED Compton wavelength, 3.8616e-13 m), = 2.8179403205(13)e-15 m (NIST `re`). Not alpha * lambda_C."
   },
   {
    "id": "const_112",
@@ -5870,7 +5873,8 @@
    "precision_stored_ARCHIVED": null,
    "precision": 0.0,
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
-   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): m_e in kg (the ruler in SI, measured); reproduces 2.42631e-12 — a unit conversion of the ruler."
+   "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): m_e in kg (the ruler in SI, measured); reproduces 2.42631e-12 — a unit conversion of the ruler.",
+   "compton_convention_2026_10_09": "Grace 2026-10-09 (K4-7 Lane C item 2; NIST CODATA 2022 pages in data/sources_grace_2026-10-09/bandK/). UN-REDUCED: this row is lambda_C = h/(m_e c) = 2.42631023538(76)e-12 m (NIST `ecomwl`). The REDUCED Compton wavelength is lambdabar_C = hbar/(m_e c) = 3.8615926744(12)e-13 m (NIST `ecomwlbar`) = this/(2 pi). An AREA built from the wrong one is off by (2 pi)^2 = 39.5 (1.6 decades). The formula_display \"rank*pi*hbar/(m_e*c)\" is the un-reduced form written with hbar."
   },
   {
    "id": "const_131",
