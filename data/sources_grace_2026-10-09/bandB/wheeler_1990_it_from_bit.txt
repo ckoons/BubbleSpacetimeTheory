@@ -1,0 +1,732 @@
+                                          19
+
+  INFORMATION, PHYSICS, QUANTUM: THE
+          SEARCH FOR LINKS
+
+                           John Archibald Wheeler * t
+
+
+Abstract
+This report reviews what quantum physics and information theory have to tell us
+about the age-old question, How come existence? No escape is evident from four
+conclusions: (1) The world cannot be a giant machine, ruled by any preestablished
+continuum physical law. (2) There is no such thing at the microscopic level as
+space or time or spacetime continuum. (3) The familiar probability function or
+functional, and wave equation or functional wave equation, of standard quantum
+theory provide mere continuum idealizations and by reason of this circumstance
+conceal the information-theoretic source from which they derive. (4) No element in
+the description of physics shows itself as closer to primordial than the elementary
+quantum phenomenon, that is, the elementary device-intermediated act of posing a
+yes-no physical question and eliciting an answer or, in brief, the elementary act of
+observer-participancy. Otherwise stated, every physical quantity, every it, derives
+its ultimate significance from bits, binary yes-or-no indications, a conclusion which
+we epitomize in the phrase, it from bit.
+
+
+19.1     Quantum Physics Requires a New View of Reality
+Revolution in outlook though Kepler, Newton, and Einstein brought us [1-4], and
+still more startling the story of life [5-7] that evolution forced upon an unwilling
+world, the ultimate shock to preconceived ideas lies ahead, be it a decade hence,
+a century or a millenium. The overarching principle of 20th-century physics, the
+quantum [8] — and the principle of complementarity [9] that is central idea of the
+quantum — leaves us no escape, Niels Bohr tells us, [10] from "a radical revision
+of our attitude as regards physical reality" and a "fundamental modification of
+all ideas regarding the absolute character of physical phenomena." Transcending
+Einstein's summons [11] of 1908, "This quantum business is so incredibly important
+and difficult that everyone should busy himself with it," Bohr's modest words direct
+us to the supreme goal: Deduce the quantum from an understanding of existence.
+
+   'Reproduced from Proc. 3rd Int. Symp. Foundations of Quantum Mechanics, Tokyo, 1989,
+pp.354-368.
+        copyright of this paper is held by the author.
+  310                        JOHN ARCHIBALD WHEELER                                                                  THE SEARCH FOR LINKS                                     311
+
+     How make headway toward a goal so great against difficulties so large? The                It from bit symbolizes the idea that every item of the physical world has at
+ search for understanding presents to us three questions, four no's and five clues:
+                                                                                           bottom — at a very deep bottom, in most instances — an immaterial source and
+     Three questions,                                                                      explanation; that what we call reality arises in the last analysis from the posing of
+                                                                                           yes-no questions and the registering of equipment-evoked responses; in short, that
+     • How come existence?                                                                 all things physical are information-theoretic in origin and this is a participatory
+                                                                                           universe.
+     • How come the quantum?
+                                                                                               Three examples may illustrate the theme of it from bit. First, the photon. With
+     • How come "one world" out of many observer-participants?                             polarizer over the distant source and analyzer of polarization over the photodetector
+                                                                                           under watch, we ask the yes or no question, "Did the counter register a click during
+     Four no's,                                                                            the specified second?" If yes, we often say, "A photon did it." We know perfectly
+                                                                                           well that the photon existed neither before the emission nor after the detection.
+     • No tower of turtles                                                                 However, we also have to recognize that any talk of the photon "existing" during
+     • No laws                                                                             the intermediate period is only a blown-up version of the raw fact, a count.
+                                                                                              The yes or no that is recorded constitutes an unsplitable bit of information. A
+    • No continuum                                                                         photon, Wootters and Zurek demonstrate [53, 54], cannot be cloned.
+    • No space, no time.                                                                        As second example of it from bit, we recall the Aharonov-Bohm scheme [55] to
+                                                                                           measure a magnetic flux. Electron counters stationed off to the right of a doubly-
+    Five clues,                                                                            slit screen give yes-or-no indications of the arrival of an electron from the source
+                                                                                           located off to the left of the screen, both before the flux is turned on and afterward.
+    • The boundary of a boundary is zero.                                                  That flux of magnetic lines of force finds itself embraced between — but untouched
+                                                                                           by — the two electron beams that fan out from the two slits. The beams interfere.
+    • No question? No answer!
+                                                                                           The shift in interference fringes between field off and field on reveals the magnitude
+    • The super-Copernican principle.                                                      of the flux,
+
+    • "Consciousness"                                                                                  (phase change around perimeter of the included area)
+                                                                                               = 2vr x (shift of interference pattern, measured in number of fringes)       (19.1)
+    • More is different.                                                                                = (electron charge) x (magnetic flux embraced)/fie
+
+19.2     "It from Bit" as Guide in Search for Link Connecting                              Here H = 1.0546 x 10 27 gcrn 2 /s is the quantum in conventional units, or in ge-
+                                                                                           ometric units [4, 16] — where both time and mass are measured in the units of
+         Physics, Quantum and Information
+                                                                                           length — f i = f i c = 2.612 x 10~66 cm2 = the square of the Planck length, 1.616 x
+ In default of a tentative idea or working hypothesis, these questions, no's and clues     10~33 = what we hereafter term the Planck area.
+— yet to be discussed — do not move us ahead. Nor will any abundance of clues                  Not only in electrodynamics but also in geornetrodynamics and in every other
+assist a detective who is unwilling to theorize how the crime was committed! A             gauge-field theory, as Anandan, Aharonov and others point out [56, 57] the differ-
+wrong theory? The policy of the engine inventor, John Kris, reassures us, "Start           ence around a circuit in the phase of an appropriately chosen quantum-mechanical
+her up and see why she don't go!" In this spirit [12-47] I, like other searchers [48-51]   probability amplitude provides a measure of the field. Here again the concept of it
+attempt formulation after formulation of the central issues, and here present a wider      from bit applies [38]. Field strength or spacetime curvature reveals itself through
+overview, taking for working hypothesis the most effective one that has survived this      shift of interference fringes, fringes that stand for nothing but a statistical pattern
+winnowing: It from bit. Otherwise put, every it — every particle, every field of           of yes-or-no registrations.
+force, even the spacetime continuum itself — derives its function, its meaning, its
+very existence entirely — even if in some contexts indirectly — from the apparatus-           When a magnetometer reads that it which we call a magnetic field, no reference
+elicited answers to yes or no questions, binary choices [52], bits.                        at all to a bit seems to show itself. Therefore we look closer. The idea behind th«
+                                                                                           operation of the instrument is simple. A wire of length I carries a current i through
+  312                          JOHN ARCHIBALD WHEELER                                                                       THE SEARCH FOR LINKS                                    313
+
+
+                                                                                                  yields the Bekenstein number, N; and the Bekenstein number, so Thorne and Zurek
+                                                                                                  explain [66] tells us the number of binary digits, the number of bits, that would be
+                                                                                                  required to specify in all detail the configuration of the constituents out of which
+                                                                                                  the blackhole was put together. Entropy is a measure of lost information. To no
+                                                                                                  community of newborn outside observers can the blackhole be made to reveal out
+                                                                                                  of which particular one of 2N configurations it was put together. Its size, an it, is
+                                                                                                  fixed by the number, N, of bits of information hidden within it.
+                                                                                                      The quantum, H, in whatever correct physics formula it appears, thus serves as
+                                                                                                  lamp. It lets us see horizon area as information lost, understand wave number of
+                                                                                                  light as photon momentum and think of field flux as bit-registered fringe shift.
+                                                                                                     Giving us its as bits, the quantum presents us with physics as information.
+                                                                                                      How come a value for the quantum so small as H = 2.612 x 10~66 cm 2 ? As well
+                                                                                                  as ask why the speed of light is so great as c = 3 x 1010 cm/s! No such constant
+                                                                                                  as the speed of light ever makes an appearance in a truly fundamental account
+                                                                                                  of special relativity or Einstein geometrodynamics, and for a simple reason: Time
+                                                                                                  and space are both tools to measure interval. We only then properly conceive
+                                                                                                  them when we measure them in the same units [4, 16]. The numerical value of
+                                                                                                  the ratio between the second and the centimeter totally lacks teaching power. It
+Fig. 19.1. Symbolic representation of the "telephone number" of the particular one of the         is an historical accident. Its occurrence in equations obscured for decades one of
+2" conceivable, but by now indistinguishable, configurations out of which this particular
+blackhole, of Bekenstein number N and horizon area 4NHlogs2, was put together. Symbol,            Nature's great simplicities. Likewise with H\y equation that contains an H
+also, in a broader sense, of the theme that every physical entity, every it, derives from bits.   floats a banner, "It from bit". The formula displays a piece of physics that we
+Reproduced from JGST, p.220.                                                                      have learned to translate into information-theoretic terms. Tomorrow we will have
+                                                                                                  learned to understand and express all of physics in the language of information. At
+                                                                                                  that point we will revalue H = 2.612 x 10~66 cm 2 — as we downgrade c = 3 x 1010
+a magnetic field B that runs perpendicular to it. In consequence the piece of copper              cm/s today — from constant of Nature to artifact of history, and from foundation
+receives in the time t a transfer of momentum p in a direction z perpendicular to                 of truth to enemy of understanding.
+the directions of the wire and of the field,
+
+                                   p - Blit                                                       19.3     Four No's
+    = (flux per unit z) x (charge, e, of the elementary carrier of current)             (19.2)
+              x (number, N,of carriers that pass in the time t)                                   To the question, "How come the quantum?" we thus answer, "Because what we
+                                                                                                  call existence is an information-theoretic entity." But how come existence? Its
+This impulse is the source of the force that displaces the indicator needle of the                as bits, yes; and physics as information, yes; but whose information? How does
+magnetometer and gives us an instrument reading. We deal with bits wholesale                      the vision of one world arise out of the information-gathering activities of many
+rather than bits retail when we run the fiducial current through the magnetometer
+                                                                                                  observer-participants? In the consideration of these issues we adopt for guidelines
+coil, but the definition of field founds itself no less decisively on bits.
+                                                                                                  four no's.
+    As third and final example of it from bit we recall the wonderful quantum                        First no: "No tower of turtles," advised William James. Existence is not a globe
+finding of Bekenstein [58-60] — totally unexpected denouement of earlier classical
+                                                                                                  supported by an elephant, supported by a turtle, supported by yet another turtle,
+work of Penrose [61] Christodoulou [62] and Ruffini [63] — refined by Hawking [64,
+                                                                                                  and so on. In other words, no infinite regress. No structure, no plan of organization,
+65] that the surface area of the horizon of a blackhole, rotating or not, measures
+                                                                                                  no framework of ideas underlaid by another structure or level of ideas, underlaid
+the entropy of the blackhole. Thus this surface area, partitioned in imagination
+                                                                                                  by yet another level, by yet another, ad infinitum, down to a bottomless night. To
+(Fig. 19.1) into domains each of size 4fUoge2, that is, 2.77... times the Planck area,
+                                                                                                  endlessness no alternative is evident but loop [47, 67], such a loop as this: Physics
+ 314                        JOHN ARCHIBALD WHEELER                                                                   THE SEARCH FOR LINKS                                     315
+
+
+ gives rise to observer-participancy; observer-participancy gives rise to information;    our account of the flux of existence... The conceptual scheme of physical objects
+ and information gives rise to physics.                                                   is a convenient myth, simpler than the literal truth and yet containing that literal
+     Existence thus built [68] on "insubstantial nothingness"? Rutherford and Bohr        truth as a scattered part."
+made a table no less solid when they told us it was 99.9... percent emptiness.                Nothing so much distinguishes physics as conceived today from mathematics as
+Thomas Mann may exaggerate when he suggests [69] that "... we are actually                the difference between the continuum character of the one and the discrete charac-
+bringing about what seerns to be happening to us," but Leibniz [70] reassures us,         ter of the other. Nothing does so much to extinguish this gap as the elementary
+ "Although the whole of this life were said to be nothing but a dream and the physical    quantum phenomenon "brought to a close," as Bohr puts it [10] by "an irreversible
+world nothing but a phantasm, I should call this dream or phantasm real enough            act of amplification," such as the click of a photodetector or the blackening of
+if, using reason well, we were never deceived by it."                                     a grain of photographic emulsion. Irreversible? More than one idealized experi-
+                                                                                          ment [38] illustrates how hard it is, even today, to give an all-inclusive definition of
+    Second no: No laws. "So far as we can see today, the laws of physics cannot
+                                                                                          the term irreversible. Those difficulties supply pressure, however, not to retreat to
+have existed from everlasting to everlasting. They must have come into being at
+                                                                                          old ground, but to advance to new insight. In brief, continuum-based physics, no;
+the big bang. There were no gears and pinions, no Swiss watch-makers to put
+things together, not even a pre-existing plan... Only a principle of organization         information-based physics, yes.
+which is no organization at all would seem to offer itself. In all of mathematics,            Fourth and last no: No space, no time. Heaven did not hand down the word
+nothing of this kind more obviously offers itself than the principle that 'the boundary    "time". Man invented it, perhaps positing hopefully as he did that "Time is Nature's
+of boundary is zero.' Moreover, all three great field theories of physics use this        way to keep everything from happening all at once" [79]. If there are problems with
+principle twice over... This circumstance would seem to give us some reassurance          the concept of time, they are of our own creation! As Leibniz tells us, [80] " . . . time
+that we are talking sense when we think of... physics being" [32] as foundation-free       and space are not things, but orders of things... ;" or as Einstein put it, [81] "Time
+as a logic loop, the closed circuit of ideas in a self-referential deductive axiomatic     and space are modes by which we think, and not conditions in which we live."
+system [71-74].                                                                              What are we to say about that weld of space and time into spacetime which
+    Universe as machine? This universe one among a great ensemble of machine              Einstein gave us in his 1915 and still standard classical geometrodynamics? On this
+universes, each differing from the others in the values of the dimensionless constants    geometry quantum theory, we know, imposes fluctuations [13,14, 82]. Moreover, the
+of physics? Our own selected from this ensemble by an anthropic principle of one          predicted fluctuations grow so great at distances of the order of the Planck length
+or another form [75]? We reject here the concept of universe as machine not least         that in that domain they put into question the connectivity of space and deprive
+because it "has to postulate explicitly or implicitly, a supermachine, a scheme,          the very concepts of "before" and "after" of all meaning [83]. This circumstance
+a device, a miracle, which will turn out universes in infinite variety and infinite       reminds us anew that no account of existence can ever hope to rate as fundamental
+number" [47],                                                                             which does not translate all of continuum physics into the language of bits.
+    Directly opposite to the concept of universe as machine built on law is the vision        We will not feed time into any deep-reaching account of existence. We must
+of a world self-synthesized. On this view, the notes struck out on a piano by the         derive time — and time only in the continuum idealization — out of it. Likewise
+observer-participants of all places and all times, bits though they are, in and by        with space.
+themselves constitute the great wide world of space and time and things.
+    Third no: No continuum. No continuum in mathematics and therefore no con-             19.4      Five Clues
+tinuum in physics. A half-century of development in the sphere of mathematical
+logic [76] has made it clear that there is no evidence supporting the belief in the ex-   First clue: The boundary of a boundary is zero. This central principle of algebraic
+istential character of the number continuum. "Belief in this transcendental world,"       topology [84], identity, triviality, tautology, though it is, is also the unifying theme
+Hermann Weyl tells us, "taxes the strength of our faith hardly less than the doc-         of Maxwell electrodynamics, Einstein geometrodynamics and almost every version
+trines of the early Fathers of the Church or of the scholastic philosophers of the        of modern field theory [42], [85-88]. That one can get so much from so little, almost
+Middle Ages" [77]. This lesson out of mathematics applies with equal strength             everything from almost nothing, inspires hope that we will someday complete the
+to physics. "Just as the introduction of the irrational numbers... is a convenient        mathematization of physics and derive everything from nothing, all law from no
+myth [which] simplifies the laws of arithmetic... so physical objects," Willard Van       law.
+Orman Quine tells us [78] "are postulated entities which round out and simplify
+                                                                                              Second clue: No question, no answer. Better put, no bit-level question, no bit-
+ 316                         JOHN ARCHIBALD WHEELER.                                                                THE SEARCH FOR LINKS                                    317
+
+
+ level answer. So it is in the game of twenty questions in its surprise version [89].     and turns out a "wave equation," one solution of which is "the" wave function for
+ And so it is for the electron circulating within the atom or a field within a space.     the universe [14, 102, 105-107]. From start to finish accept continuity as right and
+ To neither field nor particle can we attribute a coordinate or momentum until a          natural: Continuity in the manifold, continuity in the wave equation, continuity in
+ device operates to measure the one or the.other. Moreover any apparatus that             its solution, continuity in the features that it predicts. Among conceivable solutions
+ accurately [90] measures the one quantity inescapably rules out then and there the       of this wave equation select as reasonable one which "maximally decoheres," one
+ operation of equipment to measure the other [9, 91, 92]. In brief, the choice of         which exhibits "maximal classicity" — maximal classicity by reason, not of "some-
+ question asked, and choice of when it's asked, play a part — not the whole part,         thing external to the framework of wave function and Schrodinger equation," but
+ but a part — in deciding what we have the right to say [38, 43].                         something in "the initial conditions of the universe specified within quantum theory
+     Bit-registration of a chosen property of the electron, a bit-registration of the     itself."
+ arrival of a photon, Aharonov-Bohm bit-based determination of the magnitude of a              How compare the opposite outlooks of decoherence and it-from-bit? Remove
+ field flux, bulk-based count of bits bound in a blackhole: All are examples of physics   the casing that surrounds the workings of a giant computer. Examine the bundles
+ expressed in the language of information. However, into a bit count that one might       of wires that run here and there. What is the status of an individual wire? Math-
+have thought to be a private matter, the rest of the nearby world irresistibly thrusts    ematical limit of bundle? Or building block of bundle? The one outlook regards
+itself. Thus the atom-to-atom distance in a ruler — basis for a bit count of distance     the wave equation and wave function to be primordial and precise and built on
+— evidently has no invariant status, depending as it does on the temperature and          continuity, and the bit to be idealization. The other outlook regards the bit to be
+pressure of the environment. Likewise the shift of fringes in the Aharonov-Bohm           the primordial entity, and wave equation and wave function to be secondary and
+experiment depends not only upon the magnetic flux itself, but also on the charge         approximate — and derived from bits via information theory.
+of the electron. But this electron charge — when we take the quantum itself to
+be Nature's fundamental measuring unit — is governed by the square root of the                Derived, yes; but how? No one has done more than William Wootters towards
+quantity e 2 / H e - 1/137.036..., a "constant" which — for extreme conditions —          opening up a pathway [108, 109] from information to quantum theory. He puts
+is as dependent on the local environment [93] as is a dielectric "constant" or the        into connection two findings, long known, but little known. Already before the
+atom-to-atom spacing in the ruler.                                                        advent of wave mechanics, he notes, the analyst of population statistics R. A. Fisher
+                                                                                          proved [110, 111] that the proper tool to distinguish one population from another is
+    The contribution of the environment becomes overwhelmingly evident when we            not the probability of this gene, that gene and the third gene (for example), but the
+turn from length of bar or flux of field to the motion of alpha particle through cloud    square roots of these probabilities; that is to say, the two probability amplitudes,
+chamber, dust particle through 3°K-background radiation or Moon through space.            each probability amplitude being a vector with three components. More precisely,
+This we know from the analyses of Bohr and Mott [94], Zeh [95, 96], Joos and              Wootters proves, the distinguishability between the two populations is measured by
+Zeh [97], Zurek [98-100] and Unruh and Zurek [101]. It from bit, yes; but the rest        the angle in Hilbert space between the two state vectors, both real. Fisher, however,
+of the world also makes a contribution, a contribution that suitable experimental         was dealing with information that sits "out there". In microphysics, however, the
+design can minimize but not eliminate. Unimportant nuisance? No. Evidence the             information does not sit out there. Instead, Nature in the small confronts us with
+whole show is wired up together? Yes. Objection to the concept of every it from           a revolutionary pistol, "No question, no answer." Complementarity rules. And
+bits? No.                                                                                 complementarity as E.C.G. Stueckelberg proved [112, 113] as long ago as 1952,
+     Build physics, with its false face of continuity, on bits of information! What       and as Saxon made more readily understandable [114] in 1964, demands that the
+this enterprise is we perhaps see more clearly when we examine for a moment a             probability amplitudes of quantum physics must be complex. Thus Wootters derives
+thoughtful, careful, wide-reaching exposition [102] of the directly opposite thesis,      familiar Hilbert space with its familiar complex probability amplitudes from the twin
+that physics at bottom is continuous; that the bit of information is not the basic en-    demands of complementarity and measure of distinguishability.
+tity. Rate as false the claim that the bit of information is the basic entity. Instead,      Try to go on from Wootters's finding to deduce the full blown machinery of
+attempt to build everything on the foundation of some "grand unified field theory"        quantum field theory? Exactly not to try to do so — except as idealization — is
+such as string theory [103, 104] — or in default of that, on Einstein's 1915 and still    the demand laid on us by the concept of it from bit. How come?
+standard geometrodynamics. Hope to derive that theory by way of one or another
+plausible line of reasoning. But don't try to derive quantum theory. Treat it as             Probabilities exist "out there" no more than do space or time or the position of
+supplied free of charge from on high. Treat quantum theory as a magic sausage             the atomic electron. Probability, like time, is a concept invented by humans, and
+grinder which takes in as raw meat this theory, that theory or the other theory           humans have to bear the responsibility for the obscurities that attend it. Obscurities
+ 318                        JOHN ARCHIBALD WHEELER                                                                  THE SEARCH FOR LINKS                                    319
+
+
+ there are whether we consider probability defined as frequency [115] or defined a la     past has no evidence except as it is recorded in the present" [127]. The photon that
+ Bayes [116-119]. Probability in the sense of frequency has no meaning as applied         we are going to register tonight from that four billion-year old quasar cannot be said
+ to the spontaneous fission of the particular plutonium nucleus that triggered the        to have had an existence "out there" three billion years ago, or two (when it passed
+ November 1, 1952 H-bomb blast.                                                           an intervening gravitational lens) or one, or even a day ago. Not until we have fixed
+                                                                                          arrangements at our telescope do we register tonight's quantum as having passed
+    What about probabilities of a Bayesian cast, probabilities "interpreted not as fre-
+                                                                                          to the left (or right) of the lens or by both routes (as in a double slit experiment).
+quencies observable through experiments, but as degrees of plausibility one assigns
+to each hypothesis based on the data and on one's assessment of the plausibility          This registration like every delayed-choice experiment [21, 40], reminds us that no
+of the hypotheses prior to seeing the data" [120]. Belief-dependent probabilities,        elementary quantum phenomenon is a phenomenon until, in Bohr's words [10], "It
+different probabilities assigned to the same proposition by different people [121]?       has been brought to a close" by "an irreversible act of amplification." What we call
+Probabilities associated [122] with the view that "objective reality is simply an         the past is built on bits.
+interpretation of data agreed to by large numbers of people?"                                 Enough bits to structure a universe so rich in features as we know this world to
+      Heisenberg directs us to the experiences [123] of the early nuclear-reaction-rate   be. Preposterous! Mice and men and all on Earth who may ever come to rank as
+theorist Fritz Houtermans, imprisoned in Kharkov during the time of the Stalin            intercommunicating meaning-establishing observer-participants will never mount a
+terror, " . . . the whole cell would get together to produce an adequate confession       bit count sufficient to bear so great a burden.
+. . . [and] helped them [the prisoners] to compose their 'legends' and phrase them           The count of bits needed, huge though it may be, nevertheless, so far as we
+properly, implicating as few others as possible."                                         can judge, does not reach infinity. In default of a better estimate, we follow fa-
+    Existence as confession? Myopic but in some ways illuminating formulation of          miliar reasoning [128] and translate into the language of the bits the entropy of
+the demand for intercommunication implicit in the theme of it from bit!                   the primordial cosmic fireball as deduced from the entropy of the present 2.735°K
+                                                                                          (uncertainty <0.05°K) microwave relict radiation [129] totaled over a 3-sphere of
+    So much for "No question, no answer."                                                 radius 13.2 x 109 light years (uncertainty <35%) [130] or 1.25 x 1028 cm and of
+    Third clue: The super-Copernican principle [47]. This principle rejects now-          volume 27T2 radius3,
+centeredness in any account of existence as firmly as Copernicus repudiated here-
+                                                                                                            (number of bits) = (log^e) x (number of nats)
+centeredness. It repudiates most of all any tacit adoption of here-centeredness in
+                                                                                                            = (log^e) x (entropy /Boltzmann's constant,/:)                (19.3)
+assessing observer-participants and their number.
+                                                                                                                = 1.44... x [(Sir4/45)(radius. kT/Kc)3]
+     What is an observer-participant? One who operates an observing device and                                                = 8 x 1088
+participates in the making of meaning, meaning in the sense of F011esdal [124],
+ "Meaning is the joint product of all the evidence that is available to those who         It would be totally out of place to compare this overpowering number with the num-
+communicate." Evidence that is available? The investigator slices a rock and pho-         ber of bits of information elicited up to date by observer-participancy. So warns
+tographs the evidence for the heavy nucleus that arrived in the cosmic radiation of a     the super-Copernican principle. We today, to be sure, through our registering de-
+billion years ago [38]. Before he can communicate his findings, however, an asteroid      vices, give a tangible meaning to the history of the photon that started on its way
+atomizes his laboratory, his records, his rocks and him. No contribution to meaning!      from a distant quasar long before there was any observer-participancy anywhere.
+Or at least no contribution then. A forensic investigation of sufficient detail and       However, the far more numerous establishers of meaning of time to come have a
+wit to reconstruct the evidence of the arrival of that nucleus is difficult to imagine.   like inescapable part — by device-elicited quesstions and registration of answer —
+What about the famous tree that fell in the forest with no one around [125]? It           in generating the "reality" of today. For this purpose, moreover, there are bil-
+leaves a fallout of physical evidence so near at hand and so rich that a team of up-      lions of years yet to come, billions on billions of sites of observer-participancy yet
+to-date investigators can establish what happened beyond all doubt. Their findings        to be occupied. How far foot and ferry have carried rneaning^making communica-
+contribute to the establishment of meaning.                                               tion in fifty thousand years gives faint feel for how far interstellar propagation is
+                                                                                          destined [131, 132] to carry it in fifty billion years.
+    "Measurements and observations," it has been said, [102] "cannot be funda-
+mental notions in a theory which seeks to discuss the early universe when neither            Do bits needed balance bits achievable? They must, declares the concept of
+existed." On this view the past has a status beyond all questions of observer-            "world as system self-synthesized by quantum networking" [47]. By no prediction
+participancy. It from bit offers us a different vision: "Reality is theory" [126]; "the   does this concept more clearly expose itself to destruction, in the sense of Pop-
+                                                                                          per [133].
+ 320                        JOHN ARCHIBALD WHEELER.                                                                THE SEARCH FOR LINKS                                    321
+
+
+    Fourth clue: "Consciousness". We have traveled what may seem a dizzying path.        descriptor of a domain of investigation [150-152] that enlarges in sophistication with
+First, elementary quantum phenomenon brought to a close by an irreversible act           each passing year.
+of amplification. Second, the resulting information expressed in the form of bits.
+Third, this information used by observer-participants — via communication — to               Fifth and final clue: More is different [153]. Not by plan but by inner necessity
+establish meaning. Fourth, from the past through the billeniurns to come, so many        a sufficiently large number of H20 molecules collected in a box will manifest solid,
+observer-participants, so many bits, so much exchange of information, as to build        liquid and gas phases. Phase changes, superfluidity and superconductivity all bear
+what we call existence.                                                                  witness to Anderson's pithy point, more is different.
+
+    Doesn't this it-from-bit view of existence seek to elucidate the physical world,         We do not have to turn to objects so material as electrons, atoms and molecules
+about which we know something, in terms of an entity about which we know almost          to see big numbers generating new features. The evolution from small to large has
+nothing, consciousness [134-137]? And doesn't Marie Sklodowska Curie tell us,            already in a few decades forced on the computer a structure [154, 155] reminiscent
+"Physics deals with things, not people?" Using such and such equipment, making           of biology by reason of its segregation of different activities into distinct organs.
+such and such a measurement, I get such and such a number. Who I am has nothing          Distinct organs, too, the giant telecommunications system of today finds itself in-
+to do with this finding. Or does it? Am I sleepwalking [138, 139]? Or am I one           escapably evolving [151, 152], Will we someday understand time and space and all
+of those poor souls without the critical power to save himself from pathological         the other features that distinguish physics — and existence itself — as the similarly
+science [140-142]?                                                                       self-generated organs of a self-synthesized information system [156-158]?
+    Under such circumstances any claim to have "measured" something falls flat
+until it can be checked out with one's fellows. Checked how? Morton White re-            19.5     Conclusion
+minds us [143] how the community applies its tests of credibility, and in this con-
+                                                                                         The spacetime continuum? Even continuum existence itself? Except as idealiza-
+nection quotes analyses by Chauncey Wright, Josiah Royce and Charles Saunders
+                                                                                         tion neither the one entity nor the other can make any claim to be a primordial
+Peirce [144]. Parmenides of Elea [145] (« 515 B.C.- 450+ B.C.) may tell us that
+                                                                                         category in the description of Nature. It is wrong, moreover, to regard this or that
+ "What is... is identical with the thought that recognizes it." We, however, steer
+                                                                                         physical quantity as sitting "out there" with this or that numerical value in default
+clear of the issues connected with "consciousness." The line between the uncon-
+                                                                                         of question asked and answer obtained by way of appropriate observing device.
+scious and the conscious begins to fade [146] in our day as computers evolve and
+                                                                                         The information thus solicited makes physics and comes in bits. The count of bits
+develop — as mathematics has — level upon level upon level of logical structure.
+                                                                                         drowned in the dark night of a blackhole displays itself as horizon area, expressed
+We may someday have to enlarge the scope of what we mean by a "who". This
+                                                                                         in the language of Bekenstein number. The bit count of the cosmos, however it is
+granted, we continue to accept — as essential part of the concept of it from bit —
+                                                                                         figured, is ten raised to a very large power. So also is the number of elementary
+F011esdal's guideline [124], "Meaning is the joint product of all the evidence that is
+                                                                                         acts of observer-participancy over any time of the order of fifty billion years. And,
+available to those who communicate." What shall we say of a view of existence [147]
+that appears, if not anthropomorphic in its use of the word "who," still overly cen-     except via those time-leaping quantum phenomena that we rate as elementary acts
+                                                                                         of observer-participancy, no way has ever offered itself to construct what we call
+tered on life and consciousness? It would seem more reasonable to dismiss for the
+present the semantic overtones of "who" and explore and exploit the insights to be        "reality." That's why we take seriously the theme of it from bit.
+won from the phrases, "communication" and "communication employed to establish
+meaning."                                                                                19.6     Agenda
+    F011esdaTs statement supplies, not an answer, but the doorway to new questions.      Intimidating though the problem of existence continues to be, the theme of it from
+For example, man has not yet learned how to communicate with ant. When he
+                                                                                         bit breaks it down into six issues that invite exploration:
+does, will the questions put to the world around by the ant and the answers that he
+elicits contribute their share, too, to the establishment of meaning? As another issue       One: Go beyond Wootters and determine what, if anything, has to be added to
+associated with communication, we have yet to learn how to draw the line between         distinguishability and complementarity to obtain all of standard quantum theory.
+a communication network that is closed, or parochial, and one that is open. And             Two: Translate the quantum versions of string theory and of Einstein's ge-
+how to use that difference to distinguish between reality and poker — or another         ometrodynamics from the language of continuum to the language of bits.
+game [148, 149] — so intense as to appear more real than reality. No term in
+F011esdal's statement posses greater challenge to reflection than "communication,"          Three: Sharpen the concept of bit. Determine whether "an elementary quantum
+                                                                                         phenomenon brought to a close by an irreversible act of amplification" has at bottom
+ 322                        JOHN ARCHIBALD WHEELER                                                                 THE SEARCH FOR LINKS                                    323
+
+
+ (1) the 0-or-l sharpness of definition of bit number nineteen in a string of binary     Deutsch, Robert H. Dicke, Freeman Dyson and the late Richard P. Feynman as
+ digits, or (2) the accordion property of a mathematical theorem, the length of which,   well as David Gross, James B. Hartle, John J. Hopfield, Paul C. Jeffries, Bernulf
+ that is, the number of supplementary lemmas contained in which, the analyst can         Kanitscheider, Arkady Kheyfets and Rolf W. Landauer; and to Warner A. Miller,
+ stretch or shrink according to his convenience.                                         John R. Pierce, Willard Van Orman Quine, Benjamin Schumacher and Frank J.
+    Four. Survey one by one with an imaginative eye the powerful tools that math-        Tipler as well as William G. Unruh, Morton White, Eugene P. Wigner, William K.
+ematics — including mathematical logic — has won and now offers to deal with             Wootters, Hans Dieter Zeh and Wojciech H. Zurek. For assistance in preparation
+theorems on a wholesale rather than a retail level, and for each such technique          of this report I thank E. L. Bennett and NSF grant PHY245-6243 to Princeton
+work out the transcription into the world of bits. Give special attention to one and     University. I give special thanks to the sponsors of the 28-31 August 1989 conference
+another deductive axiomatic system which is able to refer to itself [159], one and       ISQM Tokyo '89 at which the then current version of the present analysis was
+another self-referential deductive system.                                               reported.
+   Five: From the wheels-upon-wheels-upon-wheels evolution of computer pro-                  This report evolved from presentations at Santa Fe Institute Conferences, 29
+gramming dig out, systematize and display every feature that illuminates the level-      May-2 June and 4-8 June 1989 and at the 3rd International Symposium on Founda-
+upon-level-upon-level structure of physics.                                              tions of Quantum Mechanics in the Light of New Technology, Tokyo, 28-31 August
+                                                                                         1989, under the title "Information, Physics, Quantum: The Search for Links;" and
+     Six: Capitalize on the findings and outlooks of information theory [160-163],       headed "Can We Ever Expect to Understand Existence?", as the Penrose Lecture
+ algorithmic entropy [164], evolution of organisms [165-167] and pattern recogni-        at the 20-22 April 1989 annual meeting of Benjamin Franklin's "American Philo-
+tion [168-175]. Search out every link each has with physics at the quantum level.        sophical Society, held at Philadelphia for Promoting Useful Knowledge," and the
+Consider, for instance, the string of bits 1111111 . . . and its representation as the   Accademia Nazionale dei Lincei Conference on La Verita nella Scienza, Rome, 13
+sum of the two strings 1001110... and 0110001... Explore and exploit the connec-         October 1989; submitted to proceedings of all four in fulfillment of obligation and
+tion between this information-theoretic statement and the findings of theory and         in deep appreciation for hospitality. Preparation for publication assisted in part by
+experiment on the correlation between the polarizations of the two photons emitted       NSF Grant PHY 245-6243 to Princeton University.
+in the annihilation of singlet positronium [176] and in like Einstein-Podolsky-Rosen
+experiments [177], Seek out, moreover, every realization in the realm of physics of
+the information-theoretic triangle inequality recently discovered by Zurek [178].        Discussion
+    Finally: Deplore? No, celebrate the absence of a clean clear definition of the       A discussion followed:
+term "bit" as elementary unit in the establishment of meaning. We reject "that
+                                                                                             N. G. van Kampen: Did you mean to say that the observer influences the ob-
+view of science which used to say, 'Define your terms before you proceed.' The
+                                                                                         served object?
+truly creative nature of any forward step in human knowledge," we know, "is such
+that theory, concept, law and method of measurement — forever inseparable — are              J. A. Wheeler. The observer does not influence the past. Instead, by his choice
+born into the world in union [179]." If and when we learn how to combine bits in         of question, he decides about what feature of the object he shall have the right to
+fantastically large numbers to obtain what we call existence, we will know better        make a clear statement.
+what we mean both by bit and by existence.                                                  J.P. Vigier. Two problems.
+    A single question animates this report: Can we ever expect to understand ex-
+istence? Clues we have, and work to do, to make headway on that issue. Surely               1. The first is that the QSO raise lots of unsolved problems, i.e. — strange
+someday, we can believe, we will grasp the central idea of it all as so simple, so             quantized N0/log(l + z) relation — correlation with galaxies (Arp) — angu-
+beautiful, so compelling that we will all say to each other, "Oh, how -could it have           lar correlation with brightest nearby galaxies (Burbidge et al.)
+been otherwise! How could we all have been so blind so long!"
+                                                                                            2. The second is that the idea (Einstein et al.) of the reality of fields has led
+Acknowledgements                                                                               (assuming that "particles" are field singularities) to the only known justifica-
+                                                                                               tion of the geodesic law. To contest it is to make the meaning of dynamical
+For discussion, advice or judgment on one or another issue taken up in this review,            behaviour purely observer-dependent, i.e., to kill the reality of the physical
+I am indebted to Nandar Balazs, John D. Barrow, Charles H. Bennett, David                      world.
+324                        JOHN ARCHIBALD WHEELER                                                                     THE SEARCH FOR LINKS                                         325
+
+
+      J.A. Wheeler.                                                                         [7] J. D. Watson and F. H. C. Crick: "Molecular structure of nucleic acids: a structure
+                                                                                                for deoxyribose nucleic acid" Nature 171(1953) 737-738.
+  1. The book by Thome and colleagues, "Black Holes: The Membrane Paradigm,"
+                                                                                            [8] M. Planck: "Zur Theorie des Gesetzes der Energieverteilung im Normalspektrum"
+     describes how a supermassive black hole, endowed via accretion with great
+                                                                                                Verhand. Deutschen Phys. Gesell. 2 (1900) 237-245.
+     angular momentum inside and an accretion disk outside, produces counter-
+     directed jets and radiation of great power. I know no other mechanism able             [9] N. Bohr: "The quantum postulate and the recent development of atomic theory"
+     to produce quasars.                                                                        Nature 121 (1928) 580-590. Reprinted in J. A. Wheeler and W. H. Zurek: Quantum
+                                                                                                Theory and Measurement (Princeton University Press, 1983) p.87-126, referred to
+  2. No one has discovered a way to get a particle of wave length A from point                  hereafter as WZ. The mathematics of complementarity I have not been able to
+     A through empty flat space to a point B at a great distance L without its                  discover stated anywhere more sharply, more generally and earlier than in H. Weyl:
+     undergoing on the way a transverse spread of the order ^/L\. This spread                   Gruppentheone und Quantenmechanik (Hirzel, Leipzig, 1928), in the statement that
+     imposes an inescapable limitation on the classical concept of "worldline."                 the totality of operators for all the physical quantities of the system in question form
+                                                                                                an irreducible set.
+References                                                                                 [10] N.Bohr: "Can quantum-mechanical description of physical reality be considered
+                                                                                                complete?" Phys. Rev. 48 (1935) 696-702 reprinted in WZ, p. 145-151.
+ [1] J. Kepler (1571-1630): Harmomces Mundi, 5 books (1619). The appendix to Ke-
+     pler's Book 5 contains one side, the publications of the English physician and        [11] A.Einstein to J.J.Laub, 1908, undated, Einstein Archives; scheduled for publication
+     thinker Robert Fludd (1574-1637) the other side, of a great debate, analysed by            in The Collected Papers of Albert Einstein, group of volumes on the Swiss years 1902-
+     Wolfgang Pauli [W. Pauli: "Der Einfluss archetypischer Vorstellungen auf die Bil-          1914, Volume 5: Correspondence, 1902-1914 (Princeton University Press, Princeton,
+     dung naturwissenschaftlicher Theorien bei Kepler" in Naturerkldrung und Psyche
+                                                                                                New Jersey).
+     (Rascher, Zrich, 1952) p.109-194; reprinted in Wolfgang Pauli: Collected Scientific
+     Papers, eds. R. Kronig and V. F. Weisskopf (Interscience-Wiley, New York, 1964)       [12] J.A.Wheeler: "Assessment of Everett's "relative state" formulation of quantum the-
+     Vol.1, p.1023]. Totally in Contrast to Fludd's concept of intervention from on high        ory" Rev.Mod.Phys. 29 (1957) 463-465.
+     [Utriusque Cosmo Maioris scilicet et Minoris Metaphysica, Physica atque technica
+     Historic,, 1st ed. (Oppenheim, 1621)] was Kepler's guiding principle, Ubi materia,    [13] J.A.Wheeler: "On the nature of quantum geometrodynamics," Ann. of Phys. 2
+     ibi geometria — where there is matter, there is geometry. It was not directly from         (1957) 604-614.
+     Kepler's writings, however, that Newton learned of Kepler's three great geometry-
+     driven findings about the motions of the planets in space and in time, but from the   [14] J. A. Wheeler: "Superspace and the nature of quantum geometrodynamics," in
+     distillation of Kepler offered by Thomas Streete (1622-1689), Astronomia Carolina:         Battelle Rencontres: 1967 Lectures in Mathematics and Physics, eds. C. M. DeWitt
+     A New Theorie of the Celestial Motions (London, 1661).                                     and J. A. Wheeler, (Benjamin, New York, 1968) p. 242-307; reprinted as "Le su-
+                                                                                                perspace et la nature de la geometrodynamique quantique," in Fluides et Champ
+ [2] I. Newton: Philosophiae naturalis principia mathematica, 1st ed. (London, 1687).           Gravitationnel en Relativite Generate, No. 170, Collogues Internationaux (Editions
+                                                                                                de Centre National de la recherche Scientifique, Paris, 1969) p.257-322.
+ [3] A. Einstein: "Zur allgemeinen Relativittstheorie" Preuss. Akad. Wiss. Berlin,
+     Sitzber (1915) p.799-801; also (1915) p. 832-839, 844-847; (1916) p.688-696 and       [15] J. A. Wheeler: "Transcending the law of conservation of leptons," in Atti del Con-
+     (1917) p.142-152.                                                                          vegno Internazionale sul Tema: The Astrophysical Aspects of the Weak Interac-
+                                                                                                tions (Cortona "II Palazzone," 10-12 Giugno 1970), Accademia Nationale die Lincei,
+ [4] J. A. Wheeler: Journey into Gravity and Spacetime (Scientific American Library,
+                                                                                                Quaderno N. 157 (1971) p.133-64.
+     Freeman, New York, 1990), cited hereafter as JGST, offers a brief and accessible
+     summary of Einstein's 1915 and still standard geometrodynamics which capitalizes      [16] C. W. Misner, K. S. Thome and J. A. Wheeler: Gravitation (Freeman, San Fran-
+     on Elie Cartan's appreciation of the central idea of the theory: the boundary of a         cisco, now New York, 1973) p. 1217, cited hereafter as MTW; paragraph on par-
+     boundary is zero.
+                                                                                                ticipatory concept of the universe.
+ [5] J. G. Mendel: "Versuche iiber Pflanzenhybriden" Verhandlungen des Naturforschen-
+                                                                                           [17] J. A. Wheeler: "The universe as home for man," in The Nature of Scientific Discov-
+     den Vereins in Briinn 4 (1866).
+                                                                                                ery, ed. O. Gingerich (Smithsonian Institution Press, Washington, 1975) p. 261-296;
+ [6] C. R. Darwin (1809-1882): On the Origin of Species by Means of Natural Selection,          preprinted in part in American Scientist, 62 (1974) 683-91; reprinted in part as T.
+     or the Preservation of Favoured Races in the Struggle, for Life (London, 1859).            P. Snow, The Dynamic Universe (West, St. Paul, Minnesota, 1983) p.108-109.
+326                          JOHN ARCHIBALD WHEELER                                                                      THE SEARCH FOR LINKS                                         327
+
+
+ [18] C. M. Patton and J. A. Wheeler: "Is physics legislated by cosmogony?," in Quantum       [28] J. A. Wheeler: "Not consciousness but the distinction between the probe and the
+      Gravity, eds. C. Isham, R. Penrose and D. Sciama (Clarendon, Oxford, 1975) p.                probed as central to the elemental quantum act of observation," in The Role of
+      538-605; reprinted in part in Encyclopaedia of Ignorance, eds. R. Duncan and M.              Consciousness in the Physical World, ed. R. G. Jahn (Westview, Boulder, 1981) p.
+      Weston-Smith (Pergamon, Oxford, 1977) p.19-35.                                               87-111.
+
+[19] J. A. Wheeler: "Include the observer in the wave function?" Fundamenta Scientiae:        [29] J. A. Wheeler: "The elementary quantum act as higgledy-piggledy building mecha-
+     Seminaire sur les fondements des sciences (Strasbourg) 25 (1976) 9-35; reprinted in           nism," in Quantum Theory and the Structures of Time and Space, Papers presented
+     Quantum Mechanics A Half Century Later, eds. J. Leite Lopes and M, Paty (R.eidel,             at a Conference held in Tutzing, July, 1980, eds. L. Castell and C. F. von Weizsacker
+     Dordrecht, 1977) p.1-18.                                                                      (Carl Hanser, Munich, 1981) p.27-304.
+                                                                                              [30] J. A. Wheeler: "The computer and the universe," Int. J. Theo. Phys. 21 (1982)
+[20] J. A. Wheeler: "Genesis and observership," in Foundational Problems in the Special
+                                                                                                   557-571.
+     Sciences, eds. R. Butts and J. Hintikka (Reidel, Dordrecht, 1977) p.1-33.
+                                                                                              [31] J. A. Wheeler: "Bohr, Einstein, and the strange lesson of the quantum," in Mind in
+[21] J. A. Wheeler: "The "past" and the "delayed choice" double-slit experiment," in               Nature, Nobel Conference XVII, Gustavus Adolphus College, St. Peter, Minnesota,
+     Mathematical Foundations of Quantum Theory, ed. A. R. Marlow (Academic, New                   ed. Richard Q. Elvee (Harper and Row, New York, 1982) p.1-30 (also 88, 112, 113,
+     York, 1978) p.9-48; reprinted in part in WZ, p.182-200.                                       130-131, 148-40).
+
+[22] J. A. Wheeler: "Frontiers of time," in Problems in the Foundations of Physics,           [32] J. A. Wheeler: Physics and Austerity (in Chinese) (Anhui Science and Technology
+     Proceedings of the International School of Physics "Enrico Fermi" (Course 72), ed.            Publications, Anhui, China, 1982); reprinted in part (Lecture II), in Krisis, Vol.1,
+     N. Toraldo di Francia (North-Holland, Amsterdam, 1979) p.395-497; reprinted in                No.2, ed. I. Masculescu (Klinckscieck, Paris, 1983) p.671-75.
+     part in WZ, p. 200-208.
+                                                                                              [33] J. A. Wheeler: "Particles and geometry," in Unified Theories of Elementary Parti-
+                                                                                                   cles, eds. P. Breitenlohner and H. P. Diirr (Springer, Berlin, 1982) p.189-217.
+[23] J. A. Wheeler: "The quantum and the universe," in Relativity, Quanta, and Cos-
+     mology in the Development of the Scientific Thought of Albert Einstein, Vol. II, eds.    [34] J. A. Wheeler: "Blackholes and new physics," in Discovery: Research and Scholar-
+     M. Pantalco and F. deFinis (Johnson Reprint Corp., New York, 1979) p.807-825.                 ship at the University of Texas at Austin, 7, No.2 (Winter 1982) 4-7.
+
+[24] J. A. Wheeler: "Beyond the black hole," in Some Strangeness in the Proportion:           [35] J. A. Wheeler: "On recognizing law without law," Am. J. Phys. 51 (1983) 398-404.
+     A Centennial Symposium to Celebrate, the Achievements of Albert Einstein, ed. H.         [36] J. A. Wheeler: "Jenseits aller Zeitlichkeit," in Die Zeit, Schrifter der Carl Priedrich
+     Woolf (Addison-Wesley, Reading, Massachusetts, 1980) p.341-375; reprinted in part             von Seiemens-Stiftung, Vol. 6, eds. A. Peisl and A. Mohler (Oldenbourg, Mnchen,
+     in WZ, p.208-210.
+                                                                                                   1983) p.17-34.
+[25] J. A. Wheeler: "Pregeometry: motivations and prospects," in Quantum Theory and           [37] J. A. Wheeler: "Elementary quantum phenomenon as building unit," in Quantum
+     Gravitation, proceedings of a symposium held at Loyola University, New Orleans,               Optics, Experimental Gravitation, and Measurement Theory, eds. P. Meystre and
+     May 23-26, 1979, ed. A. R. Marlow (Academic, New York, 1980) p.1-11.                          M. Scully (Plenum, New York and London, 1983) p.141-143.
+
+[26] J. A. Wheeler: "Law without law," in Structure in Science and Art, eds. P. Medawar       [38] J. A. Wheeler: "Bits, quanta, meaning," in Problems in Theoretical Physics, eds.
+     and J. Shelley (Elsevier North-Holland, New York and Excerpta Medica, Amster-                 A. Giovannini, F. Mancini and M. Marinaro (University of Salerno Press, Salerno,
+     dam, 1980) p.132-54.                                                                          1984) p. 121-141; also in Theoretical Physics Meeting: Atti del Convegno, Amalfi,
+                                                                                                   6-7 maggio 1983 (Edizioni Scientifiche Italiane, Naples, 1984) p. 121-134; also in
+[27] J. A. Wheeler: "Delayed-choice experiments and the Bohr-Einstein dialog," in                  Festschrift in Honour of Eduardo R. Caianiello, eds. A. Giovannini, F. Mancini, M.
+     American Philosophical Society and the Royal Society: Papers read at a meeting,               Marinaro, and A. Rimini (World Scientific, Singapore, 1989) p.133-154.
+     June S, 1980 (American Philosophical Society, Philadelphia, 1980) p.9-40; reprinted      [39] J. A. Wheeler: "Quantum gravity: the question of measurement, ' in Quantum
+     in slightly abbreviated form and translated into German as "Die Experimente der               Theory of Gravity, ed. S. M. Christensen (Hilger, Bristol 1984) p.224-233.
+     verzogerten Entscheidung und der Dialog zwischen Bohr and Einstein," in Moderne
+     Naturphilosophie ed. B. Kanitscheider (Konigshausen and Neumann, Wiirzburg,              [40] W. A. Miller and J. A. Wheeler: "Delayed-choice experiments and Bohr's elemen-
+     1984) p. 203-222; reprinted in Niels Bohr: A Profile, eds. A. N. Mitra, L. S. Kothari,        tary quantum phenomenon," in Proceedings of International Symposium of Foun-
+     V. Singh and S. K. Trehan (Indian National Science Academy, New Delhi, 1985)                  dations of Quantum Mechanics in the Light of New Technology, Tokyo, 1983, eds.
+     p.139-168.                                                                                    S. Kamefuchi et al. (The Physical Society of Japan, Tokyo, 1984) p.140-151.
+328                         JOHN ARCHIBALD WHEELER                                                                    THE SEARCH FOR LINKS                                       329
+
+
+ [41] J. A. Wheeler: "Bohr's 'phenomenon' and 'law without law' " in Chaotic Behavior        [55] Aharonov and D. Bohm: "Significance of electromagnetic potentials in the quantum
+      in Quantum Systems, ed. G. Casati (Plenum, New York, 1985) p.363-378.                       theory" Phys. Rev. 115 (1959) 485-491; J. D. Bekenstein: Baryon Number, Entropy,
+                                                                                                  and Black Hole Physics, Ph.D. thesis, Princeton University (1972); photocopy avail-
+ [42] A. Kheyfets and J. A. Wheeler: "Boundary of a boundary principle and geometric              able from University Microfilms, Ann Arbor, Michigan.
+      structure of field theories," Int. J. Theo. Phys. 25 (1986) 573-580.
+                                                                                             [56] J. Anandan: "Comment on geometric phase for classical field theories," Phys. Rev.
+ [43] J. A. Wheeler: "Physics as meaning circuit: three problems," in Frontiers of Non-           Lett. 60 (1988) 2555.
+      BquiKlibrium Statistical Physics, eds. G. T. Moore and M. 0. Scully (Plenum, New
+      York, 1986) p.25-32.                                                                   [57] J. Anandan and Y. Aharonov: "Geometric quantum phase and angles," Phys. Rev.
+                                                                                                  D38 (1988) 1863-1870; includes references to the literature of the subject.
+ [44] J. A. Wheeler: "Interview on the role of the observer in quantum mechanics," in
+      The Ghost in the Atom, eds. P.C.W. Davies and J. R. Brown (Cambridge University        [58] J. D. Bekenstein: "Black holes and the second law," Nuovo Cimento Lett. 4 (1972)
+      Press, Cambridge, 1986) p.58-69.                                                            737-740.
+
+[45] J. A. Wheeler: "How come the quantum," in New Techniques and Ideas in Quantum           [59] J. D. Bekenstein: "Generalized second law of thermodynamics in black-hole
+     Measurement Theory ed. D. M. Greenberger (Ann. New York Acad. Sci. 480 (1987)                physics," Phys. Rev. D9 (1973) 3292-3300.
+     p.304-316.)
+                                                                                             [60] J. D. Bekenstein: "Black-hole thermodynamics" Physics Today 33 (1980) 24-31.
+[46] J. A. Wheeler: "Hermann Weyl and the unity of knowledge," in Exact Sciences and
+                                                                                             [61] R. Penrose: "Gravitational collapse: the role of general relativity," Riv. Nuovo
+     their Philosophical Foundations, eds. W. Deppert et al. (Lang, Frankfurt am Main,
+     1988) p.469-503; appeared in abbreviated form in American Scientist 74 (1986)                Cimento 1 (1969) 252-276.
+     366-375.                                                                                [62] D. Christodoulou: "Reversible and irreversible transformations in black-hole
+                                                                                                  physics," Phys. Rev. Lett. 25 (1970) 1596-1597.
+[47] J. A. Wheeler: "World as system self-synthesized by quantum networking," IBM
+     J. of Res. and Dev. 32 (1988) 4-15; reprinted, in Probability in the Sciences, ed. E.   [63] D. Christodoulou and R. Ruffini: "Reversible transformations of a charged black
+     Agazzi (Kluwer, Amsterdam, 1988) p.103-129.                                                  hole," Phys. Rev. D4 (1971) 3552-3555.
+[48] D. M. Greenberger, ed.: New Techniques and Ideas in Quantum Measurement The-            [64] S.W. Hawking: "Particle creation by black holes," Commun. Math. Phys. 43 (1975)
+     ory (Annals of the New York Academy of Sciences, Vol.480 (1986)).                            199-220.
+[49] B. d'Espagnat: Reality and the Physicist: Knowledge, Duration and the Quantum           [65] S. W. Hawking: "Black holes and thermodynamics," Phys. Rev. 13 (1976) 191-197.
+     World (Cambridge University Press, Cambridge, 1989).
+                                                                                             [66] W. H. Zurek and K. S. Thome: "Statistical mechanical origin of the entropy of a
+[50] P. Mittelstaedt and E. W. Stachow, eds: Recent Developments in Quantum Logic                 rotating, charged black hole," Phys. Rev. Lett. 20 (1985) 2171-2175.
+     (Bibliographisches Institut, Zrich, 1985).
+                                                                                             [67] MTW, p.1217.
+[51] J. S. Bell: Speakable and Unspeakable in Quantum Mechanics: Collected Papers in
+     Quantum Mechanics (Cambridge University Press, Cambridge, 1987).                        [68] W. Shakespeare: The Tempest, Act IV, Scene 1, lines 148 ff.
+
+[52] J. W. Tukey: "Sequential conversion of continuous data to digital data," Bell Lab-      [69] T. Mann: Freud, Goethe, Wagner (New York, 1937) p.20; trans, by H. T. Lowe-
+     oratories memorandum of 1 September 1947 marks the introduction of the term                  Porter from Freud und die Zukunft (Vienna, 1936).
+     "bit" reprinted in Origin of the term bit, ed. H. S. Tropp (Annals Hist. Computing
+     6 (1984)152-155.)                                                                       [70] G. W. Leibniz as cited in J. R. Newman: The World of Mathematics (Simon and
+                                                                                                  Schuster, New York, 1956).
+[53] W. K. Wootters and W. H. Zurek: "A single quantum cannot be cloned," Nature
+     279 (1982) 802-803.                                                                     [71] N. E. Steenrod: Cohomology Operations (Princeton University Press, Princeton,
+                                                                                                  New Jersey, 1962).
+[54] W. K. Wootters and W. H. Zurek, "On replicating photons," Nature, 304 (1983)188-
+     189.                                                                                    [72] C. Ehresmann: Categories et Structures (Dunod, Paris, 1965).
+330                          JOHN ARCHIBALD WHEELER                                                                    THE SEARCH FOR LINKS                                       331
+
+
+ [73] D. Lohmer: Phanomenologie der Mathematik: Elements einer Phdnornenologischen            [91] W. Heisenberg: "Uber den anschaulichen Inhalt der quantentheoretischen Kine-
+      Aufkldrung der Mathematischen Erkenntnis nach Husserl (Kluwer, Norwell, Mas-                 matik und Mechanik," Zeits. f. Physik 43 (1927) 172-198; English translation in
+      sachusetts, 1989).                                                                           WZ, p.62-84.
+ [74] A. Weil: "De la metaphysique aux mathematiques," Sciences, p.52-56; reprinted in        [92] N. Bohr and L. Rosenfeld: "Zur Frage der Messbarkeit der elektromagnetischen
+      A. Weil: Ouevres Scientifiques: Collected Works, Vol. 2, 1951-64 (Springer, New              Feldgrossen " Mat.-fys. Medd. Dan. Vid. Selsk. 12, no.8 (1933); English translation
+      York, 1979) p.408-412.                                                                       by Aage Petersen, 1979, reprinted in WZ, 479-534.
+
+ [75] J. D. Barrow and F. J. Tipler: The Anthropic Cosmological Principle (Oxford Uni-        [93] D. J. Gross: "On the calculation of the fine-structure constant," Phys. Today 42,
+      versity Press, New York, 1986) and literature therein cited.                                 No.12 (1989).
+[76] See for example the survey by F. Feferman: "Turing in the land of 0(z)," andrelated      [94] N. F. Mott: "The wave mechanics of a-ray tracks," Proc. Roy. Soc. London A126
+     papers on mathematical logic, in R. Herken: The Universal Turing Machine: A Half              (1929) 74-84; reprinted in WZ, p.129-134.
+     Century Survey, (Kammerer and Unverzagt, Hamburg and Oxford University Press,
+     New York, 1988) p.113-147.                                                               [95] H. D. Zeh: "On the interpretation of measurement in quantum theory," Found.
+                                                                                                   Phys. 1 (1970) 69-76.
+[77] H. Weyl: "Mathematics and logic." A brief survey serving as a preface to a review
+     of The Philosophy of Bertrand Russell, Am. Math. Monthly 53 (1946) 2-13.                 [96] H. D. Zeh: The Physical Basis of the Direction of Time (Springer, Berlin, 1989).
+
+                                                                                              [97] E. Joos and H. D. Zeh: "The emergence of classical properties through interaction
+[78] W. V. O. Quine: p.18 in the essay "On what there is," in From a Logical Point of
+                                                                                                   with the environment," Zeits. f. Physik B59 (1985) 223-243.
+     View, 2nd ed. (Harvard University Press, Cambridge, Massachusetts, 1980) p.1-19.
+                                                                                              [98] W. H. Zurek: "Pointer basis of quantum apparatus: Into what mixture does the
+[79] Discovered among graffiti in the men's room of the Pecan Street Cafe, Austin, Texas.
+                                                                                                   wavepacket collapse?," Phys. Rev. D24 (1981) 1516-1525.
+[80] G. W. Leibniz: Animadversiones ad Joh. George Wachteri librum de recondita He-
+                                                                                              [99] W. H. Zurek: "Environment-induced superselection rules," Phys. Rev. D26 (1982)
+     braeorum philosophia, c. 1708, unpublished; English translation in P. P. Wiener,
+     Leibniz Selections (Scribners, New York, 1951) p.488.                                         1862-1880.
+                                                                                             [100] W. H. Zurek: "Information transfer in quantum measurements: irreversibility and
+[81] A. Einstein: as quoted by A. Forsee in Albert Einstein Theoretical Physicist (Macmil-
+                                                                                                   amplification," in Quantum Optics, Experimental Gravitation and Measurement
+     lan, New York, 1963) p.81.
+                                                                                                   Theory, eds. P. Meystre and M. O. Scully (Plenum, New York, 1983) p.87-116.
+[82] MTW, 43.4.
+                                                                                             [101] W. G. Unruh and W. H. Zurek: "Reduction of a wave packet in quantum Brownian
+[83] Ref. 22, p.411.                                                                               motion," Phys. Rev. D40 (1989) 1071-1094.
+
+[84] E. H. Spanier: Algebraic Topology (McGraw-Hill, New York, 1966).                        [102] J. B. Hartle: "Progress in quantum cosmology," preprint from Physics Department,
+                                                                                                   University of California at Santa Barbara, 1989.
+[85] E. Cartan: La Geometric des Espaces de Riemann, Memorial des Sciences Mathe-
+     matiques (GauthierVillars, Paris, 1925).                                                [103] M. B. Green, J. H. Schwarz and E. Witten: Superstring Theory (Cambridge Uni-
+                                                                                                   versity Press, Cambridge, U.K., 1987).
+[86] E. Cartan: Lecons sur la Geometrie des Espaces de Riemann (Gauthier-Villars,
+     Paris, 1925).                                                                           [104] L. Brink and M. Henneaux: Principles of String Theory: Studies of the Centra de
+                                                                                                   Bstudios Cientificos de Santiago (Plenum, New York, 1988).
+[87] MTW, Chap. 15.
+                                                                                             [105] S. W. Hawking: "The Boundary Conditions of the Universe," in Astrophysical Cos-
+[88] M. Atiyah: Collected Papers. Vol. 5: Gauge Theories (Clarendon, Oxford, 1988).                mology, Pontificia Academic Scientiarum, eds. H. A. Briick, G. V. Coyne and M. S.
+                                                                                                   Longair (Vatican City, 1982) p. 563-594.
+[89] Ref. 21, p.41-42; ref. 22, p.397-398.
+                                                                                             [106] A. Vilenkin: "Creation of universes from nothing," Phys. Lett. B117 (1982) 25-28.
+[90] W. K. Wootters and W. H. Zurek: "Complementarity in the double-slit experiment:
+     quantum nonseparability and a quantitative statement of Bohr's principle," Phys.        [107] J. B. Hartle and S. W. Hawking: "Wave function of the universe," Phys. Rev. D28
+     Rev. D19 (1979) 473-484.                                                                      (1983) 2960-2975.
+332                          JOHN ARCHIBALD WHEELER                                                                      THE SEARCH FOR LINKS                                       333
+
+
+
+[108] W. K. Wootters: "The acquisition of information from quantum measurements,"             [125] G. Berkeley: Treatise Concerning the Principles of Understanding, Dublin (1710;
+      Ph.D. dissertation, University of Texas at Austin (1980).                                     2nd ed. 1734); re his reasoning that "No object exists apart from mind," cf. article
+                                                                                                    Berkeley by R. Adamson: Encyclopedia Brittanica, Chicago 3 (1959) 438.
+[109] W. K. Wootters: "Statistical distribution and Hilbert space," Phys. Rev. 23 (1981)
+      357-362.                                                                                [126] T. Segerstedt: as quoted in ref. 22, p.415.
+
+[110] R. A. Fisher: "On the dominance ratio," Proc. Roy. Soc. Edin. 42 (1922) 321-341.        [127] Ref. 21, p.41.
+                                                                                              [128] Ya. B. Zel'dovich and I. D. Novikov: Relativistic Astrophysics, Vol. 1: Stars and
+[Ill] R. A. Fisher: Statistical Methods and Statistical Inference (Haftier, New York, 1956)
+      p.8-17.                                                                                       Relativity (University of Chicago Press, Chicago. 1971).
+                                                                                              [129] J. Mather et al: "A preliminary measurement of the cosmic microwave background
+[112] B. C. G. Stueckelberg: "Theoreme H et unitarite de S," Helv. Phys. Acta 25 (1952)             spectrum by the Cosmic Background Explorer (COBE) Satellite," submitted for
+      577-580.
+                                                                                                    publication, Astrophys. J. Lett. (1990).
+[113] E. C. G. Stueckelberg: "Quantum theory in real Hilbert space," Helv. Phys. Acta         [130] MTW, p.738, Box 27.4; or JGST, Chap. 13, p.242.
+      33 (1960) 727-752.
+                                                                                              [131] G. K. O'Neill: The High Frontier, 4th ed. (Space Studies Institute, Princeton, New
+[114] D. S. Saxon: Elementary Quantum Mechanics (Holden, San Francisco 1964).                       Jersey, 1989).
+
+[115] H. J. Larson: Introduction to Probability Theory and Statistical Inference, 2nd ed.     [132] R. Jastrow: Journey to the Stars: Space Exploration — Tomorrow and Beyond
+      (Wiley, New York, 1974).                                                                      (Bantam, New York, 1989).
+
+[116] E. Schrodinger: "The Foundation of the Theory of Probability," Proc. Roy. Irish         [133] K. Popper: Conjectures and Refutations: the Growth of Scientific Knowledge (Basic
+      Acad. 51A (1947) 51-66 and 141-146.                                                           Books, New York, 1962).
+                                                                                              [134] R. W. Fuller and P. Putnam: "On the origin of order in behavior," General Systems
+[117] E. T. Jaynes: "Bayesian methods: General background," in Maximum Entropy and
+      Bayesian Methods m Applied Statistics, ed. J. H. Justice (Cambridge University                (Ann Arbor, Michigan) 12 (1966)111-121.
+      Press, Cambridge, U.K., 1986) p.1-25.                                                   [135] R. W. Fuller: "Causal and Moral Law: Their Relationship as Examined in Terms
+                                                                                                    of a Model of the Brain," Monday Evening Papers (Wesleyan University Press,
+[118] R. Viertl, ed.: Probability and Bayesian Statistics (World Scientific, Singapore,
+                                                                                                    Middletown, Connecticut, 1967).
+      1987).
+                                                                                              [136] G.M. Edelman: Neural Darwinism (Basic Books, New York, 1987).
+[119] R. D. Rosenkrantz, ed.: B. T. Jaynes: Papers on Probability, Statistics and Statis-
+      tical Physics (Reidel-Kluwer, Hingham, Massachusetts, 1989).                            [137] W. H. Calvin: The Cerebral Symphony (Bantam, New York. 1990).
+
+[120] P. J. Denning: "Bayesian learning," American Sci.77 (1989) 216-218.                     [138] W. W. Collins: The Moonstone (London, 1968).
+
+[121] J. O. Berger and D. A. Berry: "Statistical analysis and the illusion of objectivity,"   [139] J. Allan Hobson: Sleep (Scientific American Library, Freeman, New York, 1989)
+      American Sci. 76 (1988) 159-165.                                                              p.86, 89, 175, 185, 186.
+                                                                                              [140] I. Langmuir: "Pathological Science," 1953 colloquium, transcribed and edited, Phys.
+[122] J. Burke: The Day the Universe Changed (Little, Brown, Boston, Massachusetts,
+      1985).                                                                                        Today, 42, No.12 (1989) 36-48.
+                                                                                              [141] N. S. Hetherington: Science and Objectivity: Episodes in the History of Astronomy
+[123] F. Beck [pseudonym of the early nuclear-reaction-rate theorist Fritz Houtermans]              (Iowa State University Press, Ames, Iowa, 1988).
+      and W. Godin: translated from the German original by E. Mosbacher and D. Porter,
+      Russian Purge and The Extraction of Confessions (Hurst and Blackett, London,            [142] W. Sheehan: Planets and Perception: Telescopic Views and Interpretations (Uni-
+      1951).                                                                                        versity of Arizona Press, Tucson, Arizona, 1988).
+
+124] D. F011esdal: "Meaning and experience," in Mind and Language, ed. S. Guttenplan          [143] M. White: Science and Sentiment in America: Philosophical Thought from Jonathan
+     (Clarendon, Oxford, 1975) p. 25-44.                                                            Edwards to John Dewey (Oxford University Press, New York, 1972).
+                                                                                                                            THE SEARCH FOR LINKS                                    335
+334                          JOHN ARCHIBALD WHEELER
+
+                                                                                                 [159] C. Smorynski: Self-reference   and Model Logic (Springer, Berlin, 1985).
+[144] C. S. Peirce: The Philosophy of Peirce: Selected Writings, ed. J. Buchler (Rout-
+      ledge and Kegan Paul, London, 1940), passages from p.337, 335, 336, 353 and 358;           [160] G. J. Chaitin: Algorithmic Information Theory, rev. 1987 ed., (Cambridge Univer-
+      reprinted in ref. 18, p.593-595. Peirce's position on the forces of Nature, "May they            sity, Cambridge, 1988).
+      not have naturally grown up," foreshadow though it does the concept of world as
+      self-synthesized system, differs from it in one decisive point, in that it tacitly takes   [161] J. P. Delahaye: "Chaitin's equation; an extension of Godel's theorem," Notices
+      time as primordial category supplied free of charge from outside.                                Amer. Math. Soc. 36 (1989) 948-987.
+[145] Parmenides of Elea [c. 515 B.C.-450 B.C.], poem Nature, part Truth, as summarized          [162] J. F. Traub, G. W. Wasilkowski and H. Woznaikowski: Information-Based       Com-
+      by A. C. Lloyd in article Parmenides, Encyclopedia Brittanica, Chicago 17 (1959)                 plexity (Academic, San Diego, 1988).
+      327.
+                                                                                                 [163] P. Young: The Nature of Information (Praeger Greenwood, Westport, Connecticut,
+[146] G.B. Pugh: On the Origin of Human Values (New York, 1976); chapter Human                         1987).
+      values, free will, and the conscious mind preprinted in Zygon 11 (1976) 2-24.
+                                                                                                 [164] W. H. Zurek: "Algorithmic randomness and physical entropy," Phys. Rev. A40
+[147] F. W. 3. von Schelling [1775-1854]: in Schellings Werke, nach der Onginalausgabe                 (1989) 4731-4751.
+      in neuer Anordnung herausgegeben, 6 vols., ed. M. Schroter, (Beck, Miinchen, 1958-
+      1959), esp. Vol.5, p.428-430, as kindly summarized for me by B. Kanitscheider: "dass       [165] M. Eigen and R. Winkler: Das Spiel: Naturgesetze steuern den Zufall        (Piper,
+      das Universum von vorn-herein ein ihm immanentes Ziel, eine teleologische Struk-                 Miinchen, 1975).
+      tur, besitzt und in alien seinen Produkten auf Evolutionare Stadien ausgerichtet           [166] W. M. Elsasser: Reflections on a Theory of Organisms (Orbis, Frelighsburg, Quebec,
+      ist, die schliesslich die Hervoybringung von Selbstbewusstsein einschliessen, welches
+                                                                                                       1987).
+      dann aber wiederum den Entstehungsprozess reflektiert und diese Reflexion ist die
+      notwendige Bedingung fur die Konstitution der Gegenstande des Bewusstseins."               [167] G. Nicols and I. Prigogine: Exploring Complexity: An Introduction (Freeman, New
+                                                                                                       York, 1989).
+[148] J. von Neumann and O. Morgenstern: Theory of Games and Economic Behavior
+      (Princeton University Press, Princeton, New Jersey, 1944).                                 [168] S. Watanabe, ed.: Methodolgies of Pattern Recognition (Academic, New York, 1967).
+
+[149] J. Wang: Theory of Games (Oxford University Press, New York, 1988).                        [169] J. Tou and R. C. Gonzalez: Pattern Recognition Principles (Addison-Wesley, Read-
+                                                                                                       ing. Massachusetts, 1974).
+[150] J. R. Pierce: Symbols, Signals and Noise: The Nature and Process of Communica-
+      tion (Harper and Brothers, New York, 1961).                                                [170] H. Haken, ed.: Pattern Formation by Dynamic Systems and Pattern Recognition
+                                                                                                       (Springer, Berlin, 1979).
+[151] M. Schwartz: Telecommunication Networks: Protocols, Modeling and Analysis
+      (Addison-Wesley, Reading, Massachusetts, 1987).                                            [171] H. Small and E. Garfield: "The geography of science: disciplinary and national
+                                                                                                       mappings," J. of Info. Sci. 11 (1985) 147-159.
+[152] M. S. Roden: Digital Communication Systems Design (Prentice Hall, Englewood,
+      Cliffs, New Jersey, 1988).                                                                 [172] M. Agu: "Field theory of pattern recognition," Phys. Rev. A37 (1988) 4415-4418.
+[153] P. W. Anderson: "More is different," Science 177 (1972) 393-396.                           [173] M. Minsky and S. Papert: Perceptrons: An Introduction to Computational Ge-
+                                                                                                       ometry, 2nd ed. (Massachusetts Institute of Technology Press, Cambridge, Mas-
+[154] C. Mead and L. Conway: Introduction to VLSI [very large-scale integrated-circuit
+                                                                                                       sachusetts, 1988).
+      design] Systems (Addison-Wesley, Reading, Massachusetts, 1980).
+                                                                                                 [174] L. A. Steen: "The science of patterns." Science 240 (1988) 611-616.
+[155] P. B. Schneck: Supercomputer Architecture (Kluwer, Norwell, Massachusetts, 1987).
+                                                                                                 [175] B. M. Bennett, D. D. Hoffman and C. Prakash: Observer Mechanics: A Formal
+[156] F. E. Yates, ed.: Self-Organizing Systems: The Emergence of Order (Plenum, New                   Theory of Perception (Academic, San Diego, California, 1989).
+      York, 1987).
+                                                                                                  [176] J. A. Wheeler: "Polyelectrons," Ann. New York Acad. Sci. 46 (1946) 219-238.
+[157] H. Haken: Information and Self-Organization: A Macroscopic Approach to Complex
+      Systems (Springer, Berlin,                                                                  [1771 D Bohm: "The paradox of Einstein, Rosen and Podolsky," originally published as
+                                                                                                        section 15-19, Chapter 22 of D. Bohm: Quantum Theory (Prentice-Hall, Englewood,
+[158] T. Kohonen: Self-Organization and Associative Memory, 3rd ed. (Springer, New
+                                                                                                        Cliffs, N.J., 1950), reprinted in WZ, 356-368.
+      York, 1989).
+336                        JOHN ARCHIBALD WHEELER
+
+
+[178] W. H. Zurek: "Thermodynamic cost of computation: Algorithmic complexity and
+      the information metric," Nature 34 (1989)119-124.
+
+[179] E. F. Taylor and J. A. Wheeler: Spacetirne Physics (Freeman, San Francisco, 1963)
+      p.102.
+

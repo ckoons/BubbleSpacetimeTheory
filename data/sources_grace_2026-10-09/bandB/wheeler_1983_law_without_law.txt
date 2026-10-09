@@ -1,0 +1,1385 @@
+                      1.13)     LAW WITHOUT                 LAW
+
+                         JOHN ARCHIBALD             WHEELER
+
+                                  *    *     F     K    *
+
+      The second phase of the dialog began in Europe but
+continued in America from Einstein’s arrival at Princeton in
+October, 1933, to his death there in April, 1955. Here Ein-
+stein tried to show that quantum theory— in making what
+happens depend upon what the observer chooses to measure
+—is incompatible with any reasonable idea of reality.'* Bohr’s
+reply'® briefly summarized was this: Your concept of reality
+is too limited.
+
+                               THE    BEAM       SPLITTER
+
+     Of all the idealized experiments taken up by the two
+friends in their effort to win agreement, none 1s simpler than
+the beam splitter of fig. 4. With the final half-silvered mirror
+in place the photodetector at the lower right goes click-click
+as the successive photons arrive but the adjacent counter
+registers nothing. This is evidence of interference between
+beams 4a and 4b; or, in photon                   language, evidence that each
+arriving light quantum has arrived by both routes, A and B.
+In such experiments,” Einstein originally argued, it is unrea-
+sonable      for a single photon                 to travel simultaneously            two
+routes. Remove the half-silvered mirror, as at the lower left,
+and one will find that the one counter goes off, or the other.
+Thus the photon has traveled only one route. It travels only
+one route, but it travels both routes; it travels both routes, but
+it travels only one route. What nonsense! How obvious it is
+that quantum theory is inconsistent!
+* A. Einstein, B. Podolsky and N. Rosen, “Can quantum-mechanical description of
+  physical reality be considered complete?” Physical Review 47: pp. 777-780 (1935).
+
+'°N. Bohr, “Can quantum-mechanical description of physical reality be considered
+  complete?” Physical Review 48: pp. 696-702 (1935).
+
+* The center of discussion in the Bohr-Einstein dialog was more often the so-called
+  double-slit experiment than the beam splitter depicted in figure 4. The latter ts
+  made the focus of aitention here because it presents the central point without
+  getting into the physics of interference patterns.
+
+The first section between stars (* * * * *) appeared in Wheeler, 1981a; the next section
+between stars from Wheeler, 1979; the following from Wheeler, 1980; and the final section
+(a single paragraph) from Wheeler, 1981b. Preparation for publication of all four items was
+assisted by The University of Texas Center for Theoretical Physics and by NSF Grant PHY78-
+                              1.13   LAW    WITHOUT   LAW                                 183
+
+     Bohr emphasized that there is no inconsistency. We are
+dealing with two different experiments. The one with the
+half-silvered mirror removed tells which route. The one with
+the half-silvered mirror in place provides evidence that the
+photon traveled both routes. But it is impossible to do both
+experiments at once. One can observe one feature of nature,
+or the complementary feature of nature but not both features
+simultaneously. What we choose to measure has an irretriev-
+able consequence for what we will find.
+
+
+                                                                                  ~
+
+
+                                                            —                       a”
+                                                                “>>... DELAYED ~~
+                                                                        CHOICE:
+                                                                     $$ IN OR OUT 9
+
+
+
+
+              WHICH                        (~             BOTH                      )
+             ROUTE ?                                     ROUTES ?
+
+
+
+
+Fig. 4. Beam splitter (above) and its use in a delayed-choice experiment (below). An
+electromagnetic wave comes in at 1 and encounters the half-silvered mirror marked
+“WS” which splits it into two beams, 2a and 2b, of equal intensity which are reflected
+by mirrors A and B to a crossing point at the right. Counters (lower left) located
+past the point of crossing tell by which route an arriving photon has come. In the
+alternative arrangement at the lower right, a half-silvered mirror is inserted at the
+pommt of crossing. On one side it brings beams 4a and 4b into destructive interfer-
+ence, so that the counter located on that side never registers anything. On the other
+side the beams are brought into constructive interference to reconstitute a beam, 5,
+of the original strength, 1. Every photon that enters at | is registered in that second
+counter in the idealized case of perfect mirrors and 100 per cent photodetector
+efhciency. In the one arrangement (lower left) one finds out by which route the
+photon came. In the other arrangement (lower right) one has evidence that the
+arriving photon came by both routes. In the new “delayed-choice” version of the
+experiment one decides whether to put in the half-sitvered mirror or take it out at
+the very last minute. Thus one decides whether the photon “shall have come by one
+route, or by both routes” after it has “already done its travel.”
+184                                        WHEELER
+
+
+                         THE     DELAYED-CHOICE         EXPERIMENT
+
+            In our own day we have learned to state the point even
+      more sharply by way of a so-called delayed-choice experi-
+      ment.”' There we make the decision whether to put the final
+      half-silvered mirror in place or to take it out at the very last
+      picosecond, after the photon has already accomplished its
+      travel. In this sense, we have a strange inversion of the nor-
+      mal order of time. We, now, by moving the mirror in or out
+      have an unavoidable effect on what we have a right to say
+      about the already past history of that photon.
+
+
+                                       “PHENOMENON”
+
+            The dependence of what is observed upon the choice of
+      experimental arrangement made Einstein unhappy. It con-
+      flicts with the view that the universe exists “out there” inde-
+      pendent of all acts of observation. In contrast Bohr stressed
+      that we confront here an inescapable new feature of nature,
+      to be welcomed because of the understanding it gives us. In
+      struggling to make clear to Einstein the central point as he
+      saw it, Bohr       found      himself      forced     to introduce            the word
+      “phenomenon.” In today’s words Bohr’s point — and the
+      central point of quantum theory —can be put into a single,
+      simple sentence. “No elementary phenomenon is a phenom-
+      enon      until it is a registered (observed) phenomenon.”                              It is
+      wrong to speak of the “route” of the photon in the experi-
+      ment of the beam splitter. It is wrong to attribute a tangibility
+      to the photon in all its travel from the point of entry to its
+      last instant of flight. A phenomenon is not yet a phenomenon
+
+
+
+      7! 1A. Wheeler, “The ‘past’ and the ‘delayed-choice’ double-slit experiment,” in AR.
+        Marlow,   ed., Mathematical Foundations of Quantum     Theory (Academic      Press,    New
+        York, 1978), pp. 9-48.
+
+      ® “Closed by irreversible amplification”, p. 73; “irreversible amplification,” p. 88: N.
+        Bohr, Atomic Physics and Human    Knowledge (Wiley, New    York,   1958).
+
+      A homely illustration of this idea is provided by the old parlor game of Twenty
+      Questions in the “surprise version” described by the author in several places, most
+      recently in “Beyond   the black hole,” a chapter in H. Woolf, ed., Some Strangeness in
+      the Proportions: An Einsten Centenary Celebration (Addison-Wesley,       Reading,       Mass.,
+       1980).
+                            1.13   LAW   WITHOUT   LAW                                   185.
+
+until it has been brought to a close by an irreversible act of
+amplification such as the blackening of a grain of silver bro-
+mide emulsion or the triggering of a photodetector.” In
+broader    terms,     we   find     that nature     at the quantum           level is
+not a machine that goes its inexorable way. Instead what
+answer we get depends on the question we put, the experi-
+ment we arrange, the registering device we choose. We are
+inescapably involv ed in bringing about that which appears to
+be happening.”?
+
+
+          CONCERN      ABOUT       OBSERVER-PAR     TICIPANCY      ‘TODAY
+
+     Most applications of quantum theory deal with station-
+ary states of elementary particles, of atomic nuclei, atoms,
+molecules and larger systems, and with processes of collision
+between one quantum system and another. Only in recent
+vears has increasing attention come back to the point of cen-
+tral concern of Bohr and Einstein, the elementary quantum
+phenomenon, the process of measurement, the involvement
+of the registering device in bringing about that which appears
+to be happening, the strangest part of a strange subject. How
+can one contemplate indeterminism, complementarity and
+“phenomenon” without being reminded of the words of Ger-
+trude Stein about modern art? “It looks strange and it looks
+strange and it looks very strange; and then suddenly it doesn't
+look strange at all and you can’t understand what made it
+look strange in the first place.” Many investigators, believing
+that the greatest insights are to be won from nature’s strangest
+features, are —in research papers, review articles and books
+— giving fresh coverage of the strange “observer-
+partcipancy” forced to our attention by the quantum.”
+
+
+
+* See lor example   B. d'Espagnat. ed... Foundations of Quantum   Mechames   (Academic
+  Press. New York. 1978): EP. Wigner. “loterpretation of quantum mechanics,” 93
+  pages of mimeographed notes of lectures delivered at Princeton University in
+  1976 ou deposit in Fine Library. Princeton Universits, Princeton, N.J. MLM.
+  Yantase. Mo Nantikt and $. Machida. eds.. Theory of Measurement in Quentum Me-
+  chanis (Phissical Sodets of Japan, Tokyo, 1980); J. A. Wheeler, “Frontiersof ume,
+  in. N. Voraldo di Fraucia. ed., Problems on the Foundations of Physics, Rendiconti
+  della Scuola Imernazionate dit Fisica “Enrico Fermi, LXXLL Corso (North-Hol-
+  land. Anasterdam. 1979).
+186                                          WHEELER
+
+
+                         MANY   QUANTA       VERSUS     ONE   QUANTUM
+
+            How does quantum mechanics today differ from what
+      Bishop George Berkeley told us two centuries ago, “Esse est
+      percipi,” to be is to be perceived?” Does the tree not exist in
+      the forest unless there is someone there to see it? Do Bohr’s
+      conclusions about the role of the observer differ from those
+      of Berkeley?        Yes, and in an important              way.    Bohr deals with
+      the individual quantum process. Berkeley — like all of us
+      under everyday circumstances — deals with multiple quan-
+      tum processes.
+            Pondering the difference between the individual quan-
+      tum phenomenon and the tree that falls, unobserved, in the
+      forest, we walk through the art gallery on our way to visit
+      again a favorite picture. We pass by the painting “Impres-
+      sions,” first shown by Claude Monet in 1863 at the Salon des
+      Refusés. From a tiny dab of color on that canvas in the single
+      second of our passage the pupil of our eye receives 50,000
+      photons. Each is accidental in its direction and time of arrival.
+      The quanta in that hail of information are so numerous that
+      they give the impression of perfect steadiness of illumination.
+      What one of us busy mortals has the time to count them all?
+      We rely instead on some gross and handier measure of inten-
+      sity, such as the eye so aptly passes to the brain. There is no
+      place in that message for the qualifying words, “with a root
+      mean square fluctuation of 224 relative to an average number
+      of photons of 50,000.” Who needs to know about quanta to
+      know the dot of color is there?
+            Unexpectedly the power blacks out. A guard with electric
+      torch pointed at the floor guides our return. Our eye receives
+      no photons from the dab of paint on the canvas. However, a
+      touch of the hand as we pass the painting in the dark is
+      enough to comfort us that it is still there. It would outreach
+      any on-the-spot bookkeeping to count the 10'° atomic points
+      of contact between the fingers and the picture frame, or the
+      even more numerous quantum processes that impinge from
+      the frame onto the fingertips. The message is still clear. How-
+
+
+
+      (5,   Berkeley   (1685-1783) in M.W.   Calkins, ed.. Berkeley: Essays, Principles, Dialogs,
+        with Selections from Other Writings (Scribner, New York, 1929, as reprinted in 1957).
+        pp. 125-126,
+                            1.13   LAW   WITHOUT   LAW                                 187
+
+ever, we now go through a longer chain of theory and inter-
+pretation in reaching the conclusion that the dab of paint is
+still there. Or was the luminous dot of color an illusion cre-
+ated by trick illumination from a concealed lamp? That was
+conceivable when we passed it first but highly unlikely given
+the integrity of the museum and the difficulty of the under-
+taking. During the exit through the dark it is more difficult
+to check against deception but the best indirect evidence one
+has says that the painting is still there with all its dots of color.
+Moreover, one is free to stop and extend the investigation
+and transform questionable evidence into convincing evi-
+dence.
+      When we emerge from the gallery and start thinking
+again of the tree, we recognize that this problem differs from
+the case of the picture only in degree, not in kind. The
+supposition that it fell we can check more and more conclu-
+sively according to the amount of effort we are willing to put
+into investigating impact points, ground dislocations and
+acoustic records. Anything macroscopic that happened in the
+past makes, we know, a rich fallout of consequences in the
+present. But whether we deal with the fall of the tree or the
+evidence for the dab of paint on the canvas or the motion of
+the moon through the sky, the number of quanta that come
+into play is so enormous that the unseen quantum individu-
+ality of the act of observation can hardly be said to influence
+the event observed.
+       In contrast the choice of question asked has a decisive
+consequence for” the elementary quantum phenomenon.
+ For illustration it is enough to recall the inquiry of fig. 4 about
+the “track”      of the photon,          or a similar      inquiry     about    the
+“path” of an electron through a beam splitter or the “motion”
+of an electron in an atom. In each of these examples, more-
+over, at least one of the available choices of question to be
+asked (which route for the photon or electron; or what posi-
+tion or momentum does the electron have in the atom) has a
+
+
+* Why not change “has a decisive consequence for . . .” to “makes all the difference
+  in the elementary quantum phenomenon”? The word “difference” is not allowa-
+  ble. We can do the one experiment or the other experiment but the two experi-
+  ments simply will not fit into one place at one time. We are dealing with one
+  phenomenon, one “act of creation.” The very individuality of the quantum phe-
+  nomenon leaves no place for comparing what is with what might have been.
+188                                          WHEELER
+
+
+      completely unpredictable answer. We can send a million pho-
+      tons through the beam splitter when it is operated in the
+      “which route” configuration at the lower left of fig. 4. Then
+      we can be assured half a million photons, more or less (statis-
+      tical variations of the order of magnitude +500) will be
+      recorded      by each     counter.       However,       when      via the same       ar-
+      rangement we deal with a single photon we have not the
+      slightest possibility to tell in advance which of the two counters
+      it will strike.
+
+
+
+            QUANTUM       OUTCOME:         GOVERNED      BY   HIDDEN      VARIABLES?
+
+            Is there not some underground                     machinery beneath the
+      working of the world which one can ferret out to secure an
+      advance indication of the outcome? Some secret determiner,
+      some “hidden variable”? Every attempt, theoretical or obser-
+      vational, to defend such a hypothesis has been struck down.”
+      Not the slightest hard evidence has ever been found that
+      would throw doubt on the plain, straightforward prediction
+      of quantum        mechanics,         the prediction that no prediction is
+      possible. Probability? Yes. A definite forecast? No. Einstein
+      could be unhappy that “God plays dice”; but Bohr could tell
+      him jokingly, “Einstein, stop telling God what to do.”*
+
+
+                      QUANTUM         OUTCOME:        ALLAH     WILLED     IT?
+
+            If no identifiable machinery                is at hand        to tell the lone
+      photon which way to go then why not simply say of the route
+      it actually    takes,   Allah       willed   it? And    willed      the outcome       of
+      every other individual quantum process?
+            To   strike    down       a    proposal     of    this     kind,     it has   been
+
+
+
+
+      *” For a review of relevant experiments, see especially    FM.    Pipkin. “Atomic physics
+        tests of the basic concepts in quantum mechanics, pp. 281-340 in Advances in
+        Atomic and Molecular Phyucs (Academic Press. New York, 1978).
+
+      *N. Bohr as quoted by J. Bronowski, Phe Ascent of Man (Little. Brown and             Co..
+        Boston/Toronto, 1973), p. 122.
+                          1.13   LAW     WITHOUT    LAW                                  189
+pointed out more than once,” is beyond the power of logic.
+One has to appeal instead to pragmatism. In the struggle for
+survival,   other    things      being    equal,    that    way   of    life will   go
+under that takes all that comes in a blindly fatalistic spirit. To
+evade danger and to seize opportunity every faculty has to
+be mobilized to predict what lies ahead of peril and promise.
+Society charges science with the task of prediction. Science
+makes some progress with the task. In the individual quan-
+tum   process,      however,      prediction       comes     to the     end   of the
+road. Science does not have to be ashamed of its finding. It
+has only to be honest about it. Why demand of science a
+cause when cause there is none?
+
+
+      QUANTUM        OUTCOME:       ELEMENTARY        ACT    OF CREATION?
+
+      How    did the universe come                 into being?         Is that some
+strange,    far-off process,       beyond      hope    of analysis?        Or is the
+mechanism that came into play one which all the time shows
+itself?
+      Of the signs that testify to “quantum phenomenon” as
+being the elementary act of creation, none is more striking
+than its untouchability. In the delayed-choice version of the
+split-beam experiment,            for example,        we have no right to say
+what the photon is doing in all its long course from point of
+entry to point of detection. Until the act of detection the
+phenomenon-to-be is not yet a phenomenon. We could have
+intervened at some point along the way with a different meas-
+uring device; but then regardless whether it is the new reg-
+istering device or the previous one that happens to be triggered
+we have a new phenomenon. We have come no closer than
+before to penetrating to the untouchable interior of the phe-
+nomenon. For a process of creation that can and does operate
+anywhere, that reveals itself and yet hides itself, what could
+one have dreamed up out of pure imagination more magic
+—and more fitting— than this?
+
+
+
+
+° For a discussion of this point I am indebted to Professor Andrew Gleason.
+190                                                     WHEELER
+
+                  DELAYED              CHOICE      AT   THE    COSMOLOGICAL                SCALE
+
+               Of all the features of the “act of creation” that is the
+      elementary quantum phenomenon,                                   the most startling is that
+      seen in the delayed-choice experiment. It reaches back into
+      the past in apparent opposition to the normal order of time.
+      The distance of travel in a laboratory split-beam experiment
+      might be thirty meters and the time a tenth of a microsecond;
+      but the distance could as well have been billions of light years
+      and the time billions of years. Thus the observing device in
+      the here and now, according to its last minute setting one way
+      or the other,             has an irretrievable consequence                           for what one
+      has the right to say about a photon that was given out long
+      before there was any life in the universe.
+               Two     astronomical objects, known                         as 0957 + 561A,B              (fig.
+      5), once considered to be two distinct quasistellar objects or
+      “quasars” because they are separated by six seconds of arc,
+      are considered now by many observers to be two distinct
+      images of one quasar.”’ Evidence has been found for an in-
+      tervening galaxy, roughly a quarter of the way from us to the
+      quasar. Calculations indicate*' that a normal galaxy at such a
+      distance has the power to take two light rays, spread apart by
+
+      °D. Walsh. R.F. Carswell and R.J. Wevmann, °0957+4 56EA,B: iwi quasistellar
+        objects or gravitational lens?" Nature 279: pp. 381-384 (1979); RJ. Weemann. FAL.
+        Chaffee Jr. M. Davis. N.P. Carleton, D. Walsh. and R-FO Carswell. “Muliiple-
+         mirror observations of the twin QSO 0957 4 561A. BY Astophyswal       Jow nal 233,
+         L43-L46 (1979); PJ. Young. WLW. Sargent, J-A. Kristian and ].A. Westphal,
+         “CCD photometry of the nucter of three supergiant elliptical galaxies: evidence
+         for a supermassive object in the center of the radiogalaxy NGC625 17 Astrophysical
+        Journal 234: pp. 76-85 (1979); D-H. Roberts, PE. Greenheld and BoP Baurke,
+        “The double quasar 0957 + 561: a radio study at 6 centimeters wavelength” Sener
+        205: pp. 894-896 (1979): G.G, Pooles. 1. Browne, EJ. Daintree. P-K. Moore, R.G.
+        Noble and D. Walsh, “Radio stucies of the double QSO 0957 + S6EA,BS Nature
+        280:    pp.   461-464     (1979):    PE.   Greenheld.     D.H.    Roberts   and    BF   Burke.   “The
+        double quasar 0957 + 561: examination of the gravitational lens hypothesis using
+        the vers large array.” Scrence 208: pp. 495-497 (1980): PJ. Young, J.-E. Guiue. JA.
+        Kristian. J.B. Oke and J.A. Westphal, “Q0957         4 56LA.B: a gravitational tens
+        formed bv a galaxs atz = 0.390 Astrophysical Journal in press (1980); B. Wills and
+        D. Wills. “Spectrophotometrs of the double QSO 0957 + 561" Avtaphyswal        Jaw nal
+        238: pp. 1-9 (1980): BIT. Soifer, G. Neugebauer. K. Matthews. E.E. Beckliu. C.G.
+        Winn-Williams and R. Capps. “IR observations of the double quasar 0957 + 561A.B
+        and the intervening galaxy.” Nature 285: pp. 91-93 (1980),
+
+        C.C.    Dyer and        R.C.    Roeder, “Possible multiple imaging by spherical galaxies.”
+        Asbaphyswal
+                Jow nal 238,                L67-L.70 (L980):    C.G.     Dyer and   R.G.   Roeder, “A range
+        of time delays for the double quasar  0957
+                                                + 56LA.B. Astapiyseal                           Jow nal. sub-
+        mitted for publication June 16, 1980.
+                                1.13 LAW   WITHOUT    LAW                                   191,
+
+
+
+
+                           ’                                           ar. >a   OY]
+
+Fig. 5. Left, the double quasistellar object (“quasar”; red shift z = 1.41), identified
+by its right ascension and declination as 0957 + 561A,B, and suspected to be the two
+images    — produced by gravitational lens action—of one and the same quasar. This
+photograph, made at the University of Hawaii telescope by Alan Stockton and
+kindly communicated and discussed by Derek Wills of the University of Texas at
+Austin, is the digital sum of five one-minute exposures in red light (5700 to 7000A).
+The stellar images appear elongated because of a telescope tracking problem. Right,
+the same digital photographic record after a stellar profile has been subtracted from
+the southern image (B), the residual being compatible with the existence near B of
+a lensing galaxy (G-1). Evidence has been found by Young, Gunn, Kristian, Oke
+and Westphal at Caltech for such a galaxy (0.02” to the West and 0.8” North of B;
+red shift   z =   0.39), much   closer to B than to A (which   is 1.2” to the West and 6”
+North of B), and for its membership im a cluster of perhaps [000 to 10,000 galaxies
+(centered 2” to the West and      15” North of B).
+192                                     WHEELER
+
+
+      fifty thousand light years on their way out from the quasar,
+      and bring them back together at the Earth. This circum-
+      stance, and evidence for a new case of gravitational lensing,”
+      make it reasonable to promote the split-beam experiment in
+      the delayed-choice version from the laboratory level to the
+      cosmological scale as illustrated in fig. 6.
+            We get up in the morning and spend the day in medita-
+      tion whether to observe by “which route” or to observe inter-
+      ference between “both routes.” When night comes and the
+      telescope is at last usable we leave the half-silvered mirror out
+      or put it in, according to our choice. The monochromatizing
+      filter placed over the telescope makes the counting rate low.
+      We may have to wait an hour for the first photon. When it
+      triggers a counter, we discover “by which route” it came with
+      the one arrangement; or by the other, what the relative phase
+      is of the waves associated with the passage of the photon
+      from source to receptor “by both routes”— perhaps 50,000
+      light years apart as they pass the lensing galaxy G-1. But the
+      photon has already passed that galaxy billions of years before
+      we made our decision. This is the sense in which, in a loose
+      way of speaking, we decide what the photon shall have done
+      after it has already done it. In actuality it is wrong to talk of
+      the “route” of the photon. For a proper way of speaking we
+      recall once more that it makes no sense to talk of the phe-
+      nomenon until it has been brought to a close by an irrever-
+      sible act of amplification: “No elementary phenomenon is a
+      phenomenon until it is a registered (observed) phenomenon.”
+
+
+
+
+      * RJ. Weymann, D. Latham, J.R.P. Angel, R.E. Green, J.W. Liebert, D.A. Turnshek,
+        D.E. Turnshek and J.A. Tyson, “The triple QSO PG1115 +08: another probable
+        gravitational lens,” Nature 205: pp. 641-643 (1980).
+                             1.13   LAW   WITHOUT      LAW                                193
+
+    c—~\
+ (RECEPTOR          (© DELAYED CHOICE              »
+
+                                          FIBER
+                                          OPTICS
+                                          DELAY
+                                          LOOP
+
+
+
+
+                       ai
+
+
+                                      TELESCOPE
+
+
+
+
+Fig. 6. Proposed delayed-choice experiment extending over a cosmological reach
+of space and time. Left, quasar Q recorded at receptor as two quasars by reason of
+the gravitational lens action of the intervening galaxy G-1. Middle, schematic design
+of receptor for delayed-choice experiment: (a) filter to pass only wave lengths in a
+narrow interval, corresponding to a long wave train, suitable for interference ex-
+periments; (b) lens to focus the two apparent sources onto the acceptor faces of two
+optic fibers; (c) delay loop in one of these fibers of such length, and of such rate of
+change of length with time, as to bring together the waves traveling the two very
+different routes with the same, or close to the same, phase. Right, the choice. Upper
+diagram, nothing is interposed in the path of the two waves at the crossing of the
+optic fibers. Wave 4a goes into counter I, and 4b into counter II. Whichever of
+these photodetectors goes off, that    — in a bad way of speaking  — signals “by which
+route, a or b, the photon in question traveled from the quasar to the receptor.”
+Lower diagram, a half-silvered mirror, S, is interposed as indicated at the crossing
+of the two fibers. Let the delay loop be so adjusted that the two arriving waves have
+the same phase. Then there is never a count in I. All photons are recorded in II.
+This result, again in a misleading phraseology, says that “the photons in question
+come by both routes.” However, at the time the choice was made whether to put in
+‘4S or leave it out, the photon in question had already been on its way for billions of
+years. It is not right to attribute to it a route. No elementary phenomenon is a
+phenomenon untt it is a registered phenomenon.
+194                                          WHEELER
+
+
+                             THE    “PAST”    IN THE    LIGHT    OF
+                         THE DELAYED-CHOICE EXPERIMENT
+           To use other language,              we are dealing with an elemen-
+      tary act of creation. It reaches into the present from billions
+      of years in the past. It is wrong to think of that past as
+      “already existing” in all detail. The “past” is theory. The past
+      has no existence except as it is recorded in the present. By
+      deciding what questions our quantum registering equipment
+      shall put in the present we have an undeniable choice in what
+      we have the right to say about the past.
+           What we call reality consists (fig. 7) of a few iron posts of
+      observation between which we fill in by an elaborate papier-
+      maché construction of imagination and theory.**
+            Spacetime in the prequantum dispensation was a great
+      record parchment. This sheet, this continuum, this carrier of
+      all that is, was and shall be, had its definite structure with its
+      curves, waves and ripples; and on this great page every event,
+      like a glued down grain of sand, had its determinate place.
+      In this frozen picture a far-reaching modification is forced by
+      the quantum. What we have the right to say of past spacetime,
+      and past events, is decided by choices— of what measure-
+      ments to carry out — made in the near past and now. The
+      phenomena called into being by these decisions reach back-
+      ward in time in their consequences as indicated in fig. 8, back
+      even to the earliest days of the universe. Registering equip-
+      ment operating in the here and now has an undeniable part
+      in bringing about that which appears to have happened. Use-
+      ful as it is under everyday circumstances to say that the world
+      exists “out there” independent of us, that view can no longer
+      be upheld. There is a strange sense in which this is a “parti-
+      cipatory universe.”
+
+
+
+
+      * In this connection see especially E.H. Gombrich, Art and Illusion: A Study in the
+        Psychology of Pictortal Representation (Princeton University Press, Princeton, N.J..,
+         1961, 2nd edition. revised), pp. 273, 329 and 394.
+                            1.13 LAW   WITHOUT     LAW                                  195
+
+
+
+
+Fig. 7. What we call “reality,” symbolized by the letter “R” in the diagram, consists
+of an elaborate papier-maché construction of imagination and theory fitted in
+between a few iron posts of observation.
+196                                          WHEELER
+
+
+                          FROM      MEASUREMENT           TO   MEANING
+
+           We cannot speak in these terms without a caution and a
+      question. The caution: “Consciousness” has nothing whatso-
+      ever to do with the quantum process. We are dealing with an
+      event that makes itself known by an irreversible act of am-
+      plification, by an indelible              record,”** an act of registration.
+      Does that record subsequently enter into the “consciousness”
+      of some person, some animal or some computer? Is that the
+      first step in translating the measurement into “meaning” —
+      meaning regarded as “the joint product of all the evidence
+      that is available to those who communicate”??? Then that is a
+      separate part of the story, important but not to be confused
+      with “quantum phenomenon.”
+
+
+
+             1S THE    UNIVERSE CONSTRUCTED OUT                     OF ELEMENTARY
+                                  PHENOMENA?
+
+           From this caution we turn to the question: If the ele-
+      mentary quantum process is an act of creation, is an act of
+      creation of any other kind required to bring into being all
+      that is?
+           At first sight no question could seem more ridiculous.
+      How fantastic the disproportion seems between the micro-
+      scopic scale of the typical quantum phenomenon and the
+      gigantic reach of the universe!                    Disproportion, however, we
+      have learned, does not give us the right to dismiss. Else how
+      would we have discovered that the heat of the carload of
+      molten pig iron goes back for its explanation to the random
+      motions of billions of microscopic atoms and the shape of the
+      elephant to the message on a microscopic strand of DNA? Is
+      the term “big bang” merely a shorthand way to describe the
+
+
+
+      * EY. Belinfante, Measurements and Time Reversalin Objective Quantum Theory (Oxford
+        University Press, Oxford,     1975); terminology “indelible,” p. 39.
+
+      © D. Fdllesdal, “Meaning and experience” in S. Guttenplan, ed., Mind and Language
+        (Clarendon   Press, Oxford,    1975), pp. 254.    Fgllesdal’s article, the other articles in
+       this book and the references they make to the still larger literature of meaning, a
+       central topic of philosophy in Britain and America in recent decades, will indicate
+       the representative character of this statement.
+                                  1.13 LAW   WITHOUT     LAW                                   197
+
+cumulative consequence of billions upon billions of elemen-
+tary acts of observer-participancy reaching back into the past,
+as symbolized in fig. 8?
+     An old legend describes a dialog between Abraham and
+Jehovah. Jehovah chides Abraham, “You would not even
+exist if it were not for me!” “Yes, Lord, that I know,’ Abraham
+replies, “but also You would not be known if it were not for
+me   9936
+
+     In our time the participants in the dialog have changed.
+They are the universe and man. The universe, in the words
+of some who would aspire to speak for it, says, “I am a giant
+machine. I supply the space and time for your existence.
+There was no before before I came into being, and there will
+
+“ Thanks are expressed          here to Professors Lawrence P. Horwitz, Zvi Kurzweil,
+  Yuval Ne’eman, Asher          Peres, Shmuel Sambursky, Lawrence Schulman and Elie
+ Wiesel, each for his part in leading the author to this legend and documenting it,
+ as follows: (i) H. Freedman and M. Simon, translators and eds., Midrash Rabbah,
+ Genens I (Soncino Press, London, 1939), p. 238, commentary on “Noah walked
+ with God”: “The God before whom my fathers Abraham and Isaac did walk, etc. (Genesis
+ 48:15). R. Berekiah in R. Johanan’s name and Resh Lakish gave two illustrations
+ of this. R. Johanan said: It was as if a shepherd stood and watched his flocks. Resh
+ Lakish said: It was as if a prince walked along while the elders preceded him
+ (Footnote: As an escort, to make known his coming. Similarly, Abraham and Isaac
+ walked before God, spreading His knowledge]. On R. Johanan’s view: We need
+ His proximity, On the view of Resh Lakish: He needs us to glorify Him (Footnote:
+ By propagating the knowledge of His greatness].” (it) /bid, p. 357, commentary
+ on, “And he blessed him, and said: blessed be Abram of the God most high, who
+ has acquired [Koneh = maker of] heaven and earth” (Genesis 14:19): “From
+ whom then did He acquire them?— Said R. Abba: [Acquired is attributive,] as
+ one says, So-and-so has (Koneh = in possession of] beautiful eyes and hair. R.
+ Isaac said: Abraham used to entertain wayfarers, and after they had eaten he
+ would say to them, ‘Say a blessing, ‘What shall we say?’ they asked. ‘Blessed be the
+ God of the Universe of Whose bounty we have eaten,’ replied he. Then the Holy
+  One, blessed be He, said to him: ‘My Name        was not known among      My creatures,
+  and thou hast made it known among them: I will regard thee as though thou wast
+  associated with Me in the creation of the world’... .” (iii) Deuteronomy 32:10:
+  “He found him [Jacob] in a desert land, and in the waste howling wilderness; he
+  led him about, he instructed him, he kept him as the apple of his eye,” as com-
+  mented on in Sifre [analogous to the Midrash of (i) and (ii) but contains in addition
+  to the Aggadic or legend of the Midrash the Halakhic or law; ed, in the Holy
+  Land before the end of the 4th century A.D.] §313, “he led him about”: “This is
+  related to Genesis     12:1, ‘Get thee out of thy country’...    .; ‘he instructed   him’:
+  .... before our father Abraham came into this world it seemed as if the Lord,
+  Blessed Be He, reigned only in Heaven, since it is said, ‘The Lord, God of Heaven,
+  which took me from my father’s house’ (Genesis 24:7). But once Abraham had
+  come      into the world (=    was born], he Abraham    [thereby] enthroned    Him   over
+  Heaven and Earth” (translation from the Hebrew by Y. Ne’eman). (iv) Isaiah 43:10:
+  “Ye are my witnesses, saith the Lord, and my servant whom I have chosen, that ye
+  may know and believe me, and understand that I am he: before me there was no
+  God formed, neither shall there be after me.”
+198                                       WHEELER
+
+
+
+
+      me                                  K ‘
+                                       BIG          BANG
+                             JME    ZL LNA                 KAZ.               Z
+
+                                     — SPACE —=
+      Fig. 8. Symbolic description how all that “has happened” im the past is influenced
+      by choices made in the present as to what to observe. The upper tip of each “leaf”
+      stands for the elementary act of registration. The lower end of each leaf stands for
+      the beginning of the elementary phenomenon being investigated by the observa-
+      tional means at hand. Is anything else required to make up space and time and all
+      their burden of physical content except the information carrted in the elementary
+      quantum acts thus symbolized? [Details in the original publication.]
+                          1.13   LAW    WITHOUT     LAW                              199
+
+be no after after I cease to exist. You are an unimportant bit
+of matter located in an unimportant galaxy.”
+    How      shall   we   reply?       Shall   we   say, “Yes,   oh   universe,
+without you I would not have been able to come into being.
+Yet you, great system, are made of phenomena; and every
+phenomenon rests on an act of observation. You could never
+even exist without elementary acts of registration such as
+mine”?
+     Are elementary quantum phenomena, those untoucha-
+ble, indivisible acts of creation, indeed the building material
+of all that is? Beyond particles, beyond fields of force, beyond
+geometry, beyond space and time themselves, is the ultimate
+constituent, the still more ethereal act of observer-partici-
+pancy? For Dr. Samuel Johnson the stone was real enough
+when he kicked it. The subsequent discovery that the matter
+in that rock is made of positive and negative electric charges
+and more than 99.99 per cent empty space does not diminish
+the pain that it inflicts on one’s toe. If the stone is someday
+revealed to be altogether emptiness, “reality” will be none the
+worse for the finding.
+      Roland M. Frye, in reminding us” of Shakespeare and
+of ways of seeing, gives us opportunity to recall those words
+of almost four hundred years ago,
+    And as imagination bodies forth
+    The form of things unknown, the poet’s pen
+    Turns them to shapes, and gives to airy nothing
+    A local habitation and a name.
+     Are billions upon billions of acts of observer-partici-
+pancy the foundation of everything? We are about as far as
+we can be today from knowing enough about the deeper
+machinery of the universe to answer this question. Increasing
+knowledge about detail has brought an increasing ignorance
+about plan. The very fact that we can ask such a strange
+question shows how uncertain we are about the deeper foun-
+dations of the quantum and its ultimate implications.
+
+
+
+
+"RLM. Frye, “Ways of seeing: unities and disunities in Shakespeare and Elizabethan
+  painting,” infra, pp-43 ff.
+200                                           WHEELER
+
+
+                        THE     QUANTUM:      ITS   USES
+                                                      — AND              ITS   USE
+
+             To encounter the quantum                   is to feel like an explorer
+        from a faraway land who has come for the first time upon an
+        automobile.         It is obviously   meant      for use, and an important
+        use, but what use? One opens the door, cranks the window
+        up and down, flashes the lights on and off, and perhaps even
+        turns over the starter, all the time without knowing the central
+        point of the thing. The quantum is the automobile. We use
+        the quantum in a transistor to control machinery, in a mole-
+        cule to design an anesthetic, in a superconductor to make a
+        magnet. Could it be that all the time we have been missing
+        the central point, the use of the quantum phenomenon in
+        the construction of the universe itself?
+             We     have turned over the starter. We                           haven’t got the
+        engine going.
+
+
+      1. — Law    without    law.
+                                                    species    will   never    vary,   and     have    renained
+                                                    the sane     since    the creation       of each   species.
+
+                                                    Charles LYELL [1], writing               almost three
+                                                    decades before The Origin                of Species
+
+                                                    [The astronomer Sir John Frederick Willian]
+                                                    Herschel says my book
+                                                    is ‘the law of higgledy-piggleddy °.
+                                                    Charles Darwin [2], 18 days after
+                                                    the November 24, 1859 publication
+                                                    of The Origin of Species
+
+
+          Are the laws of physics eternal and immutable?        or are these laws, like
+      species, mutable [3] and of « higgledy-piggledy » origin?
+          The hierarchical speciation of plant and animal life, we now know, arises
+      owt of the blind accidents of genetic mutation and natural selection [5, 6].
+      Likewise the gas laws, the pressure-volume-temperature relation for water
+      and for other substances, and the laws of thermodynamics take their origin
+      in the chaos of molecular collisions. But as for the molecules themselves, the
+      particles of which they are made and the fields of force that couple them,
+      is it conceivable that they too derive their way of action, their structure and
+      even their existence from multitudinous accidents?
+         Such questions about the «plan» of physics we would hardly raise if we
+      had the skeleton of it in hand. But we don’t. Now and then we meet a colleague
+      in another realm of thought who still thinks physics is in possession of this
+      plan. He cites the words of Laplace[7] and reiterates the Laplacean vision
+      as he understands it: the laws are definite, the initial co-ordinates and mo-
+      menta are definite, and therefore the future is definite. The Universe is 4 machine.
+                                      1.13 LAW     WITHOUT       LAW                                  201
+
+
+No, we have to tell him; that is a cracked paradigm.    Quantum mechanies
+allows us to know a co-ordinate, or a momentum, but not both. Of the initial-
+valnte data that LarLack needed, the principle of complementarity    [8] or
+indeterminacy [9] says half do not and cannot exist.
+
+
+    You tell me what isn’t the plan of physies, our friend rejoins. Tf you under-
+stand quantum mechanics so well, why don’t you tell we what zs the plan of
+physics?
+    No one knows, we reply. We have clues, clues most of all in the writings
+of Bohr [23-25], but no answer.        That he did not propose an answer, not
+philosophize, not go an inch beyond the soundest fullest statement of the in-
+escapable lessous of quantum mechanics, was his way to build a clean pier for
+some later day's bridge to the future.
+     What kind of a «plan of physics» do you think Bour had in mind, our
+colleague asks. I know Einstein’s words [26], « Physies is an attempt to grasp
+reality as it is thonght independently of its being observed ». I know Bohr’s
+reply [28], « These conditions [of measurement] constitute an inherent clement
+of any phenomenon to which the term ‘ physical reality’ can be attached ...,
+[This requires] a final renunciation of the classical ideal of causality and a
+radical revision of our attitude towards the problem of physical reality ». But
+if T could have asked Bour, how did he think the Universe came into being,
+and what is its substance, what would he have said?
+     It is too late to ask. The plan is up to us to find.
+     The Universe can’t be Laplacean. It may be higgledy-piggledy. But have
+hope. Surely someday we will see the necessity of the qnantum in its construc-
+tion. Would you like a little story along this line?
+     Of course! About what?
+     About the vame of tweuty questions. You recall how it goes—one of the
+after-dinner party sent out of the living room, the others agreeing on a word,
+the one fated to be questioner returning and starting his questions. «Is it a
+living object?» «No.»       «Is it here on earth?» «Yes.» So the questions go
+from respondent to respondent aronnd the room until at length the word
+emerges: victory if in twenty tries or less; otherwise, defeat.
+     Then comes the moment when we are fourth to be sent from the room.
+ We    are locked out unbelievably long. On finally being readmitted, we find
+a   smile   on   everyone's   face,    sign   of   a joke   or   a plot.   We   innocently   start   our
+questions. At tirst the answers come quickly. Then each question begins to
+take longer in the answering—strange, when the answer itself is only a simple
+«yes» or «no»     At length, feeling hot on the trail, we ask,   «Is the word
+‘cloud’?»   «Yes»,   comes   the reply, and everyone bursts out laughing.
+When we were out of the room, they explain, they had agreed not to agree in
+202                                                 WHEELER
+
+
+      advance on any word at all. Each one around the circle could respond « yes »
+      or «no» as lie pleased to whatever question we put to him. But however he
+      replied he had to have a word in mind compatible with his own rejly—and
+      with all the replies that went before. No wonder some of thoxe decisions be-
+      tween «yes» and «no» proved so hard!
+          And the point of your story?
+          Compare the game in its two versions with physies in its two formulations,
+      classical and quantum.     First, we thought the word already existed « out
+      there » as physies once thought that the position and momentum of the electron
+      existed «out there», independent of any act of observation. Second, in ac-
+      tuality the information about the word was brought into being step by step
+      through the questions we raised, as the information about the electron is
+      brought into being, step by step, by the experiments that the observer ¢hooses
+      to make. Third, if we had ehosen to ask diflerent questions we would have
+      ended up with a different word—as the experimenter would have ended up
+      with a ditferent story for the doings of the electron if he had measnred dif-
+      ferent quantities or the same quantities in a different order. Fonrth, whatever
+      power we had in bringing the partienlar word «cloud » into being was partial
+      only. A major part of the selection—unknowing selection—lay in the ¢ ves»
+      or   «no»   replies   of   the   colleagues    aronnd   the   room.   Sinilarly.   tite   experi-
+      menter has some sibstantial influence on what will ltappen to the electron
+      by the choice of experiments he will do on it: but he knows there is naieh im-
+      predietability about what any give one of lis measurements will disclose.
+      Fifth, there was a «rule of the game » that reqnired of every participator that
+      his choice of yes or no should be compatible with some word. Siuilariy. there
+      ix a consistency about the observations made in physics. One person must
+      be able to tell another in plain langnage what he finds and the second person
+      must be able to verify the observation.
+          Go on!
+          That is difficult! Interesting (hongh our comparison is between the world
+      of physies and the world of the game, there is an important point of difference.
+      The game has few participants and terminates after a few steps. In contrast,
+      the making of observations is a continuing process. Moreover. it is extraor-
+      dinarily difficult to state sharply and ¢learly where the community of observer-
+      patticipators begins and where it ends.
+           This comparison between the world of quantum observations and the game
+      of twenty questions misses much, but it makes the vital central point. In the
+      real werld of quantum physics, no elementary phenomenon is a phenomenon
+      until it is an observed phenomenon. In the surprise version of the game no word
+      is a word until that word is promoted to reality by the choice of questions asked
+      and answers given. «Cloud » sitting there waiting to be found as we entered
+      the room?      Pure delnsion!    Momentnm, p, = 1.4-10 18 gems,       or position,
+      e -= 0.31-10 8em, of the electron waiting to be found as we start to probe
+      the atom? Pure fantasy! MANN may be going too far when he suggests [29]
+      that «... we are actually bringing about what seems to be happening to us ».
+      However, it is undeniable that each of us, as observer, ix also eve of the par-
+      ticipators in bringing « reality » into being,
+                                         1.13 LAW     WITHOUT        LAW                                         203
+
+
+
+    To say «no elementary phenomenon is a phenomenon until it is an ob-
+served phenomenon » is to make no small ehange in our traditional view that
+something     has     «already         happened     » before   we    observe      it.   The    word   « clond »,
+we niistakenly thought, already existed in the room before we «uncovered »
+it. The photons of the primordial cosmic fireball radiation that enter our tele-
+scope today, we customarily assume, already had an existence in the very
+earliest days of the Universe, long before Hfe evolved. However, not until
+we catch a partictlar one of those photons in a particular state with particular
+parameters, not until the elementary phenomenon is an observed phenomenon,
+do we have the right even to eall it a phenomenon. This is the sense, the imited
+sense, bnt the ineseapable sense, in which we, here, now, have a part in bringing
+ abont that which ¢ had already happened » at a time when no observers existed.
+     But what about the nnbelievably more numerous relict photons that escape
+ onr teleseope? Surely you do not deity them «reality »?
+     Of course not; but their «reality » is of a paler and more theoretic hue.
+ The vision of the Universe that is so vivid in our minds is framed by a few
+ ivon posts of true observation—themselves also resting on theory for their
+ meaning—but most of the walls and towers in the vision are of papier-nmaché,
+ plastered in between those posts by an immense labor of imagination and theory.
+ Tn this labor, «¢... we can never neatly separate what we see fron. what we
+ know... what we call seeing is invariably coloured and shaped by our knowl-
+ edge (or belief} of what we see» [61].     «Without some initial system, withont
+ a first guess to which we can stick uniess it is disproved, we could ... make
+ ho ‘sense’ of the millards of ambiguous stimuli that reach us from onr environ-
+ ment. In order to learn, we must make mistakes ... the simplicity hypothesis
+ eannot be learned. It ix... the only condition under which we contd learn at
+ all» [62], «... ow mind will still react to the challenge of this conundrum
+ fof what we ‘see*] by throwing ont a random answer, making ready to test
+ it in terms of consistent possible worlds. It ix these answers that will transform
+  the ambignous stimulus pattern into the image of something ‘out there’ » [63].
+      What keeps these images of something «out there » from degenerating into
+ separate and private wilverses: one observer, one universe: another observer,
+another universe?
+    That is prevented             by     the very    solidity of those iron posts,             the elementary
+acts of observership-participaney. That is the importance of Bohr's point
+that no observation is an observation unless we can communicate the results
+of that observation to others in plain language [49].
+
+
+
+    The only thing harder to understand than a law of statistical origin wonld
+be a law that is not of statistical origin, for then there would be ne way for
+it—or its progenitor principles—to come into being. On the other hand, when
+we   view    each     of    the   laws     of   physies—and         no   laws    are    more    magnificent      in
+scope   or   better        tested—as       at   bottom   statistical       in   character,     then   we   are   at
+last able to forego         the idea of a law that endures               from   evevlasting     to everlasting.
+204                                                  WHEELER
+
+
+          Individual events. Events beyond law. Events so numerous and so unco-
+      ordinated that, flaunting their freedom from formula, they yet fabricate firm
+      form.
+          « Fabricate form»?     Do you suggest that even the 4-dimensional space-
+      tine manifold is only a fabrication, only a theory—irreplaeeable convenience
+      though that theory is?
+          Yes! Compare space-time with cloth. Each it is useful under everyday
+      cireumstances to call a manifold.     Yet each is cxactly then most obviously
+      not a manifold where it comes to an end, whether in the selvedge made by the
+      loom, or in the geodesic terminations made by one of the «gates of time »—
+      hig bang or big ernnich (31, 32] or black hole [33]. Nowhere more clearly than
+      in the ending of space-time are we warned that time is not an ultimate category
+      in the description of Nature [34].
+          Aren’t you being extreme? I see the lesson of the game of twenty questions.
+      T begin to believe with you that no elementary phenomenon is a phenomenon
+      until it is an observed phenomenon. I accept that events of observer-partici-
+      pancy, as you     call them, oeeupy a special place in the seheme of things.
+      I agree that that word «cloud» was brought into being entirely through such
+      elementary        events.    But that such events, however numerous,                 should be the
+      sole blocks for building the laws of pliysies—and space and time themselves—
+      scems to me preposterous,     You surely have been involved enongh in times
+      past with nuts-and-bolts physies to know the difference between science and
+      poetry: yet if appreciate the drift of what you say, vou might as well be quoting
+      SIPVKUSPEARE [35],
+
+                            ... These   onr    actors,
+                            As I foretold you, were all spirits and
+                            Are melted into air, into thin air:
+                            And, like the baseless fabrie of this vision,
+                            The cloud-eapp’d towers, the gorgeous palaces,
+                            The solemn temples, the great globe itself,
+                            Yeu, all which it inherit, shall dissolve
+                            And, like this insubstantial pageant faded,
+                            Leave not a rack behind. We are such stuff
+                            As dreams are made on...
+
+          T can't believe any such dreamlike vision of the plrysical world.          As
+      Sanutiel JOHNSON used to say, I have only to kick a stone to find it real enough.
+          Why do you say «preposterous»?        Perhaps    SHAKESPEARE      understood
+      this   universe    of ours   better     than   we   do   ourselves!   You   have   known   for years
+      that the atom is more than 99.99 percent emptiness. If matter turns out in
+      the end toe be altogether ephemeral, what difference can that make in the pain
+      you feel when you kick the rock? And how can matter—and space-time—be
+      anything but mutable, coming into being at one gate of time and fading out
+                                1.13 LAW WITHOUT LAW                            205
+
+of existence at the other? No physics before the big bang, or after the big
+crunch?    No!   The lesson of Einstein’s standard closed-space cosmology is
+different and stronger. It denies all meaning to such terms as « before the
+hig bang» and «after the big crunch ».
+    Particles or fields or mathematics won’t do for ultimate building blocks.
+They can't come into being or fade out of existence [30].
+    Yes, I appreciate the reasons given [36] against believing in any « magie
+particle » or any « magic field » or [37] any «magic mathematics » as the foun-
+dation of physics; but isn’t it even more difficult to think of acts of observer-
+participancy as the magic ingredient?
+   Difticult,   yes;   inconceivable,   no.
+     Go on!
+     No, we have to stop here. It is beyond the power of today to fit together
+the pieces of the puzzle.
+     Don’t stop! You've carried me halfway into an exciting mystery story.
+You can’t leave me without the traditional half-way-point review of the im-
+portant clues and first try at a working hypothesis.
+     Review? A proper review would be impossibly ambitious. And how can
+one advance a working hypothesis that will not be wrong tomorrow and
+ridiculous the day after?
+     I appeal to you to go on. You have told me more than once that science
+advances onlv by making all possible mistakes; that the main thing is to make
+the mistakes as fast as possible—and recognize them. You like to quote the
+motto of that engine inventor, John Kris:        «Start her up and see why she
+don’t run ». You point to Einstein’s definition of a scientist, « An unscrupulous
+opportunist». If you believe all this, and are a true colleague of mine, you
+must go on.
+      You leave no escape!
+      Good!
+      Then let us agree to go on; but let us replace the comprehensive review of
+clues that. you wanted by something more modest. How would it do, for ex-
+ample, to survey some of the lessons we have learned from the study of time,
+and how those lessons bear on « observer-participancy »?
+      I accept, and with many thanks. But first tell me the central point as
+you see it.
+      The absolute central point would seem to be this: The Universe had to
+have a way to come into being out of nothingness, with no prior laws, no Swiss
+ watehworks, no nucleus of crystallization to help it—as on a more modest
+ level, we believe, life came into being out of lifeless matter with no prior hfe
+to guide the process [5, 6, 38].
+    When we say «out of nothingness » we do not mean out of the vacuum of
+physics. The vacuum of physics is loaded with geometrical structure and
+vacuum fluctuations and virtual pairs of particles. The Universe is already
+206                                      WHEELER
+
+
+      in existenee when we have such a vacuum. No, when we speak of nothing:
+      ness we mean nothingness: neither structure, nor law, nor plan.
+           A eoneeption more clearly impossible I never heard!
+           Preposterous we have to agree is the idea that everything is produced out
+      of nothing—as preposterous, but perhaps also as ineseapable, as the view that
+      life had its origin in lifeless matter.
+           But how?
+           « Omnibus ex nihil ducendis sufficit unum», LErBNIz told us [39]; for pro-
+      ducing everything out of nothing one principle is enough.       Of all principles
+      that might meet this requirement of Leibniz nothing stands out more strikingly
+      in this era of the quantum than the necessity to draw a Hne between the ob-
+      server-participator and the system under view.       Without that demarcation
+      it would make no sense to do quantum mechanics, no sense to speak of quantum
+      theory of measurement, no sense to say that «No elementary phenomenon is
+       a phenomenon until it is an observed phenomenon ». The necessity for that
+       line of separation is the most mysterious feature of the quantum.       We take
+       that demarcation as being, if not the central principle, the clue to the central
+      principle in constructing out of nothing everything.
+          Let me ask if your reasoning couldn't be turned around. You talk of the
+      observer-participaney of quantum theory as the mechanism for the Universe
+      to come into being. Tf that is a proper way of speaking, would the converse
+      not also hold: The strange necessity of the quantum as we see it everywhere
+      in the scheme of physies comes from the requirement that—via observer-
+      participancy—the Universe should have a way to come into being?
+          Your point is exciting indeed. If true—and it is attractive—it should provide
+      someday a means to derive quantum mechanies from the requirement that the
+      Universe must have a way to come into being [40].
+          I know that in that empty courtyard many a game cannot be a game until
+      a Hne has been drawn—it does not matter where—to separate one side from
+      the other. J know that no Gaussian flux integral can be a flux integral until
+      the 2-surface over which it runs—bumpy and rippled though we make it and
+      deform it as we will—has been extended to closure. But how much arbitrariness
+      is there in this more ethereal kind of demareation, the Hne between     «system »
+      and  «observing device »?
+          Much arbitrariness! Bonn stresses [42] that the stick we hold ean itself
+      be an object of investigation, as when we run our fingers over its surface. The
+      same stick, when grasped firmly and used to explore something else, becomes
+      ain extension of the observer or—when we depersonalize—a part of the meas-
+      uring equipment. As we withdraw the stick from the one role, and recast it
+      in the other role, we transpose the line of demareation from one end of it to
+      the other, The distinction between the probed and the probe, so evident at
+      this seale of the everyday, is the without-which-nothing of every elementary
+      phenomenon, of every «closed » quantun process.
+                                 1.13 LAW   WITHOUT   LAW                              207
+
+    Do we possess today any mathematical or legalistie          formula   for what   the
+line is or where it is to be drawn?
+    No.
+    Then whut is important about this demareation?
+    Existence, yes; position, no. It is the mark of an observation to leave an
+«indelible » reeord, according to BELINFANTE [43].      WiGXER argues that an
+observation is only then an observation when it becomes part of «the con-
+sciousness of the observer » [44] and points to « the impressions which the ob-
+server reecives as the basic entities between         which quantum   mechanics pos-
+tulates correlations » [45]. For Bonr the central point is not « consciousness »y
+not even an « observer», but an experimental device—grain of silver bromide,
+Geiger counter, retina of the eye—capable of an irreversible act of amph-
+fication »[47]. This act brings the measuring process to a « close » [48]. Ouly
+then, he emphasized,         is one person able «to describe the result of the mieas-
+urement to another in plain language »[49].     He adds that «all departures
+from common language and ordinary logic are entirely avoided by reserving
+the word ‘phenomenon’ solely fer referenee to unambiguously communicable
+information » [50].
+    I would have felt very uncomfortable if Bomr had used the term « con-
+sciousness » in defining the elemental act of observation.   I would not have
+known what he meant. However, I am beginning to understand and aceept
+the terms he actually adopts, «brought to a elose by an ‘.reversible act of
+amplification » and «communicable in plain language », What iras his position
+on Consciousness?
+    We have asked Jorgen KALCKAR, who collaborated with Por in his iast
+months, and he has kindly replied [51], «During work on the preparation of
+some lecture, to define the phenomenon of consciousness, Bore used a phrase
+somewhat like this: a behaviour s0 complex that an adequate account would
+require references to the organism’s ‘self-awareness’.     | objected jokingly
+that with this definition he wowd soon have to ascribe a consciousness to the
+highly developed electronic computers.     This did not worry Bowr.     ‘I am
+absolutely prepared’, said he, ‘to talk of the spiritual life of an clectronic
+computer: to state that it is reflecting or that it is in a bad mood.... The
+question whether the machine really feels or ponders, or whether it merely
+looks ax though it did, is of course absolutely meaningless’. »
+    Other outstanding thinkers have argued otherwise. For them « conscious-
+ness» makes an unclimbable difference of principle between even the most
+powerful imaginable computer and the brain [52].
+   Do   you   agree   with    that   argument?
+     How ean we possibly accept such a difference of principle?
+    Do we not believe that brain function itself will someday be explained en-
+tirely in terms of physical chemistry and clectrochemical potentials? What
+escape is there from the reasoning of von Neumann [53] and Bohr and many
+208                                           WHEELER
+
+
+      active’ present-day investigators?  When one of the three discoverers of the
+      mechanism of supereonductivity today gives us, ehapter by chapter and verse
+      by verse, an entirely cellular aceount of the mechanism of memory [54-56],
+      whe can dismiss it?
+          When a distinguished computer expert and student of the structure of
+      society details, one by one, the distinctions proposed in times past between
+      « consciousness » and the computer, and painstakingly analyzes each down to
+      Nothingness [57], what case can anyone possibly maintain for any distinction
+      of principle between the computer and the brain?
+          Iam happy not to have to delve today into the term « consciousness ».
+      T find it hard enough to know what to make of «irreversible act of ampli-
+      fication ». Never have I heard of an act of amplification that was not charae-
+      terized by an amplification factor, or an equivalent quantity: and never an
+      amplification factor that was not a finite number.
+          Between infinity and a finite number there may be a difference of principle:
+      but between one finite number and another there is only a difference of degree.
+      How big does the grain of silver bromide have to be, or the avalanche of elec-
+      trons in the Geiger counter, before we count the measuring process as brought
+      to a close by an irreversible act of amplification?
+          According as I specify one or another number           as the critical level of ampli-
+      fication. don’t I make all the difference between          rating or not rating a given
+      process as an «clementary phenomenon »?
+           According as the closed Gaussian surface encloses a given elementary charge
+      or not, we find an unmistakable difference in the surface integral of the electric
+      flux. Nevertheless, we know enough about the relevant invariance principle
+      never to question the correctness of always identifying fiux with enclosed charge.
+      Abont «elementary quantum phenomenon» we have not today learned, but
+      have a deep obligation someday to learn, enough to display a similar covariance
+      with respect to where we draw the line. That is what « complementarity »
+      is all abont.
+         Even if neither you nor I know how           to define that line, I like the idea that
+      the « game» in the empty conrtyard is only then possible when a linc is drawn.
+      May I question you now about the game itself? How would you describe it
+      if forced   to commit   yourself?
+
+                                          *   *   *     *    *                 -
+                                             1.13 LAW     WITHOUT      LAW                                209
+
+     From “nothingness ruled out as meaningless,’’'’* to the line of distinction that rules it out;
+from this dividing line to ‘‘phenomenon’’;            from one phenomenon to many; from the statistics of
+many to regularity and structure: these considerations lead us at the end to ask if the universe is
+not best conceived as a self-excited circuit'®’ (Fig. 22.13): Beginning with the big bang, the universe
+expands and cools. After eons of dynamic development it gives rise to observership. Acts of
+observer-participancy — via the mechanism of the delayed-choice experiment — in turn give tangi-
+ble ‘reality’ to the universe not only now but back to the beginning. To speak of the universe as a
+self-excited circuit is to imply once more a participatory universe.
+
+
+
+
+Fig. 22.13   The universe viewed as a self-excited circuit. Starting small (thin U at upper right), it grows (loop
+of U) and in time gives rise (upper left) to obsever-participancy — which in turn imparts ‘‘tangible reality’’
+(cf. the delayed-choice experiment of Fig. 22.9) to even the earliest days of the universe.
+
+
+ 106, 107 See the original publication for these rather long references.
+           210                                                WHEELER
+
+
+            If the views that we are exploring here are correct, one principle, observer-participancy, suf-
+      fices to build everything. The picture of the participatory universe will flounder, and have to be re-
+      jected, if it cannot account for the building of law; and space-time as part of law; and out of law
+      substance. It has no other than a higgledy-piggledy way to build law: out of the statistics of billions
+      upon billions of acts of observer-participancy each of which by itself partakes of utter
+      randomness.
+
+
+                                                              Two Tests
+
+            No test of these views looks more like being someday doable, nor more interesting and more
+      instructive,    than   a derivation     of   the   structure   of   quantum   theory   from   the   requirement   that
+      everything have a way to come into being'** — as the word ‘‘cloud’’ was brought into being in the
+      surprise version of the game of twenty questions. No prediction lends itself to a more critical test
+      than this, that every law of physics, pushed to the extreme, will be found to be statistical and
+      approximate, not mathematically perfect and precise.
+
+
+                                           The Challenge of ‘‘Law without Law’”’
+
+            We can ask ourselves if it is not absolutely preposterous to put into a formula anything at first
+      sight so vague as law without law and substance without substance. How can we hope to move
+      forward with no solid ground at all under our feet? Then we remember that Einstein had to per-
+      form the same miracle. He had to reexpress all of physics in a new language. His curved space
+      seemed to take all definite structure away from anything we can call solidity. In the end physics,
+      after being moved bodily over onto the new underpinnings, shows itself as clear and useful as ever.
+      We have to demand no less here. We have to move the imposing structure of science over onto the
+      foundation of elementary acts of observer-participancy.'°? No one who has lived through the
+      revolutions made in our time by relativity and quantum mechanics — not least through the work
+      of Einstein himself — can doubt the power of theoretical physics to grapple with this still greater
+      challenge.
+
+
+
+
+  Recent decades have taught us that physics is a magic window. It shows us the illusion that lies
+behind reality—and the reality that lies behind illusion. Its scope is immensely greater than we once
+   Bized. We are no longer satisfied with insights only into particles, or fields of force, or geometry, or
+  mM space and time. Today we demand of physics some understanding of existence itself.
+
+
+
+
+  108. 109 See the original publication for these rather long references.
+                                                 1.13 LAW   WITHOUT    LAW                                         211
+
+REFERENCES
+
+
+[1]    C. Lyer.: Principles of Geology, being an attempt to explain the former changes
+       oj the earth’s surfaces, by reference to cause now in operation, Vol. 11 (London,
+        1830-1833).
+       C. Darwin: as quoted in H. Warp: Darwin: The Man and His Warfare (India-
+       napolis, Ind., 1927), p. 297.
+       J. A. WHEELER: From relativity to mutability, in ref. [4], pp. 202-247.
+       J. MeEnra, editor: The Physicists’ Conception of Nature (Dordrecht, 1973).
+       M. ErezEn: The origin of biological information, in ref. [4], pp. 594-632.
+       M. Eicen and R. WINKLER: Das Spiel: Naturgesetze steuern den Zufall (Mun-
+        chen,        1975).
+       P. S. Lariack: Essai philosophique sur les probabilités (Paris, 1814), 2nd edition,
+       pp. 3-4.
+       N. Bourn: Das Quanienpostulat und die neuere Entwicklung der Atomistik, Natur-
+        wiss.,       16,   245-257     (1928).
+[9]     W. HErseNBERG: Uber den auschaulichen Inhalt der quantentheoretischen Kine-
+        matik und Mechanik, Zeits. Phys., 43, 172-198 (1927).
+[10]    J. BURCKHARDT: Die Kultur der Renaissance in Italien (Leipzig, 1860); authorized
+        Enuglixh translation from the 15th edition, by 8. G. C. MippLemMorE:                            The Civiliza-
+        lion of the Renaissance in Italy (New York, N.Y., 1929).
+(11)    P. Gay: Style in History (New York, N. Y., 1974).
+[12]    H. Everett ITI: The theory of the universal wave function, doctoral dissertation,
+        Princetou University (1957); published in abbreviated form in ref. [13]; published
+        in full for the first time in ref. [14].
+        H. Everett            III: « Relative state» formulation of quantum mechanics,                     Rev.    Mod.
+       Phys., 29, 454-462 (1957); reprinted in ref. [14].
+       B. 8. DeWitT and N. Granam, editors: The Many-Worlds Interpretation of
+       Quantum Mechanics (Princeton, N. J., 1973).
+       J. von NEUMANN:       Mathematischen Grundlagen der Quantenmechanik (Berlin,
+        1932); translated as Mathematical Foundations of Quantum Mechanics (Princeton,
+       N. J., 1955).
+[16]   J. A. WHEELER: Assessment of Kverett’s «relative state» formulation of quantum
+       mechanics, Rev. Mod. Phys., 29, 463-465 (1974); reprinted in ref. [14].
+(17]   E. P. Wigner: Epistemological perspective on quantum theory, in Contemporary
+       Research in the Foundations and Philosophy of Quantum Theory, edited by C. A.
+       Hooker (Dordrecht, 1973), pp. 369-385.
+[18]   E. P. WicNER: Remarks on the mind-body question, in The Scientist Speculates,
+       edited by I. J. Goop (London, 1962), pp. 284-302.
+[19]   E. P. WicnER: Are we machines?, Proc. Amer. Phil. Soc., 118, 95-101 (1969).
+[20]    E.      P.   WIGNER:         Physies     and the explanation   of life, Found.    Phys.,     1, 35-45     (1970).
+[21]    C. F. von WEIzSACKER: Classical and quantum decriptions, in ref. [4], pp. 635-667.
+[22]    J. A. WieEE Er: Include the observer in the wave function?, in Quantum Mechanics,
+        a Half Century Later, edited by J. LErrE Lopres and M. Paty (Dordrecht, 1977).
+[23]      . Bour: Atomic Theory and the Description of Nature (Cambridge, 1934).
+
+       ZAA4 A
+[24]       . Bonr: Atomie Physics and Human Knowledge (New York, N. Y., 1958).
+[25]      . Bour: Essays 1958-1962 on Atomic Physics and Human Knovledge (New York,
+             . Y., 1963).
+[26]    A.      EInstein: Autobiological Notes, in ref. [27],             quotation      from   p.   81.
+                                                               WHEELER
+
+
+       P.    A.    Scuitpp,          editor:     Albert        Einstein:          Philosopher-Scientist                         (Evanston,           IIL,
+       1949), and subsequent paperback editions elsewhere.
+       N. Bour: Can quantum-mechanical description of physical reality be considered
+       complete?, Phys. Rev., 48, 696-702 (1935); the quotation comes from p. 697.
+       T. Mann: Ereud, Goethe, Wagner (New York, N. Y., 1937), p. 20; translated
+       by    H.    T.      Lowk-Porter           from       Freud      und    die       Zukunft        (Vienna,                 1936);      the     cited
+       words       were         included      in the lecture          given       at the       80th        birthday               celebration         for
+       Sigmund            FREup,       8 May        1936.
+[30]   C. S. Prerrce: The Philosophy of Peirce: Selected Writings, edited by J. BUCHLER
+       (London, 1940); paperback reprint, Philosophical Writings of Peirce (New York,
+       N.    Y.,        1955);     «fallibilist », p.       338,
+(31)   B.    K.    Harrison, M. Wakano                      and J. A. WHEELER:                  Matter-energy at high density;
+       end    point        of     thermonuclear       evolution,       in    La     structure         et        Vévolution            de    Vunivers,
+       Onziéme conseil de physique Solvay (Bruxelles, 1958), pp. 124-146; terminology
+       «crushing points », pp. 134-136.
+       J. R. Gorr III, J. E. Gunn, D. N. Scuramm and B. M. TrvstEy: Will the
+       Universe expand forever, Sci. Amevr., 234, 62-79 (March 1976); terminology « big
+       crunch », p. 69.
+[33]   J.    A.    WHEELER:             Our    universe:       the    known       and    the    unknown,                    address        before     the
+       American Association for the Advancement of Science, New York, December 29,
+       1967; Amer. Scholar, 37, 248-274 (1968); terminology « black hole », pp. 258-262.
+[34]   J. A. WHEELER: Superspace and the nature of quantum geometrodynamics, in
+       Battelle Rencontres: 1967 Lectures in Mathematics and Physics, edited by C. DEWITT
+       and J. A. WHEELER (New York, N. Y., 1968), pp. 242-307; «no before, no after »,
+       p. 253.
+[35]   W.    SHAKESPEARE:                The     Tempest,          London,         about        1610;            Prospero             in     Act     IV,
+       Scene       J,     lines    148-158.
+[36]   J.    A. WHEELER:               ref. [3]; no magic particle, no magic field, p. 235.
+[37]   C. M. Patron and J. A. WHEELER: Is physics legislated by cosmogony?, in Quantum
+       Gravity, edited by C. J. IsHam, R. PENROSE and D. W. Scrama (Oxford, 1975);
+       0 nlagic mathematics, pp. 589-591. © Oxford University Press 1975, by per-
+       inission of Oxford University Press. Appreciation also expressed! to Charles Patton
+       for permission to quote cited passages.
+       A. I. Opanrin, editor: Evolutionary Biochemistry, Proceedings of the V Inter-
+       national Congress on Biochemistry (Moscow, 1961; London, 1963), pp. 12-51.
+       G. W.Lerpyiz: source of quotation not traced.
+       J. A. WHEELER: Genesis and Observership, ref. [41], pp. 3-33; see p. 29.
+       R. E. Burts and K. J. Hrytixka: Foundational Problems in the Special Sciences
+       (Dordrecht, 1977).
+       N.    Bour:          ref. [23];     Bohr’s     stick,     p.    99.
+       F. J. BELINFANTE: Jeasuremenis and Time Reversal in Objective Quantum Theory
+        (Oxford, 1975); terminology «indelible », p. 39.
+        E. P. WiGNER: Are we machines?, Proc. Amer. Phil. Soc., 113, 95-101 (1969);
+        quotation from p. 97.
+        E, P. WiGNER: The philosophical problem, in ref. [46], pp. 1-3; quotation from
+       p. 3.
+       B. p’Espacnat,                editor:     Foundations           of Quantum              Mechanics                   (New     York,         N. Y.,
+       1971).
+       Z . Bourn:          ref. [24]; irreversible amplification, p. 88.
+       N. Bonr:            ref. [24]; closed by irreversible amplification,                                     p.        73.
+       N. Boner:           ref. [25]; plain language, p. 3.
+       N.    Bourn:        ref. [25];      unambiguously              communicable,             pp.        5,        6.
+                                                1.13 LAW             WITHOUT         LAW                                               213
+
+
+{4]]    J. Karckar: letter to J. A. WHEELER dated June 10, 1977, Appreciation is expres-
+        sed here to Dr. J. Katckar both for the letter and for subsequent permission
+        to quote from it. He adds that he cannot guarantee to have correet wording;
+        and that Bohr’s reply, as so often, was a joke with a definite « point »—henee
+        to be taken seriously, but not quite seriously.
+[52]    K. R. Popper and J. C. Eccies: The Self and Iis Brain (Berlin, New York, N. Y.,
+        and London, 1977); see espeeially pp. 207-208, 438-440 and 515.
+[53]    J. Vox NEUMANN: The Computer and the Brain (New Haven, Conn., 1958);
+        see especially pp. 60-61.
+[54]    L. N. Cooper: A possible organization of animal memory and learning, in Nobel
+         Symposium on the Collective Properties of Physical Systems, edited by B. LuNDevIST
+         and 8. Lunpevist (New York, N. Y., 1973), pp. 252-264.
+[55]    M. M. Nass and L. N. Cooper: dA theory for the development of feature-detecting
+         cells in visual cortex, Biol. Cyber., 19, 1-18 (1975).
+[56]     L. N. Cooper: A theory for the acquisition of animal memory, in Lepton and Hadron
+         Structure (1974 International School of Subnuclear Physics, Evice, Trapani, Sicily:
+         July 14-31, 1974), edited by A. Zicnicnui (New York, N. Y., 1975), pp. 808-839.
+[57]    G.    E.   Pueu:      On   the      Origin     of Human             Values       (New      York,       N. Y.,    1976),   chapter
+        «Human           values,   free will,         and       the     conscious        mind»;          preprinted      in Zygon,       11,
+        9.24 (1976).
+[58]    INTERNATIONAL UNION OF PURE AND APPLIED Piysics: Report of the Commission
+        on Symbols, Units and Nomenclature (Amnsterdain, 1948).
+[59]    J.    A.   WHEELER:           The     «past»         and      the   « delayed-choice » double-slit               experiment,         in
+        ref. [60].
+[60]    A. R. Martow, editor: Mathematical Foundations of Quantum          Theory (New
+        York, N. Y., 1978).
+[61]    E. H. GompBricu: Art and Illusion: A Study in the Psychology of Pictorial Repre-
+        sentation        (Princeton,        N.J.,          1961),     2nd     edition,        revised,    p.    394.    Appreciation         is
+        expressed to Prof. E. H. Gompricn and Prineecton University Press for permis-
+        sion to quote cited passages in the text.
+ [62]   E. H. Gompricu: ref. [61], p. 273.
+ [63]   E. H. Gomsricnu: ref. [61], p. 329.
+ [64]   A. Erystrry, B. Popoisky and N. Rosen: Can quantum-mechanical description
+        of physical reality be considered complete?, Phys. Rev., 47, 777-780                                               (1935).
+ [65]    R.   M.   F.     Houtaprent,          H.     Van       Dam         and    E.    P.    WicNerR:         The     conceptual     basis
+        and use of the geometric invariance principles, Rev. Mod. Phys., 37, 595-632 (1965);
+        see especially §§ 4.1-4.5 on pp. 610-616.
+ [66]   C. N. Yana and R. L. Minis: Conservation of isotopic spin and isotopic gauge
+        invariance, Phys. Rev., 96, 191-195 (1954).
+ [67]   S. Hosman, K. Kucuar and C. TE1rELBoim: New approach to general relativity,
+         Nature         Phys. Sci., 245, 97-98 (1973).
+ [68]    S. A. Housman, K. Kucnar and C. TrirELBorm: Geometrodynamics regained,
+         Ann, of Phys., 76, 88-135 (1976).
+ [69]    C. TrerrELpomm: Surface deformations, space-time structure and gauge invariance,
+         in Relativity, Fields, Strings and Gravity: Proceedings of the Second Latin  American
+         Symposium on Relativity and Gravitation SILARG JI held in Caracas, Decem-
+         ber 1975, Universidad Simon Bolivar, edited by C. ARaGoNE (Caracas, 1976).
+ [70]    J. E. Nevson and C. Trrrersom:             Hamiltonian for the Einstein-Dirac field,
+         Phys. Lett., 69 B, 81-84 (1977).
+ [71]    J. A. WHEELER: ref. [3]; machinery hidden, pp. 236-240.
+ [72]    J.   A.   WHEELER:           Beyond          the    end      of time,      Marchon        lecture,      University       of   New-
+         eastle    Upon       Tyne,      May         18,     1971,      and       Nuffield lecture,            Cambridge     University,
+

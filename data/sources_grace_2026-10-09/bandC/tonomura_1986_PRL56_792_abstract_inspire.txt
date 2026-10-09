@@ -1,0 +1,5 @@
+INSPIRE-HEP record for doi:10.1103/PhysRevLett.56.792 (retrieved 2026-10-09 via https://inspirehep.net/api/literature?q=doi:10.1103/PhysRevLett.56.792)
+Title: Evidence for Aharonov-Bohm effect with magnetic field completely shielded from electron wave
+Journal: Phys.Rev.Lett. 56 (1986) 792
+Abstract (source: APS):
+Evidence for the Aharonov-Bohm effect was obtained with magnetic fields shielded from the electron wave. A toroidal ferromagnet was covered with a superconductor layer to confine the field, and further with a copper layer for complete shielding from the electron wave. The expected relative phase shift was detected with electron holography between two electron beams, one passing through the hole of the toroid, and the other passing outside. The experiment gave direct evidence for flux quantization also.

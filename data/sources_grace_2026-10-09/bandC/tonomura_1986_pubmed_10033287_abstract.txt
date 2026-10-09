@@ -1,0 +1,9 @@
+1. Phys Rev Lett. 1986 Feb 24;56(8):792-795. doi: 10.1103/PhysRevLett.56.792.
+
+Evidence for Aharonov-Bohm effect with magnetic field completely shielded from 
+electron wave.
+
+Tonomura A, Osakabe N, Matsuda T, Kawasaki T, Endo J, Yano S, Yamada H.
+
+DOI: 10.1103/PhysRevLett.56.792
+PMID: 10033287

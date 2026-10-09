@@ -1,0 +1,590 @@
+doi:10.1038/nature08574
+
+LETTERS
+A limit on the variation of the speed of light arising
+from quantum gravity effects
+A list of authors and their affiliations appears at the end of the paper
+
+A cornerstone of Einstein’s special relativity is Lorentz invariance—
+the postulate that all observers measure exactly the same speed of
+light in vacuum, independent of photon-energy. While special relativity assumes that there is no fundamental length-scale associated
+with such invariance, there is a fundamental scale (the Planck scale,
+lPlanck < 1.62 3 10233 cm or EPlanck 5 MPlanckc2 < 1.22 3 1019 GeV),
+at which quantum effects are expected to strongly affect the nature
+of space–time. There is great interest in the (not yet validated) idea
+that Lorentz invariance might break near the Planck scale. A key test
+of such violation of Lorentz invariance is a possible variation of
+photon speed with energy1–7. Even a tiny variation in photon speed,
+when accumulated over cosmological light-travel times, may be
+revealed by observing sharp features in c-ray burst (GRB) lightcurves2. Here we report the detection of emission up to 31 GeV
+from the distant and short GRB 090510. We find no evidence for
+the violation of Lorentz invariance, and place a lower limit of
+1.2EPlanck on the scale of a linear energy dependence (or an inverse
+wavelength dependence), subject to reasonable assumptions about
+the emission (equivalently we have an upper limit of lPlanck/1.2 on the
+length scale of the effect). Our results disfavour quantum-gravity
+theories3,6,7 in which the quantum nature of space–time on a very
+small scale linearly alters the speed of light.
+On 10 May 2009, at T0 5 00:22:59.97 UT, both the Gamma-ray Burst
+Monitor (GBM)8 and the Large Area Telescope (LAT)9 onboard the
+Fermi Gamma-ray Space Telescope triggered on the very bright short
+GRB 090510 (hereafter all times are measured relative to T0). Groundbased optical spectroscopy data, taken 3.5 days later10, exhibited
+prominent emission lines at a common redshift of z 5 0.903 6 0.003,
+corresponding to a luminosity distance of dL 5 1.8 3 1028 cm (for a
+standard cosmology of [VL, VM, h] 5 [0.73, 0.27, 0.71]). The GBM
+light curve (Fig. 1b, c; 8 keV–40 MeV) consists of seven main pulses.
+After the first dim short spike near trigger-time, the flux returns to
+background level; the main GBM emission starts at 0.53 s and lasts
+,0.5 s. The main LAT emission above 100 MeV starts at ,0.63 s and
+lasts ,1 s with a decaying tail that extends to ,200 s.
+A single 31-GeV photon was detected at 0.829 s, which coincides in
+time with the last of the seven GBM pulses (Fig. 1b, c, f). The nature of
+this Fermi/LAT event as a photon (rather than a background cosmic
+ray) was confirmed with very thorough analysis (see Supplementary
+Information section 1). We find the directional and temporal coincidence of this photon with GRB 090510 to be very significant, at .5s
+confidence, and find the 1s confidence interval for its energy to be
+27.97–36.32 GeV.
+The known distance10 (z 5 0.903 6 0.003) of GRB 090510 and the
+detection of .1 GeV photons less than a second from its onset allow us
+to constrain the possible variation of the speed of light with photonenergy (known as photon dispersion: one form of the Lorentz
+Invariance Violation, LIV). Some quantum-gravity theories2,4,5 are consistent with the photon-propagation speed vph varying with photonenergy Eph, and becoming considerably different from the ordinary (or
+low-energy limit of) speed of light, c ; vph(EphR0), near the Planck
+
+scale (when Eph becomes comparable to EPlanck 5 MPlanckc2). For
+Eph = EPlanck, the leading term in a Taylor series expansion of the
+classical dispersion relation is jvph/c 2 1j < (Eph/MQG,nc 2)n, where
+MQG,n is the quantum gravity mass for order n and n 5 1 or 2 is usually
+assumed. The linear case (n 5 1) gives a difference Dt 5 6(DE/
+MQG,1c2)D/c in the arrival time of photons emitted together at a
+distance D from us, and differing by DE 5 Ehigh 2 Elow. At cosmological
+distances this simple expression is somewhat modified (see Supplementary Information section 4).
+Because of their short duration (typically with short substructure
+consisting of pulses or narrow spikes) and cosmological distances,
+GRBs are well-suited for constraining LIV2,11,12. Individual spikes in
+long13 (of duration .2 s) GRB light-curves (10–1,000 keV) usually
+show14 intrinsic lags: the peak of a spike occurs earlier at higher
+photon-energies. However, there are either no lags or very short lags
+of either sign for short GRBs15. Thus far, intrinsic lags have been seen
+only on timescales of up to the width of individual spikes in a light
+curve, which for GRB 090510 are ,1022 s. Intrinsic lags have not yet
+been measured at high energies; if they are also present there, it is
+reasonable to assume that their behaviour is similar to that at lowenergies (at least approximately).
+When allowing for LIV-induced time-delays, the measured arrival
+time, th, of the high-energy photons might not directly reflect their
+emission time, tem (which would have been their arrival time if
+vph 5 c). Therefore, we make reasonable and conservative assumptions on tem, constraining it using the observed lower-energy emission (for which LIV-induced time-delays are relatively negligible).
+Using the DisCan method12, we have searched for time delays
+within the LAT data (actual energy range of the photons used:
+35 MeV–31 GeV) in the burst interval with the most intense emission
+(0.50–1.45 s). This approach extracts dispersion information from all
+detected LAT photons, and does not involve binning in either time or
+energy. It moves each photon to the time at which it would have been
+detected in the absence of any LIV-induced lag, given a trial value of
+the energy-lag coefficient. The value of this coefficient that maximizes a measure of the sharpness of the resulting light curve is an
+estimate of the apparent dispersion. Bootstrap error analysis16 shows
+that this is not a detection, just an upper limit. For reasons similar to
+those advanced above (improbability of inherent lags or fortuitous
+cancellation of quantum gravity and intrinsic dispersion) we take this
+as an upper limit on LIV-induced dispersion. A similar method was
+described in ref. 17. We obtain a robust upper limit of jDt/
+DEj , 30 ms GeV21 (at the 99% confidence level) on possible linear
+energy dispersion of either sign, or j1 ; MQG,1/MPlanck . 1.22 (limit
+a in Table 1).
+Using a different approach, we derive additional limits. To constrain a positive time delay (vph , c, implying th . tem) we do not
+attempt to associate the relevant high-energy photon with a particular spike in the low-energy light-curve. Instead, we simply assume
+that it was emitted sometime during the relevant lower-energy emission episode, that is, after its starting time tstart (tem . tstart; see Fig. 1).
+331
+
+©2009 Macmillan Publishers Limited. All rights reserved
+
+LETTERS
+
+NATURE
+
+a
+
+Energy (MeV)
+
+104
+
+103
+
+102
+
+150
+100
+
+0 .7
+3
+
+0 .5
+3
+0 .6
+3
+
+b
+
+15,000
+
+GBM NaIs
+(8–260 keV)
+
+10,000
+5,000
+
+50
+
+Counts per bin
+
+0
+
+0
+
+200
+
+c
+
+20,000
+
+150
+
+GBM BGOs
+(0.26–5 MeV)
+
+15,000
+
+100
+
+10,000
+
+50
+
+5,000
+
+Counts per bin
+
+0
+
+0
+
+d
+40
+
+LAT
+(All events)
+
+4,000
+
+20
+
+2,000
+0
+
+e
+4
+
+LAT
+(> 100 MeV)
+
+400
+
+2
+
+200
+
+0
+3
+
+f
+
+0
+
+2
+
+LAT
+(> 1 GeV)
+
+20
+10
+5
+
+1
+0
+–0.5
+
+2
+1
+0
+0.5
+1
+1.5
+Time since GBM trigger (10 May 2009, 00:22:59.97 UT) (s)
+
+Energy (GeV)
+
+Counts per bin
+
+Counts per bin
+
+0
+
+Counts per second Counts per second Counts per second Counts per second
+
+Counts per bin
+
+–0
+
+.0 3
+
+10
+
+2
+
+Figure 1 | Light curves of GRB 090510 at different energies. a, Energy
+versus arrival time with respect to the GBM trigger time for the 160 LAT
+photons that passed the transient off-line event selection (red) and the 161
+photons that passed the onboard c-ray filter (blue), and are consistent with
+the direction of GRB 090510. The solid and dashed curves are normalized to
+pass through the highest energy (31 GeV) photon and represent the relation
+between a photon’s energy and arrival time for linear (n 5 1) and quadratic
+(n 5 2) LIV, respectively, assuming it is emitted at tstart 5 230 ms (black;
+first small GBM pulse onset), 530 ms (red; main ,1 MeV emission onset),
+630 ms (green; .100 MeV emission onset), 730 ms (blue; .1 GeV emission
+onset). Photons emitted at tstart would be located along such a line owing to
+(a positive) LIV-induced time delay. b–f, GBM and LAT light curves, from
+
+lowest to highest energies. f also overlays energy versus arrival time for each
+photon, with the energy scale displayed on the right side. The dashed-dotted
+vertical lines show our four different possible choices for tstart. The grey
+shaded regions indicate the arrival time of the 31-GeV photon 610 ms (on
+the right) and of a 750-MeV photon (during the first GBM pulse) 620 ms
+(on the left), which can both constrain time delays of either sign. b and c show
+background-subtracted light curves for GBM NaI in the 8–260-keV band
+and a GBM BGO in the 0.260–5-MeV band, respectively. d, LAT events
+passing the onboard c-ray filter. e, LAT transient class events with
+E . 100 MeV. f, LAT transient class events with E . 1 GeV. In all light
+curves, the time-bin width is 10 ms. In b–e the per-second count rate is
+displayed on the right for convenience.
+
+This implies Dt , th 2 tstart and thus sets a lower limit on MQG. We
+have conservatively used the 31-GeV photon, even if another photon
+gave a stricter limit, because it is less sensitive to the exact choice of
+tstart or to intrinsic lags. In the following, we describe several possible
+different assumptions along with the astrophysical reasoning behind
+them and the corresponding lower limits on MQG, starting from the
+
+most conservative assumption, and ending with the least conservative assumption (which is still very likely, and with good astrophysical motivation).
+No high-energy photon has ever been detected before the onset of
+the low-energy emission in a GRB. Therefore, it is highly unlikely that
+the 31-GeV photon was emitted before the observed onset of
+
+332
+©2009 Macmillan Publishers Limited. All rights reserved
+
+LETTERS
+
+NATURE
+
+Table 1 | Limits on Lorentz invariance violation
+Limit on | Dt/DE | or | Dt |
+
+Limit a:
+Limit b:
+
+| Dt/DE | , 30 ms GeV21
+| Dt | , 859 ms
+
+Limit on MQG,1/MPlanck
+
+Valid for sn
+
+.1.22
+.1.19
+
+61
+1
+
+Details for the derivations of these limits are given in the main text and Supplementary
+Information Section 4. Limit a is obtained by testing for an energy-dispersion in the high-energy
+(LAT all-event) data (that might smear the sharp observed spikes in the light curve); we find an
+upper limit for a linear dispersion of photons above 30 MeV of | Dt/DE | , 30 ms GeV21 (at 99%
+confidence; see Supplementary Information section 3). Limit b relies on the 31-GeV photon, and
+conservatively uses the 1s lower limit on its energy (28.0 GeV) and the 1s lower limit on the
+redshift (z 5 0.900). Limit b assumes that the 31-GeV photon was not emitted before the onset
+of any emission detected by Fermi, so that tstart is set to the onset of the first small isolated GRB
+spike, 30 ms before the GBM trigger time. sn 5 1 indicates a positive (vph , c) time-delay and
+sn 5 21 indicates a negative (vph . c) time-delay.
+
+GRB 090510. This implies j1 . 1.19 (limit b in Table 1), which we
+consider our most conservative limit with this method. While the
+underlying assumption on tem is very reasonable, it is still an assumption; if for some reason tem were to be before tstart, this limit would be
+weakened by a factor of (th 2 tem)/(th 2 tstart).
+We stress here that our most conservative limits, a and b in Table 1,
+rely on very different and largely independent analysis, yet still give a
+very similar limit, of j1 . 1.2. This lends considerable support to this
+result, and makes it more robust and secure than for each of the
+methods separately.
+Our data can be used to set additional limits, which, although not
+as secure as the one mentioned above, are still very useful. Using the
+same approach as for limit b, we note that for a reasonable emission
+spectrum the 31-GeV photon would be accompanied by a large
+number of detectable (by either GBM or LAT) lower-energy photons,
+which suffer a much smaller LIV-induced time-delay, and thus
+‘mark’ its emission time, tem,31. If tem,31 were during the first isolated
+GBM spike, then lower-energy photons emitted together with it
+should have been clustered near the black line in Fig. 1a owing to
+LIV-induced energy dispersion. Because this is not observed, it is
+much more likely that tem,31 is associated with a later lower-energy
+emission episode. Setting tstart to the onset of the main GBM emission
+(530 ms) results in j1 . 3.42.
+Similarly, the expected large number of detectable .0.1-GeV
+photons emitted together with the 31-GeV photon makes it reasonable
+to set tstart to the onset of the main .0.1-GeV emission (630 ms; see
+Supplementary Information section 2), resulting in j1 . 5.12.
+Correspondingly, the expected fair number of detectable .1-GeV
+photons emitted together with the 31-GeV photon makes it reasonable
+to set tstart to the onset of the main .1-GeV emission (730 ms), resulting in j1 . 10.0. The j1 . 10.0 value might be somewhat affected by
+the relatively small-number statistics for .1-GeV photons, or by
+intrinsic spectral lags (such effects are expected to be much smaller
+for the limit based on .0.1 GeV photons).
+Finally, one can also set limits on LIV-induced time-delays of
+either sign based on the temporal association of the 31-GeV photon
+with the 7th GBM spike, and by associating the 0.75-GeV photon
+with the first GBM spike, because these photons arrive near the peak
+of a very narrow GBM spike (see Fig. 1), which is probably not due to
+chance coincidences. These associations would imply j1 . 102 and
+1.33, respectively. It is important to keep in mind, however, that
+while these associations are most likely, they are not very secure.
+Our most secure and conservative new limit, j1 . 1.2, is much
+stronger than the previous best limit of this kind (j1 . 0.1 from
+GRB080916C; ref. 18) and fundamentally more meaningful. Given
+that in most quantum gravity scenarios MQG,n # MPlanck, even our
+most conservative limits greatly reduce the parameter space for n 5 1
+models19,20. Our other limits, and especially our least conservative
+limit of j1 . 102, make such theories highly implausible (models
+with n . 1 are not significantly constrained by our results). Thus, it
+is unlikely that other predictions of such n 5 1 models would be
+observed. These include, for example, a reduction in the absorption
+of $10 TeV c-rays by cc R e1e2 interactions with extragalactic
+
+infrared photons21,22, and fuzziness of radio or optical images of
+distant extragalactic sources23–25. Our stringent photon dispersion
+limit strongly disfavours models of Planck scale physics in which
+the quantum nature of space–time causes a linear variation of the
+speed of light with photon energy.
+Received 12 August; accepted 12 October 2009.
+Published online 28 October 2009.
+1.
+
+Wheeler, J. A. & Ford, K. W. Geons, Black Holes, and Quantum Foam: A Life in Physics
+(W. W. Norton and Company, 1998).
+2. Amelino-Camelia, G., Ellis, J., Mavromatos, N. E., Nanopoulos, D. V. & Sarkar, S.
+Tests of quantum gravity from observations of gamma-ray bursts. Nature 393,
+763–765 (1998).
+3. Mattingly, D. Modern tests of Lorentz invariance. Living Rev. Relativity 8, 5–84
+(2005).
+4. Kostelecky, V. A. & Mewes, M. Astrophysical tests of Lorentz and CPT violation
+with photons. Astrophys. J. 689, L1–L4 (2008).
+5. Amelino-Camelia, G. & Smolin, L. Prospects for constraining quantum gravity
+dispersion with near term observations. Preprint at Æhttp://arxiv.org/abs/
+0906.3731æ (2009).
+6. Jacobson, T., Liberati, S. & Mattingly, D. Lorentz violation at high energy:
+concepts, phenomena and astrophysical constraints. Ann. Phys. 321, 150–196
+(2006).
+7. Amelino-Camelia, G. Quantum gravity phenomenology. Preprint at Æhttp://
+arxiv.org/abs/0806.0339æ (2008).
+8. Guiriec, S. et al. GRB 090510: Fermi GBM detection. GCN Circ. 9336 (2009).
+9. Ohno, M. et al. Fermi LAT detection of GRB 090510. GCN Circ. 9334 (2009).
+10. Rau, A. et al. GRB090510: VLT/FORS2 spectroscopic redshift. GCN Circ. 9353
+(2009).
+11. Rodrı́guez Martı́nez, M., Piran, T. & Oren, Y. GRB 051221A and Tests of Lorentz
+Symmetry. J. Cosmol. Astroparticle Phys. 05, 017–023 (2006).
+12. Scargle, J. D., Norris, J. P. & Bonnell, J. T. An algorithm for detecting quantum
+gravity photon dispersion in gamma-ray bursts: DisCan. Astrophys. J. 673,
+972–980 (2008).
+13. Kouveliotou, C. et al. Identification of two classes of gamma-ray bursts. Astrophys.
+J. 413, L101–L104 (1993).
+14. Norris, J. P. et al. Spectral evolution in gamma-ray bursts. Adv. Space Res. 6, 19–22
+(1986).
+15. Norris, J. P. & Bonnell, J. T. Short GRBs with extended emission. Astrophys. J. 643,
+266–275 (2006).
+16. Efron, B. & Tibshirani, R. An Introduction to the Bootstrap (Chapman and Hall,
+1993).
+17. Albert, J. et al. Probing quantum gravity using photons from a flare of the active
+galactic nucleus Markarian 501 observed by the MAGIC telescope. Phys. Lett. B
+668, 253–257 (2008).
+18. Abdo, A. A. et al. Fermi observations of high-energy gamma-ray emission from
+GRB 080916C. Science 323, 1688–1693 (2009).
+19. Ellis, J., Mavromatos, N. E. & Nanopoulos, D. V. Derivation of a vacuum refractive
+index in a stringy space time foam model. Phys. Lett. B 665, 412–417 (2008).
+20. Zloshchastiev, K. G. Logarithmic nonlinearity in theories of quantum gravity:
+origin of time and observational consequences. Preprint at Æhttp://arxiv.org/abs/
+0906.4282æ (2009).
+21. Kifune, T. Invariance violation extends the cosmic-ray horizon? Astrophys. J. 518,
+L21–L24 (1999).
+22. Jacob, U. & Piran, T. Inspecting absorption in the spectra of extra-galactic
+gamma-ray sources for insight into Lorentz invariance violation. Phys. Rev. D 78,
+124010 (2008).
+23. Christiansen, W. A. Jack Ng, Y. & van Dam, H. Probing spacetime foam with
+extragalactic sources. Phys. Rev. Lett. 96, 051301 (2006).
+24. Jack Ng, Y. Spacetime foam and dark energy. AIP Conf. Proc. 1115, 74–79 (2009).
+25. Jack Ng, Y. Spacetime foam: from entropy and holography to infinite statistics and
+nonlocality. Preprint at Æhttp://arxiv.org/abs/0801.2962æ (2008).
+
+Supplementary Information is linked to the online version of the paper at
+www.nature.com/nature.
+Acknowledgements The Fermi LAT Collaboration acknowledges support from a
+number of agencies and institutes for both the development and the operation of
+the LAT as well as scientific data analysis. These include NASA and DOE in the
+United States, CEA/Irfu and IN2P3/CNRS in France, ASI and INFN in Italy, MEXT,
+KEK, and JAXA in Japan, and the K. A. Wallenberg Foundation, the Swedish
+Research Council and the National Space Board in Sweden. Additional support
+from INAF in Italy for science analysis during the operations phase is also
+acknowledged. J. Granot gratefully acknowledges a Royal Society Wolfson
+Research Merit Award. The Fermi GBM Collaboration acknowledges the support of
+NASA in the United States and DRL in Germany. J. Conrad is a Royal Swedish
+Academy of Sciences Research Fellow, funded by a grant from the K. A. Wallenberg
+Foundation. E.T. is a NASA Postdoctoral Program Fellow and a Canon Foundation
+in Europe Fellow. A. J.v.d.H. is a NASA Postdoctoral Program Fellow. We thank
+J. Ellis for comments.
+333
+
+©2009 Macmillan Publishers Limited. All rights reserved
+
+LETTERS
+
+NATURE
+
+Author Contributions All authors contributed extensively to the work presented in
+this paper.
+Author Information Reprints and permissions information is available at
+www.nature.com/reprints. Correspondence and requests for materials should be
+addressed to J. Granot (j.granot@herts.ac.uk), S. Guiriec
+(sylvain.guiriec@nasa.gov), M. Ohno (ohno@astro.isas.jaxa.jp) and V. Pelassa
+(pelassa@lpta.in2p3.fr).
+
+A. A. Abdo1,2, M. Ackermann3, M. Ajello3, K. Asano4,5, W. B. Atwood6, M. Axelsson8,9,
+L. Baldini12, J. Ballet13, G. Barbiellini14,15, M. G. Baring16, D. Bastieri17,18, K. Bechtol3,
+R. Bellazzini12, B. Berenji3, P. N. Bhat19, E. Bissaldi20, E. D. Bloom3, E. Bonamente21,22,
+J. Bonnell24,25, A. W. Borgland3, A. Bouvier3, J. Bregeon12, A. Brez12, M. S. Briggs19,
+M. Brigida26,27, P. Bruel28, J. M. Burgess19, T. H. Burnett29, G. A. Caliandro26,27,
+R. A. Cameron3, P. A. Caraveo30, J. M. Casandjian13, C. Cecchi21,22, Ö. Çelik23,24,31,
+V. Chaplin19, E. Charles3, C. C. Cheung1,2,24, J. Chiang3, S. Ciprini21,22, R. Claus3,
+J. Cohen-Tanugi32, L. R. Cominsky33, V. Connaughton19, J. Conrad9,10, S. Cutini34,
+C. D. Dermer1, A. de Angelis35, F. de Palma26,27, S. W. Digel3, B. L. Dingus36,
+E. do Couto e Silva3, P. S. Drell3, R. Dubois3, D. Dumora37, C. Farnier32, C. Favuzzi26,27,
+S. J. Fegan28, J. Finke1,2, G. Fishman38, W. B. Focke3, L. Foschini39, Y. Fukazawa40,
+S. Funk3, P. Fusco26,27, F. Gargano27, D. Gasparrini34, N. Gehrels24,25, S. Germani21,22,
+L. Gibby41, B. Giebels28, N. Giglietto26,27, F. Giordano26,27, T. Glanzman3, G. Godfrey3,
+J. Granot42, J. Greiner20, I. A. Grenier13, M.-H. Grondin37, J. E. Grove1, D. Grupe43,
+L. Guillemot44, S. Guiriec19, Y. Hanabata40, A. K. Harding24, M. Hayashida3, E. Hays24,
+E. A. Hoversten43, R. E. Hughes45, G. Jóhannesson3, A. S. Johnson3, R. P. Johnson6,
+W. N. Johnson1, T. Kamae3, H. Katagiri40, J. Kataoka4,46, N. Kawai4,47, M. Kerr29,
+R. M. Kippen36, J. Knödlseder48, D. Kocevski3, C. Kouveliotou38, F. Kuehn45, M. Kuss12,
+J. Lande3, L. Latronico12, M. Lemoine-Goumard37, F. Longo14,15, F. Loparco26,27,
+B. Lott37, M. N. Lovellette1, P. Lubrano21,22, G. M. Madejski3, A. Makeev1,49,
+M. N. Mazziotta27, S. McBreen20,50, J. E. McEnery24, S. McGlynn9,11, P. Mészáros43,
+C. Meurer9,10, P. F. Michelson3, W. Mitthumsiri3, T. Mizuno40, A. A. Moiseev25,23,
+C. Monte26,27, M. E. Monzani3, E. Moretti14,15, A. Morselli51, I. V. Moskalenko3,
+S. Murgia3, T. Nakamori4, P. L. Nolan3, J. P. Norris53, E. Nuss32, M. Ohno54, T. Ohsugi40,
+N. Omodei12, E. Orlando20, J. F. Ormes53, M. Ozaki54, W. S. Paciesas19, D. Paneque3,
+J. H. Panetta3, D. Parent37, V. Pelassa32, M. Pepe21,22, M. Pesce-Rollins12, V. Petrosian3,
+F. Piron32, T. A. Porter6, R. Preece19, S. Rainò26,27, E. Ramirez-Ruiz7, R. Rando17,18,
+M. Razzano12, S. Razzaque1,2, A. Reimer3,55, O. Reimer3,55, T. Reposeur37, S. Ritz6,
+L. S. Rochester3, A. Y. Rodriguez56, M. Roth29, F. Ryde9,11, H. F.-W. Sadrozinski6,
+D. Sanchez28, A. Sander45, P. M. Saz Parkinson6, J. D. Scargle57, T. L. Schalk6, C. Sgrò12,
+E. J. Siskind58, D. A. Smith37, P. D. Smith45, G. Spandre12, P. Spinelli26,27,
+M. Stamatikos24,45, F. W. Stecker24, M. S. Strickman1, D. J. Suson59, H. Tajima3,
+H. Takahashi40, T. Takahashi54, T. Tanaka3, J. B. Thayer3, J. G. Thayer3, D. J.
+Thompson24, L. Tibaldo13,17,18, K. Toma43, D. F. Torres56,60, G. Tosti21,22, E. Troja4,24,
+Y. Uchiyama3,54, T. Uehara40, T. L. Usher3, A. J. van der Horst38, V. Vasileiou24,23,31,
+N. Vilchez48, V. Vitale51,52, A. von Kienlin20, A. P. Waite3, P. Wang3,
+C. Wilson-Hodge38, B. L. Winer45, K. S. Wood1, X. F. Wu43,61,62, R. Yamazaki40,
+T. Ylinen9,11,63 & M. Ziegler6
+1
+
+Space Science Division, Naval Research Laboratory, Washington, District of Columbia
+20375, USA. 2National Research Council Research Associate, National Academy of
+Sciences, Washington, District of Columbia 20001, USA. 3W. W. Hansen Experimental
+Physics Laboratory, Kavli Institute for Particle Astrophysics and Cosmology, Department
+of Physics and SLAC National Accelerator Laboratory, Stanford University, Stanford,
+California 94305, USA. 4Department of Physics, 5Interactive Research Center of Science,
+Tokyo Institute of Technology, Meguro City, Tokyo 152-8551, Japan. 6Santa Cruz
+Institute for Particle Physics, Department of Physics and Department of Astronomy and
+Astrophysics, University of California at Santa Cruz, 7UCO/Lick Observatories, Santa
+
+Cruz, California 95064, USA. 8Department of Astronomy, Stockholm University, 9The
+Oskar Klein Centre for Cosmoparticle Physics, 10Department of Physics, 11Department of
+Physics, Royal Institute of Technology (KTH), AlbaNova, SE-106 91 Stockholm, Sweden.
+12
+Istituto Nazionale di Fisica Nucleare, Sezione di Pisa, I-56127 Pisa, Italy. 13Laboratoire
+AIM, CEA-IRFU/CNRS/Université Paris Diderot, Service d’Astrophysique, CEA Saclay,
+91191 Gif-sur-Yvette, France. 14Istituto Nazionale di Fisica Nucleare, Sezione di Trieste,
+15
+Dipartimento di Fisica, Università di Trieste, I-34127 Trieste, Italy. 16Rice University,
+Department of Physics and Astronomy, MS-108, P. O. Box 1892, Houston, Texas 77251,
+USA. 17Istituto Nazionale di Fisica Nucleare, Sezione di Padova, 18Dipartimento di Fisica
+‘‘G. Galilei’’, Università di Padova, I-35131 Padova, Italy. 19CSPAR, University of Alabama
+in Huntsville, Huntsville, Alabama 35899, USA. 20Max-Planck Institut für
+extraterrestrische Physik, 85748 Garching, Germany. 21Istituto Nazionale di Fisica
+Nucleare, Sezione di Perugia, 22Dipartimento di Fisica, Università degli Studi di Perugia,
+I-06123 Perugia, Italy. 23Center for Research and Exploration in Space Science and
+Technology (CRESST), 24NASA Goddard Space Flight Center, Greenbelt, Maryland
+20771, USA. 25University of Maryland, College Park, Maryland 20742, USA.
+26
+Dipartimento di Fisica ‘‘M. Merlin’’ dell’Università e del Politecnico di Bari, 27Istituto
+Nazionale di Fisica Nucleare, Sezione di Bari, I-70126 Bari, Italy. 28Laboratoire
+Leprince-Ringuet, École polytechnique, CNRS/IN2P3, F-91128 Palaiseau, France.
+29
+Department of Physics, University of Washington, Seattle, Washington 98195-1560,
+USA. 30INAF-Istituto di Astrofisica Spaziale e Fisica Cosmica, I-20133 Milano, Italy.
+31
+University of Maryland, Baltimore County, Baltimore, Maryland 21250, USA.
+32
+Laboratoire de Physique Théorique et Astroparticules, Université Montpellier 2,
+CNRS/IN2P3, 34095 Montpellier, Cedex 5, France. 33Department of Physics and
+Astronomy, Sonoma State University, Rohnert Park, California 94928-3609, USA.
+34
+Agenzia Spaziale Italiana (ASI) Science Data Center, I-00044 Frascati (Roma), Italy.
+35
+Dipartimento di Fisica, Università di Udine and Istituto Nazionale di Fisica Nucleare,
+Sezione di Trieste, Gruppo Collegato di Udine, I-33100 Udine, Italy. 36Los Alamos
+National Laboratory, Los Alamos, New Mexico 87545, USA. 37Université de Bordeaux
+and CNRS/IN2P3, Centre d’Études Nucléaires Bordeaux Gradignan, UMR 5797,
+Gradignan 33175, France. 38Space Science Office, VP62, NASA/Marshall Space Flight
+Center, Huntsville, Alabama 35812, USA. 39INAF Osservatorio Astronomico di Brera,
+I-23807 Merate, Italy. 40Department of Physical Sciences, Hiroshima University,
+Higashi-Hiroshima, Hiroshima 739-8526, Japan. 41Jacobs Technology, Huntsville,
+Alabama 35806, USA. 42Centre for Astrophysics Research, University of Hertfordshire,
+College Lane, Hatfield AL10 9AB, UK. 43Department of Astronomy and Astrophysics,
+Pennsylvania State University, University Park, Pennsylvania 16802, USA.
+44
+Max-Planck-Institut für Radioastronomie, Auf dem Hügel 69, 53121 Bonn, Germany.
+45
+Department of Physics, Center for Cosmology and Astro-Particle Physics, The Ohio
+State University, Columbus, Ohio 43210, USA. 46Waseda University, 1-104
+Totsukamachi, Shinjuku-ku, Tokyo, 169-8050, Japan. 47Cosmic Radiation Laboratory,
+Institute of Physical and Chemical Research (RIKEN), Wako, Saitama 351-0198, Japan.
+48
+Centre d’Étude Spatiale des Rayonnements, CNRS/UPS, BP 44346, F-30128 Toulouse
+cedex 4, France. 49George Mason University, Fairfax, Virginia 22030, USA. 50University
+College Dublin, Belfield, Dublin 4, Ireland. 51Istituto Nazionale di Fisica Nucleare, Sezione
+di Roma ‘‘Tor Vergata’’, 52Dipartimento di Fisica, Università di Roma ‘‘Tor Vergata’’,
+I-00133 Roma, Italy. 53Department of Physics and Astronomy, University of Denver,
+Denver, Colorado 80208, USA. 54Institute of Space and Astronautical Science, JAXA,
+3-1-1 Yoshinodai, Sagamihara, Kanagawa 229-8510, Japan. 55Institut für Astro- und
+Teilchenphysik and Institut für Theoretische Physik, Leopold-Franzens-Universität
+Innsbruck, A-6020 Innsbruck, Austria. 56Institut de Ciencies de l’Espai (IEEC-CSIC),
+Campus UAB, 08193 Barcelona, Spain. 57Space Sciences Division, NASA Ames Research
+Center, Moffett Field, California 94035-1000, USA. 58NYCB Real-Time Computing Inc.,
+Lattingtown, New York 11560-1025, USA. 59Department of Chemistry and Physics,
+Purdue University Calumet, Hammond, Indiana 46323-2094, USA. 60Institució Catalana
+de Recerca i Estudis Avançats (ICREA), 08193 Barcelona, Spain. 61Joint Center for
+Particle Nuclear Physics and Cosmology (J-CPNPC), 62Purple Mountain Observatory,
+Chinese Academy of Sciences, Nanjing 210008, China. 63School of Pure and Applied
+Natural Sciences, University of Kalmar, SE-391 82 Kalmar, Sweden.
+
+334
+©2009 Macmillan Publishers Limited. All rights reserved
+
+

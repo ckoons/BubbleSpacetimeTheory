@@ -1,0 +1,588 @@
+                 QJf jonrnal of experimental and theoretical       physics established         by   E. L ¹chols i» l899
+
+  SEcoND SERIEs, VoL. 1 15, NO. 3                                                                                     AUGUST 1, 1959
+
+
+               Significance of Electromagnetic                   Potentials in the Quantum Theory
+                                                                 University
+
+                                                     Y. AHARONOV AND D. BOHIN
+                               H. II. Wills Physics Laboratory,           of Bristol, Bristol, England
+                                (Received May 28, 1959; revised manuscript received June 16, 1959)
+
+               In this paper, we discuss some interesting properties of the electromagnetic potentials in the quantum
+            domain. We shall show that, contrary to the conclusions of classical mechanics, there exist effects of poten-
+            tials on charged particles, even in the region where all the fields (and therefore the forces on the particles)
+            vanish. Ke shall then discuss possible experiments to test these conclusions; and, finally, we shall suggest
+            further possible developments in the interpretation of the potentials.
+
+
+
+                    1. INTRODUCTION                                   assume this almost everywhere in the following dis-
+    N classical electrodynamics, the vector and scalar                cussions) we have, for the region inside the cage,
+&- potentials were first introduced      as a convenient             H=Hp+V(t) where Hp is the Hamiltonian when the
+mathematical aid for calculating the fields. It is true              generator is not functioning,       and V(t) = ep(t). If
+that in order to obtain a classical canonical formalism,             leap(s, t) is a solution of the Hamiltonian Hp, then the
+the potentials are needed. Nevertheless, the funda-                  solution for H will be
+mental equations of motion can always be expressed                                                                    —
+directly in terms of the fields alone.
+                                                                                              &=/pe '«&,         S=   V(t)dt,
+    In the quantum mechanics, however, the canonical                 which follows from
+formalism is necessary, and as a result, the potentials
+cannot be eliminated from the basic equations. Never-
+theless, these equations, as well as the physical quan-                 i jt
+                                                                               8$
+                                                                                                   ——
+                                                                                    = (i jt Bfp +pp 85) e 'sty= 1tH p+ V (t)]Q= HQ.
+                                                                                      I                      1
+
+tities, are all gauge invariant; so that it may seem that                      a~         E   a~      at &
+even in quantum mechanics, the potentials themselves
+have no independent significance.                                       The new solution differs from the old one just by a
+    In this paper, we shall show that the above conclu-              phase factor and this corresponds, of course, to no
+sions are not correct and that a further interpretation              change in any physical result.
+of the potentials is needed in the quantum mechanics.                   Now consider a more complex experiment in which a
+                                                                     single coherent electron beam is split into two parts and
+   2. POSSIBLE EXPERIMENTS DEMONSTRATING                             each part is then allowed to enter a long cylindrical
+        THE ROLE OF POTENTIALS IN THE                                metal tube, as shown in Fig. 1.
+               QUANTUM THEORY
+                                                                        After the beams pass through the tubes, they are
+   In this section, we shall discuss several possible ex-            combined to interfere coherently at F. By means of
+periments which demonstrate the significance of poten-               time-determining     electrical "shutters" the beam is
+tials in the quantum theory. We shall begin with a                   chopped into wave packets that are long compared
+simple example.                                                      with the wavelength               ),
+                                                                                                  but short compared with the
+   Suppose we have a charged particle inside a "Faraday              length of the tubes. The potential in each tube is deter-
+cage" connected to an external generator which causes                mined by a time delay mechanism in such a way that
+the potential on the cage to alternate in time. This will            the potential is zero in region              I
+                                                                                                           (until each packet is
+add to the Hamiltonian of the particle a term V(x, t)                well inside its tube). The potential then grows as a
+which is, for the region inside the cage, a function of              function of time, but differently in each tube. Finally,
+time only. In the nonrelativistic limit (and we shall                it falls back to zero, before the electron comes near the
+                                                                  85
+                                                              Y. AHARONOV   AND         D. 13OHM
+
+                                              f7: ~~  Mi
+                                                     14 I
+
+                                                  ~~ re~' lI
+
+     Orbit of                                                                         Electron                                       fnter ference
+                                                                                                                                       region
+    Electron Bea                                                                        beam
+
+
+                                                    %At
+                                                               M
+                                              /l
+                                                              re'QK')
+
+
+   Fn. 1. Schematic experiment to demonstrate interference with                   . 2. Schematic experiment
+                                                                              Fzt".                                  to demonstrate interference
+time-dependent scalar potential. A, 8, C, D, E: suitable devices                             with time-independent     vector potential.
+to separate and divert beams. 5'I, W2. wave packets. Mi, M'g.'
+cylindrical metal tubes.      F:
+                           interference region.
+                                                                            suggests that the associated phase shift of the electron
+other edge of the tube. Thus the potential is nonzero                       wave function ought to be
+only while the electrons are well inside the tube (region
+II). When the electron is in region III, there is again no                                         AS//'t=   ——
+                                                                                                              e
+                                                                                                                A dx,
+potential. The purpose of this arrangement is to ensure                                                        CS
+that the electron is in a time-varying potential without
+ever being in a fmld (because the 6eid does not penetrate                   where gA dx= J'H ds=p (the total magnetic flux
+far from the edges of the tubes, and is nonzero only at                     inside the circuit).
+times when the electron is far from these edges).                              This corresponds to another experimental situation.
+   Now let P(x, t) =iti'(x, t)+Ps'(x, t) be the wave func-                  By means of a current Qowing through a very closely
+tion when the potential is absent (Pi' and its' repre-                      wound cylindrical solenoid of radius E., center at the
+senting the parts that pass through tubes 1 and 2,                          origin and axis in the s direction, we create a magnetic
+respectively). But since U is a function only of t                          field, H, which is essentially confined within the sole-
+wherever it is appreciable, the problem for each tube                       noid. However, the vector potential, A, evidently,
+is essentially the same as that of the Faraday cage. The                    cannot be zero everywhere outside the solenoid, because
+solution is then                                                            the total Qux through every circuit containing the
+
+                    f —$      oe   isi///+p                   /ss/s—
+                                                            oe —
+                                                                            origin is equal to a constant
+where
+                                                                                                  yp   — H ds=)IA dx.
+                   Sy=e   ~
+
+                               pydt,               52=8            yqdt.
+
+                                                                               To demonstrate the eGects of the total Qux, we begin,
+It is evident that the interference   of the two parts at                   as before, with a coherent beam of electrons. (But now
+E will depend on the phase difference (Si —Ss)/It. Thus,                    there is no need to make wave packets. ) The beam is
+there is a physical eGect of the potentials even though                     split into two parts, each going on opposite sides of the
+no force is ever actually exerted on the electron. The                      solenoid, but avoiding it. (The solenoid can be shielded
+eGect is evidently essentially quantum-mechanical        in                 from the electron beam by a thin plate which casts a
+nature because it comes in the phenomenon of inter-                         shadow. ) As in the former example, the beams are
+ference. We are therefore not surprised that it does not                    brought together at J (Fig. 2).
+appear in classical mechanics.                                                 The Hamiltonian for this case is
+   From relativistic considerations, it is easily seen that
+the covariance of the above conclusion demands that                                                        $P —(e/c) A j'
+there should be similar results involving the vector
+potential, A.
+   The phase difference, (Si —    Ss)/5, can also be ex-                       In singly connected regions, where H= V&(A=O, we
+pressed as the integral (e/It)gpdt around a closed
+                                                                            can always obtain a solution for the above Hamiltonian
+circuit in space-time, where q is evaluated at the place
+of the center of the wave packet. The relativistic gener-                   by taking it =itse 'e/", where ps is the solution when
+                                                                            A=O and where V'S/5= (e/c)A. But, in the experiment
+alization of the above integral is
+                                                                            discussed above, in which we have a multiply connected
+                                                                            region (the region outside the solenoid), fee 'e/" is a
+                     e             ]   rpdt
+                                                    A
+                                                            dx-' —          non-single-valued  function' and therefore, in general,
+                     /s            E                c          i            not a permissible solution of Schrodinger's equation.
+                                                                            Nevertheless, in our problem it is still possible to use
+where the path of integration now goes over any closed
+                                                                            such solutions because the wave function splits into
+circuit in space-time.                                                      two parts P = Pi+fs, where Pi represents the beam on
+   As another special case, let us now consider a path
+in space only (t = constant). The above argument                             ' Vniess go —eigc/e, where e is an integer.
+               ELECTROMAGNETI                      C     POTENTIALS          IN        QUANTUM        THEORY
+one side of the solenoid and Ps the beam on the opposite          magnitude has to be of the order of Ps = 2m. ck/e 4X 10 r
+side. Each of these beams stays in a simply connected             gauss cm') by means of fine permanently magnetized
+region. We therefore can write                                     "whiskers". ' The solenoid can be used in Marton's-
+                                                                  device, ' while the whisker is suitable for another experi-
+                 $i   f—
+                       oe i sl—
+                              la
+                                   p
+                                       —f   Og   i8s/a
+                                                                  mental setup4 where the separation is of the order of
+                                                                  microns and the whiskers are even smaller than this.
+where  Si and Ss are equal to (e/c) j'A dx along the                 In principle, we could do the experiment by observing
+paths  of the first and second beams, respectively. (In           the interference pattern with and without the magnetic
+Sec. 4, an exact solution for this Hamiltonian will be            Qux. But since the main effect of the Qux is only to
+given, and it will confirm the above results. )                   displace the line pattern without changing the interval
+   The interference between the two beams will evi-               structure, this would not be a convenient experiment
+dently depend on the phase diGerence,                             to do. Instead, it would be easier to vary the magnetic
+                                                                  Qux within the same exposure for the detection of the
+           (Si—Ss)/k= (e/kc)        A dx= (e/bc)itis              interference patterns. Such a variation would, according
+                                                                  to our previous discussion, alter the sharpness and the
+                                                                  general form of the interference bands. This alteration
+This eGect will exist, even though there are no magnetic          would then constitute a verification of the predicted
+forces acting in the places where the electron beam               phenomena.
+passes.                                                              When the magnetic Qux is altered, there will, of
+   In order to avoid fully any possible question of               course, be an induced electric Geld outside the solenoid,
+contact of the electron with the magnetic field we note           but the eGects of this Geld can be made negligible. For
+that our result would not be changed if we surrounded             example, suppose the magnetic Qux were suddenly
+the solenoid by a potential barrier that reQects the              altered in the middle of an exposure. The electric field
+electrons perfectly. (This, too, is confirmed in Sec. 4.)         would then exist only for a very short time, so that only
+   It is easy to devise hypothetical experiments in which         a small part of the beam would be aGected by it;
+the vector potential may inQuence not only the inter-
+ference pattern but also the momentum. To see this,               4. EXACT SOLUTION FOR SCATTERING PROBLEMS
+consider a periodic array of solenoids, each of which is
+shielded from direct contact with the beam by a small
+                                                                      Ke shall now obtain an exact solution for the problem
+                                                                  of the scattering of an electron beam by a magnetic
+plate. This will be essentially a grating. Consider first
+                                                                  field in the limit where the magnetic Geld region tends
+the diGraction pattern without the magnetic Geld, which
+                                                                  to a zero radius, while the total Qux remains fixed. This
+will have a discrete set of directions of strong con-
+                                                                  corresponds to the setup described in Sec. 2 and shown
+structive interference. The eRect of the vector potential
+                                                                  in Fig. 2. Only this time we do not split the plane wave
+will be to produce a shift of the relative phase of the
+                                                                  into two parts. The wave equation outside the magnetic
+wave function in diGerent elements of the gratings. A
+                                                                  field region is, in cylindrical coordinates,
+corresponding shift will take place in the directions,
+and therefore the momentum of the diffracted beam.
+
+  3. A PRACTICABLE EXPERIMENT TO TEST FOR
+    THE EFFECTS OF A POTENTIAL WHERE
+            THERE ARE NO FIELDS                                   where   lr. is the   wave vector of the incident particle and
+   As yet no direct experiments have been carried out             ct= —ep/ch. We have again chosen the gauge in which
+which confirm the effect of potentials where there is no          A„=O and As=&/2~r.
+Geld. It would be interesting therefore to test whether             The general solution of the above equation is
+such effects actually exist. Such a test is, in fact, within
+the range of present possibilities. ' Recent experiments' 4
+                                                                          4=     Z e'"'L~-J-+-(kr)+b-J (-+-&(kr)3             (2)-
+have succeeded in obtaining interference from electron
+beams that have been separated in one case by as much
+as 0.8 mm. It is quite possible to wind solenoids which           where a and b are arbitrary constants and            J~
+                                                                                                                      (kr)
+are smaller than this, and therefore to place them                is a Bessel function, in general of fractional order
+between the separate beams. Alternatively,         we may         (dependent on d). The above solution holds only for
+obtain localized lines of fiux of the right magnitude (the        r) R. For      r(R
+                                                                                  (inside the magnetic Geld) the solution
+                                                                  has been worked out. ' By matching the solutions at
+   'Dr. Chambers is now making a preliminary experimental         r=R it is easily shown that only Bessel functions of
+study of this question at Bristol.
+   'L. Marton, Phys. Rev. 85, 1057 (1952); 90, 490 (1953).        positive order will remain, when E approaches zero.             -
+
+
+
+Marton, Simpson, and Suddeth, Rev. Sci. Instr. 25, 1099 (1954).
+   4 G.
+        Mollenstedt,   Naturwissenschaf ten 42, 41 (1955); G.       s See, for          Sidney S. Brenner, Acts Met. 4, 62 (1956).
+Mollenstedt and H. Dnker, Z. Physik 145, 377 (1956).                ' L. Page, example,
+                                                                                Phys. Rev. 36, 444 (1930).
+                                                                    Y. AHARONOV                       AND              D. BQHM
+ This means that the probability of Gnding the particle                                               As a result, we obtain
+ inside the magnetic Geld region approaches zero with R.
+ It follows that the wave function would not be changed
+ if the electron were kept away from the field by a barrier
+                                                                                                       rllp i
+
+                                                                                                       Qf
+                                                                                                                   1
+
+                                                                                                                  2 m'=0
+                                                                                                                              (                       J,
+                                                                                                                                  Z)m +a+1 m'+a pi(m'+1)8
+
+ whose radius also went to zero with R.
+    The general solution in the limit of R tending to zero
+ is therefore                                                                                                                                    2 m»=2
+                                                                                                                                                          00
+
+                                                                                                                                                                   (       Z)m'+a —i         J,       ei(m' —i&8
+
+
+
+
+                                                                                                                       oo
+
+                                                                                                                              (—                                       eim 8—
+                                                  ttm JIm+aIe'                                                                  i)m'+aj                    ~
+                                                                                                                                                                           ( Ze++i ie                      +)
+                                                                                                                  2 m'=1
+                                                                                                                                                                                +-', ( —z)           [J.+1—ie"'J.].
+    We must then choose iz so that t/r represents a beam
+ of electrons that is incident from the right (0=0). It is
+ important, however, to satisfy the initial condition that                                                      &i/, /itr'=              os+ 1+-', ( —i) (J.+1 —i
+                                                                                                                                      i c—                                                           J. ).
+                                                                                                                                                                                                       e
+                                                                                                                                                                                                           '
+
+
+
+ the current density,
+                                                                                                      This differential                     equation                   can be easily integrated                      to
+                                                                    —e                                give
+                          3=
+                                   A (i/r*V't/r        sly%'tlr*)
+                                                                              At/dies—
+                                                                                     fr,
+                                                                                           —                                                    ~l
+                                                                                                                                                     eir' cosH[         J               z   J ei8]dr
+                                             2iyn
+                                                                                                                                            0
+                                                                                                      where
+shall be constant and in the x direction. In the gauge                                                                                                r
+                                                                                                                                                          (        Z)ae ir'           cosH-
+that we are using, we easily see that the correct incident
+wave is t/;„=e ~*e ' '. Of course, this wave function                                                 The lower limit of the integration is determined by the
+holds only to the right of the origin, so that no problem                                             requirement that when r' goes to zero, P, also goes to
+of multiple-valuedness  arises.                                                                       to zero because, as we have seen, Itri includes Bessel
+   We shall show in the course of this calculation that                                               functions of positive order only.
+the above conditions will be satisfied by choosing                                                       In order to discuss the asymptotic behavior of P&,
+       —
+a = ( i) + I, in which case, we shall have
+                 I                                                                                    let us write it as it i=A[Ii —Iz], where
+
+                                         ( —i)Im+aIJIm+ Ie'~                                                                Ii        Je'"' -"—
+                                                                                                                                              [J                                      ie "J ]dr', —
+                                                                                                                                       0
+
+
+It is convenient to split iP into the following three parts:                                                                I                   eir' cos8[             J              ZeiH   J
+0 —t/rl+t/rz+t/rz where
+
+
+                                   m=1
+                                            —Z)m+a             j e'8                                  The first of these integrals is known':
+                                                                                                                                            &i[aarc sin(P/k)]
+                                                                                                                   eittr   J (Pr)—
+             (       Z)m+a     J         eimH
+
+                                                                                                      In our cases, P= cos8, k=1, so that
+                                                               (
+                                                                       —
+                                                                    Z)m a      J        —
+                                                                                       e imH   (5)                   "gaia( Ã—j8()  gi(a+1) (~Ã—(e()-
+                                                   m=1                                                                     I—                                      gg ie                                           (10)
+                                                                                                                                            sine/                                     sin8/
+                                   6= ( —z)            I   I
+                                                               JI-I.
+                                                                                                                                        f                                         /
+
+
+
+
+                                                                                                     Because the integrand is even in g, we have written the
+  Now it t satisfies the simple di8erential                                        equation          Anal expression  for the above integral as a function of
+                                                                                                     ~il( and of [sin8~. Hence
+                                                                                                                                    —'~'~ —ie"
+             (       Z)m+a     J        reim8                                                                                — ie     —&ia(+zr (8 )
+                                                                                                                                  1                            J
+
+
+      m=1
+                                                                                                                                                                            /
+                                                                                                                                                                                sine/
+                                   Jm+a — Jm+a+1   1                                                                                  =0 for 8&0,
+                     (    Z)
+                               m+a                                     .
+                                                                           e 'mH     r —P»     (6)
+             m=1                                                                                                                      =e—"'2s                      for 0&0,
+where we have used the well-known                                      formula for Bessel            where we have taken 8 as going from                                                     — to m.
+                                                                                                                                                                                                 m
+
+functions:                                                                                              r See, for example, W. Grobner and N. Hofreiter,
+                         dJ, r dr= ', J, , —J,+, .                                                   -(Springer-Verlag, Berlin, 1949).
+                                                                                                                                                         Irttegroltafel
+                  ELECTROMAGNETIC                                            POTENTIALS                 IN QVANTVM                               THEORY                                          489
+
+   %e shall see presently that I~ represents the largest                                      we 6nally obtain
+term in the asymptotic expansion of ])[r. The fact that
+it is zero for 8(0 shows that this part of fr passes                                               (—i) +'
+(asymptotically) only on the upper side of the singu-
+                                                                                                       (2~)&
+                                                                                                               ][r'(1+cos8)s]&
+larity. To explain this, we note that Pr contains only
+positive values of m, and therefore of the angular                                                                                                 e '"'
+                                                                                                                                                                                eir' cos8
+momentum. ft is quite natural then that this part of Pr                                                                                                                                      (16)
+goes on the upper side of the singularity. Similarly,                                                                   (2~) [r'(1 —cos8) s]-:
+                                                                                                                                      &
+
+
+
+since according to (5)                                                                                 —i
+                                                                                              D=
+                   Ps(r', 8,n) =]tr(r', —8, —n),                                                       (2~)&   [r'(1+cos8)s]&
+it follows that fs will behave oppositely to Pr in this                                                                          e         '"'
+regard, so that together they will make up the correct                                                                                                        eir' cos8(           i)e(8     (17)
+incident wave.                                                                                                 (28r) & [r'(1     —COS8) s]&
+   Now, in the limit of          r'~
+                                  we are allowed to take
+in the integrand of ls the first asymptotic term of g s                                       Now adding (16) and (17) together and using (13) and
+namely    J~   (2/8rr)I cos(r   rn r8r) ~e obtain                                             (9), we find that the term of 1/(r')' in the asymptotic
+                                                                                              expansion of lfr is
+                    e'"'   -"(J +i ie~J )d—
+                                          r' —+ C+D,                                 (12)          (—i)&                                                  e
+                                                                                                                                                           —'"' 1 —e"
+                                                                                                               (—1)                               +i                                         (18)
+where                                                                                              2(28r) &           (r') 1+cos8
+                                                                                                                            &
+                                                                                                                                                          (r') 1 —cos8
+                                                                                                                                                                 &
+
+
+
+
+           e'"' "~[cos (r' —- (n+1) 8r —-', 8r)
+                                                                   dr        (2) [            Using again the relation between Pr and ]]rs we obtain
+                                 —',
+                                                                   ]                          for the corresponding term in [Is
+                                                                                       (13)                                                                                   —e 8'
+                                                                                                   ( —i)&             e'"        1+e ~                    e '"' 1
+           e'"'   "' cos r' — —  -'n         -'m.
+                                                          dr' f2q &
+                                                                — —           i e"                       , (
+                                                                                                               —1)
+                                                                                                                      (r')&
+                                                                                                                                       +i,
+                                                                                                                                 1+cos8 (r')'*, —cos8
+                                                                                                                                                                                                 (19)
+                                                                                                   2(28r)'                                                                1
+
+Then                                                                                          Adding    (18) and (19) and using (11), we finally get
+        f eir' cos8[ei[r' —(a~()c—                                                                     ( i)& ie      —'"' e"' COS(8m —8)
+                                                                                              4(+]][8~
+                                                                                                                                                                 —',
+                            ',    s]     ',
+
+
+                                                                                                            (2)I-("): (")I -(l8)-
+                                 +e—i[r' —(a+1) s—[s]]
+                                                    -',
+
+
+                                                                                                                                                          +e—s(r' cos8+a8)                       (20)
+                                                                        (28rr') l
+    (2)' ( —i) +l                                                                             There remains the contribution                       of fs, whose asymptotic
+                                                          exp (+is') ds
+    ~8r)      (1+COS8)* ~ [r'(i+cos8)]'                                                       behavior is [see Eq. (12)]
+
+            21*         i+*            I'"
+                                                             exp( —
+                                                                         .                                                                 (2 )' cos(r' — —-'~n~x).
+                                                                   is')ds,             (14)   (—i)] ~J] ](r) —+ (        z)~          ]~                                       -'„m.
+                         COS8) * ~ [r' (i-cos8)] '
+                                                                                                                                                      I
+           Elr)    (1                                                                                                                      &   ~r')
+where we have put                                                                             Collecting all terms, we hnd
+         s= [r'(1+cos8)]'* and s= [r'(1 —cos8)]&,                                                                                                         e'"'                          e
+                                                                                                                                                                                         —i8/2
+                                                                                              4'=4'i+A+ps ~ e ""8+"-")+                                              '*
+                                                                                                                                                                          sin8rn
+respectively.                                                                                                          (28rir')                                                        cos(8/2)
+   Using now the well-known                         asymptotic              behavior     of                                                                                                      (21)
+the error function, '
+                                                                                              where the & sign is chosen according to the sign of n.
+                                                    i exp(iu')
+                        exp(is')ds       ~      ——                                               The first term in equation (21) represents the incident
+                                                                                              wave, and the second the scattered wave. The scat-                                 "
+                                                2  8
+
+                    exp ( —is') ds —+—
+                                                          i exp(        u')—
+                                                                       i—
+                                                                                       (15)   tering cross section is therefore
+
+                                                                                                                        sin'en
+                                                    2              a                                                                                                                             (22)
+                                                                                                                                28r            coss(8/2)
+     E. Jahnke and F. Emde, Tables of FNricrio~s (Dover Pub-
+lications, Inc. , New York, 1943), fourth edition, p. 138,                                     '0 In this way, we verify, of course, that our choice of the a for
+   ' Reference 8, p. 24,                                                                       q. (3)„satisfies the correct boundary conditions.
+490                                                       Y. AHA RONOV                     AN D    D. BOHM
+When    o,   =e, where e is an integer,                             then 0 vanishes.          In classical mechanics, we recall that potentials
+This is analogous              to the Ramsauer                              "
+                                                                    eGect. o- has a        cannot have such significance because the equation of
+maximum        when      n= e+ .       —',                                                 motion involves only the field quantities themselves.
+   The asymptotic formula (21) holds only when we are                                      For this reason, the potentials have been regarded as
+not on the line 0= ~. The exact solution, which is needed                                  purely mathematical auxiliaries, while only the field
+on this line, would show that the second term will                                         quantities were thought to have a direct physical
+combine with the first to make a single-valued wave                                        meaning.
+function, despite the non-single-valued character of the                                      In quantum mechanics, the essential difference is that
+two parts, in the neighborhood of 0=+. We shall see                                        the equations of motion of a particle are replaced by the
+this in more detail presently for the special case n = n+-,                           '.   Schrodinger equation for a wave. This Schrodinger
+   In the interference experiment discussed in Sec. 2,                                     equation is obtained from a canonical formalism, which
+diffraction effects, represented in Eq. (21) by the scat-                                  cannot be expressed in terms of the fields alone, but
+tered wave, have been neglected. Therefore, in this                                        which also requires the potentials. Indeed, the poten-
+problem, it is adequate to use the first term of Eq. (21).                                 tials play a role, in Schrodinger s equation, which is
+Here, we see that the phase of the wave function has a                                     analogous to that of the index of refration in optics,
+di6'erent value depending on whether we approach the                                       The I.orentz force Lem+(e/c)vt&Hj does not appear
+line 8=&m from positive or negative angles, i.e. , from                                    anywhere in the fundamental theory, but appears only
+the upper or lower side. This confirms the conclusions                                     as an approximation holding in the classical limit. It
+obtained in the approximate treatment of. Sec. 2.                                          would therefore seem natural at this point to propose
+   Ke shall discuss now the two special cases that can                                     that, in quantum mechanics, the fundamental physical
+be solved exactly. The first is the case where n = e. Here,                                entities are the potentials, while the fields are derived
+the wave function is lt =e "*e ' ', which is evidently                                     from them by differentiations.
+single-valued when n is an integer. (It can be seen by                                        The main objection that could be raised against the
+direct differentiation that this is a solution. )                                          above suggestion is grounded in the gauge invariance
+   The SeCOnd CaSe iS that Of rr=e+-', . BeCauSe l„+,*& (r)                   J            of the theory. In other words, if the potentials are
+is a closed trigonometric function, the integrals for P                                    subject to the transformation A„—     +A„'=A„+elf/rlx„,
+can be carried out exactly.                                                                where P is a continuous scalar function, then all the
+  The result is                                                                            known physical quantities are left unchanged.          As a
+                                                                                           result, the same physical behavior is obtained from any
+               ~   g                             [r'(1+cos8)]   &
+                                                                                           two potentials, A„(x) and A„'(x), related by the above
+                       i ( ', 8+r' —
+                                   coss-l
+                                                                    exp (is') ds.   (23)   transformation. This means that insofar as the poten-
+               K2                           6p                                             tials are richer in properties than the fields, there is no
+                                                                                           way to reveal this additional richness. It was therefore
+This function vanishes on the line 0=&. It can be seen                                     concluded that the potentials cannot have any meaning,
+that its asymptotic behavior is the same as that of Eq.                                    except insofar as they are used mathematically,           to
+(2) with rr set equal to e+ —                     '.
+                              , In this case, the single-                                  calculate the fields.
+valuedness of lt is evident. In general, however, the
+                                                                                              We have seen from the examples described in this
+behavior of P is not so simple, since P does not become
+zero on the line 8=x.                                                                      paper that the above point of view cannot be main-
+                                                                                           tained for the general case. Of course, our discussion
+                                                                                           does not bring into question the gauge invariance of
+   5. DISCUSSION OF SIGNIFICANCE OF RESULTS
+                                                                                           the theory. But it does show that in a theory involving
+   The essential result of the previous discussion is that                                 only local interactions (e.g. , Schrodinger's or Dirac's
+in quantum theory, an electron (for example) can be                                                                                          field the™
+                                                                                           equation, and current quantum-mechanical
+influenced by the potentials even if all the field regions
+                                                                                           ories), the potentials must, in certain cases, be con-
+are excluded from it. In other words, in a field-free
+                                                                                           sidered as physically effective, even when there are no
+multiply-connected region of space, the physical proper-
+ties of the system still depend on the potentials.                                         fields acting on the charged particles.
+   It is true that all these effects of the potentials depend                                 The above discussion suggests that some further
+only on the gauge-invariant quantity gA dx = J'H ds,                                       development of the theory is needed. Two possible
+so that in reality they can be expressed in terms of the                                   directions are clear. First, we may try to formulate a
+fields inside the circuit. However, according to current.                                  nonlocal theory in which, for example, the electron
+relativistic notions, all fields must interact only locally.                               could interact with a field that was a finite distance
+And since the electrons cannot reach the regions where                                     away. Then there would be no trouble in interpreting
+the fields are, we cannot interpret such eGects as due                                     these results, but, as is well known, there are severe
+to the fields themselves.                                                                  diKculties in the way of doing this. Secondly, we may
+  "See, for example, D. Bohm, QNuetuin                          Theory (Prentice-Hall,
+                                                                                           retain the present local theory and, instead, we may
+Inc. , Englewood       ClifYs, iVew Jersey,            1951).                              try to give a fur&h|;r nqw interpretation to the poten-
+tials. In other words, we are led to regard A„(x) as a                 recent theories of superconductivity and superQuidity12
+physical variable. This means that we must be able to                  and we shall show their relation to this problem in more
+define the physical difference between two quantum                     detail.
+states which dier only by gauge transformation. It will                                       ACKNOWLEDGMENTS
+be shown in a future paper that in a system containing
+an undefined number of charged particles (i.e. , a super-                We are indebted to Professor M. H.    Pryce for  I.
+position of states of difFerent total charge), a new                   many helpful discussions. Ke wish to thank Dr.
+                                                                       Chambers for many discussions connected with the
+Hermitian operator, essentially an angle variable, can
+                                                                       experimental side of the problem.
+be introduced, which is conjugate to the charge density
+and which may give a meaning to the gauge. Such                          "See, for example, C. G. Kuper, Advances in Physics, edited
+                                                                       by N. F. Mott (Taylor and Francis, Ltd. , Lo'ndon, 1959), Vol. 8,
+states have actually been used in connection with                      p. 25, Sec. 3, Par. 3.
+
+
+
+
+PHYSICAL REVIEW                                      VOLUME          115, NUMBER          3                       AUGUST       1, 1959
+
+                    Theory of Multiyle Scattering: Second Born Ayyroximation                                    and
+                                     Corrections to Moliere's Work
+                                        B. P. NIGAM)* M. K. SUNDARESAN, * AND TA-YOU KU
+                                   0&ision of Pure Physics, Eationa/ Research Council, Ottava, Canada
+                                                      (Received March 11, 1959)
+
+                 The formula given by Moliere for the scattering cross section of a charged particle by an atom, on which
+              has been based the formula for the "screening angle" x in his theory of multiple scattering, has been
+              examined and found to contain an inconsistent approximation in all orders of the parameter n~= sZ/137p
+              except the lowest (the first Born approximation). In the present work, the correct expression of Dalitz is
+              used for the single-scattering cross section of a relativistic Dirac particle by a screened atomic field up to
+              the second Born approximation. It is found that the effect of the deviation from the first Born approximation
+              on the screening angle is much smaller than Moliere's expression for this quantity would lead one to believe.
+              This is so because the deviation from the first Born approximation is very small at the small angles that go
+              into the definition of the screening angle. In Moliere s work, all the effect of the deviation from the erst
+              Born approximation on the distribution function f(0) for multiple scattering is contained in the quantity 8
+              which depends only on x . In the present work, it is shown that in a consistent treatment of terms of various
+              orders in nr, there exist additional terms of order sZ/137 in the distribution function. These terms, which
+              represent the second Born approximation, become important at large angles. Calculations have been
+              carried out for the scattering of 15.6-Mev electrons by Au and Be. The 1/e widths of the distribution function
+              obtained are in good agreement with the experimental result of Hanson et al. , whereas Moliere's theory
+              gives too great a width compared with the experimental value in the case of Be.
+
+                 I. INTRODUCTION                                       Bethe4 to be obtainable from the theory of Goudsmit
+     'HE theory of scattering of fast charged particles                and Saunderson by making certain approximations.
+                                                                       For the single-scattering law to be used in the theory of
+       by atoms is of importance for the analysis of
+such experimental results as the scattering of high-                  multiple scattering, Moliere uses the result he obtained
+                                                                      in his earlier paper. '
+energy mesons and electrons in going through sheets
+of matter. An "exact" theory of multiple scattering has                  Hanson et al. ' have measured the scattering of 15.6-
+been given by Goudsmit and Saunderson. ' Its applica-                 Mev electrons by gold and beryllium foils and compared
+tion to a specific scattering problem invokes the knowl-              their experimental results with those calculated accord-
+edge of the law of single scattering by an isolated atom.             ing to Moliere's theory. The calculated "1/e width" of
+In a paper in 1947, Moliere' gives a, (nonrelativistic)               the distribution has been found to be in excellent agree-
+formula for the scattering of a fast charged particle by              ment with the observed value in the case of gold, but is
+a screened Coulomb field, in which an approximation                   somewhat too large in the case of beryllium.
+higher than the usual first Born approximation          is
+                                                                         In the case of the scattering of p, mesons (in cosmic
+attempted. In a second paper Moliere' gives a theory                  rays) by matter, the rather scanty data' (for large
+                                                                      scattering angles) seem to be in agreement with
+of multiple scattering which has later been shown by                  i&moliere's theory. Here, for high enough energies of the
+  * National Research Council Postdoctorate Fellows.                    ' H. A. Bethe, Phys. Rev. 89, 1256 (1953).
+  ' S. A. Goudsmit and J. L. Saunderson, Phys. Rev. 57, 24 (1940),      ' Hanson, Lanzl, Lyman, and Scott, Phys. Rev. 84, 634 (1951).
+and 58, 36 (1940).                                                      6
+                                                                         George, Redding, and Trent, Proc. Phys. Soc. (London) A66,
+  2 G. Moliere, Z. Naturforsch.
+                                  2a, 133 (1947).                     533 (1953); I. B. McDiarmid, Phil. Mag. 45, 933 (1954); 46, 1/7
+  ' G. Moliere, Z. Naturforsch.   3a, 78 (1948).                      (1955).
+

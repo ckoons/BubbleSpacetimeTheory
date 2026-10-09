@@ -1,0 +1,935 @@
+PHYSICAL REVIEW         D                 VOLUME       7, NUMBER        8                           15 A PRI L 1973
+
+                                         Black Holes and Entropy*
+                                             Jacob D. Bekensteing
+                 Joseph Henry Laboratories, Princeton University, Princeton, Neu Jersey OS540
+            and Center for Relativity Theory, The University of Texas at Austin, Austin, Texas 78712|:
+                                            P, eceived 2 November 1972)
+
+              There are a number of similarities between black-hole physics and thermodynamics.
+            Most striking is the similarity in the behaviors of black-hole area and of entropy: Both
+            quantities tend to increase irreversibly. In this paper we make this similarity the basis of
+            a thermodynamic approach to black-hole physics. After a brief review of the elements of
+            the theory of information, we discuss black-hole physics from the point of view of informa-
+            tion theory. We show that it is natural to introduce the concept of black-hole entropy as the
+            measure of information about a black-hole interior which is inaccessible to an exterior
+            observer. Considerations of simplicity and consistency, and dimensional arguments indi-
+            cate that the black-hole entropy is equal to the ratio of the black-hole area to the square of
+            the Planck length times a dimensionless constant of order unity. A different approach
+            making use of the specific properties of Kerr black holes and of concepts from information
+            theory leads to the same conclusion, and suggests a definite value for the constant. The
+            physical content of the concept of black-hole entropy derives from the following generalized
+            version of the second law: When common entropy goes down a black hole, the common
+            entropy in the black-hole exterior plus the black-hole entropy never decreases. The validity
+            of this version of the second law is supported by an argument from information theory as
+            well as by several examples.
+
+
+
+
+                 I. INTRODUCTION                              over that when two black holes merge, the area of
+                                                              the resulting black hole {provided, of course, that
+  A black hole' exhibits a remarkable tendency to             one forms) cannot be smaller than the sum of ini-
+increase its horizon surface area when under-                 tial areas.
+going any transformation.  This was first noticed                It is clear that changes of a black hole generally
+by Floyd and Penrose' in an example of the extrac-            take place in the direction of increasing area.
+tion of energy from a Kerr black hole by means of             This is reminiscent of the second law of thermo-
+what has come to be known as a Penrose process.        '      dynamics which states that changes of a closed
+They suggested that an increase in area might be              thermodynamic system take place in the direction
+a general feature of black-hole transformations.              of increasing entropy. The above comparison
+Independently,  Christodoulou" had shown that no              suggests that it might be useful to consider black-
+process whose ultimate outcome is the capture of              hole physics from a thermodynamic viewpoint: We
+a particle by a Kerr black hole can result in the             already have the concept of energy in black-hole
+decrease of a certain quantity which he named the             physics, and the above observation suggests that
+irreducible mass of the black hole, M. . In fact,             something like entropy may also play a role in it.
+most processes result in an increase in M„. with              Thus, one can hope to develop a thermodynamics
+the exception of a very special class of limiting             for black holes -at least a rudimentary one. In
+processes, called reversible processes, which                 this paper we show that it is possible to give a
+leave Af unchanged. It turns out that M,. is pro-             precise definition of black-hole entropy. Based
+portional to the square root of the black hole's              on it we construct some elements of a thermo-
+area' [see (1)]. Thus Christodoulou's result                  dynamics for black holes.
+implies that the area increases in most processes,               There are some precedents to our considerations.
+and thus it supports the conjecture of Floyd and              The idea of making use of thermodynamic methods
+
+                                '
+Penrose. Christodoulou's conclusion is also valid
+for charged Kerr black holes.
+  By an approach radically different from Christo-
+                                                              in black-hole physics appears to have been first
+                                                              considered by Greif. He examined the possibility
+                                                              of defining the entropy of a black hole, but lacking
+doulou's, Hawking' has given a general proof that             many of the recent results in black-hole physics,
+the black-hole surface area cannot decrease in                he did not make a concrete proposal. More re-
+any process. For a system of several black holes
+Hawking's theorem implies that the area of each
+individual black hole cannot decrease, and more-
+                                                                               '
+                                                              cently, Carter' has rederived the result of
+                                                              Christodoulou       that the irreducible mass of a
+                                                              Kerr black hole is unchanged in a reversible trans-
+
+                                                              2333
+2334                                  JACOB D. B EKE NSTEIN
+
+formation by applying to the black hole the crite-        Black-hole area turns out to be as intimately
+rion for a thermodynamically    reversible trans-       related to the degradation of energy as is entropy.
+formation of a rigidly rotating star. ' Carter's        In thermodynamics     the statement "the entropy has
+example shows the possibilities inherent in the         increased" implies that a certain quantity of ener-
+use of thermodynamic arguments in black-hole
+physics.
+   In this paper we attempt a unification of black-
+hole physics with thermodynamics.       In Sec. II we
+                                                                         "
+                                                        gy has been degraded, i.e. , that it can no longer
+                                                        arear'
+                                                        be  transformed into work. Now, as Christodoulou
+                                                        has emphasized,        the irreducible mass M of a
+                                                        Kerr black hole, which is related to the surface
+point out a number of analogies between black-hole               of the black hole by'
+physics and thermodynamics,      all of which bring
+out the parallelism between black-hole area and
+entropy. In Sec. III, after a short review of ele-
+ments of the theory of information, we discuss          represents energy which cannot be extracted by
+some features of black-hole physics from the point      means of Penrose processes. ' In this sense it is
+of view of information theory. We take the area of      inert energy which cannot be transfcrmed into
+a black hole as a measure of its entropy-entropy
+in the sense of inaccessibility of information about
+                                                        work. Thus, an increase in A, and hence in    I,
+                                                        corresponds to the degradation (in the thermody-
+                                                                                                           ,
+
+
+its internal configuration. We go further in Sec. IV    namic sense) of some of the energy of the black
+and propose a specific expression for black-hole        hole.
+entropy in terms of black-hole area. Earlier"'            The irreducible mass of a Schwarzschild black
+we had proposed this same expression on different       hole is just equal to its total mass. Thus, no en-
+grounds; here we find the value of a previously un-     ergy can be extracted from such a black hole by
+known constant by means of an argument based on         means of Penrose processes. However, the merg-
+information theory. In Sec. V we propose a gener-       er of two Schwarzschild black holes can yield en-
+alization of the second law of thermodynamics                                                    '
+                                                        ergy in the form of gravitational waves. The only
+applicable to black-hole physics: When some com-        restriction on the process is that the total black-
+mon entropy goes down a black hole, the black-          hole area must not decrease as a result of the
+hole entropy plus the common entropy in the black-      merger. ' However, the sum of the irreducible
+hole exterior never decreases                           masses of individual black holes may (in fact,
+  In Secs. VI and VII we construct several exp. mples   does) decrease. We see that for a system of sev-
+which provide support for the generalized second        eral black holes the degraded energy E„ is more
+law. In addition, we analyze in Sec. VII a thought      appropriately given by
+experiment proposed by Geroch" in which, with
+the help of a black hole, heat is apparently con-
+verted entirely into work in violation of the second
+law. We show that, in fact, due to fundamental          than by PM. . According to this formula the de-
+physical limitations the conversion efficiency is       graded energy of a system of black holes is small-
+somewhat smaller than unity. Moreover, the effi-        er than the sum of degraded energies of the black
+ciency is no greater than the maximum efficiency        holes considered separately. Thus by combining
+allowed by thermodynamics for the heat engine           Schwarzschild black holes which are already
+which is equivalent to the Geroch process, so that             "                             '
+                                                        "dead, one can still obtain energy. Analogously,
+this process cannot be regarded as violating the        by allowing two thermodynamic    systems which are
+second law.                                             separately in equilibrium to interact, one can
+                                                        obtain work, whereas each system by itself could
+        II. ANALOGIES BETWEEN BLACK-HOLE                have done no work. From the above observations
+          PHYSICS AND THERMODYNAMICS                    the parallelism between black-hole area and
+                                                        entropy is again evident.
+  We have already mentioned the resemblance be-           We shall now construct the black-hole analog of
+tween the tendency of black-hole area to increase,      the thermodynamic expression
+and the tendency of entropy to increase. Changes
+of a black hole or of a system of black holes select        dE = TdS -PdV
+a preferred direction in time: that in which the
+black-hole area increases. Likewise, changes of         For convenience we shall from now on write all
+a closed thermodynamic system select a preferred        our equations in terms of the "rationalized area"
+direction in time: that in which the entropy            of a black hole e defined by
+increases. This parallelism between black-hole
+area and entropy goes even deeper.                                                                         (4)
+                                    BLACK HOLES AND ENTROPY
+
+Consider a Kerr black hole of mass M, charge Q,             at black-hole physics from the point of view of the
+and angular momentum L. (3-vectors here refer               theory of information.
+to components with respect to the Euclidean frame
+at infinity. ) Its rationalized area is given by' '
+                                                               III. INFORMATION    AND BLACK-HOLE ENTROPY
+
+
+
+
+        =2Mr, —Q,                                                            "'"
+                                                              The connection between entropy and information
+                                                            is well known.       The entropy of a system mea-
+                                                            sures one's uncertainty or lack of information
+where                                                       about the actual internal configuration of the sys-
+                                                            tem. Suppose that all that is known about the in-
+    a = L/M,                                                ternal configuration of a system is that it may be
+                                                            found in any of a number of states with probability
+    r, =M +(M~-Q -a )'                                (7)   p„ for the nth state. Then the entropy associated
+                                                            with the system is given by Shannon's formula"'"
+Differentiating   (5) and solving for dM we obtain
+                                                                S = -PP„ inP„                                (10)
+     dM=8dn+0       ~
+                        dL+4dQ,                      (8)
+                                                            This formula is uniquely determined by a few very
+where                                                       general requirements which are imposed in order
+
+                                                     (9a)                    "
+                                                            that S have the properties expected of a measure
+                                                            of uncertainty.
+                                                               It should be noticed that the above entropy is
+                                                     (9b)   dimensionless.     This simply means that we choose
+                                                            to measure temperature in units of energy. Boltz-
+    4 =—Qr, /a.                                      (9c)   mann's constant is then dimensionless.
+                                                               Whenever new information about the system be-
+   In (8) we have the black-hole analog of the ther-        comes available, it may be regarded as imposing
+modynamic expression (3): The terms fl dL and               some constraints on the probabilities P„. For ex-
+4'     clearly represent the work done on the black
+hole by an external agent who increases the black
+                                                            ample, the information may be that several of the
+                                                            P„are, in fact, zero. Such constraints on the p„
+hole's angular momentum and charge by dL and
+dQ, respectively. Thus 0 dL+ 4 d@ is the analog                 "'
+                                                            always result in a decrease in the entropy func-
+                                                            tion.     This property is formalized by the rela-
+of -PdV, the work done on a thermodynamic sys-              tion"
+tem. Comparing our expression for work with the
+expressions for work done on rotating" and
+charged~ bodies, we see that 0 and 4 play the
+roles of rotational angular frequency and electric          where AI is the new information which corresponds
+potential of the black hole, respectively. ''9 The          to a decrease bS in one's uncertainty about the in-
+a in (8) resembles the entropy S in (3) as we have          ternal state of the system. Equation (11) is the
+noted before: For any change of the black hole
+          '
+du ~ 0, ' while for any change of a closed ther-                                    "
+                                                            basis for Brillouin's identification of information
+                                                            with negative entropy.     All the above comments
+modynamic system dS~ 0. Moreover, it is clear               apply to such divers systems as a quantity of gas
+from (7) and (9a) that     e,
+                            the black-hole analog of        in a box or a telegram. A familiar example of the
+temperature T, is non-negative just as T is. From           relation between a gain of information and a de-
+the above observations the formal correspondence            crease in entropy is the following. Some ideal gas
+between (3) and (8) is evident.                             in a container is compressed isothermally.      It is
+   All the analogies we have mentioned are sugges-          well known that its entropy decreases. On the
+tive of a connection between thermodynamics and             other hand, one's information about the internal
+black-hole physics in general, and between entropy          configuration of the gas increases: After the com-
+and black-hole area in particular.     But so far the       pression the molecules of the gas are more local-
+analogies have been of a purely formal nature,              ized, so that their positions are known with more
+primarily because entropy and area have different           accuracy than before the compression.
+dimensions. We shall remedy this deficiency in                The second law of thermodynamics      is easily
+Sec. IV by constructing out of black-hole area an           understood in the context of information theory.
+expression for black-hole entropy with the correct          The entropy of a thermodynamic system which is
+dimensions. Preparatory to this we shall now look           not in equilibrium increases because information
+                                      SAC QB D. BEKENSTEIN
+
+about the internal configuration of the system is       entropy inside the black hole. In fact, our black-
+being lost during its evolution as a result of the      hole entropy refers to the equivalence class of all
+washing out of the effects of the initial conditions.   black holes which have the same mass, charge,
+It is possible for an exterior agent to cause a de-     and angular momentum, not to one particular black
+crease in the entropy of a system by first acquir-      hole. What are we to take as a measure of this
+ing information about the internal configuration of     black-hole entropy' The discussion of Sec. II pre-
+
+                  "
+the system. The classic example of this is that of
+Maxwell's demon.       But information is never free.
+                                                        disposes us to single out black-hole area. But to
+                                                        be more general we shall only assume that the en-
+In acquiring information AI about the system, the       tropy of a black hole, Sbj, , is some monotonically
+                                              "
+agent inevitably causes an increase in the entropy
+of the rest of the universe which exceeds LI.
+                                                        increasing function of its rationalized area:
+
+Thus, even though the entropy of the system de-                                                          (12)
+creases in accordance with (11), the over-all en-
+tropy of the universe increases in the process.         Although our motivating discussion for the intro-
+   The conventional unit of information is the "bit"    duction of the concept of the black-hole entropy
+which may be defined as the information available       made use of the specific properties of stationary
+when the answer to a yes-or-no question is pre-         black holes, we shall take (12) to be valid for any
+cisely known (zero entropy). According to the           black hole, including a dynamically evolving one,
+scheme (11) a bit is also numerically equal to the      since the surface area is well defined for any black
+maximum entropy that can be associated with a           hole. This choice is supported by the following
+yes-or-no question, i.e. , the entropy when no in-      observations.
+formation whatsoever is available about the answer.        As mentioned earlier, the entropy of an evolving
+One easily finds that the entropy function (10) is      thermodynamic system increases due to the gradual
+maximized when P„=P„,= ~. Thus, in our units,           loss of information which is a consequence of the
+one bit is equal to ln2 of information.                 washing out of the effects of the initial conditions.
+   Let us now return to our original subject, black     Now, as a black hole approaches equilibrium,       the
+holes. In the context of information a black hole       effects of the initial conditions are also washed
+is very much like a thermodynamic system. The           out (the black hole loses its hair)'; only mass,
+entropy of a thermodynamic system in equilibrium        charge, and angular momentum are left as deter-
+measures the uncertainty as to which of all its in-     minants of the black hole at late times. We would
+ternal configurations compatible with its macro-        thus expect that the loss of information about ini-
+scopic thermodynamic parameters (temperature,           tial peculiarities of the hole will be reflected in a
+pressure, etc. ) is actually realized. Now, just as     gradual increase in Sbb . And indeed Eq. (12) pre-
+a thermodynamic system in equilibrium can be            dicts just this; by Hawking's theorem Sb~ in-
+completely described macroscopically by a few           creases monotonically as the black hole evolves.
+thermodynamic parameters, so a bare black hole          This agreement is evidence in favor of the choice
+in equilibrium (Kerr black hole) can be completely      (12).
+described (insofar as an exterior observer is con-         We mentioned earlier that the possibility of
+cerned) by just three parameters: mass, charge,         causing a decrease in the entropy of a thermody-
+and angular momentum. ' Black holes in equilib-         namic system goes hand in hand with the possi-
+rium having the same set of three parameters may        bility of obtaining information about its internal
+ still have different "internal configurations. " For   configuration. By contrast, an exterior agent can-
+example, one black hole may have been formed by         not acquire any information about the interior con-
+the collapse of a normal star, a second by the col-     figuration of a black hole. The one-way membrane
+lapse of a neutron star, a third by the collapse of     nature of the event horizon prevents him from do-
+a geon. These various alternatives may be re-           ing so. ' Therefore, we do not expect an exterior
+garded as different possible internal configura-        agent to be able to cause a decrease in the black
+tions of one and the same black hole characterized      hole's entropy. Equation (12) is in agreement with
+by their (common) mass, charge, and angular             this expectation; by Hawking's theorem S» never
+momentum. It is then natural to introduce the con-      decreases. Here we have a new piece of evidence
+cept of black-hole entropy as the measure of the        in favor of the choice (12).
+inaccessibility of information (to an exterior ob-
+server) as to which particular internal configura-
+                                                          One possible choice for  f   in (12), f(o)cc o. '~'
+                                                        untenable on various grounds. Consider two black
+tion of the black hole is actually realized in a        holes which start off very distant from each other.
+given case.                                             Since they interact weakly we can take the total
+  At the outset it should be clear that the black-      black-hole entropy to be the sum of the Sbj, of each
+hole entropy we are speaking of is not the thermal      black hole. The black holes now fall together,
+                                    BLACK HOLES AND ENTROPY                                                2337
+
+merge, and form a black hole which settles down         somewhat pretentious      to attempt to calculate the
+to equilibrium.   In the process no information         precise value of the constant qk ' without a full
+about the black-hole interior can become available;     understanding of the quantum reality which under-
+on the contrary, much information is lost as the        lies a "classical" black hole. Since there is no
+final black hole "loses its hair. " Thus, we expect     hope at present of obtaining such an understanding,
+the final black-hole entropy to exceed the initial      we bypass the issue, and in the next section we use
+one. By our assumption that f(a)~ a'~~, this im-        a semiclassical argument to arrive at a value for
+plies that the irreducible mass [see (1)] of the               '
+                                                        gS which should be quite close to the correct
+final black hole exceeds the sum of irreducible         one.
+masses of the initial black holes. Now suppose
+that all three black holes are Schwarzschild                       IV. EXPRESSION FOR BLACK-HOLE ENTROPY
+(M=M„}. We are then confronted with the pre-
+diction that the final black-hole mass exceeds the         In our attempt to obtain a value for qS ' we shall
+initial one. But this is nonsense since the total       employ the following argument. We imagine that
+black-hole mass can only decrease due to gravita-       a particle goes down a Kerr black hole. As it dis-
+tional radiation losses. We thus see that the           appears some information is lost with it. Accord-
+choice f(n) ~ a' ' is untenable.                        ing to the discussion of Sec. III we expect the black-
+                                f
+   The next simplest choice for is                      hole entropy, as the measure of inaccessible infor-
+                                                        mation, to reflect the loss of the information
+                                                 (13)   associated with the particle by increasing by an
+                                                        appropriate amount. How much information is
+where y is a constant. Repetition of the above ar-      lost together with the particles The amount clear-
+gument for this new  f  leads to the conclusion that    ly depends on how much is known about the internal
+the final black-hole area must exceed the total ini-    state of the particle, on the precise way in which
+tial black-hole area. But we know this to be true       the particle falls in, etc. But we can be sure that
+from Hawking's theorem. ' Thus the choice (13)          the absolute minimum of information lost is that
+leads to no contradiction. Therefore, we shall          contained in the answer to the question "does the
+adopt (13) for the moment; later on we shall exhib-     particle exist or notV" To start with, the answer
+it some more positive evidence in its favor.            is known to be yes. But after the particle falls in,
+   Comparison of (12} and (13) shows that y must         one has no information whatever about the answer.
+have the units of (length) . But there is no con-        This is because from the point of view of this paper,
+stant with such units in classical general relativ-      one knows nothing about the physical conditions in-
+ity. If in desperation we appeal to quantum physics      side the black hole, and thus one cannot assess the
+we find only one truly universal constant with the      likelihood of the particle continuing to exist or
+correct units'4: 5 ', that is, the reciprocal of the    being destroyed. One must, therefore, admit to
+Planck length squared. (Compton wavelengths are          the loss of one bit of information (see Sec. IH) at
+not universal, but peculiar to this or that particle;   the very least.
+they clearly have no bearing on the problem. ) We          Our plan, therefore, is to compute the minimum
+are thus compelled to write (12}as                      possible increase in the black hole's area which
+                                                        results from the disappearance of a particle down
+    Sbh   ='0~                                   (14)   the black hole, then to compute the corresponding
+                                                        minimum possible increase of black-hole entropy
+where   g is a dimensionless constant which we may      by means of our original formula (12), and finally
+expect to be of order unity. This expression was        to identify this increase in entropy with the loss of
+first proposed by us earlier"'~ from a different        one bit of information in accordanc with the
+point of view.                                          scheme (11}. If our procedure is reasonable we
+  We need not be alarmed at the appearance of @
+in the expression for black-hole entropy. It is
+                                                                                                       f
+                                                        should then recover the functional form of given
+                                                        by (13), together with a definite value for y.
+well known" that 0 also appears in the formulas for        There are many ways in which a particle can go
+entropy of many thermodynamic systems that are          down a black hole, all leading to varying increases
+conventionally regarded as classical, for example,      in black-hole area. We are interested in that
+the Boltzmann ideal gas. This is a reflection of        method for inserting the particle which results in
+the fact that entropy is, in a sense, a count of        the smallest increase. This method has already
+states of the system, and the underlying states of      been discussed by Christodoulou'      ' in connection
+any system are always quantum in nature. It is          with his introduction of the concept of irreducible
+thus not totally unexpected that 0 appears in (14).     mass. The essence of Christodoulou's method is
+These observations also suggest that it would be        that if a freely falling point particle is captured by
+2338                                     JACOB D. BEKENSTEIN
+
+a Kerr black hole from a turning point in its orbit,       which    is of the same form as (14). Our argument
+then the irreducible mass and, consequently, the           has determined the dependence of S» on a in a
+area of the hole are left unchanged. For reasons           straightforward manner. However, our value
+that will become clear presently we wish to allow          q = &ln2 might presumably be challenged on the
+the particle to have a nonzero radius. As shown            grounds that it follows from the assumption that
+in Appendix A, Christodoulou's method can be               the smallest possible radius of a particle is pre-
+generalized easily so as to allow for this, as well        cisely equal to its Compton wavelength whereas
+a, s for the possibility that the particle is brought to   the actual radius is not so sharply defined. Never-
+the horizon by some method other than by free fall.        theless, it should be clear that if g is not exactly
+We find in Appendix A that the increase in area for        '—, ln2, then it must be very close to this, probably
+the generalized Christodoulou process is no longer         within a factor of two. This slight uncertainty in
+precisely zero. But interestingly enough, the              the value of g is the price we pay for not giving our
+minimum increase in rationalized area, (ha) .
+turns out to be independent of the parameters of
+                                                   „,      problem a full quantum treatment. However, in
+                                                           what follows we shall suppose that g= & ln2. Ex-
+the black hole. For a spherical particle of rest           amples to be given later will show that this value
+mass   p, ,   and proper radius b,                         leads to no contradictions.
+                                                               How is the entropy of a system of several black
+    (n. a) .   =2pb.                               (15)    holes defined& It is natural to define it as the sum
+                                                           of individual black-hole entropies. Then Hawking's
+ For a point particle (Aa) min =0; this is Christo-        theorem tells us that the total black-hole entropy
+doulou's result.                                           of the system cannot decrease. But this is just
+   Expression (15) gives the minimum possible              what we would expect since the information lost
+increase in black-hole area that results if a given        down the black holes is unrecoverable.      This ob-
+particle is added to a Kerr black hole. We can try         servation lends support to our choice.
+to make (Aa)         smaller by making 5 smaller.              In conventional units (16) takes the form
+However, we must remember that b can be no
+smaller than the particle's Compton wavelength
+        , or than its gravitational radius 2p. , which-
+                                                              S,„=(-,' In2//4s)kc'g   'G 'A
+ever is the larger. The Compton wavelength is the
+larger for p. ~2 '~'5' ', and the gravitational radi-              =(1.46 x 10" erg 'K 'cm ')A
+                                     '
+us is the larger for p&2 '~')I' (2 ' 'g' ~10 'g)
+Thus, if p, ~2 '    'I' ~, then 2p, b can be as small as   where k is Boltzmann's constant. We see that the
+2php '=2@. But if g&2 ' 'K' ', then 2p. b can be            entropy of a black hole is enormous. For exa, mple,
+no smaller than 4g'&2k. We conclude that quan-              a black hole of one solar mass would have S»=&0
+tum effects set a lower bound of M on the increase          erg'K '. By comparison the entropy of the sun is
+of the rationalized area of a Kerr black hole when         S=10~erg'K ', those of a white dwarf or a neu-
+it captures a particle. Moreover, this limit can            tron star of one solar mass even smaller. The
+be reached only for a particle whose dimension is           large numerical value of black-hole entropy serves
+given by its Compton wavelength.         Of course, only    to dramatize the highly irreversible character of
+such an "elementary particle" can be regarded as            the process of black-hole formation. We may de-
+having no internal structure. Therefore, the loss          fine a characteristic tempera, ture for a Kerr black
+of information associated with the loss of such a          hole by the relation T» ' =(SSb/Shf)~i e which is
+particle should be minimum. And indeed we find             the analog of the thermodynamic relation T '
+that the increase in b1ack-hole entropy is smallest        full.
+                                                            =(BS/sZ}v. By using (8} and (16) we find
+for just such a, particle. This supports our view
+that 2h is the increase in rationalized area associ-
+ated with the loss of one bit of information.                  T» =2k(ln2)   'e
+   Following our program we shall equate the min-
+imum increase in black-hole entropy, (AS») .                       =(0. 165'Kcm) (r, -r } (r, +a ) ',      (18)
+=2ffdf/da, with ln2, the entropy increase associ-
+ated with the loss of one bit of information. Inte-        where r, and a are to be given in centimeters. We
+gration of the resulting equation gives f(a)               introduce this Tb„ in anticipation of our discussion
+=(—,' In2)A' 'a. Thus, we have arrived again at (13}       of an example in Sec. VG. But we emphasize that
+by an alternate route, and have obtained the value         one should not regard T» as the temperature of
+of y into the bargain. We now have                         the black hole; such an identification can easily
+                                                           lead to all sorts of paradoxes, and is thus not use-
+    S»=(-,' ln2)A      'a,                         (16}
+                                     BLACK HOLES AND ENTROPY                                             2339
+
+            V. THE GENERALIZED SECOND LAW                there are two ways by which the black-hole entropy
+                                                         can undergo statistical decreases. One of them
+  Suppose that a body containing some common             depends on the quantum fluctuations of the metric
+entropy goes down a black hole. The entropy of           of the black hole which one has reasons to expect. '
+the visible universe decreases in the process. It        Such fluctuations would be reflected in small ran-
+would seem that the second law of thermodynamics         dom fluctuations in the area, and thus in the en-
+is transcended here in the sense that an exterior        tropy of the black hole, and some of these fluctu-
+observer can never verify by direct measurement          ations would be expected to be decreases in entro-
+                                                         py. However, even if one regards a black hole as
+                                 "
+that the total entropy of the whole universe does
+not decrease in 6e process.      However, we know        a purely classical object, it is still possible for
+that the black-hole area "compensates" for the           its area and entropy to undergo small decreases
+disappearance of the body by increasing irrevers-
+ibly. It is thus natural to conjecture that the second
+                                                                                    "
+                                                         when the black hole absorbs a single quantum
+                                                         under certain conditions.      However, the proba-
+law is not really transcended provided that it is        bility of such an event occurring in any given trial
+expressed in a generalized form: The common              is very small. Therefore, the decrease in area
+entropy in the black-hole exterior plus the black-       and entropy is of a statistical nature, and is quite
+hole entropy never decreases. This statement             analogous to the decrease in entropy of a thermo-
+means that we must regard black-hole entropy as          dynamic system due to statistical fluctuations.
+a genuine contribution to the entropy content of the      This discussion serves us warning that the law
+universe.                                                 (19) is expected to hold only insofar as statistical
+   Support for the above version of the second law       fluctuations are negligible.
+comes from the following argument. Suppose that             We noticed earlier (Sec. IV) the very large mag-
+a body carrying entropy S goes down a black hole          nitude of black-hole entropy. In fact, one can say
+(which may have existed previously or may be              that the black-hole state is the maximum entropy
+formed by the collapse of the body). The S is the         state of a given amount of matter. The point is
+uncertainty in one's knowledge of the internal con-       that in the gravitational collapse of a body into a
+figuration of the body. So long as the body was          black hole, the loss of information down the black
+still outside the black hole, one had the option of      hole is the maximum allowed by the laws of physics.
+removing this uncertainty by carrying out mea-            Thus if the body collapses to form a Kerr black
+surements and obtaining information up to the            hole, all information about it is lost with the
+amount S. But once the body has fallen in, this           exception of mass, charge, and angular momen-
+option is lost; the information about the internal        tum. ' These quantities are given in terms of
+ configuration of the body becomes truly inaccessi-       Gaussian integrals, ~ and so information about them
+ble. We thus expect the black-hole entropy, as            cannot be lost. But all other information about the
+the measure of inaccessible information, to in-           body is eventually lost. Therefore, the resulting
+ crease by an amount S. Actually, the increase in         black hole must correspond to the maximum (gen-
+S» may be even larger because any information             eralized) entropy which can be associated with ihe
+that was available about the body to start with will     given body.
+also be lost down the black hole. Therefore, if we
+denote by b, S, the change in common entropy in the               VI. EXAMPLES OF THE GENERALIZED
+black-hole exterior (AS, = -S), then we expect that                     SECOND LAW AT WORK
+
+
+    d. Sb„+AS, = h(Sb„+ S, )   )0.               (19)      In the examples which follow we endeavor to
+                                                         subject the generalized second law to the most
+This is just the generalized second law which we         stringent test possible in each case by maximizing
+proposed above: The generalized entropy S»+S,            the entropy going down the black hole with a given
+never decreases. Examples supporting this law            body while minimizing the associated increase in
+will be given in Sec. VI-VII.                            black -hole entropy.
+   This is a good place to mention the question of
+                                                                          A. Harmonic Oscillator
+fluctuations. We know that the common entropy of
+a closed thermodynamic system can decrease                 As a first example we take an harmonic oscilla-
+spontaneously as a result of statistical fluctuations,   tor composed of two particles of rest mass yn
+i.e. , the second law, being a statistical law, is       each connected by a nearly massless spring of
+meaningful only if statistical fluctuations are small.   spring constant K. We imagine the oscillator to
+Is black-ho)e entropy also subject to decreases of       be enclosed in a spherical box and to be main-
+a statistical nature 7 Not classically — Hawking's       tained at temperature T. %'e assume for sim-
+theorem guarantees that. Quantum mechanically            plicity that conditions are such that the oscillator
+2340                                       JACOB D. BEKENSTEIN
+
+is nonrelativistic (T«m}. Let ru be the vibrational          d(S +S. )& 5 '"(I+()[-'+(e*-I) ']»2
+frequency of the oscillator. Then the (normalized)
+probability that the oscillator is in its nth quantum                        -x(e*-1) '+ ln(1-e *),        (24)
+state is given by the canonical distribution
+                                                          where we have introduced the notation $ =—m(E)
+     P„=(1-e *) 'e "*, «=I(g/T.                   (20)    and used Eqs. (21) and (22) for S and (E) . We
+                                                          now show that 4(Sb„+S, }&0 as required by the
+                                                          generalized second law. The expression in (24)
+The entropy of the oscillator as computed from            regarded as a function of x for given $ has a
+(10}is                                                    single minimum at
+
+     S=x(e* —1) ' -ln(1-e *),                      (21)
+
+                                                                      ~2
+and the mean vibrational     energy,                                       (1+ () ln2
+
+       (E) =—QP„(n+ a)g&u,                                which has the value
+
+is                                                            'x +in[1-exp(-x )] .
+                                                              —,
+
+
+
+                                                   (22)   Our assumption that the oscillator is nonrelativ-
+                                                          istic means that f»1, and hence that x»2ln2.
+We remark that the thermal distribution (20) max-         Under these conditions the minimum is positive
+imizes the entropy of the oscillator for given (E),       (in fact, it is positive for $&1). It follows imme-
+and is thus ideally suited to our plan for subject-       diately that 6(Sb„+S,} is positive for all x and all (
+ing the generalized second law to the most strin-         which are compatible with the requirement of a
+gent test possible.                                       nonrelativistic oscillator. The generalized second
+   Suppose that the box goes down a Kerr black hole.      law is obeyed over the entire regime for which our
+ The corresponding increase in black-hole entropy         treatment is valid.
+ cannot be smaller than the lowest limit derived by
+the method of Appendix A. From (15) and (16) we                                   B. Beam of Light
+ have h, S»- p, bk ' ln2, where 5 is the outer radius
+ of the box and p. is its total rest mass. Clearly &       As a second example we consider a beam of light
+ must be at least as large as half of the mean val-       which is aimed at a Kerr black hole. This example
+ue (y) of the separation of the two masses y. And         is particularly interesting because it shall bring
+(y) in turn must clearly be larger than dy, the           us face to face with the issue of fluctuations as a
+ root mean square of the thermal oscillation of           limitation on the applicability of the second law.
+            =
+ y [(d, y)' —((y-(y)))], so that y will always be posi-   We shall restrict our attention only to those
+tive. Now according to the (quantum) virial theo-         cases for which geometrical optics is a valid ap-
+rem a(E) is equal to the mean potential energy of         proximation. We shall thus represent the path of
+               'K(Ey)'. Since the reduced mass of
+the oscillator —,                                         the beam by a null geodesic in the Kerr background.
+the oscillator is 4m, we heve K=~ n@u . We thus             We shall take it that the beam is thermalized at
+find from all the above that                              a certain temperature T. This implies that its en-
+                                                          tropy is a maximum for given energy. The entropy
+     h&(E) I/2m-1/2+-1                                    is easily calculated; in fact, the entropy and ener-
+                                                          gy for each mode in the beam are given by the same
+                                                          expressions (21) and (22) which apply to a, harmon-
+Remembering that p &m+(E) (because the box it-
+                                                          ic oscillator, except that one must omit the zero-
+self must have some mass) we obtain
+                                                          point energy term 2k'. The total entropy S and
+                                                          mean energy (E) of the beam are obtained by in-
+       dS „&(E)' m       (k(u)   '(m+(E)) ln2.     (23)
+                                                          tegrating these expressions weighed by the con-
+                                                          ventional density of states
+  We assume that the entropy given by (21) is the
+only contribution to the entropy in the box. This             p=2uP    (2w}    ' VdA
+amounts to neglecting the contribution of the black
+body radiation in the box, etc. , a sensible proce-       over all v. In (25) V is the volume of the beam
+dure if T is not very high. Then AS, = -S and we          and dQ is the solid angle it subtends. Integrating
+have                                                      by parts the expression for S, one easily obtains
+                                   BLACK HOLES AND ENTROPY                                                       2341
+
+the relation                                             turned out to be impossible for ~d, S, to exceed
+                                                                                                     ~
+
+
+
+
+                                                         4S», and so a violation of the second law was
+                                                 (26)    ruled out. But there is a way to circumvent the
+                                                         restriction on T. One simply selects the temper-
+which, not surprisingly, is identical to that for        ature T (arbitrarily) to be as small as one pleases,
+                                                         and arranges for all frequencies e&~,' to be fil-
+       "
+radiation inside a black-body cavity of tempera-
+ture T. [In Ref. 12 (26) was given with an incor-        tered out of the beam. Here ~,'»M ' is a definite
+rect numerical factor. ]                                 frequency unrelated to T. It should be clear that
+   As the beam nears the black hole, it is deflec-       geometrical optics will be a valid approximation
+ted by the gravitational field. Insofar as its effects   for this case also, so that we may take over the
+on electromagnetic radiation are concerned, a            result (28). But the result (27) must be modified
+stationary gravitational field can be mocked up by       since we are here dealing with a truncated fre-
+                "
+an appropriate nonabsorbing refractive medium in
+flat spacetime.     But the propagation of a beam of
+                                                         quency spectrum. We are mostly interested in
+                                                         the regime T«ke,    '. Then for all frequencies in
+     "
+light through such a medium is a reversible pro-
+cess. We infer from this that the entropy of the
+                                                         the beam x=k&u/T» 1. It follows from (21) and
+                                                         (22) that for each mode the entropy to energy ratio
+beam will remain unchanged as the beam nears the         is T ' (S=xe *, (E) =if&ye      ').
+                                                                                          Therefore instead
+black hole. Thus the entropy change of the visible       of (27} we have
+universe when the beam goes down the hole is just
+                                                 (27)       gS, =-(E) T '.
+                                                         It now appears that if
+  What is the increase in black-hole entropy asso-
+ciated with the process? From (8) we see that                T & T, =—K( —
+                                                                         'PM ln2)   ',
+the increase in n is minimized when the angular
+momentum that the hole gains from the beam is            then AS»+AS, will be negative in contradiction
+maximized for given (E) . Now, the gain in angu-         with the generalized second law.
+lar momentum is limited because the beam will               The resolution of the above paradox is that in
+not be captured if it carries too much angular mo-       the regime 7& 7, statistical fluctuations are al-
+mentum. In Appendix B we take this into account          ready dominant so that our entire picture of the
+in calculating (in the geometrical optics limit} the     process is invalid. To verify the importance of
+minimum possible increase in a for given (E) of          fluctuations we calculate the mean number of
+the beam. We find that hn&PM(E) where P ranges           quanta N in the beam by integrating the mean num-
+from 8 for the case of a Schwarzschild hole to           ber of quanta per mode, (e*-1) ', weighed by the
+4(I-v 3/2) for the case of an extreme Kerr hole,                                                   '.
+                                                         density of states (25) over all ~&&u, For T = T,
+this last value being the smallest possible P. From      we get (recall that /f&u,'/T,   »
+                                                                                        1 by our assumptions)
+(16) it follows that
+
+    aS,„& (-', P ln2)M g '(E) .                   (28)
+                                                             N   =, —
+                                                                 M   4m
+                                                                          5 '( 6 M &u,' )' exp(- t M u&,'   ),    (31)
+
+  Our assumption (Appendix B) that geometrical           where 6=  —2 p ln2 (0.2 -5&2.8). It is clear that for
+optics is always applicable means that the bulk of       any beam aimed at the black hole dQ/4g«1. Re-
+wavelengths in the beam are much shor ter than           calling that M~,'»1 by assumption, we see from
+the characteristic dimension of the hole =M. Thus,       (31) that each quantum occupies a mean volume
+if cu, is some characteristic frequency in the beam,     much larger than M'. But the cross section of the
+then we require that   (,»M '. From the form of          beam must be smaller than -M2 if the beam is to
+the Planck spectrum (22) we see that II~, ~T;            go down the black hole. Thus the mean separation
+therefore (27) tells us that                             between quanta is much larger than M, the char-
+                                                         acteristic dimension of the black hole. In case
+                                                  (29)    T& T, the above effect is even more accentuated.
+                                                           We conclude that in the regime T&T, for which
+Comparison of (28) and (29) shows that a violation       the second law (19}appears to break down, our
+of the generalized second law (19) cannot arise in       description of the process as a continuous beam
+the regime under consideration.                          going down the black hole is invalidated by the
+  In the above discussion the condition that geo-        large fluctuations in the concentration of energy
+metrical optics be applicable prevented us from          in the beam (or equivalently,   the large fluctuations
+taking T to be arbitrarily small. As a result it         in the energy of each section of the beam). In this
+                                       JACOB D. B EKE NSTEIN
+
+regime (E) is no longer a good measure of the              The box under consideration must have a non-
+actual energy. It appears, therefore, that statis-       zero radius (see below). Because of this its en-
+tical fluctuations are responsible for the break-        ergy as measured from infinity is never quite zero
+down of the second law in the context in which we        when it is as close to the horizon as it can possibly
+have applied it here. But we can demonstrate that        be. We shall assume that the box is in the shape
+the law has not lost all its meaning by adopting a       of a sphere of radius b. Then according to the
+point of view more suitable to the circumstances         analysis of Appendix C the minimum        value of the
+at hand than the one used above.                         energy is
+   We take the point of view that quanta are going
+down the black hole one at a time, rather than in            E =2pbe,
+a continuous stream. Thus we must check the
+validity of the generalized second law for the infall    where 6 is defined by (9a). It follows that in low-
+of each quantum. The analysis of Appendix B              ering the box from infinity to the horizon, the
+still leads to formula (28) for the increase in black-   agent obtains only work g(l-2b6) rather than p.
+hole entropy except that (E) is replaced by Nor,         After the box has radiated into the black hole, its
+the energy of the quantum.     To compute the            rest mass becomes p, —b, p and according to (33)
+common entropy going down the black hole we              its energy at the horizon is just 2(p-b. g)b6.
+ reason as follows. From our point of view a quan-       Thus the agent must do work (p, —b, g) (1-2b6) to
+ tum of definite frequency is going down the black       retrieve the box to infinity where its energy is
+hole. Thus we are no longer dealing with the prob-                Therefore, in the over-all process the
+ability distribution (20); instead we shall ascribe      agent obtains net work b, p(1-2b6) in exchange for
+probability 2 to each of the two possible polar-         the expenditure of heat hp, . The efficiency of
+izations of the quantum. Then according to (10)          conversion is
+ the entropy associated with the quantum is ln2.
+Therefore,                                                   e = 1-2be,                                      (34)
+
+    hS~„+b, S, & (aP ln2)M&u —ln2.               (32)    which    is smaller than unity.   In practical situations
+                                                         b«x, so that be«1 and the efficiency can be quite
+Since ~P ~ 0.268, and since we are assuming that         near to unity. But the departure of ~ from unity,
+Me»1, we see that AS»+AS, is in fact positive:           albeit small, serves to resolve the problem raised
+The generalized second law is upheld for the infall
+of each quantum.                                                                                 "
+                                                         by Geroch's example: There is no violation of the
+                                                         Kelvin statement of the second law.
+                                                            We must now explain why b cannot be arbitrarily
+                                                         small. Physically the reason is that the box must
+         VII. A PERPETUAL MOTION MACHINE
+                USING A BLACK HOLE?                      be large enough for the wavelengths characteristic
+                                                         of radiation of some temperature T to fit into
+  Geroch" has described a procedure using a black        it. More formally we can argue as follows. The
+hole which appears to violate the second law of          frequency of the photon ground state associated
+
+
+
+                                                                                    I]-
+thermodynamics by converting heat into work with         with the box, coo, cannot exceed that frequency co~
+unit efficiency. He envisages a box filled with          at which the Planck photon-number spectrum
+black-body radiation which is slowly lowered by
+means of a string from far away down to the hori-            cc   J' [exp (her/T)
+zon of a black hole, at which point its energy as
+measured from infinity vanishes. Therefore, if           peaks. Otherwise the frequencies of all photon
+the box's rest mass is p. , then the agent lowering      states would lie in the exponential tail of the spec-
+the string obtains work equal to p. out of the pro-      trum, the occupation number of each state would
+cess. The box is then allowed to emit into the           be small, and the resulting large fluctuations
+black-hole radiation of (proper) energy Ap. . Fi-        would make the concept of temperature meaning-
+nally, the agent retrieves the box; since its rest       less. We have the conventional relation w, b'= w,
+mass is now p, -6p. , he must do work p, -Ap to          where b' is the interior radius of the box (b'& b),
+accomplish this. Therefore, in the whole process         and we easily find that h(d~&2T. Therefore, cu, & ~~
+the agent obtains net work 6p, at the expense of         implies that b& wk/2T. It is thus clear that there
+heat 6 p, —conversion with unit efficiency. We           is a lower limit for b.
+shall now show that, in fact, due to fundamental           We may write the efficiency (34) in a more trans-
+physical limitations, the efficiency of the Geroch       parent form by recalling that 6 = a T „ In2/5 [see
+process is slightly smaller than unity, so that no       (18)], where T~„ is the characteristic temperature
+violation of the second law is entailed here.            associated with the black hole. Since b&wh/2T we
+                                          BLACK HOLES AND ENTROPY
+
+find that                                                increase incidental to the process of bringing the
+                                                         particle to black-hole horizon. For example,
+    e « I T»-/T      .                           (35}    there is some circumstantial evidence for believ-
+                                                         ing that when the particle is lowered into the
+We now recall that the efficiency of a heat engine       black hole by a string, there occurs an increase
+operating between two reservoirs, one at temper-         in black-hole area even as the particle is being
+ature T and the second at temperature T»& T, is          lowered. "    Furthermore, the area will experience
+restricted by e &1-T»/T. We thus see that the            an additional increase due to the gravitational
+Geroch process is no more efficient than its
+"equivalent reversible heat engine.       "
+                                        This obser-                                                 "
+                                                         waves radiated into the black hole by the string as
+                                                         it relaxes when the particle is dropped.       Similar-
+vation makes it evident again that Geroch's pro-         ly, if the particle falls freely to the horizon )t
+cess is not in violation of the second law of thermo-    emits gravitational waves into the hole even before
+dynamics. Finally, we wish to remark that since          it falls in; the amount of radiation may even be
+our primary formula (33}is valid only when the           significant. '4 This radiation will also result in an
+box is small compared to the black hole (be«1),          increase in area. Here we shall ignore all these
+we can vouch for the validity of (35) only when          incidental effects and concentrate on the increase
+T»«T. However, due to the smallness of T» this           in area caused by the particle all by itself.
+condition will be satisfied in all cases of practical      We assume that the particle is neutral so that it
+interest.                                                follows a geodesic of the Kerr geometry when fall-
+  We now verify that the Geroch process is in            ing freely. We shall employ Boyer -Lindquist
+accord with the generalized second law (19). We          coordinates for the charged Kerr metric"
+mentioned earlier that the agent obtains work
+a p(1-259) for a decrease A p in the rest mass of            ds' = g«dt'+2g, edtdg+geedp'+g«dr          +geed8'.
+the box. This means that the black hole's mass
+must increase by 2A pb8 in the complete process.
+                                                         For later reference    we give g„„:
+According to (6) and (16) the corresponding in-
+crease in black hole entropy is AS»=h, p. M ln2
+(angular momentum is not added to the hole; see              g„„=(r'+ a' cos' 8}A    ',                     (A2)
+Appendix C). But since 5& vg/2T we have that
+                                                         where
+               '
+    AS» & (—, v 1n2) d. p/ T .                    (36)
+                                                               —r'-2Mr+a'+Q
+                                                              A=                                            (A3)
+On the other hand,   the decrease in entropy of the
+box is clearly n. p/T (heat/temperature)    Thus.
+                                                         The event horizon is located at r =r, where     r, are
+    AS, = -n, p/T        .                               defined by (7}. We have
+                                                  (37)
+
+From (36) and (37) it follows that A(S»+S, ) & 0 as          6=(r r) (r-r, ) . -                            (A4)
+required by the generalized second law.
+                                                         First integrals for geodesic motion in the Kerr
+                      ACKNOWLEDGMENTS                    background have been given by Carter. 2' Christo-
+                                                         doulou' uses the first integral
+  The author is grateful to Professor J. A. Wheeler
+for his interest in this work, his encouragement
+and his penetrating criticism. He also thanks
+                                                         E' [r'+a' (r'+ 2Mr —Q')] —2E (2Mr —Q') aP e
+Professor Karel Kuchar" and Professor Brandon
+Carter, and Dr. Bahram Mashhoon for valuable
+ suggestions       and comments.
+                                                                                                            (A5)
+                             APPENDIX A
+                                                          as a starting point of his analysis.  In (A5) E = -p,
+  Here we shall calculate the minimum possible            is the conserved energy,   p& is the conserved   com-
+increase in black-hole area which must result             ponent of angular momentum in the direction of the
+when a spherical particle of rest mass p, and
+proper radius b is captured by a Kerr black ho)e.                     "
+                                                          axis of symmetry, q is Carter's fourth constant of
+                                                          the motion,    p, is the rest mass of the particle,
+We are interested in the increase in area ascrib-         and p„ is its covariant radial momentum.
+able to the particle itself, as contrasted with any         Following Christodoulou we solve (A5) for E:
+                                         JACOB D. BEKENSTEIN
+
+   E =Bape+([B'a'+A         '(r'   2-Mr+@')]pe'            scribe the motion of the particle's center of mass
+                                                           at the moment of capture.
+                +A '[(p, 'r'+q)A+(P, &)']}' ',               It should be clear that to generalize Christo-
+                                                           doulou's result to the present case one should
+                                                  (A6)     evaluate (A6} not at r=r, , but at r=r, +6, where
+                                                           5 is determined by
+where                                                              r +5
+                                                                                  ~~2' = b
+   A -=r'+a'(r'+2Mr —Q'),                                          Y+
+
+
+
+    = (2My- Q')A ' .
+   B—                                             (A8)
+                                                           (r=r, +5 is a point a proper distance b outside
+                                                           the horizon).      Using (A2} we find
+At the event horizon b, =0 [see (A4)] so that there
+                                                                            (y ~+a cos28) ~ (y         y ) &/2   (All)
+   A =A, = (r+'+a~/,
+                                                           To obtain this we have assumed that r,            -x»6
+   B =B, =(r, *+a*)    '.                         (A9}
+                                                           (black hole not nearly extreme). Expanding the
+                                                           argument of the square root in (A6) in powers of
+Furthermore,    at the horizon Ba =Q [see (9b)],           5, replacing 5 by its value given by (A11), and
+and the coefficients of Pe and  g~rl+q in (A6) van         keeping only terms to O(b) we get
+ish. However,
+                                                           E =Qp, +[(r,*-a*)(y, '+a*) 'pe'+ i 'r, '+q]'~*
+   p„n, =(y +a' cos'8) p'
+
+does not vanish at the horizon in general. If the                         'b(r,
+                                                                        x —,       r)(r,-+a ) (r, '+a cos 8) ' '
+particle's orbit intersects the horizon, then we
+have from (A6) that
+                                                           Here v-e have already assumed that the particle
+    E =Qpg+A+        IPr &I+   ~                           reaches a turning point as it is captured since we
+                                                           know that this minimizes the increase in black-
+As a result of the capture, the black hole's mass          hole area. Equation (A12} is the generalization to
+increases by E and its component of angular mo-            0(b} of the Christodoulou condition (A10).
+mentum in the direction of the symmetry axis in-             What is q in (A12}'P We can obtain a lower bound
+creases by Pe. Therefore, according to (8) the
+black hole's rationalized area will increase by
+                                                           for it as follows. From the requirement that the
+                                                           8 momentum Pe be real it follows that            "
+e-'A, -' * (P„a, . As pointed out by Christodoulou
+                ~
+
+
+
+this increase vanishes only if the particle is cap-            q ~ cos'8[a' (p'        E') +P e'/sin-'8];        (A13)
+tured from a turning point in its orbit in which
+case ( p, n. (, =0. In this case we have                   the equality holds when Pe=0 at the point in ques-
+                                                           tion. If we replace E in (A13) by Qpe [see (A12)]
+    E =Op~.                                       (A 10)   we obtain
+
+   The above analysis shows that it is possible for            q ~ cos'8[a'P. '+Pe'(1/sin*8         -a*Q*)],
+a black hole to capture a point particle without in-
+creasing its area. How is this conclusion changed          which   is correct to zeroth order in b. We know
+if the particle has a nonzero proper radius b?             that 1/sin'8~1; it is easily shown that a'Q' & '—,
+First we note that regardless of the manner in             for a charged Kerr black hole. Therefore
+which the particle arrives at the horizon (being           q ~ ampm cos28. Substituting this into (A12) we
+lowered by a string, splitting off from a second           find
+particle which then escapes, etc ), it mus. t clearly
+acquire its parameters E, p&, and q while every                E&Qpg+g gb(r, -r )(r, '+a') '                     (A14)
+part of it is still outside the horizon, i.e. , while
+it is not yet part of the black hole. Moreover, as         which is correct to 0(b). By retracing our steps
+the particle is captured, it must already be de-           we see that the equality sign in (A14) corresponds
+tached from whatever system brought it to the              to the case p&=pe=p" = 0 at the point of capture.
+horizon, so that it may be regarded as falling             The increase in black-hole area, computed by
+freely. Therefore, Eq. (A6) should always de-              means of (8), (9a), and (A14), is
+                                         BLACK HOLES AND ENTROPY
+
+   AQ +~ 2)b        .                           (A15)   monotonically       with a for fixed M. The limit of
+                                                        (Aa)~ as a-M may be computed         analytically
+This gives the fundamental lower bound on the in-       because in this limit one can find the height of the
+crease in black-hole area. We note that it is in-       potential analytically with sufficient accuracy. One
+dependent of M, Q, and          I.                      finds
+
+
+                            APPENDIX 8
+                                                            (Aa)    -4(1--,'&3)ME as a-M.                      (B3)
+
+  Here we shall calculate the minimum possible          It is clear that for q&0 the potential peak will be
+increase in black-hole area which must result           higher and the increase in area will be larger than
+when a light beam of energy E &0 coming from            the one given by (B3). Thus we find that the min-
+infinity is captured by a Kerr black hole. If the       imum increase in area results when the beam is
+black hole is nonrotating the increase is simply        captured by an extreme Kerr black hole from a
+obtained by setting dM=E in (8):                        purely equatorial orbit.
+
+    b, o. = Bled~       for a =0.                                                APPENDIX C
+
+If the black hole is rotating, A, 0. can be minimized      Here we compute the value of the energy (as
+by maximizing the angular momentum P which is           measured from infinity} of a particle of rest mass
+brought in by the beam [see (8)]. To accomplish          p and proper radius b which is hanging from a
+this we consider the effective potential V for the      string just outside the horizon of a Kerr black hole.
+motion of a massless particle in a Kerr back-           It is clear that the particle will not be moving in
+ground.                                                 the r or 8 directions; hence P" =Pe=0 for it. We
+   This V is just the value of E given by (A6) re-      cannot claim that the particle does not move in the
+                                r
+garded as a function of for p=0 and P, =0               Q direction.   In fact, since it will be within the
+(E equals V at a turning point). This potential         ergosphere in general, it cannot avoid moving in
+starts off at a value QPz at r=r+ (see Appendix A),     the P direction. ' our intuitive notion that the par-
+increases with r, reaches a maximum, and then           ticle is "not moving" must be applied only in a
+falls off to zero as        r-~.
+                            For the beam to be cap-     locally nonrotating (Bardeen) frame. ~' The particle
+tured by the hole it is necessary that p& be small      is at rest in such a frame if for it
+enough for the peak of the potential barrier to be
+smaller than E of the beam. The optimum case
+we seek corresponds to the peak being just equal
+to E so that P& has its largest possible value.
+  It is clear that we must take q in (A6) as small      It follows that
+as possible in order to have the lowest possible
+potential peak for given p&. Let us first take q & 0.                  dt     dy
+Then according to Carter" there are solutions to
+                                                            Pft= 9 ggy d +gyyd
+the geodesic equation only if (pz(& aE. From (8)
+it follows that                                           If the particle were to be dropped, it would
+    n, n=   8 '(E-Qp~)                                  clearly keep its energy E and it would still have
+                                                        p~ = p' = pe = 0, at least momentarily.   We may thus
+                                                        compute E for the particle hanging in the string
+        &8      E(1-Qa).                                at a proper distance b from the horizon by setting
+                                                        P&=0 in (A12). For q we take the value given by
+But since Aa & ~ and 6 ' & &M it follows that           (A13) with the equality sign (pe =0) p& = 0, and
+                                                        E = 0 [since for P & = 0, E is of O(b)] . Thus
+   6a & 4MF. for q& 0.                           (B2)
+                                                            q= p, 'a' cos'8
+  Next we take q =0. Two cases are possible      ':
+Either (p&~ &aE as above so that (B2) is again
+applicable, or else the orbit is purely equatorial.
+In the second case one may calculate the peak of            E = -,' pb(r,     r}(r,*+a')   '-
+the barrier numerically and then find the optimum
+increase in a. It turns out that (Acf) decreases                = 2pbe.
+2346                                             JACOB D. BEKENSTEIN
+
+  *Based in part on the author's Ph. D. thesis, Princeton          printed in C. E. Shannon and W. Weaver, The Mathemat-
+University, 1972; work supported in part by the National          ical Theory of Communications (University of Illinois
+Science Foundation Grants No. GP 30799X to Princeton               Press, Urbana, 1949) . An elementary introduction to
+University and No. GP 32039 to the University of Texas             information theory is given by M. Tribus and E. C.
+at Austin.                                                        McIrvine, Sci. Amer. 225 (No. 3), 179 (1971). The
+  )National Science Foundation Predoctoral Fellow when            derivation of statistical mechanics from information
+this work was initiated.                                          theory was first carried out by E. T. Jaynes, Phys.
+ g Present   address.                                             Rev. 106, 620 (1957); 108, 171 (1957).
+  ~C. W. Misner, K. S. Thorne, and J. A. Wheeler,                     The relation between information theory and thermo-
+Gravitation (Freeman, San Francisco, 1973).                       dynamics is discussed in detail by L. Brillouin,
+  ~R. Penrose and R. M. Floyd, Nature 229, 177 (1971).            Science and Information Theory {Academic, New York,
+  3R. Penrose, Riv. Nuovo Cimento 1, 252 (1969).                  1956), especially Chaps. 1, 9, 12-14.
+  4D. Christodoulou, Phys. Rev. Letters 25, 1596 (1970).              This was first gointed out to the author by J. A.
+  5D.Christodoulou, Ph. D. thesis, Princeton University,          Wheeler (private communication) .
+1971 (unpublished)   .                                              20J. D. Bekenstein, Phys. Rev. D 7, 949 (1973).
+ 6D. Christodoulou       and R. Ruffini,   Phys. Rev. D 4, 3552     2~See for example, A. M. Volkov, A. A. Izmest'ev,
+(1971).                                                           and G. V. Skrotskii, Zh. Eksp. Teor. Fiz. 59, 1254
+  ~S. W. Hawking, Phys. Rev. Letters 26, 1344 (1971);             (1970) ISov. Phys. JETP 32, 686 {1971)   j.
+contribution to Black Holes, edited by B. DeWitt and                 See E. Hisdal, Phys. Norv. 5, 1 (1971), and refer-
+C. DeWitt (Gordon and Breach, New York, 1973).                    ences cited therein.
+   J. M. Greif, Junior thesis, Princeton University,                  In Ref. 12 we gave an alternate resolution of the
+1969 (unpublished) .                                              paradox posed by Geroch based on the apparent ten-
+  B. Carter, Nature 238, 71 (1972).                               dency of the black-hole area to increase as the box is
+  ~OYa. B. Zel'dovich and I. D. Novikov, Sta~s and Rela-          being lowered. ' The present approach is preferable in
+tivity (University of Chicago Press, Chicago, 1971),              that it is independent of the validity of the interpretation
+p. 268.                                                           given in Ref. 11, and in that it fits very well into the
+   J. D. Bekenstein, Ph. D. thesis, Princeton University,         thermodynamic approach of this paper as will be evident
+1972 (unpublished) .                                              presently.
+ ~2J. D. Bekenstein, Lett. Nuovo Cimento 4 737 (1972).              24See M. Davis, R. Ruffini, and J. Tiomno, Phys. Rev.
+ ~3R. Geroch, Colloquium at Princeton University,                 D 5, 2932 (1972) for the radiation of a particle falling
+December 1971.                                                    radially into a Schwarzschild black hole. It is not clear
+ ~4We use units with 6 = c = 1 unless otherwise specified.        whether the large amount of radiation found to go down
+  SL. D. Landau and E. M. Lifshitz, Statistical Physics           the black hole is a device of the linearized approxima-
+(Addison, -Wesley, Reading, Mass. , 1969).                        tion, or whether the effect will persist for other types of
+   L. D. Landau and E. M. Lifshitz, Electrodynamics               orbits or for Kerr black holes. Therefore we do not
+of Continuous Media (Addison-Wesley, Reading, Mass. ,             base any of our arguments here on this effect as we did
+1960), p. 5.                                                      in Refs. 11 and 12.
+ ~~The mathematical definition of information was first             B. Carter, Phys. Rev. 174, 1559 (1968).
+given by C. E. Shannon; the relevant papers are re-                ~~J. M. Bardeen,   Astrophys.   J. 161, 103 (1970).
+
