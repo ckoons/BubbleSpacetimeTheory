@@ -11178,3 +11178,12 @@ katra follow; then the machine is Casey's to update.**
 - **Applied:** the Šilov convention on the front page and in the Guide; Elie 5862's corrections; the rubric fold and Section 3 re-derivation.
 - **Next round:** `Keeper_prompts_team_roundK4-3_*_2026-10-08.md` (Target 1: commit rate = absorption history, hash before data; Target 2: torus vs 0.78233 MeV via the Fermi integral; KL-H Holevo).
 - **TOMORROW file rewritten.** Counter next **K1953**.
+
+**Keeper 12:28 2026-10-09 — round K4-3 GO (Casey relayed the 10-08 prompt at 12:22; all four woke; nothing had run Thursday).**
+- **GO prompt:** `notes/Keeper_prompts_team_roundK4-3_GO_the_census_the_two_engines_and_the_boundary_in_linear_algebra_2026-10-09.md`. The 10-08 prompt stays the spec; this adds Casey's Wednesday-evening session (TOMORROW item 5 a–h), the four wake questions (all GO), and one collision.
+- **Collision (Keeper):** K1952 reads "3 photons = 1 unit" as a QUOTIENT; K1922 proved the quotient supplies nothing to the filling law and only the PRODUCT reading (N₃ = N₁³ ∝ a⁶, ε = 2, D = 3 only) does. Lyra's word-vs-cell question IS this collision; she resolves it in the rate law, Cal rules.
+- **Target 1 restructured by Cal's objection:** two engines, one pincer. Engine A = the absorption census (recombination, 21-cm M1, Lyman, stellar re-absorption, dust/life; the law declares which classes are commits — item 5e: a commit records a RELATION). Engine B = the K1922 product reading (owes cells-vs-bits + saturation). Both hashed, both computed blind; any of the four outcomes is progress.
+- **No-data linear algebra open now (Elie):** B-new-1 restricted roots of so(5,2) — are K1228's 3 short roots the K4 frame's three faces, and the long root the closure face (tension: K1228 says timelike, Casey says timeless)? B-new-2 the π audit over bst_constants.json (rationals from the spectrum, π from the boundary; look at Wyler first).
+- **Lyra after the rate law:** charge split as H²(Š) ⊕ H²(Š)^⊥, sign = which side the boundary value extends to, |q| = |k|; kill lines declared (quark thirds; μ, τ, W; properties vs particles).
+- **Cal:** attack 5(e), Born rule from the last record (Gleason; Zeno; no-frame). Hash Q* for α (item 5h) when Lyra and Casey name it.
+- **Register:** nightly run 12:24, 3398 → 3401 rows (S1033, K1952, Lyra K4-2 now have rows); controls 9/11. **Counter next K1953.**
