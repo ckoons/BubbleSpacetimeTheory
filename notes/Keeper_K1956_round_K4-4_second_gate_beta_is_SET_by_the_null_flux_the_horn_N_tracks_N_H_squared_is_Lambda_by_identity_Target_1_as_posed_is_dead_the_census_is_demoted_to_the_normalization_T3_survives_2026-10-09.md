@@ -1,0 +1,44 @@
+# K1956 — Round K4-4, second gate (Friday 2026-10-09, 14:32 EDT, clock). β is SET, by the null flux ρ + p: zero knobs. The horn: N ∝ N_H² makes w ≡ −1 identically, so the ledger is Λ by identity, and Target 1 AS POSED is dead. The census is demoted from source to normalization; T3 (the absolute count) survives as the blind test. Q1 + Q2 give N = W (Cal's prediction landed). The Stokes map has a half-angle kill waiting.
+
+Rubric cells: External 4 (Λ / the filling law — MOVED: the radiation era is now inside the identity); Internal C (composition settled: one K4 per non-null absorption; KL-W1 closed); Internal B (5870, 5871 ruled). Order kept: Elie 5874 14:24 → Cal S1040 14:26 (independent confirmation, credit to 5874 by Cal's own note) → Lyra rewrite 14:27 → this gate. No cosmological number has been read by anyone.
+
+## 0. Owned
+- **My β clue (K4-4 prompt): right in its physics, wrong in its formula.** "What focuses null rays feeds the horizon" — yes. But the null Raychaudhuri source is R_ab k^a k^b = 8πG(ρ + p), not ρ + 3p (the timelike one, the active mass). ρ + p gives β = 2 exactly; ρ + 3p gives 6 and walls. Elie 5874 R4, Lyra Section 4, Grace's seam note all caught it independently. I wrote the caution ("may come out 6, not 2") in my 14:22 message before any of them posted, which is the one thing I did right; the clue itself should have carried "null, not timelike" and did not. Filed with K1954 Section 0's lesson: a clue is a formula too.
+
+## 1. β is SET (Elie 5874, 10/10; Lyra Section 4; Cal S1040 Section 2)
+- With N_H ∝ H⁻², d ln N_H/d ln a = −2Ḣ/H² = 3Σ(1 + wᵢ)Ωᵢ (Raychaudhuri in fractions). The source s_N = 2·d ln N_H/d ln a over the non-DE fluids = 6Ω_m + 8Ω_r = 6(1 − f) + 2Ω_r. **β = 2 with no knob; the radiation/matter ratio 4/3 = (1 + w_r)/(1 + w_m) is the signature of ρ + p.**
+- The DE's own (1 + w)Ω_DE term vanishes at its fixed point (R5), so "exclude the dark energy" and "ρ + p of everything" are one rule; the 09-25 "(1 − f) exclusion factor" was the non-DE share of the budget all along (R6; Lyra withdraws it as a mechanism, keeps its matter-era algebra).
+- Lineage owed (Grace): **Jacobson 1995** (dQ = T_ab k^a k^b through a local Rindler horizon) — this is his construction in commit language; cite it before anyone calls the null flux BST's.
+- **Cal's KL-β question from Lyra ("mechanism at tier C, or input?") is Cal's to answer; my reading for the record:** "a horizon is a null surface, so what feeds it is the null flux" is a GR identity, not a choice made with the answer in view; the choice that WAS available (timelike vs null) was made by the geometry of the object, and the wrong choice fails. I would call it a consistency with GR at the K1919 tier, not a derivation of anything new.
+
+## 2. The horn (Cal S1040 Section 2; 5872 A4; 5874 R8) — this is the finding of the day
+**N = c·N_H² ⇒ ρ_DE = E_commit·N/V_H ∝ H·H⁻⁴·H³ = constant: w ≡ −1 identically, in every era, at every f, radiation included, and (Lyra) only at D = 3.**
+Consequences, stated plainly:
+- (a) **The ledger with β set is ΛCDM BY CONSTRUCTION.** Its w(z) is the identity, not a prediction. **Target 1's T1 (the growth slope) and T2 (the relaxation epoch) carry no information.** The round's primary target — "the commit rate follows the absorption history and gives a growing fraction" — **is dead as posed**: under the law the commit count follows the null flux through the horizon, not the census.
+- (b) **F799 / T2559 (w relaxing to −1 from above; the "wₐ > 0" row) has no ledger mechanism left.** β < 2 pins at ½ − Ω_r/3 with w → 0; β > 2 walls; β = 2 is w ≡ −1 exactly. **Register: F799's mechanism clause → VOID (its row stays as a measured-direction statement with no BST source).** Same algebra retires the ledger's radiation-era w = −1/3 / EDE phase (Lyra 09-25 (iii)) as an artifact of the constant per-axis 2 (5874 R8).
+- (c) **What survives, and it is still blind: T3** — the ABSOLUTE count. The census sets c (the normalization), and f(a = 1) = c·N_H²·E_commit/(ρ_crit V_H) against the measured dark-energy fraction is a reproduction-class test by orders, k of N forks. **That is Target 1 now.**
+- (d) **KL-β2 (Cal): the source's composition.** Lyra's law answers it: the SOURCE is the null flux (Rule R, generalized); the CENSUS enters only as the normalization c (how many K4s the universe's bound electrons have written). **The census is demoted from engine to normalization.** Engine A (astrophysical) and Engine B (geometric) are no longer rivals: B is the law, A sets its constant.
+- **Calibrate the other way, as owed:** this is also the cleanest statement the DE sector has ever had in this program — Λ constant through the radiation era with zero knobs, no pole, and the dimension forced to 3 by the exponent count (1 − 2(D − 1) + D = 0 ⟺ D = 3). It is a consistency with GR of the K1919 class, now covering every era. It is NOT a projection into the continuum of something the kernel could not give (KL4): Λ's value is still H's.
+
+## 3. Q1 + Q2 → N = W (Cal S1040 Section 3 predicted it before the rewrite; Lyra Section 0–1 did it)
+Three writes from three absorbers that never interfered made no pattern together; by "no null K4" they are not a K4. So the substrate constructs **one K4 per non-null absorption**, its three faces from THAT photon's Stokes vector relative to the electron's circle, the fourth the closure, forgotten order (S₃ physical, **KL-W1 CLOSED**). **N = W is the composition; N₁³ is a capacity fork only.** The axes dissolve (Condition B); χ is a definition (Condition C). Casey's three inputs were consistent, and their joint consequence is the simpler count.
+**Terminology collision to retire now:** "N = W" has meant (a) the composition one-K4-per-absorption (Lyra) and (b) the census-driven event count with slope ≈ 4.5 (5869 H2, 5874 R9). Under the law, (a) holds and the GROWTH is the null flux, so R9's "N = W gives w ≠ −1" is about (b), a source the law no longer uses. Say "one K4 per absorption" for (a) and "census-sourced" for (b).
+
+## 4. 5870, 5871 ruled (Cal S1040 Sections 4–5); the half-angle kill
+- **5870 PASS, exact:** R ≠ 0 at rank 2; disc control R = 0; the two Hardy spaces meet in the constants only. **"Stuck to both sides" (K1955 Section 5) loses one of its two addresses:** the constants are one-dimensional and carry no pattern; if the lead means anything it means R (neither side), where the neutral self-conjugate candidates already sit. Caged there.
+- **5871 PASS; Cal's P2 half-landed, half-owned:** the Jones phase has no intertwiner (predicted); the Stokes vector has exactly one (not predicted). **The hashed kill for "the Stokes 3 is the spatial 3" (Elie next): a physical rotation by θ about the photon axis rotates the Stokes vector by 2θ; the same rotation in M₀ ⊂ K rotates g_{e₁} by θ. The Schur map is the physical map only if it carries the half-angle. If it cannot, polarization's 3 and K1228's 3 are different 3s, and the K4's faces are not the spatial directions.** This is the first test in the lane that can kill "three faces = three dimensions" outright.
+
+## 5. Grace (Lane C)
+- **5873 retained (4/4):** the 19 rewritten `formula_code` rows evaluate identically to the old code (worst |Δ|/|old| = 0.0). Literals 42 → 29, every one classed and dated. **PASS.**
+- The ruler sentence in `bst_this_is` now names the unit in the ledger's words. **Owed (root files, Keeper's 8-point at EOD): CLAUDE.md :3 and README :7 say "one mass scale is the ruler" without naming it — align to "Planck units are the dimensionful input; m_e is the interior unit; the ladder is the bridge."**
+- Raychaudhuri pin (the book page) in flight; Jacobson 1995 added to the pin list.
+
+## 6. For Casey (one from Lyra, two carried)
+1. **Lyra's:** the law reads "a commit relates TWO boundary cells — where the photon left the substrate and where it was absorbed" (N ∝ N_H² has that pair reading). **Is the record two-ended, or only at the absorbing end?** If one-ended, N_H² stands only as algebra.
+2. S4: the sphere or the group?
+3. "Exterior": which of the three senses, or all one?
+
+## 7. Register / counter
+Rows owed tonight: 5874, S1040, Lyra K4-4, Grace 14:23, this. F799 mechanism clause → VOID (row amended, not deleted). Register now 3412 rows (14:27 run). **Counter next K1957.**
+
+— Keeper. K1956. The day's shape: the sky test we set out to run turned out to be an identity, and the identity is cleaner than the test would have been. The honest success test that remains is the absolute count, and it is still blind.
