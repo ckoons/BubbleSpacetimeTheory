@@ -203,6 +203,34 @@ Each line says MEASUREMENT or MODEL OUTPUT. Nothing here is new; every number is
 - **Wording flag:** Jacobson does NOT use the phrase "integration constant" for Λ; the paper's face is *"for some constant Λ"* and *"undetermined"*. Any sentence of ours citing him for "Λ as an integration constant" should be reworded to his words (the mathematics is the same: Λ enters through the Bianchi identity as the constant f cannot fix). Likewise his result is (ℏη/2π) R_ab k^a k^b, with 1/8πG only after G = (4ℏη)⁻¹.
 - **Use (DERIVED):** this is the exact lineage of "the horizon ledger is fed by what focuses null rays" and of β = 2: Jacobson's δQ is T_ab k^a k^b (ρ + p), his area change is the null Raychaudhuri focusing, and his Λ is the constant the construction cannot set — which is Keeper's "Λ by identity" and the K4-5 cage "Λ derived" in one sentence. What Jacobson leaves undetermined (Λ, i.e. the constant c in N = c·N_H²) is exactly T3's absolute count. Said plainly for the lineage sentence: BST's ledger is Jacobson's Clausius argument with a count where he has an entropy density η, and the absolute count is the one number his argument does not fix.
 
+## 14. Round K4-6, Lane C: the H-AREA menu's lengths — ledger ids confirmed (K1958 Section 2 asks "Grace confirms each id"), conventions flagged BEFORE Cal's hash; the Mössbauer pin for K1/B2
+Written 15:4x, before Cal's hash and before any (L/ℓ_P)² is computed by anyone. Nothing numeric is evaluated here; ids and conventions only.
+
+### 14.1 Menu rows → ledger rows (and what is NOT a row)
+| K1958 row | Length | Ledger id | Status / flag |
+|---|---|---|---|
+| 1 | proton charge radius r_p | `const_045`: formula 4ħc/(m_p c²), observed 0.84075(64) fm CODATA 2022, NIST pinned 09-29 (`r19/nist/nist_rp.html`) | **confirmed** |
+| 2 | proton Compton λ_p = ħ/(m_p c) | **no row**; it is `hbar_c/m_p` in the namespace (ħc = 197.3269804 MeV fm, m_p = 6π⁵m_e) | CODATA value pinned in band K (NIST lists the UN-reduced h/(m_p c)); **convention: ħ vs h, 2π on L, (2π)² ≈ 39.5 on A** |
+| 3 | nuclear radius 1.2 A^{1/3} fm | **no row** (`const_069` is the Bravais count, unrelated) | textbook r₀ pinned in band K; r₀ itself is a FIT (1.2–1.25 fm by method) — flag as input |
+| 4 | grain radius a ∈ {0.01, 0.1, 1} μm | **no row** | MRN 1977 size range pinned in band K; Draine 2003 already opened (band F) |
+| 5 | λ = 21 cm | from A₁₀/ν₁₀: ν₁₀ = 1420.4 MHz (Wild 1952 Table 2, band G) | **confirmed from the pin**, not a ledger row |
+| 6 | λ = 121.6 nm (Lyα), 91.2 nm (LyC) | NIST ASD Lyα 1215.6699 Å (band G); LyC = Rydberg limit, `const_129` R_∞ = 10973731.569 m⁻¹ → 1/R_∞ = 91.127 nm | Lyα **confirmed**; LyC is 1/R_∞ (a computation from a pinned row) |
+| 7 | λ_abs ∈ {0.4, 0.6, 1.2} μm | Elie 5877's E_abs forks | not a pin; Elie's declared fork |
+| 8 | Bohr radius a₀ | `const_030`: N_max·ħc/m_e, observed 52917.7 fm (CODATA 2022) | **confirmed** |
+| 9 | electron Compton λ_e = ħ/(m_e c) | `const_130`: **h/(m_e c)** = 2.42631023867 × 10⁻¹² m (the UN-reduced Compton wavelength) | **CONVENTION COLLISION:** the ledger row is h/(m_e c); K1958 writes ħ/(m_e c) = ƛ_e = 3.8616 × 10⁻¹³ m. Factor 2π on L, (2π)² ≈ 39.5 on A — 1.6 decades, larger than Cal's ±1-decade landing. **Cal must name which before the hash.** Same for row 2. |
+| 10 | classical electron radius r_e = αλ_e | `const_111`: (1/N_max)·ħc/m_e = 2.8179 fm | **confirmed**; note r_e = α·ƛ_e (REDUCED), so row 10 is consistent only with the reduced reading of row 9 |
+| 11 | ℓ_P | **no row**; m_Planck is in the explorer namespace (1.220890 × 10¹⁹ GeV, CODATA 2022, added 09-13); ℓ_P = ħc/(m_Pl c²) | CODATA ℓ_P pinned in band K; **ℓ_P is the RULER (K1953: Planck is the dimensionful input)** — the whole menu is in units of the ruler, which is the honest form |
+
+### 14.2 Two things to say before the hash (DERIVED)
+- **The 2π.** Rows 2 and 9 are written reduced in K1958 and un-reduced in the ledger/NIST. a₀ = ƛ_e/α and r_e = α·ƛ_e both use the REDUCED ƛ_e, so the menu is internally consistent only in the reduced convention; Cal should hash "ƛ = ħ/(mc), reduced" for rows 2 and 9 and the pin will quote NIST's h/(mc) with the 2π stated. A ±1-decade credit rule cannot survive an unstated (2π)².
+- **r₀ is not a constant of nature.** 1.2 fm is a charge-distribution fit; 1.25 fm is common for matter radii; the difference is 0.04 decades on an area — harmless for the rule, but the row should say "fit".
+
+### 14.3 The Mössbauer pin (K1 / binder fork B2)
+*(filled from band J)*
+
+### 14.4 CODATA 2022 values for rows 2, 8, 9, 10, 11; r₀; MRN; a lattice constant
+*(filled from band K)*
+
 ## 10. The ruler (K1953's ask) — RULED by Casey (K1953 addendum, 12:40), ledger line written
 - **What I found first (12:40 board):** the ledger (`bst_constants.json` `SI_ruler_measured`, toy 541's input count, front page) named m_e; T2569 (08-20) and toy 5118 (08-08) named the Planck unit. Same ladder, opposite ends.
 - **Casey's ruling (verbatim, K1953 addendum):** *"there are D_IV^5 internal 'ratios' like a ruler hence the m_e seems to be the base value. Plank is the boundary ruller, so we use Plank as the bridge between interior/exterior."* Two rulers, two jobs.
