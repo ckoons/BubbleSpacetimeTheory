@@ -14,7 +14,7 @@
 
 - **π is not an input.** It enters because circles tile the sphere. The Bergman kernel volume is π⁵/1920. π is geometry, not a parameter.
 
-- **We do not claim zero free parameters.** One dimensionless input selects the object (the colour count) and one dimensionful ruler sets the scale; beyond those, every number in a formula traces back to {2, 3, 5, 6, 7} — and each formula wears its tier: derived where the mechanism is proved and the inputs are named, identified where only the value matches (rewritten 2026-09-11 to the register, Cal Section 946 / K1892).
+- **We do not claim zero free parameters.** One dimensionless input selects the object (the colour count) and one dimensionful ruler sets the scale (Planck units — G, ℏ, c; the electron mass is the interior unit every ratio is quoted against, and m_e = 6π⁵α¹²m_Pl is the bridge between them: Casey, K1953 addendum, 2026-10-09; this clause named no unit until then); beyond those, every number in a formula traces back to {2, 3, 5, 6, 7} — and each formula wears its tier: derived where the mechanism is proved and the inputs are named, identified where only the value matches (rewritten 2026-09-11 to the register, Cal Section 946 / K1892).
 
 - **≈325 physical predictions from one geometry, honestly tiered** — roughly ⅓ Derived, ⅓ Identified, ⅓ Structural, **one named dimensionless input** (rewritten 2026-09-11 to the register, Cal Section 946 / K1892). Particle masses, mixing angles, cosmological parameters, nuclear magic numbers, the genetic code, the rainbow angle. All from D_IV⁵. (A third Derived on the K962 ladder — with the count of the 26 primaries now generated, `data/bst_26_tier_table_generated.md`; earlier "600+" counted the full geometric-invariant catalog, not the physics denominator.)
 

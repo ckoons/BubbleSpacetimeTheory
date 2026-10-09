@@ -1,0 +1,26 @@
+    const_008  old=125.054804230472       new=125.054804230472       |d|/|old|=0.0e+00
+    const_014  old=0.684210526315789      new=0.684210526315789      |d|/|old|=0.0e+00
+    const_015  old=5.33333333333333       new=5.33333333333333       |d|/|old|=0.0e+00
+    const_018  old=0.315789473684211      new=0.315789473684211      |d|/|old|=0.0e+00
+    const_019  old=0.0498614958448753     new=0.0498614958448753     |d|/|old|=0.0e+00
+    const_030  old=52903.8196943458       new=52903.8196943458       |d|/|old|=0.0e+00
+    const_041  old=2.52777777777778       new=2.52777777777778       |d|/|old|=0.0e+00
+    const_054  old=6.42857142857143       new=6.42857142857143       |d|/|old|=0.0e+00
+    const_058  old=957.801392828235       new=957.801392828235       |d|/|old|=0.0e+00
+    const_077  old=3.07222737905137e-05   new=3.07222737905137e-05   |d|/|old|=0.0e+00
+    const_100  old=67.2928921457039       new=67.2928921457039       |d|/|old|=0.0e+00
+    const_121  old=0.0133936303335212     new=0.0133936303335212     |d|/|old|=0.0e+00
+    const_111  old=2.81868078716744       new=2.81868078716744       |d|/|old|=0.0e+00
+    const_122  old=-0.328478965579194     new=-0.328478965579194     |d|/|old|=0.0e+00
+    const_126  old=7.72897857855749       new=7.72897857855749       |d|/|old|=0.0e+00
+    const_127  old=8.48993107298382       new=8.48993107298382       |d|/|old|=0.0e+00
+    const_128  old=5.67037441918443e-08   new=5.67037441918443e-08   |d|/|old|=0.0e+00
+    pos_163    old=4.5077407375           new=4.5077407375           |d|/|old|=0.0e+00
+    const_155  old=0.963503649635037      new=0.963503649635037      |d|/|old|=0.0e+00
+  [PASS] P1: all 19 rewritten rows evaluate to their previous value (worst 0.0e+00)
+  [PASS] P2: 19 rows carry an old code (expected 19)
+  [PASS] P3: Elie-5867 bare-literal detector: 29 rows (board 10-09 says 29; was 42)
+    classes of the 29: {'NAMED': 6, 'VALUE': 1, 'UNIT': 3, 'MEASURED': 6, 'REWRITTEN': 6, 'IDENTIFIED': 4, 'SI': 1, 'INPUT': 1, 'TEXTBOOK': 1}
+  [PASS] P4: every remaining literal row carries a dated class note (report line)
+
+SCORE: 4/4  (3 can fail: P1 P2 P3; P4 is a report line)
