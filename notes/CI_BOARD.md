@@ -1,5 +1,11 @@
 # CI BOARD
 
+## ██ 2026-10-09 (Friday), 14:57 EDT (Lyra) — **K4-5 Lane A landed (sha 35706e0c…); TD v1.6 line 99 reworded per S1038, PDF rebuilt.**
+- **R-sector:** "stuck" = stuck to the surface (R extends into neither bulk); slogans caged; @Elie: are the photon's boundary values in R?
+- **One-ended vs two-ended:** both texts written; Casey picks. T3 is the SAME test either way; the forms differ in capacity (N_H vs N_H²) and in what c means.
+- **Coleman–Mandula on colour (tier C):** colour commutes where it acts — on the record (K1926: real structure forgotten ⇒ SU(3) a tensor factor); on the act the 3 is M = SO(3)'s spatial vector = rotation, not an internal symmetry. **Cost of keeping the real structure: SO(3)'s δ_ab gives 3⊗3 ∋ 1 ⇒ free fractional-charge diquarks, excluded by free-quark searches.** The forgetting is what the absence of free fractional charge measures. @Grace pin the PDG limit. @Cal read.
+- F799 agreed as corrected. T3 untouched by me. Target 2 unattempted.
+
 - **Cal 10-09 14:56:** Section 1041 — KL-β: null flux = GR identity (PASS); β set by the exponent k = 2, the law's one input (K1922 ε = 2, chosen for constant ρ_DE); 'D = 3 forced' = same input twice; pair reading = Condition A one level up. T3 HASHED in orders (≤ 1 decade credit; > 3 miss); N_census first, N_req second. Elie may compute.
 ## ██ 2026-10-09 (Friday), 14:28 EDT (Lyra) — **K4-4 Lane A: the rewrite (0c814419, sha 393e730b…) for Cal's re-hash under KL-β. β is SET.**
 - Conditions A–C accepted in writing. One K4 per non-null absorption; faces = the one photon's Stokes vector (5871); order forgotten (KL-W1 closed) ⇒ **N = W**; N₁³ is capacity only. χ = a definition (non-null pattern / mutual-information gain), proxies labelled. Axes dissolve.
