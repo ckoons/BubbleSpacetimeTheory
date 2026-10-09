@@ -1,0 +1,1111 @@
+                                        Gen. Rel. Grav. manuscript No.
+                                        (will be inserted by the editor)
+
+
+
+
+                                        Saibal Ray · Utpal Mukhopadhyay ·
+                                        Partha Pratim Ghosh
+
+                                        Large Number Hypothesis
+
+
+
+
+arXiv:0705.1836v1 [gr-qc] 13 May 2007
+                                        : A Review
+
+
+
+
+                                        Received: date / Accepted: date
+
+
+                                        Abstract Large dimensionless numbers, arising out of ratios of various phys-
+                                        ical constants, intrigued many scientists, especially Dirac. Relying on the
+                                        coincidence of large numbers, Dirac arrived at the revolutionary hypothesis
+                                        that the gravitational constant G should vary inversely as the cosmic time
+                                        t. This hypothesis of Dirac, known as Large Number Hypothesis (LNH),
+                                        sparked off many speculations, arguments and new ideas in terms of applica-
+                                        tions. Works done by several authors with LNH as their basic platform are
+                                        reviewed in this work. Relationship between some of those works are pointed
+                                        out here. Possibility of time-variations of physical constants other than G are
+                                        also discussed.
+                                        Keywords Large numbers · variable G · anthropic principle
+                                        PACS 04.20.q · 04.50.+h · 04.80.y
+
+
+                                        1 Introduction
+
+                                        Physical constants are not uncommon to us. During our study of various laws
+                                        of nature, we come across a number of constants entangled with those laws.
+                                        But, it was Dirac who discovered an apparently unseen thread joining up
+
+                                        Saibal Ray
+                                        Inter-University Centre for Astronomy and Astrophysics, Post Bag 4, Pune 411
+                                        007, India
+                                        Present address:Physics Department, Barasat Government College, Kolkata 700
+                                        124, North 24 Parganas, West Bengal, India E-mail: saibal@iucaa.ernet.in
+                                        Utpal Mukhopadhyay
+                                        Satyabharati Vidyapith, North 24 Parganas, Kolkata 700 126, West Bengal, India
+                                        Partha Pratim Ghosh
+                                        Tara Brahmamoyee Vidyamandir, Matripalli, Shyamnagar 743 127, North 24 Par-
+                                        ganas, West Bengal, India
+2
+
+
+those physical constants by a simple yet interesting law, viz., “Law of Large
+Numbers”. Using that law, Dirac arrived at his “Large Number Hypothe-
+sis” (LNH) which has profound influence on the world of physics. In fact, a
+plethora of works have been done, both at theoretical and observational level
+with LNH as their starting point.
+    These works can be divided into three broad categories:
+I. The first type of works are centered around modification of Einstein’s grav-
+itational theory and related equations for adopting the idea of G variation
+as predicted by LNH [1,2,3,4,5,6,7,8];
+II. Arguments and counter arguments in favor of and against LNH for justify-
+ing and refuting that hypothesis characterize the second category of works [9,
+10,11,12,13,14,15,16,17,18,19,20,21,22];
+III. Testing and applications of LNH can be classified as the third line of
+investigation [23,24,25,26,27,28,29,30,31,32,33,34,35,36,37].
+    Although so many years have passed after the inception of LNH, it has
+not lost its significance. Instead, perhaps it has gained a new momentum
+after the discovery of accelerating universe. The present cosmological picture
+emerging out of SN Ia observations [38,39] reveals that the present universe
+is accelerating. Some kind of exotic repulsive force in the form of vacuum
+energy is supposed to be responsible for this acceleration which started about
+7 Gyr. ago. This repelling force is termed as dark energy and is designated
+by Λ. On the way of investigating dark energy, many variants of Λ have
+been proposed including a constant Λ. But, compatibility with other areas
+of physics demands that Λ should be slowly time decreasing. Moreover, the
+currently observed [40,41] small (≈ 10−35 s−2 ) value of Λ suggests that it has
+decreased slowly from a very high value to its present nearly zero value. This
+type of time dependency of Λ has a similarity, so far as the main spirit of
+the idea is concerned, with that of the gravitational constant G as proposed
+by Dirac in his LNH [42]. Both Λ and G have descended from a very high
+initial value to its present small value because the universe is so old. It should
+be mentioned here that a long ago, while dealing with large dimensionless
+numbers, Eddington [43] proposed a large number involving the cosmological
+term Λ (then regarded as a constant geometric term) viz. ch(mn me /Λ)1/2 ≃
+√
+   N , where mn and me are the masses of nucleon and electron respectively,
+h is the Planck constant, c is the velocity of light and N is the total number
+of particles in the universe. It has also been shown that variable Λ models
+are generally characterized by particle creation [44] which is also a feature
+of LNH. All these suggest that the link between LNH and Λ can, in no
+way, be ignored. In fact, in recent years, a combined framework of LNH and
+the cosmological parameter is used to address a number of important issues
+such as explanation of flat galactic rotation curves [45], unification of LNH
+with general theory of relativity [46], possible implications of a variable fine-
+structure constant [34,35] etc. Also, the problem of unifying all other forces
+with gravity demands an understanding of the coincidence of large numbers
+and hence LNH [47].
+    On the other hand, for unfolding the true nature of dark energy, a number
+of variants of the cosmological term have been suggested, one of them being
+kinematical Λ of phenomenological character (for an overview see [48]). Now,
+                                                                                 3
+
+
+since LNH predicts that the gravitational constant G should vary with time,
+a probable inter-connection between LNH and Λ cannot be ruled out. So an
+investigation about the behaviour of the scale factor and other cosmologi-
+cal parameters within the framework of varying G and Λ may be helpful in
+finding the significance of LNH in context of the present cosmological sce-
+nario. Such an attempt is made by Ray and Mukhopadhyay [37] in their work
+with phenomenological Λ model under varying G. In this review, most of the
+works mentioned in this section, will be discussed in subsequent sections in
+the relevant contexts. The paper is organized as follows: idea of large num-
+bers and Dirac’s LNH are given in Sec. 2 and 3 respectively. Sec. 4 deals with
+consequence of LNH in terms of modifications of gravitational theory and
+dynamical equations related to it. Arguments in favor of and against LNH
+are described in Sec. 5 while Sec. 6 is devoted to testing and applications of
+LNH. Finally, some discussions are being done in Sec. 7.
+
+
+
+2 An Overview of the Large Numbers
+
+Although Dirac’s name is closely associated with large numbers, but it was
+Weyl [49,50] who initiated the idea of large numbers. He arrived at the num-
+ber 4 × 1042 through a comparison between the electron’s radius re given
+by qe 2 /4πǫ0 me c2 with the hypothetical radius of a particle with a charge qe
+and an electrostatic energy equal to that of electron’s gravitational energy. It
+is easy to see that the above ratio is equal to that of electron’s electrostatic
+Coulomb force (Fe ) and electron’s gravitational energy (Fg ) as well as that of
+the energy of electron’s electrostatic field (E0 ) and electron’s self-energy (Eg )
+due to its gravitational field. These connections prompted Weyl to speculate
+that the same ratio might also be held between the radius of the universe to
+that of an electron. Weyl’s speculation was found to be nearly correct when
+astronomer Stewart showed [51] that the ratio of the radius of the universe
+and electron was only two orders of magnitude smaller (1040 ) than that of
+Weyl’s number. In the same year, Eddington [52] speculated that if N be the
+number of particles in the universe, then using the equation
+                                   GMu
+                                         = Cg 2                                (1)
+                                    Ru
+    where Mu is the mass of the universe, Ru is the radius of curvature of
+the universe, Cg is the maximum speed of recession of distant galaxies and
+G is the gravitational constant, one can write
+            Fe     E0      q 2 Gme 2       √
+                =      =         /       = N = W eyl′ s number                 (2)
+            Fg     Eg     πǫ0 re    re
+From equation (2), by substituting known values of the parameters, we can
+arrive at the number N = 1.7507×1085 which is known as Eddington’s magic
+number. It is to be noted that Jordan [53] pointed that if M ∗ and me be
+typical stellar mass and electron mass respectively, then
+                           M∗
+                              ≈ 1060 ≈ (1040 )3/2 .                            (3)
+                           me
+4
+
+
+Recently Shemi-zadeh [54] has arrived at some large numbers of the order
+of 1060 by comparing cosmological parameters such as Hubble radius (RH ),
+mass of the universe (MH ), CMBR temperature (Tγ ) with their counterparts
+of the macroscopic world, viz., Planck length (lP ), Planck mass (mP ), Planck
+energy (EP ) etc. For instance,
+                              RH          EP
+                                 ≈ 1060 ≈    .                               (4)
+                              lP          Tγ
+Before leaving this section, special attention should be made for three large
+numbers involving gravitational constant G, atomic constants h, mp and
+cosmological parameters like Hubble term H and ρ, the matter density of
+the observable universe. These three numbers are designated by N1 , N2 , N3
+and are given by [55]
+
+                                   h̄c  1
+                           N1 ≡        ≃ × 1039 ,                            (5)
+                                  Gm2p  6
+
+                                  mc2  1
+                           N2 ≡       ≃ × 1039 ,                             (6)
+                                  h̄H  3
+
+                                    ρc3
+                            N3 ≡          ≃ 1079 .                           (7)
+                                   mp H 3
+It is easy to see that N1 , N2 and N3 can be related by
+                                         p
+                              N1 ≃ N2 ≃ N3 .                                 (8)
+Without wasting more time, we conclude this section here only mentioning
+that a list (may not be exhaustive) of large numbers is given in Table 1.
+
+
+3 Dirac’s LNH and its extension
+
+Even to a non-initiated person it seems surprising that the order of the ra-
+tios of fundamental constants of the macro and micro physical world can
+be so close in so many cases as demonstrated by equations (1)-(8). So, it
+is quite natural that a person like Dirac would be intrigued by those coin-
+cidence. Dirac thought that the coincidence of large numbers was far from
+being accidental. He had a firm belief that the coincidence seen among var-
+ious cosmological and atomic constants was a manifestation of a hitherto
+unknown theory linking up the quantum mechanical origin of the universe
+to the various cosmological parameters. Dirac [59,60] pointed out that the
+ratio of electrical (e2 /4πǫ0 r2 ) and gravitational (Gmp me /r2 ) forces between
+proton and electron in a hydrogen atom is a large number of the order of
+1040 , i.e.
+                                  e2
+                                         ≈ 1040                              (9)
+                             4πǫ0 Gmp me
+                                                                                  5
+
+
+Table 1 List of Large Numbers
+Physical Constants Involved                          Large Numbers                        References
+1. Electrostatic force FE and gravitational force
+FG between a proton and an electron                  FE /FG ≃ 1040                        [47, 55, 56]
+2. Radius of the universe R
+and the radius of an electron r                      R/r ≃ 1040                              [55, 57]
+3. Intensity of electromagnetic
+and gravitational interaction
+                                                      e2 /h̄c
+of elementary particles                              Gme 2 /h̄c
+                                                                ≃ 1040                       [54, 57]
+4. Mass of a typical star M⋆ and electron mass me    M⋆ /me ≃ 1060 = (1040 )3/2                 [54]
+5. Mass of the universe MU and proton mass mp        MU /mp ≃ 1080 = (1040 )2                   [54]
+6. Mass of the universe MU and Planck mass mP        MU /mP ≃ 1061                              [54]
+7. Hubble radius RH and Planck length lP             RH /lP ≃ 1060                           [47, 54]
+8. Planck mass density ρP and the observed
+matter density of the universe ρ                     ρP /ρ ≃ 10120 = N1 1/3                      [54]
+9. Planck energy EP and CMBR temperature Tγ          (EP /Tγ )2 ≃ 1060                           [54]
+10. Planck mass mP and neutrino mass mν              (mP /mν )2 ≃ 1061                           [54]
+11. Planck mass mP and electron mass me              (mP /me )3 ≃ 1062                           [54]
+12. Planck mass mP and pion mass mπ                  (mP /mπ )3 ≃ 1063                           [54]
+13. Planck mass density ρP and the current
+critical matter density of the universe ρc           ρP /ρc ≃ 10121                              [56]
+14. Electron mass me and Hubble parameter H          me c2 /h̄H ≃ 1039 /3                        [57]
+15. Matter density of the observed universe ρ,
+proton mass mp and Hubble parameter H                ρc3 /mp H 3 ≃ 1079                          [57]
+16. Number of nucleons N4 in the universe            ρ0 (cH −1 )3 /mp = 1080 = (1040 )2          [58]
+17. Number of proton Np and baryons Nb               Np /Nb ≃ 1010 = (1040 )1/4                  [58]
+
+
+where e is the charge of an electron, mp is the proton mass and ǫ0 is the
+permittivity of space. Again, the ratio of the then age of the universe ( 2×109 )
+and the atomic unit of time (e2 /4πǫ0 me c3 ) is also nearly of the same size,
+i.e.
+                               4πǫ0 me c3
+                                          ≈ 1040 .                            (10)
+                                  e2
+Dirac suggested that the two quantities in the left hand side of equations (9)
+and (10) are equal, i.e.
+                               e2       4πǫ0 me c3
+                                      ≃            .                          (11)
+                          4πǫ0 Gmp me      e2
+Relying on equation (11), Dirac proposed that as a consequence of causal
+connections between macro and micro physical world, some of the funda-
+mental constants cannot remain constant for ever; rather they should vary
+with time, however small the change might be. This is known as Dirac’s
+LNH. According to LNH, atomic parameters cannot change with time and
+hence the gravitational constant should vary inversely with time, expressed
+in atomic units, i.e.
+                                          1
+                                     G∝     .                                 (12)
+                                          t
+6
+
+
+Also, the hypothesis demands that creation of matter occurs continuously in
+the universe. This creation of matter can occur in two possible ways, viz.,
+“additive creation” and “multiplicative creation”. According to “additive cre-
+ation theory”, matter is created through the entire space and hence in in-
+tergalactic space also. In “multiplicative creation theory”, creation of matter
+occurs only in those places where matter already exists and this creation pro-
+ceeds in proportion to the amount and type of atoms already existing there.
+According to general relativity, G is constant and hence we cannot readily
+consider G as a variable quantity in Einstein equation. To overcome this dif-
+ficulty, Dirac considered two metrics. The equations of motion and classical
+mechanics are governed by the Einstein metric which remains unaltered while
+the other metric, known as atomic metric, includes atomic quantities and the
+measurement of distances and times by laboratory apparatus [61]. The in-
+terval ds(A) separating two events as determined by apparatus in atomic
+system of units (a.s.u.) will be different from the interval ds(G) between the
+same two events as measured in the gravitational system of units (g.s.u.).
+This implies that equations written in g.s.u. and a.s.u. cannot be used at
+a time until one of them is converted to the other system of units [6]. The
+velocity of light is unity for both metrics. Considering the case of a planet or-
+biting the sun, Dirac [62] showed that the relationship of Einstein and atomic
+metric was different for additive and multiplicative creation theory. In terms
+of the atomic distance scale, the solar system is contracting for the additive
+creation model while it is expanding in multiplicative creation.
+    Zeldovich [63] extended Dirac’s LNH by including the cosmological pa-
+rameter in its realm and defined Λ by
+                                      8πG2 m6p
+                               |Λ| =           .                            (13)
+                                        h4
+Then Zeldovich showed that Λ produces the same gravitational field in the
+vacuum as that produced by matter in space and hence the cosmological term
+should be included in the field equations as full fledged term in the presence of
+ordinary matter. The gravitational energy of the vacuum was interpreted by
+Zeldovich as interactions of virtual particles separated by a distance h/mp c
+and the amount of energy created by the gravitational interactions of these
+particles is given by
+                                     Gm6p c4
+                                 ǫ=          .                          (14)
+                                       h4
+LNH was further extended by Sakharov [64] who proposed a gravitational
+theory based on the consideration of vacuum fluctuations. He suggested that
+there should be a fundamental length ∼ 10−33 cm−1 , less than which the
+theory is not valid. According to Matthews [65], in the extended LNH, the
+mass of a proton (chosen by Dirac) should be replaced by the effective mass
+of the vacuum energy density of the relevant epoch because this replacement
+would agree with experimental results. It has already been mentioned that
+Eddington [43] linked up the cosmological parameter Λ with the total number
+of particles of the universe through the relation
+                                               √
+                           ch(mn me /Λ)1/2 ≃ N .                        (15)
+                                                                                7
+
+
+Above relation tells us readily that if N increases with the age of the universe,
+then Λ is also time dependent. Berman [66] has called this whole idea as
+Generalized LNH.
+
+
+4 Consequences of Dirac’s LNH
+
+4.1 Variable G Cosmology
+
+Dirac’s LNH has many significant consequences and as such depending on it,
+a plethora of works have been done. Most of these works are centered around
+the variation of G.
+
+4.1.1 Scale-covariant Theory
+
+It is well known that Einstein’s equations of general relativity do not permit
+any variation in the gravitational constant G because of the fact that the
+Einstein tensor has zero divergence and by energy conservation law T;νµν is
+also zero. So, in the light of Dirac’s LNH, some modifications of Einstein
+equations are necessary. This is because, if we simply allow G to be a variable
+in Einstein equations, then energy conservation law is violated [2,22]. So, the
+study of the effect of varying G can be done only through modified field
+equations and modified conservation laws. For this purpose, Canuto et al. [1,
+2] developed a scale-covariant (also termed as scale-invariant) theory. In this
+theory a gauge function β is chosen and the essence of scale-covariant theory
+lies in the fact that physical laws remain unaffected by the choice of the
+gauge function. Scale-covariant theory is developed by scale transformation
+and using different dynamical systems for measuring space-time distances.
+Let us start with the conventional Einstein equation
+                           Ḡµν = −8π T̄µν + Λḡµν                           (16)
+having the line element
+                              ¯ 2 = ḡµν dxµ dxν .
+                              ds                                             (17)
+Using the transformation
+                                             ¯
+                                ds = β −1 (x)ds                              (18)
+and by considering necessary modification of Ricci tensors [67] (i.e. of Einstein
+tensors as well) it has been shown [2] that the field equations, in general units,
+can be written in modified form as
+                                                     !
+                                         λ
+              βµ;ν       βµ βν          β;λ   β λ βλ
+     Gµν + 2         − 4 2 − gµν 2          −           = −8πTµν + Λgµν (19)
+                β         β              β      β2
+
+where Tµν is the energy-momentum tensor and Λ is the so called cosmological
+term which is related to Λ̄ by the relation
+                                   Λ = β 2 Λ̄.                               (20)
+8
+
+
+It is also shown that energy conservation law can be written in a modified
+form as
+                                                !
+                                        Ġ   β̇       β̇
+                  ρ̇ + (ρ + p)uµ;µ = −ρ    +      − 3p .             (21)
+                                        G β           β
+
+The corresponding Friedmann equations with the conventional Robertson-
+Walker metric
+                                 dr2
+                                                                  
+                                           2    2     2     2    2
+          ds2 = dt2 − R2 (t)           + r   dθ   + r   sin   θdφ    (22)
+                               1 − kr2
+reduces to the form
+                                   !2
+                           Ṙ β̇            k     8πGρ Λ
+                             +          +     2
+                                                =     + ,                 (23)
+                           R β              r       3  3
+
+
+                R̈ β̈ β̇ Ṙ β̇ 2  4πG           Λ
+                  + +      − 2 =−     (3p + ρ) + .                        (24)
+                R β   βR β         3            3
+The energy conservation laws, in this case, become
+
+                           Ṙ              ρ d           β̇
+                  ρ̇ + 3      (ρ + p) = −       (Gβ) − 3p .               (25)
+                           R              Gβ dt          β
+    However, in the scale-covariant theory [1,2], the cosmological term Λ is
+not a constant rather it varies like β 2 . Now, determination of β(t) is very
+crucial for scale-covariant theory because determination of β(t) enables us to
+compare that theory with observational results. As β(t) gives us the liberty
+in choosing the system of units, it is not possible to determine it within the
+theory. This means that we cannot formulate any dynamical equation for
+determining β(t) and hence imposition of external constraint is obligatory
+here. Relation with gauge fields and the cosmological parameter suggests
+that β is inversely proportional to t. Again, adopting LNH, it can be shown
+that β can alternatively be written as β = t0 /t, where t0 is the present age
+of the universe [1,2,3].
+Using their scale-covariant cosmology, Canuto and Hsieh [9] have shown that
+it is possible to reconcile 3K blackbody radiation with Dirac’s LNH and
+scale factor R(t) as well as curvature constant k can be determined without
+using m versus z relation or any other classical cosmological test. It has also
+been demonstrated there [9] that k = 0 i.e. universe is flat and the relation
+between G and the gauge function β(t) is given by
+                                Gβ 2 = constant.                          (26)
+It may be mentioned here that recent observational results provided by
+WMAP, COBE etc. support scale-covariant cosmology regarding the geom-
+etry of the universe.
+    Being intrigued by Dirac’s LNH Peng [46] has modified Einstein’s general
+relativity theory by allowing G to be a variable (as suggested by Dirac) so
+                                                                             9
+
+
+that the new theory can be applied to cosmology without any inconsistency.
+In Peng’s work, a tensor term arising from variation of G plays the role
+of the cosmological term Λ. Moreover, natural constants which evolve with
+time (viz., me , mp , e, h̄, KB etc.) are modified there [46] systematically so
+that the new constants remain really constant for sufficiently long time. In
+another work, Peng [4] has modified Einstein’s general theory of relativity
+by considering the gravitational constant G as a variable. This modification
+is achieved by including a tensor term which crops up naturally from the
+derivative of G and not from the cosmological term Λ. Unlike Dirac, Peng
+assumed that me , mp and e are not constants but evolve according to the
+rules Gm ∝ t and e2 ∝ tme where m may be any one of me , mp or M , the
+total mass of the universe. Then, by making a fundamental assumption of
+the form
+                            φ2 = (G/G0 )1/n = (t/t0 )−1                   (27)
+where φ2 is a dimensionless variable, Peng [4] showed that in the modified
+Einstein equation the cosmological term Λβα is determined by φ. For the usual
+FLRW metric, the modified field equations become
+                        dφ2
+                   R3       = (3 − ω/2)−1 8πG0 ρ˜m (t′ )R3 (t′ )t,        (28)
+                         dt
+
+              −3(Ṙ2 + k)                         −8πG0 ρ̃(t′ )R3 (t′ )
+         φ2         2
+                          − 3φ2 Ṙ/R − ω φ̇2 /2 =                         (29)
+                  R                                     R3
+where t′ is an arbitrary constant argument.
+    It has been shown by Peng [4] that this modified theory is consistent with
+LNH. Moreover, Hubble’s relation, derived from this new theory is compatible
+with observational results. Einstein’s theory is shown to be a special case
+of the modified theory for phenomena of short duration extended to short
+distances.
+    For reconciling LNH with Einstein’s theory of gravitation, Lau [5] selected
+the general form of Einstein’s field equations, viz.,
+                    Rµν − (1/2)g µν R + Λg µν = −8πGT µν                  (30)
+and showed that for a time-dependent G and Λ, LNH satisfies equation (30).
+According to Lau [5], time varying G is important only for the early period
+or for knowing the entire evolutionary history of the universe. But at a time
+sufficiently away from the Big-Bang, G can conveniently be regarded as a
+constant. He argues also that at the present epoch, cosmological term Λ has
+a very small value and hence can be approximated to zero. With a constant
+G and zero Λ, equation (30) reduces to the conventional form
+                          Rµν − (1/2)g µν R = −8πGT µν                    (31)
+of Einstein’s field equations. It is to be noted that being motivated by LNH
+and assuming time dependent Λ and G, Lau and Prokhovnik [68] have devel-
+oped a scalar-tensor theory in terms of an action principle as a modification
+of Einstein’s theory.
+10
+
+
+4.1.2 Dirac’s theory of variable G
+
+Another G-variable theory is Dirac’s theory [59,7] which is a theory of the
+background structure of the universe and its geometrical properties are de-
+scribed by a gauge function β which determines the ratio of gravitational
+units and electromagnetic units [22]. Dirac’s theory is related to the ques-
+tion of a zero or non-zero cosmological term Λ. Field equations and LNH
+imply that two natural gauges are associated with Dirac’s theory [59,7]. One
+gauge, where Λ = 0, is known as additive creation (zero gauge) theory. An-
+other gauge in which Λ is finite is known as multiplicative creation theory.
+So, continuous creation is an integral part of Dirac’s theory.
+
+4.1.3 Hoyle-Narlikar theory
+
+Hoyle-Narlikar theory [8] is based on two main principles, viz., conformal in-
+variance and the absorber theory of radiation [22]. For conformal invariance,
+natural laws remain invariant under changes of the gauge function β and
+hence possesses a technical similarity with Dirac’s theory. The second prin-
+ciple is a theory of electromagnetism and has been shown to be an integral
+part of cosmology by Hoyle-Narlikar theory.
+
+
+5 Status of Dirac’s LNH
+
+5.1 Arguments against Dirac’s LNH
+
+Time and again, a number of objections have been raised against Dirac’s
+LNH [59,60]. According to Falik [17], 3K blackbody radiation cannot be
+reconciled with LNH, not even in the version of LNH that is constructed by
+taking into account the blackbody radiation. Because, LNH cannot explain
+the large amount of helium present in the universe. Again, a prediction of
+Dirac’s LNH is that the number of nucleons in the universe should vary as
+t2 where t is the cosmic age. Norman [18], citing some examples, has shown
+that multiplicative creation theory is in huge disagreement with observational
+results regarding isotropic abundance ratios of some elements. For instance, it
+has been found [69,70] that 13C /12C is 1.1×10−2 while according to LNH [18]
+it is as large as 4.3. Also, according to Norman’s [18] calculation 40K /39K
+ratio obtained from Dirac’s LNH is 14 while in reality, it is 1.3 × 10−14 [71].
+Thus, in both the cases the values as provided by LNH are much higher than
+the actual values. Another point of objection against Dirac’s LNH is self-
+consistent within the universe of Einstein de-Sitter model. If only curvature
+constant and the cosmological term are both zero, then Dirac’s theory is
+compatible with the well
+                       √ known Friedmann-Lemaı̂tre model. Otherwise, the
+relation N1 = N2 ≃ N 3 should be considered as accidental and hence no
+inference can be drawn regarding variation of G and continuous creation of
+matter [19]. Many cosmological models proposed by Dirac require photon
+creation or destruction. On the other hand, for any cosmological model that
+obeying Cosmological Principle and evolving in time, number of photons
+                                                                           11
+
+
+in a co-moving volume must be conserved. Steigman [21] has shown that
+cosmological models based on Dirac’s LNH are in sharp disagreement with
+the standard Planck spectrum. For verifying the plausibility of continuous
+creation of matter as predicted by Dirac relying on his LNH, Steigman [20]
+developed cosmological models with two modes of particle creation. It has
+been shown there that creation of particles is unnecessary because, as it is
+expected, the number of particles N varies as t2 where t is the cosmic age.
+
+
+5.2 Arguments in favor of Dirac’s LNH
+
+However, many workers have supported Dirac’s LNH by raising various counter-
+arguments. Canuto and Hsieh [9] have provided a physical basis needed for
+Dirac’s cosmology and have derived the relevant dynamical equations. It
+has also been shown by them [9] that LNH is not in disagreement with 3K
+blackbody radiation, rather it is of utmost importance for predicting the scale
+factor and the curvature constant. In another work, Canuto and Hsieh [10]
+have refuted Falik’s [17] argument by showing that Falik’s conclusion is based
+on two faulty assumptions, viz.,
+                                 ργ ∼ T 4 ,                              (32)
+
+                              RT = constant                              (33)
+where ργ is the energy density of radiation in local thermodynamic equi-
+librium, T is the equilibrium temperature and R is the scale factor of RW
+metric. According to Canuto and Hsieh [10], correct relations should have
+been
+                              ργ ∼ β 2 G−1 t4 ,                          (34)
+
+                             βRT = constant.                             (35)
+Moreover, in the opinion of Canuto and Hsieh [10] the relation G ∼ t−1
+should not be extrapolated backwards in the early epoch as done by Fa-
+lik [17] because, this relation is compatible with observational results only
+in the present matter dominated universe [11,12]. Bishop [13] has opposed
+Julg’s [19] argument by stating that one should not assume LNH and GρR3 ∼
+constant simultaneously because LNH cannot be discussed within FRW mod-
+els. Not only that, the relation GρR3 ∼ constant is inconsistent with two
+other relations proposed by Dirac [60,59,62], viz.,
+                           N ∼ ρR3 = constant,                           (36)
+
+                                  GN ∼ t                                 (37)
+where N is the number of nucleons in the universe.
+    LNH can be used to determine the gauge function β(x) involved in the
+scale covariant theory developed by Canuto and others [1,2]. It was previ-
+ously found that this β(x), when applied in computations of stellar evolution,
+12
+
+
+support multiplicative creation but not additive creation. Slothers [72] made
+a rough calculation for determining the effects of multiplicative creation on
+the luminosity of a white dwarf and showed that the lower bound of the
+luminosity was at least one order of magnitude higher than that which was
+observed physically. But, through a detailed calculation, Lodenquai [32] has
+refuted Slothers’s conclusion regarding lower bound of white dwarf luminos-
+ity and hence viability of multiplicative creation theory is not lost. Relying
+on his expansion centre model [73,74] related to Milky Way, Lorenzi [16] has
+been able to develop a cosmological picture of the universe which is shown to
+agree with Dirac’s LNH. Chao-wen and Slothers [75] have shown that Dirac’s
+multiplicative creation theory do not violate any observed fact about sun, but
+theory of additive creation is not of that status. Genreith [76] has shown that
+Dirac’s LNH can be explained by a fractal model of the universe. Moreover,
+Dirac’s conjecture regarding an inter-connection between micro and macro
+universe and that of Einstein about the role of gravitational fields in the
+structure of elementary particles can be reconciled using that model [76].
+    However, Holographic principles can be helpful for explaining Dirac’s
+LNH. In very simplified form, holographic principle states that the entropy
+S (actually, S is the entropy divided by σ, the Boltzmann constant) of a
+physical system subject to gravity is bounded from above by a quarter of its
+boundary area in Planck units i.e.
+                                         A
+                                   S≤        .                              (38)
+                                        4lp2
+
+Also, h̄, G and c provide a natural system of units of length and mass given
+by
+                                     r
+                                        h̄G
+                                lp =        ,                           (39)
+                                         c3
+                                        r
+                                            h̄c
+                                 mp =           .                           (40)
+                                            G
+According to Bousso [14] the holographic principle leads to the prediction
+that the number of degrees of freedom N available in the universe is related
+to the cosmological parameter Λ by the relation
+                                        3π
+                                N=             .                            (41)
+                                      Λlp2 ln2
+
+The N bound conjecture states that, S is bounded by N ln2. Marugan and
+Carneiro [15] have shown that if one assumes a homogeneous, isotropic and
+flat universe dominated by the cosmological term Λ, then Dirac’s large num-
+ber coincidence can be explained in terms of the holographic N bound con-
+jecture.
+    Another objection raised against G ∝ 1/t relation comes from stellar as-
+trophysics. The problem is like this: since stellar luminosity is proportional to
+G7 M⋆5 [22], then variation of G implies an abnormally high solar luminosity
+                                                                            13
+
+
+which does not fit with observations. But, according to Wesson and Good-
+son [22] the relation GM⋆ = constant [2] leads to the result that L is nearly
+constant. If this consideration, along with the change of earth-sun distance
+due to change in G (and hence possible change in mass as well), is taken into
+account then this problem of variable G cosmology may be solved.
+    Davidson [30], in an attempt for testing Dirac cosmology in the light of
+observational results, has shown that if one assumes Dirac’s LNH and admits
+the existence of two metric scales, viz., atomic scale or A scale and Einstein
+scale or E scale then many important observational cosmological features like
+Hubble’s parameter, the cosmic age, the cosmic mass density follow naturally.
+It is to be noted here that Dirac’s LNH-based cosmology differs from that
+of canonical general relativistic (GR) cosmology. For instance, according to
+Dirac cosmology, the atomic age of the universe is T /3 where T is the observed
+Hubble time, whereas in General Relativity it is 2T /3 for Ω0 = 1.
+
+
+6 Application and Testing of LNH
+
+6.1 Cosmology and Astrophysics
+
+Following Dirac’s [59,60] approach regarding large number coincidence, Bar-
+row [31] has predicted proton half-life period. His prediction can be compared
+with experimental results for verification. Relying on the experimental results
+of the time variation of the fine-structure constant [77,78], Berman and Tre-
+visan [34] considered a model in which electric permittivity ǫ0 and magnetic
+permeability µ0 vary with time such that the speed of light remains con-
+stant. Using LNH, it has been possible to judge the time dependency of N ,
+the number of nucleons in the universe [34]. Moreover, value of the decel-
+eration parameter as estimated from the same investigation is compatible
+with the supernova data [38,39] while the calculated value of the cosmolog-
+ical term falls within the acceptable range. In another work, relying on the
+experimental data of Webb et al. [78] regarding the time variation of the
+fine structure constant, Berman and Trevisan [35] have derived possible time
+variations of some other parameters of the universe, viz., number of nucle-
+ons in the universe, the speed of light, gravitational constant and the energy
+density. It has been possible to calculate [35] the value of the deceleration
+parameter which points towards an accelerating universe and hence supports
+SN Ia data [38,39].
+    It should be mentioned here that Gomide [79] studied cosmological models
+with varying c and (or) varying ǫ0 including LNH in his framework of study.
+Berman and Trevisan [34] elaborated a full model containing a Jordan-Brans-
+Dicke (JBD) framework with time-varying speed of light. In another work,
+Berman and Trevisan [35] have commented that similar conclusions could be
+attained by applying Dirac’s LNH with c = c(t).
+    Being intrigued by the suggestion of Dirac, regarding time variation of G,
+Garcia-Berrow et al. [33] have investigated about the effect of a decreasing G
+on the cooling rate of white dwarfs. It has been shown there that variable G
+strongly affects the cooling rate of white dwarfs at low luminosity. The star
+expands and cooling process gets accelerated due to decrease in G. For two
+14
+
+
+separate cases, two upper bounds for Ġ/G are derived [33] which are in good
+agreement with those obtained from binary pulsar.
+    Using the Weak Field Approximation, Whitehouse and Kraniotis [45]
+have determined the value of the cosmological parameter Λ from galactic
+rotation curves and have found that it agrees with their theoretically de-
+rived value of the same parameter using extended LNH. In the same paper,
+values of other cosmological parameters, viz., gravitational constant G, grav-
+itational modification constant and the effective mass density were predicted.
+They have also shown that within the extended LNH, only two parameters,
+viz., fundamental length and the vacuum energy density are sufficient to com-
+pletely specify the cosmological parameters for that epoch. This approach,
+according to them [45], may be helpful for finding a fundamental theory link-
+ing up the atomic and cosmological parameters and Dirac’s dream may come
+true. Moreover, it has been shown by them [45] that the flat rotation curve of
+galaxies may be explained by the cosmological term Λ and presence of dark
+matter is not necessary if Newton’s gravitational equation is modified in the
+form
+
+                                  Gmm0
+                         Fm = −        + GΛ mr                           (42)
+                                   r2
+
+where GΛ is the gravitational force exerted by the cosmological term Λ and
+represents a fifth fundamental force which is directly proportional to the
+distance. However, the value of Λ derived in [45] is negative and hence rep-
+resents a decelerating universe, which goes against the modern picture of an
+accelerating universe with a repulsive cosmological term.
+     Gilson [36] has shown that implications of Dirac’s LNH can be directly
+derived from his quantum theory of gravitation [80] and three large numbers
+αh̄/Gmp me , c/Hre and N can be expressed as three closed formulae with
+definite coefficients involving other known physical constants. Secondly, from
+the theory mentioned above, it has been possible to develop two quantum
+Friedmann cosmologies in which the cosmological parameter Λ plays a very
+basic and fundamental role having nice agreement with measurement. Dah-
+nen and Honl [81] has shown that variability of G, as proposed by Dirac,
+suggests that QSO’s are normal galaxies at their early stages and vice-versa.
+     Constructing two solar models for testing two types of matter creation of
+Dirac’s cosmology, Carignan et al. [82] have shown that the first model fits
+very well with the theory of multiplicative creation of Dirac while the second
+model does not support the modified multiplication theory [83] in the sense
+that it shows an excess solar neutrino flux and presence of excessive hydrogen
+on the surface. Assuming Dirac’s multiplicative theory (i.e. G ∝ t−1 and M ∝
+t2 ) VandenBerg [84] has theoretically calculated isochrones and luminosity
+functions for old stellar systems. His results do not show any difference from
+normal stellar evolution regarding colour-magnitude diagram. Applying his
+scalar-tensor theory to a cosmological model which obeys LNH, Lau and
+Prokhovnik [68] have deduced the time dependent form of the cosmological
+parameter. A viable explanation for the smallness of Λ is also provided by
+them along with the possible significance of the scalar field [68].
+                                                                            15
+
+
+6.2 Impact on Planetary Science
+
+LNH has cast its shadow in the field of planetary science also. According to
+the literature, LNH has tremendous influence on the rotation of the earth.
+Blake [23] has shown that early Dirac, additive creation and multiplicative
+creation theories have different predictions about variations of lengths of
+month and year. Comparing fossil data regarding these variations with those
+predicted by LNH, Blake [23] has suggested that early Dirac and additive cre-
+ation versions of LNH cannot be accepted here while multiplicative creation
+theory fits well with observations.
+    LNH and hence variation of G has played a role in the calculation of
+earth’s rate of expansion also. The average rate of expansion, calculated by
+several geophysicists, is 0.48 mm. per year. Such a large expansion cannot
+be explained in terms of geophysical processes. Jordan [24] and Egyed [25]
+proposed that the amount of expansion may be explained if one admits the
+variability of G, as suggested by Dirac. Lyttleton and Fitch [26], taking into
+consideration a variable G, calculated the change of radius of earth consisted
+of a liquid core and a mantle. Yubushita [27] constructed an earth model
+with a liquid core, a mantle and an outer shell and obtained the following
+relationships between rates of change of earth’s radius and that of G for three
+versions of Dirac’s LNH:
+    (i) For no creation model,
+
+                              Ṙ           Ġ
+                                 = −0.062 × ,                             (43)
+                              R            G
+(ii) For additive creation,
+
+                               Ṙ          Ġ
+                                  = −0.33 × ,                             (44)
+                               R           G
+(iii) For multiplicative creation,
+
+                               Ṙ          Ġ
+                                  = −0.61 × .                             (45)
+                               R           G
+Taking Ġ/G = −1/t and using the value of the Hubble parameter as 6 ×
+10−11 yr−1 , he finally obtained Ṙ = 7 × 10−3 cm yr−1 for no creation, Ṙ1.9 ×
+10−2 cm yr−1 for additive creation and Ṙ2.5×10−2cm yr−1 for multiplicative
+creation models. According to Yubushita [27], both no creation and additive
+creation models are inadequate for explaining the calculated rate of earth’s
+expansion. The third option, i.e. multiplicative creation theory can be con-
+sistent with the observational data if the value of the Hubble parameter H
+be taken to be 10−10 yr−1 . In another paper, Yubushita [28] has also shown
+that if G changes in accordance with Dirac’s LNH, then the radius of the
+primordial earth would have been 700 km. less than the present value. Of
+course, under some special assumptions, this change in radius is shown to
+be energetically feasible. Analyzing lunar occultation data since 1955, Van
+Flandern [29] calculated moon’s mean longitude. Faulkner [61] showed that
+Van Flandern’s result is consistent with Dirac’s additive creation theory.
+16
+
+
+6.3 Amount of Variation of G
+
+Ever since Dirac’s proposition of a possible time variation of G, a volume of
+works has been centered around the act of calculating the amount of variation
+of the gravitational constant. Gaztanaga et al. [85], relying on data provided
+by SN Ia [38,39] have shown that the best upper bound of the variation of
+G at cosmological ranges is given by
+
+                                         Ġ
+                             − 10−11 ≤      ≤0                            (46)
+                                         G
+
+where z, the red-shift, assumes the value nearly equal to 0.5. Observation of
+spinning-down rate of pulsar PSR J2019+2425 provides the result [86,87]
+
+                       Ġ
+                          ≤ (1.4 − 3.2) × 10−11 yr−1 .                    (47)
+                       G
+
+Depending on the observations of pulsating white dwarf star G 117-B 15A,
+Benvenuto et al. [88] have set up the astereoseismological bound on Ġ/G as
+
+                                      Ġ
+                  − 2.50 × 10−10 ≤       ≤ 4 × 10−10 yr−1                 (48)
+                                      G
+
+while using the same star Biesiada and Malec [89] have shown that
+
+                           Ġ
+                              ≤ 4.1 × 10−11 yr−1 .                        (49)
+                           G
+
+Using Nordtvedt’s [90] expression for Ġ/G in generalized Brans-Dicke theory,
+Sahoo and Singh [91] have shown that for some particular values of the
+coupling constant ω0 , viz., −1.9 or −1, the numerical value of Ġ/G at present
+is about 2 × 10−10 per year which lies within the observational limit. Various
+ranges of time variations of G, provided by both theoretical and observational
+results are enlisted in Table 2.
+    It may be mentioned that, being motivated by LNH, Ray and Mukhopad-
+hyay [37] have confronted theoretically derived values of Ġ/G obtained by
+solving Friedmann equations (for flat model) with time dependent G and time
+dependent Λ of phenomenological character for testing the plausibility of ex-
+perimentally determined values of variation of the gravitational constant. It
+has been shown by them that for certain values of the parameters of the
+models, theoretically and experimentally determined values agree with each
+other. Moreover, it has been found that G decreases with time as suggested
+by Dirac [59]. Starting from Raychaudhuri’s equation [58] for the Brans-Dicke
+theory [92], Berman [93] has derived an expression for Ġ/G involving the de-
+celeration parameter q and density parameter Ω. It has been shown there
+that for no variation of G, one must have 2q = Ω. Now, for an accelerating
+universe q < 0 whereas Ω is always positive. This implies that time variation
+of G is guaranteed by an accelerating universe.
+                                                                                17
+
+
+Table 2 Values of α and β for average Ġ/G when t0 = 14 Gyr, Ωm =
+0.3, ΩΛ = 0.7 and z ≃ 0.5
+Ranges of Ġ/G yr−1                     Sources                                     α          β
+−(1.10 ± 1.07) × 10−11 < Ġ
+                          G
+                            <0          PSR 1913 + 16 [94]                    -0.0852     0.4074
+−1.60 × 10−12 < ĠG
+                    < 0                 Helioseismological data [95]          -0.0115     0.0670
+(−1.30 ± 2.70) × 10−11                  PSR B1855+09 [86, 96]                 -0.1023     0.4698
+−1.40 × 10−11 < ĠG
+                    < +2.60 × 10−11     Loren-Aquilar et al. [97]              0.0410    -0.2812
+   −11     Ġ
+−10     ≤ G <0                          Supernove Type Ia [85]                -0.0769     0.3750
+(−8 ± 5) × 10−11                        Lunar occultation [29]                 -1.333        1.6
+(−6.4 ± 2.2) × 10−11                    Lunar tidal acceleration [29]         -0.8421     1.4328
+−15.30 × 10−11                          Early Dirac theory [23]               11.7692     2.0582
+−5.1 × 10−11                            Additive creation theory [23]         -0.5730     1.2644
+(−16 ± 11) × 10−11                      Multiplication creation theory [61]      8.00     2.0869
+−4.0 × 10−13 < GĠ
+                   < +3.0 × 10−13       Big Bang Nucleosynthesis [98]         -0.0003    -0.0021
+         −10
+−2.5 × 10     ≤ G ≤ +4.0 × 10−11
+                Ġ
+                                        WDG 117-B15A [88]                         -3.0       1.8
+ Ġ
+ G
+      ≤ +4.10 × 10−10                   WDG 117-B15A [99]                      1.1319       3.09
+−(0.6 ± 4.2) × 10−12                    Double-neutron star binaries [100]    -0.0043     0.0254
+(0.46 ± 1.0) × 10−12                    Lunar Laser Ranging [101]              0.0318    -0.2110
+1 × 10−11±1                             Wu and Wang [102]                      0.0666        -0.5
+
+
+
+7 Discussions
+
+Ever since the inception of the idea of large numbers, it has drawn attention
+of researchers in various fields ranging from geophysics and earth science to
+astrophysics and cosmology. In this article we have reviewed all these works
+in a systematic way to get the present status and future prospects. Here, main
+thrust is given on cosmology, astrophysics and planetary science in terms of
+LNH.
+    Now, success of a theory depends on its experimental verification, ap-
+plications in different fields and significant predictions. From the previous
+sections it is clear that Dirac’s LNH satisfies all these criteria. LNH related
+works have an interdisciplinary flavor in the sense that researchers of various
+fields have worked on this particular topic in a unique manner. Not only that,
+some of the works done on LNH from different standpoint seem to have a re-
+lation between them. Berman and Trevisan [34] investigated about a possible
+time variation of electric permittivity ǫ0 and magnetic permeability µ0 and
+showed that total density of the universe ρ is approximately proportional to
+t−2 . Ray and Mukhopadhyay [37] considered a flat Friedmann model with
+variable Λ and G. It is interesting to note that time variation of ρ in [37], for a
+small value of the parameter α, will be similar to that [34]. Again, in another
+work of Berman and Trevisan [35] regarding time variation of the gravita-
+tional constant, velocity of light etc., it is shown that ρ ∝ t−1 which may
+also be obtained from the work of Ray and Mukhopadhyay [37] for negative
+α, i.e. attractive Λ. In this regard it is to be noted here that Gilson [80] has
+proposed a model in which necessity of dark matter for explaining the flat
+galactic rotational curve is alleviated by invoking the idea of an attractive
+18
+
+
+Λ producing a decelerating universe. It is already mentioned that negative
+Λ can be obtained from the work of Ray and Mukhopadhyay [37] for a neg-
+ative α without creating any disturbing physical feature relating the scale
+factor, energy density and gravitational constant. Shemi-zadeh [54], starting
+from various large number coincidence and making some suppositions involv-
+ing the fine structure constant, the Hubble parameter, the Planck frequency
+etc., has derived simple expressions for the age of the universe, the deceler-
+ation parameter, the Hubble parameter etc. According to Shemi-zadeh [54],
+his work can be extended further with suitable physical models which may be
+connected to the Brane world models. It may be mentioned here that unlike
+most of the literature where G ∝ t−1 , Milne [103] found that G is directly pro-
+portional to the cosmic age t. Recently, using Dirac’s LNH, Belinchon [104]
+has arrived at the same relation between G and t as that of Milne [103].
+In his bulk viscous model (although not directly related to or motivated by
+LNH) with time-varying Λ and G, Arbab [105] has shown that G increases
+with time. In a multi-dimensional model with an Einstein internal space and
+a multi-component perfect fluid, Dehnen et al. [106] have considered expres-
+sions for Ġ. A suggestion for a possible mechanism for small Ġ in the case
+of two non-zero curvature without matter is made there [106]. For the 3-
+space with negative curvature and internal space with positive curvature, an
+accelerating universe with small value of Ġ/G near t0 is obtained which is
+shown to be compatible with the exact solution of Gavrilov et al. [107]. In
+another example, in the same work [106], with two Ricci-flat factor spaces
+and two matter sources (dust + 5-brane), a sufficiently small variation of G
+is obtained.
+     About seventy years ago, Dirac pointed out the possibility of time-variation
+of a fundamental constant in the context of a full-fledged cosmological model.
+It is evident from the present review that various ideas have been germinated
+by LNH. Moreover, in recent years, changeability of other constants related to
+physical laws is getting more and more attention to the researchers of various
+fields, viz., physics, geophysics, astrophysics and cosmology [108]. Amount of
+variations of some of the so called constants, viz., fine-structure constant [77,
+78,109,110,111,112,113,114] and ratio of proton and electron mass [112,115]
+are claimed to have been measured with reliable accuracy. It has already been
+mentioned in the introduction that the erstwhile cosmological parameter Λ,
+once regarded as a constant, is now largely accepted as a function of time.
+These experimental and observational results have already sparked off ideas
+regarding probable variations of other fundamental constants and much more
+are expected to come in near future. So, in every respect, LNH has triggered
+off many new ideas, some of which may be fundamental in nature. Recently,
+in a work of Shukurov [116] related to interstellar matter, it has been found
+that the number of Christmas dinner per galaxy turns out to be of the order
+of 1040 . Even the Higgs scalar-tensor theory, in which the mass of the parti-
+cles appeared through gravitational interaction [117,118,119], is also found
+to be compatible with LNH [120]. On the other hand, Carter [121] is of the
+opinion that using anthropic principle (both weak and strong) large number
+coincidence can be explained within the framework of conventional physics
+and no exotic idea, like time variation of G, is necessary. Thus it may be in-
+                                                                             19
+
+
+ferred that we are still carrying a legacy of Dirac’s Large Number Hypothesis
+- a simple idea with profound implication.
+
+    Acknowledgment
+One of the authors (SR) would like to express his gratitude to the authori-
+ties of IUCAA, Pune for providing him the Associateship Programme under
+which a part of this work was carried out. Thanks are due to A. Shukurov
+for helpful discussions related to his work and also to B. K. Biswas for going
+through the entire manuscript carefully.
+
+
+
+References
+
+1. Canuto, V., Hsieh, S. H., Adams, P. J.: Phy. Rev. Lett. 39, 8 (1977)
+2. Canuto, V., Adams, P. J., Hsieh, S. H., Tsiang, E.: Phy. Rev. D 16, 6 (1977)
+3. Canuto, V., Lodenquai. J.: Ap. J. 211, 342 (1977)
+4. Peng, H. W.: [gr-qc/0405002]
+5. Lau, Y. K.: Aust. J. Phys. 38, 547 (1985)
+6. Rogachev, A. V.: [gr-qc/0606057]
+7. Dirac, P. A. M.: Proc. R. Soc. Lond. 333, 403 (1973)
+8. Hoyle, F., Narlikar, J. V.: Nat. 233, 41 (1971)
+9. Canuto, V., Hsieh, S. H.: Ap. J. 224, 302 (1978)
+10. Canuto, V., Hsieh, S. H.: Ap. J. 239, L91 (1980)
+11. Canuto, V., Hsieh, S. H., Owen, J. R.: Ap. J. Suppl. 41, 263 (1979)
+12. Canuto, V., Owen, J. R.: Ap. J. Suppl. 41, 301 (1979)
+13. Bishop, N. T.: Ap. J. 289, 1 (1985)
+14. Bousso, R.: JHEP 0011, 038 (2000)
+15. Marugan, G. A. M., Carneiro, S.: Phys. Rev. D 6, 087303 (2002)
+16. Lorenzi, L.: Mem. SAIT 74, 480 (2003)
+17. Falik, D.: Ap. J. 231, L1 (1979)
+18. Norman, E. B.: Ap. J. 258, 41 (1982)
+19. Julg, A.: Ap. J. 271, 9 (1983)
+20. Steigman. G.: Nat. 261, 479 (1976)
+21. Steigman. G.: Ap. J. 221, 407 (1978)
+22. Wesson, P., Goodson, R. E.: Observ. 101, 105 (1981)
+23. Blake, G. M.: Mon. Not. R. Astron. Soc. 185, 399 (1978)
+24. Jordan, P.: The Application of Modern Physics to the Earth and PlanetaInte-
+  riors (ed. Runcorn S K ), John Willey , London (1969)
+25. Egyed, L.: The Application of Modern Physics to the Earth and PlanetaInte-
+  riors (ed. Runcorn, S. K. ), John Willey, London (1969)
+26. Lyttleton, R. A., Fitch, J. P.: Mon. Not. R. Astron. Soc. 180, 471 (1977)
+27. Yubushita, S.: Moon Plan. 26, 135 (1982)
+28. Yubushita, S.: Moon Plan. 31, 43 (1984)
+29. Van Flandern, T. C.: Mon. Not. R. Astron. Soc. 170, 333 (1975)
+30. Davidson, W.: Mon. Not. R. Astron. Soc. 200, 645 (1982)
+31. Barrow, J. D.: Nat. 282, 698 (1979)
+32. Lodenquai, J. : Astron. Astrophys. 76, 212 (1979)
+33. Garcia-Berrow, E., Hernanz, M., Isern, J., Mochkovitch, R.: Mon. Not. R. As-
+  tron. Soc. 277, 801(1995)
+34. Berman, M. S., Trevisan, L. A.: [gr.qc./0111102]
+35. Berman, M. S., Trevisan, L. A.: [gr.qc./0112011]
+36. Gilson, J. G.: [physics/0504106]
+37. Ray, S., Mukhopadhyay, U.: [astro-ph/0510549]
+38. Perlmutter, S. et al.: Nat. 391, 51 (1998)
+39. Riess, A. G. et al.: Astron. J. 116, 1009 (1998)
+40. Carmeli, M.: Int. J. Mod. Phys. A 17, 4219 (2002)
+20
+
+
+41. Carmeli, M., Kuzmenko, T.: Int. J. Theor. Phys. 41 131 (2002)
+42. Peebles, P. J. E., Ratra, B.: Rev. Mod. Phys. 75, 559 (2003)
+43. Eddington, A. S.: New Pathways in Science, Cambridge, CUP (1935)
+44. Carvalho, J. C., Lima, J. A. S., Waga, I.: Phys.Rev. D 46, 2404 (1992)
+45. Whitehouse, S. B., Kraniotis, G. V.: [astro-ph/9911485]
+46. Peng, H. W.: Commun. Theor. Phys. 43, 81 (2005)
+47. Peacock, J. A.: Cosmological Physics, Cambridge University Press, pp. 95-96
+  (1999)
+48. Overduin, J. M., Cooperstock, F. I.: Phy. Rev. D 58 043506 (1998)
+49. Weyl, H.: Ann. Phys. 54, 117 (1917)
+50. Weyl, H.: Ann. Phys. 59, 101 (1919)
+51. Stewart, J.: The Deadbeat Universe Lars Wȧhlin, Colutron research, Boulder,
+  Colorado, chap. 8, pp 104 (1931)
+52. Eddington, A.: Proc. Cam. Phil. Soc. 27, (1931)
+53. Jordan, P.: Die Herkunft der Sterne (1947)
+54. Shemi-zadeh, V. E.: [gr-qc/0206084]
+55. Narlikar, J.: The Structure of the Universe, Oxford University Press (1977)
+56. Andreev, Y. A., Komberg, B. V.: Astron. Rep. 44 139 (2000)
+57. Cetto, A., de la Peña, L., Santos, E.: Astron. Astrophys. 164, 1 (1986)
+58. Raychaudhuri, A. K.: Theoretical Cosmology, Clarendon Press, Oxford, Ch. 9,
+  pp. 157-159 (1979)
+59. Dirac, P. A. M.: Nat. 139, 323 (1937)
+60. Dirac, P. A. M.: Proc. R. Soc. Lond. A 165, 199 (1938)
+61. Faulkner, D. F.: Mon. Not. R. Astron. Soc. 176, 621 (1976)
+62. Dirac, P. A. M.: Proc. R. Soc. Lond. A 338, 439 (1974)
+63. Zeldovich, Ya. B.: Usp. Nauk 95, 209 (1968)
+64. Shakharov, A.: Dok. Akad. Nauk Ussr 177, 70 (1967)
+65. Matthews, M. S.: Astron. Geophys. 33, 19 (1998)
+66. Berman, M. S.: Astrophys. Space Sci. 215, 135 (1994)
+67. Eisenhart, L. P.: Riemannian Geometry, Princeton University Press, p. 89
+  (1926)
+68. Lau, Y. K. and Prokhovnik, S. J.: Aust. J. Phys. 39, 339 (1986)
+69. Boato, G.: Geochim Cosmochim Acta 6, 209 (1954)
+70. Vdovykin, G. P., Moore, C. B.: Handbook of Elemental Abundance in Mete-
+  orites (ed. Mason, B.), New york, Gordon and Breach, p. 86 (1971)
+71. Burnett, D. S., Lippolt H. J., Wasserburg, G. J.: J. Geophys. Res. bf 71, 1249
+  (1971)
+72. Slothers, R.: Nat. 262, 477 (1976)
+73. Lorenzi, L.: Mem. SAIT 71, 1163 (2000a)
+74. Lorenzi, L.: Mem. SAIT 71, 1183 (2000b)
+75. Chao-wen, C., Slothers, R.: Nat. 254, 206 (1975)
+76. Genrith, H.: [gr-qc/9909009]
+77. Webb, J. K. et al.: Phys. Rev. Lett. 82, 884 (1999)
+78. Webb, J. K. et al.: Phys. Rev. Lett. 87, 091301 (2001)
+79. Gomide, F. M.: Lett. Nuovo Cemento 15, 595 (1976)
+80. Gilson, J. G.: [physics/0411085]
+81. Dehnen, H., Honl, H.: Ap. J. 155, L35 (1969)
+82. Carignan, C., Beaudet, G., Sirois, A.: Astron.Astrophys. 75 291 (1979)
+83. Carignan, C.: Modeles solaires avec G et M variables, these de maitrise, De-
+  partment de physique, Universite de Montreal (1978)
+84. Vandenberg, D. A.: Mon. Not. R. Astron. Soc. 181, 695 (1977)
+85. Gaztanaga, E. et. al.: Phys. Rev. D 65, 023506 (2002)
+86. Arzoumanian, Z.: Ph. D. Thesis, Princeton University Press, Princeton, New
+  Jersey, USA (1995)
+87. Stairs, I. H.: Living Rev. Rel. 6, 5 (2003)
+88. Benvenuto, O. G. et al.: Phys. Rev. D 69, 082002 (2004)
+89. Biesiada, M., Malec, B.: Mon. Not. R. Astron. Soc. 350, 644 (2004)
+90. Nordtvedt, K. Jr.: Astrophys. J. 161, 1059 (1970)
+91. Sahoo, B. K. and Singh, L. P.: Mod. Phys. Lett. A 18, 2725 (2003)
+92. Brans, C. H. and Dicke, R. H.: Phys. Rev. 124, 925 (1961)
+                                                                                 21
+
+
+93. Berman, M. S.: IJTP 31, 329 (1992)
+94. Damour, T. et. al: Phys. Rev. Lett. 61 1151 (1988)
+95. Guenther, D. B. et al.: Ap. J. 428, 713 (1998)
+96. Kaspi, V. M., Taylor, J. H., Ryba, M.: Ap.J. 498, 871 (1994)
+97. Loren-Aguilar, P. et al.: Class. Quan. Grav. 20, 3885 (2003)
+98. Copi, C. J., Davies, A. N., Krauss, L. M.: Phys. Rev. Lett. 92, 171301 (2004)
+99. Gliner, F.: ZETF 49, 542 (1965)
+100. Thorsett, S. E.: Phys. Rev. Lett. 77, 1432 (1996)
+101. Turyshev, S. G. et al.: Lect. Notes Phys. 648, 311 (2004)
+102. Wu, Y. S., Wang, Z.: Phys. Rev. Lett. 57, 1978 (1986)
+103. Milne, E.: Relativity, gravitation and world structure, Oxford (1935)
+104. Belinchon, J. A.: Astrophys. Space Sci. 281, 765 (2002)
+105. Arbab, A. I.: Chin. J. Astrophys. 3, 113 (2003)
+106. Dehnen, H., Ivaschuk, V. D., Kononogov, S. A. and Melnikov, V. N.:
+  [gr-qc/0602108]
+107. Gavrilov, V. R., Ivaschuk, V. D. and Melnikov, V. N.: Class. Quan. Grav. 13,
+  3039 (1996)
+108. Martins, C. J. A. P.: [astro-ph/0205504]
+109. Pretage, J. D., Tjoelker, R. L., Maleki, L.: Phys. Rev. Lett. 74, 2511 (1995)
+110. Damour, T., Dyson, F.: Nucl. Phys. B 480, 37 (1996)
+111. Fuji, Y. et al.: [hep-ph/0205206]
+112. Varshalovich, D. A., Potekhin, A. Y., Ivanchik, A. V.: [physics/0004062]
+113. Murphy, M. T. et al.: Mon. Not. R. Astron. Soc. 327, 1208 (2001)
+114. Carilli, C. L. et al.: Phy. Rev. Lett. 85, 5511 (2001)
+115. Ivanchik, A., Rodriguez, E., Petitjean, P., Varshalovich, D.: Astron. Lett. 28,
+  423 (2002)
+116. Shukurov, A.: Plasma Turbulence and Energetic Particles in Astrophysics,
+  Eds. Ostrowski, M. and Schlickeiser, R., Univ. Jagiellonski, Krakow, 1999, pp. 66
+  [astro-ph/0012444].
+117. Dehnen, H., Frommert, H.: Int. J. Theor. Phys. 30, 985 (1991)
+118. Dehnen, H., Frommert, H., Ghaboussi, F.: Int. J. Theor. Phys. 31, 109 (1992)
+119. Dehnen, H., Frommert, H.: Int. J. Theor. Phys. 32, 1135 (1993)
+120. Brans, C. H.: [gr-qc/9705069]
+121. Carter, B.: IAUS 63, 291C (1974)
+
