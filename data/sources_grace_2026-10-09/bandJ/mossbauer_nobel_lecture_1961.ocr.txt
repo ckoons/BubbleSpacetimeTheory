@@ -1,0 +1,734 @@
+=== PAGE 01 (pdf page 01) ===
+RUDOLF L. MOSSBAUER
+
+Recoilless nuclear resonance absorption
+of gamma radiation
+
+Nobel Lecture, December 11, 1961
+
+It is a high distinction to be permitted to address you on the subject of
+recoilless nuclear resonance absorption of gamma radiation. The methods
+used in this special branch of experimental physics have recently found ac-
+ceptance in many areas of science. I take the liberty to confine myself essen-
+tially to the work which I was able to carry out in the years 1955 to 1958
+at the Max Planck Institute in Heidelberg, and which finally led to estab-
+lishment of the field of recoilless nuclear resonance absorption. Many in-
+vestigators shared in the preparations of the basis for the research we are
+concerned with in this lecture. As early as the middle of the last century
+Stokes observed, in the case of fluorite, the phenomenon now known as flu-
+orescence - namely, that solids, liquids, and gases under certain conditions
+partially absorb incident electromagnetic radiation which immediately is re-
+radiated. A special case is the so-called resonance fluorescence, a phenomenon
+in which the re-emitted and the incident radiation both are of the same wave-
+length. The resonance fluorescence of the yellow D lines of sodium in so-
+dium vapour is a particularly notable and exhaustively studied example. In
+this optical type of resonance fluorescence, light sources are used in which
+the atoms undergo transitions from excited states to their ground states (Fig.
+1). The light quanta emitted in these transitions (AB) are used to initiate
+the inverse process of resonance absorption in the atoms of an absorber
+which are identical with the radiating atoms. The atoms of the absorber un-
+dergo a transition here from the ground state (B) to the excited state (A),
+from which they again return to the ground state, after a certain time delay,
+by emission of fluorescent light.
+
+As early as 1929, Kuhn’ had expressed the opinion that the resonance ab-
+sorption of gamma rays should constitute the nuclear physics analogue to
+this optical resonance fluorescence. Here, a radioactive source should replace
+the optical light source. The gamma rays emitted by this source should be
+able to initiate the inverse process of nuclear resonance absorption in an ab-
+sorber composed of nuclei of the same type as those decaying in the source.
+=== PAGE 02 (pdf page 02) ===
+RESONANCE ABSORPTION OF GAMMA RADIATION 585
+
+Again, the scheme of Fig. 1 would hold here, but the radiative transitions
+would now take place between nuclear states. Nevertheless, all attempts in
+the next two decades to find this nuclear resonance absorption proved fruit-
+less. Before | can approach the subject of my talk, it is appropriate to consider
+the reasons why the discovery of nuclear resonance absorption was so long
+delayed.
+
+Emission Absorption
+A
+
+E,
+
+B
+
+a ——__ 1 __ 9
+
+Fig. 1.Scheme of resonance absorption.
+
+For simplicity, we shall first consider a nuclear transition of a free nucleus
+at rest. The gamma quantum emitted in the transition imparts a recoil
+momentum # to the emitting nucleus and consequently a kinetic energy
+which is given by
+
+AE = $2/2M = E,?/2Mc? (1)
+
+where M is the mass of the nucleus and c is the velocity of light. The energy
+liberated in this nuclear transition is divided, in accordance with the law of
+conservation of momentum, the larger part being carried away by the emit-
+ted quantum, the other part going to the emitting nucleus in the form of re-
+coil energy. This recoil-energy loss of the quantum has the consequence that
+the emission line does not appear at the position of the transition energy E,
+but is displaced to lower energy by an amount (Fig. 2). The absorption
+line, on the contrary, is displaced to a higher energy by the same amount
+
+, because in order for the process of resonance absorption to occur, a
+quantum must provide, in addition to the transition energy E, the amount
+of energy — which is taken up by the absorbing nucleus in the form of a
+recoil kinetic energy. Typical values for the line shifts lie in the range
+from 10°eV to 10°eV; they are therefore very small in comparison with
+the energies of the gamma quanta, which frequently are of the order of mag-
+nitude of millions of electron volts.
+
+Since there is an uncertainty in the energies of the individual excited states
+=== PAGE 03 (pdf page 03) ===
+586 1961 R.L.MOSSBAUER
+
+Emission line Absorption line
+
+AE AE
+
+lA
+
+E
+
+°
+
+Fig. 2. Position and shape of the emission and absorption lines of a free nucleus (shown
+in the case of the [29-keV transition in “Ir for T = 300°K).
+
+of the nuclei, the lines associated with transitions between an excited state
+and the ground state have a certain minimum width. This so-called natural
+width I is, according to the Heisenberg uncertainty principle, connected
+with the lifetime t of an excited nuclear state by the relation Jt = h. The
+usual values for the lifetimes t of the low-lying excited nuclear states lie in
+the range from 10’ to 10” second, corresponding to an interval of 10°
+to 10*eV for the natural line widths appearing in ground-state transitions.
+Such extraordinarily sharp lines exhibiting the natural line width are nor-
+mally not observed. Rather, a series of side effects always exist, which lead
+to considerable broadening such that the line widths ordinarily associated
+with low-energy gamma transitions exceed the natural minimum width by
+many orders of magnitude. The most important broadening mechanism is
+the thermal motion of the nuclei in the source and in the absorber; this leads
+to Doppler shifts in the energy of the gamma quanta and therefore produces
+corresponding line broadenings. Even a temperature drop to absolute zero
+does not extinguish this thermal broadening, since the existence of zero-
+point energy at absolute zero frequently produces, at least in solids, line
+=== PAGE 04 (pdf page 04) ===
+RESONANCE ABSORPTION OF GAMMA RADIATION 587
+
+widths of the same order of magnitude as the ones existing at room tem-
+perature.
+
+Usually the line shifts are large in comparison to the thermal line
+widths, and they are also always very large in comparison to the natural line
+widths associated with the low-energy nuclear transitions we are concerned
+with here. As a consequence, the energy of an emitted quantum is usually
+too small for the inverse process of resonance absorption to be carried out, or
+in other words, the probability of occurrence of nuclear resonance absorp-
+tion is so small that the process escapes detection. Therefore the long and un-
+successful search for nuclear resonance absorption is to be blamed on the high
+recoil-energy losses of the gamma quanta.
+
+On the other hand, entirely different conditions hold for optical resonance
+absorption. There, because of the much lower energies of the light quanta,
+the recoil-energy losses produced by light quanta are small in comparison
+with the line widths. Emission and absorption lines therefore overlap in an
+ideal manner, the resonance condition is satisfied, and the optical effect is, at
+least in principle, easily observable.
+
+The unsatisfactory situation with respect to nuclear resonance absorption
+first changed in 1951, when Moon’ succeeded in demonstrating the effect
+for the first time, by an ingenious experiment. The fundamental idea of his
+experiment was that-of compensating for the recoil-energy losses of the gam-
+ma quanta: the radioactive source used in the experiment was moved at a
+suitably high velocity toward the absorber or scatterer. The displacement of
+the emission line toward higher energies achieved in this way through the
+Doppler effect produced a measurable nuclear fluorescence effect.
+
+After the existence of nuclear resonance fluorescence had been experi-
+mentally proved, a number of methods were developed which made it pos-
+sible to observe nuclear resonance absorption in various nuclei. In all these
+methods for achieving measurable nuclear resonance effects the recoil-energy
+loss associated with gamma emission or absorption was compensated for in
+one way or another by the Doppler effect.
+
+At this point, let me speak of my esteemed teacher, Heinz Maier-Leibnitz,
+who in 1953 directed my attention to this newly advancing field of nuclear
+resonance fluorescence, and who stimulated me to turn to this area of re-
+search. He was, also, the one who made it possible for me to conduct my re-
+search throughout the years 1955 to 1958 at the Heidelberg Max Planck In-
+stitute, in an undisturbed and fruitful atmosphere - research which finally led
+to the discovery of recoilless nuclear resonance absorption. I want to express
+=== PAGE 05 (pdf page 05) ===
+588 1961 RL.MOSSBAUER
+
+° ° SN
+
+a
+ei
+
+Vd
+
+10¢m
+
+Fig. 3. Experimental arrangement. A, absorber-cryostat; Q, cryostat with source; D,
+scintillation detector; K, lead collimator.
+
+my warmest thanks to my esteemed teacher for his efforts on my behalf.
+
+The method which I shall now proceed to discuss differs fundamentally
+from the methods described above in that it attacks the problem of recoil-
+energy loss at its root in a manner which, in general, insures the complete
+elimination of this energy loss. The basic feature of this method is that the
+nuclei in the source and absorber are bound in crystals. The experiments
+described in the following paragraphs exclusively employed radioactive
+sources which emitted the 129-keV gamma line leading to the ground state
+in Tr.
+
+The first experiment aimed at measuring the lifetime of the 129-keV state
+in "Ir by utilizing methods of nuclear resonance absorption known at that
+time. The experimental set-up used for this purpose is shown schematically
+in Fig. 3. A method first employed by Malmfors‘appeared to be especially
+suitable for the planned measurement. In this method, a broadening of the
+emission or absorption line, leading to a corresponding increase in the degree
+of overlap of the two lines, is achieved by increasing the temperature. If the
+relative shift of the emission and the absorption lines resulting from the
+recoil-energy losses is only of the order of magnitude of the line widths, a
+temperature increase leads, under favourable conditions, to a measurable nu-
+clear absorption effect. In the case of the 129-keV transition in Ir, there is
+considerable overlap of the two lines even at room temperature as a con-
+sequence of the small energies of the quanta and the small line shifts resulting
+therefrom (see Fig. 2). In this case, not only an increase but also a decrease
+in temperature can result in a measurable change in the nuclear absorption.
+=== PAGE 06 (pdf page 06) ===
+RESONANCE ABSORPTION OF GAMMA RADIATION 589
+
+My decision between these two possibilities was made in favour of a tem-
+perature decrease. It was motivated essentially by the consideration that at
+low temperature, effects of chemical binding would be more likely than at
+elevated temperatures. This hypothesis was vindicated in an unexpected way
+during the course of the experiments. The simultaneous cooling of the source
+and the absorber with liquid air led to inexplicable results, for which I first
+blamed effects associated in some way with the cooling of the absorber. In
+order to eliminate these unwanted side effects, I finally left the absorber at
+room temperature and cooled only the source. In very tedious experiments,
+which demanded extremely stable apparatus, a small decrease in the absorp-
+tion with respect to the value at room temperature was in fact obtained - a
+result consistent with my expectations. The evaluation of these measurements
+finally led to the determination of the lifetime sought for.
+
+In a second series of experiments I attempted to explain the side effects
+which had appeared in the simultaneous cooling of the source and the ab-
+sorber during the earlier experiments. The result of this attempt was striking :
+
+Al
+
+T
+
+O% |
+
+- 1%
+
+- 2%
+
+~3%e t
+80° 160° 240° 320°
+
+Temp (°K)
+
+Fig. 4. Temperature dependence of the absorption. Relative intensity change AI/I in
+comparison with that of a non-resonant absorber.
+=== PAGE 07 (pdf page 07) ===
+590 1961RLMOSSBAUER
+
+instead of the decrease expected, a strong increase in the absorption clearly
+manifested itself when the absorber was cooled. This result was in complete
+contradiction to the theoretical expectation. The observed temperature de-
+pendence of this absorption is shown in Fig. 4.
+
+In considering the possible sources of the anomalous resonance effect, |
+now began to subject the hypothesis of the existing theory to a critical exam-
+ination.
+
+The views originally held as to the shape and energy of the emission and
+absorption lines were based on the assumption that the emitting and ab-
+sorbing nuclei can be treated as free particles. It was therefore natural to
+modify this assumption, taking into account the fact that source and absorber
+were each used in crystalline form. Therefore, I first attempted to explain
+the observed anomalous resonance absorption by assuming that the recoil
+momentum was not transferred to the single nucleus. It should rather be
+transferred to an assembly of nuclei or atoms which include nearest or next-
+nearest neighbours surrounding the nucleus under consideration. After the
+failure of this and other attempted explanations, based on a purely classical
+point of view, I turned my attention to a quantum-mechanical treatment of
+the problem.
+
+Let me here introduce some concepts from crystal physics, by means of
+which I will develop the reasoning that finally led to a solution of the prob-
+lem. All the internal motions of the particles forming the crystal lattice can
+be described in terms of a superposition of a large number of characteristic
+vibrations whose distribution is called the frequency spectrum of the crystal.
+The nature of the binding of the particles forming the crystal determines the
+structure of the lattice vibrational spectrum, this spectrum often being very
+complicated. Nevertheless, the substitution, for the true vibrational spectrum
+of the lattice, of a much simpler frequency distribution often suffices for
+qualitative considerations.
+
+This first, still purely classical picture of the internal motions in a crystal
+corresponds, in the quantum-mechanical description, to a system of uncoup-
+led harmonic oscillators with quantized energy states. While the vibrational
+spectrum describes only the distribution of the fundamental frequencies of
+these oscillators, the temperature determines the so-called occupation num-
+bers of these crystal oscillators; these occupation numbers simply tell which
+of the possible energy states the particular oscillators occupy.
+
+The recoil energy appearing in the emission or absorption of a quantum
+by a nucleus bound in a crystal is taken up by the crystal partly in the form
+=== PAGE 08 (pdf page 08) ===
+RESONANCE ABSORPTION OF GAMMA RADIATION 591
+
+of translational energy and partly in the form of internal energy. The result-
+ant increase in translational energy is always negligible because of the enor-
+mous mass of the crystal as a whole in comparison to the mass of a single
+nucleus. An increase in the internal energy leads to changes in the occupation
+numbers of the individual crystal oscillators. Because of the quantization of
+the oscillator energies, the crystal can absorb the recoil energy only in dis-
+crete amounts. The nuclear transitions of the bound nuclei are normally
+accompanied by simultaneous transitions of the crystal oscillators. Thus, for
+example, a gamma quantum can be emitted and simultaneously one of the
+crystal oscillators can undergo a transition to a neighbouring energy state.
+Likewise, a gamma emission process can be accompanied by simultaneous
+transitions of two crystal oscillators, and so forth. As a consequence of the
+quantization of the oscillators, there also exists in principle the possibility
+that the gamma transition takes place with none of the crystal oscillators
+changing their states.
+
+The problem now was to compute the probabilities of the various pro-
+cesses. Significant was the calculation of the probability of nuclear transitions
+leaving the lattice state unchanged - that is, transitions in which no recoil en-
+ergy is transferred to the lattice in the form of internal energy. Similar prob-
+lems had already been solved much earlier. The coherent scattering of X-rays
+from crystals had been known for decades; in that case a momentum transfer
+to the reflecting lattice takes place without simultaneous transfer of internal
+energy to the crystal. And for a long time the analogous problem of the
+elastic scattering of slow neutrons from crystals had been thoroughly studied,
+both experimentally and theoretically. Lamb® had, as early as 1939, devel-
+oped a theory for the resonance capture of slow neutrons in crystals. This
+theoretical work was somewhat premature, inasmuch as Lamb assumed con-
+siderably smaller values for the widths of the neutron lines than were ob-
+served in later experiments. For this reason, this extraordinarily beautiful
+work was of no practical significance in the area of application originally
+intended. It remained only to apply this Lamb’s theory to the analogous
+problem of the resonance absorption of gamma radiation. This indeed ena-
+bled me to show that under the conditions chosen in the experiments des-
+cribed above there exists a high probability of nuclear transitions with no
+simultaneous change of the lattice state. Since these nuclear transitions are
+not associated with any energy losses caused by recoil phenomena, I shall in
+the following discussion characterize these particular transitions as «recoil-
+less» transitions, and the lines associated with such transitions, as «recoilless
+=== PAGE 09 (pdf page 09) ===
+592 1961 R. L. MOSSBAUER
+
+lines». In such a recoilless emission process, the entire excitation energy is
+therefore transferred to the emitted quantum, and the corresponding situa-
+tion holds for the recoilless absorption. Here the notation «recoilless» relates
+only to recoil energy transferred in a nuclear transition, and not to the
+transferred momentum. The value of this transferred momentum is deter-
+mined by the energy of the gamma quantum and is essentially a constant, in-
+dependent of any change in the internal state of motion of the crystal. This
+momentum is, therefore, transferred to the lattice in all emission or absorption
+processes, even in the recoilless processes. It is always taken up by the crystal
+as a whole, and therefore the corresponding translational velocity is negli-
+gibly small.
+
+What are the conditions under which the recoilless nuclear resonance ab-
+sorption can be observed? In answering this question, I wish to develop here,
+without presenting the mathematical formulation of the theory, a detailed
+picture of the processes which take place in radiative transitions in nuclei
+bound in crystals. The recoil-energy loss that occurs in a nuclear transition
+of a free nucleus is given by Eq. (1). It can be shown that in a transition of
+a nucleus bound in a crystal, Eq. (1) is no longer valid for the individual
+process but holds in the means over many processes; that is, instead of Eq.
+(1), we now have
+
+AE = E,?/2Me (2)
+
+Let us now consider a very simple model, in which we describe the vibra-
+tional state of the crystal by a single frequency @, the so-called Einstein fre-
+quency. It is instructive to consider the two limiting cases, in which the
+mean recoil energy is either large or small in comparison to the transition
+energy of the Einstein oscillator:
+
+AE > hw (case 1)
+AE <hw (case 2)
+
+In case 1, many oscillator transitions are required to take up the energy con-
+tribution AE in the lattice. The nuclear processes will therefore in general
+be accompanied by simultaneous transitions of many oscillators. The prob-
+ability of a nuclear transition taking place without any oscillator transition -
+that is, the probability of a recoilless process - is correspondingly small. The
+situation is entirely different in case 2. Here it is immediately evident that
+=== PAGE 10 (pdf page 10) ===
+RESONANCE ABSORPTION OF GAMMA RADIATION — $93
+Ww
+wl
+087
+
+BE <<fw
+
+0475
+
+02+
+
+° fw 2heo
+
+04-7 —
+LE>>he
+
+024
+
+fe) Shw 1Ohw 1Shw
+}—se____~
+
+o-
+
+Fig. 5. Relative probability for a gamma transition associated with simultaneous transi-
+tions of 0, 1, 2,. . .n crystal oscillators, for two different values of JE for the temperature
+T = O&K.
+
+a nuclear transition which is accompanied by an oscillator transition occurs
+relatively seldom, leading under these circumstances to a high probability
+for recoilless processes. The probabilities, under these conditions, for the
+occurrence of gamma emission processes accompanied by 0, 1, 2, . . . 1 os-
+cillator transitions are shown in Fig. 5 for these two cases.
+
+For qualitative considerations this simple picture can well be applied to
+the case of the real crystal. The frequency spectrum of the real crystal ex-
+hibits an increasingly high oscillator density at high frequencies. It is suffi-
+cient, for this simplified consideration, to replace the Einstein frequency by
+the upper frequency of the vibrational spectrum of the real crystal. This
+=== PAGE 11 (pdf page 11) ===
+594 1961 r.u.mossBauER
+
+limiting frequency wg is related, approximately, to the characteristic tem-
+perature 0 of the crystal by the equation hg = ké.
+
+The essential condition for a high probability of recoilless nuclear transi-
+tions now has the form
+
+E3/2Mc < k0 (3)
+
+The condition given here is quite restrictive because it limits the observation
+of recoilless resonance absorption to nuclear transitions of relatively low en-
+ergy; the upper limit lies at about 150 keV.
+
+If AE = E3/2 Mc? is small in comparison to the upper energy limit of the
+frequency spectrum, the percentage of recoilless processes that occur is high
+even at room temperature. However, if is about equal to the upper en-
+ergy limit of the frequency spectrum, then the probability of transitions of
+the crystal oscillators must be correspondingly reduced by the use of low
+temperatures in order to arrive at measurable effects.
+
+After the appearance of the observed strong resonance absorption in Ir
+had been traced back to the phenomenon of recoilless nuclear resonance
+absorption, the next step was to compute the probability of the effect in a
+general form. This probability, also known as the Debye-Waller factor, in
+analogy with the terminology used in X-ray scattering, is, as I have already
+pointed out, strongly dependent on the temperature and the energy of the
+nuclear transition. This dependence is illustrated in Fig. 6 by two examples.
+
+The shape and location of the emission and absorption lines, as shown in
+Fig. 2 for the case of a free nucleus, are modified considerably by the influ-
+ence of the chemical binding. While the centres of the lines as given by Eq.
+(2) are retained, each of them shows a complicated structure which reflects
+different single and multiple oscillator transitions, hence the notion « line » is
+applied here in a more generalized sense.
+
+The most interesting prediction of the theory is the appearance of a strong
+line with the natural line width appearing in the structure of both « lines » at
+the position of the transition energy E,, This line represents the recoilless
+processes. The strong prominence of these lines with the natural line width
+within the total line structure is not so surprising when one considers that
+all the recoilless processes in the emission and absorption spectra appear with-
+in an energy range of the order of magnitude of the natural line width. The
+gamma transitions associated with the oscillator transitions appear, on the
+other hand, in an energy range of the order of magnitude of the Debye
+=== PAGE 12 (pdf page 12) ===
+RESONANCE ABSORPTION OF GAMMA RADIATION 595
+
+100°/o
+14.4 keV
+@=420°K
+57Fe
+10°04
+134 keV
+@= 310°K
+187 Re
+1°/04
+J
+O.1°%/o + T Tt r T T
+1 10 102 107 104
+
+Temp (°K)
+
+Fig. 6. Fractions of recoil-free nuclear transitions (Debye-Waller factors) in “Fe and
+“Re, shown as functions of the temperature.
+
+temperature of the crystal; this energy range is always broader than the
+natural line width by many orders of magnitude.
+
+All these considerations provided a very plausible explanation of the or-
+igin of the observed resonance absorption in “Ir at low temperatures. The
+agreement between the experimentally observed temperature dependence of
+the absorption (Fig. 4) and the theoretically computed dependence was
+satisfactory when one considered that in the first calculation the Debye ap-
+proximation was used for the frequency spectrum because the actual fre-
+quency spectra of the crystals used were not known. Notwithstanding this
+qualitative agreement between experiment and theory, the situation still
+appeared to be somewhat unsatisfactory. The theory predicted that under
+the prescribed conditions lines of natural width should appear in the struc-
+ture of the emission and absorption lines at the value of the transition en-
+ergy E,.
+
+While the assumption of the existence of these lines made it possible to
+explain the experiments thus far carried out, the keystone was evidently still
+missing - namely, direct experimental proof of the existence of these lines
+and, especially, a demonstration that their widths were indeed the natural
+=== PAGE 13 (pdf page 13) ===
+596 1961RLMOSSBAUER
+
+line widths. It was necessary to find a detector which had the necessary en-
+ergy resolution to measure the profiles of these extremely sharp lines. The
+use of conventional detectors was excluded from the start. For example, the
+scintillation detectors frequently used for gamma-ray measurements in the
+relevant energy region have resolutions of the order of magnitude of 10°
+eV, while the natural line widths of the observed lines were only about 10°
+eV. The possibility of using the atomic nuclei themselves as detectors was
+suggested as a way out of this situation. As was shown above, an essential
+prediction of the theory was that the recoilless lines in both the emission
+and the absorption spectra should appear at the same position - that is, at the
+value of the transition energy.
+
+Both lines would, therefore, overlap completely, this being the reason for
+the strong absorption effect. If one could succeed in partially removing the
+perfect overlap by a relative displacement of the lines, the absorption effect
+of the recoilless lines should disappear correspondingly.
+
+In the experiment carried out to test the validity of this prediction, the
+idea was to accomplish the relative shift of the lines by means of the Doppler
+effect, so that a relative velocity would be imparted to the nuclei of the
+source with respect to the nuclei of the absorber. Here we had a sort of
+reversal of the experiment carried out by Moon. Whereas in that experiment
+the resonance condition destroyed by the recoil-energy losses was regained
+
+—_
+
+- WG
+
+10 cm
+
+YUM?
+
+Q
+M
+
+Pb
+
+Fig. 7. Experimental arrangement. A, absorber-cryostal; Q, rotating cryostat with
+source; D, scintillation detector.
+=== PAGE 14 (pdf page 14) ===
+RESONANCE ABSORPTION OF GAMMA RADIATION 597
+
+AI |-2-407° Oo 2-107 ° 407° ev
+v
+
+12%.
+
+Fig. 8. Relative intensity ratio AI/I of gamma radiation measured behind the resonant
+iridium absorber, in comparison with intensities measured behind a nonresonant
+absorber.
+
+by the application of an appropriate relative velocity, here the resonance
+condition fulfilled in the experiment was to be destroyed through the ap-
+plication of a relative velocity. And yet there was an essential difference be-
+tween this and Moon’s experiment. There, the width of the lines that were
+displaced relative to one another was determined by the thermal motion of
+the nuclei in the source and absorber; here, the line widths were sharper by
+four orders of magnitude. This made it possible to shift them by applying
+velocities smaller by four orders of magnitude. The indicated velocities were
+in the region of centimeters per second.
+
+Fig. 7 shows the experimental arrangement’. For simplicity, I decided to
+move the source by means of a turn-table. Only the part of the rotational
+motion marked by the heavy line in Fig. 7 was used for the measurement -
+namely, that part in which the source was moving relative to the absorber
+with approximately constant velocity. The intensity at the detector was
+measured as a function of the relative velocity between the source and the
+absorber. Since the preparation of the conical-gear assembly necessary for
+adjusting the various velocities caused a disagreeable delay in this experiment
+which was so exciting for me, I took advantage of the existence in Germany
+of a highly developed industry for the production of mechanical toys. A
+=== PAGE 15 (pdf page 15) ===
+598 1961RLMOSSBAUER
+
+day spent in the Heidelberg toy shops contributed materially to the accelera-
+tion of the work.
+
+Fig. 8 shows the result of this experiment, a result which was just what
+had been expected. As the figure demonstrates, a maximum resonance ab-
+sorption was actually present at zero relative velocity as a result of the com-
+plete superposition of the recoilless emission and absorption lines; therefore,
+minimal radiation intensity passing through the absorber was observed in
+the detector. With increasing relative velocity the emission line was shifted
+to higher or lower energies, the resonance absorption decreased, and the ob-
+served intensity correspondingly increased. The necessary relative velocities
+were manifestly only of the order of centimeters per second. Since the ex-
+periment consisted essentially of producing a shift of an emission line of
+width I relative to an absorption line of width I’, the observed line possessed
+a width which, with a small correction, was equal to 2 I. It was especially
+satisfying that the line width thus obtained agreed with the width determined
+in the first experiment’ under much more difficult conditions. While ab-
+sorption effects of the order of 1 per cent were observed in the second ex-
+periment, an effect of the order of a hundredth of 1 per cent had been
+achieved in the earlier work. Thus, direct proof of the existence of recoilless
+absorption was achieved.
+
+The significance of the new method was immediately apparent, although
+not all of its consequences were immediately realized. With 4.6 x10°eV
+
+191
+
+the line width observed in the 129 keV gamma transition of “Ir was already
+smaller than the usual thermal line widths by many orders of magnitude.
+Let us define the energy resolving power E/SE by the ratio of the energy E,
+of the nuclear transition and the natural width I’ of the line; that is, E/SE =
+E,/I’. Then we obtain in the present case E/8E = 2.8 x 10". The actual
+energy resolution achieved was already much greater in this experiment,
+since energy shifts amounting to a small fraction of the natural line width
+were actually observed. Since then, it has become possible, by utilizing other
+nuclear isotopes, to improve the obtainable energy resolution once more by
+several orders of magnitude. It is this property of the recoilless nuclear res-
+onance absorption - namely, that it is possible by this means to measure
+extraordinarily small energy differences between two systems - which gave
+the method its significance and opened up a broad field of possible applica-
+tions.
+
+Thus, the extraordinary sharpness of the recoilless gamma lines brought
+direct investigation of the hyperfine structure of nuclear transitions within
+=== PAGE 16 (pdf page 16) ===
+RESONANCE ABSORPTION OF GAMMA RADIATION 599
+
+the range of possibility. As a rule, atomic nuclei possess electric and magnetic
+moments in their various excited states. The interaction of these moments
+with internal or external fields leads to a splitting of nuclear levels into a
+number of states that are very close to one another. This hyperfine structure
+normally remains hidden in gamma lines, since the thermal width of a gam-
+ma line is always very large in comparison to the spacing of the hyperfine
+levels of the nuclear state. When the distances between the individual hyper-
+fine components are larger than the natural widths of the gamma lines, as is
+frequently the case, and when the conditions necessary for the observation
+of recoilless absorption are fulfilled, this method makes possible direct meas-
+urements of the hyperfine structure of both participating nuclear states. In-
+stead of a single line with the natural line width, a whole set of lines now
+appears in the emission spectrum, corresponding to recoilless transitions be-
+tween the hyperfine levels of the nuclear excited and ground states. The same
+situation holds for the absorption spectrum. Studies of this type yield pre-
+dictions on the magnetic dipole and electric quadrupole moments of the
+nuclear states involved, as well as predictions on the magnetic fields and
+gradients of the electric field prevailing at the site of the nucleus. The special
+promise of such measurements lies primarily in the possibility of obtaining
+information on the hyperfine splitting of excited nuclear states. In fact, sev-
+eral moments of excited nuclear states have been determined in this way in
+various laboratories. However, in our laboratory and in laboratories of many
+others now working in this region, this method is used mainly for studying
+the internal fields existing at the site of the nucleus; such studies have already
+led to a series of interesting results.
+
+In addition to measurement of the fields located in crystals at nuclear sites
+and to measurement of the moments of excited nuclear states, studies of a
+number of important effects have been made during the past two years ina
+large number of laboratories. The observation of these effects was made pos-
+sible by means of even sharper nuclear transitions, especially that of the 14.4
+keV transition in ’Fe.
+
+Particular mention should be made here of the beautiful measurements of
+the energy shift of radiation quanta in the gravitational field of the earth’,
+the observation of the second-order Doppler effect, and the measurements
+of the isomeric shift. However, discussion of these and of a whole series of
+other effects which have been studied by means of the method of recoilless
+nuclear resonance lies outside the framework of this address.
+
+The interpretation of the formalism which underlies the quantitative de-
+=== PAGE 17 (pdf page 17) ===
+600 1961 R.L.MOSSBAUER
+
+scription of recoilless nuclear resonance absorption has led to extremely ac-
+tive discussions. The question particularly raised has been whether the effect
+can be explained classically and, in this connection, whether the momentum
+transfer takes place as a continuous process during the lifetime tT of the ex-
+cited nuclear state or as a spontaneous process in the sense of quantum elec-
+trodynamics. The question raised here is closely connected with the prob-
+lems encountered in the dualistic description of radiation as a wave process
+or as a stream of free particles. Notwithstanding the fact that many details
+of the recoilless resonance absorption can be described by classical models,
+Ishould characterize this effect as a specifically quantum-mechanical one. In
+particular, it can be shown by the mathematical formulation of the theory
+that the momentum transfer takes place spontaneously. This can be dem-
+onstrated experimentally, not by an individual process but, rather, by the
+measurement of certain integral quantities, as, for example, the Debye-Wal-
+ler factor.
+
+In conclusion, let me now say a few words on the limits of the methods
+described. An upper limit for the usable natural line widths has certainly
+been given when the widths approach the width of the vibrational spectrum
+of the crystal oscillators.
+
+In this particular case it becomes impossible to distinguish clearly between
+nuclear processes which are simultaneously accompanied by oscillator transi-
+tions and those which are not. However, this would require nuclear life-
+times of less than 10” second, which do not occur in the nuclear levels
+available for this type of experiment. Therefore this upper limit is both
+uninteresting and unrealistic.
+
+More difficult is the question of a lower limit for the available line widths.
+To go beyond the limit so far attained of about 10°eV for the natural line
+widths is quite possible in principle. There are, however, a number of factors
+which have delayed extension of the method into the region of higher sen-
+sitivity. On the one hand, there are very few nuclei of stable isotopes whose
+first excited states possess the desired lifetime of greater than 10” second.
+On the other hand, all the previously mentioned side effects of such sharp
+lines play a dominant role; small disturbances of the crystal symmetry and
+small contaminations quickly lead to individual shifts in the nuclear states,
+and these shifts, as a group, produce a very considerable broadening of the
+extremely sharp lines. In this way the resonance condition is so far violated
+that the lines are not observed. However, there is a well-founded view that
+still more sharply defined nuclear transitions will be available before long.
+=== PAGE 18 (pdf page 18) ===
+RESONANCE ABSORPTION OF GAMMA RADIATION 601
+
+These should lead to multiplication of the possibilities for applying the meth-
+od of recoilless absorption. We may therefore hope that this young branch
+of physics stands only at its threshold, and that it will be developed in the
+future, not only to extend the application of existing knowledge but to make
+possible new advances in the exciting world of unknown phenomena and
+
+effects.
+
+1. W. Kuhn, Phil. Mag., 8 (1929) 625.
+
+2. P. B. Moon, Proc. Phys. Soc. (London), 64 (1951) 76.
+
+3. R. L. Méssbauer, Z. Physik, 151 (1958) 124.
+
+4. K. G. Malmfors, Arkiv Pysik, 6 (1953) 49.
+
+5. W. E. Lamb, Jr., Phys. Rev., 55 (1939) 190.
+
+6. R. L. Méssbauer, Naturwiss., 45 (1958) 588; Z. Naturforsch., 14a (1959) 211.
+
+7. R. V. Pound and G. A. Rebka, Jr., Phys. Rev. Letters, 4 (1960) 337. A complete
+bibliography of all pertinent researches is included in H. Frauenfelder, The Méss-
+bauer Effect, to be published in the series Frontiers in Physics, Benjamin, New York.
