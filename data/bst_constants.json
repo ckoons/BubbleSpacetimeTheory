@@ -2,7 +2,7 @@
  "meta": {
   "version": 1,
   "title": "BST Derived Constants",
-  "description": "Constants read from D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)], each tiered in its row (derived / identified / consistency / structural). Inputs: one measured identification (N_c = 3 <-> colour) and one dimensionful ruler (m_e); alpha is IDENTIFIED as 1/N_max; rows whose value carries a measured quantity name it in measured_inputs. No claim of zero free parameters (struck 2026-08-23; this line said so until 2026-09-29). Formulas are meant to evaluate in namespace {pi, alpha=1/N_max, N_c, n_C, g, C_2, N_max, rank, m_e, m_p = 6 pi^5 m_e = 938.254 MeV, hbar_c}; as of 2026-09-28, 25 of 197 rows do not (Elie toy 5842; Grace fixing).",
+  "description": "Constants read from D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)], each tiered in its row (derived / identified / consistency / structural). Inputs: one measured identification (N_c = 3 <-> colour) and one dimensionful ruler (Planck: G, hbar, c; m_e is the interior unit and m_e = 6*pi**5*alpha**12*m_Planck the bridge — K1953 addendum 2026-10-09; this clause said '(m_e)' until then); alpha is IDENTIFIED as 1/N_max; rows whose value carries a measured quantity name it in measured_inputs. No claim of zero free parameters (struck 2026-08-23; this line said so until 2026-09-29). Formulas are meant to evaluate in namespace {pi, alpha=1/N_max, N_c, n_C, g, C_2, N_max, rank, m_e, m_p = 6 pi^5 m_e = 938.254 MeV, hbar_c}; as of 2026-09-28, 25 of 197 rows do not (Elie toy 5842; Grace fixing).",
   "count": 144,
   "tier_counts": {
    "D": 75,
@@ -85,7 +85,7 @@
     "_note": "SI 2019 defining constants — unit conventions, NOT BST inputs"
    },
    "SI_ruler_measured": {
-    "m_e_kg": "9.1093837139e-31 (kg) — the ruler in SI, MEASURED (CODATA 2022; data/sources_grace_2026-09-29/r19/nist/nist_me.html)",
+    "m_e_kg": "9.1093837139e-31 (kg) — the INTERIOR UNIT in SI, MEASURED (CODATA 2022; data/sources_grace_2026-09-29/r19/nist/nist_me.html). Ruled 2026-10-09 (Casey, K1953 addendum): m_e is the interior unit the ratios are quoted against; the one DIMENSIONFUL ruler is Planck (G, hbar, c); m_e = 6*pi**5*alpha**12*m_Planck is the bridge (Identified, stage 2 of the ElectronMass paper); G is the ruler, not a prediction. This row said 'the ruler in SI' from 2026-09-29 to 2026-10-09.",
     "m_p_kg": "6*pi**5*m_e_kg (BST's m_p in SI)"
    },
    "_not_in_namespace": "H_0, m_H, m_Planck are imported/measured scales and are deliberately NOT namespace names; rows that need them are marked not evaluable in the BST namespace."
