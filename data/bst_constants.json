@@ -650,7 +650,7 @@
    "symbol": "m_H",
    "formula_latex": "m_H = v\\sqrt{2\\sqrt{2/n_C!}} = 125.11\\text{ GeV}",
    "formula_display": "m_H = v * sqrt(2*sqrt(2/5!)) = 125.11 GeV",
-   "formula_code": "m_p**2/(7*m_e) * sqrt(2*sqrt(2.0/120.0)) / 1000",
+   "formula_code": "m_p**2/(7*m_e) * sqrt(2*sqrt(2/factorial(n_C))) / 1000",
    "bst_value": 125.11,
    "observed_value": 125.25,
    "observed_source": "PDG 2024",
@@ -683,7 +683,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.11%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN: 120 = n_C! per the row's own chain (lambda_H = sqrt(2/n_C!)). The 7 is g; 1000 is MeV->GeV. Old code: 'm_p**2/(7*m_e) * sqrt(2*sqrt(2.0/120.0)) / 1000'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_009",
@@ -911,7 +912,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.5%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). NAMED: 13 = c_3(Q^5) (K1263 Chern ratio); not in the eval namespace, so the literal stays until c_2, c_3 are added to toy_bst_explorer/verify_bst (Elie). 10/13 = 1 - N_c/c_3."
   },
   {
    "id": "const_014",
@@ -920,7 +922,7 @@
    "symbol": "Omega_Lambda",
    "formula_latex": "\\Omega_\\Lambda = (N_c + 2n_C)/(N_c^2 + 2n_C) = 13/19",
    "formula_display": "Omega_Lambda = (N_c + 2*n_C)/(N_c^2 + 2*n_C) = 13/19",
-   "formula_code": "13.0 / 19.0",
+   "formula_code": "(N_c + 2*n_C)/(N_c**2 + 2*n_C)",
    "bst_value": 0.68421,
    "observed_value": 0.685,
    "observed_source": "Planck 2018",
@@ -956,7 +958,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.07 sigma",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN from formula_display: 13/19 = (N_c + 2n_C)/(N_c^2 + 2n_C). Old code: '13.0 / 19.0'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_015",
@@ -965,7 +968,7 @@
    "symbol": "Omega_DM/Omega_b",
    "formula_latex": "\\Omega_{DM}/\\Omega_b = 2^{2\\text{rank}}/N_c = 16/3",
    "formula_display": "Omega_DM/Omega_b = 16/3 = 2^(2*rank)/N_c",
-   "formula_code": "16.0 / 3",
+   "formula_code": "rank**4/N_c",
    "bst_value": 5.333,
    "observed_value": 5.36,
    "observed_source": "Planck 2018",
@@ -999,7 +1002,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.58%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN from formula_display: 16/3 = 2^(2 rank)/N_c. Old code: '16.0 / 3'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_016",
@@ -1092,7 +1096,7 @@
    "symbol": "Omega_m",
    "formula_latex": "\\Omega_m = C_2/19 = 6/19",
    "formula_display": "Omega_m = 6/19 = C_2/19",
-   "formula_code": "6.0 / 19.0",
+   "formula_code": "C_2/(N_c**2 + 2*n_C)",
    "bst_value": 0.31579,
    "observed_value": 0.315,
    "observed_source": "Planck 2018",
@@ -1125,7 +1129,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.07 sigma",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN from the chain: 6/19 = C_2/(N_c^2 + 2n_C). Old code: '6.0 / 19.0'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_019",
@@ -1134,7 +1139,7 @@
    "symbol": "Omega_b",
    "formula_latex": "\\Omega_b = 18/361",
    "formula_display": "Omega_b = 18/361",
-   "formula_code": "6.0 / (19 * (16.0/3 + 1))",
+   "formula_code": "(C_2/(N_c**2 + 2*n_C))/(1 + rank**4/N_c)",
    "bst_value": 0.04986,
    "observed_value": 0.0493,
    "observed_source": "Planck 2018",
@@ -1168,7 +1173,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.9%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN from the chain: Omega_m/(1 + 16/3) with both pieces in the five integers. Old code: '6.0 / (19 * (16.0/3 + 1))'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_020",
@@ -1508,7 +1514,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "prediction",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). VALUE: the row IS the predicted number 184 (S-tier); no formula to rewrite."
   },
   {
    "id": "const_027",
@@ -1587,7 +1594,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "exact",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). UNIT: 180/pi converts radians to degrees; not an input."
   },
   {
    "id": "const_029",
@@ -1628,7 +1636,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.03%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). UNIT: 180/pi converts radians to degrees; not an input."
   },
   {
    "id": "const_030",
@@ -1637,7 +1646,7 @@
    "symbol": "a_0",
    "formula_latex": "a_0 = N_{\\max} \\hbar c / m_e",
    "formula_display": "a_0 = N_max * hbar_c / m_e",
-   "formula_code": "N_max * 197.3269804 / m_e",
+   "formula_code": "N_max * hbar_c / m_e",
    "bst_value": 52918.0,
    "observed_value": 52918.0,
    "observed_source": "CODATA 2022",
@@ -1667,7 +1676,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "exact",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN: 197.3269804 is the namespace constant hbar_c (a unit conversion, MeV fm). Old code: 'N_max * 197.3269804 / m_e'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_031",
@@ -1959,7 +1969,8 @@
    ],
    "tier_recommendation": "not D until every CAMB input is named",
    "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — inputs named from the source run, toy_677_camb_boltzmann.py lines 46–61 ('External inputs (not BST-derived)'). NOTE: const_037's chain lists 'A_s=(3/4)*alpha^4' as a BST input, but the run used A_s = 2.1e-9 (Planck best fit) — the chain misstates the run. z* and r* depend mainly on omega_b and omega_c, here built from Planck's total omega_m."
+   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — inputs named from the source run, toy_677_camb_boltzmann.py lines 46–61 ('External inputs (not BST-derived)'). NOTE: const_037's chain lists 'A_s=(3/4)*alpha^4' as a BST input, but the run used A_s = 2.1e-9 (Planck best fit) — the chain misstates the run. z* and r* depend mainly on omega_b and omega_c, here built from Planck's total omega_m.",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). MEASURED INPUT (already flagged): CAMB output with Planck omega_m, T_CMB, A_s; the literal is the computed value."
   },
   {
    "id": "const_038",
@@ -2011,7 +2022,8 @@
    ],
    "tier_recommendation": "not I-as-derived until every CAMB input is named",
    "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — inputs named from the source run, toy_677_camb_boltzmann.py lines 46–61 ('External inputs (not BST-derived)'). NOTE: const_037's chain lists 'A_s=(3/4)*alpha^4' as a BST input, but the run used A_s = 2.1e-9 (Planck best fit) — the chain misstates the run. z* and r* depend mainly on omega_b and omega_c, here built from Planck's total omega_m."
+   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — inputs named from the source run, toy_677_camb_boltzmann.py lines 46–61 ('External inputs (not BST-derived)'). NOTE: const_037's chain lists 'A_s=(3/4)*alpha^4' as a BST input, but the run used A_s = 2.1e-9 (Planck best fit) — the chain misstates the run. z* and r* depend mainly on omega_b and omega_c, here built from Planck's total omega_m.",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). MEASURED INPUT (already flagged): CAMB output; the literal is the computed value."
   },
   {
    "id": "const_039",
@@ -2111,7 +2123,7 @@
    "symbol": "(m_n - m_p)/m_e",
    "formula_latex": "(m_n - m_p)/m_e = 91/36",
    "formula_display": "(m_n - m_p)/m_e = 91/36 = 7*13/6^2",
-   "formula_code": "91.0/36.0",
+   "formula_code": "g*13/C_2**2",
    "bst_value": 2.5278,
    "observed_value": 2.53102,
    "observed_source": "CODATA 2022",
@@ -2143,7 +2155,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.13%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN 36 = C_2^2 and 91 = g*13 per formula_display; the 13 stays a NAMED literal (c_3(Q^5), not in the eval namespace). Old code: '91.0/36.0'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_042",
@@ -2666,7 +2679,7 @@
    "symbol": "d_bp",
    "formula_latex": "d_{bp} = a_0 \\cdot N_c^2 n_C/g = a_0 \\cdot 45/7",
    "formula_display": "d_bp = a_0 * N_c^2*n_C/g = a_0 * 45/7",
-   "formula_code": "45.0 / 7",
+   "formula_code": "N_c**2*n_C/g",
    "bst_value": 6.4286,
    "observed_value": 6.43,
    "observed_source": "X-ray crystallography",
@@ -2698,7 +2711,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.09%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN from formula_display: 45/7 = N_c^2 n_C/g. Old code: '45.0 / 7'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_055",
@@ -2827,7 +2841,7 @@
    "symbol": "m_eta'",
    "formula_latex": "m_{\\eta'} = m_p \\cdot g^2/(g^2-1) = m_p \\cdot 49/48",
    "formula_display": "m_eta' = m_p * 49/48 = m_p * g^2/(g^2-1)",
-   "formula_code": "m_p * 49.0/48.0",
+   "formula_code": "m_p * g**2/(g**2-1)",
    "bst_value": 957.82,
    "observed_value": 957.78,
    "observed_source": "PDG 2024",
@@ -2857,7 +2871,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.002%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN from formula_display: 49/48 = g^2/(g^2-1). Old code: 'm_p * 49.0/48.0'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_059",
@@ -3572,7 +3587,7 @@
    "symbol": "J_CKM",
    "formula_latex": "J = A^2 \\lambda^6 \\bar{\\eta}, \\; A=N_c^2/(N_c^2+{\\rm rank})=9/11, \\; \\lambda=2/\\sqrt{79}, \\; \\bar{\\eta}=1/(2\\sqrt{2})",
    "formula_display": "J = A^2*lambda^6*eta_bar, A=9/11, lambda=2/sqrt(79), eta_bar=1/(2*sqrt(2))",
-   "formula_code": "(9/11)**2 * (2/79**0.5)**6 * 1/(2*2**0.5)",
+   "formula_code": "(9/11)**2 * (2/(rank**4*n_C - 1)**0.5)**6 * 1/(2*2**0.5)",
    "bst_value": 3.072e-05,
    "observed_value": 3.08e-05,
    "observed_source": "PDG 2024",
@@ -3625,7 +3640,8 @@
    "group_consistency_ref": "meta.OBSERVABLE_GROUPS.ckm_jarlskog",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "CP EXISTENCE-ONLY — magnitude OFF (K1304): the J value is construction-dependent (~O(100×) spread, reverse-fit); NOT a forward prediction, NO agreement claimed",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN 79 = rank^4 n_C - 1 (the Cabibbo row's form, K-ruled); 9 = N_c^2 left as is; the 11 stays a NAMED literal (A = 9/11; see the 11 alias note). Old code: '(9/11)**2 * (2/79**0.5)**6 * 1/(2*2**0.5)'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_078",
@@ -4111,7 +4127,8 @@
    "group_consistency_ref": "meta.OBSERVABLE_GROUPS.ckm_vcb",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "2.7%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). IDENTIFIED LITERAL, RETIRED as derived (K711/K684): the 11 and 79 have no geometric source here; left as typed, tier S."
   },
   {
    "id": "const_089",
@@ -4338,7 +4355,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.007%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). UNIT: 180/pi converts radians to degrees; not an input."
   },
   {
    "id": "const_094",
@@ -4636,7 +4654,7 @@
    "symbol": "H_0",
    "formula_latex": "H_0 = 100\\sqrt{\\omega_m^{\\rm Planck}/\\Omega_m^{\\rm BST}},\\ \\omega_m^{\\rm Planck}=\\Omega_m h^2=0.1430\\ (\\text{measured}),\\ \\Omega_m^{\\rm BST}=6/19",
    "formula_display": "H_0 = 100*sqrt(omega_m/Omega_m) km/s/Mpc with omega_m = Omega_m h^2 = 0.1430 MEASURED (Planck 2018) and Omega_m = 6/19 (BST)",
-   "formula_code": "100*sqrt(0.1430/(6/19))",
+   "formula_code": "100*sqrt(0.1430/(C_2/(N_c**2 + 2*n_C)))",
    "bst_value": 67.29,
    "observed_value": 67.36,
    "observed_source": "Planck 2018",
@@ -4679,7 +4697,8 @@
     "omega_m = Omega_m h^2 = 0.1430 (Planck 2018; toy_677_camb_boltzmann.py:46 '# H_0 from Planck Ω_m h² = 0.1430')"
    ],
    "tier_review_2026_09_27": "GRACE RETRACTION, 2026-09-27 15:52 (round 17; K1937 Part 2): my 2026-08-02 TIER-REFRESH ('CONFIRMED honestly tiered — no change … H_0 is a downstream CAMB/Boltzmann output from BST inputs') was WRONG in its reason: the chain's own step 'Omega_m h^2 = 0.1430' is Planck's MEASURED omega_m (toy 677:46), not a BST output, and 100*sqrt(0.1430/(6/19)) = 67.29 exactly (Keeper K1937; recomputed by Grace). A consistency check of Omega_m, not a derivation of H. Formula and status now name the input on the face; the 08-02 text is kept.",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — consistency row; H imported via Planck's omega_m (const_100)"
+   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — consistency row; H imported via Planck's omega_m (const_100)",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN 6/19 = C_2/(N_c^2 + 2n_C); 0.1430 is the MEASURED omega_m (flagged in measured_inputs) and stays. Old code: '100*sqrt(0.1430/(6/19))'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_101",
@@ -4730,7 +4749,8 @@
     "inherits H_0 = 67.29 → Planck's measured omega_m (const_100)"
    ],
    "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — consistency row; H imported via Planck's omega_m (const_100)"
+   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — consistency row; H imported via Planck's omega_m (const_100)",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). MEASURED INPUT (already flagged): inherits Planck omega_m via H_0."
   },
   {
    "id": "const_102",
@@ -4780,7 +4800,8 @@
     "H_0 = 67.29, which is 100*sqrt(omega_m/(6/19)) with Planck's MEASURED omega_m = 0.1430 (const_100; K1937 Part 2)"
    ],
    "reproduction_flag_2026_09_27": "Grace 15:53 (round 17): (1) the row's H_0 = 67.29 imports Planck's omega_m (const_100). (2) The stored 13.78 is NOT reproduced by the row's own formula: flat LCDM, Omega_M = 6/19, Omega_Lambda = 13/19, H_0 = 67.29, no radiation → integral 0.95031 → t_0 = 13.809 Gyr (scipy quad; Grace recompute). (3) The cited source, toy 1182, never evaluates H_0 = 67.29: its table uses 66.7, 68.0, a 'BST midpoint' 67.35 and Planck 67.36 (lines 139-162). The 0.12% therefore has no reproducible instrument on the row's face. Value left unchanged pending Elie's round-17 instrument; not to be cited.",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — stored value replaced by what the row's own formula gives: integral 0.95031 → 13.809 Gyr (scipy quad; Grace 09-27). The previous 13.78 had no reproducing instrument (toy 1182 never evaluates H_0 = 67.29). Precision now vs 13.797."
+   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — stored value replaced by what the row's own formula gives: integral 0.95031 → 13.809 Gyr (scipy quad; Grace 09-27). The previous 13.78 had no reproducing instrument (toy 1182 never evaluates H_0 = 67.29). Precision now vs 13.797.",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). MEASURED INPUT (already flagged): inherits Planck omega_m via H_0."
   },
   {
    "id": "const_103",
@@ -5013,7 +5034,7 @@
    "symbol": "delta_trans",
    "value": 0.01339,
    "formula": "28/137 - 3/(5π)",
-   "formula_code": "28/137 - 3/(5*pi)",
+   "formula_code": "rank**2*g/N_max - 3/(5*pi)",
    "observed_value": null,
    "precision": null,
    "source": "T1391",
@@ -5026,7 +5047,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "exact",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN 28 = rank^2 g per T1391's own decomposition (29 = rank^2 g + 1 is its rational component). Old code: '28/137 - 3/(5*pi)'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_106",
@@ -5260,7 +5282,8 @@
    "tier_recommendation": "I (ratio identified; not D: the MeV scale is measured m_tau, not the ruler)",
    "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
    "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending — I: the identified ratio m_b/m_tau = 7/3; m_tau measured, named.",
-   "mass_scheme_2026_09_29": "Grace 11:30 (round 19; Cal Section 1014 condition). SCHEME NAMED: MS-bar m_b(m_b) — PDG: 'The c- and b-quark masses are the MS masses renormalized at the MS mass, i.e. m = m(µ = m)' (sum-quarks :7–9). (7/3)·m_tau = 4146.17 MeV lies BELOW every scheme PDG prints: pulls MS-bar PDG evaluation 4.186 ± 0.006 → −6.6σ (and ≈ −11σ if 'CL = 90%' means a 90 % interval, PIN OWED); review continuum average 4.18 ± 0.03 (errors deliberately inflated for ~25 MeV perturbative systematics, rev-quark-masses :686–696) → −1.1σ; lattice Eq. (60.24) 4.196 ± 0.012 → −4.2σ; 1S 4.65 ± 0.03 → −16.8σ; pole 4.788 ± 0.016 (renormalon-ambiguous) → −40σ. Only MS-bar at µ = m_b is in range, and the row owes a reason why 7/3 × a pole-mass lepton equals the running quark mass at that scale. Sources: data/sources_grace_2026-09-29/r19/."
+   "mass_scheme_2026_09_29": "Grace 11:30 (round 19; Cal Section 1014 condition). SCHEME NAMED: MS-bar m_b(m_b) — PDG: 'The c- and b-quark masses are the MS masses renormalized at the MS mass, i.e. m = m(µ = m)' (sum-quarks :7–9). (7/3)·m_tau = 4146.17 MeV lies BELOW every scheme PDG prints: pulls MS-bar PDG evaluation 4.186 ± 0.006 → −6.6σ (and ≈ −11σ if 'CL = 90%' means a 90 % interval, PIN OWED); review continuum average 4.18 ± 0.03 (errors deliberately inflated for ~25 MeV perturbative systematics, rev-quark-masses :686–696) → −1.1σ; lattice Eq. (60.24) 4.196 ± 0.012 → −4.2σ; 1S 4.65 ± 0.03 → −16.8σ; pole 4.788 ± 0.016 (renormalon-ambiguous) → −40σ. Only MS-bar at µ = m_b is in range, and the row owes a reason why 7/3 × a pole-mass lepton equals the running quark mass at that scale. Sources: data/sources_grace_2026-09-29/r19/.",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). MEASURED INPUT (already flagged): m_tau = 1776.93 MeV (PDG 2026)."
   },
   {
    "id": "const_111",
@@ -5269,7 +5292,7 @@
    "symbol": "r_e",
    "formula_latex": "r_e = \\alpha \\, \\hbar c / m_e",
    "formula_display": "r_e = alpha * hbar_c / m_e",
-   "formula_code": "(1/N_max) * 197.3269804 / 0.51099895",
+   "formula_code": "(1/N_max) * hbar_c / m_e",
    "bst_value": 2.8187,
    "observed_value": 2.8179,
    "observed_source": "CODATA 2022",
@@ -5300,7 +5323,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.03%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN: 197.3269804 -> hbar_c, 0.51099895 -> m_e (both namespace names). Old code: '(1/N_max) * 197.3269804 / 0.51099895'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_112",
@@ -5389,7 +5413,8 @@
    ],
    "tier_recommendation": "remove from the derived tiers (move, or mark 'SI definition')",
    "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending"
+   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). SI DEFINITION (already flagged): N_A e, exact by the 2019 SI."
   },
   {
    "id": "const_114",
@@ -5440,7 +5465,8 @@
    "code_chain_mismatch": "the chain says 'mu_p derived from BST (T1447)', but formula_code uses CODATA's measured mu_p. Either code const_043's BST mu_p or keep this as a unit conversion.",
    "tier_recommendation": "not D; 'conversion of measured' unless recoded from const_043",
    "species_sweep_2026_09_27": "Grace 16:01 2026-09-27 (round 17 Lane B; Elie toy 5840 sweep, every row read)",
-   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending"
+   "k1938": "K1938 tier table applied by Grace 2026-09-28 13:58; Cal concurrence pending",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). MEASURED/CODATA CONVERSION (already flagged): mu_p/mu_N, mu_N, hbar."
   },
   {
    "id": "const_115",
@@ -5506,7 +5532,7 @@
    "symbol": "C_2^QED",
    "formula_latex": "C_2^{\\text{QED}} = \\frac{197}{144} + \\pi^2\\left(\\frac{1}{12} - \\frac{\\ln 2}{2}\\right) + \\frac{3}{4}\\zeta(3)",
    "formula_display": "C_2^QED = 197/144 + pi^2*(1/12 - ln(2)/2) + (3/4)*zeta(3)",
-   "formula_code": "197/144 + pi**2*(1/12 - log(2)/2) + 3*1.2020569031595942/4",
+   "formula_code": "(N_max + rank**2*N_c*n_C)/(rank*C_2)**2 + pi**2*(1/12 - log(2)/2) + 3*1.2020569031595942/4",
    "bst_value": -0.3284789656,
    "observed_value": -0.3284789656,
    "observed_source": "Petermann-Sommerfield (1957), CODATA",
@@ -5545,7 +5571,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "machine precision",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN 197 = N_max + rank^2 N_c n_C and 144 = (rank C_2)^2 per the chain; 1.2020569... = zeta(3) is a MATH CONSTANT (Apery), kept as a literal like pi; 1/12 is textbook QED. Old code: '197/144 + pi**2*(1/12 - log(2)/2) + 3*1.2020569031595942/4'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_123",
@@ -5686,7 +5713,8 @@
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.29%",
    "precision_source": "COMPUTED from bst_value and observed_value at write time",
-   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): the row's code 13*(1/N_max)*m_p/pi gives 28.34 MeV; the stored 28.21 does not reproduce (not with measured alpha or measured m_p either). Stored now what the row produces."
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): the row's code 13*(1/N_max)*m_p/pi gives 28.34 MeV; the stored 28.21 does not reproduce (not with measured alpha or measured m_p either). Stored now what the row produces.",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). NAMED: 13 = c_3(Q^5) (third Chern class); namespace-owed (Elie)."
   },
   {
    "id": "const_126",
@@ -5695,7 +5723,7 @@
    "symbol": "B_h",
    "formula_latex": "B_h = \\frac{N_c \\cdot c_3}{2C_2 - 1} \\cdot \\frac{\\alpha m_p}{\\pi} = \\frac{39}{11} \\cdot \\frac{\\alpha m_p}{\\pi}",
    "formula_display": "B_h = (N_c*c_3/DC) * alpha*m_p/pi = (39/11) * alpha*m_p/pi",
-   "formula_code": "(39/11) * (1/N_max) * 6*pi**5*m_e / pi",
+   "formula_code": "(N_c*13/(2*C_2-1)) * (1/N_max) * 6*pi**5*m_e / pi",
    "bst_value": 7.73,
    "observed_value": 7.71806,
    "observed_source": "NNDC/NUBASE 2020",
@@ -5729,7 +5757,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.16%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN 39/11 = N_c*13/(2C_2-1) per the chain (DC = 2C_2 - 1); 13 = c_3 NAMED literal. Old code: '(39/11) * (1/N_max) * 6*pi**5*m_e / pi'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_127",
@@ -5738,7 +5767,7 @@
    "symbol": "B_t",
    "formula_latex": "B_t = B_h + \\alpha m_p / N_c^2",
    "formula_display": "B_t = B_h + alpha*m_p/N_c^2 (Coulomb splitting from helion)",
-   "formula_code": "(39/11) * (1/N_max) * 6*pi**5*m_e / pi + (1/N_max)*6*pi**5*m_e/N_c**2",
+   "formula_code": "(N_c*13/(2*C_2-1)) * (1/N_max) * 6*pi**5*m_e / pi + (1/N_max)*6*pi**5*m_e/N_c**2",
    "bst_value": 8.49,
    "observed_value": 8.48182,
    "observed_source": "NNDC/NUBASE 2020",
@@ -5773,14 +5802,15 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.10%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN as const_126 plus the Coulomb term; 13 = c_3 NAMED literal. Old code: '(39/11) * (1/N_max) * 6*pi**5*m_e / pi + (1/N_max)*6*pi**5*m_e/N_c**2'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_128",
    "theorem_id": "T237",
    "name": "Stefan-Boltzmann constant",
    "symbol": "sigma_SB",
-   "formula_code": "2*pi**5*k_B**4/(15*h**3*c**2)",
+   "formula_code": "2*pi**5*k_B**4/(N_c*n_C*h**3*c**2)",
    "formula_display": "sigma = 2*pi^5*k_B^4/(N_c*n_C*h^3*c^2)",
    "observed_value": 5.670374419e-08,
    "bst_value": 5.670374419e-08,
@@ -5795,7 +5825,8 @@
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": null,
    "precision": 0.0,
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN 15 = N_c n_C per the row note; k_B, h, c are SI-exact (not BST inputs). Old code: '2*pi**5*k_B**4/(15*h**3*c**2)'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_129",
@@ -5967,7 +5998,8 @@
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": null,
    "precision": 7.8341,
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). INPUT: 200 MeV is the scheme-dependent Lambda_QCD scale itself (S-tier); not derived."
   },
   {
    "name": "Kolmogorov constant",
@@ -6100,7 +6132,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "exact",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). IDENTIFIED LITERAL: 17 = Cheeger h^2 (row note); no five-integer form is named; mark as input."
   },
   {
    "name": "Prandtl number (water)",
@@ -6140,7 +6173,8 @@
    "precision_stored_ARCHIVED": "0.46%",
    "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
    "namespace_fix_2026_09_29": "Grace R179 2026-09-29 11:28 (round 19: namespace fixes, Elie 5842 (d)): 'math.' prefixes replaced by the namespace names pi, sqrt.",
-   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): code gave MeV while unit is GeV; /1000 added; 3.038e-19 GeV reproduces the stored 3.04e-19."
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): code gave MeV while unit is GeV; /1000 added; 3.038e-19 GeV reproduces the stored 3.04e-19.",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). TEXTBOOK FACTOR: 384 = 2*192, the Fermi-theory muon phase-space denominator 192 pi^3 with G_F = 1/(sqrt2 v^2); QED kinematics, not a BST input. c_2, c_3 NAMED (namespace-owed)."
   },
   {
    "name": "Cosmic neutrino background temperature ratio",
@@ -6178,7 +6212,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.05%",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). NAMED: 13 = c_3(Q^5) (T2030); namespace-owed (Elie)."
   },
   {
    "name": "Top quark mass",
@@ -6570,13 +6605,14 @@
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "1.4%",
    "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
-   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): the row produces 2.1352 MeV (13*9/28 m_e); the stored 2.13 was a rounding."
+   "reproduction_fix_2026_09_29": "Grace R179 2026-09-29 11:29 (round 19, re-evaluation in the extended namespace): the row produces 2.1352 MeV (13*9/28 m_e); the stored 2.13 was a rounding.",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). NAMED: 13 = c_3(Q^5) (T2032); namespace-owed (Elie)."
   },
   {
    "name": "Down quark mass",
    "symbol": "m_d",
    "formula": "c_3*(N_c^3-rank^3)/(rank^2*g)*m_e",
-   "formula_code": "13*19/(4*7)*m_e",
+   "formula_code": "13*(N_c**3 - rank**3)/(rank**2*g)*m_e",
    "value": 4.51,
    "observed_value": 4.67,
    "precision": null,
@@ -6589,7 +6625,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "3.5%",
-   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision."
+   "precision_source": "NOT COMPUTABLE — bst_value and/or observed_value missing. The stored value is archived and MUST NOT be read as a precision.",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN 19 = N_c^3 - rank^3 per the row note (Ogg prime); 13 = c_3 NAMED literal. Old code: '13*19/(4*7)*m_e'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "name": "CMB first acoustic peak",
@@ -6965,7 +7002,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.13%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). IDENTIFIED LITERAL: 47 = Ogg47 (T1924); an identified integer, not derived; mark as input."
   },
   {
    "theorem_id": "T2218",
@@ -6987,7 +7025,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "0.6%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). IDENTIFIED LITERAL: 31 = Mersenne M_5 / Ogg31; identified, not derived; mark as input."
   },
   {
    "theorem_id": "T2137",
@@ -7060,7 +7099,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "UNDERSPECIFIED — names a compilation, not a determination",
    "precision_stored_ARCHIVED": "1.4%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). NAMED: 11/13 = c_2/c_3 (Chern numbers); namespace-owed (Elie). NOTE the 11 alias: c_2(Q^5) here, DC = 2C_2 - 1 in const_126/127 — same integer, two names; Keeper to rule."
   },
   {
    "id": "const_151",
@@ -7179,7 +7219,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.05%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). NAMED: 13 = c_3, 25/24 = 1 + 1/chi with chi = 24 the Euler characteristic (as in the Upsilon row); neither c_3 nor chi is in the eval namespace; namespace-owed (Elie)."
   },
   {
    "id": "const_155",
@@ -7188,7 +7229,7 @@
    "symbol": "n_s",
    "formula_latex": "n_s = 1 - n_C/N_{max}",
    "formula_display": "n_s = 1 - n_C/N_max = 1 - 5/137 = 132/137",
-   "formula_code": "1 - 5/137",
+   "formula_code": "1 - n_C/N_max",
    "bst_value": 0.9635036496350365,
    "observed_value": 0.9649,
    "observed_source": "Planck 2018",
@@ -7212,7 +7253,8 @@
    "uncertainty_status": "ABSENT — no sigma may be computed from this row",
    "source_status": "NAMED",
    "precision_stored_ARCHIVED": "0.14%",
-   "precision_source": "COMPUTED from bst_value and observed_value at write time"
+   "precision_source": "COMPUTED from bst_value and observed_value at write time",
+   "k1954_bare_literal_2026_10_09": "Grace 2026-10-09 (K1954 Section 5, Elie 5867 P3b: 42 rows with a bare literal in formula_code). REWRITTEN from formula_display: 5/137 = n_C/N_max. Old code: '1 - 5/137'. Identity check |old-new|/|old| = 0.0e+00."
   },
   {
    "id": "const_156",
