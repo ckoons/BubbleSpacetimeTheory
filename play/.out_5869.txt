@@ -1,0 +1,73 @@
+ALGEBRA (exact; Omega_DE = f, pure matter background)
+  C1 constant f: w = [0];  C2 capacity+exclusion: w = [-1];  none: w = [1/(2*f - 1)];  quotient: w = [-1/(6*f - 3)]
+  N = W with source s(1-f): w = [(-f*s + s - 3)/(3*(2*f - 1))]  -> w = -1 iff s = 6 at every f (Cal S1035 Condition A, T1)
+  [PASS] A1: constant fraction ⇒ w = 0 exactly (Hsu)
+  [PASS] A2: literal ledger: capacity+exclusion w = −1 identically; no exclusion 1/(2f−1); quotient ≠ −1 (5779 check 5 + K1922)
+  [PASS] A3: N = W needs d ln W/dx = 6 for w = −1; slope 2 does not
+
+ENGINE — C1 (Hsu): N = f0 N_H(a) at fixed f0; w must equal the BACKGROUND's p/rho (0 matter, 1/3 radiation)
+  [PASS] C1: constant f tracks the dominant fluid: max |w − w_bg| = 7.1e-07; w_bg runs 1/3 → 0 across equality (5864's radiation lesson)
+
+ENGINE — C2 (literal ledger d ln W/dx = 2) on 5779's PURE-MATTER background (Or = 0); Omega(a0) SHOT to f(1) = 0.7 in capacity+exclusion+bits, then reused
+  shot Omega(a0 = 1e-6) = 2.334e-18 (Engine B's one free number; in the real run the census fixes it — T3)
+  capacity exclusion bits  : wall none     direction flat                         w(late) = -1.0000  f(1) = 0.700
+  capacity none      bits  : wall 0.474814 direction n/a                          w(late) = +nan  f(1) = nan
+  capacity wall      bits  : wall 0.474814 direction n/a                          w(late) = +nan  f(1) = nan
+  capacity exclusion ruleR : wall 0.517543 direction wa > 0, relaxing from above  w(late) = +nan  f(1) = nan
+  quotient exclusion bits  : wall none     direction flat                         w(late) = +0.3333  f(1) = 0.000
+  events   exclusion bits  : wall none     direction flat                         w(late) = +0.3333  f(1) = 0.000
+     exclusion fork: w at a = 0.3, 0.5, 0.7, 1.0 = [-1.0, -1.0, -1.0, -1.0]; f = [0.059, 0.226, 0.445, 0.7]
+  [PASS] C2: capacity+exclusion+bits, Or = 0: w = −1 identically, f crosses 1/2 and → 1, f(1) = 0.7 as shot — 5779 check 5 reproduced dynamically
+  [PASS] C2b: no exclusion: phantom, then the WALL (w pole at Ω = 1/2) at a = 0.47481488900799407
+  [PASS] C2c: rule-R normalization: the WALL at a = 0.5175430046655215 (Lyra 09-25: 4 ln2 > 1, dynamically)
+  [PASS] C2d: quotient / events at the ledger's slope 2 do not give −1 (w_late +0.333, +0.333): K1922 and Condition A in the engine
+
+R1 — the radiation perturbation of the exclusion fork (NEW; can fail either way). Or = 1e-4; scan the one free number.
+     Algebra: the pole at Ω = 1/2 is removable iff s_N = 3 + 2Ω_r there; the exclusion source gives 3. In the radiation era
+     s_N = 6(1−f) = d ln N_H/dx = 4 at f = 1/3: a TRACKER (constant Ω_DE = 1/3, w = 1/3) exists while radiation dominates.
+     Prediction (Elie, before the scan): no Ω(a0) reaches f(1) = 0.7 with w = −1; the count is either captured by the
+     f = 1/3 tracker (early dark energy at 1/3 — dead by BBN/CMB in any real census) or pinned below 1/2 in the matter era.
+     Ω(a0) = e^-52: max f (a < 3e-3) = 0.0000  max f = 0.0000  f(1) = 0.0000  w(late) = -0.99992  wall None
+     Ω(a0) = e^-48: max f (a < 3e-3) = 0.0000  max f = 0.0003  f(1) = 0.0000  w(late) = -0.99992  wall None
+     Ω(a0) = e^-44: max f (a < 3e-3) = 0.0000  max f = 0.0147  f(1) = 0.0002  w(late) = -0.99992  wall None
+     Ω(a0) = e^-40: max f (a < 3e-3) = 0.0000  max f = 0.4485  f(1) = 0.0126  w(late) = -0.99988  wall None
+     Ω(a0) = e^-36: max f (a < 3e-3) = 0.0000  max f = 0.5000  f(1) = 0.4096  w(late) = +0.00002  wall None
+     Ω(a0) = e^-32: max f (a < 3e-3) = 0.0000  max f = 0.5000  f(1) = 0.4999  w(late) = +0.00001  wall None
+     Ω(a0) = e^-28: max f (a < 3e-3) = 0.0001  max f = 0.5000  f(1) = 0.4999  w(late) = +0.00001  wall None
+     Ω(a0) = e^-24: max f (a < 3e-3) = 0.0033  max f = 0.5000  f(1) = 0.4999  w(late) = +0.00001  wall None
+     Ω(a0) = e^-20: max f (a < 3e-3) = 0.1512  max f = 0.5000  f(1) = 0.4999  w(late) = +0.00001  wall None
+     any Ω(a0) with f(1) ≥ 0.5 and w(late) = −1: False;  pinned at f = 1/2 with w = 0: 5/9;  near-equality tracker at 1/3 seen: 0/9
+  [PASS] R1: exclusion fork with Or = 1e-4: NO normalization reaches f(1) ≥ 1/2 with w = −1; the ones that climb are PINNED at f = 1/2 with w → 0 (the s_N = 3 = d ln N_H/dx tracker) — 5779's w = −1 is the Or = 0 limit; for Lyra (T2) and Cal
+     (report, not scored) the algebraic radiation-era fixed point f = 1/3 (s_N = 6(1−f) = 4 = d ln N_H/dx) was reached in 0 of these scan rows; an earlier run at Ω(a0) = 2.3e-18 peaked at f = 0.309 — a fixed point of the equations, not a result of this scan
+
+SYNTHETIC census (shape only; numbers meaningless by construction): dA/dx = S (a/a_on)^p for a > a_on
+  forks: 24 = 2 χ × 2 η_γ × 3 composition × 2 N_H (Cal S1035). χ = 1 − f_local is run with f_local := f (a proxy, declared).
+   chi≡1    η=1 events   bits  : O1 d ln N/dx (z≈3–19) =   +4.482 vs T1 need 6; O2 direction wa<0  O3 f(1) = 6.893e-02; wall —
+   chi≡1    η=1 events   ruleR : O1 d ln N/dx (z≈3–19) =   +4.469 vs T1 need 6; O2 direction wa<0  O3 f(1) = 6.548e-02; wall —
+   chi≡1    η=1 capacity bits  : O1 d ln N/dx (z≈3–19) =  +13.513 vs T1 need 6; O2 direction wa<0  O3 f(1) = 7.804e-03; wall —
+   chi≡1    η=1 capacity ruleR : O1 d ln N/dx (z≈3–19) =  +13.513 vs T1 need 6; O2 direction wa<0  O3 f(1) = 7.459e-03; wall —
+   chi≡1    η=1 quotient bits  : O1 d ln N/dx (z≈3–19) =   +4.497 vs T1 need 6; O2 direction wa<0  O3 f(1) = 2.719e-02; wall —
+   chi≡1    η=1 quotient ruleR : O1 d ln N/dx (z≈3–19) =   +4.492 vs T1 need 6; O2 direction wa<0  O3 f(1) = 2.658e-02; wall —
+   chi≡1    η=3 events   bits  : O1 d ln N/dx (z≈3–19) =   +4.497 vs T1 need 6; O2 direction wa<0  O3 f(1) = 2.719e-02; wall —
+   chi≡1    η=3 events   ruleR : O1 d ln N/dx (z≈3–19) =   +4.492 vs T1 need 6; O2 direction wa<0  O3 f(1) = 2.658e-02; wall —
+   chi≡1    η=3 capacity bits  : O1 d ln N/dx (z≈3–19) =  +13.513 vs T1 need 6; O2 direction wa<0  O3 f(1) = 2.997e-04; wall —
+   chi≡1    η=3 capacity ruleR : O1 d ln N/dx (z≈3–19) =  +13.513 vs T1 need 6; O2 direction wa<0  O3 f(1) = 2.991e-04; wall —
+   chi≡1    η=3 quotient bits  : O1 d ln N/dx (z≈3–19) =   +4.502 vs T1 need 6; O2 direction wa<0  O3 f(1) = 9.667e-03; wall —
+   chi≡1    η=3 quotient ruleR : O1 d ln N/dx (z≈3–19) =   +4.500 vs T1 need 6; O2 direction wa<0  O3 f(1) = 9.586e-03; wall —
+   chi=1−f  η=1 events   bits  : O1 d ln N/dx (z≈3–19) =   +4.482 vs T1 need 6; O2 direction wa<0  O3 f(1) = 6.893e-02; wall —
+   chi=1−f  η=1 events   ruleR : O1 d ln N/dx (z≈3–19) =   +4.469 vs T1 need 6; O2 direction wa<0  O3 f(1) = 6.548e-02; wall —
+   chi=1−f  η=1 capacity bits  : O1 d ln N/dx (z≈3–19) =  +13.513 vs T1 need 6; O2 direction wa<0  O3 f(1) = 7.804e-03; wall —
+   chi=1−f  η=1 capacity ruleR : O1 d ln N/dx (z≈3–19) =  +13.513 vs T1 need 6; O2 direction wa<0  O3 f(1) = 7.459e-03; wall —
+   chi=1−f  η=1 quotient bits  : O1 d ln N/dx (z≈3–19) =   +4.497 vs T1 need 6; O2 direction wa<0  O3 f(1) = 2.719e-02; wall —
+   chi=1−f  η=1 quotient ruleR : O1 d ln N/dx (z≈3–19) =   +4.492 vs T1 need 6; O2 direction wa<0  O3 f(1) = 2.658e-02; wall —
+   chi=1−f  η=3 events   bits  : O1 d ln N/dx (z≈3–19) =   +4.497 vs T1 need 6; O2 direction wa<0  O3 f(1) = 2.719e-02; wall —
+   chi=1−f  η=3 events   ruleR : O1 d ln N/dx (z≈3–19) =   +4.492 vs T1 need 6; O2 direction wa<0  O3 f(1) = 2.658e-02; wall —
+   chi=1−f  η=3 capacity bits  : O1 d ln N/dx (z≈3–19) =  +13.513 vs T1 need 6; O2 direction wa<0  O3 f(1) = 2.997e-04; wall —
+   chi=1−f  η=3 capacity ruleR : O1 d ln N/dx (z≈3–19) =  +13.513 vs T1 need 6; O2 direction wa<0  O3 f(1) = 2.991e-04; wall —
+   chi=1−f  η=3 quotient bits  : O1 d ln N/dx (z≈3–19) =   +4.502 vs T1 need 6; O2 direction wa<0  O3 f(1) = 9.667e-03; wall —
+   chi=1−f  η=3 quotient ruleR : O1 d ln N/dx (z≈3–19) =   +4.500 vs T1 need 6; O2 direction wa<0  O3 f(1) = 9.586e-03; wall —
+  NOTE: in this harness χ = 1 − f_local collapses onto χ ≡ 1 (the proxy f_local := f is already the source's exclusion factor); the real χ fork needs Lyra's local f, declared as an input.
+  [PASS] H1: harness runs all 24 forks (0 walls; directions {'wa>0': 0, 'wa<0': 24, 'flat': 0, 'n/a': 0}); SYNTHETIC — nothing here is the sky
+  [PASS] H2: T1 bookkeeping: events slope ≈ p + 3/2 = 4.5 (got +4.48: dA/dx ∝ a^p and V_H ∝ a^{3/2}); capacity ≈ 3× (got +13.51); so N = W needs p = 9/2 from the census — Cal's P5 is a statement about p
+
+SCORE: 11/11  (10 can fail; H1 is a harness check)
