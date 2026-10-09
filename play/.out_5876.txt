@@ -1,0 +1,25 @@
+Part 1 — Lyra's beta_check.py retained at .lyra_beta_check_retained_5876.py; sha256 of the retained text 6685c62babd6a5b8 (her scratchpad sha 531e5e86d3615d79… was of her file; whitespace may differ — the OUTPUT is the comparison)
+     == w(s_N) = (-2*Omega_r + s_N - 3)/(3*(2*f - 1))
+     == Law N∝N_H^2  ⇒ w = [-1]
+     == 2 dlnN_H at w=-1 = 2*Omega_r - 6*f + 6  → beta = 2
+     == source ∝ rho+p (null focusing): s_N = 2*Omega_r - 6*f + 6; beta = 2; w = [-1]
+     == source ∝ rho+3p (timelike focusing): s_N = 6*Omega_r - 6*f + 6; beta = 6; w = [(4*Omega_r - 6*f + 3)/(3*(2*f -
+     == rho_DE ∝ H^( 3 - D ) → constant iff D = 3
+  [PASS] L1: re-run output matches Lyra's appendix line by line (6/6 lines)
+  [PASS] L2: her instrument and my 5874 agree: null ρ+p → β = 2, w = −1; timelike ρ+3p → β = 6
+
+Part 2 — Cal P8: w(z) under N ∝ N_H² (β = 2), machine precision
+     z        w + 1            f
+     100000.0 +3.331e-16   1.233e-10
+     3400     -2.220e-16   5.044e-05
+     1100     +0.000e+00   2.315e-03
+     100      +0.000e+00   7.990e-01
+     10       +0.000e+00   9.997e-01
+     3        +0.000e+00   1.000e+00
+     1        +0.000e+00   1.000e+00
+     0.5      +0.000e+00   1.000e+00
+     0        +0.000e+00   1.000e+00
+  [PASS] P8: max |w + 1| over z ∈ [0, 1e6] = 3.51e-14: w ≡ −1 to machine precision through radiation, matter and DE eras — Cal P8 landed; O3 (the absolute count) is the only informative line left
+     (f(a=1) = 1.0000 — set by the placeholder Ω(a0) = e^-32, NOT a result; O3 is T3's number after Cal's hash)
+
+SCORE: 3/3  (all 3 can fail)

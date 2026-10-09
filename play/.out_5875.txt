@@ -1,0 +1,19 @@
+H1  the physical rotation's angle on the Stokes vector
+     θ → Stokes angle: [(0.1, 0.2), (0.3, 0.6), (0.7, 1.4), (1.0, 2.0), (1.5, 3.0)]  axis = [0. 1. 0.] (the circular-polarization direction)
+  [PASS] H1: a physical rotation by θ about k̂ rotates the Stokes vector by exactly 2θ about the circular axis (Cal P7's premise, computed)
+H2  does T commute with the physical rotation?  ||T R_S(2θ) − R_M(θ) T|| and ||T R_S(2θ) − R_M(2θ) T||
+     θ/π: [0.0, 0.167, 0.333, 0.5, 0.667, 0.833, 1.0, 1.167, 1.333, 1.5, 1.667, 1.833, 2.0]
+     mismatch with θ : [0.0, 0.3925, 0.7582, 1.0722, 1.3132, 1.4647, 1.5164, 1.4647, 1.3132, 1.0722, 0.7582, 0.3925, 0.0]
+     mismatch with 2θ: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  [PASS] H2: T does NOT commute with the physical rotation: T R_S(2θ) ≠ R_M(θ) T for every θ in (0, 2π); equality only at θ = 0, 2π — Cal P7's factor 2 appears
+  [PASS] H3: T R_S(2θ) = R_M(2θ) T for every θ: the Schur map intertwines the physical rotation only through the DOUBLE angle — the spinorial statement
+H4  weights of the rotation-about-k̂ group: Stokes vs g_{e₁}
+  [PASS] H4: weights on Stokes [-2.0, 0.0, 2.0] vs on g_{e₁} [-1.0, 0.0, 1.0]: the only shared weight is 0, so dim Hom_U(1)(Stokes, g_{e₁}) = 1: the ONLY rotation-equivariant linear map sends the circular (helicity) component to k̂ and kills BOTH linear-polarization directions
+  [PASS] H5: the g_{e₁} weights are {0, ±1} for 20 random axes k̂ ∈ {3,4,5}: the mismatch is not an artefact of which direction is called the photon axis
+  [PASS] H6: a 2π physical rotation is the identity on ψ, on Stokes and on g_{e₁}; a π rotation is already the identity on Stokes (2θ = 2π) but NOT on g_{e₁}: the real SO(2) rotation of (E_x, E_y) is an SU(2) element of angle 2θ, so Stokes is the DOUBLE of space, not its spinor — the '4π' belongs to the Jones vector's own phase, not to the Stokes map
+
+  Reading, for Cal and Keeper (no claim beyond the lines above): the Stokes 3 and the tangent 3 are related only by the double cover θ ↦ 2θ.
+  'The K4's three faces are the three spatial directions' fails as an identity of SO(3)-vectors under physical rotations;
+  what survives rotation-equivariantly is ONE direction: helicity ↔ the photon's own axis. The two linear-polarization faces have no spatial image.
+
+SCORE: 6/6  (all 6 can fail; H1 is Cal's premise, computed)
