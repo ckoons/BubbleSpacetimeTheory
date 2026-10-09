@@ -1,0 +1,36 @@
+{
+ "classes": {
+  "21cm_troughs_only": 3.718940122893817e+82,
+  "LyC_photoionizations_pre_z6_MD14": 2.180363415269624e+79,
+  "Lya_absorptions_once_fork_x1_of_LyC": 2.180363415269624e+79,
+  "dust_absorptions_primary_zbar2_Eabs2eV": 1.1069792816846934e+83
+ },
+ "forks": {
+  "21cm_all_neutral_epochs_z<1100": 8.72588842570002e+82,
+  "dust_absorptions": {
+   "zbar=1.0,Eabs=1.0eV": 1.475972375579591e+83,
+   "zbar=1.0,Eabs=3.0eV": 4.9199079185986374e+82,
+   "zbar=2.0,Eabs=1.0eV": 2.213958563369387e+83,
+   "zbar=2.0,Eabs=3.0eV": 7.379861877897957e+82
+  },
+  "COB_all_absorbed_upper": {
+   "E=0.6eV": 1.1353633658304548e+83,
+   "E=1.2eV": 5.676816829152274e+82
+  }
+ },
+ "control": {
+  "xe_eq_1_21cm": 0.0,
+  "xe_eq_1_bound_free_bound_bound_dust": 0.0
+ },
+ "N_census_primary": 1.479309366657129e+83,
+ "N_census_low": 8.641028404907725e+82,
+ "N_census_high": 4.2223468444528974e+83,
+ "classes_share_of_primary": {
+  "21cm_troughs_only": 0.2513970509966888,
+  "LyC_photoionizations_pre_z6_MD14": 0.00014739063135905795,
+  "Lya_absorptions_once_fork_x1_of_LyC": 0.00014739063135905795,
+  "dust_absorptions_primary_zbar2_Eabs2eV": 0.748308167740593
+ },
+ "toy_sha_at_part1": "aa5b3d8b8860bd0e",
+ "N_req": null
+}

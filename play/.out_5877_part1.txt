@@ -1,0 +1,14 @@
+CAMB 1.6.6; recombination model Recfast; YHe = 0.2459 (CAMB's BBN default; MODEL) → X_H = 0.7541
+n_H,0 = 1.893e-07 cm^-3; V_H,0 = 1.085e+79 m^3; hydrogen atoms in V_H,0 = 2.054e+78
+  (1) 21-cm absorptions: troughs only (40–200, 14–21) = 3.719e+82; all neutral epochs z < 1100 = 8.726e+82  [per atom in the troughs: 1.810e+04]
+  (2) Lyα absorptions (once; ×1 of LyC, unpinned ratio) = 2.180e+79;  (3) LyC photo-ionizations pre-z6 (MD14 8/baryon) = 2.180e+79
+  (4) dust absorptions of starlight (CIB energy / <E_abs>; z̄ = 2, 2 eV primary) = 1.107e+83; forks {zbar=1.0,Eabs=1.0eV: 1.48e+83, zbar=1.0,Eabs=3.0eV: 4.92e+82, zbar=2.0,Eabs=1.0eV: 2.21e+83, zbar=2.0,Eabs=3.0eV: 7.38e+82}
+  (5) COB photons (upper fork, all absorbed by today): {E=0.6eV: 1.14e+83, E=1.2eV: 5.68e+82}  — NOT in the primary (they are the escaped light)
+
+  N_census PRIMARY (χ ≡ 1; 21-cm troughs + Lyα once + LyC + dust once) = 1.479e+83   log10 = 83.17
+  fork span: low = 8.641e+82 (log10 82.94), high = 4.222e+83 (log10 83.63): 0.69 decades
+  shares of the primary: {21cm_troughs_only: 0.25, LyC_photoionizations_pre_z6_MD14: 0.00, Lya_absorptions_once_fork_x1_of_LyC: 0.00, dust_absorptions_primary_zbar2_Eabs2eV: 0.75}
+  [PASS] C0: control x_e ≡ 1 ⇒ N_census = 0 (no bound electrons: the 21-cm integrand vanishes; the Lyman and dust classes carry (1 − x_e) = 0)
+
+  census written to .record_5877_census.json (sha256 of this file at part 1: aa5b3d8b8860bd0e); N_req NOT computed or read.
+SCORE (part 1): 1/1  (the control)
