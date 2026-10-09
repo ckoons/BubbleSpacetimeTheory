@@ -1,0 +1,14 @@
+E1  Φ intertwines ALL of M₀ = SO(3)
+  [PASS] E1: Φ(R k̂) = Ad(m(R)) Φ(k̂) for 100 random (R, k̂); Φ is orthogonal — k̂ is a vector, the one direction per commit survives the full SO(3)
+E2  the ℤ₂ of M and the helicity sign
+  [PASS] E2: z fixes k̂ in {3,4,5} and acts as −1 on g_{e₁}: Φ_h(k̂) = h Φ(k̂) is M-equivariant only if z: h ↦ −h. z = (half-turn of the Šilov circle, coords 6,7) × (half-turn on 1,2): the helicity sign IS the circle's orientation
+  [PASS] E2b: the circle half-turn ALONE does not preserve g_{e₁} (relative residual 1.000; 5871 S4: it moves ±e₁ to ±e₂); only its product with the (1,2) half-turn lies in M and acts as −1: the sign flip needs both half-turns
+E3  three commits span g_{e₁} iff det G ≠ 0; the failure set has measure zero
+     P(|det G| < ε): {0.1: 0.44618, 0.01: 0.15207, 0.001: 0.04958, 0.0001: 0.01579};  log-slope ≈ 0.49 (det G = (triple product)² ⇒ P ∝ √ε: slope 1/2)
+  [PASS] E3: det G = (k̂₁·k̂₂×k̂₃)² and rank Φ(k̂₁..₃) = 3 ⟺ det G ≠ 0 (200 triples); P(|det G| < ε) ∝ ε^{1/2} → 0: coplanar triples are measure zero (codimension one in the triple product)
+E4  helicity signs: span unchanged, orientation flips with an odd number of signs
+  [PASS] E4: signed frames h_i Φ(k̂_i): |det| unchanged (same span), sign(det) multiplied by Π h_i — the triple's orientation (KL3's read-order sign) rides on the helicities, not on the axes
+E5  parameter count for colour-from-axes (Lyra item 3; a count, not a claim)
+  [PASS] E5: three real axes → a real frame of g_{e₁} (an SO(3) element after Gram–Schmidt: 3 parameters); a unitary frame of g_{e₁}⊗ℂ = ℂ³ has 8 (SU(3)), 9 with the det phase (U(3)): the axes alone reach SO(3) ⊂ SU(3); the missing 5 (6) real parameters are relative phases between the three commits — the Bargmann/record phases, not axes
+
+SCORE: 6/6  (all 6 can fail)
