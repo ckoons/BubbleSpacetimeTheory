@@ -2,6 +2,8 @@
 
 **Status at issue (K1957):** T3 MISSED by 39.2 decades, blind and clean: one K4 per atomic absorption is not Λ's count. The half-angle test killed "three faces = three directions"; what survives is ONE direction per commit (helicity ↔ the photon's axis), one bit, the circle's sign, and relative phases. k = 2 is the law's one input (Λ by identity). Coleman–Mandula answered as act vs record at tier C. **Keeper leaked one menu item's order before any hash (K1957 Section 5) and is excluded from designing this round's menu, rule and null.**
 
+**AMENDED 15:34 (Casey: "Go ahead and design the process … It's not wrong if you build the test honestly"):** the "Keeper excluded" clause is lifted. **H-AREA's pre-registration is `notes/Keeper_K1958_PREREG_H_AREA_*` — read it FIRST; it supersedes this prompt's H-AREA section** (three mechanism classes, the full 11-row menu, the B1/B2 binder fork, the null, the credit rule). **Lyra reads K1958 Sections 1–3 only (not Section 4) before writing her paragraphs.** Lanes, cages and Casey's questions below stand.
+
 Casey's instruction stands: **be creative and optimistic, don't gate, investigate; reconnect to the corpus; linear algebra on D_IV⁵.** Both of today's negatives point at the same question, and it is a good one: **what does one commit WRITE, and how much boundary does it occupy?**
 
 **Rules:** `date` as its own step; `didwe` before a lane; Cal hashes before any number; enumerate inputs; `/toy claim`; commit by path; can-fail count. **EOD not before 17:00, on Casey's word.** This round is ~90 minutes: one hashed hypothesis, one linear-algebra instrument, one paragraph each.
