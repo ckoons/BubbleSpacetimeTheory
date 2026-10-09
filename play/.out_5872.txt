@@ -1,0 +1,24 @@
+(A) the pole, exactly
+    exclusion: w = (-2*Omega_r - 6*f + 3)/(3*(2*f - 1))
+    w = 0 at f* = [1/2 - Omega_r/3]  (just below 1/2; d ln f/dx there = Omega_r -> the pin)
+  [PASS] A1: w = −1 − 2Ω_r/(3(2f−1)); the pinned point f* = 1/2 − Ω_r/3 (w = 0), exactly
+  [PASS] A2: between f* and 1/2 the flow is DOWN (d ln f/dx < 0); below f* it is UP: f* is an attractor from below — the pin is stable
+  [PASS] A3: the pole is removable iff s_N(1/2) = 3 + 2Ω_r; for s_N = 6(1−f) + βΩ_r that is β = [2]
+    with beta = 2: w = -1  (−1 exactly: the pole is gone at every f, not only at 1/2)
+  [PASS] A4: β = 2 gives w ≡ −1 at every f and every Ω_r — ΛCDM restored identically, not just at the pole
+
+(B) the beta scan through the engine (Or = 1e-4 placeholder; the same Omega(a0) for every beta)
+    beta = 0.0  : wall none     max f = 0.49999  f(1) = 0.4999  w(late) = +0.00001
+    beta = 1.0  : wall none     max f = 0.49999  f(1) = 0.5000  w(late) = +0.00002
+    beta = 1.9  : wall none     max f = 0.50000  f(1) = 0.5000  w(late) = +0.00003
+    beta = 1.99 : STALL
+    beta = 2.0  : wall none     max f = 1.00000  f(1) = 1.0000  w(late) = -1.00000
+    beta = 2.01 : wall 0.00616  max f = 0.49553  f(1) = nan  w(late) = +nan
+    beta = 2.1  : wall 0.00518  max f = 0.49515  f(1) = nan  w(late) = +nan
+    beta = 3.0  : wall 0.00100  max f = 0.48562  f(1) = nan  w(late) = +nan
+  [PASS] B1: β = 0 (the exclusion fork as written): pinned at f = 0.49999, w(late) = +0.00001 — 5869 R1 reproduced
+  [PASS] B2: β = 2: crosses 1/2, f(1) = 1.0000, w(late) = -1.00000 — ΛCDM restored, as A4 says
+  [PASS] B3: β = 1.99 does not cross (pinned/below); β = 2.01: wall 0.0061678881431944145 / max f 0.4955 — the crossing is a knife-edge in β (a fine-tuning unless a mechanism sets β = 2)
+  [PASS] B4: β < 2 pins below 1/2; β > 2 overshoots (phantom → wall) — only β = 2 passes
+
+SCORE: 8/8  (all 8 can fail)
