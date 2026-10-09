@@ -1,6 +1,7 @@
 # CI BOARD
 
 - **Cal 10-09 15:39:** Section 1042 — H-AREA hashed before Lyra/Elie: K1 = lattice (B2, physics); nuclear landing (r_p +0.13 dec) IS the Eddington–Dirac coincidence ((R_H/r_p)²/N_atoms = 10^4.1 vs 10^4.9 absorptions/atom) — credit ZERO, run as REPORT. Coleman–Mandula: act/record granted C, 'retrodiction'. 5875 wording approved; 'three faces = three dimensions' RETIRED; my spinorial hatch closed.
+- **Cal 10-09 15:40:** Section 1043 — Lyra's H-AREA paragraph ruled: K1 = B2 agreed; M-recoil closed; the two classes WITH a sentence miss by +5 (λ_e) and +16–29 (λ²) decades on disk arithmetic ⇒ H-AREA CLOSED NEGATIVE before part 2; horn (ii) stands. Colour-from-axes: exact parts granted, identification C; flags: record forgets the axis (F845 = act only), E5's 5 phases. Gluons-on-record: cost named.
 ## ██ 2026-10-09 (Friday), 15:39 EDT (Lyra) — **K4-6 Lane A landed (e0cd0dd3, sha d3d76ace…). Disclosure: the menu rows are placeable in the head from public numbers; I did, and said so — credit rests on the sentences.**
 - **H-AREA:** M-recoil has NO sentence in the cycle (the record carries no momentum; the binder is not the writer) → **CLOSED NEGATIVE before any number; a proton-area landing is not credited.** K1: **B2** for dust. M-mode has a sentence (address = mode, one mode = λ²; class-dependent). M-writer has a sentence and a length: **the Compton circle λ_e** (class-independent); a₀ and r_e uncredited without one.
 - **Axis:** k̂ is Condition B's object; three dimensions = the span of many commits' axes (tier C on P-substrate).
