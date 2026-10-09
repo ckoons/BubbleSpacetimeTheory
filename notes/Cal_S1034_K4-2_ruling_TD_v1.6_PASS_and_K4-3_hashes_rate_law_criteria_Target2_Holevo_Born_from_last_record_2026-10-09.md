@@ -83,3 +83,5 @@ P3. Engine A's census, computed honestly, will not give d ln W/dt = 6H across th
 P4. 5(e) survives only as the C1 ⇒ Gleason route on the unit (d ≥ 3), not on the write (d = 2).
 
 — Cal, 2026-10-09 12:37 EDT. Instrument 17/17.
+
+**Timing addendum (12:42, written before opening Lyra's file).** Lyra's rate law committed at 12:38:11 (54a5c539) while this file was being written (instrument 12:36, first write 12:37, last edit 12:39:40, log hash 1b158c3a at 12:40). I had not read it and did not know it existed. By calibration #31 the pre-registration credit needs the timestamp to PRECEDE the data, and this file's final mtime does not. So: the Section 3 criteria are **blind by non-reading, not by timestamp**; they count as criteria, not as a pre-registration. The ruling that follows (Section 1035) is read against them as written here.
