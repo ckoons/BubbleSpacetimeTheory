@@ -1,0 +1,222 @@
+SOURCE URL: http://www.pit-contents.iitp.ru/3-73-abstracts.html  (retrieved 2026-10-09; HTML tags stripped; &#150;/&#151; rendered as en/em dash)
+
+
+
+PPI no. 3, 1973
+
+PROBLEMS OF INFORMATION TRANSMISSION
+
+A translation of Problemy Peredachi Informatsii
+
+Volume 9, Number 3, July–September, 1973
+
+Back to contents page 
+
+CONTENTS                   
+
+ 
+
+ Bounds for the Quantity of Information
+Transmitted by a Quantum Communication Channel
+
+ A. S. Holevo
+
+ pp. 177–183
+
+Abstract—Certain bounds are derived for the quantity of information
+transmitted by a quantum channel. It is proved that if at least two of the set of
+density operators $\rho_0,\ldots,\rho_n$ do not commute, then $J(\pi)<\mathcal
+H\bigl(\sum\limits_\alpha\pi_\alpha\rho_\alpha\bigr)
+-\sum\limits_\alpha\pi_\alpha\mathcal H(\rho_\alpha)$, where $J(\pi)$ is the upper
+bound of the quantity of information with respect to all generalized measurements at
+the channel output for a fixed distribution $\pi=(\pi_0,\ldots,\pi_n)$ at the input.
+A sharper upper bound for $J(\pi)$ is explicitly stated.
+
+ 
+
+ Nonanticipatory and Prognostic Epsilon
+Entropies and Message Generation Rates
+
+ A. K. Gorbunov and M. S. Pinsker
+
+ pp. 184–191
+
+Abstract—The concepts of the nonanticipatory and prognostic
+epsilon entropies of a message and message generation rates of a source are
+defined, and their properties are investigated.
+
+ 
+
+ Discrimination of Random Fields against
+Background Noise
+
+ A. G. Ramm
+
+ pp. 192–202
+
+Abstract—Statistical inference theory is applied to the
+discrimination problem for random fields. The integral equation to which the
+problem is reduced is subjected to an analytical investigation.
+
+ 
+
+ Discrete Representation of Signals with
+an Unbounded Generalized Spectrum
+
+ V. A. Medvedev, B. I. Oleinikov, B. M. Stepanov, and V. N. Filinov
+
+ pp. 203–208
+
+Abstract—A theorem is formulated and proved, making possible
+the discrete representation of signals with an unbounded generalized spectrum
+and the same spectral properties as real signals. This general result is used
+to derive an exact expression and error estimates for the model of a signal
+with a bounded generalized spectrum.
+
+ 
+
+ Optimum Estimation in Quantum Channels
+by the Generalized Heisenberg Inequality Method
+
+ V. P. Belavkin and B. A. Grishanin
+
+ pp. 209–215
+
+Abstract—The optimization of indirect quantum measurement at
+the output of a quantum channel is investigated for a quadratic figure of
+merit. A lower bound compatible with the Heisenberg uncertainty principle is
+found for the estimation risk. This lower bound is used in the Gaussian case
+to establish the linearity of optimum estimation and to give a specific
+description of an appropriate optimum indirect measurement procedure.
+
+ 
+
+ Information-Theoretic Inequalities and
+Superefficient Estimates
+
+ I. A. Ibragimov and R. Z. Khas'minskii
+
+ pp. 216–227
+
+Abstract—It is proved that superefficient estimates for a
+matrix loss function do not exist in the class of estimates uniformly at
+least asymptotically efficient. An analogous result is established for
+sequential estimates. Integral asymptotic bounds for the estimation risks are
+also obtained for a large class of loss functions and a priori distribution
+functions.
+
+ 
+
+ Optimum Linear Estimates for the
+Regression Coefficients of Isotropic Random Fields
+
+ M. I. Yadrenko
+
+ pp. 228–237
+
+Abstract—Isotropic random fields (fields whose correlation
+functions are invariant under rotations about a fixed point) are discussed.
+Linear unbiased estimates optimum in the sense of minimizing the mean-square
+error are given for the regression coefficients when the random field is
+observed on a sphere. It turns out, in particular, that the optimum unbiased
+estimate of an unknown expectation coincides with the average over the
+sphere. Optimum nonlinear estimates for random regression coefficients are
+investigated.
+
+ 
+
+ Application of a Generalized Poisson
+Flow to the Investigation of Reliability-Improvement Methods
+
+ B. E. Aksenov, A. M. Aleksandrov, and A. N. Bakanov
+
+ pp. 238–242
+
+Abstract—The feasibility of using a generalized Poisson flow
+to investigate reliability-improvement methods is discussed.
+
+ 
+
+ Synchronization of a Rectangular Array
+of Automata
+
+ E. I. Petrov
+
+ pp. 243–249
+
+Abstract—Variants of the synchronization problem are discussed for a
+rectangular array of homogeneous automata. It is shown that the synchronization
+problem for an $n\times m$ array reduces to the synchronization problem for a line of
+$n+m-1$ automata [E.F. Moore, Sequential Machines, Addison-Wesley,
+Reading, Mass., 1964, pp. 212–214; V.I. Levenshtein, Probl.
+Peredachi Inf., 1965, vol. 1, no. 4, pp. 20–32]. An
+expression is derived for the minimum synchronization time after the delivery of a
+starting signal to an arbitrary automaton in the array. It is remarked that with
+respect to the synchronization time the result of [V.I. Varshavskii,
+V.B. Marakhovskii, and V.A. Peschanskii, Probl. Peredachi Inf.,
+1968, vol. 4, no. 3, pp. 73–83] is a special case of the problem
+treated here. Each automaton of the array except the corner members has 19 states;
+the corner automata have 23 states each.
+
+ 
+
+ Symmetric Games for Large Aggregates of
+Probabilistic Automata
+
+ B. G. Sushkov
+
+ pp. 250–253
+
+Abstract—Equations are proposed for the approximate
+description of a system of interacting automata in which the transition
+probability of an automaton from one state to another is a symmetric function
+of the states of all the automata. It is proved that the solution of the
+approximate equations converges to the exact solution as the number of
+automata is increased without bound.
+
+ 
+
+ Information Storage in a Memory
+Assembled from Unreliable Components
+
+ A. V. Kuznetsov
+
+ pp. 254–264
+
+Abstract—Storage devices with a correcting block of adders
+modulo 2 and threshold elements for the correction of random errors in the
+memory cells are discussed. It is assumed that all the logic elements of the
+correcting block, as well as the memory cells, are liable to random errors.
+The existence of storage devices in which a finite number of 1-bit
+information storage elements is used and for which the storage error
+probability tends exponentially to zero as the length of the code words is
+increased for a fixed relative storage capacity is proved.
+
+ 
+
+ Universal Sequential Search Problems
+
+ L. A. Levin
+
+ pp. 265–266
+
+Abstract—Several well-known large-scale problems of the
+“sequential search” type are discussed, and it is proved that those
+problems can be solved only in the time that it takes to solve any problems
+of the indicated type, in general.
+
+ 
+
+ A New Class of Pseudorandom Sequences
+of Binary Signals
+
+ K. A. Meshkovskii
+
+ pp. 267–269
+
+Abstract—A particular pseudorandom sequence of Hall binary
+signals is used as the basis for the formation of a class of such
+sequences.
+
+ 
+

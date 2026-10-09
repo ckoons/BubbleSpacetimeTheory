@@ -1,0 +1,1013 @@
+                                                                                                                                               Alberta Thy 12-04
+                                                                                                                                                 BNL-HET-04/7
+                                                                                                                                               NYU-TH/04-06-25
+
+                                                                  Precision Measurements and CKM Unitarity
+                                                                                           Andrzej Czarnecki
+                                                                            Department of Physics, University of Alberta
+                                                                                 Edmonton, AB, Canada T6G 2J1
+
+                                                                                        William J. Marciano
+                                                                   Brookhaven National Laboratory, Upton, NY 11973, USA and
+                                                   Institut für Theoretische Teilchenphysik, Universität Karlsruhe, D–76128 Karlsruhe, Germany
+
+
+
+
+arXiv:hep-ph/0406324v2 14 Oct 2004
+                                                                                             Alberto Sirlin
+                                                                           Department of Physics, New York University,
+                                                                      4 Washington Place, New York, NY 100003, USA and
+                                                                     II. Institut für Theoretische Physik, Universität Hamburg,
+                                                                         Luruper Chaussee 149, 22761 Hamburg, Germany
+
+                                                    Determinations of |Vud | and |Vus | along with their implications for the unitarity test |Vud |2 +
+                                                  |Vus |2 + |Vub |2 = 1 are discussed. The leading two loop radiative corrections to neutron β-decay
+                                                  are evaluated and used to derive a refined relationship |Vud |2 τn (1 + 3gA2
+                                                                                                                               ) = 4908(4)sec. Em-
+                                                  ploying |Vud | = 0.9740(5) from superallowed nuclear decays and the measured neutron lifetime
+                                                  τn = 885.7(7)sec, leads to the precise prediction gA = 1.2703(8) which is compared with current
+                                                  direct experimental values. Various extractions of |Vus | are described and updated. The long ac-
+                                                  cepted Particle Data Group value of |Vus | from fitted Ke3 decay rates suggests a deviation from
+                                                  CKM unitarity but it is contradicted by more recent experimental results which confirm unitarity
+                                                  with good precision. An outlook for possible future advances is given.
+
+                                                  PACS numbers: 12.15.Hh,14.20.Dh,13.20.Eb
+
+
+
+                                                                                      I.     INTRODUCTION
+
+                                        The study of nuclear beta decays played an important historical role in unveiling universal properties of weak charged
+                                     current interactions and in helping to establish the SU (2)L × U (1)Y Standard Model of electroweak unification. In
+                                     the limit of neglecting electroweak loop corrections, a special subset of such decays, the superallowed 0+ → 0+
+                                     Fermi transitions, depend only on the vector current which is conserved and, therefore, not renormalized by strong
+                                     interactions at q 2 ≃ 0. Hence, they are ideal for extracting |Vud |, a cornerstone of the CKM (Cabibbo-Kobayashi-
+                                     Maskawa [1, 2]) three generation quark mixing matrix,
+                                                                                                          
+                                                                                            Vud Vus Vub
+                                                                                 VCKM =  Vcd Vcs Vcb  .                                                  (1)
+                                                                                            Vtd Vts Vtb
+
+                                     Indeed, those decays currently provide the very precise determination [3]
+
+                                                                           |Vud | = 0.9740(5)      (0+ → 0+ β-decays),                                       (2)
+
+                                     which we will discuss later in this paper. Combining the value in eq. (2) with knowledge about |Vus | from kaon and
+                                                                                   2
+                                     Hyperon decays along with the fact that |Vub | ≃ 2.1(3) · 10−5 [4] is negligibly small, allows one to confront the CKM
+                                     unitarity relation,
+
+                                                                                   |Vud |2 + |Vus |2 + |Vub |2 = 1,                                          (3)
+
+                                     at a high precision level.
+                                       That prediction has been tested to about ±0.15%, an impressive accomplishment. At that level, it has confirmed
+                                                                                                                                    2
+                                     the presence of very large, ∼ 4%, Standard Model loop corrections in the extraction of |Vud | from the data [5, 6].
+                                     However, for many years, a small deviation, ∼ 2σ, from exact unitarity has been persistently observed. That issue has
+                                     been further clouded by various distinct |Vus | determinations which seem to be inconsistent with one another. These
+                                                                                                                        2
+
+problems are addressed later in some detail, when new Ke3 results fully consistent with unitarity are also discussed.
+Of course, if a real deviation from unitarity expectations is seen, it signals the presence of as yet unaccounted for new
+physics beyond the Standard Model, an exciting prospect. Alternatively, if unitarity is respected, constraints on new
+physics can be implied. However, |Vud | and |Vus | must be thoroughly scrutinized both theoretically and experimentally
+before conclusions are drawn.
+   Neutron beta decay, n → pe− ν e , has not until recently been prominent in efforts to determine |Vud | and test
+unitarity. It depends on both vector and axial-vector charged current interactions. The latter are renormalized by
+strong interactions at q 2 ≃ 0. The size of that effect is parameterized by gA ≡ GA /GV , a fundamental quantity in its
+own right. Indeed, the value of gA , which has grown over time from about 1.23 to 1.27, is important for predicting
+the expected solar neutrino flux [7], light element abundances from primordial nucleosynthesis [8], the spin content of
+nucleons [9, 10] and for testing the Goldberger-Treiman relation [11]. A byproduct of the analysis in this paper will
+be to provide a very precise determination of gA that can be compared with more direct neutron decay asymmetry
+measurements of that important parameter or to refine the above mentioned applications.
+   As new more intense neutron facilities turn on, experimental measurements of both the neutron lifetime τn and gA
+from the electron asymmetry in polarized neutron beta decay are expected to become much more precise [12]. Indeed,
+combining determinations of those two quantities, can yield |Vud | with an anticipated uncertainty competitive with
+the error in eq. (2), i.e. dominated by theory. In preparation for those improvements, we present in this paper a
+relationship among |Vud |, τn and gA which includes one and some dominant two loop quantum corrections. It can be
+used to determine gA from τn and the |Vud | input from superallowed nuclear β-decays or as an independent measure
+of |Vud | using τn and neutron decay asymmetry determinations of gA .
+   Our plan is as follows: in section II, we update the radiative corrections to neutron decay by incorporating the
+O α2 effects due to leading logs, (some) small next-to-leading logs and Coulombic effects. The last of these has
+been considered previously, but with the wrong sign. We take this opportunity to correct that longstanding error. In
+section III, we review and update (slightly) the extraction of |Vud | from superallowed β-decays. Using that value of
+|Vud | along with the neutron lifetime τn we derive in section IV a very precise prediction for gA and compare it with
+direct asymmetry measurements of that parameter. Then, in section V, we review and update various determinations
+of |Vus | and point out inconsistencies among them. The main problem stems from old Ke3 decay rates obtained from
+fitted PDG studies and is suggestive of errors in some longstanding (accepted) kaon decay properties. Indeed, recent
+Ke3 results from Brookhaven and Fermilab experiments confirm significant errors in the old charged and neutral kaon
+decay branching ratios and lead to values of |Vus | fully consistent with unitarity. Implications of a unitarity violation
+or confirmation in eq. (3) are briefly discussed and an outlook for future advances is given in section VI.
+
+
+                          II.   RADIATIVE CORRECTIONS TO NEUTRON DECAY
+
+   Our analysis of the radiative corrections to neutron beta decay builds on the results of earlier studies, particularly
+the classic work by Wilkinson [13]. They included O(α) radiative corrections as well as effects due to the final state
+electromagnetic ep interaction embodied in the Fermi function. A number of other small corrections from proton
+recoil, finite nucleon size etc. have also been examined [14, 15, 16].
+   In the Standard Model, one renormalizes the beta decay amplitude using [17, 18, 19, 20, 21, 22]
+                                           Gµ = 1.16637(1) · 10−5 GeV−2 ,                                             (4)
+the Fermi constant as obtained from the muon total decay rate (inverse lifetime). In that way, ultraviolet divergences as
+well as radiative corrections common to both decay amplitudes are absorbed into Gµ . The remaining loop differences
+and bremsstrahlung effects can then be factorized into an overall 1+RC correction to the neutron lifetime, τn
+                                                     2
+                                       1   G2µ |Vud | 5         2
+                                                                  
+                                         =             me 1 + 3gA   (1 + RC) f,                                       (5)
+                                      τn      2π 3
+where f is a phase space factor,
+                                                     f = 1.6887,                                                      (6)
+which includes a relatively large Fermi function contribution [13] (∼ 5.6%) as well as smaller nucleon mass, size and
+recoil corrections. It has been somewhat updated in eq. (6) to incorporate slight nucleon mass shifts.
+  We note that the electroweak radiative corrections, denoted by 1+RC, have been factorized in the same way for
+both the vector and axial-vector contributions. (Interference and induced coupling corrections are negligibly small in
+the case of the lifetime [13, 14].) That factorization effectively defines gA via the relative normalization of the axial-
+vector current as measured by the lifetime (it incorporates QED as well as strong interaction effects in its definition).
+                                                                                                                      3
+
+                                                                                             asy
+Employing such a definition for gA means that there will be some O(α) corrections to the gA      measured in neutron
+decay asymmetries that must be applied before contact with eq. (5) can be made at a level of high precision. (Those
+corrections will be discussed in section IV.) In this connection, it is worthwhile to note that the normalization of
+gA in eq. (5) is consistent with the so-called 1/k method, in which the radiative corrections to various observables
+in β-decay, such as the lifetime, the electron spectrum, and the longitudinal electron polarization are expressed in
+terms of effective couplings GV and GA [23, 24, 25, 26]. The same approach has been employed to calculate the
+corrections to the electron asymmetry [27, 28, 29, 30, 31]. The factorization of the short distance contributions of
+the radiative corrections, implicit in eq. (5), conforms also with an asymptotic theorem concerning their behavior in
+arbitrary semileptonic decays mediated by W ± [32].
+  To order α, the radiative corrections in eq. (5) are given by [5, 6, 33, 34]
+                                                                                 
+                                        α                  mZ       mp
+                                RC =         g(Em ) + 4 ln     + ln     + 2C + Ag ,                               (7)
+                                        2π                 mp       mA
+
+where g(Em ) represents long distance loop corrections and bremsstrahlung effects averaged over the β-decay spectrum
+[23] (Em = 1.292579 MeV, the end-point electron energy in neutron decay),
+                                               α
+                                                  g(Em ) = 0.015056.                                                (8)
+                                               2π
+The other parameters in that expression have the values
+
+                                                mZ = 91.1875 GeV,
+                                                mp = 0.9383 GeV,
+                                                mA ≃ 1.2 GeV,
+                                                 C ≃ 0.891,
+                                                Ag ≃ −0.34.                                                         (9)
+
+Here, following [3, 26, 35], we have approximately identified mA with the mass of the a1 (1260) axial vector meson.
+The value of C is an update of the calculation discussed in Ref. [33] (using gA = 1.27 for self consistency). This leads
+to a first order result
+
+                                               RC (O(α)) = 0.03770,                                                (10)
+
+which is rather sizeable. (Together with the Fermi function, such (primarily) QED corrections increase the neutron
+decay rate by 9.37%!)
+   Given the magnitude of the order α corrections in eq. (10) and our desire for high precision, it becomes imperative
+to include the leading O α2 contributions and estimate the theoretical uncertainty in the radiative corrections.
+Regarding the latter issue, the overall uncertainty is usually obtained by allowing mA in eq. (7) to vary by a factor
+of 2 up or down. That reflects the fact that the last 3 terms in eq. (7) result from axial-vector current loop effects
+and their calculation is not perfectly matched in going from long to short-distance contributions. The scale, mA ,
+uncertainty reflects the matching error in a rough, but numerically realistic, way. With that methodology, the
+theoretical uncertainty is estimated to be
+
+                                           RC (uncertainty) = ±0.0008,                                             (11)
+
+an error common to all neutron and nuclear β-decay studies. Reducing that dominant theory matching error would
+be very useful, but it is extremely challenging and beyond the scope of this paper.
+                                                                                                                   m
+  Our focus in this section is to include the so called leading log corrections of the form αn lnn m Z
+                                                                                                       and αn lnn 2Epm ,
+                                                                                                  mp       
+n = 2, 3, . . . in eq. (7) along with some of the other potentially most important O α2 ln m  mp
+                                                                                                Z
+                                                                                                     and O α2 effects.
+Regarding the last of those, there is a relatively important Coulomb correction not included in the product of the
+                                         α
+Fermi function and 1+RC. It is called 2π   δ in the literature and approximated by (see Appendix)
+                                        α             mp
+                                           δ ≃ −α2 ln    + . . . = −0.00043.                                       (12)
+                                        2π            me
+Although considered previously, for some reason it was given the wrong sign. Correcting the value +0.0004 used in
+the past to eq. (12) corresponds to a −0.00083 shift which is quite significant at the level of our analysis.
+                                                                                                                      4
+
+ In the Appendix, we give formulas that sum the leading log contributions in eq. (7) via the method in ref. [33].
+They lead to the replacements
+                                         2α mZ
+                                      1+     ln    → S(mp , mZ ) = 1.02248,
+                                          π     mp
+                                        3α      mp
+                                     1+     ln     → L(2Em , mp ) = 1.02094.                                       (13)
+                                        2π 2Em
+                      m
+where the large 3α       p                                 α
+                 2π ln 2Em contribution is hidden in the 2π g(Em ) function of eq. (7) [23].
+                                                                                                          mp
+   Our final new input is to estimate next-to-leading log (NLL) corrections of the form α2 ln m       2
+                                                                                              mp and α ln mf coming
+                                                                                                Z
+
+
+from fermion vacuum polarization insertions in loops with photon propagators. Because they all enter with the same
+sign and there are quite a few leptons and quarks that contribute, one might expect those fermion loops to dominate
+the NLL contribution. However, as illustrated in the Appendix, they turn out to be quite small in the MS formalism
+we employ. We estimate
+                                                   NLL = −0.0001.                                                   (14)
+                                                                                                       
+Other O α2 contributions are not expected to be significant, but a complete calculation to O α2 would be very
+difficult and beyond the scope of this paper. Also, such a refined calculation is not obviously warranted until the one
+loop matching uncertainty in eq. (11) is significantly reduced.
+   Our next step is to organize the radiative corrections into a factorized form that does not induce spurious contribu-
+tions when multiplied out. To accomplish that end, we take an effective field theory approach, dividing contributions
+into very long distance (the Fermi function), long distance, intermediate distance, and short distance factors. Of
+                                                                                                                α
+course, we must make certain that the matching is done correctly, for example by introducing terms such as 2π     δ (see
+eq. (12)) when appropriate. Overall, we employ the following factorization beyond the Fermi function
+                                                                       
+                                                α                    mp
+                              1 + RC = 1 +           g(Em ) − 3 ln
+                                                2π                  2Em
+                                           h                α        α i
+                                          · L(2Em , mp ) + C +         δ
+                                                           π      2π                  
+                                                           α(mp )        mp
+                                          · S(mp , mZ ) +            ln     + Ag + NLL ,                            (15)
+                                                             2π         mA
+where α(mp ) ≃ 1/134. Employing the values we have given above for the quantities in eq. (15), one finds
+                                                1 + RC = 1.0390(8),                                              (16)
+                                                                                                               
+where the uncertainty in eq. (11) has been employed. Comparing eqs. (16) and (10), one sees that the O α2 and
+summation effects have increased the RC by 0.0013, not a very large shift. Nevertheless, they must be included in
+precision studies. In summary, our updated analysis includes the following two-loop, O α2 contributions: 1) Leading
+Logs, 2) Next-To-Leading Logs from fermion vacuum polarization effects and 3) Coulombic matching corrections due
+to the factorization of the Fermi function. Other neglected two-loop corrections are not enhanced by relatively large
+factors and thus assumed to be negligible.
+  Employing eq. (16) in eq. (5), we derive the relationship
+                                                         
+                                         |Vud |2 1 + 3gA
+                                                       2
+                                                           τn = 4908 ± 4 sec.                                    (17)
+That master formula can be used to extract |Vud | via
+                                                                 1/2
+                                                      4908(4) sec
+                                         |Vud | =              2)      ,                                           (18)
+                                                     τn (1 + 3gA
+as τn and gA become more precise or to obtain gA from τn and |Vud |. Currently, one finds from the experimental
+averages
+                                                 τnave = 885.7(7) sec                                              (19)
+                                                   ave
+                                                 gA    = 1.2720(18),                                               (20)
+the CKM parameter
+                                              |Vud | = 0.9729(4)(11)(4),                                           (21)
+                                                                                                                       5
+
+where the errors correspond to τn , gA and RC respectively. In section III, we compare that value with the more precise
+|Vud | obtained from superallowed beta decays. Of course, the full utility of eq. (18) will be much better realized as τn
+and gA measurements improve.
+  The master formula in eq. (17) can also be used to extract a very precise value of gA via
+                                                   "                          #1/2
+                                                       1636(1) sec        1
+                                            gA =                    2   −            .                              (22)
+                                                        τn |Vud |         3
+
+Note that the theory uncertainty (±1 sec) in eq. (22) is due to the mA scale uncertainty in the radiative corrections
+and it cancels with the same error in determinations of |Vud |2 from nuclear decays. The formula in eq. (22) will be
+utilized in section IV.
+
+
+                                 III.   SUPERALLOWED β-DECAYS AND |Vud |
+
+   Superallowed 0+ → 0+ Fermi transitions have been the focus of many studies, both experimentally and theoretically.
+Here, we start with the recent results of Towner and Hardy [36]. They have thoroughly scrutinized the nine very
+well measured superallowed β-decays, using RC last updated in ref. [35, 37, 38], and taking great care to correct
+for various nuclear Coulombic and structure dependent effects. In the end, they arrive at F t values that are nucleus
+independent and can be used to extract |Vud |, modulo uncertainties in the radiative corrections. The Z independence
+of their results is an important consistency check, since the daughter nuclei have Z values ranging from 5 to 26 with
+correspondingly different Coulomb and structure corrections.
+   In Table I, we give the (slightly) updated values of |Vud | obtained from the nine best measured superallowed β-
+decays, incorporating the isospin symmetry-breaking and structure dependent corrections δC and δN S used by Towner
+and Hardy, in conjunction with our new factorization scheme for the radiative corrections in eq. (15) (changing Em
+and δ in that expression as appropriate for each nucleus). Specifically, we include the corrections δN S in the second
+factor of eq. (15) and append an additional factor (1 − δC ).
+
+
+TABLE I: The values of |Vud | obtained from superallowed beta-decays. The error given does not include nuclear and theory
+uncertainties common to the analysis. It is taken from ref. [36] and used to obtain the weighted average.
+                                            Nucleus                     |Vud |
+                                            10
+                                               C                        0.97388(76)
+                                            14
+                                               O                        0.97445(41)
+                                            26
+                                               Al                       0.97416(35)
+                                            34
+                                               Cl                       0.97431(40)
+                                            38
+                                               K                        0.97424(43)
+                                            42
+                                               Sc                       0.97351(38)
+                                            46
+                                               V                        0.97372(43)
+                                            50
+                                               Mn                       0.97396(44)
+                                            54
+                                               Co                       0.97409(43)
+
+  The values of |Vud | derived from those distinct measurements are very consistent with one another and range from
+about 0.9735 to 0.9745. The weighted average is centered at |Vud | = 0.974047; so, we round down to
+
+                                               |Vud | = 0.9740(1)(3)(4),                                            (23)
+
+where the uncertainties are experimental, nuclear theory and RC (see eq. (11)). We have checked that the combined
+small changes in the RC arising from our new factorization in eq. (15), improvements in the higher order leading
+logs, central value of mA , small NLL (−0.0001) correction etc. tend to cancel. For that reason, the result in eq. (23)
+is essentially the same as the one obtained earlier by Towner and Hardy (cf. eq. (2)) using the radiative corrections
+                                                  α
+given in Ref. [35]. We note that the sign of the 2π δ corrections for the superallowed decays (which are all e+ emitters)
+is correct in the literature and numerically the change in sign of that correction for neutron decay was our biggest
+modification of previous results. So, |Vud | in eq. (23) remains the current best value. Indeed, comparison with |Vud |
+extracted from neutron decay τn and gA values in eq. (21) shows that they share the same RC uncertainty, but the
+error on gA must be improved by about a factor of 4 before the neutron decay becomes competitive.
+                                                                                                                       6
+
+   One way of reducing the RC uncertainty in |Vud |, perhaps by as much as a factor of 2 would be to use the
+π + → π 0 e+ νe decay rate for which the loop induced axial-vector contributions are better controlled and nuclear
+theory uncertainties are circumvented [39]. However, the small branching ratio ∼ 10−8 makes that method statistically
+challenging. Nevertheless, an ongoing PSI experiment finds
+                                                                                     1/2
+                                                               BR (π + → e+ νe (γ))
+                                   |Vud | = 0.9749(26) ·                                     ,                      (24)
+                                                                 1.2352 · 10−4
+
+where its dependence on the π + → e+ νe (γ) branching ratio (used for normalization) is exhibited. We assume the SM
+theory value of 1.2352 · 10−4 is correct and hence obtain |Vud | = 0.9749(26), in excellent agreement with nuclear and
+neutron results but with a larger error. Alternatively, others have chosen to use the PDG recommended branching
+ratio of 1.230(4) · 10−4 which leads to |Vud | = 0.9728(30) which is also in agreement within errors even though the
+central value may appear low [40].
+  Note, if we average the |Vud | determinations above, we still find
+
+                                            |Vud | = 0.9740(5),        (Average)                                    (25)
+
+because the superallowed β-decays dominate and they have an average central value slightly larger than 0.9740.
+
+
+                                      IV.    gA : THEORY VS. EXPERIMENT
+
+  Employing the neutron lifetime measurement in eq. (19) and the value of |Vud | in eq. (23), we find via eq. (22) the
+Standard Model prediction
+
+                                                   gA = 1.2703(6)(5),                                               (26)
+
+where the errors are in τn and |Vud | (nuclear uncertainty). That precise prediction is larger than the PDG recommended
+value of 1.2670(30) [41], but smaller than the single best asymmetry value [42] of
+
+                                                    gA = 1.2739(19),                                                (27)
+
+(after small QED corrections are applied).
+  For now, the gA in eq. (26) should be considered the standard, to be used in solar neutrino flux calculations etc.
+However, to take proper advantage of its precision, one should employ the neutron decay definition we have assumed
+and correct the weak interaction process under consideration for its own electroweak radiative corrections. As an
+example, consider the relationship between the gA defined via the neutron lifetime whose value is given in eq. (26)
+and one defined by the lowest order polarized neutron decay asymmetry
+                                                   2ĝ(1 − ĝ)              asy
+                                             A=                ,      ĝ ≡ gA   .                                   (28)
+                                                    1 + 3ĝ 2
+If we wish to replace ĝ by gA in that expression, then there will be additional (energy dependent) radiative corrections
+to the asymmetry. Those corrections were computed long ago, originally by Shann and later confirmed by many
+others. They are quite small, leading to about a 0.1% shift in the asymmetry [27]. That effect is corrected for in
+the most recent [42] experimental measurement of the asymmetry, although it is well below current experimental
+uncertainties. It would be useful to compute the QED corrections to other processes where the very precise value of
+gA in eq. (26) might prove useful, for example primordial nucleosynthesis or the solar neutrino flux.
+
+
+                            V.   |Vus | DETERMINATIONS AND CKM UNITARITY
+
+  The 2002 PDG recommended value for |Vus | [41],
+
+                                        |Vus |PDG = 0.2196(26)           PDG2002,                                   (29)
+
+has remained fixed (modulo small variations in its uncertainties) for many years. It is based on fitted branching ratios
+from rather old data for Ke3 decays, K 0 → π − e+ νe and K + → π 0 e+ νe , combined with the kaon lifetimes, τKL and
+                                                               2
+τK + . The resulting Ke3 decay rates are proportional to |Vus | and can be used for its extraction. In fact, they are
+                                                     +     0 +
+analogous to superallowed nuclear beta decays (or π → π e νe ) in that only the weak vector current contributes at
+                                                                                                                         7
+
+the tree level. Since that current is conserved in the SU(3) flavor limit, strong interaction corrections are of second
+order in SU(3) breaking. Those effects, characterized by the departure of the form factor f+ (0) from 1 along with
+isospin breaking effects were considered in the classic study by Leutwyler and Roos [43] that forms the basis for the
+extracted value of |Vus | in eq. (29).
+   In addition to SU(3) breaking effects, there is a fairly significant first order md − mu correction due to π 0 –η mixing
+                                                             +
+(∼ 4%) that must be separately applied to the charged Ke3       decay rate and an extra Coulombic π − e+ final state QED
+                  0
+interaction for Ke3 . The fact that even with those different isospin violating corrections, both the neutral and charged
+Ke3 decay rates gave consistent values for |Vus | (eq. (29) is their average) has often been used to argue for the validity
+of eq. (29) as compared with for example Hyperon beta decays which have tended to give somewhat larger values for
+|Vus | but are not as theoretically clean.
+                                                                                          2
+   We note that combining eq. (29) with the value of |Vud | in eq. (23) and using |Vub | ≃ 2.1 × 10−5 leads to
+                                      2                2           2
+                                 |Vud |0+ →0+ + |Vus |PDG + |Vub | = 0.9969 ± 0.0015.                                 (30)
+
+That roughly 2 sigma deviation from unitarity has been a persistent problem for many years. It has been at times
+interpreted as a hint of new physics or as an indication that something is wrong with the data and/or theory
+calculations used to extract |Vud | and |Vus |. Since perfect unitarity would require a rather large shift (+ 3.2%)
+in |Vus | but a relatively smaller shift (+ 0.16%) in |Vud |, the latter has been generally thought to be the root of the
+problem. As a result, considerable experimental and theoretical scrutiny has been applied to |Vud |. Nevertheless, as
+emphasized in the first part of this paper, its value has remained rather stable.
+   To illustrate the above approach and some of its underlying uncertainties, we describe the general Ke3 decay rate
+formula [43],
+
+                                                   G2µ m5K           e             2 2
+                             Γ(K → πeν(γ)) =               SEW (1 + δK ) C 2 |Vus | f+     e
+                                                                                       (0)IK ,                        (31)
+                                                   192π 3
+where C 2 = 1 for KL or KS decays (to both π ± e∓ ) and C 2 = 1/2 for K ± . SEW = 1.022 is the universal short-distance
+                                              e
+radiative correction in eq. (15) [32] while δK  are model dependent long-distance QED corrections recently estimated
+to be (for radiative inclusive studies) [44, 45, 46]
+                                                     e
+                                                    δK 0 = +1.3 ± 0.3%,
+                                                     e
+                                                    δK + = −0.1 ± 0.7%.                                               (32)
+
+The form factor f+ (0) incorporates SU(3) breaking. Leutwyler and Roos found
+                                                           0
+                                                        K π    −
+                                              f+ (0) = f+   = 0.961 ± 0.008,                                          (33)
+
+a value recently confirmed by a lattice calculation [47] and to some extent by new papers based on Chiral Perturbation
+Theory (ChPT) [46, 48, 49]. In particular, in Ref. [48] it is shown that the only unknown constants in the O p6
+contributions in ChPT can be determined by accurate measurements of the slope and curvature of the scalar Kl3
+form factor. In Ref. [50] dispersion relations are employed to calculate theoretically these two observables, leading to
+f+ (0) = 0.974 ± 0.0057 ± 0.0028 ± 0.009, which is consistent with Eq. (33), although the central value and estimated
+errors are somewhat larger. In this paper we employ the classical result given in Eq. (33), but we also emphasize the
+importance of refining the lattice and ChPT calculations of f+ (0).
+  In the case of charged kaons, md − mu mass splittings give rise to π − η mixing such that
+                                      +   0            0
+                                    K π         K π        −
+                                   f+   ≃ 1.022f+   = 0.9821 ± 0.008 ± 0.002.                                         (34)
+
+Finally, the phase space factor is determined for a linear form factor to be (for a slope factor of 0.028)
+                                                       e
+                                                      IK 0 = 0.1550,
+                                                       e
+                                                      IK + = 0.1594,                                                  (35)
+
+while for a quadratic form factor suggested by KTeV data [51],
+                                                        e
+                                                       IK 0 = 0.1535.                                                 (36)
+
+The difference, ∼ 1%, is somewhat accounted for by assigning an extra ±0.7% form factor decay rate uncertainty.
+However, we note that the central value of |Vus | will depend on which parametrization is used. The value of |Vus | in
+eq. (29) would become 0.2207 if a quadratic parametrization were employed.
+                                                                                                                         8
+
+   Recently, a number of developments have cast doubt on the reliability of eq. (29). First, a new measurement of the
+  +
+Ke3  branching ratio by the E865 Collaboration at Brookhaven National Laboratory finds it to be about 5.3% larger
+than the fitted PDG value used to obtain |Vus |. Their finding conflicts with the earlier Ke3 decay rates, even after all
+isospin violating differences are taken into account and on its own leads to [52]
+                                                                    + 0
+                                                               K π
+                                          |Vus | = 0.2236(23)/f+   (0),       E865                                    (37)
+          +   0
+        K π
+where f+     (0) = 1+SU(3) breaking effects, including md − mu corrections (but unlike E865, we have not absorbed
+                                                     K + π0
+QED corrections into its definition). For the value f+      (0) = 0.9842(84) effectively used by the E865 collaboration
+after removing the QED correction, one finds |Vus | = 0.2272(30) and correspondingly almost perfect unitarity,
+                                          2             2             2
+                                 |Vud |0+ →0+ + |Vus |E865 + |Vub | = 1.0003 ± 0.0017.                                (38)
+
+   However, that is not the end of the story. In an even more recent development, the KTeV Collaboration (E832) [53]
+at Fermilab has reported a thorough analysis of all primary KL decay modes, including Ke3 . They find significant
+disagreement with the PDG fit values for several of the main KL branching ratios, including Ke3 , exactly the types
+of shifts required to bring the KL system into accord with unitarity and the K + results of E865.
+   The KTeV Collaboration finds (using the PDG KL lifetime)
+
+                                          Γ(KL → πeν) = 0.520(4) × 10−14 MeV.                                         (39)
+
+That radiatively inclusive Ke3 partial decay rate is about 5% larger than the 2002 PDG fit value. After accounting
+for measured form factor effects, a new calculation of QED radiative corrections [44, 45, 46] and SU(3) breaking (via
+Leutwyler and Roos [43]), they find
+
+                                              |Vus | = 0.2253(23)     KTeV Ke3 ,                                      (40)
+
+where (because of the very high statistics) the error is essentially dominated by SU(3) breaking, form factor shape
+                                            +
+and KL lifetime uncertainties. Unlike Ke3     , the KL extraction is not directly sensitive to the up-down mass difference.
+For Kµ3 , they obtained a similar result |Vus | = 0.2250(23), which provides strong confirmation. Taken together with
+the value of |Vud | in eq. (23), one finds from eq. (40)
+                                      2          2          2
+                                |Vud | + |Vus | + |Vub | = 0.9994(14)        KTeV Ke3 ,                               (41)
+
+in very good agreement with unitarity, a remarkable turn of events. So, E865 and KTeV are in apparent agreement
+regarding |Vus | and unitarity. Of course, they are dependent on the K + and KL lifetimes which, if the history of the
+kaon branching ratios is any indication, could change upon closer scrutiny.
+  It is useful to average the Ke3 and Kµ3 results from E865 and KTeV in order to get a single determination of
+|Vus | and unitarity constraint that can be used to limit new physics appendages to the standard model. To carry
+out such an average requires a consistent treatment of features common to the analyses of both measurements. In
+that category we put SU(3) breaking effects and the form factor shape (linear vs. quadratic). We adopt the KTeV
+quadratic form factor along with its ±0.7% uncertainty and assume the Leutwyler-Roos estimate of SU(3) breaking
+and md − mu effects. Together they shift the E865 value of |Vus | up by about 0.7%. So, we wind up with the following
+two quantities to be averaged:
+                                                                              +
+                               |Vus | = 0.2288(26)(20)          Shifted E865 Ke3 ,
+                                                                         0        0
+                               |Vus | = 0.2252(13)(20)          KTeV Ke3 and Kµ3    average,                          (42)
+
+where we employ the KTeV Ke3 and Kµ3 averages under the assumption of muon-electron universality. The common
+error from the form factor and SU(3) breaking, (±20), has been factorized. The remaining uncertainty in the K +
+case comes from adding in quadrature the experimental uncertainties along with errors due to QED, the K + lifetime,
+md −mu effects, and normalization uncertainties associated with correlations among K + branching ratios. We estimate
+the last of these to be ±0.5%. For the KL , the first error comes from experimental uncertainties, the KL lifetime
+error (which is appreciable), and QED.
+  Carrying out a weighted average, using the first set of errors to do the weighting, we find
+
+                                  |Vus | = 0.2259(12)(20)           E865-KTeV Average,                                (43)
+
+or, combining errors in quadrature,
+
+                                     |Vus | = 0.2259(23)        E865-KTeV Average.                                    (44)
+                                                                                                                      9
+
+Together with the |Vud | value in eq. (2), that gives
+
+                                      |Vud |2 + |Vus |2 + |Vub |2 = 0.9997(10)(10),                                (45)
+
+where the first and second errors arise from |Vud | and |Vus |, respectively. Combining the errors in quadrature, we
+obtain
+                                              2         2       2
+                                        |Vud | + |Vus | + |Vub | = 0.9997(14),                                     (46)
+
+which confirms unitarity superbly. Agreement with the standard model expectation can be used to constrain various
+new physics effects. For example, if the muon had some additional, exotic decay mode such as µ → e+ the wrong
+neutrinos, it would affect unitarity through the Gµ used in our normalization [54]. The good agreement in eq. (46)
+limits the branching ratios for those types of hypothetical decays to be < 0.2%, which is similar to the best direct
+constraints, but more general.
+   At this point we note that the central values of |Vus | in eq. (42) differ by about 1.2σ. It could be a simple effect
+due to experimental systematics (statistical errors are very small) or might indicate a problem in the Kaon lifetimes,
+md − mu , QED long distance radiative corrections or K + correlated branching ratios. Improved measurements in the
+charged and neutral kaon properties may prove useful in clarifying the difference. However, the total uncertainty in
+|Vus | of about ±1% is dominated by SU(3) breaking and the form factor shape and magnitude. It will be difficult to
+reduce those errors much further. Unitarity prevails, but unless some new procedure for calculating SU(3) breaking
+effects with much higher precision is found, it seems unlikely that the error in eq. (44) can be reduced much further,
+i.e. a ±1% uncertainty in |Vus | is near the end of the road for Ke3 . Similar remarks apply to |Vud | where theory
+uncertainty dominates. Fortunately, they seem to be ending with a triumph for unitarity and a strong confirmation
+of the standard model.
+   Other new analyses of Ke3 by the KLOE Collaboration at Frascati and NA48 at CERN are being completed and
+should report results shortly. It will be interesting to see if they confirm E865 and KTeV or reopen the Ke3 problem.
+   In another relatively recent development, Cabibbo, Swallow and Winston (CSW) [55, 56] have revisited the extrac-
+tion of |Vus | from Hyperon beta decays. That procedure is sometimes criticized as unreliable because the decay rates
+are renormalized by first order SU(3) breaking effects in the axial-vector contributions. However, rather than just
+employing total decay rates, CSW also included decay asymmetry measurements that effectively measure the first
+                                                          Asy
+order SU(3) breaking effects, analogous to the use of gA       in neutron beta decay to determine |Vud |. They found
+
+                                       |Vus | = 0.2250(27)      Hyperon Decays,                                    (47)
+
+where the error quoted is purely experimental and SU(3) breaking has been neglected. Nevertheless, if taken at face
+value it gives
+                                       2                2              2
+                                  |Vud |0+ →0+ + |Vus |Hyperon + |Vub | = 0.9993(16),                              (48)
+
+i.e. good agreement with unitarity. Because SU(3) breaking effects and various other theory uncertainties have not
+been considered, we do not include eq. (47) in our averaging.
+   Finally, a recent lattice calculation [57] of the pseudoscalar decay constants
+
+                                             fK /fπ = 1.210(4)stat (13)syst ,                                      (49)
+
+can be combined [58] with the experimental quantity
+
+                                           Γ (K + → µ+ νµ (γ))
+                                                               = 1.3336(44),                                       (50)
+                                           Γ (π + → µ+ νµ (γ))
+
+to yield
+
+                                                  |Vus |
+                                                         = 0.2278(26),                                             (51)
+                                                  |Vud |
+
+where the uncertainty is lattice dominated. If unitarity is assumed, that ratio implies
+
+                                                   |Vus | = 0.2221(24),
+                                                   |Vud | = 0.9750(5),                                             (52)
+                                                                                                                     10
+
+while if |Vud | = 0.9740(5) is employed
+
+                                              |Vus | = 0.2219(25)     Lattice.                                     (53)
+
+It corresponds to a modest 1.4 sigma deviation from unitarity. The beauty of the lattice approach is that it is still in
+its infancy. With new larger computers and better treatment of chiral symmetry and isospin breaking, the uncertainty
+in eq. (53) may be reduced by a factor of 4 or more, making the lattice approach to fK /fπ ultimately the best way to
+determine |Vus |. Should that happen, it will be somewhat ironic that the axial current determination via Kl2 and πl2
+decay constants turns out to be theoretically more pristine that the vector current approach using Ke3 . If something
+similar were possible for |Vud |, the unitarity test (constraint) in eq. (46) might be significantly improved.
+   Recently, hadronic τ decays have been employed to determine |Vus |. The value found in [59], using LEP data, is
+
+                                             |Vus | = 0.2208(34)     τ decays.                                     (54)
+
+This determination will likely improve with new data coming from BaBar and Belle.
+  The |Vus | central values discussed above vary from about 0.22–0.23 depending on the data used and SU(3) breaking
+corrections applied. That range is to be compared with the value suggested by 0+ → 0+ beta decays and perfect
+unitarity
+
+                               |Vus | = 0.2265(22)          Unitarity + 0+ → 0+ Nuclear.                           (55)
+
+  A comparison of the different determinations of |Vus | is illustrated in Fig. 1.
+
+
+                                       PDG 2002
+                                 Shifted PDG 2002
+                                          Tau lepton
+                                                  Lattice
+                                                       Hyperon
+                                                             KTeV
+                                                            Shifted E865
+                                 Unitarity and Nuclear beta decays
+
+                                0.21          0.215          0.22      0.225      0.23
+
+FIG. 1: Determinations of |Vus | from various sources. The Hyperon value does not include theory errors. Shifted values
+correspond mainly to the change of linear to quadratic form factor parametrization. All Kl3 results assume Eqs. (33,34).
+
+
+
+
+                                       VI.     CONCLUSION AND OUTLOOK
+
+   We have presented an update of the electroweak radiative corrections to neutron β-decay. It currently provides
+the most precise determination of gA , a quantity that finds many applications in nuclear, particle, and astro-physics.
+As gA and τn experimental measurements improve, our results can be used to obtain a |Vud | that is competitive
+with nuclear β-decay determinations (which yield |Vud | = 0.9740(5)), but without the nuclear structure dependent
+uncertainties. In the end, we will still be limited by a ±0.0004 theory error that comes from uncertainties in the
+axial-vector induced loop corrections. Reducing the latter error further will require a new theoretical approach or
+the measurement of Γ(π + → π 0 e+ νe ) which has smaller uncertainties. The 10−8 branching ratio makes the latter
+strategy very difficult statistically.
+   More problematic than |Vud | in testing CKM unitarity has been inconsistencies in the various |Vus | determinations.
+Of particular concern has been the low value < ∼ 0.22 obtained from PDG fits to old Ke3 data which for a long time
+has suggested a small but persistent departure from unitarity. However, recently measured Ke3 branching ratios
+for both the charged and neutral kaon exhibit large deviations (about 5%) from the PDG fit values, increasing
+|Vus | to a level consistent with unitarity. In fact, the average value they provide |Vus |=0.2259(23) together with
+|Vud |=0.9740(5) from superallowed beta decays concur with unitarity expectations up to ±0.0014 (see eq. (46)). That
+                                                                                                                      11
+
+good agreement confirms the predicted large +4% [5] radiative correction of the Standard Model at the 28σ level!
+A triumph for quantum loop effects. However, before one can be sure that the unitarity problem has been resolved,
+the recent results should be confirmed by anticipated new measurements of the Ke3 branching ratios from the KLOE
+experiment at Frascati and the NA48 experiment at CERN. In addition, given the recent changes in kaon branching
+fractions, it would be nice to have new confirmation measurements of both the K + and KL lifetimes.
+   The newest approach to |Vus | appears to be very promising [58]. It combines a lattice calculation of fK /fπ with
+                                      Γ(K + →µ+ νµ (γ))
+the experimental measurement of Γ(π+ →µ+ νµ (γ)) . The latter ratio is already very well measured, but in view of
+the changes in K + decay rates, the numerator should be experimentally revisited. Also, the electroweak radiative
+corrections that largely cancel in the ratio should be reexamined.
+   The lattice calculation of fK /fπ has some very nice features that suggest its already small uncertainty may be
+reduced much further. They include a cancellation of the statistical uncertainties which are highly correlated and the
+scale uncertainty. The challenge is to refine extrapolations to the chiral and continuum limits with full dynamical
+fermion simulations. That should become possible with the advent of very large special purpose computing facilities.
+   The current confirmation of unitarity embodied in eq. (46) gives us further confidence in the Standard Model and
+can be used to constrain “New Physics” appendages to it. Roughly speaking, it rules out additional tree or loop
+level contributions to the |Vud |2 + |Vus |2 combination at about the ±0.2% level. Effects of about that magnitude
+could in principle come about from supersymmetry loops [60, 61, 62], an extra Z ′ boson [63], heavy quark or lepton
+mixing, exotic muon decays (since we normalize in terms of Gµ ), compositeness, extra dimensions [64] etc. However,
+there are no really compelling reasons to expect such a large deviation. For that reason, confirmation of unitarity via
+experimental or theoretical changes has been anticipated. Its verification is, nevertheless, important. Also, finding
+new ways to improve the unitarity constraint, e.g. lattice calculations, is difficult, but should be strongly encouraged.
+Such challenges push our computational and experimental skills to new limits, stimulate ingenuity, and perhaps at
+some point new physics will be uncovered.
+   Note added: After the completion of this paper, a new low temperature measurement of the neutron lifetime was
+reported, τn = 878.5(7)(3) sec [69]. It differs from the world average in Eq. (19) by about 6.7σ. In conjunction
+with |Vud | = 0.9740(5), it would lead on its own to a larger gA value, namely gA = 1.2766(6)(5); instead, if used in
+combination with the best asymmetry value gA = 1.2739(19), it would imply |Vud | = 0.9757(4)(11)(4). Although this
+value is not in sharp disagreement with Eq. (2) (the difference is about 1.3σ), clarification of the neutron lifetime
+differences by new improved experiments is clearly an important goal for the future.
+   Also, the KLOE collaboration has presented some preliminary new results on Ke3 and Kµ3 decay rates and the KL
+lifetime [70]. They confirm the branching ratio increases observed by KTeV (within errors) and when finalized should
+improve the KL lifetime world average.
+   Finally, a recent analysis [71] by the NA48 Collaboration at CERN finds a neutral Ke3 decay rate consistent with
+the KTeV result in eq. (39). However, they effectively employ (after extracting electromagnetic contributions) a larger
+value of f+ (0) = 0.974 suggested by recent chiral perturbation results [45, 46, 47, 48, 49, 50] and a linear form factor
+parametrization of phase space. As a result, they obtain |Vus | = 0.2187(28) which suggests an overall 2.2σ deviation
+from unitarity. Such a significant change in the interpretation reinforces the importance of refining lattice and chiral
+perturbation theory calculations of f+ (0) as well as the need to better experimentally determine its q 2 dependence.
+
+
+                                                     APPENDIX
+
+  In this appendix, we describe the input that went into:
+   1. the leading log summations L(2Em , mp ) and S(mp , mZ );
+   2. the partial next to leading log calculation due to photonic vacuum polarization insertions and
+                   α
+   3. the residual 2π δ correction that results from a proper matching of the Fermi function and long distance O(α)
+      corrections.
+
+
+                                            1.   Leading Log Summations
+
+  We follow the approach of ref. [33] where a renormalization group summation for the leading short-distance logs was
+given and a value for S(mp , mZ ) derived. Here we extend that method down to the intermediate region 2Em − mp .
+That simply requires a change in the anomalous dimension from 2α/π to 3α/2π and an evaluation of the MS (modified
+minimal subtraction) coupling α(µ) at low scales.
+                                                                                                                     12
+
+  The leading log summation in an MS approach is simply given by
+                                   9/4         27/28         27/32         27/44         9/16
+                             α(mu )        α(md )          α(mµ )          α(ms )          α(mp )
+           L(2Em , mp ) =                                                                               ,          (56)
+                            α(2Em )        α(mu )          α(md )          α(mµ )          α(ms )
+                                  3/4         9/16         9/19         9/20         36/17
+                            α(mc )        α(mτ )         α(mb )         α(mW )         α(mZ )
+            S(mp , mZ ) =                                                                             ,            (57)
+                            α(mp )        α(mc )         α(mτ )         α(mb )         α(mW )
+
+where the α(µ) are values of the MS (modified minimal subtraction) QED coupling at a scale µ. This coupling is
+given to leading log order by
+                                                2 X 2               µ     7                µ
+                       α−1 (µ) = α−1 (me ) −       Qf Θ(µ − mf ) ln    +    Θ(µ − mW ) ln    ,                     (58)
+                                               3π                   mf   2π               mW
+                                                   f
+                                               1
+                      α−1 (me ) = 137.036 +      = 137.089.                                                        (59)
+                                              6π
+In that expression, the sum is over all quarks and lepton flavors f (with a color factor of 3 for quarks). We thereby
+find
+
+                                        α−1 (2Em = 2.585 MeV) = 136.745,
+                                            α−1 (mu = 62 MeV) = 136.0708,
+                                             α−1 (md = 83 MeV) = 135.9263,
+                                                       α−1 (mµ ) = 135.7896,
+                                              α−1 (ms = 215 MeV) = 135.2368,
+                                                         α−1 (mp ) = 133.9861,
+                                           α−1 (mc = 1.35 GeV) = 133.67728,
+                                                      α−1 (mτ ) = 133.3662,
+                                             −1
+                                            α (mb = 4.5 GeV) = 132.1174,
+                                           −1
+                                         α (mW = 80.4 GeV) = 128.0389,
+                                       α−1 (mZ = 91.1875 GeV) = 128.001.                                           (60)
+
+Relatively low effective quark masses [65] have been used in those results in order to incorporate QCD contributions
+at low energies. In that way α−1 (mZ ) = 128.0 is obtained while a more detailed higher order QED and QCD analysis
+including e+ e− → hadrons via a dispersion relation gives α−1 (mZ ) = 127.934.
+  Employing the above values in eq. (56) and eq. (57), we find
+
+                                                 L(2Em , mp ) = 1.02094,
+                                                  S(mp , mZ ) = 1.02248.                                           (61)
+
+Those results are not very sensitive to the quark masses employed. For example, changing the mu value by a factor
+of 2 leads to a shift in the RC by less than 3 × 10−5 which is well below the overall ±8 × 10−4 uncertainty assumed
+in the RC.
+   A useful relation, valid for the nine transitions in Table I,is
+                                                                            9/4
+                                                                      α(me )
+                                       L(2Em , mp ) = L(me , mp )                 ,                             (62)
+                                                                     α(2Em )
+which leads to
+                                                                         9/4
+                                                             2α(me ) 2Em
+                                 L(2Em , mp ) = 1.026725 1 −        ln         .                                   (63)
+                                                               3π      me
+
+
+                 2.   Next-to-leading logarithmic corrections due to photonic vacuum polarization.
+
+  Next-to-leading logarithmic (NLL) corrections to weak decays have been studied in detail for QCD (see, for example,
+[66, 67]). Here we adapt those results to QED. We consider a subset of contributions, containing fermion loop insertions
+                                                                                                                         13
+
+
+                         γ    f
+                                                        d                 u                           u
+                    d                  u                                           d
+
+
+
+                    ν                  e            ν                     e        ν                  e
+
+FIG. 2: Vacuum polarization diagrams contributing logarithmic and NLL corrections to the beta decay rate. QED loop
+corrections to external charged particle legs are included but not illustrated.
+
+
+in the photon propagator, as depicted in Fig. 2. That particular subset is somewhat enhanced by the large number
+of contributing fermions. Therefore, we expect it to dominate the NLL contributions.
+   The effect of short distance corrections can be parameterized as follows. We keep only leading-logarithmic terms,
+and those NLL ones that arise from fermion loops. Then, the decay width Γ can be expressed in terms of the
+lowest-order width Γ0 times a correction factor,
+                                                               1                     
+                         Γ = Γ0 1 − γ (0) La − La2 γ (1) + 2β0 B + L2 a2 γ (0) β0 + γ (0) ,
+                                                                     2
+                                    2
+                                 M              α(µ)
+                         L ≡ ln W     ,     a≡       ,                                                          (64)
+                                   µ2            4π
+and we will be interested in the value of this correction at µ ≃ mp . A similar analysis can be extended down to 2Em .
+  The leading order anomalous dimension of the four-fermion operator ūγ µ (1−γ5 )d⊗ēγµ (1−γ5 )ν is given by diagrams
+similar to those in Fig. 2, but without fermion loops. It can be expressed in terms of fermion charges,
+                                  γ (0) = (Qu − Qd )2 + Qe (Qe + 8Qu − 2Qd ) = −4.                                     (65)
+The running of the coupling constant is described by a sum over all contributing fermions with charges Qf and number
+of color varieties nf (equal 3 for quarks and 1 for others),
+                                                   4           X
+                                           β0 = − n  e,     n≡
+                                                             e     nf Q2f .                                      (66)
+                                                   3
+                                                                      f
+
+At the NLL order, we also need the two-loop anomalous dimension γ (1) and the matching coefficient B. The former
+is determined by calculating 1/ǫ poles of the diagrams in Fig. 2. The latter is given by the finite part of analogous
+diagrams without fermion loop insertions. Their individual values depend on the scheme of the calculation (for
+example, treatment of γ5 ), and only their combination occurring in eq. (64) is scheme-independent.
+   We list here the values of both quantities obtained in the naive dimensional regularization (NDR), with an anti-
+commuting γ5 , and in the ’t Hooft-Veltman scheme (HV),
+                                           (1)                      (1)
+                                        γHV = − 20
+                                                3 ne,            γNDR = − 44
+                                                                          9 ne,
+                                                                                                                       (67)
+                                        BHV = − 23
+                                                6 ,              BNDR = − 19
+                                                                          6 .
+
+In both schemes we get
+                                                                    32
+                                                  2β0 B + γ (1) =      n
+                                                                       e.                                              (68)
+                                                                     9
+With these results, the logarithmic corrections of eq. (64) become
+                                                                                    
+                                     2α(µ) MW  α 2 MW               2e
+                                                                       n        MW   4e
+                                                                                      n
+                      Γ = Γ0 1 +           ln      +        ln           + 2 ln    −       .                           (69)
+                                       π       µ        π       µ      3         µ    9
+All but the last terms in this correction factor are included and summed up to all orders in the factor S in eq. (57).
+The last term is the fermionic NLL correction. Because it is very small, we estimate it as though all fermions u, d, s, c, b
+and e, µ, τ contributed over the whole range from MW to mp . In this approximation, we have
+                                                               20
+                                                         n
+                                                         e =      ,                                                    (70)
+                                                                3
+                                                                                                                         14
+
+and the numerical value of the NLL fermionic correction is
+                                           n  α 2 MW
+                                          4e
+                                       −            ln     = −0.00007.                                                 (71)
+                                           9 π         mp
+
+Small additional NLL contributions from the Em to mp region shift that value to about −0.0001. Other two-loop
+                                                                             2     m
+NLL and non-logarithmically enhanced corrections are individually of order α
+                                                                           π    ln 2Epm ≃ 0.00003 or smaller. Hence,
+we assume that they can be neglected.
+
+                                                                        
+                                      3.    Evaluation of the O Zα2 corrections
+
+                                                                  
+  In this Appendix we summarize the evaluation of the O Zα2 corrections in the case of neutron β-decay (Z = 1).
+These are defined as the residual corrections of this order not contained in the product of the Fermi function and the
+O(α) corrections. For a point nucleus, analytic results for the correction to the charged lepton spectrum has been
+obtained in the extreme relativistic approximation [68]. The sign is opposite for electron and positron emitters (as
+can be readily understood by a glance at the figures in Ref. [68]) and, for the neutron decay, we have
+                                                                         
+                                                      mp      43 5        2E
+                                    ∆P = −α2 ln            +     − ln           ,                                 (72)
+                                                      me      18 3        me
+
+(see Eq. (5) of Ref. [68]). It has also been verified that, to good approximation, the leading contributions to Eq. (72)
+extrapolate smoothly to their non-relativistic limit, which has also been obtained analytically.
+                                                                                            √         Next, we evaluate
+                                                                                                                      2
+numerically the spectral average of ln(2W ) (W ≡ E/m) using the phase space factor W 2 − 1 W (Wmax − W ) ,
+leading to
+
+                                                  hln(2W )i = 1.1390.                                                  (73)
+
+Combining Eqs. (72) and (73), we obtain
+
+                                           h∆P i = −8.006α2 = −4.26 × 10−4 .                                           (74)
+
+   In order to take into account the finite proton size, we employ Eqs. (7-9) of Ref. [37], with the sign again reversed,
+since qwe are dealing with an electron emitter. These formulae correspond to a uniformly charged sphere of radius
+                        √
+R = 53 a, where a ≡ 6/Λ is the rms charge radius of the proton. Using a = 0.90 fm [13], we have Λ/mp = 0.572.
+Insertion of this value in Eqs. (7-9) of Ref. [37], leads to a finite proton size effect −5.4 × 10−6 . Combining this result
+with Eq. (74), we obtain our final answer for this class of corrections in the case of neutron decay:
+                                                  α
+                                                     δ = −4.3 × 10−4 .                                                 (75)
+                                                  2π
+                                             
+We have verified that terms of O (Λ/mp )3 , not contained in Eqs. (7-9) of Ref. [37], as well as estimates of the
+                    
+corrections O Z 2 α3 , give negligible contributions in the case of neutron decay.
+
+
+                                               ACKNOWLEDGMENTS
+
+   We thank Kim Maltman for bringing Ref. [69] to our attention, Albert Young for discussions regarding the neutron
+lifetime, and Paolo Franzini for updating us on preliminary KLOE results. Part of this work was carried out while
+the authors were visiting the Kavli Institute for Theoretical Physics in Santa Barbara, with partial support by the
+National Science Foundation under Grant No. PHY99-07949.
+   A.C. was supported by the Natural Sciences and Engineering Research Council of Canada.
+   W.J.M. acknowledges support by DOE grant DE-AC02-76CH00016 and thanks the Alexander von Humboldt Foun-
+dation for support during the completion of this work.
+   A.S. is grateful to the Theory Group of the 2nd Institute for Theoretical Physics for the hospitality extended to
+him during a visit when this manuscript was prepared.
+                                                                                                                               15
+
+  The work of A.S. was supported in part by the Alexander von Humboldt Foundation Research Award No. IV USA
+1051120 USS, and the National Science Foundation Grant PHY-0245068.
+
+
+
+
+ [1] N. Cabibbo, Phys. Rev. Lett. 10, 531 (1963).
+ [2] M. Kobayashi and T. Maskawa, Prog. Theor. Phys. 49, 652 (1973).
+ [3] I. S. Towner and J. C. Hardy, J. Phys. G29, 197 (2003).
+ [4] B. Aubert et al., Phys. Rev. Lett. 92, 071802 (2004).
+ [5] A. Sirlin, Nucl. Phys. B71, 29 (1974).
+ [6] A. Sirlin, Rev. Mod. Phys. 50, 573 (1978).
+ [7] E. G. Adelberger et al., Rev. Mod. Phys. 70, 1265 (1998).
+ [8] S. Esposito, G. Mangano, G. Miele, and O. Pisanti, Nucl. Phys. B540, 3 (1999).
+ [9] F. E. Close and R. G. Roberts, Phys. Rev. Lett. 60, 1471 (1988).
+[10] F. E. Close and R. G. Roberts, Phys. Lett. B316, 165 (1993).
+[11] M. L. Goldberger and S. B. Treiman, Phys. Rev. 110, 1178 (1958).
+[12] H. Abele and D. Mund (Eds.), (2003), hep-ph/0312124.
+[13] D. H. Wilkinson, Nucl. Phys. A377, 474 (1982).
+[14] A. Garcia, J. L. Garcia-Luna, and G. Lopez Castro, Phys. Lett. B500, 66 (2001).
+[15] V. Bernard, S. Gardner, U. G. Meissner, and C. Zhang, (2004), hep-ph/0403241.
+[16] S. Ando et al., (2004), nucl-th/0402100.
+[17] T. Kinoshita and A. Sirlin, Phys. Rev. 113, 1652 (1959).
+[18] S. M. Berman, Phys. Rev. 112, 267 (1958).
+[19] T. van Ritbergen and R. G. Stuart, Phys. Rev. Lett. 82, 488 (1999).
+[20] M. Steinhauser and T. Seidensticker, Phys. Lett. B467, 271 (1999).
+[21] A. Ferroglia, G. Ossola, and A. Sirlin, Nucl. Phys. B560, 23 (1999).
+[22] I. Blokland, A. Czarnecki, M. Ślusarczyk, and F. Tkachov, (2004), hep-ph/0403221, in press in Phys. Rev. Lett.
+[23] A. Sirlin, Phys. Rev. 164, 1767 (1967).
+[24] A. Sirlin, in P. Urban (ed.), Particles, Currents, Symmetries, Acta Physica Austriaca, Suppl. V (Springer Verlag, New
+     York, 1968) p. 353.
+[25] R. Blin-Stoyle and J. M. Freeman, Nucl. Phys. A150, 369 (1970).
+[26] A. Sirlin, AIP Conf. Proc. 698, 385 (2004).
+[27] R. T. Shann, Nuovo Cimento A5, 591 (1971), If gA is obtained from the total asymmetry in neutron decay, the effect
+     of the radiative corrections derived in this paper is to increase gA by 4 × 10−4 , which is much smaller than the current
+     experimental errors.
+[28] Y. Yokoo, S. Suzuki, and M. Morita, Prog. Theor. Phys. 50, 1894 (1973).
+[29] A. Garcia and M. Maya, Phys. Rev. D17, 1376 (1978).
+[30] F. Gluck and K. Toth, Phys. Rev. D46, 2090 (1992).
+[31] M. Fukugita and T. Kubota, (2004), hep-ph/0405298. This paper defines a different gA and gives a somewhat misleading
+     impression that additional radiative corrections to the polarized neutron decay asymmetry may be required. However, after
+     those extraneous definition dependent corrections are removed (absorbed back into gA ), it agrees with previous calculations.
+[32] A. Sirlin, Nucl. Phys. B196, 83 (1982).
+[33] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 56, 22 (1986).
+[34] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 71, 3629 (1993).
+[35] A. Sirlin, in Precision tests of the standard electroweak model, edited by P. Langacker (World Scientific, Singapore, 1995),
+     p. 766.
+[36] I. S. Towner and J. C. Hardy, Phys. Rev. C66, 035501 (2002).
+[37] A. Sirlin, Phys. Rev. D35, 3423 (1987).
+[38] W. Jaus and G. Rasche, Phys. Rev. D35, 3420 (1987).
+[39] W. Jaus, Phys. Rev. D63, 053009 (2001).
+[40] D. Pocanic et al., (2003), hep-ex/0312030.
+[41] K. Hagiwara et al., Phys. Rev. D66, 010001 (2002).
+[42] H. Abele et al., Phys. Rev. Lett. 88, 211801 (2002).
+[43] H. Leutwyler and M. Roos, Z. Phys. C25, 91 (1984).
+[44] T. C. Andre, (2004), hep-ph/0406006.
+[45] V. Cirigliano et al., Eur. Phys. J. C23, 121 (2002).
+[46] V. Cirigliano, H. Neufeld, and H. Pichl, Eur. Phys. J. C35, 53 (2004).
+[47] D. Becirevic et al., (2004), hep-ph/0403217.
+[48] J. Bijnens and P. Talavera, Nucl. Phys. B669, 341 (2003), hep-ph/0303103.
+[49] J. Bijnens, hep-ph/0409068.
+[50] M. Jamin, J. A. Oller and A. Pich, JHEP 0402, 047 (2004).
+[51] T. Alexopoulos et al., (2004), hep-ex/0406003.
+                                                                                                                         16
+
+[52] A. Sher et al., Phys. Rev. Lett. 91, 261802 (2003).
+[53] T. Alexopoulos et al., (2004), hep-ex/0406001.
+[54] W. J. Marciano, J. Phys. G29, 23 (2003).
+[55] N. Cabibbo, E. C. Swallow, and R. Winston, (2003), hep-ph/0307214.
+[56] N. Cabibbo, E. C. Swallow, and R. Winston, Ann. Rev. Nucl. Part. Sci. 53, 39 (2003).
+[57] C. Aubin et al., Nucl. Phys. Proc. Suppl. 129, 227 (2004), We employ the recent results in MILC Collaboration, C. Aubin
+     et al., hep-lat/0407028 v2.
+[58] W. J. Marciano, (2004), hep-ph/0402299.
+[59] E. Gamiz, M. Jamin, A. Pich, J. Prades and F. Schwab, arXiv:hep-ph/0408044.
+[60] R. Barbieri, M. Frigeni, and F. Caravaglios, Phys. Lett. B279, 169 (1992).
+[61] K. Hagiwara, S. Matsumoto, and Y. Yamada, Phys. Rev. Lett. 75, 3605 (1995).
+[62] A. Kurylov and M. J. Ramsey-Musolf, Phys. Rev. Lett. 88, 071804 (2002).
+[63] W. J. Marciano and A. Sirlin, Phys. Rev. D35, 1672 (1987).
+[64] W. J. Marciano, Phys. Rev. D60, 093006 (1999).
+[65] W. J. Marciano, (1993), Lectures given at 21st Annual SLAC Summer Institute on Particle Physics: Spin Structure in
+     High Energy Processes Stanford.
+[66] G. Altarelli, G. Curci, G. Martinelli, and S. Petrarca, Nucl. Phys. B187, 461 (1981).
+[67] A. Buras and P. Weisz, Nucl. Phys. B333, 66 (1990).
+[68] A. Sirlin and R. Zucchini, Phys. Rev. Lett. 57, 1994 (1986).
+[69] A. Serebrov et al., nucl-ex/0408009.
+[70] P. Franzini, hep-ex/0408150.
+[71] NA48 Collaboration, A. Lai et al., CERN-PH-EP/2004-47 (September, 2004).
+

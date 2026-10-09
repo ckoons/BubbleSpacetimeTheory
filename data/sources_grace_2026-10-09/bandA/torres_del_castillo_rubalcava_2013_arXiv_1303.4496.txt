@@ -1,0 +1,641 @@
+                                          The Jones vector as a spinor and its representation on the
+                                                               Poincaré sphere
+                                                                   G.F. Torres del Castillo1 and I. Rubalcava-García2 ∗
+
+
+
+
+arXiv:1303.4496v1 [math-ph] 19 Mar 2013
+                                                                    1 Departamento de Física Matemática, Instituto de Ciencias
+
+
+                                                                  Universidad Autónoma de Puebla, 72570 Puebla, Pue., México.
+                                                                            2 Facultad de Ciencias Físico Matemáticas
+
+
+                                                      Universidad Autónoma de Puebla, Apartado postal 1152, 72001 Puebla, Pue., México.
+
+
+
+
+                                                                                             Abstract
+
+                                                        It is shown that the two complex Cartesian components of the electric field of a monochro-
+                                                    matic electromagnetic plane wave, with a temporal and spatial dependence of the form
+                                                    ei(kz−ωt) , form a SU(2) spinor that corresponds to a tangent vector to the Poincaré sphere
+                                                    representing the state of polarization and phase of the wave. The geometrical representation
+                                                    on the Poincaré sphere of the effect of some optical filters is reviewed. It is also shown that
+                                                    in the case of a partially polarized beam, the coherency matrix defines two diametrically
+                                                    opposite points of the Poincaré sphere.
+
+                                                  Key words: Jones vector; Poincaré sphere; polarization; spinors
+
+                                                  Pacs: 02.20.Qs, 03.50.De, 42.25.Ja
+
+
+
+
+                                          1         Introduction
+                                          In a recent paper [1] it has been shown that the (real) Cartesian components of the electric field
+                                          of a monochromatic electromagnetic plane wave can be expressed in terms of a two-component
+                                          SU(2) spinor, which specifies the amplitude, state of polarization, and phase of the wave in such
+                                          a way that two real mutually orthogonal vectors made out of this spinor define the point of the
+                                          Poincaré sphere corresponding to the state of polarization and a tangent vector to the Poincaré
+                                             Present address: Instituto de Física y Matemáticas, Universidad Michoacana de San Nicolás de Hidalgo,
+                                              ∗
+
+                                          Ciudad Universitaria, Morelia, Mich., 58040, México and Centro de Ciencias Matemáticas UNAM, A.P. 61-3,
+                                          Morelia, Mich., 58090, México. Email: irais@ifm.umich.mx, irais@matmor.unam.mx
+
+
+                                                                                                  1
+sphere that determines the phase of the wave. Furthermore, the inner product of the spinors
+corresponding to two of these waves with the same wavevector (which is related to the parallel
+transport of tangent vectors to the Poincaré sphere along a great circle arc [2, 1]), determines
+if the waves are in phase according to Pancharatnam’s definition [3]. (The relationship between
+the inner product of spinors and the parallel transport along geodesics of the sphere was already
+recognized in Payne’s 1952 paper [2], without developing, however, its relationship with the
+interference of electromagnetic waves. See also Ref. 4.)
+    The fact that the amplitude, state of polarization, and phase of a monochromatic electro-
+magnetic plane wave can be represented by a two-component spinor allows us to derive many
+useful relations employing the same formalism as in Quantum Mechanics [1], instead of the not
+so widely known results of spherical trigonometry [3] (see also Ref. 5).
+    The state of polarization of a wave is usually specified making use of the Stokes parameters
+or the Jones vector (see, e.g., Refs. 6–11). The Stokes parameters can be expressed in terms of
+the two-component spinor mentioned above [1] and, as we shall show below, the Jones vector is
+essentially this spinor, expressed in an appropriate basis.
+    In Sec. 2 we give a summary of the relevant results of Ref. 1, relating them with the definition
+of the Jones vector. We show that, apart from the phase factor that gives the time and space
+dependence of the electric field, the Jones vector is a two-component spinor on which the rotations
+on the Poincaré sphere act through the spin-1/2 representation. In Sec. 3 we review the effect
+of some optical filters and its geometrical representation on the Poincaré sphere. We show that
+the effect of a phase shifter corresponds to a rotation of the Poincaré sphere, while that of an
+attenuator corresponds to a conformal transformation of this sphere (see also Refs. 10 and 11). In
+Sec. 4 we consider partially polarized beams, showing that the Stokes parameters can be arranged
+into a 2×2 matrix that, except in the case of unpolarized light, defines two diametrically opposite
+points of the Poincaré sphere.
+    Although some of the results obtained in this paper, such as the matrix form for phase shifters
+and attenuators, are found in the literature using other approaches (see, e.g., Ref. 12 and the
+references cited therein), one remarkable feature of the spinor formalism is that, besides the
+state of polarization represented by a point of the Poincaré sphere, we also have the phase of the
+wave through the direction of a tangent vector to the sphere at that point, which is not included
+in other approaches. Thus the action of the optical filters are transformations not only on the
+points of the Poincaré sphere, but also on the tangent vectors to this sphere.
+
+
+2    The Poincaré sphere
+The Cartesian components of the electric field of a monochromatic electromagnetic plane wave
+propagating in the z-direction in a dielectric medium are usually expressed in the form
+                    n                        o               n                        o
+           Ex = Re A1 exp[i(kz − ωt + φ1 )] ,        Ey = Re A2 exp[i(kz − ωt + φ2 )] ,         (1)
+
+                                                 2
+where A1 , A2 are real, positive constants, ω and k are the angular frequency and wave number
+of the wave, respectively. At each point of space, the resulting electric field describes an ellipse
+centered at the origin and, therefore, the (real) electric field can be conveniently written as
+                        h                                                                          i
+              E =        a cos 21 φ cos(ωt − kz + 12 χ) − b sin 12 φ sin(ωt − kz + 12 χ) x̂
+                            h                                                                          i
+                        + a sin 21 φ cos(ωt − kz + 12 χ) + b cos 12 φ sin(ωt − kz + 21 χ) ŷ,                        (2)
+
+where a, b are real constants, with |a| ⩾ |b|, |a| is the major semiaxis of the ellipse, |b| is the
+minor semiaxis, and φ/2 is the angle made by the major axis of the ellipse with the x-axis, so
+that it suffices to consider values of φ between 0 and 2π. The phase χ/2 is necessary when one
+considers the superposition of two or more waves [1].
+   Since |b/a| ⩽ 1, for each value of the ellipticity, b/a, there is a unique θ ∈ [0, π] such that
+                                                                      !
+                                                 b       π θ
+                                                   = tan  −  .
+                                                 a       4 2
+Hence,
+                            !                                                          !
+      √          π θ                                              √          π θ
+ a=       2A cos  −             = A(cos 21 θ + sin 12 θ),    b=       2A sin  −             = A(cos 12 θ − sin 21 θ), (3)
+                 4 2                                                         4 2
+for some constant A, which, with no loss of generality, we can assume positive. In this way,
+a ⩾ 0, while b is positive for 0 ⩽ θ < π/2 (in which case the wave has right-hand polarization)
+and b is negative for π/2 < θ ⩽ π (then the wave has left-hand polarization). The values θ = 0
+and θ = π correspond to circular polarization, while θ = π/2 in the case of linear polarization.
+Making use of Eq. (3), Eq. (2) can be rewritten in the form
+                   nh                                                                                      i
+          E = A         cos 12 θ cos(ωt − kz + 21 χ + 12 φ) + sin 12 θ cos(ωt − kz + 21 χ − 12 φ) x̂
+                    h                                                                                      i o
+                 + cos 12 θ sin(ωt − kz + 21 χ + 21 φ) − sin 21 θ sin(ωt − kz + 21 χ − 12 φ) ŷ .                    (4)
+
+    The parametrization of the electric field given by Eq. (4) contains the same number of in-
+dependent parameters as expressions (1) (four real parameters). However, by contrast with (1),
+the parameters appearing in Eq. (4) specify more directly the polarization state of the wave [via
+Eqs. (3)]. Furthermore, by considering the angles θ and φ as spherical coordinates in the usual
+manner (i.e., θ as the polar angle and φ as the azimuthal angle), each pair of values (θ, φ) defines
+a point of the Poincaré sphere [6, 7, 8].
+    Another set of parameters commonly employed to specify the polarization of a wave is given
+by the Stokes parameters, s0 , s1 , s2 , s3 , which are related to the angles θ and φ by means of
+[6, 7] (see also Ref. 3 and the references cited therein)
+
+                                  (s1 , s2 , s3 ) = s0 (sin θ cos φ, sin θ sin φ, cos θ),                            (5)
+
+where s0 is the total flux density. Hence, (s1 , s2 , s3 )/s0 is the point of the Poincaré sphere that
+corresponds to the polarization of the wave.
+
+                                                            3
+  In the Jones formalism, the complex Cartesian components of the electric field form a column
+matrix (see, e.g., Ref. 11 and the references cited therein),
+                                                                      
+                               Ec
+                               x =
+                                      A exp[i(kz − ωt + φ1 )] 
+                                                                ,                                  (6)
+                               Eyc    B exp[i(kz − ωt + φ2 )]
+
+where A and B are real constants. (We employ the superscript c in the components of the electric
+field to emphasize the fact that they are complex.)
+
+
+2.1    Two-component spinors
+From Eq. (4) we see that the components of the electric field are given by the compact expression
+                                h                                                   i
+                Ex + iEy = A cos 12 θ ei(ωt−kz+χ/2+φ/2) + sin 21 θ e−i(ωt−kz+χ/2−φ/2) ,            (7)
+
+or, in terms of the unit two-component spinor
+                                                                      
+                                   o1             e−iφ/2 cos 21 θ 
+                              o =  2  = e−iχ/2  iφ/2             ,                              (8)
+                                   o               e    sin 21 θ
+
+we have
+                              Ex + iEy = A(ei(ωt−kz) o1 + e−i(ωt−kz) o2 ),                         (9)
+where the bar denotes complex conjugation.
+    The two-component spinor (8) may be familiar from Quantum Mechanics; it is the normalized
+eigenspinor with eigenvalue +~/2 of the spin projection along the direction with angles θ, φ. The
+unit spinor o defines two mutually orthogonal vectors with Cartesian components
+
+                                    Ri ≡ o† σi o,       Mi ≡ ot εσi o,                            (10)
+
+where o† is the transpose conjugate        of o, ot denotes the transpose of o, the σi are the stan-
+                                           0 1 
+dard Pauli matrices, and ε ≡                        [2, 13]. The vector Ri is real and is the point
+                                         −1 0
+of the Poincaré sphere that represents the polarization state of the wave, i.e., (R1 , R2 , R3 ) =
+(sin θ cos φ, sin θ sin φ, cos θ). Hence, the Stokes parameters are directly related to the unit spinor
+o by
+                                                  si
+                                                     = o† σi o.                                    (11)
+                                                  s0
+The direction of Re Mi does depend on the phase χ and, therefore, Ri together with Re Mi
+represent the state of polarization and the phase of the wave [1]. Since Re Mi is orthogonal to
+Ri , Re Mi is a tangent vector to the Poincaré sphere (Re Mi forms an angle χ with the meridian
+passing through the point Ri ). In this manner, the vector Ri , gives the point of the Poincaré
+sphere corresponding to the polarization state of the wave, and Re Mi can be viewed as a tangent
+vector to the Poincaré sphere, whose direction gives the phase of the wave.
+
+                                                    4
+    If o′ = Qo, with Q ∈ SU(2), then o′ is also a unit spinor and the vectors Ri′ and Mi′ , defined
+by o′ , are related to Ri and Mi , respectively, by means of the SO(3) transformation, (aij ), given
+               P                        P                       P
+by Q† σi Q = 3j=1 aij σj ; that is Ri′ = 3j=1 aij Rj , and Mi′ = 3j=1 aij Mj . Hence, each Q ∈ SU(2)
+gives rise to a rotation on the Poincaré sphere. Conversely, given a rotation on the Poincaré
+sphere, there exists a Q ∈ SU(2), defined up to sign, corresponding to the rotation.
+
+
+2.2    Two spinor bases
+Since the components Ex and Ey appearing in Eq. (9) are real, Eq. (9) is equivalent to
+                                                                         
+                             Ex − iEy = A ei(ωt−kz) o2 + e−i(ωt−kz) o1 .                        (12)
+
+Hence, from Eqs. (9) and (12) we see that
+
+               Ex = Re {A[ei(kz−ωt) (o1 + o2 )]},       Ey = Re {A[ei(kz−ωt) (io1 − io2 )]}     (13)
+
+and, therefore, the components of the electric field are the real part of the complex functions Exc ,
+Eyc , given by the Jones vector
+                                                                             
+                       Ec    √                   eiπ/4 1 1   o1 
+                       x  = 2 e−iπ/4 Aei(kz−ωt) √                                            (14)
+                       Eyc                          2  i −i    o2
+
+[cf. Eq. (6)].
+    One can readily verify that the 2 × 2 matrix
+                                                                           
+                             eiπ/4 1 1  1  1 + i 1 + i 
+                          U≡ √         =                  ,                                    (15)
+                                2  i −i   2 −1 + i 1 − i
+
+appearing in Eq. (14), belongs to SU(2) and that
+
+                       Uσ1 U −1 = σ3 ,     Uσ2 U −1 = σ1 ,         Uσ3 U −1 = σ2 .              (16)
+
+This means that U corresponds to a SO(3) transformation that permutes the coordinate axes,
+                                                                 √ −iπ/4 i(kz−ωt)
+X, Y, Z,of the
+               Poincaré sphere and that, apart from the factor
+                                                                 2e    Ae        , the Jones
+            c                                                1
+          E                                                o
+vector  xc  is essentially the two-component spinor  2  in a different basis. That is,
+          Ey                                               o
+letting                                             
+                                          1          1
+                                    
+                                       õ   ≡U
+                                                   o   ,                                (17)
+                                       õ2         o2
+from Eq. (14) we have                                                 
+                               Ec    √                      õ1 
+                               x  = 2 e−iπ/4 Aei(kz−ωt)        .                             (18)
+                               Eyc                          õ2
+
+
+                                                    5
+   While the basis spinors
+                                                                
+                            
+                              o1   1                
+                                                         o1   0 
+                                  =             and          =                                  (19)
+                              o2     0                   o2     1
+
+(which correspond to θ = 0 and θ = π, respectively) represent circularly polarized waves, the
+basis spinors                                             
+                              1                        1
+                        
+                           õ   =
+                                    1  and 
+                                                    õ   =
+                                                               0                        (20)
+                           õ2      0               õ2        1
+represent linearly polarized waves [see Eq. (18)] and correspond to the points of the Poincaré
+sphere on the X-axis (see Eq. (21) below). Thus, the SU(2) matrix U, given by Eq. (15),
+represents the connection between these two frequently employed bases of polarization states
+(see also Sec. 3.1, below).
+    Equations (9) and (12) constitute a decomposition of a wave as a superposition of circularly
+polarized waves, with the components o1 and o2 being the relative amplitudes of this decom-
+position. Similarly, õ1 and õ2 are the relative amplitudes of the decomposition of the wave as
+a superposition of two linearly polarized waves. (In fact, any pair of different points of the
+Poincaré sphere represent a basis; the pairs of points diametrically opposite are the orthogonal
+bases [3, 1].)
+    According to Eq. (17), the vectors Ri and Mi are given in terms of the spinor õ by [see Eqs.
+(10)]
+                             Ri = õ† Uσi U −1 õ,  Mi = õt εUσi U −1 õ,                   (21)
+where we have made use of the relation (U −1 )t ε = εU, which applies to unimodular 2×2 matrices.
+Equations (21) are of the same form as Eqs. (10), with o replaced by õ and σi replaced by Uσi U −1 .
+As shown in Eqs. (16), the matrices Uσi U −1 are a cyclic permutation of the Pauli matrices (which
+explains the definition of the Pauli matrices adopted, without justification, in Ref. 11, Appendix
+B).
+    Thus, apart from the factor ei(kz−ωt) , the components of the Jones vector (6) are the compo-
+nents of a constant SU(2) spinor (that is, independent of t and z), õ, in a basis that differs from
+the standard one [Eq. (18)]. The unit spinor õ allows us to find the vectors Ri and Re Mi that
+represent the polarization state and phase of the wave on the Poincaré sphere [Eqs. (21) and
+(16)] and, since the inner product of SU(2) spinors is invariant under SU(2) transformations, the
+inner product of the spinors corresponding to two waves with the same wavevector determines
+if the waves are in phase according to Pancharatnam’s definition [3, 1] (see also Ref. 14 and the
+references cited therein).
+
+
+
+
+                                                 6
+3     Geometrical representation of the effect of optical fil-
+      ters
+Since the state of polarization of a monochromatic electromagnetic plane wave is represented by
+a point of the Poincaré sphere or, up to a phase factor, by a unit two-component spinor, e.g., o or
+õ, the effect of an optical filter on the polarization of a wave passing through the filter corresponds
+to some transformation of the Poincaré sphere into itself or to some spinor transformation (see
+also Refs. 11 and 9).
+     In this section, following Ref. 11, we consider some simple examples of optical filters, finding
+their representation on the spinor space and on the Poincaré sphere.
+
+
+3.1     Phase shifters
+If an optical filter produces a phase shift δ1 for the x-component of the electric field and a,
+possibly different, phase shift δ2 for the y-component, the electric field (4) is replaced by
+               nh                                                                                               i
+    E = A           cos 12 θ cos(ωt − kz + 12 χ + 12 φ + δ1 ) + sin 12 θ cos(ωt − kz + 21 χ − 12 φ + δ1 ) x̂
+                h                                                                                              i o
+             + cos 21 θ sin(ωt − kz + 21 χ + 12 φ + δ2 ) − sin 21 θ sin(ωt − kz + 21 χ − 12 φ + δ2 ) ŷ .
+                                                                                                                       (22)
+
+This expression is equivalent to
+                           n
+      Ex + iEy = A ei(ωt−kz+(δ1 +δ2 )/2) [cos 21 δ cos 12 θ ei(χ+φ)/2 − i sin 12 δ sin 12 θ ei(χ−φ)/2 ]
+                                                                                                                o
+                         + e−i(ωt−kz+(δ1 +δ2 )/2) [cos 21 δ sin 12 θ e−i(χ−φ)/2 + i sin 21 δ cos 12 θ e−i(χ+φ)/2 ] ,
+
+which is duly of the form (9), with the two-component spinor o replaced by
+                                                                                     
+                            
+                                ′1
+                              o                         1
+                                    −i(δ1 +δ2 )/2  cos 2 δ           i sin 21 δ   o1 
+                                  =e                                                      ,                            (23)
+                              o′2                   i sin 21 δ         cos 12 δ      o2
+
+where δ ≡ δ2 − δ1 .
+   Apart from the overall phase factor e−i(δ1 +δ2 )/2 , the transformation (23) is given by the SU(2)
+matrix                                 
+                         1          1
+                     cos   δ  i sin   δ
+                        2
+                          1
+                                    2 
+                                    1
+                                          = (cos 12 δ)I + i(sin 21 δ) σ1 = exp(i 12 δ σ1 ),      (24)
+                    i sin 2 δ cos 2 δ
+where I is the 2 × 2 identity matrix, which corresponds to a rotation on the Poincaré sphere
+through an angle −δ about the X-axis.
+    There exist two diametrically opposite points of the Poincaré sphere that are invariant under
+this rotation (the points on the intersection of the Poincaré sphere and the X-axis), which, there-
+fore, correspond to polarization states that are not affected by this filter. These two polarization
+states are linearly polarized waves with the electric field along the x-axis or the y-axis [the states
+
+                                                           7
+(20)], as one would expect. (Note that, owing to the definition of the angle φ given in Sec. 2, a
+rotation of the coordinate axes in the xy-plane through an angle α produces the substitution of
+φ/2 by (φ/2) − α, which corresponds to the action of the matrix
+                                                  
+                                     
+                                       eiα 0 
+                                               = exp(iα σ3 )                                    (25)
+                                        0 e−iα
+
+on the spinor o. This SU(2) matrix, in turn, corresponds to a rotation on the Poincaré sphere
+through an angle −2α about the Z-axis. Thus, a rotation by 90◦ in the xy-plane, which trans-
+forms a linear polarization along the x-axis into a linear polarization along the y-axis, corresponds
+to a rotation by 180◦ in the Poincaré sphere.)
+    According to Eqs. (16), with respect to the basis (20), formed by linearly polarized states,
+the spinor transformation (23) is given by the unitary matrix
+                                                                                        
+                                                              eiδ/2 0   e−iδ1  0 
+            e−i(δ1 +δ2 )/2 exp(i 21 δ σ3 ) = e−i(δ1 +δ2 )/2             =            ,         (26)
+                                                                0 e−iδ/2   0    e−iδ2
+
+as one would expect, owing to the definition of δ1 and δ2 .
+    In order to reduce the possible confusions coming from the simultaneous use of two different
+bases, it is convenient to make use of Dirac’s notation, denoting by |+i and |−i the states with
+circular polarization (19), respectively. Then,
+                                     1              1
+                              |xi ≡ √ e−iπ/4 |+i + √ e−iπ/4 |−i,
+                                      2              2
+                                       1            1
+                              |yi ≡ − √ eiπ/4 |+i + √ eiπ/4 |−i,                                (27)
+                                        2             2
+correspond to states with linear polarization (the states (20), which are essentially the states |vi
+and |hi with vertical and horizontal polarization employed in Ref. 5). (See Eq. (15).) In this
+manner, the SU(2) transformation (24) is expressed as
+                                                                         
+                             (cos 12 δ)I + i(sin 21 δ) |+ih−| + |−ih+| ,
+
+which, by virtue of Eqs. (27), amounts to
+
+                                       |xieiδ/2 hx| + |yie−iδ/2 hy|                             (28)
+
+and corresponds to the diagonal matrix diag (eiδ/2 , e−iδ/2 ) appearing in Eq. (26).
+    The effect represented by the SU(2) transformation (28) comes from the anisotropy of the
+medium, which produces different effects on the linearly polarized waves with electric field along
+the x-axis or the y-axis. In an analogous manner, a gyrotropic medium (see, e.g., Ref. 15)
+produces different effects on the waves with right or left circular polarization; therefore, the
+effect of a gyrotropic medium is represented by
+                                                                                      
+               |+ie−iδ1 h+| + |−ie−iδ2 h−| = e−i(δ1 +δ2 )/2 |+ieiδ/2 h+| + |−ie−iδ/2 h−| ,
+
+                                                    8
+where δ ≡ δ2 −δ1 , or by the unitary matrix e−i(δ1 +δ2 )/2 exp(i 21 δ σ3 ), which corresponds to a rotation
+on the Poincaré sphere through an angle −δ about the Z-axis.
+   Hence, with respect to the basis (20), formed by states with linear polarization, making use
+of Eqs. (16) or (27), the effect of a gyrotropic medium will be represented by a matrix of the
+form                                                                                     
+                                                                           1         1
+                                                                      cos    δ − sin    δ
+                    e−i(δ1 +δ2 )/2 exp(i 21 δ σ2 ) = e−i(δ1 +δ2 )/2       2          2 
+                                                                                            .          (29)
+                                                                      sin 21 δ   cos 12 δ
+   A quarter-wave plate [9] is a phase shifter corresponding to a rotation on the Poincaré sphere
+through π/2 about an axis on the XY -plane. Hence, with respect to the basis {|+i, |−i}, it is
+represented by the SU(2) matrix
+                                                                 1
+          (cos π/4)I − i(sin π/4)[(cos 2θ) σ1 + (sin 2θ) σ2 ] = √ [I − i(cos 2θ) σ1 − i(sin 2θ) σ2 ],
+                                                                  2
+where θ is the angle between the axis of the plate and the x-axis [see the discussion after Eq.
+(25)], and, according to Eqs. (16), with respect to the basis {|xi, |yi}, it is represented by
+                                         1
+                                        √ [I − i(cos 2θ) σ3 − i(sin 2θ) σ1 ].
+                                          2
+A half-wave plate is a phase shifter corresponding to a rotation on the Poincaré sphere through
+π about an axis on the XY -plane and, therefore, is represented by the square of the matrix
+corresponding to a quarter-wave plate.
+
+
+3.2        Attenuators
+In the case of an optical filter that produces an attenuation given by a factor e−η1 for the x-
+component of the electric field and an attenuation given by e−η2 for the y-component, the electric
+field (4) is replaced by
+                     n      h                                                                                 i
+          E = A e−η1 cos 12 θ cos(ωt − kz + 21 χ + 21 φ) + sin 12 θ cos(ωt − kz + 21 χ − 21 φ) x̂
+                           h                                                                                i o
+                   + e−η2 cos 12 θ sin(ωt − kz + 21 χ + 21 φ) − sin 12 θ sin(ωt − kz + 21 χ − 12 φ) ŷ . (30)
+
+This expression is equivalent to
+                                          n
+          Ex + iEy = Ae−(η1 +η2 )/2 ei(ωt−kz) [cosh 12 η cos 12 θ ei(χ+φ)/2 + sinh 21 η sin 12 θ ei(χ−φ)/2 ]
+                                                                                                        o
+                            + e−i(ωt−kz) [cosh 21 η sin 21 θ e−i(χ−φ)/2 + sinh 12 η cos 21 θ e−i(χ+φ)/2 ] ,
+
+which is of the form (9), with the two-component spinor o replaced by
+                                                                                                       
+                                      1        1       1
+      
+        o′1     −(η1 +η2 )/2  cosh 2 η sinh 2 η   o     −(η1 +η2 )/2      1        
+                                                                                          o1 
+              = e                                         = e             exp( 2
+                                                                                 η σ1 )        ,                  (31)
+        o′2                     sinh 21 η cosh 12 η   o2                                  o2
+
+
+                                                            9
+where η ≡ η2 − η1 . The 2 × 2 matrix appearing in Eq. (31) is unimodular, but does not belong
+to SU(2) and, therefore, it does not correspond to a rotation on the Poincaré sphere. Rather,
+it corresponds to a conformal transformation of the sphere (see, e.g., Ref. 16). In any case, the
+effect of the attenuator on the polarization state of a wave is represented by a transformation on
+the points of the Poincaré sphere.
+    Clearly, if there is an attenuation given by a factor e−η1 for the x-component of the electric
+field and an attenuation given by e−η2 for the y-component, the column matrix (6) is replaced
+by                                                                 
+                                ′                   η/2
+                              E
+                            x  = e−(η1 +η2 )/2 
+                                                   e       0        E
+                                                                x ,
+                                ′                         −η/2
+                                                                                              (32)
+                              Ey                     0 e            Ey
+and the non-unitary, unimodular matrix appearing in this last equation, which can be expressed
+as exp( 12 η σ3 ), is exactly what we should expect taking into account Eqs. (31) and (16).
+
+
+4    Partially polarized beams
+As is often remarked, by contrast with the Jones vector, the Stokes parameters can also be used
+to deal with partially polarized beams. In this section we show that the two-component spinor
+formalism can be easily adapted to handle partially polarized light, and, as we shall see, the
+resulting description is equivalent to that given by the coherency matrix (cf. Ref. 11, Appendix
+B).
+    The Stokes parameters allow us to distinguish a completely polarized beam from a partially
+polarized beam. Letting
+                                     S ≡ s0 2 − s1 2 − s2 2 − s3 2 ,                        (33)
+it turns out that for a completely polarized beam, S = 0 [cf. Eq. (5)], while for a partially
+polarized beam, S > 0 (see, e.g., Ref. 6, Sec. 10.8.3). The four Stokes parameters can be related
+to a 2 × 2 Hermitean matrix, C, by means of
+
+                                sα = tr (Cσα ),        (α = 0, 1, 2, 3)                      (34)
+
+where tr denotes the trace, σ0 ≡ I, and σ1 , σ2 , σ3 , are the Pauli matrices, as above.
+   The Hermitean matrix ρ ≡ C/s0 has the usual properties of a density matrix (or density
+operator) as defined in Quantum Mechanics (see, e.g., Ref. 17), namely
+
+                                     tr ρ = 1,         tr ρ2 ⩽ 1.                            (35)
+
+In fact, Eqs. (34) (together with the condition C † = C) are equivalent to
+                                                                   
+                                    1  s0 + s3 s1 − is2 
+                                  C=                                                        (36)
+                                    2 s1 + is2 s0 − s3
+
+
+                                                  10
+that is,
+                                                    3
+                                                 1X
+                                              C=       sα σα                                    (37)
+                                                 2 α=0
+and one readily verifies that tr C = s0 , and tr C 2 = s0 2 − S/2, which amount to Eqs. (35), taking
+into account that S ⩾ 0.
+    Furthermore, det C = S/4; hence, in the case of a completely polarized wave (S = 0), the
+matrix C, having determinant equal to zero, must be of the form ψψ † , where ψ is some two-
+component spinor. In fact, writing C = s0 oo† , where o is a normalized spinor, we recover the
+(“pure state”) case considered in Sec. 2. Indeed,
+
+                                  tr (Cσ0 ) = s0 tr (oo† ) = s0 o† o = s0 ,
+
+and
+                      tr (Cσi ) = s0 tr (oo† σi ) = s0 o† σi o = si ,    (i = 1, 2, 3)
+[see Eq. (11)], reproducing Eqs. (34).
+    The matrix C, being Hermitean, possesses two mutually orthogonal unit eigenspinors with
+real eigenvalues. These unit spinors correspond to two diametrically opposite points of the
+Poincaré sphere [see Ref. 1, Eq. (18)]. Since C is a 2 × 2 matrix, its two eigenvalues coincide
+only when C is a multiple of the identity matrix and, only in this case, which corresponds to
+“unpolarized” light (s1 = s2 = s3 = 0), the direction of the eigenspinors of C is not uniquely
+defined. In all cases, the unit eigenspinors of C are defined up to a phase factor, hence, there
+are no uniquely defined tangent vectors to the Poincaré sphere at these points, analogous to the
+vector Re M defined in Sec. 2.
+    Thus, in the case of a partially polarized beam (a “mixed state”), the polarization state defines
+two diametrically opposite points of the Poincaré sphere (except in the case of unpolarized light).
+However, these two points (which correspond to the eigenspinors of C) do not fully specify the
+matrix C, since the eigenvalues need to be known. According to the discussion in Sec. 2, the
+vectors ±(s1 , s2 , s3 ) point along the directions of the points of the Poincaré sphere representing
+the partially polarized beam.
+    When the beam is completely polarized, C is of the form C = s0 oo† ; the unit spinor o is an
+eigenspinor of C (Co = s0 oo† o = s0 o) and any spinor orthogonal to o (e.g., the mate of o [1]) is
+also an eigenspinor of C (with eigenvalue equal to zero).
+    As with any matrix, the form and properties of C depend on the basis employed. Fortunately,
+making use of Eq. (37), which gives C in terms of the Pauli matrices, and Eqs. (16), we can obtain
+at once the expression of C in the basis formed by the unit spinors (20); the resulting expression
+is                                                                                 
+                           1                               1   s 0 + s 1 s 2 − is 3 
+                     Ce = (s0 I + s1 σ3 + s2 σ1 + s3 σ2 ) =                          .          (38)
+                           2                               2 s2 + is3 s0 − s1
+
+
+
+                                                      11
+Taking into account the relationship between the Stokes parameters and the elements of the
+coherency matrix, Jij (see, e.g., Ref. 6, Sec. 10.8.3), we have
+                                                                     
+                                                       Jxx Jyx 
+                                                Ce =            .                                                    (39)
+                                                       Jxy Jyy
+
+    When a partially polarized beam passes through a phase shifter, the matrix C, corresponding
+to the initial beam, is replaced by QCQ† , where Q is the SU(2) matrix representing the effect of
+the filter on the state of polarization (exp(i 12 δ σ1 ) or exp(i 21 δ σ3 ) in the cases considered in Sec.
+3.1; note that the factors e−i(δ1 +δ2 )/2 appearing in Eqs. (23) and (29) are not present in QCQ†
+because they have unit modulus). The eigenspinors of QCQ† are the images under Q of those
+of C; therefore, the diametrically opposite points on the Poincaré sphere defined by QCQ† are
+obtained from those defined by C by means of the rotation corresponding to Q (see also Refs.
+18 and 19).
+    Similarly, when a partially polarized beam passes through an attenuator, the initial matrix
+C is transformed into
+
+       e−(η1 +η2 )/2 exp( 21 η σ1 ) C [e−(η1 +η2 )/2 exp( 21 η σ1 )]† = e−(η1 +η2 ) exp( 12 η σ1 ) C exp( 12 η σ1 )
+
+[see Eq. (31)], which is of the form (37), with (s0 , s1 , s2 , s3 ) replaced by
+
+                     e−(η1 +η2 ) (s0 cosh η + s1 sinh η, s1 cosh η + s0 sinh η, s2 , s3 ).                            (40)
+
+Thus, apart from the overall factor e−(η1 +η2 ) , the effect of an attenuator on the Stokes parameters
+has the form of a Lorentz boost in the x-direction (see also Refs. 10 and 11).
+
+
+5     Conclusions
+We have shown that the several objects and formalisms employed in the study of the polarization
+of electromagnetic waves are deeply related, despite their apparent differences. In particular, the
+identification of the Jones vector with a SU(2) spinor, allows us to represent the Jones vector by a
+tangent vector to the Poincaré sphere, in terms of which, among other things, the Pancharatnam
+phase can be visualized.
+
+
+Acknowledgments
+One of the authors (I.R.G.) would like to thank the Departamento de Física Matemática of the
+Instituto de Ciencias, Universidad Autónoma de Puebla for its kind hospitality, the Sistema Na-
+cional de Investigadores (México) and the Cuerpo académico de partículas, campos y relatividad
+general (U.A.P.) for financial support. The authors would also like to thank the referee for useful
+comments and for pointing out Refs. 12, 18, and 19 to them.
+
+                                                           12
+References
+ [1] G. F. Torres del Castillo, J. Phys. A: Math. Theor. 41 (2008) 115302.
+
+ [2] W. T. Payne, Am. J. Phys. 20 (1952) 253.
+
+ [3] S. Pancharatnam, Proc. Ind. Acad. Sci. A 44 (1956) 247. Reprinted in Geometric Phases in
+     Physics, edited by A. Shapere and F. Wilczek (World Scientific, Singapore, 1989).
+
+ [4] M. V. Berry, J. Mod. Optics 34 (1987) 1401. Reprinted in Geometric Phases in Physics,
+     edited by A. Shapere and F. Wilczek (World Scientific, Singapore, 1989).
+
+ [5] B.-G. Englert, C. Kurtsiefer, and H. Weinfurter, Phys. Rev. A 63 (2001) 032303.
+
+ [6] M. Born and E. Wolf, Principles of Optics, 6th ed. (Cambridge University Press, Cambridge,
+     1997).
+
+ [7] R. D. Guenther, Modern Optics (Wiley, New York, 1990), Chap. 2.
+
+ [8] D. S. Kliger and J. W. Lewis, Polarized Light in Optics and Spectroscopy (Academic Press,
+     New York, 1990).
+
+ [9] R. Simon and N. Mukunda, Phys. Lett. A 143 (1990) 165.
+
+[10] D. Han, Y. S. Kim, and M. E. Noz, Phys. Rev. E 56 (1997) 6065.
+
+[11] D. Han, Y. S. Kim, and M. E. Noz, J. Opt. Soc. Am. A 14 (1997) 2290.
+
+[12] T. Tudor, J. Phys. A: Math. Theor. 41 (2008) 415303.
+
+[13] G. F. Torres del Castillo, 3-D Spinors, Spin-weighted Functions and their Applications
+     (Birkhäuser, Boston, 2003).
+
+[14] J. C. Loredo, O. Ortíz, R. Weingärtner, and F. De Zela, Phys. Rev. A 80 (2009) 012113.
+
+[15] L. D. Landau, E. M. Lifshitz, and L. P. Pitaevskiı̆, Electrodynamics of Continuous Media,
+     2nd ed. (Pergamon Press, Oxford, 1984), §101.
+
+[16] R. Penrose and W. Rindler, Spinors and space-time, Vol. 1 (Cambridge University Press,
+     Cambridge, 1984), Sec. 1.3.
+
+[17] K. Gottfried and T.-M. Yan, Quantum Mechanics: Fundamentals, 2nd ed. (Springer-Verlag,
+     New York, 2003), Sec. 2.2.
+
+[18] T. Tudor and V. Manea, J. Opt. Soc. Am. B 28 (2011) 596.
+
+[19] J.J. Gil, Eur. Phys. J. Appl. Phys. 40 (2007) 1.
+
+
+                                               13
+

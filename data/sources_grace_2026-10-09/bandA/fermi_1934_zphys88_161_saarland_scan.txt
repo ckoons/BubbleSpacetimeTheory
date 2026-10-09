@@ -1,0 +1,729 @@
+Zeitschrift für Physik 88 (1934) 161
+
+
+
+
+                                                                                            161
+
+
+
+                      V e r s u c h einer Theorie der p-Strahlen.                 I1).
+                                        Von E. Fermi in Rom.
+                       M.it 3 Abbildungen. (Eingegangen am 16. Januar 1934.)
+            Eine quantitative Theorie des fl-Zerfalls wird vorgesehlagen, in weleher man
+            die Existenz des Neutrinos annimmt, und die Emission der Elektronen und
+            Neutrinos aus einem Kern beim ~-Zeffall mit einer ~hnliehen Methode behandelt,
+            wie die Emission eines Lichtquants aus einem angeregten Atom in der Strah-
+            lungstheorie. Formeln fiir die Lebensdauer und fiir die Form des emittierten
+            kontinuierlichen/~-Strahlenspektrums werden abgeleitet und mit der Effahrung
+                                              verglichen.
+                                       1. Grundannahmen der Theorie.
+                 Bei dem Versuch, eine Theorie der Kernelektronen sowie der/~-Emission
+            aufzubauen, begegnet man bekanntlieh zwei Sehwierigkeiten. Die erste
+            ist dutch das kontinuierliche fl-Strahlenspektrum bedingt. Falls der Er-
+            haltungssatz der Energie giiltig bleiben sell, mu~ man annehmen, dab ein
+            Brnehteil der beim /%Zeffall ffei werdenden Energie unseren bisherigen
+            BeobachtungsmSglichkeiten entgeht. Naeh dem Vorschlag von W. P a u l i
+            kann man z.B. annehmen, dab beim /~-Zerfalt nieht nut ein Elektron,
+            sondern auch ein neues Teilchen, das sogenannte ,,Neutrino" (Masse yon
+            der GrSBenordnung oder kleiner als die Elektronenmasse; keine elektrisehe
+            Ladung) emittiert wird. In der vorliegenden Theorie werden wir die Hypo-
+            these des Neutrinos zugrunde legen.
+                 Eine weitere Schwierigkeit fi~r die Theorie der Kernelektronen besteht
+            darin, dab die jetzigen relativistischen Theorien der leiehten Teilehen
+            (Elektronen oder Neutrinos) niehf imstande slnd, in einwandfreier Weise
+            zu erkl~ren, wie solche Teilehen in Bahnen yon Kerndimensionen gebunden
+            werden kSnnen.
+                 Es seheint deswegen zweckm~Biger, mit H e i s e n b e r g ~) anzunehmen,
+            dab ein Kern nut aus schweren Teilchen, t'rotonen und Neutronen, be-
+            steht. Um trotzdem die M5gliehkeit der/~-Emission zu verst~hen, wollen
+            wit versuchen, eine Theorie der Emission leiehter Teilehen aus einem Kern
+            in Analogie zur Theorie der Emission eines Liehtquants aus einem an-
+            geregten Atom beim 'gewShnlichen StrahlungsprozeB aufzubauen. In der
+            Strahlungst.heorie ist die totale Anzahl der Lichtquanten keine Konstante:
+            Lichtquanten entstehen, wenn sie von einem Atom emittiert werden,
+            und versehwinden, wenn sie absorbiert werden. In Analogie hierzu wollen
+            wir der fl-Strahlentheorie folgende Annahmen zugrunde legen:
+                1) Vgl. die vorl~ufige Mitteilung : La Ricerca Scientifica 2, Heft 12, 1933. --
+            e) W. H e i s e n b e r g , ZS. f. Phys. 77, 1, 1932.
+                                                                                 11"
+162                               E. Fermi,
+
+     a) Die totale Anzahl der Elektronen, sowie der Neutrinos, ist nieht
+notwendigerweise konstant. Elektronen (oder Neutrinos) kSnnen ent-
+stehen tmd verschwinden. Diese MSgliehkeit hat jedoeh keine Analogie
+zmn Entstehen oder Versehwinden eines Paares aus einem Elektron und
+einem Positron; falls man das Positron als Diraesehes ,,Loch" inter-
+pretiert, kann man in der Tat diesen letzten Prozel] einfaeh als einen Quanten-
+sprung eines Elektrons zwischen einem Zustand mit negativer Energie und
+einem Zustand mit positiver Energie mit Erhaltung der totalen (unendlieh
+groften) Anzahl der Elektronen auffassen.
+     b) Die schweren Teflehen, Neutronen und Protonen, kSnnen wie bei
+I~eisenberg als zwei innere Quantenzust~nde des sehweren Teilchens
+betrachtet werden. Wir formulieren dies dutch die Einfiihrung einer inneren
+Koordinate ~ des sehweren Teilchens, welehe nut zwei Werte annehmen
+kann: ~ ~- 1, fails das Teilehen ein Neutron ist; ~ ~ - - 1, falls das Teilehen
+ein Proton ist.
+     e) Die HamiltomFunktion des. aus sehweren und leichten Teilehen
+bestehenden Systems muff so gewahlt werden, dal] jedem l~bergang yon
+Neutron zu Proton das Entstehen eines ~tektrons und eines Neutrinos
+zugeordnet ist. Dem umgekehrten Prozeft, Verwandlung eines Protons in
+ein Neutron, sell dagegen das Versehwinden eines Elektrons and eines
+Neutrinos zugeordnet sein. Man bemerke, daft hierdureh die Erhaltung
+der Ladung gesichert ist.
+
+               2. Die in der Theorie au/tretenden Operatoren.
+    Ein mathematiseher Formalismus der Theorie in Einklang mit diesen
+drei Forderungen kann am leichtesten mit ttilfe der D i r a e - J o r d a n -
+Kleinsehen Methode 1) der ,,zweiten Quantelung" aufgebaut werden. Wir
+werden also die Wahrseheinlichkeitsamplituden to und c2 tier Elektronen
+mad der Neutrinos sowie die komplex konjugierten GrSften v2* und ~o*
+als Operatoren auffassen; ffir die Besehreibung der schweren Teilchen
+werden wit dagegen die iibliehe Darsteilung im Konfigurationsraum be-
+nutzen, wobei natorhch auch Q als Koordinate mitgez~Mt werden mull
+     Wir fiihren zuerst zwei Operatoren Q und Q* ein, welehe auf die Funk-
+tionen der zweiwertigen Varia.blen ~ als die hnearen Substitutionen
+
+                          Q =   i011
+                                 o o ;             o   L                     (1)
+
+    1) Vgl. z. B. P. Jordan u. O. Klein, ZS. f. Phys. 45, 751, 1927 ; W. Heisen-
+berg, Ann. d. Phys. 10, 888, 1981.
+                    VersuCh einer Theorie der ~-Strahlen. I.                        163
+
+wirken. Man sieht ohne weiteres, dal3 Q einem Ubergang yon Proton zu
+Neutron entsprieht trod Q* einem ~bergang yon Neutron zu Proton.
+    Die Bedeutung der als Operatoren aufgefai]ten Wahrseheinliehkeits-
+aniplituden ~ und 99 ist bekanntlieh die folgende: Sei
+                                        ~1~0~... % . . .
+ein System individueller Quantenzust~inde ftir die Elektronen. Man setze
+weiter
+
+                                    z                        s
+
+
+       Die Amplituden a~ tmd die komplex konjugierten GrSl]en a* sind
+Operatoren, welche auf die Funktionen der Besetzungszahlen N1, N~ . . . . .
+N8 . . . . der individuellen Quantenzusti~nde wirken. Im FaUe des Pauli-
+Prinzips ist jedes der Ns nut der beiden Werte 0 trod 1 f~hig. Die Ope-
+ratoren a s und a* sind dann folgendermal~en definiert:
+a ~ ( N ~ N ~ ' " N ~ ' " ) = ( - 1 ) ~ + ~v~+'"+ ~v~-~(1-Ns)T(N~N2""I"N~"')I~ 3
+                                                                                       )
+a* T(N~N 2 . N,. . .)-- (-1) lv~+ ~v2+... + lv~_ ~N, T (N~ N~... 1 - N , . . . ) J ' (
+    Der Operator as* entsprieht der Erzeugung und der Operator as dem
+Versehwinden eines Elektrons im Quantenzustand s.
+    Entsprechend zu (2) setze ~nan fiir die Neutrinos
+
+                           -----                      ----       9~ b,.              (4)
+                                   (/                        G
+
+
+     Die komplex-konjugierten GrSl]en b, und b* sind Operatoren, die
+auf die Ftmktionen der Besetzungszahlen M1, M 2...... M o. . . . der indi-
+viduellen Quantenzusti~nde 9~1, 9~ . . . . . 9~o. . . . der Neutrinos wirken.
+Nimmt man an, dal~ aueh fiir die Neutrinos das Pauli-Prinzip gilt, so sind
+die Zahlen M~ nur der beiden Werte 0 und 1 fahig. Es ist ferner:
+boq~(M~M~... Me...)---- (--1) M~§  "§    ~ (1-Mq)~(M~M~... 1 -M~...)I
+b*q~(M~M~...M,, ..)-----(--1)~+M~+'"+M"--I M~ q5 (M~ M~ .... 1 - M,~...)~" (5)
+    Die Operatoren b,~ und b* entsprechen dem Verschwinden bzw. dem
+Entstehen eines Neutrinos im Quantenzustand a.
+
+                     3. Au/stellung der Hamilton-Funktion.
+     Die Energie des gesamten, aus sehweren und leichten Teilehen be-
+stehenden, Systems ist die Summe der Energien H~o~wer der sehweren
+Teilehen ~- Hlele~t der leichten Teilchen ~- der Weehselwirkungsenergie H
+zwisehen sehweren und leiehten Teilehen.
+164                                  E. Fermi,
+
+    Das erste Glied schreiben wit, indem wit vorl~ufig nut ein einziges
+sehweres Teilehen betrachten, in der Form
+
+                     H.~h,,~ -- 1 +2 o N +            --~-~ P,           (~)
+we N und P die Energieoperatoren des Neutrons bzw. des Protons dar-
+stellen. Fiir Q ----1 (Neutron) reduziert sich in der Tat (6) auf N; fiir
+   - - - - - ] (Proton) reduziert sich (6) auf P.
+       Die Energie H1eieht der leichten Teilehen nimmt die einfachste Form
+an, wenn man als Quantenzustfinde ~o1~0~. .. ~ s . . . und ~1~~ 9 ~ o ' . -
+stationiire Zust~nde fiir die Elektronen bzw. die Neutrinos nlmmt.
+Fiir die Elektronen sell man dabei etwa die station~ren Zust~inde im
+Coulomb-Feld des Kems, unter Beriieksichtigung der Elektronenabsehir-
+mung, wiihlen. Fiir die Neutrinos kann man einfaoh ebene de Broglie-
+Wellen annehmen, da wohl die auf die Neutrinos wirkenden Kriifte keine
+wesentliche Rolle spielen. Seien HIH~...118... und K1Ke... K,~...
+die Energien der stationiiren Zustiinde der Elektronen und der Neutrinos;
+dann haben wit:
+
+                                 8
+
+     Es bleibt nut noeh die Weehselwirkungsenergie zu schreiben. Diese
+besteht erstens aus der Coulomb-Energie zwisehen Proton und Elektronen;
+bei schweren Kernen spielt jedoeh die Anziehung dureh ein einziges Proton
+nut eine untergeordnete Rolle x) und tr~gt in keinem Falle zum ProzeB
+des fl-Zerfalls bei. Wit wollen also dies Glied der Einfaehheit halber nieht
+beriieksiehtigen. Wir miissen hingegen zur Hamilton-Funktion ein Glied
+addieren, das die Bedingung c) yon Ziffer 1 erfiillt.
+     Ein Glied, das notwendigerweise die Verwandlung eines Protons in
+ein Neutron mit dem Versehwinden eines Elektrons und eines Neutrinos
+koppelt, hat nun naeh Ziffer 2 die Form
+                                      q a~ b~.                           (8)
+     Der komplex konjugierte Operator
+                                Q* a* ~'*                              (8')
+koppelt dagegen die umgekehrten Prozesse (Verwandlung eines l~eutrons
+in ein Proton und Entstehen eines Elektrons und eines Neutrinos).
+     Ein Weehselwirkungsglied, das die Bedingung e) erfiillt, kann also in
+der folgenden Form geschrieben werden:
+                 H = Q ~ c~qa,,bq--}-Q*~.j c*s,~a~b*~,                  (9)
+                            80                   80
+
+    1) Die Coulombsche Wirkung der zahlreichen iibrigen Protonen muB
+nar       ats statisches l~eld in Betraeht gezogen werden.
+                  Versueh einer Theorie der fl-Strahlen. I.               165
+
+wo cs, ~ und c*,~ GrSgen darstellen, die yon den Koordina~en, I_mpulsen usw.
+des schweren Teilchens abh~ngen kSnnen.
+    Zur n/iheren Bestimmung yon H is~ man auf Einfachheitskriterien
+angewiesen. Eine wesentliche Einschriinkung in der Freiheit der Wahl
+yon H ist durch die Erhaltung des Impulses sowie durch die Bedingung
+gesetzt, dais bei einer Drehang oder einer Translation der Raumkoordi-
+na~en (9) invariant bleiben muli
+     Sehen wir mmitehst yon den Relativitgtskorrektionen and der Spin-
+wirkung ab, so ist wohl die eintaehst mSgliche Wahl yon (9) die folgende:
+                 H ---- g {Qv (x) ~0 (x) + Q*~o* (x) q0* (x)},            (10)
+
+wo g eine Konstan~e mi~ den Dimensionen L S M T -~ darstellt; x repr~-
+sentiert die Koordinaten des sehweren Teilehens; ~o, ~o, ~o*, ~* sind dureh
+(2) und (4) gegeben und sind an dent Orte x, y, z des sehweren Teilchens
+zu nehmen.
+     (10) stellt keineswegs die einzig mSgliche Wahl yon H dar. Jeder
+skalare Ausdruek, wie etwa
+              L (p) ~o (x) M (p) ~o (x) N (p) + kompl, konjug.,
+
+wo L (p), M (p), N (p) passende Funktionen des Impulses des schweren
+Teilchens darsr       wiirde ebensogut mSglich sein. Da jedoch die Folge-
+rungen aus (10) bisher mit der Erfahrung in Einklang zu sein scheinen,
+ist es wohl besser, sieh vorl~ufig auf die einfachste Wahl zu beschri~nken.
+     Wesentlieh ist es jedoch, den Ausdruck (10) derart zu verallgemeinern,
+dab man mindestens die leichten Teilehen relativistisoh behandeln kann.
+Aueh bei dieser Verallgemeinerung ist natiirlich eine gewisse Willkiir nieht
+auszuschlielSen. Die einfachste LSsung des Problems diirf~e die folgende sein:
+     Relativis~iseh treten an Stelle yon V and ~0 je Vier Diraesche Fank-
+tionen V1 ~o~V3 YJaund ~01q%~oa ~o4. Wir be~rachten nan die"16 unabh~ngigen
+bilinearen Kombinationen aus ~o1 ~o2 V~ ~P4 und ~o1~02~o8 epa. Bei einer
+Lorentz-Transformation der Koordinaten erfahren diese 16 trSlSen eine
+lineare Transformation, eine Darstellung der Ordnung 16 der Lorentz-
+Gruppe. Diese Darstellung sparer sich in versehiedene einfaehere Dar-
+stellungen; ira besonderen transformieren sich die vier bilinearen Kombi-
+nationen :
+                 Ao : ~         v21qo 2 + ~ o i + y%~04-- y~4~03, ]
+
+                 2 t l ~--- ~01 ~ P 3 - - V2~04 - Vs~O1 -'}- V 4 ~ 2 , I (11)
+
+                                                                 !
+166                                      E. Fermi,
+
+wie die Komponenten eines polaren Vierervektors, also wie die Kompo-
+nenten des elektromagnetischen Viererpotentials. Es liegt nun nahe, die
+GrSBen
+                                g (QAi + Q'A*)
+in der Hamilton-Funktion des sehweren Teilehens in einer S~ellung auf-
+zunehmen, die der S~ellung der Komponenten des Viererpotentials ent-
+sprieht.
+      Hier begegnen wit einer Sehwierigkeit, welehe davon herrflhrt, dab
+die relativistische Wellengleiehung fiir die sehweren Teilehen unbekannt
+ist. Falls die Gesehwindigkeil des sehweren Teilehens klein gegentiber c
+ist, kann man sieh jedoch auf den zu e V (V ---- skalares Potential)analogen
+Term besehr/inken und sehreiben:
+      H ---- g [Q ( - - ~192 + YJ291 + YJ39~ - - ~P, 93)
+                         + Q* (-- ~* 9~ + ~ 9" + ~'9"          ~ 9t)].    (~)
+    Zu "diesem Glied sollen noeh andere Glieder yon der GrSBenordnung vie
+addiert werden. Da "die Geschwindigkei~en tier Neutronen mid Pro~onen
+in den Kernen gewShnlieh klein gegenflber der Liehtgesehwindigkei~ sind,
+wollen wir diese Glieder vorl/iufig veriiachl/~ssigen (vgl. hierzu Ziffer 9).
+    (12) kann in symbolischer Schroibweise folgendermaBen abgektirzt
+werden:
+                      H ---- g[Q'~*89 + Q " ~ 9 " ] ,                   (13)
+we ~p und 9 als vertikale Ma~rixspalteii zu schreiben sind; da~ Zeiehen ~-~
+verwandelt eine Matrix in die konjugier~ transponier~e; und es ist
+                                         0 --1        0   0
+                                         1    0      .0   0
+                               ----      0    0    0      1               (14)
+                                         0    0--1        0
+Mit diesen Bezeichnungen bekomm~ man dutch Vergleieh mit (9)
+                    e,~ ---- g ~ 9 - ;         e*~ = g~,O9*,              (15)
+we ~p~ und 9~ die normierten vierkomponentigen Eigenfunktionen der Zu-
+st~iide s (des Elek~rons) und a (des Neutrinos) darstellen. ~o und 9 sind
+in (15) an der Stelle des sehweren Teilehens, also als Funktionen yon x, y, z,
+zu IIehmen.
+                             4. Die Stfrungsmat~'ix.
+    Die Theorie des fl-Zerfalls kalm mi~ Hilfe der aufges~ellten Hamilton-
+Funktion in yeller Analogie zur Strahlungstheorie durehgefiihrt werden.
+In dieser letz~eren bosteht die Hamilton-Ftmktion bekanntlieh aus der
+                      Versuch einer Theorie der fl-Strah]en. I.                                  167
+
+Summe: Energie des Atoms -}- Energie des reinen Strahlungsfeldes q- Kopp-
+hmgsenergie. Dies letzte Glied wlrd als StSrung der beiden anderen auf-
+gefal~t. In Analogie hierzu werden wit in finserem Falle die Summe
+                                           gschwer q- Hleicht                                    (16)
+als ungestSrte Hamilton-Funktion betrachten; hinzu kommt die dureh das
+Kopplungsglied (18) dargestellte StSrung.
+     Die Quantenzusti~nde des ungestSrten Systems kSnnen folgendermal3en
+numeriert werden:
+                     (e, n, N1N       2.    . . Ns    . . . M1M2        . . .Mo.    . .),        (17)
+we die erste Zahl Q elnen der beiden Werte q-1 a~nlmmt und angibt, ob
+das sehwere Teilehen ein Neutron oder ein Proton ist. Die zweite Zahl n
+numeriert den Quantenzustand des Neutrons oder des Protons. Ftir ~ ~ 1
+(Neutron) sei die entspreehende Eigenfunktion
+                                                     ~ (x),                                      (is)
+we x die Koordinaten des sehweren Teilchens, bis auf ~, darstellt.                               Ftir
+~o ~ - 1 (Proton) sei die Eigenfunktion
+                                                     v . (x).                                    (29)
+Die iibrigen Zahten N 1 N 2 . . . N 8 . . . M 1 M ~ . . . M , , . . . sind nur der beiden
+Werte 0 und 1 f~hig und geben an, ob der betreffende Zustand des Elek-
+trons oder des Neutrinos bese~zl ist.
+     Fal3t man nun die allgemeine Form (9) der SfSrungsenergie ins Auge,
+so sieht man, dal~ sie yon Null versehiedene Elemente nut ftir solche Uber-
+g~nge hat, bei denen entweder das sehwere Teilehen yon einem Neutron
+in einen Protonenzustand iibergeht und zugleieh ein Elektron und ein
+Neutrino entstehen, oder umgekehrt.
+     M_it I-Iilfe von (1), (8), (5), (9), (18), (19) finder man ohne weiteres
+das betreffende Matrlxelement
+            Hlnlvllv2...       os... MIM2...           Oo...     ...   __   q-~v*   c*ou,~d~:,   (20)
+              -- ~ m N i ~ h    . . . 1 s . . . M~ ~ 2 . . . l o
+
+wo die Integration fiber den Konfigurationsraum des sehweren Teilehens
+(bis auf die Koordinate ~) erstreekt werden mul3. Dag q--Zeichen bedeutet
+genauer
+               (__ 1)Nt + N., + . . . +/vs_ ~ +~6 + ~ + . ' - + ~ - ~
+
+und wird i~brigens aus den folgenden Rechnungen herausfallen. Dem ent-
+gegengesetzten Ubergang entspricht ein komplex konjugiertes Matrix-
+element.
+168                                                   E. Fermi,
+
+      Fi~hrt man fiir cs~
+                       * den Weft (15) ein, so erhMt man
+                         H*-OsOo = -4-g~v*mun~s~ep*dT,                                                  (21)
+                                 - - 1 rn 1#1 a        --
+
+wo der Kfirze wegen im ersten Glied alle gleichbleibenden Indizes fort-
+gelassen worden sind.
+
+                                          5. Theorie des fl-Zer[alls.
+       Ein fl-Zerfall besteht in einem Proze~, bei welehem ein Kernneutron
+sieh in ein Proton verwandelt und gleiehzeitig mi~ dem gesehilderten Me-
+chanismus ein Elektron, das als fl-Strahl beobaehtet wird und ein Neu-
+trino emittiert werden. Um die Wahrscheinlichkeit dieses Prozesses zu
+berechnen, wollen wir annehmen, dal~ zur Zeit t : 0 ein Neutron in einem
+Kernzustand mit Eigenfunktion ~z~ (x) vorhanden ist und N~ = M,, = O,
+d . h . der Elektronenzustand s und der Neutrinozfistand a leer sin& Dann
+ist ffir t : 0 die Wahrscheinliehkeitsamplitude des Zustands (1, n, 08, 0o)
+                                                     al ~ o~% = l                                       (22)
+
+und die des Zustandes ( - - 1, m, 18, lo), wo das Neutron in ein Proton mit
+der Eigenfunktion v,~ (x) under Emission eines Elektrons und eines Neu-
+trinos iibergegangen ist, g]eieh Null.
+     Mi% Anwendung der gewShnliehen StSrungsformetn hat m a n nun ffir
+eine Zeit, die kurz genug is~, damit (22) noeh angen~ihert gfiltig ist:
+                                              ~l;i          ln0s%          2~ti
+           a--lr~lsla        --                 h     H_xmlslae - ' T - ( - W + tts + K@t,              (23)
+wo W die Energiedifferenz des Neutronen- und des Pro~onenzustandes
+darsteUt.
+      Aus (28) erhiilt man (da ffir t = 0,                               a_~,, 1, ~o = 0)
+                                                                 97ti
+                                 _   _        HlnOsOa          e~(-W+Hs+K&t                    --1      (24)
+           a--lml,      la   ' - -       --       --Im1, la         --    W~-/-/8 + K.
+      Die Wahrseheinliehkeit des betraehteten 13bergangs ist also zur Zeit t
+
+                                                                sin ~ ~- ~t ( - - W - q - H , + K o )
+                             =                ~--1mls1~                 (--W + H . + K . ) ~
+    U m die Lebensdauer des .Neutronenzustands u n zu bereehnen, hat man
+den Ausdruek (25) fiber alle freien Elektronen- und Neutrinozust~nde zu
+summieren.
+                       Versuch einer Theorie der fl-Strahlen. I.             169
+
+     Eine wesentliche Vereinfachung in der Ausfiihrung der Summe erh~lt
+man durch die Bemerkung, dal~ die de Broglie-Wellenl~nge ftir Elektronen
+und Neutrinos mit Energien yon einigen Millionen Volt wesentlieh grS~er
+ist als die Kerndimensionen. In erster Niiherung kann man also die
+Eigenfunktionen ~v~und ~,~ innerhalb des Kerns als Konstante betraehten,
+(21) wird dann:
+                       Hln%~          __
+                         - 1 ~ 1 , lo - - -4- g ~   q~*o y v * u , , G T ,   (26)
+
+wobei bier und im Iolgenden ~v~und ~a an der Stelle des Kerns zu nehmen
+sind (vgl. Ziffer 8). Aus (26) hat man
+
+                  --   lml   s 1o
+
+
+
+     Die Zustande a des Neutrinos sind dutch ihren Impuls P o u n d die
+Spinrichtung beslimmt. Falls wir zu Normierungszweeken in einem Vo-
+lumen /2 quantisieren, dessen Dimensionen wir naehher ins Unendliche
+waehsen lassen werden, so sind die normierten Neutrinoeigenfunktionen
+ebene Dirae-Wellen, mit der Dichte 1/Q. Eine einfache Algebra erlaubt
+dann in (27) den Mittelwert fiber alle Richtungen yon ?o und alle Spin-
+riehtungen des Neutrinos zu nehmen. (Zu betraehten sind dabei nur die
+positiven Eigenwerte; die negafiven sind mit einem der D it a c schen LSeher-
+theorie analogen Kunstgriff zu b~seitigen.) Man finder:
+        H l n o s oo         2~     g2   I          2
+
+
+wo /1, die Ruhemasse des Neutrinos und ]~ die Diracsehe Matrix
+                                             10     0     0
+
+
+
+                                               0    0-
+darstellt. Beaehtet m a n            nun:
+    dag die Anzahl der Neutrinozust~nde positiver Energie mit Impuls
+                          8uf2
+zwischen ?o und Po + d?,, ~ ?~ dpo ist;
+        0 Ko
+    dab -0- ?o = v o, wo vo die Geschwindigkeit des Neutrinos im Zustand a
+darstellt;
+     dab (25) ein seharfes Maximum in der N~he des Wertes von p, hat,
+fiir den die Variation der ungestSrten Energie versehwindet, d.h.
+                                    -- W + H s + K o :        O,             (30)
+ 170                                  E. Fermi,
+
+so kann man die Summe yon (25) fiber a in bekannter Weise 1) ausfiihren,
+und man findet~:
+                8 ~3 g2                2 p~/_
+             t.-~(-II v* u. dT; ~                 yJ,---~ ~ f l ~p~),        (31)
+
+we po bier den Were des Neutrinoimpulses bedeutet, ffir den (30) gfiltig ist.
+
+           6. BestimmungsstCtckeder Ubergangswahrscheinlichkeit.
+     (31) gibt clie Wahrscheinlichkeit dafiir an, daI~ w/ihrend der Zeit t
+ein fl-Zerfall mit Ubergang des Elektrons in den Zustand s stattfindet.
+Wie es sein sell, ist diese Wahrseheinliehkeit proportional tier Zei~ t ( t i s t
+als klein in bezug auf die Lebensdauer angenommen worden); der Koeffi-
+zient yon t gibt die (~bergangswahrscheinlichkeit ffir den gesehilderten
+Prozel~ an. Sie ist:
+
+                 8 g~ g:    v* un d                                         (32)
+
+     Man bemerke :
+     a) Fflr die freien ~eutrinozust~nde ist immer Ka ~ #c ~. Dami$ (80)
+befriedigt werden kann, ist also notwendig, daI~
+                               H~ ~ W - - f~c2.                         (38)
+Dem ------Zeichenentsprieht die obere Grenze des kontimfierlichen fl-S~rahl-
+spektrums.
+     b) Da ffir die freien Elektronenzust/~nde H8 ~ mc~ ist, bekommt man
+die folgende, ffir die MSgliehkei~ des fl-Zerfalls notwendige Bedingtmg
+                              w        (m +       c                         (34)
+Ein besetzter Neutronenzustand n i m Kerne muir also hoeh genug fiber
+einem unbese~zten Protonenzustand m liegen, damit der fl-ProzeB vet sieh
+gehen kann.
+     e) Naeh (32) h/~ngt P~ yon den Eigenfunktionen un, v.~ des sehweren
+Teilehens im Kerne durch das Matrixelement
+                               *
+                              Q~ ,~       v* u~ d v                         (85)
+ab. Dies Matrixelement spielt in der fl-Strahltheorie eine /~hnliche Rolle
+wie das Matrixelement des elektrisehen Moments eines Atoms in der Strah-
+lungstheorie. Das Matrixelement (85) hat normalerweise die GrSBen-
+ordnung 1; dutch besondere Symmetrieeigenschaften yon u~ and v~ kann
+es jedoch oft vorkommen, dab Q*~nversehwindet. In solehen F/illen spreehen
+
+     1) Fiir die genaue Beschreibung der Methode, solche Summen auszufiihren.
+vgl. irgendeinen Aufsatz fiber Strahlungstheorie; etwa: E. Fermi, Rev. Mod.
+Phys. 4, 87, 1932.
+                  Versueh einer Theorie der fl-Strahlen. I.                171
+
+wir von verbotenenfi-Ubergdngen. Man mu~ natfirlieh nieh~ erwarten, dal3
+die verbotenen Uberg~nge fiberhaupt nicht vorkommen, da (32) nur eine
+Niiherungsformel ist. Wir werden in Ziffer 9 etwas fiber diesen Typ yon
+Uberg~ngen spreehen.
+
+                        7. Die Masse des Neutrinos.
+     Dureh die ]3bergangswahrseheinliehkeit (82) ist die Form des konti-
+nuierliehen fl-Spek~rums bestimmt. Wit wollen zuerst diskutieren, wie
+diese Form yon der Ruhemasse/~ des
+Neutrinos abh~ngt, um yon einem Ver-
+gleich mit den empirisehen Kurven diese
+Kons~ante zu bestimmen. Die Masse ,u
+ist in dem Fakr p,~/va enthalten. Die
+Abhgngigkeit der Form der Energie-
+verteilungskurve yon u is~ am meisten
+                                                      Fig. 1.
+ausgepr~gt in der N~he des Endpunktes
+der Verteilungskurve. Ist E o die Grenzenergie der fl-Strahlen, so sieht
+man ohne Schwierigkeit, dal3 die Verteilungskurve for Energien E in der
+Niihe yon E o bis auf einen yon E unabhiingigen Faktor sich wie
+
+           v~ -~c~ (~c2 -~ E~        ~(E~           ~ 2~c~(E~         E)   (36)
+verhiilt.
+     In der Fig. 1 ist das Ende der Verteilungskurve ffir ~ -- 0 und ffir einen
+kleinen und einen grol~en Wert yon # gezeichnet. Die grSl~te ~mlichkeit
+mit den empirischen Kurven zeigt die theoretische Kurve ffir # --~ 0.
+     Wir kommen also zu dem Schlul~, dal3 die Ruhemasse des Neutrinos
+entweder Null oder jedenfalls sehr klein in bezug auf die Masse des Elek-
+~rons istl). In den folgenden Rechnungen werden wir die einfaehste Hypo-
+~hese # ~--0 einffihren. Es wird dann (30)
+                                                K~    W-         H~
+              v~ ~ c;    K~ = pqc;      p~ = - -   ------                  (37)
+                                                C           C"
+
+     Die Ungleichungen (33), (34) werden jetzt:
+                           Hs~W;        W~me '~.                           (88)
+Und die Ubergangswahrseheinliehkeit (82) nimmt die Form an:
+
+                       cSh~ I v*,u, dT 2 ~fl~(W--H~) ~.
+                P ~ - 8~392                                                (39)
+
+    1) In einer kfirzlich erschienenen No~iz kommt F. Perrin, C. R. 197, 1625,
+1933, mit qualitativen Uberlegungen zu demselben SchlulL
+172                                      E. Fermi,
+
+8. Lebensdaq~er und Form der Verte~lungskurve /~r ,,erlaubte" Ubergdnge.
+     Aus (89) kann man eine Formel ableiten, welehe angibt, wieviel fl-Ober-
+gi~nge in der Zeiteinheit stattfinden, for welehe das fl-Teilehen einen Impuls
+zwisehen mc~7 und mc (~ ~ d,~) erh~lt. Dazu mu~ man eine Formel fi:tr
+die Summe yon ~          am Orte des Kerns fiber alle im kontinuierliehen
+Spektrum liegenden Quantenzusti~nde des betreffenden Intervalls ableiten.
+     Dabei sei bemerkt, daft die relativistisehen Eigenfunktionen im Coulomb-
+Feld flit die Zustimde mit j -- 1/a (2s~/~und ~P~/2) fOr r ~ 0 unendlieh grol~
+werden. Nun gehoreht aber die Kernanziehung for die Elektronen dem
+Coulombsehen Gesetz nur bis r ~ ~, wo ~ hier den Kernradius bedeutet.
+Eine Ubersehlagsrechnung zeigt, da~, wenn man plausible Annahmen fiber
+den Verlauf des elektrischen Feldes innerhalb des Kerns maeht, der Weft
+yon ~yJ~ im Mittelpunkt einen Weft hat, der sehr nahe dem Werte liegt,
+den ~sYJs im Falle des Coulomb-Gesetzes in der Entfernung Q yore Mittel-
+punkt annehmen worde.
+     Dutch Heranziehung der bekannten Formeln 1) for die relativis~isehen
+Eigenfunktionen des Kontinuums im wasserstoff~hnliehen Falle 5ndet man
+also naeh einer ziemlich lang~ierigen Reehnung
+
+                                                *                 r                   (40)
+WO
+
+                           ---- Z/187;    S ---- ] / 1 - - 72 - . 1 .                 (41)
+    Die t~bergangswahrseheinlichkeit in einen Elektronenzustand mit
+einem Impuls des Intervalls mcd~ wird dann nach (39):
+
+      P 07) d ~ :   d ~. g' I F (8 + 2 S)] 2 h v        -~h--/          v* u~ d ~ I
+
+
+                                                r/
+wo ~/o den in Einheiten mo gemessenen maximalen Impuls der emittierten
+fl-Strahlen darstell~.
+     Die numerische Auswertung yon (42) kann man etwa ffir 7 ----0,6,
+d. h. Z : 80.,2 maehen, da ja die Atoranummern der radioaktiven Stoffe
+nicht welt yon diesem Weft liegen. For ~, --~ 0,6 ist naeh (41) S ~ - - 0,2.
+Man finder welter, da~ for ~ ~ 10 die folgende Formel angen~hert gilt:
+
+                       ~     r o,s+0,6i -V~+~                   ~4,~+~,6,A            (4a)
+
+      ~) R. H. Hulme, Proe. Roy. Soe. London (A) ]33, 381, 1931.
+                    Versuch einer Theorie der ~-Strahlen. I.              173
+
+     Formel (42) wird demit, wenn man r = 9 . 1 0 -la setzt:
+
+P(~)a~ = ~,75.~o ~ iJ ~a~              ~(V+0,~5r
+    Die reziproke Lebensdauer erh~l~ man aus (44) dutch Integratdon yon
+  = 0 bis ~ = re; man finder:
+
+                     1 _ 1,75 ' 109"~g~ I v* % d ~ ~ F (~o),              (45)
+we
+
+                         F (Bo) = ,~- (l/T -4- ~/~ - - 1)
+                     [
++ ~
+         r/2o
+          8 + o,8.~5  [- ~o4 '~19+ ~-+---T--~~
+                                          1/1 + ,~olog(,7o+l/1-~o) .(46)
+   Fi~r kleine Argumente verh~lt sieh F (~o) wie ~ / 2 4 ; ffir grSBere Argu-
+mente sind die Werte yon F in der folgenden Tabelle zusammenges~ellt.
+                                   Tabelle 1.
+
+
+
+     0     ~o6/24        2       1,2          54      29       76      185
+     1      0,03         3       7,5                  80               380
+                         9. Die verbotenen [Tbergiinge.
+     Bevor wir zum Vergleich mit der Erfahrung ilbergehen, wollen wir
+noeh einige Eigensehaften der verbotenen fl-Idberg~inge diskutieren.
+     Wie sohon bemerkt, is~ ein Idbergeng verboten, wenn des zugeh6rige
+Metrixelement (35) versohwindet. Fells nun die Da.rs~elhmg des Kerns
+mif individuellen Quantenzust~nden der Neutronon lind der Protonen
+eine gu~e N/iherung ist, versohwindet immer Q~ ~ aus Symmetriegranden,
+wenn nicht
+                                   = i',                             (47)
+we 4 und ~','die Impulsmomen~e (in Einhei~en hi9, ~) des Neu~ronenzus~ands u .
+und des Protonenzustands %~ derstellen. Der Auswahlregel (47) entsprichL
+fells die individuellen Zus~nde keine gute N/iherung sind, die allgemeinere
+                                    1 = I',                               (48)
+we I und I' die hnpulsmomente des Kerns vet und neeh dem fl-Zerfell
+bedeuten.
+     Die Auswahlregeln (47) und (48) sind bei weitem nieht so scharf wie
+die Auswahlregeln der Opt,ik. Es gibt haupts/iehlieh zwei Prozesse, wodureh
+ein Durehbreehen dieser Auswehlregeln mSglieh ist:
+174                              E. Fermi,
+
+     a) Formel (26) ist dureh Vernachl~ssigtmg der Variationen yon ~
+und ~ innerhalb der Kernausdehnung erhalten worden. Falls man aber
+~vs und %~ im Bereieh des Kerns nieht als Konstante betraehtet, so erh~lt
+man die MSgliehkeit yon fl-Uberg~ngen aueh in F~llen, we Q*n verschwindet.
+     Es ist leicht einzusehen, dal~ die Intensitat solcher Uberg~nge zur
+htensitat der erlaubten Prozesse grSl~enordnungsm~l~ig im Verh~ltnis (Q/2)~
+steht, we ~ die de Broglle-Wellenl~nge der leichten Teilchen dargestellt.
+Man bemerke hierzu, dal~, bei gleicher Energie, die kinetische Energie
+tier Elektronen am Orte des Kerns wegen der elektrostatisehen Anziehung
+erheblieh grSl~er ist als die der Neutrinos; die grSl~te Wirkung rilhrt also
+yon der Variation yon Fs her. Eine Absch~r             tier Intensit~t dieser
+verbotenen Prozesse zeigt, dal] sic fund 100real schw~eher sein mfissen
+als die nach (48) erlaubten ~bergange, fiir welche fl-Teilehen der gleichen
+Energie emittiert werden.
+     Ein Merkmal f ~ verbotene Uberg~nge dieses Typs kSnnte man nicht
+nur in der verh~ltnism~ig l~ngeren Lebensdauer, sondern aueh in der
+versehiedenen Form tier Energieverteilungskurve der fl-Strahlen erblieken;
+man finder namlieh, dal3 fiir diese ~berg~nge die Verteilungskurve ffir
+kleine Energien tiefer liegen mull als ira normalen Falle.
+     b) Eine zweite MSgliehkeit yon naeh (48) verbotenen ~berg~ngen
+folgt aus der am Ende yon Ziffer 3 bemerkten Tatsaehe, dal3, falls man
+die Gesehwindigkei~ der sehweren Kernbes~andteile nicht gegen die Lieht-
+geschwindigkeit vernaehl~ssigt, zum Weehselwirkungsglied (12) noeh
+weitere yon der GrSl~enordnung v/c hinzutreten. Falls man etwa auch fiir
+die schweren Teilehen eine relativistisehe Wellengleiehung veto Diraesehen
+Typus annimmt, kSnnte man z. B. zu (12) Terme wie
+
+             gQ ( ~ A 1 + o~A 2 -I- o~A3) + komplex konjugiert          (49)
+addieren, we c~gvccz die Diracschen Matrizen fiir das sehwere Teilchen
+bedeuten und A~, A~, A s die Raumkomponenten des yon (11) definierten
+u              sind. Das Glied (49) wiirde zu (12) in demselben Verh~l~nis
+stehen wie die Termee V bzw. e (g, U) (V ~ skalares Potential; U = Vektor-
+potential) zu der Dir a c schen Hanfilton-Funktion.
+     Ein Weehselwirkungsglied wie (49) wiirde natfirlleh auch verbotene
+Ubergs      ermSgliehen, mit einer relativen Intensit~t yon der GrSl~en-
+ordnung (vie) ~ in bezug auf die der erlaubten Uberg~nge. Dies gibt also
+eine zweite MSglichkeit ffir das Vorhandensein von Uberg~ngen, die etwa
+100real schw~eher sind als die normalen.
+                    Versuch einer Theorie der fi-Strahlen. X.                     175
+
+                         10. Vergleich mit der Er/ahrung.
+     Formel (45) gibt eine Beziehung zwischen dem maximalen Impuls
+der enfittierten,8-Strahlen und der Lebensdauer der fl-strahlenden Substanz:
+In dieser Beziehung tritt zwar noch ein unbel~anntes Element auf, n~mlich
+das Integral
+                                    v* u~ d ~,                          (50)
+
+ffir dessen Auswertung eine Kenntnis der Eigenfunktionen des Protons
+und des Neutrons im Kern notwendig w/ire. Lm Falle der erlaubten Uber-
+giinge ist jedoeh (50) yon der GrS~enordnung 1. Man kann also erwarten,
+dal~ das Produkt
+                                  ~F (V0)                          (51)
+ffir alle erlaubten ~Tberg/inge dieselbe GrbSenordnung hat. Falls aber
+der betreffende CTbergang verboten ist, ist die Lebensdauer rund 100real
+grOSer als im normalen Falle und aueh das Produkt (51) wird entsprechend
+grbi~er.
+     In der Tabelle 2 sind die Produkte (51) ffir die radioaktiven Elemente
+zusammengestellt, fiir welehe m a n genfigende Daten fiber das konti-
+nuierliche fl-Spektrum hat.
+                                          T a b e l l e 2.
+    Element           z (Stunden)     I           ~o          F (~o)   ~ F (70)
+
+     U Xs                0,026                  5,4          115         3,0
+     RaB                 0,64                   2,04           1,34      0,9
+     Th B               15,3                    1,37           0,176     2,7
+     Th C"               0,076                  4,4           44         3,3
+     Ac C"               0,115                  3,6           17~6       2,0
+    Ra C                  0,47                   7,07        398        190
+    Ra E                173                      3,23         10~5     1800
+    Th C                  2,4                    5,2          95        230
+    Ms Th~                8,8                    6,13         73        640
+     Aus der Tabelle sind die zwei erwarteten Gruppen ohne weiteres er-
+kennbar; eine solehe Eiuteilung ist fibrigens bereits yon S a r g e u t 1) auf
+empirischem Wege festgestellt worden. Die Werte yon 17o sind aus der
+genannten Arbeit yon S a r g e n t genommen (zum Vergleich bemerke man,
+dal~: r/o----(H~)max/1700). Die yon S a r g e n t als nicht zuverl/~ssig an-
+gegebenen Werte von ~o passen nicht besonders gut in die Einteilung;
+f• U X 1 hat man ~ = 880; ~]o = 0,76; F (~o) = 0,0065; 7:F(~o) = 5,4;
+dies Element seheint also zur ersten Gruppe zu passen. F~lr Ac B hat man
+
+    1) B. W. S a r g e n t , Proc. Roy. Soe. London (A) 139, 659, 1933.
+   Zeitschrift fiir Physik. Bd. 88.                                12
+176                                E. Fermi,
+
+die folgenden Daten: ~ --= 0,87; Uo~- 1,24; F (Y/o) =- 0,102; v F (~7o) = 0,09,
+also ein TP-Wert etwa zehnmal kleiner als die der ersten Gruppe. Ffir
+l~aD hat man ~ = 320000; Uo = 0,38 (sehr unsieher); F (Uo) ~ 0,00011;
+~F (Uo) =: 35. R a D liegt also ungefiihr in der Mitte zwisehen den beiden
+Gruppen. Ich habe kei~e Daten fiber die anderen fl-strahlenden Elemente
+MsTh 1, UY, Ae, AcC, UZ, RaC" gefunden.
+     Aus den Daten der Tabelle 2 kann man eine, wenn aueh sehr grobe,
+Absch~i~zung der Konstante g gewirmen. Nimmt man etwa an, dal~ in
+den F~llen wo (50) gleieh Eins wird, man ~:F (Uo) ~- 1 hat (d. h., in Se-
+kunden, ----8600), so bekommt man aus (45):
+                            g = 4.10-5~        3. erg.
+Dieser Weft gibt natfirlich nut die Grsl~enordnm~g yon g.
+     Zusammenfassend kann man sagen, dal~ dieser Vergleieh yon Theorie
+and Erfahrung eine so gute Ubereinstimmung gibt, wie man nur erwarten
+                                                 konnte. Die bei den als experi-
+                                                 mentell unsieheren Elementen
+                                                 R a D und AeB festgestellten
+                                                 Abweichungen kSnnenwohl teil-
+                                                 weise dutch Ungenauigkeit der
+                                                 Messungen erkl~rt werden, teil-
+                                                 weise aueh durch etwas abnorm
+                      Fig. 2.
+                                                 groi~e abet gar nicht unplau-
+sible Schwankungen des l~Iatrixelements (50). Man hat weiter zu bemerken,
+da] man aus der den fl-Zerfall begleitenden 7-Strahlung sehliel]en kann,
+dal~ die meisten fl-Zerf~lle zu verschiedenen Endzust~inden des Protons
+fflhren kSnnen, wodureh wieder Schwankungen in dem TF (~o)-~Vert
+erkl~irt werden kSnnen.
+     Wit wenden uns jetzt zur Frage nach der Form der Geschwindigkeits-
+verteilungskurve der emittierten/3-Strahlen. FOr den Fall der erlaubten
+Uberg~nge ist die Verteilungskurve als Funktion yon U (d. h. his auf den
+Faktor 1700, von H~o) dutch (44) gegeben. Verteilungskurven flit ver-
+schiedene Werte yon ~o sind in der Fig. 9. zusammengestellt, wobei ffir die
+Bequemlichkeit der Zeichnung die Ordinateneinheit in den versehiedenen
+F~llen passend gew~hlt worden ist. Diese Karven zeigen eine befriedigende
+~hnliehkeit etwa zu den yon S a r g e n t 1) zusammengestellten Verteilungs-
+kurven. Nur in dem Tell der Kurve kleiner Energie liegen die Kurven
+von S a r g e n t etwas tiefer als die theoretischen. Dies ist deutlieher in der
+
+      1) B. W. Sargent, Proe. Cambridge Phil. Soc. 28, 538, 1932.
+                   Versuch einer Theorie der fl-Strahlen. I.                    177
+
+Fig, 3 zu sehen, wo als Abszisse die Energie an Stelle des Impulses genommen
+wooden ist. Hierzu mu~ man jedoch bemerken, dal] die experimen~eIle
+Kenntnis des Verteilungsgesetzes
+ffir kleine Energien besonders
+unsicher istl). ~brigens hat man
+flit die verbotenen Uberg~nge auch
+theoretisch Kurven zu erwarten,
+die im Gebiet kleiner Energie
+                                             1    2     3       ~ 5    6E/mc z
+tie~er liegen als die der Fig. 2                        Fig. 3.
+und 3. Dieser Ietzte Punkt ist
+besonders filr den Fall der experimentetl verh~ltnism~13ig gut bekannten
+Kurve des l~aE zu beaehten. Aus der Tabelle 2 sieht man n~mlich, dal3
+RaE einen sehr grol3en ~F (~]o)-Wert hat; der fl-Zer~all des ~ a E ist also
+gewiI] verboten und wird sogar m5glieherweise nut erst in zweiter N~he-
+rung e~laubt. Ich hoffe in einer n~chsten Mitteihmg etwas Genaueres
+fiber den Verlauf der Energieverteilungskurven ffir die verbotenen ~ber-
+g~nge sagen zu kSnnen.
+      Zusammenfassend daft man wohl sagen, dab die Theorie in der hier
+angegebenen Form in lJbereinstimmung mit den allerdings nieht immer
+besonders genauen experimentellen Daten ist. Sollte man iibrigens auch
+bei einem n~heren Vergleich yon Theorie und Erfahrung zu Widerspri~ohen
+kommen, so w~re es noch mSglieh, die Theorie abzu~ndern, ohne ibxe
+begriffliehen Fundamente zu beriihren. Man kSnnte n~mlich Gleiehung (9)
+behalten und eine verschiedene Wahl der c~ treffen. Dies kSnnt~ ins:
+besondere zu einer Ab~nderung der Auswah|regel (48) f~hren und sine
+andere Form der Energieverteilungskurve sowie der Abh~ngigkeit der
+Lebensdauer yon der maximalen Energie ergeben. Ob eine solehe _Ands-
+rung not~endig sein wird, kann jedoeh erst dutch sine weitere Entwicklung
+der Theorie und mSglieherweise auch dureh sine Verseh~rfung der experi-
+mentellen Daten gezeigt werden.
+
+    1) Vgl z . B . E . R u t h e r f o r d , B. Ellis u. J. Chadwick, Radmtions from
+Radioactive Substances, Cambridge 1932. Siehe insbesondere S. 407.
+
+
+
+
+                                                                     12"
+

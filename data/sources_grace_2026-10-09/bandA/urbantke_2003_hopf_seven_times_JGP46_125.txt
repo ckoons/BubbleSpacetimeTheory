@@ -1,0 +1,1260 @@
+                     Journal of Geometry and Physics 46 (2003) 125–150
+
+
+
+
+         The Hopf fibration—seven times in physics
+                                           H.K. Urbantke
+                     Institut für Theoretische Physik, Universität Wien, Boltzmanngasse 5,
+                                             A-1090 Vienna, Austria
+                         Received 21 May 2002; received in revised form 7 June 2002
+
+
+
+
+Abstract
+   It is pointed out that the Hopf fibration—a special but very basic non-trivial principal fiber
+bundle—occurs in at least seven different situations in theoretical physics in various guises. Sur-
+prisingly, the gauge theory aspect is in the minority here.
+© 2002 Elsevier Science B.V. All rights reserved.
+
+MSC: 81G99; 55R25
+
+JGP SC: Differential geometry; Quantum mechanics
+
+Keywords: Hopf fibration; Quantum mechanics
+
+
+
+
+1. Introduction
+
+   The Hopf fibration as a purely mathematical idea has been around since 1931 when
+it allowed Hopf1 to determine the third homotopy group of the 2-sphere and to show, in
+particular, that this group is non-trivial, by exhibiting a suitable map from the 3-sphere
+to the 2-sphere and the fibration of the 3-sphere related to it. It was realized only much
+later that this fibration occurred in the same year well-hidden in a physics context when
+Dirac extended the framework of wave mechanics by admitting for “wave functions”
+what we now call sections of non-trivial complex line bundles, and studied, in particu-
+lar, quantum mechanical motion in the field of a magnetic monopole. The basic defini-
+tion of the Hopf fibration is, however, also closely related to the distinction between state
+vectors and states in quantum mechanics, and its base space—the 2-sphere S2 —appears
+literally in the case of two-level systems (“qubits”, as they have been called recently)
+
+ 1 [23]; later Hopf invented more fibrations that now bear his name, but we will stick strictly to the 1931
+
+construction in this article.
+
+0393-0440/02/$ – see front matter © 2002 Elsevier Science B.V. All rights reserved.
+PII: S 0 3 9 3 - 0 4 4 0 ( 0 2 ) 0 0 1 2 1 - 3
+126               H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+as the so-called “Bloch sphere”, as was pointed out, e.g., by Penrose. Without recognition
+of the nature of the base space, a directly related fibration was—as remarked by Hopf—
+considered in the context of the parallelism invented by Clifford in 1873, couched, however,
+in the language of real projective 3-space (elliptic version of non-Euclidean geometry). A
+very direct occurrence, without any obvious role for the nature of the base space, appears
+when the phase space flow of the two-dimensional harmonic oscillator is restricted to a
+non-trivial energy shell. A more tricky occurrence of the fibration is in Penrose’s theory
+of twistors, where it serves to illustrate one special geometrical realization of a (projec-
+tive) twistor. More features of the Hopf fibration are involved in its occurrence in General
+Relativity, namely in the global structure of Taub-NUT space: the nature of its base space
+and the linking of its fibers play an essential role in the study of that space. Complex line
+bundles associated with the Hopf fibration appear directly when the zero mass helicity rep-
+resentations of the (covering group of the) Poincaré group are considered (“Wignerism”),
+the non-trivial topological features making themselves felt at various instances, inhibiting
+the procedure of going from finite to zero mass. Finally, the Hopf fibration determines the
+spin structure of the 2-sphere, a concept entering not only “two-dimensional Wick-rotated
+physics”, but appearing also upon separation of the ordinary Dirac equation in spherically
+symmetric external electrostatic fields—although this fact is seldom mentioned in conven-
+tional treatments of the relativistic hydrogen spectrum.
+    This remarkable multiple occurrence of Hopf’s fiber bundle in at least seven different
+physical situations indicates that it is a basic geometrical element, possibly useful in the
+physical description of more situations, rather than a mathematical curiosity which most
+physicists did not know about before the mid-1970s. In the words of Penrose, it may be
+regarded as an “element of the architecture of our world”. Naturally then, the present
+article is more a matter of contemplation rather than research. In Appendix A, we will
+include the definition and a brief indication of several mathematical features of the fibration
+together with textbook references; the reader is advised to consult, if necessary, Appendix A
+parallel to the main text. In Section 2, the appearance of the fibration in two-level quantum
+systems is described, including a “connection” in the bundle that is related to adiabatic
+transport and Berry’s geometrical phase. This is, in a sense, a “top-down” version of the
+description, and in this form the fibration makes its appearance also in the two-dimensional
+isotropic harmonic oscillator (Section 3), in Taub-NUT space (Section 4) and in twistor
+theory (Section 5). Its is only in Wigner’s helicity representations of the Poincarë group
+(Section 6) and in Dirac’s monopole quantization (Section 7) that the bottom-up view—
+cherished by us physicists since we learn it this way in gauge theory—comes first; in fact,
+it is only the latter example where the scheme “local gauge potential, local field strength”,
+augmented by global considerations because of singularities in the local, gauge-dependent
+quantities, leads to the well-known patching construction of the fibration. We close by
+pointing out the role of the fibration in giving the 2-sphere’s spin structure (Section 8),
+a concept necessary for global considerations involving the Dirac equation and the Dirac
+operator.
+    Our collection could result in the moral that there are perhaps more fiber bundles in
+physics than a local, gauge theory shaped eye allows to see, and that, therefore, there may
+be some merit for us physicists in also looking at the non-differential geometric methods
+of studying them.
+                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150        127
+
+2. Hopf and the qubit—two-level quantum systems
+
+   The occurrence of the Hopf fibration in two-level quantum systems—systems that can
+be described using a two-dimensional complex Hilbert space, also nowadays known as
+qubits—was mentioned, e.g., by Penrose [36], and is described more extensively in [48];
+so we can be brief and somewhat schematic about it here.
+   We take the two-dimensional Hilbert space just to be C2 with its standard Hermitian
+inner product z, w := z̄1 w1 + z̄2 w2 = z† w. The states of the system are given by density
+matrices, i.e., Hermitian-positive 2 × 2 matrices of trace 1; the observables of the system are
+given by Hermitian matrices; the expectation values of the observable with matrix A in the
+state with density matrix ρ is given by the real number Tr Aρ. When ρ has rank 1, it has the
+form of a one-dimensional projector, ρ = zz† /z† z, and is called a pure state, represented
+by the (non-zero) state vector z ∈ C2 , and the expectation value of A becomes z† Az/z† z.
+One notes that a pure state determines the state vector only up to a non-zero complex factor,
+and even when z is required to be normalized, z, z ≡ z† z = 1, a phase factor eiα , α real,
+remains undetermined. This of course means that the pure states can also be identified with
+the points of the projectivized space P(C2 ) = CP1 , but for the moment we will stick to the
+density matrices.
+   Consider now the expectation values of three observables σ1 , σ2 , σ3 , where
+                                                                 
+               0 1                   0 −i                      1 0
+      σ1 =            ,      σ2 =             ,      σ3 =               .
+               1 0                    i 0                      0 −1
+
+(These are known as the Pauli spin matrices, since they relate to the components of the spin
+angular momentum observables of a spin 21 particle; but for our formal purposes here this
+interpretation is not essential.) Collecting them into a matrix vector σ = (σ1 , σ2 , σ3 ), we
+have for its expectation value in a state ρ the vector R := Tr ρσ ∈ R3 . One can verify that
+this relation can be inverted as ρ = 21 (1 + R · σ), where the positivity of ρ implies R2 ≤ 1,
+equality holding precisely for pure states. This means that R(z) := z† σz/z† z satisfies
+R2 (z) = 1. In other words, the density matrices ρ may, in the qubit case, be represented by
+vectors in R3 belonging to the closed unit ball B3 (the “Bloch sphere”, in physics jargon,
+since it was used by F. Bloch to illustrate magnetic spin resonance phenomena), and the
+state is pure iff the representing R3 -vector is a unit vector.
+   We can also get a geometric picture of the state vectors z themselves by looking at
+C2 as being R4 , taking the real and imaginary parts of z1 , z2 (in some order) as its real
+components. Then the assignment z → R(z) gives us a map R4 → S2 ⊂ R3 , and restricting
+to normalized z, z† z = 1, whose realifications fill the 3-sphere S3 ⊂ R4 , we get a map
+S3 → S2 . This is the Hopf map: if the real components of z are numbered suitably and
+the definition of R(z) is written out explicitly in terms of them, the above expression for
+the latter becomes literally identical to Hopf’s original formulae. It is easy to check that
+the inhomogeneous coordinate ζ = z2 /z1 on the space of pure states when looked at as
+CP1 is just the complex stereographic coordinate on the Bloch 2-sphere when this sphere is
+projected onto its equatorial plane from its south pole. The inverse images of the points on
+the Bloch 2-sphere under the Hopf map are “phase circles” on the 3-sphere. The 2-parameter
+128                 H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+system of phase circles on the 3-sphere so obtained constitute its Hopf fibration. In [48],
+the author explains the visualization of this system of circles by stereographic projection
+of the 3-sphere onto its equatorial 3-plane, where it appears as the system of “Villarceau
+circles” on a nested family of coaxial concentric tori orthogonal to the unit 2-sphere.
+   In [48], the author describes the idea of Penrose how to represent normalized state vectors
+z in terms of the Bloch sphere picture: one assigns to z not only the phase-insensitive
+position R(z), but also the phase-sensitive unit tangent vector at that position given by
+P(z) := RZ(z), where Z(z) := {z, σz} with {z, w} := z1 w2 − z2 w1 . When z undergoes a
+phase change, this tangent is just rotated through twice the phase angle.
+   In [48], the author further discussed adiabatic transport of state vectors over curves in
+the space of pure states, as specialized from the general case to the qubit case. For a given
+curve τ → Rτ on the 2-sphere, the transport τ → zτ is required to satisfy the differential
+equation z, (dz/dτ) = 0, i.e., zτ is to be a curve on S3 having R(zτ ) = Rτ whose tangent
+vectors are annihilated by the connection form z, dz ≡ z† dz. It is shown there explicitly
+that the associated P(z) undergo Levi–Cività transport (which again only illustrates several
+general theorems). The holonomy of the connection resulting from parallel transport over
+a closed curve in state space—yields the famous “geometric phase” of Berry. Note that this
+connection is invariant under the action of the unitary group on our Hilbert space—it is in
+fact the only one with this property and will be encountered again in Section 7.
+
+
+3. Hopf and mechanics—the harmonic oscillator
+
+   It may surprise some that the simple two-dimensional isotropic classical harmonic oscil-
+lator provides an example of the occurrence of the Hopf fibration in physics. But indeed, its
+phase flow, restricted to a non-trivial energy shell, Hopf-fibers the latter! To see this easily,
+we scale everything such that the mass and the angular frequency of the oscillator become
+1; the Hamiltonian then reads
+      H = 21 (p21 + p22 + q12 + q22 ),
+whence the equations of motion
+      q̇k = pk ,      ṗk = −qk      (k = 1, 2).
+Employing the usual complex variables ak := qk + ipk , these become
+      H = 21 (|a1 |2 + |a2 |2 ),      ȧk = −iak
+with√solution ak (t) = ak (0) exp(−it). If H(0) = 0, energy conservation allows to normalize
+ak / 2H =: zk , the zk satisfying zk (t) = zk (0) exp(−it), |z1 |2 + |z2 |2 = 1. Hence we see
+that the phase space trajectories give a Hopf fibration of the energy shell. Moreover, the
+2-surfaces given by H1 = const., H2 = const., where Hk = 21 (p2k + qk2 ) = 21 |ak |2 are
+conserved and have vanishing Poisson bracket with each other, are analogous to the tori
+whose stereographic projection is depicted in [48]; they are just the Arnold tori of our
+integrable system. The similarity of the pictures of the Hopf fibration with Fig. 242 of [1]
+or with Fig. 31 of [16] is, therefore, not accidental. More details, such as the relation of
+the Hopf map to the concept of moment map, as well as its role in rigid body motion and
+                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150          129
+
+classical analogs of the quantum geometric phase, together with many historical remarks,
+are given in Section 1.10 of [51].
+   Interesting generalizations concerning the linking of flux lines of divergence-free vector
+fields on 3-manifolds, with application, e.g., as an obstacle to the dissipation of magnetic
+energy in stars, discussed in Chapter III of [2], show that the important feature of the Hopf
+fibration in the present context is the linking of its fibers (cf. Appendix A).
+
+
+4. Hopf and General Relativity—Taub-NUT space
+
+  Around 1950, Gödel and Taub independently started the investigation of spatially ho-
+mogeneous cosmological models in General Relativity. The ones constructed by them are
+space-times M having line elements of the form
+     ds2 = −dτ 2 + γik (τ)ωi ωk ,
+where the ωk are essentially left-invariant 1-forms on a three-dimensional Lie group G and
+the product of forms in ds2 is symmetric tensor multiplication as usual. More precisely,
+M = I × G, where I is some interval for τ, to be determined during the process of solving
+the Einstein field equations, which become ODEs under the ansatz above, and the ωk are
+pullbacks under M → G of left-invariant forms on G.
+   By “the” Taub universe one means the solution of Einstein’s vacuum field equations with
+vanishing cosmological constant in which the ωk belong to G = SU(2) (“Bianchi type IX”)
+and may be constructed from the manifestly left-invariant Maurer–Cartan matrix U −1 dU,
+which is Lie algebra-valued and so may be decomposed as (−i/2)ωk σk , the σk again being
+the Pauli matrices. Further, γik (τ) is assumed diagonal and γ11 = γ22 . As a consequence,
+ds2 has as isometries not only the left translations of SU(2) (augmented by τ → τ) but also
+the 1-parameter group of right translations generated by −iσ3 : the latter does not preserve
+ω1 , ω2 but does preserve ω3 and (ω1 )2 + (ω2 )2 . Using the group approach to the Hopf
+fibration (described in Appendix A), we see that it is this extra symmetry which brings
+in the Hopf fibration—and it also permits the Einstein equations to be solved explicitly.
+(Without it, the SU(2) model is known as “mixmaster universe” [30], for which the vacuum
+field equations are not integrable; on the other hand, requiring γ11 = γ33 in addition implies
+symmetry under all right translations and thus makes the model isotropic as well, so that no
+distinguished Hopf fibration appears: this is the geometry of the standard Robertson–Walker
+cosmology with positive spatial curvature.) Even without imposing field equations, the extra
+symmetry causes the 4-geometry to be “algebraically special” in that its Weyl tensor is of
+Petrov–Penrose type D [11,35], both degenerate principal null directions of it having the
+Hopf fiber tangents for their spatial projections. This is also related to the “optical geometry”
+of the Taub space-time, which in turn is related to the standard “CR-structure” of S3 [46].
+When the vacuum field equations (without cosmological constant) are imposed, the general
+solution of the resulting system of ODEs is [40]
+             k cosh (ktTaub + α)                                      k
+      γ11 =                             = γ22 ,     γ33 =                        ,
+             2 1 + cosh (ktTaub + β)                          cosh (ktTaub + α)
+     dτ 2 = γ11
+             2
+                γ33 dtTaub
+                      2
+                           .
+130                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+Here α, β and k > 0 are the constants of integration.2 The interval for tTaub is the whole
+real line, but contrary to Taub’s original belief this does not prevent this space-time from
+being incomplete. We cannot go into a discussion of this in any detail, but only highlight
+the appearance of the Hopf fibration in the further development. By a number of trans-
+formations one (analytically yet non-uniquely!) continues to other regimes (NUT regimes,
+after [28,34])—remarkably discovered independently, following an entirely different route),
+where the symmetries described above—which are spacelike in the Taub regime—become
+timelike in part. More specifically, it is the Killing field tangent to the Hopf fibers which
+becomes timelike; thus the appearance of closed timelike lines makes the solution very
+peculiar. The transitions from one regime to the other happens [32,35]) across a “Cauchy
+horizon”, an S3 null hypersurface generated by the SU(2) symmetry group, whose null
+geodesic generators are just Hopf fibers.3 In the NUT regime, a further feature of the
+Hopf fibration becomes important—the linking of the fibers. Generally, the linking of
+the inverse images of points under a smooth map S3 → S2 can be expressed by a cer-
+tain integral, its Hopf invariant [4], and it turns out that this integral is related here to a
+physical quantity called “NUT charge” or “dual mass” [38]. The linking also prevents the
+NUT regime from being asymptotically flat in the usual global sense, although its curva-
+ture tensor goes to zero asymptotically: it is only locally asymptotically flat, there are no
+global spacelike hypersurfaces. Nevertheless a null conformal boundary I may be attached
+[38] to the asymptotic region; however, it does not have the usual topology S2 × R but
+rather S3 , again Hopf-fibered by its null generators. There are many more peculiar prop-
+erties of the Taub-NUT solution which we cannot even mention here [29]. NUT space
+has been termed the spherically symmetric “gravimagnetic monopole” in [25]; indeed,
+the analogy to the spherically symmetric Dirac magnetic monopole (Section 7) would be-
+come more pronounced if a Kaluza–Klein type formulation (cf. [41]) of the latter were
+used.
+
+
+5. Hopf and twistors—Robinson congruences
+
+   The concept of twistor can, according to its inventor, Penrose, be introduced in a number
+of ways, and all conformally invariant field laws in flat space-time can be reformulated in
+terms of twistors, generating new ways of looking at such laws; this has already been very
+fruitful in the past in many cases.
+   Clearly, this is not the place to give any of the different ways of approaching or using
+twistors. We rather pick out one way of representing a twistor space-time-geometrically
+ 2 Because it is seldom written down explicitly, we give the transformation between Taub’s time coordinate and
+
+constants of integration and the ones used later, following the NUT paper [34]. Namely, one achieves a rational
+dependence on the time coordinate and the constants by introducing t, m,  via
+
+        t−m          1                          m                                 
+      √        = tanh (ktTaub + β),           √        = tanh (α − β),          4 m2 + 2 = k,
+       m2 + 2       2                         m2 + 2
+
+rendering γ11 = t 2 + 2 , γ33 = 42 U, dτ 2 = dt 2 /U, where U := (2 + 2mt − t 2 )/(2 + t 2 ).
+  3 Moncrief [31] has shown that there exists a wider class of solutions to Einstein’s equations possessing an S
+                                                                                                                 3
+Cauchy horizon Hopf-fibered by its null geodesic generators.
+                         H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150                   131
+
+and highlight its relation to Hopf, referring to [13,18] for more concerning twistors. For
+this, we will make a shortcut [47] that, while unfortunately destroying manifest conformal
+covariance of the geometry, fits nicely to the group geometric description of the Hopf fibra-
+tion (given in Appendix A). Namely, instead of the group SU(2) considered in Appendix A,
+we here take the group U(2) of all unitary 2 × 2 matrices. The unitarity restriction for
+U ∈ U(2) implies that the determinant det U has absolute value 1, so leaves open an arbi-
+trary phase factor for it: U(2) is a four-dimensional compact Lie group. It may in fact be
+decomposed as a product
+                  √        U(1) × SU(2), but this is slightly tricky, in that√the ‘naive’ decom-
+position U = U1 det U yields a√direct product decomposition with det U ∈ U(1) and
+U1 ∈ SU(2) only locally,4 since det U is 2-valued and it is not possible to pick a unique
+branch in a continuous fashion because U(2) is not simply connected. No such problem
+arises if we set
+                                                                
+                     1        0                        1     0
+      U = U0                            or   U=                        U0 :
+                     0     det U                       0   det U
+
+the assignments U → U0 ∈ SU(2) and U → det U ∈ U(1) are both continuous here.
+However, the decomposition is now only a semidirect one in the algebraic sense: SU(2),
+being the kernel of the homomorphism    U(2) → U(1) given by U → det U, is an invariant
+                                            1    0
+(or normal) subgroup, but the matrices                form a subgroup isomorphic to U(1)
+                                            0 det U
+that is not invariant. So wehave the homomorphisms
+                                                     det : U(2) → U(1) and ι0 : U(1) →
+                              1     0
+U(2), sending exp iα →                    , whose composition is the identity on U(1), thus
+                              0 exp iα
+splitting the short exact sequence 1 → SU(2) → U(2) → U(1) → 1; this is the situa-
+tion of a semidirect product. Using this decomposition we see that topologically5 U(2) ∼ =
+S1 × S3 .
+   The relation of this setup to twistor theory comes from a way of putting a Lorentzian
+global metric on U(2) which is locally conformal to the Minkowski metric and which
+is such that the cosets of the subgroup ι0 (U(1)) are null geodesics. This system of null
+geodesics constitutes an example (in fact the only one up to conformal transformations) of
+what Penrose calls a Robinson congruence of null geodesics and which is a geometrical
+representation—either in U(2) or in the conformally related Minkowski space, as we shall
+see shortly—of a (projective) twistor. We now describe the relation to Hopf and give the
+metric involved.
+
+
+
+  4 Globally, we have a homomorphism of the direct product U(1) × SU(2) onto U(2) given by (exp iα, U ) →
+                                                                                                            1
+U1 exp iα with kernel {(1, 1), (−1, −1} ∼
+                                        = Z2 . More important for us will be the universal covering homomorphism
+R × SU(2) → U(2), sending (α, U1 ) → U1 exp iα with kernel {nπ, (−1)n |n ∈ Z} ∼      = Z.
+  5 In the group theory sense, one can still regard the 3-sphere as the coset space U(2)/U(1) if U(1) is embedded
+
+as just described. This makes it the simplest example of a Stiefel manifold. See [33,42] for physics applications
+of the more general cases.
+132               H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+   The relation to Hopf is easy: one simply applies to the second, global decomposition the
+first, local one, writing
+                                  √                     
+                  1     0            1/ det U        0       √
+       U = U0                 = U0               √             det U,
+                  0 det U                0          det U
+                                           
+or
+                                      √                     
+              1     0           √        1/ det U         0
+       U=                  U0 = det U                 √          U0 .
+              0 det U                        0           det U
+                                                   
+The unimodular part indicated by the brace constitutes the projection of the coset of ι0 (U(1))
+passing through U0 ∈ SU(2) onto SU(2) in the local direct product decomposition sense.
+If U0 is kept fixed while det U is varied, U traces the coset through U0 in U(2), while
+the indicated local projection traces part of the Hopf or anti-Hopf fiber through U0 in
+SU(2) ∼= S3 .
+   To get the metric, start from the right (resp. left) invariant Maurer–Cartan matrix Ω :=
+dU · U −1 (resp. = U −1 dU) on U(2); then for arbitrary real constants α, β the symmetric
+differential forms of degree 2 given by α(Tr Ω)2 + β Tr(Ω2 ) are bi-invariant, i.e., invariant
+under U → AUB for all A, B ∈ U(2). (Here multiplication of differentials is symmetric
+tensor multiplication as in the usual gik dui duk for metrics; i.e., if the ui are some parameters
+on the group manifold, the gik for the above forms are gik = α Tr(U,i U −1 )Tr(U,k U −1 ) +
+β Tr(U,i U −1 U,k U −1 ).) Among them, the ones with the ratio α : β = −1 are of partic-
+ular importance because of their Lorentzian signature and their high (maximal possible)
+conformal symmetry. If we take −α = β = 21 , we have
+                                           −1
+      2 Tr(Ω ) − 2 (Tr Ω) ≡ −det Ω = −det U det dU =: dsE ,
+      1     2    1       2                              2
+
+where also under the det sign symmetric multiplication of differentials is understood.
+   We refer the reader to [47] or [18] for the description of the full conformal symmetry
+of dsE2 in terms of U, but repeat from there its relation to Minkowski space; it is given as
+follows. Decompactify U(2) by removing all U having det(U − 1) = 0; to the rest, apply
+the Cayley transformation
+      X = −i(U + 1)(U − 1)−1 ⇔ U = (X − i1)(X + i1)−1 ,
+producing Hermitian matrices X from unitary U and conversely. One then calculates
+      dX = 2i(U − 1)−1 dU(U − 1)−1 ,              det dX = −4 det U(det(U − 1))−2 det Ω.
+Finally, parametrizing X as
+                             
+             x0 + x3 x1 − ix2
+     X=                         = x0 1 + x · σ
+             x1 + ix2 x0 − x3
+with the Pauli matrices σ = (σ1 , σ2 , σ3 ), we see that the Minkowski metric
+        2
+      dsM := (dx0 )2 − dx2 = det dX
+is conformally related to dsE2 , i.e., the Cayley transformation is conformal.
+                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150           133
+
+   The decompactification above removes from the SU(2) subgroup just the single element
+1; the rest gets, via Cayley, related to the hypersurface Tr X = 0—i.e., x0 = 0—of the
+Minkowski space constituted by the X or (xi ); one checks that this is just a stereographic
+relation. The system of Hopf fibers on SU(2) ∼       = S3 thus gets mapped to the system of
+Villarceau circles described in [48].
+   Let us now have a closer look at dsE2 in order to see that the cosets of our subgroup ι0 (U(1))
+are null geodesics. Write det U = exp 2iτ, U = U1 exp iτ, U1 ∈ SU(2), remembering that
+τ and exp iτ are only locally defined as smooth functions, having jumps on non-contractible
+loops which we know exist on U(2); so dτ is still globally defined. In terms of this local
+decomposition, we have Ω = i dτ1 + Ω1 with Ω1 := dU1 · U1−1 (resp. =U1−1 dU1 ), so that
+Tr Ω1 = 0 from det U1 = 1. This gives the manifestly global definition of dτ as (1/2i)Tr Ω
+and
+
+     dsE2 = −det(idτ1 + Ω1 ) = dτ 2 − det Ω1 ,
+
+where det Ω1 ≡ det dU1 is seen (Appendix A) to be the usual line element on S3 ∼     = SU(2),
+for which the Hopf fibers, being great circles, are geodesics. Since dsE2 is a Riemannian
+sum of two metrics, its geodesics are given by their local projections which are geodesics
+in their respective metrics. Thus the cosets under consideration   are indeedgeodesics for
+                                                                     1      0
+dsE2 ; and they are null, since parametrizing them as α → U0                      (resp. α →
+                                                                     0 exp iα
+             
+   1      0
+                U0 ), we easily find det Ω = 0 along them.
+   0 exp iα
+   Two remarks are as follows. (1) On passing from U(2) to its universal covering group
+R × SU(2) (cf. the preceding footnote), τ becomes globally defined, and dsE2 is then the
+usual metric on the Einstein cylinder universe R × S3 (up to some scaling); and while the
+closure of the Cayley image of Minkowski space within U(2) is all of U(2), the closure
+(of a connected lift) within the universal cover gives the usual ‘conformal infinity’ picture
+[13]. (2) Performing the local projection onto SU(2) first and Cayley afterwards is not
+the same as doing Cayley first and orthogonally projecting onto SU(2)’s Cayley image
+3-space x0 = 0 in Minkowski space thereafter. Thus the Cayley images of the above
+cosets (null geodesics of dsE2 ) are null geodesics of dsM 2 and therefore straight null lines
+
+by the well-known conformal invariance property of null geodesics. So their Minkowski
+orthogonal projections onto x0 = 0 are straight lines there and not the stereographic Hopf =
+Villarceau circles! As Penrose points out, the latter are useful nevertheless in this context,
+however: a null straight line in Minkowski space is easily constructed from an initial point in
+x0 = 0 and the direction there of its projection onto x0 = 0 by running through the straight
+line given by these data with the speed of light; and for the null geodesics in question, this
+direction is given by the tangent to the stereographic Hopf circle at the stereographic image
+point. This is how Penrose instructs us to read the stereographic Hopf fibration in the twistor
+context.
+   We finally describe, following Penrose, the relation to (projective) twistors. Twistors are
+elements of a four-dimensional complex vector space T equipped with a Hermitian form
+h of signature (2, 2) and a compatible determinant function (; the automorphism group of
+134                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+this structure, SU(2, 2), is a 4:1 covering of the (connected component of the) conformal
+group of dsE2 . We will be interested in the projective twistors, i.e., the one-dimensional
+subspaces CT of T (0 = T ∈ T)—so notice that all equations below are homogeneous in
+the twistor variables that occur, unless special normalizations are made. We first interpret
+CN, 0 = N ∈ T, in the null case h(N, N) = 0, and only then interpret CT , 0 = T ∈ T, in
+the non-null case h(T, T) = 0 by looking at those null twistors N = 0 which are orthogonal
+to T , h(N, T) = 0: this will lead to the Robinson congruences.
+   We choose a basis in T that diagonalizes h, so that its matrix is diag(1, 1, −1, −1);
+then h(T, N) = T 1 N 1 + T 2 N 2 − T 3 N 3 − T 4 N 4 . Consider now a null twistor N: we have
+|N 1 |2 +
+         |N 
+             2 |2 = |N 3 |2 + |N 4 |2 . Therefore a unitary 2 × 2 matrix U ∈ U(2) exists6 effect-
+                                                                                         
+          N 3         N1                                                                N3
+ing U             =          , but it is not unique. We exemplify this by the choice           =
+          N4          N2                                                                N4
+ 
+   1
+       : we then have |N 1 |2 + |N 2 |2 = 1, and U is given by U = U0 diag(1, exp iα) with
+   0
+                      
+           N 1 −N 2
+U0 =                       ∈ SU(2) and α real—so in this case CN determines and is deter-
+           N2 N1
+mined by the left coset through U0 of ι0 (U(1)). For some other choice of N 4 , we would
+similarly have obtained the coset of a conjugate subgroup, which, by the invariance of
+our metric, would again constitute a null geodesic. This gives the interpretation of null
+twistors. The choice N 4 = 0 of the example already exemplifies the interpretation of a
+non-null twistor T having h(T, T) < 0, since if we take T to have T 4 as its only non-zero
+component, the condition h(T, N) = 0 just implies N 4 = 0, allowing to normalize N
+to look as above with U0 ∈ SU(2) arbitrary. Thus CT indeed gets interpreted by all the
+cosets of ι0 (U(1)), constituting the Robinson congruence considered before. Similarly, if
+we choose T to have T 2 as its only non-zero component, exemplifying non-null twistors
+having the opposite sign h(T, T) > 0, the null twistors N orthogonal to it satisfy N 2 =
+0; when we scale N 1 = 1, the condition on U becomes the same as before with U re-
+placed by U −1 and N 1 , N 2 by N 3 , N 4 , implying that U now runs through right rather than
+left cosets: this is related to the anti-Hopf fibration, having the opposite sense of twist.
+(A general position of T leads to a general position of the congruence, whose descrip-
+tion in Minkowski space by the method above would involve Dupin cyclides instead of
+tori.)
+
+
+6. Hopf and Wignerism—helicity representations
+
+   In all examples discussed so far, the bundle, or total, space S3 was of immediate impor-
+tance and thus in the forefront of the formalism; the base space S2 , on the other hand, did
+figure in the qubit case and is used in technical treatments of NUT space that work with the
+
+  6 The description of conformal transformations in terms of fractional linear block matrix transformations of the
+
+unitary matrices U as given in [47] can be directly inferred from this parametrization of null twistors. A similar
+parametrization using Hermitian matrices X is possible when components with respect to a null basis are used
+(the relation of the X to the U being given just by the Cayley transformation); cf. [18,13].
+                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150           135
+
+space of Killing trajectories. In the two examples to follow, it will be the other way round:
+it is the base space that is in the foreground, while the bundle space appears as derived,
+e.g., via a patching construction. The latter is necessitated by the need to look at the global
+aspects of the objects involved. The situation in which such an object is a connection or
+covariant derivative will be treated in the next section; common to that example and the one
+to be treated now is a smoothness requirement that will provide a domain of definition for
+certain differential operators.
+   In the present example, the latter will be the generators of the (homogeneous, proper,
+orthochronous) Lorentz group L in the well-known “massless” helicity representations of
+the (universal covering group P̃ of the proper orthochronous) Poincaré group P. It may
+surprise some that something topologically unusual should be lurking behind this matter,
+but consequences of this fact have indeed been discussed in the literature [21,22]. These
+representations show up as one of the “physical” cases in Wigner’s classification of the
+unitary irreducible representations of P̃, which in turn are building blocks of any formalism
+that realizes relativistic symmetry in the quantum domain [49].
+   From the fact that the translation subgroup T of P is an Abelian invariant subgroup one
+derives that every such representation can be realized in the space Γ(E) of sections of a
+(complex) vector bundle E over an orbit O of L in the vector space T ∗ dual to T. (In
+physics, that vector space is the space of wave numbers and is, according to de Broglie,
+via × (inverse Minkowski metric tensor), identified with T except for its physical dimen-
+sion, which then is momentum.) L̃ (covering L) acts on E, each L̃ ∈ L̃ transforming
+the fiber over p ∈ O into the fiber over Lp by a linear transformation Q(L̃, p). From
+this derives a linear action on Γ(E) which is irreducible iff for any “origin” p̄ ∈ O the
+Q(L̃, p̄) furnish a unitary irreducible representation when the L̃ are restricted to the sub-
+group K̃p̄ —the “little group”—of L̃ that leaves p̄ unchanged. Further, the representation of
+L̃ in Γ(E) is determined (“induced”) uniquely up to unitary equivalence by that represen-
+tation of the little group. Thus the classification is by classifying the orbits of L in 4-vector
+space and by classifying the unitary irreducible representations of the associated little
+groups.
+   The case of interest for us is the one where O is a half null cone in T ∗ (forward or back-
+ward), corresponding to zero mass particles, so that p̄ is null (lightlike) and the little group
+has structure U(1)×C (semidirect product). Further, the relevant representations of the little
+group are those where the invariant subgroup corresponding to the factor C (covering “null
+rotations”) is represented trivially in the fiber over p̄; then, for irreducibility and unitarity,
+the U(1) factor has to be represented one-dimensionally, i.e., the whole representation is
+determined by a character of U(1), and the vector bundle has one-dimensional fibers—it is
+a complex line bundle. The characters are indexed by integers; since U(1) double-covers a
+1-parameter subgroup of rotations of L and since the effect of non-null translations on the
+state vectors of the representation may be compensated by such rotations depending on this
+integer, 1/2 times the relevant integer is called the helicity λ of the particle associated with
+the representation.
+   Our interest in those representations comes from the fact that for non-vanishing λ the
+line bundle is topologically non-trivial, enabled by the fact that the base space null cone
+O∼  = S2 × R is non-contractible. The interesting topology already resides in the restriction
+of the line bundle to an S2 cross-section of the null cone O; we may take it to be the orbit of
+136                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+p̄ under the SO(3) subgroup of L and may then restrict the little group to be U(1). We thus
+get an induced representation7 of SU(2) (double-covering SO(3)), carried by the space of
+sections of the restricted line bundle over S2 , and this is the point where the Hopf fibration
+appears in the setup.
+    To see this first as cheaply as possible, we use a mathematical trick of the trade ([9, p. 114];
+[41]). Namely, in situations like the one above (“homogeneous vector bundles”), there is a
+standard bijection between sections ψ of vector bundles over group orbits and vector-valued
+functions ψ̃ on the group itself with a prescribed behavior along the cosets of the little group.8
+In our case as restricted to S2 and SU(2), to every section of the line bundle there corresponds
+bijectively a C-valued function ψ̃ on SU(2) whose values change as ψ̃(U exp iασ3 ) =
+exp(2iλα)ψ̃(U) as one goes along a left coset of U(1) in SU(2). Thus again using the group
+description of the Hopf fibering, we see that the Hopf fibers serve as “guiding lines” for
+the behavior of the functions ψ̃. The representation of the L̃ is, in this language, given by
+composing the ψ̃ with the left translation by L̃. (Since the Hopf fibration is left-invariant,
+the defining property of the ψ̃ is not lost.)
+    In physics texts, this is presented somewhat differently and slightly heuristically. One
+uses the system of “improper” eigenvectors common to all translation operators as a basis
+in representation space. They are indexed in part by the spectral values of the translation
+generators, and the Lorentz group acts on that spectrum which thus must, for irreducibility,
+be an orbit of the Lorentz group. One fixes p̄ and chooses a basis in the eigenspace indexed by
+it. One then imagines this basis transported to all other eigenspaces, using the representing
+operators of selected Lorentz transformations, one for each orbit point p to be reached from
+p̄. Traditionally, these coset representatives are chosen, for definiteness and explicitness,
+as boosts. In the “massive” case, p̄ is timelike, and the boost is taken with respect to an
+“observer” whose 4-velocity is parallel to it; but in the massless case we are interested in,
+such choice is impossible, since a 4-velocity must be timelike. However, if any timelike
+choice of the observer is made, there is a unique boost with respect to it that carries p̄ into
+p (by the Doppler and aberration effect, physically speaking) except when p has its space
+direction antipodal to that of p̄ with respect to the observer. In this case, the boost becomes
+undefined, the necessary speed being that of light. One might argue that fixation to boosts
+w.r.t. one single observer or to any boost at all is unnecessary, it could be just any Lorentz
+transformation representing the coset defined by p. But for a simple topological reason no
+choice that would depend continuously on p is possible for all of O, because if it were, the
+topology of K̃p̄ and of O would imply the infinitely connected topology S2 ×R ×U(1)×R2
+for L̃—but the latter is simply connected. Why bother about continuity at a single null line
+
+  7 As a representation of SU(2), it is reducible; according to Frobenius reciprocity, it contains all irreducible
+
+representations with highest weights λ, λ+1, λ+2, . . . exactly once, and none else. The irreducible subspaces are
+spanned, in the “ψ-language” below—by “spin-weighted spherical harmonics” [12], in the context of Section 7
+also known as “monopole spherical harmonics”. Incidentally, since the base space S2 may be regarded as the
+complex manifold CP1 , it makes sense to ask whether these complex line bundles are holomorphic—and they
+are. The spaces of their holomorphic sections are only finite-dimensional, as one may check by series expansion
+around the north and south pole, and are easily related to binary forms in the homogeneous coordinates z1 , z2
+of CP1 which are well known to carry the irreducible representations of SU(2). This illustrates a famous general
+construction of Borel–Bott–Weil in rudimentary form.
+  8 Explicitly, if ψ : O → E is the section, the associated ψ̃ is given by ψ̃(L̃) = (Q(L̃, p̄))−1 ψ(Lp̄).
+                 H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150        137
+
+on the cone O—in the end the representation space Γ(E) will be enlarged anyway to include
+all sections square-integrable over the cone? The reason is that one wants to have continuous
+representations, and for them one must provide a domain of definition for the infinitesimal
+generators of L̃, which are differential operators—so we want to start with the space of
+smooth sections of a smooth vector bundle. The above continuous, in fact smooth, choice
+allows the construction of the bundle just over the patch of O where the boosts work, and
+one can then choose an anti-podal origin and boosts “starting” from there to obtain a second
+patch, and finally match the two. The bundle so obtained is non-trivial for non-zero helicity,
+but it is clear now that the trick used above is preferable to doing the patching explicitly:
+this is possible in our “group-dominated” situation. We just mention that for the restricted
+bundle over S2 considered above one can choose the coset representatives to belong to
+SO(3) instead of being boosts; one then encounters a similar problem, and the necessary
+patching will be related to the patching to be treated in our next example.
+   Alternatively, one can see the occurrence of the Hopf fibration by starting from the Weyl
+equation (∂t ± σ · ∇)ψ = 0 and the “positive frequency condition” for 2-component spinor
+fields, which are well known to carry helicity ± 21 under these conditions. In Fourier (i.e.,
+momentum) space, the latter are (p0 1 ± p · σ)ψ̃(p) = 0 and p0 > 0, implying that the
+Hermitian matrix 2P := p0 1 ± p · σ is singular. This puts p on the forward light cone O and
+implies P to be of rank 1, so P = zz† for some complex 2-rowed column z (2-component
+spinor). It follows then that z† ψ̃ = 0, so ψ̃ is uniquely determined by z apart from a
+complex factor, while z is uniquely determined by p apart from a phase factor. This says
+that p → ψ̃(p) is a section of a complex line bundle over O, associated to C2 \{0} ∼ = S3 ×R
+viewed as a circle bundle over O ∼  = S2 × R whose fibers over the p consist of all z ∈ C2
+having zz† = P. So if we consider the + case and restrict to the cross-section p0 = 1 of
+the cone, we can immediately compare P formally with the 2 × 2 density matrix of a pure
+state as discussed in Section 2 to obtain the same geometry as discussed there.
+   The − sign leads to anti-Hopf; other helicities obtain from generalized Weyl equations
+for positive frequency fields carrying 2|λ| totally symmetric indices [12]; the corresponding
+line bundles over O are then tensorial powers of the one above—the tautological line bundle
+of CP1 , cf. Appendix A—and of its dual, as follows easily from the spinor algebra described
+in [12]. This will bring in identifications modulo 2|λ|th roots of unity, related to so-called
+“lens spaces” (Appendix A), also to be mentioned in the next section.
+
+
+
+7. Hopf and magnetic monopoles
+
+   This example of our collection is probably the first one that caught the attention of a
+larger number of physicists. As announced, the Hopf fibration comes here from a bottom-up
+construction.
+   In his 1931 article “Quantised Singularities in the Electromagnetic Field” (magnetic
+monopoles), Dirac [19] starts out looking for a generalization of wave mechanics in which
+the wave function does not have a definite value for its phase difference between two
+points. In the 1970s, it was realized [50] that it is advantageous to rephrase Dirac’s idea in
+the “fiber bundle with connection” language that had been given to electromagnetism and
+138               H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+non-Abelian gauge theories in the 1960s by DeWitt [20], Lubkin [27], Loos [26], Trautman
+[41]. In the e.m. case and neglecting spin and inner degrees of freedom, the relevant bundle is
+a complex line bundle E over space-time, and instead of ordinary C-valued wave functions
+one considers sections of the line bundle. (Dirac still called them wave functions.) Ordinary
+numerical wave functions reappear when a basis (consisting of only one non-zero vector
+per fiber in the case of a line bundle!) is chosen in each fiber, smoothly from point to point,
+and the value of the section at each point is written as a (complex) scalar multiple of that
+basis vector. The gain in generality here is that one can consider non-trivial line bundles
+(“twisted” like Moebius bands), which are still smooth but not capable of a smooth choice
+of basis vectors, except locally. In regions where two choices (two “gauges”) coexist, one
+has two smooth numerical wave functions for one smooth section, related by a smooth
+gauge transformation (of “second kind”); but although a section can be smooth globally, in
+the non-trivial case there is no globally smooth choice of gauge (due to the independence
+condition on basis vectors), and thus no globally smooth numerical wave function for that
+section. To include the cases where the line bundle has, because of spin and inner degrees of
+freedom, to be replaced by a vector bundle with higher fiber dimension, one isolates from
+the line bundle the bundle of its unit vectors—a circle bundle over space-time, a principal
+fiber bundle with structure group U(1)—and then considers vector bundles “associated” to
+it. In this scheme, there is a global but more abstract description of the e.m. field in terms
+of a connection and its curvature on the (circle) bundle space, and a local “patchwork”
+description of it in terms of the usual scalar and vector potentials.
+    To see in more detail how the Hopf fibration relates to this, we first indicate how to
+derive the Dirac quantization condition on magnetic charges in the modern approach. To
+the magnetic field B produced by a static distribution of (hypothetical) magnetic charge,
+compactly supported, with total magnetic charge g = 0, there corresponds the equivalent
+2-form β = B dS = Bx dy ∧ dz + · · · having div B = 0 or d ∧ β = 0 outside the
+support. Locally, we then have there the existence of a vector potential A or the equivalent
+1-form α = A dx such that B = curl A or β = d ∧ α. If one restricts β, α to a sphere
+S2 surrounding the support and uses the same symbols for the restrictions, one still has
+locally β = d ∧ α; but α cannot exist globally on the sphere, as this would give 0 = g =
+  S2 B dS = S2 β = ∂S2 α = 0 by Stokes, since the sphere is closed. Covering the sphere
+by U+ := S2 \ {south pole}, U− := S2 \ {north pole}, one has for the restrictions β± of β to
+U± that β± = d ∧ α± with 1-forms α± defined all over U± , since these are homeomorphic
+to R2 . Clearly on U := U+ ∩ U− we have 0 = β+ − β− = d ∧ (α+ − α− ), so locally there
+α+ − α− = dΛ for some function Λ. Since U is not simply connected, Λ will not exist
+globally there as a continuous function. For example, if we consider Λ along the equator
+contained in U, it will have a jump somewhere on it of size dΛ = α+ − α− =
+            +                       +                                                        ±
+  H+ d ∧ α + H− d ∧ α = H+ β + H− β = S2 β = g, using Stokes and denoting by H
+                                   ±
+the hemispheres contained in U . (Note that this involves a convention on the unit for g.)
+The replacement, on U, of α− with α+ = α− + dΛ is called a local gauge transformation.
+    Now quantum mechanics comes in, where the Hamiltonian H = (1/2m)p2 entering the
+Schrödinger equation for a particle with electrical charge e moving in a given magnetic field
+is built from the canonical momentum p = (/i)∇ + (e/c)A, which is gauge-dependent.
+Therefore, a gauge transformation of the local potential A− has to be accompanied by a phase
+                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150          139
+
+transformation (“gauge transformation of second kind”) of the numerical wave function ψ−
+of the particle, i.e., by its replacement with ψ+ = ψ− exp(−i(e/c)Λ), all on U, to keep the
+physics locally gauge-invariant. However, ψ± have to be smooth there, being restrictions
+of functions belonging to a domain of definition of the Hamiltonian, which is a differential
+operator. So, although globally Λ has the non-zero jump g somewhere on the equator, its
+exponential exp(i(e/c)Λ) is not permitted to have one, which implies (eg/2πc) ∈ Z to be
+an integer n. This is the Dirac condition. The integer n may be interpreted as the winding
+number, or mapping degree, of the map from the equator circle to the unit circle given by
+x → exp(i(e/c)Λ(x)).
+   With the idea of interpreting ψ± as component functions of a smooth section ψ of
+a smooth complex line bundle with respect to two local normalized basis sections s± ,
+one derives the transition function between the latter: s+ = exp(i(e/c)Λ)s− . From the
+interpretation of (d + (ie/c)α± )ψ± as the local components of a covariant differential of
+a section ψ one gets the interpretation of (ie/c)α± as local pullbacks Γ± under s± of a
+connection form ω on a principal bundle whose curvature form is (ie/c)B dS. Multiplying
+by −(2πi)−1 , one gets [10, p. 309] the representative −(e/2πc)B dS of its Chern class and
+−(eg/2πc) = −n as its Chern number. The integer (“topological quantum number”) n,
+being the winding number of the transition map taken along the equator, characterizes a
+complex line bundle over S2 or the associated circle bundle of its unit vectors uniquely up
+to bundle isomorphisms [4, p. 301]. It should be clear now that from the conceptual point
+of view the state vectors of our quantum mechanical system are given by global sections
+of the relevant line bundle and that the Hamiltonian is built from the covariant derivative
+operators acting on sections.
+   Our point here is that for n = 1 such a circle bundle is isomorphic to the Hopf bundle.
+(n = −1 would correspond to anti-Hopf.) Since we have defined the Hopf bundle up to
+now globally as embedded into R4 , to see this we must first patch the bundle up as above
+and find two sections, one smooth over U+ , the other smooth over U− , and then look at the
+transition function between them when followed round the equator of the basis space S2 .
+A section s is the result of trying to find a right inverse to the bundle projection z → R(z).
+Given R ∈ S2 ⊂ R3 , we form ρ = 21 (1 + R · σ), which is Hermitian-positive with trace 1
+and rank 1; so ρ = zz† for some z ∈ C2 having z† z = 1, unique up to a phase factor—but
+we know we cannot make the choice such that z is a continuous      function ofR all over S2 .
+                                                                      cos (θ/2)
+Using polar coordinates for R, we may take z = s+ (θ, φ) =                          for a section
+                                                                     sin (θ/2)eiφ
+                                                                  
+ +                       +           −1             cos (θ/2)e−iφ
+s continuous over U and z = s (θ, φ) =                               for a section s− continuous
+                                                      sin (θ/2)
+over U− . (Since θ = 0 and 0 = π each give only one point on the sphere for all φ, these
+sections are discontinuous at the south and north pole, respectively; see Appendix A for
+the less dangerous complex stereographic parametrization.) The transition function thus
+equals eiφ , and the associated winding number as defined above is 1, which we wanted to
+check.
+   Actually, the Hopf fibration provides more than just the topology ([42]; [17, p. 110]).
+Namely, the canonical connection form on the bundle space, given globally by z† dz and
+140                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+locally, using a parametrization given in Appendix A, by (i/2)(dψ − cos θ dφ) is invariant
+under the U(2) action on z and pulls back by the sections s± (which are obviously given
+by ψ = ±φ) to the forms (i/2)(±1 − cos θ) dφ with curvature form (exterior derivative)
+(i/2) sin θ dθ dφ ≡ (i/2)(x/r3 ) dS. These provide the vector potentials A± and magnetic
+field B for the exterior of a magnetic charge distribution invariant under the associated SO(3)
+action and thus spherically symmetric—e.g., of a single point monopole; one immediately
+checks that the Chern number is −1. To construct the circle bundle globally outside the
+point monopole, i.e., over the part R3 \ {0} ∼= S2 × R of physical space R3 , we present the
+                             ∼          ∼
+bundle space as C \ {0} = R \ {0} = S3 × R (rather than only its unit sphere) but factor
+                    2            4
+
+out only the U(1) action z → eiα z (rather than the C× action, which again would give only
+the quotient S2 ∼ = CP1 ). Concretely, the bundle projection is z → z† σz; all concentric
+spheres get Hopf-fibered this way as in Section 3. A U(2)-invariant connection form on
+this U(1) bundle is given by iI(z† dz/z† z) ≡ (i/2)(dψ − cos θ dφ), where now θ, φ are
+regarded as angular coordinates on all of R3 \ {0}. (Note that the standard radial coordinate
+                        †
+in physical space is z z, while on our R it is given by z† z!) We leave this somewhat
+                                            4
+
+sketchy, however, because our goal—to present a role of the Hopf fibration in the monopole
+context—has already been reached before.
+   We mention finally that the circle bundles corresponding to higher values of |n| are
+so-called lens spaces. Roughly, they are the bundles of unit vectors of complex line bundles
+obtained by taking tensorial powers of the n = ±1 line bundle, as can be seen immediately
+from their transition functions. For connections on them, see [42,43] and Appendix A.
+
+
+8. Hopf and the Dirac equation 9
+
+   The two-level quantum systems of Section 2 may be considered, in particular, as describ-
+ing the spin states of a non-relativistic spin- 21 particle—i.e., one ignores its spatial degrees
+of freedom. If the latter is not done, one must write spinorial wave functions, subject to
+appropriate wave equations. In the relativistic regime, the relevant wave equation is the
+Dirac equation. We shall point out here that the Hopf fibration has significance also in
+this context. Most directly this comes about when one considers the analog of the Dirac
+equation in two-dimensional space-times in their Euclideanized and compactified versions,
+which is done either when studying field theories in two space-time dimensions for their
+own sake, or in (super)string theory. In this context, S2 ∼ = CP1 is just the simplest example
+of such a space-time or string world-sheet, more complicated ones being Riemann surfaces
+corresponding to algebraic curves [37]. The concept of spinor field, to be subjected to a
+Dirac equation, requires that of a spin structure, which is a 2:1 covering of the space-time’s
+bundle of oriented orthonormal tangent frames (see, e.g., [44] for detailed exposition suit-
+able in the present context). Now the assignment z → Z(z) used in Section 2 to graphically
+represent state vectors in the Bloch sphere picture of pure states shows that the Hopf bundle
+yields a 2:1 covering of the bundle of oriented orthonormal tangent frames of the 2-sphere,
+the structure group U(1) playing the role of the spin group covering the frame bundle’s
+
+ 9 The idea to include this topic is due to A. Trautman.
+                     H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150                        141
+
+structure group SO(2). Indeed one verifies by elementary calculation that P(z) = RZ(z),
+Q(z) := IZ(z) satisfy P2 = Q2 = 1, P · Q = 0, P × Q = R. Thus the Hopf bundle is the
+spin bundle of the 2-sphere.10
+   The canonical connection on the Hopf bundle (cf. Appendix A) already played a role
+in Sections 2 and 7. Its associated covariant differential for sections of vector bundles
+associated to the Hopf bundle provides the necessary ingredient for the definition of the
+Dirac operator, since it is directly related to the Levi–Civitá connection on the 2-sphere, as
+already remarked in Section 2.
+   It is, however, not necessary to enter these esoteric two-dimensional worlds to see the
+Hopf fibration as a relevant structure in the realm of spinor fields: Trautman [44] has noted
+that the Dirac operator on 2-spheres appears when one tries to solve the Dirac equation in
+ordinary four-dimensional Minkowski space in presence of an external spherically sym-
+metric electrostatic field by the method of separation of variables, using polar coordinates.
+Indeed, the operators j and k appearing in Section 71 and Section 53 of [6] and [14],
+respectively—just to quote two popular expositions—are essentially the Dirac operator on
+the 2-sphere: this is easy to see locally, and was shown to be true globally in [44]. As
+Trautman points out, there is a direct global analog for Dirac operators to the well-known
+splitting of the Laplacian on R3 into a radial operator and r −2 × (Laplacian on S2 ).11 At
+least for the mathematically minded, this way of looking at the formal procedure in [6,14]
+will be more satisfactory; and it allows for interesting generalizations [44] and applications
+[45].
+
+
+Acknowledgements
+
+   I am indebted at least to the following persons for directly or indirectly educating me on
+matters included in this article: R. Beig, I. Bengtsson, P. Nurowski, R. Penrose, H. Rumpf,
+W. Simon, and A. Trautman. In particular, important information came from participants
+of a meeting in honor of E.T. Newman held in June 2001 at the Banach Center, Warsaw; I
+thank the organizers of that meeting for inviting me there to present a preliminary version
+of this article, for hospitality, and encouragement.
+
+
+Appendix A. 12
+
+A.1. Defining the Hopf fibration
+
+  In mathematics, the Hopf fibration is nowadays defined as follows ([4, p. 227]; [5,
+Section 16.14]). Take the complex vector space C2 of columns z = ( z1 z2 )T , where
+ 10 Also, z⊗z → Z·dR turns out to give an explicit isomorphism between the tensorial square of the “tautological”
+                        z
+line bundle (bundle of chiral spinors) associated to the Hopf bundle and the holomorphic cotangent bundle of CP1 ,
+mentioned in Appendix A; see [37] for the extension of this aspect to higher genus algebraic curves and its
+application in superstring theory.
+ 11 Even the otherwise rather complete monograph [15] misses this point.
+ 12 As a general reference for the concepts used below, we recommend the text [17].
+142                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+zi ∈ C. Then the complex projective line13 P(C2 ) = CP1 obtains from C2 \ {0} by factor-
+ing out the equivalence relation “z ∼ w iff w = λz for some λ ∈ C× = C\{0}”. Since these
+equivalence classes bijectively correspond to the one-dimensional subspaces of C2 , one can
+also define the points of the projective space to be just these subspaces. For its (complex)
+manifold structure (see [4, p. 75]; [5, Section 6.11]; [10, p. 134]). Instead, one can first
+restrict to the unit 3-sphere S3 ⊂ R4 = C2 given by the z having z† z = 1, and then factor
+out “z ∼ w iff w = λz for some λ from the unit circle S1 ∼    = U(1) = {λ ∈ C, |λ| = 1}”.
+Using the stereographic maps from CP1 to the 2-sphere S2
+                                                     
+            z2             2ζ        2ζ      1 − |ζ|2
+      ζ :=      → R             ,I         ,            ,
+            z1          1 + |ζ|2 1 + |ζ|2 1 + |ζ|2
+wherever z1 = 0 and
+                                                         
+         z1            2ζ̄        2ζ̄      1 − |ζ  |2
+    ζ :=      → R               ,I          ,               ,
+          z2         1 + |ζ  |2 1 + |ζ  |2 1 + |ζ  |2
+
+wherever z2 = 0, one gets a smooth map π from S3 onto S2 ⊂ R3 which we can also
+express as
+      z → (2Rz̄1 z2 , 2Iz̄1 z2 , |z1 |2 − |z2 |2 ) =: R(z).
+(ζ, ζ  are the inhomogeneous complex coordinates around 0 and ∞ in CP1 ). This is the Hopf
+map. π is a projection in the sense that S3 is a principal fiber bundle over the base space
+S2 ∼= CP1 with structure group U(1) ([5, Section 16.14]; [7, Section 4.4.4]; [9, p. 50]) which
+we will call the Hopf bundle or Hopf fibration.14 Hopf actually started out with a version in
+real terms, considering instead of C2 its realification R4 , i.e., columns X = (X1 , . . . , X4 )T ,
+where z1 = X1 + iX2 , z2 = X3 + iX4 . The real counterpart of multiplying z by i is
+multiplying X by the matrix (a complex structure for R4 )
+                              
+                 0 −1 0 0
+              1 0 0 0 
+                              
+        J :=                  .
+               0 0 0 −1 
+                 0 0 1 0
+
+We also equip C2 with its standard Hermitian inner product z, w := z† w = z̄1 w1 +
+z̄2 w2 . In R4 , with Y the real counterpart of w, this gives rise to the standard inner prod-
+uct X, Y  = Rz, w ≡ XT Y and an anti-symmetric non-degenerate bilinear form
+Φ(X, Y) := Iz, w ≡ Riz, w = JX, Y . In terms of X, the unit sphere is XT X = 1,
+and the fibers of the Hopf bundle—the inverse images of the points of S2 under the Hopf
+map—turn out to be linked great circles on S3 : the orbit of z under the U(1) action, α → z eiα ,
+is in real terms α → X cos α + JX sin α, where X and JX are orthogonal unit vectors. We
+note that the tangent to the fiber at z is given by iz, thus in real terms at X by JX. The linkage
+ 13 We will write dimensions as subscripts except where they at the same time can be read as Cartesian powers;
+
+it should be clear from the context whether a real or a complex dimension is meant.
+ 14 Likewise, one has C2 \ {0} as a (holomorphic) principal fiber bundle over CP with structure group C× .
+                                                                                1
+                      H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150                          143
+
+can be visualized by stereographic projection of the 3-sphere to its equatorial 3-plane: one
+obtains one family of Villarceau circles on each torus of a system of nested coaxial con-
+centric tori orthogonal to the unit 2-sphere in that 3-plane; see, e.g., [48] and works quoted
+there for detailed illustration, and [4, pp. 227–239], for more on linking. The linking of the
+fibers was used by Hopf to compute the homotopy group π3 (S2 ) ∼          = Z, while nowadays this
+is done using the machinery of the exact homoptopy sequence of fiber bundles ([4, p. 209];
+[5, Section 16.30, Ex. 5,6]).
+   It should be noted that this linking of the fibers is not in conflict with the local triviality of
+the bundle. Since it is needed in one of our applications, we make this explicit with respect
+to a bundle atlas consisting of two charts. Let U+ = S2 \ {south pole} and U− = S2 \
+{north pole} be the open subsets where ζ and ζ  are well defined, respectively; together, they
+cover the 2-sphere. Then an explicit fiber-preserving diffeomorphism from π−1 (U± ) to the
+product bundles U± × U(1)—in which the fibers are not linked—is given by ( z1 z2 )T →
+(z2 /z1 , z1 /|z1 |) for U+ and ( z1 z2 )T → (z1 /z2 , z2 /|z2 |) for U− with respective inverses
+(ζ, eiα1 ) → (1 + |ζ|2 )−1/2 eiα1 ( 1 ζ )T and (ζ  , eiα2 ) → (1 + |ζ  |2 )−1/2 eiα2 ( ζ  1 )T . The
+usual polar coordinates θ, φ centered at the north pole of the 2-sphere are related to the
+complex stereographic coordinate ζ by ζ = tan (θ/2) eiφ (projecting from the south pole to
+the equatorial plane). Taking α1 = 0 and α2 = 0 we get cross-sections s+ and s− of the
+Hopf bundle over U+ and U− given by
+                                                        
+                                                   θ
+                                                cos
+                                     1               2 
+      s+ (ζ) = (1 + |ζ|2 )−1/2              =
+                                             
+                                                         
+                                      ζ            θ iφ 
+                                               sin e
+                                                   2
+and
+                                                            
+                                                    θ
+                                                cos e−iφ
+                                        ζ            2      
+      s− (ζ  ) = (1 + |ζ  |2 )−1/2         =
+                                              
+                                                             ,
+                                        1               θ 
+                                                    sin
+                                                        2
+respectively, which on U+ ∩ U− are related by s+ = eiφ s− with the transition function
+eiφ .15 Instead of θ, φ, α1 or θ, φ, α2 one may also use θ, φ, ψ := α1 + α2 or θ, α1 , α2 as
+convenient coordinates on the bundle manifold S3 :16
+                  θ iα1    θ                                            θ iα2    θ
+      z1 = cos      e = cos ei((ψ−φ)/2) ,                   z2 = sin      e = sin ei((ψ+φ)/2) .
+                  2        2                                            2        2
+
+A.2. Clifford parallels
+
+  Clifford parallelism in real projective 3-space with the elliptic version of non-Euclidean
+geometry may be described as the following instruction to “draw” “parallels” to a given
+ 15 Similarly, one has local trivializations of the bundle mentioned in the previous footnote using the holomorphic
+
+local sections ζ → ( 1 ζ )T and ζ  → ( ζ  1 )T with transition function ζ.
+ 16 Note that the latter are not bundle coordinates. The former are, being essentially Euler angles when the 3-sphere
+
+is interpreted as the group SU(2) as below and thus as the covering group of the rotation group SO(3).
+144               H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+straight line . The geometry being specified by an “absolute” quadric of signature ++++,
+thus having no real points but defining a real polarity, one complexifies  and intersects it
+with the complexified quadric. This gives the complex-conjugate points P and P̄. Through
+them there pass complex-conjugate generators g and ḡ, both taken from the same of the
+two families of straight lines (=generators) carried by the complexified absolute. (Due to
+the present signature, each family is invariant under complex conjugation.) Any complex
+line joining a point P  on g with its complex-conjugate P̄  on ḡ is the complexification of
+a real line  , which is then called a Clifford parallel of . Depending on which of the two
+families of generators is being used, one has a right and a left Clifford parallelism. One can
+show that Clifford parallels are skew and equidistant in the sense of elliptic geometry and
+may be defined without using complexification [3, p. 200 et seq.].
+   We now indicate the relation of the Hopf fibration to Clifford parallels. We stated above
+that when C2 with its Hermitian form ·, · of signature ++ is realified, i.e., regarded as
+R4 , the latter comes with the quadratic form ·, · and the complex structure J. One now
+complexifies the R4 to become C4 and extends J and the bilinear form corresponding to
+·, · linearly and bilinearly, respectively, denoting the extensions by the same symbols.
+From J 2 = −1 it follows that iJ has eigenvalues ±1, the corresponding two-dimensional
+eigenprojectors being 21 (1 ± iJ). The eigenspaces are complex-conjugates of each other,
+check to be totally null with respect to ·, · due to the relation JX, JY = X, Y , and
+to belong, due to signature ++++, to the same family of 2-spaces contained in the null cone
+defined by ·, · (their Plücker tensors are both selfdual). Given now z ∈ C2 , we have its
+realification X; we can form JX and the 2-space span(X, JX). Then the two null directions
+contained in the complexification of the latter are parallel to X ± iJX, thus belonging to
+the eigenspaces just introduced. Projectivizing everything we see that the projectivized
+spaces span(X, JX) are indeed Clifford-parallel straight lines of RP3 = P(R4 ) with the
+projectivized ·, · for its absolute. (Note that one gets a system of Clifford parallels for
+any J sharing the properties just written. Also remember that the process of projectivization
+identifies anti-podal points on S3 .)
+
+A.3. Symmetry group
+
+   The Hopf fibration has a symmetry group: the action of the unitary group U(2) on C2
+leaves the 3-sphere invariant and carries fibers into fibers, as it commutes with the U(1)
+action; it thus descends to an action on the 2-sphere by ordinary rotations. This gives
+nothing but the well-known covering homomorphism SU(2) → SO(3), as will transpire
+from the quantum mechanical interpretation in Section 2. The difference between U(2) and
+SU(2) is ineffective on the 2-sphere due to the factoring out of the structure group U(1).
+
+A.4. Group theoretic definition
+
+   It will be useful for our purposes to give a slightly modified description of the fibering
+of the 3-sphere. To            z we attach their unitary perpendiculars to form the 2 × 2
+                   the columns
+                     z1 −z̄2
+matrices U(z) =                 : if z† z = 1, they make up the group SU(2) ∼
+                                                                            = S3 . (If z is left
+                     z2 z̄1
+                    H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150                 145
+
+arbitrary, one obtains a matrix ring isomorphic to the skew field of quaternions.) The U(1)
+action on z can be replaced here by multiplying on the right by diag(λ, λ−1 ) ∈ SU(2), so
+that the Hopf fibers are just left cosets of a U(1) subgroup in SU(2) embedded as indicated,
+and we now have the 2-sphere as the coset space SU(2)/U(1). The above-mentioned U(2)
+symmetry of the fibration corresponds to left multiplication by SU(2) matrices in addition
+to right multiplication by the U(1) subgroup elements.17 One can also consider right cosets
+of that U(1) subgroup, resulting in the anti-Hopf fibration—its stereographic projection
+gives the second family of Villarceau circles on the tori mentioned above, with the opposite
+sense of linking. Embedding U(1) into SU(2) by λ = eiα → exp(iαnk σk ) (where the σk are
+the Pauli matrices; these subgroups are all conjugate to the one above) one gets all other
+systems of Clifford parallels, one for each pair ±n of real unit vectors.
+   The standard metric ds2 = dz1 dz̄1 +dz2 dz̄2 of S3 can also be written as ds2 = det dU =
+det Ω, where Ω is the left or right invariant Maurer–Cartan matrix on SU(2), U −1 dU or
+(dU)U −1 , and where the products of differentials are symmetric tensor products as usual. Ω
+takes values in the matrix Lie algebra of SU(2) which consists of traceless anti-Hermitian
+matrices. If it is decomposed as Ω = (−i/2)ωk σk , the ωk constitute a basis of left- or
+right-invariant 1-forms on the group manifold. They are used in Section 4. In terms of
+them, one gets ds2 = 41 δjk ωj ωk , so that the ωk /2 form an orthonormal (co)basis and the
+Riemannian volume form is given by − 18 ω1 ∧ ω2 ∧ ω3 . (The sign has been chosen so as to
+conform with the standard orientation of the 3-sphere as embedded into R4 as we have it
+here.) For the left-invariant forms one has d ∧ Ω = −Ω ∧ Ω, implying the Maurer–Cartan
+relations d ∧ ω = − 21 (jk ωj ∧ ωk . In particular, for ω3 = 2i(z̄1 dz1 + z̄2 dz2 ) = 2iz† dz
+one has dω3 = −ω1 ∧ ω2 , so that the volume element also equals 18 ω3 ∧ d ∧ ω3 .
+   The exterior 2-form globally defined on R3 by R · dR × dR restricts to the usual surface
+element Σ on the unit 2-sphere with its standard orientation (locally, Σ = sin θ dθ ∧ dφ
+in polar coordinates). Σ is trivially closed but not exact, as its integral over S2 is 4π = 0.
+When pulled back to S3 by the Hopf map z → R(z), some computation (using z† z = 1)
+yields the 2-form 2i(dz1 ∧ dz̄1 + dz2 ∧ dz2 ) ≡ d ∧ (−ω3 ), which is manifestly exact on
+S3 . Generally, for a smooth map f : S3 → S2 , the pullback f ∗ ((4π)−1 Σ) = d ∧ α is exact
+since it is closed as the pullback of a closed form and since all closed 2-forms on S3 are
+exact. The integral S3 α ∧ d ∧ α is called the Hopf invariant of f ; it can be shown [4] to
+be an integer equal to the linking number of the inverse images of any two points in S2
+under f . For the Hopf map, this number becomes (4π)−2 S3 ω3 ∧ d ∧ ω3 = (2π2 )−1 ·
+volume(S3 ) = 1.
+   Note in this context that for any 1-form α the (non)vanishing of the integrand α ∧ d ∧ α
+is the Frobenius criterion18 for the local (non)existence of 2-surfaces on which α restricts
+to zero or which are orthogonal to the flow lines of the vector field metric-related to α. In
+case of non-existence, the vector field is said to be twisting.
+   Locally, using the parametrization by ψ, θ, φ, the left-invariant 1-form z† dz equals
+(i/2)(dψ − cos θ dθ), and the Hopf map is (ψ, θ, φ) → (θ, φ) (so that locally it is
+
+ 17 So the symmetry group seems to be SU(2) × U(1), but the action has a kernel Z consisting of (1, 1) and
+                                                                                    2
+(−1, −1); the quotient is isomorphic to U(2).
+ 18 For the interesting history of this criterion and its generalization, see [39].
+146                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+immediate that the surface element of the 2-sphere pulls back to the exterior derivative
+of −ω3 , but notice the dangers of sloppy notation!). It will be met again below.
+
+A.5. Associated line bundles: lens spaces
+
+   We will encounter complex line bundles associated to the Hopf bundle, the basic one
+being the tautological line bundle over CP1 .19 This is C2 with its origin “blown up”, i.e.,
+the subset of the trivial rank 2 vector bundle CP1 × C2 consisting of those pairs (P, z),
+where z belongs to the one-dimensional subspace of C2 determined by the equivalence
+class P ∈ CP1 . The others will be tensorial powers of it or of its dual (“negative” tensorial
+powers; the zeroth power is defined to be the trivial line bundle CP1 × C). Equivalently,
+these are associated to the Hopf bundle in the sense of forming (S3 × C)/U(1), where U(1)
+acts on the “standard fiber” C by some of its one-dimensional representations λ → λn ,
+n ∈ Z ([5, Section 16.14.7]; [7, Section 4.4.5]; [9, p. 54]).
+   The circle bundles formed by their unit vectors—the Hopf bundle is just the bundle of
+unit vectors, in the sense of ·, ·, of the tautological one—are so-called lens spaces L(3, n)
+(employing the notation of [4]—we warn the reader that there are other notations for them,
+depending on the generalizations envisaged). A related construction of L(3, n) (cf. [42])
+is by first considering the circle bundle S2n+1 → CPn —defined in complete analogy to
+our S3 → CP1 —and then considering the circle bundle induced [9, p. 60] from there
+over CP1 under the Veronese20 embedding CP1 → CPn . The most direct definition [4,
+p. 243] consists in quotienting S3 by the (free) action of the subgroup Zn ⊂ U(1) generated
+by exp(2πi/n): thus S3 → S3 /Zn = L(3, n) is an n-fold covering, and, writing [z] for
+z mod Zn , we have the U(1) action [z]λ := [zλ1/n ] on L(3, n) which makes it into a principal
+U(1) bundle over the 2-sphere, homomorphic [9, p. 53] to the Hopf bundle via the covering
+map and the homomorphism U(1) → U(1) given by λ → λn . The standard metric dz† dz
+on the 3-sphere descends to a metric on L(3, n) which is thus one of the positive curvature
+Clifford–Klein space forms;21 notice that the identification of points in the transition to
+L(3, n) reduces the global isometry group of the 3-sphere to SU(2) × U(1)/{1, −1} for
+L(3, n), if n > 2. The lens space L(3, 2) is just real projective 3-space as we used it above
+for Clifford parallelism, or, using the group description of the Hopf fibration, L(3, 2) =
+SU(2)/Z2 ∼   = SO(3); as a bundle over the 2-sphere, it is isomorphic to the latter’s bundle
+of oriented orthonormal tangent frames. The Hopf bundle is thus the spin bundle of the
+2-sphere, so that the tautological bundle is also the bundle of the 2-sphere’s semispinors of
+one chirality. (The other chirality corresponds to the bundle dual to the tautological one.)
+   We shall not need the holomorphic aspects of the line bundles above; but let it be men-
+tioned that these bundles are similarly associated to the holomorphic principal bundle that
+came up when we introduced the Hopf fibration, and thus are holomorphic; the square of
+
+ 19 Apart from the blowing-up of the origin of C2 , the fiber over a point of CP is the one-dimensional subspace of
+                                                                                   1
+C2 which a point of CP1 is by definition—hence the name. Other names to be encountered are natural, canonical,
+universal (cf. [4, p. 268]; [5, Section 16.16, ex. 1, 2]; [7, p. 13]; [10, p. 306]).
+                            n+1 with the nth symmetric tensorial power of C , one gets an isometric map C → C
+ 20 Suitably identifying C                                                     2                         2     n+1
+
+by assigning to z ∈ C2 its nth tensorial power z⊗n ; this descends to an embedding of the projectivized spaces.
+ 21 These spaces are sometimes considered by cosmologists [24].
+                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150           147
+
+the tautological bundle is holomorphically equivalent to the holomorphic cotangent bundle
+of CP1 ; its positive powers admit only the zero section for holomorphic sections, while if
+n ≤ 0 its nth powers possess (−n + 1)-dimensional spaces of holomorphic sections. (This
+is best seen by series expansion using the local trivializations mentioned.)
+
+A.6. Connections
+
+   A connection in a principal fiber bundle is specified geometrically by choosing, in each
+tangent space to the bundle manifold, a complement to the tangent space of the fiber in
+such a way that the distribution of these complements (the horizontal subspaces) is smooth
+and invariant under the action of the structure group ([5, Section 20.2]; [9, p. 63]; [41]).
+Equivalently, one can use the connection form ω, defined in those references, which takes
+values in the Lie algebra of the structure group and annihilates the horizontal subspaces.
+In the Hopf bundle, a particular and distinguished connection is obtained by taking the
+horizontal subspaces to be orthogonal to the fibers; it is sometimes called the canonical
+connection, and it obviously shares the full symmetry possessed by the fibration. (For
+its definition in terms of the group theory description of the bundle and in terms of the
+holomorphic aspects, see [9, p. 103] and [10, p. 178], respectively.) Parallel transport of
+points in the bundle space over a given curve in the base space means going along a curve
+in the bundle space that projects to the given one in the base and is tangent to the horizontal
+subspace at each of its points. Thus for the canonical connection of the Hopf bundle these
+curves are orthogonal to the Hopf circles—so their tangents Ẋ at position X must satisfy
+X, Ẋ = 0 to be tangent to the 3-sphere and JX, Ẋ = 0 to be orthogonal to the
+fiber. This gives z, ż = 0 as the equation for parallel transport. The connection form for
+the canonical connection is z, dz ≡ z† dz; it is obviously also invariant under the full
+symmetry group of the bundle.
+   Since the distribution of horizontal subspaces for a connection on the Hopf bundle is to be
+invariant under the action of the structure group—and therefore under its Zn subgroups—one
+can use the covering projection to the lens space L(3, n) to define a connection there; its con-
+nection form is such that its pullback to the Hopf bundle via the covering projection equals
+n times the connection form one started with, and the same also holds for the curvature form
+[9, p. 79]. This implies, in particular, that the Chern class [10, p. 305] of L(3, n) or the asso-
+ciated line bundle is n times the one for Hopf. In particular, from the canonical connection
+one gets a connection on each L(3, n) whose horizontal subspaces are again orthogonal to
+the fibers in the sense of the metric mentioned above, again possessing the same symmetry
+group. One can also obtain it by pulling back [9, p. 82], via the Veronese embedding [42], the
+canonical connection form on the U(1) bundle S2n+1 → CPn , which is similarly defined.
+The connection obtained in L(3, 2) from the canonical connection on the Hopf bundle is
+nothing but the Levi–Cività connection on the 2-sphere, as is clear from its symmetry; con-
+versely, the canonical connection on the Hopf bundle is the spin connection for Levi–Cività.
+
+A.7. CR-structure
+
+  The horizontal subspaces of the canonical connection, orthogonal to the Hopf fibers,
+enjoy another property that has physical relevance mentioned in Section 4. They are the
+148                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+maximal subspaces of the tangent spaces to the 3-sphere that are complex subspaces of the
+embedding C2 , since being , -orthogonal to z is a complex-linear condition. This presents
+the 3-sphere as a CR-manifold; but we refer the reader to [8,46] for any further discussion
+of this aspect.
+
+A.8. Covariant differentiation: local gauges
+
+   Along with a connection in a principal bundle P comes covariant differentiation ∇
+of (smooth) sections ψ of associated vector bundles E ([5, Section 20.3]; [9, p. 113];
+[41]). There are two equivalent ways of describing it invariantly and globally, one using
+parallel transport in associated bundles and one using the bijective correspondence that exists
+between such sections and functions ψ̃ on the principal bundle with values in the standard
+fiber F of the associated one, subject to a certain equivariance condition. (We make use
+of this correspondence in Section 6.22 ) One derives from this (cf. [41]) a description using
+local trivializations (local gauge choices, in physics terminology), and that is the way we
+need for comparison with the monopole situation.
+   Let ω be a connection form on the principal bundle space P, and ψ cross-section of the
+associated vector bundle E → M, where the structure group G acts on the standard fiber
+F of the latter by the representation σ (and its Lie algebra by the representation σ̇); let
+U ⊂ M be an open subset of the base space M and s : U → P be a local section. Then ψ
+is locally given by the F -valued function ψs := ψ̃ ◦ s on U and its covariant differential by
+the F -valued 1-form dψs + Γψs on U, where Γ := σ̇(s∗ ω). In Section 7, we are interested
+in G = U(1) and complex line bundles—thus in unitary representations σ on F = C; they
+are given by the characters σ : eiα → einα , n ∈ Z. The forms ω, s∗ ω and Γ are then purely
+imaginary, like ω = z† dz on S3 . The local versions ∂k + Γk of the covariant derivative, with
+Γk = (ie/c)Ak , are used in Section 7 for writing the Hamiltonian of an electrically charged
+particle in a magnetic field.
+   The description of principal bundles in terms of local trivializations ([5, Section 16.13];
+[9, p. 51]) is particularly simple in the case of the Hopf bundle (and the lens spaces derived
+from it), since one needs only a covering of the basis 2-sphere by the two open subsets U± ,
+containing the upper (+) and lower (−) closed hemispheres H± : over these contractible
+subsets, the bundles are trivial, so sections exist, and one has only to write down the one
+single transition function (“clutching function”) between them on U+ ∩ U− . For Hopf and
+anti-Hopf, we did this explicitly before, and we get it immediately for the lens spaces—as
+we defined them—to be einφ . (Bott and Tu [4, p. 301] teach us that this already exhausts all
+circle bundles and associated complex line bundles over the 2-sphere, up to isomorphism,
+since n fixes the homotopy class of the clutching function.)
+
+
+References
+
+ [1] V.I. Arnold, Mathematical Methods in Classical Mechanics, Springer, New York, 1978.
+ [2] V.I. Arnold, B.A. Khesin, Topological Methods in Hydrodynamics, Springer, New York, 1998.
+
+ 22 When this bijection is applied to holomorphic sections ψ of our holomorphic line bundles, the ψ̃—if non-zero
+
+at all—become just binary forms in z1 , z2 of degree −n = Chern number.
+                     H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150                        149
+
+ [3] R. Bonola, Non-Euclidean Geometry, Dover, New York, 1955.
+ [4] R. Bott, L.W. Tu, Differential Forms in Algebraic Topology, Springer, New York, 1982.
+ [5] J. Dieudonné, Treatise on Analysis, Vol. 3, Academic Press, New York, 1972.
+ [6] P.A.M. Dirac, The Principles of Quantum Mechanics, Clarendon Press, Oxford, 1948.
+ [7] D. Husemoller, Fibre Bundles, Springer, New York, 1966.
+ [8] H. Jacobowitz, An Introduction to CR Structure, American Mathematical Society, Providence, RI, 1990.
+ [9] S. Kobayashi, K. Nomizu, Foundations of Differential Geometry, Vol. 1, Interscience, New York, 1963.
+[10] S. Kobayashi, K. Nomizu, Foundations of Differential Geometry, Vol. 2, Interscience, New York, 1969.
+[11] D. Kramer, H. Stephani, M. McCallum, E. Herlt, Exact solutions of Einstein’s Field Equations, Deutscher
+     Verlag der Wissenschaften, Berlin, 1980.
+[12] R. Penrose, W. Rindler, Spinors and Space-Time, Vol. 1, Cambridge University Press, Cambridge, 1985.
+[13] R. Penrose, W. Rindler, Spinors and Space-Time, Vol. 2, Cambridge University Press, Cambridge, 1986.
+[14] L.I. Schiff, Quantum Mechanics, third ed., McGraw-Hill, Kogakusha, Tokyo, 1968.
+[15] B. Thaller, The Dirac Equation, Springer, Berlin, 1992.
+[16] W. Thirring, A Course in Mathematical Physics, Vol. 1, Classical Dynamical Systems, Springer, New York,
+     1978.
+[17] A. Trautman, Differential Geometry for Physicists, Bibliopolis, Napoli, 1984.
+[18] R.S. Ward, R.O. Wells, Twistor Geometry and Field Theory, Cambridge University Press, Cambridge, 1990.
+[19] P.A.M. Dirac, Quantised singularities in the electromagnetic field, Proc. R. Soc. London A 133 (1931) 60.
+[20] B.S. DeWitt, Dynamical theory of groups and fields, in: C. DeWitt, B.S. DeWitt (Eds.), Relativity, Groups,
+     and Topology, Gordon and Breach, New York, 1961.
+[21] B. Ek, B. Nagel, Differentiable vectors and sharp momentum states of helicity representations of the Poincarè
+     group, J. Math. Phys. 25 (1984) 1662.
+[22] M. Flato, C. Fronsdal, D. Sternheimer, Difficulties with massless particles? Commun. Math. Phys. 90 (1983)
+     563.
+[23] H. Hopf, Über die Abbildungen der dreidimensionalen Sphäre auf die Kugelfläche, Math. Annalen 104 (1931)
+     637.
+[24] M. Lachièze-Rey, J.-P. Luminet, Cosmic topology, Phys. Rep. 254 (1995) 135.
+[25] D. Lynden-Bell, M. Nouri-Zonoz, Classical monopoles: Newton, NUT spaces, gravomagnetic lensing, and
+     atomic spectra, Rev. Mod. Phys. 70 (1998) 427.
+[26] H.G. Loos, Internal holonomy groups of Yang–Mills fields, J. Math. Phys. 8 (1967) 2114.
+[27] E. Lubkin, Geometric definition of gauge invariance, Ann. Phys. 23 (1963) 233.
+[28] C.W. Misner, The flatter regions of Newman, Unti, and Tamburino’s generalized Schwarzschild space, J.
+     Math. Phys. 4 (1963) 924.
+[29] C.W. Misner, Taub-NUT space as a counter example to almost anything, in: J. Ehlers (Ed.), Relativity Theory
+     and Astrophysics. I. Relativity and Cosmology, American Mathematical Society, Providence, RI, 1967.
+[30] C.W. Misner, Mixmaster universe, Phys. Rev. Lett. 22 (1969) 1071.
+[31] V. Moncrief, The space of (generalized) Taub-NUT spacetimes, J. Geom. Phys. 1 (1984) 107.
+[32] C.W. Misner, A.H. Taub, A singularity-free empty universe, Sov. Phys. JETP 28 (1969) 122.
+[33] J. Nowakowski, A. Trautman, Natural connections on Stiefel bundles are sourceless gauge fields, J. Math.
+     Phys. 19 (1978) 1100.
+[34] E.T. Newman, L. Tamburino, T. Unti, Empty-space generalization of the schwarzschild metric, J. Math. Phys.
+     4 (1963) 915.
+[35] R. Penrose, Structure of space-time, in: C. DeWitt, J.A. Wheeler (Eds.), Battelle Rencontres 1967, Benjamin,
+     New York, 1968.
+[36] R. Penrose, The geometry of the world, in: L.A. Steen (Ed.), Mathematics Today, Springer, New York, 1978.
+[37] C. Reina, Spinors on compact Riemann surfaces, in: A. Trautman, G. Furlan (Eds.), Spinors in Physics and
+     Geometry, World Scientific, Singapore, 1988.
+[38] S. Ramaswami, A. Sen, Dual-mass in general relativity, J. Math. Phys. 22 (1981) 2612.
+[39] H. Samelson, Differential forms, the early days; or the stories of Deahna’s theorem and Volterra’s thoerem,
+     Am. Math. Mon. 108 (2001) 522.
+[40] A.H. Taub, Empty space-times admitting a three-parameter group of motions, Ann. Math. 53 (1951) 472.
+[41] A. Trautman, Fiber bundles associated with space-time, Rep. Math. Phys. 1 (1970) 29.
+150                  H.K. Urbantke / Journal of Geometry and Physics 46 (2003) 125–150
+
+[42] A. Trautman, Solutions of the Maxwell and Yang–Mills equations associated with Hopf fibrings, Int. J.
+     Theoret. Phys. 16 (1977) 561.
+[43] A. Trautman, Fiber bundles, gauge fields, and gravitation, in: A. Held (Ed.), General Relativity and
+     Gravitation, Vol. 1, Plenum Press, New York, 1980.
+[44] A. Trautman, Spinors and the Dirac operator on hypersurfaces. I. General theory, J. Math. Phys. 33 (1992)
+     4011.
+[45] A. Trautman, The Dirac operator on hypersurfaces, Acta Phys. Polon. B 26 (1995) 1283.
+[46] A. Trautman, Gauge and optical aspects of gravitation, Class. Quantum Grav. 16 (1999) A157.
+[47] A. Uhlmann, The closure of minkowski space, Acta Phys. Polon. 24 (1963) 293.
+[48] H.K. Urbantke, Two-level quantum systems: states, phases, and holonomy, Am. J. Phys. 59 (1991) 503.
+[49] E.P. Wigner, On unitary representations of the inhomogeneous Lorentz group, Ann. Math. 40 (1939) 149.
+[50] T.T. Wu, C.N. Yang, Concept of nonintegrable phase factors and global formulation of gauge fields, Phys.
+     Rev. D 12 (1975) 3845.
+[51] J.E. Marsden, T.S. Ratiu, Introduction to Mechanics and Symmetry, Springer, New York, 1999.
+

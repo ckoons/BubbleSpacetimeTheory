@@ -1,0 +1,48 @@
+Tesseract 5 (eng model; no 'deu' model installed) OCR of page 13 of fermi_1934_zphys88_161_saarland_scan.pdf = Z. Phys. 88 (1934) p. 173, rendered at 400 dpi. Made 2026-10-09 because the embedded OCR layer lost the exponent in eq. (46)'s small-argument limit. Umlauts/Greek are approximate.
+----
+Versuch einer Theorie der B-Strahlen. I. 173
+Formel (42) wird damit, wenn man @ = 9- 10-} setzt:
+
+P(n)dn = 1,75-10% g? fou u, dt “(y+ 0,855 7) )(Vi+ n3—YV1+7?)?. (44)
+
+Die reziproke Lebensdauer erhalt man aus (44) durch Integration von
+7 = 0 bis 7 = 3; man findet:
+
+2
+, = 1,75-10% g? [es U,dt| F(m); (45)
+wo
+F (yn) = Wit R + 43 — 1)
++ 78 + osss|— dame m4 78 + Vi+n =F tog(n. + Vi-+ ma) )}-6
+
+Fir kleine Argumente verhalt sich F (y») wie 5/24; fir groBere Argu-
+mente sind die Werte von F' in der folgenden Tabelle zusammengestellt.
+
+Tabelle 1.
+no | Fy) || 1 F(v) || 1% | Fe) F (jo)
+Te lilal:oa tila
+0,08 5 380
+
+9. Dre verbotenen “hervange
+
+Bevor wir zum Vergleich mit der Erfahrung tibergehen, wollen wir
+noch einige Higenschaften der verbotenen B-Ubergiinge diskutieren.
+
+Wie schon bemerkt, ist em Ubergang verboten, wenn das zugehérige
+Matrixelement (35) verschwindet. Falls nun die Darstellung des Kerns
+mit individuellen Quantenzustinden der Neutronen und der Protonen
+eine gute Naherung ist, verschwindet immer Q*, aus Symmetriegriinden,
+wenn nicht
+
+n
+
+t=, (47)
+wotund 7 die Impulsmomente (in Einheiten h/2 2) des Neutronenzustands u,
+
+und des Protonenzustands v,, darstellen. Der Auswahlregel (47) entspricht,
+falls die individuellen Zustinde keine gute Naherung sind, die allgemeinere
+I=! , (48)
+wo f und I’ die Impulsmomente des Kerns vor und nach dem f-Zerfall
+bedeuten.
+Die Auswahlregeln (47) und (48) sind bei weitem nicht so scharf wie
+die Auswahlregeln der Optik. Es gibt hauptsachlich zwei Prozesse, wodurch
+ein Durchbrechen dieser Auswahlregeln méglich ist:
