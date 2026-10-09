@@ -86,6 +86,11 @@ z_fixes_k = np.allclose(z[2:5, 2:5] @ k, k)
 rot_pi = lambda i, j: (lambda g: (g.__setitem__((i, i), -1), g.__setitem__((j, j), -1), g)[2])(np.eye(N))
 z_factored = np.allclose(z, rot_pi(5, 6) @ rot_pi(0, 1))
 Ch = Ad7(rot_pi(5, 6)) @ V; resid = np.linalg.norm(Ch - V @ np.linalg.lstsq(V, Ch, rcond=None)[0]) / np.linalg.norm(Ch)
+np.set_printoptions(linewidth=200)
+print("     the element of M acting as −1 on g_{e₁}, explicitly (for Cal to quote):")
+print("     z = diag(−1,−1,+1,+1,+1,−1,−1) = R_{67}(π) · R_{12}(π)  [R_{67}(π): the Šilov circle SO(2)_K half-turn on coordinates 6,7; R_{12}(π): the half-turn on the a-plane (1,2)]")
+print("     Ad(z)|g_{e₁} =", np.round(Z, 10).tolist(), " ;  z fixes every k̂ in {3,4,5}:", z_fixes_k, " ;  z ∈ K (det on SO(5) block +1, SO(2) block +1):",
+      np.isclose(np.linalg.det(z[:5, :5]), 1) and np.isclose(np.linalg.det(z[5:, 5:]), 1), " ;  z centralises a:", np.allclose(z @ X1 @ z.T, X1) and np.allclose(z @ X2 @ z.T, X2))
 score("E2", np.allclose(Z, -np.eye(3)) and z_fixes_k and z_factored,
       "z fixes k̂ in {3,4,5} and acts as −1 on g_{e₁}: Φ_h(k̂) = h Φ(k̂) is M-equivariant only if z: h ↦ −h. "
       "z = (half-turn of the Šilov circle, coords 6,7) × (half-turn on 1,2): the helicity sign IS the circle's orientation")

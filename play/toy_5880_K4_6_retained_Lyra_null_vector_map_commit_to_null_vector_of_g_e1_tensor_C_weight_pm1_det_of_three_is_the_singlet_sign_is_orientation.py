@@ -6,6 +6,9 @@ rotation of â about k̂ by θ multiplies ε by e^{−isθ} (weight s = ±1 — 
 weight 0 and ε (x) ε has weight ±2 (the double); det(ε₁, ε₂, ε₃) ≠ 0 iff the three axes are independent (Gram det ≠ 0), and
 reversing all three orientations (s → −s, i.e. conjugation) flips the sign of det exactly when... computed, not asserted;
 ε₁^T ε₂ (the would-be diquark) needs the bilinear form; ε₁†ε₂ (3̄ × 3) does not.
+ADDENDUM 2026-10-09 15:50 EDT (Elie, K4-7 Lane B item 1): det(ε₁,ε₂,ε₃) ≠ 0 fails ONLY for parallel axes (200/200 coplanar
+triples give det ≠ 0; |det| = 1e-32 for parallel); the Gram determinant of the axes (5878 E3) is the SPANNING condition for the
+real frame; the null-vector determinant is a different condition (the colour singlet). N4's FAIL is Lyra's line as written.
 """
 import numpy as np
 RESULTS = []
