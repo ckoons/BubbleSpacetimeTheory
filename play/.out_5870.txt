@@ -1,0 +1,26 @@
+Harm_l(S⁴) dimensions (Laplacian kernel): {0: 1, 1: 5, 2: 14, 3: 30, 4: 55, 5: 91, 6: 140, 7: 204, 8: 285}
+  [PASS] D1: equals (2l+3)(l+1)(l+2)/6 for l ≤ 8 (5863's d_l, now derived)
+
+ k | dim H²_k | dim H̄²_k | dim R_k (l ≤ 8, truncated) | SO(5)-types in R_k
+ -6 |        0 |       210 |        285 | l = [8]
+ -5 |        0 |       126 |        204 | l = [7]
+ -4 |        0 |        70 |        425 | l = [6, 8]
+ -3 |        0 |        35 |        295 | l = [5, 7]
+ -2 |        0 |        15 |        480 | l = [4, 6, 8]
+ -1 |        0 |         5 |        325 | l = [3, 5, 7]
+ +0 |        1 |         1 |        494 | l = [2, 4, 6, 8]
+ +1 |        5 |         0 |        325 | l = [3, 5, 7]
+ +2 |       15 |         0 |        480 | l = [4, 6, 8]
+ +3 |       35 |         0 |        295 | l = [5, 7]
+ +4 |       70 |         0 |        425 | l = [6, 8]
+ +5 |      126 |         0 |        204 | l = [7]
+ +6 |      210 |         0 |        285 | l = [8]
+  [PASS] D2: dim H²_k = C(k+4, 4) = dim of degree-k polynomials in 5 variables (the Hua rule's harmonic sum closes); H̄² mirrors it
+  [PASS] D3: R_k ≠ 0 for every |k| ≤ 6 (and for every k: Harm_l with l > |k|, l ≡ k, exists for every k) — the rank-2 fact
+  [PASS] D4: k = 0: H²_0 = H̄²_0 = the constants — the two Hardy spaces MEET in the constants; the three-way split is direct only after quotienting ℂ·1 (one line for Lyra)
+  [PASS] D5: c: e^{ikθ} x^α ↦ e^{−ikθ} x^α on 40 basis monomials: weight k → −k, SO(5)-content unchanged (H²_k → H̄²_{−k} exactly)
+  [PASS] D6: disc control (rank 1): R_k = 0 for all k ({-3: 0, -2: 0, -1: 0, 0: 0, 1: 0, 2: 0, 3: 0}); the disc has no neutral sector — Lyra's 'R ≠ 0 is a rank-2 fact'
+
+  parity: every K-type (k, l) of L²(Š) has l + k even (the ℤ₂ of the Lie sphere) — True
+
+SCORE: 6/6  (all 6 can fail; D6 is the rank-1 control)

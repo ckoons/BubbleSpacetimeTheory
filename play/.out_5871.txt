@@ -1,0 +1,17 @@
+(1) the Stokes map is SU(2)-equivariant onto the vector
+  [PASS] S1: S(Uψ) = R(U) S(ψ) with R ∈ SO(3) for 50 random (ψ, U); S(e^{iφ}ψ) = S(ψ): the overall phase drops out
+(2) Hom counts by characters on SU(2): fundamental (real 4) vs adjoint (3) vs the M-vector (3)
+  [PASS] S2: dim Hom(fund_ℝ, adj) = -0.0000 (ZERO: no SU(2)-map from the Jones vector with its phase into a vector); dim Hom(adj, adj) = 1.0000 (one map, Schur); fund_ℝ is two copies of the spin-½ (norm² = 4.000)
+(3) the explicit intertwiner Stokes → g_{e₁}: M's SO(3) from 5866, the iso SU(2)/±1 → M₀
+  [PASS] S3: the space of SU(2)-intertwiners Stokes → g_{e₁} (through SU(2) → SO(3) ≅ M₀ on {3,4,5}) has dimension 1: ONE map, invertible — the full SO(3), not just D₃ (Cal S1037). The '3' of the write that matches M's '3' is the STOKES vector (polarization only)
+(4) where the phase can live: the SO(2) of K on g_{e₁} (computed, not guessed)
+  [PASS] S4: g_{e₁} is NOT SO(2)_K-stable; J·g_{e₁} has root content (fraction of norm²) {(0.0, 1.0): 0.5, (0.0, -1.0): 0.5}; the smallest SO(2)_K-stable subspace containing g_{e₁} has dimension 9. The Šilov circle moves the write's 3 OUT of the one short-root space: the phase is not inside the 3, and which spaces it reaches is printed above for Lyra (no claim about g_{−e₁} is made)
+(5) Holevo count for the write event (Cal S1034): n_lines and the bound bits ≤ log₂(2 n_lines)
+     E1 from s (5863 W2: Δm ∈ {−1,0,+1})                 : n_lines = 3, bits ≤ log₂(2·3) = 2.585
+     E1 from s, spin kept (5863 W4)                      : n_lines = 6, bits ≤ log₂(2·6) = 3.585
+     21 cm M1 (Lyra census: graph K2)                    : n_lines = 1, bits ≤ log₂(2·1) = 1.000
+     fixed photon axis (helicity only; 5863 W3 null)     : n_lines = 2, bits ≤ log₂(2·2) = 2.000
+     E2 from s (5863 W3 null: 5 targets)                 : n_lines = 5, bits ≤ log₂(2·5) = 3.322
+  [PASS] S5: Lyra's 'one classical bit per commit' sits inside the bound for every line count (≥ 1 bit); 'three classical values' would need ≥ 3 bits and the E1 write allows 2.58 — dead by Holevo, as the 10-08 prompt said
+
+SCORE: 5/5  (all 5 can fail)
