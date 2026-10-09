@@ -1,0 +1,47 @@
+# Lyra — Round K4-3, A-new (item 5b): the charge split at the Šilov boundary, in linear algebra. The Szegő side (H² vs its conjugate) is the MATTER/ANTIMATTER sign, not the electric sign; Casey's "electron inside, proton outside" is the Wallach THRESHOLD; electric charge is a torus weight (integral by construction), and the quark thirds are the ℤ₃ of U(3) with the circle as the det phase
+
+**Lyra, Friday 2026-10-09, 12:51 EDT (clock). Rubric cell: Internal C. Theory; no data. Position unless marked exact.**
+**didwe:** "Szego projection" 5 (K544, muon mechanism, STOP; none on charge); "Hardy space conjugate" 1 (F243: the interior→boundary map is the one-sided Hardy/Riesz projection, DONE); "charge sign orientation" 1 (R3, unrelated); "Wallach boundary value electron" 2 (K880: the banked electron k = 1 is a boundary state; the proton is the first bulk state); "quark thirds N_c derived" 1 (K1658, ⚠VERIFY_FAIL, colour from the short-root multiplicity). Sources read: F910 (the Toeplitz extension of H²(Š)), K880, K4-0 (det phase = circle = baryon number), Cal's KL3 ruling of 10-07 (the read order is the matter/antimatter sign), TD v1.6 Section 3a (electroweak labels sit in SO(5); colour commutes with so(5,2)).
+**Casey, verbatim (10-07 evening):** *"the electron sits on the interior of the Shilov boundary and protons, baryons and other particles sit on the exterior … What we call 'electric charge' is separated by the Shilov boundary."*
+
+## 1. The split is THREE-way, not two-way (exact; rank 2)
+On Š = (S⁴ × S¹)/ℤ₂, let k be the S¹ weight (the SO(2) centre of K). Then:
+- **H²(Š)**: boundary values of holomorphic functions. Weight k ≥ 0, and at weight k the S⁴ content is the harmonics l = k, k − 2, … (Hua; the corpus's "l + m even" rule). These extend INTO D_IV⁵.
+- **H̄²(Š)** = c(H²): boundary values of anti-holomorphic functions, weight k ≤ 0. These extend into the conjugate domain, the OTHER side.
+- **The rest, R = (H² ⊕ H̄²)^⊥ ≠ 0.** For the unit disc (rank 1) L²(S¹) = H² ⊕ H̄²₀ and there is no rest. D_IV⁵ has rank 2, so at weight k there are S⁴ harmonics with l > |k| or l ≢ k (mod 2); they are boundary values of NOTHING holomorphic on either side. **The Szegő projection's complement H²⊥ is H̄² ⊕ R, not H̄² alone.** Any "two-sided" reading has to say where R goes.
+- **Complex conjugation c** is an isometry of L²(Š) with c(H²_k) = H̄²_{−k} exactly and c(R) = R. Every weight flips sign; every Casimir is unchanged.
+
+**Elie (no data, ten lines):** decompose L²(Š) weight by weight into H²_k, H̄²_k, R_k by the Hua rule and print the three dimension series; verify c: H²_k → H̄²_{−k} on the basis; confirm R_k ≠ 0 for every |k| (rank 2). This is the instrument the rest of this note stands on.
+
+## 2. What the SIDE is: the matter/antimatter sign (exact, and already ruled)
+- c flips EVERY weight, so it maps a module to its dual: particle ↔ antiparticle. **The side a boundary value extends to is the sign of the circle's winding, and the circle's direction is the read order, which Cal ruled on 10-07 to be the matter/antimatter sign (KL3).** Same linear-algebra fact, two names.
+- **Consequence, exact and untuned:** |q(X̄)| = |q(X)| for every charge of every particle, because c is an isometry that negates weights. |q(e⁺)| = |q(e⁻)| is this, and so is |q(p̄)| = |q(p)|.
+- **Honest class:** this is charge conjugation, which every relativistic theory has (CPT). What is BST's is the REALIZATION: C is complex conjugation on the Šilov boundary, i.e. passage to the conjugate domain; "formed on both sides of the boundary" (Casey, K1949) is literally H² and H̄². A home, not a new fingerprint. Count once with KL3.
+- **The proof that the side is NOT the electric sign:** the neutron and the antineutron lie on opposite sides (B = ±1; c-conjugate), and both have Q = 0. The electron and the proton lie on the SAME side (both matter), and have opposite Q. So the Šilov side separates matter from antimatter; it does not separate + from −.
+
+## 3. What Casey's "electron inside, proton outside" IS: the Wallach threshold (corpus, K880)
+- The electron's module sits at k = 1, BELOW the L² threshold of the holomorphic family: a Wallach point, not a discrete-series representation. Its states are boundary values with no L² extension: **the electron lives on the boundary.**
+- The proton is the first state ABOVE the threshold: an L² (discrete-series) module, **a bulk state** (K880; TD's composite premise).
+- **So there are two exact splits on the one operator family (k, Casimir):** by SIGN of k, matter vs antimatter (Section 2); by SIZE of the lowest weight against the threshold, boundary state vs bulk state. Casey's sentence is the second split, worded with "interior/exterior of the boundary." Leptons are boundary values; baryons are bulk. This is also F910's bulk-edge map (K825: chirality forced to the edge; leptons = boundary states).
+- **Kill line 3 decided before testing: PROPERTIES sit on sides, not particles.** The sign of a weight is a property; the position of a module against the threshold is a property; a particle is a module carrying several weights. "The proton's label is interior, its π⁵ from the boundary, its position exterior" is then not a contradiction: three properties, three homes.
+
+## 4. Electric charge is a torus weight: integral by construction; sign flips with the side; thirds from ℤ_{N_c}
+- TD 3a: the electroweak labels sit in SO(5) ⊂ K, and colour commutes with so(5,2). So **Q is a weight of a compact torus (inside SO(5) × SO(2), extended by the colour U(1))**, and weights of a compact torus lie on a lattice: **charge quantization is integrality of torus weights, an exact linear-algebra fact, not a tuning.** The GO prompt's "|q| = |k|" is too narrow: the circle weight k is ONE component of Q (the det-phase / baryon-number component, K4-0), and the SO(5) component supplies the rest (this is why e⁻ and p share a side and differ in Q).
+- **The thirds (kill line 1), as a route, not a derivation:** K4-0 put the bare colour S³ in U(3) with the det phase = the circle = baryon number. Globally U(3) = (SU(3) × U(1))/ℤ₃. The U(1) normalized to wind ONCE on det (one baryon, one circle winding) acts on a single quark with weight 1/3: **a colour-triplet state carries 1/N_c of a circle winding.** That is where thirds enter — through N_c, as the centre of U(N_c), with nothing chosen. With Q = I₃ + Y/2 and Y ⊃ B = 1/3, the familiar 2/3 and −1/3 follow, and 2(2/3) − 1/3 = 1 is an integer equation on the lattice: **atomic neutrality is then a lattice identity, provided the u/d isospin assignment is the SO(5) one.** Owed: that assignment from the composite's weights (not from the answer). In the Standard Model the same quantization is anomaly cancellation with N_c = 3; the route here is the global structure of U(3), which is the AC(0) form of the same fact.
+- **Not claimed:** that the proton's Q = +1 is derived here. It is an integer equation whose integers (the quark weights in SO(5)) are not yet exhibited in the corpus.
+
+## 5. Kill lines, status, one line each
+1. **Quark thirds from N_c:** route named (ℤ₃ centre of U(3), circle = det phase, K4-0); derivation of the u/d SO(5) weights owed. **Proton ≠ positron: correct, and now stated structurally** — same side (matter), opposite threshold position (bulk vs boundary), opposite Q by an SO(5) weight.
+2. **μ, τ:** same side as e, same boundary family, higher strata (Lane P's e/μ/τ strata, E = ν² = 25/4, 9/4, 0; toy 5775). **W±:** a c-conjugate pair, bulk. **γ, Z, H:** c-self-conjugate; they lie in the c-fixed sector (R, or weight 0). **ν:** side = lepton number sign; Q = 0; the Majorana question (A5) is exactly whether ν's module is c-fixed. Every one lands on a definite side.
+3. **Properties on sides:** decided (Section 3).
+
+## 6. The sector R, named so it is not rediscovered
+R is the part of the boundary that extends into NEITHER bulk. It is c-stable, so it is self-conjugate as a whole, and the neutral self-conjugate fields (γ, Z, H, and the Majorana ν if A5 holds) are the natural candidates to live in it. **Caged until Elie's dimension count:** "R = the neutral sector." It is a clean story, so it gets scrutiny first.
+
+## 7. For Casey (5th-grade form)
+The boundary has two faces, and a wave on it can lean into one side or the other. Leaning left is matter; leaning right is antimatter; the two leans are mirror images, so every particle and its twin have exactly equal and opposite charges, with no dial anywhere. That is NOT what makes the proton plus and the electron minus — they both lean the same way. What separates them is HOW FAR from the boundary they can reach: the electron can't leave the surface, the proton can. Plus and minus is a third thing: a count on a lattice, where quarks count in thirds because three of them share one turn of the circle.
+
+## What would make this note wrong
+Elie's count giving R = 0 (then the split is two-way after all and Section 1 falls); a corpus assignment placing the proton below the threshold (then Section 3 falls); Cal ruling that Q is not a K-weight (then Section 4's quantization argument has no torus); the u/d weights, once exhibited, not summing to the electron's negative.
+
+— Lyra. Two exact splits on one operator: the sign of the winding separates matter from antimatter; the threshold separates the surface-dwellers from the bulk. Electric charge is neither — it is a lattice point, and the thirds are the centre of U(3).
