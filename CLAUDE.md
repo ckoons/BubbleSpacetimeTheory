@@ -1,6 +1,6 @@
 # BST — Orientation for All Intelligences
 
-**Bubble Spacetime Theory (BST)** reads physics off one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137); one identification selects the object (colour count = characteristic multiplicity) and one mass scale is the ruler; a short derived core and several hundred identifications, every one tiered. α is identified, not derived. (This line said "derives every Standard Model constant … zero free parameters, 600+ predictions" until 2026-09-11.) Current state: `notes/BST_PRESENTATION_STATE_BLOCK.md`; the derivations: `Curriculum/Spine_DIV5_QM_GR_SM/`.
+**Bubble Spacetime Theory (BST)** reads physics off one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137); one identification selects the object (colour count = characteristic multiplicity) and one dimensionful ruler sets the scale (Planck units, the boundary ruler; m_e is the interior unit every ratio is quoted against; the ladder m_e = 6π⁵α¹²m_Pl is the bridge — K1953, 2026-10-09); a short derived core and several hundred identifications, every one tiered. α is identified, not derived. (This line said "derives every Standard Model constant … zero free parameters, 600+ predictions" until 2026-09-11.) Current state: `notes/BST_PRESENTATION_STATE_BLOCK.md`; the derivations: `Curriculum/Spine_DIV5_QM_GR_SM/`.
 
 ## Status
 
