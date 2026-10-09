@@ -282,7 +282,7 @@ The individual factors:
 - k=5: sqrt(5/0) -- divergent (limit of discrete series!)
 - k=6: sqrt(6/1) = sqrt(6)
 
-**Resolution:** The factors for k < n_C = 5 involve negative arguments of Gamma(k - n_C), reflecting the fact that the weighted Bergman spaces A_k^2 do not exist as Hilbert spaces for k < k_min = 3. For k below the Wallach set, the coherent state norm c_k is defined by *analytic continuation* of the formula c_k = Gamma(k)/[pi^{n_C} Gamma(k - n_C)].
+**Resolution:** The factors for k < n_C = 5 involve negative arguments of Gamma(k - n_C), reflecting the fact that the weighted Bergman spaces A_k^2 do not exist as Hilbert spaces for k < k_min = 3 *[2026-10-01 (K1945/K1947): the Wallach set in this paper's k is {0} ∪ [3/2, ∞) and the discrete series is k > 4; "k_min = 3" is misattributed to EHW. k = 1 lies outside the Wallach set either way, so the conclusion stands]*. For k below the Wallach set, the coherent state norm c_k is defined by *analytic continuation* of the formula c_k = Gamma(k)/[pi^{n_C} Gamma(k - n_C)].
 
 Using the reflection formula Gamma(z)Gamma(1-z) = pi/sin(pi z) and the analytic continuation:
 
@@ -334,7 +334,7 @@ The Berezin symbol analysis establishes Conjecture C through the following chain
 
 **Step B1.** The mass of a bulk excitation in the Bergman space pi_6 *[S1029, 2026-10-07: weighted space π₆; the Bergman space is π₅ with C₂ = 0]* has Berezin symbol sigma = C_2 = 6 at z = 0. This is the Casimir eigenvalue (proved, Harish-Chandra). In physical units, this is the proton mass m_p = C_2 pi^{n_C} m_e (proved, BST_BoundaryIntegral_Final.md).
 
-**Step B2.** The electron at k = 1 is below the Wallach set (k_min = 3). Its formal Casimir value C_2(pi_1) = -4 is negative. The electron does not have a normalizable bulk wavefunction. Its physical mass cannot be read from the Casimir eigenvalue.
+**Step B2.** The electron at k = 1 is below the Wallach set (k_min = 3) *[2026-10-01 (K1945/K1947): the Wallach set in this paper's k is {0} ∪ [3/2, ∞) and the discrete series is k > 4; "k_min = 3" is misattributed to EHW. k = 1 lies outside the Wallach set either way, so the conclusion stands]*. Its formal Casimir value C_2(pi_1) = -4 is negative. The electron does not have a normalizable bulk wavefunction. Its physical mass cannot be read from the Casimir eigenvalue.
 
 **Step B3.** The physical mass of the electron is determined by its *boundary-to-bulk coupling*: how strongly does the boundary state overlap with the bulk states? In the Berezin-Toeplitz framework, this overlap is measured by the chain of inter-level transition amplitudes.
 
@@ -832,6 +832,7 @@ INPUT 4: Enright-Howe-Wallach (Wallach set)
         PROVED: A^2(D_IV^5) = pi_6, C_2 = 6            [BST_SpectralGap_ProtonMass.md]
         [S1029 2026-10-07: RETIRED -- A^2 = pi_5, C_2 = 0; C_2(pi_6) = 6 is arithmetic on a weighted space]
         PROVED: k=1 below Wallach set (k_min=3)         [BST_ElectronMass_Derivation.md]
+        [2026-10-01 K1947: Wallach set {0} ∪ [3/2, ∞); "k_min=3" misattributed; k=1 outside either way -- conclusion stands]
         [2026-10-01 EHW correction: the Wallach set is {0} U [3/2, inf); k=1 lies outside; "k_min=3" misattributed]
         PROVED: Electron is boundary state on S^4 x S^1 [id.]
                 |

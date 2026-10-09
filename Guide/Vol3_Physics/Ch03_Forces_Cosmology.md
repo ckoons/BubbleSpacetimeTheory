@@ -521,6 +521,12 @@ The thermodynamics of the BST substrate is computed from the partition function 
 
 $$Z(\beta) = \sum_{l,m} d_l \cdot \ln\!\left[\binom{d_l + N_{\max}}{N_{\max}}\right] e^{-\beta E_{l,m}}$$
 
+*Correction (Grace, 2026-10-09; Elie toy 5863, checked against `notes/bst_partition_function_extended.py` to machine precision): the display above is not the function the retained code computes. The code computes*
+
+$$\ln Z(\beta) = \sum_{l \le l_{\max}}\ \sum_{|m| \le m_{\max}} d_l\, \ln\!\left[\frac{1 - e^{-(N_{\max}+1)\beta E_{l,m}}}{1 - e^{-\beta E_{l,m}}}\right], \qquad E_{l,m} = \sqrt{\frac{l(l+3)}{R_b^2} + \frac{m^2}{R_s^2}}, \qquad d_l = \frac{(2l+3)(l+1)(l+2)}{6},$$
+
+*each mode a bosonic occupation truncated at $N_{\max}$: it is $\ln Z$, not $Z$, and it contains no binomial. The zero mode contributes $\ln(N_{\max}+1) = \ln 138$, which is why the vacuum numbers below are unaffected; a mode with $\beta E \ge 50$ contributes 0.*
+
 The resulting thermodynamic profile shows **three distinct phases**:
 
 | Phase | Temperature | Description |

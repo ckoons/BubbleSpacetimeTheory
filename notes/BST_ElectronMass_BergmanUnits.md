@@ -198,7 +198,7 @@ For n_C=5: m_e = K_5(0,0) / 1920, where 1920 = n_C! * 2^{n_C-1} is the configura
 
 **Option B (Reproducing kernel):** Evaluating integral |f_1|^2 K(0,xi) dsigma with f_1 = e^{i*theta} on the Shilov boundary gives m_e = 1/K(0,0) = Vol(D_IV^5) = pi^5/1920 — off by a factor of 1920 = n_C! * 2^{n_C-1}. **Option B fails to account for the combinatorial normalization.**
 
-**Option C (Representation theory):** The electron corresponds to the weight-1 SO(2) character, which is *below the Wallach set* (k_min = 3 for D_IV^5). The electron is NOT in the holomorphic discrete series; it is a boundary state. The ratio of C_2(pi_6) to the electron's "representation weight" = 6/1 = 6, which accounts for the Casimir factor but not pi^5. **Option C gives the 6 but not the pi^5.**
+**Option C (Representation theory):** The electron corresponds to the weight-1 SO(2) character, which is *below the Wallach set* (k_min = 3 for D_IV^5) *[2026-10-01 (K1945/K1947): the Wallach set in this paper's k is {0} ∪ [3/2, ∞) and the discrete series is k > 4; "k_min = 3" is misattributed to EHW. k = 1 lies outside the Wallach set either way, so the conclusion stands]*. The electron is NOT in the holomorphic discrete series; it is a boundary state. The ratio of C_2(pi_6) to the electron's "representation weight" = 6/1 = 6, which accounts for the Casimir factor but not pi^5. **Option C gives the 6 but not the pi^5.**
 
 **Option D (Martin boundary / Poisson-Szego kernel):** The Martin kernel M(z, xi_0) = N(z, xi_0)^{-6} represents the electron as a boundary limit. However, M(z, xi_0) is not in A^2(D_IV^5) (its L^2 norm diverges). **Option D correctly identifies the electron as a boundary excitation but does not directly compute its mass.**
 
