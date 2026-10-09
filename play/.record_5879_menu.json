@@ -1,0 +1,28 @@
+{
+ "lP": 1.616255e-35,
+ "areas_in_cells": {
+  "proton charge radius r_p": 2.7059139970070985e+39,
+  "proton Compton \u019b_p = \u0127/(m_p c) [REDUCED]": 1.6931505748516262e+38,
+  "   (un-reduced \u03bb_p = h/(m_p c), for the flag)": 6.684290546105034e+39,
+  "nuclear radius 1.2 A^(1/3) fm, A = 12": 2.8893283128724785e+40,
+  "nuclear radius 1.2 A^(1/3) fm, A = 28": 5.082937272168512e+40,
+  "nuclear radius 1.2 A^(1/3) fm, A = 56": 8.068659972928667e+40,
+  "grain radius 0.01 \u03bcm (MRN)": 3.828073230506615e+53,
+  "grain radius 0.1 \u03bcm (MRN)": 3.828073230506615e+55,
+  "grain radius 1 \u03bcm (MRN)": 3.8280732305066145e+57,
+  "\u03bb = 21 cm (c/1420.4 MHz)": 1.7052981298246475e+68,
+  "\u03bb Ly\u03b1 = 121.567 nm": 5.657330678418571e+55,
+  "\u03bb LyC = 1/R_\u221e = 91.127 nm": 3.1788612469477566e+55,
+  "\u03bb_abs = 0.4 \u03bcm": 6.124917168810584e+56,
+  "\u03bb_abs = 0.6 \u03bcm": 1.3781063629823812e+57,
+  "\u03bb_abs = 1.2 \u03bcm": 5.512425451929525e+57,
+  "Bohr radius a\u2080": 1.0719696817995434e+49,
+  "electron Compton \u019b_e = \u0127/(m_e c) [REDUCED]": 5.708383748469036e+44,
+  "   (un-reduced \u03bb_e = h/(m_e c), for the flag)": 2.2535795746237032e+46,
+  "classical electron radius r_e = \u03b1 \u019b_e": 3.039704674074163e+40,
+  "\u2113_P (one cell: the null, T3 as run)": 1.0
+ },
+ "menu_n": 17,
+ "menu_span_decades": 30.00310473337703,
+ "N_cells": null
+}
