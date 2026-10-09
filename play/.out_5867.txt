@@ -1,0 +1,133 @@
+rows: 196; with formula_code: 195; carrying 'pi': 33
+parsed exactly: 195; not parsed: 0 []
+
+pi rows, tagged:
+  const_001 m_p/m_e          exps=['5']                  Hua                    | 6 * pi**5
+  const_003 G                exps=['9']                  SI                     | hbar*c*(6*pi**5)**2*alpha**24/m_e_kg**2
+  const_009 m_H              exps=['6']                  Hua*S1                 | (pi/2) * (1 - alpha) * n_C * m_p / (8 * alpha) / 1000
+  const_010 m_mu/m_e         exps=['-12']                ROUTE OWED             | (24.0/pi**2)**6
+  const_028 theta_tet        exps=['-1']                 UNIT                   | acos(-1.0/N_c) * 180/pi
+  const_029 theta_H2O        exps=['-1', '0']            UNIT                   | acos(-1.0/N_c) * 180/pi - n_C
+  const_031 D_e(C-H)         exps=['-1']                 S1                     | m_e*1e6/(2*N_max**2) / pi
+  const_034 f                exps=['-1']                 S1                     | 3.0 / (5*pi)
+  const_036 a_e              exps=['-1']                 S1                     | alpha / (2*pi)
+  const_039 m_tau/m_e        exps=['-12']                ROUTE OWED             | (24.0/pi**2)**6 * (7.0/3.0)**(10.0/3.0)
+  const_043 mu_p             exps=['-1', '0']            S1                     | (2*g/n_C)*(1 - 11/(10*N_max*pi))
+  const_044 mu_n             exps=['-1', '-2']           ROUTE OWED; S1         | -(C_2/pi)*(1 + (n_C/g)*alpha/pi)
+  const_047 eta              exps=['-1']                 S1                     | 2*alpha**4 / (3*pi)
+  const_053 Delta_f          exps=['-1', '0']            S1                     | (1 - 2**(-1.0/N_c)) - 3.0/(5*pi)
+  const_074 m_rho            exps=['5']                  Hua                    | n_C * pi**5 * m_e
+  const_075 m_K              exps=['5']                  Hua                    | sqrt(2*n_C) * pi**5 * m_e
+  const_076 m_phi            exps=['5']                  Hua                    | (N_c + 2*n_C) / 2.0 * pi**5 * m_e
+  const_083 Gamma_W          exps=['5']                  Hua                    | (N_c**2 - 1) * n_C / N_c * pi**5 * m_e
+  const_093 theta_NH3        exps=['-1']                 UNIT                   | (acos(-1.0/N_c) - (acos(-1.0/N_c) - acos(-1.0/2**rank))/N_c)
+  const_121 delta_trans      exps=['-1', '0']            S1                     | 28/137 - 3/(5*pi)
+  const_112 G_F              exps=['-20']                Hua^4                  | 1/(sqrt(2)*((6*pi**5)**2*m_e/g/1000)**2)
+  const_122 C_2^QED          exps=['0', '2']             ROUTE OWED             | 197/144 + pi**2*(1/12 - log(2)/2) + 3*1.2020569031595942/4
+  const_124 T_deconf         exps=['5']                  Hua                    | 6*pi**5*m_e / C_2
+  const_125 B_alpha          exps=['4']                  Hua/S1                 | 13 * (1/N_max) * 6*pi**5*m_e / pi
+  const_126 B_h              exps=['4']                  Hua/S1                 | (39/11) * (1/N_max) * 6*pi**5*m_e / pi
+  const_127 B_t              exps=['4', '5']             Hua/S1; Hua            | (39/11) * (1/N_max) * 6*pi**5*m_e / pi + (1/N_max)*6*pi**5*m
+  const_128 sigma_SB         exps=['5']                  SI                     | 2*pi**5*k_B**4/(15*h**3*c**2)
+  pos_144   Gamma_mu         exps=['-23']                ROUTE OWED             | (N_c**2*(rank*c_2+1))**5 / (384*pi**(4*n_C+3)*(c_2**2*c_3)**
+  pos_147   m_t              exps=['5']                  Hua                    | c_2**2*c_3*pi**n_C*m_e/sqrt(2)/1000
+  pos_148   m_b              exps=['5']                  Hua                    | (c_2**2*c_3*pi**n_C*m_e/sqrt(2))/(C_2*g)/1000
+  pos_151   alpha_s_MZ       exps=['-1']                 S1                     | N_c/(rank**3*pi)
+  pos_165   N_eff            exps=['0', '1']             S1                     | N_c + 2*pi/N_max
+  const_196_vev_ruler v                exps=['15']                 Hua^3                  | (6*pi**5)**3 * alpha**12 * m_Planck / 7
+  [PASS] P1: every parsed pi row carries a tag: 33 rows; tag counts {'Hua': 9, 'SI': 2, 'Hua*S1': 1, 'ROUTE OWED': 5, 'UNIT': 3, 'S1': 10, 'Hua^4': 1, 'Hua/S1': 3, 'Hua^3': 1}
+
+exhibits: m_p/m_e = 6*pi**5 = C_2 * pi^n_C; Vol(D_IV^5) = pi**5/1920; 1920 = 2^4*5! = |W(D5)| = 1920; |W(B5)| = 3840, |W(B3)| (so(7,C), the complexification of so(5,2)) = 48, |W(B2)| (restricted, 5866) = 8
+Wyler form (9/8pi^4)(pi^5/1920)^(1/4) = 3*6750**(1/4)/(160*pi**(11/4)) = 137.0360824^-1 ; pi exponent {-11/4}: pi^(5/4) = Vol^(1/4) (boundary), pi^-4: ROUTE OWED (candidate |S^1|^2 |S^4| = 32 pi^4/3 — a candidate, not a pin). Grace 08-10: alpha = charge count 1/N_max; the Wyler formula is RETIRED as the source.
+  [PASS] P2: 6 pi^5 and pi^5/1920 reproduced; 1920 = 2^(n-1) n! = |W(D_5)| numerically, NOT |W(B_3)| = 48 of so(5,2)'s own complexification nor |W(B_2)| = 8 — the '|W|' exhibit names a Weyl group the domain does not own (route owed); Wyler = 137.036
+
+rational audit: 182 rows rational (or a single sqrt of a rational) after pi -> 1, ruler -> 1; 13 non-rational (acos, 2^(1/3), ln 2, zeta(3), ...): ['const_008', 'const_021', 'const_027', 'const_028', 'const_029', 'const_035', 'const_039', 'const_053', 'const_093', 'const_122', 'pos_145', 'pos_168', 'const_196_vev_ruler']
+  prime support outside [2, 3, 5, 7, 11, 13, 137]: 38 rows
+    const_009 51/200                   primes [17]
+    const_014 13/19                    primes [19]
+    const_018 6/19                     primes [19]
+    const_019 18/361                   primes [19]
+    const_020 4/79                     primes [79]
+    const_026 184                      primes [23]
+    const_030 67584490787/2500000      primes [44847041]
+    const_037 108971/100               primes [108971]
+    const_038 14417/100                primes [1109]
+    const_040 187272/14370015625       primes [17]
+    const_043 9513/3425                primes [151]
+    const_044 -5784/959                primes [241]
+    const_049 230                      primes [23]
+    const_073 13556/959                primes [3389]
+    const_077 3359232/3559043436282961 primes [79]
+    const_082 -12491/15                primes [12491]
+    const_088 36/869                   primes [79]
+    const_096 82                       primes [41]
+    const_098 19/20                    primes [19]
+    const_100 13585/3                  primes [19]
+    const_101 547/200                  primes [547]
+    const_102 1381/100                 primes [1381]
+    const_121 -271/685                 primes [271]
+    const_109 6251648                  primes [17]
+    const_110 414617/100               primes [61, 971]
+    const_111 358776328/127285193      primes [67, 283, 44847041]
+    const_113 2412133303/25000         primes [23, 139, 821, 919]
+    const_114 705303398672211280303/26 primes [37, 293, 730819, 47659511, 50507837461]
+    const_127 724/4521                 primes [181]
+    pos_137   2300                     primes [23]
+    pos_142   17/5                     primes [17]
+    pos_144   126686539269/78365491203 primes [23]
+    pos_163   247/28                   primes [19]
+    pos_165   413/137                  primes [59]
+    pos_167   31/18769                 primes [31]
+    const_137 18774/137                primes [149]
+    const_146 47/7                     primes [47]
+    const_147 31/18769                 primes [31]
+  [FAIL] P3: 38/182 rational rows carry a prime outside {2,3,5,7,11,13,137} — the list above IS the finding (reported, not hidden)
+
+P3b: of the 38 foreign-prime rows, 15 are literal-free (the prime is built from the namespace: spectral)
+    const_009 51/200                   primes [17]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    const_020 4/79                     primes [79]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    const_040 187272/14370015625       primes [17]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    const_043 9513/3425                primes [151]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    const_044 -5784/959                primes [241]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    const_049 230                      primes [23]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    const_073 13556/959                primes [3389]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    const_082 -12491/15                primes [12491]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    const_096 82                       primes [41]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    const_098 19/20                    primes [19]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    const_109 6251648                  primes [17]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    pos_137   2300                     primes [23]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    pos_165   413/137                  primes [59]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    pos_167   31/18769                 primes [31]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+    const_137 18774/137                primes [149]  <- built from the namespace integers by the formula (e.g. 79 = rank^4 n_C - 1)
+     and 23 carry a bare literal (typed, not built):
+    const_014 13/19                    primes [19]  literals [13.0, 19.0]
+    const_018 6/19                     primes [19]  literals [19.0]
+    const_019 18/361                   primes [19]  literals [16.0, 19.0]
+    const_026 184                      primes [23]  literals [184.0]
+    const_030 67584490787/2500000      primes [44847041]  literals [197.3269804]
+    const_037 108971/100               primes [108971]  literals [1089.71]
+    const_038 14417/100                primes [1109]  literals [144.17]
+    const_077 3359232/3559043436282961 primes [79]  literals [79.0]
+    const_088 36/869                   primes [79]  literals [79.0]
+    const_100 13585/3                  primes [19]  literals [0.143, 19.0]
+    const_101 547/200                  primes [547]  literals [2.735]
+    const_102 1381/100                 primes [1381]  literals [13.81]
+    const_121 -271/685                 primes [271]  literals [28.0, 137.0]
+    const_110 414617/100               primes [61, 971]  literals [1776.93]
+    const_111 358776328/127285193      primes [67, 283, 44847041]  literals [0.51099895, 197.3269804]
+    const_113 2412133303/25000         primes [23, 139, 821, 919]  literals [96485.33212]
+    const_114 705303398672211280303/26 primes [37, 293, 730819, 47659511, 50507837461]  literals [2.7928473446, 27.0, 34.0]
+    const_127 724/4521                 primes [181]  literals [39.0]
+    pos_142   17/5                     primes [17]  literals [17.0]
+    pos_144   126686539269/78365491203 primes [23]  literals [384.0]
+    pos_163   247/28                   primes [19]  literals [13.0, 19.0]
+    const_146 47/7                     primes [47]  literals [47.0]
+    const_147 31/18769                 primes [31]  literals [31.0]
+  rows with ANY bare literal outside the small set: 42/195: ['const_008', 'const_013', 'const_014', 'const_015', 'const_018', 'const_019', 'const_026', 'const_028', 'const_029', 'const_030', 'const_037', 'const_038', 'const_041', 'const_054', 'const_058', 'const_077', 'const_088', 'const_093', 'const_100', 'const_101', 'const_102', 'const_110', 'const_111', 'const_113', 'const_114', 'const_121', 'const_122', 'const_125', 'const_126', 'const_127', 'const_128', 'const_136', 'const_146', 'const_147', 'const_150', 'const_154', 'const_155', 'pos_142', 'pos_144', 'pos_146', 'pos_162', 'pos_163']
+  [PASS] P3b: foreign primes split: 15 spectral (built), 23 typed as literals; 42 rows carry a bare literal at all — THAT list is the rational audit's finding
+
+kill count: 5/33 pi rows have at least one pi-power with no named boundary route: ['const_010', 'const_039', 'const_044', 'const_122', 'pos_144']
+            23/33 pi rows are fully routed (S1 or Hua only): ['const_001', 'const_009', 'const_031', 'const_034', 'const_036', 'const_043', 'const_047', 'const_053', 'const_074', 'const_075', 'const_076', 'const_083', 'const_121', 'const_112', 'const_124', 'const_125', 'const_126', 'const_127', 'pos_147', 'pos_148', 'pos_151', 'pos_165', 'const_196_vev_ruler']
+  [PASS] P4: printed as k/N = 5/33 (Keeper's kill is 'one formula whose pi has no boundary route'; the verdict is his, the list is here)
+
+SCORE: 4/5  (4 can fail; P4 is a report line; P3's FAIL is my prereg threshold, kept)

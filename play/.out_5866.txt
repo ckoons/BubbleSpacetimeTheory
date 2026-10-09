@@ -1,0 +1,22 @@
+dim g = 21, dim k = 11, dim p = 10
+  restricted roots (lambda(X1), lambda(X2)) : multiplicity
+    (-1.0, -1.0): 1
+    (-1.0, 0.0): 3
+    (-1.0, 1.0): 1
+    (0.0, -1.0): 3
+    (0.0, 0.0): 5
+    (0.0, 1.0): 3
+    (1.0, -1.0): 1
+    (1.0, 0.0): 3
+    (1.0, 1.0): 1
+  [PASS] R1: B2: 4 short roots x mult [3, 3, 3, 3], 4 long roots x mult [1, 1, 1, 1], zero weight space dim 5 = a (2) + m (3)
+  [PASS] R2: dim m = 3, m supported on coordinate pairs [(2, 3), (2, 4), (3, 4)] = so(3) on {3,4,5}; z = diag(-1,-1,1,1,1,-1,-1) in K and centralises a: M = SO(3) x Z2 (component group Z2)
+    short root space: Casimir eigenvalues [-2.0, -2.0, -2.0]  traces (C3, C2, z) = [ 0. -1. -3.]
+    long  root space: Casimir eigenvalues [-0.0]  traces (C3, C2, z) = [1. 1. 1.]
+  [PASS] R3: M acts on EVERY short root space as the SO(3) vector (Casimir -2, chi(C3) = 0, chi(C2) = -1; z = -1) and on every long root space trivially (z = +1)
+  [PASS] R4: faces as permutation matrices: <chi,1> = 1, <chi,sign> = 0 -> 1 + 2; the opposite face is a singlet (trivially)
+  [PASS] R5: D3 in M = SO(3) acts on g_e1 with the vector character (traces [-1.0, -1.0, -1.0, 0.0, -0.0, 3.0] = [-1.0, -1.0, -1.0, 0.0, -0.0, 3.0]) = 2 + sign; dim Hom_S3(faces -> g_e1) = 1 for the plain permutation action, 2 (an isomorphism) for (perm)(x)sign = 5859's std(x)sign
+  [PASS] R6: vertex AXIS under D3: character [-1, -1, -1, 1, 1, 1] = sign; g_long under the same D3: trivial. closure face <-> g_long is consistent as a LABEL (trivial <-> trivial), inconsistent as the AXIS (sign <-> trivial)
+  [PASS] R7: Killing form: on p signature (10, 0) (positive definite), on k (0, 11). 'Timelike' in K1228 is m_long = 1 as the '1' of 3+1, not a sign of B on p
+
+SCORE: 7/7  (all 7 can fail; R4 is the trivial check Keeper named)
