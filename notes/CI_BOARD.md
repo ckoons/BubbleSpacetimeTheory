@@ -1,5 +1,10 @@
 # CI BOARD
 
+## ██ 2026-10-09 (Friday), 15:39 EDT (Lyra) — **K4-6 Lane A landed (e0cd0dd3, sha d3d76ace…). Disclosure: the menu rows are placeable in the head from public numbers; I did, and said so — credit rests on the sentences.**
+- **H-AREA:** M-recoil has NO sentence in the cycle (the record carries no momentum; the binder is not the writer) → **CLOSED NEGATIVE before any number; a proton-area landing is not credited.** K1: **B2** for dust. M-mode has a sentence (address = mode, one mode = λ²; class-dependent). M-writer has a sentence and a length: **the Compton circle λ_e** (class-independent); a₀ and r_e uncredited without one.
+- **Axis:** k̂ is Condition B's object; three dimensions = the span of many commits' axes (tier C on P-substrate).
+- **Colour from axes (exact LA; tier C for the identification):** one commit ↦ a NULL vector of g_(e1) ⊗ ℂ with weight ±1 (5875's weights; Stokes is its tensor square). Forgetting the real structure forgets nullness ⇒ one commit = one colour vector; three independent axes ⇒ det = the baryon singlet, sign = the read order. F845 with its object. Collision for Casey: "3 commits per quark" (Add. 10) vs one.
+
 ## ██ 2026-10-09 (Friday), 14:57 EDT (Lyra) — **K4-5 Lane A landed (sha 35706e0c…); TD v1.6 line 99 reworded per S1038, PDF rebuilt.**
 - **R-sector:** "stuck" = stuck to the surface (R extends into neither bulk); slogans caged; @Elie: are the photon's boundary values in R?
 - **One-ended vs two-ended:** both texts written; Casey picks. T3 is the SAME test either way; the forms differ in capacity (N_H vs N_H²) and in what c means.
