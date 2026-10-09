@@ -1,0 +1,8 @@
+  [PASS] N1: ε^T ε = 0 and ε†ε = 1 for 100 random commits: the commit's vector is NULL and unit in g_{e₁} ⊗ ℂ
+  [PASS] N2: a rotation about k̂ by θ multiplies ε by e^{±isθ}: weight ±1 (5875's {0, ±1} on g_{e₁}); the sign convention is the helicity's
+  [PASS] N3: ε ⊗ ε̄ has weight 0 and ε ⊗ ε weight ±2: the Stokes double is the tensor square of the null vector (Lyra Sec. 3 (iii))
+  [FAIL] N4: Lyra (ii) 'det(ε₁,ε₂,ε₃) ≠ 0 ⟺ axes independent' as written: 200/200 COPLANAR triples give det ≠ 0 (example |det| = 0.021); only PARALLEL axes force det = 0 (|det| = 1.3e-32). The singlet's vanishing set is 'two commits share an axis', not 'coplanar axes' — for Lyra, the sentence needs rewording; the Gram condition (5878) is the REAL-frame statement, not the null-vector one
+  [PASS] N5: |det| is unchanged when all three helicities are reversed (conjugation up to phases): the orientation sign lives in the phase of det, as Lyra wrote
+  [PASS] N6: ε₁^T ε₂ = 0.154+0.024j needs the bilinear form (the diquark; forgotten with the real structure); ε₁†ε₂ = -0.818-0.212j is Hermitian (3̄ × 3, the meson) — printed, not scored (a definition)
+
+SCORE: 5/6  (N1–N5 can fail; N6 is a definition line)

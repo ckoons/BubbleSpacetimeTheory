@@ -7,6 +7,9 @@ Toy 5879 — Round K4-6, Lane B item 2: H-AREA (Elie, 2026-10-09). Prereg: Keepe
   --part2 (AFTER Cal's hash only): N_cells = Σ_class N_census,class × (A_class/ℓ_P²) from the FROZEN 5877 census vs N_req.
 """
 import sys, os, re, html, json, math
+RESULTS = []
+def score(tag, ok, msg):
+    RESULTS.append(bool(ok)); print(f"  [{'PASS' if ok else 'FAIL'}] {tag}: {msg}")
 
 here = os.path.dirname(os.path.abspath(__file__))
 K = os.path.join(here, '..', 'data', 'sources_grace_2026-10-09', 'bandK')
@@ -65,3 +68,4 @@ print("  written .record_5879_menu.json; N_cells NOT computed; the census file i
 
 if "--part2" in sys.argv:
     exec(open(os.path.join(here, ".k4_6_part2_5879.py")).read())
+    print(f"SCORE: {sum(RESULTS)}/{len(RESULTS)}  (instrument agreement lines; the REPORT carries no credit by Cal S1042)")

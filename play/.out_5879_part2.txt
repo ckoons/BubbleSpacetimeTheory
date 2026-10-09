@@ -1,0 +1,85 @@
+pins read from files: ℓ_P = 1.616255e-35 m, a₀ = 5.291772e-11, λ_e = 2.426310e-12 (h/mc), ƛ_e = 3.861593e-13 (ħ/mc), λ_p = 1.321410e-15 (h/m_p c)
+
+ row length                                                  L [m]     (L/ℓ_P)²   log10  class / flag
+   1 proton charge radius r_p                           8.4075e-16    2.706e+39   39.43  M-recoil: 21-cm, Lyα, LyC | const_045
+   2 proton Compton ƛ_p = ħ/(m_p c) [REDUCED]           2.1031e-16    1.693e+38   38.23  M-recoil variant | NIST h/(m_p c) ÷ 2π; un-reduced = (2π)² larger
+ 2.5    (un-reduced λ_p = h/(m_p c), for the flag)      1.3214e-15    6.684e+39   39.83  — | NOT in the menu count
+   3 nuclear radius 1.2 A^(1/3) fm, A = 12              2.7473e-15    2.889e+40   40.46  M-recoil, binder fork B1: dust | r₀ = 1.2 fm is a FIT (Grace 14.2)
+   3 nuclear radius 1.2 A^(1/3) fm, A = 28              3.6439e-15    5.083e+40   40.71  M-recoil, binder fork B1: dust | r₀ = 1.2 fm is a FIT (Grace 14.2)
+   3 nuclear radius 1.2 A^(1/3) fm, A = 56              4.5910e-15    8.069e+40   40.91  M-recoil, binder fork B1: dust | r₀ = 1.2 fm is a FIT (Grace 14.2)
+   4 grain radius 0.01 μm (MRN)                         1.0000e-08    3.828e+53   53.58  M-recoil, binder fork B2: dust | MRN 1977 (band K)
+   4 grain radius 0.1 μm (MRN)                          1.0000e-07    3.828e+55   55.58  M-recoil, binder fork B2: dust | MRN 1977 (band K)
+   4 grain radius 1 μm (MRN)                            1.0000e-06    3.828e+57   57.58  M-recoil, binder fork B2: dust | MRN 1977 (band K)
+   5 λ = 21 cm (c/1420.4 MHz)                           2.1106e-01    1.705e+68   68.23  M-mode: 21-cm | Wild 1952
+   6 λ Lyα = 121.567 nm                                 1.2157e-07    5.657e+55   55.75  M-mode: Lyα | NIST ASD
+   6 λ LyC = 1/R_∞ = 91.127 nm                          9.1127e-08    3.179e+55   55.50  M-mode: LyC | const_129
+   7 λ_abs = 0.4 μm                                     4.0000e-07    6.125e+56   56.79  M-mode: dust | 5877 E_abs fork
+   7 λ_abs = 0.6 μm                                     6.0000e-07    1.378e+57   57.14  M-mode: dust | 5877 E_abs fork
+   7 λ_abs = 1.2 μm                                     1.2000e-06    5.512e+57   57.74  M-mode: dust | 5877 E_abs fork
+   8 Bohr radius a₀                                     5.2918e-11    1.072e+49   49.03  M-writer: all | const_030 / NIST
+   9 electron Compton ƛ_e = ħ/(m_e c) [REDUCED]         3.8616e-13    5.708e+44   44.76  M-writer: all | NIST ecomwlbar; un-reduced λ_e = (2π)² larger (1.6 dec)
+ 9.5    (un-reduced λ_e = h/(m_e c), for the flag)      2.4263e-12    2.254e+46   46.35  — | NOT in the menu count
+  10 classical electron radius r_e = α ƛ_e              2.8179e-15    3.040e+40   40.48  M-writer: all | const_111
+  11 ℓ_P (one cell: the null, T3 as run)                1.6163e-35    1.000e+00    0.00  all | NIST plkl
+
+  menu rows 1–10: n = 17 distinct area values (every fork counted), span S = 30.00 decades (log10 from 38.23 to 68.23); Keeper's form P₀ = min(1, 2n/S) = 1.00 — CAL sets the numbers, this is the arithmetic of his form
+  written .record_5879_menu.json; N_cells NOT computed; the census file is not opened in part 1.
+
+PART 2 — REPORT (Cal S1042: no credit possible today). N_req = 2.240e+122 (log 122.35); census classes: 21cm (troughs) 3.72e+82, Lyα (once) 2.18e+79, LyC 2.18e+79, dust (primary) 1.11e+83
+  needed area if one class alone carried N_req (log10 cells): {'21cm (troughs)': 39.78, 'Lyα (once)': 43.01, 'LyC': 43.01, 'dust (primary)': 39.31}
+
+  M-recoil (Lyra: CLOSED NEGATIVE as a mechanism; Cal: B2 is the physics for dust; rows printed as the report asks)
+   M-recoil  21cm (troughs)   × proton charge radius r_p                     → N_cells = 1.01e+122  log10(N_cells/N_req) =  -0.35
+   M-recoil  21cm (troughs)   × proton Compton ƛ_p = ħ/(m_p c) [REDUCED]     → N_cells = 6.30e+120  log10(N_cells/N_req) =  -1.55
+   M-recoil  21cm (troughs)   × Bohr radius a₀                               → N_cells = 3.99e+131  log10(N_cells/N_req) =  +9.25
+   M-recoil  Lyα (once)       × proton charge radius r_p                     → N_cells = 5.90e+118  log10(N_cells/N_req) =  -3.58
+   M-recoil  Lyα (once)       × proton Compton ƛ_p = ħ/(m_p c) [REDUCED]     → N_cells = 3.69e+117  log10(N_cells/N_req) =  -4.78
+   M-recoil  Lyα (once)       × Bohr radius a₀                               → N_cells = 2.34e+128  log10(N_cells/N_req) =  +6.02
+   M-recoil  LyC              × proton charge radius r_p                     → N_cells = 5.90e+118  log10(N_cells/N_req) =  -3.58
+   M-recoil  LyC              × proton Compton ƛ_p = ħ/(m_p c) [REDUCED]     → N_cells = 3.69e+117  log10(N_cells/N_req) =  -4.78
+   M-recoil  LyC              × Bohr radius a₀                               → N_cells = 2.34e+128  log10(N_cells/N_req) =  +6.02
+   M-recoil  dust (primary)   × nuclear radius 1.2 A^(1/3) fm, A = 12 [B1]   → N_cells = 3.20e+123  log10(N_cells/N_req) =  +1.15
+   M-recoil  dust (primary)   × nuclear radius 1.2 A^(1/3) fm, A = 28 [B1]   → N_cells = 5.63e+123  log10(N_cells/N_req) =  +1.40
+   M-recoil  dust (primary)   × nuclear radius 1.2 A^(1/3) fm, A = 56 [B1]   → N_cells = 8.93e+123  log10(N_cells/N_req) =  +1.60
+   M-recoil  dust (primary)   × grain radius 0.01 μm (MRN) [B2]              → N_cells = 4.24e+136  log10(N_cells/N_req) = +14.28
+   M-recoil  dust (primary)   × grain radius 0.1 μm (MRN) [B2]               → N_cells = 4.24e+138  log10(N_cells/N_req) = +16.28
+   M-recoil  dust (primary)   × grain radius 1 μm (MRN) [B2]                 → N_cells = 4.24e+140  log10(N_cells/N_req) = +18.28
+
+  M-mode (the mode's étendue cell λ²; class-dependent)
+   M-mode    21cm (troughs)   × λ = 21 cm (c/1420.4 MHz)                     → N_cells = 6.34e+150  log10(N_cells/N_req) = +28.45
+   M-mode    Lyα (once)       × λ Lyα = 121.567 nm                           → N_cells = 1.23e+135  log10(N_cells/N_req) = +12.74
+   M-mode    LyC              × λ LyC = 1/R_∞ = 91.127 nm                    → N_cells = 6.93e+134  log10(N_cells/N_req) = +12.49
+   M-mode    dust (primary)   × λ_abs = 0.4 μm                               → N_cells = 6.78e+139  log10(N_cells/N_req) = +17.48
+   M-mode    dust (primary)   × λ_abs = 0.6 μm                               → N_cells = 1.53e+140  log10(N_cells/N_req) = +17.83
+   M-mode    dust (primary)   × λ_abs = 1.2 μm                               → N_cells = 6.10e+140  log10(N_cells/N_req) = +18.44
+
+  M-writer (Lyra: the Compton circle ƛ_e is the row; a₀ and r_e are named alternatives without a sentence) — class-independent area
+   M-writer  21cm (troughs)   × electron Compton ƛ_e = ħ/(m_e c) [REDUCED]   → N_cells = 2.12e+127  log10(N_cells/N_req) =  +4.98
+   M-writer  Lyα (once)       × electron Compton ƛ_e = ħ/(m_e c) [REDUCED]   → N_cells = 1.24e+124  log10(N_cells/N_req) =  +1.74
+   M-writer  LyC              × electron Compton ƛ_e = ħ/(m_e c) [REDUCED]   → N_cells = 1.24e+124  log10(N_cells/N_req) =  +1.74
+   M-writer  dust (primary)   × electron Compton ƛ_e = ħ/(m_e c) [REDUCED]   → N_cells = 6.32e+127  log10(N_cells/N_req) =  +5.45
+      sum over classes × electron Compton ƛ_e = ħ/(m_e c) [REDUCE: log10(N_cells/N_req) = +5.58
+   M-writer  21cm (troughs)   × Bohr radius a₀                               → N_cells = 3.99e+131  log10(N_cells/N_req) =  +9.25
+   M-writer  Lyα (once)       × Bohr radius a₀                               → N_cells = 2.34e+128  log10(N_cells/N_req) =  +6.02
+   M-writer  LyC              × Bohr radius a₀                               → N_cells = 2.34e+128  log10(N_cells/N_req) =  +6.02
+   M-writer  dust (primary)   × Bohr radius a₀                               → N_cells = 1.19e+132  log10(N_cells/N_req) =  +9.72
+      sum over classes × Bohr radius a₀: log10(N_cells/N_req) = +9.85
+   M-writer  21cm (troughs)   × classical electron radius r_e = α ƛ_e        → N_cells = 1.13e+123  log10(N_cells/N_req) =  +0.70
+   M-writer  Lyα (once)       × classical electron radius r_e = α ƛ_e        → N_cells = 6.63e+119  log10(N_cells/N_req) =  -2.53
+   M-writer  LyC              × classical electron radius r_e = α ƛ_e        → N_cells = 6.63e+119  log10(N_cells/N_req) =  -2.53
+   M-writer  dust (primary)   × classical electron radius r_e = α ƛ_e        → N_cells = 3.36e+123  log10(N_cells/N_req) =  +1.18
+      sum over classes × classical electron radius r_e = α ƛ_e: log10(N_cells/N_req) = +1.30
+
+  sums (all classes) under named combinations:
+   M-recoil B2 (physics): proton for 21-cm/Lyman, 0.1 μm grain for dust     log10(N_cells/N_req) = +16.28
+   M-recoil B1 (no sentence): proton for 21-cm/Lyman, A = 28 nucleus for dust log10(N_cells/N_req) =  +1.41
+   M-mode: 21 cm, Lyα, LyC, 0.6 μm                                          log10(N_cells/N_req) = +28.45
+   M-writer: ƛ_e for all                                                    log10(N_cells/N_req) =  +5.58
+
+  K4 composition check (proton row / B1 nucleus): 21-cm-only subtotal -0.35, dust-only subtotal +1.40 — straddle by > 1.5 decades
+
+  Eddington–Dirac (Cal S1042 Sec. 3): (R_H/r_p)²/N_atoms = 10^4.11; absorptions per atom (dust + 21-cm) = 10^4.86; their ratio +0.74 decades = the proton-row 'landing'
+  [PASS] P2a: Cal's two numbers reproduced from the frozen census: Dirac residual 10^4.11, absorptions per atom 10^4.86 — two instruments agree
+  [PASS] P2b: needed areas dust 39.30, 21-cm 39.78 (log cells) reproduce Cal's instrument
+  [PASS] P2c: the only ±1-decade landings under the per-class assignment are nuclear-scale rows: [('21cm (troughs)', 'proton charge radius r', -0.35), ('21cm (troughs)', 'classical electron rad', 0.7)]; dust × A = 12 nucleus is +1.15 (just outside); every M-mode row, a₀ and the grain miss by > 1 decade (M-mode by 12–28) — Cal S1042 Sec. 2 reproduced (his +0.13/+0.68 are cross-class products); CREDIT NONE (Sec. 0, 3)
+SCORE: 3/3  (instrument agreement lines; the REPORT carries no credit by Cal S1042)
