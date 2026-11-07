@@ -160,7 +160,7 @@
    "spin": 0.5,
    "color": false,
    "stable": true,
-   "substrate_description": "The Z_3 Goldstone mode \u2014 the vacuum ground state in propagating form. Not a circuit, not a winding. The vacuum expressing its geometry. What a channel looks like in its ground state while maintaining topological connectivity.",
+   "substrate_description": "The massless null direction of the rank-2 geometric Majorana matrix (T2563/T2524), protected by Z_3 \u2014 the vacuum ground state in propagating form. (Said 'The Z_3 Goldstone mode' until 2026-11-07: a discrete symmetry has no Goldstone modes; Rosetta C16.) Not a circuit, not a winding. The vacuum expressing its geometry. What a channel looks like in its ground state while maintaining topological connectivity.",
    "geometric_layer": "D_IV^5 vacuum",
    "winding_number": 0,
    "spectral_level": "vacuum mode",

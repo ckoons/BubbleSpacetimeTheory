@@ -76,3 +76,35 @@ uncertainties. const_061 has a `tension_2026_11_07` field. Tiers are unchanged.
 The computation was a scratch script outside the repo. It needs a toy number:
 `play/.next_toy` is not in the cloud clone, so per the `/toy` rule no toy was created. Casey
 or a local CI can claim one and file it.
+
+## Applied 2026-11-07, 18:14 (Casey: "please include all that you recommend")
+
+- **Rulings 1 and 4 applied.** `data/bst_seed.md` and `data/bst_predictions.json` (pred_003)
+  now give Σ as the normal-ordering minimum, 0.0588–0.0590 eV, from m_ν1 = 0 plus the measured
+  splittings. The m_ν3 form carries its −3.8σ flag. pred_003 also records the newest DESI bound
+  (< 0.0592 eV, ΛCDM, DESI DR2 BAO + Lyα FS + CMB, arXiv:2607.27410).
+- **Ruling 2 applied as a flag, not a withdrawal.** The 10/3 form stays in the catalog, marked
+  in tension. Whether to withdraw it or route it to the non-match pipeline is still Keeper's
+  call.
+- **Ruling 3 is proposed to Cal, not written into the referee log**, which Cal maintains with
+  hashed entries. Proposed standing rule: *when a ratio's error is dominated by its less precise
+  member, also score the more precise member absolutely.*
+- **New catch while editing (Rosetta C16):** pred_003 and `data/bst_particles.json` called ν₁
+  "the Z₃ Goldstone mode". A discrete symmetry such as Z₃ has no Goldstone modes, since
+  Goldstone's theorem needs a continuous symmetry. Both now read "the null direction of the
+  rank-2 geometric Majorana matrix, protected by Z₃", with the old wording kept.
+
+## The BST route to improving m_ν2 and m_ν3 (proposal; needs agreement before any toy)
+
+The masses and the PMNS angles are the eigenvalues and eigenvectors of **one** matrix, the
+geometric Majorana matrix M, written in the charged-lepton frame (R52: "mixing lives in the
+texture"). BST currently fits these separately: two rational coefficients (7/12, 10/3) for the
+masses, and identified fractions for the angles (θ₂₃ → 4/7, θ₁₃ → 1/45, θ₁₂ pending). A single
+rank-2 M fixes five observables at once (m₂, m₃ and three angles; m₁ = 0 is its null vector),
+so the system is over-determined and therefore resistant to fitting.
+
+The proposed test: build M = U*·diag(0, m₂, m₃)·U† from measured values, and separately from
+BST's identified values. Then ask two questions. Does M have a form native to D_IV⁵, with
+entries fixed by the strata and the Bergman norms? Does any such form move m₃ up by about 1.5%
+*while* keeping the angles? If the angles and masses can't both be held, the coefficient
+picture is wrong at the root.

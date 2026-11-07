@@ -187,9 +187,13 @@ representations labeled by integers. The mass spectrum IS the Plancherel measure
   Higgs doublet (CONDITIONAL until the Higgs rep-checks close). (Added 2026-11-07; see
   `notes/BST_Clarification_Scalar_Spectrum_Goldstone_and_B_Anomaly_Corollary_2026-11-07.md`.)
 - m_nu1 = 0 (exactly — Majorana neutrinos, REVERSED 2026-07-16 from Dirac; F413/K673 → 0νββ occurs, m_ββ ∈ [1.4,3.7] meV)
-- m_nu2 = (7/12) * alpha^2 * m_e^2 / m_p = 0.00865 eV
-- m_nu3 = (10/3) * alpha^2 * m_e^2 / m_p = 0.04940 eV
-- Sum = 0.058 eV (normal ordering)
+- m_nu2 = (7/12) * alpha^2 * m_e^2 / m_p = 0.00865 eV  [-0.09 sigma vs NuFIT 6.0]
+- m_nu3 = (10/3) * alpha^2 * m_e^2 / m_p = 0.04940 eV  [IN TENSION: m3^2 = 2.440e-3 eV^2 vs
+  NuFIT 6.0 2.513e-3, -3.8 sigma, below the 3-sigma range; the 40/7 ratio test (1.25 sigma) hid it]
+- Sum = the normal-ordering minimum, sqrt(Dm21) + sqrt(Dm31) = 0.0588-0.0590 eV, which follows
+  from m_nu1 = 0 plus the measured splittings. DESI DR2 + Lya + CMB (LCDM): < 0.0592 eV (95%).
+  (This line said "Sum = 0.058 eV (normal ordering)" until 2026-11-07; 0.058 used the m_nu3 form
+  above. See notes/BST_Neutrino_m3_Absolute_Tension_2026-11-07.md.)
 
 ## Nuclear Physics
 - Magic numbers from spin-orbit splitting kappa_ls = C_2/n_C = 6/5: 2, 8, 20, 28, 50, 82, 126

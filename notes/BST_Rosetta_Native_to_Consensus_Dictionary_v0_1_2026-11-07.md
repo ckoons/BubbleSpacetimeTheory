@@ -172,3 +172,8 @@ status CONFLICT.
   EXACT, 28 PASS, 1 WARN; 4 fired/retired excluded).
 - **Still open:** C15 (named operators for "projection" and "commit") is a team decision, not
   an edit. The Šilov boundary / 4+1 Minkowski statement still needs Lyra's check.
+
+- **C16 (found and applied 18:14):** ν₁ was called "the Z₃ Goldstone mode" in
+  `data/bst_predictions.json` (pred_003) and `data/bst_particles.json`. Discrete symmetries have
+  no Goldstone modes. Both now read "null direction of the rank-2 geometric Majorana matrix,
+  protected by Z₃". Use that phrase externally.
