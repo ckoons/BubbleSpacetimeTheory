@@ -257,14 +257,27 @@ The number of broken generators:
 
 $$\dim(\text{SO}_0(5,2)) - \dim(\text{SO}(5) \times \text{SO}(2)) = 21 - 11 = 10 = 2n_C$$
 
-These 10 broken generators correspond to 10 Goldstone modes — massless
-degrees of freedom arising from the symmetry breaking. These 10 modes
-ARE the $2n_C = 10$ real dimensions of the domain D_IV^5 itself.
+In a theory where a dynamical field chose a point of this quotient, these
+10 broken generators would be 10 Goldstone directions. In BST no field
+chooses a point: the domain itself is the arena, and its $2n_C = 10$ real
+dimensions are the coordinates on which all fields live, not fields
+themselves. There are therefore no propagating Goldstone bosons from this
+coset.
 
 **The first commitment does not just create a particle. It creates the
-arena in which particles live.** The 10 Goldstone modes from the
-symmetry breaking are the field-theoretic degrees of freedom on which
-all subsequent physics is built.
+arena in which particles live.** The 10 coset directions are the
+coordinates on which all subsequent physics is built.
+
+*(This passage said "These 10 broken generators correspond to 10 Goldstone
+modes — massless degrees of freedom … These 10 modes ARE the 2n_C = 10 real
+dimensions" and called them "field-theoretic degrees of freedom" until
+2026-11-07. Read literally, that predicts 10 massless scalars, which is
+falsified. Goldstone's theorem (T262) needs no topological condition, so
+the contractibility of D_IV^5 does not remove them; the arena reading does.
+Open for Lyra: SO(5,2) contains the 4D conformal group SO(4,2) (F242), and
+broken spacetime symmetries do not obey the one-Goldstone-per-generator
+count (Low and Manohar, PRL 2002). Check how that applies before citing it.
+See the 2026-11-07 clarification note, Section 1.)*
 
 ### 4.3 The Commitment Cascade
 

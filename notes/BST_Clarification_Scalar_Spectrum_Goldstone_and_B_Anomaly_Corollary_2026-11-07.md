@@ -112,3 +112,17 @@ that, propose DERIVED.
 
 **Prerequisite:** resolve conflicts 1–3 in Section 4, then timestamp on Zenodo before the
 next Belle II R(D\*) release.
+
+## 6. Applied 2026-11-07 (Casey's GO, 16:22)
+
+| # | Applied where | What remains open |
+|---|---|---|
+| 1 | Five-Absence one-pager item 4 now reads "No light sterile neutrinos"; old wording kept in a note | What the two ν_R are: non-propagating labels or heavy states |
+| 2 | T292 in `BST_AC_Theorems.md`: mechanism sentence annotated RETIRED in place | None |
+| 3 | K1181 annotated RE-SCOPED to the skeleton only, per R51 | None |
+| 4 | `BST_FirstCommitment.md` Section 4.2 rewritten to the arena reading; old wording kept | Lyra: whether Low–Manohar applies |
+| 5 | Flagship F583 paragraph, Falsifiable Predictions paper v0.1, `data/bst_predictions.json` color-duality entry, seed neutrino section | **Cal must re-ratify F583.** Moving from condensate to explicit term changes physics, not only wording. About 35 dated notes still say "condensate"; they are left as the historical record. |
+| 6 | K1358 sentence annotated RETIRED in place | None |
+
+Also applied: the B-physics corollary prerequisites (conflicts 1–3) are now met in the corpus text.
+Timestamp on Zenodo once Cal re-ratifies F583 and Keeper tiers Section 3.

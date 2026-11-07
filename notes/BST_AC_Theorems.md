@@ -7574,6 +7574,8 @@ Measured: Σm_ν < 0.12 eV (Planck 2018 + BAO). The BST prediction is in the rig
 
 **AC(0) depth: 0.** The seesaw is a 2×2 matrix eigenvalue (T274). The mass scale is m²_D/M_R with m_D ~ m_e and M_R ~ m_p (the mass hierarchy from the proton-electron ratio). One division.
 
+*[MECHANISM SENTENCE RETIRED 2026-11-07 (Casey's GO; clarification note conflict 2): "the Majorana mass set by the GUT-scale generator decoupling" contradicts the derived No-GUT absence and predates the rank-2 geometric Majorana result (T2563/T2524). The Majorana term is an explicit geometric form, and its scale here is M_R ~ m_p as the AC(0) line above already states. The 0.3 eV estimate is superseded by the seed's boundary-seesaw values (sum 0.058 eV).]*
+
 ### T293. W/Z Mass Ratio
 
 **Theorem (T293).** *m_W/m_Z = cos θ_W = √(1 - sin²θ_W) = √(1 - 3/13) = √(10/13). Measured: m_W/m_Z = 0.88147. BST: √(10/13) = 0.87706. Discrepancy: 0.5% — accounted for by radiative corrections (running of sin²θ_W from the pole to the Z mass).*

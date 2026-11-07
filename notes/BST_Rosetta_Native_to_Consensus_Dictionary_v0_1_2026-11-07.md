@@ -158,3 +158,17 @@ Numbering continues from C1–C6 in the companion clarification note.
 Add a row whenever a native term appears in a paper draft. Fill all five columns. If the
 consensus column is "none", the status is NEW or INTERNAL. Nothing ships externally with
 status CONFLICT.
+
+## Applied 2026-11-07 (Casey's GO, 16:22)
+
+- **C7, C9, C11, C12, C13, C14:** fixed in `data/bst_seed.md`, which is now re-synced to the
+  state block. Each changed line carries "(this line said … until 2026-11-07)".
+- **C8:** the Five-Absence one-pager now names W_R/$Z'$ as a derived sixth absence. The title is
+  kept.
+- **C10:** the seed now points to K962 as the canonical tier system and maps D/I/C/S onto it.
+  CLAUDE.md is unchanged.
+- **Also fixed:** `data/bst_this_is.md` now says "Not a model: tunes nothing; one input, one
+  ruler", has the 50-quantity count, and has the verify_bst tally as run today (45/46; 17
+  EXACT, 28 PASS, 1 WARN; 4 fired/retired excluded).
+- **Still open:** C15 (named operators for "projection" and "commit") is a team decision, not
+  an edit. The Šilov boundary / 4+1 Minkowski statement still needs Lyra's check.

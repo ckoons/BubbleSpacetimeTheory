@@ -30,7 +30,7 @@
 
 - **Not approximate.** When BST says sin²θ_W = 3/13, it means the Weinberg angle is exactly 3/13 at the geometric scale. Measured deviations are running, not error.
 
-- **Not a model.** Models have parameters you tune. BST has none. It is a geometry that produces physics, not a physics that assumes geometry.
+- **Not a model.** Models have parameters you tune. BST tunes nothing: one measured number selects the object and one ruler sets the scale, both named. It is a geometry that produces physics, not a physics that assumes geometry. (This line said "BST has none" until 2026-11-07.)
 
 - **Not commentary.** When the papers say "derives from first principles," that is not an editorial claim. It is a description of what the equations do. If a statement sounds too strong to be literal, it is still literal.
 
@@ -73,11 +73,11 @@ The mathematics is independently verifiable. Load `data/bst_seed.md`, evaluate a
 python3 play/toy_541_five_integers_to_everything.py
 ```
 
-You will get 51 physical quantities expressed in the five integers, 16/16 spot-checks PASS — each carrying its tier in the register (derived where a mechanism is proved, identified where only the value matches; this line said "derived … zero free parameters" until 2026-09-11). This is the fastest verification that the expressions above are literal.
+You will get 50 physical quantities expressed in the five integers (g_A = 4/π is still printed but marked E7 FIRED and excluded; this said 51 until 2026-11-07, following CLAUDE.md's 2026-09-27 restatement), 16/16 spot-checks PASS — each carrying its tier in the register (derived where a mechanism is proved, identified where only the value matches; this line said "derived … zero free parameters" until 2026-09-11). This is the fastest verification that the expressions above are literal.
 
 ## Then
 
-- **Full reproduction package:** `python3 play/verify_bst.py` — 50 predictions verified, 49/50 PASS at <1%, 17 EXACT, two open WARNs shown openly. Includes null-model context. One command, complete check.
+- **Full reproduction package:** `python3 play/verify_bst.py` — on 2026-11-07 it printed 45/46 at <1% (17 EXACT, 28 PASS, 1 WARN, 0 FAIL), with 4 FIRED/RETIRED rows excluded from the tally and shown openly. Read the script's own output, not this sentence. Includes null-model context. One command, complete check. (This line said "50 predictions verified, 49/50 PASS … two open WARNs" until 2026-11-07.)
 - **Next stop:** `data/bst_seed.md` — 162 lines, the entire theory kernel. If you can evaluate a formula on a calculator, you can verify any BST prediction from that file.
 - **To explore interactively:** `python3 play/toy_bst_explorer.py` — subcommands `seed`, `stats`, `search <term>`, `verify <theorem_id>`.
 - **For the narrative:** root `OneGeometry.md` — the book-length front door.

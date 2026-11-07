@@ -9,6 +9,8 @@ verdict: Elie's up-tower blind fire NEGATIVE (5060): even-grid FK {0,2,4} = 1:12
 
 # K1181 — up-masses not FK (saturation); the mixing rides addresses not masses; Grace gets the cross-shelf overlap math
 
+> **[RE-SCOPED 2026-11-07 (Casey's GO; clarification note conflict 3), per Grace R51 (2026-08-22):** the reframe "mixing rides the addresses" as a degree-shifting current between orthogonal generation spaces is **retired**. R51 shows it is incompatible with T2530: a non-universal current cannot give a unitary CKM, and a universal one (J = identity on generation space) collapses into T2530 and adds nothing. K1181 now stands for the **skeleton only**: its parity/selection-rule content. The up-mass negative (Elie 5060) is unaffected.]
+
 ## The negative (accepted straight — Elie 5060, Cal §286 pre-registered it)
 The up-tower FK ladder at the even shelves {0,2,4} gives 1:12:360 — far too shallow vs the observed top-heavy up sector (~1:588:79981). Cal's robustness: for *any* convex norm, the lower interval [0,4] grows less than [1,5], so the even grid is necessarily shallower — but up is *steeper*, so the even-grid FK assignment predicts the up hierarchy in the **wrong direction**. ⟹ **The up-masses are not FK-forced** — they run on **top-Yukawa saturation** (y_t=1, corpus #43/#53), precisely *because* the up-sector is top-heavy. Only down + charged-lepton ladders are FK-forced. A real negative, on the board as data.
 

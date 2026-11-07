@@ -18,8 +18,10 @@ Bubble Spacetime Theory (BST, Koons 2024-2026) is built on a specific bounded He
 1. **No Grand Unified Theory (GUT) at higher scales.** SU(3) color × SU(2) weak × U(1) hypercharge is forced by D_IV⁵ primary integer structure (T2436 SP-31-8); no embedding into a larger simple Lie group required or available.
 2. **No proton decay.** Direct consequence of no GUT. Current bound: τ_p > 10³⁴ years (Super-Kamiokande). BST predicts τ_p = ∞.
 3. **No magnetic monopoles.** No Spin(N) → SU(5) symmetry breaking pattern at high energy. Current bound: MoEDAL / IceCube / cosmic ray surveys.
-4. **No sterile neutrinos.** No right-handed neutrino sector in the BST substrate's K-type Wallach decomposition. Current bound: MicroBooNE / IceCube / cosmological constraints.
+4. **No light sterile neutrinos.** No propagating light right-handed neutrino in the K-type Wallach decomposition. Current bound: MicroBooNE / IceCube / cosmological constraints. *(This item said "No right-handed neutrino sector" until 2026-11-07. That contradicted F583/F584, which build the geometric Majorana term from exactly two ν_R. What the two ν_R are, non-propagating labels of the Majorana term or heavy states, is open; either way no light sterile state exists.)*
 5. **No supersymmetry (SUSY).** No superpartner doubling of the fermion / boson spectrum. Current bound: LHC multi-TeV null searches for squarks, gluinos, charginos, neutralinos.
+
+**A sixth absence, derived rather than supplementary: no right-handed W and no $Z'$.** The right-handed + B−L sector has four directions and the geometry gauges exactly one, hypercharge; the missing three are W_R± and $Z'$ (F582; flagship Sec. 4). The state block's "Forbidden" list therefore names six items, not five, and that list is authoritative. *(Added 2026-11-07, Rosetta C8. The title keeps "Five" because it names the five canonical absences above.)*
 
 Additional absences (NO sterile gravitino, NO axion in BST-primary form, NO extra-dimensional Kaluza-Klein modes) follow from the same substrate-uniqueness arguments at supplementary tier. BST is committed to falsification: **any positive detection of any of these five canonical absences refutes the framework.**
 
