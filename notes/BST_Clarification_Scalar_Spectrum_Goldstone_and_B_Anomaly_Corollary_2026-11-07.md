@@ -87,6 +87,7 @@ that, propose DERIVED.
 | 3 | K1181's degree-shifting current breaks flavor universality, but T2530 and R52 require it | K1181 vs T2530/R52 | Formally retire the K1181 framing, as R51 already recommends. |
 | 4 | "10 Goldstone modes" can be read as 10 particles | FirstCommitment Section 4.2 | Section 1 wording. |
 | 5 | "Condensate" implies a Majoron | F583, F684, Duality paper | Section 2 wording. |
+| 6 | Electron placement reversed. K1358 says "TAU touches the Shilov boundary, the electron is bulk." The Wallach notes put the electron (k = 1, below the Wallach set) on the Shilov boundary with the proton as the first bulk state, and Toy 2417 / Paper 106 v0.3 put the muon and tau one and two layers in. | Keeper_K1358 (2026-08-10) vs grace_k7_mPlanck_endpoint_wallach_threshold (2026-06-29), Paper 106 v0.3, Toy 2417 | Retire the K1358 sentence. The Wallach placement is the rigorous one. It is also what the neutron-decay reading needs: proton (bulk) to electron (boundary) is a bulk-to-boundary transition through the Szegő map. |
 
 ## 5. The B-physics corollary (pre-registration text)
 
