@@ -60,8 +60,8 @@ explicitly, never spontaneously, so no Majoron exists."
 
 **This also closes the open F137 obligation.** A gauged, unbroken B−L would forbid any
 Majorana mass. The flagship (Section 4, F582) gauges only hypercharge, and the B−L direction is
-among the three ungauged ones whose absence gives no W_R and no Z′. So B−L is global and
-explicitly broken. That is option (b) of the obligation. It needs no Z′, which BST forbids.
+among the three ungauged ones whose absence gives no W_R and no $Z'$. So B−L is global and
+explicitly broken. That is option (b) of the obligation. It needs no $Z'$, which BST forbids.
 
 ## 3. The scalar spectrum: state it in one sentence
 
@@ -91,14 +91,14 @@ that, propose DERIVED.
 ## 5. The B-physics corollary (pre-registration text)
 
 > **Corollary (B-physics).** With the charged weak current flavor-universal (R52, proposed
-> DERIVED), no W_R or Z′ (F582, DERIVED), and the Higgs doublet the only dynamical scalar
+> DERIVED), no W_R or $Z'$ (F582, DERIVED), and the Higgs doublet the only dynamical scalar
 > (Section 3, CONDITIONAL), BST forbids the standard new-physics explanations of the B-meson
-> anomalies: Z′ and W′ bosons, leptoquarks, extra Higgs doublets, and light invisible scalars
+> anomalies: $Z'$ and $W'$ bosons, leptoquarks, extra Higgs doublets, and light invisible scalars
 > including the Majoron. BST therefore predicts:
 >
 > - **R(D), R(D\*) and R(J/ψ)** converge to their Standard Model values (R(D\*)_SM ≈ 0.257).
 > - **B⁺ → K⁺νν̄** converges to the Standard Model rate. The K/K\* ratio returns to SM.
-> - **The remaining b→sμμ deficits** (P5′ and the branching ratios) are hadronic, most
+> - **The remaining b→sμμ deficits** ($P_5'$ and the branching ratios) are hadronic, most
 >   likely charm-loop effects, and will separate inclusive from exclusive modes the way a
 >   hadronic effect does.
 >
